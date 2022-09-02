@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.hassamerules.html: '« IntlTimeZone::hasSameRules'
-  - intltimezone.usedaylighttime.html: 'IntlTimeZone::useDaylightTime »'
-  - index.html: PHP Manual
-  - class.intltimezone.html: IntlTimeZone
+  - intltimezone.hassamerules.md: '« IntlTimeZone::hasSameRules'
+  - intltimezone.usedaylighttime.md: 'IntlTimeZone::useDaylightTime »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::toDateTimeZone'
 ---
 # IntlTimeZone::toDateTimeZone
@@ -12,7 +12,7 @@ title: 'IntlTimeZone::toDateTimeZone'
 
 (PHP 5 >= 5.5.0, PHP 7, PHP 8, PECL >= 3.0.0a1)
 
-IntlTimeZone::toDateTimeZone -- intltzтоdatetimezone — Перетворити на об'єкт [DateTimeZone](class.datetimezone.html)
+IntlTimeZone::toDateTimeZone -- intltzтоdatetimezone — Перетворити на об'єкт [DateTimeZone](class.datetimezone.md)
 
 ### Опис
 

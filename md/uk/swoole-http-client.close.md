@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.addfile.html: '« SwooleHttpClient::addFile'
-  - swoole-http-client.construct.html: 'SwooleHttpClient::construct »'
+  - swoole-http-client.addfile.md: '« SwooleHttpClient::addFile'
+  - swoole-http-client.construct.md: 'SwooleHttpClient::construct »'
   - index.md: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::close'
 ---
 # SwooleHttpClient::close

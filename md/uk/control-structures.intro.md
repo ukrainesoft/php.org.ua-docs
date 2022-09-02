@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.control-structures.html: « Управляющие конструкции
-  - control-structures.if.html: if »
+  - language.control-structures.md: « Управляющие конструкции
+  - control-structures.if.md: if »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: Вступ
 ---
 ## Вступ

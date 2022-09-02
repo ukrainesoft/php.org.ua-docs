@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-plugin-abstract.routerstartup.html: '« YafPluginAbstract::routerStartup'
-  - yaf-registry.construct.html: 'YafRegistry::construct »'
+  - yaf-plugin-abstract.routerstartup.md: '« YafPluginAbstract::routerStartup'
+  - yaf-registry.construct.md: 'YafRegistry::construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafRegistry

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imageinterlace.html: « imageinterlace
-  - function.imagejpeg.html: imagejpeg »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imageinterlace.md: « imageinterlace
+  - function.imagejpeg.md: imagejpeg »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageistruecolor
 ---
 # imageistruecolor
@@ -24,7 +24,7 @@ imageistruecolor(GdImage $image): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ imageistruecolor(GdImage $image): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -66,5 +66,5 @@ if(!imageistruecolor($im))
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
--   [imagepalettetotruecolor()](function.imagepalettetotruecolor.html) - Перетворює зображення на основі палітри на справжній колір
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
+-   [imagepalettetotruecolor()](function.imagepalettetotruecolor.md) - Перетворює зображення на основі палітри на справжній колір

@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.intl.html: « Введение
-  - intl.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - intro.intl.md: « Введение
+  - intl.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](intl.requirements.html)
--   [Установка](intl.installation.html)
--   [Налаштування під час виконання](intl.configuration.html)
--   [Типи ресурсів](intl.resources.html)
+-   [Вимоги](intl.requirements.md)
+-   [Установка](intl.installation.md)
+-   [Налаштування під час виконання](intl.configuration.md)
+-   [Типи ресурсів](intl.resources.md)

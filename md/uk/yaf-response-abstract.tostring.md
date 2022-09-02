@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-response-abstract.setredirect.html: '« YafResponseAbstract::setRedirect'
-  - class.yaf-route-interface.html: YafRouteInterface »
+  - yaf-response-abstract.setredirect.md: '« YafResponseAbstract::setRedirect'
+  - class.yaf-route-interface.md: YafRouteInterface »
   - index.md: PHP Manual
-  - class.yaf-response-abstract.html: YafResponseAbstract
+  - class.yaf-response-abstract.md: YafResponseAbstract
 title: 'YafResponseAbstract::function toString() { \[native code\] }'
 ---
 # YafResponseAbstract::function toString() { \[native code\] }

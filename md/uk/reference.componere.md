@@ -1,6 +1,6 @@
 ---
 navigation:
-  - componere-value.hasdefault.html: '« ComponereValue::hasDefault'
+  - componere-value.hasdefault.md: '« ComponereValue::hasDefault'
   - componere.cast.md: Componerecast »
   - index.md: PHP Manual
   - book.componere.md: Componere

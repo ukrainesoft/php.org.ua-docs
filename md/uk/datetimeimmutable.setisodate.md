@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetimeimmutable.setdate.html: '« DateTimeImmutable::setDate'
-  - datetimeimmutable.settime.html: 'DateTimeImmutable::setTime »'
-  - index.html: PHP Manual
-  - class.datetimeimmutable.html: DateTimeImmutable
+  - datetimeimmutable.setdate.md: '« DateTimeImmutable::setDate'
+  - datetimeimmutable.settime.md: 'DateTimeImmutable::setTime »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::setISODate'
 ---
 # DateTimeImmutable::setISODate
@@ -36,7 +36,7 @@ public DateTimeImmutable::setISODate(int $year, int $week, int $dayOfWeek = 1): 
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -120,5 +120,5 @@ echo $newDate->format('n');
 
 ### Дивіться також
 
--   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.html) - Встановлює дату
--   [DateTimeImmutable::setTime()](datetimeimmutable.settime.html) - Встановлює час
+-   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) - Встановлює дату
+-   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) - Встановлює час

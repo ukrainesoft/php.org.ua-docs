@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.set.html: '« SwooleServer::set'
-  - swoole-server.start.html: 'SwooleServer::start »'
+  - swoole-server.set.md: '« SwooleServer::set'
+  - swoole-server.start.md: 'SwooleServer::start »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::shutdown'
 ---
 # SwooleServer::shutdown

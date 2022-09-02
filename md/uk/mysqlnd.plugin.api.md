@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqlnd.plugin.architecture.html: « Архитектура плагинов MySQL Native Driver
-  - mysqlnd.plugin.developing.html: Начинаем разработку плагина mysqlnd »
-  - index.html: PHP Manual
-  - mysqlnd.plugin.html: API для плагинов к встроенному драйверу MySQL
+  - mysqlnd.plugin.architecture.md: « Архитектура плагинов MySQL Native Driver
+  - mysqlnd.plugin.developing.md: Начинаем разработку плагина mysqlnd »
+  - index.md: PHP Manual
+  - mysqlnd.plugin.md: API для плагинов к встроенному драйверу MySQL
 title: API плагінів mysqlnd
 ---
 ## API плагінів mysqlnd

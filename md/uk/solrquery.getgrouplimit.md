@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getgroupfunctions.html: '« SolrQuery::getGroupFunctions'
-  - solrquery.getgroupmain.html: 'SolrQuery::getGroupMain »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getgroupfunctions.md: '« SolrQuery::getGroupFunctions'
+  - solrquery.getgroupmain.md: 'SolrQuery::getGroupMain »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupLimit'
 ---
 # SolrQuery::getGroupLimit
@@ -28,4 +28,4 @@ public SolrQuery::getGroupLimit(): int
 
 ### Дивіться також
 
--   [SolrQuery::setGroupLimit()](solrquery.setgrouplimit.html) - Вказує кількість результатів, що повертаються для кожної групи. Значення сервера за промовчанням - 1
+-   [SolrQuery::setGroupLimit()](solrquery.setgrouplimit.md) - Вказує кількість результатів, що повертаються для кожної групи. Значення сервера за промовчанням - 1

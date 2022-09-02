@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setsamplingfactors.html: '« Gmagick::setsamplingfactors'
-  - gmagick.shearimage.html: 'Gmagick::shearimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setsamplingfactors.md: '« Gmagick::setsamplingfactors'
+  - gmagick.shearimage.md: 'Gmagick::shearimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setsize'
 ---
 # Gmagick::setsize
@@ -32,7 +32,7 @@ public Gmagick::setsize(int $columns, int $rows): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

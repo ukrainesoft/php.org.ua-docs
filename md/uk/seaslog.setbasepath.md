@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.notice.html: '« SeasLog::notice'
-  - seaslog.setdatetimeformat.html: 'SeasLog::setDatetimeFormat »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.notice.md: '« SeasLog::notice'
+  - seaslog.setdatetimeformat.md: 'SeasLog::setDatetimeFormat »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::setBasePath'
 ---
 # SeasLog::setBasePath

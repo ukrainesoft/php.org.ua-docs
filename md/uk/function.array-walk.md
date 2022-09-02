@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-walk-recursive.html: « arraywalkrecursive
-  - function.array.html: array »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-walk-recursive.md: « arraywalkrecursive
+  - function.array.md: array »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraywalk
 ---
 # arraywalk
@@ -52,7 +52,7 @@ array_walk(array|object &$array, callable $callback, mixed $arg = null): bool
 
 ### Помилки
 
-Починаючи з PHP 7.1.0, якщо `callback`функція вимагає більше двох параметрів (значення та ключ елемента масиву) або більше 3 параметрів, якщо також передається параметр `arg`, буде викинуто виняток [ArgumentCountError](class.argumentcounterror.html). Раніше в такому разі при кожному виклику `callback`, генерувалася помилка рівня [ЕWARNING](errorfunc.constants.md)
+Починаючи з PHP 7.1.0, якщо `callback`функція вимагає більше двох параметрів (значення та ключ елемента масиву) або більше 3 параметрів, якщо також передається параметр `arg`, буде викинуто виняток [ArgumentCountError](class.argumentcounterror.md). Раніше в такому разі при кожному виклику `callback`, генерувалася помилка рівня [ЕWARNING](errorfunc.constants.md)
 
 ### список змін
 

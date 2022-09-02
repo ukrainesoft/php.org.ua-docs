@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-seek.html: « eioseek
-  - function.eio-set-max-idle.html: eiosetmaxidle »
+  - function.eio-seek.md: « eioseek
+  - function.eio-set-max-idle.md: eiosetmaxidle »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiosendfile

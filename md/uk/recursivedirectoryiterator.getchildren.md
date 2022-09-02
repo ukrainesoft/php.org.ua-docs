@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recursivedirectoryiterator.construct.html: '« RecursiveDirectoryIterator::construct'
-  - recursivedirectoryiterator.getsubpath.html: 'RecursiveDirectoryIterator::getSubPath »'
-  - index.html: PHP Manual
-  - class.recursivedirectoryiterator.html: RecursiveDirectoryIterator
+  - recursivedirectoryiterator.construct.md: '« RecursiveDirectoryIterator::construct'
+  - recursivedirectoryiterator.getsubpath.md: 'RecursiveDirectoryIterator::getSubPath »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
 title: 'RecursiveDirectoryIterator::getChildren'
 ---
 # RecursiveDirectoryIterator::getChildren
@@ -28,4 +28,4 @@ public RecursiveDirectoryIterator::getChildren(): RecursiveDirectoryIterator
 
 ### Значення, що повертаються
 
-Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме повертатиметься залежить від прапорів налаштувань. Дивіться додатково [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме повертатиметься залежить від прапорів налаштувань. Дивіться додатково [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)

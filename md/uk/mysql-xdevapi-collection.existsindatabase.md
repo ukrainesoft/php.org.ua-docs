@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collection.dropindex.html: '« Collection::dropIndex'
-  - mysql-xdevapi-collection.find.html: 'Collection::find »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+  - mysql-xdevapi-collection.dropindex.md: '« Collection::dropIndex'
+  - mysql-xdevapi-collection.find.md: 'Collection::find »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
 title: 'Collection::existsInDatabase'
 ---
 # Collection::existsInDatabase

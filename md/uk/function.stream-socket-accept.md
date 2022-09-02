@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-set-write-buffer.html: « streamsetwritebuffer
-  - function.stream-socket-client.html: streamsocketclient »
+  - function.stream-set-write-buffer.md: « streamsetwritebuffer
+  - function.stream-socket-client.md: streamsocketclient »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamsocketaccept
@@ -28,7 +28,7 @@ stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_nam
 
 `timeout`
 
-Перевизначити час очікування на підключення за замовчуванням. Час має бути вказано за секунди. За замовчуванням використовується значення [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)
+Перевизначити час очікування на підключення за замовчуванням. Час має бути вказано за секунди. За замовчуванням використовується значення [defaultsockettimeout](filesystem.configuration.md#ini.default-socket-timeout)
 
 `peer_name`
 
@@ -52,7 +52,7 @@ stream_socket_accept(resource $socket, ?float $timeout = null, string &$peer_nam
 
 **Увага**
 
-Ця функція не повинна використовуватись із серверними сокетами UDP. Натомість використовуйте [streamsocketrecvfrom()](function.stream-socket-recvfrom.html) і [streamsocketsendto()](function.stream-socket-sendto.md)
+Ця функція не повинна використовуватись із серверними сокетами UDP. Натомість використовуйте [streamsocketrecvfrom()](function.stream-socket-recvfrom.md) і [streamsocketsendto()](function.stream-socket-sendto.md)
 
 ### Дивіться також
 

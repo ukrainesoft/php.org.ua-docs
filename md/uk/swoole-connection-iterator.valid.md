@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-connection-iterator.rewind.html: '« SwooleConnectionIterator::rewind'
-  - class.swoole-coroutine.html: SwooleCoroutine »
-  - index.html: PHP Manual
-  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+  - swoole-connection-iterator.rewind.md: '« SwooleConnectionIterator::rewind'
+  - class.swoole-coroutine.md: SwooleCoroutine »
+  - index.md: PHP Manual
+  - class.swoole-connection-iterator.md: SwooleConnectionIterator
 title: 'SwooleConnectionIterator::valid'
 ---
 # SwooleConnectionIterator::valid

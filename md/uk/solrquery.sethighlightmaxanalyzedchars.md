@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.sethighlightmaxalternatefieldlength.html: '« SolrQuery::setHighlightMaxAlternateFieldLength'
-  - solrquery.sethighlightmergecontiguous.html: 'SolrQuery::setHighlightMergeContiguous »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.sethighlightmaxalternatefieldlength.md: '« SolrQuery::setHighlightMaxAlternateFieldLength'
+  - solrquery.sethighlightmergecontiguous.md: 'SolrQuery::setHighlightMergeContiguous »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightMaxAnalyzedChars'
 ---
 # SolrQuery::setHighlightMaxAnalyzedChars

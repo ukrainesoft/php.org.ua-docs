@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-softbreak.html: « CommonMarkNodeSoftBreak
-  - class.commonmark-node-code.html: CommonMarkNodeCode »
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - class.commonmark-node-softbreak.md: « CommonMarkNodeSoftBreak
+  - class.commonmark-node-code.md: CommonMarkNodeCode »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: LineBreak успадковує CommonMarkNode
 ---
 # LineBreak успадковує CommonMarkNode

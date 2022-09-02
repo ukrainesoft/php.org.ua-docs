@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.getservbyname.html: « getservbyname
-  - function.header-register-callback.html: headerregistercallback »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.getservbyname.md: « getservbyname
+  - function.header-register-callback.md: headerregistercallback »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: getservbyport
 ---
 # getservbyport

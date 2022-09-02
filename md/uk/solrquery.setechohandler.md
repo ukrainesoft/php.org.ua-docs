@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.removestatsfield.html: '« SolrQuery::removeStatsField'
-  - solrquery.setechoparams.html: 'SolrQuery::setEchoParams »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.removestatsfield.md: '« SolrQuery::removeStatsField'
+  - solrquery.setechoparams.md: 'SolrQuery::setEchoParams »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setEchoHandler'
 ---
 # SolrQuery::setEchoHandler

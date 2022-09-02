@@ -1,9 +1,9 @@
 ---
 navigation:
-  - generator.next.html: '« Generator::next'
-  - generator.send.html: 'Generator::send »'
-  - index.html: PHP Manual
-  - class.generator.html: Generator
+  - generator.next.md: '« Generator::next'
+  - generator.send.md: 'Generator::send »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
 title: 'Generator::rewind'
 ---
 # Generator::rewind

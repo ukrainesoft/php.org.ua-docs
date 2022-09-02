@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.enchant-dict-check.html: « enchantdictcheck
-  - function.enchant-dict-get-error.html: enchantdictgeterror »
-  - index.html: PHP Manual
-  - ref.enchant.html: Функции Enchant
+  - function.enchant-dict-check.md: « enchantdictcheck
+  - function.enchant-dict-get-error.md: enchantdictgeterror »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
 title: enchantdictdescribe
 ---
 # enchantdictdescribe
@@ -24,7 +24,7 @@ enchant_dict_describe(EnchantDictionary $dictionary): array
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.html)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 ### Значення, що повертаються
 
@@ -34,14 +34,14 @@ enchant_dict_describe(EnchantDictionary $dictionary): array
 
 | Версия | Описание |
 | --- | --- |
-|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `dictionary` чекає на екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **enchantdictdescribe()****
 
-Перевіримо, що словник є за допомогою [enchantbrokerdictexists()](function.enchant-broker-dict-exists.html) та отримаємо інформацію про нього.
+Перевіримо, що словник є за допомогою [enchantbrokerdictexists()](function.enchant-broker-dict-exists.md) та отримаємо інформацію про нього.
 
 ```php
 <?php

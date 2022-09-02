@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-increment.html: « sodiumincrement
-  - function.sodium-memzero.html: sodiummemzero »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-increment.md: « sodiumincrement
+  - function.sodium-memzero.md: sodiummemzero »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiummemcmp
 ---
 # sodiummemcmp
@@ -20,7 +20,7 @@ sodium_memcmp(string $string1, string $string2): int
 
 Порівнює два рядки за постійний час.
 
-Насправді частіше замість цієї функції використовується [hashequals()](function.hash-equals.html)оскільки вона надає ту ж логіку, але повертає логічне значення (bool) замість цілого числа (int). Однак, якщо ви використовуєте значення порівняння, що повертається, в обчисленнях, які чутливі до часу, і турбуєтеся про витікання часу при перетвореннях типу bool-to-int, **sodiummemcmp()** - Ідеальна заміна.
+Насправді частіше замість цієї функції використовується [hashequals()](function.hash-equals.md)оскільки вона надає ту ж логіку, але повертає логічне значення (bool) замість цілого числа (int). Однак, якщо ви використовуєте значення порівняння, що повертається, в обчисленнях, які чутливі до часу, і турбуєтеся про витікання часу при перетвореннях типу bool-to-int, **sodiummemcmp()** - Ідеальна заміна.
 
 ### Список параметрів
 

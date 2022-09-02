@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rarentry.getcrc.html: '« RarEntry::getCrc'
-  - rarentry.gethostos.html: 'RarEntry::getHostOs »'
-  - index.html: PHP Manual
-  - class.rarentry.html: RarEntry
+  - rarentry.getcrc.md: '« RarEntry::getCrc'
+  - rarentry.gethostos.md: 'RarEntry::getHostOs »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
 title: 'RarEntry::getFileTime'
 ---
 # RarEntry::getFileTime

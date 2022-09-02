@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-tty.html: « pgtty
-  - function.pg-untrace.html: пгuntrace »
+  - function.pg-tty.md: « pgtty
+  - function.pg-untrace.md: пгuntrace »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгunescapebytea

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-ibm.html: « IBM (PDO)
-  - ref.pdo-informix.html: Informix (PDO) »
-  - index.html: PHP Manual
-  - ref.pdo-ibm.html: IBM (PDO)
+  - ref.pdo-ibm.md: « IBM (PDO)
+  - ref.pdo-informix.md: Informix (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-ibm.md: IBM (PDO)
 title: PDOIBM DSN
 ---
 # PDOIBM DSN

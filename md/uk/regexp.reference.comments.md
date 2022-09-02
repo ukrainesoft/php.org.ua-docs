@@ -1,9 +1,9 @@
 ---
 navigation:
-  - regexp.reference.conditional.html: « Умовні підмаски
-  - regexp.reference.recursive.html: Рекурсивні шаблони »
-  - index.html: PHP Manual
-  - reference.pcre.pattern.syntax.html: Опис синтаксису Perl-сумісних регулярних виразів
+  - regexp.reference.conditional.md: « Умовні підмаски
+  - regexp.reference.recursive.md: Рекурсивні шаблони »
+  - index.md: PHP Manual
+  - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів
 title: Коментарі
 ---
 ## Коментарі

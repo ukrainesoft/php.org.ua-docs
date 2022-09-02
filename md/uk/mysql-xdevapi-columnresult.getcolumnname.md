@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.getcolumnlabel.html: '« ColumnResult::getColumnLabel'
-  - mysql-xdevapi-columnresult.getfractionaldigits.html: 'ColumnResult::getFractionalDigits »'
+  - mysql-xdevapi-columnresult.getcolumnlabel.md: '« ColumnResult::getColumnLabel'
+  - mysql-xdevapi-columnresult.getfractionaldigits.md: 'ColumnResult::getFractionalDigits »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::getColumnName'
 ---
 # ColumnResult::getColumnName

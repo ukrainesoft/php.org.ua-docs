@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-radio.setselected.html: '« UIControlsRadio::setSelected'
-  - ui-controls-picker.construct.html: 'ОЙControlsPicker::construct »'
+  - ui-controls-radio.setselected.md: '« UIControlsRadio::setSelected'
+  - ui-controls-picker.construct.md: 'ОЙControlsPicker::construct »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент керування "Селектор"

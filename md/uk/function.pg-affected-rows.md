@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pgsql.html: « Функции PostgreSQL
-  - function.pg-cancel-query.html: пгcancelquery »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - ref.pgsql.md: « Функции PostgreSQL
+  - function.pg-cancel-query.md: пгcancelquery »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгaffectedrows
 ---
 # пгaffectedrows
@@ -30,7 +30,7 @@ pg_affected_rows(PgSql\Result $result): int
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ pg_affected_rows(PgSql\Result $result): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -64,7 +64,7 @@ echo $cmdtuples . " кортежей затронуто.\n";
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.html) - Виконує запит
--   [пгqueryparams()](function.pg-query-params.html) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
--   [пгexecute()](function.pg-execute.html) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
--   [пгnumrows()](function.pg-num-rows.html) - Повертає кількість рядків у вибірці
+-   [пгquery()](function.pg-query.md) - Виконує запит
+-   [пгqueryparams()](function.pg-query-params.md) - Надсилає параметризований запит на сервер, параметри передаються окремо від тексту SQL запиту
+-   [пгexecute()](function.pg-execute.md) - Запускає виконання раніше підготовленого параметризованого запиту та чекає результату
+-   [пгnumrows()](function.pg-num-rows.md) - Повертає кількість рядків у вибірці

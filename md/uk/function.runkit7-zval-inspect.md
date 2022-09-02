@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.runkit7-superglobals.html: « runkit7superglobals
+  - function.runkit7-superglobals.md: « runkit7superglobals
   - book.uopz.md: uopz »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7

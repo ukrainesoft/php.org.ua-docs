@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.current-field.html: '« mysqliresult::$currentfield'
-  - mysqli-result.fetch-all.html: 'mysqliresult::fetchall »'
+  - mysqli-result.current-field.md: '« mysqliresult::$currentfield'
+  - mysqli-result.fetch-all.md: 'mysqliresult::fetchall »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::dataseek'
 ---
 # mysqliresult::dataseek
@@ -34,7 +34,7 @@ mysqli_data_seek(mysqli_result $result, int $offset): bool
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `offset`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.reduce.html: '« DsMap::reduce'
-  - ds-map.reverse.html: 'ДсMap::reverse »'
+  - ds-map.reduce.md: '« DsMap::reduce'
+  - ds-map.reverse.md: 'ДсMap::reverse »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::remove'
 ---
 # ДсMap::remove

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-num-rows.html: « ocinumrows
-  - function.oci-password-change.html: ocipasswordchange »
+  - function.oci-num-rows.md: « ocinumrows
+  - function.oci-password-change.md: ocipasswordchange »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociparse
@@ -18,7 +18,7 @@ ociparse — Підготовка запиту до виконання
 oci_parse(resource $connection, string $sql): resource|false
 ```
 
-Готує `sql` до виконання, використовуючи з'єднання `connection` і повертає ідентифікатор виразу, який може бути використаний далі функціями[ocibindбname()](function.oci-bind-by-name.html)[ociexecute()](function.oci-execute.md) та іншими.
+Готує `sql` до виконання, використовуючи з'єднання `connection` і повертає ідентифікатор виразу, який може бути використаний далі функціями[ocibindбname()](function.oci-bind-by-name.md)[ociexecute()](function.oci-execute.md) та іншими.
 
 Ідентифікатори виразів можуть бути звільнені функцією [ocifreestatement()](function.oci-free-statement.md) або встановленням змінної в **`null`**
 
@@ -26,7 +26,7 @@ oci_parse(resource $connection, string $sql): resource|false
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.md)
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md) або [ocinewconnect()](function.oci-new-connect.md)
 
 `sql`
 

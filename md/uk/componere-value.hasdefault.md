@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-value.isstatic.html: '« ComponereValue::isStatic'
+  - componere-value.isstatic.md: '« ComponereValue::isStatic'
   - reference.componere.md: Функции Componere »
   - index.md: PHP Manual
-  - class.componere-value.html: ComponereValue
+  - class.componere-value.md: ComponereValue
 title: 'ComponereValue::hasDefault'
 ---
 # ComponereValue::hasDefault

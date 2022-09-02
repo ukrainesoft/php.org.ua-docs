@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.spl-object-id.html: « splobjectід
+  - function.spl-object-id.md: « splobjectід
   - class.splfileinfo.md: SplFileInfo »
   - index.md: PHP Manual
   - book.spl.md: SPL

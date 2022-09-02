@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbuffer.freeze.html: '« EventBuffer::freeze'
-  - eventbuffer.prepend.html: 'EventBuffer::prepend »'
-  - index.html: PHP Manual
-  - class.eventbuffer.html: EventBuffer
+  - eventbuffer.freeze.md: '« EventBuffer::freeze'
+  - eventbuffer.prepend.md: 'EventBuffer::prepend »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::lock'
 ---
 # EventBuffer::lock
@@ -19,7 +19,7 @@ public
    EventBuffer::lock(): void
 ```
 
-Отримує блокування буфера. Може використовуватися в парі з [EventBuffer::unlock()](eventbuffer.unlock.html)щоб зробити набір операцій атомарним, тобто потокобезпечним. Зверніть увагу, що немає необхідності блокувати буфери для *окремих* операцій. Коли блокування увімкнено (дивіться [EventBuffer::enableLocking()](eventbuffer.enablelocking.html)), окремі операції над буферами подій є атомарними.
+Отримує блокування буфера. Може використовуватися в парі з [EventBuffer::unlock()](eventbuffer.unlock.md)щоб зробити набір операцій атомарним, тобто потокобезпечним. Зверніть увагу, що немає необхідності блокувати буфери для *окремих* операцій. Коли блокування увімкнено (дивіться [EventBuffer::enableLocking()](eventbuffer.enablelocking.md)), окремі операції над буферами подій є атомарними.
 
 ### Список параметрів
 
@@ -31,4 +31,4 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::unlock()](eventbuffer.unlock.html) - Знімає блокування, встановлене EventBuffer::lock
+-   [EventBuffer::unlock()](eventbuffer.unlock.md) - Знімає блокування, встановлене EventBuffer::lock

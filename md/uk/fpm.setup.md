@@ -1,11 +1,11 @@
 ---
 navigation:
-  - intro.fpm.html: « Введение
-  - fpm.observability.html: Спостережливість »
-  - index.html: PHP Manual
-  - book.fpm.html: Менеджер процесів FastCGI
+  - intro.fpm.md: « Введение
+  - fpm.observability.md: Спостережливість »
+  - index.md: PHP Manual
+  - book.fpm.md: Менеджер процесів FastCGI
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
-Інформація про встановлення та налаштування FPM доступна у розділі [Встановлення та налаштування](install.fpm.html) документації PHP.
+Інформація про встановлення та налаштування FPM доступна у розділі [Встановлення та налаштування](install.fpm.md) документації PHP.

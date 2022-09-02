@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.getstatusstring.html: '« ZipArchive::getStatusString'
-  - ziparchive.getstreamindex.html: 'ZipArchive::getStreamIndex »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.getstatusstring.md: '« ZipArchive::getStatusString'
+  - ziparchive.getstreamindex.md: 'ZipArchive::getStreamIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getStream'
 ---
 # ZipArchive::getStream
@@ -32,7 +32,7 @@ public ZipArchive::getStream(string $name): resource|false
 
 ### Приклади
 
-**Приклад #1 Отримати вміст елемента за допомогою [fread()](function.fread.html) і зберегти його**
+**Приклад #1 Отримати вміст елемента за допомогою [fread()](function.fread.md) і зберегти його**
 
 ```php
 <?php
@@ -53,7 +53,7 @@ if ($z->open('test.zip')) {
 ?>
 ```
 
-**Приклад #2 Те саме, що й у попередньому прикладі, але використовуючи [fopen()](function.fopen.html) і через обгортку zip-потоку**
+**Приклад #2 Те саме, що й у попередньому прикладі, але використовуючи [fopen()](function.fopen.md) і через обгортку zip-потоку**
 
 ```php
 <?php
@@ -82,6 +82,6 @@ imagepng($im, 'a.png');
 
 ### Дивіться також
 
--   [ZipArchive::getStreamIndex()](ziparchive.getstreamindex.html) - Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
--   [ZipArchive::getStreamName()](ziparchive.getstreamname.html) - Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
--   [Стислі потоки](wrappers.compression.html)
+-   [ZipArchive::getStreamIndex()](ziparchive.getstreamindex.md) - Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
+-   [ZipArchive::getStreamName()](ziparchive.getstreamname.md) - Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
+-   [Стислі потоки](wrappers.compression.md)

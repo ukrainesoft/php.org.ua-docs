@@ -1,16 +1,16 @@
 ---
 navigation:
-  - functions.returning-values.html: « Возврат значений
-  - functions.internal.html: Вбудовані функції »
-  - index.html: PHP Manual
-  - language.functions.html: Функції
+  - functions.returning-values.md: « Возврат значений
+  - functions.internal.md: Вбудовані функції »
+  - index.md: PHP Manual
+  - language.functions.md: Функції
 title: Звернення до функцій через змінні
 ---
 ## Звернення до функцій через змінні
 
 PHP підтримує концепцію змінних функцій. Це означає, що якщо до імені змінної приєднані круглі дужки, PHP шукає функцію з тим самим ім'ям, що й результат обчислення змінної, і намагається її виконати. Цю можливість можна використовувати для реалізації зворотних викликів, таблиць функцій та безлічі інших речей.
 
-Змінні функції не працюватимуть з такими мовними конструкціями, як [echo](function.echo.html) [print](function.print.html) [unset()](function.unset.html) [isset()](function.isset.html) [empty()](function.empty.html) [include](function.include.html) [require](function.require.html) і т.п. Вам необхідно реалізувати свою функцію-обертку для того, щоб наведені вище конструкції могли працювати зі змінними функціями.
+Змінні функції не працюватимуть з такими мовними конструкціями, як [echo](function.echo.md) [print](function.print.md) [unset()](function.unset.md) [isset()](function.isset.md) [empty()](function.empty.md) [include](function.include.md) [require](function.require.md) і т.п. Вам необхідно реалізувати свою функцію-обертку для того, щоб наведені вище конструкції могли працювати зі змінними функціями.
 
 **Приклад #1 Робота з функціями за допомогою змінних**
 
@@ -118,7 +118,7 @@ $func(); // выведет "bar"
 
 ### Дивіться також
 
--   [ісcallable()](function.is-callable.html)
--   [calluserfunc()](function.call-user-func.html)
--   [functionexists()](function.function-exists.html)
--   [змінні змінних](language.variables.variable.html)
+-   [ісcallable()](function.is-callable.md)
+-   [calluserfunc()](function.call-user-func.md)
+-   [functionexists()](function.function-exists.md)
+-   [змінні змінних](language.variables.variable.md)

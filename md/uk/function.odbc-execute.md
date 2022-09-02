@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-exec.html: « odbcexec
-  - function.odbc-fetch-array.html: odbcfetcharray »
+  - function.odbc-exec.md: « odbcexec
+  - function.odbc-fetch-array.md: odbcfetcharray »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcexecute

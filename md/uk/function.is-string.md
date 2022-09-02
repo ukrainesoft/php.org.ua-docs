@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-scalar.html: « isscalar
-  - function.isset.html: isset »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-scalar.md: « isscalar
+  - function.isset.md: isset »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісstring
 ---
 # ісstring

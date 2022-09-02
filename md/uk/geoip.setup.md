@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.geoip.html: « Введение
-  - geoip.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.geoip.html: GeoIP
+  - intro.geoip.md: « Введение
+  - geoip.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.geoip.md: GeoIP
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

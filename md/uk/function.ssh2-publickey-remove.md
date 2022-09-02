@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-publickey-list.html: « ssh2publickeylist
-  - function.ssh2-scp-recv.html: ssh2scprecv »
+  - function.ssh2-publickey-list.md: « ssh2publickeylist
+  - function.ssh2-scp-recv.md: ssh2scprecv »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2publickeyremove

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-cascade-candidate-limit.html: « fanngetcascadecandidatelimit
-  - function.fann-get-cascade-max-cand-epochs.html: fanngetcascademaxcandepochs »
+  - function.fann-get-cascade-candidate-limit.md: « fanngetcascadecandidatelimit
+  - function.fann-get-cascade-max-cand-epochs.md: fanngetcascademaxcandepochs »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetcascadecandidatestagnationepochs

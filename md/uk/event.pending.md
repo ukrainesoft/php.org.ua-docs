@@ -1,9 +1,9 @@
 ---
 navigation:
-  - event.getsupportedmethods.html: '« Event::getSupportedMethods'
-  - event.set.html: 'Event::set »'
-  - index.html: PHP Manual
-  - class.event.html: Event
+  - event.getsupportedmethods.md: '« Event::getSupportedMethods'
+  - event.set.md: 'Event::set »'
+  - index.md: PHP Manual
+  - class.event.md: Event
 title: 'Event::pending'
 ---
 # Event::pending

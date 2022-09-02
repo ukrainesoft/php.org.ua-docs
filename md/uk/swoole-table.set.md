@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.rewind.html: '« SwooleTable::rewind'
-  - swoole-table.valid.html: 'SwooleTable::valid »'
-  - index.html: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - swoole-table.rewind.md: '« SwooleTable::rewind'
+  - swoole-table.valid.md: 'SwooleTable::valid »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::set'
 ---
 # SwooleTable::set

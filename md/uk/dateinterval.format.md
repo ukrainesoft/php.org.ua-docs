@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dateinterval.createfromdatestring.html: '« DateInterval::createFromDateString'
-  - class.dateperiod.html: DatePeriod »
-  - index.html: PHP Manual
-  - class.dateinterval.html: DateInterval
+  - dateinterval.createfromdatestring.md: '« DateInterval::createFromDateString'
+  - class.dateperiod.md: DatePeriod »
+  - index.md: PHP Manual
+  - class.dateinterval.md: DateInterval
 title: 'DateInterval::format'
 ---
 # DateInterval::format
@@ -72,7 +72,7 @@ echo $interval->format('%d days');
 32 days
 ```
 
-**Приклад #3 [DateInterval](class.dateinterval.html) і [DateTime::diff()](datetime.diff.md) з модифікаторами %a та %d**
+**Приклад #3 [DateInterval](class.dateinterval.md) і [DateTime::diff()](datetime.diff.md) з модифікаторами %a та %d**
 
 ```php
 <?php

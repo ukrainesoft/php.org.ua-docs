@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.close.html: '« Session::close'
-  - mysql-xdevapi-session.construct.html: 'Session::construct »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - mysql-xdevapi-session.close.md: '« Session::close'
+  - mysql-xdevapi-session.construct.md: 'Session::construct »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::commit'
 ---
 # Session::commit

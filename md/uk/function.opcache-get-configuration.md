@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.opcache-compile-file.html: « opcachecompilefile
-  - function.opcache-get-status.html: opcachegetstatus »
-  - index.html: PHP Manual
-  - ref.opcache.html: Функции OPcache
+  - function.opcache-compile-file.md: « opcachecompilefile
+  - function.opcache-get-status.md: opcachegetstatus »
+  - index.md: PHP Manual
+  - ref.opcache.md: Функции OPcache
 title: opcachegetconfiguration
 ---
 # opcachegetconfiguration

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.yaz-connect.html: « yazconnect
-  - function.yaz-element.html: yazelement »
-  - index.html: PHP Manual
-  - ref.yaz.html: Функции YAZ
+  - function.yaz-connect.md: « yazconnect
+  - function.yaz-element.md: yazelement »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
 title: yazdatabase
 ---
 # yazdatabase
@@ -18,13 +18,13 @@ yazdatabase — Визначає бази даних у сеансі
 yaz_database(resource $id, string $databases): bool
 ```
 
-Функція дозволяє змінювати бази даних протягом сеансу, вказавши одну або кілька баз даних, які будуть використовуватися для пошуку, пошуку і т.д. - перевизначення баз даних, вказаних у виклику [yazconnect()](function.yaz-connect.html)
+Функція дозволяє змінювати бази даних протягом сеансу, вказавши одну або кілька баз даних, які будуть використовуватися для пошуку, пошуку і т.д. - перевизначення баз даних, вказаних у виклику [yazconnect()](function.yaz-connect.md)
 
 ### Список параметрів
 
 `id`
 
-Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.html)
+Ресурс з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
 
 `databases`
 

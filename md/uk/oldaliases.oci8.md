@@ -1,7 +1,7 @@
 ---
 navigation:
   - ocilob.writetofile.md: '« OCILob::writeToFile'
-  - function.oci-internal-debug.html: ociinternaldebug »
+  - function.oci-internal-debug.md: ociinternaldebug »
   - index.md: PHP Manual
   - book.oci8.md: OCI8
 title: Застарілі найменування та функції OCI8

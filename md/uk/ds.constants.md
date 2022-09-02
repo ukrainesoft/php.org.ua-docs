@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds.installation.html: « Установка
-  - ds.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.ds.html: Структури даних
+  - ds.installation.md: « Установка
+  - ds.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
 title: Обумовлені константи
 ---
 # Обумовлені константи

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.echo.html: « echo
-  - function.fprintf.html: fprintf »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.echo.md: « echo
+  - function.fprintf.md: fprintf »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: explode
 ---
 # explode

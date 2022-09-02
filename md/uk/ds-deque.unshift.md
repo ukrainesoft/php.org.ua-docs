@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.toarray.html: '« DsDeque::toArray'
-  - class.ds-map.html: Коллекция пар ключ-значение »
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - ds-deque.toarray.md: '« DsDeque::toArray'
+  - class.ds-map.md: Коллекция пар ключ-значение »
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::unshift'
 ---
 # ДсDeque::unshift

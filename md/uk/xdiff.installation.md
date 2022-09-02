@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xdiff.requirements.html: « Вимоги
-  - xdiff.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - xdiff.setup.html: Встановлення та налаштування
+  - xdiff.requirements.md: « Вимоги
+  - xdiff.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - xdiff.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

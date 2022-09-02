@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-errors.html: « imaperrors
-  - function.imap-fetch-overview.html: imapfetchoverview »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-errors.md: « imaperrors
+  - function.imap-fetch-overview.md: imapfetchoverview »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapexpunge
 ---
 # imapexpunge
@@ -18,13 +18,13 @@ imapexpunge — Видалити всі позначені для видален
 imap_expunge(IMAP\Connection $imap): bool
 ```
 
-Видаляє всі позначені для видалення повідомлення. Позначити для видалення можна за допомогою функцій [imapdelete()](function.imap-delete.html) [imapmailmove()](function.imap-mail-move.html) або [imapsetflagfull()](function.imap-setflag-full.html)
+Видаляє всі позначені для видалення повідомлення. Позначити для видалення можна за допомогою функцій [imapdelete()](function.imap-delete.md) [imapmailmove()](function.imap-mail-move.md) або [imapsetflagfull()](function.imap-setflag-full.md)
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 ### Значення, що повертаються
 
@@ -34,4 +34,4 @@ imap_expunge(IMAP\Connection $imap): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.pingimage.html: '« Imagick::pingImage'
-  - imagick.pingimagefile.html: 'Imagick::pingImageFile »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.pingimage.md: '« Imagick::pingImage'
+  - imagick.pingimagefile.md: 'Imagick::pingImageFile »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::pingImageBlob'
 ---
 # Imagick::pingImageBlob
@@ -54,8 +54,8 @@ echo $im->getImageWidth() . 'x' . $im->getImageHeight();
 
 ### Дивіться також
 
--   [Imagick::pingImage()](imagick.pingimage.html) - Отримує основні атрибути зображення
--   [Imagick::pingImageFile()](imagick.pingimagefile.html) - Отримує базові атрибути зображення спрощеним способом
--   [Imagick::readImage()](imagick.readimage.html) - Читає зображення із файлу
--   [Imagick::readImageBlob()](imagick.readimageblob.html) - Зчитує зображення з двійкового рядка
--   [Imagick::readImageFile()](imagick.readimagefile.html) - Читає зображення із відкритого дескриптора файлу
+-   [Imagick::pingImage()](imagick.pingimage.md) - Отримує основні атрибути зображення
+-   [Imagick::pingImageFile()](imagick.pingimagefile.md) - Отримує базові атрибути зображення спрощеним способом
+-   [Imagick::readImage()](imagick.readimage.md) - Читає зображення із файлу
+-   [Imagick::readImageBlob()](imagick.readimageblob.md) - Зчитує зображення з двійкового рядка
+-   [Imagick::readImageFile()](imagick.readimagefile.md) - Читає зображення із відкритого дескриптора файлу

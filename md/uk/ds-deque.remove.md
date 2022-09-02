@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.reduce.html: '« DsDeque::reduce'
-  - ds-deque.reverse.html: 'ДсDeque::reverse »'
+  - ds-deque.reduce.md: '« DsDeque::reduce'
+  - ds-deque.reverse.md: 'ДсDeque::reverse »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::remove'
 ---
 # ДсDeque::remove

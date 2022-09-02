@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rararchive.getentry.html: '« RarArchive::getEntry'
-  - rararchive.issolid.html: 'RarArchive::isSolid »'
-  - index.html: PHP Manual
-  - class.rararchive.html: RarArchive
+  - rararchive.getentry.md: '« RarArchive::getEntry'
+  - rararchive.issolid.md: 'RarArchive::isSolid »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
 title: 'RarArchive::isBroken'
 ---
 # RarArchive::isBroken
@@ -34,7 +34,7 @@ rar_broken_is(RarArchive $rarfile): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.md)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
 
 ### Значення, що повертаються
 

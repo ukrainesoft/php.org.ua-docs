@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.kill.html: '« SwooleProcess::kill'
-  - swoole-process.pop.html: 'SwooleProcess::pop »'
+  - swoole-process.kill.md: '« SwooleProcess::kill'
+  - swoole-process.pop.md: 'SwooleProcess::pop »'
   - index.md: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::name'
 ---
 # SwooleProcess::name

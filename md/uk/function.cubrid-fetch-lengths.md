@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-fetch-field.html: « cubridfetchfield
-  - function.cubrid-fetch-object.html: cubridfetchobject »
+  - function.cubrid-fetch-field.md: « cubridfetchfield
+  - function.cubrid-fetch-object.md: cubridfetchobject »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridfetchlengths

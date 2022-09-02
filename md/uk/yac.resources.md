@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yac.configuration.html: « Налаштування під час виконання
-  - yac.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - yac.setup.html: Встановлення та налаштування
+  - yac.configuration.md: « Налаштування під час виконання
+  - yac.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - yac.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

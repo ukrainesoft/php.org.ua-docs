@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-or.html: « gmpор
-  - function.gmp-perfect-square.html: gmpperfectsquare »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-or.md: « gmpор
+  - function.gmp-perfect-square.md: gmpperfectsquare »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpperfectpower
 ---
 # gmpperfectpower

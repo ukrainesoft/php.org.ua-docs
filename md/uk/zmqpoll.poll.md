@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqpoll.getlasterrors.html: '« ZMQPoll::getLastErrors'
-  - zmqpoll.remove.html: 'ZMQPoll::remove »'
-  - index.html: PHP Manual
-  - class.zmqpoll.html: ZMQPoll
+  - zmqpoll.getlasterrors.md: '« ZMQPoll::getLastErrors'
+  - zmqpoll.remove.md: 'ZMQPoll::remove »'
+  - index.md: PHP Manual
+  - class.zmqpoll.md: ZMQPoll
 title: 'ZMQPoll::poll'
 ---
 # ZMQPoll::poll
@@ -18,7 +18,7 @@ ZMQPoll::poll — Опитати всі елементи пула
 public ZMQPoll::poll(array &$readable, array &$writable, int $timeout = -1): int
 ```
 
-Опитує всі елементи пулу. Читані та записувані елементи містяться у параметрах `readable` і `writable` відповідно. Для перевірки помилок використовуйте метод [ZMQPoll::getLastErrors()](zmqpoll.getlasterrors.html)
+Опитує всі елементи пулу. Читані та записувані елементи містяться у параметрах `readable` і `writable` відповідно. Для перевірки помилок використовуйте метод [ZMQPoll::getLastErrors()](zmqpoll.getlasterrors.md)
 
 ### Список параметрів
 

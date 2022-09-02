@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.luasandboxfunction.html: « LuaSandboxFunction
-  - luasandboxfunction.construct.html: 'LuaSandboxFunction::construct »'
-  - index.html: PHP Manual
-  - class.luasandboxfunction.html: LuaSandboxFunction
+  - class.luasandboxfunction.md: « LuaSandboxFunction
+  - luasandboxfunction.construct.md: 'LuaSandboxFunction::construct »'
+  - index.md: PHP Manual
+  - class.luasandboxfunction.md: LuaSandboxFunction
 title: 'LuaSandboxFunction::call'
 ---
 # LuaSandboxFunction::call
@@ -20,7 +20,7 @@ public LuaSandboxFunction::call(string ...$args): array|bool
 
 Викликає Lua-функцію.
 
-Помилки, викликані PHP-кодом, призведуть до того, що функція поверне `false` і буде викликано попередження \*\*`E_WARNING`\*\*наприклад, коли тип ресурсу (resource) використовується як аргумент. У разі виникнення помилок Lua буде викинуто виняток [LuaSandboxRuntimeError](class.luasandboxruntimeerror.html)
+Помилки, викликані PHP-кодом, призведуть до того, що функція поверне `false` і буде викликано попередження \*\*`E_WARNING`\*\*наприклад, коли тип ресурсу (resource) використовується як аргумент. У разі виникнення помилок Lua буде викинуто виняток [LuaSandboxRuntimeError](class.luasandboxruntimeerror.md)
 
 Типи PHP і Lua перетворюються так:
 
@@ -34,7 +34,7 @@ public LuaSandboxFunction::call(string ...$args): array|bool
     
 -   Рядки в PHP (string) - це значення типу string в Lua і навпаки.
     
--   Функції Lua – це об'єкти PHP [LuaSandboxFunction](class.luasandboxfunction.html), і навпаки. Callback-функції PHP ([callable](language.types.callable.html)) не підтримуються.
+-   Функції Lua – це об'єкти PHP [LuaSandboxFunction](class.luasandboxfunction.md), і навпаки. Callback-функції PHP ([callable](language.types.callable.md)) не підтримуються.
     
 -   Масиви PHP (array) перетворюються на таблиці Lua і навпаки.
     

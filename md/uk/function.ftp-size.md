@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-site.html: « ftpsite
-  - function.ftp-ssl-connect.html: ftpsslconnect »
+  - function.ftp-site.md: « ftpsite
+  - function.ftp-ssl-connect.md: ftpsslconnect »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpsize

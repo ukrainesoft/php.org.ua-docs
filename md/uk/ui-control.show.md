@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-control.setparent.html: '« UIControl::setParent'
-  - class.ui-menu.html: ОЙMenu »
+  - ui-control.setparent.md: '« UIControl::setParent'
+  - class.ui-menu.md: ОЙMenu »
   - index.md: PHP Manual
-  - class.ui-control.html: ОЙControl
+  - class.ui-control.md: ОЙControl
 title: 'ОЙControl::show'
 ---
 # ОЙControl::show

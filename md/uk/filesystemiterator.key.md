@@ -24,7 +24,7 @@ public FilesystemIterator::key(): string
 
 ### Значення, що повертаються
 
-Повертає шлях або ім'я файлу, залежно від встановлених прапорів. Дивіться [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+Повертає шлях або ім'я файлу, залежно від встановлених прапорів. Дивіться [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)
 
 ### Приклади
 
@@ -51,7 +51,7 @@ example.php
 
 ### Дивіться також
 
--   [FilesystemIterator constants](class.filesystemiterator.html#filesystemiterator.constants)
+-   [FilesystemIterator constants](class.filesystemiterator.md#filesystemiterator.constants)
 -   [DirectoryIterator::key()](directoryiterator.key.md) - Повертає ключ поточного елемента DirectoryIterator
 -   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
 -   [DirectoryIterator::getPathname()](directoryiterator.getpathname.md) - Повертає шлях та ім'я файлу поточного елемента DirectoryIterator

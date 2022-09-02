@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-request-abstract.html: « YafRequestAbstract
-  - yaf-request-abstract.getactionname.html: 'YafRequestAbstract::getActionName »'
+  - class.yaf-request-abstract.md: « YafRequestAbstract
+  - yaf-request-abstract.getactionname.md: 'YafRequestAbstract::getActionName »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::clearParams'
 ---
 # YafRequestAbstract::clearParams

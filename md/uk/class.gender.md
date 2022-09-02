@@ -1,7 +1,7 @@
 ---
 navigation:
   - gender.example.admin.md: « Пример использования
-  - gender-gender.connect.html: 'GenderGender::connect »'
+  - gender-gender.connect.md: 'GenderGender::connect »'
   - index.md: PHP Manual
   - book.gender.md: Gender
 title: Клас GenderGender

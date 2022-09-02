@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-rand-gen-beta.html: « statsrandgenbeta
-  - function.stats-rand-gen-exponential.html: statsrandgenexponential »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-rand-gen-beta.md: « statsrandgenbeta
+  - function.stats-rand-gen-exponential.md: statsrandgenexponential »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsrandгенchisquare
 ---
 # statsrandгенchisquare

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbase.priorityinit.html: '« EventBase::priorityInit'
-  - eventbase.stop.html: 'EventBase::stop »'
-  - index.html: PHP Manual
-  - class.eventbase.html: EventBase
+  - eventbase.priorityinit.md: '« EventBase::priorityInit'
+  - eventbase.stop.md: 'EventBase::stop »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
 title: 'EventBase::reInit'
 ---
 # EventBase::reInit

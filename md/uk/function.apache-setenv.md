@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.apache-response-headers.html: « apacheresponseheaders
+  - function.apache-response-headers.md: « apacheresponseheaders
   - function.getallheaders.md: getallheaders »
   - index.md: PHP Manual
   - ref.apache.md: Функции Apache

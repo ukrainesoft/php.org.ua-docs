@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-patch.isapplied.html: '« ComponerePatch::isApplied'
-  - componere-patch.getclosure.html: 'ComponerePatch::getClosure »'
+  - componere-patch.isapplied.md: '« ComponerePatch::isApplied'
+  - componere-patch.getclosure.md: 'ComponerePatch::getClosure »'
   - index.md: PHP Manual
-  - class.componere-patch.html: ComponerePatch
+  - class.componere-patch.md: ComponerePatch
 title: 'ComponerePatch::derive'
 ---
 # ComponerePatch::derive

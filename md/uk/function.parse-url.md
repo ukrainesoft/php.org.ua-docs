@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.http-build-query.html: httpbuildquery
+  - function.http-build-query.md: httpbuildquery
   - function.rawurldecode.md: rawurldecode »
   - index.md: PHP Manual
   - ref.url.md: Функції URL

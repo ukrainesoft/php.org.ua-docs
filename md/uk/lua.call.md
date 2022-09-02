@@ -75,4 +75,4 @@ string(5) "1-2-3"
 
 ### Дивіться також
 
--   [call()](language.oop5.overloading.html#object.call)
+-   [call()](language.oop5.overloading.md#object.call)

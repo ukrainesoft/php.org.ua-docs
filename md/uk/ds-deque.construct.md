@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.clear.html: '« DsDeque::clear'
-  - ds-deque.contains.html: 'ДсDeque::contains »'
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - ds-deque.clear.md: '« DsDeque::clear'
+  - ds-deque.contains.md: 'ДсDeque::contains »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::construct'
 ---
 # ДсDeque::construct
@@ -14,7 +14,7 @@ title: 'ДсDeque::construct'
 
 ### Опис
 
-public **ДсDeque::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
+public **ДсDeque::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
 Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 

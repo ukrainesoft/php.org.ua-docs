@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.toarray.html: '« DsVector::toArray'
-  - class.ds-deque.html: Двостороння черга »
+  - ds-vector.toarray.md: '« DsVector::toArray'
+  - class.ds-deque.md: Двостороння черга »
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::unshift'
 ---
 # ДсVector::unshift

@@ -1,12 +1,12 @@
 ---
 navigation:
-  - zip.examples.html: « Приклади
-  - ziparchive.addemptydir.html: 'ZipArchive::addEmptyDir »'
-  - index.html: PHP Manual
-  - book.zip.html: Zip
-title: 'Клас [ZipArchive](class.ziparchive.html)'
+  - zip.examples.md: « Приклади
+  - ziparchive.addemptydir.md: 'ZipArchive::addEmptyDir »'
+  - index.md: PHP Manual
+  - book.zip.md: Zip
+title: 'Клас [ZipArchive](class.ziparchive.md)'
 ---
-# Клас [ZipArchive](class.ziparchive.html)
+# Клас [ZipArchive](class.ziparchive.md)
 
 (PHP 5 >= 5.2.0, PHP 7, PHP 8, PECL zip >= 1.1.0)
 
@@ -146,53 +146,53 @@ comment
 
 ## Зміст
 
--   [ZipArchive::addEmptyDir](ziparchive.addemptydir.html) - Додає нову директорію
--   [ZipArchive::addFile](ziparchive.addfile.html) — Додає до ZIP-архіву файл по зазначеному шляху
--   [ZipArchive::addFromString](ziparchive.addfromstring.html) — Додає файл до ZIP-архіву, використовуючи його вміст
--   [ZipArchive::addGlob](ziparchive.addglob.html) — Додати файли з директорії відповідно до шаблону
--   [ZipArchive::addPattern](ziparchive.addpattern.html) — Додати файли з директорії відповідно до шаблону регулярного вираження PCRE
--   [ZipArchive::clearError](ziparchive.clearerror.html) — Видаляє повідомлення про помилку статусу, системні та/або повідомлення модуля zip
--   [ZipArchive::close](ziparchive.close.html) — Закриває активний архів (відкритий чи новостворений)
--   [ZipArchive::count](ziparchive.count.html) — Підраховує кількість файлів в архіві
--   [ZipArchive::deleteIndex](ziparchive.deleteindex.html) — Видаляє елемент в архіві, використовуючи його індекс
--   [ZipArchive::deleteName](ziparchive.deletename.html) — Видаляє елемент в архіві, використовуючи його ім'я
--   [ZipArchive::extractTo](ziparchive.extractto.html) — Витягує вміст архіву
--   [ZipArchive::getArchiveComment](ziparchive.getarchivecomment.html) — Повертає коментар ZIP-архіву
--   [ZipArchive::getCommentIndex](ziparchive.getcommentindex.html) — Повертає коментар елемента, використовуючи його індекс
--   [ZipArchive::getCommentName](ziparchive.getcommentname.html) — Повертає коментар елемента, використовуючи його ім'я
--   [ZipArchive::getExternalAttributesIndex](ziparchive.getexternalattributesindex.html) — Витягти зовнішні атрибути запису за його індексом
--   [ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.html) — Витягти зовнішні атрибути запису на її ім'я
--   [ZipArchive::getFromIndex](ziparchive.getfromindex.html) — Повертає вміст елемента за його індексом
--   [ZipArchive::getFromName](ziparchive.getfromname.html) — Повертає вміст елемента на його ім'я
--   [ZipArchive::getNameIndex](ziparchive.getnameindex.html) — Повертає ім'я елемента за його індексом
--   [ZipArchive::getStatusString](ziparchive.getstatusstring.html) — Повертають статус повідомлення про помилку, системний та/або zip-статус
--   [ZipArchive::getStream](ziparchive.getstream.html) — Отримати дескриптор файлу елемента, визначений на ім'я елемента (тільки для читання)
--   [ZipArchive::getStreamIndex](ziparchive.getstreamindex.html) — Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
--   [ZipArchive::getStreamName](ziparchive.getstreamname.html) — Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
--   [ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.html) — Перевіряє, чи підтримується метод стиснення libzip
--   [ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.html) — Перевіряє, чи підтримується метод шифрування libzip
--   [ZipArchive::locateName](ziparchive.locatename.html) — Повертає індекс елемента в архіві
--   [ZipArchive::open](ziparchive.open.html) - Відкриває ZIP-архів
--   [ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.html) — Реєструє callback-функцію для дозволу скасування під час закриття архіву
--   [ZipArchive::registerProgressCallback](ziparchive.registerprogresscallback.html) — Реєструє callback-функцію для надання оновлень під час закриття архіву
--   [ZipArchive::renameIndex](ziparchive.renameindex.html) — Перейменовує елемент за його індексом
--   [ZipArchive::renameName](ziparchive.renamename.html) — Перейменовує елемент на його ім'я
--   [ZipArchive::replaceFile](ziparchive.replacefile.html) — Замінює файл у ZIP-архіві вказаним шляхом
--   [ZipArchive::setArchiveComment](ziparchive.setarchivecomment.html) — Встановлює коментар до ZIP-архіву
--   [ZipArchive::setCommentIndex](ziparchive.setcommentindex.html) — Встановлює коментар до елемента за його індексом
--   [ZipArchive::setCommentName](ziparchive.setcommentname.html) — Встановлює коментар до елемента, заданого на ім'я
--   [ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.html) — Встановити метод стиснення запису, заданого його індексом
--   [ZipArchive::setCompressionName](ziparchive.setcompressionname.html) — Встановити метод стиснення запису, заданого на ім'я
--   [ZipArchive::setEncryptionIndex](ziparchive.setencryptionindex.html) — Встановити метод шифрування запису за його індексом
--   [ZipArchive::setEncryptionName](ziparchive.setencryptionname.html) — Встановити метод шифрування запису на його ім'я
--   [ZipArchive::setExternalAttributesIndex](ziparchive.setexternalattributesindex.html) — Встановити зовнішні атрибути запису за його індексом
--   [ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.html) — Встановлення зовнішніх атрибутів запису, заданого на ім'я
--   [ZipArchive::setMtimeIndex](ziparchive.setmtimeindex.html) — Встановити час модифікації файлу за його індексом
--   [ZipArchive::setMtimeName](ziparchive.setmtimename.html) — Встановити час модифікації файлу на ім'я
--   [ZipArchive::setPassword](ziparchive.setpassword.html) — Встановлення пароля для активного архіву
--   [ZipArchive::statIndex](ziparchive.statindex.html) — Отримання детальної інформації про елемент за його індексом
--   [ZipArchive::statName](ziparchive.statname.html) — Отримання детальної інформації про елемент на його ім'я
--   [ZipArchive::unchangeAll](ziparchive.unchangeall.html) — Скасовує всі зміни, зроблені в архіві
--   [ZipArchive::unchangeArchive](ziparchive.unchangearchive.html) — Повертає всі глобальні зміни, зроблені в архіві
--   [ZipArchive::unchangeIndex](ziparchive.unchangeindex.html) — Скасує всі зміни у позиції із заданим індексом
--   [ZipArchive::unchangeName](ziparchive.unchangename.html) — Скасує всі зміни у позиції із заданим ім'ям
+-   [ZipArchive::addEmptyDir](ziparchive.addemptydir.md) - Додає нову директорію
+-   [ZipArchive::addFile](ziparchive.addfile.md) — Додає до ZIP-архіву файл по зазначеному шляху
+-   [ZipArchive::addFromString](ziparchive.addfromstring.md) — Додає файл до ZIP-архіву, використовуючи його вміст
+-   [ZipArchive::addGlob](ziparchive.addglob.md) — Додати файли з директорії відповідно до шаблону
+-   [ZipArchive::addPattern](ziparchive.addpattern.md) — Додати файли з директорії відповідно до шаблону регулярного вираження PCRE
+-   [ZipArchive::clearError](ziparchive.clearerror.md) — Видаляє повідомлення про помилку статусу, системні та/або повідомлення модуля zip
+-   [ZipArchive::close](ziparchive.close.md) — Закриває активний архів (відкритий чи новостворений)
+-   [ZipArchive::count](ziparchive.count.md) — Підраховує кількість файлів в архіві
+-   [ZipArchive::deleteIndex](ziparchive.deleteindex.md) — Видаляє елемент в архіві, використовуючи його індекс
+-   [ZipArchive::deleteName](ziparchive.deletename.md) — Видаляє елемент в архіві, використовуючи його ім'я
+-   [ZipArchive::extractTo](ziparchive.extractto.md) — Витягує вміст архіву
+-   [ZipArchive::getArchiveComment](ziparchive.getarchivecomment.md) — Повертає коментар ZIP-архіву
+-   [ZipArchive::getCommentIndex](ziparchive.getcommentindex.md) — Повертає коментар елемента, використовуючи його індекс
+-   [ZipArchive::getCommentName](ziparchive.getcommentname.md) — Повертає коментар елемента, використовуючи його ім'я
+-   [ZipArchive::getExternalAttributesIndex](ziparchive.getexternalattributesindex.md) — Витягти зовнішні атрибути запису за його індексом
+-   [ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.md) — Витягти зовнішні атрибути запису на її ім'я
+-   [ZipArchive::getFromIndex](ziparchive.getfromindex.md) — Повертає вміст елемента за його індексом
+-   [ZipArchive::getFromName](ziparchive.getfromname.md) — Повертає вміст елемента на його ім'я
+-   [ZipArchive::getNameIndex](ziparchive.getnameindex.md) — Повертає ім'я елемента за його індексом
+-   [ZipArchive::getStatusString](ziparchive.getstatusstring.md) — Повертають статус повідомлення про помилку, системний та/або zip-статус
+-   [ZipArchive::getStream](ziparchive.getstream.md) — Отримати дескриптор файлу елемента, визначений на ім'я елемента (тільки для читання)
+-   [ZipArchive::getStreamIndex](ziparchive.getstreamindex.md) — Отримує обробник файлу для запису, визначеного його індексом (тільки для читання)
+-   [ZipArchive::getStreamName](ziparchive.getstreamname.md) — Отримує обробник файлу для запису, визначеного його ім'ям (тільки для читання)
+-   [ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md) — Перевіряє, чи підтримується метод стиснення libzip
+-   [ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md) — Перевіряє, чи підтримується метод шифрування libzip
+-   [ZipArchive::locateName](ziparchive.locatename.md) — Повертає індекс елемента в архіві
+-   [ZipArchive::open](ziparchive.open.md) - Відкриває ZIP-архів
+-   [ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.md) — Реєструє callback-функцію для дозволу скасування під час закриття архіву
+-   [ZipArchive::registerProgressCallback](ziparchive.registerprogresscallback.md) — Реєструє callback-функцію для надання оновлень під час закриття архіву
+-   [ZipArchive::renameIndex](ziparchive.renameindex.md) — Перейменовує елемент за його індексом
+-   [ZipArchive::renameName](ziparchive.renamename.md) — Перейменовує елемент на його ім'я
+-   [ZipArchive::replaceFile](ziparchive.replacefile.md) — Замінює файл у ZIP-архіві вказаним шляхом
+-   [ZipArchive::setArchiveComment](ziparchive.setarchivecomment.md) — Встановлює коментар до ZIP-архіву
+-   [ZipArchive::setCommentIndex](ziparchive.setcommentindex.md) — Встановлює коментар до елемента за його індексом
+-   [ZipArchive::setCommentName](ziparchive.setcommentname.md) — Встановлює коментар до елемента, заданого на ім'я
+-   [ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.md) — Встановити метод стиснення запису, заданого його індексом
+-   [ZipArchive::setCompressionName](ziparchive.setcompressionname.md) — Встановити метод стиснення запису, заданого на ім'я
+-   [ZipArchive::setEncryptionIndex](ziparchive.setencryptionindex.md) — Встановити метод шифрування запису за його індексом
+-   [ZipArchive::setEncryptionName](ziparchive.setencryptionname.md) — Встановити метод шифрування запису на його ім'я
+-   [ZipArchive::setExternalAttributesIndex](ziparchive.setexternalattributesindex.md) — Встановити зовнішні атрибути запису за його індексом
+-   [ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.md) — Встановлення зовнішніх атрибутів запису, заданого на ім'я
+-   [ZipArchive::setMtimeIndex](ziparchive.setmtimeindex.md) — Встановити час модифікації файлу за його індексом
+-   [ZipArchive::setMtimeName](ziparchive.setmtimename.md) — Встановити час модифікації файлу на ім'я
+-   [ZipArchive::setPassword](ziparchive.setpassword.md) — Встановлення пароля для активного архіву
+-   [ZipArchive::statIndex](ziparchive.statindex.md) — Отримання детальної інформації про елемент за його індексом
+-   [ZipArchive::statName](ziparchive.statname.md) — Отримання детальної інформації про елемент на його ім'я
+-   [ZipArchive::unchangeAll](ziparchive.unchangeall.md) — Скасовує всі зміни, зроблені в архіві
+-   [ZipArchive::unchangeArchive](ziparchive.unchangearchive.md) — Повертає всі глобальні зміни, зроблені в архіві
+-   [ZipArchive::unchangeIndex](ziparchive.unchangeindex.md) — Скасує всі зміни у позиції із заданим індексом
+-   [ZipArchive::unchangeName](ziparchive.unchangename.md) — Скасує всі зміни у позиції із заданим ім'ям

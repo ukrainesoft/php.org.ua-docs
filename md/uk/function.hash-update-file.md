@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.hash-pbkdf2.html: « hashpbkdf2
-  - function.hash-update-stream.html: hashupdatestream »
-  - index.html: PHP Manual
-  - ref.hash.html: Функции Hash
+  - function.hash-pbkdf2.md: « hashpbkdf2
+  - function.hash-update-stream.md: hashupdatestream »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
 title: hashupdatefile
 ---
 # hashupdatefile

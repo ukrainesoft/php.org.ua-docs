@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.md5-file.html: « md5file
-  - function.metaphone.html: metaphone »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.md5-file.md: « md5file
+  - function.metaphone.md: metaphone »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: md5
 ---
 # md5
@@ -14,7 +14,7 @@ md5 - Повертає MD5-хеш рядки
 
 **Увага**
 
-Не рекомендується використовувати цю функцію для забезпечення безпеки зберігання паролів через високу швидкість роботи даного алгоритму. Докладніше читайте у розділі [Відповіді на найчастіші запитання щодо шифрування паролів](faq.passwords.html#faq.passwords.fasthash)
+Не рекомендується використовувати цю функцію для забезпечення безпеки зберігання паролів через високу швидкість роботи даного алгоритму. Докладніше читайте у розділі [Відповіді на найчастіші запитання щодо шифрування паролів](faq.passwords.md#faq.passwords.fasthash)
 
 ### Опис
 

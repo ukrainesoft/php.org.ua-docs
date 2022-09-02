@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.gearman.html: « Введение
-  - gearman.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.gearman.html: Gearman
+  - intro.gearman.md: « Введение
+  - gearman.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.gearman.md: Gearman
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

@@ -1,9 +1,9 @@
 ---
 navigation:
   - pdo.pgsqllobopen.md: '« PDO::pgsqlLOBOpen'
-  - ref.pdo-sqlite.html: SQLite (PDO) »
+  - ref.pdo-sqlite.md: SQLite (PDO) »
   - index.md: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlLOBUnlink'
 ---
 # PDO::pgsqlLOBUnlink

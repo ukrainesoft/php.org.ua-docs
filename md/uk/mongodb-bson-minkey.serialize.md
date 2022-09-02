@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-minkey.jsonserialize.html: '« MongoDBBSONMinKey::jsonSerialize'
-  - mongodb-bson-minkey.unserialize.html: 'MongoDBBSONMinKey::unserialize »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-minkey.html: MongoDBBSONMinKey
+  - mongodb-bson-minkey.jsonserialize.md: '« MongoDBBSONMinKey::jsonSerialize'
+  - mongodb-bson-minkey.unserialize.md: 'MongoDBBSONMinKey::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-minkey.md: MongoDBBSONMinKey
 title: 'MongoDBBSONMinKey::serialize'
 ---
 # MongoDBBSONMinKey::serialize
@@ -24,14 +24,14 @@ final public MongoDB\BSON\MinKey::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONMinKey](class.mongodb-bson-minkey.html)
+Повертає серіалізовану виставу [MongoDBBSONMinKey](class.mongodb-bson-minkey.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONMinKey::unserialize()](mongodb-bson-minkey.unserialize.html) - Десеріалізує MinKey
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Серіалізація об'єктів](language.oop5.serialization.html)
+-   [MongoDBBSONMinKey::unserialize()](mongodb-bson-minkey.unserialize.md) - Десеріалізує MinKey
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

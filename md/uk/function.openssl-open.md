@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-get-publickey.html: « opensslgetpublickey
-  - function.openssl-pbkdf2.html: opensslpbkdf2 »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-get-publickey.md: « opensslgetpublickey
+  - function.openssl-pbkdf2.md: opensslpbkdf2 »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslopen
 ---
 # opensslopen
@@ -18,7 +18,7 @@ opensslopen — Відкрити запечатані дані
 openssl_open(    string $data,    string &$output,    string $encrypted_key,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $cipher_algo,    ?string $iv = null): bool
 ```
 
-**opensslopen()** відкриває (дешифрує) `data`, використовуючи секретний ключ, пов'язаний з ідентифікатором `private_key` і ключ обгортки `encrypted_key`, і заповнює `output` розшифрованими даними. Ключ обгортки створюється під час запечатування даних і може використовуватися тільки з одним секретним ключем. Докладніше можна прочитати на сторінці опису функції [opensslseal()](function.openssl-seal.html)
+**opensslopen()** відкриває (дешифрує) `data`, використовуючи секретний ключ, пов'язаний з ідентифікатором `private_key` і ключ обгортки `encrypted_key`, і заповнює `output` розшифрованими даними. Ключ обгортки створюється під час запечатування даних і може використовуватися тільки з одним секретним ключем. Докладніше можна прочитати на сторінці опису функції [opensslseal()](function.openssl-seal.md)
 
 ### Список параметрів
 
@@ -52,7 +52,7 @@ openssl_open(    string $data,    string &$output,    string $encryp
 
 | Версия | Описание |
 | --- | --- |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509 CSR` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509 CSR` |
 |  | `cipher_algo` більше не є необов'язковим параметром. |
 
 ### Приклади
@@ -84,4 +84,4 @@ openssl_free_key($pkeyid);
 
 ### Дивіться також
 
--   [opensslseal()](function.openssl-seal.html) - Запечатати (зашифрувати) дані
+-   [opensslseal()](function.openssl-seal.md) - Запечатати (зашифрувати) дані

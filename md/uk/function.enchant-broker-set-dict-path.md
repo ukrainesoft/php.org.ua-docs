@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-broker-request-pwl-dict.html: « enchantbrokerrequestpwldict
-  - function.enchant-broker-set-ordering.html: enchantbrokersetordering »
+  - function.enchant-broker-request-pwl-dict.md: « enchantbrokerrequestpwldict
+  - function.enchant-broker-set-ordering.md: enchantbrokersetordering »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantbrokersetdictpath

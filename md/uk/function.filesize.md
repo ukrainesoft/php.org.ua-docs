@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fileperms.html: « fileperms
-  - function.filetype.html: filetype »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.fileperms.md: « fileperms
+  - function.filetype.md: filetype »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: filesize
 ---
 # filesize
@@ -53,12 +53,12 @@ echo 'Размер файла ' . $filename . ': ' . filesize($filenam
 
 ### Примітки
 
-> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.html)
+> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.md)
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [fileexists()](function.file-exists.html) - Перевіряє існування вказаного файлу чи каталогу
+-   [fileexists()](function.file-exists.md) - Перевіряє існування вказаного файлу чи каталогу

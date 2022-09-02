@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-radio.append.html: '« UIControlsRadio::append'
-  - ui-controls-radio.onselected.html: 'ОЙControlsRadio::onSelected »'
-  - index.html: PHP Manual
-  - class.ui-controls-radio.html: ОЙControlsRadio
+  - ui-controls-radio.append.md: '« UIControlsRadio::append'
+  - ui-controls-radio.onselected.md: 'ОЙControlsRadio::onSelected »'
+  - index.md: PHP Manual
+  - class.ui-controls-radio.md: ОЙControlsRadio
 title: 'ОЙControlsRadio::getSelected'
 ---
 # ОЙControlsRadio::getSelected

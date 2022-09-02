@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-table.getschema.html: '« Table::getSchema'
-  - mysql-xdevapi-table.insert.html: 'Table::insert »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+  - mysql-xdevapi-table.getschema.md: '« Table::getSchema'
+  - mysql-xdevapi-table.insert.md: 'Table::insert »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
 title: 'Table::getSession'
 ---
 # Table::getSession

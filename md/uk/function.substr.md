@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.substr-replace.html: « substrreplace
+  - function.substr-replace.md: « substrreplace
   - function.trim.md: trim »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
@@ -161,4 +161,4 @@ bool(false)
 -   [trim()](function.trim.md) - Видаляє прогалини (або інші символи) з початку та кінця рядка
 -   [мбsubstr()](function.mb-substr.md) - Повертає частину рядка
 -   [wordwrap()](function.wordwrap.md) - Переносить рядок за вказаною кількістю символів
--   [Посимвольний доступ та зміна рядка](language.types.string.html#language.types.string.substr)
+-   [Посимвольний доступ та зміна рядка](language.types.string.md#language.types.string.substr)

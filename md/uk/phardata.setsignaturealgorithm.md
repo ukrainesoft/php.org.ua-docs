@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phardata.setmetadata.html: '« PharData::setMetadata'
-  - phardata.setstub.html: 'PharData::setStub »'
-  - index.html: PHP Manual
-  - class.phardata.html: PharData
+  - phardata.setmetadata.md: '« PharData::setMetadata'
+  - phardata.setstub.md: 'PharData::setStub »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
 title: 'PharData::setSignatureAlgorithm'
 ---
 # PharData::setSignatureAlgorithm
@@ -20,7 +20,7 @@ public PharData::setSignatureAlgorithm(int $algo, ?string $privateKey = null): v
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Встановлює алгоритм підписання phar-архіву та застосовує його. Доступні такі алгоритми підписання: `Phar::MD5` `Phar::SHA1` `Phar::SHA256` `Phar::SHA512` і `Phar::OPENSSL`. (Pgp поки не підтримується, замість нього використовується SHA-1).
 
@@ -36,7 +36,7 @@ public PharData::setSignatureAlgorithm(int $algo, ?string $privateKey = null): v
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html) більшість помилок. Для архівів на основі zip або tar викидає виняток [BadMethodCallException](class.badmethodcallexception.html). При помилках запису на диск викидає виняток [PharException](class.pharexception.html)
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md) більшість помилок. Для архівів на основі zip або tar викидає виняток [BadMethodCallException](class.badmethodcallexception.md). При помилках запису на диск викидає виняток [PharException](class.pharexception.md)
 
 ### список змін
 
@@ -46,5 +46,5 @@ public PharData::setSignatureAlgorithm(int $algo, ?string $privateKey = null): v
 
 ### Дивіться також
 
--   [Phar::getSupportedSignatures()](phar.getsupportedsignatures.html) - Отримати масив підтримуваних алгоритмів підпису архіву
--   [Phar::getSignature()](phar.getsignature.html) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
+-   [Phar::getSupportedSignatures()](phar.getsupportedsignatures.md) - Отримати масив підтримуваних алгоритмів підпису архіву
+-   [Phar::getSignature()](phar.getsignature.md) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву

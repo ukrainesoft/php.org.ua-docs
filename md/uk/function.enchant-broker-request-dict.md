@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-broker-list-dicts.html: « enchantbrokerlistdicts
-  - function.enchant-broker-request-pwl-dict.html: enchantbrokerrequestpwldict »
+  - function.enchant-broker-list-dicts.md: « enchantbrokerlistdicts
+  - function.enchant-broker-request-pwl-dict.md: enchantbrokerrequestpwldict »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantbrokerrequestdict

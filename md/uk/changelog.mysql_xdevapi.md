@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi.constants.html: « Обумовлені константи
-  - mysql-xdevapi.examples.html: Приклади »
+  - mysql-xdevapi.constants.md: « Обумовлені константи
+  - mysql-xdevapi.examples.md: Приклади »
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: список змін
 ---
 # список змін

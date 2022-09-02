@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.zookeeper.html: « Введение
-  - zookeeper.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.zookeeper.html: ZooKeeper
+  - intro.zookeeper.md: « Введение
+  - zookeeper.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

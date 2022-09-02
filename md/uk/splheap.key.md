@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splheap.isempty.html: '« SplHeap::isEmpty'
-  - splheap.next.html: 'SplHeap::next »'
-  - index.html: PHP Manual
-  - class.splheap.html: SplHeap
+  - splheap.isempty.md: '« SplHeap::isEmpty'
+  - splheap.next.md: 'SplHeap::next »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
 title: 'SplHeap::key'
 ---
 # SplHeap::key

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.deflate-add.html: « deflateadd
+  - function.deflate-add.md: « deflateadd
   - function.gzclose.md: gzclose »
   - index.md: PHP Manual
   - ref.zlib.md: Функции Zlib

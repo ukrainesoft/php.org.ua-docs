@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-draw-brush-lineargradient.construct.html: '« UIDrawBrushLinearGradient::construct'
-  - ui-draw-brush-radialgradient.construct.html: 'ОЙDrawBrushRadialGradient::construct »'
+  - ui-draw-brush-lineargradient.construct.md: '« UIDrawBrushLinearGradient::construct'
+  - ui-draw-brush-radialgradient.construct.md: 'ОЙDrawBrushRadialGradient::construct »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Радіальний градієнт

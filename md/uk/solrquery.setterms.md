@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setstats.html: '« SolrQuery::setStats'
-  - solrquery.settermsfield.html: 'SolrQuery::setTermsField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setstats.md: '« SolrQuery::setStats'
+  - solrquery.settermsfield.md: 'SolrQuery::setTermsField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTerms'
 ---
 # SolrQuery::setTerms

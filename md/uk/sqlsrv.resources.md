@@ -14,4 +14,4 @@ title: Типи ресурсів
 
 ## Дескриптор виразу
 
-Дескриптор виразу (statement resource) повертається функціями [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvprepare()](function.sqlsrv-prepare.md)
+Дескриптор виразу (statement resource) повертається функціями [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvprepare()](function.sqlsrv-prepare.md)

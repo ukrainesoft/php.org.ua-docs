@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.setsize.html: '« UIWindow::setSize'
-  - class.ui-control.html: ОЙControl »
-  - index.html: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - ui-window.setsize.md: '« UIWindow::setSize'
+  - class.ui-control.md: ОЙControl »
+  - index.md: PHP Manual
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::setTitle'
 ---
 # ОЙWindow::setTitle

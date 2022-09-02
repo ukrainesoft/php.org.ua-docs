@@ -1,16 +1,16 @@
 ---
 navigation:
-  - simplexml.examples-basic.html: « Базовое использование SimpleXML
-  - class.simplexmlelement.html: SimpleXMLElement »
-  - index.html: PHP Manual
-  - simplexml.examples.html: Приклади
+  - simplexml.examples-basic.md: « Базовое использование SimpleXML
+  - class.simplexmlelement.md: SimpleXMLElement »
+  - index.md: PHP Manual
+  - simplexml.examples.md: Приклади
 title: Робота з помилками XML
 ---
 ## Робота з помилками XML
 
 Робота з помилками XML під час завантаження документів є дуже простим завданням. Використання функціональності [libxml](book.libxml.md) дозволяє придушити всі помилки XML під час завантаження документа і потім обробити їх.
 
-Об'єкт [libXMLError](class.libxmlerror.html), що повертається [libxmlgeterrors()](function.libxml-get-errors.md)містить кілька властивостей, у тому числі [сообщение](class.libxmlerror.html#libxmlerror.props.message) [номер рядка](class.libxmlerror.html#libxmlerror.props.line) і [колонку](class.libxmlerror.html#libxmlerror.props.column) (Позицію) цієї помилки.
+Об'єкт [libXMLError](class.libxmlerror.md), що повертається [libxmlgeterrors()](function.libxml-get-errors.md)містить кілька властивостей, у тому числі [сообщение](class.libxmlerror.md#libxmlerror.props.message) [номер рядка](class.libxmlerror.md#libxmlerror.props.line) і [колонку](class.libxmlerror.md#libxmlerror.props.column) (Позицію) цієї помилки.
 
 **Приклад #1 Завантаження синтаксично неправильного рядка XML**
 

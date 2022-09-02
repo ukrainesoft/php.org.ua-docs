@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.negateimage.html: '« Imagick::negateImage'
-  - imagick.newpseudoimage.html: 'Imagick::newPseudoImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.negateimage.md: '« Imagick::negateImage'
+  - imagick.newpseudoimage.md: 'Imagick::newPseudoImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::newImage'
 ---
 # Imagick::newImage

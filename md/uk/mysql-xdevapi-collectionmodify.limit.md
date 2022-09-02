@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionmodify.execute.html: '« CollectionModify::execute'
-  - mysql-xdevapi-collectionmodify.patch.html: 'CollectionModify::patch »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+  - mysql-xdevapi-collectionmodify.execute.md: '« CollectionModify::execute'
+  - mysql-xdevapi-collectionmodify.patch.md: 'CollectionModify::patch »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
 title: 'CollectionModify::limit'
 ---
 # CollectionModify::limit

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.queryformats.html: '« Imagick::queryFormats'
-  - imagick.raiseimage.html: 'Imagick::raiseImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.queryformats.md: '« Imagick::queryFormats'
+  - imagick.raiseimage.md: 'Imagick::raiseImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::radialBlurImage'
 ---
 # Imagick::radialBlurImage

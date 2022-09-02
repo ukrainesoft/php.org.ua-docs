@@ -1,6 +1,6 @@
 ---
 navigation:
-  - regexp.reference.back-references.html: « Зворотні посилання
+  - regexp.reference.back-references.md: « Зворотні посилання
   - regexp.reference.onlyonce.md: Одноразові підмаски »
   - index.md: PHP Manual
   - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів

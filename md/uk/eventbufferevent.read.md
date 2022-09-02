@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbufferevent.getoutput.html: '« EventBufferEvent::getOutput'
-  - eventbufferevent.readbuffer.html: 'EventBufferEvent::readBuffer »'
-  - index.html: PHP Manual
-  - class.eventbufferevent.html: EventBufferEvent
+  - eventbufferevent.getoutput.md: '« EventBufferEvent::getOutput'
+  - eventbufferevent.readbuffer.md: 'EventBufferEvent::readBuffer »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::read'
 ---
 # EventBufferEvent::read
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventBufferEvent::readBuffer()](eventbufferevent.readbuffer.html) - Зливає весь вміст буфера введення та поміщає його у буфер
+-   [EventBufferEvent::readBuffer()](eventbufferevent.readbuffer.md) - Зливає весь вміст буфера введення та поміщає його у буфер

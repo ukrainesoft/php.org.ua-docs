@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.more-results.html: '« mysqli::moreresults'
-  - mysqli.next-result.html: 'mysqli::nextresult »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.more-results.md: '« mysqli::moreresults'
+  - mysqli.next-result.md: 'mysqli::nextresult »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::multiquery'
 ---
 # mysqli::multiquery
@@ -32,9 +32,9 @@ mysqli_multi_query(mysqli $mysql, string $query): bool
 
 Запити надсилаються асинхронно за один виклик бази даних, але база даних обробляє їх послідовно . **mysqlimultiquery()** очікує завершення першого запиту, перш ніж повернути керування PHP. Потім сервер MySQL обробить наступний запит у послідовності. Як тільки наступний результат буде готовий, MySQL чекатиме наступного виконання [mysqlinextresult()](mysqli.next-result.md) з PHP.
 
-Для обробки кількох запитів рекомендується використовувати [do-while](control-structures.do.while.html). З'єднання буде зайнято доти, доки всі запити не будуть завершені та їх результати не будуть завантажені до PHP. Ніякий інший оператор не може бути виданий у тому ж з'єднанні, доки не будуть опрацьовані всі запити. Щоб перейти до наступного запиту у послідовності, використовуйте [mysqlinextresult()](mysqli.next-result.html). Якщо наступний результат ще не готовий, на mysqli буде чекати відповіді від сервера MySQL. Щоб перевірити, чи є результати, використовуйте [mysqlimoreresults()](mysqli.more-results.md)
+Для обробки кількох запитів рекомендується використовувати [do-while](control-structures.do.while.md). З'єднання буде зайнято доти, доки всі запити не будуть завершені та їх результати не будуть завантажені до PHP. Ніякий інший оператор не може бути виданий у тому ж з'єднанні, доки не будуть опрацьовані всі запити. Щоб перейти до наступного запиту у послідовності, використовуйте [mysqlinextresult()](mysqli.next-result.md). Якщо наступний результат ще не готовий, на mysqli буде чекати відповіді від сервера MySQL. Щоб перевірити, чи є результати, використовуйте [mysqlimoreresults()](mysqli.more-results.md)
 
-Для запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` [mysqliuseresult()](mysqli.use-result.html) або [mysqlistoreresult()](mysqli.store-result.md) може використовуватись для отримання набору результатів. Для запитів, які не здійснюють набір результатів, ті ж функції можуть використовуватися для отримання інформації, такої як кількість порушених рядків.
+Для запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` [mysqliuseresult()](mysqli.use-result.md) або [mysqlistoreresult()](mysqli.store-result.md) може використовуватись для отримання набору результатів. Для запитів, які не здійснюють набір результатів, ті ж функції можуть використовуватися для отримання інформації, такої як кількість порушених рядків.
 
 **Підказка**
 
@@ -44,7 +44,7 @@ mysqli_multi_query(mysqli $mysql, string $query): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `query`
 
@@ -54,7 +54,7 @@ mysqli_multi_query(mysqli $mysql, string $query): bool
 
 # Попередження безпеки: SQL-ін'єкція
 
-Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
+Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.md). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
 
 ### Значення, що повертаються
 

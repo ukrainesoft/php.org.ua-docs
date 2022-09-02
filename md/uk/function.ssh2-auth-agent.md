@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.ssh2.md: « Функції SSH2
-  - function.ssh2-auth-hostbased-file.html: ssh2authhostbasedfile »
+  - function.ssh2-auth-hostbased-file.md: ssh2authhostbasedfile »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2authagent

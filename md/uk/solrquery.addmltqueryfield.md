@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.addmltfield.html: '« SolrQuery::addMltField'
-  - solrquery.addsortfield.html: 'SolrQuery::addSortField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.addmltfield.md: '« SolrQuery::addMltField'
+  - solrquery.addsortfield.md: 'SolrQuery::addSortField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::addMltQueryField'
 ---
 # SolrQuery::addMltQueryField

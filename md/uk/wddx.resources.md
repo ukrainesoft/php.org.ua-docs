@@ -1,11 +1,11 @@
 ---
 navigation:
-  - wddx.configuration.html: « Налаштування під час виконання
-  - wddx.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - wddx.setup.html: Встановлення та налаштування
+  - wddx.configuration.md: « Налаштування під час виконання
+  - wddx.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - wddx.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів
 
-Модуль визначає ідентифікатор пакета WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.html)
+Модуль визначає ідентифікатор пакета WDDX, що повертається [wddxpacketstart()](function.wddx-packet-start.md)

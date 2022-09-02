@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-getpid.html: « posixgetpid
-  - function.posix-getpwnam.html: posixgetpwnam »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-getpid.md: « posixgetpid
+  - function.posix-getpwnam.md: posixgetpwnam »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixgetppid
 ---
 # posixgetppid

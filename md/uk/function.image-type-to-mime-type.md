@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.image-type-to-extension.html: « imagetypeтоextension
+  - function.image-type-to-extension.md: « imagetypeтоextension
   - function.image2wbmp.md: image2wbmp »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями

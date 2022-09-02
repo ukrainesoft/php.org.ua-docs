@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cli-set-process-title.html: « clisetprocesstitle
-  - function.extension-loaded.html: extensionloaded »
+  - function.cli-set-process-title.md: « clisetprocesstitle
+  - function.extension-loaded.md: extensionloaded »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: дл
@@ -46,7 +46,7 @@ Unix - Якщо явно не задано в php.ini, директорія за
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо механізм завантаження модулів недоступний або вимкнений (значення off налаштування [enableдл](info.configuration.html#ini.enable-dl) у php.ini), буде видана помилка **`E_ERROR`** та виконання припиняється. Якщо **dl()** не зможе завантажити задану бібліотеку, то на додаток до **`false`** буде видано повідомлення **`E_WARNING`**
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Якщо механізм завантаження модулів недоступний або вимкнений (значення off налаштування [enableдл](info.configuration.md#ini.enable-dl) у php.ini), буде видана помилка **`E_ERROR`** та виконання припиняється. Якщо **dl()** не зможе завантажити задану бібліотеку, то на додаток до **`false`** буде видано повідомлення **`E_WARNING`**
 
 ### Приклади
 
@@ -79,5 +79,5 @@ if (!extension_loaded('sqlite')) {
 
 ### Дивіться також
 
--   [Директиви завантаження модулів](ini.core.html#ini.extension)
+-   [Директиви завантаження модулів](ini.core.md#ini.extension)
 -   [extensionloaded()](function.extension-loaded.md) - Визначає, чи завантажений модуль

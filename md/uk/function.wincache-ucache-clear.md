@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wincache-ucache-cas.html: « wincacheucachecas
-  - function.wincache-ucache-dec.html: wincacheucachedec »
+  - function.wincache-ucache-cas.md: « wincacheucachecas
+  - function.wincache-ucache-dec.md: wincacheucachedec »
   - index.md: PHP Manual
   - ref.wincache.md: Функции WinCache
 title: wincacheucacheclear

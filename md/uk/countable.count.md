@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.countable.html: « Countable
-  - class.outeriterator.html: OuterIterator »
-  - index.html: PHP Manual
-  - class.countable.html: Countable
+  - class.countable.md: « Countable
+  - class.outeriterator.md: OuterIterator »
+  - index.md: PHP Manual
+  - class.countable.md: Countable
 title: 'Countable::count'
 ---
 # Countable::count
@@ -18,7 +18,7 @@ Countable::count — Кількість елементів об'єкта
 public Countable::count(): int
 ```
 
-Цей метод виконується під час використання [count()](function.count.html) на об'єкті, що реалізує інтерфейс [Countable](class.countable.html)
+Цей метод виконується під час використання [count()](function.count.md) на об'єкті, що реалізує інтерфейс [Countable](class.countable.md)
 
 ### Список параметрів
 

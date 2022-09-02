@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.elseif.html: « elseif/else if
-  - control-structures.while.html: while »
-  - index.html: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - control-structures.elseif.md: « elseif/else if
+  - control-structures.while.md: while »
+  - index.md: PHP Manual
+  - language.control-structures.md: Управляющие конструкции
 title: Альтернативний синтаксис керуючих структур
 ---
 ## Альтернативний синтаксис керуючих структур
@@ -60,4 +60,4 @@ endif;
 <?php endswitch ?>
 ```
 
-Дивіться також [while](control-structures.while.html) [for](control-structures.for.html) і [іф](control-structures.if.html) для подальших прикладів.
+Дивіться також [while](control-structures.while.md) [for](control-structures.for.md) і [іф](control-structures.if.md) для подальших прикладів.

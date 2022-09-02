@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.commonmark-render-man.html: « CommonMarkRenderMan
+  - function.commonmark-render-man.md: « CommonMarkRenderMan
   - book.parle.md: Parle »
   - index.md: PHP Manual
   - ref.cmark.md: Функции CommonMark

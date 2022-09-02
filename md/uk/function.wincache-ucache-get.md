@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wincache-ucache-exists.html: « wincacheucacheexists
-  - function.wincache-ucache-inc.html: wincacheucacheinc »
+  - function.wincache-ucache-exists.md: « wincacheucacheexists
+  - function.wincache-ucache-inc.md: wincacheucacheinc »
   - index.md: PHP Manual
   - ref.wincache.md: Функции WinCache
 title: wincacheucacheget
@@ -24,7 +24,7 @@ wincache_ucache_get(mixed $key, bool &$success = ?): mixed
 
 `key`
 
-Параметр `key`, який використовувався для зберігання змінної в кеші . `key` чутливий до регістру . `key` може бути масивом ключів. У цьому випадку значення, що повертається, буде масивом значень кожного елемента в масиві `key`. Якщо повертається об'єкт або масив, що містить об'єкти, об'єкти будуть десеріалізовані. Детальніше про десеріалізацію об'єктів дивіться [wakeup()](language.oop5.magic.html#object.wakeup)
+Параметр `key`, який використовувався для зберігання змінної в кеші . `key` чутливий до регістру . `key` може бути масивом ключів. У цьому випадку значення, що повертається, буде масивом значень кожного елемента в масиві `key`. Якщо повертається об'єкт або масив, що містить об'єкти, об'єкти будуть десеріалізовані. Детальніше про десеріалізацію об'єктів дивіться [wakeup()](language.oop5.magic.md#object.wakeup)
 
 `success`
 
@@ -86,4 +86,4 @@ bool(true)
 -   [wincacheucacheexists()](function.wincache-ucache-exists.md) - Перевіряє, чи існує змінна в кеші користувача
 -   [wincacheucachememinfo()](function.wincache-ucache-meminfo.md) - Отримує інформацію про використання пам'яті кешу користувача.
 -   [wincacheucacheinfo()](function.wincache-ucache-info.md) - Отримує інформацію про дані, що зберігаються в кеші користувача
--   [wakeup()](language.oop5.magic.html#object.wakeup)
+-   [wakeup()](language.oop5.magic.md#object.wakeup)

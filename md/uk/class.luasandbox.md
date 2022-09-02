@@ -1,6 +1,6 @@
 ---
 navigation:
-  - luasandbox.examples-basic.html: « Базовое использование LuaSandbox
+  - luasandbox.examples-basic.md: « Базовое использование LuaSandbox
   - luasandbox.callfunction.md: 'LuaSandbox::callFunction »'
   - index.md: PHP Manual
   - book.luasandbox.md: LuaSandbox

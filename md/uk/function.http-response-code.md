@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.headers-sent.html: « headerssent
-  - function.inet-ntop.html: inetntop »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.headers-sent.md: « headerssent
+  - function.inet-ntop.md: inetntop »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: httpresponsecode
 ---
 # httpresponsecode
@@ -80,5 +80,5 @@ int(201)
 
 ### Дивіться також
 
--   [header()](function.header.html) - Надсилання HTTP-заголовка
--   [headerslist()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
+-   [header()](function.header.md) - Надсилання HTTP-заголовка
+-   [headerslist()](function.headers-list.md) - Повертає список переданих заголовків (або готових до відправлення)

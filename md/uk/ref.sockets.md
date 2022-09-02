@@ -1,7 +1,7 @@
 ---
 navigation:
   - sockets.errors.md: « Ошибки сокетів
-  - function.socket-accept.html: socketaccept »
+  - function.socket-accept.md: socketaccept »
   - index.md: PHP Manual
   - book.sockets.md: Сокети
 title: Опції сокету

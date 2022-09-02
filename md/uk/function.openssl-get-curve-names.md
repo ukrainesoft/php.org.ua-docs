@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-get-cipher-methods.html: « opensslgetciphermethods
-  - function.openssl-get-md-methods.html: opensslgetмдmethods »
+  - function.openssl-get-cipher-methods.md: « opensslgetciphermethods
+  - function.openssl-get-md-methods.md: opensslgetмдmethods »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslgetcurvenames

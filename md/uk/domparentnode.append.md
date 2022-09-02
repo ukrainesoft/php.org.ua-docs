@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.domparentnode.html: « DOMParentNode
-  - domparentnode.prepend.html: 'DOMParentNode::prepend »'
-  - index.html: PHP Manual
-  - class.domparentnode.html: DOMParentNode
+  - class.domparentnode.md: « DOMParentNode
+  - domparentnode.prepend.md: 'DOMParentNode::prepend »'
+  - index.md: PHP Manual
+  - class.domparentnode.md: DOMParentNode
 title: 'DOMParentNode::append'
 ---
 # DOMParentNode::append
@@ -32,4 +32,4 @@ public DOMParentNode::append(DOMNode|string ...$nodes): void
 
 ### Дивіться також
 
--   [DOMParentNode::prepend()](domparentnode.prepend.html) - Додає вузли перед першим дочірнім вузлом
+-   [DOMParentNode::prepend()](domparentnode.prepend.md) - Додає вузли перед першим дочірнім вузлом

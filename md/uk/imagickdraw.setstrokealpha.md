@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setresolution.html: '« ImagickDraw::setResolution'
-  - imagickdraw.setstrokeantialias.html: 'ImagickDraw::setStrokeAntialias »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setresolution.md: '« ImagickDraw::setResolution'
+  - imagickdraw.setstrokeantialias.md: 'ImagickDraw::setStrokeAntialias »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setStrokeAlpha'
 ---
 # ImagickDraw::setStrokeAlpha

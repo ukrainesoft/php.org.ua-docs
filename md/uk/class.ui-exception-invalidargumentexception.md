@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.ui-key.html: « UIKey
-  - class.ui-exception-runtimeexception.html: ОЙExceptionRuntimeException »
+  - class.ui-key.md: « UIKey
+  - class.ui-exception-runtimeexception.md: ОЙExceptionRuntimeException »
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: InvalidArgumentException

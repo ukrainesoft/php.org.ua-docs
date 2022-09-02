@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-events.setblocking.html: '« parallelEvents::setBlocking'
-  - parallel-events.setinput.html: 'parallelEvents::setInput »'
-  - index.html: PHP Manual
-  - class.parallel-events.html: parallelEvents
+  - parallel-events.setblocking.md: '« parallelEvents::setBlocking'
+  - parallel-events.setinput.md: 'parallelEvents::setInput »'
+  - index.md: PHP Manual
+  - class.parallel-events.md: parallelEvents
 title: 'parallelEvents::setTimeout'
 ---
 # parallelEvents::setTimeout
@@ -14,7 +14,7 @@ parallelEvents::setTimeout — Поведінка
 
 За замовчуванням при опитуванні подій відбувається блокування (на рівні PHP), доки не буде повернена перша подія: встановлення часу очікування призводить до викидання виключення при перевищенні часу очікування.
 
-Відрізняється від встановлення режиму блокування в **`false`** за допомогою [parallelEvents::setBlocking()](parallel-events.setblocking.html), що не викидає виняток.
+Відрізняється від встановлення режиму блокування в **`false`** за допомогою [parallelEvents::setBlocking()](parallel-events.setblocking.md), що не викидає виняток.
 
 ```methodsynopsis
 public parallel\Events::setTimeout(int $timeout): void

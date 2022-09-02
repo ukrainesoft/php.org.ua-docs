@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.getextensionname.html: '« ReflectionClass::getExtensionName'
-  - reflectionclass.getinterfacenames.html: 'ReflectionClass::getInterfaceNames »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.getextensionname.md: '« ReflectionClass::getExtensionName'
+  - reflectionclass.getinterfacenames.md: 'ReflectionClass::getInterfaceNames »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getFileName'
 ---
 # ReflectionClass::getFileName

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.sqlsrv-server-info.html: « sqlsrvserverinfo
+  - function.sqlsrv-server-info.md: « sqlsrvserverinfo
   - book.calendar.md: Календарь »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

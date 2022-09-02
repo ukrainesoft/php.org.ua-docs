@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recursiveiteratoriterator.beginiteration.html: '« RecursiveIteratorIterator::beginIteration'
-  - recursiveiteratoriterator.callhaschildren.html: 'RecursiveIteratorIterator::callHasChildren »'
-  - index.html: PHP Manual
-  - class.recursiveiteratoriterator.html: RecursiveIteratorIterator
+  - recursiveiteratoriterator.beginiteration.md: '« RecursiveIteratorIterator::beginIteration'
+  - recursiveiteratoriterator.callhaschildren.md: 'RecursiveIteratorIterator::callHasChildren »'
+  - index.md: PHP Manual
+  - class.recursiveiteratoriterator.md: RecursiveIteratorIterator
 title: 'RecursiveIteratorIterator::callGetChildren'
 ---
 # RecursiveIteratorIterator::callGetChildren

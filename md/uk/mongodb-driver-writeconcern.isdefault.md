@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.getwtimeout.html: '« MongoDBDriverWriteConcern::getWtimeout'
-  - mongodb-driver-writeconcern.serialize.html: 'MongoDBDriverWriteConcern::serialize »'
+  - mongodb-driver-writeconcern.getwtimeout.md: '« MongoDBDriverWriteConcern::getWtimeout'
+  - mongodb-driver-writeconcern.serialize.md: 'MongoDBDriverWriteConcern::serialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
 title: 'MongoDBDriverWriteConcern::isDefault'
 ---
 # MongoDBDriverWriteConcern::isDefault

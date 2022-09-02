@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.labelimage.html: '« Gmagick::labelimage'
-  - gmagick.magnifyimage.html: 'Gmagick::magnifyimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.labelimage.md: '« Gmagick::labelimage'
+  - gmagick.magnifyimage.md: 'Gmagick::magnifyimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::levelimage'
 ---
 # Gmagick::levelimage
@@ -36,7 +36,7 @@ public Gmagick::levelimage(    float $blackPoint,    float $gamma,   
 
 `channel`
 
-Вкажіть будь-яку константу каналу, яка є дійсною для вашого режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до списку [констант канала](gmagick.constants.html#gmagick.constants.channel)
+Вкажіть будь-яку константу каналу, яка є дійсною для вашого режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до списку [констант канала](gmagick.constants.md#gmagick.constants.channel)
 
 ### Значення, що повертаються
 

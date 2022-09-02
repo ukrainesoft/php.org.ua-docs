@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdleveningstar.html: « tradercdleveningstar
-  - function.trader-cdlgravestonedoji.html: tradercdlgravestonedoji »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdleveningstar.md: « tradercdleveningstar
+  - function.trader-cdlgravestonedoji.md: tradercdlgravestonedoji »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlgapsidesidewhite
 ---
 # tradercdlgapsidesidewhite

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.configuration.html: « Налаштування під час виконання
-  - datetime.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - datetime.setup.html: Встановлення та налаштування
+  - datetime.configuration.md: « Налаштування під час виконання
+  - datetime.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - datetime.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

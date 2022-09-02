@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-import.html: « svnimport
-  - function.svn-ls.html: svnls »
+  - function.svn-import.md: « svnimport
+  - function.svn-ls.md: svnls »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnlog

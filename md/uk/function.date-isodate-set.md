@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-interval-format.html: « dateintervalformat
-  - function.date-modify.html: datemodify »
+  - function.date-interval-format.md: « dateintervalformat
+  - function.date-modify.md: datemodify »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: dateisodateset

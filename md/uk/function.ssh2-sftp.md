@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-sftp-unlink.html: « ssh2sftpunlink
-  - function.ssh2-shell.html: ssh2shell »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-sftp-unlink.md: « ssh2sftpunlink
+  - function.ssh2-shell.md: ssh2shell »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2sftp
 ---
 # ssh2sftp
@@ -24,11 +24,11 @@ ssh2_sftp(resource $session): resource|false
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 
-Цей метод повертає ресурс `SSH2 SFTP` для використання в інших функціях ssh2sftp() та обгортці [ssh2.sftp://](wrappers.ssh2.html) для fopen або **`false`** у разі виникнення помилки.
+Цей метод повертає ресурс `SSH2 SFTP` для використання в інших функціях ssh2sftp() та обгортці [ssh2.sftp://](wrappers.ssh2.md) для fopen або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -47,5 +47,5 @@ $stream = fopen('ssh2.sftp://' . intval($sftp) . '/path/to/file', 'r');
 
 ### Дивіться також
 
--   [ssh2scprecv()](function.ssh2-scp-recv.html) - Запит файлу через SCP
--   [ssh2scpsend()](function.ssh2-scp-send.html) - Надсилання файлу через SCP
+-   [ssh2scprecv()](function.ssh2-scp-recv.md) - Запит файлу через SCP
+-   [ssh2scpsend()](function.ssh2-scp-send.md) - Надсилання файлу через SCP

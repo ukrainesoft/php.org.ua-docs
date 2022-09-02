@@ -1,7 +1,7 @@
 ---
 navigation:
   - yar.constants.md: « Обумовлені константи
-  - class.yar-server.html: YarServer »
+  - class.yar-server.md: YarServer »
   - index.md: PHP Manual
   - book.yar.md: Yar
 title: Приклади

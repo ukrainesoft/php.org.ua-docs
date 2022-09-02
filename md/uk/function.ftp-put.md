@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-pasv.html: « ftppasv
-  - function.ftp-pwd.html: ftppwd »
+  - function.ftp-pasv.md: « ftppasv
+  - function.ftp-pwd.md: ftppwd »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpput

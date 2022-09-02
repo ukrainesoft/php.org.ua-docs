@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-javascript.tostring.html: '« MongoDBBSONJavascript::toString'
-  - class.mongodb-bson-maxkey.html: MongoDBBSONMaxKey »
+  - mongodb-bson-javascript.tostring.md: '« MongoDBBSONJavascript::toString'
+  - class.mongodb-bson-maxkey.md: MongoDBBSONMaxKey »
   - index.md: PHP Manual
-  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+  - class.mongodb-bson-javascript.md: MongoDBBSONJavascript
 title: 'MongoDBBSONJavascript::unserialize'
 ---
 # MongoDBBSONJavascript::unserialize

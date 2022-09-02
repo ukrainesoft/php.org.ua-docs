@@ -1,9 +1,9 @@
 ---
 navigation:
-  - misc.setup.html: « Встановлення та налаштування
-  - misc.installation.html: Установка »
-  - index.html: PHP Manual
-  - misc.setup.html: Встановлення та налаштування
+  - misc.setup.md: « Встановлення та налаштування
+  - misc.installation.md: Установка »
+  - index.md: PHP Manual
+  - misc.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

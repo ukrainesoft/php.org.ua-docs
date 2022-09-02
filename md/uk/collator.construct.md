@@ -28,7 +28,7 @@ public **Collator::construct**(string `$locale`
 
 ### Помилки
 
-Повертає "порожній" об'єкт у разі помилки. Використовуйте [intlgeterrorcode()](function.intl-get-error-code.html) та/або [intlgeterrormessage()](function.intl-get-error-message.md), щоб дізнатися, що сталося.
+Повертає "порожній" об'єкт у разі помилки. Використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) та/або [intlgeterrormessage()](function.intl-get-error-message.md), щоб дізнатися, що сталося.
 
 ### Приклади
 

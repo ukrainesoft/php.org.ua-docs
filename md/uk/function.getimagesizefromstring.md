@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.getimagesize.md: « getimagesize
-  - function.image-type-to-extension.html: imagetypeтоextension »
+  - function.image-type-to-extension.md: imagetypeтоextension »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: getimagesizefromstring

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.hrtime.html: « hrtime
-  - function.pack.html: pack »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.hrtime.md: « hrtime
+  - function.pack.md: pack »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: ignoreuserabort
 ---
 # ignoreuserabort
@@ -26,7 +26,7 @@ ignore_user_abort(?bool $enable = null): int
 
 `enable`
 
-Якщо параметр заданий і не **`null`**, то ця функція встановлює ini-налаштування [ignoreuserabort](misc.configuration.html#ini.ignore-user-abort), заданим значенням параметра `enable`. Якщо параметр не заданий, функція поверне попереднє значення опції без його зміни.
+Якщо параметр заданий і не **`null`**, то ця функція встановлює ini-налаштування [ignoreuserabort](misc.configuration.md#ini.ignore-user-abort), заданим значенням параметра `enable`. Якщо параметр не заданий, функція поверне попереднє значення опції без його зміни.
 
 ### Значення, що повертаються
 
@@ -77,10 +77,10 @@ while(1)
 
 ### Примітки
 
-PHP не виявить, що користувач перервав з'єднання доти, доки не буде зроблено спробу відправлення інформації клієнту. Просте використання виразу echo не гарантує надсилання інформації, дивіться функцію [flush()](function.flush.html)
+PHP не виявить, що користувач перервав з'єднання доти, доки не буде зроблено спробу відправлення інформації клієнту. Просте використання виразу echo не гарантує надсилання інформації, дивіться функцію [flush()](function.flush.md)
 
 ### Дивіться також
 
--   [connectionaborted()](function.connection-aborted.html) - Перевірити, чи клієнт вимкнено
--   [connectionstatus()](function.connection-status.html) - Повертає статус з'єднання у бітах
--   Дивіться [Управление Соединением](features.connection-handling.html) для більш детальної інформації з управління з'єднаннями в PHP.
+-   [connectionaborted()](function.connection-aborted.md) - Перевірити, чи клієнт вимкнено
+-   [connectionstatus()](function.connection-status.md) - Повертає статус з'єднання у бітах
+-   Дивіться [Управление Соединением](features.connection-handling.md) для більш детальної інформації з управління з'єднаннями в PHP.

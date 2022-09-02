@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-show-boxed.html: «psshowboxed
-  - function.ps-show-xy.html: псshowxy »
+  - function.ps-show-boxed.md: «psshowboxed
+  - function.ps-show-xy.md: псshowxy »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псshowxy2

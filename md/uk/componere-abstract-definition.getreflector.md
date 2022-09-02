@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-abstract-definition.addtrait.html: '« ComponereAbstractDefinition::addTrait'
-  - class.componere-definition.html: ComponereDefinition »
+  - componere-abstract-definition.addtrait.md: '« ComponereAbstractDefinition::addTrait'
+  - class.componere-definition.md: ComponereDefinition »
   - index.md: PHP Manual
-  - class.componere-abstract-definition.html: ComponereAbstractDefinition
+  - class.componere-abstract-definition.md: ComponereAbstractDefinition
 title: 'ComponereAbstractDefinition::getReflector'
 ---
 # ComponereAbstractDefinition::getReflector

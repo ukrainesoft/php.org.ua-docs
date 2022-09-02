@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.extension-loaded.html: « extensionloaded
-  - function.gc-disable.html: гкdisable »
+  - function.extension-loaded.md: « extensionloaded
+  - function.gc-disable.md: гкdisable »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: гкcollectcycles

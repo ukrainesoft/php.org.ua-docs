@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.open.html: '« SQLite3::open'
-  - sqlite3.prepare.html: 'SQLite3::prepare »'
-  - index.html: PHP Manual
-  - class.sqlite3.html: SQLite3
+  - sqlite3.open.md: '« SQLite3::open'
+  - sqlite3.prepare.md: 'SQLite3::prepare »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
 title: 'SQLite3::openBlob'
 ---
 # SQLite3::openBlob

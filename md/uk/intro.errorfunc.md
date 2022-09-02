@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.errorfunc.html: « Обработка ошибок
-  - errorfunc.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.errorfunc.html: Обработка ошибок
+  - book.errorfunc.md: « Обработка ошибок
+  - errorfunc.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.errorfunc.md: Обработка ошибок
 title: Вступ
 ---
 # Вступ

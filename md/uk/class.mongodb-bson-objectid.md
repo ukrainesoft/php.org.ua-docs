@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-minkey.unserialize.html: '« MongoDBBSONMinKey::unserialize'
-  - mongodb-bson-objectid.construct.html: 'MongoDBBSONObjectId::construct »'
+  - mongodb-bson-minkey.unserialize.md: '« MongoDBBSONMinKey::unserialize'
+  - mongodb-bson-objectid.construct.md: 'MongoDBBSONObjectId::construct »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONObjectId

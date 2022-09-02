@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-mail.html: « imapmail
-  - function.imap-mime-header-decode.html: imapmimeheaderdecode »
+  - function.imap-mail.md: « imapmail
+  - function.imap-mime-header-decode.md: imapmimeheaderdecode »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapmailboxmsginfo

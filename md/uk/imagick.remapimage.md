@@ -28,7 +28,7 @@ public Imagick::remapImage(Imagick $replacement, int $DITHER): bool
 
 `DITHER`
 
-Зверніться до списку [констант DITHERMETHOD](imagick.constants.html#imagick.constants.dithermethod)
+Зверніться до списку [констант DITHERMETHOD](imagick.constants.md#imagick.constants.dithermethod)
 
 ### Значення, що повертаються
 

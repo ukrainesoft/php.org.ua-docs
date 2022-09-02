@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-nlist.html: « ftpnlist
-  - function.ftp-put.html: ftpput »
+  - function.ftp-nlist.md: « ftpnlist
+  - function.ftp-put.md: ftpput »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftppasv

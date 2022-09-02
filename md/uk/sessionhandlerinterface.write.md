@@ -18,9 +18,9 @@ SessionHandlerInterface::write — Записати дані сесії
 public SessionHandlerInterface::write(string $id, string $data): bool
 ```
 
-Записує дані сесії у сховище сесій. Викликається функцією [sessionwriteclose()](function.session-write-close.html), коли невдало завершується функція [sessionregistershutdown()](function.session-register-shutdown.md) або під час нормального завершення роботи. Увага: [SessionHandlerInterface::close()](sessionhandlerinterface.close.md) викликається відразу після цієї функції.
+Записує дані сесії у сховище сесій. Викликається функцією [sessionwriteclose()](function.session-write-close.md), коли невдало завершується функція [sessionregistershutdown()](function.session-register-shutdown.md) або під час нормального завершення роботи. Увага: [SessionHandlerInterface::close()](sessionhandlerinterface.close.md) викликається відразу після цієї функції.
 
-PHP викликає цей метод, коли сесія готова для збереження та закриття. Кодуються дані сесії із суперглобального масиву [SESSION](reserved.variables.session.md) серіалізований рядок і передаються разом з ідентифікатором сесії даним методом для зберігання. Метод серіалізації, що використовується, вказаний в опції [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+PHP викликає цей метод, коли сесія готова для збереження та закриття. Кодуються дані сесії із суперглобального масиву [SESSION](reserved.variables.session.md) серіалізований рядок і передаються разом з ідентифікатором сесії даним методом для зберігання. Метод серіалізації, що використовується, вказаний в опції [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
 
 Зауважте, що цей метод зазвичай викликається PHP після закриття буферів виводу, якщо явно не викликається [sessionwriteclose()](function.session-write-close.md)
 
@@ -40,4 +40,4 @@ PHP викликає цей метод, коли сесія готова для 
 
 ### Дивіться також
 
--   Директива конфігурації [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+-   Директива конфігурації [session.serializehandler](session.configuration.md#ini.session.serialize-handler)

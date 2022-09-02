@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-view-interface.setscriptpath.html: '« YafViewInterface::setScriptPath'
-  - yaf-view-simple.assign.html: 'YafViewSimple::assign »'
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf-view-interface.setscriptpath.md: '« YafViewInterface::setScriptPath'
+  - yaf-view-simple.assign.md: 'YafViewSimple::assign »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafViewSimple
 ---
 # Клас YafViewSimple
@@ -65,15 +65,15 @@ tpldir
 
 ## Зміст
 
--   [YafViewSimple::assign](yaf-view-simple.assign.html) - Призначити значення
--   [YafViewSimple::assignRef](yaf-view-simple.assignref.html) — Призначення assignRef
--   [YafViewSimple::clear](yaf-view-simple.clear.html) - Скидає призначені значення
--   [YafViewSimple::construct](yaf-view-simple.construct.html) - Конструктор класу YafViewSimple
--   [YafViewSimple::display](yaf-view-simple.display.html) — Малює та відображає
--   [YafViewSimple::eval](yaf-view-simple.eval.html) — Малює шаблон
--   [YafViewSimple::get](yaf-view-simple.get.html) — Отримує призначену змінну
--   [YafViewSimple::getScriptPath](yaf-view-simple.getscriptpath.html) — Отримує каталог шаблонів
--   [YafViewSimple::isset](yaf-view-simple.isset.html) - Призначення isset
--   [YafViewSimple::render](yaf-view-simple.render.html) — Малює шаблон
--   [YafViewSimple::set](yaf-view-simple.set.html) - Встановлює значення для двигуна
--   [YafViewSimple::setScriptPath](yaf-view-simple.setscriptpath.html) — Встановлює каталог шаблонів
+-   [YafViewSimple::assign](yaf-view-simple.assign.md) - Призначити значення
+-   [YafViewSimple::assignRef](yaf-view-simple.assignref.md) — Призначення assignRef
+-   [YafViewSimple::clear](yaf-view-simple.clear.md) - Скидає призначені значення
+-   [YafViewSimple::construct](yaf-view-simple.construct.md) - Конструктор класу YafViewSimple
+-   [YafViewSimple::display](yaf-view-simple.display.md) — Малює та відображає
+-   [YafViewSimple::eval](yaf-view-simple.eval.md) — Малює шаблон
+-   [YafViewSimple::get](yaf-view-simple.get.md) — Отримує призначену змінну
+-   [YafViewSimple::getScriptPath](yaf-view-simple.getscriptpath.md) — Отримує каталог шаблонів
+-   [YafViewSimple::isset](yaf-view-simple.isset.md) - Призначення isset
+-   [YafViewSimple::render](yaf-view-simple.render.md) — Малює шаблон
+-   [YafViewSimple::set](yaf-view-simple.set.md) - Встановлює значення для двигуна
+-   [YafViewSimple::setScriptPath](yaf-view-simple.setscriptpath.md) — Встановлює каталог шаблонів

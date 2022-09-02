@@ -1,9 +1,9 @@
 ---
 navigation:
-  - apcu.configuration.html: « Налаштування під час виконання
-  - apcu.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - apcu.setup.html: Встановлення та налаштування
+  - apcu.configuration.md: « Налаштування під час виконання
+  - apcu.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - apcu.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

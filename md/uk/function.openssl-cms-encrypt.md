@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-cms-decrypt.html: « opensslcmsdecrypt
-  - function.openssl-cms-read.html: opensslcmsread »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-cms-decrypt.md: « opensslcmsdecrypt
+  - function.openssl-cms-read.md: opensslcmsread »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslcmsencrypt
 ---
 # opensslcmsencrypt

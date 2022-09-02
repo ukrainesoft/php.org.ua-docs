@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dba-firstkey.html: « dbafirstkey
-  - function.dba-insert.html: dbainsert »
+  - function.dba-firstkey.md: « dbafirstkey
+  - function.dba-insert.md: dbainsert »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbahandlers

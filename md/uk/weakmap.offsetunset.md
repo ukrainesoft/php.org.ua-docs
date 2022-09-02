@@ -1,9 +1,9 @@
 ---
 navigation:
-  - weakmap.offsetset.html: '« WeakMap::offsetSet'
-  - class.stringable.html: Stringable »
-  - index.html: PHP Manual
-  - class.weakmap.html: WeakMap
+  - weakmap.offsetset.md: '« WeakMap::offsetSet'
+  - class.stringable.md: Stringable »
+  - index.md: PHP Manual
+  - class.weakmap.md: WeakMap
 title: 'WeakMap::offsetUnset'
 ---
 # WeakMap::offsetUnset

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.setup.html: « Встановлення та налаштування
-  - oauth.installation.html: Установка »
-  - index.html: PHP Manual
-  - oauth.setup.html: Встановлення та налаштування
+  - oauth.setup.md: « Встановлення та налаштування
+  - oauth.installation.md: Установка »
+  - index.md: PHP Manual
+  - oauth.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

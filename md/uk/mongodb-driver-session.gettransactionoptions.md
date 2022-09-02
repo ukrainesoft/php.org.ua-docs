@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-session.getserver.html: '« MongoDBDriverSession::getServer'
-  - mongodb-driver-session.gettransactionstate.html: 'MongoDBDriverSession::getTransactionState »'
+  - mongodb-driver-session.getserver.md: '« MongoDBDriverSession::getServer'
+  - mongodb-driver-session.gettransactionstate.md: 'MongoDBDriverSession::getTransactionState »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.html: MongoDBDriverSession
+  - class.mongodb-driver-session.md: MongoDBDriverSession
 title: 'MongoDBDriverSession::getTransactionOptions'
 ---
 # MongoDBDriverSession::getTransactionOptions

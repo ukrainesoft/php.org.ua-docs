@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tabledelete.bind.html: '« TableDelete::bind'
-  - mysql-xdevapi-tabledelete.execute.html: 'TableDelete::execute »'
+  - mysql-xdevapi-tabledelete.bind.md: '« TableDelete::bind'
+  - mysql-xdevapi-tabledelete.execute.md: 'TableDelete::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
 title: 'TableDelete::construct'
 ---
 # TableDelete::construct

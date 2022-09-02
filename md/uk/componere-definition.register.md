@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-definition.addproperty.html: '« ComponereDefinition::addProperty'
-  - componere-definition.isregistered.html: 'ComponereDefinition::isRegistered »'
+  - componere-definition.addproperty.md: '« ComponereDefinition::addProperty'
+  - componere-definition.isregistered.md: 'ComponereDefinition::isRegistered »'
   - index.md: PHP Manual
-  - class.componere-definition.html: ComponereDefinition
+  - class.componere-definition.md: ComponereDefinition
 title: 'ComponereDefinition::register'
 ---
 # ComponereDefinition::register

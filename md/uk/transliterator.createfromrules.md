@@ -42,7 +42,7 @@ transliterator_create_from_rules(string $rules, int $direction = Transliterator:
 
 `direction`
 
-Напрямок транслітерації. За замовчуванням [Transliterator::FORWARD](class.transliterator.html#transliterator.constants.forward). Можно використовувати [Transliterator::REVERSE](class.transliterator.html#transliterator.constants.reverse)
+Напрямок транслітерації. За замовчуванням [Transliterator::FORWARD](class.transliterator.md#transliterator.constants.forward). Можно використовувати [Transliterator::REVERSE](class.transliterator.md#transliterator.constants.reverse)
 
 ### Значення, що повертаються
 

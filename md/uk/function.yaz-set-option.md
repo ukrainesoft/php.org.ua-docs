@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.yaz-search.html: « yazsearch
-  - function.yaz-sort.html: yazsort »
-  - index.html: PHP Manual
-  - ref.yaz.html: Функции YAZ
+  - function.yaz-search.md: « yazsearch
+  - function.yaz-sort.md: yazsort »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
 title: yazsetoption
 ---
 # yazsetoption
@@ -28,7 +28,7 @@ yaz_set_option(resource $id, array $options): void
 
 `id`
 
-Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.html)
+Дескриптор з'єднання, повернутий [yazconnect()](function.yaz-connect.md)
 
 `name` або `options`
 
@@ -45,11 +45,11 @@ yaz_set_option(resource $id, array $options): void
 | implementationName | реалізація імені сервера |
 | implementationVersion | реалізація версії сервера |
 | implementationId | реалізація ID сервера |
-| schema | схема для набору, що повертається. За промовчанням не встановлено. Це налаштування еквівалентне функції [yazschema()](function.yaz-schema.html) |
-| preferredRecordSyntax | синтаксис запису, що повертається. За промовчанням не встановлено. Встановлення цього параметра дорівнює використання функції [yazsyntax()](function.yaz-syntax.html) |
-| start | зміщення для першого запису з повертається функціями [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html) набір. Перший запис має значення start рівне 0, другий - 1 і т.д. Встановлення цього налаштування разом із установкою `count` має той самий ефект як і виклик функції [yazrange()](function.yaz-range.html), за винятком того, що в [yazrange()](function.yaz-range.html) записи нумеруються зі значенням 1. |
-| count | максимальна кількість записів, що повертаються функціями [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.html) |
-| elementSetName | Встановлює тип набору елементів, що повертаються. Еквівалентно виклику [yazelement()](function.yaz-element.html) |
+| schema | схема для набору, що повертається. За промовчанням не встановлено. Це налаштування еквівалентне функції [yazschema()](function.yaz-schema.md) |
+| preferredRecordSyntax | синтаксис запису, що повертається. За промовчанням не встановлено. Встановлення цього параметра дорівнює використання функції [yazsyntax()](function.yaz-syntax.md) |
+| start | зміщення для першого запису з повертається функціями [yazsearch()](function.yaz-search.md) або [yazpresent()](function.yaz-present.md) набір. Перший запис має значення start рівне 0, другий - 1 і т.д. Встановлення цього налаштування разом із установкою `count` має той самий ефект як і виклик функції [yazrange()](function.yaz-range.md), за винятком того, що в [yazrange()](function.yaz-range.md) записи нумеруються зі значенням 1. |
+| count | максимальна кількість записів, що повертаються функціями [yazsearch()](function.yaz-search.md) або [yazpresent()](function.yaz-present.md) |
+| elementSetName | Встановлює тип набору елементів, що повертаються. Еквівалентно виклику [yazelement()](function.yaz-element.md) |
 
 `value`
 

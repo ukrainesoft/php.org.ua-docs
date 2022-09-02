@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-save-string.html: « fdfsavestring
-  - function.fdf-set-ap.html: fdfsetap »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-save-string.md: « fdfsavestring
+  - function.fdf-set-ap.md: fdfsetap »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfsave
 ---
 # fdfsave
@@ -24,7 +24,7 @@ fdf_save(resource $fdf_document, string $filename = ?): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `filename`
 

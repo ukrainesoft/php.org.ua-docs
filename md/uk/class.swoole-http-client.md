@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.swoole-exception.html: « SwooleException
-  - swoole-http-client.addfile.html: 'SwooleHttpClient::addFile »'
+  - class.swoole-exception.md: « SwooleException
+  - swoole-http-client.addfile.md: 'SwooleHttpClient::addFile »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleHttpClient

@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.calendar.md: « Календарь
-  - function.cal-from-jd.html: calfromjd »
+  - function.cal-from-jd.md: calfromjd »
   - index.md: PHP Manual
   - ref.calendar.md: Календарь
 title: caldaysінmonth

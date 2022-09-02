@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-add-to-session.html: « pspelladdтоsession
-  - function.pspell-clear-session.html: pspellclearsession »
+  - function.pspell-add-to-session.md: « pspelladdтоsession
+  - function.pspell-clear-session.md: pspellclearsession »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspellcheck

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-random-range.html: « gmprandomrange
-  - function.gmp-random.html: gmprandom »
+  - function.gmp-random-range.md: « gmprandomrange
+  - function.gmp-random.md: gmprandom »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmprandomseed
@@ -22,7 +22,7 @@ gmp_random_seed(GMP|int|string $seed): void
 
 `seed`
 
-Початковий стан для функцій [gmprandom()](function.gmp-random.html) [gmprandombits()](function.gmp-random-bits.html) і [gmprandomrange()](function.gmp-random-range.md)
+Початковий стан для функцій [gmprandom()](function.gmp-random.md) [gmprandombits()](function.gmp-random-bits.md) і [gmprandomrange()](function.gmp-random-range.md)
 
 Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 

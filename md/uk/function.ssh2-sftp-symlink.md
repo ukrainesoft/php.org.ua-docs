@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-sftp-stat.html: « ssh2sftpstat
-  - function.ssh2-sftp-unlink.html: ssh2sftpunlink »
+  - function.ssh2-sftp-stat.md: « ssh2sftpstat
+  - function.ssh2-sftp-unlink.md: ssh2sftpunlink »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2sftpsymlink

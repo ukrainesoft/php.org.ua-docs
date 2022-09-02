@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.enchant-broker-init.html: « enchantbrokerinit
-  - function.enchant-broker-request-dict.html: enchantbrokerrequestdict »
-  - index.html: PHP Manual
-  - ref.enchant.html: Функции Enchant
+  - function.enchant-broker-init.md: « enchantbrokerinit
+  - function.enchant-broker-request-dict.md: enchantbrokerrequestdict »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
 title: enchantbrokerlistdicts
 ---
 # enchantbrokerlistdicts
@@ -24,7 +24,7 @@ enchant_broker_list_dicts(EnchantBroker $broker): array
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ enchant_broker_list_dicts(EnchantBroker $broker): array
 
 | Версия | Описание |
 | --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | До цієї версії функція повертала **`false`** у разі виникнення помилки. |
 
 ### Приклади
@@ -107,4 +107,4 @@ Array
 
 ### Дивіться також
 
--   [enchantbrokerdescribe()](function.enchant-broker-describe.html) - Перераховує провайдерів Enchant
+-   [enchantbrokerdescribe()](function.enchant-broker-describe.md) - Перераховує провайдерів Enchant

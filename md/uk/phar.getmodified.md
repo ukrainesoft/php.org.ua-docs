@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.getmetadata.html: '« Phar::getMetadata'
-  - phar.getpath.html: 'Phar::getPath »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.getmetadata.md: '« Phar::getMetadata'
+  - phar.getpath.md: 'Phar::getPath »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::getModified'
 ---
 # Phar::getModified

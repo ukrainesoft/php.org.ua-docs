@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauthprovider.checkoauthrequest.html: '« OAuthProvider::checkOAuthRequest'
-  - oauthprovider.consumerhandler.html: 'OAuthProvider::consumerHandler »'
-  - index.html: PHP Manual
-  - class.oauthprovider.html: OAuthProvider
+  - oauthprovider.checkoauthrequest.md: '« OAuthProvider::checkOAuthRequest'
+  - oauthprovider.consumerhandler.md: 'OAuthProvider::consumerHandler »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::construct'
 ---
 # OAuthProvider::construct
@@ -18,7 +18,7 @@ OAuthProvider::construct - Конструктор класу OAuthProvider
 public OAuthProvider::__construct(array $params_array = ?)
 ```
 
-Створює об'єкт класу [OAuthProvider](class.oauthprovider.html)
+Створює об'єкт класу [OAuthProvider](class.oauthprovider.md)
 
 **Увага**
 
@@ -28,11 +28,11 @@ public OAuthProvider::__construct(array $params_array = ?)
 
 `params_array`
 
-Встановлення цих необов'язкових параметрів обмежено [CLI SAPI](features.commandline.html)
+Встановлення цих необов'язкових параметрів обмежено [CLI SAPI](features.commandline.md)
 
 ### Значення, що повертаються
 
-Об'єкт класу [OAuthProvider](class.oauthprovider.html)
+Об'єкт класу [OAuthProvider](class.oauthprovider.md)
 
 ### Приклади
 
@@ -66,4 +66,4 @@ try {
 
 ### Дивіться також
 
--   [OAuthProvider::setParam()](oauthprovider.setparam.html) - Встановити параметр
+-   [OAuthProvider::setParam()](oauthprovider.setparam.md) - Встановити параметр

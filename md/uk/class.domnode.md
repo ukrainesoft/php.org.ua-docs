@@ -134,7 +134,7 @@ nodeName
 
 nodeValue
 
-Значення цього вузла, залежно з його типу. На відміну від специфікації W3C, значення вузлів [DOMElement](class.domelement.md) одно [DOMNode::textContent](class.domnode.html#domnode.props.textcontent), а не **`null`**
+Значення цього вузла, залежно з його типу. На відміну від специфікації W3C, значення вузлів [DOMElement](class.domelement.md) одно [DOMNode::textContent](class.domnode.md#domnode.props.textcontent), а не **`null`**
 
 nodeType
 
@@ -206,7 +206,7 @@ textContent
 
 ## Дивіться також
 
--   [» Специфікація W3C елемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-1950641247)
+-   [» Специфікація W3C елемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1950641247)
 
 ## Зміст
 

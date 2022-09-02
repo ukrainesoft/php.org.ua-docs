@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-decimal128.html: « MongoDBBSONDecimal128
-  - mongodb-bson-decimal128.jsonserialize.html: 'MongoDBBSONDecimal128::jsonSerialize »'
+  - class.mongodb-bson-decimal128.md: « MongoDBBSONDecimal128
+  - mongodb-bson-decimal128.jsonserialize.md: 'MongoDBBSONDecimal128::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128
+  - class.mongodb-bson-decimal128.md: MongoDBBSONDecimal128
 title: 'MongoDBBSONDecimal128::construct'
 ---
 # MongoDBBSONDecimal128::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagedelay.html: '« Imagick::getImageDelay'
-  - imagick.getimagedispose.html: 'Imagick::getImageDispose »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagedelay.md: '« Imagick::getImageDelay'
+  - imagick.getimagedispose.md: 'Imagick::getImageDispose »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageDepth'
 ---
 # Imagick::getImageDepth

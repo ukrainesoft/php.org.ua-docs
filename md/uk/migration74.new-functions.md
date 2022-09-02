@@ -1,6 +1,6 @@
 ---
 navigation:
-  - migration74.new-classes.html: « Нові класи та інтерфейси
+  - migration74.new-classes.md: « Нові класи та інтерфейси
   - migration74.constants.md: Нові глобальні константи »
   - index.md: PHP Manual
   - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x

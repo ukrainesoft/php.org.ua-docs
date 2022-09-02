@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-label.settext.html: '« UIControlsLabel::setText'
-  - ui-controls-entry.construct.html: 'ОЙControlsEntry::construct »'
+  - ui-controls-label.settext.md: '« UIControlsLabel::setText'
+  - ui-controls-entry.construct.md: 'ОЙControlsEntry::construct »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління "Введення"

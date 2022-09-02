@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rename.html: « rename
-  - function.rmdir.html: rmdir »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.rename.md: « rename
+  - function.rmdir.md: rmdir »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: rewind
 ---
 # rewind
@@ -28,7 +28,7 @@ rewind(resource $stream): bool
 
 `stream`
 
-Файловий покажчик повинен бути доступним і посилатися на файл, успішно відкритий за допомогою [fopen()](function.fopen.html)
+Файловий покажчик повинен бути доступним і посилатися на файл, успішно відкритий за допомогою [fopen()](function.fopen.md)
 
 ### Значення, що повертаються
 
@@ -61,7 +61,7 @@ fclose($handle);
 
 ### Дивіться також
 
--   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
--   [fseek()](function.fseek.html) - Встановлює зміщення у файловому покажчику
--   [ftell()](function.ftell.html) - Повертає поточну позицію покажчика читання/запису файлу
--   [fwrite()](function.fwrite.html) - Бінарно-безпечний запис у файл
+-   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
+-   [fseek()](function.fseek.md) - Встановлює зміщення у файловому покажчику
+-   [ftell()](function.ftell.md) - Повертає поточну позицію покажчика читання/запису файлу
+-   [fwrite()](function.fwrite.md) - Бінарно-безпечний запис у файл

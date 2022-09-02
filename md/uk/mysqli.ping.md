@@ -28,7 +28,7 @@ public mysqli::ping(): bool
 mysqli_ping(mysqli $mysql): bool
 ```
 
-Перевіряє працездатність з'єднання із сервером. Якщо з'єднання розірвано, а глобальне налаштування [mysqli.reconnect](mysqli.configuration.html#ini.mysqli.reconnect) увімкнена, PHP спробує автоматично перепідключитися.
+Перевіряє працездатність з'єднання із сервером. Якщо з'єднання розірвано, а глобальне налаштування [mysqli.reconnect](mysqli.configuration.md#ini.mysqli.reconnect) увімкнена, PHP спробує автоматично перепідключитися.
 
 > **Зауваження**: Налаштування php.ini mysqli.reconnect ігнорується драйвером "mysqlnd", тому автоматичного перепідключення не відбудеться.
 

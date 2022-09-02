@@ -1,7 +1,7 @@
 ---
 navigation:
   - info.constants.md: « Обумовлені константи
-  - function.assert-options.html: assertoptions »
+  - function.assert-options.md: assertoptions »
   - index.md: PHP Manual
   - book.info.md: Опции/информация PHP
 title: Опції PHP/інформаційні функції

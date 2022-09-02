@@ -1,16 +1,16 @@
 ---
 navigation:
-  - splfileinfo.openfile.html: '« SplFileInfo::openFile'
-  - splfileinfo.setinfoclass.html: 'SplFileInfo::setInfoClass »'
-  - index.html: PHP Manual
-  - class.splfileinfo.html: SplFileInfo
+  - splfileinfo.openfile.md: '« SplFileInfo::openFile'
+  - splfileinfo.setinfoclass.md: 'SplFileInfo::setInfoClass »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::setFileClass'
 ---
 # SplFileInfo::setFileClass
 
 (PHP 5> = 5.1.2, PHP 7, PHP 8)
 
-SplFileInfo::setFileClass — Задає ім'я класу, який використовуватиметься методом [SplFileInfo::openFile()](splfileinfo.openfile.html)
+SplFileInfo::setFileClass — Задає ім'я класу, який використовуватиметься методом [SplFileInfo::openFile()](splfileinfo.openfile.md)
 
 ### Опис
 
@@ -18,13 +18,13 @@ SplFileInfo::setFileClass — Задає ім'я класу, який викор
 public SplFileInfo::setFileClass(string $class = SplFileObject::class): void
 ```
 
-Задає ім'я класу, яке використовуватиме метод [SplFileInfo::openFile()](splfileinfo.openfile.html). Цим класом має бути [SplFileObject](class.splfileobject.html) або спадкоємець класу [SplFileObject](class.splfileobject.html)
+Задає ім'я класу, яке використовуватиме метод [SplFileInfo::openFile()](splfileinfo.openfile.md). Цим класом має бути [SplFileObject](class.splfileobject.md) або спадкоємець класу [SplFileObject](class.splfileobject.md)
 
 ### Список параметрів
 
 `class`
 
-Ім'я класу для методу [SplFileInfo::openFile()](splfileinfo.openfile.html)
+Ім'я класу для методу [SplFileInfo::openFile()](splfileinfo.openfile.md)
 
 ### Значення, що повертаються
 
@@ -54,4 +54,4 @@ object(MyFoo)#2 (0) { }
 
 ### Дивіться також
 
--   [SplFileInfo::openFile()](splfileinfo.openfile.html) - Отримує об'єкт SplFileObject для файлу
+-   [SplFileInfo::openFile()](splfileinfo.openfile.md) - Отримує об'єкт SplFileObject для файлу

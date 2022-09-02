@@ -38,7 +38,7 @@ datefmt_get_timetype(IntlDateFormatter $formatter): int|false
 
 ### Значення, що повертаються
 
-Значення поточного [типу дати](class.intldateformatter.html#intl.intldateformatter-constants) засоби форматування або **`false`** у разі виникнення помилки.
+Значення поточного [типу дати](class.intldateformatter.md#intl.intldateformatter-constants) засоби форматування або **`false`** у разі виникнення помилки.
 
 ### Приклади
 

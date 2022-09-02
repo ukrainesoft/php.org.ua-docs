@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xhprof-enable.html: « xhprofenable
-  - function.xhprof-sample-enable.html: xhprofsampleenable »
-  - index.html: PHP Manual
-  - ref.xhprof.html: Функции Xhprof
+  - function.xhprof-enable.md: « xhprofenable
+  - function.xhprof-sample-enable.md: xhprofsampleenable »
+  - index.md: PHP Manual
+  - ref.xhprof.md: Функции Xhprof
 title: xhprofsampledisable
 ---
 # xhprofsampledisable

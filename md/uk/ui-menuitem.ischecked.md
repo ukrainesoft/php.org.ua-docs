@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-menuitem.enable.html: '« UIMenuItem::enable'
-  - ui-menuitem.onclick.html: 'ОЙMenuItem::onClick »'
+  - ui-menuitem.enable.md: '« UIMenuItem::enable'
+  - ui-menuitem.onclick.md: 'ОЙMenuItem::onClick »'
   - index.md: PHP Manual
-  - class.ui-menuitem.html: ОЙMenuItem
+  - class.ui-menuitem.md: ОЙMenuItem
 title: 'ОЙMenuItem::isChecked'
 ---
 # ОЙMenuItem::isChecked

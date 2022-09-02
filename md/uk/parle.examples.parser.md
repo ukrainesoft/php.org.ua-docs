@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle.examples.lexer.html: « Приклади використання лексера
-  - class.parle-lexer.html: ParleLexer »
-  - index.html: PHP Manual
-  - parle.examples.html: Приклади
+  - parle.examples.lexer.md: « Приклади використання лексера
+  - class.parle-lexer.md: ParleLexer »
+  - index.md: PHP Manual
+  - parle.examples.md: Приклади
 title: Приклад використання парсеру
 ---
 ## Приклад використання парсеру

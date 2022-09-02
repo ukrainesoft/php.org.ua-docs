@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkey-get-details.html: « opensslpkeygetdetails
-  - function.openssl-pkey-get-public.html: opensslpkeygetpublic »
+  - function.openssl-pkey-get-details.md: « opensslpkeygetdetails
+  - function.openssl-pkey-get-public.md: opensslpkeygetpublic »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkeygetprivate

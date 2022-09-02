@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-method.construct.html: '« ComponereMethod::construct'
-  - componere-method.setprotected.html: 'ComponereMethod::setProtected »'
+  - componere-method.construct.md: '« ComponereMethod::construct'
+  - componere-method.setprotected.md: 'ComponereMethod::setProtected »'
   - index.md: PHP Manual
-  - class.componere-method.html: ComponereMethod
+  - class.componere-method.md: ComponereMethod
 title: 'ComponereMethod::setPrivate'
 ---
 # ComponereMethod::setPrivate

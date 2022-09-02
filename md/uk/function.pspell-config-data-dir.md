@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pspell-config-create.html: « pspellconfigcreate
-  - function.pspell-config-dict-dir.html: pspellconfigdictdir »
-  - index.html: PHP Manual
-  - ref.pspell.html: Функции Pspell
+  - function.pspell-config-create.md: « pspellconfigcreate
+  - function.pspell-config-dict-dir.md: pspellconfigdictdir »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
 title: pspellconfigdatadir
 ---
 # pspellconfigdatadir
@@ -30,4 +30,4 @@ pspell_config_data_dir(PSpell\Config $config, string $directory): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

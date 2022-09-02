@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration81.html: « Миграция с PHP 8.0.x на PHP 8.1.x
-  - migration81.new-classes.html: Нові класи та інтерфейси »
-  - index.html: PHP Manual
-  - migration81.html: Миграция с PHP 8.0.x на PHP 8.1.x
+  - migration81.md: « Миграция с PHP 8.0.x на PHP 8.1.x
+  - migration81.new-classes.md: Нові класи та інтерфейси »
+  - index.md: PHP Manual
+  - migration81.md: Миграция с PHP 8.0.x на PHP 8.1.x
 title: Нова функціональність
 ---
 ## Нова функціональність
@@ -23,7 +23,7 @@ title: Нова функціональність
 
 #### Розпакування масиву за допомогою рядкових ключів
 
-Додана підтримка [розпакування масивів з рядковими ключами](language.types.array.html#language.types.array.unpacking)
+Додана підтримка [розпакування масивів з рядковими ключами](language.types.array.md#language.types.array.unpacking)
 
 ```php
 <?php
@@ -56,27 +56,27 @@ $arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']
 
 #### Перетин типів
 
-Додана підтримка [перетину типів](language.types.declarations.html#language.types.declarations.composite.intersection)
+Додана підтримка [перетину типів](language.types.declarations.md#language.types.declarations.composite.intersection)
 
 **Застереження**
 
-[Перетин типів](language.types.declarations.html#language.types.declarations.composite.intersection) не можна використовувати разом з [об'єднаними типами](language.types.declarations.html#language.types.declarations.composite.union)
+[Перетин типів](language.types.declarations.md#language.types.declarations.composite.intersection) не можна використовувати разом з [об'єднаними типами](language.types.declarations.md#language.types.declarations.composite.union)
 
 #### Тип never
 
 Доданий новий тип значення, що повертається never. Тип свідчить про те, що функція чи викликає [exit()](function.exit.md), або викидає виняток, або завершується.
 
-#### [`new`](language.oop5.basic.html#language.oop5.basic.new) в ініціалізації класу
+#### [`new`](language.oop5.basic.md#language.oop5.basic.new) в ініціалізації класу
 
 Тепер можна використовувати вирази `new ClassName()` як значення за умовчанням для параметра, статичної змінної, ініціалізаторів глобальних констант і як аргументи атрибутів. Тепер об'єкти також можна передавати в [define()](function.define.md)
 
 #### Readonly-властивості
 
-Додана підтримка [readonly](language.oop5.properties.html#language.oop5.properties.readonly-properties)властивостей.
+Додана підтримка [readonly](language.oop5.properties.md#language.oop5.properties.readonly-properties)властивостей.
 
 #### Остаточні константи класу
 
-Додана підтримка [модификатора final при определении констант класса](language.oop5.final.html#language.oop5.final.example.php81). Крім того, константи інтерфейсу за умовчанням стають перевизначуваними.
+Додана підтримка [модификатора final при определении констант класса](language.oop5.final.md#language.oop5.final.example.php81). Крім того, константи інтерфейсу за умовчанням стають перевизначуваними.
 
 ### CURL
 
@@ -109,11 +109,11 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' => $file]);
 
 ### ДД
 
-Підтримка Avif тепер доступна за допомогою [imagecreatefromavif()](function.imagecreatefromavif.html) і [imageavif()](function.imageavif.md)якщо libgd був зібраний з підтримкою Avif.
+Підтримка Avif тепер доступна за допомогою [imagecreatefromavif()](function.imagecreatefromavif.md) і [imageavif()](function.imageavif.md)якщо libgd був зібраний з підтримкою Avif.
 
 ### Hash
 
-Наступні функції [hash()](function.hash.html) [hashfile()](function.hash-file.html) і [hashinit()](function.hash-init.md) тепер підтримують додатковий необов'язковий аргумент `options`який можна використовувати для передачі специфічних для алгоритму даних.
+Наступні функції [hash()](function.hash.md) [hashfile()](function.hash-file.md) і [hashinit()](function.hash-init.md) тепер підтримують додатковий необов'язковий аргумент `options`який можна використовувати для передачі специфічних для алгоритму даних.
 
 #### MurmurHash3
 
@@ -167,7 +167,7 @@ echo $h, "\n";
 
 #### Нова INI-директива `mysqli.local_infile_directory`
 
-Додано INI-директиву [mysqli.localinfiledirectory](mysqli.configuration.html#ini.mysqli.local-infile-directory), за допомогою якої можна вказати каталог, з якого дозволено завантаження файлів. Це має сенс тільки якщо [mysqli.allowlocalinfile](mysqli.configuration.html#ini.mysqli.allow-local-infile) не включено, оскільки в цьому випадку дозволено всі каталоги.
+Додано INI-директиву [mysqli.localinfiledirectory](mysqli.configuration.md#ini.mysqli.local-infile-directory), за допомогою якої можна вказати каталог, з якого дозволено завантаження файлів. Це має сенс тільки якщо [mysqli.allowlocalinfile](mysqli.configuration.md#ini.mysqli.allow-local-infile) не включено, оскільки в цьому випадку дозволено всі каталоги.
 
 #### Прив'язка параметрів під час виконання
 

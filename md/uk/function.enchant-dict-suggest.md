@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.enchant-dict-store-replacement.html: « enchantdictstorereplacement
+  - function.enchant-dict-store-replacement.md: « enchantdictstorereplacement
   - class.enchantbroker.md: EnchantBroker »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
@@ -22,7 +22,7 @@ enchant_dict_suggest(EnchantDictionary $dictionary, string $word): array
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yar-server.construct.html: '« YarServer::construct'
-  - class.yar-client.html: YarClient »
+  - yar-server.construct.md: '« YarServer::construct'
+  - class.yar-client.md: YarClient »
   - index.md: PHP Manual
-  - class.yar-server.html: YarServer
+  - class.yar-server.md: YarServer
 title: 'YarServer::handle'
 ---
 # YarServer::handle

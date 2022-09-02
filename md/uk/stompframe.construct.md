@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.stompframe.html: « StompFrame
-  - class.stompexception.html: StompException »
-  - index.html: PHP Manual
-  - class.stompframe.html: StompFrame
+  - class.stompframe.md: « StompFrame
+  - class.stompexception.md: StompException »
+  - index.md: PHP Manual
+  - class.stompframe.md: StompFrame
 title: 'StompFrame::construct'
 ---
 # StompFrame::construct

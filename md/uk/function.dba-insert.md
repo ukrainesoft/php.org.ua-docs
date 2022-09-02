@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dba-handlers.html: « dbahandlers
-  - function.dba-key-split.html: dbakeysplit »
+  - function.dba-handlers.md: « dbahandlers
+  - function.dba-key-split.md: dbakeysplit »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbainsert
@@ -32,7 +32,7 @@ dba_insert(string|array $key, string $value, resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 

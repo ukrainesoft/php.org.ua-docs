@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.reducenoiseimage.html: '« Gmagick::reducenoiseimage'
-  - gmagick.removeimageprofile.html: 'Gmagick::removeimageprofile »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.reducenoiseimage.md: '« Gmagick::reducenoiseimage'
+  - gmagick.removeimageprofile.md: 'Gmagick::removeimageprofile »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::removeimage'
 ---
 # Gmagick::removeimage

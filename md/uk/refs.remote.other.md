@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.var-representation.html: « varrepresentation
+  - function.var-representation.md: « varrepresentation
   - book.curl.md: cURL »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

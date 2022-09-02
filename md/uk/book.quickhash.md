@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.unregister-tick-function.html: « unregistertickfunction
+  - function.unregister-tick-function.md: « unregistertickfunction
   - intro.quickhash.md: Введение »
   - index.md: PHP Manual
   - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'

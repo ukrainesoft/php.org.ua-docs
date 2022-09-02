@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setsizeoffset.html: '« Imagick::setSizeOffset'
-  - imagick.shadeimage.html: 'Imagick::shadeImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setsizeoffset.md: '« Imagick::setSizeOffset'
+  - imagick.shadeimage.md: 'Imagick::shadeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setType'
 ---
 # Imagick::setType

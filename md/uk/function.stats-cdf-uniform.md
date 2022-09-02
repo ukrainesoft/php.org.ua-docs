@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-t.html: « statscdfт
-  - function.stats-cdf-weibull.html: statscdfweibull »
+  - function.stats-cdf-t.md: « statscdfт
+  - function.stats-cdf-weibull.md: statscdfweibull »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdfuniform

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-remove-item.html: « fdfremoveitem
-  - function.fdf-save.html: fdfsave »
+  - function.fdf-remove-item.md: « fdfremoveitem
+  - function.fdf-save.md: fdfsave »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfsavestring
@@ -24,7 +24,7 @@ fdf_save_string(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 

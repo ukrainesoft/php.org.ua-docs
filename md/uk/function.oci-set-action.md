@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-server-version.html: « ociserverversion
-  - function.oci-set-call-timout.html: ocisetcalltimeout »
+  - function.oci-server-version.md: « ociserverversion
+  - function.oci-set-call-timout.md: ocisetcalltimeout »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocisetaction
@@ -30,7 +30,7 @@ oci_set_action(resource $connection, string $action): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.md)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md), або [ocinewconnect()](function.oci-new-connect.md)
 
 `action`
 

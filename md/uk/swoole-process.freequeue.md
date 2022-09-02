@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.exit.html: '« SwooleProcess::exit'
-  - swoole-process.kill.html: 'SwooleProcess::kill »'
+  - swoole-process.exit.md: '« SwooleProcess::exit'
+  - swoole-process.kill.md: 'SwooleProcess::kill »'
   - index.md: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::freeQueue'
 ---
 # SwooleProcess::freeQueue

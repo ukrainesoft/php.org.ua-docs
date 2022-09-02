@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-secretstream-xchacha20poly1305-pull.html: « sodiumcryptosecretstreamxchacha20poly1305pull
-  - function.sodium-crypto-secretstream-xchacha20poly1305-rekey.html: sodiumcryptosecretstreamxchacha20poly1305rekey »
+  - function.sodium-crypto-secretstream-xchacha20poly1305-pull.md: « sodiumcryptosecretstreamxchacha20poly1305pull
+  - function.sodium-crypto-secretstream-xchacha20poly1305-rekey.md: sodiumcryptosecretstreamxchacha20poly1305rekey »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptosecretstreamxchacha20poly1305push
@@ -24,7 +24,7 @@ sodium_crypto_secretstream_xchacha20poly1305_push(    string &$state,   �
 
 `state`
 
-Дивіться [sodiumcryptosecretstreamxchacha20poly1305initpull()](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.html) і [sodiumcryptosecretstreamxchacha20poly1305initpush()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md)
+Дивіться [sodiumcryptosecretstreamxchacha20poly1305initpull()](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md) і [sodiumcryptosecretstreamxchacha20poly1305initpush()](function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md)
 
 `message`
 

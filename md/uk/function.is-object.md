@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-numeric.html: « isnumeric
-  - function.is-real.html: ісreal »
+  - function.is-numeric.md: « isnumeric
+  - function.is-real.md: ісreal »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: ісobject

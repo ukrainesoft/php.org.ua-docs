@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-set-prefetch-lob.html: « ocisetprefetchlob
-  - function.oci-statement-type.html: ocistatementtype »
+  - function.oci-set-prefetch-lob.md: « ocisetprefetchlob
+  - function.oci-statement-type.md: ocistatementtype »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocisetprefetch
@@ -18,7 +18,7 @@ ocisetprefetch — Встановлює кількість рядків, які 
 oci_set_prefetch(resource $statement, int $rows): bool
 ```
 
-Встановлює кількість рядків, які будуть вибрані в буфер клієнтськими бібліотеками Oracle відразу після успішного виклику [ociexecute()](function.oci-execute.md) і кожного наступного внутрішнього запиту даних до базі. Продуктивність може бути значно збільшена для запитів, що повертають велику кількість рядків, за допомогою встановлення значення попередньої вибірки більше значення за замовчуванням [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch)
+Встановлює кількість рядків, які будуть вибрані в буфер клієнтськими бібліотеками Oracle відразу після успішного виклику [ociexecute()](function.oci-execute.md) і кожного наступного внутрішнього запиту даних до базі. Продуктивність може бути значно збільшена для запитів, що повертають велику кількість рядків, за допомогою встановлення значення попередньої вибірки більше значення за замовчуванням [oci8.defaultprefetch](oci8.configuration.md#ini.oci8.default-prefetch)
 
 Попередня вибірка - це ефективний механізм Oracle, що дозволяє повертати більше одного рядка результату бази даних за кожен мережевий запит. Це дає більш раціональне використання мережі та процесора. Буферизація рядків відбувається всередині OCI8, тому поведінка функцій вибірки OCI8 не залежить від розміру попередньої вибірки. Наприклад, [ocifetchrow()](function.oci-fetch-row.md) завжди повертає один рядок. Буфер попередньої вибірки резервується окремо на кожен запит і не використовується вдруге у повторно запущених запитах або інших з'єднаннях.
 
@@ -36,7 +36,7 @@ oci_set_prefetch(resource $statement, int $rows): bool
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 `rows`
 
@@ -160,4 +160,4 @@ oci_execute($stid);
 
 ### Дивіться також
 
--   Директива [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch)
+-   Директива [oci8.defaultprefetch](oci8.configuration.md#ini.oci8.default-prefetch)

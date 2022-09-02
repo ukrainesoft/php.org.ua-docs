@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionattribute.construct.html: '« ReflectionAttribute::construct'
-  - reflectionattribute.getname.html: 'ReflectionAttribute::getName »'
-  - index.html: PHP Manual
-  - class.reflectionattribute.html: ReflectionAttribute
+  - reflectionattribute.construct.md: '« ReflectionAttribute::construct'
+  - reflectionattribute.getname.md: 'ReflectionAttribute::getName »'
+  - index.md: PHP Manual
+  - class.reflectionattribute.md: ReflectionAttribute
 title: 'ReflectionAttribute::getArguments'
 ---
 # ReflectionAttribute::getArguments

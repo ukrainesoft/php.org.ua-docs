@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.dba.md: « Функції DBA
-  - function.dba-delete.html: dbadelete »
+  - function.dba-delete.md: dbadelete »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbaclose
@@ -24,7 +24,7 @@ dba_close(resource $dba): void
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 

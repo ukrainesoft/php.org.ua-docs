@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-pkcs7-encrypt.html: « opensslpkcs7encrypt
-  - function.openssl-pkcs7-sign.html: opensslpkcs7sign »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-pkcs7-encrypt.md: « opensslpkcs7encrypt
+  - function.openssl-pkcs7-sign.md: opensslpkcs7sign »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslpkcs7read
 ---
 # opensslpkcs7read
@@ -62,4 +62,4 @@ print_r($p7);
 
 ### Дивіться також
 
--   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

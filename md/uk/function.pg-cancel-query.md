@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-affected-rows.html: « pgaffectedrows
-  - function.pg-client-encoding.html: пгclientencoding »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-affected-rows.md: « pgaffectedrows
+  - function.pg-client-encoding.md: пгclientencoding »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгcancelquery
 ---
 # пгcancelquery
@@ -18,7 +18,7 @@ title: пгcancelquery
 pg_cancel_query(PgSql\Connection $connection): bool
 ```
 
-**пгcancelquery()** скасовує виконання асинхронного запиту, надісланого функціями [пгsendquery()](function.pg-send-query.html) [пгsendqueryparams()](function.pg-send-query-params.html) або [пгsendexecute()](function.pg-send-execute.html). Неможливо завершити виконання запиту, запущеного функцією [пгquery()](function.pg-query.md)
+**пгcancelquery()** скасовує виконання асинхронного запиту, надісланого функціями [пгsendquery()](function.pg-send-query.md) [пгsendqueryparams()](function.pg-send-query-params.md) або [пгsendexecute()](function.pg-send-execute.md). Неможливо завершити виконання запиту, запущеного функцією [пгquery()](function.pg-query.md)
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ pg_cancel_query(PgSql\Connection $connection): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

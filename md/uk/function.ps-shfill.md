@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-shading.html: «psshading
-  - function.ps-show-boxed.html: псshowboxed »
+  - function.ps-shading.md: «psshading
+  - function.ps-show-boxed.md: псshowboxed »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псshfill
@@ -18,7 +18,7 @@ title: псshfill
 ps_shfill(resource $psdoc, int $shadingid): bool
 ```
 
-Заповнює область затіненням, яке має бути створене раніше за допомогою [псshading()](function.ps-shading.html). Це альтернативний спосіб створення візерунка із затінення [псshadingpattern()](function.ps-shading-pattern.md) і використання візерунка як колір заливки.
+Заповнює область затіненням, яке має бути створене раніше за допомогою [псshading()](function.ps-shading.md). Це альтернативний спосіб створення візерунка із затінення [псshadingpattern()](function.ps-shading-pattern.md) і використання візерунка як колір заливки.
 
 ### Список параметрів
 

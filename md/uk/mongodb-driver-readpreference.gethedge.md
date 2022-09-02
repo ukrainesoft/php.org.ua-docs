@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.construct.html: '« MongoDBDriverReadPreference::construct'
-  - mongodb-driver-readpreference.getmaxstalenessseconds.html: 'MongoDBDriverReadPreference::getMaxStalenessSeconds »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - mongodb-driver-readpreference.construct.md: '« MongoDBDriverReadPreference::construct'
+  - mongodb-driver-readpreference.getmaxstalenessseconds.md: 'MongoDBDriverReadPreference::getMaxStalenessSeconds »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::getHedge'
 ---
 # MongoDBDriverReadPreference::getHedge

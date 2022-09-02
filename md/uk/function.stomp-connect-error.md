@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.stomp.md: « Функции Stomp
-  - function.stomp-version.html: stompversion »
+  - function.stomp-version.md: stompversion »
   - index.md: PHP Manual
   - ref.stomp.md: Функции Stomp
 title: stompconnecterror

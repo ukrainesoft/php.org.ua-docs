@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.getinfo.html: '« MongoDBDriverServer::getInfo'
-  - mongodb-driver-server.getport.html: 'MongoDBDriverServer::getPort »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - mongodb-driver-server.getinfo.md: '« MongoDBDriverServer::getInfo'
+  - mongodb-driver-server.getport.md: 'MongoDBDriverServer::getPort »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::getLatency'
 ---
 # MongoDBDriverServer::getLatency
@@ -30,7 +30,7 @@ final public MongoDB\Driver\Server::getLatency(): ?integer
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
@@ -63,6 +63,6 @@ int(592)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
--   [MongoDBDriverServerDescription::getRoundTripTime()](mongodb-driver-serverdescription.getroundtriptime.html) - Повертає час обходу сервера у мілісекундах
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServerDescription::getRoundTripTime()](mongodb-driver-serverdescription.getroundtriptime.md) - Повертає час обходу сервера у мілісекундах
 -   [» Спецификация обнаружения и мониторинга сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)

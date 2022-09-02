@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.geoip-time-zone-by-country-and-region.html: « geoiptimezoneбcountryandregion
+  - function.geoip-time-zone-by-country-and-region.md: « geoiptimezoneбcountryandregion
   - intro.fann.md: Введение »
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі

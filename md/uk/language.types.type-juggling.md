@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.types.declarations.html: « Оголошення типів
-  - language.variables.html: Змінні »
-  - index.html: PHP Manual
-  - language.types.html: Типи
+  - language.types.declarations.md: « Оголошення типів
+  - language.variables.md: Змінні »
+  - index.md: PHP Manual
+  - language.types.md: Типи
 title: Маніпуляції з типами
 ---
 ## Маніпуляції з типами
@@ -21,37 +21,37 @@ PHP не вимагає явного визначення типу при ого
 
 > **Зауваження**: Коли значення потрібно інтерпретувати як інший тип, саме значення *не* змінює тип.
 
-Щоб примусово встановити тип змінної, дивіться розділ [Приведение типа](language.types.type-juggling.html#language.types.typecasting). Щоб змінити тип змінної, дивіться опис функції [settype()](function.settype.html)
+Щоб примусово встановити тип змінної, дивіться розділ [Приведение типа](language.types.type-juggling.md#language.types.typecasting). Щоб змінити тип змінної, дивіться опис функції [settype()](function.settype.md)
 
 ### Числовий контекст
 
-Контекст під час використання [арифметичного оператора](language.operators.arithmetic.html)
+Контекст під час використання [арифметичного оператора](language.operators.arithmetic.md)
 
-У даному контексті, якщо один з операндів є числом з плаваючою точкою (float) (або не інтерпретується як ціле число (int)), обидва операнди інтерпретуються як число з плаваючою точкою (float) і результатом буде число з плаваючою точкою (float). В іншому випадку операнди будуть інтерпретовані як ціле число (int) і результатом також буде ціле число (int). Починаючи з PHP 8.0.0, якщо один із операндів не може бути інтерпретований, викидається помилка [TypeError](class.typeerror.html)
+У даному контексті, якщо один з операндів є числом з плаваючою точкою (float) (або не інтерпретується як ціле число (int)), обидва операнди інтерпретуються як число з плаваючою точкою (float) і результатом буде число з плаваючою точкою (float). В іншому випадку операнди будуть інтерпретовані як ціле число (int) і результатом також буде ціле число (int). Починаючи з PHP 8.0.0, якщо один із операндів не може бути інтерпретований, викидається помилка [TypeError](class.typeerror.md)
 
 ### Рядковий контекст
 
-Контекст під час використання функцій [echo](function.echo.html) [print](function.print.html) [інтерполяції рядків](language.types.string.html#language.types.string.parsing) або рядкового [оператора конкатенации](language.operators.string.html)
+Контекст під час використання функцій [echo](function.echo.md) [print](function.print.md) [інтерполяції рядків](language.types.string.md#language.types.string.parsing) або рядкового [оператора конкатенации](language.operators.string.md)
 
 У цьому контексті значення інтерпретуватиметься як рядок (string).
 
 ### Логічний контекст
 
-Контекст під час використання умовних операторів, [тернарного оператора](language.operators.comparison.html#language.operators.comparison.ternary) або [логічного оператора](language.operators.logical.html)
+Контекст під час використання умовних операторів, [тернарного оператора](language.operators.comparison.md#language.operators.comparison.ternary) або [логічного оператора](language.operators.logical.md)
 
 У цьому контексті значення інтерпретуватиметься як логічне значення (bool).
 
 ### Контекст цілих чисел та рядків
 
-Контекст під час використання [побітових операторів](language.operators.bitwise.html)
+Контекст під час використання [побітових операторів](language.operators.bitwise.md)
 
-У цьому контексті, якщо у всіх операндів тип рядка (string), результат також буде рядком (string). В іншому випадку операнди будуть інтерпретовані як ціле число (int) і результат також буде цілим числом (int). Починаючи з PHP 8.0.0, якщо один із операндів не може бути інтерпретований, то буде викинута помилка [TypeError](class.typeerror.html)
+У цьому контексті, якщо у всіх операндів тип рядка (string), результат також буде рядком (string). В іншому випадку операнди будуть інтерпретовані як ціле число (int) і результат також буде цілим числом (int). Починаючи з PHP 8.0.0, якщо один із операндів не може бути інтерпретований, то буде викинута помилка [TypeError](class.typeerror.md)
 
 ### Порівняльний контекст
 
-Контекст під час використання [оператора сравнения](language.operators.comparison.html)
+Контекст під час використання [оператора сравнения](language.operators.comparison.md)
 
-Перетворення типів, що відбуваються в цьому контексті, пояснюються в [таблиці порівняння різних типів](language.operators.comparison.html#language.operators.comparison.types) розділу Оператори порівняння.
+Перетворення типів, що відбуваються в цьому контексті, пояснюються в [таблиці порівняння різних типів](language.operators.comparison.md#language.operators.comparison.types) розділу Оператори порівняння.
 
 ### Контекст функцій
 
@@ -59,13 +59,13 @@ PHP не вимагає явного визначення типу при ого
 
 У цьому контексті, коли активний режим суворої типізації (за замовчуванням), тільки скалярні значення можуть бути перетворені на інше скалярне значення. Для оголошень простих типів поведінка така:
 
--   Оголошення типу bool: значення інтерпретується як логічне значення (bool). Оголошення типу int: значення інтерпретується ціле число (int), якщо перетворення добре визначено. Наприклад, рядок є [числовой строкой](language.types.numeric-strings.html). Оголошення типу float: значення інтерпретується як число з плаваючою точкою (float), якщо перетворення добре визначено. Наприклад, рядок є [числовой строкой](language.types.numeric-strings.html). Оголошення типу string: значення інтерпретується як рядок (string).
+-   Оголошення типу bool: значення інтерпретується як логічне значення (bool). Оголошення типу int: значення інтерпретується ціле число (int), якщо перетворення добре визначено. Наприклад, рядок є [числовой строкой](language.types.numeric-strings.md). Оголошення типу float: значення інтерпретується як число з плаваючою точкою (float), якщо перетворення добре визначено. Наприклад, рядок є [числовой строкой](language.types.numeric-strings.md). Оголошення типу string: значення інтерпретується як рядок (string).
 
-Якщо оголошення типу є об'єднаним, дивіться розділ [Приведення для об'єднаних типів](language.types.declarations.html#language.types.declarations.union.coercive)
+Якщо оголошення типу є об'єднаним, дивіться розділ [Приведення для об'єднаних типів](language.types.declarations.md#language.types.declarations.union.coercive)
 
 **Увага**
 
-[Внутрішні функції](functions.internal.html) автоматично підставляють **`null`** до скалярних типів, це поведінка *ЗАСТАРІЛО* у PHP 8.1.0.
+[Внутрішні функції](functions.internal.md) автоматично підставляють **`null`** до скалярних типів, це поведінка *ЗАСТАРІЛО* у PHP 8.1.0.
 
 ### Приведення типів
 
@@ -141,15 +141,15 @@ $binary = b"binary string";
 
 Можливо, очевидно, що саме відбудеться при перетворенні між певними типами. Для отримання додаткової інформації дивіться ці розділи:
 
--   [Перетворення типу до логічного значення (boolean)](language.types.boolean.html#language.types.boolean.casting)
--   [Преобразование типа к целому числу (integer)](language.types.integer.html#language.types.integer.casting)
--   [Преобразование типа к числу с плавающей точкой (float)](language.types.float.html#language.types.float.casting)
--   [Преобразование типа к строке (string)](language.types.string.html#language.types.string.casting)
--   [Преобразование типа к Масиву (array)](language.types.array.html#language.types.array.casting)
--   [Перетворення типу на об'єкт (object)](language.types.object.html#language.types.object.casting)
--   [Преобразование типа к ресурсу (resource)](language.types.resource.html#language.types.resource.casting)
--   [Преобразование типа к NULL](language.types.null.html#language.types.null.casting)
--   [Таблиці порівняння типів](types.comparisons.html)
+-   [Перетворення типу до логічного значення (boolean)](language.types.boolean.md#language.types.boolean.casting)
+-   [Преобразование типа к целому числу (integer)](language.types.integer.md#language.types.integer.casting)
+-   [Преобразование типа к числу с плавающей точкой (float)](language.types.float.md#language.types.float.casting)
+-   [Преобразование типа к строке (string)](language.types.string.md#language.types.string.casting)
+-   [Преобразование типа к Масиву (array)](language.types.array.md#language.types.array.casting)
+-   [Перетворення типу на об'єкт (object)](language.types.object.md#language.types.object.casting)
+-   [Преобразование типа к ресурсу (resource)](language.types.resource.md#language.types.resource.casting)
+-   [Преобразование типа к NULL](language.types.null.md#language.types.null.casting)
+-   [Таблиці порівняння типів](types.comparisons.md)
 
 > **Зауваження**: Оскільки PHP підтримує індексацію в рядках (string) за допомогою зміщення, використовуючи той же синтаксис, що і індексація в масивах (array), такий приклад справедливий для всіх версій PHP:
 > 
@@ -161,4 +161,4 @@ $binary = b"binary string";
 > ?>
 > ```
 > 
-> Додаткову інформацію дивіться у розділі [Доступ к символу в строке и его изменение](language.types.string.html#language.types.string.substr)
+> Додаткову інформацію дивіться у розділі [Доступ к символу в строке и его изменение](language.types.string.md#language.types.string.substr)

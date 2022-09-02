@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cal-from-jd.html: « calfromжд
-  - function.cal-to-jd.html: calтоjd »
+  - function.cal-from-jd.md: « calfromжд
+  - function.cal-to-jd.md: calтоjd »
   - index.md: PHP Manual
   - ref.calendar.md: Календарь
 title: calinfo

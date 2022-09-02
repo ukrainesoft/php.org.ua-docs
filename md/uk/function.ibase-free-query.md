@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-free-event-handler.html: « ibasefreeeventhandler
-  - function.ibase-free-result.html: ibasefreeresult »
+  - function.ibase-free-event-handler.md: « ibasefreeeventhandler
+  - function.ibase-free-result.md: ibasefreeresult »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasefreequery

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - features.file-upload.post-method.html: « Завантаження файлів методом POST
-  - features.file-upload.common-pitfalls.html: Найпоширеніші помилки »
+  - features.file-upload.post-method.md: « Завантаження файлів методом POST
+  - features.file-upload.common-pitfalls.md: Найпоширеніші помилки »
   - index.md: PHP Manual
-  - features.file-upload.html: Загрузка файлов на сервер
+  - features.file-upload.md: Загрузка файлов на сервер
 title: Пояснення повідомлень про помилки
 ---
 ## Пояснення повідомлень про помилки
@@ -16,7 +16,7 @@ PHP повертає код помилки поряд з іншими атриб
 
 **`UPLOAD_ERR_INI_SIZE`**
 
-Значення: 1; Розмір прийнятого файлу перевищив максимально допустимий розмір, заданий директивою [uploadmaxfilesize](ini.core.html#ini.upload-max-filesize) конфігураційний файл php.ini.
+Значення: 1; Розмір прийнятого файлу перевищив максимально допустимий розмір, заданий директивою [uploadmaxfilesize](ini.core.md#ini.upload-max-filesize) конфігураційний файл php.ini.
 
 **`UPLOAD_ERR_FORM_SIZE`**
 

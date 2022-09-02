@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-connection-iterator.html: « SwooleConnectionIterator
-  - swoole-connection-iterator.current.html: 'SwooleConnectionIterator::current »'
+  - class.swoole-connection-iterator.md: « SwooleConnectionIterator
+  - swoole-connection-iterator.current.md: 'SwooleConnectionIterator::current »'
   - index.md: PHP Manual
-  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+  - class.swoole-connection-iterator.md: SwooleConnectionIterator
 title: 'SwooleConnectionIterator::count'
 ---
 # SwooleConnectionIterator::count

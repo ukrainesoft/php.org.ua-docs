@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-draw-matrix.translate.html: '« UIDrawMatrix::translate'
-  - ui-draw-color.construct.html: 'ОЙDrawColor::construct »'
+  - ui-draw-matrix.translate.md: '« UIDrawMatrix::translate'
+  - ui-draw-color.construct.md: 'ОЙDrawColor::construct »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Подання кольору

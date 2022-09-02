@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-count-values.html: « arraycountvalues
-  - function.array-diff-key.html: arraydiffkey »
+  - function.array-count-values.md: « arraycountvalues
+  - function.array-diff-key.md: arraydiffkey »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraydiffassoc

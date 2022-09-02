@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.writeimagefile.html: '« Imagick::writeImageFile'
-  - imagick.writeimagesfile.html: 'Imagick::writeImagesFile »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.writeimagefile.md: '« Imagick::writeImageFile'
+  - imagick.writeimagesfile.md: 'Imagick::writeImagesFile »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::writeImages'
 ---
 # Imagick::writeImages

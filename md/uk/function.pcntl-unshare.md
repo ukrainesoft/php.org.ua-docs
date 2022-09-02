@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pcntl-strerror.html: pcntlstrerror
-  - function.pcntl-wait.html: pcntlwait »
-  - index.html: PHP Manual
-  - ref.pcntl.html: Функції PCNTL
+  - function.pcntl-strerror.md: pcntlstrerror
+  - function.pcntl-wait.md: pcntlwait »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
 title: pcntlunshare
 ---
 # pcntlunshare
@@ -40,5 +40,5 @@ pcntl_unshare(int $flags): bool
 
 ### Дивіться також
 
--   [Константи PCNTL](pcntl.constants.html#pcntl.constants.clone)
+-   [Константи PCNTL](pcntl.constants.md#pcntl.constants.clone)
 -   [pcntlgetlasterror()](function.pcntl-get-last-error.md) - Отримати код останньої помилки, що виникла в pcntl-функції

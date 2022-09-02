@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getfacetmissing.html: '« SolrQuery::getFacetMissing'
-  - solrquery.getfacetprefix.html: 'SolrQuery::getFacetPrefix »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getfacetmissing.md: '« SolrQuery::getFacetMissing'
+  - solrquery.getfacetprefix.md: 'SolrQuery::getFacetPrefix »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getFacetOffset'
 ---
 # SolrQuery::getFacetOffset

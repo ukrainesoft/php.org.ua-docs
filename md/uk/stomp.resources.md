@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stomp.configuration.html: « Налаштування під час виконання
-  - stomp.examples.html: Приклади »
-  - index.html: PHP Manual
-  - stomp.setup.html: Встановлення та налаштування
+  - stomp.configuration.md: « Налаштування під час виконання
+  - stomp.examples.md: Приклади »
+  - index.md: PHP Manual
+  - stomp.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

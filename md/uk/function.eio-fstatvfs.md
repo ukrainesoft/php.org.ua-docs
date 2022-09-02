@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-fstat.html: « eiofstat
-  - function.eio-fsync.html: eiofsync »
+  - function.eio-fstat.md: « eiofstat
+  - function.eio-fsync.md: eiofsync »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiofstatvfs

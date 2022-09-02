@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.bind-param.html: '« mysqlistmt::bindparam'
-  - mysqli-stmt.close.html: 'mysqlistmt::close »'
+  - mysqli-stmt.bind-param.md: '« mysqlistmt::bindparam'
+  - mysqli-stmt.close.md: 'mysqlistmt::close »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::bindresult'
 ---
 # mysqlistmt::bindresult
@@ -36,7 +36,7 @@ mysqli_stmt_bind_result(mysqli_stmt $statement, mixed &$var, mixed &...$vars): b
 
 > **Зауваження**
 > 
-> Усі стовпці повинні бути прив'язані до змінних після виклику [mysqlistmtexecute()](mysqli-stmt.execute.html) та до виклику [mysqlistmtfetch()](mysqli-stmt.fetch.md). Залежно від типів даних стовпців прив'язані змінні можуть змінювати свій PHP тип.
+> Усі стовпці повинні бути прив'язані до змінних після виклику [mysqlistmtexecute()](mysqli-stmt.execute.md) та до виклику [mysqlistmtfetch()](mysqli-stmt.fetch.md). Залежно від типів даних стовпців прив'язані змінні можуть змінювати свій PHP тип.
 
 > **Зауваження**
 > 
@@ -50,7 +50,7 @@ mysqli_stmt_bind_result(mysqli_stmt $statement, mixed &$var, mixed &...$vars): b
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `var`
 

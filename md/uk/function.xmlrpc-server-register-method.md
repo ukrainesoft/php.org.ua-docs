@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xmlrpc-server-register-introspection-callback.html: « xmlrpcserverregisterintrospectioncallback
-  - function.xmlrpc-set-type.html: xmlrpcsettype »
+  - function.xmlrpc-server-register-introspection-callback.md: « xmlrpcserverregisterintrospectioncallback
+  - function.xmlrpc-set-type.md: xmlrpcsettype »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcserverregisterметод

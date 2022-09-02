@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-aroonosc.html: « traderaroonosc
-  - function.trader-atan.html: traderatan »
+  - function.trader-aroonosc.md: « traderaroonosc
+  - function.trader-atan.md: traderatan »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderasin

@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration73.md: « Миграция с PHP 7.2.x на PHP 7.3.x
-  - migration73.new-functions.html: Нові функції »
+  - migration73.new-functions.md: Нові функції »
   - index.md: PHP Manual
   - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x
 title: Нові можливості
@@ -32,7 +32,7 @@ title: Нові можливості
 
 #### Підтримка Argon2id
 
-З аргументом **\-with-password-argon2=dir** скрипта configure тепер підтримуються обидва хеші, як Argon2i, так і Argon2id, у функціях [passwordhash()](function.password-hash.html) [passwordverify()](function.password-verify.html) [passwordgetinfo()](function.password-get-info.html) і [passwordneedsrehash()](function.password-needs-rehash.md). Паролі можуть бути хешовані та перевірені, використовуючи константу **`PASSWORD_ARGON2ID`**. Підтримка обох алгоритмів Argon2i та Argon2id у функціях сімейства **password** тепер вимагає, щоб PHP був скомпільований із бібліотекою libargon2 версії ≥ 20161029.
+З аргументом **\-with-password-argon2=dir** скрипта configure тепер підтримуються обидва хеші, як Argon2i, так і Argon2id, у функціях [passwordhash()](function.password-hash.md) [passwordverify()](function.password-verify.md) [passwordgetinfo()](function.password-get-info.md) і [passwordneedsrehash()](function.password-needs-rehash.md). Паролі можуть бути хешовані та перевірені, використовуючи константу **`PASSWORD_ARGON2ID`**. Підтримка обох алгоритмів Argon2i та Argon2id у функціях сімейства **password** тепер вимагає, щоб PHP був скомпільований із бібліотекою libargon2 версії ≥ 20161029.
 
 ### Менеджер процесів FastCGI
 
@@ -58,9 +58,9 @@ title: Нові можливості
 
 Було додано повну підтримку LDAP Controls до функцій запитів [LDAP](book.ldap.md) і [ldapparseresult()](function.ldap-parse-result.md)
 
--   Доданий параметр `$serverctrls` для відправлення керування сервером у функціях [ldapadd()](function.ldap-add.html) [ldapmodreplace()](function.ldap-mod-replace.html) [ldapmodadd()](function.ldap-mod-add.html) [ldapmoddel()](function.ldap-mod-del.html) [ldaprename()](function.ldap-rename.html) [ldapcompare()](function.ldap-compare.html) [ldapdelete()](function.ldap-delete.html) [ldapmodifybatch()](function.ldap-modify-batch.html) [ldapsearch()](function.ldap-search.html) [ldaplist()](function.ldap-list.html) і [ldapread()](function.ldap-read.md)
+-   Доданий параметр `$serverctrls` для відправлення керування сервером у функціях [ldapadd()](function.ldap-add.md) [ldapmodreplace()](function.ldap-mod-replace.md) [ldapmodadd()](function.ldap-mod-add.md) [ldapmoddel()](function.ldap-mod-del.md) [ldaprename()](function.ldap-rename.md) [ldapcompare()](function.ldap-compare.md) [ldapdelete()](function.ldap-delete.md) [ldapmodifybatch()](function.ldap-modify-batch.md) [ldapsearch()](function.ldap-search.md) [ldaplist()](function.ldap-list.md) і [ldapread()](function.ldap-read.md)
 -   Доданий параметр `$serverctrls` для отримання керування з сервера до функцій [ldapparseresult()](function.ldap-parse-result.md)
--   Підтримка **`LDAP_OPT_SERVER_CONTROLS`** і **`LDAP_OPT_CLIENT_CONTROLS`** у функціях [ldapgetoption()](function.ldap-get-option.html) і [ldapsetoption()](function.ldap-set-option.md) було виправлено.
+-   Підтримка **`LDAP_OPT_SERVER_CONTROLS`** і **`LDAP_OPT_CLIENT_CONTROLS`** у функціях [ldapgetoption()](function.ldap-get-option.md) і [ldapsetoption()](function.ldap-set-option.md) було виправлено.
 
 ### Функції мультибайтових рядків
 

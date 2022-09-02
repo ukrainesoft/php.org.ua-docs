@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.getallkeys.html: '« Memcached::getAllKeys'
-  - memcached.getdelayed.html: 'Memcached::getDelayed »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.getallkeys.md: '« Memcached::getAllKeys'
+  - memcached.getdelayed.md: 'Memcached::getDelayed »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::getByKey'
 ---
 # Memcached::getByKey
@@ -18,7 +18,7 @@ Memcached::getByKey — Отримує запис із певного серве
 public Memcached::getByKey(    string $server_key,    string $key,    callable $cache_cb = ?,    int $flags = ?): mixed
 ```
 
-**Memcached::getByKey()** працює аналогічно [Memcached::get()](memcached.get.html), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер.
+**Memcached::getByKey()** працює аналогічно [Memcached::get()](memcached.get.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер.
 
 ### Список параметрів
 
@@ -40,7 +40,7 @@ Callback-функція для читання, що кешується, або *
 
 ### Значення, що повертаються
 
-Повертає значення, що зберігається в кеші або **`false`** в іншому випадку. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTFOUND`** якщо переданий ключ не існує.
+Повертає значення, що зберігається в кеші або **`false`** в іншому випадку. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTFOUND`** якщо переданий ключ не існує.
 
 ### список змін
 
@@ -50,6 +50,6 @@ Callback-функція для читання, що кешується, або *
 
 ### Дивіться також
 
--   [Memcached::get()](memcached.get.html) - Отримання запису
--   [Memcached::getMulti()](memcached.getmulti.html) - Отримує кілька записів
--   [Memcached::getDelayed()](memcached.getdelayed.html) - Запитує кілька записів
+-   [Memcached::get()](memcached.get.md) - Отримання запису
+-   [Memcached::getMulti()](memcached.getmulti.md) - Отримує кілька записів
+-   [Memcached::getDelayed()](memcached.getdelayed.md) - Запитує кілька записів

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlbreakiterator.settext.html: '« IntlBreakIterator::setText'
-  - intlrulebasedbreakiterator.construct.html: 'IntlRuleBasedBreakIterator::construct »'
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - intlbreakiterator.settext.md: '« IntlBreakIterator::setText'
+  - intlrulebasedbreakiterator.construct.md: 'IntlRuleBasedBreakIterator::construct »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Клас IntlRuleBasedBreakIterator
 ---
 # Клас IntlRuleBasedBreakIterator
@@ -12,7 +12,7 @@ title: Клас IntlRuleBasedBreakIterator
 
 ## Вступ
 
-Підклас [IntlBreakIterator](class.intlbreakiterator.html), який реалізує ітератор переривань ICU, чия поведінка задано набором правил. Це найчастіше використовуваний тип ітератора переривань.
+Підклас [IntlBreakIterator](class.intlbreakiterator.md), який реалізує ітератор переривань ICU, чия поведінка задано набором правил. Це найчастіше використовуваний тип ітератора переривань.
 
 Правила описані у розділі [» Руководство пользователя по анализу границ ICU](http://userguide.icu-project.org/boundaryanalysis#TOC-RBBI-Rules)
 
@@ -134,8 +134,8 @@ public IntlBreakIterator::setText(string $text): ?bool
 
 ## Зміст
 
--   [IntlRuleBasedBreakIterator::construct](intlrulebasedbreakiterator.construct.html) - Створює ітератор на основі набору правил
--   [IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.html) — Отримати бінарні дані зі скомпілованих правил
--   [IntlRuleBasedBreakIterator::getRules](intlrulebasedbreakiterator.getrules.html) — Отримати набір правил, які використовуються під час створення цього об'єкта
--   [IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.html) — Отримати найбільше значення статусу правил зупинки, що визначило поточну позицію зупинки
--   [IntlRuleBasedBreakIterator::getRuleStatusVec](intlrulebasedbreakiterator.getrulestatusvec.html) — отримати значення статусів із правил зупинки, які визначили поточну позицію зупинки
+-   [IntlRuleBasedBreakIterator::construct](intlrulebasedbreakiterator.construct.md) - Створює ітератор на основі набору правил
+-   [IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.md) — Отримати бінарні дані зі скомпілованих правил
+-   [IntlRuleBasedBreakIterator::getRules](intlrulebasedbreakiterator.getrules.md) — Отримати набір правил, які використовуються під час створення цього об'єкта
+-   [IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.md) — Отримати найбільше значення статусу правил зупинки, що визначило поточну позицію зупинки
+-   [IntlRuleBasedBreakIterator::getRuleStatusVec](intlrulebasedbreakiterator.getrulestatusvec.md) — отримати значення статусів із правил зупинки, які визначили поточну позицію зупинки

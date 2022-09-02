@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.mcrypt.html: « Mcrypt
-  - mcrypt.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.mcrypt.html: Mcrypt
+  - book.mcrypt.md: « Mcrypt
+  - mcrypt.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.mcrypt.md: Mcrypt
 title: Вступ
 ---
 # Вступ
@@ -14,8 +14,8 @@ title: Вступ
 
 Є такі альтернативи:
 
--   [Sodium](book.sodium.html) (доступний з PHP 7.2.0)
--   [OpenSSL](book.openssl.html)
+-   [Sodium](book.sodium.md) (доступний з PHP 7.2.0)
+-   [OpenSSL](book.openssl.md)
 
 > **Зауваження**
 > 

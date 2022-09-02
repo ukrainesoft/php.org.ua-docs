@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-last-error.html: « pglasterror
-  - function.pg-last-oid.html: пгlastoid »
+  - function.pg-last-error.md: « pglasterror
+  - function.pg-last-oid.md: пгlastoid »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгlastnotice

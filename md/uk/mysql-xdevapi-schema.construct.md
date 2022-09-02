@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-schema.html: « mysqlxdevapiSchema
-  - mysql-xdevapi-schema.createcollection.html: 'Schema::createCollection »'
+  - class.mysql-xdevapi-schema.md: « mysqlxdevapiSchema
+  - mysql-xdevapi-schema.createcollection.md: 'Schema::createCollection »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
 title: 'Schema::construct'
 ---
 # Schema::construct

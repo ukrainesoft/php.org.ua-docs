@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.sethighlightregexmaxanalyzedchars.html: '« SolrQuery::setHighlightRegexMaxAnalyzedChars'
-  - solrquery.sethighlightregexslop.html: 'SolrQuery::setHighlightRegexSlop »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.sethighlightregexmaxanalyzedchars.md: '« SolrQuery::setHighlightRegexMaxAnalyzedChars'
+  - solrquery.sethighlightregexslop.md: 'SolrQuery::setHighlightRegexSlop »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightRegexPattern'
 ---
 # SolrQuery::setHighlightRegexPattern

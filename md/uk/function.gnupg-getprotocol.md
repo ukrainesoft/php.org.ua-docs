@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-geterrorinfo.html: « gnupggeterrorinfo
-  - function.gnupg-gettrustlist.html: gnupggettrustlist »
+  - function.gnupg-geterrorinfo.md: « gnupggeterrorinfo
+  - function.gnupg-gettrustlist.md: gnupggettrustlist »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupggetprotocol

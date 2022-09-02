@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.grapheme-substr.html: « graphemesubstr
-  - function.idn-to-ascii.html: idnтоascii »
+  - function.grapheme-substr.md: « graphemesubstr
+  - function.idn-to-ascii.md: idnтоascii »
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Функції IDN

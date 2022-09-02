@@ -1,7 +1,7 @@
 ---
 navigation:
-  - streamwrapper.dir-opendir.html: '« streamWrapper::diropendir'
-  - streamwrapper.dir-rewinddir.html: 'streamWrapper::dirrewinddir »'
+  - streamwrapper.dir-opendir.md: '« streamWrapper::diropendir'
+  - streamwrapper.dir-rewinddir.md: 'streamWrapper::dirrewinddir »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::dirreaddir'

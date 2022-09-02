@@ -1,9 +1,9 @@
 ---
 navigation:
-  - posix.installation.html: « Установка
-  - posix.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - posix.setup.html: Встановлення та налаштування
+  - posix.installation.md: « Установка
+  - posix.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - posix.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

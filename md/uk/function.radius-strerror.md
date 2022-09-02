@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.radius-server-secret.html: « radiusserversecret
+  - function.radius-server-secret.md: « radiusserversecret
   - refs.utilspec.cmdline.md: Модулі для роботи з командним рядком »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-controller-abstract.setviewpath.html: '« YafControllerAbstract::setViewpath'
-  - yaf-action-abstract.execute.html: 'YafActionAbstract::execute »'
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf-controller-abstract.setviewpath.md: '« YafControllerAbstract::setViewpath'
+  - yaf-action-abstract.execute.md: 'YafActionAbstract::execute »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafActionAbstract
 ---
 # Клас YafActionAbstract

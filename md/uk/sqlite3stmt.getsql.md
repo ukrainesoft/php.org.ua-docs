@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3stmt.execute.html: '« SQLite3Stmt::execute'
-  - sqlite3stmt.paramcount.html: 'SQLite3Stmt::paramCount »'
-  - index.html: PHP Manual
-  - class.sqlite3stmt.html: SQLite3Stmt
+  - sqlite3stmt.execute.md: '« SQLite3Stmt::execute'
+  - sqlite3stmt.paramcount.md: 'SQLite3Stmt::paramCount »'
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::getSQL'
 ---
 # SQLite3Stmt::getSQL
@@ -32,7 +32,7 @@ public SQLite3Stmt::getSQL(bool $expand = false): string|false
 
 ### Помилки
 
-Якщо `expand` заданий як **`true`**, але версія libsqlite нижче 3.14, буде викликана помилка рівня **`E_WARNING`** або викинуто виняток [Exception](class.exception.html), в залежності від налаштувань [SQLite3::enableExceptions()](sqlite3.enableexceptions.html)
+Якщо `expand` заданий як **`true`**, але версія libsqlite нижче 3.14, буде викликана помилка рівня **`E_WARNING`** або викинуто виняток [Exception](class.exception.md), в залежності від налаштувань [SQLite3::enableExceptions()](sqlite3.enableexceptions.md)
 
 ### Приклади
 

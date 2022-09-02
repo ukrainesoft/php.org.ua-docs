@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionattribute.newinstance.html: '« ReflectionAttribute::newInstance'
-  - reflector.export.html: 'Reflector::export »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionattribute.newinstance.md: '« ReflectionAttribute::newInstance'
+  - reflector.export.md: 'Reflector::export »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Інтерфейс Reflector
 ---
 # Інтерфейс Reflector
@@ -46,9 +46,9 @@ public __toString(): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.html) |
+|  | Клас **Reflector** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 
--   [Reflector::export](reflector.export.html) - Експорт
--   [Reflector::toString](reflector.tostring.html) — Подання у вигляді рядка
+-   [Reflector::export](reflector.export.md) - Експорт
+-   [Reflector::toString](reflector.tostring.md) — Подання у вигляді рядка

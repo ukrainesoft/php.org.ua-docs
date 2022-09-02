@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mysqli.change-user.html: '« mysqli::changeuser'
+  - mysqli.change-user.md: '« mysqli::changeuser'
   - mysqli.close.md: 'mysqli::close »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli

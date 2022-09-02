@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickpixel.setcolorvalue.html: '« GmagickPixel::setcolorvalue'
-  - intro.imagick.html: Введение »
-  - index.html: PHP Manual
-  - refs.utilspec.image.html: Обработка и генерация изображений
+  - gmagickpixel.setcolorvalue.md: '« GmagickPixel::setcolorvalue'
+  - intro.imagick.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.image.md: Обработка и генерация изображений
 title: Обробка зображень (ImageMagick)
 ---
 # Обробка зображень (ImageMagick)

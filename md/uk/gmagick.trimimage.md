@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.thumbnailimage.html: '« Gmagick::thumbnailimage'
-  - gmagick.write.html: 'Gmagick::write »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.thumbnailimage.md: '« Gmagick::thumbnailimage'
+  - gmagick.write.md: 'Gmagick::write »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::trimimage'
 ---
 # Gmagick::trimimage
@@ -28,7 +28,7 @@ public Gmagick::trimimage(float $fuzz): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

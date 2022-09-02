@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-fetch-array.html: « pgfetcharray
-  - function.pg-fetch-object.html: пгfetchobject »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-fetch-array.md: « pgfetcharray
+  - function.pg-fetch-object.md: пгfetchobject »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгfetchassoc
 ---
 # пгfetchassoc
@@ -20,17 +20,17 @@ pg_fetch_assoc(PgSql\Result $result, ?int $row = null): array|false
 
 **пгfetchassoc()** повертає асоціативний масив, що містить запис з рядка результату запиту.
 
-Результат виконання **пгfetchassoc()** той самий, що й у [пгfetcharray()](function.pg-fetch-array.html) з параметром **`PGSQL_ASSOC`**. Функція повертає лише асоціативний масив. Якщо потрібний чисельно-індексований масив, використовуйте функцію [пгfetchrow()](function.pg-fetch-row.html)
+Результат виконання **пгfetchassoc()** той самий, що й у [пгfetcharray()](function.pg-fetch-array.md) з параметром **`PGSQL_ASSOC`**. Функція повертає лише асоціативний масив. Якщо потрібний чисельно-індексований масив, використовуйте функцію [пгfetchrow()](function.pg-fetch-row.md)
 
 > **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
-**пгfetchassoc()** не набагато повільніше і значно простіше у використанні, ніж [пгfetchrow()](function.pg-fetch-row.html)
+**пгfetchassoc()** не набагато повільніше і значно простіше у використанні, ніж [пгfetchrow()](function.pg-fetch-row.md)
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 
@@ -46,7 +46,7 @@ pg_fetch_assoc(PgSql\Result $result, ?int $row = null): array|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -76,7 +76,7 @@ while ($row = pg_fetch_assoc($result)) {
 
 ### Дивіться також
 
--   [пгfetchrow()](function.pg-fetch-row.html) - Вибирає рядок результату запиту та поміщає дані до масиву
--   [пгfetcharray()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
--   [пгfetchobject()](function.pg-fetch-object.html) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
--   [пгfetchresult()](function.pg-fetch-result.html) - Повертає запис із результату запиту
+-   [пгfetchrow()](function.pg-fetch-row.md) - Вибирає рядок результату запиту та поміщає дані до масиву
+-   [пгfetcharray()](function.pg-fetch-array.md) - Повертає рядок результату у вигляді масиву
+-   [пгfetchobject()](function.pg-fetch-object.md) - Вибирає рядок результату запиту та повертає дані у вигляді об'єкта
+-   [пгfetchresult()](function.pg-fetch-result.md) - Повертає запис із результату запиту

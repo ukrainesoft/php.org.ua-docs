@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.ps.md: « Функції PS
-  - function.ps-add-launchlink.html: псaddlaunchlink »
+  - function.ps-add-launchlink.md: псaddlaunchlink »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псaddbookmark

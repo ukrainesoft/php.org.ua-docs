@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sync.constants.html: « Обумовлені константи
-  - syncmutex.construct.html: 'SyncMutex::construct »'
-  - index.html: PHP Manual
-  - book.sync.html: Sync
+  - sync.constants.md: « Обумовлені константи
+  - syncmutex.construct.md: 'SyncMutex::construct »'
+  - index.md: PHP Manual
+  - book.sync.md: Sync
 title: Клас SyncMutex
 ---
 # Клас SyncMutex
@@ -40,6 +40,6 @@ public unlock(bool $all = false): bool
 
 ## Зміст
 
--   [SyncMutex::construct](syncmutex.construct.html) — Створює новий об'єкт SyncMutex
--   [SyncMutex::lock](syncmutex.lock.html) — Чекає на ексклюзивне блокування
--   [SyncMutex::unlock](syncmutex.unlock.html) - Розблокує м'ютекс
+-   [SyncMutex::construct](syncmutex.construct.md) — Створює новий об'єкт SyncMutex
+-   [SyncMutex::lock](syncmutex.lock.md) — Чекає на ексклюзивне блокування
+-   [SyncMutex::unlock](syncmutex.unlock.md) - Розблокує м'ютекс

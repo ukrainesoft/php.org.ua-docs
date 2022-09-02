@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setgravity.html: '« ImagickDraw::setGravity'
-  - imagickdraw.setstrokealpha.html: 'ImagickDraw::setStrokeAlpha »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setgravity.md: '« ImagickDraw::setGravity'
+  - imagickdraw.setstrokealpha.md: 'ImagickDraw::setStrokeAlpha »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setResolution'
 ---
 # ImagickDraw::setResolution

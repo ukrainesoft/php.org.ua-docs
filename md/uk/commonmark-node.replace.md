@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-node.insertbefore.html: '« CommonMarkNode::insertBefore'
-  - commonmark-node.unlink.html: 'CommonMarkNode::unlink »'
-  - index.html: PHP Manual
-  - class.commonmark-node.html: CommonMarkNode
+  - commonmark-node.insertbefore.md: '« CommonMarkNode::insertBefore'
+  - commonmark-node.unlink.md: 'CommonMarkNode::unlink »'
+  - index.md: PHP Manual
+  - class.commonmark-node.md: CommonMarkNode
 title: 'CommonMarkNode::replace'
 ---
 # CommonMarkNode::replace

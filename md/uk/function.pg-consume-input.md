@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-connection-status.html: « pgconnectionstatus
-  - function.pg-convert.html: пгconvert »
+  - function.pg-connection-status.md: « pgconnectionstatus
+  - function.pg-convert.md: пгconvert »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгconsumeinput

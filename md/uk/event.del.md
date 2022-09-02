@@ -1,9 +1,9 @@
 ---
 navigation:
-  - event.construct.html: '« Event::construct'
-  - event.delsignal.html: 'Event::delSignal »'
-  - index.html: PHP Manual
-  - class.event.html: Event
+  - event.construct.md: '« Event::construct'
+  - event.delsignal.md: 'Event::delSignal »'
+  - index.md: PHP Manual
+  - class.event.md: Event
 title: 'Event::del'
 ---
 # Event::del

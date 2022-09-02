@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.slice.html: '« DsSet::slice'
-  - ds-set.sorted.html: 'ДсSet::sorted »'
+  - ds-set.slice.md: '« DsSet::slice'
+  - ds-set.sorted.md: 'ДсSet::sorted »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::sort'
 ---
 # ДсSet::sort

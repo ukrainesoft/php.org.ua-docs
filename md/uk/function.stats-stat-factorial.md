@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-stat-correlation.html: « statsstatcorrelation
-  - function.stats-stat-independent-t.html: statsstatindependentt »
+  - function.stats-stat-correlation.md: « statsstatcorrelation
+  - function.stats-stat-independent-t.md: statsstatindependentt »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsстатиfactorial

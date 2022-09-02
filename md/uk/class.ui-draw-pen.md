@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-box.setpadded.html: '« UIControlsBox::setPadded'
-  - ui-draw-pen.clip.html: 'ОЙDrawPen::clip »'
+  - ui-controls-box.setpadded.md: '« UIControlsBox::setPadded'
+  - ui-draw-pen.clip.md: 'ОЙDrawPen::clip »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Малювання за допомогою "Перо"

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-exception.html: « MongoDBDriverExceptionException
-  - class.mongodb-driver-exception-invalidargumentexception.html: MongoDBDriverExceptionInvalidArgumentException »
-  - index.html: PHP Manual
-  - mongodb.exceptions.html: MongoDBDriverException
+  - class.mongodb-driver-exception-exception.md: « MongoDBDriverExceptionException
+  - class.mongodb-driver-exception-invalidargumentexception.md: MongoDBDriverExceptionInvalidArgumentException »
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionExecutionTimeoutException
 ---
 # Клас MongoDBDriverExceptionExecutionTimeoutException
@@ -90,4 +90,4 @@ private Exception::__clone(): void
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.5.0 |  |
-| Тепер цей клас розширює [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.html) |  |
+| Тепер цей клас розширює [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |

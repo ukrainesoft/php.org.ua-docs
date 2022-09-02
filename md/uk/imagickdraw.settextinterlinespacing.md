@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.settextencoding.html: '« ImagickDraw::setTextEncoding'
-  - imagickdraw.settextinterwordspacing.html: 'ImagickDraw::setTextInterwordSpacing »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.settextencoding.md: '« ImagickDraw::setTextEncoding'
+  - imagickdraw.settextinterwordspacing.md: 'ImagickDraw::setTextInterwordSpacing »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextInterlineSpacing'
 ---
 # ImagickDraw::setTextInterlineSpacing

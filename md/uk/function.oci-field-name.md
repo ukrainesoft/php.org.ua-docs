@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-field-is-null.html: « ocifieldісnull
-  - function.oci-field-precision.html: ocifieldprecision »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-field-is-null.md: « ocifieldісnull
+  - function.oci-field-precision.md: ocifieldprecision »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocifieldname
 ---
 # ocifieldname
@@ -92,10 +92,10 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnname()](function.ocicolumnname.html). У PHP 5.0.0 і вище [ocicolumnname()](function.ocicolumnname.html) є аліасом \*\*ocifieldname()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnname()](function.ocicolumnname.md). У PHP 5.0.0 і вище [ocicolumnname()](function.ocicolumnname.md) є аліасом \*\*ocifieldname()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 
--   [ocinumfields()](function.oci-num-fields.html) - Повертає кількість полів у результаті запиту
--   [ocifieldtype()](function.oci-field-type.html) - Повертає ім'я типу поля
--   [ocifieldsize()](function.oci-field-size.html) - Повертає розмір поля
+-   [ocinumfields()](function.oci-num-fields.md) - Повертає кількість полів у результаті запиту
+-   [ocifieldtype()](function.oci-field-type.md) - Повертає ім'я типу поля
+-   [ocifieldsize()](function.oci-field-size.md) - Повертає розмір поля

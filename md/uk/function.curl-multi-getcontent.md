@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-multi-exec.html: « curlmultiexec
-  - function.curl-multi-info-read.html: curlmultiinforead »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-multi-exec.md: « curlmultiexec
+  - function.curl-multi-info-read.md: curlmultiinforead »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlmultigetcontent
 ---
 # curlmultigetcontent

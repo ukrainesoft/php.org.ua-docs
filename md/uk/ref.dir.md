@@ -1,16 +1,16 @@
 ---
 navigation:
-  - directory.rewind.html: '« Directory::rewind'
-  - function.chdir.html: chdir »
-  - index.html: PHP Manual
-  - book.dir.html: Каталоги
+  - directory.rewind.md: '« Directory::rewind'
+  - function.chdir.md: chdir »
+  - index.md: PHP Manual
+  - book.dir.md: Каталоги
 title: Функції для роботи з каталогами
 ---
 # Функції для роботи з каталогами
 
 # Дивіться також
 
-За описом супутніх функцій, таких як [dirname()](function.dirname.html) [ісdir()](function.is-dir.html) [mkdir()](function.mkdir.html) і [rmdir()](function.rmdir.html), зверніться до глави [Файлова система](ref.filesystem.md)
+За описом супутніх функцій, таких як [dirname()](function.dirname.md) [ісdir()](function.is-dir.md) [mkdir()](function.mkdir.md) і [rmdir()](function.rmdir.md), зверніться до глави [Файлова система](ref.filesystem.md)
 
 ## Зміст
 

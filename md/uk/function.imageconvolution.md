@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagecolortransparent.html: « imagecolortransparent
-  - function.imagecopy.html: imagecopy »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagecolortransparent.md: « imagecolortransparent
+  - function.imagecopy.md: imagecopy »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageconvolution
 ---
 # imageconvolution
@@ -24,7 +24,7 @@ imageconvolution(    GdImage $image,    array $matrix,    float $div
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `matrix`
 
@@ -46,7 +46,7 @@ imageconvolution(    GdImage $image,    array $matrix,    float $div
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -93,4 +93,4 @@ imagepng($image, null, 9);
 
 ### Дивіться також
 
--   [imagefilter()](function.imagefilter.html) - Застосовує фільтр до зображення
+-   [imagefilter()](function.imagefilter.md) - Застосовує фільтр до зображення

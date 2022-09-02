@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbuffer.construct.html: '« EventBuffer::construct'
-  - eventbuffer.drain.html: 'EventBuffer::drain »'
-  - index.html: PHP Manual
-  - class.eventbuffer.html: EventBuffer
+  - eventbuffer.construct.md: '« EventBuffer::construct'
+  - eventbuffer.drain.md: 'EventBuffer::drain »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::copyout'
 ---
 # EventBuffer::copyout

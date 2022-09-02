@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdismaxquery.setqueryalt.html: '« SolrDisMaxQuery::setQueryAlt'
-  - solrdismaxquery.settiebreaker.html: 'SolrDisMaxQuery::setTieBreaker »'
-  - index.html: PHP Manual
-  - class.solrdismaxquery.html: SolrDisMaxQuery
+  - solrdismaxquery.setqueryalt.md: '« SolrDisMaxQuery::setQueryAlt'
+  - solrdismaxquery.settiebreaker.md: 'SolrDisMaxQuery::setTieBreaker »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'Solr DisMax Query::getQuery Phrase Slop'
 ---
 # Solr DisMax Query::getQuery Phrase Slop
@@ -30,7 +30,7 @@ public SolrDisMaxQuery::setQueryPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 

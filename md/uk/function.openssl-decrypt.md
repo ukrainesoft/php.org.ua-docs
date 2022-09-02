@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-csr-sign.html: « opensslcsrsign
-  - function.openssl-dh-compute-key.html: opensslдхcomputekey »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-csr-sign.md: « opensslcsrsign
+  - function.openssl-dh-compute-key.md: opensslдхcomputekey »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: openssldecrypt
 ---
 # openssldecrypt
@@ -28,7 +28,7 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string 
 
 `cipher_algo`
 
-Метод шифрування. Список доступних методів можна отримати за допомогою функції [opensslgetciphermethods()](function.openssl-get-cipher-methods.html)
+Метод шифрування. Список доступних методів можна отримати за допомогою функції [opensslgetciphermethods()](function.openssl-get-cipher-methods.md)
 
 `passphrase`
 
@@ -48,7 +48,7 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string 
 
 **Застереження**
 
-Довжина `tag` не перевіряється функцією. Сторона, що викликає, несе відповідальність за те, щоб довжина тега відповідала довжині тега, отриманого при виклику [opensslencrypt()](function.openssl-encrypt.html). В іншому випадку, дешифрування може бути успішним, якщо цей тег збігається тільки з початком правильного тега.
+Довжина `tag` не перевіряється функцією. Сторона, що викликає, несе відповідальність за те, щоб довжина тега відповідала довжині тега, отриманого при виклику [opensslencrypt()](function.openssl-encrypt.md). В іншому випадку, дешифрування може бути успішним, якщо цей тег збігається тільки з початком правильного тега.
 
 `aad`
 
@@ -73,4 +73,4 @@ openssl_decrypt(    string $data,    string $cipher_algo,    string 
 
 ### Дивіться також
 
--   [opensslencrypt()](function.openssl-encrypt.html) - Шифрує дані
+-   [opensslencrypt()](function.openssl-encrypt.md) - Шифрує дані

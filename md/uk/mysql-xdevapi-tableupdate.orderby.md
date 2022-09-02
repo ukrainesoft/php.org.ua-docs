@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableupdate.limit.html: '« TableUpdate::limit'
-  - mysql-xdevapi-tableupdate.set.html: 'TableUpdate::set »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+  - mysql-xdevapi-tableupdate.limit.md: '« TableUpdate::limit'
+  - mysql-xdevapi-tableupdate.set.md: 'TableUpdate::set »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
 title: 'TableUpdate::orderby'
 ---
 # TableUpdate::orderby

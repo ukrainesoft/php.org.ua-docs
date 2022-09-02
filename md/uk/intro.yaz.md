@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.yaz.html: « YAZ
-  - yaz.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.yaz.html: YAZ
+  - book.yaz.md: « YAZ
+  - yaz.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.yaz.md: YAZ
 title: Вступ
 ---
 # Вступ

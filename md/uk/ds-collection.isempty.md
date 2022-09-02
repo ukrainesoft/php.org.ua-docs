@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-collection.copy.html: '« DsCollection::copy'
-  - ds-collection.toarray.html: 'ДсCollection::toArray »'
+  - ds-collection.copy.md: '« DsCollection::copy'
+  - ds-collection.toarray.md: 'ДсCollection::toArray »'
   - index.md: PHP Manual
-  - class.ds-collection.html: Коллекция
+  - class.ds-collection.md: Коллекция
 title: 'ДсCollection::isEmpty'
 ---
 # ДсCollection::isEmpty

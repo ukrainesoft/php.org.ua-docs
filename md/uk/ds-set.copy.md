@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.contains.html: '« DsSet::contains'
-  - ds-set.count.html: 'ДсSet::count »'
+  - ds-set.contains.md: '« DsSet::contains'
+  - ds-set.count.md: 'ДсSet::count »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::copy'
 ---
 # ДсSet::copy

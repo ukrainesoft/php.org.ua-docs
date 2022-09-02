@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidy.getconfig.html: '« tidy::getConfig'
-  - tidy.getopt.html: 'tidy::getOpt »'
-  - index.html: PHP Manual
-  - class.tidy.html: tidy
+  - tidy.getconfig.md: '« tidy::getConfig'
+  - tidy.getopt.md: 'tidy::getOpt »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
 title: 'tidy::getHtmlVer'
 ---
 # tidy::getHtmlVer

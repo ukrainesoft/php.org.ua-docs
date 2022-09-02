@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-lo-read.html: « pgлоread
-  - function.pg-lo-tell.html: пглоtell »
+  - function.pg-lo-read.md: « pgлоread
+  - function.pg-lo-tell.md: пглоtell »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пглоseek
@@ -26,7 +26,7 @@ pg_lo_seek(PgSql\Lob $lob, int $offset, int $whence = SEEK_CUR): bool
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 `offset`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.xmldiff.html: « Введение
-  - xmldiff.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.xmldiff.html: XMLDiff
+  - intro.xmldiff.md: « Введение
+  - xmldiff.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.xmldiff.md: XMLDiff
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

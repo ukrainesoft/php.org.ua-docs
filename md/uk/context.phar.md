@@ -1,9 +1,9 @@
 ---
 navigation:
-  - context.curl.html: « Опции контекста CURL
-  - context.params.html: Параметри контексту »
-  - index.html: PHP Manual
-  - context.html: Контекстні опції та параметри
+  - context.curl.md: « Опции контекста CURL
+  - context.params.md: Параметри контексту »
+  - index.md: PHP Manual
+  - context.md: Контекстні опції та параметри
 title: Контекстні опції Phar
 ---
 # Контекстні опції Phar
@@ -18,13 +18,13 @@ title: Контекстні опції Phar
 
 `compress` int
 
-Одна з [констант сжатия Phar](phar.constants.html#phar.constants.compression)
+Одна з [констант сжатия Phar](phar.constants.md#phar.constants.compression)
 
-`metadata` [mixed](language.types.declarations.html#language.types.declarations.mixed)
+`metadata` [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-Метадані Phar. Дивіться [Phar::setMetadata()](phar.setmetadata.html)
+Метадані Phar. Дивіться [Phar::setMetadata()](phar.setmetadata.md)
 
 ### Дивіться також
 
--   [phar://](wrappers.phar.html)
--   [Потоки Phar](phar.using.stream.html)
+-   [phar://](wrappers.phar.md)
+-   [Потоки Phar](phar.using.stream.md)

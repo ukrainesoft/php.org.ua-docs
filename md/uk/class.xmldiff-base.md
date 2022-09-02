@@ -1,7 +1,7 @@
 ---
 navigation:
   - xmldiff.installation.md: « Установка
-  - xmldiff-base.construct.html: 'XMLDiffBase::construct »'
+  - xmldiff-base.construct.md: 'XMLDiffBase::construct »'
   - index.md: PHP Manual
   - book.xmldiff.md: XMLDiff
 title: Клас XMLDiffBase

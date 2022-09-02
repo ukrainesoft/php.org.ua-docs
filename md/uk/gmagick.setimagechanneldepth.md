@@ -24,7 +24,7 @@ public Gmagick::setimagechanneldepth(int $channel, int $depth): Gmagick
 
 `channel`
 
-Одна з констант [канала](gmagick.constants.html#gmagick.constants.channel) `Gmagick::CHANNEL_*`
+Одна з констант [канала](gmagick.constants.md#gmagick.constants.channel) `Gmagick::CHANNEL_*`
 
 `depth`
 

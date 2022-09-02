@@ -1,7 +1,7 @@
 ---
 navigation:
   - enchant.examples.md: « Приклади
-  - function.enchant-broker-describe.html: enchantbrokerdescribe »
+  - function.enchant-broker-describe.md: enchantbrokerdescribe »
   - index.md: PHP Manual
   - book.enchant.md: Enchant
 title: Функції Enchant

@@ -16,10 +16,10 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [expect.timeout](expect.configuration.html#ini.expect.timeout) | "10" | PHPINIALL |  |
-| [expect.loguser](expect.configuration.html#ini.expect.loguser) | "1" | PHPINIALL |  |
-| [expect.logfile](expect.configuration.html#ini.expect.logfile) | "" | PHPINIALL |  |
-| [expect.matchmax](expect.configuration.html#ini.expect.match-max) | "" | PHPINIALL |  |
+| [expect.timeout](expect.configuration.md#ini.expect.timeout) | "10" | PHPINIALL |  |
+| [expect.loguser](expect.configuration.md#ini.expect.loguser) | "1" | PHPINIALL |  |
+| [expect.logfile](expect.configuration.md#ini.expect.logfile) | "" | PHPINIALL |  |
+| [expect.matchmax](expect.configuration.md#ini.expect.match-max) | "" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -45,7 +45,7 @@ title: Налаштування під час виконання
 
 > **Зауваження**
 > 
-> Якщо цій опції надано якесь не порожнє значення, то висновок писатиметься у файл незалежно від налаштування [expect.loguser](expect.configuration.html#ini.expect.loguser)
+> Якщо цій опції надано якесь не порожнє значення, то висновок писатиметься у файл незалежно від налаштування [expect.loguser](expect.configuration.md#ini.expect.loguser)
 
 `expect.match_max` int
 

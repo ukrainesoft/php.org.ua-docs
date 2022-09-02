@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-font-descriptor.construct.html: '« UIDrawTextFontDescriptor::construct'
-  - ui-draw-text-font-descriptor.getitalic.html: 'ОЙDrawTextFontDescriptor::getItalic »'
-  - index.html: PHP Manual
-  - class.ui-draw-text-font-descriptor.html: ОЙDrawTextFontDescriptor
+  - ui-draw-text-font-descriptor.construct.md: '« UIDrawTextFontDescriptor::construct'
+  - ui-draw-text-font-descriptor.getitalic.md: 'ОЙDrawTextFontDescriptor::getItalic »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font-descriptor.md: ОЙDrawTextFontDescriptor
 title: 'ОЙDrawTextFontDescriptor::getFamily'
 ---
 # ОЙDrawTextFontDescriptor::getFamily

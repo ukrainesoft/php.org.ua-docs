@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openal-context-create.html: « openalcontextcreate
-  - function.openal-context-destroy.html: openalcontextdestroy »
-  - index.html: PHP Manual
-  - ref.openal.html: Функции OpenAL
+  - function.openal-context-create.md: « openalcontextcreate
+  - function.openal-context-destroy.md: openalcontextdestroy »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
 title: openalcontextcurrent
 ---
 # openalcontextcurrent
@@ -22,7 +22,7 @@ openal_context_current(resource $context): bool
 
 `context`
 
-Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.md)
+Ресурс [Open AL(Context)](openal.resources.md) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.md)
 
 ### Значення, що повертаються
 

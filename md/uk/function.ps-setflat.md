@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-setdash.html: «pssetdash
-  - function.ps-setfont.html: псsetfont »
+  - function.ps-setdash.md: «pssetdash
+  - function.ps-setfont.md: псsetfont »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetflat

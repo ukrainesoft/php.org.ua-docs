@@ -24,7 +24,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 
 `SPARSE_METHOD`
 
-Зверніться до цього списку [sparse method constants](imagick.constants.html#imagick.constants.sparsecolormethod)
+Зверніться до цього списку [sparse method constants](imagick.constants.md#imagick.constants.sparsecolormethod)
 
 `arguments`
 
@@ -32,7 +32,7 @@ public Imagick::sparseColorImage(int $SPARSE_METHOD, array $arguments, int $chan
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

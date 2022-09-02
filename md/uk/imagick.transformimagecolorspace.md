@@ -24,7 +24,7 @@ public Imagick::transformImageColorspace(int $colorspace): bool
 
 `colorspace`
 
-Колірний простір, в який має бути перетворено зображення, одна з[констант COLORSPACE](imagick.constants.html#imagick.constants.colorspace)наприклад Imagick::COLORSPACECMYK.
+Колірний простір, в який має бути перетворено зображення, одна з[констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace)наприклад Imagick::COLORSPACECMYK.
 
 ### Значення, що повертаються
 

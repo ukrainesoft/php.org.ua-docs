@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.timezone-identifiers-list.html: « timezoneidentifierslist
-  - function.timezone-name-from-abbr.html: timezonenamefromabbr »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.timezone-identifiers-list.md: « timezoneidentifierslist
+  - function.timezone-name-from-abbr.md: timezonenamefromabbr »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: timezonelocationget
 ---
 # timezonelocationget

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sqlsrv-num-fields.html: « sqlsrvnumfields
-  - function.sqlsrv-prepare.html: sqlsrvprepare »
-  - index.html: PHP Manual
-  - ref.sqlsrv.html: Функції SQLSRV
+  - function.sqlsrv-num-fields.md: « sqlsrvnumfields
+  - function.sqlsrv-prepare.md: sqlsrvprepare »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvnumrows
 ---
 # sqlsrvnumrows
@@ -18,13 +18,13 @@ sqlsrvnumrows — Отримує кількість рядків у наборі
 sqlsrv_num_rows(resource $stmt): mixed
 ```
 
-Витягує кількість рядків у наборі результатів. Функція вимагає, щоб ресурс оператора було створено за допомогою статичного курсору або курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
+Витягує кількість рядків у наборі результатів. Функція вимагає, щоб ресурс оператора було створено за допомогою статичного курсору або курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.md) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
 
 ### Список параметрів
 
 `stmt`
 
-Оператор, для якого повертається кількість рядків. Ресурс оператора має бути створений за допомогою статичного курсору чи курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.html) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
+Оператор, для якого повертається кількість рядків. Ресурс оператора має бути створений за допомогою статичного курсору чи курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.md) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
 
 ### Значення, що повертаються
 

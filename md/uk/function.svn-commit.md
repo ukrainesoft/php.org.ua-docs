@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-client-version.html: « svnclientversion
-  - function.svn-delete.html: svndelete »
+  - function.svn-client-version.md: « svnclientversion
+  - function.svn-delete.md: svndelete »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svncommit

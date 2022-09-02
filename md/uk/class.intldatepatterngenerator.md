@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcodepointbreakiterator.getlastcodepoint.html: '« IntlCodePointBreakIterator::getLastCodePoint'
-  - intldatepatterngenerator.create.html: 'IntlDatePatternGenerator::create »'
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - intlcodepointbreakiterator.getlastcodepoint.md: '« IntlCodePointBreakIterator::getLastCodePoint'
+  - intldatepatterngenerator.create.md: 'IntlDatePatternGenerator::create »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Клас IntlDatePatternGenerator
 ---
 # Клас IntlDatePatternGenerator
@@ -12,7 +12,7 @@ title: Клас IntlDatePatternGenerator
 
 ## Вступ
 
-Створює локалізовані рядки шаблонів формату дати та/або часу, які підходять для використання в [IntlDateFormatter](class.intldateformatter.html)
+Створює локалізовані рядки шаблонів формату дати та/або часу, які підходять для використання в [IntlDateFormatter](class.intldateformatter.md)
 
 ## Огляд класів
 
@@ -39,5 +39,5 @@ public getBestPattern(string $skeleton): string|false
 
 ## Зміст
 
--   [IntlDatePatternGenerator::create](intldatepatterngenerator.create.html) — Створює новий екземпляр IntlDatePatternGenerator
--   [IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.html) — Визначає найбільш підходящий формат дати/часу
+-   [IntlDatePatternGenerator::create](intldatepatterngenerator.create.md) — Створює новий екземпляр IntlDatePatternGenerator
+-   [IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.md) — Визначає найбільш підходящий формат дати/часу

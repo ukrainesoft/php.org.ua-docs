@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.ftp.md: « Функції FTP
-  - function.ftp-append.html: ftpappend »
+  - function.ftp-append.md: ftpappend »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpalloc
@@ -28,7 +28,7 @@ ftp_alloc(FTP\Connection $ftp, int $size, string &$response = null): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `size`
 
@@ -46,7 +46,7 @@ ftp_alloc(FTP\Connection $ftp, int $size, string &$response = null): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -75,5 +75,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpput()](function.ftp-put.html) - Завантажує файл на FTP-сервер
--   [ftpfput()](function.ftp-fput.html) - Завантажує попередньо відкритий файл на FTP-сервер
+-   [ftpput()](function.ftp-put.md) - Завантажує файл на FTP-сервер
+-   [ftpfput()](function.ftp-fput.md) - Завантажує попередньо відкритий файл на FTP-сервер

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.cubrid-send-glo.html: « cubridsendglo
+  - function.cubrid-send-glo.md: « cubridsendglo
   - intro.dbase.md: Введение »
   - index.md: PHP Manual
   - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.dotnet.html: « dotnet
-  - class.variant.html: variant »
-  - index.html: PHP Manual
-  - class.dotnet.html: dotnet
+  - class.dotnet.md: « dotnet
+  - class.variant.md: variant »
+  - index.md: PHP Manual
+  - class.dotnet.md: dotnet
 title: 'dotnet::construct'
 ---
 # dotnet::construct

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.pcntl-wstopsig.html: pcntlwstopsig
+  - function.pcntl-wstopsig.md: pcntlwstopsig
   - book.posix.md: POSIX »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL

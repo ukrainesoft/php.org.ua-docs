@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.resampleimage.html: '« Gmagick::resampleimage'
-  - gmagick.rollimage.html: 'Gmagick::rollimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.resampleimage.md: '« Gmagick::resampleimage'
+  - gmagick.rollimage.md: 'Gmagick::rollimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::resizeimage'
 ---
 # Gmagick::resizeimage
@@ -40,7 +40,7 @@ public Gmagick::resizeimage(    int $width,    int $height,    int $
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

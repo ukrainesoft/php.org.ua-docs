@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-columnprivileges.html: « odbccolumnprivileges
-  - function.odbc-commit.html: odbccommit »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-columnprivileges.md: « odbccolumnprivileges
+  - function.odbc-commit.md: odbccommit »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbccolumns
 ---
 # odbccolumns
@@ -24,7 +24,7 @@ odbc_columns(    resource $odbc,    ?string $catalog = null,    ?str
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 `catalog`
 
@@ -120,5 +120,5 @@ Array
 
 ### Дивіться також
 
--   [odbccolumnprivileges()](function.odbc-columnprivileges.html) - Перераховує стовпці та пов'язані привілеї для даної таблиці
--   [odbcprocedurecolumns()](function.odbc-procedurecolumns.html) - Отримує інформацію про параметри процедур
+-   [odbccolumnprivileges()](function.odbc-columnprivileges.md) - Перераховує стовпці та пов'язані привілеї для даної таблиці
+-   [odbcprocedurecolumns()](function.odbc-procedurecolumns.md) - Отримує інформацію про параметри процедур

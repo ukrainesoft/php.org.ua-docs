@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.oci-statement-type.html: « ocistatementtype
+  - function.oci-statement-type.md: « ocistatementtype
   - class.ocicollection.md: OCICollection »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
@@ -18,7 +18,7 @@ ociunregistertafcallback — Видалити реєстрацію корист�
 oci_unregister_taf_callback(resource $connection): bool
 ```
 
-Видаляє реєстрацію користувача callback-функції, зареєстровану для з'єднання `connection` за допомогою [ociregistertafcallback()](function.oci-register-taf-callback.html). Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.md)
+Видаляє реєстрацію користувача callback-функції, зареєстровану для з'єднання `connection` за допомогою [ociregistertafcallback()](function.oci-register-taf-callback.md). Детальніше читайте [OCI8 Transparent Application Failover (TAF) Support](oci8.taf.md)
 
 ### Список параметрів
 
@@ -32,4 +32,4 @@ oci_unregister_taf_callback(resource $connection): bool
 
 ### Дивіться також
 
--   [ociregistertafcallback()](function.oci-register-taf-callback.html) - Реєструє функцію зворотного виклику для Oracle Database TAF
+-   [ociregistertafcallback()](function.oci-register-taf-callback.md) - Реєструє функцію зворотного виклику для Oracle Database TAF

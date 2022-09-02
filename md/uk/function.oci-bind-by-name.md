@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-bind-array-by-name.html: « ocibindarrayбname
-  - function.oci-cancel.html: ocicancel »
+  - function.oci-bind-array-by-name.md: « ocibindarrayбname
+  - function.oci-cancel.md: ocicancel »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocibindбname

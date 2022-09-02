@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration81.incompatible.html: '« Зміни, що ламають зворотну сумісність'
-  - migration81.other-changes.html: Другие изменения »
-  - index.html: PHP Manual
-  - migration81.html: Миграция с PHP 8.0.x на PHP 8.1.x
+  - migration81.incompatible.md: '« Зміни, що ламають зворотну сумісність'
+  - migration81.other-changes.md: Другие изменения »
+  - index.md: PHP Manual
+  - migration81.md: Миграция с PHP 8.0.x на PHP 8.1.x
 title: Застаріла функціональність
 ---
 ## Застаріла функціональність
@@ -44,7 +44,7 @@ $a[15.0]; // работает, так как 15.0 == 15
 
 #### Повернення не масиву (array) з **sleep()**
 
-Значення, що повертається [sleep()](language.oop5.magic.html#object.sleep), що не є масивом, тепер згенерує повідомлення.
+Значення, що повертається [sleep()](language.oop5.magic.md#object.sleep), що не є масивом, тепер згенерує повідомлення.
 
 #### Повернення значення за посиланням функції void
 
@@ -90,25 +90,25 @@ $arr[] = 2;   // устарело
 
 ### Date
 
-Функції [datesunrise()](function.date-sunrise.html) і [datesunset()](function.date-sunset.html) застаріли на користь [datesuninfo()](function.date-sun-info.md)
+Функції [datesunrise()](function.date-sunrise.md) і [datesunset()](function.date-sunset.md) застаріли на користь [datesuninfo()](function.date-sun-info.md)
 
-Функція [strptime()](function.strptime.html) застаріла. Замість неї використовуйте [dateparsefromformat()](function.date-parse-from-format.html) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.md) (Для синтаксичного аналізу, що залежить від мовного стандарту).
+Функція [strptime()](function.strptime.md) застаріла. Замість неї використовуйте [dateparsefromformat()](function.date-parse-from-format.md) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.md) (Для синтаксичного аналізу, що залежить від мовного стандарту).
 
-Функція [strftime()](function.strftime.html) і [gmstrftime()](function.gmstrftime.html) застаріли. Використовуйте замість них функцію [date()](function.date.html) (для форматування, що не залежить від мовного стандарту) або метод [IntlDateFormatter::format()](intldateformatter.format.md) (Для форматування, що залежить від мовного стандарту).
+Функція [strftime()](function.strftime.md) і [gmstrftime()](function.gmstrftime.md) застаріли. Використовуйте замість них функцію [date()](function.date.md) (для форматування, що не залежить від мовного стандарту) або метод [IntlDateFormatter::format()](intldateformatter.format.md) (Для форматування, що залежить від мовного стандарту).
 
 ### Фільтр
 
 Фільтри **`FILTER_SANITIZE_STRING`** і **`FILTER_SANITIZE_STRIPPED`** застаріли.
 
-INI-директива [filter.default](filter.configuration.html#ini.filter.default) застаріла.
+INI-директива [filter.default](filter.configuration.md#ini.filter.default) застаріла.
 
 ### ДД
 
-Параметр `num_points` функції [imagepolygon()](function.imagepolygon.html) [imageopenpolygon()](function.imageopenpolygon.html) і [imagefilledpolygon()](function.imagefilledpolygon.md) застарів.
+Параметр `num_points` функції [imagepolygon()](function.imagepolygon.md) [imageopenpolygon()](function.imageopenpolygon.md) і [imagefilledpolygon()](function.imagefilledpolygon.md) застарів.
 
 ### Хешування
 
-Функції [mhash()](function.mhash.html) [mhashkeygens2k()](function.mhash-keygen-s2k.html) [mhashcount()](function.mhash-count.html) [mhashgetblocksize()](function.mhash-get-block-size.html) і [mhashgethashname()](function.mhash-get-hash-name.md) застаріли. Замість них використовуйте функції `hash_*()`
+Функції [mhash()](function.mhash.md) [mhashkeygens2k()](function.mhash-keygen-s2k.md) [mhashcount()](function.mhash-count.md) [mhashgetblocksize()](function.mhash-get-block-size.md) і [mhashgethashname()](function.mhash-get-hash-name.md) застаріли. Замість них використовуйте функції `hash_*()`
 
 ### IMAP
 
@@ -126,13 +126,13 @@ INI-директива [filter.default](filter.configuration.html#ini.filter.def
 
 Властивість mysqlidriver::$driverversion застаріло. Воно було неактуальним, використовуйте замість нього **`PHP_VERSION_ID`**
 
-Виклик методу [mysqli::getclientinfo()](mysqli.get-client-info.html) або [mysqligetclientinfo()](mysqli.get-client-info.html) з аргументом `mysqli` застарів. Використовуйте [mysqligetclientinfo()](mysqli.get-client-info.md) без жодних аргументів, щоб отримати інформацію про версію клієнтської бібліотеки.
+Виклик методу [mysqli::getclientinfo()](mysqli.get-client-info.md) або [mysqligetclientinfo()](mysqli.get-client-info.md) з аргументом `mysqli` застарів. Використовуйте [mysqligetclientinfo()](mysqli.get-client-info.md) без жодних аргументів, щоб отримати інформацію про версію клієнтської бібліотеки.
 
 Метод [mysqli::init()](mysqli.init.md) застарів. Замініть дзвінки **parent::init()** на **parent::construct()**
 
 ### OCI8
 
-INI-директива [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) застаріла.
+INI-директива [oci8.oldociclosesemantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics) застаріла.
 
 ### ODBC
 
@@ -152,8 +152,8 @@ INI-директива [oci8.oldociclosesemantics](oci8.configuration.html#ini.o
 
 ### Стандартні функції
 
-Виклик [key()](function.key.html) [current()](function.current.html) [next()](function.next.html) [prev()](function.prev.html) [reset()](function.reset.html) або [end()](function.end.html) з об'єктами (object) застарів. Використовуйте ці функції на об'єкті через [getmangledobjectvars()](function.get-mangled-object-vars.html), або через [ArrayIterator](class.arrayiterator.md)
+Виклик [key()](function.key.md) [current()](function.current.md) [next()](function.next.md) [prev()](function.prev.md) [reset()](function.reset.md) або [end()](function.end.md) з об'єктами (object) застарів. Використовуйте ці функції на об'єкті через [getmangledobjectvars()](function.get-mangled-object-vars.md), або через [ArrayIterator](class.arrayiterator.md)
 
-INI-директива [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) застаріла. При необхідності обробіть розриви рядків `"\r"` вручну.
+INI-директива [autodetectlineendings](filesystem.configuration.md#ini.auto-detect-line-endings) застаріла. При необхідності обробіть розриви рядків `"\r"` вручну.
 
 Константи **`FILE_BINARY`** і **`FILE_TEXT`** застаріли. Вони ніколи не мали сенсу.

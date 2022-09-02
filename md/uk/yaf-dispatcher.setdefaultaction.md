@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.returnresponse.html: '« YafDispatcher::returnResponse'
-  - yaf-dispatcher.setdefaultcontroller.html: 'YafDispatcher::setDefaultController »'
-  - index.html: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - yaf-dispatcher.returnresponse.md: '« YafDispatcher::returnResponse'
+  - yaf-dispatcher.setdefaultcontroller.md: 'YafDispatcher::setDefaultController »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::setDefaultAction'
 ---
 # YafDispatcher::setDefaultAction

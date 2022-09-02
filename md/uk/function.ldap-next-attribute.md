@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-modify.html: « ldapmodify
-  - function.ldap-next-entry.html: ldapnextentry »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-modify.md: « ldapmodify
+  - function.ldap-next-entry.md: ldapnextentry »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapnextattribute
 ---
 # ldapnextattribute
@@ -24,7 +24,7 @@ ldap_next_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|fals
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 
@@ -46,8 +46,8 @@ ldap_next_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|fals
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

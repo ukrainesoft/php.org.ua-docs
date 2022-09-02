@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-lob2-export.html: « cubridlob2export
-  - function.cubrid-lob2-new.html: cubridlob2new »
+  - function.cubrid-lob2-export.md: « cubridlob2export
+  - function.cubrid-lob2-new.md: cubridlob2new »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridlob2import

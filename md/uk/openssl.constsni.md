@@ -1,9 +1,9 @@
 ---
 navigation:
-  - openssl.constversion.html: « Константи версій
-  - openssl.constants.other.html: Інші константи »
-  - index.html: PHP Manual
-  - openssl.constants.html: Обумовлені константи
+  - openssl.constversion.md: « Константи версій
+  - openssl.constants.other.md: Інші константи »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
 title: Константа SNI (Server Name Indication)
 ---
 ## Константа SNI (Server Name Indication)

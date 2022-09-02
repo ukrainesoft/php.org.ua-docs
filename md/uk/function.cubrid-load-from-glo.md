@@ -1,7 +1,7 @@
 ---
 navigation:
   - oldaliases.cubrid.md: « Застарілі псевдоніми та функції CUBRID
-  - function.cubrid-new-glo.html: cubridnewglo »
+  - function.cubrid-new-glo.md: cubridnewglo »
   - index.md: PHP Manual
   - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
 title: cubridloadfromglo

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - example.xmlwriter-oop.html: « Робота з об'єктно-орієнтованим API
+  - example.xmlwriter-oop.md: « Робота з об'єктно-орієнтованим API
   - xmlwriter.endattribute.md: 'XMLWriter::endAttribute »'
   - index.md: PHP Manual
   - book.xmlwriter.md: XMLWriter

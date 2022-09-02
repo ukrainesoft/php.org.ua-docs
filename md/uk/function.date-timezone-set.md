@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.date-timezone-get.html: « datetimezoneget
+  - function.date-timezone-get.md: « datetimezoneget
   - function.date.md: date »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу

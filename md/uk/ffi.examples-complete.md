@@ -1,6 +1,6 @@
 ---
 navigation:
-  - ffi.examples-callback.html: « Callback-функции PHP
+  - ffi.examples-callback.md: « Callback-функции PHP
   - class.ffi.md: FFI »
   - index.md: PHP Manual
   - ffi.examples.md: Приклади

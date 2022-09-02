@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-fetchtext.html: « imapfetchtext
-  - function.imap-get-quota.html: imapgetquota »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-fetchtext.md: « imapfetchtext
+  - function.imap-get-quota.md: imapgetquota »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapгк
 ---
 # imapгк
@@ -38,7 +38,7 @@ imap_gc(IMAP\Connection $imap, int $flags): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

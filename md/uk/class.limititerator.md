@@ -1,9 +1,9 @@
 ---
 navigation:
-  - iteratoriterator.valid.html: '« IteratorIterator::valid'
-  - limititerator.construct.html: 'LimitIterator::construct »'
-  - index.html: PHP Manual
-  - spl.iterators.html: Ітератори
+  - iteratoriterator.valid.md: '« IteratorIterator::valid'
+  - limititerator.construct.md: 'LimitIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
 title: Клас LimitIterator
 ---
 # Клас LimitIterator
@@ -12,7 +12,7 @@ title: Клас LimitIterator
 
 ## Вступ
 
-Клас **LimitIterator** дозволяє зробити перебір обмеженої кількості елементів у [Iterator](class.iterator.html)
+Клас **LimitIterator** дозволяє зробити перебір обмеженої кількості елементів у [Iterator](class.iterator.md)
 
 ## Огляд класів
 
@@ -103,12 +103,12 @@ string(10) "elderberry"
 
 ## Зміст
 
--   [LimitIterator::construct](limititerator.construct.html) - Конструктор класу LimitIterator
--   [LimitIterator::current](limititerator.current.html) — Отримання поточного елемента
--   [LimitIterator::getInnerIterator](limititerator.getinneriterator.html) — Отримання внутрішнього об'єкта-ітератора
--   [LimitIterator::getPosition](limititerator.getposition.html) — Повертає поточну позицію
--   [LimitIterator::key](limititerator.key.html) — Отримання поточного ключа
--   [LimitIterator::next](limititerator.next.html) — Переміщення до наступної позиції
--   [LimitIterator::rewind](limititerator.rewind.html) — Переміщує покажчик на початкову позицію
--   [LimitIterator::seek](limititerator.seek.html) - Переміщає ітератор на задану позицію
--   [LimitIterator::valid](limititerator.valid.html) - Перевіряє валідність поточного елемента
+-   [LimitIterator::construct](limititerator.construct.md) - Конструктор класу LimitIterator
+-   [LimitIterator::current](limititerator.current.md) — Отримання поточного елемента
+-   [LimitIterator::getInnerIterator](limititerator.getinneriterator.md) — Отримання внутрішнього об'єкта-ітератора
+-   [LimitIterator::getPosition](limititerator.getposition.md) — Повертає поточну позицію
+-   [LimitIterator::key](limititerator.key.md) — Отримання поточного ключа
+-   [LimitIterator::next](limititerator.next.md) — Переміщення до наступної позиції
+-   [LimitIterator::rewind](limititerator.rewind.md) — Переміщує покажчик на початкову позицію
+-   [LimitIterator::seek](limititerator.seek.md) - Переміщає ітератор на задану позицію
+-   [LimitIterator::valid](limititerator.valid.md) - Перевіряє валідність поточного елемента

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-rfc822-parse-headers.html: « imaprfc822parseheaders
-  - function.imap-savebody.html: imapsavebody »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-rfc822-parse-headers.md: « imaprfc822parseheaders
+  - function.imap-savebody.md: imapsavebody »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imaprfc822writeaddress
 ---
 # imaprfc822writeaddress
@@ -24,11 +24,11 @@ imap_rfc822_write_address(string $mailbox, string $hostname, string $personal): 
 
 `mailbox`
 
-Ім'я поштової скриньки. Детальніше читайте в описі [imapopen()](function.imap-open.html)
+Ім'я поштової скриньки. Детальніше читайте в описі [imapopen()](function.imap-open.md)
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `hostname`
 

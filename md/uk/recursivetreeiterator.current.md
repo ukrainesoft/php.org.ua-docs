@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recursivetreeiterator.construct.html: '« RecursiveTreeIterator::construct'
-  - recursivetreeiterator.endchildren.html: 'RecursiveTreeIterator::endChildren »'
-  - index.html: PHP Manual
-  - class.recursivetreeiterator.html: RecursiveTreeIterator
+  - recursivetreeiterator.construct.md: '« RecursiveTreeIterator::construct'
+  - recursivetreeiterator.endchildren.md: 'RecursiveTreeIterator::endChildren »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
 title: 'RecursiveTreeIterator::current'
 ---
 # RecursiveTreeIterator::current

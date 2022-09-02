@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.stripimage.html: '« Gmagick::stripimage'
-  - gmagick.thumbnailimage.html: 'Gmagick::thumbnailimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.stripimage.md: '« Gmagick::stripimage'
+  - gmagick.thumbnailimage.md: 'Gmagick::thumbnailimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::swirlimage'
 ---
 # Gmagick::swirlimage
@@ -28,7 +28,7 @@ public Gmagick::swirlimage(float $degrees): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

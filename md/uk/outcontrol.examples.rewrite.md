@@ -1,14 +1,14 @@
 ---
 navigation:
-  - outcontrol.examples.basic.html: « Базовое использование
-  - ref.outcontrol.html: Функції контролю виведення
-  - index.html: PHP Manual
-  - outcontrol.examples.html: Приклади
+  - outcontrol.examples.basic.md: « Базовое использование
+  - ref.outcontrol.md: Функції контролю виведення
+  - index.md: PHP Manual
+  - outcontrol.examples.md: Приклади
 title: Використання перезапису виводу
 ---
 ## Використання перезапису виводу
 
-Починаючи з PHP 7.1.0, [outputaddrewritevar()](function.output-add-rewrite-var.html) і [outputresetrewritevars()](function.output-reset-rewrite-vars.html) використовують окремий буфер виводу, тобто не використовують буфер виводу [прозорої підтримки sid](session.configuration.html#ini.session.use-trans-sid)
+Починаючи з PHP 7.1.0, [outputaddrewritevar()](function.output-add-rewrite-var.md) і [outputresetrewritevars()](function.output-reset-rewrite-vars.md) використовують окремий буфер виводу, тобто не використовують буфер виводу [прозорої підтримки sid](session.configuration.md#ini.session.use-trans-sid)
 
 **Приклад #1 Приклад перезапису виводу**
 
@@ -44,4 +44,4 @@ output_add_rewrite_var('test', 'value');
 </form>
 ```
 
-З PHP 7.1.0, функції перезапису виводу мають власні INI-настройки . [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) і [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts)
+З PHP 7.1.0, функції перезапису виводу мають власні INI-настройки . [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags) і [urlrewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts)

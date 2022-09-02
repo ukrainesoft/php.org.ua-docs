@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.eio.html: « Eio Функции
-  - function.eio-cancel.html: eiocancel »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - ref.eio.md: « Eio Функции
+  - function.eio-cancel.md: eiocancel »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiobusy
 ---
 # eiobusy
@@ -44,4 +44,4 @@ Callback-функція, що виконується, коли всі запит
 
 ### Дивіться також
 
--   [eionop()](function.eio-nop.html) - Прохід по циклу запиту, не здійснюючи жодних операцій
+-   [eionop()](function.eio-nop.md) - Прохід по циклу запиту, не здійснюючи жодних операцій

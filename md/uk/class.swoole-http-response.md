@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-http-request.rawcontent.html: '« SwooleHttpRequest::rawcontent'
-  - swoole-http-response.cookie.html: 'SwooleHttpResponse::cookie »'
+  - swoole-http-request.rawcontent.md: '« SwooleHttpRequest::rawcontent'
+  - swoole-http-response.cookie.md: 'SwooleHttpResponse::cookie »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleHttpResponse

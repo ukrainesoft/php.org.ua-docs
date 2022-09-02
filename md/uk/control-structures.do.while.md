@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.while.html: « while
-  - control-structures.for.html: for »
+  - control-structures.while.md: « while
+  - control-structures.for.md: for »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: do-while
 ---
 ## do-while

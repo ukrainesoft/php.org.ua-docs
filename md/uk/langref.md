@@ -1,7 +1,7 @@
 ---
 navigation:
   - configuration.changes.md: « Як змінити налаштування конфігурації
-  - language.basic-syntax.html: Основи синтаксису »
+  - language.basic-syntax.md: Основи синтаксису »
   - index.md: PHP Manual
 title: Довідник мови
 ---

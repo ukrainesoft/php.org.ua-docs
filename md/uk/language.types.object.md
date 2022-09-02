@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.types.iterable.html: « Ітеровані
-  - language.types.enumerations.html: Перечисления »
-  - index.html: PHP Manual
-  - language.types.html: Типи
+  - language.types.iterable.md: « Ітеровані
+  - language.types.enumerations.md: Перечисления »
+  - index.md: PHP Manual
+  - language.types.md: Типи
 title: Об'єкти
 ---
 ## Об'єкти
@@ -27,7 +27,7 @@ $bar->do_foo();
 ?>
 ```
 
-Повний розгляд проводиться у розділі [Класи та Об'єкти](language.oop5.html)
+Повний розгляд проводиться у розділі [Класи та Об'єкти](language.oop5.md)
 
 ### Перетворення на об'єкт
 

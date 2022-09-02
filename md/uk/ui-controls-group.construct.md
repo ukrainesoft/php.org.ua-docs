@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-group.append.html: '« UIControlsGroup::append'
-  - ui-controls-group.gettitle.html: 'ОЙControlsGroup::getTitle »'
-  - index.html: PHP Manual
-  - class.ui-controls-group.html: ОЙControlsGroup
+  - ui-controls-group.append.md: '« UIControlsGroup::append'
+  - ui-controls-group.gettitle.md: 'ОЙControlsGroup::getTitle »'
+  - index.md: PHP Manual
+  - class.ui-controls-group.md: ОЙControlsGroup
 title: 'ОЙControlsGroup::construct'
 ---
 # ОЙControlsGroup::construct

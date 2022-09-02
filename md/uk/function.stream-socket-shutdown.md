@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-socket-server.html: « streamsocketserver
-  - function.stream-supports-lock.html: streamsupportslock »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-socket-server.md: « streamsocketserver
+  - function.stream-supports-lock.md: streamsupportslock »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsocketshutdown
 ---
 # streamsocketshutdown
@@ -28,7 +28,7 @@ stream_socket_shutdown(resource $stream, int $mode): bool
 
 `stream`
 
-Відкритий потік (наприклад, відкритий за допомогою функції [streamsocketclient()](function.stream-socket-client.html)
+Відкритий потік (наприклад, відкритий за допомогою функції [streamsocketclient()](function.stream-socket-client.md)
 
 `mode`
 
@@ -67,4 +67,4 @@ int(0)
 
 ### Дивіться також
 
--   [fclose()](function.fclose.html) - Закриває відкритий дескриптор файлу
+-   [fclose()](function.fclose.md) - Закриває відкритий дескриптор файлу

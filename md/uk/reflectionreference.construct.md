@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.reflectionreference.html: « ReflectionReference
-  - reflectionreference.fromarrayelement.html: 'ReflectionReference::fromArrayElement »'
-  - index.html: PHP Manual
-  - class.reflectionreference.html: ReflectionReference
+  - class.reflectionreference.md: « ReflectionReference
+  - reflectionreference.fromarrayelement.md: 'ReflectionReference::fromArrayElement »'
+  - index.md: PHP Manual
+  - class.reflectionreference.md: ReflectionReference
 title: 'ReflectionReference::construct'
 ---
 # ReflectionReference::construct

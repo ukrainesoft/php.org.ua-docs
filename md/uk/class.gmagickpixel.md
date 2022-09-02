@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.settextencoding.html: '« GmagickDraw::settextencoding'
-  - gmagickpixel.construct.html: 'GmagickPixel::construct »'
-  - index.html: PHP Manual
-  - book.gmagick.html: Gmagick
+  - gmagickdraw.settextencoding.md: '« GmagickDraw::settextencoding'
+  - gmagickpixel.construct.md: 'GmagickPixel::construct »'
+  - index.md: PHP Manual
+  - book.gmagick.md: Gmagick
 title: Клас GmagickPixel
 ---
 # Клас GmagickPixel
@@ -40,9 +40,9 @@ public setcolorvalue(int $color, float $value): GmagickPixel
 
 ## Зміст
 
--   [GmagickPixel::construct](gmagickpixel.construct.html) - Конструктора класу GmagickPixel
--   [GmagickPixel::getcolor](gmagickpixel.getcolor.html) - Повертає колір
--   [GmagickPixel::getcolorcount](gmagickpixel.getcolorcount.html) — Отримати кількість пікселів зображення, які мають заданий колір
--   [GmagickPixel::getcolorvalue](gmagickpixel.getcolorvalue.html) — Повертає нормалізоване значення для заданого каналу кольорів
--   [GmagickPixel::setcolor](gmagickpixel.setcolor.html) - Задати колір
--   [GmagickPixel::setcolorvalue](gmagickpixel.setcolorvalue.html) — Встановити нормалізоване значення колірного каналу
+-   [GmagickPixel::construct](gmagickpixel.construct.md) - Конструктора класу GmagickPixel
+-   [GmagickPixel::getcolor](gmagickpixel.getcolor.md) - Повертає колір
+-   [GmagickPixel::getcolorcount](gmagickpixel.getcolorcount.md) — Отримати кількість пікселів зображення, які мають заданий колір
+-   [GmagickPixel::getcolorvalue](gmagickpixel.getcolorvalue.md) — Повертає нормалізоване значення для заданого каналу кольорів
+-   [GmagickPixel::setcolor](gmagickpixel.setcolor.md) - Задати колір
+-   [GmagickPixel::setcolorvalue](gmagickpixel.setcolorvalue.md) — Встановити нормалізоване значення колірного каналу

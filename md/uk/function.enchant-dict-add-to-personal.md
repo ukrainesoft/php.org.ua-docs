@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-broker-set-ordering.html: « enchantbrokersetordering
-  - function.enchant-dict-add-to-session.html: enchantdictaddтоsession »
+  - function.enchant-broker-set-ordering.md: « enchantbrokersetordering
+  - function.enchant-dict-add-to-session.md: enchantdictaddтоsession »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantdictaddтоpersonal

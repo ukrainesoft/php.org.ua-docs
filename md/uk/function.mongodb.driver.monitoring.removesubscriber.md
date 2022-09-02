@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mongodb.driver.monitoring.addsubscriber.html: « MongoDBDriverMonitoringaddSubscriber
-  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent »
-  - index.html: PHP Manual
-  - ref.monitoring.functions.html: Функції
+  - function.mongodb.driver.monitoring.addsubscriber.md: « MongoDBDriverMonitoringaddSubscriber
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent »
+  - index.md: PHP Manual
+  - ref.monitoring.functions.md: Функції
 title: MongoDBDriverMonitoringremoveSubscriber
 ---
 # MongoDBDriverMonitoringremoveSubscriber

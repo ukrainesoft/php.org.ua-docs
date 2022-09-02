@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.else.html: « else
-  - control-structures.alternative-syntax.html: Альтернативний синтаксис керуючих структур »
+  - control-structures.else.md: « else
+  - control-structures.alternative-syntax.md: Альтернативний синтаксис керуючих структур »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: elseif/else if
 ---
 ## elseif/else if

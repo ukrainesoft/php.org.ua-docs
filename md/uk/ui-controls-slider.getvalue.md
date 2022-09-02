@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-slider.construct.html: '« UIControlsSlider::construct'
-  - ui-controls-slider.onchange.html: 'ОЙControlsSlider::onChange »'
-  - index.html: PHP Manual
-  - class.ui-controls-slider.html: ОЙControlsSlider
+  - ui-controls-slider.construct.md: '« UIControlsSlider::construct'
+  - ui-controls-slider.onchange.md: 'ОЙControlsSlider::onChange »'
+  - index.md: PHP Manual
+  - class.ui-controls-slider.md: ОЙControlsSlider
 title: 'ОЙControlsSlider::getValue'
 ---
 # ОЙControlsSlider::getValue

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeperconfig.add.html: '« ZookeeperConfig::add'
-  - zookeeperconfig.remove.html: 'ZookeeperConfig::remove »'
-  - index.html: PHP Manual
-  - class.zookeeperconfig.html: ZookeeperConfig
+  - zookeeperconfig.add.md: '« ZookeeperConfig::add'
+  - zookeeperconfig.remove.md: 'ZookeeperConfig::remove »'
+  - index.md: PHP Manual
+  - class.zookeeperconfig.md: ZookeeperConfig
 title: 'ZookeeperConfig::get'
 ---
 # ZookeeperConfig::get
@@ -35,7 +35,7 @@ public
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.html) та його похідні, коли кількість параметрів або типи неправильні або не вдається отримати конфігурацію.
+Метод генерує [ZookeeperException](class.zookeeperexception.md) та його похідні, коли кількість параметрів або типи неправильні або не вдається отримати конфігурацію.
 
 ### Приклади
 
@@ -66,7 +66,7 @@ version=0xca01e881a2
 
 ### Дивіться також
 
--   [ZookeeperConfig::set()](zookeeperconfig.set.html) - Змінює склад ансамблю ZK та ролі його учасників
--   [ZookeeperConfig::add()](zookeeperconfig.add.html) - Додає сервери до ансамблю
--   [ZookeeperConfig::remove()](zookeeperconfig.remove.html) - Видаляє сервери з ансамблю
--   [ZookeeperException](class.zookeeperexception.html)
+-   [ZookeeperConfig::set()](zookeeperconfig.set.md) - Змінює склад ансамблю ZK та ролі його учасників
+-   [ZookeeperConfig::add()](zookeeperconfig.add.md) - Додає сервери до ансамблю
+-   [ZookeeperConfig::remove()](zookeeperconfig.remove.md) - Видаляє сервери з ансамблю
+-   [ZookeeperException](class.zookeeperexception.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - luasandbox.setcpulimit.html: '« LuaSandbox::setCPULimit'
-  - luasandbox.unpauseusagetimer.html: 'LuaSandbox::unpauseUsageTimer »'
-  - index.html: PHP Manual
-  - class.luasandbox.html: LuaSandbox
+  - luasandbox.setcpulimit.md: '« LuaSandbox::setCPULimit'
+  - luasandbox.unpauseusagetimer.md: 'LuaSandbox::unpauseUsageTimer »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::setMemoryLimit'
 ---
 # LuaSandbox::setMemoryLimit
@@ -20,7 +20,7 @@ public LuaSandbox::setMemoryLimit(int $limit): void
 
 Встановлює межу пам'яті для середовища Lua.
 
-Якщо межа перевищена, буде викинуто виняток [LuaSandboxMemoryError](class.luasandboxmemoryerror.html)
+Якщо межа перевищена, буде викинуто виняток [LuaSandboxMemoryError](class.luasandboxmemoryerror.md)
 
 ### Список параметрів
 
@@ -59,6 +59,6 @@ PHP Fatal error:  Uncaught LuaSandboxMemoryError: not enough memory
 
 ### Дивіться також
 
--   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.html) - Повертає поточне використання пам'яті у середовищі Lua
--   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.html) - Повертає пікове використання пам'яті в середовищі Lua
--   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.html) - Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) - Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) - Повертає пікове використання пам'яті в середовищі Lua
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) - Встановлює обмеження часу процесора для середовища Lua

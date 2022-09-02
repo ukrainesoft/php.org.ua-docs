@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbuffer.expand.html: '« EventBuffer::expand'
-  - eventbuffer.lock.html: 'EventBuffer::lock »'
-  - index.html: PHP Manual
-  - class.eventbuffer.html: EventBuffer
+  - eventbuffer.expand.md: '« EventBuffer::expand'
+  - eventbuffer.lock.md: 'EventBuffer::lock »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::freeze'
 ---
 # EventBuffer::freeze
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::unfreeze()](eventbuffer.unfreeze.html) - Повторно включає дзвінки, які змінюють буфер подій
+-   [EventBuffer::unfreeze()](eventbuffer.unfreeze.md) - Повторно включає дзвінки, які змінюють буфер подій

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-prepare.html: « sqlsrvprepare
-  - function.sqlsrv-rollback.html: sqlsrvrollback »
+  - function.sqlsrv-prepare.md: « sqlsrvprepare
+  - function.sqlsrv-rollback.md: sqlsrvrollback »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvquery
@@ -90,7 +90,7 @@ if( $stmt === false ) {
 
 ### Примітки
 
-Для операторів, які ви плануєте виконати лише один раз, використовуйте **sqlsrvquery()**. Якщо ви маєте намір повторно виконати вираз з іншими параметрами, використовуйте комбінацію [sqlsrvprepare()](function.sqlsrv-prepare.html) і [sqlsrvexecute()](function.sqlsrv-execute.md)
+Для операторів, які ви плануєте виконати лише один раз, використовуйте **sqlsrvquery()**. Якщо ви маєте намір повторно виконати вираз з іншими параметрами, використовуйте комбінацію [sqlsrvprepare()](function.sqlsrv-prepare.md) і [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 ### Дивіться також
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-rprop-delta-min.html: « fanngetrpropdeltamin
-  - function.fann-get-rprop-increase-factor.html: fanngetrpropincreasefactor »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-rprop-delta-min.md: « fanngetrpropdeltamin
+  - function.fann-get-rprop-increase-factor.md: fanngetrpropincreasefactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetrpropdeltazero
 ---
 # fanngetrpropdeltazero
@@ -34,6 +34,6 @@ fann_get_rprop_delta_zero(resource $ann): int
 
 ### Дивіться також
 
--   [fannsetrpropdeltazero()](function.fann-set-rprop-delta-zero.html) - Встановлює початковий розмір кроку
--   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.html) - Повертає мінімальний розмір кроку
--   [fanngetrpropdeltamax()](function.fann-get-rprop-delta-max.html) - Повертає максимальний розмір кроку
+-   [fannsetrpropdeltazero()](function.fann-set-rprop-delta-zero.md) - Встановлює початковий розмір кроку
+-   [fanngetrpropdeltamin()](function.fann-get-rprop-delta-min.md) - Повертає мінімальний розмір кроку
+-   [fanngetrpropdeltamax()](function.fann-get-rprop-delta-max.md) - Повертає максимальний розмір кроку

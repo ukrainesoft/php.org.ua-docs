@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.inflate-init.html: « inflateinit
-  - function.zlib-decode.html: zlibdecode »
+  - function.inflate-init.md: « inflateinit
+  - function.zlib-decode.md: zlibdecode »
   - index.md: PHP Manual
   - ref.zlib.md: Функции Zlib
 title: readgzfile
@@ -30,7 +30,7 @@ readgzfile(string $filename, int $use_include_path = 0): int|false
 
 `use_include_path`
 
-Ви можете використовувати цей необов'язковий параметр і встановити його в `1`, якщо необхідно, щоб пошук файлу також здійснювався в директоріях [includepath](ini.core.html#ini.include-path)
+Ви можете використовувати цей необов'язковий параметр і встановити його в `1`, якщо необхідно, щоб пошук файлу також здійснювався в директоріях [includepath](ini.core.md#ini.include-path)
 
 ### Значення, що повертаються
 

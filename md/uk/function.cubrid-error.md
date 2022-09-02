@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-errno.html: « cubriderrno
-  - function.cubrid-fetch-array.html: cubridfetcharray »
+  - function.cubrid-errno.md: « cubriderrno
+  - function.cubrid-fetch-array.md: cubridfetcharray »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubriderror

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-db-name.html: « cubridдбname
-  - function.cubrid-error.html: cubriderror »
+  - function.cubrid-db-name.md: « cubridдбname
+  - function.cubrid-error.md: cubriderror »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubriderrno

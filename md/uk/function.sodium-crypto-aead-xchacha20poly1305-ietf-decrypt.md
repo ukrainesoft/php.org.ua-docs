@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-aead-chacha20poly1305-keygen.html: « sodiumcryptoaeadchacha20poly1305keygen
-  - function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html: sodiumcryptoaeadxchacha20poly1305ietfencrypt »
+  - function.sodium-crypto-aead-chacha20poly1305-keygen.md: « sodiumcryptoaeadchacha20poly1305keygen
+  - function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.md: sodiumcryptoaeadxchacha20poly1305ietfencrypt »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptoaeadxchacha20poly1305ietfdecrypt

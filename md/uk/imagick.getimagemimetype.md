@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagemattecolor.html: '« Imagick::getImageMatteColor'
-  - imagick.getimageorientation.html: 'Imagick::getImageOrientation »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagemattecolor.md: '« Imagick::getImageMatteColor'
+  - imagick.getimageorientation.md: 'Imagick::getImageOrientation »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageMimeType'
 ---
 # Imagick::getImageMimeType

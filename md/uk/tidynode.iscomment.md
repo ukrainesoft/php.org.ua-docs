@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidynode.isasp.html: '« tidyNode::isAsp'
-  - tidynode.ishtml.html: 'tidyNode::isHtml »'
-  - index.html: PHP Manual
-  - class.tidynode.html: tidyNode
+  - tidynode.isasp.md: '« tidyNode::isAsp'
+  - tidynode.ishtml.md: 'tidyNode::isHtml »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
 title: 'tidyNode::isComment'
 ---
 # tidyNode::isComment

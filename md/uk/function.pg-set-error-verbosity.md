@@ -1,16 +1,16 @@
 ---
 navigation:
-  - function.pg-set-client-encoding.html: « pgsetclientencoding
-  - function.pg-socket.html: пгsocket »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-set-client-encoding.md: « pgsetclientencoding
+  - function.pg-socket.md: пгsocket »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгseterrorverbosity
 ---
 # пгseterrorverbosity
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-пгseterrorverbosity — Визначає обсяг тексту повідомлень, що повертаються функціями [пгlasterror()](function.pg-last-error.html) і [пгresulterror()](function.pg-result-error.md)
+пгseterrorverbosity — Визначає обсяг тексту повідомлень, що повертаються функціями [пгlasterror()](function.pg-last-error.md) і [пгresulterror()](function.pg-result-error.md)
 
 ### Опис
 
@@ -18,7 +18,7 @@ title: пгseterrorverbosity
 pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 ```
 
-Визначає обсяг тексту повідомлень, що повертаються функціями [пгlasterror()](function.pg-last-error.html) і [пгresulterror()](function.pg-result-error.md)
+Визначає обсяг тексту повідомлень, що повертаються функціями [пгlasterror()](function.pg-last-error.md) і [пгresulterror()](function.pg-result-error.md)
 
 **пгseterrorverbosity()** встановлює режим, який відповідає за повноту повідомлень про помилки. В режимі **`PGSQL_ERRORS_TERSE`** повідомлення будуть містити лише важливість помилки, основний текст та місце виникнення; ця інформація зазвичай міститься в один рядок. У режимі за замовчуванням **`PGSQL_ERRORS_DEFAULT`** до повідомлень буде додано деталі помилки, підказка або поля контексту (це може зайняти кілька рядків). В режимі **`PGSQL_ERRORS_VERBOSE`** повідомлення будуть містити всі поля. Зміна режиму не торкнеться повідомлення існуючих ресурсів. Новий режим буде застосовуватися тільки до новостворених.
 
@@ -26,7 +26,7 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -44,7 +44,7 @@ pg_set_error_verbosity(PgSql\Connection $connection = ?, int $verbosity): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

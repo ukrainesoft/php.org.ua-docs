@@ -24,7 +24,7 @@ public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_thre
 
 `COLORSPACE`
 
-Одна з [констант COLORSPACE](imagick.constants.html#imagick.constants.colorspace)
+Одна з [констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace)
 
 `cluster_threshold`
 

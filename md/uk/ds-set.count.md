@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.copy.html: '« DsSet::copy'
-  - ds-set.diff.html: 'ДсSet::diff »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.copy.md: '« DsSet::copy'
+  - ds-set.diff.md: 'ДсSet::diff »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::count'
 ---
 # ДсSet::count

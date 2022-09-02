@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.deletemulti.html: '« Memcached::deleteMulti'
-  - memcached.fetch.html: 'Memcached::fetch »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.deletemulti.md: '« Memcached::deleteMulti'
+  - memcached.fetch.md: 'Memcached::fetch »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::deleteMultiByKey'
 ---
 # Memcached::deleteMultiByKey
@@ -18,7 +18,7 @@ Memcached::deleteMultiByKey — Видаляє кілька записів із 
 public Memcached::deleteMultiByKey(string $server_key, array $keys, int $time = 0): bool
 ```
 
-**Memcached::deleteMultiByKey()** працює аналогічно [Memcached::deleteMulti()](memcached.deletemulti.html), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `keys` на конкретний сервер.
+**Memcached::deleteMultiByKey()** працює аналогічно [Memcached::deleteMulti()](memcached.deletemulti.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `keys` на конкретний сервер.
 
 ### Список параметрів
 
@@ -36,10 +36,10 @@ public Memcached::deleteMultiByKey(string $server_key, array $keys, int $time = 
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTFOUND`** якщо заданий ключ не існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTFOUND`** якщо заданий ключ не існує.
 
 ### Дивіться також
 
--   [Memcached::delete()](memcached.delete.html) - Видаляє запис
--   [Memcached::deleteByKey()](memcached.deletebykey.html) - Видаляє запис із вказаного сервера
--   [Memcached::deleteMulti()](memcached.deletemulti.html) - Видаляє кілька записів
+-   [Memcached::delete()](memcached.delete.md) - Видаляє запис
+-   [Memcached::deleteByKey()](memcached.deletebykey.md) - Видаляє запис із вказаного сервера
+-   [Memcached::deleteMulti()](memcached.deletemulti.md) - Видаляє кілька записів

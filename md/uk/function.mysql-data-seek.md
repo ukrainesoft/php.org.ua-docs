@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-create-db.html: « mysqlcreateдб
-  - function.mysql-db-name.html: mysqlдбname »
+  - function.mysql-create-db.md: « mysqlcreateдб
+  - function.mysql-db-name.md: mysqlдбname »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqldataseek
@@ -27,7 +27,7 @@ mysql_data_seek(resource $result, int $row_number): bool
 
 **mysqldataseek()** переміщує внутрішній покажчик результату запиту, з яким пов'язаний переданий дескриптор, до ряду із зазначеним номером. Наступний дзвінок до функції отримання даних MySQL, такий як [mysqlfetchassoc()](function.mysql-fetch-assoc.md), Поверне саме його.
 
-Нумерація `row_number` починається з 0 . `row_number` має бути значенням у діапазоні від 0 до [mysqlnumrows()](function.mysql-num-rows.html) - 1. Однак, якщо результат порожній ([mysqlnumrows()](function.mysql-num-rows.md) == 0), то спроба зсуву покажчика до нульового ряду завершиться невдачею - буде викликана помилка рівня **`E_WARNING`** і **mysqldataseek()** поверне **`false`**
+Нумерація `row_number` починається з 0 . `row_number` має бути значенням у діапазоні від 0 до [mysqlnumrows()](function.mysql-num-rows.md) - 1. Однак, якщо результат порожній ([mysqlnumrows()](function.mysql-num-rows.md) == 0), то спроба зсуву покажчика до нульового ряду завершиться невдачею - буде викликана помилка рівня **`E_WARNING`** і **mysqldataseek()** поверне **`false`**
 
 ### Список параметрів
 
@@ -84,7 +84,7 @@ mysql_free_result($result);
 
 > **Зауваження**
 > 
-> Функція **mysqldataseek()** може бути використана тільки з [mysqlquery()](function.mysql-query.html), але не з [mysqlunbufferedquery()](function.mysql-unbuffered-query.md)
+> Функція **mysqldataseek()** може бути використана тільки з [mysqlquery()](function.mysql-query.md), але не з [mysqlunbufferedquery()](function.mysql-unbuffered-query.md)
 
 ### Дивіться також
 

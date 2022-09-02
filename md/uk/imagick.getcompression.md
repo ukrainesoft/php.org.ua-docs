@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getcolorspace.html: '« Imagick::getColorspace'
-  - imagick.getcompressionquality.html: 'Imagick::getCompressionQuality »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getcolorspace.md: '« Imagick::getColorspace'
+  - imagick.getcompressionquality.md: 'Imagick::getCompressionQuality »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getCompression'
 ---
 # Imagick::getCompression

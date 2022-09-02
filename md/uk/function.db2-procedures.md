@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-procedure-columns.html: « db2procedurecolumns
-  - function.db2-result.html: db2result »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-procedure-columns.md: « db2procedurecolumns
+  - function.db2-result.md: db2result »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2procedures
 ---
 # db2procedures

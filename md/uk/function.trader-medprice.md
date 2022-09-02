@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-maxindex.html: « tradermaxindex
-  - function.trader-mfi.html: tradermfi »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-maxindex.md: « tradermaxindex
+  - function.trader-mfi.md: tradermfi »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradermedprice
 ---
 # tradermedprice

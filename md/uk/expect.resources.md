@@ -8,4 +8,4 @@ title: Типи ресурсів
 ---
 ## Типи ресурсів
 
-[expectpopen()](function.expect-popen.html) повертає відкритий потік PTY використовуваний [expectexpectl()](function.expect-expectl.md)
+[expectpopen()](function.expect-popen.md) повертає відкритий потік PTY використовуваний [expectexpectl()](function.expect-expectl.md)

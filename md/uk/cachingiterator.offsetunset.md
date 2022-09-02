@@ -1,9 +1,9 @@
 ---
 navigation:
-  - cachingiterator.offsetset.html: '« CachingIterator::offsetSet'
-  - cachingiterator.rewind.html: 'CachingIterator::rewind »'
-  - index.html: PHP Manual
-  - class.cachingiterator.html: CachingIterator
+  - cachingiterator.offsetset.md: '« CachingIterator::offsetSet'
+  - cachingiterator.rewind.md: 'CachingIterator::rewind »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
 title: 'CachingIterator::offsetUnset'
 ---
 # CachingIterator::offsetUnset

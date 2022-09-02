@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-channel.stats.html: '« SwooleChannel::stats'
-  - swoole-client.close.html: 'SwooleClient::close »'
-  - index.html: PHP Manual
-  - book.swoole.html: Swoole
+  - swoole-channel.stats.md: '« SwooleChannel::stats'
+  - swoole-client.close.md: 'SwooleClient::close »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
 title: Клас SwooleClient
 ---
 # Клас SwooleClient

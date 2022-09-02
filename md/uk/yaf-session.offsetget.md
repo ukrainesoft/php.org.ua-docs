@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.offsetexists.html: '« YafSession::offsetExists'
-  - yaf-session.offsetset.html: 'YafSession::offsetSet »'
-  - index.html: PHP Manual
-  - class.yaf-session.html: YafSession
+  - yaf-session.offsetexists.md: '« YafSession::offsetExists'
+  - yaf-session.offsetset.md: 'YafSession::offsetSet »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
 title: 'YafSession::offsetGet'
 ---
 # YafSession::offsetGet

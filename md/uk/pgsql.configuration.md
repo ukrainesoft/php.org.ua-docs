@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pgsql.installation.html: « Установка
-  - pgsql.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - pgsql.setup.html: Встановлення та налаштування
+  - pgsql.installation.md: « Установка
+  - pgsql.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - pgsql.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,14 +14,14 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [pgsql.allowpersistent](pgsql.configuration.html#ini.pgsql.allow-persistent) | "1" | PHPINISYSTEM |  |
-| [pgsql.maxpersistent](pgsql.configuration.html#ini.pgsql.max-persistent) | "-1" | PHPINISYSTEM |  |
-| [pgsql.maxlinks](pgsql.configuration.html#ini.pgsql.max-links) | "-1" | PHPINISYSTEM |  |
-| [pgsql.autoresetpersistent](pgsql.configuration.html#ini.pgsql.auto-reset-persistent) | "0" | PHPINISYSTEM |  |
-| [pgsql.ignorenotice](pgsql.configuration.html#ini.pgsql.ignore-notice) | "0" | PHPINIALL |  |
-| [pgsql.lognotice](pgsql.configuration.html#ini.pgsql.log-notice) | "0" | PHPINIALL |  |
+| [pgsql.allowpersistent](pgsql.configuration.md#ini.pgsql.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [pgsql.maxpersistent](pgsql.configuration.md#ini.pgsql.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [pgsql.maxlinks](pgsql.configuration.md#ini.pgsql.max-links) | "-1" | PHPINISYSTEM |  |
+| [pgsql.autoresetpersistent](pgsql.configuration.md#ini.pgsql.auto-reset-persistent) | "0" | PHPINISYSTEM |  |
+| [pgsql.ignorenotice](pgsql.configuration.md#ini.pgsql.ignore-notice) | "0" | PHPINIALL |  |
+| [pgsql.lognotice](pgsql.configuration.md#ini.pgsql.log-notice) | "0" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
@@ -39,7 +39,7 @@ title: Налаштування під час виконання
 
 `pgsql.auto_reset_persistent` int
 
-Визначати розірвані постійні посилання з [пгpconnect()](function.pg-pconnect.html). Потрібні невеликі ресурси.
+Визначати розірвані постійні посилання з [пгpconnect()](function.pg-pconnect.md). Потрібні невеликі ресурси.
 
 `pgsql.ignore_notice` int
 
@@ -47,4 +47,4 @@ title: Налаштування під час виконання
 
 `pgsql.log_notice` int
 
-Чи записувати в лог повідомлення від PostgreSQL. Для запису в лог повідомлення також необхідно вимкнути PHP-директиву [pgsql.ignorenotice](pgsql.configuration.html#ini.pgsql.ignore-notice)
+Чи записувати в лог повідомлення від PostgreSQL. Для запису в лог повідомлення також необхідно вимкнути PHP-директиву [pgsql.ignorenotice](pgsql.configuration.md#ini.pgsql.ignore-notice)

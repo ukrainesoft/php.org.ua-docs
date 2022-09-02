@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-string-bdiff-size.html: xdiffstringbdiffsize
-  - function.xdiff-string-bpatch.html: xdiffstringbpatch »
+  - function.xdiff-string-bdiff-size.md: xdiffstringbdiffsize
+  - function.xdiff-string-bpatch.md: xdiffstringbpatch »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdiffstringbdiff
@@ -18,7 +18,7 @@ xdiffstringbdiff — Створити бінарний патч для двох 
 xdiff_string_bdiff(string $old_data, string $new_data): string
 ```
 
-Здійснює бінарне порівняння двох рядків та повертає патч. Ця функція працює як з текстом, так і з бінарними даними. Отриманий патч згодом можна застосувати за допомогою функцій [xdiffstringbpatch()](function.xdiff-string-bpatch.html) і [xdifffilebpatch()](function.xdiff-file-bpatch.md)
+Здійснює бінарне порівняння двох рядків та повертає патч. Ця функція працює як з текстом, так і з бінарними даними. Отриманий патч згодом можна застосувати за допомогою функцій [xdiffstringbpatch()](function.xdiff-string-bpatch.md) і [xdifffilebpatch()](function.xdiff-file-bpatch.md)
 
 ### Список параметрів
 

@@ -31,7 +31,7 @@ eio_event_loop();
 ?>
 ```
 
-У наведеному вище прикладі запит [eiorename()](function.eio-rename.html) може бути виконаний перед [eiosymlink()](function.eio-symlink.html). Правильним рішенням буде виклик [eiorename()](function.eio-rename.html) callback-функцією в [eiosymlink()](function.eio-symlink.md)
+У наведеному вище прикладі запит [eiorename()](function.eio-rename.md) може бути виконаний перед [eiosymlink()](function.eio-symlink.md). Правильним рішенням буде виклик [eiorename()](function.eio-rename.md) callback-функцією в [eiosymlink()](function.eio-symlink.md)
 
 **Приклад #2 Створення запиту за допомогою callback-функції**
 

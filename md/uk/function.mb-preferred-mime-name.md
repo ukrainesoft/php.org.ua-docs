@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-parse-str.html: « mbparsestr
-  - function.mb-regex-encoding.html: мбregexencoding »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-parse-str.md: « mbparsestr
+  - function.mb-regex-encoding.md: мбregexencoding »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбpreferredmimename
 ---
 # мбpreferredmimename

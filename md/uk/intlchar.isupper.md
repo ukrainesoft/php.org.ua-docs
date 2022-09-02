@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.isulowercase.html: '« IntlChar::isULowercase'
-  - intlchar.isuuppercase.html: 'IntlChar::isUUppercase »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.isulowercase.md: '« IntlChar::isULowercase'
+  - intlchar.isuuppercase.md: 'IntlChar::isUUppercase »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::isupper'
 ---
 # IntlChar::isupper
@@ -22,7 +22,7 @@ public static IntlChar::isupper(int|string $codepoint): ?bool
 
 > **Зауваження**
 > 
-> Деякі символи можуть бути пропущені, оскільки вони можуть мати іншу головну категорію. Щоб не втратити їх - використовуйте функцію [IntlChar::isUUppercase()](intlchar.isuuppercase.html)
+> Деякі символи можуть бути пропущені, оскільки вони можуть мати іншу головну категорію. Щоб не втратити їх - використовуйте функцію [IntlChar::isUUppercase()](intlchar.isuuppercase.md)
 
 ### Список параметрів
 
@@ -60,8 +60,8 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::islower()](intlchar.islower.html) - Перевірити, чи в нижньому регістрі символ
--   [IntlChar::istitle()](intlchar.istitle.html) - Перевірити, чи символ є титульним (Titlecase)
--   [IntlChar::tolower()](intlchar.tolower.html) - Перетворення символу Unicode на нижній регістр
--   [IntlChar::toupper()](intlchar.toupper.html) - Перетворення символу Unicode у верхній регістр
+-   [IntlChar::islower()](intlchar.islower.md) - Перевірити, чи в нижньому регістрі символ
+-   [IntlChar::istitle()](intlchar.istitle.md) - Перевірити, чи символ є титульним (Titlecase)
+-   [IntlChar::tolower()](intlchar.tolower.md) - Перетворення символу Unicode на нижній регістр
+-   [IntlChar::toupper()](intlchar.toupper.md) - Перетворення символу Unicode у верхній регістр
 -   **`IntlChar::PROPERTY_UPPERCASE`**

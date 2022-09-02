@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-weight.html: « fannsetweight
-  - function.fann-subset-train-data.html: fannsubsettraindata »
+  - function.fann-set-weight.md: « fannsetweight
+  - function.fann-subset-train-data.md: fannsubsettraindata »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannshuffletraindata

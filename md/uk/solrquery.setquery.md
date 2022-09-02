@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setomitheader.html: '« SolrQuery::setOmitHeader'
-  - solrquery.setrows.html: 'SolrQuery::setRows »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setomitheader.md: '« SolrQuery::setOmitHeader'
+  - solrquery.setrows.md: 'SolrQuery::setRows »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setQuery'
 ---
 # SolrQuery::setQuery

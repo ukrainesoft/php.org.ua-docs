@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-http.get.html: '« YafRequestHttp::get'
-  - yaf-request-http.getfiles.html: 'YafRequestHttp::getFiles »'
+  - yaf-request-http.get.md: '« YafRequestHttp::get'
+  - yaf-request-http.getfiles.md: 'YafRequestHttp::getFiles »'
   - index.md: PHP Manual
-  - class.yaf-request-http.html: YafRequestHttp
+  - class.yaf-request-http.md: YafRequestHttp
 title: 'YafRequestHttp::getCookie'
 ---
 # YafRequestHttp::getCookie

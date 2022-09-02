@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-ema.html: « traderema
-  - function.trader-exp.html: traderexp »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-ema.md: « traderema
+  - function.trader-exp.md: traderexp »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradererrno
 ---
 # tradererrno
@@ -26,4 +26,4 @@ trader_errno(): int
 
 ### Значення, що повертаються
 
-Повертає код помилки, ідентифікований однією з [TRADERERR](trader.constants.html) констант.
+Повертає код помилки, ідентифікований однією з [TRADERERR](trader.constants.md) констант.

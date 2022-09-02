@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ctype-cntrl.html: « ctypecntrl
-  - function.ctype-graph.html: ctypegraph »
-  - index.html: PHP Manual
-  - ref.ctype.html: Опції Ctype
+  - function.ctype-cntrl.md: « ctypecntrl
+  - function.ctype-graph.md: ctypegraph »
+  - index.md: PHP Manual
+  - ref.ctype.md: Опції Ctype
 title: ctypedigit
 ---
 # ctypedigit
@@ -32,7 +32,7 @@ ctype_digit(mixed $text): bool
 
 **Увага**
 
-Починаючи з PHP 8.1.0, передача нерядкових аргументів застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки, аргумент повинен бути приведений до рядка (string) або повинен бути зроблений явний виклик функції [chr()](function.chr.html)
+Починаючи з PHP 8.1.0, передача нерядкових аргументів застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки, аргумент повинен бути приведений до рядка (string) або повинен бути зроблений явний виклик функції [chr()](function.chr.md)
 
 ### Значення, що повертаються
 
@@ -81,8 +81,8 @@ is_numeric($integer);          // true
 
 ### Дивіться також
 
--   [ctypealnum()](function.ctype-alnum.html) - Перевіряє наявність літерно-цифрових символів
--   [ctypexdigit()](function.ctype-xdigit.html) - Перевіряє наявність шістнадцяткових цифр
--   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
--   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
+-   [ctypealnum()](function.ctype-alnum.md) - Перевіряє наявність літерно-цифрових символів
+-   [ctypexdigit()](function.ctype-xdigit.md) - Перевіряє наявність шістнадцяткових цифр
+-   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом або рядком, що містить число
+-   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
+-   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком

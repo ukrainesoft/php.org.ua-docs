@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.settextinterwordspacing.html: '« ImagickDraw::setTextInterwordSpacing'
-  - imagickdraw.settextundercolor.html: 'ImagickDraw::setTextUnderColor »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.settextinterwordspacing.md: '« ImagickDraw::setTextInterwordSpacing'
+  - imagickdraw.settextundercolor.md: 'ImagickDraw::setTextUnderColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextKerning'
 ---
 # ImagickDraw::setTextKerning

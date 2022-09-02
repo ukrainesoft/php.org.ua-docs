@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-rocp.html: « traderrocp
-  - function.trader-rocr.html: traderrocr »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-rocp.md: « traderrocp
+  - function.trader-rocr.md: traderrocr »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderrocr100
 ---
 # traderrocr100

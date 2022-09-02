@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.close.html: '« mysqlistmt::close'
-  - mysqli-stmt.data-seek.html: 'mysqlistmt::dataseek »'
+  - mysqli-stmt.close.md: '« mysqlistmt::close'
+  - mysqli-stmt.data-seek.md: 'mysqlistmt::dataseek »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::construct'
 ---
 # mysqlistmt::construct

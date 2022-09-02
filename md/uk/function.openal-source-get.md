@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-source-destroy.html: « openalsourcedestroy
-  - function.openal-source-pause.html: openalsourcepause »
+  - function.openal-source-destroy.md: « openalsourcedestroy
+  - function.openal-source-pause.md: openalsourcepause »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalsourceget

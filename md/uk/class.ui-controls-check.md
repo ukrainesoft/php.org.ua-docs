@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-tab.setmargin.html: '« UIControlsTab::setMargin'
-  - ui-controls-check.construct.html: 'ОЙControlsCheck::construct »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-controls-tab.setmargin.md: '« UIControlsTab::setMargin'
+  - ui-controls-check.construct.md: 'ОЙControlsCheck::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Елемент управління "Чекбокс"
 ---
 # Елемент управління "Чекбокс"
@@ -63,9 +63,9 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsCheck::construct](ui-controls-check.construct.html) - Створити новий об'єкт Check
--   [ОЙControlsCheck::getText](ui-controls-check.gettext.html) — Отримати текст
--   [ОЙControlsCheck::isChecked](ui-controls-check.ischecked.html) — Визначення позначки
--   [ОЙControlsCheck::onToggle](ui-controls-check.ontoggle.html) — Функція зворотного дзвінка перемикання
--   [ОЙControlsCheck::setChecked](ui-controls-check.setchecked.html) — Встановити статус обраності
--   [ОЙControlsCheck::setText](ui-controls-check.settext.html) — Встановити текст
+-   [ОЙControlsCheck::construct](ui-controls-check.construct.md) - Створити новий об'єкт Check
+-   [ОЙControlsCheck::getText](ui-controls-check.gettext.md) — Отримати текст
+-   [ОЙControlsCheck::isChecked](ui-controls-check.ischecked.md) — Визначення позначки
+-   [ОЙControlsCheck::onToggle](ui-controls-check.ontoggle.md) — Функція зворотного дзвінка перемикання
+-   [ОЙControlsCheck::setChecked](ui-controls-check.setchecked.md) — Встановити статус обраності
+-   [ОЙControlsCheck::setText](ui-controls-check.settext.md) — Встановити текст

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.use-soap-error-handler.html: « usesoaperrorhandler
+  - function.use-soap-error-handler.md: « usesoaperrorhandler
   - soapclient.call.md: 'SoapClient::call »'
   - index.md: PHP Manual
   - book.soap.md: SOAP

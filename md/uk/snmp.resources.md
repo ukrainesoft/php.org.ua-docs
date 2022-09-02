@@ -1,9 +1,9 @@
 ---
 navigation:
-  - snmp.configuration.html: « Налаштування під час виконання
-  - snmp.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - snmp.setup.html: Встановлення та налаштування
+  - snmp.configuration.md: « Налаштування під час виконання
+  - snmp.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - snmp.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

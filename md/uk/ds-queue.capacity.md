@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.allocate.html: '« DsQueue::allocate'
-  - ds-queue.clear.html: 'ДсQueue::clear »'
-  - index.html: PHP Manual
-  - class.ds-queue.html: Черга
+  - ds-queue.allocate.md: '« DsQueue::allocate'
+  - ds-queue.clear.md: 'ДсQueue::clear »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::capacity'
 ---
 # ДсQueue::capacity

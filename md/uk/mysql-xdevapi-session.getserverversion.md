@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.getschemas.html: '« Session::getSchemas'
-  - mysql-xdevapi-session.listclients.html: 'Session::listClients »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - mysql-xdevapi-session.getschemas.md: '« Session::getSchemas'
+  - mysql-xdevapi-session.listclients.md: 'Session::listClients »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::getServerVersion'
 ---
 # Session::getServerVersion

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gc-enabled.html: « gcenabled
-  - function.gc-status.html: гкstatus »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.gc-enabled.md: « gcenabled
+  - function.gc-status.md: гкstatus »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: гкmemcaches
 ---
 # гкmemcaches
@@ -30,4 +30,4 @@ gc_mem_caches(): int
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.html)
+-   [Сборка мусора](features.gc.md)

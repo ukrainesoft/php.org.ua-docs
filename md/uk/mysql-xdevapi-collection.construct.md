@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collection.addorreplaceone.html: '« Collection::addOrReplaceOne'
-  - mysql-xdevapi-collection.count.html: 'Collection::count »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+  - mysql-xdevapi-collection.addorreplaceone.md: '« Collection::addOrReplaceOne'
+  - mysql-xdevapi-collection.count.md: 'Collection::count »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
 title: 'Collection::construct'
 ---
 # Collection::construct

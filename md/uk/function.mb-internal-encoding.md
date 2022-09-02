@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-http-output.html: « mbhttpoutput
-  - function.mb-language.html: мбlanguage »
+  - function.mb-http-output.md: « mbhttpoutput
+  - function.mb-language.md: мбlanguage »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбinternalencoding

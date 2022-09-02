@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-close.html: « imapclose
-  - function.imap-createmailbox.html: imapcreatemailbox »
+  - function.imap-close.md: « imapclose
+  - function.imap-createmailbox.md: imapcreatemailbox »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapcreate

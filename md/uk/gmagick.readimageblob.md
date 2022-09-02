@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.readimage.html: '« Gmagick::readimage'
-  - gmagick.readimagefile.html: 'Gmagick::readimagefile »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.readimage.md: '« Gmagick::readimage'
+  - gmagick.readimagefile.md: 'Gmagick::readimagefile »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::readimageblob'
 ---
 # Gmagick::readimageblob
@@ -32,7 +32,7 @@ public Gmagick::readimageblob(string $imageContents, string $filename = ?): Gmag
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання
 
 ### Помилки
 

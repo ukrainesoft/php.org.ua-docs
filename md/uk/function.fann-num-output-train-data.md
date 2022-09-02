@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-num-input-train-data.html: « fannnuminputtraindata
-  - function.fann-print-error.html: fannprinterror »
+  - function.fann-num-input-train-data.md: « fannnuminputtraindata
+  - function.fann-print-error.md: fannprinterror »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannnumoutputtraindata

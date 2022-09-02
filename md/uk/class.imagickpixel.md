@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.translate.html: '« ImagickDraw::translate'
-  - imagickpixel.clear.html: 'ImagickPixel::clear »'
-  - index.html: PHP Manual
-  - book.imagick.html: ImageMagick
+  - imagickdraw.translate.md: '« ImagickDraw::translate'
+  - imagickpixel.clear.md: 'ImagickPixel::clear »'
+  - index.md: PHP Manual
+  - book.imagick.md: ImageMagick
 title: 'Клас [ImagickPixel](class.imagickpixel.md)'
 ---
 # Клас [ImagickPixel](class.imagickpixel.md)

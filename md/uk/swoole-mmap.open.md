@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-mmap.html: « SwooleMmap
-  - class.swoole-mysql.html: SwooleMySQL »
+  - class.swoole-mmap.md: « SwooleMmap
+  - class.swoole-mysql.md: SwooleMySQL »
   - index.md: PHP Manual
-  - class.swoole-mmap.html: SwooleMmap
+  - class.swoole-mmap.md: SwooleMmap
 title: 'SwooleMmap::open'
 ---
 # SwooleMmap::open

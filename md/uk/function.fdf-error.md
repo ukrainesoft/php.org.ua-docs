@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-errno.html: « fdferrno
-  - function.fdf-get-ap.html: fdfgetap »
+  - function.fdf-errno.md: « fdferrno
+  - function.fdf-get-ap.md: fdfgetap »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdferror

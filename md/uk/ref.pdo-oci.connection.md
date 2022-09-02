@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-oci.html: « Oracle (PDO)
-  - ref.pdo-odbc.html: ODBC и DB2 (PDO) »
-  - index.html: PHP Manual
-  - ref.pdo-oci.html: Oracle (PDO)
+  - ref.pdo-oci.md: « Oracle (PDO)
+  - ref.pdo-odbc.md: ODBC и DB2 (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-oci.md: Oracle (PDO)
 title: PDOOCI DSN
 ---
 # PDOOCI DSN

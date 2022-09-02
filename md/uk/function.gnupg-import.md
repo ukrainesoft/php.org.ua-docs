@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-gettrustlist.html: « gnupggettrustlist
-  - function.gnupg-init.html: gnupginit »
+  - function.gnupg-gettrustlist.md: « gnupggettrustlist
+  - function.gnupg-init.md: gnupginit »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgimport

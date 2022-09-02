@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.blurimage.html: '« Gmagick::blurimage'
-  - gmagick.charcoalimage.html: 'Gmagick::charcoalimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.blurimage.md: '« Gmagick::blurimage'
+  - gmagick.charcoalimage.md: 'Gmagick::charcoalimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::borderimage'
 ---
 # Gmagick::borderimage

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdllongleggeddoji.html: « tradercdllongleggeddoji
-  - function.trader-cdlmarubozu.html: tradercdlmarubozu »
+  - function.trader-cdllongleggeddoji.md: « tradercdllongleggeddoji
+  - function.trader-cdlmarubozu.md: tradercdlmarubozu »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdllongline

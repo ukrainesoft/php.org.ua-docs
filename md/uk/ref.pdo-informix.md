@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ref.pdo-ibm.connection.html: « PDOIBM DSN
-  - ref.pdo-informix.connection.html: PDOINFORMIX DSN »
+  - ref.pdo-ibm.connection.md: « PDOIBM DSN
+  - ref.pdo-informix.connection.md: PDOINFORMIX DSN »
   - index.md: PHP Manual
   - pdo.drivers.md: Драйвери PDO
 title: Функції Informix (PDOINFORMIX)
@@ -30,4 +30,4 @@ PDOINFORMIX підтримує курсори, що перемотуються; 
 
 ## Зміст
 
--   [PDOINFORMIX DSN](ref.pdo-informix.connection.html) — З'єднання з базою даних Informix
+-   [PDOINFORMIX DSN](ref.pdo-informix.connection.md) — З'єднання з базою даних Informix

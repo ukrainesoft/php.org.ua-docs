@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-set-call-timout.html: « ocisetcalltimeout
-  - function.oci-set-client-info.html: ocisetclientinfo »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-set-call-timout.md: « ocisetcalltimeout
+  - function.oci-set-client-info.md: ocisetclientinfo »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocisetclientidentifier
 ---
 # ocisetclientidentifier
@@ -30,7 +30,7 @@ oci_set_client_identifier(resource $connection, string $client_id): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md), або [ocinewconnect()](function.oci-new-connect.md)
 
 `client_id`
 
@@ -74,7 +74,7 @@ oci_execute($s);
 
 ### Дивіться також
 
--   [ocisetmodulename()](function.oci-set-module-name.html) - Задає ім'я модулю
--   [ocisetaction()](function.oci-set-action.html) - Вказує ім'я для дії
--   [ocisetclientinfo()](function.oci-set-client-info.html) - Задає інформацію про клієнта
--   [ocisetдбoperation()](function.oci-set-db-operation.html) - Задає операцію бази даних
+-   [ocisetmodulename()](function.oci-set-module-name.md) - Задає ім'я модулю
+-   [ocisetaction()](function.oci-set-action.md) - Вказує ім'я для дії
+-   [ocisetclientinfo()](function.oci-set-client-info.md) - Задає інформацію про клієнта
+-   [ocisetдбoperation()](function.oci-set-db-operation.md) - Задає операцію бази даних

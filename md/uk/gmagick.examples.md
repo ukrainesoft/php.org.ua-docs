@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.constants.html: « Обумовлені константи
-  - class.gmagick.html: Gmagick »
-  - index.html: PHP Manual
-  - book.gmagick.html: Gmagick
+  - gmagick.constants.md: « Обумовлені константи
+  - class.gmagick.md: Gmagick »
+  - index.md: PHP Manual
+  - book.gmagick.md: Gmagick
 title: Приклади
 ---
 # Приклади

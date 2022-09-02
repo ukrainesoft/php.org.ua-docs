@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-add-note.html: «psaddnote
-  - function.ps-add-weblink.html: псaddweblink »
+  - function.ps-add-note.md: «psaddnote
+  - function.ps-add-weblink.md: псaddweblink »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псaddpdflink

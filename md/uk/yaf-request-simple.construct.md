@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-request-simple.html: « YafRequestSimple
-  - yaf-request-simple.get.html: 'YafRequestSimple::get »'
-  - index.html: PHP Manual
-  - class.yaf-request-simple.html: YafRequestSimple
+  - class.yaf-request-simple.md: « YafRequestSimple
+  - yaf-request-simple.get.md: 'YafRequestSimple::get »'
+  - index.md: PHP Manual
+  - class.yaf-request-simple.md: YafRequestSimple
 title: 'YafRequestSimple::construct'
 ---
 # YafRequestSimple::construct

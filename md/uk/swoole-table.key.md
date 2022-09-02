@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.incr.html: '« SwooleTable::incr'
-  - swoole-table.next.html: 'SwooleTable::next »'
+  - swoole-table.incr.md: '« SwooleTable::incr'
+  - swoole-table.next.md: 'SwooleTable::next »'
   - index.md: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::key'
 ---
 # SwooleTable::key

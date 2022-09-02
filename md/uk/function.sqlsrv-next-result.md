@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sqlsrv-has-rows.html: « sqlsrvhasrows
-  - function.sqlsrv-num-fields.html: sqlsrvnumfields »
-  - index.html: PHP Manual
-  - ref.sqlsrv.html: Функції SQLSRV
+  - function.sqlsrv-has-rows.md: « sqlsrvhasrows
+  - function.sqlsrv-num-fields.md: sqlsrvnumfields »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvnextresult
 ---
 # sqlsrvnextresult
@@ -65,6 +65,6 @@ if( $next_result ) {
 
 ### Дивіться також
 
--   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит
--   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) - Повертає рядок як масив
--   [sqlsrvrowsaffected()](function.sqlsrv-rows-affected.html) - Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE
+-   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит
+-   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) - Повертає рядок як масив
+-   [sqlsrvrowsaffected()](function.sqlsrv-rows-affected.md) - Повертає кількість рядків, змінених останнім виконаним запитом INSERT, UPDATE чи DELETE

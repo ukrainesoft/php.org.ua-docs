@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttpconnection.settimeout.html: '« EventHttpConnection::setTimeout'
-  - eventhttprequest.addheader.html: 'EventHttpRequest::addHeader »'
-  - index.html: PHP Manual
-  - book.event.html: Event
+  - eventhttpconnection.settimeout.md: '« EventHttpConnection::setTimeout'
+  - eventhttprequest.addheader.md: 'EventHttpRequest::addHeader »'
+  - index.md: PHP Manual
+  - book.event.md: Event
 title: Клас EventHttpRequest
 ---
 # Клас EventHttpRequest
@@ -226,26 +226,26 @@ public
 
 ## Зміст
 
--   [EventHttpRequest::addHeader](eventhttprequest.addheader.html) — Додає заголовок HTTP до заголовків запиту
--   [EventHttpRequest::cancel](eventhttprequest.cancel.html) — Скасує очікування HTTP-запиту
--   [EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.html) — Видаляє всі вихідні заголовки зі списку заголовків запиту
--   [EventHttpRequest::closeConnection](eventhttprequest.closeconnection.html) — Закриває пов'язане з'єднання HTTP
--   [EventHttpRequest::construct](eventhttprequest.construct.html) - Конструктор об'єкта EventHttpRequest
--   [EventHttpRequest::findHeader](eventhttprequest.findheader.html) — Отримує значення заголовка
--   [EventHttpRequest::free](eventhttprequest.free.html) — Звільняє об'єкт та видаляє пов'язані події
--   [EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.html) — Повертає об'єкт EventBufferEvent
--   [EventHttpRequest::getCommand](eventhttprequest.getcommand.html) - Повертає команду запиту (метод)
--   [EventHttpRequest::getConnection](eventhttprequest.getconnection.html) — Повертає об'єкт EventHttpConnection
--   [EventHttpRequest::getHost](eventhttprequest.gethost.html) - Повертає хост запиту
--   [EventHttpRequest::getInputBuffer](eventhttprequest.getinputbuffer.html) - Повертає вхідний буфер
--   [EventHttpRequest::getInputHeaders](eventhttprequest.getinputheaders.html) - Повертає асоціативний масив вхідних заголовків
--   [EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.html) — Повертає вихідний буфер запиту
--   [EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.html) — Повертає асоціативний масив вихідних заголовків
--   [EventHttpRequest::getResponseCode](eventhttprequest.getresponsecode.html) - Повертає код відповіді
--   [EventHttpRequest::getUri](eventhttprequest.geturi.html) — Повертає запит URI
--   [EventHttpRequest::removeHeader](eventhttprequest.removeheader.html) — Видаляє заголовок HTTP із заголовків запиту
--   [EventHttpRequest::sendError](eventhttprequest.senderror.html) — Надсилає HTML-повідомлення про помилку клієнту
--   [EventHttpRequest::sendReply](eventhttprequest.sendreply.html) — Відправляє HTML-відповідь клієнту
--   [EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.html) — Відправляє блок даних як частину поточної фрагментованої відповіді
--   [EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.html) — Заповнює фрагментарну відповідь, звільняючи запит належним чином
--   [EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.html) — Ініціює фрагментарну відповідь
+-   [EventHttpRequest::addHeader](eventhttprequest.addheader.md) — Додає заголовок HTTP до заголовків запиту
+-   [EventHttpRequest::cancel](eventhttprequest.cancel.md) — Скасує очікування HTTP-запиту
+-   [EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.md) — Видаляє всі вихідні заголовки зі списку заголовків запиту
+-   [EventHttpRequest::closeConnection](eventhttprequest.closeconnection.md) — Закриває пов'язане з'єднання HTTP
+-   [EventHttpRequest::construct](eventhttprequest.construct.md) - Конструктор об'єкта EventHttpRequest
+-   [EventHttpRequest::findHeader](eventhttprequest.findheader.md) — Отримує значення заголовка
+-   [EventHttpRequest::free](eventhttprequest.free.md) — Звільняє об'єкт та видаляє пов'язані події
+-   [EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.md) — Повертає об'єкт EventBufferEvent
+-   [EventHttpRequest::getCommand](eventhttprequest.getcommand.md) - Повертає команду запиту (метод)
+-   [EventHttpRequest::getConnection](eventhttprequest.getconnection.md) — Повертає об'єкт EventHttpConnection
+-   [EventHttpRequest::getHost](eventhttprequest.gethost.md) - Повертає хост запиту
+-   [EventHttpRequest::getInputBuffer](eventhttprequest.getinputbuffer.md) - Повертає вхідний буфер
+-   [EventHttpRequest::getInputHeaders](eventhttprequest.getinputheaders.md) - Повертає асоціативний масив вхідних заголовків
+-   [EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.md) — Повертає вихідний буфер запиту
+-   [EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.md) — Повертає асоціативний масив вихідних заголовків
+-   [EventHttpRequest::getResponseCode](eventhttprequest.getresponsecode.md) - Повертає код відповіді
+-   [EventHttpRequest::getUri](eventhttprequest.geturi.md) — Повертає запит URI
+-   [EventHttpRequest::removeHeader](eventhttprequest.removeheader.md) — Видаляє заголовок HTTP із заголовків запиту
+-   [EventHttpRequest::sendError](eventhttprequest.senderror.md) — Надсилає HTML-повідомлення про помилку клієнту
+-   [EventHttpRequest::sendReply](eventhttprequest.sendreply.md) — Відправляє HTML-відповідь клієнту
+-   [EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.md) — Відправляє блок даних як частину поточної фрагментованої відповіді
+-   [EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.md) — Заповнює фрагментарну відповідь, звільняючи запит належним чином
+-   [EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.md) — Ініціює фрагментарну відповідь

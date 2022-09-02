@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-db-info.html: « fbirdдбinfo
-  - function.fbird-drop-db.html: fbirddropdb »
+  - function.fbird-db-info.md: « fbirdдбinfo
+  - function.fbird-drop-db.md: fbirddropdb »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirddeleteuser

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqdevice.getidletimeout.html: '« ZMQDevice::getIdleTimeout'
-  - zmqdevice.run.html: 'ZMQDevice::run »'
-  - index.html: PHP Manual
-  - class.zmqdevice.html: ZMQDevice
+  - zmqdevice.getidletimeout.md: '« ZMQDevice::getIdleTimeout'
+  - zmqdevice.run.md: 'ZMQDevice::run »'
+  - index.md: PHP Manual
+  - class.zmqdevice.md: ZMQDevice
 title: 'ZMQDevice::getTimerTimeout'
 ---
 # ZMQDevice::getTimerTimeout

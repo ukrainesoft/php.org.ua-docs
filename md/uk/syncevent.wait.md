@@ -1,9 +1,9 @@
 ---
 navigation:
-  - syncevent.reset.html: '« SyncEvent::reset'
-  - class.syncreaderwriter.html: SyncReaderWriter »
-  - index.html: PHP Manual
-  - class.syncevent.html: SyncEvent
+  - syncevent.reset.md: '« SyncEvent::reset'
+  - class.syncreaderwriter.md: SyncReaderWriter »
+  - index.md: PHP Manual
+  - class.syncevent.md: SyncEvent
 title: 'SyncEvent::wait'
 ---
 # SyncEvent::wait
@@ -18,7 +18,7 @@ SyncEvent::wait — Очікує запуску/установки події
 public SyncEvent::wait(int $wait = -1): bool
 ```
 
-Чекає на запуск об'єкта [SyncEvent](class.syncevent.html)
+Чекає на запуск об'єкта [SyncEvent](class.syncevent.md)
 
 ### Список параметрів
 
@@ -48,4 +48,4 @@ $event->wait();
 
 ### Дивіться також
 
--   [SyncEvent::fire()](syncevent.fire.html) - Запускає/встановлює подію
+-   [SyncEvent::fire()](syncevent.fire.md) - Запускає/встановлює подію

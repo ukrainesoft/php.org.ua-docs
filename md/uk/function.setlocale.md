@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rtrim.html: « rtrim
-  - function.sha1-file.html: sha1file »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.rtrim.md: « rtrim
+  - function.sha1-file.md: sha1file »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: setlocale
 ---
 # setlocale
@@ -37,11 +37,11 @@ setlocale(int $category, array $locale_array): string|false
 Параметр `category` - це іменована константа, що визначає категорію функцій, на які впливатиме встановлення локалі:
 
 -   **`LC_ALL`** - все нижчеперелічене
--   **`LC_COLLATE`** - функції порівняння рядків, дивіться [strcoll()](function.strcoll.html)
--   **`LC_CTYPE`** - функції перетворення та класифікації рядків, наприклад [strtoupper()](function.strtoupper.html)
--   **`LC_MONETARY`** - для функції [localeconv()](function.localeconv.html)
--   **`LC_NUMERIC`** - задає символ десяткового поділу (дивіться також [localeconv()](function.localeconv.html)
--   **`LC_TIME`** - форматування дати/часу функцією [strftime()](function.strftime.html)
+-   **`LC_COLLATE`** - функції порівняння рядків, дивіться [strcoll()](function.strcoll.md)
+-   **`LC_CTYPE`** - функції перетворення та класифікації рядків, наприклад [strtoupper()](function.strtoupper.md)
+-   **`LC_MONETARY`** - для функції [localeconv()](function.localeconv.md)
+-   **`LC_NUMERIC`** - задає символ десяткового поділу (дивіться також [localeconv()](function.localeconv.md)
+-   **`LC_TIME`** - форматування дати/часу функцією [strftime()](function.strftime.md)
 -   **`LC_MESSAGES`** - для системних повідомлень (доступна, якщо PHP був скомпільований з підтримкою `libintl`
 
 `locales`

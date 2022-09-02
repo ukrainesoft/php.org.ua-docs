@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-timer.html: « SwooleTimer
-  - swoole-timer.clear.html: 'SwooleTimer::clear »'
+  - class.swoole-timer.md: « SwooleTimer
+  - swoole-timer.clear.md: 'SwooleTimer::clear »'
   - index.md: PHP Manual
-  - class.swoole-timer.html: SwooleTimer
+  - class.swoole-timer.md: SwooleTimer
 title: 'SwooleTimer::after'
 ---
 # SwooleTimer::after

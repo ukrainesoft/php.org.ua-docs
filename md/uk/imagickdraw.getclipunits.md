@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.getcliprule.html: '« ImagickDraw::getClipRule'
-  - imagickdraw.getfillcolor.html: 'ImagickDraw::getFillColor »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.getcliprule.md: '« ImagickDraw::getClipRule'
+  - imagickdraw.getfillcolor.md: 'ImagickDraw::getFillColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getClipUnits'
 ---
 # ImagickDraw::getClipUnits

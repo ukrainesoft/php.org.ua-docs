@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-readconcern.html: « MongoDBDriverReadConcern
-  - mongodb-driver-readconcern.construct.html: 'MongoDBDriverReadConcern::construct »'
+  - class.mongodb-driver-readconcern.md: « MongoDBDriverReadConcern
+  - mongodb-driver-readconcern.construct.md: 'MongoDBDriverReadConcern::construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
 title: 'MongoDBDriverReadConcern::bsonSerialize'
 ---
 # MongoDBDriverReadConcern::bsonSerialize

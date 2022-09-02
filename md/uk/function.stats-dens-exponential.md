@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-chisquare.html: « statsdenschisquare
-  - function.stats-dens-f.html: statsdensf »
+  - function.stats-dens-chisquare.md: « statsdenschisquare
+  - function.stats-dens-f.md: statsdensf »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdensexponential

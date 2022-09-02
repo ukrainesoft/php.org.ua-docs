@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.getgeneratedids.html: '« SqlStatementResult::getGeneratedIds'
-  - mysql-xdevapi-sqlstatementresult.getwarnings.html: 'SqlStatementResult::getWarnings »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - mysql-xdevapi-sqlstatementresult.getgeneratedids.md: '« SqlStatementResult::getGeneratedIds'
+  - mysql-xdevapi-sqlstatementresult.getwarnings.md: 'SqlStatementResult::getWarnings »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::getLastInsertId'
 ---
 # SqlStatementResult::getLastInsertId

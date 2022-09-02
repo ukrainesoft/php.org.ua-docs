@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-setacl.html: « imapsetacl
-  - function.imap-sort.html: imapsort »
+  - function.imap-setacl.md: « imapsetacl
+  - function.imap-sort.md: imapsort »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapsetflagfull

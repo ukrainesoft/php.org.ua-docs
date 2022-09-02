@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.popclippath.html: '« ImagickDraw::popClipPath'
-  - imagickdraw.poppattern.html: 'ImagickDraw::popPattern »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.popclippath.md: '« ImagickDraw::popClipPath'
+  - imagickdraw.poppattern.md: 'ImagickDraw::popPattern »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::popDefs'
 ---
 # ImagickDraw::popDefs

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-progress.html: « UIControlsProgress
-  - ui-controls-progress.setvalue.html: 'ОЙControlsProgress::setValue »'
+  - class.ui-controls-progress.md: « UIControlsProgress
+  - ui-controls-progress.setvalue.md: 'ОЙControlsProgress::setValue »'
   - index.md: PHP Manual
-  - class.ui-controls-progress.html: ОЙControlsProgress
+  - class.ui-controls-progress.md: ОЙControlsProgress
 title: 'ОЙControlsProgress::getValue'
 ---
 # ОЙControlsProgress::getValue

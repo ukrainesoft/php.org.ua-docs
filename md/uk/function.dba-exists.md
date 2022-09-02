@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dba-delete.html: « dbadelete
-  - function.dba-fetch.html: dbafetch »
+  - function.dba-delete.md: « dbadelete
+  - function.dba-fetch.md: dbafetch »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbaexists
@@ -28,7 +28,7 @@ dba_exists(string|array $key, resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 

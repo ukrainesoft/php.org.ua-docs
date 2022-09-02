@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-train-on-data.html: « fanntrainвінdata
-  - function.fann-train.html: fanntrain »
+  - function.fann-train-on-data.md: « fanntrainвінdata
+  - function.fann-train.md: fanntrain »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanntrainвінfile
@@ -42,7 +42,7 @@ fann_train_on_file(    resource $ann,    string $filename,    int $m
 
 `desired_error`
 
-Бажана [fanngetMSE()](function.fann-get-mse.html) або [fanngetbitfail()](function.fann-get-bit-fail.html), залежно від обраної функції зупинки [fannsettrainstopfunction()](function.fann-set-train-stop-function.md)
+Бажана [fanngetMSE()](function.fann-get-mse.md) або [fanngetbitfail()](function.fann-get-bit-fail.md), залежно від обраної функції зупинки [fannsettrainstopfunction()](function.fann-set-train-stop-function.md)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.listclients.html: '« Session::listClients'
-  - mysql-xdevapi-session.releasesavepoint.html: 'Session::releaseSavepoint »'
+  - mysql-xdevapi-session.listclients.md: '« Session::listClients'
+  - mysql-xdevapi-session.releasesavepoint.md: 'Session::releaseSavepoint »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::quoteName'
 ---
 # Session::quoteName

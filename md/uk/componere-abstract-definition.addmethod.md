@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-abstract-definition.addinterface.html: '« ComponereAbstractDefinition::addInterface'
-  - componere-abstract-definition.addtrait.html: 'ComponereAbstractDefinition::addTrait »'
-  - index.html: PHP Manual
-  - class.componere-abstract-definition.html: ComponereAbstractDefinition
+  - componere-abstract-definition.addinterface.md: '« ComponereAbstractDefinition::addInterface'
+  - componere-abstract-definition.addtrait.md: 'ComponereAbstractDefinition::addTrait »'
+  - index.md: PHP Manual
+  - class.componere-abstract-definition.md: ComponereAbstractDefinition
 title: 'ComponereAbstractDefinition::addMethod'
 ---
 # ComponereAbstractDefinition::addMethod
@@ -28,7 +28,7 @@ public Componere\Abstract\Definition::addMethod(string $name, Componere\Method $
 
 `method`
 
-[ComponereMethod](class.componere-method.html) раніше не доданий до іншого Definition
+[ComponereMethod](class.componere-method.md) раніше не доданий до іншого Definition
 
 ### Значення, що повертаються
 
@@ -38,8 +38,8 @@ The current Definition
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition було зареєстровано
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо метод був доданий до іншого визначення
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо метод був доданий до іншого визначення

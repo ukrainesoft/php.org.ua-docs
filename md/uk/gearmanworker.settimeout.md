@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.setoptions.html: '« GearmanWorker::setOptions'
-  - gearmanworker.timeout.html: 'GearmanWorker::timeout »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.setoptions.md: '« GearmanWorker::setOptions'
+  - gearmanworker.timeout.md: 'GearmanWorker::timeout »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::setTimeout'
 ---
 # GearmanWorker::setTimeout
@@ -90,4 +90,4 @@ function reverse_fn($job)
 
 ### Дивіться також
 
--   [GearmanWorker::timeout()](gearmanworker.timeout.html) - Отримання значення час очікування запитів на сокеті
+-   [GearmanWorker::timeout()](gearmanworker.timeout.md) - Отримання значення час очікування запитів на сокеті

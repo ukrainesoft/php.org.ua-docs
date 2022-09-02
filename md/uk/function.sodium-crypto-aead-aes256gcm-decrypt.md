@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-compare.html: « sodiumcompare
-  - function.sodium-crypto-aead-aes256gcm-encrypt.html: sodiumcryptoaeadaes256gcmencrypt »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-compare.md: « sodiumcompare
+  - function.sodium-crypto-aead-aes256gcm-encrypt.md: sodiumcryptoaeadaes256gcmencrypt »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptoaeadaes256gcmdecrypt
 ---
 # sodiumcryptoaeadaes256gcmdecrypt
@@ -18,13 +18,13 @@ sodiumcryptoaeadaes256gcmdecrypt — Перевірка та розшифрув�
 sodium_crypto_aead_aes256gcm_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
 ```
 
-Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM Доступно, лише якщо [sodiumcryptoaeadaes256gcmісavailable()](function.sodium-crypto-aead-aes256gcm-is-available.html) повертає **`true`**
+Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM Доступно, лише якщо [sodiumcryptoaeadaes256gcmісavailable()](function.sodium-crypto-aead-aes256gcm-is-available.md) повертає **`true`**
 
 ### Список параметрів
 
 `ciphertext`
 
-Має бути у форматі, наданому [sodiumcryptoaeadaes256gcmencrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.html) (Зашифрований текст та тег, об'єднані).
+Має бути у форматі, наданому [sodiumcryptoaeadaes256gcmencrypt()](function.sodium-crypto-aead-aes256gcm-encrypt.md) (Зашифрований текст та тег, об'єднані).
 
 `additional_data`
 

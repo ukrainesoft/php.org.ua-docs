@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-nextprime.html: « gmpnextprime
-  - function.gmp-perfect-power.html: gmpperfectpower »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-nextprime.md: « gmpnextprime
+  - function.gmp-perfect-power.md: gmpperfectpower »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpор
 ---
 # gmpор
@@ -24,15 +24,15 @@ gmp_or(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 `num1`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.html)ю
+Об'єкт класу [GMP](class.gmp.md)ю
 
 ### Приклади
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.bsonserialize.html: '« MongoDBDriverWriteConcern::bsonSerialize'
-  - mongodb-driver-writeconcern.getjournal.html: 'MongoDBDriverWriteConcern::getJournal »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+  - mongodb-driver-writeconcern.bsonserialize.md: '« MongoDBDriverWriteConcern::bsonSerialize'
+  - mongodb-driver-writeconcern.getjournal.md: 'MongoDBDriverWriteConcern::getJournal »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
 title: 'MongoDBDriverWriteConcern::construct'
 ---
 # MongoDBDriverWriteConcern::construct
@@ -18,7 +18,7 @@ MongoDBDriverWriteConcern::construct — Створити новий WriteConcer
 final public MongoDB\Driver\WriteConcern::__construct(string|int $w, ?int $wtimeout = null, ?bool $journal = null)
 ```
 
-Створює новий [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.html)що є незмінним об'єктом значення.
+Створює новий [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)що є незмінним об'єктом значення.
 
 ### Список параметрів
 
@@ -59,8 +59,8 @@ final public MongoDB\Driver\WriteConcern::__construct(string|int $w, ?int $wtime
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При невірному `w` чи негативному `wtimeout` або якщо вони більше, ніж 32-бітове ціле число зі знаком, викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невірному `w` чи негативному `wtimeout` або якщо вони більше, ніж 32-бітове ціле число зі знаком, викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 

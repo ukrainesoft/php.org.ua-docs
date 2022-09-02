@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-hmac-file.html: « hashhmacfile
-  - function.hash-init.html: hashinit »
+  - function.hash-hmac-file.md: « hashhmacfile
+  - function.hash-init.md: hashinit »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashhmac

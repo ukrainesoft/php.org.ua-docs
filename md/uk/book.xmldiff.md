@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.wddx-serialize-vars.html: « wddxserializevars
+  - function.wddx-serialize-vars.md: « wddxserializevars
   - intro.xmldiff.md: Введение »
   - index.md: PHP Manual
   - refs.xml.md: Обработка XML

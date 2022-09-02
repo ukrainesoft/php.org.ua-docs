@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ctype.constants.html: « Обумовлені константи
-  - function.ctype-alnum.html: ctypealnum »
-  - index.html: PHP Manual
-  - book.ctype.html: Ctype
+  - ctype.constants.md: « Обумовлені константи
+  - function.ctype-alnum.md: ctypealnum »
+  - index.md: PHP Manual
+  - book.ctype.md: Ctype
 title: Опції Ctype
 ---
 # Опції Ctype

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-set-end-namespace-decl-handler.html: « xmlsetendnamespacedeclhandler
-  - function.xml-set-notation-decl-handler.html: xmlsetnotationdeclhandler »
+  - function.xml-set-end-namespace-decl-handler.md: « xmlsetendnamespacedeclhandler
+  - function.xml-set-notation-decl-handler.md: xmlsetnotationdeclhandler »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlsetexternalentityrefhandler

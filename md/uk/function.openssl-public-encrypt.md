@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-public-decrypt.html: « opensslpublicdecrypt
-  - function.openssl-random-pseudo-bytes.html: opensslrandompseudobytes »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-public-decrypt.md: « opensslpublicdecrypt
+  - function.openssl-random-pseudo-bytes.md: opensslrandompseudobytes »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslpublicencrypt
 ---
 # opensslpublicencrypt
@@ -18,7 +18,7 @@ opensslpublicencrypt — Шифрування даних відкритим кл
 openssl_public_encrypt(    string $data,    string &$encrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
 ```
 
-**opensslpublicencrypt()** шифрує `data` відкритим ключем `public_key` і зберігає в `encrypted_data`. Згодом розшифрувати їх можна функцією [opensslprivatedecrypt()](function.openssl-private-decrypt.html)
+**opensslpublicencrypt()** шифрує `data` відкритим ключем `public_key` і зберігає в `encrypted_data`. Згодом розшифрувати їх можна функцією [opensslprivatedecrypt()](function.openssl-private-decrypt.md)
 
 Ця функція використовується, наприклад, для надсилання повідомлень, які може прочитати тільки власник закритого ключа і ніхто більше. Також її можна використовуватиме шифрування інформації у базі даних.
 
@@ -46,9 +46,9 @@ openssl_public_encrypt(    string $data,    string &$encrypted_data,  
 
 | Версия | Описание |
 | --- | --- |
-|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Дивіться також
 
--   [opensslprivateencrypt()](function.openssl-private-encrypt.html) - Шифрує дані секретним ключем
--   [opensslprivatedecrypt()](function.openssl-private-decrypt.html) - Розшифровує дані за допомогою закритого ключа
+-   [opensslprivateencrypt()](function.openssl-private-encrypt.md) - Шифрує дані секретним ключем
+-   [opensslprivatedecrypt()](function.openssl-private-decrypt.md) - Розшифровує дані за допомогою закритого ключа

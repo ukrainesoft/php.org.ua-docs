@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.setaccessible.html: '« ReflectionProperty::setAccessible'
-  - reflectionproperty.tostring.html: 'ReflectionProperty::toString »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.setaccessible.md: '« ReflectionProperty::setAccessible'
+  - reflectionproperty.tostring.md: 'ReflectionProperty::toString »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::setValue'
 ---
 # ReflectionProperty::setValue
@@ -40,7 +40,7 @@ public ReflectionProperty::setValue(mixed $value): void
 
 ### Помилки
 
-Викидає виняток [ReflectionException](class.reflectionexception.html)якщо властивість недоступна. Можна робити захищені та закриті властивості доступними за допомогою [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html)
+Викидає виняток [ReflectionException](class.reflectionexception.md)якщо властивість недоступна. Можна робити захищені та закриті властивості доступними за допомогою [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md)
 
 ### Приклади
 
@@ -82,6 +82,6 @@ string(6) "foobar"
 
 ### Дивіться також
 
--   [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) - набуває значення
--   [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html) - Робить властивість доступною
--   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.html) - Встановлює значення статичної властивості
+-   [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) - набуває значення
+-   [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md) - Робить властивість доступною
+-   [ReflectionClass::setStaticPropertyValue()](reflectionclass.setstaticpropertyvalue.md) - Встановлює значення статичної властивості

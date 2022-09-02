@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-websocket-server.exist.html: '« SwooleWebSocketServer::exist'
-  - swoole-websocket-server.pack.html: 'SwooleWebSocketServer::pack »'
-  - index.html: PHP Manual
-  - class.swoole-websocket-server.html: SwooleWebSocketServer
+  - swoole-websocket-server.exist.md: '« SwooleWebSocketServer::exist'
+  - swoole-websocket-server.pack.md: 'SwooleWebSocketServer::pack »'
+  - index.md: PHP Manual
+  - class.swoole-websocket-server.md: SwooleWebSocketServer
 title: 'SwooleWebSocketServer::on'
 ---
 # SwooleWebSocketServer::on

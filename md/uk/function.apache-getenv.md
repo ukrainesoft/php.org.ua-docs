@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.apache-get-version.html: « apachegetversion
-  - function.apache-lookup-uri.html: apachelookupuri »
+  - function.apache-get-version.md: « apachegetversion
+  - function.apache-lookup-uri.md: apachelookupuri »
   - index.md: PHP Manual
   - ref.apache.md: Функции Apache
 title: apachegetenv

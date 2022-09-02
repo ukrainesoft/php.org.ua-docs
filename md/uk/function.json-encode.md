@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.json-decode.html: « jsondecode
-  - function.json-last-error-msg.html: jsonlasterrormsg »
-  - index.html: PHP Manual
-  - ref.json.html: Функции JSON
+  - function.json-decode.md: « jsondecode
+  - function.json-last-error-msg.md: jsonlasterrormsg »
+  - index.md: PHP Manual
+  - ref.json.md: Функции JSON
 title: jsonencode
 ---
 # jsonencode
@@ -20,15 +20,15 @@ json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false
 
 Повертає рядок, що містить JSON-подання для зазначеного `value`. Якщо параметр масивом (array) або об'єктом (object), він буде рекурсивно серіалізований.
 
-Якщо значення, що серіалізується, є об'єктом, то за замовчуванням будуть включені тільки публічно видимі властивості. Як альтернатива клас може реалізувати інтерфейс [JsonSerializable](class.jsonserializable.html) для керування тим, як його значення серіалізуються в JSON.
+Якщо значення, що серіалізується, є об'єктом, то за замовчуванням будуть включені тільки публічно видимі властивості. Як альтернатива клас може реалізувати інтерфейс [JsonSerializable](class.jsonserializable.md) для керування тим, як його значення серіалізуються в JSON.
 
-На кодування впливає параметр `flags` та, крім того, кодування значень типу float залежить від значення [serializeprecision](ini.core.html#ini.serialize-precision)
+На кодування впливає параметр `flags` та, крім того, кодування значень типу float залежить від значення [serializeprecision](ini.core.md#ini.serialize-precision)
 
 ### Список параметрів
 
 `value`
 
-`value` - значення, яке буде закодовано. Можливо будь-якого типу, крім [resource](language.types.resource.html)
+`value` - значення, яке буде закодовано. Можливо будь-якого типу, крім [resource](language.types.resource.md)
 
 Функція працює лише з кодуванням UTF-8.
 
@@ -38,7 +38,7 @@ json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false
 
 `flags`
 
-Бітова маска, що складається із значень **`JSON_FORCE_OBJECT`** **`JSON_HEX_QUOT`** **`JSON_HEX_TAG`** **`JSON_HEX_AMP`** **`JSON_HEX_APOS`** **`JSON_INVALID_UTF8_IGNORE`** **`JSON_INVALID_UTF8_SUBSTITUTE`** **`JSON_NUMERIC_CHECK`** **`JSON_PARTIAL_OUTPUT_ON_ERROR`** **`JSON_PRESERVE_ZERO_FRACTION`** **`JSON_PRETTY_PRINT`** **`JSON_UNESCAPED_LINE_TERMINATORS`** **`JSON_UNESCAPED_SLASHES`** **`JSON_UNESCAPED_UNICODE`** **`JSON_THROW_ON_ERROR`**. Сенс цих констант пояснюється на [сторінці JSON-констант](json.constants.html)
+Бітова маска, що складається із значень **`JSON_FORCE_OBJECT`** **`JSON_HEX_QUOT`** **`JSON_HEX_TAG`** **`JSON_HEX_AMP`** **`JSON_HEX_APOS`** **`JSON_INVALID_UTF8_IGNORE`** **`JSON_INVALID_UTF8_SUBSTITUTE`** **`JSON_NUMERIC_CHECK`** **`JSON_PARTIAL_OUTPUT_ON_ERROR`** **`JSON_PRESERVE_ZERO_FRACTION`** **`JSON_PRETTY_PRINT`** **`JSON_UNESCAPED_LINE_TERMINATORS`** **`JSON_UNESCAPED_SLASHES`** **`JSON_UNESCAPED_UNICODE`** **`JSON_THROW_ON_ERROR`**. Сенс цих констант пояснюється на [сторінці JSON-констант](json.constants.md)
 
 `depth`
 
@@ -55,7 +55,7 @@ json_encode(mixed $value, int $flags = 0, int $depth = 512): string|false
 |  | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags` |
 |  | Додані константи **`JSON_INVALID_UTF8_IGNORE`** і **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags` |
 |  | Додано константу **`JSON_UNESCAPED_LINE_TERMINATORS`** для параметра `flags` |
-|  | При кодуванні чисел із плаваючою точкою використовується [serializeprecision](ini.core.html#ini.serialize-precision) замість [precision](ini.core.html#ini.precision) |
+|  | При кодуванні чисел із плаваючою точкою використовується [serializeprecision](ini.core.md#ini.serialize-precision) замість [precision](ini.core.md#ini.precision) |
 
 ### Приклади
 
@@ -259,7 +259,7 @@ string(2) "12"
 
 > **Зауваження**
 > 
-> у разі виникнення помилки кодування можна використовувати [jsonlasterror()](function.json-last-error.html) визначення точної помилки.
+> у разі виникнення помилки кодування можна використовувати [jsonlasterror()](function.json-last-error.md) визначення точної помилки.
 
 > **Зауваження**
 > 
@@ -273,7 +273,7 @@ string(2) "12"
 
 ### Дивіться також
 
--   [JsonSerializable](class.jsonserializable.html)
--   [jsondecode()](function.json-decode.html) - Декодує рядок JSON
--   [jsonlasterror()](function.json-last-error.html) - Повертає останню помилку
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
+-   [JsonSerializable](class.jsonserializable.md)
+-   [jsondecode()](function.json-decode.md) - Декодує рядок JSON
+-   [jsonlasterror()](function.json-last-error.md) - Повертає останню помилку
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-get-value.html: «psgetvalue
-  - function.ps-include-file.html: псincludefile »
+  - function.ps-get-value.md: «psgetvalue
+  - function.ps-include-file.md: псincludefile »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псhyphenate
@@ -18,7 +18,7 @@ title: псhyphenate
 ps_hyphenate(resource $psdoc, string $text): array|false
 ```
 
-Переносить це слово. Функція **псhyphenate()** оцінює дефіси значення (встановлюється [псsetvalue()](function.ps-set-value.html)) та дефіси параметра (встановлюється [псsetparameter()](function.ps-set-parameter.md)). Перед викликом цієї функції необхідно встановити дефіс.
+Переносить це слово. Функція **псhyphenate()** оцінює дефіси значення (встановлюється [псsetvalue()](function.ps-set-value.md)) та дефіси параметра (встановлюється [псsetparameter()](function.ps-set-parameter.md)). Перед викликом цієї функції необхідно встановити дефіс.
 
 Для роботи функції потрібно, щоб категорія мовного стандарту LCCTYPE було встановлено коректно. Це робиться при ініціалізації модуля з використанням змінних оточення. У системах Unix для додаткової інформації прочитайте довідкову сторінку мовних стандартів.
 

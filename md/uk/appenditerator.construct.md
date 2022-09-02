@@ -1,9 +1,9 @@
 ---
 navigation:
-  - appenditerator.append.html: '« AppendIterator::append'
-  - appenditerator.current.html: 'AppendIterator::current »'
-  - index.html: PHP Manual
-  - class.appenditerator.html: AppendIterator
+  - appenditerator.append.md: '« AppendIterator::append'
+  - appenditerator.current.md: 'AppendIterator::current »'
+  - index.md: PHP Manual
+  - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::construct'
 ---
 # AppendIterator::construct
@@ -95,8 +95,8 @@ while ($appendIterator->valid()) {
 
 **Застереження**
 
-При використанні функції [iteratorтоarray()](function.iterator-to-array.html) Для копіювання значення AppendIterator в масив вам необхідно встановити додатковий аргумент `use_key` на значення **`false`**. Коли `use_key` не набуває значення **`false`**, якісь ключі, що повторно зустрічаються у внутрішніх ітераторах, будуть перезаписані в масив, що повертається. Зберегти оригінальні ключі неможливо.
+При використанні функції [iteratorтоarray()](function.iterator-to-array.md) Для копіювання значення AppendIterator в масив вам необхідно встановити додатковий аргумент `use_key` на значення **`false`**. Коли `use_key` не набуває значення **`false`**, якісь ключі, що повторно зустрічаються у внутрішніх ітераторах, будуть перезаписані в масив, що повертається. Зберегти оригінальні ключі неможливо.
 
 ### Дивіться також
 
--   [AppendIterator::append()](appenditerator.append.html) - додає ітератор
+-   [AppendIterator::append()](appenditerator.append.md) - додає ітератор

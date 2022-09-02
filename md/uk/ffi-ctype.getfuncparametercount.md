@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getfuncabi.html: '« FFICType::getFuncABI'
-  - ffi-ctype.getfuncparametertype.html: 'FFICType::getFuncParameterType »'
-  - index.html: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - ffi-ctype.getfuncabi.md: '« FFICType::getFuncABI'
+  - ffi-ctype.getfuncparametertype.md: 'FFICType::getFuncParameterType »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getFuncParameterCount'
 ---
 # FFICType::getFuncParameterCount

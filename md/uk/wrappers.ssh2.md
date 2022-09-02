@@ -32,7 +32,7 @@ ssh2.shell:// ssh2.exec:// ssh2.tunnel:// ssh2.sftp:// ssh2.scp:// (PECL)
 
 | Атрибут | ssh2.shell | ssh2.exec | ssh2.tunnel | ssh2.sftp | ssh2.scp |
 | --- | --- | --- | --- | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Так | Так | Так | Так | Так |
+| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Так | Так | Так | Так | Так |
 | Читання | Так | Так | Так | Так | Так |
 | Запис | Так | Так | Так | Так | Ні |
 | Додавання | Ні | Ні | Ні | Так (коли підтримується сервером) | Ні |

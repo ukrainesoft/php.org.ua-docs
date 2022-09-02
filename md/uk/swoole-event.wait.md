@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-event.set.html: '« SwooleEvent::set'
-  - swoole-event.write.html: 'SwooleEvent::write »'
+  - swoole-event.set.md: '« SwooleEvent::set'
+  - swoole-event.write.md: 'SwooleEvent::write »'
   - index.md: PHP Manual
-  - class.swoole-event.html: SwooleEvent
+  - class.swoole-event.md: SwooleEvent
 title: 'SwooleEvent::wait'
 ---
 # SwooleEvent::wait

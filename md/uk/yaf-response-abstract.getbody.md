@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-response-abstract.destruct.html: '« YafResponseAbstract::destruct'
-  - yaf-response-abstract.getheader.html: 'YafResponseAbstract::getHeader »'
-  - index.html: PHP Manual
-  - class.yaf-response-abstract.html: YafResponseAbstract
+  - yaf-response-abstract.destruct.md: '« YafResponseAbstract::destruct'
+  - yaf-response-abstract.getheader.md: 'YafResponseAbstract::getHeader »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.md: YafResponseAbstract
 title: 'YafResponseAbstract::getBody'
 ---
 # YafResponseAbstract::getBody

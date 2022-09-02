@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.evcheck.html: « EvCheck
-  - evcheck.createstopped.html: 'EvCheck::createStopped »'
-  - index.html: PHP Manual
-  - class.evcheck.html: EvCheck
+  - class.evcheck.md: « EvCheck
+  - evcheck.createstopped.md: 'EvCheck::createStopped »'
+  - index.md: PHP Manual
+  - class.evcheck.md: EvCheck
 title: 'EvCheck::construct'
 ---
 # EvCheck::construct
@@ -14,7 +14,7 @@ EvCheck::construct — Конструктор об'єкту EvCheck
 
 ### Опис
 
-public **EvCheck::construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` ?, int `$priority`
+public **EvCheck::construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` ?, int `$priority`
 
 Створює спостерігач [EvCheck](class.evcheck.md)
 
@@ -30,7 +30,7 @@ public **EvCheck::construct** [callable](language.types.callable.md) `$callback`
 
 `priority`
 
-[приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Дивіться також
 

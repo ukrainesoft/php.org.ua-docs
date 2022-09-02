@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsubscriber.commandfailed.html: '« MongoDBDriverMonitoringCommandSubscriber::commandFailed'
-  - mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html: 'MongoDBDriverMonitoringCommandSubscriber::commandSucceeded »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-commandsubscriber.html: MongoDBDriverMonitoringCommandSubscriber
+  - mongodb-driver-monitoring-commandsubscriber.commandfailed.md: '« MongoDBDriverMonitoringCommandSubscriber::commandFailed'
+  - mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md: 'MongoDBDriverMonitoringCommandSubscriber::commandSucceeded »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsubscriber.md: MongoDBDriverMonitoringCommandSubscriber
 title: 'MongoDBDriverMonitoringCommandSubscriber::commandStarted'
 ---
 # MongoDBDriverMonitoringCommandSubscriber::commandStarted

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-append.html: « imapappend
-  - function.imap-binary.html: imapbinary »
+  - function.imap-append.md: « imapappend
+  - function.imap-binary.md: imapbinary »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapbase64

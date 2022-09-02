@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.slice.html: '« DsSequence::slice'
-  - ds-sequence.sorted.html: 'ДсSequence::sorted »'
-  - index.html: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - ds-sequence.slice.md: '« DsSequence::slice'
+  - ds-sequence.sorted.md: 'ДсSequence::sorted »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::sort'
 ---
 # ДсSequence::sort

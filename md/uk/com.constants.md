@@ -1,7 +1,7 @@
 ---
 navigation:
   - com.resources.md: « Типи ресурсів
-  - com.error-handling.html: Ошибки и их обработка »
+  - com.error-handling.md: Ошибки и их обработка »
   - index.md: PHP Manual
   - book.com.md: COM
 title: Обумовлені константи

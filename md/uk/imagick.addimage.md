@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.adaptivethresholdimage.html: '« Imagick::adaptiveThresholdImage'
-  - imagick.addnoiseimage.html: 'Imagick::addNoiseImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.adaptivethresholdimage.md: '« Imagick::adaptiveThresholdImage'
+  - imagick.addnoiseimage.md: 'Imagick::addNoiseImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::addImage'
 ---
 # Imagick::addImage

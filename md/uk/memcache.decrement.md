@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcache.connect.html: '« Memcache::connect'
-  - memcache.delete.html: 'Memcache::delete »'
-  - index.html: PHP Manual
-  - class.memcache.html: Memcache
+  - memcache.connect.md: '« Memcache::connect'
+  - memcache.delete.md: 'Memcache::delete »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
 title: 'Memcache::decrement'
 ---
 # Memcache::decrement

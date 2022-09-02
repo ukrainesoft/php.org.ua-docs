@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ds-set.xor.html: '« DsSet::xor'
-  - ds-stack.allocate.html: 'ДсStack::allocate »'
+  - ds-set.xor.md: '« DsSet::xor'
+  - ds-stack.allocate.md: 'ДсStack::allocate »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Клас Stack

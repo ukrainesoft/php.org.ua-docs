@@ -1,7 +1,7 @@
 ---
 navigation:
-  - gender-gender.construct.html: '« GenderGender::construct'
-  - gender-gender.get.html: 'GenderGender::get »'
+  - gender-gender.construct.md: '« GenderGender::construct'
+  - gender-gender.get.md: 'GenderGender::get »'
   - index.md: PHP Manual
   - class.gender.md: GenderGender
 title: 'GenderGender::country'

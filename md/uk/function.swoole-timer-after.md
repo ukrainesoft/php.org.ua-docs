@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-strerror.html: « swoolestrerror
-  - function.swoole-timer-exists.html: swooletimerexists »
-  - index.html: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - function.swoole-strerror.md: « swoolestrerror
+  - function.swoole-timer-exists.md: swooletimerexists »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooletimerafter
 ---
 # swooletimerafter

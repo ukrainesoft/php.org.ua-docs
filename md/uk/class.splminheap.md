@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splmaxheap.compare.html: '« SplMaxHeap::compare'
-  - splminheap.compare.html: 'SplMinHeap::compare »'
-  - index.html: PHP Manual
-  - spl.datastructures.html: Структури даних
+  - splmaxheap.compare.md: '« SplMaxHeap::compare'
+  - splminheap.compare.md: 'SplMinHeap::compare »'
+  - index.md: PHP Manual
+  - spl.datastructures.md: Структури даних
 title: Клас SplMinHeap
 ---
 # Клас SplMinHeap
@@ -57,4 +57,4 @@ public SplHeap::valid(): bool
 
 ## Зміст
 
--   [SplMinHeap::compare](splminheap.compare.html) — Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
+-   [SplMinHeap::compare](splminheap.compare.md) — Порівнює елементи, щоб під час сортування коректно розмістити їх у купі

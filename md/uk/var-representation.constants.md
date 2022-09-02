@@ -1,7 +1,7 @@
 ---
 navigation:
-  - var-representation.installation.html: « Установка
-  - ref.var-representation.html: Функции varrepresentation »
+  - var-representation.installation.md: « Установка
+  - ref.var-representation.md: Функции varrepresentation »
   - index.md: PHP Manual
   - book.var_representation.md: varrepresentation
 title: Обумовлені константи

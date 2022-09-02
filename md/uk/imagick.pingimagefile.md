@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.pingimageblob.html: '« Imagick::pingImageBlob'
-  - imagick.polaroidimage.html: 'Imagick::polaroidImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.pingimageblob.md: '« Imagick::pingImageBlob'
+  - imagick.polaroidimage.md: 'Imagick::polaroidImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::pingImageFile'
 ---
 # Imagick::pingImageFile

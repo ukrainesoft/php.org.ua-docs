@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.timezone-abbreviations-list.html: « timezoneabbreviationslist
-  - function.timezone-location-get.html: timezonelocationget »
+  - function.timezone-abbreviations-list.md: « timezoneabbreviationslist
+  - function.timezone-location-get.md: timezonelocationget »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: timezoneidentifierslist

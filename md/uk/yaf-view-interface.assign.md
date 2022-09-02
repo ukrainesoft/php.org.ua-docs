@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-view-interface.html: « YafViewInterface
-  - yaf-view-interface.display.html: 'YafViewInterface::display »'
+  - class.yaf-view-interface.md: « YafViewInterface
+  - yaf-view-interface.display.md: 'YafViewInterface::display »'
   - index.md: PHP Manual
-  - class.yaf-view-interface.html: YafViewInterface
+  - class.yaf-view-interface.md: YafViewInterface
 title: 'YafViewInterface::assign'
 ---
 # YafViewInterface::assign

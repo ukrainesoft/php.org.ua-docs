@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-x509-export-to-file.html: « opensslx509exportтоfile
-  - function.openssl-x509-fingerprint.html: opensslx509fingerprint »
+  - function.openssl-x509-export-to-file.md: « opensslx509exportтоfile
+  - function.openssl-x509-fingerprint.md: opensslx509fingerprint »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslx509export

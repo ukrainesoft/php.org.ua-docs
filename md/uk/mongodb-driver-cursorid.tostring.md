@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursorid.serialize.html: '« MongoDBDriverCursorId::serialize'
-  - mongodb-driver-cursorid.unserialize.html: 'MongoDBDriverCursorId::unserialize »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId
+  - mongodb-driver-cursorid.serialize.md: '« MongoDBDriverCursorId::serialize'
+  - mongodb-driver-cursorid.unserialize.md: 'MongoDBDriverCursorId::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorid.md: MongoDBDriverCursorId
 title: 'MongoDBDriverCursorId::function toString() { \[native code\] }'
 ---
 # MongoDBDriverCursorId::function toString() { \[native code\] }

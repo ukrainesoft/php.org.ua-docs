@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttp.accept.html: '« EventHttp::accept'
-  - eventhttp.bind.html: 'EventHttp::bind »'
-  - index.html: PHP Manual
-  - class.eventhttp.html: EventHttp
+  - eventhttp.accept.md: '« EventHttp::accept'
+  - eventhttp.bind.md: 'EventHttp::bind »'
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
 title: 'EventHttp::addServerAlias'
 ---
 # EventHttp::addServerAlias

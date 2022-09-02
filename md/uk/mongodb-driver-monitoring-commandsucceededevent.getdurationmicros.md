@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getcommandname.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getCommandName'
-  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getOperationId »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+  - mongodb-driver-monitoring-commandsucceededevent.getcommandname.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getCommandName'
+  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getOperationId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
 title: 'MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros'
 ---
 # MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros
@@ -30,8 +30,8 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getDurationMicros(
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)

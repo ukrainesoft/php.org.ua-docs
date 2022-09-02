@@ -1,7 +1,7 @@
 ---
 navigation:
   - rrd.examples.md: « Приклади
-  - rrd.examples-oop.html: Об'єктно-орієнтований приклад PECL/rrd »
+  - rrd.examples-oop.md: Об'єктно-орієнтований приклад PECL/rrd »
   - index.md: PHP Manual
   - rrd.examples.md: Приклади
 title: Процедурний приклад PECL/rrd

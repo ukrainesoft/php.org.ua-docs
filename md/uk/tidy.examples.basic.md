@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidy.examples.html: « Приклади
-  - class.tidy.html: tidy »
-  - index.html: PHP Manual
-  - tidy.examples.html: Приклади
+  - tidy.examples.md: « Приклади
+  - class.tidy.md: tidy »
+  - index.md: PHP Manual
+  - tidy.examples.md: Приклади
 title: Приклад використання Tidy
 ---
 ## Приклад використання Tidy

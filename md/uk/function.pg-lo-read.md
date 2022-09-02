@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-lo-read-all.html: « pgлоreadall
-  - function.pg-lo-seek.html: пглоseek »
+  - function.pg-lo-read-all.md: « pgлоreadall
+  - function.pg-lo-seek.md: пглоseek »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пглоread
@@ -30,7 +30,7 @@ pg_lo_read(PgSql\Lob $lob, int $length = 8192): string|false
 
 `length`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 `length`
 

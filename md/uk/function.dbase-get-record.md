@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dbase-get-record-with-names.html: « dbasegetrecordwithnames
-  - function.dbase-numfields.html: dbasenumfields »
-  - index.html: PHP Manual
-  - ref.dbase.html: dBase
+  - function.dbase-get-record-with-names.md: « dbasegetrecordwithnames
+  - function.dbase-numfields.md: dbasenumfields »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
 title: dbasegetrecord
 ---
 # dbasegetrecord
@@ -24,7 +24,7 @@ dbase_get_record(resource $database, int $number): array
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 `number`
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-query.html: « fbirdquery
-  - function.fbird-rollback-ret.html: fbirdrollbackret »
+  - function.fbird-query.md: « fbirdquery
+  - function.fbird-rollback-ret.md: fbirdrollbackret »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdrestore

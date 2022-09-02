@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.easter-days.html: « easterdays
-  - function.gregoriantojd.html: gregoriantojd »
-  - index.html: PHP Manual
-  - ref.calendar.html: Календарь
+  - function.easter-days.md: « easterdays
+  - function.gregoriantojd.md: gregoriantojd »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
 title: frenchtojd
 ---
 # frenchtojd
@@ -42,5 +42,5 @@ frenchtojd(int $month, int $day, int $year): int
 
 ### Дивіться також
 
--   [jdtofrench()](function.jdtofrench.html) - Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
--   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську
+-   [jdtofrench()](function.jdtofrench.md) - Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
+-   [calтоjd()](function.cal-to-jd.md) - Перетворює задану дату на юліанську

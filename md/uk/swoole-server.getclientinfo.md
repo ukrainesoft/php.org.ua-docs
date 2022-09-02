@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.finish.html: '« SwooleServer::finish'
-  - swoole-server.getclientlist.html: 'SwooleServer::getClientList »'
+  - swoole-server.finish.md: '« SwooleServer::finish'
+  - swoole-server.getclientlist.md: 'SwooleServer::getClientList »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::getClientInfo'
 ---
 # SwooleServer::getClientInfo

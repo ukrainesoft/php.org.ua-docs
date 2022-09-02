@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-field-seek.html: « mysqlfieldseek
-  - function.mysql-field-type.html: mysqlfieldtype »
+  - function.mysql-field-seek.md: « mysqlfieldseek
+  - function.mysql-field-type.md: mysqlfieldtype »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlfieldtable

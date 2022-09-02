@@ -1,7 +1,7 @@
 ---
 navigation:
   - stats.constants.md: « Обумовлені константи
-  - function.stats-absolute-deviation.html: statsabsolutedeviation »
+  - function.stats-absolute-deviation.md: statsabsolutedeviation »
   - index.md: PHP Manual
   - book.stats.md: Статистика
 title: Функції статистики

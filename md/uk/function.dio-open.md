@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dio-fcntl.html: « diofcntl
-  - function.dio-read.html: dioread »
-  - index.html: PHP Manual
-  - ref.dio.html: Функції прямого введення/виводу
+  - function.dio-fcntl.md: « diofcntl
+  - function.dio-read.md: dioread »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
 title: dioopen
 ---
 # dioopen
@@ -74,4 +74,4 @@ dio_close($fd);
 
 ### Дивіться також
 
--   [dioclose()](function.dio-close.html) - Закрити файловий дескриптор
+-   [dioclose()](function.dio-close.md) - Закрити файловий дескриптор

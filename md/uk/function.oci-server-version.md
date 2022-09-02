@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-rollback.html: « ocirollback
-  - function.oci-set-action.html: ocisetaction »
+  - function.oci-rollback.md: « ocirollback
+  - function.oci-set-action.md: ocisetaction »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociserverversion

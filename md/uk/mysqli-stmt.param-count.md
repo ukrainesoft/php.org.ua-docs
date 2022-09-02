@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.num-rows.html: '« mysqlistmt::$numrows'
-  - mysqli-stmt.prepare.html: 'mysqlistmt::prepare »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.num-rows.md: '« mysqlistmt::$numrows'
+  - mysqli-stmt.prepare.md: 'mysqlistmt::prepare »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::$paramcount'
 ---
 # mysqlistmt::$paramcount
@@ -32,7 +32,7 @@ mysqli_stmt_param_count(mysqli_stmt $statement): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

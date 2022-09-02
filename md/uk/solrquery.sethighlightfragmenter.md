@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.sethighlightformatter.html: '« SolrQuery::setHighlightFormatter'
-  - solrquery.sethighlightfragsize.html: 'SolrQuery::setHighlightFragsize »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.sethighlightformatter.md: '« SolrQuery::setHighlightFormatter'
+  - solrquery.sethighlightfragsize.md: 'SolrQuery::setHighlightFragsize »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightFragmenter'
 ---
 # SolrQuery::setHighlightFragmenter

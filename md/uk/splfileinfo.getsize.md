@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileinfo.getrealpath.html: '« SplFileInfo::getRealPath'
-  - splfileinfo.gettype.html: 'SplFileInfo::getType »'
-  - index.html: PHP Manual
-  - class.splfileinfo.html: SplFileInfo
+  - splfileinfo.getrealpath.md: '« SplFileInfo::getRealPath'
+  - splfileinfo.gettype.md: 'SplFileInfo::getType »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getSize'
 ---
 # SplFileInfo::getSize

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mqseries.resources.html: « Типи ресурсів
-  - ref.mqseries.html: Функции mqseries »
-  - index.html: PHP Manual
-  - book.mqseries.html: mqseries
+  - mqseries.resources.md: « Типи ресурсів
+  - ref.mqseries.md: Функции mqseries »
+  - index.md: PHP Manual
+  - book.mqseries.md: mqseries
 title: Обумовлені константи
 ---
 # Обумовлені константи

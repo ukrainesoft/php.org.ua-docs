@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mysql-fetch-row.html: « mysqlfetchrow
-  - function.mysql-field-len.html: mysqlfieldlen »
-  - index.html: PHP Manual
-  - ref.mysql.html: MySQL
+  - function.mysql-fetch-row.md: « mysqlfetchrow
+  - function.mysql-field-len.md: mysqlfieldlen »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
 title: mysqlfieldflags
 ---
 # mysqlfieldflags
@@ -14,10 +14,10 @@ mysqlfieldflags — Повертає прапори, пов'язані із за
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) flags
--   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html) flags
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) flags
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) flags
 
 ### Опис
 
@@ -25,13 +25,13 @@ mysqlfieldflags — Повертає прапори, пов'язані із за
 mysql_field_flags(resource $result, int $field_offset): string|false
 ```
 
-**mysqlfieldflags()** повертає прапори, пов'язані із зазначеним полем. Кожен прапор повертається як окреме слово, відокремлене від попереднього пропуску. Отримане значення можна розбити на масив, використовуючи функцію [explode()](function.explode.html)
+**mysqlfieldflags()** повертає прапори, пов'язані із зазначеним полем. Кожен прапор повертається як окреме слово, відокремлене від попереднього пропуску. Отримане значення можна розбити на масив, використовуючи функцію [explode()](function.explode.md)
 
 ### Список параметрів
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `field_offset`
 
@@ -81,5 +81,5 @@ Array
 
 ### Дивіться також
 
--   [mysqlfieldtype()](function.mysql-field-type.html) - Повертає тип вказаного поля із результату запиту
--   [mysqlfieldlen()](function.mysql-field-len.html) - Повертає довжину вказаного поля
+-   [mysqlfieldtype()](function.mysql-field-type.md) - Повертає тип вказаного поля із результату запиту
+-   [mysqlfieldlen()](function.mysql-field-len.md) - Повертає довжину вказаного поля

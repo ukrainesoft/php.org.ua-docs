@@ -1,7 +1,7 @@
 ---
 navigation:
-  - commonmark-interfaces-ivisitable.accept.html: '« CommonMarkInterfacesIVisitable::accept'
-  - commonmark-parser.construct.html: 'CommonMarkParser::construct »'
+  - commonmark-interfaces-ivisitable.accept.md: '« CommonMarkInterfacesIVisitable::accept'
+  - commonmark-parser.construct.md: 'CommonMarkParser::construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: Клас CommonMarkParser

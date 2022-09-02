@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-excel.data.html: '« VtifulKernelExcel::data'
-  - vtiful-kernel-excel.getHandle.html: 'VtifulKernelExcel::getHandle »'
+  - vtiful-kernel-excel.data.md: '« VtifulKernelExcel::data'
+  - vtiful-kernel-excel.getHandle.md: 'VtifulKernelExcel::getHandle »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
 title: 'VtifulKernelExcel::fileName'
 ---
 # VtifulKernelExcel::fileName

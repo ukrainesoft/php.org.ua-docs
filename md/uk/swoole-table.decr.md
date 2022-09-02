@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.current.html: '« SwooleTable::current'
-  - swoole-table.del.html: 'SwooleTable::del »'
+  - swoole-table.current.md: '« SwooleTable::current'
+  - swoole-table.del.md: 'SwooleTable::del »'
   - index.md: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::decor'
 ---
 # SwooleTable::decor

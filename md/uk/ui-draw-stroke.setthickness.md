@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-stroke.setmiterlimit.html: '« UIDrawStroke::setMiterLimit'
-  - class.ui-draw-brush.html: ОЙDrawBrush »
+  - ui-draw-stroke.setmiterlimit.md: '« UIDrawStroke::setMiterLimit'
+  - class.ui-draw-brush.md: ОЙDrawBrush »
   - index.md: PHP Manual
-  - class.ui-draw-stroke.html: ОЙDrawStroke
+  - class.ui-draw-stroke.md: ОЙDrawStroke
 title: 'ОЙDrawStroke::setThickness'
 ---
 # ОЙDrawStroke::setThickness

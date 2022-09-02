@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splheap.current.html: '« SplHeap::current'
-  - splheap.insert.html: 'SplHeap::insert »'
-  - index.html: PHP Manual
-  - class.splheap.html: SplHeap
+  - splheap.current.md: '« SplHeap::current'
+  - splheap.insert.md: 'SplHeap::insert »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
 title: 'SplHeap::extract'
 ---
 # SplHeap::extract

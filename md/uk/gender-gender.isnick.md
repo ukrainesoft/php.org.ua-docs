@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gender-gender.get.html: '« GenderGender::get'
-  - gender-gender.similarnames.html: 'GenderGender::similarNames »'
-  - index.html: PHP Manual
-  - class.gender.html: GenderGender
+  - gender-gender.get.md: '« GenderGender::get'
+  - gender-gender.similarnames.md: 'GenderGender::similarNames »'
+  - index.md: PHP Manual
+  - class.gender.md: GenderGender
 title: 'GenderGender::isNick'
 ---
 # GenderGender::isNick

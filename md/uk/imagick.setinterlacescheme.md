@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagewhitepoint.html: '« Imagick::setImageWhitePoint'
-  - imagick.setiteratorindex.html: 'Imagick::setIteratorIndex »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagewhitepoint.md: '« Imagick::setImageWhitePoint'
+  - imagick.setiteratorindex.md: 'Imagick::setIteratorIndex »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setInterlaceScheme'
 ---
 # Imagick::setInterlaceScheme

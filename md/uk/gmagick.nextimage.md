@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.newimage.html: '« Gmagick::newimage'
-  - gmagick.normalizeimage.html: 'Gmagick::normalizeimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.newimage.md: '« Gmagick::newimage'
+  - gmagick.normalizeimage.md: 'Gmagick::normalizeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::nextimage'
 ---
 # Gmagick::nextimage

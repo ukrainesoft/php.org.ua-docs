@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi.setup.html: « Встановлення та налаштування
-  - mysql-xdevapi.installation.html: Установка »
+  - mysql-xdevapi.setup.md: « Встановлення та налаштування
+  - mysql-xdevapi.installation.md: Установка »
   - index.md: PHP Manual
-  - mysql-xdevapi.setup.html: Встановлення та налаштування
+  - mysql-xdevapi.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

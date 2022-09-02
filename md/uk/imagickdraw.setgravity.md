@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setfontweight.html: '« ImagickDraw::setFontWeight'
-  - imagickdraw.setresolution.html: 'ImagickDraw::setResolution »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setfontweight.md: '« ImagickDraw::setFontWeight'
+  - imagickdraw.setresolution.md: 'ImagickDraw::setResolution »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setGravity'
 ---
 # ImagickDraw::setGravity
@@ -28,7 +28,7 @@ public ImagickDraw::setGravity(int $gravity): bool
 
 `gravity`
 
-Одна з констант [GRAVITY](imagick.constants.html#imagick.constants.gravity) `imagick::GRAVITY_*`
+Одна з констант [GRAVITY](imagick.constants.md#imagick.constants.gravity) `imagick::GRAVITY_*`
 
 ### Значення, що повертаються
 

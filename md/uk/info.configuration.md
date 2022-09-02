@@ -14,20 +14,20 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [assert.active](info.configuration.html#ini.assert.active) | "1" | PHPINIALL |  |
-| [assert.bail](info.configuration.html#ini.assert.bail) | "0" | PHPINIALL |  |
-| [assert.warning](info.configuration.html#ini.assert.warning) | "1" | PHPINIALL |  |
-| [assert.callback](info.configuration.html#ini.assert.callback) | NULL | PHPINIALL |  |
-| [assert.quieteval](info.configuration.html#ini.assert.quiet-eval) | "0" | PHPINIALL |  |
-| [assert.exception](info.configuration.html#ini.assert.exception) | "0" | PHPINIALL | Доступна з версії PHP 7.0.0. |
-| [enableдл](info.configuration.html#ini.enable-dl) | "1" | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
-| [maxexecutiontime](info.configuration.html#ini.max-execution-time) | "30" | PHPINIALL |  |
-| [maxinputtime](info.configuration.html#ini.max-input-time) | "-1" | PHPINIPERDIR |  |
-| [maxinputnestinglevel](info.configuration.html#ini.max-input-nesting-level) | "64" | PHPINIPERDIR | Доступна з PHP 5.2.3. |
-| [maxinputvars](info.configuration.html#ini.max-input-vars) |  | PHPINIPERDIR | Доступна з PHP 5.3.9. |
-| [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc) | "1" | PHPINIPERDIR | Видалено в PHP 5.4.0. |
-| [magicquotesruntime](info.configuration.html#ini.magic-quotes-runtime) | "0" | PHPINIALL | Видалено в PHP 5.4.0. |
-| [zend.enableгк](info.configuration.html#ini.zend.enable-gc) | "1" | PHPINIALL | Доступна з PHP 5.3.0. |
+| [assert.active](info.configuration.md#ini.assert.active) | "1" | PHPINIALL |  |
+| [assert.bail](info.configuration.md#ini.assert.bail) | "0" | PHPINIALL |  |
+| [assert.warning](info.configuration.md#ini.assert.warning) | "1" | PHPINIALL |  |
+| [assert.callback](info.configuration.md#ini.assert.callback) | NULL | PHPINIALL |  |
+| [assert.quieteval](info.configuration.md#ini.assert.quiet-eval) | "0" | PHPINIALL |  |
+| [assert.exception](info.configuration.md#ini.assert.exception) | "0" | PHPINIALL | Доступна з версії PHP 7.0.0. |
+| [enableдл](info.configuration.md#ini.enable-dl) | "1" | PHPINISYSTEM | Ця можливість застаріла та *буде* обов'язково *видалено* в майбутньому. |
+| [maxexecutiontime](info.configuration.md#ini.max-execution-time) | "30" | PHPINIALL |  |
+| [maxinputtime](info.configuration.md#ini.max-input-time) | "-1" | PHPINIPERDIR |  |
+| [maxinputnestinglevel](info.configuration.md#ini.max-input-nesting-level) | "64" | PHPINIPERDIR | Доступна з PHP 5.2.3. |
+| [maxinputvars](info.configuration.md#ini.max-input-vars) |  | PHPINIPERDIR | Доступна з PHP 5.3.9. |
+| [magicquotesgpc](info.configuration.md#ini.magic-quotes-gpc) | "1" | PHPINIPERDIR | Видалено в PHP 5.4.0. |
+| [magicquotesruntime](info.configuration.md#ini.magic-quotes-runtime) | "0" | PHPINIALL | Видалено в PHP 5.4.0. |
+| [zend.enableгк](info.configuration.md#ini.zend.enable-gc) | "1" | PHPINIALL | Доступна з PHP 5.3.0. |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -51,7 +51,7 @@ title: Налаштування під час виконання
 
 `assert.quiet_eval` bool
 
-Використовуйте це налаштування функції [errorreporting()](function.error-reporting.html) під час виконання перевірки тверджень. При увімкненні налаштування повідомлення про помилки під час перевірки тверджень не відображатимуться (неявний виклик errorreporting(0)). Якщо вимкнено налаштування, помилки будуть видаватися відповідно до налаштувань [errorreporting()](function.error-reporting.md)
+Використовуйте це налаштування функції [errorreporting()](function.error-reporting.md) під час виконання перевірки тверджень. При увімкненні налаштування повідомлення про помилки під час перевірки тверджень не відображатимуться (неявний виклик errorreporting(0)). Якщо вимкнено налаштування, помилки будуть видаватися відповідно до налаштувань [errorreporting()](function.error-reporting.md)
 
 `assert.exception` bool
 
@@ -61,7 +61,7 @@ title: Налаштування під час виконання
 
 Директива дозволяє вмикати та вимикати динамічне підвантаження модулів PHP за допомогою функції [dl()](function.dl.md)
 
-Головною причиною, через яку потрібно вимкнення динамічного завантаження, є безпека. За допомогою динамічного завантаження можна обійти все [openbasedir](ini.core.html#ini.open-basedir) обмеження. За замовчуванням динамічне завантаження дозволено.
+Головною причиною, через яку потрібно вимкнення динамічного завантаження, є безпека. За допомогою динамічного завантаження можна обійти все [openbasedir](ini.core.md#ini.open-basedir) обмеження. За замовчуванням динамічне завантаження дозволено.
 
 `max_execution_time` int
 
@@ -73,7 +73,7 @@ title: Налаштування під час виконання
 
 `max_input_time` int
 
-Ця директива визначає максимальний час у секундах, протягом якого скрипт повинен розібрати всі вхідні дані, передані запитами на кшталт POST або GET. Цей час вимірюється з моменту, коли PHP викликаний на сервері до моменту, коли скрипт починає виконуватися. Значення за замовчуванням `-1`що означає, що буде використовуватися [maxexecutiontime](info.configuration.html#ini.max-execution-time). Якщо встановити рівним `0`, то обмежень у часі не буде.
+Ця директива визначає максимальний час у секундах, протягом якого скрипт повинен розібрати всі вхідні дані, передані запитами на кшталт POST або GET. Цей час вимірюється з моменту, коли PHP викликаний на сервері до моменту, коли скрипт починає виконуватися. Значення за замовчуванням `-1`що означає, що буде використовуватися [maxexecutiontime](info.configuration.md#ini.max-execution-time). Якщо встановити рівним `0`, то обмежень у часі не буде.
 
 `max_input_nesting_level` int
 

@@ -44,7 +44,7 @@ title: Обумовлені константи
 
 **`PASSWORD_ARGON2ID`** (string)
 
-**`PASSWORD_ARGON2ID`** використовується для створення хеш паролів за допомогою алгоритму Argon2id. Підтримуються ті ж опції, що й для [**`PASSWORD_ARGON2I`**](password.constants.html#constant.password-argon2i)
+**`PASSWORD_ARGON2ID`** використовується для створення хеш паролів за допомогою алгоритму Argon2id. Підтримуються ті ж опції, що й для [**`PASSWORD_ARGON2I`**](password.constants.md#constant.password-argon2i)
 
 Доступно з PHP 7.3.0.
 
@@ -66,7 +66,7 @@ title: Обумовлені константи
 
 Доступно з PHP 7.2.0.
 
-**`PASSWORD_DEFAULT`** [mixed](language.types.declarations.html#language.types.declarations.mixed)
+**`PASSWORD_DEFAULT`** [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Алгоритм хешування за замовчуванням, якщо не задано примусово. Може бути змінений у нових версіях PHP на більш надійний алгоритм.
 

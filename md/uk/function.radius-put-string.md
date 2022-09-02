@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-put-int.html: « radiusputint
-  - function.radius-put-vendor-addr.html: radiusputvendoraddr »
+  - function.radius-put-int.md: « radiusputint
+  - function.radius-put-vendor-addr.md: radiusputvendoraddr »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiusputstring
@@ -40,11 +40,11 @@ radius_put_string(    resource $radius_handle,    int $type,    stri
 
 `options`
 
-Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.html#constant.radius-option-salt)
+Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.md#constant.radius-option-salt)
 
 `tag`
 
-Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged)
+Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
 
 ### Значення, що повертаються
 

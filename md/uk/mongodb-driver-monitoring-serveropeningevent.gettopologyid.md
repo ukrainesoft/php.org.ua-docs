@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serveropeningevent.getport.html: '« MongoDBDriverMonitoringServerOpeningEvent::getPort'
-  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.html: MongoDBDriverMonitoringServerHeartbeatFailedEvent »
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-serveropeningevent.html: MongoDBDriverMonitoringServerOpeningEvent
+  - mongodb-driver-monitoring-serveropeningevent.getport.md: '« MongoDBDriverMonitoringServerOpeningEvent::getPort'
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.md: MongoDBDriverMonitoringServerHeartbeatFailedEvent »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serveropeningevent.md: MongoDBDriverMonitoringServerOpeningEvent
 title: 'MongoDBDriverMonitoringServerOpeningEvent::getTopologyId'
 ---
 # MongoDBDriverMonitoringServerOpeningEvent::getTopologyId
@@ -28,4 +28,4 @@ final public MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId(): Mong
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

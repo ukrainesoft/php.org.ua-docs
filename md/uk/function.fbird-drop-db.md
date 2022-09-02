@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-delete-user.html: « fbirddeleteuser
-  - function.fbird-errcode.html: fbirderrcode »
+  - function.fbird-delete-user.md: « fbirddeleteuser
+  - function.fbird-errcode.md: fbirderrcode »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirddropдб

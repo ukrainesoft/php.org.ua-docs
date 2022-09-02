@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-rollback.html: « cubridrollback
-  - function.cubrid-seq-drop.html: cubridseqdrop »
+  - function.cubrid-rollback.md: « cubridrollback
+  - function.cubrid-seq-drop.md: cubridseqdrop »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridschema

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-ereg-match.html: « mberegmatch
-  - function.mb-ereg-replace.html: мбeregreplace »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-ereg-match.md: « mberegmatch
+  - function.mb-ereg-replace.md: мбeregreplace »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбeregreplacecallback
 ---
 # мбeregreplacecallback
@@ -20,7 +20,7 @@ mb_ereg_replace_callback(    string $pattern,    callable $callback,  
 
 Перевіряє рядок `string` на збіг із шаблоном `pattern`потім замінює знайдений текст результатом функції `callback`
 
-Поведінка цієї функції майже ідентична з функцією [мбeregreplace()](function.mb-ereg-replace.html), за винятком того, що замість рядка заміни `replacement` необхідно визначати функцію `callback`
+Поведінка цієї функції майже ідентична з функцією [мбeregreplace()](function.mb-ereg-replace.md), за винятком того, що замість рядка заміни `replacement` необхідно визначати функцію `callback`
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ mb_ereg_replace_callback(    string $pattern,    callable $callback,  
 
 Функція, яка буде викликана для отримання та передачі масиву збігів у рядок `subject`. Callback-функція повинна повертати рядок для заміни.
 
-Часто може знадобитися оголошувати функцію `callback` для **мбeregreplacecallback()** лише одному місці. У такому разі використовуйте [анонімні функції](functions.anonymous.html) для визначення callback-функції всередині виклику **мбeregreplacecallback()**. При такому підході у вас буде вся інформація про виклик в одному місці і ви не забрудните простір імен функції ім'ям своєї callback-функції, яке більше ніде не використовується.
+Часто може знадобитися оголошувати функцію `callback` для **мбeregreplacecallback()** лише одному місці. У такому разі використовуйте [анонімні функції](functions.anonymous.md) для визначення callback-функції всередині виклику **мбeregreplacecallback()**. При такому підході у вас буде вся інформація про виклик в одному місці і ви не забрудните простір імен функції ім'ям своєї callback-функції, яке більше ніде не використовується.
 
 `string`
 
@@ -42,7 +42,7 @@ mb_ereg_replace_callback(    string $pattern,    callable $callback,  
 
 `options`
 
-Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.html)
+Опція пошуку. Детальніше дивіться [мбregexsetoptions()](function.mb-regex-set-options.md)
 
 ### Значення, що повертаються
 
@@ -110,10 +110,10 @@ echo mb_ereg_replace_callback(
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбeregreplace()](function.mb-ereg-replace.html) - Здійснює заміну за регулярним виразом за допомогою багатобайтових кодувань
--   [Анонімні функції](functions.anonymous.html)
+-   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregreplace()](function.mb-ereg-replace.md) - Здійснює заміну за регулярним виразом за допомогою багатобайтових кодувань
+-   [Анонімні функції](functions.anonymous.md)

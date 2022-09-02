@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.setdefaultcontroller.html: '« YafDispatcher::setDefaultController'
-  - yaf-dispatcher.seterrorhandler.html: 'YafDispatcher::setErrorHandler »'
+  - yaf-dispatcher.setdefaultcontroller.md: '« YafDispatcher::setDefaultController'
+  - yaf-dispatcher.seterrorhandler.md: 'YafDispatcher::setErrorHandler »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::setDefaultModule'
 ---
 # YafDispatcher::setDefaultModule

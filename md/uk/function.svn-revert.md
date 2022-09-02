@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-repos-recover.html: « svnreposrecover
-  - function.svn-status.html: svnstatus »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-repos-recover.md: « svnreposrecover
+  - function.svn-status.md: svnstatus »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnrevert
 ---
 # svnrevert
@@ -36,5 +36,5 @@ svn_revert(string $path, bool $recursive = false): bool
 
 ### Дивіться також
 
--   [svndelete()](function.svn-delete.html) - Видаляє елементи з робочої копії або репозиторію
--   [svnexport()](function.svn-export.html) - Експортує вміст директорії SVN
+-   [svndelete()](function.svn-delete.md) - Видаляє елементи з робочої копії або репозиторію
+-   [svnexport()](function.svn-export.md) - Експортує вміст директорії SVN

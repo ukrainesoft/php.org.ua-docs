@@ -30,7 +30,7 @@ title: Опції контексту CURL
 
 Значення для надсилання разом із заголовком User-Agent.
 
-За промовчанням використовується значення директиви [useragent](filesystem.configuration.html#ini.user-agent) із файлу php.ini.
+За промовчанням використовується значення директиви [useragent](filesystem.configuration.md#ini.user-agent) із файлу php.ini.
 
 `content` string
 

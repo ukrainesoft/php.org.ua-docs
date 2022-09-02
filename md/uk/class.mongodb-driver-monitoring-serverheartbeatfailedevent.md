@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serveropeningevent.gettopologyid.html: '« MongoDBDriverMonitoringServerOpeningEvent::getTopologyId'
-  - mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.html: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros »'
+  - mongodb-driver-monitoring-serveropeningevent.gettopologyid.md: '« MongoDBDriverMonitoringServerOpeningEvent::getTopologyId'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getDurationMicros »'
   - index.md: PHP Manual
   - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Клас MongoDBDriverMonitoringServerHeartbeatFailedEvent

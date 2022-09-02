@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-abs.html: « gmpabs
-  - function.gmp-and.html: gmpand »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-abs.md: « gmpabs
+  - function.gmp-and.md: gmpand »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpadd
 ---
 # gmpadd

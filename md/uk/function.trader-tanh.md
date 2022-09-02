@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-tan.html: « tradertan
-  - function.trader-tema.html: tradertema »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-tan.md: « tradertan
+  - function.trader-tema.md: tradertema »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradertanh
 ---
 # tradertanh

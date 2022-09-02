@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.pop.html: '« DsVector::pop'
-  - ds-vector.reduce.html: 'ДсVector::reduce »'
+  - ds-vector.pop.md: '« DsVector::pop'
+  - ds-vector.reduce.md: 'ДсVector::reduce »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::push'
 ---
 # ДсVector::push

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-mysql.construct.html: '« SwooleCoroutineMySQL::construct'
-  - swoole-coroutine-mysql.getdefer.html: 'SwooleCoroutineMySQL::getDefer »'
+  - swoole-coroutine-mysql.construct.md: '« SwooleCoroutineMySQL::construct'
+  - swoole-coroutine-mysql.getdefer.md: 'SwooleCoroutineMySQL::getDefer »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineMySQL::destruct'
 ---
 # SwooleCoroutineMySQL::destruct

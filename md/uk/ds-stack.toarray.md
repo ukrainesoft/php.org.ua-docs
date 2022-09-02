@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.push.html: '« DsStack::push'
-  - class.ds-queue.html: Черга »
+  - ds-stack.push.md: '« DsStack::push'
+  - class.ds-queue.md: Черга »
   - index.md: PHP Manual
-  - class.ds-stack.html: Стек
+  - class.ds-stack.md: Стек
 title: 'ДсStack::toArray'
 ---
 # ДсStack::toArray

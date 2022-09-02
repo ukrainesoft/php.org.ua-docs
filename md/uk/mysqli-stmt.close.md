@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.bind-result.html: '« mysqlistmt::bindresult'
-  - mysqli-stmt.construct.html: 'mysqlistmt::construct »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.bind-result.md: '« mysqlistmt::bindresult'
+  - mysqli-stmt.construct.md: 'mysqlistmt::construct »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::close'
 ---
 # mysqlistmt::close
@@ -34,7 +34,7 @@ mysqli_stmt_close(mysqli_stmt $statement): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -42,4 +42,4 @@ mysqli_stmt_close(mysqli_stmt $statement): bool
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-ranf.html: « statsrandranf
-  - function.stats-skew.html: statsskew »
+  - function.stats-rand-ranf.md: « statsrandranf
+  - function.stats-skew.md: statsskew »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandsetall

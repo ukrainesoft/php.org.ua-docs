@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evtimer.again.html: '« EvTimer::again'
-  - evtimer.createstopped.html: 'EvTimer::createStopped »'
-  - index.html: PHP Manual
-  - class.evtimer.html: EvTimer
+  - evtimer.again.md: '« EvTimer::again'
+  - evtimer.createstopped.md: 'EvTimer::createStopped »'
+  - index.md: PHP Manual
+  - class.evtimer.md: EvTimer
 title: 'EvTimer::construct'
 ---
 # EvTimer::construct
@@ -17,8 +17,8 @@ EvTimer::construct - Конструктор об'єкта спостерігач
 public **EvTimer::construct**  
 float `$after`  
 float `$repeat`  
-[callable](language.types.callable.html) `$callback`  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
+[callable](language.types.callable.md) `$callback`  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`**  
 int `$priority`
 
 Конструктор об'єкта спостерігача EvTimer.
@@ -35,7 +35,7 @@ int `$priority`
 
 `callback`
 
-Дивіться [Спостерігачі callback-функцій](ev.watcher-callbacks.html)
+Дивіться [Спостерігачі callback-функцій](ev.watcher-callbacks.md)
 
 `data`
 
@@ -43,7 +43,7 @@ int `$priority`
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 
@@ -124,7 +124,7 @@ END
 
 ### Дивіться також
 
--   [EvTimer::createStopped()](evtimer.createstopped.html) - створює зупинений спостерігач EvTimer
--   [EvPeriodic](class.evperiodic.html)
+-   [EvTimer::createStopped()](evtimer.createstopped.md) - створює зупинений спостерігач EvTimer
+-   [EvPeriodic](class.evperiodic.md)
 -   [» evtimer - відносний і необов'язково повторюваний час очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_timer_code_relative_and_opti)
 -   [» Будьте обережні з часом очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Be_smart_about_timeouts)

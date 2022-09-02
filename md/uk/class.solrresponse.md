@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrclient.threads.html: '« SolrClient::threads'
-  - solrresponse.getdigestedresponse.html: 'SolrResponse::getDigestedResponse »'
-  - index.html: PHP Manual
-  - book.solr.html: Solr
+  - solrclient.threads.md: '« SolrClient::threads'
+  - solrresponse.getdigestedresponse.md: 'SolrResponse::getDigestedResponse »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
 title: Клас SolrResponse
 ---
 # Клас SolrResponse

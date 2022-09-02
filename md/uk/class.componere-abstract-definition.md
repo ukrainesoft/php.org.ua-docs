@@ -1,7 +1,7 @@
 ---
 navigation:
   - componere.installation.md: « Установка
-  - componere-abstract-definition.addinterface.html: 'ComponereAbstractDefinition::addInterface »'
+  - componere-abstract-definition.addinterface.md: 'ComponereAbstractDefinition::addInterface »'
   - index.md: PHP Manual
   - book.componere.md: Componere
 title: Клас ComponereAbstractDefinition

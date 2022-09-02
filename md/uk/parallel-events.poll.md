@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-events.remove.html: '« parallelEvents::remove'
-  - class.parallel-events-input.html: parallelEventsInput »
+  - parallel-events.remove.md: '« parallelEvents::remove'
+  - class.parallel-events-input.md: parallelEventsInput »
   - index.md: PHP Manual
-  - class.parallel-events.html: parallelEvents
+  - class.parallel-events.md: parallelEvents
 title: 'parallelEvents::poll'
 ---
 # parallelEvents::poll

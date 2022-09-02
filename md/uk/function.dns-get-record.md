@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dns-get-mx.html: « dnsgetмкс
-  - function.fsockopen.html: fsockopen »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.dns-get-mx.md: « dnsgetмкс
+  - function.fsockopen.md: fsockopen »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: dnsgetrecord
 ---
 # dnsgetrecord
@@ -24,11 +24,11 @@ dns_get_record(    string $hostname,    int $type = DNS_ANY,    arra
 
 `hostname`
 
-Параметр `hostname` має бути коректним DNS-іменем таким як "`www.example.com`". Зворотний дозвіл імен хостів може бути зроблений з використанням нотації `in-addr.arpa`, однак, для цієї мети краще скористатися функцією [gethostbyaddr()](function.gethostbyaddr.html)
+Параметр `hostname` має бути коректним DNS-іменем таким як "`www.example.com`". Зворотний дозвіл імен хостів може бути зроблений з використанням нотації `in-addr.arpa`, однак, для цієї мети краще скористатися функцією [gethostbyaddr()](function.gethostbyaddr.md)
 
 > **Зауваження**
 > 
-> Відповідно до стандартів DNS, адреси електронної пошти задаються у форматі `user.host` (наприклад, `hostmaster.example.com` на відміну від `hostmaster@example.com`), тому будьте уважні та додатково перевірте це значення, перш ніж використовувати його в таких функціях, як [mail()](function.mail.html)
+> Відповідно до стандартів DNS, адреси електронної пошти задаються у форматі `user.host` (наприклад, `hostmaster.example.com` на відміну від `hostmaster@example.com`), тому будьте уважні та додатково перевірте це значення, перш ніж використовувати його в таких функціях, як [mail()](function.mail.md)
 
 `type`
 
@@ -72,7 +72,7 @@ dns_get_record(    string $hostname,    int $type = DNS_ANY,    arra
 | Тип записи | Дополнительные данные |
 | --- | --- |
 | `A` | `ip`: адреси IPv4 у десятковому форматі з роздільниками. |
-| `MX` | `pri`: Пріоритет поштового сервера Чим нижче число, тим вищий пріоритет . `target`: FQDN поштового сервера Дивіться також [dnsgetmx()](function.dns-get-mx.html) |
+| `MX` | `pri`: Пріоритет поштового сервера Чим нижче число, тим вищий пріоритет . `target`: FQDN поштового сервера Дивіться також [dnsgetmx()](function.dns-get-mx.md) |
 | `CNAME` | `target`: FQDN розташування в просторі імен DNS, на яке вказує запис. |
 | `NS` | `target`: FQDN - ім'я сервера, який є авторитетним для цього імені хоста. |
 | `PTR` | `target`: Розміщення без вказівки простору імен DNS, на яке вказує запис. |
@@ -267,5 +267,5 @@ print_r($addtl);
 
 ### Дивіться також
 
--   [dnsgetmx()](function.dns-get-mx.html) - Псевдонім getmxrr
--   [dnscheckrecord()](function.dns-check-record.html) - Псевдонім checkdnsrr
+-   [dnsgetmx()](function.dns-get-mx.md) - Псевдонім getmxrr
+-   [dnscheckrecord()](function.dns-check-record.md) - Псевдонім checkdnsrr

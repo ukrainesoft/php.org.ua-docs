@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-avgprice.html: « traderavgprice
-  - function.trader-beta.html: traderbeta »
+  - function.trader-avgprice.md: « traderavgprice
+  - function.trader-beta.md: traderbeta »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderbbands
@@ -30,11 +30,11 @@ trader_bbands(    array $real,    int $timePeriod = ?,    float $nbD
 
 `nbDevUp`
 
-Розмножувач для верхньої смуги. Допустимі значення від [TRADERREALMIN](trader.constants.html#constant.trader-real-min) до [TRADERREALMAX](trader.constants.html#constant.trader-real-max)
+Розмножувач для верхньої смуги. Допустимі значення від [TRADERREALMIN](trader.constants.md#constant.trader-real-min) до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
 
 `nbDevDn`
 
-Розмножувач для нижньої смуги. Допустимі значення від [TRADERREALMIN](trader.constants.html#constant.trader-real-min) до [TRADERREALMAX](trader.constants.html#constant.trader-real-max)
+Розмножувач для нижньої смуги. Допустимі значення від [TRADERREALMIN](trader.constants.md#constant.trader-real-min) до [TRADERREALMAX](trader.constants.md#constant.trader-real-max)
 
 `mAType`
 

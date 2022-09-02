@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-socket-get-name.html: « streamsocketgetname
-  - function.stream-socket-recvfrom.html: streamsocketrecvfrom »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-socket-get-name.md: « streamsocketgetname
+  - function.stream-socket-recvfrom.md: streamsocketrecvfrom »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsocketpair
 ---
 # streamsocketpair
@@ -34,7 +34,7 @@ stream_socket_pair(int $domain, int $type, int $protocol): array|false
 
 Використовуваний протокол: **`STREAM_IPPROTO_ICMP`** **`STREAM_IPPROTO_IP`** **`STREAM_IPPROTO_RAW`** **`STREAM_IPPROTO_TCP`** ор **`STREAM_IPPROTO_UDP`**
 
-> **Зауваження**: Будь ласка, зверніться до розділу [Список потокових констант](stream.constants.html) за детальною інформацією щодо кожної константи.
+> **Зауваження**: Будь ласка, зверніться до розділу [Список потокових констант](stream.constants.md) за детальною інформацією щодо кожної константи.
 
 ### Значення, що повертаються
 

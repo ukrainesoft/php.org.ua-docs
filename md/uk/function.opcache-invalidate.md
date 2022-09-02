@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.opcache-get-status.html: « opcachegetstatus
-  - function.opcache-is-script-cached.html: opcacheісscriptcached »
+  - function.opcache-get-status.md: « opcachegetstatus
+  - function.opcache-is-script-cached.md: opcacheісscriptcached »
   - index.md: PHP Manual
   - ref.opcache.md: Функции OPcache
 title: opcacheinvalidate

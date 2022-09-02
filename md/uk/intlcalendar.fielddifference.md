@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.equals.html: '« IntlCalendar::equals'
-  - intlcalendar.fromdatetime.html: 'IntlCalendar::fromDateTime »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.equals.md: '« IntlCalendar::equals'
+  - intlcalendar.fromdatetime.md: 'IntlCalendar::fromDateTime »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::fieldDifference'
 ---
 # IntlCalendar::fieldDifference
@@ -34,7 +34,7 @@ intlcal_field_difference(IntlCalendar $calendar, float $timestamp, int $field): 
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `timestamp`
 
@@ -44,7 +44,7 @@ intlcal_field_difference(IntlCalendar $calendar, float $timestamp, int $field): 
 
 Поле, що становить кількість, що порівнюється.
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 

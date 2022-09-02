@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-ht-trendmode.html: « traderхтtrendmode
-  - function.trader-linearreg-angle.html: traderlinearregangle »
+  - function.trader-ht-trendmode.md: « traderхтtrendmode
+  - function.trader-linearreg-angle.md: traderlinearregangle »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderkama

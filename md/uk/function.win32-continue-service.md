@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.win32service.md: « win32service
-  - function.win32-create-service.html: win32createservice »
+  - function.win32-create-service.md: win32createservice »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
 title: win32continueservice
@@ -48,7 +48,7 @@ win32_continue_service(string $servicename, string $machine = ?): void
 | --- | --- |
 | PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed) |
 | PECL win32service 0.3.0 | Ця функція більше не потребує привілею адміністратора, якщо коректно налаштовано ACL для користувача, що використовується. |
 
 ### Дивіться також

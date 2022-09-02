@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-manager.selectserver.html: '« MongoDBDriverManager::selectServer'
-  - class.mongodb-driver-command.html: MongoDBDriverCommand »
+  - mongodb-driver-manager.selectserver.md: '« MongoDBDriverManager::selectServer'
+  - class.mongodb-driver-command.md: MongoDBDriverCommand »
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.html: MongoDBDriverManager
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
 title: 'MongoDBDriverManager::startSession'
 ---
 # MongoDBDriverManager::startSession
@@ -20,7 +20,7 @@ final public MongoDB\Driver\Manager::startSession(?array $options = null): Mongo
 
 Створює [MongoDBDriverSession](class.mongodb-driver-session.md) для вказаних параметрів. Сеанс потім може бути вказаний під час виконання команд, запитів та операцій запису.
 
-> **Зауваження** [MongoDBDriverSession](class.mongodb-driver-session.html) може використовуватися тільки з [MongoDBDriverManager](class.mongodb-driver-manager.md), З якого він був створений.
+> **Зауваження** [MongoDBDriverSession](class.mongodb-driver-session.md) може використовуватися тільки з [MongoDBDriverManager](class.mongodb-driver-manager.md), З якого він був створений.
 
 ### Список параметрів
 

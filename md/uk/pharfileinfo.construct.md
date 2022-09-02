@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pharfileinfo.compress.html: '« PharFileInfo::compress'
-  - pharfileinfo.decompress.html: 'PharFileInfo::decompress »'
-  - index.html: PHP Manual
-  - class.pharfileinfo.html: PharFileInfo
+  - pharfileinfo.compress.md: '« PharFileInfo::compress'
+  - pharfileinfo.decompress.md: 'PharFileInfo::decompress »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::construct'
 ---
 # PharFileInfo::construct
@@ -16,7 +16,7 @@ PharFileInfo::construct — Конструктор об'єкта PharFileInfo
 
 public **PharFileInfo::construct**(string `$filename`
 
-Не повинен викликатись безпосередньо. Об'єкт PharFileInfo слід ініціалізувати за допомогою [Phar::offsetGet()](phar.offsetget.html)за допомогою синтаксису доступу до масиву.
+Не повинен викликатись безпосередньо. Об'єкт PharFileInfo слід ініціалізувати за допомогою [Phar::offsetGet()](phar.offsetget.md)за допомогою синтаксису доступу до масиву.
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ public **PharFileInfo::construct**(string `$filename`
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо [construct()](language.oop5.decon.html#object.construct) викликаний двічі. Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо запитаний URL некоректний, phar-архів неможливо відкрити або якщо вказаний файл відсутній в архіві.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо [construct()](language.oop5.decon.md#object.construct) викликаний двічі. Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо запитаний URL некоректний, phar-архів неможливо відкрити або якщо вказаний файл відсутній в архіві.
 
 ### Приклади
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-control.show.html: '« UIControl::show'
-  - ui-menu.append.html: 'ОЙMenu::append »'
+  - ui-control.show.md: '« UIControl::show'
+  - ui-menu.append.md: 'ОЙMenu::append »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Меню

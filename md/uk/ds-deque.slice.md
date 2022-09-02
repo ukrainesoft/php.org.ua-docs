@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.shift.html: '« DsDeque::shift'
-  - ds-deque.sort.html: 'ДсDeque::sort »'
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - ds-deque.shift.md: '« DsDeque::shift'
+  - ds-deque.sort.md: 'ДсDeque::sort »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::slice'
 ---
 # ДсDeque::slice

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hashcontext.serialize.html: '« HashContext::serialize'
-  - ref.hash.html: Функции Hash »
-  - index.html: PHP Manual
-  - class.hashcontext.html: HashContext
+  - hashcontext.serialize.md: '« HashContext::serialize'
+  - ref.hash.md: Функции Hash »
+  - index.md: PHP Manual
+  - class.hashcontext.md: HashContext
 title: 'HashContext::unserialize'
 ---
 # HashContext::unserialize

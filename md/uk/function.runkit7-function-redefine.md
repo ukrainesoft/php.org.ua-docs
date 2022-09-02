@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.runkit7-function-copy.html: « runkit7functioncopy
-  - function.runkit7-function-remove.html: runkit7functionremove »
+  - function.runkit7-function-copy.md: « runkit7functioncopy
+  - function.runkit7-function-remove.md: runkit7functionremove »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
 title: runkit7functionredefine

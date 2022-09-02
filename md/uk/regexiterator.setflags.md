@@ -26,13 +26,13 @@ public RegexIterator::setFlags(int $flags): void
 
 Прапори, бітова маска класу констант.
 
-Нижче наведено доступні прапори. Сенс та значення прапорів описані в розділі [зумовлених констант](class.regexiterator.html#regexiterator.constants)
+Нижче наведено доступні прапори. Сенс та значення прапорів описані в розділі [зумовлених констант](class.regexiterator.md#regexiterator.constants)
 
 **Прапори [RegexIterator](class.regexiterator.md)**
 
 | значение | константа |
 | --- | --- |
-|  | [RegexIterator::USEKEY](class.regexiterator.html#regexiterator.constants.use-key) |
+|  | [RegexIterator::USEKEY](class.regexiterator.md#regexiterator.constants.use-key) |
 
 ### Значення, що повертаються
 

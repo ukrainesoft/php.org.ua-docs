@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.session-decode.html: « sessiondecode
-  - function.session-encode.html: sessionencode »
-  - index.html: PHP Manual
-  - ref.session.html: Функції для роботи із сесіями
+  - function.session-decode.md: « sessiondecode
+  - function.session-encode.md: sessionencode »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
 title: sessiondestroy
 ---
 # sessiondestroy
@@ -18,13 +18,13 @@ sessiondestroy — Знищує всі дані сесії
 session_destroy(): bool
 ```
 
-**sessiondestroy()** знищує всі дані, пов'язані з поточною сесією. Ця функція не видаляє будь-які глобальні змінні, пов'язані з сесією та не видаляє сесійні cookie. Щоб знову використати змінні сесії, слід викликати [sessionstart()](function.session-start.html)
+**sessiondestroy()** знищує всі дані, пов'язані з поточною сесією. Ця функція не видаляє будь-які глобальні змінні, пов'язані з сесією та не видаляє сесійні cookie. Щоб знову використати змінні сесії, слід викликати [sessionstart()](function.session-start.md)
 
 > **Зауваження**: Немає необхідності викликати **sessiondestroy()** у звичайному коді. Очищайте масив $SESSION замість видалення сесії даних.
 
-Щоб повністю видалити сесію, також необхідно видалити її ідентифікатор. Якщо для передачі ідентифікатора сесії використовуються cookie (поведінка за умовчанням), сесійні cookie також повинні бути видалені. Для цього можна використати [setcookie()](function.setcookie.html)
+Щоб повністю видалити сесію, також необхідно видалити її ідентифікатор. Якщо для передачі ідентифікатора сесії використовуються cookie (поведінка за умовчанням), сесійні cookie також повинні бути видалені. Для цього можна використати [setcookie()](function.setcookie.md)
 
-При ввімкненій опції [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode)Вам не потрібно видаляти застарілі cookie ідентифікатора сесії. У цьому немає необхідності, тому що модуль сесії не прийме cookie ідентифікатора сесії, якщо з цим ідентифікатором сесії немає пов'язаних даних, і модуль сесії встановить новий cookie ідентифікатора сесії. Рекомендується вмикати опцію [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode) для всіх веб-сайтів.
+При ввімкненій опції [session.usestrictmode](session.configuration.md#ini.session.use-strict-mode)Вам не потрібно видаляти застарілі cookie ідентифікатора сесії. У цьому немає необхідності, тому що модуль сесії не прийме cookie ідентифікатора сесії, якщо з цим ідентифікатором сесії немає пов'язаних даних, і модуль сесії встановить новий cookie ідентифікатора сесії. Рекомендується вмикати опцію [session.usestrictmode](session.configuration.md#ini.session.use-strict-mode) для всіх веб-сайтів.
 
 **Увага**
 
@@ -32,7 +32,7 @@ session_destroy(): bool
 
 Навіть якщо поточний модуль сесії не підтримує порожні cookie ідентифікатора сесії, негайне видалення сесії може призвести до порожнього cookie ідентифікатора сесії через стан гонки на стороні клієнта (браузера). Це призведе до того, що клієнт створить багато ідентифікаторів сесії без необхідності.
 
-Щоб цього уникнути, необхідно встановити $SESSION тимчасову мітку видалення та прибрати доступ пізніше. Або переконатися, що ваша програма не має конкуруючих запитів. Це також стосується [sessionregenerateid()](function.session-regenerate-id.html)
+Щоб цього уникнути, необхідно встановити $SESSION тимчасову мітку видалення та прибрати доступ пізніше. Або переконатися, що ваша програма не має конкуруючих запитів. Це також стосується [sessionregenerateid()](function.session-regenerate-id.md)
 
 ### Список параметрів
 
@@ -44,7 +44,7 @@ session_destroy(): bool
 
 ### Приклади
 
-**Приклад #1 Знищення сесії за допомогою [SESSION](reserved.variables.session.html)**
+**Приклад #1 Знищення сесії за допомогою [SESSION](reserved.variables.session.md)**
 
 ```php
 <?php
@@ -74,12 +74,12 @@ session_destroy();
 
 > **Зауваження**
 > 
-> Використовуйте [sessionunset()](function.session-unset.html) тільки для застарілого коду, де не використовується [SESSION](reserved.variables.session.html)
+> Використовуйте [sessionunset()](function.session-unset.md) тільки для застарілого коду, де не використовується [SESSION](reserved.variables.session.md)
 
 ### Дивіться також
 
--   [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode)
--   [sessionreset()](function.session-reset.html) - реініціалізує сесію оригінальними значеннями
--   [sessionregenerateid()](function.session-regenerate-id.html) - Генерує та оновлює ідентифікатор поточної сесії
--   [unset()](function.unset.html) - Видаляє змінну
--   [setcookie()](function.setcookie.html) - Надсилає cookie
+-   [session.usestrictmode](session.configuration.md#ini.session.use-strict-mode)
+-   [sessionreset()](function.session-reset.md) - реініціалізує сесію оригінальними значеннями
+-   [sessionregenerateid()](function.session-regenerate-id.md) - Генерує та оновлює ідентифікатор поточної сесії
+-   [unset()](function.unset.md) - Видаляє змінну
+-   [setcookie()](function.setcookie.md) - Надсилає cookie

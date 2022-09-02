@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.settimeallowed.html: '« SolrQuery::setTimeAllowed'
-  - solrdismaxquery.addbigramphrasefield.html: 'SolrDisMaxQuery::addBigramPhraseField »'
-  - index.html: PHP Manual
-  - book.solr.html: Solr
+  - solrquery.settimeallowed.md: '« SolrQuery::setTimeAllowed'
+  - solrdismaxquery.addbigramphrasefield.md: 'SolrDisMaxQuery::addBigramPhraseField »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
 title: Клас SolrDisMaxQuery
 ---
 # Клас SolrDisMaxQuery
@@ -313,31 +313,31 @@ public SolrQuery::setTimeAllowed(int $timeAllowed): SolrQuery
 
 ## Зміст
 
--   [SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.html) - Додає поле фразової біграми (параметр pf2)
--   [SolrDisMaxQuery::addBoostQuery](solrdismaxquery.addboostquery.html) — Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
--   [SolrDisMaxQuery::addPhraseField](solrdismaxquery.addphrasefield.html) - Додає поле фрази (параметр pf)
--   [SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.html) — Додає поле запиту із необов'язковим підвищенням (параметр qf)
--   [SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.html) - Додає поле триграми (параметр pf3)
--   [SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.html) — Додає поле до параметра поля користувача (uf)
--   [SolrDisMaxQuery::construct](solrdismaxquery.construct.html) - Конструктор класу
--   [SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.html) - Видаляє поле біграми фрази (параметр pf2)
--   [SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.html) — Видаляє часткове підвищення запиту на ім'я поля (bq)
--   [SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.html) - Видаляє поле фрази (параметра)
--   [SolrDisMaxQuery::removeQueryField](solrdismaxquery.removequeryfield.html) — Видаляє поле запиту (параметр qf)
--   [SolrDisMaxQuery::removeTrigramPhraseField](solrdismaxquery.removetrigramphrasefield.html) - Видаляє поле триграми (параметр pf3)
--   [SolrDisMaxQuery::removeUserField](solrdismaxquery.removeuserfield.html) — Видаляє поле з параметра поля користувача (uf)
--   [SolrDisMaxQuery::setBigramPhraseFields](solrdismaxquery.setbigramphrasefields.html) - Встановлює поля біграми фрази та їх посилення (і відхилення) за допомогою параметра pf2
--   [SolrDisMaxQuery::setBigramPhraseSlop](solrdismaxquery.setbigramphraseslop.html) - Встановлює коефіцієнт відхилення біграми фрази (параметр ps2)
--   [SolrDisMaxQuery::setBoostFunction](solrdismaxquery.setboostfunction.html) - Встановлює функцію посилення (параметр bf)
--   [SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.html) - Безпосередньо встановлює параметр запиту посилення (bq)
--   [SolrDisMaxQuery::setMinimumMatch](solrdismaxquery.setminimummatch.html) - Встановлює мінімальну відповідність "Should" (mm)
--   [SolrDisMaxQuery::setPhraseFields](solrdismaxquery.setphrasefields.html) — Встановлює поля фрази та їх посилення (і відхилення) за допомогою pf2
--   [SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.html) — Встановлює коефіцієнт відхилення за промовчанням для запитів фраз (параметр ps)
--   [SolrDisMaxQuery::setQueryAlt](solrdismaxquery.setqueryalt.html) - Встановлює альтернативний запит (параметр q.alt)
--   [SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.html) — Визначає коефіцієнт відхилення, дозволений для фразових запитів, які явно включені в рядок запиту користувача (параметр qf)
--   [SolrDisMaxQuery::setTieBreaker](solrdismaxquery.settiebreaker.html) - Встановлює параметр Tie Breaker (параметр tie)
--   [SolrDisMaxQuery::setTrigramPhraseFields](solrdismaxquery.settrigramphrasefields.html) - Безпосередньо встановлює поля триграми фрази (параметр pf3)
--   [SolrDisMaxQuery::setTrigramPhraseSlop](solrdismaxquery.settrigramphraseslop.html) - Встановлює коефіцієнт відхилення триграми фрази (параметр ps3)
--   [SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.html) — Встановлює параметр полів користувача (uf)
--   [SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.html) - Перемикає QueryParser на DisMax Query Parser
--   [SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.html) - Перемикає QueryParser на EDisMax
+-   [SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.md) - Додає поле фразової біграми (параметр pf2)
+-   [SolrDisMaxQuery::addBoostQuery](solrdismaxquery.addboostquery.md) — Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
+-   [SolrDisMaxQuery::addPhraseField](solrdismaxquery.addphrasefield.md) - Додає поле фрази (параметр pf)
+-   [SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.md) — Додає поле запиту із необов'язковим підвищенням (параметр qf)
+-   [SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.md) - Додає поле триграми (параметр pf3)
+-   [SolrDisMaxQuery::addUserField](solrdismaxquery.adduserfield.md) — Додає поле до параметра поля користувача (uf)
+-   [SolrDisMaxQuery::construct](solrdismaxquery.construct.md) - Конструктор класу
+-   [SolrDisMaxQuery::removeBigramPhraseField](solrdismaxquery.removebigramphrasefield.md) - Видаляє поле біграми фрази (параметр pf2)
+-   [SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.md) — Видаляє часткове підвищення запиту на ім'я поля (bq)
+-   [SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.md) - Видаляє поле фрази (параметра)
+-   [SolrDisMaxQuery::removeQueryField](solrdismaxquery.removequeryfield.md) — Видаляє поле запиту (параметр qf)
+-   [SolrDisMaxQuery::removeTrigramPhraseField](solrdismaxquery.removetrigramphrasefield.md) - Видаляє поле триграми (параметр pf3)
+-   [SolrDisMaxQuery::removeUserField](solrdismaxquery.removeuserfield.md) — Видаляє поле з параметра поля користувача (uf)
+-   [SolrDisMaxQuery::setBigramPhraseFields](solrdismaxquery.setbigramphrasefields.md) - Встановлює поля біграми фрази та їх посилення (і відхилення) за допомогою параметра pf2
+-   [SolrDisMaxQuery::setBigramPhraseSlop](solrdismaxquery.setbigramphraseslop.md) - Встановлює коефіцієнт відхилення біграми фрази (параметр ps2)
+-   [SolrDisMaxQuery::setBoostFunction](solrdismaxquery.setboostfunction.md) - Встановлює функцію посилення (параметр bf)
+-   [SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.md) - Безпосередньо встановлює параметр запиту посилення (bq)
+-   [SolrDisMaxQuery::setMinimumMatch](solrdismaxquery.setminimummatch.md) - Встановлює мінімальну відповідність "Should" (mm)
+-   [SolrDisMaxQuery::setPhraseFields](solrdismaxquery.setphrasefields.md) — Встановлює поля фрази та їх посилення (і відхилення) за допомогою pf2
+-   [SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.md) — Встановлює коефіцієнт відхилення за промовчанням для запитів фраз (параметр ps)
+-   [SolrDisMaxQuery::setQueryAlt](solrdismaxquery.setqueryalt.md) - Встановлює альтернативний запит (параметр q.alt)
+-   [SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.md) — Визначає коефіцієнт відхилення, дозволений для фразових запитів, які явно включені в рядок запиту користувача (параметр qf)
+-   [SolrDisMaxQuery::setTieBreaker](solrdismaxquery.settiebreaker.md) - Встановлює параметр Tie Breaker (параметр tie)
+-   [SolrDisMaxQuery::setTrigramPhraseFields](solrdismaxquery.settrigramphrasefields.md) - Безпосередньо встановлює поля триграми фрази (параметр pf3)
+-   [SolrDisMaxQuery::setTrigramPhraseSlop](solrdismaxquery.settrigramphraseslop.md) - Встановлює коефіцієнт відхилення триграми фрази (параметр ps3)
+-   [SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md) — Встановлює параметр полів користувача (uf)
+-   [SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.md) - Перемикає QueryParser на DisMax Query Parser
+-   [SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.md) - Перемикає QueryParser на EDisMax

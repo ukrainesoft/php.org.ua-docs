@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-encrypt.html: « opensslencrypt
-  - function.openssl-free-key.html: opensslfreekey »
+  - function.openssl-encrypt.md: « opensslencrypt
+  - function.openssl-free-key.md: opensslfreekey »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslerrorstring

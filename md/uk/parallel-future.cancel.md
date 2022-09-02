@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.parallel-future.html: « parallelFuture
-  - parallel-future.cancelled.html: 'parallelFuture::cancelled »'
+  - class.parallel-future.md: « parallelFuture
+  - parallel-future.cancelled.md: 'parallelFuture::cancelled »'
   - index.md: PHP Manual
-  - class.parallel-future.html: parallelFuture
+  - class.parallel-future.md: parallelFuture
 title: 'parallelFuture::cancel'
 ---
 # parallelFuture::cancel

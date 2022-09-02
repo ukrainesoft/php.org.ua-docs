@@ -1,7 +1,7 @@
 ---
 navigation:
   - mhash.examples.md: « Приклади
-  - function.mhash-count.html: mhashcount »
+  - function.mhash-count.md: mhashcount »
   - index.md: PHP Manual
   - book.mhash.md: Mhash
 title: Функції Mhash

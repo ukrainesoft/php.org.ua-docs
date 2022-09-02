@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.gettype.html: '« IntlCalendar::getType'
-  - intlcalendar.indaylighttime.html: 'IntlCalendar::inDaylightTime »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.gettype.md: '« IntlCalendar::getType'
+  - intlcalendar.indaylighttime.md: 'IntlCalendar::inDaylightTime »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getWeekendTransition'
 ---
 # IntlCalendar::getWeekendTransition
@@ -28,7 +28,7 @@ intlcal_get_weekend_transition(IntlCalendar $calendar, int $dayOfWeek): int|fals
 
 Повертає кількість мілісекундів після опівночі, коли вихідні починаються або закінчуються.
 
-Застосовується тільки для днів тижня, для яких [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.html) повертає або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, або **`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**. Виклик цієї функції для інших днів тижня є помилкою.
+Застосовується тільки для днів тижня, для яких [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md) повертає або **`IntlCalendar::DOW_TYPE_WEEKEND_OFFSET`**, або **`IntlCalendar::DOW_TYPE_WEEKEND_CEASE`**. Виклик цієї функції для інших днів тижня є помилкою.
 
 Для цієї функції потрібний ICU 4.4 або новіший.
 
@@ -36,7 +36,7 @@ intlcal_get_weekend_transition(IntlCalendar $calendar, int $dayOfWeek): int|fals
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `dayOfWeek`
 
@@ -48,4 +48,4 @@ intlcal_get_weekend_transition(IntlCalendar $calendar, int $dayOfWeek): int|fals
 
 ### Приклади
 
-Приклади дивіться в описі функції [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.html)
+Приклади дивіться в описі функції [IntlCalendar::getDayOfWeekType()](intlcalendar.getdayofweektype.md)

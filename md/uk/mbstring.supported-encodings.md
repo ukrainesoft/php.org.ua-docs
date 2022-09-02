@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mbstring.http.html: « Введення та виведення HTTP
-  - mbstring.overload.html: Механизм перегрузки функций »
-  - index.html: PHP Manual
-  - book.mbstring.html: Багатобайтові рядки
+  - mbstring.http.md: « Введення та виведення HTTP
+  - mbstring.overload.md: Механизм перегрузки функций »
+  - index.md: PHP Manual
+  - book.mbstring.md: Багатобайтові рядки
 title: 'Кодування символів, що підтримуються'
 ---
 # Кодування символів, що підтримуються

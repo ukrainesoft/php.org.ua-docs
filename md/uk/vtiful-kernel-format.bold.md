@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-format.align.html: '« VtifulKernelFormat::align'
-  - vtiful-kernel-format.italic.html: 'VtifulKernelFormat::italic »'
-  - index.html: PHP Manual
-  - class.vtiful-kernel-format.html: VtifulKernelFormat
+  - vtiful-kernel-format.align.md: '« VtifulKernelFormat::align'
+  - vtiful-kernel-format.italic.md: 'VtifulKernelFormat::italic »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-format.md: VtifulKernelFormat
 title: 'VtifulKernelFormat::bold'
 ---
 # VtifulKernelFormat::bold

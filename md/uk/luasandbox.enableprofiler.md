@@ -1,9 +1,9 @@
 ---
 navigation:
-  - luasandbox.disableprofiler.html: '« LuaSandbox::disableProfiler'
-  - luasandbox.getcpuusage.html: 'LuaSandbox::getCPUUsage »'
-  - index.html: PHP Manual
-  - class.luasandbox.html: LuaSandbox
+  - luasandbox.disableprofiler.md: '« LuaSandbox::disableProfiler'
+  - luasandbox.getcpuusage.md: 'LuaSandbox::getCPUUsage »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::enableProfiler'
 ---
 # LuaSandbox::enableProfiler

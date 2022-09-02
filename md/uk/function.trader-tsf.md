@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-trix.html: « tradertrix
-  - function.trader-typprice.html: tradertypprice »
+  - function.trader-trix.md: « tradertrix
+  - function.trader-typprice.md: tradertypprice »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradertsf

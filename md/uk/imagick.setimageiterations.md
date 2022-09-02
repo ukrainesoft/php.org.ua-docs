@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimageinterpolatemethod.html: '« Imagick::setImageInterpolateMethod'
-  - imagick.setimagematte.html: 'Imagick::setImageMatte »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimageinterpolatemethod.md: '« Imagick::setImageInterpolateMethod'
+  - imagick.setimagematte.md: 'Imagick::setImageMatte »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageIterations'
 ---
 # Imagick::setImageIterations

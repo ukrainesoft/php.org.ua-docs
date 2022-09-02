@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-macdfix.html: « tradermacdfix
-  - function.trader-mavp.html: tradermavp »
+  - function.trader-macdfix.md: « tradermacdfix
+  - function.trader-mavp.md: tradermavp »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradermama

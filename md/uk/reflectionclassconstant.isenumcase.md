@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclassconstant.getvalue.html: '« ReflectionClassConstant::getValue'
-  - reflectionclassconstant.isfinal.html: 'ReflectionClassConstant::isFinal »'
-  - index.html: PHP Manual
-  - class.reflectionclassconstant.html: ReflectionClassConstant
+  - reflectionclassconstant.getvalue.md: '« ReflectionClassConstant::getValue'
+  - reflectionclassconstant.isfinal.md: 'ReflectionClassConstant::isFinal »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::isEnumCase'
 ---
 # ReflectionClassConstant::isEnumCase
@@ -18,7 +18,7 @@ ReflectionClassConstant::isEnumCase — Перевіряє, чи є конста
 public ReflectionClassConstant::isEnumCase(): bool
 ```
 
-Перевіряє, чи є константа класу варіантом [перечисления](language.enumerations.html)
+Перевіряє, чи є константа класу варіантом [перечисления](language.enumerations.md)
 
 ### Список параметрів
 
@@ -67,4 +67,4 @@ ARCHIVED - это вариант переключения
 
 ### Дивіться також
 
--   [ReflectionEnum](class.reflectionenum.html)
+-   [ReflectionEnum](class.reflectionenum.md)

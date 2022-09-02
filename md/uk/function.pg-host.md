@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-get-result.html: « pggetresult
-  - function.pg-insert.html: пгinsert »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-get-result.md: « pggetresult
+  - function.pg-insert.md: пгinsert »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгhost
 ---
 # пгhost
@@ -24,7 +24,7 @@ pg_host(?PgSql\Connection $connection = null): string
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -38,7 +38,7 @@ pg_host(?PgSql\Connection $connection = null): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `connection` тепер допускає значення null. |
 
 ### Приклади
@@ -60,5 +60,5 @@ if ($pgsql_conn) {
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
--   [пгpconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL
+-   [пгpconnect()](function.pg-pconnect.md) - Відкриває постійне з'єднання із сервером PostgreSQL

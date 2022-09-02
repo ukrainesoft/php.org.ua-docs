@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-replace.html: « arrayreplace
-  - function.array-search.html: arraysearch »
+  - function.array-replace.md: « arrayreplace
+  - function.array-search.md: arraysearch »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayreverse

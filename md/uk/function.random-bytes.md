@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.csprng.html: « Функции CSPRNG
-  - function.random-int.html: randomint »
-  - index.html: PHP Manual
-  - ref.csprng.html: Функции CSPRNG
+  - ref.csprng.md: « Функции CSPRNG
+  - function.random-int.md: randomint »
+  - index.md: PHP Manual
+  - ref.csprng.md: Функции CSPRNG
 title: randombytes
 ---
 # randombytes

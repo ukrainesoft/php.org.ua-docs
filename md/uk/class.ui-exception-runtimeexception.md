@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-exception-invalidargumentexception.html: « UIExceptionInvalidArgumentException
-  - faq.html: ЧАВО »
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - class.ui-exception-invalidargumentexception.md: « UIExceptionInvalidArgumentException
+  - faq.md: ЧАВО »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: RuntimeException
 ---
 # RuntimeException

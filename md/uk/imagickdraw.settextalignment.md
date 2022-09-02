@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setstrokewidth.html: '« ImagickDraw::setStrokeWidth'
-  - imagickdraw.settextantialias.html: 'ImagickDraw::setTextAntialias »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setstrokewidth.md: '« ImagickDraw::setStrokeWidth'
+  - imagickdraw.settextantialias.md: 'ImagickDraw::setTextAntialias »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextAlignment'
 ---
 # ImagickDraw::setTextAlignment
@@ -28,7 +28,7 @@ public ImagickDraw::setTextAlignment(int $alignment): bool
 
 `alignment`
 
-Одна з констант [ALIGN](imagick.constants.html#imagick.constants.align) `imagick::ALIGN_*`
+Одна з констант [ALIGN](imagick.constants.md#imagick.constants.align) `imagick::ALIGN_*`
 
 ### Значення, що повертаються
 

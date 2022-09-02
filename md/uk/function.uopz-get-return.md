@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-get-property.html: « uopzgetproperty
-  - function.uopz-get-static.html: uopzgetstatic »
+  - function.uopz-get-property.md: « uopzgetproperty
+  - function.uopz-get-static.md: uopzgetstatic »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzgetreturn

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-dbpointer.html: « MongoDBBSONDBPointer
-  - mongodb-bson-dbpointer.jsonserialize.html: 'MongoDBBSONDBPointer::jsonSerialize »'
+  - class.mongodb-bson-dbpointer.md: « MongoDBBSONDBPointer
+  - mongodb-bson-dbpointer.jsonserialize.md: 'MongoDBBSONDBPointer::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-dbpointer.html: MongoDBBSONDBPointer
+  - class.mongodb-bson-dbpointer.md: MongoDBBSONDBPointer
 title: 'MongoDBBSONDBPointer::construct'
 ---
 # MongoDBBSONDBPointer::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - classobj.configuration.html: « Налаштування під час виконання
-  - classobj.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - classobj.setup.html: Встановлення та налаштування
+  - classobj.configuration.md: « Налаштування під час виконання
+  - classobj.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - classobj.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

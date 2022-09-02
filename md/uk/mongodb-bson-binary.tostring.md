@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-binary.serialize.html: '« MongoDBBSONBinary::serialize'
-  - mongodb-bson-binary.unserialize.html: 'MongoDBBSONBinary::unserialize »'
+  - mongodb-bson-binary.serialize.md: '« MongoDBBSONBinary::serialize'
+  - mongodb-bson-binary.unserialize.md: 'MongoDBBSONBinary::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+  - class.mongodb-bson-binary.md: MongoDBBSONBinary
 title: 'MongoDBBSONBinary::toString'
 ---
 # MongoDBBSONBinary::toString

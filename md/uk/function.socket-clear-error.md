@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-bind.html: « socketbind
-  - function.socket-close.html: socketclose »
+  - function.socket-bind.md: « socketbind
+  - function.socket-close.md: socketclose »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketclearerror

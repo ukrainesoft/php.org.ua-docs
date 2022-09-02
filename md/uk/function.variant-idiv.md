@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.variant-get-type.html: « variantgettype
-  - function.variant-imp.html: variantimp »
-  - index.html: PHP Manual
-  - ref.com.html: Функции COM
+  - function.variant-get-type.md: « variantgettype
+  - function.variant-imp.md: variantimp »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
 title: variantidiv
 ---
 # variantidiv

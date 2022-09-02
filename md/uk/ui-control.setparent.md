@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-control.isvisible.html: '« UIControl::isVisible'
-  - ui-control.show.html: 'ОЙControl::show »'
+  - ui-control.isvisible.md: '« UIControl::isVisible'
+  - ui-control.show.md: 'ОЙControl::show »'
   - index.md: PHP Manual
-  - class.ui-control.html: ОЙControl
+  - class.ui-control.md: ОЙControl
 title: 'ОЙControl::setParent'
 ---
 # ОЙControl::setParent

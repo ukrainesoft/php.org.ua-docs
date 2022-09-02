@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.rrd-update.html: « rrdupdate
-  - function.rrd-xport.html: rrdxport »
+  - function.rrd-update.md: « rrdupdate
+  - function.rrd-xport.md: rrdxport »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
 title: rrdversion

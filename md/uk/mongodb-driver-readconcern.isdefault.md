@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readconcern.getlevel.html: '« MongoDBDriverReadConcern::getLevel'
-  - mongodb-driver-readconcern.serialize.html: 'MongoDBDriverReadConcern::serialize »'
+  - mongodb-driver-readconcern.getlevel.md: '« MongoDBDriverReadConcern::getLevel'
+  - mongodb-driver-readconcern.serialize.md: 'MongoDBDriverReadConcern::serialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
 title: 'MongoDBDriverReadConcern::isDefault'
 ---
 # MongoDBDriverReadConcern::isDefault

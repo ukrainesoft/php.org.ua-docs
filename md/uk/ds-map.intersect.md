@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.hasvalue.html: '« DsMap::hasValue'
-  - ds-map.isempty.html: 'ДсMap::isEmpty »'
+  - ds-map.hasvalue.md: '« DsMap::hasValue'
+  - ds-map.isempty.md: 'ДсMap::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::intersect'
 ---
 # ДсMap::intersect

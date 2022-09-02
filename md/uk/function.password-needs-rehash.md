@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.password-hash.html: « passwordhash
-  - function.password-verify.html: passwordverify »
+  - function.password-hash.md: « passwordhash
+  - function.password-verify.md: passwordverify »
   - index.md: PHP Manual
   - ref.password.md: Функції хешування паролів
 title: passwordneedsrehash

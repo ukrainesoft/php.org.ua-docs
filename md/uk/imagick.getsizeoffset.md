@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getsize.html: '« Imagick::getSize'
-  - imagick.getversion.html: 'Imagick::getVersion »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getsize.md: '« Imagick::getSize'
+  - imagick.getversion.md: 'Imagick::getVersion »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getSizeOffset'
 ---
 # Imagick::getSizeOffset

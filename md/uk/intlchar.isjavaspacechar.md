@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.isjavaidstart.html: '« IntlChar::isJavaIDStart'
-  - intlchar.islower.html: 'IntlChar::islower »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.isjavaidstart.md: '« IntlChar::isJavaIDStart'
+  - intlchar.islower.md: 'IntlChar::islower »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::isJavaSpaceChar'
 ---
 # IntlChar::isJavaSpaceChar
@@ -58,6 +58,6 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::isspace()](intlchar.isspace.html) - Перевіряє, чи є символ пробельним
--   [IntlChar::isWhitespace()](intlchar.iswhitespace.html) - Перевірити, чи є символ пробельним з точки зору ICU
--   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.html) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)
+-   [IntlChar::isspace()](intlchar.isspace.md) - Перевіряє, чи є символ пробельним
+-   [IntlChar::isWhitespace()](intlchar.iswhitespace.md) - Перевірити, чи є символ пробельним з точки зору ICU
+-   [IntlChar::isUWhiteSpace()](intlchar.isuwhitespace.md) - Перевірити, чи має символ властивість WhiteSpace (пробіловий символ)

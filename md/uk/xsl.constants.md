@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xsl.resources.html: « Типи ресурсів
-  - xsl.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.xsl.html: XSL
+  - xsl.resources.md: « Типи ресурсів
+  - xsl.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.xsl.md: XSL
 title: Обумовлені константи
 ---
 # Обумовлені константи

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - curlfile.getmimetype.html: '« CURLFile::getMimeType'
-  - curlfile.setmimetype.html: 'CURLFile::setMimeType »'
-  - index.html: PHP Manual
-  - class.curlfile.html: CURLFile
+  - curlfile.getmimetype.md: '« CURLFile::getMimeType'
+  - curlfile.setmimetype.md: 'CURLFile::setMimeType »'
+  - index.md: PHP Manual
+  - class.curlfile.md: CURLFile
 title: 'CURLFile::getPostFilename'
 ---
 # CURLFile::getPostFilename

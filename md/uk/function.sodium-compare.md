@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-bin2hex.html: « sodiumbin2hex
-  - function.sodium-crypto-aead-aes256gcm-decrypt.html: sodiumcryptoaeadaes256gcmdecrypt »
+  - function.sodium-bin2hex.md: « sodiumbin2hex
+  - function.sodium-crypto-aead-aes256gcm-decrypt.md: sodiumcryptoaeadaes256gcmdecrypt »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcompare

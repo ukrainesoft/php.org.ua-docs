@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqdevice.gettimertimeout.html: '« ZMQDevice::getTimerTimeout'
-  - zmqdevice.setidlecallback.html: 'ZMQDevice::setIdleCallback »'
-  - index.html: PHP Manual
-  - class.zmqdevice.html: ZMQDevice
+  - zmqdevice.gettimertimeout.md: '« ZMQDevice::getTimerTimeout'
+  - zmqdevice.setidlecallback.md: 'ZMQDevice::setIdleCallback »'
+  - index.md: PHP Manual
+  - class.zmqdevice.md: ZMQDevice
 title: 'ZMQDevice::run'
 ---
 # ZMQDevice::run

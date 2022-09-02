@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.xsl.html: « XSL
-  - xsl.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.xsl.html: XSL
+  - book.xsl.md: « XSL
+  - xsl.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.xsl.md: XSL
 title: Вступ
 ---
 # Вступ

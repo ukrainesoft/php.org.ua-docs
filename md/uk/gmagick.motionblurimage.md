@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.modulateimage.html: '« Gmagick::modulateimage'
-  - gmagick.newimage.html: 'Gmagick::newimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.modulateimage.md: '« Gmagick::modulateimage'
+  - gmagick.newimage.md: 'Gmagick::newimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::motionblurimage'
 ---
 # Gmagick::motionblurimage

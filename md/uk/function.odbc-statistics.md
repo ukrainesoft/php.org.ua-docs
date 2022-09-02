@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-specialcolumns.html: « odbcspecialcolumns
-  - function.odbc-tableprivileges.html: odbctableprivileges »
+  - function.odbc-specialcolumns.md: « odbcspecialcolumns
+  - function.odbc-tableprivileges.md: odbctableprivileges »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcstatistics

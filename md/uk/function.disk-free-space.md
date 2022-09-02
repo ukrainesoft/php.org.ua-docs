@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dirname.html: « dirname
-  - function.disk-total-space.html: disktotalspace »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.dirname.md: « dirname
+  - function.disk-total-space.md: disktotalspace »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: diskfreespace
 ---
 # diskfreespace
@@ -51,8 +51,8 @@ $df_d = disk_free_space("D:");
 
 ### Примітки
 
-> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.html)оскільки файл повинен бути доступний через файлову систему сервера.
+> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.md)оскільки файл повинен бути доступний через файлову систему сервера.
 
 ### Дивіться також
 
--   [disktotalspace()](function.disk-total-space.html) - Повертає загальний розмір файлової системи або розділу диска
+-   [disktotalspace()](function.disk-total-space.md) - Повертає загальний розмір файлової системи або розділу диска

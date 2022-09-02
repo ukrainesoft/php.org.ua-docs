@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dio-tcsetattr.html: « diotcsetattr
-  - function.dio-write.html: diowrite »
-  - index.html: PHP Manual
-  - ref.dio.html: Функції прямого введення/виводу
+  - function.dio-tcsetattr.md: « diotcsetattr
+  - function.dio-write.md: diowrite »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
 title: diotruncate
 ---
 # diotruncate
@@ -26,7 +26,7 @@ dio_truncate(resource $fd, int $offset): bool
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
 
 `offset`
 

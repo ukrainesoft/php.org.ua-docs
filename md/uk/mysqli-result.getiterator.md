@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.free.html: '« mysqliresult::free'
-  - mysqli-result.lengths.html: 'mysqliresult::$lengths »'
+  - mysqli-result.free.md: '« mysqliresult::free'
+  - mysqli-result.lengths.md: 'mysqliresult::$lengths »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::getIterator'
 ---
 # mysqliresult::getIterator

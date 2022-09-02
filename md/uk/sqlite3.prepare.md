@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.openblob.html: '« SQLite3::openBlob'
-  - sqlite3.query.html: 'SQLite3::query »'
-  - index.html: PHP Manual
-  - class.sqlite3.html: SQLite3
+  - sqlite3.openblob.md: '« SQLite3::openBlob'
+  - sqlite3.query.md: 'SQLite3::query »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
 title: 'SQLite3::prepare'
 ---
 # SQLite3::prepare
@@ -18,7 +18,7 @@ SQLite3::prepare — Підготовка SQL-запиту для виконан
 public SQLite3::prepare(string $query): SQLite3Stmt|false
 ```
 
-Підготовляє SQL-запит для виконання та повертає об'єкт [SQLite3Stmt](class.sqlite3stmt.html)
+Підготовляє SQL-запит для виконання та повертає об'єкт [SQLite3Stmt](class.sqlite3stmt.md)
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ SQL запит на підготовку.
 
 ### Значення, що повертаються
 
-Повертає об'єкт [SQLite3Stmt](class.sqlite3stmt.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає об'єкт [SQLite3Stmt](class.sqlite3stmt.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -52,6 +52,6 @@ var_dump($result->fetchArray());
 
 ### Дивіться також
 
--   [SQLite3Stmt::paramCount()](sqlite3stmt.paramcount.html) - Повертає кількість параметрів у підготовленому запиті
--   [SQLite3Stmt::bindValue()](sqlite3stmt.bindvalue.html) - Зв'язує значення параметра зі змінною підготовленого запиту
--   [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.html) - Зв'язує параметр із змінною підготовленого запиту
+-   [SQLite3Stmt::paramCount()](sqlite3stmt.paramcount.md) - Повертає кількість параметрів у підготовленому запиті
+-   [SQLite3Stmt::bindValue()](sqlite3stmt.bindvalue.md) - Зв'язує значення параметра зі змінною підготовленого запиту
+-   [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.md) - Зв'язує параметр із змінною підготовленого запиту

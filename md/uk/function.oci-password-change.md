@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-parse.html: « ociparse
-  - function.oci-pconnect.html: ocipconnect »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-parse.md: « ociparse
+  - function.oci-pconnect.md: ocipconnect »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocipasswordchange
 ---
 # ocipasswordchange
@@ -30,7 +30,7 @@ oci_password_change(    string $database_name,    string $username,  �
 
 `connection`
 
-Ідентифікатор з'єднання, що повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.md)
+Ідентифікатор з'єднання, що повертається функцією [ociconnect()](function.oci-connect.md) або [ocipconnect()](function.oci-pconnect.md)
 
 `username`
 

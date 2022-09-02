@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.csprng.html: « CSPRNG
-  - csprng.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.csprng.html: CSPRNG
+  - book.csprng.md: « CSPRNG
+  - csprng.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.csprng.md: CSPRNG
 title: Вступ
 ---
 # Вступ

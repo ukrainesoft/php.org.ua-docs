@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.json-encode.html: « jsonencode
-  - function.json-last-error.html: jsonlasterror »
+  - function.json-encode.md: « jsonencode
+  - function.json-last-error.md: jsonlasterror »
   - index.md: PHP Manual
   - ref.json.md: Функции JSON
 title: jsonlasterrormsg
@@ -18,7 +18,7 @@ jsonlasterrormsg — Повертає рядок з повідомленням �
 json_last_error_msg(): string
 ```
 
-Повертає текстовий опис останньої помилки, що сталася під час виконання [jsonencode()](function.json-encode.html) або [jsondecode()](function.json-decode.md) без прапора **`JSON_THROW_ON_ERROR`**
+Повертає текстовий опис останньої помилки, що сталася під час виконання [jsonencode()](function.json-encode.md) або [jsondecode()](function.json-decode.md) без прапора **`JSON_THROW_ON_ERROR`**
 
 ### Список параметрів
 

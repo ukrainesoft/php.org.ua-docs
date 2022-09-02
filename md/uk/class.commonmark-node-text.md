@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-item.html: « CommonMarkNodeItem
-  - commonmark-node-text.construct.html: 'CommonMarkNodeText::construct »'
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - class.commonmark-node-item.md: « CommonMarkNodeItem
+  - commonmark-node-text.construct.md: 'CommonMarkNodeText::construct »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: Text успадковує CommonMarkNode
 ---
 # Text успадковує CommonMarkNode

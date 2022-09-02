@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.pthreads.html: « Введение
-  - pthreads.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.pthreads.html: pthreads
+  - intro.pthreads.md: « Введение
+  - pthreads.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.pthreads.md: pthreads
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

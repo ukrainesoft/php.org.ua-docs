@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.proc-open.html: « procopen
-  - function.shell-exec.html: shellexec »
+  - function.proc-open.md: « procopen
+  - function.shell-exec.md: shellexec »
   - index.md: PHP Manual
   - ref.exec.md: Функции запуска программ
 title: procterminate

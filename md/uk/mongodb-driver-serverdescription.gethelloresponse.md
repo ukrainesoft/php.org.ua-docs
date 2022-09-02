@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-serverdescription.html: « MongoDBDriverServerDescription
-  - mongodb-driver-serverdescription.gethost.html: 'MongoDBDriverServerDescription::getHost »'
+  - class.mongodb-driver-serverdescription.md: « MongoDBDriverServerDescription
+  - mongodb-driver-serverdescription.gethost.md: 'MongoDBDriverServerDescription::getHost »'
   - index.md: PHP Manual
-  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
 title: 'MongoDBDriverServerDescription::getHelloResponse'
 ---
 # MongoDBDriverServerDescription::getHelloResponse

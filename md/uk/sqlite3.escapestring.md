@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.enableexceptions.html: '« SQLite3::enableExceptions'
-  - sqlite3.exec.html: 'SQLite3::exec »'
-  - index.html: PHP Manual
-  - class.sqlite3.html: SQLite3
+  - sqlite3.enableexceptions.md: '« SQLite3::enableExceptions'
+  - sqlite3.exec.md: 'SQLite3::exec »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
 title: 'SQLite3::escapeString'
 ---
 # SQLite3::escapeString

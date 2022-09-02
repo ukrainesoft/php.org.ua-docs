@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-scrub.html: « mbscrub
-  - function.mb-split.html: мбsplit »
+  - function.mb-scrub.md: « mbscrub
+  - function.mb-split.md: мбsplit »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбsendmail

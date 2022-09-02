@@ -1,7 +1,7 @@
 ---
 navigation:
-  - image.examples-png.html: « Створення PNG засобами PHP
-  - image.examples.merged-watermark.html: Використання imagecopymerge створити напівпрозорий водяний знак »
+  - image.examples-png.md: « Створення PNG засобами PHP
+  - image.examples.merged-watermark.md: Використання imagecopymerge створити напівпрозорий водяний знак »
   - index.md: PHP Manual
   - image.examples.md: Приклади
 title: Додавання водяних знаків на зображення за допомогою альфа-каналів

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.mapimage.html: '« Imagick::mapImage'
-  - imagick.medianfilterimage.html: 'Imagick::medianFilterImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.mapimage.md: '« Imagick::mapImage'
+  - imagick.medianfilterimage.md: 'Imagick::medianFilterImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::matteFloodfillImage'
 ---
 # Imagick::matteFloodfillImage
@@ -36,7 +36,7 @@ public Imagick::matteFloodfillImage(    float $alpha,    float $fuzz, �
 
 `bordercolor`
 
-Об'єкт [ImagickPixel](class.imagickpixel.html) або рядок, що представляє колір кадру.
+Об'єкт [ImagickPixel](class.imagickpixel.md) або рядок, що представляє колір кадру.
 
 `x`
 
@@ -58,4 +58,4 @@ public Imagick::matteFloodfillImage(    float $alpha,    float $fuzz, �
 
 | Версия | Описание |
 | --- | --- |
-| PECL imagick 2.1.0 | Тепер дозволяє рядок, що представляє колір, як третій параметр. Попередні версії допускали лише об'єкт [ImagickPixel](class.imagickpixel.html) |
+| PECL imagick 2.1.0 | Тепер дозволяє рядок, що представляє колір, як третій параметр. Попередні версії допускали лише об'єкт [ImagickPixel](class.imagickpixel.md) |

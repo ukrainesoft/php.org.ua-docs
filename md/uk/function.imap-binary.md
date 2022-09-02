@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-base64.html: « imapbase64
-  - function.imap-body.html: imapbody »
+  - function.imap-base64.md: « imapbase64
+  - function.imap-body.md: imapbody »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapbinary

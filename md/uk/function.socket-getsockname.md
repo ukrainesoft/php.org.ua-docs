@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-getpeername.html: « socketgetpeername
-  - function.socket-import-stream.html: socketimportstream »
+  - function.socket-getpeername.md: « socketgetpeername
+  - function.socket-import-stream.md: socketimportstream »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketgetsockname
@@ -18,13 +18,13 @@ socketgetsockname — Запитує локальну сторону вказа�
 socket_getsockname(Socket $socket, string &$address, int &$port = null): bool
 ```
 
-> **Зауваження**: Функція **socketgetsockname()** не повинна використовуватися із сокетами **`AF_UNIX`**, створеними за допомогою функції [socketconnect()](function.socket-connect.html). Тільки сокети, створені функцією [socketaccept()](function.socket-accept.html) та первинні серверні сокети після виклику [socketbind()](function.socket-bind.md), дозволяють отримати осмислену відповідь під час виклику цієї функції.
+> **Зауваження**: Функція **socketgetsockname()** не повинна використовуватися із сокетами **`AF_UNIX`**, створеними за допомогою функції [socketconnect()](function.socket-connect.md). Тільки сокети, створені функцією [socketaccept()](function.socket-accept.md) та первинні серверні сокети після виклику [socketbind()](function.socket-bind.md), дозволяють отримати осмислену відповідь під час виклику цієї функції.
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.md), створений функцією [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.md)
+Екземпляр [Socket](class.socket.md), створений функцією [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
 
 `address`
 

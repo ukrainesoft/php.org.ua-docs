@@ -12,7 +12,7 @@ title: Клас Directory
 
 ## Вступ
 
-Примірники класу **Directory** створюються за допомогою виклику функції [dir()](function.dir.md), а не за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
+Примірники класу **Directory** створюються за допомогою виклику функції [dir()](function.dir.md), а не за допомогою оператора [new](language.oop5.basic.md#language.oop5.basic.new)
 
 ## Огляд класів
 

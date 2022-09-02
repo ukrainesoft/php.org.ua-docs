@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-hamdist.html: « gmphamdist
-  - function.gmp-init.html: gmpinit »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-hamdist.md: « gmphamdist
+  - function.gmp-init.md: gmpinit »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpimport
 ---
 # gmpimport
@@ -67,4 +67,4 @@ echo gmp_strval($number) . "\n";
 
 ### Дивіться також
 
--   [gmpexport()](function.gmp-export.html) - Експортувати у бінарний рядок
+-   [gmpexport()](function.gmp-export.md) - Експортувати у бінарний рядок

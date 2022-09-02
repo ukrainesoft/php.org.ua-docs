@@ -1,7 +1,7 @@
 ---
 navigation:
   - history.php.publications.md: '« Публікації, присвячені PHP'
-  - migration81.new-features.html: Новая функциональность »
+  - migration81.new-features.md: Новая функциональность »
   - index.md: PHP Manual
   - appendices.md: Appendices
 title: Міграція з PHP 8.0.x на PHP 8.1.x

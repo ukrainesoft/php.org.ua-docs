@@ -14,9 +14,9 @@ title: Список основних опцій конфігурації
 > 
 > Ці налаштування використовуються лише під час компіляції. Якщо ви бажаєте змінити конфігурацію PHP під час виконання, будь ласка, дивіться розділ [Конфігурація під час виконання](configuration.md)
 
--   [Разное](configure.about.html#configure.options.misc)
--   [Поведение PHP](configure.about.html#configure.options.php)
--   [Сервер](configure.about.html#configure.options.servers)
+-   [Разное](configure.about.md#configure.options.misc)
+-   [Поведение PHP](configure.about.md#configure.options.php)
+-   [Сервер](configure.about.md#configure.options.servers)
 
 ### Опції конфігурації в PHP
 
@@ -134,7 +134,7 @@ title: Список основних опцій конфігурації
 
 **\-disable-cli**
 
-Вимикає складання CLI-версії PHP (опція також викликає [without-pear](configure.about.html#configure.without-pear)). Більше інформації можна отримати у розділі [Використання PHP у командному рядку](features.commandline.md)
+Вимикає складання CLI-версії PHP (опція також викликає [without-pear](configure.about.md#configure.without-pear)). Більше інформації можна отримати у розділі [Використання PHP у командному рядку](features.commandline.md)
 
 **\-enable-phpdbg**
 

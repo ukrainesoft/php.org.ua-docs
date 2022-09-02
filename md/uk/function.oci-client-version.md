@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-cancel.html: « ocicancel
-  - function.oci-close.html: ociclose »
+  - function.oci-cancel.md: « ocicancel
+  - function.oci-close.md: ociclose »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociclientversion

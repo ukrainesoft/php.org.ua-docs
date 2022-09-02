@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-event-defer.html: « swooleeventdefer
-  - function.swoole-event-exit.html: swooleeventexit »
-  - index.html: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - function.swoole-event-defer.md: « swooleeventdefer
+  - function.swoole-event-exit.md: swooleeventexit »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleeventdel
 ---
 # swooleeventdel

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - hrtime-stopwatch.stop.html: '« HRTimeStopWatch::stop'
+  - hrtime-stopwatch.stop.md: '« HRTimeStopWatch::stop'
   - refs.fileprocess.file.md: Модулі для роботи з файловою системою
   - index.md: PHP Manual
   - book.hrtime.md: HRTime

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-view-interface.render.html: '« YafViewInterface::render'
-  - class.yaf-view-simple.html: YafViewSimple »
+  - yaf-view-interface.render.md: '« YafViewInterface::render'
+  - class.yaf-view-simple.md: YafViewSimple »
   - index.md: PHP Manual
-  - class.yaf-view-interface.html: YafViewInterface
+  - class.yaf-view-interface.md: YafViewInterface
 title: 'YafViewInterface::setScriptPath'
 ---
 # YafViewInterface::setScriptPath
@@ -28,6 +28,6 @@ abstract public Yaf_View_Interface::setScriptPath(string $template_dir): void
 
 `template_dir`
 
-Абсолютний шлях до каталогу шаблонів за промовчанням [YafDispatcher](class.yaf-dispatcher.md) використовується [application.directory](yaf.appconfig.html#configuration.yaf.directory) . "/views".
+Абсолютний шлях до каталогу шаблонів за промовчанням [YafDispatcher](class.yaf-dispatcher.md) використовується [application.directory](yaf.appconfig.md#configuration.yaf.directory) . "/views".
 
 ### Значення, що повертаються

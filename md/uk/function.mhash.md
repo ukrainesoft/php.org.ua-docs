@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mhash-keygen-s2k.html: « mhashkeygens2k
-  - book.openssl.html: OpenSSL »
-  - index.html: PHP Manual
-  - ref.mhash.html: Функции Mhash
+  - function.mhash-keygen-s2k.md: « mhashkeygens2k
+  - book.openssl.md: OpenSSL »
+  - index.md: PHP Manual
+  - ref.mhash.md: Функции Mhash
 title: mhash
 ---
 # mhash
@@ -46,5 +46,5 @@ mhash(int $algo, string $data, ?string $key = null): string|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |
 |  | `key` тепер допускає значення null. |

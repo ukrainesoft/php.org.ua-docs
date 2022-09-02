@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.apache-setenv.html: « apachesetenv
+  - function.apache-setenv.md: « apachesetenv
   - function.virtual.md: virtual »
   - index.md: PHP Manual
   - ref.apache.md: Функции Apache
@@ -20,7 +20,7 @@ getallheaders(): array
 
 Повертає всі заголовки для поточного запиту HTTP.
 
-Ця функція є псевдонімом функції [apacherequestheaders()](function.apache-request-headers.html). Будь ласка, зверніться до опису функції [apacherequestheaders()](function.apache-request-headers.md) для отримання детальної інформації про її роботу.
+Ця функція є псевдонімом функції [apacherequestheaders()](function.apache-request-headers.md). Будь ласка, зверніться до опису функції [apacherequestheaders()](function.apache-request-headers.md) для отримання детальної інформації про її роботу.
 
 ### Список параметрів
 

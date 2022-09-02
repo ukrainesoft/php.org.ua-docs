@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.soundex.html: « soundex
-  - function.sscanf.html: sscanf »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.soundex.md: « soundex
+  - function.sscanf.md: sscanf »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: sprintf
 ---
 # sprintf
@@ -239,12 +239,12 @@ echo sprintf("%.3e", $number);
 
 ### Дивіться також
 
--   [printf()](function.printf.html) - Виводить відформатований рядок
--   [fprintf()](function.fprintf.html) - Записує відформатований рядок у потік
--   [vprintf()](function.vprintf.html) - Виводить відформатований рядок
--   [vsprintf()](function.vsprintf.html) - Повертає відформатований рядок
--   [vfprintf()](function.vfprintf.html) - Записує відформатований рядок у потік
--   [sscanf()](function.sscanf.html) - Розбирає рядок відповідно до заданого формату
--   [fscanf()](function.fscanf.html) - Обробляє дані з файлу відповідно до формату
--   [numberformat()](function.number-format.html) - Форматує число з поділом груп
--   [date()](function.date.html) - Форматує тимчасову мітку Unix
+-   [printf()](function.printf.md) - Виводить відформатований рядок
+-   [fprintf()](function.fprintf.md) - Записує відформатований рядок у потік
+-   [vprintf()](function.vprintf.md) - Виводить відформатований рядок
+-   [vsprintf()](function.vsprintf.md) - Повертає відформатований рядок
+-   [vfprintf()](function.vfprintf.md) - Записує відформатований рядок у потік
+-   [sscanf()](function.sscanf.md) - Розбирає рядок відповідно до заданого формату
+-   [fscanf()](function.fscanf.md) - Обробляє дані з файлу відповідно до формату
+-   [numberformat()](function.number-format.md) - Форматує число з поділом груп
+-   [date()](function.date.md) - Форматує тимчасову мітку Unix

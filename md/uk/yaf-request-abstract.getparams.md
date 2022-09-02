@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getparam.html: '« YafRequestAbstract::getParam'
-  - yaf-request-abstract.getrequesturi.html: 'YafRequestAbstract::getRequestUri »'
-  - index.html: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - yaf-request-abstract.getparam.md: '« YafRequestAbstract::getParam'
+  - yaf-request-abstract.getrequesturi.md: 'YafRequestAbstract::getRequestUri »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getParams'
 ---
 # YafRequestAbstract::getParams

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-encrypt.html: « gnupgencrypt
-  - function.gnupg-export.html: gnupgexport »
+  - function.gnupg-encrypt.md: « gnupgencrypt
+  - function.gnupg-export.md: gnupgexport »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgencryptsign
@@ -18,7 +18,7 @@ gnupgencryptsign — Шифрує та підписує переданий те�
 gnupg_encryptsign(resource $identifier, string $plaintext): string
 ```
 
-Шифрує та підписує переданий у параметрі `plaintext` текст ключами, які були встановлені [gnupgaddsignkey](function.gnupg-addsignkey.html) і [gnupgaddencryptkey](function.gnupg-addencryptkey.md) раніше і повертає зашифрований та підписаний текст.
+Шифрує та підписує переданий у параметрі `plaintext` текст ключами, які були встановлені [gnupgaddsignkey](function.gnupg-addsignkey.md) і [gnupgaddencryptkey](function.gnupg-addencryptkey.md) раніше і повертає зашифрований та підписаний текст.
 
 ### Список параметрів
 

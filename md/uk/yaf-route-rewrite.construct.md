@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-rewrite.assemble.html: '« YafRouteRewrite::assemble'
-  - yaf-route-rewrite.route.html: 'YafRouteRewrite::route »'
+  - yaf-route-rewrite.assemble.md: '« YafRouteRewrite::assemble'
+  - yaf-route-rewrite.route.md: 'YafRouteRewrite::route »'
   - index.md: PHP Manual
-  - class.yaf-route-rewrite.html: YafRouteRewrite
+  - class.yaf-route-rewrite.md: YafRouteRewrite
 title: 'YafRouteRewrite::construct'
 ---
 # YafRouteRewrite::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domdocument.normalizedocument.html: '« DOMDocument::normalizeDocument'
-  - domdocument.relaxngvalidate.html: 'DOMDocument::relaxNGValidate »'
-  - index.html: PHP Manual
-  - class.domdocument.html: DOMDocument
+  - domdocument.normalizedocument.md: '« DOMDocument::normalizeDocument'
+  - domdocument.relaxngvalidate.md: 'DOMDocument::relaxNGValidate »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
 title: 'DOMDocument::registerNodeClass'
 ---
 # DOMDocument::registerNodeClass
@@ -26,7 +26,7 @@ public DOMDocument::registerNodeClass(string $baseClass, ?string $extendedClass)
 
 `baseClass`
 
-Клас DOM, який ви бажаєте розширити. Список таких класів можна побачити у [введении](book.dom.html)
+Клас DOM, який ви бажаєте розширити. Список таких класів можна побачити у [введении](book.dom.md)
 
 `extendedClass`
 
@@ -107,7 +107,7 @@ text in child
 
 **Приклад #3 Отримання імені документа власника**
 
-Коли створюється екземпляр розширеного класу [DOMDocument](class.domdocument.html), властивість ownerDocument посилатиметься на створюваний об'єкт. Однак, якщо видалити всі посилання на цей клас, він буде знищений, а замість нього буде створено новий об'єкт [DOMDocument](class.domdocument.html). З цієї причини ви можете використати функцію **DOMDocument::registerNodeClass()** стосовно об'єкту [DOMDocument](class.domdocument.html)
+Коли створюється екземпляр розширеного класу [DOMDocument](class.domdocument.md), властивість ownerDocument посилатиметься на створюваний об'єкт. Однак, якщо видалити всі посилання на цей клас, він буде знищений, а замість нього буде створено новий об'єкт [DOMDocument](class.domdocument.md). З цієї причини ви можете використати функцію **DOMDocument::registerNodeClass()** стосовно об'єкту [DOMDocument](class.domdocument.md)
 
 ```php
 <?php

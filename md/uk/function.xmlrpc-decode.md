@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xmlrpc-decode-request.html: « xmlrpcdecoderequest
-  - function.xmlrpc-encode-request.html: xmlrpcencoderequest »
+  - function.xmlrpc-decode-request.md: « xmlrpcdecoderequest
+  - function.xmlrpc-encode-request.md: xmlrpcencoderequest »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcdecode

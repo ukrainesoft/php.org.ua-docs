@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.addprocess.html: '« SwooleServer::addProcess'
-  - swoole-server.bind.html: 'SwooleServer::bind »'
+  - swoole-server.addprocess.md: '« SwooleServer::addProcess'
+  - swoole-server.bind.md: 'SwooleServer::bind »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::after'
 ---
 # SwooleServer::after

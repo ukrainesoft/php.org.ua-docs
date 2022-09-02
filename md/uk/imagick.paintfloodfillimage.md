@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.orderedposterizeimage.html: '« Imagick::orderedPosterizeImage'
-  - imagick.paintopaqueimage.html: 'Imagick::paintOpaqueImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.orderedposterizeimage.md: '« Imagick::orderedPosterizeImage'
+  - imagick.paintopaqueimage.md: 'Imagick::paintOpaqueImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::paintFloodfillImage'
 ---
 # Imagick::paintFloodfillImage
@@ -48,7 +48,7 @@ public Imagick::paintFloodfillImage(    mixed $fill,    float $fuzz,  
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

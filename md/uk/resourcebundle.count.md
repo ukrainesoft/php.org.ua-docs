@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.resourcebundle.html: « ResourceBundle
-  - resourcebundle.create.html: 'ResourceBundle::create »'
-  - index.html: PHP Manual
-  - class.resourcebundle.html: ResourceBundle
+  - class.resourcebundle.md: « ResourceBundle
+  - resourcebundle.create.md: 'ResourceBundle::create »'
+  - index.md: PHP Manual
+  - class.resourcebundle.md: ResourceBundle
 title: 'ResourceBundle::count'
 ---
 # ResourceBundle::count
@@ -34,7 +34,7 @@ resourcebundle_count(ResourceBundle $bundle): int
 
 `bundle`
 
-Об'єкт [ResourceBundle](class.resourcebundle.html)
+Об'єкт [ResourceBundle](class.resourcebundle.md)
 
 ### Значення, що повертаються
 
@@ -68,4 +68,4 @@ echo $r->count();
 
 ### Дивіться також
 
--   [resourcebundleget()](resourcebundle.get.html) - Отримати дані з пакета
+-   [resourcebundleget()](resourcebundle.get.md) - Отримати дані з пакета

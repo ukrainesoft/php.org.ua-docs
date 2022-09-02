@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-kx-server-session-keys.html: « sodiumcryptoкксserversessionkeys
-  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str.html: sodiumcryptopwhashscryptsalsa208sha256str »
+  - function.sodium-crypto-kx-server-session-keys.md: « sodiumcryptoкксserversessionkeys
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str.md: sodiumcryptopwhashscryptsalsa208sha256str »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptopwhashscryptsalsa208sha256strverify

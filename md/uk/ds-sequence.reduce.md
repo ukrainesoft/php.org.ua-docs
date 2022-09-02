@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.push.html: '« DsSequence::push'
-  - ds-sequence.remove.html: 'ДсSequence::remove »'
+  - ds-sequence.push.md: '« DsSequence::push'
+  - ds-sequence.remove.md: 'ДсSequence::remove »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::reduce'
 ---
 # ДсSequence::reduce

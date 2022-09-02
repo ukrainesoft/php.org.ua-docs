@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.serialize.html: '« MongoDBDriverWriteConcern::serialize'
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference »
+  - mongodb-driver-writeconcern.serialize.md: '« MongoDBDriverWriteConcern::serialize'
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference »
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
 title: 'MongoDBDriverWriteConcern::unserialize'
 ---
 # MongoDBDriverWriteConcern::unserialize

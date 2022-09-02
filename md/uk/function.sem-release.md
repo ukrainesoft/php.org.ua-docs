@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sem-get.html: « semget
-  - function.sem-remove.html: semremove »
+  - function.sem-get.md: « semget
+  - function.sem-remove.md: semremove »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: semrelease

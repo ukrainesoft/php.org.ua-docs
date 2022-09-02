@@ -1,7 +1,7 @@
 ---
 navigation:
   - pdo.transactions.md: « Транзакції та автоматична фіксація змін
-  - pdo.error-handling.html: Ошибки и их обработка »
+  - pdo.error-handling.md: Ошибки и их обработка »
   - index.md: PHP Manual
   - book.pdo.md: PDO
 title: 'Підготовлені запити та процедури, що зберігаються'

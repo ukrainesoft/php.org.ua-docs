@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setfacetmethod.html: '« SolrQuery::setFacetMethod'
-  - solrquery.setfacetmissing.html: 'SolrQuery::setFacetMissing »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setfacetmethod.md: '« SolrQuery::setFacetMethod'
+  - solrquery.setfacetmissing.md: 'SolrQuery::setFacetMissing »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setFacetMinCount'
 ---
 # SolrQuery::setFacetMinCount

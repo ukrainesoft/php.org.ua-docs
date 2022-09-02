@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageproperties.html: '« Imagick::getImageProperties'
-  - imagick.getimageredprimary.html: 'Imagick::getImageRedPrimary »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageproperties.md: '« Imagick::getImageProperties'
+  - imagick.getimageredprimary.md: 'Imagick::getImageRedPrimary »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageProperty'
 ---
 # Imagick::getImageProperty
@@ -48,4 +48,4 @@ echo $image->getImageProperty('Exif:Make');
 
 ### Дивіться також
 
--   [Imagick::setImageProperty()](imagick.setimageproperty.html) - Встановлює властивість зображення
+-   [Imagick::setImageProperty()](imagick.setimageproperty.md) - Встановлює властивість зображення

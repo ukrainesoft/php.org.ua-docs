@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mailparse-determine-best-xfer-encoding.html: « mailparsedeterminebestxferencoding
-  - function.mailparse-msg-extract-part-file.html: mailparsemsgextractpartfile »
+  - function.mailparse-determine-best-xfer-encoding.md: « mailparsedeterminebestxferencoding
+  - function.mailparse-msg-extract-part-file.md: mailparsemsgextractpartfile »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
 title: mailparsemsgcreate

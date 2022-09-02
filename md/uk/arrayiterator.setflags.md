@@ -26,14 +26,14 @@ public ArrayIterator::setFlags(int $flags): void
 
 Поведінка нового ArrayIterator. Приймає або бітову маску, або названі константи. Використання іменованих констант рекомендується для забезпечення сумісності з майбутніми версіями.
 
-Доступні прапори поведінки наведені нижче. Фактичний зміст цих прапорів описаний у [визначених константах](class.arrayiterator.html#arrayiterator.constants)
+Доступні прапори поведінки наведені нижче. Фактичний зміст цих прапорів описаний у [визначених константах](class.arrayiterator.md#arrayiterator.constants)
 
 **Прапори поведінки ArrayIterator**
 
 | значение | константа |
 | --- | --- |
-|  | [ArrayIterator::STDPROPLIST](class.arrayiterator.html#arrayiterator.constants.std-prop-list) |
-|  | [ArrayIterator::ARRAYАСPROPS](class.arrayiterator.html#arrayiterator.constants.array-as-props) |
+|  | [ArrayIterator::STDPROPLIST](class.arrayiterator.md#arrayiterator.constants.std-prop-list) |
+|  | [ArrayIterator::ARRAYАСPROPS](class.arrayiterator.md#arrayiterator.constants.array-as-props) |
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setclipunits.html: '« ImagickDraw::setClipUnits'
-  - imagickdraw.setfillcolor.html: 'ImagickDraw::setFillColor »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setclipunits.md: '« ImagickDraw::setClipUnits'
+  - imagickdraw.setfillcolor.md: 'ImagickDraw::setFillColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFillAlpha'
 ---
 # ImagickDraw::setFillAlpha

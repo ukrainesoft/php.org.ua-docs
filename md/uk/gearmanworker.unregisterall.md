@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.unregister.html: '« GearmanWorker::unregister'
-  - gearmanworker.wait.html: 'GearmanWorker::wait »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.unregister.md: '« GearmanWorker::unregister'
+  - gearmanworker.wait.md: 'GearmanWorker::wait »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::unregisterAll'
 ---
 # GearmanWorker::unregisterAll

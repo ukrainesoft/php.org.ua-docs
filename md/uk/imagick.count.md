@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.convolveimage.html: '« Imagick::convolveImage'
-  - imagick.cropimage.html: 'Imagick::cropImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.convolveimage.md: '« Imagick::convolveImage'
+  - imagick.cropimage.md: 'Imagick::cropImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::count'
 ---
 # Imagick::count

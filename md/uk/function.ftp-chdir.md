@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ftp-cdup.html: « ftpcdup
-  - function.ftp-chmod.html: ftpchmod »
-  - index.html: PHP Manual
-  - ref.ftp.html: Функції FTP
+  - function.ftp-cdup.md: « ftpcdup
+  - function.ftp-chmod.md: ftpchmod »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
 title: ftpchdir
 ---
 # ftpchdir
@@ -24,7 +24,7 @@ ftp_chdir(FTP\Connection $ftp, string $directory): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `directory`
 
@@ -38,7 +38,7 @@ ftp_chdir(FTP\Connection $ftp, string $directory): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -74,5 +74,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpcdup()](function.ftp-cdup.html) - Переходить до батьківської директорії
--   [ftppwd()](function.ftp-pwd.html) - Повертає ім'я поточної директорії
+-   [ftpcdup()](function.ftp-cdup.md) - Переходить до батьківської директорії
+-   [ftppwd()](function.ftp-pwd.md) - Повертає ім'я поточної директорії

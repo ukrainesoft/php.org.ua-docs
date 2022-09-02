@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.shmop-open.html: « shmopopen
-  - function.shmop-size.html: shmopsize »
+  - function.shmop-open.md: « shmopopen
+  - function.shmop-size.md: shmopsize »
   - index.md: PHP Manual
   - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
 title: shmopread

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-modify-user.html: « ibasemodifyuser
-  - function.ibase-num-fields.html: ibasenumfields »
+  - function.ibase-modify-user.md: « ibasemodifyuser
+  - function.ibase-num-fields.md: ibasenumfields »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasenameresult

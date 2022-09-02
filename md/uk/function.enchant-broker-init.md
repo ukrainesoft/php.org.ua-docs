@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-broker-get-error.html: « enchantbrokergeterror
-  - function.enchant-broker-list-dicts.html: enchantbrokerlistdicts »
+  - function.enchant-broker-get-error.md: « enchantbrokergeterror
+  - function.enchant-broker-list-dicts.md: enchantbrokerlistdicts »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantbrokerinit

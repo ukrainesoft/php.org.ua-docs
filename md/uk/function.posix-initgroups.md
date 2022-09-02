@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-getuid.html: « posixgetuid
-  - function.posix-isatty.html: posixisatty »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-getuid.md: « posixgetuid
+  - function.posix-isatty.md: posixisatty »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixinitgroups
 ---
 # posixinitgroups

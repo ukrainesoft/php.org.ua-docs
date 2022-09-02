@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pcntl-sigprocmask.html: pcntlsigprocmask
-  - function.pcntl-sigwaitinfo.html: pcntlsigwaitinfo »
-  - index.html: PHP Manual
-  - ref.pcntl.html: Функції PCNTL
+  - function.pcntl-sigprocmask.md: pcntlsigprocmask
+  - function.pcntl-sigwaitinfo.md: pcntlsigwaitinfo »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
 title: pcntlsigtimedwait
 ---
 # pcntlsigtimedwait
@@ -18,7 +18,7 @@ pcntlsigtimedwait — Очікує сигнали протягом задано�
 pcntl_sigtimedwait(    array $signals,    array &$info = [],    int $seconds = 0,    int $nanoseconds = 0): int|false
 ```
 
-Функція **pcntlsigtimedwait()** поводиться так само як і функція [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.html) за винятком того, що приймає два додаткові аргументи, `seconds` і `nanoseconds`, які встановлюють верхню межу часу, що скрипт може простоювати.
+Функція **pcntlsigtimedwait()** поводиться так само як і функція [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md) за винятком того, що приймає два додаткові аргументи, `seconds` і `nanoseconds`, які встановлюють верхню межу часу, що скрипт може простоювати.
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ pcntl_sigtimedwait(    array $signals,    array &$info = [],    int 
 
 `info`
 
-`info` містить інформацію про сигнал. Дивіться функцію [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.html)
+`info` містить інформацію про сигнал. Дивіться функцію [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md)
 
 `seconds`
 
@@ -44,5 +44,5 @@ pcntl_sigtimedwait(    array $signals,    array &$info = [],    int 
 
 ### Дивіться також
 
--   [pcntlsigprocmask()](function.pcntl-sigprocmask.html) - Задає та витягує список сигналів, що блокуються.
--   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.html) - Очікування сигналів
+-   [pcntlsigprocmask()](function.pcntl-sigprocmask.md) - Задає та витягує список сигналів, що блокуються.
+-   [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md) - Очікування сигналів

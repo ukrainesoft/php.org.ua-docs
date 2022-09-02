@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sem-release.html: « semrelease
-  - function.shm-attach.html: shmattach »
-  - index.html: PHP Manual
-  - ref.sem.html: Функції семафорів
+  - function.sem-release.md: « semrelease
+  - function.shm-attach.md: shmattach »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
 title: semremove
 ---
 # semremove
@@ -26,7 +26,7 @@ sem_remove(SysvSemaphore $semaphore): bool
 
 `semaphore`
 
-Семафор, повернутий [semget()](function.sem-get.html)
+Семафор, повернутий [semget()](function.sem-get.md)
 
 ### Значення, що повертаються
 
@@ -36,10 +36,10 @@ sem_remove(SysvSemaphore $semaphore): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.html); раніше очікували ресурс (resource). |
+|  | Параметр `semaphore` тепер чекає екземпляр [SysvSemaphore](class.sysvsemaphore.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [semget()](function.sem-get.html) - Отримання ідентифікатора семафору
--   [semrelease()](function.sem-release.html) - Звільнення семафору
--   [semacquire()](function.sem-acquire.html) - Захоплення семафору
+-   [semget()](function.sem-get.md) - Отримання ідентифікатора семафору
+-   [semrelease()](function.sem-release.md) - Звільнення семафору
+-   [semacquire()](function.sem-acquire.md) - Захоплення семафору

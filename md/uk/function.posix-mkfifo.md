@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-kill.html: « posixkill
-  - function.posix-mknod.html: posixmknod »
+  - function.posix-kill.md: « posixkill
+  - function.posix-mknod.md: posixmknod »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixmkfifo

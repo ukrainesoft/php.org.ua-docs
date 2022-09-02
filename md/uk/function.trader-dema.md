@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cosh.html: « tradercosh
-  - function.trader-div.html: traderdiv »
+  - function.trader-cosh.md: « tradercosh
+  - function.trader-div.md: traderdiv »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderdema

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getserver.html: '« YafRequestAbstract::getServer'
-  - yaf-request-abstract.isdispatched.html: 'YafRequestAbstract::isDispatched »'
+  - yaf-request-abstract.getserver.md: '« YafRequestAbstract::getServer'
+  - yaf-request-abstract.isdispatched.md: 'YafRequestAbstract::isDispatched »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::isCli'
 ---
 # YafRequestAbstract::isCli

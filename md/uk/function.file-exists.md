@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.fgetss.md: « fgetss
-  - function.file-get-contents.html: filegetcontents »
+  - function.file-get-contents.md: filegetcontents »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: fileexists

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-set-chunk-size.html: « streamsetchunksize
-  - function.stream-set-timeout.html: streamsettimeout »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-set-chunk-size.md: « streamsetchunksize
+  - function.stream-set-timeout.md: streamsettimeout »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsetreadbuffer
 ---
 # streamsetreadbuffer
@@ -18,7 +18,7 @@ streamsetreadbuffer — Встановити буферизацію читанн
 stream_set_read_buffer(resource $stream, int $size): int
 ```
 
-Встановлює буфер читання. Це еквівалент функції [streamsetwritebuffer()](function.stream-set-write-buffer.html), але операцій читання.
+Встановлює буфер читання. Це еквівалент функції [streamsetwritebuffer()](function.stream-set-write-buffer.md), але операцій читання.
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ stream_set_read_buffer(resource $stream, int $size): int
 
 `size`
 
-Число байт для буферизації. Якщо аргумент `size` дорівнює 0, то операції читання не буферизуються. Це гарантує, що всі операції читання за допомогою функції [fread()](function.fread.html) будуть завершені до того, як іншим процесам буде дозволено читати із вхідного потоку.
+Число байт для буферизації. Якщо аргумент `size` дорівнює 0, то операції читання не буферизуються. Це гарантує, що всі операції читання за допомогою функції [fread()](function.fread.md) будуть завершені до того, як іншим процесам буде дозволено читати із вхідного потоку.
 
 ### Значення, що повертаються
 
@@ -36,4 +36,4 @@ stream_set_read_buffer(resource $stream, int $size): int
 
 ### Дивіться також
 
--   [streamsetwritebuffer()](function.stream-set-write-buffer.html) - Встановлює буферизацію файлу під час запису у вказаний потік
+-   [streamsetwritebuffer()](function.stream-set-write-buffer.md) - Встановлює буферизацію файлу під час запису у вказаний потік

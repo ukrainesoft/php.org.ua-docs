@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqsocket.setsockopt.html: '« ZMQSocket::setSockOpt'
-  - class.zmqpoll.html: ZMQPoll »
-  - index.html: PHP Manual
-  - class.zmqsocket.html: ZMQSocket
+  - zmqsocket.setsockopt.md: '« ZMQSocket::setSockOpt'
+  - class.zmqpoll.md: ZMQPoll »
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::unbind'
 ---
 # ZMQSocket::unbind

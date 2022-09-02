@@ -1,9 +1,9 @@
 ---
 navigation:
-  - funchand.resources.html: « Типи ресурсів
-  - ref.funchand.html: Функции управления функциями »
-  - index.html: PHP Manual
-  - book.funchand.html: Управление функциями
+  - funchand.resources.md: « Типи ресурсів
+  - ref.funchand.md: Функции управления функциями »
+  - index.md: PHP Manual
+  - book.funchand.md: Управление функциями
 title: Обумовлені константи
 ---
 # Обумовлені константи

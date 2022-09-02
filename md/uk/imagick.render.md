@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.removeimageprofile.html: '« Imagick::removeImageProfile'
-  - imagick.resampleimage.html: 'Imagick::resampleImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.removeimageprofile.md: '« Imagick::removeImageProfile'
+  - imagick.resampleimage.md: 'Imagick::resampleImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::render'
 ---
 # Imagick::render

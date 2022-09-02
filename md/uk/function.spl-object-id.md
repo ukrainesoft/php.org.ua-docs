@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.spl-object-hash.html: « splobjecthash
-  - spl.files.html: Обработка файлов »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - function.spl-object-hash.md: « splobjecthash
+  - spl.files.md: Обработка файлов »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: splobjectід
 ---
 # splobjectід
@@ -18,7 +18,7 @@ splobjectid — Отримати цілий ідентифікатор об'єк
 spl_object_id(object $object): int
 ```
 
-Ця функція повертає унікальний ідентифікатор об'єкта. Ідентифікатор об'єкта є унікальним протягом життя об'єкта. Коли об'єкт буде знищено, його ідентифікатор може бути повторно використано інших об'єктів. Ця поведінка схожа на [splobjecthash()](function.spl-object-hash.html)
+Ця функція повертає унікальний ідентифікатор об'єкта. Ідентифікатор об'єкта є унікальним протягом життя об'єкта. Коли об'єкт буде знищено, його ідентифікатор може бути повторно використано інших об'єктів. Ця поведінка схожа на [splobjecthash()](function.spl-object-hash.md)
 
 ### Список параметрів
 

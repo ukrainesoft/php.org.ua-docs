@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mqseries-strerror.html: « mqseriesstrerror
+  - function.mqseries-strerror.md: « mqseriesstrerror
   - intro.network.md: Введение »
   - index.md: PHP Manual
   - refs.remote.other.md: Інші служби

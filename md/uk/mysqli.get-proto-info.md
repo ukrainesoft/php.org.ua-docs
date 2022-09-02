@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.get-host-info.html: '« mysqli::$hostinfo'
-  - mysqli.get-server-info.html: 'mysqli::$serverinfo »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.get-host-info.md: '« mysqli::$hostinfo'
+  - mysqli.get-server-info.md: 'mysqli::$serverinfo »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::$protocolversion'
 ---
 # mysqli::$protocolversion
@@ -18,7 +18,7 @@ mysqli::$protocolversion -- mysqligetprotoinfo — Повертає версію
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->protocolversion](mysqli.get-proto-info.html)
+int [$mysqli->protocolversion](mysqli.get-proto-info.md)
 
 Процедурний стиль
 
@@ -32,7 +32,7 @@ mysqli_get_proto_info(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -90,4 +90,4 @@ Protocol version: 10
 
 ### Дивіться також
 
--   [mysqligethostinfo()](mysqli.get-host-info.html) - Повертає рядок, що містить тип використовуваної сполуки
+-   [mysqligethostinfo()](mysqli.get-host-info.md) - Повертає рядок, що містить тип використовуваної сполуки

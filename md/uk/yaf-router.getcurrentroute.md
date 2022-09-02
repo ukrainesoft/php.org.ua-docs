@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-router.construct.html: '« YafRouter::construct'
-  - yaf-router.getroute.html: 'YafRouter::getRoute »'
+  - yaf-router.construct.md: '« YafRouter::construct'
+  - yaf-router.getroute.md: 'YafRouter::getRoute »'
   - index.md: PHP Manual
-  - class.yaf-router.html: YafRouter
+  - class.yaf-router.md: YafRouter
 title: 'YafRouter::getCurrentRoute'
 ---
 # YafRouter::getCurrentRoute
@@ -75,7 +75,7 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
 ?>
 ```
 
-**Приклад #2 Плагін Dummy.php (у [application.directory](yaf.appconfig.html#configuration.yaf.directory)/plugins)**
+**Приклад #2 Плагін Dummy.php (у [application.directory](yaf.appconfig.md#configuration.yaf.directory)/plugins)**
 
 ```php
 <?php

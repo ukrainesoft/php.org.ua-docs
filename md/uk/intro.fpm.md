@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.fpm.html: Менеджер процесів FastCGI
-  - fpm.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.fpm.html: Менеджер процесів FastCGI
+  - book.fpm.md: Менеджер процесів FastCGI
+  - fpm.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.fpm.md: Менеджер процесів FastCGI
 title: Вступ
 ---
 # Вступ

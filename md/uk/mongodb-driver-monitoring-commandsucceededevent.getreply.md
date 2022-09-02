@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getOperationId'
-  - mongodb-driver-monitoring-commandsucceededevent.getrequestid.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getRequestId »'
+  - mongodb-driver-monitoring-commandsucceededevent.getoperationid.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getOperationId'
+  - mongodb-driver-monitoring-commandsucceededevent.getrequestid.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getRequestId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
 title: 'MongoDBDriverMonitoringCommandSucceededEvent::getReply'
 ---
 # MongoDBDriverMonitoringCommandSucceededEvent::getReply

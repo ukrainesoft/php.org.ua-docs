@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-medprice.html: « tradermedprice
-  - function.trader-midpoint.html: tradermidpoint »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-medprice.md: « tradermedprice
+  - function.trader-midpoint.md: tradermidpoint »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradermfi
 ---
 # tradermfi

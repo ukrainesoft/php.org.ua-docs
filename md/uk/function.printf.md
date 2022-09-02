@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.print.md: « print
-  - function.quoted-printable-decode.html: quotedprintabledecode »
+  - function.quoted-printable-decode.md: quotedprintabledecode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: printf

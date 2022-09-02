@@ -55,7 +55,7 @@ Callback-функція ([callable](language.types.callable.md)), яка буд�
 
 `flags`
 
-Бітова маска з констант `EventListener::OPT_*`. Дивіться [константи EventListener](class.eventlistener.html#eventlistener.constants)
+Бітова маска з констант `EventListener::OPT_*`. Дивіться [константи EventListener](class.eventlistener.md#eventlistener.constants)
 
 `backlog`
 

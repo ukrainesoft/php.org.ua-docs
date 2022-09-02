@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.bzerror.html: « bzerror
-  - function.bzflush.html: bzflush »
-  - index.html: PHP Manual
-  - ref.bzip2.html: Функції Bzip2
+  - function.bzerror.md: « bzerror
+  - function.bzflush.md: bzflush »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
 title: bzerrstr
 ---
 # bzerrstr

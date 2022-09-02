@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.calendar.html: « Календарь
-  - calendar.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.calendar.html: Календарь
+  - book.calendar.md: « Календарь
+  - calendar.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.calendar.md: Календарь
 title: Вступ
 ---
 # Вступ

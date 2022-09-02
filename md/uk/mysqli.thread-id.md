@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.store-result.html: '« mysqli::storeresult'
-  - mysqli.thread-safe.html: 'mysqli::threadsafe »'
+  - mysqli.store-result.md: '« mysqli::storeresult'
+  - mysqli.thread-safe.md: 'mysqli::threadsafe »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$threadід'

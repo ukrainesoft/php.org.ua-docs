@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-sub.html: « datesub
-  - function.date-sunrise.html: datesunrise »
+  - function.date-sub.md: « datesub
+  - function.date-sunrise.md: datesunrise »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datesuninfo

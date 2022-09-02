@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wincache-scache-meminfo.html: « wincachescachememinfo
-  - function.wincache-ucache-cas.html: wincacheucachecas »
+  - function.wincache-scache-meminfo.md: « wincachescachememinfo
+  - function.wincache-ucache-cas.md: wincacheucachecas »
   - index.md: PHP Manual
   - ref.wincache.md: Функции WinCache
 title: wincacheucacheadd
@@ -22,7 +22,7 @@ wincache_ucache_add(string $key, mixed $value, int $ttl = 0): bool
 wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 ```
 
-Додає змінну в кеш користувача, тільки якщо ця змінна ще не існує в кеші. Додана змінна залишається в кеші користувача, поки не закінчиться термін її дії або вона не буде видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.html) або [wincacheucacheclear()](function.wincache-ucache-clear.md)
+Додає змінну в кеш користувача, тільки якщо ця змінна ще не існує в кеші. Додана змінна залишається в кеші користувача, поки не закінчиться термін її дії або вона не буде видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.md) або [wincacheucacheclear()](function.wincache-ucache-clear.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 
 `value`
 
-Значення змінної, яку потрібно зберегти . `Value` підтримує всі типи даних, крім таких ресурсів, як дескриптори файлів. Параметр ігнорується, якщо першим аргументом масив. Загальне керівництво – передати **`null`** в якості `value` при використанні масиву `key`. Якщо `value` є об'єктом або масивом, що містить об'єкти, об'єкти будуть серіалізовані. Докладніше про серіалізацію об'єктів дивіться в описі [sleep()](language.oop5.magic.html#object.sleep)
+Значення змінної, яку потрібно зберегти . `Value` підтримує всі типи даних, крім таких ресурсів, як дескриптори файлів. Параметр ігнорується, якщо першим аргументом масив. Загальне керівництво – передати **`null`** в якості `value` при використанні масиву `key`. Якщо `value` є об'єктом або масивом, що містить об'єкти, об'єкти будуть серіалізовані. Докладніше про серіалізацію об'єктів дивіться в описі [sleep()](language.oop5.magic.md#object.sleep)
 
 `values`
 
@@ -40,7 +40,7 @@ wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 
 `ttl`
 
-Час, протягом якого змінна знаходиться у кеші, за секунди. Після того, як значення, вказане в `ttl` буде передано, збережена змінна буде видалена з кеша. Параметр набуває значення за замовчуванням `0`, що означає, що змінна залишиться в кеші, доки вона не буде явно видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.html) або [wincacheucacheclear()](function.wincache-ucache-clear.md)
+Час, протягом якого змінна знаходиться у кеші, за секунди. Після того, як значення, вказане в `ttl` буде передано, збережена змінна буде видалена з кеша. Параметр набуває значення за замовчуванням `0`, що означає, що змінна залишиться в кеші, доки вона не буде явно видалена за допомогою функцій [wincacheucachedelete()](function.wincache-ucache-delete.md) або [wincacheucacheclear()](function.wincache-ucache-clear.md)
 
 ### Значення, що повертаються
 
@@ -106,4 +106,4 @@ string(1) "6"
 -   [wincacheucacheexists()](function.wincache-ucache-exists.md) - Перевіряє, чи існує змінна в кеші користувача
 -   [wincacheucachememinfo()](function.wincache-ucache-meminfo.md) - Отримує інформацію про використання пам'яті кешу користувача.
 -   [wincacheucacheinfo()](function.wincache-ucache-info.md) - Отримує інформацію про дані, що зберігаються в кеші користувача
--   [sleep()](language.oop5.magic.html#object.sleep)
+-   [sleep()](language.oop5.magic.md#object.sleep)

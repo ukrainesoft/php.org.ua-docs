@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-excel.insertImage.html: '« VtifulKernelExcel::insertImage'
-  - vtiful-kernel-excel.mergeCells.html: 'VtifulKernelExcel::mergeCells »'
+  - vtiful-kernel-excel.insertImage.md: '« VtifulKernelExcel::insertImage'
+  - vtiful-kernel-excel.mergeCells.md: 'VtifulKernelExcel::mergeCells »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
 title: 'VtifulKernelExcel::insertText'
 ---
 # VtifulKernelExcel::insertText

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-control.disable.html: '« UIControl::disable'
-  - ui-control.getparent.html: 'ОЙControl::getParent »'
-  - index.html: PHP Manual
-  - class.ui-control.html: ОЙControl
+  - ui-control.disable.md: '« UIControl::disable'
+  - ui-control.getparent.md: 'ОЙControl::getParent »'
+  - index.md: PHP Manual
+  - class.ui-control.md: ОЙControl
 title: 'ОЙControl::enable'
 ---
 # ОЙControl::enable

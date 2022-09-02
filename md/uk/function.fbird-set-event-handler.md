@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-service-detach.html: « fbirdservicedetach
-  - function.fbird-trans.html: fbirdtrans »
+  - function.fbird-service-detach.md: « fbirdservicedetach
+  - function.fbird-trans.md: fbirdtrans »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdseteventhandler

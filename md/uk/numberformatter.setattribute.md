@@ -1,9 +1,9 @@
 ---
 navigation:
-  - numberformatter.parse.html: '« NumberFormatter::parse'
-  - numberformatter.setpattern.html: 'NumberFormatter::setPattern »'
-  - index.html: PHP Manual
-  - class.numberformatter.html: NumberFormatter
+  - numberformatter.parse.md: '« NumberFormatter::parse'
+  - numberformatter.setpattern.md: 'NumberFormatter::setPattern »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::setAttribute'
 ---
 # NumberFormatter::setAttribute
@@ -38,7 +38,7 @@ numfmt_set_attribute(NumberFormatter $formatter, int $attribute, int|float $valu
 
 `attribute`
 
-Специфікатор атрибуту - одна з констант [числового атрибута](class.numberformatter.html#intl.numberformatter-constants.unumberformatattribute)
+Специфікатор атрибуту - одна з констант [числового атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute)
 
 `value`
 

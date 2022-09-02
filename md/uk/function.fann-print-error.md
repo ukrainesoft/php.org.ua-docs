@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-num-output-train-data.html: « fannnumoutputtraindata
-  - function.fann-randomize-weights.html: fannrandomizeweights »
+  - function.fann-num-output-train-data.md: « fannnumoutputtraindata
+  - function.fann-randomize-weights.md: fannrandomizeweights »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannprinterror

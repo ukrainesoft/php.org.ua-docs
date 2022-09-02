@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.scoutapm.html: « ScoutAPM
-  - scoutapm.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.scoutapm.html: ScoutAPM
+  - book.scoutapm.md: « ScoutAPM
+  - scoutapm.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.scoutapm.md: ScoutAPM
 title: Вступ
 ---
 # Вступ

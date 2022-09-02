@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.isdispatched.html: '« YafRequestAbstract::isDispatched'
-  - yaf-request-abstract.ishead.html: 'YafRequestAbstract::isHead »'
+  - yaf-request-abstract.isdispatched.md: '« YafRequestAbstract::isDispatched'
+  - yaf-request-abstract.ishead.md: 'YafRequestAbstract::isHead »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::isGet'
 ---
 # YafRequestAbstract::isGet

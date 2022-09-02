@@ -1,16 +1,16 @@
 ---
 navigation:
-  - outcontrol.examples.rewrite.html: « Використання перезапису висновку
-  - function.flush.html: flush »
-  - index.html: PHP Manual
-  - book.outcontrol.html: Контроль виведення
+  - outcontrol.examples.rewrite.md: « Використання перезапису висновку
+  - function.flush.md: flush »
+  - index.md: PHP Manual
+  - book.outcontrol.md: Контроль виведення
 title: Функції контролю виведення
 ---
 # Функції контролю виведення
 
 # Дивіться також
 
-Дивіться також [header()](function.header.html) і [setcookie()](function.setcookie.md)
+Дивіться також [header()](function.header.md) і [setcookie()](function.setcookie.md)
 
 ## Зміст
 

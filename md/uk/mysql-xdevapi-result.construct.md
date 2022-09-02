@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-result.html: « mysqlxdevapiResult
-  - mysql-xdevapi-result.getaffecteditemscount.html: 'Result::getAffectedItemsCount »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: « mysqlxdevapiResult
+  - mysql-xdevapi-result.getaffecteditemscount.md: 'Result::getAffectedItemsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
 title: 'Result::construct'
 ---
 # Result::construct

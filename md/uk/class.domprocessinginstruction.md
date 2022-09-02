@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domparentnode.prepend.html: '« DOMParentNode::prepend'
-  - domprocessinginstruction.construct.html: 'DOMProcessingInstruction::construct »'
-  - index.html: PHP Manual
-  - book.dom.html: DOM
+  - domparentnode.prepend.md: '« DOMParentNode::prepend'
+  - domprocessinginstruction.construct.md: 'DOMProcessingInstruction::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
 title: Клас DOMProcessingInstruction
 ---
 # Клас DOMProcessingInstruction
@@ -139,4 +139,4 @@ data
 
 ## Зміст
 
--   [DOMProcessingInstruction::construct](domprocessinginstruction.construct.html) — Створює новий об'єкт класу DOMProcessingInstruction
+-   [DOMProcessingInstruction::construct](domprocessinginstruction.construct.md) — Створює новий об'єкт класу DOMProcessingInstruction

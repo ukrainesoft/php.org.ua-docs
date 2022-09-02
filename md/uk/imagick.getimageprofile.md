@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagepixelcolor.html: '« Imagick::getImagePixelColor'
-  - imagick.getimageprofiles.html: 'Imagick::getImageProfiles »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagepixelcolor.md: '« Imagick::getImagePixelColor'
+  - imagick.getimageprofiles.md: 'Imagick::getImageProfiles »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageProfile'
 ---
 # Imagick::getImageProfile

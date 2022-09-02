@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.convert.html: '« UConverter::convert'
-  - uconverter.getaliases.html: 'UConverter::getAliases »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.convert.md: '« UConverter::convert'
+  - uconverter.getaliases.md: 'UConverter::getAliases »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::fromUCallback'
 ---
 # UConverter::fromUCallback

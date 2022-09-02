@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.lua.html: « Lua
-  - lua.call.html: 'Lua::call »'
-  - index.html: PHP Manual
-  - class.lua.html: Lua
+  - class.lua.md: « Lua
+  - lua.call.md: 'Lua::call »'
+  - index.md: PHP Manual
+  - class.lua.md: Lua
 title: 'Lua::assign'
 ---
 # Lua::assign

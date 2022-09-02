@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setrows.html: '« SolrQuery::setRows'
-  - solrquery.setstart.html: 'SolrQuery::setStart »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setrows.md: '« SolrQuery::setRows'
+  - solrquery.setstart.md: 'SolrQuery::setStart »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setShowDebugInfo'
 ---
 # SolrQuery::setShowDebugInfo

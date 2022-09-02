@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-set-timeout.html: « streamsettimeout
-  - function.stream-socket-accept.html: streamsocketaccept »
+  - function.stream-set-timeout.md: « streamsettimeout
+  - function.stream-socket-accept.md: streamsocketaccept »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamsetwritebuffer

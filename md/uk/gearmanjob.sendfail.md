@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanjob.sendexception.html: '« GearmanJob::sendException'
-  - gearmanjob.sendstatus.html: 'GearmanJob::sendStatus »'
-  - index.html: PHP Manual
-  - class.gearmanjob.html: GearmanJob
+  - gearmanjob.sendexception.md: '« GearmanJob::sendException'
+  - gearmanjob.sendstatus.md: 'GearmanJob::sendStatus »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::sendFail'
 ---
 # GearmanJob::sendFail

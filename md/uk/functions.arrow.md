@@ -95,4 +95,4 @@ var_export($x);  // Выведет 1
 
 ### Примітки
 
-> **Зауваження**: Можно використовувати [funcnumargs()](function.func-num-args.html) [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.md) у стрілочній функції.
+> **Зауваження**: Можно використовувати [funcnumargs()](function.func-num-args.md) [funcgetarg()](function.func-get-arg.md) і [funcgetargs()](function.func-get-args.md) у стрілочній функції.

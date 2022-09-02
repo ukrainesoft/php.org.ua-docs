@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-objectid.tostring.html: '« MongoDBBSONObjectId::toString'
-  - class.mongodb-bson-regex.html: MongoDBBSONRegex »
+  - mongodb-bson-objectid.tostring.md: '« MongoDBBSONObjectId::toString'
+  - class.mongodb-bson-regex.md: MongoDBBSONRegex »
   - index.md: PHP Manual
-  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
 title: 'MongoDBBSONObjectId::unserialize'
 ---
 # MongoDBBSONObjectId::unserialize

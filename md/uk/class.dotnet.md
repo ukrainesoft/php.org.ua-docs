@@ -1,9 +1,9 @@
 ---
 navigation:
-  - com.construct.html: '« com::construct'
-  - dotnet.construct.html: 'dotnet::construct »'
-  - index.html: PHP Manual
-  - book.com.html: COM
+  - com.construct.md: '« com::construct'
+  - dotnet.construct.md: 'dotnet::construct »'
+  - index.md: PHP Manual
+  - book.com.md: COM
 title: Клас dotnet
 ---
 # Клас dotnet
@@ -24,7 +24,7 @@ title: Клас dotnet
 
 > **Зауваження**
 > 
-> До PHP 8.0.0 .Net framework 4.0 і пізніші версії не підтримуються класом **dotnet**. Однак якщо збірки були зареєстровані за допомогою **regasm.exe**, класи можуть бути створені як об'єкти [com](class.com.html). Починаючи з PHP 8.0.0, .Net framework 4.0 та пізніші версії підтримуються за допомогою директиви php.ini [com.dotnetversion](com.configuration.html#ini.com.dotnet-version)
+> До PHP 8.0.0 .Net framework 4.0 і пізніші версії не підтримуються класом **dotnet**. Однак якщо збірки були зареєстровані за допомогою **regasm.exe**, класи можуть бути створені як об'єкти [com](class.com.md). Починаючи з PHP 8.0.0, .Net framework 4.0 та пізніші версії підтримуються за допомогою директиви php.ini [com.dotnetversion](com.configuration.md#ini.com.dotnet-version)
 
 ## Огляд класів
 
@@ -73,4 +73,4 @@ echo $stack->Pop() . $stack->Pop();
 
 ## Зміст
 
--   [dotnet::construct](dotnet.construct.html) - Конструктор класу dotnet
+-   [dotnet::construct](dotnet.construct.md) - Конструктор класу dotnet

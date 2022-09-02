@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableupdate.set.html: '« TableUpdate::set'
-  - class.mysql-xdevapi-warning.html: mysqlxdevapiWarning »
+  - mysql-xdevapi-tableupdate.set.md: '« TableUpdate::set'
+  - class.mysql-xdevapi-warning.md: mysqlxdevapiWarning »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
 title: 'TableUpdate::where'
 ---
 # TableUpdate::where

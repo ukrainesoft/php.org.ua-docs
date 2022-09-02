@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.construct.html: '« mysqli::construct'
-  - mysqli.dump-debug-info.html: 'mysqli::dumpdebuginfo »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.construct.md: '« mysqli::construct'
+  - mysqli.dump-debug-info.md: 'mysqli::dumpdebuginfo »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::debug'
 ---
 # mysqli::debug
@@ -85,5 +85,5 @@ mysqli_debug("d:t:o,/tmp/client.trace");
 
 ### Дивіться також
 
--   [mysqlidumpdebuginfo()](mysqli.dump-debug-info.html) - Журналування налагоджувальної інформації
--   [mysqlireport()](function.mysqli-report.html) - Псевдонім mysqlidriver->reportmode
+-   [mysqlidumpdebuginfo()](mysqli.dump-debug-info.md) - Журналування налагоджувальної інформації
+-   [mysqlireport()](function.mysqli-report.md) - Псевдонім mysqlidriver->reportmode

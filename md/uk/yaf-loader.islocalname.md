@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-loader.import.html: '« YafLoader::import'
-  - yaf-loader.registerlocalnamespace.html: 'YafLoader::registerLocalNamespace »'
+  - yaf-loader.import.md: '« YafLoader::import'
+  - yaf-loader.registerlocalnamespace.md: 'YafLoader::registerLocalNamespace »'
   - index.md: PHP Manual
-  - class.yaf-loader.html: YafLoader
+  - class.yaf-loader.md: YafLoader
 title: 'YafLoader::isLocalName'
 ---
 # YafLoader::isLocalName

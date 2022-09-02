@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.sum.html: '« DsSet::sum'
-  - ds-set.union.html: 'ДсSet::union »'
+  - ds-set.sum.md: '« DsSet::sum'
+  - ds-set.union.md: 'ДсSet::union »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::toArray'
 ---
 # ДсSet::toArray

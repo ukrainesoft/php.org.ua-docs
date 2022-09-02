@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ev.suspend.html: '« Ev::suspend'
-  - ev.verify.html: 'Ev::verify »'
-  - index.html: PHP Manual
-  - class.ev.html: Єв
+  - ev.suspend.md: '« Ev::suspend'
+  - ev.verify.md: 'Ev::verify »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
 title: 'Ev::time'
 ---
 # Ev::time

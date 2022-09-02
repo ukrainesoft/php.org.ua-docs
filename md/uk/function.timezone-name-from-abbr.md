@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.timezone-location-get.html: « timezonelocationget
-  - function.timezone-name-get.html: timezonenameget »
+  - function.timezone-location-get.md: « timezonelocationget
+  - function.timezone-name-get.md: timezonenameget »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: timezonenamefromabbr

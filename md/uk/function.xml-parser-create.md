@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xml-parser-create-ns.html: « xmlparsercreateнс
-  - function.xml-parser-free.html: xmlparserfree »
-  - index.html: PHP Manual
-  - ref.xml.html: Функции парсера XML
+  - function.xml-parser-create-ns.md: « xmlparsercreateнс
+  - function.xml-parser-free.md: xmlparserfree »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
 title: xmlparsercreate
 ---
 # xmlparsercreate

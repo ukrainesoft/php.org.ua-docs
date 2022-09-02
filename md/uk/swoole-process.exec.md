@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.destruct.html: '« SwooleProcess::destruct'
-  - swoole-process.exit.html: 'SwooleProcess::exit »'
+  - swoole-process.destruct.md: '« SwooleProcess::destruct'
+  - swoole-process.exit.md: 'SwooleProcess::exit »'
   - index.md: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::exec'
 ---
 # SwooleProcess::exec

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-train-stop-function.html: « fannsettrainstopfunction
-  - function.fann-set-weight-array.html: fannsetweightarray »
+  - function.fann-set-train-stop-function.md: « fannsettrainstopfunction
+  - function.fann-set-weight-array.md: fannsetweightarray »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsettrainingalgorithm
@@ -30,7 +30,7 @@ fann_set_training_algorithm(resource $ann, int $training_algorithm): bool
 
 `training_algorithm`
 
-Константа [Алгоритма обучения](fann.constants.html#constants.fann-train)
+Константа [Алгоритма обучения](fann.constants.md#constants.fann-train)
 
 ### Значення, що повертаються
 

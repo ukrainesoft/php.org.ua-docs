@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strtolower.html: « strtolower
-  - function.strtr.html: strtr »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.strtolower.md: « strtolower
+  - function.strtr.md: strtr »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strtoupper
 ---
 # strtoupper
@@ -50,7 +50,7 @@ echo $str; // выводит: MARY HAD A LITTLE LAMB AND SHE LOVED I
 
 ### Дивіться також
 
--   [strtolower()](function.strtolower.html) - Перетворює рядок на нижній регістр
--   [ucfirst()](function.ucfirst.html) - Перетворює перший символ рядка у верхній регістр
--   [ucwords()](function.ucwords.html) - Перетворює на верхній регістр перший символ кожного слова в рядку
--   [мбstrtoupper()](function.mb-strtoupper.html) - Приведення рядка до верхнього регістру
+-   [strtolower()](function.strtolower.md) - Перетворює рядок на нижній регістр
+-   [ucfirst()](function.ucfirst.md) - Перетворює перший символ рядка у верхній регістр
+-   [ucwords()](function.ucwords.md) - Перетворює на верхній регістр перший символ кожного слова в рядку
+-   [мбstrtoupper()](function.mb-strtoupper.md) - Приведення рядка до верхнього регістру

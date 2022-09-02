@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.sleep.html: '« SwooleClient::sleep'
-  - class.swoole-connection-iterator.html: SwooleConnectionIterator »
+  - swoole-client.sleep.md: '« SwooleClient::sleep'
+  - class.swoole-connection-iterator.md: SwooleConnectionIterator »
   - index.md: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::wakeup'
 ---
 # SwooleClient::wakeup

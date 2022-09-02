@@ -1,9 +1,9 @@
 ---
 navigation:
-  - openssl.configuration.html: « Налаштування під час виконання
-  - openssl.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - openssl.setup.html: Встановлення та налаштування
+  - openssl.configuration.md: « Налаштування під час виконання
+  - openssl.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - openssl.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

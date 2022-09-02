@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlhighwave.html: « tradercdlhighwave
-  - function.trader-cdlhikkakemod.html: tradercdlhikkakemod »
+  - function.trader-cdlhighwave.md: « tradercdlhighwave
+  - function.trader-cdlhikkakemod.md: tradercdlhikkakemod »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlhikkake

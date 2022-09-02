@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatement.hasmoreresults.html: '« SqlStatement::hasMoreResults'
-  - mysql-xdevapi-sqlstatementresult.construct.html: 'SqlStatementResult::construct »'
+  - mysql-xdevapi-sqlstatement.hasmoreresults.md: '« SqlStatement::hasMoreResults'
+  - mysql-xdevapi-sqlstatementresult.construct.md: 'SqlStatementResult::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас SqlStatementResult
 ---
 # Клас SqlStatementResult

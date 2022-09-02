@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dateperiod.getrecurrences.html: '« DatePeriod::getRecurrences'
-  - ref.datetime.html: Функції дати та часу »
-  - index.html: PHP Manual
-  - class.dateperiod.html: DatePeriod
+  - dateperiod.getrecurrences.md: '« DatePeriod::getRecurrences'
+  - ref.datetime.md: Функції дати та часу »
+  - index.md: PHP Manual
+  - class.dateperiod.md: DatePeriod
 title: 'DatePeriod::getStartDate'
 ---
 # DatePeriod::getStartDate
@@ -28,9 +28,9 @@ public DatePeriod::getStartDate(): DateTimeInterface
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DateTimeImmutable](class.datetimeimmutable.html), коли [DatePeriod](class.dateperiod.html) ініціалізований об'єктом [DateTimeImmutable](class.datetimeimmutable.html) як параметр `start`
+Повертає об'єкт [DateTimeImmutable](class.datetimeimmutable.md), коли [DatePeriod](class.dateperiod.md) ініціалізований об'єктом [DateTimeImmutable](class.datetimeimmutable.md) як параметр `start`
 
-Інакше повертає об'єкт [DateTime](class.datetime.html)
+Інакше повертає об'єкт [DateTime](class.datetime.md)
 
 ### Приклади
 
@@ -52,5 +52,5 @@ echo $start->format(DateTime::ISO8601);
 
 ### Дивіться також
 
--   [DatePeriod::getEndDate()](dateperiod.getenddate.html) - Повертає кінцеву дату періоду
--   [DatePeriod::getDateInterval()](dateperiod.getdateinterval.html) - Повертає інтервал
+-   [DatePeriod::getEndDate()](dateperiod.getenddate.md) - Повертає кінцеву дату періоду
+-   [DatePeriod::getDateInterval()](dateperiod.getdateinterval.md) - Повертає інтервал

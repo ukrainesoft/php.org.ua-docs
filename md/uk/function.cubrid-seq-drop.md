@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-schema.html: « cubridschema
-  - function.cubrid-seq-insert.html: cubridseqinsert »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-schema.md: « cubridschema
+  - function.cubrid-seq-insert.md: cubridseqinsert »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridseqdrop
 ---
 # cubridseqdrop

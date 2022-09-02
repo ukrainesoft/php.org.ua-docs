@@ -77,7 +77,7 @@ public update(int $key, int $value): bool
 
 **`QuickHashIntHash::DO_NOT_USE_ZEND_ALLOC`**
 
-Забороняє використання вбудованого в PHP менеджера пам'яті внутрішніх структур. Якщо увімкнено цю опцію, то пам'ять, що використовується, не враховуватиметься налаштуванням [memorylimit](ini.core.html#ini.memory-limit)
+Забороняє використання вбудованого в PHP менеджера пам'яті внутрішніх структур. Якщо увімкнено цю опцію, то пам'ять, що використовується, не враховуватиметься налаштуванням [memorylimit](ini.core.md#ini.memory-limit)
 
 **`QuickHashIntHash::HASHER_NO_HASH`**
 

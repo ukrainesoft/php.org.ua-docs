@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-connect.html: « odbcconnect
-  - function.odbc-data-source.html: odbcdatasource »
+  - function.odbc-connect.md: « odbcconnect
+  - function.odbc-data-source.md: odbcdatasource »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbccursor

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-sarprop-temperature.html: « fannsetsarproptemperature
-  - function.fann-set-scaling-params.html: fannsetscalingparams »
+  - function.fann-set-sarprop-temperature.md: « fannsetsarproptemperature
+  - function.fann-set-scaling-params.md: fannsetscalingparams »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetsarpropweightdecayshift

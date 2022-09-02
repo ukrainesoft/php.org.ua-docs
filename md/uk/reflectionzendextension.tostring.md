@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionzendextension.getversion.html: '« ReflectionZendExtension::getVersion'
-  - class.reflectionextension.html: ReflectionExtension »
-  - index.html: PHP Manual
-  - class.reflectionzendextension.html: ReflectionZendExtension
+  - reflectionzendextension.getversion.md: '« ReflectionZendExtension::getVersion'
+  - class.reflectionextension.md: ReflectionExtension »
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
 title: 'ReflectionZendExtension::toString'
 ---
 # ReflectionZendExtension::toString

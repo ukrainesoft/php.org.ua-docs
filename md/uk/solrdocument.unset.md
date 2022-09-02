@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.unserialize.html: '« SolrDocument::unserialize'
-  - solrdocument.valid.html: 'SolrDocument::valid »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.unserialize.md: '« SolrDocument::unserialize'
+  - solrdocument.valid.md: 'SolrDocument::valid »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::unset'
 ---
 # SolrDocument::unset

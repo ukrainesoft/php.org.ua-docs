@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-next-result.html: « cubridnextresult
-  - function.cubrid-num-rows.html: cubridnumrows »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-next-result.md: « cubridnextresult
+  - function.cubrid-num-rows.md: cubridnumrows »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridnumcols
 ---
 # cubridnumcols

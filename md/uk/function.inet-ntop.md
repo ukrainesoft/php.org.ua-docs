@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.http-response-code.html: httpresponsecode
-  - function.inet-pton.html: inetpton »
+  - function.http-response-code.md: httpresponsecode
+  - function.inet-pton.md: inetpton »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: inetntop

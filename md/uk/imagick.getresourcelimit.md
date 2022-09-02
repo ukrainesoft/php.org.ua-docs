@@ -24,7 +24,7 @@ public static Imagick::getResourceLimit(int $type): int
 
 `type`
 
-Одна з [констант типов ресурсов](imagick.constants.html#imagick.constants.resourcetypes). Блок залежить від типу обмеженого ресурсу.
+Одна з [констант типов ресурсов](imagick.constants.md#imagick.constants.resourcetypes). Блок залежить від типу обмеженого ресурсу.
 
 ### Значення, що повертаються
 

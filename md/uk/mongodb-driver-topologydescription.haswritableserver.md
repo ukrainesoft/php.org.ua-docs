@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-topologydescription.hasreadableserver.html: '« MongoDBDriverTopologyDescription::hasReadableServer'
-  - class.mongodb-driver-writeconcernerror.html: MongoDBDriverWriteConcernError »
+  - mongodb-driver-topologydescription.hasreadableserver.md: '« MongoDBDriverTopologyDescription::hasReadableServer'
+  - class.mongodb-driver-writeconcernerror.md: MongoDBDriverWriteConcernError »
   - index.md: PHP Manual
-  - class.mongodb-driver-topologydescription.html: MongoDBDriverTopologyDescription
+  - class.mongodb-driver-topologydescription.md: MongoDBDriverTopologyDescription
 title: 'MongoDBDriverTopologyDescription::hasWritableServer'
 ---
 # MongoDBDriverTopologyDescription::hasWritableServer

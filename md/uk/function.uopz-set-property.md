@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-set-mock.html: « uopzsetmock
-  - function.uopz-set-return.html: uopzsetreturn »
+  - function.uopz-set-mock.md: « uopzsetmock
+  - function.uopz-set-return.md: uopzsetreturn »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzsetproperty

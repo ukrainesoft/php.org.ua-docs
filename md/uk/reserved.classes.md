@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reserved.keywords.html: « Список ключових слів
-  - reserved.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - reserved.html: Список зарезервованих слів
+  - reserved.keywords.md: « Список ключових слів
+  - reserved.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - reserved.md: Список зарезервованих слів
 title: Обумовлені класи
 ---
 ## Обумовлені класи
@@ -20,7 +20,7 @@ title: Обумовлені класи
 
 **stdClass**
 
-Створюється [приведенням типу до об'єкту](language.types.object.html#language.types.object.casting)
+Створюється [приведенням типу до об'єкту](language.types.object.md#language.types.object.casting)
 
 **PHPIncompleteClass**
 
@@ -34,11 +34,11 @@ title: Обумовлені класи
 
 [Closure](class.closure.md)
 
-Обумовлений остаточний клас [Closure](class.closure.html), використовується для внутрішньої реалізації [анонімних функцій](functions.anonymous.md)
+Обумовлений остаточний клас [Closure](class.closure.md), використовується для внутрішньої реалізації [анонімних функцій](functions.anonymous.md)
 
 [Generator](class.generator.md)
 
-Обумовлений остаточний клас [Generator](class.generator.html), використовується для подання [генераторів](language.generators.md)
+Обумовлений остаточний клас [Generator](class.generator.md), використовується для подання [генераторів](language.generators.md)
 
 [ArithmeticError](class.arithmeticerror.md)
 

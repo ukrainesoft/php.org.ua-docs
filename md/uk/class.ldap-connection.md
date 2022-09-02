@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-unbind.html: « ldapunbind
-  - class.ldap-result.html: LDAPResult »
+  - function.ldap-unbind.md: « ldapunbind
+  - class.ldap-result.md: LDAPResult »
   - index.md: PHP Manual
   - book.ldap.md: LDAP
 title: Клас LDAPConnection

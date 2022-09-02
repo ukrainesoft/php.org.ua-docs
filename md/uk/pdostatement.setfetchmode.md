@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdostatement.setattribute.html: '« PDOStatement::setAttribute'
-  - class.pdoexception.html: PDOException »
-  - index.html: PHP Manual
-  - class.pdostatement.html: PDOStatement
+  - pdostatement.setattribute.md: '« PDOStatement::setAttribute'
+  - class.pdoexception.md: PDOException »
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::setFetchMode'
 ---
 # PDOStatement::setFetchMode

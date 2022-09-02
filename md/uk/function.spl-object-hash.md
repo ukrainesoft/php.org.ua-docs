@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.spl-classes.html: « splclasses
-  - function.spl-object-id.html: splobjectid »
+  - function.spl-classes.md: « splclasses
+  - function.spl-object-id.md: splobjectid »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
 title: splobjecthash

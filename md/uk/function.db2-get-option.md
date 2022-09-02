@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-free-stmt.html: « db2freestmt
-  - function.db2-last-insert-id.html: db2lastinsertid »
+  - function.db2-free-stmt.md: « db2freestmt
+  - function.db2-last-insert-id.md: db2lastinsertid »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2getoption
 ---
 # db2getoption
@@ -24,7 +24,7 @@ db2_get_option(resource $resource, string $option): string|false
 
 `resource`
 
-Допустимий ресурс оператора, що повертається [db2prepare()](function.db2-prepare.html) або допустимий ресурс з'єднання, що повертається [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.md)
+Допустимий ресурс оператора, що повертається [db2prepare()](function.db2-prepare.md) або допустимий ресурс з'єднання, що повертається [db2connect()](function.db2-connect.md) або [db2pconnect()](function.db2-pconnect.md)
 
 `option`
 

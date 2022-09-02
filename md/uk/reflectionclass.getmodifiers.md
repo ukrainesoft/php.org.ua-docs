@@ -26,7 +26,7 @@ public ReflectionClass::getModifiers(): int
 
 ### Значення, що повертаються
 
-Повертає бітову маску з [констант модифікаторів](class.reflectionclass.html#reflectionclass.constants.modifiers)
+Повертає бітову маску з [констант модифікаторів](class.reflectionclass.md#reflectionclass.constants.modifiers)
 
 ### Дивіться також
 

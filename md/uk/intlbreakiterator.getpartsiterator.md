@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlbreakiterator.getlocale.html: '« IntlBreakIterator::getLocale'
-  - intlbreakiterator.gettext.html: 'IntlBreakIterator::getText »'
-  - index.html: PHP Manual
-  - class.intlbreakiterator.html: IntlBreakIterator
+  - intlbreakiterator.getlocale.md: '« IntlBreakIterator::getLocale'
+  - intlbreakiterator.gettext.md: 'IntlBreakIterator::getText »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
 title: 'IntlBreakIterator::getPartsIterator'
 ---
 # IntlBreakIterator::getPartsIterator

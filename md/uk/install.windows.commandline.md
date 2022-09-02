@@ -26,9 +26,9 @@ C:\php\php.exe -f "C:\PHP Scripts\script.php" -- -arg1 -arg2 -arg3
 > 
 > І PATH, і PATHEXT є важливими змінними, які спочатку існували у Windows, і слід подбати про те, щоб не перезаписувати жодну зі змінних, а лише додавати до них.
 
--   Додайте розташування файлу PHP (php.exe, php-win.exe або php-cli.exe залежно від вашої версії PHP і переваг відображення) в змінну оточення PATH. Докладніше про те, як додати каталог PHP до PATH, читайте в [відповідного запису часто задаваних питань](faq.installation.html#faq.installation.addtopath)
+-   Додайте розташування файлу PHP (php.exe, php-win.exe або php-cli.exe залежно від вашої версії PHP і переваг відображення) в змінну оточення PATH. Докладніше про те, як додати каталог PHP до PATH, читайте в [відповідного запису часто задаваних питань](faq.installation.md#faq.installation.addtopath)
     
--   Додати розширення `.PHP` до змінної оточення PATHEXT. Це можна зробити одночасно із зміною змінної оточення PATH. Виконайте ті ж дії, що і в [ЧАВО](faq.installation.html#faq.installation.addtopath), але змініть змінну оточення PATHEXT, а не PATH.
+-   Додати розширення `.PHP` до змінної оточення PATHEXT. Це можна зробити одночасно із зміною змінної оточення PATH. Виконайте ті ж дії, що і в [ЧАВО](faq.installation.md#faq.installation.addtopath), але змініть змінну оточення PATHEXT, а не PATH.
     
     > **Зауваження**
     > 

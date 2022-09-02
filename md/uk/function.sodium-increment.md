@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-hex2bin.html: « sodiumhex2bin
-  - function.sodium-memcmp.html: sodiummemcmp »
+  - function.sodium-hex2bin.md: « sodiumhex2bin
+  - function.sodium-memcmp.md: sodiummemcmp »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumincrement

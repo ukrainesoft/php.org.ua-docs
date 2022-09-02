@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.quantizeimage.html: '« Gmagick::quantizeimage'
-  - gmagick.queryfontmetrics.html: 'Gmagick::queryfontmetrics »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.quantizeimage.md: '« Gmagick::quantizeimage'
+  - gmagick.queryfontmetrics.md: 'Gmagick::queryfontmetrics »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::quantizeimages'
 ---
 # Gmagick::quantizeimages
@@ -44,7 +44,7 @@ public Gmagick::quantizeimages(    int $numColors,    int $colorspace, 
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-binmode.html: « odbcbinmode
-  - function.odbc-close.html: odbcclose »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-binmode.md: « odbcbinmode
+  - function.odbc-close.md: odbcclose »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbccloseall
 ---
 # odbccloseall

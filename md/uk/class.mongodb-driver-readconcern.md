@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.unserialize.html: '« MongoDBDriverReadPreference::unserialize'
-  - mongodb-driver-readconcern.bsonserialize.html: 'MongoDBDriverReadConcern::bsonSerialize »'
-  - index.html: PHP Manual
-  - book.mongodb.html: MongoDBDriver
+  - mongodb-driver-readpreference.unserialize.md: '« MongoDBDriverReadPreference::unserialize'
+  - mongodb-driver-readconcern.bsonserialize.md: 'MongoDBDriverReadConcern::bsonSerialize »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverReadConcern
 ---
 # Клас MongoDBDriverReadConcern

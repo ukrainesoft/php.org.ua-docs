@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-point.at.html: '« UIPoint::at'
-  - ui-point.getx.html: 'ОЙPoint::getX »'
+  - ui-point.at.md: '« UIPoint::at'
+  - ui-point.getx.md: 'ОЙPoint::getX »'
   - index.md: PHP Manual
-  - class.ui-point.html: ОЙPoint
+  - class.ui-point.md: ОЙPoint
 title: 'ОЙPoint::construct'
 ---
 # ОЙPoint::construct

@@ -1,7 +1,7 @@
 ---
 navigation:
   - compersisthelper.savetofile.md: '« COMPersistHelper::SaveToFile'
-  - class.com-exception.html: comexception »
+  - class.com-exception.md: comexception »
   - index.md: PHP Manual
   - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::SaveToStream'

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-command.html: « MongoDBDriverCommand
-  - class.mongodb-driver-query.html: MongoDBDriverQuery »
+  - class.mongodb-driver-command.md: « MongoDBDriverCommand
+  - class.mongodb-driver-query.md: MongoDBDriverQuery »
   - index.md: PHP Manual
-  - class.mongodb-driver-command.html: MongoDBDriverCommand
+  - class.mongodb-driver-command.md: MongoDBDriverCommand
 title: 'MongoDBDriverCommand::construct'
 ---
 # MongoDBDriverCommand::construct
@@ -18,7 +18,7 @@ MongoDBDriverCommand::construct — Створює новий об'єкт Comman
 final public MongoDB\Driver\Command::__construct(array|object $document, ?array $commandOptions = null)
 ```
 
-Створює новий об'єкт класу [MongoDBDriverCommand](class.mongodb-driver-command.html)що є незмінним значенням, що представляє команду бази даних. Цю команду згодом можна запустити за допомогою [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md)
+Створює новий об'єкт класу [MongoDBDriverCommand](class.mongodb-driver-command.md)що є незмінним значенням, що представляє команду бази даних. Цю команду згодом можна запустити за допомогою [MongoDBDriverManager::executeCommand()](mongodb-driver-manager.executecommand.md)
 
 Повний документ команди, що включає її ім'я та інші опції, має бути заданий у параметрі `document`. Параметр `commandOptions` використовується тільки для визначення опцій запуску команди та результуючий [MongoDBDriverCursor](class.mongodb-driver-cursor.md)
 

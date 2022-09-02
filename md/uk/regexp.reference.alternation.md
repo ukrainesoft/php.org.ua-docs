@@ -1,7 +1,7 @@
 ---
 navigation:
-  - regexp.reference.character-classes.html: « Символьні класи
-  - regexp.reference.internal-options.html: Установка внутренних опций »
+  - regexp.reference.character-classes.md: « Символьні класи
+  - regexp.reference.internal-options.md: Установка внутренних опций »
   - index.md: PHP Manual
   - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів
 title: Альтернативний вибір

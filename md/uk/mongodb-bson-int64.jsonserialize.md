@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-int64.construct.html: '« MongoDBBSONInt64::construct'
-  - mongodb-bson-int64.serialize.html: 'MongoDBBSONInt64::serialize »'
+  - mongodb-bson-int64.construct.md: '« MongoDBBSONInt64::construct'
+  - mongodb-bson-int64.serialize.md: 'MongoDBBSONInt64::serialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-int64.html: MongoDBBSONInt64
+  - class.mongodb-bson-int64.md: MongoDBBSONInt64
 title: 'MongoDBBSONInt64::jsonSerialize'
 ---
 # MongoDBBSONInt64::jsonSerialize
@@ -24,9 +24,9 @@ final public MongoDB\BSON\Int64::jsonSerialize(): mixed
 
 ### Значення, що повертаються
 
-Повертає дані, які можуть бути серіалізовані за допомогою [jsonencode()](function.json-encode.html) для створення розширеного JSON-подання [MongoDBBSONInt64](class.mongodb-bson-int64.md)
+Повертає дані, які можуть бути серіалізовані за допомогою [jsonencode()](function.json-encode.md) для створення розширеного JSON-подання [MongoDBBSONInt64](class.mongodb-bson-int64.md)
 
-> **Зауваження**: Висновок відповідає функції [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html), яка використовує [» канонічний](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) Розширений формат JSON. Це відрізняється від інших класів BSON, які використовують застарілий розширений формат JSON для конкретного драйвера ([MongoDBBSONtoJSON()](function.mongodb.bson-tojson.md)), щоб забезпечити правильне подання 64-розрядного цілого чисельного значення на 32-розрядних платформах.
+> **Зауваження**: Висновок відповідає функції [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md), яка використовує [» канонічний](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) Розширений формат JSON. Це відрізняється від інших класів BSON, які використовують застарілий розширений формат JSON для конкретного драйвера ([MongoDBBSONtoJSON()](function.mongodb.bson-tojson.md)), щоб забезпечити правильне подання 64-розрядного цілого чисельного значення на 32-розрядних платформах.
 
 ### Помилки
 

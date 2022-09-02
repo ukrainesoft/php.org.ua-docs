@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-clearflag-full.html: « imapclearflagfull
-  - function.imap-create.html: imapcreate »
+  - function.imap-clearflag-full.md: « imapclearflagfull
+  - function.imap-create.md: imapcreate »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapclose

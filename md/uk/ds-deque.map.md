@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.last.html: '« DsDeque::last'
-  - ds-deque.merge.html: 'ДсDeque::merge »'
+  - ds-deque.last.md: '« DsDeque::last'
+  - ds-deque.merge.md: 'ДсDeque::merge »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::map'
 ---
 # ДсDeque::map

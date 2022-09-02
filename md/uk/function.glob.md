@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.fwrite.md: « fwrite
-  - function.is-dir.html: ісdir »
+  - function.is-dir.md: ісdir »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: glob

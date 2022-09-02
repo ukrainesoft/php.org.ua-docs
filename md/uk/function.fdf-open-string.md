@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-next-field-name.html: « fdfnextfieldname
-  - function.fdf-open.html: fdfopen »
+  - function.fdf-next-field-name.md: « fdfnextfieldname
+  - function.fdf-open.md: fdfopen »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfopenstring
@@ -26,7 +26,7 @@ fdf_open_string(string $fdf_data): resource
 
 `fdf_data`
 
-Дані, повернуті з PDF форми або створені за допомогою [fdfcreate()](function.fdf-create.html) і [fdfsavestring()](function.fdf-save-string.md)
+Дані, повернуті з PDF форми або створені за допомогою [fdfcreate()](function.fdf-create.md) і [fdfsavestring()](function.fdf-save-string.md)
 
 ### Значення, що повертаються
 

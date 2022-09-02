@@ -1,9 +1,9 @@
 ---
 navigation:
-  - serializable.unserialize.html: '« Serializable::unserialize'
-  - closure.construct.html: 'Closure::construct »'
-  - index.html: PHP Manual
-  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+  - serializable.unserialize.md: '« Serializable::unserialize'
+  - closure.construct.md: 'Closure::construct »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Клас Closure
 ---
 # Клас Closure
@@ -12,11 +12,11 @@ title: Клас Closure
 
 ## Вступ
 
-Клас, який використовується для створення [анонімних функцій](functions.anonymous.html)
+Клас, який використовується для створення [анонімних функцій](functions.anonymous.md)
 
 Анонімні функції видають об'єкти цього. Клас отримав методи, що дозволяють контролювати анонімну функцію після її створення.
 
-Крім методів, описаних тут, цей клас також має метод `__invoke`. Цей метод необхідний лише сумісності з іншими класами, у яких реалізований [магічний виклик](language.oop5.magic.html#language.oop5.magic.invoke), оскільки цей метод не використовується під час виклику функції.
+Крім методів, описаних тут, цей клас також має метод `__invoke`. Цей метод необхідний лише сумісності з іншими класами, у яких реалізований [магічний виклик](language.oop5.magic.md#language.oop5.magic.invoke), оскільки цей метод не використовується під час виклику функції.
 
 ## Огляд класів
 
@@ -46,8 +46,8 @@ public static fromCallable(callable $callback): Closure
 
 ## Зміст
 
--   [Closure::construct](closure.construct.html) - Конструктор, який забороняє створення екземпляра
--   [Closure::bind](closure.bind.html) — Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
--   [Closure::bindTo](closure.bindto.html) — Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
--   [Closure::call](closure.call.html) — Зв'язує та запускає замикання
--   [Closure::fromCallable](closure.fromcallable.html) — Конвертує callable у замикання
+-   [Closure::construct](closure.construct.md) - Конструктор, який забороняє створення екземпляра
+-   [Closure::bind](closure.bind.md) — Дублює замикання із зазначенням конкретного зв'язаного об'єкта та області видимості класу
+-   [Closure::bindTo](closure.bindto.md) — Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
+-   [Closure::call](closure.call.md) — Зв'язує та запускає замикання
+-   [Closure::fromCallable](closure.fromcallable.md) — Конвертує callable у замикання

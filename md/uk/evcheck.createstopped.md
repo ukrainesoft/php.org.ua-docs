@@ -44,7 +44,7 @@ final
 
 `priority`
 
-[приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 

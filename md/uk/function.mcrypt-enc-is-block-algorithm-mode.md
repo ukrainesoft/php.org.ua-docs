@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-enc-get-supported-key-sizes.html: « mcryptencgetsupportedkeysizes
-  - function.mcrypt-enc-is-block-algorithm.html: mcryptencісblockalgorithm »
+  - function.mcrypt-enc-get-supported-key-sizes.md: « mcryptencgetsupportedkeysizes
+  - function.mcrypt-enc-is-block-algorithm.md: mcryptencісblockalgorithm »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptencісblockalgorithmmode

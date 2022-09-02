@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mysqli-execute.html: « mysqliexecute
-  - function.mysqli-get-links-stats.html: mysqligetlinksstats »
-  - index.html: PHP Manual
-  - ref.mysqli.html: Синоніми та застарілі функції Mysqli
+  - function.mysqli-execute.md: « mysqliexecute
+  - function.mysqli-get-links-stats.md: mysqligetlinksstats »
+  - index.md: PHP Manual
+  - ref.mysqli.md: Синоніми та застарілі функції Mysqli
 title: mysqligetclientstats
 ---
 # mysqligetclientstats

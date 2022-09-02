@@ -1,9 +1,9 @@
 ---
 navigation:
-  - wkhtmltox-pdf-converter.add.html: '« wkhtmltoxPDFConverter::add'
-  - wkhtmltox-pdf-converter.convert.html: 'wkhtmltoxPDFConverter::convert »'
+  - wkhtmltox-pdf-converter.add.md: '« wkhtmltoxPDFConverter::add'
+  - wkhtmltox-pdf-converter.convert.md: 'wkhtmltoxPDFConverter::convert »'
   - index.md: PHP Manual
-  - class.wkhtmltox-pdf-converter.html: wkhtmltoxPDFConverter
+  - class.wkhtmltox-pdf-converter.md: wkhtmltoxPDFConverter
 title: 'wkhtmltoxPDFConverter::construct'
 ---
 # wkhtmltoxPDFConverter::construct

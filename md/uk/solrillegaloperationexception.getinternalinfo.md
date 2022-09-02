@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.solrillegaloperationexception.html: « SolrIllegalOperationException
-  - class.solrmissingmandatoryparameterexception.html: SolrMissingMandatoryParameterException »
-  - index.html: PHP Manual
-  - class.solrillegaloperationexception.html: SolrIllegalOperationException
+  - class.solrillegaloperationexception.md: « SolrIllegalOperationException
+  - class.solrmissingmandatoryparameterexception.md: SolrMissingMandatoryParameterException »
+  - index.md: PHP Manual
+  - class.solrillegaloperationexception.md: SolrIllegalOperationException
 title: 'SolrIllegalOperationException::getInternalInfo'
 ---
 # SolrIllegalOperationException::getInternalInfo

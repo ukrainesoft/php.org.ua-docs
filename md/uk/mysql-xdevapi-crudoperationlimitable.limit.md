@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-crudoperationlimitable.html: « mysqlxdevapiCrudOperationLimitable
-  - class.mysql-xdevapi-crudoperationskippable.html: mysqlxdevapiCrudOperationSkippable »
+  - class.mysql-xdevapi-crudoperationlimitable.md: « mysqlxdevapiCrudOperationLimitable
+  - class.mysql-xdevapi-crudoperationskippable.md: mysqlxdevapiCrudOperationSkippable »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-crudoperationlimitable.html: mysqlxdevapiCrudOperationLimitable
+  - class.mysql-xdevapi-crudoperationlimitable.md: mysqlxdevapiCrudOperationLimitable
 title: 'CrudOperationLimitable::limit'
 ---
 # CrudOperationLimitable::limit

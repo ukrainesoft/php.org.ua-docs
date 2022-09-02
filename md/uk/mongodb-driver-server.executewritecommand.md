@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.executereadwritecommand.html: '« MongoDBDriverServer::executeReadWriteCommand'
-  - mongodb-driver-server.gethost.html: 'MongoDBDriverServer::getHost »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - mongodb-driver-server.executereadwritecommand.md: '« MongoDBDriverServer::executeReadWriteCommand'
+  - mongodb-driver-server.gethost.md: 'MongoDBDriverServer::getHost »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::executeWriteCommand'
 ---
 # MongoDBDriverServer::executeWriteCommand
@@ -20,7 +20,7 @@ final public MongoDB\Driver\Server::executeWriteCommand(string $db, MongoDB\Driv
 
 Виконує команду на цьому сервері.
 
-Цей метод застосовуватиме логіку, специфічну для команд, які пишуть (наприклад, [» drop](https://www.mongodb.com/docs/manual/reference/command/drop/)) та враховують версію сервера MongoDB. Опція `"writeConcern"` за умовчанням відповідатиме відповідному значенню з [URI подключения MongoDB](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-uri)
+Цей метод застосовуватиме логіку, специфічну для команд, які пишуть (наприклад, [» drop](https://www.mongodb.com/docs/manual/reference/command/drop/)) та враховують версію сервера MongoDB. Опція `"writeConcern"` за умовчанням відповідатиме відповідному значенню з [URI подключения MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
 
 > **Зауваження**: Метод не призначений для виконання [» insert](https://www.mongodb.com/docs/manual/reference/command/insert/) [» update](https://www.mongodb.com/docs/manual/reference/command/update/), або [» delete](https://www.mongodb.com/docs/manual/reference/command/delete/) команд. Користувачам рекомендується використовувати [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) для цих команд.
 
@@ -49,7 +49,7 @@ final public MongoDB\Driver\Server::executeWriteCommand(string $db, MongoDB\Driv
 
 **Увага**
 
-При використанні `"session"` та наявності незавершених транзакцій, ви не можете вказати `"readConcern"` ор `"writeConcern"` option. Це призведе до викидання винятків [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html). Натомість ви повинні встановити ці дві опції при створенні транзакції за допомогою [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.md)
+При використанні `"session"` та наявності незавершених транзакцій, ви не можете вказати `"readConcern"` ор `"writeConcern"` option. Це призведе до викидання винятків [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). Натомість ви повинні встановити ці дві опції при створенні транзакції за допомогою [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.md)
 
 ### Значення, що повертаються
 

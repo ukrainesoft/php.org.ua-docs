@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.capacity.html: '« DsQueue::capacity'
-  - ds-queue.construct.html: 'ДсQueue::construct »'
-  - index.html: PHP Manual
-  - class.ds-queue.html: Черга
+  - ds-queue.capacity.md: '« DsQueue::capacity'
+  - ds-queue.construct.md: 'ДсQueue::construct »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::clear'
 ---
 # ДсQueue::clear

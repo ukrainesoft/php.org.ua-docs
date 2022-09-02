@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-stat-paired-t.html: « statsstatpairedт
-  - function.stats-stat-powersum.html: statsstatpowersum »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-stat-paired-t.md: « statsstatpairedт
+  - function.stats-stat-powersum.md: statsstatpowersum »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsстатиpercentile
 ---
 # statsстатиpercentile

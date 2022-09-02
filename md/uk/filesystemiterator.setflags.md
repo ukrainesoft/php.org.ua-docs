@@ -24,7 +24,7 @@ public FilesystemIterator::setFlags(int $flags): void
 
 `flags`
 
-Прапори, які потрібно встановити. Дивіться [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+Прапори, які потрібно встановити. Дивіться [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ public FilesystemIterator::setFlags(int $flags): void
 
 **Приклад #1 Приклад використання [FilesystemIterator::key()](filesystemiterator.key.md)**
 
-Приклад демонструє різницю між прапорами [FilesystemIterator::KEYАСPATHNAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEYАСFILENAME](class.filesystemiterator.html#filesystemiterator.constants.key-as-filename)
+Приклад демонструє різницю між прапорами [FilesystemIterator::KEYАСPATHNAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-pathname) і [FilesystemIterator::KEYАСFILENAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-filename)
 
 ```php
 <?php

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - migration73.windows-support.html: « Поддержка Windows
-  - migration72.new-features.html: Нові можливості "
+  - migration73.windows-support.md: « Поддержка Windows
+  - migration72.new-features.md: Нові можливості "
   - index.md: PHP Manual
   - appendices.md: Appendices
 title: Міграція з PHP 7.1.x на PHP 7.2.x

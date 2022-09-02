@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.enchant.md: « Функции Enchant
-  - function.enchant-broker-dict-exists.html: enchantbrokerdictexists »
+  - function.enchant-broker-dict-exists.md: enchantbrokerdictexists »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantbrokerdescribe

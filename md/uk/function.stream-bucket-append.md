@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.stream.md: « Функції для роботи з потоками
-  - function.stream-bucket-make-writeable.html: streambucketmakewriteable »
+  - function.stream-bucket-make-writeable.md: streambucketmakewriteable »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streambucketappend

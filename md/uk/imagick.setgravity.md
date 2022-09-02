@@ -24,7 +24,7 @@ public Imagick::setGravity(int $gravity): bool
 
 `gravity`
 
-Властивість гравітації. Зверніться до списку [констант GRAVITY](imagick.constants.html#imagick.constants.gravity)
+Властивість гравітації. Зверніться до списку [констант GRAVITY](imagick.constants.md#imagick.constants.gravity)
 
 ### Значення, що повертаються
 

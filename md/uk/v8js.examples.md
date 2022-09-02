@@ -1,9 +1,9 @@
 ---
 navigation:
-  - v8js.resources.html: « Типи ресурсів
-  - class.v8js.html: V8Js »
-  - index.html: PHP Manual
-  - book.v8js.html: V8js
+  - v8js.resources.md: « Типи ресурсів
+  - class.v8js.md: V8Js »
+  - index.md: PHP Manual
+  - book.v8js.md: V8js
 title: Приклади
 ---
 # Приклади

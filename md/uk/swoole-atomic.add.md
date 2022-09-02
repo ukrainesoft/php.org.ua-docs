@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-atomic.html: « SwooleAtomic
-  - swoole-atomic.cmpset.html: 'SwooleAtomic::cmpset »'
-  - index.html: PHP Manual
-  - class.swoole-atomic.html: SwooleAtomic
+  - class.swoole-atomic.md: « SwooleAtomic
+  - swoole-atomic.cmpset.md: 'SwooleAtomic::cmpset »'
+  - index.md: PHP Manual
+  - class.swoole-atomic.md: SwooleAtomic
 title: 'SwooleAtomic::add'
 ---
 # SwooleAtomic::add

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-set-max-parallel.html: « eiosetmaxparallel
-  - function.eio-set-max-poll-time.html: eiosetmaxpolltime »
+  - function.eio-set-max-parallel.md: « eiosetmaxparallel
+  - function.eio-set-max-poll-time.md: eiosetmaxpolltime »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiosetmaxpollreqs

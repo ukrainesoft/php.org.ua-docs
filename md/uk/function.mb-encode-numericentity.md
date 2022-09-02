@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-encode-mimeheader.html: « mbencodemimeheader
-  - function.mb-encoding-aliases.html: мбencodingaliases »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-encode-mimeheader.md: « mbencodemimeheader
+  - function.mb-encoding-aliases.md: мбencodingaliases »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбencodenumericentity
 ---
 # мбencodenumericentity
@@ -91,4 +91,4 @@ $str = mb_encode_numericentity($str, $convmap, "sjis-win");
 
 ### Дивіться також
 
--   [мбdecodenumericentity()](function.mb-decode-numericentity.html) - Декодує посилання на числовий рядок HTML на символ
+-   [мбdecodenumericentity()](function.mb-decode-numericentity.md) - Декодує посилання на числовий рядок HTML на символ

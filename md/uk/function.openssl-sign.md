@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-seal.html: « opensslseal
-  - function.openssl-spki-export-challenge.html: opensslspkiexportchallenge »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-seal.md: « opensslseal
+  - function.openssl-spki-export-challenge.md: opensslspkiexportchallenge »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslsign
 ---
 # opensslsign
@@ -32,15 +32,15 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 `private_key`
 
-Ідентифікатор ключа типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html), отриманий з [opensslgetprivatekey()](function.openssl-get-privatekey.html)
+Ідентифікатор ключа типу [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md), отриманий з [opensslgetprivatekey()](function.openssl-get-privatekey.md)
 
 Рядок, що є ключем у форматі PEM
 
 `algorithm`
 
-Ціле число, що визначає алгоритм. Дивіться [алгоритми підпису](openssl.signature-algos.html)
+Ціле число, що визначає алгоритм. Дивіться [алгоритми підпису](openssl.signature-algos.md)
 
-Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.html). Наприклад, "sha256WithRSAEncryption" або "sha384".
+Рядок, повернутий [opensslgetмдmethods()](function.openssl-get-md-methods.md). Наприклад, "sha256WithRSAEncryption" або "sha384".
 
 ### Значення, що повертаються
 
@@ -50,7 +50,7 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 | Версия | Описание |
 | --- | --- |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Приклади
 
@@ -104,4 +104,4 @@ var_dump($r);
 
 ### Дивіться також
 
--   [opensslverify()](function.openssl-verify.html) - Звіряння сигнатури
+-   [opensslverify()](function.openssl-verify.md) - Звіряння сигнатури

@@ -1,143 +1,143 @@
 ---
 navigation:
-  - function.unixtojd.html: « unixtojd
-  - intro.datetime.html: Введение »
-  - index.html: PHP Manual
-  - refs.calendar.html: Модулі для роботи з датою та часом
+  - function.unixtojd.md: « unixtojd
+  - intro.datetime.md: Введение »
+  - index.md: PHP Manual
+  - refs.calendar.md: Модулі для роботи з датою та часом
 title: дата і час
 ---
 # дата і час
 
--   [Введение](intro.datetime.html)
--   [Встановлення та налаштування](datetime.setup.html)
-    -   [Вимоги](datetime.requirements.html)
-    -   [Установка](datetime.installation.html)
-    -   [Налаштування під час виконання](datetime.configuration.html)
-    -   [Типи ресурсів](datetime.resources.html)
--   [Обумовлені константи](datetime.constants.html)
--   [Приклади](datetime.examples.html)
-    -   [Арифметика дати/часу](datetime.examples-arithmetic.html)
--   [DateTime](class.datetime.html) - Клас DateTime
-    -   [DateTime::add](datetime.add.html) — Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
-    -   [DateTime::construct](datetime.construct.html) - Конструктор класу DateTime
-    -   [DateTime::createFromFormat](datetime.createfromformat.html) — Розбирає рядок із датою згідно з вказаним форматом
-    -   [DateTime::createFromImmutable](datetime.createfromimmutable.html) — Повертає об'єкт DateTime інкапсулюючий заданий об'єкт DateTimeImmutable
-    -   [DateTime::createFromInterface](datetime.createfrominterface.html) — Повертає новий об'єкт DateTime, створений із переданого об'єкта, який реалізує інтерфейс DateTimeInterface
-    -   [DateTime::getLastErrors](datetime.getlasterrors.html) — Повертає попередження та помилки
-    -   [DateTime::modify](datetime.modify.html) - Зміна тимчасової мітки
-    -   [DateTime::setstate](datetime.set-state.html) - Обробник setstate
-    -   [DateTime::setDate](datetime.setdate.html) - Встановлює дату
-    -   [DateTime::setISODate](datetime.setisodate.html) — Встановлює дату ISO
-    -   [DateTime::setTime](datetime.settime.html) - Встановлює час
-    -   [DateTime::setTimestamp](datetime.settimestamp.html) — Встановлює дату та час на основі мітки часу Unix
-    -   [DateTime::setTimezone](datetime.settimezone.html) — Встановлює часовий пояс для об'єкта класу DateTime
-    -   [DateTime::sub](datetime.sub.html) — Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
--   [DateTimeImmutable](class.datetimeimmutable.html) - Клас DateTimeImmutable
-    -   [DateTimeImmutable::add](datetimeimmutable.add.html) — Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
-    -   [DateTimeImmutable::construct](datetimeimmutable.construct.html) — Повертає новий об'єкт DateTimeImmutable
-    -   [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.html) — Розбирає рядок із датою згідно з вказаним форматом
-    -   [DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.html) — Повертає новий об'єкт DateTimeImmutable, створений із переданого об'єкта, що реалізує інтерфейс DateTimeInterface
-    -   [DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.html) — Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
-    -   [DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.html) — Повертає попередження та помилки
-    -   [DateTimeImmutable::modify](datetimeimmutable.modify.html) — Створює новий об'єкт із зміненою тимчасовою міткою
-    -   [DateTimeImmutable::setstate](datetimeimmutable.set-state.html) - Обробник setstate
-    -   [DateTimeImmutable::setDate](datetimeimmutable.setdate.html) - Встановлює дату
-    -   [DateTimeImmutable::setISODate](datetimeimmutable.setisodate.html) — Встановлює дату ISO
-    -   [DateTimeImmutable::setTime](datetimeimmutable.settime.html) - Встановлює час
-    -   [DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.html) — Встановлює дату та час на основі мітки часу Unix
-    -   [DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.html) - Встановлює часовий пояс
-    -   [DateTimeImmutable::sub](datetimeimmutable.sub.html) — Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
--   [DateTimeInterface](class.datetimeinterface.html) - Інтерфейс DateTimeInterface
-    -   [DateTimeInterface::diff](datetime.diff.html) — Повертає різницю між двома об'єктами DateTime
-    -   [DateTimeInterface::format](datetime.format.html) — Повертає дату, відформатовану згідно з переданим форматом
-    -   [DateTimeInterface::getOffset](datetime.getoffset.html) — Повертає усунення часового поясу
-    -   [DateTimeInterface::getTimestamp](datetime.gettimestamp.html) — Повертає тимчасову мітку Unix
-    -   [DateTimeInterface::getTimezone](datetime.gettimezone.html) — Повертає часовий пояс щодо поточного значення DateTime
-    -   [DateTime::wakeup](datetime.wakeup.html) - Обробник wakeup
--   [DateTimeZone](class.datetimezone.html) - Клас DateTimeZone
-    -   [DateTimeZone::construct](datetimezone.construct.html) — Створює новий об'єкт DateTimeZone
-    -   [DateTimeZone::getLocation](datetimezone.getlocation.html) — Повертає інформацію про місцезнаходження для часового поясу
-    -   [DateTimeZone::getName](datetimezone.getname.html) — Повертає ім'я часового поясу
-    -   [DateTimeZone::getOffset](datetimezone.getoffset.html) — Повертає усунення часового поясу від UTC (GMT)
-    -   [DateTimeZone::getTransitions](datetimezone.gettransitions.html) — Повертає всі переходи для часового поясу
-    -   [DateTimeZone::listAbbreviations](datetimezone.listabbreviations.html) — Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
-    -   [DateTimeZone::listIdentifiers](datetimezone.listidentifiers.html) — Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів
--   [DateInterval](class.dateinterval.html) - Клас DateInterval
-    -   [DateInterval::construct](dateinterval.construct.html) — Створює новий об'єкт DateInterval
-    -   [DateInterval::createFromDateString](dateinterval.createfromdatestring.html) — Створює об'єкт класу DateInterval із дати у відносному форматі
-    -   [DateInterval::format](dateinterval.format.html) - Форматує інтервал
--   [DatePeriod](class.dateperiod.html) - Клас DatePeriod
-    -   [DatePeriod::construct](dateperiod.construct.html) — Створює новий об'єкт DatePeriod
-    -   [DatePeriod::getDateInterval](dateperiod.getdateinterval.html) - Повертає інтервал
-    -   [DatePeriod::getEndDate](dateperiod.getenddate.html) — Повертає кінцеву дату періоду
-    -   [DatePeriod::getRecurrences](dateperiod.getrecurrences.html) — Отримує кількість повторів
-    -   [DatePeriod::getStartDate](dateperiod.getstartdate.html) — Повертає початкову дату періоду
--   [Функції дати та часу](ref.datetime.html)
-    -   [checkdate](function.checkdate.html) — Перевіряє коректність дати за григоріанським календарем
-    -   [dateadd](function.date-add.html) - Псевдонім DateTime::add
-    -   [datecreatefromformat](function.date-create-from-format.html) - Псевдонім DateTime::createFromFormat
-    -   [datecreateimmutablefromformat](function.date-create-immutable-from-format.html) - Псевдонім DateTimeImmutable::createFromFormat
-    -   [datecreateimmutable](function.date-create-immutable.html) - Псевдонім DateTimeImmutable::construct
-    -   [datecreate](function.date-create.html) — Створює новий об'єкт DateTime
-    -   [datedateset](function.date-date-set.html) - Псевдонім DateTime::setDate
-    -   [datedefaulttimezoneget](function.date-default-timezone-get.html) — Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу у скрипті
-    -   [datedefaulttimezoneset](function.date-default-timezone-set.html) — Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
-    -   [datediff](function.date-diff.html) - Псевдонім DateTime::diff
-    -   [dateformat](function.date-format.html) - Псевдонім DateTime::format
-    -   [dategetlasterrors](function.date-get-last-errors.html) - Псевдонім DateTime::getLastErrors
-    -   [dateintervalcreatefromdatestring](function.date-interval-create-from-date-string.html) - Псевдонім DateInterval::createFromDateString
-    -   [dateintervalformat](function.date-interval-format.html) - Псевдонім DateInterval::format
-    -   [dateisodateset](function.date-isodate-set.html) - Псевдонім DateTime::setISODate
-    -   [datemodify](function.date-modify.html) - Псевдонім DateTime::modify
-    -   [dateoffsetget](function.date-offset-get.html) - Псевдонім DateTime::getOffset
-    -   [dateparsefromformat](function.date-parse-from-format.html) — Отримання інформації про задану у визначеному форматі дату
-    -   [dateparse](function.date-parse.html) — Повертає асоціативний масив із детальною інформацією про задану дату/час.
-    -   [datesub](function.date-sub.html) - Псевдонім DateTime::sub
-    -   [datesuninfo](function.date-sun-info.html) — Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків
-    -   [datesunrise](function.date-sunrise.html) — Повертає час світанку для заданого дня та місця розташування
-    -   [datesunset](function.date-sunset.html) — Повертає час заходу сонця для заданого дня та місця розташування
-    -   [datetimeset](function.date-time-set.html) - Псевдонім DateTime::setTime
-    -   [datetimestampget](function.date-timestamp-get.html) - Псевдонім DateTime::getTimestamp
-    -   [datetimestampset](function.date-timestamp-set.html) - Псевдонім DateTime::setTimestamp
-    -   [datetimezoneget](function.date-timezone-get.html) - Псевдонім DateTime::getTimezone
-    -   [datetimezoneset](function.date-timezone-set.html) - Псевдонім DateTime::setTimezone
-    -   [date](function.date.html) — Форматує тимчасову мітку Unix
-    -   [getdate](function.getdate.html) — Повертає інформацію про дату/час
-    -   [gettimeofday](function.gettimeofday.html) — Повертає поточний час
-    -   [gmdate](function.gmdate.html) — Форматує дату/час за Грінвічем
-    -   [gmmktime](function.gmmktime.html) — Повертає локальну мітку часу Unix для часу за Грінвічем
-    -   [gmstrftime](function.gmstrftime.html) — Форматує дату/час за Грінвічем з урахуванням поточної локалі
-    -   [idate](function.idate.html) — Перетворює локальний час/дату на ціле число
-    -   [localtime](function.localtime.html) - Повертає локальний час
-    -   [microtime](function.microtime.html) — Повертає поточну позначку часу Unix з мікросекундами
-    -   [mktime](function.mktime.html) — Повертає позначку часу Unix для заданої дати
-    -   [strftime](function.strftime.html) — Форматує поточну дату/час з урахуванням поточних налаштувань локалі
-    -   [strptime](function.strptime.html) — Розбирає рядок дати/часу, згенерований функцією strftime
-    -   [strtotime](function.strtotime.html) — Перетворює текстове подання дати англійською мовою на позначку часу Unix
-    -   [time](function.time.html) — Повертає поточну позначку системного часу Unix
-    -   [timezoneabbreviationslist](function.timezone-abbreviations-list.html) - Псевдонім DateTimeZone::listAbbreviations
-    -   [timezoneidentifierslist](function.timezone-identifiers-list.html) - Псевдонім DateTimeZone::listIdentifiers
-    -   [timezonelocationget](function.timezone-location-get.html) - Псевдонім DateTimeZone::getLocation
-    -   [timezonenamefromabbr](function.timezone-name-from-abbr.html) — Повертає часовий пояс відповідно до абревіатури.
-    -   [timezonenameget](function.timezone-name-get.html) - Псевдонім DateTimeZone::getName
-    -   [timezoneoffsetget](function.timezone-offset-get.html) - Псевдонім DateTimeZone::getOffset
-    -   [timezoneopen](function.timezone-open.html) - Псевдонім DateTimeZone::construct
-    -   [timezonetransitionsget](function.timezone-transitions-get.html) - Псевдонім DateTimeZone::getTransitions
-    -   [timezoneversionget](function.timezone-version-get.html) — Отримання номера версії бази даних часових поясів
--   [Допустимі формати дати/часу](datetime.formats.html)
-    -   [Формати времени](datetime.formats.time.html)
-    -   [Формати дати](datetime.formats.date.html)
-    -   [Складові форматів](datetime.formats.compound.html)
-    -   [Відносні формати](datetime.formats.relative.html)
--   [Список підтримуваних часових поясів](timezones.html)
-    -   [Африка](timezones.africa.html)
-    -   [Америка](timezones.america.html)
-    -   [Антарктика](timezones.antarctica.html)
-    -   [Арктика](timezones.arctic.html)
-    -   [Азия](timezones.asia.html)
-    -   [Атлантика](timezones.atlantic.html)
-    -   [Австралія](timezones.australia.html)
-    -   [Європа](timezones.europe.html)
-    -   [Індійська](timezones.indian.html)
-    -   [Тихоокеанский](timezones.pacific.html)
-    -   [Інші](timezones.others.html)
+-   [Введение](intro.datetime.md)
+-   [Встановлення та налаштування](datetime.setup.md)
+    -   [Вимоги](datetime.requirements.md)
+    -   [Установка](datetime.installation.md)
+    -   [Налаштування під час виконання](datetime.configuration.md)
+    -   [Типи ресурсів](datetime.resources.md)
+-   [Обумовлені константи](datetime.constants.md)
+-   [Приклади](datetime.examples.md)
+    -   [Арифметика дати/часу](datetime.examples-arithmetic.md)
+-   [DateTime](class.datetime.md) - Клас DateTime
+    -   [DateTime::add](datetime.add.md) — Змінює об'єкт DateTime, додаючи кількість днів, місяців, років, годин, хвилин та секунд
+    -   [DateTime::construct](datetime.construct.md) - Конструктор класу DateTime
+    -   [DateTime::createFromFormat](datetime.createfromformat.md) — Розбирає рядок із датою згідно з вказаним форматом
+    -   [DateTime::createFromImmutable](datetime.createfromimmutable.md) — Повертає об'єкт DateTime інкапсулюючий заданий об'єкт DateTimeImmutable
+    -   [DateTime::createFromInterface](datetime.createfrominterface.md) — Повертає новий об'єкт DateTime, створений із переданого об'єкта, який реалізує інтерфейс DateTimeInterface
+    -   [DateTime::getLastErrors](datetime.getlasterrors.md) — Повертає попередження та помилки
+    -   [DateTime::modify](datetime.modify.md) - Зміна тимчасової мітки
+    -   [DateTime::setstate](datetime.set-state.md) - Обробник setstate
+    -   [DateTime::setDate](datetime.setdate.md) - Встановлює дату
+    -   [DateTime::setISODate](datetime.setisodate.md) — Встановлює дату ISO
+    -   [DateTime::setTime](datetime.settime.md) - Встановлює час
+    -   [DateTime::setTimestamp](datetime.settimestamp.md) — Встановлює дату та час на основі мітки часу Unix
+    -   [DateTime::setTimezone](datetime.settimezone.md) — Встановлює часовий пояс для об'єкта класу DateTime
+    -   [DateTime::sub](datetime.sub.md) — Змінює вказаний об'єкт DateTime, віднімаючи вказаний об'єкт DateInterval.
+-   [DateTimeImmutable](class.datetimeimmutable.md) - Клас DateTimeImmutable
+    -   [DateTimeImmutable::add](datetimeimmutable.add.md) — Повертає новий об'єкт із доданою кількістю днів, місяців, років, годин, хвилин та секунд
+    -   [DateTimeImmutable::construct](datetimeimmutable.construct.md) — Повертає новий об'єкт DateTimeImmutable
+    -   [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.md) — Розбирає рядок із датою згідно з вказаним форматом
+    -   [DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.md) — Повертає новий об'єкт DateTimeImmutable, створений із переданого об'єкта, що реалізує інтерфейс DateTimeInterface
+    -   [DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md) — Повертає новий об'єкт DateTimeImmutable, що містить заданий об'єкт DateTime
+    -   [DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.md) — Повертає попередження та помилки
+    -   [DateTimeImmutable::modify](datetimeimmutable.modify.md) — Створює новий об'єкт із зміненою тимчасовою міткою
+    -   [DateTimeImmutable::setstate](datetimeimmutable.set-state.md) - Обробник setstate
+    -   [DateTimeImmutable::setDate](datetimeimmutable.setdate.md) - Встановлює дату
+    -   [DateTimeImmutable::setISODate](datetimeimmutable.setisodate.md) — Встановлює дату ISO
+    -   [DateTimeImmutable::setTime](datetimeimmutable.settime.md) - Встановлює час
+    -   [DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.md) — Встановлює дату та час на основі мітки часу Unix
+    -   [DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.md) - Встановлює часовий пояс
+    -   [DateTimeImmutable::sub](datetimeimmutable.sub.md) — Віднімає передану кількість днів, місяців, років, годин, хвилин та секунд
+-   [DateTimeInterface](class.datetimeinterface.md) - Інтерфейс DateTimeInterface
+    -   [DateTimeInterface::diff](datetime.diff.md) — Повертає різницю між двома об'єктами DateTime
+    -   [DateTimeInterface::format](datetime.format.md) — Повертає дату, відформатовану згідно з переданим форматом
+    -   [DateTimeInterface::getOffset](datetime.getoffset.md) — Повертає усунення часового поясу
+    -   [DateTimeInterface::getTimestamp](datetime.gettimestamp.md) — Повертає тимчасову мітку Unix
+    -   [DateTimeInterface::getTimezone](datetime.gettimezone.md) — Повертає часовий пояс щодо поточного значення DateTime
+    -   [DateTime::wakeup](datetime.wakeup.md) - Обробник wakeup
+-   [DateTimeZone](class.datetimezone.md) - Клас DateTimeZone
+    -   [DateTimeZone::construct](datetimezone.construct.md) — Створює новий об'єкт DateTimeZone
+    -   [DateTimeZone::getLocation](datetimezone.getlocation.md) — Повертає інформацію про місцезнаходження для часового поясу
+    -   [DateTimeZone::getName](datetimezone.getname.md) — Повертає ім'я часового поясу
+    -   [DateTimeZone::getOffset](datetimezone.getoffset.md) — Повертає усунення часового поясу від UTC (GMT)
+    -   [DateTimeZone::getTransitions](datetimezone.gettransitions.md) — Повертає всі переходи для часового поясу
+    -   [DateTimeZone::listAbbreviations](datetimezone.listabbreviations.md) — Повертає асоціативний масив, що містить прапор переходу на літній час, зміщення та ім'я часового поясу
+    -   [DateTimeZone::listIdentifiers](datetimezone.listidentifiers.md) — Повертає чисельно індексований масив із усіма ідентифікаторами часових поясів
+-   [DateInterval](class.dateinterval.md) - Клас DateInterval
+    -   [DateInterval::construct](dateinterval.construct.md) — Створює новий об'єкт DateInterval
+    -   [DateInterval::createFromDateString](dateinterval.createfromdatestring.md) — Створює об'єкт класу DateInterval із дати у відносному форматі
+    -   [DateInterval::format](dateinterval.format.md) - Форматує інтервал
+-   [DatePeriod](class.dateperiod.md) - Клас DatePeriod
+    -   [DatePeriod::construct](dateperiod.construct.md) — Створює новий об'єкт DatePeriod
+    -   [DatePeriod::getDateInterval](dateperiod.getdateinterval.md) - Повертає інтервал
+    -   [DatePeriod::getEndDate](dateperiod.getenddate.md) — Повертає кінцеву дату періоду
+    -   [DatePeriod::getRecurrences](dateperiod.getrecurrences.md) — Отримує кількість повторів
+    -   [DatePeriod::getStartDate](dateperiod.getstartdate.md) — Повертає початкову дату періоду
+-   [Функції дати та часу](ref.datetime.md)
+    -   [checkdate](function.checkdate.md) — Перевіряє коректність дати за григоріанським календарем
+    -   [dateadd](function.date-add.md) - Псевдонім DateTime::add
+    -   [datecreatefromformat](function.date-create-from-format.md) - Псевдонім DateTime::createFromFormat
+    -   [datecreateimmutablefromformat](function.date-create-immutable-from-format.md) - Псевдонім DateTimeImmutable::createFromFormat
+    -   [datecreateimmutable](function.date-create-immutable.md) - Псевдонім DateTimeImmutable::construct
+    -   [datecreate](function.date-create.md) — Створює новий об'єкт DateTime
+    -   [datedateset](function.date-date-set.md) - Псевдонім DateTime::setDate
+    -   [datedefaulttimezoneget](function.date-default-timezone-get.md) — Повертає часовий пояс, який використовується за умовчанням всіма функціями дати/часу у скрипті
+    -   [datedefaulttimezoneset](function.date-default-timezone-set.md) — Встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті
+    -   [datediff](function.date-diff.md) - Псевдонім DateTime::diff
+    -   [dateformat](function.date-format.md) - Псевдонім DateTime::format
+    -   [dategetlasterrors](function.date-get-last-errors.md) - Псевдонім DateTime::getLastErrors
+    -   [dateintervalcreatefromdatestring](function.date-interval-create-from-date-string.md) - Псевдонім DateInterval::createFromDateString
+    -   [dateintervalformat](function.date-interval-format.md) - Псевдонім DateInterval::format
+    -   [dateisodateset](function.date-isodate-set.md) - Псевдонім DateTime::setISODate
+    -   [datemodify](function.date-modify.md) - Псевдонім DateTime::modify
+    -   [dateoffsetget](function.date-offset-get.md) - Псевдонім DateTime::getOffset
+    -   [dateparsefromformat](function.date-parse-from-format.md) — Отримання інформації про задану у визначеному форматі дату
+    -   [dateparse](function.date-parse.md) — Повертає асоціативний масив із детальною інформацією про задану дату/час.
+    -   [datesub](function.date-sub.md) - Псевдонім DateTime::sub
+    -   [datesuninfo](function.date-sun-info.md) — Повертає масив з інформацією про захід сонця/світанок і початок/закінчення сутінків
+    -   [datesunrise](function.date-sunrise.md) — Повертає час світанку для заданого дня та місця розташування
+    -   [datesunset](function.date-sunset.md) — Повертає час заходу сонця для заданого дня та місця розташування
+    -   [datetimeset](function.date-time-set.md) - Псевдонім DateTime::setTime
+    -   [datetimestampget](function.date-timestamp-get.md) - Псевдонім DateTime::getTimestamp
+    -   [datetimestampset](function.date-timestamp-set.md) - Псевдонім DateTime::setTimestamp
+    -   [datetimezoneget](function.date-timezone-get.md) - Псевдонім DateTime::getTimezone
+    -   [datetimezoneset](function.date-timezone-set.md) - Псевдонім DateTime::setTimezone
+    -   [date](function.date.md) — Форматує тимчасову мітку Unix
+    -   [getdate](function.getdate.md) — Повертає інформацію про дату/час
+    -   [gettimeofday](function.gettimeofday.md) — Повертає поточний час
+    -   [gmdate](function.gmdate.md) — Форматує дату/час за Грінвічем
+    -   [gmmktime](function.gmmktime.md) — Повертає локальну мітку часу Unix для часу за Грінвічем
+    -   [gmstrftime](function.gmstrftime.md) — Форматує дату/час за Грінвічем з урахуванням поточної локалі
+    -   [idate](function.idate.md) — Перетворює локальний час/дату на ціле число
+    -   [localtime](function.localtime.md) - Повертає локальний час
+    -   [microtime](function.microtime.md) — Повертає поточну позначку часу Unix з мікросекундами
+    -   [mktime](function.mktime.md) — Повертає позначку часу Unix для заданої дати
+    -   [strftime](function.strftime.md) — Форматує поточну дату/час з урахуванням поточних налаштувань локалі
+    -   [strptime](function.strptime.md) — Розбирає рядок дати/часу, згенерований функцією strftime
+    -   [strtotime](function.strtotime.md) — Перетворює текстове подання дати англійською мовою на позначку часу Unix
+    -   [time](function.time.md) — Повертає поточну позначку системного часу Unix
+    -   [timezoneabbreviationslist](function.timezone-abbreviations-list.md) - Псевдонім DateTimeZone::listAbbreviations
+    -   [timezoneidentifierslist](function.timezone-identifiers-list.md) - Псевдонім DateTimeZone::listIdentifiers
+    -   [timezonelocationget](function.timezone-location-get.md) - Псевдонім DateTimeZone::getLocation
+    -   [timezonenamefromabbr](function.timezone-name-from-abbr.md) — Повертає часовий пояс відповідно до абревіатури.
+    -   [timezonenameget](function.timezone-name-get.md) - Псевдонім DateTimeZone::getName
+    -   [timezoneoffsetget](function.timezone-offset-get.md) - Псевдонім DateTimeZone::getOffset
+    -   [timezoneopen](function.timezone-open.md) - Псевдонім DateTimeZone::construct
+    -   [timezonetransitionsget](function.timezone-transitions-get.md) - Псевдонім DateTimeZone::getTransitions
+    -   [timezoneversionget](function.timezone-version-get.md) — Отримання номера версії бази даних часових поясів
+-   [Допустимі формати дати/часу](datetime.formats.md)
+    -   [Формати времени](datetime.formats.time.md)
+    -   [Формати дати](datetime.formats.date.md)
+    -   [Складові форматів](datetime.formats.compound.md)
+    -   [Відносні формати](datetime.formats.relative.md)
+-   [Список підтримуваних часових поясів](timezones.md)
+    -   [Африка](timezones.africa.md)
+    -   [Америка](timezones.america.md)
+    -   [Антарктика](timezones.antarctica.md)
+    -   [Арктика](timezones.arctic.md)
+    -   [Азия](timezones.asia.md)
+    -   [Атлантика](timezones.atlantic.md)
+    -   [Австралія](timezones.australia.md)
+    -   [Європа](timezones.europe.md)
+    -   [Індійська](timezones.indian.md)
+    -   [Тихоокеанский](timezones.pacific.md)
+    -   [Інші](timezones.others.md)

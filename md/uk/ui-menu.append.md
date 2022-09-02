@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-menu.html: « UIMenu
-  - ui-menu.appendabout.html: 'ОЙMenu::appendAbout »'
+  - class.ui-menu.md: « UIMenu
+  - ui-menu.appendabout.md: 'ОЙMenu::appendAbout »'
   - index.md: PHP Manual
-  - class.ui-menu.html: ОЙMenu
+  - class.ui-menu.md: ОЙMenu
 title: 'ОЙMenu::append'
 ---
 # ОЙMenu::append

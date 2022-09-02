@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-cascade-output-stagnation-epochs.html: « fannsetcascadeoutputstagnationepochs
-  - function.fann-set-error-log.html: fannseterrorlog »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-cascade-output-stagnation-epochs.md: « fannsetcascadeoutputstagnationepochs
+  - function.fann-set-error-log.md: fannseterrorlog »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetcascadeweightmultiplier
 ---
 # fannsetcascadeweightmultiplier
@@ -36,4 +36,4 @@ fann_set_cascade_weight_multiplier(resource $ann, float $cascade_weight_multipli
 
 ### Дивіться також
 
--   [fanngetcascadeweightmultiplier()](function.fann-get-cascade-weight-multiplier.html) - Повертає множник ваги
+-   [fanngetcascadeweightmultiplier()](function.fann-get-cascade-weight-multiplier.md) - Повертає множник ваги

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spl.resources.html: « Типи ресурсів
-  - spl.datastructures.html: Структури даних
-  - index.html: PHP Manual
-  - book.spl.html: SPL
+  - spl.resources.md: « Типи ресурсів
+  - spl.datastructures.md: Структури даних
+  - index.md: PHP Manual
+  - book.spl.md: SPL
 title: Обумовлені константи
 ---
 # Обумовлені константи

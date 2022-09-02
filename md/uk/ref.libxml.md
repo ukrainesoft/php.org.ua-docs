@@ -1,7 +1,7 @@
 ---
 navigation:
   - class.libxmlerror.md: « libXMLError
-  - function.libxml-clear-errors.html: libxmlclearerrors »
+  - function.libxml-clear-errors.md: libxmlclearerrors »
   - index.md: PHP Manual
   - book.libxml.md: libxml
 title: Функції libxml

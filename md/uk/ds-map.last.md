@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.ksorted.html: '« DsMap::ksorted'
-  - ds-map.map.html: 'ДсMap::map »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.ksorted.md: '« DsMap::ksorted'
+  - ds-map.map.md: 'ДсMap::map »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::last'
 ---
 # ДсMap::last
@@ -30,7 +30,7 @@ public Ds\Map::last(): Ds\Pair
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо колекція порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 

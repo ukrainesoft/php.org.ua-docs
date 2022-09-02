@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splobjectstorage.unserialize.html: '« SplObjectStorage::unserialize'
-  - spl.iterators.html: Ітератори »
-  - index.html: PHP Manual
-  - class.splobjectstorage.html: SplObjectStorage
+  - splobjectstorage.unserialize.md: '« SplObjectStorage::unserialize'
+  - spl.iterators.md: Ітератори »
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::valid'
 ---
 # SplObjectStorage::valid

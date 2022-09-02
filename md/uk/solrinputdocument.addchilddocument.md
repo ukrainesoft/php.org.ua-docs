@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.solrinputdocument.html: « SolrInputDocument
-  - solrinputdocument.addchilddocuments.html: 'SolrInputDocument::addChildDocuments »'
-  - index.html: PHP Manual
-  - class.solrinputdocument.html: SolrInputDocument
+  - class.solrinputdocument.md: « SolrInputDocument
+  - solrinputdocument.addchilddocuments.md: 'SolrInputDocument::addChildDocuments »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::addChildDocument'
 ---
 # SolrInputDocument::addChildDocument
@@ -24,7 +24,7 @@ public SolrInputDocument::addChildDocument(SolrInputDocument $child): void
 
 `child`
 
-Об'єкт [SolrInputDocument](class.solrinputdocument.html)
+Об'єкт [SolrInputDocument](class.solrinputdocument.md)
 
 ### Значення, що повертаються
 
@@ -32,9 +32,9 @@ public SolrInputDocument::addChildDocument(SolrInputDocument $child): void
 
 ### Помилки
 
-Викидає виняток [SolrIllegalArgumentException](class.solrillegalargumentexception.html) у разі виникнення помилки.
+Викидає виняток [SolrIllegalArgumentException](class.solrillegalargumentexception.md) у разі виникнення помилки.
 
-Викидає виняток [SolrException](class.solrexception.html) у разі виникнення внутрішньої помилки.
+Викидає виняток [SolrException](class.solrexception.md) у разі виникнення внутрішньої помилки.
 
 ### Приклади
 
@@ -111,7 +111,7 @@ SolrObject Object
 
 ### Дивіться також
 
--   [SolrInputDocument::addChildDocuments()](solrinputdocument.addchilddocuments.html) - Додає масив дочірніх документів
--   [SolrInputDocument::hasChildDocuments()](solrinputdocument.haschilddocuments.html) - Повертає true, якщо документ має дочірні документи
--   [SolrInputDocument::getChildDocuments()](solrinputdocument.getchilddocuments.html) - Повертає масив дочірніх документів (SolrInputDocument)
--   [SolrInputDocument::getChildDocumentsCount()](solrinputdocument.getchilddocumentscount.html) - Повертає кількість дочірніх документів
+-   [SolrInputDocument::addChildDocuments()](solrinputdocument.addchilddocuments.md) - Додає масив дочірніх документів
+-   [SolrInputDocument::hasChildDocuments()](solrinputdocument.haschilddocuments.md) - Повертає true, якщо документ має дочірні документи
+-   [SolrInputDocument::getChildDocuments()](solrinputdocument.getchilddocuments.md) - Повертає масив дочірніх документів (SolrInputDocument)
+-   [SolrInputDocument::getChildDocumentsCount()](solrinputdocument.getchilddocumentscount.md) - Повертає кількість дочірніх документів

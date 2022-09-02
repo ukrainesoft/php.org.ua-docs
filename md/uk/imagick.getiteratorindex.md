@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getinterlacescheme.html: '« Imagick::getInterlaceScheme'
-  - imagick.getnumberimages.html: 'Imagick::getNumberImages »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getinterlacescheme.md: '« Imagick::getInterlaceScheme'
+  - imagick.getnumberimages.md: 'Imagick::getNumberImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getIteratorIndex'
 ---
 # Imagick::getIteratorIndex

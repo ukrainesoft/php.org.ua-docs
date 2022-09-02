@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.setsubstchars.html: '« UConverter::setSubstChars'
-  - uconverter.transcode.html: 'UConverter::transcode »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.setsubstchars.md: '« UConverter::setSubstChars'
+  - uconverter.transcode.md: 'UConverter::transcode »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::toUCallback'
 ---
 # UConverter::toUCallback

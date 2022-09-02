@@ -1,94 +1,94 @@
 ---
 navigation:
-  - refs.remote.mail.html: « Модулі для роботи з поштою
-  - intro.imap.html: Введение »
-  - index.html: PHP Manual
-  - refs.remote.mail.html: Модулі для роботи з поштою
+  - refs.remote.mail.md: « Модулі для роботи з поштою
+  - intro.imap.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.mail.md: Модулі для роботи з поштою
 title: 'IMAP, POP3 та NNTP'
 ---
 # IMAP, POP3 та NNTP
 
--   [Введение](intro.imap.html)
--   [Встановлення та налаштування](imap.setup.html)
-    -   [Вимоги](imap.requirements.html)
-    -   [Установка](imap.installation.html)
-    -   [Налаштування під час виконання](imap.configuration.html)
-    -   [Типи ресурсів](imap.resources.html)
--   [Обумовлені константи](imap.constants.html)
--   [Функции IMAP](ref.imap.html)
-    -   [imap8bit](function.imap-8bit.html) — Конвертує 8-бітний рядок у рядок у форматі quoted-printable
-    -   [imapalerts](function.imap-alerts.html) — Повертає всі попереджувальні повідомлення IMAP.
-    -   [imapappend](function.imap-append.html) — Додає рядкове повідомлення до вказаної поштової скриньки
-    -   [imapbase64](function.imap-base64.html) — Декодувати текст закодований BASE64
-    -   [imapbinary](function.imap-binary.html) — Конвертує 8-бітовий рядок у рядок base64
-    -   [imapbody](function.imap-body.html) — Прочитати тіло повідомлення
-    -   [imapbodystruct](function.imap-bodystruct.html) — Прочитати структуру вказаної секції тіла заданого повідомлення
-    -   [imapcheck](function.imap-check.html) — Перевірити поточну поштову скриньку
-    -   [imapclearflagfull](function.imap-clearflag-full.html) — Зняти з повідомлення встановлені прапори
-    -   [imapclose](function.imap-close.html) — Закрити потік IMAP
-    -   [imapcreate](function.imap-create.html) - Псевдонім imapcreatemailbox
-    -   [imapcreatemailbox](function.imap-createmailbox.html) — Створити нову поштову скриньку
-    -   [imapdelete](function.imap-delete.html) — Позначити повідомлення для видалення
-    -   [imapdeletemailbox](function.imap-deletemailbox.html) — Видалити поштову скриньку
-    -   [imaperrors](function.imap-errors.html) — Отримати всі помилки, що відбулися IMAP
-    -   [imapexpunge](function.imap-expunge.html) — Видалити всі позначені для видалення повідомлення
-    -   [imapfetchoverview](function.imap-fetch-overview.html) — Огляд інформації, що міститься в заголовках повідомлень
-    -   [imapfetchbody](function.imap-fetchbody.html) — Витягти конкретну секцію тіла повідомлення
-    -   [imapfetchheader](function.imap-fetchheader.html) — Отримати назву повідомлення
-    -   [imapfetchmime](function.imap-fetchmime.html) — Вийняти MIME-заголовки для конкретного розділу повідомлення
-    -   [imapfetchstructure](function.imap-fetchstructure.html) — Прочитати структуру вказаного повідомлення
-    -   [imapfetchtext](function.imap-fetchtext.html) - Псевдонім imapbody
-    -   [imapгк](function.imap-gc.html) — Очистити кеш IMAP
-    -   [imapgetquota](function.imap-get-quota.html) — Отримати налаштування рівня квоти та статистику використання поштових скриньок
-    -   [imapgetquotaroot](function.imap-get-quotaroot.html) — Отримати параметри квоти для кожного користувача
-    -   [imapgetacl](function.imap-getacl.html) — Отримати ACL для заданої поштової скриньки
-    -   [imapgetmailboxes](function.imap-getmailboxes.html) — Прочитати список поштових скриньок, повертаючи докладну інформацію щодо кожної з них
-    -   [imapgetsubscribed](function.imap-getsubscribed.html) — Список усіх поштових скриньок, на які ви підписані
-    -   [imapheader](function.imap-header.html) - Псевдонім imapheaderinfo
-    -   [imapheaderinfo](function.imap-headerinfo.html) — Прочитати заголовок повідомлення
-    -   [imapheaders](function.imap-headers.html) — Отримати заголовки всіх повідомлень у поштовій скриньці
-    -   [imaplasterror](function.imap-last-error.html) — Отримати останню помилку IMAP у поточному запиті
-    -   [imaplist](function.imap-list.html) — Прочитати список поштових скриньок
-    -   [imaplistmailbox](function.imap-listmailbox.html) - Псевдонім imaplist
-    -   [imaplistscan](function.imap-listscan.html) — Отримати список поштових скриньок, імена яких містять заданий рядок
-    -   [imaplistsubscribed](function.imap-listsubscribed.html) - Псевдонім imaplsub
-    -   [imaplsub](function.imap-lsub.html) — Список усіх підписаних поштових скриньок
-    -   [imapmailcompose](function.imap-mail-compose.html) — Створити MIME-повідомлення на основі заданих обгортки та тіла
-    -   [imapmailcopy](function.imap-mail-copy.html) — Копіювати повідомлення до вказаної поштової скриньки
-    -   [imapmailmove](function.imap-mail-move.html) — Перемістити вказані повідомлення до вказаної поштової скриньки
-    -   [imapmail](function.imap-mail.html) — Надіслати email
-    -   [imapmailboxmsginfo](function.imap-mailboxmsginfo.html) — Отримати інформацію про поточну поштову скриньку
-    -   [imapmimeheaderdecode](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
-    -   [imapmsgno](function.imap-msgno.html) — Отримати номер повідомлення із заданим UID
-    -   [imapmutf7тоutf8](function.imap-mutf7-to-utf8.html) — Декодувати змінений рядок UTF-7 у UTF-8
-    -   [imapnummsg](function.imap-num-msg.html) — Отримати кількість повідомлень у поточній поштовій скриньці
-    -   [imapnumrecent](function.imap-num-recent.html) — Отримати кількість нових повідомлень у поточній поштовій скриньці
-    -   [imapopen](function.imap-open.html) — Відкриває потік IMAP до поштової скриньки
-    -   [imapping](function.imap-ping.html) — Перевірити, чи активний потік IMAP
-    -   [imapqprint](function.imap-qprint.html) — Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
-    -   [imaprename](function.imap-rename.html) - Псевдонім imaprenamemailbox
-    -   [imaprenamemailbox](function.imap-renamemailbox.html) — Перейменувати поштову скриньку
-    -   [imapreopen](function.imap-reopen.html) — Відкриває потік IMAP до нової скриньки
-    -   [imaprfc822parseadrlist](function.imap-rfc822-parse-adrlist.html) - Розбір адресного рядка
-    -   [imaprfc822parseheaders](function.imap-rfc822-parse-headers.html) - Розбір рядка заголовка листа
-    -   [imaprfc822writeaddress](function.imap-rfc822-write-address.html) — Отримати коректно сформовану e-mail адресу, задану ім'ям скриньки, хоста та персональною інформацією
-    -   [imapsavebody](function.imap-savebody.html) — Зберегти частину тіла повідомлення у файл
-    -   [imapscan](function.imap-scan.html) - Псевдонім imaplistscan
-    -   [imapscanmailbox](function.imap-scanmailbox.html) - Псевдонім imaplistscan
-    -   [imapsearch](function.imap-search.html) — Отримати повідомлення, які відповідають заданим критеріям
-    -   [imapsetquota](function.imap-set-quota.html) — Встановити квоту для заданої поштової скриньки
-    -   [imapsetacl](function.imap-setacl.html) — Встановлення ACL для заданої поштової скриньки
-    -   [imapsetflagfull](function.imap-setflag-full.html) — Встановити прапори на повідомлення
-    -   [imapsort](function.imap-sort.html) — Отримати та відсортувати повідомлення
-    -   [imapstatus](function.imap-status.html) — Отримати інформацію про статус поштової скриньки
-    -   [imapsubscribe](function.imap-subscribe.html) — Передплатити поштову скриньку
-    -   [imapthread](function.imap-thread.html) — Отримати дерево пов'язаних повідомлень
-    -   [imaptimeout](function.imap-timeout.html) — Встановити або отримати час очікування imap
-    -   [imapuid](function.imap-uid.html) — Отримати UID за номером повідомлення
-    -   [imapundelete](function.imap-undelete.html) — Знімає з повідомлення позначку видалення
-    -   [imapunsubscribe](function.imap-unsubscribe.html) — Відписатися від поштової скриньки
-    -   [imaputf7decode](function.imap-utf7-decode.html) — Декодує рядок із модифікованого кодування UTF-7
-    -   [imaputf7encode](function.imap-utf7-encode.html) — Перетворює рядок ISO-8859-1 на модифікований UTF-7
-    -   [imaputf8тоmutf7](function.imap-utf8-to-mutf7.html) — Кодувати рядок UTF-8 у змінений UTF-7
-    -   [imaputf8](function.imap-utf8.html) — Перетворює MIME-кодований текст на UTF-8
--   [IMAPConnection](class.imap-connection.html) - Клас IMAPConnection
+-   [Введение](intro.imap.md)
+-   [Встановлення та налаштування](imap.setup.md)
+    -   [Вимоги](imap.requirements.md)
+    -   [Установка](imap.installation.md)
+    -   [Налаштування під час виконання](imap.configuration.md)
+    -   [Типи ресурсів](imap.resources.md)
+-   [Обумовлені константи](imap.constants.md)
+-   [Функции IMAP](ref.imap.md)
+    -   [imap8bit](function.imap-8bit.md) — Конвертує 8-бітний рядок у рядок у форматі quoted-printable
+    -   [imapalerts](function.imap-alerts.md) — Повертає всі попереджувальні повідомлення IMAP.
+    -   [imapappend](function.imap-append.md) — Додає рядкове повідомлення до вказаної поштової скриньки
+    -   [imapbase64](function.imap-base64.md) — Декодувати текст закодований BASE64
+    -   [imapbinary](function.imap-binary.md) — Конвертує 8-бітовий рядок у рядок base64
+    -   [imapbody](function.imap-body.md) — Прочитати тіло повідомлення
+    -   [imapbodystruct](function.imap-bodystruct.md) — Прочитати структуру вказаної секції тіла заданого повідомлення
+    -   [imapcheck](function.imap-check.md) — Перевірити поточну поштову скриньку
+    -   [imapclearflagfull](function.imap-clearflag-full.md) — Зняти з повідомлення встановлені прапори
+    -   [imapclose](function.imap-close.md) — Закрити потік IMAP
+    -   [imapcreate](function.imap-create.md) - Псевдонім imapcreatemailbox
+    -   [imapcreatemailbox](function.imap-createmailbox.md) — Створити нову поштову скриньку
+    -   [imapdelete](function.imap-delete.md) — Позначити повідомлення для видалення
+    -   [imapdeletemailbox](function.imap-deletemailbox.md) — Видалити поштову скриньку
+    -   [imaperrors](function.imap-errors.md) — Отримати всі помилки, що відбулися IMAP
+    -   [imapexpunge](function.imap-expunge.md) — Видалити всі позначені для видалення повідомлення
+    -   [imapfetchoverview](function.imap-fetch-overview.md) — Огляд інформації, що міститься в заголовках повідомлень
+    -   [imapfetchbody](function.imap-fetchbody.md) — Витягти конкретну секцію тіла повідомлення
+    -   [imapfetchheader](function.imap-fetchheader.md) — Отримати назву повідомлення
+    -   [imapfetchmime](function.imap-fetchmime.md) — Вийняти MIME-заголовки для конкретного розділу повідомлення
+    -   [imapfetchstructure](function.imap-fetchstructure.md) — Прочитати структуру вказаного повідомлення
+    -   [imapfetchtext](function.imap-fetchtext.md) - Псевдонім imapbody
+    -   [imapгк](function.imap-gc.md) — Очистити кеш IMAP
+    -   [imapgetquota](function.imap-get-quota.md) — Отримати налаштування рівня квоти та статистику використання поштових скриньок
+    -   [imapgetquotaroot](function.imap-get-quotaroot.md) — Отримати параметри квоти для кожного користувача
+    -   [imapgetacl](function.imap-getacl.md) — Отримати ACL для заданої поштової скриньки
+    -   [imapgetmailboxes](function.imap-getmailboxes.md) — Прочитати список поштових скриньок, повертаючи докладну інформацію щодо кожної з них
+    -   [imapgetsubscribed](function.imap-getsubscribed.md) — Список усіх поштових скриньок, на які ви підписані
+    -   [imapheader](function.imap-header.md) - Псевдонім imapheaderinfo
+    -   [imapheaderinfo](function.imap-headerinfo.md) — Прочитати заголовок повідомлення
+    -   [imapheaders](function.imap-headers.md) — Отримати заголовки всіх повідомлень у поштовій скриньці
+    -   [imaplasterror](function.imap-last-error.md) — Отримати останню помилку IMAP у поточному запиті
+    -   [imaplist](function.imap-list.md) — Прочитати список поштових скриньок
+    -   [imaplistmailbox](function.imap-listmailbox.md) - Псевдонім imaplist
+    -   [imaplistscan](function.imap-listscan.md) — Отримати список поштових скриньок, імена яких містять заданий рядок
+    -   [imaplistsubscribed](function.imap-listsubscribed.md) - Псевдонім imaplsub
+    -   [imaplsub](function.imap-lsub.md) — Список усіх підписаних поштових скриньок
+    -   [imapmailcompose](function.imap-mail-compose.md) — Створити MIME-повідомлення на основі заданих обгортки та тіла
+    -   [imapmailcopy](function.imap-mail-copy.md) — Копіювати повідомлення до вказаної поштової скриньки
+    -   [imapmailmove](function.imap-mail-move.md) — Перемістити вказані повідомлення до вказаної поштової скриньки
+    -   [imapmail](function.imap-mail.md) — Надіслати email
+    -   [imapmailboxmsginfo](function.imap-mailboxmsginfo.md) — Отримати інформацію про поточну поштову скриньку
+    -   [imapmimeheaderdecode](function.imap-mime-header-decode.md) - Декодувати елементи заголовка
+    -   [imapmsgno](function.imap-msgno.md) — Отримати номер повідомлення із заданим UID
+    -   [imapmutf7тоutf8](function.imap-mutf7-to-utf8.md) — Декодувати змінений рядок UTF-7 у UTF-8
+    -   [imapnummsg](function.imap-num-msg.md) — Отримати кількість повідомлень у поточній поштовій скриньці
+    -   [imapnumrecent](function.imap-num-recent.md) — Отримати кількість нових повідомлень у поточній поштовій скриньці
+    -   [imapopen](function.imap-open.md) — Відкриває потік IMAP до поштової скриньки
+    -   [imapping](function.imap-ping.md) — Перевірити, чи активний потік IMAP
+    -   [imapqprint](function.imap-qprint.md) — Перетворити рядок з формату "quoted-printable" на 8-бітовий рядок
+    -   [imaprename](function.imap-rename.md) - Псевдонім imaprenamemailbox
+    -   [imaprenamemailbox](function.imap-renamemailbox.md) — Перейменувати поштову скриньку
+    -   [imapreopen](function.imap-reopen.md) — Відкриває потік IMAP до нової скриньки
+    -   [imaprfc822parseadrlist](function.imap-rfc822-parse-adrlist.md) - Розбір адресного рядка
+    -   [imaprfc822parseheaders](function.imap-rfc822-parse-headers.md) - Розбір рядка заголовка листа
+    -   [imaprfc822writeaddress](function.imap-rfc822-write-address.md) — Отримати коректно сформовану e-mail адресу, задану ім'ям скриньки, хоста та персональною інформацією
+    -   [imapsavebody](function.imap-savebody.md) — Зберегти частину тіла повідомлення у файл
+    -   [imapscan](function.imap-scan.md) - Псевдонім imaplistscan
+    -   [imapscanmailbox](function.imap-scanmailbox.md) - Псевдонім imaplistscan
+    -   [imapsearch](function.imap-search.md) — Отримати повідомлення, які відповідають заданим критеріям
+    -   [imapsetquota](function.imap-set-quota.md) — Встановити квоту для заданої поштової скриньки
+    -   [imapsetacl](function.imap-setacl.md) — Встановлення ACL для заданої поштової скриньки
+    -   [imapsetflagfull](function.imap-setflag-full.md) — Встановити прапори на повідомлення
+    -   [imapsort](function.imap-sort.md) — Отримати та відсортувати повідомлення
+    -   [imapstatus](function.imap-status.md) — Отримати інформацію про статус поштової скриньки
+    -   [imapsubscribe](function.imap-subscribe.md) — Передплатити поштову скриньку
+    -   [imapthread](function.imap-thread.md) — Отримати дерево пов'язаних повідомлень
+    -   [imaptimeout](function.imap-timeout.md) — Встановити або отримати час очікування imap
+    -   [imapuid](function.imap-uid.md) — Отримати UID за номером повідомлення
+    -   [imapundelete](function.imap-undelete.md) — Знімає з повідомлення позначку видалення
+    -   [imapunsubscribe](function.imap-unsubscribe.md) — Відписатися від поштової скриньки
+    -   [imaputf7decode](function.imap-utf7-decode.md) — Декодує рядок із модифікованого кодування UTF-7
+    -   [imaputf7encode](function.imap-utf7-encode.md) — Перетворює рядок ISO-8859-1 на модифікований UTF-7
+    -   [imaputf8тоmutf7](function.imap-utf8-to-mutf7.md) — Кодувати рядок UTF-8 у змінений UTF-7
+    -   [imaputf8](function.imap-utf8.md) — Перетворює MIME-кодований текст на UTF-8
+-   [IMAPConnection](class.imap-connection.md) - Клас IMAPConnection

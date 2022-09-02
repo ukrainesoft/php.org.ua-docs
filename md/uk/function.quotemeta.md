@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.quoted-printable-encode.html: « quotedprintableencode
-  - function.rtrim.html: rtrim »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.quoted-printable-encode.md: « quotedprintableencode
+  - function.rtrim.md: rtrim »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: quotemeta
 ---
 # quotemeta

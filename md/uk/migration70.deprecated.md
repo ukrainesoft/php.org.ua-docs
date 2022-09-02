@@ -1,7 +1,7 @@
 ---
 navigation:
-  - migration70.new-features.html: « Новая функциональность
-  - migration70.changed-functions.html: Змінені функції »
+  - migration70.new-features.md: « Новая функциональность
+  - migration70.changed-functions.md: Змінені функції »
   - index.md: PHP Manual
   - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
 title: 'Функціональність, оголошена застарілою PHP 7.0.x'

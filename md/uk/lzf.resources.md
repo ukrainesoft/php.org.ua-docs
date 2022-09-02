@@ -1,9 +1,9 @@
 ---
 navigation:
-  - lzf.configuration.html: « Налаштування під час виконання
-  - lzf.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - lzf.setup.html: Встановлення та налаштування
+  - lzf.configuration.md: « Налаштування під час виконання
+  - lzf.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - lzf.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

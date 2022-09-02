@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.xdiff.html: « Функції xdiff
-  - function.xdiff-file-bdiff.html: xdifffilebdiff »
-  - index.html: PHP Manual
-  - ref.xdiff.html: Функції xdiff
+  - ref.xdiff.md: « Функції xdiff
+  - function.xdiff-file-bdiff.md: xdifffilebdiff »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
 title: xdifffilebdiffsize
 ---
 # xdifffilebdiffsize
@@ -24,7 +24,7 @@ xdiff_file_bdiff_size(string $file): int
 
 `file`
 
-Шлях до бінарного патчу, створеного функціями [xdiffstringbdiff()](function.xdiff-string-bdiff.html) або [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
+Шлях до бінарного патчу, створеного функціями [xdiffstringbdiff()](function.xdiff-string-bdiff.md) або [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
 
 ### Значення, що повертаються
 

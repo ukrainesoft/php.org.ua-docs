@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-str-split.html: « mbstrsplit
-  - function.mb-strimwidth.html: мбstrimwidth »
+  - function.mb-str-split.md: « mbstrsplit
+  - function.mb-strimwidth.md: мбstrimwidth »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбstrcut

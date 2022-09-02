@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.compositeimage.html: '« Gmagick::compositeimage'
-  - gmagick.cropimage.html: 'Gmagick::cropimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.compositeimage.md: '« Gmagick::compositeimage'
+  - gmagick.cropimage.md: 'Gmagick::cropimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::construct'
 ---
 # Gmagick::construct
@@ -16,7 +16,7 @@ Gmagick::construct — Конструктор об'єкту Gmagick
 
 public **Gmagick::construct**(string `$filename`
 
-Конструктор об'єкту [Gmagick](class.gmagick.html)
+Конструктор об'єкту [Gmagick](class.gmagick.md)
 
 ### Список параметрів
 

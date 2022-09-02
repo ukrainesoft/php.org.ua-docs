@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-neg.html: « gmpneg
-  - function.gmp-or.html: gmpor »
+  - function.gmp-neg.md: « gmpneg
+  - function.gmp-or.md: gmpor »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpnextprime

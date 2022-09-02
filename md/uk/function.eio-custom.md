@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-close.html: « eioclose
-  - function.eio-dup2.html: eiodup2 »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-close.md: « eioclose
+  - function.eio-dup2.md: eiodup2 »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiocustom
 ---
 # eiocustom

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayobject.getflags.html: '« ArrayObject::getFlags'
-  - arrayobject.getiteratorclass.html: 'ArrayObject::getIteratorClass »'
-  - index.html: PHP Manual
-  - class.arrayobject.html: ArrayObject
+  - arrayobject.getflags.md: '« ArrayObject::getFlags'
+  - arrayobject.getiteratorclass.md: 'ArrayObject::getIteratorClass »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::getIterator'
 ---
 # ArrayObject::getIterator
@@ -18,7 +18,7 @@ ArrayObject::getIterator — Створити новий ітератор із �
 public ArrayObject::getIterator(): Iterator
 ```
 
-Створити новий ітератор із екземпляра [ArrayObject](class.arrayobject.html)
+Створити новий ітератор із екземпляра [ArrayObject](class.arrayobject.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ public ArrayObject::getIterator(): Iterator
 
 ### Значення, що повертаються
 
-Ітератор із [ArrayObject](class.arrayobject.html)
+Ітератор із [ArrayObject](class.arrayobject.md)
 
 ### Приклади
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionenumunitcase.getvalue.html: '« ReflectionEnumUnitCase::getValue'
-  - reflectionenumbackedcase.construct.html: 'ReflectionEnumBackedCase::construct »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionenumunitcase.getvalue.md: '« ReflectionEnumUnitCase::getValue'
+  - reflectionenumbackedcase.construct.md: 'ReflectionEnumBackedCase::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас ReflectionEnumBackedCase
 ---
 # Клас ReflectionEnumBackedCase
@@ -84,10 +84,10 @@ public ReflectionClassConstant::__toString(): string
 
 ## Дивіться також
 
--   [Перечисления](language.enumerations.html)
--   [ReflectionEnumUnitCase](class.reflectionenumunitcase.html)
+-   [Перечисления](language.enumerations.md)
+-   [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)
 
 ## Зміст
 
--   [ReflectionEnumBackedCase::construct](reflectionenumbackedcase.construct.html) — Створює об'єкт ReflectionEnumBackedCase
--   [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.html) — Отримує скалярне значення варіанта перерахування
+-   [ReflectionEnumBackedCase::construct](reflectionenumbackedcase.construct.md) — Створює об'єкт ReflectionEnumBackedCase
+-   [ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md) — Отримує скалярне значення варіанта перерахування

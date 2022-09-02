@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fgetc.html: « fgetc
-  - function.fgets.html: fgets »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.fgetc.md: « fgetc
+  - function.fgets.md: fgets »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: fgetcsv
 ---
 # fgetcsv
@@ -18,7 +18,7 @@ fgetcsv — Читає рядок із файлу та проводить роз
 fgetcsv(    resource $stream,    ?int $length = null,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\"): array|false
 ```
 
-Ця функція схожа на функцію [fgets()](function.fgets.html), з тією різницею, що вона здійснює аналіз рядка на наявність записів у форматі CSV і повертає знайдені поля як масив.
+Ця функція схожа на функцію [fgets()](function.fgets.md), з тією різницею, що вона здійснює аналіз рядка на наявність записів у форматі CSV і повертає знайдені поля як масив.
 
 > **Зауваження**
 > 
@@ -28,7 +28,7 @@ fgetcsv(    resource $stream,    ?int $length = null,    string $sep
 
 `stream`
 
-Коректний файловий покажчик на файл, успішно відкритий за допомогою [fopen()](function.fopen.html) [popen()](function.popen.html) або [fsockopen()](function.fsockopen.html)
+Коректний файловий покажчик на файл, успішно відкритий за допомогою [fopen()](function.fopen.md) [popen()](function.popen.md) або [fsockopen()](function.fsockopen.md)
 
 `length`
 
@@ -58,7 +58,7 @@ fgetcsv(    resource $stream,    ?int $length = null,    string $sep
 > 
 > Порожній рядок CSV-файлу буде повернуто як масив, що містить єдиний елемент null, помилки в даному випадку не виникне.
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків при читанні або створенні файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків при читанні або створенні файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.md#ini.auto-detect-line-endings) може допомогти вирішити проблему.
 
 ### список змін
 
@@ -90,8 +90,8 @@ if (($handle = fopen("test.csv", "r")) !== FALSE) {
 
 ### Дивіться також
 
--   [strgetcsv()](function.str-getcsv.html) - Розбирає CSV-рядки в масив
--   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
--   [file()](function.file.html) - Читає вміст файлу та поміщає його в масив
--   [pack()](function.pack.html) - Упакувати дані у бінарний рядок
--   [fputcsv()](function.fputcsv.html) - Форматує рядок у вигляді CSV і записує його у файловий покажчик
+-   [strgetcsv()](function.str-getcsv.md) - Розбирає CSV-рядки в масив
+-   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
+-   [file()](function.file.md) - Читає вміст файлу та поміщає його в масив
+-   [pack()](function.pack.md) - Упакувати дані у бінарний рядок
+-   [fputcsv()](function.fputcsv.md) - Форматує рядок у вигляді CSV і записує його у файловий покажчик

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.confirm.html: '« SwooleServer::confirm'
-  - swoole-server.connection-list.html: 'SwooleServer::connectionlist »'
+  - swoole-server.confirm.md: '« SwooleServer::confirm'
+  - swoole-server.connection-list.md: 'SwooleServer::connectionlist »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::connectioninfo'
 ---
 # SwooleServer::connectioninfo

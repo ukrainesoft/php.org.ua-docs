@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.checkdate.md: « checkdate
-  - function.date-create-from-format.html: datecreatefromformat »
+  - function.date-create-from-format.md: datecreatefromformat »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: dateadd

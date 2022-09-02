@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-font.getunderlinethickness.html: '« UIDrawTextFont::getUnderlineThickness'
-  - ui-draw-text-font-descriptor.construct.html: 'ОЙDrawTextFontDescriptor::construct »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-draw-text-font.getunderlinethickness.md: '« UIDrawTextFont::getUnderlineThickness'
+  - ui-draw-text-font-descriptor.construct.md: 'ОЙDrawTextFontDescriptor::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Дескриптор шрифту
 ---
 # Дескриптор шрифту
@@ -46,9 +46,9 @@ public getWeight(): int
 
 ## Зміст
 
--   [ОЙDrawTextFontDescriptor::construct](ui-draw-text-font-descriptor.construct.html) - Конструктор класу Font Descriptor
--   [ОЙDrawTextFontDescriptor::getFamily](ui-draw-text-font-descriptor.getfamily.html) — Отримує сімейство шрифтів
--   [ОЙDrawTextFontDescriptor::getItalic](ui-draw-text-font-descriptor.getitalic.html) — Визначення стилю
--   [ОЙDrawTextFontDescriptor::getSize](ui-draw-text-font-descriptor.getsize.html) - Визначення розміру
--   [ОЙDrawTextFontDescriptor::getStretch](ui-draw-text-font-descriptor.getstretch.html) — Визначення стилю
--   [ОЙDrawTextFontDescriptor::getWeight](ui-draw-text-font-descriptor.getweight.html) — Визначення насиченості
+-   [ОЙDrawTextFontDescriptor::construct](ui-draw-text-font-descriptor.construct.md) - Конструктор класу Font Descriptor
+-   [ОЙDrawTextFontDescriptor::getFamily](ui-draw-text-font-descriptor.getfamily.md) — Отримує сімейство шрифтів
+-   [ОЙDrawTextFontDescriptor::getItalic](ui-draw-text-font-descriptor.getitalic.md) — Визначення стилю
+-   [ОЙDrawTextFontDescriptor::getSize](ui-draw-text-font-descriptor.getsize.md) - Визначення розміру
+-   [ОЙDrawTextFontDescriptor::getStretch](ui-draw-text-font-descriptor.getstretch.md) — Визначення стилю
+-   [ОЙDrawTextFontDescriptor::getWeight](ui-draw-text-font-descriptor.getweight.md) — Визначення насиченості

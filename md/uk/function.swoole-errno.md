@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-cpu-num.html: « swoolecpunum
-  - function.swoole-error-log.html: swooleerrorlog »
+  - function.swoole-cpu-num.md: « swoolecpunum
+  - function.swoole-error-log.md: swooleerrorlog »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleerrno
 ---
 # swooleerrno

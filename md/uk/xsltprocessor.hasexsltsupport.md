@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xsltprocessor.getsecurityprefs.html: '« XSLTProcessor::getSecurityPrefs'
-  - xsltprocessor.importstylesheet.html: 'XSLTProcessor::importStylesheet »'
-  - index.html: PHP Manual
-  - class.xsltprocessor.html: XSLTProcessor
+  - xsltprocessor.getsecurityprefs.md: '« XSLTProcessor::getSecurityPrefs'
+  - xsltprocessor.importstylesheet.md: 'XSLTProcessor::importStylesheet »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::hasExsltSupport'
 ---
 # XSLTProcessor::hasExsltSupport
@@ -18,7 +18,7 @@ XSLTProcessor::hasExsltSupport — Визначає чи має PHP підтри
 public XSLTProcessor::hasExsltSupport(): bool
 ```
 
-Цей метод визначає чи був PHP налаштований з [» библиотекой EXSLT](http://xmlsoft.org/XSLT/EXSLT/index.html)
+Цей метод визначає чи був PHP налаштований з [» библиотекой EXSLT](http://xmlsoft.org/XSLT/EXSLT/index.md)
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-cdf-exponential.html: « statscdfexponential
-  - function.stats-cdf-gamma.html: statscdfgamma »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-cdf-exponential.md: « statscdfexponential
+  - function.stats-cdf-gamma.md: statscdfgamma »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statscdfф
 ---
 # statscdfф

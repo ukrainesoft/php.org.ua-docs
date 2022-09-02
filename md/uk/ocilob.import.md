@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ocilob.getbuffering.html: '« OCILob::getBuffering'
-  - ocilob.load.html: 'OCILob::load »'
-  - index.html: PHP Manual
-  - class.ocilob.html: OCILob
+  - ocilob.getbuffering.md: '« OCILob::getBuffering'
+  - ocilob.load.md: 'OCILob::load »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
 title: 'OCILob::import'
 ---
 # OCILob::import
@@ -34,9 +34,9 @@ public OCILob::import(string $filename): bool
 
 | Версия | Описание |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::export](ocilob.export.html)
--   [OCILob::write](ocilob.write.html)
+-   [OCILob::export](ocilob.export.md)
+-   [OCILob::write](ocilob.write.md)

@@ -32,7 +32,7 @@ public
 
 `flags`
 
-Необов'язкові прапори. Одна з констант `EventBase::LOOP_*`. Дивіться [EventBase константи](class.eventbase.html#eventbase.constants)
+Необов'язкові прапори. Одна з констант `EventBase::LOOP_*`. Дивіться [EventBase константи](class.eventbase.md#eventbase.constants)
 
 ### Значення, що повертаються
 

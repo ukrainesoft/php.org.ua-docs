@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagesetclip.html: « imagesetclip
-  - function.imagesetpixel.html: imagesetpixel »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagesetclip.md: « imagesetclip
+  - function.imagesetpixel.md: imagesetpixel »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesetinterpolation
 ---
 # imagesetinterpolation
@@ -18,13 +18,13 @@ imagesetinterpolation — Встановлює метод інтерполяці
 imagesetinterpolation(GdImage $image, int $method = IMG_BILINEAR_FIXED): bool
 ```
 
-Встановлює метод інтерполяції, встановлення методу інтерполяції впливає на відображення різних функцій GD, таких як функція [imagerotate()](function.imagerotate.html)
+Встановлює метод інтерполяції, встановлення методу інтерполяції впливає на відображення різних функцій GD, таких як функція [imagerotate()](function.imagerotate.md)
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `method`
 
@@ -60,7 +60,7 @@ imagesetinterpolation(GdImage $image, int $method = IMG_BILINEAR_FIXED): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -83,9 +83,9 @@ imagesetinterpolation($im, IMG_MITCHELL);
 
 Зміна методу інтерполяції впливає на такі функції при відображенні:
 
--   [imageaffine()](function.imageaffine.html)
--   [imagerotate()](function.imagerotate.html)
+-   [imageaffine()](function.imageaffine.md)
+-   [imagerotate()](function.imagerotate.md)
 
 ### Дивіться також
 
--   [imagegetinterpolation()](function.imagegetinterpolation.html) - Отримує метод інтерполяції
+-   [imagegetinterpolation()](function.imagegetinterpolation.md) - Отримує метод інтерполяції

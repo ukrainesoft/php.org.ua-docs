@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-current-user.html: « getcurrentuser
-  - function.get-extension-funcs.html: getextensionfuncs »
+  - function.get-current-user.md: « getcurrentuser
+  - function.get-extension-funcs.md: getextensionfuncs »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getdefinedconstants

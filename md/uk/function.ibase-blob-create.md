@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-blob-close.html: « ibaseblobclose
-  - function.ibase-blob-echo.html: ibaseblobecho »
+  - function.ibase-blob-close.md: « ibaseblobclose
+  - function.ibase-blob-echo.md: ibaseblobecho »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseblobcreate

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.imagick.html: « ImageMagick
-  - imagick.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.imagick.html: ImageMagick
+  - book.imagick.md: « ImageMagick
+  - imagick.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.imagick.md: ImageMagick
 title: Вступ
 ---
 # Вступ

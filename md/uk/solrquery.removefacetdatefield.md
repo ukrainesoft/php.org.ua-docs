@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.removeexpandsortfield.html: '« SolrQuery::removeExpandSortField'
-  - solrquery.removefacetdateother.html: 'SolrQuery::removeFacetDateOther »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.removeexpandsortfield.md: '« SolrQuery::removeExpandSortField'
+  - solrquery.removefacetdateother.md: 'SolrQuery::removeFacetDateOther »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::removeFacetDateField'
 ---
 # SolrQuery::removeFacetDateField

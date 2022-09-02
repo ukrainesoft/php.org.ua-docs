@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-intersect-key.html: « arrayintersectkey
-  - function.array-intersect-ukey.html: arrayintersectukey »
+  - function.array-intersect-key.md: « arrayintersectkey
+  - function.array-intersect-ukey.md: arrayintersectukey »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayintersectuassoc

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-convert-case.html: « mbconvertcase
-  - function.mb-convert-kana.html: мбconvertkana »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-convert-case.md: « mbconvertcase
+  - function.mb-convert-kana.md: мбconvertkana »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбconvertencoding
 ---
 # мбconvertencoding
@@ -32,11 +32,11 @@ mb_convert_encoding(array|string $string, string $to_encoding, array|string|null
 
 `from_encoding`
 
-Поточне кодування, яке використовується для інтерпретації рядка `string`. Декілька кодувань можуть бути вказані у вигляді масиву (array) або у вигляді рядка через кому, в цьому випадку правильне кодування буде визначено за тим же алгоритмом, що і функції [мбdetectencoding()](function.mb-detect-encoding.html)
+Поточне кодування, яке використовується для інтерпретації рядка `string`. Декілька кодувань можуть бути вказані у вигляді масиву (array) або у вигляді рядка через кому, в цьому випадку правильне кодування буде визначено за тим же алгоритмом, що і функції [мбdetectencoding()](function.mb-detect-encoding.md)
 
-Якщо параметр `from_encoding` дорівнює **`null`** або не вказано, то буде використовуватися [mbstring.internalencoding setting](mbstring.configuration.html#ini.mbstring.internal-encoding)якщо вона встановлена, інакше [кодировка по умолчанию](ini.core.html#ini.default-charset)
+Якщо параметр `from_encoding` дорівнює **`null`** або не вказано, то буде використовуватися [mbstring.internalencoding setting](mbstring.configuration.md#ini.mbstring.internal-encoding)якщо вона встановлена, інакше [кодировка по умолчанию](ini.core.md#ini.default-charset)
 
-Допустимі значення `to_encoding` і `from_encoding` вказані на сторінці [кодування, що підтримуються](mbstring.supported-encodings.html)
+Допустимі значення `to_encoding` і `from_encoding` вказані на сторінці [кодування, що підтримуються](mbstring.supported-encodings.md)
 
 ### Значення, що повертаються
 
@@ -44,14 +44,14 @@ mb_convert_encoding(array|string $string, string $to_encoding, array|string|null
 
 ### Помилки
 
-Починаючи з PHP 8.0.0, якщо значення `to_encoding` або `from_encoding` є неприпустимим кодуванням, викидається [ValueError](class.valueerror.html). До PHP 8.0.0 натомість видавалася помилка рівня **`E_WARNING`**
+Починаючи з PHP 8.0.0, якщо значення `to_encoding` або `from_encoding` є неприпустимим кодуванням, викидається [ValueError](class.valueerror.md). До PHP 8.0.0 натомість видавалася помилка рівня **`E_WARNING`**
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `to_encoding` |
-|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.html), якщо передано неприпустиме кодування в `from_encoding` |
+|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.md), якщо передано неприпустиме кодування в `to_encoding` |
+|  | **мбconvertencoding()** тепер викидає [ValueError](class.valueerror.md), якщо передано неприпустиме кодування в `from_encoding` |
 |  | Тепер `from_encoding` може бути **`null`** |
 |  | Функція тепер також приймає масив (array) `string`. Раніше підтримувалися лише рядки (string). |
 
@@ -77,6 +77,6 @@ $str = mb_convert_encoding($str, "EUC-JP", "auto");
 
 ### Дивіться також
 
--   [мбdetectorder()](function.mb-detect-order.html) - Встановлення/отримання списку кодувань для механізмів визначення кодування
--   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
--   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбdetectorder()](function.mb-detect-order.md) - Встановлення/отримання списку кодувань для механізмів визначення кодування
+-   [UConverter::transcode()](uconverter.transcode.md) - Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-patch.getclosure.html: '« ComponerePatch::getClosure'
-  - class.componere-method.html: ComponereMethod »
+  - componere-patch.getclosure.md: '« ComponerePatch::getClosure'
+  - class.componere-method.md: ComponereMethod »
   - index.md: PHP Manual
-  - class.componere-patch.html: ComponerePatch
+  - class.componere-patch.md: ComponerePatch
 title: 'ComponerePatch::getClosures'
 ---
 # ComponerePatch::getClosures

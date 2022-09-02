@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ctype-punct.html: « ctypepunct
-  - function.ctype-upper.html: ctypeupper »
+  - function.ctype-punct.md: « ctypepunct
+  - function.ctype-upper.md: ctypeupper »
   - index.md: PHP Manual
   - ref.ctype.md: Опції Ctype
 title: ctypespace

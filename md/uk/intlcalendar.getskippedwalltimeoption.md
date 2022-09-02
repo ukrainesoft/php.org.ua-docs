@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.getrepeatedwalltimeoption.html: '« IntlCalendar::getRepeatedWallTimeOption'
-  - intlcalendar.gettime.html: 'IntlCalendar::getTime »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.getrepeatedwalltimeoption.md: '« IntlCalendar::getRepeatedWallTimeOption'
+  - intlcalendar.gettime.md: 'IntlCalendar::getTime »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getSkippedWallTimeOption'
 ---
 # IntlCalendar::getSkippedWallTimeOption

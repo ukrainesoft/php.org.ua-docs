@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.installation.html: « Установка
-  - sqlite3.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - sqlite3.setup.html: Встановлення та налаштування
+  - sqlite3.installation.md: « Установка
+  - sqlite3.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - sqlite3.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [sqlite3.extensiondir](sqlite3.configuration.html#ini.sqlite3.extension-dir) | "" | PHPINISYSTEM |  |
-| [sqlite3.defensive](sqlite3.configuration.html#ini.sqlite3.defensive) |  | PHPINISYSTEM | Доступно з PHP 7.2.17 та 7.3.4 для libsqlite ≥ 3.26.0. |
+| [sqlite3.extensiondir](sqlite3.configuration.md#ini.sqlite3.extension-dir) | "" | PHPINISYSTEM |  |
+| [sqlite3.defensive](sqlite3.configuration.md#ini.sqlite3.defensive) |  | PHPINISYSTEM | Доступно з PHP 7.2.17 та 7.3.4 для libsqlite ≥ 3.26.0. |
 
 Коротке пояснення конфігураційних директив.
 

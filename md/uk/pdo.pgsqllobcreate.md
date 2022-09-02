@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdo.pgsqlgetpid.html: '« PDO::pgsqlGetPid'
-  - pdo.pgsqllobopen.html: 'PDO::pgsqlLOBOpen »'
-  - index.html: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - pdo.pgsqlgetpid.md: '« PDO::pgsqlGetPid'
+  - pdo.pgsqllobopen.md: 'PDO::pgsqlLOBOpen »'
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlLOBCreate'
 ---
 # PDO::pgsqlLOBCreate
@@ -18,9 +18,9 @@ PDO::pgsqlLOBCreate — Створити новий великий об'єкт (
 public PDO::pgsqlLOBCreate(): string
 ```
 
-Функція **PDO::pgsqlLOBCreate()** створює великий об'єкт (LOB) та повертає його OID. Ви можете відкрити потік для читання або зміни об'єкта за допомогою функції [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.html). OID можна зберегти в стовпці типу OID і використовувати як посилання на LOB, не викликаючи неконтрольованого збільшення розміру рядків. LOB буде жити в базі даних доки не буде видалено за допомогою функції [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.html)
+Функція **PDO::pgsqlLOBCreate()** створює великий об'єкт (LOB) та повертає його OID. Ви можете відкрити потік для читання або зміни об'єкта за допомогою функції [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md). OID можна зберегти в стовпці типу OID і використовувати як посилання на LOB, не викликаючи неконтрольованого збільшення розміру рядків. LOB буде жити в базі даних доки не буде видалено за допомогою функції [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md)
 
-Великі об'єкти можуть бути до 2ГБ розміром, але дуже громіздкі. Ви повинні переконатися, що виконали [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.html) до того, як видаліть останній рядок у вашій базі даних, яка посилається на його OID. До того ж великі об'єкти не мають контролю доступу. Як альтернативу спробуйте використовувати тип даних bytea. Останні версії PostgreSQL дозволяють стовпці типу bytea до 1ГБ розміром та прозоро керують табличним простором для оптимізації довжини рядків.
+Великі об'єкти можуть бути до 2ГБ розміром, але дуже громіздкі. Ви повинні переконатися, що виконали [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md) до того, як видаліть останній рядок у вашій базі даних, яка посилається на його OID. До того ж великі об'єкти не мають контролю доступу. Як альтернативу спробуйте використовувати тип даних bytea. Останні версії PostgreSQL дозволяють стовпці типу bytea до 1ГБ розміром та прозоро керують табличним простором для оптимізації довжини рядків.
 
 > **Зауваження**: Цю функцію необхідно виконувати у транзакції.
 
@@ -57,6 +57,6 @@ $db->commit();
 
 ### Дивіться також
 
--   [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.html) - Відкриває потік для існуючого великого об'єкту
--   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.html) - Видалити великий об'єкт
--   [пглоcreate()](function.pg-lo-create.html) - Створює великий об'єкт
+-   [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md) - Відкриває потік для існуючого великого об'єкту
+-   [PDO::pgsqlLOBUnlink()](pdo.pgsqllobunlink.md) - Видалити великий об'єкт
+-   [пглоcreate()](function.pg-lo-create.md) - Створює великий об'єкт

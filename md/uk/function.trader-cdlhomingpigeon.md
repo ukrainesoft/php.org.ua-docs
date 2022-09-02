@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlhikkakemod.html: « tradercdlhikkakemod
-  - function.trader-cdlidentical3crows.html: tradercdlidentical3crows »
+  - function.trader-cdlhikkakemod.md: « tradercdlhikkakemod
+  - function.trader-cdlidentical3crows.md: tradercdlidentical3crows »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlhomingpigeon

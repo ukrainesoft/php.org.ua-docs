@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-chisquare.html: « statscdfchisquare
-  - function.stats-cdf-f.html: statscdff »
+  - function.stats-cdf-chisquare.md: « statscdfchisquare
+  - function.stats-cdf-f.md: statscdff »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdfexponential

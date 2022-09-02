@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [taint.enable](taint.configuration.html#ini.taint.enable) |  | PHPINISYSTEM |  |
-| [taint.errorlevel](taint.configuration.html#ini.taint.error-level) | ЕWARNING | PHPINIALL |  |
+| [taint.enable](taint.configuration.md#ini.taint.enable) |  | PHPINISYSTEM |  |
+| [taint.errorlevel](taint.configuration.md#ini.taint.error-level) | ЕWARNING | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

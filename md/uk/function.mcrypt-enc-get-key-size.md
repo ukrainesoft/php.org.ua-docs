@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-enc-get-iv-size.html: « mcryptencgetвербsize
-  - function.mcrypt-enc-get-modes-name.html: mcryptencgetmodesname »
+  - function.mcrypt-enc-get-iv-size.md: « mcryptencgetвербsize
+  - function.mcrypt-enc-get-modes-name.md: mcryptencgetmodesname »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptencgetkeysize

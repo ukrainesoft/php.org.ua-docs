@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-button.gettext.html: '« UIControlsButton::getText'
-  - ui-controls-button.settext.html: 'ОЙControlsButton::setText »'
+  - ui-controls-button.gettext.md: '« UIControlsButton::getText'
+  - ui-controls-button.settext.md: 'ОЙControlsButton::setText »'
   - index.md: PHP Manual
-  - class.ui-controls-button.html: ОЙControlsButton
+  - class.ui-controls-button.md: ОЙControlsButton
 title: 'ОЙControlsButton::onClick'
 ---
 # ОЙControlsButton::onClick

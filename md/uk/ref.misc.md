@@ -1,7 +1,7 @@
 ---
 navigation:
   - misc.constants.md: « Обумовлені константи
-  - function.connection-aborted.html: connectionaborted »
+  - function.connection-aborted.md: connectionaborted »
   - index.md: PHP Manual
   - book.misc.md: Misc.
 title: Різні функції

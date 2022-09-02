@@ -1,7 +1,7 @@
 ---
 navigation:
   - xml.encoding.md: « Кодування символів
-  - example.xml-structure.html: Приклад Структури Елементу XML »
+  - example.xml-structure.md: Приклад Структури Елементу XML »
   - index.md: PHP Manual
   - book.xml.md: Разбор XML
 title: Приклади

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-youngest-rev.html: « svnфсyoungestrev
-  - function.svn-log.html: svnlog »
+  - function.svn-fs-youngest-rev.md: « svnфсyoungestrev
+  - function.svn-log.md: svnlog »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnimport

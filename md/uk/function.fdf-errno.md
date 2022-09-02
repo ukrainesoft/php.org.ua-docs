@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-enum-values.html: « fdfenumvalues
-  - function.fdf-error.html: fdferror »
+  - function.fdf-enum-values.md: « fdfenumvalues
+  - function.fdf-error.md: fdferror »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdferrno

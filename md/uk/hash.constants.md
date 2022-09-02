@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hash.resources.html: « Типи ресурсів
-  - class.hashcontext.html: HashContext »
-  - index.html: PHP Manual
-  - book.hash.html: Hash
+  - hash.resources.md: « Типи ресурсів
+  - class.hashcontext.md: HashContext »
+  - index.md: PHP Manual
+  - book.hash.md: Hash
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -12,4 +12,4 @@ title: Обумовлені константи
 
 **`HASH_HMAC`** (int)
 
-Необов'язковий прапор для [hashinit()](function.hash-init.html)
+Необов'язковий прапор для [hashinit()](function.hash-init.md)

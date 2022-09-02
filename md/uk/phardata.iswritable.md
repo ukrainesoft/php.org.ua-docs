@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phardata.extractto.html: '« PharData::extractTo'
-  - phardata.offsetset.html: 'PharData::offsetSet »'
-  - index.html: PHP Manual
-  - class.phardata.html: PharData
+  - phardata.extractto.md: '« PharData::extractTo'
+  - phardata.offsetset.md: 'PharData::offsetSet »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
 title: 'PharData::isWritable'
 ---
 # PharData::isWritable
@@ -18,7 +18,7 @@ PharData::isWritable — Перевірити, чи можна модифіку�
 public PharData::isWritable(): bool
 ```
 
-Цей метод повертає \*\*`true`\*\*якщо tar/zip-архів існує і доступний для запису. На відміну від [Phar::isWritable()](phar.iswritable.html), tar/zip-архіви з даними можна змінювати навіть якщо `phar.readonly` встановлений в `1`
+Цей метод повертає \*\*`true`\*\*якщо tar/zip-архів існує і доступний для запису. На відміну від [Phar::isWritable()](phar.iswritable.md), tar/zip-архіви з даними можна змінювати навіть якщо `phar.readonly` встановлений в `1`
 
 ### Список параметрів
 
@@ -30,5 +30,5 @@ public PharData::isWritable(): bool
 
 ### Дивіться також
 
--   [Phar::canWrite()](phar.canwrite.html) - Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
--   [Phar::isWritable()](phar.iswritable.html) - Перевіряє, чи можна модифікувати phar-архів
+-   [Phar::canWrite()](phar.canwrite.md) - Перевіряє, чи підтримує модуль phar збереження та створення phar-архівів
+-   [Phar::isWritable()](phar.iswritable.md) - Перевіряє, чи можна модифікувати phar-архів

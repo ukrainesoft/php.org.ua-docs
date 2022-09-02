@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-parser.errorinfo.html: '« ParleParser::errorInfo'
-  - parle-parser.nonassoc.html: 'ParleParser::nonassoc »'
+  - parle-parser.errorinfo.md: '« ParleParser::errorInfo'
+  - parle-parser.nonassoc.md: 'ParleParser::nonassoc »'
   - index.md: PHP Manual
-  - class.parle-parser.html: ParleParser
+  - class.parle-parser.md: ParleParser
 title: 'ParleParser::left'
 ---
 # ParleParser::left

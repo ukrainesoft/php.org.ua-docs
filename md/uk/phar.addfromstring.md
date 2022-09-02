@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.addfile.html: '« Phar::addFile'
-  - phar.apiversion.html: 'Phar::apiVersion »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.addfile.md: '« Phar::addFile'
+  - phar.apiversion.md: 'Phar::apiVersion »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::addFromString'
 ---
 # Phar::addFromString
@@ -20,9 +20,9 @@ public Phar::addFromString(string $localName, string $contents): void
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-За допомогою цього методу в phar-архів може бути доданий будь-який рядок. Файл буде збережено в архіві під ім'ям, вказаним у параметрі `localname`. Цей метод аналогічний [ZipArchive::addFromString()](ziparchive.addfromstring.html)
+За допомогою цього методу в phar-архів може бути доданий будь-який рядок. Файл буде збережено в архіві під ім'ям, вказаним у параметрі `localname`. Цей метод аналогічний [ZipArchive::addFromString()](ziparchive.addfromstring.md)
 
 ### Список параметрів
 
@@ -62,11 +62,11 @@ try {
 
 ### Примітки
 
-> **Зауваження** [Phar::addFile()](phar.addfile.html) **Phar::addFromString()** і [Phar::offsetSet()](phar.offsetset.html) зберігає новий phar-архів щоразу при їхньому викликі. Якщо продуктивність викликає занепокоєння, натомість слід використовувати [Phar::buildFromDirectory()](phar.buildfromdirectory.html) або [Phar::buildFromIterator()](phar.buildfromiterator.html)
+> **Зауваження** [Phar::addFile()](phar.addfile.md) **Phar::addFromString()** і [Phar::offsetSet()](phar.offsetset.md) зберігає новий phar-архів щоразу при їхньому викликі. Якщо продуктивність викликає занепокоєння, натомість слід використовувати [Phar::buildFromDirectory()](phar.buildfromdirectory.md) або [Phar::buildFromIterator()](phar.buildfromiterator.md)
 
 ### Дивіться також
 
--   [Phar::offsetSet()](phar.offsetset.html) - Зміна вмісту файлу
--   [PharData::addFromString()](phardata.addfromstring.html) - Створити файл із заданим вмістом у tar/zip-архіві
--   [Phar::addFile()](phar.addfile.html) - Додає в phar-архів файл із файлової системи
--   [Phar::addEmptyDir()](phar.addemptydir.html) - Додає в phar-архів порожню директорію
+-   [Phar::offsetSet()](phar.offsetset.md) - Зміна вмісту файлу
+-   [PharData::addFromString()](phardata.addfromstring.md) - Створити файл із заданим вмістом у tar/zip-архіві
+-   [Phar::addFile()](phar.addfile.md) - Додає в phar-архів файл із файлової системи
+-   [Phar::addEmptyDir()](phar.addemptydir.md) - Додає в phar-архів порожню директорію

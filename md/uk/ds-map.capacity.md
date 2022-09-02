@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.apply.html: '« DsMap::apply'
-  - ds-map.clear.html: 'ДсMap::clear »'
+  - ds-map.apply.md: '« DsMap::apply'
+  - ds-map.clear.md: 'ДсMap::clear »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::capacity'
 ---
 # ДсMap::capacity

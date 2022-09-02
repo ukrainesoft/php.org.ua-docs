@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-crudoperationbindable.html: « mysqlxdevapiCrudOperationBindable
-  - class.mysql-xdevapi-crudoperationlimitable.html: mysqlxdevapiCrudOperationLimitable »
+  - class.mysql-xdevapi-crudoperationbindable.md: « mysqlxdevapiCrudOperationBindable
+  - class.mysql-xdevapi-crudoperationlimitable.md: mysqlxdevapiCrudOperationLimitable »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-crudoperationbindable.html: mysqlxdevapiCrudOperationBindable
+  - class.mysql-xdevapi-crudoperationbindable.md: mysqlxdevapiCrudOperationBindable
 title: 'CrudOperationBindable::bind'
 ---
 # CrudOperationBindable::bind

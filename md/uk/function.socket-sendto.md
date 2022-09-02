@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-sendmsg.html: « socketsendmsg
-  - function.socket-set-block.html: socketsetblock »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-sendmsg.md: « socketsendmsg
+  - function.socket-set-block.md: socketsetblock »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketsendto
 ---
 # socketsendto
@@ -24,7 +24,7 @@ socket_sendto(    Socket $socket,    string $data,    int $length, 
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою [socketcreate()](function.socket-create.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою [socketcreate()](function.socket-create.md)
 
 `data`
 
@@ -58,7 +58,7 @@ IP-адреса віддаленого хоста.
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 |  | `port` тепер допускає значення null. |
 
 ### Приклади
@@ -79,4 +79,4 @@ IP-адреса віддаленого хоста.
 
 ### Дивіться також
 
--   [socketsend()](function.socket-send.html) - Надсилає дані в приєднаний сокет
+-   [socketsend()](function.socket-send.md) - Надсилає дані в приєднаний сокет

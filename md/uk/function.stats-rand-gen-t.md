@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-rand-gen-normal.html: « statsrandgennormal
-  - function.stats-rand-get-seeds.html: statsrandgetseeds »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-rand-gen-normal.md: « statsrandgennormal
+  - function.stats-rand-get-seeds.md: statsrandgetseeds »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsrandгент
 ---
 # statsrandгент

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - openal.setup.html: « Встановлення та налаштування
-  - openal.installation.html: Установка »
-  - index.html: PHP Manual
-  - openal.setup.html: Встановлення та налаштування
+  - openal.setup.md: « Встановлення та налаштування
+  - openal.installation.md: Установка »
+  - index.md: PHP Manual
+  - openal.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-method.setprivate.html: '« ComponereMethod::setPrivate'
-  - componere-method.setstatic.html: 'ComponereMethod::setStatic »'
-  - index.html: PHP Manual
-  - class.componere-method.html: ComponereMethod
+  - componere-method.setprivate.md: '« ComponereMethod::setPrivate'
+  - componere-method.setstatic.md: 'ComponereMethod::setStatic »'
+  - index.md: PHP Manual
+  - class.componere-method.md: ComponereMethod
 title: 'ComponereMethod::setProtected'
 ---
 # ComponereMethod::setProtected
@@ -26,4 +26,4 @@ public Componere\Method::setProtected(): Method
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)якщо рівень доступу був раніше встановлений
+Викидає виняток [RuntimeException](class.runtimeexception.md)якщо рівень доступу був раніше встановлений

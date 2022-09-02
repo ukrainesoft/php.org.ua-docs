@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-fetch-assoc.html: « ocifetchassoc
-  - function.oci-fetch-row.html: ocifetchrow »
+  - function.oci-fetch-assoc.md: « ocifetchassoc
+  - function.oci-fetch-row.md: ocifetchrow »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocifetchobject
@@ -26,7 +26,7 @@ oci_fetch_object(resource $statement, int $mode = OCI_ASSOC | OCI_RETURN_NULLS):
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.str-contains.html: « strcontains
-  - function.str-getcsv.html: strgetcsv »
+  - function.str-contains.md: « strcontains
+  - function.str-getcsv.md: strgetcsv »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strendswith

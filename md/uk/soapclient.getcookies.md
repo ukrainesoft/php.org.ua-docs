@@ -1,9 +1,9 @@
 ---
 navigation:
-  - soapclient.dorequest.html: '« SoapClient::doRequest'
-  - soapclient.getfunctions.html: 'SoapClient::getFunctions »'
-  - index.html: PHP Manual
-  - class.soapclient.html: SoapClient
+  - soapclient.dorequest.md: '« SoapClient::doRequest'
+  - soapclient.getfunctions.md: 'SoapClient::getFunctions »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
 title: 'SoapClient::getCookies'
 ---
 # SoapClient::getCookies

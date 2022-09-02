@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-insert.html: « pginsert
-  - function.pg-last-notice.html: пгlastnotice »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-insert.md: « pginsert
+  - function.pg-last-notice.md: пгlastnotice »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгlasterror
 ---
 # пгlasterror
@@ -22,7 +22,7 @@ pg_last_error(?PgSql\Connection $connection = null): string
 
 Повідомлення про помилки можуть перезаписуватися під час внутрішніх викликів функцій PostgreSQL (libpq). Якщо всередині модуля PostgreSQL буде кілька помилок, повідомлення може виявитися неінформативним.
 
-Для обробки помилок краще використовувати функції [пгresulterror()](function.pg-result-error.html) [пгresulterrorfield()](function.pg-result-error-field.html) [пгresultstatus()](function.pg-result-status.html) і [пгconnectionstatus()](function.pg-connection-status.html)
+Для обробки помилок краще використовувати функції [пгresulterror()](function.pg-result-error.md) [пгresulterrorfield()](function.pg-result-error-field.md) [пгresultstatus()](function.pg-result-status.md) і [пгconnectionstatus()](function.pg-connection-status.md)
 
 > **Зауваження**
 > 
@@ -32,7 +32,7 @@ pg_last_error(?PgSql\Connection $connection = null): string
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -46,7 +46,7 @@ pg_last_error(?PgSql\Connection $connection = null): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `connection` тепер допускає значення null. |
 
 ### Приклади
@@ -66,5 +66,5 @@ pg_last_error(?PgSql\Connection $connection = null): string
 
 ### Дивіться також
 
--   [пгresulterror()](function.pg-result-error.html) - Повертає повідомлення про помилку, пов'язане із запитом результату
--   [пгresulterrorfield()](function.pg-result-error-field.html) - Повертає конкретне поле зі звіту про помилки
+-   [пгresulterror()](function.pg-result-error.md) - Повертає повідомлення про помилку, пов'язане із запитом результату
+-   [пгresulterrorfield()](function.pg-result-error-field.md) - Повертає конкретне поле зі звіту про помилки

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.decrementbykey.html: '« Memcached::decrementByKey'
-  - memcached.deletebykey.html: 'Memcached::deleteByKey »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.decrementbykey.md: '« Memcached::decrementByKey'
+  - memcached.deletebykey.md: 'Memcached::deleteByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::delete'
 ---
 # Memcached::delete
@@ -32,7 +32,7 @@ public Memcached::delete(string $key, int $time = 0): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTFOUND`** якщо заданий ключ немає.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTFOUND`** якщо заданий ключ немає.
 
 ### Приклади
 
@@ -49,5 +49,5 @@ $m->delete('key1');
 
 ### Дивіться також
 
--   [Memcached::deleteByKey()](memcached.deletebykey.html) - Видаляє запис із вказаного сервера
--   [Memcached::deleteMulti()](memcached.deletemulti.html) - Видаляє кілька записів
+-   [Memcached::deleteByKey()](memcached.deletebykey.md) - Видаляє запис із вказаного сервера
+-   [Memcached::deleteMulti()](memcached.deletemulti.md) - Видаляє кілька записів

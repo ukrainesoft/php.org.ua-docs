@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.version-compare.html: « versioncompare
-  - function.zend-version.html: zendversion »
+  - function.version-compare.md: « versioncompare
+  - function.zend-version.md: zendversion »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: zendthreadід

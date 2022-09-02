@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-free-result.html: « mysqlfreeresult
-  - function.mysql-get-host-info.html: mysqlgethostinfo »
+  - function.mysql-free-result.md: « mysqlfreeresult
+  - function.mysql-get-host-info.md: mysqlgethostinfo »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlgetclientinfo

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splobjectstorage.rewind.html: '« SplObjectStorage::rewind'
-  - splobjectstorage.setinfo.html: 'SplObjectStorage::setInfo »'
-  - index.html: PHP Manual
-  - class.splobjectstorage.html: SplObjectStorage
+  - splobjectstorage.rewind.md: '« SplObjectStorage::rewind'
+  - splobjectstorage.setinfo.md: 'SplObjectStorage::setInfo »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::serialize'
 ---
 # SplObjectStorage::serialize
@@ -50,4 +50,4 @@ x:i:1;O:8:"stdClass":0:{},s:4:"data";;m:a:0:{}
 
 ### Дивіться також
 
--   [SplObjectStorage::unserialize()](splobjectstorage.unserialize.html) - Відновлює серіалізований контейнер із рядка
+-   [SplObjectStorage::unserialize()](splobjectstorage.unserialize.md) - Відновлює серіалізований контейнер із рядка

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.readline-completion-function.html: « readlinecompletionfunction
-  - function.readline-list-history.html: readlinelisthistory »
-  - index.html: PHP Manual
-  - ref.readline.html: Функции Readline
+  - function.readline-completion-function.md: « readlinecompletionfunction
+  - function.readline-list-history.md: readlinelisthistory »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
 title: readlineinfo
 ---
 # readlineinfo

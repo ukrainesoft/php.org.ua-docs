@@ -30,11 +30,11 @@ $ git clone [https://github.com/mongodb/mongo-php-driver.git](https://github.com
 
 Installing shared extensions: /usr/lib/php/extensions/debug-non-zts-20151012/
 
-Переконайтеся, що директива [extensiondir](ini.core.html#ini.extension-dir) файлу php.ini вказує на каталог, у якому є бібліотека mongodb.so. Перевірити значення цієї директиви можна так:
+Переконайтеся, що директива [extensiondir](ini.core.md#ini.extension-dir) файлу php.ini вказує на каталог, у якому є бібліотека mongodb.so. Перевірити значення цієї директиви можна так:
 
 $php-i | grep extensiondir extensiondir => /usr/lib/php/extensions/debug-non-zts-20151012 => /usr/lib/php/extensions/debug-non-zts-20151012
 
-Якщо директорії відрізняються, змініть значення [extensiondir](ini.core.html#ini.extension-dir) у php.ini або просто перемістіть mongodb.so у потрібну директорію.
+Якщо директорії відрізняються, змініть значення [extensiondir](ini.core.md#ini.extension-dir) у php.ini або просто перемістіть mongodb.so у потрібну директорію.
 
 Додайте наступний рядок до файлу php.ini для кожного оточення, в якому ви збираєтеся використовувати драйвер:
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmstrftime.html: « gmstrftime
-  - function.localtime.html: localtime »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.gmstrftime.md: « gmstrftime
+  - function.localtime.md: localtime »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: idate
 ---
 # idate
@@ -18,9 +18,9 @@ idate — Перетворює локальний час/дату на ціле 
 idate(string $format, ?int $timestamp = null): int|false
 ```
 
-Перетворює поточну дату та час на ціле число відповідно до рядка форматування `format`. Якщо аргумент `timestamp` заданий, розрахунок буде здійснено для цієї тимчасової мітки, якщо ні - буде використано локальний час. Іншими словами, `timestamp` - необов'язковий аргумент і за умовчанням дорівнює значенню [time()](function.time.html)
+Перетворює поточну дату та час на ціле число відповідно до рядка форматування `format`. Якщо аргумент `timestamp` заданий, розрахунок буде здійснено для цієї тимчасової мітки, якщо ні - буде використано локальний час. Іншими словами, `timestamp` - необов'язковий аргумент і за умовчанням дорівнює значенню [time()](function.time.md)
 
-На відміну від функції [date()](function.date.html) **idate()** приймає лише один символ у аргументі `format`
+На відміну від функції [date()](function.date.md) **idate()** приймає лише один символ у аргументі `format`
 
 ### Список параметрів
 
@@ -42,7 +42,7 @@ idate(string $format, ?int $timestamp = null): int|false
 | `o` | Рік у ISO-8601 (4 цифри) |
 | `s` | Секунди |
 | `t` | Кількість днів у поточному місяці |
-| `U` | Час у секундах, від початку епохи UNIX - 1 січня 1970 00:00:00 UTC - те саме, що [time()](function.time.html) |
+| `U` | Час у секундах, від початку епохи UNIX - 1 січня 1970 00:00:00 UTC - те саме, що [time()](function.time.md) |
 | `w` | День тижня (`0` - Неділя) |
 | `W` | ISO-8601 - Номер тижня року, тиждень починається з понеділка |
 | `y` | Рік (1 або 2 цифри - дивіться примітку нижче) |
@@ -52,7 +52,7 @@ idate(string $format, ?int $timestamp = null): int|false
 
 `timestamp`
 
-Необов'язковий параметр `timestamp` являє собою мітку часу типу int, за умовчанням рівну поточному локальному часу, якщо `timestamp` не вказано або **`null`**. Іншими словами, значення за замовчуванням дорівнює результату функції [time()](function.time.html)
+Необов'язковий параметр `timestamp` являє собою мітку часу типу int, за умовчанням рівну поточному локальному часу, якщо `timestamp` не вказано або **`null`**. Іншими словами, значення за замовчуванням дорівнює результату функції [time()](function.time.md)
 
 ### Значення, що повертаються
 
@@ -62,7 +62,7 @@ idate(string $format, ?int $timestamp = null): int|false
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.md)
 
 ### список змін
 
@@ -88,6 +88,6 @@ echo idate('y', $timestamp);
 
 ### Дивіться також
 
--   [date()](function.date.html) - Форматує тимчасову мітку Unix
--   [getdate()](function.getdate.html) - Повертає інформацію про дату/час
--   [time()](function.time.html) - Повертає поточну мітку системного часу Unix
+-   [date()](function.date.md) - Форматує тимчасову мітку Unix
+-   [getdate()](function.getdate.md) - Повертає інформацію про дату/час
+-   [time()](function.time.md) - Повертає поточну мітку системного часу Unix

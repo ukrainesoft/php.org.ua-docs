@@ -1,7 +1,7 @@
 ---
 navigation:
   - gearman.constants.md: « Обумовлені константи
-  - gearman.examples-reverse.html: Базовое использование »
+  - gearman.examples-reverse.md: Базовое использование »
   - index.md: PHP Manual
   - book.gearman.md: Gearman
 title: Приклади

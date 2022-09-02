@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-draw-pen.write.html: '« UIDrawPen::write'
-  - ui-draw-path.addrectangle.html: 'ОЙDrawPath::addRectangle »'
+  - ui-draw-pen.write.md: '« UIDrawPen::write'
+  - ui-draw-path.addrectangle.md: 'ОЙDrawPath::addRectangle »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Шлях малювання
@@ -67,12 +67,12 @@ public newFigureWithArc(    UI\Point $point,    float $radius,    fl
 
 ## Зміст
 
--   [ОЙDrawPath::addRectangle](ui-draw-path.addrectangle.html) — Намалювати прямокутник
--   [ОЙDrawPath::arcTo](ui-draw-path.arcto.html) - Намалювати дугу
--   [ОЙDrawPath::bezierTo](ui-draw-path.bezierto.html) — Намалювати криву Безьє
--   [ОЙDrawPath::closeFigure](ui-draw-path.closefigure.html) - Закрити фігуру
--   [ОЙDrawPath::construct](ui-draw-path.construct.html) - Створити новий об'єкт Path
--   [ОЙDrawPath::end](ui-draw-path.end.html) - Завершити шлях
--   [ОЙDrawPath::lineTo](ui-draw-path.lineto.html) - Намалювати лінію
--   [ОЙDrawPath::newFigure](ui-draw-path.newfigure.html) — Намалювати фігуру
--   [ОЙDrawPath::newFigureWithArc](ui-draw-path.newfigurewitharc.html) - Намалювати фігуру з дугою
+-   [ОЙDrawPath::addRectangle](ui-draw-path.addrectangle.md) — Намалювати прямокутник
+-   [ОЙDrawPath::arcTo](ui-draw-path.arcto.md) - Намалювати дугу
+-   [ОЙDrawPath::bezierTo](ui-draw-path.bezierto.md) — Намалювати криву Безьє
+-   [ОЙDrawPath::closeFigure](ui-draw-path.closefigure.md) - Закрити фігуру
+-   [ОЙDrawPath::construct](ui-draw-path.construct.md) - Створити новий об'єкт Path
+-   [ОЙDrawPath::end](ui-draw-path.end.md) - Завершити шлях
+-   [ОЙDrawPath::lineTo](ui-draw-path.lineto.md) - Намалювати лінію
+-   [ОЙDrawPath::newFigure](ui-draw-path.newfigure.md) — Намалювати фігуру
+-   [ОЙDrawPath::newFigureWithArc](ui-draw-path.newfigurewitharc.md) - Намалювати фігуру з дугою

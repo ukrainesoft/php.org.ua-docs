@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.strtoupper.md: « strtoupper
-  - function.substr-compare.html: substrcompare »
+  - function.substr-compare.md: substrcompare »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strtr

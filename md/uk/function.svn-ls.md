@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-log.html: « svnlog
-  - function.svn-mkdir.html: svnmkdir »
+  - function.svn-log.md: « svnlog
+  - function.svn-mkdir.md: svnmkdir »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnлс

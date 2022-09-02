@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.writeattribute.html: '« XMLWriter::writeAttribute'
-  - xmlwriter.writecdata.html: 'XMLWriter::writeCdata »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.writeattribute.md: '« XMLWriter::writeAttribute'
+  - xmlwriter.writecdata.md: 'XMLWriter::writeCdata »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::writeAttributeNs'
 ---
 # XMLWriter::writeAttributeNs
@@ -34,7 +34,7 @@ xmlwriter_write_attribute_ns(    XMLWriter $writer,    ?string $prefix,�
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `prefix`
 
@@ -60,11 +60,11 @@ URI простір імен. Якщо `namespace` дорівнює **`null`**, �
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::writeAttribute()](xmlwriter.writeattribute.html) - Записати повний атрибут
--   [XMLWriter::startAttribute()](xmlwriter.startattribute.html) - Створити початковий атрибут
--   [XMLWriter::startAttributeNs()](xmlwriter.startattributens.html) - Створити стартовий атрибут простору імен
--   [XMLWriter::endAttribute()](xmlwriter.endattribute.html) - Завершити атрибут
+-   [XMLWriter::writeAttribute()](xmlwriter.writeattribute.md) - Записати повний атрибут
+-   [XMLWriter::startAttribute()](xmlwriter.startattribute.md) - Створити початковий атрибут
+-   [XMLWriter::startAttributeNs()](xmlwriter.startattributens.md) - Створити стартовий атрибут простору імен
+-   [XMLWriter::endAttribute()](xmlwriter.endattribute.md) - Завершити атрибут

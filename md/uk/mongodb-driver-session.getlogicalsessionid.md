@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-session.getclustertime.html: '« MongoDBDriverSession::getClusterTime'
-  - mongodb-driver-session.getoperationtime.html: 'MongoDBDriverSession::getOperationTime »'
+  - mongodb-driver-session.getclustertime.md: '« MongoDBDriverSession::getClusterTime'
+  - mongodb-driver-session.getoperationtime.md: 'MongoDBDriverSession::getOperationTime »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.html: MongoDBDriverSession
+  - class.mongodb-driver-session.md: MongoDBDriverSession
 title: 'MongoDBDriverSession::getLogicalSessionId'
 ---
 # MongoDBDriverSession::getLogicalSessionId

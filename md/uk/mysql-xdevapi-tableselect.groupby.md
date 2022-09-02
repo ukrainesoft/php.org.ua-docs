@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.execute.html: '« TableSelect::execute'
-  - mysql-xdevapi-tableselect.having.html: 'TableSelect::having »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - mysql-xdevapi-tableselect.execute.md: '« TableSelect::execute'
+  - mysql-xdevapi-tableselect.having.md: 'TableSelect::having »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::groupBy'
 ---
 # TableSelect::groupBy

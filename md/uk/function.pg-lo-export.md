@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-lo-create.html: « pgлоcreate
-  - function.pg-lo-import.html: пглоimport »
+  - function.pg-lo-create.md: « pgлоcreate
+  - function.pg-lo-import.md: пглоimport »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пглоexport
@@ -30,7 +30,7 @@ pg_lo_export(PgSql\Connection $connection = ?, int $oid, string $pathname): bool
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-sma.html: « tradersma
-  - function.trader-stddev.html: traderstddev »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-sma.md: « tradersma
+  - function.trader-stddev.md: traderstddev »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradersqrt
 ---
 # tradersqrt

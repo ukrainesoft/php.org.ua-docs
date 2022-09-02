@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dbase-close.html: « dbaseclose
-  - function.dbase-delete-record.html: dbasedeleterecord »
-  - index.html: PHP Manual
-  - ref.dbase.html: dBase
+  - function.dbase-close.md: « dbaseclose
+  - function.dbase-delete-record.md: dbasedeleterecord »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
 title: dbasecreate
 ---
 # dbasecreate
@@ -18,11 +18,11 @@ dbasecreate — Створює базу даних
 dbase_create(string $path, array $fields, int $type = DBASE_TYPE_DBASE): resource
 ```
 
-**dbasecreate()** створює базу даних dBase із заданими властивостями. Якщо файл вже існує, він не буде попередньо очищений. Для примусового очищення використовуйте функцію [dbasepack()](function.dbase-pack.html)
+**dbasecreate()** створює базу даних dBase із заданими властивостями. Якщо файл вже існує, він не буде попередньо очищений. Для примусового очищення використовуйте функцію [dbasepack()](function.dbase-pack.md)
 
 > **Зауваження**
 > 
-> На поведінку цієї функції впливає значення директиви [openbasedir](ini.core.html#ini.open-basedir)
+> На поведінку цієї функції впливає значення директиви [openbasedir](ini.core.md#ini.open-basedir)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ dbase_create(string $path, array $fields, int $type = DBASE_TYPE_DBASE): resourc
 
 `fields`
 
-Масив масивів, у якому кожен масив визначає формат одного поля бази даних. Формат кожного поля складається з імені цього поля, символу, що вказує тип поля, і, при необхідності, його довжину, точність та прапор обнулюваності. Типи файлів, що підтримуються, перераховані в [вступної секції](intro.dbase.html)
+Масив масивів, у якому кожен масив визначає формат одного поля бази даних. Формат кожного поля складається з імені цього поля, символу, що вказує тип поля, і, при необхідності, його довжину, точність та прапор обнулюваності. Типи файлів, що підтримуються, перераховані в [вступної секції](intro.dbase.md)
 
 `type`
 
@@ -79,5 +79,5 @@ if (!dbase_create('/tmp/test.dbf', $def)) {
 
 ### Дивіться також
 
--   [dbaseopen()](function.dbase-open.html) - Відкриває базу даних
--   [dbaseclose()](function.dbase-close.html) - Закриває базу даних
+-   [dbaseopen()](function.dbase-open.md) - Відкриває базу даних
+-   [dbaseclose()](function.dbase-close.md) - Закриває базу даних

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-color.getchannel.html: '« UIDrawColor::getChannel'
-  - class.ui-draw-stroke.html: ОЙDrawStroke »
+  - ui-draw-color.getchannel.md: '« UIDrawColor::getChannel'
+  - class.ui-draw-stroke.md: ОЙDrawStroke »
   - index.md: PHP Manual
-  - class.ui-draw-color.html: ОЙDrawColor
+  - class.ui-draw-color.md: ОЙDrawColor
 title: 'ОЙDrawКолор::сетЧанель'
 ---
 # ОЙDrawКолор::сетЧанель

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-begin-page.html: «psbeginpage
-  - function.ps-begin-template.html: псbegintemplate »
+  - function.ps-begin-page.md: «psbeginpage
+  - function.ps-begin-template.md: псbegintemplate »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псbeginpattern

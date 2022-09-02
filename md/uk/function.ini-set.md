@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ini-restore.html: « inirestore
-  - function.memory-get-peak-usage.html: memorygetpeakusage »
+  - function.ini-restore.md: « inirestore
+  - function.memory-get-peak-usage.md: memorygetpeakusage »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: iniset

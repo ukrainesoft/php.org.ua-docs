@@ -1,7 +1,7 @@
 ---
 navigation:
-  - gender-gender.country.html: '« GenderGender::country'
-  - gender-gender.isnick.html: 'GenderGender::isNick »'
+  - gender-gender.country.md: '« GenderGender::country'
+  - gender-gender.isnick.md: 'GenderGender::isNick »'
   - index.md: PHP Manual
   - class.gender.md: GenderGender
 title: 'GenderGender::get'

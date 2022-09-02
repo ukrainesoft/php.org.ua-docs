@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.mysql-xdevapi.html: « Mysqlxdevapi
-  - mysql-xdevapi.setup.html: Встановлення та налаштування »
+  - book.mysql-xdevapi.md: « Mysqlxdevapi
+  - mysql-xdevapi.setup.md: Встановлення та налаштування »
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Вступ
 ---
 # Вступ

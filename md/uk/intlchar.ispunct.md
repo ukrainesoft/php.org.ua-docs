@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.isprint.html: '« IntlChar::isprint'
-  - intlchar.isspace.html: 'IntlChar::isspace »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.isprint.md: '« IntlChar::isprint'
+  - intlchar.isspace.md: 'IntlChar::isspace »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::ispunct'
 ---
 # IntlChar::ispunct

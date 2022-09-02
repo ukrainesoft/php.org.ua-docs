@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-multi-errno.html: « curlmultierrno
-  - function.curl-multi-getcontent.html: curlmultigetcontent »
+  - function.curl-multi-errno.md: « curlmultierrno
+  - function.curl-multi-getcontent.md: curlmultigetcontent »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlmultiexec

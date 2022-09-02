@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-date-set.html: « datedateset
-  - function.date-default-timezone-set.html: datedefaulttimezoneset »
+  - function.date-date-set.md: « datedateset
+  - function.date-default-timezone-set.md: datedefaulttimezoneset »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datedefaulttimezoneget
@@ -22,7 +22,7 @@ date_default_timezone_get(): string
 
 -   Читання налаштування часового поясу за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.md) (якщо можна застосувати)
     
--   Читання значення ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) (якщо задана)
+-   Читання значення ini-налаштування [date.timezone](datetime.configuration.md#ini.date.timezone) (якщо задана)
     
 
 Якщо жоден із способів не приніс результату, **datedefaulttimezoneget()** поверне часовий пояс `UTC`

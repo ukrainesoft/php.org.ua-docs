@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-color.setchannel.html: '« UIDrawColor::setChannel'
-  - ui-draw-stroke.construct.html: 'ОЙDrawStroke::construct »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-draw-color.setchannel.md: '« UIDrawColor::setChannel'
+  - ui-draw-stroke.construct.md: 'ОЙDrawStroke::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Малювання обведення
 ---
 # Малювання обведення
@@ -47,12 +47,12 @@ public setThickness(float $thickness)
 
 ## Зміст
 
--   [ОЙDrawStroke::construct](ui-draw-stroke.construct.html) - Створити новий об'єкт Stroke
--   [ОЙDrawStroke::getCap](ui-draw-stroke.getcap.html) - Отримати кінець лінії
--   [ОЙDrawStroke::getJoin](ui-draw-stroke.getjoin.html) — Отримати з'єднання лінії
--   [ОЙDrawStroke::getMiterLimit](ui-draw-stroke.getmiterlimit.html) — Отримати межу зрізу
--   [ОЙDrawStroke::getThickness](ui-draw-stroke.getthickness.html) - Отримати товщину
--   [ОЙDrawStroke::setCap](ui-draw-stroke.setcap.html) - Встановити кінець лінії
--   [ОЙDrawStroke::setJoin](ui-draw-stroke.setjoin.html) — Отримати з'єднання лінії
--   [ОЙDrawStroke::setMiterLimit](ui-draw-stroke.setmiterlimit.html) - Встановити межу зрізу
--   [ОЙDrawStroke::setThickness](ui-draw-stroke.setthickness.html) - Встановити товщину
+-   [ОЙDrawStroke::construct](ui-draw-stroke.construct.md) - Створити новий об'єкт Stroke
+-   [ОЙDrawStroke::getCap](ui-draw-stroke.getcap.md) - Отримати кінець лінії
+-   [ОЙDrawStroke::getJoin](ui-draw-stroke.getjoin.md) — Отримати з'єднання лінії
+-   [ОЙDrawStroke::getMiterLimit](ui-draw-stroke.getmiterlimit.md) — Отримати межу зрізу
+-   [ОЙDrawStroke::getThickness](ui-draw-stroke.getthickness.md) - Отримати товщину
+-   [ОЙDrawStroke::setCap](ui-draw-stroke.setcap.md) - Встановити кінець лінії
+-   [ОЙDrawStroke::setJoin](ui-draw-stroke.setjoin.md) — Отримати з'єднання лінії
+-   [ОЙDrawStroke::setMiterLimit](ui-draw-stroke.setmiterlimit.md) - Встановити межу зрізу
+-   [ОЙDrawStroke::setThickness](ui-draw-stroke.setthickness.md) - Встановити товщину

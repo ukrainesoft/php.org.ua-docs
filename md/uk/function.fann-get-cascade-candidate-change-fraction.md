@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-cascade-activation-steepnesses.html: « fanngetcascadeactivationsteepnesses
-  - function.fann-get-cascade-candidate-limit.html: fanngetcascadecandidatelimit »
+  - function.fann-get-cascade-activation-steepnesses.md: « fanngetcascadeactivationsteepnesses
+  - function.fann-get-cascade-candidate-limit.md: fanngetcascadecandidatelimit »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetcascadecandidatechangefraction
@@ -18,7 +18,7 @@ fanngetcascadecandidatechangefraction - Повертає частку зміни
 fann_get_cascade_candidate_change_fraction(resource $ann): float
 ```
 
-Частка зміни каскаду кандидата - це число від 0 до 1, що визначає, наскільки велике значення [fanngetMSE()](function.fann-get-mse.html), що має змінитися в межах [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) під час навчання нейронів-кандидатів, щоби навчання не застоювалося. Якщо навчання застоюється, навчання нейронів-кандидатів припиняється і вибирається найкращий кандидат.
+Частка зміни каскаду кандидата - це число від 0 до 1, що визначає, наскільки велике значення [fanngetMSE()](function.fann-get-mse.md), що має змінитися в межах [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md) під час навчання нейронів-кандидатів, щоби навчання не застоювалося. Якщо навчання застоюється, навчання нейронів-кандидатів припиняється і вибирається найкращий кандидат.
 
 Це означає, що якщо MSE не змінюється на частку **fanngetcascadecandidatechangefraction()** протягом періоду [fanngetcascadecandidatestagnationepochs()](function.fann-get-cascade-candidate-stagnation-epochs.md), навчання нейронів-кандидатів припиняється, тому що навчання зупинилося.
 

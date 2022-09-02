@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-event-write.html: « swooleeventwrite
-  - function.swoole-last-error.html: swoolelasterror »
+  - function.swoole-event-write.md: « swooleeventwrite
+  - function.swoole-last-error.md: swoolelasterror »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swoolegetlocalіп
 ---
 # swoolegetlocalіп

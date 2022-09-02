@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openal-buffer-create.html: « openalbuffercreate
-  - function.openal-buffer-destroy.html: openalbufferdestroy »
-  - index.html: PHP Manual
-  - ref.openal.html: Функции OpenAL
+  - function.openal-buffer-create.md: « openalbuffercreate
+  - function.openal-buffer-destroy.md: openalbufferdestroy »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
 title: openalbufferdata
 ---
 # openalbufferdata
@@ -22,7 +22,7 @@ openal_buffer_data(    resource $buffer,    int $format,    string $
 
 `buffer`
 
-Ресурс [Open AL(Buffer)](openal.resources.html) (Створений раніше за допомогою [openalbuffercreate()](function.openal-buffer-create.html)
+Ресурс [Open AL(Buffer)](openal.resources.md) (Створений раніше за допомогою [openalbuffercreate()](function.openal-buffer-create.md)
 
 `format`
 
@@ -42,5 +42,5 @@ openal_buffer_data(    resource $buffer,    int $format,    string $
 
 ### Дивіться також
 
--   [openalbufferloadwav()](function.openal-buffer-loadwav.html) - Завантажити файл у форматі wav у буфер
--   [openalstream()](function.openal-stream.html) - Почати потокову передачу із джерела
+-   [openalbufferloadwav()](function.openal-buffer-loadwav.md) - Завантажити файл у форматі wav у буфер
+-   [openalstream()](function.openal-stream.md) - Почати потокову передачу із джерела

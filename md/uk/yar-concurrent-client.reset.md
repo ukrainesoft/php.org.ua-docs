@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yar-concurrent-client.loop.html: '« YarConcurrentClient::loop'
-  - class.yar-server-exception.html: YarServerException »
+  - yar-concurrent-client.loop.md: '« YarConcurrentClient::loop'
+  - class.yar-server-exception.md: YarServerException »
   - index.md: PHP Manual
-  - class.yar-concurrent-client.html: YarConcurrentClient
+  - class.yar-concurrent-client.md: YarConcurrentClient
 title: 'YarConcurrentClient::reset'
 ---
 # YarConcurrentClient::reset

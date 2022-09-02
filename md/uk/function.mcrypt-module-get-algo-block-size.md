@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-module-close.html: « mcryptmoduleclose
-  - function.mcrypt-module-get-algo-key-size.html: mcryptmodulegetalgokeysize »
+  - function.mcrypt-module-close.md: « mcryptmoduleclose
+  - function.mcrypt-module-get-algo-key-size.md: mcryptmodulegetalgokeysize »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptmodulegetalgoblocksize

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.getrequestheader.html: '« OAuth::getRequestHeader'
-  - oauth.setauthtype.html: 'OAuth::setAuthType »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.getrequestheader.md: '« OAuth::getRequestHeader'
+  - oauth.setauthtype.md: 'OAuth::setAuthType »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::getRequestToken'
 ---
 # OAuth::getRequestToken

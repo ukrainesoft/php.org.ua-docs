@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.gethighlightfields.html: '« SolrQuery::getHighlightFields'
-  - solrquery.gethighlightfragmenter.html: 'SolrQuery::getHighlightFragmenter »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.gethighlightfields.md: '« SolrQuery::getHighlightFields'
+  - solrquery.gethighlightfragmenter.md: 'SolrQuery::getHighlightFragmenter »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getHighlightFormatter'
 ---
 # SolrQuery::getHighlightFormatter

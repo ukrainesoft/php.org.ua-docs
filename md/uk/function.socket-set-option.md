@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-set-nonblock.html: « socketsetnonblock
-  - function.socket-setopt.html: socketsetopt »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-set-nonblock.md: « socketsetnonblock
+  - function.socket-setopt.md: socketsetopt »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketsetoption
 ---
 # socketsetoption
@@ -24,15 +24,15 @@ socket_set_option(    Socket $socket,    int $level,    int $option,
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
 
 `level`
 
-Параметр `level` вказує рівень протоколу, у якому використовується опція. Наприклад, щоб встановити опції на рівні сокету, параметр `level` повинен бути встановлений у **`SOL_SOCKET`**. Інші рівні, такі як TCP, можна використовувати, вказавши номер цього рівня. Номер протоколів можна знайти за допомогою функції [getprotobyname()](function.getprotobyname.html)
+Параметр `level` вказує рівень протоколу, у якому використовується опція. Наприклад, щоб встановити опції на рівні сокету, параметр `level` повинен бути встановлений у **`SOL_SOCKET`**. Інші рівні, такі як TCP, можна використовувати, вказавши номер цього рівня. Номер протоколів можна знайти за допомогою функції [getprotobyname()](function.getprotobyname.md)
 
 `option`
 
-Можливі опції для сокету ті самі, як і для функції [socketgetoption()](function.socket-get-option.html)
+Можливі опції для сокету ті самі, як і для функції [socketgetoption()](function.socket-get-option.md)
 
 `value`
 
@@ -46,7 +46,7 @@ socket_set_option(    Socket $socket,    int $level,    int $option,
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Приклади
 
@@ -80,8 +80,8 @@ if ($rval === false) {
 
 ### Дивіться також
 
--   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
--   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
--   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socketgetoption()](function.socket-get-option.html) - Отримує опції потоку для сокету
+-   [socketcreate()](function.socket-create.md) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketbind()](function.socket-bind.md) - Прив'язує ім'я до сокету
+-   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету
+-   [socketlasterror()](function.socket-last-error.md) - Повертає останню помилку на сокеті
+-   [socketgetoption()](function.socket-get-option.md) - Отримує опції потоку для сокету

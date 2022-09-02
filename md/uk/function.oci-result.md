@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-register-taf-callback.html: « ociregistertafcallback
-  - function.oci-rollback.html: ocirollback »
+  - function.oci-register-taf-callback.md: « ociregistertafcallback
+  - function.oci-rollback.md: ocirollback »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociresult

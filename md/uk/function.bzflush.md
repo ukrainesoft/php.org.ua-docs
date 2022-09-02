@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.bzerrstr.html: « bzerrstr
-  - function.bzopen.html: bzopen »
-  - index.html: PHP Manual
-  - ref.bzip2.html: Функції Bzip2
+  - function.bzerrstr.md: « bzerrstr
+  - function.bzopen.md: bzopen »
+  - index.md: PHP Manual
+  - ref.bzip2.md: Функції Bzip2
 title: bzflush
 ---
 # bzflush
@@ -24,7 +24,7 @@ bzflush(resource $bz): bool
 
 `bz`
 
-Вказівник на файл. Повинен бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.html)
+Вказівник на файл. Повинен бути коректним і вказувати на файл, успішно відкритий [bzopen()](function.bzopen.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ bzflush(resource $bz): bool
 
 ### Дивіться також
 
--   [bzread()](function.bzread.html) - Бінарно-безпечне читання файлу bzip2
--   [bzwrite()](function.bzwrite.html) - Бінарно-безпечний запис bzip2 файлу
+-   [bzread()](function.bzread.md) - Бінарно-безпечне читання файлу bzip2
+-   [bzwrite()](function.bzwrite.md) - Бінарно-безпечний запис bzip2 файлу

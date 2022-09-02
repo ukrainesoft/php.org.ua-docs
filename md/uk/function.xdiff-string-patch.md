@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-string-patch-binary.html: xdiffstringpatchbinary
-  - function.xdiff-string-rabdiff.html: xdiffstringrabdiff »
+  - function.xdiff-string-patch-binary.md: xdiffstringpatchbinary
+  - function.xdiff-string-rabdiff.md: xdiffstringrabdiff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdiffstringpatch
@@ -18,7 +18,7 @@ xdiffstringpatch — Застосувати звичайний патч до р�
 xdiff_string_patch(    string $str,    string $patch,    int $flags = ?,    string &$error = ?): string
 ```
 
-Застосовує до рядка `str` звичайний патч `patch` та повертає результат . `patch` має бути звичайним патчем, створеним за допомогою функцій [xdifffilediff()](function.xdiff-file-diff.html) або [xdiffstringdiff()](function.xdiff-string-diff.md). Опціональний параметр `flags` задає режим операції. Усі відкинуті частини патчу будуть записані у змінну `error`
+Застосовує до рядка `str` звичайний патч `patch` та повертає результат . `patch` має бути звичайним патчем, створеним за допомогою функцій [xdifffilediff()](function.xdiff-file-diff.md) або [xdiffstringdiff()](function.xdiff-string-diff.md). Опціональний параметр `flags` задає режим операції. Усі відкинуті частини патчу будуть записані у змінну `error`
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ xdiff_string_patch(    string $str,    string $patch,    int $flags 
 
 `patch`
 
-Стандартний патч. Повинен бути створений функціями [xdiffstringdiff()](function.xdiff-string-diff.html), або [xdifffilediff()](function.xdiff-file-diff.md)або за допомогою інструментів, що створюють сумісні патчі.
+Стандартний патч. Повинен бути створений функціями [xdiffstringdiff()](function.xdiff-string-diff.md), або [xdifffilediff()](function.xdiff-file-diff.md)або за допомогою інструментів, що створюють сумісні патчі.
 
 `flags`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableinsert.construct.html: '« TableInsert::construct'
-  - mysql-xdevapi-tableinsert.values.html: 'TableInsert::values »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-tableinsert.html: mysqlxdevapiTableInsert
+  - mysql-xdevapi-tableinsert.construct.md: '« TableInsert::construct'
+  - mysql-xdevapi-tableinsert.values.md: 'TableInsert::values »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableinsert.md: mysqlxdevapiTableInsert
 title: 'TableInsert::execute'
 ---
 # TableInsert::execute

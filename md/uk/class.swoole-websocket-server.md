@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.swoole-websocket-frame.html: « SwooleWebSocketFrame
-  - swoole-websocket-server.exist.html: 'SwooleWebSocketServer::exist »'
+  - class.swoole-websocket-frame.md: « SwooleWebSocketFrame
+  - swoole-websocket-server.exist.md: 'SwooleWebSocketServer::exist »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleWebSocketServer

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-get-meta-data.html: « streamgetmetadata
-  - function.stream-get-wrappers.html: streamgetwrappers »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-get-meta-data.md: « streamgetmetadata
+  - function.stream-get-wrappers.md: streamgetwrappers »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamgettransports
 ---
 # streamgettransports

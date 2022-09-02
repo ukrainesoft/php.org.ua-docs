@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-explode-dn.html: « ldapexplodeдн
-  - function.ldap-first-entry.html: ldapfirstentry »
+  - function.ldap-explode-dn.md: « ldapexplodeдн
+  - function.ldap-first-entry.md: ldapfirstentry »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapfirstattribute
@@ -26,7 +26,7 @@ ldap_first_attribute(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|fal
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 

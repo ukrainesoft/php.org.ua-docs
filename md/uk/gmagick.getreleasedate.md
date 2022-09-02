@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getquantumdepth.html: '« Gmagick::getquantumdepth'
-  - gmagick.getsamplingfactors.html: 'Gmagick::getsamplingfactors »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getquantumdepth.md: '« Gmagick::getquantumdepth'
+  - gmagick.getsamplingfactors.md: 'Gmagick::getsamplingfactors »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getreleasedate'
 ---
 # Gmagick::getreleasedate

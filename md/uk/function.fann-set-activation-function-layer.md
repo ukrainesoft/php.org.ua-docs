@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-activation-function-hidden.html: « fannsetactivationfunctionhidden
-  - function.fann-set-activation-function-output.html: fannsetactivationfunctionoutput »
+  - function.fann-set-activation-function-hidden.md: « fannsetactivationfunctionhidden
+  - function.fann-set-activation-function-output.md: fannsetactivationfunctionoutput »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetactivationfunctionlayer
@@ -30,7 +30,7 @@ fann_set_activation_function_layer(resource $ann, int $activation_function, int 
 
 `activation_function`
 
-Константа [функцій активації](fann.constants.html#constants.fann-activation-funcs)
+Константа [функцій активації](fann.constants.md#constants.fann-activation-funcs)
 
 `layer`
 

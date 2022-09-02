@@ -1,7 +1,7 @@
 ---
 navigation:
   - funchand.constants.md: « Обумовлені константи
-  - function.call-user-func-array.html: calluserfuncarray »
+  - function.call-user-func-array.md: calluserfuncarray »
   - index.md: PHP Manual
   - book.funchand.md: Управление функциями
 title: Функції керування функціями

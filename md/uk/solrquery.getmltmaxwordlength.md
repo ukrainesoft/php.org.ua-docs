@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getmltmaxnumtokens.html: '« SolrQuery::getMltMaxNumTokens'
-  - solrquery.getmltmindocfrequency.html: 'SolrQuery::getMltMinDocFrequency »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getmltmaxnumtokens.md: '« SolrQuery::getMltMaxNumTokens'
+  - solrquery.getmltmindocfrequency.md: 'SolrQuery::getMltMinDocFrequency »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getMltMaxWordLength'
 ---
 # SolrQuery::getMltMaxWordLength

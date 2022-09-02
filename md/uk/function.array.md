@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.array-walk.html: « arraywalk
+  - function.array-walk.md: « arraywalk
   - function.arsort.md: arsort »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами

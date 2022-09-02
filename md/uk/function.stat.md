@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.set-file-buffer.html: « setfilebuffer
+  - function.set-file-buffer.md: « setfilebuffer
   - function.symlink.md: symlink »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи

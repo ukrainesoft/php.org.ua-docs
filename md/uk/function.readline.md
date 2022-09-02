@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.readline-write-history.html: « readlinewritehistory
+  - function.readline-write-history.md: « readlinewritehistory
   - refs.compression.md: Модулі для стиснення та архівації »
   - index.md: PHP Manual
   - ref.readline.md: Функции Readline

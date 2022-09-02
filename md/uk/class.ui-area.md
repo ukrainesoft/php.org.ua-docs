@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-menuitem.setchecked.html: '« UIMenuItem::setChecked'
-  - ui-area.ondraw.html: 'ОЙArea::onDraw »'
+  - ui-menuitem.setchecked.md: '« UIMenuItem::setChecked'
+  - ui-area.ondraw.md: 'ОЙArea::onDraw »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Area

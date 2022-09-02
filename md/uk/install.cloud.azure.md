@@ -1,9 +1,9 @@
 ---
 navigation:
-  - install.cloud.html: « Установка на платформах Cloud Computing
-  - install.cloud.ec2.html: Amazon EC2 »
-  - index.html: PHP Manual
-  - install.cloud.html: Установка на платформах Cloud Computing
+  - install.cloud.md: « Установка на платформах Cloud Computing
+  - install.cloud.ec2.md: Amazon EC2 »
+  - index.md: PHP Manual
+  - install.cloud.md: Установка на платформах Cloud Computing
 title: Azure App Services
 ---
 ## Azure App Services

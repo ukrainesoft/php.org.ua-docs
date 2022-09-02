@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recursivetreeiterator.getprefix.html: '« RecursiveTreeIterator::getPrefix'
-  - recursivetreeiterator.next.html: 'RecursiveTreeIterator::next »'
-  - index.html: PHP Manual
-  - class.recursivetreeiterator.html: RecursiveTreeIterator
+  - recursivetreeiterator.getprefix.md: '« RecursiveTreeIterator::getPrefix'
+  - recursivetreeiterator.next.md: 'RecursiveTreeIterator::next »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
 title: 'RecursiveTreeIterator::key'
 ---
 # RecursiveTreeIterator::key

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.isempty.html: '« DsQueue::isEmpty'
-  - ds-queue.peek.html: 'ДсQueue::peek »'
-  - index.html: PHP Manual
-  - class.ds-queue.html: Черга
+  - ds-queue.isempty.md: '« DsQueue::isEmpty'
+  - ds-queue.peek.md: 'ДсQueue::peek »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::jsonSerialize'
 ---
 # ДсQueue::jsonSerialize
@@ -12,7 +12,7 @@ title: 'ДсQueue::jsonSerialize'
 
 ДсQueue::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
 > **Зауваження**
 > 

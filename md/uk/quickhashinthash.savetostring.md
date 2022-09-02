@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashinthash.savetofile.html: '« QuickHashIntHash::saveToFile'
-  - quickhashinthash.set.html: 'QuickHashIntHash::set »'
-  - index.html: PHP Manual
-  - class.quickhashinthash.html: QuickHashIntHash
+  - quickhashinthash.savetofile.md: '« QuickHashIntHash::saveToFile'
+  - quickhashinthash.set.md: 'QuickHashIntHash::set »'
+  - index.md: PHP Manual
+  - class.quickhashinthash.md: QuickHashIntHash
 title: 'QuickHashIntHash::saveToString'
 ---
 # QuickHashIntHash::saveToString
@@ -18,7 +18,7 @@ QuickHashIntHash::saveToString — Метод повертає серіаліз�
 public QuickHashIntHash::saveToString(): string
 ```
 
-Метод повертає серіалізовану версію хешу, у тому форматі, який можна прочитати методом [QuickHashIntHash::loadFromString()](quickhashinthash.loadfromstring.html)
+Метод повертає серіалізовану версію хешу, у тому форматі, який можна прочитати методом [QuickHashIntHash::loadFromString()](quickhashinthash.loadfromstring.md)
 
 ### Список параметрів
 

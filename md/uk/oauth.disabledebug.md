@@ -18,7 +18,7 @@ OAuth::disableDebug — Вимкнути детальну налагоджува
 public OAuth::disableDebug(): bool
 ```
 
-Вимикає докладну інформацію про запит (за замовчуванням вимкнено). Альтернативно можна встановити властивості [debug](class.oauth.html#oauth.props.debug) значення **`false`**, щоб вимкнути режим налагодження.
+Вимикає докладну інформацію про запит (за замовчуванням вимкнено). Альтернативно можна встановити властивості [debug](class.oauth.md#oauth.props.debug) значення **`false`**, щоб вимкнути режим налагодження.
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public OAuth::disableDebug(): bool
 
 | Версия | Описание |
 | --- | --- |
-| PECL oauth 0.99.8 | Було додано схожу властивість [debug](class.oauth.html#oauth.props.debug) |
+| PECL oauth 0.99.8 | Було додано схожу властивість [debug](class.oauth.md#oauth.props.debug) |
 
 ### Дивіться також
 

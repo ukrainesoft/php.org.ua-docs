@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.decbin.html: « decbin
-  - function.decoct.html: decoct »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.decbin.md: « decbin
+  - function.decoct.md: decoct »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: dechex
 ---
 # dechex
@@ -74,7 +74,7 @@ ffffffff
 
 ### Дивіться також
 
--   [hexdec()](function.hexdec.html) - Переводить число з шістнадцяткової системи числення до десяткової
--   [decbin()](function.decbin.html) - Переводить число з десяткової системи числення до двійкової
--   [decoct()](function.decoct.html) - Переводить число з десяткової системи числення до восьмирічної
--   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [hexdec()](function.hexdec.md) - Переводить число з шістнадцяткової системи числення до десяткової
+-   [decbin()](function.decbin.md) - Переводить число з десяткової системи числення до двійкової
+-   [decoct()](function.decoct.md) - Переводить число з десяткової системи числення до восьмирічної
+-   [baseconvert()](function.base-convert.md) - Перетворення числа між довільними системами числення

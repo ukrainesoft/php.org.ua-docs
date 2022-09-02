@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xmlrpc-server-call-method.html: « xmlrpcservercallmethod
-  - function.xmlrpc-server-destroy.html: xmlrpcserverdestroy »
+  - function.xmlrpc-server-call-method.md: « xmlrpcservercallmethod
+  - function.xmlrpc-server-destroy.md: xmlrpcserverdestroy »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcservercreate

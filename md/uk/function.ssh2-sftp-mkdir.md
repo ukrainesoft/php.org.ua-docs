@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-sftp-lstat.html: « ssh2sftplstat
-  - function.ssh2-sftp-readlink.html: ssh2sftpreadlink »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-sftp-lstat.md: « ssh2sftplstat
+  - function.ssh2-sftp-readlink.md: ssh2sftpreadlink »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2sftpmkdir
 ---
 # ssh2sftpmkdir
@@ -20,13 +20,13 @@ ssh2_sftp_mkdir(    resource $sftp,    string $dirname,    int $mode
 
 Створює директорію на сервері із заданими в `mode` правами доступу.
 
-Функція аналогічна використанню [mkdir()](function.mkdir.html) з обгорткою [ssh2.sftp://](wrappers.ssh2.html)
+Функція аналогічна використанню [mkdir()](function.mkdir.md) з обгорткою [ssh2.sftp://](wrappers.ssh2.md)
 
 ### Список параметрів
 
 `sftp`
 
-Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.html)
+Ресурс SSH2 SFTP, відкритий за допомогою [ssh2sftp()](function.ssh2-sftp.md)
 
 `dirname`
 
@@ -61,5 +61,5 @@ ssh2_sftp_mkdir($sftp, '/home/username/newdir');
 
 ### Дивіться також
 
--   [mkdir()](function.mkdir.html) - створює директорію
--   [ssh2sftprmdir()](function.ssh2-sftp-rmdir.html) - видаляє директорію
+-   [mkdir()](function.mkdir.md) - створює директорію
+-   [ssh2sftprmdir()](function.ssh2-sftp-rmdir.md) - видаляє директорію

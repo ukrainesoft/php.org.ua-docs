@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-serveropeningevent.html: « MongoDBDriverMonitoringServerOpeningEvent
-  - mongodb-driver-monitoring-serveropeningevent.getport.html: 'MongoDBDriverMonitoringServerOpeningEvent::getPort »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-serveropeningevent.html: MongoDBDriverMonitoringServerOpeningEvent
+  - class.mongodb-driver-monitoring-serveropeningevent.md: « MongoDBDriverMonitoringServerOpeningEvent
+  - mongodb-driver-monitoring-serveropeningevent.getport.md: 'MongoDBDriverMonitoringServerOpeningEvent::getPort »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serveropeningevent.md: MongoDBDriverMonitoringServerOpeningEvent
 title: 'MongoDBDriverMonitoringServerOpeningEvent::getHost'
 ---
 # MongoDBDriverMonitoringServerOpeningEvent::getHost
@@ -28,4 +28,4 @@ final public MongoDB\Driver\Monitoring\ServerOpeningEvent::getHost(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

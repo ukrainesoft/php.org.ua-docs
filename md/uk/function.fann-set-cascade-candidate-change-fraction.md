@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-cascade-activation-steepnesses.html: « fannsetcascadeactivationsteepnesses
-  - function.fann-set-cascade-candidate-limit.html: fannsetcascadecandidatelimit »
+  - function.fann-set-cascade-activation-steepnesses.md: « fannsetcascadeactivationsteepnesses
+  - function.fann-set-cascade-candidate-limit.md: fannsetcascadecandidatelimit »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetcascadecandidatechangefraction

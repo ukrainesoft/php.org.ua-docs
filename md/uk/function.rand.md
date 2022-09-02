@@ -26,11 +26,11 @@ rand(int $min, int $max): int
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.md) [randombytes()](function.random-bytes.md) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
 
 > **Зауваження**: На деяких платформах (таких як Windows) [getrandmax()](function.getrandmax.md) лише 32767. Щоб розширити діапазон, використовуйте параметри `min` і `max`, або зверніться до функції [мтrand()](function.mt-rand.md)
 
-> **Зауваження**: Починаючи з PHP 7.1.0, **rand()** використовує той же алгоритм отримання випадкових чисел, що й [мтrand()](function.mt-rand.html). Для збереження зворотної сумісності, функція **rand()** дозволяє задавати параметр `max` менше, ніж параметр `min`. Функція [мтrand()](function.mt-rand.md) у такій ситуації повертатиме **`false`**
+> **Зауваження**: Починаючи з PHP 7.1.0, **rand()** використовує той же алгоритм отримання випадкових чисел, що й [мтrand()](function.mt-rand.md). Для збереження зворотної сумісності, функція **rand()** дозволяє задавати параметр `max` менше, ніж параметр `min`. Функція [мтrand()](function.mt-rand.md) у такій ситуації повертатиме **`false`**
 
 ### Список параметрів
 
@@ -50,8 +50,8 @@ rand(int $min, int $max): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Для **rand()** [произведено исправление бага](migration72.incompatible.html#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
-|  | [\*\*rand()\*\*стала синонімом функції](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) [мтrand()](function.mt-rand.md) |
+|  | Для **rand()** [произведено исправление бага](migration72.incompatible.md#migration72.incompatible.rand-mt_rand-output) усунення по модулю. Це означає, що послідовності згенеровані з конкретним початковим значенням можуть відрізнятися від згенерованих PHP 7.1 для 64-бітних машин. |
+|  | [\*\*rand()\*\*стала синонімом функції](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) [мтrand()](function.mt-rand.md) |
 
 ### Приклади
 

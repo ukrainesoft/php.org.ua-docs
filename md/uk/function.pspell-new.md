@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-new-personal.html: « pspellnewpersonal
-  - function.pspell-save-wordlist.html: pspellsavewordlist »
+  - function.pspell-new-personal.md: « pspellnewpersonal
+  - function.pspell-save-wordlist.md: pspellsavewordlist »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspellnew
@@ -47,7 +47,7 @@ pspell_new(    string $language,    string $spelling = "",    string
 -   **`PSPELL_FAST`** - Швидкий режим (найменше варіантів виправлення)
 -   **`PSPELL_NORMAL`** - Нормальний режим (більше варіантів виправлення)
 -   **`PSPELL_BAD_SPELLERS`** - Повільний режим (багато варіантів виправлення)
--   **`PSPELL_RUN_TOGETHER`** - Розглядає об'єднані слова як правильні складні слова. Тобто "thecat" буде вважатися правильним складним словом, хоча між артиклем і словом має бути пробіл. Зміна цієї установки впливає лише на результати, що повертаються функцією [pspellcheck()](function.pspell-check.html) [pspellsuggest()](function.pspell-suggest.md) продовжуватиме видавати варіанти виправлення.
+-   **`PSPELL_RUN_TOGETHER`** - Розглядає об'єднані слова як правильні складні слова. Тобто "thecat" буде вважатися правильним складним словом, хоча між артиклем і словом має бути пробіл. Зміна цієї установки впливає лише на результати, що повертаються функцією [pspellcheck()](function.pspell-check.md) [pspellsuggest()](function.pspell-suggest.md) продовжуватиме видавати варіанти виправлення.
 
 Mode - це бітова маска, сконструйована з перелічених вище констант. Однак, **`PSPELL_FAST`** **`PSPELL_NORMAL`** і **`PSPELL_BAD_SPELLERS`** є взаємовиключними, тому ви повинні вибрати тільки одну з них.
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-excel.insertFormula.html: '« VtifulKernelExcel::insertFormula'
-  - vtiful-kernel-excel.insertText.html: 'VtifulKernelExcel::insertText »'
-  - index.html: PHP Manual
-  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+  - vtiful-kernel-excel.insertFormula.md: '« VtifulKernelExcel::insertFormula'
+  - vtiful-kernel-excel.insertText.md: 'VtifulKernelExcel::insertText »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
 title: 'VtifulKernelExcel::insertImage'
 ---
 # VtifulKernelExcel::insertImage
@@ -36,7 +36,7 @@ public Vtiful\Kernel\Excel::insertImage(int $row, int $column, string $localImag
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

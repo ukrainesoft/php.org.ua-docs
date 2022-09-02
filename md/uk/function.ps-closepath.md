@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-closepath-stroke.html: «psclosepathstroke
-  - function.ps-continue-text.html: псcontinuetext »
+  - function.ps-closepath-stroke.md: «psclosepathstroke
+  - function.ps-continue-text.md: псcontinuetext »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псclosepath

@@ -18,7 +18,7 @@ ReflectionFunctionAbstract::isVariadic — Перевіряє, чи функці
 public ReflectionFunctionAbstract::isVariadic(): bool
 ```
 
-Перевіряє, чи є функція функцією з [змінною кількістю аргументів](functions.arguments.html#functions.variable-arg-list)
+Перевіряє, чи є функція функцією з [змінною кількістю аргументів](functions.arguments.md#functions.variable-arg-list)
 
 ### Список параметрів
 

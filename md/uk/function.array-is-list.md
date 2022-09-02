@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-intersect.html: « arrayintersect
-  - function.array-key-exists.html: arraykeyexists »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-intersect.md: « arrayintersect
+  - function.array-key-exists.md: arraykeyexists »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayісlist
 ---
 # arrayісlist
@@ -63,4 +63,4 @@ array_is_list([0 => 'apple', 2 => 'bar']); // false
 
 ### Дивіться також
 
--   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
+-   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву

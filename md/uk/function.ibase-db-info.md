@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-connect.html: « ibaseconnect
-  - function.ibase-delete-user.html: ibasedeleteuser »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-connect.md: « ibaseconnect
+  - function.ibase-delete-user.md: ibasedeleteuser »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseдбinfo
 ---
 # ibaseдбinfo

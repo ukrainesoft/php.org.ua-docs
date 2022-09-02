@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gztell.html: « gztell
-  - function.gzwrite.html: gzwrite »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gztell.md: « gztell
+  - function.gzwrite.md: gzwrite »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzuncompress
 ---
 # gzuncompress
@@ -24,7 +24,7 @@ gzuncompress(string $data, int $max_length = 0): string|false
 
 `data`
 
-Дані, стислі функцією [gzcompress()](function.gzcompress.html)
+Дані, стислі функцією [gzcompress()](function.gzcompress.md)
 
 `max_length`
 
@@ -50,7 +50,7 @@ echo $uncompressed;
 
 ### Дивіться також
 
--   [gzcompress()](function.gzcompress.html) - Стиснути рядок
--   [gzinflate()](function.gzinflate.html) - Розпакувати стислий рядок
--   [gzdeflate()](function.gzdeflate.html) - Стискає рядок
--   [gzencode()](function.gzencode.html) - Створити стислий рядок gzip
+-   [gzcompress()](function.gzcompress.md) - Стиснути рядок
+-   [gzinflate()](function.gzinflate.md) - Розпакувати стислий рядок
+-   [gzdeflate()](function.gzdeflate.md) - Стискає рядок
+-   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip

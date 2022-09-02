@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-add-doc-javascript.html: « fdfadddocjavascript
-  - function.fdf-close.html: fdfclose »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-add-doc-javascript.md: « fdfadddocjavascript
+  - function.fdf-close.md: fdfclose »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfaddtemplate
 ---
 # fdfaddtemplate

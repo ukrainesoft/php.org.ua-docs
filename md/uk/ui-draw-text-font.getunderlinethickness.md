@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-font.getunderlineposition.html: '« UIDrawTextFont::getUnderlinePosition'
-  - class.ui-draw-text-font-descriptor.html: ОЙDrawTextFontDescriptor »
+  - ui-draw-text-font.getunderlineposition.md: '« UIDrawTextFont::getUnderlinePosition'
+  - class.ui-draw-text-font-descriptor.md: ОЙDrawTextFontDescriptor »
   - index.md: PHP Manual
-  - class.ui-draw-text-font.html: ОЙDrawTextFont
+  - class.ui-draw-text-font.md: ОЙDrawTextFont
 title: 'ОЙDrawTextFont::getUnderlineThickness'
 ---
 # ОЙDrawTextFont::getUnderlineThickness

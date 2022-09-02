@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageinterpolatemethod.html: '« Imagick::getImageInterpolateMethod'
-  - imagick.getimagelength.html: 'Imagick::getImageLength »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageinterpolatemethod.md: '« Imagick::getImageInterpolateMethod'
+  - imagick.getimagelength.md: 'Imagick::getImageLength »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageIterations'
 ---
 # Imagick::getImageIterations

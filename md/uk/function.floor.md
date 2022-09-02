@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdiv.html: « fdiv
-  - function.fmod.html: fmod »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.fdiv.md: « fdiv
+  - function.fmod.md: fmod »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: floor
 ---
 # floor
@@ -50,5 +50,5 @@ echo floor(-3.14); // -4
 
 ### Дивіться також
 
--   [ceil()](function.ceil.html) - Округлює дріб у велику сторону
--   [round()](function.round.html) - Округлює кількість типу float
+-   [ceil()](function.ceil.md) - Округлює дріб у велику сторону
+-   [round()](function.round.md) - Округлює кількість типу float

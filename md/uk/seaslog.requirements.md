@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.setup.html: « Встановлення та налаштування
-  - seaslog.installation.html: Установка »
-  - index.html: PHP Manual
-  - seaslog.setup.html: Встановлення та налаштування
+  - seaslog.setup.md: « Встановлення та налаштування
+  - seaslog.installation.md: Установка »
+  - index.md: PHP Manual
+  - seaslog.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

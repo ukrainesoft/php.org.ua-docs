@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ip2long.html: « ip2long
-  - function.net-get-interfaces.html: netgetinterfaces »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.ip2long.md: « ip2long
+  - function.net-get-interfaces.md: netgetinterfaces »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: long2ip
 ---
 # long2ip

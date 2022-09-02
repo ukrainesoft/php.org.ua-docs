@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-ls.html: « svnлс
-  - function.svn-repos-create.html: svnreposcreate »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-ls.md: « svnлс
+  - function.svn-repos-create.md: svnreposcreate »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnmkdir
 ---
 # svnmkdir
@@ -32,5 +32,5 @@ svn_mkdir(string $path, string $log_message = ?): bool
 
 ### Дивіться також
 
--   [svnadd()](function.svn-add.html) - Додає елементи до списку запланованих для додавання до робочої копії
+-   [svnadd()](function.svn-add.md) - Додає елементи до списку запланованих для додавання до робочої копії
 -   **svncopy()**

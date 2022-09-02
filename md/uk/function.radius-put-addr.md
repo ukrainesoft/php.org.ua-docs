@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.radius-get-vendor-attr.html: « radiusgetvendorattr
-  - function.radius-put-attr.html: radiusputattr »
-  - index.html: PHP Manual
-  - ref.radius.html: Функции Radius
+  - function.radius-get-vendor-attr.md: « radiusgetvendorattr
+  - function.radius-put-attr.md: radiusputattr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
 title: radiusputaddr
 ---
 # radiusputaddr
@@ -22,7 +22,7 @@ radius_put_addr(    resource $radius_handle,    int $type,    string
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.md)
 
 ### Список параметрів
 
@@ -40,11 +40,11 @@ radius_put_addr(    resource $radius_handle,    int $type,    string
 
 `options`
 
-Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.html#constant.radius-option-salt)
+Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.md#constant.radius-option-salt)
 
 `tag`
 
-Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged)
+Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
 
 ### Значення, що повертаються
 

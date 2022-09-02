@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.uopz.html: « uopz
-  - uopz.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.uopz.html: uopz
+  - book.uopz.md: « uopz
+  - uopz.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.uopz.md: uopz
 title: Вступ
 ---
 # Вступ

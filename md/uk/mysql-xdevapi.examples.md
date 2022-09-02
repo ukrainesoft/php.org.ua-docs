@@ -1,9 +1,9 @@
 ---
 navigation:
   - changelog.mysql_xdevapi.md: « Список изменений
-  - ref.mysql-xdevapi.html: Функції Mysqlxdevapi »
+  - ref.mysql-xdevapi.md: Функції Mysqlxdevapi »
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Приклади
 ---
 # Приклади

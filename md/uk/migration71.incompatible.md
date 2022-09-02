@@ -65,11 +65,11 @@ Warning: Cannot call func_num_args() dynamically in %s on line %d
 
 ### Виправлення алгоритму [мтrand()](function.mt-rand.md)
 
-[мтrand()](function.mt-rand.html) тепер за замовчуванням використовує зафіксовану версію алгоритму "Вихор Мерсена". Якщо ви покладалися на детермінований висновок [мтsrand()](function.mt-srand.html), можна використовувати константу **`MT_RAND_PHP`** як другий, необов'язковий, параметр [мтsrand()](function.mt-srand.md) задля збереження старої (неправильної) реалізації.
+[мтrand()](function.mt-rand.md) тепер за замовчуванням використовує зафіксовану версію алгоритму "Вихор Мерсена". Якщо ви покладалися на детермінований висновок [мтsrand()](function.mt-srand.md), можна використовувати константу **`MT_RAND_PHP`** як другий, необов'язковий, параметр [мтsrand()](function.mt-srand.md) задля збереження старої (неправильної) реалізації.
 
-### [rand()](function.rand.md) псевдонім для [мтrand()](function.mt-rand.html) і [srand()](function.srand.md) псевдонім для [мтsrand()](function.mt-srand.md)
+### [rand()](function.rand.md) псевдонім для [мтrand()](function.mt-rand.md) і [srand()](function.srand.md) псевдонім для [мтsrand()](function.mt-srand.md)
 
-[rand()](function.rand.md) і [srand()](function.srand.md) тепер є просто синонімами для [мтrand()](function.mt-rand.html) і [мтsrand()](function.mt-srand.html). Це означає, що виведення наступних функцій змінилося: [rand()](function.rand.md) [shuffle()](function.shuffle.md) [strshuffle()](function.str-shuffle.html) і [arrayrand()](function.array-rand.md)
+[rand()](function.rand.md) і [srand()](function.srand.md) тепер є просто синонімами для [мтrand()](function.mt-rand.md) і [мтsrand()](function.mt-srand.md). Це означає, що виведення наступних функцій змінилося: [rand()](function.rand.md) [shuffle()](function.shuffle.md) [strshuffle()](function.str-shuffle.md) і [arrayrand()](function.array-rand.md)
 
 ### Заборона використання символу видалення з таблиці ASCII в ідентифікаторах
 
@@ -87,7 +87,7 @@ Warning: Cannot call func_num_args() dynamically in %s on line %d
 
 Тепер [calluserfunc()](function.call-user-func.md) завжди викликає попередження, якщо викликається функція, що очікує посилання як параметри. Раніше це залежало від того, чи виклик був цілком певним.
 
-Крім того, [calluserfunc()](function.call-user-func.html) і [calluserfuncarray()](function.call-user-func-array.md) більше не припиняють виконання функції у разі. Попередження "expected reference" буде викликано, але функція продовжить виконання.
+Крім того, [calluserfunc()](function.call-user-func.md) і [calluserfuncarray()](function.call-user-func-array.md) більше не припиняють виконання функції у разі. Попередження "expected reference" буде викликано, але функція продовжить виконання.
 
 ### Оператор порожнього індексу більше не застосовується до рядків
 
@@ -204,9 +204,9 @@ new DateTime() == new DateTime();
 
 Модуль LDAP при вказівці невідомого типу модифікації в **ldapbatchmodify()** тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки.
 
-У модулі mbstring функції [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.md) тепер викидатимуть виняток [ParseError](class.parseerror.md) у разі некоректного регулярного вираження або у разі використання опції 'e'.
+У модулі mbstring функції [мбereg()](function.mb-ereg.md) і [мбeregi()](function.mb-eregi.md) тепер викидатимуть виняток [ParseError](class.parseerror.md) у разі некоректного регулярного вираження або у разі використання опції 'e'.
 
-У модулі Mcrypt [mcryptencrypt()](function.mcrypt-encrypt.html) і [mcryptdecrypt()](function.mcrypt-decrypt.md) тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки, якщо mcrypt не ініціалізовано.
+У модулі Mcrypt [mcryptencrypt()](function.mcrypt-encrypt.md) і [mcryptdecrypt()](function.mcrypt-decrypt.md) тепер викидатиме виняток [Error](class.error.md) замість виклику фатальної помилки, якщо mcrypt не ініціалізовано.
 
 У модулі mysqli спроби прочитати некоректну властивість або перезаписати властивість доступну тільки для читання будуть викидати виняток [Error](class.error.md) замість виклику фатальної помилки.
 
@@ -265,9 +265,9 @@ object(stdClass)#1 (1) {
 
 Під час передачі прапора **`JSON_UNESCAPED_UNICODE`** у функцію [jsonencode()](function.json-encode.md) послідовності U+2028 та U+2029 будуть екрановані.
 
-### Зміна у семантиці параметрів [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.md)
+### Зміна у семантиці параметрів [мбereg()](function.mb-ereg.md) і [мбeregi()](function.mb-eregi.md)
 
-Третій параметр функцій [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.md) `regs`) тепер встановлюється рівним порожньому масиву, якщо не було знайдено збігів. Раніше параметр залишався незмінним.
+Третій параметр функцій [мбereg()](function.mb-ereg.md) і [мбeregi()](function.mb-eregi.md) `regs`) тепер встановлюється рівним порожньому масиву, якщо не було знайдено збігів. Раніше параметр залишався незмінним.
 
 ### Видалено підтримку потоку sslv2
 

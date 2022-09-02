@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.quotemeta.html: « quotemeta
-  - function.setlocale.html: setlocale »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.quotemeta.md: « quotemeta
+  - function.setlocale.md: setlocale »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: rtrim
 ---
 # rtrim
@@ -90,5 +90,5 @@ string(15) "    Example string"
 
 ### Дивіться також
 
--   [trim()](function.trim.html) - Видаляє пробіли (або інші символи) з початку та кінця рядка
--   [ltrim()](function.ltrim.html) - Видаляє прогалини (або інші символи) з початку рядка
+-   [trim()](function.trim.md) - Видаляє пробіли (або інші символи) з початку та кінця рядка
+-   [ltrim()](function.ltrim.md) - Видаляє прогалини (або інші символи) з початку рядка

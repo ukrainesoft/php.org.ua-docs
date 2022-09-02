@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-readpreference.html: « MongoDBDriverReadPreference
-  - mongodb-driver-readpreference.construct.html: 'MongoDBDriverReadPreference::construct »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - class.mongodb-driver-readpreference.md: « MongoDBDriverReadPreference
+  - mongodb-driver-readpreference.construct.md: 'MongoDBDriverReadPreference::construct »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::bsonSerialize'
 ---
 # MongoDBDriverReadPreference::bsonSerialize

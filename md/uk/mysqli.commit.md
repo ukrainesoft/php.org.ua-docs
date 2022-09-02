@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.close.html: '« mysqli::close'
-  - mysqli.connect-errno.html: 'mysqli::$connecterrno »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.close.md: '« mysqli::close'
+  - mysqli.connect-errno.md: 'mysqli::$connecterrno »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::commit'
 ---
 # mysqli::commit
@@ -34,7 +34,7 @@ mysqli_commit(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `flags`
 
@@ -56,7 +56,7 @@ mysqli_commit(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### Приклади
 
-Дивіться приклад використання у розділі [](mysqli.begin-transaction.html#mysqli.begin-transaction.example.basic)[mysqli::begintransaction()](mysqli.begin-transaction.md)
+Дивіться приклад використання у розділі [](mysqli.begin-transaction.md#mysqli.begin-transaction.example.basic)[mysqli::begintransaction()](mysqli.begin-transaction.md)
 
 ### Примітки
 

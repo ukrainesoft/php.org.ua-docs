@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-nreqs.html: « eionreqs
-  - function.eio-open.html: eioopen »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-nreqs.md: « eionreqs
+  - function.eio-open.md: eioopen »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eionthreads
 ---
 # eionthreads
@@ -28,9 +28,9 @@ eio_nthreads(): int
 
 ### Дивіться також
 
--   [eionpending()](function.eio-npending.html) - Повертає кількість завершених, але необроблених процесів
--   [eionready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів
--   [eionreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
--   [eiosetmaxidle()](function.eio-set-max-idle.html) - Встановлює максимальну кількість очікуваних потоків
--   [eiosetmaxparallel()](function.eio-set-max-parallel.html) - Встановлює максимальну кількість паралельних потоків
--   [eiosetminparallel()](function.eio-set-min-parallel.html) - Встановлює мінімальну кількість паралельних потоків
+-   [eionpending()](function.eio-npending.md) - Повертає кількість завершених, але необроблених процесів
+-   [eionready()](function.eio-nready.md) - Повертає кількість ще не опрацьованих запитів
+-   [eionreqs()](function.eio-nreqs.md) - Повертає кількість запитів, які потрібно виконати
+-   [eiosetmaxidle()](function.eio-set-max-idle.md) - Встановлює максимальну кількість очікуваних потоків
+-   [eiosetmaxparallel()](function.eio-set-max-parallel.md) - Встановлює максимальну кількість паралельних потоків
+-   [eiosetminparallel()](function.eio-set-min-parallel.md) - Встановлює мінімальну кількість паралельних потоків

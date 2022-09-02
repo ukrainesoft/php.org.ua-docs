@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-manager.startsession.html: '« MongoDBDriverManager::startSession'
-  - mongodb-driver-command.construct.html: 'MongoDBDriverCommand::construct »'
+  - mongodb-driver-manager.startsession.md: '« MongoDBDriverManager::startSession'
+  - mongodb-driver-command.construct.md: 'MongoDBDriverCommand::construct »'
   - index.md: PHP Manual
   - book.mongodb.md: MongoDBDriver
 title: Клас The MongoDBDriverCommand

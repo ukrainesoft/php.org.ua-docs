@@ -14,7 +14,7 @@ Imagick::construct — Конструктор об'єкту Imagick
 
 ### Опис
 
-public **Imagick::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$files`
+public **Imagick::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$files`
 
 Створює екземпляр Imagick для окремого зображення чи групи зображень.
 

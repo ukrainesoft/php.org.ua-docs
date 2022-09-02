@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.floatval.html: « floatval
-  - function.get-defined-vars.html: getdefinedvars »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.floatval.md: « floatval
+  - function.get-defined-vars.md: getdefinedvars »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: getdebugtype
 ---
 # getdebugtype
@@ -20,7 +20,7 @@ get_debug_type(mixed $value): string
 
 Повертає перетворене ім'я змінної PHP `value`. Функція перетворює об'єкти в ім'я їхнього класу, ресурси - в ім'я їхнього типу ресурсу, а скалярні значення - у загальноприйняте ім'я їхнього типу, яке б використовувалося в оголошенні типів.
 
-Функція відрізняється від [gettype()](function.gettype.html) тим, що повертає імена типів, які більше відповідають фактичному використанню, а не ті, що є з історичних причин.
+Функція відрізняється від [gettype()](function.gettype.md) тим, що повертає імена типів, які більше відповідають фактичному використанню, а не ті, що є з історичних причин.
 
 ### Список параметрів
 
@@ -86,5 +86,5 @@ class@anonymous
 
 ### Дивіться також
 
--   [gettype()](function.gettype.html) - Повертає тип змінної
--   [getclass()](function.get-class.html) - Повертає ім'я класу, до якого належить об'єкт
+-   [gettype()](function.gettype.md) - Повертає тип змінної
+-   [getclass()](function.get-class.md) - Повертає ім'я класу, до якого належить об'єкт

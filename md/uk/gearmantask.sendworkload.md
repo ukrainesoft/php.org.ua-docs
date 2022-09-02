@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmantask.senddata.html: '« GearmanTask::sendData'
-  - gearmantask.taskdenominator.html: 'GearmanTask::taskDenominator »'
-  - index.html: PHP Manual
-  - class.gearmantask.html: GearmanTask
+  - gearmantask.senddata.md: '« GearmanTask::sendData'
+  - gearmantask.taskdenominator.md: 'GearmanTask::taskDenominator »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::sendWorkload'
 ---
 # GearmanTask::sendWorkload
@@ -34,4 +34,4 @@ public GearmanTask::sendWorkload(string $data): int
 
 ### Дивіться також
 
--   [GearmanTask::recvData()](gearmantask.recvdata.html) - Читання даних роботи чи результату завдання у буфер
+-   [GearmanTask::recvData()](gearmantask.recvdata.md) - Читання даних роботи чи результату завдання у буфер

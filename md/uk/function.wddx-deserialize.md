@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wddx-add-vars.html: « wddxaddvars
-  - function.wddx-packet-end.html: wddxpacketend »
+  - function.wddx-add-vars.md: « wddxaddvars
+  - function.wddx-packet-end.md: wddxpacketend »
   - index.md: PHP Manual
   - ref.wddx.md: Функції WDDX
 title: wddxdeserialize
@@ -26,7 +26,7 @@ wddx_deserialize(string $packet): mixed
 
 **Увага**
 
-Не передавайте неперевірене введення користувача в **wddxdeserialize()**. Десеріалізація може призвести до того, що код завантажується і виконується під час ініціалізації та автозавантаження, і зловмисник може скористатися цим. Використовуйте безпечний стандартний формат обміну даними, таким як JSON (через [jsondecode()](function.json-decode.html) і [jsonencode()](function.json-encode.md)), якщо вам необхідно передати серіалізовані дані користувачеві.
+Не передавайте неперевірене введення користувача в **wddxdeserialize()**. Десеріалізація може призвести до того, що код завантажується і виконується під час ініціалізації та автозавантаження, і зловмисник може скористатися цим. Використовуйте безпечний стандартний формат обміну даними, таким як JSON (через [jsondecode()](function.json-decode.md) і [jsonencode()](function.json-encode.md)), якщо вам необхідно передати серіалізовані дані користувачеві.
 
 ### Список параметрів
 

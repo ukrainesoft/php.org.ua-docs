@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-rand-gen-noncentral-chisquare.html: « statsrandgennoncentralchisquare
-  - function.stats-rand-gen-noncentral-t.html: statsrandgennoncentralt »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-rand-gen-noncentral-chisquare.md: « statsrandgennoncentralchisquare
+  - function.stats-rand-gen-noncentral-t.md: statsrandgennoncentralt »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsrandгенnoncentralф
 ---
 # statsrandгенnoncentralф

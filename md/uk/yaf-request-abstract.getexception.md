@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getenv.html: '« YafRequestAbstract::getEnv'
-  - yaf-request-abstract.getlanguage.html: 'YafRequestAbstract::getLanguage »'
-  - index.html: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - yaf-request-abstract.getenv.md: '« YafRequestAbstract::getEnv'
+  - yaf-request-abstract.getlanguage.md: 'YafRequestAbstract::getLanguage »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getException'
 ---
 # YafRequestAbstract::getException

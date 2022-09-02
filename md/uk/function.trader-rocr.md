@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-rocr100.html: « traderrocr100
-  - function.trader-rsi.html: traderrsi »
+  - function.trader-rocr100.md: « traderrocr100
+  - function.trader-rsi.md: traderrsi »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderrocr

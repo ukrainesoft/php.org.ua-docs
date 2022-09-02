@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.pairs.html: '« DsMap::pairs'
-  - ds-map.putall.html: 'ДсMap::putAll »'
+  - ds-map.pairs.md: '« DsMap::pairs'
+  - ds-map.putall.md: 'ДсMap::putAll »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::put'
 ---
 # ДсMap::put

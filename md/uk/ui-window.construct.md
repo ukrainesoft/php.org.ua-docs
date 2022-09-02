@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.add.html: '« UIWindow::add'
-  - ui-window.error.html: 'ОЙWindow::error »'
+  - ui-window.add.md: '« UIWindow::add'
+  - ui-window.error.md: 'ОЙWindow::error »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::construct'
 ---
 # ОЙWindow::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.valid.html: '« YafSession::valid'
-  - yaf-exception.construct.html: 'YafException::construct »'
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf-session.valid.md: '« YafSession::valid'
+  - yaf-exception.construct.md: 'YafException::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafException
 ---
 # Клас YafException
@@ -78,5 +78,5 @@ private Exception::__clone(): void
 
 ## Зміст
 
--   [YafException::construct](yaf-exception.construct.html) - Конструктор класу YafException
--   [YafException::getPrevious](yaf-exception.getprevious.html) — Отримати попередній виняток
+-   [YafException::construct](yaf-exception.construct.md) - Конструктор класу YafException
+-   [YafException::getPrevious](yaf-exception.getprevious.md) — Отримати попередній виняток

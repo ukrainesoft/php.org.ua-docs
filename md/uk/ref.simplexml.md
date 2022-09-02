@@ -1,7 +1,7 @@
 ---
 navigation:
   - simplexmliterator.valid.md: '« SimpleXMLIterator::valid'
-  - function.simplexml-import-dom.html: simplexmlimportdom »
+  - function.simplexml-import-dom.md: simplexmlimportdom »
   - index.md: PHP Manual
   - book.simplexml.md: SimpleXML
 title: Функції SimpleXML

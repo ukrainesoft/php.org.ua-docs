@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.get-client-version.html: '« mysqli::$clientversion'
-  - mysqli.get-host-info.html: 'mysqli::$hostinfo »'
+  - mysqli.get-client-version.md: '« mysqli::$clientversion'
+  - mysqli.get-host-info.md: 'mysqli::$hostinfo »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::getconnectionstats'

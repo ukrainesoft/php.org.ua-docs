@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.app.html: '« YafApplication::app'
-  - yaf-application.clearlasterror.html: 'YafApplication::clearLastError »'
-  - index.html: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - yaf-application.app.md: '« YafApplication::app'
+  - yaf-application.clearlasterror.md: 'YafApplication::clearLastError »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::bootstrap'
 ---
 # YafApplication::bootstrap
@@ -24,11 +24,11 @@ public Yaf_Application::bootstrap(Yaf_Bootstrap_Abstract $bootstrap = ?): void
 
 `bootstrap`
 
-Екземпляр класу [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
+Екземпляр класу [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
 
 ### Значення, що повертаються
 
-Екземпляр класу [YafApplication](class.yaf-application.html)
+Екземпляр класу [YafApplication](class.yaf-application.md)
 
 ### Приклади
 
@@ -75,4 +75,4 @@ $application->bootstrap();
 
 ### Дивіться також
 
--   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.html)
+-   [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)

@@ -16,7 +16,7 @@ EvLoop::construct - Конструктор об'єкта циклу подій
 
 public **EvLoop::construct**  
 int `$flags`  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` NULL,  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` NULL,  
 float `$io_interval`  
 float `$timeout_interval`
 
@@ -26,7 +26,7 @@ float `$timeout_interval`
 
 `flags`
 
-Один з [прапори циклу подій](class.ev.html#ev.constants.loop-flags)
+Один з [прапори циклу подій](class.ev.md#ev.constants.loop-flags)
 
 `data`
 
@@ -34,11 +34,11 @@ float `$timeout_interval`
 
 `io_interval`
 
-Дивіться [іоinterval](class.evloop.html#evloop.props.io-interval)
+Дивіться [іоinterval](class.evloop.md#evloop.props.io-interval)
 
 `timeout_interval`
 
-Дивіться [timeoutinterval](class.evloop.html#evloop.props.timeout-interval)
+Дивіться [timeoutinterval](class.evloop.md#evloop.props.timeout-interval)
 
 ### Дивіться також
 

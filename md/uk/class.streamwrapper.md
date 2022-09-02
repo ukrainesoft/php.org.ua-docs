@@ -1,6 +1,6 @@
 ---
 navigation:
-  - php-user-filter.oncreate.html: '« phpuserfilter::onCreate'
+  - php-user-filter.oncreate.md: '« phpuserfilter::onCreate'
   - streamwrapper.construct.md: 'streamWrapper::construct »'
   - index.md: PHP Manual
   - book.stream.md: Потоки

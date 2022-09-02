@@ -1,9 +1,9 @@
 ---
 navigation:
-  - luasandbox.enableprofiler.html: '« LuaSandbox::enableProfiler'
-  - luasandbox.getmemoryusage.html: 'LuaSandbox::getMemoryUsage »'
-  - index.html: PHP Manual
-  - class.luasandbox.html: LuaSandbox
+  - luasandbox.enableprofiler.md: '« LuaSandbox::enableProfiler'
+  - luasandbox.getmemoryusage.md: 'LuaSandbox::getMemoryUsage »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::getCPUUsage'
 ---
 # LuaSandbox::getCPUUsage
@@ -36,6 +36,6 @@ public LuaSandbox::getCPUUsage(): float
 
 ### Дивіться також
 
--   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.html) - Повертає поточне використання пам'яті у середовищі Lua
--   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.html) - Повертає пікове використання пам'яті в середовищі Lua
--   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.html) - Встановлює обмеження часу процесора для середовища Lua
+-   [LuaSandbox::getMemoryUsage()](luasandbox.getmemoryusage.md) - Повертає поточне використання пам'яті у середовищі Lua
+-   [LuaSandbox::getPeakMemoryUsage()](luasandbox.getpeakmemoryusage.md) - Повертає пікове використання пам'яті в середовищі Lua
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md) - Встановлює обмеження часу процесора для середовища Lua

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ini-get.html: « iniget
-  - function.ini-set.html: iniset »
+  - function.ini-get.md: « iniget
+  - function.ini-set.md: iniset »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: inirestore

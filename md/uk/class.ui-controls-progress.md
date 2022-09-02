@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-slider.setvalue.html: '« UIControlsSlider::setValue'
-  - ui-controls-progress.getvalue.html: 'ОЙControlsProgress::getValue »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-controls-slider.setvalue.md: '« UIControlsSlider::setValue'
+  - ui-controls-progress.getvalue.md: 'ОЙControlsProgress::getValue »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Елемент управління "Хід виконання"
 ---
 # Елемент управління "Хід виконання"

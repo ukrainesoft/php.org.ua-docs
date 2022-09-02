@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-connect.html: « ftpconnect
-  - function.ftp-exec.html: ftpexec »
+  - function.ftp-connect.md: « ftpconnect
+  - function.ftp-exec.md: ftpexec »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpdelete

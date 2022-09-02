@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.set-include-path.html: « setincludepath
-  - function.sys-get-temp-dir.html: sysgettempdir »
+  - function.set-include-path.md: « setincludepath
+  - function.sys-get-temp-dir.md: sysgettempdir »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: settimelimit
@@ -36,9 +36,9 @@ set_time_limit(int $seconds): bool
 
 > **Зауваження**
 > 
-> Функція **settimelimit()** та директива [maxexecutiontime](info.configuration.html#ini.max-execution-time) впливають тимчасово виконання лише самого скрипта. Час, витрачений на різні дії поза скриптом, такі як системні виклики функції [system()](function.system.md), Потокові операції, запити до баз даних і т.п. не включаються до розрахунку виконання скрипта. Це не стосується систем Windows, де розраховується абсолютний час виконання.
+> Функція **settimelimit()** та директива [maxexecutiontime](info.configuration.md#ini.max-execution-time) впливають тимчасово виконання лише самого скрипта. Час, витрачений на різні дії поза скриптом, такі як системні виклики функції [system()](function.system.md), Потокові операції, запити до баз даних і т.п. не включаються до розрахунку виконання скрипта. Це не стосується систем Windows, де розраховується абсолютний час виконання.
 
 ### Дивіться також
 
--   [maxexecutiontime](info.configuration.html#ini.max-execution-time)
--   [maxinputtime](info.configuration.html#ini.max-input-time)
+-   [maxexecutiontime](info.configuration.md#ini.max-execution-time)
+-   [maxinputtime](info.configuration.md#ini.max-input-time)

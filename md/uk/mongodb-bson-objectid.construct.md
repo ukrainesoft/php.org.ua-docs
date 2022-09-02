@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-objectid.html: « MongoDBBSONObjectId
-  - mongodb-bson-objectid.gettimestamp.html: 'MongoDBBSONObjectId::getTimestamp »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+  - class.mongodb-bson-objectid.md: « MongoDBBSONObjectId
+  - mongodb-bson-objectid.gettimestamp.md: 'MongoDBBSONObjectId::getTimestamp »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
 title: 'MongoDBBSONObjectId::construct'
 ---
 # MongoDBBSONObjectId::construct

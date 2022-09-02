@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.sort.html: '« CollectionFind::sort'
-  - mysql-xdevapi-collectionmodify.arrayappend.html: 'CollectionModify::arrayAppend »'
+  - mysql-xdevapi-collectionfind.sort.md: '« CollectionFind::sort'
+  - mysql-xdevapi-collectionmodify.arrayappend.md: 'CollectionModify::arrayAppend »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас CollectionModify
 ---
 # Клас CollectionModify

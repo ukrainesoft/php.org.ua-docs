@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-cvt-int.html: « radiuscvtint
-  - function.radius-demangle-mppe-key.html: radiusdemanglemppekey »
+  - function.radius-cvt-int.md: « radiuscvtint
+  - function.radius-demangle-mppe-key.md: radiusdemanglemppekey »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiuscvtstring

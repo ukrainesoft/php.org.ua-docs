@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yac.add.html: '« Yac::add'
-  - yac.delete.html: 'Yac::delete »'
-  - index.html: PHP Manual
-  - class.yac.html: Yac
+  - yac.add.md: '« Yac::add'
+  - yac.delete.md: 'Yac::delete »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
 title: 'Yac::construct'
 ---
 # Yac::construct
@@ -26,4 +26,4 @@ public **Yac::construct**(string `$prefix` = "")
 
 ### Помилки
 
-Викидає [Exception](class.exception.html), якщо Yac не включено. Викидає [Exception](class.exception.html), якщо `prefix` перевищує максимальну довжину ключа 48 (**`YAC_MAX_KEY_LEN`**) байтів.
+Викидає [Exception](class.exception.md), якщо Yac не включено. Викидає [Exception](class.exception.md), якщо `prefix` перевищує максимальну довжину ключа 48 (**`YAC_MAX_KEY_LEN`**) байтів.

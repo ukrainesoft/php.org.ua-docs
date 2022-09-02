@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-menu.appendquit.html: '« UIMenu::appendQuit'
-  - ui-menu.construct.html: 'ОЙMenu::construct »'
+  - ui-menu.appendquit.md: '« UIMenu::appendQuit'
+  - ui-menu.construct.md: 'ОЙMenu::construct »'
   - index.md: PHP Manual
-  - class.ui-menu.html: ОЙMenu
+  - class.ui-menu.md: ОЙMenu
 title: 'ОЙMenu::appendSeparator'
 ---
 # ОЙMenu::appendSeparator

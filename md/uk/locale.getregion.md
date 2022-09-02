@@ -1,9 +1,9 @@
 ---
 navigation:
-  - locale.getprimarylanguage.html: '« Locale::getPrimaryLanguage'
-  - locale.getscript.html: 'Locale::getScript »'
-  - index.html: PHP Manual
-  - class.locale.html: Locale
+  - locale.getprimarylanguage.md: '« Locale::getPrimaryLanguage'
+  - locale.getscript.md: 'Locale::getScript »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
 title: 'Locale::getRegion'
 ---
 # Locale::getRegion
@@ -68,6 +68,6 @@ CH
 
 ### Дивіться також
 
--   [localegetprimarylanguage()](locale.getprimarylanguage.html) - Отримати первинну мову для локалі
--   [localegetscript()](locale.getscript.html) - Отримати алфавіт для локалі
--   [localegetallvariants()](locale.getallvariants.html) - Отримання варіантів із переданої локалі
+-   [localegetprimarylanguage()](locale.getprimarylanguage.md) - Отримати первинну мову для локалі
+-   [localegetscript()](locale.getscript.md) - Отримати алфавіт для локалі
+-   [localegetallvariants()](locale.getallvariants.md) - Отримання варіантів із переданої локалі

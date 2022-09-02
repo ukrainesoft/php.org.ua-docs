@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-schema.gettables.html: '« Schema::getTables'
-  - mysql-xdevapi-schemaobject.getschema.html: 'SchemaObject::getSchema »'
+  - mysql-xdevapi-schema.gettables.md: '« Schema::getTables'
+  - mysql-xdevapi-schemaobject.getschema.md: 'SchemaObject::getSchema »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Інтерфейс SchemaObject
 ---
 # Інтерфейс SchemaObject

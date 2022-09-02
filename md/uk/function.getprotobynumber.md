@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.getprotobyname.html: « getprotobyname
-  - function.getservbyname.html: getservbyname »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.getprotobyname.md: « getprotobyname
+  - function.getservbyname.md: getservbyname »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: getprotobynumber
 ---
 # getprotobynumber
@@ -32,4 +32,4 @@ getprotobynumber(int $protocol): string|false
 
 ### Дивіться також
 
--   [getprotobyname()](function.getprotobyname.html) - Отримує номер протоколу на ім'я
+-   [getprotobyname()](function.getprotobyname.md) - Отримує номер протоколу на ім'я

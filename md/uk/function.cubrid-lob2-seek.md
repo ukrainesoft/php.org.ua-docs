@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-lob2-seek64.html: « cubridlob2seek64
-  - function.cubrid-lob2-size64.html: cubridlob2size64 »
+  - function.cubrid-lob2-seek64.md: « cubridlob2seek64
+  - function.cubrid-lob2-size64.md: cubridlob2size64 »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridlob2seek

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.closeloggerstream.html: '« SeasLog::closeLoggerStream'
-  - seaslog.critical.html: 'SeasLog::critical »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.closeloggerstream.md: '« SeasLog::closeLoggerStream'
+  - seaslog.critical.md: 'SeasLog::critical »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::construct'
 ---
 # SeasLog::construct

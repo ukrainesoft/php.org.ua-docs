@@ -1,6 +1,6 @@
 ---
 navigation:
-  - ext-weakmap.construct.html: '« WeakMap::construct'
+  - ext-weakmap.construct.md: '« WeakMap::construct'
   - weakmap.getiterator.md: 'WeakMap::getIterator »'
   - index.md: PHP Manual
   - class.weakmap.md: WeakMap

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.polygon.html: '« ImagickDraw::polygon'
-  - imagickdraw.pop.html: 'ImagickDraw::pop »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.polygon.md: '« ImagickDraw::polygon'
+  - imagickdraw.pop.md: 'ImagickDraw::pop »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::polyline'
 ---
 # ImagickDraw::polyline

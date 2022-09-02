@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.jsonserialize.html: '« DsMap::jsonSerialize'
-  - ds-map.ksort.html: 'ДсMap::ksort »'
+  - ds-map.jsonserialize.md: '« DsMap::jsonSerialize'
+  - ds-map.ksort.md: 'ДсMap::ksort »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::keys'
 ---
 # ДсMap::keys

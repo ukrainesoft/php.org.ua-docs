@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.shift.html: '« SplDoublyLinkedList::shift'
-  - spldoublylinkedlist.unserialize.html: 'SplDoublyLinkedList::unserialize »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.shift.md: '« SplDoublyLinkedList::shift'
+  - spldoublylinkedlist.unserialize.md: 'SplDoublyLinkedList::unserialize »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::top'
 ---
 # SplDoublyLinkedList::top
@@ -28,4 +28,4 @@ public SplDoublyLinkedList::top(): mixed
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)коли структура даних порожня.
+Викидає виняток [RuntimeException](class.runtimeexception.md)коли структура даних порожня.

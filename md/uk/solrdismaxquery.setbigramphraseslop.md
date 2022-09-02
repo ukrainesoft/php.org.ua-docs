@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdismaxquery.setbigramphrasefields.html: '« SolrDisMaxQuery::setBigramPhraseFields'
-  - solrdismaxquery.setboostfunction.html: 'SolrDisMaxQuery::setBoostFunction »'
-  - index.html: PHP Manual
-  - class.solrdismaxquery.html: SolrDisMaxQuery
+  - solrdismaxquery.setbigramphrasefields.md: '« SolrDisMaxQuery::setBigramPhraseFields'
+  - solrdismaxquery.setboostfunction.md: 'SolrDisMaxQuery::setBoostFunction »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::setBigramPhraseSlop'
 ---
 # SolrDisMaxQuery::setBigramPhraseSlop
@@ -28,7 +28,7 @@ public SolrDisMaxQuery::setBigramPhraseSlop(string $slop): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 

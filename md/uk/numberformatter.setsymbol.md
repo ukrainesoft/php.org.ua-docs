@@ -38,7 +38,7 @@ numfmt_set_symbol(NumberFormatter $formatter, int $symbol, string $value): bool
 
 `symbol`
 
-Специфікатор символу, одна з констант [символа форматирования](class.numberformatter.html#intl.numberformatter-constants.unumberformatsymbol)
+Специфікатор символу, одна з констант [символа форматирования](class.numberformatter.md#intl.numberformatter-constants.unumberformatsymbol)
 
 `value`
 

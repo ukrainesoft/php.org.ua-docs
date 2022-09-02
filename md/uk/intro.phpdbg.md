@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.phpdbg.html: « phpdbg
-  - phpdbg.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.phpdbg.html: phpdbg
+  - book.phpdbg.md: « phpdbg
+  - phpdbg.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.phpdbg.md: phpdbg
 title: Вступ
 ---
 # Вступ

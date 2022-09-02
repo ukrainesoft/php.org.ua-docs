@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.generateuuid.html: '« Session::generateUUID'
-  - mysql-xdevapi-session.getschema.html: 'Session::getSchema »'
+  - mysql-xdevapi-session.generateuuid.md: '« Session::generateUUID'
+  - mysql-xdevapi-session.getschema.md: 'Session::getSchema »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::getDefaultSchema'
 ---
 # Session::getDefaultSchema

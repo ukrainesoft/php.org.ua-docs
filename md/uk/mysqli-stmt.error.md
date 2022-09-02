@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.error-list.html: '« mysqlistmt::$errorlist'
-  - mysqli-stmt.execute.html: 'mysqlistmt::execute »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.error-list.md: '« mysqlistmt::$errorlist'
+  - mysqli-stmt.execute.md: 'mysqlistmt::execute »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::$error'
 ---
 # mysqlistmt::$error
@@ -18,7 +18,7 @@ mysqlistmt::$error -- mysqlistmterror — Повертає рядок із по�
 
 Об'єктно-орієнтований стиль
 
-string [$mysqlistmt->error](mysqli-stmt.error.html)
+string [$mysqlistmt->error](mysqli-stmt.error.md)
 
 Процедурний стиль
 
@@ -32,7 +32,7 @@ mysqli_stmt_error(mysqli_stmt $statement): string
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -122,5 +122,5 @@ mysqli_close($link);
 
 ### Дивіться також
 
--   [mysqlistmterrno()](mysqli-stmt.errno.html) - Повертає код помилки виконання останнього запиту
--   [mysqlistmtsqlstate()](mysqli-stmt.sqlstate.html) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом
+-   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmtsqlstate()](mysqli-stmt.sqlstate.md) - Повертає код помилки SQLSTATE, викликаної під час виконання останньої операції над запитом

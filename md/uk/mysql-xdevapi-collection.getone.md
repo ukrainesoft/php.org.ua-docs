@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collection.getname.html: '« Collection::getName'
-  - mysql-xdevapi-collection.getschema.html: 'Collection::getSchema »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+  - mysql-xdevapi-collection.getname.md: '« Collection::getName'
+  - mysql-xdevapi-collection.getschema.md: 'Collection::getSchema »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
 title: 'Collection::getOne'
 ---
 # Collection::getOne

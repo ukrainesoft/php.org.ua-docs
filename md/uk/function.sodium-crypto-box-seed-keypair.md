@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-box-secretkey.html: « sodiumcryptoboxsecretkey
-  - function.sodium-crypto-box.html: sodiumcryptobox »
+  - function.sodium-crypto-box-secretkey.md: « sodiumcryptoboxsecretkey
+  - function.sodium-crypto-box.md: sodiumcryptobox »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptoboxseedkeypair

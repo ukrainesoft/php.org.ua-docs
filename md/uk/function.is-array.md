@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.intval.md: « intval
-  - function.is-bool.html: ісbool »
+  - function.is-bool.md: ісbool »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: ісarray

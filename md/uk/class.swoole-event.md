@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-coroutine.suspend.html: '« SwooleCoroutine::suspend'
-  - swoole-event.add.html: 'SwooleEvent::add »'
+  - swoole-coroutine.suspend.md: '« SwooleCoroutine::suspend'
+  - swoole-event.add.md: 'SwooleEvent::add »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleEvent

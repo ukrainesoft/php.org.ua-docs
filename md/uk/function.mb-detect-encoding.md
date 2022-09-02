@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-decode-numericentity.html: « mbdecodenumericentity
-  - function.mb-detect-order.html: мбdetectorder »
+  - function.mb-decode-numericentity.md: « mbdecodenumericentity
+  - function.mb-detect-order.md: мбdetectorder »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбdetectencoding
@@ -34,13 +34,13 @@ mb_detect_encoding(string $string, array|string|null $encodings = null, bool $st
 
 Упорядкований список символів кодування. Список може бути вказаний як масив рядків або як рядок кодувань, розділених комами.
 
-Якщо `encodings` не заданий чи є **`null`**, буде використовуватись поточний detectorder (встановлений за допомогою параметра конфігурації [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order) або функції [мбdetectorder()](function.mb-detect-order.md)
+Якщо `encodings` не заданий чи є **`null`**, буде використовуватись поточний detectorder (встановлений за допомогою параметра конфігурації [mbstring.detectorder](mbstring.configuration.md#ini.mbstring.detect-order) або функції [мбdetectorder()](function.mb-detect-order.md)
 
 `strict`
 
 Керує поведінкою, коли `string` неприпустима в жодній із перерахованих `encodings`. Якщо для `strict` встановлено значення **`false`**, буде повернуто найбільш відповідне кодування; якщо для `strict` встановлено значення **`true`**, буде повернуто **`false`**
 
-Значення за замовчуванням для `strict` можна встановити за допомогою параметра конфігурації [mbstring.strictdetection](mbstring.configuration.html#ini.mbstring.strict-detection)
+Значення за замовчуванням для `strict` можна встановити за допомогою параметра конфігурації [mbstring.strictdetection](mbstring.configuration.md#ini.mbstring.strict-detection)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-escape.html: « curlescape
-  - function.curl-file-create.html: curlfilecreate »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-escape.md: « curlescape
+  - function.curl-file-create.md: curlfilecreate »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlexec
 ---
 # curlexec
@@ -26,25 +26,25 @@ curl_exec(CurlHandle $handle): string|bool
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Однак, якщо [установлена](function.curl-setopt.html) опція **`CURLOPT_RETURNTRANSFER`**, при успішному завершенні буде повернено результат, а при невдачі - **`false`**
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Однак, якщо [установлена](function.curl-setopt.md) опція **`CURLOPT_RETURNTRANSFER`**, при успішному завершенні буде повернено результат, а при невдачі - **`false`**
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 > **Зауваження**
 > 
-> Зверніть увагу, що коди стану відповіді, що вказують на помилки (наприклад, `404 Not found`), не розглядаються як невдача. Функція [curlgetinfo()](function.curl-getinfo.html) може використовуватись для перевірки таких помилок.
+> Зверніть увагу, що коди стану відповіді, що вказують на помилки (наприклад, `404 Not found`), не розглядаються як невдача. Функція [curlgetinfo()](function.curl-getinfo.md) може використовуватись для перевірки таких помилок.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -69,4 +69,4 @@ curl_close($ch);
 
 ### Дивіться також
 
--   [curlmultiexec()](function.curl-multi-exec.html) - Запускає приєднання поточного дескриптора cURL
+-   [curlmultiexec()](function.curl-multi-exec.md) - Запускає приєднання поточного дескриптора cURL

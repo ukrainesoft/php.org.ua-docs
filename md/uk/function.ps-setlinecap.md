@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-setgray.html: «pssetgray
-  - function.ps-setlinejoin.html: псsetlinejoin »
+  - function.ps-setgray.md: «pssetgray
+  - function.ps-setlinejoin.md: псsetlinejoin »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetlinecap

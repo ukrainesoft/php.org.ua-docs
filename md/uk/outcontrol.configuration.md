@@ -14,11 +14,11 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [outputbuffering](outcontrol.configuration.html#ini.output-buffering) | "0" | PHPINIPERDIR |  |
-| [outputhandler](outcontrol.configuration.html#ini.output-handler) | NULL | PHPINIPERDIR |  |
-| [implicitflush](outcontrol.configuration.html#ini.implicit-flush) | "0" | PHPINIALL |  |
-| [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) | "a=href,area=href,frame=src,form=,fieldset=" | PHPINIALL | До PHP 7.1.0 використовувалася для встановлення перезапису сесії "trans sid". З PHP 7.1.0 використовується тільки [outputaddrewritevar()](function.output-add-rewrite-var.md) |
-| [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts) | `$_SERVER['HTTP_HOST']` використовується за замовчуванням. | PHPINIALL | Доступно з PHP 7.1.0 |
+| [outputbuffering](outcontrol.configuration.md#ini.output-buffering) | "0" | PHPINIPERDIR |  |
+| [outputhandler](outcontrol.configuration.md#ini.output-handler) | NULL | PHPINIPERDIR |  |
+| [implicitflush](outcontrol.configuration.md#ini.implicit-flush) | "0" | PHPINIALL |  |
+| [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags) | "a=href,area=href,frame=src,form=,fieldset=" | PHPINIALL | До PHP 7.1.0 використовувалася для встановлення перезапису сесії "trans sid". З PHP 7.1.0 використовується тільки [outputaddrewritevar()](function.output-add-rewrite-var.md) |
+| [urlrewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts) | `$_SERVER['HTTP_HOST']` використовується за замовчуванням. | PHPINIALL | Доступно з PHP 7.1.0 |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -34,7 +34,7 @@ title: Налаштування під час виконання
 
 > **Зауваження**
 > 
-> Ви не можете використовувати разом [мбoutputhandler()](function.mb-output-handler.html) з [проiconvhandler()](function.ob-iconv-handler.html), і ви не можете використовувати разом [проgzhandler()](function.ob-gzhandler.md) і [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression)
+> Ви не можете використовувати разом [мбoutputhandler()](function.mb-output-handler.md) з [проiconvhandler()](function.ob-iconv-handler.md), і ви не можете використовувати разом [проgzhandler()](function.ob-gzhandler.md) і [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression)
 
 > **Зауваження**
 > 
@@ -52,7 +52,7 @@ title: Налаштування під час виконання
 
 `url_rewriter.tags` визначає, які HTML-теги будуть перезаписані значеннями [outputaddrewritevar()](function.output-add-rewrite-var.md). За замовчуванням `a=href,area=href,frame=src,input=src,form=` `form` є спеціальним тегом . `<input hidden="session_id" name="session_name">` додається як змінна форми.
 
-> **Зауваження**: До PHP 7.1.0 треба було використовувати [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags) для вказівки [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags). Починаючи з PHP 7.1.0, `fieldset` більше не сприймається як спеціальний тег.
+> **Зауваження**: До PHP 7.1.0 треба було використовувати [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags) для вказівки [session.transsidtags](session.configuration.md#ini.session.trans-sid-tags). Починаючи з PHP 7.1.0, `fieldset` більше не сприймається як спеціальний тег.
 
 `url_rewriter.hosts` string
 

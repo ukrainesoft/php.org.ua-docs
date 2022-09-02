@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.construct.html: '« SwooleProcess::construct'
-  - swoole-process.destruct.html: 'SwooleProcess::destruct »'
-  - index.html: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - swoole-process.construct.md: '« SwooleProcess::construct'
+  - swoole-process.destruct.md: 'SwooleProcess::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::daemon'
 ---
 # SwooleProcess::daemon

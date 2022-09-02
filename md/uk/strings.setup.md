@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.strings.html: « Введение
-  - strings.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.strings.html: Рядки
+  - intro.strings.md: « Введение
+  - strings.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.strings.md: Рядки
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](strings.requirements.html)
--   [Установка](strings.installation.html)
--   [Налаштування під час виконання](strings.configuration.html)
--   [Типи ресурсів](strings.resources.html)
+-   [Вимоги](strings.requirements.md)
+-   [Установка](strings.installation.md)
+-   [Налаштування під час виконання](strings.configuration.md)
+-   [Типи ресурсів](strings.resources.md)

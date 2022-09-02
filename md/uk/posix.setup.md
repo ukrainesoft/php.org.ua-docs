@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.posix.html: « Введение
-  - posix.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.posix.html: POSIX
+  - intro.posix.md: « Введение
+  - posix.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.posix.md: POSIX
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

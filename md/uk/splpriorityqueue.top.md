@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splpriorityqueue.setextractflags.html: '« SplPriorityQueue::setExtractFlags'
-  - splpriorityqueue.valid.html: 'SplPriorityQueue::valid »'
-  - index.html: PHP Manual
-  - class.splpriorityqueue.html: SplPriorityQueue
+  - splpriorityqueue.setextractflags.md: '« SplPriorityQueue::setExtractFlags'
+  - splpriorityqueue.valid.md: 'SplPriorityQueue::valid »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
 title: 'SplPriorityQueue::top'
 ---
 # SplPriorityQueue::top

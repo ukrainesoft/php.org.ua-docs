@@ -1,186 +1,186 @@
 ---
 navigation:
-  - curlstringfile.construct.html: '« CURLStringFile::construct'
-  - intro.event.html: Введение »
-  - index.html: PHP Manual
-  - refs.remote.other.html: Інші служби
+  - curlstringfile.construct.md: '« CURLStringFile::construct'
+  - intro.event.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
 title: Event
 ---
 # Event
 
--   [Введение](intro.event.html)
--   [Встановлення та налаштування](event.setup.html)
-    -   [Вимоги](event.requirements.html)
-    -   [Установка](event.installation.html)
-    -   [Налаштування під час виконання](event.configuration.html)
-    -   [Типи ресурсів](event.resources.html)
--   [Приклади](event.examples.html)
--   [Прапори подій](event.flags.html)
--   [Про постійні (persistent) події](event.persistence.html)
--   [Callback-функции](event.callbacks.html)
--   [Створення подій для сигналів](event.constructing.signal.events.html)
--   [Event](class.event.html) - Клас Event
-    -   [Event::add](event.add.html) — Перевести подію у стан очікування
-    -   [Event::addSignal](event.addsignal.html) - Псевдонім Event:: add
-    -   [Event::addTimer](event.addtimer.html) - Псевдонім Event:: add
-    -   [Event::construct](event.construct.html) - Конструктор об'єкта Event
-    -   [Event::del](event.del.html) - Перевести подію в пасивний стан
-    -   [Event::delSignal](event.delsignal.html) - Псевдонім Event::del
-    -   [Event::delTimer](event.deltimer.html) - Псевдонім Event::del
-    -   [Event::free](event.free.html) — Перевести подію в пасивний стан та звільнити всі виділені для неї ресурси
-    -   [Event::getSupportedMethods](event.getsupportedmethods.html) — Отримати масив з іменами методів, які підтримуються в поточній версії Libevent
-    -   [Event::pending](event.pending.html) — Перевірити, що подія перебуває у стані очікування або що вона запланована
-    -   [Event::set](event.set.html) - Переконфігурувати подію
-    -   [Event::setPriority](event.setpriority.html) - Задати пріоритет події
-    -   [Event::setTimer](event.settimer.html) - Переконфігурація події таймера
-    -   [Event::signal](event.signal.html) - Створити об'єкт події сигналу
-    -   [Event::timer](event.timer.html) - Створити об'єкт події таймера
--   [EventBase](class.eventbase.html) - Клас EventBase
-    -   [EventBase::construct](eventbase.construct.html) - Конструктор об'єкта EventBase
-    -   [EventBase::dispatch](eventbase.dispatch.html) — Відправляє події, що очікують.
-    -   [EventBase::exit](eventbase.exit.html) — Припиняє надсилання подій
-    -   [EventBase::free](eventbase.free.html) — Визволяє ресурси, виділені для цієї бази подій
-    -   [EventBase::getFeatures](eventbase.getfeatures.html) — Повертає бітову маску підтримуваних функцій
-    -   [EventBase::getMethod](eventbase.getmethod.html) — Повертає метод події, що використовується.
-    -   [EventBase::getTimeOfDayCached](eventbase.gettimeofdaycached.html) — Повертає поточний час базові події
-    -   [EventBase::gotExit](eventbase.gotexit.html) — Перевіряє, чи було завершено цикл обробки подій.
-    -   [EventBase::gotStop](eventbase.gotstop.html) — Перевіряє, чи було завершено цикл обробки подій.
-    -   [EventBase::loop](eventbase.loop.html) — Надсилання очікуваних подій
-    -   [EventBase::priorityInit](eventbase.priorityinit.html) — Встановлює кількість пріоритетів на основі подій.
-    -   [EventBase::reInit](eventbase.reinit.html) - Повторна ініціалізація бази подій (після розгалуження)
-    -   [EventBase::stop](eventbase.stop.html) — повідомляє eventbase припинити відправку подій
--   [EventBuffer](class.eventbuffer.html) - Клас EventBuffer
-    -   [EventBuffer::add](eventbuffer.add.html) — Додає дані до кінця буфера подій
-    -   [EventBuffer::addBuffer](eventbuffer.addbuffer.html) — Переміщує всі дані з буфера екземпляру EventBuffer
-    -   [EventBuffer::appendFrom](eventbuffer.appendfrom.html) — Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
-    -   [EventBuffer::construct](eventbuffer.construct.html) - Створює об'єкт EventBuffer
-    -   [EventBuffer::copyout](eventbuffer.copyout.html) — Копіює вказану кількість байтів з початку буфера
-    -   [EventBuffer::drain](eventbuffer.drain.html) — Видаляє вказану кількість байтів із початку буфера, нікуди не копіюючи
-    -   [EventBuffer::enableLocking](eventbuffer.enablelocking.html) - Опис
-    -   [EventBuffer::expand](eventbuffer.expand.html) - Резервує простір у буфері
-    -   [EventBuffer::freeze](eventbuffer.freeze.html) — Запобігає викликам, які змінюють буфер подій у разі успішного виконання
-    -   [EventBuffer::lock](eventbuffer.lock.html) — Отримує блокування буфера
-    -   [EventBuffer::prepend](eventbuffer.prepend.html) — Записує дані на початок буфера
-    -   [EventBuffer::prependBuffer](eventbuffer.prependbuffer.html) — Переміщує всі дані з вихідного буфера на початок поточного буфера
-    -   [EventBuffer::pullup](eventbuffer.pullup.html) — Лінеаризує дані у буфері та повертає їх вміст у вигляді рядка
-    -   [EventBuffer::read](eventbuffer.read.html) — Читає дані з evbuffer та виснажує прочитані байти
-    -   [EventBuffer::readFrom](eventbuffer.readfrom.html) - Читає дані з файлу в кінець буфера
-    -   [EventBuffer::readLine](eventbuffer.readline.html) — Витягує рядок із початку буфера
-    -   [EventBuffer::search](eventbuffer.search.html) - Сканує буфер на наявність рядка
-    -   [EventBuffer::searchEol](eventbuffer.searcheol.html) - Сканує буфер на наявність кінця рядка
-    -   [EventBuffer::substr](eventbuffer.substr.html) - Обрізає частину даних буфера
-    -   [EventBuffer::unfreeze](eventbuffer.unfreeze.html) — Повторно включає дзвінки, які змінюють буфер подій
-    -   [EventBuffer::unlock](eventbuffer.unlock.html) — Знімає блокування, встановлене EventBuffer::lock
-    -   [EventBuffer::write](eventbuffer.write.html) — Записує вміст буфера у файл чи сокет
--   [EventBufferEvent](class.eventbufferevent.html) - Клас EventBufferEvent
-    -   [EventBufferEvent::close](eventbufferevent.close.html) — Закриває дескриптор файлу, пов'язаний із поточною подією буфера
-    -   [EventBufferEvent::connect](eventbufferevent.connect.html) — Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
-    -   [EventBufferEvent::connectHost](eventbufferevent.connecthost.html) — Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
-    -   [EventBufferEvent::construct](eventbufferevent.construct.html) — Створює об'єкт EventBufferEvent
-    -   [EventBufferEvent::createPair](eventbufferevent.createpair.html) — Створює дві буферні події, пов'язані одна з одною
-    -   [EventBufferEvent::disable](eventbufferevent.disable.html) — Вимикає читання, запис або те й інше у події буфера
-    -   [EventBufferEvent::enable](eventbufferevent.enable.html) — Включає читання, запис чи те, й інше у події буфера
-    -   [EventBufferEvent::free](eventbufferevent.free.html) - Звільняє подію буфера
-    -   [EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.html) — Повертає рядок, який описує останню невдалу спробу пошуку DNS
-    -   [EventBufferEvent::getEnabled](eventbufferevent.getenabled.html) — Повертає бітову маску подій, які активовані для буферної події.
-    -   [EventBufferEvent::getInput](eventbufferevent.getinput.html) — Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
-    -   [EventBufferEvent::getOutput](eventbufferevent.getoutput.html) — Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
-    -   [EventBufferEvent::read](eventbufferevent.read.html) - Читає дані буфера
-    -   [EventBufferEvent::readBuffer](eventbufferevent.readbuffer.html) — Зливає весь вміст буфера введення та поміщає його у буфер
-    -   [EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.html) — Призначає callback-функції для читання, запису та події (стану)
-    -   [EventBufferEvent::setPriority](eventbufferevent.setpriority.html) - Надає пріоритет bufferevent
-    -   [EventBufferEvent::setTimeouts](eventbufferevent.settimeouts.html) — Встановлює час очікування читання та запису для події буфера
-    -   [EventBufferEvent::setWatermark](eventbufferevent.setwatermark.html) — Регулює водяні знаки читання та/або запису
-    -   [EventBufferEvent::sslError](eventbufferevent.sslerror.html) — Повертає останню помилку OpenSSL, повідомлену буферною подією
-    -   [EventBufferEvent::sslFilter](eventbufferevent.sslfilter.html) — Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
-    -   [EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.html) — Повертає текстовий опис шифру
-    -   [EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.html) — Повертає поточне ім'я шифру з'єднання SSL
-    -   [EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.html) — Повертає версію шифру, який використовується поточним SSL-з'єднанням.
-    -   [EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.html) — Повертає ім'я протоколу, який використовується для поточного з'єднання SSL.
-    -   [EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.html) — Повідомляє буферну подію розпочати перегляд SSL
-    -   [EventBufferEvent::sslSocket](eventbufferevent.sslsocket.html) — Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
-    -   [EventBufferEvent::write](eventbufferevent.write.html) — Додає дані до буфера виводу буферної події
-    -   [EventBufferEvent::writeBuffer](eventbufferevent.writebuffer.html) — Додає вміст буфера в буфер виведення буферної події
--   [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.html)
--   [EventConfig](class.eventconfig.html) - Клас EventConfig
-    -   [EventConfig::avoidMethod](eventconfig.avoidmethod.html) — Попросити libevent не використати певний метод події
-    -   [EventConfig::construct](eventconfig.construct.html) — Створити об'єкт EventConfig
-    -   [EventConfig::requireFeatures](eventconfig.requirefeatures.html) — Ввести необхідні додатки властивості методу події
-    -   [EventConfig::setFlags](eventconfig.setflags.html) — Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
-    -   [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.html) — Запобігти інверсії пріоритетів
--   [EventDnsBase](class.eventdnsbase.html) - Клас EventDnsBase
-    -   [EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.html) — Додає сервер імен до бази DNS
-    -   [EventDnsBase::addSearch](eventdnsbase.addsearch.html) — Додає домен до списку пошукових доменів
-    -   [EventDnsBase::clearSearch](eventdnsbase.clearsearch.html) — Видаляє всі поточні суфікси пошуку
-    -   [EventDnsBase::construct](eventdnsbase.construct.html) - Конструктор об'єкта EventDnsBase
-    -   [EventDnsBase::countNameservers](eventdnsbase.countnameservers.html) — Отримує кількість налаштованих серверів імен
-    -   [EventDnsBase::loadHosts](eventdnsbase.loadhosts.html) — Завантажує файл hosts (у тому ж форматі, що й /etc/hosts) із файлу hosts
-    -   [EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.html) — Сканує файл у форматі resolv.conf
-    -   [EventDnsBase::setOption](eventdnsbase.setoption.html) — Встановлює параметр конфігурації
-    -   [EventDnsBase::setSearchNdots](eventdnsbase.setsearchndots.html) — Встановлює 'ndots' для пошуку
--   [EventHttp](class.eventhttp.html) - Клас EventHttp
-    -   [EventHttp::accept](eventhttp.accept.html) — Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
-    -   [EventHttp::addServerAlias](eventhttp.addserveralias.html) — Додає псевдонім сервера до об'єкта HTTP-сервера
-    -   [EventHttp::bind](eventhttp.bind.html) — Прив'язує HTTP-сервер до вказаної адреси та порту
-    -   [EventHttp::construct](eventhttp.construct.html) — Створює об'єкт EventHttp (сервер HTTP)
-    -   [EventHttp::removeServerAlias](eventhttp.removeserveralias.html) — Видаляє псевдонім сервера
-    -   [EventHttp::setAllowedMethods](eventhttp.setallowedmethods.html) — Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
-    -   [EventHttp::setCallback](eventhttp.setcallback.html) — Встановлює callback-функцію для вказаного URI
-    -   [EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.html) - Встановлює callback-функцію за замовчуванням для обробки запитів, які не перехоплюються конкретними callback-функціями
-    -   [EventHttp::setMaxBodySize](eventhttp.setmaxbodysize.html) - Встановлює максимальний розмір тіла запиту
-    -   [EventHttp::setMaxHeadersSize](eventhttp.setmaxheaderssize.html) — Встановлює максимальний розмір заголовка HTTP
-    -   [EventHttp::setTimeout](eventhttp.settimeout.html) — Встановлює час очікування для запиту HTTP
--   [EventHttpConnection](class.eventhttpconnection.html) - Клас EventHttpConnection
-    -   [EventHttpConnection::construct](eventhttpconnection.construct.html) - Конструктор об'єкта EventHttpConnection
-    -   [EventHttpConnection::getBase](eventhttpconnection.getbase.html) — Повертає базу подій, пов'язану із з'єднанням
-    -   [EventHttpConnection::getPeer](eventhttpconnection.getpeer.html) — Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
-    -   [EventHttpConnection::makeRequest](eventhttpconnection.makerequest.html) — Робить HTTP-запит із зазначеного з'єднання
-    -   [EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.html) - Встановлює callback-функцію при закритті з'єднання
-    -   [EventHttpConnection::setLocalAddress](eventhttpconnection.setlocaladdress.html) — Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання.
-    -   [EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.html) — Встановлює локальний порт, з якого виробляються з'єднання.
-    -   [EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.html) — Встановлює максимальний розмір тіла для підключення
-    -   [EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.html) - Встановлює максимальний розмір заголовка
-    -   [EventHttpConnection::setRetries](eventhttpconnection.setretries.html) — Встановлює максимальну кількість повторів для з'єднання
-    -   [EventHttpConnection::setTimeout](eventhttpconnection.settimeout.html) — Встановлює час очікування на з'єднання
--   [EventHttpRequest](class.eventhttprequest.html) - Клас EventHttpRequest
-    -   [EventHttpRequest::addHeader](eventhttprequest.addheader.html) — Додає заголовок HTTP до заголовків запиту
-    -   [EventHttpRequest::cancel](eventhttprequest.cancel.html) — Скасує очікування HTTP-запиту
-    -   [EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.html) — Видаляє всі вихідні заголовки зі списку заголовків запиту
-    -   [EventHttpRequest::closeConnection](eventhttprequest.closeconnection.html) — Закриває пов'язане з'єднання HTTP
-    -   [EventHttpRequest::construct](eventhttprequest.construct.html) - Конструктор об'єкта EventHttpRequest
-    -   [EventHttpRequest::findHeader](eventhttprequest.findheader.html) — Отримує значення заголовка
-    -   [EventHttpRequest::free](eventhttprequest.free.html) — Звільняє об'єкт та видаляє пов'язані події
-    -   [EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.html) — Повертає об'єкт EventBufferEvent
-    -   [EventHttpRequest::getCommand](eventhttprequest.getcommand.html) - Повертає команду запиту (метод)
-    -   [EventHttpRequest::getConnection](eventhttprequest.getconnection.html) — Повертає об'єкт EventHttpConnection
-    -   [EventHttpRequest::getHost](eventhttprequest.gethost.html) - Повертає хост запиту
-    -   [EventHttpRequest::getInputBuffer](eventhttprequest.getinputbuffer.html) - Повертає вхідний буфер
-    -   [EventHttpRequest::getInputHeaders](eventhttprequest.getinputheaders.html) - Повертає асоціативний масив вхідних заголовків
-    -   [EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.html) — Повертає вихідний буфер запиту
-    -   [EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.html) — Повертає асоціативний масив вихідних заголовків
-    -   [EventHttpRequest::getResponseCode](eventhttprequest.getresponsecode.html) - Повертає код відповіді
-    -   [EventHttpRequest::getUri](eventhttprequest.geturi.html) — Повертає запит URI
-    -   [EventHttpRequest::removeHeader](eventhttprequest.removeheader.html) — Видаляє заголовок HTTP із заголовків запиту
-    -   [EventHttpRequest::sendError](eventhttprequest.senderror.html) — Надсилає HTML-повідомлення про помилку клієнту
-    -   [EventHttpRequest::sendReply](eventhttprequest.sendreply.html) — Відправляє HTML-відповідь клієнту
-    -   [EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.html) — Відправляє блок даних як частину поточної фрагментованої відповіді
-    -   [EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.html) — Заповнює фрагментарну відповідь, звільняючи запит належним чином
-    -   [EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.html) — Ініціює фрагментарну відповідь
--   [EventListener](class.eventlistener.html) - Клас EventListener
-    -   [EventListener::construct](eventlistener.construct.html) — Створити новий слухач з'єднання, пов'язаний із базою подій
-    -   [EventListener::disable](eventlistener.disable.html) — Вимикає подію підключення до об'єкта слухача
-    -   [EventListener::enable](eventlistener.enable.html) — Включає подію підключення до об'єкта слухача
-    -   [EventListener::getBase](eventlistener.getbase.html) — Повертає базу подій, пов'язану із слухачем подій
-    -   [EventListener::getSocketName](eventlistener.getsocketname.html) — Отримує поточну адресу, до якої прив'язаний сокет слухача
-    -   [EventListener::setCallback](eventlistener.setcallback.html) - Мета setCallback
-    -   [EventListener::setErrorCallback](eventlistener.seterrorcallback.html) - Встановлює callback-функцію помилки слухача подій
--   [EventSslContext](class.eventsslcontext.html) - Клас EventSslContext
-    -   [EventSslContext::construct](eventsslcontext.construct.html) — Конструктор контексту OpenSSL для використання у класах Event
--   [EventUtil](class.eventutil.html) - Клас EventUtil
-    -   [EventUtil::construct](eventutil.construct.html) - Абстрактний конструктор
-    -   [EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.html) — Отримати номер останньої помилки сокету, що виникла.
-    -   [EventUtil::getLastSocketError](eventutil.getlastsocketerror.html) — Отримати останню помилку сокету, що виникла.
-    -   [EventUtil::getSocketFd](eventutil.getsocketfd.html) — Отримати числовий файловий дескриптор сокету чи потоку
-    -   [EventUtil::getSocketName](eventutil.getsocketname.html) — Отримати поточну адресу, до якої прив'язаний сокет
-    -   [EventUtil::setSocketOption](eventutil.setsocketoption.html) - Встановити опції сокету
-    -   [EventUtil::sslRandPoll](eventutil.sslrandpoll.html) - Згенерувати ентропію за допомогою RANDpoll() із OpenSSL
+-   [Введение](intro.event.md)
+-   [Встановлення та налаштування](event.setup.md)
+    -   [Вимоги](event.requirements.md)
+    -   [Установка](event.installation.md)
+    -   [Налаштування під час виконання](event.configuration.md)
+    -   [Типи ресурсів](event.resources.md)
+-   [Приклади](event.examples.md)
+-   [Прапори подій](event.flags.md)
+-   [Про постійні (persistent) події](event.persistence.md)
+-   [Callback-функции](event.callbacks.md)
+-   [Створення подій для сигналів](event.constructing.signal.events.md)
+-   [Event](class.event.md) - Клас Event
+    -   [Event::add](event.add.md) — Перевести подію у стан очікування
+    -   [Event::addSignal](event.addsignal.md) - Псевдонім Event:: add
+    -   [Event::addTimer](event.addtimer.md) - Псевдонім Event:: add
+    -   [Event::construct](event.construct.md) - Конструктор об'єкта Event
+    -   [Event::del](event.del.md) - Перевести подію в пасивний стан
+    -   [Event::delSignal](event.delsignal.md) - Псевдонім Event::del
+    -   [Event::delTimer](event.deltimer.md) - Псевдонім Event::del
+    -   [Event::free](event.free.md) — Перевести подію в пасивний стан та звільнити всі виділені для неї ресурси
+    -   [Event::getSupportedMethods](event.getsupportedmethods.md) — Отримати масив з іменами методів, які підтримуються в поточній версії Libevent
+    -   [Event::pending](event.pending.md) — Перевірити, що подія перебуває у стані очікування або що вона запланована
+    -   [Event::set](event.set.md) - Переконфігурувати подію
+    -   [Event::setPriority](event.setpriority.md) - Задати пріоритет події
+    -   [Event::setTimer](event.settimer.md) - Переконфігурація події таймера
+    -   [Event::signal](event.signal.md) - Створити об'єкт події сигналу
+    -   [Event::timer](event.timer.md) - Створити об'єкт події таймера
+-   [EventBase](class.eventbase.md) - Клас EventBase
+    -   [EventBase::construct](eventbase.construct.md) - Конструктор об'єкта EventBase
+    -   [EventBase::dispatch](eventbase.dispatch.md) — Відправляє події, що очікують.
+    -   [EventBase::exit](eventbase.exit.md) — Припиняє надсилання подій
+    -   [EventBase::free](eventbase.free.md) — Визволяє ресурси, виділені для цієї бази подій
+    -   [EventBase::getFeatures](eventbase.getfeatures.md) — Повертає бітову маску підтримуваних функцій
+    -   [EventBase::getMethod](eventbase.getmethod.md) — Повертає метод події, що використовується.
+    -   [EventBase::getTimeOfDayCached](eventbase.gettimeofdaycached.md) — Повертає поточний час базові події
+    -   [EventBase::gotExit](eventbase.gotexit.md) — Перевіряє, чи було завершено цикл обробки подій.
+    -   [EventBase::gotStop](eventbase.gotstop.md) — Перевіряє, чи було завершено цикл обробки подій.
+    -   [EventBase::loop](eventbase.loop.md) — Надсилання очікуваних подій
+    -   [EventBase::priorityInit](eventbase.priorityinit.md) — Встановлює кількість пріоритетів на основі подій.
+    -   [EventBase::reInit](eventbase.reinit.md) - Повторна ініціалізація бази подій (після розгалуження)
+    -   [EventBase::stop](eventbase.stop.md) — повідомляє eventbase припинити відправку подій
+-   [EventBuffer](class.eventbuffer.md) - Клас EventBuffer
+    -   [EventBuffer::add](eventbuffer.add.md) — Додає дані до кінця буфера подій
+    -   [EventBuffer::addBuffer](eventbuffer.addbuffer.md) — Переміщує всі дані з буфера екземпляру EventBuffer
+    -   [EventBuffer::appendFrom](eventbuffer.appendfrom.md) — Переміщує вказану кількість байтів з вихідного буфера до кінця поточного буфера
+    -   [EventBuffer::construct](eventbuffer.construct.md) - Створює об'єкт EventBuffer
+    -   [EventBuffer::copyout](eventbuffer.copyout.md) — Копіює вказану кількість байтів з початку буфера
+    -   [EventBuffer::drain](eventbuffer.drain.md) — Видаляє вказану кількість байтів із початку буфера, нікуди не копіюючи
+    -   [EventBuffer::enableLocking](eventbuffer.enablelocking.md) - Опис
+    -   [EventBuffer::expand](eventbuffer.expand.md) - Резервує простір у буфері
+    -   [EventBuffer::freeze](eventbuffer.freeze.md) — Запобігає викликам, які змінюють буфер подій у разі успішного виконання
+    -   [EventBuffer::lock](eventbuffer.lock.md) — Отримує блокування буфера
+    -   [EventBuffer::prepend](eventbuffer.prepend.md) — Записує дані на початок буфера
+    -   [EventBuffer::prependBuffer](eventbuffer.prependbuffer.md) — Переміщує всі дані з вихідного буфера на початок поточного буфера
+    -   [EventBuffer::pullup](eventbuffer.pullup.md) — Лінеаризує дані у буфері та повертає їх вміст у вигляді рядка
+    -   [EventBuffer::read](eventbuffer.read.md) — Читає дані з evbuffer та виснажує прочитані байти
+    -   [EventBuffer::readFrom](eventbuffer.readfrom.md) - Читає дані з файлу в кінець буфера
+    -   [EventBuffer::readLine](eventbuffer.readline.md) — Витягує рядок із початку буфера
+    -   [EventBuffer::search](eventbuffer.search.md) - Сканує буфер на наявність рядка
+    -   [EventBuffer::searchEol](eventbuffer.searcheol.md) - Сканує буфер на наявність кінця рядка
+    -   [EventBuffer::substr](eventbuffer.substr.md) - Обрізає частину даних буфера
+    -   [EventBuffer::unfreeze](eventbuffer.unfreeze.md) — Повторно включає дзвінки, які змінюють буфер подій
+    -   [EventBuffer::unlock](eventbuffer.unlock.md) — Знімає блокування, встановлене EventBuffer::lock
+    -   [EventBuffer::write](eventbuffer.write.md) — Записує вміст буфера у файл чи сокет
+-   [EventBufferEvent](class.eventbufferevent.md) - Клас EventBufferEvent
+    -   [EventBufferEvent::close](eventbufferevent.close.md) — Закриває дескриптор файлу, пов'язаний із поточною подією буфера
+    -   [EventBufferEvent::connect](eventbufferevent.connect.md) — Підключає файловий дескриптор події буфера до вказаної адреси або сокету UNIX
+    -   [EventBufferEvent::connectHost](eventbufferevent.connecthost.md) — Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
+    -   [EventBufferEvent::construct](eventbufferevent.construct.md) — Створює об'єкт EventBufferEvent
+    -   [EventBufferEvent::createPair](eventbufferevent.createpair.md) — Створює дві буферні події, пов'язані одна з одною
+    -   [EventBufferEvent::disable](eventbufferevent.disable.md) — Вимикає читання, запис або те й інше у події буфера
+    -   [EventBufferEvent::enable](eventbufferevent.enable.md) — Включає читання, запис чи те, й інше у події буфера
+    -   [EventBufferEvent::free](eventbufferevent.free.md) - Звільняє подію буфера
+    -   [EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.md) — Повертає рядок, який описує останню невдалу спробу пошуку DNS
+    -   [EventBufferEvent::getEnabled](eventbufferevent.getenabled.md) — Повертає бітову маску подій, які активовані для буферної події.
+    -   [EventBufferEvent::getInput](eventbufferevent.getinput.md) — Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією
+    -   [EventBufferEvent::getOutput](eventbufferevent.getoutput.md) — Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією
+    -   [EventBufferEvent::read](eventbufferevent.read.md) - Читає дані буфера
+    -   [EventBufferEvent::readBuffer](eventbufferevent.readbuffer.md) — Зливає весь вміст буфера введення та поміщає його у буфер
+    -   [EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.md) — Призначає callback-функції для читання, запису та події (стану)
+    -   [EventBufferEvent::setPriority](eventbufferevent.setpriority.md) - Надає пріоритет bufferevent
+    -   [EventBufferEvent::setTimeouts](eventbufferevent.settimeouts.md) — Встановлює час очікування читання та запису для події буфера
+    -   [EventBufferEvent::setWatermark](eventbufferevent.setwatermark.md) — Регулює водяні знаки читання та/або запису
+    -   [EventBufferEvent::sslError](eventbufferevent.sslerror.md) — Повертає останню помилку OpenSSL, повідомлену буферною подією
+    -   [EventBufferEvent::sslFilter](eventbufferevent.sslfilter.md) — Створює нову подію буфера SSL для надсилання своїх даних через іншу подію буфера
+    -   [EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.md) — Повертає текстовий опис шифру
+    -   [EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.md) — Повертає поточне ім'я шифру з'єднання SSL
+    -   [EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.md) — Повертає версію шифру, який використовується поточним SSL-з'єднанням.
+    -   [EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.md) — Повертає ім'я протоколу, який використовується для поточного з'єднання SSL.
+    -   [EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.md) — Повідомляє буферну подію розпочати перегляд SSL
+    -   [EventBufferEvent::sslSocket](eventbufferevent.sslsocket.md) — Створює нову буферну подію SSL для надсилання своїх даних через SSL у сокет
+    -   [EventBufferEvent::write](eventbufferevent.write.md) — Додає дані до буфера виводу буферної події
+    -   [EventBufferEvent::writeBuffer](eventbufferevent.writebuffer.md) — Додає вміст буфера в буфер виведення буферної події
+-   [Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
+-   [EventConfig](class.eventconfig.md) - Клас EventConfig
+    -   [EventConfig::avoidMethod](eventconfig.avoidmethod.md) — Попросити libevent не використати певний метод події
+    -   [EventConfig::construct](eventconfig.construct.md) — Створити об'єкт EventConfig
+    -   [EventConfig::requireFeatures](eventconfig.requirefeatures.md) — Ввести необхідні додатки властивості методу події
+    -   [EventConfig::setFlags](eventconfig.setflags.md) — Встановлює один або кілька прапорів для налаштування можливої ​​ініціалізації EventBase
+    -   [EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md) — Запобігти інверсії пріоритетів
+-   [EventDnsBase](class.eventdnsbase.md) - Клас EventDnsBase
+    -   [EventDnsBase::addNameserverIp](eventdnsbase.addnameserverip.md) — Додає сервер імен до бази DNS
+    -   [EventDnsBase::addSearch](eventdnsbase.addsearch.md) — Додає домен до списку пошукових доменів
+    -   [EventDnsBase::clearSearch](eventdnsbase.clearsearch.md) — Видаляє всі поточні суфікси пошуку
+    -   [EventDnsBase::construct](eventdnsbase.construct.md) - Конструктор об'єкта EventDnsBase
+    -   [EventDnsBase::countNameservers](eventdnsbase.countnameservers.md) — Отримує кількість налаштованих серверів імен
+    -   [EventDnsBase::loadHosts](eventdnsbase.loadhosts.md) — Завантажує файл hosts (у тому ж форматі, що й /etc/hosts) із файлу hosts
+    -   [EventDnsBase::parseResolvConf](eventdnsbase.parseresolvconf.md) — Сканує файл у форматі resolv.conf
+    -   [EventDnsBase::setOption](eventdnsbase.setoption.md) — Встановлює параметр конфігурації
+    -   [EventDnsBase::setSearchNdots](eventdnsbase.setsearchndots.md) — Встановлює 'ndots' для пошуку
+-   [EventHttp](class.eventhttp.md) - Клас EventHttp
+    -   [EventHttp::accept](eventhttp.accept.md) — Примушує HTTP-сервер приймати з'єднання із зазначеним потоком сокету чи ресурсом
+    -   [EventHttp::addServerAlias](eventhttp.addserveralias.md) — Додає псевдонім сервера до об'єкта HTTP-сервера
+    -   [EventHttp::bind](eventhttp.bind.md) — Прив'язує HTTP-сервер до вказаної адреси та порту
+    -   [EventHttp::construct](eventhttp.construct.md) — Створює об'єкт EventHttp (сервер HTTP)
+    -   [EventHttp::removeServerAlias](eventhttp.removeserveralias.md) — Видаляє псевдонім сервера
+    -   [EventHttp::setAllowedMethods](eventhttp.setallowedmethods.md) — Встановлює, які методи HTTP підтримуються у запитах, прийнятих цим сервером та переданих callback-функції користувача
+    -   [EventHttp::setCallback](eventhttp.setcallback.md) — Встановлює callback-функцію для вказаного URI
+    -   [EventHttp::setDefaultCallback](eventhttp.setdefaultcallback.md) - Встановлює callback-функцію за замовчуванням для обробки запитів, які не перехоплюються конкретними callback-функціями
+    -   [EventHttp::setMaxBodySize](eventhttp.setmaxbodysize.md) - Встановлює максимальний розмір тіла запиту
+    -   [EventHttp::setMaxHeadersSize](eventhttp.setmaxheaderssize.md) — Встановлює максимальний розмір заголовка HTTP
+    -   [EventHttp::setTimeout](eventhttp.settimeout.md) — Встановлює час очікування для запиту HTTP
+-   [EventHttpConnection](class.eventhttpconnection.md) - Клас EventHttpConnection
+    -   [EventHttpConnection::construct](eventhttpconnection.construct.md) - Конструктор об'єкта EventHttpConnection
+    -   [EventHttpConnection::getBase](eventhttpconnection.getbase.md) — Повертає базу подій, пов'язану із з'єднанням
+    -   [EventHttpConnection::getPeer](eventhttpconnection.getpeer.md) — Отримує віддалену адресу та порт, пов'язаний зі з'єднанням
+    -   [EventHttpConnection::makeRequest](eventhttpconnection.makerequest.md) — Робить HTTP-запит із зазначеного з'єднання
+    -   [EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.md) - Встановлює callback-функцію при закритті з'єднання
+    -   [EventHttpConnection::setLocalAddress](eventhttpconnection.setlocaladdress.md) — Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання.
+    -   [EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.md) — Встановлює локальний порт, з якого виробляються з'єднання.
+    -   [EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.md) — Встановлює максимальний розмір тіла для підключення
+    -   [EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.md) - Встановлює максимальний розмір заголовка
+    -   [EventHttpConnection::setRetries](eventhttpconnection.setretries.md) — Встановлює максимальну кількість повторів для з'єднання
+    -   [EventHttpConnection::setTimeout](eventhttpconnection.settimeout.md) — Встановлює час очікування на з'єднання
+-   [EventHttpRequest](class.eventhttprequest.md) - Клас EventHttpRequest
+    -   [EventHttpRequest::addHeader](eventhttprequest.addheader.md) — Додає заголовок HTTP до заголовків запиту
+    -   [EventHttpRequest::cancel](eventhttprequest.cancel.md) — Скасує очікування HTTP-запиту
+    -   [EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.md) — Видаляє всі вихідні заголовки зі списку заголовків запиту
+    -   [EventHttpRequest::closeConnection](eventhttprequest.closeconnection.md) — Закриває пов'язане з'єднання HTTP
+    -   [EventHttpRequest::construct](eventhttprequest.construct.md) - Конструктор об'єкта EventHttpRequest
+    -   [EventHttpRequest::findHeader](eventhttprequest.findheader.md) — Отримує значення заголовка
+    -   [EventHttpRequest::free](eventhttprequest.free.md) — Звільняє об'єкт та видаляє пов'язані події
+    -   [EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.md) — Повертає об'єкт EventBufferEvent
+    -   [EventHttpRequest::getCommand](eventhttprequest.getcommand.md) - Повертає команду запиту (метод)
+    -   [EventHttpRequest::getConnection](eventhttprequest.getconnection.md) — Повертає об'єкт EventHttpConnection
+    -   [EventHttpRequest::getHost](eventhttprequest.gethost.md) - Повертає хост запиту
+    -   [EventHttpRequest::getInputBuffer](eventhttprequest.getinputbuffer.md) - Повертає вхідний буфер
+    -   [EventHttpRequest::getInputHeaders](eventhttprequest.getinputheaders.md) - Повертає асоціативний масив вхідних заголовків
+    -   [EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.md) — Повертає вихідний буфер запиту
+    -   [EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.md) — Повертає асоціативний масив вихідних заголовків
+    -   [EventHttpRequest::getResponseCode](eventhttprequest.getresponsecode.md) - Повертає код відповіді
+    -   [EventHttpRequest::getUri](eventhttprequest.geturi.md) — Повертає запит URI
+    -   [EventHttpRequest::removeHeader](eventhttprequest.removeheader.md) — Видаляє заголовок HTTP із заголовків запиту
+    -   [EventHttpRequest::sendError](eventhttprequest.senderror.md) — Надсилає HTML-повідомлення про помилку клієнту
+    -   [EventHttpRequest::sendReply](eventhttprequest.sendreply.md) — Відправляє HTML-відповідь клієнту
+    -   [EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.md) — Відправляє блок даних як частину поточної фрагментованої відповіді
+    -   [EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.md) — Заповнює фрагментарну відповідь, звільняючи запит належним чином
+    -   [EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.md) — Ініціює фрагментарну відповідь
+-   [EventListener](class.eventlistener.md) - Клас EventListener
+    -   [EventListener::construct](eventlistener.construct.md) — Створити новий слухач з'єднання, пов'язаний із базою подій
+    -   [EventListener::disable](eventlistener.disable.md) — Вимикає подію підключення до об'єкта слухача
+    -   [EventListener::enable](eventlistener.enable.md) — Включає подію підключення до об'єкта слухача
+    -   [EventListener::getBase](eventlistener.getbase.md) — Повертає базу подій, пов'язану із слухачем подій
+    -   [EventListener::getSocketName](eventlistener.getsocketname.md) — Отримує поточну адресу, до якої прив'язаний сокет слухача
+    -   [EventListener::setCallback](eventlistener.setcallback.md) - Мета setCallback
+    -   [EventListener::setErrorCallback](eventlistener.seterrorcallback.md) - Встановлює callback-функцію помилки слухача подій
+-   [EventSslContext](class.eventsslcontext.md) - Клас EventSslContext
+    -   [EventSslContext::construct](eventsslcontext.construct.md) — Конструктор контексту OpenSSL для використання у класах Event
+-   [EventUtil](class.eventutil.md) - Клас EventUtil
+    -   [EventUtil::construct](eventutil.construct.md) - Абстрактний конструктор
+    -   [EventUtil::getLastSocketErrno](eventutil.getlastsocketerrno.md) — Отримати номер останньої помилки сокету, що виникла.
+    -   [EventUtil::getLastSocketError](eventutil.getlastsocketerror.md) — Отримати останню помилку сокету, що виникла.
+    -   [EventUtil::getSocketFd](eventutil.getsocketfd.md) — Отримати числовий файловий дескриптор сокету чи потоку
+    -   [EventUtil::getSocketName](eventutil.getsocketname.md) — Отримати поточну адресу, до якої прив'язаний сокет
+    -   [EventUtil::setSocketOption](eventutil.setsocketoption.md) - Встановити опції сокету
+    -   [EventUtil::sslRandPoll](eventutil.sslrandpoll.md) - Згенерувати ентропію за допомогою RANDpoll() із OpenSSL

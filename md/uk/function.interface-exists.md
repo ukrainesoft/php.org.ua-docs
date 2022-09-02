@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-parent-class.html: « getparentclass
-  - function.is-a.html: ісa »
-  - index.html: PHP Manual
-  - ref.classobj.html: Функції роботи з класами та об'єктами
+  - function.get-parent-class.md: « getparentclass
+  - function.is-a.md: ісa »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
 title: interfaceexists
 ---
 # interfaceexists
@@ -28,7 +28,7 @@ interface_exists(string $interface, bool $autoload = true): bool
 
 `autoload`
 
-Визначає, чи використовувати за промовчанням [autoload](language.oop5.autoload.html) чи ні
+Визначає, чи використовувати за промовчанням [autoload](language.oop5.autoload.md) чи ні
 
 ### Значення, що повертаються
 
@@ -53,7 +53,7 @@ if (interface_exists('MyInterface')) {
 
 ### Дивіться також
 
--   [getdeclaredinterfaces()](function.get-declared-interfaces.html) - Повертає масив усіх оголошених інтерфейсів
--   [classimplements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
--   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
--   [enumexists()](function.enum-exists.html) - Перевіряє, чи визначено перерахування
+-   [getdeclaredinterfaces()](function.get-declared-interfaces.md) - Повертає масив усіх оголошених інтерфейсів
+-   [classimplements()](function.class-implements.md) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас
+-   [enumexists()](function.enum-exists.md) - Перевіряє, чи визначено перерахування

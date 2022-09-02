@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-config-personal.html: « pspellconfigpersonal
-  - function.pspell-config-runtogether.html: pspellconfigruntogether »
+  - function.pspell-config-personal.md: « pspellconfigpersonal
+  - function.pspell-config-runtogether.md: pspellconfigruntogether »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspellconfigrepl
@@ -20,7 +20,7 @@ pspell_config_repl(PSpell\Config $config, string $filename): bool
 
 Встановлює файл, що містить пари, що заміщають.
 
-Заміщаючі пари підвищують якість перевірки орфографії. Коли слово написано з помилками, а правильний варіант не знайдено у списку, [pspellstorereplacement()](function.pspell-store-replacement.html) може бути використана для того, щоб зберегти заміщувальну пару, а [pspellsavewordlist()](function.pspell-save-wordlist.md) - щоб зберегти список слів разом із заміщувальною парою.
+Заміщаючі пари підвищують якість перевірки орфографії. Коли слово написано з помилками, а правильний варіант не знайдено у списку, [pspellstorereplacement()](function.pspell-store-replacement.md) може бути використана для того, щоб зберегти заміщувальну пару, а [pspellsavewordlist()](function.pspell-save-wordlist.md) - щоб зберегти список слів разом із заміщувальною парою.
 
 **pspellconfigrepl()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md)
 

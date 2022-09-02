@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqli.kill.md: '« mysqli::kill'
-  - mysqli.multi-query.html: 'mysqli::multiquery »'
+  - mysqli.multi-query.md: 'mysqli::multiquery »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::moreresults'

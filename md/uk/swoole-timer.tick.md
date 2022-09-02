@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-timer.exists.html: '« SwooleTimer::exists'
-  - class.swoole-websocket-frame.html: SwooleWebSocketFrame »
+  - swoole-timer.exists.md: '« SwooleTimer::exists'
+  - class.swoole-websocket-frame.md: SwooleWebSocketFrame »
   - index.md: PHP Manual
-  - class.swoole-timer.html: SwooleTimer
+  - class.swoole-timer.md: SwooleTimer
 title: 'SwooleTimer::tick'
 ---
 # SwooleTimer::tick

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rewinddir.html: « rewinddir
-  - book.fileinfo.html: FileInfo »
-  - index.html: PHP Manual
-  - ref.dir.html: Функції для роботи з каталогами
+  - function.rewinddir.md: « rewinddir
+  - book.fileinfo.md: FileInfo »
+  - index.md: PHP Manual
+  - ref.dir.md: Функції для роботи з каталогами
 title: scandir
 ---
 # scandir
@@ -84,7 +84,7 @@ Array
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 

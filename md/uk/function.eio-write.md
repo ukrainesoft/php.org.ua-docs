@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.eio-utime.html: « eioutime
+  - function.eio-utime.md: « eioutime
   - book.ev.md: Ev »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции

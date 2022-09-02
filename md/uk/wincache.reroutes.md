@@ -1,14 +1,14 @@
 ---
 navigation:
-  - wincache.sessionhandler.html: « Обработчик сессий WinCache
-  - wincache.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - wincache.setup.html: Встановлення та налаштування
+  - wincache.sessionhandler.md: « Обработчик сессий WinCache
+  - wincache.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - wincache.setup.md: Встановлення та налаштування
 title: Перенаправлення функцій WinCache
 ---
 ## Перенаправлення функцій WinCache
 
-*ЗВЕРНІТЬ УВАГУ:* [wincache.rerouteini](wincache.configuration.html#ini.wincache.rerouteini) видалено у WinCache 1.3.7.0. Вона була замінена автоматичним перенаправленням. Дивіться [wincache.rerouteenabled](wincache.configuration.html#ini.wincache.reroute_enabled)
+*ЗВЕРНІТЬ УВАГУ:* [wincache.rerouteini](wincache.configuration.md#ini.wincache.rerouteini) видалено у WinCache 1.3.7.0. Вона була замінена автоматичним перенаправленням. Дивіться [wincache.rerouteenabled](wincache.configuration.md#ini.wincache.reroute_enabled)
 
 Перенаправлення функцій WinCache (доступно з WinCache 1.2.0, видалено з WinCache 1.3.7.0) може використовуватися для заміни вбудованих функцій їх еквівалентами, оптимізованими для роботи з файловим кешем. Модуль WinCache включає оптимізовані під Windows реалізації функцій роботи з файлами, що може підвищити продуктивність PHP-програм у випадках роботи з файлами та мережевими папками. Оптимізовані версії представлені для таких функцій:
 
@@ -27,7 +27,7 @@ title: Перенаправлення функцій WinCache
 
 wincache.rerouteini = C:PHPreroute.ini
 
-> **Зауваження**: Якщо перенаправлення функцій увімкнено, рекомендується збільшити розмір файлового кеша WinCache. Його розмір налаштовується у директиві [wincache.fcachesize](wincache.configuration.html#ini.wincache.fcachesize)
+> **Зауваження**: Якщо перенаправлення функцій увімкнено, рекомендується збільшити розмір файлового кеша WinCache. Його розмір налаштовується у директиві [wincache.fcachesize](wincache.configuration.md#ini.wincache.fcachesize)
 
 Файл reroute.ini містить опис прив'язок вбудованих функцій PHP до еквівалентів модуля WinCache. Кожен рядок файлу визначає прив'язку з використанням наступного синтаксису:
 

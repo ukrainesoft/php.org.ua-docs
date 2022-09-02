@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-show2.html: «psshow2
-  - function.ps-string-geometry.html: псstringgeometry »
+  - function.ps-show2.md: «psshow2
+  - function.ps-string-geometry.md: псstringgeometry »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псshow
@@ -18,9 +18,9 @@ title: псshow
 ps_show(resource $psdoc, string $text): bool
 ```
 
-Виводить текст у поточній позиції. Положення тексту можна встановити, erfpfd координати X та Y у значеннях `textx` і `texty` за допомогою функції [псsetvalue()](function.ps-set-value.html). Функція видасть помилку, якщо шрифт не було встановлено раніше за допомогою [псsetfont()](function.ps-setfont.md)
+Виводить текст у поточній позиції. Положення тексту можна встановити, erfpfd координати X та Y у значеннях `textx` і `texty` за допомогою функції [псsetvalue()](function.ps-set-value.md). Функція видасть помилку, якщо шрифт не було встановлено раніше за допомогою [псsetfont()](function.ps-setfont.md)
 
-Функція **псshow()** оцінює наступні параметри та значення, встановлені [псsetparameter()](function.ps-set-parameter.html) і [псsetvalue()](function.ps-set-value.md)
+Функція **псshow()** оцінює наступні параметри та значення, встановлені [псsetparameter()](function.ps-set-parameter.md) і [псsetvalue()](function.ps-set-value.md)
 
 charspacing (значення)
 

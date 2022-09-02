@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.join.html: « join
-  - function.levenshtein.html: levenshtein »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.join.md: « join
+  - function.levenshtein.md: levenshtein »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: lcfirst
 ---
 # lcfirst
@@ -49,7 +49,7 @@ $bar = lcfirst(strtoupper($bar)); // hELLO WORLD!
 
 ### Дивіться також
 
--   [ucfirst()](function.ucfirst.html) - Перетворює перший символ рядка у верхній регістр
--   [strtolower()](function.strtolower.html) - Перетворює рядок на нижній регістр
--   [strtoupper()](function.strtoupper.html) - Перетворює рядок у верхній регістр
--   [ucwords()](function.ucwords.html) - Перетворює на верхній регістр перший символ кожного слова в рядку
+-   [ucfirst()](function.ucfirst.md) - Перетворює перший символ рядка у верхній регістр
+-   [strtolower()](function.strtolower.md) - Перетворює рядок на нижній регістр
+-   [strtoupper()](function.strtoupper.md) - Перетворює рядок у верхній регістр
+-   [ucwords()](function.ucwords.md) - Перетворює на верхній регістр перший символ кожного слова в рядку

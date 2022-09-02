@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-exception.html: « mysqlxdevapiException
-  - mysql-xdevapi-executable.execute.html: 'Executable::execute »'
+  - class.mysql-xdevapi-exception.md: « mysqlxdevapiException
+  - mysql-xdevapi-executable.execute.md: 'Executable::execute »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Інтерфейс Executable
 ---
 # Інтерфейс Executable

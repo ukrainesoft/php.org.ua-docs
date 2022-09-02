@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrinputdocument.addchilddocuments.html: '« SolrInputDocument::addChildDocuments'
-  - solrinputdocument.clear.html: 'SolrInputDocument::clear »'
-  - index.html: PHP Manual
-  - class.solrinputdocument.html: SolrInputDocument
+  - solrinputdocument.addchilddocuments.md: '« SolrInputDocument::addChildDocuments'
+  - solrinputdocument.clear.md: 'SolrInputDocument::clear »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::addField'
 ---
 # SolrInputDocument::addField

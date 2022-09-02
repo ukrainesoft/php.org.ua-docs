@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-font-descriptor.getstretch.html: '« UIDrawTextFontDescriptor::getStretch'
+  - ui-draw-text-font-descriptor.getstretch.md: '« UIDrawTextFontDescriptor::getStretch'
   - ref.ui.md: Функции UI »
   - index.md: PHP Manual
-  - class.ui-draw-text-font-descriptor.html: ОЙDrawTextFontDescriptor
+  - class.ui-draw-text-font-descriptor.md: ОЙDrawTextFontDescriptor
 title: 'ОЙDrawTextFontDescriptor::getWeight'
 ---
 # ОЙDrawTextFontDescriptor::getWeight

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-recvmsg.html: « socketrecvmsg
-  - function.socket-send.html: socketsend »
+  - function.socket-recvmsg.md: « socketrecvmsg
+  - function.socket-send.md: socketsend »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketselect

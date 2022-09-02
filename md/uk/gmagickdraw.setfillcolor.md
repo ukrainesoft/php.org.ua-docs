@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.scale.html: '« GmagickDraw::scale'
-  - gmagickdraw.setfillopacity.html: 'GmagickDraw::setfillopacity »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.scale.md: '« GmagickDraw::scale'
+  - gmagickdraw.setfillopacity.md: 'GmagickDraw::setfillopacity »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::setfillcolor'
 ---
 # GmagickDraw::setfillcolor
@@ -24,8 +24,8 @@ public GmagickDraw::setfillcolor(mixed $color): GmagickDraw
 
 `color`
 
-[GmagickPixel](class.gmagickpixel.html) або рядок (string), що вказує колір, що використовується для заливання.
+[GmagickPixel](class.gmagickpixel.md) або рядок (string), що вказує колір, що використовується для заливання.
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.html) у разі успішного виконання.
+Об'єкт [GmagickDraw](class.gmagickdraw.md) у разі успішного виконання.

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.dojobhandle.html: '« GearmanClient::doJobHandle'
-  - gearmanclient.dolowbackground.html: 'GearmanClient::doLowBackground »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.dojobhandle.md: '« GearmanClient::doJobHandle'
+  - gearmanclient.dolowbackground.md: 'GearmanClient::doLowBackground »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::doLow'
 ---
 # GearmanClient::doLow
@@ -18,7 +18,7 @@ GearmanClient::doLow - Запускає на виконання завдання
 public GearmanClient::doLow(string $function_name, string $workload, string $unique = ?): string
 ```
 
-Запускає виконання завдання з низьким пріоритетом і повертає рядок, що містить результат. Функція залежить від [GearmanClient](class.gearmanclient.html) і [GearmanWorker](class.gearmanworker.md)оскільки необхідно забезпечити єдиний формат результату. Високопріоритетні завдання мають перевагу над звичайними та низькопріоритетними завданнями у черзі завдань. Завдання нормального та високого пріоритету мають перевагу над низькопріоритетними завданнями у черзі завдань.
+Запускає виконання завдання з низьким пріоритетом і повертає рядок, що містить результат. Функція залежить від [GearmanClient](class.gearmanclient.md) і [GearmanWorker](class.gearmanworker.md)оскільки необхідно забезпечити єдиний формат результату. Високопріоритетні завдання мають перевагу над звичайними та низькопріоритетними завданнями у черзі завдань. Завдання нормального та високого пріоритету мають перевагу над низькопріоритетними завданнями у черзі завдань.
 
 ### Список параметрів
 

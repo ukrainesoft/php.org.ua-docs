@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-arc.html: «psarc
-  - function.ps-begin-page.html: псbeginpage »
+  - function.ps-arc.md: «psarc
+  - function.ps-begin-page.md: псbeginpage »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псarcn

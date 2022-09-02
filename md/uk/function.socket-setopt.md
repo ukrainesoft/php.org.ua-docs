@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-set-option.html: « socketsetoption
-  - function.socket-shutdown.html: socketshutdown »
+  - function.socket-set-option.md: « socketsetoption
+  - function.socket-shutdown.md: socketshutdown »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketsetopt

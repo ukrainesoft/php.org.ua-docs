@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-filter-prepend.html: « streamfilterprepend
-  - function.stream-filter-remove.html: streamfilterremove »
+  - function.stream-filter-prepend.md: « streamfilterprepend
+  - function.stream-filter-remove.md: streamfilterremove »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamfilterregister
@@ -28,7 +28,7 @@ stream_filter_register(string $filter_name, string $class): bool
 
 `class`
 
-Щоб реалізувати фільтр, вам потрібно визначити клас як розширення [phpuserfilter](class.php-user-filter.html) c цілим рядом функцій-членів. При виконанні операцій читання/запису на потоці, до якого прикріплений ваш фільтр, PHP передаватиме дані через ваш фільтр (і через будь-які інші фільтри, прикріплені до потоку), так що дані можуть бути змінені як потрібно. Вам необхідно реалізувати методи точно як описано в [phpuserfilter](class.php-user-filter.md). Інша реалізація призведе до непередбачуваної поведінки.
+Щоб реалізувати фільтр, вам потрібно визначити клас як розширення [phpuserfilter](class.php-user-filter.md) c цілим рядом функцій-членів. При виконанні операцій читання/запису на потоці, до якого прикріплений ваш фільтр, PHP передаватиме дані через ваш фільтр (і через будь-які інші фільтри, прикріплені до потоку), так що дані можуть бути змінені як потрібно. Вам необхідно реалізувати методи точно як описано в [phpuserfilter](class.php-user-filter.md). Інша реалізація призведе до непередбачуваної поведінки.
 
 ### Значення, що повертаються
 

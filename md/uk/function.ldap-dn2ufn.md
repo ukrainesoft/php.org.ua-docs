@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-delete.html: « ldapdelete
-  - function.ldap-err2str.html: ldaperr2str »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-delete.md: « ldapdelete
+  - function.ldap-err2str.md: ldaperr2str »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapdn2ufn
 ---
 # ldapdn2ufn

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - win32service.constants.recovery-action.html: « Действия при восстановлении Win32
-  - class.win32serviceexception.html: Win32ServiceException »
-  - index.html: PHP Manual
-  - win32service.constants.html: Обумовлені константи
+  - win32service.constants.recovery-action.md: « Действия при восстановлении Win32
+  - class.win32serviceexception.md: Win32ServiceException »
+  - index.md: PHP Manual
+  - win32service.constants.md: Обумовлені константи
 ---
 **Win32 Service informations**
 

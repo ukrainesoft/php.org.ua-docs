@@ -30,5 +30,5 @@ public DOMDocument::normalizeDocument(): void
 
 ### Дивіться також
 
--   [» Спецификация DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-Document3-normalizeDocument)
+-   [» Спецификация DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-Document3-normalizeDocument)
 -   [DOMNode::normalize()](domnode.normalize.md) - нормалізує вузол

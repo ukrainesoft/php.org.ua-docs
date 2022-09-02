@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-simple.offsetexists.html: '« YafConfigSimple::offsetExists'
-  - yaf-config-simple.offsetset.html: 'YafConfigSimple::offsetSet »'
-  - index.html: PHP Manual
-  - class.yaf-config-simple.html: YafConfigSimple
+  - yaf-config-simple.offsetexists.md: '« YafConfigSimple::offsetExists'
+  - yaf-config-simple.offsetset.md: 'YafConfigSimple::offsetSet »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.md: YafConfigSimple
 title: 'YafConfigSimple::offsetGet'
 ---
 # YafConfigSimple::offsetGet

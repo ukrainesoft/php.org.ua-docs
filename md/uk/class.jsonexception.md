@@ -12,7 +12,7 @@ title: Клас JsonException
 
 ## Вступ
 
-Цей виняток викидається, якщо опція **`JSON_THROW_ON_ERROR`** встановлена ​​для функції [jsonencode()](function.json-encode.html) або [jsondecode()](function.json-decode.html). code містить тип помилки, дивіться можливі значення [jsonlasterror()](function.json-last-error.md)
+Цей виняток викидається, якщо опція **`JSON_THROW_ON_ERROR`** встановлена ​​для функції [jsonencode()](function.json-encode.md) або [jsondecode()](function.json-decode.md). code містить тип помилки, дивіться можливі значення [jsonlasterror()](function.json-last-error.md)
 
 ## Огляд класів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.stopbuffering.html: '« Phar::stopBuffering'
-  - phar.webphar.html: 'Phar::webPhar »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.stopbuffering.md: '« Phar::stopBuffering'
+  - phar.webphar.md: 'Phar::webPhar »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::unlinkArchive'
 ---
 # Phar::unlinkArchive
@@ -32,7 +32,7 @@ final public static Phar::unlinkArchive(string $filename): bool
 
 ### Помилки
 
-У разі присутності відкритих файлових дескрипторів до архіву чи об'єктів [Phar](class.phar.html) [PharData](class.phardata.html) [PharFileInfo](class.pharfileinfo.html), які посилаються на цей архів, буде викинуто виняток [PharException](class.pharexception.html)
+У разі присутності відкритих файлових дескрипторів до архіву чи об'єктів [Phar](class.phar.md) [PharData](class.phardata.md) [PharFileInfo](class.pharfileinfo.md), які посилаються на цей архів, буде викинуто виняток [PharException](class.pharexception.md)
 
 ### Приклади
 
@@ -58,5 +58,5 @@ Phar::unlinkArchive('my.phar');
 
 ### Дивіться також
 
--   [Phar::delete()](phar.delete.html) - Видаляє файл усередині phar-архіву
--   [Phar::offsetUnset()](phar.offsetunset.html) - Видалити файл із phar-архіву
+-   [Phar::delete()](phar.delete.md) - Видаляє файл усередині phar-архіву
+-   [Phar::offsetUnset()](phar.offsetunset.md) - Видалити файл із phar-архіву

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rararchive.setallowbroken.html: '« RarArchive::setAllowBroken'
-  - class.rarentry.html: RarEntry »
-  - index.html: PHP Manual
-  - class.rararchive.html: RarArchive
+  - rararchive.setallowbroken.md: '« RarArchive::setAllowBroken'
+  - class.rarentry.md: RarEntry »
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
 title: 'RarArchive::function toString() { \[native code\] }'
 ---
 # RarArchive::function toString() { \[native code\] }
@@ -18,7 +18,7 @@ RarArchive::toString — Отримати текстове уявлення
 public RarArchive::__toString(): string
 ```
 
-Повертає рядок, що представляє об'єкт [RarArchive](class.rararchive.html). Вона містить повний шлях до поточного відкритого тому архіву та інформацію про те, чи коректний ресурс чи вже закритий за допомогою [RarArchive::close()](rararchive.close.html)
+Повертає рядок, що представляє об'єкт [RarArchive](class.rararchive.md). Вона містить повний шлях до поточного відкритого тому архіву та інформацію про те, чи коректний ресурс чи вже закритий за допомогою [RarArchive::close()](rararchive.close.md)
 
 Даний метод призначений тільки для налагодження, тому що немає жодної гарантії, з чого складатиметься відповідь і як він буде відформатований.
 
@@ -28,7 +28,7 @@ public RarArchive::__toString(): string
 
 ### Значення, що повертаються
 
-Текстове подання об'єкта [RarArchive](class.rararchive.html). Контент не визначено.
+Текстове подання об'єкта [RarArchive](class.rararchive.md). Контент не визначено.
 
 ### Приклади
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.time-nanosleep.html: « timenanosleep
+  - function.time-nanosleep.md: « timenanosleep
   - function.uniqid.md: uniqid »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції

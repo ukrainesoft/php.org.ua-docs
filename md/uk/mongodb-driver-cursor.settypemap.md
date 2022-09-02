@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.rewind.html: '« MongoDBDriverCursor::rewind'
-  - mongodb-driver-cursor.toarray.html: 'MongoDBDriverCursor::toArray »'
+  - mongodb-driver-cursor.rewind.md: '« MongoDBDriverCursor::rewind'
+  - mongodb-driver-cursor.toarray.md: 'MongoDBDriverCursor::toArray »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::setTypeMap'
 ---
 # MongoDBDriverCursor::setTypeMap
@@ -18,13 +18,13 @@ MongoDBDriverCursor::setTypeMap — Встановлює карту типу д�
 final public MongoDB\Driver\Cursor::setTypeMap(array $typemap): void
 ```
 
-Встановлює [конфігурацію карти типів](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps), яка буде використовуватися при десеріалізації результатів BSON значення PHP.
+Встановлює [конфігурацію карти типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps), яка буде використовуватися при десеріалізації результатів BSON значення PHP.
 
 ### Список параметрів
 
 `typeMap` (array)
 
-[Конфігурація карти типів](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)
+[Конфігурація карти типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ final public MongoDB\Driver\Cursor::setTypeMap(array $typemap): void
 
 При ітерації курсором може викидатися такі винятки через неправильну конфігурацію карти типів:
 
--   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо клас на карті типів не може бути створений або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.md)
+-   Викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо клас на карті типів не може бути створений або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.md)
 
 ### Приклади
 

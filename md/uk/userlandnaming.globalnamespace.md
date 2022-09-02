@@ -1,9 +1,9 @@
 ---
 navigation:
-  - userlandnaming.html: « Руководство по именованию
-  - userlandnaming.rules.html: Правила »
-  - index.html: PHP Manual
-  - userlandnaming.html: Руководство по именованию
+  - userlandnaming.md: « Руководство по именованию
+  - userlandnaming.rules.md: Правила »
+  - index.md: PHP Manual
+  - userlandnaming.md: Руководство по именованию
 title: Глобальний простір імен
 ---
 ## Глобальний простір імен

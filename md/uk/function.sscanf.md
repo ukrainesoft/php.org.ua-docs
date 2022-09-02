@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.sprintf.md: « sprintf
-  - function.str-contains.html: strcontains »
+  - function.str-contains.md: strcontains »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: sscanf

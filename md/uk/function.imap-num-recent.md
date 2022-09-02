@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-num-msg.html: « imapnummsg
-  - function.imap-open.html: imapopen »
+  - function.imap-num-msg.md: « imapnummsg
+  - function.imap-open.md: imapopen »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapnumrecent

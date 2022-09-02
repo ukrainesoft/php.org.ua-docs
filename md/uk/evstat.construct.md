@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evstat.attr.html: '« EvStat::attr'
-  - evstat.createstopped.html: 'EvStat::createStopped »'
-  - index.html: PHP Manual
-  - class.evstat.html: EvStat
+  - evstat.attr.md: '« EvStat::attr'
+  - evstat.createstopped.md: 'EvStat::createStopped »'
+  - index.md: PHP Manual
+  - class.evstat.md: EvStat
 title: 'EvStat::construct'
 ---
 # EvStat::construct
@@ -17,8 +17,8 @@ EvStat::construct - Створює об'єкт спостерігача EvStat
 public **EvStat::construct**  
 string `$path`  
 float `$interval`  
-[callable](language.types.callable.html) `$callback`  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
+[callable](language.types.callable.md) `$callback`  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`**  
 int `$priority`
 
 Створює об'єкт спостерігача EvStat та автоматично запускає спостерігача.
@@ -35,7 +35,7 @@ int `$priority`
 
 `callback`
 
-Дивіться [Спостерігачі зворотного виклику](ev.watcher-callbacks.html)
+Дивіться [Спостерігачі зворотного виклику](ev.watcher-callbacks.md)
 
 `data`
 
@@ -43,7 +43,7 @@ int `$priority`
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 

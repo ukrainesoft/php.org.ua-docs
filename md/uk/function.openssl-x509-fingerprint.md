@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-x509-export.html: « opensslx509export
-  - function.openssl-x509-free.html: opensslx509free »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-x509-export.md: « opensslx509export
+  - function.openssl-x509-free.md: opensslx509free »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslx509fingerprint
 ---
 # opensslx509fingerprint
@@ -24,11 +24,11 @@ openssl_x509_fingerprint(OpenSSLCertificate|string $certificate, string $digest_
 
 `x509`
 
-Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.html)
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md)
 
 `digest_algo`
 
-Метод хешування. Список доступних методів можна отримати за допомогою [opensslgetмдmethods()](function.openssl-get-md-methods.html)
+Метод хешування. Список доступних методів можна отримати за допомогою [opensslgetмдmethods()](function.openssl-get-md-methods.md)
 
 `binary`
 
@@ -44,4 +44,4 @@ openssl_x509_fingerprint(OpenSSLCertificate|string $certificate, string $digest_
 
 | Версия | Описание |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

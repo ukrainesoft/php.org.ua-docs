@@ -1,16 +1,16 @@
 ---
 navigation:
-  - inotify.resources.html: « Типи ресурсів
-  - ref.inotify.html: Функции Inotify »
-  - index.html: PHP Manual
-  - book.inotify.html: Inotify
+  - inotify.resources.md: « Типи ресурсів
+  - ref.inotify.md: Функции Inotify »
+  - index.md: PHP Manual
+  - book.inotify.md: Inotify
 title: Обумовлені константи
 ---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-**Константи Inotify використовуються функцією [inotifyaddwatch()](function.inotify-add-watch.html) та/або повертаються [inotifyread()](function.inotify-read.html)**
+**Константи Inotify використовуються функцією [inotifyaddwatch()](function.inotify-add-watch.md) та/або повертаються [inotifyread()](function.inotify-read.md)**
 
 **`IN_ACCESS`** (int)
 
@@ -82,7 +82,7 @@ title: Обумовлені константи
 
 **`IN_IGNORED`** (int)
 
-Спостереження було вимкнено вручну (пояснюється [inotifyрмwatch()](function.inotify-rm-watch.html)) або через відсутність файлу або через розмонтування файлової системи.
+Спостереження було вимкнено вручну (пояснюється [inotifyрмwatch()](function.inotify-rm-watch.md)) або через відсутність файлу або через розмонтування файлової системи.
 
 **`IN_ISDIR`** (int)
 

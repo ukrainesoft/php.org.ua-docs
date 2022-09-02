@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.snmp-read-mib.html: « snmpreadmib
-  - function.snmp-set-oid-numeric-print.html: snmpsetoidnumericprint »
+  - function.snmp-read-mib.md: « snmpreadmib
+  - function.snmp-set-oid-numeric-print.md: snmpsetoidnumericprint »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpsetenumprint

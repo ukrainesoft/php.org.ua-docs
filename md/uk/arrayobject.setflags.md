@@ -26,14 +26,14 @@ public ArrayObject::setFlags(int $flags): void
 
 Нова поведінка ArrayObject. Допускається або бітова маска, або названі константи. Використання іменованих констант рекомендується для забезпечення сумісності з майбутніми версіями.
 
-Доступні прапори поведінки наведені нижче. Фактичні значення цих прапорів описані у розділі [Обумовлені константи](class.arrayobject.html#arrayobject.constants)
+Доступні прапори поведінки наведені нижче. Фактичні значення цих прапорів описані у розділі [Обумовлені константи](class.arrayobject.md#arrayobject.constants)
 
 **Прапори поведінки ArrayObject**
 
 | Значение | Константа |
 | --- | --- |
-|  | [ArrayObject::STDPROPLIST](class.arrayobject.html#arrayobject.constants.std-prop-list) |
-|  | [ArrayObject::ARRAYАСPROPS](class.arrayobject.html#arrayobject.constants.array-as-props) |
+|  | [ArrayObject::STDPROPLIST](class.arrayobject.md#arrayobject.constants.std-prop-list) |
+|  | [ArrayObject::ARRAYАСPROPS](class.arrayobject.md#arrayobject.constants.array-as-props) |
 
 ### Значення, що повертаються
 

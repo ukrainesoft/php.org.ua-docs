@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-port.html: « pgport
-  - function.pg-put-line.html: пгputline »
+  - function.pg-port.md: « pgport
+  - function.pg-put-line.md: пгputline »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгprepare
@@ -18,7 +18,7 @@ title: пгprepare
 pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): PgSql\Result|false
 ```
 
-**пгprepare()** створює заготівлю SQL вирази на сервері для подальшого запуску функціями [пгexecute()](function.pg-execute.html) або [пгsendexecute()](function.pg-send-execute.md). Це дозволяє багаторазово виконувати один раз створені запити з різними параметрами . **пгprepare()** підтримується PostgreSQL версії 7.4 та вище. Функція не працюватиме з серверами ранніх версій.
+**пгprepare()** створює заготівлю SQL вирази на сервері для подальшого запуску функціями [пгexecute()](function.pg-execute.md) або [пгsendexecute()](function.pg-send-execute.md). Це дозволяє багаторазово виконувати один раз створені запити з різними параметрами . **пгprepare()** підтримується PostgreSQL версії 7.4 та вище. Функція не працюватиме з серверами ранніх версій.
 
 Функція створює заготівлю SQL запиту під назвою `stmtname` і тілом `query`, який повинен містити один SQL вираз . `stmtname` може бути порожнім рядком, тоді буде створено безіменну заготівлю. Якщо якась безіменна заготовка вже визначена, вона буде замінена на нову автоматично. В інших випадках збіг імен нової та існуючої в даній сесії заготовок призведе до помилки. Якщо в `query` будуть передаватися параметри, вони замінять псевдозмінні $1, $2 і т.д. під час передачі запиту.
 
@@ -28,7 +28,7 @@ pg_prepare(PgSql\Connection $connection = ?, string $stmtname, string $query): P
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

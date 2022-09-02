@@ -31,11 +31,11 @@ public
 
 `method`
 
-Одна з констант [`EventSslContext::*_METHOD`](class.eventsslcontext.html#eventsslcontext.constants)
+Одна з констант [`EventSslContext::*_METHOD`](class.eventsslcontext.md#eventsslcontext.constants)
 
 `options`
 
-Асоціативний масив опцій контексту SSL. Константи [`EventSslContext::OPT_*`](class.eventsslcontext.html#eventsslcontext.constants)
+Асоціативний масив опцій контексту SSL. Константи [`EventSslContext::OPT_*`](class.eventsslcontext.md#eventsslcontext.constants)
 
 ### Значення, що повертаються
 

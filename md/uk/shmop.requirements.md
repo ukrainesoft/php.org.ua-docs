@@ -1,9 +1,9 @@
 ---
 navigation:
-  - shmop.setup.html: « Встановлення та налаштування
-  - shmop.installation.html: Установка »
-  - index.html: PHP Manual
-  - shmop.setup.html: Встановлення та налаштування
+  - shmop.setup.md: « Встановлення та налаштування
+  - shmop.installation.md: Установка »
+  - index.md: PHP Manual
+  - shmop.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

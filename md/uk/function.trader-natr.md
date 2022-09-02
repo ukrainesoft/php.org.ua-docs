@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-mult.html: « tradermult
-  - function.trader-obv.html: traderobv »
+  - function.trader-mult.md: « tradermult
+  - function.trader-obv.md: traderobv »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradernatr

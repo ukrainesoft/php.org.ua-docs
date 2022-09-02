@@ -1,9 +1,9 @@
 ---
 navigation:
-  - runkit7.requirements.html: « Вимоги
-  - runkit7.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - runkit7.setup.html: Встановлення та налаштування
+  - runkit7.requirements.md: « Вимоги
+  - runkit7.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - runkit7.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

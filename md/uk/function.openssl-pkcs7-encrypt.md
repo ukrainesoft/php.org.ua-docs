@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkcs7-decrypt.html: « opensslpkcs7decrypt
-  - function.openssl-pkcs7-read.html: opensslpkcs7read »
+  - function.openssl-pkcs7-decrypt.md: « opensslpkcs7decrypt
+  - function.openssl-pkcs7-read.md: opensslpkcs7read »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkcs7encrypt

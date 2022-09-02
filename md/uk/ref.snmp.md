@@ -1,7 +1,7 @@
 ---
 navigation:
   - snmp.constants.md: « Обумовлені константи
-  - function.snmp-get-quick-print.html: snmpgetquickprint »
+  - function.snmp-get-quick-print.md: snmpgetquickprint »
   - index.md: PHP Manual
   - book.snmp.md: SNMP
 title: Функції SNMP

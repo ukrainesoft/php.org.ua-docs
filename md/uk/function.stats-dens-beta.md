@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-covariance.html: « statscovariance
-  - function.stats-dens-cauchy.html: statsdenscauchy »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-covariance.md: « statscovariance
+  - function.stats-dens-cauchy.md: statsdenscauchy »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsdensbeta
 ---
 # statsdensbeta

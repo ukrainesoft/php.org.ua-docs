@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrpingresponse.destruct.html: '« SolrPingResponse::destruct'
-  - class.solrgenericresponse.html: SolrGenericResponse »
-  - index.html: PHP Manual
-  - class.solrpingresponse.html: SolrPingResponse
+  - solrpingresponse.destruct.md: '« SolrPingResponse::destruct'
+  - class.solrgenericresponse.md: SolrGenericResponse »
+  - index.md: PHP Manual
+  - class.solrpingresponse.md: SolrPingResponse
 title: 'SolrPingResponse::getResponse'
 ---
 # SolrPingResponse::getResponse

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.stream-wrapper-unregister.html: « streamwrapperunregister
+  - function.stream-wrapper-unregister.md: « streamwrapperunregister
   - intro.swoole.md: Введение »
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі

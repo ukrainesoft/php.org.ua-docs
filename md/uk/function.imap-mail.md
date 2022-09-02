@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-mail-move.html: « imapmailmove
-  - function.imap-mailboxmsginfo.html: imapmailboxmsginfo »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-mail-move.md: « imapmailmove
+  - function.imap-mailboxmsginfo.md: imapmailboxmsginfo »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapmail
 ---
 # imapmail

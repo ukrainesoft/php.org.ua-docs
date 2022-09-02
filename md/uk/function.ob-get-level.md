@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ob-get-length.html: « obgetlength
-  - function.ob-get-status.html: проgetstatus »
-  - index.html: PHP Manual
-  - ref.outcontrol.html: Функції контролю виведення
+  - function.ob-get-length.md: « obgetlength
+  - function.ob-get-status.md: проgetstatus »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
 title: проgetlevel
 ---
 # проgetlevel
@@ -30,5 +30,5 @@ ob_get_level(): int
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
--   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу

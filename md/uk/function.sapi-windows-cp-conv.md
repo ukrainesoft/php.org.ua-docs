@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.php-strip-whitespace.html: « phpstripwhitespace
-  - function.sapi-windows-cp-get.html: sapiwindowsспget »
+  - function.php-strip-whitespace.md: « phpstripwhitespace
+  - function.sapi-windows-cp-get.md: sapiwindowsспget »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: sapiwindowsспconv

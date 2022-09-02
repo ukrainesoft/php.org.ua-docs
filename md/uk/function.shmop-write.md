@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.shmop-size.html: « shmopsize
+  - function.shmop-size.md: « shmopsize
   - class.shmop.md: Shmop »
   - index.md: PHP Manual
   - ref.shmop.md: 'Пам''ять, що розділяється (shared)'

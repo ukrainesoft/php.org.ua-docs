@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.construct.html: '« SqlStatementResult::construct'
-  - mysql-xdevapi-sqlstatementresult.fetchone.html: 'SqlStatementResult::fetchOne »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - mysql-xdevapi-sqlstatementresult.construct.md: '« SqlStatementResult::construct'
+  - mysql-xdevapi-sqlstatementresult.fetchone.md: 'SqlStatementResult::fetchOne »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::fetchAll'
 ---
 # SqlStatementResult::fetchAll

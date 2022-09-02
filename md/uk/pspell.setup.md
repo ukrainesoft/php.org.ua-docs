@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.pspell.html: « Введение
-  - pspell.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.pspell.html: Pspell
+  - intro.pspell.md: « Введение
+  - pspell.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.pspell.md: Pspell
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](pspell.requirements.html)
--   [Установка](pspell.installation.html)
--   [Налаштування під час виконання](pspell.configuration.html)
--   [Типи ресурсів](pspell.resources.html)
+-   [Вимоги](pspell.requirements.md)
+-   [Установка](pspell.installation.md)
+-   [Налаштування під час виконання](pspell.configuration.md)
+-   [Типи ресурсів](pspell.resources.md)

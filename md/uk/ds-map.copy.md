@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.construct.html: '« DsMap::construct'
-  - ds-map.count.html: 'ДсMap::count »'
+  - ds-map.construct.md: '« DsMap::construct'
+  - ds-map.count.md: 'ДсMap::count »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::copy'
 ---
 # ДсMap::copy

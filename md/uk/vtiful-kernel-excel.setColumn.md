@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-excel.output.html: '« VtifulKernelExcel::output'
-  - vtiful-kernel-excel.setRow.html: 'VtifulKernelExcel::setRow »'
+  - vtiful-kernel-excel.output.md: '« VtifulKernelExcel::output'
+  - vtiful-kernel-excel.setRow.md: 'VtifulKernelExcel::setRow »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
 title: 'VtifulKernelExcel::setColumn'
 ---
 # VtifulKernelExcel::setColumn

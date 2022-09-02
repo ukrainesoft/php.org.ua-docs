@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evloop.backend.html: '« EvLoop::backend'
-  - evloop.child.html: 'EvLoop::child »'
-  - index.html: PHP Manual
-  - class.evloop.html: EvLoop
+  - evloop.backend.md: '« EvLoop::backend'
+  - evloop.child.md: 'EvLoop::child »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
 title: 'EvLoop::check'
 ---
 # EvLoop::check
@@ -33,7 +33,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvCheck::construct()](evcheck.construct.html)
+Усі параметри, що й для [EvCheck::construct()](evcheck.construct.md)
 
 ### Значення, що повертаються
 
@@ -41,4 +41,4 @@ final
 
 ### Дивіться також
 
--   [EvCheck::construct()](evcheck.construct.html) - Конструктор об'єкту EvCheck
+-   [EvCheck::construct()](evcheck.construct.md) - Конструктор об'єкту EvCheck

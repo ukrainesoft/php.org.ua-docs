@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-divexact.html: « gmpdivexact
-  - function.gmp-fact.html: gmpfact »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-divexact.md: « gmpdivexact
+  - function.gmp-fact.md: gmpfact »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpexport
 ---
 # gmpexport
@@ -63,4 +63,4 @@ AA
 
 ### Дивіться також
 
--   [gmpimport()](function.gmp-import.html) - Імпортувати з бінарного рядка
+-   [gmpimport()](function.gmp-import.md) - Імпортувати з бінарного рядка

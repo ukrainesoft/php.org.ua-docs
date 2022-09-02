@@ -1,20 +1,20 @@
 ---
 navigation:
-  - migration72.deprecated.html: '« Функціонал, оголошений застарілим у PHP 7.2.x'
-  - migration71.html: Миграция с PHP 7.0.x на PHP 7.1.x »
-  - index.html: PHP Manual
-  - migration72.html: Миграция с PHP 7.1.x на PHP 7.2.x
+  - migration72.deprecated.md: '« Функціонал, оголошений застарілим у PHP 7.2.x'
+  - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x »
+  - index.md: PHP Manual
+  - migration72.md: Миграция с PHP 7.1.x на PHP 7.2.x
 title: Інші зміни
 ---
 ## Інші зміни
 
-### Переміщення [utf8encode()](function.utf8-encode.html) і [utf8decode()](function.utf8-decode.md)
+### Переміщення [utf8encode()](function.utf8-encode.md) і [utf8decode()](function.utf8-decode.md)
 
-Функції [utf8encode()](function.utf8-encode.html) і [utf8decode()](function.utf8-decode.html) були переміщені в стандартну бібліотеку як функції роботи з рядками. У попередніх версіях для їх використання необхідно встановити модуль [XML](book.xml.md)
+Функції [utf8encode()](function.utf8-encode.md) і [utf8decode()](function.utf8-decode.md) були переміщені в стандартну бібліотеку як функції роботи з рядками. У попередніх версіях для їх використання необхідно встановити модуль [XML](book.xml.md)
 
-### Зміни [mail()](function.mail.html) і [мбsendmail()](function.mb-send-mail.md)
+### Зміни [mail()](function.mail.md) і [мбsendmail()](function.mb-send-mail.md)
 
-Параметр $additionalheaders функцій [mail()](function.mail.html) і [мбsendmail()](function.mb-send-mail.md) тепер приймає масив (array) замість рядка (string).
+Параметр $additionalheaders функцій [mail()](function.mail.md) і [мбsendmail()](function.mb-send-mail.md) тепер приймає масив (array) замість рядка (string).
 
 ### Підтримка LMDB
 
@@ -34,7 +34,7 @@ title: Інші зміни
 
 ### Переміщення [MCrypt](book.mcrypt.md) у PECL
 
-Модуль [MCrypt](book.mcrypt.html) був видалений з ядра PHP і переміщений PECL. Бібліотека mcrypt не оновлювалася з 2007 року і використовувати її не рекомендується. Замість неї використовуйте модуль [OpenSSL](book.openssl.html) або [Sodium](book.sodium.md)
+Модуль [MCrypt](book.mcrypt.md) був видалений з ядра PHP і переміщений PECL. Бібліотека mcrypt не оновлювалася з 2007 року і використовувати її не рекомендується. Замість неї використовуйте модуль [OpenSSL](book.openssl.md) або [Sodium](book.sodium.md)
 
 ### [sessionmodulename()](function.session-module-name.md)
 

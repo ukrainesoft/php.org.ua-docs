@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.sqlite3result.html: « SQLite3Result
-  - sqlite3result.columntype.html: 'SQLite3Result::columnType »'
-  - index.html: PHP Manual
-  - class.sqlite3result.html: SQLite3Result
+  - class.sqlite3result.md: « SQLite3Result
+  - sqlite3result.columntype.md: 'SQLite3Result::columnType »'
+  - index.md: PHP Manual
+  - class.sqlite3result.md: SQLite3Result
 title: 'SQLite3Result::columnName'
 ---
 # SQLite3Result::columnName

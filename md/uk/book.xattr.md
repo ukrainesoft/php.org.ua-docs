@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.inotify-rm-watch.html: « inotifyрмwatch
+  - function.inotify-rm-watch.md: « inotifyрмwatch
   - intro.xattr.md: Введение »
   - index.md: PHP Manual
   - refs.fileprocess.file.md: Модулі для роботи з файловою системою

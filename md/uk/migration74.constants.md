@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration74.new-functions.html: « Нові функції
-  - migration74.incompatible.html: 'Зміни, що ламають зворотну сумісність »'
-  - index.html: PHP Manual
-  - migration74.html: Миграция с PHP 7.3.x на PHP 7.4.x
+  - migration74.new-functions.md: « Нові функції
+  - migration74.incompatible.md: 'Зміни, що ламають зворотну сумісність »'
+  - index.md: PHP Manual
+  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
 title: Нові глобальні константи
 ---
 ## Нові глобальні константи

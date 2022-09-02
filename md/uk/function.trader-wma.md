@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.trader-willr.html: « traderwillr
+  - function.trader-willr.md: « traderwillr
   - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader

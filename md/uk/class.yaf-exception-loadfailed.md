@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.yaf-exception-routerfailed.html: « YafExceptionRouterFailed
-  - class.yaf-exception-loadfailed-module.html: YafExceptionLoadFailedModule »
+  - class.yaf-exception-routerfailed.md: « YafExceptionRouterFailed
+  - class.yaf-exception-loadfailed-module.md: YafExceptionLoadFailedModule »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafExceptionLoadFailed

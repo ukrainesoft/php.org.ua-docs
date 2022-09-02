@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.toupper.html: '« IntlChar::toupper'
-  - class.intliterator.html: IntlIterator »
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - intlchar.toupper.md: '« IntlChar::toupper'
+  - class.intliterator.md: IntlIterator »
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Клас винятків для помилок intl
 ---
 # Клас винятків для помилок intl
@@ -12,7 +12,7 @@ title: Клас винятків для помилок intl
 
 ## Вступ
 
-Цей клас служить для виклику винятків у разі помилки у функціях intl. Ці винятки можуть бути викинуті лише якщо включена опція [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions)
+Цей клас служить для виклику винятків у разі помилки у функціях intl. Ці винятки можуть бути викинуті лише якщо включена опція [intl.useexceptions](intl.configuration.md#ini.intl.use-exceptions)
 
 ## Огляд класів
 

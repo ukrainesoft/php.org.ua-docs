@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-stroke.getmiterlimit.html: '« UIDrawStroke::getMiterLimit'
-  - ui-draw-stroke.setcap.html: 'ОЙDrawStroke::setCap »'
-  - index.html: PHP Manual
-  - class.ui-draw-stroke.html: ОЙDrawStroke
+  - ui-draw-stroke.getmiterlimit.md: '« UIDrawStroke::getMiterLimit'
+  - ui-draw-stroke.setcap.md: 'ОЙDrawStroke::setCap »'
+  - index.md: PHP Manual
+  - class.ui-draw-stroke.md: ОЙDrawStroke
 title: 'ОЙDrawStroke::getThickness'
 ---
 # ОЙDrawStroke::getThickness

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.splpriorityqueue.html: « SplPriorityQueue
-  - splpriorityqueue.count.html: 'SplPriorityQueue::count »'
-  - index.html: PHP Manual
-  - class.splpriorityqueue.html: SplPriorityQueue
+  - class.splpriorityqueue.md: « SplPriorityQueue
+  - splpriorityqueue.count.md: 'SplPriorityQueue::count »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
 title: 'SplPriorityQueue::compare'
 ---
 # SplPriorityQueue::compare

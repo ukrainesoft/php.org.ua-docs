@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domimplementation.createdocumenttype.html: '« DOMImplementation::createDocumentType'
-  - class.domnamednodemap.html: DOMNamedNodeMap »
-  - index.html: PHP Manual
-  - class.domimplementation.html: DOMImplementation
+  - domimplementation.createdocumenttype.md: '« DOMImplementation::createDocumentType'
+  - class.domnamednodemap.md: DOMNamedNodeMap »
+  - index.md: PHP Manual
+  - class.domimplementation.md: DOMImplementation
 title: 'DOMImplementation::hasFeature'
 ---
 # DOMImplementation::hasFeature
@@ -20,7 +20,7 @@ public DOMImplementation::hasFeature(string $feature, string $version): bool
 
 Перевіряє, чи реалізує специфічну можливість `feature` реалізація DOM.
 
-Ви можете знайти список усіх можливостей у розділі [» Согласование](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/introduction.html#ID-Conformance) стандарту DOM.
+Ви можете знайти список усіх можливостей у розділі [» Согласование](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/introduction.md#ID-Conformance) стандарту DOM.
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ public DOMImplementation::hasFeature(string $feature, string $version): bool
 
 ### Помилки
 
-До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.html)
+До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.md)
 
 ### Приклади
 
@@ -77,4 +77,4 @@ foreach ($features as $key => $name) {
 
 ### Дивіться також
 
--   [DOMNode::isSupported()](domnode.issupported.html) - Перевіряє, чи підтримується можливість у певній версії
+-   [DOMNode::isSupported()](domnode.issupported.md) - Перевіряє, чи підтримується можливість у певній версії

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - closure.call.html: '« Closure::call'
-  - class.generator.html: Generator »
-  - index.html: PHP Manual
-  - class.closure.html: Closure
+  - closure.call.md: '« Closure::call'
+  - class.generator.md: Generator »
+  - index.md: PHP Manual
+  - class.closure.md: Closure
 title: 'Closure::fromCallable'
 ---
 # Closure::fromCallable
@@ -18,11 +18,11 @@ Closure::fromCallable — Конвертує callable у замикання
 public static Closure::fromCallable(callable $callback): Closure
 ```
 
-Створює та повертає нову [анонимную функцию](functions.anonymous.html) із заданого `callback`, використовуючи поточну область видимості. Цей метод перевіряє, що `callback` є типом callable у поточній області видимості та викидає виняток [TypeError](class.typeerror.html), якщо це не так.
+Створює та повертає нову [анонимную функцию](functions.anonymous.md) із заданого `callback`, використовуючи поточну область видимості. Цей метод перевіряє, що `callback` є типом callable у поточній області видимості та викидає виняток [TypeError](class.typeerror.md), якщо це не так.
 
 > **Зауваження**
 > 
-> Починаючи з PHP 8.1.0, у [Callback-функцій як об'єктів першого класу](functions.first_class_callable_syntax.html) та сама семантика, що й у цього методу.
+> Починаючи з PHP 8.1.0, у [Callback-функцій як об'єктів першого класу](functions.first_class_callable_syntax.md) та сама семантика, що й у цього методу.
 
 ### Список параметрів
 
@@ -32,9 +32,9 @@ public static Closure::fromCallable(callable $callback): Closure
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт класу [Closure](class.closure.html) або викидає виняток [TypeError](class.typeerror.html), якщо `callback` не є об'єктом типу callable у поточній області видимості.
+Повертає новий об'єкт класу [Closure](class.closure.md) або викидає виняток [TypeError](class.typeerror.md), якщо `callback` не є об'єктом типу callable у поточній області видимості.
 
 ### Дивіться також
 
--   [Анонімні функції](functions.anonymous.html)
--   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.html)
+-   [Анонімні функції](functions.anonymous.md)
+-   [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.md)

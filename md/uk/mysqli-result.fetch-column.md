@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.fetch-assoc.html: '« mysqliresult::fetchassoc'
-  - mysqli-result.fetch-field-direct.html: 'mysqliresult::fetchfielddirect »'
+  - mysqli-result.fetch-assoc.md: '« mysqliresult::fetchassoc'
+  - mysqli-result.fetch-field-direct.md: 'mysqliresult::fetchfielddirect »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::fetchcolumn'
 ---
 # mysqliresult::fetchcolumn
@@ -36,7 +36,7 @@ mysqli_fetch_column(mysqli_result $result, int $column = 0): null|int|float|stri
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `column`
 

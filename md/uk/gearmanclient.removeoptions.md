@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.ping.html: '« GearmanClient::ping'
-  - gearmanclient.returncode.html: 'GearmanClient::returnCode »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.ping.md: '« GearmanClient::ping'
+  - gearmanclient.returncode.md: 'GearmanClient::returnCode »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::removeOptions'
 ---
 # GearmanClient::removeOptions

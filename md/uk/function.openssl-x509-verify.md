@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-x509-read.html: « opensslx509read
-  - class.opensslcertificate.html: OpenSSLCertificate »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-x509-read.md: « opensslx509read
+  - class.opensslcertificate.md: OpenSSLCertificate »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslx509verify
 ---
 # opensslx509verify
@@ -28,7 +28,7 @@ openssl_x509_verify(OpenSSLCertificate|string $certificate, OpenSSLAsymmetricKey
 
 `public_key`
 
-[OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) - ключ, повернутий функцією [opensslgetpublickey()](function.openssl-get-publickey.md)
+[OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) - ключ, повернутий функцією [opensslgetpublickey()](function.openssl-get-publickey.md)
 
 string - ключ у форматі PEM, такого вигляду: : "-----BEGIN PUBLIC KEY----- MIIBCgK..."
 
@@ -40,8 +40,8 @@ string - ключ у форматі PEM, такого вигляду: : "-----BE
 
 | Версия | Описание |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
-|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+|  | `public_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |
 
 ### Приклади
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-num-fields.html: « odbcnumfields
-  - function.odbc-pconnect.html: odbcpconnect »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-num-fields.md: « odbcnumfields
+  - function.odbc-pconnect.md: odbcpconnect »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcnumrows
 ---
 # odbcnumrows
@@ -24,7 +24,7 @@ odbc_num_rows(resource $statement): int
 
 `statement`
 
-Ідентифікатор результату, що повертається [odbcexec()](function.odbc-exec.html)
+Ідентифікатор результату, що повертається [odbcexec()](function.odbc-exec.md)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.clearstatcache.html: « clearstatcache
-  - function.delete.html: delete »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.clearstatcache.md: « clearstatcache
+  - function.delete.md: delete »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: copy
 ---
 # copy

@@ -31,4 +31,4 @@ public
 
 ### Дивіться також
 
--   [» Evbuffers та Thread-безпека](http://www.wangafu.net/~nickm/libevent-book/Ref7_evbuffer.html#_evbuffers_and_thread_safety)
+-   [» Evbuffers та Thread-безпека](http://www.wangafu.net/~nickm/libevent-book/Ref7_evbuffer.md#_evbuffers_and_thread_safety)

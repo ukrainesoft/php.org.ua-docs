@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-rprop-delta-max.html: « fannsetrpropdeltamax
-  - function.fann-set-rprop-delta-zero.html: fannsetrpropdeltazero »
+  - function.fann-set-rprop-delta-max.md: « fannsetrpropdeltamax
+  - function.fann-set-rprop-delta-zero.md: fannsetrpropdeltazero »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetrpropdeltamin

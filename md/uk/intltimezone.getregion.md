@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.getrawoffset.html: '« IntlTimeZone::getRawOffset'
-  - intltimezone.gettzdataversion.html: 'IntlTimeZone::getTZDataVersion »'
-  - index.html: PHP Manual
-  - class.intltimezone.html: IntlTimeZone
+  - intltimezone.getrawoffset.md: '« IntlTimeZone::getRawOffset'
+  - intltimezone.gettzdataversion.md: 'IntlTimeZone::getTZDataVersion »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getRegion'
 ---
 # IntlTimeZone::getRegion

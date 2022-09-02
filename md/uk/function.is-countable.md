@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-callable.html: « iscallable
-  - function.is-double.html: ісdouble »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-callable.md: « iscallable
+  - function.is-double.md: ісdouble »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісcountable
 ---
 # ісcountable

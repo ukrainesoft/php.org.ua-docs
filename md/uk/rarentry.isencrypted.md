@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rarentry.isdirectory.html: '« RarEntry::isDirectory'
-  - rarentry.tostring.html: 'RarEntry::toString »'
-  - index.html: PHP Manual
-  - class.rarentry.html: RarEntry
+  - rarentry.isdirectory.md: '« RarEntry::isDirectory'
+  - rarentry.tostring.md: 'RarEntry::toString »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
 title: 'RarEntry::isEncrypted'
 ---
 # RarEntry::isEncrypted

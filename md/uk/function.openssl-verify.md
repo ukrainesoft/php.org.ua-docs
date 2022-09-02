@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-spki-verify.html: « opensslspkiverify
-  - function.openssl-x509-check-private-key.html: opensslx509checkprivatekey »
+  - function.openssl-spki-verify.md: « opensslspkiverify
+  - function.openssl-x509-check-private-key.md: opensslx509checkprivatekey »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslverify

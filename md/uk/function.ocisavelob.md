@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocirowcount.html: « ocirowcount
-  - function.ocisavelobfile.html: ocisavelobfile »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocirowcount.md: « ocirowcount
+  - function.ocisavelobfile.md: ocisavelobfile »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocisavelob
 ---
 # ocisavelob

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-init.html: « gnupginit
-  - function.gnupg-listsignatures.html: gnupglistsignatures »
+  - function.gnupg-init.md: « gnupginit
+  - function.gnupg-listsignatures.md: gnupglistsignatures »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgkeyinfo

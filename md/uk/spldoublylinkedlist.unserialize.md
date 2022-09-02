@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.top.html: '« SplDoublyLinkedList::top'
-  - spldoublylinkedlist.unshift.html: 'SplDoublyLinkedList::unshift »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.top.md: '« SplDoublyLinkedList::top'
+  - spldoublylinkedlist.unshift.md: 'SplDoublyLinkedList::unshift »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::unserialize'
 ---
 # SplDoublyLinkedList::unserialize

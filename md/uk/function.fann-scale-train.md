@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-scale-train-data.html: « fannscaletraindata
-  - function.fann-set-activation-function-hidden.html: fannsetactivationfunctionhidden »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-scale-train-data.md: « fannscaletraindata
+  - function.fann-set-activation-function-hidden.md: fannsetactivationfunctionhidden »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannscaletrain
 ---
 # fannscaletrain

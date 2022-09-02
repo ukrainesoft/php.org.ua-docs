@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-gcd.html: « gmpgcd
-  - function.gmp-hamdist.html: gmphamdist »
+  - function.gmp-gcd.md: « gmpgcd
+  - function.gmp-hamdist.md: gmphamdist »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpgcdext

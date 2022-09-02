@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-result-error-field.html: « pgresulterrorfield
-  - function.pg-result-seek.html: пгresultseek »
+  - function.pg-result-error-field.md: « pgresulterrorfield
+  - function.pg-result-seek.md: пгresultseek »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгresulterror
@@ -22,13 +22,13 @@ pg_result_error(PgSql\Result $result): string|false
 
 Функція [пгresulterrorfield()](function.pg-result-error-field.md) може дати більш детальну інформацію про помилку, ніж **пгresulterror()**
 
-Так як [пгquery()](function.pg-query.html) повертає **`false`** у разі виникнення помилки запиту необхідно використовувати [пгsendquery()](function.pg-send-query.html) і [пгgetresult()](function.pg-get-result.md) для отримання результату дескриптора.
+Так як [пгquery()](function.pg-query.md) повертає **`false`** у разі виникнення помилки запиту необхідно використовувати [пгsendquery()](function.pg-send-query.md) і [пгgetresult()](function.pg-get-result.md) для отримання результату дескриптора.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-open.html: « eioopen
-  - function.eio-read.html: eioread »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-open.md: « eioopen
+  - function.eio-read.md: eioread »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiopoll
 ---
 # eiopoll
@@ -18,7 +18,7 @@ eiopoll — Може бути викликана коли є запити, що 
 eio_poll(): int
 ```
 
-**eiopoll()** може бути використана для реалізації спеціальних циклів обробки запитів. При цьому [eionreqs()](function.eio-nreqs.html) може бути використана для знаходження невиконаних запитів.
+**eiopoll()** може бути використана для реалізації спеціальних циклів обробки запитів. При цьому [eionreqs()](function.eio-nreqs.md) може бути використана для знаходження невиконаних запитів.
 
 > **Зауваження**
 > 
@@ -67,4 +67,4 @@ int(0)
 
 ### Дивіться також
 
--   [eionreqs()](function.eio-nreqs.html) - Повертає кількість запитів, які потрібно виконати
+-   [eionreqs()](function.eio-nreqs.md) - Повертає кількість запитів, які потрібно виконати

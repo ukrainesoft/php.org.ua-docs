@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrclient.query.html: '« SolrClient::query'
-  - solrclient.rollback.html: 'SolrClient::rollback »'
-  - index.html: PHP Manual
-  - class.solrclient.html: SolrClient
+  - solrclient.query.md: '« SolrClient::query'
+  - solrclient.rollback.md: 'SolrClient::rollback »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
 title: 'SolrClient::request'
 ---
 # SolrClient::request

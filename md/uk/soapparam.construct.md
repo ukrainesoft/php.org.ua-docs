@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.soapparam.html: « SoapParam
-  - class.soapvar.html: SoapVar »
-  - index.html: PHP Manual
-  - class.soapparam.html: SoapParam
+  - class.soapparam.md: « SoapParam
+  - class.soapvar.md: SoapVar »
+  - index.md: PHP Manual
+  - class.soapparam.md: SoapParam
 title: 'SoapParam::construct'
 ---
 # SoapParam::construct
@@ -14,9 +14,9 @@ SoapParam::construct - Конструктор SoapParam
 
 ### Опис
 
-public **SoapParam::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`, string `$name`
+public **SoapParam::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`, string `$name`
 
-Створює новий об'єкт [SoapParam](class.soapparam.html)
+Створює новий об'єкт [SoapParam](class.soapparam.md)
 
 ### Список параметрів
 
@@ -44,5 +44,5 @@ $client->SomeFunction(new SoapParam($a, "a"),
 
 ### Дивіться також
 
--   [SoapClient::soapCall()](soapclient.soapcall.html) - Викликає SOAP-функцію
+-   [SoapClient::soapCall()](soapclient.soapcall.md) - Викликає SOAP-функцію
 -   **SoapVar::SoapVar()**

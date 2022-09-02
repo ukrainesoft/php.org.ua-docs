@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.basic-syntax.phptags.html: « Теги PHP
-  - language.basic-syntax.instruction-separation.html: Разделение инструкций »
+  - language.basic-syntax.phptags.md: « Теги PHP
+  - language.basic-syntax.instruction-separation.md: Разделение инструкций »
   - index.md: PHP Manual
-  - language.basic-syntax.html: Основи синтаксису
+  - language.basic-syntax.md: Основи синтаксису
 title: Ізолювання від HTML
 ---
 ## Ізолювання від HTML

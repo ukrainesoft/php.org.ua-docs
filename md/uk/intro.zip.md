@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.zip.html: « Zip
-  - zip.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.zip.html: Zip
+  - book.zip.md: « Zip
+  - zip.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.zip.md: Zip
 title: Вступ
 ---
 # Вступ

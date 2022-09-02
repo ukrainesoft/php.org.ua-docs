@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.destroy.html: '« SwooleTable::destroy'
-  - swoole-table.get.html: 'SwooleTable::get »'
-  - index.html: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - swoole-table.destroy.md: '« SwooleTable::destroy'
+  - swoole-table.get.md: 'SwooleTable::get »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::exist'
 ---
 # SwooleTable::exist

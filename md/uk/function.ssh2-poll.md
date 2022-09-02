@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-methods-negotiated.html: « ssh2methodsnegotiated
-  - function.ssh2-publickey-add.html: ssh2publickeyadd »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-methods-negotiated.md: « ssh2methodsnegotiated
+  - function.ssh2-publickey-add.md: ssh2publickeyadd »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2poll
 ---
 # ssh2poll

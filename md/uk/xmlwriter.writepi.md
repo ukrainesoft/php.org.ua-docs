@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.writeelementns.html: '« XMLWriter::writeElementNs'
-  - xmlwriter.writeraw.html: 'XMLWriter::writeRaw »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.writeelementns.md: '« XMLWriter::writeElementNs'
+  - xmlwriter.writeraw.md: 'XMLWriter::writeRaw »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::writePi'
 ---
 # XMLWriter::writePi
@@ -34,7 +34,7 @@ xmlwriter_write_pi(XMLWriter $writer, string $target, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `target`
 

@@ -14,64 +14,64 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [opcache.enable](opcache.configuration.html#ini.opcache.enable) | "1" | PHPINIALL |  |
-| [opcache.enablecli](opcache.configuration.html#ini.opcache.enable-cli) | "0" | PHPINISYSTEM | У версіях з PHP 7.1.2 до 7.1.6 включно, значення за замовчуванням "1" (включено) |
-| [opcache.memoryconsumption](opcache.configuration.html#ini.opcache.memory-consumption) | "128" | PHPINISYSTEM |  |
-| [opcache.internedstringsbuffer](opcache.configuration.html#ini.opcache.interned-strings-buffer) | "8" | PHPINISYSTEM |  |
-| [opcache.maxacceleratedfiles](opcache.configuration.html#ini.opcache.max-accelerated-files) | "10000" | PHPINISYSTEM |  |
-| [opcache.maxwastedpercentage](opcache.configuration.html#ini.opcache.max-wasted-percentage) | "5" | PHPINISYSTEM |  |
-| [opcache.usecwd](opcache.configuration.html#ini.opcache.use-cwd) | "1" | PHPINISYSTEM |  |
-| [opcache.validatetimestamps](opcache.configuration.html#ini.opcache.validate-timestamps) | "1" | PHPINIALL |  |
-| [opcache.revalidatefreq](opcache.configuration.html#ini.opcache.revalidate-freq) | "2" | PHPINIALL |  |
-| [opcache.revalidatepath](opcache.configuration.html#ini.opcache.revalidate-path) | "0" | PHPINIALL |  |
-| [opcache.savecomments](opcache.configuration.html#ini.opcache.save-comments) | "1" | PHPINISYSTEM |  |
-| [opcache.fastshutdown](opcache.configuration.html#ini.opcache.fast-shutdown) | "0" | PHPINISYSTEM |  |
-| [opcache.enablefileoverride](opcache.configuration.html#ini.opcache.enable-file-override) | "0" | PHPINISYSTEM |  |
-| [opcache.optimizationlevel](opcache.configuration.html#ini.opcache.optimization-level) | "0x7FFEBFFF" | PHPINISYSTEM | До PHP 7.3.0 було 0x7FFFBFFF |
-| [opcache.inheritedhack](opcache.configuration.html#ini.opcache.inherited-hack) | "1" | PHPINISYSTEM | Вилучено у PHP 7.3.0 |
-| [opcache.dupsfix](opcache.configuration.html#ini.opcache.dups-fix) | "0" | PHPINIALL |  |
-| [opcache.blacklistfilename](opcache.configuration.html#ini.opcache.blacklist-filename) | "" | PHPINISYSTEM |  |
-| [opcache.maxfilesize](opcache.configuration.html#ini.opcache.max-file-size) | "0" | PHPINISYSTEM |  |
-| [opcache.consistencychecks](opcache.configuration.html#ini.opcache.consistency-checks) | "0" | PHPINIALL |  |
-| [opcache.forcerestarttimeout](opcache.configuration.html#ini.opcache.force-restart-timeout) | "180" | PHPINISYSTEM |  |
-| [opcache.errorlog](opcache.configuration.html#ini.opcache.error-log) | "" | PHPINISYSTEM |  |
-| [opcache.logverbositylevel](opcache.configuration.html#ini.opcache.log-verbosity-level) | "1" | PHPINISYSTEM |  |
-| [opcache.recordwarnings](opcache.configuration.html#ini.opcache.record-warnings) | "0" | PHPINISYSTEM | Доступно з PHP 8.0.0. |
-| [opcache.preferredmemorymodel](opcache.configuration.html#ini.opcache.preferred-memory-model) | "" | PHPINISYSTEM |  |
-| [opcache.protectmemory](opcache.configuration.html#ini.opcache.protect-memory) | "0" | PHPINISYSTEM |  |
-| [opcache.mmapbase](opcache.configuration.html#ini.opcache.mmap-base) | **`null`** | PHPINISYSTEM |  |
-| [opcache.restrictapi](opcache.configuration.html#ini.opcache.restrict-api) | "" | PHPINISYSTEM |  |
-| [opcache.fileupdateprotection](opcache.configuration.html#ini.opcache.file_update_protection) | "2" | PHPINIALL |  |
-| [opcache.hugecodepages](opcache.configuration.html#ini.opcache.huge_code_pages) | "0" | PHPINISYSTEM |  |
-| [opcache.lockfilepath](opcache.configuration.html#ini.opcache.lockfile_path) | "/tmp" | PHPINISYSTEM |  |
-| [opcache.optdebuglevel](opcache.configuration.html#ini.opcache.opt_debug_level) | "0" | PHPINISYSTEM | Доступно з PHP 7.1.0 |
-| [opcache.filecache](opcache.configuration.html#ini.opcache.file-cache) | NULL | PHPINISYSTEM |  |
-| [opcache.filecacheonly](opcache.configuration.html#ini.opcache.file-cache-only) | "0" | PHPINISYSTEM |  |
-| [opcache.filecacheconsistencychecks](opcache.configuration.html#ini.opcache.file-cache-consistency-checks) | "1" | PHPINISYSTEM |  |
-| [opcache.filecachefallback](opcache.configuration.html#ini.opcache.file-cache-fallback) | "1" | PHPINISYSTEM |  |
-| [opcache.validatepermission](opcache.configuration.html#ini.opcache.validate-permission) | "0" | PHPINISYSTEM | Доступно з PHP 7.0.14 |
-| [opcache.validateroot](opcache.configuration.html#ini.opcache.validate-root) | "0" | PHPINISYSTEM | Доступно з PHP 7.0.14 |
-| [opcache.preload](opcache.configuration.html#ini.opcache.preload) | "" | PHPINISYSTEM | Доступно з PHP 7.4.0 |
-| [opcache.preloaduser](opcache.configuration.html#ini.opcache.preload-user) | "" | PHPINISYSTEM | Доступно з PHP 7.4.0 |
-| [opcache.cacheід](opcache.configuration.html#ini.opcache.cache-id) | "" | PHPINISYSTEM | Тільки Windows. Доступно з PHP 7.4.0 |
-| [opcache.jit](opcache.configuration.html#ini.opcache.jit) | "tracing" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitbuffersize](opcache.configuration.html#ini.opcache.jit-buffer-size) | "0" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
-| [opcache.jitdebug](opcache.configuration.html#ini.opcache.jit-debug) | "0" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitbisectlimit](opcache.configuration.html#ini.opcache.jit-bisect-limit) | "0" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitprofthreshold](opcache.configuration.html#ini.opcache.jit-prof-threshold) | "0.005" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitmaxroottraces](opcache.configuration.html#ini.opcache.jit-max-root-traces) | "1024" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
-| [opcache.jitmaxsidetraces](opcache.configuration.html#ini.opcache.jit-max-side-traces) | "128" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
-| [opcache.jitmaxexitcounters](opcache.configuration.html#ini.opcache.jit-max-exit-counters) | "8192" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
-| [opcache.jithotloop](opcache.configuration.html#ini.opcache.jit-hot-loop) | "64" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
-| [opcache.jithotfunc](opcache.configuration.html#ini.opcache.jit-hot-func) | "127" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
-| [opcache.jithotreturn](opcache.configuration.html#ini.opcache.jit-hot-return) | "8" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
-| [opcache.jithotsideexit](opcache.configuration.html#ini.opcache.jit-hot-side-exit) | "8" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
-| [opcache.jitblacklistroottrace](opcache.configuration.html#ini.opcache.jit-blacklist-root-trace) | "16" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitblacklistsidetrace](opcache.configuration.html#ini.opcache.jit-blacklist-side-trace) | "8" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitmaxloopunrolls](opcache.configuration.html#ini.opcache.jit-max-loop-unrolls) | "8" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitmaxrecursivecalls](opcache.configuration.html#ini.opcache.jit-max-recursive-calls) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitmaxrecursivereturns](opcache.configuration.html#ini.opcache.jit-max-recursive-return) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
-| [opcache.jitmaxpolymorphiccalls](opcache.configuration.html#ini.opcache.jit-max-polymorphic-calls) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.enable](opcache.configuration.md#ini.opcache.enable) | "1" | PHPINIALL |  |
+| [opcache.enablecli](opcache.configuration.md#ini.opcache.enable-cli) | "0" | PHPINISYSTEM | У версіях з PHP 7.1.2 до 7.1.6 включно, значення за замовчуванням "1" (включено) |
+| [opcache.memoryconsumption](opcache.configuration.md#ini.opcache.memory-consumption) | "128" | PHPINISYSTEM |  |
+| [opcache.internedstringsbuffer](opcache.configuration.md#ini.opcache.interned-strings-buffer) | "8" | PHPINISYSTEM |  |
+| [opcache.maxacceleratedfiles](opcache.configuration.md#ini.opcache.max-accelerated-files) | "10000" | PHPINISYSTEM |  |
+| [opcache.maxwastedpercentage](opcache.configuration.md#ini.opcache.max-wasted-percentage) | "5" | PHPINISYSTEM |  |
+| [opcache.usecwd](opcache.configuration.md#ini.opcache.use-cwd) | "1" | PHPINISYSTEM |  |
+| [opcache.validatetimestamps](opcache.configuration.md#ini.opcache.validate-timestamps) | "1" | PHPINIALL |  |
+| [opcache.revalidatefreq](opcache.configuration.md#ini.opcache.revalidate-freq) | "2" | PHPINIALL |  |
+| [opcache.revalidatepath](opcache.configuration.md#ini.opcache.revalidate-path) | "0" | PHPINIALL |  |
+| [opcache.savecomments](opcache.configuration.md#ini.opcache.save-comments) | "1" | PHPINISYSTEM |  |
+| [opcache.fastshutdown](opcache.configuration.md#ini.opcache.fast-shutdown) | "0" | PHPINISYSTEM |  |
+| [opcache.enablefileoverride](opcache.configuration.md#ini.opcache.enable-file-override) | "0" | PHPINISYSTEM |  |
+| [opcache.optimizationlevel](opcache.configuration.md#ini.opcache.optimization-level) | "0x7FFEBFFF" | PHPINISYSTEM | До PHP 7.3.0 було 0x7FFFBFFF |
+| [opcache.inheritedhack](opcache.configuration.md#ini.opcache.inherited-hack) | "1" | PHPINISYSTEM | Вилучено у PHP 7.3.0 |
+| [opcache.dupsfix](opcache.configuration.md#ini.opcache.dups-fix) | "0" | PHPINIALL |  |
+| [opcache.blacklistfilename](opcache.configuration.md#ini.opcache.blacklist-filename) | "" | PHPINISYSTEM |  |
+| [opcache.maxfilesize](opcache.configuration.md#ini.opcache.max-file-size) | "0" | PHPINISYSTEM |  |
+| [opcache.consistencychecks](opcache.configuration.md#ini.opcache.consistency-checks) | "0" | PHPINIALL |  |
+| [opcache.forcerestarttimeout](opcache.configuration.md#ini.opcache.force-restart-timeout) | "180" | PHPINISYSTEM |  |
+| [opcache.errorlog](opcache.configuration.md#ini.opcache.error-log) | "" | PHPINISYSTEM |  |
+| [opcache.logverbositylevel](opcache.configuration.md#ini.opcache.log-verbosity-level) | "1" | PHPINISYSTEM |  |
+| [opcache.recordwarnings](opcache.configuration.md#ini.opcache.record-warnings) | "0" | PHPINISYSTEM | Доступно з PHP 8.0.0. |
+| [opcache.preferredmemorymodel](opcache.configuration.md#ini.opcache.preferred-memory-model) | "" | PHPINISYSTEM |  |
+| [opcache.protectmemory](opcache.configuration.md#ini.opcache.protect-memory) | "0" | PHPINISYSTEM |  |
+| [opcache.mmapbase](opcache.configuration.md#ini.opcache.mmap-base) | **`null`** | PHPINISYSTEM |  |
+| [opcache.restrictapi](opcache.configuration.md#ini.opcache.restrict-api) | "" | PHPINISYSTEM |  |
+| [opcache.fileupdateprotection](opcache.configuration.md#ini.opcache.file_update_protection) | "2" | PHPINIALL |  |
+| [opcache.hugecodepages](opcache.configuration.md#ini.opcache.huge_code_pages) | "0" | PHPINISYSTEM |  |
+| [opcache.lockfilepath](opcache.configuration.md#ini.opcache.lockfile_path) | "/tmp" | PHPINISYSTEM |  |
+| [opcache.optdebuglevel](opcache.configuration.md#ini.opcache.opt_debug_level) | "0" | PHPINISYSTEM | Доступно з PHP 7.1.0 |
+| [opcache.filecache](opcache.configuration.md#ini.opcache.file-cache) | NULL | PHPINISYSTEM |  |
+| [opcache.filecacheonly](opcache.configuration.md#ini.opcache.file-cache-only) | "0" | PHPINISYSTEM |  |
+| [opcache.filecacheconsistencychecks](opcache.configuration.md#ini.opcache.file-cache-consistency-checks) | "1" | PHPINISYSTEM |  |
+| [opcache.filecachefallback](opcache.configuration.md#ini.opcache.file-cache-fallback) | "1" | PHPINISYSTEM |  |
+| [opcache.validatepermission](opcache.configuration.md#ini.opcache.validate-permission) | "0" | PHPINISYSTEM | Доступно з PHP 7.0.14 |
+| [opcache.validateroot](opcache.configuration.md#ini.opcache.validate-root) | "0" | PHPINISYSTEM | Доступно з PHP 7.0.14 |
+| [opcache.preload](opcache.configuration.md#ini.opcache.preload) | "" | PHPINISYSTEM | Доступно з PHP 7.4.0 |
+| [opcache.preloaduser](opcache.configuration.md#ini.opcache.preload-user) | "" | PHPINISYSTEM | Доступно з PHP 7.4.0 |
+| [opcache.cacheід](opcache.configuration.md#ini.opcache.cache-id) | "" | PHPINISYSTEM | Тільки Windows. Доступно з PHP 7.4.0 |
+| [opcache.jit](opcache.configuration.md#ini.opcache.jit) | "tracing" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitbuffersize](opcache.configuration.md#ini.opcache.jit-buffer-size) | "0" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jitdebug](opcache.configuration.md#ini.opcache.jit-debug) | "0" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitbisectlimit](opcache.configuration.md#ini.opcache.jit-bisect-limit) | "0" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitprofthreshold](opcache.configuration.md#ini.opcache.jit-prof-threshold) | "0.005" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxroottraces](opcache.configuration.md#ini.opcache.jit-max-root-traces) | "1024" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxsidetraces](opcache.configuration.md#ini.opcache.jit-max-side-traces) | "128" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxexitcounters](opcache.configuration.md#ini.opcache.jit-max-exit-counters) | "8192" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jithotloop](opcache.configuration.md#ini.opcache.jit-hot-loop) | "64" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jithotfunc](opcache.configuration.md#ini.opcache.jit-hot-func) | "127" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jithotreturn](opcache.configuration.md#ini.opcache.jit-hot-return) | "8" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jithotsideexit](opcache.configuration.md#ini.opcache.jit-hot-side-exit) | "8" | PHPINISYSTEM | Доступно з PHP 8.0.0 |
+| [opcache.jitblacklistroottrace](opcache.configuration.md#ini.opcache.jit-blacklist-root-trace) | "16" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitblacklistsidetrace](opcache.configuration.md#ini.opcache.jit-blacklist-side-trace) | "8" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxloopunrolls](opcache.configuration.md#ini.opcache.jit-max-loop-unrolls) | "8" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxrecursivecalls](opcache.configuration.md#ini.opcache.jit-max-recursive-calls) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxrecursivereturns](opcache.configuration.md#ini.opcache.jit-max-recursive-return) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
+| [opcache.jitmaxpolymorphiccalls](opcache.configuration.md#ini.opcache.jit-max-polymorphic-calls) | "2" | PHPINIALL | Доступно з PHP 8.0.0 |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -107,17 +107,17 @@ title: Налаштування під час виконання
 
 `opcache.validate_timestamps` bool
 
-Якщо увімкнено, OPcache перевірятиме актуальність закешованих скриптів кожні [opcache.revalidatefreq](opcache.configuration.html#ini.opcache.revalidate-freq) секунд. Коли заборонено, ви можете перезапустити OPcache вручну за допомогою [opcachereset()](function.opcache-reset.html) [opcacheinvalidate()](function.opcache-invalidate.md) або перезапустити веб-сервер для того, щоб зміни набули чинності.
+Якщо увімкнено, OPcache перевірятиме актуальність закешованих скриптів кожні [opcache.revalidatefreq](opcache.configuration.md#ini.opcache.revalidate-freq) секунд. Коли заборонено, ви можете перезапустити OPcache вручну за допомогою [opcachereset()](function.opcache-reset.md) [opcacheinvalidate()](function.opcache-invalidate.md) або перезапустити веб-сервер для того, щоб зміни набули чинності.
 
 `opcache.revalidate_freq` int
 
 Як часто в секундах перевіряти тимчасові мітки файлів . `0` призведе до того, що OPcache проводитиме цю перевірку при кожному запиті.
 
-Ця директива ігнорується, якщо вимкнено [opcache.validatetimestamps](opcache.configuration.html#ini.opcache.validate-timestamps)
+Ця директива ігнорується, якщо вимкнено [opcache.validatetimestamps](opcache.configuration.md#ini.opcache.validate-timestamps)
 
 `opcache.revalidate_path` bool
 
-Якщо вимкнено, існуючі закешовані файли, які використовують один і той же [includepath](ini.core.html#ini.include-path), повторно використовуватимуться. Таким чином, якщо файл з тим же ім'ям знаходиться в іншому місці в includepath, його не буде знайдено.
+Якщо вимкнено, існуючі закешовані файли, які використовують один і той же [includepath](ini.core.md#ini.include-path), повторно використовуватимуться. Таким чином, якщо файл з тим же ім'ям знаходиться в іншому місці в includepath, його не буде знайдено.
 
 `opcache.save_comments` bool
 
@@ -131,11 +131,11 @@ title: Налаштування під час виконання
 
 `opcache.enable_file_override` bool
 
-Якщо увімкнено, то кеш опкодів перевірятиме, чи вже закешовано файл при викликі функцій [fileexists()](function.file-exists.html) [ісfile()](function.is-file.html) і [ісreadable()](function.is-readable.md). Це може підвищити продуктивність додатків, які перевіряють присутність і доступність для читання скриптом PHP, але несе ризик повернення застарілих даних, якщо заборонена опція [opcache.validatetimestamps](opcache.configuration.html#ini.opcache.validate-timestamps)
+Якщо увімкнено, то кеш опкодів перевірятиме, чи вже закешовано файл при викликі функцій [fileexists()](function.file-exists.md) [ісfile()](function.is-file.md) і [ісreadable()](function.is-readable.md). Це може підвищити продуктивність додатків, які перевіряють присутність і доступність для читання скриптом PHP, але несе ризик повернення застарілих даних, якщо заборонена опція [opcache.validatetimestamps](opcache.configuration.md#ini.opcache.validate-timestamps)
 
 `opcache.optimization_level` int
 
-Бітова маска, яка контролює, які кроки оптимізації виконуються. За промовчанням застосовуються всі безпечні оптимізації. Зміна значення за промовчанням корисна для налагодження/розробки оптимізатора (див. також [opcache.optdebuglevel](opcache.configuration.html#ini.opcache.opt_debug_level)
+Бітова маска, яка контролює, які кроки оптимізації виконуються. За промовчанням застосовуються всі безпечні оптимізації. Зміна значення за промовчанням корисна для налагодження/розробки оптимізатора (див. також [opcache.optdebuglevel](opcache.configuration.md#ini.opcache.opt_debug_level)
 
 `opcache.inherited_hack` bool
 
@@ -172,7 +172,7 @@ title: Налаштування під час виконання
 
 Кількість секунд очікування звільнення кеша, після якого буде примусово здійснено запланований перезапуск. Якщо цей час перевищено, OPcache вважає, що відбувається щось неправильне і вбиває процес блокування кешу.
 
-Якщо параметр [opcache.logverbositylevel](opcache.configuration.html#ini.opcache.log-verbosity-level) задати рівним 2 або більше, то, при виникненні такої ситуації, у лог помилок буде записано попередження.
+Якщо параметр [opcache.logverbositylevel](opcache.configuration.md#ini.opcache.log-verbosity-level) задати рівним 2 або більше, то, при виникненні такої ситуації, у лог помилок буде записано попередження.
 
 Директива не підтримується у Windows.
 
@@ -320,7 +320,7 @@ title: Налаштування під час виконання
 
 Об'єм пам'яті, що розділяється, резервований для скомпільованого JIT-коду. Нульове значення вимикає JIT.
 
-Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [у цьому розділі FAQ](faq.using.html#faq.using.shorthandbytes)
+Якщо використовується int значення вимірюється байтами. Ви також можете використовувати скорочений запис, який описано в [у цьому розділі FAQ](faq.using.md#faq.using.shorthandbytes)
 
 `opcache.jit_debug` int
 
@@ -328,7 +328,7 @@ title: Налаштування під час виконання
 
 `opcache.jit_bisect_limit` int
 
-Опція налагодження, що відключає JIT-компіляцію після компіляції певної кількості функцій. Може бути корисним для поділу джерела неправильної компіляції JIT. Примітка: цей параметр працює, тільки якщо для тригера JIT встановлено значення 0 (компіляція під час завантаження скрипта) або 1 (компіляція при першому виконанні), наприклад, `opcache.jit=1215`. Детальніше дивіться у розділі [opcache.jit](opcache.configuration.html#ini.opcache.jit)
+Опція налагодження, що відключає JIT-компіляцію після компіляції певної кількості функцій. Може бути корисним для поділу джерела неправильної компіляції JIT. Примітка: цей параметр працює, тільки якщо для тригера JIT встановлено значення 0 (компіляція під час завантаження скрипта) або 1 (компіляція при першому виконанні), наприклад, `opcache.jit=1215`. Детальніше дивіться у розділі [opcache.jit](opcache.configuration.md#ini.opcache.jit)
 
 `opcache.jit_prof_threshold` float
 

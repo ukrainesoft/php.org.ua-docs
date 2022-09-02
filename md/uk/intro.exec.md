@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.exec.html: '" Запуск програми'
-  - exec.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.exec.html: Запуск програми
+  - book.exec.md: '" Запуск програми'
+  - exec.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.exec.md: Запуск програми
 title: Вступ
 ---
 # Вступ

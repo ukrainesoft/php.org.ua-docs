@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.startattributens.html: '« XMLWriter::startAttributeNs'
-  - xmlwriter.startcomment.html: 'XMLWriter::startComment »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.startattributens.md: '« XMLWriter::startAttributeNs'
+  - xmlwriter.startcomment.md: 'XMLWriter::startComment »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::startCdata'
 ---
 # XMLWriter::startCdata
@@ -34,7 +34,7 @@ xmlwriter_start_cdata(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 

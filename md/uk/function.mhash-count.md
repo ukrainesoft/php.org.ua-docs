@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.mhash.html: « Функции Mhash
-  - function.mhash-get-block-size.html: mhashgetblocksize »
-  - index.html: PHP Manual
-  - ref.mhash.html: Функции Mhash
+  - ref.mhash.md: « Функции Mhash
+  - function.mhash-get-block-size.md: mhashgetblocksize »
+  - index.md: PHP Manual
+  - ref.mhash.md: Функции Mhash
 title: mhashcount
 ---
 # mhashcount
@@ -36,7 +36,7 @@ mhash_count(): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |
 
 ### Приклади
 

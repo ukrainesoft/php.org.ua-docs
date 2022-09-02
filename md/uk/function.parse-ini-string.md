@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.parse-ini-file.html: « parseinifile
+  - function.parse-ini-file.md: « parseinifile
   - function.pathinfo.md: pathinfo »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.igbinary.html: « Igbinary
-  - igbinary.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.igbinary.html: Igbinary
+  - book.igbinary.md: « Igbinary
+  - igbinary.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.igbinary.md: Igbinary
 title: Вступ
 ---
 # Вступ

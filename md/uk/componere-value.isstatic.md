@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-value.isprotected.html: '« ComponereValue::isProtected'
-  - componere-value.hasdefault.html: 'ComponereValue::hasDefault »'
+  - componere-value.isprotected.md: '« ComponereValue::isProtected'
+  - componere-value.hasdefault.md: 'ComponereValue::hasDefault »'
   - index.md: PHP Manual
-  - class.componere-value.html: ComponereValue
+  - class.componere-value.md: ComponereValue
 title: 'ComponereValue::isStatic'
 ---
 # ComponereValue::isStatic

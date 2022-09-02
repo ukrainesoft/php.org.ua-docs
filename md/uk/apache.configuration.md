@@ -8,7 +8,7 @@ title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
 
-Поведінка модуля Apache PHP залежить від налаштувань у php.ini. Налаштування конфігурації з php.ini можуть бути перевизначені через налаштування прапора [phpflag](configuration.changes.html#configuration.changes.apache) у конфігураційному файлі сервера або локальному файлі .htaccess.
+Поведінка модуля Apache PHP залежить від налаштувань у php.ini. Налаштування конфігурації з php.ini можуть бути перевизначені через налаштування прапора [phpflag](configuration.changes.md#configuration.changes.apache) у конфігураційному файлі сервера або локальному файлі .htaccess.
 
 **Приклад #1 Відключення PHP-сервера для директорії за допомогою .htaccess**
 
@@ -20,10 +20,10 @@ php_flag engine off
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [engine](apache.configuration.html#ini.engine) | "1" | PHPINIALL |  |
-| [childterminate](apache.configuration.html#ini.child-terminate) | "0" | PHPINIALL |  |
-| [lastmodified](apache.configuration.html#ini.last-modified) | "0" | PHPINIALL |  |
-| [xbithack](apache.configuration.html#ini.xbithack) | "0" | PHPINIALL |  |
+| [engine](apache.configuration.md#ini.engine) | "1" | PHPINIALL |  |
+| [childterminate](apache.configuration.md#ini.child-terminate) | "0" | PHPINIALL |  |
+| [lastmodified](apache.configuration.md#ini.last-modified) | "0" | PHPINIALL |  |
+| [xbithack](apache.configuration.md#ini.xbithack) | "0" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-props-changed.html: « svnфсpropschanged
-  - function.svn-fs-revision-root.html: svnфсrevisionroot »
+  - function.svn-fs-props-changed.md: « svnфсpropschanged
+  - function.svn-fs-revision-root.md: svnфсrevisionroot »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсrevisionprop

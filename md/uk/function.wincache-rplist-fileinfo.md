@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wincache-refresh-if-changed.html: « wincacherefreshіфchanged
-  - function.wincache-rplist-meminfo.html: wincacherplistmeminfo »
+  - function.wincache-refresh-if-changed.md: « wincacherefreshіфchanged
+  - function.wincache-rplist-meminfo.md: wincacherplistmeminfo »
   - index.md: PHP Manual
   - ref.wincache.md: Функции WinCache
 title: wincacherplistfileinfo

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-executable.execute.html: '« Executable::execute'
-  - mysql-xdevapi-executionstatus.construct.html: 'ExecutionStatus::construct »'
+  - mysql-xdevapi-executable.execute.md: '« Executable::execute'
+  - mysql-xdevapi-executionstatus.construct.md: 'ExecutionStatus::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас ExecutionStatus
 ---
 # Клас ExecutionStatus

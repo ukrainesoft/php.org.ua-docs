@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.setfontsize.html: '« GmagickDraw::setfontsize'
-  - gmagickdraw.setfontweight.html: 'GmagickDraw::setfontweight »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.setfontsize.md: '« GmagickDraw::setfontsize'
+  - gmagickdraw.setfontweight.md: 'GmagickDraw::setfontweight »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::setfontstyle'
 ---
 # GmagickDraw::setfontstyle
@@ -28,4 +28,4 @@ public GmagickDraw::setfontstyle(int $style): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

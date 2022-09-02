@@ -1,7 +1,7 @@
 ---
 navigation:
   - streamwrapper.rmdir.md: '« streamWrapper::rmdir'
-  - streamwrapper.stream-close.html: 'streamWrapper::streamclose »'
+  - streamwrapper.stream-close.md: 'streamWrapper::streamclose »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamcast'

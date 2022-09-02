@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.namespaces.definition.html: « Определение пространств имён
-  - language.namespaces.definitionmultiple.html: Опис кількох просторів імен в одному файлі »
-  - index.html: PHP Manual
-  - language.namespaces.html: Пространства имён
+  - language.namespaces.definition.md: « Определение пространств имён
+  - language.namespaces.definitionmultiple.md: Опис кількох просторів імен в одному файлі »
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
 title: Визначення підпросторів імен
 ---
 ## Визначення підпросторів імен

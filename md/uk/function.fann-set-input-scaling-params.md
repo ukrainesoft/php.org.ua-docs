@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-error-log.html: « fannseterrorlog
-  - function.fann-set-learning-momentum.html: fannsetlearningmomentum »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-error-log.md: « fannseterrorlog
+  - function.fann-set-learning-momentum.md: fannsetlearningmomentum »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetinputscalingparams
 ---
 # fannsetinputscalingparams

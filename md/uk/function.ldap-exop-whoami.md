@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-exop-refresh.html: « ldapexoprefresh
-  - function.ldap-exop.html: ldapexop »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-exop-refresh.md: « ldapexoprefresh
+  - function.ldap-exop.md: ldapexop »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapexopwhoami
 ---
 # ldapexopwhoami
@@ -24,7 +24,7 @@ ldap_exop_whoami(LDAP\Connection $ldap): string|false
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 ### Значення, що повертаються
 
@@ -34,8 +34,8 @@ ldap_exop_whoami(LDAP\Connection $ldap): string|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [ldapexop()](function.ldap-exop.html) - Виконує розширену операцію
+-   [ldapexop()](function.ldap-exop.md) - Виконує розширену операцію

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-control-paged-result.html: « ldapcontrolpagedresult
-  - function.ldap-count-references.html: ldapcountreferences »
+  - function.ldap-control-paged-result.md: « ldapcontrolpagedresult
+  - function.ldap-count-references.md: ldapcountreferences »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapcountentries
@@ -24,11 +24,11 @@ ldap_count_entries(LDAP\Connection $ldap, LDAP\Result $result): int
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 ### Значення, що повертаються
 

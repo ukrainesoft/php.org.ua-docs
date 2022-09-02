@@ -1,6 +1,6 @@
 ---
 navigation:
-  - datetime.set-state.html: '« DateTime::setstate'
+  - datetime.set-state.md: '« DateTime::setstate'
   - datetime.setisodate.md: 'DateTime::setISODate »'
   - index.md: PHP Manual
   - class.datetime.md: DateTime

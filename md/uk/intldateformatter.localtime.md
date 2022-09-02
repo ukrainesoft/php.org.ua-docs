@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.islenient.html: '« IntlDateFormatter::isLenient'
-  - intldateformatter.parse.html: 'IntlDateFormatter::parse »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.islenient.md: '« IntlDateFormatter::isLenient'
+  - intldateformatter.parse.md: 'IntlDateFormatter::parse »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::localtime'
 ---
 # IntlDateFormatter::localtime
@@ -104,8 +104,8 @@ tm_mday : 31 , tm_wday : 4 , tm_yday : 365 , tm_mon : 11 , tm_isdst : 0 ,
 
 ### Дивіться також
 
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
--   [datefmtformat()](intldateformatter.format.html) - Форматує значення дати/часу у вигляді рядка
--   [datefmtparse()](intldateformatter.parse.html) - Перетворює рядок на значення позначки часу
--   [datefmtgeterrorcode()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
--   [datefmtgeterrormessage()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmtformat()](intldateformatter.format.md) - Форматує значення дати/часу у вигляді рядка
+-   [datefmtparse()](intldateformatter.parse.md) - Перетворює рядок на значення позначки часу
+-   [datefmtgeterrorcode()](intldateformatter.geterrorcode.md) - Отримує код помилки останньої операції
+-   [datefmtgeterrormessage()](intldateformatter.geterrormessage.md) - Отримує текст помилки останньої операції

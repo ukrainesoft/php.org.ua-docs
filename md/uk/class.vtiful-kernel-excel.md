@@ -1,7 +1,7 @@
 ---
 navigation:
   - xlswriter.constants.md: « Обумовлені константи
-  - vtiful-kernel-excel.addSheet.html: 'VtifulKernelExcel::addSheet »'
+  - vtiful-kernel-excel.addSheet.md: 'VtifulKernelExcel::addSheet »'
   - index.md: PHP Manual
   - book.xlswriter.md: XLSWriter
 title: Клас VtifulKernelExcel

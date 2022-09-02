@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.jsonserialize.html: '« DsStack::jsonSerialize'
-  - ds-stack.pop.html: 'ДсStack::pop »'
-  - index.html: PHP Manual
-  - class.ds-stack.html: Стек
+  - ds-stack.jsonserialize.md: '« DsStack::jsonSerialize'
+  - ds-stack.pop.md: 'ДсStack::pop »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
 title: 'ДсStack::peek'
 ---
 # ДсStack::peek
@@ -30,7 +30,7 @@ public Ds\Stack::peek(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо колекція порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 

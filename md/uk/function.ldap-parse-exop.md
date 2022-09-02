@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-next-reference.html: « ldapnextreference
-  - function.ldap-parse-reference.html: ldapparsereference »
+  - function.ldap-next-reference.md: « ldapnextreference
+  - function.ldap-parse-reference.md: ldapparsereference »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapparseexop
@@ -24,11 +24,11 @@ ldap_parse_exop(    LDAP\Connection $ldap,    LDAP\Result $result,   
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 `response_data`
 

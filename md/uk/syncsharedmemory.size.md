@@ -1,9 +1,9 @@
 ---
 navigation:
-  - syncsharedmemory.read.html: '« SyncSharedMemory::read'
-  - syncsharedmemory.write.html: 'SyncSharedMemory::write »'
-  - index.html: PHP Manual
-  - class.syncsharedmemory.html: SyncSharedMemory
+  - syncsharedmemory.read.md: '« SyncSharedMemory::read'
+  - syncsharedmemory.write.md: 'SyncSharedMemory::write »'
+  - index.md: PHP Manual
+  - class.syncsharedmemory.md: SyncSharedMemory
 title: 'Sync Shared Memory::size'
 ---
 # Sync Shared Memory::size

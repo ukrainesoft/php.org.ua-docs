@@ -1,7 +1,7 @@
 ---
 navigation:
   - datetimeimmutable.getlasterrors.md: '« DateTimeImmutable::getLastErrors'
-  - datetimeimmutable.set-state.html: 'DateTimeImmutable::setstate »'
+  - datetimeimmutable.set-state.md: 'DateTimeImmutable::setstate »'
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::modify'

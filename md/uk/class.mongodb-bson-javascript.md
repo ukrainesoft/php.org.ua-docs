@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-decimal128.unserialize.html: '« MongoDBBSONDecimal128::unserialize'
-  - mongodb-bson-javascript.construct.html: 'MongoDBBSONJavascript::construct »'
+  - mongodb-bson-decimal128.unserialize.md: '« MongoDBBSONDecimal128::unserialize'
+  - mongodb-bson-javascript.construct.md: 'MongoDBBSONJavascript::construct »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONJavascript

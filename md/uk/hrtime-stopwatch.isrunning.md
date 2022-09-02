@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hrtime-stopwatch.getlastelapsedtime.html: '« HRTimeStopWatch::getLastElapsedTime'
-  - hrtime-stopwatch.start.html: 'HRTimeStopWatch::start »'
-  - index.html: PHP Manual
-  - class.hrtime-stopwatch.html: HRTimeStopWatch
+  - hrtime-stopwatch.getlastelapsedtime.md: '« HRTimeStopWatch::getLastElapsedTime'
+  - hrtime-stopwatch.start.md: 'HRTimeStopWatch::start »'
+  - index.md: PHP Manual
+  - class.hrtime-stopwatch.md: HRTimeStopWatch
 title: 'HRTimeStopWatch::isRunning'
 ---
 # HRTimeStopWatch::isRunning

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlreader.installation.html: « Установка
-  - xmlreader.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - xmlreader.setup.html: Встановлення та налаштування
+  - xmlreader.installation.md: « Установка
+  - xmlreader.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - xmlreader.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

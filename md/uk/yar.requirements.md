@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yar.setup.html: « Встановлення та налаштування
-  - yar.installation.html: Установка »
-  - index.html: PHP Manual
-  - yar.setup.html: Встановлення та налаштування
+  - yar.setup.md: « Встановлення та налаштування
+  - yar.installation.md: Установка »
+  - index.md: PHP Manual
+  - yar.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

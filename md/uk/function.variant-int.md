@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-imp.html: « variantimp
-  - function.variant-mod.html: variantmod »
+  - function.variant-imp.md: « variantimp
+  - function.variant-mod.md: variantmod »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantint

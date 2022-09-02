@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-router.html: « YafRouter
-  - yaf-router.addroute.html: 'YafRouter::addRoute »'
+  - class.yaf-router.md: « YafRouter
+  - yaf-router.addroute.md: 'YafRouter::addRoute »'
   - index.md: PHP Manual
-  - class.yaf-router.html: YafRouter
+  - class.yaf-router.md: YafRouter
 title: 'YafRouter::addConfig'
 ---
 # YafRouter::addConfig

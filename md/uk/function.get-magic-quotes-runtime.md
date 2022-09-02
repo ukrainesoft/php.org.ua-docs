@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-magic-quotes-gpc.html: « getmagicquotesgpc
-  - function.get-required-files.html: getrequiredfiles »
+  - function.get-magic-quotes-gpc.md: « getmagicquotesgpc
+  - function.get-required-files.md: getrequiredfiles »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getmagicquotesruntime
@@ -22,7 +22,7 @@ getmagicquotesruntime — Отримання поточного значення
 get_magic_quotes_runtime(): bool
 ```
 
-Повертає поточне значення налаштування [magicquotesruntime](info.configuration.html#ini.magic-quotes-runtime)
+Повертає поточне значення налаштування [magicquotesruntime](info.configuration.md#ini.magic-quotes-runtime)
 
 ### Список параметрів
 

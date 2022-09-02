@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.embossimage.html: '« Gmagick::embossimage'
-  - gmagick.equalizeimage.html: 'Gmagick::equalizeimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.embossimage.md: '« Gmagick::embossimage'
+  - gmagick.equalizeimage.md: 'Gmagick::equalizeimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::enhanceimage'
 ---
 # Gmagick::enhanceimage
@@ -26,7 +26,7 @@ public Gmagick::enhanceimage(): Gmagick
 
 ### Значення, що повертаються
 
-Поліпшений об'єкт [Gmagick](class.gmagick.html)
+Поліпшений об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

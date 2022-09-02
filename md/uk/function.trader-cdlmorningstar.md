@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlmorningdojistar.html: « tradercdlmorningdojistar
-  - function.trader-cdlonneck.html: tradercdlonneck »
+  - function.trader-cdlmorningdojistar.md: « tradercdlmorningdojistar
+  - function.trader-cdlonneck.md: tradercdlonneck »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlmorningstar

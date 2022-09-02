@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-dens-exponential.html: « statsdensexponential
-  - function.stats-dens-gamma.html: statsdensgamma »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-dens-exponential.md: « statsdensexponential
+  - function.stats-dens-gamma.md: statsdensgamma »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsdensф
 ---
 # statsdensф

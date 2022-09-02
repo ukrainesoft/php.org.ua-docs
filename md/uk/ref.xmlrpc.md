@@ -1,7 +1,7 @@
 ---
 navigation:
   - xmlrpc.constants.md: « Обумовлені константи
-  - function.xmlrpc-decode-request.html: xmlrpcdecoderequest »
+  - function.xmlrpc-decode-request.md: xmlrpcdecoderequest »
   - index.md: PHP Manual
   - book.xmlrpc.md: XML-RPC
 title: Функції XML-RPC

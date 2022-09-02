@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.addgroupquery.html: '« SolrQuery::addGroupQuery'
-  - solrquery.addhighlightfield.html: 'SolrQuery::addHighlightField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.addgroupquery.md: '« SolrQuery::addGroupQuery'
+  - solrquery.addhighlightfield.md: 'SolrQuery::addHighlightField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::addGroupSortField'
 ---
 # SolrQuery::addGroupSortField

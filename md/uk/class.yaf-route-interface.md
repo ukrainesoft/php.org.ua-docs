@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-response-abstract.tostring.html: '« YafResponseAbstract::toString'
-  - yaf-route-interface.assemble.html: 'YafRouteInterface::assemble »'
+  - yaf-response-abstract.tostring.md: '« YafResponseAbstract::toString'
+  - yaf-route-interface.assemble.md: 'YafRouteInterface::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafRouteInterface

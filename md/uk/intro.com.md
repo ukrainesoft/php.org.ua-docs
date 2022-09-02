@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.com.html: « COM
-  - com.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.com.html: COM
+  - book.com.md: « COM
+  - com.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.com.md: COM
 title: Вступ
 ---
 # Вступ

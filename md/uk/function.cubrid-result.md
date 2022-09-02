@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-real-escape-string.html: « cubridrealescapestring
-  - function.cubrid-unbuffered-query.html: cubridunbufferedquery »
+  - function.cubrid-real-escape-string.md: « cubridrealescapestring
+  - function.cubrid-unbuffered-query.md: cubridunbufferedquery »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridresult

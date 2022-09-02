@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-result.html: « odbcresult
-  - function.odbc-setoption.html: odbcsetoption »
+  - function.odbc-result.md: « odbcresult
+  - function.odbc-setoption.md: odbcsetoption »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcrollback

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-box-keypair-from-secretkey-and-publickey.html: « sodiumcryptoboxkeypairfromsecretkeyandpublickey
-  - function.sodium-crypto-box-open.html: sodiumcryptoboxopen »
+  - function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md: « sodiumcryptoboxkeypairfromsecretkeyandpublickey
+  - function.sodium-crypto-box-open.md: sodiumcryptoboxopen »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptoboxkeypair
@@ -20,7 +20,7 @@ sodium_crypto_box_keypair(): string
 
 Створює секретний та відкритий ключі як один рядок.
 
-Щоб отримати секретний ключ із цього уніфікованого рядка ключової пари, дивіться [sodiumcryptoboxsecretkey()](function.sodium-crypto-box-secretkey.html). Щоб отримати відкритий ключ із цього уніфікованого рядка ключової пари, дивіться [sodiumcryptoboxpublickey()](function.sodium-crypto-box-publickey.md)
+Щоб отримати секретний ключ із цього уніфікованого рядка ключової пари, дивіться [sodiumcryptoboxsecretkey()](function.sodium-crypto-box-secretkey.md). Щоб отримати відкритий ключ із цього уніфікованого рядка ключової пари, дивіться [sodiumcryptoboxpublickey()](function.sodium-crypto-box-publickey.md)
 
 ### Список параметрів
 

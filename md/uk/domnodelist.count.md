@@ -26,4 +26,4 @@ public DOMNodeList::count(): int
 
 ### Значення, що повертаються
 
-Повертає кількість вузлів у списку, що ідентичний властивості [length](class.domnodelist.html#domnodelist.props.length)
+Повертає кількість вузлів у списку, що ідентичний властивості [length](class.domnodelist.md#domnodelist.props.length)

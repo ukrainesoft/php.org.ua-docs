@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.shmop-read.html: « shmopread
-  - function.shmop-write.html: shmopwrite »
-  - index.html: PHP Manual
-  - ref.shmop.html: 'Пам''ять, що розділяється (shared)'
+  - function.shmop-read.md: « shmopread
+  - function.shmop-write.md: shmopwrite »
+  - index.md: PHP Manual
+  - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
 title: shmopsize
 ---
 # shmopsize
@@ -24,7 +24,7 @@ shmop_size(Shmop $shmop): int
 
 `shmop`
 
-Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.html)
+Ресурс блоку пам'яті, що повертається функцією [shmopopen()](function.shmop-open.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ shmop_size(Shmop $shmop): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.html); раніше очікувався ресурс (resource). |
+|  | Параметр `shmop` чекає на екземпляр [Shmop](class.shmop.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

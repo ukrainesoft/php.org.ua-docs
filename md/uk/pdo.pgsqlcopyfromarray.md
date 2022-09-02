@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-pgsql.connection.html: « PDOPGSQL DSN
+  - ref.pdo-pgsql.connection.md: « PDOPGSQL DSN
   - pdo.pgsqlcopyfromfile.md: 'PDO::pgsqlCopyFromFile »'
   - index.md: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlCopyFromArray'
 ---
 # PDO::pgsqlCopyFromArray

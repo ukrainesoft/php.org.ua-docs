@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.destruct.html: '« SwooleClient::destruct'
-  - swoole-client.getsockname.html: 'SwooleClient::getsockname »'
+  - swoole-client.destruct.md: '« SwooleClient::destruct'
+  - swoole-client.getsockname.md: 'SwooleClient::getsockname »'
   - index.md: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::getpeername'
 ---
 # SwooleClient::getpeername

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-column-types.html: « cubridcolumntypes
-  - function.cubrid-connect-with-url.html: cubridconnectwithurl »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-column-types.md: « cubridcolumntypes
+  - function.cubrid-connect-with-url.md: cubridconnectwithurl »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridcommit
 ---
 # cubridcommit
@@ -20,7 +20,7 @@ cubrid_commit(resource $conn_identifier): bool
 
 Функція **cubridcommit()** використовується для підтвердження змін, здійснених у транзакції у з'єднанні `conn_identifier`, після виклику функції **cubridcommit()**, з'єднання з сервером буде закрито, але обробник з'єднання все ще буде коректним.
 
-У CUBRID PHP, режим авто-комміту для транзакцій за замовчуванням вимкнено. Ви можете дозволити або заборонити його за допомогою функції [cubridsetautocommit()](function.cubrid-set-autocommit.html). Дізнатися поточний статус можна функцією [cubridgetautocommit()](function.cubrid-get-autocommit.html). Перед тим, як почати транзакцію, переконайтеся, що автокоміт заборонено.
+У CUBRID PHP, режим авто-комміту для транзакцій за замовчуванням вимкнено. Ви можете дозволити або заборонити його за допомогою функції [cubridsetautocommit()](function.cubrid-set-autocommit.md). Дізнатися поточний статус можна функцією [cubridgetautocommit()](function.cubrid-get-autocommit.md). Перед тим, як почати транзакцію, переконайтеся, що автокоміт заборонено.
 
 ### Список параметрів
 
@@ -106,6 +106,6 @@ P04 Tenterhooks Press    Berkeley        CA  USA
 
 ### Дивіться також
 
--   [cubridrollback()](function.cubrid-rollback.html) - Відкат транзакції
--   [cubridgetautocommit()](function.cubrid-get-autocommit.html) - Повертає налаштування авто-комміту для з'єднання
--   [cubridsetautocommit()](function.cubrid-set-autocommit.html) - Встановлює режим авто-комміту для з'єднання
+-   [cubridrollback()](function.cubrid-rollback.md) - Відкат транзакції
+-   [cubridgetautocommit()](function.cubrid-get-autocommit.md) - Повертає налаштування авто-комміту для з'єднання
+-   [cubridsetautocommit()](function.cubrid-set-autocommit.md) - Встановлює режим авто-комміту для з'єднання

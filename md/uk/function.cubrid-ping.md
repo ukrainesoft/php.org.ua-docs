@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-num-fields.html: « cubridnumfields
-  - function.cubrid-query.html: cubridquery »
+  - function.cubrid-num-fields.md: « cubridnumfields
+  - function.cubrid-query.md: cubridquery »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridping

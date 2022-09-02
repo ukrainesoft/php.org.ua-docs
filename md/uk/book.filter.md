@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.ctype-xdigit.html: « ctypexdigit
+  - function.ctype-xdigit.md: « ctypexdigit
   - intro.filter.md: Введение »
   - index.md: PHP Manual
   - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'

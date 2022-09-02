@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.exit.html: « exit
-  - function.halt-compiler.html: haltcompiler »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.exit.md: « exit
+  - function.halt-compiler.md: haltcompiler »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: getbrowser
 ---
 # getbrowser
@@ -36,9 +36,9 @@ get_browser(?string $user_agent = null, bool $return_array = false): object|arra
 
 Інформація повертається як об'єкта, чи вигляді масиву, що містить різні дані, наприклад, мажорну і мінорну версію браузера і рядок ID; значення з **`true`\*\*\*\*`false`** для таких функцій браузера, як фрейми, JavaScript, cookies і т.д.
 
-Наявність `cookies` означає, що браузер має можливість прийому cookies, а не повідомляє про те, чи ввімкнув користувач можливість прийому cookies чи ні. Єдиним способом перевірки можливості браузера приймати cookies є встановлення cookie за допомогою [setcookie()](function.setcookie.html), оновлення сторінки та перевірка значення.
+Наявність `cookies` означає, що браузер має можливість прийому cookies, а не повідомляє про те, чи ввімкнув користувач можливість прийому cookies чи ні. Єдиним способом перевірки можливості браузера приймати cookies є встановлення cookie за допомогою [setcookie()](function.setcookie.md), оновлення сторінки та перевірка значення.
 
-Повертає **`false`**, якщо неможливо отримати інформацію, наприклад, коли параметр конфігурації [browscap](misc.configuration.html#ini.browscap) у php.ini не було встановлено.
+Повертає **`false`**, якщо неможливо отримати інформацію, наприклад, коли параметр конфігурації [browscap](misc.configuration.md#ini.browscap) у php.ini не було встановлено.
 
 ### Приклади
 
@@ -93,7 +93,7 @@ Array
 
 > **Зауваження**
 > 
-> Для роботи цієї функції необхідно, щоб в установці [browscap](misc.configuration.html#ini.browscap) в налаштуваннях php.ini було встановлено коректний шлях до файлу browscap.ini у вашій системі.
+> Для роботи цієї функції необхідно, щоб в установці [browscap](misc.configuration.md#ini.browscap) в налаштуваннях php.ini було встановлено коректний шлях до файлу browscap.ini у вашій системі.
 > 
 > browscap.ini не постачається з PHP, але ви можете останню його версію тут: [» phpbrowscap.ini](http://browscap.org/)
 > 

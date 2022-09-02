@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzwrite.html: « gzwrite
-  - function.inflate-get-read-len.html: inflategetreadlen »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzwrite.md: « gzwrite
+  - function.inflate-get-read-len.md: inflategetreadlen »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: inflateadd
 ---
 # inflateadd
@@ -26,7 +26,7 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `context`
 
-Контекст, створений за допомогою [inflateinit()](function.inflate-init.html)
+Контекст, створений за допомогою [inflateinit()](function.inflate-init.md)
 
 `data`
 
@@ -34,7 +34,7 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `flush_mode`
 
-Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** завершення роботи з останнім блоком даних. Детальний опис констант дивіться в [» руководство zlib](http://www.zlib.net/manual.html)
+Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** завершення роботи з останнім блоком даних. Детальний опис констант дивіться в [» руководство zlib](http://www.zlib.net/manual.md)
 
 ### Значення, що повертаються
 
@@ -48,8 +48,8 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 | Версия | Описание |
 | --- | --- |
-|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
+|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [inflateinit()](function.inflate-init.html) - Ініціалізація контексту інкрементального розпакування
+-   [inflateinit()](function.inflate-init.md) - Ініціалізація контексту інкрементального розпакування

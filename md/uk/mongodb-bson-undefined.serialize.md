@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-undefined.jsonserialize.html: '« MongoDBBSONUndefined::jsonSerialize'
-  - mongodb-bson-undefined.tostring.html: 'MongoDBBSONUndefined::toString »'
+  - mongodb-bson-undefined.jsonserialize.md: '« MongoDBBSONUndefined::jsonSerialize'
+  - mongodb-bson-undefined.tostring.md: 'MongoDBBSONUndefined::toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-undefined.html: MongoDBBSONUndefined
+  - class.mongodb-bson-undefined.md: MongoDBBSONUndefined
 title: 'MongoDBBSONUndefined::serialize'
 ---
 # MongoDBBSONUndefined::serialize

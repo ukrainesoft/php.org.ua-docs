@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getfacetmincount.html: '« SolrQuery::getFacetMinCount'
-  - solrquery.getfacetoffset.html: 'SolrQuery::getFacetOffset »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getfacetmincount.md: '« SolrQuery::getFacetMinCount'
+  - solrquery.getfacetoffset.md: 'SolrQuery::getFacetOffset »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getFacetMissing'
 ---
 # SolrQuery::getFacetMissing

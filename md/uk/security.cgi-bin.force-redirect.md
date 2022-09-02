@@ -1,14 +1,14 @@
 ---
 navigation:
-  - security.cgi-bin.default.html: 'Варіант 1: обслуговуються лише загальнодоступні файли'
-  - security.cgi-bin.doc-root.html: 'Вариант 3: использование опций docroot или userdir »'
+  - security.cgi-bin.default.md: 'Варіант 1: обслуговуються лише загальнодоступні файли'
+  - security.cgi-bin.doc-root.md: 'Вариант 3: использование опций docroot или userdir »'
   - index.md: PHP Manual
-  - security.cgi-bin.html: Если PHP установлен как CGI
+  - security.cgi-bin.md: Если PHP установлен как CGI
 title: 'Варіант 2: використання `cgi.force_redirect`'
 ---
 ## Варіант 2: використання `cgi.force_redirect`
 
-Конфігураційна директива [cgi.forceredirect](ini.core.html#ini.cgi.force-redirect) запобігає спробам безпосереднього виклику PHP за адресою виду [http://my.host/cgi-bin/php/secretdir/script.php](http://my.host/cgi-bin/php/secretdir/script.php). Замість цього PHP оброблятиме запит лише в тому випадку, якщо він був перенаправлений веб-сервером.
+Конфігураційна директива [cgi.forceredirect](ini.core.md#ini.cgi.force-redirect) запобігає спробам безпосереднього виклику PHP за адресою виду [http://my.host/cgi-bin/php/secretdir/script.php](http://my.host/cgi-bin/php/secretdir/script.php). Замість цього PHP оброблятиме запит лише в тому випадку, якщо він був перенаправлений веб-сервером.
 
 Зазвичай перенаправлення в конфігурації Apache налаштовується за допомогою таких опцій:
 

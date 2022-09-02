@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-unescape-bytea.html: « pgunescapebytea
-  - function.pg-update.html: пгupdate »
+  - function.pg-unescape-bytea.md: « pgunescapebytea
+  - function.pg-update.md: пгupdate »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгuntrace
@@ -24,7 +24,7 @@ pg_untrace(?PgSql\Connection $connection = null): bool
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

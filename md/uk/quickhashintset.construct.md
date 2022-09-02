@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashintset.add.html: '« QuickHashIntSet::add'
-  - quickhashintset.delete.html: 'QuickHashIntSet::delete »'
-  - index.html: PHP Manual
-  - class.quickhashintset.html: QuickHashIntSet
+  - quickhashintset.add.md: '« QuickHashIntSet::add'
+  - quickhashintset.delete.md: 'QuickHashIntSet::delete »'
+  - index.md: PHP Manual
+  - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::construct'
 ---
 # QuickHashIntSet::construct
@@ -18,7 +18,7 @@ QuickHashIntSet::construct — Створює новий об'єкт QuickHashIn
 public QuickHashIntSet::__construct(int $size, int $options = ?)
 ```
 
-Конструктор створює новий об'єкт [QuickHashIntSet](class.quickhashintset.html). Розмір - це кількість списків, які потрібно створити. Чим більше списків, тим менше буде колізій. Також підтримуються налаштування.
+Конструктор створює новий об'єкт [QuickHashIntSet](class.quickhashintset.md). Розмір - це кількість списків, які потрібно створити. Чим більше списків, тим менше буде колізій. Також підтримуються налаштування.
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public QuickHashIntSet::__construct(int $size, int $options = ?)
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [QuickHashIntSet](class.quickhashintset.html)
+Повертає новий об'єкт [QuickHashIntSet](class.quickhashintset.md)
 
 ### Приклади
 

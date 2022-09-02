@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageclipmask.html: '« Imagick::getImageClipMask'
-  - imagick.getimagecolors.html: 'Imagick::getImageColors »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageclipmask.md: '« Imagick::getImageClipMask'
+  - imagick.getimagecolors.md: 'Imagick::getImageColors »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageColormapColor'
 ---
 # Imagick::getImageColormapColor

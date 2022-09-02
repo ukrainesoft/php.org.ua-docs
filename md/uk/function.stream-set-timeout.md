@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-set-read-buffer.html: « streamsetreadbuffer
-  - function.stream-set-write-buffer.html: streamsetwritebuffer »
+  - function.stream-set-read-buffer.md: « streamsetreadbuffer
+  - function.stream-set-write-buffer.md: streamsetwritebuffer »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamsettimeout
@@ -72,7 +72,7 @@ if (!$fp) {
 
 > **Зауваження**
 > 
-> Ця функція не працює з просунутими операціями, такими як [streamsocketrecvfrom()](function.stream-socket-recvfrom.html). Використовуйте замість неї [streamselect()](function.stream-select.md) з параметром часу очікування.
+> Ця функція не працює з просунутими операціями, такими як [streamsocketrecvfrom()](function.stream-socket-recvfrom.md). Використовуйте замість неї [streamselect()](function.stream-select.md) з параметром часу очікування.
 
 Ця функція раніше викликалася через **setsockettimeout()** і пізніше через [socketsettimeout()](function.socket-set-timeout.md)але це використання застаріло.
 

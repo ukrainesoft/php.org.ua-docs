@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-client.set.html: '« SwooleCoroutineClient::set'
-  - swoole-coroutine-http-client.close.html: 'SwooleCoroutineHttpClient::close »'
-  - index.html: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - swoole-coroutine-client.set.md: '« SwooleCoroutineClient::set'
+  - swoole-coroutine-http-client.close.md: 'SwooleCoroutineHttpClient::close »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::addFile'
 ---
 # SwooleCoroutineHttpClient::addFile

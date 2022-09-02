@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-compare.html: « ldapcompare
-  - function.ldap-control-paged-result-response.html: ldapcontrolpagedresultresponse »
+  - function.ldap-compare.md: « ldapcompare
+  - function.ldap-control-paged-result-response.md: ldapcontrolpagedresultresponse »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapconnect
@@ -50,7 +50,7 @@ ldap_connect(?string $uri = null, int $port = 389): LDAP\Connection|false
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAPConnection](class.ldap-connection.html)якщо LDAP URI правдоподібний. Вона здійснює синтаксичний аналіз та перевірку переданих параметрів, але з'єднання з сервером не відбувається. Якщо перевірка синтаксису провалилася – повертається **`false`**. . **ldapconnect()** завжди повертатиме екземпляр [LDAPConnection](class.ldap-connection.html)оскільки вона фактично не з'єднується, а лише ініціалізує параметри з'єднання. Фактичне підключення відбувається за наступних викликів ldap функцій, зазвичай під час виклику [ldapbind()](function.ldap-bind.md)
+Повертає екземпляр [LDAPConnection](class.ldap-connection.md)якщо LDAP URI правдоподібний. Вона здійснює синтаксичний аналіз та перевірку переданих параметрів, але з'єднання з сервером не відбувається. Якщо перевірка синтаксису провалилася – повертається **`false`**. . **ldapconnect()** завжди повертатиме екземпляр [LDAPConnection](class.ldap-connection.md)оскільки вона фактично не з'єднується, а лише ініціалізує параметри з'єднання. Фактичне підключення відбувається за наступних викликів ldap функцій, зазвичай під час виклику [ldapbind()](function.ldap-bind.md)
 
 Якщо жодних параметрів не буде визначено, тоді буде повернено екземпляр [LDAPConnection](class.ldap-connection.md) відкритого з'єднання.
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.donormal.html: '« GearmanClient::doNormal'
-  - gearmanclient.echo.html: 'GearmanClient::echo »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.donormal.md: '« GearmanClient::doNormal'
+  - gearmanclient.echo.md: 'GearmanClient::echo »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::doStatus'
 ---
 # GearmanClient::doStatus
@@ -18,7 +18,7 @@ GearmanClient::doStatus — Отримання статусу завдання, 
 public GearmanClient::doStatus(): array
 ```
 
-Повертає статус обробки запущеного завдання. Цей метод викликається між викликами, що повторюються. [GearmanClient::doNormal()](gearmanclient.donormal.html)
+Повертає статус обробки запущеного завдання. Цей метод викликається між викликами, що повторюються. [GearmanClient::doNormal()](gearmanclient.donormal.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public GearmanClient::doStatus(): array
 
 **Приклад #1 Отримання стану виконання довгого завдання**
 
-У цьому прикладі в обробник, що перевертає рядок, впроваджена затримка, щоб змоделювати завдання, що довго виконується. Після кожної паузи обробник виконує [GearmanJob::status()](gearmanjob.status.html)результат якого підхоплюється клієнтом.
+У цьому прикладі в обробник, що перевертає рядок, впроваджена затримка, щоб змоделювати завдання, що довго виконується. Після кожної паузи обробник виконує [GearmanJob::status()](gearmanjob.status.md)результат якого підхоплюється клієнтом.
 
 ```php
 <?php
@@ -95,5 +95,5 @@ echo "Успешно: $result\n";
 
 ### Дивіться також
 
--   [GearmanClient::doNormal()](gearmanclient.donormal.html) - Виконує одиночне завдання та повертає результат
--   [GearmanJob::status()](gearmanjob.status.html) - Надсилання статусу завдання (застарілий метод)
+-   [GearmanClient::doNormal()](gearmanclient.donormal.md) - Виконує одиночне завдання та повертає результат
+-   [GearmanJob::status()](gearmanjob.status.md) - Надсилання статусу завдання (застарілий метод)

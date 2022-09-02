@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-int64.tostring.html: '« MongoDBBSONInt64::toString'
-  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol »
+  - mongodb-bson-int64.tostring.md: '« MongoDBBSONInt64::toString'
+  - class.mongodb-bson-symbol.md: MongoDBBSONSymbol »
   - index.md: PHP Manual
-  - class.mongodb-bson-int64.html: MongoDBBSONInt64
+  - class.mongodb-bson-int64.md: MongoDBBSONInt64
 title: 'MongoDBBSONInt64::unserialize'
 ---
 # MongoDBBSONInt64::unserialize

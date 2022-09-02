@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-runtime.run.html: '« parallelRuntime::run'
-  - parallel-runtime.kill.html: 'parallelRuntime::kill »'
-  - index.html: PHP Manual
-  - class.parallel-runtime.html: parallelRuntime
+  - parallel-runtime.run.md: '« parallelRuntime::run'
+  - parallel-runtime.kill.md: 'parallelRuntime::kill »'
+  - index.md: PHP Manual
+  - class.parallel-runtime.md: parallelRuntime
 title: 'parallelRuntime::close'
 ---
 # parallelRuntime::close

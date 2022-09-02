@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.ibm-db2.html: « IBM DB2
-  - ibm-db2.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.ibm-db2.html: IBM DB2
+  - book.ibm-db2.md: « IBM DB2
+  - ibm-db2.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.ibm-db2.md: IBM DB2
 title: Вступ
 ---
 # Вступ

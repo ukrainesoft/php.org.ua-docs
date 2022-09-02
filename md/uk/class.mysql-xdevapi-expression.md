@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-executionstatus.construct.html: '« ExecutionStatus::construct'
-  - mysql-xdevapi-expression.construct.html: 'Expression::construct »'
+  - mysql-xdevapi-executionstatus.construct.md: '« ExecutionStatus::construct'
+  - mysql-xdevapi-expression.construct.md: 'Expression::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас Expression
 ---
 # Клас Expression

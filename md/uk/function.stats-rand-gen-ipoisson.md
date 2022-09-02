@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-gen-int.html: « statsrandgenint
-  - function.stats-rand-gen-iuniform.html: statsrandgeniuniform »
+  - function.stats-rand-gen-int.md: « statsrandgenint
+  - function.stats-rand-gen-iuniform.md: statsrandgeniuniform »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandгенipoisson

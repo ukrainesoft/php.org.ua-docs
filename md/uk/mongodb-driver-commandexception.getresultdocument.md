@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-commandexception.html: « MongoDBDriverExceptionCommandException
-  - class.mongodb-driver-exception-connectionexception.html: MongoDBDriverExceptionConnectionException »
+  - class.mongodb-driver-exception-commandexception.md: « MongoDBDriverExceptionCommandException
+  - class.mongodb-driver-exception-connectionexception.md: MongoDBDriverExceptionConnectionException »
   - index.md: PHP Manual
-  - class.mongodb-driver-exception-commandexception.html: MongoDBDriverExceptionCommandException
+  - class.mongodb-driver-exception-commandexception.md: MongoDBDriverExceptionCommandException
 title: 'MongoDBDriverExceptionCommandException::getResultDocument'
 ---
 # MongoDBDriverExceptionCommandException::getResultDocument

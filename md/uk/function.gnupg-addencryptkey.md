@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gnupg-adddecryptkey.html: « gnupgadddecryptkey
-  - function.gnupg-addsignkey.html: gnupgaddsignkey »
-  - index.html: PHP Manual
-  - ref.gnupg.html: GnuPG Функції
+  - function.gnupg-adddecryptkey.md: « gnupgadddecryptkey
+  - function.gnupg-addsignkey.md: gnupgaddsignkey »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
 title: gnupgaddencryptkey
 ---
 # gnupgaddencryptkey

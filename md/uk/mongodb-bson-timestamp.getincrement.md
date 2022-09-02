@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-timestamp.construct.html: '« MongoDBBSONTimestamp::construct'
-  - mongodb-bson-timestamp.gettimestamp.html: 'MongoDBBSONTimestamp::getTimestamp »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+  - mongodb-bson-timestamp.construct.md: '« MongoDBBSONTimestamp::construct'
+  - mongodb-bson-timestamp.gettimestamp.md: 'MongoDBBSONTimestamp::getTimestamp »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
 title: 'MongoDBBSONTimestamp::getIncrement'
 ---
 # MongoDBBSONTimestamp::getIncrement
@@ -20,7 +20,7 @@ final public MongoDB\BSON\Timestamp::getIncrement(): int
 
 Компонент збільшення Timestamp - це його молодші 32 біти, які позначають порядковий номер збільшення для операцій протягом цієї секунди. Це значення читається як 32-розрядне ціле число без знака з порядком байтів у старшому порядку.
 
-> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.html)
+> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.md)
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ final public MongoDB\BSON\Timestamp::getIncrement(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 

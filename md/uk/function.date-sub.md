@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-parse.html: « dateparse
-  - function.date-sun-info.html: datesuninfo »
+  - function.date-parse.md: « dateparse
+  - function.date-sun-info.md: datesuninfo »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datesub

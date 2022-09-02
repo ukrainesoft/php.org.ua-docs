@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.zip-entry-filesize.html: « zipentryfilesize
-  - function.zip-entry-open.html: zipentryopen »
+  - function.zip-entry-filesize.md: « zipentryfilesize
+  - function.zip-entry-open.md: zipentryopen »
   - index.md: PHP Manual
   - ref.zip.md: Функции Zip
 title: zipentryname

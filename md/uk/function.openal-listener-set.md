@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-listener-get.html: « openallistenerget
-  - function.openal-source-create.html: openalsourcecreate »
+  - function.openal-listener-get.md: « openallistenerget
+  - function.openal-source-create.md: openalsourcecreate »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openallistenerset

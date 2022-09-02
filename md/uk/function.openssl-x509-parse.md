@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-x509-free.html: « opensslx509free
-  - function.openssl-x509-read.html: opensslx509read »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-x509-free.md: « opensslx509free
+  - function.openssl-x509-read.md: opensslx509read »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslx509parse
 ---
 # opensslx509parse
@@ -24,7 +24,7 @@ openssl_x509_parse(OpenSSLCertificate|string $certificate, bool $short_names = t
 
 `certificate`
 
-Сертифікат X509 Список коректних значень дивись у [Параметри Key/Certificate](openssl.certparams.html)
+Сертифікат X509 Список коректних значень дивись у [Параметри Key/Certificate](openssl.certparams.md)
 
 `short_names`
 
@@ -38,4 +38,4 @@ openssl_x509_parse(OpenSSLCertificate|string $certificate, bool $short_names = t
 
 | Версия | Описание |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |

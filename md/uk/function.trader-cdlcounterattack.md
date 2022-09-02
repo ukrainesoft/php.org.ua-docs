@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlconcealbabyswall.html: « tradercdlconcealbabyswall
-  - function.trader-cdldarkcloudcover.html: tradercdldarkcloudcover »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlconcealbabyswall.md: « tradercdlconcealbabyswall
+  - function.trader-cdldarkcloudcover.md: tradercdldarkcloudcover »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlcounterattack
 ---
 # tradercdlcounterattack

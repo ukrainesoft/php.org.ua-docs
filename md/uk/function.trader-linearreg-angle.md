@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-kama.html: « traderkama
-  - function.trader-linearreg-intercept.html: traderlinearregintercept »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-kama.md: « traderkama
+  - function.trader-linearreg-intercept.md: traderlinearregintercept »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderlinearregangle
 ---
 # traderlinearregangle

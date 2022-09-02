@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getfuncreturntype.html: '« FFICType::getFuncReturnType'
-  - ffi-ctype.getname.html: 'FFICType::getName »'
+  - ffi-ctype.getfuncreturntype.md: '« FFICType::getFuncReturnType'
+  - ffi-ctype.getname.md: 'FFICType::getName »'
   - index.md: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getKind'
 ---
 # FFICType::getKind

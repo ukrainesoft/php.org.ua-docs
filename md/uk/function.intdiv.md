@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.hypot.md: « hypot
-  - function.is-finite.html: ісfinite »
+  - function.is-finite.md: ісfinite »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції
 title: intdiv

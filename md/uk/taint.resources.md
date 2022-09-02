@@ -1,9 +1,9 @@
 ---
 navigation:
-  - taint.configuration.html: « Налаштування під час виконання
-  - taint.detail.html: Додаткові подробиці »
-  - index.html: PHP Manual
-  - taint.setup.html: Встановлення та налаштування
+  - taint.configuration.md: « Налаштування під час виконання
+  - taint.detail.md: Додаткові подробиці »
+  - index.md: PHP Manual
+  - taint.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

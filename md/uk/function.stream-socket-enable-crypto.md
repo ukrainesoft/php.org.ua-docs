@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-socket-client.html: « streamsocketclient
-  - function.stream-socket-get-name.html: streamsocketgetname »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-socket-client.md: « streamsocketclient
+  - function.stream-socket-get-name.md: streamsocketgetname »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsocketenablecrypto
 ---
 # streamsocketenablecrypto
@@ -100,5 +100,5 @@ fclose($fp);
 
 ### Дивіться також
 
--   [Функции OpenSSL](ref.openssl.html)
--   [Список підтримуваних транспортних протоколів](transports.html)
+-   [Функции OpenSSL](ref.openssl.md)
+-   [Список підтримуваних транспортних протоколів](transports.md)

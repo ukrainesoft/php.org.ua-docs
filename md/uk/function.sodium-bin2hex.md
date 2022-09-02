@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-bin2base64.html: « sodiumbin2base64
-  - function.sodium-compare.html: sodiumcompare »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-bin2base64.md: « sodiumbin2base64
+  - function.sodium-compare.md: sodiumcompare »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumbin2hex
 ---
 # sodiumbin2hex

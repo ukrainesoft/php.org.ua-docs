@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.arrayaccess.html: « ArrayAccess
-  - arrayaccess.offsetget.html: 'ArrayAccess::offsetGet »'
-  - index.html: PHP Manual
-  - class.arrayaccess.html: ArrayAccess
+  - class.arrayaccess.md: « ArrayAccess
+  - arrayaccess.offsetget.md: 'ArrayAccess::offsetGet »'
+  - index.md: PHP Manual
+  - class.arrayaccess.md: ArrayAccess
 title: 'ArrayAccess::offsetExists'
 ---
 # ArrayAccess::offsetExists
@@ -20,11 +20,11 @@ public ArrayAccess::offsetExists(mixed $offset): bool
 
 Визначає, чи існує дане зміщення (ключ).
 
-Цей метод виконується під час використання [isset()](function.isset.html) або [empty()](function.empty.html) на об'єктах, що реалізують інтерфейс [ArrayAccess](class.arrayaccess.html)
+Цей метод виконується під час використання [isset()](function.isset.md) або [empty()](function.empty.md) на об'єктах, що реалізують інтерфейс [ArrayAccess](class.arrayaccess.md)
 
 > **Зауваження**
 > 
-> При використанні функції [empty()](function.empty.html), викликається метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.html) і перевірка на порожнечу відбудеться, тільки якщо метод **ArrayAccess::offsetExists()** поверне **`true`**
+> При використанні функції [empty()](function.empty.md), викликається метод [ArrayAccess::offsetGet()](arrayaccess.offsetget.md) і перевірка на порожнечу відбудеться, тільки якщо метод **ArrayAccess::offsetExists()** поверне **`true`**
 
 ### Список параметрів
 

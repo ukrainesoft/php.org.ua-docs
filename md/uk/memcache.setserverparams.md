@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcache.setcompressthreshold.html: '« Memcache::setCompressThreshold'
-  - ref.memcache.html: Функции Memcache »
-  - index.html: PHP Manual
-  - class.memcache.html: Memcache
+  - memcache.setcompressthreshold.md: '« Memcache::setCompressThreshold'
+  - ref.memcache.md: Функции Memcache »
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
 title: 'Memcache::setServerParams'
 ---
 # Memcache::setServerParams

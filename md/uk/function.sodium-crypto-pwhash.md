@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-pwhash-str.html: « sodiumcryptopwhashstr
-  - function.sodium-crypto-scalarmult-base.html: sodiumcryptoscalarmultbase »
+  - function.sodium-crypto-pwhash-str.md: « sodiumcryptopwhashstr
+  - function.sodium-crypto-scalarmult-base.md: sodiumcryptoscalarmultbase »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptopwhash
@@ -18,7 +18,7 @@ sodiumcryptopwhash — Отримує ключ із пароля, викорис
 sodium_crypto_pwhash(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit,    int $algo = SODIUM_CRYPTO_PWHASH_ALG_DEFAULT): string
 ```
 
-Ця функція надає низькорівневий доступ до функції cryptopwhash бібліотеки libsodium. Якщо у вас немає принципової необхідності в цій функції, краще використовувати [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html) або [passwordhash()](function.password-hash.md)
+Ця функція надає низькорівневий доступ до функції cryptopwhash бібліотеки libsodium. Якщо у вас немає принципової необхідності в цій функції, краще використовувати [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md) або [passwordhash()](function.password-hash.md)
 
 Найпоширеніша причина використання цієї конкретної функції - отримати початкові числа для криптографічних ключів з пароля та солі, а потім використовувати ці початкові числа для генерації фактичних ключів, необхідних для деяких цілей (наприклад, [sodiumcryptosigndetached()](function.sodium-crypto-sign-detached.md)
 

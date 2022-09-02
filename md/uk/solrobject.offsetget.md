@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrobject.offsetexists.html: '« SolrObject::offsetExists'
-  - solrobject.offsetset.html: 'SolrObject::offsetSet »'
-  - index.html: PHP Manual
-  - class.solrobject.html: SolrObject
+  - solrobject.offsetexists.md: '« SolrObject::offsetExists'
+  - solrobject.offsetset.md: 'SolrObject::offsetSet »'
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
 title: 'SolrObject::offsetGet'
 ---
 # SolrObject::offsetGet

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-gettypeinfo.html: « odbcgettypeinfo
-  - function.odbc-next-result.html: odbcnextresult »
+  - function.odbc-gettypeinfo.md: « odbcgettypeinfo
+  - function.odbc-next-result.md: odbcnextresult »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbclongreadlen
@@ -18,7 +18,7 @@ odbclongreadlen - Обробляє стовпці LONG
 odbc_longreadlen(resource $statement, int $length): bool
 ```
 
-Керує обробкою стовпців `LONG` `LONGVARCHAR` і `LONGVARBINARY`. Довжина за замовчуванням може бути встановлена ​​за допомогою директиви php.ini [uodbc.defaultlrl](odbc.configuration.html#ini.uodbc.defaultlrl)
+Керує обробкою стовпців `LONG` `LONGVARCHAR` і `LONGVARBINARY`. Довжина за замовчуванням може бути встановлена ​​за допомогою директиви php.ini [uodbc.defaultlrl](odbc.configuration.md#ini.uodbc.defaultlrl)
 
 ### Список параметрів
 

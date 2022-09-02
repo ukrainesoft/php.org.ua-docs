@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.libxml-disable-entity-loader.html: « libxmldisableentityloader
-  - function.libxml-get-last-error.html: libxmlgetlasterror »
+  - function.libxml-disable-entity-loader.md: « libxmldisableentityloader
+  - function.libxml-get-last-error.md: libxmlgetlasterror »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
 title: libxmlgeterrors

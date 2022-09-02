@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.svn.md: « Функції SVN
-  - function.svn-auth-get-parameter.html: svnauthgetparameter »
+  - function.svn-auth-get-parameter.md: svnauthgetparameter »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnadd

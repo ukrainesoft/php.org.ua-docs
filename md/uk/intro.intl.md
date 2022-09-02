@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.intl.html: « intl
-  - intl.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - book.intl.md: « intl
+  - intl.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Вступ
 ---
 # Вступ

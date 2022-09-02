@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.file-exists.html: « fileexists
-  - function.file-put-contents.html: fileputcontents »
+  - function.file-exists.md: « fileexists
+  - function.file-put-contents.md: fileputcontents »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: filegetcontents
@@ -36,7 +36,7 @@ file_get_contents(    string $filename,    bool $use_include_path = fals
 
 > **Зауваження**
 > 
-> Можна використовувати константу **`FILE_USE_INCLUDE_PATH`** для пошуку файлу в [include path](ini.core.html#ini.include-path). Тільки пам'ятайте, що якщо ви використовуєте [строгую типизацию](language.types.declarations.html#language.types.declarations.strict), то так зробити не вийде, оскільки **`FILE_USE_INCLUDE_PATH`** має тип int. У такому разі використовуйте **`true`**
+> Можна використовувати константу **`FILE_USE_INCLUDE_PATH`** для пошуку файлу в [include path](ini.core.md#ini.include-path). Тільки пам'ятайте, що якщо ви використовуєте [строгую типизацию](language.types.declarations.md#language.types.declarations.strict), то так зробити не вийде, оскільки **`FILE_USE_INCLUDE_PATH`** має тип int. У такому разі використовуйте **`true`**
 
 `context`
 
@@ -137,11 +137,11 @@ $file = file_get_contents('http://www.example.com/', false, $context);
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 **Увага**
 
-При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.md) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
+При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.md#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.md) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
 
 ### Дивіться також
 

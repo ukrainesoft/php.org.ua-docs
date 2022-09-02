@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-browser.html: « getbrowser
-  - function.highlight-file.html: highlightfile »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.get-browser.md: « getbrowser
+  - function.highlight-file.md: highlightfile »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: haltcompiler
 ---
 # haltcompiler

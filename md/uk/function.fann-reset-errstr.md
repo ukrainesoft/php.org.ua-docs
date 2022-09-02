@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-reset-errno.html: « fannreseterrno
-  - function.fann-reset-mse.html: fannresetMSE »
+  - function.fann-reset-errno.md: « fannreseterrno
+  - function.fann-reset-mse.md: fannresetMSE »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannreseterrstr

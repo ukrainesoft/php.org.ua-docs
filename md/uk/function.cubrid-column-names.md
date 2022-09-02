@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-col-size.html: « cubridcolsize
-  - function.cubrid-column-types.html: cubridcolumntypes »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-col-size.md: « cubridcolsize
+  - function.cubrid-column-types.md: cubridcolumntypes »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridcolumnnames
 ---
 # cubridcolumnnames
@@ -67,6 +67,6 @@ game_date                      date                           10
 
 ### Дивіться також
 
--   [cubridprepare()](function.cubrid-prepare.html) - Підготовляє SQL-вираз до виконання
--   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubridcolumntypes()](function.cubrid-column-types.html) - Отримати типи стовпців у результуючому наборі
+-   [cubridprepare()](function.cubrid-prepare.md) - Підготовляє SQL-вираз до виконання
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubridcolumntypes()](function.cubrid-column-types.md) - Отримати типи стовпців у результуючому наборі

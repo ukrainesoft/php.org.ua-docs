@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionenum.isbacked.html: '« ReflectionEnum::isBacked'
-  - reflectionenumunitcase.construct.html: 'ReflectionEnumUnitCase::construct »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionenum.isbacked.md: '« ReflectionEnum::isBacked'
+  - reflectionenumunitcase.construct.md: 'ReflectionEnumUnitCase::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас ReflectionEnumUnitCase
 ---
 # Клас ReflectionEnumUnitCase

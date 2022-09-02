@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-loader.getinstance.html: '« YafLoader::getInstance'
-  - yaf-loader.getlocalnamespace.html: 'YafLoader::getLocalNamespace »'
+  - yaf-loader.getinstance.md: '« YafLoader::getInstance'
+  - yaf-loader.getlocalnamespace.md: 'YafLoader::getLocalNamespace »'
   - index.md: PHP Manual
-  - class.yaf-loader.html: YafLoader
+  - class.yaf-loader.md: YafLoader
 title: 'YafLoader::getLibraryPath'
 ---
 # YafLoader::getLibraryPath

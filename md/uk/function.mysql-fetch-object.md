@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-fetch-lengths.html: « mysqlfetchlengths
-  - function.mysql-fetch-row.html: mysqlfetchrow »
+  - function.mysql-fetch-lengths.md: « mysqlfetchlengths
+  - function.mysql-fetch-row.md: mysqlfetchrow »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlfetchobject
@@ -83,7 +83,7 @@ var_dump($obj);
 
 > **Зауваження** **Продуктивність**
 > 
-> У плані швидкості ця функція аналогічна [mysqlfetcharray()](function.mysql-fetch-array.html) і майже також швидка, як [mysqlfetchrow()](function.mysql-fetch-row.md) (Різниця незначна).
+> У плані швидкості ця функція аналогічна [mysqlfetcharray()](function.mysql-fetch-array.md) і майже також швидка, як [mysqlfetchrow()](function.mysql-fetch-row.md) (Різниця незначна).
 
 > **Зауваження**
 > 

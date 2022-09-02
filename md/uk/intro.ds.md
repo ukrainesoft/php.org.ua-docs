@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.ds.html: « Структури даних
-  - ds.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.ds.html: Структури даних
+  - book.ds.md: « Структури даних
+  - ds.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
 title: Вступ
 ---
 # Вступ

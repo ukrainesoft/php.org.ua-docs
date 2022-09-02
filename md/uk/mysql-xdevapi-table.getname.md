@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-table.existsindatabase.html: '« Table::existsInDatabase'
-  - mysql-xdevapi-table.getschema.html: 'Table::getSchema »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+  - mysql-xdevapi-table.existsindatabase.md: '« Table::existsInDatabase'
+  - mysql-xdevapi-table.getschema.md: 'Table::getSchema »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
 title: 'Table::getName'
 ---
 # Table::getName

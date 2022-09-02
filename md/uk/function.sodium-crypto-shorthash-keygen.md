@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-secretstream-xchacha20poly1305-rekey.html: « sodiumcryptosecretstreamxchacha20poly1305rekey
-  - function.sodium-crypto-shorthash.html: sodiumcryptoshorthash »
+  - function.sodium-crypto-secretstream-xchacha20poly1305-rekey.md: « sodiumcryptosecretstreamxchacha20poly1305rekey
+  - function.sodium-crypto-shorthash.md: sodiumcryptoshorthash »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptoshorthashkeygen

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.join.html: '« DsVector::join'
-  - ds-vector.last.html: 'ДсVector::last »'
+  - ds-vector.join.md: '« DsVector::join'
+  - ds-vector.last.md: 'ДсVector::last »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::jsonSerialize'
 ---
 # ДсVector::jsonSerialize

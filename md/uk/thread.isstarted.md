@@ -1,9 +1,9 @@
 ---
 navigation:
-  - thread.isjoined.html: '« Thread::isJoined'
-  - thread.join.html: 'Thread::join »'
-  - index.html: PHP Manual
-  - class.thread.html: Thread
+  - thread.isjoined.md: '« Thread::isJoined'
+  - thread.join.md: 'Thread::join »'
+  - index.md: PHP Manual
+  - class.thread.md: Thread
 title: 'Thread::isStarted'
 ---
 # Thread::isStarted

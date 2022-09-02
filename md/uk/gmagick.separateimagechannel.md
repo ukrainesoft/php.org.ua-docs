@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.scaleimage.html: '« Gmagick::scaleimage'
-  - gmagick.setcompressionquality.html: 'Gmagick::setCompressionQuality »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.scaleimage.md: '« Gmagick::scaleimage'
+  - gmagick.setcompressionquality.md: 'Gmagick::setCompressionQuality »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::separateimagechannel'
 ---
 # Gmagick::separateimagechannel
@@ -24,7 +24,7 @@ public Gmagick::separateimagechannel(int $channel): Gmagick
 
 `channel`
 
-Одна з констант [канала](gmagick.constants.html#gmagick.constants.channel) `Gmagick::CHANNEL_*`
+Одна з констант [канала](gmagick.constants.md#gmagick.constants.channel) `Gmagick::CHANNEL_*`
 
 ### Значення, що повертаються
 

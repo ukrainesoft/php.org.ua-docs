@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidynode.isphp.html: '« tidyNode::isPhp'
-  - ref.tidy.html: Tidy »
-  - index.html: PHP Manual
-  - class.tidynode.html: tidyNode
+  - tidynode.isphp.md: '« tidyNode::isPhp'
+  - ref.tidy.md: Tidy »
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
 title: 'tidyNode::isText'
 ---
 # tidyNode::isText

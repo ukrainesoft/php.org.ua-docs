@@ -1,16 +1,16 @@
 ---
 navigation:
-  - changelog.mysql.html: « Список изменений
-  - mysql.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.mysql.html: MySQL (Original)
+  - changelog.mysql.md: « Список изменений
+  - mysql.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.mysql.md: MySQL (Original)
 title: Обумовлені константи
 ---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-Можна вказати додаткові прапори клієнта для функцій [mysqlconnect()](function.mysql-connect.html) і [mysqlpconnect()](function.mysql-pconnect.html) функцій. Зумовлено такі константи:
+Можна вказати додаткові прапори клієнта для функцій [mysqlconnect()](function.mysql-connect.md) і [mysqlpconnect()](function.mysql-pconnect.md) функцій. Зумовлено такі константи:
 
 **Клієнтські константи MySQL**
 
@@ -21,7 +21,7 @@ title: Обумовлені константи
 | **`MYSQL_CLIENT_INTERACTIVE`** | Дозволяє interactivetimeout секунд (замість **waittimeout**) бездіяльності до закриття з'єднання. |
 | **`MYSQL_CLIENT_SSL`** | Використовувати шифрування SSL. Цей прапор доступний лише з версії 4.x клієнтської бібліотеки MySQL. Версія 3.23.x поставляється як у PHP 4, так і з бінарним дистрибутивом Windows у PHP 5. |
 
-Функція [mysqlfetcharray()](function.mysql-fetch-array.html) використовує константи для визначення типу масива, що повертається. Зумовлено такі константи:
+Функція [mysqlfetcharray()](function.mysql-fetch-array.md) використовує константи для визначення типу масива, що повертається. Зумовлено такі константи:
 
 **Константи вибірки MySQL**
 

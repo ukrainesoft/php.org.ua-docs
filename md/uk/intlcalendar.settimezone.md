@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.settime.html: '« IntlCalendar::setTime'
-  - intlcalendar.todatetime.html: 'IntlCalendar::toDateTime »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.settime.md: '« IntlCalendar::setTime'
+  - intlcalendar.todatetime.md: 'IntlCalendar::toDateTime »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::setTimeZone'
 ---
 # IntlCalendar::setTimeZone
@@ -32,19 +32,19 @@ intlcal_set_time_zone(IntlCalendar $calendar, IntlTimeZone|DateTimeZone|string|n
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `timezone`
 
 Новий часовий пояс, який використовуватиме календар. Його можна вказати такими способами:
 
--   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.html#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.html) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.html)
+-   Якщо **`null`**, то буде використаний часовий пояс за замовчуванням, задана в ini-налаштування [date.timezone](datetime.configuration.md#ini.date.timezone) або за допомогою функції [datedefaulttimezoneset()](function.date-default-timezone-set.md) та повернена функцією [datedefaulttimezoneget()](function.date-default-timezone-get.md)
     
--   Об'єкт класу [IntlTimeZone](class.intltimezone.html)
+-   Об'єкт класу [IntlTimeZone](class.intltimezone.md)
     
--   Об'єкт класу [DateTimeZone](class.datetimezone.html). Його ідентифікатор буде вилучено і на його основі буде створено об'єкт часового поясу ICU; часовий пояс буде збережено в базі даних ICU, а не PHP.
+-   Об'єкт класу [DateTimeZone](class.datetimezone.md). Його ідентифікатор буде вилучено і на його основі буде створено об'єкт часового поясу ICU; часовий пояс буде збережено в базі даних ICU, а не PHP.
     
--   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться [IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.html). "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
+-   Рядок є коректним ідентифікатором часового поясу ICU. Дивіться [IntlTimeZone::createTimeZoneIDEnumeration()](intltimezone.createtimezoneidenumeration.md). "Сирі" усунення, типу `"GMT+08:30"`, також підтримуються.
     
 
 ### Значення, що повертаються

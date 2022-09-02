@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.geoip-region-name-by-code.html: « geoipregionnameбcode
-  - function.geoip-time-zone-by-country-and-region.html: geoiptimezoneбcountryandregion »
+  - function.geoip-region-name-by-code.md: « geoipregionnameбcode
+  - function.geoip-time-zone-by-country-and-region.md: geoiptimezoneбcountryandregion »
   - index.md: PHP Manual
   - ref.geoip.md: Функции GeoIP
 title: geoipsetupcustomdirectory
@@ -18,7 +18,7 @@ geoipsetupcustomdirectory — Встановити власну директор
 geoip_setup_custom_directory(string $path): void
 ```
 
-Функція **geoipsetupcustomdirectory()** змінює каталог за промовчанням для бази даних GeoIP. Використання функції еквівалентно зміни [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory)
+Функція **geoipsetupcustomdirectory()** змінює каталог за промовчанням для бази даних GeoIP. Використання функції еквівалентно зміни [geoip.customdirectory](geoip.configuration.md#ini.geoip.custom-directory)
 
 ### Список параметрів
 

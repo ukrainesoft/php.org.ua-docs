@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-x509-fingerprint.html: « opensslx509fingerprint
-  - function.openssl-x509-parse.html: opensslx509parse »
+  - function.openssl-x509-fingerprint.md: « opensslx509fingerprint
+  - function.openssl-x509-parse.md: opensslx509parse »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslx509free

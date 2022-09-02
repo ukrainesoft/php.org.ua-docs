@@ -26,4 +26,4 @@ public ImagickDraw::getStrokeLineCap(): int
 
 ### Значення, що повертаються
 
-Повертає константу [LINECAP](imagick.constants.html#imagick.constants.linecap) `imagick::LINECAP_*`) або 0, якщо форма обведення не задана.
+Повертає константу [LINECAP](imagick.constants.md#imagick.constants.linecap) `imagick::LINECAP_*`) або 0, якщо форма обведення не задана.

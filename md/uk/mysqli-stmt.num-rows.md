@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.next-result.html: '« mysqlistmt::nextresult'
-  - mysqli-stmt.param-count.html: 'mysqlistmt::$paramcount »'
+  - mysqli-stmt.next-result.md: '« mysqlistmt::nextresult'
+  - mysqli-stmt.param-count.md: 'mysqlistmt::$paramcount »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::$numrows'
 ---
 # mysqlistmt::$numrows
@@ -40,7 +40,7 @@ mysqli_stmt_num_rows(mysqli_stmt $statement): int|string
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

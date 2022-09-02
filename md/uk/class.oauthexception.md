@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauthprovider.tokenhandler.html: '« OAuthProvider::tokenHandler'
-  - book.soap.html: SOAP »
-  - index.html: PHP Manual
-  - book.oauth.html: OAuth
+  - oauthprovider.tokenhandler.md: '« OAuthProvider::tokenHandler'
+  - book.soap.md: SOAP »
+  - index.md: PHP Manual
+  - book.oauth.md: OAuth
 title: Клас OAuthException
 ---
 # Клас OAuthException

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-rowresult.fetchone.html: '« RowResult::fetchOne'
-  - mysql-xdevapi-rowresult.getcolumnnames.html: 'RowResult::getColumnNames »'
+  - mysql-xdevapi-rowresult.fetchone.md: '« RowResult::fetchOne'
+  - mysql-xdevapi-rowresult.getcolumnnames.md: 'RowResult::getColumnNames »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
 title: 'RowResult::getColumnsCount'
 ---
 # RowResult::getColumnsCount

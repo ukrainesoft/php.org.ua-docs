@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdleveningdojistar.html: « tradercdleveningdojistar
-  - function.trader-cdlgapsidesidewhite.html: tradercdlgapsidesidewhite »
+  - function.trader-cdleveningdojistar.md: « tradercdleveningdojistar
+  - function.trader-cdlgapsidesidewhite.md: tradercdlgapsidesidewhite »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdleveningstar

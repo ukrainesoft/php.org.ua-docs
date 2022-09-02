@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-set-option.html: « db2setoption
-  - function.db2-statistics.html: db2statistics »
+  - function.db2-set-option.md: « db2setoption
+  - function.db2-statistics.md: db2statistics »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2specialcolumns
 ---
 # db2specialcolumns

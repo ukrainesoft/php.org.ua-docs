@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-regex-encoding.html: « mbregexencoding
-  - function.mb-scrub.html: мбscrub »
+  - function.mb-regex-encoding.md: « mbregexencoding
+  - function.mb-scrub.md: мбscrub »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбregexsetoptions

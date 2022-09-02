@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-sarprop-weight-decay-shift.html: « fanngetsarpropweightdecayshift
-  - function.fann-get-total-neurons.html: fanngettotalneurons »
+  - function.fann-get-sarprop-weight-decay-shift.md: « fanngetsarpropweightdecayshift
+  - function.fann-get-total-neurons.md: fanngettotalneurons »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngettotalconnections

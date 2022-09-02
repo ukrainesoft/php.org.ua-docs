@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.fputcsv.html: '« SplFileObject::fputcsv'
-  - splfileobject.fscanf.html: 'SplFileObject::fscanf »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.fputcsv.md: '« SplFileObject::fputcsv'
+  - splfileobject.fscanf.md: 'SplFileObject::fscanf »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fread'
 ---
 # SplFileObject::fread
@@ -47,8 +47,8 @@ $contents = $file->fread($file->getSize());
 
 > **Зауваження**
 > 
-> Зверніть увагу, що **SplFileObject::fread()** читає з поточної позиції покажчика файлу. Використовуйте [SplFileObject::ftell()](splfileobject.ftell.html) для пошуку поточної позиції покажчика та [SplFileObject::rewind()](splfileobject.rewind.html) (або [SplFileObject::fseek()](splfileobject.fseek.html)) Зміни його позиції.
+> Зверніть увагу, що **SplFileObject::fread()** читає з поточної позиції покажчика файлу. Використовуйте [SplFileObject::ftell()](splfileobject.ftell.md) для пошуку поточної позиції покажчика та [SplFileObject::rewind()](splfileobject.rewind.md) (або [SplFileObject::fseek()](splfileobject.fseek.md)) Зміни його позиції.
 
 ### Дивіться також
 
--   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
+-   [fread()](function.fread.md) - Бінарно-безпечне читання файлу

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.isconnected.html: '« SwooleCoroutineHttpClient::isConnected'
-  - swoole-coroutine-http-client.recv.html: 'SwooleCoroutineHttpClient::recv »'
-  - index.html: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - swoole-coroutine-http-client.isconnected.md: '« SwooleCoroutineHttpClient::isConnected'
+  - swoole-coroutine-http-client.recv.md: 'SwooleCoroutineHttpClient::recv »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::post'
 ---
 # SwooleCoroutineHttpClient::post

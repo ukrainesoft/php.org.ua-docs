@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-create-immutable.html: « datecreateimmutable
-  - function.date-date-set.html: datedateset »
+  - function.date-create-immutable.md: « datecreateimmutable
+  - function.date-date-set.md: datedateset »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datecreate

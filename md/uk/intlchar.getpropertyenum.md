@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.getnumericvalue.html: '« IntlChar::getNumericValue'
-  - intlchar.getpropertyname.html: 'IntlChar::getPropertyName »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.getnumericvalue.md: '« IntlChar::getNumericValue'
+  - intlchar.getpropertyname.md: 'IntlChar::getPropertyName »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::getPropertyEnum'
 ---
 # IntlChar::getPropertyEnum
@@ -22,7 +22,7 @@ public static IntlChar::getPropertyEnum(string $alias): int
 
 Додатково ця функція пов'язує синтетичне ім'я "gcm" / "GeneralCategoryMask" з властивістю **`IntlChar::PROPERTY_GENERAL_CATEGORY_MASK`**.Цих імен немає в PropertyAliases.txt.
 
-Функція близька до [IntlChar::getPropertyName()](intlchar.getpropertyname.html)
+Функція близька до [IntlChar::getPropertyName()](intlchar.getpropertyname.md)
 
 ### Список параметрів
 
@@ -58,4 +58,4 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::getPropertyName()](intlchar.getpropertyname.html) - Отримати Unicode ім'я властивості
+-   [IntlChar::getPropertyName()](intlchar.getpropertyname.md) - Отримати Unicode ім'я властивості

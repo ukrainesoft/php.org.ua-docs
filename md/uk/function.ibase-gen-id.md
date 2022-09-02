@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-free-result.html: « ibasefreeresult
-  - function.ibase-maintain-db.html: ibasemaintaindb »
+  - function.ibase-free-result.md: « ibasefreeresult
+  - function.ibase-maintain-db.md: ibasemaintaindb »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseгенід

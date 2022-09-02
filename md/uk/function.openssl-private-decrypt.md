@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkey-new.html: « opensslpkeynew
-  - function.openssl-private-encrypt.html: opensslprivateencrypt »
+  - function.openssl-pkey-new.md: « opensslpkeynew
+  - function.openssl-private-encrypt.md: opensslprivateencrypt »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslprivatedecrypt

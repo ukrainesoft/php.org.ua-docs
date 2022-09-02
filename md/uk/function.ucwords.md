@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.ucfirst.md: « ucfirst
-  - function.utf8-decode.html: utf8decode »
+  - function.utf8-decode.md: utf8decode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: ucwords

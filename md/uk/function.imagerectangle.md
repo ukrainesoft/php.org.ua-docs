@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagepolygon.html: « imagepolygon
-  - function.imageresolution.html: imageresolution »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagepolygon.md: « imagepolygon
+  - function.imageresolution.md: imageresolution »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagerectangle
 ---
 # imagerectangle
@@ -24,7 +24,7 @@ imagerectangle(    GdImage $image,    int $x1,    int $y1,    in
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x1`
 
@@ -44,7 +44,7 @@ imagerectangle(    GdImage $image,    int $x1,    int $y1,    in
 
 `color`
 
-Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -54,7 +54,7 @@ imagerectangle(    GdImage $image,    int $x1,    int $y1,    in
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

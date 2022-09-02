@@ -1,7 +1,7 @@
 ---
 navigation:
   - win32service.examples.md: « Приклади
-  - function.win32-continue-service.html: win32continueservice »
+  - function.win32-continue-service.md: win32continueservice »
   - index.md: PHP Manual
   - book.win32service.md: win32service
 title: win32service

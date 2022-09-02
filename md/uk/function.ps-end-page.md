@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-delete.html: «psdelete
-  - function.ps-end-pattern.html: псendpattern »
+  - function.ps-delete.md: «psdelete
+  - function.ps-end-pattern.md: псendpattern »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псendpage

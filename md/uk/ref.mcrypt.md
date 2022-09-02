@@ -1,7 +1,7 @@
 ---
 navigation:
   - mcrypt.ciphers.md: « Шифри Mcrypt
-  - function.mcrypt-create-iv.html: mcryptcreateiv »
+  - function.mcrypt-create-iv.md: mcryptcreateiv »
   - index.md: PHP Manual
   - book.mcrypt.md: Mcrypt
 title: Mcrypt

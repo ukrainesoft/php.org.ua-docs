@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-encryptsign.html: « gnupgencryptsign
-  - function.gnupg-getengineinfo.html: gnupggetengineinfo »
+  - function.gnupg-encryptsign.md: « gnupgencryptsign
+  - function.gnupg-getengineinfo.md: gnupggetengineinfo »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgexport

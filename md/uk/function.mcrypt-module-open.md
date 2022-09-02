@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-module-is-block-mode.html: « mcryptmoduleісblockmode
-  - function.mcrypt-module-self-test.html: mcryptmoduleselftest »
+  - function.mcrypt-module-is-block-mode.md: « mcryptmoduleісblockmode
+  - function.mcrypt-module-self-test.md: mcryptmoduleselftest »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptmoduleopen

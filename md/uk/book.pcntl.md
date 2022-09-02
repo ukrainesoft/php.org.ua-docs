@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.expect-popen.html: « expectpopen
+  - function.expect-popen.md: « expectpopen
   - intro.pcntl.md: Введение »
   - index.md: PHP Manual
   - refs.fileprocess.process.md: Модули для управления процессами программ

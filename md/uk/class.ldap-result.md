@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ldap-connection.html: « LDAPConnection
-  - class.ldap-result-entry.html: LDAPResultEntry »
-  - index.html: PHP Manual
-  - book.ldap.html: LDAP
+  - class.ldap-connection.md: « LDAPConnection
+  - class.ldap-result-entry.md: LDAPResultEntry »
+  - index.md: PHP Manual
+  - book.ldap.md: LDAP
 title: Клас LDAPResult
 ---
 # Клас LDAPResult

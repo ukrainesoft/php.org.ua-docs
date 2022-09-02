@@ -1,9 +1,9 @@
 ---
 navigation:
-  - multipleiterator.containsiterator.html: '« MultipleIterator::containsIterator'
-  - multipleiterator.current.html: 'MultipleIterator::current »'
-  - index.html: PHP Manual
-  - class.multipleiterator.html: MultipleIterator
+  - multipleiterator.containsiterator.md: '« MultipleIterator::containsIterator'
+  - multipleiterator.current.md: 'MultipleIterator::current »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::countIterators'
 ---
 # MultipleIterator::countIterators
@@ -34,4 +34,4 @@ public MultipleIterator::countIterators(): int
 
 ### Дивіться також
 
--   [MultipleIterator::containsIterator()](multipleiterator.containsiterator.html) - Перевіряє, чи приєднано ітератора
+-   [MultipleIterator::containsIterator()](multipleiterator.containsiterator.md) - Перевіряє, чи приєднано ітератора

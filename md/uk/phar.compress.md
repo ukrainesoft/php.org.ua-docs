@@ -24,7 +24,7 @@ public Phar::compress(int $compression, ?string $extension = null): ?Phar
 
 У разі використання з phar-архівами, заснованими на tar або phar, цей метод стискає весь архів, використовуючи gzip- або bzip2-стиск. Отриманий файл може бути оброблений однією з команд gunzip/bunzip; до нього можна отримати прямий доступ, використовуючи модуль Phar.
 
-У разі використання з phar-архівами, що базуються на zip, виклик цього методу зазнає невдачі і буде кинуто виняток. Для стиснення за алгоритмом gzip має бути включений модуль [zlib](ref.zlib.md). Для стиснення алгоритму bzip2 повинен бути включений модуль [bzip2](ref.bzip2.md). Як і у випадку з іншим функціоналом, що модифікує зміст phar-архіву, для успішної роботи даного методу необхідно, щоб INI-змінна [phar.readonly](phar.configuration.html#ini.phar.readonly) було відключено.
+У разі використання з phar-архівами, що базуються на zip, виклик цього методу зазнає невдачі і буде кинуто виняток. Для стиснення за алгоритмом gzip має бути включений модуль [zlib](ref.zlib.md). Для стиснення алгоритму bzip2 повинен бути включений модуль [bzip2](ref.bzip2.md). Як і у випадку з іншим функціоналом, що модифікує зміст phar-архіву, для успішної роботи даного методу необхідно, щоб INI-змінна [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено.
 
 Крім того, цей метод автоматично перейменовує архів, додаючи `.gz` `.bz2` або видаляючи розширення, якщо перший параметр був переданий `Phar::NONE`, що повідомляє про необхідність розпакування. Як альтернатива розширення файлу може бути задано за допомогою другого параметра.
 
@@ -44,7 +44,7 @@ public Phar::compress(int $compression, ?string $extension = null): ?Phar
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо INI-змінна [phar.readonly](phar.configuration.html#ini.phar.readonly) включена, модуль [zlib](ref.zlib.md) не доступний або модуль [bzip2](ref.bzip2.md) не увімкнуто.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо INI-змінна [phar.readonly](phar.configuration.md#ini.phar.readonly) включена, модуль [zlib](ref.zlib.md) не доступний або модуль [bzip2](ref.bzip2.md) не увімкнуто.
 
 ### список змін
 

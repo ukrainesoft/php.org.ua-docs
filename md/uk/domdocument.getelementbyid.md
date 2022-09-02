@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domdocument.createtextnode.html: '« DOMDocument::createTextNode'
-  - domdocument.getelementsbytagname.html: 'DOMDocument::getElementsByTagName »'
-  - index.html: PHP Manual
-  - class.domdocument.html: DOMDocument
+  - domdocument.createtextnode.md: '« DOMDocument::createTextNode'
+  - domdocument.getelementsbytagname.md: 'DOMDocument::getElementsByTagName »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
 title: 'DOMDocument::getElementById'
 ---
 # DOMDocument::getElementById
@@ -18,9 +18,9 @@ DOMDocument::getElementById — Шукає елемент із певним ід
 public DOMDocument::getElementById(string $elementId): ?DOMElement
 ```
 
-Ця функція схожа на [DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.html), але шукає елемент із заданим ідентифікатором.
+Ця функція схожа на [DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.md), але шукає елемент із заданим ідентифікатором.
 
-Для роботи цієї функції необхідно встановити атрибути ідентифікаторів за допомогою [DOMElement::setIdAttribute](domelement.setidattribute.html)або DTD, який визначає атрибут ідентифікатора типу. В останньому випадку перед використанням цієї функції вам необхідно буде перевірити документ за допомогою [DOMDocument::validate](domdocument.validate.html) або [DOMDocument::$validateOnParse](class.domdocument.html#domdocument.props.validateonparse)
+Для роботи цієї функції необхідно встановити атрибути ідентифікаторів за допомогою [DOMElement::setIdAttribute](domelement.setidattribute.md)або DTD, який визначає атрибут ідентифікатора типу. В останньому випадку перед використанням цієї функції вам необхідно буде перевірити документ за допомогою [DOMDocument::validate](domdocument.validate.md) або [DOMDocument::$validateOnParse](class.domdocument.md#domdocument.props.validateonparse)
 
 ### Список параметрів
 
@@ -30,7 +30,7 @@ public DOMDocument::getElementById(string $elementId): ?DOMElement
 
 ### Значення, що повертаються
 
-Повертає об'єкт [DOMElement](class.domelement.html) або **`null`**, якщо елемент не знайдено.
+Повертає об'єкт [DOMElement](class.domelement.md) або **`null`**, якщо елемент не знайдено.
 
 ### Приклади
 
@@ -66,4 +66,4 @@ echo "Элемент с идентификатором 'php-basics': " . 
 
 ### Дивіться також
 
--   [DOMDocument::getElementsByTagName()](domdocument.getelementsbytagname.html) - Шукає всі елементи із заданим локальним ім'ям
+-   [DOMDocument::getElementsByTagName()](domdocument.getelementsbytagname.md) - Шукає всі елементи із заданим локальним ім'ям

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagegammacorrect.html: « imagegammacorrect
-  - function.imagegd.html: imagegd »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagegammacorrect.md: « imagegammacorrect
+  - function.imagegd.md: imagegd »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegd2
 ---
 # imagegd2
@@ -24,7 +24,7 @@ imagegd2(    GdImage $image,    ?string $file = null,    int $chunk_
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -51,7 +51,7 @@ imagegd2(    GdImage $image,    ?string $file = null,    int $chunk_
 | Версия | Описание |
 | --- | --- |
 |  | `file` тепер допускає значення null. |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -102,4 +102,4 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagegd()](function.imagegd.html) - Виведення GD-зображення у браузер або файл
+-   [imagegd()](function.imagegd.md) - Виведення GD-зображення у браузер або файл

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-field-name.html: « db2fieldname
-  - function.db2-field-precision.html: db2fieldprecision »
+  - function.db2-field-name.md: « db2fieldname
+  - function.db2-field-precision.md: db2fieldprecision »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2fieldnum
 ---
 # db2fieldnum

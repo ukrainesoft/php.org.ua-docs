@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-response-abstract.appendbody.html: '« YafResponseAbstract::appendBody'
-  - yaf-response-abstract.clearheaders.html: 'YafResponseAbstract::clearHeaders »'
+  - yaf-response-abstract.appendbody.md: '« YafResponseAbstract::appendBody'
+  - yaf-response-abstract.clearheaders.md: 'YafResponseAbstract::clearHeaders »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.html: YafResponseAbstract
+  - class.yaf-response-abstract.md: YafResponseAbstract
 title: 'YafResponseAbstract::clearBody'
 ---
 # YafResponseAbstract::clearBody

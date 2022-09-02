@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.intl-is-failure.html: « intlісfailure
+  - function.intl-is-failure.md: « intlісfailure
   - intro.mbstring.md: Введение »
   - index.md: PHP Manual
   - refs.international.md: Підтримка мов та кодувань

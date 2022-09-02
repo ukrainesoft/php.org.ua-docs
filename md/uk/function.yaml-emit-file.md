@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.yaml.html: « Функции Yaml
-  - function.yaml-emit.html: yamlemit »
-  - index.html: PHP Manual
-  - ref.yaml.html: Функции Yaml
+  - ref.yaml.md: « Функции Yaml
+  - function.yaml-emit.md: yamlemit »
+  - index.md: PHP Manual
+  - ref.yaml.md: Функции Yaml
 title: yamlemitfile
 ---
 # yamlemitfile
@@ -40,7 +40,7 @@ yaml_emit_file(    string $filename,    mixed $data,    int $encodin
 
 `callbacks`
 
-Обробники контенту для створення вузлів YAML. Асоціативний масив (array), де як ключі використовуються імена класів, а як значення callback-функції ([callable](language.types.callable.html)), які створюватимуть вузли для цих класів. Більше подробиць можна дізнатись у розділі про [публікуючі callback-функції](yaml.callbacks.emit.html)
+Обробники контенту для створення вузлів YAML. Асоціативний масив (array), де як ключі використовуються імена класів, а як значення callback-функції ([callable](language.types.callable.md)), які створюватимуть вузли для цих класів. Більше подробиць можна дізнатись у розділі про [публікуючі callback-функції](yaml.callbacks.emit.md)
 
 ### Значення, що повертаються
 
@@ -54,5 +54,5 @@ yaml_emit_file(    string $filename,    mixed $data,    int $encodin
 
 ### Дивіться також
 
--   [yamlemit()](function.yaml-emit.html) - Повертає YAML-подання значення
--   [yamlparse()](function.yaml-parse.html) - Розбирає потік YAML
+-   [yamlemit()](function.yaml-emit.md) - Повертає YAML-подання значення
+-   [yamlparse()](function.yaml-parse.md) - Розбирає потік YAML

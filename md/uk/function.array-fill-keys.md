@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-diff.html: « arraydiff
-  - function.array-fill.html: arrayfill »
+  - function.array-diff.md: « arraydiff
+  - function.array-fill.md: arrayfill »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayfillkeys

@@ -34,7 +34,7 @@ public PharData::compressFiles(int $compression): void
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.md) якщо вимкнено INI-опцію [phar.readonly](phar.configuration.html#ini.phar.readonly), якщо відсутній необхідний модуль [zlib](ref.zlib.md) або [bzip2](ref.bzip2.md)
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md) якщо вимкнено INI-опцію [phar.readonly](phar.configuration.md#ini.phar.readonly), якщо відсутній необхідний модуль [zlib](ref.zlib.md) або [bzip2](ref.bzip2.md)
 
 ### Приклади
 

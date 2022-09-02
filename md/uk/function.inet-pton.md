@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.inet-ntop.html: « inetntop
-  - function.ip2long.html: ip2long »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.inet-ntop.md: « inetntop
+  - function.ip2long.md: ip2long »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: inetpton
 ---
 # inetpton

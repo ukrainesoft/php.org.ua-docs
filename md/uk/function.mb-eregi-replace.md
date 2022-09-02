@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-ereg.html: « mbereg
-  - function.mb-eregi.html: мбeregi »
+  - function.mb-ereg.md: « mbereg
+  - function.mb-eregi.md: мбeregi »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбeregireplace

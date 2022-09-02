@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-coroutine.html: « SwooleCoroutine
-  - swoole-coroutine.call-user-func.html: 'SwooleCoroutine::calluserfunc »'
+  - class.swoole-coroutine.md: « SwooleCoroutine
+  - swoole-coroutine.call-user-func.md: 'SwooleCoroutine::calluserfunc »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutine::calluserfuncarray'
 ---
 # SwooleCoroutine::calluserfuncarray

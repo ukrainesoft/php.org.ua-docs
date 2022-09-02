@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-connect.html: « db2connect
-  - function.db2-escape-string.html: db2escapestring »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-connect.md: « db2connect
+  - function.db2-escape-string.md: db2escapestring »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2cursortype
 ---
 # db2cursortype
@@ -32,4 +32,4 @@ db2_cursor_type(resource $stmt): int
 
 ### Дивіться також
 
--   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання

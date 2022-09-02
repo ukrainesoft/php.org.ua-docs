@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-unserializable.bsonunserialize.html: '« MongoDBBSONUnserializable::bsonUnserialize'
-  - mongodb-bson-binaryinterface.getdata.html: 'MongoDBBSONBinaryInterface::getData »'
+  - mongodb-bson-unserializable.bsonunserialize.md: '« MongoDBBSONUnserializable::bsonUnserialize'
+  - mongodb-bson-binaryinterface.getdata.md: 'MongoDBBSONBinaryInterface::getData »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONBinaryInterface

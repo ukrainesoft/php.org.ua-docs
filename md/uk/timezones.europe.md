@@ -1,9 +1,9 @@
 ---
 navigation:
-  - timezones.australia.html: « Австралія
-  - timezones.indian.html: Індійська »
-  - index.html: PHP Manual
-  - timezones.html: Список підтримуваних часових поясів
+  - timezones.australia.md: « Австралія
+  - timezones.indian.md: Індійська »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
 title: Європа
 ---
 ## Європа

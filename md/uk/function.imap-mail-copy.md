@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-mail-compose.html: « imapmailcompose
-  - function.imap-mail-move.html: imapmailmove »
+  - function.imap-mail-compose.md: « imapmailcompose
+  - function.imap-mail-move.md: imapmailmove »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapmailcopy
@@ -36,7 +36,7 @@ imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,   
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `flags`
 

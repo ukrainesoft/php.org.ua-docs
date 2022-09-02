@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.requirements.html: « Вимоги
-  - ffi.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - ffi.setup.html: Встановлення та налаштування
+  - ffi.requirements.md: « Вимоги
+  - ffi.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - ffi.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

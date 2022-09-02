@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.bottom.html: '« SplDoublyLinkedList::bottom'
-  - spldoublylinkedlist.current.html: 'SplDoublyLinkedList::current »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.bottom.md: '« SplDoublyLinkedList::bottom'
+  - spldoublylinkedlist.current.md: 'SplDoublyLinkedList::current »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::count'
 ---
 # SplDoublyLinkedList::count

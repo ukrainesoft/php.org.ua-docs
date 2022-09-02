@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-fetch-both.html: « db2fetchboth
-  - function.db2-fetch-row.html: db2fetchrow »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-fetch-both.md: « db2fetchboth
+  - function.db2-fetch-row.md: db2fetchrow »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2fetchobject
 ---
 # db2fetchobject
@@ -74,8 +74,8 @@ if ($conn) {
 
 ### Дивіться також
 
--   [db2fetcharray()](function.db2-fetch-array.html) - Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
--   [db2fetchassoc()](function.db2-fetch-assoc.html) - Повертає масив, індексований на ім'я стовпця, що представляє рядок у наборі результатів
--   [db2fetchboth()](function.db2-fetch-both.html) - Повертає масив, індексований як на ім'я стовпця, так і за позицією, що представляє рядок у наборі результатів
--   [db2fetchrow()](function.db2-fetch-row.html) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
--   [db2result()](function.db2-result.html) - Повертає один стовпець з рядка у наборі результатів
+-   [db2fetcharray()](function.db2-fetch-array.md) - Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
+-   [db2fetchassoc()](function.db2-fetch-assoc.md) - Повертає масив, індексований на ім'я стовпця, що представляє рядок у наборі результатів
+-   [db2fetchboth()](function.db2-fetch-both.md) - Повертає масив, індексований як на ім'я стовпця, так і за позицією, що представляє рядок у наборі результатів
+-   [db2fetchrow()](function.db2-fetch-row.md) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
+-   [db2result()](function.db2-result.md) - Повертає один стовпець з рядка у наборі результатів

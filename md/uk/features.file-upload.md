@@ -1,7 +1,7 @@
 ---
 navigation:
   - features.xforms.md: « Работа с XForms
-  - features.file-upload.post-method.html: Завантаження файлів методом POST
+  - features.file-upload.post-method.md: Завантаження файлів методом POST
   - index.md: PHP Manual
   - features.md: Відмітні особливості
 title: Завантаження файлів на сервер

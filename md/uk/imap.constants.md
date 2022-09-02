@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imap.resources.html: « Типи ресурсів
-  - ref.imap.html: Функции IMAP »
-  - index.html: PHP Manual
-  - book.imap.html: IMAP
+  - imap.resources.md: « Типи ресурсів
+  - ref.imap.md: Функции IMAP »
+  - index.md: PHP Manual
+  - book.imap.md: IMAP
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -40,7 +40,7 @@ title: Обумовлені константи
 
 **`CL_EXPUNGE`** (int)
 
-Не надаючи жодних попереджень прати повідомлення перед тим, як закрити під час виклику [imapclose()](function.imap-close.html)
+Не надаючи жодних попереджень прати повідомлення перед тим, як закрити під час виклику [imapclose()](function.imap-close.md)
 
 **`FT_UID`** (int)
 
@@ -72,7 +72,7 @@ title: Обумовлені константи
 
 **`CP_MOVE`** (int)
 
-Видалити повідомлення з поточної поштової скриньки після копіювання за допомогою [imapmailcopy()](function.imap-mail-copy.html)
+Видалити повідомлення з поточної поштової скриньки після копіювання за допомогою [imapmailcopy()](function.imap-mail-copy.md)
 
 **`SE_UID`** (int)
 
@@ -130,31 +130,31 @@ title: Обумовлені константи
 
 **`SORTDATE`** (int)
 
-Критерій сортування для [imapsort()](function.imap-sort.html): дата написання
+Критерій сортування для [imapsort()](function.imap-sort.md): дата написання
 
 **`SORTARRIVAL`** (int)
 
-Критерій сортування для [imapsort()](function.imap-sort.html): дата доставки
+Критерій сортування для [imapsort()](function.imap-sort.md): дата доставки
 
 **`SORTFROM`** (int)
 
-Критерій сортування для [imapsort()](function.imap-sort.html): поштова скринька перша у полі "від кого" (поле `from`
+Критерій сортування для [imapsort()](function.imap-sort.md): поштова скринька перша у полі "від кого" (поле `from`
 
 **`SORTSUBJECT`** (int)
 
-Критерій сортування для [imapsort()](function.imap-sort.html): Тема листа
+Критерій сортування для [imapsort()](function.imap-sort.md): Тема листа
 
 **`SORTTO`** (int)
 
-Критерій сортування для [imapsort()](function.imap-sort.html): поштова скринька перша у полі "кому" (поле `to`
+Критерій сортування для [imapsort()](function.imap-sort.md): поштова скринька перша у полі "кому" (поле `to`
 
 **`SORTCC`** (int)
 
-Критерій сортування для [imapsort()](function.imap-sort.html): поштова скринька перша у полі "копія" (поле `cc`
+Критерій сортування для [imapsort()](function.imap-sort.md): поштова скринька перша у полі "копія" (поле `cc`
 
 **`SORTSIZE`** (int)
 
-Критерій сортування для [imapsort()](function.imap-sort.html): розмір повідомлення в байтах
+Критерій сортування для [imapsort()](function.imap-sort.md): розмір повідомлення в байтах
 
 **`TYPETEXT`** (int)
 

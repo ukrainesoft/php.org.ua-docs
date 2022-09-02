@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-setopt.html: « socketsetopt
-  - function.socket-strerror.html: socketstrerror »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-setopt.md: « socketsetopt
+  - function.socket-strerror.md: socketstrerror »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketshutdown
 ---
 # socketshutdown
@@ -28,7 +28,7 @@ socket_shutdown(Socket $socket, int $mode = 2): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md)
 
 `mode`
 
@@ -44,4 +44,4 @@ socket_shutdown(Socket $socket, int $mode = 2): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |

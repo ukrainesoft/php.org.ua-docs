@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.memory-get-peak-usage.html: « memorygetpeakusage
-  - function.php-ini-loaded-file.html: phpiniloadedfile »
+  - function.memory-get-peak-usage.md: « memorygetpeakusage
+  - function.php-ini-loaded-file.md: phpiniloadedfile »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: memorygetusage
@@ -59,4 +59,4 @@ echo memory_get_usage() . "\n"; // 36744
 ### Дивіться також
 
 -   [memorygetpeakusage()](function.memory-get-peak-usage.md) - Повертає пікове значення об'єму пам'яті, виділене PHP
--   [memorylimit](ini.core.html#ini.memory-limit)
+-   [memorylimit](ini.core.md#ini.memory-limit)

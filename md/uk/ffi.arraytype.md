@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.alignof.html: '« FFI::alignof'
-  - ffi.cast.html: 'FFI::cast »'
-  - index.html: PHP Manual
-  - class.ffi.html: FFI
+  - ffi.alignof.md: '« FFI::alignof'
+  - ffi.cast.md: 'FFI::cast »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
 title: 'FFI::arrayType'
 ---
 # FFI::arrayType
@@ -31,7 +31,7 @@ $t2 = FFI::arrayType(FFI::type("int"), [2, 3]);
 
 `type`
 
-Коректна декларація типу С, наприклад string, або заздалегідь створений об'єкт класу [FFICType](class.ffi-ctype.html)
+Коректна декларація типу С, наприклад string, або заздалегідь створений об'єкт класу [FFICType](class.ffi-ctype.md)
 
 `dimensions`
 
@@ -39,4 +39,4 @@ $t2 = FFI::arrayType(FFI::type("int"), [2, 3]);
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [FFICType](class.ffi-ctype.html)
+Повертає новий об'єкт [FFICType](class.ffi-ctype.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-mysql.query.html: '« SwooleCoroutineMySQL::query'
-  - swoole-coroutine-mysql.setdefer.html: 'SwooleCoroutineMySQL::setDefer »'
-  - index.html: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - swoole-coroutine-mysql.query.md: '« SwooleCoroutineMySQL::query'
+  - swoole-coroutine-mysql.setdefer.md: 'SwooleCoroutineMySQL::setDefer »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineMySQL::recv'
 ---
 # SwooleCoroutineMySQL::recv

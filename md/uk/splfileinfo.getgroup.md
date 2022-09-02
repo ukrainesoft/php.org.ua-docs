@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileinfo.getfilename.html: '« SplFileInfo::getFilename'
-  - splfileinfo.getinode.html: 'SplFileInfo::getInode »'
-  - index.html: PHP Manual
-  - class.splfileinfo.html: SplFileInfo
+  - splfileinfo.getfilename.md: '« SplFileInfo::getFilename'
+  - splfileinfo.getinode.md: 'SplFileInfo::getInode »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getGroup'
 ---
 # SplFileInfo::getGroup
@@ -30,7 +30,7 @@ public SplFileInfo::getGroup(): int|false
 
 ### Помилки
 
-Викидає [RuntimeException](class.runtimeexception.html) у разі виникнення помилки.
+Викидає [RuntimeException](class.runtimeexception.md) у разі виникнення помилки.
 
 ### Приклади
 
@@ -47,4 +47,4 @@ print_r(posix_getgrgid($info->getGroup()));
 
 ### Дивіться також
 
--   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
+-   [posixgetgrgid()](function.posix-getgrgid.md) - Повертає інформацію про групу за її ID

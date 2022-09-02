@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-get-cert-locations.html: « opensslgetcertlocations
-  - function.openssl-get-curve-names.html: opensslgetcurvenames »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-get-cert-locations.md: « opensslgetcertlocations
+  - function.openssl-get-curve-names.md: opensslgetcurvenames »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslgetcipherметодів
 ---
 # opensslgetcipherметодів
@@ -195,4 +195,4 @@ Array
 
 ### Дивіться також
 
--   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.md) - Отримати список доступних методів хешування

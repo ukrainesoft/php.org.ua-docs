@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.gettype.html: '« MongoDBDriverServer::getType'
-  - mongodb-driver-server.ishidden.html: 'MongoDBDriverServer::isHidden »'
+  - mongodb-driver-server.gettype.md: '« MongoDBDriverServer::getType'
+  - mongodb-driver-server.ishidden.md: 'MongoDBDriverServer::isHidden »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::isArbiter'
 ---
 # MongoDBDriverServer::isArbiter

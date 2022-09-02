@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayiterator.count.html: '« ArrayIterator::count'
-  - arrayiterator.getarraycopy.html: 'ArrayIterator::getArrayCopy »'
-  - index.html: PHP Manual
-  - class.arrayiterator.html: ArrayIterator
+  - arrayiterator.count.md: '« ArrayIterator::count'
+  - arrayiterator.getarraycopy.md: 'ArrayIterator::getArrayCopy »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::current'
 ---
 # ArrayIterator::current

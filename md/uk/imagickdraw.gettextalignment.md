@@ -26,4 +26,4 @@ public ImagickDraw::getTextAlignment(): int
 
 ### Значення, що повертаються
 
-Повертає одну з констант [ALIGN](imagick.constants.html#imagick.constants.align) `imagick::ALIGN_*`) або 0, якщо вирівнювання не встановлено.
+Повертає одну з констант [ALIGN](imagick.constants.md#imagick.constants.align) `imagick::ALIGN_*`) або 0, якщо вирівнювання не встановлено.

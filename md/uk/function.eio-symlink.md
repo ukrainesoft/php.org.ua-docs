@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-statvfs.html: « eiostatvfs
-  - function.eio-sync-file-range.html: eiosyncfilerange »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-statvfs.md: « eiostatvfs
+  - function.eio-sync-file-range.md: eiosyncfilerange »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiosymlink
 ---
 # eiosymlink

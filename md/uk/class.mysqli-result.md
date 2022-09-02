@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli-stmt.store-result.html: '« mysqlistmt::storeresult'
-  - mysqli-result.construct.html: 'mysqliresult::construct »'
+  - mysqli-stmt.store-result.md: '« mysqlistmt::storeresult'
+  - mysqli-result.construct.md: 'mysqliresult::construct »'
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: Клас mysqliresult

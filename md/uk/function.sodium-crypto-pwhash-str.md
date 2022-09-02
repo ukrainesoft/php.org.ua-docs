@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-pwhash-str-verify.html: « sodiumcryptopwhashstrverify
-  - function.sodium-crypto-pwhash.html: sodiumcryptopwhash »
+  - function.sodium-crypto-pwhash-str-verify.md: « sodiumcryptopwhashstrverify
+  - function.sodium-crypto-pwhash.md: sodiumcryptopwhash »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptopwhashstr

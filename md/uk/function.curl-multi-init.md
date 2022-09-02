@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-multi-info-read.html: « curlmultiinforead
-  - function.curl-multi-remove-handle.html: curlmultiremovehandle »
+  - function.curl-multi-info-read.md: « curlmultiinforead
+  - function.curl-multi-remove-handle.md: curlmultiremovehandle »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlmultiinit

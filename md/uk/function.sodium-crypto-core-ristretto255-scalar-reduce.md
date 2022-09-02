@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-scalar-random.html: « sodiumcryptocoreristretto255scalarrandom
-  - function.sodium-crypto-core-ristretto255-scalar-sub.html: sodiumcryptocoreristretto255scalarsub »
+  - function.sodium-crypto-core-ristretto255-scalar-random.md: « sodiumcryptocoreristretto255scalarrandom
+  - function.sodium-crypto-core-ristretto255-scalar-sub.md: sodiumcryptocoreristretto255scalarsub »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255scalarreduce

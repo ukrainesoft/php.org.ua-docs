@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.gender.html: « Gender
-  - gender.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.gender.html: Gender
+  - book.gender.md: « Gender
+  - gender.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.gender.md: Gender
 title: Вступ
 ---
 # Вступ

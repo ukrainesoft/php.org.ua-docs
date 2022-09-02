@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domdocument.importnode.html: '« DOMDocument::importNode'
-  - domdocument.loadhtml.html: 'DOMDocument::loadHTML »'
-  - index.html: PHP Manual
-  - class.domdocument.html: DOMDocument
+  - domdocument.importnode.md: '« DOMDocument::importNode'
+  - domdocument.loadhtml.md: 'DOMDocument::loadHTML »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
 title: 'DOMDocument::load'
 ---
 # DOMDocument::load
@@ -32,7 +32,7 @@ public DOMDocument::load(string $filename, int $options = 0): DOMDocument|bool
 
 `options`
 
-[Побитовое`ИЛИ`](language.operators.bitwise.html) [констант опций libxml](libxml.constants.md)
+[Побитовое`ИЛИ`](language.operators.bitwise.md) [констант опций libxml](libxml.constants.md)
 
 ### Значення, що повертаються
 

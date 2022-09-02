@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.dba-sync.html: « dbasync
+  - function.dba-sync.md: « dbasync
   - intro.uodbc.md: Введение »
   - index.md: PHP Manual
   - refs.database.abstract.md: Рівні абстракції

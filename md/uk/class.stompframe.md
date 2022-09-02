@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stomp.unsubscribe.html: '« Stomp::unsubscribe'
-  - stompframe.construct.html: 'StompFrame::construct »'
-  - index.html: PHP Manual
-  - book.stomp.html: Stomp
+  - stomp.unsubscribe.md: '« Stomp::unsubscribe'
+  - stompframe.construct.md: 'StompFrame::construct »'
+  - index.md: PHP Manual
+  - book.stomp.md: Stomp
 title: Клас StompFrame
 ---
 # Клас StompFrame

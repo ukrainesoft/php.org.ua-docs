@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlreader.close.html: '« XMLReader::close'
-  - xmlreader.getattribute.html: 'XMLReader::getAttribute »'
-  - index.html: PHP Manual
-  - class.xmlreader.html: XMLReader
+  - xmlreader.close.md: '« XMLReader::close'
+  - xmlreader.getattribute.md: 'XMLReader::getAttribute »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
 title: 'XMLReader::expand'
 ---
 # XMLReader::expand
@@ -24,7 +24,7 @@ public XMLReader::expand(?DOMNode $baseNode = null): DOMNode|false
 
 `baseNode`
 
-[DOMNode](class.domnode.html) визначає цільовий [DOMDocument](class.domdocument.md) створеного об'єкта DOM.
+[DOMNode](class.domnode.md) визначає цільовий [DOMDocument](class.domdocument.md) створеного об'єкта DOM.
 
 ### Значення, що повертаються
 

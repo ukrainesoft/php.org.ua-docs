@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-cmp.html: « gmpcmp
-  - function.gmp-div-q.html: gmpdivq »
+  - function.gmp-cmp.md: « gmpcmp
+  - function.gmp-div-q.md: gmpdivq »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpcom

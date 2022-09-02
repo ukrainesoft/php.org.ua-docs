@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-set-submit-form-action.html: « fdfsetsubmitformaction
-  - function.fdf-set-value.html: fdfsetvalue »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-set-submit-form-action.md: « fdfsetsubmitformaction
+  - function.fdf-set-value.md: fdfsetvalue »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfsettargetframe
 ---
 # fdfsettargetframe
@@ -24,7 +24,7 @@ fdf_set_target_frame(resource $fdf_document, string $frame_name): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 `frame_name`
 

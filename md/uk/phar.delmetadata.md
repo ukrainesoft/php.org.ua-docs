@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.decompressfiles.html: '« Phar::decompressFiles'
-  - phar.delete.html: 'Phar::delete »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.decompressfiles.md: '« Phar::decompressFiles'
+  - phar.delete.md: 'Phar::delete »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::delMetadata'
 ---
 # Phar::delMetadata
@@ -20,7 +20,7 @@ public Phar::delMetadata(): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Видаляє глобальні метадані в архіві phar
 

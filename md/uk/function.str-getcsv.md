@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.str-ends-with.html: « strendswith
-  - function.str-ireplace.html: strireplace »
+  - function.str-ends-with.md: « strendswith
+  - function.str-ireplace.md: strireplace »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strgetcsv

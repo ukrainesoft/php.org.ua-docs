@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mail.requirements.html: « Вимоги
-  - mail.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - mail.setup.html: Встановлення та налаштування
+  - mail.requirements.md: « Вимоги
+  - mail.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - mail.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

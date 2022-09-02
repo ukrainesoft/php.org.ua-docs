@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.intlrulebasedbreakiterator.html: « IntlRuleBasedBreakIterator
-  - intlrulebasedbreakiterator.getbinaryrules.html: 'IntlRuleBasedBreakIterator::getBinaryRules »'
-  - index.html: PHP Manual
-  - class.intlrulebasedbreakiterator.html: IntlRuleBasedBreakIterator
+  - class.intlrulebasedbreakiterator.md: « IntlRuleBasedBreakIterator
+  - intlrulebasedbreakiterator.getbinaryrules.md: 'IntlRuleBasedBreakIterator::getBinaryRules »'
+  - index.md: PHP Manual
+  - class.intlrulebasedbreakiterator.md: IntlRuleBasedBreakIterator
 title: 'IntlRuleBasedBreakIterator::construct'
 ---
 # IntlRuleBasedBreakIterator::construct

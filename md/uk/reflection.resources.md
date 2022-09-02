@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflection.configuration.html: « Налаштування під час виконання
-  - reflection.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - reflection.setup.html: Встановлення та налаштування
+  - reflection.configuration.md: « Налаштування під час виконання
+  - reflection.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - reflection.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

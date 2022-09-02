@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.sysvsemaphore.html: « SysvSemaphore
-  - book.shmop.html: Управление разделяемой памятью »
-  - index.html: PHP Manual
-  - book.sem.html: Семафори
+  - class.sysvsemaphore.md: « SysvSemaphore
+  - book.shmop.md: Управление разделяемой памятью »
+  - index.md: PHP Manual
+  - book.sem.md: Семафори
 title: Клас SysvSharedMemory
 ---
 # Клас SysvSharedMemory

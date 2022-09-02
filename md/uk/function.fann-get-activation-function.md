@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-duplicate-train-data.html: « fannduplicatetraindata
-  - function.fann-get-activation-steepness.html: fanngetactivationsteepness »
+  - function.fann-duplicate-train-data.md: « fannduplicatetraindata
+  - function.fann-get-activation-steepness.md: fanngetactivationsteepness »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetactivationfunction
@@ -22,7 +22,7 @@ fann_get_activation_function(resource $ann, int $layer, int $neuron): int
 
 Неможливо отримати функції активації для нейронів у вхідному шарі.
 
-Значення, що повертається, є однією з констант [функцій активації](fann.constants.html#constants.fann-activation-funcs)
+Значення, що повертається, є однією з констант [функцій активації](fann.constants.md#constants.fann-activation-funcs)
 
 ### Список параметрів
 
@@ -40,7 +40,7 @@ fann_get_activation_function(resource $ann, int $layer, int $neuron): int
 
 ### Значення, що повертаються
 
-Константа [функций обучения](fann.constants.html#constants.fann-train) або -1, якщо нейрон не визначений у нейронній мережі або **`false`** у разі виникнення помилки.
+Константа [функций обучения](fann.constants.md#constants.fann-train) або -1, якщо нейрон не визначений у нейронній мережі або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 

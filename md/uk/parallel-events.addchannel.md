@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-events.setinput.html: '« parallelEvents::setInput'
-  - parallel-events.addfuture.html: 'parallelEvents::addFuture »'
+  - parallel-events.setinput.md: '« parallelEvents::setInput'
+  - parallel-events.addfuture.md: 'parallelEvents::addFuture »'
   - index.md: PHP Manual
-  - class.parallel-events.html: parallelEvents
+  - class.parallel-events.md: parallelEvents
 title: 'parallelEvents::addChannel'
 ---
 # parallelEvents::addChannel

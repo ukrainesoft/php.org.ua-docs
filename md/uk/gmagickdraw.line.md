@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.gettextencoding.html: '« GmagickDraw::gettextencoding'
-  - gmagickdraw.point.html: 'GmagickDraw::point »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.gettextencoding.md: '« GmagickDraw::gettextencoding'
+  - gmagickdraw.point.md: 'GmagickDraw::point »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::line'
 ---
 # GmagickDraw::line
@@ -40,4 +40,4 @@ public GmagickDraw::line(    float $sx,    float $sy,    float $ex,�
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

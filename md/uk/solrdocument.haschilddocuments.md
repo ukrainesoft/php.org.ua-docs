@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.getinputdocument.html: '« SolrDocument::getInputDocument'
-  - solrdocument.isset.html: 'SolrDocument::isset »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.getinputdocument.md: '« SolrDocument::getInputDocument'
+  - solrdocument.isset.md: 'SolrDocument::isset »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::hasChildDocuments'
 ---
 # SolrDocument::hasChildDocuments
@@ -28,5 +28,5 @@ public SolrDocument::hasChildDocuments(): bool
 
 ### Дивіться також
 
--   [SolrDocument::getChildDocuments()](solrdocument.getchilddocuments.html) - Повертає масив дочірніх документів (SolrDocument)
--   [SolrDocument::getChildDocumentsCount()](solrdocument.getchilddocumentscount.html) - Повертає кількість дочірніх документів
+-   [SolrDocument::getChildDocuments()](solrdocument.getchilddocuments.md) - Повертає масив дочірніх документів (SolrDocument)
+-   [SolrDocument::getChildDocumentsCount()](solrdocument.getchilddocumentscount.md) - Повертає кількість дочірніх документів

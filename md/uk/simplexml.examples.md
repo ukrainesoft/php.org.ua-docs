@@ -1,7 +1,7 @@
 ---
 navigation:
   - simplexml.constants.md: « Обумовлені константи
-  - simplexml.examples-basic.html: Базовое использование SimpleXML »
+  - simplexml.examples-basic.md: Базовое использование SimpleXML »
   - index.md: PHP Manual
   - book.simplexml.md: SimpleXML
 title: Приклади

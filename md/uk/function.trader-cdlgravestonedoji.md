@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlgapsidesidewhite.html: « tradercdlgapsidesidewhite
-  - function.trader-cdlhammer.html: tradercdlhammer »
+  - function.trader-cdlgapsidesidewhite.md: « tradercdlgapsidesidewhite
+  - function.trader-cdlhammer.md: tradercdlhammer »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlgravestonedoji

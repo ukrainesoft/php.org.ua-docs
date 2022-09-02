@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrobject.getpropertynames.html: '« SolrObject::getPropertyNames'
-  - solrobject.offsetget.html: 'SolrObject::offsetGet »'
-  - index.html: PHP Manual
-  - class.solrobject.html: SolrObject
+  - solrobject.getpropertynames.md: '« SolrObject::getPropertyNames'
+  - solrobject.offsetget.md: 'SolrObject::offsetGet »'
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
 title: 'SolrObject::offsetExists'
 ---
 # SolrObject::offsetExists

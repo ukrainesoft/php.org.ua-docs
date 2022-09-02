@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-set-rebind-proc.html: « ldapsetrebindproc
-  - function.ldap-start-tls.html: ldapstarttls »
+  - function.ldap-set-rebind-proc.md: « ldapsetrebindproc
+  - function.ldap-start-tls.md: ldapstarttls »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapsort

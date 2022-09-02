@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-make-dir.html: « svnфсmakedir
-  - function.svn-fs-node-created-rev.html: svnфсnodecreatedrev »
+  - function.svn-fs-make-dir.md: « svnфсmakedir
+  - function.svn-fs-node-created-rev.md: svnфсnodecreatedrev »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсmakefile

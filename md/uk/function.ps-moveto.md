@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-makespotcolor.html: «psmakespotcolor
-  - function.ps-new.html: псnew »
+  - function.ps-makespotcolor.md: «psmakespotcolor
+  - function.ps-new.md: псnew »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псmoveto

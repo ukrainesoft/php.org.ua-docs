@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.convert-cyr-string.html: « convertcyrstring
-  - function.convert-uuencode.html: convertuuencode »
+  - function.convert-cyr-string.md: « convertcyrstring
+  - function.convert-uuencode.md: convertuuencode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: convertuudecode

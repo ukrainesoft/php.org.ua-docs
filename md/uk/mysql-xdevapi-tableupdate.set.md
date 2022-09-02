@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableupdate.orderby.html: '« TableUpdate::orderby'
-  - mysql-xdevapi-tableupdate.where.html: 'TableUpdate::where »'
+  - mysql-xdevapi-tableupdate.orderby.md: '« TableUpdate::orderby'
+  - mysql-xdevapi-tableupdate.where.md: 'TableUpdate::where »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
 title: 'TableUpdate::set'
 ---
 # TableUpdate::set

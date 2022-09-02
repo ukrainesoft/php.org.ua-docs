@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.solr.html: « Solr
-  - solr.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.solr.html: Solr
+  - book.solr.md: « Solr
+  - solr.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.solr.md: Solr
 title: Вступ
 ---
 # Вступ

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-string-geometry.html: «psstringgeometry
-  - function.ps-stroke.html: псstroke »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-string-geometry.md: «psstringgeometry
+  - function.ps-stroke.md: псstroke »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псstringwidth
 ---
 # псstringwidth
@@ -24,7 +24,7 @@ ps_stringwidth(    resource $psdoc,    string $text,    int $fontid 
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `text`
 
@@ -44,4 +44,4 @@ ps_stringwidth(    resource $psdoc,    string $text,    int $fontid 
 
 ### Дивіться також
 
--   [псstringgeometry()](function.ps-string-geometry.html) - Отримує геометрію рядка
+-   [псstringgeometry()](function.ps-string-geometry.md) - Отримує геометрію рядка

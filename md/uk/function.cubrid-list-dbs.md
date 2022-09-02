@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-field-type.html: « cubridfieldtype
-  - function.cubrid-num-fields.html: cubridnumfields »
+  - function.cubrid-field-type.md: « cubridfieldtype
+  - function.cubrid-num-fields.md: cubridnumfields »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridlistdbs

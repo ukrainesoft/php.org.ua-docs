@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.thresholdimage.html: '« Imagick::thresholdImage'
-  - imagick.tintimage.html: 'Imagick::tintImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.thresholdimage.md: '« Imagick::thresholdImage'
+  - imagick.tintimage.md: 'Imagick::tintImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::thumbnailImage'
 ---
 # Imagick::thumbnailImage

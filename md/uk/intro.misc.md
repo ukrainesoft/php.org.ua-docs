@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.misc.html: « Misc.
-  - misc.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.misc.html: Misc.
+  - book.misc.md: « Misc.
+  - misc.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.misc.md: Misc.
 title: Вступ
 ---
 # Вступ

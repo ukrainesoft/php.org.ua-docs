@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.hasmargin.html: '« UIWindow::hasMargin'
-  - ui-window.msg.html: 'ОЙWindow::msg »'
+  - ui-window.hasmargin.md: '« UIWindow::hasMargin'
+  - ui-window.msg.md: 'ОЙWindow::msg »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::isFullScreen'
 ---
 # ОЙWindow::isFullScreen

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-hashable.html: « Хешируемое
-  - ds-hashable.hash.html: 'ДсHashable::hash »'
-  - index.html: PHP Manual
-  - class.ds-hashable.html: Хешируемое
+  - class.ds-hashable.md: « Хешируемое
+  - ds-hashable.hash.md: 'ДсHashable::hash »'
+  - index.md: PHP Manual
+  - class.ds-hashable.md: Хешируемое
 title: 'ДсHashable::equals'
 ---
 # ДсHashable::equals
@@ -28,7 +28,7 @@ abstract public Ds\Hashable::equals(object $obj): bool
 
 **Застереження**
 
-Щоб об'єкти вважалися ідентичними, необхідно, щоб вони мали однаковий хеш. Дивіться опис функції [ДсHashable::hash()](ds-hashable.hash.html)
+Щоб об'єкти вважалися ідентичними, необхідно, щоб вони мали однаковий хеш. Дивіться опис функції [ДсHashable::hash()](ds-hashable.hash.md)
 
 ### Список параметрів
 

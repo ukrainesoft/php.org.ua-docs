@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-warning.html: « mysqlxdevapiWarning
+  - class.mysql-xdevapi-warning.md: « mysqlxdevapiWarning
   - book.mysql.md: MySQL (Original) »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-warning.html: mysqlxdevapiWarning
+  - class.mysql-xdevapi-warning.md: mysqlxdevapiWarning
 title: 'Warning::construct'
 ---
 # Warning::construct

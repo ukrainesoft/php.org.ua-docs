@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-set-processing-instruction-handler.html: « xmlsetprocessinginstructionhandler
-  - function.xml-set-unparsed-entity-decl-handler.html: xmlsetunparsedentitydeclhandler »
+  - function.xml-set-processing-instruction-handler.md: « xmlsetprocessinginstructionhandler
+  - function.xml-set-unparsed-entity-decl-handler.md: xmlsetunparsedentitydeclhandler »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlsetstartnamespacedeclhandler

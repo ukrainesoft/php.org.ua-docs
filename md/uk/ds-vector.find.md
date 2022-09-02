@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.filter.html: '« DsVector::filter'
-  - ds-vector.first.html: 'ДсVector::first »'
+  - ds-vector.filter.md: '« DsVector::filter'
+  - ds-vector.first.md: 'ДсVector::first »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::find'
 ---
 # ДсVector::find

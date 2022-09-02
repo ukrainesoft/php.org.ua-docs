@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-lo-export.html: « pgлоexport
-  - function.pg-lo-open.html: пглоopen »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-lo-export.md: « pgлоexport
+  - function.pg-lo-open.md: пглоopen »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пглоimport
 ---
 # пглоimport
@@ -30,7 +30,7 @@ pg_lo_import(PgSql\Connection $connection = ?, string $pathname, mixed $object_i
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -52,7 +52,7 @@ OID створеного великого об'єкта або **`false`** у р
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -69,5 +69,5 @@ OID створеного великого об'єкта або **`false`** у р
 
 ### Дивіться також
 
--   [пглоexport()](function.pg-lo-export.html) - Виведення великого об'єкта у файл
--   [пглоopen()](function.pg-lo-open.html) - Відкриває великий об'єкт бази даних
+-   [пглоexport()](function.pg-lo-export.md) - Виведення великого об'єкта у файл
+-   [пглоopen()](function.pg-lo-open.md) - Відкриває великий об'єкт бази даних

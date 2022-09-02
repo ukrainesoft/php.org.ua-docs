@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strptime.html: « strptime
-  - function.time.html: time »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.strptime.md: « strptime
+  - function.time.md: time »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: strtotime
 ---
 # strtotime
@@ -98,7 +98,7 @@ if (($timestamp = strtotime($str)) === false) {
 
 > **Зауваження**
 > 
-> Не рекомендується використовувати цю функцію для математичних операцій. Доцільно використовувати [DateTime::add()](datetime.add.html) і [DateTime::sub()](datetime.sub.md)
+> Не рекомендується використовувати цю функцію для математичних операцій. Доцільно використовувати [DateTime::add()](datetime.add.md) і [DateTime::sub()](datetime.sub.md)
 
 ### Дивіться також
 

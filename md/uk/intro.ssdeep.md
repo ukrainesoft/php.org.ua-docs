@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.ssdeep.html: « ssdeep
-  - ssdeep.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.ssdeep.html: ssdeep
+  - book.ssdeep.md: « ssdeep
+  - ssdeep.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.ssdeep.md: ssdeep
 title: Вступ
 ---
 # Вступ

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-listsignatures.html: « gnupglistsignatures
-  - function.gnupg-seterrormode.html: gnupgseterrormode »
+  - function.gnupg-listsignatures.md: « gnupglistsignatures
+  - function.gnupg-seterrormode.md: gnupgseterrormode »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgsetarmor

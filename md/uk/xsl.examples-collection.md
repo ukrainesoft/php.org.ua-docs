@@ -1,7 +1,7 @@
 ---
 navigation:
   - xsl.examples.md: « Приклади
-  - xsl.examples-errors.html: Обработка ошибок с помощью функций обработки ошибок libxml »
+  - xsl.examples-errors.md: Обработка ошибок с помощью функций обработки ошибок libxml »
   - index.md: PHP Manual
   - xsl.examples.md: Приклади
 title: Файли collection.xml та collection.xsl для прикладів

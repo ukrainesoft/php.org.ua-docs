@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mailparse-stream-encode.html: « mailparsestreamencode
+  - function.mailparse-stream-encode.md: « mailparsestreamencode
   - refs.math.md: Математичні модулі »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse

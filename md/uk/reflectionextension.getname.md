@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionextension.getinientries.html: '« ReflectionExtension::getINIEntries'
-  - reflectionextension.getversion.html: 'ReflectionExtension::getVersion »'
-  - index.html: PHP Manual
-  - class.reflectionextension.html: ReflectionExtension
+  - reflectionextension.getinientries.md: '« ReflectionExtension::getINIEntries'
+  - reflectionextension.getversion.md: 'ReflectionExtension::getVersion »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getName'
 ---
 # ReflectionExtension::getName
@@ -47,4 +47,4 @@ string(6) "mysqli"
 
 ### Дивіться також
 
--   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.html) - Отримання імен класів
+-   [ReflectionExtension::getClassNames()](reflectionextension.getclassnames.md) - Отримання імен класів

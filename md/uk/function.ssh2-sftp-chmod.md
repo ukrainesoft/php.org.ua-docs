@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-send-eof.html: « ssh2sendeof
-  - function.ssh2-sftp-lstat.html: ssh2sftplstat »
+  - function.ssh2-send-eof.md: « ssh2sendeof
+  - function.ssh2-sftp-lstat.md: ssh2sftplstat »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2sftpchmod

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-runtime.construct.html: '« parallelRuntime::construct'
-  - parallel-runtime.close.html: 'parallelRuntime::close »'
+  - parallel-runtime.construct.md: '« parallelRuntime::construct'
+  - parallel-runtime.close.md: 'parallelRuntime::close »'
   - index.md: PHP Manual
-  - class.parallel-runtime.html: parallelRuntime
+  - class.parallel-runtime.md: parallelRuntime
 title: 'parallelRuntime::run'
 ---
 # parallelRuntime::run

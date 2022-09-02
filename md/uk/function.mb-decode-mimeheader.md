@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-convert-variables.html: « mbconvertvariables
-  - function.mb-decode-numericentity.html: мбdecodenumericentity »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-convert-variables.md: « mbconvertvariables
+  - function.mb-decode-numericentity.md: мбdecodenumericentity »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбdecodemimeheader
 ---
 # мбdecodemimeheader
@@ -32,4 +32,4 @@ mb_decode_mimeheader(string $string): string
 
 ### Дивіться також
 
--   [мбencodemimeheader()](function.mb-encode-mimeheader.html) - Кодує рядок для MIME-заголовка
+-   [мбencodemimeheader()](function.mb-encode-mimeheader.md) - Кодує рядок для MIME-заголовка

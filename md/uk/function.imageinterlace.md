@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagegrabwindow.html: « imagegrabwindow
-  - function.imageistruecolor.html: imageistruecolor »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagegrabwindow.md: « imagegrabwindow
+  - function.imageistruecolor.md: imageistruecolor »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageinterlace
 ---
 # imageinterlace
@@ -26,7 +26,7 @@ imageinterlace(GdImage $image, ?bool $enable = null): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `interlace`
 
@@ -41,7 +41,7 @@ imageinterlace(GdImage $image, ?bool $enable = null): bool
 | Версия | Описание |
 | --- | --- |
 |  | **imageinterlace()** тепер повертає логічне значення (bool); раніше вона повертала ціле число (int). (Ненульове значення для зображень з інтерлейсингом, інакше - нуль). |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 |  | `enable` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
 
 ### Приклади

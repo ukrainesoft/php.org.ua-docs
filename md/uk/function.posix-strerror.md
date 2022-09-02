@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-setuid.html: « posixsetuid
-  - function.posix-times.html: posixtimes »
+  - function.posix-setuid.md: « posixsetuid
+  - function.posix-times.md: posixtimes »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixstrerror

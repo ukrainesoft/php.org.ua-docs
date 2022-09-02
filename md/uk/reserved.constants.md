@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reserved.classes.html: « Обумовлені класи
-  - reserved.other-reserved-words.html: Список інших зарезервованих слів »
-  - index.html: PHP Manual
-  - reserved.html: Список зарезервованих слів
+  - reserved.classes.md: « Обумовлені класи
+  - reserved.other-reserved-words.md: Список інших зарезервованих слів »
+  - index.md: PHP Manual
+  - reserved.md: Список зарезервованих слів
 title: Обумовлені константи
 ---
 ## Обумовлені константи
@@ -96,7 +96,7 @@ API сервера (Server API) цієї збірки PHP. Дивіться та
 
 **`PHP_EXTENSION_DIR`** (string)
 
-Каталог за замовчуванням, в якому слід шукати модулі, що динамічно завантажуються (якщо він не перевизначений в [extensiondir](ini.core.html#ini.extension-dir)). За замовчуванням використовується **`PHP_PREFIX`** (або `PHP_PREFIX . "\\ext"` у Windows).
+Каталог за замовчуванням, в якому слід шукати модулі, що динамічно завантажуються (якщо він не перевизначений в [extensiondir](ini.core.md#ini.extension-dir)). За замовчуванням використовується **`PHP_PREFIX`** (або `PHP_PREFIX . "\\ext"` у Windows).
 
 **`PHP_PREFIX`** (string)
 
@@ -224,4 +224,4 @@ Windows `CTRL+BREAK`. Доступно з PHP 7.4.0 (лише для Windows).
 
 ### Стандартні визначені константи
 
-Усі константи [модулів, що входять до складу ядра](extensions.membership.html#extensions.membership.core), тепер визначено в PHP за промовчанням.
+Усі константи [модулів, що входять до складу ядра](extensions.membership.md#extensions.membership.core), тепер визначено в PHP за промовчанням.

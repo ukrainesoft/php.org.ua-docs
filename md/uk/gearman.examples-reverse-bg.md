@@ -1,7 +1,7 @@
 ---
 navigation:
-  - gearman.examples-reverse.html: « Базовое использование
-  - gearman.examples-reverse-task.html: 'Базові клієнт та обробник Gearman, відправка завдань »'
+  - gearman.examples-reverse.md: « Базовое использование
+  - gearman.examples-reverse-task.md: 'Базові клієнт та обробник Gearman, відправка завдань »'
   - index.md: PHP Manual
   - gearman.examples.md: Приклади
 title: 'Базовий клієнт та обробник Gearman, фоновий режим'

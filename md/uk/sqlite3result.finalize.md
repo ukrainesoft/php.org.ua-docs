@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3result.fetcharray.html: '« SQLite3Result::fetchArray'
-  - sqlite3result.numcolumns.html: 'SQLite3Result::numColumns »'
-  - index.html: PHP Manual
-  - class.sqlite3result.html: SQLite3Result
+  - sqlite3result.fetcharray.md: '« SQLite3Result::fetchArray'
+  - sqlite3result.numcolumns.md: 'SQLite3Result::numColumns »'
+  - index.md: PHP Manual
+  - class.sqlite3result.md: SQLite3Result
 title: 'SQLite3Result::finalize'
 ---
 # SQLite3Result::finalize

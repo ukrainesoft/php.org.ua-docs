@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.token-name.html: « tokenname
+  - function.token-name.md: « tokenname
   - intro.url.md: Введение »
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі

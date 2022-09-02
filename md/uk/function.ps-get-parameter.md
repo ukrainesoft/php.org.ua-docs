@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-get-buffer.html: «psgetbuffer
-  - function.ps-get-value.html: псgetvalue »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-get-buffer.md: «psgetbuffer
+  - function.ps-get-value.md: псgetvalue »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псgetparameter
 ---
 # псgetparameter
@@ -18,7 +18,7 @@ title: псgetparameter
 ps_get_parameter(resource $psdoc, string $name, float $modifier = ?): string|false
 ```
 
-Отримує кілька параметрів, які були прямо встановлені [псsetparameter()](function.ps-set-parameter.html) або опосередковано однією з інших функцій. Параметри визначення є строковими значеннями. Функцію не можна використовувати для отримання ресурсів, які також були встановлені за допомогою [псsetparameter()](function.ps-set-parameter.html)
+Отримує кілька параметрів, які були прямо встановлені [псsetparameter()](function.ps-set-parameter.md) або опосередковано однією з інших функцій. Параметри визначення є строковими значеннями. Функцію не можна використовувати для отримання ресурсів, які також були встановлені за допомогою [псsetparameter()](function.ps-set-parameter.md)
 
 Параметр `name` може мати такі значення:
 
@@ -52,15 +52,15 @@ ps_get_parameter(resource $psdoc, string $name, float $modifier = ?): string|fal
 
 `linebreak`
 
-Використовується лише якщо текст виводиться за допомогою [псshowboxed()](function.ps-show-boxed.html). Якщо встановлено значення **`true`**, повернення каретки додасть розрив рядка.
+Використовується лише якщо текст виводиться за допомогою [псshowboxed()](function.ps-show-boxed.md). Якщо встановлено значення **`true`**, повернення каретки додасть розрив рядка.
 
 `parbreak`
 
-Використовується лише якщо текст виводиться за допомогою [псshowboxed()](function.ps-show-boxed.html). Якщо встановлено значення **`true`**, повернення каретки розпочне новий абзац.
+Використовується лише якщо текст виводиться за допомогою [псshowboxed()](function.ps-show-boxed.md). Якщо встановлено значення **`true`**, повернення каретки розпочне новий абзац.
 
 `hyphenation`
 
-Використовується лише якщо текст виводиться за допомогою [псshowboxed()](function.ps-show-boxed.html). Якщо встановлено значення **`true`**, абзац буде розставлено через дефіс, якщо дефісний словник встановлено та існує.
+Використовується лише якщо текст виводиться за допомогою [псshowboxed()](function.ps-show-boxed.md). Якщо встановлено значення **`true`**, абзац буде розставлено через дефіс, якщо дефісний словник встановлено та існує.
 
 `hyphendict`
 
@@ -70,7 +70,7 @@ ps_get_parameter(resource $psdoc, string $name, float $modifier = ?): string|fal
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `name`
 
@@ -86,4 +86,4 @@ ps_get_parameter(resource $psdoc, string $name, float $modifier = ?): string|fal
 
 ### Дивіться також
 
--   [псsetparameter()](function.ps-set-parameter.html) - Встановлює певні параметри
+-   [псsetparameter()](function.ps-set-parameter.md) - Встановлює певні параметри

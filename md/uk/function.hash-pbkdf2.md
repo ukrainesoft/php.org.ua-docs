@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-init.html: « hashinit
-  - function.hash-update-file.html: hashupdatefile »
+  - function.hash-init.md: « hashinit
+  - function.hash-update-file.md: hashupdatefile »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashpbkdf2

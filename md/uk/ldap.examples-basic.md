@@ -1,7 +1,7 @@
 ---
 navigation:
   - ldap.examples.md: « Приклади
-  - ldap.examples-controls.html: LDAP Controls »
+  - ldap.examples-controls.md: LDAP Controls »
   - index.md: PHP Manual
   - ldap.examples.md: Приклади
 title: Базове використання

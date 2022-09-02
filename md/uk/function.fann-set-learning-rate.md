@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-learning-momentum.html: « fannsetlearningmomentum
-  - function.fann-set-output-scaling-params.html: fannsetoutputscalingparams »
+  - function.fann-set-learning-momentum.md: « fannsetlearningmomentum
+  - function.fann-set-output-scaling-params.md: fannsetoutputscalingparams »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetlearningrate

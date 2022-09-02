@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stomp.readframe.html: '« Stomp::readFrame'
-  - stomp.setreadtimeout.html: 'Stomp::setReadTimeout »'
-  - index.html: PHP Manual
-  - class.stomp.html: Stomp
+  - stomp.readframe.md: '« Stomp::readFrame'
+  - stomp.setreadtimeout.md: 'Stomp::setReadTimeout »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
 title: 'Stomp::send'
 ---
 # Stomp::send

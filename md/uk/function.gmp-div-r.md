@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-div-qr.html: « gmpdivгр
-  - function.gmp-div.html: gmpdiv »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-div-qr.md: « gmpdivгр
+  - function.gmp-div.md: gmpdiv »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpdivр
 ---
 # gmpdivр
@@ -26,17 +26,17 @@ gmp_div_r(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 Подільне.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
 
 Дільник числа `num1`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `rounding_mode`
 
-У документації до функції [gmpdivq()](function.gmp-div-q.html) наведено опис аргументу `rounding_mode`
+У документації до функції [gmpdivq()](function.gmp-div-q.md) наведено опис аргументу `rounding_mode`
 
 ### Значення, що повертаються
 
@@ -61,5 +61,5 @@ gmp_div_r(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 ### Дивіться також
 
--   [gmpdivq()](function.gmp-div-q.html) - Розподіл чисел
--   [gmpdivqr()](function.gmp-div-qr.html) - Поділ чисел та отримання приватного та залишку
+-   [gmpdivq()](function.gmp-div-q.md) - Розподіл чисел
+-   [gmpdivqr()](function.gmp-div-qr.md) - Поділ чисел та отримання приватного та залишку

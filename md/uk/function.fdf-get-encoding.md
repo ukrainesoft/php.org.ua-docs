@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-get-attachment.html: « fdfgetattachment
-  - function.fdf-get-file.html: fdfgetfile »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-get-attachment.md: « fdfgetattachment
+  - function.fdf-get-file.md: fdfgetfile »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfgetencoding
 ---
 # fdfgetencoding
@@ -24,7 +24,7 @@ fdf_get_encoding(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ fdf_get_encoding(resource $fdf_document): string
 
 ### Дивіться також
 
--   [fdfsetencoding()](function.fdf-set-encoding.html) - Встановлює кодування символів FDF
+-   [fdfsetencoding()](function.fdf-set-encoding.md) - Встановлює кодування символів FDF

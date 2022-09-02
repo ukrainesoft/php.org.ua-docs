@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-server-info.html: « db2serverinfo
-  - function.db2-special-columns.html: db2specialcolumns »
+  - function.db2-server-info.md: « db2serverinfo
+  - function.db2-special-columns.md: db2specialcolumns »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2setoption
 ---
 # db2setoption
@@ -24,7 +24,7 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 `resource`
 
-Коректний ресурс оператора, отриманий з [db2prepare()](function.db2-prepare.html) або ж ресурс з'єднання, отриманий з [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.md)
+Коректний ресурс оператора, отриманий з [db2prepare()](function.db2-prepare.md) або ж ресурс з'єднання, отриманий з [db2connect()](function.db2-connect.md) або [db2pconnect()](function.db2-pconnect.md)
 
 `options`
 

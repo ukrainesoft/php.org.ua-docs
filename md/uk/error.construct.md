@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.error.html: « Error
-  - error.getmessage.html: 'Error::getMessage »'
-  - index.html: PHP Manual
-  - class.error.html: Error
+  - class.error.md: « Error
+  - error.getmessage.md: 'Error::getMessage »'
+  - index.md: PHP Manual
+  - class.error.md: Error
 title: 'Error::construct'
 ---
 # Error::construct
@@ -14,7 +14,7 @@ Error::construct — Створює об'єкт класу Error
 
 ### Опис
 
-public **Error::construct**(string `$message` = "", int `$code` [Throwable](class.throwable.html) `$previous` **`null`**
+public **Error::construct**(string `$message` = "", int `$code` [Throwable](class.throwable.md) `$previous` **`null`**
 
 Створює об'єкт класу Error.
 

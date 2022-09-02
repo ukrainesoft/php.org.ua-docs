@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-regex.getflags.html: '« MongoDBBSONRegex::getFlags'
-  - mongodb-bson-regex.jsonserialize.html: 'MongoDBBSONRegex::jsonSerialize »'
+  - mongodb-bson-regex.getflags.md: '« MongoDBBSONRegex::getFlags'
+  - mongodb-bson-regex.jsonserialize.md: 'MongoDBBSONRegex::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+  - class.mongodb-bson-regex.md: MongoDBBSONRegex
 title: 'MongoDBBSONRegex::getPattern'
 ---
 # MongoDBBSONRegex::getPattern

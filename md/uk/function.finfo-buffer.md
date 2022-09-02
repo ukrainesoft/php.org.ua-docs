@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.fileinfo.md: « Функции модуля Fileinfo
-  - function.finfo-close.html: finfoclose »
+  - function.finfo-close.md: finfoclose »
   - index.md: PHP Manual
   - ref.fileinfo.md: Функции модуля Fileinfo
 title: finfobuffer

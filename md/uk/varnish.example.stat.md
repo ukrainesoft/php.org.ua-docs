@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnish.example.admin.html: « Простое использование VarnishAdmin
-  - varnish.example.log.html: Простое использование VarnishLog »
-  - index.html: PHP Manual
-  - varnish.examples.html: Приклади
+  - varnish.example.admin.md: « Простое использование VarnishAdmin
+  - varnish.example.log.md: Простое использование VarnishLog »
+  - index.md: PHP Manual
+  - varnish.examples.md: Приклади
 title: Просте використання VarnishStat
 ---
 ## Просте використання VarnishStat

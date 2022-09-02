@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-x509-verify.html: « opensslx509verify
-  - class.opensslcertificatesigningrequest.html: OpenSSLCertificateSigningRequest »
-  - index.html: PHP Manual
-  - book.openssl.html: OpenSSL
+  - function.openssl-x509-verify.md: « opensslx509verify
+  - class.opensslcertificatesigningrequest.md: OpenSSLCertificateSigningRequest »
+  - index.md: PHP Manual
+  - book.openssl.md: OpenSSL
 title: Клас OpenSSLCertificate
 ---
 # Клас OpenSSLCertificate

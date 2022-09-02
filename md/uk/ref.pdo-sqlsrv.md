@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ref.pdo-mysql.connection.html: « PDOMYSQL DSN
-  - ref.pdo-sqlsrv.connection.html: PDOSQLSRV DSN »
+  - ref.pdo-mysql.connection.md: « PDOMYSQL DSN
+  - ref.pdo-sqlsrv.connection.md: PDOSQLSRV DSN »
   - index.md: PHP Manual
   - pdo.drivers.md: Драйвери PDO
 title: Функції модуля PDOSQLSRV для Microsoft SQL Server

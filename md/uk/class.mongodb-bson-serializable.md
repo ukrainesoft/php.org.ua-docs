@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-persistable.html: « MongoDBBSONPersistable
-  - mongodb-bson-serializable.bsonserialize.html: 'MongoDBBSONSerializable::bsonSerialize »'
-  - index.html: PHP Manual
-  - book.bson.html: MongoDBBSON
+  - class.mongodb-bson-persistable.md: « MongoDBBSONPersistable
+  - mongodb-bson-serializable.bsonserialize.md: 'MongoDBBSONSerializable::bsonSerialize »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONSerializable
 ---
 # Інтерфейс MongoDBBSONSerializable

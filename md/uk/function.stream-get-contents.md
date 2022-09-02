@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-filter-remove.html: « streamfilterremove
-  - function.stream-get-filters.html: streamgetfilters »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-filter-remove.md: « streamfilterremove
+  - function.stream-get-filters.md: streamgetfilters »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamgetcontents
 ---
 # streamgetcontents

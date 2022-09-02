@@ -1,9 +1,9 @@
 ---
 navigation:
-  - generator.throw.html: '« Generator::throw'
-  - generator.wakeup.html: 'Generator::wakeup »'
-  - index.html: PHP Manual
-  - class.generator.html: Generator
+  - generator.throw.md: '« Generator::throw'
+  - generator.wakeup.md: 'Generator::wakeup »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
 title: 'Generator::valid'
 ---
 # Generator::valid

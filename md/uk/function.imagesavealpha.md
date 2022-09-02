@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagerotate.html: « imagerotate
-  - function.imagescale.html: imagescale »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagerotate.md: « imagerotate
+  - function.imagescale.md: imagescale »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesavealpha
 ---
 # imagesavealpha
@@ -26,7 +26,7 @@ imagesavealpha(GdImage $image, bool $enable): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `enable`
 
@@ -40,7 +40,7 @@ imagesavealpha(GdImage $image, bool $enable): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -69,4 +69,4 @@ imagedestroy($png);
 
 ### Дивіться також
 
--   [imagealphablending()](function.imagealphablending.html) - Встановлення режиму сполучення кольорів для зображення
+-   [imagealphablending()](function.imagealphablending.md) - Встановлення режиму сполучення кольорів для зображення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mdecrypt-generic.html: « mdecryptgeneric
-  - intro.mhash.html: Введение »
-  - index.html: PHP Manual
-  - refs.crypto.html: Криптографічні модулі
+  - function.mdecrypt-generic.md: « mdecryptgeneric
+  - intro.mhash.md: Введение »
+  - index.md: PHP Manual
+  - refs.crypto.md: Криптографічні модулі
 title: Mhash
 ---
 # Mhash

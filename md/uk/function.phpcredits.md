@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.php-uname.html: « phpuname
+  - function.php-uname.md: « phpuname
   - function.phpinfo.md: phpinfo »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції

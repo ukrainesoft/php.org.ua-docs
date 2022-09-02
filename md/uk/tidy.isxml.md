@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidy.isxhtml.html: '« tidy::isXhtml'
-  - tidy.parsefile.html: 'tidy::parseFile »'
-  - index.html: PHP Manual
-  - class.tidy.html: tidy
+  - tidy.isxhtml.md: '« tidy::isXhtml'
+  - tidy.parsefile.md: 'tidy::parseFile »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
 title: 'tidy::isXml'
 ---
 # tidy::isXml

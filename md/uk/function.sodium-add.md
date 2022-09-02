@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.sodium.html: « Функции Sodium
-  - function.sodium-base642bin.html: sodiumbase642bin »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - ref.sodium.md: « Функции Sodium
+  - function.sodium-base642bin.md: sodiumbase642bin »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumadd
 ---
 # sodiumadd

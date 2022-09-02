@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-equals.html: « hashequals
-  - function.hash-final.html: hashfinal »
+  - function.hash-equals.md: « hashequals
+  - function.hash-final.md: hashfinal »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashfile

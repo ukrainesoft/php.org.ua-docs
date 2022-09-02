@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-search.html: « imapsearch
-  - function.imap-setacl.html: imapsetacl »
+  - function.imap-search.md: « imapsearch
+  - function.imap-setacl.md: imapsetacl »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapsetquota

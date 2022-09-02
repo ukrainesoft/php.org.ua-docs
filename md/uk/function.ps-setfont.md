@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-setflat.html: «pssetflat
-  - function.ps-setgray.html: псsetgray »
+  - function.ps-setflat.md: «pssetflat
+  - function.ps-setgray.md: псsetgray »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: пссетфонт

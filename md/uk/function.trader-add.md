@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-ad.html: « traderпекло
-  - function.trader-adosc.html: traderadosc »
+  - function.trader-ad.md: « traderпекло
+  - function.trader-adosc.md: traderadosc »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderadd

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openal-source-stop.html: « openalsourcestop
-  - refs.remote.auth.html: Служби аутентифікації »
-  - index.html: PHP Manual
-  - ref.openal.html: Функции OpenAL
+  - function.openal-source-stop.md: « openalsourcestop
+  - refs.remote.auth.md: Служби аутентифікації »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
 title: openalstream
 ---
 # openalstream
@@ -22,7 +22,7 @@ openal_stream(resource $source, int $format, int $rate): resource|false
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
+Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
 
 `format`
 

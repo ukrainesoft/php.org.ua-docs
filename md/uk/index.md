@@ -23,7 +23,7 @@ Damien Seguy
 
 Jakub Vrana
 
-[І деякі інші](preface.html#contributors)
+[І деякі інші](preface.md#contributors)
 
 **Під редакцією**: Peter Cowburn
 
@@ -58,7 +58,7 @@ Jakub Vrana
 
 Євген Четверіков
 
-[І деякі інші](preface.html#other.translators)
+[І деякі інші](preface.md#other.translators)
 
 © 1997-2022 Група документування PHP
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.ispassive.html: '« MongoDBDriverServer::isPassive'
-  - mongodb-driver-server.issecondary.html: 'MongoDBDriverServer::isSecondary »'
+  - mongodb-driver-server.ispassive.md: '« MongoDBDriverServer::isPassive'
+  - mongodb-driver-server.issecondary.md: 'MongoDBDriverServer::isSecondary »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::isPrimary'
 ---
 # MongoDBDriverServer::isPrimary

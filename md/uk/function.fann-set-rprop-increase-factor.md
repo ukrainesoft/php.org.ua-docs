@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-rprop-delta-zero.html: « fannsetrpropdeltazero
-  - function.fann-set-sarprop-step-error-shift.html: fannsetsarpropsteperrorshift »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-rprop-delta-zero.md: « fannsetrpropdeltazero
+  - function.fann-set-sarprop-step-error-shift.md: fannsetsarpropsteperrorshift »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetrpropincreasefactor
 ---
 # fannsetrpropincreasefactor
@@ -36,4 +36,4 @@ fann_set_rprop_increase_factor(resource $ann, float $rprop_increase_factor): boo
 
 ### Дивіться також
 
--   [fanngetrpropincreasefactor()](function.fann-get-rprop-increase-factor.html) - Повертає коефіцієнт збільшення, який використовується під час навчання RPROP
+-   [fanngetrpropincreasefactor()](function.fann-get-rprop-increase-factor.md) - Повертає коефіцієнт збільшення, який використовується під час навчання RPROP

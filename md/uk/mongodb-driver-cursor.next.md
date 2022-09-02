@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.key.html: '« MongoDBDriverCursor::key'
-  - mongodb-driver-cursor.rewind.html: 'MongoDBDriverCursor::rewind »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - mongodb-driver-cursor.key.md: '« MongoDBDriverCursor::key'
+  - mongodb-driver-cursor.rewind.md: 'MongoDBDriverCursor::rewind »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::next'
 ---
 # MongoDBDriverCursor::next

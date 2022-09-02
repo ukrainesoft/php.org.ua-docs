@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixel.construct.html: '« ImagickPixel::construct'
-  - imagickpixel.getcolor.html: 'ImagickPixel::getColor »'
-  - index.html: PHP Manual
-  - class.imagickpixel.html: ImagickPixel
+  - imagickpixel.construct.md: '« ImagickPixel::construct'
+  - imagickpixel.getcolor.md: 'ImagickPixel::getColor »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::destroy'
 ---
 # ImagickPixel::destroy

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-schema.dropcollection.html: '« Schema::dropCollection'
-  - mysql-xdevapi-schema.getcollection.html: 'Schema::getCollection »'
+  - mysql-xdevapi-schema.dropcollection.md: '« Schema::dropCollection'
+  - mysql-xdevapi-schema.getcollection.md: 'Schema::getCollection »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
 title: 'Schema::existsInDatabase'
 ---
 # Schema::existsInDatabase

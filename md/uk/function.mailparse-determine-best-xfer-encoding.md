@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.mailparse.md: « Mailparse
-  - function.mailparse-msg-create.html: mailparsemsgcreate »
+  - function.mailparse-msg-create.md: mailparsemsgcreate »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
 title: mailparsedeterminebestxferencoding

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xattr-list.html: « xattrlist
-  - function.xattr-set.html: xattrset »
-  - index.html: PHP Manual
-  - ref.xattr.html: xattr Функции
+  - function.xattr-list.md: « xattrlist
+  - function.xattr-set.md: xattrset »
+  - index.md: PHP Manual
+  - ref.xattr.md: xattr Функции
 title: xattrremove
 ---
 # xattrremove
@@ -57,6 +57,6 @@ foreach ($attributes as $attr_name) {
 
 ### Дивіться також
 
--   [xattrlist()](function.xattr-list.html) - Перегляд списку розширених атрибутів файлу
--   [xattrset()](function.xattr-set.html) - Встановлення розширених атрибутів файлу
--   [xattrget()](function.xattr-get.html) - Отримання розширених атрибутів файлу
+-   [xattrlist()](function.xattr-list.md) - Перегляд списку розширених атрибутів файлу
+-   [xattrset()](function.xattr-set.md) - Встановлення розширених атрибутів файлу
+-   [xattrget()](function.xattr-get.md) - Отримання розширених атрибутів файлу

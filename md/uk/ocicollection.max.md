@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ocicollection.getelem.html: '« OCICollection::getElem'
-  - ocicollection.size.html: 'OCICollection::size »'
-  - index.html: PHP Manual
-  - class.ocicollection.html: OCICollection
+  - ocicollection.getelem.md: '« OCICollection::getElem'
+  - ocicollection.size.md: 'OCICollection::size »'
+  - index.md: PHP Manual
+  - class.ocicollection.md: OCICollection
 title: 'OCICollection::max'
 ---
 # OCICollection::max
@@ -34,8 +34,8 @@ public OCICollection::max(): int|false
 
 | Версия | Описание |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.html) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Collection** перейменований на [OCICollection](class.ocicollection.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCICollection::size](ocicollection.size.html)
+-   [OCICollection::size](ocicollection.size.md)

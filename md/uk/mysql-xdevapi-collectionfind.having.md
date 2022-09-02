@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.groupby.html: '« CollectionFind::groupBy'
-  - mysql-xdevapi-collectionfind.limit.html: 'CollectionFind::limit »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+  - mysql-xdevapi-collectionfind.groupby.md: '« CollectionFind::groupBy'
+  - mysql-xdevapi-collectionfind.limit.md: 'CollectionFind::limit »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
 title: 'CollectionFind::having'
 ---
 # CollectionFind::having

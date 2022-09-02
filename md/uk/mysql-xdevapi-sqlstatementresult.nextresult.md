@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.hasdata.html: '« SqlStatementResult::hasData'
-  - class.mysql-xdevapi-statement.html: mysqlxdevapiStatement »
+  - mysql-xdevapi-sqlstatementresult.hasdata.md: '« SqlStatementResult::hasData'
+  - class.mysql-xdevapi-statement.md: mysqlxdevapiStatement »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::nextResult'
 ---
 # SqlStatementResult::nextResult

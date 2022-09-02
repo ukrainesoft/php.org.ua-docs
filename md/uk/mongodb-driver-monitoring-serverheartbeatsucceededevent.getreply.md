@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort'
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.html: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.md: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
 title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply'
 ---
 # MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply
@@ -18,7 +18,7 @@ MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply — Поверт�
 final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply(): object
 ```
 
-Документ відповіді буде перетворено з BSON на PHP з використанням правил [десериализации](mongodb.persistence.deserialization.html) за промовчанням (наприклад, документи BSON будуть перетворені на stdClass).
+Документ відповіді буде перетворено з BSON на PHP з використанням правил [десериализации](mongodb.persistence.deserialization.md) за промовчанням (наприклад, документи BSON будуть перетворені на stdClass).
 
 ### Список параметрів
 
@@ -30,9 +30,9 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply()
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
--   [Постійні дані](mongodb.persistence.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Постійні дані](mongodb.persistence.md)

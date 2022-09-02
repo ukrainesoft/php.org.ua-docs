@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzeof.html: « gzeof
-  - function.gzgetc.html: gzgetc »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzeof.md: « gzeof
+  - function.gzgetc.md: gzgetc »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzfile
 ---
 # gzfile
@@ -18,7 +18,7 @@ gzfile — Зчитує весь gz-файл у масив
 gzfile(string $filename, int $use_include_path = 0): array|false
 ```
 
-Аналогічна [readgzfile()](function.readgzfile.html), За винятком того, що вона повертає файл у масиві.
+Аналогічна [readgzfile()](function.readgzfile.md), За винятком того, що вона повертає файл у масиві.
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ gzfile(string $filename, int $use_include_path = 0): array|false
 
 `use_include_path`
 
-Якщо ви хочете, щоб також перевірялася наявність файлу в директоріях [includepath](ini.core.html#ini.include-path), встановіть значення цього параметра в `1`
+Якщо ви хочете, щоб також перевірялася наявність файлу в директоріях [includepath](ini.core.md#ini.include-path), встановіть значення цього параметра в `1`
 
 ### Значення, що повертаються
 
@@ -49,5 +49,5 @@ foreach ($lines as $line) {
 
 ### Дивіться також
 
--   [readgzfile()](function.readgzfile.html) - Виводить вміст gz-файлу
--   [gzopen()](function.gzopen.html) - Відкрити gz-файл
+-   [readgzfile()](function.readgzfile.md) - Виводить вміст gz-файлу
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл

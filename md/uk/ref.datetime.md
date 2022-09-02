@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dateperiod.getstartdate.html: '« DatePeriod::getStartDate'
-  - function.checkdate.html: checkdate »
-  - index.html: PHP Manual
-  - book.datetime.html: Дата/время
+  - dateperiod.getstartdate.md: '« DatePeriod::getStartDate'
+  - function.checkdate.md: checkdate »
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
 title: Функції дати та часу
 ---
 # Функції дати та часу

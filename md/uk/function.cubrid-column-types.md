@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-column-names.html: « cubridcolumnnames
-  - function.cubrid-commit.html: cubridcommit »
+  - function.cubrid-column-names.md: « cubridcolumnnames
+  - function.cubrid-commit.md: cubridcommit »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridcolumntypes

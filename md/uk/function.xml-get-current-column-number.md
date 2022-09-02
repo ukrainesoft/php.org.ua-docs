@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-get-current-byte-index.html: « xmlgetcurrentbyteindex
-  - function.xml-get-current-line-number.html: xmlgetcurrentlinenumber »
+  - function.xml-get-current-byte-index.md: « xmlgetcurrentbyteindex
+  - function.xml-get-current-line-number.md: xmlgetcurrentlinenumber »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlgetcurrentcolumnnumber

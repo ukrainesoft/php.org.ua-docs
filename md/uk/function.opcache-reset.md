@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.opcache-is-script-cached.html: « opcacheісscriptcached
+  - function.opcache-is-script-cached.md: « opcacheісscriptcached
   - book.outcontrol.md: Контроль виведення »
   - index.md: PHP Manual
   - ref.opcache.md: Функции OPcache

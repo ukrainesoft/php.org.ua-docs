@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-nb-continue.html: « ftpнбcontinue
-  - function.ftp-nb-fput.html: ftpнбfput »
+  - function.ftp-nb-continue.md: « ftpнбcontinue
+  - function.ftp-nb-fput.md: ftpнбfput »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpнбfget

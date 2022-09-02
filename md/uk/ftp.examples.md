@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ftp.constants.html: « Обумовлені константи
-  - ftp.examples-basic.html: Простое использование »
-  - index.html: PHP Manual
-  - book.ftp.html: FTP
+  - ftp.constants.md: « Обумовлені константи
+  - ftp.examples-basic.md: Простое использование »
+  - index.md: PHP Manual
+  - book.ftp.md: FTP
 title: Приклади
 ---
 # Приклади

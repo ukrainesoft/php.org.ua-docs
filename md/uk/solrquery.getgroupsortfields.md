@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getgroupqueries.html: '« SolrQuery::getGroupQueries'
-  - solrquery.getgrouptruncate.html: 'SolrQuery::getGroupTruncate »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getgroupqueries.md: '« SolrQuery::getGroupQueries'
+  - solrquery.getgrouptruncate.md: 'SolrQuery::getGroupTruncate »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupSortFields'
 ---
 # SolrQuery::getGroupSortFields
@@ -28,4 +28,4 @@ public SolrQuery::getGroupSortFields(): array
 
 ### Дивіться також
 
--   [SolrQuery::addGroupSortField()](solrquery.addgroupsortfield.html) - Додає поле сортування групи (параметр group.sort)
+-   [SolrQuery::addGroupSortField()](solrquery.addgroupsortfield.md) - Додає поле сортування групи (параметр group.sort)

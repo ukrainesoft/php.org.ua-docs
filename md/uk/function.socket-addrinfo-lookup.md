@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-addrinfo-explain.html: « socketaddrinfoexplain
-  - function.socket-bind.html: socketbind »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-addrinfo-explain.md: « socketaddrinfoexplain
+  - function.socket-bind.md: socketbind »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketaddrinfolookup
 ---
 # socketaddrinfolookup
@@ -18,7 +18,7 @@ socketaddrinfolookup — Отримати масив із вмістом getaddr
 socket_addrinfo_lookup(string $host, ?string $service = null, array $hints = []): array|false
 ```
 
-Пошук різних способів підключення до хоста (`host`). Масив, що повертається, містить набір екземплярів. [AddressInfo](class.addressinfo.html), які можна прив'язати за допомогою [socketaddrinfobind()](function.socket-addrinfo-bind.md)
+Пошук різних способів підключення до хоста (`host`). Масив, що повертається, містить набір екземплярів. [AddressInfo](class.addressinfo.md), які можна прив'язати за допомогою [socketaddrinfobind()](function.socket-addrinfo-bind.md)
 
 ### Список параметрів
 

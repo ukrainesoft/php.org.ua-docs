@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.isblank.html: '« IntlChar::isblank'
-  - intlchar.isdefined.html: 'IntlChar::isdefined »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.isblank.md: '« IntlChar::isblank'
+  - intlchar.isdefined.md: 'IntlChar::isdefined »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::iscntrl'
 ---
 # IntlChar::iscntrl
@@ -62,5 +62,5 @@ bool(true)
 
 ### Дивіться також
 
--   [IntlChar::isprint()](intlchar.isprint.html) - Перевіряє, чи символ відображається
+-   [IntlChar::isprint()](intlchar.isprint.md) - Перевіряє, чи символ відображається
 -   **`IntlChar::PROPERTY_DEFAULT_IGNORABLE_CODE_POINT`**

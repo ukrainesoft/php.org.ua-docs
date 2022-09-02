@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-open.html: '« streamWrapper::streamopen'
-  - streamwrapper.stream-seek.html: 'streamWrapper::streamseek »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-open.md: '« streamWrapper::streamopen'
+  - streamwrapper.stream-seek.md: 'streamWrapper::streamseek »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamread'
 ---
 # streamWrapper::streamread
@@ -18,7 +18,7 @@ streamWrapper::streamread — Читає з потоку
 public streamWrapper::stream_read(int $count): string|false
 ```
 
-Цей метод викликається у процесі виконання функцій [fread()](function.fread.html) і [fgets()](function.fgets.md)
+Цей метод викликається у процесі виконання функцій [fread()](function.fread.md) і [fgets()](function.fgets.md)
 
 > **Зауваження**
 > 
@@ -50,7 +50,7 @@ public streamWrapper::stream_read(int $count): string|false
 
 **Увага**
 
-При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.html)), PHP буде викликати **streamWrapper::streamread()** і разом із ним [streamWrapper::streameof()](streamwrapper.stream-eof.html) у циклі, поки **streamWrapper::streamread()** повертає непустий рядок. Повертається з [streamWrapper::streameof()](streamwrapper.stream-eof.md) значення у своїй ігнорується.
+При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.md)), PHP буде викликати **streamWrapper::streamread()** і разом із ним [streamWrapper::streameof()](streamwrapper.stream-eof.md) у циклі, поки **streamWrapper::streamread()** повертає непустий рядок. Повертається з [streamWrapper::streameof()](streamwrapper.stream-eof.md) значення у своїй ігнорується.
 
 ### Дивіться також
 

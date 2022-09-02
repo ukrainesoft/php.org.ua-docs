@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.shmop-write.html: « shmopwrite
-  - book.sync.html: Sync »
-  - index.html: PHP Manual
-  - book.shmop.html: Управление разделяемой памятью
+  - function.shmop-write.md: « shmopwrite
+  - book.sync.md: Sync »
+  - index.md: PHP Manual
+  - book.shmop.md: Управление разделяемой памятью
 title: Клас Shmop
 ---
 # Клас Shmop

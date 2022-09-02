@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-stmt-errormsg.html: « db2stmterrormsg
-  - function.db2-tables.html: db2tables »
+  - function.db2-stmt-errormsg.md: « db2stmterrormsg
+  - function.db2-tables.md: db2tables »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2tableprivileges
 ---
 # db2tableprivileges

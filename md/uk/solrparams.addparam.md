@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrparams.add.html: '« SolrParams::add'
-  - solrparams.get.html: 'SolrParams::get »'
-  - index.html: PHP Manual
-  - class.solrparams.html: SolrParams
+  - solrparams.add.md: '« SolrParams::add'
+  - solrparams.get.md: 'SolrParams::get »'
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
 title: 'SolrParams::addParam'
 ---
 # SolrParams::addParam

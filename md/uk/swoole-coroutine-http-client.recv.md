@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.post.html: '« SwooleCoroutineHttpClient::post'
-  - swoole-coroutine-http-client.set.html: 'SwooleCoroutineHttpClient::set »'
+  - swoole-coroutine-http-client.post.md: '« SwooleCoroutineHttpClient::post'
+  - swoole-coroutine-http-client.set.md: 'SwooleCoroutineHttpClient::set »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::recv'
 ---
 # SwooleCoroutineHttpClient::recv

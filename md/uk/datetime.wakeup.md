@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.gettimezone.html: '« DateTimeInterface::getTimezone'
-  - class.datetimezone.html: DateTimeZone »
-  - index.html: PHP Manual
-  - class.datetimeinterface.html: DateTimeInterface
+  - datetime.gettimezone.md: '« DateTimeInterface::getTimezone'
+  - class.datetimezone.md: DateTimeZone »
+  - index.md: PHP Manual
+  - class.datetimeinterface.md: DateTimeInterface
 title: 'DateTime::wakeup'
 ---
 # DateTime::wakeup
@@ -30,7 +30,7 @@ public DateTimeImmutable::__wakeup(): void
 public DateTimeInterface::__wakeup(): void
 ```
 
-Обробник [wakeup()](language.oop5.magic.html#object.wakeup)
+Обробник [wakeup()](language.oop5.magic.md#object.wakeup)
 
 ### Список параметрів
 

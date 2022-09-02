@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-sin.html: « tradersin
-  - function.trader-sma.html: tradersma »
+  - function.trader-sin.md: « tradersin
+  - function.trader-sma.md: tradersma »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradersinh

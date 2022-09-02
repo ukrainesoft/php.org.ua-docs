@@ -1,17 +1,17 @@
 ---
 navigation:
-  - language.types.type-juggling.html: Маніпуляції з типами
-  - language.variables.basics.html: Основи »
-  - index.html: PHP Manual
-  - langref.html: Довідник мови
+  - language.types.type-juggling.md: Маніпуляції з типами
+  - language.variables.basics.md: Основи »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
 title: Змінні
 ---
 # Змінні
 
 ## Зміст
 
--   [Основи](language.variables.basics.html)
--   [Зумовлені змінні](language.variables.predefined.html)
--   [Область видимості змінної](language.variables.scope.html)
--   [Змінні змінних](language.variables.variable.html)
--   [Змінні ззовні PHP](language.variables.external.html)
+-   [Основи](language.variables.basics.md)
+-   [Зумовлені змінні](language.variables.predefined.md)
+-   [Область видимості змінної](language.variables.scope.md)
+-   [Змінні змінних](language.variables.variable.md)
+-   [Змінні ззовні PHP](language.variables.external.md)

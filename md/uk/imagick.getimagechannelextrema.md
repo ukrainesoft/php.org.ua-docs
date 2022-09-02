@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagechanneldistortions.html: '« Imagick::getImageChannelDistortions'
-  - imagick.getimagechannelkurtosis.html: 'Imagick::getImageChannelKurtosis »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagechanneldistortions.md: '« Imagick::getImageChannelDistortions'
+  - imagick.getimagechannelkurtosis.md: 'Imagick::getImageChannelKurtosis »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageChannelExtrema'
 ---
 # Imagick::getImageChannelExtrema
@@ -28,7 +28,7 @@ public Imagick::getImageChannelExtrema(int $channel): array
 
 `channel`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

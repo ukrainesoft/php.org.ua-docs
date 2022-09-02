@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-schema.html: « yazschema
-  - function.yaz-set-option.html: yazsetoption »
+  - function.yaz-schema.md: « yazschema
+  - function.yaz-set-option.md: yazsetoption »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazsearch
@@ -20,7 +20,7 @@ yaz_search(resource $id, string $type, string $query): bool
 
 **yazsearch()** готує пошук на заданому з'єднанні.
 
-Так само як і [yazconnect()](function.yaz-connect.html) ця функція не блокує і лише готує умови пошуку, який буде виконаний функцією [yazwait()](function.yaz-wait.md)
+Так само як і [yazconnect()](function.yaz-connect.md) ця функція не блокує і лише готує умови пошуку, який буде виконаний функцією [yazwait()](function.yaz-wait.md)
 
 ### Список параметрів
 
@@ -51,7 +51,7 @@ yaz_search(resource $id, string $type, string $query): bool
 
 > **Зауваження**
 > 
-> Якщо ви хочете використовувати більш дружню нотацію, використовуйте CCL парсер - функції [yazcclconf()](function.yaz-ccl-conf.html) і [yazcclparse()](function.yaz-ccl-parse.md)
+> Якщо ви хочете використовувати більш дружню нотацію, використовуйте CCL парсер - функції [yazcclconf()](function.yaz-ccl-conf.md) і [yazcclparse()](function.yaz-ccl-parse.md)
 
 ### Значення, що повертаються
 

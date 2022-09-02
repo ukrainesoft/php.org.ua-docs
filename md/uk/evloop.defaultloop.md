@@ -42,7 +42,7 @@ public
 
 `flags`
 
-Один з [прапори циклу подій](class.ev.html#ev.constants.loop-flags)
+Один з [прапори циклу подій](class.ev.md#ev.constants.loop-flags)
 
 `data`
 
@@ -50,11 +50,11 @@ public
 
 `io_collect_interval`
 
-Дивіться [іоinterval](class.evloop.html#evloop.props.io-interval)
+Дивіться [іоinterval](class.evloop.md#evloop.props.io-interval)
 
 `timeout_collect_interval`
 
-Дивіться [timeoutinterval](class.evloop.html#evloop.props.timeout-interval)
+Дивіться [timeoutinterval](class.evloop.md#evloop.props.timeout-interval)
 
 ### Значення, що повертаються
 

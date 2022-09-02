@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.iterator-apply.html: « iteratorapply
-  - function.iterator-to-array.html: iteratorтоarray »
+  - function.iterator-apply.md: « iteratorapply
+  - function.iterator-to-array.md: iteratorтоarray »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
 title: iteratorcount

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventdnsbase.clearsearch.html: '« EventDnsBase::clearSearch'
-  - eventdnsbase.countnameservers.html: 'EventDnsBase::countNameservers »'
-  - index.html: PHP Manual
-  - class.eventdnsbase.html: EventDnsBase
+  - eventdnsbase.clearsearch.md: '« EventDnsBase::clearSearch'
+  - eventdnsbase.countnameservers.md: 'EventDnsBase::countNameservers »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
 title: 'EventDnsBase::construct'
 ---
 # EventDnsBase::construct
@@ -35,7 +35,7 @@ public
 
 `initialize`
 
-Якщо аргумент `initialize` має значення **`true`**, він намагається розумно налаштувати базу DNS з урахуванням параметрів операційної системи за промовчанням. В іншому випадку база подій DNS залишається порожньою, без налаштованих серверів імен або параметрів. В останньому випадку база DNS має бути налаштована вручну, наприклад, за допомогою [EventDnsBase::parseResolvConf()](eventdnsbase.parseresolvconf.html)
+Якщо аргумент `initialize` має значення **`true`**, він намагається розумно налаштувати базу DNS з урахуванням параметрів операційної системи за промовчанням. В іншому випадку база подій DNS залишається порожньою, без налаштованих серверів імен або параметрів. В останньому випадку база DNS має бути налаштована вручну, наприклад, за допомогою [EventDnsBase::parseResolvConf()](eventdnsbase.parseresolvconf.md)
 
 ### Значення, що повертаються
 

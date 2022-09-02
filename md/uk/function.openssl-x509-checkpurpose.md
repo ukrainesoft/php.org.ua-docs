@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-x509-check-private-key.html: « opensslx509checkprivatekey
-  - function.openssl-x509-export-to-file.html: opensslx509exportтоfile »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-x509-check-private-key.md: « opensslx509checkprivatekey
+  - function.openssl-x509-export-to-file.md: opensslx509exportтоfile »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslx509checkpurpose
 ---
 # opensslx509checkpurpose
@@ -44,7 +44,7 @@ openssl_x509_checkpurpose(    OpenSSLCertificate|string $certificate,   �
 
 `ca_info`
 
-`ca_info` повинен містити масив довірених CA файлів/директорій, як описано на сторінці [проверки сертификатов](openssl.cert.verification.html)
+`ca_info` повинен містити масив довірених CA файлів/директорій, як описано на сторінці [проверки сертификатов](openssl.cert.verification.md)
 
 `untrusted_certificates_file`
 
@@ -58,5 +58,5 @@ openssl_x509_checkpurpose(    OpenSSLCertificate|string $certificate,   �
 
 | Версия | Описание |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
 |  | `untrusted_certificates_file` тепер допускає значення null. |

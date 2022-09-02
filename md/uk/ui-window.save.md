@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.open.html: '« UIWindow::open'
-  - ui-window.setborders.html: 'ОЙWindow::setBorders »'
+  - ui-window.open.md: '« UIWindow::open'
+  - ui-window.setborders.md: 'ОЙWindow::setBorders »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::save'
 ---
 # ОЙWindow::save

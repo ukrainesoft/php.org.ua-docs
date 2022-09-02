@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.magnifyimage.html: '« Gmagick::magnifyimage'
-  - gmagick.medianfilterimage.html: 'Gmagick::medianfilterimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.magnifyimage.md: '« Gmagick::magnifyimage'
+  - gmagick.medianfilterimage.md: 'Gmagick::medianfilterimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::mapimage'
 ---
 # Gmagick::mapimage
@@ -32,7 +32,7 @@ public Gmagick::mapimage(gmagick $gmagick, bool $dither): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)
 
 ### Помилки
 

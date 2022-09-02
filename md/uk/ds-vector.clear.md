@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.capacity.html: '« DsVector::capacity'
-  - ds-vector.construct.html: 'ДсVector::construct »'
+  - ds-vector.capacity.md: '« DsVector::capacity'
+  - ds-vector.construct.md: 'ДсVector::construct »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::clear'
 ---
 # ДсVector::clear

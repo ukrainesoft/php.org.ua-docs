@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-dict-is-added.html: « enchantdictісadded
-  - function.enchant-dict-quick-check.html: enchantdictquickcheck »
+  - function.enchant-dict-is-added.md: « enchantdictісadded
+  - function.enchant-dict-quick-check.md: enchantdictquickcheck »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantdictісінsession

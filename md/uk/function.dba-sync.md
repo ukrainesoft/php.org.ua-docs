@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dba-replace.html: « dbareplace
-  - book.uodbc.html: ODBC »
-  - index.html: PHP Manual
-  - ref.dba.html: Функції DBA
+  - function.dba-replace.md: « dbareplace
+  - book.uodbc.md: ODBC »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
 title: dbasync
 ---
 # dbasync
@@ -24,7 +24,7 @@ dba_sync(resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ dba_sync(resource $dba): bool
 
 ### Дивіться також
 
--   [dbaoptimize()](function.dba-optimize.html) - Оптимізує базу даних
+-   [dbaoptimize()](function.dba-optimize.md) - Оптимізує базу даних

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.resume.html: '« SwooleServer::resume'
-  - swoole-server.sendfile.html: 'SwooleServer::sendfile »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - swoole-server.resume.md: '« SwooleServer::resume'
+  - swoole-server.sendfile.md: 'SwooleServer::sendfile »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::send'
 ---
 # SwooleServer::send

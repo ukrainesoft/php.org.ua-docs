@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-select.html: « socketselect
-  - function.socket-sendmsg.html: socketsendmsg »
+  - function.socket-select.md: « socketselect
+  - function.socket-sendmsg.md: socketsendmsg »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketsend
@@ -24,7 +24,7 @@ socket_send(    Socket $socket,    string $data,    int $length,  
 
 `socket`
 
-Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.md)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
 
 `data`
 

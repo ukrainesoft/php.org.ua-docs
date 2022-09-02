@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-response.destruct.html: '« SwooleHttpResponse::destruct'
-  - swoole-http-response.gzip.html: 'SwooleHttpResponse::gzip »'
+  - swoole-http-response.destruct.md: '« SwooleHttpResponse::destruct'
+  - swoole-http-response.gzip.md: 'SwooleHttpResponse::gzip »'
   - index.md: PHP Manual
-  - class.swoole-http-response.html: SwooleHttpResponse
+  - class.swoole-http-response.md: SwooleHttpResponse
 title: 'SwooleHttpResponse::end'
 ---
 # SwooleHttpResponse::end

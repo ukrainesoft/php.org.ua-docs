@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apcu-sma-info.html: « apcusmainfo
-  - class.apcuiterator.html: APCUIterator »
-  - index.html: PHP Manual
-  - ref.apcu.html: Функции APCu
+  - function.apcu-sma-info.md: « apcusmainfo
+  - class.apcuiterator.md: APCUIterator »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
 title: apcustore
 ---
 # apcustore

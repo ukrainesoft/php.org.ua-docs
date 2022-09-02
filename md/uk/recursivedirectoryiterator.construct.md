@@ -26,7 +26,7 @@ public **RecursiveDirectoryIterator::construct**(string `$directory`, int `$flag
 
 `flags`
 
-Можна встановити кілька прапорів, від яких залежатиме поведінка деяких методів. Список можливих прапорів можна знайти на сторінці [Обумовлених констант класу FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Прапори можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.md)
+Можна встановити кілька прапорів, від яких залежатиме поведінка деяких методів. Список можливих прапорів можна знайти на сторінці [Обумовлених констант класу FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants). Прапори можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.md)
 
 ### Помилки
 
@@ -86,4 +86,4 @@ while($it->valid()) {
 
 -   [FilesystemIterator::construct()](filesystemiterator.construct.md) - Створює новий ітератор файлової системи
 -   [RecursiveIteratorIterator::construct()](recursiveiteratoriterator.construct.md) - Конструктор класу RecursiveIteratorIterator
--   [Обумовлені константи класса FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+-   [Обумовлені константи класса FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)

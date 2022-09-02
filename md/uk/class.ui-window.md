@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-size.setwidth.html: '« UISize::setWidth'
-  - ui-window.add.html: 'ОЙWindow::add »'
+  - ui-size.setwidth.md: '« UISize::setWidth'
+  - ui-window.add.md: 'ОЙWindow::add »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Вікно

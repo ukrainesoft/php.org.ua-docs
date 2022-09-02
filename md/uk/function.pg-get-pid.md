@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-get-notify.html: « pggetnotify
-  - function.pg-get-result.html: пгgetresult »
+  - function.pg-get-notify.md: « pggetnotify
+  - function.pg-get-result.md: пгgetresult »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгgetpid

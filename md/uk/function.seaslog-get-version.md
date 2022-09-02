@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.seaslog-get-author.html: « seasloggetauthor
+  - function.seaslog-get-author.md: « seasloggetauthor
   - class.seaslog.md: SeasLog »
   - index.md: PHP Manual
   - ref.seaslog.md: Функции Seaslog

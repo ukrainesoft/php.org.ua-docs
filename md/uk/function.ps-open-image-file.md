@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-open-file.html: «psopenfile
-  - function.ps-open-image.html: псopenimage »
+  - function.ps-open-file.md: «psopenfile
+  - function.ps-open-image.md: псopenimage »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псopenimagefile

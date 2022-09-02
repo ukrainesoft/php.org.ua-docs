@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagefontwidth.html: « imagefontwidth
-  - function.imagefttext.html: imagefttext »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagefontwidth.md: « imagefontwidth
+  - function.imagefttext.md: imagefttext »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageftbbox
 ---
 # imageftbbox
@@ -22,7 +22,7 @@ imageftbbox(    float $size,    float $angle,    string $font_filena
 
 > **Зауваження**
 > 
-> До PHP 8.0.0 **imageftbbox()** - це розширений варіант [imagettfbbox()](function.imagettfbbox.html), який додатково підтримує `extrainfo`. Починаючи з 8.0.0, [imagettfbbox()](function.imagettfbbox.html) є псевдонімом **imageftbbox()**
+> До PHP 8.0.0 **imageftbbox()** - це розширений варіант [imagettfbbox()](function.imagettfbbox.md), який додатково підтримує `extrainfo`. Починаючи з 8.0.0, [imagettfbbox()](function.imagettfbbox.md) є псевдонімом **imageftbbox()**
 
 ### Список параметрів
 
@@ -100,5 +100,5 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagefttext()](function.imagefttext.html) - Нанесення тексту на зображення за допомогою шрифтів FreeType 2
--   [imagettfbbox()](function.imagettfbbox.html) - Отримання параметрів рамки, що обрамляє текст написаний TrueType шрифтом
+-   [imagefttext()](function.imagefttext.md) - Нанесення тексту на зображення за допомогою шрифтів FreeType 2
+-   [imagettfbbox()](function.imagettfbbox.md) - Отримання параметрів рамки, що обрамляє текст написаний TrueType шрифтом

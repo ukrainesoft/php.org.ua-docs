@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-udiff-assoc.html: « arrayudiffassoc
-  - function.array-udiff.html: arrayudiff »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-udiff-assoc.md: « arrayudiffassoc
+  - function.array-udiff.md: arrayudiff »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayudiffuassoc
 ---
 # arrayudiffuassoc
@@ -20,7 +20,7 @@ array_udiff_uassoc(    array $array,    array ...$arrays,    callabl
 
 Обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи для порівняння значень та індексів callback-функцію.
 
-Зверніть увагу, що для порівняння використовуються ключі, на відміну від [arraydiff()](function.array-diff.html) і [arrayudiff()](function.array-udiff.html)
+Зверніть увагу, що для порівняння використовуються ключі, на відміну від [arraydiff()](function.array-diff.md) і [arrayudiff()](function.array-udiff.md)
 
 ### Список параметрів
 
@@ -42,7 +42,7 @@ callback(mixed $a, mixed $b): int
 
 `key_compare_func`
 
-Порівняння ключів (індексів) також здійснюється за допомогою callback-функції `key_compare_func`. Це відрізняється від поведінки [arrayudiffassoc()](function.array-udiff-assoc.html)яка порівнює індекси за допомогою вбудованої функції.
+Порівняння ключів (індексів) також здійснюється за допомогою callback-функції `key_compare_func`. Це відрізняється від поведінки [arrayudiffassoc()](function.array-udiff-assoc.md)яка порівнює індекси за допомогою вбудованої функції.
 
 ### Значення, що повертаються
 
@@ -111,12 +111,12 @@ Array
 
 ### Дивіться також
 
--   [arraydiff()](function.array-diff.html) - Обчислити розбіжність масивів
--   [arraydiffassoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу
--   [arrayudiff()](function.array-udiff.html) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
--   [arrayudiffassoc()](function.array-udiff-assoc.html) - обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи порівняння значень callback-функцию
--   [arrayintersect()](function.array-intersect.html) - обчислює сходження масивів
--   [arrayintersectassoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу
--   [arrayuintersect()](function.array-uintersect.html) - обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
--   [arrayuintersectassoc()](function.array-uintersect-assoc.html) - обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
--   [arrayuintersectuassoc()](function.array-uintersect-uassoc.html) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції
+-   [arraydiff()](function.array-diff.md) - Обчислити розбіжність масивів
+-   [arraydiffassoc()](function.array-diff-assoc.md) - обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [arrayudiff()](function.array-udiff.md) - обчислює розбіжність масивів, використовуючи для порівняння callback-функцію
+-   [arrayudiffassoc()](function.array-udiff-assoc.md) - обчислює розбіжність у масивах з додатковою перевіркою індексів, використовуючи порівняння значень callback-функцию
+-   [arrayintersect()](function.array-intersect.md) - обчислює сходження масивів
+-   [arrayintersectassoc()](function.array-intersect-assoc.md) - обчислює сходження масивів з додатковою перевіркою індексу
+-   [arrayuintersect()](function.array-uintersect.md) - обчислює перетин масивів, використовуючи для порівняння значень callback-функцію
+-   [arrayuintersectassoc()](function.array-uintersect-assoc.md) - обчислює перетин масивів з додатковою перевіркою індексів, використовуючи для порівняння значень callback-функцію
+-   [arrayuintersectuassoc()](function.array-uintersect-uassoc.md) - обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння індексів та значень індивідуальні callback-функції

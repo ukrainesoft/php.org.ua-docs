@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-wait-event.html: « ibasewaitevent
-  - intro.ibm-db2.html: Введение »
+  - function.ibase-wait-event.md: « ibasewaitevent
+  - intro.ibm-db2.md: Введение »
   - index.md: PHP Manual
   - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
 title: 'IBM DB2, Cloudscape та Apache Derby'

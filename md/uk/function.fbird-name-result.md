@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-modify-user.html: « fbirdmodifyuser
-  - function.fbird-num-fields.html: fbirdnumfields »
+  - function.fbird-modify-user.md: « fbirdmodifyuser
+  - function.fbird-num-fields.md: fbirdnumfields »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdnameresult

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.setstaticpropertyvalue.html: '« ReflectionClass::setStaticPropertyValue'
-  - class.reflectionclassconstant.html: ReflectionClassConstant »
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.setstaticpropertyvalue.md: '« ReflectionClass::setStaticPropertyValue'
+  - class.reflectionclassconstant.md: ReflectionClassConstant »
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::function toString() { \[native code\] }'
 ---
 # ReflectionClass::function toString() { \[native code\] }
@@ -26,7 +26,7 @@ public ReflectionClass::__toString(): string
 
 ### Значення, що повертаються
 
-Строкове подання екземпляра класу [ReflectionClass](class.reflectionclass.html)
+Строкове подання екземпляра класу [ReflectionClass](class.reflectionclass.md)
 
 ### Приклади
 
@@ -105,5 +105,5 @@ Class [ <internal:Core> class Exception ] {
 
 ### Дивіться також
 
--   [ReflectionClass::export()](reflectionclass.export.html) - Експортує клас
--   [toString()](language.oop5.magic.html#object.tostring)
+-   [ReflectionClass::export()](reflectionclass.export.md) - Експортує клас
+-   [toString()](language.oop5.magic.md#object.tostring)

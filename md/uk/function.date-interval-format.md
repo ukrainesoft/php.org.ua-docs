@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-interval-create-from-date-string.html: « dateintervalcreatefromdatestring
-  - function.date-isodate-set.html: dateisodateset »
+  - function.date-interval-create-from-date-string.md: « dateintervalcreatefromdatestring
+  - function.date-isodate-set.md: dateisodateset »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: dateintervalformat

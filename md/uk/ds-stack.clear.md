@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.capacity.html: '« DsStack::capacity'
-  - ds-stack.construct.html: 'ДсStack::construct »'
+  - ds-stack.capacity.md: '« DsStack::capacity'
+  - ds-stack.construct.md: 'ДсStack::construct »'
   - index.md: PHP Manual
-  - class.ds-stack.html: Стек
+  - class.ds-stack.md: Стек
 title: 'ДсStack::clear'
 ---
 # ДсStack::clear

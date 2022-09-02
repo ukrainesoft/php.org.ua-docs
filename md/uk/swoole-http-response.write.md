@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-response.status.html: '« SwooleHttpResponse::status'
-  - class.swoole-http-server.html: SwooleHttpServer »
-  - index.html: PHP Manual
-  - class.swoole-http-response.html: SwooleHttpResponse
+  - swoole-http-response.status.md: '« SwooleHttpResponse::status'
+  - class.swoole-http-server.md: SwooleHttpServer »
+  - index.md: PHP Manual
+  - class.swoole-http-response.md: SwooleHttpResponse
 title: 'SwooleHttpResponse::write'
 ---
 # SwooleHttpResponse::write

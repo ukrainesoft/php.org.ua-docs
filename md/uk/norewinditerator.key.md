@@ -1,9 +1,9 @@
 ---
 navigation:
-  - norewinditerator.getinneriterator.html: '« NoRewindIterator::getInnerIterator'
-  - norewinditerator.next.html: 'NoRewindIterator::next »'
-  - index.html: PHP Manual
-  - class.norewinditerator.html: NoRewindIterator
+  - norewinditerator.getinneriterator.md: '« NoRewindIterator::getInnerIterator'
+  - norewinditerator.next.md: 'NoRewindIterator::next »'
+  - index.md: PHP Manual
+  - class.norewinditerator.md: NoRewindIterator
 title: 'NoRewindIterator::key'
 ---
 # NoRewindIterator::key
@@ -34,4 +34,4 @@ public NoRewindIterator::key(): mixed
 
 ### Дивіться також
 
--   [NoRewindIterator::next()](norewinditerator.next.html) - Переміщує ітератор до наступного елементу
+-   [NoRewindIterator::next()](norewinditerator.next.md) - Переміщує ітератор до наступного елементу

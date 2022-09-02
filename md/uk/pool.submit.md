@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pool.shutdown.html: '« Pool::shutdown'
-  - pool.submitTo.html: 'Pool::submitTo »'
-  - index.html: PHP Manual
-  - class.pool.html: Pool
+  - pool.shutdown.md: '« Pool::shutdown'
+  - pool.submitTo.md: 'Pool::submitTo »'
+  - index.md: PHP Manual
+  - class.pool.md: Pool
 title: 'Pool::submit'
 ---
 # Pool::submit

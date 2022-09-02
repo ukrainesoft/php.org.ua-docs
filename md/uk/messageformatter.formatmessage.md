@@ -1,9 +1,9 @@
 ---
 navigation:
-  - messageformatter.create.html: '« MessageFormatter::create'
-  - messageformatter.format.html: 'MessageFormatter::format »'
-  - index.html: PHP Manual
-  - class.messageformatter.html: MessageFormatter
+  - messageformatter.create.md: '« MessageFormatter::create'
+  - messageformatter.format.md: 'MessageFormatter::format »'
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::formatMessage'
 ---
 # MessageFormatter::formatMessage

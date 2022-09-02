@@ -36,7 +36,7 @@ public ImagickDraw::color(float $x, float $y, int $paintMethod): bool
 
 `paintMethod`
 
-Одна з констант [PAINT](imagick.constants.html#imagick.constants.paint) `imagick::PAINT_*`
+Одна з констант [PAINT](imagick.constants.md#imagick.constants.paint) `imagick::PAINT_*`
 
 ### Значення, що повертаються
 

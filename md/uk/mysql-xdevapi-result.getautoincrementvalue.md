@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-result.getaffecteditemscount.html: '« Result::getAffectedItemsCount'
-  - mysql-xdevapi-result.getgeneratedids.html: 'Result::getGeneratedIds »'
+  - mysql-xdevapi-result.getaffecteditemscount.md: '« Result::getAffectedItemsCount'
+  - mysql-xdevapi-result.getgeneratedids.md: 'Result::getGeneratedIds »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
 title: 'Result::set Auto\_Increment Value'
 ---
 # Result::set Auto\_Increment Value

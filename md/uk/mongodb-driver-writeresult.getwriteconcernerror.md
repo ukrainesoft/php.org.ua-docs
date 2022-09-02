@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getupsertedids.html: '« MongoDBDriverWriteResult::getUpsertedIds'
-  - mongodb-driver-writeresult.getwriteerrors.html: 'MongoDBDriverWriteResult::getWriteErrors »'
+  - mongodb-driver-writeresult.getupsertedids.md: '« MongoDBDriverWriteResult::getUpsertedIds'
+  - mongodb-driver-writeresult.getwriteerrors.md: 'MongoDBDriverWriteResult::getWriteErrors »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
 title: 'MongoDBDriverWriteResult::getWriteConcernError'
 ---
 # MongoDBDriverWriteResult::getWriteConcernError

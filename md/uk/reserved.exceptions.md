@@ -1,27 +1,27 @@
 ---
 navigation:
-  - reserved.variables.argv.html: « $argv
-  - class.exception.html: Exception »
-  - index.html: PHP Manual
-  - langref.html: Довідник мови
+  - reserved.variables.argv.md: « $argv
+  - class.exception.md: Exception »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
 title: Обумовлені винятки
 ---
 # Обумовлені винятки
 
 ## Зміст
 
--   [Exception](class.exception.html)
--   [ErrorException](class.errorexception.html)
--   [Error](class.error.html)
--   [ArgumentCountError](class.argumentcounterror.html)
--   [ArithmeticError](class.arithmeticerror.html)
--   [AssertionError](class.assertionerror.html)
--   [DivisionByZeroError](class.divisionbyzeroerror.html)
--   [CompileError](class.compileerror.html)
--   [ParseError](class.parseerror.html)
--   [TypeError](class.typeerror.html)
--   [ValueError](class.valueerror.html)
--   [UnhandledMatchError](class.unhandledmatcherror.html)
--   [FiberError](class.fibererror.html)
+-   [Exception](class.exception.md)
+-   [ErrorException](class.errorexception.md)
+-   [Error](class.error.md)
+-   [ArgumentCountError](class.argumentcounterror.md)
+-   [ArithmeticError](class.arithmeticerror.md)
+-   [AssertionError](class.assertionerror.md)
+-   [DivisionByZeroError](class.divisionbyzeroerror.md)
+-   [CompileError](class.compileerror.md)
+-   [ParseError](class.parseerror.md)
+-   [TypeError](class.typeerror.md)
+-   [ValueError](class.valueerror.md)
+-   [UnhandledMatchError](class.unhandledmatcherror.md)
+-   [FiberError](class.fibererror.md)
 
-Дивіться також "[Исключения SPL](spl.exceptions.html)"
+Дивіться також "[Исключения SPL](spl.exceptions.md)"

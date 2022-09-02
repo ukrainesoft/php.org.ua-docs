@@ -1,9 +1,9 @@
 ---
 navigation:
-  - features.dtrace.html: Динамічна трасування DTrace
-  - features.dtrace.dtrace.html: Использование PHP и DTrace »
-  - index.html: PHP Manual
-  - features.dtrace.html: Динамічна трасування DTrace
+  - features.dtrace.md: Динамічна трасування DTrace
+  - features.dtrace.dtrace.md: Использование PHP и DTrace »
+  - index.md: PHP Manual
+  - features.dtrace.md: Динамічна трасування DTrace
 title: Введення в PHP та DTrace
 ---
 ## Введення в PHP та DTrace

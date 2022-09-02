@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-table.valid.html: '« SwooleTable::valid'
-  - swoole-timer.after.html: 'SwooleTimer::after »'
+  - swoole-table.valid.md: '« SwooleTable::valid'
+  - swoole-timer.after.md: 'SwooleTimer::after »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleTimer

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - directoryiterator.getctime.html: '« DirectoryIterator::getCTime'
-  - directoryiterator.getfilename.html: 'DirectoryIterator::getFilename »'
-  - index.html: PHP Manual
-  - class.directoryiterator.html: DirectoryIterator
+  - directoryiterator.getctime.md: '« DirectoryIterator::getCTime'
+  - directoryiterator.getfilename.md: 'DirectoryIterator::getFilename »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::getExtension'
 ---
 # DirectoryIterator::getExtension

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-cursor.html: « MongoDBDriverCursor
-  - mongodb-driver-cursor.current.html: 'MongoDBDriverCursor::current »'
+  - class.mongodb-driver-cursor.md: « MongoDBDriverCursor
+  - mongodb-driver-cursor.current.md: 'MongoDBDriverCursor::current »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::construct'
 ---
 # MongoDBDriverCursor::construct

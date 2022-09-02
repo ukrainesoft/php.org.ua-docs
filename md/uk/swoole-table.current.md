@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.create.html: '« SwooleTable::create'
-  - swoole-table.decr.html: 'SwooleTable::decr »'
+  - swoole-table.create.md: '« SwooleTable::create'
+  - swoole-table.decr.md: 'SwooleTable::decr »'
   - index.md: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::current'
 ---
 # SwooleTable::current

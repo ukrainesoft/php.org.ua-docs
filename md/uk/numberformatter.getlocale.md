@@ -1,9 +1,9 @@
 ---
 navigation:
-  - numberformatter.geterrormessage.html: '« NumberFormatter::getErrorMessage'
-  - numberformatter.getpattern.html: 'NumberFormatter::getPattern »'
-  - index.html: PHP Manual
-  - class.numberformatter.html: NumberFormatter
+  - numberformatter.geterrormessage.md: '« NumberFormatter::getErrorMessage'
+  - numberformatter.getpattern.md: 'NumberFormatter::getPattern »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::getLocale'
 ---
 # NumberFormatter::getLocale
@@ -34,7 +34,7 @@ numfmt_get_locale(NumberFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE): s
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `type`
 
@@ -69,5 +69,5 @@ printf( "Запрошенная локаль: %s\nДействительна�
 
 ### Дивіться також
 
--   [numfmtcreate()](numberformatter.create.html) - Створює засіб форматування чисел
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
+-   [numfmtcreate()](numberformatter.create.md) - Створює засіб форматування чисел
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування

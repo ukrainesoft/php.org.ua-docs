@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflection.extending.html: « Расширение
-  - reflection.export.html: 'Reflection::export »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflection.extending.md: « Расширение
+  - reflection.export.md: 'Reflection::export »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас Reflection
 ---
 # Клас Reflection
@@ -37,5 +37,5 @@ public static getModifierNames(int $modifiers): array
 
 ## Зміст
 
--   [Reflection::export](reflection.export.html) - Експортує Reflection
--   [Reflection::getModifierNames](reflection.getmodifiernames.html) — Отримання імен модифікаторів
+-   [Reflection::export](reflection.export.md) - Експортує Reflection
+-   [Reflection::getModifierNames](reflection.getmodifiernames.md) — Отримання імен модифікаторів

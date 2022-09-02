@@ -1,9 +1,9 @@
 ---
 navigation:
-  - multipleiterator.current.html: '« MultipleIterator::current'
-  - multipleiterator.getflags.html: 'MultipleIterator::getFlags »'
-  - index.html: PHP Manual
-  - class.multipleiterator.html: MultipleIterator
+  - multipleiterator.current.md: '« MultipleIterator::current'
+  - multipleiterator.getflags.md: 'MultipleIterator::getFlags »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::detachIterator'
 ---
 # MultipleIterator::detachIterator
@@ -36,4 +36,4 @@ public MultipleIterator::detachIterator(Iterator $iterator): void
 
 ### Дивіться також
 
--   [MultipleIterator::attachIterator()](multipleiterator.attachiterator.html) - приєднує ітератор
+-   [MultipleIterator::attachIterator()](multipleiterator.attachiterator.md) - приєднує ітератор

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-priorityqueue.count.html: '« DsPriorityQueue::count'
-  - ds-priorityqueue.jsonserialize.html: 'ДсPriorityQueue::jsonSerialize »'
+  - ds-priorityqueue.count.md: '« DsPriorityQueue::count'
+  - ds-priorityqueue.jsonserialize.md: 'ДсPriorityQueue::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - class.ds-priorityqueue.md: Черга з пріоритетом
 title: 'ДсPriorityQueue::isEmpty'
 ---
 # ДсPriorityQueue::isEmpty

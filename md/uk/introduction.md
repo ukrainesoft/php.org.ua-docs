@@ -1,9 +1,9 @@
 ---
 navigation:
-  - getting-started.html: « Приступаючи до роботи
-  - intro-whatis.html: Що таке PHP? »
+  - getting-started.md: « Приступаючи до роботи
+  - intro-whatis.md: Що таке PHP? »
   - index.md: PHP Manual
-  - getting-started.html: Приступаючи до роботи
+  - getting-started.md: Приступаючи до роботи
 title: Вступ
 ---
 # Вступ

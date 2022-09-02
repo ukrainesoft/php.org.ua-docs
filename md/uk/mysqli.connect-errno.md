@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.commit.html: '« mysqli::commit'
-  - mysqli.connect-error.html: 'mysqli::$connecterror »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.commit.md: '« mysqli::commit'
+  - mysqli.connect-error.md: 'mysqli::$connecterror »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::$connecterrno'
 ---
 # mysqli::$connecterrno
@@ -18,7 +18,7 @@ mysqli::$connecterrno - mysqliconnecterrno — Повертає код поми�
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->connecterrno](mysqli.connect-errno.html)
+int [$mysqli->connecterrno](mysqli.connect-errno.md)
 
 Процедурний стиль
 
@@ -76,8 +76,8 @@ if (!$link) {
 
 ### Дивіться також
 
--   [mysqliconnect()](function.mysqli-connect.html) - Псевдонім mysqli::construct
--   [mysqliconnecterror()](mysqli.connect-error.html) - Повертає опис останньої помилки підключення
--   [mysqlierrno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
--   [mysqlierror()](mysqli.error.html) - Повертає рядок із описом останньої помилки
--   [mysqlisqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqliconnect()](function.mysqli-connect.md) - Псевдонім mysqli::construct
+-   [mysqliconnecterror()](mysqli.connect-error.md) - Повертає опис останньої помилки підключення
+-   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
+-   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
+-   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції

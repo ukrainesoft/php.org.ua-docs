@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.get.html: '« SwooleHttpClient::get'
-  - swoole-http-client.on.html: 'SwooleHttpClient::on »'
-  - index.html: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - swoole-http-client.get.md: '« SwooleHttpClient::get'
+  - swoole-http-client.on.md: 'SwooleHttpClient::on »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::isConnected'
 ---
 # SwooleHttpClient::isConnected

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-import.html: « gmpimport
-  - function.gmp-intval.html: gmpintval »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-import.md: « gmpimport
+  - function.gmp-intval.md: gmpintval »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpinit
 ---
 # gmpinit
@@ -34,7 +34,7 @@ gmp_init(int|string $num, int $base = 0): GMP
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.html)ю
+Об'єкт класу [GMP](class.gmp.md)ю
 
 ### Приклади
 
@@ -51,4 +51,4 @@ $b = gmp_init("0xFFFFDEBACDFEDF7200");
 
 > **Зауваження**
 > 
-> Немає необхідності явно викликати цю функцію, якщо потрібно вставити ціле число або рядок на місце GMP числа в GMP функціях, наприклад [gmpadd()](function.gmp-add.html). Аргументи функцій автоматично перетворюються на GMP числа, якщо таке перетворення потрібне і воно можливе, за тими ж правилами, що і в **gmpinit()**
+> Немає необхідності явно викликати цю функцію, якщо потрібно вставити ціле число або рядок на місце GMP числа в GMP функціях, наприклад [gmpadd()](function.gmp-add.md). Аргументи функцій автоматично перетворюються на GMP числа, якщо таке перетворення потрібне і воно можливе, за тими ж правилами, що і в **gmpinit()**

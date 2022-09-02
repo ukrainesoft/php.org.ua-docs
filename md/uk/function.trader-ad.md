@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-acos.html: « traderacos
-  - function.trader-add.html: traderadd »
+  - function.trader-acos.md: « traderacos
+  - function.trader-add.md: traderadd »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderпекло

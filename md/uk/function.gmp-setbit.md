@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-scan1.html: « gmpscan1
-  - function.gmp-sign.html: gmpsign »
+  - function.gmp-scan1.md: « gmpscan1
+  - function.gmp-sign.md: gmpsign »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpsetbit

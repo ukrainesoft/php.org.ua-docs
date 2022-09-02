@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocumentfield.construct.html: '« SolrDocumentField::construct'
-  - class.solrobject.html: SolrObject »
-  - index.html: PHP Manual
-  - class.solrdocumentfield.html: SolrDocumentField
+  - solrdocumentfield.construct.md: '« SolrDocumentField::construct'
+  - class.solrobject.md: SolrObject »
+  - index.md: PHP Manual
+  - class.solrdocumentfield.md: SolrDocumentField
 title: 'SolrDocumentField::destruct'
 ---
 # SolrDocumentField::destruct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.dropschema.html: '« Session::dropSchema'
-  - mysql-xdevapi-session.getdefaultschema.html: 'Session::getDefaultSchema »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - mysql-xdevapi-session.dropschema.md: '« Session::dropSchema'
+  - mysql-xdevapi-session.getdefaultschema.md: 'Session::getDefaultSchema »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::generateUUID'
 ---
 # Session::generateUUID

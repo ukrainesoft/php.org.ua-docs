@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-path.closefigure.html: '« UIDrawPath::closeFigure'
-  - ui-draw-path.end.html: 'ОЙDrawPath::end »'
+  - ui-draw-path.closefigure.md: '« UIDrawPath::closeFigure'
+  - ui-draw-path.end.md: 'ОЙDrawPath::end »'
   - index.md: PHP Manual
-  - class.ui-draw-path.html: ОЙDrawPath
+  - class.ui-draw-path.md: ОЙDrawPath
 title: 'ОЙDrawPath::construct'
 ---
 # ОЙDrawPath::construct

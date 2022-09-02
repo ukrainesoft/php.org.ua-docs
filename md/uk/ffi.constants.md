@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.resources.html: « Типи ресурсів
-  - ffi.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.ffi.html: FFI
+  - ffi.resources.md: « Типи ресурсів
+  - ffi.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
 title: Обумовлені константи
 ---
 # Обумовлені константи

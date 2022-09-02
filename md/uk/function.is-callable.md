@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-bool.html: « isbool
-  - function.is-countable.html: ісcountable »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-bool.md: « isbool
+  - function.is-countable.md: ісcountable »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісcallable
 ---
 # ісcallable
@@ -112,9 +112,9 @@ bool(false)
 
 ### Примітки
 
--   Об'єкт завжди є callable, якщо він реалізує [invoke()](language.oop5.magic.html#object.invoke), і цей метод доступний у поточній області видимості.
--   Ім'я класу є callable, якщо воно реалізує [callStatic()](language.oop5.overloading.html#object.callstatic)
--   Якщо об'єкт реалізує [call()](language.oop5.overloading.html#object.call)тоді ця функція поверне **`true`** для будь-якого методу цього об'єкта, навіть якщо метод не визначено.
+-   Об'єкт завжди є callable, якщо він реалізує [invoke()](language.oop5.magic.md#object.invoke), і цей метод доступний у поточній області видимості.
+-   Ім'я класу є callable, якщо воно реалізує [callStatic()](language.oop5.overloading.md#object.callstatic)
+-   Якщо об'єкт реалізує [call()](language.oop5.overloading.md#object.call)тоді ця функція поверне **`true`** для будь-якого методу цього об'єкта, навіть якщо метод не визначено.
 -   Функція може запускати автозавантаження, якщо викликається під назвою класу.
 
 ### Дивіться також

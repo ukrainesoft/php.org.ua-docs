@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.tcpwrap.html: «TCP
-  - tcpwrap.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.tcpwrap.html: TCP
+  - book.tcpwrap.md: «TCP
+  - tcpwrap.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.tcpwrap.md: TCP
 title: Вступ
 ---
 # Вступ

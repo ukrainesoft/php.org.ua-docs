@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.reasontext.html: '« UConverter::reasonText'
-  - uconverter.setsourceencoding.html: 'UConverter::setSourceEncoding »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.reasontext.md: '« UConverter::reasonText'
+  - uconverter.setsourceencoding.md: 'UConverter::setSourceEncoding »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::setDestinationEncoding'
 ---
 # UConverter::setDestinationEncoding

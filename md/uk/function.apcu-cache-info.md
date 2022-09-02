@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.apcu-add.html: « apcuadd
-  - function.apcu-cas.html: apcucas »
+  - function.apcu-add.md: « apcuadd
+  - function.apcu-cas.md: apcucas »
   - index.md: PHP Manual
   - ref.apcu.md: Функции APCu
 title: apcucacheinfo

@@ -16,7 +16,7 @@ title: Клас Generator
 
 **Застереження**
 
-Об'єкти **Generator** не можуть бути створені за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
+Об'єкти **Generator** не можуть бути створені за допомогою оператора [new](language.oop5.basic.md#language.oop5.basic.new)
 
 ## Огляд класів
 

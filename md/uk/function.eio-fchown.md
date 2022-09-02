@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-fchmod.html: « eiofchmod
-  - function.eio-fdatasync.html: eiofdatasync »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-fchmod.md: « eiofchmod
+  - function.eio-fdatasync.md: eiofdatasync »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiofchown
 ---
 # eiofchown

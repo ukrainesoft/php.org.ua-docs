@@ -1,7 +1,7 @@
 ---
 navigation:
   - xhprof.examples.md: « Приклади
-  - function.xhprof-disable.html: xhprofdisable »
+  - function.xhprof-disable.md: xhprofdisable »
   - index.md: PHP Manual
   - book.xhprof.md: Xhprof
 title: Функції Xhprof

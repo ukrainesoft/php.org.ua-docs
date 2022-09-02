@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-file-contents.html: « svnфсfilecontents
-  - function.svn-fs-is-dir.html: svnфсісdir »
+  - function.svn-fs-file-contents.md: « svnфсfilecontents
+  - function.svn-fs-is-dir.md: svnфсісdir »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсfilelength

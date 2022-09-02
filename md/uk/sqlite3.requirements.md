@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.setup.html: « Встановлення та налаштування
-  - sqlite3.installation.html: Установка »
-  - index.html: PHP Manual
-  - sqlite3.setup.html: Встановлення та налаштування
+  - sqlite3.setup.md: « Встановлення та налаштування
+  - sqlite3.installation.md: Установка »
+  - index.md: PHP Manual
+  - sqlite3.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

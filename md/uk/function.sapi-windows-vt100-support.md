@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sapi-windows-set-ctrl-handler.html: « sapiwindowssetctrlhandler
-  - function.show-source.html: showsource »
+  - function.sapi-windows-set-ctrl-handler.md: « sapiwindowssetctrlhandler
+  - function.show-source.md: showsource »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: sapiwindowsvt100support

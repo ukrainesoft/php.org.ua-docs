@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-invert.html: « gmpinvert
-  - function.gmp-kronecker.html: gmpkronecker »
+  - function.gmp-invert.md: « gmpinvert
+  - function.gmp-kronecker.md: gmpkronecker »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpjacobi

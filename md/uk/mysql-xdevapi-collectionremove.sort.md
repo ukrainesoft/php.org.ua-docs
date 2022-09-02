@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionremove.limit.html: '« CollectionRemove::limit'
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult »
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove
+  - mysql-xdevapi-collectionremove.limit.md: '« CollectionRemove::limit'
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove
 title: 'CollectionRemove::sort'
 ---
 # CollectionRemove::sort

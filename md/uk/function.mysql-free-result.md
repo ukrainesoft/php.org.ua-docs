@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-field-type.html: « mysqlfieldtype
-  - function.mysql-get-client-info.html: mysqlgetclientinfo »
+  - function.mysql-field-type.md: « mysqlfieldtype
+  - function.mysql-get-client-info.md: mysqlgetclientinfo »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlfreeresult

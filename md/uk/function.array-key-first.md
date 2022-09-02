@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-key-exists.html: « arraykeyexists
-  - function.array-key-last.html: arraykeylast »
+  - function.array-key-exists.md: « arraykeyexists
+  - function.array-key-last.md: arraykeylast »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraykeyfirst

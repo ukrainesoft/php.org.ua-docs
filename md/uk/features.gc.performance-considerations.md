@@ -1,6 +1,6 @@
 ---
 navigation:
-  - features.gc.collecting-cycles.html: « Збір циклічних посилань
+  - features.gc.collecting-cycles.md: « Збір циклічних посилань
   - features.dtrace.md: Динамічна трасування DTrace »
   - index.md: PHP Manual
   - features.gc.md: Сборка мусора
@@ -66,7 +66,7 @@ echo memory_get_peak_usage(), "\n";
 ?>
 ```
 
-Ми запустимо скрипт двічі: із включеною опцією [zend.enableгк](info.configuration.html#ini.zend.enable-gc) і без неї.
+Ми запустимо скрипт двічі: із включеною опцією [zend.enableгк](info.configuration.md#ini.zend.enable-gc) і без неї.
 
 **Приклад #3 Запуск скрипту**
 

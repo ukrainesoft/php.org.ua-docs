@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-set-property.html: « uopzsetproperty
-  - function.uopz-set-static.html: uopzsetstatic »
+  - function.uopz-set-property.md: « uopzsetproperty
+  - function.uopz-set-static.md: uopzsetstatic »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzsetreturn

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imageftbbox.html: « imageftbbox
-  - function.imagegammacorrect.html: imagegammacorrect »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imageftbbox.md: « imageftbbox
+  - function.imagegammacorrect.md: imagegammacorrect »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagefttext
 ---
 # imagefttext
@@ -20,13 +20,13 @@ imagefttext(    GdImage $image,    float $size,    float $angle,  
 
 > **Зауваження**
 > 
-> До PHP 8.0.0 **imagefttext()** - це розширений варіант [imagettftext()](function.imagettftext.html), який додатково підтримує `extrainfo`. Починаючи з PHP 8.0.0, [imagettftext()](function.imagettftext.md) є псевдонімом **imagefttext()**
+> До PHP 8.0.0 **imagefttext()** - це розширений варіант [imagettftext()](function.imagettftext.md), який додатково підтримує `extrainfo`. Починаючи з PHP 8.0.0, [imagettftext()](function.imagettftext.md) є псевдонімом **imagefttext()**
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `size`
 

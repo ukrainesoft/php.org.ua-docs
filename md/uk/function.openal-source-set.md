@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-source-rewind.html: « openalsourcerewind
-  - function.openal-source-stop.html: openalsourcestop »
+  - function.openal-source-rewind.md: « openalsourcerewind
+  - function.openal-source-stop.md: openalsourcestop »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalsourceset

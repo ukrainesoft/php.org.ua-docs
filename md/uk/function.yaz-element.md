@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-database.html: « yazdatabase
-  - function.yaz-errno.html: yazerrno »
+  - function.yaz-database.md: « yazdatabase
+  - function.yaz-errno.md: yazerrno »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazelement
@@ -20,7 +20,7 @@ yaz_element(resource $id, string $elementset): bool
 
 Функція встановлює ім'я набору елементів пошуку.
 
-Викличте цю функцію перед [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.md), щоб вказати ім'я набору елементів для записів, що виймаються.
+Викличте цю функцію перед [yazsearch()](function.yaz-search.md) або [yazpresent()](function.yaz-present.md), щоб вказати ім'я набору елементів для записів, що виймаються.
 
 > **Зауваження**
 > 

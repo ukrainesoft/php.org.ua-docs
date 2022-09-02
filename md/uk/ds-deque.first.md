@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.find.html: '« DsDeque::find'
-  - ds-deque.get.html: 'ДсDeque::get »'
+  - ds-deque.find.md: '« DsDeque::find'
+  - ds-deque.get.md: 'ДсDeque::get »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::first'
 ---
 # ДсDeque::first

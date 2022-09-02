@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.shell-exec.html: « shellexec
+  - function.shell-exec.md: « shellexec
   - book.parallel.md: parallel »
   - index.md: PHP Manual
   - ref.exec.md: Функции запуска программ

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.hash-hmac-algos.html: « hashhmacalgos
-  - function.hash-hmac.html: hashhmac »
-  - index.html: PHP Manual
-  - ref.hash.html: Функции Hash
+  - function.hash-hmac-algos.md: « hashhmacalgos
+  - function.hash-hmac.md: hashhmac »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
 title: hashhmacfile
 ---
 # hashhmacfile
@@ -22,7 +22,7 @@ hash_hmac_file(    string $algo,    string $filename,    string $key
 
 `algo`
 
-Ім'я вибраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо) Дивіться [hashhmacalgos()](function.hash-hmac-algos.html) для отримання списку алгоритмів, що підтримуються.
+Ім'я вибраного алгоритму хешування (наприклад, "md5", "sha256", "haval160,4" тощо) Дивіться [hashhmacalgos()](function.hash-hmac-algos.md) для отримання списку алгоритмів, що підтримуються.
 
 `filename`
 
@@ -67,6 +67,6 @@ echo hash_hmac_file('md5', 'example.txt', 'secret');
 
 ### Дивіться також
 
--   [hashhmacalgos()](function.hash-hmac-algos.html) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
--   [hashhmac()](function.hash-hmac.html) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
--   [hashfile()](function.hash-file.html) - Генерація хеш-значення, використовуючи вміст заданого файлу
+-   [hashhmacalgos()](function.hash-hmac-algos.md) - Повертає список зареєстрованих алгоритмів хешування, які застосовуються для hashhmac
+-   [hashhmac()](function.hash-hmac.md) - Генерація хеш-коду на основі ключа, використовуючи метод HMAC
+-   [hashfile()](function.hash-file.md) - Генерація хеш-значення, використовуючи вміст заданого файлу

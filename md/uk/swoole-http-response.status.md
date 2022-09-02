@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-response.sendfile.html: '« SwooleHttpResponse::sendfile'
-  - swoole-http-response.write.html: 'SwooleHttpResponse::write »'
+  - swoole-http-response.sendfile.md: '« SwooleHttpResponse::sendfile'
+  - swoole-http-response.write.md: 'SwooleHttpResponse::write »'
   - index.md: PHP Manual
-  - class.swoole-http-response.html: SwooleHttpResponse
+  - class.swoole-http-response.md: SwooleHttpResponse
 title: 'SwooleHttpResponse::status'
 ---
 # SwooleHttpResponse::status

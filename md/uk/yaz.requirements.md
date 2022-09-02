@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaz.setup.html: « Встановлення та налаштування
-  - yaz.installation.html: Установка »
-  - index.html: PHP Manual
-  - yaz.setup.html: Встановлення та налаштування
+  - yaz.setup.md: « Встановлення та налаштування
+  - yaz.installation.md: Установка »
+  - index.md: PHP Manual
+  - yaz.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

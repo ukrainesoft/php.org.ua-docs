@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-execute.html: « sqlsrvexecute
-  - function.sqlsrv-fetch-object.html: sqlsrvfetchobject »
+  - function.sqlsrv-execute.md: « sqlsrvexecute
+  - function.sqlsrv-fetch-object.md: sqlsrvfetchobject »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvfetcharray

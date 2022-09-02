@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.rrd.md: « Функції RRD
-  - function.rrd-error.html: rrderror »
+  - function.rrd-error.md: rrderror »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
 title: rrdcreate

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-field-type.html: « odbcfieldtype
-  - function.odbc-free-result.html: odbcfreeresult »
+  - function.odbc-field-type.md: « odbcfieldtype
+  - function.odbc-free-result.md: odbcfreeresult »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcforeignkeys

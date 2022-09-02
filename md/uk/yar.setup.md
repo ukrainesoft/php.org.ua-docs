@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.yar.html: « Введение
-  - yar.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.yar.html: Yar
+  - intro.yar.md: « Введение
+  - yar.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.yar.md: Yar
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](yar.requirements.html)
--   [Установка](yar.installation.html)
--   [Налаштування під час виконання](yar.configuration.html)
--   [Типи ресурсів](yar.resources.html)
+-   [Вимоги](yar.requirements.md)
+-   [Установка](yar.installation.md)
+-   [Налаштування під час виконання](yar.configuration.md)
+-   [Типи ресурсів](yar.resources.md)

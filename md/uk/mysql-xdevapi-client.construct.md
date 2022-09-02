@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-client.close.html: '« mysqlxdevapiClient::close'
-  - mysql-xdevapi-client.getsession.html: 'Client::getClient »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-client.html: mysqlxdevapiClient
+  - mysql-xdevapi-client.close.md: '« mysqlxdevapiClient::close'
+  - mysql-xdevapi-client.getsession.md: 'Client::getClient »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-client.md: mysqlxdevapiClient
 title: 'Client::construct'
 ---
 # Client::construct

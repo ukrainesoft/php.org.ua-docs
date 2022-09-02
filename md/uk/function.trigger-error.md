@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.set-exception-handler.html: « setexceptionhandler
-  - function.user-error.html: usererror »
+  - function.set-exception-handler.md: « setexceptionhandler
+  - function.user-error.md: usererror »
   - index.md: PHP Manual
   - ref.errorfunc.md: Функции обработки ошибок
 title: triggererror

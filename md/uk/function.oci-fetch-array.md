@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-fetch-all.html: « ocifetchall
-  - function.oci-fetch-assoc.html: ocifetchassoc »
+  - function.oci-fetch-all.md: « ocifetchall
+  - function.oci-fetch-assoc.md: ocifetchassoc »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocifetcharray
@@ -28,7 +28,7 @@ oci_fetch_array(resource $statement, int $mode = OCI_BOTH | OCI_RETURN_NULLS): a
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 Також може бути ідентифікатором, що повертається функцією [ocigetimplicitresultset()](function.oci-get-implicit-resultset.md)
 
@@ -521,11 +521,11 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> Для запитів, що повертають велику кількість рядів, продуктивність може бути значно збільшена за допомогою збільшення значення опції [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch) або використання [ocisetprefetch()](function.oci-set-prefetch.md)
+> Для запитів, що повертають велику кількість рядів, продуктивність може бути значно збільшена за допомогою збільшення значення опції [oci8.defaultprefetch](oci8.configuration.md#ini.oci8.default-prefetch) або використання [ocisetprefetch()](function.oci-set-prefetch.md)
 
 > **Зауваження**
 > 
-> Функція **ocifetcharray()** *трохи* повільніше [ocifetchassoc()](function.oci-fetch-assoc.html) або [ocifetchrow()](function.oci-fetch-row.md), але гнучкіша.
+> Функція **ocifetcharray()** *трохи* повільніше [ocifetchassoc()](function.oci-fetch-assoc.md) або [ocifetchrow()](function.oci-fetch-row.md), але гнучкіша.
 
 ### Дивіться також
 

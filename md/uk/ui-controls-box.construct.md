@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-box.append.html: '« UIControlsBox::append'
-  - ui-controls-box.delete.html: 'ОЙControlsBox::delete »'
+  - ui-controls-box.append.md: '« UIControlsBox::append'
+  - ui-controls-box.delete.md: 'ОЙControlsBox::delete »'
   - index.md: PHP Manual
-  - class.ui-controls-box.html: ОЙControlsBox
+  - class.ui-controls-box.md: ОЙControlsBox
 title: 'ОЙControlsBox::construct'
 ---
 # ОЙControlsBox::construct

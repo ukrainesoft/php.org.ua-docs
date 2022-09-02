@@ -24,7 +24,7 @@ public ReflectionClass::getConstants(?int $filter = null): array
 
 `filter`
 
-Додатковий фільтр для фільтрації констант видимості. Він налаштовується за допомогою [ReflectionClassConstant constants](class.reflectionclassconstant.html#reflectionclassconstant.constants.modifiers) і за умовчанням використовується всім констант видимості.
+Додатковий фільтр для фільтрації констант видимості. Він налаштовується за допомогою [ReflectionClassConstant constants](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers) і за умовчанням використовується всім констант видимості.
 
 ### Значення, що повертаються
 

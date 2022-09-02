@@ -1,13 +1,13 @@
 ---
 navigation:
-  - migration56.constants.html: « Нові глобальні константи
-  - debugger-about.html: Об отладке в PHP »
-  - index.html: PHP Manual
-  - appendices.html: Appendices
+  - migration56.constants.md: « Нові глобальні константи
+  - debugger-about.md: Об отладке в PHP »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
 title: Налагодження в PHP
 ---
 # Налагодження в PHP
 
 ## Зміст
 
--   [Об отладке в PHP](debugger-about.html)
+-   [Об отладке в PHP](debugger-about.md)

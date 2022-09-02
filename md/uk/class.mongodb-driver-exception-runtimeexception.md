@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-logicexception.html: « MongoDBDriverExceptionLogicException
-  - mongodb-driver-runtimeexception.haserrorlabel.html: 'MongoDBDriverExceptionRuntimeException::hasErrorLabel »'
+  - class.mongodb-driver-exception-logicexception.md: « MongoDBDriverExceptionLogicException
+  - mongodb-driver-runtimeexception.haserrorlabel.md: 'MongoDBDriverExceptionRuntimeException::hasErrorLabel »'
   - index.md: PHP Manual
   - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionRuntimeException
@@ -97,7 +97,7 @@ errorLabels
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.6.0 |  |
-| Доданий метод [MongoDBDriverExceptionRuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) і властивість [MongoDBDriverExceptionRuntimeException::errorLabels](class.mongodb-driver-exception-runtimeexception.html#mongodb-driver-exception-runtimeexception.props.errorlabels) |  |
+| Доданий метод [MongoDBDriverExceptionRuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) і властивість [MongoDBDriverExceptionRuntimeException::errorLabels](class.mongodb-driver-exception-runtimeexception.md#mongodb-driver-exception-runtimeexception.props.errorlabels) |  |
 
 ## Зміст
 

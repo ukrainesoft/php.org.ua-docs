@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-seq-put.html: « cubridseqput
-  - function.cubrid-set-autocommit.html: cubridsetautocommit »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-seq-put.md: « cubridseqput
+  - function.cubrid-set-autocommit.md: cubridsetautocommit »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridsetadd
 ---
 # cubridsetadd
@@ -97,4 +97,4 @@ array(4) {
 
 ### Дивіться також
 
--   [cubridseqdrop()](function.cubrid-seq-drop.html) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID
+-   [cubridseqdrop()](function.cubrid-seq-drop.md) - Видаляє елемент зі стовпця типу послідовності, використовуючи OID

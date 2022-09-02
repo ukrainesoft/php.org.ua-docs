@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-window.settitle.html: '« UIWindow::setTitle'
-  - ui-control.destroy.html: 'ОЙControl::destroy »'
+  - ui-window.settitle.md: '« UIWindow::setTitle'
+  - ui-control.destroy.md: 'ОЙControl::destroy »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління

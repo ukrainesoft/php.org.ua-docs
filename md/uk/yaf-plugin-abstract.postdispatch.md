@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-plugin-abstract.dispatchloopstartup.html: '« YafPluginAbstract::dispatchLoopStartup'
-  - yaf-plugin-abstract.predispatch.html: 'YafPluginAbstract::preDispatch »'
-  - index.html: PHP Manual
-  - class.yaf-plugin-abstract.html: YafPluginAbstract
+  - yaf-plugin-abstract.dispatchloopstartup.md: '« YafPluginAbstract::dispatchLoopStartup'
+  - yaf-plugin-abstract.predispatch.md: 'YafPluginAbstract::preDispatch »'
+  - index.md: PHP Manual
+  - class.yaf-plugin-abstract.md: YafPluginAbstract
 title: 'YafPluginAbstract::postDispatch'
 ---
 # YafPluginAbstract::postDispatch

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-save.html: «pssave
-  - function.ps-set-border-color.html: псsetbordercolor »
+  - function.ps-save.md: «pssave
+  - function.ps-set-border-color.md: псsetbordercolor »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псscale

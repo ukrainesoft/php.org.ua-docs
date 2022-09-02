@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrcollapsefunction.getfield.html: '« SolrCollapseFunction::getField'
-  - solrcollapsefunction.getmax.html: 'SolrCollapseFunction::getMax »'
-  - index.html: PHP Manual
-  - class.solrcollapsefunction.html: SolrCollapseFunction
+  - solrcollapsefunction.getfield.md: '« SolrCollapseFunction::getField'
+  - solrcollapsefunction.getmax.md: 'SolrCollapseFunction::getMax »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::getHint'
 ---
 # SolrCollapseFunction::getHint
@@ -28,4 +28,4 @@ public SolrCollapseFunction::getHint(): string
 
 ### Дивіться також
 
--   [SolrCollapseFunction::setHint()](solrcollapsefunction.sethint.html) - Встановлює підказку згортання
+-   [SolrCollapseFunction::setHint()](solrcollapsefunction.sethint.md) - Встановлює підказку згортання

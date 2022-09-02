@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.gearmanworker.html: « GearmanWorker
-  - gearmanworker.addoptions.html: 'GearmanWorker::addOptions »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - class.gearmanworker.md: « GearmanWorker
+  - gearmanworker.addoptions.md: 'GearmanWorker::addOptions »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::addFunction'
 ---
 # GearmanWorker::addFunction

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-close.html: « fdfclose
-  - function.fdf-enum-values.html: fdfenumvalues »
+  - function.fdf-close.md: « fdfclose
+  - function.fdf-enum-values.md: fdfenumvalues »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfcreate

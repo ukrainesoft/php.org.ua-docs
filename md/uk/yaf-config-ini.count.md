@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-ini.construct.html: '« YafConfigIni::construct'
-  - yaf-config-ini.current.html: 'YafConfigIni::current »'
-  - index.html: PHP Manual
-  - class.yaf-config-ini.html: YafConfigIni
+  - yaf-config-ini.construct.md: '« YafConfigIni::construct'
+  - yaf-config-ini.current.md: 'YafConfigIni::current »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.md: YafConfigIni
 title: 'YafConfigIni::count'
 ---
 # YafConfigIni::count

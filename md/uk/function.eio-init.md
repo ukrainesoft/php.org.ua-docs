@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-grp.html: « eiogrp
-  - function.eio-link.html: eiolink »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-grp.md: « eiogrp
+  - function.eio-link.md: eiolink »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eioinit
 ---
 # eioinit

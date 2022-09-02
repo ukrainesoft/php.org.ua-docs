@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.isempty.html: '« DsVector::isEmpty'
-  - ds-vector.jsonserialize.html: 'ДсVector::jsonSerialize »'
-  - index.html: PHP Manual
-  - class.ds-vector.html: Вектор
+  - ds-vector.isempty.md: '« DsVector::isEmpty'
+  - ds-vector.jsonserialize.md: 'ДсVector::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::join'
 ---
 # ДсVector::join

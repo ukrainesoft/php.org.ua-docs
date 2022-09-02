@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-query.html: « MongoDBDriverQuery
-  - class.mongodb-driver-bulkwrite.html: MongoDBDriverBulkWrite »
+  - class.mongodb-driver-query.md: « MongoDBDriverQuery
+  - class.mongodb-driver-bulkwrite.md: MongoDBDriverBulkWrite »
   - index.md: PHP Manual
-  - class.mongodb-driver-query.html: MongoDBDriverQuery
+  - class.mongodb-driver-query.md: MongoDBDriverQuery
 title: 'MongoDBDriverQuery::construct'
 ---
 # MongoDBDriverQuery::construct
@@ -18,7 +18,7 @@ MongoDBDriverQuery::construct — Створює новий запит
 final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $queryOptions = null)
 ```
 
-Створює новий [MongoDBDriverQuery](class.mongodb-driver-query.html)який є об'єктом незмінного значення, що представляє запит до бази даних. Потім запит може бути виконаний за допомогою [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md)
+Створює новий [MongoDBDriverQuery](class.mongodb-driver-query.md)який є об'єктом незмінного значення, що представляє запит до бази даних. Потім запит може бути виконаний за допомогою [MongoDBDriverManager::executeQuery()](mongodb-driver-manager.executequery.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 [» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.md) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `queryOptions`
 
@@ -57,7 +57,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Ця опція доступна у MongoDB 3.4+ і, якщо буде використана для більш старих версій, викличе виняток під час виконання.
 
-| | comment | [mixed](language.types.declarations.html#language.types.declarations.mixed)
+| | comment | [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Довільний коментар, що допомагає відстежити операцію за допомогою профільника бази даних, виводу CurrentOp та журналів.
 
@@ -145,7 +145,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 | | readConcern | [MongoDBDriverReadConcern](class.mongodb-driver-readconcern.md)
 
-Гарантії читання застосувати до операції. За промовчанням будуть використовуватися гарантії читання з [URI подключения MongoDB](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-uri)
+Гарантії читання застосувати до операції. За промовчанням будуть використовуватися гарантії читання з [URI подключения MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
 
 Ця опція доступна в MongoDB 3.2+ і призведе до виключення під час виконання, якщо вказано для старої версії сервера.
 

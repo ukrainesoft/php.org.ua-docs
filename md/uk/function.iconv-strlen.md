@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.iconv-set-encoding.html: « iconvsetencoding
-  - function.iconv-strpos.html: iconvstrpos »
-  - index.html: PHP Manual
-  - ref.iconv.html: Функции iconv
+  - function.iconv-set-encoding.md: « iconvsetencoding
+  - function.iconv-strpos.md: iconvstrpos »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
 title: iconvstrlen
 ---
 # iconvstrlen
@@ -18,7 +18,7 @@ iconvstrlen — Повертає кількість символів у рядк
 iconv_strlen(string $string, ?string $encoding = null): int|false
 ```
 
-На відміну від [strlen()](function.strlen.html) **iconvstrlen()** враховує кодування рядка. Довжина `string` не обов'язково буде відповідати кількості байт у ній, так як у різних кодуваннях різні символи кодуються різною кількістю байт, наприклад, юнікод може бути і дво-, і чотирибайтним.
+На відміну від [strlen()](function.strlen.md) **iconvstrlen()** враховує кодування рядка. Довжина `string` не обов'язково буде відповідати кількості байт у ній, так як у різних кодуваннях різні символи кодуються різною кількістю байт, наприклад, юнікод може бути і дво-, і чотирибайтним.
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ iconv_strlen(string $string, ?string $encoding = null): int|false
 
 `encoding`
 
-Якщо параметр `encoding` опущено, передбачається, що кодування рядка `string` еквівалентна значенню [iconv.internalencoding](iconv.configuration.html)
+Якщо параметр `encoding` опущено, передбачається, що кодування рядка `string` еквівалентна значенню [iconv.internalencoding](iconv.configuration.md)
 
 ### Значення, що повертаються
 
@@ -42,6 +42,6 @@ iconv_strlen(string $string, ?string $encoding = null): int|false
 
 ### Дивіться також
 
--   [graphemestrlen()](function.grapheme-strlen.html) - отримує довжину рядка в одиницях графеми
--   [мбstrlen()](function.mb-strlen.html) - Отримує довжину рядка
--   [strlen()](function.strlen.html) - Повертає довжину рядка
+-   [graphemestrlen()](function.grapheme-strlen.md) - отримує довжину рядка в одиницях графеми
+-   [мбstrlen()](function.mb-strlen.md) - Отримує довжину рядка
+-   [strlen()](function.strlen.md) - Повертає довжину рядка

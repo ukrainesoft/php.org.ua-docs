@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.uopz-unset-mock.html: « uopzunsetmock
-  - book.wincache.html: WinCache »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - function.uopz-unset-mock.md: « uopzunsetmock
+  - book.wincache.md: WinCache »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzunsetreturn
 ---
 # uopzunsetreturn
@@ -22,7 +22,7 @@ uopz_unset_return(string $function): bool
 uopz_unset_return(string $class, string $function): bool
 ```
 
-Скасує значення, що повертається `function`, раніше задане функцією [uopzsetreturn()](function.uopz-set-return.html)
+Скасує значення, що повертається `function`, раніше задане функцією [uopzsetreturn()](function.uopz-set-return.md)
 
 ### Список параметрів
 

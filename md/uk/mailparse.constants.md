@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mailparse.resources.html: « Типи ресурсів
-  - ref.mailparse.html: Mailparse »
-  - index.html: PHP Manual
-  - book.mailparse.html: Mailparse
+  - mailparse.resources.md: « Типи ресурсів
+  - ref.mailparse.md: Mailparse »
+  - index.md: PHP Manual
+  - book.mailparse.md: Mailparse
 title: Обумовлені константи
 ---
 # Обумовлені константи

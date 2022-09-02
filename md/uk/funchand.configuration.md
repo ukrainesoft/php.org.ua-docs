@@ -1,9 +1,9 @@
 ---
 navigation:
-  - funchand.installation.html: « Установка
-  - funchand.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - funchand.setup.html: Встановлення та налаштування
+  - funchand.installation.md: « Установка
+  - funchand.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - funchand.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

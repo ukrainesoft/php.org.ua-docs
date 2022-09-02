@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.zlib-encode.html: « zlibencode
+  - function.zlib-encode.md: « zlibencode
   - class.deflatecontext.md: DeflateContext »
   - index.md: PHP Manual
   - ref.zlib.md: Функции Zlib
@@ -30,4 +30,4 @@ zlib_get_coding_type(): string|false
 
 ### Дивіться також
 
--   Директива [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression)
+-   Директива [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression)

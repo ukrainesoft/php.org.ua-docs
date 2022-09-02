@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.enchant.html: « Enchant
-  - enchant.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.enchant.html: Enchant
+  - book.enchant.md: « Enchant
+  - enchant.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.enchant.md: Enchant
 title: Вступ
 ---
 # Вступ

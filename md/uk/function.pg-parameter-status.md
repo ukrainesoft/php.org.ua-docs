@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-options.html: « pgoptions
-  - function.pg-pconnect.html: пгpconnect »
+  - function.pg-options.md: « pgoptions
+  - function.pg-pconnect.md: пгpconnect »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгparameterstatus
@@ -34,7 +34,7 @@ pg_parameter_status(PgSql\Connection $connection = ?, string $param_name): strin
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

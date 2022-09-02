@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getsize.html: '« FFICType::getSize'
-  - ffi-ctype.getstructfieldoffset.html: 'FFICType::getStructFieldOffset »'
-  - index.html: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - ffi-ctype.getsize.md: '« FFICType::getSize'
+  - ffi-ctype.getstructfieldoffset.md: 'FFICType::getStructFieldOffset »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getStructFieldNames'
 ---
 # FFICType::getStructFieldNames

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.isxdigit.html: '« IntlChar::isxdigit'
-  - intlchar.tolower.html: 'IntlChar::tolower »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.isxdigit.md: '« IntlChar::isxdigit'
+  - intlchar.tolower.md: 'IntlChar::tolower »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::ord'
 ---
 # IntlChar::ord
@@ -20,7 +20,7 @@ public static IntlChar::ord(int|string $character): ?int
 
 Повертає код Unicode.
 
-Ця функція протилежна дії функції [IntlChar::chr()](intlchar.chr.html)
+Ця функція протилежна дії функції [IntlChar::chr()](intlchar.chr.md)
 
 ### Список параметрів
 
@@ -54,6 +54,6 @@ int(9731)
 
 ### Дивіться також
 
--   [IntlChar::chr()](intlchar.chr.html) - Отримати символ Unicode за його кодом
--   [мбord()](function.mb-ord.html) - Отримує кодову точку символу Unicode
--   [ord()](function.ord.html) - Конвертує перший байт рядка до числа від 0 до 255
+-   [IntlChar::chr()](intlchar.chr.md) - Отримати символ Unicode за його кодом
+-   [мбord()](function.mb-ord.md) - Отримує кодову точку символу Unicode
+-   [ord()](function.ord.md) - Конвертує перший байт рядка до числа від 0 до 255

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.ldap-result.html: « LDAPResult
+  - class.ldap-result.md: « LDAPResult
   - book.memcache.md: Memcache »
   - index.md: PHP Manual
   - book.ldap.md: LDAP

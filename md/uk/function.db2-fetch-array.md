@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-execute.html: « db2execute
-  - function.db2-fetch-assoc.html: db2fetchassoc »
+  - function.db2-execute.md: « db2execute
+  - function.db2-fetch-assoc.md: db2fetchassoc »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2fetcharray
 ---
 # db2fetcharray

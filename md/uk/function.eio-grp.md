@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-grp-limit.html: « eiogrplimit
-  - function.eio-init.html: eioinit »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-grp-limit.md: « eiogrplimit
+  - function.eio-init.md: eioinit »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiogrp
 ---
 # eiogrp
@@ -40,7 +40,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -115,5 +115,5 @@ string(4) "some"
 
 ### Дивіться також
 
--   [eiogrpcancel()](function.eio-grp-cancel.html) - Скасує групу запитів
--   [eiogrpadd()](function.eio-grp-add.html) - Додає запит до групи запитів
+-   [eiogrpcancel()](function.eio-grp-cancel.md) - Скасує групу запитів
+-   [eiogrpadd()](function.eio-grp-add.md) - Додає запит до групи запитів

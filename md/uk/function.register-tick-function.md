@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.register-shutdown-function.html: « registershutdownfunction
-  - function.unregister-tick-function.html: unregistertickfunction »
-  - index.html: PHP Manual
-  - ref.funchand.html: Функции управления функциями
+  - function.register-shutdown-function.md: « registershutdownfunction
+  - function.unregister-tick-function.md: unregistertickfunction »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
 title: registertickfunction
 ---
 # registertickfunction
@@ -18,7 +18,7 @@ registertickfunction — Реєструє функцію для виконанн
 register_tick_function(callable $callback, mixed ...$args): bool
 ```
 
-Реєструє функцію `callback`, яка повинна викликатись при кожному [тике](control-structures.declare.html#control-structures.declare.ticks)
+Реєструє функцію `callback`, яка повинна викликатись при кожному [тике](control-structures.declare.md#control-structures.declare.ticks)
 
 ### Список параметрів
 
@@ -51,5 +51,5 @@ register_tick_function(array($object, 'my_method'), true);
 
 ### Дивіться також
 
--   [declare](control-structures.declare.html)
--   [unregistertickfunction()](function.unregister-tick-function.html) - Видаляє функцію зі списку зареєстрованих для виконання на кожному тику
+-   [declare](control-structures.declare.md)
+-   [unregistertickfunction()](function.unregister-tick-function.md) - Видаляє функцію зі списку зареєстрованих для виконання на кожному тику

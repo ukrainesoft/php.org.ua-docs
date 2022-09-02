@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-lock.trylock.html: '« SwooleLock::trylock'
-  - class.swoole-mmap.html: SwooleMmap »
+  - swoole-lock.trylock.md: '« SwooleLock::trylock'
+  - class.swoole-mmap.md: SwooleMmap »
   - index.md: PHP Manual
-  - class.swoole-lock.html: SwooleLock
+  - class.swoole-lock.md: SwooleLock
 title: 'SwooleLock::unlock'
 ---
 # SwooleLock::unlock

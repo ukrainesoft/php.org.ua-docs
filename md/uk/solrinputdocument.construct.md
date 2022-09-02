@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrinputdocument.clone.html: '« SolrInputDocument::clone'
-  - solrinputdocument.deletefield.html: 'SolrInputDocument::deleteField »'
-  - index.html: PHP Manual
-  - class.solrinputdocument.html: SolrInputDocument
+  - solrinputdocument.clone.md: '« SolrInputDocument::clone'
+  - solrinputdocument.deletefield.md: 'SolrInputDocument::deleteField »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::construct'
 ---
 # SolrInputDocument::construct

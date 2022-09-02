@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.phpdbg-clear.html: « phpdbgclear
-  - function.phpdbg-end-oplog.html: phpdbgendoplog »
+  - function.phpdbg-clear.md: « phpdbgclear
+  - function.phpdbg-end-oplog.md: phpdbgendoplog »
   - index.md: PHP Manual
   - ref.phpdbg.md: Функции phpdbg
 title: phpdbgcolor

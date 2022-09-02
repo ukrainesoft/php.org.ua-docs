@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-connection-iterator.valid.html: '« SwooleConnectionIterator::valid'
-  - swoole-coroutine.call-user-func-array.html: 'SwooleCoroutine::calluserfuncarray »'
+  - swoole-connection-iterator.valid.md: '« SwooleConnectionIterator::valid'
+  - swoole-coroutine.call-user-func-array.md: 'SwooleCoroutine::calluserfuncarray »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleCoroutine

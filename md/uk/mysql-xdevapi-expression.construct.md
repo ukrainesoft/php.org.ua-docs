@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-expression.html: « mysqlxdevapiExpression
-  - class.mysql-xdevapi-result.html: mysqlxdevapiResult »
+  - class.mysql-xdevapi-expression.md: « mysqlxdevapiExpression
+  - class.mysql-xdevapi-result.md: mysqlxdevapiResult »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-expression.html: mysqlxdevapiExpression
+  - class.mysql-xdevapi-expression.md: mysqlxdevapiExpression
 title: 'Expression::construct'
 ---
 # Expression::construct

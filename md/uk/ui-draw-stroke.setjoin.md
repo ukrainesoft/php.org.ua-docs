@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-stroke.setcap.html: '« UIDrawStroke::setCap'
-  - ui-draw-stroke.setmiterlimit.html: 'ОЙDrawStroke::setMiterLimit »'
+  - ui-draw-stroke.setcap.md: '« UIDrawStroke::setCap'
+  - ui-draw-stroke.setmiterlimit.md: 'ОЙDrawStroke::setMiterLimit »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.html: ОЙDrawStroke
+  - class.ui-draw-stroke.md: ОЙDrawStroke
 title: 'ОЙDrawStroke::setJoin'
 ---
 # ОЙDrawStroke::setJoin

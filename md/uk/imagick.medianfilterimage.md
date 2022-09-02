@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.mattefloodfillimage.html: '« Imagick::matteFloodfillImage'
-  - imagick.mergeimagelayers.html: 'Imagick::mergeImageLayers »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.mattefloodfillimage.md: '« Imagick::matteFloodfillImage'
+  - imagick.mergeimagelayers.md: 'Imagick::mergeImageLayers »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::medianFilterImage'
 ---
 # Imagick::medianFilterImage

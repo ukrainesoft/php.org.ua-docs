@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rewind.html: « rewind
-  - function.set-file-buffer.html: setfilebuffer »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.rewind.md: « rewind
+  - function.set-file-buffer.md: setfilebuffer »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: rmdir
 ---
 # rmdir
@@ -28,7 +28,7 @@ rmdir(string $directory, ?resource $context = null): bool
 
 `context`
 
-Ресурс (resource) з [контекстом потоку](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
@@ -50,6 +50,6 @@ rmdir('examples');
 
 ### Дивіться також
 
--   [ісdir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
--   [mkdir()](function.mkdir.html) - створює директорію
--   [unlink()](function.unlink.html) - Видаляє файл
+-   [ісdir()](function.is-dir.md) - Визначає, чи є ім'я файлу директорією
+-   [mkdir()](function.mkdir.md) - створює директорію
+-   [unlink()](function.unlink.md) - Видаляє файл

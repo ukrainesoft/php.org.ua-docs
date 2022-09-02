@@ -1,16 +1,16 @@
 ---
 navigation:
-  - json.resources.html: « Типи ресурсів
-  - class.jsonexception.html: JsonException »
-  - index.html: PHP Manual
-  - book.json.html: JSON
+  - json.resources.md: « Типи ресурсів
+  - class.jsonexception.md: JsonException »
+  - index.md: PHP Manual
+  - book.json.md: JSON
 title: Обумовлені константи
 ---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-Наступні константи вказують на тип помилки, повернутий функцією [jsonlasterror()](function.json-last-error.html) або зберігається, як code в [JsonException](class.jsonexception.md)
+Наступні константи вказують на тип помилки, повернутий функцією [jsonlasterror()](function.json-last-error.md) або зберігається, як code в [JsonException](class.jsonexception.md)
 
 **`JSON_ERROR_NONE`** (int)
 
@@ -42,11 +42,11 @@ title: Обумовлені константи
 
 **`JSON_ERROR_INF_OR_NAN`** (int)
 
-Значення, передане у функцію [jsonencode()](function.json-encode.html), включає або [**`NAN`**](language.types.float.html#language.types.float.nan), або [**`INF`**](function.is-infinite.md). Якщо було вказано константу **`JSON_PARTIAL_OUTPUT_ON_ERROR`**, то замість зазначених особливих значень буде виведено `0`
+Значення, передане у функцію [jsonencode()](function.json-encode.md), включає або [**`NAN`**](language.types.float.md#language.types.float.nan), або [**`INF`**](function.is-infinite.md). Якщо було вказано константу **`JSON_PARTIAL_OUTPUT_ON_ERROR`**, то замість зазначених особливих значень буде виведено `0`
 
 **`JSON_ERROR_UNSUPPORTED_TYPE`** (int)
 
-У функцію [jsonencode()](function.json-encode.html) було передано значення непідтримуваного типу, наприклад, [resource](language.types.resource.md). Якщо було вказано константу **`JSON_PARTIAL_OUTPUT_ON_ERROR`**, то замість непідтримуваного значення виводитиметься **`null`**
+У функцію [jsonencode()](function.json-encode.md) було передано значення непідтримуваного типу, наприклад, [resource](language.types.resource.md). Якщо було вказано константу **`JSON_PARTIAL_OUTPUT_ON_ERROR`**, то замість непідтримуваного значення виводитиметься **`null`**
 
 **`JSON_ERROR_INVALID_PROPERTY_NAME`** (int)
 
@@ -116,7 +116,7 @@ title: Обумовлені константи
 
 Символи кінця рядка не будуть екрануватися, якщо задана константа **`JSON_UNESCAPED_UNICODE`**. Поведінка буде такою ж, якою вона була до PHP 7.1 без цієї константи. Доступно з PHP 7.1.0.
 
-Наступні константи можна комбінувати для використання в [jsondecode()](function.json-decode.html) і [jsonencode()](function.json-encode.md)
+Наступні константи можна комбінувати для використання в [jsondecode()](function.json-decode.md) і [jsonencode()](function.json-encode.md)
 
 **`JSON_INVALID_UTF8_IGNORE`** (int)
 
@@ -128,4 +128,4 @@ title: Обумовлені константи
 
 **`JSON_THROW_ON_ERROR`** (int)
 
-Викидається виняток [JsonException](class.jsonexception.html) у разі виникнення помилок замість встановлення глобального стану помилки, який можна отримати за допомогою функції [jsonlasterror()](function.json-last-error.html) і [jsonlasterrormsg()](function.json-last-error-msg.md). Константа **`JSON_PARTIAL_OUTPUT_ON_ERROR`** має пріоритет над **`JSON_THROW_ON_ERROR`**. Доступно з PHP 7.3.0.
+Викидається виняток [JsonException](class.jsonexception.md) у разі виникнення помилок замість встановлення глобального стану помилки, який можна отримати за допомогою функції [jsonlasterror()](function.json-last-error.md) і [jsonlasterrormsg()](function.json-last-error-msg.md). Константа **`JSON_PARTIAL_OUTPUT_ON_ERROR`** має пріоритет над **`JSON_THROW_ON_ERROR`**. Доступно з PHP 7.3.0.

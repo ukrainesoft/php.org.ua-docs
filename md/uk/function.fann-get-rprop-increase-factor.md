@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-rprop-delta-zero.html: « fanngetrpropdeltazero
-  - function.fann-get-sarprop-step-error-shift.html: fanngetsarpropsteperrorshift »
+  - function.fann-get-rprop-delta-zero.md: « fanngetrpropdeltazero
+  - function.fann-get-sarprop-step-error-shift.md: fanngetsarpropsteperrorshift »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetrpropincreasefactor

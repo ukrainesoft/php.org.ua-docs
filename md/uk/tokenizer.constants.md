@@ -1,11 +1,11 @@
 ---
 navigation:
-  - tokenizer.resources.html: « Типи ресурсів
-  - tokenizer.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.tokenizer.html: Лексер (Tokenizer)
+  - tokenizer.resources.md: « Типи ресурсів
+  - tokenizer.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.tokenizer.md: Лексер (Tokenizer)
 title: Обумовлені константи
 ---
 # Обумовлені константи
 
-Коли модуль скомпільований у PHP або динамічно завантажений під час виконання, лексеми, перераховані в [Список меток (tokens) парсера](tokens.html) визначено як константи.
+Коли модуль скомпільований у PHP або динамічно завантажений під час виконання, лексеми, перераховані в [Список меток (tokens) парсера](tokens.md) визначено як константи.

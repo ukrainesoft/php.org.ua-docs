@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdostatement.bindparam.html: '« PDOStatement::bindParam'
-  - pdostatement.closecursor.html: 'PDOStatement::closeCursor »'
-  - index.html: PHP Manual
-  - class.pdostatement.html: PDOStatement
+  - pdostatement.bindparam.md: '« PDOStatement::bindParam'
+  - pdostatement.closecursor.md: 'PDOStatement::closeCursor »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::bindValue'
 ---
 # PDOStatement::bindValue
@@ -32,7 +32,7 @@ public PDOStatement::bindValue(string|int $param, mixed $value, int $type = PDO:
 
 `type`
 
-Явно заданий тип даних параметра. Тип задається однією з [констант`PDO::PARAM_*`](pdo.constants.html)
+Явно заданий тип даних параметра. Тип задається однією з [констант`PDO::PARAM_*`](pdo.constants.md)
 
 ### Значення, що повертаються
 
@@ -75,6 +75,6 @@ $sth->execute();
 
 ### Дивіться також
 
--   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::execute()](pdostatement.execute.html) - Запускає підготовлений запит на виконання
--   [PDOStatement::bindParam()](pdostatement.bindparam.html) - Прив'язує параметр запиту до змінної
+-   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання
+-   [PDOStatement::bindParam()](pdostatement.bindparam.md) - Прив'язує параметр запиту до змінної

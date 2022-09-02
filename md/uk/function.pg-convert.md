@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-consume-input.html: « pgconsumeinput
-  - function.pg-copy-from.html: пгcopyfrom »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-consume-input.md: « pgconsumeinput
+  - function.pg-copy-from.md: пгcopyfrom »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгconvert
 ---
 # пгconvert
@@ -28,7 +28,7 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `table_name`
 
@@ -50,7 +50,7 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -72,8 +72,8 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 ### Дивіться також
 
--   [пгmetadata()](function.pg-meta-data.html) - Отримання метаданих таблиці
--   [пгinsert()](function.pg-insert.html) - Заносить дані з масиву до таблиці бази даних
--   [пгselect()](function.pg-select.html) - Вибирає записи із бази даних
--   [пгupdate()](function.pg-update.html) - Оновлення даних у таблиці
--   [пгdelete()](function.pg-delete.html) - Видаляє записи
+-   [пгmetadata()](function.pg-meta-data.md) - Отримання метаданих таблиці
+-   [пгinsert()](function.pg-insert.md) - Заносить дані з масиву до таблиці бази даних
+-   [пгselect()](function.pg-select.md) - Вибирає записи із бази даних
+-   [пгupdate()](function.pg-update.md) - Оновлення даних у таблиці
+-   [пгdelete()](function.pg-delete.md) - Видаляє записи

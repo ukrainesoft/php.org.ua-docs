@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanjob.setreturn.html: '« GearmanJob::setReturn'
-  - gearmanjob.unique.html: 'GearmanJob::unique »'
-  - index.html: PHP Manual
-  - class.gearmanjob.html: GearmanJob
+  - gearmanjob.setreturn.md: '« GearmanJob::setReturn'
+  - gearmanjob.unique.md: 'GearmanJob::unique »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::status'
 ---
 # GearmanJob::status
@@ -22,7 +22,7 @@ public GearmanJob::status(int $numerator, int $denominator): bool
 
 > **Зауваження**
 > 
-> Цей метод було замінено на [GearmanJob::sendStatus()](gearmanjob.sendstatus.html) у версії 0.6.0 модуля Gearman.
+> Цей метод було замінено на [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 
@@ -40,6 +40,6 @@ public GearmanJob::status(int $numerator, int $denominator): bool
 
 ### Дивіться також
 
--   [GearmanClient::jobStatus()](gearmanclient.jobstatus.html) - Набуття статусу виконання фонового завдання
--   [GearmanTask::taskDenominator()](gearmantask.taskdenominator.html) - отримати знаменник відсотка виконаної роботи
--   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.html) - отримання чисельника відсотка виконаної роботи
+-   [GearmanClient::jobStatus()](gearmanclient.jobstatus.md) - Набуття статусу виконання фонового завдання
+-   [GearmanTask::taskDenominator()](gearmantask.taskdenominator.md) - отримати знаменник відсотка виконаної роботи
+-   [GearmanTask::taskNumerator()](gearmantask.tasknumerator.md) - отримання чисельника відсотка виконаної роботи

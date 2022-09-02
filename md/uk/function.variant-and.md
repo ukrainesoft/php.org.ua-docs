@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-add.html: « variantadd
-  - function.variant-cast.html: variantcast »
+  - function.variant-add.md: « variantadd
+  - function.variant-cast.md: variantcast »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantand

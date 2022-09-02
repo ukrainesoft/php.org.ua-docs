@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gethostbyname.html: « gethostbyname
-  - function.gethostname.html: gethostname »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.gethostbyname.md: « gethostbyname
+  - function.gethostname.md: gethostname »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: gethostbynamel
 ---
 # gethostbynamel

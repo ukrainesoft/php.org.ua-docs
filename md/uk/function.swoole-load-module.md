@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-last-error.html: « swoolelasterror
-  - function.swoole-select.html: swooleselect »
+  - function.swoole-last-error.md: « swoolelasterror
+  - function.swoole-select.md: swooleselect »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleloadmodule
 ---
 # swooleloadmodule

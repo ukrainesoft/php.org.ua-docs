@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.capacity.html: '« DsSequence::capacity'
-  - ds-sequence.filter.html: 'ДсSequence::filter »'
+  - ds-sequence.capacity.md: '« DsSequence::capacity'
+  - ds-sequence.filter.md: 'ДсSequence::filter »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::contains'
 ---
 # ДсSequence::contains

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.libxml-get-errors.html: « libxmlgeterrors
-  - function.libxml-set-external-entity-loader.html: libxmlsetexternalentityloader »
+  - function.libxml-get-errors.md: « libxmlgeterrors
+  - function.libxml-set-external-entity-loader.md: libxmlsetexternalentityloader »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
 title: libxmlgetlasterror

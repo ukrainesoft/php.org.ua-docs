@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle.regex.chars.html: « Представления символов
-  - parle.regex.unicodecharclass.html: Класи символів Unicode »
-  - index.html: PHP Manual
-  - parle.pattern.matching.html: Сопоставление с шаблоном
+  - parle.regex.chars.md: « Представления символов
+  - parle.regex.unicodecharclass.md: Класи символів Unicode »
+  - index.md: PHP Manual
+  - parle.pattern.matching.md: Сопоставление с шаблоном
 title: Класи символів
 ---
 ## Класи символів

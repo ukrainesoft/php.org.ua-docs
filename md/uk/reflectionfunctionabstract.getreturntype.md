@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getparameters.html: '« ReflectionFunctionAbstract::getParameters'
-  - reflectionfunctionabstract.getshortname.html: 'ReflectionFunctionAbstract::getShortName »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getparameters.md: '« ReflectionFunctionAbstract::getParameters'
+  - reflectionfunctionabstract.getshortname.md: 'ReflectionFunctionAbstract::getShortName »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getReturnType'
 ---
 # ReflectionFunctionAbstract::getReturnType
@@ -26,7 +26,7 @@ public ReflectionFunctionAbstract::getReturnType(): ?ReflectionType
 
 ### Значення, що повертаються
 
-Повертає об'єкт класу [ReflectionType](class.reflectiontype.html), якщо у функції оголошено тип значення, що повертається, **`null`** в іншому випадку.
+Повертає об'єкт класу [ReflectionType](class.reflectiontype.md), якщо у функції оголошено тип значення, що повертається, **`null`** в іншому випадку.
 
 ### Приклади
 
@@ -69,5 +69,5 @@ null
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.html) - Перевіряє, чи має функція оголошений тип значення, що повертається
--   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок
+-   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md) - Перевіряє, чи має функція оголошений тип значення, що повертається
+-   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок

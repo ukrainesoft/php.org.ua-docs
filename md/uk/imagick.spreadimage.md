@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.spliceimage.html: '« Imagick::spliceImage'
-  - imagick.statisticimage.html: 'Imagick::statisticImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.spliceimage.md: '« Imagick::spliceImage'
+  - imagick.statisticimage.md: 'Imagick::statisticImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::spreadImage'
 ---
 # Imagick::spreadImage

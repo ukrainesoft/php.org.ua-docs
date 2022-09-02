@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.enchant-dict-suggest.html: « enchantdictsuggest
-  - class.enchantdictionary.html: EnchantDictionary »
-  - index.html: PHP Manual
-  - book.enchant.html: Enchant
+  - function.enchant-dict-suggest.md: « enchantdictsuggest
+  - class.enchantdictionary.md: EnchantDictionary »
+  - index.md: PHP Manual
+  - book.enchant.md: Enchant
 title: Клас EnchantBroker
 ---
 # Клас EnchantBroker

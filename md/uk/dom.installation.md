@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dom.requirements.html: « Вимоги
-  - dom.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - dom.setup.html: Встановлення та налаштування
+  - dom.requirements.md: « Вимоги
+  - dom.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - dom.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

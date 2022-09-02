@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setimageblueprimary.html: '« Gmagick::setimageblueprimary'
-  - gmagick.setimagechanneldepth.html: 'Gmagick::setimagechanneldepth »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setimageblueprimary.md: '« Gmagick::setimageblueprimary'
+  - gmagick.setimagechanneldepth.md: 'Gmagick::setimagechanneldepth »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagebordercolor'
 ---
 # Gmagick::setimagebordercolor
@@ -28,7 +28,7 @@ public Gmagick::setimagebordercolor(GmagickPixel $color): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

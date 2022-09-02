@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.bind.html: '« SwooleServer::bind'
-  - swoole-server.close.html: 'SwooleServer::close »'
+  - swoole-server.bind.md: '« SwooleServer::bind'
+  - swoole-server.close.md: 'SwooleServer::close »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::clearTimer'
 ---
 # SwooleServer::clearTimer

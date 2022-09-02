@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionmodify.replace.html: '« CollectionModify::replace'
-  - mysql-xdevapi-collectionmodify.skip.html: 'CollectionModify::skip »'
+  - mysql-xdevapi-collectionmodify.replace.md: '« CollectionModify::replace'
+  - mysql-xdevapi-collectionmodify.skip.md: 'CollectionModify::skip »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
 title: 'CollectionModify::set'
 ---
 # CollectionModify::set

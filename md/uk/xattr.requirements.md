@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xattr.setup.html: « Встановлення та налаштування
-  - xattr.installation.html: Установка »
-  - index.html: PHP Manual
-  - xattr.setup.html: Встановлення та налаштування
+  - xattr.setup.md: « Встановлення та налаштування
+  - xattr.installation.md: Установка »
+  - index.md: PHP Manual
+  - xattr.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

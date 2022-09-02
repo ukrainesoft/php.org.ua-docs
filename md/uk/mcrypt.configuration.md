@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mcrypt.installation.html: « Установка
-  - mcrypt.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - mcrypt.setup.html: Встановлення та налаштування
+  - mcrypt.installation.md: « Установка
+  - mcrypt.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - mcrypt.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [mcrypt.algorithmsdir](mcrypt.configuration.html#ini.mcrypt.algorithms-dir) | **`null`** | PHPINIALL |  |
-| [mcrypt.modesdir](mcrypt.configuration.html#ini.mcrypt.modes-dir) | **`null`** | PHPINIALL |  |
+| [mcrypt.algorithmsdir](mcrypt.configuration.md#ini.mcrypt.algorithms-dir) | **`null`** | PHPINIALL |  |
+| [mcrypt.modesdir](mcrypt.configuration.md#ini.mcrypt.modes-dir) | **`null`** | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

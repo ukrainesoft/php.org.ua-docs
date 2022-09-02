@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.setcapath.html: '« OAuth::setCAPath'
-  - oauth.setrequestengine.html: 'OAuth::setRequestEngine »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.setcapath.md: '« OAuth::setCAPath'
+  - oauth.setrequestengine.md: 'OAuth::setRequestEngine »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::setNonce'
 ---
 # OAuth::setNonce
@@ -38,6 +38,6 @@ public OAuth::setNonce(string $nonce): mixed
 
 ### Дивіться також
 
--   [OAuth::setToken()](oauth.settoken.html) - Задати токен та його пароль
--   [OAuth::setAuthType()](oauth.setauthtype.html) - встановити тип авторизації
--   [OAuth::setVersion()](oauth.setversion.html) - Встановити версію OAuth
+-   [OAuth::setToken()](oauth.settoken.md) - Задати токен та його пароль
+-   [OAuth::setAuthType()](oauth.setauthtype.md) - встановити тип авторизації
+-   [OAuth::setVersion()](oauth.setversion.md) - Встановити версію OAuth

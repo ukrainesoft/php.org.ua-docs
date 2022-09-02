@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.prepare.html: '« mysqlistmt::prepare'
-  - mysqli-stmt.result-metadata.html: 'mysqlistmt::resultmetadata »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.prepare.md: '« mysqlistmt::prepare'
+  - mysqli-stmt.result-metadata.md: 'mysqlistmt::resultmetadata »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::reset'
 ---
 # mysqlistmt::reset
@@ -38,7 +38,7 @@ mysqli_stmt_reset(mysqli_stmt $statement): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

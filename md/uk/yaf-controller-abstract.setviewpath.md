@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-controller-abstract.render.html: '« YafControllerAbstract::render'
-  - class.yaf-action-abstract.html: YafActionAbstract »
+  - yaf-controller-abstract.render.md: '« YafControllerAbstract::render'
+  - class.yaf-action-abstract.md: YafActionAbstract »
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.html: YafControllerAbstract
+  - class.yaf-controller-abstract.md: YafControllerAbstract
 title: 'YafControllerAbstract::setViewpath'
 ---
 # YafControllerAbstract::setViewpath

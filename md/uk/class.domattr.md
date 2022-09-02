@@ -176,7 +176,7 @@ value
 
 ## Дивіться також
 
--   [» Спецификация W3C для Attr](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-637646024)
+-   [» Спецификация W3C для Attr](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-637646024)
 
 ## Зміст
 

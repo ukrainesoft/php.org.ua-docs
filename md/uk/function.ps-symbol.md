@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-symbol-width.html: «pssymbolwidth
-  - function.ps-translate.html: псtranslate »
+  - function.ps-symbol-width.md: «pssymbolwidth
+  - function.ps-translate.md: псtranslate »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsymbol

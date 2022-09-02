@@ -18,9 +18,9 @@ public **SoapFault::construct**
 array|string|null `$code`  
 string `$string`  
 ?string `$actor` **`null`**  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$details` **`null`**  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$details` **`null`**  
 ?string `$name` **`null`**  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$headerFault` **`null`**
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$headerFault` **`null`**
 
 Цей клас служить для надсилання відповіді на помилку SOAP з обробника PHP . `faultcode` `faultstring` `faultactor` і `detail` є стандартними елементами SOAP.
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-strstr.html: « mbstrstr
-  - function.mb-strtoupper.html: мбstrtoupper »
+  - function.mb-strstr.md: « mbstrstr
+  - function.mb-strtoupper.md: мбstrtoupper »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбstrtolower

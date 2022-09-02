@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.expect.html: « Функции Expect
-  - function.expect-popen.html: expectpopen »
-  - index.html: PHP Manual
-  - ref.expect.html: Функции Expect
+  - ref.expect.md: « Функции Expect
+  - function.expect-popen.md: expectpopen »
+  - index.md: PHP Manual
+  - ref.expect.md: Функции Expect
 title: expectexpectl
 ---
 # expectexpectl
@@ -38,13 +38,13 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 | --- | --- | --- | --- | --- |
 |  | string | шаблон, який порівнюватиметься з потоком виводу | так |  |
 |  | mixed | значення, яке поверне функція, якщо збіг знайдено | так |  |
-|  | integer | тип шаблону: [**`EXP_GLOB`**](expect.constants.html#constants.expect.exp-glob) [**`EXP_EXACT`**](expect.constants.html#constants.expect.exp-exact) або [**`EXP_REGEXP`**](expect.constants.html#constants.expect.exp-regexp) | ні | [**`EXP_GLOB`**](expect.constants.html#constants.expect.exp-glob) |
+|  | integer | тип шаблону: [**`EXP_GLOB`**](expect.constants.md#constants.expect.exp-glob) [**`EXP_EXACT`**](expect.constants.md#constants.expect.exp-exact) або [**`EXP_REGEXP`**](expect.constants.md#constants.expect.exp-regexp) | ні | [**`EXP_GLOB`**](expect.constants.md#constants.expect.exp-glob) |
 
 ### Значення, що повертаються
 
 Повертає значення, пов'язане з шаблоном, з яким воно збіглося.
 
-У разі виникнення помилки функція поверне: [**`EXP_EOF`**](expect.constants.html#constants.expect.exp-eof) [**`EXP_TIMEOUT`**](expect.constants.html#constants.expect.exp-timeout) або [**`EXP_FULLBUFFER`**](expect.constants.html#constants.expect.exp-fullbuffer)
+У разі виникнення помилки функція поверне: [**`EXP_EOF`**](expect.constants.md#constants.expect.exp-eof) [**`EXP_TIMEOUT`**](expect.constants.md#constants.expect.exp-timeout) або [**`EXP_FULLBUFFER`**](expect.constants.md#constants.expect.exp-fullbuffer)
 
 ### список змін
 

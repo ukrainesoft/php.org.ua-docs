@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagegrabscreen.html: « imagegrabscreen
-  - function.imageinterlace.html: imageinterlace »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagegrabscreen.md: « imagegrabscreen
+  - function.imageinterlace.md: imageinterlace »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegrabwindow
 ---
 # imagegrabwindow

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.substr.html: « substr
-  - function.ucfirst.html: ucfirst »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.substr.md: « substr
+  - function.ucfirst.md: ucfirst »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: trim
 ---
 # trim
@@ -137,6 +137,6 @@ array(3) {
 
 ### Дивіться також
 
--   [ltrim()](function.ltrim.html) - Видаляє пробіли (або інші символи) з початку рядка
--   [rtrim()](function.rtrim.html) - Видаляє прогалини (або інші символи) з кінця рядка
--   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
+-   [ltrim()](function.ltrim.md) - Видаляє пробіли (або інші символи) з початку рядка
+-   [rtrim()](function.rtrim.md) - Видаляє прогалини (або інші символи) з кінця рядка
+-   [strreplace()](function.str-replace.md) - Замінює всі входження рядка пошуку на рядок заміни

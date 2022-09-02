@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlshootingstar.html: « tradercdlshootingstar
-  - function.trader-cdlspinningtop.html: tradercdlspinningtop »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlshootingstar.md: « tradercdlshootingstar
+  - function.trader-cdlspinningtop.md: tradercdlspinningtop »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlshortline
 ---
 # tradercdlshortline

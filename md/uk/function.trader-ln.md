@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-linearreg.html: « traderlinearreg
-  - function.trader-log10.html: traderlog10 »
+  - function.trader-linearreg.md: « traderlinearreg
+  - function.trader-log10.md: traderlog10 »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderлн

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-and.html: « gmpand
-  - function.gmp-clrbit.html: gmpclrbit »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-and.md: « gmpand
+  - function.gmp-clrbit.md: gmpclrbit »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpbinomial
 ---
 # gmpbinomial
@@ -24,7 +24,7 @@ gmp_binomial(GMP|int|string $n, int $k): GMP
 
 `n`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `k`
 
@@ -34,7 +34,7 @@ gmp_binomial(GMP|int|string $n, int $k): GMP
 
 ### Помилки
 
-Викидає [ValueError](class.valueerror.html), якщо `k` від'ємний. До PHP 8.0.0 видавалася помилка рівня **`E_WARNING`**
+Викидає [ValueError](class.valueerror.md), якщо `k` від'ємний. До PHP 8.0.0 видавалася помилка рівня **`E_WARNING`**
 
 ### список змін
 

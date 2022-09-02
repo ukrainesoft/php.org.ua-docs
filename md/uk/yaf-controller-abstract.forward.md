@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-controller-abstract.display.html: '« YafControllerAbstract::display'
-  - yaf-controller-abstract.getinvokearg.html: 'YafControllerAbstract::getInvokeArg »'
+  - yaf-controller-abstract.display.md: '« YafControllerAbstract::display'
+  - yaf-controller-abstract.getinvokearg.md: 'YafControllerAbstract::getInvokeArg »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.html: YafControllerAbstract
+  - class.yaf-controller-abstract.md: YafControllerAbstract
 title: 'YafControllerAbstract::forward'
 ---
 # YafControllerAbstract::forward

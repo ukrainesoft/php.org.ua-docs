@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-fstatvfs.html: « eiofstatvfs
-  - function.eio-ftruncate.html: eioftruncate »
+  - function.eio-fstatvfs.md: « eiofstatvfs
+  - function.eio-ftruncate.md: eioftruncate »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiofsync

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-get-line.html: « streamgetline
-  - function.stream-get-transports.html: streamgettransports »
+  - function.stream-get-line.md: « streamgetline
+  - function.stream-get-transports.md: streamgettransports »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamgetmetadata

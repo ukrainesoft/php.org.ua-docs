@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.sorted.html: '« DsVector::sorted'
-  - ds-vector.toarray.html: 'ДсVector::toArray »'
+  - ds-vector.sorted.md: '« DsVector::sorted'
+  - ds-vector.toarray.md: 'ДсVector::toArray »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::sum'
 ---
 # ДсVector::sum

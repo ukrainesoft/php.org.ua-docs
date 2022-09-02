@@ -1,6 +1,6 @@
 ---
 navigation:
-  - features.gc.performance-considerations.html: « Питання продуктивності
+  - features.gc.performance-considerations.md: « Питання продуктивності
   - features.dtrace.introduction.md: Введение в PHP и DTrace »
   - index.md: PHP Manual
   - features.md: Відмітні особливості

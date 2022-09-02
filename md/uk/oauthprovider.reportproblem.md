@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauthprovider.removerequiredparameter.html: '« OAuthProvider::removeRequiredParameter'
-  - oauthprovider.setparam.html: 'OAuthProvider::setParam »'
-  - index.html: PHP Manual
-  - class.oauthprovider.html: OAuthProvider
+  - oauthprovider.removerequiredparameter.md: '« OAuthProvider::removeRequiredParameter'
+  - oauthprovider.setparam.md: 'OAuthProvider::setParam »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::reportProblem'
 ---
 # OAuthProvider::reportProblem
@@ -18,7 +18,7 @@ OAuthProvider::reportProblem — Повідомити про проблему
 final public static OAuthProvider::reportProblem(string $oauthexception, bool $send_headers = true): string
 ```
 
-Передати проблему як виняток [OAuthException](class.oauthexception.html). Допустимі проблеми перераховані в секції [константи OAuth](oauth.constants.html)
+Передати проблему як виняток [OAuthException](class.oauthexception.md). Допустимі проблеми перераховані в секції [константи OAuth](oauth.constants.md)
 
 **Увага**
 
@@ -28,7 +28,7 @@ final public static OAuthProvider::reportProblem(string $oauthexception, bool $s
 
 `oauthexception`
 
-Об'єкт виключення [OAuthException](class.oauthexception.html)
+Об'єкт виключення [OAuthException](class.oauthexception.md)
 
 ### Значення, що повертаються
 
@@ -36,5 +36,5 @@ final public static OAuthProvider::reportProblem(string $oauthexception, bool $s
 
 ### Дивіться також
 
--   [OAuthProvider::checkOAuthRequest()](oauthprovider.checkoauthrequest.html) - Перевірка запиту oauth
--   [OAuthProvider::isRequestTokenEndpoint()](oauthprovider.isrequesttokenendpoint.html) - Установка isRequestTokenEndpoint
+-   [OAuthProvider::checkOAuthRequest()](oauthprovider.checkoauthrequest.md) - Перевірка запиту oauth
+-   [OAuthProvider::isRequestTokenEndpoint()](oauthprovider.isrequesttokenendpoint.md) - Установка isRequestTokenEndpoint

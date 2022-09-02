@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli-driver.report-mode.html: '« mysqlidriver::$reportmode'
-  - mysqli-warning.construct.html: 'mysqliwarning::construct »'
+  - mysqli-driver.report-mode.md: '« mysqlidriver::$reportmode'
+  - mysqli-warning.construct.md: 'mysqliwarning::construct »'
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: Клас mysqliwarning

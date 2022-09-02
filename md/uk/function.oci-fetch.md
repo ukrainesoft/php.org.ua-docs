@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-fetch-row.html: « ocifetchrow
-  - function.oci-field-is-null.html: ocifieldісnull »
+  - function.oci-fetch-row.md: « ocifetchrow
+  - function.oci-field-is-null.md: ocifieldісnull »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocifetch
@@ -18,7 +18,7 @@ ocifetch - Вибирає наступний рядок з результату 
 oci_fetch(resource $statement): bool
 ```
 
-Вибирає наступний рядок із результату запиту у внутрішній буфер, доступний за допомогою [ociresult()](function.oci-result.html) або через змінні, заздалегідь визначені за допомогою [ocidefineбname()](function.oci-define-by-name.md)
+Вибирає наступний рядок із результату запиту у внутрішній буфер, доступний за допомогою [ociresult()](function.oci-result.md) або через змінні, заздалегідь визначені за допомогою [ocidefineбname()](function.oci-define-by-name.md)
 
 Дивіться [ocifetcharray()](function.oci-fetch-array.md) для більш детальної інформації щодо вибору даних.
 
@@ -26,7 +26,7 @@ oci_fetch(resource $statement): bool
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqli.prepare.md: '« mysqli::prepare'
-  - mysqli.real-connect.html: 'mysqli::realconnect »'
+  - mysqli.real-connect.md: 'mysqli::realconnect »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::query'
@@ -30,7 +30,7 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 Виконує запит `query` до бази даних.
 
-Для не DML-запитів (не INSERT, UPDATE чи DELETE), ця функція рівносильна виклику функції [mysqlirealquery()](mysqli.real-query.html), а потім [mysqliuseresult()](mysqli.use-result.html) або [mysqlistoreresult()](mysqli.store-result.md)
+Для не DML-запитів (не INSERT, UPDATE чи DELETE), ця функція рівносильна виклику функції [mysqlirealquery()](mysqli.real-query.md), а потім [mysqliuseresult()](mysqli.use-result.md) або [mysqlistoreresult()](mysqli.store-result.md)
 
 > **Зауваження**
 > 
@@ -57,7 +57,7 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 # Попередження безпеки: SQL-ін'єкція
 
-Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
+Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.md). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
 
 `result_mode`
 
@@ -65,7 +65,7 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 
 **`MYSQLI_STORE_RESULT`** (за замовчуванням) - повертає об'єкт [mysqliresult](class.mysqli-result.md) із буферизованим набором результатів.
 
-**`MYSQLI_USE_RESULT`** - Повертає об'єкт [mysqliresult](class.mysqli-result.html) із небуферизованим набором результатів. Поки є відкладені записи, що очікують вибірки, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync`. Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику [mysqlifreeresult()](mysqli-result.free.md)
+**`MYSQLI_USE_RESULT`** - Повертає об'єкт [mysqliresult](class.mysqli-result.md) із небуферизованим набором результатів. Поки є відкладені записи, що очікують вибірки, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync`. Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику [mysqlifreeresult()](mysqli-result.free.md)
 
 **`MYSQLI_ASYNC`** (Доступно з mysqlnd) - запит виконується асинхронно, набір результатів відразу не повертається. Потім використовується [mysqlipoll()](mysqli.poll.md) для отримання результатів за цими запитами. Використовується у поєднанні з константою **`MYSQLI_STORE_RESULT`** або **`MYSQLI_USE_RESULT`**
 

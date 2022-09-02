@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflection.setup.html: « Встановлення та налаштування
-  - reflection.installation.html: Установка »
-  - index.html: PHP Manual
-  - reflection.setup.html: Встановлення та налаштування
+  - reflection.setup.md: « Встановлення та налаштування
+  - reflection.installation.md: Установка »
+  - index.md: PHP Manual
+  - reflection.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

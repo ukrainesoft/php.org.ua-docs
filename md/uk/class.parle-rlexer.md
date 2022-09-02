@@ -1,7 +1,7 @@
 ---
 navigation:
-  - parle-lexer.reset.html: '« ParleLexer::reset'
-  - parle-rlexer.advance.html: 'ParleRLexer::advance »'
+  - parle-lexer.reset.md: '« ParleLexer::reset'
+  - parle-rlexer.advance.md: 'ParleRLexer::advance »'
   - index.md: PHP Manual
   - book.parle.md: Parle
 title: Клас ParleRLexer
@@ -12,7 +12,7 @@ title: Клас ParleRLexer
 
 ## Вступ
 
-Клас лексера з кількома станами. Лексеми можна визначати на льоту. Якщо конкретний екземпляр лексера призначений для використання з [ParleRParser](class.parle-rparser.html)Ідентифікатори токенів повинні бути взяті звідти. В іншому випадку можуть бути надані довільні ідентифікатори токенів. Зверніть увагу, що [ParleParser](class.parle-parser.md) несумісний із цим лексером.
+Клас лексера з кількома станами. Лексеми можна визначати на льоту. Якщо конкретний екземпляр лексера призначений для використання з [ParleRParser](class.parle-rparser.md)Ідентифікатори токенів повинні бути взяті звідти. В іншому випадку можуть бути надані довільні ідентифікатори токенів. Зверніть увагу, що [ParleParser](class.parle-parser.md) несумісний із цим лексером.
 
 ## Огляд класів
 

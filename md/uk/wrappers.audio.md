@@ -31,7 +31,7 @@ ogg:// (PECL)
 
 | Атрибут | Поддержка |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
+| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
 | Читання | Так |
 | Запис | Так |
 | Додавання | Так |

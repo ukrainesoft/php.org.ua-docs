@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-create.html: « fdfcreate
-  - function.fdf-errno.html: fdferrno »
+  - function.fdf-create.md: « fdfcreate
+  - function.fdf-errno.md: fdferrno »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfenumvalues

@@ -70,6 +70,6 @@ array (
 
 ### Дивіться також
 
--   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.md)
+-   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
 -   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування
 -   [collatorasort()](collator.asort.md) - Сортує масив із збереженням асоціації індексу

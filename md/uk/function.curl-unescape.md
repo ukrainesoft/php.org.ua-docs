@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-strerror.html: « curlstrerror
-  - function.curl-version.html: curlversion »
+  - function.curl-strerror.md: « curlstrerror
+  - function.curl-version.md: curlversion »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlunescape

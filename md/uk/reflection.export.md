@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.reflection.html: « Reflection
-  - reflection.getmodifiernames.html: 'Reflection::getModifierNames »'
-  - index.html: PHP Manual
-  - class.reflection.html: Reflection
+  - class.reflection.md: « Reflection
+  - reflection.getmodifiernames.md: 'Reflection::getModifierNames »'
+  - index.md: PHP Manual
+  - class.reflection.md: Reflection
 title: 'Reflection::export'
 ---
 # Reflection::export
@@ -44,4 +44,4 @@ public static Reflection::export(Reflector $reflector, bool $return = false): st
 
 ### Дивіться також
 
--   [Reflection::getModifierNames()](reflection.getmodifiernames.html) - Отримання імен модифікаторів
+-   [Reflection::getModifierNames()](reflection.getmodifiernames.md) - Отримання імен модифікаторів

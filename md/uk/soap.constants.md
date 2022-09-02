@@ -1,9 +1,9 @@
 ---
 navigation:
-  - soap.resources.html: « Типи ресурсів
-  - ref.soap.html: Функции SOAP »
-  - index.html: PHP Manual
-  - book.soap.html: SOAP
+  - soap.resources.md: « Типи ресурсів
+  - ref.soap.md: Функции SOAP »
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -14,8 +14,8 @@ title: Обумовлені константи
 
 | Константа | Значение | Описание |
 | --- | --- | --- |
-| **`SOAP_1_1`** (int) |  | Визначає використання SOAP 1.1 при передачі як параметр `soap_version` методом [SoapServer::construct()](soapserver.construct.html) або [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_1_2`** (int) |  | Визначає використання SOAP 1.2 при передачі як параметр `soap_version` методом [SoapServer::construct()](soapserver.construct.html) або [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_1_1`** (int) |  | Визначає використання SOAP 1.1 при передачі як параметр `soap_version` методом [SoapServer::construct()](soapserver.construct.md) або [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_1_2`** (int) |  | Визначає використання SOAP 1.2 при передачі як параметр `soap_version` методом [SoapServer::construct()](soapserver.construct.md) або [SoapClient::construct()](soapclient.construct.md) |
 | **`SOAP_PERSISTENCE_SESSION`** (int) |  |  |
 | **`SOAP_PERSISTENCE_REQUEST`** (int) |  |  |
 | **`SOAP_FUNCTIONS_ALL`** (int) |  |  |
@@ -26,15 +26,15 @@ title: Обумовлені константи
 | **`SOAP_ACTOR_NEXT`** (int) |  |  |
 | **`SOAP_ACTOR_NONE`** (int) |  |  |
 | **`SOAP_ACTOR_UNLIMATERECEIVER`** (int) |  |  |
-| **`SOAP_COMPRESSION_ACCEPT`** (int) |  | Визначає використання заголовка "Accept-Encoding" під час передачі [параметра`compression`](soapclient.construct.html#soapclient.construct.options.compression) методом [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_COMPRESSION_GZIP`** (int) |  | Визначає використання стиснення gzip під час передачі [параметра`compression`](soapclient.construct.html#soapclient.construct.options.compression) методом [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_COMPRESSION_DEFLATE`** (int) |  | Визначає використання стиснення deflate при передачі [параметра`compression`](soapclient.construct.html#soapclient.construct.options.compression) методом [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_COMPRESSION_ACCEPT`** (int) |  | Визначає використання заголовка "Accept-Encoding" під час передачі [параметра`compression`](soapclient.construct.md#soapclient.construct.options.compression) методом [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_COMPRESSION_GZIP`** (int) |  | Визначає використання стиснення gzip під час передачі [параметра`compression`](soapclient.construct.md#soapclient.construct.options.compression) методом [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_COMPRESSION_DEFLATE`** (int) |  | Визначає використання стиснення deflate при передачі [параметра`compression`](soapclient.construct.md#soapclient.construct.options.compression) методом [SoapClient::construct()](soapclient.construct.md) |
 | **`SOAP_AUTHENTICATION_BASIC`** (int) |  | Визначає використання базової автентифікації HTTP під час передачі параметра `authentication` методом [SoapClient::construct()](soapclient.construct.md) |
 | **`SOAP_AUTHENTICATION_DIGEST`** (int) |  | Визначає використання аутентифікації HTTP Digest Authentication під час передачі параметра `authentication` методом [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_SSL_METHOD_TLS`** (int) |  | Використовується із застарілим [параметром`ssl_method`](soapclient.construct.html#soapclient.construct.options.ssl-method) методу [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_SSL_METHOD_SSLv2`** (int) |  | Використовується із застарілим [параметром`ssl_method`](soapclient.construct.html#soapclient.construct.options.ssl-method) методу [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_SSL_METHOD_SSLv3`** (int) |  | Використовується із застарілим [параметром`ssl_method`](soapclient.construct.html#soapclient.construct.options.ssl-method) методу [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_SSL_METHOD_SSLv23`** (int) |  | Використовується із застарілим [параметром`ssl_method`](soapclient.construct.html#soapclient.construct.options.ssl-method) методу [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_SSL_METHOD_TLS`** (int) |  | Використовується із застарілим [параметром`ssl_method`](soapclient.construct.md#soapclient.construct.options.ssl-method) методу [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_SSL_METHOD_SSLv2`** (int) |  | Використовується із застарілим [параметром`ssl_method`](soapclient.construct.md#soapclient.construct.options.ssl-method) методу [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_SSL_METHOD_SSLv3`** (int) |  | Використовується із застарілим [параметром`ssl_method`](soapclient.construct.md#soapclient.construct.options.ssl-method) методу [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_SSL_METHOD_SSLv23`** (int) |  | Використовується із застарілим [параметром`ssl_method`](soapclient.construct.md#soapclient.construct.options.ssl-method) методу [SoapClient::construct()](soapclient.construct.md) |
 | **`UNKNOWN_TYPE`** (int) |  |  |
 | **`XSD_STRING`** (int) |  |  |
 | **`XSD_BOOLEAN`** (int) |  |  |
@@ -88,10 +88,10 @@ title: Обумовлені константи
 | **`XSD_1999_TIMEINSTANT`** (int) |  |  |
 | **`XSD_NAMESPACE`** (int) | [http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema) |  |
 | **`XSD_1999_NAMESPACE`** (int) | [http://www.w3.org/1999/XMLSchema](http://www.w3.org/1999/XMLSchema) |  |
-| **`SOAP_SINGLE_ELEMENT_ARRAYS`** (int) |  | Використовується з [параметром`features`](soapclient.construct.html#soapclient.construct.options.features) методу [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_WAIT_ONE_WAY_CALLS`** (int) |  | Використовується з [параметром`features`](soapclient.construct.html#soapclient.construct.options.features) методу [SoapClient::construct()](soapclient.construct.md) |
-| **`SOAP_USE_XSI_ARRAY_TYPE`** (int) |  | Використовується з [параметром`features`](soapclient.construct.html#soapclient.construct.options.features) методу [SoapClient::construct()](soapclient.construct.md) |
-| **`WSDL_CACHE_NONE`** (int) |  | Вимикає кеш WSDL під час використання параметра [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache) або параметром `wsdl_cache` методів [SoapClient::construct()](soapclient.construct.html) і [SoapServer::construct()](soapserver.construct.md) |
-| **`WSDL_CACHE_DISK`** (int) |  | Визначає використання кешу WSDL на диску лише за умови використання з параметром [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache) або параметром `wsdl_cache` методів [SoapClient::construct()](soapclient.construct.html) і [SoapServer::construct()](soapserver.construct.md) |
-| **`WSDL_CACHE_MEMORY`** (int) |  | Визначає використання кешу WSDL у пам'яті лише при використанні з параметром [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache) або параметром `wsdl_cache` методів [SoapClient::construct()](soapclient.construct.html) і [SoapServer::construct()](soapserver.construct.md) |
-| **`WSDL_CACHE_BOTH`** (int) |  | Визначає використання кешу WSDL як на диску, так і в пам'яті лише при використанні параметра [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache) або параметром `wsdl_cache` методів [SoapClient::construct()](soapclient.construct.html) і [SoapServer::construct()](soapserver.construct.md) |
+| **`SOAP_SINGLE_ELEMENT_ARRAYS`** (int) |  | Використовується з [параметром`features`](soapclient.construct.md#soapclient.construct.options.features) методу [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_WAIT_ONE_WAY_CALLS`** (int) |  | Використовується з [параметром`features`](soapclient.construct.md#soapclient.construct.options.features) методу [SoapClient::construct()](soapclient.construct.md) |
+| **`SOAP_USE_XSI_ARRAY_TYPE`** (int) |  | Використовується з [параметром`features`](soapclient.construct.md#soapclient.construct.options.features) методу [SoapClient::construct()](soapclient.construct.md) |
+| **`WSDL_CACHE_NONE`** (int) |  | Вимикає кеш WSDL під час використання параметра [soap.wsdlcache](soap.configuration.md#ini.soap.wsdl-cache) або параметром `wsdl_cache` методів [SoapClient::construct()](soapclient.construct.md) і [SoapServer::construct()](soapserver.construct.md) |
+| **`WSDL_CACHE_DISK`** (int) |  | Визначає використання кешу WSDL на диску лише за умови використання з параметром [soap.wsdlcache](soap.configuration.md#ini.soap.wsdl-cache) або параметром `wsdl_cache` методів [SoapClient::construct()](soapclient.construct.md) і [SoapServer::construct()](soapserver.construct.md) |
+| **`WSDL_CACHE_MEMORY`** (int) |  | Визначає використання кешу WSDL у пам'яті лише при використанні з параметром [soap.wsdlcache](soap.configuration.md#ini.soap.wsdl-cache) або параметром `wsdl_cache` методів [SoapClient::construct()](soapclient.construct.md) і [SoapServer::construct()](soapserver.construct.md) |
+| **`WSDL_CACHE_BOTH`** (int) |  | Визначає використання кешу WSDL як на диску, так і в пам'яті лише при використанні параметра [soap.wsdlcache](soap.configuration.md#ini.soap.wsdl-cache) або параметром `wsdl_cache` методів [SoapClient::construct()](soapclient.construct.md) і [SoapServer::construct()](soapserver.construct.md) |

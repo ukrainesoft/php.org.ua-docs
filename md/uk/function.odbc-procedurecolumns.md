@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-primarykeys.html: « odbcprimarykeys
-  - function.odbc-procedures.html: odbcprocedures »
+  - function.odbc-primarykeys.md: « odbcprimarykeys
+  - function.odbc-procedures.md: odbcprocedures »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcprocedurecolumns

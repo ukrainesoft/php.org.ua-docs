@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mongodb.bson-tocanonicalextendedjson.html: « MongoDBBSONtoCanonicalExtendedJSON
-  - function.mongodb.bson-tophp.html: MongoDBBSONtoPHP »
+  - function.mongodb.bson-tocanonicalextendedjson.md: « MongoDBBSONtoCanonicalExtendedJSON
+  - function.mongodb.bson-tophp.md: MongoDBBSONtoPHP »
   - index.md: PHP Manual
   - ref.bson.functions.md: Функції
 title: MongoDBBSONtoJSON
@@ -20,11 +20,11 @@ MongoDB\BSON\toJSON(string $bson): string
 
 Перетворює рядок BSON на його [» Legacy Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/) уявлення.
 
-> **Зауваження**: Існує кілька форматів JSON для представлення BSON Ця функція реалізує "суворий режим", визначений у [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/), який був замінений канонічними та спрощеними форматами, визначеними в [» Спецификации Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst) та реалізованими [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) і [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) відповідно.
+> **Зауваження**: Існує кілька форматів JSON для представлення BSON Ця функція реалізує "суворий режим", визначений у [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/), який був замінений канонічними та спрощеними форматами, визначеними в [» Спецификации Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst) та реалізованими [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) і [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) відповідно.
 
 **Увага**
 
-[» JSON](http://www.json.org/) не підтримує [**`NAN`**](language.types.float.html#language.types.float.nan) і [**`INF`**](function.is-infinite.html), а формат Legacy Extended JSON MongoDB не визначає альтернативного представлення для цих значень ([» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson) виводитиме літерали `nan` і `inf`, які можуть не розпізнатися як коректний JSON). Якщо ви працюєте з BSON, який може містити нескінченні числа, використовуйте [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.html) або [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md)
+[» JSON](http://www.json.org/) не підтримує [**`NAN`**](language.types.float.md#language.types.float.nan) і [**`INF`**](function.is-infinite.md), а формат Legacy Extended JSON MongoDB не визначає альтернативного представлення для цих значень ([» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson) виводитиме літерали `nan` і `inf`, які можуть не розпізнатися як коректний JSON). Якщо ви працюєте з BSON, який може містити нескінченні числа, використовуйте [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) або [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md)
 
 ### Список параметрів
 

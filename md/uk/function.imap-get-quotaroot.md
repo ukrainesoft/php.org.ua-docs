@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-get-quota.html: « imapgetquota
-  - function.imap-getacl.html: imapgetacl »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-get-quota.md: « imapgetquota
+  - function.imap-getacl.md: imapgetacl »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapgetquotaroot
 ---
 # imapgetquotaroot
@@ -24,7 +24,7 @@ imap_get_quotaroot(IMAP\Connection $imap, string $mailbox): array|false
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `mailbox`
 
@@ -40,7 +40,7 @@ imap_get_quotaroot(IMAP\Connection $imap, string $mailbox): array|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -77,6 +77,6 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imapopen()](function.imap-open.html) - Відкриває потік IMAP до поштової скриньки
--   [imapsetquota()](function.imap-set-quota.html) - Встановити квоту для заданої поштової скриньки
--   [imapgetquota()](function.imap-get-quota.html) - Отримати налаштування рівня квоти та статистику використання поштових скриньок
+-   [imapopen()](function.imap-open.md) - Відкриває потік IMAP до поштової скриньки
+-   [imapsetquota()](function.imap-set-quota.md) - Встановити квоту для заданої поштової скриньки
+-   [imapgetquota()](function.imap-get-quota.md) - Отримати налаштування рівня квоти та статистику використання поштових скриньок

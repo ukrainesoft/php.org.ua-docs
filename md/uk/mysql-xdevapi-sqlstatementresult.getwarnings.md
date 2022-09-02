@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.getlastinsertid.html: '« SqlStatementResult::getLastInsertId'
-  - mysql-xdevapi-sqlstatementresult.getwarningcount.html: 'SqlStatementResult::getWarningsCount »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - mysql-xdevapi-sqlstatementresult.getlastinsertid.md: '« SqlStatementResult::getLastInsertId'
+  - mysql-xdevapi-sqlstatementresult.getwarningcount.md: 'SqlStatementResult::getWarningsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::getWarnings'
 ---
 # SqlStatementResult::getWarnings

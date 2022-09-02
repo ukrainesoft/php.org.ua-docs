@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.igbinary.md: « Функции Igbinary
-  - function.igbinary-unserialize.html: igbinaryunserialize »
+  - function.igbinary-unserialize.md: igbinaryunserialize »
   - index.md: PHP Manual
   - ref.igbinary.md: Функции Igbinary
 title: igbinaryserialize
@@ -30,7 +30,7 @@ igbinary_serialize(mixed $value): string|false
 
 Значення, яке потрібно серіалізувати . **igbinaryserialize()** обробляє всі типи, крім ресурсів (resource) та деяких об'єктів (object) (див. примітку нижче). Навіть масиви (array), що містять посилання на себе, можуть бути серіалізовані функцією **igbinaryserialize()**. Циклічні посилання всередині масивів (array) або об'єктів (object), що серіалізуються, також будуть збережені. Будь-яке інше посилання буде втрачено.
 
-При серіалізації об'єктів, igbinary намагатиметься викликати функції [serialize()](language.oop5.magic.html#object.serialize) або [sleep()](language.oop5.magic.html#object.sleep) перед серіалізацією. Це дозволить об'єкту виконати будь-яку очистку в останню хвилину тощо. перед серіалізацією. Аналогічно, коли об'єкт відновлюється за допомогою [igbinaryunserialize()](function.igbinary-unserialize.md), викликається функція [unserialize()](language.oop5.magic.html#object.unserialize) або [wakeup()](language.oop5.magic.html#object.wakeup)
+При серіалізації об'єктів, igbinary намагатиметься викликати функції [serialize()](language.oop5.magic.md#object.serialize) або [sleep()](language.oop5.magic.md#object.sleep) перед серіалізацією. Це дозволить об'єкту виконати будь-яку очистку в останню хвилину тощо. перед серіалізацією. Аналогічно, коли об'єкт відновлюється за допомогою [igbinaryunserialize()](function.igbinary-unserialize.md), викликається функція [unserialize()](language.oop5.magic.md#object.unserialize) або [wakeup()](language.oop5.magic.md#object.wakeup)
 
 > **Зауваження**
 > 
@@ -68,7 +68,7 @@ array (
 
 > **Зауваження**
 > 
-> Зверніть увагу, що багато вбудованих об'єктів PHP не можуть бути серіалізовані. Однак ті, хто має таку можливість, реалізують або інтерфейс [Serializable](class.serializable.md), або магічні методи [serialize()](language.oop5.magic.html#object.serialize)[unserialize()](language.oop5.magic.html#object.unserialize) або [sleep()](language.oop5.magic.html#object.sleep)[wakeup()](language.oop5.magic.html#object.wakeup). Якщо внутрішній клас не відповідає жодній із цих вимог, він не може бути надійно серіалізований за допомогою будь-якого серіалізатора.
+> Зверніть увагу, що багато вбудованих об'єктів PHP не можуть бути серіалізовані. Однак ті, хто має таку можливість, реалізують або інтерфейс [Serializable](class.serializable.md), або магічні методи [serialize()](language.oop5.magic.md#object.serialize)[unserialize()](language.oop5.magic.md#object.unserialize) або [sleep()](language.oop5.magic.md#object.sleep)[wakeup()](language.oop5.magic.md#object.wakeup). Якщо внутрішній клас не відповідає жодній із цих вимог, він не може бути надійно серіалізований за допомогою будь-якого серіалізатора.
 > 
 > Існує кілька історичних винятків із наведеного вище правила, коли деякі внутрішні об'єкти можуть бути серіалізовані без реалізації інтерфейсу або розкриття методів.
 
@@ -79,7 +79,7 @@ array (
 -   [varexport()](function.var-export.md) - Виводить або повертає інтерпретоване рядкове подання змінної
 -   [jsonencode()](function.json-encode.md) - Повертає JSON-подання даних
 -   [Серіалізація об'єктів](language.oop5.serialization.md)
--   [sleep()](language.oop5.magic.html#object.sleep)
--   [wakeup()](language.oop5.magic.html#object.wakeup)
--   [serialize()](language.oop5.magic.html#object.serialize)
--   [unserialize()](language.oop5.magic.html#object.unserialize)
+-   [sleep()](language.oop5.magic.md#object.sleep)
+-   [wakeup()](language.oop5.magic.md#object.wakeup)
+-   [serialize()](language.oop5.magic.md#object.serialize)
+-   [unserialize()](language.oop5.magic.md#object.unserialize)

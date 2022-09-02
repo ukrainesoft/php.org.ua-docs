@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splheap.top.html: '« SplHeap::top'
-  - class.splmaxheap.html: SplMaxHeap »
-  - index.html: PHP Manual
-  - class.splheap.html: SplHeap
+  - splheap.top.md: '« SplHeap::top'
+  - class.splmaxheap.md: SplMaxHeap »
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
 title: 'SplHeap::valid'
 ---
 # SplHeap::valid

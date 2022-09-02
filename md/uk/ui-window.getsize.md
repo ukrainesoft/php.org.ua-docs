@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.error.html: '« UIWindow::error'
-  - ui-window.gettitle.html: 'ОЙWindow::getTitle »'
+  - ui-window.error.md: '« UIWindow::error'
+  - ui-window.gettitle.md: 'ОЙWindow::getTitle »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::getSize'
 ---
 # ОЙWindow::getSize

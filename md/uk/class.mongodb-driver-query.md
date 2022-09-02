@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-command.construct.html: '« MongoDBDriverCommand::construct'
-  - mongodb-driver-query.construct.html: 'MongoDBDriverQuery::construct »'
-  - index.html: PHP Manual
-  - book.mongodb.html: MongoDBDriver
+  - mongodb-driver-command.construct.md: '« MongoDBDriverCommand::construct'
+  - mongodb-driver-query.construct.md: 'MongoDBDriverQuery::construct »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverQuery
 ---
 # Клас MongoDBDriverQuery
@@ -37,4 +37,4 @@ title: Клас MongoDBDriverQuery
 
 ## Зміст
 
--   [MongoDBDriverQuery::construct](mongodb-driver-query.construct.html) - Створює новий запит
+-   [MongoDBDriverQuery::construct](mongodb-driver-query.construct.md) - Створює новий запит

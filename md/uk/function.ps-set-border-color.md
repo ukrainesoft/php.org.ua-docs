@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-scale.html: «psscale
-  - function.ps-set-border-dash.html: псsetborderdash »
+  - function.ps-scale.md: «psscale
+  - function.ps-set-border-dash.md: псsetborderdash »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetbordercolor
@@ -18,7 +18,7 @@ title: псsetbordercolor
 ps_set_border_color(    resource $psdoc,    float $red,    float $green,    float $blue): bool
 ```
 
-Посилання, додані за допомогою однієї з функцій [псaddweblink()](function.ps-add-weblink.html) [псaddpdflink()](function.ps-add-pdflink.md) і т.д., будуть відображатися із закругленим прямокутником, коли документ PostScript перетворюється на PDF і переглядається у програмі перегляду PDF. Цей прямокутник не відображається у документі PostScript. Функція встановлює колір межі прямокутника.
+Посилання, додані за допомогою однієї з функцій [псaddweblink()](function.ps-add-weblink.md) [псaddpdflink()](function.ps-add-pdflink.md) і т.д., будуть відображатися із закругленим прямокутником, коли документ PostScript перетворюється на PDF і переглядається у програмі перегляду PDF. Цей прямокутник не відображається у документі PostScript. Функція встановлює колір межі прямокутника.
 
 ### Список параметрів
 

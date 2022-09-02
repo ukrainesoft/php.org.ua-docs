@@ -26,7 +26,7 @@ URI WSDL-файлу, який описує сервіс, який викорис
 
 > **Зауваження**
 > 
-> За промовчанням файл WSDL кешуватиметься для підвищення продуктивності. Щоб вимкнути або налаштувати кешування, дивіться розділ [Опції налаштування SOAP](soap.configuration.html#soap.configuration.list) і [параметр`cache_wsdl`](soapclient.construct.html#soapclient.construct.options.cache-wsdl)
+> За промовчанням файл WSDL кешуватиметься для підвищення продуктивності. Щоб вимкнути або налаштувати кешування, дивіться розділ [Опції налаштування SOAP](soap.configuration.md#soap.configuration.list) і [параметр`cache_wsdl`](soapclient.construct.md#soapclient.construct.options.cache-wsdl)
 
 `options`
 
@@ -88,7 +88,7 @@ URL-адреса сервера SOAP для надсилання запиту.
 
 Файл також може включати ланцюжок емітентів, який повинен йти після сертифікату клієнта.
 
-Також може бути задано за допомогою параметра [`stream_context`](soapclient.construct.html#soapclient.construct.options.stream-context), який також підтримує вказівку окремого файлу закритого ключа.
+Також може бути задано за допомогою параметра [`stream_context`](soapclient.construct.md#soapclient.construct.options.stream-context), який також підтримує вказівку окремого файлу закритого ключа.
 
 `passphrase` string
 
@@ -96,7 +96,7 @@ URL-адреса сервера SOAP для надсилання запиту.
 
 Не слід плутати з параметром `password`який використовується для аутентифікації Basic або Digest.
 
-Можна також встановити за допомогою параметра [`stream_context`](soapclient.construct.html#soapclient.construct.options.stream-context)
+Можна також встановити за допомогою параметра [`stream_context`](soapclient.construct.md#soapclient.construct.options.stream-context)
 
 `proxy_host` string
 
@@ -136,9 +136,9 @@ TCP-порт для використання при підключенні до 
 
 Використовується для зіставлення типів, визначених у WSDL із класами PHP. Має бути вказаний асоціативний масив (array) з іменами типів з WSDL як ключі та іменами класів PHP як значень. Зверніть увагу, що назва типу елемента не обов'язково збігається з ім'ям елемента (тега).
 
-Надані імена класів завжди повинні бути повністю визначені за допомогою будь-яких [просторів імен](language.namespaces.md) і ніколи не повинні починатися з ведучого слєша (`\`). Правильна форма може бути вказана за допомогою [::class](language.oop5.basic.html#language.oop5.basic.class.class)
+Надані імена класів завжди повинні бути повністю визначені за допомогою будь-яких [просторів імен](language.namespaces.md) і ніколи не повинні починатися з ведучого слєша (`\`). Правильна форма може бути вказана за допомогою [::class](language.oop5.basic.md#language.oop5.basic.class.class)
 
-Зверніть увагу, що при створенні класу конструктор не викликатиметься, але магічні методи [set()](language.oop5.overloading.html#object.set) і [get()](language.oop5.overloading.html#object.get) будуть викликатися окремих властивостей.
+Зверніть увагу, що при створенні класу конструктор не викликатиметься, але магічні методи [set()](language.oop5.overloading.md#object.set) і [get()](language.oop5.overloading.md#object.get) будуть викликатися окремих властивостей.
 
 `typemap` array
 
@@ -152,21 +152,21 @@ TCP-порт для використання при підключенні до 
 
 `connection_timeout` int
 
-Визначає час очікування в секундах для підключення до SOAP. Параметр не визначає час очікування служб із повільними відповідями. Щоб обмежити час очікування завершення дзвінків, можна налаштувати конфігурацію. [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)
+Визначає час очікування в секундах для підключення до SOAP. Параметр не визначає час очікування служб із повільними відповідями. Щоб обмежити час очікування завершення дзвінків, можна налаштувати конфігурацію. [defaultsockettimeout](filesystem.configuration.md#ini.default-socket-timeout)
 
 `cache_wsdl` int
 
-Якщо вказано параметр `wsdl`, а також параметр [soap.wsdlcacheenabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) Увімкнено, цей параметр визначає тип кешування. Одне із значень: **`WSDL_CACHE_NONE`** **`WSDL_CACHE_DISK`** **`WSDL_CACHE_MEMORY`** або **`WSDL_CACHE_BOTH`**
+Якщо вказано параметр `wsdl`, а також параметр [soap.wsdlcacheenabled](soap.configuration.md#ini.soap.wsdl-cache-enabled) Увімкнено, цей параметр визначає тип кешування. Одне із значень: **`WSDL_CACHE_NONE`** **`WSDL_CACHE_DISK`** **`WSDL_CACHE_MEMORY`** або **`WSDL_CACHE_BOTH`**
 
-Доступні два типи кешу: кешування у пам'яті, яке кешує WSDL у пам'яті поточного процесу та дискове кешування, яке кешує WSDL у файлі на диску, що поділяється між усіма процесами. Каталог, який використовуватиметься для дискового кешу, визначається параметром [soap.wsdlcachedir](soap.configuration.html#ini.soap.wsdl-cache-dir). Обидва кеші використовують однаковий час життя, що визначається параметром [soap.wsdlcachettl](soap.configuration.html#ini.soap.wsdl-cache-ttl). У кеша в пам'яті також є максимальна кількість записів, що визначається параметром [soap.wsdlcachelimit](soap.configuration.html#ini.soap.wsdl-cache-limit)
+Доступні два типи кешу: кешування у пам'яті, яке кешує WSDL у пам'яті поточного процесу та дискове кешування, яке кешує WSDL у файлі на диску, що поділяється між усіма процесами. Каталог, який використовуватиметься для дискового кешу, визначається параметром [soap.wsdlcachedir](soap.configuration.md#ini.soap.wsdl-cache-dir). Обидва кеші використовують однаковий час життя, що визначається параметром [soap.wsdlcachettl](soap.configuration.md#ini.soap.wsdl-cache-ttl). У кеша в пам'яті також є максимальна кількість записів, що визначається параметром [soap.wsdlcachelimit](soap.configuration.md#ini.soap.wsdl-cache-limit)
 
-Якщо не вказано, використовуватиметься параметр конфігурації [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache)
+Якщо не вказано, використовуватиметься параметр конфігурації [soap.wsdlcache](soap.configuration.md#ini.soap.wsdl-cache)
 
 `user_agent` string
 
 Значення для використання в заголовку HTTP `User-Agent` під час виконання запитів.
 
-Можна також встановити за допомогою параметра [`stream_context`](soapclient.construct.html#soapclient.construct.options.stream-context)
+Можна також встановити за допомогою параметра [`stream_context`](soapclient.construct.md#soapclient.construct.options.stream-context)
 
 Якщо не вказано, User-Agent буде `"PHP-SOAP/"` за яким слідує значення **`PHP_VERSION`**
 
@@ -190,7 +190,7 @@ TCP-порт для використання при підключенні до 
 
 **`SOAP_USE_XSI_ARRAY_TYPE`**
 
-Якщо [параметру`use`](soapclient.construct.html#soapclient.construct.options.use) або властивості WSDL передано значення `encoded`, масиви примусово використовують тип `SOAP-ENC:Array`, а чи не специфічний для схеми.
+Якщо [параметру`use`](soapclient.construct.md#soapclient.construct.options.use) або властивості WSDL передано значення `encoded`, масиви примусово використовують тип `SOAP-ENC:Array`, а чи не специфічний для схеми.
 
 **`SOAP_WAIT_ONE_WAY_CALLS`**
 
@@ -208,7 +208,7 @@ TCP-порт для використання при підключенні до 
 
 Зверніть увагу, що SSL версій 2 і 3 вважаються небезпечними і можуть не підтримуватись встановленою бібліотекою OpenSSL.
 
-Параметр оголошено *Застарілим*починаючи з PHP 8.1.0. Більш гнучкою альтернативою, яка дозволяє вказувати окремі версії TLS, можна використовувати параметр [`stream_context`](soapclient.construct.html#soapclient.construct.options.stream-context) з параметром контексту 'cryptoметод'.
+Параметр оголошено *Застарілим*починаючи з PHP 8.1.0. Більш гнучкою альтернативою, яка дозволяє вказувати окремі версії TLS, можна використовувати параметр [`stream_context`](soapclient.construct.md#soapclient.construct.options.stream-context) з параметром контексту 'cryptoметод'.
 
 **Приклад #1 Вказівка ​​використання тільки TLS 1.3**
 

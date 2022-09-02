@@ -1,7 +1,7 @@
 ---
 navigation:
   - ibase.constants.md: « Обумовлені константи
-  - function.fbird-add-user.html: fbirdadduser »
+  - function.fbird-add-user.md: fbirdadduser »
   - index.md: PHP Manual
   - book.ibase.md: Firebird/InterBase
 title: Функції Firebird/InterBase

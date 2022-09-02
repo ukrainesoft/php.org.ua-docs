@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-connect.html: « socketconnect
-  - function.socket-create-pair.html: socketcreatepair »
+  - function.socket-connect.md: « socketconnect
+  - function.socket-create-pair.md: socketcreatepair »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketcreatelisten
@@ -34,7 +34,7 @@ socket_create_listen(int $port, int $backlog = 128): Socket|false
 
 ### Значення, що повертаються
 
-**socketcreatelisten()** повертає новий екземпляр [Socket](class.socket.md) у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
+**socketcreatelisten()** повертає новий екземпляр [Socket](class.socket.md) у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою функції [socketlasterror()](function.socket-last-error.md). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 ### список змін
 
@@ -46,7 +46,7 @@ socket_create_listen(int $port, int $backlog = 128): Socket|false
 
 > **Зауваження**
 > 
-> Якщо ви хочете створити сокет, який прослуховуватиме лише певний інтерфейс, вам потрібно використовувати функції [socketcreate()](function.socket-create.html) [socketbind()](function.socket-bind.html) і [socketlisten()](function.socket-listen.md)
+> Якщо ви хочете створити сокет, який прослуховуватиме лише певний інтерфейс, вам потрібно використовувати функції [socketcreate()](function.socket-create.md) [socketbind()](function.socket-bind.md) і [socketlisten()](function.socket-listen.md)
 
 ### Дивіться також
 

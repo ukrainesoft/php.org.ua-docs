@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dba-exists.html: « dbaexists
-  - function.dba-firstkey.html: dbafirstkey »
+  - function.dba-exists.md: « dbaexists
+  - function.dba-firstkey.md: dbafirstkey »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbafetch
@@ -40,7 +40,7 @@ dba_fetch(string $key, int $skip, resource $handle): string
 
 `handle`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.yaz-element.html: « yazelement
-  - function.yaz-error.html: yazerror »
-  - index.html: PHP Manual
-  - ref.yaz.html: Функции YAZ
+  - function.yaz-element.md: « yazelement
+  - function.yaz-error.md: yazerror »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
 title: yazerrno
 ---
 # yazerrno
@@ -20,13 +20,13 @@ yaz_errno(resource $id): int
 
 Повертає номер помилки для сервера (останній запит) з ідентифікатором `id`
 
-**yazerrno()** повинен викликатись після мережної активності для кожного сервера (після повернення [yazwait()](function.yaz-wait.html)), щоб визначити успішне виконання або помилку останньої операції (наприклад, пошуку).
+**yazerrno()** повинен викликатись після мережної активності для кожного сервера (після повернення [yazwait()](function.yaz-wait.md)), щоб визначити успішне виконання або помилку останньої операції (наприклад, пошуку).
 
 ### Список параметрів
 
 `id`
 
-Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.md)
 
 ### Значення, що повертаються
 
@@ -34,5 +34,5 @@ yaz_errno(resource $id): int
 
 ### Дивіться також
 
--   [yazerror()](function.yaz-error.html) - Повертає опис помилки
--   [yazaddinfo()](function.yaz-addinfo.html) - Повертає додаткову інформацію у разі виникнення помилки
+-   [yazerror()](function.yaz-error.md) - Повертає опис помилки
+-   [yazaddinfo()](function.yaz-addinfo.md) - Повертає додаткову інформацію у разі виникнення помилки

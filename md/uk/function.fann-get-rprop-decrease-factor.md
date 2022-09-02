@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-quickprop-mu.html: « fanngetquickpropму
-  - function.fann-get-rprop-delta-max.html: fanngetrpropdeltamax »
+  - function.fann-get-quickprop-mu.md: « fanngetquickpropму
+  - function.fann-get-rprop-delta-max.md: fanngetrpropdeltamax »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetrpropdecreasefactor

@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.setcookie.md: « setcookie
-  - function.socket-get-status.html: socketgetstatus »
+  - function.socket-get-status.md: socketgetstatus »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: setrawcookie

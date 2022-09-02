@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.highlight-string.html: « highlightstring
-  - function.ignore-user-abort.html: ignoreuserabort »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.highlight-string.md: « highlightstring
+  - function.ignore-user-abort.md: ignoreuserabort »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: hrtime
 ---
 # hrtime

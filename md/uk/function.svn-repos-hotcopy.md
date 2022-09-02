@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-repos-fs.html: « svnreposфс
-  - function.svn-repos-open.html: svnreposopen »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-repos-fs.md: « svnreposфс
+  - function.svn-repos-open.md: svnreposopen »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnreposhotcopy
 ---
 # svnreposhotcopy

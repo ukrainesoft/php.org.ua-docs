@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.highlight-file.html: « highlightfile
-  - function.hrtime.html: hrtime »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.highlight-file.md: « highlightfile
+  - function.hrtime.md: hrtime »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: highlightstring
 ---
 # highlightstring
@@ -64,4 +64,4 @@ highlight_string('<?php phpinfo(); ?>');
 ### Дивіться також
 
 -   [highlightfile()](function.highlight-file.md) - Підсвічування синтаксису файлу
--   [Подсветка директив INI](misc.configuration.html#ini.syntax-highlighting)
+-   [Подсветка директив INI](misc.configuration.md#ini.syntax-highlighting)

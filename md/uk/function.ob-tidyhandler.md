@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.tidy.md: « Tidy
-  - function.tidy-access-count.html: tidyaccesscount »
+  - function.tidy-access-count.md: tidyaccesscount »
   - index.md: PHP Manual
   - ref.tidy.md: Tidy
 title: проtidyhandler

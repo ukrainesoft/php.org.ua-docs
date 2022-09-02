@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.requirements.html: « Вимоги
-  - datetime.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - datetime.setup.html: Встановлення та налаштування
+  - datetime.requirements.md: « Вимоги
+  - datetime.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - datetime.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

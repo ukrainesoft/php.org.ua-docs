@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-route-interface.html: « YafRouteInterface
-  - yaf-route-interface.route.html: 'YafRouteInterface::route »'
-  - index.html: PHP Manual
-  - class.yaf-route-interface.html: YafRouteInterface
+  - class.yaf-route-interface.md: « YafRouteInterface
+  - yaf-route-interface.route.md: 'YafRouteInterface::route »'
+  - index.md: PHP Manual
+  - class.yaf-route-interface.md: YafRouteInterface
 title: 'YafRouteInterface::assemble'
 ---
 # YafRouteInterface::assemble

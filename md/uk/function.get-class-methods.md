@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-called-class.html: « getcalledclass
-  - function.get-class-vars.html: getclassvars »
+  - function.get-called-class.md: « getcalledclass
+  - function.get-class-vars.md: getclassvars »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: getclassметодів

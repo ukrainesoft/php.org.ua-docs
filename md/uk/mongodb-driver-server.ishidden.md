@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.isarbiter.html: '« MongoDBDriverServer::isArbiter'
-  - mongodb-driver-server.ispassive.html: 'MongoDBDriverServer::isPassive »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - mongodb-driver-server.isarbiter.md: '« MongoDBDriverServer::isArbiter'
+  - mongodb-driver-server.ispassive.md: 'MongoDBDriverServer::isPassive »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::isHidden'
 ---
 # MongoDBDriverServer::isHidden
@@ -30,8 +30,8 @@ final public MongoDB\Driver\Server::isHidden(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.html) - Повертає масив інформації, що описує сервер
+-   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер

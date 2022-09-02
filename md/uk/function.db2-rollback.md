@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-result.html: « db2result
-  - function.db2-server-info.html: db2serverinfo »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-result.md: « db2result
+  - function.db2-server-info.md: db2serverinfo »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2rollback
 ---
 # db2rollback
@@ -24,7 +24,7 @@ db2_rollback(resource $connection): bool
 
 `connection`
 
-Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
+Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2connect()](function.db2-connect.md) або [db2pconnect()](function.db2-pconnect.md)
 
 ### Значення, що повертаються
 
@@ -76,5 +76,5 @@ if ($conn) {
 
 ### Дивіться також
 
--   [db2autocommit()](function.db2-autocommit.html) - Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
--   [db2commit()](function.db2-commit.html) - підтверджує транзакцію
+-   [db2autocommit()](function.db2-autocommit.md) - Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
+-   [db2commit()](function.db2-commit.md) - підтверджує транзакцію

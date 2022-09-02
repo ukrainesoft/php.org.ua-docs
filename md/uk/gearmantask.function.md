@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmantask.datasize.html: '« GearmanTask::dataSize'
-  - gearmantask.functionname.html: 'GearmanTask::functionName »'
-  - index.html: PHP Manual
-  - class.gearmantask.html: GearmanTask
+  - gearmantask.datasize.md: '« GearmanTask::dataSize'
+  - gearmantask.functionname.md: 'GearmanTask::functionName »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::function'
 ---
 # GearmanTask::function
@@ -22,7 +22,7 @@ public GearmanTask::function(): string
 
 > **Зауваження**
 > 
-> Цей метод було замінено на [GearmanTask::functionName()](gearmantask.functionname.html) у версії 0.6.0 модуля Gearman.
+> Цей метод було замінено на [GearmanTask::functionName()](gearmantask.functionname.md) у версії 0.6.0 модуля Gearman.
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-objectidinterface.gettimestamp.html: '« MongoDBBSONObjectIdInterface::getTimestamp'
-  - class.mongodb-bson-regexinterface.html: MongoDBBSONRegexInterface »
+  - mongodb-bson-objectidinterface.gettimestamp.md: '« MongoDBBSONObjectIdInterface::getTimestamp'
+  - class.mongodb-bson-regexinterface.md: MongoDBBSONRegexInterface »
   - index.md: PHP Manual
-  - class.mongodb-bson-objectidinterface.html: MongoDBBSONObjectIdInterface
+  - class.mongodb-bson-objectidinterface.md: MongoDBBSONObjectIdInterface
 title: 'MongoDBBSONObjectIdInterface::toString'
 ---
 # MongoDBBSONObjectIdInterface::toString

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnish.installation.html: « Установка
-  - varnish.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - varnish.setup.html: Встановлення та налаштування
+  - varnish.installation.md: « Установка
+  - varnish.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - varnish.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

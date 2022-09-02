@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.bcpow.html: « bcpow
-  - function.bcscale.html: bcscale »
-  - index.html: PHP Manual
-  - ref.bc.html: Функции BC Math
+  - function.bcpow.md: « bcpow
+  - function.bcscale.md: bcscale »
+  - index.md: PHP Manual
+  - ref.bc.md: Функции BC Math
 title: bcpowmod
 ---
 # bcpowmod
@@ -36,7 +36,7 @@ bcpowmod(    string $num,    string $exponent,    string $modulus, 
 
 `scale`
 
-Цей необов'язковий параметр використовується для встановлення кількості знаків після десяткового роздільника у результаті. Якщо не задано, то, за замовчуванням, буде використано значення, задане глобально за допомогою [bcscale()](function.bcscale.html), або `0`
+Цей необов'язковий параметр використовується для встановлення кількості знаків після десяткового роздільника у результаті. Якщо не задано, то, за замовчуванням, буде використано значення, задане глобально за допомогою [bcscale()](function.bcscale.md), або `0`
 
 ### Значення, що повертаються
 
@@ -71,5 +71,5 @@ $b = bcmod(bcpow($x, $y), $mod);
 
 ### Дивіться також
 
--   [bcpow()](function.bcpow.html) - Зведення у ступінь чисел із довільною точністю
--   [bcmod()](function.bcmod.html) - Отримує залишок від поділу чисел із довільною точністю
+-   [bcpow()](function.bcpow.md) - Зведення у ступінь чисел із довільною точністю
+-   [bcmod()](function.bcmod.md) - Отримує залишок від поділу чисел із довільною точністю

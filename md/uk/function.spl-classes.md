@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.spl-autoload.html: « splautoload
-  - function.spl-object-hash.html: splobjecthash »
+  - function.spl-autoload.md: « splautoload
+  - function.spl-object-hash.md: splobjecthash »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
 title: splclasses

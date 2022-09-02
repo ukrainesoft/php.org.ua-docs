@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setfontfamily.html: '« ImagickDraw::setFontFamily'
-  - imagickdraw.setfontstretch.html: 'ImagickDraw::setFontStretch »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setfontfamily.md: '« ImagickDraw::setFontFamily'
+  - imagickdraw.setfontstretch.md: 'ImagickDraw::setFontStretch »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFontSize'
 ---
 # ImagickDraw::setFontSize

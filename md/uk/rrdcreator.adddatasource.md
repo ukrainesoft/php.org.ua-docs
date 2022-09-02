@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rrdcreator.addarchive.html: '« RRDCreator::addArchive'
-  - rrdcreator.construct.html: 'RRDCreator::construct »'
-  - index.html: PHP Manual
-  - class.rrdcreator.html: RRDCreator
+  - rrdcreator.addarchive.md: '« RRDCreator::addArchive'
+  - rrdcreator.construct.md: 'RRDCreator::construct »'
+  - index.md: PHP Manual
+  - class.rrdcreator.md: RRDCreator
 title: 'RRDCreator::addDataSource'
 ---
 # RRDCreator::addDataSource

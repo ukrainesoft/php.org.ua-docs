@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-reset.html: « curlreset
-  - function.curl-setopt.html: curlsetopt »
+  - function.curl-reset.md: « curlreset
+  - function.curl-setopt.md: curlsetopt »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlsetoptarray

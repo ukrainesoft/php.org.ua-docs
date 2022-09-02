@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-async-dns-lookup.html: « swooleasyncdnslookup
-  - function.swoole-async-readfile.html: swooleasyncreadfile »
+  - function.swoole-async-dns-lookup.md: « swooleasyncdnslookup
+  - function.swoole-async-readfile.md: swooleasyncreadfile »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleasyncread
 ---
 # swooleasyncread

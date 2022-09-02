@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-writeconcern.html: « MongoDBDriverWriteConcern
-  - mongodb-driver-writeconcern.construct.html: 'MongoDBDriverWriteConcern::construct »'
+  - class.mongodb-driver-writeconcern.md: « MongoDBDriverWriteConcern
+  - mongodb-driver-writeconcern.construct.md: 'MongoDBDriverWriteConcern::construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
 title: 'MongoDBDriverWriteConcern::bsonSerialize'
 ---
 # MongoDBDriverWriteConcern::bsonSerialize

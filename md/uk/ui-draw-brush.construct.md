@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-draw-brush.html: « UIDrawBrush
-  - ui-draw-brush.getcolor.html: 'ОЙDrawBrush::getColor »'
-  - index.html: PHP Manual
-  - class.ui-draw-brush.html: ОЙDrawBrush
+  - class.ui-draw-brush.md: « UIDrawBrush
+  - ui-draw-brush.getcolor.md: 'ОЙDrawBrush::getColor »'
+  - index.md: PHP Manual
+  - class.ui-draw-brush.md: ОЙDrawBrush
 title: 'ОЙDrawBrush::construct'
 ---
 # ОЙDrawBrush::construct
@@ -14,7 +14,7 @@ title: 'ОЙDrawBrush::construct'
 
 ### Опис
 
-public **ОЙDrawBrush::construct**[ОЙDrawColor](class.ui-draw-color.html) `$color`
+public **ОЙDrawBrush::construct**[ОЙDrawColor](class.ui-draw-color.md) `$color`
 
 public **ОЙDrawBrush::construct**(int `$color`
 

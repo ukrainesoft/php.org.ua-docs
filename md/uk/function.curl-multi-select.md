@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-multi-remove-handle.html: « curlmultiremovehandle
-  - function.curl-multi-setopt.html: curlmultisetopt »
+  - function.curl-multi-remove-handle.md: « curlmultiremovehandle
+  - function.curl-multi-setopt.md: curlmultisetopt »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlmultiselect

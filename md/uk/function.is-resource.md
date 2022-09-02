@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-real.html: « isreal
-  - function.is-scalar.html: ісscalar »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-real.md: « isreal
+  - function.is-scalar.md: ісscalar »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісresource
 ---
 # ісresource
@@ -58,5 +58,5 @@ $handle - это ресурс
 
 ### Дивіться також
 
--   [Тип resource](language.types.resource.html)
--   [getresourcetype()](function.get-resource-type.html) - Повертає тип ресурсу
+-   [Тип resource](language.types.resource.md)
+-   [getresourcetype()](function.get-resource-type.md) - Повертає тип ресурсу

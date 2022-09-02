@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-multi-strerror.html: « curlmultistrerror
-  - function.curl-reset.html: curlreset »
+  - function.curl-multi-strerror.md: « curlmultistrerror
+  - function.curl-reset.md: curlreset »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlpause

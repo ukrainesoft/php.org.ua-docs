@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-ht-trendline.html: « traderхтtrendline
-  - function.trader-kama.html: traderkama »
+  - function.trader-ht-trendline.md: « traderхтtrendline
+  - function.trader-kama.md: traderkama »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderхтtrendmode

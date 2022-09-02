@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.errorfunc.md: « Функции обработки ошибок
-  - function.debug-print-backtrace.html: debugprintbacktrace »
+  - function.debug-print-backtrace.md: debugprintbacktrace »
   - index.md: PHP Manual
   - ref.errorfunc.md: Функции обработки ошибок
 title: debugbacktrace

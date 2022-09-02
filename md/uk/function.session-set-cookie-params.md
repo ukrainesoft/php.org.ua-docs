@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-save-path.html: « sessionsavepath
-  - function.session-set-save-handler.html: sessionsetsavehandler »
+  - function.session-save-path.md: « sessionsavepath
+  - function.session-set-save-handler.md: sessionsetsavehandler »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessionsetcookieparams
@@ -36,25 +36,25 @@ session_set_cookie_params(array $options): bool
 
 `lifetime_or_options`
 
-Якщо використовувати першу сигнатуру, [время жизни](session.configuration.html#ini.session.cookie-lifetime) сесійної куки, задане в секундах.
+Якщо використовувати першу сигнатуру, [время жизни](session.configuration.md#ini.session.cookie-lifetime) сесійної куки, задане в секундах.
 
 Якщо використовувати другу сигнатуру, то асоціативний масив (array), який може мати будь-який ключ `lifetime` `path` `domain` `secure` `httponly` і `samesite`. Значення мають той самий зміст, як описано у параметрах з відповідним ім'ям. Значення елемента `samesite` повинно бути або `Lax`, або `Strict`. Якщо жодна з допустимих опцій не вказана, її значення за умовчанням збігаються зі значеннями за промовчанням для явних параметрів. Якщо елемент `samesite` не вказано, атрибут cookie SameSite не встановлений.
 
 `path`
 
-[Шлях](session.configuration.html#ini.session.cookie-path) в домені, де буде працювати cookie. Використовуйте одну косу ('/') для всіх шляхів у домені.
+[Шлях](session.configuration.md#ini.session.cookie-path) в домені, де буде працювати cookie. Використовуйте одну косу ('/') для всіх шляхів у домені.
 
 `domain`
 
-[Домен](session.configuration.html#ini.session.cookie-domain) cookie, наприклад '[www.php.net'](http://www.php.net'). Щоб зробити cookies видимими для всіх піддоменів, перед ім'ям домену потрібно встановити точку, наприклад '.php.net'.
+[Домен](session.configuration.md#ini.session.cookie-domain) cookie, наприклад '[www.php.net'](http://www.php.net'). Щоб зробити cookies видимими для всіх піддоменів, перед ім'ям домену потрібно встановити точку, наприклад '.php.net'.
 
 `secure`
 
-Якщо **`true`**, то cookies будуть передаватися тільки через [захищені](session.configuration.html#ini.session.cookie-secure) з'єднання.
+Якщо **`true`**, то cookies будуть передаватися тільки через [захищені](session.configuration.md#ini.session.cookie-secure) з'єднання.
 
 `httponly`
 
-Якщо встановлено **`true`**, то PHP спробує відправити прапор [httponly](session.configuration.html#ini.session.cookie-httponly) при налаштуванні сесійної cookie.
+Якщо встановлено **`true`**, то PHP спробує відправити прапор [httponly](session.configuration.md#ini.session.cookie-httponly) при налаштуванні сесійної cookie.
 
 ### Значення, що повертаються
 
@@ -70,10 +70,10 @@ session_set_cookie_params(array $options): bool
 
 ### Дивіться також
 
--   [session.cookielifetime](session.configuration.html#ini.session.cookie-lifetime)
--   [session.cookiepath](session.configuration.html#ini.session.cookie-path)
--   [session.cookiedomain](session.configuration.html#ini.session.cookie-domain)
--   [session.cookiesecure](session.configuration.html#ini.session.cookie-secure)
--   [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly)
--   [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite)
+-   [session.cookielifetime](session.configuration.md#ini.session.cookie-lifetime)
+-   [session.cookiepath](session.configuration.md#ini.session.cookie-path)
+-   [session.cookiedomain](session.configuration.md#ini.session.cookie-domain)
+-   [session.cookiesecure](session.configuration.md#ini.session.cookie-secure)
+-   [session.cookiehttponly](session.configuration.md#ini.session.cookie-httponly)
+-   [session.cookiesamesite](session.configuration.md#ini.session.cookie-samesite)
 -   [sessiongetcookieparams()](function.session-get-cookie-params.md) - Повертає параметри cookie сесії

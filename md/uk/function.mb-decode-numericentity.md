@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-decode-mimeheader.html: « mbdecodemimeheader
-  - function.mb-detect-encoding.html: мбdetectencoding »
+  - function.mb-decode-mimeheader.md: « mbdecodemimeheader
+  - function.mb-detect-encoding.md: мбdetectencoding »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбdecodenumericentity

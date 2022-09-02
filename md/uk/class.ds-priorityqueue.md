@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ds-queue.toarray.html: '« DsQueue::toArray'
-  - ds-priorityqueue.allocate.html: 'ДсPriorityQueue::allocate »'
+  - ds-queue.toarray.md: '« DsQueue::toArray'
+  - ds-priorityqueue.allocate.md: 'ДсPriorityQueue::allocate »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Клас PriorityQueue

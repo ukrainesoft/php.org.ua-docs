@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.implode.html: « implode
-  - function.lcfirst.html: lcfirst »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.implode.md: « implode
+  - function.lcfirst.md: lcfirst »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: join
 ---
 # join

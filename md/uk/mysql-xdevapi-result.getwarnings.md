@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-result.getgeneratedids.html: '« Result::getGeneratedIds'
-  - mysql-xdevapi-result.getwarningscount.html: 'Result::getWarningsCount »'
+  - mysql-xdevapi-result.getgeneratedids.md: '« Result::getGeneratedIds'
+  - mysql-xdevapi-result.getwarningscount.md: 'Result::getWarningsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
 title: 'Result::getWarnings'
 ---
 # Result::getWarnings

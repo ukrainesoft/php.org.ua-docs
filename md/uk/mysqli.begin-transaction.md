@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.autocommit.html: '« mysqli::autocommit'
-  - mysqli.change-user.html: 'mysqli::changeuser »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.autocommit.md: '« mysqli::autocommit'
+  - mysqli.change-user.md: 'mysqli::changeuser »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::begintransaction'
 ---
 # mysqli::begintransaction
@@ -28,13 +28,13 @@ public mysqli::begin_transaction(int $flags = 0, ?string $name = null): bool
 mysqli_begin_transaction(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 ```
 
-Стартує транзакцію. Потрібно InnoDB (дозволено за замовчуванням). Для додаткової інформації, як працюють транзакції у MySQL, читайте [» http://dev.mysql.com/doc/mysql/en/commit.html](http://dev.mysql.com/doc/mysql/en/commit.html)
+Стартує транзакцію. Потрібно InnoDB (дозволено за замовчуванням). Для додаткової інформації, як працюють транзакції у MySQL, читайте [» http://dev.mysql.com/doc/mysql/en/commit.html](http://dev.mysql.com/doc/mysql/en/commit.md)
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `flags`
 
@@ -151,6 +151,6 @@ try {
 
 ### Дивіться також
 
--   [mysqliautocommit()](mysqli.autocommit.html) - Вмикає або вимикає автоматичну фіксацію змін бази даних
--   [mysqlicommit()](mysqli.commit.html) - Фіксує поточну транзакцію
--   [mysqlirollback()](mysqli.rollback.html) - Відкат поточної транзакції
+-   [mysqliautocommit()](mysqli.autocommit.md) - Вмикає або вимикає автоматичну фіксацію змін бази даних
+-   [mysqlicommit()](mysqli.commit.md) - Фіксує поточну транзакцію
+-   [mysqlirollback()](mysqli.rollback.md) - Відкат поточної транзакції

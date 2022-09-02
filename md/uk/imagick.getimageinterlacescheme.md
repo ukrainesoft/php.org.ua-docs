@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageindex.html: '« Imagick::getImageIndex'
-  - imagick.getimageinterpolatemethod.html: 'Imagick::getImageInterpolateMethod »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageindex.md: '« Imagick::getImageIndex'
+  - imagick.getimageinterpolatemethod.md: 'Imagick::getImageInterpolateMethod »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageInterlaceScheme'
 ---
 # Imagick::getImageInterlaceScheme

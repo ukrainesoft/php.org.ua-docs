@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.set.html: '« SwooleCoroutineHttpClient::set'
-  - swoole-coroutine-http-client.setdata.html: 'SwooleCoroutineHttpClient::setData »'
-  - index.html: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - swoole-coroutine-http-client.set.md: '« SwooleCoroutineHttpClient::set'
+  - swoole-coroutine-http-client.setdata.md: 'SwooleCoroutineHttpClient::setData »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::setCookies'
 ---
 # SwooleCoroutineHttpClient::setCookies

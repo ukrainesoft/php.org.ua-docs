@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.replace.html: '« Memcached::replace'
-  - memcached.resetserverlist.html: 'Memcached::resetServerList »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.replace.md: '« Memcached::replace'
+  - memcached.resetserverlist.md: 'Memcached::resetServerList »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::replaceByKey'
 ---
 # Memcached::replaceByKey

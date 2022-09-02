@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-definition.register.html: '« ComponereDefinition::register'
-  - componere-definition.getclosure.html: 'ComponereDefinition::getClosure »'
-  - index.html: PHP Manual
-  - class.componere-definition.html: ComponereDefinition
+  - componere-definition.register.md: '« ComponereDefinition::register'
+  - componere-definition.getclosure.md: 'ComponereDefinition::getClosure »'
+  - index.md: PHP Manual
+  - class.componere-definition.md: ComponereDefinition
 title: 'ComponereDefinition::isRegistered'
 ---
 # ComponereDefinition::isRegistered

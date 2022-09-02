@@ -1,9 +1,9 @@
 ---
 navigation:
-  - soapclient.getlastresponseheaders.html: '« SoapClient::getLastResponseHeaders'
-  - soapclient.setcookie.html: 'SoapClient::setCookie »'
-  - index.html: PHP Manual
-  - class.soapclient.html: SoapClient
+  - soapclient.getlastresponseheaders.md: '« SoapClient::getLastResponseHeaders'
+  - soapclient.setcookie.md: 'SoapClient::setCookie »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
 title: 'SoapClient::getTypes'
 ---
 # SoapClient::getTypes

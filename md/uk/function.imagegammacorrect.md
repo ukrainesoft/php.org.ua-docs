@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagefttext.html: « imagefttext
-  - function.imagegd2.html: imagegd2 »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagefttext.md: « imagefttext
+  - function.imagegd2.md: imagegd2 »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegammacorrect
 ---
 # imagegammacorrect
@@ -24,7 +24,7 @@ imagegammacorrect(GdImage $image, float $input_gamma, float $output_gamma): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `input_gamma`
 

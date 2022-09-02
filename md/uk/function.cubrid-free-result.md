@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-fetch.html: « cubridfetch
-  - function.cubrid-get-autocommit.html: cubridgetautocommit »
+  - function.cubrid-fetch.md: « cubridfetch
+  - function.cubrid-get-autocommit.md: cubridgetautocommit »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridfreeresult

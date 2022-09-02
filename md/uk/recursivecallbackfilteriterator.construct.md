@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.recursivecallbackfilteriterator.html: « RecursiveCallbackFilterIterator
-  - recursivecallbackfilteriterator.getchildren.html: 'RecursiveCallbackFilterIterator::getChildren »'
-  - index.html: PHP Manual
-  - class.recursivecallbackfilteriterator.html: RecursiveCallbackFilterIterator
+  - class.recursivecallbackfilteriterator.md: « RecursiveCallbackFilterIterator
+  - recursivecallbackfilteriterator.getchildren.md: 'RecursiveCallbackFilterIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.recursivecallbackfilteriterator.md: RecursiveCallbackFilterIterator
 title: 'RecursiveCallbackFilterIterator::construct'
 ---
 # RecursiveCallbackFilterIterator::construct
@@ -14,9 +14,9 @@ RecursiveCallbackFilterIterator::construct — Створює об'єкт кла
 
 ### Опис
 
-public **RecursiveCallbackFilterIterator::construct**[RecursiveIterator](class.recursiveiterator.html) `$iterator` [callable](language.types.callable.html) `$callback`
+public **RecursiveCallbackFilterIterator::construct**[RecursiveIterator](class.recursiveiterator.md) `$iterator` [callable](language.types.callable.md) `$callback`
 
-Створює ітератор, що фільтрує, на основі об'єкта-ітератора. [RecursiveIterator](class.recursiveiterator.html), використовуючи функцію `callback` для відбору необхідних елементів.
+Створює ітератор, що фільтрує, на основі об'єкта-ітератора. [RecursiveIterator](class.recursiveiterator.md), використовуючи функцію `callback` для відбору необхідних елементів.
 
 ### Список параметрів
 
@@ -26,12 +26,12 @@ public **RecursiveCallbackFilterIterator::construct**[RecursiveIterator](class.r
 
 `callback`
 
-Callback-функція, яка має повертати **`true`**, якщо поточний елемент підходить під умови фільтра, та \*\*`false`\*\*якщо елемент потрібно виключити з перебору. Дивіться [Приклади](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
+Callback-функція, яка має повертати **`true`**, якщо поточний елемент підходить під умови фільтра, та \*\*`false`\*\*якщо елемент потрібно виключити з перебору. Дивіться [Приклади](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
 
-Може бути будь-яким допустимим [callable](language.types.callable.html) значенням.
+Може бути будь-яким допустимим [callable](language.types.callable.md) значенням.
 
 ### Дивіться також
 
--   [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
--   [RecursiveCallbackFilterIterator::getChildren()](recursivecallbackfilteriterator.getchildren.html) - Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
--   [RecursiveCallbackFilteriterator::hasChildren()](recursivecallbackfilteriterator.haschildren.html) - Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи
+-   [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
+-   [RecursiveCallbackFilterIterator::getChildren()](recursivecallbackfilteriterator.getchildren.md) - Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
+-   [RecursiveCallbackFilteriterator::hasChildren()](recursivecallbackfilteriterator.haschildren.md) - Перевіряє, чи містить поточний елемент внутрішнього ітератора дочірні елементи

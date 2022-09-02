@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-prob-prime.html: « gmpprobprime
-  - function.gmp-random-range.html: gmprandomrange »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-prob-prime.md: « gmpprobprime
+  - function.gmp-random-range.md: gmprandomrange »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmprandombits
 ---
 # gmprandombits

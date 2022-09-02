@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-brush.construct.html: '« UIDrawBrush::construct'
-  - ui-draw-brush.setcolor.html: 'ОЙDrawBrush::setColor »'
-  - index.html: PHP Manual
-  - class.ui-draw-brush.html: ОЙDrawBrush
+  - ui-draw-brush.construct.md: '« UIDrawBrush::construct'
+  - ui-draw-brush.setcolor.md: 'ОЙDrawBrush::setColor »'
+  - index.md: PHP Manual
+  - class.ui-draw-brush.md: ОЙDrawBrush
 title: 'ОЙDrawBrush::getColor'
 ---
 # ОЙDrawBrush::getColor

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-field-len.html: « cubridfieldlen
-  - function.cubrid-field-seek.html: cubridfieldseek »
+  - function.cubrid-field-len.md: « cubridfieldlen
+  - function.cubrid-field-seek.md: cubridfieldseek »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridfieldname

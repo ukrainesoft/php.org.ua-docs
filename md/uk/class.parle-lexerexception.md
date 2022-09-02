@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.parle-errorinfo.html: « ParleErrorInfo
-  - class.parle-parserexception.html: ParleParserException »
-  - index.html: PHP Manual
-  - book.parle.html: Parle
+  - class.parle-errorinfo.md: « ParleErrorInfo
+  - class.parle-parserexception.md: ParleParserException »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
 title: Клас ParleLexerException
 ---
 # Клас ParleLexerException

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - generator.key.html: '« Generator::key'
-  - generator.rewind.html: 'Generator::rewind »'
-  - index.html: PHP Manual
-  - class.generator.html: Generator
+  - generator.key.md: '« Generator::key'
+  - generator.rewind.md: 'Generator::rewind »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
 title: 'Generator::next'
 ---
 # Generator::next
@@ -18,7 +18,7 @@ Generator::next — Відновити роботу генератора
 public Generator::next(): void
 ```
 
-Виклик **Generator::next()** має той самий ефект, що й виклик [Generator::send()](generator.send.html) з **`null`** як аргумент.
+Виклик **Generator::next()** має той самий ефект, що й виклик [Generator::send()](generator.send.md) з **`null`** як аргумент.
 
 ### Список параметрів
 

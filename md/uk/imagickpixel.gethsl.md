@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixel.getcolorvaluequantum.html: '« ImagickPixel::getColorValueQuantum'
-  - imagickpixel.getindex.html: 'ImagickPixel::getIndex »'
-  - index.html: PHP Manual
-  - class.imagickpixel.html: ImagickPixel
+  - imagickpixel.getcolorvaluequantum.md: '« ImagickPixel::getColorValueQuantum'
+  - imagickpixel.getindex.md: 'ImagickPixel::getIndex »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getHSL'
 ---
 # ImagickPixel::getHSL

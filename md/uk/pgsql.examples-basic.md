@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pgsql.examples.html: « Приклади
-  - pgsql.examples-queries.html: Базовое использование »
-  - index.html: PHP Manual
-  - pgsql.examples.html: Приклади
+  - pgsql.examples.md: « Приклади
+  - pgsql.examples-queries.md: Базовое использование »
+  - index.md: PHP Manual
+  - pgsql.examples.md: Приклади
 title: Базове використання
 ---
 ## Базове використання

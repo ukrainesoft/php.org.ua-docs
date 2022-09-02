@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.wincache-ucache-clear.html: « wincacheucacheclear
-  - function.wincache-ucache-delete.html: wincacheucachedelete »
-  - index.html: PHP Manual
-  - ref.wincache.html: Функции WinCache
+  - function.wincache-ucache-clear.md: « wincacheucacheclear
+  - function.wincache-ucache-delete.md: wincacheucachedelete »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
 title: wincacheucachedec
 ---
 # wincacheucachedec
@@ -59,5 +59,5 @@ bool(true)
 
 ### Дивіться також
 
--   [wincacheucacheinc()](function.wincache-ucache-inc.html) - Збільшує значення, пов'язане з ключем
--   [wincacheucachecas()](function.wincache-ucache-cas.html) - Порівнює змінну зі старим значенням та надає їй нове значення
+-   [wincacheucacheinc()](function.wincache-ucache-inc.md) - Збільшує значення, пов'язане з ключем
+-   [wincacheucachecas()](function.wincache-ucache-cas.md) - Порівнює змінну зі старим значенням та надає їй нове значення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - error.getfile.html: '« Error::getFile'
-  - error.gettrace.html: 'Error::getTrace »'
-  - index.html: PHP Manual
-  - class.error.html: Error
+  - error.getfile.md: '« Error::getFile'
+  - error.gettrace.md: 'Error::getTrace »'
+  - index.md: PHP Manual
+  - class.error.md: Error
 title: 'Error::getLine'
 ---
 # Error::getLine

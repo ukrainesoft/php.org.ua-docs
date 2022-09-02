@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.animateimages.html: '« Imagick::animateImages'
-  - imagick.appendimages.html: 'Imagick::appendImages »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.animateimages.md: '« Imagick::animateImages'
+  - imagick.appendimages.md: 'Imagick::appendImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::annotateImage'
 ---
 # Imagick::annotateImage
@@ -84,5 +84,5 @@ echo $image;
 
 ### Дивіться також
 
--   [ImagickDraw::annotation()](imagickdraw.annotation.html) - Малює текст на картинці
--   [ImagickDraw::setFont()](imagickdraw.setfont.html) - Встановлює вказаний шрифт для використання під час анотування текстом
+-   [ImagickDraw::annotation()](imagickdraw.annotation.md) - Малює текст на картинці
+-   [ImagickDraw::setFont()](imagickdraw.setfont.md) - Встановлює вказаний шрифт для використання під час анотування текстом

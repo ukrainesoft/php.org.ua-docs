@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.odbc-tableprivileges.html: « odbctableprivileges
+  - function.odbc-tableprivileges.md: « odbctableprivileges
   - book.pdo.md: PDO »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC

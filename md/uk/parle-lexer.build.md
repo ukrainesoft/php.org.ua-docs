@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-lexer.advance.html: '« ParleLexer::advance'
-  - parle-lexer.callout.html: 'ParleLexer::callout »'
-  - index.html: PHP Manual
-  - class.parle-lexer.html: ParleLexer
+  - parle-lexer.advance.md: '« ParleLexer::advance'
+  - parle-lexer.callout.md: 'ParleLexer::callout »'
+  - index.md: PHP Manual
+  - class.parle-lexer.md: ParleLexer
 title: 'ParleLexer::build'
 ---
 # ParleLexer::build
@@ -18,7 +18,7 @@ ParleLexer::build - Завершує набір правил лексера
 public Parle\Lexer::build(): void
 ```
 
-Правила, раніше додані за допомогою [ParleLexer::push()](parle-lexer.push.html), завершуються. Цей виклик методу має бути виконано після того, як було застосовано всі необхідні правила. Набір правил доступний лише для читання. Можна розпочинати лексування.
+Правила, раніше додані за допомогою [ParleLexer::push()](parle-lexer.push.md), завершуються. Цей виклик методу має бути виконано після того, як було застосовано всі необхідні правила. Набір правил доступний лише для читання. Можна розпочинати лексування.
 
 ### Список параметрів
 

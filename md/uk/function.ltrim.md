@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.localeconv.md: « localeconv
-  - function.md5-file.html: md5file »
+  - function.md5-file.md: md5file »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: ltrim

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.clear.html: '« DsVector::clear'
-  - ds-vector.contains.html: 'ДсVector::contains »'
+  - ds-vector.clear.md: '« DsVector::clear'
+  - ds-vector.contains.md: 'ДсVector::contains »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::construct'
 ---
 # ДсVector::construct
@@ -14,7 +14,7 @@ title: 'ДсVector::construct'
 
 ### Опис
 
-public **ДсVector::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
+public **ДсVector::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
 Створює новий екземпляр, використовуючи або об'єкт реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 

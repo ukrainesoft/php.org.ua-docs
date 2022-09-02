@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gettype.html: « gettype
-  - function.is-array.html: ісarray »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.gettype.md: « gettype
+  - function.is-array.md: ісarray »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: intval
 ---
 # intval
@@ -44,7 +44,7 @@ intval(mixed $value, int $base = 10): int
 
 Максимальне значення залежить від операційної системи. У 32-х бітних системах максимальне знакове ціле лежить у діапазоні від -2147483648 до 2147483647. Так, наприклад, у такій системі, `intval('1000000000000')` поверне 2147483647. Максимальне знакове ціле значення для 64-х бітних систем – 9223372036854775807.
 
-Для рядків функція швидше за все поверне 0, хоча залежить від першого символу в рядку. Застосовуються загальні правила [перетворень на цілі](language.types.integer.html#language.types.integer.casting)
+Для рядків функція швидше за все поверне 0, хоча залежить від першого символу в рядку. Застосовуються загальні правила [перетворень на цілі](language.types.integer.md#language.types.integer.casting)
 
 ### Приклади
 
@@ -84,10 +84,10 @@ echo intval(true);                    // 1
 
 ### Дивіться також
 
--   [boolval()](function.boolval.html) - Повертає логічне значення змінної
--   [floatval()](function.floatval.html) - Повертає значення змінної у вигляді числа з плаваючою точкою
--   [strval()](function.strval.html) - Повертає строкове значення змінної
--   [settype()](function.settype.html) - Задає тип змінної
--   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом чи рядком, що містить число
--   [Маніпуляції з типами](language.types.type-juggling.html)
--   [Математичні функції довільної точності BCMath](ref.bc.html)
+-   [boolval()](function.boolval.md) - Повертає логічне значення змінної
+-   [floatval()](function.floatval.md) - Повертає значення змінної у вигляді числа з плаваючою точкою
+-   [strval()](function.strval.md) - Повертає строкове значення змінної
+-   [settype()](function.settype.md) - Задає тип змінної
+-   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом чи рядком, що містить число
+-   [Маніпуляції з типами](language.types.type-juggling.md)
+-   [Математичні функції довільної точності BCMath](ref.bc.md)

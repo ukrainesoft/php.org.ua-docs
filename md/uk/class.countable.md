@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spl.interfaces.html: « Інтерфейси
-  - countable.count.html: 'Countable::count »'
-  - index.html: PHP Manual
-  - spl.interfaces.html: Інтерфейси
+  - spl.interfaces.md: « Інтерфейси
+  - countable.count.md: 'Countable::count »'
+  - index.md: PHP Manual
+  - spl.interfaces.md: Інтерфейси
 title: Інтерфейс Countable
 ---
 # Інтерфейс Countable
@@ -12,7 +12,7 @@ title: Інтерфейс Countable
 
 ## Вступ
 
-Класи, що реалізують інтерфейс **Countable**, можуть бути використані з функцією [count()](function.count.html)
+Класи, що реалізують інтерфейс **Countable**, можуть бути використані з функцією [count()](function.count.md)
 
 ## Огляд інтерфейсів
 
@@ -34,4 +34,4 @@ title: Інтерфейс Countable
 
 ## Зміст
 
--   [Countable::count](countable.count.html) - Кількість елементів об'єкта
+-   [Countable::count](countable.count.md) - Кількість елементів об'єкта

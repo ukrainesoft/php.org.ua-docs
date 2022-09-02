@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-method.setstatic.html: '« ComponereMethod::setStatic'
-  - class.componere-value.html: ComponereValue »
+  - componere-method.setstatic.md: '« ComponereMethod::setStatic'
+  - class.componere-value.md: ComponereValue »
   - index.md: PHP Manual
-  - class.componere-method.html: ComponereMethod
+  - class.componere-method.md: ComponereMethod
 title: 'ComponereMethod::getReflector'
 ---
 # ComponereMethod::getReflector

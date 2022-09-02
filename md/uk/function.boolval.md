@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.var.html: « Функції для роботи зі змінними
-  - function.debug-zval-dump.html: debugzvaldump »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - ref.var.md: « Функції для роботи зі змінними
+  - function.debug-zval-dump.md: debugzvaldump »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: boolval
 ---
 # boolval
@@ -68,9 +68,9 @@ stdClass: true
 
 ### Дивіться також
 
--   [floatval()](function.floatval.html) - Повертає значення змінної у вигляді числа з плаваючою точкою
--   [intval()](function.intval.html) - Повертає ціле значення змінної
--   [strval()](function.strval.html) - Повертає строкове значення змінної
--   [settype()](function.settype.html) - Задає тип змінної
--   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [Преобразование типов](language.types.type-juggling.html)
+-   [floatval()](function.floatval.md) - Повертає значення змінної у вигляді числа з плаваючою точкою
+-   [intval()](function.intval.md) - Повертає ціле значення змінної
+-   [strval()](function.strval.md) - Повертає строкове значення змінної
+-   [settype()](function.settype.md) - Задає тип змінної
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
+-   [Преобразование типов](language.types.type-juggling.md)

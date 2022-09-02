@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionenumbackedcase.getbackingvalue.html: '« ReflectionEnumBackedCase::getBackingValue'
-  - reflectionzendextension.clone.html: 'ReflectionZendExtension::clone »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionenumbackedcase.getbackingvalue.md: '« ReflectionEnumBackedCase::getBackingValue'
+  - reflectionzendextension.clone.md: 'ReflectionZendExtension::clone »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас ReflectionZendExtension
 ---
 # Клас ReflectionZendExtension
@@ -54,16 +54,16 @@ public __toString(): string
 
 name
 
-Ім'я модуль. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.html) під час спроби запису.
+Ім'я модуль. Доступно тільки для читання та викидає виняток [ReflectionException](class.reflectionexception.md) під час спроби запису.
 
 ## Зміст
 
--   [ReflectionZendExtension::clone](reflectionzendextension.clone.html) - Обробник клонування
--   [ReflectionZendExtension::construct](reflectionzendextension.construct.html) - Конструктор
--   [ReflectionZendExtension::export](reflectionzendextension.export.html) - Експорт
--   [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.html) — Отримує автора
--   [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.html) — Отримує авторські права
--   [ReflectionZendExtension::getName](reflectionzendextension.getname.html) — Отримує ім'я
--   [ReflectionZendExtension::getURL](reflectionzendextension.geturl.html) — Отримує URL
--   [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.html) — Отримує версію
--   [ReflectionZendExtension::toString](reflectionzendextension.tostring.html) - Обробник перетворення в рядок
+-   [ReflectionZendExtension::clone](reflectionzendextension.clone.md) - Обробник клонування
+-   [ReflectionZendExtension::construct](reflectionzendextension.construct.md) - Конструктор
+-   [ReflectionZendExtension::export](reflectionzendextension.export.md) - Експорт
+-   [ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.md) — Отримує автора
+-   [ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md) — Отримує авторські права
+-   [ReflectionZendExtension::getName](reflectionzendextension.getname.md) — Отримує ім'я
+-   [ReflectionZendExtension::getURL](reflectionzendextension.geturl.md) — Отримує URL
+-   [ReflectionZendExtension::getVersion](reflectionzendextension.getversion.md) — Отримує версію
+-   [ReflectionZendExtension::toString](reflectionzendextension.tostring.md) - Обробник перетворення в рядок

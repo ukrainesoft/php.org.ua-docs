@@ -1,7 +1,7 @@
 ---
 navigation:
-  - migration81.other-changes.html: « Другие изменения
-  - migration80.new-features.html: Новая функциональность »
+  - migration81.other-changes.md: « Другие изменения
+  - migration80.new-features.md: Новая функциональность »
   - index.md: PHP Manual
   - appendices.md: Appendices
 title: Міграція з PHP 7.4.x на PHP 8.0.x

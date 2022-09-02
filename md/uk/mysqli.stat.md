@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.ssl-set.html: '« mysqli::sslset'
-  - mysqli.stmt-init.html: 'mysqli::stmtinit »'
+  - mysqli.ssl-set.md: '« mysqli::sslset'
+  - mysqli.stmt-init.md: 'mysqli::stmtinit »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::stat'

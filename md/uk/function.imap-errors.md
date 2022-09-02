@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-deletemailbox.html: « imapdeletemailbox
-  - function.imap-expunge.html: imapexpunge »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-deletemailbox.md: « imapdeletemailbox
+  - function.imap-expunge.md: imapexpunge »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imaperrors
 ---
 # imaperrors
@@ -32,5 +32,5 @@ imap_errors(): array|false
 
 ### Дивіться також
 
--   [imaplasterror()](function.imap-last-error.html) - Отримати останню помилку IMAP у поточному запиті
--   [imapalerts()](function.imap-alerts.html) - Повертає всі попереджувальні повідомлення IMAP.
+-   [imaplasterror()](function.imap-last-error.md) - Отримати останню помилку IMAP у поточному запиті
+-   [imapalerts()](function.imap-alerts.md) - Повертає всі попереджувальні повідомлення IMAP.

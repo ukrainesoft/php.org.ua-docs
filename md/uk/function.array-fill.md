@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-fill-keys.html: « arrayfillkeys
-  - function.array-filter.html: arrayfilter »
+  - function.array-fill-keys.md: « arrayfillkeys
+  - function.array-filter.md: arrayfilter »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayfill
@@ -26,7 +26,7 @@ array_fill(int $start_index, int $count, mixed $value): array
 
 Перший індекс масива, що повертається.
 
-Якщо `start_index` негативний, першим індексом масиву, що повертається `start_index`, а наступні індекси починаються з нуля (дивіться [пример](function.array-fill.html#function.array-fill.example.basic)
+Якщо `start_index` негативний, першим індексом масиву, що повертається `start_index`, а наступні індекси починаються з нуля (дивіться [пример](function.array-fill.md#function.array-fill.example.basic)
 
 `count`
 

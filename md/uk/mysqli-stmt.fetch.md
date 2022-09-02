@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.execute.html: '« mysqlistmt::execute'
-  - mysqli-stmt.field-count.html: 'mysqlistmt::$fieldcount »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.execute.md: '« mysqlistmt::execute'
+  - mysqli-stmt.field-count.md: 'mysqlistmt::$fieldcount »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::fetch'
 ---
 # mysqlistmt::fetch
@@ -28,7 +28,7 @@ public mysqli_stmt::fetch(): ?bool
 mysqli_stmt_fetch(mysqli_stmt $statement): ?bool
 ```
 
-Зв'язує результати підготовленого виразу зі змінними, визначеними за допомогою [mysqlistmtbindresult()](mysqli-stmt.bind-result.html)
+Зв'язує результати підготовленого виразу зі змінними, визначеними за допомогою [mysqlistmtbindresult()](mysqli-stmt.bind-result.md)
 
 > **Зауваження**
 > 
@@ -36,13 +36,13 @@ mysqli_stmt_fetch(mysqli_stmt $statement): ?bool
 
 > **Зауваження**
 > 
-> Дані не буферизуються під час передачі, коли викликається [mysqlistmtstoreresult()](mysqli-stmt.store-result.html)що знижує продуктивність (але також знижує витрати пам'яті).
+> Дані не буферизуються під час передачі, коли викликається [mysqlistmtstoreresult()](mysqli-stmt.store-result.md)що знижує продуктивність (але також знижує витрати пам'яті).
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -140,7 +140,7 @@ Springfield (USA)
 
 ### Дивіться також
 
--   [mysqliprepare()](mysqli.prepare.html) - готує SQL вираз до виконання
--   [mysqlistmterrno()](mysqli-stmt.errno.html) - Повертає код помилки виконання останнього запиту
--   [mysqlistmterror()](mysqli-stmt.error.html) - Повертає рядок із поясненням останньої помилки під час виконання запиту
--   [mysqlistmtbindresult()](mysqli-stmt.bind-result.html) - Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqliprepare()](mysqli.prepare.md) - готує SQL вираз до виконання
+-   [mysqlistmterrno()](mysqli-stmt.errno.md) - Повертає код помилки виконання останнього запиту
+-   [mysqlistmterror()](mysqli-stmt.error.md) - Повертає рядок із поясненням останньої помилки під час виконання запиту
+-   [mysqlistmtbindresult()](mysqli-stmt.bind-result.md) - Прив'язка змінних до підготовленого запиту для розміщення результату

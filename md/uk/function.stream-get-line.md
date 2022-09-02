@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-get-filters.html: « streamgetfilters
-  - function.stream-get-meta-data.html: streamgetmetadata »
+  - function.stream-get-filters.md: « streamgetfilters
+  - function.stream-get-meta-data.md: streamgetmetadata »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamgetline

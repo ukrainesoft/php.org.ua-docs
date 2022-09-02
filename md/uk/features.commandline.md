@@ -1,6 +1,6 @@
 ---
 navigation:
-  - features.persistent-connections.html: « Постійні з'єднання з базами даних
+  - features.persistent-connections.md: « Постійні з'єднання з базами даних
   - features.commandline.introduction.md: Введение »
   - index.md: PHP Manual
   - features.md: Відмітні особливості

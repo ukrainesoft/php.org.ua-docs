@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-hyphenate.html: «pshyphenate
-  - function.ps-lineto.html: псlineto »
+  - function.ps-hyphenate.md: «pshyphenate
+  - function.ps-lineto.md: псlineto »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псincludefile

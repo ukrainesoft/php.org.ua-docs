@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-field-type-oid.html: « pgfieldtypeoid
-  - function.pg-flush.html: пгflush »
+  - function.pg-field-type-oid.md: « pgfieldtypeoid
+  - function.pg-flush.md: пгflush »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгfieldtype
@@ -32,7 +32,7 @@ pg_field_type(PgSql\Result $result, int $field): string
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field`
 

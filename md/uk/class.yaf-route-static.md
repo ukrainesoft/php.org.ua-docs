@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-simple.route.html: '« YafRouteSimple::route'
-  - yaf-route-static.assemble.html: 'YafRouteStatic::assemble »'
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf-route-simple.route.md: '« YafRouteSimple::route'
+  - yaf-route-static.assemble.md: 'YafRouteStatic::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafRouteStatic
 ---
 # Клас YafRouteStatic
@@ -16,7 +16,7 @@ title: Клас YafRouteStatic
 
 І **YafRouteStatic** спроектований таким чином, щоб покривати 80% усіх можливих потреб маршрутизації.
 
-Будь ласка ЗВЕРНІТЬ УВАГУ, що не потрібно інстанціювати **YafRouteStatic**, також не потрібно додавати його до стек [YafRouter](class.yaf-router.html), так як він є у стеку маршрутизації [YafRouter](class.yaf-router.md) за замовчуванням і завжди буде викликатись останнім.
+Будь ласка ЗВЕРНІТЬ УВАГУ, що не потрібно інстанціювати **YafRouteStatic**, також не потрібно додавати його до стек [YafRouter](class.yaf-router.md), так як він є у стеку маршрутизації [YafRouter](class.yaf-router.md) за замовчуванням і завжди буде викликатись останнім.
 
 ## Огляд класів
 

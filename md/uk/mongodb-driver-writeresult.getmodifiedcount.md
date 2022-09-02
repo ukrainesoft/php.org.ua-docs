@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getmatchedcount.html: '« MongoDBDriverWriteResult::getMatchedCount'
-  - mongodb-driver-writeresult.getserver.html: 'MongoDBDriverWriteResult::getServer »'
+  - mongodb-driver-writeresult.getmatchedcount.md: '« MongoDBDriverWriteResult::getMatchedCount'
+  - mongodb-driver-writeresult.getserver.md: 'MongoDBDriverWriteResult::getServer »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
 title: 'MongoDBDriverWriteResult::getModifiedCount'
 ---
 # MongoDBDriverWriteResult::getModifiedCount

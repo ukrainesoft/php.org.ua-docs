@@ -1,9 +1,9 @@
 ---
 navigation:
-  - posix.setup.html: « Встановлення та налаштування
-  - posix.installation.html: Установка »
-  - index.html: PHP Manual
-  - posix.setup.html: Встановлення та налаштування
+  - posix.setup.md: « Встановлення та налаштування
+  - posix.installation.md: Установка »
+  - index.md: PHP Manual
+  - posix.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

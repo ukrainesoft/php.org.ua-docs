@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-save.html: « fdfsave
-  - function.fdf-set-encoding.html: fdfsetencoding »
+  - function.fdf-save.md: « fdfsave
+  - function.fdf-set-encoding.md: fdfsetencoding »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfsetап
@@ -24,7 +24,7 @@ fdf_set_ap(    resource $fdf_document,    string $field_name,    int
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `field_name`
 

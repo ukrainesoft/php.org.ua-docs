@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-cancel-query.html: « pgcancelquery
-  - function.pg-close.html: пгclose »
+  - function.pg-cancel-query.md: « pgcancelquery
+  - function.pg-close.md: пгclose »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгclientencoding
@@ -30,7 +30,7 @@ PostgreSQL підтримує автоматичне перетворення н
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

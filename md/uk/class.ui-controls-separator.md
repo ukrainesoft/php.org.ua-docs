@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-progress.setvalue.html: '« UIControlsProgress::setValue'
-  - ui-controls-separator.construct.html: 'ОЙControlsSeparator::construct »'
+  - ui-controls-progress.setvalue.md: '« UIControlsProgress::setValue'
+  - ui-controls-separator.construct.md: 'ОЙControlsSeparator::construct »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління "Розділювач"

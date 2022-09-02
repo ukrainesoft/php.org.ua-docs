@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-readlink.html: « eioreadlink
-  - function.eio-rename.html: eiorename »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-readlink.md: « eioreadlink
+  - function.eio-rename.md: eiorename »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiorealpath
 ---
 # eiorealpath

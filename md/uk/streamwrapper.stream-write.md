@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-truncate.html: '« streamWrapper::streamtruncate'
-  - streamwrapper.unlink.html: 'streamWrapper::unlink »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-truncate.md: '« streamWrapper::streamtruncate'
+  - streamwrapper.unlink.md: 'streamWrapper::unlink »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamwrite'
 ---
 # streamWrapper::streamwrite

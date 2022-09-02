@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-docresult.getwarnings.html: '« DocResult::getWarnings'
-  - class.mysql-xdevapi-exception.html: mysqlxdevapiException »
+  - mysql-xdevapi-docresult.getwarnings.md: '« DocResult::getWarnings'
+  - class.mysql-xdevapi-exception.md: mysqlxdevapiException »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult
 title: 'DocResult::getWarningsCount'
 ---
 # DocResult::getWarningsCount

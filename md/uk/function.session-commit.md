@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-cache-limiter.html: « sessioncachelimiter
-  - function.session-create-id.html: sessioncreateid »
+  - function.session-cache-limiter.md: « sessioncachelimiter
+  - function.session-create-id.md: sessioncreateid »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessioncommit

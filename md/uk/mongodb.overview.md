@@ -1,7 +1,7 @@
 ---
 navigation:
   - mongodb.architecture.md: « Архитектура и внутреннее устройство драйвера
-  - mongodb.connection-handling.html: Соединения »
+  - mongodb.connection-handling.md: Соединения »
   - index.md: PHP Manual
   - mongodb.architecture.md: Архитектура и внутреннее устройство драйвера
 title: Огляд архітектури

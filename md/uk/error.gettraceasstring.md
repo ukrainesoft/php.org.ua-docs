@@ -1,9 +1,9 @@
 ---
 navigation:
-  - error.gettrace.html: '« Error::getTrace'
-  - error.tostring.html: 'Error::toString »'
-  - index.html: PHP Manual
-  - class.error.html: Error
+  - error.gettrace.md: '« Error::getTrace'
+  - error.tostring.md: 'Error::toString »'
+  - index.md: PHP Manual
+  - class.error.md: Error
 title: 'Error::getTraceAsString'
 ---
 # Error::getTraceAsString
@@ -55,4 +55,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getTraceAsString()](throwable.gettraceasstring.html) - Отримує результати трасування стека у вигляді рядка
+-   [Throwable::getTraceAsString()](throwable.gettraceasstring.md) - Отримує результати трасування стека у вигляді рядка

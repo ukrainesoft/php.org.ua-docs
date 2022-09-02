@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-pconnect.html: « cubridpconnect
-  - function.cubrid-put.html: cubridput »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-pconnect.md: « cubridpconnect
+  - function.cubrid-put.md: cubridput »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridprepare
 ---
 # cubridprepare
@@ -20,7 +20,7 @@ cubrid_prepare(resource $conn_identifier, string $prepare_stmt, int $option = 0)
 
 Функція **cubridprepare()** - це свого роду API, який представляє вирази SQL, раніше скомпільовані для даного дескриптора з'єднання. Цей попередньо скомпільований SQL-вираз буде включений у функцію **cubridprepare()**
 
-Відповідно, ви можете ефективно використовувати цей оператор для багаторазового виконання або обробки великих даних. Можна використовувати лише один оператор, а в параметрі можна вказати знак запитання (?) у відповідну область SQL-виразу. Додайте параметр при прив'язці значення у VALUES виразу INSERT або WHERE. Зверніть увагу, що можна прив'язати значення до знака запитання (?) тільки за допомогою функції [cubridbind()](function.cubrid-bind.html)
+Відповідно, ви можете ефективно використовувати цей оператор для багаторазового виконання або обробки великих даних. Можна використовувати лише один оператор, а в параметрі можна вказати знак запитання (?) у відповідну область SQL-виразу. Додайте параметр при прив'язці значення у VALUES виразу INSERT або WHERE. Зверніть увагу, що можна прив'язати значення до знака запитання (?) тільки за допомогою функції [cubridbind()](function.cubrid-bind.md)
 
 ### Список параметрів
 
@@ -89,5 +89,5 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubridbind()](function.cubrid-bind.html) - пов'язує змінні з підготовленим запитом
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubridbind()](function.cubrid-bind.md) - пов'язує змінні з підготовленим запитом

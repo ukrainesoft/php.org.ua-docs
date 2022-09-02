@@ -1,9 +1,9 @@
 ---
 navigation:
-  - generator.getreturn.html: '« Generator::getReturn'
-  - generator.next.html: 'Generator::next »'
-  - index.html: PHP Manual
-  - class.generator.html: Generator
+  - generator.getreturn.md: '« Generator::getReturn'
+  - generator.next.md: 'Generator::next »'
+  - index.md: PHP Manual
+  - class.generator.md: Generator
 title: 'Generator::key'
 ---
 # Generator::key

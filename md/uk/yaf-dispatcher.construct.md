@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.catchexception.html: '« YafDispatcher::catchException'
-  - yaf-dispatcher.disableview.html: 'YafDispatcher::disableView »'
+  - yaf-dispatcher.catchexception.md: '« YafDispatcher::catchException'
+  - yaf-dispatcher.disableview.md: 'YafDispatcher::disableView »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::construct'
 ---
 # YafDispatcher::construct

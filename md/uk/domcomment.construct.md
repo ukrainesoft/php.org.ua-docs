@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.domcomment.html: « DOMComment
-  - class.domdocument.html: DOMDocument »
-  - index.html: PHP Manual
-  - class.domcomment.html: DOMComment
+  - class.domcomment.md: « DOMComment
+  - class.domdocument.md: DOMDocument »
+  - index.md: PHP Manual
+  - class.domcomment.md: DOMComment
 title: 'DOMComment::construct'
 ---
 # DOMComment::construct
@@ -16,7 +16,7 @@ DOMComment::construct — Створює новий екземпляр клас�
 
 public **DOMComment::construct**(string `$data` = "")
 
-Створює новий об'єкт класу [DOMComment](class.domcomment.html). Об'єкт буде доступний лише для читання. Його можна додати до документа, але додаткові вузли не можна додавати до об'єкта, доки він не буде приєднаний до документа. Щоб створити записуваний вузол, використовуйте [DOMDocument::createComment](domdocument.createcomment.html)
+Створює новий об'єкт класу [DOMComment](class.domcomment.md). Об'єкт буде доступний лише для читання. Його можна додати до документа, але додаткові вузли не можна додавати до об'єкта, доки він не буде приєднаний до документа. Щоб створити записуваний вузол, використовуйте [DOMDocument::createComment](domdocument.createcomment.md)
 
 ### Список параметрів
 
@@ -41,4 +41,4 @@ echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root><
 
 ### Дивіться також
 
--   [DOMDocument::createComment()](domdocument.createcomment.html) - Створити новий вузол коментаря
+-   [DOMDocument::createComment()](domdocument.createcomment.md) - Створити новий вузол коментаря

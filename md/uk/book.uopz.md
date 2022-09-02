@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.runkit7-zval-inspect.html: « runkit7zvalinspect
+  - function.runkit7-zval-inspect.md: « runkit7zvalinspect
   - intro.uopz.md: Введение »
   - index.md: PHP Manual
   - refs.basic.php.md: Изменение поведения PHP

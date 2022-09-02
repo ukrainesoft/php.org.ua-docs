@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mailparse-msg-parse-file.html: « mailparsemsgparsefile
-  - function.mailparse-rfc822-parse-addresses.html: mailparserfc822parseaddresses »
-  - index.html: PHP Manual
-  - ref.mailparse.html: Mailparse
+  - function.mailparse-msg-parse-file.md: « mailparsemsgparsefile
+  - function.mailparse-rfc822-parse-addresses.md: mailparserfc822parseaddresses »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
 title: mailparsemsgparse
 ---
 # mailparsemsgparse

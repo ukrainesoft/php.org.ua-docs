@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.find.html: '« DsSequence::find'
-  - ds-sequence.get.html: 'ДсSequence::get »'
+  - ds-sequence.find.md: '« DsSequence::find'
+  - ds-sequence.get.md: 'ДсSequence::get »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::first'
 ---
 # ДсSequence::first

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-extend.html: « uopzextend
-  - function.uopz-function.html: uopzfunction »
+  - function.uopz-extend.md: « uopzextend
+  - function.uopz-function.md: uopzfunction »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzflags

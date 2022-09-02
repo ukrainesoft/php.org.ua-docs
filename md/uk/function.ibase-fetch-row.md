@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-fetch-object.html: « ibasefetchobject
-  - function.ibase-field-info.html: ibasefieldinfo »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-fetch-object.md: « ibasefetchobject
+  - function.ibase-field-info.md: ibasefieldinfo »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasefetchrow
 ---
 # ibasefetchrow
@@ -38,5 +38,5 @@ ibase_fetch_row(resource $result_identifier, int $fetch_flag = 0): array
 
 ### Дивіться також
 
--   [ibasefetchassoc()](function.ibase-fetch-assoc.html) - Витягує рядок результату із запиту у вигляді асоціативного масиву
--   [ibasefetchobject()](function.ibase-fetch-object.html) - Отримує об'єкт із бази даних InterBase
+-   [ibasefetchassoc()](function.ibase-fetch-assoc.md) - Витягує рядок результату із запиту у вигляді асоціативного масиву
+-   [ibasefetchobject()](function.ibase-fetch-object.md) - Отримує об'єкт із бази даних InterBase

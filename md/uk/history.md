@@ -1,9 +1,9 @@
 ---
 navigation:
-  - appendices.html: « Appendices
-  - history.php.html: Історія PHP »
-  - index.html: PHP Manual
-  - appendices.html: Appendices
+  - appendices.md: « Appendices
+  - history.php.md: Історія PHP »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
 title: Історія PHP та суміжних проектів
 ---
 # Історія PHP та суміжних проектів

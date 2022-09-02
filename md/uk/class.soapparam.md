@@ -1,9 +1,9 @@
 ---
 navigation:
-  - soapheader.construct.html: '« SoapHeader::construct'
-  - soapparam.construct.html: 'SoapParam::construct »'
-  - index.html: PHP Manual
-  - book.soap.html: SOAP
+  - soapheader.construct.md: '« SoapHeader::construct'
+  - soapparam.construct.md: 'SoapParam::construct »'
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
 title: Клас SoapParam
 ---
 # Клас SoapParam
@@ -53,4 +53,4 @@ paramname
 
 ## Зміст
 
--   [SoapParam::construct](soapparam.construct.html) - Конструктор SoapParam
+-   [SoapParam::construct](soapparam.construct.md) - Конструктор SoapParam

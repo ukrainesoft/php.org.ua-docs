@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-include-file.html: «psincludefile
-  - function.ps-makespotcolor.html: псmakespotcolor »
+  - function.ps-include-file.md: «psincludefile
+  - function.ps-makespotcolor.md: псmakespotcolor »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псlineto

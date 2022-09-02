@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-lock.unlock.html: '« SwooleLock::unlock'
-  - swoole-mmap.open.html: 'SwooleMmap::open »'
-  - index.html: PHP Manual
-  - book.swoole.html: Swoole
+  - swoole-lock.unlock.md: '« SwooleLock::unlock'
+  - swoole-mmap.open.md: 'SwooleMmap::open »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
 title: Клас SwooleMmap
 ---
 # Клас SwooleMmap

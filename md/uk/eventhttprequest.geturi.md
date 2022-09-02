@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttprequest.getresponsecode.html: '« EventHttpRequest::getResponseCode'
-  - eventhttprequest.removeheader.html: 'EventHttpRequest::removeHeader »'
-  - index.html: PHP Manual
-  - class.eventhttprequest.html: EventHttpRequest
+  - eventhttprequest.getresponsecode.md: '« EventHttpRequest::getResponseCode'
+  - eventhttprequest.removeheader.md: 'EventHttpRequest::removeHeader »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getUri'
 ---
 # EventHttpRequest::getUri

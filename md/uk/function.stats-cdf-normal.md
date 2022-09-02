@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-noncentral-t.html: « statscdfnoncentralт
-  - function.stats-cdf-poisson.html: statscdfpoisson »
+  - function.stats-cdf-noncentral-t.md: « statscdfnoncentralт
+  - function.stats-cdf-poisson.md: statscdfpoisson »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdfnormal

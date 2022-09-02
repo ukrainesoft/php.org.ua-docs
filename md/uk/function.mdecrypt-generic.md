@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mcrypt-module-self-test.html: « mcryptmoduleselftest
+  - function.mcrypt-module-self-test.md: « mcryptmoduleselftest
   - book.mhash.md: Mhash »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
@@ -80,7 +80,7 @@ mdecrypt_generic(resource $td, string $data): string
 
 Приклад вище показує, як перевірити, що дані до шифрування збігаються з даними після дешифрування. Вкрай важливо переініціалізувати буфери шифрування за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.md) перед дешифруванням даних.
 
-Обробник дешифрування завжди має ініціалізуватися за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.html) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.html). Дивіться приклад у описі функції [mcryptmoduleopen()](function.mcrypt-module-open.md)
+Обробник дешифрування завжди має ініціалізуватися за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.md) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.md). Дивіться приклад у описі функції [mcryptmoduleopen()](function.mcrypt-module-open.md)
 
 ### Дивіться також
 

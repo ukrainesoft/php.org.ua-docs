@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysqli-connect.html: « mysqliconnect
-  - function.mysqli-execute.html: mysqliexecute »
+  - function.mysqli-connect.md: « mysqliconnect
+  - function.mysqli-execute.md: mysqliexecute »
   - index.md: PHP Manual
   - ref.mysqli.md: Синоніми та застарілі функції Mysqli
 title: 'mysqli::escapestring'

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.construct.html: '« YafApplication::construct'
-  - yaf-application.environ.html: 'YafApplication::environ »'
-  - index.html: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - yaf-application.construct.md: '« YafApplication::construct'
+  - yaf-application.environ.md: 'YafApplication::environ »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::destruct'
 ---
 # YafApplication::destruct

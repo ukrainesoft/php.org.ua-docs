@@ -24,7 +24,7 @@ public static Imagick::getResource(int $type): int
 
 `type`
 
-Дивіться список [констант типов ресурсов](imagick.constants.html#imagick.constants.resourcetypes)
+Дивіться список [констант типов ресурсов](imagick.constants.md#imagick.constants.resourcetypes)
 
 ### Значення, що повертаються
 

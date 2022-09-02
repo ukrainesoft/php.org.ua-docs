@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-node-bulletlist.construct.html: '« CommonMarkNodeBulletList::construct'
-  - commonmark-node-orderedlist.construct.html: 'CommonMarkNodeOrderedList::construct »'
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - commonmark-node-bulletlist.construct.md: '« CommonMarkNodeBulletList::construct'
+  - commonmark-node-orderedlist.construct.md: 'CommonMarkNodeOrderedList::construct »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: OrderedList успадковує CommonMarkNode
 ---
 # OrderedList успадковує CommonMarkNode

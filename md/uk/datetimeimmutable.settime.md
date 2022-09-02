@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetimeimmutable.setisodate.html: '« DateTimeImmutable::setISODate'
-  - datetimeimmutable.settimestamp.html: 'DateTimeImmutable::setTimestamp »'
-  - index.html: PHP Manual
-  - class.datetimeimmutable.html: DateTimeImmutable
+  - datetimeimmutable.setisodate.md: '« DateTimeImmutable::setISODate'
+  - datetimeimmutable.settimestamp.md: 'DateTimeImmutable::setTimestamp »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::setTime'
 ---
 # DateTimeImmutable::setTime
@@ -40,7 +40,7 @@ public DateTimeImmutable::setTime(    int $hour,    int $minute,    
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.html) з модифікованими даними або **`false`** у разі виникнення помилки.
+Повертає новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з модифікованими даними або **`false`** у разі виникнення помилки.
 
 ### список змін
 
@@ -105,5 +105,5 @@ echo $newDate->format('Y-m-d H:i:s') . "\n";
 
 ### Дивіться також
 
--   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.html) - Встановлює дату
--   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.html) - Встановлює дату у форматі ISO
+-   [DateTimeImmutable::setDate()](datetimeimmutable.setdate.md) - Встановлює дату
+-   [DateTimeImmutable::setISODate()](datetimeimmutable.setisodate.md) - Встановлює дату у форматі ISO

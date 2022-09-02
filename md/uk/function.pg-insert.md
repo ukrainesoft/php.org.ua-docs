@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-host.html: « pghost
-  - function.pg-last-error.html: пгlasterror »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-host.md: « pghost
+  - function.pg-last-error.md: пгlasterror »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгinsert
 ---
 # пгinsert
@@ -20,7 +20,7 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 **пгinsert()** вставляє записи з масиву `values` до таблиці `table_name`
 
-Якщо `flags` вказано, [пгconvert()](function.pg-convert.html) застосовується до `values` із зазначеними прапорами.
+Якщо `flags` вказано, [пгconvert()](function.pg-convert.md) застосовується до `values` із зазначеними прапорами.
 
 За замовчуванням **пгinsert()** передає необроблені значення. Значення мають бути екрановані або опція **`PGSQL_DML_ESCAPE`** має бути вказана . **`PGSQL_DML_ESCAPE`** укладає в лапки та екранує параметри/ідентифікатори. Тому імена таблиць/стовпців стають чутливими до регістру.
 
@@ -30,7 +30,7 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `table_name`
 
@@ -42,7 +42,7 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 `flags`
 
-Комбінація констант **`PGSQL_CONV_OPTS`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** і **`PGSQL_DML_STRING`**. Якщо серед інших передається **`PGSQL_DML_STRING`** у параметрі `flags`, функція поверне рядок запиту. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функція [пгconvert()](function.pg-convert.html) внутрішньо не викликається.
+Комбінація констант **`PGSQL_CONV_OPTS`** **`PGSQL_DML_NO_CONV`** **`PGSQL_DML_ESCAPE`** **`PGSQL_DML_EXEC`** **`PGSQL_DML_ASYNC`** і **`PGSQL_DML_STRING`**. Якщо серед інших передається **`PGSQL_DML_STRING`** у параметрі `flags`, функція поверне рядок запиту. Якщо встановлено **`PGSQL_DML_NO_CONV`** або **`PGSQL_DML_ESCAPE`**, то функція [пгconvert()](function.pg-convert.md) внутрішньо не викликається.
 
 ### Значення, що повертаються
 
@@ -52,8 +52,8 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.html) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -76,4 +76,4 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 ### Дивіться також
 
--   [пгconvert()](function.pg-convert.html) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
+-   [пгconvert()](function.pg-convert.md) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах

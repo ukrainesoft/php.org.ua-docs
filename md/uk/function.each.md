@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.current.html: « current
-  - function.end.html: end »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.current.md: « current
+  - function.end.md: end »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: each
 ---
 # each
@@ -24,7 +24,7 @@ each(array|object &$array): array
 
 Повертає поточну пару ключ/значення з масиву і просуває його покажчик.
 
-Після виконання **each()**, покажчик масиву переміщається до наступного його елемента, доки досягне кінець масиву. Для повторного обходу масиву за допомогою кожного необхідно використовувати функцію [reset()](function.reset.html)
+Після виконання **each()**, покажчик масиву переміщається до наступного його елемента, доки досягне кінець масиву. Для повторного обходу масиву за допомогою кожного необхідно використовувати функцію [reset()](function.reset.md)
 
 ### Список параметрів
 
@@ -82,7 +82,7 @@ Array
 )
 ```
 
-**each()** зазвичай використовується спільно з [list()](function.list.html) для обходу масиву, як у цьому прикладі:
+**each()** зазвичай використовується спільно з [list()](function.list.md) для обходу масиву, як у цьому прикладі:
 
 **Приклад #2 Обхід масиву функцією **each()****
 
@@ -115,11 +115,11 @@ c => cranberry
 
 ### Дивіться також
 
--   [key()](function.key.html) - Вибирає ключ із масиву
--   [list()](function.list.html) - Надає змінним зі списку значення подібно до масиву
--   [current()](function.current.html) - Повертає поточний елемент масиву
--   [reset()](function.reset.html) - Встановлює внутрішній покажчик масиву на його перший елемент
--   [next()](function.next.html) - Переміщує покажчик масиву вперед на один елемент
--   [prev()](function.prev.html) - Пересуває внутрішній покажчик масиву на одну позицію назад
--   [foreach](control-structures.foreach.html)
--   [Ітерація об'єктів](language.oop5.iterations.html)
+-   [key()](function.key.md) - Вибирає ключ із масиву
+-   [list()](function.list.md) - Надає змінним зі списку значення подібно до масиву
+-   [current()](function.current.md) - Повертає поточний елемент масиву
+-   [reset()](function.reset.md) - Встановлює внутрішній покажчик масиву на його перший елемент
+-   [next()](function.next.md) - Переміщує покажчик масиву вперед на один елемент
+-   [prev()](function.prev.md) - Пересуває внутрішній покажчик масиву на одну позицію назад
+-   [foreach](control-structures.foreach.md)
+-   [Ітерація об'єктів](language.oop5.iterations.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-channel.pop.html: '« SwooleChannel::pop'
-  - swoole-channel.stats.html: 'SwooleChannel::stats »'
+  - swoole-channel.pop.md: '« SwooleChannel::pop'
+  - swoole-channel.stats.md: 'SwooleChannel::stats »'
   - index.md: PHP Manual
-  - class.swoole-channel.html: SwooleChannel
+  - class.swoole-channel.md: SwooleChannel
 title: 'SwooleChannel::push'
 ---
 # SwooleChannel::push

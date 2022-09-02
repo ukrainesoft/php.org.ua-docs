@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-event-wait.html: « swooleeventwait
-  - function.swoole-get-local-ip.html: swoolegetlocalip »
+  - function.swoole-event-wait.md: « swooleeventwait
+  - function.swoole-get-local-ip.md: swoolegetlocalip »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleeventwrite
 ---
 # swooleeventwrite

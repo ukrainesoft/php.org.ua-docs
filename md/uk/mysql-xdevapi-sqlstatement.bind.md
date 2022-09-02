@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-sqlstatement.html: « mysqlxdevapiSqlStatement
-  - mysql-xdevapi-sqlstatement.construct.html: 'SqlStatement::construct »'
+  - class.mysql-xdevapi-sqlstatement.md: « mysqlxdevapiSqlStatement
+  - mysql-xdevapi-sqlstatement.construct.md: 'SqlStatement::construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement
+  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
 title: 'SqlStatement::bind'
 ---
 # SqlStatement::bind

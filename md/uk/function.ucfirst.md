@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trim.html: « trim
-  - function.ucwords.html: ucwords »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.trim.md: « trim
+  - function.ucwords.md: ucwords »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: ucfirst
 ---
 # ucfirst

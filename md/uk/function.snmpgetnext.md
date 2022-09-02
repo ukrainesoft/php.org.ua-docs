@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.snmpget.html: « snmpget
-  - function.snmprealwalk.html: snmprealwalk »
-  - index.html: PHP Manual
-  - ref.snmp.html: Функції SNMP
+  - function.snmpget.md: « snmpget
+  - function.snmprealwalk.md: snmprealwalk »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
 title: snmpgetnext
 ---
 # snmpgetnext

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apache-note.html: « apachenote
-  - function.apache-response-headers.html: apacheresponseheaders »
-  - index.html: PHP Manual
-  - ref.apache.html: Функции Apache
+  - function.apache-note.md: « apachenote
+  - function.apache-response-headers.md: apacheresponseheaders »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
 title: apacherequestheaders
 ---
 # apacherequestheaders
@@ -63,7 +63,7 @@ Connection: Keep-Alive
 
 > **Зауваження**
 > 
-> Також можна отримати значення широко використовуваних CGIзмінних, отримавши їх із оточення сервера; це працює незалежно від того, встановлений PHP як модуль Apache чи ні. Для того, щоб отримати список усіх доступних [змінних оточення](language.variables.predefined.html), використовуйте функцію [phpinfo()](function.phpinfo.md)
+> Також можна отримати значення широко використовуваних CGIзмінних, отримавши їх із оточення сервера; це працює незалежно від того, встановлений PHP як модуль Apache чи ні. Для того, щоб отримати список усіх доступних [змінних оточення](language.variables.predefined.md), використовуйте функцію [phpinfo()](function.phpinfo.md)
 
 ### Дивіться також
 

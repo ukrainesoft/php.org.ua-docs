@@ -28,7 +28,7 @@ public ImagickDraw::setStrokeLineJoin(int $linejoin): bool
 
 `linejoin`
 
-Одна з констант [LINEJOIN](imagick.constants.html#imagick.constants.linejoin) `imagick::LINEJOIN_*`
+Одна з констант [LINEJOIN](imagick.constants.md#imagick.constants.linejoin) `imagick::LINEJOIN_*`
 
 ### Значення, що повертаються
 

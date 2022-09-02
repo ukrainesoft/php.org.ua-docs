@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-stat-percentile.html: « statsstatpercentile
-  - function.stats-variance.html: statsvariance »
+  - function.stats-stat-percentile.md: « statsstatpercentile
+  - function.stats-variance.md: statsvariance »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsстатиpowersum

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - svm.requirements.html: « Вимоги
-  - svm.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - svm.setup.html: Встановлення та налаштування
+  - svm.requirements.md: « Вимоги
+  - svm.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - svm.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

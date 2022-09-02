@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.oci-unregister-taf-callback.html: « ociunregistertafcallback
+  - function.oci-unregister-taf-callback.md: « ociunregistertafcallback
   - ocicollection.append.md: 'OCICollection::append »'
   - index.md: PHP Manual
   - book.oci8.md: OCI8

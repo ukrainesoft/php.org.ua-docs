@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-path.lineto.html: '« UIDrawPath::lineTo'
-  - ui-draw-path.newfigurewitharc.html: 'ОЙDrawPath::newFigureWithArc »'
+  - ui-draw-path.lineto.md: '« UIDrawPath::lineTo'
+  - ui-draw-path.newfigurewitharc.md: 'ОЙDrawPath::newFigureWithArc »'
   - index.md: PHP Manual
-  - class.ui-draw-path.html: ОЙDrawPath
+  - class.ui-draw-path.md: ОЙDrawPath
 title: 'ОЙDrawPath::newFigure'
 ---
 # ОЙDrawPath::newFigure

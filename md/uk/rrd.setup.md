@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.rrd.html: « Введение
-  - rrd.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.rrd.html: RRD
+  - intro.rrd.md: « Введение
+  - rrd.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.rrd.md: RRD
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

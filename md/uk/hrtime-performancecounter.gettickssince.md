@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hrtime-performancecounter.getticks.html: '« HRTimePerformanceCounter::getTicks'
-  - class.hrtime-stopwatch.html: HRTimeStopWatch »
+  - hrtime-performancecounter.getticks.md: '« HRTimePerformanceCounter::getTicks'
+  - class.hrtime-stopwatch.md: HRTimeStopWatch »
   - index.md: PHP Manual
-  - class.hrtime-performancecounter.html: HRTimePerformanceCounter
+  - class.hrtime-performancecounter.md: HRTimePerformanceCounter
 title: 'HRTimePerformanceCounter::getTicksSince'
 ---
 # HRTimePerformanceCounter::getTicksSince

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sodium.installation.html: « Установка
-  - sodium.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - sodium.setup.html: Встановлення та налаштування
+  - sodium.installation.md: « Установка
+  - sodium.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - sodium.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

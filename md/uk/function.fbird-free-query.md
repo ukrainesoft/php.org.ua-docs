@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-free-event-handler.html: « fbirdfreeeventhandler
-  - function.fbird-free-result.html: fbirdfreeresult »
+  - function.fbird-free-event-handler.md: « fbirdfreeeventhandler
+  - function.fbird-free-result.md: fbirdfreeresult »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdfreequery

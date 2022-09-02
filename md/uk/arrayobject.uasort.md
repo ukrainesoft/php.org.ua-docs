@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayobject.setiteratorclass.html: '« ArrayObject::setIteratorClass'
-  - arrayobject.uksort.html: 'ArrayObject::uksort »'
-  - index.html: PHP Manual
-  - class.arrayobject.html: ArrayObject
+  - arrayobject.setiteratorclass.md: '« ArrayObject::setIteratorClass'
+  - arrayobject.uksort.md: 'ArrayObject::uksort »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::uasort'
 ---
 # ArrayObject::uasort

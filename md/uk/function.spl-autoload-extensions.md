@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.spl-autoload-call.html: « splautoloadcall
-  - function.spl-autoload-functions.html: splautoloadfunctions »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - function.spl-autoload-call.md: « splautoloadcall
+  - function.spl-autoload-functions.md: splautoloadfunctions »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: splautoloadextensions
 ---
 # splautoloadextensions
@@ -18,7 +18,7 @@ splautoloadextensions — Реєстрація та виведення розш�
 spl_autoload_extensions(?string $file_extensions = null): string
 ```
 
-Ця функція може задавати розширення файлів, у яких callback-функція [autoload()](function.autoload.html) шукатиме класи та інтерфейси . [splautoload()](function.spl-autoload.md) буде викликати функцію autoload та передавати йому ці розширення. Також ця функція може виводити вже зареєстровані розширення файлів.
+Ця функція може задавати розширення файлів, у яких callback-функція [autoload()](function.autoload.md) шукатиме класи та інтерфейси . [splautoload()](function.spl-autoload.md) буде викликати функцію autoload та передавати йому ці розширення. Також ця функція може виводити вже зареєстровані розширення файлів.
 
 > **Зауваження**: Між розширеними файлами не повинно бути пробілів.
 

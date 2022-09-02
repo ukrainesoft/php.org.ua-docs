@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.free-result.html: '« mysqlistmt::freeresult'
-  - mysqli-stmt.get-warnings.html: 'mysqlistmt::getwarnings »'
+  - mysqli-stmt.free-result.md: '« mysqlistmt::freeresult'
+  - mysqli-stmt.get-warnings.md: 'mysqlistmt::getwarnings »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::getresult'
 ---
 # mysqlistmt::getresult
@@ -42,11 +42,11 @@ mysqli_stmt_get_result(mysqli_stmt $statement): mysqli_result|false
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
-Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlistmtgetresult()** поверне об'єкт [mysqliresult](class.mysqli-result.html). Для інших успішних запитів **mysqlistmtgetresult()** поверне **`false`**. функцію [mysqlistmterrno()](mysqli-stmt.errno.md) можна використовувати, щоб розрізняти дві причини появи **`false`**; через помилку до PHP 7.4.13 для цієї мети доводилося використовувати [mysqlierrno()](mysqli.errno.md)
+Повертає **`false`** у разі виникнення помилки. Для успішних запитів, які виробляють набір результатів, таких як `SELECT, SHOW, DESCRIBE` або `EXPLAIN` **mysqlistmtgetresult()** поверне об'єкт [mysqliresult](class.mysqli-result.md). Для інших успішних запитів **mysqlistmtgetresult()** поверне **`false`**. функцію [mysqlistmterrno()](mysqli-stmt.errno.md) можна використовувати, щоб розрізняти дві причини появи **`false`**; через помилку до PHP 7.4.13 для цієї мети доводилося використовувати [mysqlierrno()](mysqli.errno.md)
 
 ### Приклади
 

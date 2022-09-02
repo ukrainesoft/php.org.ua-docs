@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-decimal128interface.tostring.html: '« MongoDBBSONDecimal128Interface::toString'
-  - mongodb-bson-javascriptinterface.getcode.html: 'MongoDBBSONJavascriptInterface::getCode »'
+  - mongodb-bson-decimal128interface.tostring.md: '« MongoDBBSONDecimal128Interface::toString'
+  - mongodb-bson-javascriptinterface.getcode.md: 'MongoDBBSONJavascriptInterface::getCode »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONJavascriptInterface

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.raiseimage.html: '« Imagick::raiseImage'
-  - imagick.readimage.html: 'Imagick::readImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.raiseimage.md: '« Imagick::raiseImage'
+  - imagick.readimage.md: 'Imagick::readImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::randomThresholdImage'
 ---
 # Imagick::randomThresholdImage
@@ -32,7 +32,7 @@ public Imagick::randomThresholdImage(float $low, float $high, int $channel = Ima
 
 `channel`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для заданого режиму каналу. Для застосування більш ніж одного каналу необхідно об'єднати константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для заданого режиму каналу. Для застосування більш ніж одного каналу необхідно об'єднати константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

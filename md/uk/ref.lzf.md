@@ -1,7 +1,7 @@
 ---
 navigation:
   - lzf.constants.md: « Обумовлені константи
-  - function.lzf-compress.html: lzfcompress »
+  - function.lzf-compress.md: lzfcompress »
   - index.md: PHP Manual
   - book.lzf.md: LZF
 title: Функції LZF

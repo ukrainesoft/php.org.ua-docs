@@ -32,5 +32,5 @@ Callback-функція має повертати **`true`**, якщо пото�
 
 ### Дивіться також
 
--   [Приклади використання CallbackFilterIterator](class.callbackfilteriterator.html#callbackfilteriterator.examples)
+-   [Приклади використання CallbackFilterIterator](class.callbackfilteriterator.md#callbackfilteriterator.examples)
 -   [CallbackFilterIterator::construct()](callbackfilteriterator.construct.md) - Створює фільтруючий ітератор на основі іншого ітератора

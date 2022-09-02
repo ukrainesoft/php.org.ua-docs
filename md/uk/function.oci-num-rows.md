@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-num-fields.html: « ocinumfields
-  - function.oci-parse.html: ociparse »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-num-fields.md: « ocinumfields
+  - function.oci-parse.md: ociparse »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocinumrows
 ---
 # ocinumrows
@@ -71,4 +71,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocirowcount()](function.ocirowcount.html). У PHP 5.0.0 і вище [ocirowcount()](function.ocirowcount.html) є аліасом \*\*ocinumrows()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocirowcount()](function.ocirowcount.md). У PHP 5.0.0 і вище [ocirowcount()](function.ocirowcount.md) є аліасом \*\*ocinumrows()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

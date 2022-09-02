@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.examples.html: « Приклади
-  - class.datetime.html: DateTime »
-  - index.html: PHP Manual
-  - datetime.examples.html: Приклади
+  - datetime.examples.md: « Приклади
+  - class.datetime.md: DateTime »
+  - index.md: PHP Manual
+  - datetime.examples.md: Приклади
 title: Арифметика дати/часу
 ---
 ## Арифметика дати/часу

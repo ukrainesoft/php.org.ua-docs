@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-client-info.html: « db2clientinfo
-  - function.db2-column-privileges.html: db2columnprivileges »
+  - function.db2-client-info.md: « db2clientinfo
+  - function.db2-column-privileges.md: db2columnprivileges »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2close
 ---
 # db2close

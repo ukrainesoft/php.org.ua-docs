@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.zip-entry-read.html: « zipentryread
-  - function.zip-read.html: zipread »
+  - function.zip-entry-read.md: « zipentryread
+  - function.zip-read.md: zipread »
   - index.md: PHP Manual
   - ref.zip.md: Функции Zip
 title: zipopen
@@ -32,7 +32,7 @@ zip_open(string $filename): resource|int|false
 
 ### Значення, що повертаються
 
-Повертає посилання на ресурс для подальшого використання з функціями [zipread()](function.zip-read.html) і [zipclose()](function.zip-close.md) або повертає номер помилки, якщо `filename` не існує або у разі іншої помилки.
+Повертає посилання на ресурс для подальшого використання з функціями [zipread()](function.zip-read.md) і [zipclose()](function.zip-close.md) або повертає номер помилки, якщо `filename` не існує або у разі іншої помилки.
 
 ### список змін
 

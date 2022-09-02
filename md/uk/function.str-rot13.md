@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.str-replace.html: « strreplace
-  - function.str-shuffle.html: strshuffle »
+  - function.str-replace.md: « strreplace
+  - function.str-shuffle.md: strshuffle »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strrot13

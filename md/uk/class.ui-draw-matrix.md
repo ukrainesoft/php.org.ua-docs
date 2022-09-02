@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-draw-path.newfigurewitharc.html: '« UIDrawPath::newFigureWithArc'
-  - ui-draw-matrix.invert.html: 'ОЙDrawMatrix::invert »'
+  - ui-draw-path.newfigurewitharc.md: '« UIDrawPath::newFigureWithArc'
+  - ui-draw-matrix.invert.md: 'ОЙDrawMatrix::invert »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Матриця малювання

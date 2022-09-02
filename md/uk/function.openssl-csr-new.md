@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-csr-get-subject.html: « opensslcsrgetsubject
-  - function.openssl-csr-sign.html: opensslcsrsign »
+  - function.openssl-csr-get-subject.md: « opensslcsrgetsubject
+  - function.openssl-csr-sign.md: opensslcsrsign »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslcsrnew

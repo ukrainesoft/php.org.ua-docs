@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-bulkwriteexception.html: « MongoDBDriverExceptionBulkWriteException
-  - mongodb-driver-commandexception.getresultdocument.html: 'MongoDBDriverExceptionCommandException::getResultDocument »'
+  - class.mongodb-driver-exception-bulkwriteexception.md: « MongoDBDriverExceptionBulkWriteException
+  - mongodb-driver-commandexception.getresultdocument.md: 'MongoDBDriverExceptionCommandException::getResultDocument »'
   - index.md: PHP Manual
   - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionCommandException

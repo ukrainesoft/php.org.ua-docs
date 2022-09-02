@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-errcode.html: « ibaseerrcode
-  - function.ibase-execute.html: ibaseexecute »
+  - function.ibase-errcode.md: « ibaseerrcode
+  - function.ibase-execute.md: ibaseexecute »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseerrmsg

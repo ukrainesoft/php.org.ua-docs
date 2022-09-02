@@ -1,9 +1,9 @@
 ---
 navigation:
-  - multipleiterator.detachiterator.html: '« MultipleIterator::detachIterator'
-  - multipleiterator.key.html: 'MultipleIterator::key »'
-  - index.html: PHP Manual
-  - class.multipleiterator.html: MultipleIterator
+  - multipleiterator.detachiterator.md: '« MultipleIterator::detachIterator'
+  - multipleiterator.key.md: 'MultipleIterator::key »'
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::getFlags'
 ---
 # MultipleIterator::getFlags
@@ -34,6 +34,6 @@ public MultipleIterator::getFlags(): int
 
 ### Дивіться також
 
--   [Обумовлені константи](class.multipleiterator.html#multipleiterator.constants)
--   [MultipleIterator::construct()](multipleiterator.construct.html) - Створює новий MultipleIterator
--   [MultipleIterator::setFlags()](multipleiterator.setflags.html) - Встановлює прапори
+-   [Обумовлені константи](class.multipleiterator.md#multipleiterator.constants)
+-   [MultipleIterator::construct()](multipleiterator.construct.md) - Створює новий MultipleIterator
+-   [MultipleIterator::setFlags()](multipleiterator.setflags.md) - Встановлює прапори

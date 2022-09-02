@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.eof.html: '« SplFileObject::eof'
-  - splfileobject.fgetc.html: 'SplFileObject::fgetc »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.eof.md: '« SplFileObject::eof'
+  - splfileobject.fgetc.md: 'SplFileObject::fgetc »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fflush'
 ---
 # SplFileObject::fflush
@@ -44,4 +44,4 @@ $file->ftruncate($file->ftell());
 
 ### Дивіться також
 
--   [SplFileObject::fwrite()](splfileobject.fwrite.html) - Запис у файл
+-   [SplFileObject::fwrite()](splfileobject.fwrite.md) - Запис у файл

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.zip-close.html: « zipclose
-  - function.zip-entry-compressedsize.html: zipentrycompressedsize »
+  - function.zip-close.md: « zipclose
+  - function.zip-entry-compressedsize.md: zipentrycompressedsize »
   - index.md: PHP Manual
   - ref.zip.md: Функции Zip
 title: zipentryclose

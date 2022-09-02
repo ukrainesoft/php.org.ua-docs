@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-file-diff.html: xdifffilediff
-  - function.xdiff-file-patch-binary.html: xdifffilepatchbinary »
+  - function.xdiff-file-diff.md: xdifffilediff
+  - function.xdiff-file-patch-binary.md: xdifffilepatchbinary »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdifffilemerge3

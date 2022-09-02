@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-delete.html: « svndelete
-  - function.svn-export.html: svnexport »
+  - function.svn-delete.md: « svndelete
+  - function.svn-export.md: svnexport »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svndiff

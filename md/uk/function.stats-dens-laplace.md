@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-dens-gamma.html: « statsdensgamma
-  - function.stats-dens-logistic.html: statsdenslogistic »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-dens-gamma.md: « statsdensgamma
+  - function.stats-dens-logistic.md: statsdenslogistic »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsdenslaplace
 ---
 # statsdenslaplace

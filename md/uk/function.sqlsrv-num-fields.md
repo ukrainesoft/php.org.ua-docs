@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-next-result.html: « sqlsrvnextresult
-  - function.sqlsrv-num-rows.html: sqlsrvnumrows »
+  - function.sqlsrv-next-result.md: « sqlsrvnextresult
+  - function.sqlsrv-num-rows.md: sqlsrvnumrows »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvnumfields

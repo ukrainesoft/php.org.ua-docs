@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-lo-seek.html: « pgлоseek
-  - function.pg-lo-truncate.html: пглоtruncate »
+  - function.pg-lo-seek.md: « pgлоseek
+  - function.pg-lo-truncate.md: пглоtruncate »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пглоtell
@@ -26,7 +26,7 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 ### Значення, що повертаються
 

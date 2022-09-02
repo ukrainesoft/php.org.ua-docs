@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.result-metadata.html: '« mysqlistmt::resultmetadata'
-  - mysqli-stmt.sqlstate.html: 'mysqlistmt::$sqlstate »'
+  - mysqli-stmt.result-metadata.md: '« mysqlistmt::resultmetadata'
+  - mysqli-stmt.sqlstate.md: 'mysqlistmt::$sqlstate »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::sendlongdata'
 ---
 # mysqlistmt::sendlongdata
@@ -34,7 +34,7 @@ mysqli_stmt_send_long_data(mysqli_stmt $statement, int $param_num, string $data)
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `param_num`
 

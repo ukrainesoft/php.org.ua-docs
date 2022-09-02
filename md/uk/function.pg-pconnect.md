@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-parameter-status.html: « pgparameterstatus
-  - function.pg-ping.html: пгping »
+  - function.pg-parameter-status.md: « pgparameterstatus
+  - function.pg-ping.md: пгping »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгpconnect
@@ -22,7 +22,7 @@ pg_pconnect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 При повторному виклику функції **пгpconnect()** з тими ж значеннями параметрів `connection_string` функція поверне існуюче підключення. Щоб примусово створити нове з'єднання, необхідно надіслати рядок підключення функції **`PGSQL_CONNECT_FORCE_NEW`** як параметр `flags`
 
-Можливість створення постійних підключень регулюється директивою [pgsql.allowpersistent](pgsql.configuration.html#ini.pgsql.allow-persistent) файлу php.ini. Щоб увімкнути, встановіть значення "On" (за замовчуванням). Максимальна кількість постійних з'єднань задається директивою [pgsql.maxpersistent](pgsql.configuration.html#ini.pgsql.max-persistent) файлу php.ini (за замовчуванням –1, не обмежено). Кількість будь-яких можливих підключень встановлюється директивою [pgsql.maxlinks](pgsql.configuration.html#ini.pgsql.max-links) файлу php.ini.
+Можливість створення постійних підключень регулюється директивою [pgsql.allowpersistent](pgsql.configuration.md#ini.pgsql.allow-persistent) файлу php.ini. Щоб увімкнути, встановіть значення "On" (за замовчуванням). Максимальна кількість постійних з'єднань задається директивою [pgsql.maxpersistent](pgsql.configuration.md#ini.pgsql.max-persistent) файлу php.ini (за замовчуванням –1, не обмежено). Кількість будь-яких можливих підключень встановлюється директивою [pgsql.maxlinks](pgsql.configuration.md#ini.pgsql.max-links) файлу php.ini.
 
 [пгclose()](function.pg-close.md) не закриває з'єднання, відкриті функцією **пгpconnect()**
 

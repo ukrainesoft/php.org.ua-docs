@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.apcu.html: « Введение
-  - apcu.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.apcu.html: APCu
+  - intro.apcu.md: « Введение
+  - apcu.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.apcu.md: APCu
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](apcu.requirements.html)
--   [Установка](apcu.installation.html)
--   [Налаштування під час виконання](apcu.configuration.html)
--   [Типи ресурсів](apcu.resources.html)
+-   [Вимоги](apcu.requirements.md)
+-   [Установка](apcu.installation.md)
+-   [Налаштування під час виконання](apcu.configuration.md)
+-   [Типи ресурсів](apcu.resources.md)

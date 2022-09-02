@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration70.classes.md: « Нові класи та інтерфейси
-  - migration70.sapi-changes.html: Изменения в модулях SAPI »
+  - migration70.sapi-changes.md: Изменения в модулях SAPI »
   - index.md: PHP Manual
   - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x
 title: Нові глобальні константи

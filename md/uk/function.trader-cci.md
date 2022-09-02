@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-bop.html: « traderbop
-  - function.trader-cdl2crows.html: tradercdl2crows »
+  - function.trader-bop.md: « traderbop
+  - function.trader-cdl2crows.md: tradercdl2crows »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercci

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-redis-server.sethandler.html: '« SwooleRedisServer::setHandler'
-  - class.swoole-serialize.html: SwooleSerialize »
+  - swoole-redis-server.sethandler.md: '« SwooleRedisServer::setHandler'
+  - class.swoole-serialize.md: SwooleSerialize »
   - index.md: PHP Manual
-  - class.swoole-redis-server.html: SwooleRedisServer
+  - class.swoole-redis-server.md: SwooleRedisServer
 title: 'SwooleRedisServer::start'
 ---
 # SwooleRedisServer::start

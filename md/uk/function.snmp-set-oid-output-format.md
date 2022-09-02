@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.snmp-set-oid-numeric-print.html: « snmpsetoidnumericprint
-  - function.snmp-set-quick-print.html: snmpsetquickprint »
+  - function.snmp-set-oid-numeric-print.md: « snmpsetoidnumericprint
+  - function.snmp-set-quick-print.md: snmpsetquickprint »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpsetoidoutputformat

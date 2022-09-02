@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-beta.html: « statscdfbeta
-  - function.stats-cdf-cauchy.html: statscdfcauchy »
+  - function.stats-cdf-beta.md: « statscdfbeta
+  - function.stats-cdf-cauchy.md: statscdfcauchy »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdfbinomial

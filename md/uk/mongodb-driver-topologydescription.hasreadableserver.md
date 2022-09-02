@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-topologydescription.gettype.html: '« MongoDBDriverTopologyDescription::getType'
-  - mongodb-driver-topologydescription.haswritableserver.html: 'MongoDBDriverTopologyDescription::hasWritableServer »'
+  - mongodb-driver-topologydescription.gettype.md: '« MongoDBDriverTopologyDescription::getType'
+  - mongodb-driver-topologydescription.haswritableserver.md: 'MongoDBDriverTopologyDescription::hasWritableServer »'
   - index.md: PHP Manual
-  - class.mongodb-driver-topologydescription.html: MongoDBDriverTopologyDescription
+  - class.mongodb-driver-topologydescription.md: MongoDBDriverTopologyDescription
 title: 'MongoDBDriverTopologyDescription::hasReadableServer'
 ---
 # MongoDBDriverTopologyDescription::hasReadableServer

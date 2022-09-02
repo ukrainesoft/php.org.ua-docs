@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.lzf-decompress.html: « lzfdecompress
+  - function.lzf-decompress.md: « lzfdecompress
   - book.phar.md: Phar »
   - index.md: PHP Manual
   - ref.lzf.md: Функції LZF

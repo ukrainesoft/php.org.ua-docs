@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-ping.html: « mysqlping
-  - function.mysql-real-escape-string.html: mysqlrealescapestring »
+  - function.mysql-ping.md: « mysqlping
+  - function.mysql-real-escape-string.md: mysqlrealescapestring »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlquery
@@ -37,7 +37,7 @@ SQL-запит
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -47,7 +47,7 @@ SQL-запит
 
 Отриманий дескриптор результату слід передати у функцію [mysqlfetchassoc()](function.mysql-fetch-assoc.md) або будь-яку іншу функцію, яка працює з результатами запитів.
 
-Використовуйте [mysqlnumrows()](function.mysql-num-rows.html) для з'ясування кількості рядів в результаті SELECT-запиту або [mysqlaffectedrows()](function.mysql-affected-rows.md) для з'ясування кількості опрацьованих рядів запитами DELETE, INSERT, REPLACE та UPDATE.
+Використовуйте [mysqlnumrows()](function.mysql-num-rows.md) для з'ясування кількості рядів в результаті SELECT-запиту або [mysqlaffectedrows()](function.mysql-affected-rows.md) для з'ясування кількості опрацьованих рядів запитами DELETE, INSERT, REPLACE та UPDATE.
 
 **mysqlquery()** також завершиться з помилкою та поверне **`false`**, якщо користувач не має доступу до будь-якої з таблиць, що фігурують у запиті.
 

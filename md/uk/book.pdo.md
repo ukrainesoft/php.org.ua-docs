@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.odbc-tables.html: « odbctables
+  - function.odbc-tables.md: « odbctables
   - intro.pdo.md: Введение »
   - index.md: PHP Manual
   - refs.database.abstract.md: Рівні абстракції

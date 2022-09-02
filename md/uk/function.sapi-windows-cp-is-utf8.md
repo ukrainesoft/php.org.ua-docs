@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sapi-windows-cp-get.html: « sapiwindowsспget
-  - function.sapi-windows-cp-set.html: sapiwindowsспset »
+  - function.sapi-windows-cp-get.md: « sapiwindowsспget
+  - function.sapi-windows-cp-set.md: sapiwindowsспset »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: sapiwindowsспісutf8

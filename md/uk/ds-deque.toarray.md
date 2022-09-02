@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.sum.html: '« DsDeque::sum'
-  - ds-deque.unshift.html: 'ДсDeque::unshift »'
+  - ds-deque.sum.md: '« DsDeque::sum'
+  - ds-deque.unshift.md: 'ДсDeque::unshift »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::toArray'
 ---
 # ДсDeque::toArray

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-free-result.html: « ldapfreeresult
-  - function.ldap-get-dn.html: ldapgetdn »
+  - function.ldap-free-result.md: « ldapfreeresult
+  - function.ldap-get-dn.md: ldapgetdn »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapgetattributes
@@ -36,7 +36,7 @@ return_value["attribute"][i] = (i+1)-ое значение атрибута
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 

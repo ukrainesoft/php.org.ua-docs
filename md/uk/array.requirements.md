@@ -1,9 +1,9 @@
 ---
 navigation:
-  - array.setup.html: « Встановлення та налаштування
-  - array.installation.html: Установка »
-  - index.html: PHP Manual
-  - array.setup.html: Встановлення та налаштування
+  - array.setup.md: « Встановлення та налаштування
+  - array.installation.md: Установка »
+  - index.md: PHP Manual
+  - array.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

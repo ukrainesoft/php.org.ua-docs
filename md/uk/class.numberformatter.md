@@ -1,9 +1,9 @@
 ---
 navigation:
-  - collator.sort.html: '« Collator::sort'
-  - numberformatter.create.html: 'NumberFormatter::create »'
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - collator.sort.md: '« Collator::sort'
+  - numberformatter.create.md: 'NumberFormatter::create »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: NumberFormatter class
 ---
 # NumberFormatter class
@@ -65,7 +65,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 ## Обумовлені константи
 
-Ці стилі використовуються функцією [numfmtcreate()](numberformatter.create.html) визначення типу форматування.
+Ці стилі використовуються функцією [numfmtcreate()](numberformatter.create.md) визначення типу форматування.
 
 **`NumberFormatter::PATTERN_DECIMAL`** (int)
 
@@ -115,7 +115,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 Псевдонім для PATTERNDECIMAL
 
-Дані константи визначають, як будуть розібрані чи відформатовані числа. Їх необхідно передавати функціям [numfmtformat()](numberformatter.format.html) і [numfmtparse()](numberformatter.parse.html)
+Дані константи визначають, як будуть розібрані чи відформатовані числа. Їх необхідно передавати функціям [numfmtformat()](numberformatter.format.md) і [numfmtparse()](numberformatter.parse.md)
 
 **`NumberFormatter::TYPE_DEFAULT`** (int)
 
@@ -137,7 +137,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 Форматування/розбір як грошової одиниці
 
-Атрибут формату чисел для [numfmtgetattribute()](numberformatter.getattribute.html) і [numfmtsetattribute()](numberformatter.setattribute.html)
+Атрибут формату чисел для [numfmtgetattribute()](numberformatter.getattribute.md) і [numfmtsetattribute()](numberformatter.setattribute.md)
 
 **`NumberFormatter::PARSE_INT_ONLY`** (int)
 
@@ -219,7 +219,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 Режим поблажливий синтаксичного аналізу для заснованих на правилах форматів.
 
-Атрибути тексту форматування чисел, що використовуються в [numfmtgettextattribute()](numberformatter.gettextattribute.html) і [numfmtsettextattribute()](numberformatter.settextattribute.html)
+Атрибути тексту форматування чисел, що використовуються в [numfmtgettextattribute()](numberformatter.gettextattribute.md) і [numfmtsettextattribute()](numberformatter.settextattribute.md)
 
 **`NumberFormatter::POSITIVE_PREFIX`** (int)
 
@@ -253,7 +253,7 @@ public setTextAttribute(int $attribute, string $value): bool
 
 Публічний набір правил. Доступно лише для форматування на основі правил. Цей атрибут доступний лише для читання. Публічний набір правил повертається у вигляді рядка, в якому кожен набір правил відокремлений крапкою з комою (;).
 
-Символи форматування чисел для [numfmtgetsymbol()](numberformatter.getsymbol.html) і [numfmtsetsymbol()](numberformatter.setsymbol.html)
+Символи форматування чисел для [numfmtgetsymbol()](numberformatter.getsymbol.md) і [numfmtsetsymbol()](numberformatter.setsymbol.md)
 
 **`NumberFormatter::DECIMAL_SEPARATOR_SYMBOL`** (int)
 
@@ -327,7 +327,7 @@ The international currency symbol.
 
 Розділювач груп для фінансового формату.
 
-Режими округлення для [numfmtgetattribute()](numberformatter.getattribute.html) і [numfmtsetattribute()](numberformatter.setattribute.html) з атрибутом **`NumberFormatter::ROUNDING_MODE`**
+Режими округлення для [numfmtgetattribute()](numberformatter.getattribute.md) і [numfmtsetattribute()](numberformatter.setattribute.md) з атрибутом **`NumberFormatter::ROUNDING_MODE`**
 
 **`NumberFormatter::ROUND_CEILING`** (int)
 
@@ -357,7 +357,7 @@ The international currency symbol.
 
 Округлення вгору.
 
-Значення позиції доповнення для [numfmtgetattribute()](numberformatter.getattribute.html) і [numfmtsetattribute()](numberformatter.setattribute.html) з атрибутом **`NumberFormatter::PADDING_POSITION`**
+Значення позиції доповнення для [numfmtgetattribute()](numberformatter.getattribute.md) і [numfmtsetattribute()](numberformatter.setattribute.md) з атрибутом **`NumberFormatter::PADDING_POSITION`**
 
 **`NumberFormatter::PAD_AFTER_PREFIX`** (int)
 
@@ -379,24 +379,24 @@ The international currency symbol.
 
 -   [»  ICU formatting documentation](https://unicode-org.github.io/icu/userguide/format_parse/)
 -   [» ICU. Форматування чисел](https://unicode-org.github.io/icu/userguide/format_parse/numbers/)
--   [» ICU. Форматування десяткових дробів](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.html#details)
--   [»  ICU. Форматирование на основе правил](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.html#details)
+-   [» ICU. Форматування десяткових дробів](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
+-   [»  ICU. Форматирование на основе правил](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details)
 
 ## Зміст
 
--   [NumberFormatter::create](numberformatter.create.html) — Створює засіб форматування чисел
--   [NumberFormatter::formatCurrency](numberformatter.formatcurrency.html) - Форматує значення валюти
--   [NumberFormatter::format](numberformatter.format.html) - Форматує число
--   [NumberFormatter::getAttribute](numberformatter.getattribute.html) — Отримує атрибут
--   [NumberFormatter::getErrorCode](numberformatter.geterrorcode.html) — Отримує останній код помилки засобу форматування
--   [NumberFormatter::getErrorMessage](numberformatter.geterrormessage.html) — Отримує останнє повідомлення про помилку засобу форматування
--   [NumberFormatter::getLocale](numberformatter.getlocale.html) — Отримує локаль засобу форматування
--   [NumberFormatter::getPattern](numberformatter.getpattern.html) — Отримує шаблон засобу форматування
--   [NumberFormatter::getSymbol](numberformatter.getsymbol.html) — Отримує значення символу
--   [NumberFormatter::getTextAttribute](numberformatter.gettextattribute.html) — Отримує текстовий атрибут
--   [NumberFormatter::parseCurrency](numberformatter.parsecurrency.html) - Розбирає номер валюти
--   [NumberFormatter::parse](numberformatter.parse.html) - Розбирає число
--   [NumberFormatter::setAttribute](numberformatter.setattribute.html) - Встановлює атрибут
--   [NumberFormatter::setPattern](numberformatter.setpattern.html) — Встановлює шаблон засобу форматування
--   [NumberFormatter::setSymbol](numberformatter.setsymbol.html) — Встановлює значення символу
--   [NumberFormatter::setTextAttribute](numberformatter.settextattribute.html) - Встановлює текстовий атрибут
+-   [NumberFormatter::create](numberformatter.create.md) — Створює засіб форматування чисел
+-   [NumberFormatter::formatCurrency](numberformatter.formatcurrency.md) - Форматує значення валюти
+-   [NumberFormatter::format](numberformatter.format.md) - Форматує число
+-   [NumberFormatter::getAttribute](numberformatter.getattribute.md) — Отримує атрибут
+-   [NumberFormatter::getErrorCode](numberformatter.geterrorcode.md) — Отримує останній код помилки засобу форматування
+-   [NumberFormatter::getErrorMessage](numberformatter.geterrormessage.md) — Отримує останнє повідомлення про помилку засобу форматування
+-   [NumberFormatter::getLocale](numberformatter.getlocale.md) — Отримує локаль засобу форматування
+-   [NumberFormatter::getPattern](numberformatter.getpattern.md) — Отримує шаблон засобу форматування
+-   [NumberFormatter::getSymbol](numberformatter.getsymbol.md) — Отримує значення символу
+-   [NumberFormatter::getTextAttribute](numberformatter.gettextattribute.md) — Отримує текстовий атрибут
+-   [NumberFormatter::parseCurrency](numberformatter.parsecurrency.md) - Розбирає номер валюти
+-   [NumberFormatter::parse](numberformatter.parse.md) - Розбирає число
+-   [NumberFormatter::setAttribute](numberformatter.setattribute.md) - Встановлює атрибут
+-   [NumberFormatter::setPattern](numberformatter.setpattern.md) — Встановлює шаблон засобу форматування
+-   [NumberFormatter::setSymbol](numberformatter.setsymbol.md) — Встановлює значення символу
+-   [NumberFormatter::setTextAttribute](numberformatter.settextattribute.md) - Встановлює текстовий атрибут

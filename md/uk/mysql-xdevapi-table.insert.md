@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-table.getsession.html: '« Table::getSession'
-  - mysql-xdevapi-table.isview.html: 'Table::isView »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+  - mysql-xdevapi-table.getsession.md: '« Table::getSession'
+  - mysql-xdevapi-table.isview.md: 'Table::isView »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
 title: 'Table::insert'
 ---
 # Table::insert

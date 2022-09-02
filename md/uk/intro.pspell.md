@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.pspell.html: « Pspell
-  - pspell.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.pspell.html: Pspell
+  - book.pspell.md: « Pspell
+  - pspell.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.pspell.md: Pspell
 title: Вступ
 ---
 # Вступ

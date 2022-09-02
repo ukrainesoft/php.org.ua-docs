@@ -28,7 +28,7 @@ strval(mixed $value): string
 
 Змінна, яку потрібно перетворити на рядок.
 
-`value` може бути будь-якого скалярного типу або об'єктом, що реалізує метод [toString()](language.oop5.magic.html#object.tostring). . **strval()** не можна застосувати до масиву або об'єкта, які не реалізують метод [toString()](language.oop5.magic.html#object.tostring)
+`value` може бути будь-якого скалярного типу або об'єктом, що реалізує метод [toString()](language.oop5.magic.md#object.tostring). . **strval()** не можна застосувати до масиву або об'єкта, які не реалізують метод [toString()](language.oop5.magic.md#object.tostring)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ strval(mixed $value): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання **strval()** з магічним методом PHP [toString()](language.oop5.magic.html#object.tostring)**
+**Приклад #1 Приклад використання **strval()** з магічним методом PHP [toString()](language.oop5.magic.md#object.tostring)**
 
 ```php
 <?php
@@ -62,4 +62,4 @@ echo strval(new StrValTest);
 -   [sprintf()](function.sprintf.md) - Повертає відформатований рядок
 -   [numberformat()](function.number-format.md) - Форматує число з поділом груп
 -   [Маніпуляції з типами](language.types.type-juggling.md)
--   [toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.md#object.tostring)

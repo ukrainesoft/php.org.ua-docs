@@ -1,9 +1,9 @@
 ---
 navigation:
-  - apcuiterator.gettotalcount.html: '« APCUIterator::getTotalCount'
-  - apcuiterator.gettotalsize.html: 'APCUIterator::getTotalSize »'
-  - index.html: PHP Manual
-  - class.apcuiterator.html: APCUIterator
+  - apcuiterator.gettotalcount.md: '« APCUIterator::getTotalCount'
+  - apcuiterator.gettotalsize.md: 'APCUIterator::getTotalSize »'
+  - index.md: PHP Manual
+  - class.apcuiterator.md: APCUIterator
 title: 'APCUIterator::getTotalHits'
 ---
 # APCUIterator::getTotalHits

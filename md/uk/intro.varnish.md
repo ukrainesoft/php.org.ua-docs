@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.varnish.html: « Varnish
-  - varnish.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.varnish.html: Varnish
+  - book.varnish.md: « Varnish
+  - varnish.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.varnish.md: Varnish
 title: Вступ
 ---
 # Вступ

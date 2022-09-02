@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ctype.configuration.html: « Налаштування під час виконання
-  - ctype.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - ctype.setup.html: Встановлення та налаштування
+  - ctype.configuration.md: « Налаштування під час виконання
+  - ctype.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - ctype.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-send-mail.html: « mbsendmail
-  - function.mb-str-split.html: мбstrsplit »
+  - function.mb-send-mail.md: « mbsendmail
+  - function.mb-str-split.md: мбstrsplit »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбsplit

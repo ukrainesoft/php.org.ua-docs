@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-rowresult.getcolumnnames.html: '« RowResult::getColumnNames'
-  - mysql-xdevapi-rowresult.getwarnings.html: 'RowResult::getWarnings »'
+  - mysql-xdevapi-rowresult.getcolumnnames.md: '« RowResult::getColumnNames'
+  - mysql-xdevapi-rowresult.getwarnings.md: 'RowResult::getWarnings »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
 title: 'RowResult::getColumns'
 ---
 # RowResult::getColumns

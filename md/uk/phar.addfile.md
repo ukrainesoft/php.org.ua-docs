@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.addemptydir.html: '« Phar::addEmptyDir'
-  - phar.addfromstring.html: 'Phar::addFromString »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.addemptydir.md: '« Phar::addEmptyDir'
+  - phar.addfromstring.md: 'Phar::addFromString »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::addFile'
 ---
 # Phar::addFile
@@ -20,7 +20,7 @@ public Phar::addFile(string $filename, ?string $localName = null): void
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 За допомогою цього методу phar-архів може бути доданий будь-який файл або вміст, доступний по URL. Якщо вказано необов'язковий другий параметр `localName`, то файл буде збережений в архіві з таким ім'ям, в іншому випадку як шлях для збереження всередині архіву буде використано параметр `file`. При додаванні вмісту, доступного за URL-адресою, параметр `localname` має бути зазначено, інакше буде викинуто виняток. Цей метод аналогічний [ZipArchive::addFile()](ziparchive.addfile.md)
 
@@ -70,7 +70,7 @@ try {
 
 ### Примітки
 
-> **Зауваження** **Phar::addFile()** [Phar::addFromString()](phar.addfromstring.html) і [Phar::offsetSet()](phar.offsetset.html) зберігає новий phar-архів щоразу при їхньому викликі. Якщо продуктивність викликає занепокоєння, натомість слід використовувати [Phar::buildFromDirectory()](phar.buildfromdirectory.html) або [Phar::buildFromIterator()](phar.buildfromiterator.md)
+> **Зауваження** **Phar::addFile()** [Phar::addFromString()](phar.addfromstring.md) і [Phar::offsetSet()](phar.offsetset.md) зберігає новий phar-архів щоразу при їхньому викликі. Якщо продуктивність викликає занепокоєння, натомість слід використовувати [Phar::buildFromDirectory()](phar.buildfromdirectory.md) або [Phar::buildFromIterator()](phar.buildfromiterator.md)
 
 ### Дивіться також
 

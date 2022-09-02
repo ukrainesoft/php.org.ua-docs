@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.getchildren.html: '« Zookeeper::getChildren'
-  - zookeeper.getconfig.html: 'Zookeeper::getConfig »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.getchildren.md: '« Zookeeper::getChildren'
+  - zookeeper.getconfig.md: 'Zookeeper::getConfig »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::getClientId'
 ---
 # Zookeeper::getClientId
@@ -33,12 +33,12 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Дивіться також
 
--   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::getState()](zookeeper.getstate.html) - Отримує стан з'єднання zookeeper
--   [Стан ZooKeeper](class.zookeeper.html#zookeeper.class.constants.states)
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::getState()](zookeeper.getstate.md) - Отримує стан з'єднання zookeeper
+-   [Стан ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
+-   [ZookeeperException](class.zookeeperexception.md)

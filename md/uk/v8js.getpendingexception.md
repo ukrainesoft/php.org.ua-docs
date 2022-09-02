@@ -1,9 +1,9 @@
 ---
 navigation:
-  - v8js.getextensions.html: '« V8Js::getExtensions'
-  - v8js.registerextension.html: 'V8Js::registerExtension »'
-  - index.html: PHP Manual
-  - class.v8js.html: V8Js
+  - v8js.getextensions.md: '« V8Js::getExtensions'
+  - v8js.registerextension.md: 'V8Js::registerExtension »'
+  - index.md: PHP Manual
+  - class.v8js.md: V8Js
 title: 'V8Js::getPendingException'
 ---
 # V8Js::getPendingException
@@ -18,7 +18,7 @@ V8Js::getPendingException — Повертає очікуваний непойм
 public V8Js::getPendingException(): V8JsException
 ```
 
-Повертає очікуваний непойманий виняток Javascript у вигляді [V8JsException](class.v8jsexception.html), що залишилося від попередніх запусків [V8Js::executeString()](v8js.executestring.html)
+Повертає очікуваний непойманий виняток Javascript у вигляді [V8JsException](class.v8jsexception.md), що залишилося від попередніх запусків [V8Js::executeString()](v8js.executestring.md)
 
 ### Список параметрів
 
@@ -26,4 +26,4 @@ public V8Js::getPendingException(): V8JsException
 
 ### Значення, що повертаються
 
-[V8JsException](class.v8jsexception.html) або **`null`**
+[V8JsException](class.v8jsexception.md) або **`null`**

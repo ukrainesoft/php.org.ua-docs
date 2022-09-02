@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanjob.handle.html: '« GearmanJob::handle'
-  - gearmanjob.sendcomplete.html: 'GearmanJob::sendComplete »'
-  - index.html: PHP Manual
-  - class.gearmanjob.html: GearmanJob
+  - gearmanjob.handle.md: '« GearmanJob::handle'
+  - gearmanjob.sendcomplete.md: 'GearmanJob::sendComplete »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::returnCode'
 ---
 # GearmanJob::returnCode
@@ -30,4 +30,4 @@ public GearmanJob::returnCode(): int
 
 ### Дивіться також
 
--   [GearmanTask::returnCode()](gearmantask.returncode.html) - Отримати останній код повернення
+-   [GearmanTask::returnCode()](gearmantask.returncode.md) - Отримати останній код повернення

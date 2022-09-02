@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.set.html: '« SolrDocument::set'
-  - solrdocument.toarray.html: 'SolrDocument::toArray »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.set.md: '« SolrDocument::set'
+  - solrdocument.toarray.md: 'SolrDocument::toArray »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::sort'
 ---
 # SolrDocument::sort

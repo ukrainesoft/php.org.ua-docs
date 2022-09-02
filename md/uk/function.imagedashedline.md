@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagecropauto.html: « imagecropauto
-  - function.imagedestroy.html: imagedestroy »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagecropauto.md: « imagecropauto
+  - function.imagedestroy.md: imagedestroy »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagedashedline
 ---
 # imagedashedline
@@ -18,13 +18,13 @@ imagedashedline — Малювання пунктирної лінії
 imagedashedline(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2,    int $color): bool
 ```
 
-Функція застаріла. Використовуйте поєднання функцій [imagesetstyle()](function.imagesetstyle.html) і [imageline()](function.imageline.html)
+Функція застаріла. Використовуйте поєднання функцій [imagesetstyle()](function.imagesetstyle.md) і [imageline()](function.imageline.md)
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x1`
 
@@ -44,7 +44,7 @@ imagedashedline(    GdImage $image,    int $x1,    int $y1,    i
 
 `color`
 
-Колір лінії. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Колір лінії. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -54,7 +54,7 @@ imagedashedline(    GdImage $image,    int $x1,    int $y1,    i
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -113,5 +113,5 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagesetstyle()](function.imagesetstyle.html) - Встановлення стилю малювання ліній
--   [imageline()](function.imageline.html) - Малювання лінії
+-   [imagesetstyle()](function.imagesetstyle.md) - Встановлення стилю малювання ліній
+-   [imageline()](function.imageline.md) - Малювання лінії

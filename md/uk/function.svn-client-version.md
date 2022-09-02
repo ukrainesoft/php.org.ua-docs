@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-cleanup.html: « svncleanup
-  - function.svn-commit.html: svncommit »
+  - function.svn-cleanup.md: « svncleanup
+  - function.svn-commit.md: svncommit »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnclientversion

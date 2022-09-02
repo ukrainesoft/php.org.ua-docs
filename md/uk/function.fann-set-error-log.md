@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-cascade-weight-multiplier.html: « fannsetcascadeweightmultiplier
-  - function.fann-set-input-scaling-params.html: fannsetinputscalingparams »
+  - function.fann-set-cascade-weight-multiplier.md: « fannsetcascadeweightmultiplier
+  - function.fann-set-input-scaling-params.md: fannsetinputscalingparams »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannseterrorlog

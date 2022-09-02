@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rrd.constants.html: « Обумовлені константи
-  - rrd.examples-procedural.html: Процедурний приклад PECL/rrd »
-  - index.html: PHP Manual
-  - book.rrd.html: RRD
+  - rrd.constants.md: « Обумовлені константи
+  - rrd.examples-procedural.md: Процедурний приклад PECL/rrd »
+  - index.md: PHP Manual
+  - book.rrd.md: RRD
 title: Приклади
 ---
 # Приклади

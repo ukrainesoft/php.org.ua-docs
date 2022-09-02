@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-unshare.html: pcntlunshare
-  - function.pcntl-waitpid.html: pcntlwaitpid »
+  - function.pcntl-unshare.md: pcntlunshare
+  - function.pcntl-waitpid.md: pcntlwaitpid »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlwait
@@ -28,7 +28,7 @@ pcntl_wait(int &$status, int $flags = 0, array &$resource_usage = []): int
 
 `status`
 
-**pcntlwait()** розмістить інформацію про статус за посиланням у аргументі `status`, який може бути переданий у такі функції: [pcntlwifexited()](function.pcntl-wifexited.html) [pcntlwifstopped()](function.pcntl-wifstopped.html) [pcntlwifsignaled()](function.pcntl-wifsignaled.html) [pcntlwexitstatus()](function.pcntl-wexitstatus.html) [pcntlwtermsig()](function.pcntl-wtermsig.html) і [pcntlwstopsig()](function.pcntl-wstopsig.md)
+**pcntlwait()** розмістить інформацію про статус за посиланням у аргументі `status`, який може бути переданий у такі функції: [pcntlwifexited()](function.pcntl-wifexited.md) [pcntlwifstopped()](function.pcntl-wifstopped.md) [pcntlwifsignaled()](function.pcntl-wifsignaled.md) [pcntlwexitstatus()](function.pcntl-wexitstatus.md) [pcntlwtermsig()](function.pcntl-wtermsig.md) і [pcntlwstopsig()](function.pcntl-wstopsig.md)
 
 `flags`
 

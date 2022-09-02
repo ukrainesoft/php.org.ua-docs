@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.fetchone.html: '« SqlStatementResult::fetchOne'
-  - mysql-xdevapi-sqlstatementresult.getcolumncount.html: 'SqlStatementResult::getColumnsCount »'
+  - mysql-xdevapi-sqlstatementresult.fetchone.md: '« SqlStatementResult::fetchOne'
+  - mysql-xdevapi-sqlstatementresult.getcolumncount.md: 'SqlStatementResult::getColumnsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::getAffectedItemsCount'
 ---
 # SqlStatementResult::getAffectedItemsCount

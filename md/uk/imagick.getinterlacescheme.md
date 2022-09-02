@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagewidth.html: '« Imagick::getImageWidth'
-  - imagick.getiteratorindex.html: 'Imagick::getIteratorIndex »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagewidth.md: '« Imagick::getImageWidth'
+  - imagick.getiteratorindex.md: 'Imagick::getIteratorIndex »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getInterlaceScheme'
 ---
 # Imagick::getInterlaceScheme
@@ -26,7 +26,7 @@ public Imagick::getInterlaceScheme(): int
 
 ### Значення, що повертаються
 
-Отримує схему [сжатия изображения](imagick.constants.html#imagick.constants.interlace)
+Отримує схему [сжатия изображения](imagick.constants.md#imagick.constants.interlace)
 
 ### Помилки
 

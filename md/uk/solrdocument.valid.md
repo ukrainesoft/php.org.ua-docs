@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.unset.html: '« SolrDocument::unset'
-  - class.solrdocumentfield.html: SolrDocumentField »
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.unset.md: '« SolrDocument::unset'
+  - class.solrdocumentfield.md: SolrDocumentField »
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::valid'
 ---
 # SolrDocument::valid

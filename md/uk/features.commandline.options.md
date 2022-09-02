@@ -210,7 +210,7 @@ r | -Run |
 
 > **Зауваження**
 > 
-> Ця опція призначена лише для найпростішого коду. Тому деякі конфігураційні директиви (наприклад, [autoprependfile](ini.core.html#ini.auto-prepend-file) і [autoappendfile](ini.core.html#ini.auto-append-file)) у цьому режимі будуть проігноровані.
+> Ця опція призначена лише для найпростішого коду. Тому деякі конфігураційні директиви (наприклад, [autoprependfile](ini.core.md#ini.auto-prepend-file) і [autoappendfile](ini.core.md#ini.auto-append-file)) у цьому режимі будуть проігноровані.
 
 B | -process-begin |
 

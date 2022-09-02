@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apache-lookup-uri.html: « apachelookupuri
-  - function.apache-request-headers.html: apacherequestheaders »
-  - index.html: PHP Manual
-  - ref.apache.html: Функции Apache
+  - function.apache-lookup-uri.md: « apachelookupuri
+  - function.apache-request-headers.md: apacherequestheaders »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
 title: apachenote
 ---
 # apachenote
@@ -84,4 +84,4 @@ apache_note('sessionID', session_id());
 
 ### Дивіться також
 
--   [virtual()](function.virtual.html) - Виконує підзапит Apache
+-   [virtual()](function.virtual.md) - Виконує підзапит Apache

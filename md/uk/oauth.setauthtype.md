@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.getrequesttoken.html: '« OAuth::getRequestToken'
-  - oauth.setcapath.html: 'OAuth::setCAPath »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.getrequesttoken.md: '« OAuth::getRequestToken'
+  - oauth.setcapath.md: 'OAuth::setCAPath »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::setAuthType'
 ---
 # OAuth::setAuthType

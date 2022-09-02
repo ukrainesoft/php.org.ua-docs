@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-supervar.assemble.html: '« YafRouteSupervar::assemble'
-  - yaf-route-supervar.route.html: 'YafRouteSupervar::route »'
+  - yaf-route-supervar.assemble.md: '« YafRouteSupervar::assemble'
+  - yaf-route-supervar.route.md: 'YafRouteSupervar::route »'
   - index.md: PHP Manual
-  - class.yaf-route-supervar.html: YafRouteSupervar
+  - class.yaf-route-supervar.md: YafRouteSupervar
 title: 'YafRouteSupervar::construct'
 ---
 # YafRouteSupervar::construct
@@ -16,7 +16,7 @@ YafRouteSupervar::construct - Призначення construct
 
 public **YafRouteSupervar::construct**(string `$supervar_name`
 
-[YafRouteSupervar](class.yaf-route-supervar.html) схожий на [YafRouteStatic](class.yaf-route-static.html), Різниця в тому, що [YafRouteSupervar](class.yaf-route-supervar.md) шукатиме інформацію про шлях у рядку запиту, а параметр supervarname є ключем.
+[YafRouteSupervar](class.yaf-route-supervar.md) схожий на [YafRouteStatic](class.yaf-route-static.md), Різниця в тому, що [YafRouteSupervar](class.yaf-route-supervar.md) шукатиме інформацію про шлях у рядку запиту, а параметр supervarname є ключем.
 
 ### Список параметрів
 

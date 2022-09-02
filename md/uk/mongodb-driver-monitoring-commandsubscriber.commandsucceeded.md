@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsubscriber.commandstarted.html: '« MongoDBDriverMonitoringCommandSubscriber::commandStarted'
-  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber »
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-commandsubscriber.html: MongoDBDriverMonitoringCommandSubscriber
+  - mongodb-driver-monitoring-commandsubscriber.commandstarted.md: '« MongoDBDriverMonitoringCommandSubscriber::commandStarted'
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsubscriber.md: MongoDBDriverMonitoringCommandSubscriber
 title: 'MongoDBDriverMonitoringCommandSubscriber::commandSucceeded'
 ---
 # MongoDBDriverMonitoringCommandSubscriber::commandSucceeded

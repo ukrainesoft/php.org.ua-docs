@@ -1,29 +1,29 @@
 ---
 navigation:
-  - refs.utilspec.server.html: Модулі для роботи з серверами
-  - intro.apache.html: Введение »
-  - index.html: PHP Manual
-  - refs.utilspec.server.html: Модулі для роботи із серверами
+  - refs.utilspec.server.md: Модулі для роботи з серверами
+  - intro.apache.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.server.md: Модулі для роботи із серверами
 title: Apache
 ---
 # Apache
 
--   [Введение](intro.apache.html)
--   [Встановлення та налаштування](apache.setup.html)
-    -   [Вимоги](apache.requirements.html)
-    -   [Установка](apache.installation.html)
-    -   [Налаштування під час виконання](apache.configuration.html)
-    -   [Типи ресурсів](apache.resources.html)
--   [Обумовлені константи](apache.constants.html)
--   [Функции Apache](ref.apache.html)
-    -   [apachechildterminate](function.apache-child-terminate.html) — Завершити процес Apache після поточного запиту
-    -   [apachegetmodules](function.apache-get-modules.html) — Повертає список завантажених модулів сервера Apache
-    -   [apachegetversion](function.apache-get-version.html) — Повертає версію Apache
-    -   [apachegetenv](function.apache-getenv.html) — Повертає змінну оточення підпроцесу сервера Apache
-    -   [apachelookupuri](function.apache-lookup-uri.html) — Здійснити частковий запит на вказаний URI та повернути усі отримані відомості
-    -   [apachenote](function.apache-note.html) — Повертає та встановлює повідомлення до запиту Apache
-    -   [apacherequestheaders](function.apache-request-headers.html) — Отримує список усіх заголовків HTTP-запиту
-    -   [apacheresponseheaders](function.apache-response-headers.html) — Повертає список усіх заголовків HTTP відповіді Apache
-    -   [apachesetenv](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
-    -   [getallheaders](function.getallheaders.html) — Повертає всі заголовки HTTP-запиту
-    -   [virtual](function.virtual.html) - Виконує підзапит Apache
+-   [Введение](intro.apache.md)
+-   [Встановлення та налаштування](apache.setup.md)
+    -   [Вимоги](apache.requirements.md)
+    -   [Установка](apache.installation.md)
+    -   [Налаштування під час виконання](apache.configuration.md)
+    -   [Типи ресурсів](apache.resources.md)
+-   [Обумовлені константи](apache.constants.md)
+-   [Функции Apache](ref.apache.md)
+    -   [apachechildterminate](function.apache-child-terminate.md) — Завершити процес Apache після поточного запиту
+    -   [apachegetmodules](function.apache-get-modules.md) — Повертає список завантажених модулів сервера Apache
+    -   [apachegetversion](function.apache-get-version.md) — Повертає версію Apache
+    -   [apachegetenv](function.apache-getenv.md) — Повертає змінну оточення підпроцесу сервера Apache
+    -   [apachelookupuri](function.apache-lookup-uri.md) — Здійснити частковий запит на вказаний URI та повернути усі отримані відомості
+    -   [apachenote](function.apache-note.md) — Повертає та встановлює повідомлення до запиту Apache
+    -   [apacherequestheaders](function.apache-request-headers.md) — Отримує список усіх заголовків HTTP-запиту
+    -   [apacheresponseheaders](function.apache-response-headers.md) — Повертає список усіх заголовків HTTP відповіді Apache
+    -   [apachesetenv](function.apache-setenv.md) - Встановлює змінну subprocessenv Apache
+    -   [getallheaders](function.getallheaders.md) — Повертає всі заголовки HTTP-запиту
+    -   [virtual](function.virtual.md) - Виконує підзапит Apache

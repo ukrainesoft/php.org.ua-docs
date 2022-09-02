@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-callback.html: « fannsetcallback
-  - function.fann-set-cascade-activation-steepnesses.html: fannsetcascadeactivationsteepnesses »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-callback.md: « fannsetcallback
+  - function.fann-set-cascade-activation-steepnesses.md: fannsetcascadeactivationsteepnesses »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetcascadeactivationфункцій
 ---
 # fannsetcascadeactivationфункцій
@@ -20,7 +20,7 @@ fann_set_cascade_activation_functions(resource $ann, array $cascade_activation_f
 
 Встановлює масив каскадних функцій активації кандидатів.
 
-Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.html) для опису того, які нейрони-кандидати будуть згенеровані цим масивом.
+Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.md) для опису того, які нейрони-кандидати будуть згенеровані цим масивом.
 
 ### Список параметрів
 
@@ -38,5 +38,5 @@ fann_set_cascade_activation_functions(resource $ann, array $cascade_activation_f
 
 ### Дивіться також
 
--   [fanngetcascadeactivationfunctionscount()](function.fann-get-cascade-activation-functions-count.html) - Повертає кількість функцій каскадної активації
+-   [fanngetcascadeactivationfunctionscount()](function.fann-get-cascade-activation-functions-count.md) - Повертає кількість функцій каскадної активації
 -   **fannsetcascadeactivationfunctions()**

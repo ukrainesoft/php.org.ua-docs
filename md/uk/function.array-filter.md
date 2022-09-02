@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-fill.html: « arrayfill
-  - function.array-flip.html: arrayflip »
+  - function.array-fill.md: « arrayfill
+  - function.array-flip.md: arrayflip »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayfilter

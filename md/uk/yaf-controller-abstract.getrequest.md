@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-controller-abstract.getname.html: '« YafControllerAbstract::getName'
-  - yaf-controller-abstract.getresponse.html: 'YafControllerAbstract::getResponse »'
-  - index.html: PHP Manual
-  - class.yaf-controller-abstract.html: YafControllerAbstract
+  - yaf-controller-abstract.getname.md: '« YafControllerAbstract::getName'
+  - yaf-controller-abstract.getresponse.md: 'YafControllerAbstract::getResponse »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
 title: 'YafControllerAbstract::getRequest'
 ---
 # YafControllerAbstract::getRequest
@@ -26,4 +26,4 @@ public Yaf_Controller_Abstract::getRequest(): Yaf_Request_Abstract
 
 ### Значення, що повертаються
 
-Екземпляр [YafRequestAbstract](class.yaf-request-abstract.html)
+Екземпляр [YafRequestAbstract](class.yaf-request-abstract.md)

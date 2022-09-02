@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-wsaprotocol-info-export.html: « socketwsaprotocolinfoexport
-  - function.socket-wsaprotocol-info-release.html: socketwsaprotocolinforelease »
+  - function.socket-wsaprotocol-info-export.md: « socketwsaprotocolinfoexport
+  - function.socket-wsaprotocol-info-release.md: socketwsaprotocolinforelease »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketwsaprotocolinfoimport

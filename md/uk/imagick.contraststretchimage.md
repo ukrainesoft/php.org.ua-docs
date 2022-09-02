@@ -32,7 +32,7 @@ public Imagick::contrastStretchImage(float $black_point, float $white_point, int
 
 `channel`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для застосування більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів . **`Imagick::CHANNEL_ALL`**. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для застосування більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів . **`Imagick::CHANNEL_ALL`**. Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

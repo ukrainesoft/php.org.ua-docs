@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro-whatcando.html: « Можливості PHP
+  - intro-whatcando.md: « Можливості PHP
   - tutorial.requirements.md: Що мені потрібно? »
   - index.md: PHP Manual
-  - getting-started.html: Приступаючи до роботи
+  - getting-started.md: Приступаючи до роботи
 title: Простий підручник
 ---
 # Простий підручник

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.inet-pton.html: « inetpton
+  - function.inet-pton.md: « inetpton
   - function.long2ip.md: long2ip »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції

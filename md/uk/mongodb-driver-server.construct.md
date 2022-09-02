@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-server.html: « MongoDBDriverServer
-  - mongodb-driver-server.executebulkwrite.html: 'MongoDBDriverServer::executeBulkWrite »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: « MongoDBDriverServer
+  - mongodb-driver-server.executebulkwrite.md: 'MongoDBDriverServer::executeBulkWrite »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::construct'
 ---
 # MongoDBDriverServer::construct
@@ -18,7 +18,7 @@ MongoDBDriverServer::construct — Створює новий сервер (не 
 final private MongoDB\Driver\Server::__construct()
 ```
 
-Об'єкти [MongoDBDriverServer](class.mongodb-driver-server.html) створюються всередині [MongoDBDriverManager](class.mongodb-driver-manager.html), коли з'єднання з базою даних встановлено і можуть бути повернуті [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.html) і [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.html)
+Об'єкти [MongoDBDriverServer](class.mongodb-driver-server.md) створюються всередині [MongoDBDriverManager](class.mongodb-driver-manager.md), коли з'єднання з базою даних встановлено і можуть бути повернуті [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md) і [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.md)
 
 ### Список параметрів
 
@@ -26,5 +26,5 @@ final private MongoDB\Driver\Server::__construct()
 
 ### Дивіться також
 
--   [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.html) - Повертає сервери, до яких підключено менеджера
--   [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.html) - Вибрати сервер, що відповідає перевагам читання
+-   [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md) - Повертає сервери, до яких підключено менеджера
+-   [MongoDBDriverManager::selectServer()](mongodb-driver-manager.selectserver.md) - Вибрати сервер, що відповідає перевагам читання

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlidentical3crows.html: « tradercdlidentical3crows
-  - function.trader-cdlinvertedhammer.html: tradercdlinvertedhammer »
+  - function.trader-cdlidentical3crows.md: « tradercdlidentical3crows
+  - function.trader-cdlinvertedhammer.md: tradercdlinvertedhammer »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlinneck

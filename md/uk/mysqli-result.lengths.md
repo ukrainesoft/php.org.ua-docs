@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.getiterator.html: '« mysqliresult::getIterator'
-  - mysqli-result.num-rows.html: 'mysqliresult::$numrows »'
-  - index.html: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - mysqli-result.getiterator.md: '« mysqliresult::getIterator'
+  - mysqli-result.num-rows.md: 'mysqliresult::$numrows »'
+  - index.md: PHP Manual
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::$lengths'
 ---
 # mysqliresult::$lengths
@@ -32,7 +32,7 @@ mysqli_fetch_lengths(mysqli_result $result): array|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 

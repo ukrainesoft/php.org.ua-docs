@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.com-get-active-object.html: « comgetactiveobject
-  - function.com-message-pump.html: commessagepump »
+  - function.com-get-active-object.md: « comgetactiveobject
+  - function.com-message-pump.md: commessagepump »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: comloadtypelib
@@ -20,9 +20,9 @@ com_load_typelib(string $typelib, bool $case_insensitive = true): bool
 
 Завантажує бібліотеку типів і реєструє її константи таким чином, якби вони були визначені через [define()](function.define.md)
 
-Зверніть увагу, що набагато ефективніше використовувати опцію конфігурації php.ini [com.typelib-file](com.configuration.html#ini.com.typelib-file) для передзавантаження та реєстрації констант. З іншого боку, такий метод менш гнучкий.
+Зверніть увагу, що набагато ефективніше використовувати опцію конфігурації php.ini [com.typelib-file](com.configuration.md#ini.com.typelib-file) для передзавантаження та реєстрації констант. З іншого боку, такий метод менш гнучкий.
 
-Якщо [com.autoregister-typelib](com.configuration.html#ini.com.autoregister-typelib) включено, то PHP постарається автоматично зареєструвати константи, асоційовані з об'єктом COM, коли ви створюватимете його екземпляр. Але така поведінка залежить від інтерфейсу об'єкта COM і може бути недоступною.
+Якщо [com.autoregister-typelib](com.configuration.md#ini.com.autoregister-typelib) включено, то PHP постарається автоматично зареєструвати константи, асоційовані з об'єктом COM, коли ви створюватимете його екземпляр. Але така поведінка залежить від інтерфейсу об'єкта COM і може бути недоступною.
 
 ### Список параметрів
 

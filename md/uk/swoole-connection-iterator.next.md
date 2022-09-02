@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-connection-iterator.key.html: '« SwooleConnectionIterator::key'
-  - swoole-connection-iterator.offsetexists.html: 'SwooleConnectionIterator::offsetExists »'
+  - swoole-connection-iterator.key.md: '« SwooleConnectionIterator::key'
+  - swoole-connection-iterator.offsetexists.md: 'SwooleConnectionIterator::offsetExists »'
   - index.md: PHP Manual
-  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+  - class.swoole-connection-iterator.md: SwooleConnectionIterator
 title: 'SwooleConnectionIterator::next'
 ---
 # SwooleConnectionIterator::next

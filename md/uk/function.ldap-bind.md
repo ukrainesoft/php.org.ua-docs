@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-bind-ext.html: « ldapbindext
-  - function.ldap-close.html: ldapclose »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-bind-ext.md: « ldapbindext
+  - function.ldap-close.md: ldapclose »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapbind
 ---
 # ldapbind
@@ -24,7 +24,7 @@ ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): 
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
 
@@ -40,7 +40,7 @@ ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

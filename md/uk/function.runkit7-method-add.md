@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.runkit7-import.html: « runkit7import
-  - function.runkit7-method-copy.html: runkit7methodcopy »
+  - function.runkit7-import.md: « runkit7import
+  - function.runkit7-method-copy.md: runkit7methodcopy »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
 title: runkit7методadd

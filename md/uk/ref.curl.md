@@ -1,9 +1,9 @@
 ---
 navigation:
-  - curl.examples-basic.html: « Простий приклад використання curl
-  - function.curl-close.html: curlclose »
-  - index.html: PHP Manual
-  - book.curl.html: cURL
+  - curl.examples-basic.md: « Простий приклад використання curl
+  - function.curl-close.md: curlclose »
+  - index.md: PHP Manual
+  - book.curl.md: cURL
 title: Функції cURL
 ---
 # Функції cURL

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getmltmintermfrequency.html: '« SolrQuery::getMltMinTermFrequency'
-  - solrquery.getmltqueryfields.html: 'SolrQuery::getMltQueryFields »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getmltmintermfrequency.md: '« SolrQuery::getMltMinTermFrequency'
+  - solrquery.getmltqueryfields.md: 'SolrQuery::getMltQueryFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getMltMinWordLength'
 ---
 # SolrQuery::getMltMinWordLength

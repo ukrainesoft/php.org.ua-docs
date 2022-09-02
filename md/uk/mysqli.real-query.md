@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.real-escape-string.html: '« mysqli::realescapestring'
-  - mysqli.reap-async-query.html: 'mysqli::reapasyncquery »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.real-escape-string.md: '« mysqli::realescapestring'
+  - mysqli.reap-async-query.md: 'mysqli::reapasyncquery »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::realquery'
 ---
 # mysqli::realquery
@@ -28,7 +28,7 @@ public mysqli::real_query(string $query): bool
 mysqli_real_query(mysqli $mysql, string $query): bool
 ```
 
-Виконує одиночний запит до бази даних, результати якого можна отримати або використовувати функціями [mysqlistoreresult()](mysqli.store-result.html) або [mysqliuseresult()](mysqli.use-result.md)
+Виконує одиночний запит до бази даних, результати якого можна отримати або використовувати функціями [mysqlistoreresult()](mysqli.store-result.md) або [mysqliuseresult()](mysqli.use-result.md)
 
 Щоб визначити, чи має запит повертати результуючий набір, дивіться [mysqlifieldcount()](mysqli.field-count.md)
 
@@ -36,7 +36,7 @@ mysqli_real_query(mysqli $mysql, string $query): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `query`
 
@@ -46,7 +46,7 @@ mysqli_real_query(mysqli $mysql, string $query): bool
 
 # Попередження безпеки: SQL-ін'єкція
 
-Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.html). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
+Якщо запит містить будь-які вхідні змінні, натомість слід використовувати [запити, що готуються](mysqli.quickstart.prepared-statements.md). Як альтернатива дані повинні бути правильно відформатовані і всі рядки повинні бути екрановані за допомогою функції [mysqlirealescapestring()](mysqli.real-escape-string.md)
 
 ### Значення, що повертаються
 

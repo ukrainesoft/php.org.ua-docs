@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.msg-remove-queue.html: « msgremovequeue
-  - function.msg-set-queue.html: msgsetqueue »
+  - function.msg-remove-queue.md: « msgremovequeue
+  - function.msg-set-queue.md: msgsetqueue »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: msgsend

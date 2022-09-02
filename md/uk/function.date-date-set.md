@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-create.html: « datecreate
-  - function.date-default-timezone-get.html: datedefaulttimezoneget »
+  - function.date-create.md: « datecreate
+  - function.date-default-timezone-get.md: datedefaulttimezoneget »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datedateset

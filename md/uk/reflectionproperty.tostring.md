@@ -32,4 +32,4 @@ public ReflectionProperty::__toString(): string
 
 ### Дивіться також
 
--   [toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.md#object.tostring)

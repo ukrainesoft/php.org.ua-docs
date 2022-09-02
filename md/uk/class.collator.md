@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intl.examples.basic.html: « Основи використання модуля
-  - collator.asort.html: 'Collator::asort »'
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - intl.examples.basic.md: « Основи використання модуля
+  - collator.asort.md: 'Collator::asort »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Клас Collator
 ---
 # Клас Collator
@@ -122,7 +122,7 @@ public sort(array &$array, int $flags = Collator::SORT_REGULAR): bool
 
 **`Collator::STRENGTH`** (int)
 
-ICU Collation Service підтримує безліч рівнів порівняння (вони називаються "Levels", але також відомі як "Strengths"). Використання цих налаштувань дозволяє ICU сортувати рядки точно відповідно до правил локалі. Однак, дозволяючи вибіркове використання цих рівнів, пошук рядка в тексті можна проводити за допомогою різних умов. Більше інформації описано у розділі присвяченій [collatorsetstrength()](collator.setstrength.html)
+ICU Collation Service підтримує безліч рівнів порівняння (вони називаються "Levels", але також відомі як "Strengths"). Використання цих налаштувань дозволяє ICU сортувати рядки точно відповідно до правил локалі. Однак, дозволяючи вибіркове використання цих рівнів, пошук рядка в тексті можна проводити за допомогою різних умов. Більше інформації описано у розділі присвяченій [collatorsetstrength()](collator.setstrength.md)
 
 Можливі значення:
 
@@ -181,17 +181,17 @@ ICU Collation Service підтримує безліч рівнів порівн�
 
 ## Зміст
 
--   [Collator::asort](collator.asort.html) — Сортує масив із збереженням асоціації індексу
--   [Collator::compare](collator.compare.html) — Порівнює два рядки Unicode
--   [Collator::construct](collator.construct.html) - Створює новий екземпляр Collator
--   [Collator::create](collator.create.html) - Створює новий екземпляр Collator
--   [Collator::getAttribute](collator.getattribute.html) — Отримує значення атрибуту зіставлення
--   [Collator::getErrorCode](collator.geterrorcode.html) — Отримує останній код помилки Collator
--   [Collator::getErrorMessage](collator.geterrormessage.html) — Отримує текст для останньої помилки коду Collator
--   [Collator::getLocale](collator.getlocale.html) - Отримує назву локалі для Collator
--   [Collator::getSortKey](collator.getsortkey.html) — Отримує ключ сортування рядка
--   [Collator::getStrength](collator.getstrength.html) — Отримує поточну силу зіставлення
--   [Collator::setAttribute](collator.setattribute.html) - Встановлює атрибут зіставлення
--   [Collator::setStrength](collator.setstrength.html) - Встановлює силу зіставлення
--   [Collator::sortWithSortKeys](collator.sortwithsortkeys.html) — Сортує масив із використанням зазначеного Collator та ключів сортування
--   [Collator::sort](collator.sort.html) — Сортує масив із використанням зазначеного засобу сортування
+-   [Collator::asort](collator.asort.md) — Сортує масив із збереженням асоціації індексу
+-   [Collator::compare](collator.compare.md) — Порівнює два рядки Unicode
+-   [Collator::construct](collator.construct.md) - Створює новий екземпляр Collator
+-   [Collator::create](collator.create.md) - Створює новий екземпляр Collator
+-   [Collator::getAttribute](collator.getattribute.md) — Отримує значення атрибуту зіставлення
+-   [Collator::getErrorCode](collator.geterrorcode.md) — Отримує останній код помилки Collator
+-   [Collator::getErrorMessage](collator.geterrormessage.md) — Отримує текст для останньої помилки коду Collator
+-   [Collator::getLocale](collator.getlocale.md) - Отримує назву локалі для Collator
+-   [Collator::getSortKey](collator.getsortkey.md) — Отримує ключ сортування рядка
+-   [Collator::getStrength](collator.getstrength.md) — Отримує поточну силу зіставлення
+-   [Collator::setAttribute](collator.setattribute.md) - Встановлює атрибут зіставлення
+-   [Collator::setStrength](collator.setstrength.md) - Встановлює силу зіставлення
+-   [Collator::sortWithSortKeys](collator.sortwithsortkeys.md) — Сортує масив із використанням зазначеного Collator та ключів сортування
+-   [Collator::sort](collator.sort.md) — Сортує масив із використанням зазначеного засобу сортування

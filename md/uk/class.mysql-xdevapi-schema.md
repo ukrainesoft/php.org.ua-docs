@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-rowresult.getwarningscount.html: '« RowResult::getWarningsCount'
-  - mysql-xdevapi-schema.construct.html: 'Schema::construct »'
-  - index.html: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - mysql-xdevapi-rowresult.getwarningscount.md: '« RowResult::getWarningsCount'
+  - mysql-xdevapi-schema.construct.md: 'Schema::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас Schema
 ---
 # Клас Schema

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-router.getroute.html: '« YafRouter::getRoute'
-  - yaf-router.route.html: 'YafRouter::route »'
-  - index.html: PHP Manual
-  - class.yaf-router.html: YafRouter
+  - yaf-router.getroute.md: '« YafRouter::getRoute'
+  - yaf-router.route.md: 'YafRouter::route »'
+  - index.md: PHP Manual
+  - class.yaf-router.md: YafRouter
 title: 'YafRouter::getRoutes'
 ---
 # YafRouter::getRoutes

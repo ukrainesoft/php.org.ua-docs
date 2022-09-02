@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-num-rows.html: « odbcnumrows
-  - function.odbc-prepare.html: odbcprepare »
+  - function.odbc-num-rows.md: « odbcnumrows
+  - function.odbc-prepare.md: odbcprepare »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcpconnect
@@ -20,7 +20,7 @@ odbc_pconnect(    string $dsn,    string $user,    string $password,
 
 Відкриває постійне з'єднання з базою даних.
 
-Функція дуже схожа на [odbcconnect()](function.odbc-connect.html), крім того, що з'єднання насправді не закривається після завершення роботи скрипта. Наступні запити на з'єднання з тією самою комбінацією `dsn` `user` і `password` (за допомогою [odbcconnect()](function.odbc-connect.md) і **odbcpconnect()**) можуть повторно використовувати постійне з'єднання.
+Функція дуже схожа на [odbcconnect()](function.odbc-connect.md), крім того, що з'єднання насправді не закривається після завершення роботи скрипта. Наступні запити на з'єднання з тією самою комбінацією `dsn` `user` і `password` (за допомогою [odbcconnect()](function.odbc-connect.md) і **odbcpconnect()**) можуть повторно використовувати постійне з'єднання.
 
 ### Список параметрів
 

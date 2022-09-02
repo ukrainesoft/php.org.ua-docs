@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.hash.md: « Функции Hash
-  - function.hash-copy.html: hashcopy »
+  - function.hash-copy.md: hashcopy »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashalgos

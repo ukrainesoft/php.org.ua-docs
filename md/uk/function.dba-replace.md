@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dba-popen.html: « dbapopen
-  - function.dba-sync.html: dbasync »
+  - function.dba-popen.md: « dbapopen
+  - function.dba-sync.md: dbasync »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbareplace
@@ -32,7 +32,7 @@ dba_replace(string|array $key, string $value, resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - snmp.geterror.html: '« SNMP::getError'
-  - snmp.set.html: 'SNMP::set »'
-  - index.html: PHP Manual
-  - class.snmp.html: SNMP
+  - snmp.geterror.md: '« SNMP::getError'
+  - snmp.set.md: 'SNMP::set »'
+  - index.md: PHP Manual
+  - class.snmp.md: SNMP
 title: 'SNMP::getnext'
 ---
 # SNMP::getnext
@@ -34,7 +34,7 @@ public SNMP::getnext(array|string $objectId): mixed
 
 ### Помилки
 
-Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [поясненні параметра`SNMP::$exceptions_enabled`](class.snmp.html#snmp.props.exceptions-enabled)
+Цей метод за промовчанням не генерує винятку. Щоб увімкнути генерацію виключення SNMPException при виникненні деяких помилок цієї бібліотеки, необхідно встановити параметр `exceptions_enabled` класу SNMP у відповідне значення. Детальніше дивіться [поясненні параметра`SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled)
 
 ### Приклади
 

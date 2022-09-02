@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-tab.insertat.html: '« UIControlsTab::insertAt'
-  - ui-controls-tab.setmargin.html: 'ОЙControlsTab::setMargin »'
+  - ui-controls-tab.insertat.md: '« UIControlsTab::insertAt'
+  - ui-controls-tab.setmargin.md: 'ОЙControlsTab::setMargin »'
   - index.md: PHP Manual
-  - class.ui-controls-tab.html: ОЙControlsTab
+  - class.ui-controls-tab.md: ОЙControlsTab
 title: 'ОЙControlsTab::pages'
 ---
 # ОЙControlsTab::pages

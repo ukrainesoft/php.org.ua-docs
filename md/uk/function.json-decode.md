@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.json.md: « Функции JSON
-  - function.json-encode.html: jsonencode »
+  - function.json-encode.md: jsonencode »
   - index.md: PHP Manual
   - ref.json.md: Функции JSON
 title: jsondecode

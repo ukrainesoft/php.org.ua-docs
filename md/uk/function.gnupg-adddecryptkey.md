@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.gnupg.md: « GnuPG Функції
-  - function.gnupg-addencryptkey.html: gnupgaddencryptkey »
+  - function.gnupg-addencryptkey.md: gnupgaddencryptkey »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgadddecryptkey
@@ -22,7 +22,7 @@ gnupg_adddecryptkey(resource $identifier, string $fingerprint, string $passphras
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `fingerprint`
 

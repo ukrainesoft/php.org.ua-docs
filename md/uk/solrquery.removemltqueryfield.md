@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.removemltfield.html: '« SolrQuery::removeMltField'
-  - solrquery.removesortfield.html: 'SolrQuery::removeSortField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.removemltfield.md: '« SolrQuery::removeMltField'
+  - solrquery.removesortfield.md: 'SolrQuery::removeSortField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::removeMltQueryField'
 ---
 # SolrQuery::removeMltQueryField

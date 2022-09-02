@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-area.scrollto.html: '« UIArea::scrollTo'
-  - class.ui-executor.html: ОЙExecutor »
+  - ui-area.scrollto.md: '« UIArea::scrollTo'
+  - class.ui-executor.md: ОЙExecutor »
   - index.md: PHP Manual
-  - class.ui-area.html: ОЙArea
+  - class.ui-area.md: ОЙArea
 title: 'ОЙArea::setSize'
 ---
 # ОЙArea::setSize

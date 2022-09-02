@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.construct.html: '« mysqlistmt::construct'
-  - mysqli-stmt.errno.html: 'mysqlistmt::$errno »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.construct.md: '« mysqlistmt::construct'
+  - mysqli-stmt.errno.md: 'mysqlistmt::$errno »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::dataseek'
 ---
 # mysqlistmt::dataseek
@@ -36,7 +36,7 @@ mysqli_stmt_data_seek(mysqli_stmt $statement, int $offset): void
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `offset`
 

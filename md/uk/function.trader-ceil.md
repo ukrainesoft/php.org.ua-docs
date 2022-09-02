@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlxsidegap3methods.html: « tradercdlxsidegap3methods
-  - function.trader-cmo.html: tradercmo »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlxsidegap3methods.md: « tradercdlxsidegap3methods
+  - function.trader-cmo.md: tradercmo »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderceil
 ---
 # traderceil

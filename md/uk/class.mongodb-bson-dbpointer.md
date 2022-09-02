@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetimeinterface.tostring.html: '« MongoDBBSONUTCDateTimeInterface::toString'
-  - mongodb-bson-dbpointer.construct.html: 'MongoDBBSONDBPointer::construct »'
+  - mongodb-bson-utcdatetimeinterface.tostring.md: '« MongoDBBSONUTCDateTimeInterface::toString'
+  - mongodb-bson-dbpointer.construct.md: 'MongoDBBSONDBPointer::construct »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONDBPointer (застарілий)

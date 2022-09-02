@@ -14,8 +14,8 @@ title: Коваріантність та контраваріантність
 
 Оголошення типу вважається більш конкретним у наступному випадку:
 
--   Вилучено [об'єднання типів](language.types.declarations.html#language.types.declarations.composite.union)
--   Додано [пересечение типов](language.types.declarations.html#language.types.declarations.composite.intersection)
+-   Вилучено [об'єднання типів](language.types.declarations.md#language.types.declarations.composite.union)
+-   Додано [пересечение типов](language.types.declarations.md#language.types.declarations.composite.intersection)
 -   Тип класу змінюється на тип дочірнього класу
 -   [iterable](language.types.iterable.md) змінений на масив (array) або [Traversable](class.traversable.md)
 

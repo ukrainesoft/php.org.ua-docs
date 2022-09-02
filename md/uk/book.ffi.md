@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.user-error.html: « usererror
+  - function.user-error.md: « usererror
   - intro.ffi.md: Введение »
   - index.md: PHP Manual
   - refs.basic.php.md: Изменение поведения PHP

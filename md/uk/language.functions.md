@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.goto.html: « goto
-  - functions.user-defined.html: 'Функції, що визначаються користувачем »'
-  - index.html: PHP Manual
-  - langref.html: Довідник мови
+  - control-structures.goto.md: « goto
+  - functions.user-defined.md: 'Функції, що визначаються користувачем »'
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
 title: Функції
 ---
 # Функції

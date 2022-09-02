@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.call-user-func.html: « calluserfunc
-  - function.forward-static-call-array.html: forwardstaticcallarray »
+  - function.call-user-func.md: « calluserfunc
+  - function.forward-static-call-array.md: forwardstaticcallarray »
   - index.md: PHP Manual
   - ref.funchand.md: Функции управления функциями
 title: createfunction
@@ -32,7 +32,7 @@ create_function(string $args, string $code): string
 
 ### Список параметрів
 
-Зазвичай рекомендується передавати параметри у вигляді рядків [з одинарною лапкою](language.types.string.html#language.types.string.syntax.single). При використанні рядків [з подвійною лапкою](language.types.string.html#language.types.string.syntax.double) імена змінних у коді повинні бути ретельно екрановані, наприклад, ось так: `\$somevar`
+Зазвичай рекомендується передавати параметри у вигляді рядків [з одинарною лапкою](language.types.string.md#language.types.string.syntax.single). При використанні рядків [з подвійною лапкою](language.types.string.md#language.types.string.syntax.double) імена змінних у коді повинні бути ретельно екрановані, наприклад, ось так: `\$somevar`
 
 `args`
 

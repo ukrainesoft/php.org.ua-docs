@@ -118,7 +118,7 @@ int(2)
 
 ### Перехід від ресурсів до об'єктів у модулі Hash
 
-В рамках довгострокової міграції відмови від ресурсів, модуль [Hash](book.hash.md) було оновлено для використання об'єктів замість ресурсів. Ця зміна повинна бути плавною для PHP-розробників, за винятком випадків, коли використовуються перевірки [ісresource()](function.is-resource.html) (які потрібно замінити на використання [ісobject()](function.is-object.md)
+В рамках довгострокової міграції відмови від ресурсів, модуль [Hash](book.hash.md) було оновлено для використання об'єктів замість ресурсів. Ця зміна повинна бути плавною для PHP-розробників, за винятком випадків, коли використовуються перевірки [ісresource()](function.is-resource.md) (які потрібно замінити на використання [ісobject()](function.is-object.md)
 
 ### Покращено значення за замовчуванням у SSL/TLS
 
@@ -166,7 +166,7 @@ int(2)
 
 ### Функції хешування та некриптографічні хеші
 
-Функції [hashhmac()](function.hash-hmac.html) [hashhmacfile()](function.hash-hmac-file.html) [hashpbkdf2()](function.hash-pbkdf2.html) і [hashinit()](function.hash-init.md) (з **`HASH_HMAC`**) більше не приймають некриптографічні хеші.
+Функції [hashhmac()](function.hash-hmac.md) [hashhmacfile()](function.hash-hmac-file.md) [hashpbkdf2()](function.hash-pbkdf2.md) і [hashinit()](function.hash-init.md) (з **`HASH_HMAC`**) більше не приймають некриптографічні хеші.
 
 ### Опції функції [jsondecode()](function.json-decode.md)
 
@@ -176,13 +176,13 @@ int(2)
 
 Числа, що генеруються [rand()](function.rand.md) і [мтrand()](function.mt-rand.md) для певного параметра переініціалізації (seed) можуть відрізнятися від PHP 7.1 на 64-бітних машинах (через виправлення помилки модульного зміщення в реалізації).
 
-### Видалення ini-налаштувань [`sql.safe_mode`](ini.core.html#ini.sql.safe-mode)
+### Видалення ini-налаштувань [`sql.safe_mode`](ini.core.md#ini.sql.safe-mode)
 
 Налаштування конфігурації `sql.safe_mode` було видалено.
 
-### Зміни в [dateparse()](function.date-parse.html) і [dateparsefromformat()](function.date-parse-from-format.md)
+### Зміни в [dateparse()](function.date-parse.md) і [dateparsefromformat()](function.date-parse-from-format.md)
 
-Елемент масиву `zone`, що повертається функціями [dateparsefromformat()](function.date-parse-from-format.html) і [dateparse()](function.date-parse.md) тепер відображає секунди замість хвилин, а його знак інвертується. Наприклад, `-120` тепер буде `7200`
+Елемент масиву `zone`, що повертається функціями [dateparsefromformat()](function.date-parse-from-format.md) і [dateparse()](function.date-parse.md) тепер відображає секунди замість хвилин, а його знак інвертується. Наприклад, `-120` тепер буде `7200`
 
 ### Вхідні Cookies
 

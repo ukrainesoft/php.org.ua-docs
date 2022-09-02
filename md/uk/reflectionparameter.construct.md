@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionparameter.clone.html: '« ReflectionParameter::clone'
-  - reflectionparameter.export.html: 'ReflectionParameter::export »'
-  - index.html: PHP Manual
-  - class.reflectionparameter.html: ReflectionParameter
+  - reflectionparameter.clone.md: '« ReflectionParameter::clone'
+  - reflectionparameter.export.md: 'ReflectionParameter::export »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::construct'
 ---
 # ReflectionParameter::construct
@@ -16,7 +16,7 @@ ReflectionParameter::construct — Конструктор
 
 public **ReflectionParameter::construct**(string|array|object `$function`, int|string `$param`
 
-Створює екземпляр [ReflectionParameter](class.reflectionparameter.html)
+Створює екземпляр [ReflectionParameter](class.reflectionparameter.md)
 
 ### Список параметрів
 
@@ -30,7 +30,7 @@ public **ReflectionParameter::construct**(string|array|object `$function`, int|s
 
 ### Приклади
 
-**Приклад #1 Використання класу [ReflectionParameter](class.reflectionparameter.html)**
+**Приклад #1 Використання класу [ReflectionParameter](class.reflectionparameter.md)**
 
 ```php
 <?php
@@ -96,7 +96,7 @@ Function [ <user> function foo ] {
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.html) - Отримує параметри
--   [ReflectionFunction::construct()](reflectionfunction.construct.html) - Конструктор класу ReflectionFunction
--   [ReflectionMethod::construct()](reflectionmethod.construct.html) - Конструктор класу ReflectionMethod
--   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) - Отримує параметри
+-   [ReflectionFunction::construct()](reflectionfunction.construct.md) - Конструктор класу ReflectionFunction
+-   [ReflectionMethod::construct()](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
+-   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

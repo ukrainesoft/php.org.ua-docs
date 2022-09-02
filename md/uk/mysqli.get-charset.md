@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.field-count.html: '« mysqli::$fieldcount'
-  - mysqli.get-client-info.html: 'mysqli::$clientinfo »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.field-count.md: '« mysqli::$fieldcount'
+  - mysqli.get-client-info.md: 'mysqli::$clientinfo »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::getcharset'
 ---
 # mysqli::getcharset
@@ -34,7 +34,7 @@ mysqli_get_charset(mysqli $mysql): ?object
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -115,5 +115,5 @@ object(stdClass)#2 (7) {
 
 ### Дивіться також
 
--   [mysqlicharactersetname()](mysqli.character-set-name.html) - Повертає поточне кодування, встановлене для з'єднання з БД
--   [mysqlisetcharset()](mysqli.set-charset.html) - Встановлює набір символів
+-   [mysqlicharactersetname()](mysqli.character-set-name.md) - Повертає поточне кодування, встановлене для з'єднання з БД
+-   [mysqlisetcharset()](mysqli.set-charset.md) - Встановлює набір символів

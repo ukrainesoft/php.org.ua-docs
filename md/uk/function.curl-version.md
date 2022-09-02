@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.curl-unescape.html: « curlunescape
+  - function.curl-unescape.md: « curlunescape
   - class.curlhandle.md: CurlHandle »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL

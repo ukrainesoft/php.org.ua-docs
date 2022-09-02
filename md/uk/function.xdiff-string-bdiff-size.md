@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-file-rabdiff.html: xdifffilerabdiff
-  - function.xdiff-string-bdiff.html: xdiffstringbdiff »
+  - function.xdiff-file-rabdiff.md: xdifffilerabdiff
+  - function.xdiff-string-bdiff.md: xdiffstringbdiff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdiffstringbdiffsize
@@ -24,7 +24,7 @@ xdiff_string_bdiff_size(string $patch): int
 
 `patch`
 
-Бінарний патч, створений функціями [xdiffstringbdiff()](function.xdiff-string-bdiff.html) або [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
+Бінарний патч, створений функціями [xdiffstringbdiff()](function.xdiff-string-bdiff.md) або [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
 
 ### Значення, що повертаються
 

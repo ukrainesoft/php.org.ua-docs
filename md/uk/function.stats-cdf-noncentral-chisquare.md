@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-negative-binomial.html: « statscdfnegativebinomial
-  - function.stats-cdf-noncentral-f.html: statscdfnoncentralf »
+  - function.stats-cdf-negative-binomial.md: « statscdfnegativebinomial
+  - function.stats-cdf-noncentral-f.md: statscdfnoncentralf »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdfnoncentralchisquare

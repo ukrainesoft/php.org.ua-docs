@@ -1,9 +1,9 @@
 ---
 navigation:
-  - install.windows.troubleshooting.html: « Стандартні проблеми PHP під Windows
-  - install.cloud.azure.html: Azure App Services »
-  - index.html: PHP Manual
-  - install.html: Встановлення та налаштування
+  - install.windows.troubleshooting.md: « Стандартні проблеми PHP під Windows
+  - install.cloud.azure.md: Azure App Services »
+  - index.md: PHP Manual
+  - install.md: Встановлення та налаштування
 title: Встановлення на платформах Cloud Computing
 ---
 # Встановлення на платформах Cloud Computing

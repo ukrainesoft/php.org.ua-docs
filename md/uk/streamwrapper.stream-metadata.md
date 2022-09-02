@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-lock.html: '« streamWrapper::streamlock'
-  - streamwrapper.stream-open.html: 'streamWrapper::streamopen »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-lock.md: '« streamWrapper::streamlock'
+  - streamwrapper.stream-open.md: 'streamWrapper::streamopen »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streammetadata'
 ---
 # streamWrapper::streammetadata

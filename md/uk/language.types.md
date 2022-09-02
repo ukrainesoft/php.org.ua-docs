@@ -1,6 +1,6 @@
 ---
 navigation:
-  - language.basic-syntax.comments.html: « Комментарии
+  - language.basic-syntax.comments.md: « Комментарии
   - language.types.intro.md: Введение »
   - index.md: PHP Manual
   - langref.md: Довідник мови

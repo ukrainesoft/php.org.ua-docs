@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.finfo-close.html: « finfoclose
-  - function.finfo-open.html: finfoopen »
-  - index.html: PHP Manual
-  - ref.fileinfo.html: Функции модуля Fileinfo
+  - function.finfo-close.md: « finfoclose
+  - function.finfo-open.md: finfoopen »
+  - index.md: PHP Manual
+  - ref.fileinfo.md: Функции модуля Fileinfo
 title: finfofile
 ---
 # finfofile
@@ -34,7 +34,7 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.html), що повертається функцією [finfoopen()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.md)
 
 `filename`
 
@@ -42,11 +42,11 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 `flags`
 
-Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.html)
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md)
 
 `context`
 
-Для опису `contexts`, дивіться [Функції для роботи з потоками](ref.stream.html)
+Для опису `contexts`, дивіться [Функції для роботи з потоками](ref.stream.md)
 
 ### Значення, що повертаються
 
@@ -56,12 +56,12 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `finfo` тепер чекає екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `context` тепер допускає значення null. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [finfofile()](finfo.file.html)**
+**Приклад #1 Приклад використання [finfofile()](finfo.file.md)**
 
 ```php
 <?php
@@ -83,4 +83,4 @@ application/vnd.ms-excel
 
 ### Дивіться також
 
--   [finfobuffer()](finfo.buffer.html) - Псевдонім finfobuffer()
+-   [finfobuffer()](finfo.buffer.md) - Псевдонім finfobuffer()

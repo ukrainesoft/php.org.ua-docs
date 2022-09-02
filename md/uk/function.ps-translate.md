@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.ps-symbol.html: «pssymbol
+  - function.ps-symbol.md: «pssymbol
   - book.rpminfo.md: RpmInfo »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS

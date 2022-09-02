@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-control-paged-result-response.html: « ldapcontrolpagedresultresponse
-  - function.ldap-count-entries.html: ldapcountentries »
+  - function.ldap-control-paged-result-response.md: « ldapcontrolpagedresultresponse
+  - function.ldap-count-entries.md: ldapcountentries »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapcontrolpagedresult

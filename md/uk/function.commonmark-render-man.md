@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.commonmark-render-latex.html: « CommonMarkRenderLatex
-  - function.commonmark-render-xml.html: CommonMarkRenderXML »
+  - function.commonmark-render-latex.md: « CommonMarkRenderLatex
+  - function.commonmark-render-xml.md: CommonMarkRenderXML »
   - index.md: PHP Manual
   - ref.cmark.md: Функции CommonMark
 title: CommonMarkRenderMan

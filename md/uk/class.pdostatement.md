@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdo.setattribute.html: '« PDO::setAttribute'
-  - pdostatement.bindcolumn.html: 'PDOStatement::bindColumn »'
-  - index.html: PHP Manual
-  - book.pdo.html: PDO
+  - pdo.setattribute.md: '« PDO::setAttribute'
+  - pdostatement.bindcolumn.md: 'PDOStatement::bindColumn »'
+  - index.md: PHP Manual
+  - book.pdo.md: PDO
 title: Клас PDOStatement
 ---
 # Клас PDOStatement
@@ -78,27 +78,27 @@ queryString
 
 | Версия | Описание |
 | --- | --- |
-|  | **PDOStatement** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.html) |
+|  | **PDOStatement** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md) замість [Traversable](class.traversable.md) |
 
 ## Зміст
 
--   [PDOStatement::bindColumn](pdostatement.bindcolumn.html) - Зв'язує стовпець зі змінною PHP
--   [PDOStatement::bindParam](pdostatement.bindparam.html) — Прив'язує параметр запиту до змінної
--   [PDOStatement::bindValue](pdostatement.bindvalue.html) — Зв'язує параметр із заданим значенням
--   [PDOStatement::closeCursor](pdostatement.closecursor.html) — Закриває курсор, переводячи запит у стан готовності до повторного запуску
--   [PDOStatement::columnCount](pdostatement.columncount.html) — Повертає кількість стовпців у результуючому наборі
--   [PDOStatement::debugDumpParams](pdostatement.debugdumpparams.html) — Виведення інформації про підготовлену SQL-команду з метою налагодження
--   [PDOStatement::errorCode](pdostatement.errorcode.html) — Отримує код SQLSTATE, пов'язаний із останньою операцією в об'єкті PDOStatement
--   [PDOStatement::errorInfo](pdostatement.errorinfo.html) — Отримання розширеної інформації про помилку, що сталася внаслідок роботи об'єкта PDOStatement
--   [PDOStatement::execute](pdostatement.execute.html) - Запускає підготовлений запит на виконання
--   [PDOStatement::fetch](pdostatement.fetch.html) — Витяг наступного рядка з результуючого набору
--   [PDOStatement::fetchAll](pdostatement.fetchall.html) — Вибирає рядки, що залишилися, з набору результатів
--   [PDOStatement::fetchColumn](pdostatement.fetchcolumn.html) — Повертає дані одного стовпця наступного рядка результуючого набору
--   [PDOStatement::fetchObject](pdostatement.fetchobject.html) — Витягує наступний рядок і повертає його у вигляді об'єкта
--   [PDOStatement::getAttribute](pdostatement.getattribute.html) — Отримання атрибуту запиту PDOStatement
--   [PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.html) — Повертає метадані стовпця у результуючій таблиці
--   [PDOStatement::getIterator](pdostatement.getiterator.html) — Отримує ітератор набору результатів
--   [PDOStatement::nextRowset](pdostatement.nextrowset.html) — Перехід до наступного набору рядків через запит
--   [PDOStatement::rowCount](pdostatement.rowcount.html) — Повертає кількість рядків, порушених останнім SQL-запитом
--   [PDOStatement::setAttribute](pdostatement.setattribute.html) — Встановлює атрибут об'єкту PDOStatement
--   [PDOStatement::setFetchMode](pdostatement.setfetchmode.html) — Встановлює режим за замовчуванням для об'єкта запиту.
+-   [PDOStatement::bindColumn](pdostatement.bindcolumn.md) - Зв'язує стовпець зі змінною PHP
+-   [PDOStatement::bindParam](pdostatement.bindparam.md) — Прив'язує параметр запиту до змінної
+-   [PDOStatement::bindValue](pdostatement.bindvalue.md) — Зв'язує параметр із заданим значенням
+-   [PDOStatement::closeCursor](pdostatement.closecursor.md) — Закриває курсор, переводячи запит у стан готовності до повторного запуску
+-   [PDOStatement::columnCount](pdostatement.columncount.md) — Повертає кількість стовпців у результуючому наборі
+-   [PDOStatement::debugDumpParams](pdostatement.debugdumpparams.md) — Виведення інформації про підготовлену SQL-команду з метою налагодження
+-   [PDOStatement::errorCode](pdostatement.errorcode.md) — Отримує код SQLSTATE, пов'язаний із останньою операцією в об'єкті PDOStatement
+-   [PDOStatement::errorInfo](pdostatement.errorinfo.md) — Отримання розширеної інформації про помилку, що сталася внаслідок роботи об'єкта PDOStatement
+-   [PDOStatement::execute](pdostatement.execute.md) - Запускає підготовлений запит на виконання
+-   [PDOStatement::fetch](pdostatement.fetch.md) — Витяг наступного рядка з результуючого набору
+-   [PDOStatement::fetchAll](pdostatement.fetchall.md) — Вибирає рядки, що залишилися, з набору результатів
+-   [PDOStatement::fetchColumn](pdostatement.fetchcolumn.md) — Повертає дані одного стовпця наступного рядка результуючого набору
+-   [PDOStatement::fetchObject](pdostatement.fetchobject.md) — Витягує наступний рядок і повертає його у вигляді об'єкта
+-   [PDOStatement::getAttribute](pdostatement.getattribute.md) — Отримання атрибуту запиту PDOStatement
+-   [PDOStatement::getColumnMeta](pdostatement.getcolumnmeta.md) — Повертає метадані стовпця у результуючій таблиці
+-   [PDOStatement::getIterator](pdostatement.getiterator.md) — Отримує ітератор набору результатів
+-   [PDOStatement::nextRowset](pdostatement.nextrowset.md) — Перехід до наступного набору рядків через запит
+-   [PDOStatement::rowCount](pdostatement.rowcount.md) — Повертає кількість рядків, порушених останнім SQL-запитом
+-   [PDOStatement::setAttribute](pdostatement.setattribute.md) — Встановлює атрибут об'єкту PDOStatement
+-   [PDOStatement::setFetchMode](pdostatement.setfetchmode.md) — Встановлює режим за замовчуванням для об'єкта запиту.

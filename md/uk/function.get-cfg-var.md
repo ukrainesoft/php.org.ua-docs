@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gc-status.html: « gcstatus
-  - function.get-current-user.html: getcurrentuser »
+  - function.gc-status.md: « gcstatus
+  - function.get-current-user.md: getcurrentuser »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getcfgvar

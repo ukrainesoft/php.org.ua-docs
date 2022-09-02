@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.getacl.html: '« Zookeeper::getAcl'
-  - zookeeper.getclientid.html: 'Zookeeper::getClientId »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.getacl.md: '« Zookeeper::getAcl'
+  - zookeeper.getclientid.md: 'Zookeeper::getClientId »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::getChildren'
 ---
 # Zookeeper::getChildren
@@ -39,7 +39,7 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -70,6 +70,6 @@ array(1) {
 
 ### Дивіться також
 
--   [Zookeeper::create()](zookeeper.create.html) - Створює синхронно вузол
--   [Zookeeper::delete()](zookeeper.delete.html) - Видаляє синхронно вузол у zookeeper
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
+-   [Zookeeper::delete()](zookeeper.delete.md) - Видаляє синхронно вузол у zookeeper
+-   [ZookeeperException](class.zookeeperexception.md)

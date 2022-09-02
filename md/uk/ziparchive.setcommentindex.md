@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.setarchivecomment.html: '« ZipArchive::setArchiveComment'
-  - ziparchive.setcommentname.html: 'ZipArchive::setCommentName »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.setarchivecomment.md: '« ZipArchive::setArchiveComment'
+  - ziparchive.setcommentname.md: 'ZipArchive::setCommentName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::setCommentIndex'
 ---
 # ZipArchive::setCommentIndex

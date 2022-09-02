@@ -1,9 +1,9 @@
 ---
 navigation:
-  - scoutapm.configuration.html: « Налаштування під час виконання
-  - ref.scoutapm.html: Функции Scoutapm »
-  - index.html: PHP Manual
-  - book.scoutapm.html: ScoutAPM
+  - scoutapm.configuration.md: « Налаштування під час виконання
+  - ref.scoutapm.md: Функции Scoutapm »
+  - index.md: PHP Manual
+  - book.scoutapm.md: ScoutAPM
 title: Обумовлені константи
 ---
 # Обумовлені константи

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-close-prepare.html: « cubridcloseprepare
-  - function.cubrid-col-get.html: cubridcolget »
+  - function.cubrid-close-prepare.md: « cubridcloseprepare
+  - function.cubrid-col-get.md: cubridcolget »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridcloserequest

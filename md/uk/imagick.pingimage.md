@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.painttransparentimage.html: '« Imagick::paintTransparentImage'
-  - imagick.pingimageblob.html: 'Imagick::pingImageBlob »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.painttransparentimage.md: '« Imagick::paintTransparentImage'
+  - imagick.pingimageblob.md: 'Imagick::pingImageBlob »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::pingImage'
 ---
 # Imagick::pingImage

@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.wincache.md: « Функции WinCache
-  - function.wincache-fcache-meminfo.html: wincachefcachememinfo »
+  - function.wincache-fcache-meminfo.md: wincachefcachememinfo »
   - index.md: PHP Manual
   - ref.wincache.md: Функции WinCache
 title: wincachefcachefileinfo

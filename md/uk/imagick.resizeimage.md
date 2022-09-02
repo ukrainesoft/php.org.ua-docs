@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.resetimagepage.html: '« Imagick::resetImagePage'
-  - imagick.rollimage.html: 'Imagick::rollImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.resetimagepage.md: '« Imagick::resetImagePage'
+  - imagick.rollimage.md: 'Imagick::rollImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::resizeImage'
 ---
 # Imagick::resizeImage
@@ -18,7 +18,7 @@ Imagick::resizeImage — Масштабування зображення
 public Imagick::resizeImage(    int $columns,    int $rows,    int $filter,    float $blur,    bool $bestfit = false,    bool $legacy = false): bool
 ```
 
-Масштабує зображення до бажаних розмірів за допомогою [filter](imagick.constants.html#imagick.constants.filters)
+Масштабує зображення до бажаних розмірів за допомогою [filter](imagick.constants.md#imagick.constants.filters)
 
 > **Зауваження**: Поведінка параметра `bestfit` було змінено у Imagick 3.0.0. До цієї версії при зміні зображення розміром 200×150 до 400×300 жодних операцій не відбувалося. В Imagick 3.0.0 і далі зображення буде масштабовано до розмірів 400x300, оскільки це найкраще відповідає ("best fit") даним розмірам. Якщо використовується параметр `bestfit`, то ширина та висота також повинні бути визначені.
 
@@ -34,7 +34,7 @@ public Imagick::resizeImage(    int $columns,    int $rows,    int $
 
 `filter`
 
-Зверніться до списку [констант FILTER](imagick.constants.html#imagick.constants.filters)
+Зверніться до списку [констант FILTER](imagick.constants.md#imagick.constants.filters)
 
 `blur`
 

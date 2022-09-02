@@ -48,7 +48,7 @@ title: Обумовлені константи
 
 **`FILE_USE_INCLUDE_PATH`** (int)
 
-Шукає `filename` в [includepath](ini.core.html#ini.include-path)
+Шукає `filename` в [includepath](ini.core.md#ini.include-path)
 
 **`FILE_NO_DEFAULT_CONTEXT`** (int)
 

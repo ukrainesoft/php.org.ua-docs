@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-scale-input-train-data.html: « fannscaleinputtraindata
-  - function.fann-scale-output-train-data.html: fannscaleoutputtraindata »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-scale-input-train-data.md: « fannscaleinputtraindata
+  - function.fann-scale-output-train-data.md: fannscaleoutputtraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannscaleinput
 ---
 # fannscaleinput

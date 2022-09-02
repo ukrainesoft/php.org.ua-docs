@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-errno.html: « swooleerrno
-  - function.swoole-event-add.html: swooleeventadd »
+  - function.swoole-errno.md: « swooleerrno
+  - function.swoole-event-add.md: swooleeventadd »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleerrorlog
 ---
 # swooleerrorlog

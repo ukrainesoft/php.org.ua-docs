@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.variables.html: « Змінні
-  - language.variables.predefined.html: Зумовлені змінні »
-  - index.html: PHP Manual
-  - language.variables.html: Змінні
+  - language.variables.md: « Змінні
+  - language.variables.predefined.md: Зумовлені змінні »
+  - index.md: PHP Manual
+  - language.variables.md: Змінні
 title: Основи
 ---
 ## Основи

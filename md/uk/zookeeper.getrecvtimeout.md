@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.getconfig.html: '« Zookeeper::getConfig'
-  - zookeeper.getstate.html: 'Zookeeper::getState »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.getconfig.md: '« Zookeeper::getConfig'
+  - zookeeper.getstate.md: 'Zookeeper::getState »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::getRecvTimeout'
 ---
 # Zookeeper::getRecvTimeout
@@ -33,10 +33,10 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0 метод викидає [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Дивіться також
 
--   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
--   [Zookeeper::connect()](zookeeper.connect.html) - Створює дескриптор для спілкування з zookeeper
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
+-   [ZookeeperException](class.zookeeperexception.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.ssdeep.html: « Функції ssdeep
-  - function.ssdeep-fuzzy-hash-filename.html: ssdeepfuzzyhashfilename »
-  - index.html: PHP Manual
-  - ref.ssdeep.html: Функції ssdeep
+  - ref.ssdeep.md: « Функції ssdeep
+  - function.ssdeep-fuzzy-hash-filename.md: ssdeepfuzzyhashfilename »
+  - index.md: PHP Manual
+  - ref.ssdeep.md: Функції ssdeep
 title: ssdeepfuzzycompare
 ---
 # ssdeepfuzzycompare

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-menu.appendabout.html: '« UIMenu::appendAbout'
-  - ui-menu.appendpreferences.html: 'ОЙMenu::appendPreferences »'
+  - ui-menu.appendabout.md: '« UIMenu::appendAbout'
+  - ui-menu.appendpreferences.md: 'ОЙMenu::appendPreferences »'
   - index.md: PHP Manual
-  - class.ui-menu.html: ОЙMenu
+  - class.ui-menu.md: ОЙMenu
 title: 'ОЙMenu::appendCheck'
 ---
 # ОЙMenu::appendCheck

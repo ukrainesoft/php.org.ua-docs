@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.metaphone.md: « metaphone
-  - function.nl-langinfo.html: нлlanginfo »
+  - function.nl-langinfo.md: нлlanginfo »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: moneyformat

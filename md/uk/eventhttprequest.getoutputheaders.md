@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttprequest.getoutputbuffer.html: '« EventHttpRequest::getOutputBuffer'
-  - eventhttprequest.getresponsecode.html: 'EventHttpRequest::getResponseCode »'
-  - index.html: PHP Manual
-  - class.eventhttprequest.html: EventHttpRequest
+  - eventhttprequest.getoutputbuffer.md: '« EventHttpRequest::getOutputBuffer'
+  - eventhttprequest.getresponsecode.md: 'EventHttpRequest::getResponseCode »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getOutputHeaders'
 ---
 # EventHttpRequest::getOutputHeaders

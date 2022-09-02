@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.debug.html: '« SeasLog::debug'
-  - seaslog.emergency.html: 'SeasLog::emergency »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.debug.md: '« SeasLog::debug'
+  - seaslog.emergency.md: 'SeasLog::emergency »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::destruct'
 ---
 # SeasLog::destruct

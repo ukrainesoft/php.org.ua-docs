@@ -1,6 +1,6 @@
 ---
 navigation:
-  - xmldiff-file.merge.html: '« XMLDiffFile::merge'
+  - xmldiff-file.merge.md: '« XMLDiffFile::merge'
   - intro.xml.md: Введение »
   - index.md: PHP Manual
   - refs.xml.md: Обработка XML

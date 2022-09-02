@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.join.html: '« DsSequence::join'
-  - ds-sequence.map.html: 'ДсSequence::map »'
+  - ds-sequence.join.md: '« DsSequence::join'
+  - ds-sequence.map.md: 'ДсSequence::map »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::last'
 ---
 # ДсSequence::last

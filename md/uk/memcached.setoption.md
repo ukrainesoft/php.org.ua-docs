@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.setmultibykey.html: '« Memcached::setMultiByKey'
-  - memcached.setoptions.html: 'Memcached::setOptions »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.setmultibykey.md: '« Memcached::setMultiByKey'
+  - memcached.setoptions.md: 'Memcached::setOptions »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::setOption'
 ---
 # Memcached::setOption
@@ -24,7 +24,7 @@ public Memcached::setOption(int $option, mixed $value): bool
 
 `option`
 
-Одна з констант `Memcached::OPT_*`. Вивчіть розділ [константи Memcached](memcached.constants.html) для отримання повнішої інформації.
+Одна з констант `Memcached::OPT_*`. Вивчіть розділ [константи Memcached](memcached.constants.md) для отримання повнішої інформації.
 
 `value`
 
@@ -64,6 +64,6 @@ Prefix key is now: widgets
 
 ### Дивіться також
 
--   [Memcached::getOption()](memcached.getoption.html) - Отримує значення Memcached параметра
--   [Memcached::setOptions()](memcached.setoptions.html) - Встановлює кілька Memcached параметрів
--   [Memcached константи](memcached.constants.html)
+-   [Memcached::getOption()](memcached.getoption.md) - Отримує значення Memcached параметра
+-   [Memcached::setOptions()](memcached.setoptions.md) - Встановлює кілька Memcached параметрів
+-   [Memcached константи](memcached.constants.md)

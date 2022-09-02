@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-signal-get-handler.html: pcntlsignalgethandler
-  - function.pcntl-sigprocmask.html: pcntlsigprocmask »
+  - function.pcntl-signal-get-handler.md: pcntlsignalgethandler
+  - function.pcntl-sigprocmask.md: pcntlsigprocmask »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlsignal

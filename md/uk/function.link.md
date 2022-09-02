@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.lchown.html: « lchown
-  - function.linkinfo.html: linkinfo »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.lchown.md: « lchown
+  - function.linkinfo.md: linkinfo »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: link
 ---
 # link
@@ -53,13 +53,13 @@ link($target, $link);
 
 ### Примітки
 
-> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.html)оскільки файл повинен бути доступний через файлову систему сервера.
+> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.md)оскільки файл повинен бути доступний через файлову систему сервера.
 
 > **Зауваження**: Тільки для Windows: Для цієї функції необхідно, щоб PHP був запущений у привілейованому режимі або з вимкненим UAC.
 
 ### Дивіться також
 
--   [symlink()](function.symlink.html) - Створює символічне посилання
--   [readlink()](function.readlink.html) - Повертає файл, на який вказує символічне посилання
--   [linkinfo()](function.linkinfo.html) - Повертає інформацію про посилання
--   [unlink()](function.unlink.html) - Видаляє файл
+-   [symlink()](function.symlink.md) - Створює символічне посилання
+-   [readlink()](function.readlink.md) - Повертає файл, на який вказує символічне посилання
+-   [linkinfo()](function.linkinfo.md) - Повертає інформацію про посилання
+-   [unlink()](function.unlink.md) - Видаляє файл

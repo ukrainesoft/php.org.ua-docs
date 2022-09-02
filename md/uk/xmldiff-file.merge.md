@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmldiff-file.diff.html: '« XMLDiffFile::diff'
+  - xmldiff-file.diff.md: '« XMLDiffFile::diff'
   - book.xml.md: Разбор XML »
   - index.md: PHP Manual
-  - class.xmldiff-file.html: XMLDiffFile
+  - class.xmldiff-file.md: XMLDiffFile
 title: 'XMLDiffFile::merge'
 ---
 # XMLDiffFile::merge

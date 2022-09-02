@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-add-function.html: « uopzaddfunction
-  - function.uopz-backup.html: uopzbackup »
+  - function.uopz-add-function.md: « uopzaddfunction
+  - function.uopz-backup.md: uopzbackup »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzallowexit

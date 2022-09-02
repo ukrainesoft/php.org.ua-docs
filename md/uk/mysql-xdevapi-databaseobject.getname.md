@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-databaseobject.existsindatabase.html: '« DatabaseObject::existsInDatabase'
-  - mysql-xdevapi-databaseobject.getsession.html: 'DatabaseObject::getSession »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-databaseobject.html: mysqlxdevapiDatabaseObject
+  - mysql-xdevapi-databaseobject.existsindatabase.md: '« DatabaseObject::existsInDatabase'
+  - mysql-xdevapi-databaseobject.getsession.md: 'DatabaseObject::getSession »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-databaseobject.md: mysqlxdevapiDatabaseObject
 title: 'DatabaseObject::getName'
 ---
 # DatabaseObject::getName

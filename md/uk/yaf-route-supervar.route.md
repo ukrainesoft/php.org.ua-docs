@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-supervar.construct.html: '« YafRouteSupervar::construct'
-  - class.yaf-session.html: YafSession »
+  - yaf-route-supervar.construct.md: '« YafRouteSupervar::construct'
+  - class.yaf-session.md: YafSession »
   - index.md: PHP Manual
-  - class.yaf-route-supervar.html: YafRouteSupervar
+  - class.yaf-route-supervar.md: YafRouteSupervar
 title: 'YafRouteSupervar::route'
 ---
 # YafRouteSupervar::route

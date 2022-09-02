@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimageunits.html: '« Imagick::setImageUnits'
-  - imagick.setimagewhitepoint.html: 'Imagick::setImageWhitePoint »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimageunits.md: '« Imagick::setImageUnits'
+  - imagick.setimagewhitepoint.md: 'Imagick::setImageWhitePoint »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageVirtualPixelMethod'
 ---
 # Imagick::setImageVirtualPixelMethod

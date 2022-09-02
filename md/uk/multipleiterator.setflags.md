@@ -28,7 +28,7 @@ public MultipleIterator::setFlags(int $flags): void
 
 `flags`
 
-Прапори для встановлення, згідно [Обумовленим константам](class.multipleiterator.html#multipleiterator.constants)
+Прапори для встановлення, згідно [Обумовленим константам](class.multipleiterator.md#multipleiterator.constants)
 
 ### Значення, що повертаються
 
@@ -36,6 +36,6 @@ public MultipleIterator::setFlags(int $flags): void
 
 ### Дивіться також
 
--   [Обумовлені константи](class.multipleiterator.html#multipleiterator.constants)
+-   [Обумовлені константи](class.multipleiterator.md#multipleiterator.constants)
 -   [MultipleIterator::construct()](multipleiterator.construct.md) - Створює новий MultipleIterator
 -   [MultipleIterator::getFlags()](multipleiterator.getflags.md) - Отримує інформацію про прапори

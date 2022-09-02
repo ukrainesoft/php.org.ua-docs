@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.jsonserializable.html: « JsonSerializable
-  - ref.json.html: Функции JSON »
-  - index.html: PHP Manual
-  - class.jsonserializable.html: JsonSerializable
+  - class.jsonserializable.md: « JsonSerializable
+  - ref.json.md: Функции JSON »
+  - index.md: PHP Manual
+  - class.jsonserializable.md: JsonSerializable
 title: 'JsonSerializable::jsonSerialize'
 ---
 # JsonSerializable::jsonSerialize
@@ -18,7 +18,7 @@ JsonSerializable::jsonSerialize — Задає дані, які мають бу�
 public JsonSerializable::jsonSerialize(): mixed
 ```
 
-Серіалізує об'єкт значення, яке спочатку може бути серіалізоване функцією [jsonencode()](function.json-encode.html)
+Серіалізує об'єкт значення, яке спочатку може бути серіалізоване функцією [jsonencode()](function.json-encode.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ public JsonSerializable::jsonSerialize(): mixed
 
 ### Значення, що повертаються
 
-Повертає дані, які можуть бути серіалізовані [jsonencode()](function.json-encode.html), які є значенням будь-якого типу, крім [resource](language.types.resource.html)
+Повертає дані, які можуть бути серіалізовані [jsonencode()](function.json-encode.md), які є значенням будь-якого типу, крім [resource](language.types.resource.md)
 
 ### Приклади
 

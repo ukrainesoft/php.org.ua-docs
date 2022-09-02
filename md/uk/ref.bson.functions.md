@@ -1,7 +1,7 @@
 ---
 navigation:
   - book.bson.md: « MongoDBBSON
-  - function.mongodb.bson-fromjson.html: MongoDBBSONfromJSON »
+  - function.mongodb.bson-fromjson.md: MongoDBBSONfromJSON »
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Функції

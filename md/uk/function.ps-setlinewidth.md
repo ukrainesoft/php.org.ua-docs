@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-setlinejoin.html: «pssetlinejoin
-  - function.ps-setmiterlimit.html: псsetmiterlimit »
+  - function.ps-setlinejoin.md: «pssetlinejoin
+  - function.ps-setmiterlimit.md: псsetmiterlimit »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetlinewidth

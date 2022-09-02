@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.get-client-info.html: '« mysqli::$clientinfo'
-  - mysqli.get-connection-stats.html: 'mysqli::getconnectionstats »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.get-client-info.md: '« mysqli::$clientinfo'
+  - mysqli.get-connection-stats.md: 'mysqli::getconnectionstats »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::$clientversion'
 ---
 # mysqli::$clientversion

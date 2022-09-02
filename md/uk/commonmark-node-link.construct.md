@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-link.html: « CommonMarkNodeLink
-  - class.commonmark-node-customblock.html: CommonMarkNodeCustomBlock »
+  - class.commonmark-node-link.md: « CommonMarkNodeLink
+  - class.commonmark-node-customblock.md: CommonMarkNodeCustomBlock »
   - index.md: PHP Manual
-  - class.commonmark-node-link.html: CommonMarkNodeLink
+  - class.commonmark-node-link.md: CommonMarkNodeLink
 title: 'CommonMarkNodeLink::construct'
 ---
 # CommonMarkNodeLink::construct

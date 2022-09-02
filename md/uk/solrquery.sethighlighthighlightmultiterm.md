@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.sethighlightfragsize.html: '« SolrQuery::setHighlightFragsize'
-  - solrquery.sethighlightmaxalternatefieldlength.html: 'SolrQuery::setHighlightMaxAlternateFieldLength »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.sethighlightfragsize.md: '« SolrQuery::setHighlightFragsize'
+  - solrquery.sethighlightmaxalternatefieldlength.md: 'SolrQuery::setHighlightMaxAlternateFieldLength »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightHighlightMultiTerm'
 ---
 # SolrQuery::setHighlightHighlightMultiTerm

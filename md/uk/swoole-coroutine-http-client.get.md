@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.execute.html: '« SwooleCoroutineHttpClient::execute'
-  - swoole-coroutine-http-client.getdefer.html: 'SwooleCoroutineHttpClient::getDefer »'
+  - swoole-coroutine-http-client.execute.md: '« SwooleCoroutineHttpClient::execute'
+  - swoole-coroutine-http-client.getdefer.md: 'SwooleCoroutineHttpClient::getDefer »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::get'
 ---
 # SwooleCoroutineHttpClient::get

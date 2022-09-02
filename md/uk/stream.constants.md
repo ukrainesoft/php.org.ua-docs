@@ -12,8 +12,8 @@ title: Обумовлені константи
 
 | Константа | Описание |
 | --- | --- |
-| **`STREAM_FILTER_READ`** | Використовується у функціях [streamfilterappend()](function.stream-filter-append.html) і [streamfilterprepend()](function.stream-filter-prepend.md). Вказує на те, що заданий фільтр може використовуватись лише в операціях читання (*reading* |
-| **`STREAM_FILTER_WRITE`** | Використовується у функціях [streamfilterappend()](function.stream-filter-append.html) і [streamfilterprepend()](function.stream-filter-prepend.md). Вказує на те, що заданий фільтр може використовуватись тільки в операціях запису (*writing* |
+| **`STREAM_FILTER_READ`** | Використовується у функціях [streamfilterappend()](function.stream-filter-append.md) і [streamfilterprepend()](function.stream-filter-prepend.md). Вказує на те, що заданий фільтр може використовуватись лише в операціях читання (*reading* |
+| **`STREAM_FILTER_WRITE`** | Використовується у функціях [streamfilterappend()](function.stream-filter-append.md) і [streamfilterprepend()](function.stream-filter-prepend.md). Вказує на те, що заданий фільтр може використовуватись тільки в операціях запису (*writing* |
 | **`STREAM_FILTER_ALL`** | Еквівалентно запису \`STREAM\_FILTER\_READ |
 | **`PSFS_PASS_ON`** | `Return Code` вказує, що фільтр користувача повернув бакети (buckets) в `$out` |
 | **`PSFS_FEED_ME`** | `Return Code` вказує, що фільтр користувача не повернув бакети (buckets) в `$out`. (тобто немає доступних даних). |

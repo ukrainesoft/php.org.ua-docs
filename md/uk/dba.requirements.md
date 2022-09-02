@@ -8,7 +8,7 @@ title: Вимоги
 ---
 ## Вимоги
 
-Поведінка у різних аспектах може відрізнятися залежно від реалізації бази даних. такі функції як [dbaoptimize()](function.dba-optimize.html) і [dbasync()](function.dba-sync.md) можуть працювати як обіцяно для одних баз даних та не працювати взагалі для інших. Вам необхідно завантажити та встановити підтримувані обробники dba.
+Поведінка у різних аспектах може відрізнятися залежно від реалізації бази даних. такі функції як [dbaoptimize()](function.dba-optimize.md) і [dbasync()](function.dba-sync.md) можуть працювати як обіцяно для одних баз даних та не працювати взагалі для інших. Вам необхідно завантажити та встановити підтримувані обробники dba.
 
 **Список обробників DBA**
 
@@ -23,9 +23,9 @@ title: Вимоги
 | `cdb` | Cdb - це "швидкий, надійний, легкий пакет для створення та читання постійних баз даних." від автора qmail. Може бути знайдений за посиланням [» http://cr.yp.to/cdb.html](http://cr.yp.to/cdb.md). Оскільки база незмінна, ми підтримуємо лише операції читання. PHP 4.3.0 також підтримує запис (не UPDATE!) через внутрішню бібліотеку cdb. |
 | `cdb_make` | З PHP 4.3.0 ми підтримуємо створення (не зміну) файлів cdb під час використання вбудованої бібліотеки cdb. |
 | `flatfile` | Доступно з PHP 4.3.0 тільки для підтримки сумісності із застарілим модулем `dbm`. Використовувати не рекомендується. Тим не менш, ви можете використовувати цей обробник для файлів, які раніше були створені в такому форматі. |
-| `inifile` | Доступно з PHP 4.3.3 для реалізації можливості зміни файлів php.ini із скриптів PHP. Працюючи з ini-файлами ви повинні передавати масиви формату array(0=>group,1=>valuename) або рядки формату "groupvaluename", де group - опціонально. Оскільки функції [dbafirstkey()](function.dba-firstkey.html) і [dbanextkey()](function.dba-nextkey.html) повертають рядкове подання ключів, в PHP 5 було введено нову функцію [dbakeysplit()](function.dba-key-split.md), що дозволяє конвертувати рядкові ключі у ключі масиву без втрати **`false`** |
+| `inifile` | Доступно з PHP 4.3.3 для реалізації можливості зміни файлів php.ini із скриптів PHP. Працюючи з ini-файлами ви повинні передавати масиви формату array(0=>group,1=>valuename) або рядки формату "groupvaluename", де group - опціонально. Оскільки функції [dbafirstkey()](function.dba-firstkey.md) і [dbanextkey()](function.dba-nextkey.md) повертають рядкове подання ключів, в PHP 5 було введено нову функцію [dbakeysplit()](function.dba-key-split.md), що дозволяє конвертувати рядкові ключі у ключі масиву без втрати **`false`** |
 | `qdbm` | Бібліотека qdbm доступна за посиланням [» http://fallabs.com/qdbm/index.html](http://fallabs.com/qdbm/index.md) |
 | `tcadb` | Бібліотека Tokyo Cabinet доступна за посиланням [» http://fallabs.com/tokyocabinet/](http://fallabs.com/tokyocabinet/) |
 | `lmdb` | Доступно з PHP 7.2.0. Бібліотеку Lightning Memory-Mapped Database можна завантажити із сайту [» https://symas.com/lmdb/](https://symas.com/lmdb/) |
 
-При виклику функцій [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)Як один з аргументів необхідно передати ім'я оброблювача. Актуальний список доступних обробників можна переглянути за допомогою функцій [phpinfo()](function.phpinfo.md) або [dbahandlers()](function.dba-handlers.md)
+При виклику функцій [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)Як один з аргументів необхідно передати ім'я оброблювача. Актуальний список доступних обробників можна переглянути за допомогою функцій [phpinfo()](function.phpinfo.md) або [dbahandlers()](function.dba-handlers.md)

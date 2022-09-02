@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-parser.token.html: '« ParleParser::token'
-  - parle-parser.trace.html: 'ParleParser::trace »'
+  - parle-parser.token.md: '« ParleParser::token'
+  - parle-parser.trace.md: 'ParleParser::trace »'
   - index.md: PHP Manual
-  - class.parle-parser.html: ParleParser
+  - class.parle-parser.md: ParleParser
 title: 'ParleParser::tokenId'
 ---
 # ParleParser::tokenId

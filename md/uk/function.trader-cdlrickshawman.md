@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlpiercing.html: « tradercdlpiercing
-  - function.trader-cdlrisefall3methods.html: tradercdlrisefall3methods »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlpiercing.md: « tradercdlpiercing
+  - function.trader-cdlrisefall3methods.md: tradercdlrisefall3methods »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlrickshawman
 ---
 # tradercdlrickshawman

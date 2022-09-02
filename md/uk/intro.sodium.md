@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.sodium.html: « Sodium
-  - sodium.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.sodium.html: Sodium
+  - book.sodium.md: « Sodium
+  - sodium.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.sodium.md: Sodium
 title: Вступ
 ---
 # Вступ

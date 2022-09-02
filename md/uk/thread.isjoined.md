@@ -1,9 +1,9 @@
 ---
 navigation:
-  - thread.getthreadid.html: '« Thread::getThreadId'
-  - thread.isstarted.html: 'Thread::isStarted »'
-  - index.html: PHP Manual
-  - class.thread.html: Thread
+  - thread.getthreadid.md: '« Thread::getThreadId'
+  - thread.isstarted.md: 'Thread::isStarted »'
+  - index.md: PHP Manual
+  - class.thread.md: Thread
 title: 'Thread::isJoined'
 ---
 # Thread::isJoined

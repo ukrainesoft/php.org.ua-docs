@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.fetch.html: '« Memcached::fetch'
-  - memcached.flush.html: 'Memcached::flush »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.fetch.md: '« Memcached::fetch'
+  - memcached.flush.md: 'Memcached::flush »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::fetchAll'
 ---
 # Memcached::fetchAll
@@ -26,11 +26,11 @@ public Memcached::fetchAll(): array|false
 
 ### Значення, що повертаються
 
-Повертає результат запиту або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.html)
+Повертає результат запиту або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
-**Приклад #1 Приклад використання [Memcached::getDelayed()](memcached.getdelayed.html)**
+**Приклад #1 Приклад використання [Memcached::getDelayed()](memcached.getdelayed.md)**
 
 ```php
 <?php
@@ -78,5 +78,5 @@ array(2) {
 
 ### Дивіться також
 
--   [Memcached::fetch()](memcached.fetch.html) - Витягує наступний результат
--   [Memcached::getDelayed()](memcached.getdelayed.html) - Запитує кілька записів
+-   [Memcached::fetch()](memcached.fetch.md) - Витягує наступний результат
+-   [Memcached::getDelayed()](memcached.getdelayed.md) - Запитує кілька записів

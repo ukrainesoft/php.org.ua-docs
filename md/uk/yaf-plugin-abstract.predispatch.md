@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-plugin-abstract.postdispatch.html: '« YafPluginAbstract::postDispatch'
-  - yaf-plugin-abstract.preresponse.html: 'YafPluginAbstract::preResponse »'
+  - yaf-plugin-abstract.postdispatch.md: '« YafPluginAbstract::postDispatch'
+  - yaf-plugin-abstract.preresponse.md: 'YafPluginAbstract::preResponse »'
   - index.md: PHP Manual
-  - class.yaf-plugin-abstract.html: YafPluginAbstract
+  - class.yaf-plugin-abstract.md: YafPluginAbstract
 title: 'YafPluginAbstract::preDispatch'
 ---
 # YafPluginAbstract::preDispatch

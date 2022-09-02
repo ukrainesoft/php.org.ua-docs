@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-runtimeexception.html: « MongoDBDriverExceptionRuntimeException
-  - class.mongodb-driver-exception-serverexception.html: MongoDBDriverExceptionServerException »
+  - class.mongodb-driver-exception-runtimeexception.md: « MongoDBDriverExceptionRuntimeException
+  - class.mongodb-driver-exception-serverexception.md: MongoDBDriverExceptionServerException »
   - index.md: PHP Manual
-  - class.mongodb-driver-exception-runtimeexception.html: MongoDBDriverExceptionRuntimeException
+  - class.mongodb-driver-exception-runtimeexception.md: MongoDBDriverExceptionRuntimeException
 title: 'MongoDBDriverExceptionRuntimeException::hasErrorLabel'
 ---
 # MongoDBDriverExceptionRuntimeException::hasErrorLabel

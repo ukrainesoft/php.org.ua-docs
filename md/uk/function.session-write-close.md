@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.session-unset.html: « sessionunset
+  - function.session-unset.md: « sessionunset
   - class.sessionhandler.md: SessionHandler »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями

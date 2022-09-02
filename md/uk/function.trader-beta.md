@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-bbands.html: « traderbbands
-  - function.trader-bop.html: traderbop »
+  - function.trader-bbands.md: « traderbbands
+  - function.trader-bop.md: traderbop »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderbeta

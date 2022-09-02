@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-write.html: '« streamWrapper::streamwrite'
-  - streamwrapper.url-stat.html: 'streamWrapper::urlstat »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-write.md: '« streamWrapper::streamwrite'
+  - streamwrapper.url-stat.md: 'streamWrapper::urlstat »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::unlink'
 ---
 # streamWrapper::unlink
@@ -18,7 +18,7 @@ streamWrapper::unlink — Видалення файлу
 public streamWrapper::unlink(string $path): bool
 ```
 
-Цей метод викликається у процесі виконання [unlink()](function.unlink.html)
+Цей метод викликається у процесі виконання [unlink()](function.unlink.md)
 
 > **Зауваження**
 > 
@@ -46,5 +46,5 @@ URL файлу, що видаляється.
 
 ### Дивіться також
 
--   [unlink()](function.unlink.html) - Видаляє файл
--   [streamWrapper::rmdir()](streamwrapper.rmdir.html) - видаляє директорію
+-   [unlink()](function.unlink.md) - Видаляє файл
+-   [streamWrapper::rmdir()](streamwrapper.rmdir.md) - видаляє директорію

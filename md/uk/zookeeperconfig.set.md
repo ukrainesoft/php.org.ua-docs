@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeperconfig.remove.html: '« ZookeeperConfig::remove'
-  - class.zookeeperexception.html: ZookeeperException »
-  - index.html: PHP Manual
-  - class.zookeeperconfig.html: ZookeeperConfig
+  - zookeeperconfig.remove.md: '« ZookeeperConfig::remove'
+  - class.zookeeperexception.md: ZookeeperException »
+  - index.md: PHP Manual
+  - class.zookeeperconfig.md: ZookeeperConfig
 title: 'ZookeeperConfig::set'
 ---
 # ZookeeperConfig::set
@@ -39,7 +39,7 @@ public
 
 ### Помилки
 
-Метод генерує [ZookeeperException](class.zookeeperexception.html) та його похідні, коли кількість параметрів або типи неправильні або не вдається зберегти значення у вузлі.
+Метод генерує [ZookeeperException](class.zookeeperexception.md) та його похідні, коли кількість параметрів або типи неправильні або не вдається зберегти значення у вузлі.
 
 ### Приклади
 
@@ -59,7 +59,7 @@ $zkConfig->set("server.1=localhost:2888:3888:participant;0.0.0.0:2181");
 
 ### Дивіться також
 
--   [ZookeeperConfig::get()](zookeeperconfig.get.html) - Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
--   [ZookeeperConfig::add()](zookeeperconfig.add.html) - Додає сервери до ансамблю
--   [ZookeeperConfig::remove()](zookeeperconfig.remove.html) - Видаляє сервери з ансамблю
--   [ZookeeperException](class.zookeeperexception.html)
+-   [ZookeeperConfig::get()](zookeeperconfig.get.md) - Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
+-   [ZookeeperConfig::add()](zookeeperconfig.add.md) - Додає сервери до ансамблю
+-   [ZookeeperConfig::remove()](zookeeperconfig.remove.md) - Видаляє сервери з ансамблю
+-   [ZookeeperException](class.zookeeperexception.md)

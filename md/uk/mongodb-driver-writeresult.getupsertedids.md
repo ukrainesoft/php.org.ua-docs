@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getupsertedcount.html: '« MongoDBDriverWriteResult::getUpsertedCount'
-  - mongodb-driver-writeresult.getwriteconcernerror.html: 'MongoDBDriverWriteResult::getWriteConcernError »'
+  - mongodb-driver-writeresult.getupsertedcount.md: '« MongoDBDriverWriteResult::getUpsertedCount'
+  - mongodb-driver-writeresult.getwriteconcernerror.md: 'MongoDBDriverWriteResult::getWriteConcernError »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
 title: 'MongoDBDriverWriteResult::getUpsertedIds'
 ---
 # MongoDBDriverWriteResult::getUpsertedIds

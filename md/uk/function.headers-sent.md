@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.headers-list.html: « headerslist
-  - function.http-response-code.html: httpresponsecode »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.headers-list.md: « headerslist
+  - function.http-response-code.md: httpresponsecode »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: headerssent
 ---
 # headerssent
@@ -20,7 +20,7 @@ headers_sent(string &$filename = null, int &$line = null): bool
 
 Перевіряє, чи надіслано заголовки.
 
-Не можна надіслати додаткові рядки заголовків за допомогою функції [header()](function.header.html), якщо заголовки вже надіслано. Використовуючи цю функцію, можна попередити помилки, пов'язані з заголовками HTTP. Іншим варіантом є використання [буферизації висновку](ref.outcontrol.html)
+Не можна надіслати додаткові рядки заголовків за допомогою функції [header()](function.header.md), якщо заголовки вже надіслано. Використовуючи цю функцію, можна попередити помилки, пов'язані з заголовками HTTP. Іншим варіантом є використання [буферизації висновку](ref.outcontrol.md)
 
 ### Список параметрів
 
@@ -76,7 +76,7 @@ if (!headers_sent($filename, $linenum)) {
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
--   [triggererror()](function.trigger-error.html) - Викликає помилку користувача/попередження/повідомлення
--   [headerslist()](function.headers-list.html) - Повертає список переданих заголовків (або готових до відправлення)
--   Дивіться інформацію щодо функції [header()](function.header.html) - Надсилання HTTP-заголовка для більш детальної інформації.
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [triggererror()](function.trigger-error.md) - Викликає помилку користувача/попередження/повідомлення
+-   [headerslist()](function.headers-list.md) - Повертає список переданих заголовків (або готових до відправлення)
+-   Дивіться інформацію щодо функції [header()](function.header.md) - Надсилання HTTP-заголовка для більш детальної інформації.

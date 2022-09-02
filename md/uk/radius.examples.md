@@ -1,6 +1,6 @@
 ---
 navigation:
-  - radius.constants.vendor-specific.html: Атрибути RADIUS специфічні для різних виробників.
+  - radius.constants.vendor-specific.md: Атрибути RADIUS специфічні для різних виробників.
   - ref.radius.md: Функции Radius »
   - index.md: PHP Manual
   - book.radius.md: Radius

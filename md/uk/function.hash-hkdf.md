@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-final.html: « hashfinal
-  - function.hash-hmac-algos.html: hashhmacalgos »
+  - function.hash-final.md: « hashfinal
+  - function.hash-hmac-algos.md: hashhmacalgos »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashhkdf

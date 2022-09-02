@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setcompressionquality.html: '« Imagick::setCompressionQuality'
-  - imagick.setfirstiterator.html: 'Imagick::setFirstIterator »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setcompressionquality.md: '« Imagick::setCompressionQuality'
+  - imagick.setfirstiterator.md: 'Imagick::setFirstIterator »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setFilename'
 ---
 # Imagick::setFilename

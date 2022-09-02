@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.sethighlighthighlightmultiterm.html: '« SolrQuery::setHighlightHighlightMultiTerm'
-  - solrquery.sethighlightmaxanalyzedchars.html: 'SolrQuery::setHighlightMaxAnalyzedChars »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.sethighlighthighlightmultiterm.md: '« SolrQuery::setHighlightHighlightMultiTerm'
+  - solrquery.sethighlightmaxanalyzedchars.md: 'SolrQuery::setHighlightMaxAnalyzedChars »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightMaxAlternateFieldLength'
 ---
 # SolrQuery::setHighlightMaxAlternateFieldLength

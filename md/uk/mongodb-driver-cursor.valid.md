@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.toarray.html: '« MongoDBDriverCursor::toArray'
-  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId »
-  - index.html: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - mongodb-driver-cursor.toarray.md: '« MongoDBDriverCursor::toArray'
+  - class.mongodb-driver-cursorid.md: MongoDBDriverCursorId »
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::valid'
 ---
 # MongoDBDriverCursor::valid

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-priorityqueue.allocate.html: '« DsPriorityQueue::allocate'
-  - ds-priorityqueue.clear.html: 'ДсPriorityQueue::clear »'
+  - ds-priorityqueue.allocate.md: '« DsPriorityQueue::allocate'
+  - ds-priorityqueue.clear.md: 'ДсPriorityQueue::clear »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - class.ds-priorityqueue.md: Черга з пріоритетом
 title: 'ДсPriorityQueue::capacity'
 ---
 # ДсPriorityQueue::capacity

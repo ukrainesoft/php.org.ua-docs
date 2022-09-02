@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-dbname.html: « pgdbname
-  - function.pg-end-copy.html: пгendcopy »
+  - function.pg-dbname.md: « pgdbname
+  - function.pg-end-copy.md: пгendcopy »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгdelete

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-broker-free.html: « enchantbrokerfree
-  - function.enchant-broker-get-error.html: enchantbrokergeterror »
+  - function.enchant-broker-free.md: « enchantbrokerfree
+  - function.enchant-broker-get-error.md: enchantbrokergeterror »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantbrokergetdictpath

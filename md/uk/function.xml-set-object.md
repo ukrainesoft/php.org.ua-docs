@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xml-set-notation-decl-handler.html: « xmlsetnotationdeclhandler
-  - function.xml-set-processing-instruction-handler.html: xmlsetprocessinginstructionhandler »
-  - index.html: PHP Manual
-  - ref.xml.html: Функции парсера XML
+  - function.xml-set-notation-decl-handler.md: « xmlsetnotationdeclhandler
+  - function.xml-set-processing-instruction-handler.md: xmlsetprocessinginstructionhandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
 title: xmlsetobject
 ---
 # xmlsetobject
@@ -18,7 +18,7 @@ xmlsetobject — Використання XML-аналізатора всере�
 xml_set_object(XMLParser $parser, object $object): bool
 ```
 
-Ця функція дозволяє використовувати `parser` всередині об'єкту `object`. Усі callback-функції можуть бути встановлені функціями [xmlsetelementhandler()](function.xml-set-element-handler.html) і т.п. та використовуватись як методи об'єкту `object`
+Ця функція дозволяє використовувати `parser` всередині об'єкту `object`. Усі callback-функції можуть бути встановлені функціями [xmlsetelementhandler()](function.xml-set-element-handler.md) і т.п. та використовуватись як методи об'єкту `object`
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ xml_set_object(XMLParser $parser, object $object): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

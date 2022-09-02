@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-mime-header-decode.html: « imapmimeheaderdecode
-  - function.imap-mutf7-to-utf8.html: imapmutf7тоutf8 »
+  - function.imap-mime-header-decode.md: « imapmimeheaderdecode
+  - function.imap-mutf7-to-utf8.md: imapmutf7тоutf8 »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapmsgno

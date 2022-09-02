@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagestringup.html: « imagestringup
-  - function.imagesy.html: imagesy »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagestringup.md: « imagestringup
+  - function.imagesy.md: imagesy »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesx
 ---
 # imagesx
@@ -24,7 +24,7 @@ imagesx(GdImage $image): int
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ imagesx(GdImage $image): int
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -53,6 +53,6 @@ echo imagesx($img); // 300
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
--   [getimagesize()](function.getimagesize.html) - Отримання розміру зображення
--   [imagesy()](function.imagesy.html) - Отримання висоти зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
+-   [getimagesize()](function.getimagesize.md) - Отримання розміру зображення
+-   [imagesy()](function.imagesy.md) - Отримання висоти зображення

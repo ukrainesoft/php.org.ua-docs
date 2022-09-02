@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strncmp.html: « strncmp
-  - function.strpos.html: strpos »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.strncmp.md: « strncmp
+  - function.strpos.md: strpos »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strpbrk
 ---
 # strpbrk
@@ -53,6 +53,6 @@ echo strpbrk($text, 'S');
 
 ### Дивіться також
 
--   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
--   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
+-   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
+-   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу

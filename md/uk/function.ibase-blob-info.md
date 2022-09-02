@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-blob-import.html: « ibaseblobimport
-  - function.ibase-blob-open.html: ibaseblobopen »
+  - function.ibase-blob-import.md: « ibaseblobimport
+  - function.ibase-blob-open.md: ibaseblobopen »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseblobinfo

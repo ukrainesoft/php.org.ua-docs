@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mongodb.bson-tojson.html: « MongoDBBSONtoJSON
-  - function.mongodb.bson-torelaxedextendedjson.html: MongoDBBSONtoRelaxedExtendedJSON »
+  - function.mongodb.bson-tojson.md: « MongoDBBSONtoJSON
+  - function.mongodb.bson-torelaxedextendedjson.md: MongoDBBSONtoRelaxedExtendedJSON »
   - index.md: PHP Manual
   - ref.bson.functions.md: Функції
 title: MongoDBBSONtoPHP
@@ -32,7 +32,7 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 
 `typeMap` (array)
 
-[Конфігурація карти типів](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)
+[Конфігурація карти типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 
 ### Помилки
 
--   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо клас у карті типів не може бути створений або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.md)
+-   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо клас у карті типів не може бути створений або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.md)
 -   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ### список змін
@@ -52,7 +52,7 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 
 | | PECL mongodb 1.3.2 |
 
-[MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) більше не видається, якщо вхідні дані містять непідтримуваний тип BSON. Такі типи будуть ігноруватися (як вони були у версіях до 1.3.0), хоча драйвер тепер записуватиме попередження в журнал налагодження (дивіться: [mongodb.debug](mongodb.configuration.html#ini.mongodb.debug)
+[MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) більше не видається, якщо вхідні дані містять непідтримуваний тип BSON. Такі типи будуть ігноруватися (як вони були у версіях до 1.3.0), хоча драйвер тепер записуватиме попередження в журнал налагодження (дивіться: [mongodb.debug](mongodb.configuration.md#ini.mongodb.debug)
 
 | | PECL mongodb 1.3.0
 

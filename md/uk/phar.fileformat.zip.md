@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.fileformat.tar.html: '« Phar-архіви, засновані на tar'
-  - phar.fileformat.phar.html: Формат файла phar »
-  - index.html: PHP Manual
-  - phar.fileformat.html: Чим відрізняється phar від tar-або zip-архіву?
+  - phar.fileformat.tar.md: '« Phar-архіви, засновані на tar'
+  - phar.fileformat.phar.md: Формат файла phar »
+  - index.md: PHP Manual
+  - phar.fileformat.md: Чим відрізняється phar від tar-або zip-архіву?
 title: Phar-архіви на основі zip
 ---
 ## Phar-архіви на основі zip

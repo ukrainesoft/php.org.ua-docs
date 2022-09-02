@@ -1,9 +1,9 @@
 ---
 navigation:
-  - lua.eval.html: '« Lua::eval'
-  - lua.include.html: 'Lua::include »'
-  - index.html: PHP Manual
-  - class.lua.html: Lua
+  - lua.eval.md: '« Lua::eval'
+  - lua.include.md: 'Lua::include »'
+  - index.md: PHP Manual
+  - class.lua.md: Lua
 title: 'Lua::getVersion'
 ---
 # Lua::getVersion

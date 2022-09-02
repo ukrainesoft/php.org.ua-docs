@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.xmlrpc.html: « XML-RPC
-  - xmlrpc.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.xmlrpc.html: XML-RPC
+  - book.xmlrpc.md: « XML-RPC
+  - xmlrpc.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.xmlrpc.md: XML-RPC
 title: Вступ
 ---
 # Вступ

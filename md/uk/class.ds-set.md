@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ds-pair.toarray.html: '« DsPair::toArray'
-  - ds-set.add.html: 'ДсSet::add »'
+  - ds-pair.toarray.md: '« DsPair::toArray'
+  - ds-set.add.md: 'ДсSet::add »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Клас Set

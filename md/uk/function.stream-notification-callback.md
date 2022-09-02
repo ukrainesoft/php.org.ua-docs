@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-isatty.html: « streamisatty
-  - function.stream-register-wrapper.html: streamregisterwrapper »
+  - function.stream-isatty.md: « streamisatty
+  - function.stream-register-wrapper.md: streamregisterwrapper »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamnotificationcallback
@@ -18,7 +18,7 @@ streamnotificationcallback - Callback-функція для параметра �
 stream_notification_callback(    int $notification_code,    int $severity,    string $message,    int $message_code,    int $bytes_transferred,    int $bytes_max): void
 ```
 
-Callback-функція типу [callable](language.types.callable.md), що використовується [параметром контекста notification](context.params.html#context.params.notification), що викликається під час події.
+Callback-функція типу [callable](language.types.callable.md), що використовується [параметром контекста notification](context.params.md#context.params.notification), що викликається під час події.
 
 > **Зауваження**
 > 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-errno.html: « mysqlerrno
-  - function.mysql-escape-string.html: mysqlescapestring »
+  - function.mysql-errno.md: « mysqlerrno
+  - function.mysql-escape-string.md: mysqlescapestring »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlerror
@@ -31,7 +31,7 @@ mysql_error(resource $link_identifier = NULL): string
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 

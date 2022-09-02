@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-table.construct.html: '« Table::construct'
-  - mysql-xdevapi-table.delete.html: 'Table::delete »'
+  - mysql-xdevapi-table.construct.md: '« Table::construct'
+  - mysql-xdevapi-table.delete.md: 'Table::delete »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
 title: 'Table::count'
 ---
 # Table::count

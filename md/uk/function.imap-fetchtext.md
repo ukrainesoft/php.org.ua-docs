@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-fetchstructure.html: « imapfetchstructure
-  - function.imap-gc.html: imapgc »
+  - function.imap-fetchstructure.md: « imapfetchstructure
+  - function.imap-gc.md: imapgc »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapfetchtext

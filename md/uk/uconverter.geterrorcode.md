@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.getdestinationtype.html: '« UConverter::getDestinationType'
-  - uconverter.geterrormessage.html: 'UConverter::getErrorMessage »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.getdestinationtype.md: '« UConverter::getDestinationType'
+  - uconverter.geterrormessage.md: 'UConverter::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::getErrorCode'
 ---
 # UConverter::getErrorCode

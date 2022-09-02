@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionattribute.gettarget.html: '« ReflectionAttribute::getTarget'
-  - reflectionattribute.newinstance.html: 'ReflectionAttribute::newInstance »'
-  - index.html: PHP Manual
-  - class.reflectionattribute.html: ReflectionAttribute
+  - reflectionattribute.gettarget.md: '« ReflectionAttribute::getTarget'
+  - reflectionattribute.newinstance.md: 'ReflectionAttribute::newInstance »'
+  - index.md: PHP Manual
+  - class.reflectionattribute.md: ReflectionAttribute
 title: 'ReflectionAttribute::isRepeated'
 ---
 # ReflectionAttribute::isRepeated

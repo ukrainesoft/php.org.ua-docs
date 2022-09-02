@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.fetch-array.html: '« mysqliresult::fetcharray'
-  - mysqli-result.fetch-column.html: 'mysqliresult::fetchcolumn »'
+  - mysqli-result.fetch-array.md: '« mysqliresult::fetcharray'
+  - mysqli-result.fetch-column.md: 'mysqliresult::fetchcolumn »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::fetchassoc'
 ---
 # mysqliresult::fetchassoc
@@ -40,7 +40,7 @@ mysqli_fetch_assoc(mysqli_result $result): array|null|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 
@@ -98,7 +98,7 @@ Santa Clara (USA)
 
 **Приклад #2 Порівняння використання [mysqliresult](class.mysqli-result.md) [iterator](class.iterator.md) і **mysqliresult::fetchassoc()****
 
-[mysqliresult](class.mysqli-result.html) можна повторити за допомогою [foreach](control-structures.foreach.md). Результуючий набір завжди повторюватиметься з першого рядка незалежно від поточної позиції.
+[mysqliresult](class.mysqli-result.md) можна повторити за допомогою [foreach](control-structures.foreach.md). Результуючий набір завжди повторюватиметься з першого рядка незалежно від поточної позиції.
 
 ```php
 <?php

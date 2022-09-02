@@ -28,7 +28,7 @@ public Imagick::getImageDistortion(MagickWand $reference, int $metric): float
 
 `metric`
 
-Одна з [констант типа METRIC](imagick.constants.html#imagick.constants.metric)
+Одна з [констант типа METRIC](imagick.constants.md#imagick.constants.metric)
 
 ### Значення, що повертаються
 

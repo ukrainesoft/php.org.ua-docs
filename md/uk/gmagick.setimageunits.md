@@ -24,7 +24,7 @@ public Gmagick::setimageunits(int $resolution): Gmagick
 
 `resolution`
 
-Одна з констант [разрешения](gmagick.constants.html#gmagick.constants.resolution) `Gmagick::RESOLUTION_*`
+Одна з констант [разрешения](gmagick.constants.md#gmagick.constants.resolution) `Gmagick::RESOLUTION_*`
 
 ### Значення, що повертаються
 

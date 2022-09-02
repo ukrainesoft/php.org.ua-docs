@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dateinterval.construct.html: '« DateInterval::construct'
-  - dateinterval.format.html: 'DateInterval::format »'
-  - index.html: PHP Manual
-  - class.dateinterval.html: DateInterval
+  - dateinterval.construct.md: '« DateInterval::construct'
+  - dateinterval.format.md: 'DateInterval::format »'
+  - index.md: PHP Manual
+  - class.dateinterval.md: DateInterval
 title: 'DateInterval::createFromDateString'
 ---
 # DateInterval::createFromDateString
@@ -24,7 +24,7 @@ public static DateInterval::createFromDateString(string $datetime): DateInterval
 
 `datetime`
 
-Дата, що складається з відносних часових фрагментів. Зокрема, для створення об'єкта DateInterval із частин, записаних у [відносному форматі](datetime.formats.relative.html), який підтримується парсером у функціях [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) і [strtotime()](function.strtotime.md)
+Дата, що складається з відносних часових фрагментів. Зокрема, для створення об'єкта DateInterval із частин, записаних у [відносному форматі](datetime.formats.relative.md), який підтримується парсером у функціях [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) і [strtotime()](function.strtotime.md)
 
 ### Значення, що повертаються
 

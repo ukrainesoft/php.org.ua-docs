@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.html: '« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded'
-  - mongodb-driver-monitoring-sdamsubscriber.topologychanged.html: 'MongoDBDriverMonitoringSDAMSubscriber::topologyChanged »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md: '« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded'
+  - mongodb-driver-monitoring-sdamsubscriber.topologychanged.md: 'MongoDBDriverMonitoringSDAMSubscriber::topologyChanged »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
 title: 'MongoDBDriverMonitoringSDAMSubscriber::serverOpening'
 ---
 # MongoDBDriverMonitoringSDAMSubscriber::serverOpening
@@ -22,7 +22,7 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening(MongoDB\
 
 ### Список параметрів
 
-`event` [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
+`event` [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md)
 
 Об'єкт події містить інформацію про відкритий сервер.
 
@@ -32,10 +32,10 @@ abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening(MongoDB\
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.html)
--   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.html) - Глобальна реєстрація передплатника на подію моніторингу
--   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.html) - реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDBDriverMonitoringServerOpeningEvent](class.mongodb-driver-monitoring-serveropeningevent.md)
+-   [MongoDBDriverMonitoringaddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md) - Глобальна реєстрація передплатника на подію моніторингу
+-   [MongoDBDriverManager::addSubscriber()](mongodb-driver-manager.addsubscriber.md) - реєструє передплатника на подію моніторингу в даному об'єкті Manager

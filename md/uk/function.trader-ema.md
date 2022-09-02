@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-dx.html: « traderдкс
-  - function.trader-errno.html: tradererrno »
+  - function.trader-dx.md: « traderдкс
+  - function.trader-errno.md: tradererrno »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderema

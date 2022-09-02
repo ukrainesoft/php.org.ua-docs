@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.wddx.html: « Введение
-  - wddx.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.wddx.html: WDDX
+  - intro.wddx.md: « Введение
+  - wddx.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.wddx.md: WDDX
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

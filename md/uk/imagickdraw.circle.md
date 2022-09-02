@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.bezier.html: '« ImagickDraw::bezier'
-  - imagickdraw.clear.html: 'ImagickDraw::clear »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.bezier.md: '« ImagickDraw::bezier'
+  - imagickdraw.clear.md: 'ImagickDraw::clear »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::circle'
 ---
 # ImagickDraw::circle

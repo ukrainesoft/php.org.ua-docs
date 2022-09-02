@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-spin.setvalue.html: '« UIControlsSpin::setValue'
-  - ui-controls-slider.construct.html: 'ОЙControlsSlider::construct »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-controls-spin.setvalue.md: '« UIControlsSpin::setValue'
+  - ui-controls-slider.construct.md: 'ОЙControlsSlider::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Елемент управління "Слайдер"
 ---
 # Елемент управління "Слайдер"
@@ -61,7 +61,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsSlider::construct](ui-controls-slider.construct.html) — Створює новий об'єкт Slider
--   [ОЙControlsSlider::getValue](ui-controls-slider.getvalue.html) — Отримати значення
--   [ОЙControlsSlider::onChange](ui-controls-slider.onchange.html) - Обробник зміни
--   [ОЙControlsSlider::setValue](ui-controls-slider.setvalue.html) — Встановити значення
+-   [ОЙControlsSlider::construct](ui-controls-slider.construct.md) — Створює новий об'єкт Slider
+-   [ОЙControlsSlider::getValue](ui-controls-slider.getvalue.md) — Отримати значення
+-   [ОЙControlsSlider::onChange](ui-controls-slider.onchange.md) - Обробник зміни
+-   [ОЙControlsSlider::setValue](ui-controls-slider.setvalue.md) — Встановити значення

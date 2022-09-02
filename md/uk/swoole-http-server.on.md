@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-http-server.html: « SwooleHttpServer
-  - swoole-http-server.start.html: 'SwooleHttpServer::start »'
+  - class.swoole-http-server.md: « SwooleHttpServer
+  - swoole-http-server.start.md: 'SwooleHttpServer::start »'
   - index.md: PHP Manual
-  - class.swoole-http-server.html: SwooleHttpServer
+  - class.swoole-http-server.md: SwooleHttpServer
 title: 'SwooleHttpServer::on'
 ---
 # SwooleHttpServer::on

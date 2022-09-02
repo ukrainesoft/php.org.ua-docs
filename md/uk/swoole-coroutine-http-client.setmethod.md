@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.setheaders.html: '« SwooleCoroutineHttpClient::setHeaders'
-  - swoole-coroutine-mysql.close.html: 'SwooleCoroutineMySQL::close »'
+  - swoole-coroutine-http-client.setheaders.md: '« SwooleCoroutineHttpClient::setHeaders'
+  - swoole-coroutine-mysql.close.md: 'SwooleCoroutineMySQL::close »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::setMethod'
 ---
 # SwooleCoroutineHttpClient::setMethod

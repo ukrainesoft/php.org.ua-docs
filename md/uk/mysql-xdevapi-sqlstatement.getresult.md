@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatement.getnextresult.html: '« SqlStatement::getNextResult'
-  - mysql-xdevapi-sqlstatement.hasmoreresults.html: 'SqlStatement::hasMoreResults »'
+  - mysql-xdevapi-sqlstatement.getnextresult.md: '« SqlStatement::getNextResult'
+  - mysql-xdevapi-sqlstatement.hasmoreresults.md: 'SqlStatement::hasMoreResults »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement
+  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
 title: 'SqlStatement::getResult'
 ---
 # SqlStatement::getResult

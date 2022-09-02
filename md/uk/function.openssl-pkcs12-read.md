@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkcs12-export.html: « opensslpkcs12export
-  - function.openssl-pkcs7-decrypt.html: opensslpkcs7decrypt »
+  - function.openssl-pkcs12-export.md: « opensslpkcs12export
+  - function.openssl-pkcs7-decrypt.md: opensslpkcs7decrypt »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkcs12read

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileinfo.getsize.html: '« SplFileInfo::getSize'
-  - splfileinfo.isdir.html: 'SplFileInfo::isDir »'
-  - index.html: PHP Manual
-  - class.splfileinfo.html: SplFileInfo
+  - splfileinfo.getsize.md: '« SplFileInfo::getSize'
+  - splfileinfo.isdir.md: 'SplFileInfo::isDir »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getType'
 ---
 # SplFileInfo::getType

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageartifact.html: '« Imagick::getImageArtifact'
-  - imagick.getimagebackgroundcolor.html: 'Imagick::getImageBackgroundColor »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageartifact.md: '« Imagick::getImageArtifact'
+  - imagick.getimagebackgroundcolor.md: 'Imagick::getImageBackgroundColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageAttribute'
 ---
 # Imagick::getImageAttribute

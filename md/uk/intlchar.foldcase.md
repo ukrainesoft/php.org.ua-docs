@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.enumchartypes.html: '« IntlChar::enumCharTypes'
-  - intlchar.fordigit.html: 'IntlChar::forDigit »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.enumchartypes.md: '« IntlChar::enumCharTypes'
+  - intlchar.fordigit.md: 'IntlChar::forDigit »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::foldCase'
 ---
 # IntlChar::foldCase

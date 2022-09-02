@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-stroke.getcap.html: '« UIDrawStroke::getCap'
-  - ui-draw-stroke.getmiterlimit.html: 'ОЙDrawStroke::getMiterLimit »'
+  - ui-draw-stroke.getcap.md: '« UIDrawStroke::getCap'
+  - ui-draw-stroke.getmiterlimit.md: 'ОЙDrawStroke::getMiterLimit »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.html: ОЙDrawStroke
+  - class.ui-draw-stroke.md: ОЙDrawStroke
 title: 'ОЙDrawStroke::getJoin'
 ---
 # ОЙDrawStroke::getJoin

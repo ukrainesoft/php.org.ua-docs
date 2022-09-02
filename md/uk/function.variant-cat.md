@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-cast.html: « variantcast
-  - function.variant-cmp.html: variantcmp »
+  - function.variant-cast.md: « variantcast
+  - function.variant-cmp.md: variantcmp »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantcat

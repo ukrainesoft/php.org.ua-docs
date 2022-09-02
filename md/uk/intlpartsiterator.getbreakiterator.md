@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.intlpartsiterator.html: « IntlPartsIterator
-  - class.uconverter.html: UConverter »
-  - index.html: PHP Manual
-  - class.intlpartsiterator.html: IntlPartsIterator
+  - class.intlpartsiterator.md: « IntlPartsIterator
+  - class.uconverter.md: UConverter »
+  - index.md: PHP Manual
+  - class.intlpartsiterator.md: IntlPartsIterator
 title: 'IntlPartsIterator::getBreakIterator'
 ---
 # IntlPartsIterator::getBreakIterator

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-memcmp.html: « sodiummemcmp
-  - function.sodium-pad.html: sodiumpad »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-memcmp.md: « sodiummemcmp
+  - function.sodium-pad.md: sodiumpad »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiummemzero
 ---
 # sodiummemzero

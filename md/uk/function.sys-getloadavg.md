@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sleep.html: « sleep
-  - function.time-nanosleep.html: timenanosleep »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.sleep.md: « sleep
+  - function.time-nanosleep.md: timenanosleep »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: sysgetloadavg
 ---
 # sysgetloadavg

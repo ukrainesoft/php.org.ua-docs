@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ob-get-flush.html: « obgetflush
-  - function.ob-get-level.html: проgetlevel »
+  - function.ob-get-flush.md: « obgetflush
+  - function.ob-get-level.md: проgetlevel »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
 title: проgetlength

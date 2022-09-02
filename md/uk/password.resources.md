@@ -1,9 +1,9 @@
 ---
 navigation:
-  - password.configuration.html: « Налаштування під час виконання
-  - password.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - password.setup.html: Встановлення та налаштування
+  - password.configuration.md: « Налаштування під час виконання
+  - password.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - password.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

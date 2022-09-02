@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.clear.html: '« DsStack::clear'
-  - ds-stack.copy.html: 'ДсStack::copy »'
-  - index.html: PHP Manual
-  - class.ds-stack.html: Стек
+  - ds-stack.clear.md: '« DsStack::clear'
+  - ds-stack.copy.md: 'ДсStack::copy »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
 title: 'ДсStack::construct'
 ---
 # ДсStack::construct
@@ -14,9 +14,9 @@ title: 'ДсStack::construct'
 
 ### Опис
 
-public **ДсStack::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
+public **ДсStack::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
-Створює новий екземпляр класу, використовуючи або об'єкт, що реалізує [traversable](class.traversable.html), або масив, передані як параметр `values`
+Створює новий екземпляр класу, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
 ### Список параметрів
 

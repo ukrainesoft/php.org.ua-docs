@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatement.construct.html: '« SqlStatement::construct'
-  - mysql-xdevapi-sqlstatement.getnextresult.html: 'SqlStatement::getNextResult »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement
+  - mysql-xdevapi-sqlstatement.construct.md: '« SqlStatement::construct'
+  - mysql-xdevapi-sqlstatement.getnextresult.md: 'SqlStatement::getNextResult »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
 title: 'SqlStatement::execute'
 ---
 # SqlStatement::execute

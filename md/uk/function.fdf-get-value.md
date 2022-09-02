@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-get-status.html: « fdfgetstatus
-  - function.fdf-get-version.html: fdfgetversion »
+  - function.fdf-get-status.md: « fdfgetstatus
+  - function.fdf-get-version.md: fdfgetversion »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfgetvalue
@@ -24,7 +24,7 @@ fdf_get_value(resource $fdf_document, string $fieldname, int $which = -1): mixed
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 

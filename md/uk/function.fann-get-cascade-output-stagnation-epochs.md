@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-cascade-output-change-fraction.html: « fanngetcascadeoutputchangefraction
-  - function.fann-get-cascade-weight-multiplier.html: fanngetcascadeweightmultiplier »
+  - function.fann-get-cascade-output-change-fraction.md: « fanngetcascadeoutputchangefraction
+  - function.fann-get-cascade-weight-multiplier.md: fanngetcascadeweightmultiplier »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetcascadeoutputstagnationepochs

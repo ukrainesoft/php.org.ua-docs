@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domcomment.construct.html: '« DOMComment::construct'
-  - domdocument.construct.html: 'DOMDocument::construct »'
-  - index.html: PHP Manual
-  - book.dom.html: DOM
+  - domcomment.construct.md: '« DOMComment::construct'
+  - domdocument.construct.md: 'DOMDocument::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
 title: Клас DOMDocument
 ---
 # Клас DOMDocument
@@ -361,7 +361,7 @@ xmlVersion
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.md) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.
 
 > **Зауваження**
 > 
@@ -369,7 +369,7 @@ xmlVersion
 
 ## Дивіться також
 
--   [» Спецификация W3C для Document](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-i-Document)
+-   [» Спецификация W3C для Document](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-i-Document)
 
 ## Зміст
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - svmmodel.predict-probability.html: '« SVMModel::predictprobability'
+  - svmmodel.predict-probability.md: '« SVMModel::predictprobability'
   - svmmodel.save.md: 'SVMModel::save »'
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel

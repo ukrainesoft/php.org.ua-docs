@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ffi-ctype.html: « FFICType
-  - ffi-ctype.getarrayelementtype.html: 'FFICType::getArrayElementType »'
+  - class.ffi-ctype.md: « FFICType
+  - ffi-ctype.getarrayelementtype.md: 'FFICType::getArrayElementType »'
   - index.md: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getAlignment'
 ---
 # FFICType::getAlignment

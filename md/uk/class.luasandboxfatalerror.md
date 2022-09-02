@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.luasandboxerrorerror.html: « LuaSandboxErrorError
-  - class.luasandboxmemoryerror.html: LuaSandboxMemoryError »
-  - index.html: PHP Manual
-  - book.luasandbox.html: LuaSandbox
+  - class.luasandboxerrorerror.md: « LuaSandboxErrorError
+  - class.luasandboxmemoryerror.md: LuaSandboxMemoryError »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
 title: Клас LuaSandboxFatalError
 ---
 # Клас LuaSandboxFatalError

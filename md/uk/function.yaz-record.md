@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-range.html: « yazrange
-  - function.yaz-scan-result.html: yazscanresult »
+  - function.yaz-range.md: « yazrange
+  - function.yaz-scan-result.md: yazscanresult »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazrecord

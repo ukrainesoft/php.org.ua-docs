@@ -1,9 +1,9 @@
 ---
 navigation:
-  - lua.installation.html: « Установка
-  - lua.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - lua.setup.html: Встановлення та налаштування
+  - lua.installation.md: « Установка
+  - lua.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - lua.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

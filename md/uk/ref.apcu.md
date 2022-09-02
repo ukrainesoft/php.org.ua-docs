@@ -1,7 +1,7 @@
 ---
 navigation:
   - apcu.constants.md: « Обумовлені константи
-  - function.apcu-add.html: apcuadd »
+  - function.apcu-add.md: apcuadd »
   - index.md: PHP Manual
   - book.apcu.md: APCu
 title: Функції APCu

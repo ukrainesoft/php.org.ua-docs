@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-get-event-stream.html: « eiogeteventstream
-  - function.eio-grp-add.html: eiogrpadd »
+  - function.eio-get-event-stream.md: « eiogeteventstream
+  - function.eio-grp-add.md: eiogrpadd »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiogetlasterror

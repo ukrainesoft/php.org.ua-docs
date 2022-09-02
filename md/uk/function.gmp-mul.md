@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-mod.html: « gmpmod
-  - function.gmp-neg.html: gmpneg »
+  - function.gmp-mod.md: « gmpmod
+  - function.gmp-neg.md: gmpneg »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpmul

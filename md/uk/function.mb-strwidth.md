@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-strtoupper.html: « mbstrtoupper
-  - function.mb-substitute-character.html: мбsubstitutecharacter »
+  - function.mb-strtoupper.md: « mbstrtoupper
+  - function.mb-substitute-character.md: мбsubstitutecharacter »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбstrwidth

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-sendto.html: « socketsendto
-  - function.socket-set-nonblock.html: socketsetnonblock »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-sendto.md: « socketsendto
+  - function.socket-set-nonblock.md: socketsetnonblock »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketsetblock
 ---
 # socketsetblock
@@ -26,7 +26,7 @@ socket_set_block(Socket $socket): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ socket_set_block(Socket $socket): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Приклади
 
@@ -51,9 +51,9 @@ socket_accept($socket);
 ?>
 ```
 
-Цей приклад створює сокет, що слухає, на всіх інтерфейсах на порту 1223 і встановлює сокет в режим **`O_BLOCK`**. Функція [socketaccept()](function.socket-accept.html) зависне доти, доки не буде прийнято з'єднання.
+Цей приклад створює сокет, що слухає, на всіх інтерфейсах на порту 1223 і встановлює сокет в режим **`O_BLOCK`**. Функція [socketaccept()](function.socket-accept.md) зависне доти, доки не буде прийнято з'єднання.
 
 ### Дивіться також
 
--   [socketsetnonblock()](function.socket-set-nonblock.html) - Встановлює неблокуючий режим файлового дескриптора fd
--   [socketsetoption()](function.socket-set-option.html) - Встановлює опції для сокету
+-   [socketsetnonblock()](function.socket-set-nonblock.md) - Встановлює неблокуючий режим файлового дескриптора fd
+-   [socketsetoption()](function.socket-set-option.md) - Встановлює опції для сокету

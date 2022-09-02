@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionremove.sort.html: '« CollectionRemove::sort'
-  - mysql-xdevapi-columnresult.construct.html: 'ColumnResult::construct »'
+  - mysql-xdevapi-collectionremove.sort.md: '« CollectionRemove::sort'
+  - mysql-xdevapi-columnresult.construct.md: 'ColumnResult::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас ColumnResult
 ---
 # Клас ColumnResult

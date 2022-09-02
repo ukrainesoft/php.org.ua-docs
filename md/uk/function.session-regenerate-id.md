@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.session-name.html: « sessionname
-  - function.session-register-shutdown.html: sessionregistershutdown »
-  - index.html: PHP Manual
-  - ref.session.html: Функції для роботи із сесіями
+  - function.session-name.md: « sessionname
+  - function.session-register-shutdown.md: sessionregistershutdown »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
 title: sessionregenerateід
 ---
 # sessionregenerateід
@@ -20,7 +20,7 @@ session_regenerate_id(bool $delete_old_session = false): bool
 
 **sessionregenerateid()** замінює ідентифікатор поточної сесії знову згенерованим, при цьому зберігає інформацію про поточну сесію.
 
-При ввімкненій опції [session.usetranssid](session.configuration.html#ini.session.use-trans-sid), висновок має здійснюватися після виклику **sessionregenerateid()**. В іншому випадку використовуватиметься старий ідентифікатор сесії.
+При ввімкненій опції [session.usetranssid](session.configuration.md#ini.session.use-trans-sid), висновок має здійснюватися після виклику **sessionregenerateid()**. В іншому випадку використовуватиметься старий ідентифікатор сесії.
 
 **Увага**
 
@@ -139,9 +139,9 @@ function my_session_regenerate_id() {
 
 ### Дивіться також
 
--   [sessionid()](function.session-id.html) - Отримує та/або встановлює ідентифікатор поточної сесії
--   [sessioncreateid()](function.session-create-id.html) - створює новий ідентифікатор сесії
--   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
--   [sessiondestroy()](function.session-destroy.html) - Знищує всі дані сесії
--   [sessionreset()](function.session-reset.html) - реініціалізує сесію оригінальними значеннями
--   [sessionname()](function.session-name.html) - Отримати чи встановити ім'я поточної сесії
+-   [sessionid()](function.session-id.md) - Отримує та/або встановлює ідентифікатор поточної сесії
+-   [sessioncreateid()](function.session-create-id.md) - створює новий ідентифікатор сесії
+-   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
+-   [sessiondestroy()](function.session-destroy.md) - Знищує всі дані сесії
+-   [sessionreset()](function.session-reset.md) - реініціалізує сесію оригінальними значеннями
+-   [sessionname()](function.session-name.md) - Отримати чи встановити ім'я поточної сесії

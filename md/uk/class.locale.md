@@ -1,9 +1,9 @@
 ---
 navigation:
-  - numberformatter.settextattribute.html: '« NumberFormatter::setTextAttribute'
-  - locale.acceptfromhttp.html: 'Locale::acceptFromHttp »'
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - numberformatter.settextattribute.md: '« NumberFormatter::setTextAttribute'
+  - locale.acceptfromhttp.md: 'Locale::acceptFromHttp »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Клас Locale
 ---
 # Клас Locale
@@ -80,7 +80,7 @@ public static setDefault(string $locale): bool
 
 Це найспецифічніша локаль, що підтримується ICU.
 
-Ці константи описують, як розбираються або з чого складаються локалі. Вони використовуються як ключі масиву аргументів для [localecompose()](locale.composelocale.html) і як значення, що повертаються [localeparse()](locale.parselocale.html) у вигляді ключів асоціативного масиву, що повертається.
+Ці константи описують, як розбираються або з чого складаються локалі. Вони використовуються як ключі масиву аргументів для [localecompose()](locale.composelocale.md) і як значення, що повертаються [localeparse()](locale.parselocale.md) у вигляді ключів асоціативного масиву, що повертається.
 
 **`Locale::LANG_TAG`** (string)
 
@@ -117,25 +117,25 @@ public static setDefault(string $locale): bool
 -   [» Проект Unicode CLDR: Стандартний репозиторій даних локалей](http://www.unicode.org/cldr/)
 -   [» Регістр мовних міток IANA](http://www.iana.org/assignments/language-subtag-registry)
 -   [» Руководство пользователя ICU - Локаль](https://unicode-org.github.io/icu/userguide/locale/)
--   [» ICU api локалі](http://www.icu-project.org/apiref/icu4c/uloc_8h.html#details)
+-   [» ICU api локалі](http://www.icu-project.org/apiref/icu4c/uloc_8h.md#details)
 
 ## Зміст
 
--   [Locale::acceptFromHttp](locale.acceptfromhttp.html) — Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
--   [Locale::canonicalize](locale.canonicalize.html) - Канонізувати рядок локалі
--   [Locale::composeLocale](locale.composelocale.html) — Повертає коректно відсортовані та розділені ідентифікатори локалі
--   [Locale::filterMatches](locale.filtermatches.html) — Перевірити, чи тег фільтра мови локалі відповідає
--   [Locale::getAllVariants](locale.getallvariants.html) — Отримання варіантів із переданої локалі
--   [Locale::getDefault](locale.getdefault.html) — Отримання значення локалі INTL за замовчуванням із опції 'defaultlocale'
--   [Locale::getDisplayLanguage](locale.getdisplaylanguage.html) — Повертає відповідним чином локалізоване ім'я мови для заданої локалі
--   [Locale::getDisplayName](locale.getdisplayname.html) - Повертає відповідним чином локалізоване ім'я локалі
--   [Locale::getDisplayRegion](locale.getdisplayregion.html) — Повертає відповідним чином локалізовану назву регіону для заданої локалі
--   [Locale::getDisplayScript](locale.getdisplayscript.html) — Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
--   [Locale::getDisplayVariant](locale.getdisplayvariant.html) — Повертає відповідним чином локалізовану назву варіанта для заданої локалі
--   [Locale::getKeywords](locale.getkeywords.html) — Отримати ключові слова для локалі
--   [Locale::getPrimaryLanguage](locale.getprimarylanguage.html) — Отримати первинну мову для локалі
--   [Locale::getRegion](locale.getregion.html) — Отримати регіон для локалі
--   [Locale::getScript](locale.getscript.html) - Отримати алфавіт для локалі
--   [Locale::lookup](locale.lookup.html) — Пошук мовних позначок найбільш відповідних заданої локалі
--   [Locale::parseLocale](locale.parselocale.html) — Здобути асоціативний масив усіх підтегів локалі
--   [Locale::setDefault](locale.setdefault.html) — Встановити локаль за умовчанням під час виконання
+-   [Locale::acceptFromHttp](locale.acceptfromhttp.md) — Спробувати визначити найкращу локаль на основі заголовку HTTP "Accept-Language"
+-   [Locale::canonicalize](locale.canonicalize.md) - Канонізувати рядок локалі
+-   [Locale::composeLocale](locale.composelocale.md) — Повертає коректно відсортовані та розділені ідентифікатори локалі
+-   [Locale::filterMatches](locale.filtermatches.md) — Перевірити, чи тег фільтра мови локалі відповідає
+-   [Locale::getAllVariants](locale.getallvariants.md) — Отримання варіантів із переданої локалі
+-   [Locale::getDefault](locale.getdefault.md) — Отримання значення локалі INTL за замовчуванням із опції 'defaultlocale'
+-   [Locale::getDisplayLanguage](locale.getdisplaylanguage.md) — Повертає відповідним чином локалізоване ім'я мови для заданої локалі
+-   [Locale::getDisplayName](locale.getdisplayname.md) - Повертає відповідним чином локалізоване ім'я локалі
+-   [Locale::getDisplayRegion](locale.getdisplayregion.md) — Повертає відповідним чином локалізовану назву регіону для заданої локалі
+-   [Locale::getDisplayScript](locale.getdisplayscript.md) — Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
+-   [Locale::getDisplayVariant](locale.getdisplayvariant.md) — Повертає відповідним чином локалізовану назву варіанта для заданої локалі
+-   [Locale::getKeywords](locale.getkeywords.md) — Отримати ключові слова для локалі
+-   [Locale::getPrimaryLanguage](locale.getprimarylanguage.md) — Отримати первинну мову для локалі
+-   [Locale::getRegion](locale.getregion.md) — Отримати регіон для локалі
+-   [Locale::getScript](locale.getscript.md) - Отримати алфавіт для локалі
+-   [Locale::lookup](locale.lookup.md) — Пошук мовних позначок найбільш відповідних заданої локалі
+-   [Locale::parseLocale](locale.parselocale.md) — Здобути асоціативний масив усіх підтегів локалі
+-   [Locale::setDefault](locale.setdefault.md) — Встановити локаль за умовчанням під час виконання

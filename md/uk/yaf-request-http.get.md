@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-http.construct.html: '« YafRequestHttp::construct'
-  - yaf-request-http.getcookie.html: 'YafRequestHttp::getCookie »'
+  - yaf-request-http.construct.md: '« YafRequestHttp::construct'
+  - yaf-request-http.getcookie.md: 'YafRequestHttp::getCookie »'
   - index.md: PHP Manual
-  - class.yaf-request-http.html: YafRequestHttp
+  - class.yaf-request-http.md: YafRequestHttp
 title: 'YafRequestHttp::get'
 ---
 # YafRequestHttp::get

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-poll.html: « eiopoll
-  - function.eio-readahead.html: eioreadahead »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-poll.md: « eiopoll
+  - function.eio-readahead.md: eioreadahead »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eioread
 ---
 # eioread
@@ -56,7 +56,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -121,7 +121,7 @@ string(5) "34567"
 
 ### Дивіться також
 
--   [eioopen()](function.eio-open.html) - Відкриває файл
--   [eiowrite()](function.eio-write.html) - Запис у файл
--   [eioclose()](function.eio-close.html) - Закрити файл
--   [eioeventloop()](function.eio-event-loop.html) - Взаємодіє з libeio, поки всі запити не будуть виконані
+-   [eioopen()](function.eio-open.md) - Відкриває файл
+-   [eiowrite()](function.eio-write.md) - Запис у файл
+-   [eioclose()](function.eio-close.md) - Закрити файл
+-   [eioeventloop()](function.eio-event-loop.md) - Взаємодіє з libeio, поки всі запити не будуть виконані

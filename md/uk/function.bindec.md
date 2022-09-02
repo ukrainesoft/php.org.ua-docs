@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.base-convert.html: « baseconvert
+  - function.base-convert.md: « baseconvert
   - function.ceil.md: ceil »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції

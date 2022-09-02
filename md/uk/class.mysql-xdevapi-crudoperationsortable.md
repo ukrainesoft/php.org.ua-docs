@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-crudoperationskippable.skip.html: '« CrudOperationSkippable::skip'
-  - mysql-xdevapi-crudoperationsortable.sort.html: 'CrudOperationSortable::sort »'
+  - mysql-xdevapi-crudoperationskippable.skip.md: '« CrudOperationSkippable::skip'
+  - mysql-xdevapi-crudoperationsortable.sort.md: 'CrudOperationSortable::sort »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Інтерфейс CrudOperationSortable
 ---
 # Інтерфейс CrudOperationSortable

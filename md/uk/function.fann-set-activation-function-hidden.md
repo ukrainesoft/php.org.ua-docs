@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-scale-train.html: « fannscaletrain
-  - function.fann-set-activation-function-layer.html: fannsetactivationfunctionlayer »
+  - function.fann-scale-train.md: « fannscaletrain
+  - function.fann-set-activation-function-layer.md: fannsetactivationfunctionlayer »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetactivationfunctionhidden
@@ -28,7 +28,7 @@ fann_set_activation_function_hidden(resource $ann, int $activation_function): bo
 
 `activation_function`
 
-Константа [функцій активації](fann.constants.html#constants.fann-activation-funcs)
+Константа [функцій активації](fann.constants.md#constants.fann-activation-funcs)
 
 ### Значення, що повертаються
 

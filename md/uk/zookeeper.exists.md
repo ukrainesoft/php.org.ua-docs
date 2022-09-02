@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.delete.html: '« Zookeeper::delete'
-  - zookeeper.get.html: 'Zookeeper::get »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.delete.md: '« Zookeeper::delete'
+  - zookeeper.get.md: 'Zookeeper::get »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::exists'
 ---
 # Zookeeper::exists
@@ -39,7 +39,7 @@ public
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Приклади
 
@@ -67,5 +67,5 @@ else
 
 ### Дивіться також
 
--   [Zookeeper::get()](zookeeper.get.html) - Синхронно отримує дані, пов'язані з вузлом
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::get()](zookeeper.get.md) - Синхронно отримує дані, пов'язані з вузлом
+-   [ZookeeperException](class.zookeeperexception.md)

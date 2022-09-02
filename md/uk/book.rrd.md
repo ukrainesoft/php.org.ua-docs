@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.syslog.html: « syslog
-  - intro.rrd.html: Введение »
-  - index.html: PHP Manual
-  - refs.remote.other.html: Інші служби
+  - function.syslog.md: « syslog
+  - intro.rrd.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
 title: RRDtool
 ---
 # RRDtool

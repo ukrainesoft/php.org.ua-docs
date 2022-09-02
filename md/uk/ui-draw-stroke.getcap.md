@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-stroke.construct.html: '« UIDrawStroke::construct'
-  - ui-draw-stroke.getjoin.html: 'ОЙDrawStroke::getJoin »'
+  - ui-draw-stroke.construct.md: '« UIDrawStroke::construct'
+  - ui-draw-stroke.getjoin.md: 'ОЙDrawStroke::getJoin »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.html: ОЙDrawStroke
+  - class.ui-draw-stroke.md: ОЙDrawStroke
 title: 'ОЙDrawStroke::getCap'
 ---
 # ОЙDrawStroke::getCap

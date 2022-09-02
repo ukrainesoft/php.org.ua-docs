@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-binaryinterface.tostring.html: '« MongoDBBSONBinaryInterface::toString'
-  - mongodb-bson-decimal128interface.tostring.html: 'MongoDBBSONDecimal128Interface::toString »'
-  - index.html: PHP Manual
-  - book.bson.html: MongoDBBSON
+  - mongodb-bson-binaryinterface.tostring.md: '« MongoDBBSONBinaryInterface::toString'
+  - mongodb-bson-decimal128interface.tostring.md: 'MongoDBBSONDecimal128Interface::toString »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONDecimal128Interface
 ---
 # Інтерфейс MongoDBBSONDecimal128Interface
@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBBSONDecimal128Interface
 
 ## Вступ
 
-Цей інтерфейс реалізовано [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.html), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
+Цей інтерфейс реалізовано [MongoDBBSONDecimal128](class.mongodb-bson-decimal128.md), але також може використовуватися як параметр, значення, що повертається або типу властивості в класах користувальницького простору.
 
 ## Огляд класів
 
@@ -38,4 +38,4 @@ title: Інтерфейс MongoDBBSONDecimal128Interface
 
 ## Зміст
 
--   [MongoDBBSONDecimal128Interface::toString](mongodb-bson-decimal128interface.tostring.html) — Повертає рядкову виставу Decimal128Interface
+-   [MongoDBBSONDecimal128Interface::toString](mongodb-bson-decimal128interface.tostring.md) — Повертає рядкову виставу Decimal128Interface

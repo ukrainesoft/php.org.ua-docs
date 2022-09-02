@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-get-option.html: « socketgetoption
-  - function.socket-getpeername.html: socketgetpeername »
+  - function.socket-get-option.md: « socketgetoption
+  - function.socket-getpeername.md: socketgetpeername »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketgetopt

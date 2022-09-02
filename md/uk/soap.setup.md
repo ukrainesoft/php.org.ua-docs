@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.soap.html: « Введение
-  - soap.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.soap.html: SOAP
+  - intro.soap.md: « Введение
+  - soap.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.soap.md: SOAP
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

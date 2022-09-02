@@ -1,16 +1,16 @@
 ---
 navigation:
-  - function.str-getcsv.html: « strgetcsv
-  - function.str-pad.html: strpad »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.str-getcsv.md: « strgetcsv
+  - function.str-pad.md: strpad »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strireplace
 ---
 # strireplace
 
 (PHP 5, PHP 7, PHP 8)
 
-strireplace - Реєстронезалежний варіант функції [strreplace()](function.str-replace.html)
+strireplace - Реєстронезалежний варіант функції [strreplace()](function.str-replace.md)
 
 ### Опис
 
@@ -18,7 +18,7 @@ strireplace - Реєстронезалежний варіант функції [
 str_ireplace(    array|string $search,    array|string $replace,    string|array $subject,    int &$count = null): string|array
 ```
 
-Ця функція повертає рядок або масив, в якому всі входження `search` в `subject` замінені на `replace` (без урахування регістру символів). Якщо не потрібні складні правила пошуку/заміни, використання цієї функції краще [pregreplace()](function.preg-replace.html) з модифікатором `i`
+Ця функція повертає рядок або масив, в якому всі входження `search` в `subject` замінені на `replace` (без урахування регістру символів). Якщо не потрібні складні правила пошуку/заміни, використання цієї функції краще [pregreplace()](function.preg-replace.md) з модифікатором `i`
 
 ### Список параметрів
 
@@ -67,10 +67,10 @@ echo $bodytag; // <body text=black>
 
 # Зауваження щодо порядку заміни
 
-Так як **strireplace()** здійснює заміну ліворуч, то при використанні множинних замін вона може замінити раніше вставлене значення на інше. Приклад №2 у документації [strreplace()](function.str-replace.html) пояснює, як це працює на практиці.
+Так як **strireplace()** здійснює заміну ліворуч, то при використанні множинних замін вона може замінити раніше вставлене значення на інше. Приклад №2 у документації [strreplace()](function.str-replace.md) пояснює, як це працює на практиці.
 
 ### Дивіться також
 
--   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [strtr()](function.strtr.html) - Перетворює задані символи або замінює підрядки
+-   [strreplace()](function.str-replace.md) - Замінює всі входження рядка пошуку на рядок заміни
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [strtr()](function.strtr.md) - Перетворює задані символи або замінює підрядки

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readconcern.isdefault.html: '« MongoDBDriverReadConcern::isDefault'
-  - mongodb-driver-readconcern.unserialize.html: 'MongoDBDriverReadConcern::unserialize »'
+  - mongodb-driver-readconcern.isdefault.md: '« MongoDBDriverReadConcern::isDefault'
+  - mongodb-driver-readconcern.unserialize.md: 'MongoDBDriverReadConcern::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
 title: 'MongoDBDriverReadConcern::serialize'
 ---
 # MongoDBDriverReadConcern::serialize

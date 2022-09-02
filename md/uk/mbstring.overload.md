@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mbstring.supported-encodings.html: « Підтримувані кодування символів
+  - mbstring.supported-encodings.md: « Підтримувані кодування символів
   - mbstring.php4.req.md: Вимоги до кодування символів у PHP »
   - index.md: PHP Manual
   - book.mbstring.md: Багатобайтові рядки
@@ -34,7 +34,7 @@ mbstring підтримує механізм 'перевантаження фу�
 |  | [strstr()](function.strstr.md) | [мбstrstr()](function.mb-strstr.md) |
 |  | [stristr()](function.stristr.md) | [мбstristr()](function.mb-stristr.md) |
 |  | [strrchr()](function.strrchr.md) | [мбstrrchr()](function.mb-strrchr.md) |
-|  | [substrcount()](function.substr-count.html) | [мбsubstrcount()](function.mb-substr-count.md) |
+|  | [substrcount()](function.substr-count.md) | [мбsubstrcount()](function.mb-substr-count.md) |
 
 > **Зауваження**
 > 

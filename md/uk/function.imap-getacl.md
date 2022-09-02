@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-get-quotaroot.html: « imapgetquotaroot
-  - function.imap-getmailboxes.html: imapgetmailboxes »
+  - function.imap-get-quotaroot.md: « imapgetquotaroot
+  - function.imap-getmailboxes.md: imapgetmailboxes »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapgetacl
@@ -32,7 +32,7 @@ imap_getacl(IMAP\Connection $imap, string $mailbox): array|false
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 

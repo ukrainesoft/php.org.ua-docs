@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.backedenum.html: « BackedEnum
-  - backedenum.tryfrom.html: 'BackedEnum::tryFrom »'
-  - index.html: PHP Manual
-  - class.backedenum.html: BackedEnum
+  - class.backedenum.md: « BackedEnum
+  - backedenum.tryfrom.md: 'BackedEnum::tryFrom »'
+  - index.md: PHP Manual
+  - class.backedenum.md: BackedEnum
 title: 'BackedEnum::from'
 ---
 # BackedEnum::from

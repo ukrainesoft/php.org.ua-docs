@@ -20,7 +20,7 @@ assert_options(int $what, mixed $value = ?): mixed
 
 Завдання значень параметрів механізму перевірки тверджень [assert()](function.assert.md) або одержання їх поточних значень.
 
-> **Зауваження**: Починаючи з PHP 7.0.0, використання **assertoptions()** не рекомендується на користь встановлення та отримання php.ini директив [zend.assertions](ini.core.html#ini.zend.assertions) і [assert.exception](info.configuration.html#ini.assert.exception) за допомогою [iniset()](function.ini-set.html) і [iniget()](function.ini-get.md) відповідно.
+> **Зауваження**: Починаючи з PHP 7.0.0, використання **assertoptions()** не рекомендується на користь встановлення та отримання php.ini директив [zend.assertions](ini.core.md#ini.zend.assertions) і [assert.exception](info.configuration.md#ini.assert.exception) за допомогою [iniset()](function.ini-set.md) і [iniget()](function.ini-get.md) відповідно.
 
 ### Список параметрів
 

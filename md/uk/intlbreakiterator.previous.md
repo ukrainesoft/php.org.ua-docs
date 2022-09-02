@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlbreakiterator.preceding.html: '« IntlBreakIterator::preceding'
-  - intlbreakiterator.settext.html: 'IntlBreakIterator::setText »'
-  - index.html: PHP Manual
-  - class.intlbreakiterator.html: IntlBreakIterator
+  - intlbreakiterator.preceding.md: '« IntlBreakIterator::preceding'
+  - intlbreakiterator.settext.md: 'IntlBreakIterator::setText »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
 title: 'IntlBreakIterator::previous'
 ---
 # IntlBreakIterator::previous

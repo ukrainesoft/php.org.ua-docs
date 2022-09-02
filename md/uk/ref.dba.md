@@ -1,7 +1,7 @@
 ---
 navigation:
   - dba.example.md: « Базовое использование
-  - function.dba-close.html: dbaclose »
+  - function.dba-close.md: dbaclose »
   - index.md: PHP Manual
   - book.dba.md: DBA
 title: Функції DBA

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-file-diff-binary.html: xdifffilediffbinary
-  - function.xdiff-file-merge3.html: xdifffilemerge3 »
+  - function.xdiff-file-diff-binary.md: xdifffilediffbinary
+  - function.xdiff-file-merge3.md: xdifffilemerge3 »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdifffilediff
@@ -65,7 +65,7 @@ xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);
 
 > **Зауваження**
 > 
-> З бінарними даними ця функція працює погано. Для бінарних патчів використовуйте [xdifffilebdiff()](function.xdiff-file-bdiff.html)[xdifffilerabdiff()](function.xdiff-file-rabdiff.md)
+> З бінарними даними ця функція працює погано. Для бінарних патчів використовуйте [xdifffilebdiff()](function.xdiff-file-bdiff.md)[xdifffilerabdiff()](function.xdiff-file-rabdiff.md)
 
 ### Дивіться також
 

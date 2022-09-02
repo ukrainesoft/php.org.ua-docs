@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.html: '« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed'
-  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.html: 'MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded »'
+  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.md: '« MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed'
+  - mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md: 'MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
 title: 'MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatStarted'
 ---
 # MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatStarted

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcache.addserver.html: '« Memcache::addServer'
-  - memcache.connect.html: 'Memcache::connect »'
-  - index.html: PHP Manual
-  - class.memcache.html: Memcache
+  - memcache.addserver.md: '« Memcache::addServer'
+  - memcache.connect.md: 'Memcache::connect »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
 title: 'Memcache::close'
 ---
 # Memcache::close
@@ -55,5 +55,5 @@ $memcache_obj->close();
 
 ### Дивіться також
 
--   [Memcache::connect()](memcache.connect.html) - Відкриває з'єднання з сервером memcached
--   [Memcache::pconnect()](memcache.pconnect.html) - Відкриває постійне з'єднання з сервером memcached
+-   [Memcache::connect()](memcache.connect.md) - Відкриває з'єднання з сервером memcached
+-   [Memcache::pconnect()](memcache.pconnect.md) - Відкриває постійне з'єднання з сервером memcached

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-separator.html: « UIControlsSeparator
-  - class.ui-controls-combo.html: ОЙControlsCombo »
+  - class.ui-controls-separator.md: « UIControlsSeparator
+  - class.ui-controls-combo.md: ОЙControlsCombo »
   - index.md: PHP Manual
-  - class.ui-controls-separator.html: ОЙControlsSeparator
+  - class.ui-controls-separator.md: ОЙControlsSeparator
 title: 'ОЙControlsSeparator::construct'
 ---
 # ОЙControlsSeparator::construct

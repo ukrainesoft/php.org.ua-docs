@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.reflection.html: « Reflection
-  - reflection.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - book.reflection.md: « Reflection
+  - reflection.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Вступ
 ---
 # Вступ

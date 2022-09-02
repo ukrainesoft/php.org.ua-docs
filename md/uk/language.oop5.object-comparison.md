@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.oop5.cloning.html: « Клонування об'єктів
-  - language.oop5.late-static-bindings.html: Пізніше статичне зв'язування »
-  - index.html: PHP Manual
-  - language.oop5.html: Класи та об'єкти
+  - language.oop5.cloning.md: « Клонування об'єктів
+  - language.oop5.late-static-bindings.md: Пізніше статичне зв'язування »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
 title: Порівняння об'єктів
 ---
 ## Порівняння об'єктів

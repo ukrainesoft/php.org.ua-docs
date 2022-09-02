@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.rrd-last.html: « rrdlast
-  - function.rrd-restore.html: rrdrestore »
+  - function.rrd-last.md: « rrdlast
+  - function.rrd-restore.md: rrdrestore »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
 title: rrdlastupdate

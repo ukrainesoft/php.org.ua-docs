@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimagecolors.html: '« Gmagick::getimagecolors'
-  - gmagick.getimagecompose.html: 'Gmagick::getimagecompose »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimagecolors.md: '« Gmagick::getimagecolors'
+  - gmagick.getimagecompose.md: 'Gmagick::getimagecompose »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimagecolorspace'
 ---
 # Gmagick::getimagecolorspace

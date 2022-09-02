@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.displayimage.html: '« Imagick::displayImage'
-  - imagick.distortimage.html: 'Imagick::distortImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.displayimage.md: '« Imagick::displayImage'
+  - imagick.distortimage.md: 'Imagick::distortImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::displayImages'
 ---
 # Imagick::displayImages

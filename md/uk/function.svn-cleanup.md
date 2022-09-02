@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-checkout.html: « svncheckout
-  - function.svn-client-version.html: svnclientversion »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-checkout.md: « svncheckout
+  - function.svn-client-version.md: svnclientversion »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svncleanup
 ---
 # svncleanup
@@ -26,7 +26,7 @@ svn_cleanup(string $workingdir): bool
 
 Шлях до локальної робочої копії для чищення.
 
-> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.html) або dirname(FILE
+> **Зауваження**: Відносні шляхи будуть обчислені, якби поточна робоча директорія була домашньою папкою самого PHP Щоб використовувати робочу директорію скрипта, що викликає, використовуйте [realpath()](function.realpath.md) або dirname(FILE
 
 ### Значення, що повертаються
 
@@ -44,7 +44,7 @@ svn_cleanup(realpath('help-me'));
 ?>
 ```
 
-У зв'язку з дивною поведінкою відносних шляхів у SVN, необхідний виклик функції [realpath()](function.realpath.html)
+У зв'язку з дивною поведінкою відносних шляхів у SVN, необхідний виклик функції [realpath()](function.realpath.md)
 
 ### Примітки
 
@@ -55,4 +55,4 @@ svn_cleanup(realpath('help-me'));
 ### Дивіться також
 
 -   **update()**
--   [»  SVN-документация по svn cleanup](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cleanup.html)
+-   [»  SVN-документация по svn cleanup](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cleanup.md)

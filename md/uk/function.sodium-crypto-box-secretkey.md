@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-box-seal.html: « sodiumcryptoboxseal
-  - function.sodium-crypto-box-seed-keypair.html: sodiumcryptoboxseedkeypair »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-box-seal.md: « sodiumcryptoboxseal
+  - function.sodium-crypto-box-seed-keypair.md: sodiumcryptoboxseedkeypair »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptoboxsecretkey
 ---
 # sodiumcryptoboxsecretkey
@@ -24,7 +24,7 @@ sodium_crypto_box_secretkey(string $key_pair): string
 
 `key_pair`
 
-Пара ключів, створена, наприклад, [sodiumcryptoboxkeypair()](function.sodium-crypto-box-keypair.html) або [sodiumcryptoboxseedkeypair()](function.sodium-crypto-box-seed-keypair.html)
+Пара ключів, створена, наприклад, [sodiumcryptoboxkeypair()](function.sodium-crypto-box-keypair.md) або [sodiumcryptoboxseedkeypair()](function.sodium-crypto-box-seed-keypair.md)
 
 ### Значення, що повертаються
 

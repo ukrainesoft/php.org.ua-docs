@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.evembed.html: « EvEmbed
-  - evembed.createstopped.html: 'EvEmbed::createStopped »'
-  - index.html: PHP Manual
-  - class.evembed.html: EvEmbed
+  - class.evembed.md: « EvEmbed
+  - evembed.createstopped.md: 'EvEmbed::createStopped »'
+  - index.md: PHP Manual
+  - class.evembed.md: EvEmbed
 title: 'EvEmbed::construct'
 ---
 # EvEmbed::construct
@@ -17,7 +17,7 @@ EvEmbed::construct — Конструктор об'єкту EvEmbed
 public **EvEmbed::construct**  
 object `$other`  
 [callable](language.types.callable.md) `$callback`  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`  
 int `$priority`
 
 Це досить просунутий тип спостерігача, який дозволяє вбудувати один цикл подій в інший (нині підтримуються лише події введення-виводу у вбудованому циклі, інші типи спостерігачів можуть оброблятися із затримкою чи неправильно і не повинні використовуватися).
@@ -30,7 +30,7 @@ int `$priority`
 
 `other`
 
-Екземпляр класу [EvLoop](class.evloop.html). Подієвий цикл для вбудовування. Цей цикл має бути вбудованим (дивіться [Ev::embeddableBackends()](ev.embeddablebackends.md)
+Екземпляр класу [EvLoop](class.evloop.md). Подієвий цикл для вбудовування. Цей цикл має бути вбудованим (дивіться [Ev::embeddableBackends()](ev.embeddablebackends.md)
 
 `callback`
 
@@ -42,7 +42,7 @@ int `$priority`
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 

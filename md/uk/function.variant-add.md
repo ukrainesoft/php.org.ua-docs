@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-abs.html: « variantabs
-  - function.variant-and.html: variantand »
+  - function.variant-abs.md: « variantabs
+  - function.variant-and.md: variantand »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantadd

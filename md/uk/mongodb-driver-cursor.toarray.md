@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.settypemap.html: '« MongoDBDriverCursor::setTypeMap'
-  - mongodb-driver-cursor.valid.html: 'MongoDBDriverCursor::valid »'
+  - mongodb-driver-cursor.settypemap.md: '« MongoDBDriverCursor::setTypeMap'
+  - mongodb-driver-cursor.valid.md: 'MongoDBDriverCursor::valid »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::toArray'
 ---
 # MongoDBDriverCursor::toArray

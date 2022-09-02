@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrclient.getbyid.html: '« SolrClient::getById'
-  - solrclient.getdebug.html: 'SolrClient::getDebug »'
-  - index.html: PHP Manual
-  - class.solrclient.html: SolrClient
+  - solrclient.getbyid.md: '« SolrClient::getById'
+  - solrclient.getdebug.md: 'SolrClient::getDebug »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
 title: 'SolrClient::getByIds'
 ---
 # SolrClient::getByIds
@@ -28,7 +28,7 @@ ID документів
 
 ### Значення, що повертаються
 
-[SolrQueryResponse](class.solrqueryresponse.html)
+[SolrQueryResponse](class.solrqueryresponse.md)
 
 ### Приклади
 
@@ -157,4 +157,4 @@ SolrObject Object
 
 ### Дивіться також
 
--   [SolrClient::getById()](solrclient.getbyid.html) - Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
+-   [SolrClient::getById()](solrclient.getbyid.md) - Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)

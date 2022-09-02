@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-file-patch-binary.html: xdifffilepatchbinary
-  - function.xdiff-file-rabdiff.html: xdifffilerabdiff »
+  - function.xdiff-file-patch-binary.md: xdifffilepatchbinary
+  - function.xdiff-file-rabdiff.md: xdifffilerabdiff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdifffilepatch
@@ -18,7 +18,7 @@ xdifffilepatch — Використання уніфікованого патч�
 xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $flags = DIFF_PATCH_NORMAL): mixed
 ```
 
-Застосовує до файлу `file` патча `patch` та зберігає результат у файл . `patch` має бути уніфікованим патчем, створеним функціями [xdifffilediff()](function.xdiff-file-diff.html)[xdiffstringdiff()](function.xdiff-string-diff.md). Необов'язковий параметр `flags` задає режим операції.
+Застосовує до файлу `file` патча `patch` та зберігає результат у файл . `patch` має бути уніфікованим патчем, створеним функціями [xdifffilediff()](function.xdiff-file-diff.md)[xdiffstringdiff()](function.xdiff-string-diff.md). Необов'язковий параметр `flags` задає режим операції.
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ xdiff_file_patch(    string $file,    string $patch,    string $dest
 
 `patch`
 
-Уніфікований патч. Його можна створити функціями [xdiffstringdiff()](function.xdiff-string-diff.html) і [xdifffilediff()](function.xdiff-file-diff.md)або іншими сумісними інструментами.
+Уніфікований патч. Його можна створити функціями [xdiffstringdiff()](function.xdiff-string-diff.md) і [xdifffilediff()](function.xdiff-file-diff.md)або іншими сумісними інструментами.
 
 `dest`
 

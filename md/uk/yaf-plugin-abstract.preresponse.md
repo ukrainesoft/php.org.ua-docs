@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-plugin-abstract.predispatch.html: '« YafPluginAbstract::preDispatch'
-  - yaf-plugin-abstract.routershutdown.html: 'YafPluginAbstract::routerShutdown »'
+  - yaf-plugin-abstract.predispatch.md: '« YafPluginAbstract::preDispatch'
+  - yaf-plugin-abstract.routershutdown.md: 'YafPluginAbstract::routerShutdown »'
   - index.md: PHP Manual
-  - class.yaf-plugin-abstract.html: YafPluginAbstract
+  - class.yaf-plugin-abstract.md: YafPluginAbstract
 title: 'YafPluginAbstract::preResponse'
 ---
 # YafPluginAbstract::preResponse

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-gen-exponential.html: « statsrandgenexponential
-  - function.stats-rand-gen-funiform.html: statsrandgenfuniform »
+  - function.stats-rand-gen-exponential.md: « statsrandgenexponential
+  - function.stats-rand-gen-funiform.md: statsrandgenfuniform »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandгенф

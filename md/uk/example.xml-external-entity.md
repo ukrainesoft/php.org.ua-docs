@@ -1,6 +1,6 @@
 ---
 navigation:
-  - example.xml-map-tags.html: « Пример отображения XML тегов
+  - example.xml-map-tags.md: « Пример отображения XML тегов
   - ref.xml.md: Функции парсера XML »
   - index.md: PHP Manual
   - xml.examples.md: Приклади

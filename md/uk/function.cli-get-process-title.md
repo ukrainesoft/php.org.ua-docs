@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.assert.md: « assert
-  - function.cli-set-process-title.html: clisetprocesstitle »
+  - function.cli-set-process-title.md: clisetprocesstitle »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: cligetprocesstitle

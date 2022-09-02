@@ -1,9 +1,9 @@
 ---
 navigation:
-  - compersisthelper.loadfromstream.html: '« COMPersistHelper::LoadFromStream'
-  - compersisthelper.savetostream.html: 'COMPersistHelper::SaveToStream »'
-  - index.html: PHP Manual
-  - class.compersisthelper.html: COMPersistHelper
+  - compersisthelper.loadfromstream.md: '« COMPersistHelper::LoadFromStream'
+  - compersisthelper.savetostream.md: 'COMPersistHelper::SaveToStream »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::SaveToFile'
 ---
 # COMPersistHelper::SaveToFile

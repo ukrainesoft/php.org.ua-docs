@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.getnow.html: '« IntlCalendar::getNow'
-  - intlcalendar.getskippedwalltimeoption.html: 'IntlCalendar::getSkippedWallTimeOption »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.getnow.md: '« IntlCalendar::getNow'
+  - intlcalendar.getskippedwalltimeoption.md: 'IntlCalendar::getSkippedWallTimeOption »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getRepeatedWallTimeOption'
 ---
 # IntlCalendar::getRepeatedWallTimeOption
@@ -34,7 +34,7 @@ intlcal_get_repeated_wall_time_option(IntlCalendar $calendar): int
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 ### Значення, що повертаються
 
@@ -81,6 +81,6 @@ string(43) "Sunday, October 27, 2013 at 12:30:00 AM GMT"
 
 ### Дивіться також
 
--   [IntlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.html) - отримує поведінку для обробки пропущеного часу процесора
--   [IntlCalendar::setSkippedWallTimeOption()](intlcalendar.setskippedwalltimeoption.html) - Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
--   [IntlCalendar::setRepeatedWallTimeOption()](intlcalendar.setrepeatedwalltimeoption.html) - Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу
+-   [IntlCalendar::getSkippedWallTimeOption()](intlcalendar.getskippedwalltimeoption.md) - отримує поведінку для обробки пропущеного часу процесора
+-   [IntlCalendar::setSkippedWallTimeOption()](intlcalendar.setskippedwalltimeoption.md) - Встановлює поведінку для обробки пропущеного часу процесора при позитивних переходах усунення часового поясу
+-   [IntlCalendar::setRepeatedWallTimeOption()](intlcalendar.setrepeatedwalltimeoption.md) - Встановлює поведінку для обробки часу процесора, що повторюється, при негативних переходах зміщення часового поясу

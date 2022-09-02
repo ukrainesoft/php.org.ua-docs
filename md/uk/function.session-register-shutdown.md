@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-regenerate-id.html: « sessionregenerateід
-  - function.session-reset.html: sessionreset »
+  - function.session-regenerate-id.md: « sessionregenerateід
+  - function.session-reset.md: sessionreset »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessionregistershutdown

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.connection-info.html: '« SwooleServer::connectioninfo'
-  - swoole-server.construct.html: 'SwooleServer::construct »'
+  - swoole-server.connection-info.md: '« SwooleServer::connectioninfo'
+  - swoole-server.construct.md: 'SwooleServer::construct »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::connectionlist'
 ---
 # SwooleServer::connectionlist

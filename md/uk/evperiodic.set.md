@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evperiodic.createstopped.html: '« EvPeriodic::createStopped'
-  - class.evprepare.html: EvPrepare »
-  - index.html: PHP Manual
-  - class.evperiodic.html: EvPeriodic
+  - evperiodic.createstopped.md: '« EvPeriodic::createStopped'
+  - class.evprepare.md: EvPrepare »
+  - index.md: PHP Manual
+  - class.evperiodic.md: EvPeriodic
 title: 'EvPeriodic::set'
 ---
 # EvPeriodic::set
@@ -31,11 +31,11 @@ public
 
 `offset`
 
-Те саме, що і для [EvPeriodic::construct()](evperiodic.construct.html) . Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
+Те саме, що і для [EvPeriodic::construct()](evperiodic.construct.md) . Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 `interval`
 
-Те саме, що і для [EvPeriodic::construct()](evperiodic.construct.html) . Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.html)
+Те саме, що і для [EvPeriodic::construct()](evperiodic.construct.md) . Дивіться [Періодичні режими роботи спостерігача](ev.periodic-modes.md)
 
 ### Значення, що повертаються
 

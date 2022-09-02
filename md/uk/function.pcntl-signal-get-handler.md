@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pcntl-signal-dispatch.html: pcntlsignaldispatch
-  - function.pcntl-signal.html: pcntlsignal »
-  - index.html: PHP Manual
-  - ref.pcntl.html: Функції PCNTL
+  - function.pcntl-signal-dispatch.md: pcntlsignaldispatch
+  - function.pcntl-signal.md: pcntlsignal »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
 title: pcntlsignalgethandler
 ---
 # pcntlsignalgethandler
@@ -28,7 +28,7 @@ pcntl_signal_get_handler(int $signal): callable|int
 
 ### Значення, що повертаються
 
-Функція поверне ціле значення, що вказує на константи **`SIG_DFL`** або **`SIG_IGN`**. Якщо заданий обробник користувача, повертається цей [callable](language.types.callable.html). функції.
+Функція поверне ціле значення, що вказує на константи **`SIG_DFL`** або **`SIG_IGN`**. Якщо заданий обробник користувача, повертається цей [callable](language.types.callable.md). функції.
 
 ### список змін
 
@@ -58,4 +58,4 @@ var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(1)
 
 ### Дивіться також
 
--   [pcntlsignal()](function.pcntl-signal.html) - Встановлення оброблювача сигналу
+-   [pcntlsignal()](function.pcntl-signal.md) - Встановлення оброблювача сигналу

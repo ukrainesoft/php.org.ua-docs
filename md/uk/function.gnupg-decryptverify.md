@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-decrypt.html: « gnupgdecrypt
-  - function.gnupg-deletekey.html: gnupgdeletekey »
+  - function.gnupg-decrypt.md: « gnupgdecrypt
+  - function.gnupg-deletekey.md: gnupgdeletekey »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgdecryptverify

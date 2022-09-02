@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.writedtdentity.html: '« XMLWriter::writeDtdEntity'
-  - xmlwriter.writeelementns.html: 'XMLWriter::writeElementNs »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.writedtdentity.md: '« XMLWriter::writeDtdEntity'
+  - xmlwriter.writeelementns.md: 'XMLWriter::writeElementNs »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::writeElement'
 ---
 # XMLWriter::writeElement
@@ -34,7 +34,7 @@ xmlwriter_write_element(XMLWriter $writer, string $name, ?string $content = null
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `name`
 
@@ -52,10 +52,10 @@ xmlwriter_write_element(XMLWriter $writer, string $name, ?string $content = null
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startElement()](xmlwriter.startelement.html) - Створити стартовий тег елемента
--   [XMLWriter::endElement()](xmlwriter.endelement.html) - Завершити поточний елемент
--   [XMLWriter::writeElementNs()](xmlwriter.writeelementns.html) - Записати повний простір імен тега елемента
+-   [XMLWriter::startElement()](xmlwriter.startelement.md) - Створити стартовий тег елемента
+-   [XMLWriter::endElement()](xmlwriter.endelement.md) - Завершити поточний елемент
+-   [XMLWriter::writeElementNs()](xmlwriter.writeelementns.md) - Записати повний простір імен тега елемента

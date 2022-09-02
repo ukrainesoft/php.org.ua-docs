@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.rarexception.html: « RarException
-  - rarexception.setusingexceptions.html: 'RarException::setUsingExceptions »'
-  - index.html: PHP Manual
-  - class.rarexception.html: RarException
+  - class.rarexception.md: « RarException
+  - rarexception.setusingexceptions.md: 'RarException::setUsingExceptions »'
+  - index.md: PHP Manual
+  - class.rarexception.md: RarException
 title: 'RarException::isUsingExceptions'
 ---
 # RarException::isUsingExceptions
@@ -47,4 +47,4 @@ bool(false)
 
 ### Дивіться також
 
--   [RarException::setUsingExceptions()](rarexception.setusingexceptions.html) - Включити або вимкнути генерацію винятків замість повернення помилок
+-   [RarException::setUsingExceptions()](rarexception.setusingexceptions.md) - Включити або вимкнути генерацію винятків замість повернення помилок

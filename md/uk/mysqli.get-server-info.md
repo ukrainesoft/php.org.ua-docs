@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.get-proto-info.html: '« mysqli::$protocolversion'
-  - mysqli.get-server-version.html: 'mysqli::$serverversion »'
+  - mysqli.get-proto-info.md: '« mysqli::$protocolversion'
+  - mysqli.get-server-version.md: 'mysqli::$serverversion »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$serverinfo'

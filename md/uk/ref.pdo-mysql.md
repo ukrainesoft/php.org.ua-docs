@@ -1,16 +1,16 @@
 ---
 navigation:
-  - ref.pdo-informix.connection.html: « PDOINFORMIX DSN
-  - ref.pdo-mysql.connection.html: PDOMYSQL DSN »
-  - index.html: PHP Manual
-  - pdo.drivers.html: Драйвери PDO
+  - ref.pdo-informix.connection.md: « PDOINFORMIX DSN
+  - ref.pdo-mysql.connection.md: PDOMYSQL DSN »
+  - index.md: PHP Manual
+  - pdo.drivers.md: Драйвери PDO
 title: Функції MySQL (PDOMYSQL)
 ---
 # Функції MySQL (PDOMYSQL)
 
 ## Вступ
 
-PDOMYSQL - це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.html) та надає доступ з PHP до баз даних MySQL.
+PDOMYSQL - це драйвер, що реалізує інтерфейс [PHP Data Objects (PDO)](intro.pdo.md) та надає доступ з PHP до баз даних MySQL.
 
 PDOMYSQL за умовчанням використовує емульовану підготовку.
 
@@ -18,7 +18,7 @@ PDOMYSQL за умовчанням використовує емульовану
 
 При запуску PHP до версії 7.1.16 або PHP 7.2 до 7.2.4 встановіть плагін пароля за умовчанням MySQL 8 Server в *mysqlnativepassword*, інакше ви побачите помилки, схожі на *Server потребує authentication method unknown to the client cachingsha2password*, навіть коли *cachingsha2password* не використовується.
 
-Це пов'язано з тим, що MySQL 8 за замовчуванням використовує cachingsha2password, і плагін не розпізнається старими версіями PHP (mysqlnd). Натомість змініть це, встановивши `default_authentication_plugin=mysql_native_password` у my.cnf. Плагін *cachingsha2password* буде підтримуватись у майбутній версії PHP. Поки що модуль [mysqlxdevapi](book.mysql-xdevapi.html) підтримує його.
+Це пов'язано з тим, що MySQL 8 за замовчуванням використовує cachingsha2password, і плагін не розпізнається старими версіями PHP (mysqlnd). Натомість змініть це, встановивши `default_authentication_plugin=mysql_native_password` у my.cnf. Плагін *cachingsha2password* буде підтримуватись у майбутній версії PHP. Поки що модуль [mysqlxdevapi](book.mysql-xdevapi.md) підтримує його.
 
 **Увага**
 
@@ -26,7 +26,7 @@ PDOMYSQL за умовчанням використовує емульовану
 
 > **Зауваження**
 > 
-> Драйвер MySQL не підтримує належним чином **`PDO::PARAM_INPUT_OUTPUT`** через [PDOStatement::bindParam()](pdostatement.bindparam.html); хоча параметр можна використовувати, він не оновлюється (тобто фактичний висновок ігнорується).
+> Драйвер MySQL не підтримує належним чином **`PDO::PARAM_INPUT_OUTPUT`** через [PDOStatement::bindParam()](pdostatement.bindparam.md); хоча параметр можна використовувати, він не оновлюється (тобто фактичний висновок ігнорується).
 
 ## Встановлення
 
@@ -36,7 +36,7 @@ PDOMYSQL за умовчанням використовує емульовану
 
 Також ви завжди можете скомпілювати необхідні модулі самостійно. Складання PHP із вихідних кодів дозволить вам зібрати саме ті модулі MySQL, які вам потрібні, а також вибрати потрібну клієнтську бібліотеку для кожного модуля.
 
-Використовуйте **\-with-pdo-mysql=DIR** для встановлення модуля PDO MySQL, де необов'язковий параметр `[=DIR]` вказує директорію, де встановлено MySQL. За замовчуванням використовується бібліотека [mysqlnd](book.mysqlnd.html). Більш детальний розбір на вибір бібліотеки можна почитати в розділі "[Вибір бібліотеки MySQL](mysqlinfo.library.choosing.html)".
+Використовуйте **\-with-pdo-mysql=DIR** для встановлення модуля PDO MySQL, де необов'язковий параметр `[=DIR]` вказує директорію, де встановлено MySQL. За замовчуванням використовується бібліотека [mysqlnd](book.mysqlnd.md). Більш детальний розбір на вибір бібліотеки можна почитати в розділі "[Вибір бібліотеки MySQL](mysqlinfo.library.choosing.md)".
 
 Додатковий параметр **\-with-mysql-sock=DIR** вказує розташування unix-сокету MySQL для всіх модулів MySQL, включаючи PDOMYSQL. Якщо параметр не вказано, пошук здійснюється в директоріях за промовчанням.
 
@@ -46,15 +46,15 @@ PDOMYSQL за умовчанням використовує емульовану
 $ ./configure --with-pdo-mysql --with-mysql-sock=/var/mysql/mysql.sock
 ```
 
-Підтримка SSL вмикається, використовуючи відповідну [константу PDOMySQL](ref.pdo-mysql.html#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функції mysqlsslset() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.html). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.html)
+Підтримка SSL вмикається, використовуючи відповідну [константу PDOMySQL](ref.pdo-mysql.md#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функції mysqlsslset() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.md). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.md)
 
 ## Обумовлені константи
 
-Наведені нижче константи визначені цим драйвером і будуть доступні лише у випадку, якщо PHP був зібраний з підтримкою цього модуля, або цей модуль був динамічно завантажений під час виконання. Крім того, ці залежні від драйвера константи повинні бути використані лише разом із цим драйвером. Використання атрибутів, специфічних для деякого драйвера з іншим драйвером, може викликати несподівану поведінку. Якщо ваш код виконується з кількома драйверами, можна використовувати функцію [PDO::getAttribute()](pdo.getattribute.html) для отримання атрибуту **`PDO::ATTR_DRIVER_NAME`** для перевірки драйвера.
+Наведені нижче константи визначені цим драйвером і будуть доступні лише у випадку, якщо PHP був зібраний з підтримкою цього модуля, або цей модуль був динамічно завантажений під час виконання. Крім того, ці залежні від драйвера константи повинні бути використані лише разом із цим драйвером. Використання атрибутів, специфічних для деякого драйвера з іншим драйвером, може викликати несподівану поведінку. Якщо ваш код виконується з кількома драйверами, можна використовувати функцію [PDO::getAttribute()](pdo.getattribute.md) для отримання атрибуту **`PDO::ATTR_DRIVER_NAME`** для перевірки драйвера.
 
 **`PDO::MYSQL_ATTR_USE_BUFFERED_QUERY`** (int)
 
-Якщо цей атрибут встановлений у **`true`** в [PDOStatement](class.pdostatement.html), MySQL драйвер буде використовувати буферизовані версії API MySQL. Якщо ви пишете код, що переноситься на інші бібліотеки, ви повинні використовувати [PDOStatement::fetchAll()](pdostatement.fetchall.html)
+Якщо цей атрибут встановлений у **`true`** в [PDOStatement](class.pdostatement.md), MySQL драйвер буде використовувати буферизовані версії API MySQL. Якщо ви пишете код, що переноситься на інші бібліотеки, ви повинні використовувати [PDOStatement::fetchAll()](pdostatement.fetchall.md)
 
 **Приклад #1 Буферизація запитів MySQL**
 
@@ -143,7 +143,7 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 **`PDO::MYSQL_ATTR_MULTI_STATEMENTS`** (int)
 
-Якщо встановлено як **`false`**, забороняє запуск множинних запитів, як для [PDO::prepare()](pdo.prepare.html), так і для [PDO::query()](pdo.query.html)
+Якщо встановлено як **`false`**, забороняє запуск множинних запитів, як для [PDO::prepare()](pdo.prepare.md), так і для [PDO::query()](pdo.query.md)
 
 Зверніть увагу, що ця константа може бути використана тільки в масиві `driver_options` під час створення нового дескриптора БД.
 
@@ -155,10 +155,10 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 | Имя | По умолчанию | Место изменения |
 | --- | --- | --- |
-| [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM |
-| [pdomysql.debug](ref.pdo-mysql.html#ini.pdo-mysql.debug) | NULL | PHPINISYSTEM |
+| [pdomysql.defaultsocket](ref.pdo-mysql.md#ini.pdo-mysql.default-socket) | "/тмп/мускл.сок" | PHPINISYSTEM |
+| [pdomysql.debug](ref.pdo-mysql.md#ini.pdo-mysql.debug) | NULL | PHPINISYSTEM |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
@@ -172,4 +172,4 @@ if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
 
 ## Зміст
 
--   [PDOMYSQL DSN](ref.pdo-mysql.connection.html) — З'єднання з базою даних MySQL
+-   [PDOMYSQL DSN](ref.pdo-mysql.connection.md) — З'єднання з базою даних MySQL

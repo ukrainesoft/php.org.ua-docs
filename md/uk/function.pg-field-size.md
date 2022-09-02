@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-field-prtlen.html: « pgfieldprtlen
-  - function.pg-field-table.html: пгfieldtable »
+  - function.pg-field-prtlen.md: « pgfieldprtlen
+  - function.pg-field-table.md: пгfieldtable »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгfieldsize
@@ -28,7 +28,7 @@ pg_field_size(PgSql\Result $result, int $field): int
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field`
 

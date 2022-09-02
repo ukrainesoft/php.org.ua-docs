@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlmathold.html: « tradercdlmathold
-  - function.trader-cdlmorningstar.html: tradercdlmorningstar »
+  - function.trader-cdlmathold.md: « tradercdlmathold
+  - function.trader-cdlmorningstar.md: tradercdlmorningstar »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlmorningdojistar

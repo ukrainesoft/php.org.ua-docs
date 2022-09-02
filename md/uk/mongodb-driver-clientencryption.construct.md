@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-clientencryption.html: « MongoDBDriverClientEncryption
-  - mongodb-driver-clientencryption.createdatakey.html: 'MongoDBDriverClientEncryption::createDataKey »'
+  - class.mongodb-driver-clientencryption.md: « MongoDBDriverClientEncryption
+  - mongodb-driver-clientencryption.createdatakey.md: 'MongoDBDriverClientEncryption::createDataKey »'
   - index.md: PHP Manual
-  - class.mongodb-driver-clientencryption.html: MongoDBDriverClientEncryption
+  - class.mongodb-driver-clientencryption.md: MongoDBDriverClientEncryption
 title: 'MongoDBDriverClientEncryption::construct'
 ---
 # MongoDBDriverClientEncryption::construct
@@ -28,7 +28,7 @@ final public MongoDB\Driver\ClientEncryption::__construct(array $options)
 
 | Опция | Тип | Описание |
 | --- | --- | --- |
-| keyVaultClient | [MongoDBDriverManager](class.mongodb-driver-manager.html) | Менеджер, який використовується для маршрутизації запитів ключів даних. Опція є обов'язковою (на відміну функції [MongoDBDriverManager::createClientEncryption()](mongodb-driver-manager.createclientencryption.md) |
+| keyVaultClient | [MongoDBDriverManager](class.mongodb-driver-manager.md) | Менеджер, який використовується для маршрутизації запитів ключів даних. Опція є обов'язковою (на відміну функції [MongoDBDriverManager::createClientEncryption()](mongodb-driver-manager.createclientencryption.md) |
 | keyVaultNamespace | string | Повний простір імен (наприклад, `"databaseName.collectionName"`), що означає колекцію, яка містить усі ключі даних, що використовуються для шифрування та дешифрування. |
 | kmsProviders | array |  |
 | Документ, який містить конфігурацію для одного або кількох провайдерів KMS, які використовуються для шифрування ключів даних. Підтримуються провайдери `"aws"` `"azure"` `"gcp"` і `"local"`, і принаймні один з них повинен бути вказаний. |  |  |

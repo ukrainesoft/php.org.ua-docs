@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-binaryinterface.html: « MongoDBBSONBinaryInterface
-  - mongodb-bson-binaryinterface.gettype.html: 'MongoDBBSONBinaryInterface::getType »'
+  - class.mongodb-bson-binaryinterface.md: « MongoDBBSONBinaryInterface
+  - mongodb-bson-binaryinterface.gettype.md: 'MongoDBBSONBinaryInterface::getType »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binaryinterface.html: MongoDBBSONBinaryInterface
+  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface
 title: 'MongoDBBSONBinaryInterface::getData'
 ---
 # MongoDBBSONBinaryInterface::getData

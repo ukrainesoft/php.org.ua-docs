@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-linearreg-angle.html: « traderlinearregangle
-  - function.trader-linearreg-slope.html: traderlinearregslope »
+  - function.trader-linearreg-angle.md: « traderlinearregangle
+  - function.trader-linearreg-slope.md: traderlinearregslope »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderlinearregintercept

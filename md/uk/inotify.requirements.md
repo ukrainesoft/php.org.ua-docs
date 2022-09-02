@@ -1,9 +1,9 @@
 ---
 navigation:
-  - inotify.setup.html: « Встановлення та налаштування
-  - inotify.install.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - inotify.setup.html: Встановлення та налаштування
+  - inotify.setup.md: « Встановлення та налаштування
+  - inotify.install.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - inotify.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-mysql.close.html: '« SwooleCoroutineMySQL::close'
-  - swoole-coroutine-mysql.construct.html: 'SwooleCoroutineMySQL::construct »'
+  - swoole-coroutine-mysql.close.md: '« SwooleCoroutineMySQL::close'
+  - swoole-coroutine-mysql.construct.md: 'SwooleCoroutineMySQL::construct »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineMySQL::connect'
 ---
 # SwooleCoroutineMySQL::connect

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-create-standard-array.html: « fanncreatestandardarray
-  - function.fann-create-train-from-callback.html: fanncreatetrainfromcallback »
+  - function.fann-create-standard-array.md: « fanncreatestandardarray
+  - function.fann-create-train-from-callback.md: fanncreatetrainfromcallback »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanncreatestandard

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.fromdatetimezone.html: '« IntlTimeZone::fromDateTimeZone'
-  - intltimezone.getdisplayname.html: 'IntlTimeZone::getDisplayName »'
-  - index.html: PHP Manual
-  - class.intltimezone.html: IntlTimeZone
+  - intltimezone.fromdatetimezone.md: '« IntlTimeZone::fromDateTimeZone'
+  - intltimezone.getdisplayname.md: 'IntlTimeZone::getDisplayName »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getCanonicalID'
 ---
 # IntlTimeZone::getCanonicalID

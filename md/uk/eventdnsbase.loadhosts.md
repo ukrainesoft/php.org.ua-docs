@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventdnsbase.countnameservers.html: '« EventDnsBase::countNameservers'
-  - eventdnsbase.parseresolvconf.html: 'EventDnsBase::parseResolvConf »'
-  - index.html: PHP Manual
-  - class.eventdnsbase.html: EventDnsBase
+  - eventdnsbase.countnameservers.md: '« EventDnsBase::countNameservers'
+  - eventdnsbase.parseresolvconf.md: 'EventDnsBase::parseResolvConf »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
 title: 'EventDnsBase::loadHosts'
 ---
 # EventDnsBase::loadHosts

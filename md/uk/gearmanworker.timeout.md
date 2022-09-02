@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.settimeout.html: '« GearmanWorker::setTimeout'
-  - gearmanworker.unregister.html: 'GearmanWorker::unregister »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.settimeout.md: '« GearmanWorker::setTimeout'
+  - gearmanworker.unregister.md: 'GearmanWorker::unregister »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::timeout'
 ---
 # GearmanWorker::timeout
@@ -30,4 +30,4 @@ public GearmanWorker::timeout(): int
 
 ### Дивіться також
 
--   [GearmanWorker::setTimeout()](gearmanworker.settimeout.html) - Завдання часу очікування на введення/виведення на сокеті
+-   [GearmanWorker::setTimeout()](gearmanworker.settimeout.md) - Завдання часу очікування на введення/виведення на сокеті

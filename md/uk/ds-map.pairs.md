@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.merge.html: '« DsMap::merge'
-  - ds-map.put.html: 'ДсMap::put »'
+  - ds-map.merge.md: '« DsMap::merge'
+  - ds-map.put.md: 'ДсMap::put »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::pairs'
 ---
 # ДсMap::pairs

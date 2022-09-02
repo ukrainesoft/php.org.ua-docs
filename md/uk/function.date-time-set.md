@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.date-sunset.html: « datesunset
-  - function.date-timestamp-get.html: datetimestampget »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.date-sunset.md: « datesunset
+  - function.date-timestamp-get.md: datetimestampget »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: datetimeset
 ---
 # datetimeset

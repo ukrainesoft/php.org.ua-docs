@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.fann-train-on-file.html: « fanntrainвінfile
+  - function.fann-train-on-file.md: « fanntrainвінfile
   - class.fannconnection.md: FANNConnection »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann

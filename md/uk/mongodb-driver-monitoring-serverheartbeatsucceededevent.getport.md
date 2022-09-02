@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.html: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost'
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply »'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
 title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort'
 ---
 # MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort

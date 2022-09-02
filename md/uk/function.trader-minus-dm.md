@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-minus-di.html: « traderminusді
-  - function.trader-mom.html: tradermom »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-minus-di.md: « traderminusді
+  - function.trader-mom.md: tradermom »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderminusдм
 ---
 # traderminusдм

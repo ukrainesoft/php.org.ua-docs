@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.enchant-broker-get-dict-path.html: « enchantbrokergetdictpath
-  - function.enchant-broker-init.html: enchantbrokerinit »
-  - index.html: PHP Manual
-  - ref.enchant.html: Функции Enchant
+  - function.enchant-broker-get-dict-path.md: « enchantbrokergetdictpath
+  - function.enchant-broker-init.md: enchantbrokerinit »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
 title: enchantbrokergeterror
 ---
 # enchantbrokergeterror
@@ -24,7 +24,7 @@ enchant_broker_get_error(EnchantBroker $broker): string|false
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 ### Значення, що повертаються
 
@@ -34,4 +34,4 @@ enchant_broker_get_error(EnchantBroker $broker): string|false
 
 | Версия | Описание |
 | --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |

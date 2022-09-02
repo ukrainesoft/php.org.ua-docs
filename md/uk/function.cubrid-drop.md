@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-disconnect.html: « cubriddisconnect
-  - function.cubrid-error-code-facility.html: cubriderrorcodefacility »
+  - function.cubrid-disconnect.md: « cubriddisconnect
+  - function.cubrid-error-code-facility.md: cubriderrorcodefacility »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubriddrop

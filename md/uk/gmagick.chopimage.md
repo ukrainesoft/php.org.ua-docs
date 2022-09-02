@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.charcoalimage.html: '« Gmagick::charcoalimage'
-  - gmagick.clear.html: 'Gmagick::clear »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.charcoalimage.md: '« Gmagick::charcoalimage'
+  - gmagick.clear.md: 'Gmagick::clear »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::chopimage'
 ---
 # Gmagick::chopimage
@@ -40,7 +40,7 @@ public Gmagick::chopimage(    int $width,    int $height,    int $x,
 
 ### Значення, що повертаються
 
-Об'єкт, що вийшов [Gmagick](class.gmagick.html)
+Об'єкт, що вийшов [Gmagick](class.gmagick.md)
 
 ### Помилки
 

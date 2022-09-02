@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-num-rows.html: « pgnumrows
-  - function.pg-parameter-status.html: пгparameterstatus »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-num-rows.md: « pgnumrows
+  - function.pg-parameter-status.md: пгparameterstatus »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгoptions
 ---
 # пгoptions
@@ -24,7 +24,7 @@ pg_options(?PgSql\Connection $connection = null): string
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -38,7 +38,7 @@ pg_options(?PgSql\Connection $connection = null): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `connection` тепер допускає значення null. |
 
 ### Приклади
@@ -54,4 +54,4 @@ pg_options(?PgSql\Connection $connection = null): string
 
 ### Дивіться також
 
--   [пгconnect()](function.pg-connect.html) - Відкриває з'єднання з базою даних PostgreSQL
+-   [пгconnect()](function.pg-connect.md) - Відкриває з'єднання з базою даних PostgreSQL

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-last-insert-id.html: « db2lastinsertід
-  - function.db2-next-result.html: db2nextresult »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-last-insert-id.md: « db2lastinsertід
+  - function.db2-next-result.md: db2nextresult »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2лобread
 ---
 # db2лобread
@@ -127,9 +127,9 @@ Loop 6: TEST.
 
 ### Дивіться також
 
--   [db2bindparam()](function.db2-bind-param.html) - Зв'язує змінну PHP із параметром SQL-виразу
--   [db2exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
--   [db2execute()](function.db2-execute.html) - Виконує підготовлений SQL-запит
--   [db2fetchrow()](function.db2-fetch-row.html) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
--   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
--   [db2result()](function.db2-result.html) - Повертає один стовпець з рядка у наборі результатів
+-   [db2bindparam()](function.db2-bind-param.md) - Зв'язує змінну PHP із параметром SQL-виразу
+-   [db2exec()](function.db2-exec.md) - Виконує SQL-запит безпосередньо
+-   [db2execute()](function.db2-execute.md) - Виконує підготовлений SQL-запит
+-   [db2fetchrow()](function.db2-fetch-row.md) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
+-   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання
+-   [db2result()](function.db2-result.md) - Повертає один стовпець з рядка у наборі результатів

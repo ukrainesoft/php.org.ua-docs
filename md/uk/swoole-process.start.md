@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.signal.html: '« SwooleProcess::signal'
-  - swoole-process.statqueue.html: 'SwooleProcess::statQueue »'
+  - swoole-process.signal.md: '« SwooleProcess::signal'
+  - swoole-process.statqueue.md: 'SwooleProcess::statQueue »'
   - index.md: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::start'
 ---
 # SwooleProcess::start

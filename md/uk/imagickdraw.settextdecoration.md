@@ -28,7 +28,7 @@ public ImagickDraw::setTextDecoration(int $decoration): bool
 
 `decoration`
 
-Одна з констант [DECORATION](imagick.constants.html#imagick.constants.decoration) `imagick::DECORATION_*`
+Одна з констант [DECORATION](imagick.constants.md#imagick.constants.decoration) `imagick::DECORATION_*`
 
 ### Значення, що повертаються
 

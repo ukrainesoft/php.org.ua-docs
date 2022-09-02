@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.gethedge.html: '« MongoDBDriverReadPreference::getHedge'
-  - mongodb-driver-readpreference.getmode.html: 'MongoDBDriverReadPreference::getMode »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - mongodb-driver-readpreference.gethedge.md: '« MongoDBDriverReadPreference::getHedge'
+  - mongodb-driver-readpreference.getmode.md: 'MongoDBDriverReadPreference::getMode »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::getMaxStalenessSeconds'
 ---
 # MongoDBDriverReadPreference::getMaxStalenessSeconds
@@ -28,7 +28,7 @@ final public MongoDB\Driver\ReadPreference::getMaxStalenessSeconds(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 

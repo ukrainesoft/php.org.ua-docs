@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-lob-size.html: « cubridlobsize
-  - function.cubrid-lob2-close.html: cubridlob2close »
+  - function.cubrid-lob-size.md: « cubridlobsize
+  - function.cubrid-lob2-close.md: cubridlob2close »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridlob2bind
@@ -18,7 +18,7 @@ cubridlob2bind — Зв'язує об'єкт LOB або рядок у вигля
 cubrid_lob2_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
 ```
 
-Функція **cubridlob2bind()** використовується для прив'язки даних BLOB/CLOB до відповідної псевдозмінної оператора SQL, який був переданий в [cubridprepare()](function.cubrid-prepare.html). Якщо параметр `bind_value_type` не вказано, за промовчанням буде використовуватися рядок "BLOB". Але якщо раніше використовувалась функція [cubridlob2new()](function.cubrid-lob2-new.html) `bind_value_type` буде відповідати параметру `type` в [cubridlob2new()](function.cubrid-lob2-new.md) за замовчуванням.
+Функція **cubridlob2bind()** використовується для прив'язки даних BLOB/CLOB до відповідної псевдозмінної оператора SQL, який був переданий в [cubridprepare()](function.cubrid-prepare.md). Якщо параметр `bind_value_type` не вказано, за промовчанням буде використовуватися рядок "BLOB". Але якщо раніше використовувалась функція [cubridlob2new()](function.cubrid-lob2-new.md) `bind_value_type` буде відповідати параметру `type` в [cubridlob2new()](function.cubrid-lob2-new.md) за замовчуванням.
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mbstring.resources.html: « Типи ресурсів
-  - mbstring.encodings.html: Короткий огляд підтримуваних кодувань »
-  - index.html: PHP Manual
-  - book.mbstring.html: Багатобайтові рядки
+  - mbstring.resources.md: « Типи ресурсів
+  - mbstring.encodings.md: Короткий огляд підтримуваних кодувань »
+  - index.md: PHP Manual
+  - book.mbstring.md: Багатобайтові рядки
 title: Обумовлені константи
 ---
 # Обумовлені константи

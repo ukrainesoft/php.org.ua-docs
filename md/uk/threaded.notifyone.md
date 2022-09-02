@@ -1,9 +1,9 @@
 ---
 navigation:
-  - threaded.notify.html: '« Threaded::notify'
-  - threaded.pop.html: 'Threaded::pop »'
-  - index.html: PHP Manual
-  - class.threaded.html: Threaded
+  - threaded.notify.md: '« Threaded::notify'
+  - threaded.pop.md: 'Threaded::pop »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
 title: 'Threaded::notifyOne'
 ---
 # Threaded::notifyOne
@@ -18,7 +18,7 @@ Threaded::notifyOne — Синхронізація
 public Threaded::notifyOne(): bool
 ```
 
-Надсилає повідомлення вказаному об'єкту. Це розблокує принаймні один із заблокованих потоків (на відміну від [Threaded::notify()](threaded.notify.html) з розблокуванням всіх потоків).
+Надсилає повідомлення вказаному об'єкту. Це розблокує принаймні один із заблокованих потоків (на відміну від [Threaded::notify()](threaded.notify.md) з розблокуванням всіх потоків).
 
 ### Список параметрів
 

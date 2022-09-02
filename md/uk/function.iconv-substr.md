@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.iconv-strrpos.html: « iconvstrrpos
-  - function.iconv.html: iconv »
-  - index.html: PHP Manual
-  - ref.iconv.html: Функции iconv
+  - function.iconv-strrpos.md: « iconvstrrpos
+  - function.iconv.md: iconv »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
 title: iconvsubstr
 ---
 # iconvsubstr
@@ -40,9 +40,9 @@ iconv_substr(    string $string,    int $offset,    ?int $length = n
 
 `encoding`
 
-Якщо параметр `encoding` не вказано, передбачається, що рядок `string` має кодування [iconv.internalencoding](iconv.configuration.html)
+Якщо параметр `encoding` не вказано, передбачається, що рядок `string` має кодування [iconv.internalencoding](iconv.configuration.md)
 
-Зверніть увагу, що і `offset`, і `length` ґрунтуються на розмірі символу, розрахованого виходячи з кодування тексту (`encoding`), у той час як схожа функція [substr()](function.substr.html) завжди розглядає їх побайтове усунення.
+Зверніть увагу, що і `offset`, і `length` ґрунтуються на розмірі символу, розрахованого виходячи з кодування тексту (`encoding`), у той час як схожа функція [substr()](function.substr.md) завжди розглядає їх побайтове усунення.
 
 ### Значення, що повертаються
 
@@ -59,6 +59,6 @@ iconv_substr(    string $string,    int $offset,    ?int $length = n
 
 ### Дивіться також
 
--   [substr()](function.substr.html) - Повертає підрядок
--   [мбsubstr()](function.mb-substr.html) - Повертає частину рядка
--   [мбstrcut()](function.mb-strcut.html) - Отримання частини рядка
+-   [substr()](function.substr.md) - Повертає підрядок
+-   [мбsubstr()](function.mb-substr.md) - Повертає частину рядка
+-   [мбstrcut()](function.mb-strcut.md) - Отримання частини рядка

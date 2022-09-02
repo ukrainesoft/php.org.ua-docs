@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.fscanf.html: '« SplFileObject::fscanf'
-  - splfileobject.fstat.html: 'SplFileObject::fstat »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.fscanf.md: '« SplFileObject::fscanf'
+  - splfileobject.fstat.md: 'SplFileObject::fstat »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fseek'
 ---
 # SplFileObject::fseek
@@ -59,4 +59,4 @@ $file->fseek(0);
 
 ### Дивіться також
 
--   [fseek()](function.fseek.html) - Встановлює зміщення у файловому покажчику
+-   [fseek()](function.fseek.md) - Встановлює зміщення у файловому покажчику

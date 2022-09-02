@@ -1,9 +1,9 @@
 ---
 navigation:
-  - event.timer.html: '« Event::timer'
-  - eventbase.construct.html: 'EventBase::construct »'
-  - index.html: PHP Manual
-  - book.event.html: Event
+  - event.timer.md: '« Event::timer'
+  - eventbase.construct.md: 'EventBase::construct »'
+  - index.md: PHP Manual
+  - book.event.md: Event
 title: Клас EventBase
 ---
 # Клас EventBase
@@ -16,7 +16,7 @@ title: Клас EventBase
 
 Кожна подієва база має *метод* або *бекенд*, які використовуються визначення готових подій. Використовувані методи: `select` `poll` `epoll` `kqueue` `devpoll` `evport` і `win32`
 
-Для налаштування подійної бази або для виключення певних бекендів можна використовувати клас [EventConfig](class.eventconfig.html)
+Для налаштування подійної бази або для виключення певних бекендів можна використовувати клас [EventConfig](class.eventconfig.md)
 
 **Увага**
 
@@ -110,11 +110,11 @@ public
 
 **`EventBase::LOOP_ONCE`**
 
-Прапор використовується з методом [EventBase::loop()](eventbase.loop.html) і означає: "блокувати, поки libevent не отримає активну подію, а потім вийти після завершення функції зворотного виклику для всіх активних подій".
+Прапор використовується з методом [EventBase::loop()](eventbase.loop.md) і означає: "блокувати, поки libevent не отримає активну подію, а потім вийти після завершення функції зворотного виклику для всіх активних подій".
 
 **`EventBase::LOOP_NONBLOCK`**
 
-Прапор використовується з методом [EventBase::loop()](eventbase.loop.html) і означає: "не блокувати: подивитися, які події вже готові, запустити зворотні виклики із найвищим пріоритетом, потім вийти".
+Прапор використовується з методом [EventBase::loop()](eventbase.loop.md) і означає: "не блокувати: подивитися, які події вже готові, запустити зворотні виклики із найвищим пріоритетом, потім вийти".
 
 **`EventBase::NOLOCK`**
 
@@ -140,16 +140,16 @@ public
 
 ## Зміст
 
--   [EventBase::construct](eventbase.construct.html) - Конструктор об'єкта EventBase
--   [EventBase::dispatch](eventbase.dispatch.html) — Відправляє події, що очікують.
--   [EventBase::exit](eventbase.exit.html) — Припиняє надсилання подій
--   [EventBase::free](eventbase.free.html) — Визволяє ресурси, виділені для цієї бази подій
--   [EventBase::getFeatures](eventbase.getfeatures.html) — Повертає бітову маску функцій, що підтримуються.
--   [EventBase::getMethod](eventbase.getmethod.html) — Повертає метод події, що використовується.
--   [EventBase::getTimeOfDayCached](eventbase.gettimeofdaycached.html) — Повертає поточний час базові події
--   [EventBase::gotExit](eventbase.gotexit.html) — Перевіряє, чи було завершено цикл обробки подій.
--   [EventBase::gotStop](eventbase.gotstop.html) — Перевіряє, чи було завершено цикл обробки подій.
--   [EventBase::loop](eventbase.loop.html) — Надсилання очікуваних подій
--   [EventBase::priorityInit](eventbase.priorityinit.html) — Встановлює кількість пріоритетів на основі подій.
--   [EventBase::reInit](eventbase.reinit.html) - Повторна ініціалізація бази подій (після розгалуження)
--   [EventBase::stop](eventbase.stop.html) — повідомляє eventbase припинити відправку подій
+-   [EventBase::construct](eventbase.construct.md) - Конструктор об'єкта EventBase
+-   [EventBase::dispatch](eventbase.dispatch.md) — Відправляє події, що очікують.
+-   [EventBase::exit](eventbase.exit.md) — Припиняє надсилання подій
+-   [EventBase::free](eventbase.free.md) — Визволяє ресурси, виділені для цієї бази подій
+-   [EventBase::getFeatures](eventbase.getfeatures.md) — Повертає бітову маску функцій, що підтримуються.
+-   [EventBase::getMethod](eventbase.getmethod.md) — Повертає метод події, що використовується.
+-   [EventBase::getTimeOfDayCached](eventbase.gettimeofdaycached.md) — Повертає поточний час базові події
+-   [EventBase::gotExit](eventbase.gotexit.md) — Перевіряє, чи було завершено цикл обробки подій.
+-   [EventBase::gotStop](eventbase.gotstop.md) — Перевіряє, чи було завершено цикл обробки подій.
+-   [EventBase::loop](eventbase.loop.md) — Надсилання очікуваних подій
+-   [EventBase::priorityInit](eventbase.priorityinit.md) — Встановлює кількість пріоритетів на основі подій.
+-   [EventBase::reInit](eventbase.reinit.md) - Повторна ініціалізація бази подій (після розгалуження)
+-   [EventBase::stop](eventbase.stop.md) — повідомляє eventbase припинити відправку подій

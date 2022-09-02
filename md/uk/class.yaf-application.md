@@ -1,7 +1,7 @@
 ---
 navigation:
   - yaf.appconfig.md: « Конфигурация приложения
-  - yaf-application.app.html: 'YafApplication::app »'
+  - yaf-application.app.md: 'YafApplication::app »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafApplication
@@ -16,7 +16,7 @@ title: Клас YafApplication
 
 > **Зауваження**
 > 
-> [YafApplication](class.yaf-application.html) реалізує шаблоном singleton, та [YafApplication](class.yaf-application.md) не може бути серіалізований або десеріалізований що викликає проблеми, коли ви намагаєтеся використовувати PHPUnit щоб написати деякі тести для Yaf.
+> [YafApplication](class.yaf-application.md) реалізує шаблоном singleton, та [YafApplication](class.yaf-application.md) не може бути серіалізований або десеріалізований що викликає проблеми, коли ви намагаєтеся використовувати PHPUnit щоб написати деякі тести для Yaf.
 > 
 > Ви можете використовувати @backupGlobals анотації PHPUnit для контролю бекапів та операцій відновлення глобальних змінних. У такий спосіб можна вирішити цю проблему.
 

@@ -26,7 +26,7 @@ public SoapServer::setPersistence(int $mode): void
 
 > **Зауваження**
 > 
-> **`SOAP_PERSISTENCE_SESSION`** серіалізує дані об'єкта класу та зберігає їх між запитами. Для коректної роботи з ресурсами (наприклад, [PDO](class.pdo.md)), слід використовувати магічні методи [wakeup()](language.oop5.magic.html#object.wakeup) і [sleep()](language.oop5.magic.html#object.sleep)
+> **`SOAP_PERSISTENCE_SESSION`** серіалізує дані об'єкта класу та зберігає їх між запитами. Для коректної роботи з ресурсами (наприклад, [PDO](class.pdo.md)), слід використовувати магічні методи [wakeup()](language.oop5.magic.md#object.wakeup) і [sleep()](language.oop5.magic.md#object.sleep)
 
 ### Список параметрів
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   - readline.constants.md: « Обумовлені константи
-  - function.readline-add-history.html: readlineaddhistory »
+  - function.readline-add-history.md: readlineaddhistory »
   - index.md: PHP Manual
   - book.readline.md: Readline
 title: Опції Readline

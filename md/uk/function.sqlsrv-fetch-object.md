@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sqlsrv-fetch-array.html: « sqlsrvfetcharray
-  - function.sqlsrv-fetch.html: sqlsrvfetch »
-  - index.html: PHP Manual
-  - ref.sqlsrv.html: Функції SQLSRV
+  - function.sqlsrv-fetch-array.md: « sqlsrvfetcharray
+  - function.sqlsrv-fetch.md: sqlsrvfetch »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvfetchobject
 ---
 # sqlsrvfetchobject
@@ -24,7 +24,7 @@ sqlsrv_fetch_object(    resource $stmt,    string $className = ?,   �
 
 `stmt`
 
-Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.html)
+Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 `className`
 
@@ -94,9 +94,9 @@ while( $obj = sqlsrv_fetch_object( $stmt)) {
 
 Незалежно від того, чи вказано параметр $className, якщо поле повертається без імені, значення поля буде проігноровано, а до колекції помилок буде додано попередження.
 
-При використанні набору результатів, що містить кілька стовпців з однаковим ім'ям, можливо краще використовувати [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) або комбінацію [sqlsrvfetch()](function.sqlsrv-fetch.html) і [sqlsrvgetfield()](function.sqlsrv-get-field.html)
+При використанні набору результатів, що містить кілька стовпців з однаковим ім'ям, можливо краще використовувати [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) або комбінацію [sqlsrvfetch()](function.sqlsrv-fetch.md) і [sqlsrvgetfield()](function.sqlsrv-get-field.md)
 
 ### Дивіться також
 
--   [sqlsrvfetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
--   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) - Повертає рядок як масив
+-   [sqlsrvfetch()](function.sqlsrv-fetch.md) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) - Повертає рядок як масив

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phardata.decompress.html: '« PharData::decompress'
-  - phardata.delmetadata.html: 'PharData::delMetadata »'
-  - index.html: PHP Manual
-  - class.phardata.html: PharData
+  - phardata.decompress.md: '« PharData::decompress'
+  - phardata.delmetadata.md: 'PharData::delMetadata »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
 title: 'PharData::decompressFiles'
 ---
 # PharData::decompressFiles
@@ -20,11 +20,11 @@ public PharData::decompressFiles(): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Для tar-архівів цей метод викине виняток [BadMethodCallException](class.badmethodcallexception.html), оскільки стиснення окремих файлів у tar-архіві не підтримується форматом файлу. Використовуйте [PharData::compress()](phardata.compress.md) для стиснення всього tar-архіву.
+Для tar-архівів цей метод викине виняток [BadMethodCallException](class.badmethodcallexception.md), оскільки стиснення окремих файлів у tar-архіві не підтримується форматом файлу. Використовуйте [PharData::compress()](phardata.compress.md) для стиснення всього tar-архіву.
 
-Для Zip-архівів цей метод розпакує всі файли вказаним шляхом. Для коректної роботи потрібні включені модулі [zlib](ref.zlib.html) або [bzip2](ref.bzip2.md), Залежно від типу стиснення.
+Для Zip-архівів цей метод розпакує всі файли вказаним шляхом. Для коректної роботи потрібні включені модулі [zlib](ref.zlib.md) або [bzip2](ref.bzip2.md), Залежно від типу стиснення.
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ public PharData::decompressFiles(): bool
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо відсутній необхідний модуль [zlib](ref.zlib.html) або [bzip2](ref.bzip2.md)
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо відсутній необхідний модуль [zlib](ref.zlib.md) або [bzip2](ref.bzip2.md)
 
 ### Приклади
 

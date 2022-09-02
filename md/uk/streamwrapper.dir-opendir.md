@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.dir-closedir.html: '« streamWrapper::dirclosedir'
-  - streamwrapper.dir-readdir.html: 'streamWrapper::dirreaddir »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.dir-closedir.md: '« streamWrapper::dirclosedir'
+  - streamwrapper.dir-readdir.md: 'streamWrapper::dirreaddir »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::diropendir'
 ---
 # streamWrapper::diropendir
@@ -18,17 +18,17 @@ streamWrapper::diropendir — Відкрити дескриптор директ
 public streamWrapper::dir_opendir(string $path, int $options): bool
 ```
 
-Цей метод викликається у процесі виконання [opendir()](function.opendir.html)
+Цей метод викликається у процесі виконання [opendir()](function.opendir.md)
 
 ### Список параметрів
 
 `path`
 
-Задає URL-адресу, яка була передана в [opendir()](function.opendir.html)
+Задає URL-адресу, яка була передана в [opendir()](function.opendir.md)
 
 > **Зауваження**
 > 
-> URL можна розділити на частини за допомогою [parseurl()](function.parse-url.html)
+> URL можна розділити на частини за допомогою [parseurl()](function.parse-url.md)
 
 `options`
 
@@ -38,6 +38,6 @@ public streamWrapper::dir_opendir(string $path, int $options): bool
 
 ### Дивіться також
 
--   [opendir()](function.opendir.html) - Відкриває дескриптор каталогу
--   [streamWrapper::dirclosedir()](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
--   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
+-   [opendir()](function.opendir.md) - Відкриває дескриптор каталогу
+-   [streamWrapper::dirclosedir()](streamwrapper.dir-closedir.md) - Закрити дескриптор директорії
+-   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.add.html: '« SplDoublyLinkedList::add'
-  - spldoublylinkedlist.count.html: 'SplDoublyLinkedList::count »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.add.md: '« SplDoublyLinkedList::add'
+  - spldoublylinkedlist.count.md: 'SplDoublyLinkedList::count »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::bottom'
 ---
 # SplDoublyLinkedList::bottom
@@ -28,4 +28,4 @@ public SplDoublyLinkedList::bottom(): mixed
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)коли структура даних порожня.
+Викидає виняток [RuntimeException](class.runtimeexception.md)коли структура даних порожня.

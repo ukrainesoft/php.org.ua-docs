@@ -1,9 +1,9 @@
 ---
 navigation:
-  - curl.setup.html: « Встановлення та налаштування
-  - curl.installation.html: Установка »
-  - index.html: PHP Manual
-  - curl.setup.html: Встановлення та налаштування
+  - curl.setup.md: « Встановлення та налаштування
+  - curl.installation.md: Установка »
+  - index.md: PHP Manual
+  - curl.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

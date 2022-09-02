@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ob-flush.html: « obflush
-  - function.ob-get-contents.html: проgetcontents »
+  - function.ob-flush.md: « obflush
+  - function.ob-get-contents.md: проgetcontents »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
 title: проgetclean
@@ -20,9 +20,9 @@ ob_get_clean(): string|false
 
 Отримує вміст поточного буфера, а потім видаляє поточний буфер.
 
-**проgetclean()** по суті виконує [проgetcontents()](function.ob-get-contents.html) і [проendclean()](function.ob-end-clean.md)
+**проgetclean()** по суті виконує [проgetcontents()](function.ob-get-contents.md) і [проendclean()](function.ob-end-clean.md)
 
-Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.html#constant.php-output-handler-removable). Інакше **проgetclean()** не спрацює.
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.md#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.md#constant.php-output-handler-removable). Інакше **проgetclean()** не спрацює.
 
 ### Список параметрів
 

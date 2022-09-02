@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanjob.workload.html: '« GearmanJob::workload'
-  - class.gearmantask.html: GearmanTask »
-  - index.html: PHP Manual
-  - class.gearmanjob.html: GearmanJob
+  - gearmanjob.workload.md: '« GearmanJob::workload'
+  - class.gearmantask.md: GearmanTask »
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::workloadSize'
 ---
 # GearmanJob::workloadSize
@@ -30,4 +30,4 @@ public GearmanJob::workloadSize(): int
 
 ### Дивіться також
 
--   [GearmanJob::workload()](gearmanjob.workload.html) - отримання даних для обробки
+-   [GearmanJob::workload()](gearmanjob.workload.md) - отримання даних для обробки

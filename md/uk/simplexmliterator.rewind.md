@@ -1,9 +1,9 @@
 ---
 navigation:
-  - simplexmliterator.next.html: '« SimpleXMLIterator::next'
-  - simplexmliterator.valid.html: 'SimpleXMLIterator::valid »'
-  - index.html: PHP Manual
-  - class.simplexmliterator.html: SimpleXMLIterator
+  - simplexmliterator.next.md: '« SimpleXMLIterator::next'
+  - simplexmliterator.valid.md: 'SimpleXMLIterator::valid »'
+  - index.md: PHP Manual
+  - class.simplexmliterator.md: SimpleXMLIterator
 title: 'SimpleXMLIterator::rewind'
 ---
 # SimpleXMLIterator::rewind
@@ -18,7 +18,7 @@ SimpleXMLIterator::rewind — Повертає ітератор до першо�
 public SimpleXMLIterator::rewind(): void
 ```
 
-Цей метод повертає [SimpleXMLIterator](class.simplexmliterator.html) до першого елементу.
+Цей метод повертає [SimpleXMLIterator](class.simplexmliterator.md) до першого елементу.
 
 ### Список параметрів
 

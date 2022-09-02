@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.operators.string.html: « Рядкові оператори
-  - language.operators.type.html: Оператор перевірки типу »
-  - index.html: PHP Manual
-  - language.operators.html: Оператори
+  - language.operators.string.md: « Рядкові оператори
+  - language.operators.type.md: Оператор перевірки типу »
+  - index.md: PHP Manual
+  - language.operators.md: Оператори
 title: 'Оператори, що працюють із масивами'
 ---
 ## Оператори, що працюють із масивами

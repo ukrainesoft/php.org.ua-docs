@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-open.html: « fdfopen
-  - function.fdf-save-string.html: fdfsavestring »
+  - function.fdf-open.md: « fdfopen
+  - function.fdf-save-string.md: fdfsavestring »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfremoveitem

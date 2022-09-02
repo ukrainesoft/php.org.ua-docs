@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-maintain-db.html: « ibasemaintainдб
-  - function.ibase-name-result.html: ibasenameresult »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-maintain-db.md: « ibasemaintainдб
+  - function.ibase-name-result.md: ibasenameresult »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasemodifyuser
 ---
 # ibasemodifyuser
@@ -50,5 +50,5 @@ ibase_modify_user(    resource $service_handle,    string $user_name, �
 
 ### Дивіться також
 
--   [ibaseadduser()](function.ibase-add-user.html) - Додає користувача до безпечної бази даних
--   [ibasedeleteuser()](function.ibase-delete-user.html) - Видаляє користувача з безпечної бази даних
+-   [ibaseadduser()](function.ibase-add-user.md) - Додає користувача до безпечної бази даних
+-   [ibasedeleteuser()](function.ibase-delete-user.md) - Видаляє користувача з безпечної бази даних

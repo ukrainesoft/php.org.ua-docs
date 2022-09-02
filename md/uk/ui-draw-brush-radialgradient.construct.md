@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-draw-brush-radialgradient.html: « UIDrawBrushRadialGradient
-  - class.ui-draw-text-layout.html: ОЙDrawTextLayout »
-  - index.html: PHP Manual
-  - class.ui-draw-brush-radialgradient.html: ОЙDrawBrushRadialGradient
+  - class.ui-draw-brush-radialgradient.md: « UIDrawBrushRadialGradient
+  - class.ui-draw-text-layout.md: ОЙDrawTextLayout »
+  - index.md: PHP Manual
+  - class.ui-draw-brush-radialgradient.md: ОЙDrawBrushRadialGradient
 title: 'ОЙDrawBrushRadialGradient::construct'
 ---
 # ОЙDrawBrushRadialGradient::construct
@@ -14,7 +14,7 @@ title: 'ОЙDrawBrushRadialGradient::construct'
 
 ### Опис
 
-public **ОЙDrawBrushRadialGradient::construct**[ОЙPoint](class.ui-point.html) `$start` [ОЙPoint](class.ui-point.html) `$outer`, float `$radius`
+public **ОЙDrawBrushRadialGradient::construct**[ОЙPoint](class.ui-point.md) `$start` [ОЙPoint](class.ui-point.md) `$outer`, float `$radius`
 
 Створює новий радіальний градієнт
 

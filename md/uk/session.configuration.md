@@ -14,42 +14,42 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [session.savepath](session.configuration.html#ini.session.save-path) | "" | PHPINIALL |  |
-| [session.name](session.configuration.html#ini.session.name) | "PHPSESSID" | PHPINIALL |  |
-| [session.savehandler](session.configuration.html#ini.session.save-handler) | "files" | PHPINIALL |  |
-| [session.autostart](session.configuration.html#ini.session.auto-start) | "0" | PHPINIPERDIR |  |
-| [session.gcprobability](session.configuration.html#ini.session.gc-probability) | "1" | PHPINIALL |  |
-| [session.gcdivisor](session.configuration.html#ini.session.gc-divisor) | "100" | PHPINIALL |  |
-| [session.gcmaxlifetime](session.configuration.html#ini.session.gc-maxlifetime) | "1440" | PHPINIALL |  |
-| [session.serializehandler](session.configuration.html#ini.session.serialize-handler) | "php" | PHPINIALL |  |
-| [session.cookielifetime](session.configuration.html#ini.session.cookie-lifetime) | "0" | PHPINIALL |  |
-| [session.cookiepath](session.configuration.html#ini.session.cookie-path) | "/" | PHPINIALL |  |
-| [session.cookiedomain](session.configuration.html#ini.session.cookie-domain) | "" | PHPINIALL |  |
-| [session.cookiesecure](session.configuration.html#ini.session.cookie-secure) | "0" | PHPINIALL | До PHP 7.2.0 значення за промовчанням було `""` |
-| [session.cookiehttponly](session.configuration.html#ini.session.cookie-httponly) | "0" | PHPINIALL | До PHP 7.2.0 значення за промовчанням було `""` |
-| [session.cookiesamesite](session.configuration.html#ini.session.cookie-samesite) | "" | PHPINIALL | Доступна з PHP 7.3.0. |
-| [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode) | "0" | PHPINIALL |  |
-| [session.usecookies](session.configuration.html#ini.session.use-cookies) | "1" | PHPINIALL |  |
-| [session.useonlycookies](session.configuration.html#ini.session.use-only-cookies) | "1" | PHPINIALL |  |
-| [session.referercheck](session.configuration.html#ini.session.referer-check) | "" | PHPINIALL |  |
-| [session.cachelimiter](session.configuration.html#ini.session.cache-limiter) | "nocache" | PHPINIALL |  |
-| [session.cacheexpire](session.configuration.html#ini.session.cache-expire) | "180" | PHPINIALL |  |
-| [session.usetranssid](session.configuration.html#ini.session.use-trans-sid) | "0" | PHPINIALL |  |
-| [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags) | "a=href,area=href,frame=src,form=" | PHPINIALL | Доступна з PHP 7.1.0. |
-| [session.transsidhosts](session.configuration.html#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHPINIALL | Доступна з PHP 7.1.0. |
-| [session.sidlength](session.configuration.html#ini.session.sid-length) | "32" | PHPINIALL | Доступна з PHP 7.1.0. |
-| [session.sidbitspercharacter](session.configuration.html#ini.session.sid-bits-per-character) | "4" | PHPINIALL | Доступна з PHP 7.1.0. |
-| [session.uploadprogress.enabled](session.configuration.html#ini.session.upload-progress.enabled) | "1" | PHPINIPERDIR |  |
-| [session.uploadprogress.cleanup](session.configuration.html#ini.session.upload-progress.cleanup) | "1" | PHPINIPERDIR |  |
-| [session.uploadprogress.prefix](session.configuration.html#ini.session.upload-progress.prefix) | "uploadprogress" | PHPINIPERDIR |  |
-| [session.uploadprogress.name](session.configuration.html#ini.session.upload-progress.name) | "PHPSESSIONUPLOADPROGRESS" | PHPINIPERDIR |  |
-| [session.uploadprogress.freq](session.configuration.html#ini.session.upload-progress.freq) | "1%" | PHPINIPERDIR |  |
-| [session.uploadprogress.minfreq](session.configuration.html#ini.session.upload-progress.min-freq) | "1" | PHPINIPERDIR |  |
-| [session.lazywrite](session.configuration.html#ini.session.lazy-write) | "1" | PHPINIALL |  |
-| [session.hashfunction](session.configuration.html#ini.session.hash-function) | "0" | PHPINIALL | Видалено в PHP 7.1.0. |
-| [session.hashbitspercharacter](session.configuration.html#ini.session.hash-bits-per-character) | "4" | PHPINIALL | Видалено в PHP 7.1.0. |
-| [session.entropyfile](session.configuration.html#ini.session.entropy-file) | "" | PHPINIALL | Видалено в PHP 7.1.0. |
-| [session.entropylength](session.configuration.html#ini.session.entropy-length) | "0" | PHPINIALL | Видалено в PHP 7.1.0 |
+| [session.savepath](session.configuration.md#ini.session.save-path) | "" | PHPINIALL |  |
+| [session.name](session.configuration.md#ini.session.name) | "PHPSESSID" | PHPINIALL |  |
+| [session.savehandler](session.configuration.md#ini.session.save-handler) | "files" | PHPINIALL |  |
+| [session.autostart](session.configuration.md#ini.session.auto-start) | "0" | PHPINIPERDIR |  |
+| [session.gcprobability](session.configuration.md#ini.session.gc-probability) | "1" | PHPINIALL |  |
+| [session.gcdivisor](session.configuration.md#ini.session.gc-divisor) | "100" | PHPINIALL |  |
+| [session.gcmaxlifetime](session.configuration.md#ini.session.gc-maxlifetime) | "1440" | PHPINIALL |  |
+| [session.serializehandler](session.configuration.md#ini.session.serialize-handler) | "php" | PHPINIALL |  |
+| [session.cookielifetime](session.configuration.md#ini.session.cookie-lifetime) | "0" | PHPINIALL |  |
+| [session.cookiepath](session.configuration.md#ini.session.cookie-path) | "/" | PHPINIALL |  |
+| [session.cookiedomain](session.configuration.md#ini.session.cookie-domain) | "" | PHPINIALL |  |
+| [session.cookiesecure](session.configuration.md#ini.session.cookie-secure) | "0" | PHPINIALL | До PHP 7.2.0 значення за промовчанням було `""` |
+| [session.cookiehttponly](session.configuration.md#ini.session.cookie-httponly) | "0" | PHPINIALL | До PHP 7.2.0 значення за промовчанням було `""` |
+| [session.cookiesamesite](session.configuration.md#ini.session.cookie-samesite) | "" | PHPINIALL | Доступна з PHP 7.3.0. |
+| [session.usestrictmode](session.configuration.md#ini.session.use-strict-mode) | "0" | PHPINIALL |  |
+| [session.usecookies](session.configuration.md#ini.session.use-cookies) | "1" | PHPINIALL |  |
+| [session.useonlycookies](session.configuration.md#ini.session.use-only-cookies) | "1" | PHPINIALL |  |
+| [session.referercheck](session.configuration.md#ini.session.referer-check) | "" | PHPINIALL |  |
+| [session.cachelimiter](session.configuration.md#ini.session.cache-limiter) | "nocache" | PHPINIALL |  |
+| [session.cacheexpire](session.configuration.md#ini.session.cache-expire) | "180" | PHPINIALL |  |
+| [session.usetranssid](session.configuration.md#ini.session.use-trans-sid) | "0" | PHPINIALL |  |
+| [session.transsidtags](session.configuration.md#ini.session.trans-sid-tags) | "a=href,area=href,frame=src,form=" | PHPINIALL | Доступна з PHP 7.1.0. |
+| [session.transsidhosts](session.configuration.md#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHPINIALL | Доступна з PHP 7.1.0. |
+| [session.sidlength](session.configuration.md#ini.session.sid-length) | "32" | PHPINIALL | Доступна з PHP 7.1.0. |
+| [session.sidbitspercharacter](session.configuration.md#ini.session.sid-bits-per-character) | "4" | PHPINIALL | Доступна з PHP 7.1.0. |
+| [session.uploadprogress.enabled](session.configuration.md#ini.session.upload-progress.enabled) | "1" | PHPINIPERDIR |  |
+| [session.uploadprogress.cleanup](session.configuration.md#ini.session.upload-progress.cleanup) | "1" | PHPINIPERDIR |  |
+| [session.uploadprogress.prefix](session.configuration.md#ini.session.upload-progress.prefix) | "uploadprogress" | PHPINIPERDIR |  |
+| [session.uploadprogress.name](session.configuration.md#ini.session.upload-progress.name) | "PHPSESSIONUPLOADPROGRESS" | PHPINIPERDIR |  |
+| [session.uploadprogress.freq](session.configuration.md#ini.session.upload-progress.freq) | "1%" | PHPINIPERDIR |  |
+| [session.uploadprogress.minfreq](session.configuration.md#ini.session.upload-progress.min-freq) | "1" | PHPINIPERDIR |  |
+| [session.lazywrite](session.configuration.md#ini.session.lazy-write) | "1" | PHPINIALL |  |
+| [session.hashfunction](session.configuration.md#ini.session.hash-function) | "0" | PHPINIALL | Видалено в PHP 7.1.0. |
+| [session.hashbitspercharacter](session.configuration.md#ini.session.hash-bits-per-character) | "4" | PHPINIALL | Видалено в PHP 7.1.0. |
+| [session.entropyfile](session.configuration.md#ini.session.entropy-file) | "" | PHPINIALL | Видалено в PHP 7.1.0. |
+| [session.entropylength](session.configuration.md#ini.session.entropy-length) | "0" | PHPINIALL | Видалено в PHP 7.1.0 |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -91,7 +91,7 @@ title: Налаштування під час виконання
 
 `session.gc_probability` int
 
-`session.gc_probability` у поєднанні з `session.gc_divisor` визначає ймовірність запуску функції збирача сміття (gc, garbage collection). За замовчуванням дорівнює `1`. Дивіться докладніше у [session.gcdivisor](session.configuration.html#ini.session.gc-divisor)
+`session.gc_probability` у поєднанні з `session.gc_divisor` визначає ймовірність запуску функції збирача сміття (gc, garbage collection). За замовчуванням дорівнює `1`. Дивіться докладніше у [session.gcdivisor](session.configuration.md#ini.session.gc-divisor)
 
 `session.gc_divisor` int
 
@@ -99,9 +99,9 @@ title: Налаштування під час виконання
 
 `session.gc_maxlifetime` int
 
-`session.gc_maxlifetime` задає відстрочку часу в секундах, після якої дані будуть розглядатися як "сміття" та потенційно будуть видалені. Збір сміття може відбутися протягом старту сесії (залежно від значень [session.gcprobability](session.configuration.html#ini.session.gc-probability) і [session.gcdivisor](session.configuration.html#ini.session.gc-divisor)). За замовчуванням значення `1440` (24 хвилини).
+`session.gc_maxlifetime` задає відстрочку часу в секундах, після якої дані будуть розглядатися як "сміття" та потенційно будуть видалені. Збір сміття може відбутися протягом старту сесії (залежно від значень [session.gcprobability](session.configuration.md#ini.session.gc-probability) і [session.gcdivisor](session.configuration.md#ini.session.gc-divisor)). За замовчуванням значення `1440` (24 хвилини).
 
-> **Зауваження**: Якщо різні скрипти мають різні значення `session.gc_maxlifetime`Але при цьому одні й ті ж місця для зберігання даних сесії, то скрипт з мінімальним значенням знищить усі дані. У такому разі слід використовувати цю директиву разом з [session.savepath](session.configuration.html#ini.session.save-path)
+> **Зауваження**: Якщо різні скрипти мають різні значення `session.gc_maxlifetime`Але при цьому одні й ті ж місця для зберігання даних сесії, то скрипт з мінімальним значенням знищить усі дані. У такому разі слід використовувати цю директиву разом з [session.savepath](session.configuration.md#ini.session.save-path)
 
 `session.referer_check` string
 
@@ -137,21 +137,21 @@ title: Налаштування під час виконання
 
 `session.cookie_lifetime` int
 
-`session.cookie_lifetime` вказує час життя cookies, що надсилається до браузера клієнта, в секундах. Значення 0 означає, що cookies будуть валідними до закриття браузера. За замовчуванням одно `0`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
+`session.cookie_lifetime` вказує час життя cookies, що надсилається до браузера клієнта, в секундах. Значення 0 означає, що cookies будуть валідними до закриття браузера. За замовчуванням одно `0`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.md) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
 
 > **Зауваження**: Позначка закінчення часу встановлюється по відношенню до серверного часу, який не обов'язково збігається з часом у браузері клієнта.
 
 `session.cookie_path` string
 
-`session.cookie_path` визначає встановлюваний шлях у сесійній cookie. За замовчуванням `/`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
+`session.cookie_path` визначає встановлюваний шлях у сесійній cookie. За замовчуванням `/`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.md) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
 
 `session.cookie_domain` string
 
-`session.cookie_domain` визначає встановлюваний домен у сесійній cookie. Відповідно до специфікації немає сенсу додатково вказувати ім'я хоста, що згенерував cookies. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
+`session.cookie_domain` визначає встановлюваний домен у сесійній cookie. Відповідно до специфікації немає сенсу додатково вказувати ім'я хоста, що згенерував cookies. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.md) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
 
 `session.cookie_secure` bool
 
-`session.cookie_secure` вказує, чи повинні cookie передаватися тільки через захищене з'єднання. За замовчуванням `off`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.html) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
+`session.cookie_secure` вказує, чи повинні cookie передаватися тільки через захищене з'єднання. За замовчуванням `off`. Дивіться також [sessiongetcookieparams()](function.session-get-cookie-params.md) і [sessionsetcookieparams()](function.session-set-cookie-params.md)
 
 `session.cookie_httponly` bool
 
@@ -173,13 +173,13 @@ title: Налаштування під час виконання
 
 `session.use_trans_sid` вказує, чи використовується прозора підтримка sid чи ні. За замовчуванням `0` (Вимкнено).
 
-> **Зауваження**: Управління сесією на основі URL має додаткові ризики безпеки порівняно з керуванням на основі cookies. Як приклад можна згадати такі ситуації, коли користувачі можуть надіслати URL, що містить ідентифікатор активної сесії, своїм друзям електронною поштою або зберегти посилання з ідентифікатором в закладках і весь час відвідувати сайт з тим самим ідентифікатором. Починаючи з PHP 7.1.0, повний шлях URL, тобто [https://php.net/](https://php.net/)обробляється "trans sid". Раніше PHP обробляв лише відносну URL-адресу. Перезапис цільового хоста задається [session.transsidhosts](session.configuration.html#ini.session.trans-sid-hosts)
+> **Зауваження**: Управління сесією на основі URL має додаткові ризики безпеки порівняно з керуванням на основі cookies. Як приклад можна згадати такі ситуації, коли користувачі можуть надіслати URL, що містить ідентифікатор активної сесії, своїм друзям електронною поштою або зберегти посилання з ідентифікатором в закладках і весь час відвідувати сайт з тим самим ідентифікатором. Починаючи з PHP 7.1.0, повний шлях URL, тобто [https://php.net/](https://php.net/)обробляється "trans sid". Раніше PHP обробляв лише відносну URL-адресу. Перезапис цільового хоста задається [session.transsidhosts](session.configuration.md#ini.session.trans-sid-hosts)
 
 `session.trans_sid_tags` string
 
 `session.trans_sid_tags` задає теги HTML, що перезаписуються, для включення ідентифікатора сесії коли включена підтримка прозорих "sid". За замовчуванням `a=href,area=href,frame=src,input=src,form=` `form` - Спеціальних тег . `<input hidden="session_id" name="session_name">` додається у форму.
 
-> **Зауваження**: До PHP 7.1.0 для цього використовувався [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags). З PHP 7.1.0, `fieldset` більше не рахується за спеціальний тег.
+> **Зауваження**: До PHP 7.1.0 для цього використовувався [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags). З PHP 7.1.0, `fieldset` більше не рахується за спеціальний тег.
 
 `session.trans_sid_hosts` string
 
@@ -201,7 +201,7 @@ title: Налаштування під час виконання
 
 > **Зауваження**: Ця настройка з'явилася в PHP 7.1.0
 
-`session.hash_function` [mixed](language.types.declarations.html#language.types.declarations.mixed)
+`session.hash_function` [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 `session.hash_function` дозволяє вказати алгоритм хешування, що використовується для створення ідентифікатора сесії. '0' означає MD5 (128 bits), а '1' означає SHA-1 (160 bits).
 
@@ -231,9 +231,9 @@ title: Налаштування під час виконання
 
 `session.upload_progress.name` string
 
-Ім'я ключа, що використовується в масиві [SESSION](reserved.variables.session.md)для зберігання інформації про прогрес. Дивіться також директиву [session.uploadprogress.prefix](session.configuration.html#ini.session.upload-progress.prefix). Якщо елемент `$_POST[ini_get("session.upload_progress.name")]` не передано, прогрес завантаження цього файлу не буде відстежуватися. За замовчуванням "PHPSESSIONUPLOADPROGRESS".
+Ім'я ключа, що використовується в масиві [SESSION](reserved.variables.session.md)для зберігання інформації про прогрес. Дивіться також директиву [session.uploadprogress.prefix](session.configuration.md#ini.session.upload-progress.prefix). Якщо елемент `$_POST[ini_get("session.upload_progress.name")]` не передано, прогрес завантаження цього файлу не буде відстежуватися. За замовчуванням "PHPSESSIONUPLOADPROGRESS".
 
-`session.upload_progress.freq` [mixed](language.types.declarations.html#language.types.declarations.mixed)
+`session.upload_progress.freq` [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Визначає частоту оновлення інформації про прогрес завантаження. Можна вказати значення в байтах (тобто "оновлювати інформацію про прогрес кожні 100 байт") або у відсотках (тобто "оновлювати інформацію про прогрес після отримання 1% даних від розміру файлу"). За замовчуванням "1%".
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandstartedevent.getserver.html: '« MongoDBDriverMonitoringCommandStartedEvent::getServer'
-  - mongodb-driver-monitoring-commandstartedevent.getserviceid.html: 'MongoDBDriverMonitoringCommandStartedEvent::getServiceId »'
+  - mongodb-driver-monitoring-commandstartedevent.getserver.md: '« MongoDBDriverMonitoringCommandStartedEvent::getServer'
+  - mongodb-driver-monitoring-commandstartedevent.getserviceid.md: 'MongoDBDriverMonitoringCommandStartedEvent::getServiceId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandstartedevent.html: MongoDBDriverMonitoringCommandStartedEvent
+  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDBDriverMonitoringCommandStartedEvent
 title: 'MongoDBDriverMonitoringCommandStartedEvent::getServerConnectionId'
 ---
 # MongoDBDriverMonitoringCommandStartedEvent::getServerConnectionId

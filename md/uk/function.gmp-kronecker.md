@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-jacobi.html: « gmpjacobi
-  - function.gmp-lcm.html: gmplcm »
+  - function.gmp-jacobi.md: « gmpjacobi
+  - function.gmp-lcm.md: gmplcm »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpkronecker

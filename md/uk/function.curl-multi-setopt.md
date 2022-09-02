@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-multi-select.html: « curlmultiselect
-  - function.curl-multi-strerror.html: curlmultistrerror »
+  - function.curl-multi-select.md: « curlmultiselect
+  - function.curl-multi-strerror.md: curlmultistrerror »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlmultisetopt

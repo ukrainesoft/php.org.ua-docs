@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.raiseimage.html: '« Gmagick::raiseimage'
-  - gmagick.readimage.html: 'Gmagick::readimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.raiseimage.md: '« Gmagick::raiseimage'
+  - gmagick.readimage.md: 'Gmagick::readimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::read'
 ---
 # Gmagick::read
@@ -28,7 +28,7 @@ public Gmagick::read(string $filename): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

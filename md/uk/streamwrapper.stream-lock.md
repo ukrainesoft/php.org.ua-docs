@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-flush.html: '« streamWrapper::streamflush'
-  - streamwrapper.stream-metadata.html: 'streamWrapper::streammetadata »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-flush.md: '« streamWrapper::streamflush'
+  - streamwrapper.stream-metadata.md: 'streamWrapper::streammetadata »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamlock'
 ---
 # streamWrapper::streamlock
@@ -18,7 +18,7 @@ streamWrapper::streamlock — Консультативне блокування 
 public streamWrapper::stream_lock(int $operation): bool
 ```
 
-Цей метод викликається у відповідь [flock()](function.flock.html), коли викликається [fileputcontents()](function.file-put-contents.html) (якщо `flags` містить **`LOCK_EX`** [streamsetblocking()](function.stream-set-blocking.html) або при закритті потоку (**`LOCK_UN`**
+Цей метод викликається у відповідь [flock()](function.flock.md), коли викликається [fileputcontents()](function.file-put-contents.md) (якщо `flags` містить **`LOCK_EX`** [streamsetblocking()](function.stream-set-blocking.md) або при закритті потоку (**`LOCK_UN`**
 
 ### Список параметрів
 
@@ -29,7 +29,7 @@ public streamWrapper::stream_lock(int $operation): bool
 -   **`LOCK_SH`** встановити загальне блокування (для читання).
 -   **`LOCK_EX`** встановити ексклюзивне блокування (для запису).
 -   **`LOCK_UN`** зняти блокування (загальне або ексклюзивне).
--   **`LOCK_NB`**, якщо ви не хочете, щоб [flock()](function.flock.html) не блокувався під час роботи. (не підтримується у Windows)
+-   **`LOCK_NB`**, якщо ви не хочете, щоб [flock()](function.flock.md) не блокувався під час роботи. (не підтримується у Windows)
 
 ### Значення, що повертаються
 
@@ -41,5 +41,5 @@ public streamWrapper::stream_lock(int $operation): bool
 
 ### Дивіться також
 
--   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
--   [flock()](function.flock.html) - Портоване консультативне блокування файлів
+-   [streamsetblocking()](function.stream-set-blocking.md) - Встановити блокуючий/неблокуючий режим у потоці
+-   [flock()](function.flock.md) - Портоване консультативне блокування файлів

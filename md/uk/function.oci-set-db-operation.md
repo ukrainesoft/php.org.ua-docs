@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-set-client-info.html: « ocisetclientinfo
-  - function.oci-set-edition.html: ocisetedition »
+  - function.oci-set-client-info.md: « ocisetclientinfo
+  - function.oci-set-edition.md: ocisetedition »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocisetдбoperation
@@ -30,7 +30,7 @@ oci_set_db_operation(resource $connection, string $action): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.md)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md), або [ocinewconnect()](function.oci-new-connect.md)
 
 `action`
 

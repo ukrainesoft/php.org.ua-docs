@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.push.html: '« SwooleHttpClient::push'
-  - swoole-http-client.setcookies.html: 'SwooleHttpClient::setCookies »'
+  - swoole-http-client.push.md: '« SwooleHttpClient::push'
+  - swoole-http-client.setcookies.md: 'SwooleHttpClient::setCookies »'
   - index.md: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::set'
 ---
 # SwooleHttpClient::set

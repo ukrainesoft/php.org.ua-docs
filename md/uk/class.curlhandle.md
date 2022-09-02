@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.curl-version.html: « curlversion
+  - function.curl-version.md: « curlversion
   - class.curlmultihandle.md: CurlMultiHandle »
   - index.md: PHP Manual
   - book.curl.md: cURL

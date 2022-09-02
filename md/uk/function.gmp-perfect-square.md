@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-perfect-power.html: « gmpperfectpower
-  - function.gmp-popcount.html: gmppopcount »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-perfect-power.md: « gmpperfectpower
+  - function.gmp-popcount.md: gmppopcount »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpperfectsquare
 ---
 # gmpperfectsquare
@@ -26,7 +26,7 @@ gmp_perfect_square(GMP|int|string $num): bool
 
 Перевірене на точний квадрат число.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
@@ -59,6 +59,6 @@ bool(true)
 
 ### Дивіться також
 
--   [gmpperfectpower()](function.gmp-perfect-power.html) - Перевірити, чи є число "досконалим ступенем"
--   [gmpsqrt()](function.gmp-sqrt.html) - Обчислення квадратного кореня
--   [gmpsqrtrem()](function.gmp-sqrtrem.html) - Квадратний корінь із залишком
+-   [gmpperfectpower()](function.gmp-perfect-power.md) - Перевірити, чи є число "досконалим ступенем"
+-   [gmpsqrt()](function.gmp-sqrt.md) - Обчислення квадратного кореня
+-   [gmpsqrtrem()](function.gmp-sqrtrem.md) - Квадратний корінь із залишком

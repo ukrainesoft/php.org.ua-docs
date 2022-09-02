@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-event-loop.html: « eioeventloop
-  - function.eio-fchmod.html: eiofchmod »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-event-loop.md: « eioeventloop
+  - function.eio-fchmod.md: eiofchmod »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiofallocate
 ---
 # eiofallocate
@@ -28,7 +28,7 @@ eio_fallocate(    mixed $fd,    int $mode,    int $offset,    in
 
 `fd`
 
-Потік, покажчик на сокет, чи числовий дескриптор файлу, наприклад повернутий [eioopen()](function.eio-open.html)
+Потік, покажчик на сокет, чи числовий дескриптор файлу, наприклад повернутий [eioopen()](function.eio-open.md)
 
 `mode`
 
@@ -64,7 +64,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-topologyopeningevent.html: « MongoDBDriverMonitoringTopologyOpeningEvent
-  - class.mongodb-driver-monitoring-commandsubscriber.html: MongoDBDriverMonitoringCommandSubscriber »
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-topologyopeningevent.html: MongoDBDriverMonitoringTopologyOpeningEvent
+  - class.mongodb-driver-monitoring-topologyopeningevent.md: « MongoDBDriverMonitoringTopologyOpeningEvent
+  - class.mongodb-driver-monitoring-commandsubscriber.md: MongoDBDriverMonitoringCommandSubscriber »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-topologyopeningevent.md: MongoDBDriverMonitoringTopologyOpeningEvent
 title: 'MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId'
 ---
 # MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId

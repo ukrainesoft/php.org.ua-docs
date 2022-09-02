@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbuffer.unlock.html: '« EventBuffer::unlock'
-  - class.eventbufferevent.html: EventBufferEvent »
-  - index.html: PHP Manual
-  - class.eventbuffer.html: EventBuffer
+  - eventbuffer.unlock.md: '« EventBuffer::unlock'
+  - class.eventbufferevent.md: EventBufferEvent »
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::write'
 ---
 # EventBuffer::write
@@ -43,4 +43,4 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::read()](eventbuffer.read.html) - Читає дані з evbuffer та виснажує прочитані байти
+-   [EventBuffer::read()](eventbuffer.read.md) - Читає дані з evbuffer та виснажує прочитані байти

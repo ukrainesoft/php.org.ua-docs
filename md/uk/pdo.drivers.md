@@ -1,7 +1,7 @@
 ---
 navigation:
   - class.pdoexception.md: « PDOException
-  - ref.pdo-cubrid.html: CUBRID (PDO) »
+  - ref.pdo-cubrid.md: CUBRID (PDO) »
   - index.md: PHP Manual
   - book.pdo.md: PDO
 title: Драйвери PDO

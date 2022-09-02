@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileinfo.getlinktarget.html: '« SplFileInfo::getLinkTarget'
-  - splfileinfo.getowner.html: 'SplFileInfo::getOwner »'
-  - index.html: PHP Manual
-  - class.splfileinfo.html: SplFileInfo
+  - splfileinfo.getlinktarget.md: '« SplFileInfo::getLinkTarget'
+  - splfileinfo.getowner.md: 'SplFileInfo::getOwner »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getMTime'
 ---
 # SplFileInfo::getMTime

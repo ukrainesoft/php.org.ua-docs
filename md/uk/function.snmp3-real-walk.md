@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.snmp3-getnext.html: « snmpv3getnext
-  - function.snmp3-set.html: snmpv3set »
+  - function.snmp3-getnext.md: « snmpv3getnext
+  - function.snmp3-set.md: snmpv3set »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpv3realwalk

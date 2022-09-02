@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filteriterator.accept.html: '« FilterIterator::accept'
-  - filteriterator.current.html: 'FilterIterator::current »'
-  - index.html: PHP Manual
-  - class.filteriterator.html: FilterIterator
+  - filteriterator.accept.md: '« FilterIterator::accept'
+  - filteriterator.current.md: 'FilterIterator::current »'
+  - index.md: PHP Manual
+  - class.filteriterator.md: FilterIterator
 title: 'FilterIterator::construct'
 ---
 # FilterIterator::construct

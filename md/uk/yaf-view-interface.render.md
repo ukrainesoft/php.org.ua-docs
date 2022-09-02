@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-view-interface.getscriptpath.html: '« YafViewInterface::getScriptPath'
-  - yaf-view-interface.setscriptpath.html: 'YafViewInterface::setScriptPath »'
+  - yaf-view-interface.getscriptpath.md: '« YafViewInterface::getScriptPath'
+  - yaf-view-interface.setscriptpath.md: 'YafViewInterface::setScriptPath »'
   - index.md: PHP Manual
-  - class.yaf-view-interface.html: YafViewInterface
+  - class.yaf-view-interface.md: YafViewInterface
 title: 'YafViewInterface::render'
 ---
 # YafViewInterface::render

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ibm-db2.setup.html: « Встановлення та налаштування
-  - ibm-db2.installation.html: Установка »
+  - ibm-db2.setup.md: « Встановлення та налаштування
+  - ibm-db2.installation.md: Установка »
   - index.md: PHP Manual
-  - ibm-db2.setup.html: Встановлення та налаштування
+  - ibm-db2.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

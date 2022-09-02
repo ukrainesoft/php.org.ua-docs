@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-fetch.html: « sqlsrvfetch
-  - function.sqlsrv-free-stmt.html: sqlsrvfreestmt »
+  - function.sqlsrv-fetch.md: « sqlsrvfetch
+  - function.sqlsrv-free-stmt.md: sqlsrvfreestmt »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvfieldmetadata
@@ -10,7 +10,7 @@ title: sqlsrvfieldmetadata
 
 (No version information available, might only be in Git)
 
-sqlsrvfieldmetadata — Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html) або [sqlsrvquery()](function.sqlsrv-query.md)
+sqlsrvfieldmetadata — Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md) або [sqlsrvquery()](function.sqlsrv-query.md)
 
 ### Опис
 
@@ -18,7 +18,7 @@ sqlsrvfieldmetadata — Отримує метадані для полів опе
 sqlsrv_field_metadata(resource $stmt): mixed
 ```
 
-Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.html) або [sqlsrvquery()](function.sqlsrv-query.md). . **sqlsrvfieldmetadata()** може викликатися оператора до або після виконання оператора.
+Отримує метадані для полів оператора, підготовленого за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md) або [sqlsrvquery()](function.sqlsrv-query.md). . **sqlsrvfieldmetadata()** може викликатися оператора до або після виконання оператора.
 
 ### Список параметрів
 

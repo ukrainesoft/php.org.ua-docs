@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-convert-encoding.html: « mbconvertencoding
-  - function.mb-convert-variables.html: мбconvertvariables »
+  - function.mb-convert-encoding.md: « mbconvertencoding
+  - function.mb-convert-variables.md: мбconvertvariables »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбconvertkana

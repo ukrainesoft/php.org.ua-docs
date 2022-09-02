@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-result.html: « ociresult
-  - function.oci-server-version.html: ociserverversion »
+  - function.oci-result.md: « ociresult
+  - function.oci-server-version.md: ociserverversion »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocirollback
@@ -28,7 +28,7 @@ oci_rollback(resource $connection): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.md)
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md) або [ocinewconnect()](function.oci-new-connect.md)
 
 ### Значення, що повертаються
 

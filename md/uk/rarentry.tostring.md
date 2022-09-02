@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rarentry.isencrypted.html: '« RarEntry::isEncrypted'
-  - class.rarexception.html: RarException »
-  - index.html: PHP Manual
-  - class.rarentry.html: RarEntry
+  - rarentry.isencrypted.md: '« RarEntry::isEncrypted'
+  - class.rarexception.md: RarException »
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
 title: 'RarEntry::function toString() { \[native code\] }'
 ---
 # RarEntry::function toString() { \[native code\] }

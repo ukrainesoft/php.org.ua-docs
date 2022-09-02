@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.getmode.html: '« MongoDBDriverReadPreference::getMode'
-  - mongodb-driver-readpreference.gettagsets.html: 'MongoDBDriverReadPreference::getTagSets »'
+  - mongodb-driver-readpreference.getmode.md: '« MongoDBDriverReadPreference::getMode'
+  - mongodb-driver-readpreference.gettagsets.md: 'MongoDBDriverReadPreference::getTagSets »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::getModeString'
 ---
 # MongoDBDriverReadPreference::getModeString

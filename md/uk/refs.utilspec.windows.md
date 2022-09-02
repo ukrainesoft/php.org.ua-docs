@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.xmlrpc-set-type.html: « xmlrpcsettype
+  - function.xmlrpc-set-type.md: « xmlrpcsettype
   - book.com.md: COM »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-rollback.html: « ibaserollback
-  - function.ibase-service-attach.html: ibaseserviceattach »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-rollback.md: « ibaserollback
+  - function.ibase-service-attach.md: ibaseserviceattach »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseserverinfo
 ---
 # ibaseserverinfo
@@ -34,7 +34,7 @@ ibase_server_info(resource $service_handle, int $action): string
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ibaseserviceattach()](function.ibase-service-attach.html)**
+**Приклад #1 Приклад використання [ibaseserviceattach()](function.ibase-service-attach.md)**
 
 ```php
 <?php

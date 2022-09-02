@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.parallel-channel.html: « parallelChannel
-  - parallel-channel.make.html: 'parallelChannel::make »'
-  - index.html: PHP Manual
-  - class.parallel-channel.html: parallelChannel
+  - class.parallel-channel.md: « parallelChannel
+  - parallel-channel.make.md: 'parallelChannel::make »'
+  - index.md: PHP Manual
+  - class.parallel-channel.md: parallelChannel
 title: 'parallelChannel::construct'
 ---
 # parallelChannel::construct

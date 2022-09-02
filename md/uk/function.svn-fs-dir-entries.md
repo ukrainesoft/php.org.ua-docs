@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-delete.html: « svnфсdelete
-  - function.svn-fs-file-contents.html: svnфсfilecontents »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-delete.md: « svnфсdelete
+  - function.svn-fs-file-contents.md: svnфсfilecontents »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсdirentries
 ---
 # svnфсdirentries

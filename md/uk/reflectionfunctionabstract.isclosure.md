@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.innamespace.html: '« ReflectionFunctionAbstract::inNamespace'
-  - reflectionfunctionabstract.isdeprecated.html: 'ReflectionFunctionAbstract::isDeprecated »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.innamespace.md: '« ReflectionFunctionAbstract::inNamespace'
+  - reflectionfunctionabstract.isdeprecated.md: 'ReflectionFunctionAbstract::isDeprecated »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::isClosure'
 ---
 # ReflectionFunctionAbstract::isClosure

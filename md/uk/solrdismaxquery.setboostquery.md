@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdismaxquery.setboostfunction.html: '« SolrDisMaxQuery::setBoostFunction'
-  - solrdismaxquery.setminimummatch.html: 'SolrDisMaxQuery::setMinimumMatch »'
-  - index.html: PHP Manual
-  - class.solrdismaxquery.html: SolrDisMaxQuery
+  - solrdismaxquery.setboostfunction.md: '« SolrDisMaxQuery::setBoostFunction'
+  - solrdismaxquery.setminimummatch.md: 'SolrDisMaxQuery::setMinimumMatch »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'SolrDisMaxQuery::setBoostQuery'
 ---
 # SolrDisMaxQuery::setBoostQuery
@@ -28,7 +28,7 @@ public SolrDisMaxQuery::setBoostQuery(string $q): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -51,5 +51,5 @@ q=lucene&defType=edismax&bq=cat:electronics manu:local^2
 
 ### Дивіться також
 
--   [SolrDisMaxQuery::addBoostQuery()](solrdismaxquery.addboostquery.html) - Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
--   [SolrDisMaxQuery::removeBoostQuery()](solrdismaxquery.removeboostquery.html) - Видаляє часткове підвищення запиту на ім'я поля (bq)
+-   [SolrDisMaxQuery::addBoostQuery()](solrdismaxquery.addboostquery.md) - Додає поле підвищення запиту зі значенням та необов'язковим посиленням (параметр bq)
+-   [SolrDisMaxQuery::removeBoostQuery()](solrdismaxquery.removeboostquery.md) - Видаляє часткове підвищення запиту на ім'я поля (bq)

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-moveto.html: «psmoveto
-  - function.ps-open-file.html: псopenfile »
+  - function.ps-moveto.md: «psmoveto
+  - function.ps-open-file.md: псopenfile »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псnew

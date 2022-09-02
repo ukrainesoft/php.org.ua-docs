@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-create-shortcut-array.html: « fanncreateshortcutarray
-  - function.fann-create-sparse-array.html: fanncreatesparsearray »
+  - function.fann-create-shortcut-array.md: « fanncreateshortcutarray
+  - function.fann-create-sparse-array.md: fanncreatesparsearray »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanncreateshortcut

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-ssl-connect.html: « ftpsslconnect
-  - class.ftp-connection.html: FTPConnection »
+  - function.ftp-ssl-connect.md: « ftpsslconnect
+  - class.ftp-connection.md: FTPConnection »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpsystype

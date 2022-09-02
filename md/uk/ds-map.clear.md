@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.capacity.html: '« DsMap::capacity'
-  - ds-map.construct.html: 'ДсMap::construct »'
+  - ds-map.capacity.md: '« DsMap::capacity'
+  - ds-map.construct.md: 'ДсMap::construct »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::clear'
 ---
 # ДсMap::clear

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-connectionexception.html: « MongoDBDriverExceptionConnectionException
-  - class.mongodb-driver-exception-encryptionexception.html: MongoDBDriverExceptionEncryptionException »
+  - class.mongodb-driver-exception-connectionexception.md: « MongoDBDriverExceptionConnectionException
+  - class.mongodb-driver-exception-encryptionexception.md: MongoDBDriverExceptionEncryptionException »
   - index.md: PHP Manual
   - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionConnectionTimeoutException
@@ -12,7 +12,7 @@ title: Клас MongoDBDriverExceptionConnectionTimeoutException
 
 ## Вступ
 
-Викидається, коли драйверу не вдається встановити з'єднання з базою даних протягом певного періоду часу ([connectTimeoutMS](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-urioptions)). або вибір сервера не вдався ([serverSelectionTimeoutMS](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-urioptions)
+Викидається, коли драйверу не вдається встановити з'єднання з базою даних протягом певного періоду часу ([connectTimeoutMS](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-urioptions)). або вибір сервера не вдався ([serverSelectionTimeoutMS](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-urioptions)
 
 ## Огляд класів
 

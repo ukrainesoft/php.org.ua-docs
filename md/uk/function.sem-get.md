@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sem-acquire.html: « semacquire
-  - function.sem-release.html: semrelease »
-  - index.html: PHP Manual
-  - ref.sem.html: Функції семафорів
+  - function.sem-acquire.md: « semacquire
+  - function.sem-release.md: semrelease »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
 title: semget
 ---
 # semget

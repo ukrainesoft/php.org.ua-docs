@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.luaclosure.html: « LuaClosure
-  - book.luasandbox.html: LuaSandbox »
-  - index.html: PHP Manual
-  - class.luaclosure.html: LuaClosure
+  - class.luaclosure.md: « LuaClosure
+  - book.luasandbox.md: LuaSandbox »
+  - index.md: PHP Manual
+  - class.luaclosure.md: LuaClosure
 title: 'LuaClosure::invoke'
 ---
 # LuaClosure::invoke

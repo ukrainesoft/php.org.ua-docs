@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dateinterval.format.html: '« DateInterval::format'
-  - dateperiod.construct.html: 'DatePeriod::construct »'
-  - index.html: PHP Manual
-  - book.datetime.html: Дата/время
+  - dateinterval.format.md: '« DateInterval::format'
+  - dateperiod.construct.md: 'DatePeriod::construct »'
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
 title: Клас DatePeriod
 ---
 # Клас DatePeriod
@@ -82,13 +82,13 @@ public getStartDate(): DateTimeInterface
 
 **`DatePeriod::EXCLUDE_START_DATE`**
 
-Виключає початкову дату, використовується в [DatePeriod::construct()](dateperiod.construct.html)
+Виключає початкову дату, використовується в [DatePeriod::construct()](dateperiod.construct.md)
 
 ## Властивості
 
 recurrences
 
-Число повторів, якщо об'єкт **DatePeriod** створювався з явною вказівкою `$recurrences`. Дивіться [DatePeriod::getRecurrences()](dateperiod.getrecurrences.html)
+Число повторів, якщо об'єкт **DatePeriod** створювався з явною вказівкою `$recurrences`. Дивіться [DatePeriod::getRecurrences()](dateperiod.getrecurrences.md)
 
 includestartdate
 
@@ -114,12 +114,12 @@ interval
 
 | Версия | Описание |
 | --- | --- |
-|  | Клас **DatePeriod** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.html) |
+|  | Клас **DatePeriod** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
 
 ## Зміст
 
--   [DatePeriod::construct](dateperiod.construct.html) — Створює новий об'єкт DatePeriod
--   [DatePeriod::getDateInterval](dateperiod.getdateinterval.html) - Повертає інтервал
--   [DatePeriod::getEndDate](dateperiod.getenddate.html) — Повертає кінцеву дату періоду
--   [DatePeriod::getRecurrences](dateperiod.getrecurrences.html) — Отримує кількість повторів
--   [DatePeriod::getStartDate](dateperiod.getstartdate.html) — Повертає початкову дату періоду
+-   [DatePeriod::construct](dateperiod.construct.md) — Створює новий об'єкт DatePeriod
+-   [DatePeriod::getDateInterval](dateperiod.getdateinterval.md) - Повертає інтервал
+-   [DatePeriod::getEndDate](dateperiod.getenddate.md) — Повертає кінцеву дату періоду
+-   [DatePeriod::getRecurrences](dateperiod.getrecurrences.md) — Отримує кількість повторів
+-   [DatePeriod::getStartDate](dateperiod.getstartdate.md) — Повертає початкову дату періоду

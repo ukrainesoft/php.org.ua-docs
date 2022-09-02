@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration72.md: « Миграция с PHP 7.1.x на PHP 7.2.x
-  - migration72.new-functions.html: Нові функції »
+  - migration72.new-functions.md: Нові функції »
   - index.md: PHP Manual
   - migration72.md: Миграция с PHP 7.1.x на PHP 7.2.x
 title: Нові можливості
@@ -159,7 +159,7 @@ use Foo\Bar\{
 -   Ricoh
 -   Epson
 
-Функції [exifreaddata()](function.exif-read-data.html) і [exifthumbnail()](function.exif-thumbnail.md) тепер приймають потоки як свої перші аргументи.
+Функції [exifreaddata()](function.exif-read-data.md) і [exifthumbnail()](function.exif-thumbnail.md) тепер приймають потоки як свої перші аргументи.
 
 ### Нова функціональність у [PCRE](book.pcre.md)
 

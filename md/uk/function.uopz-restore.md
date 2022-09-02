@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.uopz-rename.html: « uopzrename
-  - function.uopz-set-hook.html: uopzsethook »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - function.uopz-rename.md: « uopzrename
+  - function.uopz-set-hook.md: uopzsethook »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzrestore
 ---
 # uopzrestore

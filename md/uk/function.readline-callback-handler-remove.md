@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.readline-callback-handler-install.html: « readlinecallbackhandlerinstall
-  - function.readline-callback-read-char.html: readlinecallbackreadchar »
+  - function.readline-callback-handler-install.md: « readlinecallbackhandlerinstall
+  - function.readline-callback-read-char.md: readlinecallbackreadchar »
   - index.md: PHP Manual
   - ref.readline.md: Функции Readline
 title: readlinecallbackhandlerremove

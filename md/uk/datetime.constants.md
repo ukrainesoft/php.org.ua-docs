@@ -8,9 +8,9 @@ title: Обумовлені константи
 ---
 # Обумовлені константи
 
-[Константи`DATE_`](class.datetimeinterface.html#datetime.constants.types) пропонують стандартні уявлення дати, які можуть бути використані разом із функціями форматування дати (наприклад [date()](function.date.md)
+[Константи`DATE_`](class.datetimeinterface.md#datetime.constants.types) пропонують стандартні уявлення дати, які можуть бути використані разом із функціями форматування дати (наприклад [date()](function.date.md)
 
-Наступні константи визначають формат повертається функціями [datesunrise()](function.date-sunrise.html) і [datesunset()](function.date-sunset.md)
+Наступні константи визначають формат повертається функціями [datesunrise()](function.date-sunrise.md) і [datesunset()](function.date-sunset.md)
 
 **`SUNFUNCS_RET_TIMESTAMP`** (int)
 

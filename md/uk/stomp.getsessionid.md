@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stomp.getreadtimeout.html: '« Stomp::getReadTimeout'
-  - stomp.hasframe.html: 'Stomp::hasFrame »'
-  - index.html: PHP Manual
-  - class.stomp.html: Stomp
+  - stomp.getreadtimeout.md: '« Stomp::getReadTimeout'
+  - stomp.hasframe.md: 'Stomp::hasFrame »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
 title: 'Stomp::getSessionId'
 ---
 # Stomp::getSessionId

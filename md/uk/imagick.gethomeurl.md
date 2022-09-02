@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getgravity.html: '« Imagick::getGravity'
-  - imagick.getimage.html: 'Imagick::getImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getgravity.md: '« Imagick::getGravity'
+  - imagick.getimage.md: 'Imagick::getImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getHomeURL'
 ---
 # Imagick::getHomeURL

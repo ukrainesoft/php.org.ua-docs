@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.parle-token.html: « ParleToken
-  - class.parle-lexerexception.html: ParleLexerException »
+  - class.parle-token.md: « ParleToken
+  - class.parle-lexerexception.md: ParleLexerException »
   - index.md: PHP Manual
   - book.parle.md: Parle
 title: Клас ParleErrorInfo

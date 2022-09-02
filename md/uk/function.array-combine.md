@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-column.html: « arraycolumn
-  - function.array-count-values.html: arraycountvalues »
+  - function.array-column.md: « arraycolumn
+  - function.array-count-values.md: arraycountvalues »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraycombine

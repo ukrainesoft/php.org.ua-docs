@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rsort.html: « rsort
-  - function.sizeof.html: sizeof »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.rsort.md: « rsort
+  - function.sizeof.md: sizeof »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: shuffle
 ---
 # shuffle
@@ -34,7 +34,7 @@ shuffle(array &$array): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
 
 ### Приклади
 

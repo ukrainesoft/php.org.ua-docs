@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apache-get-modules.html: « apachegetmodules
-  - function.apache-getenv.html: apachegetenv »
-  - index.html: PHP Manual
-  - ref.apache.html: Функции Apache
+  - function.apache-get-modules.md: « apachegetmodules
+  - function.apache-getenv.md: apachegetenv »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
 title: apachegetversion
 ---
 # apachegetversion

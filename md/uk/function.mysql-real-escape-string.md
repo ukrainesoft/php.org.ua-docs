@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-query.html: « mysqlquery
-  - function.mysql-result.html: mysqlresult »
+  - function.mysql-query.md: « mysqlquery
+  - function.mysql-result.md: mysqlresult »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlrealescapestring
@@ -45,7 +45,7 @@ mysql_real_escape_string(string $unescaped_string, resource $link_identifier = N
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -134,7 +134,7 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 
 > **Зауваження**
 > 
-> Якщо [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc) включені, то спочатку дані слід обробити функцією [stripslashes()](function.stripslashes.md). Якщо цю функцію застосувати до вже проекранованих даних, дані будуть проекрановані двічі.
+> Якщо [magicquotesgpc](info.configuration.md#ini.magic-quotes-gpc) включені, то спочатку дані слід обробити функцією [stripslashes()](function.stripslashes.md). Якщо цю функцію застосувати до вже проекранованих даних, дані будуть проекрановані двічі.
 
 > **Зауваження**
 > 
@@ -148,5 +148,5 @@ SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 -   [mysqlclientencoding()](function.mysql-client-encoding.md) - Повертає кодування з'єднання
 -   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
 -   [stripslashes()](function.stripslashes.md) - Видаляє екранування символів
--   Директива [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc)
--   Директива [magicquotesruntime](info.configuration.html#ini.magic-quotes-runtime)
+-   Директива [magicquotesgpc](info.configuration.md#ini.magic-quotes-gpc)
+-   Директива [magicquotesruntime](info.configuration.md#ini.magic-quotes-runtime)

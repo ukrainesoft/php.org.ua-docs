@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-matrix.isinvertible.html: '« UIDrawMatrix::isInvertible'
-  - ui-draw-matrix.rotate.html: 'ОЙDrawMatrix::rotate »'
+  - ui-draw-matrix.isinvertible.md: '« UIDrawMatrix::isInvertible'
+  - ui-draw-matrix.rotate.md: 'ОЙDrawMatrix::rotate »'
   - index.md: PHP Manual
-  - class.ui-draw-matrix.html: ОЙDrawMatrix
+  - class.ui-draw-matrix.md: ОЙDrawMatrix
 title: 'ОЙDrawMatrix::multiply'
 ---
 # ОЙDrawMatrix::multiply

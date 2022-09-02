@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagecolormatch.html: « imagecolormatch
-  - function.imagecolorresolvealpha.html: imagecolorresolvealpha »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagecolormatch.md: « imagecolormatch
+  - function.imagecolorresolvealpha.md: imagecolorresolvealpha »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorresolve
 ---
 # imagecolorresolve
@@ -26,7 +26,7 @@ imagecolorresolve(    GdImage $image,    int $red,    int $green, �
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
 
@@ -48,7 +48,7 @@ imagecolorresolve(    GdImage $image,    int $red,    int $green, �
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -83,4 +83,4 @@ Array
 
 ### Дивіться також
 
--   [imagecolorclosest()](function.imagecolorclosest.html) - Отримання індексу кольору найближчого до заданого
+-   [imagecolorclosest()](function.imagecolorclosest.md) - Отримання індексу кольору найближчого до заданого

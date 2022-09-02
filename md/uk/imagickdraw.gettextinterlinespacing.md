@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.gettextencoding.html: '« ImagickDraw::getTextEncoding'
-  - imagickdraw.gettextinterwordspacing.html: 'ImagickDraw::getTextInterwordSpacing »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.gettextencoding.md: '« ImagickDraw::getTextEncoding'
+  - imagickdraw.gettextinterwordspacing.md: 'ImagickDraw::getTextInterwordSpacing »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getTextInterlineSpacing'
 ---
 # ImagickDraw::getTextInterlineSpacing

@@ -1,14 +1,14 @@
 ---
 navigation:
   - yaf.tutorials.md: « Приклади
-  - class.yaf-application.html: YafApplication »
+  - class.yaf-application.md: YafApplication »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Конфігурація програми
 ---
 # Конфігурація програми
 
-Ви повинні встановити конфігурацію у вигляді масиву або INI файлу (Дивіться [YafConfigIni](class.yaf-config-ini.html)) у конструкторі [YafApplication::construct()](yaf-application.construct.md)
+Ви повинні встановити конфігурацію у вигляді масиву або INI файлу (Дивіться [YafConfigIni](class.yaf-config-ini.md)) у конструкторі [YafApplication::construct()](yaf-application.construct.md)
 
 Yaf автоматично об'єднає параметри програми та настройки користувача. Конфігурація додатків має префікс "yaf." або "application.". Якщо вказано обидва "yaf." та "application.", перевага буде віддана "application.".
 
@@ -84,15 +84,15 @@ Yaf повинен мати можливість зрозуміти, чи є п�
 
 `application.library` string
 
-Локальний каталог з бібліотеками, дивіться [YafLoader](class.yaf-loader.md) і [yaf.library](yaf.configuration.html#ini.yaf.library)
+Локальний каталог з бібліотеками, дивіться [YafLoader](class.yaf-loader.md) і [yaf.library](yaf.configuration.md#ini.yaf.library)
 
 > **Зауваження**
 > 
-> Після Yaf 2.1.6, ця настройка повинна являти собою масив. Шлях до бібліотек намагатиметься використовувати елементи [application.library.directory](yaf.appconfig.html#configuration.yaf.library.directory)
+> Після Yaf 2.1.6, ця настройка повинна являти собою масив. Шлях до бібліотек намагатиметься використовувати елементи [application.library.directory](yaf.appconfig.md#configuration.yaf.library.directory)
 
 `application.library.directory` string
 
-Псевдонім для [application.library](yaf.appconfig.html#configuration.yaf.library). Додано в Yaf 2.1.6
+Псевдонім для [application.library](yaf.appconfig.md#configuration.yaf.library). Додано в Yaf 2.1.6
 
 `application.library.namespace` string
 
@@ -136,7 +136,7 @@ Yaf повинен мати можливість зрозуміти, чи є п�
 
 `application.system` string
 
-Встановлює конфігурацію часу виконання yaf в application.ini типу: [application.system.lowcasepath](yaf.configuration.html#ini.yaf.lowcase-path)
+Встановлює конфігурацію часу виконання yaf в application.ini типу: [application.system.lowcasepath](yaf.configuration.md#ini.yaf.lowcase-path)
 
 > **Зауваження**
 > 

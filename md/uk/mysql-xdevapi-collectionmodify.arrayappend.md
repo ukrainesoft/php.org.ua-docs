@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-collectionmodify.html: « mysqlxdevapiCollectionModify
-  - mysql-xdevapi-collectionmodify.arrayinsert.html: 'CollectionModify::arrayInsert »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: « mysqlxdevapiCollectionModify
+  - mysql-xdevapi-collectionmodify.arrayinsert.md: 'CollectionModify::arrayInsert »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
 title: 'CollectionModify::arrayAppend'
 ---
 # CollectionModify::arrayAppend

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mbstring.ja-basic.html: Основи японських багатобайтних кодувань
-  - mbstring.supported-encodings.html: 'Кодування символів, що підтримуються »'
+  - mbstring.ja-basic.md: Основи японських багатобайтних кодувань
+  - mbstring.supported-encodings.md: 'Кодування символів, що підтримуються »'
   - index.md: PHP Manual
   - book.mbstring.md: Багатобайтові рядки
 title: Введення та виведення HTTP
@@ -26,7 +26,7 @@ title: Введення та виведення HTTP
     
 -   Висновок HTTP
     
-    Є кілька способів увімкнути перетворення кодування для вихідних даних. Один з них – використання php.ini, інший – використання функції [проstart()](function.ob-start.html) з [мбoutputhandler()](function.mb-output-handler.md) як callback-функції для `ob_start`
+    Є кілька способів увімкнути перетворення кодування для вихідних даних. Один з них – використання php.ini, інший – використання функції [проstart()](function.ob-start.md) з [мбoutputhandler()](function.mb-output-handler.md) як callback-функції для `ob_start`
     
 
 **Приклад #2 Приклад налаштування php.ini**

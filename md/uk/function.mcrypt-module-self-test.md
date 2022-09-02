@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-module-open.html: « mcryptmoduleopen
-  - function.mdecrypt-generic.html: mdecryptgeneric »
+  - function.mcrypt-module-open.md: « mcryptmoduleopen
+  - function.mdecrypt-generic.md: mdecryptgeneric »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptmoduleselftest

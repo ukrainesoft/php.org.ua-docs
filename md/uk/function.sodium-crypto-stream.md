@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-stream-xor.html: « sodiumcryptostreamxor
-  - function.sodium-hex2bin.html: sodiumhex2bin »
+  - function.sodium-crypto-stream-xor.md: « sodiumcryptostreamxor
+  - function.sodium-hex2bin.md: sodiumhex2bin »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptostream

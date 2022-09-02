@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.class-parents.html: « classparents
-  - function.iterator-apply.html: iteratorapply »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - function.class-parents.md: « classparents
+  - function.iterator-apply.md: iteratorapply »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: classuses
 ---
 # classuses
@@ -28,7 +28,7 @@ class_uses(object|string $object_or_class, bool $autoload = true): array|false
 
 `autoload`
 
-Чи викликати за замовчуванням [autoload](language.oop5.autoload.html)
+Чи викликати за замовчуванням [autoload](language.oop5.autoload.md)
 
 ### Значення, що повертаються
 
@@ -77,5 +77,5 @@ Array
 
 ### Дивіться також
 
--   [classparents()](function.class-parents.html) - Повертає список батьківських класів заданого класу
--   [getdeclaredtraits()](function.get-declared-traits.html) - Повертає масив з усіма оголошеними трейтами
+-   [classparents()](function.class-parents.md) - Повертає список батьківських класів заданого класу
+-   [getdeclaredtraits()](function.get-declared-traits.md) - Повертає масив з усіма оголошеними трейтами

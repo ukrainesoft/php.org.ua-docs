@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi.configuration.html: « Налаштування під час виконання
-  - mysql-xdevapi.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - mysql-xdevapi.setup.html: Встановлення та налаштування
+  - mysql-xdevapi.configuration.md: « Налаштування під час виконання
+  - mysql-xdevapi.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - mysql-xdevapi.setup.md: Встановлення та налаштування
 title: Складання / Компіляція з вихідного коду
 ---
 ## Складання / Компіляція з вихідного коду

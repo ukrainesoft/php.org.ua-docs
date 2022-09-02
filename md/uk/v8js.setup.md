@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.v8js.html: « Введение
-  - v8js.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.v8js.html: V8js
+  - intro.v8js.md: « Введение
+  - v8js.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.v8js.md: V8js
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

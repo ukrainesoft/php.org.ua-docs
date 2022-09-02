@@ -35,4 +35,4 @@ abstract public ReflectionFunctionAbstract::__toString(): void
 ### Дивіться також
 
 -   **ReflectionClass::clone()**
--   [toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.md#object.tostring)

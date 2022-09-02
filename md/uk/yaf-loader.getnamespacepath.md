@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-loader.getlocalnamespace.html: '« YafLoader::getLocalNamespace'
-  - yaf-loader.getnamespaces.html: 'YafLoader::getLocalNamespace »'
+  - yaf-loader.getlocalnamespace.md: '« YafLoader::getLocalNamespace'
+  - yaf-loader.getnamespaces.md: 'YafLoader::getLocalNamespace »'
   - index.md: PHP Manual
-  - class.yaf-loader.html: YafLoader
+  - class.yaf-loader.md: YafLoader
 title: 'YafLoader::getNamespacePath'
 ---
 # YafLoader::getNamespacePath

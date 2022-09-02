@@ -1,6 +1,6 @@
 ---
 navigation:
-  - simplexml.examples-errors.html: « Робота з помилками XML
+  - simplexml.examples-errors.md: « Робота з помилками XML
   - simplexmlelement.addattribute.md: 'SimpleXMLElement::addAttribute »'
   - index.md: PHP Manual
   - book.simplexml.md: SimpleXML

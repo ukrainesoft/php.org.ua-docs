@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-untrace.html: « pguntrace
-  - function.pg-version.html: пгversion »
+  - function.pg-untrace.md: « pguntrace
+  - function.pg-version.md: пгversion »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгupdate

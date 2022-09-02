@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.cancompress.html: '« Phar::canCompress'
-  - phar.compress.html: 'Phar::compress »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.cancompress.md: '« Phar::canCompress'
+  - phar.compress.md: 'Phar::compress »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::canWrite'
 ---
 # Phar::canWrite
@@ -18,7 +18,7 @@ Phar::canWrite — Перевіряє, чи підтримує модуль phar
 final public static Phar::canWrite(): bool
 ```
 
-Цей статичний метод визначає, чи було вимкнено доступ на запис у системному файлі php.ini з використанням змінної [phar.readonly](phar.configuration.html#ini.phar.readonly)
+Цей статичний метод визначає, чи було вимкнено доступ на запис у системному файлі php.ini з використанням змінної [phar.readonly](phar.configuration.md#ini.phar.readonly)
 
 ### Список параметрів
 
@@ -40,5 +40,5 @@ if (Phar::canWrite()) {
 
 ### Дивіться також
 
--   [phar.readonly](phar.configuration.html#ini.phar.readonly)
+-   [phar.readonly](phar.configuration.md#ini.phar.readonly)
 -   [Phar::isWritable()](phar.iswritable.md) - Перевіряє, чи можна модифікувати phar-архів

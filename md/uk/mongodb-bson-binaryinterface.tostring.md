@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-binaryinterface.gettype.html: '« MongoDBBSONBinaryInterface::getType'
-  - class.mongodb-bson-decimal128interface.html: MongoDBBSONDecimal128Interface »
+  - mongodb-bson-binaryinterface.gettype.md: '« MongoDBBSONBinaryInterface::getType'
+  - class.mongodb-bson-decimal128interface.md: MongoDBBSONDecimal128Interface »
   - index.md: PHP Manual
-  - class.mongodb-bson-binaryinterface.html: MongoDBBSONBinaryInterface
+  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface
 title: 'MongoDBBSONBinaryInterface::function toString() { \[native code\] }'
 ---
 # MongoDBBSONBinaryInterface::function toString() { \[native code\] }

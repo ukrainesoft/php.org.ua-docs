@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.getmodifiers.html: '« ReflectionProperty::getModifiers'
-  - reflectionproperty.gettype.html: 'ReflectionProperty::getType »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.getmodifiers.md: '« ReflectionProperty::getModifiers'
+  - reflectionproperty.gettype.md: 'ReflectionProperty::getType »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::getName'
 ---
 # ReflectionProperty::getName

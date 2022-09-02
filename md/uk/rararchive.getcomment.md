@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rararchive.close.html: '« RarArchive::close'
-  - rararchive.getentries.html: 'RarArchive::getEntries »'
-  - index.html: PHP Manual
-  - class.rararchive.html: RarArchive
+  - rararchive.close.md: '« RarArchive::close'
+  - rararchive.getentries.md: 'RarArchive::getEntries »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
 title: 'RarArchive::getComment'
 ---
 # RarArchive::getComment
@@ -38,7 +38,7 @@ rar_comment_get(RarArchive $rarfile): string
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
 
 ### Значення, що повертаються
 

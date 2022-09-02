@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-plugin-abstract.dispatchloopshutdown.html: '« YafPluginAbstract::dispatchLoopShutdown'
-  - yaf-plugin-abstract.postdispatch.html: 'YafPluginAbstract::postDispatch »'
-  - index.html: PHP Manual
-  - class.yaf-plugin-abstract.html: YafPluginAbstract
+  - yaf-plugin-abstract.dispatchloopshutdown.md: '« YafPluginAbstract::dispatchLoopShutdown'
+  - yaf-plugin-abstract.postdispatch.md: 'YafPluginAbstract::postDispatch »'
+  - index.md: PHP Manual
+  - class.yaf-plugin-abstract.md: YafPluginAbstract
 title: 'YafPluginAbstract::dispatchLoopStartup'
 ---
 # YafPluginAbstract::dispatchLoopStartup

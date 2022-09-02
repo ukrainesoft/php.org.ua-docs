@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.setdefer.html: '« SwooleCoroutineHttpClient::setDefer'
-  - swoole-coroutine-http-client.setmethod.html: 'SwooleCoroutineHttpClient::setMethod »'
+  - swoole-coroutine-http-client.setdefer.md: '« SwooleCoroutineHttpClient::setDefer'
+  - swoole-coroutine-http-client.setmethod.md: 'SwooleCoroutineHttpClient::setMethod »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::setHeaders'
 ---
 # SwooleCoroutineHttpClient::setHeaders

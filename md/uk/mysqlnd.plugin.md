@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqlnd.memory.md: « Управление памятью
-  - mysqlnd.plugin.mysql-proxy.html: Сравнение плагинов mysqlnd с MySQL Proxy »
+  - mysqlnd.plugin.mysql-proxy.md: Сравнение плагинов mysqlnd с MySQL Proxy »
   - index.md: PHP Manual
   - book.mysqlnd.md: Mysqlnd
 title: API для плагінів до вбудованого драйвера MySQL

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.ffi-cdata.html: « FFICData
-  - ffi-ctype.getalignment.html: 'FFICType::getAlignment »'
+  - class.ffi-cdata.md: « FFICData
+  - ffi-ctype.getalignment.md: 'FFICType::getAlignment »'
   - index.md: PHP Manual
   - book.ffi.md: FFI
 title: Доступ до типів C

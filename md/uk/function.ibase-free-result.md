@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-free-query.html: « ibasefreequery
-  - function.ibase-gen-id.html: ibasegenid »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-free-query.md: « ibasefreequery
+  - function.ibase-gen-id.md: ibasegenid »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasefreeresult
 ---
 # ibasefreeresult
@@ -24,7 +24,7 @@ ibase_free_result(resource $result_identifier): bool
 
 `result_identifier`
 
-Набір результатів, створених за допомогою [ibasequery()](function.ibase-query.html) або [ibaseexecute()](function.ibase-execute.html)
+Набір результатів, створених за допомогою [ibasequery()](function.ibase-query.md) або [ibaseexecute()](function.ibase-execute.md)
 
 ### Значення, що повертаються
 

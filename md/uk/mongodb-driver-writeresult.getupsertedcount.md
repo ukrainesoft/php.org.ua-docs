@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getserver.html: '« MongoDBDriverWriteResult::getServer'
-  - mongodb-driver-writeresult.getupsertedids.html: 'MongoDBDriverWriteResult::getUpsertedIds »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+  - mongodb-driver-writeresult.getserver.md: '« MongoDBDriverWriteResult::getServer'
+  - mongodb-driver-writeresult.getupsertedids.md: 'MongoDBDriverWriteResult::getUpsertedIds »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
 title: 'MongoDBDriverWriteResult::getUpsertedCount'
 ---
 # MongoDBDriverWriteResult::getUpsertedCount
@@ -28,7 +28,7 @@ final public MongoDB\Driver\WriteResult::getUpsertedCount(): ?int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 
@@ -61,5 +61,5 @@ int(2)
 
 ### Дивіться також
 
--   [MongoDBDriverWriteResult::getUpsertedIds()](mongodb-driver-writeresult.getupsertedids.html) - Повертає масив ідентифікаторів для об'єднаних документів
--   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.html) - Повертає, чи був запис підтверджений
+-   [MongoDBDriverWriteResult::getUpsertedIds()](mongodb-driver-writeresult.getupsertedids.md) - Повертає масив ідентифікаторів для об'єднаних документів
+-   [MongoDBDriverWriteResult::isAcknowledged()](mongodb-driver-writeresult.isacknowledged.md) - Повертає, чи був запис підтверджений

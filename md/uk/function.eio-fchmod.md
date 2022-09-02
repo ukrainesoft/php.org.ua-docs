@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-fallocate.html: « eiofallocate
-  - function.eio-fchown.html: eiofchown »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-fallocate.md: « eiofallocate
+  - function.eio-fchown.md: eiofchown »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiofchmod
 ---
 # eiofchmod
@@ -24,7 +24,7 @@ eio_fchmod(    mixed $fd,    int $mode,    int $pri = EIO_PRI_DEFAUL
 
 `fd`
 
-Потік, покажчик на сокет або числовий дескриптор файлу, наприклад, повернутий [eioopen()](function.eio-open.html)
+Потік, покажчик на сокет або числовий дескриптор файлу, наприклад, повернутий [eioopen()](function.eio-open.md)
 
 `mode`
 
@@ -52,7 +52,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -64,4 +64,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eiofchown()](function.eio-fchown.html) - Змінює власника файлу
+-   [eiofchown()](function.eio-fchown.md) - Змінює власника файлу

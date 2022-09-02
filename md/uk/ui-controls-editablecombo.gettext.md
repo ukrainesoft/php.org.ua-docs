@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-editablecombo.append.html: '« UIControlsEditableCombo::append'
-  - ui-controls-editablecombo.onchange.html: 'ОЙControlsEditableCombo::onChange »'
+  - ui-controls-editablecombo.append.md: '« UIControlsEditableCombo::append'
+  - ui-controls-editablecombo.onchange.md: 'ОЙControlsEditableCombo::onChange »'
   - index.md: PHP Manual
-  - class.ui-controls-editablecombo.html: ОЙControlsEditableCombo
+  - class.ui-controls-editablecombo.md: ОЙControlsEditableCombo
 title: 'ОЙControlsEditableCombo::getText'
 ---
 # ОЙControlsEditableCombo::getText

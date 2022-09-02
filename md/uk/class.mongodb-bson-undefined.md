@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-symbol.unserialize.html: '« MongoDBBSONSymbol::unserialize'
-  - mongodb-bson-undefined.construct.html: 'MongoDBBSONUndefined::construct »'
+  - mongodb-bson-symbol.unserialize.md: '« MongoDBBSONSymbol::unserialize'
+  - mongodb-bson-undefined.construct.md: 'MongoDBBSONUndefined::construct »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONUndefined (застаріло)

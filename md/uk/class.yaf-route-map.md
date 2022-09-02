@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-route-interface.route.html: '« YafRouteInterface::route'
-  - yaf-route-map.assemble.html: 'YafRouteMap::assemble »'
+  - yaf-route-interface.route.md: '« YafRouteInterface::route'
+  - yaf-route-map.assemble.md: 'YafRouteMap::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafRouteMap
@@ -12,9 +12,9 @@ title: Клас YafRouteMap
 
 ## Вступ
 
-**YafRouteMap** - це вбудований маршрут, він просто перетворює кінцеву точку URI (ту частину URI, яка йде після базового URI: дивіться [YafRequestAbstract::setBaseUri()](yaf-request-abstract.setbaseuri.html)) в ім'я контролера або ім'я дії (залежить від параметра, переданого в [YafRouteMap::construct()](yaf-route-map.construct.md)) у наступному правилі: A => controller A. A/B/C => controller AУC. A/B/C/D/E => controller AУЗДе.
+**YafRouteMap** - це вбудований маршрут, він просто перетворює кінцеву точку URI (ту частину URI, яка йде після базового URI: дивіться [YafRequestAbstract::setBaseUri()](yaf-request-abstract.setbaseuri.md)) в ім'я контролера або ім'я дії (залежить від параметра, переданого в [YafRouteMap::construct()](yaf-route-map.construct.md)) у наступному правилі: A => controller A. A/B/C => controller AУC. A/B/C/D/E => controller AУЗДе.
 
-If the second parameter of [YafRouteMap::construct()](yaf-route-map.construct.html) is specified, then only the part before delimiter of URI will used to routing, the part after it is used to routing request parameters (see the example section of [YafRouteMap::construct()](yaf-route-map.construct.md)
+If the second parameter of [YafRouteMap::construct()](yaf-route-map.construct.md) is specified, then only the part before delimiter of URI will used to routing, the part after it is used to routing request parameters (see the example section of [YafRouteMap::construct()](yaf-route-map.construct.md)
 
 ## Огляд класів
 

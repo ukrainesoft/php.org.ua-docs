@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqdevice.settimercallback.html: '« ZMQDevice::setTimerCallback'
-  - book.zookeeper.html: ZooKeeper »
-  - index.html: PHP Manual
-  - class.zmqdevice.html: ZMQDevice
+  - zmqdevice.settimercallback.md: '« ZMQDevice::setTimerCallback'
+  - book.zookeeper.md: ZooKeeper »
+  - index.md: PHP Manual
+  - class.zmqdevice.md: ZMQDevice
 title: 'ZMQDevice::setTimerTimeout'
 ---
 # ZMQDevice::setTimerTimeout

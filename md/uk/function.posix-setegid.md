@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-mknod.html: « posixmknod
-  - function.posix-seteuid.html: posixseteuid »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-mknod.md: « posixmknod
+  - function.posix-seteuid.md: posixseteuid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixsetegid
 ---
 # posixsetegid

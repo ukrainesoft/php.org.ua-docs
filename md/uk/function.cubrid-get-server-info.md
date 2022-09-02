@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-get-query-timeout.html: « cubridgetquerytimeout
-  - function.cubrid-get.html: cubridget »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-get-query-timeout.md: « cubridgetquerytimeout
+  - function.cubrid-get.md: cubridget »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridgetserverinfo
 ---
 # cubridgetserverinfo

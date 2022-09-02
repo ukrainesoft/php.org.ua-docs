@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-executable.html: « mysqlxdevapiExecutable
-  - class.mysql-xdevapi-executionstatus.html: mysqlxdevapiExecutionStatus »
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-executable.html: mysqlxdevapiExecutable
+  - class.mysql-xdevapi-executable.md: « mysqlxdevapiExecutable
+  - class.mysql-xdevapi-executionstatus.md: mysqlxdevapiExecutionStatus »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-executable.md: mysqlxdevapiExecutable
 title: 'Executable::execute'
 ---
 # Executable::execute

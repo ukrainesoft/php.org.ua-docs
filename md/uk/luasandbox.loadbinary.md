@@ -1,9 +1,9 @@
 ---
 navigation:
-  - luasandbox.getversioninfo.html: '« LuaSandbox::getVersionInfo'
-  - luasandbox.loadstring.html: 'LuaSandbox::loadString »'
-  - index.html: PHP Manual
-  - class.luasandbox.html: LuaSandbox
+  - luasandbox.getversioninfo.md: '« LuaSandbox::getVersionInfo'
+  - luasandbox.loadstring.md: 'LuaSandbox::loadString »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::loadBinary'
 ---
 # LuaSandbox::loadBinary
@@ -18,13 +18,13 @@ LuaSandbox::loadBinary — Завантажує попередньо скомп�
 public LuaSandbox::loadBinary(string $code, string $chunkName = ''): LuaSandboxFunction
 ```
 
-Завантажує дані, створені [LuaSandboxFunction::dump()](luasandboxfunction.dump.html)
+Завантажує дані, створені [LuaSandboxFunction::dump()](luasandboxfunction.dump.md)
 
 ### Список параметрів
 
 `code`
 
-Дані з [LuaSandboxFunction::dump()](luasandboxfunction.dump.html)
+Дані з [LuaSandboxFunction::dump()](luasandboxfunction.dump.md)
 
 `chunkName`
 
@@ -32,8 +32,8 @@ public LuaSandbox::loadBinary(string $code, string $chunkName = ''): LuaSandboxF
 
 ### Значення, що повертаються
 
-Повертає [LuaSandboxFunction](class.luasandboxfunction.html)
+Повертає [LuaSandboxFunction](class.luasandboxfunction.md)
 
 ### Дивіться також
 
--   [LuaSandbox::loadString()](luasandbox.loadstring.html) - Завантажує код Lua у середу Lua
+-   [LuaSandbox::loadString()](luasandbox.loadstring.md) - Завантажує код Lua у середу Lua

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xdiff-file-merge3.html: xdifffilemerge3
-  - function.xdiff-file-patch.html: xdifffilepatch »
-  - index.html: PHP Manual
-  - ref.xdiff.html: Функції xdiff
+  - function.xdiff-file-merge3.md: xdifffilemerge3
+  - function.xdiff-file-patch.md: xdifffilepatch »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
 title: xdifffilepatchbinary
 ---
 # xdifffilepatchbinary
@@ -18,9 +18,9 @@ xdifffilepatchbinary - Псевдонім для xdifffilebpatch
 xdiff_file_patch_binary(string $file, string $patch, string $dest): bool
 ```
 
-Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі створені як [xdifffilebdiff()](function.xdiff-file-bdiff.html) так і [xdifffilerabdiff()](function.xdiff-file-rabdiff.html) або їх копії.
+Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі створені як [xdifffilebdiff()](function.xdiff-file-bdiff.md) так і [xdifffilerabdiff()](function.xdiff-file-rabdiff.md) або їх копії.
 
-Починаючи з версії 1.5.0, ця функція є псевдонімом [xdifffilebpatch()](function.xdiff-file-bpatch.html)
+Починаючи з версії 1.5.0, ця функція є псевдонімом [xdifffilebpatch()](function.xdiff-file-bpatch.md)
 
 ### Список параметрів
 
@@ -69,4 +69,4 @@ if ($result) {
 
 ### Дивіться також
 
--   [xdiffstringpatchbinary()](function.xdiff-string-patch-binary.html) - Псевдонім для xdiffstringbpatch
+-   [xdiffstringpatchbinary()](function.xdiff-string-patch-binary.md) - Псевдонім для xdiffstringbpatch

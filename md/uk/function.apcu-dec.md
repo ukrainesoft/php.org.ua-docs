@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.apcu-clear-cache.html: « apcuclearcache
-  - function.apcu-delete.html: apcudelete »
+  - function.apcu-clear-cache.md: « apcuclearcache
+  - function.apcu-delete.md: apcudelete »
   - index.md: PHP Manual
   - ref.apcu.md: Функции APCu
 title: apcudec

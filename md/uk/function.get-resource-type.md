@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.get-resource-id.html: « getresourceід
+  - function.get-resource-id.md: « getresourceід
   - function.gettype.md: gettype »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними

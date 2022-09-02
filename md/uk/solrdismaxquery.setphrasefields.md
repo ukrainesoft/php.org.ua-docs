@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdismaxquery.setminimummatch.html: '« SolrDisMaxQuery::setMinimumMatch'
-  - solrdismaxquery.setphraseslop.html: 'SolrDisMaxQuery::setPhraseSlop »'
-  - index.html: PHP Manual
-  - class.solrdismaxquery.html: SolrDisMaxQuery
+  - solrdismaxquery.setminimummatch.md: '« SolrDisMaxQuery::setMinimumMatch'
+  - solrdismaxquery.setphraseslop.md: 'SolrDisMaxQuery::setPhraseSlop »'
+  - index.md: PHP Manual
+  - class.solrdismaxquery.md: SolrDisMaxQuery
 title: 'Solr DisMax Query::set Phrase Fields'
 ---
 # Solr DisMax Query::set Phrase Fields
@@ -28,7 +28,7 @@ public SolrDisMaxQuery::setPhraseFields(string $fields): SolrDisMaxQuery
 
 ### Значення, що повертаються
 
-[SolrDisMaxQuery](class.solrdismaxquery.html)
+[SolrDisMaxQuery](class.solrdismaxquery.md)
 
 ### Приклади
 
@@ -51,4 +51,4 @@ q=lucene&defType=edismax&pf=cat~5.1^2 feature^4.5
 ### Дивіться також
 
 -   **Solr DisMax Query::add Phrase Fields()**
--   [SolrDisMaxQuery::removePhraseField()](solrdismaxquery.removephrasefield.html) - Видаляє поле фрази (параметра)
+-   [SolrDisMaxQuery::removePhraseField()](solrdismaxquery.removephrasefield.md) - Видаляє поле фрази (параметра)

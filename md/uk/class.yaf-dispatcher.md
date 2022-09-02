@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.yaf-bootstrap-abstract.html: « YafBootstrapAbstract
-  - yaf-dispatcher.autorender.html: 'YafDispatcher::autoRender »'
+  - class.yaf-bootstrap-abstract.md: « YafBootstrapAbstract
+  - yaf-dispatcher.autorender.md: 'YafDispatcher::autoRender »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafDispatcher

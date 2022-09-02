@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.apcu-inc.html: « apcuinc
-  - function.apcu-sma-info.html: apcusmainfo »
+  - function.apcu-inc.md: « apcuinc
+  - function.apcu-sma-info.md: apcusmainfo »
   - index.md: PHP Manual
   - ref.apcu.md: Функции APCu
 title: apcukeyinfo

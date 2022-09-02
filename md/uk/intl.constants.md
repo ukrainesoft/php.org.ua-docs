@@ -46,11 +46,11 @@ title: Обумовлені константи
 
 **`INTL_IDNA_VARIANT_2003`** (int)
 
-Використовувати алгоритм IDNA 2003 [idnтоutf8()](function.idn-to-utf8.html) і [idnтоascii()](function.idn-to-ascii.md). Встановлено за замовчуванням. Ця константа і те, що вона використовується за умовчанням, оголошено застарілим у PHP 7.2.0.
+Використовувати алгоритм IDNA 2003 [idnтоutf8()](function.idn-to-utf8.md) і [idnтоascii()](function.idn-to-ascii.md). Встановлено за замовчуванням. Ця константа і те, що вона використовується за умовчанням, оголошено застарілим у PHP 7.2.0.
 
 **`INTL_IDNA_VARIANT_UTS46`** (int)
 
-Використовувати алгоритм UTS #46 [idnтоutf8()](function.idn-to-utf8.html) і [idnтоascii()](function.idn-to-ascii.md). Доступно з ICU 4.6.
+Використовувати алгоритм UTS #46 [idnтоutf8()](function.idn-to-utf8.md) і [idnтоascii()](function.idn-to-ascii.md). Доступно з ICU 4.6.
 
 **`IDNA_ERROR_EMPTY_LABEL`** (int)
 
@@ -78,4 +78,4 @@ title: Обумовлені константи
 
 **`IDNA_ERROR_CONTEXTJ`** (int)
 
-При використанні алгоритму UTS #46 [idnтоutf8()](function.idn-to-utf8.html) і [idnтоascii()](function.idn-to-ascii.md)помилки повертаються у вигляді побітової маски
+При використанні алгоритму UTS #46 [idnтоutf8()](function.idn-to-utf8.md) і [idnтоascii()](function.idn-to-ascii.md)помилки повертаються у вигляді побітової маски

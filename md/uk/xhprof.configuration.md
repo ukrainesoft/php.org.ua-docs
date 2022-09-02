@@ -14,7 +14,7 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [xhprof.outputdir](xhprof.configuration.html#ini.xhprof.output-dir) | "" | **`PHP_INI_ALL`** |  |
+| [xhprof.outputdir](xhprof.configuration.md#ini.xhprof.output-dir) | "" | **`PHP_INI_ALL`** |  |
 
 Коротке пояснення конфігураційних директив.
 

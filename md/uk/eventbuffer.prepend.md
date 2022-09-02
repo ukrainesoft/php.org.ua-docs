@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbuffer.lock.html: '« EventBuffer::lock'
-  - eventbuffer.prependbuffer.html: 'EventBuffer::prependBuffer »'
-  - index.html: PHP Manual
-  - class.eventbuffer.html: EventBuffer
+  - eventbuffer.lock.md: '« EventBuffer::lock'
+  - eventbuffer.prependbuffer.md: 'EventBuffer::prependBuffer »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::prepend'
 ---
 # EventBuffer::prepend
@@ -36,6 +36,6 @@ public
 
 ### Дивіться також
 
--   [EventBuffer::prependBuffer()](eventbuffer.prependbuffer.html) - Переміщує всі дані з вихідного буфера на початок поточного буфера
--   [EventBuffer::add()](eventbuffer.add.html) - Додає дані до кінця буфера подій
--   [EventBuffer::addBuffer()](eventbuffer.addbuffer.html) - Переміщує всі дані з буфера екземпляру EventBuffer
+-   [EventBuffer::prependBuffer()](eventbuffer.prependbuffer.md) - Переміщує всі дані з вихідного буфера на початок поточного буфера
+-   [EventBuffer::add()](eventbuffer.add.md) - Додає дані до кінця буфера подій
+-   [EventBuffer::addBuffer()](eventbuffer.addbuffer.md) - Переміщує всі дані з буфера екземпляру EventBuffer

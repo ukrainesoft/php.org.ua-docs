@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-statement.construct.html: '« Statement::construct'
-  - mysql-xdevapi-statement.getresult.html: 'Statement::getResult »'
+  - mysql-xdevapi-statement.construct.md: '« Statement::construct'
+  - mysql-xdevapi-statement.getresult.md: 'Statement::getResult »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-statement.html: mysqlxdevapiStatement
+  - class.mysql-xdevapi-statement.md: mysqlxdevapiStatement
 title: 'Statement::getNextResult'
 ---
 # Statement::getNextResult

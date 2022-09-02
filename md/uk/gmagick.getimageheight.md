@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimagegreenprimary.html: '« Gmagick::getimagegreenprimary'
-  - gmagick.getimagehistogram.html: 'Gmagick::getimagehistogram »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimagegreenprimary.md: '« Gmagick::getimagegreenprimary'
+  - gmagick.getimagehistogram.md: 'Gmagick::getimagehistogram »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimageheight'
 ---
 # Gmagick::getimageheight

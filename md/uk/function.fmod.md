@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.floor.html: « floor
-  - function.getrandmax.html: getrandmax »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.floor.md: « floor
+  - function.getrandmax.md: getrandmax »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: fmod
 ---
 # fmod
@@ -49,6 +49,6 @@ $r = fmod($x, $y);
 
 ### Дивіться також
 
--   [](language.operators.arithmetic.html)\- розподіл з плаваючою точкою
--   [](language.operators.arithmetic.html)\- цілісний залишок
--   [intdiv()](function.intdiv.html) - цілісний поділ
+-   [](language.operators.arithmetic.md)\- розподіл з плаваючою точкою
+-   [](language.operators.arithmetic.md)\- цілісний залишок
+-   [intdiv()](function.intdiv.md) - цілісний поділ

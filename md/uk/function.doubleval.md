@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.debug-zval-dump.html: « debugzvaldump
-  - function.empty.html: empty »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.debug-zval-dump.md: « debugzvaldump
+  - function.empty.md: empty »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: doubleval
 ---
 # doubleval

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-binary.html: « imapbinary
-  - function.imap-bodystruct.html: imapbodystruct »
+  - function.imap-binary.md: « imapbinary
+  - function.imap-bodystruct.md: imapbodystruct »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapbody
@@ -20,7 +20,7 @@ imap_body(IMAP\Connection $imap, int $message_num, int $flags = 0): string|false
 
 **imapbody()** повертає тіло повідомлення з номером `message_num` у поточній поштовій скриньці.
 
-**imapbody()** поверне точну копію тіла повідомлення. Для отримання однієї частини складеного MIME-повідомлення використовуйте [imapfetchstructure()](function.imap-fetchstructure.html) для аналізу структури та [imapfetchbody()](function.imap-fetchbody.md) для отримання копії однієї з частин тіла.
+**imapbody()** поверне точну копію тіла повідомлення. Для отримання однієї частини складеного MIME-повідомлення використовуйте [imapfetchstructure()](function.imap-fetchstructure.md) для аналізу структури та [imapfetchbody()](function.imap-fetchbody.md) для отримання копії однієї з частин тіла.
 
 ### Список параметрів
 

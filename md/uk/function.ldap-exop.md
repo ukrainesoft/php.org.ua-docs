@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-exop-whoami.html: « ldapexopwhoami
-  - function.ldap-explode-dn.html: ldapexplodedn »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-exop-whoami.md: « ldapexopwhoami
+  - function.ldap-explode-dn.md: ldapexplodedn »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapexop
 ---
 # ldapexop
@@ -24,7 +24,7 @@ ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    stri
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `request_oid`
 
@@ -36,7 +36,7 @@ ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    stri
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.html) для посилки у запиті.
+Масив [управляющих констант LDAP](ldap.controls.md) для посилки у запиті.
 
 `response_data`
 
@@ -54,7 +54,7 @@ ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    stri
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Додана підтримка `controls` |
 
 ### Приклади
@@ -96,8 +96,8 @@ if ($ds) {
 
 ### Дивіться також
 
--   [ldapparseresult()](function.ldap-parse-result.html) - Витягти інформацію з результату
--   [ldapparseexop()](function.ldap-parse-exop.html) - Розбір результуючого об'єкта виконання розширеної операції LDAP
--   [ldapexopwhoami()](function.ldap-exop-whoami.html) - Обгортка для розширеної операції WHOAMI
--   [ldapexoprefresh()](function.ldap-exop-refresh.html) - Обгортка для розширеної операції Refresh
--   [ldapexoppasswd()](function.ldap-exop-passwd.html) - Обгортка для розширеної операції PASSWD
+-   [ldapparseresult()](function.ldap-parse-result.md) - Витягти інформацію з результату
+-   [ldapparseexop()](function.ldap-parse-exop.md) - Розбір результуючого об'єкта виконання розширеної операції LDAP
+-   [ldapexopwhoami()](function.ldap-exop-whoami.md) - Обгортка для розширеної операції WHOAMI
+-   [ldapexoprefresh()](function.ldap-exop-refresh.md) - Обгортка для розширеної операції Refresh
+-   [ldapexoppasswd()](function.ldap-exop-passwd.md) - Обгортка для розширеної операції PASSWD

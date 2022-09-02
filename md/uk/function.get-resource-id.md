@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-defined-vars.html: « getdefinedvars
-  - function.get-resource-type.html: getresourcetype »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.get-defined-vars.md: « getdefinedvars
+  - function.get-resource-type.md: getresourcetype »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: getresourceід
 ---
 # getresourceід
@@ -57,4 +57,4 @@ echo get_resource_id($handle);
 
 ### Дивіться також
 
--   [getresourcetype()](function.get-resource-type.html) - Повертає тип ресурсу
+-   [getresourcetype()](function.get-resource-type.md) - Повертає тип ресурсу

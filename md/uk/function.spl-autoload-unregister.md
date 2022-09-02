@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.spl-autoload-register.html: « splautoloadregister
-  - function.spl-autoload.html: splautoload »
+  - function.spl-autoload-register.md: « splautoloadregister
+  - function.spl-autoload.md: splautoload »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
 title: splautoloadunregister

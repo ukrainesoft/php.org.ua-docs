@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.construct.html: '« DateTime::construct'
-  - datetime.createfromimmutable.html: 'DateTime::createFromImmutable »'
-  - index.html: PHP Manual
-  - class.datetime.html: DateTime
+  - datetime.construct.md: '« DateTime::construct'
+  - datetime.createfromimmutable.md: 'DateTime::createFromImmutable »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
 title: 'DateTime::createFromFormat'
 ---
 # DateTime::createFromFormat
@@ -30,13 +30,13 @@ date_create_from_format(string $format, string $datetime, ?DateTimeZone $timezon
 
 Повертає новий об'єкт DateTime, що представляє дату та час, задані рядком `datetime`, яка була відформатована у зазначеному `format`
 
-Подібний до методу [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.html), крім роботи з об'єктом [DateTime](class.datetime.html)
+Подібний до методу [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
-Процедурна версія приймає об'єкт [DateTime](class.datetime.html) як перший аргумент.
+Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
 ### Список параметрів
 
-Дивіться параметри та їх опис на сторінці методу [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.html)
+Дивіться параметри та їх опис на сторінці методу [DateTimeImmutable::createFromFormat](datetimeimmutable.createfromformat.md)
 
 ### Значення, що повертаються
 
@@ -44,4 +44,4 @@ date_create_from_format(string $format, string $datetime, ?DateTimeZone $timezon
 
 ### Дивіться також
 
--   [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.html) - Розбирає рядок з датою згідно з вказаним форматом
+-   [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md) - Розбирає рядок з датою згідно з вказаним форматом

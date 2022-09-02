@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionnamedtype.getname.html: '« ReflectionNamedType::getName'
-  - class.reflectionobject.html: ReflectionObject »
-  - index.html: PHP Manual
-  - class.reflectionnamedtype.html: ReflectionNamedType
+  - reflectionnamedtype.getname.md: '« ReflectionNamedType::getName'
+  - class.reflectionobject.md: ReflectionObject »
+  - index.md: PHP Manual
+  - class.reflectionnamedtype.md: ReflectionNamedType
 title: 'ReflectionNamedType::isBuiltin'
 ---
 # ReflectionNamedType::isBuiltin
@@ -54,11 +54,11 @@ bool(false)
 bool(false)
 ```
 
-Зауважте, що метод **ReflectionNamedType::isBuiltin()** не розрізняє внутрішні та користувальницькі класи. Щоб їх розрізнити, потрібно використати метод [ReflectionClass::isInternal()](reflectionclass.isinternal.html) для імені класу, що повертається.
+Зауважте, що метод **ReflectionNamedType::isBuiltin()** не розрізняє внутрішні та користувальницькі класи. Щоб їх розрізнити, потрібно використати метод [ReflectionClass::isInternal()](reflectionclass.isinternal.md) для імені класу, що повертається.
 
 ### Дивіться також
 
--   [ReflectionType::allowsNull()](reflectiontype.allowsnull.html) - Перевіряє, чи допустимо NULL
--   [ReflectionType::toString()](reflectiontype.tostring.html) - Перетворення на рядок
--   [ReflectionClass::isInternal()](reflectionclass.isinternal.html) - Перевіряє, чи є клас вбудованим у модуль чи ядро
--   [ReflectionParameter::getType()](reflectionparameter.gettype.html) - Отримати тип параметра
+-   [ReflectionType::allowsNull()](reflectiontype.allowsnull.md) - Перевіряє, чи допустимо NULL
+-   [ReflectionType::toString()](reflectiontype.tostring.md) - Перетворення на рядок
+-   [ReflectionClass::isInternal()](reflectionclass.isinternal.md) - Перевіряє, чи є клас вбудованим у модуль чи ядро
+-   [ReflectionParameter::getType()](reflectionparameter.gettype.md) - Отримати тип параметра

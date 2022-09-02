@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-serverdescription.gettype.html: '« MongoDBDriverServerDescription::getType'
-  - mongodb-driver-topologydescription.getservers.html: 'MongoDBDriverTopologyDescription::getServers »'
+  - mongodb-driver-serverdescription.gettype.md: '« MongoDBDriverServerDescription::getType'
+  - mongodb-driver-topologydescription.getservers.md: 'MongoDBDriverTopologyDescription::getServers »'
   - index.md: PHP Manual
   - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverTopologyDescription

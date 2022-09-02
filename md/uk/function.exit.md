@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.eval.md: « eval
-  - function.get-browser.html: getbrowser »
+  - function.get-browser.md: getbrowser »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: exit
@@ -22,7 +22,7 @@ exit(string $status = ?): void
 exit(int $status): void
 ```
 
-Припиняє виконання скрипту . [Функции отключения](function.register-shutdown-function.md) і [деструктори об'єкту](language.oop5.decon.html#language.oop5.decon.destructor) будуть запущені, навіть якщо було викликано конструкцію `exit`
+Припиняє виконання скрипту . [Функции отключения](function.register-shutdown-function.md) і [деструктори об'єкту](language.oop5.decon.md#language.oop5.decon.destructor) будуть запущені, навіть якщо було викликано конструкцію `exit`
 
 `exit` - це конструкція мови, і вона може бути викликана без круглих дужок, якщо не передається параметр `status`
 
@@ -103,7 +103,7 @@ echo 'Эта строка не будет выведена.';
 
 ### Примітки
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.md#functions.named-arguments)
 
 > **Зауваження**
 > 

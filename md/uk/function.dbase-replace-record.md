@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.dbase-pack.html: « dbasepack
+  - function.dbase-pack.md: « dbasepack
   - book.ibase.md: Firebird/InterBase »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
@@ -24,7 +24,7 @@ dbase_replace_record(resource $database, array $data, int $number): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 `data`
 
@@ -83,7 +83,7 @@ if ($db) {
 
 > **Зауваження**
 > 
-> При використанні [dbasegetrecord()](function.dbase-get-record.html) і [dbasegetrecordwithnames()](function.dbase-get-record-with-names.md), поля логічного типу повертаються як ціле (int) значення (`0` або `1`). Якщо ви збираєтеся записувати ці значення назад, потрібно пам'ятати, що результат стане рівним `0`
+> При використанні [dbasegetrecord()](function.dbase-get-record.md) і [dbasegetrecordwithnames()](function.dbase-get-record-with-names.md), поля логічного типу повертаються як ціле (int) значення (`0` або `1`). Якщо ви збираєтеся записувати ці значення назад, потрібно пам'ятати, що результат стане рівним `0`
 
 ### Дивіться також
 

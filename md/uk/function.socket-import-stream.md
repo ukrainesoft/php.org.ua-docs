@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-getsockname.html: « socketgetsockname
-  - function.socket-last-error.html: socketlasterror »
+  - function.socket-getsockname.md: « socketgetsockname
+  - function.socket-last-error.md: socketlasterror »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketimportstream

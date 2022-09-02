@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimageresolution.html: '« Imagick::setImageResolution'
-  - imagick.setimagetickspersecond.html: 'Imagick::setImageTicksPerSecond »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimageresolution.md: '« Imagick::setImageResolution'
+  - imagick.setimagetickspersecond.md: 'Imagick::setImageTicksPerSecond »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageScene'
 ---
 # Imagick::setImageScene

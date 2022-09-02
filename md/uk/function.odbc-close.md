@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-close-all.html: « odbccloseall
-  - function.odbc-columnprivileges.html: odbccolumnprivileges »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-close-all.md: « odbccloseall
+  - function.odbc-columnprivileges.md: odbccolumnprivileges »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcclose
 ---
 # odbcclose
@@ -24,7 +24,7 @@ odbc_close(resource $odbc): void
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 ### Значення, що повертаються
 

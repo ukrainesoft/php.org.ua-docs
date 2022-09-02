@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysqli-get-links-stats.html: « mysqligetlinksstats
-  - function.mysqli-set-opt.html: 'mysqli::setopt »'
+  - function.mysqli-get-links-stats.md: « mysqligetlinksstats
+  - function.mysqli-set-opt.md: 'mysqli::setopt »'
   - index.md: PHP Manual
   - ref.mysqli.md: Синоніми та застарілі функції Mysqli
 title: mysqlireport

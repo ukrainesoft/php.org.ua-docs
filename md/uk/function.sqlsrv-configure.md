@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-commit.html: « sqlsrvcommit
-  - function.sqlsrv-connect.html: sqlsrvconnect »
+  - function.sqlsrv-commit.md: « sqlsrvcommit
+  - function.sqlsrv-connect.md: sqlsrvconnect »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvconfigure

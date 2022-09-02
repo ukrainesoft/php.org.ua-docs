@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.simplexml-load-string.html: « simplexmlloadstring
-  - intro.wddx.html: Введение »
-  - index.html: PHP Manual
-  - refs.xml.html: Обработка XML
+  - function.simplexml-load-string.md: « simplexmlloadstring
+  - intro.wddx.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
 title: WDDX
 ---
 # WDDX

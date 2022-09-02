@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.operators.html: « Оператори
-  - language.operators.arithmetic.html: Арифметичні оператори »
-  - index.html: PHP Manual
-  - language.operators.html: Оператори
+  - language.operators.md: « Оператори
+  - language.operators.arithmetic.md: Арифметичні оператори »
+  - index.md: PHP Manual
+  - language.operators.md: Оператори
 title: Пріоритет оператора
 ---
 ## Пріоритет оператора
@@ -24,31 +24,31 @@ title: Пріоритет оператора
 
 | Ассоциативность | Оператор | Дополнительная информация |
 | --- | --- | --- |
-| (н/а) | `clone` `new` | [clone](language.oop5.cloning.html) і [new](language.oop5.basic.html#language.oop5.basic.new) |
-| права | `**` | [арифметичні оператори](language.operators.arithmetic.html) |
-| (н/а) | `+` `-` `++` `--` `~` `(int)` `(float)` `(string)` `(array)` `(object)` `(bool)` `@` | [арифметичні оператори](language.operators.arithmetic.html) (Унарні `+` і `-` [инкремент/декремент](language.operators.increment.html) [побітові оператори](language.operators.bitwise.html) [приведение типов](language.types.type-juggling.html#language.types.typecasting) і [оператор управления ошибками](language.operators.errorcontrol.html) |
-| ліва | instanceof | [типи](language.operators.type.html) |
-| (н/а) |  | [логічні оператори](language.operators.logical.html) |
-| ліва | `*` `/` `%` | [арифметичні оператори](language.operators.arithmetic.html) |
-| ліва | `+` `-` `.` | [арифметичні оператори](language.operators.arithmetic.html) (бінарні `+` і `-` [оператори, які працюють з масивами](language.operators.array.html) і [строкові оператори](language.operators.string.html) `.` до PHP 8.0.0) |
-| ліва | `<<` `>>` | [побітові оператори](language.operators.bitwise.html) |
-| ліва | `.` | [строкові оператори](language.operators.string.html) (починаючи з PHP 8.0.0) |
-| неасоціативна | `<` `<=` `>` `>=` | [оператори порівняння](language.operators.comparison.html) |
-| неасоціативна | `==` `!=` `===` `!==` `<>` `<=>` | [оператори порівняння](language.operators.comparison.html) |
-| ліва | `&` | [побітові оператори](language.operators.bitwise.html) і [посилання](language.references.html) |
-| ліва | `^` | [побітові оператори](language.operators.bitwise.html) |
+| (н/а) | `clone` `new` | [clone](language.oop5.cloning.md) і [new](language.oop5.basic.md#language.oop5.basic.new) |
+| права | `**` | [арифметичні оператори](language.operators.arithmetic.md) |
+| (н/а) | `+` `-` `++` `--` `~` `(int)` `(float)` `(string)` `(array)` `(object)` `(bool)` `@` | [арифметичні оператори](language.operators.arithmetic.md) (Унарні `+` і `-` [инкремент/декремент](language.operators.increment.md) [побітові оператори](language.operators.bitwise.md) [приведение типов](language.types.type-juggling.md#language.types.typecasting) і [оператор управления ошибками](language.operators.errorcontrol.md) |
+| ліва | instanceof | [типи](language.operators.type.md) |
+| (н/а) |  | [логічні оператори](language.operators.logical.md) |
+| ліва | `*` `/` `%` | [арифметичні оператори](language.operators.arithmetic.md) |
+| ліва | `+` `-` `.` | [арифметичні оператори](language.operators.arithmetic.md) (бінарні `+` і `-` [оператори, які працюють з масивами](language.operators.array.md) і [строкові оператори](language.operators.string.md) `.` до PHP 8.0.0) |
+| ліва | `<<` `>>` | [побітові оператори](language.operators.bitwise.md) |
+| ліва | `.` | [строкові оператори](language.operators.string.md) (починаючи з PHP 8.0.0) |
+| неасоціативна | `<` `<=` `>` `>=` | [оператори порівняння](language.operators.comparison.md) |
+| неасоціативна | `==` `!=` `===` `!==` `<>` `<=>` | [оператори порівняння](language.operators.comparison.md) |
+| ліва | `&` | [побітові оператори](language.operators.bitwise.md) і [посилання](language.references.md) |
+| ліва | `^` | [побітові оператори](language.operators.bitwise.md) |
 | ліва |  |  |
-| ліва | `&&` | [логічні оператори](language.operators.logical.html) |
+| ліва | `&&` | [логічні оператори](language.operators.logical.md) |
 | ліва |  |  |
-| права | `??` | [оператори порівняння з null](language.operators.comparison.html#language.operators.comparison.coalesce) |
-| неасоціативна | `? :` | [тернарний оператор](language.operators.comparison.html#language.operators.comparison.ternary) (ліво-асоціативний до PHP 8.0.0) |
+| права | `??` | [оператори порівняння з null](language.operators.comparison.md#language.operators.comparison.coalesce) |
+| неасоціативна | `? :` | [тернарний оператор](language.operators.comparison.md#language.operators.comparison.ternary) (ліво-асоціативний до PHP 8.0.0) |
 | права | `=` `+=` `-=` `*=` `**=` `/=` `.=` `%=` `&=` | <<= >>= |
-| (н/а) | `yield from` | [yield from](language.generators.syntax.html#control-structures.yield.from) |
-| (н/а) | `yield` | [yield](language.generators.syntax.html#control-structures.yield) |
-| (н/а) | `print` | [print](function.print.html) |
-| ліва | `and` | [логічні оператори](language.operators.logical.html) |
-| ліва | `xor` | [логічні оператори](language.operators.logical.html) |
-| ліва | `or` | [логічні оператори](language.operators.logical.html) |
+| (н/а) | `yield from` | [yield from](language.generators.syntax.md#control-structures.yield.from) |
+| (н/а) | `yield` | [yield](language.generators.syntax.md#control-structures.yield) |
+| (н/а) | `print` | [print](function.print.md) |
+| ліва | `and` | [логічні оператори](language.operators.logical.md) |
+| ліва | `xor` | [логічні оператори](language.operators.logical.md) |
+| ліва | `or` | [логічні оператори](language.operators.logical.md) |
 
 **Приклад #1 Асоціативність**
 

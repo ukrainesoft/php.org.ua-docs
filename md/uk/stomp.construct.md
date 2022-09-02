@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stomp.commit.html: '« Stomp::commit'
-  - stomp.destruct.html: 'Stomp::destruct »'
-  - index.html: PHP Manual
-  - class.stomp.html: Stomp
+  - stomp.commit.md: '« Stomp::commit'
+  - stomp.destruct.md: 'Stomp::destruct »'
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
 title: 'Stomp::construct'
 ---
 # Stomp::construct

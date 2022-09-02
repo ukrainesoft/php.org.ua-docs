@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.rararchive.html: « RarArchive
-  - rararchive.getcomment.html: 'RarArchive::getComment »'
-  - index.html: PHP Manual
-  - class.rararchive.html: RarArchive
+  - class.rararchive.md: « RarArchive
+  - rararchive.getcomment.md: 'RarArchive::getComment »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
 title: 'RarArchive::close'
 ---
 # RarArchive::close
@@ -34,7 +34,7 @@ rar_close(RarArchive $rarfile): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
 
 ### Значення, що повертаються
 
@@ -44,7 +44,7 @@ rar_close(RarArchive $rarfile): bool
 
 | Версия | Описание |
 | --- | --- |
-| PECL rar 2.0.0 | Елементи архіву, що повертаються [RarArchive::getEntry()](rararchive.getentry.html) і [RarArchive::getEntries()](rararchive.getentries.html) тепер недійсні після виклику цього методу. Це означає, що немає гарантії правильної роботи всіх методів цих елементів. |
+| PECL rar 2.0.0 | Елементи архіву, що повертаються [RarArchive::getEntry()](rararchive.getentry.md) і [RarArchive::getEntries()](rararchive.getentries.md) тепер недійсні після виклику цього методу. Це означає, що немає гарантії правильної роботи всіх методів цих елементів. |
 
 ### Приклади
 

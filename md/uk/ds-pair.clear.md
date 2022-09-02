@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-pair.html: « Пара
-  - ds-pair.construct.html: 'ДсPair::construct »'
-  - index.html: PHP Manual
-  - class.ds-pair.html: Пара
+  - class.ds-pair.md: « Пара
+  - ds-pair.construct.md: 'ДсPair::construct »'
+  - index.md: PHP Manual
+  - class.ds-pair.md: Пара
 title: 'ДсPair::clear'
 ---
 # ДсPair::clear

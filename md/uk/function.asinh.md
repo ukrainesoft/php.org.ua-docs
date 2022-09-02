@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.asin.html: « asin
-  - function.atan2.html: atan2 »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.asin.md: « asin
+  - function.atan2.md: atan2 »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: asinh
 ---
 # asinh

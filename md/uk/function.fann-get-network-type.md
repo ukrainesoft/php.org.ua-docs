@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-mse.html: « fanngetMSE
-  - function.fann-get-num-input.html: fanngetnuminput »
+  - function.fann-get-mse.md: « fanngetMSE
+  - function.fann-get-num-input.md: fanngetnuminput »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetnetworktype
@@ -28,4 +28,4 @@ fann_get_network_type(resource $ann): int
 
 ### Значення, що повертаються
 
-Константа [типа сети](fann.constants.html#constants.fann-nettype) або **`false`** у разі виникнення помилки.
+Константа [типа сети](fann.constants.md#constants.fann-nettype) або **`false`** у разі виникнення помилки.

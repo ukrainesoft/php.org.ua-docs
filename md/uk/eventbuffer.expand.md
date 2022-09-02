@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbuffer.enablelocking.html: '« EventBuffer::enableLocking'
-  - eventbuffer.freeze.html: 'EventBuffer::freeze »'
-  - index.html: PHP Manual
-  - class.eventbuffer.html: EventBuffer
+  - eventbuffer.enablelocking.md: '« EventBuffer::enableLocking'
+  - eventbuffer.freeze.md: 'EventBuffer::freeze »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::expand'
 ---
 # EventBuffer::expand

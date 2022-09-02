@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.win32serviceexception.html: « Win32ServiceException
-  - ref.win32service.html: win32service »
-  - index.html: PHP Manual
-  - book.win32service.html: win32service
+  - class.win32serviceexception.md: « Win32ServiceException
+  - ref.win32service.md: win32service »
+  - index.md: PHP Manual
+  - book.win32service.md: win32service
 title: Приклади
 ---
 # Приклади

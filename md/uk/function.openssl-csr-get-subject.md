@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-csr-get-public-key.html: « opensslcsrgetpublickey
-  - function.openssl-csr-new.html: opensslcsrnew »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-csr-get-public-key.md: « opensslcsrgetpublickey
+  - function.openssl-csr-new.md: opensslcsrnew »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslcsrgetsubject
 ---
 # opensslcsrgetsubject
@@ -24,7 +24,7 @@ openssl_csr_get_subject(OpenSSLCertificateSigningRequest|string $csr, bool $shor
 
 `csr`
 
-Для отримання списку допустимих значень дивіться [параметри CSR](openssl.certparams.html)
+Для отримання списку допустимих значень дивіться [параметри CSR](openssl.certparams.md)
 
 `short_names`
 
@@ -38,7 +38,7 @@ openssl_csr_get_subject(OpenSSLCertificateSigningRequest|string $csr, bool $shor
 
 | Версия | Описание |
 | --- | --- |
-|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 
@@ -84,6 +84,6 @@ Array
 
 ### Дивіться також
 
--   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
--   [opensslcsrgetpublickey()](function.openssl-csr-get-public-key.html) - Повертає відкритий ключ CSR
--   [opensslx509parse()](function.openssl-x509-parse.html) - Розібрати сертифікат X509 та отримати масив з даними про нього
+-   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
+-   [opensslcsrgetpublickey()](function.openssl-csr-get-public-key.md) - Повертає відкритий ключ CSR
+-   [opensslx509parse()](function.openssl-x509-parse.md) - Розібрати сертифікат X509 та отримати масив з даними про нього

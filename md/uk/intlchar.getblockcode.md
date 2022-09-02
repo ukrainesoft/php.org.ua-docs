@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.getbidipairedbracket.html: '« IntlChar::getBidiPairedBracket'
-  - intlchar.getcombiningclass.html: 'IntlChar::getCombiningClass »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.getbidipairedbracket.md: '« IntlChar::getBidiPairedBracket'
+  - intlchar.getcombiningclass.md: 'IntlChar::getCombiningClass »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::getBlockCode'
 ---
 # IntlChar::getBlockCode

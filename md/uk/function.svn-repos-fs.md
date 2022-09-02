@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-repos-fs-commit-txn.html: « svnreposфсcommittxn
-  - function.svn-repos-hotcopy.html: svnreposhotcopy »
+  - function.svn-repos-fs-commit-txn.md: « svnreposфсcommittxn
+  - function.svn-repos-hotcopy.md: svnreposhotcopy »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnreposфс

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-columns.html: « db2columns
-  - function.db2-conn-error.html: db2connerror »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-columns.md: « db2columns
+  - function.db2-conn-error.md: db2connerror »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2commit
 ---
 # db2commit
@@ -24,7 +24,7 @@ db2_commit(resource $connection): bool
 
 `connection`
 
-Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
+Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2connect()](function.db2-connect.md) або [db2pconnect()](function.db2-pconnect.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ db2_commit(resource $connection): bool
 
 ### Дивіться також
 
--   [db2autocommit()](function.db2-autocommit.html) - Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
--   [db2rollback()](function.db2-rollback.html) - Відкочує транзакцію
+-   [db2autocommit()](function.db2-autocommit.md) - Повертає або встановлює режим автопідтвердження транзакцій для з'єднання
+-   [db2rollback()](function.db2-rollback.md) - Відкочує транзакцію

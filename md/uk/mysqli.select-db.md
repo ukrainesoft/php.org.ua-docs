@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqli.savepoint.md: '« mysqli::savepoint'
-  - mysqli.set-charset.html: 'mysqli::setcharset »'
+  - mysqli.set-charset.md: 'mysqli::setcharset »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::selectдб'

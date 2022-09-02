@@ -1,7 +1,7 @@
 ---
 navigation:
-  - commonmark-node-image.construct.html: '« CommonMarkNodeImage::construct'
-  - commonmark-node-link.construct.html: 'CommonMarkNodeLink::construct »'
+  - commonmark-node-image.construct.md: '« CommonMarkNodeImage::construct'
+  - commonmark-node-link.construct.md: 'CommonMarkNodeLink::construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: Link успадковує CommonMarkNode

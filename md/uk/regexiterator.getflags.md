@@ -1,9 +1,9 @@
 ---
 navigation:
-  - regexiterator.construct.html: '« RegexIterator::construct'
-  - regexiterator.getmode.html: 'RegexIterator::getMode »'
-  - index.html: PHP Manual
-  - class.regexiterator.html: RegexIterator
+  - regexiterator.construct.md: '« RegexIterator::construct'
+  - regexiterator.getmode.md: 'RegexIterator::getMode »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::getFlags'
 ---
 # RegexIterator::getFlags
@@ -18,7 +18,7 @@ RegexIterator::getFlags — Отримання прапорів налаштув
 public RegexIterator::getFlags(): int
 ```
 
-Повертає прапори настроювання. Список можливих прапорів наведено в описі методу [RegexIterator::setFlags()](regexiterator.setflags.html)
+Повертає прапори настроювання. Список можливих прапорів наведено в описі методу [RegexIterator::setFlags()](regexiterator.setflags.md)
 
 ### Список параметрів
 
@@ -57,4 +57,4 @@ if ($regexIterator->getFlags() & RegexIterator::USE_KEY) {
 
 ### Дивіться також
 
--   [RegexIterator::setFlags()](regexiterator.setflags.html) - Установка прапорів
+-   [RegexIterator::setFlags()](regexiterator.setflags.md) - Установка прапорів

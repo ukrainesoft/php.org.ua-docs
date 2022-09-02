@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.bcsqrt.html: « bcsqrt
-  - book.gmp.html: GMP »
-  - index.html: PHP Manual
-  - ref.bc.html: Функции BC Math
+  - function.bcsqrt.md: « bcsqrt
+  - book.gmp.md: GMP »
+  - index.md: PHP Manual
+  - ref.bc.md: Функции BC Math
 title: bcsub
 ---
 # bcsub
@@ -32,7 +32,7 @@ bcsub(string $num1, string $num2, ?int $scale = null): string
 
 `scale`
 
-Цей необов'язковий параметр використовується для встановлення кількості знаків після десяткового роздільника у результаті. Якщо не задано, то, за умовчанням, буде використано значення, задане глобально за допомогою [bcscale()](function.bcscale.html), або `0`
+Цей необов'язковий параметр використовується для встановлення кількості знаків після десяткового роздільника у результаті. Якщо не задано, то, за умовчанням, буде використано значення, задане глобально за допомогою [bcscale()](function.bcscale.md), або `0`
 
 ### Значення, що повертаються
 
@@ -62,4 +62,4 @@ echo bcsub($a, $b, 4);  // -3.7660
 
 ### Дивіться також
 
--   [bcadd()](function.bcadd.html) - Скласти 2 числа довільної точності
+-   [bcadd()](function.bcadd.md) - Скласти 2 числа довільної точності

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-session.construct.html: '« MongoDBDriverSession::construct'
-  - mongodb-driver-session.getclustertime.html: 'MongoDBDriverSession::getClusterTime »'
+  - mongodb-driver-session.construct.md: '« MongoDBDriverSession::construct'
+  - mongodb-driver-session.getclustertime.md: 'MongoDBDriverSession::getClusterTime »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.html: MongoDBDriverSession
+  - class.mongodb-driver-session.md: MongoDBDriverSession
 title: 'MongoDBDriverSession::endSession'
 ---
 # MongoDBDriverSession::endSession

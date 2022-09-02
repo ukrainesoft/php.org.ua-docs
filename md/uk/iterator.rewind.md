@@ -1,9 +1,9 @@
 ---
 navigation:
-  - iterator.next.html: '« Iterator::next'
-  - iterator.valid.html: 'Iterator::valid »'
-  - index.html: PHP Manual
-  - class.iterator.html: Iterator
+  - iterator.next.md: '« Iterator::next'
+  - iterator.valid.md: 'Iterator::valid »'
+  - index.md: PHP Manual
+  - class.iterator.md: Iterator
 title: 'Iterator::rewind'
 ---
 # Iterator::rewind
@@ -22,7 +22,7 @@ public Iterator::rewind(): void
 
 > **Зауваження**
 > 
-> На початку циклу [foreach](control-structures.foreach.html) цей метод викликається *першим*. Метод *не буде* викликаний *після* циклу [foreach](control-structures.foreach.html)
+> На початку циклу [foreach](control-structures.foreach.md) цей метод викликається *першим*. Метод *не буде* викликаний *після* циклу [foreach](control-structures.foreach.md)
 
 ### Список параметрів
 

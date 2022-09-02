@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-commit.html: « svncommit
-  - function.svn-diff.html: svndiff »
+  - function.svn-commit.md: « svncommit
+  - function.svn-diff.md: svndiff »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svndelete

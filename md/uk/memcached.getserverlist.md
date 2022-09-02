@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.getserverbykey.html: '« Memcached::getServerByKey'
-  - memcached.getstats.html: 'Memcached::getStats »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.getserverbykey.md: '« Memcached::getServerByKey'
+  - memcached.getstats.md: 'Memcached::getStats »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::getServerList'
 ---
 # Memcached::getServerList

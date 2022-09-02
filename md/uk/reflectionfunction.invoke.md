@@ -62,5 +62,5 @@ Dr. Phil
 ### Дивіться також
 
 -   [ReflectionFunction::export()](reflectionfunction.export.md) - Експортує функції
--   [invoke()](language.oop5.magic.html#object.invoke)
+-   [invoke()](language.oop5.magic.md#object.invoke)
 -   [calluserfunc()](function.call-user-func.md) - Викликає callback-функцію, задану у першому параметрі

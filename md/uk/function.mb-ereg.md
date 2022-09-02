@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-ereg-search.html: « mberegsearch
-  - function.mb-eregi-replace.html: мбeregireplace »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-ereg-search.md: « mberegsearch
+  - function.mb-eregi-replace.md: мбeregireplace »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбereg
 ---
 # мбereg
@@ -51,9 +51,9 @@ $matches міститиме перший зліва підрядок у дужк
 
 > **Зауваження**
 > 
-> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.html)
+> Для цієї функції буде використано внутрішнє кодування або кодування, встановлене функцією [мбregexencoding()](function.mb-regex-encoding.md)
 
 ### Дивіться також
 
--   [мбregexencoding()](function.mb-regex-encoding.html) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
--   [мбeregi()](function.mb-eregi.html) - Пошук відповідностей регулярному виразу за допомогою багатобайтових символів без урахування регістру
+-   [мбregexencoding()](function.mb-regex-encoding.md) - Встановлює/отримує поточне кодування для багатобайтового регулярного виразу
+-   [мбeregi()](function.mb-eregi.md) - Пошук відповідностей регулярному виразу за допомогою багатобайтових символів без урахування регістру

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pspell-config-mode.html: « pspellconfigmode
-  - function.pspell-config-repl.html: pspellconfigrepl »
-  - index.html: PHP Manual
-  - ref.pspell.html: Функции Pspell
+  - function.pspell-config-mode.md: « pspellconfigmode
+  - function.pspell-config-repl.md: pspellconfigrepl »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
 title: pspellconfigpersonal
 ---
 # pspellconfigpersonal
@@ -18,15 +18,15 @@ pspellconfigpersonal — Встановлює файл, який містить 
 pspell_config_personal(PSpell\Config $config, string $filename): bool
 ```
 
-Встановлює файл, який містить список персональних слів. Персональний список слів буде завантажено та використано на додаток до стандартного після того, як ви викликаєте [pspellnewconfig()](function.pspell-new-config.html). Це той самий файл, в який функція [pspellsavewordlist()](function.pspell-save-wordlist.html) збереже персональний перелік слів.
+Встановлює файл, який містить список персональних слів. Персональний список слів буде завантажено та використано на додаток до стандартного після того, як ви викликаєте [pspellnewconfig()](function.pspell-new-config.md). Це той самий файл, в який функція [pspellsavewordlist()](function.pspell-save-wordlist.md) збереже персональний перелік слів.
 
-**pspellconfigpersonal()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html)
+**pspellconfigpersonal()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpellConfig](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.md)
 
 `filename`
 
@@ -40,7 +40,7 @@ pspell_config_personal(PSpell\Config $config, string $filename): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

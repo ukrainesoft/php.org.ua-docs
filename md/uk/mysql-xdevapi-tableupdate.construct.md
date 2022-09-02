@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableupdate.bind.html: '« TableUpdate::bind'
-  - mysql-xdevapi-tableupdate.execute.html: 'TableUpdate::execute »'
+  - mysql-xdevapi-tableupdate.bind.md: '« TableUpdate::bind'
+  - mysql-xdevapi-tableupdate.execute.md: 'TableUpdate::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
 title: 'TableUpdate::construct'
 ---
 # TableUpdate::construct

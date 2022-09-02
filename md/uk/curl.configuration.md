@@ -1,9 +1,9 @@
 ---
 navigation:
-  - curl.installation.html: « Установка
-  - curl.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - curl.setup.html: Встановлення та налаштування
+  - curl.installation.md: « Установка
+  - curl.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - curl.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,9 +14,9 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [curl.cainfo](curl.configuration.html#ini.curl.cainfo) | NULL | PHPINISYSTEM |  |
+| [curl.cainfo](curl.configuration.md#ini.curl.cainfo) | NULL | PHPINISYSTEM |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

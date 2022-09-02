@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-grid.html: « UIControlsGrid
-  - ui-controls-grid.ispadded.html: 'ОЙControlsGrid::isPadded »'
+  - class.ui-controls-grid.md: « UIControlsGrid
+  - ui-controls-grid.ispadded.md: 'ОЙControlsGrid::isPadded »'
   - index.md: PHP Manual
-  - class.ui-controls-grid.html: ОЙControlsGrid
+  - class.ui-controls-grid.md: ОЙControlsGrid
 title: 'ОЙControlsGrid::append'
 ---
 # ОЙControlsGrid::append

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.phpdbg-break-method.html: « phpdbgbreakmethod
-  - function.phpdbg-clear.html: phpdbgclear »
-  - index.html: PHP Manual
-  - ref.phpdbg.html: Функции phpdbg
+  - function.phpdbg-break-method.md: « phpdbgbreakmethod
+  - function.phpdbg-clear.md: phpdbgclear »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
 title: phpdbgbreaknext
 ---
 # phpdbgbreaknext
@@ -30,7 +30,7 @@ phpdbg_break_next(): void
 
 ### Дивіться також
 
--   [phpdbgbreakfile()](function.phpdbg-break-file.html) - Додати точку переривання на конкретний рядок файлу
--   [phpdbgbreakfunction()](function.phpdbg-break-function.html) - Додати точку переривання на виклик функції
--   [phpdbgbreakmethod()](function.phpdbg-break-method.html) - Додати точку переривання на виклик методу класу
--   [phpdbgclear()](function.phpdbg-clear.html) - Прибрати всі точки переривання
+-   [phpdbgbreakfile()](function.phpdbg-break-file.md) - Додати точку переривання на конкретний рядок файлу
+-   [phpdbgbreakfunction()](function.phpdbg-break-function.md) - Додати точку переривання на виклик функції
+-   [phpdbgbreakmethod()](function.phpdbg-break-method.md) - Додати точку переривання на виклик методу класу
+-   [phpdbgclear()](function.phpdbg-clear.md) - Прибрати всі точки переривання

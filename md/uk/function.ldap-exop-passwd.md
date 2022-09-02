@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-escape.html: « ldapescape
-  - function.ldap-exop-refresh.html: ldapexoprefresh »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-escape.md: « ldapescape
+  - function.ldap-exop-refresh.md: ldapexoprefresh »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapexoppasswd
 ---
 # ldapexoppasswd
@@ -24,7 +24,7 @@ ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",   �
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `user`
 
@@ -40,7 +40,7 @@ ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",   �
 
 `controls`
 
-Якщо задано, то із запитом буде передано запит парольної політики і це поле буде заповнено масивом [управляющих констант LDAP](ldap.controls.html), повернутим запитом.
+Якщо задано, то із запитом буде передано запит парольної політики і це поле буде заповнено масивом [управляющих констант LDAP](ldap.controls.md), повернутим запитом.
 
 ### Значення, що повертаються
 
@@ -50,7 +50,7 @@ ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",   �
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 |  | Додано підтримку параметра `controls` |
 
@@ -89,5 +89,5 @@ if ($ds) {
 
 ### Дивіться також
 
--   [ldapexop()](function.ldap-exop.html) - Виконує розширену операцію
--   [ldapparseexop()](function.ldap-parse-exop.html) - Розбір результуючого об'єкта виконання розширеної операції LDAP
+-   [ldapexop()](function.ldap-exop.md) - Виконує розширену операцію
+-   [ldapparseexop()](function.ldap-parse-exop.md) - Розбір результуючого об'єкта виконання розширеної операції LDAP

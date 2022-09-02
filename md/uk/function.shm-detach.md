@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.shm-attach.html: « shmattach
-  - function.shm-get-var.html: shmgetvar »
-  - index.html: PHP Manual
-  - ref.sem.html: Функції семафорів
+  - function.shm-attach.md: « shmattach
+  - function.shm-get-var.md: shmgetvar »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
 title: shmdetach
 ---
 # shmdetach
@@ -18,13 +18,13 @@ shmdetach — Вимикається від сегмента пам'яті, що
 shm_detach(SysvSharedMemory $shm): bool
 ```
 
-**shmdetach()** відключається від сегмента пам'яті, зазначеного в `shm`, створеного [shmattach()](function.shm-attach.html). Пам'ятайте, що пам'ять, що розділяється, все ще існує в системі Unix і дані все ще присутні.
+**shmdetach()** відключається від сегмента пам'яті, зазначеного в `shm`, створеного [shmattach()](function.shm-attach.md). Пам'ятайте, що пам'ять, що розділяється, все ще існує в системі Unix і дані все ще присутні.
 
 ### Список параметрів
 
 `shm`
 
-Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.html)
+Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.md)
 
 ### Значення, що повертаються
 
@@ -34,10 +34,10 @@ shm_detach(SysvSharedMemory $shm): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `shm` чекає на екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікувався ресурс (resource). |
+|  | `shm` чекає на екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [shmattach()](function.shm-attach.html) - Створює або відкриває сегмент пам'яті, що розділяється
--   [shmremove()](function.shm-remove.html) - Видаляє пам'ять, що розділяється, з систем Unix
--   [shmremovevar()](function.shm-remove-var.html) - Видаляє змінну з пам'яті, що розділяється.
+-   [shmattach()](function.shm-attach.md) - Створює або відкриває сегмент пам'яті, що розділяється
+-   [shmremove()](function.shm-remove.md) - Видаляє пам'ять, що розділяється, з систем Unix
+-   [shmremovevar()](function.shm-remove-var.md) - Видаляє змінну з пам'яті, що розділяється.

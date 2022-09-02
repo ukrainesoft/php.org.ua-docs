@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-box.getorientation.html: '« UIControlsBox::getOrientation'
-  - ui-controls-box.setpadded.html: 'ОЙControlsBox::setPadded »'
+  - ui-controls-box.getorientation.md: '« UIControlsBox::getOrientation'
+  - ui-controls-box.setpadded.md: 'ОЙControlsBox::setPadded »'
   - index.md: PHP Manual
-  - class.ui-controls-box.html: ОЙControlsBox
+  - class.ui-controls-box.md: ОЙControlsBox
 title: 'ОЙControlsBox::isPadded'
 ---
 # ОЙControlsBox::isPadded

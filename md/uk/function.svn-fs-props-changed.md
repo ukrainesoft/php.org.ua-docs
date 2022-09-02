@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-node-prop.html: « svnфсnodeprop
-  - function.svn-fs-revision-prop.html: svnфсrevisionprop »
+  - function.svn-fs-node-prop.md: « svnфсnodeprop
+  - function.svn-fs-revision-prop.md: svnфсrevisionprop »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсpropschanged

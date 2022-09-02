@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-mkfifo.html: « posixmkfifo
-  - function.posix-setegid.html: posixsetegid »
+  - function.posix-mkfifo.md: « posixmkfifo
+  - function.posix-setegid.md: posixsetegid »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixmknod

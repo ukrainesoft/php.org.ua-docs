@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.zmqpoll.html: « ZMQPoll
-  - zmqpoll.clear.html: 'ZMQPoll::clear »'
-  - index.html: PHP Manual
-  - class.zmqpoll.html: ZMQPoll
+  - class.zmqpoll.md: « ZMQPoll
+  - zmqpoll.clear.md: 'ZMQPoll::clear »'
+  - index.md: PHP Manual
+  - class.zmqpoll.md: ZMQPoll
 title: 'ZMQPoll::add'
 ---
 # ZMQPoll::add

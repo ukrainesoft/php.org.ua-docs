@@ -12,7 +12,7 @@ title: Клас COMPersistHelper
 
 ## Вступ
 
-**COMPersistHelper** покращує сумісність COM і PHP щодо php.ini директиви [openbasedir](ini.core.html#ini.open-basedir) та потокових ресурсів.
+**COMPersistHelper** покращує сумісність COM і PHP щодо php.ini директиви [openbasedir](ini.core.md#ini.open-basedir) та потокових ресурсів.
 
 ## Огляд класів
 

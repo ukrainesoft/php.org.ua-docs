@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mcrypt-enc-self-test.html: « mcryptencselftest
-  - function.mcrypt-generic-deinit.html: mcryptgenericdeinit »
-  - index.html: PHP Manual
-  - ref.mcrypt.html: Mcrypt
+  - function.mcrypt-enc-self-test.md: « mcryptencselftest
+  - function.mcrypt-generic-deinit.md: mcryptgenericdeinit »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
 title: mcryptencrypt
 ---
 # mcryptencrypt
@@ -124,5 +124,5 @@ This string was AES-256 / CBC / ZeroBytePadding encrypted.
 
 ### Дивіться також
 
--   [mcryptdecrypt()](function.mcrypt-decrypt.html) - Розшифровує дані із заданими параметрами
--   [mcryptmoduleopen()](function.mcrypt-module-open.html) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму
+-   [mcryptdecrypt()](function.mcrypt-decrypt.md) - Розшифровує дані із заданими параметрами
+-   [mcryptmoduleopen()](function.mcrypt-module-open.md) - Відкриває модуль шифрування з використанням вказаних алгоритму та режиму

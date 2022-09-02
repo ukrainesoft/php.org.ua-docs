@@ -1,9 +1,9 @@
 ---
 navigation:
-  - password.requirements.html: « Вимоги
-  - password.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - password.setup.html: Встановлення та налаштування
+  - password.requirements.md: « Вимоги
+  - password.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - password.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

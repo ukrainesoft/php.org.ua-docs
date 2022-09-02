@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.attr-set.html: '« mysqlistmt::attrset'
-  - mysqli-stmt.bind-result.html: 'mysqlistmt::bindresult »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.attr-set.md: '« mysqlistmt::attrset'
+  - mysqli-stmt.bind-result.md: 'mysqlistmt::bindresult »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::bindparam'
 ---
 # mysqlistmt::bindparam
@@ -28,7 +28,7 @@ public mysqli_stmt::bind_param(string $types, mixed &$var, mixed &...$vars): boo
 mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$var,    mixed &...$vars): bool
 ```
 
-Прив'язує змінні до міток параметрів у SQL-вираженні, яке було підготовлене функцією [mysqliprepare()](mysqli.prepare.html) або [mysqlistmtprepare()](mysqli-stmt.prepare.md)
+Прив'язує змінні до міток параметрів у SQL-вираженні, яке було підготовлене функцією [mysqliprepare()](mysqli.prepare.md) або [mysqlistmtprepare()](mysqli-stmt.prepare.md)
 
 > **Зауваження**
 > 
@@ -36,13 +36,13 @@ mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,  
 
 > **Зауваження**
 > 
-> При використанні **mysqlistmtbindparam()** спільно з [calluserfuncarray()](function.call-user-func-array.html) необхідно дотримуватися особливої ​​обережності. Потрібно брати до уваги, що **mysqlistmtbindparam()** приймає як параметри лише посилання на значення, у той час як [calluserfuncarray()](function.call-user-func-array.md) приймає перелік параметрів, які можуть передаватися як за посиланням, так і за значенням.
+> При використанні **mysqlistmtbindparam()** спільно з [calluserfuncarray()](function.call-user-func-array.md) необхідно дотримуватися особливої ​​обережності. Потрібно брати до уваги, що **mysqlistmtbindparam()** приймає як параметри лише посилання на значення, у той час як [calluserfuncarray()](function.call-user-func-array.md) приймає перелік параметрів, які можуть передаватися як за посиланням, так і за значенням.
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `types`
 

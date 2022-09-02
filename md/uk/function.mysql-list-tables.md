@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-list-processes.html: « mysqllistprocesses
-  - function.mysql-num-fields.html: mysqlnumfields »
+  - function.mysql-list-processes.md: « mysqllistprocesses
+  - function.mysql-num-fields.md: mysqlnumfields »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqllisttables
@@ -36,13 +36,13 @@ mysql_list_tables(string $database, resource $link_identifier = NULL): resource|
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
 Дескриптор результату (resource) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-Використовуйте функцію [mysqltablename()](function.mysql-tablename.html) для роботи з результатом запиту або будь-яку іншу функцію, здатну це робити, наприклад, [mysqlfetcharray()](function.mysql-fetch-array.md)
+Використовуйте функцію [mysqltablename()](function.mysql-tablename.md) для роботи з результатом запиту або будь-яку іншу функцію, здатну це робити, наприклад, [mysqlfetcharray()](function.mysql-fetch-array.md)
 
 ### список змін
 

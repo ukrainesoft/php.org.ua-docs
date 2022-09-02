@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.umask.html: « umask
-  - book.inotify.html: Inotify »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.umask.md: « umask
+  - book.inotify.md: Inotify »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: unlink
 ---
 # unlink
@@ -26,11 +26,11 @@ unlink(string $filename, ?resource $context = null): bool
 
 Шлях до файлу.
 
-Якщо файл є символічним посиланням, символічне посилання буде видалено. У Windows для видалення символічного посилання на каталог замість цього має використовуватися функція [rmdir()](function.rmdir.html)
+Якщо файл є символічним посиланням, символічне посилання буде видалено. У Windows для видалення символічного посилання на каталог замість цього має використовуватися функція [rmdir()](function.rmdir.md)
 
 `context`
 
-Ресурс (resource) з [контекстом потоку](stream.contexts.html)
+Ресурс (resource) з [контекстом потоку](stream.contexts.md)
 
 ### Значення, що повертаються
 
@@ -58,4 +58,4 @@ unlink('test.html');
 
 ### Дивіться також
 
--   [rmdir()](function.rmdir.html) - видаляє директорію
+-   [rmdir()](function.rmdir.md) - видаляє директорію

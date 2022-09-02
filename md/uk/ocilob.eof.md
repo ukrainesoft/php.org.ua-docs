@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ocilob.close.html: '« OCILob::close'
-  - ocilob.erase.html: 'OCILob::erase »'
-  - index.html: PHP Manual
-  - class.ocilob.html: OCILob
+  - ocilob.close.md: '« OCILob::close'
+  - ocilob.erase.md: 'OCILob::erase »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
 title: 'OCILob::eof'
 ---
 # OCILob::eof

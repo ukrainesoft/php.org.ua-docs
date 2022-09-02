@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.recode.html: « recode
-  - book.exif.html: Exif »
-  - index.html: PHP Manual
-  - funcref.html: Справочник функций
+  - function.recode.md: « recode
+  - book.exif.md: Exif »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
 title: Обробка та генерація зображень
 ---
 # Обробка та генерація зображень

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getmethod.html: '« YafRequestAbstract::getMethod'
-  - yaf-request-abstract.getparam.html: 'YafRequestAbstract::getParam »'
-  - index.html: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - yaf-request-abstract.getmethod.md: '« YafRequestAbstract::getMethod'
+  - yaf-request-abstract.getparam.md: 'YafRequestAbstract::getParam »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getModuleName'
 ---
 # YafRequestAbstract::getModuleName

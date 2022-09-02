@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-dema.html: « traderdema
-  - function.trader-dx.html: traderdx »
+  - function.trader-dema.md: « traderdema
+  - function.trader-dx.md: traderdx »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderdiv

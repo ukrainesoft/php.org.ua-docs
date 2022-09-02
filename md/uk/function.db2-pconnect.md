@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-pclose.html: « db2pclose
-  - function.db2-prepare.html: db2prepare »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-pclose.md: « db2pclose
+  - function.db2-prepare.md: db2prepare »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2pconnect
 ---
 # db2pconnect
@@ -20,9 +20,9 @@ db2_pconnect(    string $database,    string $username,    string $p
 
 Повертає постійне з'єднання з базою даних IBM DB2 Universal Database, IBM Cloudscape або Apache Derby.
 
-Для отримання додаткової інформації про постійні з'єднання дивіться [Постійні з'єднання з базами даних](features.persistent-connections.html)
+Для отримання додаткової інформації про постійні з'єднання дивіться [Постійні з'єднання з базами даних](features.persistent-connections.md)
 
-Виклик [db2close()](function.db2-close.html) у постійному з'єднанні завжди повертає **`true`**, але базове клієнтське з'єднання DB2 залишається відкритим і чекає на обслуговування наступного відповідного запиту **db2pconnect()**
+Виклик [db2close()](function.db2-close.md) у постійному з'єднанні завжди повертає **`true`**, але базове клієнтське з'єднання DB2 залишається відкритим і чекає на обслуговування наступного відповідного запиту **db2pconnect()**
 
 Користувачі, які використовують ibmdb2 версії 1.9.0 або пізнішої повинні знати, що модуль виконає відкат транзакції для постійних з'єднань в кінці запиту, тим самим завершивши транзакцію. Це запобігає перенесенню блоку транзакції на наступний запит, який використовує це з'єднання, якщо виконання скрипта завершується раніше, ніж блок транзакції.
 
@@ -68,7 +68,7 @@ db2_pconnect(    string $database,    string $username,    string $p
 
 `trustedcontext`
 
-Передача значення DB2TRUSTEDCONTEXTENABLE включає довірений контекст цього дескриптора з'єднання. Параметр не можна встановити за допомогою [db2setoption()](function.db2-set-option.html)
+Передача значення DB2TRUSTEDCONTEXTENABLE включає довірений контекст цього дескриптора з'єднання. Параметр не можна встановити за допомогою [db2setoption()](function.db2-set-option.md)
 
 Ключ працює тільки в тому випадку, якщо база даних каталогізована (навіть якщо база даних є локальною) або якщо ви вкажете повний DSN під час створення з'єднання.
 
@@ -312,4 +312,4 @@ else {
 
 ### Дивіться також
 
--   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
+-   [db2connect()](function.db2-connect.md) - Повертає з'єднання з базою даних

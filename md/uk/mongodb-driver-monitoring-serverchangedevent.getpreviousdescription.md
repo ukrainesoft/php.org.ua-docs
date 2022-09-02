@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverchangedevent.getport.html: '« MongoDBDriverMonitoringServerChangedEvent::getPort'
-  - mongodb-driver-monitoring-serverchangedevent.gettopologyid.html: 'MongoDBDriverMonitoringServerChangedEvent::getTopologyId »'
+  - mongodb-driver-monitoring-serverchangedevent.getport.md: '« MongoDBDriverMonitoringServerChangedEvent::getPort'
+  - mongodb-driver-monitoring-serverchangedevent.gettopologyid.md: 'MongoDBDriverMonitoringServerChangedEvent::getTopologyId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverchangedevent.html: MongoDBDriverMonitoringServerChangedEvent
+  - class.mongodb-driver-monitoring-serverchangedevent.md: MongoDBDriverMonitoringServerChangedEvent
 title: 'MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription'
 ---
 # MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription

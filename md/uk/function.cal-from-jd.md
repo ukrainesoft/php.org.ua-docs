@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cal-days-in-month.html: « caldaysінmonth
-  - function.cal-info.html: calinfo »
-  - index.html: PHP Manual
-  - ref.calendar.html: Календарь
+  - function.cal-days-in-month.md: « caldaysінmonth
+  - function.cal-info.md: calinfo »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
 title: calfromжд
 ---
 # calfromжд
@@ -64,9 +64,9 @@ Array
 
 ### Дивіться також
 
--   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську
--   [jdtofrench()](function.jdtofrench.html) - Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
--   [jdtogregorian()](function.jdtogregorian.html) - Переказує кількість днів у юліанському літочисленні в дату за Григоріанським календарем
--   [jdtojewish()](function.jdtojewish.html) - Переказує кількість днів з юліанського календаря на дату за єврейським календарем
--   [jdtojulian()](function.jdtojulian.html) - Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
--   [jdtounix()](function.jdtounix.html) - Перекладає число днів у юліанському літочисленні у мітку часу Unix
+-   [calтоjd()](function.cal-to-jd.md) - Перетворює задану дату на юліанську
+-   [jdtofrench()](function.jdtofrench.md) - Переказує кількість днів у юліанському літочисленні в дату за французьким республіканським календарем
+-   [jdtogregorian()](function.jdtogregorian.md) - Переказує кількість днів у юліанському літочисленні в дату за Григоріанським календарем
+-   [jdtojewish()](function.jdtojewish.md) - Переказує кількість днів з юліанського календаря на дату за єврейським календарем
+-   [jdtojulian()](function.jdtojulian.md) - Переказує кількість днів у юліанському літочисленні в дату за юліанським календарем
+-   [jdtounix()](function.jdtounix.md) - Перекладає число днів у юліанському літочисленні у мітку часу Unix

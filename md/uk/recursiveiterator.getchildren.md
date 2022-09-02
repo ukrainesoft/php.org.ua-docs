@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.recursiveiterator.html: « RecursiveIterator
-  - recursiveiterator.haschildren.html: 'RecursiveIterator::hasChildren »'
-  - index.html: PHP Manual
-  - class.recursiveiterator.html: RecursiveIterator
+  - class.recursiveiterator.md: « RecursiveIterator
+  - recursiveiterator.haschildren.md: 'RecursiveIterator::hasChildren »'
+  - index.md: PHP Manual
+  - class.recursiveiterator.md: RecursiveIterator
 title: 'RecursiveIterator::getChildren'
 ---
 # RecursiveIterator::getChildren
@@ -30,4 +30,4 @@ public RecursiveIterator::getChildren(): ?RecursiveIterator
 
 ### Дивіться також
 
--   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.html) - Визначає, чи можна створити ітератор для поточного елемента.
+-   [RecursiveIterator::hasChildren()](recursiveiterator.haschildren.md) - Визначає, чи можна створити ітератор для поточного елемента.

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fbird-num-params.html: « fbirdnumparams
-  - function.fbird-pconnect.html: fbirdpconnect »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.fbird-num-params.md: « fbirdnumparams
+  - function.fbird-pconnect.md: fbirdpconnect »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdparaminfo
 ---
 # fbirdparaminfo

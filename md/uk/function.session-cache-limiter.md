@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.session-cache-expire.html: « sessioncacheexpire
-  - function.session-commit.html: sessioncommit »
-  - index.html: PHP Manual
-  - ref.session.html: Функції для роботи із сесіями
+  - function.session-cache-expire.md: « sessioncacheexpire
+  - function.session-commit.md: sessioncommit »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
 title: sessioncachelimiter
 ---
 # sessioncachelimiter
@@ -26,7 +26,7 @@ session_cache_limiter(?string $value = null): string|false
 
 Встановлення режиму кешування в `''` відключає автоматичне надсилання кеш-заголовків.
 
-Під час початку запиту режим кешування скидається до значення за промовчанням, яке зберігається в [session.cachelimiter](session.configuration.html#ini.session.cache-limiter). Таким чином, вам необхідно викликати **sessioncachelimiter()** для кожного запиту (перед тим, як викликана функція [sessionstart()](function.session-start.md)
+Під час початку запиту режим кешування скидається до значення за промовчанням, яке зберігається в [session.cachelimiter](session.configuration.md#ini.session.cache-limiter). Таким чином, вам необхідно викликати **sessioncachelimiter()** для кожного запиту (перед тим, як викликана функція [sessionstart()](function.session-start.md)
 
 ### Список параметрів
 
@@ -83,4 +83,4 @@ echo "Режим кеширования установлен в $cache_limi
 
 ### Дивіться також
 
--   [session.cachelimiter](session.configuration.html#ini.session.cache-limiter)
+-   [session.cachelimiter](session.configuration.md#ini.session.cache-limiter)

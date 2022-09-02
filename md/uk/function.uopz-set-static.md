@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.uopz-set-return.html: « uopzsetreturn
-  - function.uopz-undefine.html: uopzundefine »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - function.uopz-set-return.md: « uopzsetreturn
+  - function.uopz-undefine.md: uopzundefine »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzsetstatic
 ---
 # uopzsetstatic
@@ -65,4 +65,4 @@ string(3) "qux"
 
 ### Дивіться також
 
--   [uopzgetstatic()](function.uopz-get-static.html) - Повертає статичні змінні в області видимості функції або методу
+-   [uopzgetstatic()](function.uopz-get-static.md) - Повертає статичні змінні в області видимості функції або методу

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.isempty.html: '« SplDoublyLinkedList::isEmpty'
-  - spldoublylinkedlist.next.html: 'SplDoublyLinkedList::next »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.isempty.md: '« SplDoublyLinkedList::isEmpty'
+  - spldoublylinkedlist.next.md: 'SplDoublyLinkedList::next »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::key'
 ---
 # SplDoublyLinkedList::key

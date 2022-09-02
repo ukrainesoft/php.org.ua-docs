@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.idate.html: « idate
-  - function.microtime.html: microtime »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.idate.md: « idate
+  - function.microtime.md: microtime »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: localtime
 ---
 # localtime

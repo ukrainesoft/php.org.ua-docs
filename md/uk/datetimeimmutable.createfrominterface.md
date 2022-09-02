@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetimeimmutable.createfromformat.html: '« DateTimeImmutable::createFromFormat'
-  - datetimeimmutable.createfrommutable.html: 'DateTimeImmutable::createFromMutable »'
-  - index.html: PHP Manual
-  - class.datetimeimmutable.html: DateTimeImmutable
+  - datetimeimmutable.createfromformat.md: '« DateTimeImmutable::createFromFormat'
+  - datetimeimmutable.createfrommutable.md: 'DateTimeImmutable::createFromMutable »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::createFromInterface'
 ---
 # DateTimeImmutable::createFromInterface
@@ -22,7 +22,7 @@ public static DateTimeImmutable::createFromInterface(DateTimeInterface $object):
 
 `object`
 
-Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.html), який необхідно конвертувати на іммутабельну версію. Сам об'єкт не змінюється. Натомість повертається новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з тими самими значеннями дати, часу та часового поясу.
+Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.md), який необхідно конвертувати на іммутабельну версію. Сам об'єкт не змінюється. Натомість повертається новий об'єкт [DateTimeImmutable](class.datetimeimmutable.md) з тими самими значеннями дати, часу та часового поясу.
 
 ### Значення, що повертаються
 

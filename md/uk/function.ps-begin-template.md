@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-begin-pattern.html: «psbeginpattern
-  - function.ps-circle.html: псcircle »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-begin-pattern.md: «psbeginpattern
+  - function.ps-circle.md: псcircle »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псbegintemplate
 ---
 # псbegintemplate

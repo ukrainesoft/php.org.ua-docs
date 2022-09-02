@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ini-alter.html: « inialter
-  - function.ini-get.html: iniget »
+  - function.ini-alter.md: « inialter
+  - function.ini-get.md: iniget »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: inigetall

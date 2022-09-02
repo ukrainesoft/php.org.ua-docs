@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-draw-brush-lineargradient.html: « UIDrawBrushLinearGradient
-  - class.ui-draw-brush-radialgradient.html: ОЙDrawBrushRadialGradient »
+  - class.ui-draw-brush-lineargradient.md: « UIDrawBrushLinearGradient
+  - class.ui-draw-brush-radialgradient.md: ОЙDrawBrushRadialGradient »
   - index.md: PHP Manual
-  - class.ui-draw-brush-lineargradient.html: ОЙDrawBrushLinearGradient
+  - class.ui-draw-brush-lineargradient.md: ОЙDrawBrushLinearGradient
 title: 'ОЙDrawBrushLinearGradient::construct'
 ---
 # ОЙDrawBrushLinearGradient::construct
@@ -14,7 +14,7 @@ title: 'ОЙDrawBrushLinearGradient::construct'
 
 ### Опис
 
-public **ОЙDrawBrushLinearGradient::construct**[ОЙPoint](class.ui-point.html) `$start` [ОЙPoint](class.ui-point.md) `$end`
+public **ОЙDrawBrushLinearGradient::construct**[ОЙPoint](class.ui-point.md) `$start` [ОЙPoint](class.ui-point.md) `$end`
 
 Створює новий лінійний градієнт
 

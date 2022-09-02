@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setstrokedashoffset.html: '« ImagickDraw::setStrokeDashOffset'
-  - imagickdraw.setstrokelinejoin.html: 'ImagickDraw::setStrokeLineJoin »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setstrokedashoffset.md: '« ImagickDraw::setStrokeDashOffset'
+  - imagickdraw.setstrokelinejoin.md: 'ImagickDraw::setStrokeLineJoin »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setStrokeLineCap'
 ---
 # ImagickDraw::setStrokeLineCap
@@ -28,7 +28,7 @@ public ImagickDraw::setStrokeLineCap(int $linecap): bool
 
 `linecap`
 
-Одна з констант [LINECAP](imagick.constants.html#imagick.constants.linecap) `imagick::LINECAP_*`
+Одна з констант [LINECAP](imagick.constants.md#imagick.constants.linecap) `imagick::LINECAP_*`
 
 ### Значення, що повертаються
 

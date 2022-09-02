@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pcntl.configuration.html: « Налаштування під час виконання
-  - pcntl.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - pcntl.setup.html: Встановлення та налаштування
+  - pcntl.configuration.md: « Налаштування під час виконання
+  - pcntl.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - pcntl.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

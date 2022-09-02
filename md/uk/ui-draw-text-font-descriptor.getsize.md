@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-font-descriptor.getitalic.html: '« UIDrawTextFontDescriptor::getItalic'
-  - ui-draw-text-font-descriptor.getstretch.html: 'ОЙDrawTextFontDescriptor::getStretch »'
-  - index.html: PHP Manual
-  - class.ui-draw-text-font-descriptor.html: ОЙDrawTextFontDescriptor
+  - ui-draw-text-font-descriptor.getitalic.md: '« UIDrawTextFontDescriptor::getItalic'
+  - ui-draw-text-font-descriptor.getstretch.md: 'ОЙDrawTextFontDescriptor::getStretch »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font-descriptor.md: ОЙDrawTextFontDescriptor
 title: 'ОЙDrawTextFontDescriptor::getSize'
 ---
 # ОЙDrawTextFontDescriptor::getSize

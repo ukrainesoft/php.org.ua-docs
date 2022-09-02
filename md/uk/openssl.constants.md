@@ -1,7 +1,7 @@
 ---
 navigation:
   - openssl.resources.md: « Типи ресурсів
-  - openssl.purpose-check.html: Прапори перевірки »
+  - openssl.purpose-check.md: Прапори перевірки »
   - index.md: PHP Manual
   - book.openssl.md: OpenSSL
 title: Обумовлені константи

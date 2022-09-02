@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.hash.html: « hash
-  - intro.mcrypt.html: Введение »
-  - index.html: PHP Manual
-  - refs.crypto.html: Криптографічні модулі
+  - function.hash.md: « hash
+  - intro.mcrypt.md: Введение »
+  - index.md: PHP Manual
+  - refs.crypto.md: Криптографічні модулі
 title: Mcrypt
 ---
 # Mcrypt

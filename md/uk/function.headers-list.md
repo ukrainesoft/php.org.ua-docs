@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.header.md: « header
-  - function.headers-sent.html: headerssent »
+  - function.headers-sent.md: headerssent »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: headerslist

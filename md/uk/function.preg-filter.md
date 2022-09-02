@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pcre.html: « Функции PCRE
-  - function.preg-grep.html: preggrep »
-  - index.html: PHP Manual
-  - ref.pcre.html: Функции PCRE
+  - ref.pcre.md: « Функции PCRE
+  - function.preg-grep.md: preggrep »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
 title: pregfilter
 ---
 # pregfilter
@@ -18,11 +18,11 @@ pregfilter — Здійснює пошук та заміну за регуляр
 preg_filter(    string|array $pattern,    string|array $replacement,    string|array $subject,    int $limit = -1,    int &$count = null): string|array|null
 ```
 
-Функція **pregfilter()** ідентична функції [pregreplace()](function.preg-replace.html) крім того, що повертає ті значення (можливо, перетворені), у яких знайдено збіг. Докладніше про роботу функції читайте у документації до [pregreplace()](function.preg-replace.html)
+Функція **pregfilter()** ідентична функції [pregreplace()](function.preg-replace.md) крім того, що повертає ті значення (можливо, перетворені), у яких знайдено збіг. Докладніше про роботу функції читайте у документації до [pregreplace()](function.preg-replace.md)
 
 ### Список параметрів
 
-Параметри описані в документації для функції [pregreplace()](function.preg-replace.html)
+Параметри описані в документації для функції [pregreplace()](function.preg-replace.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ preg_filter(    string|array $pattern,    string|array $replacement,  
 
 ### Приклади
 
-**Приклад #1 Приклад для порівняння функцій **pregfilter()** і [pregreplace()](function.preg-replace.html)**
+**Приклад #1 Приклад для порівняння функцій **pregfilter()** і [pregreplace()](function.preg-replace.md)**
 
 ```php
 <?php
@@ -81,9 +81,9 @@ Array
 
 ### Дивіться також
 
--   [Шаблони PCRE](pcre.pattern.html)
--   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [pregreplacecallback()](function.preg-replace-callback.html) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
--   [preggrep()](function.preg-grep.html) - Повертає масив входжень, які відповідають шаблону
--   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [Шаблони PCRE](pcre.pattern.md)
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [pregreplacecallback()](function.preg-replace-callback.md) - Виконує пошук за регулярним виразом та заміною з використанням callback-функції
+-   [preggrep()](function.preg-grep.md) - Повертає масив входжень, які відповідають шаблону
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE

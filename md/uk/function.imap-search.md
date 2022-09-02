@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-scanmailbox.html: « imapscanmailbox
-  - function.imap-set-quota.html: imapsetquota »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-scanmailbox.md: « imapscanmailbox
+  - function.imap-set-quota.md: imapsetquota »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapsearch
 ---
 # imapsearch
@@ -75,7 +75,7 @@ imap_search(    IMAP\Connection $imap,    string $criteria,    int $
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

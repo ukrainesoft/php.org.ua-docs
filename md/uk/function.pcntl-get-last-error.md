@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-fork.html: pcntlfork
-  - function.pcntl-getpriority.html: pcntlgetpriority »
+  - function.pcntl-fork.md: pcntlfork
+  - function.pcntl-getpriority.md: pcntlgetpriority »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlgetlasterror

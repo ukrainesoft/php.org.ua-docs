@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domnodelist.count.html: '« DOMNodeList::count'
-  - class.domnotation.html: DOMNotation »
-  - index.html: PHP Manual
-  - class.domnodelist.html: DOMNodeList
+  - domnodelist.count.md: '« DOMNodeList::count'
+  - class.domnotation.md: DOMNotation »
+  - index.md: PHP Manual
+  - class.domnodelist.md: DOMNodeList
 title: 'DOMNodeList::item'
 ---
 # DOMNodeList::item
@@ -18,11 +18,11 @@ DOMNodeList::item — Отримує вузол із заданим індекс
 public DOMNodeList::item(int $index): DOMNode|DOMNameSpaceNode|null
 ```
 
-Витягує вузол із заданим індексом `index` з об'єкту класу [DOMNodeList](class.domnodelist.html)
+Витягує вузол із заданим індексом `index` з об'єкту класу [DOMNodeList](class.domnodelist.md)
 
 **Підказка**
 
-Якщо потрібно дізнатися кількість вузлів у колекції, використовуйте властивість `length` об'єкта класу [DOMNodeList](class.domnodelist.html)
+Якщо потрібно дізнатися кількість вузлів у колекції, використовуйте властивість `length` об'єкта класу [DOMNodeList](class.domnodelist.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public DOMNodeList::item(int $index): DOMNode|DOMNameSpaceNode|null
 
 ### Значення, що повертаються
 
-Вузол, що знаходиться в позиції `index` об'єкта [DOMNodeList](class.domnodelist.html), або \*\*`null`\*\*якщо цей індекс неприпустимий.
+Вузол, що знаходиться в позиції `index` об'єкта [DOMNodeList](class.domnodelist.md), або \*\*`null`\*\*якщо цей індекс неприпустимий.
 
 ### Приклади
 
@@ -53,7 +53,7 @@ for ($i = 0; $i < $items->length; $i++) {
 ?>
 ```
 
-Крім того, можна скористатися [foreach](control-structures.foreach.html);, що буде набагато зручніше:
+Крім того, можна скористатися [foreach](control-structures.foreach.md);, що буде набагато зручніше:
 
 ```php
 <?php

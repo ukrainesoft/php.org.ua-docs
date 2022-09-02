@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ctype-lower.html: « ctypelower
-  - function.ctype-punct.html: ctypepunct »
+  - function.ctype-lower.md: « ctypelower
+  - function.ctype-punct.md: ctypepunct »
   - index.md: PHP Manual
   - ref.ctype.md: Опції Ctype
 title: ctypeprint

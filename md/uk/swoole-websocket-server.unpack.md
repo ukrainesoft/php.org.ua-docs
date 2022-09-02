@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-websocket-server.push.html: '« SwooleWebSocketServer::push'
-  - book.tidy.html: Tidy »
-  - index.html: PHP Manual
-  - class.swoole-websocket-server.html: SwooleWebSocketServer
+  - swoole-websocket-server.push.md: '« SwooleWebSocketServer::push'
+  - book.tidy.md: Tidy »
+  - index.md: PHP Manual
+  - class.swoole-websocket-server.md: SwooleWebSocketServer
 title: 'SwooleWebSocketServer::unpack'
 ---
 # SwooleWebSocketServer::unpack

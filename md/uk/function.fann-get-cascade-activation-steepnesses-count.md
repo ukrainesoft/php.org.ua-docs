@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-cascade-activation-functions.html: « fanngetcascadeactivationfunctions
-  - function.fann-get-cascade-activation-steepnesses.html: fanngetcascadeactivationsteepnesses »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-cascade-activation-functions.md: « fanngetcascadeactivationfunctions
+  - function.fann-get-cascade-activation-steepnesses.md: fanngetcascadeactivationsteepnesses »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetcascadeactivationsteepnessescount
 ---
 # fanngetcascadeactivationsteepnessescount

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-atr.html: « traderatr
-  - function.trader-bbands.html: traderbbands »
+  - function.trader-atr.md: « traderatr
+  - function.trader-bbands.md: traderbbands »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderavgprice

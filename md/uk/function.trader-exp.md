@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-errno.html: « tradererrno
-  - function.trader-floor.html: traderfloor »
+  - function.trader-errno.md: « tradererrno
+  - function.trader-floor.md: traderfloor »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderexp

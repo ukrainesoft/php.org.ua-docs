@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-set-module-name.html: « ocisetmodulename
-  - function.oci-set-prefetch.html: ocisetprefetch »
+  - function.oci-set-module-name.md: « ocisetmodulename
+  - function.oci-set-prefetch.md: ocisetprefetch »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocisetprefetchлоб
@@ -22,7 +22,7 @@ oci_set_prefetch_lob(resource $statement, int $prefetch_lob_size): bool
 
 Значення впливає на великі об'єкти, що повертаються як екземпляри OCILob, а також на ті, що повертаються з використанням **`OCI_RETURN_LOBS`**
 
-Функція **ocisetprefetchлоб()** викликається до виклику [ociexecute()](function.oci-execute.md). Якщо функція не була викликана, використовується значення [oci8.prefetchlobsize](oci8.configuration.html#ini.oci8.prefetch-lob-size)
+Функція **ocisetprefetchлоб()** викликається до виклику [ociexecute()](function.oci-execute.md). Якщо функція не була викликана, використовується значення [oci8.prefetchlobsize](oci8.configuration.md#ini.oci8.prefetch-lob-size)
 
 Значення попередньої вибірки LOB слід встановлювати лише Oracle Database 12.2 або новіше.
 
@@ -30,7 +30,7 @@ oci_set_prefetch_lob(resource $statement, int $prefetch_lob_size): bool
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 `prefetch_lob_size`
 
@@ -71,4 +71,4 @@ oci_close($conn);
 
 ### Дивіться також
 
--   INI-опція [oci8.prefetchlobsize](oci8.configuration.html#ini.oci8.prefetch-lob-size)
+-   INI-опція [oci8.prefetchlobsize](oci8.configuration.md#ini.oci8.prefetch-lob-size)

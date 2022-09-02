@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-slice.html: « arrayslice
-  - function.array-sum.html: arraysum »
+  - function.array-slice.md: « arrayslice
+  - function.array-sum.md: arraysum »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraysplice
@@ -24,7 +24,7 @@ array_splice(    array &$array,    int $offset,    ?int $length = nu
 > 
 > Зверніть увагу, що числові ключі в масиві `array` не зберігаються.
 
-> **Зауваження**: Якщо параметр `replacement` не є масивом, він буде [преобразован](language.types.array.html#language.types.array.casting) до нього (тобто `(array) $parameter`). Це може призвести до несподіваних результатів під час використання об'єкта або **`null`** в якості `replacement`
+> **Зауваження**: Якщо параметр `replacement` не є масивом, він буде [преобразован](language.types.array.md#language.types.array.casting) до нього (тобто `(array) $parameter`). Це може призвести до несподіваних результатів під час використання об'єкта або **`null`** в якості `replacement`
 
 ### Список параметрів
 

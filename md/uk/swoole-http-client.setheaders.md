@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.setdata.html: '« SwooleHttpClient::setData'
-  - swoole-http-client.setmethod.html: 'SwooleHttpClient::setMethod »'
-  - index.html: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - swoole-http-client.setdata.md: '« SwooleHttpClient::setData'
+  - swoole-http-client.setmethod.md: 'SwooleHttpClient::setMethod »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::setHeaders'
 ---
 # SwooleHttpClient::setHeaders

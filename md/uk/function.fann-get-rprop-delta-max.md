@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-rprop-decrease-factor.html: « fanngetrpropdecreasefactor
-  - function.fann-get-rprop-delta-min.html: fanngetrpropdeltamin »
+  - function.fann-get-rprop-decrease-factor.md: « fanngetrpropdecreasefactor
+  - function.fann-get-rprop-delta-min.md: fanngetrpropdeltamin »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetrpropdeltamax

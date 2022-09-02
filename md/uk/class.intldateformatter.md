@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.usedaylighttime.html: '« IntlTimeZone::useDaylightTime'
-  - intldateformatter.create.html: 'IntlDateFormatter::create »'
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - intltimezone.usedaylighttime.md: '« IntlTimeZone::useDaylightTime'
+  - intldateformatter.create.md: 'IntlDateFormatter::create »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Клас IntlDateFormatter
 ---
 # Клас IntlDateFormatter
@@ -59,7 +59,7 @@ public setTimeZone(IntlTimeZone|DateTimeZone|string|null $timezone): ?bool
 
 ## Дивіться також
 
--   [» Форматирование дат ICU](http://www.icu-project.org/apiref/icu4c/udat_8h.html#details)
+-   [» Форматирование дат ICU](http://www.icu-project.org/apiref/icu4c/udat_8h.md#details)
     
 -   [» Формати дат ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax)
     
@@ -116,23 +116,23 @@ public setTimeZone(IntlTimeZone|DateTimeZone|string|null $timezone): ?bool
 
 ## Зміст
 
--   [IntlDateFormatter::create](intldateformatter.create.html) — Створює засіб форматування дати
--   [IntlDateFormatter::format](intldateformatter.format.html) — Форматує значення дати/часу у вигляді рядка
--   [IntlDateFormatter::formatObject](intldateformatter.formatobject.html) - Форматує об'єкт
--   [IntlDateFormatter::getCalendar](intldateformatter.getcalendar.html) — Отримує тип календаря, який використовується IntlDateFormatter
--   [IntlDateFormatter::getDateType](intldateformatter.getdatetype.html) — Отримує тип дати, який використовується IntlDateFormatter
--   [IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.html) — Отримує код помилки останньої операції
--   [IntlDateFormatter::getErrorMessage](intldateformatter.geterrormessage.html) — Отримує текст помилки останньої операції
--   [IntlDateFormatter::getLocale](intldateformatter.getlocale.html) — Отримує мовний стандарт, який використовується засобом форматування
--   [IntlDateFormatter::getPattern](intldateformatter.getpattern.html) — Отримує шаблон, який використовується IntlDateFormatter
--   [IntlDateFormatter::getTimeType](intldateformatter.gettimetype.html) — Отримує тип часу, який використовується IntlDateFormatter
--   [IntlDateFormatter::getTimeZoneId](intldateformatter.gettimezoneid.html) — Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
--   [IntlDateFormatter::getCalendarObject](intldateformatter.getcalendarobject.html) — Отримує копію об'єкта календаря засобу форматування
--   [IntlDateFormatter::getTimeZone](intldateformatter.gettimezone.html) — Отримує часовий пояс засобу форматування
--   [IntlDateFormatter::isLenient](intldateformatter.islenient.html) — Отримує поблажливість, яка використовується для IntlDateFormatter
--   [IntlDateFormatter::localtime](intldateformatter.localtime.html) — Перетворює рядок на значення часу на основі поля
--   [IntlDateFormatter::parse](intldateformatter.parse.html) — Перетворює рядок на значення позначки часу
--   [IntlDateFormatter::setCalendar](intldateformatter.setcalendar.html) — Встановлює тип календаря за допомогою форматування.
--   [IntlDateFormatter::setLenient](intldateformatter.setlenient.html) - Встановлює м'який режим аналізатора
--   [IntlDateFormatter::setPattern](intldateformatter.setpattern.html) — Встановлює шаблон, який використовується IntlDateFormatter
--   [IntlDateFormatter::setTimeZone](intldateformatter.settimezone.html) — Встановлює часовий пояс засобу форматування
+-   [IntlDateFormatter::create](intldateformatter.create.md) — Створює засіб форматування дати
+-   [IntlDateFormatter::format](intldateformatter.format.md) — Форматує значення дати/часу у вигляді рядка
+-   [IntlDateFormatter::formatObject](intldateformatter.formatobject.md) - Форматує об'єкт
+-   [IntlDateFormatter::getCalendar](intldateformatter.getcalendar.md) — Отримує тип календаря, який використовується IntlDateFormatter
+-   [IntlDateFormatter::getDateType](intldateformatter.getdatetype.md) — Отримує тип дати, який використовується IntlDateFormatter
+-   [IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.md) — Отримує код помилки останньої операції
+-   [IntlDateFormatter::getErrorMessage](intldateformatter.geterrormessage.md) — Отримує текст помилки останньої операції
+-   [IntlDateFormatter::getLocale](intldateformatter.getlocale.md) — Отримує мовний стандарт, який використовується засобом форматування
+-   [IntlDateFormatter::getPattern](intldateformatter.getpattern.md) — Отримує шаблон, який використовується IntlDateFormatter
+-   [IntlDateFormatter::getTimeType](intldateformatter.gettimetype.md) — Отримує тип часу, який використовується IntlDateFormatter
+-   [IntlDateFormatter::getTimeZoneId](intldateformatter.gettimezoneid.md) — Отримує ідентифікатор часового поясу, який використовується IntlDateFormatter
+-   [IntlDateFormatter::getCalendarObject](intldateformatter.getcalendarobject.md) — Отримує копію об'єкта календаря засобу форматування
+-   [IntlDateFormatter::getTimeZone](intldateformatter.gettimezone.md) — Отримує часовий пояс засобу форматування
+-   [IntlDateFormatter::isLenient](intldateformatter.islenient.md) — Отримує поблажливість, яка використовується для IntlDateFormatter
+-   [IntlDateFormatter::localtime](intldateformatter.localtime.md) — Перетворює рядок на значення часу на основі поля
+-   [IntlDateFormatter::parse](intldateformatter.parse.md) — Перетворює рядок на значення позначки часу
+-   [IntlDateFormatter::setCalendar](intldateformatter.setcalendar.md) — Встановлює тип календаря за допомогою форматування.
+-   [IntlDateFormatter::setLenient](intldateformatter.setlenient.md) - Встановлює м'який режим аналізатора
+-   [IntlDateFormatter::setPattern](intldateformatter.setpattern.md) — Встановлює шаблон, який використовується IntlDateFormatter
+-   [IntlDateFormatter::setTimeZone](intldateformatter.settimezone.md) — Встановлює часовий пояс засобу форматування

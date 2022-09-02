@@ -1,9 +1,9 @@
 ---
 navigation:
-  - messageformatter.parse.html: '« MessageFormatter::parse'
-  - class.intlcalendar.html: IntlCalendar »
-  - index.html: PHP Manual
-  - class.messageformatter.html: MessageFormatter
+  - messageformatter.parse.md: '« MessageFormatter::parse'
+  - class.intlcalendar.md: IntlCalendar »
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::setPattern'
 ---
 # MessageFormatter::setPattern
@@ -34,7 +34,7 @@ msgfmt_set_pattern(MessageFormatter $formatter, string $pattern): bool
 
 `formatter`
 
-Об'єкт [MessageFormatter](class.messageformatter.html)
+Об'єкт [MessageFormatter](class.messageformatter.md)
 
 `pattern`
 
@@ -85,5 +85,5 @@ Formatted number: 123 trees hosting 456 monkeys
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
--   [msgfmtgetpattern()](messageformatter.getpattern.html) - Повертає шаблон, який використовується засобом форматування
+-   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
+-   [msgfmtgetpattern()](messageformatter.getpattern.md) - Повертає шаблон, який використовується засобом форматування

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.settermsmincount.html: '« SolrQuery::setTermsMinCount'
-  - solrquery.settermsreturnraw.html: 'SolrQuery::setTermsReturnRaw »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.settermsmincount.md: '« SolrQuery::setTermsMinCount'
+  - solrquery.settermsreturnraw.md: 'SolrQuery::setTermsReturnRaw »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTermsPrefix'
 ---
 # SolrQuery::setTermsPrefix

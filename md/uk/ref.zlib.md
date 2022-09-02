@@ -1,7 +1,7 @@
 ---
 navigation:
   - zlib.examples.md: « Приклади
-  - function.deflate-add.html: deflateadd »
+  - function.deflate-add.md: deflateadd »
   - index.md: PHP Manual
   - book.zlib.md: Zlib
 title: Функції Zlib

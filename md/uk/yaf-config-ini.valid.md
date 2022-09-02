@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-ini.toarray.html: '« YafConfigIni::toArray'
-  - class.yaf-config-simple.html: YafConfigSimple »
+  - yaf-config-ini.toarray.md: '« YafConfigIni::toArray'
+  - class.yaf-config-simple.md: YafConfigSimple »
   - index.md: PHP Manual
-  - class.yaf-config-ini.html: YafConfigIni
+  - class.yaf-config-ini.md: YafConfigIni
 title: 'YafConfigIni::valid'
 ---
 # YafConfigIni::valid

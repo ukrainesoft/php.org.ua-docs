@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.autorender.html: '« YafDispatcher::autoRender'
-  - yaf-dispatcher.construct.html: 'YafDispatcher::construct »'
+  - yaf-dispatcher.autorender.md: '« YafDispatcher::autoRender'
+  - yaf-dispatcher.construct.md: 'YafDispatcher::construct »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::catchException'
 ---
 # YafDispatcher::catchException
@@ -20,7 +20,7 @@ public Yaf_Dispatcher::catchException(bool $flag = ?): Yaf_Dispatcher
 
 Поки включено application.dispatcher.throwException (ви також можете викликати **YafDispatcher::throwException(TRUE)()**, щоб увімкнути), Yaf буде викидати виняток у разі виникнення помилки замість помилки спрацьовування.
 
-тоді, якщо ви увімкнете **YafDispatcher::catchException()** (також можна увімкнути, встановивши [application.dispatcher.catchException](yaf.appconfig.html#configuration.yaf.dispatcher.catchexception)), всі неперехоплені винятки будуть спіймані ErrorController::error, якщо ви його визначили.
+тоді, якщо ви увімкнете **YafDispatcher::catchException()** (також можна увімкнути, встановивши [application.dispatcher.catchException](yaf.appconfig.md#configuration.yaf.dispatcher.catchexception)), всі неперехоплені винятки будуть спіймані ErrorController::error, якщо ви його визначили.
 
 ### Список параметрів
 

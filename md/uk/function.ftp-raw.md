@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-quit.html: « ftpquit
-  - function.ftp-rawlist.html: ftprawlist »
+  - function.ftp-quit.md: « ftpquit
+  - function.ftp-rawlist.md: ftprawlist »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpraw

@@ -33,8 +33,8 @@ rar:// Доступно з PECL rar 3.0.0
 
 | Атрибут | Поддержка |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
-| Обмеження по [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) | Ні |
+| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
+| Обмеження по [allowurlinclude](filesystem.configuration.md#ini.allow-url-include) | Ні |
 | Читання | Так |
 | Запис | Ні |
 | Додавання | Ні |

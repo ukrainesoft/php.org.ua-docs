@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.xhprof-sample-enable.html: « xhprofsampleenable
+  - function.xhprof-sample-enable.md: « xhprofsampleenable
   - intro.yac.md: Введение »
   - index.md: PHP Manual
   - refs.basic.php.md: Изменение поведения PHP

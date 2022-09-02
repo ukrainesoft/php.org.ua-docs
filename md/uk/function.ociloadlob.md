@@ -1,20 +1,20 @@
 ---
 navigation:
-  - function.ociinternaldebug.html: « ociinternaldebug
-  - function.ocilogoff.html: ocilogoff »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ociinternaldebug.md: « ociinternaldebug
+  - function.ocilogoff.md: ocilogoff »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ociloadlob
 ---
 # ociloadlob
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ociloadlob - Псевдонім [OCILob::load()](ocilob.load.html)
+ociloadlob - Псевдонім [OCILob::load()](ocilob.load.md)
 
 ### Опис
 
-Псевдонім [OCILob::load()](ocilob.load.html)
+Псевдонім [OCILob::load()](ocilob.load.md)
 
 **Увага**
 

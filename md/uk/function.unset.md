@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.unserialize.html: « unserialize
-  - function.var-dump.html: vardump »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.unserialize.md: « unserialize
+  - function.var-dump.md: vardump »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: unset
 ---
 # unset
@@ -144,7 +144,7 @@ unset($foo1, $foo2, $foo3);
 
 **Приклад #2 Використання наведення типу `(unset)`**
 
-Приведення типу [`(unset)`](language.types.null.html#language.types.null.casting) часто плутають із функцією **unset()**. Приведення типу `(unset)` приводить лише до значення `NULL` та було додано виключно для повноти реалізації. Воно не змінює значення змінної, що наводиться. З PHP 7.2.0 перетворення типу (unset) оголошено застарілим та видалено у PHP 8.0.0.
+Приведення типу [`(unset)`](language.types.null.md#language.types.null.casting) часто плутають із функцією **unset()**. Приведення типу `(unset)` приводить лише до значення `NULL` та було додано виключно для повноти реалізації. Воно не змінює значення змінної, що наводиться. З PHP 7.2.0 перетворення типу (unset) оголошено застарілим та видалено у PHP 8.0.0.
 
 ```php
 <?php
@@ -164,7 +164,7 @@ string(6) "Felipe"
 
 ### Примітки
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.md#functions.named-arguments)
 
 > **Зауваження**
 > 
@@ -176,12 +176,12 @@ string(6) "Felipe"
 
 > **Зауваження**
 > 
-> При використанні **unset()** на недоступних або неоголошених властивостях об'єкта, буде викликано вбудований метод об'єкту [unset()](language.oop5.overloading.html#object.unset)якщо він визначений.
+> При використанні **unset()** на недоступних або неоголошених властивостях об'єкта, буде викликано вбудований метод об'єкту [unset()](language.oop5.overloading.md#object.unset)якщо він визначений.
 
 ### Дивіться також
 
 -   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
 -   [empty()](function.empty.md) - Перевіряє, чи порожня змінна
--   [unset()](language.oop5.overloading.html#object.unset)
+-   [unset()](language.oop5.overloading.md#object.unset)
 -   [arraysplice()](function.array-splice.md) - Видаляє частину масиву і замінює її чимось ще
--   [Приведение типа (unset)](language.types.null.html#language.types.null.casting)
+-   [Приведение типа (unset)](language.types.null.md#language.types.null.casting)

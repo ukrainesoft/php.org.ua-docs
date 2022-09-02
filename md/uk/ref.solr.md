@@ -1,13 +1,13 @@
 ---
 navigation:
-  - solr.constants.html: « Обумовлені константи
-  - function.solr-get-version.html: solrgetversion »
-  - index.html: PHP Manual
-  - book.solr.html: Solr
+  - solr.constants.md: « Обумовлені константи
+  - function.solr-get-version.md: solrgetversion »
+  - index.md: PHP Manual
+  - book.solr.md: Solr
 title: Функції Solr
 ---
 # Функції Solr
 
 ## Зміст
 
--   [solrgetversion](function.solr-get-version.html) — Повертає поточну версію Apache Solr
+-   [solrgetversion](function.solr-get-version.md) — Повертає поточну версію Apache Solr

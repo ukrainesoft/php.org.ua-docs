@@ -26,7 +26,7 @@ clearstatcache(bool $clear_realpath_cache = false, string $filename = ""): void
 > 
 > Ця функція кешує інформацію про певні файли, тому має сенс викликати **clearstatcache()** тільки в тому випадку, якщо ви робите кілька операцій з одним і тим же файлом і не хочете отримувати кешовану інформацію про цей файл.
 
-Список функцій, результати виконання яких кешуються: [stat()](function.stat.md) [lstat()](function.lstat.md) [fileexists()](function.file-exists.html) [ісwritable()](function.is-writable.html) [ісreadable()](function.is-readable.html) [ісexecutable()](function.is-executable.html) [ісfile()](function.is-file.html) [ісdir()](function.is-dir.html) [ісlink()](function.is-link.md) [filectime()](function.filectime.md) [fileatime()](function.fileatime.md) [filemtime()](function.filemtime.md) [fileinode()](function.fileinode.md) [filegroup()](function.filegroup.md) [fileowner()](function.fileowner.md) [filesize()](function.filesize.md) [filetype()](function.filetype.md) і [fileperms()](function.fileperms.md)
+Список функцій, результати виконання яких кешуються: [stat()](function.stat.md) [lstat()](function.lstat.md) [fileexists()](function.file-exists.md) [ісwritable()](function.is-writable.md) [ісreadable()](function.is-readable.md) [ісexecutable()](function.is-executable.md) [ісfile()](function.is-file.md) [ісdir()](function.is-dir.md) [ісlink()](function.is-link.md) [filectime()](function.filectime.md) [fileatime()](function.fileatime.md) [filemtime()](function.filemtime.md) [fileinode()](function.fileinode.md) [filegroup()](function.filegroup.md) [fileowner()](function.fileowner.md) [filesize()](function.filesize.md) [filetype()](function.filetype.md) і [fileperms()](function.fileperms.md)
 
 ### Список параметрів
 

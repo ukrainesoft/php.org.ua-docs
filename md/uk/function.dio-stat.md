@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dio-seek.html: « dioseek
-  - function.dio-tcsetattr.html: diotcsetattr »
+  - function.dio-seek.md: « dioseek
+  - function.dio-tcsetattr.md: diotcsetattr »
   - index.md: PHP Manual
   - ref.dio.md: Функції прямого введення/виводу
 title: dioстати
@@ -24,7 +24,7 @@ dio_stat(resource $fd): array
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
 
 ### Значення, що повертаються
 

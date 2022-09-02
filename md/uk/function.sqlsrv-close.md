@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-client-info.html: « sqlsrvclientinfo
-  - function.sqlsrv-commit.html: sqlsrvcommit »
+  - function.sqlsrv-client-info.md: « sqlsrvclientinfo
+  - function.sqlsrv-commit.md: sqlsrvcommit »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvclose

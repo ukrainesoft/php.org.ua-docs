@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverchangedevent.getnewdescription.html: '« MongoDBDriverMonitoringServerChangedEvent::getNewDescription'
-  - mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.html: 'MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription »'
+  - mongodb-driver-monitoring-serverchangedevent.getnewdescription.md: '« MongoDBDriverMonitoringServerChangedEvent::getNewDescription'
+  - mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.md: 'MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverchangedevent.html: MongoDBDriverMonitoringServerChangedEvent
+  - class.mongodb-driver-monitoring-serverchangedevent.md: MongoDBDriverMonitoringServerChangedEvent
 title: 'MongoDBDriverMonitoringServerChangedEvent::getPort'
 ---
 # MongoDBDriverMonitoringServerChangedEvent::getPort

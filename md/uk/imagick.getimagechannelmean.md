@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagechannelkurtosis.html: '« Imagick::getImageChannelKurtosis'
-  - imagick.getimagechannelrange.html: 'Imagick::getImageChannelRange »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagechannelkurtosis.md: '« Imagick::getImageChannelKurtosis'
+  - imagick.getimagechannelrange.md: 'Imagick::getImageChannelRange »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageChannelMean'
 ---
 # Imagick::getImageChannelMean
@@ -24,7 +24,7 @@ public Imagick::getImageChannelMean(int $channel): array
 
 `channel`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

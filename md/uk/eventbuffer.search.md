@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbuffer.readline.html: '« EventBuffer::readLine'
-  - eventbuffer.searcheol.html: 'EventBuffer::searchEol »'
-  - index.html: PHP Manual
-  - class.eventbuffer.html: EventBuffer
+  - eventbuffer.readline.md: '« EventBuffer::readLine'
+  - eventbuffer.searcheol.md: 'EventBuffer::searchEol »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::search'
 ---
 # EventBuffer::search
@@ -54,7 +54,7 @@ public
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -94,4 +94,4 @@ int(3)
 
 ### Дивіться також
 
--   [EventBuffer::searchEol()](eventbuffer.searcheol.html) - Сканує буфер на наявність кінця рядка
+-   [EventBuffer::searchEol()](eventbuffer.searcheol.md) - Сканує буфер на наявність кінця рядка

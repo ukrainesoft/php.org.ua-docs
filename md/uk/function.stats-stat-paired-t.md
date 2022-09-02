@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-stat-innerproduct.html: « statsstatinnerproduct
-  - function.stats-stat-percentile.html: statsstatpercentile »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-stat-innerproduct.md: « statsstatinnerproduct
+  - function.stats-stat-percentile.md: statsstatpercentile »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsстатиpairedт
 ---
 # statsстатиpairedт

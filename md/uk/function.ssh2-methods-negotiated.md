@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-forward-listen.html: « ssh2forwardlisten
-  - function.ssh2-poll.html: ssh2poll »
+  - function.ssh2-forward-listen.md: « ssh2forwardlisten
+  - function.ssh2-poll.md: ssh2poll »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2методівnegotiated

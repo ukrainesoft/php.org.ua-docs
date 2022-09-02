@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.contraststretchimage.html: '« Imagick::contrastStretchImage'
-  - imagick.count.html: 'Imagick::count »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.contraststretchimage.md: '« Imagick::contrastStretchImage'
+  - imagick.count.md: 'Imagick::count »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::convolveImage'
 ---
 # Imagick::convolveImage
@@ -28,7 +28,7 @@ public Imagick::convolveImage(array $kernel, int $channel = Imagick::CHANNEL_DEF
 
 `channel`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів.Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів.Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

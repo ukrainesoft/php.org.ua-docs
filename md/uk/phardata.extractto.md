@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phardata.destruct.html: '« PharData::destruct'
-  - phardata.iswritable.html: 'PharData::isWritable »'
-  - index.html: PHP Manual
-  - class.phardata.html: PharData
+  - phardata.destruct.md: '« PharData::destruct'
+  - phardata.iswritable.md: 'PharData::isWritable »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
 title: 'PharData::extractTo'
 ---
 # PharData::extractTo

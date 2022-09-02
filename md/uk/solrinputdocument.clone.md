@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrinputdocument.clear.html: '« SolrInputDocument::clear'
-  - solrinputdocument.construct.html: 'SolrInputDocument::construct »'
-  - index.html: PHP Manual
-  - class.solrinputdocument.html: SolrInputDocument
+  - solrinputdocument.clear.md: '« SolrInputDocument::clear'
+  - solrinputdocument.construct.md: 'SolrInputDocument::construct »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::clone'
 ---
 # SolrInputDocument::clone

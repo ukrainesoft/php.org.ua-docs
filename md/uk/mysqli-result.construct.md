@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysqli-result.html: « mysqliresult
-  - mysqli-result.current-field.html: 'mysqliresult::$currentfield »'
+  - class.mysqli-result.md: « mysqliresult
+  - mysqli-result.current-field.md: 'mysqliresult::$currentfield »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::construct'
 ---
 # mysqliresult::construct
@@ -18,7 +18,7 @@ public **mysqliresult::construct**[mysqli](class.mysqli.md) `$mysql`, int `$resu
 
 Метод створює новий об'єкт [mysqliresult](class.mysqli-result.md)
 
-Метод можна використовувати для створення об'єкту [mysqliresult](class.mysqli-result.html) після виклику функції [mysqlirealquery()](mysqli.real-query.html) або [mysqlimultiquery()](mysqli.multi-query.html). Створення об'єкта вручну еквівалентно виклику функції [mysqlistoreresult()](mysqli.store-result.html) або [mysqliuseresult()](mysqli.use-result.md)
+Метод можна використовувати для створення об'єкту [mysqliresult](class.mysqli-result.md) після виклику функції [mysqlirealquery()](mysqli.real-query.md) або [mysqlimultiquery()](mysqli.multi-query.md). Створення об'єкта вручну еквівалентно виклику функції [mysqlistoreresult()](mysqli.store-result.md) або [mysqliuseresult()](mysqli.use-result.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public **mysqliresult::construct**[mysqli](class.mysqli.md) `$mysql`, int `$resu
 
 **`MYSQLI_STORE_RESULT`** (за замовчуванням) - створює об'єкт [mysqliresult](class.mysqli-result.md) із буферизованим набором результатів.
 
-**`MYSQLI_USE_RESULT`** - Створює об'єкт [mysqliresult](class.mysqli-result.html) із небуферизованим набором результатів. Поки є очікування вибірки запису, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync` (Команди не синхронізовані). Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику функції [mysqlifreeresult()](mysqli-result.free.md). Для вилучення рядків з'єднання має залишатися відкритим.
+**`MYSQLI_USE_RESULT`** - Створює об'єкт [mysqliresult](class.mysqli-result.md) із небуферизованим набором результатів. Поки є очікування вибірки запису, лінія з'єднання буде зайнята і всі наступні дзвінки повертатимуть помилку `Commands out of sync` (Команди не синхронізовані). Щоб уникнути помилки, всі записи повинні бути отримані з сервера або набір результатів має бути відкинуто шляхом виклику функції [mysqlifreeresult()](mysqli-result.free.md). Для вилучення рядків з'єднання має залишатися відкритим.
 
 ### Приклади
 

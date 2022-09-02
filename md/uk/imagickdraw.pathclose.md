@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.matte.html: '« ImagickDraw::matte'
-  - imagickdraw.pathcurvetoabsolute.html: 'ImagickDraw::pathCurveToAbsolute »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.matte.md: '« ImagickDraw::matte'
+  - imagickdraw.pathcurvetoabsolute.md: 'ImagickDraw::pathCurveToAbsolute »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathClose'
 ---
 # ImagickDraw::pathClose

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.grapheme-strstr.html: « graphemestrstr
-  - ref.intl.idn.html: Функції IDN »
-  - index.html: PHP Manual
-  - ref.intl.grapheme.html: Функции Grapheme
+  - function.grapheme-strstr.md: « graphemestrstr
+  - ref.intl.idn.md: Функції IDN »
+  - index.md: PHP Manual
+  - ref.intl.grapheme.md: Функции Grapheme
 title: graphemesubstr
 ---
 # graphemesubstr
@@ -68,5 +68,5 @@ a%CC%8Abco%CC%88
 
 ### Дивіться також
 
--   [graphemeextract()](function.grapheme-extract.html) - Функція для вилучення послідовності кластерів графем за замовчуванням із текстового буфера, яка має бути закодована у UTF-8
+-   [graphemeextract()](function.grapheme-extract.md) - Функція для вилучення послідовності кластерів графем за замовчуванням із текстового буфера, яка має бути закодована у UTF-8
 -   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

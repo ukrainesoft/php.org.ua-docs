@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.getmodestring.html: '« MongoDBDriverReadPreference::getModeString'
-  - mongodb-driver-readpreference.serialize.html: 'MongoDBDriverReadPreference::serialize »'
+  - mongodb-driver-readpreference.getmodestring.md: '« MongoDBDriverReadPreference::getModeString'
+  - mongodb-driver-readpreference.serialize.md: 'MongoDBDriverReadPreference::serialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::getTagSets'
 ---
 # MongoDBDriverReadPreference::getTagSets

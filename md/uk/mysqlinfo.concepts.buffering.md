@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqlinfo.concepts.html: '" Основні поняття'
-  - mysqlinfo.concepts.charset.html: Кодування символів »
-  - index.html: PHP Manual
-  - mysqlinfo.concepts.html: Основні поняття
+  - mysqlinfo.concepts.md: '" Основні поняття'
+  - mysqlinfo.concepts.charset.md: Кодування символів »
+  - index.md: PHP Manual
+  - mysqlinfo.concepts.md: Основні поняття
 title: Буферизовані та небуферизовані запити
 ---
 ## Буферизовані та небуферизовані запити

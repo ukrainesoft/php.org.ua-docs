@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.min.md: « min
-  - function.mt-rand.html: мтrand »
+  - function.mt-rand.md: мтrand »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції
 title: мтgetrandmax

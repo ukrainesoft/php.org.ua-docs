@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.do.while.html: « do-while
-  - control-structures.foreach.html: foreach »
+  - control-structures.do.while.md: « do-while
+  - control-structures.foreach.md: foreach »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: for
 ---
 ## for

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evloop.embed.html: '« EvLoop::embed'
-  - evloop.idle.html: 'EvLoop::idle »'
-  - index.html: PHP Manual
-  - class.evloop.html: EvLoop
+  - evloop.embed.md: '« EvLoop::embed'
+  - evloop.idle.md: 'EvLoop::idle »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
 title: 'EvLoop::fork'
 ---
 # EvLoop::fork
@@ -35,7 +35,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvFork::construct()](evfork.construct.html)
+Усі параметри, що й для [EvFork::construct()](evfork.construct.md)
 
 ### Значення, що повертаються
 
@@ -43,4 +43,4 @@ final
 
 ### Дивіться також
 
--   [EvFork::construct()](evfork.construct.html) - Конструктор спостерігача EvFork
+-   [EvFork::construct()](evfork.construct.md) - Конструктор спостерігача EvFork

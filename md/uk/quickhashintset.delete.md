@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashintset.construct.html: '« QuickHashIntSet::construct'
-  - quickhashintset.exists.html: 'QuickHashIntSet::exists »'
-  - index.html: PHP Manual
-  - class.quickhashintset.html: QuickHashIntSet
+  - quickhashintset.construct.md: '« QuickHashIntSet::construct'
+  - quickhashintset.exists.md: 'QuickHashIntSet::exists »'
+  - index.md: PHP Manual
+  - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::delete'
 ---
 # QuickHashIntSet::delete

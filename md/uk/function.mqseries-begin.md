@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mqseries-back.html: « mqseriesback
-  - function.mqseries-close.html: mqseriesclose »
+  - function.mqseries-back.md: « mqseriesback
+  - function.mqseries-close.md: mqseriesclose »
   - index.md: PHP Manual
   - ref.mqseries.md: Функции mqseries
 title: mqseriesbegin
@@ -20,7 +20,7 @@ mqseries_begin(    resource $hconn,    array $beginOptions,    resou
 
 Функція **mqseriesbegin()** (MQBEGIN) відкриває транзакцію, координує роботу менеджера черг та може використовувати зовнішні ресурси менеджера.
 
-**mqseriesbegin()** стартує транзакцію . [mqseriesback()](function.mqseries-back.html) або [mqseriescmit()](function.mqseries-cmit.md) - Завершують.
+**mqseriesbegin()** стартує транзакцію . [mqseriesback()](function.mqseries-back.md) або [mqseriescmit()](function.mqseries-cmit.md) - Завершують.
 
 ### Список параметрів
 

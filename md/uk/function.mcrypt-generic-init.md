@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-generic-deinit.html: « mcryptgenericdeinit
-  - function.mcrypt-generic.html: mcryptgeneric »
+  - function.mcrypt-generic-deinit.md: « mcryptgenericdeinit
+  - function.mcrypt-generic.md: mcryptgeneric »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptgenericinit
@@ -22,7 +22,7 @@ mcryptgenericinit — Функція ініціалізує всі буфери,
 mcrypt_generic_init(resource $td, string $key, string $iv): int
 ```
 
-Ви повинні викликати цю функцію перед будь-яким викликом [mcryptgeneric()](function.mcrypt-generic.html) або [mdecryptgeneric()](function.mdecrypt-generic.md)
+Ви повинні викликати цю функцію перед будь-яким викликом [mcryptgeneric()](function.mcrypt-generic.md) або [mdecryptgeneric()](function.mdecrypt-generic.md)
 
 ### Список параметрів
 

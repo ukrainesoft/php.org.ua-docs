@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-broker-set-dict-path.html: « enchantbrokersetdictpath
-  - function.enchant-dict-add-to-personal.html: enchantdictaddтоpersonal »
+  - function.enchant-broker-set-dict-path.md: « enchantbrokersetdictpath
+  - function.enchant-dict-add-to-personal.md: enchantdictaddтоpersonal »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantbrokersetordering

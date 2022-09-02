@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-lob-read.html: « db2lobread
-  - function.db2-num-fields.html: db2numfields »
+  - function.db2-lob-read.md: « db2lobread
+  - function.db2-num-fields.md: db2numfields »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2nextresult
 ---
 # db2nextresult
@@ -24,7 +24,7 @@ db2_next_result(resource $stmt): resource
 
 `stmt`
 
-Підготовлений оператор, який повертається функцією [db2exec()](function.db2-exec.html) або [db2execute()](function.db2-execute.md)
+Підготовлений оператор, який повертається функцією [db2exec()](function.db2-exec.md) або [db2execute()](function.db2-execute.md)
 
 ### Значення, що повертаються
 

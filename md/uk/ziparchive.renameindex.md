@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.registerprogresscallback.html: '« ZipArchive::registerProgressCallback'
-  - ziparchive.renamename.html: 'ZipArchive::renameName »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.registerprogresscallback.md: '« ZipArchive::registerProgressCallback'
+  - ziparchive.renamename.md: 'ZipArchive::renameName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::renameIndex'
 ---
 # ZipArchive::renameIndex

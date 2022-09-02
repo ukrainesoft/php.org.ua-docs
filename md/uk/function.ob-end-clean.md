@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ob-clean.html: « obclean
-  - function.ob-end-flush.html: проendflush »
-  - index.html: PHP Manual
-  - ref.outcontrol.html: Функції контролю виведення
+  - function.ob-clean.md: « obclean
+  - function.ob-end-flush.md: проendflush »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
 title: проendclean
 ---
 # проendclean
@@ -18,9 +18,9 @@ title: проendclean
 ob_end_clean(): bool
 ```
 
-Ця функція видаляє вміст верхнього буфера виводу і відключає цю буферизацію. Якщо ви хочете використати вміст буфера, то вам необхідно викликати [проgetcontents()](function.ob-get-contents.html) перед **проendclean()**, оскільки весь вміст буфера видаляється при виклику **проendclean()**
+Ця функція видаляє вміст верхнього буфера виводу і відключає цю буферизацію. Якщо ви хочете використати вміст буфера, то вам необхідно викликати [проgetcontents()](function.ob-get-contents.md) перед **проendclean()**, оскільки весь вміст буфера видаляється при виклику **проendclean()**
 
-Буфер виводу має запускатися функцією [проstart()](function.ob-start.html) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.html#constant.php-output-handler-removable). Інакше не спрацює **проendclean()**
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.md#constant.php-output-handler-cleanable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.md#constant.php-output-handler-removable). Інакше не спрацює **проendclean()**
 
 ### Список параметрів
 
@@ -50,6 +50,6 @@ ob_end_clean();
 
 ### Дивіться також
 
--   [проstart()](function.ob-start.html) - Включення буферизації виводу
--   [проgetcontents()](function.ob-get-contents.html) - Повертає вміст буфера виводу
--   [проflush()](function.ob-flush.html) - Скинути (надіслати) буфер виводу
+-   [проstart()](function.ob-start.md) - Включення буферизації виводу
+-   [проgetcontents()](function.ob-get-contents.md) - Повертає вміст буфера виводу
+-   [проflush()](function.ob-flush.md) - Скинути (надіслати) буфер виводу

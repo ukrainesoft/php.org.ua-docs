@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionmethod.ispublic.html: '« ReflectionMethod::isPublic'
-  - reflectionmethod.setaccessible.html: 'ReflectionMethod::setAccessible »'
-  - index.html: PHP Manual
-  - class.reflectionmethod.html: ReflectionMethod
+  - reflectionmethod.ispublic.md: '« ReflectionMethod::isPublic'
+  - reflectionmethod.setaccessible.md: 'ReflectionMethod::setAccessible »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isStatic'
 ---
 # ReflectionMethod::isStatic

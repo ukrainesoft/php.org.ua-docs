@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrinputdocument.deletefield.html: '« SolrInputDocument::deleteField'
-  - solrinputdocument.fieldexists.html: 'SolrInputDocument::fieldExists »'
-  - index.html: PHP Manual
-  - class.solrinputdocument.html: SolrInputDocument
+  - solrinputdocument.deletefield.md: '« SolrInputDocument::deleteField'
+  - solrinputdocument.fieldexists.md: 'SolrInputDocument::fieldExists »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::destruct'
 ---
 # SolrInputDocument::destruct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.define.html: « define
-  - function.die.html: die »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.define.md: « define
+  - function.die.md: die »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: defined
 ---
 # defined
@@ -22,7 +22,7 @@ defined(string $constant_name): bool
 
 > **Зауваження**
 > 
-> Якщо необхідно дізнатися про існування змінної, використовуйте [isset()](function.isset.html), так як **defined()** застосовна лише для [констант](language.constants.html). Якщо вам необхідно дізнатися про існування функції, використовуйте [functionexists()](function.function-exists.html)
+> Якщо необхідно дізнатися про існування змінної, використовуйте [isset()](function.isset.md), так як **defined()** застосовна лише для [констант](language.constants.md). Якщо вам необхідно дізнатися про існування функції, використовуйте [functionexists()](function.function-exists.md)
 
 ### Список параметрів
 
@@ -50,8 +50,8 @@ if (defined('TEST')) {
 
 ### Дивіться також
 
--   [define()](function.define.html) - визначає іменовану константу
--   [constant()](function.constant.html) - Повертає значення константи
--   [getdefinedconstants()](function.get-defined-constants.html) - Повертає асоціативний масив з іменами всіх констант та їх значень
--   [functionexists()](function.function-exists.html) - Повертає true, якщо вказана функція визначена
--   Дивіться розділ [Константи](language.constants.html)
+-   [define()](function.define.md) - визначає іменовану константу
+-   [constant()](function.constant.md) - Повертає значення константи
+-   [getdefinedconstants()](function.get-defined-constants.md) - Повертає асоціативний масив з іменами всіх констант та їх значень
+-   [functionexists()](function.function-exists.md) - Повертає true, якщо вказана функція визначена
+-   Дивіться розділ [Константи](language.constants.md)

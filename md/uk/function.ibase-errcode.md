@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-drop-db.html: « ibasedropдб
-  - function.ibase-errmsg.html: ibaseerrmsg »
+  - function.ibase-drop-db.md: « ibasedropдб
+  - function.ibase-errmsg.md: ibaseerrmsg »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseerrcode

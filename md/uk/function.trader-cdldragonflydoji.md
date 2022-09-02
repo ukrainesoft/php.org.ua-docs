@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdldojistar.html: « tradercdldojistar
-  - function.trader-cdlengulfing.html: tradercdlengulfing »
+  - function.trader-cdldojistar.md: « tradercdldojistar
+  - function.trader-cdlengulfing.md: tradercdlengulfing »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdldragonflydoji

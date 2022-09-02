@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-request-authenticator.html: « radiusrequestauthenticator
-  - function.radius-send-request.html: radiussendrequest »
+  - function.radius-request-authenticator.md: « radiusrequestauthenticator
+  - function.radius-send-request.md: radiussendrequest »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiussaltencryptattr

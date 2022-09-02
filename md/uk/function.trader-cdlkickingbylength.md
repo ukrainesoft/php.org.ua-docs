@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlkicking.html: « tradercdlkicking
-  - function.trader-cdlladderbottom.html: tradercdlladderbottom »
+  - function.trader-cdlkicking.md: « tradercdlkicking
+  - function.trader-cdlladderbottom.md: tradercdlladderbottom »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlkickingbylength

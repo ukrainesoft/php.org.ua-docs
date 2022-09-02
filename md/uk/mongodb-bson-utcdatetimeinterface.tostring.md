@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetimeinterface.todatetime.html: '« MongoDBBSONUTCDateTimeInterface::toDateTime'
-  - class.mongodb-bson-dbpointer.html: MongoDBBSONDBPointer »
+  - mongodb-bson-utcdatetimeinterface.todatetime.md: '« MongoDBBSONUTCDateTimeInterface::toDateTime'
+  - class.mongodb-bson-dbpointer.md: MongoDBBSONDBPointer »
   - index.md: PHP Manual
-  - class.mongodb-bson-utcdatetimeinterface.html: MongoDBBSONUTCDateTimeInterface
+  - class.mongodb-bson-utcdatetimeinterface.md: MongoDBBSONUTCDateTimeInterface
 title: 'MongoDBBSONUTCDateTimeInterface::function toString() { \[native code\] }'
 ---
 # MongoDBBSONUTCDateTimeInterface::function toString() { \[native code\] }

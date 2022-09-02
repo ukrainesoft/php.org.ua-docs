@@ -1,22 +1,22 @@
 ---
 navigation:
-  - language.oop5.anonymous.html: « Анонімні класи
-  - language.oop5.iterations.html: Ітератори об'єктів »
-  - index.html: PHP Manual
-  - language.oop5.html: Класи та об'єкти
+  - language.oop5.anonymous.md: « Анонімні класи
+  - language.oop5.iterations.md: Ітератори об'єктів »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
 title: Перевантаження
 ---
 ## Перевантаження
 
 Перевантаження в PHP означає можливість динамічно створювати властивості та методи. Ці динамічні сутності обробляються за допомогою магічних методів, які можна створити в класі різних видів дій.
 
-Методи навантаження викликаються при взаємодії з властивостями або методами, які не були оголошені чи не [видно](language.oop5.visibility.html) у поточній області видимості. Далі в цьому розділі будуть використовуватися терміни недоступні властивості або недоступні методи позначення цієї комбінації оголошення і області видимості.
+Методи навантаження викликаються при взаємодії з властивостями або методами, які не були оголошені чи не [видно](language.oop5.visibility.md) у поточній області видимості. Далі в цьому розділі будуть використовуватися терміни недоступні властивості або недоступні методи позначення цієї комбінації оголошення і області видимості.
 
 Усі методи навантаження мають бути оголошені як `public`
 
 > **Зауваження**
 > 
-> Жоден з аргументів цих магічних методів не може бути передано [за посиланням](functions.arguments.html#functions.arguments.by-reference)
+> Жоден з аргументів цих магічних методів не може бути передано [за посиланням](functions.arguments.md#functions.arguments.by-reference)
 
 > **Зауваження**
 > 
@@ -40,27 +40,27 @@ public __isset(string $name): bool
 public __unset(string $name): void
 ```
 
-Метод [set()](language.oop5.overloading.html#object.set) буде виконано під час запису даних у недоступні (захищені та приватні) або неіснуючі властивості.
+Метод [set()](language.oop5.overloading.md#object.set) буде виконано під час запису даних у недоступні (захищені та приватні) або неіснуючі властивості.
 
-Метод [get()](language.oop5.overloading.html#object.get) буде виконано під час читання даних із недоступних (захищених чи приватних) чи неіснуючих властивостей.
+Метод [get()](language.oop5.overloading.md#object.get) буде виконано під час читання даних із недоступних (захищених чи приватних) чи неіснуючих властивостей.
 
-Метод [isset()](language.oop5.overloading.html#object.isset) буде виконано при використанні [isset()](function.isset.html) або [empty()](function.empty.html) на недоступних (захищених чи приватних) чи неіснуючих властивостях.
+Метод [isset()](language.oop5.overloading.md#object.isset) буде виконано при використанні [isset()](function.isset.md) або [empty()](function.empty.md) на недоступних (захищених чи приватних) чи неіснуючих властивостях.
 
-Метод [unset()](language.oop5.overloading.html#object.unset) буде виконано під час виклику [unset()](function.unset.html) на недоступній (захищеній або приватній) або неіснуючій властивості.
+Метод [unset()](language.oop5.overloading.md#object.unset) буде виконано під час виклику [unset()](function.unset.md) на недоступній (захищеній або приватній) або неіснуючій властивості.
 
-Аргумент $name являє собою ім'я властивості, що викликається. Метод [set()](language.oop5.overloading.html#object.set) містить аргумент $value, що є значення, яке буде записано у властивість з ім'ям $name.
+Аргумент $name являє собою ім'я властивості, що викликається. Метод [set()](language.oop5.overloading.md#object.set) містить аргумент $value, що є значення, яке буде записано у властивість з ім'ям $name.
 
-Перевантаження властивостей працює лише у контексті об'єкта. Дані магічні методи не будуть викликані у статичному контексті. Тому ці методи не повинні оголошуватися [статичними](language.oop5.static.html). При оголошенні будь-якого магічного методу як `static` буде видано попередження.
+Перевантаження властивостей працює лише у контексті об'єкта. Дані магічні методи не будуть викликані у статичному контексті. Тому ці методи не повинні оголошуватися [статичними](language.oop5.static.md). При оголошенні будь-якого магічного методу як `static` буде видано попередження.
 
 > **Зауваження**
 > 
-> Значення, що повертається [set()](language.oop5.overloading.html#object.set) буде проігноровано через спосіб обробки PHP оператора присвоювання. Аналогічно, [get()](language.oop5.overloading.html#object.get) ніколи не викликається при об'єднанні присвоювань, наприклад, таким чином:
+> Значення, що повертається [set()](language.oop5.overloading.md#object.set) буде проігноровано через спосіб обробки PHP оператора присвоювання. Аналогічно, [get()](language.oop5.overloading.md#object.get) ніколи не викликається при об'єднанні присвоювань, наприклад, таким чином:
 > 
 > ```
 > $a = $obj->b = 8;
 > ```
 
-**Приклад #1 Перевантаження властивостей за допомогою методів [get()](language.oop5.overloading.html#object.get) [set()](language.oop5.overloading.html#object.set) [isset()](language.oop5.overloading.html#object.isset) і [unset()](language.oop5.overloading.html#object.unset)**
+**Приклад #1 Перевантаження властивостей за допомогою методів [get()](language.oop5.overloading.md#object.get) [set()](language.oop5.overloading.md#object.set) [isset()](language.oop5.overloading.md#object.isset) і [unset()](language.oop5.overloading.md#object.unset)**
 
 ```php
 <?php
@@ -174,13 +174,13 @@ public __call(string $name, array $arguments): mixed
 public static __callStatic(string $name, array $arguments): mixed
 ```
 
-[call()](language.oop5.overloading.html#object.call) запускається під час виклику недоступних методів у контексті об'єкт.
+[call()](language.oop5.overloading.md#object.call) запускається під час виклику недоступних методів у контексті об'єкт.
 
-[callStatic()](language.oop5.overloading.html#object.callstatic) запускається під час виклику недоступних методів у статичному контексті.
+[callStatic()](language.oop5.overloading.md#object.callstatic) запускається під час виклику недоступних методів у статичному контексті.
 
 Аргумент $name являє собою ім'я методу, що викликається. Аргумент $arguments є нумерованим масивом, що містить параметри, передані в метод $name, що викликається.
 
-**Приклад #2 Перевантаження методів за допомогою методів [call()](language.oop5.overloading.html#object.call) і [callStatic()](language.oop5.overloading.html#object.callstatic)**
+**Приклад #2 Перевантаження методів за допомогою методів [call()](language.oop5.overloading.md#object.call) і [callStatic()](language.oop5.overloading.md#object.callstatic)**
 
 ```php
 <?php

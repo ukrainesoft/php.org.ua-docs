@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.win32-continue-service.html: « win32continueservice
-  - function.win32-delete-service.html: win32deleteservice »
+  - function.win32-continue-service.md: « win32continueservice
+  - function.win32-delete-service.md: win32deleteservice »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
 title: win32createservice
@@ -174,7 +174,7 @@ win32_create_service(array $details, string $machine = ?): void
 | --- | --- |
 | PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип повернення тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 1.0.0 | Тип повернення тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed) |
 | PECL win32service 0.4.0 | Додані параметри `dependencies` `recovery_delay` `recovery_action_1` `recovery_action_2` `recovery_action_3` `recovery_reset_period` `recovery_enabled` `recovery_reboot_msg` і `recovery_command` |
 
 ### Приклади

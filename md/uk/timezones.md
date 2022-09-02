@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.formats.relative.html: « Відносні формати
-  - timezones.africa.html: Африка »
-  - index.html: PHP Manual
-  - book.datetime.html: Дата/время
+  - datetime.formats.relative.md: « Відносні формати
+  - timezones.africa.md: Африка »
+  - index.md: PHP Manual
+  - book.datetime.md: Дата/время
 title: Список підтримуваних часових поясів
 ---
 # Список підтримуваних часових поясів

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-id.html: « sessionід
-  - function.session-name.html: sessionname »
+  - function.session-id.md: « sessionід
+  - function.session-name.md: sessionname »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessionmodulename
@@ -18,7 +18,7 @@ sessionmodulename — Повертає та/або встановлює моду
 session_module_name(?string $module = null): string|false
 ```
 
-**sessionmodulename()** повертає назву поточного модуля сесії, яка також відома як [session.savehandler](session.configuration.html#ini.session.save-handler)
+**sessionmodulename()** повертає назву поточного модуля сесії, яка також відома як [session.savehandler](session.configuration.md#ini.session.save-handler)
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-layer-array.html: « fanngetlayerarray
-  - function.fann-get-learning-rate.html: fanngetlearningrate »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-layer-array.md: « fanngetlayerarray
+  - function.fann-get-learning-rate.md: fanngetlearningrate »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetlearningmomentum
 ---
 # fanngetlearningmomentum
@@ -36,5 +36,5 @@ fann_get_learning_momentum(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetlearningmomentum()](function.fann-set-learning-momentum.html) - встановлює імпульс навчання
--   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.html) - встановлює алгоритм навчання
+-   [fannsetlearningmomentum()](function.fann-set-learning-momentum.md) - встановлює імпульс навчання
+-   [fannsettrainingalgorithm()](function.fann-set-training-algorithm.md) - встановлює алгоритм навчання

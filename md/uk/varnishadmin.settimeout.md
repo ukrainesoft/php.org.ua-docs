@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnishadmin.setsecret.html: '« VarnishAdmin::setSecret'
-  - varnishadmin.start.html: 'VarnishAdmin::start »'
-  - index.html: PHP Manual
-  - class.varnishadmin.html: VarnishAdmin
+  - varnishadmin.setsecret.md: '« VarnishAdmin::setSecret'
+  - varnishadmin.start.md: 'VarnishAdmin::start »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
 title: 'VarnishAdmin::setTimeout'
 ---
 # VarnishAdmin::setTimeout

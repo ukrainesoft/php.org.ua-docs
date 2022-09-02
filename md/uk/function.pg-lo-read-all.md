@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-lo-open.html: « pgлоopen
-  - function.pg-lo-read.html: пглоread »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-lo-open.md: « pgлоopen
+  - function.pg-lo-read.md: пглоread »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пглоreadall
 ---
 # пглоreadall
@@ -30,7 +30,7 @@ pg_lo_read_all(PgSql\Lob $lob): int
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 ### Значення, що повертаються
 
@@ -40,7 +40,7 @@ pg_lo_read_all(PgSql\Lob $lob): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -60,4 +60,4 @@ pg_lo_read_all(PgSql\Lob $lob): int
 
 ### Дивіться також
 
--   [пглоread()](function.pg-lo-read.html) - Читає дані великого об'єкту
+-   [пглоread()](function.pg-lo-read.md) - Читає дані великого об'єкту

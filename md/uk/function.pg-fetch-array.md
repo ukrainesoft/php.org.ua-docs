@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-fetch-all.html: « pgfetchall
-  - function.pg-fetch-assoc.html: пгfetchassoc »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-fetch-all.md: « pgfetchall
+  - function.pg-fetch-assoc.md: пгfetchassoc »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгfetcharray
 ---
 # пгfetcharray
@@ -30,7 +30,7 @@ pg_fetch_array(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_BOTH): 
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 
@@ -50,7 +50,7 @@ pg_fetch_array(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_BOTH): 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

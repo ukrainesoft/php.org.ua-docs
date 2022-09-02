@@ -1,9 +1,9 @@
 ---
 navigation:
-  - worker.stack.html: '« Worker::stack'
-  - class.collectable.html: Collectable »
-  - index.html: PHP Manual
-  - class.worker.html: Worker
+  - worker.stack.md: '« Worker::stack'
+  - class.collectable.md: Collectable »
+  - index.md: PHP Manual
+  - class.worker.md: Worker
 title: 'Worker::unstack'
 ---
 # Worker::unstack

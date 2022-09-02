@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domnode.c14nfile.html: '« DOMNode::C14NFile'
-  - domnode.getlineno.html: 'DOMNode::getLineNo »'
-  - index.html: PHP Manual
-  - class.domnode.html: DOMNode
+  - domnode.c14nfile.md: '« DOMNode::C14NFile'
+  - domnode.getlineno.md: 'DOMNode::getLineNo »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
 title: 'DOMNode::cloneNode'
 ---
 # DOMNode::cloneNode

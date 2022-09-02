@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.thumbnailimage.html: '« Imagick::thumbnailImage'
-  - imagick.tostring.html: 'Imagick::toString »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.thumbnailimage.md: '« Imagick::thumbnailImage'
+  - imagick.tostring.md: 'Imagick::toString »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::tintImage'
 ---
 # Imagick::tintImage

@@ -54,7 +54,7 @@ include 'phar://myphar.phar/somefile.php';
 
 ### Помилки
 
-Викидається виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо [phar.readonly](phar.configuration.html#ini.phar.readonly) дозволено у php.ini. У разі проблем із записом на диск буде викинуто виняток [PharException](class.pharexception.md)
+Викидається виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо [phar.readonly](phar.configuration.md#ini.phar.readonly) дозволено у php.ini. У разі проблем із записом на диск буде викинуто виняток [PharException](class.pharexception.md)
 
 ### Приклади
 

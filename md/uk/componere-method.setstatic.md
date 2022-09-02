@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-method.setprotected.html: '« ComponereMethod::setProtected'
-  - componere-method.getreflector.html: 'ComponereMethod::getReflector »'
+  - componere-method.setprotected.md: '« ComponereMethod::setProtected'
+  - componere-method.getreflector.md: 'ComponereMethod::getReflector »'
   - index.md: PHP Manual
-  - class.componere-method.html: ComponereMethod
+  - class.componere-method.md: ComponereMethod
 title: 'ComponereMethod::setStatic'
 ---
 # ComponereMethod::setStatic

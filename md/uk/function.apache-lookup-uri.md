@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apache-getenv.html: « apachegetenv
-  - function.apache-note.html: apachenote »
-  - index.html: PHP Manual
-  - ref.apache.html: Функции Apache
+  - function.apache-getenv.md: « apachegetenv
+  - function.apache-note.md: apachenote »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
 title: apachelookupuri
 ---
 # apachelookupuri

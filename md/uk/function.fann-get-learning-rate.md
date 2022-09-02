@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-learning-momentum.html: « fanngetlearningmomentum
-  - function.fann-get-mse.html: fanngetMSE »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-learning-momentum.md: « fanngetlearningmomentum
+  - function.fann-get-mse.md: fanngetMSE »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetlearningrate
 ---
 # fanngetlearningrate

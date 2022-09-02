@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-put-vendor-string.html: « radiusputvendorstring
-  - function.radius-salt-encrypt-attr.html: radiussaltencryptattr »
+  - function.radius-put-vendor-string.md: « radiusputvendorstring
+  - function.radius-salt-encrypt-attr.md: radiussaltencryptattr »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiusrequestauthenticator

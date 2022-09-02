@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-javascriptinterface.getscope.html: '« MongoDBBSONJavascriptInterface::getScope'
-  - class.mongodb-bson-maxkeyinterface.html: MongoDBBSONMaxKeyInterface »
+  - mongodb-bson-javascriptinterface.getscope.md: '« MongoDBBSONJavascriptInterface::getScope'
+  - class.mongodb-bson-maxkeyinterface.md: MongoDBBSONMaxKeyInterface »
   - index.md: PHP Manual
-  - class.mongodb-bson-javascriptinterface.html: MongoDBBSONJavascriptInterface
+  - class.mongodb-bson-javascriptinterface.md: MongoDBBSONJavascriptInterface
 title: 'MongoDBBSONJavascriptInterface::toString'
 ---
 # MongoDBBSONJavascriptInterface::toString

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-closepath.html: «psclosepath
-  - function.ps-curveto.html: псcurveto »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-closepath.md: «psclosepath
+  - function.ps-curveto.md: псcurveto »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псcontinuetext
 ---
 # псcontinuetext
@@ -18,13 +18,13 @@ title: псcontinuetext
 ps_continue_text(resource $psdoc, string $text): bool
 ```
 
-Виводить текст на один рядок нижче останнього рядка. Міжрядковий інтервал береться зі значення "leading", яке має бути встановлене за допомогою [псsetvalue()](function.ps-set-value.html). Фактичне положення тексту визначається значеннями "text" та "text", які можна запросити за допомогою функції [псgetvalue()](function.ps-get-value.html)
+Виводить текст на один рядок нижче останнього рядка. Міжрядковий інтервал береться зі значення "leading", яке має бути встановлене за допомогою [псsetvalue()](function.ps-set-value.md). Фактичне положення тексту визначається значеннями "text" та "text", які можна запросити за допомогою функції [псgetvalue()](function.ps-get-value.md)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `text`
 
@@ -36,6 +36,6 @@ ps_continue_text(resource $psdoc, string $text): bool
 
 ### Дивіться також
 
--   [псshow()](function.ps-show.html) - Виводить текст
--   [псshowxy()](function.ps-show-xy.html) - Виводить текст у заданій позиції
--   [псshowboxed()](function.ps-show-boxed.html) - Виводить текст у поле
+-   [псshow()](function.ps-show.md) - Виводить текст
+-   [псshowxy()](function.ps-show-xy.md) - Виводить текст у заданій позиції
+-   [псshowboxed()](function.ps-show-boxed.md) - Виводить текст у поле

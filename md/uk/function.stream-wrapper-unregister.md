@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.stream-wrapper-restore.html: « streamwrapperrestore
+  - function.stream-wrapper-restore.md: « streamwrapperrestore
   - book.swoole.md: Swoole »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
@@ -18,7 +18,7 @@ streamwrapperunregister — Скасує реєстрацію обгортки U
 stream_wrapper_unregister(string $protocol): bool
 ```
 
-Дозволяє вам вимкнути вже певну обгортку потоку. Як тільки обгортка буде вимкнена, ви можете перезаписати її обгорткою користувача, використовуючи [streamwrapperregister()](function.stream-wrapper-register.html) або включити її повторно, використовуючи [streamwrapperrestore()](function.stream-wrapper-restore.md)
+Дозволяє вам вимкнути вже певну обгортку потоку. Як тільки обгортка буде вимкнена, ви можете перезаписати її обгорткою користувача, використовуючи [streamwrapperregister()](function.stream-wrapper-register.md) або включити її повторно, використовуючи [streamwrapperrestore()](function.stream-wrapper-restore.md)
 
 ### Список параметрів
 

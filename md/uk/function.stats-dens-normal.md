@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-logistic.html: « statsdenslogistic
-  - function.stats-dens-pmf-binomial.html: statsdenspmfbinomial »
+  - function.stats-dens-logistic.md: « statsdenslogistic
+  - function.stats-dens-pmf-binomial.md: statsdenspmfbinomial »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdensnormal

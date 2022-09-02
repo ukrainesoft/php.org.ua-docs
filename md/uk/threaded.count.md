@@ -1,9 +1,9 @@
 ---
 navigation:
-  - threaded.chunk.html: '« Threaded::chunk'
-  - threaded.extend.html: 'Threaded::extend »'
-  - index.html: PHP Manual
-  - class.threaded.html: Threaded
+  - threaded.chunk.md: '« Threaded::chunk'
+  - threaded.extend.md: 'Threaded::extend »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
 title: 'Threaded::count'
 ---
 # Threaded::count

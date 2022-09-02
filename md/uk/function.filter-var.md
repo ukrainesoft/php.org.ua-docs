@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.filter-var-array.html: « filtervararray
+  - function.filter-var-array.md: « filtervararray
   - book.funchand.md: Управление функциями »
   - index.md: PHP Manual
   - ref.filter.md: Функції фільтрації даних
@@ -22,7 +22,7 @@ filter_var(mixed $value, int $filter = FILTER_DEFAULT, array|int $options = 0): 
 
 `value`
 
-Значення змінної фільтрації. Зверніть увагу, що скалярні значення перед фільтрацією [преобразуются к строкам](language.types.string.html#language.types.string.casting)
+Значення змінної фільтрації. Зверніть увагу, що скалярні значення перед фільтрацією [преобразуются к строкам](language.types.string.md#language.types.string.casting)
 
 `filter`
 

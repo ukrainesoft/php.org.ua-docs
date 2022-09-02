@@ -1,20 +1,20 @@
 ---
 navigation:
-  - function.ocicolltrim.html: « ocicolltrim
-  - function.ocicolumnname.html: ocicolumnname »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocicolltrim.md: « ocicolltrim
+  - function.ocicolumnname.md: ocicolumnname »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocicolumnisnull
 ---
 # ocicolumnisnull
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicolumnisnull - Псевдонім [ocifieldісnull()](function.oci-field-is-null.html)
+ocicolumnisnull - Псевдонім [ocifieldісnull()](function.oci-field-is-null.md)
 
 ### Опис
 
-Псевдонім [ocifieldісnull()](function.oci-field-is-null.html)
+Псевдонім [ocifieldісnull()](function.oci-field-is-null.md)
 
 **Увага**
 

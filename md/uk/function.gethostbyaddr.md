@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fsockopen.html: « fsockopen
-  - function.gethostbyname.html: gethostbyname »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.fsockopen.md: « fsockopen
+  - function.gethostbyname.md: gethostbyname »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: gethostbyaddr
 ---
 # gethostbyaddr
@@ -44,5 +44,5 @@ echo $hostname;
 
 ### Дивіться також
 
--   [gethostbyname()](function.gethostbyname.html) - Отримує IPv4-адресу, що відповідає переданому імені хоста
--   [gethostbynamel()](function.gethostbynamel.html) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста
+-   [gethostbyname()](function.gethostbyname.md) - Отримує IPv4-адресу, що відповідає переданому імені хоста
+-   [gethostbynamel()](function.gethostbynamel.md) - Отримує список IPv4-адрес, що відповідають переданому доменному імені хоста

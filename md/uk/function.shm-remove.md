@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.shm-remove-var.html: « shmremovevar
-  - class.sysvmessagequeue.html: SysvMessageQueue »
-  - index.html: PHP Manual
-  - ref.sem.html: Функції семафорів
+  - function.shm-remove-var.md: « shmremovevar
+  - class.sysvmessagequeue.md: SysvMessageQueue »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
 title: shmremove
 ---
 # shmremove
@@ -24,7 +24,7 @@ shm_remove(SysvSharedMemory $shm): bool
 
 `shm`
 
-Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.html)
+Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.md)
 
 ### Значення, що повертаються
 
@@ -34,8 +34,8 @@ shm_remove(SysvSharedMemory $shm): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [shmremovevar()](function.shm-remove-var.html) - Видаляє змінну з пам'яті, що розділяється
+-   [shmremovevar()](function.shm-remove-var.md) - Видаляє змінну з пам'яті, що розділяється

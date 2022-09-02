@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-socket-enable-crypto.html: « streamsocketenablecrypto
-  - function.stream-socket-pair.html: streamsocketpair »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-socket-enable-crypto.md: « streamsocketenablecrypto
+  - function.stream-socket-pair.md: streamsocketpair »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsocketgetname
 ---
 # streamsocketgetname
@@ -36,4 +36,4 @@ stream_socket_get_name(resource $socket, bool $remote): string|false
 
 ### Дивіться також
 
--   [streamsocketaccept()](function.stream-socket-accept.html) - Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
+-   [streamsocketaccept()](function.stream-socket-accept.md) - Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver

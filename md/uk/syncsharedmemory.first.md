@@ -1,9 +1,9 @@
 ---
 navigation:
-  - syncsharedmemory.construct.html: '« SyncSharedMemory::construct'
-  - syncsharedmemory.read.html: 'SyncSharedMemory::read »'
-  - index.html: PHP Manual
-  - class.syncsharedmemory.html: SyncSharedMemory
+  - syncsharedmemory.construct.md: '« SyncSharedMemory::construct'
+  - syncsharedmemory.read.md: 'SyncSharedMemory::read »'
+  - index.md: PHP Manual
+  - class.syncsharedmemory.md: SyncSharedMemory
 title: 'SyncSharedMemory::first'
 ---
 # SyncSharedMemory::first
@@ -18,7 +18,7 @@ SyncSharedMemory::first — Перевіряє, чи є об'єкт першим
 public SyncSharedMemory::first(): bool
 ```
 
-Отримує загальносистемний статус першого екземпляра об'єкта [SyncSharedMemory](class.syncsharedmemory.html)
+Отримує загальносистемний статус першого екземпляра об'єкта [SyncSharedMemory](class.syncsharedmemory.md)
 
 ### Список параметрів
 
@@ -57,5 +57,5 @@ bool(false)
 
 ### Дивіться також
 
--   [SyncSharedMemory::write()](syncsharedmemory.write.html) - Копіює дані в іменовану пам'ять, що розділяється.
--   [SyncSharedMemory::read()](syncsharedmemory.read.html) - Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється

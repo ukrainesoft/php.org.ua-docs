@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-lo-write.html: « pgлоwrite
-  - function.pg-num-fields.html: пгnumfields »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-lo-write.md: « pgлоwrite
+  - function.pg-num-fields.md: пгnumfields »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгmetadata
 ---
 # пгmetadata
@@ -24,7 +24,7 @@ pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = 
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `table_name`
 
@@ -42,7 +42,7 @@ pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -109,4 +109,4 @@ array(5) {
 
 ### Дивіться також
 
--   [пгconvert()](function.pg-convert.html) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах
+-   [пгconvert()](function.pg-convert.md) - Перетворює значення асоціативного масиву на прийнятні для використання в SQL-запитах

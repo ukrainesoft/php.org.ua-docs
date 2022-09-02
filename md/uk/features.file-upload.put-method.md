@@ -1,9 +1,9 @@
 ---
 navigation:
-  - features.file-upload.multiple.html: « Завантаження кількох файлів
-  - features.file-upload.errors.seealso.html: Смотрите также »
-  - index.html: PHP Manual
-  - features.file-upload.html: Загрузка файлов на сервер
+  - features.file-upload.multiple.md: « Завантаження кількох файлів
+  - features.file-upload.errors.seealso.md: Смотрите также »
+  - index.md: PHP Manual
+  - features.file-upload.md: Загрузка файлов на сервер
 title: Підтримка методу PUT
 ---
 ## Підтримка методу PUT

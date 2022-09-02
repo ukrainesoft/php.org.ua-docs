@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recode.constants.html: « Обумовлені константи
-  - function.recode-file.html: recodefile »
-  - index.html: PHP Manual
-  - book.recode.html: Recode
+  - recode.constants.md: « Обумовлені константи
+  - function.recode-file.md: recodefile »
+  - index.md: PHP Manual
+  - book.recode.md: Recode
 title: Функції Recode
 ---
 # Функції Recode

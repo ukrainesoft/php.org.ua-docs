@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi.examples.html: « Приклади
-  - function.mysql-xdevapi-expression.html: expression »
+  - mysql-xdevapi.examples.md: « Приклади
+  - function.mysql-xdevapi-expression.md: expression »
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Функції Mysqlxdevapi
 ---
 # Функції Mysqlxdevapi

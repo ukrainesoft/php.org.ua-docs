@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.date-format.html: « dateformat
-  - function.date-interval-create-from-date-string.html: dateintervalcreatefromdatestring »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.date-format.md: « dateformat
+  - function.date-interval-create-from-date-string.md: dateintervalcreatefromdatestring »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: dategetlasterrors
 ---
 # dategetlasterrors

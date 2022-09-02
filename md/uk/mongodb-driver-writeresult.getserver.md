@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getmodifiedcount.html: '« MongoDBDriverWriteResult::getModifiedCount'
-  - mongodb-driver-writeresult.getupsertedcount.html: 'MongoDBDriverWriteResult::getUpsertedCount »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+  - mongodb-driver-writeresult.getmodifiedcount.md: '« MongoDBDriverWriteResult::getModifiedCount'
+  - mongodb-driver-writeresult.getupsertedcount.md: 'MongoDBDriverWriteResult::getUpsertedCount »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
 title: 'MongoDBDriverWriteResult::getServer'
 ---
 # MongoDBDriverWriteResult::getServer
@@ -18,7 +18,7 @@ MongoDBDriverWriteResult::getServer — Повертає сервер, пов'я
 final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із цим результатом запису. Це сервер, який виконав [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), пов'язаний із цим результатом запису. Це сервер, який виконав [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md)
 
 ### Список параметрів
 

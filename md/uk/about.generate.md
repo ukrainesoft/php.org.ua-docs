@@ -1,9 +1,9 @@
 ---
 navigation:
-  - about.howtohelp.html: Як допомогти в написанні документації
-  - about.translations.html: Переклади »
-  - index.html: PHP Manual
-  - about.html: Про це керівництво
+  - about.howtohelp.md: Як допомогти в написанні документації
+  - about.translations.md: Переклади »
+  - index.md: PHP Manual
+  - about.md: Про це керівництво
 title: Як створюються формати документації
 ---
 ## Як створюються формати документації

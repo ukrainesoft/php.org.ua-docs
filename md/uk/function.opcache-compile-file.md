@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.opcache.md: « Функции OPcache
-  - function.opcache-get-configuration.html: opcachegetconfiguration »
+  - function.opcache-get-configuration.md: opcachegetconfiguration »
   - index.md: PHP Manual
   - ref.opcache.md: Функции OPcache
 title: opcachecompilefile
@@ -36,4 +36,4 @@ opcache_compile_file(string $filename): bool
 
 ### Дивіться також
 
--   [opcacheinvalidate()](function.opcache-invalidate.html) - анулює закешований скрипт
+-   [opcacheinvalidate()](function.opcache-invalidate.md) - анулює закешований скрипт

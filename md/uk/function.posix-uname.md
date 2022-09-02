@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-ttyname.html: « posixttyname
-  - book.exec.html: Запуск програми "
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-ttyname.md: « posixttyname
+  - book.exec.md: Запуск програми "
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixuname
 ---
 # posixuname

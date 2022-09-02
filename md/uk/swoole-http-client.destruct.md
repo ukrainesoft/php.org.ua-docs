@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.construct.html: '« SwooleHttpClient::construct'
-  - swoole-http-client.download.html: 'SwooleHttpClient::download »'
+  - swoole-http-client.construct.md: '« SwooleHttpClient::construct'
+  - swoole-http-client.download.md: 'SwooleHttpClient::download »'
   - index.md: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::destruct'
 ---
 # SwooleHttpClient::destruct

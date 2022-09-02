@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ldap-result-entry.html: « LDAPResultEntry
-  - intro.memcache.html: Введение »
-  - index.html: PHP Manual
-  - refs.remote.other.html: Інші служби
+  - class.ldap-result-entry.md: « LDAPResultEntry
+  - intro.memcache.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
 title: Memcache
 ---
 # Memcache

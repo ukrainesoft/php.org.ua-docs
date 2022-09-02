@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wincache-ucache-inc.html: « wincacheucacheinc
-  - function.wincache-ucache-meminfo.html: wincacheucachememinfo »
+  - function.wincache-ucache-inc.md: « wincacheucacheinc
+  - function.wincache-ucache-meminfo.md: wincacheucachememinfo »
   - index.md: PHP Manual
   - ref.wincache.md: Функции WinCache
 title: wincacheucacheinfo

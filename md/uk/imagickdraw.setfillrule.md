@@ -28,7 +28,7 @@ public ImagickDraw::setFillRule(int $fill_rule): bool
 
 `fill_rule`
 
-Одна з констант [FILLRULE](imagick.constants.html#imagick.constants.fillrule) `imagick::FILLRULE_*`
+Одна з констант [FILLRULE](imagick.constants.md#imagick.constants.fillrule) `imagick::FILLRULE_*`
 
 ### Значення, що повертаються
 

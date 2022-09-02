@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.wddx-packet-start.html: « wddxpacketstart
-  - function.wddx-serialize-vars.html: wddxserializevars »
-  - index.html: PHP Manual
-  - ref.wddx.html: Функції WDDX
+  - function.wddx-packet-start.md: « wddxpacketstart
+  - function.wddx-serialize-vars.md: wddxserializevars »
+  - index.md: PHP Manual
+  - ref.wddx.md: Функції WDDX
 title: wddxserializevalue
 ---
 # wddxserializevalue

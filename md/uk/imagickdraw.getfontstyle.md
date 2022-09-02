@@ -26,4 +26,4 @@ public ImagickDraw::getFontStyle(): int
 
 ### Значення, що повертаються
 
-Повертає константу [STYLE](imagick.constants.html#imagick.constants.styles) `imagick::STYLE_*`), пов'язану з об'єктом [ImagickDraw](class.imagickdraw.md) або 0, якщо стиль не встановлено.
+Повертає константу [STYLE](imagick.constants.md#imagick.constants.styles) `imagick::STYLE_*`), пов'язану з об'єктом [ImagickDraw](class.imagickdraw.md) або 0, якщо стиль не встановлено.

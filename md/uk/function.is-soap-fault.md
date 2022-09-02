@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.soap.md: « Функции SOAP
-  - function.use-soap-error-handler.html: usesoaperrorhandler »
+  - function.use-soap-error-handler.md: usesoaperrorhandler »
   - index.md: PHP Manual
   - ref.soap.md: Функции SOAP
 title: ісsoapfault

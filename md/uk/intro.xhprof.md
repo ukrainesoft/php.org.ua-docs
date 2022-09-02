@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.xhprof.html: « Xhprof
-  - xhprof.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.xhprof.html: Xhprof
+  - book.xhprof.md: « Xhprof
+  - xhprof.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.xhprof.md: Xhprof
 title: Вступ
 ---
 # Вступ
@@ -16,4 +16,4 @@ XHProf містить простий HTML-інтерфейс (написаний
 
 XHProf підтримує порівняння двох різних запусків ("diff") або агрегацію даних кількох запусків. Порівняльні та агреговані звіти, також як поодинокі, надають як "плоскі", так і "ієрархічні" погляди на результати профілювання.
 
-Додаткова документація доступна на сайті [» facebook xhprof](http://web.archive.org/web/20110514095512/http://mirror.facebook.net/facebook/xhprof/doc.html)
+Додаткова документація доступна на сайті [» facebook xhprof](http://web.archive.org/web/20110514095512/http://mirror.facebook.net/facebook/xhprof/doc.md)

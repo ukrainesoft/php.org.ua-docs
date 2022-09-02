@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.event.html: « Event
-  - event.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.event.html: Event
+  - book.event.md: « Event
+  - event.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.event.md: Event
 title: Вступ
 ---
 # Вступ

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-kx-secretkey.html: « sodiumcryptoкксsecretkey
-  - function.sodium-crypto-kx-server-session-keys.html: sodiumcryptoкксserversessionkeys »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-kx-secretkey.md: « sodiumcryptoкксsecretkey
+  - function.sodium-crypto-kx-server-session-keys.md: sodiumcryptoкксserversessionkeys »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptoкксseedkeypair
 ---
 # sodiumcryptoкксseedkeypair

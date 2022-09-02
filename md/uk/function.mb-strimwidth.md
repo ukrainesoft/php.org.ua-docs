@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-strcut.html: « mbstrcut
-  - function.mb-stripos.html: мбstripos »
+  - function.mb-strcut.md: « mbstrcut
+  - function.mb-stripos.md: мбstripos »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбstrimwidth

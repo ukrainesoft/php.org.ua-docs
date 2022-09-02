@@ -67,4 +67,4 @@ d
 
 ### Дивіться також
 
--   [Приклади використання LimitIterator](class.limititerator.html#limititerator.examples)
+-   [Приклади використання LimitIterator](class.limititerator.md#limititerator.examples)

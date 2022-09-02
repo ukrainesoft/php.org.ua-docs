@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagegravity.html: '« Imagick::setImageGravity'
-  - imagick.setimageindex.html: 'Imagick::setImageIndex »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagegravity.md: '« Imagick::setImageGravity'
+  - imagick.setimageindex.md: 'Imagick::setImageIndex »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageGreenPrimary'
 ---
 # Imagick::setImageGreenPrimary

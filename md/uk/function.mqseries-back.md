@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.mqseries.md: « Функции mqseries
-  - function.mqseries-begin.html: mqseriesbegin »
+  - function.mqseries-begin.md: mqseriesbegin »
   - index.md: PHP Manual
   - ref.mqseries.md: Функции mqseries
 title: mqseriesback

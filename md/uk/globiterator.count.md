@@ -1,9 +1,9 @@
 ---
 navigation:
-  - globiterator.construct.html: '« GlobIterator::construct'
-  - class.infiniteiterator.html: InfiniteIterator »
-  - index.html: PHP Manual
-  - class.globiterator.html: GlobIterator
+  - globiterator.construct.md: '« GlobIterator::construct'
+  - class.infiniteiterator.md: InfiniteIterator »
+  - index.md: PHP Manual
+  - class.globiterator.md: GlobIterator
 title: 'GlobIterator::count'
 ---
 # GlobIterator::count
@@ -48,6 +48,6 @@ printf("Найдено элементов: %d \r\n", $iterator->count());
 
 ### Дивіться також
 
--   [GlobIterator::construct()](globiterator.construct.html) - створює ітератор директорії, використовуючи glob-вираз
--   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
--   [glob()](function.glob.html) - Знаходить файлові шляхи, що збігаються із шаблоном
+-   [GlobIterator::construct()](globiterator.construct.md) - створює ітератор директорії, використовуючи glob-вираз
+-   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті
+-   [glob()](function.glob.md) - Знаходить файлові шляхи, що збігаються із шаблоном

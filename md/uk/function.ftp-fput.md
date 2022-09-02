@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ftp-fget.html: « ftpfget
-  - function.ftp-get-option.html: ftpgetoption »
-  - index.html: PHP Manual
-  - ref.ftp.html: Функції FTP
+  - function.ftp-fget.md: « ftpfget
+  - function.ftp-get-option.md: ftpgetoption »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
 title: ftpfput
 ---
 # ftpfput
@@ -24,7 +24,7 @@ ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    res
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `remote_filename`
 
@@ -50,7 +50,7 @@ ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    res
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади
@@ -86,6 +86,6 @@ fclose($fp);
 
 ### Дивіться також
 
--   [ftpput()](function.ftp-put.html) - Завантажує файл на FTP-сервер
--   [ftpнбfput()](function.ftp-nb-fput.html) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
--   [ftpнбput()](function.ftp-nb-put.html) - Завантажує файл на сервер FTP в асинхронному режимі
+-   [ftpput()](function.ftp-put.md) - Завантажує файл на FTP-сервер
+-   [ftpнбfput()](function.ftp-nb-fput.md) - Завантажує попередньо відкритий файл на сервер FTP в асинхронному режимі
+-   [ftpнбput()](function.ftp-nb-put.md) - Завантажує файл на сервер FTP в асинхронному режимі

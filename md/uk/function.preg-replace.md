@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.preg-replace-callback.html: « pregreplacecallback
-  - function.preg-split.html: pregsplit »
+  - function.preg-replace-callback.md: « pregreplacecallback
+  - function.preg-split.md: pregsplit »
   - index.md: PHP Manual
   - ref.pcre.md: Функции PCRE
 title: pregreplace

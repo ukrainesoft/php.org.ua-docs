@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.pspell-config.html: « PSpellConfig
+  - class.pspell-config.md: « PSpellConfig
   - intro.recode.md: Введение »
   - index.md: PHP Manual
   - refs.international.md: Підтримка мов та кодувань

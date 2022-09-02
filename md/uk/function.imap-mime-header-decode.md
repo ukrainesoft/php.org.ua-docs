@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-mailboxmsginfo.html: « imapmailboxmsginfo
-  - function.imap-msgno.html: imapmsgno »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-mailboxmsginfo.md: « imapmailboxmsginfo
+  - function.imap-msgno.md: imapmsgno »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapmimeheaderdecode
 ---
 # imapmimeheaderdecode
@@ -64,4 +64,4 @@ Text:  <keld@example.com>
 
 ### Дивіться також
 
--   [imaputf8()](function.imap-utf8.html) - Перетворює MIME-кодований текст на UTF-8
+-   [imaputf8()](function.imap-utf8.md) - Перетворює MIME-кодований текст на UTF-8

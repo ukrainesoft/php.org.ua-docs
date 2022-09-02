@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.gettype.html: '« ReflectionProperty::getType'
-  - reflectionproperty.hasdefaultvalue.html: 'ReflectionProperty::hasDefaultValue »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.gettype.md: '« ReflectionProperty::getType'
+  - reflectionproperty.hasdefaultvalue.md: 'ReflectionProperty::hasDefaultValue »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::getValue'
 ---
 # ReflectionProperty::getValue
@@ -32,7 +32,7 @@ public ReflectionProperty::getValue(?object $object = null): mixed
 
 ### Помилки
 
-Викидає виняток [ReflectionException](class.reflectionexception.html)якщо властивість недоступна. Захищені та закриті властивості можна зробити доступними функцією [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md)
+Викидає виняток [ReflectionException](class.reflectionexception.md)якщо властивість недоступна. Захищені та закриті властивості можна зробити доступними функцією [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md)
 
 ### список змін
 

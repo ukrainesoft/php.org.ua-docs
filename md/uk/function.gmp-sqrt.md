@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-sign.html: « gmpsign
-  - function.gmp-sqrtrem.html: gmpsqrtrem »
+  - function.gmp-sign.md: « gmpsign
+  - function.gmp-sqrtrem.md: gmpsqrtrem »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpsqrt

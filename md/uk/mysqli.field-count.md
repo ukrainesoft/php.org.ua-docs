@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.error.html: '« mysqli::$error'
-  - mysqli.get-charset.html: 'mysqli::getcharset »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.error.md: '« mysqli::$error'
+  - mysqli.get-charset.md: 'mysqli::getcharset »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::$fieldcount'
 ---
 # mysqli::$fieldcount
@@ -32,7 +32,7 @@ mysqli_field_count(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.md)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 

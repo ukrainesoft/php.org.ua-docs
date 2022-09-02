@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.fdf-set-value.html: « fdfsetvalue
+  - function.fdf-set-value.md: « fdfsetvalue
   - book.gnupg.md: GnuPG »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
@@ -26,7 +26,7 @@ fdf_set_version(resource $fdf_document, string $version): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `version`
 

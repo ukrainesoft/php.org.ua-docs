@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-list-algorithms.html: « mcryptlistalgorithms
-  - function.mcrypt-module-close.html: mcryptmoduleclose »
+  - function.mcrypt-list-algorithms.md: « mcryptlistalgorithms
+  - function.mcrypt-module-close.md: mcryptmoduleclose »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptlistmodes

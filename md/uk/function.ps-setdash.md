@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-setcolor.html: «pssetcolor
-  - function.ps-setflat.html: псsetflat »
+  - function.ps-setcolor.md: «pssetcolor
+  - function.ps-setflat.md: псsetflat »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetdash

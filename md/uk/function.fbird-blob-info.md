@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-blob-import.html: « fbirdblobimport
-  - function.fbird-blob-open.html: fbirdblobopen »
+  - function.fbird-blob-import.md: « fbirdblobimport
+  - function.fbird-blob-open.md: fbirdblobopen »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdblobinfo

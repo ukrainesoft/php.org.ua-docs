@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-lob-copy.html: « ocilobcopy
-  - function.oci-new-collection.html: ocinewcollection »
+  - function.oci-lob-copy.md: « ocilobcopy
+  - function.oci-new-collection.md: ocinewcollection »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociлобісequal

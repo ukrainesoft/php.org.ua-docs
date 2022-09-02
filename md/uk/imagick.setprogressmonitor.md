@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setpointsize.html: '« Imagick::setPointSize'
-  - imagick.setregistry.html: 'Imagick::setRegistry »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setpointsize.md: '« Imagick::setPointSize'
+  - imagick.setregistry.md: 'Imagick::setRegistry »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setProgressMonitor'
 ---
 # Imagick::setProgressMonitor

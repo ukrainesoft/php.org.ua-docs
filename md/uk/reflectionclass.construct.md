@@ -105,4 +105,4 @@ Class [ <internal:Core> class Exception ] {
 ### Дивіться також
 
 -   [ReflectionObject::construct()](reflectionobject.construct.md) - Конструктор класу ReflectionObject
--   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - intro-whatis.html: Що таке PHP?
+  - intro-whatis.md: Що таке PHP?
   - tutorial.md: Простий підручник »
   - index.md: PHP Manual
   - introduction.md: Введение

@@ -1,16 +1,16 @@
 ---
 navigation:
-  - pdo.requirements.html: « Вимоги
-  - pdo.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - pdo.setup.html: Встановлення та налаштування
+  - pdo.requirements.md: « Вимоги
+  - pdo.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - pdo.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення
 
 **Встановлення PDO на Unix-системах**
 
-1.  PDO та драйвер [PDOSQLITE](ref.pdo-sqlite.html) включені за замовчуванням у PHP. Щоб увімкнути PDO драйвер для довільної бази даних, зверніться до документації [драйвери PDO баз даних](pdo.drivers.md)
+1.  PDO та драйвер [PDOSQLITE](ref.pdo-sqlite.md) включені за замовчуванням у PHP. Щоб увімкнути PDO драйвер для довільної бази даних, зверніться до документації [драйвери PDO баз даних](pdo.drivers.md)
     
     > **Зауваження**
     > 
@@ -40,7 +40,7 @@ title: Встановлення
     extension=php_pdo_sqlite.dll
     ```
     
-    Ці DLL повинні бути в директорії [extensiondir](ini.core.html#ini.extension-dir)
+    Ці DLL повинні бути в директорії [extensiondir](ini.core.md#ini.extension-dir)
     
 
 > **Зауваження**

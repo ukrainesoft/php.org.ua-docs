@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-start-tls.html: « ldapstarttls
-  - function.ldap-unbind.html: ldapunbind »
+  - function.ldap-start-tls.md: « ldapstarttls
+  - function.ldap-unbind.md: ldapunbind »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapt61то

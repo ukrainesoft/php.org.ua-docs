@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-value.construct.html: '« ComponereValue::construct'
-  - componere-value.setprotected.html: 'ComponereValue::setProtected »'
+  - componere-value.construct.md: '« ComponereValue::construct'
+  - componere-value.setprotected.md: 'ComponereValue::setProtected »'
   - index.md: PHP Manual
-  - class.componere-value.html: ComponereValue
+  - class.componere-value.md: ComponereValue
 title: 'ComponereValue::setPrivate'
 ---
 # ComponereValue::setPrivate

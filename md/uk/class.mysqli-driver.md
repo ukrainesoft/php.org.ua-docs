@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.num-rows.html: '« mysqliresult::$numrows'
-  - mysqli-driver.embedded-server-end.html: 'mysqlidriver::embeddedserverend »'
-  - index.html: PHP Manual
-  - book.mysqli.html: MySQLi
+  - mysqli-result.num-rows.md: '« mysqliresult::$numrows'
+  - mysqli-driver.embedded-server-end.md: 'mysqlidriver::embeddedserverend »'
+  - index.md: PHP Manual
+  - book.mysqli.md: MySQLi
 title: Клас mysqlidriver
 ---
 # Клас mysqlidriver
@@ -99,10 +99,10 @@ reconnect
 
 reportmode
 
-Встановити **`MYSQLI_REPORT_OFF`** **`MYSQLI_REPORT_ALL`** або будь-яку комбінацію з **`MYSQLI_REPORT_STRICT`** (виклик винятків для помилок), **`MYSQLI_REPORT_ERROR`** (повідомлення про помилки) та **`MYSQLI_REPORT_INDEX`** (Помилки, пов'язані з індексами). Дивіться також [mysqlireport()](function.mysqli-report.html)
+Встановити **`MYSQLI_REPORT_OFF`** **`MYSQLI_REPORT_ALL`** або будь-яку комбінацію з **`MYSQLI_REPORT_STRICT`** (виклик винятків для помилок), **`MYSQLI_REPORT_ERROR`** (повідомлення про помилки) та **`MYSQLI_REPORT_INDEX`** (Помилки, пов'язані з індексами). Дивіться також [mysqlireport()](function.mysqli-report.md)
 
 ## Зміст
 
--   [mysqlidriver::embeddedserverend](mysqli-driver.embedded-server-end.html) - Зупиняє вбудований сервер
--   [mysqlidriver::embeddedserverstart](mysqli-driver.embedded-server-start.html) — Ініціалізує та запускає вбудований сервер
--   [mysqlidriver::$reportmode](mysqli-driver.report-mode.html) — Встановлює режим звіту про помилки mysqli
+-   [mysqlidriver::embeddedserverend](mysqli-driver.embedded-server-end.md) - Зупиняє вбудований сервер
+-   [mysqlidriver::embeddedserverstart](mysqli-driver.embedded-server-start.md) — Ініціалізує та запускає вбудований сервер
+-   [mysqlidriver::$reportmode](mysqli-driver.report-mode.md) — Встановлює режим звіту про помилки mysqli

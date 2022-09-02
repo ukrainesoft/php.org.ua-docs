@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-uintersect-uassoc.html: « arrayuintersectuassoc
-  - function.array-unique.html: arrayunique »
+  - function.array-uintersect-uassoc.md: « arrayuintersectuassoc
+  - function.array-unique.md: arrayunique »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayuintersect

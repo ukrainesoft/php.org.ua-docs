@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.recode.html: « Введение
-  - recode.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.recode.html: Recode
+  - intro.recode.md: « Введение
+  - recode.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.recode.md: Recode
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

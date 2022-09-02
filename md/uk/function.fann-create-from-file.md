@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-copy.html: « fanncopy
-  - function.fann-create-shortcut-array.html: fanncreateshortcutarray »
+  - function.fann-copy.md: « fanncopy
+  - function.fann-create-shortcut-array.md: fanncreateshortcutarray »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanncreatefromfile

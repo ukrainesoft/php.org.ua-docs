@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle.installation.html: « Установка
-  - parle.pattern.matching.html: Сопоставление с шаблоном »
-  - index.html: PHP Manual
-  - book.parle.html: Parle
+  - parle.installation.md: « Установка
+  - parle.pattern.matching.md: Сопоставление с шаблоном »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
 title: Обумовлені константи
 ---
 # Обумовлені константи

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.error-list.html: '« mysqli::$errorlist'
-  - mysqli.field-count.html: 'mysqli::$fieldcount »'
+  - mysqli.error-list.md: '« mysqli::$errorlist'
+  - mysqli.field-count.md: 'mysqli::$fieldcount »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$error'

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-process.html: « SwooleProcess
-  - swoole-process.close.html: 'SwooleProcess::close »'
-  - index.html: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - class.swoole-process.md: « SwooleProcess
+  - swoole-process.close.md: 'SwooleProcess::close »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::alarm'
 ---
 # SwooleProcess::alarm

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-fetch-into.html: « odbcfetchinto
-  - function.odbc-fetch-row.html: odbcfetchrow »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-fetch-into.md: « odbcfetchinto
+  - function.odbc-fetch-row.md: odbcfetchrow »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcfetchobject
 ---
 # odbcfetchobject

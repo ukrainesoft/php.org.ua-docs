@@ -1,9 +1,9 @@
 ---
 navigation:
-  - luasandboxfunction.dump.html: '« LuaSandboxFunction::dump'
-  - class.luasandboxerrorerror.html: LuaSandboxErrorError »
-  - index.html: PHP Manual
-  - book.luasandbox.html: LuaSandbox
+  - luasandboxfunction.dump.md: '« LuaSandboxFunction::dump'
+  - class.luasandboxerrorerror.md: LuaSandboxErrorError »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
 title: Клас LuaSandboxError
 ---
 # Клас LuaSandboxError

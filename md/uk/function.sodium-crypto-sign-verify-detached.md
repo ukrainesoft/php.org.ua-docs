@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-seed-keypair.html: « sodiumcryptosignseedkeypair
-  - function.sodium-crypto-sign.html: sodiumcryptosign »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-sign-seed-keypair.md: « sodiumcryptosignseedkeypair
+  - function.sodium-crypto-sign.md: sodiumcryptosign »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptosignverifydetached
 ---
 # sodiumcryptosignverifydetached

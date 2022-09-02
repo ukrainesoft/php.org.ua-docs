@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-descale-output.html: « fanndescaleoutput
-  - function.fann-destroy-train.html: fanndestroytrain »
+  - function.fann-descale-output.md: « fanndescaleoutput
+  - function.fann-destroy-train.md: fanndestroytrain »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanndescaletrain
@@ -36,5 +36,5 @@ fann_descale_train(resource $ann, resource $train_data): bool
 
 ### Дивіться також
 
--   [fannscaletrain()](function.fann-scale-train.html) - Масштабує вхідні та вихідні дані на основі раніше розрахованих параметрів
--   [fannsetscalingparams()](function.fann-set-scaling-params.html) - Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fannscaletrain()](function.fann-scale-train.md) - Масштабує вхідні та вихідні дані на основі раніше розрахованих параметрів
+-   [fannsetscalingparams()](function.fann-set-scaling-params.md) - Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання

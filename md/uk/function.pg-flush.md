@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-field-type.html: « pgfieldtype
-  - function.pg-free-result.html: пгfreeresult »
+  - function.pg-field-type.md: « pgfieldtype
+  - function.pg-free-result.md: пгfreeresult »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгflush

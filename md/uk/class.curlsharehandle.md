@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.curlmultihandle.html: « CurlMultiHandle
-  - class.curlfile.html: CURLFile »
-  - index.html: PHP Manual
-  - book.curl.html: cURL
+  - class.curlmultihandle.md: « CurlMultiHandle
+  - class.curlfile.md: CURLFile »
+  - index.md: PHP Manual
+  - book.curl.md: cURL
 title: Клас CurlShareHandle
 ---
 # Клас CurlShareHandle

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-create.html: « socketcreate
-  - function.socket-get-option.html: socketgetoption »
+  - function.socket-create.md: « socketcreate
+  - function.socket-get-option.md: socketgetoption »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketexportstream

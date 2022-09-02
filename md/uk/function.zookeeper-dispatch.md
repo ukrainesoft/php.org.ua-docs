@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.zookeeper.html: « Функции ZooKeeper
-  - class.zookeeper.html: Zookeeper »
-  - index.html: PHP Manual
-  - ref.zookeeper.html: Функции ZooKeeper
+  - ref.zookeeper.md: « Функции ZooKeeper
+  - class.zookeeper.md: Zookeeper »
+  - index.md: PHP Manual
+  - ref.zookeeper.md: Функции ZooKeeper
 title: zookeeperdispatch
 ---
 # zookeeperdispatch
@@ -18,7 +18,7 @@ zookeeperdispatch — Викликати callback-функції для опер
 zookeeper_dispatch(): void
 ```
 
-Функція **zookeeperdispatch()** викликає callback-функції, передані операціями, такими як [Zookeeper::get()](zookeeper.get.html) або [Zookeeper::exists()](zookeeper.exists.md)
+Функція **zookeeperdispatch()** викликає callback-функції, передані операціями, такими як [Zookeeper::get()](zookeeper.get.md) або [Zookeeper::exists()](zookeeper.exists.md)
 
 **Застереження**
 

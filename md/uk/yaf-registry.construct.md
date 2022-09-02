@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-registry.html: « YafRegistry
-  - yaf-registry.del.html: 'YafRegistry::del »'
-  - index.html: PHP Manual
-  - class.yaf-registry.html: YafRegistry
+  - class.yaf-registry.md: « YafRegistry
+  - yaf-registry.del.md: 'YafRegistry::del »'
+  - index.md: PHP Manual
+  - class.yaf-registry.md: YafRegistry
 title: 'YafRegistry::construct'
 ---
 # YafRegistry::construct

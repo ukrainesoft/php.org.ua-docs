@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.splqueue.html: « SplQueue
-  - splqueue.dequeue.html: 'SplQueue::dequeue »'
-  - index.html: PHP Manual
-  - class.splqueue.html: SplQueue
+  - class.splqueue.md: « SplQueue
+  - splqueue.dequeue.md: 'SplQueue::dequeue »'
+  - index.md: PHP Manual
+  - class.splqueue.md: SplQueue
 title: 'SplQueue::construct'
 ---
 # SplQueue::construct

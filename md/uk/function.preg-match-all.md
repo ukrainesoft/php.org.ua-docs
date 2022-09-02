@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.preg-last-error.html: « preglasterror
-  - function.preg-match.html: pregmatch »
+  - function.preg-last-error.md: « preglasterror
+  - function.preg-match.md: pregmatch »
   - index.md: PHP Manual
   - ref.pcre.md: Функции PCRE
 title: pregmatchall

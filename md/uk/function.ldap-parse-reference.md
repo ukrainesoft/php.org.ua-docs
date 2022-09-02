@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-parse-exop.html: « ldapparseexop
-  - function.ldap-parse-result.html: ldapparseresult »
+  - function.ldap-parse-exop.md: « ldapparseexop
+  - function.ldap-parse-result.md: ldapparseresult »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapparsereference

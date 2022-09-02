@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mqseries-disc.html: « mqseriesdisc
-  - function.mqseries-inq.html: mqseriesinq »
+  - function.mqseries-disc.md: « mqseriesdisc
+  - function.mqseries-inq.md: mqseriesinq »
   - index.md: PHP Manual
   - ref.mqseries.md: Функции mqseries
 title: mqseriesget

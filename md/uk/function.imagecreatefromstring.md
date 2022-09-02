@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagecreatefrompng.html: « imagecreatefrompng
-  - function.imagecreatefromtga.html: imagecreatefromtga »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagecreatefrompng.md: « imagecreatefrompng
+  - function.imagecreatefromtga.md: imagecreatefromtga »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecreatefromstring
 ---
 # imagecreatefromstring
@@ -38,7 +38,7 @@ imagecreatefromstring(string $data): GdImage|false
 
 | Версия | Описание |
 | --- | --- |
-|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 |  | Додана підтримка WEBP (якщо підтримується libgd). |
 
 ### Приклади
@@ -71,7 +71,7 @@ else {
 
 ### Дивіться також
 
--   [imagecreatefromjpeg()](function.imagecreatefromjpeg.html) - Створює нове зображення з файлу чи URL
--   [imagecreatefrompng()](function.imagecreatefrompng.html) - Створює нове зображення з файлу чи URL
--   [imagecreatefromgif()](function.imagecreatefromgif.html) - Створює нове зображення з файлу чи URL
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
+-   [imagecreatefromjpeg()](function.imagecreatefromjpeg.md) - Створює нове зображення з файлу чи URL
+-   [imagecreatefrompng()](function.imagecreatefrompng.md) - Створює нове зображення з файлу чи URL
+-   [imagecreatefromgif()](function.imagecreatefromgif.md) - Створює нове зображення з файлу чи URL
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення

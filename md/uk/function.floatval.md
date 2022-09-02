@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.empty.md: « empty
-  - function.get-debug-type.html: getdebugtype »
+  - function.get-debug-type.md: getdebugtype »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: floatval
@@ -30,7 +30,7 @@ floatval(mixed $value): float
 
 Значення заданої змінної як числа з плаваючою точкою. Порожні масиви як аргумент повертають 0, непусті масиви повертають 1.
 
-Рядки найчастіше повертають 0, проте результат залежить від найлівіших символів рядка. Застосовуються правила [приведения к float](language.types.float.html#language.types.float.casting)
+Рядки найчастіше повертають 0, проте результат залежить від найлівіших символів рядка. Застосовуються правила [приведения к float](language.types.float.md#language.types.float.casting)
 
 ### Приклади
 

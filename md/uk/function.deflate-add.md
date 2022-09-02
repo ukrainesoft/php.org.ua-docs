@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.zlib.md: « Функции Zlib
-  - function.deflate-init.html: deflateinit »
+  - function.deflate-init.md: deflateinit »
   - index.md: PHP Manual
   - ref.zlib.md: Функции Zlib
 title: deflateadd

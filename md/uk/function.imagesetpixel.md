@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagesetinterpolation.html: « imagesetinterpolation
-  - function.imagesetstyle.html: imagesetstyle »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagesetinterpolation.md: « imagesetinterpolation
+  - function.imagesetstyle.md: imagesetstyle »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesetpixel
 ---
 # imagesetpixel
@@ -24,7 +24,7 @@ imagesetpixel(    GdImage $image,    int $x,    int $y,    int $
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x`
 
@@ -36,7 +36,7 @@ y-координат.
 
 `color`
 
-Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -46,7 +46,7 @@ y-координат.
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -87,6 +87,6 @@ imagepng($gd);
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
--   [imagecolorallocate()](function.imagecolorallocate.html) - Створення кольору для зображення
--   [imagecolorat()](function.imagecolorat.html) - Отримання індексу кольору пікселя
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
+-   [imagecolorallocate()](function.imagecolorallocate.md) - Створення кольору для зображення
+-   [imagecolorat()](function.imagecolorat.md) - Отримання індексу кольору пікселя

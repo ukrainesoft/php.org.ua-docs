@@ -26,10 +26,10 @@ public static SeasLog::setRequestVariable(int $key, string $value): bool
 
 Константа, ціле число.
 
--   [SEASLOGREQUESTVARIABLEDOMAINPORT](seaslog.constants.html#constant.seaslog-request-variable-domain-port)
--   [SEASLOGREQUESTVARIABLEREQUESTURI](seaslog.constants.html#constant.seaslog-request-variable-request-uri)
--   [SEASLOGREQUESTVARIABLEREQUESTMETHOD](seaslog.constants.html#constant.seaslog-request-variable-request-method)
--   [SEASLOGREQUESTVARIABLECLIENTІП](seaslog.constants.html#constant.seaslog-request-variable-client-ip)
+-   [SEASLOGREQUESTVARIABLEDOMAINPORT](seaslog.constants.md#constant.seaslog-request-variable-domain-port)
+-   [SEASLOGREQUESTVARIABLEREQUESTURI](seaslog.constants.md#constant.seaslog-request-variable-request-uri)
+-   [SEASLOGREQUESTVARIABLEREQUESTMETHOD](seaslog.constants.md#constant.seaslog-request-variable-request-method)
+-   [SEASLOGREQUESTVARIABLECLIENTІП](seaslog.constants.md#constant.seaslog-request-variable-client-ip)
 
 `value`
 

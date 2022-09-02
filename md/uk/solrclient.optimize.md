@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrclient.getoptions.html: '« SolrClient::getOptions'
-  - solrclient.ping.html: 'SolrClient::ping »'
-  - index.html: PHP Manual
-  - class.solrclient.html: SolrClient
+  - solrclient.getoptions.md: '« SolrClient::getOptions'
+  - solrclient.ping.md: 'SolrClient::ping »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
 title: 'SolrClient::optimize'
 ---
 # SolrClient::optimize
@@ -40,9 +40,9 @@ public SolrClient::optimize(int $maxSegments = 1, bool $softCommit = true, bool 
 
 ### Помилки
 
-Викидає [SolrClientException](class.solrclientexception.html)якщо клієнт відмовив або виникла проблема з підключенням.
+Викидає [SolrClientException](class.solrclientexception.md)якщо клієнт відмовив або виникла проблема з підключенням.
 
-Викидає [SolrServerException](class.solrserverexception.html)якщо сервер Solr не зміг обробити запит.
+Викидає [SolrServerException](class.solrserverexception.md)якщо сервер Solr не зміг обробити запит.
 
 ### Примітки
 
@@ -54,5 +54,5 @@ PECL Solr >= 2.0 підтримує лише Solr Server >= 4.0
 
 ### Дивіться також
 
--   [SolrClient::commit()](solrclient.commit.html) - Завершує всі додавання/видалення, зроблені в індексі
--   [SolrClient::rollback()](solrclient.rollback.html) - Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
+-   [SolrClient::commit()](solrclient.commit.md) - Завершує всі додавання/видалення, зроблені в індексі
+-   [SolrClient::rollback()](solrclient.rollback.md) - Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації

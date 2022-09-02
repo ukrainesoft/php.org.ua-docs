@@ -1,6 +1,6 @@
 ---
 navigation:
-  - openssl.signature-algos.html: « Алгоритми підпису
+  - openssl.signature-algos.md: « Алгоритми підпису
   - openssl.constversion.md: Константи версій »
   - index.md: PHP Manual
   - openssl.constants.md: Обумовлені константи

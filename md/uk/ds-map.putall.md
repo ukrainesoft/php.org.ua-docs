@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.put.html: '« DsMap::put'
-  - ds-map.reduce.html: 'ДсMap::reduce »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.put.md: '« DsMap::put'
+  - ds-map.reduce.md: 'ДсMap::reduce »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::putAll'
 ---
 # ДсMap::putAll
@@ -18,7 +18,7 @@ title: 'ДсMap::putAll'
 public Ds\Map::putAll(mixed $pairs): void
 ```
 
-Зв'язує з колекцією всі пари ключ-значення `pairs` з об'єкту класу [traversable](class.traversable.html) або array.
+Зв'язує з колекцією всі пари ключ-значення `pairs` з об'єкту класу [traversable](class.traversable.md) або array.
 
 > **Зауваження**
 > 
@@ -28,7 +28,7 @@ public Ds\Map::putAll(mixed $pairs): void
 
 `pairs`
 
-Об'єкт класу [traversable](class.traversable.html) або array.
+Об'єкт класу [traversable](class.traversable.md) або array.
 
 ### Значення, що повертаються
 

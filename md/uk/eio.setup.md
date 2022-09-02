@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.eio.html: « Введение
-  - eio.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.eio.html: Eio
+  - intro.eio.md: « Введение
+  - eio.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.eio.md: Eio
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](eio.requirements.html)
--   [Установка](eio.installation.html)
--   [Налаштування під час виконання](eio.configuration.html)
--   [Типи ресурсів](eio.resources.html)
+-   [Вимоги](eio.requirements.md)
+-   [Установка](eio.installation.md)
+-   [Налаштування під час виконання](eio.configuration.md)
+-   [Типи ресурсів](eio.resources.md)

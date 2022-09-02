@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.set-time-limit.html: « settimelimit
-  - function.version-compare.html: versioncompare »
+  - function.set-time-limit.md: « settimelimit
+  - function.version-compare.md: versioncompare »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: sysgettempdir

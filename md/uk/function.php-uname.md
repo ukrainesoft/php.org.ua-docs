@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.php-sapi-name.html: « phpsapiname
+  - function.php-sapi-name.md: « phpsapiname
   - function.phpcredits.md: phpcredits »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції

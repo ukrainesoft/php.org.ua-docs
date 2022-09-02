@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-sftp-symlink.html: « ssh2sftpsymlink
-  - function.ssh2-sftp.html: ssh2sftp »
+  - function.ssh2-sftp-symlink.md: « ssh2sftpsymlink
+  - function.ssh2-sftp.md: ssh2sftp »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2sftpunlink

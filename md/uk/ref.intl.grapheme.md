@@ -1,7 +1,7 @@
 ---
 navigation:
   - uconverter.transcode.md: '« UConverter::transcode'
-  - function.grapheme-extract.html: graphemeextract »
+  - function.grapheme-extract.md: graphemeextract »
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Функції Grapheme

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayiterator.uksort.html: '« ArrayIterator::uksort'
-  - arrayiterator.valid.html: 'ArrayIterator::valid »'
-  - index.html: PHP Manual
-  - class.arrayiterator.html: ArrayIterator
+  - arrayiterator.uksort.md: '« ArrayIterator::uksort'
+  - arrayiterator.valid.md: 'ArrayIterator::valid »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::unserialize'
 ---
 # ArrayIterator::unserialize
@@ -32,8 +32,8 @@ public ArrayIterator::unserialize(string $data): void
 
 ### Значення, що повертаються
 
-[ArrayIterator](class.arrayiterator.html)
+[ArrayIterator](class.arrayiterator.md)
 
 ### Дивіться також
 
--   [ArrayIterator::serialize()](arrayiterator.serialize.html) - Серіалізує масив
+-   [ArrayIterator::serialize()](arrayiterator.serialize.md) - Серіалізує масив

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.tan.html: « tan
-  - book.stats.html: Статистика »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.tan.md: « tan
+  - book.stats.md: Статистика »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: tanh
 ---
 # tanh
@@ -32,7 +32,7 @@ tanh(float $num): float
 
 ### Дивіться також
 
--   [tan()](function.tan.html) - Тангенс
--   [atanh()](function.atanh.html) - гіперболічний арктангенс
--   [sinh()](function.sinh.html) - Гіперболічний синус
--   [cosh()](function.cosh.html) - Гіперболічний косинус
+-   [tan()](function.tan.md) - Тангенс
+-   [atanh()](function.atanh.md) - гіперболічний арктангенс
+-   [sinh()](function.sinh.md) - Гіперболічний синус
+-   [cosh()](function.cosh.md) - Гіперболічний косинус

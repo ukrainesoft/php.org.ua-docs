@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-buffer.tostring.html: '« SwooleBuffer::toString'
-  - class.swoole-channel.html: SwooleChannel »
+  - swoole-buffer.tostring.md: '« SwooleBuffer::toString'
+  - class.swoole-channel.md: SwooleChannel »
   - index.md: PHP Manual
-  - class.swoole-buffer.html: SwooleBuffer
+  - class.swoole-buffer.md: SwooleBuffer
 title: 'SwooleBuffer::write'
 ---
 # SwooleBuffer::write

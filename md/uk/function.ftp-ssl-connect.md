@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-size.html: « ftpsize
-  - function.ftp-systype.html: ftpsystype »
+  - function.ftp-size.md: « ftpsize
+  - function.ftp-systype.md: ftpsystype »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpsslconnect
@@ -18,7 +18,7 @@ ftpsslconnect — Встановлює з'єднання з FTP-сервером
 ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection|false
 ```
 
-**ftpsslconnect()** встановлює *явне* SSL з'єднання з FTP-сервером, заданим аргументом `hostname`. Це означає, що **ftpsslconnect()** буде успішним навіть якщо сервер не налаштований для SSL-FTP, або його сертифікат недійсний. Тільки коли буде викликана функція [ftplogin()](function.ftp-login.html), клієнт надішле необхідну команду AUTH FTP, так що у зазначених випадках [ftplogin()](function.ftp-login.md) завершиться помилкою.
+**ftpsslconnect()** встановлює *явне* SSL з'єднання з FTP-сервером, заданим аргументом `hostname`. Це означає, що **ftpsslconnect()** буде успішним навіть якщо сервер не налаштований для SSL-FTP, або його сертифікат недійсний. Тільки коли буде викликана функція [ftplogin()](function.ftp-login.md), клієнт надішле необхідну команду AUTH FTP, так що у зазначених випадках [ftplogin()](function.ftp-login.md) завершиться помилкою.
 
 > **Зауваження** **Чому ця функція може бути не визначена**
 > 
@@ -40,7 +40,7 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 
 `timeout`
 
-Задає час очікування для всіх операцій із цим з'єднанням. За замовчуванням час очікування встановлюється за 90 секунд. Отримати та встановити значення часу очікування можна також за допомогою функцій [ftpsetoption()](function.ftp-set-option.html) і [ftpgetoption()](function.ftp-get-option.md)
+Задає час очікування для всіх операцій із цим з'єднанням. За замовчуванням час очікування встановлюється за 90 секунд. Отримати та встановити значення часу очікування можна також за допомогою функцій [ftpsetoption()](function.ftp-set-option.md) і [ftpgetoption()](function.ftp-get-option.md)
 
 ### Значення, що повертаються
 

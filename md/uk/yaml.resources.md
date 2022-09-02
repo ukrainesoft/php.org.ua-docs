@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaml.configuration.html: « Налаштування під час виконання
-  - yaml.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - yaml.setup.html: Встановлення та налаштування
+  - yaml.configuration.md: « Налаштування під час виконання
+  - yaml.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - yaml.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-set-drop.html: « cubridsetdrop
-  - function.cubrid-version.html: cubridversion »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-set-drop.md: « cubridsetdrop
+  - function.cubrid-version.md: cubridversion »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridsetquerytimeout
 ---
 # cubridsetquerytimeout

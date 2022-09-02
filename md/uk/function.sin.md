@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.round.html: « round
-  - function.sinh.html: sinh »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.round.md: « round
+  - function.sinh.md: sinh »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: sin
 ---
 # sin

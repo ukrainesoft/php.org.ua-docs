@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-sqlsrv.html: « MS SQL Server (PDO)
-  - ref.pdo-oci.html: Oracle (PDO) »
+  - ref.pdo-sqlsrv.md: « MS SQL Server (PDO)
+  - ref.pdo-oci.md: Oracle (PDO) »
   - index.md: PHP Manual
-  - ref.pdo-sqlsrv.html: MS SQL Server (PDO)
+  - ref.pdo-sqlsrv.md: MS SQL Server (PDO)
 title: PDOSQLSRV DSN
 ---
 # PDOSQLSRV DSN

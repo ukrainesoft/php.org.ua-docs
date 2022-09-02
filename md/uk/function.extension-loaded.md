@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.dl.md: « dl
-  - function.gc-collect-cycles.html: гкcollectcycles »
+  - function.gc-collect-cycles.md: гкcollectcycles »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: extensionloaded

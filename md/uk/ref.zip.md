@@ -1,7 +1,7 @@
 ---
 navigation:
   - ziparchive.unchangename.md: '« ZipArchive::unchangeName'
-  - function.zip-close.html: zipclose »
+  - function.zip-close.md: zipclose »
   - index.md: PHP Manual
   - book.zip.md: Zip
 title: Функції Zip

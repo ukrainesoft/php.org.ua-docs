@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.sem.html: « Семафори
-  - sem.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.sem.html: Семафори
+  - book.sem.md: « Семафори
+  - sem.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.sem.md: Семафори
 title: Вступ
 ---
 # Вступ

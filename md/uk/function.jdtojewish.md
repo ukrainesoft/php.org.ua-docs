@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.jdtogregorian.html: « jdtogregorian
-  - function.jdtojulian.html: jdtojulian »
-  - index.html: PHP Manual
-  - ref.calendar.html: Календарь
+  - function.jdtogregorian.md: « jdtogregorian
+  - function.jdtojulian.md: jdtojulian »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
 title: jdtojewish
 ---
 # jdtojewish

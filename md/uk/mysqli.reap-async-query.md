@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mysqli.real-query.html: '« mysqli::realquery'
+  - mysqli.real-query.md: '« mysqli::realquery'
   - mysqli.refresh.md: 'mysqli::refresh »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli

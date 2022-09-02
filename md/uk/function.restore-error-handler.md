@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.error-reporting.html: « errorreporting
-  - function.restore-exception-handler.html: restoreexceptionhandler »
+  - function.error-reporting.md: « errorreporting
+  - function.restore-exception-handler.md: restoreexceptionhandler »
   - index.md: PHP Manual
   - ref.errorfunc.md: Функции обработки ошибок
 title: restoreerrorhandler

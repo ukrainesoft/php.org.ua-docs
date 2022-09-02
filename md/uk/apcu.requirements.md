@@ -1,9 +1,9 @@
 ---
 navigation:
-  - apcu.setup.html: « Встановлення та налаштування
-  - apcu.installation.html: Установка »
-  - index.html: PHP Manual
-  - apcu.setup.html: Встановлення та налаштування
+  - apcu.setup.md: « Встановлення та налаштування
+  - apcu.installation.md: Установка »
+  - index.md: PHP Manual
+  - apcu.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

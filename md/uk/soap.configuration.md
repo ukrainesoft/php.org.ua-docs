@@ -1,9 +1,9 @@
 ---
 navigation:
-  - soap.installation.html: « Установка
-  - soap.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - soap.setup.html: Встановлення та налаштування
+  - soap.installation.md: « Установка
+  - soap.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - soap.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,11 +14,11 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [soap.wsdlcacheenabled](soap.configuration.html#ini.soap.wsdl-cache-enabled) |  | PHPINIALL |  |
-| [soap.wsdlcachedir](soap.configuration.html#ini.soap.wsdl-cache-dir) | /tmp | PHPINIALL |  |
-| [soap.wsdlcachettl](soap.configuration.html#ini.soap.wsdl-cache-ttl) |  | PHPINIALL |  |
-| [soap.wsdlcache](soap.configuration.html#ini.soap.wsdl-cache) |  | PHPINIALL |  |
-| [soap.wsdlcachelimit](soap.configuration.html#ini.soap.wsdl-cache-limit) |  | PHPINIALL |  |
+| [soap.wsdlcacheenabled](soap.configuration.md#ini.soap.wsdl-cache-enabled) |  | PHPINIALL |  |
+| [soap.wsdlcachedir](soap.configuration.md#ini.soap.wsdl-cache-dir) | /tmp | PHPINIALL |  |
+| [soap.wsdlcachettl](soap.configuration.md#ini.soap.wsdl-cache-ttl) |  | PHPINIALL |  |
+| [soap.wsdlcache](soap.configuration.md#ini.soap.wsdl-cache) |  | PHPINIALL |  |
+| [soap.wsdlcachelimit](soap.configuration.md#ini.soap.wsdl-cache-limit) |  | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 
@@ -36,7 +36,7 @@ title: Налаштування під час виконання
 
 `soap.wsdl_cache` int
 
-Якщо параметр `soap.wsdl_cache_enabled` набуває значення "on", то ця опція визначає тип кешування. Він може бути будь-яким з наступних типів: **`WSDL_CACHE_NONE`** `0` **`WSDL_CACHE_DISK`** `1` **`WSDL_CACHE_MEMORY`** `2`) або **`WSDL_CACHE_BOTH`** `3`). Це також може бути встановлене через масив `options` у конструкторі [SoapClient](class.soapclient.html) або [SoapServer](class.soapserver.html)
+Якщо параметр `soap.wsdl_cache_enabled` набуває значення "on", то ця опція визначає тип кешування. Він може бути будь-яким з наступних типів: **`WSDL_CACHE_NONE`** `0` **`WSDL_CACHE_DISK`** `1` **`WSDL_CACHE_MEMORY`** `2`) або **`WSDL_CACHE_BOTH`** `3`). Це також може бути встановлене через масив `options` у конструкторі [SoapClient](class.soapclient.md) або [SoapServer](class.soapserver.md)
 
 `soap.wsdl_cache_limit` int
 

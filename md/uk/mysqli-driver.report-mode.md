@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-driver.embedded-server-start.html: '« mysqlidriver::embeddedserverstart'
-  - class.mysqli-warning.html: mysqliwarning »
-  - index.html: PHP Manual
-  - class.mysqli-driver.html: mysqlidriver
+  - mysqli-driver.embedded-server-start.md: '« mysqlidriver::embeddedserverstart'
+  - class.mysqli-warning.md: mysqliwarning »
+  - index.md: PHP Manual
+  - class.mysqli-driver.md: mysqlidriver
 title: 'mysqlidriver::$reportmode'
 ---
 # mysqlidriver::$reportmode
@@ -18,7 +18,7 @@ mysqlidriver::$reportmode - mysqlireport — Встановлює режим з�
 
 Об'єктно-орієнтований стиль
 
-int [$mysqlidriver->reportmode](mysqli-driver.report-mode.html)
+int [$mysqlidriver->reportmode](mysqli-driver.report-mode.md)
 
 Процедурний стиль
 
@@ -40,7 +40,7 @@ mysqli_report(int $flags): bool
 | --- | --- |
 | **`MYSQLI_REPORT_OFF`** | Вимкнути протоколювання |
 | **`MYSQLI_REPORT_ERROR`** | Заносити до протоколу помилки викликів функцій mysqli |
-| **`MYSQLI_REPORT_STRICT`** | Замість повідомлень про помилки викидати виняток [mysqlisqlexception](class.mysqli-sql-exception.html) |
+| **`MYSQLI_REPORT_STRICT`** | Замість повідомлень про помилки викидати виняток [mysqlisqlexception](class.mysqli-sql-exception.md) |
 | **`MYSQLI_REPORT_INDEX`** | Заносити до протоколу факти використання у запитах невірного індексу (або коли індекс не використовується взагалі) |
 | **`MYSQLI_REPORT_ALL`** | Увімкнути всі налаштування (заносити до протоколу всі події) |
 
@@ -125,6 +125,6 @@ try {
 
 ### Дивіться також
 
--   [mysqlisqlexception](class.mysqli-sql-exception.html)
--   [setexceptionhandler()](function.set-exception-handler.html) - Задає користувальницький обробник винятків
--   [errorreporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
+-   [mysqlisqlexception](class.mysqli-sql-exception.md)
+-   [setexceptionhandler()](function.set-exception-handler.md) - Задає користувальницький обробник винятків
+-   [errorreporting()](function.error-reporting.md) - Задає, які помилки PHP потраплять у звіт

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-font.construct.html: '« UIDrawTextFont::construct'
-  - ui-draw-text-font.getdescent.html: 'ОЙDrawTextFont::getDescent »'
+  - ui-draw-text-font.construct.md: '« UIDrawTextFont::construct'
+  - ui-draw-text-font.getdescent.md: 'ОЙDrawTextFont::getDescent »'
   - index.md: PHP Manual
-  - class.ui-draw-text-font.html: ОЙDrawTextFont
+  - class.ui-draw-text-font.md: ОЙDrawTextFont
 title: 'ОЙDrawTextFont::getAscent'
 ---
 # ОЙDrawTextFont::getAscent

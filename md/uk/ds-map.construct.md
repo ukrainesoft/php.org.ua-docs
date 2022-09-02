@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.clear.html: '« DsMap::clear'
-  - ds-map.copy.html: 'ДсMap::copy »'
+  - ds-map.clear.md: '« DsMap::clear'
+  - ds-map.copy.md: 'ДсMap::copy »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::construct'
 ---
 # ДсMap::construct
@@ -14,7 +14,7 @@ title: 'ДсMap::construct'
 
 ### Опис
 
-public **ДсMap::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `...$values`
+public **ДсMap::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `...$values`
 
 Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, переданий як параметр `values`
 

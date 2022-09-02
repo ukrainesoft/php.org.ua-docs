@@ -1,9 +1,9 @@
 ---
 navigation:
-  - misc.installation.html: « Установка
-  - misc.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - misc.setup.html: Встановлення та налаштування
+  - misc.installation.md: « Установка
+  - misc.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - misc.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,15 +14,15 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [ignoreuserabort](misc.configuration.html#ini.ignore-user-abort) | "0" | PHPINIALL |  |
-| [highlight.string](misc.configuration.html#ini.syntax-highlighting) | "#DD0000" | PHPINIALL |  |
-| [highlight.comment](misc.configuration.html#ini.syntax-highlighting) | "#FF8000" | PHPINIALL |  |
-| [highlight.keyword](misc.configuration.html#ini.syntax-highlighting) | "#007700" | PHPINIALL |  |
-| [highlight.default](misc.configuration.html#ini.syntax-highlighting) | "#0000BB" | PHPINIALL |  |
-| [highlight.html](misc.configuration.html#ini.syntax-highlighting) | "#000000" | PHPINIALL |  |
-| [browscap](misc.configuration.html#ini.browscap) | NULL | PHPINISYSTEM |  |
+| [ignoreuserabort](misc.configuration.md#ini.ignore-user-abort) | "0" | PHPINIALL |  |
+| [highlight.string](misc.configuration.md#ini.syntax-highlighting) | "#DD0000" | PHPINIALL |  |
+| [highlight.comment](misc.configuration.md#ini.syntax-highlighting) | "#FF8000" | PHPINIALL |  |
+| [highlight.keyword](misc.configuration.md#ini.syntax-highlighting) | "#007700" | PHPINIALL |  |
+| [highlight.default](misc.configuration.md#ini.syntax-highlighting) | "#0000BB" | PHPINIALL |  |
+| [highlight.html](misc.configuration.md#ini.syntax-highlighting) | "#000000" | PHPINIALL |  |
+| [browscap](misc.configuration.md#ini.browscap) | NULL | PHPINISYSTEM |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
@@ -30,7 +30,7 @@ title: Налаштування під час виконання
 
 **`false`** за замовчуванням. Якщо змінюється на **`true`**, Скрипти не будуть перервані після того, як клієнт розірве з'єднання.
 
-Дивіться також [ignoreuserabort()](function.ignore-user-abort.html)
+Дивіться також [ignoreuserabort()](function.ignore-user-abort.md)
 
 `highlight.bg` string
 
@@ -48,4 +48,4 @@ title: Налаштування під час виконання
 
 `browscap` string
 
-Ім'я (наприклад, browscap.ini) та розташування файлу можливостей браузера. Дивіться також [getbrowser()](function.get-browser.html)
+Ім'я (наприклад, browscap.ini) та розташування файлу можливостей браузера. Дивіться також [getbrowser()](function.get-browser.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ldap.using.html: « Використання дзвінків PHP LDAP
-  - ldap.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.ldap.html: LDAP
+  - ldap.using.md: « Використання дзвінків PHP LDAP
+  - ldap.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.ldap.md: LDAP
 title: Керуючі об'єкти LDAP
 ---
 # Керуючі об'єкти LDAP
@@ -41,7 +41,7 @@ iscritical (bool)
 
 Якщо об'єкт, що управляє, повинен бути позначений як критичний. Запит завершиться помилкою, якщо подібний керуючий об'єкт не підтримується сервером або якщо його неможливо застосувати. Зверніть увагу, що деякі об'єкти завжди повинні бути позначені як критичні, як описано у відповідному RFC. За замовчуванням **`false`**
 
-value ([mixed](language.types.declarations.html#language.types.declarations.mixed)
+value ([mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Якщо застосовно, то значення об'єкта, що управляє. Докладніше читайте далі.
 

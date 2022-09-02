@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-crudoperationsortable.sort.html: '« CrudOperationSortable::sort'
-  - mysql-xdevapi-databaseobject.existsindatabase.html: 'DatabaseObject::existsInDatabase »'
+  - mysql-xdevapi-crudoperationsortable.sort.md: '« CrudOperationSortable::sort'
+  - mysql-xdevapi-databaseobject.existsindatabase.md: 'DatabaseObject::existsInDatabase »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Інтерфейс DatabaseObject
 ---
 # Інтерфейс DatabaseObject

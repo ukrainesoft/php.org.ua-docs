@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html: '« SqlStatementResult::getAffectedItemsCount'
-  - mysql-xdevapi-sqlstatementresult.getcolumnnames.html: 'SqlStatementResult::getColumnNames »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md: '« SqlStatementResult::getAffectedItemsCount'
+  - mysql-xdevapi-sqlstatementresult.getcolumnnames.md: 'SqlStatementResult::getColumnNames »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::getColumnsCount'
 ---
 # SqlStatementResult::getColumnsCount

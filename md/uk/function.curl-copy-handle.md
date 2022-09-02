@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-close.html: « curlclose
-  - function.curl-errno.html: curlerrno »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-close.md: « curlclose
+  - function.curl-errno.md: curlerrno »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlcopyhandle
 ---
 # curlcopyhandle
@@ -24,7 +24,7 @@ curl_copy_handle(CurlHandle $handle): CurlHandle|false
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -34,8 +34,8 @@ curl_copy_handle(CurlHandle $handle): CurlHandle|false
 
 | Версия | Описание |
 | --- | --- |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
-|  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.html); раніше повертався ресурс (resource). |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+|  | У разі успішного виконання повертає екземпляр [CurlHandle](class.curlhandle.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

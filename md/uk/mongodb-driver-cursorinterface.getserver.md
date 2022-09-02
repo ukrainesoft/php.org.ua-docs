@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursorinterface.getid.html: '« MongoDBDriverCursorInterface::getId'
-  - mongodb-driver-cursorinterface.isdead.html: 'MongoDBDriverCursorInterface::isDead »'
+  - mongodb-driver-cursorinterface.getid.md: '« MongoDBDriverCursorInterface::getId'
+  - mongodb-driver-cursorinterface.isdead.md: 'MongoDBDriverCursorInterface::isDead »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface
+  - class.mongodb-driver-cursorinterface.md: MongoDBDriverCursorInterface
 title: 'MongoDBDriverCursorInterface::getServer'
 ---
 # MongoDBDriverCursorInterface::getServer
@@ -18,7 +18,7 @@ MongoDBDriverCursorInterface::getServer — Повертає сервер, з я
 abstract public MongoDB\Driver\CursorInterface::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html) пов'язаний із курсором. Це той сервер, на якому запущено [MongoDBDriverQuery](class.mongodb-driver-query.html) або [MongoDBDriverCommand](class.mongodb-driver-command.md)
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md) пов'язаний із курсором. Це той сервер, на якому запущено [MongoDBDriverQuery](class.mongodb-driver-query.md) або [MongoDBDriverCommand](class.mongodb-driver-command.md)
 
 ### Список параметрів
 

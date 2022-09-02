@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlreader.readstring.html: '« XMLReader::readString'
-  - xmlreader.setrelaxngschema.html: 'XMLReader::setRelaxNGSchema »'
-  - index.html: PHP Manual
-  - class.xmlreader.html: XMLReader
+  - xmlreader.readstring.md: '« XMLReader::readString'
+  - xmlreader.setrelaxngschema.md: 'XMLReader::setRelaxNGSchema »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
 title: 'XMLReader::setParserProperty'
 ---
 # XMLReader::setParserProperty
@@ -19,13 +19,13 @@ public
    XMLReader::setParserProperty(int $property, bool $value): bool
 ```
 
-Встановлює настройки для парсера. Опції мають бути встановлені після виклику [XMLReader::open()](xmlreader.open.html) або [XMLReader::xml()](xmlreader.xml.html) та до першого виклику [XMLReader::read()](xmlreader.read.md)
+Встановлює настройки для парсера. Опції мають бути встановлені після виклику [XMLReader::open()](xmlreader.open.md) або [XMLReader::xml()](xmlreader.xml.md) та до першого виклику [XMLReader::read()](xmlreader.read.md)
 
 ### Список параметрів
 
 `property`
 
-Одна з [констант опций парсера](class.xmlreader.html#xmlreader.constants)
+Одна з [констант опций парсера](class.xmlreader.md#xmlreader.constants)
 
 `value`
 

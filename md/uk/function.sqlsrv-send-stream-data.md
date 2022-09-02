@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-rows-affected.html: « sqlsrvrowsaffected
-  - function.sqlsrv-server-info.html: sqlsrvserverinfo »
+  - function.sqlsrv-rows-affected.md: « sqlsrvrowsaffected
+  - function.sqlsrv-server-info.md: sqlsrvserverinfo »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvsendstreamdata
@@ -24,7 +24,7 @@ sqlsrv_send_stream_data(resource $stmt): bool
 
 `stmt`
 
-Ресурс виразу, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.md)
+Ресурс виразу, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 ### Значення, що повертаються
 

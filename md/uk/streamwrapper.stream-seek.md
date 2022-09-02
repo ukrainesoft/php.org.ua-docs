@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-read.html: '« streamWrapper::streamread'
-  - streamwrapper.stream-set-option.html: 'streamWrapper::streamsetoption »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-read.md: '« streamWrapper::streamread'
+  - streamwrapper.stream-set-option.md: 'streamWrapper::streamsetoption »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamseek'
 ---
 # streamWrapper::streamseek
@@ -50,7 +50,7 @@ public streamWrapper::stream_seek(int $offset, int $whence  = SEEK_SET): bool
 
 > **Зауваження**
 > 
-> У разі успішного виконання [streamWrapper::streamtell()](streamwrapper.stream-tell.html) буде викликано відразу після того, як **streamWrapper::streamseek()** відпрацює. Якщо виконання [streamWrapper::streamtell()](streamwrapper.stream-tell.md) завершиться невдачею, то викликаючу функцію буде повернуто значення **`false`**
+> У разі успішного виконання [streamWrapper::streamtell()](streamwrapper.stream-tell.md) буде викликано відразу після того, як **streamWrapper::streamseek()** відпрацює. Якщо виконання [streamWrapper::streamtell()](streamwrapper.stream-tell.md) завершиться невдачею, то викликаючу функцію буде повернуто значення **`false`**
 
 > **Зауваження**
 > 

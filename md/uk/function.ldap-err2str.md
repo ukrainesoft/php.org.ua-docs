@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-dn2ufn.html: « ldapdn2ufn
-  - function.ldap-errno.html: ldaperrno »
+  - function.ldap-dn2ufn.md: « ldapdn2ufn
+  - function.ldap-errno.md: ldaperrno »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldaperr2str

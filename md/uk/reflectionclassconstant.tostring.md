@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclassconstant.ispublic.html: '« ReflectionClassConstant::isPublic'
-  - class.reflectionenum.html: ReflectionEnum »
-  - index.html: PHP Manual
-  - class.reflectionclassconstant.html: ReflectionClassConstant
+  - reflectionclassconstant.ispublic.md: '« ReflectionClassConstant::isPublic'
+  - class.reflectionenum.md: ReflectionEnum »
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::toString'
 ---
 # ReflectionClassConstant::toString
@@ -26,9 +26,9 @@ public ReflectionClassConstant::__toString(): string
 
 ### Значення, що повертаються
 
-Строкове подання цього екземпляра [ReflectionClassConstant](class.reflectionclassconstant.html)
+Строкове подання цього екземпляра [ReflectionClassConstant](class.reflectionclassconstant.md)
 
 ### Дивіться також
 
--   [ReflectionClassConstant::export()](reflectionclassconstant.export.html) - Експорт
--   [toString()](language.oop5.magic.html#object.tostring)
+-   [ReflectionClassConstant::export()](reflectionclassconstant.export.md) - Експорт
+-   [toString()](language.oop5.magic.md#object.tostring)

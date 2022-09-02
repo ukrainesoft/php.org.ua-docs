@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-set-element-handler.html: « xmlsetelementhandler
-  - function.xml-set-external-entity-ref-handler.html: xmlsetexternalentityrefhandler »
+  - function.xml-set-element-handler.md: « xmlsetelementhandler
+  - function.xml-set-external-entity-ref-handler.md: xmlsetexternalentityrefhandler »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlsetendnamespacedeclhandler

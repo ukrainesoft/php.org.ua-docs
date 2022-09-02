@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-field-precision.html: « odbcfieldprecision
-  - function.odbc-field-type.html: odbcfieldtype »
+  - function.odbc-field-precision.md: « odbcfieldprecision
+  - function.odbc-field-type.md: odbcfieldtype »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcfieldscale

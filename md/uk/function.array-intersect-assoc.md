@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-flip.html: « arrayflip
-  - function.array-intersect-key.html: arrayintersectkey »
+  - function.array-flip.md: « arrayflip
+  - function.array-intersect-key.md: arrayintersectkey »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayintersectassoc

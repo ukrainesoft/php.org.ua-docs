@@ -1,14 +1,14 @@
 ---
 navigation:
   - language.operators.array.md: '« Оператори, які працюють з масивами'
-  - language.control-structures.html: Управляющие конструкции »
+  - language.control-structures.md: Управляющие конструкции »
   - index.md: PHP Manual
   - language.operators.md: Оператори
 title: Оператор перевірки типу
 ---
 ## Оператор перевірки типу
 
-Оператор `instanceof` використовується для визначення того, чи є поточний об'єкт примірником зазначеного [класса](language.oop5.basic.html#language.oop5.basic.class)
+Оператор `instanceof` використовується для визначення того, чи є поточний об'єкт примірником зазначеного [класса](language.oop5.basic.md#language.oop5.basic.class)
 
 **Приклад #1 Використання `instanceof` з класами**
 

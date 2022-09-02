@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-field-seek.html: « cubridfieldseek
-  - function.cubrid-field-type.html: cubridfieldtype »
+  - function.cubrid-field-seek.md: « cubridfieldseek
+  - function.cubrid-field-type.md: cubridfieldtype »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridfieldtable

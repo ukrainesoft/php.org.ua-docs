@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mbstring.constants.html: « Обумовлені константи
-  - mbstring.ja-basic.html: Основи японських багатобайтних кодувань
-  - index.html: PHP Manual
-  - book.mbstring.html: Багатобайтові рядки
+  - mbstring.constants.md: « Обумовлені константи
+  - mbstring.ja-basic.md: Основи японських багатобайтних кодувань
+  - index.md: PHP Manual
+  - book.mbstring.md: Багатобайтові рядки
 title: Короткий огляд підтримуваних кодувань
 ---
 # Короткий огляд підтримуваних кодувань

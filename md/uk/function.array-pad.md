@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-multisort.html: « arraymultisort
-  - function.array-pop.html: arraypop »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-multisort.md: « arraymultisort
+  - function.array-pop.md: arraypop »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraypad
 ---
 # arraypad
@@ -58,5 +58,5 @@ $result = array_pad($input, 2, "noop");
 
 ### Дивіться також
 
--   [arrayfill()](function.array-fill.html) - Заповнює масив значеннями
--   [range()](function.range.html) - Створює масив, що містить діапазон елементів
+-   [arrayfill()](function.array-fill.md) - Заповнює масив значеннями
+-   [range()](function.range.md) - Створює масив, що містить діапазон елементів

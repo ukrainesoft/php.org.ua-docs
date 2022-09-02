@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqli.summary.md: « Основна інформація про функції модуля MySQLi
-  - mysqli.affected-rows.html: 'mysqli::$affectedrows »'
+  - mysqli.affected-rows.md: 'mysqli::$affectedrows »'
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: Клас mysqli

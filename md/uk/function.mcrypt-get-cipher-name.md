@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-get-block-size.html: « mcryptgetblocksize
-  - function.mcrypt-get-iv-size.html: mcryptgetвербsize »
+  - function.mcrypt-get-block-size.md: « mcryptgetblocksize
+  - function.mcrypt-get-iv-size.md: mcryptgetвербsize »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptgetciphername

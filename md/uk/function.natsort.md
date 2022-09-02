@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.natcasesort.html: « natcasesort
-  - function.next.html: next »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.natcasesort.md: « natcasesort
+  - function.next.md: next »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: нацорт
 ---
 # нацорт

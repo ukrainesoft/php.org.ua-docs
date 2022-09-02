@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-class.html: « getclass
-  - function.get-declared-interfaces.html: getdeclaredinterfaces »
+  - function.get-class.md: « getclass
+  - function.get-declared-interfaces.md: getdeclaredinterfaces »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: getdeclaredclasses

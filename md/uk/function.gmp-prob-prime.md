@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-powm.html: « gmppowm
-  - function.gmp-random-bits.html: gmprandombits »
+  - function.gmp-powm.md: « gmppowm
+  - function.gmp-random-bits.md: gmprandombits »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpprobprime

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.jsonserialize.html: '« DsSet::jsonSerialize'
-  - ds-set.merge.html: 'ДсSet::merge »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.jsonserialize.md: '« DsSet::jsonSerialize'
+  - ds-set.merge.md: 'ДсSet::merge »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::last'
 ---
 # ДсSet::last
@@ -30,7 +30,7 @@ public Ds\Set::last(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо колекція порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо колекція порожня.
 
 ### Приклади
 

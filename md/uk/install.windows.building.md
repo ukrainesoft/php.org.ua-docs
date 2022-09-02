@@ -1,9 +1,9 @@
 ---
 navigation:
-  - install.windows.manual.html: « Самостійне встановлення PHP у Windows
-  - install.windows.commandline.html: Командний рядок PHP у Microsoft Windows »
-  - index.html: PHP Manual
-  - install.windows.html: Установка в системах Windows
+  - install.windows.manual.md: « Самостійне встановлення PHP у Windows
+  - install.windows.commandline.md: Командний рядок PHP у Microsoft Windows »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
 title: Складання з вихідних кодів
 ---
 ## Складання з вихідних кодів

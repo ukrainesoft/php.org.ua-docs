@@ -8,6 +8,6 @@ title: Типи ресурсів
 ---
 ## Типи ресурсів
 
-До PHP 8.0.0, [socketaccept()](function.socket-accept.html) [socketimportstream()](function.socket-import-stream.html) [socketaddrinfoconnect()](function.socket-addrinfo-connect.html) [socketaddrinfobind()](function.socket-addrinfo-bind.html) [socketcreatelisten()](function.socket-create-listen.html) [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.html) і [socketcreate()](function.socket-create.md) повертали ресурси сокетів.
+До PHP 8.0.0, [socketaccept()](function.socket-accept.md) [socketimportstream()](function.socket-import-stream.md) [socketaddrinfoconnect()](function.socket-addrinfo-connect.md) [socketaddrinfobind()](function.socket-addrinfo-bind.md) [socketcreatelisten()](function.socket-create-listen.md) [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.md) і [socketcreate()](function.socket-create.md) повертали ресурси сокетів.
 
 До PHP 8.0, [socketaddrinfolookup()](function.socket-addrinfo-lookup.md) повертала масив ресурсів AddressInfo.

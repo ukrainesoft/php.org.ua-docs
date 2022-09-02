@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-from-hash.html: « sodiumcryptocoreristretto255fromhash
-  - function.sodium-crypto-core-ristretto255-random.html: sodiumcryptocoreristretto255random »
+  - function.sodium-crypto-core-ristretto255-from-hash.md: « sodiumcryptocoreristretto255fromhash
+  - function.sodium-crypto-core-ristretto255-random.md: sodiumcryptocoreristretto255random »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255ісvalidpoint
@@ -56,5 +56,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ
--   [sodiumcryptoscalarmultristretto255base()](function.sodium-crypto-scalarmult-ristretto255-base.html) - Обчислює відкритий ключ із закритого ключа
+-   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md) - Генерує випадковий ключ
+-   [sodiumcryptoscalarmultristretto255base()](function.sodium-crypto-scalarmult-ristretto255-base.md) - Обчислює відкритий ключ із закритого ключа

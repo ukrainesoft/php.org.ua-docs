@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-t3.html: « traderтз
-  - function.trader-tanh.html: tradertanh »
+  - function.trader-t3.md: « traderтз
+  - function.trader-tanh.md: tradertanh »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradertan

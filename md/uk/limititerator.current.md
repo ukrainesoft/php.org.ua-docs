@@ -1,9 +1,9 @@
 ---
 navigation:
-  - limititerator.construct.html: '« LimitIterator::construct'
-  - limititerator.getinneriterator.html: 'LimitIterator::getInnerIterator »'
-  - index.html: PHP Manual
-  - class.limititerator.html: LimitIterator
+  - limititerator.construct.md: '« LimitIterator::construct'
+  - limititerator.getinneriterator.md: 'LimitIterator::getInnerIterator »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
 title: 'LimitIterator::current'
 ---
 # LimitIterator::current
@@ -18,7 +18,7 @@ LimitIterator::current — Отримання поточного елемент�
 public LimitIterator::current(): mixed
 ```
 
-Отримує поточний елемент, на який посилається внутрішній покажчик [Iterator](class.iterator.html)
+Отримує поточний елемент, на який посилається внутрішній покажчик [Iterator](class.iterator.md)
 
 ### Список параметрів
 
@@ -30,8 +30,8 @@ public LimitIterator::current(): mixed
 
 ### Дивіться також
 
--   [LimitIterator::key()](limititerator.key.html) - Отримання поточного ключа
--   [LimitIterator::next()](limititerator.next.html) - Переміщення до наступної позиції
--   [LimitIterator::rewind()](limititerator.rewind.html) - Переміщує покажчик на початкову позицію
--   [LimitIterator::seek()](limititerator.seek.html) - переміщує ітератор на задану позицію
--   [LimitIterator::valid()](limititerator.valid.html) - Перевіряє валідність поточного елемента
+-   [LimitIterator::key()](limititerator.key.md) - Отримання поточного ключа
+-   [LimitIterator::next()](limititerator.next.md) - Переміщення до наступної позиції
+-   [LimitIterator::rewind()](limititerator.rewind.md) - Переміщує покажчик на початкову позицію
+-   [LimitIterator::seek()](limititerator.seek.md) - переміщує ітератор на задану позицію
+-   [LimitIterator::valid()](limititerator.valid.md) - Перевіряє валідність поточного елемента

@@ -1,7 +1,7 @@
 ---
 navigation:
   - dio.constants.md: « Обумовлені константи
-  - function.dio-close.html: dioclose »
+  - function.dio-close.md: dioclose »
   - index.md: PHP Manual
   - book.dio.md: Пряме введення/виведення (Direct IO)
 title: Функції прямого введення/виводу

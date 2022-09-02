@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ffi.html: « FFI
-  - ffi.alignof.html: 'FFI::alignof »'
-  - index.html: PHP Manual
-  - class.ffi.html: FFI
+  - class.ffi.md: « FFI
+  - ffi.alignof.md: 'FFI::alignof »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
 title: 'FFI::addr'
 ---
 # FFI::addr

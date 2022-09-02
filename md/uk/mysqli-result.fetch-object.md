@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.fetch-fields.html: '« mysqliresult::fetchfields'
-  - mysqli-result.fetch-row.html: 'mysqliresult::fetchrow »'
+  - mysqli-result.fetch-fields.md: '« mysqliresult::fetchfields'
+  - mysqli-result.fetch-row.md: 'mysqliresult::fetchrow »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::fetchobject'
 ---
 # mysqliresult::fetchobject
@@ -42,7 +42,7 @@ mysqli_fetch_object(mysqli_result $result, string $class = "stdClass", array $co
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `class`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.str-rot13.html: « strrot13
-  - function.str-split.html: strsplit »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.str-rot13.md: « strrot13
+  - function.str-split.md: strsplit »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strshuffle
 ---
 # strshuffle
@@ -22,7 +22,7 @@ str_shuffle(string $string): string
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.md) [randombytes()](function.random-bytes.md) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ str_shuffle(string $string): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
 
 ### Приклади
 

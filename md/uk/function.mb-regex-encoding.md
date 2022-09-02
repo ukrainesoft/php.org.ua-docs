@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-preferred-mime-name.html: « mbpreferredmimename
-  - function.mb-regex-set-options.html: мбregexsetoptions »
+  - function.mb-preferred-mime-name.md: « mbpreferredmimename
+  - function.mb-regex-set-options.md: мбregexsetoptions »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбregexencoding

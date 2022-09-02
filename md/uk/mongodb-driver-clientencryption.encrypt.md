@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-clientencryption.decrypt.html: '« MongoDBDriverClientEncryption::decrypt'
-  - class.mongodb-driver-serverapi.html: MongoDBDriverServerApi »
+  - mongodb-driver-clientencryption.decrypt.md: '« MongoDBDriverClientEncryption::decrypt'
+  - class.mongodb-driver-serverapi.md: MongoDBDriverServerApi »
   - index.md: PHP Manual
-  - class.mongodb-driver-clientencryption.html: MongoDBDriverClientEncryption
+  - class.mongodb-driver-clientencryption.md: MongoDBDriverClientEncryption
 title: 'MongoDBDriverClientEncryption::encrypt'
 ---
 # MongoDBDriverClientEncryption::encrypt
@@ -33,7 +33,7 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 | Опция | Тип | Описание |
 | --- | --- | --- |
 | algorithm | string |  |
-| Алгоритм шифрування, який використовуватиметься. Опція є обов'язковою. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.html#mongodb-driver-clientencryption.constants) |  |  |
+| Алгоритм шифрування, який використовуватиметься. Опція є обов'язковою. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.md#mongodb-driver-clientencryption.constants) |  |  |
 
 -   **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC`**
 -   **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM`**
@@ -58,7 +58,7 @@ final public MongoDB\Driver\ClientEncryption::encrypt(mixed $value, ?array $opti
 
 | | QueryType | int |
 
-Тип запиту для оцінки запитів з індексованим, зашифрованим корисним навантаженням. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.html#mongodb-driver-clientencryption.constants)
+Тип запиту для оцінки запитів з індексованим, зашифрованим корисним навантаженням. Вкажіть одну з наступних [констант ClientEncryption](class.mongodb-driver-clientencryption.md#mongodb-driver-clientencryption.constants)
 
 -   **`MongoDB\Driver\ClientEncryption::QUERY_TYPE_EQUALITY`**
 

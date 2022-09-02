@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getcopyright.html: '« Imagick::getCopyright'
-  - imagick.getfont.html: 'Imagick::getFont »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getcopyright.md: '« Imagick::getCopyright'
+  - imagick.getfont.md: 'Imagick::getFont »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getFilename'
 ---
 # Imagick::getFilename

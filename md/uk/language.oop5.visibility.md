@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.oop5.decon.html: « Конструктори та деструктори
-  - language.oop5.inheritance.html: Наследование »
-  - index.html: PHP Manual
-  - language.oop5.html: Класи та об'єкти
+  - language.oop5.decon.md: « Конструктори та деструктори
+  - language.oop5.inheritance.md: Наследование »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
 title: Область видимості
 ---
 ## Область видимості

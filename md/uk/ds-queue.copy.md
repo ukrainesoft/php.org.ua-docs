@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.construct.html: '« DsQueue::construct'
-  - ds-queue.count.html: 'ДсQueue::count »'
-  - index.html: PHP Manual
-  - class.ds-queue.html: Черга
+  - ds-queue.construct.md: '« DsQueue::construct'
+  - ds-queue.count.md: 'ДсQueue::count »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::copy'
 ---
 # ДсQueue::copy

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.setdestinationencoding.html: '« UConverter::setDestinationEncoding'
-  - uconverter.setsubstchars.html: 'UConverter::setSubstChars »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.setdestinationencoding.md: '« UConverter::setDestinationEncoding'
+  - uconverter.setsubstchars.md: 'UConverter::setSubstChars »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::setSourceEncoding'
 ---
 # UConverter::setSourceEncoding

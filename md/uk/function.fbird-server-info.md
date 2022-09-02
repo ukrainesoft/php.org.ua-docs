@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-rollback.html: « fbirdrollback
-  - function.fbird-service-attach.html: fbirdserviceattach »
+  - function.fbird-rollback.md: « fbirdrollback
+  - function.fbird-service-attach.md: fbirdserviceattach »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdserverinfo

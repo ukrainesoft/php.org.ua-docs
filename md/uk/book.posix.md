@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.pcntl-wtermsig.html: pcntlwtermsig
+  - function.pcntl-wtermsig.md: pcntlwtermsig
   - intro.posix.md: Введение »
   - index.md: PHP Manual
   - refs.fileprocess.process.md: Модули для управления процессами программ

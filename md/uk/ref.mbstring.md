@@ -1,7 +1,7 @@
 ---
 navigation:
   - mbstring.php4.req.md: « Вимоги до кодування символів у PHP
-  - function.mb-check-encoding.html: мбcheckencoding »
+  - function.mb-check-encoding.md: мбcheckencoding »
   - index.md: PHP Manual
   - book.mbstring.md: Багатобайтові рядки
 title: Функції для роботи з багатобайтовими рядками

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-databaseobject.getsession.html: '« DatabaseObject::getSession'
-  - mysql-xdevapi-docresult.construct.html: 'DocResult::construct »'
+  - mysql-xdevapi-databaseobject.getsession.md: '« DatabaseObject::getSession'
+  - mysql-xdevapi-docresult.construct.md: 'DocResult::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас DocResult
 ---
 # Клас DocResult

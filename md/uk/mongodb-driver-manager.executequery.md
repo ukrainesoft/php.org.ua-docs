@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-manager.executecommand.html: '« MongoDBDriverManager::executeCommand'
-  - mongodb-driver-manager.executereadcommand.html: 'MongoDBDriverManager::executeReadCommand »'
+  - mongodb-driver-manager.executecommand.md: '« MongoDBDriverManager::executeCommand'
+  - mongodb-driver-manager.executereadcommand.md: 'MongoDBDriverManager::executeReadCommand »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.html: MongoDBDriverManager
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
 title: 'MongoDBDriverManager::executeQuery'
 ---
 # MongoDBDriverManager::executeQuery
@@ -18,7 +18,7 @@ MongoDBDriverManager::executeQuery — Виконує запит до бази �
 final public MongoDB\Driver\Manager::executeQuery(string $namespace, MongoDB\Driver\Query $query, array|MongoDB\Driver\ReadPreference|null $options = null): MongoDB\Driver\Cursor
 ```
 
-Вибирає сервер відповідно до опції `"readPreference"` та виконує запит на цьому сервері. За промовчанням буде використовуватися перевага читання з URI [URI подключения MongoDB](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-uri)
+Вибирає сервер відповідно до опції `"readPreference"` та виконує запит на цьому сервері. За промовчанням буде використовуватися перевага читання з URI [URI подключения MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
 
 ### Список параметрів
 

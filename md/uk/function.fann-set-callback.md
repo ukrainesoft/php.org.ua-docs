@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-bit-fail-limit.html: « fannsetbitfaillimit
-  - function.fann-set-cascade-activation-functions.html: fannsetcascadeactivationfunctions »
+  - function.fann-set-bit-fail-limit.md: « fannsetbitfaillimit
+  - function.fann-set-cascade-activation-functions.md: fannsetcascadeactivationfunctions »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetcallback
@@ -18,7 +18,7 @@ fannsetcallback - Встановлює callback-функцію для викор
 fann_set_callback(resource $ann, callable $callback): bool
 ```
 
-Встановлює callback-функцію використання під час навчання. Це означає, що вона викликається з [fanntrainвінdata()](function.fann-train-on-data.html) або [fanntrainвінfile()](function.fann-train-on-file.md)
+Встановлює callback-функцію використання під час навчання. Це означає, що вона викликається з [fanntrainвінdata()](function.fann-train-on-data.md) або [fanntrainвінfile()](function.fann-train-on-file.md)
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ Callback-функція, що поставляється, приймає нас�
 -   `train` - ресурс даних для навчання або **`null`**, якщо викликається з [fanntrainвінfile()](function.fann-train-on-file.md)
 -   `max_epochs` - Максимальна кількість періодів, у яких має продовжуватися навчання
 -   `epochs_between_reports` - Кількість періодів між викликами цієї функції
--   `desired_error` - Бажана функція [fanngetMSE()](function.fann-get-mse.html) або [fanngetbitfail()](function.fann-get-bit-fail.html), залежно від функції зупинки, вибраної [fannsettrainstopfunction()](function.fann-set-train-stop-function.md)
+-   `desired_error` - Бажана функція [fanngetMSE()](function.fann-get-mse.md) або [fanngetbitfail()](function.fann-get-bit-fail.md), залежно від функції зупинки, вибраної [fannsettrainstopfunction()](function.fann-set-train-stop-function.md)
 -   `epochs` - Поточний період
 
 Callback-функція має повернути **`true`**. Якщо вона поверне **`false`**, навчання буде припинено.

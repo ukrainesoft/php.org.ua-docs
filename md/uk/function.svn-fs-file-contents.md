@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-dir-entries.html: « svnфсdirentries
-  - function.svn-fs-file-length.html: svnфсfilelength »
+  - function.svn-fs-dir-entries.md: « svnфсdirentries
+  - function.svn-fs-file-length.md: svnфсfilelength »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсfilecontents

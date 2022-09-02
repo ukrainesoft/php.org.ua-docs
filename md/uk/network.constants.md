@@ -1,9 +1,9 @@
 ---
 navigation:
-  - network.resources.html: « Типи ресурсів
-  - ref.network.html: Мережеві функції »
-  - index.html: PHP Manual
-  - book.network.html: Сеть
+  - network.resources.md: « Типи ресурсів
+  - ref.network.md: Мережеві функції »
+  - index.md: PHP Manual
+  - book.network.md: Сеть
 title: Обумовлені константи
 ---
 # Обумовлені константи

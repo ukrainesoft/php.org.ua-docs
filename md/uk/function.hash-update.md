@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.hash-update-stream.html: « hashupdatestream
+  - function.hash-update-stream.md: « hashupdatestream
   - function.hash.md: hash »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash

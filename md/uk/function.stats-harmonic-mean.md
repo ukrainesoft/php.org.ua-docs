@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-dens-weibull.html: « statsdensweibull
-  - function.stats-kurtosis.html: statskurtosis »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-dens-weibull.md: « statsdensweibull
+  - function.stats-kurtosis.md: statskurtosis »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsharmonicmean
 ---
 # statsharmonicmean

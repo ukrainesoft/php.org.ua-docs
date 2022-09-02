@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.zookeeperexception.html: « ZookeeperException
-  - class.zookeeperconnectionexception.html: ZookeeperConnectionException »
-  - index.html: PHP Manual
-  - book.zookeeper.html: ZooKeeper
+  - class.zookeeperexception.md: « ZookeeperException
+  - class.zookeeperconnectionexception.md: ZookeeperConnectionException »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
 title: Клас ZookeeperAuthenticationException
 ---
 # Клас ZookeeperAuthenticationException

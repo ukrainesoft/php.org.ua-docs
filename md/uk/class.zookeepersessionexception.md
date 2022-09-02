@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.zookeeperoperationtimeoutexception.html: « ZookeeperOperationTimeoutException
-  - refs.search.html: Модулі для роботи з пошуковими системами »
-  - index.html: PHP Manual
-  - book.zookeeper.html: ZooKeeper
+  - class.zookeeperoperationtimeoutexception.md: « ZookeeperOperationTimeoutException
+  - refs.search.md: Модулі для роботи з пошуковими системами »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
 title: Клас ZookeeperSessionException
 ---
 # Клас ZookeeperSessionException

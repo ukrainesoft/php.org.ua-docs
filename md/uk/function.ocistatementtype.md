@@ -1,20 +1,20 @@
 ---
 navigation:
-  - function.ocisetprefetch.html: « ocisetprefetch
-  - function.ociwritelobtofile.html: ociwritelobtofile »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocisetprefetch.md: « ocisetprefetch
+  - function.ociwritelobtofile.md: ociwritelobtofile »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocistatementtype
 ---
 # ocistatementtype
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocistatementtype - Псевдонім [ocistatementtype()](function.oci-statement-type.html)
+ocistatementtype - Псевдонім [ocistatementtype()](function.oci-statement-type.md)
 
 ### Опис
 
-Псевдонім [ocistatementtype()](function.oci-statement-type.html)
+Псевдонім [ocistatementtype()](function.oci-statement-type.md)
 
 **Увага**
 

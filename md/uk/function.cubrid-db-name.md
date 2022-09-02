@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-data-seek.html: « cubriddataseek
-  - function.cubrid-errno.html: cubriderrno »
-  - index.html: PHP Manual
-  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+  - function.cubrid-data-seek.md: « cubriddataseek
+  - function.cubrid-errno.md: cubriderrno »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridдбname
 ---
 # cubridдбname

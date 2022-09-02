@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apcu-dec.html: « apcudec
-  - function.apcu-enabled.html: apcuenabled »
-  - index.html: PHP Manual
-  - ref.apcu.html: Функции APCu
+  - function.apcu-dec.md: « apcudec
+  - function.apcu-enabled.md: apcuenabled »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
 title: apcudelete
 ---
 # apcudelete
@@ -24,7 +24,7 @@ apcu_delete(mixed $key): mixed
 
 `key`
 
-`key` можна встановити як рядок, для видалення одного значення, або як масив рядків, для видалення кількох значень, або як об'єкт [APCUIterator](class.apcuiterator.html)
+`key` можна встановити як рядок, для видалення одного значення, або як масив рядків, для видалення кількох значень, або як об'єкт [APCUIterator](class.apcuiterator.md)
 
 ### Значення, що повертаються
 
@@ -52,7 +52,7 @@ apcu_delete(new APCUIterator('#^myprefix_#'));
 
 ### Дивіться також
 
--   [apcustore()](function.apcu-store.html) - Кешує змінну
--   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
--   [apcuclearcache()](function.apcu-clear-cache.html) - Очистити кеш APCu
--   [APCUIterator](class.apcuiterator.html)
+-   [apcustore()](function.apcu-store.md) - Кешує змінну
+-   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну
+-   [apcuclearcache()](function.apcu-clear-cache.md) - Очистити кеш APCu
+-   [APCUIterator](class.apcuiterator.md)

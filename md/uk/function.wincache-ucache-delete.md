@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.wincache-ucache-dec.html: « wincacheucachedec
-  - function.wincache-ucache-exists.html: wincacheucacheexists »
-  - index.html: PHP Manual
-  - ref.wincache.html: Функции WinCache
+  - function.wincache-ucache-dec.md: « wincacheucachedec
+  - function.wincache-ucache-exists.md: wincacheucacheexists »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
 title: wincacheucachedelete
 ---
 # wincacheucachedelete
@@ -91,10 +91,10 @@ array(2) { [0]=> string(6) "yellow"
 
 ### Дивіться також
 
--   [wincacheucacheset()](function.wincache-ucache-set.html) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
--   [wincacheucacheadd()](function.wincache-ucache-add.html) - Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
--   [wincacheucacheget()](function.wincache-ucache-get.html) - Отримує змінну, що зберігається в користувальницькому кеші
--   [wincacheucacheclear()](function.wincache-ucache-clear.html) - Видаляє весь вміст кешу користувача.
--   [wincacheucacheexists()](function.wincache-ucache-exists.html) - Перевіряє, чи існує змінна в користувальницькому кеші
--   [wincacheucachememinfo()](function.wincache-ucache-meminfo.html) - Отримує інформацію про використання пам'яті кешу користувача.
--   [wincacheucacheinfo()](function.wincache-ucache-info.html) - Отримує інформацію про дані, що зберігаються в кеші користувача
+-   [wincacheucacheset()](function.wincache-ucache-set.md) - Додає змінну в кеш користувача і перезаписує змінну, якщо вона вже існує в кеші
+-   [wincacheucacheadd()](function.wincache-ucache-add.md) - Додає змінну в кеш користувача, тільки якщо змінна ще не існує в кеші
+-   [wincacheucacheget()](function.wincache-ucache-get.md) - Отримує змінну, що зберігається в користувальницькому кеші
+-   [wincacheucacheclear()](function.wincache-ucache-clear.md) - Видаляє весь вміст кешу користувача.
+-   [wincacheucacheexists()](function.wincache-ucache-exists.md) - Перевіряє, чи існує змінна в користувальницькому кеші
+-   [wincacheucachememinfo()](function.wincache-ucache-meminfo.md) - Отримує інформацію про використання пам'яті кешу користувача.
+-   [wincacheucacheinfo()](function.wincache-ucache-info.md) - Отримує інформацію про дані, що зберігаються в кеші користувача

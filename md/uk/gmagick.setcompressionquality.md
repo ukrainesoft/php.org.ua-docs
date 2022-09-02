@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.separateimagechannel.html: '« Gmagick::separateimagechannel'
-  - gmagick.setfilename.html: 'Gmagick::setfilename »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.separateimagechannel.md: '« Gmagick::separateimagechannel'
+  - gmagick.setfilename.md: 'Gmagick::setfilename »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setCompressionQuality'
 ---
 # Gmagick::setCompressionQuality
@@ -29,7 +29,7 @@ Gmagick::setCompressionQuality(
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

@@ -86,5 +86,5 @@ else
 
 -   [Zookeeper::delete()](zookeeper.delete.md) - Видаляє синхронно вузол у zookeeper
 -   [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить список нащадків вузла синхронно
--   [Разрешения ZooKeeper](class.zookeeper.html#zookeeper.class.constants.perms)
+-   [Разрешения ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 -   [ZookeeperException](class.zookeeperexception.md)

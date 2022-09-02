@@ -1,9 +1,9 @@
 ---
 navigation:
-  - bzip2.resources.html: « Типи ресурсів
-  - bzip2.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.bzip2.html: Bzip2
+  - bzip2.resources.md: « Типи ресурсів
+  - bzip2.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.bzip2.md: Bzip2
 title: Обумовлені константи
 ---
 # Обумовлені константи

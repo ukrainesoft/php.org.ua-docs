@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.connection-status.html: « connectionstatus
+  - function.connection-status.md: « connectionstatus
   - function.define.md: define »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції

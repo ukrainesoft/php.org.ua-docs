@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-finite.html: « isfinite
-  - function.is-nan.html: ісnan »
+  - function.is-finite.md: « isfinite
+  - function.is-nan.md: ісnan »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції
 title: ісinfinite

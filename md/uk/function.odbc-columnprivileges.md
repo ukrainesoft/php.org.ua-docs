@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-close.html: « odbcclose
-  - function.odbc-columns.html: odbccolumns »
+  - function.odbc-close.md: « odbcclose
+  - function.odbc-columns.md: odbccolumns »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbccolumnprivileges

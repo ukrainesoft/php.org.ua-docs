@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-binary.html: « MongoDBBSONBinary
-  - mongodb-bson-binary.getdata.html: 'MongoDBBSONBinary::getData »'
+  - class.mongodb-bson-binary.md: « MongoDBBSONBinary
+  - mongodb-bson-binary.getdata.md: 'MongoDBBSONBinary::getData »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+  - class.mongodb-bson-binary.md: MongoDBBSONBinary
 title: 'MongoDBBSONBinary::construct'
 ---
 # MongoDBBSONBinary::construct

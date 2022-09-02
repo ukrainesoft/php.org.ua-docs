@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.construct.html: '« Session::construct'
-  - mysql-xdevapi-session.dropschema.html: 'Session::dropSchema »'
+  - mysql-xdevapi-session.construct.md: '« Session::construct'
+  - mysql-xdevapi-session.dropschema.md: 'Session::dropSchema »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::createSchema'
 ---
 # Session::createSchema

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-cdf-f.html: « statscdfф
-  - function.stats-cdf-laplace.html: statscdflaplace »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-cdf-f.md: « statscdfф
+  - function.stats-cdf-laplace.md: statscdflaplace »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statscdfgamma
 ---
 # statscdfgamma

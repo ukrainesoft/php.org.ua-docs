@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-repos-hotcopy.html: « svnreposhotcopy
-  - function.svn-repos-recover.html: svnreposrecover »
+  - function.svn-repos-hotcopy.md: « svnreposhotcopy
+  - function.svn-repos-recover.md: svnreposrecover »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnreposopen

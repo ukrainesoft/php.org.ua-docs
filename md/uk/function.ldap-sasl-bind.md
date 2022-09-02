@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-rename.html: « ldaprename
-  - function.ldap-search.html: ldapsearch »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-rename.md: « ldaprename
+  - function.ldap-search.md: ldapsearch »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapsaslbind
 ---
 # ldapsaslbind
@@ -30,7 +30,7 @@ ldap_sasl_bind(    LDAP\Connection $ldap,    ?string $dn = null,    
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `dn` `password` `mech` `realm` `authc_id` `authz_id` and `props` тепер допускають значення null. |
 
 ### Примітки

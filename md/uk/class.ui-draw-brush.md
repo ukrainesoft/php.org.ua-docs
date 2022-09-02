@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-stroke.setthickness.html: '« UIDrawStroke::setThickness'
-  - ui-draw-brush.construct.html: 'ОЙDrawBrush::construct »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-draw-stroke.setthickness.md: '« UIDrawStroke::setThickness'
+  - ui-draw-brush.construct.md: 'ОЙDrawBrush::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Щітки
 ---
 # Щітки

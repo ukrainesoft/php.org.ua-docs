@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlhammer.html: « tradercdlhammer
-  - function.trader-cdlharami.html: tradercdlharami »
+  - function.trader-cdlhammer.md: « tradercdlhammer
+  - function.trader-cdlharami.md: tradercdlharami »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlhangingman

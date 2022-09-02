@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-image.html: « CommonMarkNodeImage
-  - class.commonmark-node-link.html: CommonMarkNodeLink »
+  - class.commonmark-node-image.md: « CommonMarkNodeImage
+  - class.commonmark-node-link.md: CommonMarkNodeLink »
   - index.md: PHP Manual
-  - class.commonmark-node-image.html: CommonMarkNodeImage
+  - class.commonmark-node-image.md: CommonMarkNodeImage
 title: 'CommonMarkNodeImage::construct'
 ---
 # CommonMarkNodeImage::construct

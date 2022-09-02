@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclassconstant.tostring.html: '« ReflectionClassConstant::toString'
-  - reflectionenum.construct.html: 'ReflectionEnum::construct »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionclassconstant.tostring.md: '« ReflectionClassConstant::toString'
+  - reflectionenum.construct.md: 'ReflectionEnum::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас ReflectionEnum
 ---
 # Клас ReflectionEnum

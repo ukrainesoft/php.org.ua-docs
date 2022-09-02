@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.shm-has-var.html: « shmhasvar
-  - function.shm-remove-var.html: shmremovevar »
-  - index.html: PHP Manual
-  - ref.sem.html: Функції семафорів
+  - function.shm-has-var.md: « shmhasvar
+  - function.shm-remove-var.md: shmremovevar »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
 title: shmputvar
 ---
 # shmputvar
@@ -26,7 +26,7 @@ shm_put_var(SysvSharedMemory $shm, int $key, mixed $value): bool
 
 `shm`
 
-Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.html)
+Сегмент пам'яті, що розділяється, отриманий з [shmattach()](function.shm-attach.md)
 
 `key`
 
@@ -34,7 +34,7 @@ shm_put_var(SysvSharedMemory $shm, int $key, mixed $value): bool
 
 `value`
 
-Змінна. Можуть використовуватися всі [типи змінної](language.types.html), які підтримують [serialize()](function.serialize.html): зазвичай це означає всі типи, крім ресурсів та деяких внутрішніх об'єктів, які не можуть бути серіалізовані.
+Змінна. Можуть використовуватися всі [типи змінної](language.types.md), які підтримують [serialize()](function.serialize.md): зазвичай це означає всі типи, крім ресурсів та деяких внутрішніх об'єктів, які не можуть бути серіалізовані.
 
 ### Значення, що повертаються
 
@@ -44,9 +44,9 @@ shm_put_var(SysvSharedMemory $shm, int $key, mixed $value): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше очікували ресурс (resource). |
+|  | `shm` тепер чекає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [shmgetvar()](function.shm-get-var.html) - Повертає змінну з пам'яті, що розділяється
--   [shmhasvar()](function.shm-has-var.html) - Перевіряє, чи існує конкретний запис
+-   [shmgetvar()](function.shm-get-var.md) - Повертає змінну з пам'яті, що розділяється
+-   [shmhasvar()](function.shm-has-var.md) - Перевіряє, чи існує конкретний запис

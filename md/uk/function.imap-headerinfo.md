@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-header.html: « imapheader
-  - function.imap-headers.html: imapheaders »
+  - function.imap-header.md: « imapheader
+  - function.imap-headers.md: imapheaders »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapheaderinfo

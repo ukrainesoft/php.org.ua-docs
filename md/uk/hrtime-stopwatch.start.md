@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hrtime-stopwatch.isrunning.html: '« HRTimeStopWatch::isRunning'
-  - hrtime-stopwatch.stop.html: 'HRTimeStopWatch::stop »'
+  - hrtime-stopwatch.isrunning.md: '« HRTimeStopWatch::isRunning'
+  - hrtime-stopwatch.stop.md: 'HRTimeStopWatch::stop »'
   - index.md: PHP Manual
-  - class.hrtime-stopwatch.html: HRTimeStopWatch
+  - class.hrtime-stopwatch.md: HRTimeStopWatch
 title: 'HRTimeStopWatch::start'
 ---
 # HRTimeStopWatch::start

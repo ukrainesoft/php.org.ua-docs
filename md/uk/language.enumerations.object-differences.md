@@ -24,7 +24,7 @@ title: Відмінності від об'єктів
 -   Константи public, private і protected.
 -   Переліки можуть реалізовувати будь-яку кількість інтерфейсів.
 -   До перерахувань та варіантів можуть бути додані [атрибути](language.attributes.md). Цільовий фільтр **`TARGET_CLASS`** включає самі перерахування. Цільовий фільтр **`TARGET_CLASS_CONST`** включає варіанти перерахувань.
--   Магічні методи [call](language.oop5.overloading.html#object.call) [callStatic](language.oop5.overloading.html#object.callstatic), і [invoke](language.oop5.magic.html#object.invoke)
+-   Магічні методи [call](language.oop5.overloading.md#object.call) [callStatic](language.oop5.overloading.md#object.callstatic), і [invoke](language.oop5.magic.md#object.invoke)
 -   Константи **`__CLASS__`** і **`__FUNCTION__`** поводяться як завжди.
 
 Магічна константа `::class` для типу перерахування оцінює ім'я типу, включаючи будь-який простір імен, так само, як об'єкт. Магічна константа `::class` в екземплярі варіанта також оцінюється як тип перерахування, оскільки вона є екземпляром цього типу.

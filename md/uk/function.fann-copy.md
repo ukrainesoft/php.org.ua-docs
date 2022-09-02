@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-clear-scaling-params.html: « fannclearscalingparams
-  - function.fann-create-from-file.html: fanncreatefromfile »
+  - function.fann-clear-scaling-params.md: « fannclearscalingparams
+  - function.fann-create-from-file.md: fanncreatefromfile »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanncopy

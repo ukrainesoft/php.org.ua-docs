@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.password-needs-rehash.html: « passwordneedsrehash
-  - book.sodium.html: Sodium »
-  - index.html: PHP Manual
-  - ref.password.html: Функції хешування паролів
+  - function.password-needs-rehash.md: « passwordneedsrehash
+  - book.sodium.md: Sodium »
+  - index.md: PHP Manual
+  - ref.password.md: Функції хешування паролів
 title: passwordverify
 ---
 # passwordverify
@@ -18,7 +18,7 @@ passwordverify — Перевіряє, чи пароль хешу відпові
 password_verify(string $password, string $hash): bool
 ```
 
-Перевіряє, чи пароль хешу відповідає. Функція **passwordverify()** сумісна з [crypt()](function.crypt.html). Отже, хеші паролів, створені [crypt()](function.crypt.md), можуть бути використані в **passwordverify()**
+Перевіряє, чи пароль хешу відповідає. Функція **passwordverify()** сумісна з [crypt()](function.crypt.md). Отже, хеші паролів, створені [crypt()](function.crypt.md), можуть бути використані в **passwordverify()**
 
 Зверніть увагу, що [passwordhash()](function.password-hash.md) повертає алгоритм, вартість та сіль як частини хешу. Таким чином, вся необхідна для перевірки інформація включена до нього. Це дозволяє проводити перевірку без необхідності зберігати всі ці дані окремо.
 

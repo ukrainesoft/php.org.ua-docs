@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.setrequesturi.html: '« YafRequestAbstract::setRequestUri'
-  - class.yaf-request-http.html: YafRequestHttp »
+  - yaf-request-abstract.setrequesturi.md: '« YafRequestAbstract::setRequestUri'
+  - class.yaf-request-http.md: YafRequestHttp »
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::setRouted'
 ---
 # YafRequestAbstract::setRouted

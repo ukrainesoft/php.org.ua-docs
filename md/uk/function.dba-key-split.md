@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dba-insert.html: « dbainsert
-  - function.dba-list.html: dbalist »
+  - function.dba-insert.md: « dbainsert
+  - function.dba-list.md: dbalist »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbakeysplit

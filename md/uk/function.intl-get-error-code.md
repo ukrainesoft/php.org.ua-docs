@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.intl-error-name.html: « intlerrorname
-  - function.intl-get-error-message.html: intlgeterrormessage »
+  - function.intl-error-name.md: « intlerrorname
+  - function.intl-get-error-message.md: intlgeterrormessage »
   - index.md: PHP Manual
   - ref.intl.md: Функции intl
 title: intlgeterrorcode

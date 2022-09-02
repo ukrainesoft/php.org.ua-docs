@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-path.newfigure.html: '« UIDrawPath::newFigure'
-  - class.ui-draw-matrix.html: ОЙDrawMatrix »
-  - index.html: PHP Manual
-  - class.ui-draw-path.html: ОЙDrawPath
+  - ui-draw-path.newfigure.md: '« UIDrawPath::newFigure'
+  - class.ui-draw-matrix.md: ОЙDrawMatrix »
+  - index.md: PHP Manual
+  - class.ui-draw-path.md: ОЙDrawPath
 title: 'ОЙDrawPath::newFigureWithArc'
 ---
 # ОЙDrawPath::newFigureWithArc

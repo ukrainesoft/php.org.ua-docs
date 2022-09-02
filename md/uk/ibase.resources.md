@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ibase.configuration.html: « Налаштування під час виконання
-  - ibase.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - ibase.setup.html: Встановлення та налаштування
+  - ibase.configuration.md: « Налаштування під час виконання
+  - ibase.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - ibase.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

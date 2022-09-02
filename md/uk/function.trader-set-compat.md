@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-sarext.html: « tradersarext
-  - function.trader-set-unstable-period.html: tradersetunstableperiod »
+  - function.trader-sarext.md: « tradersarext
+  - function.trader-set-unstable-period.md: tradersetunstableperiod »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradersetcompat

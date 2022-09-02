@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mailparse-msg-extract-part-file.html: « mailparsemsgextractpartfile
-  - function.mailparse-msg-extract-whole-part-file.html: mailparsemsgextractwholepartfile »
+  - function.mailparse-msg-extract-part-file.md: « mailparsemsgextractpartfile
+  - function.mailparse-msg-extract-whole-part-file.md: mailparsemsgextractwholepartfile »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
 title: mailparsemsgextractpart

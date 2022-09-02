@@ -24,8 +24,8 @@ data: ([» RFC 2397](http://www.faqs.org/rfcs/rfc2397)) - це обгортка
 
 | Атрибут | Поддержка |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Так |
-| Обмеження по [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) | Так |
+| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Так |
+| Обмеження по [allowurlinclude](filesystem.configuration.md#ini.allow-url-include) | Так |
 | Читання | Так |
 | Запис | Ні |
 | Додавання | Ні |

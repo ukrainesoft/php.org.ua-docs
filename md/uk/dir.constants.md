@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dir.resources.html: « Типи ресурсів
-  - class.directory.html: Directory »
-  - index.html: PHP Manual
-  - book.dir.html: Каталоги
+  - dir.resources.md: « Типи ресурсів
+  - class.directory.md: Directory »
+  - index.md: PHP Manual
+  - book.dir.md: Каталоги
 title: Обумовлені константи
 ---
 # Обумовлені константи

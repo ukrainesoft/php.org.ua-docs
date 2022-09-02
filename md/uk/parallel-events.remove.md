@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-events.addfuture.html: '« parallelEvents::addFuture'
-  - parallel-events.poll.html: 'parallelEvents::poll »'
+  - parallel-events.addfuture.md: '« parallelEvents::addFuture'
+  - parallel-events.poll.md: 'parallelEvents::poll »'
   - index.md: PHP Manual
-  - class.parallel-events.html: parallelEvents
+  - class.parallel-events.md: parallelEvents
 title: 'parallelEvents::remove'
 ---
 # parallelEvents::remove

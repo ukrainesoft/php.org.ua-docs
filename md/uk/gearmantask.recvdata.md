@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmantask.jobhandle.html: '« GearmanTask::jobHandle'
-  - gearmantask.returncode.html: 'GearmanTask::returnCode »'
-  - index.html: PHP Manual
-  - class.gearmantask.html: GearmanTask
+  - gearmantask.jobhandle.md: '« GearmanTask::jobHandle'
+  - gearmantask.returncode.md: 'GearmanTask::returnCode »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::recvData'
 ---
 # GearmanTask::recvData
@@ -34,4 +34,4 @@ public GearmanTask::recvData(int $data_len): array
 
 ### Дивіться також
 
--   [GearmanTask::sendData()](gearmantask.senddata.html) - Надсилання даних завдання (застарілий метод)
+-   [GearmanTask::sendData()](gearmantask.senddata.md) - Надсилання даних завдання (застарілий метод)

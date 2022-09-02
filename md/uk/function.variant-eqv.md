@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-div.html: « variantdiv
-  - function.variant-fix.html: variantfix »
+  - function.variant-div.md: « variantdiv
+  - function.variant-fix.md: variantfix »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: varianteqv

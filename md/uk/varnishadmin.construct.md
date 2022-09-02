@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnishadmin.connect.html: '« VarnishAdmin::connect'
-  - varnishadmin.disconnect.html: 'VarnishAdmin::disconnect »'
-  - index.html: PHP Manual
-  - class.varnishadmin.html: VarnishAdmin
+  - varnishadmin.connect.md: '« VarnishAdmin::connect'
+  - varnishadmin.disconnect.md: 'VarnishAdmin::disconnect »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
 title: 'VarnishAdmin::construct'
 ---
 # VarnishAdmin::construct

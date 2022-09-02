@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.addemptydir.html: '« ZipArchive::addEmptyDir'
-  - ziparchive.addfromstring.html: 'ZipArchive::addFromString »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.addemptydir.md: '« ZipArchive::addEmptyDir'
+  - ziparchive.addfromstring.md: 'ZipArchive::addFromString »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::addFile'
 ---
 # ZipArchive::addFile
@@ -42,7 +42,7 @@ public ZipArchive::addFile(    string $filepath,    string $entryname = 
 
 `flags`
 
-Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.html)
+Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.md)
 
 ### Значення, що повертаються
 
@@ -77,8 +77,8 @@ if ($zip->open('test.zip') === TRUE) {
 
 > **Зауваження**
 > 
-> У процесі додавання файлу до архіву PHP заблокує файл. Розблокування відбудеться лише після закриття об'єкту [ZipArchive](class.ziparchive.html), шляхом виклику [ZipArchive::close()](ziparchive.close.html) або знищення об'єкта [ZipArchive](class.ziparchive.html). Це запобігає видаленню доданого до архіву файлу до того, як він буде розблокований.
+> У процесі додавання файлу до архіву PHP заблокує файл. Розблокування відбудеться лише після закриття об'єкту [ZipArchive](class.ziparchive.md), шляхом виклику [ZipArchive::close()](ziparchive.close.md) або знищення об'єкта [ZipArchive](class.ziparchive.md). Це запобігає видаленню доданого до архіву файлу до того, як він буде розблокований.
 
 ### Дивіться також
 
--   [ZipArchive::replaceFile()](ziparchive.replacefile.html) - Замінює файл у ZIP-архіві вказаним шляхом
+-   [ZipArchive::replaceFile()](ziparchive.replacefile.md) - Замінює файл у ZIP-архіві вказаним шляхом

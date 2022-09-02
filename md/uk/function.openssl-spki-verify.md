@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-spki-new.html: « opensslspkinew
-  - function.openssl-verify.html: opensslverify »
+  - function.openssl-spki-new.md: « opensslspkinew
+  - function.openssl-verify.md: opensslverify »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslspkiverify

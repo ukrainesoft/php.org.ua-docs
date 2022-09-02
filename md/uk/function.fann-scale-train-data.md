@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-scale-output.html: « fannscaleoutput
-  - function.fann-scale-train.html: fannscaletrain »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-scale-output.md: « fannscaleoutput
+  - function.fann-scale-train.md: fannscaletrain »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannscaletraindata
 ---
 # fannscaletraindata
@@ -40,5 +40,5 @@ fann_scale_train_data(resource $train_data, float $new_min, float $new_max): boo
 
 ### Дивіться також
 
--   [fannscaleoutputtraindata()](function.fann-scale-output-train-data.html) - Масштабує вихідні дані у навчальних даних до вказаного діапазону
--   [fannscaleinputtraindata()](function.fann-scale-input-train-data.html) - Масштабує вхідні дані до навчальних даних до вказаного діапазону
+-   [fannscaleoutputtraindata()](function.fann-scale-output-train-data.md) - Масштабує вихідні дані у навчальних даних до вказаного діапазону
+-   [fannscaleinputtraindata()](function.fann-scale-input-train-data.md) - Масштабує вхідні дані до навчальних даних до вказаного діапазону

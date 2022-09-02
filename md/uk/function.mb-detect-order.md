@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-detect-encoding.html: « mbdetectencoding
-  - function.mb-encode-mimeheader.html: мбencodemimeheader »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-detect-encoding.md: « mbdetectencoding
+  - function.mb-encode-mimeheader.md: мбencodemimeheader »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбdetectorder
 ---
 # мбdetectorder
@@ -24,11 +24,11 @@ mb_detect_order(array|string|null $encoding = null): array|bool
 
 `encoding`
 
-`encoding` - масив (array) або рядок, в якому перераховані кодування через кому. Дивіться [Підтримувані кодування](mbstring.supported-encodings.html)
+`encoding` - масив (array) або рядок, в якому перераховані кодування через кому. Дивіться [Підтримувані кодування](mbstring.supported-encodings.md)
 
 Якщо `encoding` опущено, функція поверне поточний список кодувань як масиву.
 
-Ця установка впливає на роботу функцій [мбdetectencoding()](function.mb-detect-encoding.html) і [мбsendmail()](function.mb-send-mail.html)
+Ця установка впливає на роботу функцій [мбdetectencoding()](function.mb-detect-encoding.md) і [мбsendmail()](function.mb-send-mail.md)
 
 У `mbstring` на даний момент реалізовані такі фільтри для визначення кодувань. Якщо послідовність байт у вихідному рядку не відповідатиме жодному з перерахованих кодувань, визначення кодування завершиться невдачею.
 
@@ -83,7 +83,7 @@ detect_order = UTF-8, ASCII, UTF-7
 
 ### Дивіться також
 
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [мбhttpinput()](function.mb-http-input.html) - Визначення кодування символів вхідних даних HTTP-запиту
--   [мбhttpoutput()](function.mb-http-output.html) - Встановлення/отримання кодування символів виводу HTTP
--   [мбsendmail()](function.mb-send-mail.html) - Надсилання закодованого повідомлення
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбhttpinput()](function.mb-http-input.md) - Визначення кодування символів вхідних даних HTTP-запиту
+-   [мбhttpoutput()](function.mb-http-output.md) - Встановлення/отримання кодування символів виводу HTTP
+-   [мбsendmail()](function.mb-send-mail.md) - Надсилання закодованого повідомлення

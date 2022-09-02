@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.set.html: '« SwooleTable::set'
-  - class.swoole-timer.html: SwooleTimer »
-  - index.html: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - swoole-table.set.md: '« SwooleTable::set'
+  - class.swoole-timer.md: SwooleTimer »
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::valid'
 ---
 # SwooleTable::valid

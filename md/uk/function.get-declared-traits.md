@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-declared-interfaces.html: « getdeclaredinterfaces
-  - function.get-mangled-object-vars.html: getmangledobjectvars »
+  - function.get-declared-interfaces.md: « getdeclaredinterfaces
+  - function.get-mangled-object-vars.md: getmangledobjectvars »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: getdeclaredtraits

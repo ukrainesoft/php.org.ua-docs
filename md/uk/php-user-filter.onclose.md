@@ -1,9 +1,9 @@
 ---
 navigation:
-  - php-user-filter.filter.html: '« phpuserfilter::filter'
-  - php-user-filter.oncreate.html: 'phpuserfilter::onCreate »'
+  - php-user-filter.filter.md: '« phpuserfilter::filter'
+  - php-user-filter.oncreate.md: 'phpuserfilter::onCreate »'
   - index.md: PHP Manual
-  - class.php-user-filter.html: phpuserfilter
+  - class.php-user-filter.md: phpuserfilter
 title: 'phpuserfilter::onClose'
 ---
 # phpuserfilter::onClose

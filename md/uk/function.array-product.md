@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-pop.html: « arraypop
-  - function.array-push.html: arraypush »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-pop.md: « arraypop
+  - function.array-push.md: arraypush »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayproduct
 ---
 # arrayproduct

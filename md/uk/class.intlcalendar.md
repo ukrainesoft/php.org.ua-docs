@@ -270,7 +270,7 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::FIELD_DAY_OF_WEEK`**
 
-Поле календаря для номера дня тижня. Починається з `1` (Неділя, дивись [**`IntlCalendar::DOW_SUNDAY`**](class.intlcalendar.html#intlcalendar.constants.dow-sunday) і пов'язані константи) і закінчується 7 (субота).
+Поле календаря для номера дня тижня. Починається з `1` (Неділя, дивись [**`IntlCalendar::DOW_SUNDAY`**](class.intlcalendar.md#intlcalendar.constants.dow-sunday) і пов'язані константи) і закінчується 7 (субота).
 
 **`IntlCalendar::FIELD_DAY_OF_WEEK_IN_MONTH`**
 
@@ -278,7 +278,7 @@ public toDateTime(): DateTime|false
 
 Також допустимі значення `0` та нижче (негативні). Значення `0` охоплює 7 днів безпосередньо перед початком місяця (перший відповідний день у місяці має значення `1`). Негативні значення відраховуються від кінця місяця. Так, значення `-1` вказує на останній відповідний день місяця, `-2` на другий з кінця і т.д.
 
-На відміну від [**`IntlCalendar::FIELD_WEEK_OF_MONTH`**](class.intlcalendar.html#intlcalendar.constants.field-week-of-month) і [**`IntlCalendar::FIELD_WEEK_OF_YEAR`**](class.intlcalendar.html#intlcalendar.constants.field-week-of-year), це значення не залежить від [IntlCalendar::getFirstDayOfWeek()](intlcalendar.getfirstdayofweek.md) і [IntlCalendar::getMinimalDaysInFirstWeek()](intlcalendar.getminimaldaysinfirstweek.md). Перше середовище - це перше середовище, навіть якщо тиждень розпочався попереднього місяця.
+На відміну від [**`IntlCalendar::FIELD_WEEK_OF_MONTH`**](class.intlcalendar.md#intlcalendar.constants.field-week-of-month) і [**`IntlCalendar::FIELD_WEEK_OF_YEAR`**](class.intlcalendar.md#intlcalendar.constants.field-week-of-year), це значення не залежить від [IntlCalendar::getFirstDayOfWeek()](intlcalendar.getfirstdayofweek.md) і [IntlCalendar::getMinimalDaysInFirstWeek()](intlcalendar.getminimaldaysinfirstweek.md). Перше середовище - це перше середовище, навіть якщо тиждень розпочався попереднього місяця.
 
 **`IntlCalendar::FIELD_AM_PM`**
 
@@ -314,7 +314,7 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::FIELD_YEAR_WOY`**
 
-Поле календаря являє собою рік для [недели года](class.intlcalendar.html#intlcalendar.constants.field-week-of-year)
+Поле календаря являє собою рік для [недели года](class.intlcalendar.md#intlcalendar.constants.field-week-of-year)
 
 **`IntlCalendar::FIELD_DOW_LOCAL`**
 
@@ -342,7 +342,7 @@ public toDateTime(): DateTime|false
 
 **`IntlCalendar::FIELD_DAY_OF_MONTH`**
 
-Псевдонім для [**`IntlCalendar::FIELD_DATE`**](class.intlcalendar.html#intlcalendar.constants.field-date)
+Псевдонім для [**`IntlCalendar::FIELD_DATE`**](class.intlcalendar.md#intlcalendar.constants.field-date)
 
 **`IntlCalendar::DOW_SUNDAY`**
 

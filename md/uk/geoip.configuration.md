@@ -1,9 +1,9 @@
 ---
 navigation:
-  - geoip.installation.html: « Установка
-  - geoip.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - geoip.setup.html: Встановлення та налаштування
+  - geoip.installation.md: « Установка
+  - geoip.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - geoip.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,7 +14,7 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [geoip.customdirectory](geoip.configuration.html#ini.geoip.custom-directory) | "" | PHPINIALL |  |
+| [geoip.customdirectory](geoip.configuration.md#ini.geoip.custom-directory) | "" | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

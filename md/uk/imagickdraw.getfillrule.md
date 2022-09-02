@@ -26,4 +26,4 @@ public ImagickDraw::getFillRule(): int
 
 ### Значення, що повертаються
 
-Повертає константу [FILLRULE](imagick.constants.html#imagick.constants.fillrule) `imagick::FILLRULE_*`
+Повертає константу [FILLRULE](imagick.constants.md#imagick.constants.fillrule) `imagick::FILLRULE_*`

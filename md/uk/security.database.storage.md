@@ -1,7 +1,7 @@
 ---
 navigation:
   - security.database.connection.md: « З'єднання з базою даних
-  - security.database.sql-injection.html: SQL-ін'єкції »
+  - security.database.sql-injection.md: SQL-ін'єкції »
   - index.md: PHP Manual
   - security.database.md: Безпека баз даних
 title: Шифрування сховища бази даних
@@ -20,7 +20,7 @@ title: Шифрування сховища бази даних
 
 Функція [password](ref.password.md) дозволяє зручно хешувати конфіденційні дані та працювати з цими хешами.
 
-[passwordhash()](function.password-hash.html) дозволяє хешувати заданий рядок найсильнішим з доступних алгоритмом і [passwordverify()](function.password-verify.md) перевіряє, що заданий пароль збігається зі збереженим у БД хешем.
+[passwordhash()](function.password-hash.md) дозволяє хешувати заданий рядок найсильнішим з доступних алгоритмом і [passwordverify()](function.password-verify.md) перевіряє, що заданий пароль збігається зі збереженим у БД хешем.
 
 **Приклад #1 Хешування полів із паролями**
 

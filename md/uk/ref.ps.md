@@ -1,7 +1,7 @@
 ---
 navigation:
   - ps.constants.md: « Обумовлені константи
-  - function.ps-add-bookmark.html: псaddbookmark »
+  - function.ps-add-bookmark.md: псaddbookmark »
   - index.md: PHP Manual
   - book.ps.md: ПС
 title: Функції PS

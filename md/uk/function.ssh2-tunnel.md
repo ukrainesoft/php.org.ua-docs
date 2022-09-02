@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-shell.html: « ssh2shell
-  - book.stomp.html: Stomp »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-shell.md: « ssh2shell
+  - book.stomp.md: Stomp »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2tunnel
 ---
 # ssh2tunnel

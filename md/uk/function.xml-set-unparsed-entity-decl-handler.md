@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.xml-set-start-namespace-decl-handler.html: « xmlsetstartnamespacedeclhandler
+  - function.xml-set-start-namespace-decl-handler.md: « xmlsetstartnamespacedeclhandler
   - class.xmlparser.md: XmlParser »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML

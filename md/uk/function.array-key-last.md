@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-key-first.html: « arraykeyfirst
-  - function.array-keys.html: arraykeys »
+  - function.array-key-first.md: « arraykeyfirst
+  - function.array-keys.md: arraykeys »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraykeylast

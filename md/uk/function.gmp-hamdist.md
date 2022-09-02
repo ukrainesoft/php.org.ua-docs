@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-gcdext.html: « gmpgcdext
-  - function.gmp-import.html: gmpimport »
+  - function.gmp-gcdext.md: « gmpgcdext
+  - function.gmp-import.md: gmpimport »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmphamdist
@@ -62,5 +62,5 @@ echo gmp_popcount(gmp_xor($ham1, $ham2)) . "\n";
 
 ### Дивіться також
 
--   [gmppopcount()](function.gmp-popcount.html) - Кількість одиниць у двійковому записі числа
--   [gmpxor()](function.gmp-xor.html) - Побітове що виключає АБО
+-   [gmppopcount()](function.gmp-popcount.md) - Кількість одиниць у двійковому записі числа
+-   [gmpxor()](function.gmp-xor.md) - Побітове що виключає АБО

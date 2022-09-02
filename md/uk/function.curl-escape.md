@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-error.html: « curlerror
-  - function.curl-exec.html: curlexec »
+  - function.curl-error.md: « curlerror
+  - function.curl-exec.md: curlexec »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlescape

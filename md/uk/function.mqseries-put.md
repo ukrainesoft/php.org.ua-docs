@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mqseries-put1.html: « mqseriesput1
-  - function.mqseries-set.html: mqseriesset »
-  - index.html: PHP Manual
-  - ref.mqseries.html: Функции mqseries
+  - function.mqseries-put1.md: « mqseriesput1
+  - function.mqseries-set.md: mqseriesset »
+  - index.md: PHP Manual
+  - ref.mqseries.md: Функции mqseries
 title: mqseriesput
 ---
 # mqseriesput
@@ -109,7 +109,7 @@ mqseries_put(    resource $hConn,    resource $hObj,    array &$md,�
 
 ### Дивіться також
 
--   [mqseriesconn()](function.mqseries-conn.html) - MQSeries MQCONN
--   [mqseriesconnx()](function.mqseries-connx.html) - MQSeries MQCONNX
--   [mqseriesopen()](function.mqseries-open.html) - MQSeries MQOPEN
--   [mqseriesget()](function.mqseries-get.html) - MQSeries MQGET
+-   [mqseriesconn()](function.mqseries-conn.md) - MQSeries MQCONN
+-   [mqseriesconnx()](function.mqseries-connx.md) - MQSeries MQCONNX
+-   [mqseriesopen()](function.mqseries-open.md) - MQSeries MQOPEN
+-   [mqseriesget()](function.mqseries-get.md) - MQSeries MQGET

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-controller-abstract.initview.html: '« YafControllerAbstract::initView'
-  - yaf-controller-abstract.render.html: 'YafControllerAbstract::render »'
+  - yaf-controller-abstract.initview.md: '« YafControllerAbstract::initView'
+  - yaf-controller-abstract.render.md: 'YafControllerAbstract::render »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.html: YafControllerAbstract
+  - class.yaf-controller-abstract.md: YafControllerAbstract
 title: 'YafControllerAbstract::redirect'
 ---
 # YafControllerAbstract::redirect

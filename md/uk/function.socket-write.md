@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-strerror.html: « socketstrerror
-  - function.socket-wsaprotocol-info-export.html: socketwsaprotocolinfoexport »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-strerror.md: « socketstrerror
+  - function.socket-wsaprotocol-info-export.md: socketwsaprotocolinfoexport »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketwrite
 ---
 # socketwrite
@@ -34,7 +34,7 @@ socket_write(Socket $socket, string $data, ?int $length = null): int|false
 
 ### Значення, що повертаються
 
-Повертає кількість байт, успішно записаних у сокет або **`false`** у разі виникнення помилки. Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+Повертає кількість байт, успішно записаних у сокет або **`false`** у разі виникнення помилки. Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.md). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 > **Зауваження**
 > 
@@ -44,7 +44,7 @@ socket_write(Socket $socket, string $data, ?int $length = null): int|false
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 |  | `length` тепер допускає значення null. |
 
 ### Примітки
@@ -55,9 +55,9 @@ socket_write(Socket $socket, string $data, ?int $length = null): int|false
 
 ### Дивіться також
 
--   [socketaccept()](function.socket-accept.html) - приймає з'єднання на сокеті
--   [socketbind()](function.socket-bind.html) - Прив'язує ім'я до сокету
--   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
--   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socketread()](function.socket-read.html) - Читає рядок максимальну довжину байт із сокету
--   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketaccept()](function.socket-accept.md) - приймає з'єднання на сокеті
+-   [socketbind()](function.socket-bind.md) - Прив'язує ім'я до сокету
+-   [socketconnect()](function.socket-connect.md) - Починає з'єднання із сокетом
+-   [socketlisten()](function.socket-listen.md) - Прослуховує вхідні з'єднання на сокеті
+-   [socketread()](function.socket-read.md) - Читає рядок максимальну довжину байт із сокету
+-   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету

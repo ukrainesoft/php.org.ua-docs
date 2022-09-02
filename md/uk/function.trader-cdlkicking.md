@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlinvertedhammer.html: « tradercdlinvertedhammer
-  - function.trader-cdlkickingbylength.html: tradercdlkickingbylength »
+  - function.trader-cdlinvertedhammer.md: « tradercdlinvertedhammer
+  - function.trader-cdlkickingbylength.md: tradercdlkickingbylength »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlkicking

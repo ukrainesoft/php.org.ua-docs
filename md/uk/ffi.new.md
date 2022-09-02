@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.memset.html: '« FFI::memset'
-  - ffi.scope.html: 'FFI::scope »'
-  - index.html: PHP Manual
-  - class.ffi.html: FFI
+  - ffi.memset.md: '« FFI::memset'
+  - ffi.scope.md: 'FFI::scope »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
 title: 'FFI::new'
 ---
 # FFI::new
@@ -28,11 +28,11 @@ public FFI::new(FFI\CType|string $type, bool $owned = true, bool $persistent = f
 
 `type`
 
-`type` - коректна декларація типу С, наприклад, string або заздалегідь створений об'єкт класу [FFICType](class.ffi-ctype.html)
+`type` - коректна декларація типу С, наприклад, string або заздалегідь створений об'єкт класу [FFICType](class.ffi-ctype.md)
 
 `owned`
 
-Чи створювати керовані чи некеровані дані. Керовані дані живуть у зв'язці з повернутим об'єктом [FFICData](class.ffi-cdata.html) і вивільняється, коли стандартний підрахунок посилань PHP або GC (збирач сміття) звільнять останнє посилання на цей об'єкт. Некеровані дані необхідно вивільняти вручну за допомогою [FFI::free()](ffi.free.html)
+Чи створювати керовані чи некеровані дані. Керовані дані живуть у зв'язці з повернутим об'єктом [FFICData](class.ffi-cdata.md) і вивільняється, коли стандартний підрахунок посилань PHP або GC (збирач сміття) звільнять останнє посилання на цей об'єкт. Некеровані дані необхідно вивільняти вручну за допомогою [FFI::free()](ffi.free.md)
 
 `persistent`
 
@@ -40,4 +40,4 @@ public FFI::new(FFI\CType|string $type, bool $owned = true, bool $persistent = f
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [FFICData](class.ffi-cdata.html) або **`null`** у разі виникнення помилки.
+Повертає новий об'єкт [FFICData](class.ffi-cdata.md) або **`null`** у разі виникнення помилки.

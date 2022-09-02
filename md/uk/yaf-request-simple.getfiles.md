@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-simple.getcookie.html: '« YafRequestSimple::getCookie'
-  - yaf-request-simple.getpost.html: 'YafRequestSimple::getPost »'
+  - yaf-request-simple.getcookie.md: '« YafRequestSimple::getCookie'
+  - yaf-request-simple.getpost.md: 'YafRequestSimple::getPost »'
   - index.md: PHP Manual
-  - class.yaf-request-simple.html: YafRequestSimple
+  - class.yaf-request-simple.md: YafRequestSimple
 title: 'YafRequestSimple::getFiles'
 ---
 # YafRequestSimple::getFiles

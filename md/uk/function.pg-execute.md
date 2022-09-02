@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-escape-string.html: « pgescapestring
-  - function.pg-fetch-all-columns.html: пгfetchallcolumns »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-escape-string.md: « pgescapestring
+  - function.pg-fetch-all-columns.md: пгfetchallcolumns »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгexecute
 ---
 # пгexecute
@@ -28,7 +28,7 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -36,7 +36,7 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 `stmtname`
 
-Ім'я підготовленого до виконання запиту. Якщо передано порожній рядок "", буде виконано безіменний запит. Ім'я та вміст запиту мають бути підготовлені функцією [пгprepare()](function.pg-prepare.html) [пгsendprepare()](function.pg-send-prepare.md) або за допомогою SQL-команди `PREPARE`
+Ім'я підготовленого до виконання запиту. Якщо передано порожній рядок "", буде виконано безіменний запит. Ім'я та вміст запиту мають бути підготовлені функцією [пгprepare()](function.pg-prepare.md) [пгsendprepare()](function.pg-send-prepare.md) або за допомогою SQL-команди `PREPARE`
 
 `params`
 
@@ -54,8 +54,8 @@ pg_execute(PgSql\Connection $connection = ?, string $stmtname, array $params): P
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.html); раніше повертався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [PgSqlResult](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   - ev.watchers.md: « Спостерігачі
-  - ev.periodic-modes.html: Режими роботи періодичних спостерігачів »
+  - ev.periodic-modes.md: Режими роботи періодичних спостерігачів »
   - index.md: PHP Manual
   - book.ev.md: Єв
 title: Watcher callbacks
@@ -30,6 +30,6 @@ callback(
 
 `revents`
 
-[Прийняті спостерігачем події](class.ev.html#ev.constants.watcher-revents)
+[Прийняті спостерігачем події](class.ev.md#ev.constants.watcher-revents)
 
 Кожен тип спостерігача має власний біт у `revents`, асоційований з ним, що дозволяє використовувати одну і ту ж callback-функцію для безлічі спостерігачів. Подієва маска називається після типу, тобто . [EvChild](class.evchild.md) (або [EvLoop::child()](evloop.child.md)) встановлює **`EV::CHILD`** [EvPrepare](class.evprepare.md) (або [EvLoop::prepare()](evloop.prepare.md)) встановлює **`Ev::PREPARE`** [EvPeriodic](class.evperiodic.md) (або [EvLoop::periodic()](evloop.periodic.md)) встановлює **`Ev::PERIODIC`** і так далі, за винятком для подій введення/виводу (які встановлюють обидва біти, та **`Ev::READ`** і **`Ev::WRITE`**

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.setnonce.html: '« OAuth::setNonce'
-  - oauth.setrsacertificate.html: 'OAuth::setRSACertificate »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.setnonce.md: '« OAuth::setNonce'
+  - oauth.setrsacertificate.md: 'OAuth::setRSACertificate »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::setRequestEngine'
 ---
 # OAuth::setRequestEngine
@@ -28,7 +28,7 @@ public OAuth::setRequestEngine(int $reqengine): void
 
 `reqengine`
 
-Вибраний механізм запитів. Задайте **`OAUTH_REQENGINE_STREAMS`**, якщо хочете використовувати потоки PHP, або **`OAUTH_REQENGINE_CURL`** для використання [Curl](book.curl.html)
+Вибраний механізм запитів. Задайте **`OAUTH_REQENGINE_STREAMS`**, якщо хочете використовувати потоки PHP, або **`OAUTH_REQENGINE_CURL`** для використання [Curl](book.curl.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ public OAuth::setRequestEngine(int $reqengine): void
 
 ### Помилки
 
-Викидає виняток [OAuthException](class.oauthexception.html) під час вибору некоректного механізму запитів.
+Викидає виняток [OAuthException](class.oauthexception.md) під час вибору некоректного механізму запитів.
 
 ### Приклади
 
@@ -52,6 +52,6 @@ $consumer->setRequestEngine(OAUTH_REQENGINE_STREAMS);
 
 ### Дивіться також
 
--   [Curl](book.curl.html)
--   [потоки PHP](book.stream.html)
--   [OAuthException](class.oauthexception.html)
+-   [Curl](book.curl.md)
+-   [потоки PHP](book.stream.md)
+-   [OAuthException](class.oauthexception.md)

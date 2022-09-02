@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionparameter.getclass.html: '« ReflectionParameter::getClass'
-  - reflectionparameter.getdeclaringfunction.html: 'ReflectionParameter::getDeclaringFunction »'
-  - index.html: PHP Manual
-  - class.reflectionparameter.html: ReflectionParameter
+  - reflectionparameter.getclass.md: '« ReflectionParameter::getClass'
+  - reflectionparameter.getdeclaringfunction.md: 'ReflectionParameter::getDeclaringFunction »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::getDeclaringClass'
 ---
 # ReflectionParameter::getDeclaringClass
@@ -26,7 +26,7 @@ public ReflectionParameter::getDeclaringClass(): ?ReflectionClass
 
 ### Значення, що повертаються
 
-Об'єкт класу [ReflectionClass](class.reflectionclass.html), або **`null`**, якщо викликано для функції.
+Об'єкт класу [ReflectionClass](class.reflectionclass.md), або **`null`**, якщо викликано для функції.
 
 ### Приклади
 
@@ -61,4 +61,4 @@ object(ReflectionClass)#2 (1) {
 
 ### Дивіться також
 
--   [ReflectionParameter::getClass()](reflectionparameter.getclass.html) - Отримує об'єкт ReflectionClass для параметра, що відображається, або null
+-   [ReflectionParameter::getClass()](reflectionparameter.getclass.md) - Отримує об'єкт ReflectionClass для параметра, що відображається, або null

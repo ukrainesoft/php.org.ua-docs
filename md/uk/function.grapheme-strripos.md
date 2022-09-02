@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.grapheme-strpos.html: « graphemestrpos
-  - function.grapheme-strrpos.html: graphemestrrpos »
-  - index.html: PHP Manual
-  - ref.intl.grapheme.html: Функции Grapheme
+  - function.grapheme-strpos.md: « graphemestrpos
+  - function.grapheme-strrpos.md: graphemestrrpos »
+  - index.md: PHP Manual
+  - ref.intl.grapheme.md: Функции Grapheme
 title: graphemestrripos
 ---
 # graphemestrripos
@@ -64,9 +64,9 @@ print grapheme_strripos( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_
 
 ### Дивіться також
 
--   [graphemestripos()](function.grapheme-stripos.html) - Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
--   [graphemestristr()](function.grapheme-stristr.html) - Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
--   [graphemestrpos()](function.grapheme-strpos.html) - знаходить позицію (в одиницях графеми) першого входження рядка
--   [graphemestrrpos()](function.grapheme-strrpos.html) - знаходить позицію (в одиницях графеми) останнього входження рядка
--   [graphemestrstr()](function.grapheme-strstr.html) - Повертає частину рядка haystack від першої появи needle до кінця haystack
+-   [graphemestripos()](function.grapheme-stripos.md) - Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
+-   [graphemestristr()](function.grapheme-stristr.md) - Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
+-   [graphemestrpos()](function.grapheme-strpos.md) - знаходить позицію (в одиницях графеми) першого входження рядка
+-   [graphemestrrpos()](function.grapheme-strrpos.md) - знаходить позицію (в одиницях графеми) останнього входження рядка
+-   [graphemestrstr()](function.grapheme-strstr.md) - Повертає частину рядка haystack від першої появи needle до кінця haystack
 -   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

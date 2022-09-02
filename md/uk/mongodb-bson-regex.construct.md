@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-regex.html: « MongoDBBSONRegex
-  - mongodb-bson-regex.getflags.html: 'MongoDBBSONRegex::getFlags »'
+  - class.mongodb-bson-regex.md: « MongoDBBSONRegex
+  - mongodb-bson-regex.getflags.md: 'MongoDBBSONRegex::getFlags »'
   - index.md: PHP Manual
-  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+  - class.mongodb-bson-regex.md: MongoDBBSONRegex
 title: 'MongoDBBSONRegex::construct'
 ---
 # MongoDBBSONRegex::construct

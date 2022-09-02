@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-create-request.html: « radiuscreaterequest
-  - function.radius-cvt-int.html: radiuscvtint »
+  - function.radius-create-request.md: « radiuscreaterequest
+  - function.radius-cvt-int.md: radiuscvtint »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiuscvtaddr

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setmltmaxwordlength.html: '« SolrQuery::setMltMaxWordLength'
-  - solrquery.setmltmintermfrequency.html: 'SolrQuery::setMltMinTermFrequency »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setmltmaxwordlength.md: '« SolrQuery::setMltMaxWordLength'
+  - solrquery.setmltmintermfrequency.md: 'SolrQuery::setMltMinTermFrequency »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setMltMinDocFrequency'
 ---
 # SolrQuery::setMltMinDocFrequency

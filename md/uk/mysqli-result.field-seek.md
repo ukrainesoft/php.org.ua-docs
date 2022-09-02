@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.field-count.html: '« mysqliresult::$fieldcount'
-  - mysqli-result.free.html: 'mysqliresult::free »'
+  - mysqli-result.field-count.md: '« mysqliresult::$fieldcount'
+  - mysqli-result.free.md: 'mysqliresult::free »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::fieldseek'
 ---
 # mysqliresult::fieldseek
@@ -38,7 +38,7 @@ mysqli_field_seek(mysqli_result $result, int $index): bool
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `index`
 

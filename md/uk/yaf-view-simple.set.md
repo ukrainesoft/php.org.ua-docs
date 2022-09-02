@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-view-simple.render.html: '« YafViewSimple::render'
-  - yaf-view-simple.setscriptpath.html: 'YafViewSimple::setScriptPath »'
+  - yaf-view-simple.render.md: '« YafViewSimple::render'
+  - yaf-view-simple.setscriptpath.md: 'YafViewSimple::setScriptPath »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.html: YafViewSimple
+  - class.yaf-view-simple.md: YafViewSimple
 title: 'YafViewSimple::set'
 ---
 # YafViewSimple::set

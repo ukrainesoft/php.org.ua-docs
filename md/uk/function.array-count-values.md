@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-combine.html: « arraycombine
-  - function.array-diff-assoc.html: arraydiffassoc »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-combine.md: « arraycombine
+  - function.array-diff-assoc.md: arraydiffassoc »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraycountvalues
 ---
 # arraycountvalues
@@ -58,7 +58,7 @@ Array
 
 ### Дивіться також
 
--   [count()](function.count.html) - Підраховує кількість елементів масиву або Countable об'єкті
--   [arrayunique()](function.array-unique.html) - Прибирає значення, що повторюються, з масиву
--   [arrayvalues()](function.array-values.html) - Вибирає всі значення масиву
--   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
+-   [count()](function.count.md) - Підраховує кількість елементів масиву або Countable об'єкті
+-   [arrayunique()](function.array-unique.md) - Прибирає значення, що повторюються, з масиву
+-   [arrayvalues()](function.array-values.md) - Вибирає всі значення масиву
+-   [countchars()](function.count-chars.md) - Повертає інформацію про символи, що входять до рядка

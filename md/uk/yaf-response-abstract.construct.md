@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-response-abstract.clearheaders.html: '« YafResponseAbstract::clearHeaders'
-  - yaf-response-abstract.destruct.html: 'YafResponseAbstract::destruct »'
-  - index.html: PHP Manual
-  - class.yaf-response-abstract.html: YafResponseAbstract
+  - yaf-response-abstract.clearheaders.md: '« YafResponseAbstract::clearHeaders'
+  - yaf-response-abstract.destruct.md: 'YafResponseAbstract::destruct »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.md: YafResponseAbstract
 title: 'YafResponseAbstract::construct'
 ---
 # YafResponseAbstract::construct

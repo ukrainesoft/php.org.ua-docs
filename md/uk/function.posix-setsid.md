@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-setrlimit.html: « posixsetrlimit
-  - function.posix-setuid.html: posixsetuid »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-setrlimit.md: « posixsetrlimit
+  - function.posix-setuid.md: posixsetuid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixsetsid
 ---
 # posixsetsid

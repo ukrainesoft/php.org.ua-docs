@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-num-input.html: « fanngetnuminput
-  - function.fann-get-num-output.html: fanngetnumoutput »
+  - function.fann-get-num-input.md: « fanngetnuminput
+  - function.fann-get-num-output.md: fanngetnumoutput »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetnumlayers

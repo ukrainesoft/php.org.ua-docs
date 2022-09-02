@@ -1,6 +1,6 @@
 ---
 navigation:
-  - ldap.examples-basic.html: « Базовое использование
+  - ldap.examples-basic.md: « Базовое использование
   - ref.ldap.md: Функції LDAP »
   - index.md: PHP Manual
   - ldap.examples.md: Приклади

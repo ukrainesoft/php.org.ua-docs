@@ -1,9 +1,9 @@
 ---
 navigation:
-  - iteratoriterator.next.html: '« IteratorIterator::next'
-  - iteratoriterator.valid.html: 'IteratorIterator::valid »'
-  - index.html: PHP Manual
-  - class.iteratoriterator.html: IteratorIterator
+  - iteratoriterator.next.md: '« IteratorIterator::next'
+  - iteratoriterator.valid.md: 'IteratorIterator::valid »'
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::rewind'
 ---
 # IteratorIterator::rewind

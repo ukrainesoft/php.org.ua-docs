@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-parser.tokenid.html: '« ParleParser::tokenId'
-  - parle-parser.validate.html: 'ParleParser::validate »'
+  - parle-parser.tokenid.md: '« ParleParser::tokenId'
+  - parle-parser.validate.md: 'ParleParser::validate »'
   - index.md: PHP Manual
-  - class.parle-parser.html: ParleParser
+  - class.parle-parser.md: ParleParser
 title: 'ParleParser::trace'
 ---
 # ParleParser::trace

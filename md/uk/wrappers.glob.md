@@ -24,8 +24,8 @@ glob:// — Знаходження шляхів, що відповідають �
 
 | Атрибут | Поддержка |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Ні |
-| Обмеження по [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) | Ні |
+| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
+| Обмеження по [allowurlinclude](filesystem.configuration.md#ini.allow-url-include) | Ні |
 | Читання | Ні |
 | Запис | Ні |
 | Додавання | Ні |

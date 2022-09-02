@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlsrv.installation.html: « Установка
-  - sqlsrv.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - sqlsrv.setup.html: Встановлення та налаштування
+  - sqlsrv.installation.md: « Установка
+  - sqlsrv.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - sqlsrv.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

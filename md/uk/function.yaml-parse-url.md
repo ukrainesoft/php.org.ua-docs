@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaml-parse-file.html: « yamlparsefile
-  - function.yaml-parse.html: yamlparse »
+  - function.yaml-parse-file.md: « yamlparsefile
+  - function.yaml-parse.md: yamlparse »
   - index.md: PHP Manual
   - ref.yaml.md: Функции Yaml
 title: yamlparseurl

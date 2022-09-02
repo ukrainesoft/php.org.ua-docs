@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.getversion.html: '« Phar::getVersion'
-  - phar.interceptfilefuncs.html: 'Phar::interceptFileFuncs »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.getversion.md: '« Phar::getVersion'
+  - phar.interceptfilefuncs.md: 'Phar::interceptFileFuncs »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::hasMetadata'
 ---
 # Phar::hasMetadata
@@ -57,6 +57,6 @@ bool(false)
 
 ### Дивіться також
 
--   [Phar::getMetadata()](phar.getmetadata.html) - Витягти метадані phar-архіву
--   [Phar::setMetadata()](phar.setmetadata.html) - Встановити метадані phar-архіву
--   [Phar::delMetadata()](phar.delmetadata.html) - Видалити глобальні метадані в архіві phar
+-   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
+-   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
+-   [Phar::delMetadata()](phar.delmetadata.md) - Видалити глобальні метадані в архіві phar

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.pop.html: '« DsStack::pop'
-  - ds-stack.toarray.html: 'ДсStack::toArray »'
+  - ds-stack.pop.md: '« DsStack::pop'
+  - ds-stack.toarray.md: 'ДсStack::toArray »'
   - index.md: PHP Manual
-  - class.ds-stack.html: Стек
+  - class.ds-stack.md: Стек
 title: 'ДсStack::push'
 ---
 # ДсStack::push

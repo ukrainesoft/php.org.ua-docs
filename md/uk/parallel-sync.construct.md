@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.parallel-sync.html: « parallelSync
-  - parallel-sync.get.html: 'parallelSync::get »'
+  - class.parallel-sync.md: « parallelSync
+  - parallel-sync.get.md: 'parallelSync::get »'
   - index.md: PHP Manual
-  - class.parallel-sync.html: parallelSync
+  - class.parallel-sync.md: parallelSync
 title: 'parallelSync::construct'
 ---
 # parallelSync::construct

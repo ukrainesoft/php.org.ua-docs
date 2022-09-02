@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-box.html: « sodiumcryptobox
-  - function.sodium-crypto-core-ristretto255-from-hash.html: sodiumcryptocoreristretto255fromhash »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-box.md: « sodiumcryptobox
+  - function.sodium-crypto-core-ristretto255-from-hash.md: sodiumcryptocoreristretto255fromhash »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255add
 ---
 # sodiumcryptocoreristretto255add

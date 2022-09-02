@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.capacity.html: '« DsSet::capacity'
-  - ds-set.construct.html: 'ДсSet::construct »'
+  - ds-set.capacity.md: '« DsSet::capacity'
+  - ds-set.construct.md: 'ДсSet::construct »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::clear'
 ---
 # ДсSet::clear

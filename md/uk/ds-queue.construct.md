@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.clear.html: '« DsQueue::clear'
-  - ds-queue.copy.html: 'ДсQueue::copy »'
-  - index.html: PHP Manual
-  - class.ds-queue.html: Черга
+  - ds-queue.clear.md: '« DsQueue::clear'
+  - ds-queue.copy.md: 'ДсQueue::copy »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::construct'
 ---
 # ДсQueue::construct
@@ -14,9 +14,9 @@ title: 'ДсQueue::construct'
 
 ### Опис
 
-public **ДсQueue::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$values`
+public **ДсQueue::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$values`
 
-Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.html), або масив, передані як параметр `values`
+Створює новий екземпляр, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані як параметр `values`
 
 ### Список параметрів
 

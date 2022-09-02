@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dio-open.html: « dioopen
-  - function.dio-seek.html: dioseek »
+  - function.dio-open.md: « dioopen
+  - function.dio-seek.md: dioseek »
   - index.md: PHP Manual
   - ref.dio.md: Функції прямого введення/виводу
 title: dioread

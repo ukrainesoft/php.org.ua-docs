@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-debug-type.html: « getdebugtype
-  - function.get-resource-id.html: getresourceid »
+  - function.get-debug-type.md: « getdebugtype
+  - function.get-resource-id.md: getresourceid »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: getdefinedvars

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-plus-dm.html: « traderplusдм
-  - function.trader-roc.html: traderroc »
+  - function.trader-plus-dm.md: « traderplusдм
+  - function.trader-roc.md: traderroc »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderppo

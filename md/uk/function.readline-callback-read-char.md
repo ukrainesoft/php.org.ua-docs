@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.readline-callback-handler-remove.html: « readlinecallbackhandlerremove
-  - function.readline-clear-history.html: readlineclearhistory »
+  - function.readline-callback-handler-remove.md: « readlinecallbackhandlerremove
+  - function.readline-clear-history.md: readlineclearhistory »
   - index.md: PHP Manual
   - ref.readline.md: Функции Readline
 title: readlinecallbackreadchar

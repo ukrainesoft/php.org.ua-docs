@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-lob-export.html: « cubridlobexport
-  - function.cubrid-lob-send.html: cubridlobsend »
+  - function.cubrid-lob-export.md: « cubridlobexport
+  - function.cubrid-lob-send.md: cubridlobsend »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridлобget

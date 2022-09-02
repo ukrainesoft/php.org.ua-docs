@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnishadmin.setport.html: '« VarnishAdmin::setPort'
-  - varnishadmin.settimeout.html: 'VarnishAdmin::setTimeout »'
-  - index.html: PHP Manual
-  - class.varnishadmin.html: VarnishAdmin
+  - varnishadmin.setport.md: '« VarnishAdmin::setPort'
+  - varnishadmin.settimeout.md: 'VarnishAdmin::setTimeout »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
 title: 'VarnishAdmin::setSecret'
 ---
 # VarnishAdmin::setSecret

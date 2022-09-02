@@ -14,9 +14,9 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [uopz.disable](uopz.configuration.html#ini.uopz.disable) | "0" | PHPINISYSTEM | Доступно з uopz 5.0.2 |
-| [uopz.exit](uopz.configuration.html#ini.uopz.exit) | "0" | PHPINISYSTEM | Доступно з uopz 6.0.1 |
-| [uopz.overloads](uopz.configuration.html#ini.uopz.overloads) | "1" | PHPINISYSTEM | Доступно з uopz 2.0.2. Видалено з uopz 5.0.0. |
+| [uopz.disable](uopz.configuration.md#ini.uopz.disable) | "0" | PHPINISYSTEM | Доступно з uopz 5.0.2 |
+| [uopz.exit](uopz.configuration.md#ini.uopz.exit) | "0" | PHPINISYSTEM | Доступно з uopz 6.0.1 |
+| [uopz.overloads](uopz.configuration.md#ini.uopz.overloads) | "1" | PHPINISYSTEM | Доступно з uopz 2.0.2. Видалено з uopz 5.0.0. |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -34,4 +34,4 @@ title: Налаштування під час виконання
 
 Дає можливість використовувати [uopzoverload()](function.uopz-overload.md)
 
-> **Зауваження**: Під час роботи з увімкненим OPcache може знадобитися вимкнути все [оптимизации OPcache](opcache.configuration.html#ini.opcache.optimization-level) `opcache.optimization_level=0`
+> **Зауваження**: Під час роботи з увімкненим OPcache може знадобитися вимкнути все [оптимизации OPcache](opcache.configuration.md#ini.opcache.optimization-level) `opcache.optimization_level=0`

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setcompressionquality.html: '« Gmagick::setCompressionQuality'
-  - gmagick.setimagebackgroundcolor.html: 'Gmagick::setimagebackgroundcolor »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setcompressionquality.md: '« Gmagick::setCompressionQuality'
+  - gmagick.setimagebackgroundcolor.md: 'Gmagick::setimagebackgroundcolor »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setfilename'
 ---
 # Gmagick::setfilename
@@ -28,7 +28,7 @@ public Gmagick::setfilename(string $filename): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

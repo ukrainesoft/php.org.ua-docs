@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.parle-lexerexception.html: « ParleLexerException
+  - class.parle-lexerexception.md: « ParleLexerException
   - book.pcre.md: PCRE »
   - index.md: PHP Manual
   - book.parle.md: Parle

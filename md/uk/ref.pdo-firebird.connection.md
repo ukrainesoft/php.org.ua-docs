@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-firebird.html: « Firebird (PDO)
-  - ref.pdo-ibm.html: IBM (PDO) »
+  - ref.pdo-firebird.md: « Firebird (PDO)
+  - ref.pdo-ibm.md: IBM (PDO) »
   - index.md: PHP Manual
-  - ref.pdo-firebird.html: Firebird (PDO)
+  - ref.pdo-firebird.md: Firebird (PDO)
 title: PDOFIREBIRD DSN
 ---
 # PDOFIREBIRD DSN

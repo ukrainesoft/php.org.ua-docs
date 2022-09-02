@@ -1,20 +1,20 @@
 ---
 navigation:
-  - function.ocicolumntyperaw.html: « ocicolumntyperaw
-  - function.ocidefinebyname.html: ocidefinebyname »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocicolumntyperaw.md: « ocicolumntyperaw
+  - function.ocidefinebyname.md: ocidefinebyname »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocicommit
 ---
 # ocicommit
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocicommit - Псевдонім [ocicommit()](function.oci-commit.html)
+ocicommit - Псевдонім [ocicommit()](function.oci-commit.md)
 
 ### Опис
 
-Псевдонім [ocicommit()](function.oci-commit.html)
+Псевдонім [ocicommit()](function.oci-commit.md)
 
 **Увага**
 

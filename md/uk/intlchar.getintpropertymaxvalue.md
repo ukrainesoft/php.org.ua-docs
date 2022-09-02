@@ -1,6 +1,6 @@
 ---
 navigation:
-  - intlchar.getfc-nfkc-closure.html: '« IntlChar::getFCNFKCClosure'
+  - intlchar.getfc-nfkc-closure.md: '« IntlChar::getFCNFKCClosure'
   - intlchar.getintpropertyminvalue.md: 'IntlChar::getIntPropertyMinValue »'
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar

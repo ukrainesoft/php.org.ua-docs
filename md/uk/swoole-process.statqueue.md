@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.start.html: '« SwooleProcess::start'
-  - swoole-process.usequeue.html: 'SwooleProcess::useQueue »'
+  - swoole-process.start.md: '« SwooleProcess::start'
+  - swoole-process.usequeue.md: 'SwooleProcess::useQueue »'
   - index.md: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::statQueue'
 ---
 # SwooleProcess::statQueue

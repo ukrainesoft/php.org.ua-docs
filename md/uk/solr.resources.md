@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solr.configuration.html: « Налаштування під час виконання
-  - solr.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - solr.setup.html: Встановлення та налаштування
+  - solr.configuration.md: « Налаштування під час виконання
+  - solr.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - solr.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

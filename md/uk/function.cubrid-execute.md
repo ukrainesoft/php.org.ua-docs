@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-error-msg.html: « cubriderrormsg
-  - function.cubrid-fetch.html: cubridfetch »
+  - function.cubrid-error-msg.md: « cubriderrormsg
+  - function.cubrid-fetch.md: cubridfetch »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridexecute
@@ -22,7 +22,7 @@ cubrid_execute(resource $conn_identifier, string $sql, int $option = 0): resourc
 cubrid_execute(resource $request_identifier, int $option = 0): bool
 ```
 
-Функція **cubridexecute()** використовується для виконання цього SQL-оператора. Вона виконує запит, використовуючи `conn_identifier` та SQL, а потім повертає створений ідентифікатор запиту. Функція використовується для простого виконання запиту, коли не потрібно. Крім того, функція **cubridexecute()** використовується для виконання підготовленого оператора за допомогою [cubridprepare()](function.cubrid-prepare.html) і [cubridbind()](function.cubrid-bind.md). У цей час вам необхідно вказати аргументи `request_identifier` і `option`
+Функція **cubridexecute()** використовується для виконання цього SQL-оператора. Вона виконує запит, використовуючи `conn_identifier` та SQL, а потім повертає створений ідентифікатор запиту. Функція використовується для простого виконання запиту, коли не потрібно. Крім того, функція **cubridexecute()** використовується для виконання підготовленого оператора за допомогою [cubridprepare()](function.cubrid-prepare.md) і [cubridbind()](function.cubrid-bind.md). У цей час вам необхідно вказати аргументи `request_identifier` і `option`
 
 Параметр `option` використовується для визначення, чи слід отримувати OID після виконання запиту та чи слід виконувати запит у синхронному або асинхронному режимі. Константа **`CUBRID_INCLUDE_OID`** і **`CUBRID_ASYNC`** (або \*\*`CUBRID_EXEC_QUERY_ALL`\*\*Якщо необхідно виконати кілька SQL-операторів) можна вказати за допомогою побітового оператора АБО. Якщо не вказано, жодного з них не вибрано. Якщо встановлено прапор **`CUBRID_EXEC_QUERY_ALL`**, для отримання результатів запиту використовується синхронний режим (syncmode) і в таких випадках застосовуються такі правила:
 

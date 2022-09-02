@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-setsignmode.html: « gnupgsetsignmode
-  - function.gnupg-verify.html: gnupgverify »
+  - function.gnupg-setsignmode.md: « gnupgsetsignmode
+  - function.gnupg-verify.md: gnupgverify »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgsign
@@ -18,7 +18,7 @@ gnupgsign — Підписує переданий текст
 gnupg_sign(resource $identifier, string $plaintext): string
 ```
 
-Підписує переданий у параметрі `plaintext` текст ключем, який був раніше встановлений за допомогою [gnupgaddsignkey](function.gnupg-addsignkey.html) і повертає підписаний текст або підпис, залежно від того, що було встановлено [gnupgsetsignmode](function.gnupg-setsignmode.md)
+Підписує переданий у параметрі `plaintext` текст ключем, який був раніше встановлений за допомогою [gnupgaddsignkey](function.gnupg-addsignkey.md) і повертає підписаний текст або підпис, залежно від того, що було встановлено [gnupgsetsignmode](function.gnupg-setsignmode.md)
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbufferevent.close.html: '« EventBufferEvent::close'
-  - eventbufferevent.connecthost.html: 'EventBufferEvent::connectHost »'
-  - index.html: PHP Manual
-  - class.eventbufferevent.html: EventBufferEvent
+  - eventbufferevent.close.md: '« EventBufferEvent::close'
+  - eventbufferevent.connecthost.md: 'EventBufferEvent::connectHost »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::connect'
 ---
 # EventBufferEvent::connect
@@ -26,7 +26,7 @@ public
 
 Якщо сокет не призначений для події буфера, функція виділяє новий сокет і робить його внутрішнім неблокуючим.
 
-Щоб дозволити DNS-імена (асинхронно), використовуйте метод [EventBufferEvent::connectHost()](eventbufferevent.connecthost.html)
+Щоб дозволити DNS-імена (асинхронно), використовуйте метод [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md)
 
 ### Список параметрів
 
@@ -211,4 +211,4 @@ $cl->dispatch();
 
 ### Дивіться також
 
--   [EventBufferEvent::connectHost()](eventbufferevent.connecthost.html) - Підключається на ім'я хоста з можливістю асинхронного дозволу DNS
+-   [EventBufferEvent::connectHost()](eventbufferevent.connecthost.md) - Підключається на ім'я хоста з можливістю асинхронного дозволу DNS

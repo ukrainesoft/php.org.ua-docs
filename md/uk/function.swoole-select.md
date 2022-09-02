@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-load-module.html: « swooleloadmodule
-  - function.swoole-set-process-name.html: swoolesetprocessname »
-  - index.html: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - function.swoole-load-module.md: « swooleloadmodule
+  - function.swoole-set-process-name.md: swoolesetprocessname »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleselect
 ---
 # swooleselect

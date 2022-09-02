@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.readline-redisplay.html: « readlineredisplay
-  - function.readline.html: readline »
-  - index.html: PHP Manual
-  - ref.readline.html: Функции Readline
+  - function.readline-redisplay.md: « readlineredisplay
+  - function.readline.md: readline »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
 title: readlinewritehistory
 ---
 # readlinewritehistory

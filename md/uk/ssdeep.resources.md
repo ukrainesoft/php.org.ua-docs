@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ssdeep.configuration.html: « Налаштування під час виконання
-  - ssdeep.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - ssdeep.setup.html: Встановлення та налаштування
+  - ssdeep.configuration.md: « Налаштування під час виконання
+  - ssdeep.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - ssdeep.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

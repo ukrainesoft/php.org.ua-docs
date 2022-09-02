@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-gen-f.html: « statsrandgenф
-  - function.stats-rand-gen-gamma.html: statsrandgengamma »
+  - function.stats-rand-gen-f.md: « statsrandgenф
+  - function.stats-rand-gen-gamma.md: statsrandgengamma »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandгенfuniform

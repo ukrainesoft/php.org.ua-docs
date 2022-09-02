@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-session.html: « YafSession
-  - yaf-session.count.html: 'YafSession::count »'
-  - index.html: PHP Manual
-  - class.yaf-session.html: YafSession
+  - class.yaf-session.md: « YafSession
+  - yaf-session.count.md: 'YafSession::count »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
 title: 'YafSession::construct'
 ---
 # YafSession::construct

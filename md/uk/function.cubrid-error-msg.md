@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-error-code.html: « cubriderrorcode
-  - function.cubrid-execute.html: cubridexecute »
+  - function.cubrid-error-code.md: « cubriderrorcode
+  - function.cubrid-execute.md: cubridexecute »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubriderrormsg

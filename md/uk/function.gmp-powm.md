@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-pow.html: « gmppow
-  - function.gmp-prob-prime.html: gmpprobprime »
+  - function.gmp-pow.md: « gmppow
+  - function.gmp-prob-prime.md: gmpprobprime »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmppowm

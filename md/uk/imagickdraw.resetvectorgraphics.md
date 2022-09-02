@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.render.html: '« ImagickDraw::render'
-  - imagickdraw.rotate.html: 'ImagickDraw::rotate »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.render.md: '« ImagickDraw::render'
+  - imagickdraw.rotate.md: 'ImagickDraw::rotate »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::resetVectorGraphics'
 ---
 # ImagickDraw::resetVectorGraphics

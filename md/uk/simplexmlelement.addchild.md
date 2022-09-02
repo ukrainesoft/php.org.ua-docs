@@ -1,9 +1,9 @@
 ---
 navigation:
-  - simplexmlelement.addattribute.html: '« SimpleXMLElement::addAttribute'
-  - simplexmlelement.asxml.html: 'SimpleXMLElement::asXML »'
-  - index.html: PHP Manual
-  - class.simplexmlelement.html: SimpleXMLElement
+  - simplexmlelement.addattribute.md: '« SimpleXMLElement::addAttribute'
+  - simplexmlelement.asxml.md: 'SimpleXMLElement::asXML »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::addChild'
 ---
 # SimpleXMLElement::addChild

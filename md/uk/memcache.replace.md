@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcache.pconnect.html: '« Memcache::pconnect'
-  - memcache.set.html: 'Memcache::set »'
-  - index.html: PHP Manual
-  - class.memcache.html: Memcache
+  - memcache.pconnect.md: '« Memcache::pconnect'
+  - memcache.set.md: 'Memcache::set »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
 title: 'Memcache::replace'
 ---
 # Memcache::replace

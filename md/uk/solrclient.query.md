@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrclient.ping.html: '« SolrClient::ping'
-  - solrclient.request.html: 'SolrClient::request »'
-  - index.html: PHP Manual
-  - class.solrclient.html: SolrClient
+  - solrclient.ping.md: '« SolrClient::ping'
+  - solrclient.request.md: 'SolrClient::request »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
 title: 'SolrClient::query'
 ---
 # SolrClient::query
@@ -24,7 +24,7 @@ public SolrClient::query(SolrParams $query): SolrQueryResponse
 
 `query`
 
-Об'єкт [SolrParams](class.solrparams.html). Для складних запитів рекомендується використовувати [SolrQuery](class.solrquery.md)
+Об'єкт [SolrParams](class.solrparams.md). Для складних запитів рекомендується використовувати [SolrQuery](class.solrquery.md)
 
 ### Значення, що повертаються
 

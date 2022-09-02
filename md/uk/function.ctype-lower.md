@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ctype-graph.html: « ctypegraph
-  - function.ctype-print.html: ctypeprint »
+  - function.ctype-graph.md: « ctypegraph
+  - function.ctype-print.md: ctypeprint »
   - index.md: PHP Manual
   - ref.ctype.md: Опції Ctype
 title: ctypelower

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-priorityqueue.html: Черга з пріоритетом
-  - ds-priorityqueue.capacity.html: 'ДсPriorityQueue::capacity »'
+  - class.ds-priorityqueue.md: Черга з пріоритетом
+  - ds-priorityqueue.capacity.md: 'ДсPriorityQueue::capacity »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - class.ds-priorityqueue.md: Черга з пріоритетом
 title: 'ДсPriorityQueue::allocate'
 ---
 # ДсPriorityQueue::allocate

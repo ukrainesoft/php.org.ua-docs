@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-seterrormode.html: « gnupgseterrormode
-  - function.gnupg-sign.html: gnupgsign »
+  - function.gnupg-seterrormode.md: « gnupgseterrormode
+  - function.gnupg-sign.md: gnupgsign »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgsetsignmode

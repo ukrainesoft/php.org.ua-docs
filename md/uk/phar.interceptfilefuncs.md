@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.hasmetadata.html: '« Phar::hasMetadata'
-  - phar.isbuffering.html: 'Phar::isBuffering »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.hasmetadata.md: '« Phar::hasMetadata'
+  - phar.isbuffering.md: 'Phar::isBuffering »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::interceptFileFuncs'
 ---
 # Phar::interceptFileFuncs
@@ -18,7 +18,7 @@ Phar::interceptFileFuncs — Вказує phar перехоплювати fopen,
 final public static Phar::interceptFileFuncs(): void
 ```
 
-Вказує phar перехоплювати [fopen()](function.fopen.html) [readfile()](function.readfile.html) [filegetcontents()](function.file-get-contents.html) [opendir()](function.opendir.md) та всі stat-функції. Якщо будь-яка з цих функцій буде викликана з phar-архіву з відносним шляхом, виклик буде модифіковано для доступу до вмісту архіву. У випадку з абсолютними шляхами працюватимуть штатні функції доступу до файлової системи.
+Вказує phar перехоплювати [fopen()](function.fopen.md) [readfile()](function.readfile.md) [filegetcontents()](function.file-get-contents.md) [opendir()](function.opendir.md) та всі stat-функції. Якщо будь-яка з цих функцій буде викликана з phar-архіву з відносним шляхом, виклик буде модифіковано для доступу до вмісту архіву. У випадку з абсолютними шляхами працюватимуть штатні функції доступу до файлової системи.
 
 Ця функція дозволяє писати програми, які працюють не прив'язані до жорсткого диска.
 

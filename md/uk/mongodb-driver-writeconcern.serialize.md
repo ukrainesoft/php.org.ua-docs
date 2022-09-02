@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.isdefault.html: '« MongoDBDriverWriteConcern::isDefault'
-  - mongodb-driver-writeconcern.unserialize.html: 'MongoDBDriverWriteConcern::unserialize »'
+  - mongodb-driver-writeconcern.isdefault.md: '« MongoDBDriverWriteConcern::isDefault'
+  - mongodb-driver-writeconcern.unserialize.md: 'MongoDBDriverWriteConcern::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
 title: 'MongoDBDriverWriteConcern::serialize'
 ---
 # MongoDBDriverWriteConcern::serialize

@@ -12,7 +12,7 @@ title: Apache 2.x на Unix системах
 
 **Увага**
 
-Ми не рекомендуємо використовувати потоковий MPM у промисловому середовищі разом з Apache 2. Натомість, використовуйте prefork MPM, що використовується за умовчанням в Apache 2.0 та 2.2. Детальну інформацію з цього питання ви можете знайти у відповідному розділі FAQ [Apache2 та потоковий MPM](faq.installation.html#faq.installation.apache2)
+Ми не рекомендуємо використовувати потоковий MPM у промисловому середовищі разом з Apache 2. Натомість, використовуйте prefork MPM, що використовується за умовчанням в Apache 2.0 та 2.2. Детальну інформацію з цього питання ви можете знайти у відповідному розділі FAQ [Apache2 та потоковий MPM](faq.installation.md#faq.installation.apache2)
 
 Найавторитетнішим джерелом інформації з Apache 2.x є [» документация Apache](http://httpd.apache.org/docs/current/). Більш детальну інформацію про налаштування під час встановлення можна знайти там.
 
@@ -131,7 +131,7 @@ title: Apache 2.x на Unix системах
 
 > **Зауваження**
 > 
-> Якщо ви хочете використовувати залежний контент (content negotiation), прочитайте [Apache MultiViews FAQ](faq.installation.html#faq.installation.apache.multiviews)
+> Якщо ви хочете використовувати залежний контент (content negotiation), прочитайте [Apache MultiViews FAQ](faq.installation.md#faq.installation.apache.multiviews)
 
 > **Зауваження**
 > 

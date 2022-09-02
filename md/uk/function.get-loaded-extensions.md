@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-included-files.html: « getincludedfiles
-  - function.get-magic-quotes-gpc.html: getmagicquotesgpc »
+  - function.get-included-files.md: « getincludedfiles
+  - function.get-magic-quotes-gpc.md: getmagicquotesgpc »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getloadedextensions

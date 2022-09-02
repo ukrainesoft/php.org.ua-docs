@@ -1,13 +1,13 @@
 ---
 navigation:
-  - ev.resources.html: « Типи ресурсів
-  - ev.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.ev.html: Єв
+  - ev.resources.md: « Типи ресурсів
+  - ev.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.ev.md: Єв
 title: Обумовлені константи
 ---
 # Обумовлені константи
 
 Цей модуль не визначає жодних константів.
 
-Більшість констант переміщені до класу синглетон (одиначка) [Єв](class.ev.html)
+Більшість констант переміщені до класу синглетон (одиначка) [Єв](class.ev.md)

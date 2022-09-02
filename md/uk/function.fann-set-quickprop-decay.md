@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-output-scaling-params.html: « fannsetoutputscalingparams
-  - function.fann-set-quickprop-mu.html: fannsetquickpropmu »
+  - function.fann-set-output-scaling-params.md: « fannsetoutputscalingparams
+  - function.fann-set-quickprop-mu.md: fannsetquickpropmu »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetquickpropdecay

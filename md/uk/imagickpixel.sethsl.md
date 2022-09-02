@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixel.setcolorvaluequantum.html: '« ImagickPixel::setColorValueQuantum'
-  - imagickpixel.setindex.html: 'ImagickPixel::setIndex »'
-  - index.html: PHP Manual
-  - class.imagickpixel.html: ImagickPixel
+  - imagickpixel.setcolorvaluequantum.md: '« ImagickPixel::setColorValueQuantum'
+  - imagickpixel.setindex.md: 'ImagickPixel::setIndex »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::setHSL'
 ---
 # ImagickPixel::setHSL

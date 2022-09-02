@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-delete.html: « ftpdelete
-  - function.ftp-fget.html: ftpfget »
+  - function.ftp-delete.md: « ftpdelete
+  - function.ftp-fget.md: ftpfget »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpexec

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-getsubscribed.html: « imapgetsubscribed
-  - function.imap-headerinfo.html: imapheaderinfo »
+  - function.imap-getsubscribed.md: « imapgetsubscribed
+  - function.imap-headerinfo.md: imapheaderinfo »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapheader

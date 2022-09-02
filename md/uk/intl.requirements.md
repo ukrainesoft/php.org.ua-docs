@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intl.setup.html: « Встановлення та налаштування
-  - intl.installation.html: Установка »
-  - index.html: PHP Manual
-  - intl.setup.html: Встановлення та налаштування
+  - intl.setup.md: « Встановлення та налаштування
+  - intl.installation.md: Установка »
+  - index.md: PHP Manual
+  - intl.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getfacetqueries.html: '« SolrQuery::getFacetQueries'
-  - solrquery.getfields.html: 'SolrQuery::getFields »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getfacetqueries.md: '« SolrQuery::getFacetQueries'
+  - solrquery.getfields.md: 'SolrQuery::getFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getFacetSort'
 ---
 # SolrQuery::getFacetSort

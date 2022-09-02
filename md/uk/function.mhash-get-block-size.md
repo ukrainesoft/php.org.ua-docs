@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mhash-count.html: « mhashcount
-  - function.mhash-get-hash-name.html: mhashgethashname »
-  - index.html: PHP Manual
-  - ref.mhash.html: Функции Mhash
+  - function.mhash-count.md: « mhashcount
+  - function.mhash-get-hash-name.md: mhashgethashname »
+  - index.md: PHP Manual
+  - ref.mhash.md: Функции Mhash
 title: mhashgetblocksize
 ---
 # mhashgetblocksize

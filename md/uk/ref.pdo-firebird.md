@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-dblib.connection.html: « PDODBLIB DSN
-  - ref.pdo-firebird.connection.html: PDOFIREBIRD DSN »
-  - index.html: PHP Manual
-  - pdo.drivers.html: Драйвери PDO
+  - ref.pdo-dblib.connection.md: « PDODBLIB DSN
+  - ref.pdo-firebird.connection.md: PDOFIREBIRD DSN »
+  - index.md: PHP Manual
+  - pdo.drivers.md: Драйвери PDO
 title: Функції Firebird (PDOFIREBIRD)
 ---
 # Функції Firebird (PDOFIREBIRD)

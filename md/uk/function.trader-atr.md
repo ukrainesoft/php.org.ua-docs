@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-atan.html: « traderatan
-  - function.trader-avgprice.html: traderavgprice »
+  - function.trader-atan.md: « traderatan
+  - function.trader-avgprice.md: traderavgprice »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderatr

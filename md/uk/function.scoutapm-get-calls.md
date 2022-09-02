@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.scoutapm.md: « Функции Scoutapm
-  - function.scoutapm-list-instrumented-functions.html: scoutapmlistinstrumentedfunctions »
+  - function.scoutapm-list-instrumented-functions.md: scoutapmlistinstrumentedfunctions »
   - index.md: PHP Manual
   - ref.scoutapm.md: Функции Scoutapm
 title: scoutapmgetcalls

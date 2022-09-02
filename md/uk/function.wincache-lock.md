@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wincache-fcache-meminfo.html: « wincachefcachememinfo
-  - function.wincache-ocache-fileinfo.html: wincacheocachefileinfo »
+  - function.wincache-fcache-meminfo.md: « wincachefcachememinfo
+  - function.wincache-ocache-fileinfo.md: wincacheocachefileinfo »
   - index.md: PHP Manual
   - ref.wincache.md: Функции WinCache
 title: wincachelock

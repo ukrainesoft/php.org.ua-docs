@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.enumerations.basics.html: « Основи перерахувань
-  - language.enumerations.methods.html: Методи перерахувань »
-  - index.html: PHP Manual
-  - language.enumerations.html: Перечисления
+  - language.enumerations.basics.md: « Основи перерахувань
+  - language.enumerations.methods.md: Методи перерахувань »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
 title: Типізовані перерахування
 ---
 ## Типізовані перерахування

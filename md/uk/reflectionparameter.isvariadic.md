@@ -18,7 +18,7 @@ ReflectionParameter::isVariadic — Перевірити, чи є парамет
 public ReflectionParameter::isVariadic(): bool
 ```
 
-Перевіряє, чи визначено параметр як [параметр зі змінною кількістю аргументів](functions.arguments.html#functions.variable-arg-list)
+Перевіряє, чи визначено параметр як [параметр зі змінною кількістю аргументів](functions.arguments.md#functions.variable-arg-list)
 
 ### Список параметрів
 

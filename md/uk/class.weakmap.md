@@ -1,7 +1,7 @@
 ---
 navigation:
   - weakreference.get.md: '« WeakReference::get'
-  - ext-weakmap.construct.html: 'WeakMap::construct »'
+  - ext-weakmap.construct.md: 'WeakMap::construct »'
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Клас WeakMap

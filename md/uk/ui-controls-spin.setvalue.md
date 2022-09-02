@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-spin.onchange.html: '« UIControlsSpin::onChange'
-  - class.ui-controls-slider.html: ОЙControlsSlider »
+  - ui-controls-spin.onchange.md: '« UIControlsSpin::onChange'
+  - class.ui-controls-slider.md: ОЙControlsSlider »
   - index.md: PHP Manual
-  - class.ui-controls-spin.html: ОЙControlsSpin
+  - class.ui-controls-spin.md: ОЙControlsSpin
 title: 'ОЙControlsSpin::setValue'
 ---
 # ОЙControlsSpin::setValue

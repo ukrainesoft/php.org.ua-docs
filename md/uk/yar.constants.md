@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yar.resources.html: « Типи ресурсів
-  - yar.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.yar.html: Yar
+  - yar.resources.md: « Типи ресурсів
+  - yar.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.yar.md: Yar
 title: Обумовлені константи
 ---
 # Обумовлені константи

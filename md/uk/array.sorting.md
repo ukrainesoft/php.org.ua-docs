@@ -22,7 +22,7 @@ title: Сортування масивів
 
 | Имя функции | Сортирует по | Сохраняет связь ключ - значение | Порядок сортировки | Похожие функции |
 | --- | --- | --- | --- | --- |
-| [arraymultisort()](function.array-multisort.html) | значенням | рядкові (string) ключі так, числові (int) - ні | перший масив або налаштування сортування | [arraywalk()](function.array-walk.md) |
+| [arraymultisort()](function.array-multisort.md) | значенням | рядкові (string) ключі так, числові (int) - ні | перший масив або налаштування сортування | [arraywalk()](function.array-walk.md) |
 | [asort()](function.asort.md) | значенням | так | за зростанням | [arsort()](function.arsort.md) |
 | [arsort()](function.arsort.md) | значенням | так | по спаданню | [asort()](function.asort.md) |
 | [krsort()](function.krsort.md) | ключу | так | по спаданню | [ksort()](function.ksort.md) |

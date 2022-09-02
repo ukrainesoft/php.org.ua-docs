@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-cascade-candidate-stagnation-epochs.html: « fanngetcascadecandidatestagnationepochs
-  - function.fann-get-cascade-max-out-epochs.html: fanngetcascademaxoutepochs »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-cascade-candidate-stagnation-epochs.md: « fanngetcascadecandidatestagnationepochs
+  - function.fann-get-cascade-max-out-epochs.md: fanngetcascademaxoutepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetcascademaxcandepochs
 ---
 # fanngetcascademaxcandepochs
@@ -34,4 +34,4 @@ fann_get_cascade_max_cand_epochs(resource $ann): int
 
 ### Дивіться також
 
--   [fannsetcascademaxcandepochs()](function.fann-set-cascade-max-cand-epochs.html) - встановлює найбільший період кандидата
+-   [fannsetcascademaxcandepochs()](function.fann-set-cascade-max-cand-epochs.md) - встановлює найбільший період кандидата

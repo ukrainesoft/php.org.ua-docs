@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.construct.html: '« DsVector::construct'
-  - ds-vector.copy.html: 'ДсVector::copy »'
-  - index.html: PHP Manual
-  - class.ds-vector.html: Вектор
+  - ds-vector.construct.md: '« DsVector::construct'
+  - ds-vector.copy.md: 'ДсVector::copy »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::contains'
 ---
 # ДсVector::contains

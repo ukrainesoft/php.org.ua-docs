@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.sodium-pad.html: « sodiumpad
+  - function.sodium-pad.md: « sodiumpad
   - class.sodiumexception.md: SodiumException »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium

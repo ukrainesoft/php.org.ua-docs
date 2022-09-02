@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fgetcsv.html: « fgetcsv
-  - function.fgetss.html: fgetss »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.fgetcsv.md: « fgetcsv
+  - function.fgetss.md: fgetss »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: fgets
 ---
 # fgets
@@ -24,7 +24,7 @@ fgets(resource $stream, ?int $length = null): string|false
 
 `stream`
 
-Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.html)
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.md) або [fsockopen()](function.fsockopen.md) (і все ще не закритий функцією [fclose()](function.fclose.md)
 
 `length`
 
@@ -57,7 +57,7 @@ if ($fp) {
 
 ### Примітки
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.md#ini.auto-detect-line-endings) може допомогти вирішити проблему.
 
 > **Зауваження**
 > 
@@ -65,11 +65,11 @@ if ($fp) {
 
 ### Дивіться також
 
--   [fgetss()](function.fgetss.html) - Читає рядок з файлу та видаляє HTML-теги
--   [fread()](function.fread.html) - Бінарно-безпечне читання файлу
--   [fgetc()](function.fgetc.html) - Зчитує символ із файлу
--   [streamgetline()](function.stream-get-line.html) - Отримує рядок із потокового ресурсу до вказаного роздільника
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [popen()](function.popen.html) - Відкриває файловий покажчик процесу
--   [fsockopen()](function.fsockopen.html) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [streamsettimeout()](function.stream-set-timeout.html) - Встановити значення часу очікування потоку
+-   [fgetss()](function.fgetss.md) - Читає рядок з файлу та видаляє HTML-теги
+-   [fread()](function.fread.md) - Бінарно-безпечне читання файлу
+-   [fgetc()](function.fgetc.md) - Зчитує символ із файлу
+-   [streamgetline()](function.stream-get-line.md) - Отримує рядок із потокового ресурсу до вказаного роздільника
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [popen()](function.popen.md) - Відкриває файловий покажчик процесу
+-   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [streamsettimeout()](function.stream-set-timeout.md) - Встановити значення часу очікування потоку

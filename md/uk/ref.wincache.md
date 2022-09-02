@@ -1,7 +1,7 @@
 ---
 navigation:
   - wincache.constants.md: « Обумовлені константи
-  - function.wincache-fcache-fileinfo.html: wincachefcachefileinfo »
+  - function.wincache-fcache-fileinfo.md: wincachefcachefileinfo »
   - index.md: PHP Manual
   - book.wincache.md: WinCache
 title: Функції WinCache

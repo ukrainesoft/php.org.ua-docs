@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeconcernerror.getinfo.html: '« MongoDBDriverWriteConcernError::getInfo'
-  - class.mongodb-driver-writeerror.html: MongoDBDriverWriteError »
-  - index.html: PHP Manual
-  - class.mongodb-driver-writeconcernerror.html: MongoDBDriverWriteConcernError
+  - mongodb-driver-writeconcernerror.getinfo.md: '« MongoDBDriverWriteConcernError::getInfo'
+  - class.mongodb-driver-writeerror.md: MongoDBDriverWriteError »
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeconcernerror.md: MongoDBDriverWriteConcernError
 title: 'MongoDBDriverWriteConcernError::getMessage'
 ---
 # MongoDBDriverWriteConcernError::getMessage
@@ -28,7 +28,7 @@ final public MongoDB\Driver\WriteConcernError::getMessage(): string
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 

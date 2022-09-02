@@ -18,15 +18,15 @@ Generator::send — Передати значення в генератор
 public Generator::send(mixed $value): mixed
 ```
 
-Передача заданого значення в генератор як результат поточного виразу [yield](language.generators.syntax.html#control-structures.yield) та поновлення його роботи.
+Передача заданого значення в генератор як результат поточного виразу [yield](language.generators.syntax.md#control-structures.yield) та поновлення його роботи.
 
-Якщо генератор ще не дійшов до першого виклику оператора [yield](language.generators.syntax.html#control-structures.yield), він виконається до моменту першого виклику [yield](language.generators.syntax.html#control-structures.yield), Перш ніж передасть у нього значення. Так що немає необхідності викликати генератор за допомогою [Generator::next()](generator.next.md) перед викликом цього методу (як це робиться в Python).
+Якщо генератор ще не дійшов до першого виклику оператора [yield](language.generators.syntax.md#control-structures.yield), він виконається до моменту першого виклику [yield](language.generators.syntax.md#control-structures.yield), Перш ніж передасть у нього значення. Так що немає необхідності викликати генератор за допомогою [Generator::next()](generator.next.md) перед викликом цього методу (як це робиться в Python).
 
 ### Список параметрів
 
 `value`
 
-Значення, що відправляється в генератор. Це значення буде поточним значенням виразу, що повертається [yield](language.generators.syntax.html#control-structures.yield) генератора.
+Значення, що відправляється в генератор. Це значення буде поточним значенням виразу, що повертається [yield](language.generators.syntax.md#control-structures.yield) генератора.
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.openal.md: « Функции OpenAL
-  - function.openal-buffer-data.html: openalbufferdata »
+  - function.openal-buffer-data.md: openalbufferdata »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalbuffercreate

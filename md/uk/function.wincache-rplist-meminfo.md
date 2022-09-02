@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.wincache-rplist-fileinfo.html: « wincacherplistfileinfo
-  - function.wincache-scache-info.html: wincachescacheinfo »
-  - index.html: PHP Manual
-  - ref.wincache.html: Функции WinCache
+  - function.wincache-rplist-fileinfo.md: « wincacherplistfileinfo
+  - function.wincache-scache-info.md: wincachescacheinfo »
+  - index.md: PHP Manual
+  - ref.wincache.md: Функции WinCache
 title: wincacherplistmeminfo
 ---
 # wincacherplistmeminfo

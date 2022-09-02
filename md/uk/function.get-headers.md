@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.base64-encode.html: « base64encode
-  - function.get-meta-tags.html: getmetatags »
-  - index.html: PHP Manual
-  - ref.url.html: Функції URL
+  - function.base64-encode.md: « base64encode
+  - function.get-meta-tags.md: getmetatags »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
 title: getheaders
 ---
 # getheaders

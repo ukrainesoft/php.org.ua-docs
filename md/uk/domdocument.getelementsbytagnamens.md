@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domdocument.getelementsbytagname.html: '« DOMDocument::getElementsByTagName'
-  - domdocument.importnode.html: 'DOMDocument::importNode »'
-  - index.html: PHP Manual
-  - class.domdocument.html: DOMDocument
+  - domdocument.getelementsbytagname.md: '« DOMDocument::getElementsByTagName'
+  - domdocument.importnode.md: 'DOMDocument::importNode »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
 title: 'DOMDocument::getElementsByTagNameNS'
 ---
 # DOMDocument::getElementsByTagNameNS

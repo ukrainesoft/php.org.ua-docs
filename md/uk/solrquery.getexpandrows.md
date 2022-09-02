@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getexpandquery.html: '« SolrQuery::getExpandQuery'
-  - solrquery.getexpandsortfields.html: 'SolrQuery::getExpandSortFields »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getexpandquery.md: '« SolrQuery::getExpandQuery'
+  - solrquery.getexpandsortfields.md: 'SolrQuery::getExpandSortFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getExpandRows'
 ---
 # SolrQuery::getExpandRows

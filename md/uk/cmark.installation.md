@@ -1,7 +1,7 @@
 ---
 navigation:
   - cmark.requirements.md: « Вимоги
-  - class.commonmark-node-document.html: CommonMarkNodeDocument »
+  - class.commonmark-node-document.md: CommonMarkNodeDocument »
   - index.md: PHP Manual
   - cmark.setup.md: Встановлення та налаштування
 title: Встановлення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.string.html: '« FFI::string'
-  - ffi.typeof.html: 'FFI::typeof »'
-  - index.html: PHP Manual
-  - class.ffi.html: FFI
+  - ffi.string.md: '« FFI::string'
+  - ffi.typeof.md: 'FFI::typeof »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
 title: 'FFI::type'
 ---
 # FFI::type

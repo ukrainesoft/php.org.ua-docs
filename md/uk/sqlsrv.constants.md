@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlsrv.resources.html: « Типи ресурсів
-  - ref.sqlsrv.html: Функції SQLSRV »
-  - index.html: PHP Manual
-  - book.sqlsrv.html: SQLSRV
+  - sqlsrv.resources.md: « Типи ресурсів
+  - ref.sqlsrv.md: Функції SQLSRV »
+  - index.md: PHP Manual
+  - book.sqlsrv.md: SQLSRV
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -12,67 +12,67 @@ title: Обумовлені константи
 
 **`SQLSRV_FETCH_ASSOC`** (int)
 
-Переданий як параметр, змушує функцію [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) повертати асоціативний масив.
+Переданий як параметр, змушує функцію [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) повертати асоціативний масив.
 
 **`SQLSRV_FETCH_NUMERIC`** (int)
 
-Переданий як параметр, змушує функцію [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) повертати масив із числовими ключами.
+Переданий як параметр, змушує функцію [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) повертати масив із числовими ключами.
 
 **`SQLSRV_FETCH_BOTH`** (int)
 
-Переданий як параметр, змушує функцію [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) повертати масив з ключами та числовими та асоціативними (поведінка за умовчанням).
+Переданий як параметр, змушує функцію [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) повертати масив з ключами та числовими та асоціативними (поведінка за умовчанням).
 
 **`SQLSRV_ERR_ALL`** (int)
 
-Переданий як параметр, змушує функцію [sqlsrverrors()](function.sqlsrv-errors.html) повертати і помилки та попередження (поведінка за умовчанням).
+Переданий як параметр, змушує функцію [sqlsrverrors()](function.sqlsrv-errors.md) повертати і помилки та попередження (поведінка за умовчанням).
 
 **`SQLSRV_ERR_ERRORS`** (int)
 
-Переданий як параметр, змушує функцію [sqlsrverrors()](function.sqlsrv-errors.html) повертати лише помилки (без попереджень).
+Переданий як параметр, змушує функцію [sqlsrverrors()](function.sqlsrv-errors.md) повертати лише помилки (без попереджень).
 
 **`SQLSRV_ERR_WARNINGS`** (int)
 
-Переданий як параметр, змушує функцію [sqlsrverrors()](function.sqlsrv-errors.html) повертати лише попередження (без помилок).
+Переданий як параметр, змушує функцію [sqlsrverrors()](function.sqlsrv-errors.md) повертати лише попередження (без помилок).
 
 **`SQLSRV_LOG_SYSTEM_ALL`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html)включає журналування всіх підсистем.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md)включає журналування всіх підсистем.
 
 **`SQLSRV_LOG_SYSTEM_CONN`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html)включає журналювання активності з'єднання.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md)включає журналювання активності з'єднання.
 
 **`SQLSRV_LOG_SYSTEM_INIT`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html)включає журналювання активності ініціалізації.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md)включає журналювання активності ініціалізації.
 
 **`SQLSRV_LOG_SYSTEM_OFF`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html), вимикає журнал усіх підсистем.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md), вимикає журнал усіх підсистем.
 
 **`SQLSRV_LOG_SYSTEM_STMT`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html)включає журналювання активності виконання виразів (statement activity).
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md)включає журналювання активності виконання виразів (statement activity).
 
 **`SQLSRV_LOG_SYSTEM_UTIL`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html), включає журналювання активності функції помилок.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md), включає журналювання активності функції помилок.
 
 **`SQLSRV_LOG_SEVERITY_ALL`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html), Визначає, що помилки, попередження та зауваження будуть журналюватися.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md), Визначає, що помилки, попередження та зауваження будуть журналюватися.
 
 **`SQLSRV_LOG_SEVERITY_ERROR`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html), Визначає, що помилки будуть журналюватися.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md), Визначає, що помилки будуть журналюватися.
 
 **`SQLSRV_LOG_SEVERITY_NOTICE`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html), Визначає, що зауваження будуть журналюватися.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md), Визначає, що зауваження будуть журналюватися.
 
 **`SQLSRV_LOG_SEVERITY_WARNING`** (int)
 
-Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.html), Визначає, що попередження будуть журналюватися.
+Переданий як параметр функції [sqlsrvconfigure()](function.sqlsrv-configure.md), Визначає, що попередження будуть журналюватися.
 
 **`SQLSRV_NULLABLE_YES`** (int)
 
@@ -88,15 +88,15 @@ title: Обумовлені константи
 
 **`SQLSRV_PARAM_IN`** (int)
 
-При передачі як параметр функції [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvprepare()](function.sqlsrv-prepare.html) показує, що параметр є вхідним.
+При передачі як параметр функції [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvprepare()](function.sqlsrv-prepare.md) показує, що параметр є вхідним.
 
 **`SQLSRV_PARAM_INOUT`** (int)
 
-При передачі як параметр функції [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvprepare()](function.sqlsrv-prepare.html) показує, що параметр є вхідним і вихідним.
+При передачі як параметр функції [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvprepare()](function.sqlsrv-prepare.md) показує, що параметр є вхідним і вихідним.
 
 **`SQLSRV_PARAM_OUT`** (int)
 
-При передачі як параметр функції [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvprepare()](function.sqlsrv-prepare.html) показує, що параметр вихідним.
+При передачі як параметр функції [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvprepare()](function.sqlsrv-prepare.md) показує, що параметр вихідним.
 
 **`SQLSRV_PHPTYPE_INT`** (int)
 
@@ -264,23 +264,23 @@ title: Обумовлені константи
 
 **`SQLSRV_TXN_READ_UNCOMMITTED`** (int)
 
-Встановлює рівень ізоляції транзакції рівним READ UNCOMMITTED. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.html)
+Встановлює рівень ізоляції транзакції рівним READ UNCOMMITTED. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 **`SQLSRV_TXN_READ_COMMITTED`** (int)
 
-Встановлює рівень ізоляції транзакції рівним READ COMMITTED. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.html)
+Встановлює рівень ізоляції транзакції рівним READ COMMITTED. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 **`SQLSRV_TXN_REPEATABLE_READ`** (int)
 
-Задає рівень ізоляції транзакції рівним REPEATABLE READ. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.html)
+Задає рівень ізоляції транзакції рівним REPEATABLE READ. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 **`SQLSRV_TXN_SNAPSHOT`** (int)
 
-Задає рівень ізоляції транзакції рівним SNAPSHOT. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.html)
+Задає рівень ізоляції транзакції рівним SNAPSHOT. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 **`SQLSRV_TXN_READ_SERIALIZABLE`** (int)
 
-Задає рівень ізоляції транзакції рівним SERIALIZABLE. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.html)
+Задає рівень ізоляції транзакції рівним SERIALIZABLE. Це значення використовується для встановлення рівня TransactionIsolation у масиві $connectionOptions, переданому аргументом на функцію [sqlsrvconnect()](function.sqlsrv-connect.md)
 
 **`SQLSRV_CURSOR_FORWARD`** (int)
 

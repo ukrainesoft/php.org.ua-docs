@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-gen-id.html: « fbirdgenід
-  - function.fbird-modify-user.html: fbirdmodifyuser »
+  - function.fbird-gen-id.md: « fbirdgenід
+  - function.fbird-modify-user.md: fbirdmodifyuser »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdmaintainдб

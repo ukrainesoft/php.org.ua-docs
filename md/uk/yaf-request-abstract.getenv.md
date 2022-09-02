@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getcontrollername.html: '« YafRequestAbstract::getControllerName'
-  - yaf-request-abstract.getexception.html: 'YafRequestAbstract::getException »'
+  - yaf-request-abstract.getcontrollername.md: '« YafRequestAbstract::getControllerName'
+  - yaf-request-abstract.getexception.md: 'YafRequestAbstract::getException »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getEnv'
 ---
 # YafRequestAbstract::getEnv

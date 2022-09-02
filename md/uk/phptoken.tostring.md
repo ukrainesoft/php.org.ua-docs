@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phptoken.isignorable.html: '« PhpToken::isIgnorable'
-  - phptoken.tokenize.html: 'PhpToken::tokenize »'
-  - index.html: PHP Manual
-  - class.phptoken.html: PhpToken
+  - phptoken.isignorable.md: '« PhpToken::isIgnorable'
+  - phptoken.tokenize.md: 'PhpToken::tokenize »'
+  - index.md: PHP Manual
+  - class.phptoken.md: PhpToken
 title: 'PhpToken::function toString() { \[native code\] }'
 ---
 # PhpToken::function toString() { \[native code\] }

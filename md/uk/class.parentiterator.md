@@ -1,9 +1,9 @@
 ---
 navigation:
-  - norewinditerator.valid.html: '« NoRewindIterator::valid'
-  - parentiterator.accept.html: 'ParentIterator::accept »'
-  - index.html: PHP Manual
-  - spl.iterators.html: Ітератори
+  - norewinditerator.valid.md: '« NoRewindIterator::valid'
+  - parentiterator.accept.md: 'ParentIterator::accept »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
 title: Клас ParentIterator
 ---
 # Клас ParentIterator
@@ -12,7 +12,7 @@ title: Клас ParentIterator
 
 ## Вступ
 
-Це розширений клас від [FilterIterator](class.filteriterator.html), що дозволяє здійснити рекурсивну ітерацію, використовуючи клас [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)що показує тільки ті елементи, які мають нащадків.
+Це розширений клас від [FilterIterator](class.filteriterator.md), що дозволяє здійснити рекурсивну ітерацію, використовуючи клас [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)що показує тільки ті елементи, які мають нащадків.
 
 ## Огляд класів
 
@@ -67,9 +67,9 @@ public IteratorIterator::valid(): bool
 
 ## Зміст
 
--   [ParentIterator::accept](parentiterator.accept.html) — Визначення доступності
--   [ParentIterator::construct](parentiterator.construct.html) - Конструктор класу ParentIterator
--   [ParentIterator::getChildren](parentiterator.getchildren.html) — Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
--   [ParentIterator::hasChildren](parentiterator.haschildren.html) — Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
--   [ParentIterator::next](parentiterator.next.html) — Переміщує вказівник на одну позицію вперед
--   [ParentIterator::rewind](parentiterator.rewind.html) - Перекладає ітератор на початок
+-   [ParentIterator::accept](parentiterator.accept.md) — Визначення доступності
+-   [ParentIterator::construct](parentiterator.construct.md) - Конструктор класу ParentIterator
+-   [ParentIterator::getChildren](parentiterator.getchildren.md) — Повертає дочірні об'єкти ітератора, що зберігається всередині ParentIterator
+-   [ParentIterator::hasChildren](parentiterator.haschildren.md) — Перевіряє, чи має внутрішній об'єкт-ітератор дочірні об'єкти
+-   [ParentIterator::next](parentiterator.next.md) — Переміщує вказівник на одну позицію вперед
+-   [ParentIterator::rewind](parentiterator.rewind.md) - Перекладає ітератор на початок

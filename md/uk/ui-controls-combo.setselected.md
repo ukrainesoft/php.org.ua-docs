@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-combo.onselected.html: '« UIControlsCombo::onSelected'
-  - class.ui-controls-editablecombo.html: ОЙControlsEditableCombo »
+  - ui-controls-combo.onselected.md: '« UIControlsCombo::onSelected'
+  - class.ui-controls-editablecombo.md: ОЙControlsEditableCombo »
   - index.md: PHP Manual
-  - class.ui-controls-combo.html: ОЙControlsCombo
+  - class.ui-controls-combo.md: ОЙControlsCombo
 title: 'ОЙControlsCombo::setSelected'
 ---
 # ОЙControlsCombo::setSelected

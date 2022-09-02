@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.sql.html: '« Session::sql'
-  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement »
+  - mysql-xdevapi-session.sql.md: '« Session::sql'
+  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::startTransaction'
 ---
 # Session::startTransaction

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getclosureusedvariables.html: '« ReflectionFunctionAbstract::getClosureUsedVariables'
-  - reflectionfunctionabstract.getendline.html: 'ReflectionFunctionAbstract::getEndLine »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getclosureusedvariables.md: '« ReflectionFunctionAbstract::getClosureUsedVariables'
+  - reflectionfunctionabstract.getendline.md: 'ReflectionFunctionAbstract::getEndLine »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getDocComment'
 ---
 # ReflectionFunctionAbstract::getDocComment
@@ -30,4 +30,4 @@ public ReflectionFunctionAbstract::getDocComment(): string|false
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.html) - отримує початковий номер рядка
+-   [ReflectionFunctionAbstract::getStartLine()](reflectionfunctionabstract.getstartline.md) - отримує початковий номер рядка

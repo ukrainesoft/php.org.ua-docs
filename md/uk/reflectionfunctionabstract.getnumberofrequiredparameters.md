@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getnumberofparameters.html: '« ReflectionFunctionAbstract::getNumberOfParameters'
-  - reflectionfunctionabstract.getparameters.html: 'ReflectionFunctionAbstract::getParameters »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getnumberofparameters.md: '« ReflectionFunctionAbstract::getNumberOfParameters'
+  - reflectionfunctionabstract.getparameters.md: 'ReflectionFunctionAbstract::getParameters »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getNumberOfRequiredParameters'
 ---
 # ReflectionFunctionAbstract::getNumberOfRequiredParameters
@@ -30,4 +30,4 @@ public ReflectionFunctionAbstract::getNumberOfRequiredParameters(): int
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html) - Отримує кількість параметрів
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) - Отримує кількість параметрів

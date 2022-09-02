@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.defer.html: '« SwooleServer::defer'
-  - swoole-server-port.destruct.html: 'SwooleServerPort::destruct »'
+  - swoole-server.defer.md: '« SwooleServer::defer'
+  - swoole-server-port.destruct.md: 'SwooleServerPort::destruct »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServerPort::construct'
 ---
 # SwooleServerPort::construct

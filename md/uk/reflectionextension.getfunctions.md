@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionextension.getdependencies.html: '« ReflectionExtension::getDependencies'
-  - reflectionextension.getinientries.html: 'ReflectionExtension::getINIEntries »'
-  - index.html: PHP Manual
-  - class.reflectionextension.html: ReflectionExtension
+  - reflectionextension.getdependencies.md: '« ReflectionExtension::getDependencies'
+  - reflectionextension.getinientries.md: 'ReflectionExtension::getINIEntries »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::getFunctions'
 ---
 # ReflectionExtension::getFunctions
@@ -26,7 +26,7 @@ public ReflectionExtension::getFunctions(): array
 
 ### Значення, що повертаються
 
-Асоціативний масив об'єктів [ReflectionFunction](class.reflectionfunction.html), у якому ключами є назви визначених у модулі функцій. Якщо функцій у модулі не визначено, буде повернено порожній масив.
+Асоціативний масив об'єктів [ReflectionFunction](class.reflectionfunction.md), у якому ключами є назви визначених у модулі функцій. Якщо функцій у модулі не визначено, буде повернено порожній масив.
 
 ### Приклади
 
@@ -65,5 +65,5 @@ Array
 
 ### Дивіться також
 
--   [ReflectionExtension::getClasses()](reflectionextension.getclasses.html) - Повертає класи
--   [getextensionfuncs()](function.get-extension-funcs.html) - Повертає масив імен функцій модуля
+-   [ReflectionExtension::getClasses()](reflectionextension.getclasses.md) - Повертає класи
+-   [getextensionfuncs()](function.get-extension-funcs.md) - Повертає масив імен функцій модуля

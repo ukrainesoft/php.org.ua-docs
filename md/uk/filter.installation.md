@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filter.requirements.html: « Вимоги
-  - filter.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - filter.setup.html: Встановлення та налаштування
+  - filter.requirements.md: « Вимоги
+  - filter.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - filter.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

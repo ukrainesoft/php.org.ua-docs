@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttpconnection.setretries.html: '« EventHttpConnection::setRetries'
-  - class.eventhttprequest.html: EventHttpRequest »
-  - index.html: PHP Manual
-  - class.eventhttpconnection.html: EventHttpConnection
+  - eventhttpconnection.setretries.md: '« EventHttpConnection::setRetries'
+  - class.eventhttprequest.md: EventHttpRequest »
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::setTimeout'
 ---
 # EventHttpConnection::setTimeout

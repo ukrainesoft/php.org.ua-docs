@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-bit-fail.html: « fanngetbitfail
-  - function.fann-get-cascade-activation-functions.html: fanngetcascadeactivationfunctions »
+  - function.fann-get-bit-fail.md: « fanngetbitfail
+  - function.fann-get-cascade-activation-functions.md: fanngetcascadeactivationfunctions »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetcascadeactivationфункційcount

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.snmpset.html: « snmpset
-  - function.snmpwalkoid.html: snmpwalkoid »
-  - index.html: PHP Manual
-  - ref.snmp.html: Функції SNMP
+  - function.snmpset.md: « snmpset
+  - function.snmpwalkoid.md: snmpwalkoid »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
 title: snmpwalk
 ---
 # snmpwalk
@@ -67,4 +67,4 @@ foreach ($a as $val) {
 
 ### Дивіться також
 
--   [snmprealwalk()](function.snmprealwalk.html) - Повертає всі об'єкти, включаючи їхній ідентифікатор
+-   [snmprealwalk()](function.snmprealwalk.md) - Повертає всі об'єкти, включаючи їхній ідентифікатор

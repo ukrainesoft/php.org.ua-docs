@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.readline.md: « Функции Readline
-  - function.readline-callback-handler-install.html: readlinecallbackhandlerinstall »
+  - function.readline-callback-handler-install.md: readlinecallbackhandlerinstall »
   - index.md: PHP Manual
   - ref.readline.md: Функции Readline
 title: readlineaddhistory

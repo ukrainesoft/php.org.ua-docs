@@ -1,7 +1,7 @@
 ---
 navigation:
   - csprng.constants.md: « Обумовлені константи
-  - function.random-bytes.html: randombytes »
+  - function.random-bytes.md: randombytes »
   - index.md: PHP Manual
   - book.csprng.md: CSPRNG
 title: Функції CSPRNG

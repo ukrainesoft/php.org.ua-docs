@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-pkcs7-read.html: « opensslpkcs7read
-  - function.openssl-pkcs7-verify.html: opensslpkcs7verify »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-pkcs7-read.md: « opensslpkcs7read
+  - function.openssl-pkcs7-verify.md: opensslpkcs7verify »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslpkcs7sign
 ---
 # opensslpkcs7sign
@@ -32,19 +32,19 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 `certificate`
 
-Сертифікат X.509, який буде використаний для підпису `input_filename`. Дивіться [параметри ключа/сертифіката](openssl.certparams.html)
+Сертифікат X.509, який буде використаний для підпису `input_filename`. Дивіться [параметри ключа/сертифіката](openssl.certparams.md)
 
 `private_key`
 
-`private_key` задається секретним ключем, що відповідає сертифікату (`certificate`). Дивіться [параметри відкритого/секретного ключа](openssl.certparams.html)
+`private_key` задається секретним ключем, що відповідає сертифікату (`certificate`). Дивіться [параметри відкритого/секретного ключа](openssl.certparams.md)
 
 `headers`
 
-`headers` задається масивом заголовків, які будуть додані на початок даних після підписання. (дивіться [opensslpkcs7encrypt()](function.openssl-pkcs7-encrypt.html) для отримання додаткової інформації про формат цього параметра).
+`headers` задається масивом заголовків, які будуть додані на початок даних після підписання. (дивіться [opensslpkcs7encrypt()](function.openssl-pkcs7-encrypt.md) для отримання додаткової інформації про формат цього параметра).
 
 `flags`
 
-`flags` використовується для налаштування виводу. Дивіться [константи PKCS7](openssl.pkcs7.flags.html)
+`flags` використовується для налаштування виводу. Дивіться [константи PKCS7](openssl.pkcs7.flags.md)
 
 `untrusted_certificates_filename`
 
@@ -58,8 +58,8 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 | Версия | Описание |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` ор `OpenSSL X.509 CSR` |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` ор `OpenSSL X.509 CSR` |
 
 ### Приклади
 

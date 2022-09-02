@@ -38,7 +38,7 @@ public
 
 `type`
 
-одна з констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.html#eventhttprequest.constants)
+одна з констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
 
 `uri`
 

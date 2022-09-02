@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domelement.removeattributens.html: '« DOMElement::removeAttributeNS'
-  - domelement.setattributenode.html: 'DOMElement::setAttributeNode »'
-  - index.html: PHP Manual
-  - class.domelement.html: DOMElement
+  - domelement.removeattributens.md: '« DOMElement::removeAttributeNS'
+  - domelement.setattributenode.md: 'DOMElement::setAttributeNode »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
 title: 'DOMElement::setAttribute'
 ---
 # DOMElement::setAttribute
@@ -32,7 +32,7 @@ public DOMElement::setAttribute(string $qualifiedName, string $value): DOMAttr|b
 
 ### Значення, що повертаються
 
-Створений чи змінений об'єкт класу [DOMAttr](class.domattr.html) або **`false`** у разі виникнення помилки.
+Створений чи змінений об'єкт класу [DOMAttr](class.domattr.md) або **`false`** у разі виникнення помилки.
 
 ### Помилки
 
@@ -55,6 +55,6 @@ $newnode->setAttribute("align", "left");
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.html) - Перевіряє, чи існує атрибут
--   [DOMElement::getAttribute()](domelement.getattribute.html) - Повертає значення атрибуту
--   [DOMElement::removeAttribute()](domelement.removeattribute.html) - Видаляє атрибут
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
+-   [DOMElement::getAttribute()](domelement.getattribute.md) - Повертає значення атрибуту
+-   [DOMElement::removeAttribute()](domelement.removeattribute.md) - Видаляє атрибут

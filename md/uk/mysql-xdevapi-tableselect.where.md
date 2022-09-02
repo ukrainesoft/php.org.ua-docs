@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.orderby.html: '« TableSelect::orderby'
-  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate »
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - mysql-xdevapi-tableselect.orderby.md: '« TableSelect::orderby'
+  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::where'
 ---
 # TableSelect::where

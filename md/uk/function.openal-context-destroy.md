@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openal-context-current.html: « openalcontextcurrent
-  - function.openal-context-process.html: openalcontextprocess »
-  - index.html: PHP Manual
-  - ref.openal.html: Функции OpenAL
+  - function.openal-context-current.md: « openalcontextcurrent
+  - function.openal-context-process.md: openalcontextprocess »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
 title: openalcontextdestroy
 ---
 # openalcontextdestroy
@@ -22,7 +22,7 @@ openal_context_destroy(resource $context): bool
 
 `context`
 
-Ресурс [Open AL(Context)](openal.resources.html) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.html)
+Ресурс [Open AL(Context)](openal.resources.md) (Створений раніше за допомогою [openalcontextcreate()](function.openal-context-create.md)
 
 ### Значення, що повертаються
 
@@ -30,4 +30,4 @@ openal_context_destroy(resource $context): bool
 
 ### Дивіться також
 
--   [openalcontextcreate()](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openalcontextcreate()](function.openal-context-create.md) - Створити контекст обробки звуку

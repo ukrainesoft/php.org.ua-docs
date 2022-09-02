@@ -1,16 +1,16 @@
 ---
 navigation:
-  - features.sessions.html: « Сессии
-  - features.file-upload.html: Загрузка файлов на сервер »
-  - index.html: PHP Manual
-  - features.html: Відмітні особливості
+  - features.sessions.md: « Сессии
+  - features.file-upload.md: Загрузка файлов на сервер »
+  - index.md: PHP Manual
+  - features.md: Відмітні особливості
 title: Робота з XForms
 ---
 # Робота з XForms
 
 [» XForms](http://www.w3.org/MarkUp/Forms/) є альтернативою традиційним веб-формам і дозволяють використовувати їх на безлічі платформ і браузерів, а також реалізовувати нестандартні уявлення форм, наприклад, у вигляді PDF-документа.
 
-Перша істотна відмінність XForms полягає в тому, як форма надсилається клієнту. Керівництво [`XForms for HTML Authors`](http://www.w3.org/MarkUp/Forms/2003/xforms-for-html-authors.html) містить детальний опис створення XForms. Щоб окреслити основну ідею керівництва, наведемо кілька простих прикладів.
+Перша істотна відмінність XForms полягає в тому, як форма надсилається клієнту. Керівництво [`XForms for HTML Authors`](http://www.w3.org/MarkUp/Forms/2003/xforms-for-html-authors.md) містить детальний опис створення XForms. Щоб окреслити основну ідею керівництва, наведемо кілька простих прикладів.
 
 **Приклад #1 Проста пошукова форма XForms**
 
@@ -22,9 +22,9 @@ title: Робота з XForms
 
 Якщо ви вирішили працювати з XForms, швидше за все ви захочете отримати надіслані користувачем дані у форматі XML. У такому випадку зверніть увагу на змінну $HTTPRAWPOSTDATA, в ній міститься XMLдокумент, згенерований браузером, який надалі можна обробити движком XSLT або парсером документа.
 
-Якщо розмітка вас не цікавить, і ви хочете, щоб дані, що передаються, були поміщені в стандартний масив [POST](reserved.variables.post.html), Ви можете вказати клієнтському браузеру на необхідність надсилати дані у форматі `application/x-www-form-urlencoded`. Для цього встановіть атрибут `method` значенням *urlencoded-post*
+Якщо розмітка вас не цікавить, і ви хочете, щоб дані, що передаються, були поміщені в стандартний масив [POST](reserved.variables.post.md), Ви можете вказати клієнтському браузеру на необхідність надсилати дані у форматі `application/x-www-form-urlencoded`. Для цього встановіть атрибут `method` значенням *urlencoded-post*
 
-**Приклад #2 Використання XForm разом із масивом [POST](reserved.variables.post.html)**
+**Приклад #2 Використання XForm разом із масивом [POST](reserved.variables.post.md)**
 
 [http://www.w3.org/1999/xhtml"xmlns="](http://www.w3.org/1999/xhtml%22xmlns=%22%5Bhttp://www.w3.org/2002/xforms%22%3E%5D(http://www.w3.org/2002/xforms%22%3E))[http://www.w3.org/2002/xforms">](http://www.w3.org/2002/xforms%22%3E) Пошук Що шукати? Знайти
 

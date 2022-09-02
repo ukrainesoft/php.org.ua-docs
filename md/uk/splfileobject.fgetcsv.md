@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.fgetc.html: '« SplFileObject::fgetc'
-  - splfileobject.fgets.html: 'SplFileObject::fgets »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.fgetc.md: '« SplFileObject::fgetc'
+  - splfileobject.fgets.md: 'SplFileObject::fgets »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fgetcsv'
 ---
 # SplFileObject::fgetcsv
@@ -28,17 +28,17 @@ public SplFileObject::fgetcsv(string $separator = ",", string $enclosure = "\"",
 
 `separator`
 
-Розділювач полів (тільки один однобайтовий символ). За замовчуванням це кома або символ, заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.html)
+Розділювач полів (тільки один однобайтовий символ). За замовчуванням це кома або символ, заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md)
 
 `enclosure`
 
-Символ обмежувача поля (лише один однобайтовий символ). За замовчуванням це подвійна лапка або символ, заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.html). Порожня стрічка (`""`) відключає пропрієтарний механізм екранування.
+Символ обмежувача поля (лише один однобайтовий символ). За замовчуванням це подвійна лапка або символ, заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md). Порожня стрічка (`""`) відключає пропрієтарний механізм екранування.
 
 > **Зауваження**: Зазвичай символ `enclosure` екранується всередині поля шляхом його подвоювання; однак, символ `escape` як альтернатива. Тому значення за промовчанням цих параметрів `""` і `\"` мають однакове значення. Крім дозволу екранувати символ `enclosure` символ `escape` немає особливого сенсу; він навіть не призначений для самого екранування.
 
 `escape`
 
-Екрануючий символ (не більше одного однобайтового символу). За замовчуванням це зворотний сліш (`\`) або символ, який був заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.html)
+Екрануючий символ (не більше одного однобайтового символу). За замовчуванням це зворотний сліш (`\`) або символ, який був заданий методом [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md)
 
 ### Значення, що повертаються
 
@@ -96,7 +96,7 @@ A salmon is a fish with 0 legs
 
 ### Дивіться також
 
--   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.html) - Встановлює символи роздільника, обгортання та екранування для CSV
--   [SplFileObject::setFlags()](splfileobject.setflags.html) - Встановлює прапори для SplFileObject
--   [SplFileObject::READCSV](class.splfileobject.html#splfileobject.constants.read-csv)
--   [SplFileObject::current()](splfileobject.current.html) - Отримати поточний рядок файлу
+-   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) - Встановлює символи роздільника, обгортання та екранування для CSV
+-   [SplFileObject::setFlags()](splfileobject.setflags.md) - Встановлює прапори для SplFileObject
+-   [SplFileObject::READCSV](class.splfileobject.md#splfileobject.constants.read-csv)
+-   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу

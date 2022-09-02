@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmantask.functionname.html: '« GearmanTask::functionName'
-  - gearmantask.isrunning.html: 'GearmanTask::isRunning »'
-  - index.html: PHP Manual
-  - class.gearmantask.html: GearmanTask
+  - gearmantask.functionname.md: '« GearmanTask::functionName'
+  - gearmantask.isrunning.md: 'GearmanTask::isRunning »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::isKnown'
 ---
 # GearmanTask::isKnown

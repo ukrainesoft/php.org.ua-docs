@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.rrd-version.html: « rrdversion
-  - function.rrdc-disconnect.html: rrdcdisconnect »
+  - function.rrd-version.md: « rrdversion
+  - function.rrdc-disconnect.md: rrdcdisconnect »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
 title: rrdxport

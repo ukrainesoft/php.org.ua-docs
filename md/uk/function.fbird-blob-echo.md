@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-blob-create.html: « fbirdblobcreate
-  - function.fbird-blob-get.html: fbirdblobget »
+  - function.fbird-blob-create.md: « fbirdblobcreate
+  - function.fbird-blob-get.md: fbirdblobget »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdblobecho

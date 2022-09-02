@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.current.html: '« MongoDBDriverCursor::current'
-  - mongodb-driver-cursor.getserver.html: 'MongoDBDriverCursor::getServer »'
+  - mongodb-driver-cursor.current.md: '« MongoDBDriverCursor::current'
+  - mongodb-driver-cursor.getserver.md: 'MongoDBDriverCursor::getServer »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::getId'
 ---
 # MongoDBDriverCursor::getId

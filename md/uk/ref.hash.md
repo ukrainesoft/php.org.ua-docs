@@ -1,7 +1,7 @@
 ---
 navigation:
   - hashcontext.unserialize.md: '« HashContext::unserialize'
-  - function.hash-algos.html: hashalgos »
+  - function.hash-algos.md: hashalgos »
   - index.md: PHP Manual
   - book.hash.md: Hash
 title: Функції Hash

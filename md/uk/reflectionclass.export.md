@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.construct.html: '« ReflectionClass::construct'
-  - reflectionclass.getattributes.html: 'ReflectionClass::getAttributes »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.construct.md: '« ReflectionClass::construct'
+  - reflectionclass.getattributes.md: 'ReflectionClass::getAttributes »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::export'
 ---
 # ReflectionClass::export
@@ -86,5 +86,5 @@ Class [ <user> class Apple ] {
 
 ### Дивіться також
 
--   [ReflectionClass::getName()](reflectionclass.getname.html) - Повертає ім'я класу
--   [ReflectionClass::toString()](reflectionclass.tostring.html) - Повертає рядкову виставу об'єкта класу ReflectionClass
+-   [ReflectionClass::getName()](reflectionclass.getname.md) - Повертає ім'я класу
+-   [ReflectionClass::toString()](reflectionclass.tostring.md) - Повертає рядкову виставу об'єкта класу ReflectionClass

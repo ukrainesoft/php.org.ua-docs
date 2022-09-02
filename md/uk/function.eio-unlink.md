@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-truncate.html: « eiotruncate
-  - function.eio-utime.html: eioutime »
+  - function.eio-truncate.md: « eiotruncate
+  - function.eio-utime.md: eioutime »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiounlink

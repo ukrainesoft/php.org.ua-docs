@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.restore-exception-handler.html: « restoreexceptionhandler
-  - function.set-exception-handler.html: setexceptionhandler »
+  - function.restore-exception-handler.md: « restoreexceptionhandler
+  - function.set-exception-handler.md: setexceptionhandler »
   - index.md: PHP Manual
   - ref.errorfunc.md: Функции обработки ошибок
 title: seterrorhandler
@@ -22,7 +22,7 @@ set_error_handler(?callable $callback, int $error_levels = E_ALL): ?callable
 
 Ця функція використовується визначення власного оброблювача помилок часу виконання скрипта. Наприклад, якщо потрібно очистити дані/файли, коли відбулася критична помилка, або якщо потрібно переключити тип помилки, виходячи з якихось умов (використовуючи функцію [triggererror()](function.trigger-error.md)
 
-Важливо пам'ятати, що стандартний обробник помилок PHP не оброблятиме жодні типи помилок, визначені в `error_levels`, поки callback-функція не поверне **`false`**. Користувальницький обробник буде викликатися за будь-якої помилки, незалежно від налаштувань, заданих функцією [errorreporting](errorfunc.configuration.html#ini.error-reporting)
+Важливо пам'ятати, що стандартний обробник помилок PHP не оброблятиме жодні типи помилок, визначені в `error_levels`, поки callback-функція не поверне **`false`**. Користувальницький обробник буде викликатися за будь-якої помилки, незалежно від налаштувань, заданих функцією [errorreporting](errorfunc.configuration.md#ini.error-reporting)
 
 Також важливо пам'ятати, що на совісті обробника лежить виклик функції [die()](function.die.md) у випадку необхідності. Якщо відбувається повернення з оброблювача помилок, керування передається наступному виразу, що стоїть за тим, що викликало помилку.
 
@@ -68,7 +68,7 @@ handler(    int $errno,    string $errstr,    string $errfile = ?, 
 
 `error_levels`
 
-Може використовуватися для завдання маски, відповідно до якої буде викликатись `callback`, за аналогією з ini-настройкою [errorreporting](errorfunc.configuration.html#ini.error-reporting), яка відповідає за те, які помилки будуть показані у звіті. Без цієї маски `callback` буде викликатися для обробки всіх помилок, що відбуваються, незалежно від налаштувань в [errorreporting](errorfunc.configuration.html#ini.error-reporting)
+Може використовуватися для завдання маски, відповідно до якої буде викликатись `callback`, за аналогією з ini-настройкою [errorreporting](errorfunc.configuration.md#ini.error-reporting), яка відповідає за те, які помилки будуть показані у звіті. Без цієї маски `callback` буде викликатися для обробки всіх помилок, що відбуваються, незалежно від налаштувань в [errorreporting](errorfunc.configuration.md#ini.error-reporting)
 
 ### Значення, що повертаються
 

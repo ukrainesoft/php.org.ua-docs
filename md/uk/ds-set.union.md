@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.toarray.html: '« DsSet::toArray'
-  - ds-set.xor.html: 'ДсSet::xor »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.toarray.md: '« DsSet::toArray'
+  - ds-set.xor.md: 'ДсSet::xor »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::union'
 ---
 # ДсSet::union

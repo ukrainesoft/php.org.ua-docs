@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-create-sparse.html: « fanncreatesparse
-  - function.fann-create-standard.html: fanncreatestandard »
+  - function.fann-create-sparse.md: « fanncreatesparse
+  - function.fann-create-standard.md: fanncreatestandard »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanncreatestandardarray

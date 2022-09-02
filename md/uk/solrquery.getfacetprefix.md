@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getfacetoffset.html: '« SolrQuery::getFacetOffset'
-  - solrquery.getfacetqueries.html: 'SolrQuery::getFacetQueries »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getfacetoffset.md: '« SolrQuery::getFacetOffset'
+  - solrquery.getfacetqueries.md: 'SolrQuery::getFacetQueries »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getFacetPrefix'
 ---
 # SolrQuery::getFacetPrefix

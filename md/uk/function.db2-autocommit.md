@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.ibm-db2.html: « Функції IBM DB2
-  - function.db2-bind-param.html: db2bindparam »
+  - ref.ibm-db2.md: « Функції IBM DB2
+  - function.db2-bind-param.md: db2bindparam »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2autocommit
 ---
 # db2autocommit
@@ -24,7 +24,7 @@ db2_autocommit(resource $connection, bool $value = ?): mixed
 
 `connection`
 
-Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.html)
+Змінна, що містить активний ресурс підключення, отриманий за допомогою [db2connect()](function.db2-connect.md) або [db2pconnect()](function.db2-pconnect.md)
 
 `value`
 
@@ -103,5 +103,5 @@ if ($ac == DB2_AUTOCOMMIT_OFF) {
 
 ### Дивіться також
 
--   [db2connect()](function.db2-connect.html) - Повертає з'єднання з базою даних
--   [db2pconnect()](function.db2-pconnect.html) - Повертає постійне з'єднання з базою даних
+-   [db2connect()](function.db2-connect.md) - Повертає з'єднання з базою даних
+-   [db2pconnect()](function.db2-pconnect.md) - Повертає постійне з'єднання з базою даних

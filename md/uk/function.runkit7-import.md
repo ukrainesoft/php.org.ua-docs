@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.runkit7-function-rename.html: « runkit7functionrename
-  - function.runkit7-method-add.html: runkit7methodadd »
-  - index.html: PHP Manual
-  - ref.runkit7.html: Функції runkit7
+  - function.runkit7-function-rename.md: « runkit7functionrename
+  - function.runkit7-method-add.md: runkit7methodadd »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
 title: runkit7import
 ---
 # runkit7import

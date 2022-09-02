@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.exif.md: « Exif Функції
-  - function.exif-read-data.html: exifreaddata »
+  - function.exif-read-data.md: exifreaddata »
   - index.md: PHP Manual
   - ref.exif.md: Exif Функції
 title: exifimagetype

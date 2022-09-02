@@ -1,9 +1,9 @@
 ---
 navigation:
-  - changelog.strings.html: « Список изменений
-  - book.array.html: Масиви »
-  - index.html: PHP Manual
-  - funcref.html: Справочник функций
+  - changelog.strings.md: « Список изменений
+  - book.array.md: Масиви »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
 title: 'Модулі, що відносяться до змінних та типів'
 ---
 # Модулі, що відносяться до змінних та типів

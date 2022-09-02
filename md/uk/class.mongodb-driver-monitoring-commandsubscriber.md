@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html: '« MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId'
-  - mongodb-driver-monitoring-commandsubscriber.commandfailed.html: 'MongoDBDriverMonitoringCommandSubscriber::commandFailed »'
+  - mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md: '« MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId'
+  - mongodb-driver-monitoring-commandsubscriber.commandfailed.md: 'MongoDBDriverMonitoringCommandSubscriber::commandFailed »'
   - index.md: PHP Manual
   - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Інтерфейс The MongoDBDriverMonitoringCommandSubscriber

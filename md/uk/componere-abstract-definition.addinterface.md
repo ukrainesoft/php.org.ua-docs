@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.componere-abstract-definition.html: « ComponereAbstractDefinition
-  - componere-abstract-definition.addmethod.html: 'ComponereAbstractDefinition::addMethod »'
-  - index.html: PHP Manual
-  - class.componere-abstract-definition.html: ComponereAbstractDefinition
+  - class.componere-abstract-definition.md: « ComponereAbstractDefinition
+  - componere-abstract-definition.addmethod.md: 'ComponereAbstractDefinition::addMethod »'
+  - index.md: PHP Manual
+  - class.componere-abstract-definition.md: ComponereAbstractDefinition
 title: 'ComponereAbstractDefinition::addInterface'
 ---
 # ComponereAbstractDefinition::addInterface
@@ -34,4 +34,4 @@ The current Definition
 
 **Увага**
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо Definition було зареєстровано
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо Definition було зареєстровано

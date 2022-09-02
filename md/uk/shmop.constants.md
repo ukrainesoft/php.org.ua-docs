@@ -1,9 +1,9 @@
 ---
 navigation:
-  - shmop.resources.html: « Типи ресурсів
-  - shmop.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.shmop.html: Управление разделяемой памятью
+  - shmop.resources.md: « Типи ресурсів
+  - shmop.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.shmop.md: Управление разделяемой памятью
 title: Обумовлені константи
 ---
 # Обумовлені константи

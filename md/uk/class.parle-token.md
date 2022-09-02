@@ -1,7 +1,7 @@
 ---
 navigation:
-  - parle-stack.push.html: '« ParleStack::push'
-  - class.parle-errorinfo.html: ParleErrorInfo »
+  - parle-stack.push.md: '« ParleStack::push'
+  - class.parle-errorinfo.md: ParleErrorInfo »
   - index.md: PHP Manual
   - book.parle.md: Parle
 title: Клас ParleToken

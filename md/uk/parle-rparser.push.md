@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rparser.precedence.html: '« ParleRParser::precedence'
-  - parle-rparser.reset.html: 'ParleRParser::reset »'
-  - index.html: PHP Manual
-  - class.parle-rparser.html: ParleRParser
+  - parle-rparser.precedence.md: '« ParleRParser::precedence'
+  - parle-rparser.reset.md: 'ParleRParser::reset »'
+  - index.md: PHP Manual
+  - class.parle-rparser.md: ParleRParser
 title: 'ParleRParser::push'
 ---
 # ParleRParser::push

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-binaryinterface.getdata.html: '« MongoDBBSONBinaryInterface::getData'
-  - mongodb-bson-binaryinterface.tostring.html: 'MongoDBBSONBinaryInterface::toString »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-binaryinterface.html: MongoDBBSONBinaryInterface
+  - mongodb-bson-binaryinterface.getdata.md: '« MongoDBBSONBinaryInterface::getData'
+  - mongodb-bson-binaryinterface.tostring.md: 'MongoDBBSONBinaryInterface::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface
 title: 'MongoDBBSONBinaryInterface::getType'
 ---
 # MongoDBBSONBinaryInterface::getType
@@ -28,4 +28,4 @@ abstract public MongoDB\BSON\BinaryInterface::getType(): int
 
 ### Дивіться також
 
--   [MongoDBBSONBinary::getType()](mongodb-bson-binary.gettype.html) - Повертає тип Binary
+-   [MongoDBBSONBinary::getType()](mongodb-bson-binary.gettype.md) - Повертає тип Binary

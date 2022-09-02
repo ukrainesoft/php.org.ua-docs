@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-import-stream.html: « socketimportstream
-  - function.socket-listen.html: socketlisten »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-import-stream.md: « socketimportstream
+  - function.socket-listen.md: socketlisten »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketlasterror
 ---
 # socketlasterror
@@ -18,7 +18,7 @@ socketlasterror — Повертає останню помилку на соке
 socket_last_error(?Socket $socket = null): int
 ```
 
-Якщо екземпляр [Socket](class.socket.html) передано цю функцію, то повертається остання помилка, яка сталася на цьому конкретному сокеті. Якщо `socket` не вказано, повертається код помилки останньої функції сокетів. Останнє особливо корисне для таких функцій, як [socketcreate()](function.socket-create.html), яка не повертає сокет у разі невдачі та [socketselect()](function.socket-select.html), що може закінчитися невдало з причин, не пов'язаних безпосередньо з конкретним сокетом. Код помилки підходить для передачі функції [socketstrerror()](function.socket-strerror.md), яка повертає рядок, що описує вказаний код помилки.
+Якщо екземпляр [Socket](class.socket.md) передано цю функцію, то повертається остання помилка, яка сталася на цьому конкретному сокеті. Якщо `socket` не вказано, повертається код помилки останньої функції сокетів. Останнє особливо корисне для таких функцій, як [socketcreate()](function.socket-create.md), яка не повертає сокет у разі невдачі та [socketselect()](function.socket-select.md), що може закінчитися невдало з причин, не пов'язаних безпосередньо з конкретним сокетом. Код помилки підходить для передачі функції [socketstrerror()](function.socket-strerror.md), яка повертає рядок, що описує вказаний код помилки.
 
 Якщо помилок немає або вони були очищені функцією [socketclearerror()](function.socket-clear-error.md), функція поверне `0`
 
@@ -26,7 +26,7 @@ socket_last_error(?Socket $socket = null): int
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.md)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md)
 
 ### Значення, що повертаються
 

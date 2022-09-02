@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-rename.html: « imaprename
-  - function.imap-reopen.html: imapreopen »
+  - function.imap-rename.md: « imaprename
+  - function.imap-reopen.md: imapreopen »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imaprenamemailbox
@@ -32,7 +32,7 @@ imap_renamemailbox(IMAP\Connection $imap, string $from, string $to): bool
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `to`
 
@@ -40,7 +40,7 @@ imap_renamemailbox(IMAP\Connection $imap, string $from, string $to): bool
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 

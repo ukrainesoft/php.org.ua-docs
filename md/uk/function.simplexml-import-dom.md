@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.simplexml.md: « Функции SimpleXML
-  - function.simplexml-load-file.html: simplexmlloadfile »
+  - function.simplexml-load-file.md: simplexmlloadfile »
   - index.md: PHP Manual
   - ref.simplexml.md: Функции SimpleXML
 title: simplexmlimportdom

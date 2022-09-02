@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkey-free.html: « opensslpkeyfree
-  - function.openssl-pkey-get-private.html: opensslpkeygetprivate »
+  - function.openssl-pkey-free.md: « opensslpkeyfree
+  - function.openssl-pkey-get-private.md: opensslpkeygetprivate »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkeygetdetails
@@ -68,7 +68,7 @@ openssl_pkey_get_details(OpenSSLAsymmetricKey $key): array|false
     
     | Ключ | Описание |
     | --- | --- |
-    | `"curve_name"` | Назва кривої, дивись [opensslgetcurvenames()](function.openssl-get-curve-names.html) |
+    | `"curve_name"` | Назва кривої, дивись [opensslgetcurvenames()](function.openssl-get-curve-names.md) |
     | `"curve_oid"` | Ідентифікатор об'єкта ASN1 (OID) для кривої EC. |
     | `"x"` | x координата (відкрита) |
     | `"y"` | y координата (відкрита) |

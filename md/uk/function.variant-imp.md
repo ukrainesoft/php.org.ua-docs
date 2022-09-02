@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-idiv.html: « variantidiv
-  - function.variant-int.html: variantint »
+  - function.variant-idiv.md: « variantidiv
+  - function.variant-int.md: variantint »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantimp

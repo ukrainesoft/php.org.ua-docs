@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-filter-register.html: « streamfilterregister
-  - function.stream-get-contents.html: streamgetcontents »
+  - function.stream-filter-register.md: « streamfilterregister
+  - function.stream-get-contents.md: streamgetcontents »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamfilterremove
@@ -18,7 +18,7 @@ streamfilterremove — Видалити фільтр із потоку
 stream_filter_remove(resource $stream_filter): bool
 ```
 
-Видаляє потоковий фільтр, раніше доданий до потоку за допомогою функції [streamfilterprepend()](function.stream-filter-prepend.html) або [streamfilterappend()](function.stream-filter-append.md). Будь-які дані, що залишилися у внутрішньому буфері фільтра, будуть відправлені до наступного фільтра до його видалення.
+Видаляє потоковий фільтр, раніше доданий до потоку за допомогою функції [streamfilterprepend()](function.stream-filter-prepend.md) або [streamfilterappend()](function.stream-filter-append.md). Будь-які дані, що залишилися у внутрішньому буфері фільтра, будуть відправлені до наступного фільтра до його видалення.
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evchild.set.html: '« EvChild::set'
-  - evembed.construct.html: 'EvEmbed::construct »'
-  - index.html: PHP Manual
-  - book.ev.html: Єв
+  - evchild.set.md: '« EvChild::set'
+  - evembed.construct.md: 'EvEmbed::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
 title: Клас EvEmbed
 ---
 # Клас EvEmbed

@@ -34,5 +34,5 @@ public Serializable::serialize(): ?string
 
 ### Дивіться також
 
--   [sleep()](language.oop5.magic.html#object.sleep)
--   [serialize()](language.oop5.magic.html#object.serialize)
+-   [sleep()](language.oop5.magic.md#object.sleep)
+-   [serialize()](language.oop5.magic.md#object.serialize)

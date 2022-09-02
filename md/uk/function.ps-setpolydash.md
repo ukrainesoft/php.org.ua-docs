@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-setoverprintmode.html: «pssetoverprintmode
-  - function.ps-shading-pattern.html: псshadingpattern »
+  - function.ps-setoverprintmode.md: «pssetoverprintmode
+  - function.ps-shading-pattern.md: псshadingpattern »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetpolydash
@@ -24,7 +24,7 @@ ps_setpolydash(resource $psdoc, float $arr): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `arr`
 
@@ -65,4 +65,4 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псsetdash()](function.ps-setdash.html) - Встановлює зовнішній вигляд пунктирної лінії
+-   [псsetdash()](function.ps-setdash.md) - Встановлює зовнішній вигляд пунктирної лінії

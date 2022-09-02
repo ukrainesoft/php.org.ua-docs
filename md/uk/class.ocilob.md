@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ocicollection.trim.html: '« OCICollection::trim'
-  - ocilob.append.html: 'OCILob::append »'
-  - index.html: PHP Manual
-  - book.oci8.html: OCI8
+  - ocicollection.trim.md: '« OCICollection::trim'
+  - ocilob.append.md: 'OCILob::append »'
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
 title: Клас OCILob
 ---
 # Клас OCILob
@@ -59,25 +59,25 @@ public writeTemporary(string $data, int $type = OCI_TEMP_CLOB): bool
 
 ## Зміст
 
--   [OCILob::append](ocilob.append.html) — Додає дані з об'єкта LOB до кінця іншого об'єкта
--   [OCILob::close](ocilob.close.html) - Закриває дескриптор об'єкта LOB
--   [OCILob::eof](ocilob.eof.html) — Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта.
--   [OCILob::erase](ocilob.erase.html) — Очищає вказану частину об'єкта LOB
--   [OCILob::export](ocilob.export.html) — Зберігає вміст об'єкта LOB у файл
--   [OCILob::flush](ocilob.flush.html) — Очищає та записує буфер об'єкта LOB на сервер
--   [OCILob::free](ocilob.free.html) - Звільняє ресурси, пов'язані з дескриптором LOB
--   [OCILob::getBuffering](ocilob.getbuffering.html) — Повертає поточний стан буферизації великого об'єкта (LOB)
--   [OCILob::import](ocilob.import.html) — Записує вміст файлу на об'єкт LOB
--   [OCILob::load](ocilob.load.html) — Повертає вміст LOB
--   [OCILob::read](ocilob.read.html) — Повертає частину об'єкта LOB
--   [OCILob::rewind](ocilob.rewind.html) — Переводить вказівник об'єкта на початок великого об'єкта
--   [OCILob::save](ocilob.save.html) - Зберігає дані в LOB
--   [OCILob::saveFile](ocilob.savefile.html) - Псевдонім OCILob::import
--   [OCILob::seek](ocilob.seek.html) — Встановлює позицію внутрішнього покажчика LOB
--   [OCILob::setBuffering](ocilob.setbuffering.html) — Змінює поточний стан буферизації великого об'єкта (LOB)
--   [OCILob::size](ocilob.size.html) — Повертає розмір об'єкта LOB
--   [OCILob::tell](ocilob.tell.html) — Повертає поточну позицію внутрішнього покажчика об'єкта LOB
--   [OCILob::truncate](ocilob.truncate.html) - Обрізає великий об'єкт
--   [OCILob::write](ocilob.write.html) - Записує дані в об'єкт LOB
--   [OCILob::writeTemporary](ocilob.writetemporary.html) — Записує великий тимчасовий об'єкт (LOB)
--   [OCILob::writeToFile](ocilob.writetofile.html) - Псевдонім OCILob::export
+-   [OCILob::append](ocilob.append.md) — Додає дані з об'єкта LOB до кінця іншого об'єкта
+-   [OCILob::close](ocilob.close.md) - Закриває дескриптор об'єкта LOB
+-   [OCILob::eof](ocilob.eof.md) — Перевіряє, чи вказівник LOB знаходиться на кінці об'єкта.
+-   [OCILob::erase](ocilob.erase.md) — Очищає вказану частину об'єкта LOB
+-   [OCILob::export](ocilob.export.md) — Зберігає вміст об'єкта LOB у файл
+-   [OCILob::flush](ocilob.flush.md) — Очищає та записує буфер об'єкта LOB на сервер
+-   [OCILob::free](ocilob.free.md) - Звільняє ресурси, пов'язані з дескриптором LOB
+-   [OCILob::getBuffering](ocilob.getbuffering.md) — Повертає поточний стан буферизації великого об'єкта (LOB)
+-   [OCILob::import](ocilob.import.md) — Записує вміст файлу на об'єкт LOB
+-   [OCILob::load](ocilob.load.md) — Повертає вміст LOB
+-   [OCILob::read](ocilob.read.md) — Повертає частину об'єкта LOB
+-   [OCILob::rewind](ocilob.rewind.md) — Переводить вказівник об'єкта на початок великого об'єкта
+-   [OCILob::save](ocilob.save.md) - Зберігає дані в LOB
+-   [OCILob::saveFile](ocilob.savefile.md) - Псевдонім OCILob::import
+-   [OCILob::seek](ocilob.seek.md) — Встановлює позицію внутрішнього покажчика LOB
+-   [OCILob::setBuffering](ocilob.setbuffering.md) — Змінює поточний стан буферизації великого об'єкта (LOB)
+-   [OCILob::size](ocilob.size.md) — Повертає розмір об'єкта LOB
+-   [OCILob::tell](ocilob.tell.md) — Повертає поточну позицію внутрішнього покажчика об'єкта LOB
+-   [OCILob::truncate](ocilob.truncate.md) - Обрізає великий об'єкт
+-   [OCILob::write](ocilob.write.md) - Записує дані в об'єкт LOB
+-   [OCILob::writeTemporary](ocilob.writetemporary.md) — Записує великий тимчасовий об'єкт (LOB)
+-   [OCILob::writeToFile](ocilob.writetofile.md) - Псевдонім OCILob::export

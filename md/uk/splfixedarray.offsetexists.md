@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfixedarray.next.html: '« SplFixedArray::next'
-  - splfixedarray.offsetget.html: 'SplFixedArray::offsetGet »'
-  - index.html: PHP Manual
-  - class.splfixedarray.html: SplFixedArray
+  - splfixedarray.next.md: '« SplFixedArray::next'
+  - splfixedarray.offsetget.md: 'SplFixedArray::offsetGet »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::offsetExists'
 ---
 # SplFixedArray::offsetExists

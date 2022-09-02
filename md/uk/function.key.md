@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.key-exists.html: « keyexists
+  - function.key-exists.md: « keyexists
   - function.krsort.md: krsort »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами

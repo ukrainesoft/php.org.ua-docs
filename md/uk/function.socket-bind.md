@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-addrinfo-lookup.html: « socketaddrinfolookup
-  - function.socket-clear-error.html: socketclearerror »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-addrinfo-lookup.md: « socketaddrinfolookup
+  - function.socket-clear-error.md: socketclearerror »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketbind
 ---
 # socketbind
@@ -18,13 +18,13 @@ socketbind — Прив'язує ім'я до сокету
 socket_bind(Socket $socket, string $address, int $port = 0): bool
 ```
 
-Прив'язує ім'я, вказане у параметрі `address`до сокету, описаного у параметрі `socket`. Це має бути зроблено, перш ніж з'єднання встановлено за допомогою функції [socketconnect()](function.socket-connect.html) або [socketlisten()](function.socket-listen.html)
+Прив'язує ім'я, вказане у параметрі `address`до сокету, описаного у параметрі `socket`. Це має бути зроблено, перш ніж з'єднання встановлено за допомогою функції [socketconnect()](function.socket-connect.md) або [socketlisten()](function.socket-listen.md)
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md)
 
 `address`
 
@@ -40,13 +40,13 @@ socket_bind(Socket $socket, string $address, int $port = 0): bool
 
 Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
-Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.md). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Приклади
 
@@ -82,16 +82,16 @@ socket_close($sock);
 
 > **Зауваження**
 > 
-> Ця функція має бути застосована на сокеті перед викликом [socketconnect()](function.socket-connect.html)
+> Ця функція має бути застосована на сокеті перед викликом [socketconnect()](function.socket-connect.md)
 
 > **Зауваження**
 > 
-> Примітка щодо сумісності з Windows 9x/ME: Функція [socketlasterror()](function.socket-last-error.html) може повертати неправильний код помилки при спробі зв'язати з сокетом неправильну адресу, яка не належить вашій машині.
+> Примітка щодо сумісності з Windows 9x/ME: Функція [socketlasterror()](function.socket-last-error.md) може повертати неправильний код помилки при спробі зв'язати з сокетом неправильну адресу, яка не належить вашій машині.
 
 ### Дивіться також
 
--   [socketconnect()](function.socket-connect.html) - Починає з'єднання із сокетом
--   [socketlisten()](function.socket-listen.html) - Прослуховує вхідні з'єднання на сокеті
--   [socketcreate()](function.socket-create.html) - створює сокет (кінцеву точку для обміну інформацією)
--   [socketlasterror()](function.socket-last-error.html) - Повертає останню помилку на сокеті
--   [socketstrerror()](function.socket-strerror.html) - Повертає рядок, що описує помилку сокету
+-   [socketconnect()](function.socket-connect.md) - Починає з'єднання із сокетом
+-   [socketlisten()](function.socket-listen.md) - Прослуховує вхідні з'єднання на сокеті
+-   [socketcreate()](function.socket-create.md) - створює сокет (кінцеву точку для обміну інформацією)
+-   [socketlasterror()](function.socket-last-error.md) - Повертає останню помилку на сокеті
+-   [socketstrerror()](function.socket-strerror.md) - Повертає рядок, що описує помилку сокету

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.drawimage.html: '« Gmagick::drawimage'
-  - gmagick.embossimage.html: 'Gmagick::embossimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.drawimage.md: '« Gmagick::drawimage'
+  - gmagick.embossimage.md: 'Gmagick::embossimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::edgeimage'
 ---
 # Gmagick::edgeimage
@@ -28,7 +28,7 @@ public Gmagick::edgeimage(float $radius): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) із збільшеними краями.
+Об'єкт [Gmagick](class.gmagick.md) із збільшеними краями.
 
 ### Помилки
 

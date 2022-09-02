@@ -1,6 +1,6 @@
 ---
 navigation:
-  - gender-gender.similarnames.html: '« GenderGender::similarNames'
+  - gender-gender.similarnames.md: '« GenderGender::similarNames'
   - intro.gettext.md: Введение »
   - index.md: PHP Manual
   - refs.international.md: Підтримка мов та кодувань

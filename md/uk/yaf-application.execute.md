@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.environ.html: '« YafApplication::environ'
-  - yaf-application.getappdirectory.html: 'YafApplication::getAppDirectory »'
-  - index.html: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - yaf-application.environ.md: '« YafApplication::environ'
+  - yaf-application.getappdirectory.md: 'YafApplication::getAppDirectory »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::execute'
 ---
 # YafApplication::execute

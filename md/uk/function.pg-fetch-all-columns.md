@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-execute.html: « pgexecute
-  - function.pg-fetch-all.html: пгfetchall »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-execute.md: « pgexecute
+  - function.pg-fetch-all.md: пгfetchall »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгfetchallcolumns
 ---
 # пгfetchallcolumns
@@ -18,7 +18,7 @@ title: пгfetchallcolumns
 pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 ```
 
-**пгfetchallcolumns()** повертає масив, що містить усі записи однієї колонки екземпляра [PgSqlResult](class.pgsql-result.html)
+**пгfetchallcolumns()** повертає масив, що містить усі записи однієї колонки екземпляра [PgSqlResult](class.pgsql-result.md)
 
 > **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
@@ -26,7 +26,7 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field`
 
@@ -40,7 +40,7 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -70,4 +70,4 @@ var_dump($arr);
 
 ### Дивіться також
 
--   [пгfetchall()](function.pg-fetch-all.html) - Вибирає всі дані з результату запиту та поміщає їх у масив
+-   [пгfetchall()](function.pg-fetch-all.md) - Вибирає всі дані з результату запиту та поміщає їх у масив

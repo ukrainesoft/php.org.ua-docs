@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.shm-remove.html: « shmremove
+  - function.shm-remove.md: « shmremove
   - class.sysvsemaphore.md: SysvSemaphore »
   - index.md: PHP Manual
   - book.sem.md: Семафори

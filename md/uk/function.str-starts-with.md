@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.str-split.html: « strsplit
-  - function.str-word-count.html: strwordcount »
+  - function.str-split.md: « strsplit
+  - function.str-word-count.md: strwordcount »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strstartswith

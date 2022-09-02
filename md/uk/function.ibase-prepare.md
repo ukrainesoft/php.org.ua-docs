@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-pconnect.html: « ibasepconnect
-  - function.ibase-query.html: ibasequery »
+  - function.ibase-pconnect.md: « ibasepconnect
+  - function.ibase-query.md: ibasequery »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseprepare

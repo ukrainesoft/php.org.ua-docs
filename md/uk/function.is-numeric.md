@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-null.html: « isnull
-  - function.is-object.html: ісobject »
+  - function.is-null.md: « isnull
+  - function.is-object.md: ісobject »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: ісnumeric

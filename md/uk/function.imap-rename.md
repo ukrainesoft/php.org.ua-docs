@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-qprint.html: « imapqprint
-  - function.imap-renamemailbox.html: imaprenamemailbox »
+  - function.imap-qprint.md: « imapqprint
+  - function.imap-renamemailbox.md: imaprenamemailbox »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imaprename

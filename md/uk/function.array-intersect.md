@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-intersect-ukey.html: « arrayintersectukey
-  - function.array-is-list.html: arrayісlist »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-intersect-ukey.md: « arrayintersectukey
+  - function.array-is-list.md: arrayісlist »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayintersect
 ---
 # arrayintersect
@@ -69,6 +69,6 @@ Array
 
 ### Дивіться також
 
--   [arrayintersectassoc()](function.array-intersect-assoc.html) - обчислює сходження масивів з додатковою перевіркою індексу
--   [arraydiff()](function.array-diff.html) - Обчислити розбіжність масивів
--   [arraydiffassoc()](function.array-diff-assoc.html) - обчислює розбіжність масивів з додатковою перевіркою індексу
+-   [arrayintersectassoc()](function.array-intersect-assoc.md) - обчислює сходження масивів з додатковою перевіркою індексу
+-   [arraydiff()](function.array-diff.md) - Обчислити розбіжність масивів
+-   [arraydiffassoc()](function.array-diff-assoc.md) - обчислює розбіжність масивів з додатковою перевіркою індексу

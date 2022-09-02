@@ -1,9 +1,9 @@
 ---
 navigation:
-  - wincache.setup.html: « Встановлення та налаштування
-  - wincache.installation.html: Установка »
-  - index.html: PHP Manual
-  - wincache.setup.html: Встановлення та налаштування
+  - wincache.setup.md: « Встановлення та налаштування
+  - wincache.installation.md: Установка »
+  - index.md: PHP Manual
+  - wincache.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

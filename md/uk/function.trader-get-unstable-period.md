@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-get-compat.html: « tradergetcompat
-  - function.trader-ht-dcperiod.html: traderхтdcperiod »
+  - function.trader-get-compat.md: « tradergetcompat
+  - function.trader-ht-dcperiod.md: traderхтdcperiod »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradergetunstableперіод

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-map.html: « arraymap
-  - function.array-merge.html: arraymerge »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-map.md: « arraymap
+  - function.array-merge.md: arraymerge »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraymergerecursive
 ---
 # arraymergerecursive
@@ -74,5 +74,5 @@ Array
 
 ### Дивіться також
 
--   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів
--   [arrayreplacerecursive()](function.array-replace-recursive.html) - Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
+-   [arraymerge()](function.array-merge.md) - Зливає один або більше масивів
+-   [arrayreplacerecursive()](function.array-replace-recursive.md) - Рекурсивно замінює елементи першого масиву на елементи переданих масивів.

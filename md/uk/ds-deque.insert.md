@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.get.html: '« DsDeque::get'
-  - ds-deque.isempty.html: 'ДсDeque::isEmpty »'
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - ds-deque.get.md: '« DsDeque::get'
+  - ds-deque.isempty.md: 'ДсDeque::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::insert'
 ---
 # ДсDeque::insert
@@ -40,7 +40,7 @@ public Ds\Deque::insert(int $index, mixed ...$values): void
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html) у разі некоректного індексу.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md) у разі некоректного індексу.
 
 ### Приклади
 

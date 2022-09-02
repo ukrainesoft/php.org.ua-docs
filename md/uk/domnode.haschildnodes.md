@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domnode.hasattributes.html: '« DOMNode::hasAttributes'
-  - domnode.insertbefore.html: 'DOMNode::insertBefore »'
-  - index.html: PHP Manual
-  - class.domnode.html: DOMNode
+  - domnode.hasattributes.md: '« DOMNode::hasAttributes'
+  - domnode.insertbefore.md: 'DOMNode::insertBefore »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
 title: 'DOMNode::hasChildNodes'
 ---
 # DOMNode::hasChildNodes
@@ -30,4 +30,4 @@ public DOMNode::hasChildNodes(): bool
 
 ### Дивіться також
 
--   [DOMNode::hasAttributes()](domnode.hasattributes.html) - Перевіряє, чи має цей вузол атрибути
+-   [DOMNode::hasAttributes()](domnode.hasattributes.md) - Перевіряє, чи має цей вузол атрибути

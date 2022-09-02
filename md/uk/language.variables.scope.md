@@ -193,7 +193,7 @@ var_dump(Bar::counter()); // int(4), до PHP 8.1.0 int(2)
 
 ### Посилання з глобальними (`global`) та статичними (`static`) змінними
 
-PHP використовує модифікатори змінних [static](language.variables.scope.html#language.variables.scope.static) і [global](language.variables.scope.html#language.variables.scope.global) як [посилання](language.references.md). Наприклад, реальна глобальна змінна, впроваджена область видимості функції вказівкою ключового слова `global`, Насправді створює посилання на глобальну змінну. Це може призвести до несподіваної поведінки, як це показано в наступному прикладі:
+PHP використовує модифікатори змінних [static](language.variables.scope.md#language.variables.scope.static) і [global](language.variables.scope.md#language.variables.scope.global) як [посилання](language.references.md). Наприклад, реальна глобальна змінна, впроваджена область видимості функції вказівкою ключового слова `global`, Насправді створює посилання на глобальну змінну. Це може призвести до несподіваної поведінки, як це показано в наступному прикладі:
 
 ```php
 <?php

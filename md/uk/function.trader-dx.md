@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-div.html: « traderdiv
-  - function.trader-ema.html: traderema »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-div.md: « traderdiv
+  - function.trader-ema.md: traderema »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderдкс
 ---
 # traderдкс

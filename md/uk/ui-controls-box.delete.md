@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-box.construct.html: '« UIControlsBox::construct'
-  - ui-controls-box.getorientation.html: 'ОЙControlsBox::getOrientation »'
+  - ui-controls-box.construct.md: '« UIControlsBox::construct'
+  - ui-controls-box.getorientation.md: 'ОЙControlsBox::getOrientation »'
   - index.md: PHP Manual
-  - class.ui-controls-box.html: ОЙControlsBox
+  - class.ui-controls-box.md: ОЙControlsBox
 title: 'ОЙControlsBox::delete'
 ---
 # ОЙControlsBox::delete

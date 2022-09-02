@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-fact.html: « gmpfact
-  - function.gmp-gcdext.html: gmpgcdext »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-fact.md: « gmpfact
+  - function.gmp-gcdext.md: gmpgcdext »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpgcd
 ---
 # gmpgcd
@@ -24,11 +24,11 @@ gmp_gcd(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 `num1`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 
@@ -53,4 +53,4 @@ echo gmp_strval($gcd) . "\n";
 
 ### Дивіться також
 
--   [gmplcm()](function.gmp-lcm.html) - обчислює найменше загальне кратне
+-   [gmplcm()](function.gmp-lcm.md) - обчислює найменше загальне кратне

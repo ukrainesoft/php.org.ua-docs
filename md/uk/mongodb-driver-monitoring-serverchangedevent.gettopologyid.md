@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.html: '« MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription'
-  - class.mongodb-driver-monitoring-serverclosedevent.html: MongoDBDriverMonitoringServerClosedEvent »
+  - mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.md: '« MongoDBDriverMonitoringServerChangedEvent::getPreviousDescription'
+  - class.mongodb-driver-monitoring-serverclosedevent.md: MongoDBDriverMonitoringServerClosedEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverchangedevent.html: MongoDBDriverMonitoringServerChangedEvent
+  - class.mongodb-driver-monitoring-serverchangedevent.md: MongoDBDriverMonitoringServerChangedEvent
 title: 'MongoDBDriverMonitoringServerChangedEvent::getTopologyId'
 ---
 # MongoDBDriverMonitoringServerChangedEvent::getTopologyId

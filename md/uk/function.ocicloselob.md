@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocicancel.html: « ocicancel
-  - function.ocicollappend.html: ocicollappend »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocicancel.md: « ocicancel
+  - function.ocicollappend.md: ocicollappend »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocicloselob
 ---
 # ocicloselob

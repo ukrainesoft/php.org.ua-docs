@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-training-algorithm.html: « fannsettrainingalgorithm
-  - function.fann-set-weight.html: fannsetweight »
+  - function.fann-set-training-algorithm.md: « fannsettrainingalgorithm
+  - function.fann-set-weight.md: fannsetweight »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetweightarray

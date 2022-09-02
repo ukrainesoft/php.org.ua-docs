@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mt-srand.html: « mtsrand
-  - function.pi.html: pi »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.mt-srand.md: « mtsrand
+  - function.pi.md: pi »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: octdec
 ---
 # octdec
@@ -62,7 +62,7 @@ echo octdec(decoct(45));
 
 ### Дивіться також
 
--   [decoct()](function.decoct.html) - Переводить число з десяткової системи числення до восьмирічної
--   [bindec()](function.bindec.html) - Двійкове у десяткове
--   [hexdec()](function.hexdec.html) - Переводить число з шістнадцяткової системи числення до десяткової
--   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [decoct()](function.decoct.md) - Переводить число з десяткової системи числення до восьмирічної
+-   [bindec()](function.bindec.md) - Двійкове у десяткове
+-   [hexdec()](function.hexdec.md) - Переводить число з шістнадцяткової системи числення до десяткової
+-   [baseconvert()](function.base-convert.md) - Перетворення числа між довільними системами числення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xmlrpc-encode-request.html: « xmlrpcencoderequest
-  - function.xmlrpc-get-type.html: xmlrpcgettype »
-  - index.html: PHP Manual
-  - ref.xmlrpc.html: Функції XML-RPC
+  - function.xmlrpc-encode-request.md: « xmlrpcencoderequest
+  - function.xmlrpc-get-type.md: xmlrpcgettype »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcencode
 ---
 # xmlrpcencode

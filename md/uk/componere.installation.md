@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere.requirements.html: « Вимоги
-  - class.componere-abstract-definition.html: ComponereAbstractDefinition »
-  - index.html: PHP Manual
-  - componere.setup.html: Встановлення та налаштування
+  - componere.requirements.md: « Вимоги
+  - class.componere-abstract-definition.md: ComponereAbstractDefinition »
+  - index.md: PHP Manual
+  - componere.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

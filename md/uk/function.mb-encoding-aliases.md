@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-encode-numericentity.html: « mbencodenumericentity
-  - function.mb-ereg-match.html: мбeregmatch »
+  - function.mb-encode-numericentity.md: « mbencodenumericentity
+  - function.mb-ereg-match.md: мбeregmatch »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбencodingaliases

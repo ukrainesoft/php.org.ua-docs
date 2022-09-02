@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.shmop-delete.html: « shmopdelete
-  - function.shmop-read.html: shmopread »
+  - function.shmop-delete.md: « shmopdelete
+  - function.shmop-read.md: shmopread »
   - index.md: PHP Manual
   - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
 title: shmopopen

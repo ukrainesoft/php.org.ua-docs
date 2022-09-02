@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-first-entry.html: « ldapfirstentry
-  - function.ldap-free-result.html: ldapfreeresult »
+  - function.ldap-first-entry.md: « ldapfirstentry
+  - function.ldap-free-result.md: ldapfreeresult »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapfirstreference

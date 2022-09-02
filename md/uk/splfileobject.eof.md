@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.current.html: '« SplFileObject::current'
-  - splfileobject.fflush.html: 'SplFileObject::fflush »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.current.md: '« SplFileObject::current'
+  - splfileobject.fflush.md: 'SplFileObject::fflush »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::eof'
 ---
 # SplFileObject::eof

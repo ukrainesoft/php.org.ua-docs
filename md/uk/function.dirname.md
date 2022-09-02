@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.delete.md: « delete
-  - function.disk-free-space.html: diskfreespace »
+  - function.disk-free-space.md: diskfreespace »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: dirname

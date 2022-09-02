@@ -1,9 +1,9 @@
 ---
 navigation:
-  - locale.getdefault.html: '« Locale::getDefault'
-  - locale.getdisplayname.html: 'Locale::getDisplayName »'
-  - index.html: PHP Manual
-  - class.locale.html: Locale
+  - locale.getdefault.md: '« Locale::getDefault'
+  - locale.getdisplayname.md: 'Locale::getDisplayName »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
 title: 'Locale::getDisplayLanguage'
 ---
 # Locale::getDisplayLanguage
@@ -86,7 +86,7 @@ Slowenisch
 
 ### Дивіться також
 
--   [localegetdisplayname()](locale.getdisplayname.html) - Повертає відповідним чином локалізоване ім'я локалі
--   [localegetdisplayscript()](locale.getdisplayscript.html) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
--   [localegetdisplayregion()](locale.getdisplayregion.html) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
--   [localegetdisplayvariant()](locale.getdisplayvariant.html) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі
+-   [localegetdisplayname()](locale.getdisplayname.md) - Повертає відповідним чином локалізоване ім'я локалі
+-   [localegetdisplayscript()](locale.getdisplayscript.md) - Повертає відповідним чином локалізовану назву алфавіту для заданої локалі
+-   [localegetdisplayregion()](locale.getdisplayregion.md) - Повертає відповідним чином локалізовану назву регіону для заданої локалі
+-   [localegetdisplayvariant()](locale.getdisplayvariant.md) - Повертає відповідним чином локалізовану назву варіанта для заданої локалі

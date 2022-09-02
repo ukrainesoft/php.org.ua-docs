@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.dns-get-record.html: « dnsgetrecord
+  - function.dns-get-record.md: « dnsgetrecord
   - function.gethostbyaddr.md: gethostbyaddr »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
@@ -48,7 +48,7 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 `timeout`
 
-Час очікування з'єднання за секунди. Якщо **`null`**, використовується налаштування php.ini [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)
+Час очікування з'єднання за секунди. Якщо **`null`**, використовується налаштування php.ini [defaultsockettimeout](filesystem.configuration.md#ini.default-socket-timeout)
 
 > **Зауваження**
 > 

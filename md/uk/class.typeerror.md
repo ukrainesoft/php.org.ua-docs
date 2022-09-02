@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.parseerror.html: « ParseError
-  - class.valueerror.html: ValueError »
-  - index.html: PHP Manual
-  - reserved.exceptions.html: Обумовлені винятки
+  - class.parseerror.md: « ParseError
+  - class.valueerror.md: ValueError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
 title: TypeError
 ---
 # TypeError
@@ -80,4 +80,4 @@ private Error::__clone(): void
 
 | Версия | Описание |
 | --- | --- |
-|  | Виняток **TypeError** більше не викидається, коли у вбудовану PHP-функцію у режимі strict type передається неприпустима кількість аргументів. Натомість викидається [ArgumentCountError](class.argumentcounterror.html) |
+|  | Виняток **TypeError** більше не викидається, коли у вбудовану PHP-функцію у режимі strict type передається неприпустима кількість аргументів. Натомість викидається [ArgumentCountError](class.argumentcounterror.md) |

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-editablecombo.onchange.html: '« UIControlsEditableCombo::onChange'
-  - class.ui-controls-radio.html: ОЙControlsRadio »
+  - ui-controls-editablecombo.onchange.md: '« UIControlsEditableCombo::onChange'
+  - class.ui-controls-radio.md: ОЙControlsRadio »
   - index.md: PHP Manual
-  - class.ui-controls-editablecombo.html: ОЙControlsEditableCombo
+  - class.ui-controls-editablecombo.md: ОЙControlsEditableCombo
 title: 'ОЙControlsEditableCombo::setText'
 ---
 # ОЙControlsEditableCombo::setText

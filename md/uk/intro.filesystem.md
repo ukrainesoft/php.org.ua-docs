@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.filesystem.html: « Файлова система
-  - filesystem.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.filesystem.html: Файлова система
+  - book.filesystem.md: « Файлова система
+  - filesystem.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.filesystem.md: Файлова система
 title: Вступ
 ---
 # Вступ

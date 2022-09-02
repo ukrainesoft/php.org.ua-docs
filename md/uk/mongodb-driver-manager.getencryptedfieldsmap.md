@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-manager.executewritecommand.html: '« MongoDBDriverManager::executeWriteCommand'
-  - mongodb-driver-manager.getreadconcern.html: 'MongoDBDriverManager::getReadConcern »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-manager.html: MongoDBDriverManager
+  - mongodb-driver-manager.executewritecommand.md: '« MongoDBDriverManager::executeWriteCommand'
+  - mongodb-driver-manager.getreadconcern.md: 'MongoDBDriverManager::getReadConcern »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
 title: 'MongoDBDriverManager::getEncryptedFieldsMap'
 ---
 # MongoDBDriverManager::getEncryptedFieldsMap
@@ -30,8 +30,8 @@ final public MongoDB\Driver\Manager::getEncryptedFieldsMap(): array|object|null
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
+-   [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md) - Створює новий Manager MongoDB

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.msg-send.html: « msgsend
-  - function.msg-stat-queue.html: msgstatqueue »
+  - function.msg-send.md: « msgsend
+  - function.msg-stat-queue.md: msgstatqueue »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: msgsetqueue

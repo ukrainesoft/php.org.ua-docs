@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.get.html: '« Zookeeper::get'
-  - zookeeper.getchildren.html: 'Zookeeper::getChildren »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.get.md: '« Zookeeper::get'
+  - zookeeper.getchildren.md: 'Zookeeper::getChildren »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::getAcl'
 ---
 # Zookeeper::getAcl
@@ -84,5 +84,5 @@ array(1) {
 
 -   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
 -   [Zookeeper::setAcl()](zookeeper.setacl.md) - Встановлює ACL, пов'язаний із вузлом синхронно
--   [Разрешения ZooKeeper](class.zookeeper.html#zookeeper.class.constants.perms)
+-   [Разрешения ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 -   [ZookeeperException](class.zookeeperexception.md)

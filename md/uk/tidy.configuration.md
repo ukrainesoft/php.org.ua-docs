@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [tidy.defaultconfig](tidy.configuration.html#ini.tidy.default-config) | "" | PHPINISYSTEM |  |
-| [tidy.cleanoutput](tidy.configuration.html#ini.tidy.clean-output) | "0" | PHPINIUSER |  |
+| [tidy.defaultconfig](tidy.configuration.md#ini.tidy.default-config) | "" | PHPINISYSTEM |  |
+| [tidy.cleanoutput](tidy.configuration.md#ini.tidy.clean-output) | "0" | PHPINIUSER |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

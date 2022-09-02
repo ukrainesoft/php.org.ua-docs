@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-get-file.html: « fdfgetfile
-  - function.fdf-get-opt.html: fdfgetopt »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-get-file.md: « fdfgetfile
+  - function.fdf-get-opt.md: fdfgetopt »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfgetflags
 ---
 # fdfgetflags

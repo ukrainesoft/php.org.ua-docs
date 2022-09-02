@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.getcapath.html: '« OAuth::getCAPath'
-  - oauth.getlastresponseheaders.html: 'OAuth::getLastResponseHeaders »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.getcapath.md: '« OAuth::getCAPath'
+  - oauth.getlastresponseheaders.md: 'OAuth::getLastResponseHeaders »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::getLastResponse'
 ---
 # OAuth::getLastResponse
@@ -30,5 +30,5 @@ public OAuth::getLastResponse(): string
 
 ### Дивіться також
 
--   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.html) - Отримати HTTP-інформацію про останню відповідь
--   [OAuth::fetch()](oauth.fetch.html) - Витягти захищений ресурс OAuth
+-   [OAuth::getLastResponseInfo()](oauth.getlastresponseinfo.md) - Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::fetch()](oauth.fetch.md) - Витягти захищений ресурс OAuth

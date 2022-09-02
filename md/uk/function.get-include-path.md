@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-extension-funcs.html: « getextensionfuncs
-  - function.get-included-files.html: getincludedfiles »
+  - function.get-extension-funcs.md: « getextensionfuncs
+  - function.get-included-files.md: getincludedfiles »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getincludepath
@@ -18,7 +18,7 @@ getincludepath — Отримання поточного значення кон
 get_include_path(): string|false
 ```
 
-Отримує значення налаштування конфігурації [includepath](ini.core.html#ini.include-path)
+Отримує значення налаштування конфігурації [includepath](ini.core.md#ini.include-path)
 
 ### Список параметрів
 

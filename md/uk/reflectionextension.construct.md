@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionextension.clone.html: '« ReflectionExtension::clone'
-  - reflectionextension.export.html: 'ReflectionExtension::export »'
-  - index.html: PHP Manual
-  - class.reflectionextension.html: ReflectionExtension
+  - reflectionextension.clone.md: '« ReflectionExtension::clone'
+  - reflectionextension.export.md: 'ReflectionExtension::export »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::construct'
 ---
 # ReflectionExtension::construct
@@ -16,7 +16,7 @@ ReflectionExtension::construct — Створює об'єкт класу Reflect
 
 public **ReflectionExtension::construct**(string `$name`
 
-Створює об'єкт (object) класу [ReflectionExtension](class.reflectionextension.html)
+Створює об'єкт (object) класу [ReflectionExtension](class.reflectionextension.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ public **ReflectionExtension::construct**(string `$name`
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ReflectionExtension](class.reflectionextension.html)**
+**Приклад #1 Приклад використання [ReflectionExtension](class.reflectionextension.md)**
 
 ```php
 <?php
@@ -44,5 +44,5 @@ printf('Модуль: %s (версия: %s)', $ext->getName(), $ext->getVer
 
 ### Дивіться також
 
--   [ReflectionExtension::info()](reflectionextension.info.html) - Виведення інформації про модуль
--   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [ReflectionExtension::info()](reflectionextension.info.md) - Виведення інформації про модуль
+-   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

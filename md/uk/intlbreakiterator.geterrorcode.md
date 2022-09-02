@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlbreakiterator.following.html: '« IntlBreakIterator::following'
-  - intlbreakiterator.geterrormessage.html: 'IntlBreakIterator::getErrorMessage »'
-  - index.html: PHP Manual
-  - class.intlbreakiterator.html: IntlBreakIterator
+  - intlbreakiterator.following.md: '« IntlBreakIterator::following'
+  - intlbreakiterator.geterrormessage.md: 'IntlBreakIterator::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
 title: 'IntlBreakIterator::getErrorCode'
 ---
 # IntlBreakIterator::getErrorCode

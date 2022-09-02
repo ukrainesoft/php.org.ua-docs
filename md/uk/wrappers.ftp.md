@@ -1,9 +1,9 @@
 ---
 navigation:
-  - wrappers.http.html: 'http://'
-  - wrappers.php.html: 'php:// »'
-  - index.html: PHP Manual
-  - wrappers.html: Підтримувані протоколи та обгортки
+  - wrappers.http.md: 'http://'
+  - wrappers.php.md: 'php:// »'
+  - index.md: PHP Manual
+  - wrappers.md: Підтримувані протоколи та обгортки
 title: 'ftp://'
 ---
 # ftp://
@@ -16,9 +16,9 @@ ftp:// -- ftps:// — Доступ до URL-адрес за протоколом
 
 Дозволяє читати існуючі файли та створювати нові файли через FTP. Якщо FTP-сервер не підтримує пасивний режим, з'єднання буде неможливо.
 
-Ви можете відкрити файл або для читання або для запису, але не одночасно для того й іншого. Якщо файл на сервері FTP вже існує, і ви намагаєтеся відкрити його для запису, але не вказали опцію контексту `overwrite`, з'єднання буде неможливо. Якщо вам потрібно перезаписати існуючі файли на FTP, вкажіть опцію `overwrite` у контексті та відкрийте файл для запису. Крім того, ви можете використовувати [модуль FTP](ref.ftp.html)
+Ви можете відкрити файл або для читання або для запису, але не одночасно для того й іншого. Якщо файл на сервері FTP вже існує, і ви намагаєтеся відкрити його для запису, але не вказали опцію контексту `overwrite`, з'єднання буде неможливо. Якщо вам потрібно перезаписати існуючі файли на FTP, вкажіть опцію `overwrite` у контексті та відкрийте файл для запису. Крім того, ви можете використовувати [модуль FTP](ref.ftp.md)
 
-Якщо ви встановили директиву [from](filesystem.configuration.html#ini.from) у файлі php.ini, це значення буде відправлено як пароль при анонімному підключенні до FTP.
+Якщо ви встановили директиву [from](filesystem.configuration.md#ini.from) у файлі php.ini, це значення буде відправлено як пароль при анонімному підключенні до FTP.
 
 ### Використання
 
@@ -33,22 +33,22 @@ ftp:// -- ftps:// — Доступ до URL-адрес за протоколом
 
 | Атрибут | Поддерживается |
 | --- | --- |
-| Обмеження по [allowurlfopen](filesystem.configuration.html#ini.allow-url-fopen) | Так |
+| Обмеження по [allowurlfopen](filesystem.configuration.md#ini.allow-url-fopen) | Так |
 | Читання | Так |
 | Запис | Так (нові файли / існуючі файли з опцією `overwrite` |
 | Додавання | Так |
 | Одночасне читання та запис | Ні |
-| Підтримка [stat()](function.stat.html) | [filesize()](function.filesize.html) [filemtime()](function.filemtime.html) [filetype()](function.filetype.html) [fileexists()](function.file-exists.html) [ісfile()](function.is-file.html) і [ісdir()](function.is-dir.html) |
-| Підтримка [unlink()](function.unlink.html) | Так |
-| Підтримка [rename()](function.rename.html) | Так |
-| Підтримка [mkdir()](function.mkdir.html) | Так |
-| Підтримка [rmdir()](function.rmdir.html) | Так |
+| Підтримка [stat()](function.stat.md) | [filesize()](function.filesize.md) [filemtime()](function.filemtime.md) [filetype()](function.filetype.md) [fileexists()](function.file-exists.md) [ісfile()](function.is-file.md) і [ісdir()](function.is-dir.md) |
+| Підтримка [unlink()](function.unlink.md) | Так |
+| Підтримка [rename()](function.rename.md) | Так |
+| Підтримка [mkdir()](function.mkdir.md) | Так |
+| Підтримка [rmdir()](function.rmdir.md) | Так |
 
 ### Примітки
 
 > **Зауваження**
 > 
-> FTPS підтримується лише тоді, коли увімкнена підтримка модуля [OpenSSL](book.openssl.html)
+> FTPS підтримується лише тоді, коли увімкнена підтримка модуля [OpenSSL](book.openssl.md)
 > 
 > Якщо сервер не підтримує SSL, з'єднання перемикається назад на звичайний нешифрований протокол FTP.
 
@@ -57,4 +57,4 @@ ftp:// -- ftps:// — Доступ до URL-адрес за протоколом
 
 ### Дивіться також
 
--   [Параметри контексту FTP](context.ftp.html)
+-   [Параметри контексту FTP](context.ftp.md)

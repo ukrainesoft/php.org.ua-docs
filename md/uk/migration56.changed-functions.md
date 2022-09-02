@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration56.deprecated.md: '« Функціонал, оголошений застарілим у PHP 5.6.x'
-  - migration56.new-functions.html: Нові функції »
+  - migration56.new-functions.md: Нові функції »
   - index.md: PHP Manual
   - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
 title: Змінені функції
@@ -28,8 +28,8 @@ title: Змінені функції
 
 ### [PostgreSQL](book.pgsql.md)
 
--   [пгinsert()](function.pg-insert.html) [пгselect()](function.pg-select.html) [пгupdate()](function.pg-update.html) і [пгdelete()](function.pg-delete.md) більше не є експериментальними.
--   [пгsendexecute()](function.pg-send-execute.html) [пгsendprepare()](function.pg-send-prepare.html) [пгsendquery()](function.pg-send-query.html) і [пгsendqueryparams()](function.pg-send-query-params.md) більше не блокуються до завершення запису запиту, якщо нижчий потік сокету для з'єднання з базою даних перебуває в режимі неблокування.
+-   [пгinsert()](function.pg-insert.md) [пгselect()](function.pg-select.md) [пгupdate()](function.pg-update.md) і [пгdelete()](function.pg-delete.md) більше не є експериментальними.
+-   [пгsendexecute()](function.pg-send-execute.md) [пгsendprepare()](function.pg-send-prepare.md) [пгsendquery()](function.pg-send-query.md) і [пгsendqueryparams()](function.pg-send-query-params.md) більше не блокуються до завершення запису запиту, якщо нижчий потік сокету для з'єднання з базою даних перебуває в режимі неблокування.
 
 ### [Reflection](book.reflection.md)
 

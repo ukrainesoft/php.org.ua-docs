@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.flush.html: '« XMLWriter::flush'
-  - xmlwriter.openmemory.html: 'XMLWriter::openMemory »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.flush.md: '« XMLWriter::flush'
+  - xmlwriter.openmemory.md: 'XMLWriter::openMemory »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::fullEndElement'
 ---
 # XMLWriter::fullEndElement
@@ -34,7 +34,7 @@ xmlwriter_full_end_element(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
@@ -44,8 +44,8 @@ xmlwriter_full_end_element(XMLWriter $writer): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::endElement()](xmlwriter.endelement.html) - Завершити поточний елемент
+-   [XMLWriter::endElement()](xmlwriter.endelement.md) - Завершити поточний елемент

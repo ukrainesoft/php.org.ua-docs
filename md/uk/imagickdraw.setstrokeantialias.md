@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setstrokealpha.html: '« ImagickDraw::setStrokeAlpha'
-  - imagickdraw.setstrokecolor.html: 'ImagickDraw::setStrokeColor »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setstrokealpha.md: '« ImagickDraw::setStrokeAlpha'
+  - imagickdraw.setstrokecolor.md: 'ImagickDraw::setStrokeColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setStrokeAntialias'
 ---
 # ImagickDraw::setStrokeAntialias

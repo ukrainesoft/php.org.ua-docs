@@ -1,16 +1,16 @@
 ---
 navigation:
-  - reflectionclass.getproperty.html: '« ReflectionClass::getProperty'
-  - reflectionclass.getreflectionconstants.html: 'ReflectionClass::getReflectionConstants »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.getproperty.md: '« ReflectionClass::getProperty'
+  - reflectionclass.getreflectionconstants.md: 'ReflectionClass::getReflectionConstants »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getReflectionConstant'
 ---
 # ReflectionClass::getReflectionConstant
 
 (PHP 7> = 7.1.0, PHP 8)
 
-ReflectionClass::getReflectionConstant — Отримує [ReflectionClassConstant](class.reflectionclassconstant.html) для константи класу
+ReflectionClass::getReflectionConstant — Отримує [ReflectionClassConstant](class.reflectionclassconstant.md) для константи класу
 
 ### Опис
 
@@ -18,7 +18,7 @@ ReflectionClass::getReflectionConstant — Отримує [ReflectionClassConsta
 public ReflectionClass::getReflectionConstant(string $name): ReflectionClassConstant|false
 ```
 
-Отримує [ReflectionClassConstant](class.reflectionclassconstant.html) для якості константи.
+Отримує [ReflectionClassConstant](class.reflectionclassconstant.md) для якості константи.
 
 ### Список параметрів
 
@@ -28,9 +28,9 @@ public ReflectionClass::getReflectionConstant(string $name): ReflectionClassCons
 
 ### Значення, що повертаються
 
-Об'єкт [ReflectionClassConstant](class.reflectionclassconstant.html) або **`false`** у разі виникнення помилки.
+Об'єкт [ReflectionClassConstant](class.reflectionclassconstant.md) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [ReflectionClass::getReflectionConstants()](reflectionclass.getreflectionconstants.html) - Отримує константи класу
--   [ReflectionClassConstant](class.reflectionclassconstant.html)
+-   [ReflectionClass::getReflectionConstants()](reflectionclass.getreflectionconstants.md) - Отримує константи класу
+-   [ReflectionClassConstant](class.reflectionclassconstant.md)

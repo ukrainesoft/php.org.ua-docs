@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.peek.html: '« DsQueue::peek'
-  - ds-queue.push.html: 'ДсQueue::push »'
+  - ds-queue.peek.md: '« DsQueue::peek'
+  - ds-queue.push.md: 'ДсQueue::push »'
   - index.md: PHP Manual
-  - class.ds-queue.html: Черга
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::pop'
 ---
 # ДсQueue::pop

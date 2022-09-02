@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parentiterator.next.html: '« ParentIterator::next'
-  - class.recursivearrayiterator.html: RecursiveArrayIterator »
-  - index.html: PHP Manual
-  - class.parentiterator.html: ParentIterator
+  - parentiterator.next.md: '« ParentIterator::next'
+  - class.recursivearrayiterator.md: RecursiveArrayIterator »
+  - index.md: PHP Manual
+  - class.parentiterator.md: ParentIterator
 title: 'ParentIterator::rewind'
 ---
 # ParentIterator::rewind

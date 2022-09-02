@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.add.html: '« DsSet::add'
-  - ds-set.capacity.html: 'ДсSet::capacity »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.add.md: '« DsSet::add'
+  - ds-set.capacity.md: 'ДсSet::capacity »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::allocate'
 ---
 # ДсSet::allocate

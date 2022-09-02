@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.cleartimer.html: '« SwooleServer::clearTimer'
-  - swoole-server.confirm.html: 'SwooleServer::confirm »'
+  - swoole-server.cleartimer.md: '« SwooleServer::clearTimer'
+  - swoole-server.confirm.md: 'SwooleServer::confirm »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::close'
 ---
 # SwooleServer::close

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-node.accept.html: '« CommonMarkNode::accept'
-  - commonmark-interfaces-ivisitor.enter.html: 'CommonMarkInterfacesIVisitor::enter »'
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - commonmark-node.accept.md: '« CommonMarkNode::accept'
+  - commonmark-interfaces-ivisitor.enter.md: 'CommonMarkInterfacesIVisitor::enter »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: Інтерфейс CommonMarkInterfacesIVisitor
 ---
 # Інтерфейс CommonMarkInterfacesIVisitor
@@ -50,5 +50,5 @@ abstract public leave(IVisitable $visitable): int|IVisitable|null
 
 ## Зміст
 
--   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.html) - Відвідування
--   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.html) - Відвідування
+-   [CommonMarkInterfacesIVisitor::enter](commonmark-interfaces-ivisitor.enter.md) - Відвідування
+-   [CommonMarkInterfacesIVisitor::leave](commonmark-interfaces-ivisitor.leave.md) - Відвідування

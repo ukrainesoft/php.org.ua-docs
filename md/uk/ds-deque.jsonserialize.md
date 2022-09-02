@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.join.html: '« DsDeque::join'
-  - ds-deque.last.html: 'ДсDeque::last »'
+  - ds-deque.join.md: '« DsDeque::join'
+  - ds-deque.last.md: 'ДсDeque::last »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::jsonSerialize'
 ---
 # ДсDeque::jsonSerialize

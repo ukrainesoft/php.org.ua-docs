@@ -1,7 +1,7 @@
 ---
 navigation:
-  - example.xml-structure.html: Приклад Структури Елементу XML
-  - example.xml-external-entity.html: Приклад використання зовнішніх сутностей XML »
+  - example.xml-structure.md: Приклад Структури Елементу XML
+  - example.xml-external-entity.md: Приклад використання зовнішніх сутностей XML »
   - index.md: PHP Manual
   - xml.examples.md: Приклади
 title: Приклад відображення тегів XML

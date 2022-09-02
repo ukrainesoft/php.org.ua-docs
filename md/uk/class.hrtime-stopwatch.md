@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hrtime-performancecounter.gettickssince.html: '« HRTimePerformanceCounter::getTicksSince'
-  - hrtime-stopwatch.getelapsedticks.html: 'HRTimeStopWatch::getElapsedTicks »'
-  - index.html: PHP Manual
-  - book.hrtime.html: HRTime
+  - hrtime-performancecounter.gettickssince.md: '« HRTimePerformanceCounter::getTicksSince'
+  - hrtime-stopwatch.getelapsedticks.md: 'HRTimeStopWatch::getElapsedTicks »'
+  - index.md: PHP Manual
+  - book.hrtime.md: HRTime
 title: Клас HRTimeStopWatch
 ---
 # Клас HRTimeStopWatch

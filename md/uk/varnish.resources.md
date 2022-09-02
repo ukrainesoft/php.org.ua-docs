@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnish.configuration.html: « Налаштування під час виконання
-  - varnish.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - varnish.setup.html: Встановлення та налаштування
+  - varnish.configuration.md: « Налаштування під час виконання
+  - varnish.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - varnish.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

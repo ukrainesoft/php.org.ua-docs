@@ -1,9 +1,9 @@
 ---
 navigation:
-  - locale.filtermatches.html: '« Locale::filterMatches'
-  - locale.getdefault.html: 'Locale::getDefault »'
-  - index.html: PHP Manual
-  - class.locale.html: Locale
+  - locale.filtermatches.md: '« Locale::filterMatches'
+  - locale.getdefault.md: 'Locale::getDefault »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
 title: 'Locale::getAllVariants'
 ---
 # Locale::getAllVariants

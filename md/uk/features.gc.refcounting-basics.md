@@ -1,7 +1,7 @@
 ---
 navigation:
   - features.gc.md: « Сборка мусора
-  - features.gc.collecting-cycles.html: Збір циклічних посилань »
+  - features.gc.collecting-cycles.md: Збір циклічних посилань »
   - index.md: PHP Manual
   - features.gc.md: Сборка мусора
 title: Основи підрахунку посилань

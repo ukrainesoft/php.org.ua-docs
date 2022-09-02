@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-aead-aes256gcm-decrypt.html: « sodiumcryptoaeadaes256gcmdecrypt
-  - function.sodium-crypto-aead-aes256gcm-is-available.html: sodiumcryptoaeadaes256gcmісavailable »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-aead-aes256gcm-decrypt.md: « sodiumcryptoaeadaes256gcmdecrypt
+  - function.sodium-crypto-aead-aes256gcm-is-available.md: sodiumcryptoaeadaes256gcmісavailable »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptoaeadaes256gcmencrypt
 ---
 # sodiumcryptoaeadaes256gcmencrypt

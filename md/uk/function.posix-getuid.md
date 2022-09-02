@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-getsid.html: « posixgetsid
-  - function.posix-initgroups.html: posixinitgroups »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-getsid.md: « posixgetsid
+  - function.posix-initgroups.md: posixinitgroups »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixgetuid
 ---
 # posixgetuid
@@ -40,5 +40,5 @@ echo posix_getuid(); //10000
 
 ### Дивіться також
 
--   [posixgetpwuid()](function.posix-getpwuid.html) - Повертає інформацію про користувача, використовуючи його ID
+-   [posixgetpwuid()](function.posix-getpwuid.md) - Повертає інформацію про користувача, використовуючи його ID
 -   POSIX керівництво GETUID(2)

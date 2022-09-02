@@ -20,7 +20,7 @@ print_r(mixed $value, bool $return = false): string|bool
 
 **printr()** виводить інформацію про змінну у легкочитаному вигляді.
 
-**printr()** [vardump()](function.var-dump.html) і [varexport()](function.var-export.md) можуть також відображати захищені та закриті атрибути об'єктів. Статичні елементи класу не відображатимуться.
+**printr()** [vardump()](function.var-dump.md) і [varexport()](function.var-export.md) можуть також відображати захищені та закриті атрибути об'єктів. Статичні елементи класу не відображатимуться.
 
 ### Список параметрів
 

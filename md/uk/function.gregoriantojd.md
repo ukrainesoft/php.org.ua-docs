@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.frenchtojd.html: « frenchtojd
-  - function.jddayofweek.html: jddayofweek »
-  - index.html: PHP Manual
-  - ref.calendar.html: Календарь
+  - function.frenchtojd.md: « frenchtojd
+  - function.jddayofweek.md: jddayofweek »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
 title: gregoriantojd
 ---
 # gregoriantojd
@@ -78,5 +78,5 @@ echo gregoriantojd(2, 31, 2018), PHP_EOL,
 
 ### Дивіться також
 
--   [jdtogregorian()](function.jdtogregorian.html) - Переказує кількість днів у юліанському літочисленні в дату за Григоріанським календарем
--   [calтоjd()](function.cal-to-jd.html) - Перетворює задану дату на юліанську
+-   [jdtogregorian()](function.jdtogregorian.md) - Переказує кількість днів у юліанському літочисленні в дату за Григоріанським календарем
+-   [calтоjd()](function.cal-to-jd.md) - Перетворює задану дату на юліанську

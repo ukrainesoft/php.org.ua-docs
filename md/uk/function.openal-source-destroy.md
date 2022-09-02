@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-source-create.html: « openalsourcecreate
-  - function.openal-source-get.html: openalsourceget »
+  - function.openal-source-create.md: « openalsourcecreate
+  - function.openal-source-get.md: openalsourceget »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalsourcedestroy

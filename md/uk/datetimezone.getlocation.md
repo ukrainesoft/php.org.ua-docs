@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetimezone.construct.html: '« DateTimeZone::construct'
-  - datetimezone.getname.html: 'DateTimeZone::getName »'
-  - index.html: PHP Manual
-  - class.datetimezone.html: DateTimeZone
+  - datetimezone.construct.md: '« DateTimeZone::construct'
+  - datetimezone.getname.md: 'DateTimeZone::getName »'
+  - index.md: PHP Manual
+  - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::getLocation'
 ---
 # DateTimeZone::getLocation
@@ -34,7 +34,7 @@ timezone_location_get(DateTimeZone $object): array|false
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezoneopen()](function.timezone-open.html)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezoneopen()](function.timezone-open.md)
 
 ### Значення, що повертаються
 
@@ -73,4 +73,4 @@ Array
 
 ### Дивіться також
 
--   Функція [DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.html) - Повертає чисельно індексований масив з усіма ідентифікаторами часових поясів для отримання повного або часткового списку всіх ідентифікаторів часових поясів, що підтримуються.
+-   Функція [DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.md) - Повертає чисельно індексований масив з усіма ідентифікаторами часових поясів для отримання повного або часткового списку всіх ідентифікаторів часових поясів, що підтримуються.

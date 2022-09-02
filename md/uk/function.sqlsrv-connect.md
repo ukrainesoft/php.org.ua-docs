@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sqlsrv-configure.html: « sqlsrvconfigure
-  - function.sqlsrv-errors.html: sqlsrverrors »
-  - index.html: PHP Manual
-  - ref.sqlsrv.html: Функції SQLSRV
+  - function.sqlsrv-configure.md: « sqlsrvconfigure
+  - function.sqlsrv-errors.md: sqlsrverrors »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvconnect
 ---
 # sqlsrvconnect
@@ -98,6 +98,6 @@ if( $conn ) {
 
 ### Дивіться також
 
--   [sqlsrvclose()](function.sqlsrv-close.html) - Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
--   [sqlsrverrors()](function.sqlsrv-errors.html) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
--   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrvclose()](function.sqlsrv-close.md) - Закриває відкрите з'єднання та звільняє ресурси, пов'язані з цим з'єднанням
+-   [sqlsrverrors()](function.sqlsrv-errors.md) - Повертає інформацію про помилку та попередження останньої виконаної операції SQLSRV
+-   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит

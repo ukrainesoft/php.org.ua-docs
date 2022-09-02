@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-cubrid.connection.html: « PDOCUBRID DSN
-  - ref.pdo-dblib.html: MS SQL Server (PDODBLIB) »
-  - index.html: PHP Manual
-  - ref.pdo-cubrid.html: CUBRID (PDO)
+  - ref.pdo-cubrid.connection.md: « PDOCUBRID DSN
+  - ref.pdo-dblib.md: MS SQL Server (PDODBLIB) »
+  - index.md: PHP Manual
+  - ref.pdo-cubrid.md: CUBRID (PDO)
 title: 'PDO::cubridschema'
 ---
 # PDO::cubridschema

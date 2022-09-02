@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.composite.html: '« ImagickDraw::composite'
-  - imagickdraw.destroy.html: 'ImagickDraw::destroy »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.composite.md: '« ImagickDraw::composite'
+  - imagickdraw.destroy.md: 'ImagickDraw::destroy »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::construct'
 ---
 # ImagickDraw::construct
@@ -22,7 +22,7 @@ public ImagickDraw::__construct()
 
 На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Конструктор класу [ImagickDraw](class.imagickdraw.html)
+Конструктор класу [ImagickDraw](class.imagickdraw.md)
 
 ### Значення, що повертаються
 

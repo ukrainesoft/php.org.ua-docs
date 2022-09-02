@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-session.endsession.html: '« MongoDBDriverSession::endSession'
-  - mongodb-driver-session.getlogicalsessionid.html: 'MongoDBDriverSession::getLogicalSessionId »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-session.html: MongoDBDriverSession
+  - mongodb-driver-session.endsession.md: '« MongoDBDriverSession::endSession'
+  - mongodb-driver-session.getlogicalsessionid.md: 'MongoDBDriverSession::getLogicalSessionId »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.md: MongoDBDriverSession
 title: 'MongoDBDriverSession::getClusterTime'
 ---
 # MongoDBDriverSession::getClusterTime
@@ -18,7 +18,7 @@ MongoDBDriverSession::getClusterTime — Повертає час кластер�
 final public MongoDB\Driver\Session::getClusterTime(): ?object
 ```
 
-Повертає час кластера для цього сеансу. Якщо сеанс не використовувався для будь-якої операції та [MongoDBDriverSession::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) не був викликаний, час кластера буде рівний **`null`**
+Повертає час кластера для цього сеансу. Якщо сеанс не використовувався для будь-якої операції та [MongoDBDriverSession::advanceClusterTime()](mongodb-driver-session.advanceclustertime.md) не був викликаний, час кластера буде рівний **`null`**
 
 ### Список параметрів
 
@@ -30,8 +30,8 @@ final public MongoDB\Driver\Session::getClusterTime(): ?object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverSession::advanceClusterTime()](mongodb-driver-session.advanceclustertime.html) - Збільшує час кластера для сеансу
+-   [MongoDBDriverSession::advanceClusterTime()](mongodb-driver-session.advanceclustertime.md) - Збільшує час кластера для сеансу

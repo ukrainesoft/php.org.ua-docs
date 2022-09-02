@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-controller-abstract.construct.html: '« YafControllerAbstract::construct'
-  - yaf-controller-abstract.forward.html: 'YafControllerAbstract::forward »'
-  - index.html: PHP Manual
-  - class.yaf-controller-abstract.html: YafControllerAbstract
+  - yaf-controller-abstract.construct.md: '« YafControllerAbstract::construct'
+  - yaf-controller-abstract.forward.md: 'YafControllerAbstract::forward »'
+  - index.md: PHP Manual
+  - class.yaf-controller-abstract.md: YafControllerAbstract
 title: 'YafControllerAbstract::display'
 ---
 # YafControllerAbstract::display

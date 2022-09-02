@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-test.html: « fanntest
-  - function.fann-train-on-data.html: fanntrainвінdata »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-test.md: « fanntest
+  - function.fann-train-on-data.md: fanntrainвінdata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanntrainepoch
 ---
 # fanntrainepoch

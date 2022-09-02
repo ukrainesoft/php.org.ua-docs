@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-set-option.html: '« streamWrapper::streamsetoption'
-  - streamwrapper.stream-tell.html: 'streamWrapper::streamtell »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-set-option.md: '« streamWrapper::streamsetoption'
+  - streamwrapper.stream-tell.md: 'streamWrapper::streamtell »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamстати'
 ---
 # streamWrapper::streamстати
@@ -18,7 +18,7 @@ streamWrapper::streamstat — Отримання інформації про ф�
 public streamWrapper::stream_stat(): array|false
 ```
 
-Цей метод викликається внаслідок виклику функції [fstat()](function.fstat.html)
+Цей метод викликається внаслідок виклику функції [fstat()](function.fstat.md)
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ public streamWrapper::stream_stat(): array|false
 
 ### Значення, що повертаються
 
-Дивіться [stat()](function.stat.html)
+Дивіться [stat()](function.stat.md)
 
 ### Помилки
 
@@ -34,5 +34,5 @@ public streamWrapper::stream_stat(): array|false
 
 ### Дивіться також
 
--   [stat()](function.stat.html) - Повертає інформацію про файл
--   [streamwrapper::urlstat()](streamwrapper.url-stat.html) - Отримання інформації про файл
+-   [stat()](function.stat.md) - Повертає інформацію про файл
+-   [streamwrapper::urlstat()](streamwrapper.url-stat.md) - Отримання інформації про файл

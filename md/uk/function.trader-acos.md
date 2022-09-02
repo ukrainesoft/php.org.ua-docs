@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.trader.md: « Функции Trader
-  - function.trader-ad.html: traderad »
+  - function.trader-ad.md: traderad »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderacos

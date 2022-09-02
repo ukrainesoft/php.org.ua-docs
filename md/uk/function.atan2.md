@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.asinh.html: « asinh
-  - function.atan.html: atan »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.asinh.md: « asinh
+  - function.atan.md: atan »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: atan2
 ---
 # atan2
@@ -38,4 +38,4 @@ atan2(float $y, float $x): float
 
 ### Дивіться також
 
--   [atan()](function.atan.html) - Арктангенс
+-   [atan()](function.atan.md) - Арктангенс

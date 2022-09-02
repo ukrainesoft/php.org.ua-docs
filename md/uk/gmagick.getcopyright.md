@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.gammaimage.html: '« Gmagick::gammaimage'
-  - gmagick.getfilename.html: 'Gmagick::getfilename »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.gammaimage.md: '« Gmagick::gammaimage'
+  - gmagick.getfilename.md: 'Gmagick::getfilename »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getcopyright'
 ---
 # Gmagick::getcopyright

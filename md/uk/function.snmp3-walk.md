@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.snmp3-set.html: « snmpv3set
+  - function.snmp3-set.md: « snmpv3set
   - function.snmpget.md: snmpget »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP

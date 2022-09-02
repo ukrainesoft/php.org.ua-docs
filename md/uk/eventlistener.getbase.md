@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventlistener.enable.html: '« EventListener::enable'
-  - eventlistener.getsocketname.html: 'EventListener::getSocketName »'
-  - index.html: PHP Manual
-  - class.eventlistener.html: EventListener
+  - eventlistener.enable.md: '« EventListener::enable'
+  - eventlistener.getsocketname.md: 'EventListener::getSocketName »'
+  - index.md: PHP Manual
+  - class.eventlistener.md: EventListener
 title: 'EventListener::getBase'
 ---
 # EventListener::getBase

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.configuration.html: « Налаштування під час виконання
-  - sqlite3.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - sqlite3.setup.html: Встановлення та налаштування
+  - sqlite3.configuration.md: « Налаштування під час виконання
+  - sqlite3.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - sqlite3.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

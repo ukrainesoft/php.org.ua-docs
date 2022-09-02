@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-auth-hostbased-file.html: « ssh2authhostbasedfile
-  - function.ssh2-auth-password.html: ssh2authpassword »
+  - function.ssh2-auth-hostbased-file.md: « ssh2authhostbasedfile
+  - function.ssh2-auth-password.md: ssh2authpassword »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2authnone

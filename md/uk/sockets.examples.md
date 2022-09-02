@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sockets.constants.html: « Обумовлені константи
-  - sockets.errors.html: Ошибки сокетів »
-  - index.html: PHP Manual
-  - book.sockets.html: Сокети
+  - sockets.constants.md: « Обумовлені константи
+  - sockets.errors.md: Ошибки сокетів »
+  - index.md: PHP Manual
+  - book.sockets.md: Сокети
 title: Приклади
 ---
 # Приклади

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.isdigit.html: '« IntlChar::isdigit'
-  - intlchar.isidignorable.html: 'IntlChar::isIDIgnorable »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.isdigit.md: '« IntlChar::isdigit'
+  - intlchar.isidignorable.md: 'IntlChar::isIDIgnorable »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::isgraph'
 ---
 # IntlChar::isgraph

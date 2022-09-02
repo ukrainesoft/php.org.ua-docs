@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-columnresult.html: « mysqlxdevapiColumnResult
-  - mysql-xdevapi-columnresult.getcharactersetname.html: 'ColumnResult::getCharacterSetName »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: « mysqlxdevapiColumnResult
+  - mysql-xdevapi-columnresult.getcharactersetname.md: 'ColumnResult::getCharacterSetName »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::construct'
 ---
 # ColumnResult::construct

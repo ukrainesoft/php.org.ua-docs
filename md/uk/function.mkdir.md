@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.lstat.md: « lstat
-  - function.move-uploaded-file.html: moveuploadedfile »
+  - function.move-uploaded-file.md: moveuploadedfile »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: mkdir
@@ -28,7 +28,7 @@ mkdir(    string $directory,    int $permissions = 0777,    bool $re
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 `permissions`
 
@@ -54,7 +54,7 @@ mkdir(    string $directory,    int $permissions = 0777,    bool $re
 
 > **Зауваження**
 > 
-> Якщо каталог, що створюється, вже існує, це вважається помилкою і буде повернено значення **`false`**. Використовуйте функцію [ісdir()](function.is-dir.html) або [fileexists()](function.file-exists.md), щоб перевірити, чи існує каталог, перш ніж намагатися його створити.
+> Якщо каталог, що створюється, вже існує, це вважається помилкою і буде повернено значення **`false`**. Використовуйте функцію [ісdir()](function.is-dir.md) або [fileexists()](function.file-exists.md), щоб перевірити, чи існує каталог, перш ніж намагатися його створити.
 
 ### Помилки
 

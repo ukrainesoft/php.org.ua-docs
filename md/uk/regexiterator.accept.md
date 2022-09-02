@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.regexiterator.html: « RegexIterator
-  - regexiterator.construct.html: 'RegexIterator::construct »'
-  - index.html: PHP Manual
-  - class.regexiterator.html: RegexIterator
+  - class.regexiterator.md: « RegexIterator
+  - regexiterator.construct.md: 'RegexIterator::construct »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::accept'
 ---
 # RegexIterator::accept
@@ -18,7 +18,7 @@ RegexIterator::accept — Перевірка відповідності регу
 public RegexIterator::accept(): bool
 ```
 
-Перевіряє відповідність рядка `(string)`, яку повернув метод **RegexIterator::current()** (або **RegexIterator::key()**, якщо встановлено прапор [RegexIterator::USEKEY](class.regexiterator.html#regexiterator.constants.use-key)), регулярному виразу.
+Перевіряє відповідність рядка `(string)`, яку повернув метод **RegexIterator::current()** (або **RegexIterator::key()**, якщо встановлено прапор [RegexIterator::USEKEY](class.regexiterator.md#regexiterator.constants.use-key)), регулярному виразу.
 
 ### Список параметрів
 
@@ -54,5 +54,5 @@ David
 
 ### Дивіться також
 
--   [Константи RegexIterator](class.regexiterator.html#regexiterator.constants)
--   [RegexIterator::setFlags()](regexiterator.setflags.html) - Установка прапорів
+-   [Константи RegexIterator](class.regexiterator.md#regexiterator.constants)
+-   [RegexIterator::setFlags()](regexiterator.setflags.md) - Установка прапорів

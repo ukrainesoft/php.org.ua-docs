@@ -1,75 +1,75 @@
 ---
 navigation:
-  - function.memcache-debug.html: « memcachedebug
-  - intro.memcached.html: Введение »
-  - index.html: PHP Manual
-  - refs.remote.other.html: Інші служби
+  - function.memcache-debug.md: « memcachedebug
+  - intro.memcached.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
 title: Memcached
 ---
 # Memcached
 
--   [Введение](intro.memcached.html)
--   [Встановлення та налаштування](memcached.setup.html)
-    -   [Вимоги](memcached.requirements.html)
-    -   [Установка](memcached.installation.html)
-    -   [Налаштування під час виконання](memcached.configuration.html)
-    -   [Типи ресурсів](memcached.resources.html)
--   [Обумовлені константи](memcached.constants.html)
--   [Час зберігання об'єкту](memcached.expiration.html)
--   [Опції зворотного дзвінка](memcached.callbacks.html)
-    -   [Функції зворотного дзвінка для результуючого набору](memcached.callbacks.result.html)
-    -   [Функції зворотного виклику наскрізного читання кеша](memcached.callbacks.read-through.html)
--   [Поддержка сессий](memcached.sessions.html)
--   [Memcached](class.memcached.html) - Клас Memcached
-    -   [Memcached::add](memcached.add.html) — Додає елемент із новим ключем
-    -   [Memcached::addByKey](memcached.addbykey.html) — Додає новий елемент на заданий сервер
-    -   [Memcached::addServer](memcached.addserver.html) — Додає сервер у пул
-    -   [Memcached::addServers](memcached.addservers.html) — Додає кілька серверів у пул
-    -   [Memcached::append](memcached.append.html) — Додає дані до наявного запису
-    -   [Memcached::appendByKey](memcached.appendbykey.html) — Додає дані до наявного запису на заданому сервері
-    -   [Memcached::cas](memcached.cas.html) — Порівнює та встановлює значення для запису
-    -   [Memcached::casByKey](memcached.casbykey.html) — Порівнює та встановлює значення для запису на конкретному сервері
-    -   [Memcached::construct](memcached.construct.html) - Створює екземпляр класу Memcached
-    -   [Memcached::decrement](memcached.decrement.html) — Зменшує числове значення запису
-    -   [Memcached::decrementByKey](memcached.decrementbykey.html) — Зменшує числове значення запису, що зберігається на певному сервері
-    -   [Memcached::delete](memcached.delete.html) - Видаляє запис
-    -   [Memcached::deleteByKey](memcached.deletebykey.html) — Видаляє запис із вказаного сервера
-    -   [Memcached::deleteMulti](memcached.deletemulti.html) - Видаляє кілька записів
-    -   [Memcached::deleteMultiByKey](memcached.deletemultibykey.html) — Видаляє кілька записів із вказаного сервера
-    -   [Memcached::fetch](memcached.fetch.html) — Витягує наступний результат
-    -   [Memcached::fetchAll](memcached.fetchall.html) — Витягує всі отримані записи
-    -   [Memcached::flush](memcached.flush.html) — Анулює всі записи у кеші
-    -   [Memcached::get](memcached.get.html) — Отримання запису
-    -   [Memcached::getAllKeys](memcached.getallkeys.html) — Отримує всі ключі, що зберігаються на серверах
-    -   [Memcached::getByKey](memcached.getbykey.html) — Отримує запис із певного сервера
-    -   [Memcached::getDelayed](memcached.getdelayed.html) — Запитує кілька записів
-    -   [Memcached::getDelayedByKey](memcached.getdelayedbykey.html) — Запитує кілька записів із вказаного сервера
-    -   [Memcached::getMulti](memcached.getmulti.html) — Отримує кілька записів
-    -   [Memcached::getMultiByKey](memcached.getmultibykey.html) — Отримує кілька записів із вказаного сервера
-    -   [Memcached::getOption](memcached.getoption.html) — Отримує значення Memcached параметра
-    -   [Memcached::getResultCode](memcached.getresultcode.html) — Повертає результуючий код останньої виконаної операції
-    -   [Memcached::getResultMessage](memcached.getresultmessage.html) — Повертає повідомлення, яке описує результат виконання останньої операції
-    -   [Memcached::getServerByKey](memcached.getserverbykey.html) — Отримує інформацію про сервер за ключом
-    -   [Memcached::getServerList](memcached.getserverlist.html) — Отримує список серверів у пулі
-    -   [Memcached::getStats](memcached.getstats.html) — Отримує статистику про сервери в пулі
-    -   [Memcached::getVersion](memcached.getversion.html) — Отримує інформацію про версію серверів у пулі
-    -   [Memcached::increment](memcached.increment.html) — Збільшує числове значення запису
-    -   [Memcached::incrementByKey](memcached.incrementbykey.html) — Збільшує числове значення запису, що зберігається на вказаному сервері
-    -   [Memcached::isPersistent](memcached.ispersistent.html) — Перевіряє, чи використовується стійке з'єднання з сервером memcache
-    -   [Memcached::isPristine](memcached.ispristine.html) — Перевіряє чи вже створено екземпляр класу Memcached
-    -   [Memcached::prepend](memcached.prepend.html) — Додає дані на початок існуючого запису
-    -   [Memcached::prependByKey](memcached.prependbykey.html) — Додає дані на початок існуючого запису на вказаному сервері
-    -   [Memcached::quit](memcached.quit.html) — Закриває всі відкриті з'єднання
-    -   [Memcached::replace](memcached.replace.html) — Замінює існуючий запис із зазначеним ключем
-    -   [Memcached::replaceByKey](memcached.replacebykey.html) — Замінює існуючий запис із заданим ключем на вказаному сервері
-    -   [Memcached::resetServerList](memcached.resetserverlist.html) — Очищає список серверів
-    -   [Memcached::set](memcached.set.html) - Зберігає запис
-    -   [Memcached::setByKey](memcached.setbykey.html) — Зберігає запис на вказаному сервері
-    -   [Memcached::setMulti](memcached.setmulti.html) — Зберігає кілька записів
-    -   [Memcached::setMultiByKey](memcached.setmultibykey.html) — Зберігає кілька записів на вказаному сервері
-    -   [Memcached::setOption](memcached.setoption.html) — Встановлює параметр для Memcached
-    -   [Memcached::setOptions](memcached.setoptions.html) — Встановлює декілька параметрів Memcached
-    -   [Memcached::setSaslAuthData](memcached.setsaslauthdata.html) — Встановлює облікові дані для автентифікації
-    -   [Memcached::touch](memcached.touch.html) — Встановлює новий термін зберігання для запису
-    -   [Memcached::touchByKey](memcached.touchbykey.html) — Встановлює новий термін зберігання для запису на вказаному сервері
--   [MemcachedException](class.memcachedexception.html) - Клас MemcachedException
+-   [Введение](intro.memcached.md)
+-   [Встановлення та налаштування](memcached.setup.md)
+    -   [Вимоги](memcached.requirements.md)
+    -   [Установка](memcached.installation.md)
+    -   [Налаштування під час виконання](memcached.configuration.md)
+    -   [Типи ресурсів](memcached.resources.md)
+-   [Обумовлені константи](memcached.constants.md)
+-   [Час зберігання об'єкту](memcached.expiration.md)
+-   [Опції зворотного дзвінка](memcached.callbacks.md)
+    -   [Функції зворотного дзвінка для результуючого набору](memcached.callbacks.result.md)
+    -   [Функції зворотного виклику наскрізного читання кеша](memcached.callbacks.read-through.md)
+-   [Поддержка сессий](memcached.sessions.md)
+-   [Memcached](class.memcached.md) - Клас Memcached
+    -   [Memcached::add](memcached.add.md) — Додає елемент із новим ключем
+    -   [Memcached::addByKey](memcached.addbykey.md) — Додає новий елемент на заданий сервер
+    -   [Memcached::addServer](memcached.addserver.md) — Додає сервер у пул
+    -   [Memcached::addServers](memcached.addservers.md) — Додає кілька серверів у пул
+    -   [Memcached::append](memcached.append.md) — Додає дані до наявного запису
+    -   [Memcached::appendByKey](memcached.appendbykey.md) — Додає дані до наявного запису на заданому сервері
+    -   [Memcached::cas](memcached.cas.md) — Порівнює та встановлює значення для запису
+    -   [Memcached::casByKey](memcached.casbykey.md) — Порівнює та встановлює значення для запису на конкретному сервері
+    -   [Memcached::construct](memcached.construct.md) - Створює екземпляр класу Memcached
+    -   [Memcached::decrement](memcached.decrement.md) — Зменшує числове значення запису
+    -   [Memcached::decrementByKey](memcached.decrementbykey.md) — Зменшує числове значення запису, що зберігається на певному сервері
+    -   [Memcached::delete](memcached.delete.md) - Видаляє запис
+    -   [Memcached::deleteByKey](memcached.deletebykey.md) — Видаляє запис із вказаного сервера
+    -   [Memcached::deleteMulti](memcached.deletemulti.md) - Видаляє кілька записів
+    -   [Memcached::deleteMultiByKey](memcached.deletemultibykey.md) — Видаляє кілька записів із вказаного сервера
+    -   [Memcached::fetch](memcached.fetch.md) — Витягує наступний результат
+    -   [Memcached::fetchAll](memcached.fetchall.md) — Витягує всі отримані записи
+    -   [Memcached::flush](memcached.flush.md) — Анулює всі записи у кеші
+    -   [Memcached::get](memcached.get.md) — Отримання запису
+    -   [Memcached::getAllKeys](memcached.getallkeys.md) — Отримує всі ключі, що зберігаються на серверах
+    -   [Memcached::getByKey](memcached.getbykey.md) — Отримує запис із певного сервера
+    -   [Memcached::getDelayed](memcached.getdelayed.md) — Запитує кілька записів
+    -   [Memcached::getDelayedByKey](memcached.getdelayedbykey.md) — Запитує кілька записів із вказаного сервера
+    -   [Memcached::getMulti](memcached.getmulti.md) — Отримує кілька записів
+    -   [Memcached::getMultiByKey](memcached.getmultibykey.md) — Отримує кілька записів із вказаного сервера
+    -   [Memcached::getOption](memcached.getoption.md) — Отримує значення Memcached параметра
+    -   [Memcached::getResultCode](memcached.getresultcode.md) — Повертає результуючий код останньої виконаної операції
+    -   [Memcached::getResultMessage](memcached.getresultmessage.md) — Повертає повідомлення, яке описує результат виконання останньої операції
+    -   [Memcached::getServerByKey](memcached.getserverbykey.md) — Отримує інформацію про сервер за ключом
+    -   [Memcached::getServerList](memcached.getserverlist.md) — Отримує список серверів у пулі
+    -   [Memcached::getStats](memcached.getstats.md) — Отримує статистику про сервери в пулі
+    -   [Memcached::getVersion](memcached.getversion.md) — Отримує інформацію про версію серверів у пулі
+    -   [Memcached::increment](memcached.increment.md) — Збільшує числове значення запису
+    -   [Memcached::incrementByKey](memcached.incrementbykey.md) — Збільшує числове значення запису, що зберігається на вказаному сервері
+    -   [Memcached::isPersistent](memcached.ispersistent.md) — Перевіряє, чи використовується стійке з'єднання з сервером memcache
+    -   [Memcached::isPristine](memcached.ispristine.md) — Перевіряє чи вже створено екземпляр класу Memcached
+    -   [Memcached::prepend](memcached.prepend.md) — Додає дані на початок існуючого запису
+    -   [Memcached::prependByKey](memcached.prependbykey.md) — Додає дані на початок існуючого запису на вказаному сервері
+    -   [Memcached::quit](memcached.quit.md) — Закриває всі відкриті з'єднання
+    -   [Memcached::replace](memcached.replace.md) — Замінює існуючий запис із зазначеним ключем
+    -   [Memcached::replaceByKey](memcached.replacebykey.md) — Замінює існуючий запис із заданим ключем на вказаному сервері
+    -   [Memcached::resetServerList](memcached.resetserverlist.md) — Очищає список серверів
+    -   [Memcached::set](memcached.set.md) - Зберігає запис
+    -   [Memcached::setByKey](memcached.setbykey.md) — Зберігає запис на вказаному сервері
+    -   [Memcached::setMulti](memcached.setmulti.md) — Зберігає кілька записів
+    -   [Memcached::setMultiByKey](memcached.setmultibykey.md) — Зберігає кілька записів на вказаному сервері
+    -   [Memcached::setOption](memcached.setoption.md) — Встановлює параметр для Memcached
+    -   [Memcached::setOptions](memcached.setoptions.md) — Встановлює декілька параметрів Memcached
+    -   [Memcached::setSaslAuthData](memcached.setsaslauthdata.md) — Встановлює облікові дані для автентифікації
+    -   [Memcached::touch](memcached.touch.md) — Встановлює новий термін зберігання для запису
+    -   [Memcached::touchByKey](memcached.touchbykey.md) — Встановлює новий термін зберігання для запису на вказаному сервері
+-   [MemcachedException](class.memcachedexception.md) - Клас MemcachedException

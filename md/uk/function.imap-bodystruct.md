@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-body.html: « imapbody
-  - function.imap-check.html: imapcheck »
+  - function.imap-body.md: « imapbody
+  - function.imap-check.md: imapcheck »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapbodystruct

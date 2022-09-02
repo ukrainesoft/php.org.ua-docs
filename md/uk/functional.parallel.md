@@ -1,9 +1,9 @@
 ---
 navigation:
-  - philosophy.parallel.html: « Философия
-  - parallel.bootstrap.html: parallelbootstrap »
-  - index.html: PHP Manual
-  - book.parallel.html: parallel
+  - philosophy.parallel.md: « Философия
+  - parallel.bootstrap.md: parallelbootstrap »
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
 title: Функціональний API
 ---
 # Функціональний API

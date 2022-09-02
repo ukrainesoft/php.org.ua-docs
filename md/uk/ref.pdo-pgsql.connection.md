@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-pgsql.html: « PostgreSQL (PDO)
-  - pdo.pgsqlcopyfromarray.html: 'PDO::pgsqlCopyFromArray »'
-  - index.html: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - ref.pdo-pgsql.md: « PostgreSQL (PDO)
+  - pdo.pgsqlcopyfromarray.md: 'PDO::pgsqlCopyFromArray »'
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: PDOPGSQL DSN
 ---
 # PDOPGSQL DSN

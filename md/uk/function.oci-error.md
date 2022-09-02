@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-define-by-name.html: « ocidefineбname
-  - function.oci-execute.html: ociexecute »
+  - function.oci-define-by-name.md: « ocidefineбname
+  - function.oci-execute.md: ociexecute »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocierror
@@ -26,7 +26,7 @@ oci_error(?resource $connection_or_statement = null): array|false
 
 `connection_or_statement`
 
-Для більшості помилок параметром `connection_or_statement` є відповідний ідентифікатор з'єднання або виразу. Для помилок під час виконання функцій [ociconnect()](function.oci-connect.html) [ocinewconnect()](function.oci-new-connect.html) або [ocipconnect()](function.oci-pconnect.md) слід передавати **`null`**
+Для більшості помилок параметром `connection_or_statement` є відповідний ідентифікатор з'єднання або виразу. Для помилок під час виконання функцій [ociconnect()](function.oci-connect.md) [ocinewconnect()](function.oci-new-connect.md) або [ocipconnect()](function.oci-pconnect.md) слід передавати **`null`**
 
 ### Значення, що повертаються
 

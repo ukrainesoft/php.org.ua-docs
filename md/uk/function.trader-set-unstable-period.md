@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-set-compat.html: « tradersetcompat
-  - function.trader-sin.html: tradersin »
+  - function.trader-set-compat.md: « tradersetcompat
+  - function.trader-sin.md: tradersin »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradersetunstableперіод

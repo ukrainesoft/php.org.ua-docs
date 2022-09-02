@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yar-client-exception.html: « YarClientException
+  - class.yar-client-exception.md: « YarClientException
   - book.xmlrpc.md: XML-RPC »
   - index.md: PHP Manual
-  - class.yar-client-exception.html: YarClientException
+  - class.yar-client-exception.md: YarClientException
 title: 'YarClientException::getType'
 ---
 # YarClientException::getType

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-auth-pubkey-file.html: « ssh2authpubkeyfile
-  - function.ssh2-disconnect.html: ssh2disconnect »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-auth-pubkey-file.md: « ssh2authpubkeyfile
+  - function.ssh2-disconnect.md: ssh2disconnect »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2connect
 ---
 # ssh2connect

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-begin-template.html: «psbegintemplate
-  - function.ps-clip.html: псclip »
+  - function.ps-begin-template.md: «psbegintemplate
+  - function.ps-clip.md: псclip »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псcircle

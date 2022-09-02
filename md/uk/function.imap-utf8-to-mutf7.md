@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-utf7-encode.html: « imaputf7encode
-  - function.imap-utf8.html: imaputf8 »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-utf7-encode.md: « imaputf7encode
+  - function.imap-utf8.md: imaputf8 »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imaputf8тоmutf7
 ---
 # imaputf8тоmutf7
@@ -36,4 +36,4 @@ imap_utf8_to_mutf7(string $string): string|false
 
 ### Дивіться також
 
--   [imapmutf7тоutf8()](function.imap-mutf7-to-utf8.html) - Декодувати змінений рядок UTF-7 у UTF-8
+-   [imapmutf7тоutf8()](function.imap-mutf7-to-utf8.md) - Декодувати змінений рядок UTF-7 у UTF-8

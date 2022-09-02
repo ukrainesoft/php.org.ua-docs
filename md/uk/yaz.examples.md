@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaz.constants.html: « Обумовлені константи
-  - ref.yaz.html: Функции YAZ »
-  - index.html: PHP Manual
-  - book.yaz.html: YAZ
+  - yaz.constants.md: « Обумовлені константи
+  - ref.yaz.md: Функции YAZ »
+  - index.md: PHP Manual
+  - book.yaz.md: YAZ
 title: Приклади
 ---
 # Приклади

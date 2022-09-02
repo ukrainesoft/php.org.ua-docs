@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-field-table.html: « pgfieldtable
-  - function.pg-field-type.html: пгfieldtype »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-field-table.md: « pgfieldtable
+  - function.pg-field-type.md: пгfieldtype »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгfieldtypeoid
 ---
 # пгfieldtypeoid
@@ -30,7 +30,7 @@ pg_field_type_oid(PgSql\Result $result, int $field): string|int
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field`
 
@@ -44,7 +44,7 @@ OID базового типу значень поля.
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -69,6 +69,6 @@ Title field type OID: 1043
 
 ### Дивіться також
 
--   [пгfieldtype()](function.pg-field-type.html) - Повертає ім'я типу заданого поля
--   [пгfieldprtlen()](function.pg-field-prtlen.html) - Повертає кількість друкованих символів
--   [пгfieldname()](function.pg-field-name.html) - Повертає найменування поля
+-   [пгfieldtype()](function.pg-field-type.md) - Повертає ім'я типу заданого поля
+-   [пгfieldprtlen()](function.pg-field-prtlen.md) - Повертає кількість друкованих символів
+-   [пгfieldname()](function.pg-field-name.md) - Повертає найменування поля

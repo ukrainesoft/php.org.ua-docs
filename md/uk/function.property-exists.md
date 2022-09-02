@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.method-exists.html: « methodexists
-  - function.trait-exists.html: traitexists »
+  - function.method-exists.md: « methodexists
+  - function.trait-exists.md: traitexists »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: propertyexists
@@ -73,7 +73,7 @@ myClass::test();
 
 > **Зауваження**
 > 
-> Функція **propertyexists()** не визначає магічно доступні властивості за допомогою методу [`__get`](language.oop5.overloading.html#language.oop5.overloading.members)
+> Функція **propertyexists()** не визначає магічно доступні властивості за допомогою методу [`__get`](language.oop5.overloading.md#language.oop5.overloading.members)
 
 ### Дивіться також
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strcspn.html: « strcspn
-  - function.stripcslashes.html: stripcslashes »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.strcspn.md: « strcspn
+  - function.stripcslashes.md: stripcslashes »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: striptags
 ---
 # striptags
@@ -18,7 +18,7 @@ striptags — Видаляє теги HTML та PHP з рядка
 strip_tags(string $string, array|string|null $allowed_tags = null): string
 ```
 
-Функція намагається повернути рядок, з якого видалені всі NULL-байти, HTML- та PHP-теги із заданого рядка (`string`). Для видалення тегів використовується той самий механізм, що і функції [fgetss()](function.fgetss.html)
+Функція намагається повернути рядок, з якого видалені всі NULL-байти, HTML- та PHP-теги із заданого рядка (`string`). Для видалення тегів використовується той самий механізм, що і функції [fgetss()](function.fgetss.md)
 
 ### Список параметрів
 
@@ -85,7 +85,7 @@ echo strip_tags($text, '<p><a>');
 
 **Увага**
 
-Ця функція не повинна використовуватися для запобігання атакам XSS. Використовуйте більш відповідні функції для цього завдання, такі як [htmlspecialchars()](function.htmlspecialchars.html) чи інші механізми, залежно від контексту виведення.
+Ця функція не повинна використовуватися для запобігання атакам XSS. Використовуйте більш відповідні функції для цього завдання, такі як [htmlspecialchars()](function.htmlspecialchars.md) чи інші механізми, залежно від контексту виведення.
 
 **Увага**
 
@@ -101,4 +101,4 @@ echo strip_tags($text, '<p><a>');
 
 ### Дивіться також
 
--   [htmlspecialchars()](function.htmlspecialchars.html) - Перетворює спеціальні символи на HTML-сутності
+-   [htmlspecialchars()](function.htmlspecialchars.md) - Перетворює спеціальні символи на HTML-сутності

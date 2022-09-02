@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-macd.html: « tradermacd
-  - function.trader-macdfix.html: tradermacdfix »
+  - function.trader-macd.md: « tradermacd
+  - function.trader-macdfix.md: tradermacdfix »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradermacdext

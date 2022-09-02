@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-lexer.gettoken.html: '« ParleLexer::getToken'
-  - parle-lexer.push.html: 'ParleLexer::push »'
-  - index.html: PHP Manual
-  - class.parle-lexer.html: ParleLexer
+  - parle-lexer.gettoken.md: '« ParleLexer::getToken'
+  - parle-lexer.push.md: 'ParleLexer::push »'
+  - index.md: PHP Manual
+  - class.parle-lexer.md: ParleLexer
 title: 'ParleLexer::insertMacro'
 ---
 # ParleLexer::insertMacro

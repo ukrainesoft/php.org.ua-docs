@@ -1,7 +1,7 @@
 ---
 navigation:
   - domxpath.registerphpfunctions.md: '« DOMXPath::registerPhpFunctions'
-  - function.dom-import-simplexml.html: domimportsimplexml »
+  - function.dom-import-simplexml.md: domimportsimplexml »
   - index.md: PHP Manual
   - book.dom.md: DOM
 title: Функції DOM

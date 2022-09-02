@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttprequest.getinputbuffer.html: '« EventHttpRequest::getInputBuffer'
-  - eventhttprequest.getoutputbuffer.html: 'EventHttpRequest::getOutputBuffer »'
-  - index.html: PHP Manual
-  - class.eventhttprequest.html: EventHttpRequest
+  - eventhttprequest.getinputbuffer.md: '« EventHttpRequest::getInputBuffer'
+  - eventhttprequest.getoutputbuffer.md: 'EventHttpRequest::getOutputBuffer »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::getInputHeaders'
 ---
 # EventHttpRequest::getInputHeaders
@@ -31,4 +31,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpRequest::getOutputHeaders()](eventhttprequest.getoutputheaders.html) - Повертає асоціативний масив вихідних заголовків
+-   [EventHttpRequest::getOutputHeaders()](eventhttprequest.getoutputheaders.md) - Повертає асоціативний масив вихідних заголовків

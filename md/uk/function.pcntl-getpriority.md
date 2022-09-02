@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-get-last-error.html: pcntlgetlasterror
-  - function.pcntl-rfork.html: pcntlrfork »
+  - function.pcntl-get-last-error.md: pcntlgetlasterror
+  - function.pcntl-rfork.md: pcntlrfork »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlgetpriority

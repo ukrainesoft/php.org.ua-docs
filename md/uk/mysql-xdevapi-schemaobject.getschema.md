@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-schemaobject.html: « mysqlxdevapiSchemaObject
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession »
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-schemaobject.html: mysqlxdevapiSchemaObject
+  - class.mysql-xdevapi-schemaobject.md: « mysqlxdevapiSchemaObject
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schemaobject.md: mysqlxdevapiSchemaObject
 title: 'SchemaObject::getSchema'
 ---
 # SchemaObject::getSchema

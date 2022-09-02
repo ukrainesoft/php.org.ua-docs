@@ -1,9 +1,9 @@
 ---
 navigation:
-  - context.params.html: « Параметри контексту
-  - wrappers.html: Підтримувані протоколи та обгортки »
-  - index.html: PHP Manual
-  - context.html: Контекстні опції та параметри
+  - context.params.md: « Параметри контексту
+  - wrappers.md: Підтримувані протоколи та обгортки »
+  - index.md: PHP Manual
+  - context.md: Контекстні опції та параметри
 title: Опції контексту Zip
 ---
 # Опції контексту Zip

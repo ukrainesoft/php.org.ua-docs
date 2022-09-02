@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.pushpattern.html: '« ImagickDraw::pushPattern'
-  - imagickdraw.render.html: 'ImagickDraw::render »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.pushpattern.md: '« ImagickDraw::pushPattern'
+  - imagickdraw.render.md: 'ImagickDraw::render »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::rectangle'
 ---
 # ImagickDraw::rectangle

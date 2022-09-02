@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.ctype-upper.html: « ctypeupper
+  - function.ctype-upper.md: « ctypeupper
   - book.filter.md: Filter »
   - index.md: PHP Manual
   - ref.ctype.md: Опції Ctype

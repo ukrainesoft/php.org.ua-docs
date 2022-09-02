@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ibase.installation.html: « Установка
-  - ibase.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - ibase.setup.html: Встановлення та налаштування
+  - ibase.installation.md: « Установка
+  - ibase.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - ibase.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,24 +14,24 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [ibase.allowpersistent](ibase.configuration.html#ini.ibase.allow-persistent) | "1" | PHPINISYSTEM |  |
-| [ibase.maxpersistent](ibase.configuration.html#ini.ibase.max-persistent) | "-1" | PHPINISYSTEM |  |
-| [ibase.maxlinks](ibase.configuration.html#ini.ibase.max-links) | "-1" | PHPINISYSTEM |  |
-| [ibase.defaultдб](ibase.configuration.html#ini.ibase.default-db) | NULL | PHPINISYSTEM |  |
-| [ibase.defaultuser](ibase.configuration.html#ini.ibase.default-user) | NULL | PHPINIALL |  |
-| [ibase.defaultpassword](ibase.configuration.html#ini.ibase.default-password) | NULL | PHPINIALL |  |
-| [ibase.defaultcharset](ibase.configuration.html#ini.ibase.default-charset) | NULL | PHPINIALL |  |
-| [ibase.timestampformat](ibase.configuration.html#ini.ibase.timestampformat) | "%Y-%m-%d %H:%M:%S" | PHPINIALL |  |
-| [ibase.dateformat](ibase.configuration.html#ini.ibase.dateformat) | "%Y-%m-%d" | PHPINIALL |  |
-| [ibase.timeformat](ibase.configuration.html#ini.ibase.timeformat) | "%H:%M:%S" | PHPINIALL |  |
+| [ibase.allowpersistent](ibase.configuration.md#ini.ibase.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [ibase.maxpersistent](ibase.configuration.md#ini.ibase.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [ibase.maxlinks](ibase.configuration.md#ini.ibase.max-links) | "-1" | PHPINISYSTEM |  |
+| [ibase.defaultдб](ibase.configuration.md#ini.ibase.default-db) | NULL | PHPINISYSTEM |  |
+| [ibase.defaultuser](ibase.configuration.md#ini.ibase.default-user) | NULL | PHPINIALL |  |
+| [ibase.defaultpassword](ibase.configuration.md#ini.ibase.default-password) | NULL | PHPINIALL |  |
+| [ibase.defaultcharset](ibase.configuration.md#ini.ibase.default-charset) | NULL | PHPINIALL |  |
+| [ibase.timestampformat](ibase.configuration.md#ini.ibase.timestampformat) | "%Y-%m-%d %H:%M:%S" | PHPINIALL |  |
+| [ibase.dateformat](ibase.configuration.md#ini.ibase.dateformat) | "%Y-%m-%d" | PHPINIALL |  |
+| [ibase.timeformat](ibase.configuration.md#ini.ibase.timeformat) | "%H:%M:%S" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
 `ibase.allow_persistent` bool
 
-Чи дозволено використовувати [постійні з'єднання](features.persistent-connections.html) до Firebird/InterBase.
+Чи дозволено використовувати [постійні з'єднання](features.persistent-connections.md) до Firebird/InterBase.
 
 `ibase.max_persistent` int
 

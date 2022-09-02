@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.idn-to-utf8.html: « idnтоutf8
+  - function.idn-to-utf8.md: « idnтоutf8
   - intlchar.charage.md: 'IntlChar::charAge »'
   - index.md: PHP Manual
   - book.intl.md: intl

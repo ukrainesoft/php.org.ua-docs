@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ibm-db2.resources.html: « Типи ресурсів
-  - ref.ibm-db2.html: Функції IBM DB2 »
+  - ibm-db2.resources.md: « Типи ресурсів
+  - ref.ibm-db2.md: Функції IBM DB2 »
   - index.md: PHP Manual
-  - book.ibm-db2.html: IBM DB2
+  - book.ibm-db2.md: IBM DB2
 title: Обумовлені константи
 ---
 # Обумовлені константи

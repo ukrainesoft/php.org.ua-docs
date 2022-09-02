@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getwriteconcernerror.html: '« MongoDBDriverWriteResult::getWriteConcernError'
-  - mongodb-driver-writeresult.isacknowledged.html: 'MongoDBDriverWriteResult::isAcknowledged »'
+  - mongodb-driver-writeresult.getwriteconcernerror.md: '« MongoDBDriverWriteResult::getWriteConcernError'
+  - mongodb-driver-writeresult.isacknowledged.md: 'MongoDBDriverWriteResult::isAcknowledged »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
 title: 'MongoDBDriverWriteResult::getWriteErrors'
 ---
 # MongoDBDriverWriteResult::getWriteErrors

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.grapheme-strripos.html: « graphemestrripos
-  - function.grapheme-strstr.html: graphemestrstr »
+  - function.grapheme-strripos.md: « graphemestrripos
+  - function.grapheme-strstr.md: graphemestrstr »
   - index.md: PHP Manual
   - ref.intl.grapheme.md: Функции Grapheme
 title: graphemestrrpos

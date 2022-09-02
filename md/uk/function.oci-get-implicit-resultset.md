@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-free-statement.html: « ocifreestatement
-  - function.oci-lob-copy.html: ocilobcopy »
+  - function.oci-free-statement.md: « ocifreestatement
+  - function.oci-lob-copy.md: ocilobcopy »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocigetimplicitresultset
@@ -20,7 +20,7 @@ oci_get_implicit_resultset(resource $statement): resource|false
 
 Використовується для вибірки послідовних наборів результатів запиту після виконання збереженого або анонімного блоку Oracle PL/SQL, коли цей блок повертає результати запиту Oracle Database 12 (або новіше) за допомогою функції PL/SQL *DBMSSQL.RETURNRESULT*. Це дозволить блокам PL/SQL повертати результати запиту.
 
-Дочірній запит може бути використаний з будь-якою функцією OCI8: [ocifetch()](function.oci-fetch.html) [ocifetchall()](function.oci-fetch-all.html) [ocifetcharray()](function.oci-fetch-array.html) [ocifetchobject()](function.oci-fetch-object.html) [ocifetchassoc()](function.oci-fetch-assoc.html) або [ocifetchrow()](function.oci-fetch-row.md)
+Дочірній запит може бути використаний з будь-якою функцією OCI8: [ocifetch()](function.oci-fetch.md) [ocifetchall()](function.oci-fetch-all.md) [ocifetcharray()](function.oci-fetch-array.md) [ocifetchobject()](function.oci-fetch-object.md) [ocifetchassoc()](function.oci-fetch-assoc.md) або [ocifetchrow()](function.oci-fetch-row.md)
 
 Дочірній запит успадковує батьківське значення передвиборки, або можна вказати його за допомогою [ocisetprefetch()](function.oci-set-prefetch.md)
 
@@ -28,7 +28,7 @@ oci_get_implicit_resultset(resource $statement): resource|false
 
 `statement`
 
-Коректний ідентифікатор запиту OCI8, створений за допомогою [ociparse()](function.oci-parse.html) та запущений за допомогою [ociexecute()](function.oci-execute.md). Ідентифікатор запиту може бути, а може і не бути пов'язаний із SQL-запитом, який повертає неявні результуючі набори (Implicit Result Set).
+Коректний ідентифікатор запиту OCI8, створений за допомогою [ociparse()](function.oci-parse.md) та запущений за допомогою [ociexecute()](function.oci-execute.md). Ідентифікатор запиту може бути, а може і не бути пов'язаний із SQL-запитом, який повертає неявні результуючі набори (Implicit Result Set).
 
 ### Значення, що повертаються
 
@@ -244,4 +244,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> Для запитів, що повертають велику кількість рядів, продуктивність може бути значно збільшена за допомогою збільшення значення опції [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch) або використання [ocisetprefetch()](function.oci-set-prefetch.md)
+> Для запитів, що повертають велику кількість рядів, продуктивність може бути значно збільшена за допомогою збільшення значення опції [oci8.defaultprefetch](oci8.configuration.md#ini.oci8.default-prefetch) або використання [ocisetprefetch()](function.oci-set-prefetch.md)

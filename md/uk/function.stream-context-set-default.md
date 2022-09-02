@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-context-get-params.html: « streamcontextgetparams
-  - function.stream-context-set-option.html: streamcontextsetoption »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-context-get-params.md: « streamcontextgetparams
+  - function.stream-context-set-option.md: streamcontextsetoption »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamcontextsetdefault
 ---
 # streamcontextsetdefault
@@ -18,7 +18,7 @@ streamcontextsetdefault — Встановити контекст потоку �
 stream_context_set_default(array $options): resource
 ```
 
-Встановити контекст потоку за промовчанням, який буде використовуватися щоразу, коли файлові операції ([fopen()](function.fopen.html) [filegetcontents()](function.file-get-contents.html) і т.д.) викликаються без параметра контексту. Використовується той же синтаксис, що і [streamcontextcreate()](function.stream-context-create.html)
+Встановити контекст потоку за промовчанням, який буде використовуватися щоразу, коли файлові операції ([fopen()](function.fopen.md) [filegetcontents()](function.file-get-contents.md) і т.д.) викликаються без параметра контексту. Використовується той же синтаксис, що і [streamcontextcreate()](function.stream-context-create.md)
 
 ### Список параметрів
 
@@ -60,6 +60,6 @@ readfile('http://www.example.com');
 
 ### Дивіться також
 
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
--   [streamcontextgetdefault()](function.stream-context-get-default.html) - Отримує контекст потоку за умовчанням
--   Listing of supported wrappers with context options ([Підтримувані протоколи та обгортки](wrappers.html)
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
+-   [streamcontextgetdefault()](function.stream-context-get-default.md) - Отримує контекст потоку за умовчанням
+-   Listing of supported wrappers with context options ([Підтримувані протоколи та обгортки](wrappers.md)

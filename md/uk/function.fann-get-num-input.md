@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-network-type.html: « fanngetnetworktype
-  - function.fann-get-num-layers.html: fanngetnumlayers »
+  - function.fann-get-network-type.md: « fanngetnetworktype
+  - function.fann-get-num-layers.md: fanngetnumlayers »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetnuminput

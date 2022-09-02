@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mqseries.requirements.html: « Вимоги
-  - mqseries.ini.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - mqseries.setup.html: Встановлення та налаштування
+  - mqseries.requirements.md: « Вимоги
+  - mqseries.ini.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - mqseries.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

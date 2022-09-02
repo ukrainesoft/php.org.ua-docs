@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-event-exit.html: « swooleeventexit
-  - function.swoole-event-wait.html: swooleeventwait »
+  - function.swoole-event-exit.md: « swooleeventexit
+  - function.swoole-event-wait.md: swooleeventwait »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleeventset
 ---
 # swooleeventset

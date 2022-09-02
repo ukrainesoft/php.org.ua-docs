@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.clearlasterror.html: '« YafApplication::clearLastError'
-  - yaf-application.destruct.html: 'YafApplication::destruct »'
+  - yaf-application.clearlasterror.md: '« YafApplication::clearLastError'
+  - yaf-application.destruct.md: 'YafApplication::destruct »'
   - index.md: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::construct'
 ---
 # YafApplication::construct
@@ -14,7 +14,7 @@ YafApplication::construct - Конструктор класу YafApplication
 
 ### Опис
 
-public **YafApplication::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$config`, string `$envrion`
+public **YafApplication::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$config`, string `$envrion`
 
 Екземпляр [YafApplication](class.yaf-application.md)
 
@@ -24,11 +24,11 @@ public **YafApplication::construct**[mixed](language.types.declarations.html#lan
 
 Шлях до конфігураційного ini-файлу або масив з налаштуваннями
 
-Якщо це шлях до ini-файлу, то в ньому має бути розділ з ім'ям [yaf.environ](yaf.configuration.html#ini.yaf.environ), що є за промовчанням "product".
+Якщо це шлях до ini-файлу, то в ньому має бути розділ з ім'ям [yaf.environ](yaf.configuration.md#ini.yaf.environ), що є за промовчанням "product".
 
 > **Зауваження**
 > 
-> Якщо ви використовуєте ini-файл, то для покращення продуктивності дозвольте опцію [yaf.cacheconfig](yaf.configuration.html#ini.yaf.cache-config)
+> Якщо ви використовуєте ini-файл, то для покращення продуктивності дозвольте опцію [yaf.cacheconfig](yaf.configuration.md#ini.yaf.cache-config)
 
 Параметри конфігурації (та їх значення за промовчанням):
 

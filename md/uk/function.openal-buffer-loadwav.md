@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-buffer-get.html: « openalbufferget
-  - function.openal-context-create.html: openalcontextcreate »
+  - function.openal-buffer-get.md: « openalbufferget
+  - function.openal-context-create.md: openalcontextcreate »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalbufferloadwav

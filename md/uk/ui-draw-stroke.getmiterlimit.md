@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-stroke.getjoin.html: '« UIDrawStroke::getJoin'
-  - ui-draw-stroke.getthickness.html: 'ОЙDrawStroke::getThickness »'
-  - index.html: PHP Manual
-  - class.ui-draw-stroke.html: ОЙDrawStroke
+  - ui-draw-stroke.getjoin.md: '« UIDrawStroke::getJoin'
+  - ui-draw-stroke.getthickness.md: 'ОЙDrawStroke::getThickness »'
+  - index.md: PHP Manual
+  - class.ui-draw-stroke.md: ОЙDrawStroke
 title: 'ОЙDrawStroke::getMiterLimit'
 ---
 # ОЙDrawStroke::getMiterLimit

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-cascade-candidate-stagnation-epochs.html: « fannsetcascadecandidatestagnationepochs
-  - function.fann-set-cascade-max-out-epochs.html: fannsetcascademaxoutepochs »
+  - function.fann-set-cascade-candidate-stagnation-epochs.md: « fannsetcascadecandidatestagnationepochs
+  - function.fann-set-cascade-max-out-epochs.md: fannsetcascademaxoutepochs »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetcascademaxcandepochs

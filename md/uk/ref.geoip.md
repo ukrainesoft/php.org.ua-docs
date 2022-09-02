@@ -1,9 +1,9 @@
 ---
 navigation:
-  - geoip.constants.html: « Обумовлені константи
-  - function.geoip-asnum-by-name.html: geoipasnumбname »
-  - index.html: PHP Manual
-  - book.geoip.html: GeoIP
+  - geoip.constants.md: « Обумовлені константи
+  - function.geoip-asnum-by-name.md: geoipasnumбname »
+  - index.md: PHP Manual
+  - book.geoip.md: GeoIP
 title: Функції GeoIP
 ---
 # Функції GeoIP

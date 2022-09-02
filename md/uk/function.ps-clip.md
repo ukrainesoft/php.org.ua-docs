@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-circle.html: «pscircle
-  - function.ps-close-image.html: псcloseimage »
+  - function.ps-circle.md: «pscircle
+  - function.ps-close-image.md: псcloseimage »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псclip

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagematte.html: '« Imagick::setImageMatte'
-  - imagick.setimageopacity.html: 'Imagick::setImageOpacity »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagematte.md: '« Imagick::setImageMatte'
+  - imagick.setimageopacity.md: 'Imagick::setImageOpacity »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageMatteColor'
 ---
 # Imagick::setImageMatteColor

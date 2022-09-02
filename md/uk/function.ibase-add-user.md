@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fbird-wait-event.html: « fbirdwaitevent
-  - function.ibase-affected-rows.html: ibaseaffectedrows »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.fbird-wait-event.md: « fbirdwaitevent
+  - function.ibase-affected-rows.md: ibaseaffectedrows »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseadduser
 ---
 # ibaseadduser
@@ -50,5 +50,5 @@ ibase_add_user(    resource $service_handle,    string $user_name,   
 
 ### Дивіться також
 
--   [ibasemodifyuser()](function.ibase-modify-user.html) - Змінює користувача у безпечній базі даних
--   [ibasedeleteuser()](function.ibase-delete-user.html) - Видаляє користувача з безпечної бази даних
+-   [ibasemodifyuser()](function.ibase-modify-user.md) - Змінює користувача у безпечній базі даних
+-   [ibasedeleteuser()](function.ibase-delete-user.md) - Видаляє користувача з безпечної бази даних

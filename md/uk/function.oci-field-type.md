@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-field-type-raw.html: « ocifieldtyperaw
-  - function.oci-free-descriptor.html: ocifreedescriptor »
+  - function.oci-field-type-raw.md: « ocifieldtyperaw
+  - function.oci-free-descriptor.md: ocifreedescriptor »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocifieldtype

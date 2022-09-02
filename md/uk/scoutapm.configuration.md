@@ -1,9 +1,9 @@
 ---
 navigation:
-  - scoutapm.installation.html: « Установка
-  - scoutapm.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - scoutapm.setup.html: Встановлення та налаштування
+  - scoutapm.installation.md: « Установка
+  - scoutapm.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - scoutapm.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

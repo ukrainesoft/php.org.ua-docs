@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionparameter.isdefaultvalueavailable.html: '« ReflectionParameter::isDefaultValueAvailable'
-  - reflectionparameter.isoptional.html: 'ReflectionParameter::isOptional »'
-  - index.html: PHP Manual
-  - class.reflectionparameter.html: ReflectionParameter
+  - reflectionparameter.isdefaultvalueavailable.md: '« ReflectionParameter::isDefaultValueAvailable'
+  - reflectionparameter.isoptional.md: 'ReflectionParameter::isOptional »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::isDefaultValueConstant'
 ---
 # ReflectionParameter::isDefaultValueConstant
@@ -30,5 +30,5 @@ public ReflectionParameter::isDefaultValueConstant(): bool
 
 ### Дивіться також
 
--   [ReflectionParameter::getDefaultValueConstantName()](reflectionparameter.getdefaultvalueconstantname.html) - Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
--   [ReflectionParameter::isDefaultValueAvailable()](reflectionparameter.isdefaultvalueavailable.html) - Перевіряє, чи є значення за замовчуванням
+-   [ReflectionParameter::getDefaultValueConstantName()](reflectionparameter.getdefaultvalueconstantname.md) - Повертає ім'я константи значення за промовчанням, якщо значення за промовчанням константа або null
+-   [ReflectionParameter::isDefaultValueAvailable()](reflectionparameter.isdefaultvalueavailable.md) - Перевіряє, чи є значення за замовчуванням

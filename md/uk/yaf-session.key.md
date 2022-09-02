@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.isset.html: '« YafSession::isset'
-  - yaf-session.next.html: 'YafSession::next »'
-  - index.html: PHP Manual
-  - class.yaf-session.html: YafSession
+  - yaf-session.isset.md: '« YafSession::isset'
+  - yaf-session.next.md: 'YafSession::next »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
 title: 'YafSession::key'
 ---
 # YafSession::key

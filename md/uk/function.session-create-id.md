@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-commit.html: « sessioncommit
-  - function.session-decode.html: sessiondecode »
+  - function.session-commit.md: « sessioncommit
+  - function.session-decode.md: sessiondecode »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessioncreateід
@@ -93,5 +93,5 @@ my_session_regenerate_id();
 
 -   [sessionregenerateid()](function.session-regenerate-id.md) - Генерує та оновлює ідентифікатор поточної сесії
 -   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
--   [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode)
+-   [session.usestrictmode](session.configuration.md#ini.session.use-strict-mode)
 -   [SessionHandler::createsid()](sessionhandler.create-sid.md) - Повертає новий ідентифікатор сесії

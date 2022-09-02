@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-create-from-format.html: « datecreatefromformat
-  - function.date-create-immutable.html: datecreateimmutable »
+  - function.date-create-from-format.md: « datecreatefromformat
+  - function.date-create-immutable.md: datecreateimmutable »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datecreateimmutablefromformat

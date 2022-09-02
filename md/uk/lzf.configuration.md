@@ -1,9 +1,9 @@
 ---
 navigation:
-  - lzf.installation.html: « Установка
-  - lzf.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - lzf.setup.html: Встановлення та налаштування
+  - lzf.installation.md: « Установка
+  - lzf.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - lzf.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

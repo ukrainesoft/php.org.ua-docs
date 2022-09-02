@@ -1,7 +1,7 @@
 ---
 navigation:
   - iconv.constants.md: « Обумовлені константи
-  - function.iconv-get-encoding.html: iconvgetencoding »
+  - function.iconv-get-encoding.md: iconvgetencoding »
   - index.md: PHP Manual
   - book.iconv.md: iconv
 title: Функції iconv

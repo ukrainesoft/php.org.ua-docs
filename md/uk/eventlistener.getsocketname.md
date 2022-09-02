@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventlistener.getbase.html: '« EventListener::getBase'
-  - eventlistener.setcallback.html: 'EventListener::setCallback »'
-  - index.html: PHP Manual
-  - class.eventlistener.html: EventListener
+  - eventlistener.getbase.md: '« EventListener::getBase'
+  - eventlistener.setcallback.md: 'EventListener::setCallback »'
+  - index.md: PHP Manual
+  - class.eventlistener.md: EventListener
 title: 'EventListener::getSocketName'
 ---
 # EventListener::getSocketName

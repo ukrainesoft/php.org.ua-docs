@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apcu-cas.html: « apcucas
-  - function.apcu-dec.html: apcudec »
-  - index.html: PHP Manual
-  - ref.apcu.html: Функции APCu
+  - function.apcu-cas.md: « apcucas
+  - function.apcu-dec.md: apcudec »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
 title: apcuclearcache
 ---
 # apcuclearcache

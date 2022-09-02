@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.attributes.reflection.html: « Чтение атрибутов с помощью Reflection API
-  - language.references.html: Пояснення посилань »
-  - index.html: PHP Manual
-  - language.attributes.html: Атрибути
+  - language.attributes.reflection.md: « Чтение атрибутов с помощью Reflection API
+  - language.references.md: Пояснення посилань »
+  - index.md: PHP Manual
+  - language.attributes.md: Атрибути
 title: Оголошення класів атрибутів
 ---
 ## Оголошення класів атрибутів
@@ -42,7 +42,7 @@ class MyAttribute
 }
 ```
 
-Після цього анотування атрибутом **MyAttribute** чогось, що відрізняється від методу або функції, призведе до викидання винятку під час виклику [ReflectionAttribute::newInstance()](reflectionattribute.newinstance.html)
+Після цього анотування атрибутом **MyAttribute** чогось, що відрізняється від методу або функції, призведе до викидання винятку під час виклику [ReflectionAttribute::newInstance()](reflectionattribute.newinstance.md)
 
 Можна вказати такі сутності:
 

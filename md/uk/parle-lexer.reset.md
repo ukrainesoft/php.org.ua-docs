@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-lexer.push.html: '« ParleLexer::push'
-  - class.parle-rlexer.html: ParleRLexer »
-  - index.html: PHP Manual
-  - class.parle-lexer.html: ParleLexer
+  - parle-lexer.push.md: '« ParleLexer::push'
+  - class.parle-rlexer.md: ParleRLexer »
+  - index.md: PHP Manual
+  - class.parle-lexer.md: ParleLexer
 title: 'ParleLexer::reset'
 ---
 # ParleLexer::reset

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.zookeeper-dispatch.html: « zookeeperdispatch
-  - zookeeper.addauth.html: 'Zookeeper::addAuth »'
-  - index.html: PHP Manual
-  - book.zookeeper.html: ZooKeeper
+  - function.zookeeper-dispatch.md: « zookeeperdispatch
+  - zookeeper.addauth.md: 'Zookeeper::addAuth »'
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
 title: Клас Zookeeper
 ---
 # Клас Zookeeper

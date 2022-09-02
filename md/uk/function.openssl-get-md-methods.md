@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-get-curve-names.html: « opensslgetcurvenames
-  - function.openssl-get-privatekey.html: opensslgetprivatekey »
+  - function.openssl-get-curve-names.md: « opensslgetcurvenames
+  - function.openssl-get-privatekey.md: opensslgetprivatekey »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslgetмдметодів

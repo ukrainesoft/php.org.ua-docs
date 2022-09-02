@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.subimagematch.html: '« Imagick::subImageMatch'
-  - imagick.textureimage.html: 'Imagick::textureImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.subimagematch.md: '« Imagick::subImageMatch'
+  - imagick.textureimage.md: 'Imagick::textureImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::swirlImage'
 ---
 # Imagick::swirlImage

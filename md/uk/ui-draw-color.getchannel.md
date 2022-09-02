@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-color.construct.html: '« UIDrawColor::construct'
-  - ui-draw-color.setchannel.html: 'ОЙDrawColor::setChannel »'
-  - index.html: PHP Manual
-  - class.ui-draw-color.html: ОЙDrawColor
+  - ui-draw-color.construct.md: '« UIDrawColor::construct'
+  - ui-draw-color.setchannel.md: 'ОЙDrawColor::setChannel »'
+  - index.md: PHP Manual
+  - class.ui-draw-color.md: ОЙDrawColor
 title: 'ОЙDrawColor::getChannel'
 ---
 # ОЙDrawColor::getChannel

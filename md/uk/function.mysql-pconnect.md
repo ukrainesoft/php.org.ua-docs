@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-num-rows.html: « mysqlnumrows
-  - function.mysql-ping.html: mysqlping »
+  - function.mysql-num-rows.md: « mysqlnumrows
+  - function.mysql-ping.md: mysqlping »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlpconnect
@@ -41,7 +41,7 @@ mysql_pconnect(    string $server = ini_get("mysql.default_host"),    st
 
 Сервер MySQL. Може також включати номер порту, наприклад "hostname:port" або шлях до локального сокету, наприклад ":/path/to/socket" для локального хоста.
 
-Якщо директива [mysql.defaulthost](mysql.configuration.html#ini.mysql.default-host) не визначено (за умовчанням), то за замовчуванням використовується значення 'localhost:3306'
+Якщо директива [mysql.defaulthost](mysql.configuration.md#ini.mysql.default-host) не визначено (за умовчанням), то за замовчуванням використовується значення 'localhost:3306'
 
 `username`
 

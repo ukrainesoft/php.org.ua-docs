@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-connect.html: « pgconnect
-  - function.pg-connection-reset.html: пгconnectionreset »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-connect.md: « pgconnect
+  - function.pg-connection-reset.md: пгconnectionreset »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгconnectionbusy
 ---
 # пгconnectionbusy
@@ -18,13 +18,13 @@ title: пгconnectionbusy
 pg_connection_busy(PgSql\Connection $connection): bool
 ```
 
-**пгconnectionbusy()** визначає, чи зайнято з'єднання в даний момент чи ні. З'єднання працює, коли попередній запит ще виконується. Функція [пгgetresult()](function.pg-get-result.html) також блокує з'єднання на час виконання.
+**пгconnectionbusy()** визначає, чи зайнято з'єднання в даний момент чи ні. З'єднання працює, коли попередній запит ще виконується. Функція [пгgetresult()](function.pg-get-result.md) також блокує з'єднання на час виконання.
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ pg_connection_busy(PgSql\Connection $connection): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -54,5 +54,5 @@ pg_connection_busy(PgSql\Connection $connection): bool
 
 ### Дивіться також
 
--   [пгconnectionstatus()](function.pg-connection-status.html) - Визначає стан підключення
--   [пгgetresult()](function.pg-get-result.html) - Отримання результату асинхронного запиту
+-   [пгconnectionstatus()](function.pg-connection-status.md) - Визначає стан підключення
+-   [пгgetresult()](function.pg-get-result.md) - Отримання результату асинхронного запиту

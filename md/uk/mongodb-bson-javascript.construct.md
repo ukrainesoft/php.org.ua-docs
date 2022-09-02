@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-javascript.html: « MongoDBBSONJavascript
-  - mongodb-bson-javascript.getcode.html: 'MongoDBBSONJavascript::getCode »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+  - class.mongodb-bson-javascript.md: « MongoDBBSONJavascript
+  - mongodb-bson-javascript.getcode.md: 'MongoDBBSONJavascript::getCode »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascript.md: MongoDBBSONJavascript
 title: 'MongoDBBSONJavascript::construct'
 ---
 # MongoDBBSONJavascript::construct
@@ -30,15 +30,15 @@ final public MongoDB\BSON\Javascript::__construct(string $code, array|object|nul
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Породжує виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо `code` містить null-байти.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Породжує виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) якщо `code` містить null-байти.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.2.0 |  |
-| Породжує виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html) якщо `code` містить null-байти. Раніше, в такому випадку, аргумент обрізався про першого null-байту, що зустрівся. |  |
+| Породжує виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) якщо `code` містить null-байти. Раніше, в такому випадку, аргумент обрізався про першого null-байту, що зустрівся. |  |
 
 ### Приклади
 

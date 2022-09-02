@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.filter-input-array.html: « filterinputarray
-  - function.filter-list.html: filterlist »
-  - index.html: PHP Manual
-  - ref.filter.html: Функції фільтрації даних
+  - function.filter-input-array.md: « filterinputarray
+  - function.filter-list.md: filterlist »
+  - index.md: PHP Manual
+  - ref.filter.md: Функції фільтрації даних
 title: filterinput
 ---
 # filterinput
@@ -30,9 +30,9 @@ filter_input(    int $type,    string $var_name,    int $filter = FI
 
 `filter`
 
-Ідентифікатор (ID) фільтра. На сторінці [Типи фільтрів](filter.filters.html) наведено список доступних фільтрів.
+Ідентифікатор (ID) фільтра. На сторінці [Типи фільтрів](filter.filters.md) наведено список доступних фільтрів.
 
-Якщо не вказано, то використовується **`FILTER_DEFAULT`**, який рівнозначний [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.html). Це означає, що за замовчуванням не застосовується фільтр.
+Якщо не вказано, то використовується **`FILTER_DEFAULT`**, який рівнозначний [**`FILTER_UNSAFE_RAW`**](filter.filters.sanitize.md). Це означає, що за замовчуванням не застосовується фільтр.
 
 `options`
 
@@ -64,7 +64,7 @@ echo "<a href='?search=$search_url'>Искать снова.</a>";
 
 ### Дивіться також
 
--   [filtervar()](function.filter-var.html) - Фільтрує змінну за допомогою певного фільтра
--   [filterinputarray()](function.filter-input-array.html) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
--   [filtervararray()](function.filter-var-array.html) - приймає кілька змінних і, при необхідності, фільтрує їх
--   [Типи фільтрів](filter.filters.html)
+-   [filtervar()](function.filter-var.md) - Фільтрує змінну за допомогою певного фільтра
+-   [filterinputarray()](function.filter-input-array.md) - Отримує кілька змінних ззовні PHP і, при необхідності, фільтрує їх
+-   [filtervararray()](function.filter-var-array.md) - приймає кілька змінних і, при необхідності, фільтрує їх
+-   [Типи фільтрів](filter.filters.md)

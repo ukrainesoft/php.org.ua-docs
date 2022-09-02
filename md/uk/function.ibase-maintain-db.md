@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-gen-id.html: « ibasegenід
-  - function.ibase-modify-user.html: ibasemodifyuser »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-gen-id.md: « ibasegenід
+  - function.ibase-modify-user.md: ibasemodifyuser »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasemaintainдб
 ---
 # ibasemaintainдб

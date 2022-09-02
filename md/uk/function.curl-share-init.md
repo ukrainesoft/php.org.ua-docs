@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-share-errno.html: « curlshareerrno
-  - function.curl-share-setopt.html: curlsharesetopt »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-share-errno.md: « curlshareerrno
+  - function.curl-share-setopt.md: curlsharesetopt »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlshareinit
 ---
 # curlshareinit
@@ -32,7 +32,7 @@ curl_share_init(): CurlShareHandle
 
 | Версия | Описание |
 | --- | --- |
-|  | Функція повертає екземпляр [CurlShareHandle](class.curlsharehandle.html); раніше, повертався ресурс (resource). |
+|  | Функція повертає екземпляр [CurlShareHandle](class.curlsharehandle.md); раніше, повертався ресурс (resource). |
 
 ### Приклади
 
@@ -72,5 +72,5 @@ curl_close($ch2);
 
 ### Дивіться також
 
--   [curlsharesetopt()](function.curl-share-setopt.html) - Встановити опції роздільного оброблювача cURL
--   [curlshareclose()](function.curl-share-close.html) - Закрити оброблюваний обробник cURL
+-   [curlsharesetopt()](function.curl-share-setopt.md) - Встановити опції роздільного оброблювача cURL
+-   [curlshareclose()](function.curl-share-close.md) - Закрити оброблюваний обробник cURL

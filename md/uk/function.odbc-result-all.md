@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-procedures.html: « odbcprocedures
-  - function.odbc-result.html: odbcresult »
+  - function.odbc-procedures.md: « odbcprocedures
+  - function.odbc-result.md: odbcresult »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcresultall

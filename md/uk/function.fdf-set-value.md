@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-set-target-frame.html: « fdfsettargetframe
-  - function.fdf-set-version.html: fdfsetversion »
+  - function.fdf-set-target-frame.md: « fdfsettargetframe
+  - function.fdf-set-version.md: fdfsetversion »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfsetvalue
@@ -24,7 +24,7 @@ fdf_set_value(    resource $fdf_document,    string $fieldname,    m
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 

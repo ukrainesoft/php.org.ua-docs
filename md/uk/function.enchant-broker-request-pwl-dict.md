@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.enchant-broker-request-dict.html: « enchantbrokerrequestdict
-  - function.enchant-broker-set-dict-path.html: enchantbrokersetdictpath »
-  - index.html: PHP Manual
-  - ref.enchant.html: Функции Enchant
+  - function.enchant-broker-request-dict.md: « enchantbrokerrequestdict
+  - function.enchant-broker-set-dict-path.md: enchantbrokersetdictpath »
+  - index.md: PHP Manual
+  - ref.enchant.md: Функции Enchant
 title: enchantbrokerrequestpwldict
 ---
 # enchantbrokerrequestpwldict
@@ -24,7 +24,7 @@ enchant_broker_request_pwl_dict(EnchantBroker $broker, string $filename): Enchan
 
 `broker`
 
-Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.html)
+Провайдер Enchant, який повертається [enchantbrokerinit()](function.enchant-broker-init.md)
 
 `filename`
 
@@ -38,11 +38,11 @@ enchant_broker_request_pwl_dict(EnchantBroker $broker, string $filename): Enchan
 
 | Версия | Описание |
 | --- | --- |
-|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.html); Раніше очікувався ресурс ([resource](language.types.resource.html) |
-|  | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.html); Раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | `broker` чекає на екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | У разі успішного виконання функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [enchantdictdescribe()](function.enchant-dict-describe.html) - Повертає інформацію про словник
--   [enchantbrokerdictexists()](function.enchant-broker-dict-exists.html) - Перевіряє, чи є словник чи ні. Використовується не пустий тег
--   [enchantbrokerfreedict()](function.enchant-broker-free-dict.html) - звільняє ресурс словника
+-   [enchantdictdescribe()](function.enchant-dict-describe.md) - Повертає інформацію про словник
+-   [enchantbrokerdictexists()](function.enchant-broker-dict-exists.md) - Перевіряє, чи є словник чи ні. Використовується не пустий тег
+-   [enchantbrokerfreedict()](function.enchant-broker-free-dict.md) - звільняє ресурс словника

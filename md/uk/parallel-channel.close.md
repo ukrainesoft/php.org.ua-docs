@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-channel.send.html: '« parallelChannel::send'
-  - class.parallel-events.html: parallelEvents »
+  - parallel-channel.send.md: '« parallelChannel::send'
+  - class.parallel-events.md: parallelEvents »
   - index.md: PHP Manual
-  - class.parallel-channel.html: parallelChannel
+  - class.parallel-channel.md: parallelChannel
 title: 'parallelChannel::close'
 ---
 # parallelChannel::close

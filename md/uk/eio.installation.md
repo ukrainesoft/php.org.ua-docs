@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eio.requirements.html: « Вимоги
-  - eio.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - eio.setup.html: Встановлення та налаштування
+  - eio.requirements.md: « Вимоги
+  - eio.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - eio.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

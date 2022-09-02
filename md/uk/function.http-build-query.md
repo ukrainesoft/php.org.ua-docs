@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-meta-tags.html: « getmetatags
-  - function.parse-url.html: parseurl »
-  - index.html: PHP Manual
-  - ref.url.html: Функції URL
+  - function.get-meta-tags.md: « getmetatags
+  - function.parse-url.md: parseurl »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
 title: httpbuildquery
 ---
 # httpbuildquery
@@ -38,7 +38,7 @@ http_build_query(    array|object $data,    string $numeric_prefix = "",
 
 `arg_separator`
 
-[argseparator.output](ini.core.html#ini.arg-separator.output) використовується як роздільник аргументів, але може бути перевизначений шляхом вказівки цього параметра.
+[argseparator.output](ini.core.md#ini.arg-separator.output) використовується як роздільник аргументів, але може бути перевизначений шляхом вказівки цього параметра.
 
 `encoding_type`
 
@@ -173,7 +173,7 @@ pub=publicParent&pub_bar%5Bpub%5D=publicChild
 
 ### Дивіться також
 
--   [parsestr()](function.parse-str.html) - Розбирає рядок у змінні
--   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
--   [urlencode()](function.urlencode.html) - URL-кодування рядка
--   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію кожного елемента масиву
+-   [parsestr()](function.parse-str.md) - Розбирає рядок у змінні
+-   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка
+-   [arraywalk()](function.array-walk.md) - Застосовує задану користувачем функцію кожного елемента масиву

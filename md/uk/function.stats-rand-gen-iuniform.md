@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-rand-gen-ipoisson.html: « statsrandgenipoisson
-  - function.stats-rand-gen-noncentral-chisquare.html: statsrandgennoncentralchisquare »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-rand-gen-ipoisson.md: « statsrandgenipoisson
+  - function.stats-rand-gen-noncentral-chisquare.md: statsrandgennoncentralchisquare »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsrandгенiuniform
 ---
 # statsrandгенiuniform

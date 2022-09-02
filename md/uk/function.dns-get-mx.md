@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dns-check-record.html: « dnscheckrecord
-  - function.dns-get-record.html: dnsgetrecord »
+  - function.dns-check-record.md: « dnscheckrecord
+  - function.dns-get-record.md: dnsgetrecord »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: dnsgetмкс

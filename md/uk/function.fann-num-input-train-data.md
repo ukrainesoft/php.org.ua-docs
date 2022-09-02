@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-merge-train-data.html: « fannmergetraindata
-  - function.fann-num-output-train-data.html: fannnumoutputtraindata »
+  - function.fann-merge-train-data.md: « fannmergetraindata
+  - function.fann-num-output-train-data.md: fannnumoutputtraindata »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannnuminputtraindata

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-csr-export-to-file.html: « opensslcsrexportтоfile
-  - function.openssl-csr-get-public-key.html: opensslcsrgetpublickey »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-csr-export-to-file.md: « opensslcsrexportтоfile
+  - function.openssl-csr-get-public-key.md: opensslcsrgetpublickey »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslcsrexport
 ---
 # opensslcsrexport
@@ -24,7 +24,7 @@ openssl_csr_export(OpenSSLCertificateSigningRequest|string $csr, string &$output
 
 `csr`
 
-Для отримання списку допустимих значень дивіться [параметри CSR](openssl.certparams.html)
+Для отримання списку допустимих значень дивіться [параметри CSR](openssl.certparams.md)
 
 `output`
 
@@ -42,7 +42,7 @@ openssl_csr_export(OpenSSLCertificateSigningRequest|string $csr, string &$output
 
 | Версия | Описание |
 | --- | --- |
-|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 
@@ -68,6 +68,6 @@ echo $csr_string;
 
 ### Дивіться також
 
--   [opensslcsrexportтоfile()](function.openssl-csr-export-to-file.html) - Експортує CSR у файл
--   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
--   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslcsrexportтоfile()](function.openssl-csr-export-to-file.md) - Експортує CSR у файл
+-   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
+-   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

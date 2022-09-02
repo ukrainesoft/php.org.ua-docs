@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-share-close.html: « curlshareclose
-  - function.curl-share-init.html: curlshareinit »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-share-close.md: « curlshareclose
+  - function.curl-share-init.md: curlshareinit »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlshareerrno
 ---
 # curlshareerrno
@@ -24,7 +24,7 @@ curl_share_errno(CurlShareHandle $share_handle): int
 
 `share_handle`
 
-Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.html)
+Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.md)
 
 ### Значення, що повертаються
 
@@ -35,8 +35,8 @@ curl_share_errno(CurlShareHandle $share_handle): int
 | Версия | Описание |
 | --- | --- |
 |  | Функція більше не повертає **`false`** у разі виникнення помилки. |
-|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
+|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
 
 ### Дивіться також
 
--   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки
+-   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки

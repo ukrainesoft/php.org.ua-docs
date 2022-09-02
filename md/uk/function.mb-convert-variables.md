@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-convert-kana.html: « mbconvertkana
-  - function.mb-decode-mimeheader.html: мбdecodemimeheader »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-convert-kana.md: « mbconvertkana
+  - function.mb-decode-mimeheader.md: мбdecodemimeheader »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбconvertvariables
 ---
 # мбconvertvariables

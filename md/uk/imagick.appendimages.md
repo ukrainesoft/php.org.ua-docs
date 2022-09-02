@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.annotateimage.html: '« Imagick::annotateImage'
-  - imagick.autolevelimage.html: 'Imagick::autoLevelImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.annotateimage.md: '« Imagick::annotateImage'
+  - imagick.autolevelimage.md: 'Imagick::autoLevelImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::appendImages'
 ---
 # Imagick::appendImages

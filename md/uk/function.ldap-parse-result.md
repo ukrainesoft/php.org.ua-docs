@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-parse-reference.html: « ldapparsereference
-  - function.ldap-read.html: ldapread »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-parse-reference.md: « ldapparsereference
+  - function.ldap-read.md: ldapread »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapparseresult
 ---
 # ldapparseresult
@@ -24,11 +24,11 @@ ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,  
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.html)
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 `error_code`
 
@@ -58,8 +58,8 @@ ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,  
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Додано підтримку параметра `controls` |
 
 ### Приклади

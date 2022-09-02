@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-bucket-append.html: « streambucketappend
-  - function.stream-bucket-new.html: streambucketnew »
+  - function.stream-bucket-append.md: « streambucketappend
+  - function.stream-bucket-new.md: streambucketnew »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streambucketmakewriteable

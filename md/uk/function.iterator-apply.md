@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.class-uses.html: « classuses
-  - function.iterator-count.html: iteratorcount »
+  - function.class-uses.md: « classuses
+  - function.iterator-count.md: iteratorcount »
   - index.md: PHP Manual
   - ref.spl.md: Функції SPL
 title: iteratorapply

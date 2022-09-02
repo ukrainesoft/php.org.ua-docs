@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-sequence.html: « Послідовність
-  - ds-sequence.apply.html: 'ДсSequence::apply »'
+  - class.ds-sequence.md: « Послідовність
+  - ds-sequence.apply.md: 'ДсSequence::apply »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::allocate'
 ---
 # ДсSequence::allocate

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.rangeexception.html: « RangeException
-  - class.underflowexception.html: UnderflowException »
-  - index.html: PHP Manual
-  - spl.exceptions.html: Исключения
+  - class.rangeexception.md: « RangeException
+  - class.underflowexception.md: UnderflowException »
+  - index.md: PHP Manual
+  - spl.exceptions.md: Исключения
 title: Клас RuntimeException
 ---
 # Клас RuntimeException

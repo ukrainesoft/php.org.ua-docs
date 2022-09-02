@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-executor.setinterval.html: '« UIExecutor::setInterval'
-  - ui-controls-tab.append.html: 'ОЙControlsTab::append »'
+  - ui-executor.setinterval.md: '« UIExecutor::setInterval'
+  - ui-controls-tab.append.md: 'ОЙControlsTab::append »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління "Таб"

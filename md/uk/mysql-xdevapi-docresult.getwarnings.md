@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-docresult.fetchone.html: '« DocResult::fetchOne'
-  - mysql-xdevapi-docresult.getwarningscount.html: 'DocResult::getWarningsCount »'
+  - mysql-xdevapi-docresult.fetchone.md: '« DocResult::fetchOne'
+  - mysql-xdevapi-docresult.getwarningscount.md: 'DocResult::getWarningsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult
 title: 'DocResult::getWarnings'
 ---
 # DocResult::getWarnings

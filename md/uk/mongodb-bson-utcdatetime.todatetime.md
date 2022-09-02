@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetime.serialize.html: '« MongoDBBSONUTCDateTime::serialize'
-  - mongodb-bson-utcdatetime.tostring.html: 'MongoDBBSONUTCDateTime::toString »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+  - mongodb-bson-utcdatetime.serialize.md: '« MongoDBBSONUTCDateTime::serialize'
+  - mongodb-bson-utcdatetime.tostring.md: 'MongoDBBSONUTCDateTime::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-utcdatetime.md: MongoDBBSONUTCDateTime
 title: 'MongoDBBSONUTCDateTime::toDateTime'
 ---
 # MongoDBBSONUTCDateTime::toDateTime
@@ -24,11 +24,11 @@ final public MongoDB\BSON\UTCDateTime::toDateTime(): DateTime
 
 ### Значення, що повертаються
 
-Повертає виставу [DateTime](class.datetime.html) цього UTCDateTime. Повернутий [DateTime](class.datetime.html) буде використовувати часовий пояс UTC.
+Повертає виставу [DateTime](class.datetime.md) цього UTCDateTime. Повернутий [DateTime](class.datetime.md) буде використовувати часовий пояс UTC.
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 

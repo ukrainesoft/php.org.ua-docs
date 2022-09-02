@@ -1,9 +1,9 @@
 ---
 navigation:
-  - luasandboxfunction.construct.html: '« LuaSandboxFunction::construct'
-  - class.luasandboxerror.html: LuaSandboxError »
-  - index.html: PHP Manual
-  - class.luasandboxfunction.html: LuaSandboxFunction
+  - luasandboxfunction.construct.md: '« LuaSandboxFunction::construct'
+  - class.luasandboxerror.md: LuaSandboxError »
+  - index.md: PHP Manual
+  - class.luasandboxfunction.md: LuaSandboxFunction
 title: 'LuaSandboxFunction::dump'
 ---
 # LuaSandboxFunction::dump

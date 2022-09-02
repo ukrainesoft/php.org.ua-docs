@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-fix.html: « variantfix
-  - function.variant-idiv.html: variantidiv »
+  - function.variant-fix.md: « variantfix
+  - function.variant-idiv.md: variantidiv »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantgettype

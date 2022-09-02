@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-commit.html: « cubridcommit
-  - function.cubrid-connect.html: cubridconnect »
+  - function.cubrid-commit.md: « cubridcommit
+  - function.cubrid-connect.md: cubridconnect »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridconnectwithurl

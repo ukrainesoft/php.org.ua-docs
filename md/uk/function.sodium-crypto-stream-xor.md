@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-stream-xchacha20.html: « sodiumcryptostreamxchacha20
-  - function.sodium-crypto-stream.html: sodiumcryptostream »
+  - function.sodium-crypto-stream-xchacha20.md: « sodiumcryptostreamxchacha20
+  - function.sodium-crypto-stream.md: sodiumcryptostream »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptostreamxor

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - collator.geterrormessage.html: '« Collator::getErrorMessage'
-  - collator.getsortkey.html: 'Collator::getSortKey »'
-  - index.html: PHP Manual
-  - class.collator.html: Collator
+  - collator.geterrormessage.md: '« Collator::getErrorMessage'
+  - collator.getsortkey.md: 'Collator::getSortKey »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
 title: 'Collator::getLocale'
 ---
 # Collator::getLocale
@@ -34,7 +34,7 @@ collator_get_locale(Collator $object, int $type): string|false
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `type`
 
@@ -68,4 +68,4 @@ printf( "Название корректной локали: %s\nНазва�
 
 ### Дивіться також
 
--   [collatorcreate()](collator.create.html) - Створює новий екземпляр Collator
+-   [collatorcreate()](collator.create.md) - Створює новий екземпляр Collator

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-8bit.html: « imap8bit
-  - function.imap-append.html: imapappend »
+  - function.imap-8bit.md: « imap8bit
+  - function.imap-append.md: imapappend »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapalerts

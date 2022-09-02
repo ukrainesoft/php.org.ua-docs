@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.getrusage.md: « getrusage
-  - function.ini-get-all.html: inigetall »
+  - function.ini-get-all.md: inigetall »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: inialter

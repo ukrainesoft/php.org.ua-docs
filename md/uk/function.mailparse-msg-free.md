@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mailparse-msg-extract-whole-part-file.html: « mailparsemsgextractwholepartfile
-  - function.mailparse-msg-get-part-data.html: mailparsemsggetpartdata »
-  - index.html: PHP Manual
-  - ref.mailparse.html: Mailparse
+  - function.mailparse-msg-extract-whole-part-file.md: « mailparsemsgextractwholepartfile
+  - function.mailparse-msg-get-part-data.md: mailparsemsggetpartdata »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
 title: mailparsemsgfree
 ---
 # mailparsemsgfree
@@ -24,7 +24,7 @@ mailparse_msg_free(resource $mimemail): bool
 
 `mimemail`
 
-Коректний `MIME`ресурс, створений [mailparsemsgcreate()](function.mailparse-msg-create.html) або [mailparsemsgparsefile()](function.mailparse-msg-parse-file.html)
+Коректний `MIME`ресурс, створений [mailparsemsgcreate()](function.mailparse-msg-create.md) або [mailparsemsgparsefile()](function.mailparse-msg-parse-file.md)
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ mailparse_msg_free(resource $mimemail): bool
 
 ### Дивіться також
 
--   [mailparsemsgcreate()](function.mailparse-msg-create.html) - Створює поштовий MIME-ресурс
--   [mailparsemsgparsefile()](function.mailparse-msg-parse-file.html) - Розібрати файл
+-   [mailparsemsgcreate()](function.mailparse-msg-create.md) - Створює поштовий MIME-ресурс
+-   [mailparsemsgparsefile()](function.mailparse-msg-parse-file.md) - Розібрати файл

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getiteratorindex.html: '« Imagick::getIteratorIndex'
-  - imagick.getoption.html: 'Imagick::getOption »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getiteratorindex.md: '« Imagick::getIteratorIndex'
+  - imagick.getoption.md: 'Imagick::getOption »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getNumberImages'
 ---
 # Imagick::getNumberImages

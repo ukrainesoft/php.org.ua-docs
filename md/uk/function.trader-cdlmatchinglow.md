@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlmarubozu.html: « tradercdlmarubozu
-  - function.trader-cdlmathold.html: tradercdlmathold »
+  - function.trader-cdlmarubozu.md: « tradercdlmarubozu
+  - function.trader-cdlmathold.md: tradercdlmathold »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlmatchinglow

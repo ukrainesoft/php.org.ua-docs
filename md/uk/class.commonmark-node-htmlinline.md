@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.commonmark-node-htmlblock.html: « CommonMarkNodeHTMLBlock
-  - class.commonmark-node-image.html: CommonMarkNodeImage »
+  - class.commonmark-node-htmlblock.md: « CommonMarkNodeHTMLBlock
+  - class.commonmark-node-image.md: CommonMarkNodeImage »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: HTMLInline успадковує CommonMarkNode

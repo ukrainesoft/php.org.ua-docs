@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-router.route.html: '« YafRouter::route'
-  - yaf-route-simple.assemble.html: 'YafRouteSimple::assemble »'
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf-router.route.md: '« YafRouter::route'
+  - yaf-route-simple.assemble.md: 'YafRouteSimple::assemble »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafRouteSimple
 ---
 # Клас YafRouteSimple
@@ -16,7 +16,7 @@ title: Клас YafRouteSimple
 
 Все, що вам потрібно зробити, це сказати **YafRouteSimple**який ключ в $GET є модулем, який контролером, а якою дією.
 
-[YafRouteSimple::route()](yaf-route-simple.route.html) завжди повертає **`true`**, так що важливо помістити **YafRouteSimple** на початок стека маршрутизації, інакше ніяких інших маршрутизаторів не буде викликано.
+[YafRouteSimple::route()](yaf-route-simple.route.md) завжди повертає **`true`**, так що важливо помістити **YafRouteSimple** на початок стека маршрутизації, інакше ніяких інших маршрутизаторів не буде викликано.
 
 ## Огляд класів
 
@@ -65,6 +65,6 @@ action
 
 ## Зміст
 
--   [YafRouteSimple::assemble](yaf-route-simple.assemble.html) - Збирає URL
--   [YafRouteSimple::construct](yaf-route-simple.construct.html) - Конструктор класу YafRouteSimple
--   [YafRouteSimple::route](yaf-route-simple.route.html) — Надсилає запит
+-   [YafRouteSimple::assemble](yaf-route-simple.assemble.md) - Збирає URL
+-   [YafRouteSimple::construct](yaf-route-simple.construct.md) - Конструктор класу YafRouteSimple
+-   [YafRouteSimple::route](yaf-route-simple.route.md) — Надсилає запит

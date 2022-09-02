@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.stats.html: « Функції статистики
-  - function.stats-cdf-beta.html: statscdfbeta »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - ref.stats.md: « Функції статистики
+  - function.stats-cdf-beta.md: statscdfbeta »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsabsolutedeviation
 ---
 # statsabsolutedeviation

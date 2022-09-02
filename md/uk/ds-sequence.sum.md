@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.sorted.html: '« DsSequence::sorted'
-  - ds-sequence.unshift.html: 'ДсSequence::unshift »'
+  - ds-sequence.sorted.md: '« DsSequence::sorted'
+  - ds-sequence.unshift.md: 'ДсSequence::unshift »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::sum'
 ---
 # ДсSequence::sum

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-error.html: « cubriderror
-  - function.cubrid-fetch-assoc.html: cubridfetchassoc »
-  - index.html: PHP Manual
-  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+  - function.cubrid-error.md: « cubriderror
+  - function.cubrid-fetch-assoc.md: cubridfetchassoc »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridfetcharray
 ---
 # cubridfetcharray
@@ -24,7 +24,7 @@ cubrid_fetch_array(resource $result, int $type = CUBRID_BOTH): array
 
 `result`
 
-`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `type`
 
@@ -82,8 +82,8 @@ Ano Liossia                              34000.00   12000  Ano Liosia, Athens, G
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
--   [cubridfetch()](function.cubrid-fetch.html) - Вибирає наступний рядок із набору результатів
--   [cubridfetchrow()](function.cubrid-fetch-row.html) - Витягти рядок із результуючого набору у вигляді індексованого масиву
--   [cubridfetchassoc()](function.cubrid-fetch-assoc.html) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
--   [cubridfetchobject()](function.cubrid-fetch-object.html) - Витягти наступний рядок як об'єкт
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор
+-   [cubridfetch()](function.cubrid-fetch.md) - Вибирає наступний рядок із набору результатів
+-   [cubridfetchrow()](function.cubrid-fetch-row.md) - Витягти рядок із результуючого набору у вигляді індексованого масиву
+-   [cubridfetchassoc()](function.cubrid-fetch-assoc.md) - Витягти рядок із результуючого набору у вигляді асоціативного масиву
+-   [cubridfetchobject()](function.cubrid-fetch-object.md) - Витягти наступний рядок як об'єкт

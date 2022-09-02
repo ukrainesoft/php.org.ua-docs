@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-gen-chisquare.html: « statsrandgenchisquare
-  - function.stats-rand-gen-f.html: statsrandgenf »
+  - function.stats-rand-gen-chisquare.md: « statsrandgenchisquare
+  - function.stats-rand-gen-f.md: statsrandgenf »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandгенexponential

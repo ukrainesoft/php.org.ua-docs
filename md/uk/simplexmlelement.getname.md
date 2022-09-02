@@ -1,9 +1,9 @@
 ---
 navigation:
-  - simplexmlelement.getdocnamespaces.html: '« SimpleXMLElement::getDocNamespaces'
-  - simplexmlelement.getnamespaces.html: 'SimpleXMLElement::getNamespaces »'
-  - index.html: PHP Manual
-  - class.simplexmlelement.html: SimpleXMLElement
+  - simplexmlelement.getdocnamespaces.md: '« SimpleXMLElement::getDocNamespaces'
+  - simplexmlelement.getnamespaces.md: 'SimpleXMLElement::getNamespaces »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::getName'
 ---
 # SimpleXMLElement::getName
@@ -32,7 +32,7 @@ public SimpleXMLElement::getName(): string
 
 > **Зауваження**
 > 
-> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.html)
+> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.md)
 
 **Приклад #1 Отримання імен XML-елемента**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.getappdirectory.html: '« YafApplication::getAppDirectory'
-  - yaf-application.getdispatcher.html: 'YafApplication::getDispatcher »'
-  - index.html: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - yaf-application.getappdirectory.md: '« YafApplication::getAppDirectory'
+  - yaf-application.getdispatcher.md: 'YafApplication::getDispatcher »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::getConfig'
 ---
 # YafApplication::getConfig

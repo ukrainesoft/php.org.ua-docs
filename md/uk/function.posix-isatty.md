@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-initgroups.html: « posixinitgroups
-  - function.posix-kill.html: posixkill »
+  - function.posix-initgroups.md: « posixinitgroups
+  - function.posix-kill.md: posixkill »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixisatty

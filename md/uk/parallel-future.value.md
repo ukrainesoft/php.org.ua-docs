@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-future.done.html: '« parallelFuture::done'
-  - class.parallel-channel.html: parallelChannel »
-  - index.html: PHP Manual
-  - class.parallel-future.html: parallelFuture
+  - parallel-future.done.md: '« parallelFuture::done'
+  - class.parallel-channel.md: parallelChannel »
+  - index.md: PHP Manual
+  - class.parallel-future.md: parallelFuture
 title: 'parallelFuture::value'
 ---
 # parallelFuture::value
@@ -26,7 +26,7 @@ public parallel\Future::value(): mixed
 
 **Увага**
 
-Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.html) виконання завдання було перервано.
+Викидає parallelFutureErrorKilled, якщо [parallelRuntime](class.parallel-runtime.md) виконання завдання було перервано.
 
 **Увага**
 
@@ -38,4 +38,4 @@ public parallel\Future::value(): mixed
 
 **Увага**
 
-Викидає [Throwable](class.throwable.html), не спіймані у завданні.
+Викидає [Throwable](class.throwable.md), не спіймані у завданні.

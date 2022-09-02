@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-get-key-size.html: « mcryptgetkeysize
-  - function.mcrypt-list-modes.html: mcryptlistmodes »
+  - function.mcrypt-get-key-size.md: « mcryptgetkeysize
+  - function.mcrypt-list-modes.md: mcryptlistmodes »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptlistalgorithms

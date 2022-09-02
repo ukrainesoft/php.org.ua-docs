@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-execute.html: « cubridexecute
-  - function.cubrid-free-result.html: cubridfreeresult »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-execute.md: « cubridexecute
+  - function.cubrid-free-result.md: cubridfreeresult »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridfetch
 ---
 # cubridfetch

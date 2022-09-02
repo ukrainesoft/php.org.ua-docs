@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evprepare.construct.html: '« EvPrepare::construct'
-  - class.evsignal.html: EvSignal »
-  - index.html: PHP Manual
-  - class.evprepare.html: EvPrepare
+  - evprepare.construct.md: '« EvPrepare::construct'
+  - class.evsignal.md: EvSignal »
+  - index.md: PHP Manual
+  - class.evprepare.md: EvPrepare
 title: 'EvPrepare::createStopped'
 ---
 # EvPrepare::createStopped
@@ -32,13 +32,13 @@ final
    ): EvPrepare
 ```
 
-Те саме, що й [EvPrepare::construct()](evprepare.construct.html) але не виробляє автоматичного старту спостерігача.
+Те саме, що й [EvPrepare::construct()](evprepare.construct.md) але не виробляє автоматичного старту спостерігача.
 
 ### Список параметрів
 
 `callback`
 
-Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.html)
+Дивіться [функції зворотного виклику спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
@@ -46,7 +46,7 @@ final
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
@@ -54,5 +54,5 @@ final
 
 ### Дивіться також
 
--   [EvPrepare::construct()](evprepare.construct.html) - Конструктор спостерігача EvPrepare
--   [EvWatcher::start()](evwatcher.start.html) - Запускає спостерігача
+-   [EvPrepare::construct()](evprepare.construct.md) - Конструктор спостерігача EvPrepare
+-   [EvWatcher::start()](evwatcher.start.md) - Запускає спостерігача

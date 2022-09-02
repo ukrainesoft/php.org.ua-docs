@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrresponse.getrequesturl.html: '« SolrResponse::getRequestUrl'
-  - solrresponse.setparsemode.html: 'SolrResponse::setParseMode »'
-  - index.html: PHP Manual
-  - class.solrresponse.html: SolrResponse
+  - solrresponse.getrequesturl.md: '« SolrResponse::getRequestUrl'
+  - solrresponse.setparsemode.md: 'SolrResponse::setParseMode »'
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
 title: 'SolrResponse::getResponse'
 ---
 # SolrResponse::getResponse

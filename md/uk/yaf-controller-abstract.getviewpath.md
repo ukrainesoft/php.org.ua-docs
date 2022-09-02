@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-controller-abstract.getview.html: '« YafControllerAbstract::getView'
-  - yaf-controller-abstract.init.html: 'YafControllerAbstract::init »'
+  - yaf-controller-abstract.getview.md: '« YafControllerAbstract::getView'
+  - yaf-controller-abstract.init.md: 'YafControllerAbstract::init »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.html: YafControllerAbstract
+  - class.yaf-controller-abstract.md: YafControllerAbstract
 title: 'YafControllerAbstract::getViewpath'
 ---
 # YafControllerAbstract::getViewpath

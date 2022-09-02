@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xml-parser-set-option.html: « xmlparsersetoption
-  - function.xml-set-default-handler.html: xmlsetdefaulthandler »
-  - index.html: PHP Manual
-  - ref.xml.html: Функции парсера XML
+  - function.xml-parser-set-option.md: « xmlparsersetoption
+  - function.xml-set-default-handler.md: xmlsetdefaulthandler »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
 title: xmlsetcharacterdatahandler
 ---
 # xmlsetcharacterdatahandler
@@ -28,7 +28,7 @@ xml_set_character_data_handler(XMLParser $parser, callable $handler): bool
 
 `handler`
 
-`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.html) з аналізатора `parser`
+`handler` - рядок, що містить ім'я функції, який повинен бути визначений на момент виклику функції [xmlparse()](function.xml-parse.md) з аналізатора `parser`
 
 Функція з ім'ям `handler` має приймати два аргументи:
 
@@ -58,4 +58,4 @@ handler(XmlParser $parser, string $data)
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |

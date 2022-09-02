@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionenum.getcases.html: '« ReflectionEnum::getCases'
-  - reflectionenum.isbacked.html: 'ReflectionEnum::isBacked »'
-  - index.html: PHP Manual
-  - class.reflectionenum.html: ReflectionEnum
+  - reflectionenum.getcases.md: '« ReflectionEnum::getCases'
+  - reflectionenum.isbacked.md: 'ReflectionEnum::isBacked »'
+  - index.md: PHP Manual
+  - class.reflectionenum.md: ReflectionEnum
 title: 'ReflectionEnum::hasCase'
 ---
 # ReflectionEnum::hasCase

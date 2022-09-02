@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageblueprimary.html: '« Imagick::getImageBluePrimary'
-  - imagick.getimagechanneldepth.html: 'Imagick::getImageChannelDepth »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageblueprimary.md: '« Imagick::getImageBluePrimary'
+  - imagick.getimagechanneldepth.md: 'Imagick::getImageChannelDepth »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageBorderColor'
 ---
 # Imagick::getImageBorderColor

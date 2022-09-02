@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evloop.suspend.html: '« EvLoop::suspend'
-  - evloop.verify.html: 'EvLoop::verify »'
-  - index.html: PHP Manual
-  - class.evloop.html: EvLoop
+  - evloop.suspend.md: '« EvLoop::suspend'
+  - evloop.verify.md: 'EvLoop::verify »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
 title: 'EvLoop::timer'
 ---
 # EvLoop::timer

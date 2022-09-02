@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.readline-callback-read-char.html: « readlinecallbackreadchar
-  - function.readline-completion-function.html: readlinecompletionfunction »
+  - function.readline-callback-read-char.md: « readlinecallbackreadchar
+  - function.readline-completion-function.md: readlinecompletionfunction »
   - index.md: PHP Manual
   - ref.readline.md: Функции Readline
 title: readlineclearhistory

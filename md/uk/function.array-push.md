@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-product.html: « arrayproduct
-  - function.array-rand.html: arrayrand »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-product.md: « arrayproduct
+  - function.array-rand.md: arrayrand »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraypush
 ---
 # arraypush
@@ -78,6 +78,6 @@ Array
 
 ### Дивіться також
 
--   [arraypop()](function.array-pop.html) - Витягує останній елемент масиву
--   [arrayshift()](function.array-shift.html) - Витягує перший елемент масиву
--   [arrayunshift()](function.array-unshift.html) - Додає один або кілька елементів на початок масиву
+-   [arraypop()](function.array-pop.md) - Витягує останній елемент масиву
+-   [arrayshift()](function.array-shift.md) - Витягує перший елемент масиву
+-   [arrayunshift()](function.array-unshift.md) - Додає один або кілька елементів на початок масиву

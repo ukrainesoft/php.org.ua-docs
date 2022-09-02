@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-string-merge3.html: xdiffstringmerge3
-  - function.xdiff-string-patch.html: xdiffstringpatch »
+  - function.xdiff-string-merge3.md: xdiffstringmerge3
+  - function.xdiff-string-patch.md: xdiffstringpatch »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdiffstringpatchbinary
@@ -18,7 +18,7 @@ xdiffstringpatchbinary - Псевдонім для xdiffstringbpatch
 xdiff_string_patch_binary(string $str, string $patch): string
 ```
 
-Застосовує до рядка `str` бінарний патч `patch`. Ця функція приймає патчі створені як [xdiffstringbdiff()](function.xdiff-string-bdiff.html), так і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
+Застосовує до рядка `str` бінарний патч `patch`. Ця функція приймає патчі створені як [xdiffstringbdiff()](function.xdiff-string-bdiff.md), так і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
 
 Починаючи з версії 1.5.0 є псевдонімом для [xdiffstringbpatch()](function.xdiff-string-bpatch.md)
 

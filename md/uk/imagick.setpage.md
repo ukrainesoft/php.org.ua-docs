@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setoption.html: '« Imagick::setOption'
-  - imagick.setpointsize.html: 'Imagick::setPointSize »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setoption.md: '« Imagick::setOption'
+  - imagick.setpointsize.md: 'Imagick::setPointSize »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setPage'
 ---
 # Imagick::setPage

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.errno.html: '« mysqlistmt::$errno'
-  - mysqli-stmt.error.html: 'mysqlistmt::$error »'
+  - mysqli-stmt.errno.md: '« mysqlistmt::$errno'
+  - mysqli-stmt.error.md: 'mysqlistmt::$error »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::$errorlist'
 ---
 # mysqlistmt::$errorlist
@@ -32,7 +32,7 @@ mysqli_stmt_error_list(mysqli_stmt $statement): array
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

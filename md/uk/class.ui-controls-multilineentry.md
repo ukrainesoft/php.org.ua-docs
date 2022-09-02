@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-entry.settext.html: '« UIControlsEntry::setText'
-  - ui-controls-multilineentry.append.html: 'ОЙControlsMultilineEntry::append »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-controls-entry.settext.md: '« UIControlsEntry::setText'
+  - ui-controls-multilineentry.append.md: 'ОЙControlsMultilineEntry::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Елемент управління "Многорядкове введення"
 ---
 # Елемент управління "Многорядкове введення"
@@ -84,10 +84,10 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsMultilineEntry::append](ui-controls-multilineentry.append.html) — Додати текст
--   [ОЙControlsMultilineEntry::construct](ui-controls-multilineentry.construct.html) - Створити новий об'єкт "Многорядкове введення"
--   [ОЙControlsMultilineEntry::getText](ui-controls-multilineentry.gettext.html) — Отримати текст
--   [ОЙControlsMultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.html) - Визначення "тільки для читання"
--   [ОЙControlsMultilineEntry::onChange](ui-controls-multilineentry.onchange.html) - Обробник зміни
--   [ОЙControlsMultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.html) - Встановити "тільки для читання"
--   [ОЙControlsMultilineEntry::setText](ui-controls-multilineentry.settext.html) — Встановити текст
+-   [ОЙControlsMultilineEntry::append](ui-controls-multilineentry.append.md) — Додати текст
+-   [ОЙControlsMultilineEntry::construct](ui-controls-multilineentry.construct.md) - Створити новий об'єкт "Многорядкове введення"
+-   [ОЙControlsMultilineEntry::getText](ui-controls-multilineentry.gettext.md) — Отримати текст
+-   [ОЙControlsMultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.md) - Визначення "тільки для читання"
+-   [ОЙControlsMultilineEntry::onChange](ui-controls-multilineentry.onchange.md) - Обробник зміни
+-   [ОЙControlsMultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.md) - Встановити "тільки для читання"
+-   [ОЙControlsMultilineEntry::setText](ui-controls-multilineentry.settext.md) — Встановити текст

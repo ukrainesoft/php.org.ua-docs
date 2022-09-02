@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.commonmark-node-linebreak.html: « CommonMarkNodeLineBreak
-  - class.commonmark-node-codeblock.html: CommonMarkNodeCodeBlock »
+  - class.commonmark-node-linebreak.md: « CommonMarkNodeLineBreak
+  - class.commonmark-node-codeblock.md: CommonMarkNodeCodeBlock »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: Code успадковує CommonMarkNode

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-decrypt.html: « openssldecrypt
-  - function.openssl-digest.html: openssldigest »
+  - function.openssl-decrypt.md: « openssldecrypt
+  - function.openssl-digest.md: openssldigest »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslдхcomputekey

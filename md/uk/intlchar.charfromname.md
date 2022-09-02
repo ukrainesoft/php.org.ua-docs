@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.chardirection.html: '« IntlChar::charDirection'
-  - intlchar.charmirror.html: 'IntlChar::charMirror »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.chardirection.md: '« IntlChar::charDirection'
+  - intlchar.charmirror.md: 'IntlChar::charMirror »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::charFromName'
 ---
 # IntlChar::charFromName
@@ -68,5 +68,5 @@ NULL
 
 ### Дивіться також
 
--   [IntlChar::charName()](intlchar.charname.html) - Отримати ім'я Unicode
--   [IntlChar::enumCharNames()](intlchar.enumcharnames.html) - Перераховує всі присвоєні символи Unicode у заданому діапазоні
+-   [IntlChar::charName()](intlchar.charname.md) - Отримати ім'я Unicode
+-   [IntlChar::enumCharNames()](intlchar.enumcharnames.md) - Перераховує всі присвоєні символи Unicode у заданому діапазоні

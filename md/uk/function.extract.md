@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.end.md: « end
-  - function.in-array.html: інarray »
+  - function.in-array.md: інarray »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: extract
@@ -84,7 +84,7 @@ extract(array &$array, int $flags = EXTR_OVERWRITE, string $prefix = ""): int
 
 **Приклад #1 Приклад використання **extract()****
 
-функцію **extract()** також можна використовувати для імпорту в поточну таблицю змінних символів, що містяться в асоціативному масиві, що повертається функцією [wddxdeserialize()](function.wddx-deserialize.html)
+функцію **extract()** також можна використовувати для імпорту в поточну таблицю змінних символів, що містяться в асоціативному масиві, що повертається функцією [wddxdeserialize()](function.wddx-deserialize.md)
 
 ```php
 <?php
@@ -115,7 +115,7 @@ blue, large, sphere, medium
 
 **Увага**
 
-Не використовуйте функцію **extract()** на неперевірених даних, таких як введення користувача ([GET](reserved.variables.get.md) [FILES](reserved.variables.files.md) і т.п.). Якщо ви зробите це, переконайтеся, що використовуєте один із прапорів `flags`, що не перезаписують змінні, такий як **`EXTR_SKIP`** і майте на увазі, що ви повинні витягувати їх у тому порядку, який визначений у директиві [variablesorder](ini.core.html#ini.variables-order) всередині [php.ini](ini.md)
+Не використовуйте функцію **extract()** на неперевірених даних, таких як введення користувача ([GET](reserved.variables.get.md) [FILES](reserved.variables.files.md) і т.п.). Якщо ви зробите це, переконайтеся, що використовуєте один із прапорів `flags`, що не перезаписують змінні, такий як **`EXTR_SKIP`** і майте на увазі, що ви повинні витягувати їх у тому порядку, який визначений у директиві [variablesorder](ini.core.md#ini.variables-order) всередині [php.ini](ini.md)
 
 ### Дивіться також
 

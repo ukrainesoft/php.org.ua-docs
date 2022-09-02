@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.zip-open.html: « zipopen
-  - book.zlib.html: Zlib »
-  - index.html: PHP Manual
-  - ref.zip.html: Функции Zip
+  - function.zip-open.md: « zipopen
+  - book.zlib.md: Zlib »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
 title: zipread
 ---
 # zipread
@@ -28,7 +28,7 @@ zip_read(resource $zip): resource|false
 
 `zip`
 
-ZIP-файл, попередньо відкритий за допомогою функції [zipopen()](function.zip-open.html)
+ZIP-файл, попередньо відкритий за допомогою функції [zipopen()](function.zip-open.md)
 
 ### Значення, що повертаються
 
@@ -38,11 +38,11 @@ ZIP-файл, попередньо відкритий за допомогою ф
 
 | Версия | Описание |
 | --- | --- |
-|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
 
 ### Дивіться також
 
--   [zipopen()](function.zip-open.html) - Відкриває ZIP-архів
--   [zipclose()](function.zip-close.html) - Закриває дескриптор ZIP-архіву
--   [zipentryopen()](function.zip-entry-open.html) - відкриває директорію для читання
--   [zipentryread()](function.zip-entry-read.html) - Читає дані із відкритого раніше дескриптора директорії
+-   [zipopen()](function.zip-open.md) - Відкриває ZIP-архів
+-   [zipclose()](function.zip-close.md) - Закриває дескриптор ZIP-архіву
+-   [zipentryopen()](function.zip-entry-open.md) - відкриває директорію для читання
+-   [zipentryread()](function.zip-entry-read.md) - Читає дані із відкритого раніше дескриптора директорії

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.parle-rparser.html: « ParleRParser
-  - parle-rparser.build.html: 'ParleRParser::build »'
+  - class.parle-rparser.md: « ParleRParser
+  - parle-rparser.build.md: 'ParleRParser::build »'
   - index.md: PHP Manual
-  - class.parle-rparser.html: ParleRParser
+  - class.parle-rparser.md: ParleRParser
 title: 'ParleRParser::advance'
 ---
 # ParleRParser::advance

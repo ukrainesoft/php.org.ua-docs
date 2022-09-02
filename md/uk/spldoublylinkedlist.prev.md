@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.pop.html: '« SplDoublyLinkedList::pop'
-  - spldoublylinkedlist.push.html: 'SplDoublyLinkedList::push »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.pop.md: '« SplDoublyLinkedList::pop'
+  - spldoublylinkedlist.push.md: 'SplDoublyLinkedList::push »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::prev'
 ---
 # SplDoublyLinkedList::prev

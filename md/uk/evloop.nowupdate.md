@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evloop.now.html: '« EvLoop::now'
-  - evloop.periodic.html: 'EvLoop::periodic »'
-  - index.html: PHP Manual
-  - class.evloop.html: EvLoop
+  - evloop.now.md: '« EvLoop::now'
+  - evloop.periodic.md: 'EvLoop::periodic »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
 title: 'EvLoop::nowUpdate'
 ---
 # EvLoop::nowUpdate
@@ -19,7 +19,7 @@ public
    EvLoop::nowUpdate(): void
 ```
 
-Встановлює поточний час, запитуючи ядро, оновлюючи час, що повертається [EvLoop::now()](evloop.now.html) в процесі. Це дорога операція, яка зазвичай виконується автоматично [EvLoop::run()](evloop.run.html)
+Встановлює поточний час, запитуючи ядро, оновлюючи час, що повертається [EvLoop::now()](evloop.now.md) в процесі. Це дорога операція, яка зазвичай виконується автоматично [EvLoop::run()](evloop.run.md)
 
 ### Список параметрів
 
@@ -31,5 +31,5 @@ public
 
 ### Дивіться також
 
--   [EvLoop::now()](evloop.now.html) - Повертає поточний "event loop time"
--   [Ev::nowUpdate()](ev.nowupdate.html) - Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now
+-   [EvLoop::now()](evloop.now.md) - Повертає поточний "event loop time"
+-   [Ev::nowUpdate()](ev.nowupdate.md) - Встановлює поточний час шляхом запиту до ядра в процесі оновлюючи час, який повертається Ev::now

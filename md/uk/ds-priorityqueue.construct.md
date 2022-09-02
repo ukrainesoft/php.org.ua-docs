@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-priorityqueue.clear.html: '« DsPriorityQueue::clear'
-  - ds-priorityqueue.copy.html: 'ДсPriorityQueue::copy »'
+  - ds-priorityqueue.clear.md: '« DsPriorityQueue::clear'
+  - ds-priorityqueue.copy.md: 'ДсPriorityQueue::copy »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - class.ds-priorityqueue.md: Черга з пріоритетом
 title: 'ДсPriorityQueue::construct'
 ---
 # ДсPriorityQueue::construct

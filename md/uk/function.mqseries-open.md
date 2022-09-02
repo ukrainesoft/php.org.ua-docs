@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mqseries-inq.html: « mqseriesinq
-  - function.mqseries-put1.html: mqseriesput1 »
+  - function.mqseries-inq.md: « mqseriesinq
+  - function.mqseries-put1.md: mqseriesput1 »
   - index.md: PHP Manual
   - ref.mqseries.md: Функции mqseries
 title: mqseriesopen

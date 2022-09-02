@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-mkdir.html: « eiomkdir
-  - function.eio-nop.html: eionop »
+  - function.eio-mkdir.md: « eiomkdir
+  - function.eio-nop.md: eionop »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiomknod

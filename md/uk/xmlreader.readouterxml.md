@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlreader.readinnerxml.html: '« XMLReader::readInnerXml'
-  - xmlreader.readstring.html: 'XMLReader::readString »'
-  - index.html: PHP Manual
-  - class.xmlreader.html: XMLReader
+  - xmlreader.readinnerxml.md: '« XMLReader::readInnerXml'
+  - xmlreader.readstring.md: 'XMLReader::readString »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
 title: 'XMLReader::readOuterXml'
 ---
 # XMLReader::readOuterXml
@@ -36,6 +36,6 @@ public XMLReader::readOuterXml(): string
 
 ### Дивіться також
 
--   [XMLReader::readString()](xmlreader.readstring.html) - Прочитати вміст поточного вузла як рядок
--   [XMLReader::readInnerXml()](xmlreader.readinnerxml.html) - Вийняти XML із поточного вузла
--   [XMLReader::expand()](xmlreader.expand.html) - Повернути копію поточного вузла у вигляді об'єкта DOM
+-   [XMLReader::readString()](xmlreader.readstring.md) - Прочитати вміст поточного вузла як рядок
+-   [XMLReader::readInnerXml()](xmlreader.readinnerxml.md) - Вийняти XML із поточного вузла
+-   [XMLReader::expand()](xmlreader.expand.md) - Повернути копію поточного вузла у вигляді об'єкта DOM

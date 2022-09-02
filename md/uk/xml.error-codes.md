@@ -1,6 +1,6 @@
 ---
 navigation:
-  - xml.case-folding.html: « Приведення до одного регістру
+  - xml.case-folding.md: « Приведення до одного регістру
   - xml.encoding.md: Кодування символів »
   - index.md: PHP Manual
   - book.xml.md: Разбор XML

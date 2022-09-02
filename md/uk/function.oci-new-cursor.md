@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-new-connect.html: « ocinewconnect
-  - function.oci-new-descriptor.html: ocinewdescriptor »
+  - function.oci-new-connect.md: « ocinewconnect
+  - function.oci-new-descriptor.md: ocinewdescriptor »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocinewcursor
@@ -24,7 +24,7 @@ oci_new_cursor(resource $connection): resource|false
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.md)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.md) або [ocipconnect()](function.oci-pconnect.md)
 
 ### Значення, що повертаються
 

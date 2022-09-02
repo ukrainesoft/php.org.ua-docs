@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.filter-var.html: « filtervar
+  - function.filter-var.md: « filtervar
   - intro.funchand.md: Введение »
   - index.md: PHP Manual
   - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'

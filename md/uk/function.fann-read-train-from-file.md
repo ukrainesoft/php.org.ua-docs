@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-randomize-weights.html: « fannrandomizeweights
-  - function.fann-reset-errno.html: fannreseterrno »
+  - function.fann-randomize-weights.md: « fannrandomizeweights
+  - function.fann-reset-errno.md: fannreseterrno »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannreadtrainfromfile

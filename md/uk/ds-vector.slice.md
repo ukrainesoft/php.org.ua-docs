@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.shift.html: '« DsVector::shift'
-  - ds-vector.sort.html: 'ДсVector::sort »'
+  - ds-vector.shift.md: '« DsVector::shift'
+  - ds-vector.sort.md: 'ДсVector::sort »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::slice'
 ---
 # ДсVector::slice

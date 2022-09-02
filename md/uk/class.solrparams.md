@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrgenericresponse.destruct.html: '« SolrGenericResponse::destruct'
-  - solrparams.add.html: 'SolrParams::add »'
-  - index.html: PHP Manual
-  - book.solr.html: Solr
+  - solrgenericresponse.destruct.md: '« SolrGenericResponse::destruct'
+  - solrparams.add.md: 'SolrParams::add »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
 title: Клас SolrParams
 ---
 # Клас SolrParams
@@ -50,14 +50,14 @@ final public unserialize(string $serialized): void
 
 ## Зміст
 
--   [SolrParams::add](solrparams.add.html) - Псевдонім SolrParams::addParam
--   [SolrParams::addParam](solrparams.addparam.html) — Додає параметр до об'єкту
--   [SolrParams::get](solrparams.get.html) - Псевдонім SolrParams::getParam
--   [SolrParams::getParam](solrparams.getparam.html) — Повертає значення параметра
--   [SolrParams::getParams](solrparams.getparams.html) — Повертає масив параметрів, не в URL-закодованому вигляді
--   [SolrParams::getPreparedParams](solrparams.getpreparedparams.html) — Повертає масив параметрів в URL-адресі
--   [SolrParams::serialize](solrparams.serialize.html) — Використовується для серіалізації користувача
--   [SolrParams::set](solrparams.set.html) - Псевдонім SolrParams::setParam
--   [SolrParams::setParam](solrparams.setparam.html) — Встановлює параметр на вказане значення
--   [SolrParams::toString](solrparams.tostring.html) — Повертає всі параметри об'єкта у вигляді пар ім'я-значення
--   [SolrParams::unserialize](solrparams.unserialize.html) — Використовується для серіалізації користувача
+-   [SolrParams::add](solrparams.add.md) - Псевдонім SolrParams::addParam
+-   [SolrParams::addParam](solrparams.addparam.md) — Додає параметр до об'єкту
+-   [SolrParams::get](solrparams.get.md) - Псевдонім SolrParams::getParam
+-   [SolrParams::getParam](solrparams.getparam.md) — Повертає значення параметра
+-   [SolrParams::getParams](solrparams.getparams.md) — Повертає масив параметрів, не в URL-закодованому вигляді
+-   [SolrParams::getPreparedParams](solrparams.getpreparedparams.md) — Повертає масив параметрів в URL-адресі
+-   [SolrParams::serialize](solrparams.serialize.md) — Використовується для серіалізації користувача
+-   [SolrParams::set](solrparams.set.md) - Псевдонім SolrParams::setParam
+-   [SolrParams::setParam](solrparams.setparam.md) — Встановлює параметр на вказане значення
+-   [SolrParams::toString](solrparams.tostring.md) — Повертає всі параметри об'єкта у вигляді пар ім'я-значення
+-   [SolrParams::unserialize](solrparams.unserialize.md) — Використовується для серіалізації користувача

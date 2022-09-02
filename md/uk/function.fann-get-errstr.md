@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-errno.html: « fanngeterrno
-  - function.fann-get-layer-array.html: fanngetlayerarray »
+  - function.fann-get-errno.md: « fanngeterrno
+  - function.fann-get-layer-array.md: fanngetlayerarray »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngeterrstr

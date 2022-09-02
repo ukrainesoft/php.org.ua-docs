@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-seq-drop.html: « cubridseqdrop
-  - function.cubrid-seq-put.html: cubridseqput »
+  - function.cubrid-seq-drop.md: « cubridseqdrop
+  - function.cubrid-seq-put.md: cubridseqput »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridseqinsert

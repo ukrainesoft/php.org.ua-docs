@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.gettimezone.html: '« IntlDateFormatter::getTimeZone'
-  - intldateformatter.localtime.html: 'IntlDateFormatter::localtime »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.gettimezone.md: '« IntlDateFormatter::getTimeZone'
+  - intldateformatter.localtime.md: 'IntlDateFormatter::localtime »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::isLenient'
 ---
 # IntlDateFormatter::isLenient
@@ -140,5 +140,5 @@ if (intl_get_error_code() != 0) {
 
 ### Дивіться також
 
--   [datefmtsetlenient()](intldateformatter.setlenient.html) - Встановлює м'який режим аналізатора
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtsetlenient()](intldateformatter.setlenient.md) - Встановлює м'який режим аналізатора
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

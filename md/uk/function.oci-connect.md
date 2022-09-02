@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-commit.html: « ocicommit
-  - function.oci-define-by-name.html: ocidefineбname »
+  - function.oci-commit.md: « ocicommit
+  - function.oci-define-by-name.md: ocidefineбname »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociconnect
@@ -56,9 +56,9 @@ oci_connect(    string $username,    string $password,    ?string $c
 
 `session_mode`
 
-Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо було вказано **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) в `On`
+Цей параметр доступний починаючи з версії PHP 5 (PECL OCI8 1.1) і набуває наступних значень: **`OCI_DEFAULT`** **`OCI_SYSOPER`** і **`OCI_SYSDBA`**. Якщо було вказано **`OCI_SYSOPER`** або **`OCI_SYSDBA`**, дана функція спробує встановити привілейоване з'єднання, використовуючи зовнішні дані авторизації. За замовчуванням привілейовані з'єднання вимкнено. Щоб їх увімкнути, необхідно встановити [oci8.privilegedconnect](oci8.configuration.md#ini.oci8.privileged-connect) в `On`
 
-У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
+У версії PHP 5.3 (PECL OCI8 1.3.4) з'явилося значення **`OCI_CRED_EXT`**. Воно вказує Oracle використовувати зовнішню автентифікацію або автентифікацію за допомогою операційної системи, що має бути налаштовано у базі даних. Прапор **`OCI_CRED_EXT`** може бути використаний тільки з ім'ям користувача "/" та порожнім паролем . [oci8.privilegedconnect](oci8.configuration.md#ini.oci8.privileged-connect) може набувати значення `On` або `Off`
 
 **`OCI_CRED_EXT`** може використовуватися спільно з режимами **`OCI_SYSOPER`** і **`OCI_SYSDBA`**
 

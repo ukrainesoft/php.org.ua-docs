@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-cql.html: « CommonMarkCQL
-  - commonmark-cql.invoke.html: 'CommonMarkCQL::invoke »'
+  - class.commonmark-cql.md: « CommonMarkCQL
+  - commonmark-cql.invoke.md: 'CommonMarkCQL::invoke »'
   - index.md: PHP Manual
-  - class.commonmark-cql.html: CommonMarkCQL
+  - class.commonmark-cql.md: CommonMarkCQL
 title: 'CommonMarkCQL::construct'
 ---
 # CommonMarkCQL::construct

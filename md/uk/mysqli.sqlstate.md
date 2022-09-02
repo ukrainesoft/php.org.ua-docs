@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.set-charset.html: '« mysqli::setcharset'
-  - mysqli.ssl-set.html: 'mysqli::sslset »'
+  - mysqli.set-charset.md: '« mysqli::setcharset'
+  - mysqli.ssl-set.md: 'mysqli::sslset »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$sqlstate'

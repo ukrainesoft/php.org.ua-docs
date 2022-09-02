@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.close.html: '« SwooleServer::close'
-  - swoole-server.connection-info.html: 'SwooleServer::connectioninfo »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - swoole-server.close.md: '« SwooleServer::close'
+  - swoole-server.connection-info.md: 'SwooleServer::connectioninfo »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::confirm'
 ---
 # SwooleServer::confirm

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.addfield.html: '« SolrQuery::addField'
-  - solrquery.addgroupfield.html: 'SolrQuery::addGroupField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.addfield.md: '« SolrQuery::addField'
+  - solrquery.addgroupfield.md: 'SolrQuery::addGroupField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::addFilterQuery'
 ---
 # SolrQuery::addFilterQuery

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.tostring.html: '« Imagick::toString'
-  - imagick.transformimagecolorspace.html: 'Imagick::transformImageColorspace »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.tostring.md: '« Imagick::toString'
+  - imagick.transformimagecolorspace.md: 'Imagick::transformImageColorspace »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::transformImage'
 ---
 # Imagick::transformImage
@@ -55,6 +55,6 @@ $new_image->writeImage('test_out.jpg');
 
 ### Дивіться також
 
--   [Imagick::cropImage()](imagick.cropimage.html) - Витягує область зображення
--   [Imagick::resizeImage()](imagick.resizeimage.html) - Масштабує зображення
--   [Imagick::thumbnailImage()](imagick.thumbnailimage.html) - Змінює розмір зображення
+-   [Imagick::cropImage()](imagick.cropimage.md) - Витягує область зображення
+-   [Imagick::resizeImage()](imagick.resizeimage.md) - Масштабує зображення
+-   [Imagick::thumbnailImage()](imagick.thumbnailimage.md) - Змінює розмір зображення

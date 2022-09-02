@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-list-tables.html: « mysqllisttables
-  - function.mysql-num-rows.html: mysqlnumrows »
+  - function.mysql-list-tables.md: « mysqllisttables
+  - function.mysql-num-rows.md: mysqlnumrows »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlnumfields

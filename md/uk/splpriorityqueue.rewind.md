@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splpriorityqueue.recoverfromcorruption.html: '« SplPriorityQueue::recoverFromCorruption'
-  - splpriorityqueue.setextractflags.html: 'SplPriorityQueue::setExtractFlags »'
-  - index.html: PHP Manual
-  - class.splpriorityqueue.html: SplPriorityQueue
+  - splpriorityqueue.recoverfromcorruption.md: '« SplPriorityQueue::recoverFromCorruption'
+  - splpriorityqueue.setextractflags.md: 'SplPriorityQueue::setExtractFlags »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
 title: 'SplPriorityQueue::rewind'
 ---
 # SplPriorityQueue::rewind

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-reset-errstr.html: « fannreseterrstr
-  - function.fann-run.html: fannrun »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-reset-errstr.md: « fannreseterrstr
+  - function.fann-run.md: fannrun »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannresetMSE
 ---
 # fannresetMSE
@@ -34,6 +34,6 @@ fann_reset_MSE(string $ann): bool
 
 ### Дивіться також
 
--   [fanngetMSE()](function.fann-get-mse.html) - Зчитує середньоквадратичну помилку мережі
--   [fanngetbitfail()](function.fann-get-bit-fail.html) - Кількість бітів збою
--   [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.html) - Повертає межу збою бітів, використану під час навчання
+-   [fanngetMSE()](function.fann-get-mse.md) - Зчитує середньоквадратичну помилку мережі
+-   [fanngetbitfail()](function.fann-get-bit-fail.md) - Кількість бітів збою
+-   [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.md) - Повертає межу збою бітів, використану під час навчання

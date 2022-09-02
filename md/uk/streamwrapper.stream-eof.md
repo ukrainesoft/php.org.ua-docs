@@ -1,7 +1,7 @@
 ---
 navigation:
-  - streamwrapper.stream-close.html: '« streamWrapper::streamclose'
-  - streamwrapper.stream-flush.html: 'streamWrapper::streamflush »'
+  - streamwrapper.stream-close.md: '« streamWrapper::streamclose'
+  - streamwrapper.stream-flush.md: 'streamWrapper::streamflush »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streameof'
@@ -32,7 +32,7 @@ public streamWrapper::stream_eof(): bool
 
 **Увага**
 
-При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.html)), PHP буде викликати [streamWrapper::streamread()](streamwrapper.stream-read.html) і разом із ним **streamWrapper::streameof()** у циклі, поки [streamWrapper::streamread()](streamwrapper.stream-read.md) повертає непустий рядок. Повертається з **streamWrapper::streameof()** значення у своїй ігнорується.
+При читанні файлу повністю (наприклад, функцією [filegetcontents()](function.file-get-contents.md)), PHP буде викликати [streamWrapper::streamread()](streamwrapper.stream-read.md) і разом із ним **streamWrapper::streameof()** у циклі, поки [streamWrapper::streamread()](streamwrapper.stream-read.md) повертає непустий рядок. Повертається з **streamWrapper::streameof()** значення у своїй ігнорується.
 
 ### Дивіться також
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ftp.resources.html: « Типи ресурсів
-  - ftp.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.ftp.html: FTP
+  - ftp.resources.md: « Типи ресурсів
+  - ftp.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.ftp.md: FTP
 title: Обумовлені константи
 ---
 # Обумовлені константи

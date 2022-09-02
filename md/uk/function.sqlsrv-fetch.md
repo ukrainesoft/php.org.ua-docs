@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-fetch-object.html: « sqlsrvfetchobject
-  - function.sqlsrv-field-metadata.html: sqlsrvfieldmetadata »
+  - function.sqlsrv-fetch-object.md: « sqlsrvfetchobject
+  - function.sqlsrv-field-metadata.md: sqlsrvfieldmetadata »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvfetch
@@ -24,7 +24,7 @@ sqlsrv_fetch(resource $stmt, int $row = ?, int $offset = ?): mixed
 
 `stmt`
 
-Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.md)
+Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 `row`
 

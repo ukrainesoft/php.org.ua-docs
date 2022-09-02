@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-combo.html: « UIControlsCombo
-  - ui-controls-combo.getselected.html: 'ОЙControlsCombo::getSelected »'
-  - index.html: PHP Manual
-  - class.ui-controls-combo.html: ОЙControlsCombo
+  - class.ui-controls-combo.md: « UIControlsCombo
+  - ui-controls-combo.getselected.md: 'ОЙControlsCombo::getSelected »'
+  - index.md: PHP Manual
+  - class.ui-controls-combo.md: ОЙControlsCombo
 title: 'ОЙControlsCombo::append'
 ---
 # ОЙControlsCombo::append

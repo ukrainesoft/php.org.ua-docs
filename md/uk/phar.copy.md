@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.converttoexecutable.html: '« Phar::convertToExecutable'
-  - phar.count.html: 'Phar::count »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.converttoexecutable.md: '« Phar::convertToExecutable'
+  - phar.count.md: 'Phar::count »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::copy'
 ---
 # Phar::copy
@@ -20,7 +20,7 @@ public Phar::copy(string $from, string $to): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Копіює внутрішній файл phar-архіву в інший новий файл усередині phar-архіву. Це об'єктно-орієнтована альтернатива використанню [copy()](function.copy.md) з обгорткою потоку phar.
 
@@ -36,7 +36,7 @@ public Phar::copy(string $from, string $to): bool
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html) якщо: вихідний файл не існує, цільовий файл вже існує, доступ на запис вимкнено, відкриття будь-якого файлу неможливе або читання вихідного файлу зазнало невдачі. Якщо запис змін до phar не вдався, буде викинуто виняток [PharException](class.pharexception.md)
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md) якщо: вихідний файл не існує, цільовий файл вже існує, доступ на запис вимкнено, відкриття будь-якого файлу неможливе або читання вихідного файлу зазнало невдачі. Якщо запис змін до phar не вдався, буде викинуто виняток [PharException](class.pharexception.md)
 
 ### Приклади
 

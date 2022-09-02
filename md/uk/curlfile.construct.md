@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.curlfile.html: « CURLFile
-  - curlfile.getfilename.html: 'CURLFile::getFilename »'
-  - index.html: PHP Manual
-  - class.curlfile.html: CURLFile
+  - class.curlfile.md: « CURLFile
+  - curlfile.getfilename.md: 'CURLFile::getFilename »'
+  - index.md: PHP Manual
+  - class.curlfile.md: CURLFile
 title: 'CURLFile::construct'
 ---
 # CURLFile::construct
@@ -26,7 +26,7 @@ public **CURLFile::construct**(string `$filename`, ?string `$mime_type` **`null`
 curl_file_create(string $filename, ?string $mime_type = null, ?string $posted_filename = null): CURLFile
 ```
 
-Створює об'єкт [CURLFile](class.curlfile.html), що використовується для завантаження файлу з використанням опції **`CURLOPT_POSTFIELDS`**
+Створює об'єкт [CURLFile](class.curlfile.md), що використовується для завантаження файлу з використанням опції **`CURLOPT_POSTFIELDS`**
 
 ### Список параметрів
 
@@ -44,7 +44,7 @@ Mime-тип файлу.
 
 ### Значення, що повертаються
 
-Повертає об'єкт типу [CURLFile](class.curlfile.html)
+Повертає об'єкт типу [CURLFile](class.curlfile.md)
 
 ### список змін
 
@@ -231,4 +231,4 @@ array(26) {
 
 ### Дивіться також
 
--   [curlsetopt()](function.curl-setopt.html) - Встановлює параметр для сеансу CURL
+-   [curlsetopt()](function.curl-setopt.md) - Встановлює параметр для сеансу CURL

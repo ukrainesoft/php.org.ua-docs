@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-stack.pop.html: '« ParleStack::pop'
-  - class.parle-token.html: ParleToken »
+  - parle-stack.pop.md: '« ParleStack::pop'
+  - class.parle-token.md: ParleToken »
   - index.md: PHP Manual
-  - class.parle-stack.html: ParleStack
+  - class.parle-stack.md: ParleStack
 title: 'ParleStack::push'
 ---
 # ParleStack::push

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-num-cols.html: « cubridnumcols
-  - function.cubrid-pconnect-with-url.html: cubridpconnectwithurl »
+  - function.cubrid-num-cols.md: « cubridnumcols
+  - function.cubrid-pconnect-with-url.md: cubridpconnectwithurl »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridnumrows
@@ -26,7 +26,7 @@ cubrid_num_rows(resource $result): int
 
 `result`
 
-`result` із виклику функцій [cubridexecute()](function.cubrid-execute.html) [cubridquery()](function.cubrid-query.html) і [cubridprepare()](function.cubrid-prepare.md)
+`result` із виклику функцій [cubridexecute()](function.cubrid-execute.md) [cubridquery()](function.cubrid-query.md) і [cubridprepare()](function.cubrid-prepare.md)
 
 ### Значення, що повертаються
 

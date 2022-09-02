@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.preg-filter.html: « pregfilter
-  - function.preg-last-error-msg.html: preglasterrormsg »
+  - function.preg-filter.md: « pregfilter
+  - function.preg-last-error-msg.md: preglasterrormsg »
   - index.md: PHP Manual
   - ref.pcre.md: Функции PCRE
 title: preggrep

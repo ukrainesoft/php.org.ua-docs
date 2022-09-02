@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.format.html: '« IntlDateFormatter::format'
-  - intldateformatter.getcalendar.html: 'IntlDateFormatter::getCalendar »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.format.md: '« IntlDateFormatter::format'
+  - intldateformatter.getcalendar.md: 'IntlDateFormatter::getCalendar »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::formatObject'
 ---
 # IntlDateFormatter::formatObject
@@ -28,15 +28,15 @@ public static IntlDateFormatter::formatObject(IntlCalendar|DateTimeInterface $da
 datefmt_format_object(IntlCalendar|DateTimeInterface $datetime, array|int|string|null $format = null, ?string $locale = null): string|false
 ```
 
-Функція дозволяє форматувати об'єкт [IntlCalendar](class.intlcalendar.html) або [DateTime](class.datetime.html) без попереднього явного створення об'єкта [IntlDateFormatter](class.intldateformatter.md)
+Функція дозволяє форматувати об'єкт [IntlCalendar](class.intlcalendar.md) або [DateTime](class.datetime.md) без попереднього явного створення об'єкта [IntlDateFormatter](class.intldateformatter.md)
 
-Тимчасовий [IntlDateFormatter](class.intldateformatter.html), який буде створено, приймає часовий пояс із переданого об'єкта. База даних часових поясів, пов'язана з PHP, не використовуватиметься - замість неї використовуватиметься ICU. Отже, ідентифікатор часового поясу, який використовується в об'єктах [DateTime](class.datetime.md), також має існувати у базі даних ICU.
+Тимчасовий [IntlDateFormatter](class.intldateformatter.md), який буде створено, приймає часовий пояс із переданого об'єкта. База даних часових поясів, пов'язана з PHP, не використовуватиметься - замість неї використовуватиметься ICU. Отже, ідентифікатор часового поясу, який використовується в об'єктах [DateTime](class.datetime.md), також має існувати у базі даних ICU.
 
 ### Список параметрів
 
 `datetime`
 
-Об'єкт типу [IntlCalendar](class.intlcalendar.html) або [DateTime](class.datetime.md). Використовуватиметься інформація про часовий пояс в об'єкті.
+Об'єкт типу [IntlCalendar](class.intlcalendar.md) або [DateTime](class.datetime.md). Використовуватиметься інформація про часовий пояс в об'єкті.
 
 `format`
 
@@ -44,7 +44,7 @@ datefmt_format_object(IntlCalendar|DateTimeInterface $datetime, array|int|string
 
 `locale`
 
-Використовуваний мовний стандарт або **`null`** для використання [значения по умолчанию](intl.configuration.html#ini.intl.default-locale)
+Використовуваний мовний стандарт або **`null`** для використання [значения по умолчанию](intl.configuration.md#ini.intl.default-locale)
 
 ### Значення, що повертаються
 

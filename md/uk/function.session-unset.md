@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.session-status.html: « sessionstatus
-  - function.session-write-close.html: sessionwriteclose »
-  - index.html: PHP Manual
-  - ref.session.html: Функції для роботи із сесіями
+  - function.session-status.md: « sessionstatus
+  - function.session-write-close.md: sessionwriteclose »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
 title: sessionunset
 ---
 # sessionunset
@@ -38,12 +38,12 @@ session_unset(): bool
 
 > **Зауваження**
 > 
-> При використанні [SESSION](reserved.variables.session.html) для видалення змінних сесії, то використовуйте функцію [unset()](function.unset.html). Наприклад, `unset ($_SESSION['varname']);`
+> При використанні [SESSION](reserved.variables.session.md) для видалення змінних сесії, то використовуйте функцію [unset()](function.unset.md). Наприклад, `unset ($_SESSION['varname']);`
 
 **Застереження**
 
-НЕ видаляйте весь масив [SESSION](reserved.variables.session.html) за допомогою `unset($_SESSION)`, оскільки це призведе до неможливості реєстрації нових змінних через суперглобальний масив. [SESSION](reserved.variables.session.html)
+НЕ видаляйте весь масив [SESSION](reserved.variables.session.md) за допомогою `unset($_SESSION)`, оскільки це призведе до неможливості реєстрації нових змінних через суперглобальний масив. [SESSION](reserved.variables.session.md)
 
 > **Зауваження**
 > 
-> Використовуйте **sessionunset()** тільки для старого коду, який не використовує [SESSION](reserved.variables.session.html)
+> Використовуйте **sessionunset()** тільки для старого коду, який не використовує [SESSION](reserved.variables.session.md)

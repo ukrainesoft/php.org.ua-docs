@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ftp-get.html: « ftpget
-  - function.ftp-mdtm.html: ftpmdtm »
-  - index.html: PHP Manual
-  - ref.ftp.html: Функції FTP
+  - function.ftp-get.md: « ftpget
+  - function.ftp-mdtm.md: ftpmdtm »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
 title: ftplogin
 ---
 # ftplogin
@@ -24,7 +24,7 @@ ftp_login(FTP\Connection $ftp, string $username, string $password): bool
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 `username`
 
@@ -42,7 +42,7 @@ ftp_login(FTP\Connection $ftp, string $username, string $password): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

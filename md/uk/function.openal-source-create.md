@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openal-listener-set.html: « openallistenerset
-  - function.openal-source-destroy.html: openalsourcedestroy »
-  - index.html: PHP Manual
-  - ref.openal.html: Функции OpenAL
+  - function.openal-listener-set.md: « openallistenerset
+  - function.openal-source-destroy.md: openalsourcedestroy »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
 title: openalsourcecreate
 ---
 # openalsourcecreate
@@ -24,10 +24,10 @@ openal_source_create(): resource
 
 ### Значення, що повертаються
 
-Повертає ресурс [Open AL(Source)](openal.resources.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс [Open AL(Source)](openal.resources.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [openalsourceset()](function.openal-source-set.html) - Встановити властивість джерела
--   [openalsourceplay()](function.openal-source-play.html) - Почати відтворення джерела
--   [openalsourcedestroy()](function.openal-source-destroy.html) - Знищення ресурсу джерела
+-   [openalsourceset()](function.openal-source-set.md) - Встановити властивість джерела
+-   [openalsourceplay()](function.openal-source-play.md) - Почати відтворення джерела
+-   [openalsourcedestroy()](function.openal-source-destroy.md) - Знищення ресурсу джерела

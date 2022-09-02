@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.domdocumenttype.html: « DOMDocumentType
-  - domelement.construct.html: 'DOMElement::construct »'
-  - index.html: PHP Manual
-  - book.dom.html: DOM
+  - class.domdocumenttype.md: « DOMDocumentType
+  - domelement.construct.md: 'DOMElement::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
 title: Клас DOMElement
 ---
 # Клас DOMElement
@@ -213,13 +213,13 @@ tagName
 | Версия | Описание |
 | --- | --- |
 |  | Додані властивості першихелементівChild, LastElementChild, ChildElementCount, попереднійElementSibling і NextElementSibling. |
-|  | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.html) і [DOMChildNode](class.domchildnode.md) |
+|  | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) і [DOMChildNode](class.domchildnode.md) |
 
 ## Примітки
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.md) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.
 
 ## Зміст
 

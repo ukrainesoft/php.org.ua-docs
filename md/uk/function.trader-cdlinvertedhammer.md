@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlinneck.html: « tradercdlinneck
-  - function.trader-cdlkicking.html: tradercdlkicking »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlinneck.md: « tradercdlinneck
+  - function.trader-cdlkicking.md: tradercdlkicking »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlinvertedhammer
 ---
 # tradercdlinvertedhammer

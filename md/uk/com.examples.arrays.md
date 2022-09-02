@@ -1,9 +1,9 @@
 ---
 navigation:
-  - com.examples.foreach.html: « For Each
-  - class.com.html: com »
-  - index.html: PHP Manual
-  - com.examples.html: Приклади
+  - com.examples.foreach.md: « For Each
+  - class.com.md: com »
+  - index.md: PHP Manual
+  - com.examples.md: Приклади
 title: Масиви та властивості COM у стилі масивів
 ---
 ## Масиви та властивості COM у стилі масивів
@@ -14,4 +14,4 @@ title: Масиви та властивості COM у стилі масивів
 
 -   Доступ до багатовимірних масивів або властивостей COM за допомогою синтаксису доступу до масивів. Також ви можете записувати та створювати властивості таким же чином.
     
--   Ітерація SafeArray ("справжні" масиви), використовуючи [foreach](control-structures.foreach.html). Це працює, оскільки SafeArrays включає інформацію про свій розмір. Якщо властивість реалізує IEnumVariant, то ви також можете використати для нього foreach. Докладніше читайте у розділі [For Each](com.examples.foreach.html)
+-   Ітерація SafeArray ("справжні" масиви), використовуючи [foreach](control-structures.foreach.md). Це працює, оскільки SafeArrays включає інформацію про свій розмір. Якщо властивість реалізує IEnumVariant, то ви також можете використати для нього foreach. Докладніше читайте у розділі [For Each](com.examples.foreach.md)

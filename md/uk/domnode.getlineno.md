@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domnode.clonenode.html: '« DOMNode::cloneNode'
-  - domnode.getnodepath.html: 'DOMNode::getNodePath »'
-  - index.html: PHP Manual
-  - class.domnode.html: DOMNode
+  - domnode.clonenode.md: '« DOMNode::cloneNode'
+  - domnode.getnodepath.md: 'DOMNode::getNodePath »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
 title: 'DOMNode::getLineNo'
 ---
 # DOMNode::getLineNo

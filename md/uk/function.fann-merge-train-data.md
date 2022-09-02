@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-length-train-data.html: « fannlengthtraindata
-  - function.fann-num-input-train-data.html: fannnuminputtraindata »
+  - function.fann-length-train-data.md: « fannlengthtraindata
+  - function.fann-num-input-train-data.md: fannnuminputtraindata »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannmergetraindata

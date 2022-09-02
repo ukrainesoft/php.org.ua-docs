@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setfacet.html: '« SolrQuery::setFacet'
-  - solrquery.setfacetdategap.html: 'SolrQuery::setFacetDateGap »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setfacet.md: '« SolrQuery::setFacet'
+  - solrquery.setfacetdategap.md: 'SolrQuery::setFacetDateGap »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setFacetDateEnd'
 ---
 # SolrQuery::setFacetDateEnd

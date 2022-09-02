@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ref.pdo-sqlsrv.connection.html: « PDOSQLSRV DSN
-  - ref.pdo-oci.connection.html: PDOOCI DSN »
+  - ref.pdo-sqlsrv.connection.md: « PDOSQLSRV DSN
+  - ref.pdo-oci.connection.md: PDOOCI DSN »
   - index.md: PHP Manual
   - pdo.drivers.md: Драйвери PDO
 title: Функції Oracle (PDOOCI)

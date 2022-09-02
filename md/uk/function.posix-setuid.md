@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-setsid.html: « posixsetsid
-  - function.posix-strerror.html: posixstrerror »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-setsid.md: « posixsetsid
+  - function.posix-strerror.md: posixstrerror »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixsetuid
 ---
 # posixsetuid
@@ -48,7 +48,7 @@ echo posix_geteuid()."\n"; //10000
 
 ### Дивіться також
 
--   [posixsetgid()](function.posix-setgid.html) - Встановлює ідентифікатор групи для поточного процесу GID
--   [posixseteuid()](function.posix-seteuid.html) - Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
--   [posixgetuid()](function.posix-getuid.html) - Повертає фактичний ідентифікатор користувача поточного процесу UID
--   [posixgeteuid()](function.posix-geteuid.html) - Повертає ефективний ідентифікатор користувача поточного процесу EUID
+-   [posixsetgid()](function.posix-setgid.md) - Встановлює ідентифікатор групи для поточного процесу GID
+-   [posixseteuid()](function.posix-seteuid.md) - Встановлює ефективний ідентифікатор користувача для поточного процесу EUID
+-   [posixgetuid()](function.posix-getuid.md) - Повертає фактичний ідентифікатор користувача поточного процесу UID
+-   [posixgeteuid()](function.posix-geteuid.md) - Повертає ефективний ідентифікатор користувача поточного процесу EUID

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.runkit7-function-redefine.html: « runkit7functionredefine
-  - function.runkit7-function-rename.html: runkit7functionrename »
+  - function.runkit7-function-redefine.md: « runkit7functionredefine
+  - function.runkit7-function-rename.md: runkit7functionrename »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
 title: runkit7functionremove

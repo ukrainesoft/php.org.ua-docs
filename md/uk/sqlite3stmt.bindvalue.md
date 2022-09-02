@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3stmt.bindparam.html: '« SQLite3Stmt::bindParam'
-  - sqlite3stmt.clear.html: 'SQLite3Stmt::clear »'
-  - index.html: PHP Manual
-  - class.sqlite3stmt.html: SQLite3Stmt
+  - sqlite3stmt.bindparam.md: '« SQLite3Stmt::bindParam'
+  - sqlite3stmt.clear.md: 'SQLite3Stmt::clear »'
+  - index.md: PHP Manual
+  - class.sqlite3stmt.md: SQLite3Stmt
 title: 'SQLite3Stmt::bindValue'
 ---
 # SQLite3Stmt::bindValue
@@ -22,7 +22,7 @@ public SQLite3Stmt::bindValue(string|int $param, mixed $value, int $type = SQLIT
 
 **Застереження**
 
-До PHP 7.2.14 та 7.3.0, якщо виконано запит, необхідно викликати метод [SQLite3Stmt::reset()](sqlite3stmt.reset.html) щоб можна було змінити значення пов'язаних параметрів.
+До PHP 7.2.14 та 7.3.0, якщо виконано запит, необхідно викликати метод [SQLite3Stmt::reset()](sqlite3stmt.reset.md) щоб можна було змінити значення пов'язаних параметрів.
 
 ### Список параметрів
 
@@ -95,5 +95,5 @@ array(1) {
 
 ### Дивіться також
 
--   [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.html) - Зв'язує параметр із змінною підготовленого запиту
--   [SQLite3::prepare()](sqlite3.prepare.html) - готує SQL-запит для виконання
+-   [SQLite3Stmt::bindParam()](sqlite3stmt.bindparam.md) - Зв'язує параметр із змінною підготовленого запиту
+-   [SQLite3::prepare()](sqlite3.prepare.md) - готує SQL-запит для виконання

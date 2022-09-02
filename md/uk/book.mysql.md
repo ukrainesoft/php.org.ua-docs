@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mysql-xdevapi-warning.construct.html: '« Warning::construct'
+  - mysql-xdevapi-warning.construct.md: '« Warning::construct'
   - intro.mysql.md: Введение »
   - index.md: PHP Manual
   - set.mysqlinfo.md: MySQL

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-autocommit.html: « odbcautocommit
-  - function.odbc-close-all.html: odbccloseall »
+  - function.odbc-autocommit.md: « odbcautocommit
+  - function.odbc-close-all.md: odbccloseall »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcbinmode
@@ -18,7 +18,7 @@ odbcbinmode - Керує обробкою двійкових даних стов
 odbc_binmode(resource $statement, int $mode): bool
 ```
 
-Керує обробкою двійкових даних стовпця. Типи ODBC SQL, що зачіпаються: `BINARY` `VARBINARY` і `LONGVARBINARY`. За замовчуванням можна встановити режим за допомогою директиви php.ini [uodbc.defaultbinmode](odbc.configuration.html#ini.uodbc.defaultbinmode)
+Керує обробкою двійкових даних стовпця. Типи ODBC SQL, що зачіпаються: `BINARY` `VARBINARY` і `LONGVARBINARY`. За замовчуванням можна встановити режим за допомогою директиви php.ini [uodbc.defaultbinmode](odbc.configuration.md#ini.uodbc.defaultbinmode)
 
 Коли двійкові дані SQL перетворюються на символьні дані C (**`ODBC_BINMODE_CONVERT`**), кожен байт (8 біт) вихідних даних представляється як двох символів ASCII. Ці символи є символьним уявленням числа у форматі ASCII у його шістнадцятковій формі. Наприклад, двійкове число `00000001` перетворюється на `"01"` , а `11111111` - у `"FF"`
 
@@ -35,7 +35,7 @@ odbc_binmode(resource $statement, int $mode): bool
 | **`ODBC_BINMODE_RETURN`** | \> | повернути як є |
 | **`ODBC_BINMODE_CONVERT`** | \> | повернути у вигляді char |
 
-Якщо використовується [odbcfetchinto()](function.odbc-fetch-into.html), passthru означає, що для цих стовпців повертається порожній рядок. Якщо використовується [odbcresult()](function.odbc-result.md), passthru означає, що дані надсилаються клієнту безпосередньо (тобто друкуються).
+Якщо використовується [odbcfetchinto()](function.odbc-fetch-into.md), passthru означає, що для цих стовпців повертається порожній рядок. Якщо використовується [odbcresult()](function.odbc-result.md), passthru означає, що дані надсилаються клієнту безпосередньо (тобто друкуються).
 
 ### Список параметрів
 

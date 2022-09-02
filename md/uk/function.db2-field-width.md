@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-field-type.html: « db2fieldtype
-  - function.db2-foreign-keys.html: db2foreignkeys »
+  - function.db2-field-type.md: « db2fieldtype
+  - function.db2-foreign-keys.md: db2foreignkeys »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2fieldwidth
 ---
 # db2fieldwidth

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-label.html: « UIControlsLabel
-  - ui-controls-label.gettext.html: 'ОЙControlsLabel::getText »'
-  - index.html: PHP Manual
-  - class.ui-controls-label.html: ОЙControlsLabel
+  - class.ui-controls-label.md: « UIControlsLabel
+  - ui-controls-label.gettext.md: 'ОЙControlsLabel::getText »'
+  - index.md: PHP Manual
+  - class.ui-controls-label.md: ОЙControlsLabel
 title: 'ОЙControlsLabel::construct'
 ---
 # ОЙControlsLabel::construct

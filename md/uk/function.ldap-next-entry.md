@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-next-attribute.html: « ldapnextattribute
-  - function.ldap-next-reference.html: ldapnextreference »
+  - function.ldap-next-attribute.md: « ldapnextattribute
+  - function.ldap-next-reference.md: ldapnextreference »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapnextentry
@@ -18,13 +18,13 @@ ldapnextentry — Отримати наступний запис результ�
 ldap_next_entry(LDAP\Connection $ldap, LDAP\ResultEntry $entry): LDAP\ResultEntry|false
 ```
 
-Отримати записи, які зберігаються в результаті. Наступні дзвінки **ldapnextentry()** повертають по одному запису, доки не залишиться більше записів. Перший виклик **ldapnextentry()** проводиться після виклику [ldapfirstentry()](function.ldap-first-entry.html) з параметром `entry`, який був повернутий [ldapfirstentry()](function.ldap-first-entry.md)
+Отримати записи, які зберігаються в результаті. Наступні дзвінки **ldapnextentry()** повертають по одному запису, доки не залишиться більше записів. Перший виклик **ldapnextentry()** проводиться після виклику [ldapfirstentry()](function.ldap-first-entry.md) з параметром `entry`, який був повернутий [ldapfirstentry()](function.ldap-first-entry.md)
 
 ### Список параметрів
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 
@@ -32,7 +32,7 @@ ldap_next_entry(LDAP\Connection $ldap, LDAP\ResultEntry $entry): LDAP\ResultEntr
 
 ### Значення, що повертаються
 
-Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.html) для наступного запису в результаті, вміст якого починають читатися, запускаючи [ldapfirstentry()](function.ldap-first-entry.md). Якщо немає більше записів у результаті, тоді повертається **`false`**
+Повертає екземпляр [LDAPResultEntry](class.ldap-result-entry.md) для наступного запису в результаті, вміст якого починають читатися, запускаючи [ldapfirstentry()](function.ldap-first-entry.md). Якщо немає більше записів у результаті, тоді повертається **`false`**
 
 ### список змін
 

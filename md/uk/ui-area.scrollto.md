@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-area.redraw.html: '« UIArea::redraw'
-  - ui-area.setsize.html: 'ОЙArea::setSize »'
+  - ui-area.redraw.md: '« UIArea::redraw'
+  - ui-area.setsize.md: 'ОЙArea::setSize »'
   - index.md: PHP Manual
-  - class.ui-area.html: ОЙArea
+  - class.ui-area.md: ОЙArea
 title: 'ОЙArea::scrollTo'
 ---
 # ОЙArea::scrollTo

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-setpriority.html: pcntlsetpriority
-  - function.pcntl-signal-get-handler.html: pcntlsignalgethandler »
+  - function.pcntl-setpriority.md: pcntlsetpriority
+  - function.pcntl-signal-get-handler.md: pcntlsignalgethandler »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlsignaldispatch

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.posix-uname.html: « posixuname
+  - function.posix-uname.md: « posixuname
   - intro.exec.md: Введение »
   - index.md: PHP Manual
   - refs.fileprocess.process.md: Модули для управления процессами программ

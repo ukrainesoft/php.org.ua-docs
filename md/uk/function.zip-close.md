@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.zip.md: « Функции Zip
-  - function.zip-entry-close.html: zipentryclose »
+  - function.zip-entry-close.md: zipentryclose »
   - index.md: PHP Manual
   - ref.zip.md: Функции Zip
 title: zipclose

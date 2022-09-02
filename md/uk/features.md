@@ -1,7 +1,7 @@
 ---
 navigation:
   - security.current.md: « Необходимость обновлений
-  - features.http-auth.html: HTTP-автентифікація в PHP »
+  - features.http-auth.md: HTTP-автентифікація в PHP »
   - index.md: PHP Manual
 title: Відмітні особливості
 ---

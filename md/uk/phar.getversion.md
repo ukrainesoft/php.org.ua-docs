@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.getsupportedsignatures.html: '« Phar::getSupportedSignatures'
-  - phar.hasmetadata.html: 'Phar::hasMetadata »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.getsupportedsignatures.md: '« Phar::getSupportedSignatures'
+  - phar.hasmetadata.md: 'Phar::hasMetadata »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::getVersion'
 ---
 # Phar::getVersion

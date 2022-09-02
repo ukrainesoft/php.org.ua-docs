@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-bind-param.html: « db2bindparam
-  - function.db2-close.html: db2close »
+  - function.db2-bind-param.md: « db2bindparam
+  - function.db2-close.md: db2close »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2clientinfo
 ---
 # db2clientinfo

@@ -14,7 +14,7 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [dba.defaulthandler](dba.configuration.html#ini.dba.default_handler) | DBADEFAULT | PHPINIALL |  |
+| [dba.defaulthandler](dba.configuration.md#ini.dba.default_handler) | DBADEFAULT | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanjob.sendstatus.html: '« GearmanJob::sendStatus'
-  - gearmanjob.setreturn.html: 'GearmanJob::setReturn »'
-  - index.html: PHP Manual
-  - class.gearmanjob.html: GearmanJob
+  - gearmanjob.sendstatus.md: '« GearmanJob::sendStatus'
+  - gearmanjob.setreturn.md: 'GearmanJob::setReturn »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::sendWarning'
 ---
 # GearmanJob::sendWarning

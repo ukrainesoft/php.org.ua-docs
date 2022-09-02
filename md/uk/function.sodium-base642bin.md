@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-add.html: « sodiumadd
-  - function.sodium-bin2base64.html: sodiumbin2base64 »
+  - function.sodium-add.md: « sodiumadd
+  - function.sodium-bin2base64.md: sodiumbin2base64 »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumbase642bin

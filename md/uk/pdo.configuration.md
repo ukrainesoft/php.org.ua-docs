@@ -14,7 +14,7 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [pdo.dsn.](pdo.configuration.html#ini.pdo.dsn) |  | тільки php.ini |  |
+| [pdo.dsn.](pdo.configuration.md#ini.pdo.dsn) |  | тільки php.ini |  |
 
 Коротке пояснення конфігураційних директив.
 

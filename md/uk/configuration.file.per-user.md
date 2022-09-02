@@ -14,8 +14,8 @@ title: Файли .user.ini
 
 Тільки INI-налаштування з режимами **`PHP_INI_PERDIR`** і **`PHP_INI_USER`** будуть розпізнані в INI-файлах у стилі .user.ini.
 
-Дві нові INI-директиви, [userini.filename](ini.core.html#ini.user-ini.filename) і [userini.cachettl](ini.core.html#ini.user-ini.cache-ttl), контролюють використання INI-файлів користувача.
+Дві нові INI-директиви, [userini.filename](ini.core.md#ini.user-ini.filename) і [userini.cachettl](ini.core.md#ini.user-ini.cache-ttl), контролюють використання INI-файлів користувача.
 
-[userini.filename](ini.core.html#ini.user-ini.filename) встановлює ім'я файлу, за яким PHP здійснює пошук у кожній директорії; якщо встановлений порожній рядок, то PHP пошук не здійснює. За замовчуванням `.user.ini`
+[userini.filename](ini.core.md#ini.user-ini.filename) встановлює ім'я файлу, за яким PHP здійснює пошук у кожній директорії; якщо встановлений порожній рядок, то PHP пошук не здійснює. За замовчуванням `.user.ini`
 
-[userini.cachettl](ini.core.html#ini.user-ini.cache-ttl) встановлює наскільки часто користувачі INI-файли будуть оновлюватися. За промовчанням період оновлення становить 300 секунд (5 хвилин).
+[userini.cachettl](ini.core.md#ini.user-ini.cache-ttl) встановлює наскільки часто користувачі INI-файли будуть оновлюватися. За промовчанням період оновлення становить 300 секунд (5 хвилин).

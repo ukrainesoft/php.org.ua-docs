@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-strval.html: « gmpstrval
-  - function.gmp-testbit.html: gmptestbit »
+  - function.gmp-strval.md: « gmpstrval
+  - function.gmp-testbit.md: gmptestbit »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpsub

@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.openssl.md: « Функции OpenSSL
-  - function.openssl-cms-decrypt.html: opensslcmsdecrypt »
+  - function.openssl-cms-decrypt.md: opensslcmsdecrypt »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslcipherвербlength

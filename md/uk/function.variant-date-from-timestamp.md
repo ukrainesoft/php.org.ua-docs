@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.variant-cmp.html: « variantcmp
-  - function.variant-date-to-timestamp.html: variantdateтоtimestamp »
-  - index.html: PHP Manual
-  - ref.com.html: Функции COM
+  - function.variant-cmp.md: « variantcmp
+  - function.variant-date-to-timestamp.md: variantdateтоtimestamp »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
 title: variantdatefromtimestamp
 ---
 # variantdatefromtimestamp

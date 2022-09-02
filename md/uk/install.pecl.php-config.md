@@ -1,9 +1,9 @@
 ---
 navigation:
-  - install.pecl.phpize.html: '« Компіляція модулів, що розділяються, за допомогою phpize'
-  - install.pecl.static.html: Компіляція модулів PECL статично в PHP
-  - index.html: PHP Manual
-  - install.pecl.html: Установка модулей PECL
+  - install.pecl.phpize.md: '« Компіляція модулів, що розділяються, за допомогою phpize'
+  - install.pecl.static.md: Компіляція модулів PECL статично в PHP
+  - index.md: PHP Manual
+  - install.pecl.md: Установка модулей PECL
 title: php-config
 ---
 ## php-config

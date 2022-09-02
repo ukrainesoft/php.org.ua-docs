@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.radius-put-attr.html: « radiusputattr
-  - function.radius-put-string.html: radiusputstring »
-  - index.html: PHP Manual
-  - ref.radius.html: Функции Radius
+  - function.radius-put-attr.md: « radiusputattr
+  - function.radius-put-string.md: radiusputstring »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
 title: radiusputint
 ---
 # radiusputint
@@ -22,7 +22,7 @@ radius_put_int(    resource $radius_handle,    int $type,    int $va
 
 > **Зауваження**
 > 
-> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.html)
+> Перед викликом цієї функції потрібно створити запит за допомогою функції [radiuscreaterequest()](function.radius-create-request.md)
 
 ### Список параметрів
 
@@ -40,11 +40,11 @@ radius_put_int(    resource $radius_handle,    int $type,    int $va
 
 `options`
 
-Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.html#constant.radius-option-salt)
+Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.md#constant.radius-option-salt)
 
 `tag`
 
-Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged)
+Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
 
 ### Значення, що повертаються
 
@@ -71,6 +71,6 @@ if (!radius_put_int($res, RAD_FRAMED_PROTOCOL, RAD_PPP)) {
 
 ### Дивіться також
 
--   [radiusputstring()](function.radius-put-string.html) - Приєднує рядковий атрибут
--   [radiusputvendorint()](function.radius-put-vendor-int.html) - Приєднує цілий атрибут, що залежить від постачальника
--   [radiusputvendorstring()](function.radius-put-vendor-string.html) - Приєднує рядковий атрибут, що залежить від постачальника
+-   [radiusputstring()](function.radius-put-string.md) - Приєднує рядковий атрибут
+-   [radiusputvendorint()](function.radius-put-vendor-int.md) - Приєднує цілий атрибут, що залежить від постачальника
+-   [radiusputvendorstring()](function.radius-put-vendor-string.md) - Приєднує рядковий атрибут, що залежить від постачальника

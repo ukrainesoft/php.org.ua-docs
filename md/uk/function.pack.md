@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ignore-user-abort.html: « ignoreuserabort
-  - function.php-strip-whitespace.html: phpstripwhitespace »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.ignore-user-abort.md: « ignoreuserabort
+  - function.php-strip-whitespace.md: phpstripwhitespace »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: pack
 ---
 # pack
@@ -22,7 +22,7 @@ pack(string $format, mixed ...$values): string
 
 Ідея цієї функції була запозичена з Perl і всі коди форматування працюють так само. Однак є деякі відсутні коди форматування, такі як код формату Perl "u".
 
-Необхідно мати на увазі, що відмінність між знаковими та беззнаковими значеннями впливає лише на функцію [unpack()](function.unpack.html), тоді як функція **pack()** дає однаковий результат для знакових та беззнакових кодів формату.
+Необхідно мати на увазі, що відмінність між знаковими та беззнаковими значеннями впливає лише на функцію [unpack()](function.unpack.md), тоді як функція **pack()** дає однаковий результат для знакових та беззнакових кодів формату.
 
 ### Список параметрів
 
@@ -103,4 +103,4 @@ PHP зберігає значення типу int як знакові з маш
 
 ### Дивіться також
 
--   [unpack()](function.unpack.html) - Розпакувати дані з бінарного рядка
+-   [unpack()](function.unpack.md) - Розпакувати дані з бінарного рядка

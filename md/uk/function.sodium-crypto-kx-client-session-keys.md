@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-kdf-keygen.html: « sodiumcryptokdfkeygen
-  - function.sodium-crypto-kx-keypair.html: sodiumcryptoкксkeypair »
+  - function.sodium-crypto-kdf-keygen.md: « sodiumcryptokdfkeygen
+  - function.sodium-crypto-kx-keypair.md: sodiumcryptoкксkeypair »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptoкксclientsessionkeys

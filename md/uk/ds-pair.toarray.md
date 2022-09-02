@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-pair.jsonserialize.html: '« DsPair::jsonSerialize'
-  - class.ds-set.html: Набор »
+  - ds-pair.jsonserialize.md: '« DsPair::jsonSerialize'
+  - class.ds-set.md: Набор »
   - index.md: PHP Manual
-  - class.ds-pair.html: Пара
+  - class.ds-pair.md: Пара
 title: 'ДсPair::toArray'
 ---
 # ДсPair::toArray

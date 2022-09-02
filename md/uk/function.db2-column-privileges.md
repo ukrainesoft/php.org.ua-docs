@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-close.html: « db2close
-  - function.db2-columns.html: db2columns »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-close.md: « db2close
+  - function.db2-columns.md: db2columns »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2columnprivileges
 ---
 # db2columnprivileges
@@ -59,12 +59,12 @@ db2_column_privileges(    resource $connection,    string $qualifier = ?
 
 ### Дивіться також
 
--   [db2columns()](function.db2-columns.html) - Повертає результуючий набір, що перераховує стовпці та пов'язані з ними метадані для таблиці
--   [db2foreignkeys()](function.db2-foreign-keys.html) - Повертає набір результатів, у якому перелічені зовнішні ключі таблиці
--   [db2primarykeys()](function.db2-primary-keys.html) - Повертає набір результатів, що містить первинні ключі таблиці
--   [db2procedurecolumns()](function.db2-procedure-columns.html) - Повертає набір результатів зі списком параметрів процедури, що зберігається.
--   [db2procedures()](function.db2-procedures.html) - Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
--   [db2specialcolumns()](function.db2-special-columns.html) - Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
--   [db2statistics()](function.db2-statistics.html) - Повертає набір результатів, що містить індекс та статистику таблиці
--   [db2tableprivileges()](function.db2-table-privileges.html) - Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
--   [db2tables()](function.db2-tables.html) - Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних
+-   [db2columns()](function.db2-columns.md) - Повертає результуючий набір, що перераховує стовпці та пов'язані з ними метадані для таблиці
+-   [db2foreignkeys()](function.db2-foreign-keys.md) - Повертає набір результатів, у якому перелічені зовнішні ключі таблиці
+-   [db2primarykeys()](function.db2-primary-keys.md) - Повертає набір результатів, що містить первинні ключі таблиці
+-   [db2procedurecolumns()](function.db2-procedure-columns.md) - Повертає набір результатів зі списком параметрів процедури, що зберігається.
+-   [db2procedures()](function.db2-procedures.md) - Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних
+-   [db2specialcolumns()](function.db2-special-columns.md) - Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці
+-   [db2statistics()](function.db2-statistics.md) - Повертає набір результатів, що містить індекс та статистику таблиці
+-   [db2tableprivileges()](function.db2-table-privileges.md) - Повертає набір результатів, у якому перелічені таблиці та пов'язані з ними права доступу до бази даних
+-   [db2tables()](function.db2-tables.md) - Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані в базі даних

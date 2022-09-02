@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mysqli-report.html: « mysqlireport
+  - function.mysqli-report.md: « mysqlireport
   - changelog.mysqli.md: Список изменений »
   - index.md: PHP Manual
   - ref.mysqli.md: Синоніми та застарілі функції Mysqli

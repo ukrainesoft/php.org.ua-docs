@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [yaconf.checkdelay](yaconf.configuration.html#ini.yaconf.check-delay) |  | PHPINISYSTEM |  |
-| [yaconf.directory](yaconf.configuration.html#ini.yaconf.directory) | /tmp/conf/ | PHPINISYSTEM |  |
+| [yaconf.checkdelay](yaconf.configuration.md#ini.yaconf.check-delay) |  | PHPINISYSTEM |  |
+| [yaconf.directory](yaconf.configuration.md#ini.yaconf.directory) | /tmp/conf/ | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

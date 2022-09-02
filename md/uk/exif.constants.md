@@ -1,9 +1,9 @@
 ---
 navigation:
-  - exif.resources.html: « Типи ресурсів
-  - ref.exif.html: Exif Функції »
-  - index.html: PHP Manual
-  - book.exif.html: Exif
+  - exif.resources.md: « Типи ресурсів
+  - ref.exif.md: Exif Функції »
+  - index.md: PHP Manual
+  - book.exif.md: Exif
 title: Обумовлені константи
 ---
 # Обумовлені константи

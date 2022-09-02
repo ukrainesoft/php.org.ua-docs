@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-ereg-replace.html: « mberegreplace
-  - function.mb-ereg-search-getregs.html: мбeregsearchgetregs »
+  - function.mb-ereg-replace.md: « mberegreplace
+  - function.mb-ereg-search-getregs.md: мбeregsearchgetregs »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбeregsearchgetpos
@@ -26,7 +26,7 @@ mb_ereg_search_getpos(): int
 
 ### Значення, що повертаються
 
-**мбeregsearchgetpos()** повертає початкову позицію наступного збігу з регулярним виразом для функцій [мбeregsearch()](function.mb-ereg-search.html) [мбeregsearchpos()](function.mb-ereg-search-pos.html) [мбeregsearchregs()](function.mb-ereg-search-regs.md). Позиція представляється як числа байт з початку рядка.
+**мбeregsearchgetpos()** повертає початкову позицію наступного збігу з регулярним виразом для функцій [мбeregsearch()](function.mb-ereg-search.md) [мбeregsearchpos()](function.mb-ereg-search-pos.md) [мбeregsearchregs()](function.mb-ereg-search-regs.md). Позиція представляється як числа байт з початку рядка.
 
 ### Примітки
 

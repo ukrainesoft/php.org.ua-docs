@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splheap.recoverfromcorruption.html: '« SplHeap::recoverFromCorruption'
-  - splheap.top.html: 'SplHeap::top »'
-  - index.html: PHP Manual
-  - class.splheap.html: SplHeap
+  - splheap.recoverfromcorruption.md: '« SplHeap::recoverFromCorruption'
+  - splheap.top.md: 'SplHeap::top »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
 title: 'SplHeap::rewind'
 ---
 # SplHeap::rewind

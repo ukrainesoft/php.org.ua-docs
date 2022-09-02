@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-crudoperationsortable.html: « mysqlxdevapiCrudOperationSortable
-  - class.mysql-xdevapi-databaseobject.html: mysqlxdevapiDatabaseObject »
+  - class.mysql-xdevapi-crudoperationsortable.md: « mysqlxdevapiCrudOperationSortable
+  - class.mysql-xdevapi-databaseobject.md: mysqlxdevapiDatabaseObject »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-crudoperationsortable.html: mysqlxdevapiCrudOperationSortable
+  - class.mysql-xdevapi-crudoperationsortable.md: mysqlxdevapiCrudOperationSortable
 title: 'CrudOperationSortable::sort'
 ---
 # CrudOperationSortable::sort

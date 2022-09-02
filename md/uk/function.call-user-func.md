@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.call-user-func-array.html: « calluserfuncarray
-  - function.create-function.html: createfunction »
+  - function.call-user-func-array.md: « calluserfuncarray
+  - function.create-function.md: createfunction »
   - index.md: PHP Manual
   - ref.funchand.md: Функции управления функциями
 title: calluserfunc

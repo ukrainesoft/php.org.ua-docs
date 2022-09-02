@@ -1,7 +1,7 @@
 ---
 navigation:
   - reference.pcre.pattern.differences.md: « Отличия от Perl
-  - function.preg-filter.html: pregfilter »
+  - function.preg-filter.md: pregfilter »
   - index.md: PHP Manual
   - book.pcre.md: PCRE
 title: Функції PCRE

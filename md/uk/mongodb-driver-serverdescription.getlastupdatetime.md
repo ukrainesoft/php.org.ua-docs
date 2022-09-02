@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-serverdescription.gethost.html: '« MongoDBDriverServerDescription::getHost'
-  - mongodb-driver-serverdescription.getport.html: 'MongoDBDriverServerDescription::getPort »'
+  - mongodb-driver-serverdescription.gethost.md: '« MongoDBDriverServerDescription::getHost'
+  - mongodb-driver-serverdescription.getport.md: 'MongoDBDriverServerDescription::getPort »'
   - index.md: PHP Manual
-  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
 title: 'MongoDBDriverServerDescription::getLastUpdateTime'
 ---
 # MongoDBDriverServerDescription::getLastUpdateTime

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-ultosc.html: « traderultosc
-  - function.trader-wclprice.html: traderwclprice »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-ultosc.md: « traderultosc
+  - function.trader-wclprice.md: traderwclprice »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradervar
 ---
 # tradervar

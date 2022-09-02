@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-symbol.serialize.html: '« MongoDBBSONSymbol::serialize'
-  - mongodb-bson-symbol.unserialize.html: 'MongoDBBSONSymbol::unserialize »'
+  - mongodb-bson-symbol.serialize.md: '« MongoDBBSONSymbol::serialize'
+  - mongodb-bson-symbol.unserialize.md: 'MongoDBBSONSymbol::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol
+  - class.mongodb-bson-symbol.md: MongoDBBSONSymbol
 title: 'MongoDBBSONSymbol::toString'
 ---
 # MongoDBBSONSymbol::toString

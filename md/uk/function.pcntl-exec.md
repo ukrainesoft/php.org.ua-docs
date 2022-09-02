@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-errno.html: pcntlerrno
-  - function.pcntl-fork.html: pcntlfork »
+  - function.pcntl-errno.md: pcntlerrno
+  - function.pcntl-fork.md: pcntlfork »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlexec

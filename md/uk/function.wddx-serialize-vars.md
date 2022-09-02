@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.wddx-serialize-value.html: « wddxserializevalue
-  - book.xmldiff.html: XMLDiff »
-  - index.html: PHP Manual
-  - ref.wddx.html: Функції WDDX
+  - function.wddx-serialize-value.md: « wddxserializevalue
+  - book.xmldiff.md: XMLDiff »
+  - index.md: PHP Manual
+  - ref.wddx.md: Функції WDDX
 title: wddxserializevars
 ---
 # wddxserializevars

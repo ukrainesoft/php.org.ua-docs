@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-expression.construct.html: '« Expression::construct'
-  - mysql-xdevapi-result.construct.html: 'Result::construct »'
-  - index.html: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - mysql-xdevapi-expression.construct.md: '« Expression::construct'
+  - mysql-xdevapi-result.construct.md: 'Result::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас Result
 ---
 # Клас Result
@@ -40,9 +40,9 @@ public getWarningsCount(): int
 
 ## Зміст
 
--   [Result::construct](mysql-xdevapi-result.construct.html) - Конструктор класу Result
--   [Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.html) — Отримує кількість порушених рядків
--   [Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.html) — Отримує значення автоінкремента
--   [Result::getGeneratedIds](mysql-xdevapi-result.getgeneratedids.html) — Отримує згенеровані ідентифікатори
--   [Result::getWarnings](mysql-xdevapi-result.getwarnings.html) — Отримує попередження останньої операції
--   [Result::getWarningsCount](mysql-xdevapi-result.getwarningscount.html) — Отримує кількість попереджень останньої операції
+-   [Result::construct](mysql-xdevapi-result.construct.md) - Конструктор класу Result
+-   [Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.md) — Отримує кількість порушених рядків
+-   [Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.md) — Отримує значення автоінкремента
+-   [Result::getGeneratedIds](mysql-xdevapi-result.getgeneratedids.md) — Отримує згенеровані ідентифікатори
+-   [Result::getWarnings](mysql-xdevapi-result.getwarnings.md) — Отримує попередження останньої операції
+-   [Result::getWarningsCount](mysql-xdevapi-result.getwarningscount.md) — Отримує кількість попереджень останньої операції

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-set-event-handler.html: « ibaseseteventhandler
-  - function.ibase-wait-event.html: ibasewaitevent »
+  - function.ibase-set-event-handler.md: « ibaseseteventhandler
+  - function.ibase-wait-event.md: ibasewaitevent »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasetrans
@@ -26,13 +26,13 @@ ibase_trans(resource $link_identifier = ?, int $trans_args = ?): resource
 
 > **Зауваження**
 > 
-> Перший виклик **ibasetrans()** не поверне транзакцію стандартного з'єднання. Усі транзакції, запущені за допомогою **ibasetrans()**, будуть скасовані в кінці скрипту, якщо вони не були зафіксовані, або будуть скасовані за допомогою [ibasecommit()](function.ibase-commit.html) або [ibaserollback()](function.ibase-rollback.md)
+> Перший виклик **ibasetrans()** не поверне транзакцію стандартного з'єднання. Усі транзакції, запущені за допомогою **ibasetrans()**, будуть скасовані в кінці скрипту, якщо вони не були зафіксовані, або будуть скасовані за допомогою [ibasecommit()](function.ibase-commit.md) або [ibaserollback()](function.ibase-rollback.md)
 
 > **Зауваження**
 > 
 > Ця функція приймає кілька аргументів `trans_args` і `link_identifier`. Це дозволяє виконувати транзакції через кілька з'єднань із базою даних, які фіксуються з використанням алгоритму двоетапної фіксації. Це означає, що ви можете розраховувати на те, що оновлення будуть успішними в кожній базі даних або завершаться помилкою в кожній базі даних. Це НЕ означає, що ви можете використовувати таблиці різних баз даних в одному запиті!
 > 
-> Якщо ви використовуєте транзакції у кількох базах даних, вам потрібно буде вказати як `link_id`, так і `transaction_id` у викликах [ibasequery()](function.ibase-query.html) і [ibaseprepare()](function.ibase-prepare.md)
+> Якщо ви використовуєте транзакції у кількох базах даних, вам потрібно буде вказати як `link_id`, так і `transaction_id` у викликах [ibasequery()](function.ibase-query.md) і [ibaseprepare()](function.ibase-prepare.md)
 
 ### Список параметрів
 

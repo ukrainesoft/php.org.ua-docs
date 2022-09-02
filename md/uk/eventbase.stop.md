@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbase.reinit.html: '« EventBase::reInit'
-  - class.eventbuffer.html: EventBuffer »
-  - index.html: PHP Manual
-  - class.eventbase.html: EventBase
+  - eventbase.reinit.md: '« EventBase::reInit'
+  - class.eventbuffer.md: EventBuffer »
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
 title: 'EventBase::stop'
 ---
 # EventBase::stop
@@ -31,5 +31,5 @@ public
 
 ### Дивіться також
 
--   [EventBase::exit()](eventbase.exit.html) - Припиняє відправлення подій
--   [EventBase::gotStop()](eventbase.gotstop.html) - Перевіряє, чи був цикл обробки подій завершений
+-   [EventBase::exit()](eventbase.exit.md) - Припиняє відправлення подій
+-   [EventBase::gotStop()](eventbase.gotstop.md) - Перевіряє, чи був цикл обробки подій завершений

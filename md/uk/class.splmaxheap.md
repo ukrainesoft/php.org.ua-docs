@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splheap.valid.html: '« SplHeap::valid'
-  - splmaxheap.compare.html: 'SplMaxHeap::compare »'
-  - index.html: PHP Manual
-  - spl.datastructures.html: Структури даних
+  - splheap.valid.md: '« SplHeap::valid'
+  - splmaxheap.compare.md: 'SplMaxHeap::compare »'
+  - index.md: PHP Manual
+  - spl.datastructures.md: Структури даних
 title: Клас SplMaxHeap
 ---
 # Клас SplMaxHeap
@@ -57,4 +57,4 @@ public SplHeap::valid(): bool
 
 ## Зміст
 
--   [SplMaxHeap::compare](splmaxheap.compare.html) — Порівнює елементи, щоб під час сортування коректно розмістити їх у купі
+-   [SplMaxHeap::compare](splmaxheap.compare.md) — Порівнює елементи, щоб під час сортування коректно розмістити їх у купі

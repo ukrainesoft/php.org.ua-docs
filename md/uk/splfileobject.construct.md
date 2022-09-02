@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.splfileobject.html: « SplFileObject
-  - splfileobject.current.html: 'SplFileObject::current »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - class.splfileobject.md: « SplFileObject
+  - splfileobject.current.md: 'SplFileObject::current »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::construct'
 ---
 # SplFileObject::construct
@@ -30,7 +30,7 @@ bool `$useIncludePath` **`false`**
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 `mode`
 
@@ -38,7 +38,7 @@ bool `$useIncludePath` **`false`**
 
 `useIncludePath`
 
-Чи потрібно переглядати [includepath](ini.core.html#ini.include-path) під час пошуку файлу `filename`
+Чи потрібно переглядати [includepath](ini.core.md#ini.include-path) під час пошуку файлу `filename`
 
 `context`
 

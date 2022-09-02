@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-include-path.html: « getincludepath
-  - function.get-loaded-extensions.html: getloadedextensions »
+  - function.get-include-path.md: « getincludepath
+  - function.get-loaded-extensions.md: getloadedextensions »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getincludedfiles
@@ -18,7 +18,7 @@ getincludedfiles — Повертає масив імен увімкнених �
 get_included_files(): array
 ```
 
-Отримує імена всіх файлів, які були включені до скрипту з використанням [include](function.include.md) [includeonce](function.include-once.html) [require](function.require.md) або [requireonce](function.require-once.md)
+Отримує імена всіх файлів, які були включені до скрипту з використанням [include](function.include.md) [includeonce](function.include-once.md) [require](function.require.md) або [requireonce](function.require-once.md)
 
 ### Список параметрів
 

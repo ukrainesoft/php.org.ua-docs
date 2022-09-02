@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.get.html: '« SolrDocument::get'
-  - solrdocument.getchilddocumentscount.html: 'SolrDocument::getChildDocumentsCount »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.get.md: '« SolrDocument::get'
+  - solrdocument.getchilddocumentscount.md: 'SolrDocument::getChildDocumentsCount »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::getChildDocuments'
 ---
 # SolrDocument::getChildDocuments
@@ -28,5 +28,5 @@ public SolrDocument::getChildDocuments(): array
 
 ### Дивіться також
 
--   [SolrDocument::hasChildDocuments()](solrdocument.haschilddocuments.html) - Перевіряє, чи має документ дочірні документи
--   [SolrDocument::getChildDocumentsCount()](solrdocument.getchilddocumentscount.html) - Повертає кількість дочірніх документів
+-   [SolrDocument::hasChildDocuments()](solrdocument.haschilddocuments.md) - Перевіряє, чи має документ дочірні документи
+-   [SolrDocument::getChildDocumentsCount()](solrdocument.getchilddocumentscount.md) - Повертає кількість дочірніх документів

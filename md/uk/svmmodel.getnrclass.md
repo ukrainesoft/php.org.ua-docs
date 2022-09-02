@@ -1,9 +1,9 @@
 ---
 navigation:
-  - svmmodel.getlabels.html: '« SVMModel::getLabels'
-  - svmmodel.getsvmtype.html: 'SVMModel::getSvmType »'
-  - index.html: PHP Manual
-  - class.svmmodel.html: SVMModel
+  - svmmodel.getlabels.md: '« SVMModel::getLabels'
+  - svmmodel.getsvmtype.md: 'SVMModel::getSvmType »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
 title: 'SVMModel::getNrClass'
 ---
 # SVMModel::getNrClass

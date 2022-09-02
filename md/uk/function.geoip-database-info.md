@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.geoip-country-name-by-name.html: « geoipcountrynameбname
-  - function.geoip-db-avail.html: geoipдбavail »
+  - function.geoip-country-name-by-name.md: « geoipcountrynameбname
+  - function.geoip-db-avail.md: geoipдбavail »
   - index.md: PHP Manual
   - ref.geoip.md: Функции GeoIP
 title: geoipdatabaseinfo

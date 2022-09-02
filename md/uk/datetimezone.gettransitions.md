@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetimezone.getoffset.html: '« DateTimeZone::getOffset'
-  - datetimezone.listabbreviations.html: 'DateTimeZone::listAbbreviations »'
-  - index.html: PHP Manual
-  - class.datetimezone.html: DateTimeZone
+  - datetimezone.getoffset.md: '« DateTimeZone::getOffset'
+  - datetimezone.listabbreviations.md: 'DateTimeZone::listAbbreviations »'
+  - index.md: PHP Manual
+  - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::getTransitions'
 ---
 # DateTimeZone::getTransitions
@@ -32,7 +32,7 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezoneopen()](function.timezone-open.html)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezoneopen()](function.timezone-open.md)
 
 `timestampBegin`
 
@@ -60,7 +60,7 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 ### Приклади
 
-**Приклад #1 Приклад використання [timezonetransitionsget()](function.timezone-transitions-get.html)**
+**Приклад #1 Приклад використання [timezonetransitionsget()](function.timezone-transitions-get.md)**
 
 ```php
 <?php
@@ -105,7 +105,7 @@ Array
 )
 ```
 
-**Приклад #2 Приклад використання [timezonetransitionsget()](function.timezone-transitions-get.html) із заданим параметром `timestampBegin`**
+**Приклад #2 Приклад використання [timezonetransitionsget()](function.timezone-transitions-get.md) із заданим параметром `timestampBegin`**
 
 ```php
 <?php

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-timer-exists.html: « swooletimerexists
-  - function.swoole-version.html: swooleversion »
+  - function.swoole-timer-exists.md: « swooletimerexists
+  - function.swoole-version.md: swooleversion »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooletimertick
 ---
 # swooletimertick

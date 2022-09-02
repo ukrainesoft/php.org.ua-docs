@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mysql-field-flags.html: « mysqlfieldflags
-  - function.mysql-field-name.html: mysqlfieldname »
-  - index.html: PHP Manual
-  - ref.mysql.html: MySQL
+  - function.mysql-field-flags.md: « mysqlfieldflags
+  - function.mysql-field-name.md: mysqlfieldname »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
 title: mysqlfieldlen
 ---
 # mysqlfieldlen
@@ -14,10 +14,10 @@ mysqlfieldlen — Повертає довжину вказаного поля
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.html) length
--   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html) len
+-   [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) length
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) len
 
 ### Опис
 
@@ -31,7 +31,7 @@ mysql_field_len(resource $result, int $field_offset): int|false
 
 `result`
 
-оброблюваний [результат запроса](language.types.resource.html). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.html)
+оброблюваний [результат запроса](language.types.resource.md). Цей результат можна отримати за допомогою функції [mysqlquery()](function.mysql-query.md)
 
 `field_offset`
 
@@ -67,5 +67,5 @@ echo $length;
 
 ### Дивіться також
 
--   [mysqlfetchlengths()](function.mysql-fetch-lengths.html) - Повертає довжину кожного поля в результаті
--   [strlen()](function.strlen.html) - Повертає довжину рядка
+-   [mysqlfetchlengths()](function.mysql-fetch-lengths.md) - Повертає довжину кожного поля в результаті
+-   [strlen()](function.strlen.md) - Повертає довжину рядка

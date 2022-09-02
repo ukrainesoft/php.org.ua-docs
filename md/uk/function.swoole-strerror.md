@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-set-process-name.html: « swoolesetprocessname
-  - function.swoole-timer-after.html: swooletimerafter »
+  - function.swoole-set-process-name.md: « swoolesetprocessname
+  - function.swoole-timer-after.md: swooletimerafter »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swoolestrerror
 ---
 # swoolestrerror

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.yaml-emit.html: « yamlemit
-  - function.yaml-parse-url.html: yamlparseurl »
-  - index.html: PHP Manual
-  - ref.yaml.html: Функции Yaml
+  - function.yaml-emit.md: « yamlemit
+  - function.yaml-parse-url.md: yamlparseurl »
+  - index.md: PHP Manual
+  - ref.yaml.md: Функции Yaml
 title: yamlparsefile
 ---
 # yamlparsefile
@@ -36,7 +36,7 @@ yaml_parse_file(    string $filename,    int $pos = 0,    int &$ndoc
 
 `callbacks`
 
-Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.html)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функції розбору](yaml.callbacks.parse.html)
+Обробники вмісту для вузлів YAML. Асоціативний масив (array), ключі якого є тегами YAML, а значення callback-функціями ([callable](language.types.callable.md)), які їх оброблятимуть. Докладніше цей механізм описаний у розділі [callback-функції розбору](yaml.callbacks.parse.md)
 
 ### Значення, що повертаються
 
@@ -46,10 +46,10 @@ yaml_parse_file(    string $filename,    int $pos = 0,    int &$ndoc
 
 **Увага**
 
-Обробляти неперевірене введення користувача за допомогою функції **yamlparsefile()** у випадку, якщо дозволено використовувати [unserialize()](function.unserialize.html) для вузлів із тегом `!php/object` - Вкрай небезпечно. Така поведінка може бути заборонена за допомогою ini-налаштування `yaml.decode_php`
+Обробляти неперевірене введення користувача за допомогою функції **yamlparsefile()** у випадку, якщо дозволено використовувати [unserialize()](function.unserialize.md) для вузлів із тегом `!php/object` - Вкрай небезпечно. Така поведінка може бути заборонена за допомогою ini-налаштування `yaml.decode_php`
 
 ### Дивіться також
 
--   [yamlparse()](function.yaml-parse.html) - Розбирає потік YAML
--   [yamlparseurl()](function.yaml-parse-url.html) - Розбирає YAML-потік із URL
--   [yamlemit()](function.yaml-emit.html) - Повертає YAML-подання значення
+-   [yamlparse()](function.yaml-parse.md) - Розбирає потік YAML
+-   [yamlparseurl()](function.yaml-parse-url.md) - Розбирає YAML-потік із URL
+-   [yamlemit()](function.yaml-emit.md) - Повертає YAML-подання значення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.classobj.html: « Введение
-  - classobj.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.classobj.html: Класи та об'єкти
+  - intro.classobj.md: « Введение
+  - classobj.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.classobj.md: Класи та об'єкти
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

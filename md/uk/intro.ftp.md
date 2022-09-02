@@ -1,11 +1,11 @@
 ---
 navigation:
-  - book.ftp.html: « FTP
-  - ftp.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.ftp.html: FTP
+  - book.ftp.md: « FTP
+  - ftp.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.ftp.md: FTP
 title: Вступ
 ---
 # Вступ
 
-Функції цього модуля забезпечують доступ до серверів за протоколом FTP (File Transfer Protocol), визначеним у [» http://www.faqs.org/rfcs/rfc959](http://www.faqs.org/rfcs/rfc959). Модуль дозволяє виконувати безліч досить складних операцій. Якщо потрібно лише прочитати або записати файл на сервері FTP, можна скористатися [`ftp://`обгорткою](wrappers.ftp.html) і [функціями для роботи з файловою системою](ref.filesystem.html)які більш прості у використанні.
+Функції цього модуля забезпечують доступ до серверів за протоколом FTP (File Transfer Protocol), визначеним у [» http://www.faqs.org/rfcs/rfc959](http://www.faqs.org/rfcs/rfc959). Модуль дозволяє виконувати безліч досить складних операцій. Якщо потрібно лише прочитати або записати файл на сервері FTP, можна скористатися [`ftp://`обгорткою](wrappers.ftp.md) і [функціями для роботи з файловою системою](ref.filesystem.md)які більш прості у використанні.

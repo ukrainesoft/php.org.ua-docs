@@ -1,6 +1,6 @@
 ---
 navigation:
-  - language.enumerations.object-differences.html: « Відмінності від об'єктів
+  - language.enumerations.object-differences.md: « Відмінності від об'єктів
   - language.enumerations.serialization.md: Сериализация »
   - index.md: PHP Manual
   - language.enumerations.md: Перечисления

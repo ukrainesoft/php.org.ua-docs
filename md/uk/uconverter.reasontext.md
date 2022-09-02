@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.getsubstchars.html: '« UConverter::getSubstChars'
-  - uconverter.setdestinationencoding.html: 'UConverter::setDestinationEncoding »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.getsubstchars.md: '« UConverter::getSubstChars'
+  - uconverter.setdestinationencoding.md: 'UConverter::setDestinationEncoding »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::reasonText'
 ---
 # UConverter::reasonText

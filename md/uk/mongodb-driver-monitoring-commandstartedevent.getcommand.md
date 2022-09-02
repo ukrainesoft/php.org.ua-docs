@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-commandstartedevent.html: « MongoDBDriverMonitoringCommandStartedEvent
-  - mongodb-driver-monitoring-commandstartedevent.getcommandname.html: 'MongoDBDriverMonitoringCommandStartedEvent::getCommandName »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-commandstartedevent.html: MongoDBDriverMonitoringCommandStartedEvent
+  - class.mongodb-driver-monitoring-commandstartedevent.md: « MongoDBDriverMonitoringCommandStartedEvent
+  - mongodb-driver-monitoring-commandstartedevent.getcommandname.md: 'MongoDBDriverMonitoringCommandStartedEvent::getCommandName »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDBDriverMonitoringCommandStartedEvent
 title: 'MongoDBDriverMonitoringCommandStartedEvent::getCommand'
 ---
 # MongoDBDriverMonitoringCommandStartedEvent::getCommand
@@ -18,7 +18,7 @@ MongoDBDriverMonitoringCommandStartedEvent::getCommand — Повертає до
 final public MongoDB\Driver\Monitoring\CommandStartedEvent::getCommand(): object
 ```
 
-Документ відповіді буде перетворено з BSON в PHP, використовуючи правила [десериализации](mongodb.persistence.deserialization.html) (наприклад, документи BSON будуть перетворені на stdClass).
+Документ відповіді буде перетворено з BSON в PHP, використовуючи правила [десериализации](mongodb.persistence.deserialization.md) (наприклад, документи BSON будуть перетворені на stdClass).
 
 ### Список параметрів
 
@@ -30,9 +30,9 @@ final public MongoDB\Driver\Monitoring\CommandStartedEvent::getCommand(): object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.html)
--   [Постійні дані](mongodb.persistence.html)
+-   [Моніторинг продуктивності програми (Application Performance Monitoring або APM)](mongodb.tutorial.apm.md)
+-   [Постійні дані](mongodb.persistence.md)

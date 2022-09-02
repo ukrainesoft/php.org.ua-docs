@@ -1,7 +1,7 @@
 ---
 navigation:
-  - wkhtmltox-pdf-object.construct.html: '« wkhtmltoxPDFObject::construct'
-  - wkhtmltox-image-converter.construct.html: 'wkhtmltoxImageConverter::construct »'
+  - wkhtmltox-pdf-object.construct.md: '« wkhtmltoxPDFObject::construct'
+  - wkhtmltox-image-converter.construct.md: 'wkhtmltoxImageConverter::construct »'
   - index.md: PHP Manual
   - book.wkhtmltox.md: wkhtmltox
 title: Клас wkhtmltoxImageConverter

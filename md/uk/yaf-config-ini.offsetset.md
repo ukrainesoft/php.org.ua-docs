@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-ini.offsetget.html: '« YafConfigIni::offsetGet'
-  - yaf-config-ini.offsetunset.html: 'YafConfigIni::offsetUnset »'
-  - index.html: PHP Manual
-  - class.yaf-config-ini.html: YafConfigIni
+  - yaf-config-ini.offsetget.md: '« YafConfigIni::offsetGet'
+  - yaf-config-ini.offsetunset.md: 'YafConfigIni::offsetUnset »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.md: YafConfigIni
 title: 'YafConfigIni::offsetSet'
 ---
 # YafConfigIni::offsetSet

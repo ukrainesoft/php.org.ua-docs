@@ -14,12 +14,12 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [phpdbg.eol](phpdbg.configuration.html#ini.phpdbg.eol) |  | PHPINIALL | Видалено, починаючи з PHP 8.1.0 |
-| [phpdbg.path](phpdbg.configuration.html#ini.phpdbg.path) |  |  | Видалено, починаючи з PHP 8.1.0 |
+| [phpdbg.eol](phpdbg.configuration.md#ini.phpdbg.eol) |  | PHPINIALL | Видалено, починаючи з PHP 8.1.0 |
+| [phpdbg.path](phpdbg.configuration.md#ini.phpdbg.path) |  |  | Видалено, починаючи з PHP 8.1.0 |
 
 Коротке пояснення конфігураційних директив.
 
-`phpdbg.eol` [mixed](language.types.declarations.html#language.types.declarations.mixed)
+`phpdbg.eol` [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Тип закінчення рядка, який використовується для виведення. Для встановлення значення необхідно використовувати один із псевдонімів рядків.
 

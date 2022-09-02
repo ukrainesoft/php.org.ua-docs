@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-menu.appendseparator.html: '« UIMenu::appendSeparator'
-  - class.ui-menuitem.html: ОЙMenuItem »
+  - ui-menu.appendseparator.md: '« UIMenu::appendSeparator'
+  - class.ui-menuitem.md: ОЙMenuItem »
   - index.md: PHP Manual
-  - class.ui-menu.html: ОЙMenu
+  - class.ui-menu.md: ОЙMenu
 title: 'ОЙMenu::construct'
 ---
 # ОЙMenu::construct

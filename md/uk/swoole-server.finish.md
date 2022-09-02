@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.exist.html: '« SwooleServer::exist'
-  - swoole-server.getclientinfo.html: 'SwooleServer::getClientInfo »'
+  - swoole-server.exist.md: '« SwooleServer::exist'
+  - swoole-server.getclientinfo.md: 'SwooleServer::getClientInfo »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::finish'
 ---
 # SwooleServer::finish

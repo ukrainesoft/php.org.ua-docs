@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recursivetreeiterator.callhaschildren.html: '« RecursiveTreeIterator::callHasChildren'
-  - recursivetreeiterator.current.html: 'RecursiveTreeIterator::current »'
-  - index.html: PHP Manual
-  - class.recursivetreeiterator.html: RecursiveTreeIterator
+  - recursivetreeiterator.callhaschildren.md: '« RecursiveTreeIterator::callHasChildren'
+  - recursivetreeiterator.current.md: 'RecursiveTreeIterator::current »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
 title: 'RecursiveTreeIterator::construct'
 ---
 # RecursiveTreeIterator::construct
@@ -15,12 +15,12 @@ RecursiveTreeIterator::construct — Конструктор класу Recursive
 ### Опис
 
 public **RecursiveTreeIterator::construct**  
-[RecursiveIterator](class.recursiveiterator.html)[IteratorAggregate](class.iteratoraggregate.html) `$iterator`  
+[RecursiveIterator](class.recursiveiterator.md)[IteratorAggregate](class.iteratoraggregate.md) `$iterator`  
 int `$flags` = RecursiveTreeIterator::BYPASSKEY,  
 int `$cachingIteratorFlags` = CachingIterator::CATCHGETCHILD,  
 int `$mode` = RecursiveTreeIterator::SELFFIRST
 
-Створює новий об'єкт класу [RecursiveTreeIterator](class.recursivetreeiterator.html) на основі рекурсивного об'єкта-ітератора.
+Створює новий об'єкт класу [RecursiveTreeIterator](class.recursivetreeiterator.md) на основі рекурсивного об'єкта-ітератора.
 
 **Увага**
 
@@ -30,16 +30,16 @@ int `$mode` = RecursiveTreeIterator::SELFFIRST
 
 `iterator`
 
-Об'єкт класу [RecursiveIterator](class.recursiveiterator.html) або класу [IteratorAggregate](class.iteratoraggregate.html)
+Об'єкт класу [RecursiveIterator](class.recursiveiterator.md) або класу [IteratorAggregate](class.iteratoraggregate.md)
 
 `flags`
 
-Прапори впливають поведінка деяких методів класу. Список можливих прапорів можна знайти на сторінці [Обумовлених констант RecursiveTreeIterator](class.recursivetreeiterator.html#recursivetreeiterator.constants)
+Прапори впливають поведінка деяких методів класу. Список можливих прапорів можна знайти на сторінці [Обумовлених констант RecursiveTreeIterator](class.recursivetreeiterator.md#recursivetreeiterator.constants)
 
 `caching_it_flags`
 
-Прапори для налаштування внутрішнього об'єкта [RecursiveCachingIterator](class.recursivecachingiterator.html)
+Прапори для налаштування внутрішнього об'єкта [RecursiveCachingIterator](class.recursivecachingiterator.md)
 
 `mode`
 
-Прапори для налаштування внутрішнього об'єкта [RecursiveIteratorIterator](class.recursiveiteratoriterator.html)
+Прапори для налаштування внутрішнього об'єкта [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phardata.converttoexecutable.html: '« PharData::convertToExecutable'
-  - phardata.decompress.html: 'PharData::decompress »'
-  - index.html: PHP Manual
-  - class.phardata.html: PharData
+  - phardata.converttoexecutable.md: '« PharData::convertToExecutable'
+  - phardata.decompress.md: 'PharData::decompress »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
 title: 'PharData::copy'
 ---
 # PharData::copy
@@ -18,7 +18,7 @@ PharData::copy — Скопіювати файл із tar/zip-архіву в н
 public PharData::copy(string $from, string $to): bool
 ```
 
-Копіює файл з tar/zip-архіву в новий файл усередині нього. Це об'єктно-орієнтована альтернатива для [copy()](function.copy.html) з потоковою обгорткою phar.
+Копіює файл з tar/zip-архіву в новий файл усередині нього. Це об'єктно-орієнтована альтернатива для [copy()](function.copy.md) з потоковою обгорткою phar.
 
 ### Список параметрів
 
@@ -32,13 +32,13 @@ public PharData::copy(string $from, string $to): bool
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо файл, що копіюється, відсутній, новий файл вже існує, запис заборонено або виникли проблеми з відкриттям читанням вихідного файлу. У разі проблем із записом на диск кидається виняток [PharException](class.pharexception.html)
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо файл, що копіюється, відсутній, новий файл вже існує, запис заборонено або виникли проблеми з відкриттям читанням вихідного файлу. У разі проблем із записом на диск кидається виняток [PharException](class.pharexception.md)
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PharData::copy()****
 
-У прикладі показано використання **PharData::copy()** та аналог з використанням потокової обгортки. Головна різниця між цими підходами – обробка помилок. Усі методи PharData викидають винятки, тоді як потокові обгортки використовують функцію [triggererror()](function.trigger-error.html)
+У прикладі показано використання **PharData::copy()** та аналог з використанням потокової обгортки. Головна різниця між цими підходами – обробка помилок. Усі методи PharData викидають винятки, тоді як потокові обгортки використовують функцію [triggererror()](function.trigger-error.md)
 
 ```php
 <?php

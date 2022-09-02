@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-num-recent.html: « imapnumrecent
-  - function.imap-ping.html: imapping »
+  - function.imap-num-recent.md: « imapnumrecent
+  - function.imap-ping.md: imapping »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapopen
@@ -30,7 +30,7 @@ imap_open(    string $mailbox,    string $user,    string $password,
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 Серверна частина, укладена у фігурні дужки '{' і '}', складається з імені або IP-адреси сервера, опціонального порту (попереднього двокрапкою) та опціональних специфікацій протоколу (попереджених слешем '/').
 
@@ -79,7 +79,7 @@ imap_open(    string $mailbox,    string $user,    string $password,
 -   **`OP_READONLY`** - відкрити поштову скриньку лише для читання
 -   **`OP_ANONYMOUS`** - не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
 -   **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до поштової скриньки для IMAP і NNTP.
--   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.html) і [imapexpunge()](function.imap-expunge.md)
+-   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.md) і [imapexpunge()](function.imap-expunge.md)
 -   **`OP_DEBUG`** - домовленості щодо протоколу налагодження
 -   **`OP_SHORTCACHE`** - коротке кешування (тільки `elt`
 -   **`OP_SILENT`** - не передавати події (внутрішнє використання)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.gettext.html: « Функции gettext
-  - function.bindtextdomain.html: bindtextdomain »
-  - index.html: PHP Manual
-  - ref.gettext.html: Функции gettext
+  - ref.gettext.md: « Функции gettext
+  - function.bindtextdomain.md: bindtextdomain »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
 title: bindtextdomaincodeset
 ---
 # bindtextdomaincodeset
@@ -18,7 +18,7 @@ bindtextdomaincodeset — Встановлює або отримує кодув�
 bind_textdomain_codeset(string $domain, ?string $codeset): string|false
 ```
 
-Функція **bindtextdomaincodeset()** встановлює або отримує кодування, в якому повертатимуться повідомлення з `domain`, такими функціями як [gettext()](function.gettext.html)
+Функція **bindtextdomaincodeset()** встановлює або отримує кодування, в якому повертатимуться повідомлення з `domain`, такими функціями як [gettext()](function.gettext.md)
 
 ### Список параметрів
 

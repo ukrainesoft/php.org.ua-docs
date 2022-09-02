@@ -32,7 +32,7 @@ public Imagick::blurImage(float $radius, float $sigma, int $channel = ?): bool
 
 `channel`
 
-Константа [Channeltype](imagick.constants.html#imagick.constants.channel). Якщо не вказано, будуть розмиті всі канали.
+Константа [Channeltype](imagick.constants.md#imagick.constants.channel). Якщо не вказано, будуть розмиті всі канали.
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-scalarmult-ristretto255-base.html: « sodiumcryptoscalarmultristretto255base
-  - function.sodium-crypto-scalarmult.html: sodiumcryptoscalarmult »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-scalarmult-ristretto255-base.md: « sodiumcryptoscalarmultristretto255base
+  - function.sodium-crypto-scalarmult.md: sodiumcryptoscalarmult »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptoscalarmultristretto255
 ---
 # sodiumcryptoscalarmultristretto255
@@ -40,4 +40,4 @@ sodium_crypto_scalarmult_ristretto255(string $n, string $p): string
 
 ### Дивіться також
 
--   [sodiumcryptoscalarmultristretto255base()](function.sodium-crypto-scalarmult-ristretto255-base.html) - Обчислює відкритий ключ із закритого ключа
+-   [sodiumcryptoscalarmultristretto255base()](function.sodium-crypto-scalarmult-ristretto255-base.md) - Обчислює відкритий ключ із закритого ключа

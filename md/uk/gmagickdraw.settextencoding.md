@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.settextdecoration.html: '« GmagickDraw::settextdecoration'
-  - class.gmagickpixel.html: GmagickPixel »
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.settextdecoration.md: '« GmagickDraw::settextdecoration'
+  - class.gmagickpixel.md: GmagickPixel »
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::settextencoding'
 ---
 # GmagickDraw::settextencoding

@@ -14,9 +14,9 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [iconv.inputencoding](iconv.configuration.html#ini.iconv.input-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
-| [iconv.outputencoding](iconv.configuration.html#ini.iconv.output-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
-| [iconv.internalencoding](iconv.configuration.html#ini.iconv.internal-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| [iconv.inputencoding](iconv.configuration.md#ini.iconv.input-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| [iconv.outputencoding](iconv.configuration.md#ini.iconv.output-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
+| [iconv.internalencoding](iconv.configuration.md#ini.iconv.internal-encoding) | "" | PHPINIALL | Застаріло з PHP 5.6.0. |
 
 Коротке пояснення конфігураційних директив.
 
@@ -30,7 +30,7 @@ title: Налаштування під час виконання
 
 Ця можливість була оголошена *застарілої*починаючи з PHP 5.6.0. Вкрай не рекомендується покладатися на цю можливість у майбутньому.
 
-У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [inputencoding](ini.core.html#ini.input-encoding)
+У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [inputencoding](ini.core.md#ini.input-encoding)
 
 `iconv.output_encoding` string
 
@@ -38,7 +38,7 @@ title: Налаштування під час виконання
 
 Ця можливість була оголошена *застарілої*починаючи з PHP 5.6.0. Вкрай не рекомендується покладатися на цю можливість у майбутньому.
 
-У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [outputencoding](ini.core.html#ini.output-encoding)
+У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [outputencoding](ini.core.md#ini.output-encoding)
 
 `iconv.internal_encoding` string
 
@@ -46,4 +46,4 @@ title: Налаштування під час виконання
 
 Ця можливість була оголошена *застарілої*починаючи з PHP 5.6.0. Вкрай не рекомендується покладатися на цю можливість у майбутньому.
 
-У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [`default_charset`](ini.core.html#ini.default-charset)
+У PHP 5.6 і більше потрібно залишати цю опцію порожньою і використовувати замість неї [`default_charset`](ini.core.md#ini.default-charset)

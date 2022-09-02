@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.tidy-config-count.html: « tidyconfigcount
-  - function.tidy-get-output.html: tidygetoutput »
+  - function.tidy-config-count.md: « tidyconfigcount
+  - function.tidy-get-output.md: tidygetoutput »
   - index.md: PHP Manual
   - ref.tidy.md: Tidy
 title: tidyerrorcount

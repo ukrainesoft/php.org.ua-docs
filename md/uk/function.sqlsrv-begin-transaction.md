@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.sqlsrv.md: « Функції SQLSRV
-  - function.sqlsrv-cancel.html: sqlsrvcancel »
+  - function.sqlsrv-cancel.md: sqlsrvcancel »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvbegintransaction
@@ -18,7 +18,7 @@ sqlsrvbegintransaction — Починає транзакцію бази дани
 sqlsrv_begin_transaction(resource $conn): bool
 ```
 
-Транзакція, розпочата за допомогою **sqlsrvbegintransaction()**, включає всі оператори, які були виконані після виклику **sqlsrvbegintransaction()** та до викликів [sqlsrvrollback()](function.sqlsrv-rollback.html) або [sqlsrvcommit()](function.sqlsrv-commit.md). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання операторів SQL, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
+Транзакція, розпочата за допомогою **sqlsrvbegintransaction()**, включає всі оператори, які були виконані після виклику **sqlsrvbegintransaction()** та до викликів [sqlsrvrollback()](function.sqlsrv-rollback.md) або [sqlsrvcommit()](function.sqlsrv-commit.md). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання операторів SQL, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ sqlsrv_begin_transaction(resource $conn): bool
 
 **Приклад #1 Приклад використання **sqlsrvbegintransaction()****
 
-У наступному прикладі показано, як використовувати**sqlsrvbegintransaction()** разом з [sqlsrvcommit()](function.sqlsrv-commit.html) і [sqlsrvrollback()](function.sqlsrv-rollback.md)
+У наступному прикладі показано, як використовувати**sqlsrvbegintransaction()** разом з [sqlsrvcommit()](function.sqlsrv-commit.md) і [sqlsrvrollback()](function.sqlsrv-rollback.md)
 
 ```php
 <?php

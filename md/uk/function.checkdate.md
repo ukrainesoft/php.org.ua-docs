@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.datetime.html: « Функції дати та часу
-  - function.date-add.html: dateadd »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - ref.datetime.md: « Функції дати та часу
+  - function.date-add.md: dateadd »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: checkdate
 ---
 # checkdate

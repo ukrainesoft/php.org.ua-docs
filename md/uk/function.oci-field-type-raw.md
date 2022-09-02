@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-field-size.html: « ocifieldsize
-  - function.oci-field-type.html: ocifieldtype »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-field-size.md: « ocifieldsize
+  - function.oci-field-type.md: ocifieldtype »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocifieldtyperaw
 ---
 # ocifieldtyperaw
@@ -20,7 +20,7 @@ oci_field_type_raw(resource $statement, string|int $column): int|false
 
 Повертає тип "SQLT" Oracle поля `column`
 
-Якщо ви бажаєте отримати тип поля, то [ocifieldtype()](function.oci-field-type.html) підійде вам більше.
+Якщо ви бажаєте отримати тип поля, то [ocifieldtype()](function.oci-field-type.md) підійде вам більше.
 
 ### Список параметрів
 
@@ -75,4 +75,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumntyperaw()](function.ocicolumntyperaw.html). У PHP 5.0.0 і вище [ocicolumntyperaw()](function.ocicolumntyperaw.html) є аліасом \*\*ocifieldtyperaw()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumntyperaw()](function.ocicolumntyperaw.md). У PHP 5.0.0 і вище [ocicolumntyperaw()](function.ocicolumntyperaw.md) є аліасом \*\*ocifieldtyperaw()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

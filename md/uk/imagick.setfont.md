@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setfirstiterator.html: '« Imagick::setFirstIterator'
-  - imagick.setformat.html: 'Imagick::setFormat »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setfirstiterator.md: '« Imagick::setFirstIterator'
+  - imagick.setformat.md: 'Imagick::setFormat »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setFont'
 ---
 # Imagick::setFont

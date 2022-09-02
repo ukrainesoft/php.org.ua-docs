@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-set-action.html: « ocisetaction
-  - function.oci-set-client-identifier.html: ocisetclientidentifier »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-set-action.md: « ocisetaction
+  - function.oci-set-client-identifier.md: ocisetclientidentifier »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocisetcalltimeout
 ---
 # ocisetcalltimeout
@@ -34,7 +34,7 @@ oci_set_call_timeout(resource $connection, int $timeout): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md), або [ocinewconnect()](function.oci-new-connect.md)
 
 `timeout`
 

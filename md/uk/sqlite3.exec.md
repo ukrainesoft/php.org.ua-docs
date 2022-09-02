@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.escapestring.html: '« SQLite3::escapeString'
-  - sqlite3.lasterrorcode.html: 'SQLite3::lastErrorCode »'
-  - index.html: PHP Manual
-  - class.sqlite3.html: SQLite3
+  - sqlite3.escapestring.md: '« SQLite3::escapeString'
+  - sqlite3.lasterrorcode.md: 'SQLite3::lastErrorCode »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
 title: 'SQLite3::exec'
 ---
 # SQLite3::exec

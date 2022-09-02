@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.copy.html: '« DsStack::copy'
-  - ds-stack.isempty.html: 'ДсStack::isEmpty »'
-  - index.html: PHP Manual
-  - class.ds-stack.html: Стек
+  - ds-stack.copy.md: '« DsStack::copy'
+  - ds-stack.isempty.md: 'ДсStack::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
 title: 'ДсStack::count'
 ---
 # ДсStack::count
@@ -12,4 +12,4 @@ title: 'ДсStack::count'
 
 ДсStack::count — Повертає кількість елементів колекції
 
-Дивіться опис функції [Countable::count()](countable.count.html)
+Дивіться опис функції [Countable::count()](countable.count.md)

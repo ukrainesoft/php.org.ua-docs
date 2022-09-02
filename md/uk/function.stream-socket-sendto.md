@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-socket-recvfrom.html: « streamsocketrecvfrom
-  - function.stream-socket-server.html: streamsocketserver »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-socket-recvfrom.md: « streamsocketrecvfrom
+  - function.stream-socket-server.md: streamsocketserver »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsocketsendto
 ---
 # streamsocketsendto
@@ -68,6 +68,6 @@ fclose($socket);
 
 ### Дивіться також
 
--   [streamsocketrecvfrom()](function.stream-socket-recvfrom.html) - Отримує дані із сокету, підключеного чи ні
--   [streamsocketclient()](function.stream-socket-client.html) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
--   [streamsocketserver()](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
+-   [streamsocketrecvfrom()](function.stream-socket-recvfrom.md) - Отримує дані із сокету, підключеного чи ні
+-   [streamsocketclient()](function.stream-socket-client.md) - Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+-   [streamsocketserver()](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix

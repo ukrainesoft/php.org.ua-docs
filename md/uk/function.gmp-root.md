@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-random.html: « gmprandom
-  - function.gmp-rootrem.html: gmprootrem »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-random.md: « gmprandom
+  - function.gmp-rootrem.md: gmprootrem »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmproot
 ---
 # gmproot
@@ -24,7 +24,7 @@ gmp_root(GMP|int|string $num, int $nth): GMP
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `nth`
 

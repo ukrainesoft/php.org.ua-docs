@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-fchown.html: « eiofchown
-  - function.eio-fstat.html: eiofstat »
+  - function.eio-fchown.md: « eiofchown
+  - function.eio-fstat.md: eiofstat »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiofdatasync

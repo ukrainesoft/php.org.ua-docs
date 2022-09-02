@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-setfont.html: «pssetfont
-  - function.ps-setlinecap.html: псsetlinecap »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-setfont.md: «pssetfont
+  - function.ps-setlinecap.md: псsetlinecap »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псsetgray
 ---
 # псsetgray
@@ -24,7 +24,7 @@ ps_setgray(resource $psdoc, float $gray): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `gray`
 
@@ -36,4 +36,4 @@ ps_setgray(resource $psdoc, float $gray): bool
 
 ### Дивіться також
 
--   [псsetcolor()](function.ps-setcolor.html) - Встановлює поточний колір
+-   [псsetcolor()](function.ps-setcolor.md) - Встановлює поточний колір

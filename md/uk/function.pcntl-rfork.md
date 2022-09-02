@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-getpriority.html: pcntlgetpriority
-  - function.pcntl-setpriority.html: pcntlsetpriority »
+  - function.pcntl-getpriority.md: pcntlgetpriority
+  - function.pcntl-setpriority.md: pcntlsetpriority »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlrfork

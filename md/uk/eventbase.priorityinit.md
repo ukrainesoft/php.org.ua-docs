@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbase.loop.html: '« EventBase::loop'
-  - eventbase.reinit.html: 'EventBase::reInit »'
-  - index.html: PHP Manual
-  - class.eventbase.html: EventBase
+  - eventbase.loop.md: '« EventBase::loop'
+  - eventbase.reinit.md: 'EventBase::reInit »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
 title: 'EventBase::priorityInit'
 ---
 # EventBase::priorityInit
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [Event::setPriority()](event.setpriority.html) - Задати пріоритет події
+-   [Event::setPriority()](event.setpriority.md) - Задати пріоритет події

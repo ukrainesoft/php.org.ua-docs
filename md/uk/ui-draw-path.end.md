@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-path.construct.html: '« UIDrawPath::construct'
-  - ui-draw-path.lineto.html: 'ОЙDrawPath::lineTo »'
+  - ui-draw-path.construct.md: '« UIDrawPath::construct'
+  - ui-draw-path.lineto.md: 'ОЙDrawPath::lineTo »'
   - index.md: PHP Manual
-  - class.ui-draw-path.html: ОЙDrawPath
+  - class.ui-draw-path.md: ОЙDrawPath
 title: 'ОЙDrawPath::end'
 ---
 # ОЙDrawPath::end

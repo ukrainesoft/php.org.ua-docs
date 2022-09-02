@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-result-seek.html: « pgresultseek
-  - function.pg-select.html: пгselect »
+  - function.pg-result-seek.md: « pgresultseek
+  - function.pg-select.md: пгselect »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгresultstatus
@@ -24,7 +24,7 @@ pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|in
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `mode`
 

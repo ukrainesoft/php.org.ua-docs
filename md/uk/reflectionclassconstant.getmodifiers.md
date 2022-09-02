@@ -26,7 +26,7 @@ public ReflectionClassConstant::getModifiers(): int
 
 ### Значення, що повертаються
 
-Числове уявлення модифікаторів. Фактичні значення цих модифікаторів описані в [визначених константах](class.reflectionclassconstant.html#reflectionclassconstant.constants.modifiers)
+Числове уявлення модифікаторів. Фактичні значення цих модифікаторів описані в [визначених константах](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers)
 
 ### Дивіться також
 

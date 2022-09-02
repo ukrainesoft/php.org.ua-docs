@@ -15,7 +15,7 @@ SoapVar::construct - Конструктор SoapVar
 ### Опис
 
 public **SoapVar::construct**  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data`  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data`  
 ?int `$encoding`  
 ?string `$typeName` **`null`**  
 ?string `$typeNamespace` **`null`**  

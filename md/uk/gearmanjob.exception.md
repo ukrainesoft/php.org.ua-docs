@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanjob.data.html: '« GearmanJob::data'
-  - gearmanjob.fail.html: 'GearmanJob::fail »'
-  - index.html: PHP Manual
-  - class.gearmanjob.html: GearmanJob
+  - gearmanjob.data.md: '« GearmanJob::data'
+  - gearmanjob.fail.md: 'GearmanJob::fail »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::exception'
 ---
 # GearmanJob::exception
@@ -22,7 +22,7 @@ public GearmanJob::exception(string $exception): bool
 
 > **Зауваження**
 > 
-> Цей метод було замінено на [GearmanJob::sendException()](gearmanjob.sendexception.html) у модулі Gearman версії 0.6.0.
+> Цей метод було замінено на [GearmanJob::sendException()](gearmanjob.sendexception.md) у модулі Gearman версії 0.6.0.
 
 ### Список параметрів
 
@@ -36,6 +36,6 @@ public GearmanJob::exception(string $exception): bool
 
 ### Дивіться також
 
--   [GearmanJob::setReturn()](gearmanjob.setreturn.html) - Встановлення значення, що повертається
--   [GearmanJob::sendStatus()](gearmanjob.sendstatus.html) - Надсилання статусу
--   [GearmanJob::sendWarning()](gearmanjob.sendwarning.html) - Відправлення попередження
+-   [GearmanJob::setReturn()](gearmanjob.setreturn.md) - Встановлення значення, що повертається
+-   [GearmanJob::sendStatus()](gearmanjob.sendstatus.md) - Надсилання статусу
+-   [GearmanJob::sendWarning()](gearmanjob.sendwarning.md) - Відправлення попередження

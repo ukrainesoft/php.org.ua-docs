@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-serverdescription.getroundtriptime.html: '« MongoDBDriverServerDescription::getRoundTripTime'
-  - class.mongodb-driver-topologydescription.html: MongoDBDriverTopologyDescription »
+  - mongodb-driver-serverdescription.getroundtriptime.md: '« MongoDBDriverServerDescription::getRoundTripTime'
+  - class.mongodb-driver-topologydescription.md: MongoDBDriverTopologyDescription »
   - index.md: PHP Manual
-  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
 title: 'MongoDBDriverServerDescription::getType'
 ---
 # MongoDBDriverServerDescription::getType

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-utf7-decode.html: « imaputf7decode
-  - function.imap-utf8-to-mutf7.html: imaputf8тоmutf7 »
+  - function.imap-utf7-decode.md: « imaputf7decode
+  - function.imap-utf8-to-mutf7.md: imaputf8тоmutf7 »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imaputf7encode

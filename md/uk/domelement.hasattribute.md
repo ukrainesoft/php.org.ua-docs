@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domelement.getelementsbytagnamens.html: '« DOMElement::getElementsByTagNameNS'
-  - domelement.hasattributens.html: 'DOMElement::hasAttributeNS »'
-  - index.html: PHP Manual
-  - class.domelement.html: DOMElement
+  - domelement.getelementsbytagnamens.md: '« DOMElement::getElementsByTagNameNS'
+  - domelement.hasattributens.md: 'DOMElement::hasAttributeNS »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
 title: 'DOMElement::hasAttribute'
 ---
 # DOMElement::hasAttribute
@@ -32,7 +32,7 @@ public DOMElement::hasAttribute(string $qualifiedName): bool
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.html) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::getAttribute()](domelement.getattribute.html) - Повертає значення атрибуту
--   [DOMElement::setAttribute()](domelement.setattribute.html) - Додає новий або змінює існуючий атрибут
--   [DOMElement::removeAttribute()](domelement.removeattribute.html) - Видаляє атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::getAttribute()](domelement.getattribute.md) - Повертає значення атрибуту
+-   [DOMElement::setAttribute()](domelement.setattribute.md) - Додає новий або змінює існуючий атрибут
+-   [DOMElement::removeAttribute()](domelement.removeattribute.md) - Видаляє атрибут

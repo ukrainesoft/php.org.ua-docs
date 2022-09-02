@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-fetch-assoc.html: « ibasefetchassoc
-  - function.ibase-fetch-row.html: ibasefetchrow »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-fetch-assoc.md: « ibasefetchassoc
+  - function.ibase-fetch-row.md: ibasefetchrow »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasefetchobject
 ---
 # ibasefetchobject
@@ -26,7 +26,7 @@ ibase_fetch_object(resource $result_id, int $fetch_flag = 0): object
 
 `result_id`
 
-Ідентифікатор результату InterBase, отриманий за допомогою [ibasequery()](function.ibase-query.html) або [ibaseexecute()](function.ibase-execute.md)
+Ідентифікатор результату InterBase, отриманий за допомогою [ibasequery()](function.ibase-query.md) або [ibaseexecute()](function.ibase-execute.md)
 
 `fetch_flag`
 

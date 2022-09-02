@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlbelthold.html: « tradercdlbelthold
-  - function.trader-cdlclosingmarubozu.html: tradercdlclosingmarubozu »
+  - function.trader-cdlbelthold.md: « tradercdlbelthold
+  - function.trader-cdlclosingmarubozu.md: tradercdlclosingmarubozu »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlbreakaway

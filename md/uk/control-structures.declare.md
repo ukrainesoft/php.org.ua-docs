@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.match.html: « match
+  - control-structures.match.md: « match
   - function.return.md: return »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: declare
 ---
 ## declare
@@ -17,7 +17,7 @@ declare (directive)
     statement
 ```
 
-Секція `directive` дозволяє встановити поведінку блоку `declare`. В даний час розпізнаються лише три директиви: директива `ticks` (Додаткова інформація про директиву [ticks](control-structures.declare.html#control-structures.declare.ticks) доступна нижче), директива `encoding` (Додаткова інформація про директиву [encoding](control-structures.declare.html#control-structures.declare.encoding) доступна нижче) та директива `strict_types` (подробиці у розділі про [строгую типизацию](language.types.declarations.html#language.types.declarations.strict) на сторінці аргументів функції)
+Секція `directive` дозволяє встановити поведінку блоку `declare`. В даний час розпізнаються лише три директиви: директива `ticks` (Додаткова інформація про директиву [ticks](control-structures.declare.md#control-structures.declare.ticks) доступна нижче), директива `encoding` (Додаткова інформація про директиву [encoding](control-structures.declare.md#control-structures.declare.encoding) доступна нижче) та директива `strict_types` (подробиці у розділі про [строгую типизацию](language.types.declarations.md#language.types.declarations.strict) на сторінці аргументів функції)
 
 Оскільки директиви обробляються при компіляції файлу, лише символьні дані можуть використовуватися як значення директиви. Не можна використовувати змінні та константи. Приклад:
 
@@ -84,7 +84,7 @@ if ($a > 0) {
 ?>
 ```
 
-Дивіться також [registertickfunction()](function.register-tick-function.html) і [unregistertickfunction()](function.unregister-tick-function.md)
+Дивіться також [registertickfunction()](function.register-tick-function.md) і [unregistertickfunction()](function.unregister-tick-function.md)
 
 ### Кодування
 
@@ -103,4 +103,4 @@ declare(encoding='ISO-8859-1');
 
 У поєднанні з простором імен єдино допустимий синтаксис для declare є `declare(encoding='...');` де `...` це значення кодування . `declare(encoding='...') {}` призведе до помилки парсера, якщо використовується разом із простором імен.
 
-Дивіться також [zend.scriptencoding](ini.core.html#ini.zend.script-encoding)
+Дивіться також [zend.scriptencoding](ini.core.md#ini.zend.script-encoding)

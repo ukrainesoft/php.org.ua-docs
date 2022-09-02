@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-area.onmouse.html: '« UIArea::onMouse'
-  - ui-area.scrollto.html: 'ОЙArea::scrollTo »'
+  - ui-area.onmouse.md: '« UIArea::onMouse'
+  - ui-area.scrollto.md: 'ОЙArea::scrollTo »'
   - index.md: PHP Manual
-  - class.ui-area.html: ОЙArea
+  - class.ui-area.md: ОЙArea
 title: 'ОЙArea::redraw'
 ---
 # ОЙArea::redraw

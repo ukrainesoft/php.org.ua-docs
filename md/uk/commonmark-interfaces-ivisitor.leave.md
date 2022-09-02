@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-interfaces-ivisitor.enter.html: '« CommonMarkInterfacesIVisitor::enter'
-  - class.commonmark-interfaces-ivisitable.html: CommonMarkInterfacesIVisitable »
+  - commonmark-interfaces-ivisitor.enter.md: '« CommonMarkInterfacesIVisitor::enter'
+  - class.commonmark-interfaces-ivisitable.md: CommonMarkInterfacesIVisitable »
   - index.md: PHP Manual
-  - class.commonmark-interfaces-ivisitor.html: CommonMarkInterfacesIVisitor
+  - class.commonmark-interfaces-ivisitor.md: CommonMarkInterfacesIVisitor
 title: 'CommonMarkInterfacesIVisitor::leave'
 ---
 # CommonMarkInterfacesIVisitor::leave

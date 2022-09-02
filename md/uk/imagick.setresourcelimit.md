@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setresolution.html: '« Imagick::setResolution'
-  - imagick.setsamplingfactors.html: 'Imagick::setSamplingFactors »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setresolution.md: '« Imagick::setResolution'
+  - imagick.setsamplingfactors.md: 'Imagick::setSamplingFactors »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setResourceLimit'
 ---
 # Imagick::setResourceLimit
@@ -24,11 +24,11 @@ public static Imagick::setResourceLimit(int $type, int $limit): bool
 
 `type`
 
-Зверніться до списку [констант RESOURCETYPE](imagick.constants.html#imagick.constants.resourcetypes)
+Зверніться до списку [констант RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes)
 
 `limit`
 
-Одна з [констант RESOURCETYPE](imagick.constants.html#imagick.constants.resourcetypes). Одиниця виміру залежить від типу ресурсу, що обмежується.
+Одна з [констант RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes). Одиниця виміру залежить від типу ресурсу, що обмежується.
 
 ### Значення, що повертаються
 

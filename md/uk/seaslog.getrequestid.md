@@ -53,4 +53,4 @@ string(26) "reqeust_id_test_1530864034"
 ### Дивіться також
 
 -   [SeasLog::setRequestID()](seaslog.setrequestid.md) - Встановлює диференційовані запити SeasLog requestід
--   Змінна %До в [Таблиці змінних за промовчанням Seaslog](seaslog.configuration.html#ini.seaslog.default-template)
+-   Змінна %До в [Таблиці змінних за промовчанням Seaslog](seaslog.configuration.md#ini.seaslog.default-template)

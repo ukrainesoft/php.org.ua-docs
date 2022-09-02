@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.warning-count.html: '« mysqli::$warningcount'
-  - mysqli-stmt.affected-rows.html: 'mysqlistmt::$affectedrows »'
+  - mysqli.warning-count.md: '« mysqli::$warningcount'
+  - mysqli-stmt.affected-rows.md: 'mysqlistmt::$affectedrows »'
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: The mysqlistmt class

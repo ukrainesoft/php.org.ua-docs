@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagefilledellipse.html: « imagefilledellipse
-  - function.imagefilledrectangle.html: imagefilledrectangle »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagefilledellipse.md: « imagefilledellipse
+  - function.imagefilledrectangle.md: imagefilledrectangle »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagefilledpolygon
 ---
 # imagefilledpolygon
@@ -32,7 +32,7 @@ imagefilledpolygon(    GdImage $image,    array $points,    int $num
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `points`
 
@@ -46,7 +46,7 @@ imagefilledpolygon(    GdImage $image,    array $points,    int $num
 
 `color`
 
-Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -57,7 +57,7 @@ imagefilledpolygon(    GdImage $image,    array $points,    int $num
 | Версия | Описание |
 | --- | --- |
 |  | Параметр `num_points` оголошено застарілим. |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -101,4 +101,4 @@ imagedestroy($image);
 
 ### Дивіться також
 
--   [imagepolygon()](function.imagepolygon.html) - Малювання багатокутника
+-   [imagepolygon()](function.imagepolygon.md) - Малювання багатокутника

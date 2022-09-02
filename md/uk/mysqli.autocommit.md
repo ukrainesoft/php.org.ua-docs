@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.affected-rows.html: '« mysqli::$affectedrows'
-  - mysqli.begin-transaction.html: 'mysqli::begintransaction »'
+  - mysqli.affected-rows.md: '« mysqli::$affectedrows'
+  - mysqli.begin-transaction.md: 'mysqli::begintransaction »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::autocommit'

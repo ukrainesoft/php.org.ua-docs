@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.solrexception.html: « SolrException
-  - class.solrclientexception.html: SolrClientException »
-  - index.html: PHP Manual
-  - class.solrexception.html: SolrException
+  - class.solrexception.md: « SolrException
+  - class.solrclientexception.md: SolrClientException »
+  - index.md: PHP Manual
+  - class.solrexception.md: SolrException
 title: 'SolrException::getInternalInfo'
 ---
 # SolrException::getInternalInfo

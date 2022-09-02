@@ -46,15 +46,15 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 `locale`
 
-Мовний стандарт, який використовується при форматуванні або синтаксичному аналізі або **`null`** для використання значення, вказаного в ini-налаштуванні [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale)
+Мовний стандарт, який використовується при форматуванні або синтаксичному аналізі або **`null`** для використання значення, вказаного в ini-налаштуванні [intl.defaultlocale](intl.configuration.md#ini.intl.default-locale)
 
 `dateType`
 
-Тип дати (**`none`** **`short`** **`medium`** **`long`** **`full`**). Одна з [констант IntlDateFormatter](class.intldateformatter.html#intl.intldateformatter-constants)
+Тип дати (**`none`** **`short`** **`medium`** **`long`** **`full`**). Одна з [констант IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants)
 
 `timeType`
 
-Тип часу (**`none`** **`short`** **`medium`** **`long`** **`full`**). Одна з [констант IntlDateFormatter](class.intldateformatter.html#intl.intldateformatter-constants)
+Тип часу (**`none`** **`short`** **`medium`** **`long`** **`full`**). Одна з [констант IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants)
 
 `timezone`
 
@@ -64,7 +64,7 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 `calendar`
 
-Календар для форматування чи аналізу. Значення за замовчуванням - **`null`**, що відповідає **`IntlDateFormatter::GREGORIAN`**. Можливо одна з [констант IntlDateFormatter](class.intldateformatter.html#intl.intldateformatter-constants.calendartypes) або об'єкт [IntlCalendar](class.intlcalendar.md). Будь-який переданий об'єкт [IntlCalendar](class.intlcalendar.md) буде клоновано; він не буде змінений [IntlDateFormatter](class.intldateformatter.md). Це визначить тип календаря, що використовується (григоріанський, ісламський, перський і т.д.) і, якщо в параметрі `timezone` вказано значення **`null`**, також визначить часовий пояс, що використовується.
+Календар для форматування чи аналізу. Значення за замовчуванням - **`null`**, що відповідає **`IntlDateFormatter::GREGORIAN`**. Можливо одна з [констант IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes) або об'єкт [IntlCalendar](class.intlcalendar.md). Будь-який переданий об'єкт [IntlCalendar](class.intlcalendar.md) буде клоновано; він не буде змінений [IntlDateFormatter](class.intldateformatter.md). Це визначить тип календаря, що використовується (григоріанський, ісламський, перський і т.д.) і, якщо в параметрі `timezone` вказано значення **`null`**, також визначить часовий пояс, що використовується.
 
 `pattern`
 

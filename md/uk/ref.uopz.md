@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uopz.constants.html: « Обумовлені константи
-  - function.uopz-add-function.html: uopzaddfunction »
-  - index.html: PHP Manual
-  - book.uopz.html: uopz
+  - uopz.constants.md: « Обумовлені константи
+  - function.uopz-add-function.md: uopzaddfunction »
+  - index.md: PHP Manual
+  - book.uopz.md: uopz
 title: Функції Uopz
 ---
 # Функції Uopz

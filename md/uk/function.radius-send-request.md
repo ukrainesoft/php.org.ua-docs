@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-salt-encrypt-attr.html: « radiussaltencryptattr
-  - function.radius-server-secret.html: radiusserversecret »
+  - function.radius-salt-encrypt-attr.md: « radiussaltencryptattr
+  - function.radius-server-secret.md: radiusserversecret »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiussendrequest

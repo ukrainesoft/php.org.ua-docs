@@ -1,9 +1,9 @@
 ---
 navigation:
-  - calendar.requirements.html: « Вимоги
-  - calendar.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - calendar.setup.html: Встановлення та налаштування
+  - calendar.requirements.md: « Вимоги
+  - calendar.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - calendar.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

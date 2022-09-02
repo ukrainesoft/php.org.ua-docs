@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.getwarnings.html: '« SqlStatementResult::getWarnings'
-  - mysql-xdevapi-sqlstatementresult.hasdata.html: 'SqlStatementResult::hasData »'
+  - mysql-xdevapi-sqlstatementresult.getwarnings.md: '« SqlStatementResult::getWarnings'
+  - mysql-xdevapi-sqlstatementresult.hasdata.md: 'SqlStatementResult::hasData »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::getWarningsCount'
 ---
 # SqlStatementResult::getWarningsCount

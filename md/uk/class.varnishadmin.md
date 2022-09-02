@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnish.example.log.html: « Простое использование VarnishLog
-  - varnishadmin.auth.html: 'VarnishAdmin::auth »'
-  - index.html: PHP Manual
-  - book.varnish.html: Varnish
+  - varnish.example.log.md: « Простое использование VarnishLog
+  - varnishadmin.auth.md: 'VarnishAdmin::auth »'
+  - index.md: PHP Manual
+  - book.varnish.md: Varnish
 title: Клас VarnishAdmin
 ---
 # Клас VarnishAdmin
@@ -52,22 +52,22 @@ public stop(): int
 
 ## Зміст
 
--   [VarnishAdmin::auth](varnishadmin.auth.html) — Аутентифікація на екземплярі varnish
--   [VarnishAdmin::ban](varnishadmin.ban.html) — Заборонити URL-адресу за допомогою виразу VCL
--   [VarnishAdmin::banUrl](varnishadmin.banurl.html) — Заборонити URL-адресу, використовуючи вираз VCL
--   [VarnishAdmin::clearPanic](varnishadmin.clearpanic.html) — Очистити критичні повідомлення екземпляра varnish
--   [VarnishAdmin::connect](varnishadmin.connect.html) — Підключення до інтерфейсу адміністрування екземпляра varnish
--   [VarnishAdmin::construct](varnishadmin.construct.html) — VarnishAdmin constructor
--   [VarnishAdmin::disconnect](varnishadmin.disconnect.html) — Відключення від інтерфейсу адміністрування екземпляра varnish
--   [VarnishAdmin::getPanic](varnishadmin.getpanic.html) — Отримати останнє критичне повідомлення на екземплярі varnish
--   [VarnishAdmin::getParams](varnishadmin.getparams.html) — Отримати параметри конфігурації поточного екземпляра varnish
--   [VarnishAdmin::isRunning](varnishadmin.isrunning.html) — Перевірити, чи виконується зараз підпорядкований процес varnish
--   [VarnishAdmin::setCompat](varnishadmin.setcompat.html) — Встановити параметр конфігурації класу compat
--   [VarnishAdmin::setHost](varnishadmin.sethost.html) — Встановити параметр конфігурації host класу
--   [VarnishAdmin::setIdent](varnishadmin.setident.html) — Встановити параметр конфігурації ident класу
--   [VarnishAdmin::setParam](varnishadmin.setparam.html) — Встановити параметр конфігурації на поточному екземплярі varnish
--   [VarnishAdmin::setPort](varnishadmin.setport.html) — Встановити параметр конфігурації класу port
--   [VarnishAdmin::setSecret](varnishadmin.setsecret.html) — Встановити параметр конфігурації secret класу
--   [VarnishAdmin::setTimeout](varnishadmin.settimeout.html) — Встановити параметр конфігурації timeout класу
--   [VarnishAdmin::start](varnishadmin.start.html) — Запустити робочий процес varnish
--   [VarnishAdmin::stop](varnishadmin.stop.html) — Зупинити робочий процес varnish
+-   [VarnishAdmin::auth](varnishadmin.auth.md) — Аутентифікація на екземплярі varnish
+-   [VarnishAdmin::ban](varnishadmin.ban.md) — Заборонити URL-адресу за допомогою виразу VCL
+-   [VarnishAdmin::banUrl](varnishadmin.banurl.md) — Заборонити URL-адресу, використовуючи вираз VCL
+-   [VarnishAdmin::clearPanic](varnishadmin.clearpanic.md) — Очистити критичні повідомлення екземпляра varnish
+-   [VarnishAdmin::connect](varnishadmin.connect.md) — Підключення до інтерфейсу адміністрування екземпляра varnish
+-   [VarnishAdmin::construct](varnishadmin.construct.md) — VarnishAdmin constructor
+-   [VarnishAdmin::disconnect](varnishadmin.disconnect.md) — Відключення від інтерфейсу адміністрування екземпляра varnish
+-   [VarnishAdmin::getPanic](varnishadmin.getpanic.md) — Отримати останнє критичне повідомлення на екземплярі varnish
+-   [VarnishAdmin::getParams](varnishadmin.getparams.md) — Отримати параметри конфігурації поточного екземпляра varnish
+-   [VarnishAdmin::isRunning](varnishadmin.isrunning.md) — Перевірити, чи виконується зараз підпорядкований процес varnish
+-   [VarnishAdmin::setCompat](varnishadmin.setcompat.md) — Встановити параметр конфігурації класу compat
+-   [VarnishAdmin::setHost](varnishadmin.sethost.md) — Встановити параметр конфігурації host класу
+-   [VarnishAdmin::setIdent](varnishadmin.setident.md) — Встановити параметр конфігурації ident класу
+-   [VarnishAdmin::setParam](varnishadmin.setparam.md) — Встановити параметр конфігурації на поточному екземплярі varnish
+-   [VarnishAdmin::setPort](varnishadmin.setport.md) — Встановити параметр конфігурації класу port
+-   [VarnishAdmin::setSecret](varnishadmin.setsecret.md) — Встановити параметр конфігурації secret класу
+-   [VarnishAdmin::setTimeout](varnishadmin.settimeout.md) — Встановити параметр конфігурації timeout класу
+-   [VarnishAdmin::start](varnishadmin.start.md) — Запустити робочий процес varnish
+-   [VarnishAdmin::stop](varnishadmin.stop.md) — Зупинити робочий процес varnish

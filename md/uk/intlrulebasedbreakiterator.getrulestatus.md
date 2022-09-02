@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlrulebasedbreakiterator.getrules.html: '« IntlRuleBasedBreakIterator::getRules'
-  - intlrulebasedbreakiterator.getrulestatusvec.html: 'IntlRuleBasedBreakIterator::getRuleStatusVec »'
-  - index.html: PHP Manual
-  - class.intlrulebasedbreakiterator.html: IntlRuleBasedBreakIterator
+  - intlrulebasedbreakiterator.getrules.md: '« IntlRuleBasedBreakIterator::getRules'
+  - intlrulebasedbreakiterator.getrulestatusvec.md: 'IntlRuleBasedBreakIterator::getRuleStatusVec »'
+  - index.md: PHP Manual
+  - class.intlrulebasedbreakiterator.md: IntlRuleBasedBreakIterator
 title: 'IntlRuleBasedBreakIterator::getRuleStatus'
 ---
 # IntlRuleBasedBreakIterator::getRuleStatus

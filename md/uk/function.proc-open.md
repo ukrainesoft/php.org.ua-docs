@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.proc-nice.html: « procnice
-  - function.proc-terminate.html: procterminate »
+  - function.proc-nice.md: « procnice
+  - function.proc-terminate.md: procterminate »
   - index.md: PHP Manual
   - ref.exec.md: Функции запуска программ
 title: procopen

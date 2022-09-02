@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.socket-set-blocking.html: « socketsetblocking
+  - function.socket-set-blocking.md: « socketsetblocking
   - function.syslog.md: syslog »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції

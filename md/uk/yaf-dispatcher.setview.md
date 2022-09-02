@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.setrequest.html: '« YafDispatcher::setRequest'
-  - yaf-dispatcher.throwexception.html: 'YafDispatcher::throwException »'
+  - yaf-dispatcher.setrequest.md: '« YafDispatcher::setRequest'
+  - yaf-dispatcher.throwexception.md: 'YafDispatcher::throwException »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::setView'
 ---
 # YafDispatcher::setView

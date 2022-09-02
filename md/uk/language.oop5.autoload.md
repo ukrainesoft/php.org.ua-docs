@@ -1,26 +1,26 @@
 ---
 navigation:
-  - language.oop5.constants.html: « Константи класів
-  - language.oop5.decon.html: Конструктори та деструктори »
-  - index.html: PHP Manual
-  - language.oop5.html: Класи та об'єкти
+  - language.oop5.constants.md: « Константи класів
+  - language.oop5.decon.md: Конструктори та деструктори »
+  - index.md: PHP Manual
+  - language.oop5.md: Класи та об'єкти
 title: Автоматичне завантаження класів
 ---
 ## Автоматичне завантаження класів
 
 Більшість розробників об'єктно-орієнтованих додатків використовують таку угоду іменування файлів, в якій кожен клас зберігається в окремо створеному для нього файлі. Одна з найбільших неприємностей - необхідність писати на початку кожного скрипта довгий список файлів, що підвантажуються (по одному для кожного класу).
 
-Функція [splautoloadregister()](function.spl-autoload-register.html) дозволяє зареєструвати необхідну кількість автозавантажувачів для автоматичного завантаження класів та інтерфейсів, якщо вони не визначені. Реєструючи автозавантажувачі, PHP отримує останній шанс для інтерпретатора завантажити клас, перш ніж він закінчить виконання скрипта з помилкою.
+Функція [splautoloadregister()](function.spl-autoload-register.md) дозволяє зареєструвати необхідну кількість автозавантажувачів для автоматичного завантаження класів та інтерфейсів, якщо вони не визначені. Реєструючи автозавантажувачі, PHP отримує останній шанс для інтерпретатора завантажити клас, перш ніж він закінчить виконання скрипта з помилкою.
 
 Будь-яка конструкція, подібна до класу може бути автоматично завантажена таким же чином, включаючи класи, інтерфейси, трейти та перерахування.
 
 **Застереження**
 
-До PHP 8.0.0 можна було використати [autoload()](function.autoload.html) для автозавантаження класів та інтерфейсів. Однак це менш гнучка альтернатива [splautoloadregister()](function.spl-autoload-register.html), функція [autoload()](function.autoload.html) оголошено застарілою в PHP 7.2.0 і видалено в PHP 8.0.0.
+До PHP 8.0.0 можна було використати [autoload()](function.autoload.md) для автозавантаження класів та інтерфейсів. Однак це менш гнучка альтернатива [splautoloadregister()](function.spl-autoload-register.md), функція [autoload()](function.autoload.md) оголошено застарілою в PHP 7.2.0 і видалено в PHP 8.0.0.
 
 > **Зауваження**
 > 
-> Функція [splautoloadregister()](function.spl-autoload-register.html) може бути викликана кілька разів, щоб зареєструвати кілька автозавантажувачів. Викид виключення з автозавантаження, однак, перерве цей процес і не дозволить запускати подальші функції автозавантаження. З цієї причини викидати винятки з функції автозавантаження не рекомендується.
+> Функція [splautoloadregister()](function.spl-autoload-register.md) може бути викликана кілька разів, щоб зареєструвати кілька автозавантажувачів. Викид виключення з автозавантаження, однак, перерве цей процес і не дозволить запускати подальші функції автозавантаження. З цієї причини викидати винятки з функції автозавантаження не рекомендується.
 
 **Приклад #1 Приклад автоматичного завантаження**
 
@@ -61,8 +61,8 @@ Fatal error: Interface 'ITest' not found in ...
 
 ### Дивіться також
 
--   [unserialize()](function.unserialize.html)
--   [unserializecallbackfunc](var.configuration.html#ini.unserialize-callback-func)
--   [splautoloadregister()](function.spl-autoload-register.html)
--   [splautoload()](function.spl-autoload.html)
--   [autoload()](function.autoload.html)
+-   [unserialize()](function.unserialize.md)
+-   [unserializecallbackfunc](var.configuration.md#ini.unserialize-callback-func)
+-   [splautoloadregister()](function.spl-autoload-register.md)
+-   [splautoload()](function.spl-autoload.md)
+-   [autoload()](function.autoload.md)

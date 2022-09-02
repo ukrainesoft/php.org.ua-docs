@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.set.html: '« Zookeeper::set'
-  - zookeeper.setdebuglevel.html: 'Zookeeper::setDebugLevel »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.set.md: '« Zookeeper::set'
+  - zookeeper.setdebuglevel.md: 'Zookeeper::setDebugLevel »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::setAcl'
 ---
 # Zookeeper::setAcl
@@ -92,5 +92,5 @@ array(1) {
 
 -   [Zookeeper::create()](zookeeper.create.md) - Створює синхронно вузол
 -   [Zookeeper::getAcl()](zookeeper.getacl.md) - Синхронно отримує ACL, пов'язаний із вузлом
--   [Разрешения ZooKeeper](class.zookeeper.html#zookeeper.class.constants.perms)
+-   [Разрешения ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 -   [ZookeeperException](class.zookeeperexception.md)

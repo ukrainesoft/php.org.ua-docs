@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.svm.html: « SVM
-  - svm.crossvalidate.html: 'SVM::crossvalidate »'
-  - index.html: PHP Manual
-  - class.svm.html: SVM
+  - class.svm.md: « SVM
+  - svm.crossvalidate.md: 'SVM::crossvalidate »'
+  - index.md: PHP Manual
+  - class.svm.md: SVM
 title: 'SVM::construct'
 ---
 # SVM::construct

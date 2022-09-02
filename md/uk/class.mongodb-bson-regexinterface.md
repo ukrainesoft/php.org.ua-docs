@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-objectidinterface.tostring.html: '« MongoDBBSONObjectIdInterface::toString'
-  - mongodb-bson-regexinterface.getflags.html: 'MongoDBBSONRegexInterface::getFlags »'
+  - mongodb-bson-objectidinterface.tostring.md: '« MongoDBBSONObjectIdInterface::toString'
+  - mongodb-bson-regexinterface.getflags.md: 'MongoDBBSONRegexInterface::getFlags »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONRegexInterface

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-blob-info.html: « fbirdblobinfo
-  - function.fbird-close.html: fbirdclose »
+  - function.fbird-blob-info.md: « fbirdblobinfo
+  - function.fbird-close.md: fbirdclose »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdblobopen

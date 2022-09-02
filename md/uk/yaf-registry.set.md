@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-registry.has.html: '« YafRegistry::has'
-  - class.yaf-request-abstract.html: YafRequestAbstract »
-  - index.html: PHP Manual
-  - class.yaf-registry.html: YafRegistry
+  - yaf-registry.has.md: '« YafRegistry::has'
+  - class.yaf-request-abstract.md: YafRequestAbstract »
+  - index.md: PHP Manual
+  - class.yaf-registry.md: YafRegistry
 title: 'YafRegistry::set'
 ---
 # YafRegistry::set

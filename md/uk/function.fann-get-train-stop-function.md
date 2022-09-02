@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-train-error-function.html: « fanngettrainerrorfunction
-  - function.fann-get-training-algorithm.html: fanngettrainingalgorithm »
+  - function.fann-get-train-error-function.md: « fanngettrainerrorfunction
+  - function.fann-get-training-algorithm.md: fanngettrainingalgorithm »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngettrainstopfunction
@@ -20,7 +20,7 @@ fann_get_train_stop_function(resource $ann): int
 
 Повертає функцію зупинки під час навчання.
 
-Опції зупинки описані далі в константах [функции остановки](fann.constants.html#constants.fann-stopfunc)
+Опції зупинки описані далі в константах [функции остановки](fann.constants.md#constants.fann-stopfunc)
 
 За замовчуванням функція зупинки: **`FANN_STOPFUNC_MSE`**
 
@@ -32,7 +32,7 @@ fann_get_train_stop_function(resource $ann): int
 
 ### Значення, що повертаються
 
-Константа [функции остановки](fann.constants.html#constants.fann-stopfunc) або **`false`** у разі виникнення помилки.
+Константа [функции остановки](fann.constants.md#constants.fann-stopfunc) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 

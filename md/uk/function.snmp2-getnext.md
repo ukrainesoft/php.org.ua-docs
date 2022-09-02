@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.snmp2-get.html: « snmp2get
-  - function.snmp2-real-walk.html: snmp2realwalk »
-  - index.html: PHP Manual
-  - ref.snmp.html: Функції SNMP
+  - function.snmp2-get.md: « snmp2get
+  - function.snmp2-real-walk.md: snmp2realwalk »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
 title: snmp2getnext
 ---
 # snmp2getnext
@@ -58,5 +58,5 @@ $nameOfSecondInterface = snmp2_get_next('localhost', 'public', 'IF-MIB::ifNa
 
 ### Дивіться також
 
--   [snmp2get()](function.snmp2-get.html) - Отримує об'єкт SNMP
--   [snmp2walk()](function.snmp2-walk.html) - Отримує всі об'єкти SNMP з агента
+-   [snmp2get()](function.snmp2-get.md) - Отримує об'єкт SNMP
+-   [snmp2walk()](function.snmp2-walk.md) - Отримує всі об'єкти SNMP з агента

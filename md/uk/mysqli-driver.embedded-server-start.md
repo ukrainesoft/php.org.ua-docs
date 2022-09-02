@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-driver.embedded-server-end.html: '« mysqlidriver::embeddedserverend'
-  - mysqli-driver.report-mode.html: 'mysqlidriver::$reportmode »'
+  - mysqli-driver.embedded-server-end.md: '« mysqlidriver::embeddedserverend'
+  - mysqli-driver.report-mode.md: 'mysqlidriver::$reportmode »'
   - index.md: PHP Manual
-  - class.mysqli-driver.html: mysqlidriver
+  - class.mysqli-driver.md: mysqlidriver
 title: 'mysqlidriver::embeddedserverstart'
 ---
 # mysqlidriver::embeddedserverstart

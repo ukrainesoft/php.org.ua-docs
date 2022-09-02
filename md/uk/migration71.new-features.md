@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration71.md: « Миграция с PHP 7.0.x на PHP 7.1.x
-  - migration71.new-functions.html: Нові функції »
+  - migration71.new-functions.md: Нові функції »
   - index.md: PHP Manual
   - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
 title: Нові можливості
@@ -181,7 +181,7 @@ foreach ($data as ["id" => $id, "name" => $name]) {
 
 ### Підтримка негативних зсувів для рядків
 
-Підтримка негативних зсувів для рядків додана в [функції для роботи з рядками](book.strings.md), а також у [индексацию строк](language.types.string.html#language.types.string.substr) за допомогою `[]` або `{}`. У цих випадках негативні усунення інтерпретуються як усунення щодо кінця рядка.
+Підтримка негативних зсувів для рядків додана в [функції для роботи з рядками](book.strings.md), а також у [индексацию строк](language.types.string.md#language.types.string.substr) за допомогою `[]` або `{}`. У цих випадках негативні усунення інтерпретуються як усунення щодо кінця рядка.
 
 ```php
 <?php
@@ -213,7 +213,7 @@ echo "Последний символ '$string' - '$string[-1]'.\n";
 
 ### Підтримка AEAD в ext/openssl
 
-Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення функцій [opensslencrypt()](function.openssl-encrypt.html) і [openssldecrypt()](function.openssl-decrypt.md) додатковими параметрами.
+Підтримка AEAD (режими GCM та CCM) була додана шляхом розширення функцій [opensslencrypt()](function.openssl-encrypt.md) і [openssldecrypt()](function.openssl-decrypt.md) додатковими параметрами.
 
 ### Перетворення callable в [Closure](class.closure.md) за допомогою [Closure::fromCallable()](closure.fromcallable.md)
 
@@ -271,4 +271,4 @@ SIGHUP
 
 ### Контекстні опції потоку
 
-Додано опцію контексту потоку [tcpnodelay](context.socket.html#context.socket.tcp_nodelay)
+Додано опцію контексту потоку [tcpnodelay](context.socket.md#context.socket.tcp_nodelay)

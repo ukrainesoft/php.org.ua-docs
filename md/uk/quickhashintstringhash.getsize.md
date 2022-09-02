@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashintstringhash.get.html: '« QuickHashIntStringHash::get'
-  - quickhashintstringhash.loadfromfile.html: 'QuickHashIntStringHash::loadFromFile »'
-  - index.html: PHP Manual
-  - class.quickhashintstringhash.html: QuickHashIntStringHash
+  - quickhashintstringhash.get.md: '« QuickHashIntStringHash::get'
+  - quickhashintstringhash.loadfromfile.md: 'QuickHashIntStringHash::loadFromFile »'
+  - index.md: PHP Manual
+  - class.quickhashintstringhash.md: QuickHashIntStringHash
 title: 'QuickHashIntStringHash::getSize'
 ---
 # QuickHashIntStringHash::getSize

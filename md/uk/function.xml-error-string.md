@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.xml.md: « Функции парсера XML
-  - function.xml-get-current-byte-index.html: xmlgetcurrentbyteindex »
+  - function.xml-get-current-byte-index.md: xmlgetcurrentbyteindex »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlerrorstring

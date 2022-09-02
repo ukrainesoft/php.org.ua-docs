@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ocilob.erase.html: '« OCILob::erase'
-  - ocilob.flush.html: 'OCILob::flush »'
-  - index.html: PHP Manual
-  - class.ocilob.html: OCILob
+  - ocilob.erase.md: '« OCILob::erase'
+  - ocilob.flush.md: 'OCILob::flush »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
 title: 'OCILob::export'
 ---
 # OCILob::export

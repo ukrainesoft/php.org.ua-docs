@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.debug-backtrace.html: « debugbacktrace
-  - function.error-clear-last.html: errorclearlast »
-  - index.html: PHP Manual
-  - ref.errorfunc.html: Функции обработки ошибок
+  - function.debug-backtrace.md: « debugbacktrace
+  - function.error-clear-last.md: errorclearlast »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
 title: debugprintbacktrace
 ---
 # debugprintbacktrace
@@ -18,7 +18,7 @@ debugprintbacktrace — Виводить стек викликів функці�
 debug_print_backtrace(int $options = 0, int $limit = 0): void
 ```
 
-**debugprintbacktrace()** виводить стек викликів функцій. Виводить дзвінки функцій, імена включених/потрібних файлів та іншу інформацію з функцій ([eval()](function.eval.html)
+**debugprintbacktrace()** виводить стек викликів функцій. Виводить дзвінки функцій, імена включених/потрібних файлів та іншу інформацію з функцій ([eval()](function.eval.md)
 
 ### Список параметрів
 
@@ -80,4 +80,4 @@ include 'include.php';
 
 ### Дивіться також
 
--   [debugbacktrace()](function.debug-backtrace.html) - Виводить стек викликів функцій у масив
+-   [debugbacktrace()](function.debug-backtrace.md) - Виводить стек викликів функцій у масив

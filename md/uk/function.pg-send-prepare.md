@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-send-execute.html: « pgsendexecute
-  - function.pg-send-query-params.html: пгsendqueryparams »
+  - function.pg-send-execute.md: « pgsendexecute
+  - function.pg-send-query-params.md: пгsendqueryparams »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгsendprepare
@@ -20,7 +20,7 @@ pg_send_prepare(PgSql\Connection $connection, string $statement_name, string $qu
 
 Надсилає запит на створення параметризованого SQL виразу і не чекає на його завершення.
 
-Це асинхронна версія функції [пгprepare()](function.pg-prepare.html): вона повертає **`true`**, якщо вдалося надіслати запит, **`false`** в іншому випадку. Після успішного надсилання, скористайтеся функцією [пгgetresult()](function.pg-get-result.html), щоб дізнатися, чи створився необхідний вираз SQL. Аргументи функції обробляються так само, як у [пгprepare()](function.pg-prepare.md). Функція не працюватиме з серверами PostgreSQL версій нижче 7.4.
+Це асинхронна версія функції [пгprepare()](function.pg-prepare.md): вона повертає **`true`**, якщо вдалося надіслати запит, **`false`** в іншому випадку. Після успішного надсилання, скористайтеся функцією [пгgetresult()](function.pg-get-result.md), щоб дізнатися, чи створився необхідний вираз SQL. Аргументи функції обробляються так само, як у [пгprepare()](function.pg-prepare.md). Функція не працюватиме з серверами PostgreSQL версій нижче 7.4.
 
 ### Список параметрів
 

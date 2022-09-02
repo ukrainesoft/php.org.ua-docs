@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-timestampinterface.getincrement.html: '« MongoDBBSONTimestampInterface::getIncrement'
-  - mongodb-bson-timestampinterface.tostring.html: 'MongoDBBSONTimestampInterface::toString »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-timestampinterface.html: MongoDBBSONTimestampInterface
+  - mongodb-bson-timestampinterface.getincrement.md: '« MongoDBBSONTimestampInterface::getIncrement'
+  - mongodb-bson-timestampinterface.tostring.md: 'MongoDBBSONTimestampInterface::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestampinterface.md: MongoDBBSONTimestampInterface
 title: 'MongoDBBSONTimestampInterface::getTimestamp'
 ---
 # MongoDBBSONTimestampInterface::getTimestamp

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.idn-to-ascii.html: « idnтоascii
-  - class.intlchar.html: IntlChar »
-  - index.html: PHP Manual
-  - ref.intl.idn.html: Функції IDN
+  - function.idn-to-ascii.md: « idnтоascii
+  - class.intlchar.md: IntlChar »
+  - index.md: PHP Manual
+  - ref.intl.idn.md: Функції IDN
 title: idnтоutf8
 ---
 # idnтоutf8
@@ -71,4 +71,4 @@ täst.de
 
 ### Дивіться також
 
--   [idnтоascii()](function.idn-to-ascii.html) - Перетворити доменне ім'я на формат IDNA ASCII
+-   [idnтоascii()](function.idn-to-ascii.md) - Перетворити доменне ім'я на формат IDNA ASCII

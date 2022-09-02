@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageheight.html: '« Imagick::getImageHeight'
-  - imagick.getimageindex.html: 'Imagick::getImageIndex »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageheight.md: '« Imagick::getImageHeight'
+  - imagick.getimageindex.md: 'Imagick::getImageIndex »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageHistogram'
 ---
 # Imagick::getImageHistogram

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-ord.html: « mbord
-  - function.mb-parse-str.html: мбparsestr »
+  - function.mb-ord.md: « mbord
+  - function.mb-parse-str.md: мбparsestr »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбoutputhandler

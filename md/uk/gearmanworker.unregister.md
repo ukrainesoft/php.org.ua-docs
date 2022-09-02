@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.timeout.html: '« GearmanWorker::timeout'
-  - gearmanworker.unregisterall.html: 'GearmanWorker::unregisterAll »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.timeout.md: '« GearmanWorker::timeout'
+  - gearmanworker.unregisterall.md: 'GearmanWorker::unregisterAll »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::unregister'
 ---
 # GearmanWorker::unregister
@@ -32,5 +32,5 @@ public GearmanWorker::unregister(string $function_name): bool
 
 ### Дивіться також
 
--   [GearmanWorker::register()](gearmanworker.register.html) - Реєстрація функції на сервері завдань
--   [GearmanWorker::unregisterAll()](gearmanworker.unregisterall.html) - Видалення реєстрації всіх імен функцій на серверах завдань
+-   [GearmanWorker::register()](gearmanworker.register.md) - Реєстрація функції на сервері завдань
+-   [GearmanWorker::unregisterAll()](gearmanworker.unregisterall.md) - Видалення реєстрації всіх імен функцій на серверах завдань

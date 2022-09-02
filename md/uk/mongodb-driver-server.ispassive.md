@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.ishidden.html: '« MongoDBDriverServer::isHidden'
-  - mongodb-driver-server.isprimary.html: 'MongoDBDriverServer::isPrimary »'
+  - mongodb-driver-server.ishidden.md: '« MongoDBDriverServer::isHidden'
+  - mongodb-driver-server.isprimary.md: 'MongoDBDriverServer::isPrimary »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::isPassive'
 ---
 # MongoDBDriverServer::isPassive

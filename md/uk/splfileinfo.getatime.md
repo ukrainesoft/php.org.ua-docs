@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileinfo.construct.html: '« SplFileInfo::construct'
-  - splfileinfo.getbasename.html: 'SplFileInfo::getBasename »'
-  - index.html: PHP Manual
-  - class.splfileinfo.html: SplFileInfo
+  - splfileinfo.construct.md: '« SplFileInfo::construct'
+  - splfileinfo.getbasename.md: 'SplFileInfo::getBasename »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::getATime'
 ---
 # SplFileInfo::getATime

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.getwarningcount.html: '« SqlStatementResult::getWarningsCount'
-  - mysql-xdevapi-sqlstatementresult.nextresult.html: 'SqlStatementResult::nextResult »'
+  - mysql-xdevapi-sqlstatementresult.getwarningcount.md: '« SqlStatementResult::getWarningsCount'
+  - mysql-xdevapi-sqlstatementresult.nextresult.md: 'SqlStatementResult::nextResult »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::hasData'
 ---
 # SqlStatementResult::hasData

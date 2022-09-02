@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-setoption.html: « odbcsetoption
-  - function.odbc-statistics.html: odbcstatistics »
+  - function.odbc-setoption.md: « odbcsetoption
+  - function.odbc-statistics.md: odbcstatistics »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcspecialcolumns

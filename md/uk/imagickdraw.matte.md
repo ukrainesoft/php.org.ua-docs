@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.line.html: '« ImagickDraw::line'
-  - imagickdraw.pathclose.html: 'ImagickDraw::pathClose »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.line.md: '« ImagickDraw::line'
+  - imagickdraw.pathclose.md: 'ImagickDraw::pathClose »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::matte'
 ---
 # ImagickDraw::matte
@@ -36,7 +36,7 @@ public ImagickDraw::matte(float $x, float $y, int $paintMethod): bool
 
 `paintMethod`
 
-Одна з констант [PAINT](imagick.constants.html#imagick.constants.paint) `imagick::PAINT_*`
+Одна з констант [PAINT](imagick.constants.md#imagick.constants.paint) `imagick::PAINT_*`
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-group.settitle.html: '« UIControlsGroup::setTitle'
-  - ui-controls-box.append.html: 'ОЙControlsBox::append »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-controls-group.settitle.md: '« UIControlsGroup::setTitle'
+  - ui-controls-box.append.md: 'ОЙControlsBox::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Блок керування (розміщення)
 ---
 # Блок керування (розміщення)

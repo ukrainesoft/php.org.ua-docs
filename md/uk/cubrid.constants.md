@@ -10,7 +10,7 @@ title: Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-Наступні константи можна використовувати під час створення SQL-запросов. Для цього їх можна задати у функціях [cubridprepare()](function.cubrid-prepare.html) і [cubridexecute()](function.cubrid-execute.md)
+Наступні константи можна використовувати під час створення SQL-запросов. Для цього їх можна задати у функціях [cubridprepare()](function.cubrid-prepare.md) і [cubridexecute()](function.cubrid-execute.md)
 
 **Прапори виконання SQL-запиту CUBRID**
 
@@ -20,7 +20,7 @@ title: Обумовлені константи
 | CUBRIDASYNC | Запуск запиту асинхронному режимі. |
 | CUBRIDEXECQUERYALL | Запуск запиту у синхронному режимі. Цей прапор необхідно встановлювати, коли виконуються множинні SQL-запити. |
 
-Наступні константи використовуються при отриманні результатів. Їх можна задавати у функціях [cubridfetch()](function.cubrid-fetch.html) і [cubridfetcharray()](function.cubrid-fetch-array.md)
+Наступні константи використовуються при отриманні результатів. Їх можна задавати у функціях [cubridfetch()](function.cubrid-fetch.md) і [cubridfetcharray()](function.cubrid-fetch-array.md)
 
 **Прапори вилучення CUBRID**
 
@@ -30,7 +30,7 @@ title: Обумовлені константи
 | CUBRIDASSOC | Отримати результат як асоціативного масиву. |
 | CUBRIDBOTH | Отримати результат у вигляді індексованого та асоціативного масивів (за замовчуванням). |
 | CUBRIDOBJECT | Отримати результат як об'єкта. |
-| CUBRIDЛОБ | Константа CUBRIDLOB може бути використана під час роботи з LOB об'єктами. Її можна задати у функціях [cubridfetch()](function.cubrid-fetch.html) [cubridfetchrow()](function.cubrid-fetch-row.html) [cubridfetcharray()](function.cubrid-fetch-array.html) [cubridfetchassoc()](function.cubrid-fetch-assoc.html) і [cubridfetchobject()](function.cubrid-fetch-object.md) |
+| CUBRIDЛОБ | Константа CUBRIDLOB може бути використана під час роботи з LOB об'єктами. Її можна задати у функціях [cubridfetch()](function.cubrid-fetch.md) [cubridfetchrow()](function.cubrid-fetch-row.md) [cubridfetcharray()](function.cubrid-fetch-array.md) [cubridfetchassoc()](function.cubrid-fetch-assoc.md) і [cubridfetchobject()](function.cubrid-fetch-object.md) |
 
 Наступні константи використовуються при позиціонуванні курсору в результуючому наборі. Вони передаються та повертаються функцією [cubridmovecursor()](function.cubrid-move-cursor.md)
 
@@ -45,7 +45,7 @@ title: Обумовлені константи
 | CUBRIDАЛЕMOREDATA | Повертається функцією [cubridmovecursor()](function.cubrid-move-cursor.md) у разі виникнення помилки. Прапор видалено з версії 8.4.1. |
 | CUBRIDCURSORERROR | Повертається функцією [cubridmovecursor()](function.cubrid-move-cursor.md) у разі виникнення помилки. Прапор видалено з версії 8.4.1. |
 
-Наступні константи використовуються для визначення режиму автоматичного підтвердження транзакцій. Встановлюються у функції [cubridsetautocommit()](function.cubrid-set-autocommit.html) або повертаються [cubridgetautocommit()](function.cubrid-get-autocommit.md)
+Наступні константи використовуються для визначення режиму автоматичного підтвердження транзакцій. Встановлюються у функції [cubridsetautocommit()](function.cubrid-set-autocommit.md) або повертаються [cubridgetautocommit()](function.cubrid-get-autocommit.md)
 
 **Прапори автопідтвердження транзакцій CUBRID**
 
@@ -63,7 +63,7 @@ title: Обумовлені константи
 | CUBRIDPARAMISOLATIONLEVEL | Рівень ізоляції для з'єднання. |
 | CUBRIDPARAMLOCKTIMEOUT | Час очікування транзакцій. |
 
-Наступні константи використовуються для визначення рівня ізоляції для транзакцій. Задаються в [cubridsetдбparameter()](function.cubrid-set-db-parameter.html) і повертаються з [cubridgetдбparameter()](function.cubrid-get-db-parameter.md)
+Наступні константи використовуються для визначення рівня ізоляції для транзакцій. Задаються в [cubridsetдбparameter()](function.cubrid-set-db-parameter.md) і повертаються з [cubridgetдбparameter()](function.cubrid-get-db-parameter.md)
 
 **Прапори рівня ізоляції транзакції CUBRID**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-blob-open.html: « ibaseblobopen
-  - function.ibase-commit-ret.html: ibasecommitret »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-blob-open.md: « ibaseblobopen
+  - function.ibase-commit-ret.md: ibasecommitret »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseclose
 ---
 # ibaseclose
@@ -18,13 +18,13 @@ ibaseclose — Закриває з'єднання з базою даних Inter
 ibase_close(resource $connection_id = null): bool
 ```
 
-Закриває посилання на базу даних InterBase, пов'язану з ідентифікатором з'єднання, отриманим за допомогою [ibaseconnect()](function.ibase-connect.html). Стандартна транзакція для посилання зафіксована, інші транзакції скасовані.
+Закриває посилання на базу даних InterBase, пов'язану з ідентифікатором з'єднання, отриманим за допомогою [ibaseconnect()](function.ibase-connect.md). Стандартна транзакція для посилання зафіксована, інші транзакції скасовані.
 
 ### Список параметрів
 
 `connection_id`
 
-Ідентифікатор посилання InterBase, отриманий за допомогою [ibaseconnect()](function.ibase-connect.html). Якщо не вказано, передбачається останнє відкрите посилання.
+Ідентифікатор посилання InterBase, отриманий за допомогою [ibaseconnect()](function.ibase-connect.md). Якщо не вказано, передбачається останнє відкрите посилання.
 
 ### Значення, що повертаються
 
@@ -32,5 +32,5 @@ ibase_close(resource $connection_id = null): bool
 
 ### Дивіться також
 
--   [ibaseconnect()](function.ibase-connect.html) - Відкриває з'єднання з базою даних
--   [ibasepconnect()](function.ibase-pconnect.html) - Відкриває постійне з'єднання з базою даних InterBase
+-   [ibaseconnect()](function.ibase-connect.md) - Відкриває з'єднання з базою даних
+-   [ibasepconnect()](function.ibase-pconnect.md) - Відкриває постійне з'єднання з базою даних InterBase

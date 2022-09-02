@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-set-timeout.html: « socketsettimeout
-  - book.rrd.html: RRD »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.socket-set-timeout.md: « socketsettimeout
+  - book.rrd.md: RRD »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: syslog
 ---
 # syslog
@@ -81,10 +81,10 @@ closelog();
 
 > **Зауваження**
 > 
-> Використання значень з `LOG_LOCAL0` по `LOG_LOCAL7` для параметра `facility` у функції [openlog()](function.openlog.html) недоступно у Windows.
+> Використання значень з `LOG_LOCAL0` по `LOG_LOCAL7` для параметра `facility` у функції [openlog()](function.openlog.md) недоступно у Windows.
 
 ### Дивіться також
 
--   [openlog()](function.openlog.html) - Відкриває підключення до системного журналу
--   [closelog()](function.closelog.html) - Закриває з'єднання із системним журналом
--   [syslog.filter](errorfunc.configuration.html#ini.syslog.filter) Налаштування INI (починаючи з PHP 7.3)
+-   [openlog()](function.openlog.md) - Відкриває підключення до системного журналу
+-   [closelog()](function.closelog.md) - Закриває з'єднання із системним журналом
+-   [syslog.filter](errorfunc.configuration.md#ini.syslog.filter) Налаштування INI (починаючи з PHP 7.3)

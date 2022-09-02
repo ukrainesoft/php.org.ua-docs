@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.pathlinetohorizontalrelative.html: '« ImagickDraw::pathLineToHorizontalRelative'
-  - imagickdraw.pathlinetoverticalabsolute.html: 'ImagickDraw::pathLineToVerticalAbsolute »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.pathlinetohorizontalrelative.md: '« ImagickDraw::pathLineToHorizontalRelative'
+  - imagickdraw.pathlinetoverticalabsolute.md: 'ImagickDraw::pathLineToVerticalAbsolute »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathLineToRelative'
 ---
 # ImagickDraw::pathLineToRelative

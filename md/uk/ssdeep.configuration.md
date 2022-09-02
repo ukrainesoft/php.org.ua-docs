@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ssdeep.installation.html: « Установка
-  - ssdeep.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - ssdeep.setup.html: Встановлення та налаштування
+  - ssdeep.installation.md: « Установка
+  - ssdeep.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - ssdeep.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

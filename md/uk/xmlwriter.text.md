@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.startpi.html: '« XMLWriter::startPi'
-  - xmlwriter.writeattribute.html: 'XMLWriter::writeAttribute »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.startpi.md: '« XMLWriter::startPi'
+  - xmlwriter.writeattribute.md: 'XMLWriter::writeAttribute »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::text'
 ---
 # XMLWriter::text
@@ -34,11 +34,11 @@ xmlwriter_text(XMLWriter $writer, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `content`
 
-Зміст тексту. Символи `<` `>` `&` і `"` записуються як посилання на сутність (тобто . `&lt;` `&gt;` `&amp;` і `&quot;`відповідно). Всі інші символи у тому числі `'` записуються буквально. Щоб записувати спеціальні символи XML буквально або записувати буквальні посилання на сутності, необхідно використовувати [xmlwriterwriteraw()](xmlwriter.writeraw.html)
+Зміст тексту. Символи `<` `>` `&` і `"` записуються як посилання на сутність (тобто . `&lt;` `&gt;` `&amp;` і `&quot;`відповідно). Всі інші символи у тому числі `'` записуються буквально. Щоб записувати спеціальні символи XML буквально або записувати буквальні посилання на сутності, необхідно використовувати [xmlwriterwriteraw()](xmlwriter.writeraw.md)
 
 ### Значення, що повертаються
 
@@ -48,4 +48,4 @@ xmlwriter_text(XMLWriter $writer, string $content): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-context-set-option.html: « streamcontextsetoption
-  - function.stream-copy-to-stream.html: streamcopyтоstream »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-context-set-option.md: « streamcontextsetoption
+  - function.stream-copy-to-stream.md: streamcopyтоstream »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamcontextsetparams
 ---
 # streamcontextsetparams
@@ -34,7 +34,7 @@ stream_context_set_params(resource $context, array $params): bool
 
 | Параметр | Назначение |
 | --- | --- |
-| `notification` | Назва певної користувачем callback-функції, яка буде викликана, коли потоком надсилається повідомлення. Підтримується тільки для обертання потоків [http://](wrappers.http.html) і [ftp://](wrappers.ftp.md) |
+| `notification` | Назва певної користувачем callback-функції, яка буде викликана, коли потоком надсилається повідомлення. Підтримується тільки для обертання потоків [http://](wrappers.http.md) і [ftp://](wrappers.ftp.md) |
 | `options` | Масив [опций и параметров контекста](context.md) |
 
 ### Значення, що повертаються

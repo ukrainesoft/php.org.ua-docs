@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagechanneldepth.html: '« Imagick::getImageChannelDepth'
-  - imagick.getimagechanneldistortions.html: 'Imagick::getImageChannelDistortions »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagechanneldepth.md: '« Imagick::getImageChannelDepth'
+  - imagick.getimagechanneldistortions.md: 'Imagick::getImageChannelDistortions »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageChannelDistortion'
 ---
 # Imagick::getImageChannelDistortion
@@ -28,11 +28,11 @@ public Imagick::getImageChannelDistortion(Imagick $reference, int $channel, int 
 
 `channel`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 `metric`
 
-Одна з [констант типа METRIC](imagick.constants.html#imagick.constants.metric)
+Одна з [констант типа METRIC](imagick.constants.md#imagick.constants.metric)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagerectangle.html: « imagerectangle
-  - function.imagerotate.html: imagerotate »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagerectangle.md: « imagerectangle
+  - function.imagerotate.md: imagerotate »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageresolution
 ---
 # imageresolution
@@ -26,7 +26,7 @@ imageresolution(GdImage $image, ?int $resolution_x = null, ?int $resolution_y = 
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `resolution_x`
 

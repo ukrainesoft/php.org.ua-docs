@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dba.requirements.html: « Вимоги
-  - dba.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - dba.setup.html: Встановлення та налаштування
+  - dba.requirements.md: « Вимоги
+  - dba.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - dba.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення
@@ -97,7 +97,7 @@ title: Встановлення
 
 > **Зауваження**
 > 
-> Бібліотеку qdbm можна завантажити за посиланням [» http://fallabs.com/qdbm/index.html](http://fallabs.com/qdbm/index.html)
+> Бібліотеку qdbm можна завантажити за посиланням [» http://fallabs.com/qdbm/index.html](http://fallabs.com/qdbm/index.md)
 
 `tcadb`
 

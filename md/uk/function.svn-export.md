@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-diff.html: « svndiff
-  - function.svn-fs-abort-txn.html: svnфсaborttxn »
+  - function.svn-diff.md: « svndiff
+  - function.svn-fs-abort-txn.md: svnфсaborttxn »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnexport

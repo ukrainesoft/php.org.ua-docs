@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlstalledpattern.html: « tradercdlstalledpattern
-  - function.trader-cdltakuri.html: tradercdltakuri »
+  - function.trader-cdlstalledpattern.md: « tradercdlstalledpattern
+  - function.trader-cdltakuri.md: tradercdltakuri »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlsticksandwich

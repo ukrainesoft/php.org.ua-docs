@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-detect-order.html: « mbdetectorder
-  - function.mb-encode-numericentity.html: мбencodenumericentity »
+  - function.mb-detect-order.md: « mbdetectorder
+  - function.mb-encode-numericentity.md: мбencodenumericentity »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбencodemimeheader

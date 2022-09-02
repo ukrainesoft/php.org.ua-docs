@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-binomial.html: « statscdfbinomial
-  - function.stats-cdf-chisquare.html: statscdfchisquare »
+  - function.stats-cdf-binomial.md: « statscdfbinomial
+  - function.stats-cdf-chisquare.md: statscdfchisquare »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdfcauchy

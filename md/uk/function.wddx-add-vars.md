@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.wddx.md: « Функції WDDX
-  - function.wddx-deserialize.html: wddxdeserialize »
+  - function.wddx-deserialize.md: wddxdeserialize »
   - index.md: PHP Manual
   - ref.wddx.md: Функції WDDX
 title: wddxaddvars

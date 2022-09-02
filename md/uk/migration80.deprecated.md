@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration80.incompatible.md: '« Зміни, що ламають зворотну сумісність'
-  - migration80.other-changes.html: Другие изменения »
+  - migration80.other-changes.md: Другие изменения »
   - index.md: PHP Manual
   - migration80.md: Миграция с PHP 7.4.x на PHP 8.0.x
 title: 'Функціональність, оголошена застарілою в PHP 8.0.x'
@@ -28,25 +28,25 @@ title: 'Функціональність, оголошена застаріло�
     ?>
     ```
     
--   Виклик [getdefinedfunctions()](function.get-defined-functions.html) з явно заданим значенням **`false`** в `exclude_disabled` застарів і більше не має сенсу . [getdefinedfunctions()](function.get-defined-functions.md) ніколи не повертатиме відключені функції.
+-   Виклик [getdefinedfunctions()](function.get-defined-functions.md) з явно заданим значенням **`false`** в `exclude_disabled` застарів і більше не має сенсу . [getdefinedfunctions()](function.get-defined-functions.md) ніколи не повертатиме відключені функції.
     
 
 ### Enchant
 
--   [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.html) і [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.md) оголошені застарілими, оскільки вони недоступні ні libenchant < 1.5 ні libenchant-2.
+-   [enchantbrokersetdictpath()](function.enchant-broker-set-dict-path.md) і [enchantbrokergetdictpath()](function.enchant-broker-get-dict-path.md) оголошені застарілими, оскільки вони недоступні ні libenchant < 1.5 ні libenchant-2.
     
--   [enchantdictaddтоpersonal()](function.enchant-dict-add-to-personal.html) оголошено застарілою; використовуйте замість неї [enchantdictadd()](function.enchant-dict-add.md)
+-   [enchantdictaddтоpersonal()](function.enchant-dict-add-to-personal.md) оголошено застарілою; використовуйте замість неї [enchantdictadd()](function.enchant-dict-add.md)
     
--   [enchantdictісінsession()](function.enchant-dict-is-in-session.html) оголошено застарілою; використовуйте замість неї [enchantdictісadded()](function.enchant-dict-is-added.md)
+-   [enchantdictісінsession()](function.enchant-dict-is-in-session.md) оголошено застарілою; використовуйте замість неї [enchantdictісadded()](function.enchant-dict-is-added.md)
     
--   [enchantbrokerfree()](function.enchant-broker-free.html) і [enchantbrokerfreedict()](function.enchant-broker-free-dict.md) оголошені застарілими; замість неї застосовуйте до об'єкта функцію unset.
+-   [enchantbrokerfree()](function.enchant-broker-free.md) і [enchantbrokerfreedict()](function.enchant-broker-free-dict.md) оголошені застарілими; замість неї застосовуйте до об'єкта функцію unset.
     
 -   Константа **`ENCHANT_MYSPELL`** і **`ENCHANT_ISPELL`** оголошено застарілими.
     
 
 ### LibXML
 
-[libxmldisableentityloader()](function.libxml-disable-entity-loader.html) оголошено застарілою. Оскільки тепер використовується libxml 2.9.0, в якому завантаження зовнішніх об'єктів за замовчуванням вимкнуто, тому використання цієї функції більше не потрібне для захисту від XXE-атак, якщо не використовується (досі вразлива) **`LIBXML_NOENT`**. У цьому випадку рекомендується провести рефакторинг коду за допомогою [libxmlsetexternalentityloader()](function.libxml-set-external-entity-loader.md), щоб придушити завантаження зовнішніх сутностей.
+[libxmldisableentityloader()](function.libxml-disable-entity-loader.md) оголошено застарілою. Оскільки тепер використовується libxml 2.9.0, в якому завантаження зовнішніх об'єктів за замовчуванням вимкнуто, тому використання цієї функції більше не потрібне для захисту від XXE-атак, якщо не використовується (досі вразлива) **`LIBXML_NOENT`**. У цьому випадку рекомендується провести рефакторинг коду за допомогою [libxmlsetexternalentityloader()](function.libxml-set-external-entity-loader.md), щоб придушити завантаження зовнішніх сутностей.
 
 ### PGSQL / PDO PGSQL
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rparser.push.html: '« ParleRParser::push'
-  - parle-rparser.right.html: 'ParleRParser::right »'
+  - parle-rparser.push.md: '« ParleRParser::push'
+  - parle-rparser.right.md: 'ParleRParser::right »'
   - index.md: PHP Manual
-  - class.parle-rparser.html: ParleRParser
+  - class.parle-rparser.md: ParleRParser
 title: 'ParleRParser::reset'
 ---
 # ParleRParser::reset

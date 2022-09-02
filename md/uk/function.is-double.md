@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-countable.html: « iscountable
-  - function.is-float.html: ісfloat »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-countable.md: « iscountable
+  - function.is-float.md: ісfloat »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісdouble
 ---
 # ісdouble

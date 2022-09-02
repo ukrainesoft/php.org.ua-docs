@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashstringinthash.add.html: '« QuickHashStringIntHash::add'
-  - quickhashstringinthash.delete.html: 'QuickHashStringIntHash::delete »'
-  - index.html: PHP Manual
-  - class.quickhashstringinthash.html: QuickHashStringIntHash
+  - quickhashstringinthash.add.md: '« QuickHashStringIntHash::add'
+  - quickhashstringinthash.delete.md: 'QuickHashStringIntHash::delete »'
+  - index.md: PHP Manual
+  - class.quickhashstringinthash.md: QuickHashStringIntHash
 title: 'QuickHashStringIntHash::construct'
 ---
 # QuickHashStringIntHash::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-setflag-full.html: « imapsetflagfull
-  - function.imap-status.html: imapstatus »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-setflag-full.md: « imapsetflagfull
+  - function.imap-status.md: imapstatus »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapsort
 ---
 # imapsort
@@ -24,7 +24,7 @@ imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reve
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `criteria`
 
@@ -51,7 +51,7 @@ imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reve
 
 `search_criteria`
 
-Рядок з пошуковим критерієм у форматі IMAP2. Докладніше дивіться в описі функції [imapsearch()](function.imap-search.html)
+Рядок з пошуковим критерієм у форматі IMAP2. Докладніше дивіться в описі функції [imapsearch()](function.imap-search.md)
 
 `charset`
 
@@ -65,6 +65,6 @@ imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reve
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `reverse` тепер є логічним типом (Bool) замість цілого числа (int). |
 |  | `search_criteria` і `charset` тепер є nullable. |

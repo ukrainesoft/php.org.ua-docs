@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-absolute-deviation.html: « statsabsolutedeviation
-  - function.stats-cdf-binomial.html: statscdfbinomial »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-absolute-deviation.md: « statsabsolutedeviation
+  - function.stats-cdf-binomial.md: statscdfbinomial »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statscdfbeta
 ---
 # statscdfbeta

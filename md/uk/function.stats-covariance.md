@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-cdf-weibull.html: « statscdfweibull
-  - function.stats-dens-beta.html: statsdensbeta »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-cdf-weibull.md: « statscdfweibull
+  - function.stats-dens-beta.md: statsdensbeta »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statscovariance
 ---
 # statscovariance

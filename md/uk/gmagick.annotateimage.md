@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.addnoiseimage.html: '« Gmagick::addnoiseimage'
-  - gmagick.blurimage.html: 'Gmagick::blurimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.addnoiseimage.md: '« Gmagick::addnoiseimage'
+  - gmagick.blurimage.md: 'Gmagick::blurimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::annotateimage'
 ---
 # Gmagick::annotateimage

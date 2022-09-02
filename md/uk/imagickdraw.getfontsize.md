@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.getfontfamily.html: '« ImagickDraw::getFontFamily'
-  - imagickdraw.getfontstretch.html: 'ImagickDraw::getFontStretch »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.getfontfamily.md: '« ImagickDraw::getFontFamily'
+  - imagickdraw.getfontstretch.md: 'ImagickDraw::getFontStretch »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getFontSize'
 ---
 # ImagickDraw::getFontSize
@@ -26,4 +26,4 @@ public ImagickDraw::getFontSize(): float
 
 ### Значення, що повертаються
 
-Повертає розмір шрифту, пов'язаний із поточним об'єктом [ImagickDraw](class.imagickdraw.html)
+Повертає розмір шрифту, пов'язаний із поточним об'єктом [ImagickDraw](class.imagickdraw.md)

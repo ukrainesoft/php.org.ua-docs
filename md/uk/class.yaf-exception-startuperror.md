@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-exception-typeerror.html: « YafExceptionTypeError
-  - class.yaf-exception-dispatchfailed.html: YafExceptionDispatchFailed »
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - class.yaf-exception-typeerror.md: « YafExceptionTypeError
+  - class.yaf-exception-dispatchfailed.md: YafExceptionDispatchFailed »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafExceptionStartupError
 ---
 # Клас YafExceptionStartupError

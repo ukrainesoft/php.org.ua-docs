@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqpoll.count.html: '« ZMQPoll::count'
-  - zmqpoll.poll.html: 'ZMQPoll::poll »'
-  - index.html: PHP Manual
-  - class.zmqpoll.html: ZMQPoll
+  - zmqpoll.count.md: '« ZMQPoll::count'
+  - zmqpoll.poll.md: 'ZMQPoll::poll »'
+  - index.md: PHP Manual
+  - class.zmqpoll.md: ZMQPoll
 title: 'ZMQPoll::getLastErrors'
 ---
 # ZMQPoll::getLastErrors

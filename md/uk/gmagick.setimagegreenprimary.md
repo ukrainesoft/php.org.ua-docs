@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setimagegamma.html: '« Gmagick::setimagegamma'
-  - gmagick.setimageindex.html: 'Gmagick::setimageindex »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setimagegamma.md: '« Gmagick::setimagegamma'
+  - gmagick.setimageindex.md: 'Gmagick::setimageindex »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagegreenprimary'
 ---
 # Gmagick::setimagegreenprimary

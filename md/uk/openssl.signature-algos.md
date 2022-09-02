@@ -1,9 +1,9 @@
 ---
 navigation:
-  - openssl.cms.flags.html: « Прапори/Константи CMS
-  - openssl.ciphers.html: Алгоритми шифрування »
-  - index.html: PHP Manual
-  - openssl.constants.html: Обумовлені константи
+  - openssl.cms.flags.md: « Прапори/Константи CMS
+  - openssl.ciphers.md: Алгоритми шифрування »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
 title: Алгоритми підпису
 ---
 ## Алгоритми підпису
@@ -12,7 +12,7 @@ title: Алгоритми підпису
 
 **`OPENSSL_ALGO_SHA1`** (int)
 
-Використовується як алгоритм за замовчуванням для функцій [opensslsign()](function.openssl-sign.html) і [opensslverify()](function.openssl-verify.html)
+Використовується як алгоритм за замовчуванням для функцій [opensslsign()](function.openssl-sign.md) і [opensslverify()](function.openssl-verify.md)
 
 **`OPENSSL_ALGO_SHA224`** (int)
 

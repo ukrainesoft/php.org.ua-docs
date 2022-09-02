@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.error.html: '« SeasLog::error'
-  - seaslog.getbasepath.html: 'SeasLog::getBasePath »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.error.md: '« SeasLog::error'
+  - seaslog.getbasepath.md: 'SeasLog::getBasePath »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::flushBuffer'
 ---
 # SeasLog::flushBuffer
@@ -18,11 +18,11 @@ SeasLog::flushBuffer — Очищає буфер логів, робить дам
 public static SeasLog::flushBuffer(): bool
 ```
 
-Очищує буфер логів за допомогою [seaslog.appender](seaslog.configuration.html#ini.seaslog.appender): робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp.
+Очищує буфер логів за допомогою [seaslog.appender](seaslog.configuration.md#ini.seaslog.appender): робить дамп у файл програми або відправляє на віддалений API за допомогою tcp/udp.
 
 > **Зауваження**
 > 
-> Дивіться також: [seaslog.appenderretry](seaslog.configuration.html#ini.seaslog.appender-retry) [seaslog.remotehost](seaslog.configuration.html#ini.seaslog.remote-host) [seaslog.remoteport](seaslog.configuration.html#ini.seaslog.remote-port)
+> Дивіться також: [seaslog.appenderretry](seaslog.configuration.md#ini.seaslog.appender-retry) [seaslog.remotehost](seaslog.configuration.md#ini.seaslog.remote-host) [seaslog.remoteport](seaslog.configuration.md#ini.seaslog.remote-port)
 
 ### Список параметрів
 
@@ -69,8 +69,8 @@ array(0) {
 
 ### Дивіться також
 
--   [seaslog.usebuffer](seaslog.configuration.html#ini.seaslog.use-buffer)
--   [seaslog.buffersize](seaslog.configuration.html#ini.seaslog.buffer-size)
--   [seaslog.bufferdisabledінcli](seaslog.configuration.html#ini.seaslog.buffer-disabled-in-cli)
+-   [seaslog.usebuffer](seaslog.configuration.md#ini.seaslog.use-buffer)
+-   [seaslog.buffersize](seaslog.configuration.md#ini.seaslog.buffer-size)
+-   [seaslog.bufferdisabledінcli](seaslog.configuration.md#ini.seaslog.buffer-disabled-in-cli)
 -   [SeasLog::getBufferEnabled()](seaslog.getbufferenabled.md) - Визначає, чи включено буфер
 -   [SeasLog::getBuffer()](seaslog.getbuffer.md) - Отримує буфер логів у пам'яті у вигляді масиву

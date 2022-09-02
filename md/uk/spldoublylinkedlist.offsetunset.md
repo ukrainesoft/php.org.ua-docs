@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.offsetset.html: '« SplDoublyLinkedList::offsetSet'
-  - spldoublylinkedlist.pop.html: 'SplDoublyLinkedList::pop »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.offsetset.md: '« SplDoublyLinkedList::offsetSet'
+  - spldoublylinkedlist.pop.md: 'SplDoublyLinkedList::pop »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::offsetUnset'
 ---
 # SplDoublyLinkedList::offsetUnset
@@ -32,4 +32,4 @@ public SplDoublyLinkedList::offsetUnset(int $index): void
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html), коли `index` виходить за межі, або коли `index` може бути представлений як цілого числа.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md), коли `index` виходить за межі, або коли `index` може бути представлений як цілого числа.

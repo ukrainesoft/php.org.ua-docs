@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ob-get-contents.html: « obgetcontents
-  - function.ob-get-length.html: проgetlength »
-  - index.html: PHP Manual
-  - ref.outcontrol.html: Функції контролю виведення
+  - function.ob-get-contents.md: « obgetcontents
+  - function.ob-get-length.md: проgetlength »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
 title: проgetflush
 ---
 # проgetflush
@@ -20,9 +20,9 @@ ob_get_flush(): string|false
 
 **проgetflush()** скидає буфер виведення, повертаючи його вміст у вигляді рядка та відключає буферизацію виведення.
 
-Буфер виводу має запускатися функцією [проstart()](function.ob-start.html) з прапором [PHPOUTPUTHANDLERFLUSHABLE](outcontrol.constants.html#constant.php-output-handler-flushable). Інакше не спрацює **проgetflush()**
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапором [PHPOUTPUTHANDLERFLUSHABLE](outcontrol.constants.md#constant.php-output-handler-flushable). Інакше не спрацює **проgetflush()**
 
-> **Зауваження**: Ця функція аналогічна [проendflush()](function.ob-end-flush.html) крім того, що ця функція також повертає буфер у вигляді рядка.
+> **Зауваження**: Ця функція аналогічна [проendflush()](function.ob-end-flush.md) крім того, що ця функція також повертає буфер у вигляді рядка.
 
 ### Список параметрів
 
@@ -63,6 +63,6 @@ Array
 
 ### Дивіться також
 
--   [проendclean()](function.ob-end-clean.html) - Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
--   [проendflush()](function.ob-end-flush.html) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
--   [проlisthandlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
+-   [проendclean()](function.ob-end-clean.md) - Очистити (стерти) буфер виводу та вимкнути буферизацію виводу
+-   [проendflush()](function.ob-end-flush.md) - Скинути (відправити) буфер виведення та вимкнути буферизацію виводу
+-   [проlisthandlers()](function.ob-list-handlers.md) - Список всіх використовуваних обробників виводу

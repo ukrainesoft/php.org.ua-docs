@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-auth.html: « sodiumcryptoauth
-  - function.sodium-crypto-box-keypair.html: sodiumcryptoboxkeypair »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-auth.md: « sodiumcryptoauth
+  - function.sodium-crypto-box-keypair.md: sodiumcryptoboxkeypair »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptoboxkeypairfromsecretkeyandpublickey
 ---
 # sodiumcryptoboxkeypairfromsecretkeyandpublickey

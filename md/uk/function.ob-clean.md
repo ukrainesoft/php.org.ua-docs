@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.flush.md: « flush
-  - function.ob-end-clean.html: проendclean »
+  - function.ob-end-clean.md: проendclean »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
 title: проclean
@@ -22,7 +22,7 @@ ob_clean(): bool
 
 Ця функція не знищує буфер виводу, як це робить [проendclean()](function.ob-end-clean.md)
 
-Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапором [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.html#constant.php-output-handler-cleanable). Інакше **проclean()** не спрацює.
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапором [PHPOUTPUTHANDLERCLEANABLE](outcontrol.constants.md#constant.php-output-handler-cleanable). Інакше **проclean()** не спрацює.
 
 ### Список параметрів
 

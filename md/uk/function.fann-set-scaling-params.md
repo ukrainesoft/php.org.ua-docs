@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-sarprop-weight-decay-shift.html: « fannsetsarpropweightdecayshift
-  - function.fann-set-train-error-function.html: fannsettrainerrorfunction »
+  - function.fann-set-sarprop-weight-decay-shift.md: « fannsetsarpropweightdecayshift
+  - function.fann-set-train-error-function.md: fannsettrainerrorfunction »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetscalingparams

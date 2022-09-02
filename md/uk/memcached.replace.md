@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.quit.html: '« Memcached::quit'
-  - memcached.replacebykey.html: 'Memcached::replaceByKey »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.quit.md: '« Memcached::quit'
+  - memcached.replacebykey.md: 'Memcached::replaceByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::replace'
 ---
 # Memcached::replace

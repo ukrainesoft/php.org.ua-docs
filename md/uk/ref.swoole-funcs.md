@@ -1,7 +1,7 @@
 ---
 navigation:
   - swoole.constants.md: « Обумовлені константи
-  - function.swoole-async-dns-lookup.html: swooleasyncdnslookup »
+  - function.swoole-async-dns-lookup.md: swooleasyncdnslookup »
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Функції Swoole

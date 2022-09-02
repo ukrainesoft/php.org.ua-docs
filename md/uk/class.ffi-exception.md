@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getstructfieldtype.html: '« FFICType::getStructFieldType'
-  - class.ffi-parserexception.html: FFIParserException »
-  - index.html: PHP Manual
-  - book.ffi.html: FFI
+  - ffi-ctype.getstructfieldtype.md: '« FFICType::getStructFieldType'
+  - class.ffi-parserexception.md: FFIParserException »
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
 title: Винятки FFI
 ---
 # Винятки FFI

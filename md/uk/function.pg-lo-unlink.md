@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-lo-truncate.html: « pgлоtruncate
-  - function.pg-lo-write.html: пглоwrite »
+  - function.pg-lo-truncate.md: « pgлоtruncate
+  - function.pg-lo-write.md: пглоwrite »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пглоunlink
@@ -30,7 +30,7 @@ pg_lo_unlink(PgSql\Connection $connection, int $oid): bool
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   - jsonserializable.jsonserialize.md: '« JsonSerializable::jsonSerialize'
-  - function.json-decode.html: jsondecode »
+  - function.json-decode.md: jsondecode »
   - index.md: PHP Manual
   - book.json.md: JSON
 title: Функції JSON

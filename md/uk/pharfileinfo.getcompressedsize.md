@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pharfileinfo.getcrc32.html: '« PharFileInfo::getCRC32'
-  - pharfileinfo.getcontent.html: 'PharFileInfo::getContent »'
-  - index.html: PHP Manual
-  - class.pharfileinfo.html: PharFileInfo
+  - pharfileinfo.getcrc32.md: '« PharFileInfo::getCRC32'
+  - pharfileinfo.getcontent.md: 'PharFileInfo::getContent »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::getCompressedSize'
 ---
 # PharFileInfo::getCompressedSize

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oci8.dtrace.html: « OCI8 та динамічне трасування DTrace
-  - ref.oci8.html: OCI8 Функции »
-  - index.html: PHP Manual
-  - book.oci8.html: OCI8
+  - oci8.dtrace.md: « OCI8 та динамічне трасування DTrace
+  - ref.oci8.md: OCI8 Функции »
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
 title: 'Типи даних, що підтримуються'
 ---
 # Типи даних, що підтримуються

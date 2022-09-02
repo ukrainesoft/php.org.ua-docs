@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-socket-accept.html: « streamsocketaccept
-  - function.stream-socket-enable-crypto.html: streamsocketenablecrypto »
+  - function.stream-socket-accept.md: « streamsocketaccept
+  - function.stream-socket-enable-crypto.md: streamsocketenablecrypto »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamsocketclient
@@ -40,7 +40,7 @@ stream_socket_client(    string $address,    int &$error_code = null, �
 
 `timeout`
 
-Число секунд, протягом яких має відбутися час очікування системного виклику `connect()`. За замовчуванням використовується значення [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout)
+Число секунд, протягом яких має відбутися час очікування системного виклику `connect()`. За замовчуванням використовується значення [defaultsockettimeout](filesystem.configuration.md#ini.default-socket-timeout)
 
 > **Зауваження**: Цей параметр застосовується, лише якщо спроба асинхронного з'єднання не відбувається.
 

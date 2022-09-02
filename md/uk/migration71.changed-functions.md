@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration71.deprecated.md: '« Функціонал, оголошений застарілим у PHP 7.1.x'
-  - migration71.other-changes.html: Прочие изменения »
+  - migration71.other-changes.md: Прочие изменения »
   - index.md: PHP Manual
   - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
 title: Змінені функції
@@ -38,8 +38,8 @@ title: Змінені функції
 ### PostgreSQL
 
 -   [пгlastnotice()](function.pg-last-notice.md) тепер приймає необов'язковий параметр, який задає операцію. Використовується одна з наступних констант: **`PGSQL_NOTICE_LAST`** **`PGSQL_NOTICE_ALL`** або **`PGSQL_NOTICE_CLEAR`**
--   [пгfetchall()](function.pg-fetch-all.html) тепер приймає другий, необов'язковий параметр для завдання типу результату (аналогічно третьому параметру [пгfetcharray()](function.pg-fetch-array.md)
--   [пгselect()](function.pg-select.html) тепер приймає четвертий, необов'язковий параметр для завдання типу результату (аналогічно третьому параметру [пгfetcharray()](function.pg-fetch-array.md)
+-   [пгfetchall()](function.pg-fetch-all.md) тепер приймає другий, необов'язковий параметр для завдання типу результату (аналогічно третьому параметру [пгfetcharray()](function.pg-fetch-array.md)
+-   [пгselect()](function.pg-select.md) тепер приймає четвертий, необов'язковий параметр для завдання типу результату (аналогічно третьому параметру [пгfetcharray()](function.pg-fetch-array.md)
 
 ### Сесії
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-sqlite.connection.html: « PDOSQLITE DSN
+  - ref.pdo-sqlite.connection.md: « PDOSQLITE DSN
   - pdo.sqlitecreatecollation.md: 'PDO::sqliteCreateCollation »'
   - index.md: PHP Manual
-  - ref.pdo-sqlite.html: SQLite (PDO)
+  - ref.pdo-sqlite.md: SQLite (PDO)
 title: 'PDO::sqliteCreateAggregate'
 ---
 # PDO::sqliteCreateAggregate

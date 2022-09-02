@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-generichash-init.html: « sodiumcryptogenerichashinit
-  - function.sodium-crypto-generichash-update.html: sodiumcryptogenerichashupdate »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-generichash-init.md: « sodiumcryptogenerichashinit
+  - function.sodium-crypto-generichash-update.md: sodiumcryptogenerichashupdate »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptogenerichashkeygen
 ---
 # sodiumcryptogenerichashkeygen

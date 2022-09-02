@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableinsert.values.html: '« TableInsert::values'
-  - mysql-xdevapi-tableselect.bind.html: 'TableSelect::bind »'
+  - mysql-xdevapi-tableinsert.values.md: '« TableInsert::values'
+  - mysql-xdevapi-tableselect.bind.md: 'TableSelect::bind »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас TableSelect
 ---
 # Клас TableSelect

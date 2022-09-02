@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-exp.html: « traderexp
-  - function.trader-get-compat.html: tradergetcompat »
+  - function.trader-exp.md: « traderexp
+  - function.trader-get-compat.md: tradergetcompat »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderfloor

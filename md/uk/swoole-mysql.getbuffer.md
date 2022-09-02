@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-mysql.destruct.html: '« SwooleMySQL::destruct'
-  - swoole-mysql.on.html: 'SwooleMySQL::on »'
+  - swoole-mysql.destruct.md: '« SwooleMySQL::destruct'
+  - swoole-mysql.on.md: 'SwooleMySQL::on »'
   - index.md: PHP Manual
-  - class.swoole-mysql.html: SwooleMySQL
+  - class.swoole-mysql.md: SwooleMySQL
 title: 'SwooleMySQL::getBuffer'
 ---
 # SwooleMySQL::getBuffer

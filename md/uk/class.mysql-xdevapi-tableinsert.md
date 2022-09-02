@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tabledelete.where.html: '« TableDelete::where'
-  - mysql-xdevapi-tableinsert.construct.html: 'TableInsert::construct »'
+  - mysql-xdevapi-tabledelete.where.md: '« TableDelete::where'
+  - mysql-xdevapi-tableinsert.construct.md: 'TableInsert::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас TableInsert
 ---
 # Клас TableInsert

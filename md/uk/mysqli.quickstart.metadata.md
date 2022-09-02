@@ -1,16 +1,16 @@
 ---
 navigation:
-  - mysqli.quickstart.transactions.html: « API поддержка транзакций
-  - mysqli.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - mysqli.quickstart.html: Краткое руководство
+  - mysqli.quickstart.transactions.md: « API поддержка транзакций
+  - mysqli.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - mysqli.quickstart.md: Краткое руководство
 title: Метадані
 ---
 ## Метадані
 
 Результуючий набір MySQL містить метадані. Ці дані описують стовпці результуючої таблиці. Усі відомості, які передає MySQL, доступні через `mysqli` інтерфейс. Модуль не змінює отримані дані або ці зміни незначні. Відмінності між версіями MySQL також можна не брати до уваги.
 
-Метадані доступні через інтерфейс [mysqliresult](class.mysqli-result.html)
+Метадані доступні через інтерфейс [mysqliresult](class.mysqli-result.md)
 
 **Приклад #1 Доступ до метаданих результуючої таблиці**
 
@@ -93,7 +93,7 @@ array(2) {
 
 *Підготовлювані запити*
 
-Метадані результуючих наборів, одержаних в результаті виконання підготовлених запитів, можна отримати аналогічним чином. Відповідний дескриптор [mysqliresult](class.mysqli-result.html) можна отримати функцією [mysqlistmt::resultmetadata()](mysqli-stmt.result-metadata.html)
+Метадані результуючих наборів, одержаних в результаті виконання підготовлених запитів, можна отримати аналогічним чином. Відповідний дескриптор [mysqliresult](class.mysqli-result.md) можна отримати функцією [mysqlistmt::resultmetadata()](mysqli-stmt.result-metadata.md)
 
 **Приклад #2 Метадані підготовлених запитів**
 
@@ -111,5 +111,5 @@ var_dump($result->fetch_fields());
 
 *Дивіться також*
 
--   [mysqli::query()](mysqli.query.html)
--   [mysqliresult::fetchfields()](mysqli-result.fetch-fields.html)
+-   [mysqli::query()](mysqli.query.md)
+-   [mysqliresult::fetchfields()](mysqli-result.fetch-fields.md)

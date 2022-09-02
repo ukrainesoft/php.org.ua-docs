@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.property-exists.html: « propertyexists
-  - book.ctype.html: Ctype »
-  - index.html: PHP Manual
-  - ref.classobj.html: Функції роботи з класами та об'єктами
+  - function.property-exists.md: « propertyexists
+  - book.ctype.md: Ctype »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
 title: traitexists
 ---
 # traitexists

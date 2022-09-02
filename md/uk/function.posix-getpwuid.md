@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-getpwnam.html: « posixgetpwnam
-  - function.posix-getrlimit.html: posixgetrlimit »
+  - function.posix-getpwnam.md: « posixgetpwnam
+  - function.posix-getrlimit.md: posixgetrlimit »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixgetpwuid

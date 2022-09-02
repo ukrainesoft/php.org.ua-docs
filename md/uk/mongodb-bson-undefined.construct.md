@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-undefined.html: « MongoDBBSONUndefined
-  - mongodb-bson-undefined.jsonserialize.html: 'MongoDBBSONUndefined::jsonSerialize »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-undefined.html: MongoDBBSONUndefined
+  - class.mongodb-bson-undefined.md: « MongoDBBSONUndefined
+  - mongodb-bson-undefined.jsonserialize.md: 'MongoDBBSONUndefined::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-undefined.md: MongoDBBSONUndefined
 title: 'MongoDBBSONUndefined::construct'
 ---
 # MongoDBBSONUndefined::construct
@@ -18,7 +18,7 @@ MongoDBBSONUndefined::construct — Створює новий Undefined (не в
 final private MongoDB\BSON\Undefined::__construct()
 ```
 
-Об'єкти [MongoDBBSONUndefined](class.mongodb-bson-undefined.html) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
+Об'єкти [MongoDBBSONUndefined](class.mongodb-bson-undefined.md) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 

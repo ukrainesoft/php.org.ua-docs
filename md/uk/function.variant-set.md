@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.variant-set-type.html: « variantsettype
-  - function.variant-sub.html: variantsub »
-  - index.html: PHP Manual
-  - ref.com.html: Функции COM
+  - function.variant-set-type.md: « variantsettype
+  - function.variant-sub.md: variantsub »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
 title: variantset
 ---
 # variantset

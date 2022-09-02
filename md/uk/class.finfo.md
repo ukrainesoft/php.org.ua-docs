@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mime-content-type.html: « mimecontenttype
-  - finfo.buffer.html: 'finfo::buffer »'
-  - index.html: PHP Manual
-  - book.fileinfo.html: FileInfo
+  - function.mime-content-type.md: « mimecontenttype
+  - finfo.buffer.md: 'finfo::buffer »'
+  - index.md: PHP Manual
+  - book.fileinfo.md: FileInfo
 title: Клас finfo
 ---
 # Клас finfo
@@ -40,7 +40,7 @@ public set_flags(int $flags): bool
 
 ## Зміст
 
--   [finfo::buffer](finfo.buffer.html) - Псевдонім finfobuffer()
--   [finfo::construct](finfo.construct.html) - Псевдонім finfoopen
--   [finfo::file](finfo.file.html) - Псевдонім finfofile()
--   [finfo::setflags](finfo.set-flags.html) - Псевдонім finfosetflags()
+-   [finfo::buffer](finfo.buffer.md) - Псевдонім finfobuffer()
+-   [finfo::construct](finfo.construct.md) - Псевдонім finfoopen
+-   [finfo::file](finfo.file.md) - Псевдонім finfofile()
+-   [finfo::setflags](finfo.set-flags.md) - Псевдонім finfosetflags()

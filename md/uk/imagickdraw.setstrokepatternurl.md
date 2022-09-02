@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setstrokeopacity.html: '« ImagickDraw::setStrokeOpacity'
-  - imagickdraw.setstrokewidth.html: 'ImagickDraw::setStrokeWidth »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setstrokeopacity.md: '« ImagickDraw::setStrokeOpacity'
+  - imagickdraw.setstrokewidth.md: 'ImagickDraw::setStrokeWidth »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setStrokePatternURL'
 ---
 # ImagickDraw::setStrokePatternURL

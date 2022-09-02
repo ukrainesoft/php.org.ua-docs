@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-commandexception.getresultdocument.html: '« MongoDBDriverExceptionCommandException::getResultDocument'
-  - class.mongodb-driver-exception-connectiontimeoutexception.html: MongoDBDriverExceptionConnectionTimeoutException »
+  - mongodb-driver-commandexception.getresultdocument.md: '« MongoDBDriverExceptionCommandException::getResultDocument'
+  - class.mongodb-driver-exception-connectiontimeoutexception.md: MongoDBDriverExceptionConnectionTimeoutException »
   - index.md: PHP Manual
   - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionConnectionException

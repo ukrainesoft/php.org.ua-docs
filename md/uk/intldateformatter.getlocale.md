@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.geterrormessage.html: '« IntlDateFormatter::getErrorMessage'
-  - intldateformatter.getpattern.html: 'IntlDateFormatter::getPattern »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.geterrormessage.md: '« IntlDateFormatter::getErrorMessage'
+  - intldateformatter.getpattern.md: 'IntlDateFormatter::getPattern »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getLocale'
 ---
 # IntlDateFormatter::getLocale
@@ -111,4 +111,4 @@ echo 'Второй отформатированный вывод ' . $fmt-
 
 ### Дивіться також
 
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

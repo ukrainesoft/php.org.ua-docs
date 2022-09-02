@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pcre.constants.html: « Обумовлені константи
-  - pcre.pattern.html: Регулярні вирази PCRE
-  - index.html: PHP Manual
-  - book.pcre.html: PCRE
+  - pcre.constants.md: « Обумовлені константи
+  - pcre.pattern.md: Регулярні вирази PCRE
+  - index.md: PHP Manual
+  - book.pcre.md: PCRE
 title: Приклади
 ---
 # Приклади

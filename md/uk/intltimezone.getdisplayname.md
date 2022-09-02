@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.getcanonicalid.html: '« IntlTimeZone::getCanonicalID'
-  - intltimezone.getdstsavings.html: 'IntlTimeZone::getDSTSavings »'
-  - index.html: PHP Manual
-  - class.intltimezone.html: IntlTimeZone
+  - intltimezone.getcanonicalid.md: '« IntlTimeZone::getCanonicalID'
+  - intltimezone.getdstsavings.md: 'IntlTimeZone::getDSTSavings »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getDisplayName'
 ---
 # IntlTimeZone::getDisplayName

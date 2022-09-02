@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-event.html: « SwooleEvent
-  - swoole-event.defer.html: 'SwooleEvent::defer »'
+  - class.swoole-event.md: « SwooleEvent
+  - swoole-event.defer.md: 'SwooleEvent::defer »'
   - index.md: PHP Manual
-  - class.swoole-event.html: SwooleEvent
+  - class.swoole-event.md: SwooleEvent
 title: 'SwooleEvent::add'
 ---
 # SwooleEvent::add

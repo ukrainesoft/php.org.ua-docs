@@ -1,7 +1,7 @@
 ---
 navigation:
   - wkhtmltox.configuration.md: « Налаштування під час виконання
-  - wkhtmltox-pdf-converter.add.html: 'wkhtmltoxPDFConverter::add »'
+  - wkhtmltox-pdf-converter.add.md: 'wkhtmltoxPDFConverter::add »'
   - index.md: PHP Manual
   - book.wkhtmltox.md: wkhtmltox
 title: Клас wkhtmltoxPDFConverter

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-show-xy.html: «psshowзі
-  - function.ps-show.html: псshow »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-show-xy.md: «psshowзі
+  - function.ps-show.md: псshow »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псshow2
 ---
 # псshow2
@@ -24,7 +24,7 @@ ps_show2(resource $psdoc, string $text, int $len): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `text`
 

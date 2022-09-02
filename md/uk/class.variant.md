@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dotnet.construct.html: '« dotnet::construct'
-  - variant.construct.html: 'variant::construct »'
-  - index.html: PHP Manual
-  - book.com.html: COM
+  - dotnet.construct.md: '« dotnet::construct'
+  - variant.construct.md: 'variant::construct »'
+  - index.md: PHP Manual
+  - book.com.md: COM
 title: Клас variant
 ---
 # Клас variant

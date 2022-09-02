@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-dict-quick-check.html: « enchantdictquickcheck
-  - function.enchant-dict-suggest.html: enchantdictsuggest »
+  - function.enchant-dict-quick-check.md: « enchantdictquickcheck
+  - function.enchant-dict-suggest.md: enchantdictsuggest »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantdictstorereplacement
@@ -24,7 +24,7 @@ enchant_dict_store_replacement(EnchantDictionary $dictionary, string $misspelled
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `misspelled`
 

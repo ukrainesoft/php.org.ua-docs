@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagedashedline.html: « imagedashedline
-  - function.imageellipse.html: imageellipse »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagedashedline.md: « imagedashedline
+  - function.imageellipse.md: imageellipse »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagedestroy
 ---
 # imagedestroy
@@ -28,7 +28,7 @@ imagedestroy(GdImage $image): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 ### Значення, що повертаються
 

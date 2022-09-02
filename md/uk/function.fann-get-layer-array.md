@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-errstr.html: « fanngeterrstr
-  - function.fann-get-learning-momentum.html: fanngetlearningmomentum »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-errstr.md: « fanngeterrstr
+  - function.fann-get-learning-momentum.md: fanngetlearningmomentum »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetlayerarray
 ---
 # fanngetlayerarray

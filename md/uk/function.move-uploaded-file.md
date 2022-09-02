@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mkdir.html: « mkdir
-  - function.parse-ini-file.html: parseinifile »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.mkdir.md: « mkdir
+  - function.parse-ini-file.md: parseinifile »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: moveuploadedfile
 ---
 # moveuploadedfile
@@ -63,7 +63,7 @@ foreach ($_FILES["pictures"]["error"] as $key => $error) {
 
 > **Зауваження**
 > 
-> Функція **moveuploadedfile()** бере до уваги [openbasedir](ini.core.html#ini.open-basedir). Тим не менш, обмеження накладаються лише на параметр `to`, щоб дозволити переміщення завантажених файлів, оскільки параметр `from` може конфліктувати з цими обмеженнями . **moveuploadedfile()** гарантує безпеку цієї операції, працюючи лише з тими файлами, завантаженими через PHP.
+> Функція **moveuploadedfile()** бере до уваги [openbasedir](ini.core.md#ini.open-basedir). Тим не менш, обмеження накладаються лише на параметр `to`, щоб дозволити переміщення завантажених файлів, оскільки параметр `from` може конфліктувати з цими обмеженнями . **moveuploadedfile()** гарантує безпеку цієї операції, працюючи лише з тими файлами, завантаженими через PHP.
 
 **Увага**
 
@@ -71,6 +71,6 @@ foreach ($_FILES["pictures"]["error"] as $key => $error) {
 
 ### Дивіться також
 
--   [ісuploadedfile()](function.is-uploaded-file.html) - Визначає, чи файл завантажений за допомогою HTTP POST
--   [rename()](function.rename.html) - Перейменовує файл або директорію
--   Простий приклад використання цієї функції можна знайти у розділі "[Загрузка файлов на сервер](features.file-upload.html)"
+-   [ісuploadedfile()](function.is-uploaded-file.md) - Визначає, чи файл завантажений за допомогою HTTP POST
+-   [rename()](function.rename.md) - Перейменовує файл або директорію
+-   Простий приклад використання цієї функції можна знайти у розділі "[Загрузка файлов на сервер](features.file-upload.md)"

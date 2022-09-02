@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.tcpwrap.html: « Функції TCP
-  - book.varnish.html: Varnish »
-  - index.html: PHP Manual
-  - ref.tcpwrap.html: Функції TCP
+  - ref.tcpwrap.md: « Функції TCP
+  - book.varnish.md: Varnish »
+  - index.md: PHP Manual
+  - ref.tcpwrap.md: Функції TCP
 title: tcpwrapcheck
 ---
 # tcpwrapcheck

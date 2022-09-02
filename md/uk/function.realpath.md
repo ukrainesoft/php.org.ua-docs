@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.realpath-cache-size.html: « realpathcachesize
+  - function.realpath-cache-size.md: « realpathcachesize
   - function.rename.md: rename »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tabledelete.construct.html: '« TableDelete::construct'
-  - mysql-xdevapi-tabledelete.limit.html: 'TableDelete::limit »'
+  - mysql-xdevapi-tabledelete.construct.md: '« TableDelete::construct'
+  - mysql-xdevapi-tabledelete.limit.md: 'TableDelete::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
 title: 'TableDelete::execute'
 ---
 # TableDelete::execute

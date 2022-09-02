@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-pmf-hypergeometric.html: « statsdenspmfhypergeometric
-  - function.stats-dens-pmf-poisson.html: statsdenspmfpoisson »
+  - function.stats-dens-pmf-hypergeometric.md: « statsdenspmfhypergeometric
+  - function.stats-dens-pmf-poisson.md: statsdenspmfpoisson »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdenspmfnegativebinomial

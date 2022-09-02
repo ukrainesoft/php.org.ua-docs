@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getsortfields.html: '« SolrQuery::getSortFields'
-  - solrquery.getstats.html: 'SolrQuery::getStats »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getsortfields.md: '« SolrQuery::getSortFields'
+  - solrquery.getstats.md: 'SolrQuery::getStats »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getStart'
 ---
 # SolrQuery::getStart

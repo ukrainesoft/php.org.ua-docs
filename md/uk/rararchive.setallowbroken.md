@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rararchive.open.html: '« RarArchive::open'
-  - rararchive.tostring.html: 'RarArchive::toString »'
-  - index.html: PHP Manual
-  - class.rararchive.html: RarArchive
+  - rararchive.open.md: '« RarArchive::open'
+  - rararchive.tostring.md: 'RarArchive::toString »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
 title: 'RarArchive::setAllowBroken'
 ---
 # RarArchive::setAllowBroken
@@ -32,7 +32,7 @@ rar_allow_broken_set(RarArchive $rarfile, bool $allow_broken): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
 
 `allow_broken`
 
@@ -85,4 +85,4 @@ var_dump(count($a));
 
 ### Дивіться також
 
--   [RarArchive::isBroken()](rararchive.isbroken.html) - Перевіряє, чи не зламано архів (не завершено)
+-   [RarArchive::isBroken()](rararchive.isbroken.md) - Перевіряє, чи не зламано архів (не завершено)

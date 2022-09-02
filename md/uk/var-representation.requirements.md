@@ -1,9 +1,9 @@
 ---
 navigation:
-  - var-representation.setup.html: « Встановлення та налаштування
-  - var-representation.installation.html: Установка »
+  - var-representation.setup.md: « Встановлення та налаштування
+  - var-representation.installation.md: Установка »
   - index.md: PHP Manual
-  - var-representation.setup.html: Встановлення та налаштування
+  - var-representation.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

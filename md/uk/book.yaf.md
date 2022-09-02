@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.yaml-parse.html: « yamlparse
+  - function.yaml-parse.md: « yamlparse
   - intro.yaf.md: Введение »
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.pipe.html: '« SwooleClient::pipe'
-  - swoole-client.resume.html: 'SwooleClient::resume »'
+  - swoole-client.pipe.md: '« SwooleClient::pipe'
+  - swoole-client.resume.md: 'SwooleClient::resume »'
   - index.md: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::recv'
 ---
 # SwooleClient::recv

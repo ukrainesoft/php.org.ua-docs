@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-check.html: « UIControlsCheck
-  - ui-controls-check.gettext.html: 'ОЙControlsCheck::getText »'
+  - class.ui-controls-check.md: « UIControlsCheck
+  - ui-controls-check.gettext.md: 'ОЙControlsCheck::getText »'
   - index.md: PHP Manual
-  - class.ui-controls-check.html: ОЙControlsCheck
+  - class.ui-controls-check.md: ОЙControlsCheck
 title: 'ОЙControlsCheck::construct'
 ---
 # ОЙControlsCheck::construct

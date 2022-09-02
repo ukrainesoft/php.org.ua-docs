@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yar-concurrent-client.html: « YarConcurrentClient
-  - yar-concurrent-client.loop.html: 'YarConcurrentClient::loop »'
+  - class.yar-concurrent-client.md: « YarConcurrentClient
+  - yar-concurrent-client.loop.md: 'YarConcurrentClient::loop »'
   - index.md: PHP Manual
-  - class.yar-concurrent-client.html: YarConcurrentClient
+  - class.yar-concurrent-client.md: YarConcurrentClient
 title: 'YarConcurrentClient::call'
 ---
 # YarConcurrentClient::call

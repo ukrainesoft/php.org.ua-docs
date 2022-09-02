@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-field-scale.html: « db2fieldscale
-  - function.db2-field-width.html: db2fieldwidth »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-field-scale.md: « db2fieldscale
+  - function.db2-field-width.md: db2fieldwidth »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2fieldtype
 ---
 # db2fieldtype
@@ -36,9 +36,9 @@ db2_field_type(resource $stmt, mixed $column): string
 
 ### Дивіться також
 
--   [db2fielddisplaysize()](function.db2-field-display-size.html) - Повертає максимальну кількість байтів, необхідну для відображення стовпця
--   [db2fieldname()](function.db2-field-name.html) - Повертає ім'я стовпця у наборі результатів
--   [db2fieldnum()](function.db2-field-num.html) - Повертає позицію зазначеного стовпця у наборі результатів
--   [db2fieldprecision()](function.db2-field-precision.html) - Повертає точність зазначеного стовпця у наборі результатів
--   [db2fieldscale()](function.db2-field-scale.html) - Повертає масштаб зазначеного стовпця у наборі результатів
--   [db2fieldwidth()](function.db2-field-width.html) - Повертає ширину поточного значення вказаного стовпця у наборі результатів
+-   [db2fielddisplaysize()](function.db2-field-display-size.md) - Повертає максимальну кількість байтів, необхідну для відображення стовпця
+-   [db2fieldname()](function.db2-field-name.md) - Повертає ім'я стовпця у наборі результатів
+-   [db2fieldnum()](function.db2-field-num.md) - Повертає позицію зазначеного стовпця у наборі результатів
+-   [db2fieldprecision()](function.db2-field-precision.md) - Повертає точність зазначеного стовпця у наборі результатів
+-   [db2fieldscale()](function.db2-field-scale.md) - Повертає масштаб зазначеного стовпця у наборі результатів
+-   [db2fieldwidth()](function.db2-field-width.md) - Повертає ширину поточного значення вказаного стовпця у наборі результатів

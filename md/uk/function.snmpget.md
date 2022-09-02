@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.snmp3-walk.html: « snmpv3walk
-  - function.snmpgetnext.html: snmpgetnext »
-  - index.html: PHP Manual
-  - ref.snmp.html: Функції SNMP
+  - function.snmp3-walk.md: « snmpv3walk
+  - function.snmpgetnext.md: snmpgetnext »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
 title: snmpget
 ---
 # snmpget
@@ -58,4 +58,4 @@ $syscontact = snmpget("127.0.0.1", "public", "system.SysContact.0");
 
 ### Дивіться також
 
--   [snmpset()](function.snmpset.html) - Встановлює значення об'єкта SNMP
+-   [snmpset()](function.snmpset.md) - Встановлює значення об'єкта SNMP

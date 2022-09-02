@@ -1,9 +1,9 @@
 ---
 navigation:
-  - exception.construct.html: '« Exception::construct'
-  - exception.getprevious.html: 'Exception::getPrevious »'
-  - index.html: PHP Manual
-  - class.exception.html: Exception
+  - exception.construct.md: '« Exception::construct'
+  - exception.getprevious.md: 'Exception::getPrevious »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
 title: 'Exception::getMessage'
 ---
 # Exception::getMessage

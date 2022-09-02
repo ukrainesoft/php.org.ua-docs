@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetime.unserialize.html: '« MongoDBBSONUTCDateTime::unserialize'
-  - class.mongodb-bson-persistable.html: MongoDBBSONPersistable »
+  - mongodb-bson-utcdatetime.unserialize.md: '« MongoDBBSONUTCDateTime::unserialize'
+  - class.mongodb-bson-persistable.md: MongoDBBSONPersistable »
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONType

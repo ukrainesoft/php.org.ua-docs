@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-client.html: « SwooleClient
-  - swoole-client.connect.html: 'SwooleClient::connect »'
-  - index.html: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: « SwooleClient
+  - swoole-client.connect.md: 'SwooleClient::connect »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::close'
 ---
 # SwooleClient::close

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-pconnect.html: « ocipconnect
-  - function.oci-result.html: ociresult »
+  - function.oci-pconnect.md: « ocipconnect
+  - function.oci-result.md: ociresult »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociregistertafcallback

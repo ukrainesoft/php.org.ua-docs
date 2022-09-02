@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.enableview.html: '« YafDispatcher::enableView'
-  - yaf-dispatcher.getapplication.html: 'YafDispatcher::getApplication »'
-  - index.html: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - yaf-dispatcher.enableview.md: '« YafDispatcher::enableView'
+  - yaf-dispatcher.getapplication.md: 'YafDispatcher::getApplication »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::flushInstantly'
 ---
 # YafDispatcher::flushInstantly

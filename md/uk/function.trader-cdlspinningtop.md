@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlshortline.html: « tradercdlshortline
-  - function.trader-cdlstalledpattern.html: tradercdlstalledpattern »
+  - function.trader-cdlshortline.md: « tradercdlshortline
+  - function.trader-cdlstalledpattern.md: tradercdlstalledpattern »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlspinningtop

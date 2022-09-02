@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evwatcher.construct.html: '« EvWatcher::construct'
-  - evwatcher.getloop.html: 'EvWatcher::getLoop »'
-  - index.html: PHP Manual
-  - class.evwatcher.html: EvWatcher
+  - evwatcher.construct.md: '« EvWatcher::construct'
+  - evwatcher.getloop.md: 'EvWatcher::getLoop »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
 title: 'EvWatcher::feed'
 ---
 # EvWatcher::feed
@@ -28,7 +28,7 @@ public
 
 `revents`
 
-Бітова маска спостерігача [прийнятих подій](class.ev.html#ev.constants.watcher-revents)
+Бітова маска спостерігача [прийнятих подій](class.ev.md#ev.constants.watcher-revents)
 
 ### Значення, що повертаються
 

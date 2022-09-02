@@ -18,7 +18,7 @@ PharFileInfo::decompress — Розтискає поточний файл
 public PharFileInfo::decompress(): bool
 ```
 
-Цей метод розтискає файл усередині phar-архіву. Залежно від того, яким методом файл був стиснутий, потрібна наявність модулів [bzip2](ref.bzip2.md) або [zlib](ref.zlib.md). Так як ця функціональність змінює phar-архів, необхідно, щоб опція [phar.readonly](phar.configuration.html#ini.phar.readonly) було відключено, інакше внести зміни до архіву [Phar](class.phar.md) не вийде. На архіви [PharData](class.phardata.md) обмеження на запис не поширюється.
+Цей метод розтискає файл усередині phar-архіву. Залежно від того, яким методом файл був стиснутий, потрібна наявність модулів [bzip2](ref.bzip2.md) або [zlib](ref.zlib.md). Так як ця функціональність змінює phar-архів, необхідно, щоб опція [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено, інакше внести зміни до архіву [Phar](class.phar.md) не вийде. На архіви [PharData](class.phardata.md) обмеження на запис не поширюється.
 
 ### Список параметрів
 
@@ -30,7 +30,7 @@ public PharFileInfo::decompress(): bool
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.md)якщо опція [phar.readonly](phar.configuration.html#ini.phar.readonly) включена, або відповідний модуль [bzip2](ref.bzip2.md)[zlib](ref.zlib.md) недоступний.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md)якщо опція [phar.readonly](phar.configuration.md#ini.phar.readonly) включена, або відповідний модуль [bzip2](ref.bzip2.md)[zlib](ref.zlib.md) недоступний.
 
 ### Приклади
 

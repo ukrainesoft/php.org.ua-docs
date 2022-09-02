@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-fetch-array.html: « mysqlfetcharray
-  - function.mysql-fetch-field.html: mysqlfetchfield »
+  - function.mysql-fetch-array.md: « mysqlfetcharray
+  - function.mysql-fetch-field.md: mysqlfetchfield »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlfetchassoc
@@ -37,7 +37,7 @@ mysql_fetch_assoc(resource $result): array
 
 Повертає асоціативний масив рядків, що відповідає отриманому ряду, або **`false`** якщо лав більше немає.
 
-Якщо два або більше стовпців результату мають однакові імена, пріоритет матиме останній стовпець. Для доступу до іншого однойменного стовпця (або стовпців), вам необхідно або звернутися до результату запиту за числовим індексом за допомогою [mysqlfetchrow()](function.mysql-fetch-row.html) або додати псевдоніми до потрібних стовпців. Для більш детальної інформації про псевдоніми дивіться опис прикладу [mysqlfetcharray()](function.mysql-fetch-array.md)
+Якщо два або більше стовпців результату мають однакові імена, пріоритет матиме останній стовпець. Для доступу до іншого однойменного стовпця (або стовпців), вам необхідно або звернутися до результату запиту за числовим індексом за допомогою [mysqlfetchrow()](function.mysql-fetch-row.md) або додати псевдоніми до потрібних стовпців. Для більш детальної інформації про псевдоніми дивіться опис прикладу [mysqlfetcharray()](function.mysql-fetch-array.md)
 
 ### Приклади
 

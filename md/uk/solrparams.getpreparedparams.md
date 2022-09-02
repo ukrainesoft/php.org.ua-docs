@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrparams.getparams.html: '« SolrParams::getParams'
-  - solrparams.serialize.html: 'SolrParams::serialize »'
-  - index.html: PHP Manual
-  - class.solrparams.html: SolrParams
+  - solrparams.getparams.md: '« SolrParams::getParams'
+  - solrparams.serialize.md: 'SolrParams::serialize »'
+  - index.md: PHP Manual
+  - class.solrparams.md: SolrParams
 title: 'Solr Params::get Prepared Params'
 ---
 # Solr Params::get Prepared Params

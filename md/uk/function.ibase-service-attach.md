@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-server-info.html: « ibaseserverinfo
-  - function.ibase-service-detach.html: ibaseservicedetach »
+  - function.ibase-server-info.md: « ibaseserverinfo
+  - function.ibase-service-detach.md: ibaseservicedetach »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseserviceattach

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionparameter.construct.html: '« ReflectionParameter::construct'
-  - reflectionparameter.getattributes.html: 'ReflectionParameter::getAttributes »'
-  - index.html: PHP Manual
-  - class.reflectionparameter.html: ReflectionParameter
+  - reflectionparameter.construct.md: '« ReflectionParameter::construct'
+  - reflectionparameter.getattributes.md: 'ReflectionParameter::getAttributes »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::export'
 ---
 # ReflectionParameter::export
@@ -48,4 +48,4 @@ public static ReflectionParameter::export(string $function, string $parameter, b
 
 ### Дивіться також
 
--   [ReflectionParameter::toString()](reflectionparameter.tostring.html) - Перетворення на рядок
+-   [ReflectionParameter::toString()](reflectionparameter.tostring.md) - Перетворення на рядок

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.constants.html: « Обумовлені константи
-  - sqlite3.backup.html: 'SQLite3::backup »'
-  - index.html: PHP Manual
-  - book.sqlite3.html: SQLite3
+  - sqlite3.constants.md: « Обумовлені константи
+  - sqlite3.backup.md: 'SQLite3::backup »'
+  - index.md: PHP Manual
+  - book.sqlite3.md: SQLite3
 title: Клас SQLite3
 ---
 # Клас SQLite3

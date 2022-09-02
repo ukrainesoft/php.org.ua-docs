@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-addrinfo-connect.html: « socketaddrinfoconnect
-  - function.socket-addrinfo-lookup.html: socketaddrinfolookup »
+  - function.socket-addrinfo-connect.md: « socketaddrinfoconnect
+  - function.socket-addrinfo-lookup.md: socketaddrinfolookup »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketaddrinfoexplain

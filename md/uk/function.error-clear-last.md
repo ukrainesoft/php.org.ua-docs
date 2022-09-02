@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.debug-print-backtrace.html: « debugprintbacktrace
-  - function.error-get-last.html: errorgetlast »
-  - index.html: PHP Manual
-  - ref.errorfunc.html: Функции обработки ошибок
+  - function.debug-print-backtrace.md: « debugprintbacktrace
+  - function.error-get-last.md: errorgetlast »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
 title: errorclearlast
 ---
 # errorclearlast
@@ -24,7 +24,7 @@ error_clear_last(): void
 
 ### Значення, що повертаються
 
-Очищає останню помилку, унеможливлюючи отримання її за допомогою [errorgetlast()](function.error-get-last.html)
+Очищає останню помилку, унеможливлюючи отримання її за допомогою [errorgetlast()](function.error-get-last.md)
 
 ### Приклади
 
@@ -64,4 +64,4 @@ NULL
 
 ### Дивіться також
 
--   [Константи помилок](errorfunc.constants.html)
+-   [Константи помилок](errorfunc.constants.md)

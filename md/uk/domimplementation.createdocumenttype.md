@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domimplementation.createdocument.html: '« DOMImplementation::createDocument'
-  - domimplementation.hasfeature.html: 'DOMImplementation::hasFeature »'
-  - index.html: PHP Manual
-  - class.domimplementation.html: DOMImplementation
+  - domimplementation.createdocument.md: '« DOMImplementation::createDocument'
+  - domimplementation.hasfeature.md: 'DOMImplementation::hasFeature »'
+  - index.md: PHP Manual
+  - class.domimplementation.md: DOMImplementation
 title: 'DOMImplementation::createDocumentType'
 ---
 # DOMImplementation::createDocumentType
@@ -18,7 +18,7 @@ DOMImplementation::createDocumentType — Створює порожній об'�
 public DOMImplementation::createDocumentType(string $qualifiedName, string $publicId = "", string $systemId = ""): DOMDocumentType|false
 ```
 
-Створює порожній об'єкт класу [DOMDocumentType](class.domdocumenttype.html). Оголошення сутності та позначення будуть недоступні. Посилання на сутності не замінятимуться і додавання атрибутів за умовчанням не відбуватиметься.
+Створює порожній об'єкт класу [DOMDocumentType](class.domdocumenttype.md). Оголошення сутності та позначення будуть недоступні. Посилання на сутності не замінятимуться і додавання атрибутів за умовчанням не відбуватиметься.
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ public DOMImplementation::createDocumentType(string $qualifiedName, string $publ
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMDocumentType](class.domdocumenttype.html) з атрибутом `ownerDocument`, встановленим у **`null`**
+Новий об'єкт класу [DOMDocumentType](class.domdocumenttype.md) з атрибутом `ownerDocument`, встановленим у **`null`**
 
 ### Помилки
 
@@ -44,7 +44,7 @@ public DOMImplementation::createDocumentType(string $qualifiedName, string $publ
 
 Виникає, якщо виявлена ​​помилка у рядку `qualifiedName`
 
-До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.html)
+До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.md)
 
 ### Приклади
 
@@ -88,4 +88,4 @@ echo $dom->saveXML();
 
 ### Дивіться також
 
--   [DOMImplementation::createDocument()](domimplementation.createdocument.html) - Створює об'єкт класу DOMDocument заданого типу з його елементом
+-   [DOMImplementation::createDocument()](domimplementation.createdocument.md) - Створює об'єкт класу DOMDocument заданого типу з його елементом

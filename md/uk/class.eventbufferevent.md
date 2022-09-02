@@ -360,7 +360,7 @@ output
 
 **`EventBufferEvent::OPT_DEFER_CALLBACKS`**
 
-Коли прапор встановлено, bufferevent відкладає всі функції зворотного виклику. Дивіться [» Швидке, переносне, неблокуюче мережне програмування з Libevent та відкладеними функціями зворотного виклику (Deferred callbacks)](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.html#_deferred_callbacks)
+Коли прапор встановлено, bufferevent відкладає всі функції зворотного виклику. Дивіться [» Швидке, переносне, неблокуюче мережне програмування з Libevent та відкладеними функціями зворотного виклику (Deferred callbacks)](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.md#_deferred_callbacks)
 
 **`EventBufferEvent::OPT_UNLOCK_CALLBACKS`**
 

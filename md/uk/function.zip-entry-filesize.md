@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.zip-entry-compressionmethod.html: « zipentrycompressionmethod
-  - function.zip-entry-name.html: zipentryname »
-  - index.html: PHP Manual
-  - ref.zip.html: Функции Zip
+  - function.zip-entry-compressionmethod.md: « zipentrycompressionmethod
+  - function.zip-entry-name.md: zipentryname »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
 title: zipentryfilesize
 ---
 # zipentryfilesize
@@ -28,7 +28,7 @@ zip_entry_filesize(resource $zip_entry): int|false
 
 `zip_entry`
 
-Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.html)
+Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.md)
 
 ### Значення, що повертаються
 
@@ -38,9 +38,9 @@ zip_entry_filesize(resource $zip_entry): int|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.html) |
+|  | Функція застаріла на користь Object API, дивіться [ZipArchive::statIndex()](ziparchive.statindex.md) |
 
 ### Дивіться також
 
--   [zipopen()](function.zip-open.html) - Відкриває ZIP-архів
--   [zipread()](function.zip-read.html) - Зчитує наступний запис у ZIP-архіві
+-   [zipopen()](function.zip-open.md) - Відкриває ZIP-архів
+-   [zipread()](function.zip-read.md) - Зчитує наступний запис у ZIP-архіві

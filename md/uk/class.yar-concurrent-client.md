@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yar-client.setopt.html: '« YarClient::setOpt'
-  - yar-concurrent-client.call.html: 'YarConcurrentClient::call »'
-  - index.html: PHP Manual
-  - book.yar.html: Yar
+  - yar-client.setopt.md: '« YarClient::setOpt'
+  - yar-concurrent-client.call.md: 'YarConcurrentClient::call »'
+  - index.md: PHP Manual
+  - book.yar.md: Yar
 title: Клас YarConcurrentClient
 ---
 # Клас YarConcurrentClient
@@ -56,6 +56,6 @@ errorcallback
 
 ## Зміст
 
--   [YarConcurrentClient::call](yar-concurrent-client.call.html) — Зареєструвати конкурентний виклик
--   [YarConcurrentClient::loop](yar-concurrent-client.loop.html) — Запуск усіх зареєстрованих викликів
--   [YarConcurrentClient::reset](yar-concurrent-client.reset.html) — Очистити всі зареєстровані дзвінки
+-   [YarConcurrentClient::call](yar-concurrent-client.call.md) — Зареєструвати конкурентний виклик
+-   [YarConcurrentClient::loop](yar-concurrent-client.loop.md) — Запуск усіх зареєстрованих викликів
+-   [YarConcurrentClient::reset](yar-concurrent-client.reset.md) — Очистити всі зареєстровані дзвінки

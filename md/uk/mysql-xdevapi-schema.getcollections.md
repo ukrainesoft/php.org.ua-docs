@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-schema.getcollectionastable.html: '« Schema::getCollectionAsTable'
-  - mysql-xdevapi-schema.getname.html: 'Schema::getName »'
+  - mysql-xdevapi-schema.getcollectionastable.md: '« Schema::getCollectionAsTable'
+  - mysql-xdevapi-schema.getname.md: 'Schema::getName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
 title: 'Schema::getCollections'
 ---
 # Schema::getCollections

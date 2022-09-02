@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.openuri.html: '« XMLWriter::openUri'
-  - xmlwriter.setindent.html: 'XMLWriter::setIndent »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.openuri.md: '« XMLWriter::openUri'
+  - xmlwriter.setindent.md: 'XMLWriter::setIndent »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::outputMemory'
 ---
 # XMLWriter::outputMemory
@@ -34,7 +34,7 @@ xmlwriter_output_memory(XMLWriter $writer, bool $flush = true): string
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `flush`
 
@@ -48,8 +48,8 @@ xmlwriter_output_memory(XMLWriter $writer, bool $flush = true): string
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::flush()](xmlwriter.flush.html) - Скинути поточний буфер
+-   [XMLWriter::flush()](xmlwriter.flush.md) - Скинути поточний буфер

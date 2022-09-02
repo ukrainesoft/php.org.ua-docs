@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-uid.html: « imapuid
-  - function.imap-unsubscribe.html: imapunsubscribe »
+  - function.imap-uid.md: « imapuid
+  - function.imap-unsubscribe.md: imapunsubscribe »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapundelete
@@ -18,7 +18,7 @@ imapundelete — Знімає з повідомлення позначку ви�
 imap_undelete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 ```
 
-Видаляє із заданого повідомлення мітку видалення, яка була встановлена ​​за допомогою [imapdelete()](function.imap-delete.html) або [imapmailmove()](function.imap-mail-move.md)
+Видаляє із заданого повідомлення мітку видалення, яка була встановлена ​​за допомогою [imapdelete()](function.imap-delete.md) або [imapmailmove()](function.imap-mail-move.md)
 
 ### Список параметрів
 

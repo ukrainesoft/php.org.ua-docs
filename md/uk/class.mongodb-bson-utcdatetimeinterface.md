@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-timestampinterface.tostring.html: '« MongoDBBSONTimestampInterface::toString'
-  - mongodb-bson-utcdatetimeinterface.todatetime.html: 'MongoDBBSONUTCDateTimeInterface::toDateTime »'
+  - mongodb-bson-timestampinterface.tostring.md: '« MongoDBBSONTimestampInterface::toString'
+  - mongodb-bson-utcdatetimeinterface.todatetime.md: 'MongoDBBSONUTCDateTimeInterface::toDateTime »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONUTCDateTimeInterface

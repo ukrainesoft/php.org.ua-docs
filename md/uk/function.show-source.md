@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.sapi-windows-vt100-support.html: « sapiwindowsvt100support
+  - function.sapi-windows-vt100-support.md: « sapiwindowsvt100support
   - function.sleep.md: sleep »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlbreakiterator.geterrormessage.html: '« IntlBreakIterator::getErrorMessage'
-  - intlbreakiterator.getpartsiterator.html: 'IntlBreakIterator::getPartsIterator »'
-  - index.html: PHP Manual
-  - class.intlbreakiterator.html: IntlBreakIterator
+  - intlbreakiterator.geterrormessage.md: '« IntlBreakIterator::getErrorMessage'
+  - intlbreakiterator.getpartsiterator.md: 'IntlBreakIterator::getPartsIterator »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
 title: 'IntlBreakIterator::getLocale'
 ---
 # IntlBreakIterator::getLocale

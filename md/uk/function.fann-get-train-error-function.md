@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-total-neurons.html: « fanngettotalneurons
-  - function.fann-get-train-stop-function.html: fanngettrainstopfunction »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-total-neurons.md: « fanngettotalneurons
+  - function.fann-get-train-stop-function.md: fanngettrainstopfunction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngettrainerrorfunction
 ---
 # fanngettrainerrorfunction
@@ -20,7 +20,7 @@ fann_get_train_error_function(resource $ann): int
 
 Повертає функцію обробки помилок, яка використовується під час навчання.
 
-Функції обробки помилок описані далі у константах [функции обработки ошибок](fann.constants.html#constants.fann-errorfunc)
+Функції обробки помилок описані далі у константах [функции обработки ошибок](fann.constants.md#constants.fann-errorfunc)
 
 Функції обробки помилок за замовчуванням: **`FANN_ERRORFUNC_TANH`**
 
@@ -32,7 +32,7 @@ fann_get_train_error_function(resource $ann): int
 
 ### Значення, що повертаються
 
-Константа [функции обработки ошибок](fann.constants.html#constants.fann-errorfunc) або **`false`** у разі виникнення помилки.
+Константа [функции обработки ошибок](fann.constants.md#constants.fann-errorfunc) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 

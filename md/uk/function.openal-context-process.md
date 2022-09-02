@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-context-destroy.html: « openalcontextdestroy
-  - function.openal-context-suspend.html: openalcontextsuspend »
+  - function.openal-context-destroy.md: « openalcontextdestroy
+  - function.openal-context-suspend.md: openalcontextsuspend »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalcontextprocess

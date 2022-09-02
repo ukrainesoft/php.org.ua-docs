@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-weight-array.html: « fannsetweightarray
-  - function.fann-shuffle-train-data.html: fannshuffletraindata »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-weight-array.md: « fannsetweightarray
+  - function.fann-shuffle-train-data.md: fannshuffletraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetweight
 ---
 # fannsetweight

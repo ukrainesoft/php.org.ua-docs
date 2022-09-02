@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.geoip-setup-custom-directory.html: « geoipsetupcustomdirectory
-  - book.fann.html: FANN »
-  - index.html: PHP Manual
-  - ref.geoip.html: Функции GeoIP
+  - function.geoip-setup-custom-directory.md: « geoipsetupcustomdirectory
+  - book.fann.md: FANN »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
 title: geoiptimezoneбcountryandregion
 ---
 # geoiptimezoneбcountryandregion

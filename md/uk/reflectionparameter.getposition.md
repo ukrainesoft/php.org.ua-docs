@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionparameter.getname.html: '« ReflectionParameter::getName'
-  - reflectionparameter.gettype.html: 'ReflectionParameter::getType »'
-  - index.html: PHP Manual
-  - class.reflectionparameter.html: ReflectionParameter
+  - reflectionparameter.getname.md: '« ReflectionParameter::getName'
+  - reflectionparameter.gettype.md: 'ReflectionParameter::getType »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::getPosition'
 ---
 # ReflectionParameter::getPosition

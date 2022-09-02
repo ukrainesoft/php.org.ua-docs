@@ -1,9 +1,9 @@
 ---
 navigation:
-  - csprng.requirements.html: « Вимоги
-  - csprng.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - csprng.setup.html: Встановлення та налаштування
+  - csprng.requirements.md: « Вимоги
+  - csprng.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - csprng.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

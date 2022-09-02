@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-get-attr.html: « radiusgetattr
-  - function.radius-get-tagged-attr-tag.html: radiusgettaggedattrtag »
+  - function.radius-get-attr.md: « radiusgetattr
+  - function.radius-get-tagged-attr-tag.md: radiusgettaggedattrtag »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiusgettaggedattrdata

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-regex.unserialize.html: '« MongoDBBSONRegex::unserialize'
-  - mongodb-bson-timestamp.construct.html: 'MongoDBBSONTimestamp::construct »'
+  - mongodb-bson-regex.unserialize.md: '« MongoDBBSONRegex::unserialize'
+  - mongodb-bson-timestamp.construct.md: 'MongoDBBSONTimestamp::construct »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONTimestamp

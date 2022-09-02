@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rparser.trace.html: '« ParleRParser::trace'
-  - class.parle-stack.html: ParleStack »
+  - parle-rparser.trace.md: '« ParleRParser::trace'
+  - class.parle-stack.md: ParleStack »
   - index.md: PHP Manual
-  - class.parle-rparser.html: ParleRParser
+  - class.parle-rparser.md: ParleRParser
 title: 'ParleRParser::validate'
 ---
 # ParleRParser::validate

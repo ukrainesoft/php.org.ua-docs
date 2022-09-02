@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-slider.getvalue.html: '« UIControlsSlider::getValue'
-  - ui-controls-slider.setvalue.html: 'ОЙControlsSlider::setValue »'
-  - index.html: PHP Manual
-  - class.ui-controls-slider.html: ОЙControlsSlider
+  - ui-controls-slider.getvalue.md: '« UIControlsSlider::getValue'
+  - ui-controls-slider.setvalue.md: 'ОЙControlsSlider::setValue »'
+  - index.md: PHP Manual
+  - class.ui-controls-slider.md: ОЙControlsSlider
 title: 'ОЙControlsSlider::onChange'
 ---
 # ОЙControlsSlider::onChange

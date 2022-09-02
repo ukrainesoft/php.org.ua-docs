@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-sum.html: « tradersum
-  - function.trader-tan.html: tradertan »
+  - function.trader-sum.md: « tradersum
+  - function.trader-tan.md: tradertan »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderтз

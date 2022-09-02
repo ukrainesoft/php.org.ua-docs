@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-write.html: « socketwrite
-  - function.socket-wsaprotocol-info-import.html: socketwsaprotocolinfoimport »
+  - function.socket-write.md: « socketwrite
+  - function.socket-wsaprotocol-info-import.md: socketwsaprotocolinfoimport »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketwsaprotocolinfoexport

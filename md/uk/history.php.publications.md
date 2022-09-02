@@ -1,9 +1,9 @@
 ---
 navigation:
-  - history.php.books.html: « Книги о PHP
-  - migration81.html: Миграция с PHP 8.0.x на PHP 8.1.x »
-  - index.html: PHP Manual
-  - history.html: Історія PHP та суміжних проектів
+  - history.php.books.md: « Книги о PHP
+  - migration81.md: Миграция с PHP 8.0.x на PHP 8.1.x »
+  - index.md: PHP Manual
+  - history.md: Історія PHP та суміжних проектів
 title: 'Публікації, присвячені PHP'
 ---
 ## Публікації, присвячені PHP

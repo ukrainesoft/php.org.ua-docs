@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.offsetunset.html: '« YafSession::offsetUnset'
-  - yaf-session.set.html: 'YafSession::set »'
-  - index.html: PHP Manual
-  - class.yaf-session.html: YafSession
+  - yaf-session.offsetunset.md: '« YafSession::offsetUnset'
+  - yaf-session.set.md: 'YafSession::set »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
 title: 'YafSession::rewind'
 ---
 # YafSession::rewind

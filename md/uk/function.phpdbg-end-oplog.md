@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.phpdbg-color.html: « phpdbgcolor
-  - function.phpdbg-exec.html: phpdbgexec »
+  - function.phpdbg-color.md: « phpdbgcolor
+  - function.phpdbg-exec.md: phpdbgexec »
   - index.md: PHP Manual
   - ref.phpdbg.md: Функции phpdbg
 title: phpdbgendoplog

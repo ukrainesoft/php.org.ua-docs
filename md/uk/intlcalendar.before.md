@@ -42,4 +42,4 @@ intlcal_before(IntlCalendar $calendar, IntlCalendar $other): bool
 
 Повертає **`true`**, якщо поточний час цього об'єкта раніше аргументу `calendar`. В іншому випадку повертає **`false`**
 
-У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) або настройте викидання [исключений](intl.configuration.html#ini.intl.use-exceptions) в Intl.
+У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) або настройте викидання [исключений](intl.configuration.md#ini.intl.use-exceptions) в Intl.

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.putall.html: '« DsMap::putAll'
-  - ds-map.remove.html: 'ДсMap::remove »'
+  - ds-map.putall.md: '« DsMap::putAll'
+  - ds-map.remove.md: 'ДсMap::remove »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::reduce'
 ---
 # ДсMap::reduce

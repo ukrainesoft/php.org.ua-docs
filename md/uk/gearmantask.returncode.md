@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmantask.recvdata.html: '« GearmanTask::recvData'
-  - gearmantask.senddata.html: 'GearmanTask::sendData »'
-  - index.html: PHP Manual
-  - class.gearmantask.html: GearmanTask
+  - gearmantask.recvdata.md: '« GearmanTask::recvData'
+  - gearmantask.senddata.md: 'GearmanTask::sendData »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::returnCode'
 ---
 # GearmanTask::returnCode
@@ -30,4 +30,4 @@ public GearmanTask::returnCode(): int
 
 ### Дивіться також
 
--   [GearmanClient::returnCode()](gearmanclient.returncode.html) - Отримати останній код повернення Gearman
+-   [GearmanClient::returnCode()](gearmanclient.returncode.md) - Отримати останній код повернення Gearman

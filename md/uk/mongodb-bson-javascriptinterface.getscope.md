@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-javascriptinterface.getcode.html: '« MongoDBBSONJavascriptInterface::getCode'
-  - mongodb-bson-javascriptinterface.tostring.html: 'MongoDBBSONJavascriptInterface::toString »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-javascriptinterface.html: MongoDBBSONJavascriptInterface
+  - mongodb-bson-javascriptinterface.getcode.md: '« MongoDBBSONJavascriptInterface::getCode'
+  - mongodb-bson-javascriptinterface.tostring.md: 'MongoDBBSONJavascriptInterface::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascriptinterface.md: MongoDBBSONJavascriptInterface
 title: 'MongoDBBSONJavascriptInterface::getScope'
 ---
 # MongoDBBSONJavascriptInterface::getScope

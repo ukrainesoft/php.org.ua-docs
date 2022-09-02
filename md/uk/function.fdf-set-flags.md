@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-set-file.html: « fdfsetfile
-  - function.fdf-set-javascript-action.html: fdfsetjavascriptaction »
+  - function.fdf-set-file.md: « fdfsetfile
+  - function.fdf-set-javascript-action.md: fdfsetjavascriptaction »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfsetflags
@@ -24,7 +24,7 @@ fdf_set_flags(    resource $fdf_document,    string $fieldname,    i
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 

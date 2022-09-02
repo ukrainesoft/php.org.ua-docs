@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.lcg-value.html: « lcgvalue
+  - function.lcg-value.md: « lcgvalue
   - function.log1p.md: log1p »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції

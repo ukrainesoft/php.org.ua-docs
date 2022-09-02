@@ -14,18 +14,18 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [mysqli.allowlocalinfile](mysqli.configuration.html#ini.mysqli.allow-local-infile) | "0" | PHPINISYSTEM | До PHP 7.2.16 та 7.3.3 значенням за умовчанням було "1". |
-| [mysqli.localinfiledirectory](mysqli.configuration.html#ini.mysqli.local-infile-directory) |  | PHPINISYSTEM | Доступно з PHP 8.1.0. |
-| [mysqli.allowpersistent](mysqli.configuration.html#ini.mysqli.allow-persistent) | "1" | PHPINISYSTEM |  |
-| [mysqli.maxpersistent](mysqli.configuration.html#ini.mysqli.max-persistent) | "-1" | PHPINISYSTEM |  |
-| [mysqli.maxlinks](mysqli.configuration.html#ini.mysqli.max-links) | "-1" | PHPINISYSTEM |  |
-| [mysqli.defaultport](mysqli.configuration.html#ini.mysqli.default-port) | "3306" | PHPINIALL |  |
-| [mysqli.defaultsocket](mysqli.configuration.html#ini.mysqli.default-socket) | NULL | PHPINIALL |  |
-| [mysqli.defaulthost](mysqli.configuration.html#ini.mysqli.default-host) | NULL | PHPINIALL |  |
-| [mysqli.defaultuser](mysqli.configuration.html#ini.mysqli.default-user) | NULL | PHPINIALL |  |
-| [mysqli.defaultпв](mysqli.configuration.html#ini.mysqli.default-pw) | NULL | PHPINIALL |  |
-| [mysqli.reconnect](mysqli.configuration.html#ini.mysqli.reconnect) | "0" | PHPINISYSTEM |  |
-| [mysqli.rollbackвінcachedplink](mysqli.configuration.html#ini.mysqli.rollback-on-cached-plink) | "0" | PHPINISYSTEM |  |
+| [mysqli.allowlocalinfile](mysqli.configuration.md#ini.mysqli.allow-local-infile) | "0" | PHPINISYSTEM | До PHP 7.2.16 та 7.3.3 значенням за умовчанням було "1". |
+| [mysqli.localinfiledirectory](mysqli.configuration.md#ini.mysqli.local-infile-directory) |  | PHPINISYSTEM | Доступно з PHP 8.1.0. |
+| [mysqli.allowpersistent](mysqli.configuration.md#ini.mysqli.allow-persistent) | "1" | PHPINISYSTEM |  |
+| [mysqli.maxpersistent](mysqli.configuration.md#ini.mysqli.max-persistent) | "-1" | PHPINISYSTEM |  |
+| [mysqli.maxlinks](mysqli.configuration.md#ini.mysqli.max-links) | "-1" | PHPINISYSTEM |  |
+| [mysqli.defaultport](mysqli.configuration.md#ini.mysqli.default-port) | "3306" | PHPINIALL |  |
+| [mysqli.defaultsocket](mysqli.configuration.md#ini.mysqli.default-socket) | NULL | PHPINIALL |  |
+| [mysqli.defaulthost](mysqli.configuration.md#ini.mysqli.default-host) | NULL | PHPINIALL |  |
+| [mysqli.defaultuser](mysqli.configuration.md#ini.mysqli.default-user) | NULL | PHPINIALL |  |
+| [mysqli.defaultпв](mysqli.configuration.md#ini.mysqli.default-pw) | NULL | PHPINIALL |  |
+| [mysqli.reconnect](mysqli.configuration.md#ini.mysqli.reconnect) | "0" | PHPINISYSTEM |  |
+| [mysqli.rollbackвінcachedplink](mysqli.configuration.md#ini.mysqli.rollback-on-cached-plink) | "0" | PHPINISYSTEM |  |
 
 Інші деталі та визначення констант PHPINI дивіться у розділі [конфігураційні зміни](configuration.changes.md)
 

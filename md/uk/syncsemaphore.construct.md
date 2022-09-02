@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.syncsemaphore.html: « SyncSemaphore
-  - syncsemaphore.lock.html: 'SyncSemaphore::lock »'
-  - index.html: PHP Manual
-  - class.syncsemaphore.html: SyncSemaphore
+  - class.syncsemaphore.md: « SyncSemaphore
+  - syncsemaphore.lock.md: 'SyncSemaphore::lock »'
+  - index.md: PHP Manual
+  - class.syncsemaphore.md: SyncSemaphore
 title: 'SyncSemaphore::construct'
 ---
 # SyncSemaphore::construct

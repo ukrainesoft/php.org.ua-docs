@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.snmp-get-valueretrieval.html: « snmpgetvalueretrieval
-  - function.snmp-set-enum-print.html: snmpsetenumprint »
+  - function.snmp-get-valueretrieval.md: « snmpgetvalueretrieval
+  - function.snmp-set-enum-print.md: snmpsetenumprint »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpreadmib

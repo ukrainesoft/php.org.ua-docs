@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-control.gettoplevel.html: '« UIControl::getTopLevel'
-  - ui-control.isenabled.html: 'ОЙControl::isEnabled »'
+  - ui-control.gettoplevel.md: '« UIControl::getTopLevel'
+  - ui-control.isenabled.md: 'ОЙControl::isEnabled »'
   - index.md: PHP Manual
-  - class.ui-control.html: ОЙControl
+  - class.ui-control.md: ОЙControl
 title: 'ОЙControl::hide'
 ---
 # ОЙControl::hide

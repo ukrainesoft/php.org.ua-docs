@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-client.close.html: '« SwooleCoroutineClient::close'
-  - swoole-coroutine-client.construct.html: 'SwooleCoroutineClient::construct »'
+  - swoole-coroutine-client.close.md: '« SwooleCoroutineClient::close'
+  - swoole-coroutine-client.construct.md: 'SwooleCoroutineClient::construct »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineClient::connect'
 ---
 # SwooleCoroutineClient::connect

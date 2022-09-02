@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-num-layers.html: « fanngetnumlayers
-  - function.fann-get-quickprop-decay.html: fanngetquickpropdecay »
+  - function.fann-get-num-layers.md: « fanngetnumlayers
+  - function.fann-get-quickprop-decay.md: fanngetquickpropdecay »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetnumoutput

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.appendimages.html: '« Imagick::appendImages'
-  - imagick.averageimages.html: 'Imagick::averageImages »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.appendimages.md: '« Imagick::appendImages'
+  - imagick.averageimages.md: 'Imagick::averageImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::autoLevelImage'
 ---
 # Imagick::autoLevelImage

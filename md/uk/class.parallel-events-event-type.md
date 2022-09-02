@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.parallel-events-event.html: « parallelEventsEvent
-  - class.parallel-sync.html: parallelSync »
+  - class.parallel-events-event.md: « parallelEventsEvent
+  - class.parallel-sync.md: parallelSync »
   - index.md: PHP Manual
   - book.parallel.md: parallel
 title: Клас parallelEventsEventType

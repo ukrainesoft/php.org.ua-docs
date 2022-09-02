@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-http-response.html: « SwooleHttpResponse
-  - swoole-http-response.destruct.html: 'SwooleHttpResponse::destruct »'
+  - class.swoole-http-response.md: « SwooleHttpResponse
+  - swoole-http-response.destruct.md: 'SwooleHttpResponse::destruct »'
   - index.md: PHP Manual
-  - class.swoole-http-response.html: SwooleHttpResponse
+  - class.swoole-http-response.md: SwooleHttpResponse
 title: 'SwooleHttpResponse::cookie'
 ---
 # SwooleHttpResponse::cookie

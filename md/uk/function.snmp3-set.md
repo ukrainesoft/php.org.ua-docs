@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.snmp3-real-walk.html: « snmpv3realwalk
-  - function.snmp3-walk.html: snmpv3walk »
+  - function.snmp3-real-walk.md: « snmpv3realwalk
+  - function.snmp3-walk.md: snmpv3walk »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpv3set

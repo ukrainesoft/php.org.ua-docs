@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.getstrokecolor.html: '« ImagickDraw::getStrokeColor'
-  - imagickdraw.getstrokedashoffset.html: 'ImagickDraw::getStrokeDashOffset »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.getstrokecolor.md: '« ImagickDraw::getStrokeColor'
+  - imagickdraw.getstrokedashoffset.md: 'ImagickDraw::getStrokeDashOffset »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getStrokeDashArray'
 ---
 # ImagickDraw::getStrokeDashArray

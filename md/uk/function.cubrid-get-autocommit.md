@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-free-result.html: « cubridfreeresult
-  - function.cubrid-get-charset.html: cubridgetcharset »
+  - function.cubrid-free-result.md: « cubridfreeresult
+  - function.cubrid-get-charset.md: cubridgetcharset »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridgetautocommit

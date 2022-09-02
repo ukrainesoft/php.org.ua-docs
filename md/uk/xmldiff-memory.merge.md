@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmldiff-memory.diff.html: '« XMLDiffMemory::diff'
-  - class.xmldiff-file.html: XMLDiffFile »
+  - xmldiff-memory.diff.md: '« XMLDiffMemory::diff'
+  - class.xmldiff-file.md: XMLDiffFile »
   - index.md: PHP Manual
-  - class.xmldiff-memory.html: XMLDiffMemory
+  - class.xmldiff-memory.md: XMLDiffMemory
 title: 'XMLDiffMemory::merge'
 ---
 # XMLDiffMemory::merge

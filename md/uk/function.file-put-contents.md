@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.file-get-contents.html: « filegetcontents
+  - function.file-get-contents.md: « filegetcontents
   - function.file.md: file »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
@@ -44,7 +44,7 @@ file_put_contents(    string $filename,    mixed $data,    int $flag
 
 | Флаг | Описание |
 | --- | --- |
-| **`FILE_USE_INCLUDE_PATH`** | Шукає `filename` в директоріях, що підключаються. Детальніше дивіться директиву [includepath](ini.core.html#ini.include-path) |
+| **`FILE_USE_INCLUDE_PATH`** | Шукає `filename` в директоріях, що підключаються. Детальніше дивіться директиву [includepath](ini.core.md#ini.include-path) |
 | **`FILE_APPEND`** | Якщо файл `filename` вже існує, дані будуть дописані в кінець файлу замість його перезаписати. |
 | **`LOCK_EX`** | Отримати ексклюзивне блокування файлу під час запису. Іншими словами, між викликами [fopen()](function.fopen.md) і [fwrite()](function.fwrite.md) відбудеться виклик функції [flock()](function.flock.md). Це не одне й те саме, що виклик [fopen()](function.fopen.md) з прапором "х". |
 
@@ -96,7 +96,7 @@ file_put_contents($file, $person, FILE_APPEND | LOCK_EX);
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 

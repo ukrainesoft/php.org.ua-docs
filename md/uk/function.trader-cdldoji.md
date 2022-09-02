@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdldarkcloudcover.html: « tradercdldarkcloudcover
-  - function.trader-cdldojistar.html: tradercdldojistar »
+  - function.trader-cdldarkcloudcover.md: « tradercdldarkcloudcover
+  - function.trader-cdldojistar.md: tradercdldojistar »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdldoji

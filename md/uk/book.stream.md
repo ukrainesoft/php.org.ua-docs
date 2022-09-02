@@ -1,99 +1,99 @@
 ---
 navigation:
-  - splsubject.notify.html: '« SplSubject::notify'
-  - intro.stream.html: Введение »
-  - index.html: PHP Manual
-  - refs.basic.other.html: Інші базові модулі
+  - splsubject.notify.md: '« SplSubject::notify'
+  - intro.stream.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
 title: Потоки
 ---
 # Потоки
 
--   [Введение](intro.stream.html)
--   [Встановлення та налаштування](stream.setup.html)
-    -   [Вимоги](stream.requirements.html)
-    -   [Установка](stream.installation.html)
-    -   [Налаштування під час виконання](stream.configuration.html)
-    -   [Класи для роботи з потоками](stream.resources.html)
--   [Обумовлені константи](stream.constants.html)
--   [Поточні фільтри](stream.filters.html)
--   [Контексти потоків](stream.contexts.html)
--   [Ошибки потока](stream.errors.html)
--   [Примеры](stream.examples.html)
-    -   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.html)
--   [phpuserfilter](class.php-user-filter.html) - Клас phpuserfilter
-    -   [phpuserfilter::filter](php-user-filter.filter.html) — Викликається, щойно застосовується фільтр
-    -   [phpuserfilter::onClose](php-user-filter.onclose.html) — Викликається під час закриття фільтра
-    -   [phpuserfilter::onCreate](php-user-filter.oncreate.html) — Викликається під час створення об'єкта фільтра
--   [streamWrapper](class.streamwrapper.html) - Клас streamWrapper
-    -   [streamWrapper::construct](streamwrapper.construct.html) — Створює новий об'єкт обертання потоку
-    -   [streamWrapper::destruct](streamwrapper.destruct.html) — Знищує існуючу обгортку потоку
-    -   [streamWrapper::dirclosedir](streamwrapper.dir-closedir.html) - Закрити дескриптор директорії
-    -   [streamWrapper::diropendir](streamwrapper.dir-opendir.html) - Відкрити дескриптор директорії
-    -   [streamWrapper::dirreaddir](streamwrapper.dir-readdir.html) — Читання запису з дескриптора директорії
-    -   [streamWrapper::dirrewinddir](streamwrapper.dir-rewinddir.html) — Дескриптор директорії переміщення на її початку
-    -   [streamWrapper::mkdir](streamwrapper.mkdir.html) - Створення директорії
-    -   [streamWrapper::rename](streamwrapper.rename.html) — Перейменовує файл чи директорію
-    -   [streamWrapper::rmdir](streamwrapper.rmdir.html) - Видаляє директорію
-    -   [streamWrapper::streamcast](streamwrapper.stream-cast.html) — Отримує ресурс рівнем нижче
-    -   [streamWrapper::streamclose](streamwrapper.stream-close.html) - Закриває ресурс
-    -   [streamWrapper::streameof](streamwrapper.stream-eof.html) — Перевіряє досягнення кінця файлу за вказівником файлу
-    -   [streamWrapper::streamflush](streamwrapper.stream-flush.html) — скидає висновок
-    -   [streamWrapper::streamlock](streamwrapper.stream-lock.html) - Консультативне блокування файлу
-    -   [streamWrapper::streammetadata](streamwrapper.stream-metadata.html) - Змінює метадані потоку
-    -   [streamWrapper::streamopen](streamwrapper.stream-open.html) — Відкриває файл чи URL
-    -   [streamWrapper::streamread](streamwrapper.stream-read.html) - Читає з потоку
-    -   [streamWrapper::streamseek](streamwrapper.stream-seek.html) — Переміщення на задану позицію у потоці
-    -   [streamWrapper::streamsetoption](streamwrapper.stream-set-option.html) — Зміна налаштувань потоку
-    -   [streamWrapper::streamstat](streamwrapper.stream-stat.html) — Отримання інформації про файловий ресурс
-    -   [streamWrapper::streamtell](streamwrapper.stream-tell.html) — Визначення поточної позиції потоку
-    -   [streamWrapper::streamtruncate](streamwrapper.stream-truncate.html) - Усічення потоку
-    -   [streamWrapper::streamwrite](streamwrapper.stream-write.html) - Запис у потік
-    -   [streamWrapper::unlink](streamwrapper.unlink.html) — Видалення файлу
-    -   [streamWrapper::urlstat](streamwrapper.url-stat.html) — Отримання інформації про файл
--   [Функції для роботи з потоками](ref.stream.html)
-    -   [streambucketappend](function.stream-bucket-append.html) - Додати відро (bucket) до бригади (brigade)
-    -   [streambucketmakewriteable](function.stream-bucket-make-writeable.html) — Повертає об'єкт кошика із бригади для подальшої роботи з ним
-    -   [streambucketnew](function.stream-bucket-new.html) — Створити нове цебро для використання в поточному потоці
-    -   [streambucketprepend](function.stream-bucket-prepend.html) — Додати відро на початок бригади
-    -   [streamcontextcreate](function.stream-context-create.html) - Створює контекст потоку
-    -   [streamcontextgetdefault](function.stream-context-get-default.html) — Отримує контекст потоку за умовчанням
-    -   [streamcontextgetoptions](function.stream-context-get-options.html) — Отримує опції для потоку/обгортки/контексту
-    -   [streamcontextgetparams](function.stream-context-get-params.html) — Отримує параметри із контексту
-    -   [streamcontextsetdefault](function.stream-context-set-default.html) — Встановити контекст потоку за промовчанням
-    -   [streamcontextsetoption](function.stream-context-set-option.html) — Встановлює опцію для потоку/обгортки/контексту
-    -   [streamcontextsetparams](function.stream-context-set-params.html) — Встановлює параметри потоку/обгортки/контексту
-    -   [streamcopyтоstream](function.stream-copy-to-stream.html) — Копіює дані з одного потоку до іншого
-    -   [streamfilterappend](function.stream-filter-append.html) — Прикріпити фільтр до потоку
-    -   [streamfilterprepend](function.stream-filter-prepend.html) - Прикріплює фільтр до потоку
-    -   [streamfilterregister](function.stream-filter-register.html) — Реєструє потоковий фільтр, визначений користувачем
-    -   [streamfilterremove](function.stream-filter-remove.html) — Видалити фільтр із потоку
-    -   [streamgetcontents](function.stream-get-contents.html) — Читає частину потоку, що залишилася, в рядок
-    -   [streamgetfilters](function.stream-get-filters.html) — Отримати список зареєстрованих фільтрів
-    -   [streamgetline](function.stream-get-line.html) — Отримує рядок із потокового ресурсу до вказаного роздільника
-    -   [streamgetmetadata](function.stream-get-meta-data.html) — Витягує заголовок/метадані з потоків/файлових покажчиків
-    -   [streamgettransports](function.stream-get-transports.html) - Отримати список зареєстрованих транспортів сокету
-    -   [streamgetwrappers](function.stream-get-wrappers.html) — Отримати список зареєстрованих потоків
-    -   [streamісlocal](function.stream-is-local.html) — Перевіряє, чи потік є локальним потоком
-    -   [streamisatty](function.stream-isatty.html) — Перевіряє, чи є потік TTY
-    -   [streamnotificationcallback](function.stream-notification-callback.html) — Callback-функція параметра контексту notification
-    -   [streamregisterwrapper](function.stream-register-wrapper.html) - Псевдонім streamwrapperregister
-    -   [streamresolveincludepath](function.stream-resolve-include-path.html) — Перетворити повне ім'я файлу, використовуючи шляхи увімкнення
-    -   [streamselect](function.stream-select.html) — Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
-    -   [streamsetblocking](function.stream-set-blocking.html) — Встановити блокуючий/неблокуючий режим у потоці
-    -   [streamsetchunksize](function.stream-set-chunk-size.html) — Встановити розмір фрагмента даних потоку
-    -   [streamsetreadbuffer](function.stream-set-read-buffer.html) — Встановити буферизацію читання файлу на вказаному потоці
-    -   [streamsettimeout](function.stream-set-timeout.html) — Встановити час очікування для потоку
-    -   [streamsetwritebuffer](function.stream-set-write-buffer.html) — Встановлює буферизацію файлу під час запису у вказаний потік
-    -   [streamsocketaccept](function.stream-socket-accept.html) — Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
-    -   [streamsocketclient](function.stream-socket-client.html) — Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
-    -   [streamsocketenablecrypto](function.stream-socket-enable-crypto.html) — Вмикає або вимикає шифрування на вже підключеному сокеті
-    -   [streamsocketgetname](function.stream-socket-get-name.html) — Отримати назву локального чи віддаленого сокету
-    -   [streamsocketpair](function.stream-socket-pair.html) — Створює пару підключених, невиразних потоків сокетів
-    -   [streamsocketrecvfrom](function.stream-socket-recvfrom.html) — Отримує дані із сокету, підключеного чи ні
-    -   [streamsocketsendto](function.stream-socket-sendto.html) — Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
-    -   [streamsocketserver](function.stream-socket-server.html) - Створює інтернет-сокет або доменний сокет Unix
-    -   [streamsocketshutdown](function.stream-socket-shutdown.html) — Закрити повнодуплексне з'єднання
-    -   [streamsupportslock](function.stream-supports-lock.html) — Визначає, чи потік підтримує блокування
-    -   [streamwrapperregister](function.stream-wrapper-register.html) - Реєструє обгортку URL, реалізовану у вигляді PHP-класу
-    -   [streamwrapperrestore](function.stream-wrapper-restore.html) — Відновлює скасовану раніше вбудовану обгортку
-    -   [streamwrapperunregister](function.stream-wrapper-unregister.html) — Скасує реєстрацію обгортки URL
+-   [Введение](intro.stream.md)
+-   [Встановлення та налаштування](stream.setup.md)
+    -   [Вимоги](stream.requirements.md)
+    -   [Установка](stream.installation.md)
+    -   [Налаштування під час виконання](stream.configuration.md)
+    -   [Класи для роботи з потоками](stream.resources.md)
+-   [Обумовлені константи](stream.constants.md)
+-   [Поточні фільтри](stream.filters.md)
+-   [Контексти потоків](stream.contexts.md)
+-   [Ошибки потока](stream.errors.md)
+-   [Примеры](stream.examples.md)
+    -   [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
+-   [phpuserfilter](class.php-user-filter.md) - Клас phpuserfilter
+    -   [phpuserfilter::filter](php-user-filter.filter.md) — Викликається, щойно застосовується фільтр
+    -   [phpuserfilter::onClose](php-user-filter.onclose.md) — Викликається під час закриття фільтра
+    -   [phpuserfilter::onCreate](php-user-filter.oncreate.md) — Викликається під час створення об'єкта фільтра
+-   [streamWrapper](class.streamwrapper.md) - Клас streamWrapper
+    -   [streamWrapper::construct](streamwrapper.construct.md) — Створює новий об'єкт обертання потоку
+    -   [streamWrapper::destruct](streamwrapper.destruct.md) — Знищує існуючу обгортку потоку
+    -   [streamWrapper::dirclosedir](streamwrapper.dir-closedir.md) - Закрити дескриптор директорії
+    -   [streamWrapper::diropendir](streamwrapper.dir-opendir.md) - Відкрити дескриптор директорії
+    -   [streamWrapper::dirreaddir](streamwrapper.dir-readdir.md) — Читання запису з дескриптора директорії
+    -   [streamWrapper::dirrewinddir](streamwrapper.dir-rewinddir.md) — Дескриптор директорії переміщення на її початку
+    -   [streamWrapper::mkdir](streamwrapper.mkdir.md) - Створення директорії
+    -   [streamWrapper::rename](streamwrapper.rename.md) — Перейменовує файл чи директорію
+    -   [streamWrapper::rmdir](streamwrapper.rmdir.md) - Видаляє директорію
+    -   [streamWrapper::streamcast](streamwrapper.stream-cast.md) — Отримує ресурс рівнем нижче
+    -   [streamWrapper::streamclose](streamwrapper.stream-close.md) - Закриває ресурс
+    -   [streamWrapper::streameof](streamwrapper.stream-eof.md) — Перевіряє досягнення кінця файлу за вказівником файлу
+    -   [streamWrapper::streamflush](streamwrapper.stream-flush.md) — скидає висновок
+    -   [streamWrapper::streamlock](streamwrapper.stream-lock.md) - Консультативне блокування файлу
+    -   [streamWrapper::streammetadata](streamwrapper.stream-metadata.md) - Змінює метадані потоку
+    -   [streamWrapper::streamopen](streamwrapper.stream-open.md) — Відкриває файл чи URL
+    -   [streamWrapper::streamread](streamwrapper.stream-read.md) - Читає з потоку
+    -   [streamWrapper::streamseek](streamwrapper.stream-seek.md) — Переміщення на задану позицію у потоці
+    -   [streamWrapper::streamsetoption](streamwrapper.stream-set-option.md) — Зміна налаштувань потоку
+    -   [streamWrapper::streamstat](streamwrapper.stream-stat.md) — Отримання інформації про файловий ресурс
+    -   [streamWrapper::streamtell](streamwrapper.stream-tell.md) — Визначення поточної позиції потоку
+    -   [streamWrapper::streamtruncate](streamwrapper.stream-truncate.md) - Усічення потоку
+    -   [streamWrapper::streamwrite](streamwrapper.stream-write.md) - Запис у потік
+    -   [streamWrapper::unlink](streamwrapper.unlink.md) — Видалення файлу
+    -   [streamWrapper::urlstat](streamwrapper.url-stat.md) — Отримання інформації про файл
+-   [Функції для роботи з потоками](ref.stream.md)
+    -   [streambucketappend](function.stream-bucket-append.md) - Додати відро (bucket) до бригади (brigade)
+    -   [streambucketmakewriteable](function.stream-bucket-make-writeable.md) — Повертає об'єкт кошика із бригади для подальшої роботи з ним
+    -   [streambucketnew](function.stream-bucket-new.md) — Створити нове цебро для використання в поточному потоці
+    -   [streambucketprepend](function.stream-bucket-prepend.md) — Додати відро на початок бригади
+    -   [streamcontextcreate](function.stream-context-create.md) - Створює контекст потоку
+    -   [streamcontextgetdefault](function.stream-context-get-default.md) — Отримує контекст потоку за умовчанням
+    -   [streamcontextgetoptions](function.stream-context-get-options.md) — Отримує опції для потоку/обгортки/контексту
+    -   [streamcontextgetparams](function.stream-context-get-params.md) — Отримує параметри із контексту
+    -   [streamcontextsetdefault](function.stream-context-set-default.md) — Встановити контекст потоку за промовчанням
+    -   [streamcontextsetoption](function.stream-context-set-option.md) — Встановлює опцію для потоку/обгортки/контексту
+    -   [streamcontextsetparams](function.stream-context-set-params.md) — Встановлює параметри потоку/обгортки/контексту
+    -   [streamcopyтоstream](function.stream-copy-to-stream.md) — Копіює дані з одного потоку до іншого
+    -   [streamfilterappend](function.stream-filter-append.md) — Прикріпити фільтр до потоку
+    -   [streamfilterprepend](function.stream-filter-prepend.md) - Прикріплює фільтр до потоку
+    -   [streamfilterregister](function.stream-filter-register.md) — Реєструє потоковий фільтр, визначений користувачем
+    -   [streamfilterremove](function.stream-filter-remove.md) — Видалити фільтр із потоку
+    -   [streamgetcontents](function.stream-get-contents.md) — Читає частину потоку, що залишилася, в рядок
+    -   [streamgetfilters](function.stream-get-filters.md) — Отримати список зареєстрованих фільтрів
+    -   [streamgetline](function.stream-get-line.md) — Отримує рядок із потокового ресурсу до вказаного роздільника
+    -   [streamgetmetadata](function.stream-get-meta-data.md) — Витягує заголовок/метадані з потоків/файлових покажчиків
+    -   [streamgettransports](function.stream-get-transports.md) - Отримати список зареєстрованих транспортів сокету
+    -   [streamgetwrappers](function.stream-get-wrappers.md) — Отримати список зареєстрованих потоків
+    -   [streamісlocal](function.stream-is-local.md) — Перевіряє, чи потік є локальним потоком
+    -   [streamisatty](function.stream-isatty.md) — Перевіряє, чи є потік TTY
+    -   [streamnotificationcallback](function.stream-notification-callback.md) — Callback-функція параметра контексту notification
+    -   [streamregisterwrapper](function.stream-register-wrapper.md) - Псевдонім streamwrapperregister
+    -   [streamresolveincludepath](function.stream-resolve-include-path.md) — Перетворити повне ім'я файлу, використовуючи шляхи увімкнення
+    -   [streamselect](function.stream-select.md) — Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
+    -   [streamsetblocking](function.stream-set-blocking.md) — Встановити блокуючий/неблокуючий режим у потоці
+    -   [streamsetchunksize](function.stream-set-chunk-size.md) — Встановити розмір фрагмента даних потоку
+    -   [streamsetreadbuffer](function.stream-set-read-buffer.md) — Встановити буферизацію читання файлу на вказаному потоці
+    -   [streamsettimeout](function.stream-set-timeout.md) — Встановити час очікування для потоку
+    -   [streamsetwritebuffer](function.stream-set-write-buffer.md) — Встановлює буферизацію файлу під час запису у вказаний потік
+    -   [streamsocketaccept](function.stream-socket-accept.md) — Приймати з'єднання в сокеті, створеному за допомогою функції streamsocketserver
+    -   [streamsocketclient](function.stream-socket-client.md) — Відкрити з'єднання з інтернет-сокетом або доменним сокетом Unix
+    -   [streamsocketenablecrypto](function.stream-socket-enable-crypto.md) — Вмикає або вимикає шифрування на вже підключеному сокеті
+    -   [streamsocketgetname](function.stream-socket-get-name.md) — Отримати назву локального чи віддаленого сокету
+    -   [streamsocketpair](function.stream-socket-pair.md) — Створює пару підключених, невиразних потоків сокетів
+    -   [streamsocketrecvfrom](function.stream-socket-recvfrom.md) — Отримує дані із сокету, підключеного чи ні
+    -   [streamsocketsendto](function.stream-socket-sendto.md) — Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+    -   [streamsocketserver](function.stream-socket-server.md) - Створює інтернет-сокет або доменний сокет Unix
+    -   [streamsocketshutdown](function.stream-socket-shutdown.md) — Закрити повнодуплексне з'єднання
+    -   [streamsupportslock](function.stream-supports-lock.md) — Визначає, чи потік підтримує блокування
+    -   [streamwrapperregister](function.stream-wrapper-register.md) - Реєструє обгортку URL, реалізовану у вигляді PHP-класу
+    -   [streamwrapperrestore](function.stream-wrapper-restore.md) — Відновлює скасовану раніше вбудовану обгортку
+    -   [streamwrapperunregister](function.stream-wrapper-unregister.md) — Скасує реєстрацію обгортки URL

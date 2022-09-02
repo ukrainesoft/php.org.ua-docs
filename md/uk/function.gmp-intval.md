@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-init.html: « gmpinit
-  - function.gmp-invert.html: gmpinvert »
+  - function.gmp-init.md: « gmpinit
+  - function.gmp-invert.md: gmpinvert »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpintval

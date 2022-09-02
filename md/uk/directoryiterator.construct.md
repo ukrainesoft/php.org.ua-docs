@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.directoryiterator.html: « DirectoryIterator
-  - directoryiterator.current.html: 'DirectoryIterator::current »'
-  - index.html: PHP Manual
-  - class.directoryiterator.html: DirectoryIterator
+  - class.directoryiterator.md: « DirectoryIterator
+  - directoryiterator.current.md: 'DirectoryIterator::current »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::construct'
 ---
 # DirectoryIterator::construct
@@ -26,15 +26,15 @@ public **DirectoryIterator::construct**(string `$directory`
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html) у разі, якщо директорія `directory` не існує.
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md) у разі, якщо директорія `directory` не існує.
 
-Викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок.
+Викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Тепер викидає виняток [ValueError](class.valueerror.html), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.html) |
+|  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.md) |
 
 ### Приклади
 
@@ -55,5 +55,5 @@ foreach ($dir as $fileinfo) {
 
 ### Дивіться також
 
--   [SplFileInfo](class.splfileinfo.html)
--   [Iterator](class.iterator.html)
+-   [SplFileInfo](class.splfileinfo.md)
+-   [Iterator](class.iterator.md)

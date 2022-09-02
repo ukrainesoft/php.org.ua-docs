@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.utf8-decode.html: « utf8decode
-  - function.vfprintf.html: vfprintf »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.utf8-decode.md: « utf8decode
+  - function.vfprintf.md: vfprintf »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: utf8encode
 ---
 # utf8encode

@@ -1,21 +1,21 @@
 ---
 navigation:
-  - parle.constants.html: « Обумовлені константи
-  - parle.regex.chars.html: Представления символов »
-  - index.html: PHP Manual
-  - book.parle.html: Parle
+  - parle.constants.md: « Обумовлені константи
+  - parle.regex.chars.md: Представления символов »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
 title: Зіставлення з шаблоном Parle
 ---
 # Зіставлення з шаблоном Parle
 
 ## Зміст
 
--   [Представления символов](parle.regex.chars.html)
--   [Класи символів](parle.regex.charclass.html)
--   [Класи символів Unicode](parle.regex.unicodecharclass.html)
--   [Чередование и повторение](parle.regex.alternation.html)
--   [Якоря](parle.regex.anchors.html)
--   [Угруповання](parle.regex.grouping.html)
+-   [Представления символов](parle.regex.chars.md)
+-   [Класи символів](parle.regex.charclass.md)
+-   [Класи символів Unicode](parle.regex.unicodecharclass.md)
+-   [Чередование и повторение](parle.regex.alternation.md)
+-   [Якоря](parle.regex.anchors.md)
+-   [Угруповання](parle.regex.grouping.md)
 
 Parle підтримує зіставлення регулярних виразів аналогічно flex. Також підтримуються такі набори символів POSIX: `[:alnum:]` `[:alpha:]` `[:blank:]` `[:cntrl:]` `[:digit:]` `[:graph:]` `[:lower:]` `[:print:]` `[:punct:]` `[:space:]` `[:upper:]` і `[:xdigit:]`
 

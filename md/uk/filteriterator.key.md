@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filteriterator.getinneriterator.html: '« FilterIterator::getInnerIterator'
-  - filteriterator.next.html: 'FilterIterator::next »'
-  - index.html: PHP Manual
-  - class.filteriterator.html: FilterIterator
+  - filteriterator.getinneriterator.md: '« FilterIterator::getInnerIterator'
+  - filteriterator.next.md: 'FilterIterator::next »'
+  - index.md: PHP Manual
+  - class.filteriterator.md: FilterIterator
 title: 'FilterIterator::key'
 ---
 # FilterIterator::key
@@ -34,5 +34,5 @@ public FilterIterator::key(): mixed
 
 ### Дивіться також
 
--   [FilterIterator::next()](filteriterator.next.html) - Переміщує ітератор до наступного елементу
--   [FilterIterator::current()](filteriterator.current.html) - Отримує значення поточного елемента
+-   [FilterIterator::next()](filteriterator.next.md) - Переміщує ітератор до наступного елементу
+-   [FilterIterator::current()](filteriterator.current.md) - Отримує значення поточного елемента

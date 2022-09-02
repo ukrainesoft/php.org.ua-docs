@@ -1,9 +1,9 @@
 ---
 navigation:
-  - install.unix.openbsd.html: '« OpenBSD, замечания по установке'
-  - install.unix.debian.html: Инструкции по установке на Debian GNU/Linux »
-  - index.html: PHP Manual
-  - install.unix.html: Встановлення на Unix-системи
+  - install.unix.openbsd.md: '« OpenBSD, замечания по установке'
+  - install.unix.debian.md: Инструкции по установке на Debian GNU/Linux »
+  - index.md: PHP Manual
+  - install.unix.md: Встановлення на Unix-системи
 title: Інструкції з інсталяції для ОС Solaris
 ---
 ## Інструкції з інсталяції для ОС Solaris
@@ -12,7 +12,7 @@ title: Інструкції з інсталяції для ОС Solaris
 
 ### Вимоги до програмного забезпечення
 
-Найчастіше у складі операційної системи Solaris відсутні компілятори мови C та супутні їм утиліти. Ознайомтеся [з цим FAQ](faq.build.html#faq.installation.needgnu)Щоб дізнатися, чому необхідно використовувати GNU-версії цих утиліт.
+Найчастіше у складі операційної системи Solaris відсутні компілятори мови C та супутні їм утиліти. Ознайомтеся [з цим FAQ](faq.build.md#faq.installation.needgnu)Щоб дізнатися, чому необхідно використовувати GNU-версії цих утиліт.
 
 Для розпакування дистрибутива PHP вам знадобиться
 

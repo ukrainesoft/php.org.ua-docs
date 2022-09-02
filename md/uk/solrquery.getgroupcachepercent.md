@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getgroup.html: '« SolrQuery::getGroup'
-  - solrquery.getgroupfacet.html: 'SolrQuery::getGroupFacet »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getgroup.md: '« SolrQuery::getGroup'
+  - solrquery.getgroupfacet.md: 'SolrQuery::getGroupFacet »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupCachePercent'
 ---
 # SolrQuery::getGroupCachePercent

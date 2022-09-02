@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.ispadded.html: '« ColumnResult::isPadded'
-  - mysql-xdevapi-crudoperationbindable.bind.html: 'CrudOperationBindable::bind »'
-  - index.html: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - mysql-xdevapi-columnresult.ispadded.md: '« ColumnResult::isPadded'
+  - mysql-xdevapi-crudoperationbindable.bind.md: 'CrudOperationBindable::bind »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Інтерфейс CrudOperationBindable
 ---
 # Інтерфейс CrudOperationBindable
@@ -34,4 +34,4 @@ title: Інтерфейс CrudOperationBindable
 
 ## Зміст
 
--   [CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.html) — Прив'язує значення до заповнювача
+-   [CrudOperationBindable::bind](mysql-xdevapi-crudoperationbindable.bind.md) — Прив'язує значення до заповнювача

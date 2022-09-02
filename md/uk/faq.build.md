@@ -190,4 +190,4 @@ $ gcc -E test.c >/dev/null
 
 **При компіляції PHP я, здається, отримую випадкові помилки, наприклад, вона зависає. Я використовую Solaris якщо це має значення.**
 
-Використання не утиліт GNU під час компіляції PHP може викликати проблеми. Щоб бути впевненим, що компіляція PHP буде працювати, використовуйте утиліти GNU. Наприклад, у Solaris, використання SunOS BSD-сумісної або Solaris версії `sed` не працюватиме, а GNU або Sun POSIX (xpg4) версії `sed` буде. Посилання: [» GNU sed](http://www.gnu.org/software/sed/sed.html) [» GNU flex](http://www.gnu.org/software/flex/flex.html), and [» GNU bison](http://www.gnu.org/software/bison/bison.md)
+Використання не утиліт GNU під час компіляції PHP може викликати проблеми. Щоб бути впевненим, що компіляція PHP буде працювати, використовуйте утиліти GNU. Наприклад, у Solaris, використання SunOS BSD-сумісної або Solaris версії `sed` не працюватиме, а GNU або Sun POSIX (xpg4) версії `sed` буде. Посилання: [» GNU sed](http://www.gnu.org/software/sed/sed.md) [» GNU flex](http://www.gnu.org/software/flex/flex.md), and [» GNU bison](http://www.gnu.org/software/bison/bison.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.decipherimage.html: '« Imagick::decipherImage'
-  - imagick.deleteimageartifact.html: 'Imagick::deleteImageArtifact »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.decipherimage.md: '« Imagick::decipherImage'
+  - imagick.deleteimageartifact.md: 'Imagick::deleteImageArtifact »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::deconstructImages'
 ---
 # Imagick::deconstructImages

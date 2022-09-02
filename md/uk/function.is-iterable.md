@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-integer.html: « isinteger
-  - function.is-long.html: ісlong »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-integer.md: « isinteger
+  - function.is-long.md: ісlong »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісiterable
 ---
 # ісiterable
@@ -18,7 +18,7 @@ title: ісiterable
 is_iterable(mixed $value): bool
 ```
 
-Перевіряє, чи вміст змінної псевдотипу відповідає [iterable](language.types.iterable.html), тобто чи вона або масивом (array), або об'єктом, що реалізує [Traversable](class.traversable.html)
+Перевіряє, чи вміст змінної псевдотипу відповідає [iterable](language.types.iterable.md), тобто чи вона або масивом (array), або об'єктом, що реалізує [Traversable](class.traversable.md)
 
 ### Список параметрів
 
@@ -48,4 +48,4 @@ var_dump(is_iterable(new stdClass()));  // bool(false)
 
 ### Дивіться також
 
--   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом

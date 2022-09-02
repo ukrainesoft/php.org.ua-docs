@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solr.setup.html: « Встановлення та налаштування
-  - solr.installation.html: Установка »
-  - index.html: PHP Manual
-  - solr.setup.html: Встановлення та налаштування
+  - solr.setup.md: « Встановлення та налаштування
+  - solr.installation.md: Установка »
+  - index.md: PHP Manual
+  - solr.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfixedarray.valid.html: '« SplFixedArray::valid'
-  - class.splobjectstorage.html: SplObjectStorage »
-  - index.html: PHP Manual
-  - class.splfixedarray.html: SplFixedArray
+  - splfixedarray.valid.md: '« SplFixedArray::valid'
+  - class.splobjectstorage.md: SplObjectStorage »
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::wakeup'
 ---
 # SplFixedArray::wakeup

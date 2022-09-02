@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine.resume.html: '« SwooleCoroutine::resume'
-  - class.swoole-event.html: SwooleEvent »
+  - swoole-coroutine.resume.md: '« SwooleCoroutine::resume'
+  - class.swoole-event.md: SwooleEvent »
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutine::suspend'
 ---
 # SwooleCoroutine::suspend

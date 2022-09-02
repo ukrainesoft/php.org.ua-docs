@@ -1,6 +1,6 @@
 ---
 navigation:
-  - pgsql.examples-basic.html: « Базовое использование
+  - pgsql.examples-basic.md: « Базовое использование
   - ref.pgsql.md: Функции PostgreSQL »
   - index.md: PHP Manual
   - pgsql.examples.md: Приклади

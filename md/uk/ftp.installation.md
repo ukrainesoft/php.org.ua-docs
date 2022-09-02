@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ftp.requirements.html: « Вимоги
-  - ftp.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - ftp.setup.html: Встановлення та налаштування
+  - ftp.requirements.md: « Вимоги
+  - ftp.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - ftp.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

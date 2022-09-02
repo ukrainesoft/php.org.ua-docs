@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ftp-put.html: « ftpput
-  - function.ftp-quit.html: ftpquit »
-  - index.html: PHP Manual
-  - ref.ftp.html: Функції FTP
+  - function.ftp-put.md: « ftpput
+  - function.ftp-quit.md: ftpquit »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
 title: ftppwd
 ---
 # ftppwd
@@ -22,7 +22,7 @@ ftp_pwd(FTP\Connection $ftp): string|false
 
 `ftp`
 
-Ан [FTPConnection](class.ftp-connection.html) instance.
+Ан [FTPConnection](class.ftp-connection.md) instance.
 
 ### Значення, що повертаються
 
@@ -32,7 +32,7 @@ ftp_pwd(FTP\Connection $ftp): string|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -60,5 +60,5 @@ ftp_close($ftp);
 
 ### Дивіться також
 
--   [ftpchdir()](function.ftp-chdir.html) - Змінює поточну директорію на FTP-сервері
--   [ftpcdup()](function.ftp-cdup.html) - Переходить до батьківської директорії
+-   [ftpchdir()](function.ftp-chdir.md) - Змінює поточну директорію на FTP-сервері
+-   [ftpcdup()](function.ftp-cdup.md) - Переходить до батьківської директорії

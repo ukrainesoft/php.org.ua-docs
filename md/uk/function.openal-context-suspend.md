@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-context-process.html: « openalcontextprocess
-  - function.openal-device-close.html: openaldeviceclose »
+  - function.openal-context-process.md: « openalcontextprocess
+  - function.openal-device-close.md: openaldeviceclose »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalcontextsuspend

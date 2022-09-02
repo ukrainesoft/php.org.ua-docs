@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-int64.html: « MongoDBBSONInt64
-  - mongodb-bson-int64.jsonserialize.html: 'MongoDBBSONInt64::jsonSerialize »'
+  - class.mongodb-bson-int64.md: « MongoDBBSONInt64
+  - mongodb-bson-int64.jsonserialize.md: 'MongoDBBSONInt64::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-int64.html: MongoDBBSONInt64
+  - class.mongodb-bson-int64.md: MongoDBBSONInt64
 title: 'MongoDBBSONInt64::construct'
 ---
 # MongoDBBSONInt64::construct

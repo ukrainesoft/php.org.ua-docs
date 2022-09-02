@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.filter-input.html: « filterinput
-  - function.filter-var-array.html: filtervararray »
-  - index.html: PHP Manual
-  - ref.filter.html: Функції фільтрації даних
+  - function.filter-input.md: « filterinput
+  - function.filter-var-array.md: filtervararray »
+  - index.md: PHP Manual
+  - ref.filter.md: Функції фільтрації даних
 title: filterlist
 ---
 # filterlist
@@ -24,7 +24,7 @@ filter_list(): array
 
 ### Значення, що повертаються
 
-Повертає масив імен усіх фільтрів, що підтримуються, порожній масив, якщо таких фільтрів не існує. Ідентифікатори (ID) фільтрів не є ключами цього масиву, вони можуть бути отримані за допомогою функції [filterid()](function.filter-id.html) на ім'я фільтра.
+Повертає масив імен усіх фільтрів, що підтримуються, порожній масив, якщо таких фільтрів не існує. Ідентифікатори (ID) фільтрів не є ключами цього масиву, вони можуть бути отримані за допомогою функції [filterid()](function.filter-id.md) на ім'я фільтра.
 
 ### Приклади
 

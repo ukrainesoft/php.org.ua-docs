@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-set-value.html: «pssetvalue
-  - function.ps-setdash.html: псsetdash »
+  - function.ps-set-value.md: «pssetvalue
+  - function.ps-setdash.md: псsetdash »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetcolor

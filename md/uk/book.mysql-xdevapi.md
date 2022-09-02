@@ -1,7 +1,7 @@
 ---
 navigation:
   - changelog.mysqli.md: « Список изменений
-  - intro.mysql-xdevapi.html: Введение »
+  - intro.mysql-xdevapi.md: Введение »
   - index.md: PHP Manual
   - set.mysqlinfo.md: MySQL
 title: Mysqlxdevapi

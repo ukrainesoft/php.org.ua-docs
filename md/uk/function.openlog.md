@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.net-get-interfaces.html: « netgetinterfaces
-  - function.pfsockopen.html: pfsockopen »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.net-get-interfaces.md: « netgetinterfaces
+  - function.pfsockopen.md: pfsockopen »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: openlog
 ---
 # openlog
@@ -20,7 +20,7 @@ openlog(string $prefix, int $flags, int $facility): bool
 
 Функція **openlog()** відкриває з'єднання до системного журналу програми.
 
-Використання **openlog()** не є обов'язковим. Ця функція за необхідності буде викликана функцією [syslog()](function.syslog.html) автоматично, при цьому параметр `prefix` буде за умовчанням рівний **`false`**
+Використання **openlog()** не є обов'язковим. Ця функція за необхідності буде викликана функцією [syslog()](function.syslog.md) автоматично, при цьому параметр `prefix` буде за умовчанням рівний **`false`**
 
 ### Список параметрів
 
@@ -75,5 +75,5 @@ openlog(string $prefix, int $flags, int $facility): bool
 
 ### Дивіться також
 
--   [syslog()](function.syslog.html) - Генерує повідомлення для системного журналу
--   [closelog()](function.closelog.html) - Закриває з'єднання із системним журналом
+-   [syslog()](function.syslog.md) - Генерує повідомлення для системного журналу
+-   [closelog()](function.closelog.md) - Закриває з'єднання із системним журналом

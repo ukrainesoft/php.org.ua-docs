@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.getexternalattributesindex.html: '« ZipArchive::getExternalAttributesIndex'
-  - ziparchive.getfromindex.html: 'ZipArchive::getFromIndex »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.getexternalattributesindex.md: '« ZipArchive::getExternalAttributesIndex'
+  - ziparchive.getfromindex.md: 'ZipArchive::getFromIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getExternalAttributesName'
 ---
 # ZipArchive::getExternalAttributesName

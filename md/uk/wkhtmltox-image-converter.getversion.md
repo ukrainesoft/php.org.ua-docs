@@ -1,9 +1,9 @@
 ---
 navigation:
-  - wkhtmltox-image-converter.convert.html: '« wkhtmltoxImageConverter::convert'
+  - wkhtmltox-image-converter.convert.md: '« wkhtmltoxImageConverter::convert'
   - book.ps.md: PS »
   - index.md: PHP Manual
-  - class.wkhtmltox-image-converter.html: wkhtmltoxImageConverter
+  - class.wkhtmltox-image-converter.md: wkhtmltoxImageConverter
 title: 'wkhtmltoxImageConverter::getVersion'
 ---
 # wkhtmltoxImageConverter::getVersion

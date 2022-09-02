@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phardata.addfromstring.html: '« PharData::addFromString'
-  - phardata.buildfromiterator.html: 'PharData::buildFromIterator »'
-  - index.html: PHP Manual
-  - class.phardata.html: PharData
+  - phardata.addfromstring.md: '« PharData::addFromString'
+  - phardata.buildfromiterator.md: 'PharData::buildFromIterator »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
 title: 'PharData::buildFromDirectory'
 ---
 # PharData::buildFromDirectory
@@ -36,7 +36,7 @@ public PharData::buildFromDirectory(string $directory, string $pattern = ""): ar
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html)якщо не вдається ініціалізувати внутрішні ітератори директорії. Виняток [PharException](class.pharexception.md) викидається при помилках запису на диск.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md)якщо не вдається ініціалізувати внутрішні ітератори директорії. Виняток [PharException](class.pharexception.md) викидається при помилках запису на диск.
 
 ### список змін
 

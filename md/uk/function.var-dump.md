@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.unset.md: « unset
-  - function.var-export.html: varexport »
+  - function.var-export.md: varexport »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: vardump
@@ -20,7 +20,7 @@ var_dump(mixed $value, mixed ...$values): void
 
 Функція відображає структуровану інформацію про один або кілька виразів, включаючи їх тип та значення. Масиви та об'єкти аналізуються рекурсивно з різним відступом у значень візуального відображення структури.
 
-Усі загальнодоступні, закриті та захищені властивості об'єкта будуть повернуті при виведенні, якщо об'єкт не реалізує метод [debugInfo()](language.oop5.magic.html#language.oop5.magic.debuginfo)
+Усі загальнодоступні, закриті та захищені властивості об'єкта будуть повернуті при виведенні, якщо об'єкт не реалізує метод [debugInfo()](language.oop5.magic.md#language.oop5.magic.debuginfo)
 
 **Підказка**
 
@@ -93,4 +93,4 @@ bool(true)
 -   [printr()](function.print-r.md) - Виводить зручну для читання інформацію про змінну
 -   [debugzvaldump()](function.debug-zval-dump.md) - Виводить рядкову виставу внутрішньої структури zval
 -   [varexport()](function.var-export.md) - Виводить або повертає інтерпретоване рядкове подання змінної
--   [debugInfo()](language.oop5.magic.html#language.oop5.magic.debuginfo)
+-   [debugInfo()](language.oop5.magic.md#language.oop5.magic.debuginfo)

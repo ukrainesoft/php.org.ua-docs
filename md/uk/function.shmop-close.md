@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.shmop.md: '« Пам''ять, що розділяється (shared)'
-  - function.shmop-delete.html: shmopdelete »
+  - function.shmop-delete.md: shmopdelete »
   - index.md: PHP Manual
   - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
 title: shmopclose

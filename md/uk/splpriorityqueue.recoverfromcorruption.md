@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splpriorityqueue.next.html: '« SplPriorityQueue::next'
-  - splpriorityqueue.rewind.html: 'SplPriorityQueue::rewind »'
-  - index.html: PHP Manual
-  - class.splpriorityqueue.html: SplPriorityQueue
+  - splpriorityqueue.next.md: '« SplPriorityQueue::next'
+  - splpriorityqueue.rewind.md: 'SplPriorityQueue::rewind »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
 title: 'SplPriorityQueue::recoverFromCorruption'
 ---
 # SplPriorityQueue::recoverFromCorruption

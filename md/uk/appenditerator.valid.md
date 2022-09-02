@@ -1,9 +1,9 @@
 ---
 navigation:
-  - appenditerator.rewind.html: '« AppendIterator::rewind'
-  - class.arrayiterator.html: ArrayIterator »
-  - index.html: PHP Manual
-  - class.appenditerator.html: AppendIterator
+  - appenditerator.rewind.md: '« AppendIterator::rewind'
+  - class.arrayiterator.md: ArrayIterator »
+  - index.md: PHP Manual
+  - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::valid'
 ---
 # AppendIterator::valid
@@ -30,7 +30,7 @@ public AppendIterator::valid(): bool
 
 ### Дивіться також
 
--   [AppendIterator::current()](appenditerator.current.html) - Повертає поточне значення
--   [AppendIterator::key()](appenditerator.key.html) - Повертає поточний ключ
--   [AppendIterator::next()](appenditerator.next.html) - Переходить до наступного елементу
--   [AppendIterator::rewind()](appenditerator.rewind.html) - перемотує ітератор
+-   [AppendIterator::current()](appenditerator.current.md) - Повертає поточне значення
+-   [AppendIterator::key()](appenditerator.key.md) - Повертає поточний ключ
+-   [AppendIterator::next()](appenditerator.next.md) - Переходить до наступного елементу
+-   [AppendIterator::rewind()](appenditerator.rewind.md) - перемотує ітератор

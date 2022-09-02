@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-commit.html: « odbccommit
-  - function.odbc-cursor.html: odbccursor »
+  - function.odbc-commit.md: « odbccommit
+  - function.odbc-cursor.md: odbccursor »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcconnect

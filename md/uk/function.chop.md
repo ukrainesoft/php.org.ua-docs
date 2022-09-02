@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.bin2hex.html: « bin2hex
-  - function.chr.html: chr »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.bin2hex.md: « bin2hex
+  - function.chr.md: chr »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: chop
 ---
 # chop

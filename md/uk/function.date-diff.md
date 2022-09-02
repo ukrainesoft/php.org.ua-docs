@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-default-timezone-set.html: « datedefaulttimezoneset
-  - function.date-format.html: dateformat »
+  - function.date-default-timezone-set.md: « datedefaulttimezoneset
+  - function.date-format.md: dateformat »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datediff

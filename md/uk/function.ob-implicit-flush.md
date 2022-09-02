@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ob-gzhandler.html: « obgzhandler
-  - function.ob-list-handlers.html: проlisthandlers »
-  - index.html: PHP Manual
-  - ref.outcontrol.html: Функції контролю виведення
+  - function.ob-gzhandler.md: « obgzhandler
+  - function.ob-list-handlers.md: проlisthandlers »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
 title: проimplicitflush
 ---
 # проimplicitflush

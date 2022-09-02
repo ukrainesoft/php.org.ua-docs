@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-regex.jsonserialize.html: '« MongoDBBSONRegex::jsonSerialize'
-  - mongodb-bson-regex.tostring.html: 'MongoDBBSONRegex::toString »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+  - mongodb-bson-regex.jsonserialize.md: '« MongoDBBSONRegex::jsonSerialize'
+  - mongodb-bson-regex.tostring.md: 'MongoDBBSONRegex::toString »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-regex.md: MongoDBBSONRegex
 title: 'MongoDBBSONRegex::serialize'
 ---
 # MongoDBBSONRegex::serialize
@@ -24,14 +24,14 @@ final public MongoDB\BSON\Regex::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONRegex](class.mongodb-bson-regex.html)
+Повертає серіалізовану виставу [MongoDBBSONRegex](class.mongodb-bson-regex.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONRegex::unserialize()](mongodb-bson-regex.unserialize.html) - десеріалізує Regex
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання уявлення змінної
--   [Серіалізація об'єктів](language.oop5.serialization.html)
+-   [MongoDBBSONRegex::unserialize()](mongodb-bson-regex.unserialize.md) - десеріалізує Regex
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання уявлення змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

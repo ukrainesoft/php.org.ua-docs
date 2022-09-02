@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.add.html: '« DateTime::add'
-  - datetime.createfromformat.html: 'DateTime::createFromFormat »'
-  - index.html: PHP Manual
-  - class.datetime.html: DateTime
+  - datetime.add.md: '« DateTime::add'
+  - datetime.createfromformat.md: 'DateTime::createFromFormat »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
 title: 'DateTime::construct'
 ---
 # DateTime::construct
@@ -14,9 +14,9 @@ DateTime::construct - Конструктор класу DateTime
 
 ### Опис
 
-public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class.datetimezone.html) `$timezone` **`null`**
+public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class.datetimezone.md) `$timezone` **`null`**
 
-Подібний до конструктора [DateTimeImmutable::construct()](datetimeimmutable.construct.html), крім роботи з об'єктом [DateTime](class.datetime.html). Замість цього класу розгляньте можливість використання класу [DateTimeImmutable](class.datetimeimmutable.html)
+Подібний до конструктора [DateTimeImmutable::construct()](datetimeimmutable.construct.md), крім роботи з об'єктом [DateTime](class.datetime.md). Замість цього класу розгляньте можливість використання класу [DateTimeImmutable](class.datetimeimmutable.md)
 
 Повертає новий об'єкт DateTime.
 
@@ -24,13 +24,13 @@ public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class
 
 `datetime`
 
-Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Формати дати та часу](datetime.formats.html)
+Рядок дати/часу. Пояснення коректних форматів наведено в розділі [Формати дати та часу](datetime.formats.md)
 
 Якщо використовується аргумент `$timezone`, то для отримання поточного часу в новому об'єкті достатньо передати `"now"` як цей аргумент.
 
 `timezone`
 
-Об'єкт класу [DateTimeZone](class.datetimezone.html), що представляє часовий пояс параметра `$datetime`
+Об'єкт класу [DateTimeZone](class.datetimezone.md), що представляє часовий пояс параметра `$datetime`
 
 Якщо аргумент `$timezone` не заданий або **`null`**, буде використано поточний часовий пояс.
 
@@ -44,4 +44,4 @@ public **DateTime::construct**(string `$datetime` = "now", ?[DateTimeZone](class
 
 ### Дивіться також
 
--   [DateTimeImmutable::construct()](datetimeimmutable.construct.html) - Повертає новий об'єкт DateTimeImmutable
+-   [DateTimeImmutable::construct()](datetimeimmutable.construct.md) - Повертає новий об'єкт DateTimeImmutable

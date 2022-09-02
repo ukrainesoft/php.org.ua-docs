@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.addhighlightfield.html: '« SolrQuery::addHighlightField'
-  - solrquery.addmltqueryfield.html: 'SolrQuery::addMltQueryField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.addhighlightfield.md: '« SolrQuery::addHighlightField'
+  - solrquery.addmltqueryfield.md: 'SolrQuery::addMltQueryField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::addMltField'
 ---
 # SolrQuery::addMltField

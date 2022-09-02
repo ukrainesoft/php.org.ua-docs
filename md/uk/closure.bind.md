@@ -1,9 +1,9 @@
 ---
 navigation:
-  - closure.construct.html: '« Closure::construct'
-  - closure.bindto.html: 'Closure::bindTo »'
-  - index.html: PHP Manual
-  - class.closure.html: Closure
+  - closure.construct.md: '« Closure::construct'
+  - closure.bindto.md: 'Closure::bindTo »'
+  - index.md: PHP Manual
+  - class.closure.md: Closure
 title: 'Closure::bind'
 ---
 # Closure::bind
@@ -18,7 +18,7 @@ Closure::bind — Дублює замикання із зазначенням к
 public static Closure::bind(Closure $closure, ?object $newThis, object|string|null $newScope = "static"): ?Closure
 ```
 
-Цей метод є статичним варіантом [Closure::bindTo()](closure.bindto.html). Дивіться документацію до цього методу для детальної інформації.
+Цей метод є статичним варіантом [Closure::bindTo()](closure.bindto.md). Дивіться документацію до цього методу для детальної інформації.
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ public static Closure::bind(Closure $closure, ?object $newThis, object|string|nu
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [Closure](class.closure.html) або **`null`** у разі виникнення помилки.
+Повертає новий об'єкт [Closure](class.closure.md) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -71,5 +71,5 @@ echo $bcl2(), "\n";
 
 ### Дивіться також
 
--   [Анонімні функції](functions.anonymous.html)
--   [Closure::bindTo()](closure.bindto.html) - Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу
+-   [Анонімні функції](functions.anonymous.md)
+-   [Closure::bindTo()](closure.bindto.md) - Дублює замикання із зазначенням пов'язаного об'єкта та області видимості класу

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - openssl.purpose-check.html: « Прапори перевірки
-  - openssl.key-types.html: Типи ключів »
-  - index.html: PHP Manual
-  - openssl.constants.html: Обумовлені константи
+  - openssl.purpose-check.md: « Прапори перевірки
+  - openssl.key-types.md: Типи ключів »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
 title: Прапори заповнення для асиметричного шифрування
 ---
 ## Прапори заповнення для асиметричного шифрування

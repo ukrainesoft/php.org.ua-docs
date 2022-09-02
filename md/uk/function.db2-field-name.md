@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-field-display-size.html: « db2fielddisplaysize
-  - function.db2-field-num.html: db2fieldnum »
+  - function.db2-field-display-size.md: « db2fielddisplaysize
+  - function.db2-field-num.md: db2fieldnum »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2fieldname
 ---
 # db2fieldname

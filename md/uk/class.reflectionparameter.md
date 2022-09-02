@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionobject.export.html: '« ReflectionObject::export'
-  - reflectionparameter.allowsnull.html: 'ReflectionParameter::allowsNull »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionobject.export.md: '« ReflectionObject::export'
+  - reflectionparameter.allowsnull.md: 'ReflectionParameter::allowsNull »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас ReflectionParameter
 ---
 # Клас ReflectionParameter
@@ -14,7 +14,7 @@ title: Клас ReflectionParameter
 
 Клас **ReflectionParameter** повідомляє інформацію про параметри методів та функцій.
 
-Щоб мати можливість дослідити аргументи функції, спочатку створіть екземпляр класу [ReflectionFunction](class.reflectionfunction.html) або [ReflectionMethod](class.reflectionmethod.html), а потім використовуйте його метод [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) для одержання масиву аргументів.
+Щоб мати можливість дослідити аргументи функції, спочатку створіть екземпляр класу [ReflectionFunction](class.reflectionfunction.md) або [ReflectionMethod](class.reflectionmethod.md), а потім використовуйте його метод [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) для одержання масиву аргументів.
 
 ## Огляд класів
 

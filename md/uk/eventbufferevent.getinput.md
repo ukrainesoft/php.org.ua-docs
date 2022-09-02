@@ -21,7 +21,7 @@ public
 
 Повертає базовий вхідний буфер, пов'язаний із поточною буферною подією. Вхідний буфер - це сховище для читання.
 
-Зверніть увагу, що є також `[input](class.eventbufferevent.html#eventbufferevent.props.input)` властивість класу [EventBufferEvent](class.eventbufferevent.md)
+Зверніть увагу, що є також `[input](class.eventbufferevent.md#eventbufferevent.props.input)` властивість класу [EventBufferEvent](class.eventbufferevent.md)
 
 ### Список параметрів
 

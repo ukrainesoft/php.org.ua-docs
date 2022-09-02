@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-set-min-parallel.html: « eiosetminparallel
-  - function.eio-statvfs.html: eiostatvfs »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-set-min-parallel.md: « eiosetminparallel
+  - function.eio-statvfs.md: eiostatvfs »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eioстати
 ---
 # eioстати

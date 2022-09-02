@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-kx-keypair.html: « sodiumcryptoкксkeypair
-  - function.sodium-crypto-kx-secretkey.html: sodiumcryptoкксsecretkey »
+  - function.sodium-crypto-kx-keypair.md: « sodiumcryptoкксkeypair
+  - function.sodium-crypto-kx-secretkey.md: sodiumcryptoкксsecretkey »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptoкксpublickey

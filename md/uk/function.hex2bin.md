@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.hebrevc.md: « hebrevc
-  - function.html-entity-decode.html: htmlentitydecode »
+  - function.html-entity-decode.md: htmlentitydecode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: hex2bin

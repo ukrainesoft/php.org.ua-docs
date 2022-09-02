@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-learning-rate.html: « fanngetlearningrate
-  - function.fann-get-network-type.html: fanngetnetworktype »
+  - function.fann-get-learning-rate.md: « fanngetlearningrate
+  - function.fann-get-network-type.md: fanngetnetworktype »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetMSE

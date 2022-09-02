@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-format.italic.html: '« VtifulKernelFormat::italic'
+  - vtiful-kernel-format.italic.md: '« VtifulKernelFormat::italic'
   - refs.fileprocess.process.md: Модули для управления процессами программ »
   - index.md: PHP Manual
-  - class.vtiful-kernel-format.html: VtifulKernelFormat
+  - class.vtiful-kernel-format.md: VtifulKernelFormat
 title: 'VtifulKernelFormat::underline'
 ---
 # VtifulKernelFormat::underline

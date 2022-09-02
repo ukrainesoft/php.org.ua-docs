@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.geoip-isp-by-name.html: « geoipispбname
-  - function.geoip-org-by-name.html: geoiporgбname »
+  - function.geoip-isp-by-name.md: « geoipispбname
+  - function.geoip-org-by-name.md: geoiporgбname »
   - index.md: PHP Manual
   - ref.geoip.md: Функции GeoIP
 title: geoipnetspeedcellбname

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - cmark.setup.html: « Встановлення та налаштування
-  - cmark.installation.html: Установка »
-  - index.html: PHP Manual
-  - cmark.setup.html: Встановлення та налаштування
+  - cmark.setup.md: « Встановлення та налаштування
+  - cmark.installation.md: Установка »
+  - index.md: PHP Manual
+  - cmark.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

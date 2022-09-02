@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-area.ondraw.html: '« UIArea::onDraw'
-  - ui-area.onmouse.html: 'ОЙArea::onMouse »'
-  - index.html: PHP Manual
-  - class.ui-area.html: ОЙArea
+  - ui-area.ondraw.md: '« UIArea::onDraw'
+  - ui-area.onmouse.md: 'ОЙArea::onMouse »'
+  - index.md: PHP Manual
+  - class.ui-area.md: ОЙArea
 title: 'ОЙArea::onKey'
 ---
 # ОЙArea::onKey

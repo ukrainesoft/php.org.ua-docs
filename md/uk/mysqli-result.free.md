@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.field-seek.html: '« mysqliresult::fieldseek'
-  - mysqli-result.getiterator.html: 'mysqliresult::getIterator »'
+  - mysqli-result.field-seek.md: '« mysqliresult::fieldseek'
+  - mysqli-result.getiterator.md: 'mysqliresult::getIterator »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::free'
 ---
 # mysqliresult::free
@@ -46,7 +46,7 @@ mysqli_free_result(mysqli_result $result): void
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 

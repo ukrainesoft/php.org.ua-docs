@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-fetch-object.html: « pgfetchobject
-  - function.pg-fetch-row.html: пгfetchrow »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-fetch-object.md: « pgfetchobject
+  - function.pg-fetch-row.md: пгfetchrow »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгfetchresult
 ---
 # пгfetchresult
@@ -22,7 +22,7 @@ pg_fetch_result(PgSql\Result $result, int $row, mixed $field): string|false|null
 pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 ```
 
-**пгfetchresult()** повертає значення комірки таблиці примірника [PgSqlResult](class.pgsql-result.html)
+**пгfetchresult()** повертає значення комірки таблиці примірника [PgSqlResult](class.pgsql-result.md)
 
 > **Зауваження**
 > 
@@ -32,7 +32,7 @@ pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 
@@ -52,7 +52,7 @@ pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -78,5 +78,5 @@ echo "Первое поле во второй строчке резуль�
 
 ### Дивіться також
 
--   [пгquery()](function.pg-query.html) - Виконує запит
--   [пгfetcharray()](function.pg-fetch-array.html) - Повертає рядок результату у вигляді масиву
+-   [пгquery()](function.pg-query.md) - Виконує запит
+-   [пгfetcharray()](function.pg-fetch-array.md) - Повертає рядок результату у вигляді масиву

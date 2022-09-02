@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.geoip-region-by-name.html: « geoipregionбname
-  - function.geoip-setup-custom-directory.html: geoipsetupcustomdirectory »
-  - index.html: PHP Manual
-  - ref.geoip.html: Функции GeoIP
+  - function.geoip-region-by-name.md: « geoipregionбname
+  - function.geoip-setup-custom-directory.md: geoipsetupcustomdirectory »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
 title: geoipregionnameбcode
 ---
 # geoipregionnameбcode
@@ -30,11 +30,11 @@ geoip_region_name_by_code(string $country_code, string $region_code): string
 
 `country_code`
 
-Двохлітерний код країни [geoipcountrycodeбname()](function.geoip-country-code-by-name.html)
+Двохлітерний код країни [geoipcountrycodeбname()](function.geoip-country-code-by-name.md)
 
 `region_code`
 
-Дволітерний (або цифровий) код регіону [geoipregionбname()](function.geoip-region-by-name.html)
+Дволітерний (або цифровий) код регіону [geoipregionбname()](function.geoip-region-by-name.md)
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-getrlimit.html: « posixgetrlimit
-  - function.posix-getuid.html: posixgetuid »
+  - function.posix-getrlimit.md: « posixgetrlimit
+  - function.posix-getuid.md: posixgetuid »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixgetsid

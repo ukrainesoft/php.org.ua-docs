@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-sftp-realpath.html: « ssh2sftprealpath
-  - function.ssh2-sftp-rmdir.html: ssh2sftprmdir »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-sftp-realpath.md: « ssh2sftprealpath
+  - function.ssh2-sftp-rmdir.md: ssh2sftprmdir »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2sftprename
 ---
 # ssh2sftprename

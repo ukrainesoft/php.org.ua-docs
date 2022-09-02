@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-layout.construct.html: '« UIDrawTextLayout::construct'
-  - ui-draw-text-layout.setwidth.html: 'ОЙDrawTextLayout::setWidth »'
+  - ui-draw-text-layout.construct.md: '« UIDrawTextLayout::construct'
+  - ui-draw-text-layout.setwidth.md: 'ОЙDrawTextLayout::setWidth »'
   - index.md: PHP Manual
-  - class.ui-draw-text-layout.html: ОЙDrawTextLayout
+  - class.ui-draw-text-layout.md: ОЙDrawTextLayout
 title: 'ОЙDrawTextLayout::setColor'
 ---
 # ОЙDrawTextLayout::setColor

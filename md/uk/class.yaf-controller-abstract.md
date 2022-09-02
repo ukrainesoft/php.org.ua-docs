@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-config-simple.valid.html: '« YafConfigSimple::valid'
-  - yaf-controller-abstract.construct.html: 'YafControllerAbstract::construct »'
+  - yaf-config-simple.valid.md: '« YafConfigSimple::valid'
+  - yaf-controller-abstract.construct.md: 'YafControllerAbstract::construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafControllerAbstract
@@ -20,7 +20,7 @@ title: Клас YafControllerAbstract
 
 Якщо ви визначили метод init() у своєму контролері користувача, він буде викликатися доти, поки буде створено екземпляр контролера.
 
-У дії під час надходження запиту може бути аргументи. Якщо в параметрах запиту є та сама змінна імені ([YafRequestAbstract::getParam()](yaf-request-abstract.getparam.html)) після перенаправлення, Yaf передасть їх методу дії ([YafActionAbstract::execute()](yaf-action-abstract.execute.md)
+У дії під час надходження запиту може бути аргументи. Якщо в параметрах запиту є та сама змінна імені ([YafRequestAbstract::getParam()](yaf-request-abstract.getparam.md)) після перенаправлення, Yaf передасть їх методу дії ([YafActionAbstract::execute()](yaf-action-abstract.execute.md)
 
 > **Зауваження**
 > 

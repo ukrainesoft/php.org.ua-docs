@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagebackgroundcolor.html: '« Imagick::getImageBackgroundColor'
-  - imagick.getimageblueprimary.html: 'Imagick::getImageBluePrimary »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagebackgroundcolor.md: '« Imagick::getImageBackgroundColor'
+  - imagick.getimageblueprimary.md: 'Imagick::getImageBluePrimary »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageBlob'
 ---
 # Imagick::getImageBlob

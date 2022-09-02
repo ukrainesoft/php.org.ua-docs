@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-allow-exit.html: « uopzallowexit
-  - function.uopz-compose.html: uopzcompose »
+  - function.uopz-allow-exit.md: « uopzallowexit
+  - function.uopz-compose.md: uopzcompose »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzbackup

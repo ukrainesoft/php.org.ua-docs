@@ -1,87 +1,87 @@
 ---
 navigation:
-  - function.commonmark-render-xml.html: « CommonMarkRenderXML
-  - intro.parle.html: Введение »
-  - index.html: PHP Manual
-  - refs.basic.text.html: Обработка текста
+  - function.commonmark-render-xml.md: « CommonMarkRenderXML
+  - intro.parle.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.text.md: Обработка текста
 title: Розбір та лексування
 ---
 # Розбір та лексування
 
--   [Введение](intro.parle.html)
--   [Встановлення та налаштування](parle.setup.html)
-    -   [Вимоги](parle.requirements.html)
-    -   [Установка](parle.installation.html)
--   [Обумовлені константи](parle.constants.html)
--   [Сопоставление с шаблоном](parle.pattern.matching.html) — Зіставлення із шаблоном Parle
-    -   [Представления символов](parle.regex.chars.html)
-    -   [Класи символів](parle.regex.charclass.html)
-    -   [Класи символів Unicode](parle.regex.unicodecharclass.html)
-    -   [Чередование и повторение](parle.regex.alternation.html)
-    -   [Якоря](parle.regex.anchors.html)
-    -   [Угруповання](parle.regex.grouping.html)
--   [Приклади](parle.examples.html)
-    -   [Приклади використання лексера](parle.examples.lexer.html)
-    -   [Пример использования парсера](parle.examples.parser.html)
--   [ParleLexer](class.parle-lexer.html) - Клас ParleLexer
-    -   [ParleLexer::advance](parle-lexer.advance.html) - Обробляє таке правило лексера
-    -   [ParleLexer::build](parle-lexer.build.html) - Завершує набір правил лексера
-    -   [ParleLexer::callout](parle-lexer.callout.html) - Визначає callback-функцію токена
-    -   [ParleLexer::consume](parle-lexer.consume.html) - Передає дані на обробку
-    -   [ParleLexer::dump](parle-lexer.dump.html) - Виводить стан пристрою
-    -   [ParleLexer::getToken](parle-lexer.gettoken.html) — Отримує поточний токен
-    -   [ParleLexer::insertMacro](parle-lexer.insertmacro.html) — Вставляє макрос регулярного виразу
-    -   [ParleLexer::push](parle-lexer.push.html) - Додає правило лексера
-    -   [ParleLexer::reset](parle-lexer.reset.html) - скидає лексер
--   [ParleRLexer](class.parle-rlexer.html) - Клас ParleRLexer
-    -   [ParleRLexer::advance](parle-rlexer.advance.html) - Обробка наступного правила лексера
-    -   [ParleRLexer::build](parle-rlexer.build.html) - Завершує набір правил лексера
-    -   [ParleRLexer::callout](parle-rlexer.callout.html) - Визначає callback-функцію токена
-    -   [ParleRLexer::consume](parle-rlexer.consume.html) — Передає дані для обробки
-    -   [ParleRLexer::dump](parle-rlexer.dump.html) — Вивантажує стан пристрою
-    -   [ParleRLexer::getToken](parle-rlexer.gettoken.html) - в
-    -   [ParleRLexer::insertMacro](parle-rlexer.insertmacro.html) — Вставляє макрос регулярного виразу
-    -   [ParleRLexer::push](parle-rlexer.push.html) - Додає правило лексера
-    -   [ParleRLexer::pushState](parle-rlexer.pushstate.html) - Просуває новий початковий стан
-    -   [ParleRLexer::reset](parle-rlexer.reset.html) - скидає лексер
--   [ParleParser](class.parle-parser.html) - Клас ParleParser
-    -   [ParleParser::advance](parle-parser.advance.html) - Обробляє наступне правило парсера
-    -   [ParleParser::build](parle-parser.build.html) - Завершує граматичні правила
-    -   [ParleParser::consume](parle-parser.consume.html) — Використовує дані для обробки
-    -   [ParleParser::dump](parle-parser.dump.html) - Виводить граматику
-    -   [ParleParser::errorInfo](parle-parser.errorinfo.html) — Отримує інформацію про помилку
-    -   [ParleParser::left](parle-parser.left.html) - Оголошує токен з лівою асоціативністю
-    -   [ParleParser::nonassoc](parle-parser.nonassoc.html) - Оголошує токен без асоціативності
-    -   [ParleParser::precedence](parle-parser.precedence.html) — Оголошує правило пріоритету
-    -   [ParleParser::push](parle-parser.push.html) — Додає граматичне правило
-    -   [ParleParser::reset](parle-parser.reset.html) — скидає стан парсера
-    -   [ParleParser::right](parle-parser.right.html) — Оголошує токен із правою асоціативністю
-    -   [ParleParser::sigil](parle-parser.sigil.html) — Витягує частину збігу за правилом
-    -   [ParleParser::token](parle-parser.token.html) - Оголошує токен
-    -   [ParleParser::tokenId](parle-parser.tokenid.html) — Отримує ідентифікатор токена
-    -   [ParleParser::trace](parle-parser.trace.html) — Слідкує за роботою парсера
-    -   [ParleParser::validate](parle-parser.validate.html) - Перевіряє вхідні дані
--   [ParleRParser](class.parle-rparser.html) - Клас ParleRParser
-    -   [ParleRParser::advance](parle-rparser.advance.html) - Обробка наступного правила парсера
-    -   [ParleRParser::build](parle-rparser.build.html) - Завершує граматичні правила
-    -   [ParleRParser::consume](parle-rparser.consume.html) — Використовувати дані для обробки
-    -   [ParleRParser::dump](parle-rparser.dump.html) - Виводить граматику
-    -   [ParleRParser::errorInfo](parle-rparser.errorinfo.html) — Отримує інформацію про помилку
-    -   [ParleRParser::left](parle-rparser.left.html) - Оголошує токен з лівою асоціативністю
-    -   [ParleRParser::nonassoc](parle-rparser.nonassoc.html) - Оголошує токен без асоціативності
-    -   [ParleRParser::precedence](parle-rparser.precedence.html) — Оголошує правило пріоритету
-    -   [ParleRParser::push](parle-rparser.push.html) — Додає граматичне правило
-    -   [ParleRParser::reset](parle-rparser.reset.html) — скидає стан парсера
-    -   [ParleRParser::right](parle-rparser.right.html) — Оголошує токен із правою асоціативністю
-    -   [ParleRParser::sigil](parle-rparser.sigil.html) — Витягує збігаючу частину за правилом
-    -   [ParleRParser::token](parle-rparser.token.html) - Оголошує токен
-    -   [ParleRParser::tokenId](parle-rparser.tokenid.html) — Отримує ідентифікатор токена
-    -   [ParleRParser::trace](parle-rparser.trace.html) — Слідкує за роботою парсера
-    -   [ParleRParser::validate](parle-rparser.validate.html) - Перевіряє вхідні дані
--   [ParleStack](class.parle-stack.html) - Клас ParleStack
-    -   [ParleStack::pop](parle-stack.pop.html) — Витягує предмет із стеку
-    -   [ParleStack::push](parle-stack.push.html) — Поміщає елемент у стек
--   [ParleToken](class.parle-token.html) - Клас ParleToken
--   [ParleErrorInfo](class.parle-errorinfo.html) - Клас ParleErrorInfo
--   [ParleLexerException](class.parle-lexerexception.html) - Клас ParleLexerException
--   [ParleParserException](class.parle-parserexception.html) - Клас ParleParserException
+-   [Введение](intro.parle.md)
+-   [Встановлення та налаштування](parle.setup.md)
+    -   [Вимоги](parle.requirements.md)
+    -   [Установка](parle.installation.md)
+-   [Обумовлені константи](parle.constants.md)
+-   [Сопоставление с шаблоном](parle.pattern.matching.md) — Зіставлення із шаблоном Parle
+    -   [Представления символов](parle.regex.chars.md)
+    -   [Класи символів](parle.regex.charclass.md)
+    -   [Класи символів Unicode](parle.regex.unicodecharclass.md)
+    -   [Чередование и повторение](parle.regex.alternation.md)
+    -   [Якоря](parle.regex.anchors.md)
+    -   [Угруповання](parle.regex.grouping.md)
+-   [Приклади](parle.examples.md)
+    -   [Приклади використання лексера](parle.examples.lexer.md)
+    -   [Пример использования парсера](parle.examples.parser.md)
+-   [ParleLexer](class.parle-lexer.md) - Клас ParleLexer
+    -   [ParleLexer::advance](parle-lexer.advance.md) - Обробляє таке правило лексера
+    -   [ParleLexer::build](parle-lexer.build.md) - Завершує набір правил лексера
+    -   [ParleLexer::callout](parle-lexer.callout.md) - Визначає callback-функцію токена
+    -   [ParleLexer::consume](parle-lexer.consume.md) - Передає дані на обробку
+    -   [ParleLexer::dump](parle-lexer.dump.md) - Виводить стан пристрою
+    -   [ParleLexer::getToken](parle-lexer.gettoken.md) — Отримує поточний токен
+    -   [ParleLexer::insertMacro](parle-lexer.insertmacro.md) — Вставляє макрос регулярного виразу
+    -   [ParleLexer::push](parle-lexer.push.md) - Додає правило лексера
+    -   [ParleLexer::reset](parle-lexer.reset.md) - скидає лексер
+-   [ParleRLexer](class.parle-rlexer.md) - Клас ParleRLexer
+    -   [ParleRLexer::advance](parle-rlexer.advance.md) - Обробка наступного правила лексера
+    -   [ParleRLexer::build](parle-rlexer.build.md) - Завершує набір правил лексера
+    -   [ParleRLexer::callout](parle-rlexer.callout.md) - Визначає callback-функцію токена
+    -   [ParleRLexer::consume](parle-rlexer.consume.md) — Передає дані для обробки
+    -   [ParleRLexer::dump](parle-rlexer.dump.md) — Вивантажує стан пристрою
+    -   [ParleRLexer::getToken](parle-rlexer.gettoken.md) - в
+    -   [ParleRLexer::insertMacro](parle-rlexer.insertmacro.md) — Вставляє макрос регулярного виразу
+    -   [ParleRLexer::push](parle-rlexer.push.md) - Додає правило лексера
+    -   [ParleRLexer::pushState](parle-rlexer.pushstate.md) - Просуває новий початковий стан
+    -   [ParleRLexer::reset](parle-rlexer.reset.md) - скидає лексер
+-   [ParleParser](class.parle-parser.md) - Клас ParleParser
+    -   [ParleParser::advance](parle-parser.advance.md) - Обробляє наступне правило парсера
+    -   [ParleParser::build](parle-parser.build.md) - Завершує граматичні правила
+    -   [ParleParser::consume](parle-parser.consume.md) — Використовує дані для обробки
+    -   [ParleParser::dump](parle-parser.dump.md) - Виводить граматику
+    -   [ParleParser::errorInfo](parle-parser.errorinfo.md) — Отримує інформацію про помилку
+    -   [ParleParser::left](parle-parser.left.md) - Оголошує токен з лівою асоціативністю
+    -   [ParleParser::nonassoc](parle-parser.nonassoc.md) - Оголошує токен без асоціативності
+    -   [ParleParser::precedence](parle-parser.precedence.md) — Оголошує правило пріоритету
+    -   [ParleParser::push](parle-parser.push.md) — Додає граматичне правило
+    -   [ParleParser::reset](parle-parser.reset.md) — скидає стан парсера
+    -   [ParleParser::right](parle-parser.right.md) — Оголошує токен із правою асоціативністю
+    -   [ParleParser::sigil](parle-parser.sigil.md) — Витягує частину збігу за правилом
+    -   [ParleParser::token](parle-parser.token.md) - Оголошує токен
+    -   [ParleParser::tokenId](parle-parser.tokenid.md) — Отримує ідентифікатор токена
+    -   [ParleParser::trace](parle-parser.trace.md) — Слідкує за роботою парсера
+    -   [ParleParser::validate](parle-parser.validate.md) - Перевіряє вхідні дані
+-   [ParleRParser](class.parle-rparser.md) - Клас ParleRParser
+    -   [ParleRParser::advance](parle-rparser.advance.md) - Обробка наступного правила парсера
+    -   [ParleRParser::build](parle-rparser.build.md) - Завершує граматичні правила
+    -   [ParleRParser::consume](parle-rparser.consume.md) — Використовувати дані для обробки
+    -   [ParleRParser::dump](parle-rparser.dump.md) - Виводить граматику
+    -   [ParleRParser::errorInfo](parle-rparser.errorinfo.md) — Отримує інформацію про помилку
+    -   [ParleRParser::left](parle-rparser.left.md) - Оголошує токен з лівою асоціативністю
+    -   [ParleRParser::nonassoc](parle-rparser.nonassoc.md) - Оголошує токен без асоціативності
+    -   [ParleRParser::precedence](parle-rparser.precedence.md) — Оголошує правило пріоритету
+    -   [ParleRParser::push](parle-rparser.push.md) — Додає граматичне правило
+    -   [ParleRParser::reset](parle-rparser.reset.md) — скидає стан парсера
+    -   [ParleRParser::right](parle-rparser.right.md) — Оголошує токен із правою асоціативністю
+    -   [ParleRParser::sigil](parle-rparser.sigil.md) — Витягує збігаючу частину за правилом
+    -   [ParleRParser::token](parle-rparser.token.md) - Оголошує токен
+    -   [ParleRParser::tokenId](parle-rparser.tokenid.md) — Отримує ідентифікатор токена
+    -   [ParleRParser::trace](parle-rparser.trace.md) — Слідкує за роботою парсера
+    -   [ParleRParser::validate](parle-rparser.validate.md) - Перевіряє вхідні дані
+-   [ParleStack](class.parle-stack.md) - Клас ParleStack
+    -   [ParleStack::pop](parle-stack.pop.md) — Витягує предмет із стеку
+    -   [ParleStack::push](parle-stack.push.md) — Поміщає елемент у стек
+-   [ParleToken](class.parle-token.md) - Клас ParleToken
+-   [ParleErrorInfo](class.parle-errorinfo.md) - Клас ParleErrorInfo
+-   [ParleLexerException](class.parle-lexerexception.md) - Клас ParleLexerException
+-   [ParleParserException](class.parle-parserexception.md) - Клас ParleParserException

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-connection-array.html: « fanngetconnectionarray
-  - function.fann-get-errno.html: fanngeterrno »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-connection-array.md: « fanngetconnectionarray
+  - function.fann-get-errno.md: fanngeterrno »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetconnectionrate
 ---
 # fanngetconnectionrate

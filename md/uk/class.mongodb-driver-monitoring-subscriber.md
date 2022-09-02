@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-sdamsubscriber.topologyopening.html: '« MongoDBDriverMonitoringSDAMSubscriber::topologyOpening'
+  - mongodb-driver-monitoring-sdamsubscriber.topologyopening.md: '« MongoDBDriverMonitoringSDAMSubscriber::topologyOpening'
   - mongodb.exceptions.md: MongoDBDriverException »
   - index.md: PHP Manual
   - mongodb.monitoring.md: MongoDBDriverMonitoring

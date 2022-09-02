@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.getdeclaringclass.html: '« ReflectionProperty::getDeclaringClass'
-  - reflectionproperty.getdoccomment.html: 'ReflectionProperty::getDocComment »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.getdeclaringclass.md: '« ReflectionProperty::getDeclaringClass'
+  - reflectionproperty.getdoccomment.md: 'ReflectionProperty::getDocComment »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::getDefaultValue'
 ---
 # ReflectionProperty::getDefaultValue
@@ -26,7 +26,7 @@ public ReflectionProperty::getDefaultValue(): mixed
 
 ### Значення, що повертаються
 
-Значення за замовчуванням (включаючи **`null`**), якщо воно задано. Якщо значення за замовчуванням не задано, то повертається **`null`**. Для визначення того, чи встановлено в принципі значення за промовчанням для властивості, використовуйте [ReflectionProperty::hasDefaultValue()](reflectionproperty.hasdefaultvalue.html)
+Значення за замовчуванням (включаючи **`null`**), якщо воно задано. Якщо значення за замовчуванням не задано, то повертається **`null`**. Для визначення того, чи встановлено в принципі значення за промовчанням для властивості, використовуйте [ReflectionProperty::hasDefaultValue()](reflectionproperty.hasdefaultvalue.md)
 
 ### Приклади
 
@@ -57,4 +57,4 @@ int(0)
 
 ### Дивіться також
 
--   [ReflectionProperty::hasDefaultValue()](reflectionproperty.hasdefaultvalue.html) - Перевіряє, чи встановлено значення за промовчанням.
+-   [ReflectionProperty::hasDefaultValue()](reflectionproperty.hasdefaultvalue.md) - Перевіряє, чи встановлено значення за промовчанням.

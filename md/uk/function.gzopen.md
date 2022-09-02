@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzinflate.html: « gzinflate
-  - function.gzpassthru.html: gzpassthru »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzinflate.md: « gzinflate
+  - function.gzpassthru.md: gzpassthru »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzopen
 ---
 # gzopen
@@ -20,7 +20,7 @@ gzopen(string $filename, string $mode, int $use_include_path = 0): resource|fals
 
 Відкриває файл gzip (.gz) для читання чи запису.
 
-**gzopen()** також можна використовувати для читання стиснених файлів (тобто не у форматі gzip). В цьому випадку [gzread()](function.gzread.html) безпосередньо читати файл без будь-якої обробки.
+**gzopen()** також можна використовувати для читання стиснених файлів (тобто не у форматі gzip). В цьому випадку [gzread()](function.gzread.md) безпосередньо читати файл без будь-якої обробки.
 
 ### Список параметрів
 
@@ -30,11 +30,11 @@ gzopen(string $filename, string $mode, int $use_include_path = 0): resource|fals
 
 `mode`
 
-Як в [fopen()](function.fopen.html) `rb` або `wb`), але також може включати рівень стиснення (`wb9`) або стратегію: `f` для фільтрації даних як у `wb6f` `h` для стиснення `только по алгоритму Хаффмана`, як в `wb1h` (Для більш детальної інформації про параметр стратегії дивіться опис `deflateInit2` в zlib.h).
+Як в [fopen()](function.fopen.md) `rb` або `wb`), але також може включати рівень стиснення (`wb9`) або стратегію: `f` для фільтрації даних як у `wb6f` `h` для стиснення `только по алгоритму Хаффмана`, як в `wb1h` (Для більш детальної інформації про параметр стратегії дивіться опис `deflateInit2` в zlib.h).
 
 `use_include_path`
 
-Якщо ви хочете, щоб пошук файлу виконувався також у директоріях [includepath](ini.core.html#ini.include-path), встановіть значення цього аргументу в `1`
+Якщо ви хочете, щоб пошук файлу виконувався також у директоріях [includepath](ini.core.md#ini.include-path), встановіть значення цього аргументу в `1`
 
 ### Значення, що повертаються
 
@@ -54,4 +54,4 @@ $fp = gzopen("/tmp/file.gz", "r");
 
 ### Дивіться також
 
--   [gzclose()](function.gzclose.html) - Закрити вказівник відкритого gz-файлу
+-   [gzclose()](function.gzclose.md) - Закрити вказівник відкритого gz-файлу

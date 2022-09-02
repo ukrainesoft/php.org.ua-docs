@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filteriterator.valid.html: '« FilterIterator::valid'
-  - globiterator.construct.html: 'GlobIterator::construct »'
-  - index.html: PHP Manual
-  - spl.iterators.html: Ітератори
+  - filteriterator.valid.md: '« FilterIterator::valid'
+  - globiterator.construct.md: 'GlobIterator::construct »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
 title: Клас GlobIterator
 ---
 # Клас GlobIterator
@@ -12,7 +12,7 @@ title: Клас GlobIterator
 
 ## Вступ
 
-Ітерує через файлову систему схожим чином, як працює [glob()](function.glob.html)
+Ітерує через файлову систему схожим чином, як працює [glob()](function.glob.md)
 
 ## Огляд класів
 
@@ -150,5 +150,5 @@ public SplFileInfo::__toString(): string
 
 ## Зміст
 
--   [GlobIterator::construct](globiterator.construct.html) - Створює ітератор директорії, використовуючи glob-вираз
--   [GlobIterator::count](globiterator.count.html) — Визначає кількість директорій та файлів
+-   [GlobIterator::construct](globiterator.construct.md) - Створює ітератор директорії, використовуючи glob-вираз
+-   [GlobIterator::count](globiterator.count.md) — Визначає кількість директорій та файлів

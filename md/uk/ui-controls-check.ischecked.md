@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-check.gettext.html: '« UIControlsCheck::getText'
-  - ui-controls-check.ontoggle.html: 'ОЙControlsCheck::onToggle »'
-  - index.html: PHP Manual
-  - class.ui-controls-check.html: ОЙControlsCheck
+  - ui-controls-check.gettext.md: '« UIControlsCheck::getText'
+  - ui-controls-check.ontoggle.md: 'ОЙControlsCheck::onToggle »'
+  - index.md: PHP Manual
+  - class.ui-controls-check.md: ОЙControlsCheck
 title: 'ОЙControlsCheck::isChecked'
 ---
 # ОЙControlsCheck::isChecked

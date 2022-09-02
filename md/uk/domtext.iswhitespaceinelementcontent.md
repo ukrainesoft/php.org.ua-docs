@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domtext.iselementcontentwhitespace.html: '« DOMText::isElementContentWhitespace'
-  - domtext.splittext.html: 'DOMText::splitText »'
-  - index.html: PHP Manual
-  - class.domtext.html: DOMText
+  - domtext.iselementcontentwhitespace.md: '« DOMText::isElementContentWhitespace'
+  - domtext.splittext.md: 'DOMText::splitText »'
+  - index.md: PHP Manual
+  - class.domtext.md: DOMText
 title: 'DOMText::isWhitespaceInElementContent'
 ---
 # DOMText::isWhitespaceInElementContent

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-bind-by-name.html: « ocibindбname
-  - function.oci-client-version.html: ociclientversion »
+  - function.oci-bind-by-name.md: « ocibindбname
+  - function.oci-client-version.md: ociclientversion »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocicancel

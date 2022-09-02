@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-string.html: « isstring
-  - function.print-r.html: printr »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-string.md: « isstring
+  - function.print-r.md: printr »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: isset
 ---
 # isset
@@ -20,7 +20,7 @@ isset(mixed $var, mixed ...$vars): bool
 
 Визначає, чи була встановлена ​​змінна значенням відмінним від **`null`**
 
-Якщо змінна була видалена за допомогою [unset()](function.unset.html), то вона більше не вважається за встановлену.
+Якщо змінна була видалена за допомогою [unset()](function.unset.md), то вона більше не вважається за встановлену.
 
 **isset()** поверне **`false`** при перевірці змінної, яка була встановлена ​​значенням **`null`**. Також врахуйте, що NULL-символ (`"\0"`) не дорівнює константі **`null`** у PHP.
 
@@ -126,21 +126,21 @@ bool(false)
 
 **Увага**
 
-**isset()** працює тільки зі змінними, тому передача як параметри будь-яких інших значень приведе до помилки парсингу. Для перевірки визначення [констант](language.constants.html) використовуйте функцію [defined()](function.defined.html)
+**isset()** працює тільки зі змінними, тому передача як параметри будь-яких інших значень приведе до помилки парсингу. Для перевірки визначення [констант](language.constants.md) використовуйте функцію [defined()](function.defined.md)
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.html) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.md#functions.named-arguments)
 
 > **Зауваження**
 > 
-> При використанні **isset()** на недоступних властивостях об'єкта, буде викликатись перевантажений метод [isset()](language.oop5.overloading.html#object.isset)якщо він існує.
+> При використанні **isset()** на недоступних властивостях об'єкта, буде викликатись перевантажений метод [isset()](language.oop5.overloading.md#object.isset)якщо він існує.
 
 ### Дивіться також
 
--   [empty()](function.empty.html) - Перевіряє, чи порожня змінна
--   [isset()](language.oop5.overloading.html#object.isset)
--   [unset()](function.unset.html) - Видаляє змінну
--   [defined()](function.defined.html) - Перевіряє існування вказаної іменованої константи
--   [Таблица сравнения типов](types.comparisons.html)
--   [arraykeyexists()](function.array-key-exists.html) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
--   [ісnull()](function.is-null.html) - Перевіряє, чи значення змінної дорівнює null
--   Оператор керування помилками[](language.operators.errorcontrol.html)
+-   [empty()](function.empty.md) - Перевіряє, чи порожня змінна
+-   [isset()](language.oop5.overloading.md#object.isset)
+-   [unset()](function.unset.md) - Видаляє змінну
+-   [defined()](function.defined.md) - Перевіряє існування вказаної іменованої константи
+-   [Таблица сравнения типов](types.comparisons.md)
+-   [arraykeyexists()](function.array-key-exists.md) - Перевіряє, чи присутній у масиві зазначений ключ чи індекс
+-   [ісnull()](function.is-null.md) - Перевіряє, чи значення змінної дорівнює null
+-   Оператор керування помилками[](language.operators.errorcontrol.md)

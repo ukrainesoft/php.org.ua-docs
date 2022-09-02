@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apcu-delete.html: « apcudelete
-  - function.apcu-entry.html: apcuentry »
-  - index.html: PHP Manual
-  - ref.apcu.html: Функции APCu
+  - function.apcu-delete.md: « apcudelete
+  - function.apcu-entry.md: apcuentry »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
 title: apcuenabled
 ---
 # apcuenabled

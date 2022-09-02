@@ -47,7 +47,7 @@ PHP може бути налаштований зі статичними зон�
 | `function-return` | Спрацьовує, коли PHP повертається з функції або методу. | char functionname, char requestfile, int lineno, char classname, char scope |
 | `exception-thrown` | Спрацьовує, коли викинуто виняток. | char classname |
 | `exception-caught` | Спрацьовує, коли виняток спійманий. | char classname |
-| `error` | Спрацьовує якщо сталася помилка, незалежно від рівня [errorreporting](errorfunc.configuration.html#ini.error-reporting) | char errormsg, char requestfile, int lineno |
+| `error` | Спрацьовує якщо сталася помилка, незалежно від рівня [errorreporting](errorfunc.configuration.md#ini.error-reporting) | char errormsg, char requestfile, int lineno |
 
 Модулі PHP можуть містити додаткові зонди.
 

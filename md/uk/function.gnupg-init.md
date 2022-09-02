@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-import.html: « gnupgimport
-  - function.gnupg-keyinfo.html: gnupgkeyinfo »
+  - function.gnupg-import.md: « gnupgimport
+  - function.gnupg-keyinfo.md: gnupgkeyinfo »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupginit

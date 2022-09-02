@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-brush.getcolor.html: '« UIDrawBrush::getColor'
-  - class.ui-draw-brush-gradient.html: ОЙDrawBrushGradient »
+  - ui-draw-brush.getcolor.md: '« UIDrawBrush::getColor'
+  - class.ui-draw-brush-gradient.md: ОЙDrawBrushGradient »
   - index.md: PHP Manual
-  - class.ui-draw-brush.html: ОЙDrawBrush
+  - class.ui-draw-brush.md: ОЙDrawBrush
 title: 'ОЙDrawBrush::setColor'
 ---
 # ОЙDrawBrush::setColor

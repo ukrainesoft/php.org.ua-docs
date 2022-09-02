@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.lockshared.html: '« TableSelect::lockShared'
-  - mysql-xdevapi-tableselect.orderby.html: 'TableSelect::orderby »'
+  - mysql-xdevapi-tableselect.lockshared.md: '« TableSelect::lockShared'
+  - mysql-xdevapi-tableselect.orderby.md: 'TableSelect::orderby »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::offset'
 ---
 # TableSelect::offset

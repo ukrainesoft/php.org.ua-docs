@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getserviceid.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getServiceId'
-  - mongodb-driver-monitoring-serverchangedevent.gethost.html: 'MongoDBDriverMonitoringServerChangedEvent::getHost »'
+  - mongodb-driver-monitoring-commandsucceededevent.getserviceid.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getServiceId'
+  - mongodb-driver-monitoring-serverchangedevent.gethost.md: 'MongoDBDriverMonitoringServerChangedEvent::getHost »'
   - index.md: PHP Manual
   - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Клас MongoDBDriverMonitoringServerChangedEvent

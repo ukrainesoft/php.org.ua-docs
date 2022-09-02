@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-writeerror.html: « MongoDBDriverWriteError
-  - mongodb-driver-writeerror.getindex.html: 'MongoDBDriverWriteError::getIndex »'
+  - class.mongodb-driver-writeerror.md: « MongoDBDriverWriteError
+  - mongodb-driver-writeerror.getindex.md: 'MongoDBDriverWriteError::getIndex »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeerror.html: MongoDBDriverWriteError
+  - class.mongodb-driver-writeerror.md: MongoDBDriverWriteError
 title: 'MongoDBDriverWriteError::getCode'
 ---
 # MongoDBDriverWriteError::getCode

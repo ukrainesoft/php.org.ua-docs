@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-int64.unserialize.html: '« MongoDBBSONInt64::unserialize'
-  - mongodb-bson-symbol.construct.html: 'MongoDBBSONSymbol::construct »'
-  - index.html: PHP Manual
-  - book.bson.html: MongoDBBSON
+  - mongodb-bson-int64.unserialize.md: '« MongoDBBSONInt64::unserialize'
+  - mongodb-bson-symbol.construct.md: 'MongoDBBSONSymbol::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONSymbol (застарілий)
 ---
 # Клас MongoDBBSONSymbol (застарілий)
@@ -44,12 +44,12 @@ final public unserialize(string $serialized): void
 
 | Версия | Описание |
 | --- | --- |
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
 
 ## Зміст
 
--   [MongoDBBSONSymbol::construct](mongodb-bson-symbol.construct.html) — Створює новий Symbol (не використовується)
--   [MongoDBBSONSymbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONSymbol::serialize](mongodb-bson-symbol.serialize.html) - Серіалізує Symbol
--   [MongoDBBSONSymbol::toString](mongodb-bson-symbol.tostring.html) — Повертає Symbol у вигляді рядка
--   [MongoDBBSONSymbol::unserialize](mongodb-bson-symbol.unserialize.html) - Десеріалізує Symbol
+-   [MongoDBBSONSymbol::construct](mongodb-bson-symbol.construct.md) — Створює новий Symbol (не використовується)
+-   [MongoDBBSONSymbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONSymbol::serialize](mongodb-bson-symbol.serialize.md) - Серіалізує Symbol
+-   [MongoDBBSONSymbol::toString](mongodb-bson-symbol.tostring.md) — Повертає Symbol у вигляді рядка
+-   [MongoDBBSONSymbol::unserialize](mongodb-bson-symbol.unserialize.md) - Десеріалізує Symbol

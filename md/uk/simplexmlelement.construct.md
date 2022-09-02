@@ -1,9 +1,9 @@
 ---
 navigation:
-  - simplexmlelement.children.html: '« SimpleXMLElement::children'
-  - simplexmlelement.count.html: 'SimpleXMLElement::count »'
-  - index.html: PHP Manual
-  - class.simplexmlelement.html: SimpleXMLElement
+  - simplexmlelement.children.md: '« SimpleXMLElement::children'
+  - simplexmlelement.count.md: 'SimpleXMLElement::count »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::construct'
 ---
 # SimpleXMLElement::construct
@@ -21,7 +21,7 @@ bool `$dataIsURL` **`false`**
 string `$namespaceOrPrefix` = "",  
 bool `$isPrefix` **`false`**
 
-Створює новий об'єкт [SimpleXMLElement](class.simplexmlelement.html)
+Створює новий об'єкт [SimpleXMLElement](class.simplexmlelement.md)
 
 ### Список параметрів
 
@@ -31,11 +31,11 @@ bool `$isPrefix` **`false`**
 
 `options`
 
-Необов'язковий параметр використовується для вказівки [додаткових параметрів Libxml](libxml.constants.html)які впливають на читання документів XML. Параметри, які впливають на виведення документів XML (наприклад, **`LIBXML_NOEMPTYTAG`**), ігноруються.
+Необов'язковий параметр використовується для вказівки [додаткових параметрів Libxml](libxml.constants.md)які впливають на читання документів XML. Параметри, які впливають на виведення документів XML (наприклад, **`LIBXML_NOEMPTYTAG`**), ігноруються.
 
 > **Зауваження**
 > 
-> Для доступу до глибоко вкладених елементів XML або для обробки дуже великих текстових вузлів може знадобитися використовувати **`[LIBXML_PARSEHUGE](libxml.constants.html#constant.libxml-parsehuge)`**
+> Для доступу до глибоко вкладених елементів XML або для обробки дуже великих текстових вузлів може знадобитися використовувати **`[LIBXML_PARSEHUGE](libxml.constants.md#constant.libxml-parsehuge)`**
 
 `dataIsURL`
 
@@ -51,17 +51,17 @@ bool `$isPrefix` **`false`**
 
 ### Помилки
 
-Видає повідомлення з помилкою **`E_WARNING`** для кожної знайденої помилки в XML-даних, та додатково генерує виняток [Exception](class.exception.html)якщо дані XML не можуть бути розібрані.
+Видає повідомлення з помилкою **`E_WARNING`** для кожної знайденої помилки в XML-даних, та додатково генерує виняток [Exception](class.exception.md)якщо дані XML не можуть бути розібрані.
 
 **Підказка**
 
-Використовуйте [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) для придушення всіх XML-помилок та [libxmlgeterrors()](function.libxml-get-errors.html) для їхньої ітерації за ними.
+Використовуйте [libxmluseinternalerrors()](function.libxml-use-internal-errors.md) для придушення всіх XML-помилок та [libxmlgeterrors()](function.libxml-get-errors.md) для їхньої ітерації за ними.
 
 ### Приклади
 
 > **Зауваження**
 > 
-> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.html)
+> Перелічені приклади можуть містити `example.php`, в якому визначається XML-рядок, розташована в першому прикладі посібника з [базовому использованию](simplexml.examples-basic.md)
 
 **Приклад #1 Створення об'єкта SimpleXMLElement**
 
@@ -95,9 +95,9 @@ echo $sxe->asXML();
 
 ### Дивіться також
 
--   [Базовое использование SimpleXML](simplexml.examples-basic.html)
--   [simplexmlloadstring()](function.simplexml-load-string.html) - Інтерпретує рядок з XML в об'єкт
--   [simplexmlloadfile()](function.simplexml-load-file.html) - Інтерпретує файл XML в об'єкт
--   [Робота з помилками XML](simplexml.examples-errors.html)
--   [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
--   [libxmlsetstreamscontext()](function.libxml-set-streams-context.html) - Встановлення контексту потоків для наступного завантаження чи запису документа за допомогою libxml
+-   [Базовое использование SimpleXML](simplexml.examples-basic.md)
+-   [simplexmlloadstring()](function.simplexml-load-string.md) - Інтерпретує рядок з XML в об'єкт
+-   [simplexmlloadfile()](function.simplexml-load-file.md) - Інтерпретує файл XML в об'єкт
+-   [Робота з помилками XML](simplexml.examples-errors.md)
+-   [libxmluseinternalerrors()](function.libxml-use-internal-errors.md) - Відключення помилок libxml та передача повноважень щодо вибірки та обробки інформації про помилки користувачеві
+-   [libxmlsetstreamscontext()](function.libxml-set-streams-context.md) - Встановлення контексту потоків для наступного завантаження чи запису документа за допомогою libxml

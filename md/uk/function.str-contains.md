@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sscanf.html: « sscanf
-  - function.str-ends-with.html: strendswith »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.sscanf.md: « sscanf
+  - function.str-ends-with.md: strendswith »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strcontains
 ---
 # strcontains

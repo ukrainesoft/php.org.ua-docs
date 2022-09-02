@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectiongenerator.construct.html: '« ReflectionGenerator::construct'
-  - reflectiongenerator.getexecutinggenerator.html: 'ReflectionGenerator::getExecutingGenerator »'
-  - index.html: PHP Manual
-  - class.reflectiongenerator.html: ReflectionGenerator
+  - reflectiongenerator.construct.md: '« ReflectionGenerator::construct'
+  - reflectiongenerator.getexecutinggenerator.md: 'ReflectionGenerator::getExecutingGenerator »'
+  - index.md: PHP Manual
+  - class.reflectiongenerator.md: ReflectionGenerator
 title: 'ReflectionGenerator::getExecutingFile'
 ---
 # ReflectionGenerator::getExecutingFile
@@ -58,5 +58,5 @@ echo "Файл: {$reflectionGen->getExecutingFile()}";
 
 ### Дивіться також
 
--   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.html) - Отримати поточний рядок генератора, що виконується
--   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.html) - Отримати запущений об'єкт Generator
+-   [ReflectionGenerator::getExecutingLine()](reflectiongenerator.getexecutingline.md) - Отримати поточний рядок генератора, що виконується
+-   [ReflectionGenerator::getExecutingGenerator()](reflectiongenerator.getexecutinggenerator.md) - Отримати запущений об'єкт Generator

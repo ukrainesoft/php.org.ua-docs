@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.dateperiod.html: « DatePeriod
-  - dateperiod.getdateinterval.html: 'DatePeriod::getDateInterval »'
-  - index.html: PHP Manual
-  - class.dateperiod.html: DatePeriod
+  - class.dateperiod.md: « DatePeriod
+  - dateperiod.getdateinterval.md: 'DatePeriod::getDateInterval »'
+  - index.md: PHP Manual
+  - class.dateperiod.md: DatePeriod
 title: 'DatePeriod::construct'
 ---
 # DatePeriod::construct
@@ -15,15 +15,15 @@ DatePeriod::construct — Створює новий об'єкт DatePeriod
 ### Опис
 
 public **DatePeriod::construct**  
-[DateTimeInterface](class.datetimeinterface.html) `$start`  
-[DateInterval](class.dateinterval.html) `$interval`  
+[DateTimeInterface](class.datetimeinterface.md) `$start`  
+[DateInterval](class.dateinterval.md) `$interval`  
 int `$recurrences`  
 int `$options`
 
 public **DatePeriod::construct**  
-[DateTimeInterface](class.datetimeinterface.html) `$start`  
-[DateInterval](class.dateinterval.html) `$interval`  
-[DateTimeInterface](class.datetimeinterface.html) `$end`  
+[DateTimeInterface](class.datetimeinterface.md) `$start`  
+[DateInterval](class.dateinterval.md) `$interval`  
+[DateTimeInterface](class.datetimeinterface.md) `$end`  
 int `$options`
 
 public **DatePeriod::construct**(string `$isostr`, int `$options`

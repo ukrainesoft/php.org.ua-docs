@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-get-ap.html: « fdfgetап
-  - function.fdf-get-encoding.html: fdfgetencoding »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-get-ap.md: « fdfgetап
+  - function.fdf-get-encoding.md: fdfgetencoding »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfgetattachment
 ---
 # fdfgetattachment
@@ -24,7 +24,7 @@ fdf_get_attachment(resource $fdf_document, string $fieldname, string $savepath):
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 

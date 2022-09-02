@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-serverdescription.getlastupdatetime.html: '« MongoDBDriverServerDescription::getLastUpdateTime'
-  - mongodb-driver-serverdescription.getroundtriptime.html: 'MongoDBDriverServerDescription::getRoundTripTime »'
+  - mongodb-driver-serverdescription.getlastupdatetime.md: '« MongoDBDriverServerDescription::getLastUpdateTime'
+  - mongodb-driver-serverdescription.getroundtriptime.md: 'MongoDBDriverServerDescription::getRoundTripTime »'
   - index.md: PHP Manual
-  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
 title: 'MongoDBDriverServerDescription::getPort'
 ---
 # MongoDBDriverServerDescription::getPort

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-hmac.html: « hashhmac
-  - function.hash-pbkdf2.html: hashpbkdf2 »
+  - function.hash-hmac.md: « hashhmac
+  - function.hash-pbkdf2.md: hashpbkdf2 »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashinit
@@ -38,7 +38,7 @@ hash_init(    string $algo,    int $flags = 0,    string $key = "",�
 
 ### Значення, що повертаються
 
-Повертає контекст хешування для використання у функціях [hashupdate()](function.hash-update.html) [hashupdatestream()](function.hash-update-stream.html) [hashupdatefile()](function.hash-update-file.html) і [hashfinal()](function.hash-final.md)
+Повертає контекст хешування для використання у функціях [hashupdate()](function.hash-update.md) [hashupdatestream()](function.hash-update-stream.md) [hashupdatefile()](function.hash-update-file.md) і [hashfinal()](function.hash-final.md)
 
 ### список змін
 

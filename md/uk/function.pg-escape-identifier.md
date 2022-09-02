@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-escape-bytea.html: « pgescapebytea
-  - function.pg-escape-literal.html: пгescapeliteral »
+  - function.pg-escape-bytea.md: « pgescapebytea
+  - function.pg-escape-literal.md: пгescapeliteral »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгescapeidentifier
@@ -18,7 +18,7 @@ title: пгescapeidentifier
 pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 ```
 
-**пгescapeidentifier()** екранує ідентифікатор (наприклад, таблицю, імена полів) виконання запиту до бази. Повертає екранований ідентифікатор рядка для сервера PostgreSQL . **пгescapeidentifier()** додає подвійні лапки до та після даних. Користувачі не повинні додавати подвійні лапки. Використання цієї функції рекомендується для налаштувань ідентифікаторів у запитах. Для SQL-літералів (тобто параметрів, крім bytea) необхідно використовувати [пгescapeliteral()](function.pg-escape-literal.html) або [пгescapestring()](function.pg-escape-string.html). Для типу поля bytea потрібно використовувати [пгescapebytea()](function.pg-escape-bytea.md)
+**пгescapeidentifier()** екранує ідентифікатор (наприклад, таблицю, імена полів) виконання запиту до бази. Повертає екранований ідентифікатор рядка для сервера PostgreSQL . **пгescapeidentifier()** додає подвійні лапки до та після даних. Користувачі не повинні додавати подвійні лапки. Використання цієї функції рекомендується для налаштувань ідентифікаторів у запитах. Для SQL-літералів (тобто параметрів, крім bytea) необхідно використовувати [пгescapeliteral()](function.pg-escape-literal.md) або [пгescapestring()](function.pg-escape-string.md). Для типу поля bytea потрібно використовувати [пгescapebytea()](function.pg-escape-bytea.md)
 
 > **Зауваження**
 > 
@@ -28,7 +28,7 @@ pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

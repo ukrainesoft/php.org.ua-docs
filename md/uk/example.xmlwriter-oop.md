@@ -1,9 +1,9 @@
 ---
 navigation:
-  - example.xmlwriter-namespace.html: Робота з просторами імен XML
-  - class.xmlwriter.html: XMLWriter »
-  - index.html: PHP Manual
-  - xmlwriter.examples.html: Приклади
+  - example.xmlwriter-namespace.md: Робота з просторами імен XML
+  - class.xmlwriter.md: XMLWriter »
+  - index.md: PHP Manual
+  - xmlwriter.examples.md: Приклади
 title: Робота з об'єктно-орієнтованим API
 ---
 ## Робота з об'єктно-орієнтованим API

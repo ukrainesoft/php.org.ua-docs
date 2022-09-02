@@ -40,7 +40,7 @@ bool `$useIncludePath` **`false`**
 
 `useIncludePath`
 
-Пошук файлу в [includepath](ini.core.html#ini.include-path)
+Пошук файлу в [includepath](ini.core.md#ini.include-path)
 
 ### список змін
 

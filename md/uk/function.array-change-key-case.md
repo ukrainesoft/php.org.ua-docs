@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.array.md: « Функції для роботи з масивами
-  - function.array-chunk.html: arraychunk »
+  - function.array-chunk.md: arraychunk »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraychangekeycase

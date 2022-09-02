@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-add.html: « ldapadd
-  - function.ldap-bind.html: ldapbind »
+  - function.ldap-add.md: « ldapadd
+  - function.ldap-bind.md: ldapbind »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapbindext
@@ -18,7 +18,7 @@ ldapbindext — Прив'язати до директорії LDAP
 ldap_bind_ext(    LDAP\Connection $ldap,    ?string $dn = null,    ?string $password = null,    ?array $controls = null): LDAP\Result|false
 ```
 
-Робить те саме, що й [ldapbind()](function.ldap-bind.html), але повертає екземпляр [LDAPResult](class.ldap-result.html) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
+Робить те саме, що й [ldapbind()](function.ldap-bind.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.declare.html: « declare
-  - function.require.html: require »
-  - index.html: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - control-structures.declare.md: « declare
+  - function.require.md: require »
+  - index.md: PHP Manual
+  - language.control-structures.md: Управляющие конструкции
 title: return
 ---
 ## return
@@ -14,7 +14,7 @@ title: return
 
 Якщо викликається з функції, вираз `return` негайно припиняє виконання поточної функції та повертає свій аргумент як значення цієї функції . `return` також завершить виконання виразу [eval()](function.eval.md) або всього скриптового файлу.
 
-Якщо викликається з глобальної області видимості, поточний файл скрипта припиняється. Якщо поточний файл скрипта було підключено за допомогою функцій [include](function.include.html) або [require](function.require.html)тоді управління повертається до файлу, який викликав поточний. Більше того, якщо поточний файл скрипта був підключений за допомогою [include](function.include.html)тоді значення передане `return` буде повернуто як значення виклику [include](function.include.md). Якщо `return` викликається з головного файлу скрипта, тоді виконання скрипту припиняється. Якщо поточний файл скрипта був викликаний опціями конфігурації [autoprependfile](ini.core.html#ini.auto-prepend-file) або [autoappendfile](ini.core.html#ini.auto-append-file) з файлу налаштувань php.ini, тоді виконання цього скрипта припиняється.
+Якщо викликається з глобальної області видимості, поточний файл скрипта припиняється. Якщо поточний файл скрипта було підключено за допомогою функцій [include](function.include.md) або [require](function.require.md)тоді управління повертається до файлу, який викликав поточний. Більше того, якщо поточний файл скрипта був підключений за допомогою [include](function.include.md)тоді значення передане `return` буде повернуто як значення виклику [include](function.include.md). Якщо `return` викликається з головного файлу скрипта, тоді виконання скрипту припиняється. Якщо поточний файл скрипта був викликаний опціями конфігурації [autoprependfile](ini.core.md#ini.auto-prepend-file) або [autoappendfile](ini.core.md#ini.auto-append-file) з файлу налаштувань php.ini, тоді виконання цього скрипта припиняється.
 
 Для більш детальної інформації дивіться розділ [Значення, що повертаються](functions.returning-values.md)
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-mdtm.html: « ftpmdtm
-  - function.ftp-mlsd.html: ftpmlsd »
+  - function.ftp-mdtm.md: « ftpmdtm
+  - function.ftp-mlsd.md: ftpmlsd »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpmkdir

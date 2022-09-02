@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-rand.html: « arrayrand
-  - function.array-replace-recursive.html: arrayreplacerecursive »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-rand.md: « arrayrand
+  - function.array-replace-recursive.md: arrayreplacerecursive »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayreduce
 ---
 # arrayreduce

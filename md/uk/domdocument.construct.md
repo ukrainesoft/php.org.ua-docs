@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.domdocument.html: « DOMDocument
-  - domdocument.createattribute.html: 'DOMDocument::createAttribute »'
-  - index.html: PHP Manual
-  - class.domdocument.html: DOMDocument
+  - class.domdocument.md: « DOMDocument
+  - domdocument.createattribute.md: 'DOMDocument::createAttribute »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
 title: 'DOMDocument::construct'
 ---
 # DOMDocument::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - security.intro.html: « Вступление
-  - security.cgi-bin.html: Если PHP установлен как CGI »
-  - index.html: PHP Manual
-  - security.html: Безпека
+  - security.intro.md: « Вступление
+  - security.cgi-bin.md: Если PHP установлен как CGI »
+  - index.md: PHP Manual
+  - security.md: Безпека
 title: Загальні міркування
 ---
 # Загальні міркування

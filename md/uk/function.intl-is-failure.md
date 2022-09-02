@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.intl-get-error-message.html: « intlgeterrormessage
+  - function.intl-get-error-message.md: « intlgeterrormessage
   - book.mbstring.md: Багатобайтові рядки »
   - index.md: PHP Manual
   - ref.intl.md: Функции intl

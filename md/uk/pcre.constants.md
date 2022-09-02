@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pcre.resources.html: « Типи ресурсів
-  - pcre.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.pcre.html: PCRE
+  - pcre.resources.md: « Типи ресурсів
+  - pcre.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.pcre.md: PCRE
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -14,18 +14,18 @@ title: Обумовлені константи
 
 | Константы | Описание | С версии |
 | --- | --- | --- |
-| **`PREG_PATTERN_ORDER`** | Змінює порядок елементів у результуючому масиві так, щоб елемент $matches містив повні входження шаблону, елемент $matches - всі входження першої взятої у круглі дужки підмаски тощо. Тільки [pregmatchall()](function.preg-match-all.html) реагує на цей модифікатор. |  |
-| **`PREG_SET_ORDER`** | Змінює порядок елементів у результуючому масиві так, щоб елемент $matches містив перший набір входжень (повне входження, входження першої підмаски, укладеної в круглі дужки...), аналогічно елемент $matches - Другий набір входжень і т.д. Тільки [pregmatchall()](function.preg-match-all.html) реагує на цей модифікатор. |  |
+| **`PREG_PATTERN_ORDER`** | Змінює порядок елементів у результуючому масиві так, щоб елемент $matches містив повні входження шаблону, елемент $matches - всі входження першої взятої у круглі дужки підмаски тощо. Тільки [pregmatchall()](function.preg-match-all.md) реагує на цей модифікатор. |  |
+| **`PREG_SET_ORDER`** | Змінює порядок елементів у результуючому масиві так, щоб елемент $matches містив перший набір входжень (повне входження, входження першої підмаски, укладеної в круглі дужки...), аналогічно елемент $matches - Другий набір входжень і т.д. Тільки [pregmatchall()](function.preg-match-all.md) реагує на цей модифікатор. |  |
 | **`PREG_OFFSET_CAPTURE`** | Дивіться опис прапора **`PREG_SPLIT_OFFSET_CAPTURE`** |  |
-| **`PREG_SPLIT_NO_EMPTY`** | Якщо цей прапор вказано, функція [pregsplit()](function.preg-split.html) поверне лише непусті підрядки. |  |
-| **`PREG_SPLIT_DELIM_CAPTURE`** | Якщо цей прапор вказано, то [pregsplit()](function.preg-split.html) також повертає вираз, укладений у круглі дужки у шаблоні роздільника. |  |
-| **`PREG_SPLIT_OFFSET_CAPTURE`** | У випадку, якщо цей прапор вказано, для кожного знайденого підрядка буде вказано її позицію у вихідному рядку. Необхідно пам'ятати, що цей прапор змінює формат даних, що повертаються: кожне входження повертається у вигляді масиву, в нульовому елементі якого міститься знайдена підрядка, а в першому - зміщення. Цей прапор використовується лише у функції [pregsplit()](function.preg-split.html) |  |
-| **`PREG_UNMATCHED_AS_NULL`** | Цей прапор вказує [pregmatch()](function.preg-match.html) і [pregmatchall()](function.preg-match-all.html) включати несупадні підмаски $matches у вигляді значень **`null`**. Без цього прапора підмаски, що не збігаються, відображаються як порожні рядки, як би не було знайдено збігів. Установка цього прапора дозволяє проводити різницю між двома цими випадками. |  |
-| **`PREG_NO_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.html)якщо помилок немає. |  |
-| **`PREG_INTERNAL_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.html) якщо виникла внутрішня помилка PCRE. |  |
-| **`PREG_BACKTRACK_LIMIT_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.html) у випадку, коли [ліміт зворотних посилань](pcre.configuration.html#ini.pcre.backtrack-limit) був вичерпаний. |  |
-| **`PREG_RECURSION_LIMIT_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.html) у разі якщо [лимит рекурсии](pcre.configuration.html#ini.pcre.recursion-limit) був вичерпаний. |  |
-| **`PREG_BAD_UTF8_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.html)якщо остання помилка була викликана пошкодженими даними UTF-8 (тільки при запуску в [режиме UTF-8](reference.pcre.pattern.modifiers.html) |  |
-| **`PREG_BAD_UTF8_OFFSET_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.html), якщо зсув не відповідає початку коректної кодової точки UTF-8 (тільки при запуску в [режиме UTF-8](reference.pcre.pattern.modifiers.html) |  |
-| **`PREG_JIT_STACKLIMIT_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.html)якщо остання функція PCRE завершилася невдало через ліміт стека JIT. |  |
+| **`PREG_SPLIT_NO_EMPTY`** | Якщо цей прапор вказано, функція [pregsplit()](function.preg-split.md) поверне лише непусті підрядки. |  |
+| **`PREG_SPLIT_DELIM_CAPTURE`** | Якщо цей прапор вказано, то [pregsplit()](function.preg-split.md) також повертає вираз, укладений у круглі дужки у шаблоні роздільника. |  |
+| **`PREG_SPLIT_OFFSET_CAPTURE`** | У випадку, якщо цей прапор вказано, для кожного знайденого підрядка буде вказано її позицію у вихідному рядку. Необхідно пам'ятати, що цей прапор змінює формат даних, що повертаються: кожне входження повертається у вигляді масиву, в нульовому елементі якого міститься знайдена підрядка, а в першому - зміщення. Цей прапор використовується лише у функції [pregsplit()](function.preg-split.md) |  |
+| **`PREG_UNMATCHED_AS_NULL`** | Цей прапор вказує [pregmatch()](function.preg-match.md) і [pregmatchall()](function.preg-match-all.md) включати несупадні підмаски $matches у вигляді значень **`null`**. Без цього прапора підмаски, що не збігаються, відображаються як порожні рядки, як би не було знайдено збігів. Установка цього прапора дозволяє проводити різницю між двома цими випадками. |  |
+| **`PREG_NO_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.md)якщо помилок немає. |  |
+| **`PREG_INTERNAL_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.md) якщо виникла внутрішня помилка PCRE. |  |
+| **`PREG_BACKTRACK_LIMIT_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.md) у випадку, коли [ліміт зворотних посилань](pcre.configuration.md#ini.pcre.backtrack-limit) був вичерпаний. |  |
+| **`PREG_RECURSION_LIMIT_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.md) у разі якщо [лимит рекурсии](pcre.configuration.md#ini.pcre.recursion-limit) був вичерпаний. |  |
+| **`PREG_BAD_UTF8_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.md)якщо остання помилка була викликана пошкодженими даними UTF-8 (тільки при запуску в [режиме UTF-8](reference.pcre.pattern.modifiers.md) |  |
+| **`PREG_BAD_UTF8_OFFSET_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.md), якщо зсув не відповідає початку коректної кодової точки UTF-8 (тільки при запуску в [режиме UTF-8](reference.pcre.pattern.modifiers.md) |  |
+| **`PREG_JIT_STACKLIMIT_ERROR`** | Повертається функцією [preglasterror()](function.preg-last-error.md)якщо остання функція PCRE завершилася невдало через ліміт стека JIT. |  |
 | **`PCRE_VERSION`** | Версія та дата релізу PCRE (наприклад, "`7.0 18-Dec-2006`"). |  |

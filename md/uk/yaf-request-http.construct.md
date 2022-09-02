@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-request-http.html: « YafRequestHttp
-  - yaf-request-http.get.html: 'YafRequestHttp::get »'
+  - class.yaf-request-http.md: « YafRequestHttp
+  - yaf-request-http.get.md: 'YafRequestHttp::get »'
   - index.md: PHP Manual
-  - class.yaf-request-http.html: YafRequestHttp
+  - class.yaf-request-http.md: YafRequestHttp
 title: 'YafRequestHttp::construct'
 ---
 # YafRequestHttp::construct

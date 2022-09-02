@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.solrcollapsefunction.html: « SolrCollapseFunction
-  - solrcollapsefunction.getfield.html: 'SolrCollapseFunction::getField »'
-  - index.html: PHP Manual
-  - class.solrcollapsefunction.html: SolrCollapseFunction
+  - class.solrcollapsefunction.md: « SolrCollapseFunction
+  - solrcollapsefunction.getfield.md: 'SolrCollapseFunction::getField »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::construct'
 ---
 # SolrCollapseFunction::construct
@@ -67,4 +67,4 @@ print_r($response);
 
 ### Дивіться також
 
--   [SolrQuery::collapse()](solrquery.collapse.html) - Згортає набір результатів до одного документа на групу
+-   [SolrQuery::collapse()](solrquery.collapse.md) - Згортає набір результатів до одного документа на групу

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-skew.html: « statsskew
-  - function.stats-stat-binomial-coef.html: statsstatbinomialcoef »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-skew.md: « statsskew
+  - function.stats-stat-binomial-coef.md: statsstatbinomialcoef »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsstandarddeviation
 ---
 # statsstandarddeviation

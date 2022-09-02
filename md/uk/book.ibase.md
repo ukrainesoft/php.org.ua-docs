@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dbase-replace-record.html: « dbasereplacerecord
-  - intro.ibase.html: Введение »
-  - index.html: PHP Manual
-  - refs.database.vendors.html: Модулі для роботи з базами даних окремих виробників
+  - function.dbase-replace-record.md: « dbasereplacerecord
+  - intro.ibase.md: Введение »
+  - index.md: PHP Manual
+  - refs.database.vendors.md: Модулі для роботи з базами даних окремих виробників
 title: Firebird/InterBase
 ---
 # Firebird/InterBase

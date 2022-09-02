@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mailparse-msg-parse.html: « mailparsemsgparse
-  - function.mailparse-stream-encode.html: mailparsestreamencode »
-  - index.html: PHP Manual
-  - ref.mailparse.html: Mailparse
+  - function.mailparse-msg-parse.md: « mailparsemsgparse
+  - function.mailparse-stream-encode.md: mailparsestreamencode »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
 title: mailparserfc822parseaddresses
 ---
 # mailparserfc822parseaddresses

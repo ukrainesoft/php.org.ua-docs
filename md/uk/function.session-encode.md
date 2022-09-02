@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-destroy.html: « sessiondestroy
-  - function.session-gc.html: sessiongc »
+  - function.session-destroy.md: « sessiondestroy
+  - function.session-gc.md: sessiongc »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessionencode
@@ -20,7 +20,7 @@ session_encode(): string|false
 
 **sessionencode()** повертає серіалізований рядок, що містить дані поточної сесії, що зберігаються в суперглобальному масиві $ SESSION.
 
-За замовчуванням використовується внутрішній метод серіалізації PHP і результат відрізнятиметься від формату, що повертається функцією [serialize()](function.serialize.md). Метод серіалізації може бути встановлений за допомогою [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+За замовчуванням використовується внутрішній метод серіалізації PHP і результат відрізнятиметься від формату, що повертається функцією [serialize()](function.serialize.md). Метод серіалізації може бути встановлений за допомогою [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
 
 ### Список параметрів
 
@@ -39,4 +39,4 @@ session_encode(): string|false
 ### Дивіться також
 
 -   [sessiondecode()](function.session-decode.md) - декодує дані сесії із закодованого рядка сесії
--   [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+-   [session.serializehandler](session.configuration.md#ini.session.serialize-handler)

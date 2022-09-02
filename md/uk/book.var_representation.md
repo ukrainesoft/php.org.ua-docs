@@ -1,6 +1,6 @@
 ---
 navigation:
-  - ds-priorityqueue.toarray.html: '« DsPriorityQueue::toArray'
+  - ds-priorityqueue.toarray.md: '« DsPriorityQueue::toArray'
   - intro.var_representation.md: Введение »
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі

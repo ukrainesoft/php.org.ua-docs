@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqlnd.plugin.mysql-proxy.html: « Сравнение плагинов mysqlnd с MySQL Proxy
-  - mysqlnd.plugin.architecture.html: Архитектура плагинов MySQL Native Driver »
-  - index.html: PHP Manual
-  - mysqlnd.plugin.html: API для плагинов к встроенному драйверу MySQL
+  - mysqlnd.plugin.mysql-proxy.md: « Сравнение плагинов mysqlnd с MySQL Proxy
+  - mysqlnd.plugin.architecture.md: Архитектура плагинов MySQL Native Driver »
+  - index.md: PHP Manual
+  - mysqlnd.plugin.md: API для плагинов к встроенному драйверу MySQL
 title: Отримання API плагінів mysqlnd
 ---
 ## Отримання API плагінів mysqlnd

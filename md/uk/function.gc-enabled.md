@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gc-enable.html: « gcenable
-  - function.gc-mem-caches.html: гкmemcaches »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.gc-enable.md: « gcenable
+  - function.gc-mem-caches.md: гкmemcaches »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: гкenabled
 ---
 # гкenabled
@@ -40,4 +40,4 @@ if(gc_enabled()) gc_collect_cycles();
 
 ### Дивіться також
 
--   [Сборка мусора](features.gc.html)
+-   [Сборка мусора](features.gc.md)

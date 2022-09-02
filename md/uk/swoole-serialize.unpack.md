@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-serialize.pack.html: '« SwooleSerialize::pack'
-  - class.swoole-server.html: SwooleServer »
-  - index.html: PHP Manual
-  - class.swoole-serialize.html: SwooleSerialize
+  - swoole-serialize.pack.md: '« SwooleSerialize::pack'
+  - class.swoole-server.md: SwooleServer »
+  - index.md: PHP Manual
+  - class.swoole-serialize.md: SwooleSerialize
 title: 'SwooleSerialize::unpack'
 ---
 # SwooleSerialize::unpack

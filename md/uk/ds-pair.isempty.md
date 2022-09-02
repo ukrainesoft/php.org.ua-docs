@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-pair.copy.html: '« DsPair::copy'
-  - ds-pair.jsonserialize.html: 'ДсPair::jsonSerialize »'
+  - ds-pair.copy.md: '« DsPair::copy'
+  - ds-pair.jsonserialize.md: 'ДсPair::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-pair.html: Пара
+  - class.ds-pair.md: Пара
 title: 'ДсPair::isEmpty'
 ---
 # ДсPair::isEmpty

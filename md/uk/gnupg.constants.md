@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gnupg.resources.html: « Типи ресурсів
-  - gnupg.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.gnupg.html: GnuPG
+  - gnupg.resources.md: « Типи ресурсів
+  - gnupg.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.gnupg.md: GnuPG
 title: Обумовлені константи
 ---
 # Обумовлені константи

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.mbstring.html: « Функції для роботи з багатобайтовими рядками
-  - function.mb-chr.html: мбchr »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - ref.mbstring.md: « Функції для роботи з багатобайтовими рядками
+  - function.mb-chr.md: мбchr »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбcheckencoding
 ---
 # мбcheckencoding

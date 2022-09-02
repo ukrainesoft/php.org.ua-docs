@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-regex-set-options.html: « mbregexsetoptions
-  - function.mb-send-mail.html: мбsendmail »
+  - function.mb-regex-set-options.md: « mbregexsetoptions
+  - function.mb-send-mail.md: мбsendmail »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбscrub

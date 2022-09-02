@@ -1,9 +1,9 @@
 ---
 navigation:
-  - bc.requirements.html: « Вимоги
-  - bc.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - bc.setup.html: Встановлення та налаштування
+  - bc.requirements.md: « Вимоги
+  - bc.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - bc.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

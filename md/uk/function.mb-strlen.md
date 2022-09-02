@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-stristr.html: « mbstristr
-  - function.mb-strpos.html: мбstrpos »
+  - function.mb-stristr.md: « mbstristr
+  - function.mb-strpos.md: мбstrpos »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбstrlen

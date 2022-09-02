@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.ui.md: « Функции UI
-  - function.ui-quit.html: ОЙquit »
+  - function.ui-quit.md: ОЙquit »
   - index.md: PHP Manual
   - ref.ui.md: Функции UI
 title: ОЙDrawTextFontfontFamilies

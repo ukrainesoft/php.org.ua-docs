@@ -14,7 +14,7 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [gd.jpegignorewarning](image.configuration.html#ini.gd.jpeg-ignore-warning) | "1" | PHPINIALL |  |
+| [gd.jpegignorewarning](image.configuration.md#ini.gd.jpeg-ignore-warning) | "1" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -34,4 +34,4 @@ title: Налаштування під час виконання
 
 **Увага**
 
-Функції для роботи із зображеннями споживають багато пам'яті. Переконайтеся, що значення [memorylimit](ini.core.html#ini.memory-limit) досить велике, якщо використовуєте штатну бібліотеку GD.
+Функції для роботи із зображеннями споживають багато пам'яті. Переконайтеся, що значення [memorylimit](ini.core.md#ini.memory-limit) досить велике, якщо використовуєте штатну бібліотеку GD.

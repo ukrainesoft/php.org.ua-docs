@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-topologydescription.haswritableserver.html: '« MongoDBDriverTopologyDescription::hasWritableServer'
-  - mongodb-driver-writeconcernerror.getcode.html: 'MongoDBDriverWriteConcernError::getCode »'
+  - mongodb-driver-topologydescription.haswritableserver.md: '« MongoDBDriverTopologyDescription::hasWritableServer'
+  - mongodb-driver-writeconcernerror.getcode.md: 'MongoDBDriverWriteConcernError::getCode »'
   - index.md: PHP Manual
   - book.mongodb.md: MongoDBDriver
 title: Клас The MongoDBDriverWriteConcernError

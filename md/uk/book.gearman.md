@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.ftp-connection.html: « FTPConnection
+  - class.ftp-connection.md: « FTPConnection
   - intro.gearman.md: Введение »
   - index.md: PHP Manual
   - refs.remote.other.md: Інші служби

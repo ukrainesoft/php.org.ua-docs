@@ -36,7 +36,7 @@ int `$format`
 
 `format`
 
-Одна з [констант формата файлов](phar.constants.html#phar.constants.fileformat) доступна для класу [Phar](class.phar.md)
+Одна з [констант формата файлов](phar.constants.md#phar.constants.fileformat) доступна для класу [Phar](class.phar.md)
 
 ### Помилки
 

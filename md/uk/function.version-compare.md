@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sys-get-temp-dir.html: « sysgettempdir
-  - function.zend-thread-id.html: zendthreadid »
+  - function.sys-get-temp-dir.md: « sysgettempdir
+  - function.zend-thread-id.md: zendthreadid »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: versioncompare

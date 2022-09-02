@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.date-timezone-set.html: « datetimezoneset
+  - function.date-timezone-set.md: « datetimezoneset
   - function.getdate.md: getdate »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
@@ -146,4 +146,4 @@ $today = date("Y-m-d H:i:s");                   // 2001-0
 -   [mktime()](function.mktime.md) - Повертає позначку часу Unix для заданої дати
 -   [IntlDateFormatter::format()](intldateformatter.format.md) - Форматує значення дати/часу у вигляді рядка
 -   [time()](function.time.md) - Повертає поточну мітку системного часу Unix
--   [Обумовлені константи дати та часу](class.datetimeinterface.html#datetime.constants.types)
+-   [Обумовлені константи дати та часу](class.datetimeinterface.md#datetime.constants.types)

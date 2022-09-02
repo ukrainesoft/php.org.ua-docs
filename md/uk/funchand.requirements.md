@@ -1,9 +1,9 @@
 ---
 navigation:
-  - funchand.setup.html: « Встановлення та налаштування
-  - funchand.installation.html: Установка »
-  - index.html: PHP Manual
-  - funchand.setup.html: Встановлення та налаштування
+  - funchand.setup.md: « Встановлення та налаштування
+  - funchand.installation.md: Установка »
+  - index.md: PHP Manual
+  - funchand.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

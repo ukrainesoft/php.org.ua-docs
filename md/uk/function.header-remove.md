@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.header-register-callback.html: « headerregistercallback
+  - function.header-register-callback.md: « headerregistercallback
   - function.header.md: header »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції

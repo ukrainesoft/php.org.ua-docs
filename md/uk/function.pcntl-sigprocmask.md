@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-signal.html: pcntlsignal
-  - function.pcntl-sigtimedwait.html: pcntlsigtimedwait »
+  - function.pcntl-signal.md: pcntlsignal
+  - function.pcntl-sigtimedwait.md: pcntlsigtimedwait »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlsigprocmask

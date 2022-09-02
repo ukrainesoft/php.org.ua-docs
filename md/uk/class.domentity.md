@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domelement.setidattributens.html: '« DOMElement::setIdAttributeNS'
-  - class.domentityreference.html: DOMEntityReference »
-  - index.html: PHP Manual
-  - book.dom.html: DOM
+  - domelement.setidattributens.md: '« DOMElement::setIdAttributeNS'
+  - class.domentityreference.md: DOMEntityReference »
+  - index.md: PHP Manual
+  - book.dom.md: DOM
 title: Клас DOMEntity
 ---
 # Клас DOMEntity

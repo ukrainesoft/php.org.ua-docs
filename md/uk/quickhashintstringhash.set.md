@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashintstringhash.savetostring.html: '« QuickHashIntStringHash::saveToString'
-  - quickhashintstringhash.update.html: 'QuickHashIntStringHash::update »'
-  - index.html: PHP Manual
-  - class.quickhashintstringhash.html: QuickHashIntStringHash
+  - quickhashintstringhash.savetostring.md: '« QuickHashIntStringHash::saveToString'
+  - quickhashintstringhash.update.md: 'QuickHashIntStringHash::update »'
+  - index.md: PHP Manual
+  - class.quickhashintstringhash.md: QuickHashIntStringHash
 title: 'QuickHashIntStringHash::set'
 ---
 # QuickHashIntStringHash::set

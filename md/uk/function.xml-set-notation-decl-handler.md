@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-set-external-entity-ref-handler.html: « xmlsetexternalentityrefhandler
-  - function.xml-set-object.html: xmlsetobject »
+  - function.xml-set-external-entity-ref-handler.md: « xmlsetexternalentityrefhandler
+  - function.xml-set-object.md: xmlsetobject »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlsetnotationdeclhandler

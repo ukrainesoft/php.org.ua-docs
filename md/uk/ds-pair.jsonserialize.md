@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-pair.isempty.html: '« DsPair::isEmpty'
-  - ds-pair.toarray.html: 'ДсPair::toArray »'
-  - index.html: PHP Manual
-  - class.ds-pair.html: Пара
+  - ds-pair.isempty.md: '« DsPair::isEmpty'
+  - ds-pair.toarray.md: 'ДсPair::toArray »'
+  - index.md: PHP Manual
+  - class.ds-pair.md: Пара
 title: 'ДсPair::jsonSerialize'
 ---
 # ДсPair::jsonSerialize
@@ -12,7 +12,7 @@ title: 'ДсPair::jsonSerialize'
 
 ДсPair::jsonSerialize — Повертає пару у виставі JSON
 
-Дивіться функцію [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
+Дивіться функцію [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
 > **Зауваження**
 > 

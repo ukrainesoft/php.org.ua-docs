@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.sort.html: '« DsMap::sort'
-  - ds-map.sum.html: 'ДсMap::sum »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.sort.md: '« DsMap::sort'
+  - ds-map.sum.md: 'ДсMap::sum »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::sorted'
 ---
 # ДсMap::sorted

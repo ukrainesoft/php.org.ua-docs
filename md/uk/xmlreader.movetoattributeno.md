@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlreader.movetoattribute.html: '« XMLReader::moveToAttribute'
-  - xmlreader.movetoattributens.html: 'XMLReader::moveToAttributeNs »'
-  - index.html: PHP Manual
-  - class.xmlreader.html: XMLReader
+  - xmlreader.movetoattribute.md: '« XMLReader::moveToAttribute'
+  - xmlreader.movetoattributens.md: 'XMLReader::moveToAttributeNs »'
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
 title: 'XMLReader::moveToAttributeNo'
 ---
 # XMLReader::moveToAttributeNo
@@ -33,7 +33,7 @@ public
 
 ### Дивіться також
 
--   [XMLReader::moveToElement()](xmlreader.movetoelement.html) - Позиціонувати курсор на батьківському елементі поточного атрибуту
--   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.html) - Перемістити курсор до атрибуту із заданим ім'ям
--   [XMLReader::moveToAttributeNs()](xmlreader.movetoattributens.html) - Перемістити курсор до іменованого атрибуту
--   [XMLReader::moveToFirstAttribute()](xmlreader.movetofirstattribute.html) - Перемістити позицію курсору на перший атрибут
+-   [XMLReader::moveToElement()](xmlreader.movetoelement.md) - Позиціонувати курсор на батьківському елементі поточного атрибуту
+-   [XMLReader::moveToAttribute()](xmlreader.movetoattribute.md) - Перемістити курсор до атрибуту із заданим ім'ям
+-   [XMLReader::moveToAttributeNs()](xmlreader.movetoattributens.md) - Перемістити курсор до іменованого атрибуту
+-   [XMLReader::moveToFirstAttribute()](xmlreader.movetofirstattribute.md) - Перемістити позицію курсору на перший атрибут

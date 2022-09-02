@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-syncfs.html: « eiosyncfs
-  - function.eio-unlink.html: eiounlink »
+  - function.eio-syncfs.md: « eiosyncfs
+  - function.eio-unlink.md: eiounlink »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiotruncate

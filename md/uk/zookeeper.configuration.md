@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.installation.html: « Установка
-  - zookeeper.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - zookeeper.setup.html: Встановлення та налаштування
+  - zookeeper.installation.md: « Установка
+  - zookeeper.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - zookeeper.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,9 +14,9 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | История изменений |
 | --- | --- | --- | --- |
-| [zookeeper.recvtimeout](zookeeper.configuration.html#ini.zookeeper.recv_timeout) |  | PHPINIALL |  |
-| [zookeeper.sessionlock](zookeeper.configuration.html#ini.zookeeper.session_lock) |  | PHPINISYSTEM |  |
-| [zookeeper.sesslockwait](zookeeper.configuration.html#ini.zookeeper.sess_lock_wait) |  | PHPINIALL |  |
+| [zookeeper.recvtimeout](zookeeper.configuration.md#ini.zookeeper.recv_timeout) |  | PHPINIALL |  |
+| [zookeeper.sessionlock](zookeeper.configuration.md#ini.zookeeper.session_lock) |  | PHPINISYSTEM |  |
+| [zookeeper.sesslockwait](zookeeper.configuration.md#ini.zookeeper.sess_lock_wait) |  | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - syncevent.construct.html: '« SyncEvent::construct'
-  - syncevent.reset.html: 'SyncEvent::reset »'
-  - index.html: PHP Manual
-  - class.syncevent.html: SyncEvent
+  - syncevent.construct.md: '« SyncEvent::construct'
+  - syncevent.reset.md: 'SyncEvent::reset »'
+  - index.md: PHP Manual
+  - class.syncevent.md: SyncEvent
 title: 'SyncEvent::fire'
 ---
 # SyncEvent::fire
@@ -18,7 +18,7 @@ SyncEvent::fire — Запускає/встановлює подію
 public SyncEvent::fire(): bool
 ```
 
-Запускає/встановлює об'єкт [SyncEvent](class.syncevent.html). Дозволяє проходити кільком потокам, які очікують, якщо об'єкт події був створений з параметром manual рівним **`true`**
+Запускає/встановлює об'єкт [SyncEvent](class.syncevent.md). Дозволяє проходити кільком потокам, які очікують, якщо об'єкт події був створений з параметром manual рівним **`true`**
 
 ### Список параметрів
 
@@ -46,5 +46,5 @@ $event->wait();
 
 ### Дивіться також
 
--   [SyncEvent::reset()](syncevent.reset.html) - скидає ручну подію
--   [SyncEvent::wait()](syncevent.wait.html) - Очікує запуску/установки події
+-   [SyncEvent::reset()](syncevent.reset.md) - скидає ручну подію
+-   [SyncEvent::wait()](syncevent.wait.md) - Очікує запуску/установки події

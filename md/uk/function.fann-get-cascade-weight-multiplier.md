@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-cascade-output-stagnation-epochs.html: « fanngetcascadeoutputstagnationepochs
-  - function.fann-get-connection-array.html: fanngetconnectionarray »
+  - function.fann-get-cascade-output-stagnation-epochs.md: « fanngetcascadeoutputstagnationepochs
+  - function.fann-get-connection-array.md: fanngetconnectionarray »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetcascadeweightmultiplier

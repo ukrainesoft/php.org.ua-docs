@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.getmodules.html: '« YafApplication::getModules'
-  - yaf-application.setappdirectory.html: 'YafApplication::setAppDirectory »'
+  - yaf-application.getmodules.md: '« YafApplication::getModules'
+  - yaf-application.setappdirectory.md: 'YafApplication::setAppDirectory »'
   - index.md: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::run'
 ---
 # YafApplication::run

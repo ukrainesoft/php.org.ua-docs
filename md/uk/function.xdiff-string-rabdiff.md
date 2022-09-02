@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.xdiff-string-patch.html: xdiffstringpatch
+  - function.xdiff-string-patch.md: xdiffstringpatch
   - refs.international.md: Підтримка мов та кодувань »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
@@ -18,7 +18,7 @@ xdiffstringrab diff — Порівняти два рядки і створити
 xdiff_string_bdiff(string $old_data, string $new_data): string
 ```
 
-Створює бінарний патч для двох рядків та повертає результат. Різниця між цією функцією та [xdiffstringbdiff()](function.xdiff-string-bdiff.html) у алгоритмі, який працює швидше і створює більш короткий патч. Ця функція працює як із текстовими, так і з бінарними даними. Отриманий патч згодом можна застосувати за допомогою функцій [xdiffstringbpatch()](function.xdiff-string-bpatch.html) і [xdifffilebpatch()](function.xdiff-file-bpatch.md)
+Створює бінарний патч для двох рядків та повертає результат. Різниця між цією функцією та [xdiffstringbdiff()](function.xdiff-string-bdiff.md) у алгоритмі, який працює швидше і створює більш короткий патч. Ця функція працює як із текстовими, так і з бінарними даними. Отриманий патч згодом можна застосувати за допомогою функцій [xdiffstringbpatch()](function.xdiff-string-bpatch.md) і [xdifffilebpatch()](function.xdiff-file-bpatch.md)
 
 Детальніше про відмінності в алгоритмах читайте на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
 

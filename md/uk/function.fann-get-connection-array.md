@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-cascade-weight-multiplier.html: « fanngetcascadeweightmultiplier
-  - function.fann-get-connection-rate.html: fanngetconnectionrate »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-cascade-weight-multiplier.md: « fanngetcascadeweightmultiplier
+  - function.fann-get-connection-rate.md: fanngetconnectionrate »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetconnectionarray
 ---
 # fanngetconnectionarray

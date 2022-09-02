@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-async.set.html: '« SwooleAsync::set'
-  - swoole-async.writefile.html: 'SwooleAsync::writeFile »'
+  - swoole-async.set.md: '« SwooleAsync::set'
+  - swoole-async.writefile.md: 'SwooleAsync::writeFile »'
   - index.md: PHP Manual
-  - class.swoole-async.html: SwooleAsync
+  - class.swoole-async.md: SwooleAsync
 title: 'SwooleAsync::write'
 ---
 # SwooleAsync::write

@@ -24,7 +24,7 @@ public Imagick::compareImageLayers(int $method): Imagick
 
 `method`
 
-Одна з [констант метода слоя](imagick.constants.html#imagick.constants.layermethod)
+Одна з [констант метода слоя](imagick.constants.md#imagick.constants.layermethod)
 
 ### Значення, що повертаються
 

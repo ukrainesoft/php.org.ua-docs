@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration74.md: « Миграция с PHP 7.3.x на PHP 7.4.x
-  - migration74.new-classes.html: Нові класи та інтерфейси »
+  - migration74.new-classes.md: Нові класи та інтерфейси »
   - index.md: PHP Manual
   - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
 title: Нові можливості
@@ -98,7 +98,7 @@ $fruits = ['banana', 'orange', ...$parts, 'watermelon'];
 
 #### Обробка винятків із методу toString()
 
-Викидання винятків із методу [toString()](language.oop5.magic.html#object.tostring) тепер дозволено. Раніше це призводило до фатальної помилки. Існуючі фатальні помилки, що відловлюються, при перетворенні об'єкта в рядок будуть доступні у вигляді винятків класу [Error](class.error.md)
+Викидання винятків із методу [toString()](language.oop5.magic.md#object.tostring) тепер дозволено. Раніше це призводило до фатальної помилки. Існуючі фатальні помилки, що відловлюються, при перетворенні об'єкта в рядок будуть доступні у вигляді винятків класу [Error](class.error.md)
 
 ### CURL
 
@@ -122,7 +122,7 @@ FFI - новий модуль, який пропонує простий спос
 
 ### Багатобайтові рядки
 
-Додана функція [мбstrsplit()](function.mb-str-split.html)яка виконує те ж саме, що і [strsplit()](function.str-split.md)але працює з кодовими точками, а не з байтами.
+Додана функція [мбstrsplit()](function.mb-str-split.md)яка виконує те ж саме, що і [strsplit()](function.str-split.md)але працює з кодовими точками, а не з байтами.
 
 ### OPcache
 
@@ -130,7 +130,7 @@ FFI - новий модуль, який пропонує простий спос
 
 ### Регулярні вирази (сумісні з Perl)
 
-Функції [pregreplacecallback()](function.preg-replace-callback.html) і [pregreplacecallbackarray()](function.preg-replace-callback-array.md) тепер приймають додатковий аргумент `flags` з підтримкою прапорів **`PREG_OFFSET_CAPTURE`** і **`PREG_UNMATCHED_AS_NULL`**. Він вплине на формат масиву значень, що збіглися, що передається в callback-функцію.
+Функції [pregreplacecallback()](function.preg-replace-callback.md) і [pregreplacecallbackarray()](function.preg-replace-callback-array.md) тепер приймають додатковий аргумент `flags` з підтримкою прапорів **`PREG_OFFSET_CAPTURE`** і **`PREG_UNMATCHED_AS_NULL`**. Він вплине на формат масиву значень, що збіглися, що передається в callback-функцію.
 
 ### PDO
 
@@ -178,7 +178,7 @@ public function __unserialize(array $data): void;
 
 #### Функції злиття масивів без аргументів
 
-Функції [arraymerge()](function.array-merge.html) і [arraymergerecursive()](function.array-merge-recursive.md) тепер можуть викликатися без жодних аргументів, і тоді вони повернуть порожній масив. Це корисно у поєднанні з оператором розширення, наприклад, `array_merge(...$arrays)`
+Функції [arraymerge()](function.array-merge.md) і [arraymergerecursive()](function.array-merge-recursive.md) тепер можуть викликатися без жодних аргументів, і тоді вони повернуть порожній масив. Це корисно у поєднанні з оператором розширення, наприклад, `array_merge(...$arrays)`
 
 #### Функція [procopen()](function.proc-open.md)
 

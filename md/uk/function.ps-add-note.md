@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-add-locallink.html: «psaddlocallink
-  - function.ps-add-pdflink.html: псaddpdflink »
+  - function.ps-add-locallink.md: «psaddlocallink
+  - function.ps-add-pdflink.md: псaddpdflink »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псaddnote

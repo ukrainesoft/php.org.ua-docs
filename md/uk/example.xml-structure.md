@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xml.examples.html: « Приклади
-  - example.xml-map-tags.html: Пример отображения XML тегов »
-  - index.html: PHP Manual
-  - xml.examples.html: Приклади
+  - xml.examples.md: « Приклади
+  - example.xml-map-tags.md: Пример отображения XML тегов »
+  - index.md: PHP Manual
+  - xml.examples.md: Приклади
 title: Приклад Структури Елементу XML
 ---
 ## Приклад Структури Елементу XML

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xml-get-current-line-number.html: « xmlgetcurrentlinenumber
-  - function.xml-parse-into-struct.html: xmlparseintostruct »
-  - index.html: PHP Manual
-  - ref.xml.html: Функции парсера XML
+  - function.xml-get-current-line-number.md: « xmlgetcurrentlinenumber
+  - function.xml-parse-into-struct.md: xmlparseintostruct »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
 title: xmlgeterrorcode
 ---
 # xmlgeterrorcode
@@ -28,14 +28,14 @@ xml_get_error_code(XMLParser $parser): int
 
 ### Значення, що повертаються
 
-Ця функція повертає **`false`**, якщо посилання параметра `parser` не веде до діючого аналізатора, або ж повертає один із кодів помилок зі списку, розташованого в [розділі кодів помилок](xml.error-codes.html)
+Ця функція повертає **`false`**, якщо посилання параметра `parser` не веде до діючого аналізатора, або ж повертає один із кодів помилок зі списку, розташованого в [розділі кодів помилок](xml.error-codes.md)
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [xmlerrorstring()](function.xml-error-string.html) - Отримання рядка помилки XML-аналізатора
+-   [xmlerrorstring()](function.xml-error-string.md) - Отримання рядка помилки XML-аналізатора

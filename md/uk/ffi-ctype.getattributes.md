@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getarraylength.html: '« FFICType::getArrayLength'
-  - ffi-ctype.getenumkind.html: 'FFICType::getEnumKind »'
-  - index.html: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - ffi-ctype.getarraylength.md: '« FFICType::getArrayLength'
+  - ffi-ctype.getenumkind.md: 'FFICType::getEnumKind »'
+  - index.md: PHP Manual
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getAttributes'
 ---
 # FFICType::getAttributes

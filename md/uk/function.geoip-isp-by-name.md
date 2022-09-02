@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.geoip-id-by-name.html: « geoipідбname
-  - function.geoip-netspeedcell-by-name.html: geoipnetspeedcellбname »
-  - index.html: PHP Manual
-  - ref.geoip.html: Функции GeoIP
+  - function.geoip-id-by-name.md: « geoipідбname
+  - function.geoip-netspeedcell-by-name.md: geoipnetspeedcellбname »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
 title: geoipispбname
 ---
 # geoipispбname

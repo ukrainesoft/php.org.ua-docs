@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-get-autocommit.html: « cubridgetautocommit
-  - function.cubrid-get-class-name.html: cubridgetclassname »
+  - function.cubrid-get-autocommit.md: « cubridgetautocommit
+  - function.cubrid-get-class-name.md: cubridgetclassname »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridgetcharset

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidy.resources.html: « Типи ресурсів
-  - tidy.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.tidy.html: Tidy
+  - tidy.resources.md: « Типи ресурсів
+  - tidy.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.tidy.md: Tidy
 title: Обумовлені константи
 ---
 # Обумовлені константи

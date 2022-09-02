@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-symbol-name.html: «pssymbolname
-  - function.ps-symbol.html: псsymbol »
+  - function.ps-symbol-name.md: «pssymbolname
+  - function.ps-symbol.md: псsymbol »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsymbolwidth

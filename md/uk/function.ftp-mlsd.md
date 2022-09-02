@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-mkdir.html: « ftpmkdir
-  - function.ftp-nb-continue.html: ftpнбcontinue »
+  - function.ftp-mkdir.md: « ftpmkdir
+  - function.ftp-nb-continue.md: ftpнбcontinue »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpmlsd

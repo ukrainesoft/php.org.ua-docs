@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-headers.html: « imapheaders
-  - function.imap-list.html: imaplist »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-headers.md: « imapheaders
+  - function.imap-list.md: imaplist »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imaplasterror
 ---
 # imaplasterror
@@ -30,4 +30,4 @@ imap_last_error(): string|false
 
 ### Дивіться також
 
--   [imaperrors()](function.imap-errors.html) - Отримати всі помилки, що відбулися IMAP
+-   [imaperrors()](function.imap-errors.md) - Отримати всі помилки, що відбулися IMAP

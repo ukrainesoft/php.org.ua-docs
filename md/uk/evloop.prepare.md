@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evloop.periodic.html: '« EvLoop::periodic'
-  - evloop.resume.html: 'EvLoop::resume »'
-  - index.html: PHP Manual
-  - class.evloop.html: EvLoop
+  - evloop.periodic.md: '« EvLoop::periodic'
+  - evloop.resume.md: 'EvLoop::resume »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
 title: 'EvLoop::prepare'
 ---
 # EvLoop::prepare
@@ -43,4 +43,4 @@ final
 
 ### Дивіться також
 
--   [EvPrepare::construct()](evprepare.construct.html) - Конструктор спостерігача EvPrepare
+-   [EvPrepare::construct()](evprepare.construct.md) - Конструктор спостерігача EvPrepare

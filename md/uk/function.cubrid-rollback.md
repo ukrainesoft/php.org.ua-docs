@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-put.html: « cubridput
-  - function.cubrid-schema.html: cubridschema »
+  - function.cubrid-put.md: « cubridput
+  - function.cubrid-schema.md: cubridschema »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridrollback

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-nthreads.html: « eionthreads
-  - function.eio-poll.html: eiopoll »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-nthreads.md: « eionthreads
+  - function.eio-poll.md: eiopoll »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eioopen
 ---
 # eioopen

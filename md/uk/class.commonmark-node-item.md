@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-node-orderedlist.construct.html: '« CommonMarkNodeOrderedList::construct'
-  - class.commonmark-node-text.html: CommonMarkNodeText »
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - commonmark-node-orderedlist.construct.md: '« CommonMarkNodeOrderedList::construct'
+  - class.commonmark-node-text.md: CommonMarkNodeText »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: Item успадковує CommonMarkNode
 ---
 # Item успадковує CommonMarkNode

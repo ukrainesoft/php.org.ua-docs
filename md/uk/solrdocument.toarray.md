@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.sort.html: '« SolrDocument::sort'
-  - solrdocument.unserialize.html: 'SolrDocument::unserialize »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.sort.md: '« SolrDocument::sort'
+  - solrdocument.unserialize.md: 'SolrDocument::unserialize »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::toArray'
 ---
 # SolrDocument::toArray

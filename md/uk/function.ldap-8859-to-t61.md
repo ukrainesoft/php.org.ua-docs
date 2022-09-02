@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.ldap.html: « Функції LDAP
-  - function.ldap-add-ext.html: ldapaddext »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - ref.ldap.md: « Функції LDAP
+  - function.ldap-add-ext.md: ldapaddext »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapтоt61
 ---
 # ldapтоt61

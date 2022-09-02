@@ -12,7 +12,7 @@ title: Перетворюючі фільтри
 
 ## convert.base64-encode та convert.base64-decode
 
-Використання цих фільтрів еквівалентно обробці всіх даних потоку функціями [base64encode()](function.base64-encode.html) і [base64decode()](function.base64-decode.html) відповідно . `convert.base64-encode` підтримує аргументи, передані як асоціативного масиву. Якщо вказано аргумент `line-length`, результат base64 буде поділений на шматки довгої `line-length` символи кожен. Якщо вказано аргумент `line-break-chars`, кожен шматок буде поділено вказаними символами. Ці параметри дають такий самий ефект, як і використання [base64encode()](function.base64-encode.html) у парі з [chunksplit()](function.chunk-split.md)
+Використання цих фільтрів еквівалентно обробці всіх даних потоку функціями [base64encode()](function.base64-encode.md) і [base64decode()](function.base64-decode.md) відповідно . `convert.base64-encode` підтримує аргументи, передані як асоціативного масиву. Якщо вказано аргумент `line-length`, результат base64 буде поділений на шматки довгої `line-length` символи кожен. Якщо вказано аргумент `line-break-chars`, кожен шматок буде поділено вказаними символами. Ці параметри дають такий самий ефект, як і використання [base64encode()](function.base64-encode.md) у парі з [chunksplit()](function.chunk-split.md)
 
 **Приклад #1 convert.base64-encode та convert.base64-decode**
 

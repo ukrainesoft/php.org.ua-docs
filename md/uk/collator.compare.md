@@ -1,9 +1,9 @@
 ---
 navigation:
-  - collator.asort.html: '« Collator::asort'
-  - collator.construct.html: 'Collator::construct »'
-  - index.html: PHP Manual
-  - class.collator.html: Collator
+  - collator.asort.md: '« Collator::asort'
+  - collator.construct.md: 'Collator::construct »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
 title: 'Collator::compare'
 ---
 # Collator::compare
@@ -34,7 +34,7 @@ collator_compare(Collator $object, string $string1, string $string2): int|false
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `string1`
 
@@ -59,7 +59,7 @@ collator_compare(Collator $object, string $string1, string $string2): int|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -106,8 +106,8 @@ if ( $c->compare( 'Séan', 'Sean' ) == 0 )
 
 Значення рівні
 
-У цьому прикладі Collator порівнює, враховуючи лише базові символи. Документація для [Collator->setStrength()](collator.setstrength.html) пояснює різні сильні сторони.
+У цьому прикладі Collator порівнює, враховуючи лише базові символи. Документація для [Collator->setStrength()](collator.setstrength.md) пояснює різні сильні сторони.
 
 ### Дивіться також
 
--   [collatorsort()](collator.sort.html) - Сортує масив із використанням зазначеного засобу сортування
+-   [collatorsort()](collator.sort.md) - Сортує масив із використанням зазначеного засобу сортування

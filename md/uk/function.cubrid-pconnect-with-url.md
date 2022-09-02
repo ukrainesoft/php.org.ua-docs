@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-num-rows.html: « cubridnumrows
-  - function.cubrid-pconnect.html: cubridpconnect »
+  - function.cubrid-num-rows.md: « cubridnumrows
+  - function.cubrid-pconnect.md: cubridpconnect »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridpconnectwithurl
@@ -24,7 +24,7 @@ cubrid_pconnect_with_url(string $conn_url, string $userid = ?, string $passwd = 
 
 По-перше, при підключенні функція спочатку спробує знайти (постійне) посилання, яке вже відкрито з тим самим хостом, портом, ім'ям бази даних та ідентифікатором користувача. Якщо з'єднання знайдено, замість відкриття нового буде повернуто його ідентифікатор.
 
-По-друге, з'єднання з SQL-сервером не буде закрито після закінчення скрипту. Натомість посилання залишиться відкритим для використання в майбутньому ([cubridclose()](function.cubrid-close.html) або [cubriddisconnect()](function.cubrid-disconnect.md) не закриє посилання, встановлені **cubridpconnectwithurl()**
+По-друге, з'єднання з SQL-сервером не буде закрито після закінчення скрипту. Натомість посилання залишиться відкритим для використання в майбутньому ([cubridclose()](function.cubrid-close.md) або [cubriddisconnect()](function.cubrid-disconnect.md) не закриє посилання, встановлені **cubridpconnectwithurl()**
 
 Тому цей тип посилання називається "постійним".
 

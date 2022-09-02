@@ -18,7 +18,7 @@ ZMQContext::setOpt — Встановити опцію сокету
 public ZMQContext::setOpt(int $key, mixed $value): ZMQContext
 ```
 
-Встановлює опцію контексту ZMQ. Тип `value` залежить від `key`. Дивіться [Типи Констант ZMQ](class.zmq.html#zmq.constants)
+Встановлює опцію контексту ZMQ. Тип `value` залежить від `key`. Дивіться [Типи Констант ZMQ](class.zmq.md#zmq.constants)
 
 ### Список параметрів
 

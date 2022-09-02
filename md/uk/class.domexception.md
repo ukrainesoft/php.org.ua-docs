@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domentityreference.construct.html: '« DOMEntityReference::construct'
-  - class.domimplementation.html: DOMImplementation »
-  - index.html: PHP Manual
-  - book.dom.html: DOM
+  - domentityreference.construct.md: '« DOMEntityReference::construct'
+  - class.domimplementation.md: DOMImplementation »
+  - index.md: PHP Manual
+  - book.dom.md: DOM
 title: Клас DOMException
 ---
 # Клас DOMException
@@ -14,7 +14,7 @@ title: Клас DOMException
 
 Операції DOM за певних обставин викидають винятки, наприклад, коли виконання операції неможливе зі зрозумілих причин.
 
-Дивіться також [Исключения](language.exceptions.html)
+Дивіться також [Исключения](language.exceptions.md)
 
 ## Огляд класів
 

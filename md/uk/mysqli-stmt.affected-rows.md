@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysqli-stmt.html: « mysqlistmt
-  - mysqli-stmt.attr-get.html: 'mysqlistmt::attrget »'
+  - class.mysqli-stmt.md: « mysqlistmt
+  - mysqli-stmt.attr-get.md: 'mysqlistmt::attrget »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::$affectedrows'
 ---
 # mysqlistmt::$affectedrows
@@ -32,7 +32,7 @@ mysqli_stmt_affected_rows(mysqli_stmt $statement): int|string
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

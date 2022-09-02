@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-commit-ret.html: « fbirdcommitret
-  - function.fbird-connect.html: fbirdconnect »
+  - function.fbird-commit-ret.md: « fbirdcommitret
+  - function.fbird-connect.md: fbirdconnect »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdcommit

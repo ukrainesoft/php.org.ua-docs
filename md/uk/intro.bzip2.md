@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.bzip2.html: « Bzip2
-  - bzip2.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.bzip2.html: Bzip2
+  - book.bzip2.md: « Bzip2
+  - bzip2.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.bzip2.md: Bzip2
 title: Вступ
 ---
 # Вступ

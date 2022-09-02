@@ -34,7 +34,7 @@ title: Огляд
     
 -   Особлива функція [mysqlifetchall()](mysqli-result.fetch-all.md)
     
--   Виклик статистики продуктивності: [mysqligetclientstats()](function.mysqli-get-client-stats.html) [mysqligetconnectionstats()](mysqli.get-connection-stats.md)
+-   Виклик статистики продуктивності: [mysqligetclientstats()](function.mysqli-get-client-stats.md) [mysqligetconnectionstats()](mysqli.get-connection-stats.md)
     
 
 Статистика продуктивності може бути дуже корисною для знаходження вузьких місць у продуктивності.

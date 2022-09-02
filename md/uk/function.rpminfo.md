@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rpmdbsearch.html: « rpmdbsearch
-  - function.rpmvercmp.html: rpmvercmp »
-  - index.html: PHP Manual
-  - ref.rpminfo.html: Функції RpmInfo
+  - function.rpmdbsearch.md: « rpmdbsearch
+  - function.rpmvercmp.md: rpmvercmp »
+  - index.md: PHP Manual
+  - ref.rpminfo.md: Функції RpmInfo
 title: rpminfo
 ---
 # rpminfo
@@ -66,4 +66,4 @@ Array
 
 ### Дивіться також
 
--   [rpmaddtag()](function.rpmaddtag.html) - Додає тег, отриманий у запиті
+-   [rpmaddtag()](function.rpmaddtag.md) - Додає тег, отриманий у запиті

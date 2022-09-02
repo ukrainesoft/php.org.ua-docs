@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.deflate-init.html: « deflateinit
-  - function.gzcompress.html: gzcompress »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.deflate-init.md: « deflateinit
+  - function.gzcompress.md: gzcompress »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzclose
 ---
 # gzclose

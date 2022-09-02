@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domnode.normalize.html: '« DOMNode::normalize'
-  - domnode.replacechild.html: 'DOMNode::replaceChild »'
-  - index.html: PHP Manual
-  - class.domnode.html: DOMNode
+  - domnode.normalize.md: '« DOMNode::normalize'
+  - domnode.replacechild.md: 'DOMNode::replaceChild »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
 title: 'DOMNode::removeChild'
 ---
 # DOMNode::removeChild

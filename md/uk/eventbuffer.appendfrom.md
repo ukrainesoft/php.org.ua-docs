@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbuffer.addbuffer.html: '« EventBuffer::addBuffer'
-  - eventbuffer.construct.html: 'EventBuffer::construct »'
-  - index.html: PHP Manual
-  - class.eventbuffer.html: EventBuffer
+  - eventbuffer.addbuffer.md: '« EventBuffer::addBuffer'
+  - eventbuffer.construct.md: 'EventBuffer::construct »'
+  - index.md: PHP Manual
+  - class.eventbuffer.md: EventBuffer
 title: 'EventBuffer::appendFrom'
 ---
 # EventBuffer::appendFrom

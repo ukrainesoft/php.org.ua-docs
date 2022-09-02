@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dbase-numrecords.html: « dbasenumrecords
-  - function.dbase-pack.html: dbasepack »
+  - function.dbase-numrecords.md: « dbasenumrecords
+  - function.dbase-pack.md: dbasepack »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
 title: dbaseopen
@@ -22,7 +22,7 @@ dbase_open(string $path, int $mode): resource|false
 
 > **Зауваження**
 > 
-> На поведінку цієї функції впливає значення директиви [openbasedir](ini.core.html#ini.open-basedir)
+> На поведінку цієї функції впливає значення директиви [openbasedir](ini.core.md#ini.open-basedir)
 
 ### Список параметрів
 

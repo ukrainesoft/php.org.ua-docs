@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlupsidegap2crows.html: « tradercdlupsidegap2crows
-  - function.trader-ceil.html: traderceil »
+  - function.trader-cdlupsidegap2crows.md: « tradercdlupsidegap2crows
+  - function.trader-ceil.md: traderceil »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlxsidegap3methods

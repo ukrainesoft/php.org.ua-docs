@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-create-listen.html: « socketcreatelisten
-  - function.socket-create.html: socketcreate »
+  - function.socket-create-listen.md: « socketcreatelisten
+  - function.socket-create.md: socketcreate »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketcreatepair

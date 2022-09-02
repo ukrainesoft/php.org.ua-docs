@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-affected-rows.html: « fbirdaffectedrows
-  - function.fbird-blob-add.html: fbirdblobadd »
+  - function.fbird-affected-rows.md: « fbirdaffectedrows
+  - function.fbird-blob-add.md: fbirdblobadd »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdbackup

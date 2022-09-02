@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-form.setpadded.html: '« UIControlsForm::setPadded'
-  - ui-controls-grid.append.html: 'ОЙControlsGrid::append »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-controls-form.setpadded.md: '« UIControlsForm::setPadded'
+  - ui-controls-grid.append.md: 'ОЙControlsGrid::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Елемент управління "Сітка" (розміщення)
 ---
 # Елемент управління "Сітка" (розміщення)
@@ -120,6 +120,6 @@ controls
 
 ## Зміст
 
--   [ОЙControlsGrid::append](ui-controls-grid.append.html) — Додати елемент керування
--   [ОЙControlsGrid::isPadded](ui-controls-grid.ispadded.html) - Визначення заповнення
--   [ОЙControlsGrid::setPadded](ui-controls-grid.setpadded.html) - Встановити заповнення
+-   [ОЙControlsGrid::append](ui-controls-grid.append.md) — Додати елемент керування
+-   [ОЙControlsGrid::isPadded](ui-controls-grid.ispadded.md) - Визначення заповнення
+-   [ОЙControlsGrid::setPadded](ui-controls-grid.setpadded.md) - Встановити заповнення

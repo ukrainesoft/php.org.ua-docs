@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.getstrokeopacity.html: '« GmagickDraw::getstrokeopacity'
-  - gmagickdraw.gettextdecoration.html: 'GmagickDraw::gettextdecoration »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.getstrokeopacity.md: '« GmagickDraw::getstrokeopacity'
+  - gmagickdraw.gettextdecoration.md: 'GmagickDraw::gettextdecoration »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::getstrokewidth'
 ---
 # GmagickDraw::getstrokewidth

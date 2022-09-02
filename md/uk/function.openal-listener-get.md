@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-device-open.html: « openaldeviceopen
-  - function.openal-listener-set.html: openallistenerset »
+  - function.openal-device-open.md: « openaldeviceopen
+  - function.openal-listener-set.md: openallistenerset »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openallistenerget

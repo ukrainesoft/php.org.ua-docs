@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-supports-lock.html: « streamsupportslock
-  - function.stream-wrapper-restore.html: streamwrapperrestore »
+  - function.stream-supports-lock.md: « streamsupportslock
+  - function.stream-wrapper-restore.md: streamwrapperrestore »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamwrapperregister

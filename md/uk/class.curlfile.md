@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.curlsharehandle.html: « CurlShareHandle
-  - curlfile.construct.html: 'CURLFile::construct »'
-  - index.html: PHP Manual
-  - book.curl.html: cURL
+  - class.curlsharehandle.md: « CurlShareHandle
+  - curlfile.construct.md: 'CURLFile::construct »'
+  - index.md: PHP Manual
+  - book.curl.md: cURL
 title: Клас CURLFile
 ---
 # Клас CURLFile
@@ -12,7 +12,7 @@ title: Клас CURLFile
 
 ## Вступ
 
-Цей клас або [CURLStringFile](class.curlstringfile.html) можуть бути використані для завантаження файлу за допомогою опції **`CURLOPT_POSTFIELDS`**
+Цей клас або [CURLStringFile](class.curlstringfile.md) можуть бути використані для завантаження файлу за допомогою опції **`CURLOPT_POSTFIELDS`**
 
 Десеріалізація екземплярів **CURLFile** не допускається. Починаючи з PHP 7.4.0, серіалізація заборонена насамперед.
 
@@ -73,14 +73,14 @@ postname
 
 ## Дивіться також
 
--   [curlsetopt()](function.curl-setopt.html)
--   [CURLStringFile](class.curlstringfile.html)
+-   [curlsetopt()](function.curl-setopt.md)
+-   [CURLStringFile](class.curlstringfile.md)
 
 ## Зміст
 
--   [CURLFile::construct](curlfile.construct.html) — Створює об'єкт CURLFile
--   [CURLFile::getFilename](curlfile.getfilename.html) — Повертає ім'я файлу на сервер
--   [CURLFile::getMimeType](curlfile.getmimetype.html) - Повертає MIME-тип файлу
--   [CURLFile::getPostFilename](curlfile.getpostfilename.html) — Повертає ім'я файлу, що надсилається POST-запитом
--   [CURLFile::setMimeType](curlfile.setmimetype.html) - Встановлює MIME-тип
--   [CURLFile::setPostFilename](curlfile.setpostfilename.html) — Встановлює ім'я файлу для надсилання методом POST
+-   [CURLFile::construct](curlfile.construct.md) — Створює об'єкт CURLFile
+-   [CURLFile::getFilename](curlfile.getfilename.md) — Повертає ім'я файлу на сервер
+-   [CURLFile::getMimeType](curlfile.getmimetype.md) - Повертає MIME-тип файлу
+-   [CURLFile::getPostFilename](curlfile.getpostfilename.md) — Повертає ім'я файлу, що надсилається POST-запитом
+-   [CURLFile::setMimeType](curlfile.setmimetype.md) - Встановлює MIME-тип
+-   [CURLFile::setPostFilename](curlfile.setpostfilename.md) — Встановлює ім'я файлу для надсилання методом POST

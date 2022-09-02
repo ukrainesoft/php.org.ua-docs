@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.ellipse.html: '« ImagickDraw::ellipse'
-  - imagickdraw.getcliprule.html: 'ImagickDraw::getClipRule »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.ellipse.md: '« ImagickDraw::ellipse'
+  - imagickdraw.getcliprule.md: 'ImagickDraw::getClipRule »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getClipPath'
 ---
 # ImagickDraw::getClipPath

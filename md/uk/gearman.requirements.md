@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearman.setup.html: « Встановлення та налаштування
-  - gearman.installation.html: Установка »
-  - index.html: PHP Manual
-  - gearman.setup.html: Встановлення та налаштування
+  - gearman.setup.md: « Встановлення та налаштування
+  - gearman.installation.md: Установка »
+  - index.md: PHP Manual
+  - gearman.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

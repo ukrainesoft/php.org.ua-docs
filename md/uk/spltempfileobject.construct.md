@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.spltempfileobject.html: « SplTempFileObject
-  - spl.misc.html: Різні класи та інтерфейси »
-  - index.html: PHP Manual
-  - class.spltempfileobject.html: SplTempFileObject
+  - class.spltempfileobject.md: « SplTempFileObject
+  - spl.misc.md: Різні класи та інтерфейси »
+  - index.md: PHP Manual
+  - class.spltempfileobject.md: SplTempFileObject
 title: 'SplTempFileObject::construct'
 ---
 # SplTempFileObject::construct
@@ -28,7 +28,7 @@ public **SplTempFileObject::construct**(int `$maxMemory`
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html) у разі виникнення помилки.
+Викидає виняток [RuntimeException](class.runtimeexception.md) у разі виникнення помилки.
 
 ### Приклади
 
@@ -62,5 +62,5 @@ foreach ($temp as $line) {
 
 ### Дивіться також
 
--   [SplFileObject](class.splfileobject.html)
--   [потоки введення-виведення PHP](wrappers.php.html) (для`php://temp` і `php://memory`
+-   [SplFileObject](class.splfileobject.md)
+-   [потоки введення-виведення PHP](wrappers.php.md) (для`php://temp` і `php://memory`

@@ -22,7 +22,7 @@ public **MultipleIterator::construct**(int `$flags` = MultipleIterator::MITNEEDA
 
 `flags`
 
-Прапори для встановлення, згідно [Обумовленим константам](class.multipleiterator.html#multipleiterator.constants)
+Прапори для встановлення, згідно [Обумовленим константам](class.multipleiterator.md#multipleiterator.constants)
 
 -   **`MultipleIterator::MIT_NEED_ALL`** або **`MultipleIterator::MIT_NEED_ANY`**
 -   **`MultipleIterator::MIT_KEYS_NUMERIC`** або **`MultipleIterator::MIT_KEYS_ASSOC`**
@@ -140,5 +140,5 @@ Array
 
 ### Дивіться також
 
--   [Обумовлені константи](class.multipleiterator.html#multipleiterator.constants)
+-   [Обумовлені константи](class.multipleiterator.md#multipleiterator.constants)
 -   [MultipleIterator::valid()](multipleiterator.valid.md) - Перевіряє коректність підитераторів

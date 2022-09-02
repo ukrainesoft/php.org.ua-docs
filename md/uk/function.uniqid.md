@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.time-sleep-until.html: « timesleepuntil
-  - function.unpack.html: unpack »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.time-sleep-until.md: « timesleepuntil
+  - function.unpack.md: unpack »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: uniqid
 ---
 # uniqid
@@ -22,7 +22,7 @@ uniqid(string $prefix = "", bool $more_entropy = false): string
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.md) [randombytes()](function.random-bytes.md) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
 
 **Увага**
 

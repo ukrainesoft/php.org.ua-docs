@@ -1,7 +1,7 @@
 ---
 navigation:
-  - wddx.examples-serialize.html: « Приклади wddx
-  - function.wddx-add-vars.html: wddxaddvars »
+  - wddx.examples-serialize.md: « Приклади wddx
+  - function.wddx-add-vars.md: wddxaddvars »
   - index.md: PHP Manual
   - book.wddx.md: WDDX
 title: Функції WDDX

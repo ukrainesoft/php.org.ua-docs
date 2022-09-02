@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-timestamp.getincrement.html: '« MongoDBBSONTimestamp::getIncrement'
-  - mongodb-bson-timestamp.jsonserialize.html: 'MongoDBBSONTimestamp::jsonSerialize »'
+  - mongodb-bson-timestamp.getincrement.md: '« MongoDBBSONTimestamp::getIncrement'
+  - mongodb-bson-timestamp.jsonserialize.md: 'MongoDBBSONTimestamp::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
 title: 'MongoDBBSONTimestamp::getTimestamp'
 ---
 # MongoDBBSONTimestamp::getTimestamp

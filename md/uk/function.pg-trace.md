@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-socket.html: « pgsocket
-  - function.pg-transaction-status.html: пгtransactionstatus »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-socket.md: « pgsocket
+  - function.pg-transaction-status.md: пгtransactionstatus »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгtrace
 ---
 # пгtrace
@@ -26,15 +26,15 @@ pg_trace(string $filename, string $mode = "w", ?PgSql\Connection $connection = n
 
 `filename`
 
-Повний шлях та ім'я файлу для запису журналу трасування. Аналогічно [fopen()](function.fopen.html)
+Повний шлях та ім'я файлу для запису журналу трасування. Аналогічно [fopen()](function.fopen.md)
 
 `mode`
 
-Необов'язковий аргумент. Режим доступу до файлу. Аналогічно [fopen()](function.fopen.html)
+Необов'язковий аргумент. Режим доступу до файлу. Аналогічно [fopen()](function.fopen.md)
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -48,7 +48,7 @@ pg_trace(string $filename, string $mode = "w", ?PgSql\Connection $connection = n
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `connection` тепер допускає значення null. |
 
 ### Приклади
@@ -73,5 +73,5 @@ if ($pgsql_conn) {
 
 ### Дивіться також
 
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [пгuntrace()](function.pg-untrace.html) - Вимикає трасування з'єднання з PostgreSQL
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [пгuntrace()](function.pg-untrace.md) - Вимикає трасування з'єднання з PostgreSQL

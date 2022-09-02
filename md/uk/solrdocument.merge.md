@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.key.html: '« SolrDocument::key'
-  - solrdocument.next.html: 'SolrDocument::next »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.key.md: '« SolrDocument::key'
+  - solrdocument.next.md: 'SolrDocument::next »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::merge'
 ---
 # SolrDocument::merge

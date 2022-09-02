@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.construct.html: '« ImagickDraw::construct'
-  - imagickdraw.ellipse.html: 'ImagickDraw::ellipse »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.construct.md: '« ImagickDraw::construct'
+  - imagickdraw.ellipse.md: 'ImagickDraw::ellipse »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::destroy'
 ---
 # ImagickDraw::destroy
@@ -22,7 +22,7 @@ public ImagickDraw::destroy(): bool
 
 На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Звільняє всі ресурси, пов'язані з об'єктом [ImagickDraw](class.imagickdraw.html)
+Звільняє всі ресурси, пов'язані з об'єктом [ImagickDraw](class.imagickdraw.md)
 
 ### Значення, що повертаються
 

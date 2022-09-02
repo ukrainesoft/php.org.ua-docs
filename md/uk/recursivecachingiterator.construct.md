@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.recursivecachingiterator.html: « RecursiveCachingIterator
-  - recursivecachingiterator.getchildren.html: 'RecursiveCachingIterator::getChildren »'
-  - index.html: PHP Manual
-  - class.recursivecachingiterator.html: RecursiveCachingIterator
+  - class.recursivecachingiterator.md: « RecursiveCachingIterator
+  - recursivecachingiterator.getchildren.md: 'RecursiveCachingIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.recursivecachingiterator.md: RecursiveCachingIterator
 title: 'RecursiveCachingIterator::construct'
 ---
 # RecursiveCachingIterator::construct
@@ -14,9 +14,9 @@ RecursiveCachingIterator::construct — Конструктор
 
 ### Опис
 
-public **RecursiveCachingIterator::construct**[Iterator](class.iterator.html) `$iterator`, int `$flags` = RecursiveCachingIterator::CALLTOSTRING)
+public **RecursiveCachingIterator::construct**[Iterator](class.iterator.md) `$iterator`, int `$flags` = RecursiveCachingIterator::CALLTOSTRING)
 
-Створює новий [RecursiveCachingIterator](class.recursivecachingiterator.html), що складається з переданого ітератора (`iterator`
+Створює новий [RecursiveCachingIterator](class.recursivecachingiterator.md), що складається з переданого ітератора (`iterator`
 
 **Увага**
 
@@ -34,4 +34,4 @@ public **RecursiveCachingIterator::construct**[Iterator](class.iterator.html) `$
 
 ### Дивіться також
 
--   [CachingIterator::construct()](cachingiterator.construct.html) - Створює новий об'єкт CachingIterator для ітератора
+-   [CachingIterator::construct()](cachingiterator.construct.md) - Створює новий об'єкт CachingIterator для ітератора

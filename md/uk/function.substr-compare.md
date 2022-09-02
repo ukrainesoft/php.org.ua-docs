@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strtr.html: « strtr
-  - function.substr-count.html: substrcount »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.strtr.md: « strtr
+  - function.substr-count.md: substrcount »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: substrcompare
 ---
 # substrcompare
@@ -71,4 +71,4 @@ echo substr_compare("abcde", "abc", 5, 1); // предупреждение
 
 ### Дивіться також
 
--   [strncmp()](function.strncmp.html) - Бінарно-безпечне порівняння перших n символів рядків
+-   [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння перших n символів рядків

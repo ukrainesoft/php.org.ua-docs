@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration80.deprecated.html: '« Функціональність, оголошена застарілою в PHP 8.0.x'
-  - migration74.html: Миграция с PHP 7.3.x на PHP 7.4.x »
-  - index.html: PHP Manual
-  - migration80.html: Миграция с PHP 7.4.x на PHP 8.0.x
+  - migration80.deprecated.md: '« Функціональність, оголошена застарілою в PHP 8.0.x'
+  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x »
+  - index.md: PHP Manual
+  - migration80.md: Миграция с PHP 7.4.x на PHP 8.0.x
 title: Інші зміни
 ---
 ## Інші зміни
@@ -18,7 +18,7 @@ title: Інші зміни
 
 #### Reflection
 
-Результати [ReflectionClass::getConstants()](reflectionclass.getconstants.html) і [ReflectionClass::getReflectionConstants()](reflectionclass.getreflectionconstants.md) тепер можна фільтрувати за допомогою нового параметра `filter`. Додано три нові константи для роботи з ним:
+Результати [ReflectionClass::getConstants()](reflectionclass.getconstants.md) і [ReflectionClass::getReflectionConstants()](reflectionclass.getreflectionconstants.md) тепер можна фільтрувати за допомогою нового параметра `filter`. Додано три нові константи для роботи з ним:
 
 -   **`ReflectionClassConstant::IS_PUBLIC`**
 -   **`ReflectionClassConstant::IS_PROTECTED`**
@@ -26,18 +26,18 @@ title: Інші зміни
 
 #### Стандартні функції
 
-Математичні функції [abs()](function.abs.html) [ceil()](function.ceil.html) [floor()](function.floor.html) і [round()](function.round.md) тепер правильно враховують [оголошення`strict_type`](language.types.declarations.html#language.types.declarations.strict). Раніше вони наводили перший аргумент до числового значення навіть у режимі суворої типізації.
+Математичні функції [abs()](function.abs.md) [ceil()](function.ceil.md) [floor()](function.floor.md) і [round()](function.round.md) тепер правильно враховують [оголошення`strict_type`](language.types.declarations.md#language.types.declarations.strict). Раніше вони наводили перший аргумент до числового значення навіть у режимі суворої типізації.
 
 #### Zip
 
--   Методи [ZipArchive::addGlob()](ziparchive.addglob.html) і [ZipArchive::addPattern()](ziparchive.addpattern.md) набувають нових значень у масиві параметрів `options`
+-   Методи [ZipArchive::addGlob()](ziparchive.addglob.md) і [ZipArchive::addPattern()](ziparchive.addpattern.md) набувають нових значень у масиві параметрів `options`
     
     -   `flags`
     -   `comp_method`
     -   `comp_flags`
     -   `env_method`
     -   `enc_password`
--   У методів [ZipArchive::addEmptyDir()](ziparchive.addemptydir.html) [ZipArchive::addFile()](ziparchive.addfile.html) і [ZipArchive::addFromString()](ziparchive.addfromstring.md) додано новий параметр `flags`. За допомогою нього можна керувати кодуванням імені (**`ZipArchive::FL_ENC_*`**) та заміною запису (**`ZipArchive::FL_OVERWRITE`**
+-   У методів [ZipArchive::addEmptyDir()](ziparchive.addemptydir.md) [ZipArchive::addFile()](ziparchive.addfile.md) і [ZipArchive::addFromString()](ziparchive.addfromstring.md) додано новий параметр `flags`. За допомогою нього можна керувати кодуванням імені (**`ZipArchive::FL_ENC_*`**) та заміною запису (**`ZipArchive::FL_OVERWRITE`**
     
 -   [ZipArchive::extractTo()](ziparchive.extractto.md) Тепер відновлює час модифікації файлу.
     
@@ -53,15 +53,15 @@ title: Інші зміни
 
 #### дата і час
 
-[DatePeriod](class.dateperiod.html) тепер реалізує [IteratorAggregate](class.iteratoraggregate.html) (замість [Traversable](class.traversable.md)
+[DatePeriod](class.dateperiod.md) тепер реалізує [IteratorAggregate](class.iteratoraggregate.md) (замість [Traversable](class.traversable.md)
 
 #### DOM
 
-[DOMNamedNodeMap](class.domnamednodemap.html) і [DOMNodeList](class.domnodelist.html) тепер реалізують [IteratorAggregate](class.iteratoraggregate.html) (замість [Traversable](class.traversable.md)
+[DOMNamedNodeMap](class.domnamednodemap.md) і [DOMNodeList](class.domnodelist.md) тепер реалізують [IteratorAggregate](class.iteratoraggregate.md) (замість [Traversable](class.traversable.md)
 
 #### Intl
 
-[IntlBreakIterator](class.intlbreakiterator.html) і [ResourceBundle](class.resourcebundle.html) тепер реалізують [IteratorAggregate](class.iteratoraggregate.html) (замість [Traversable](class.traversable.md)
+[IntlBreakIterator](class.intlbreakiterator.md) і [ResourceBundle](class.resourcebundle.md) тепер реалізують [IteratorAggregate](class.iteratoraggregate.md) (замість [Traversable](class.traversable.md)
 
 #### Enchant
 
@@ -69,7 +69,7 @@ title: Інші зміни
 
 #### ДД
 
--   Параметр `num_points` для [imagepolygon()](function.imagepolygon.html) [imageopenpolygon()](function.imageopenpolygon.html) і [imagefilledpolygon()](function.imagefilledpolygon.md) тепер необов'язковий, тобто ці функції можуть бути викликані за допомогою трьох або чотирьох параметрів. Якщо параметр опущено, він розраховується як `count($points)/2`
+-   Параметр `num_points` для [imagepolygon()](function.imagepolygon.md) [imageopenpolygon()](function.imageopenpolygon.md) і [imagefilledpolygon()](function.imagefilledpolygon.md) тепер необов'язковий, тобто ці функції можуть бути викликані за допомогою трьох або чотирьох параметрів. Якщо параметр опущено, він розраховується як `count($points)/2`
     
 -   Додана функція [imagegetinterpolation()](function.imagegetinterpolation.md) для одержання поточного методу інтерполяції.
     
@@ -84,7 +84,7 @@ title: Інші зміни
 
 #### PDO
 
-[PDOStatement](class.pdostatement.html) тепер реалізує [IteratorAggregate](class.iteratoraggregate.html) (замість [Traversable](class.traversable.md)
+[PDOStatement](class.pdostatement.md) тепер реалізує [IteratorAggregate](class.iteratoraggregate.md) (замість [Traversable](class.traversable.md)
 
 #### LibXML
 
@@ -94,7 +94,7 @@ title: Інші зміни
 
 -   Якщо mysqlnd не використовується (це варіант за промовчанням і рекомендується), мінімальна підтримувана версія libmysqlclient тепер 5.5.
     
--   [mysqliresult](class.mysqli-result.html) тепер реалізує [IteratorAggregate](class.iteratoraggregate.html) (замість [Traversable](class.traversable.md)
+-   [mysqliresult](class.mysqli-result.md) тепер реалізує [IteratorAggregate](class.iteratoraggregate.md) (замість [Traversable](class.traversable.md)
     
 
 #### PGSQL / PDO PGSQL
@@ -103,11 +103,11 @@ title: Інші зміни
 
 #### Readline
 
-Виклик [readlinecompletionfunction()](function.readline-completion-function.html) перед запуском інтерактивної підказки (наприклад, [autoprependfile](ini.core.html#ini.auto-prepend-file)) тепер скасовує функцію завершення інтерактивної підказки за замовчуванням. Раніше [readlinecompletionfunction()](function.readline-completion-function.md) працювала лише під час виклику після запуску інтерактивної підказки.
+Виклик [readlinecompletionfunction()](function.readline-completion-function.md) перед запуском інтерактивної підказки (наприклад, [autoprependfile](ini.core.md#ini.auto-prepend-file)) тепер скасовує функцію завершення інтерактивної підказки за замовчуванням. Раніше [readlinecompletionfunction()](function.readline-completion-function.md) працювала лише під час виклику після запуску інтерактивної підказки.
 
 #### SimpleXML
 
-[SimpleXMLElement](class.simplexmlelement.html) тепер реалізує [RecursiveIterator](class.recursiveiterator.html) і включає функціонал [SimpleXMLIterator](class.simplexmliterator.html). . [SimpleXMLIterator](class.simplexmliterator.html) є порожнім розширенням [SimpleXMLElement](class.simplexmlelement.md)
+[SimpleXMLElement](class.simplexmlelement.md) тепер реалізує [RecursiveIterator](class.recursiveiterator.md) і включає функціонал [SimpleXMLIterator](class.simplexmliterator.md). . [SimpleXMLIterator](class.simplexmliterator.md) є порожнім розширенням [SimpleXMLElement](class.simplexmlelement.md)
 
 ### Зміни в обробці INI-файлів
 

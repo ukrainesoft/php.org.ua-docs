@@ -52,11 +52,11 @@ length
 | Версия | Описание |
 | --- | --- |
 |  | Клас **DOMNodeList** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md) |
-|  | Реалізовано інтерфейс [Countable](class.countable.md) та повертає значення властивості [length](class.domnodelist.html#domnodelist.props.length) |
+|  | Реалізовано інтерфейс [Countable](class.countable.md) та повертає значення властивості [length](class.domnodelist.md#domnodelist.props.length) |
 
 ## Дивіться також
 
--   [» Спецификация W3C по NodeList](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-536297177)
+-   [» Спецификация W3C по NodeList](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-536297177)
 
 ## Зміст
 

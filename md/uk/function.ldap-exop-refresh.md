@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-exop-passwd.html: « ldapexoppasswd
-  - function.ldap-exop-whoami.html: ldapexopwhoami »
+  - function.ldap-exop-passwd.md: « ldapexoppasswd
+  - function.ldap-exop-whoami.md: ldapexopwhoami »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapexoprefresh
@@ -24,7 +24,7 @@ ldap_exop_refresh(LDAP\Connection $ldap, string $dn, int $ttl): int|false
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
 

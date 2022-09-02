@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventutil.getlastsocketerror.html: '« EventUtil::getLastSocketError'
-  - eventutil.getsocketname.html: 'EventUtil::getSocketName »'
-  - index.html: PHP Manual
-  - class.eventutil.html: EventUtil
+  - eventutil.getlastsocketerror.md: '« EventUtil::getLastSocketError'
+  - eventutil.getsocketname.md: 'EventUtil::getSocketName »'
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
 title: 'EventUtil::getSocketFd'
 ---
 # EventUtil::getSocketFd

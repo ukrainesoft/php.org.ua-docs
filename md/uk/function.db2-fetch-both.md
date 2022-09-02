@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-fetch-assoc.html: « db2fetchassoc
-  - function.db2-fetch-object.html: db2fetchobject »
+  - function.db2-fetch-assoc.md: « db2fetchassoc
+  - function.db2-fetch-object.md: db2fetchobject »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2fetchboth
 ---
 # db2fetchboth
@@ -18,7 +18,7 @@ db2fetchboth — Повертає масив, індексований як на
 db2_fetch_both(resource $stmt, int $row_number = -1): array
 ```
 
-Повертає масив, індексований як на ім'я стовпця, так і по позиції, що представляє рядок у наборі результатів. Зверніть увагу, що рядок, що повертається **db2fetchboth()**, вимагає більше пам'яті, ніж масиви з одним індексом, що повертаються [db2fetchassoc()](function.db2-fetch-assoc.html) або [db2fetcharray()](function.db2-fetch-array.md)
+Повертає масив, індексований як на ім'я стовпця, так і по позиції, що представляє рядок у наборі результатів. Зверніть увагу, що рядок, що повертається **db2fetchboth()**, вимагає більше пам'яті, ніж масиви з одним індексом, що повертаються [db2fetchassoc()](function.db2-fetch-assoc.md) або [db2fetcharray()](function.db2-fetch-array.md)
 
 ### Список параметрів
 

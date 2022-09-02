@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.runkit7-constant-redefine.html: « runkit7constantredefine
-  - function.runkit7-function-add.html: runkit7functionadd »
+  - function.runkit7-constant-redefine.md: « runkit7constantredefine
+  - function.runkit7-function-add.md: runkit7functionadd »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
 title: runkit7constantremove

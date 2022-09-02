@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-gc.html: « imapгк
-  - function.imap-get-quotaroot.html: imapgetquotaroot »
+  - function.imap-gc.md: « imapгк
+  - function.imap-get-quotaroot.md: imapgetquotaroot »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapgetquota

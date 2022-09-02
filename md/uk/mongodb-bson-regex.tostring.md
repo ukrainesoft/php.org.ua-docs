@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-regex.serialize.html: '« MongoDBBSONRegex::serialize'
-  - mongodb-bson-regex.unserialize.html: 'MongoDBBSONRegex::unserialize »'
+  - mongodb-bson-regex.serialize.md: '« MongoDBBSONRegex::serialize'
+  - mongodb-bson-regex.unserialize.md: 'MongoDBBSONRegex::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+  - class.mongodb-bson-regex.md: MongoDBBSONRegex
 title: 'MongoDBBSONRegex::toString'
 ---
 # MongoDBBSONRegex::toString

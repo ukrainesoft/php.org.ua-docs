@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.worker.html: « Worker
-  - worker.getstacked.html: 'Worker::getStacked »'
-  - index.html: PHP Manual
-  - class.worker.html: Worker
+  - class.worker.md: « Worker
+  - worker.getstacked.md: 'Worker::getStacked »'
+  - index.md: PHP Manual
+  - class.worker.md: Worker
 title: 'Worker::collect'
 ---
 # Worker::collect

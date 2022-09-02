@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetimeimmutable.add.html: '« DateTimeImmutable::add'
-  - datetimeimmutable.createfromformat.html: 'DateTimeImmutable::createFromFormat »'
-  - index.html: PHP Manual
-  - class.datetimeimmutable.html: DateTimeImmutable
+  - datetimeimmutable.add.md: '« DateTimeImmutable::add'
+  - datetimeimmutable.createfromformat.md: 'DateTimeImmutable::createFromFormat »'
+  - index.md: PHP Manual
+  - class.datetimeimmutable.md: DateTimeImmutable
 title: 'DateTimeImmutable::construct'
 ---
 # DateTimeImmutable::construct

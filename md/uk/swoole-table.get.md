@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.exist.html: '« SwooleTable::exist'
-  - swoole-table.incr.html: 'SwooleTable::incr »'
-  - index.html: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - swoole-table.exist.md: '« SwooleTable::exist'
+  - swoole-table.incr.md: 'SwooleTable::incr »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::get'
 ---
 # SwooleTable::get

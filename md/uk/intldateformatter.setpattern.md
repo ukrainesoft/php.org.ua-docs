@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.setlenient.html: '« IntlDateFormatter::setLenient'
-  - intldateformatter.settimezone.html: 'IntlDateFormatter::setTimeZone »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.setlenient.md: '« IntlDateFormatter::setLenient'
+  - intldateformatter.settimezone.md: 'IntlDateFormatter::setTimeZone »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::setPattern'
 ---
 # IntlDateFormatter::setPattern
@@ -95,5 +95,5 @@ echo 'Второй отформатированный вывод : ', $fmt
 
 ### Дивіться також
 
--   [datefmtgetpattern()](intldateformatter.getpattern.html) - Отримує шаблон, який використовується IntlDateFormatter
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtgetpattern()](intldateformatter.getpattern.md) - Отримує шаблон, який використовується IntlDateFormatter
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

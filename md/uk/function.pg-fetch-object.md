@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-fetch-assoc.html: « pgfetchassoc
-  - function.pg-fetch-result.html: пгfetchresult »
+  - function.pg-fetch-assoc.md: « pgfetchassoc
+  - function.pg-fetch-result.md: пгfetchresult »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгfetchobject
@@ -22,13 +22,13 @@ pg_fetch_object(    PgSql\Result $result,    ?int $row = null,    st
 
 > **Зауваження**: Ця функція встановлює NULL-поля значення **`null`** PHP.
 
-За швидкістю функція ідентична [пгfetcharray()](function.pg-fetch-array.html) і трохи повільніше [пгfetchrow()](function.pg-fetch-row.md) (Різниця незначна).
+За швидкістю функція ідентична [пгfetcharray()](function.pg-fetch-array.md) і трохи повільніше [пгfetchrow()](function.pg-fetch-row.md) (Різниця незначна).
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 

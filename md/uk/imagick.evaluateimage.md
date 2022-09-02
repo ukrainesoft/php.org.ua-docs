@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.equalizeimage.html: '« Imagick::equalizeImage'
-  - imagick.exportimagepixels.html: 'Imagick::exportImagePixels »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.equalizeimage.md: '« Imagick::equalizeImage'
+  - imagick.exportimagepixels.md: 'Imagick::exportImagePixels »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::evaluateImage'
 ---
 # Imagick::evaluateImage
@@ -32,7 +32,7 @@ public Imagick::evaluateImage(int $op, float $constant, int $channel = Imagick::
 
 `channel`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів.Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів.Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

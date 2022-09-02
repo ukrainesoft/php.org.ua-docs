@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hrtime-stopwatch.getelapsedticks.html: '« HRTimeStopWatch::getElapsedTicks'
-  - hrtime-stopwatch.getlastelapsedticks.html: 'HRTimeStopWatch::getLastElapsedTicks »'
+  - hrtime-stopwatch.getelapsedticks.md: '« HRTimeStopWatch::getElapsedTicks'
+  - hrtime-stopwatch.getlastelapsedticks.md: 'HRTimeStopWatch::getLastElapsedTicks »'
   - index.md: PHP Manual
-  - class.hrtime-stopwatch.html: HRTimeStopWatch
+  - class.hrtime-stopwatch.md: HRTimeStopWatch
 title: 'HRTimeStopWatch::getElapsedTime'
 ---
 # HRTimeStopWatch::getElapsedTime

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-ht-sine.html: « traderхтsine
-  - function.trader-ht-trendmode.html: traderхтtrendmode »
+  - function.trader-ht-sine.md: « traderхтsine
+  - function.trader-ht-trendmode.md: traderхтtrendmode »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderхтtrendline

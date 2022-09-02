@@ -42,7 +42,7 @@ intlcal_equals(IntlCalendar $calendar, IntlCalendar $other): bool
 
 Повертає **`true`**, якщо поточний час цього та переданого в [IntlCalendar](class.intlcalendar.md) об'єкта однакове або **`false`** в іншому випадку.
 
-У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) або настройте викидання [исключений](intl.configuration.html#ini.intl.use-exceptions) в Intl.
+У разі виникнення помилки також повертається **`false`**. Для виявлення умов помилки використовуйте [intlgeterrorcode()](function.intl-get-error-code.md) або настройте викидання [исключений](intl.configuration.md#ini.intl.use-exceptions) в Intl.
 
 ### Приклади
 

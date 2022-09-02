@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-server.issecondary.html: '« MongoDBDriverServer::isSecondary'
-  - mongodb-driver-serverdescription.gethelloresponse.html: 'MongoDBDriverServerDescription::getHelloResponse »'
+  - mongodb-driver-server.issecondary.md: '« MongoDBDriverServer::isSecondary'
+  - mongodb-driver-serverdescription.gethelloresponse.md: 'MongoDBDriverServerDescription::getHelloResponse »'
   - index.md: PHP Manual
   - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverServerDescription
@@ -12,7 +12,7 @@ title: Клас MongoDBDriverServerDescription
 
 ## Вступ
 
-Клас **MongoDBDriverServerDescription** є об'єктом значення, що представляє сервер, до якого підключений драйвер. Примірники класу повертаються методами [MongoDBDriverServer::getServerDescription()](mongodb-driver-server.getserverdescription.html) і [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
+Клас **MongoDBDriverServerDescription** є об'єктом значення, що представляє сервер, до якого підключений драйвер. Примірники класу повертаються методами [MongoDBDriverServer::getServerDescription()](mongodb-driver-server.getserverdescription.md) і [MongoDBDriverMonitoringServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)
 
 ## Огляд класів
 

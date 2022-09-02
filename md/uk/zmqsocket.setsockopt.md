@@ -18,7 +18,7 @@ ZMQSocket::setSockOpt — Встановити опцію сокету
 public ZMQSocket::setSockOpt(int $key, mixed $value): ZMQSocket
 ```
 
-Встановлює опцію сокету ZMQ. Тип параметра `value` залежить від значення параметра `key`. Дивіться [Типи констант ZMQ](class.zmq.html#zmq.constants)
+Встановлює опцію сокету ZMQ. Тип параметра `value` залежить від значення параметра `key`. Дивіться [Типи констант ZMQ](class.zmq.md#zmq.constants)
 
 ### Список параметрів
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.insert-id.html: '« mysqli::$insertід'
-  - mysqli.more-results.html: 'mysqli::moreresults »'
+  - mysqli.insert-id.md: '« mysqli::$insertід'
+  - mysqli.more-results.md: 'mysqli::moreresults »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::kill'

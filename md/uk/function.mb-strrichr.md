@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-strrchr.html: « mbstrrchr
-  - function.mb-strripos.html: мбstrripos »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-strrchr.md: « mbstrrchr
+  - function.mb-strripos.md: мбstrripos »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбstrrichr
 ---
 # мбstrrichr
@@ -18,7 +18,7 @@ title: мбstrrichr
 mb_strrichr(    string $haystack,    string $needle,    bool $before_needle = false,    ?string $encoding = null): string|false
 ```
 
-**мбstrrichr()** шукає останнє входження рядка `needle` у рядку `haystack` та повертає частину рядка `haystack`. На відміну від [мбstrrchr()](function.mb-strrchr.html) **мбstrrichr()** не чутлива до регістру символів. Якщо `needle` не знайдено, функція повертає **`false`**
+**мбstrrichr()** шукає останнє входження рядка `needle` у рядку `haystack` та повертає частину рядка `haystack`. На відміну від [мбstrrchr()](function.mb-strrchr.md) **мбstrrichr()** не чутлива до регістру символів. Якщо `needle` не знайдено, функція повертає **`false`**
 
 ### Список параметрів
 
@@ -51,5 +51,5 @@ mb_strrichr(    string $haystack,    string $needle,    bool $before
 
 ### Дивіться також
 
--   [мбstristr()](function.mb-stristr.html) - Знаходить перше входження підрядки у рядку без урахування регістру
--   [мбstrrchr()](function.mb-strrchr.html) - Пошук останнього входження одного рядка в інший
+-   [мбstristr()](function.mb-stristr.md) - Знаходить перше входження підрядки у рядку без урахування регістру
+-   [мбstrrchr()](function.mb-strrchr.md) - Пошук останнього входження одного рядка в інший

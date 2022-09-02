@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pthreads.setup.html: « Встановлення та налаштування
-  - pthreads.installation.html: Установка »
-  - index.html: PHP Manual
-  - pthreads.setup.html: Встановлення та налаштування
+  - pthreads.setup.md: « Встановлення та налаштування
+  - pthreads.installation.md: Установка »
+  - index.md: PHP Manual
+  - pthreads.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

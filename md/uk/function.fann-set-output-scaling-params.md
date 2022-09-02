@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-learning-rate.html: « fannsetlearningrate
-  - function.fann-set-quickprop-decay.html: fannsetquickpropdecay »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-learning-rate.md: « fannsetlearningrate
+  - function.fann-set-quickprop-decay.md: fannsetquickpropdecay »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetoutputscalingparams
 ---
 # fannsetoutputscalingparams
@@ -44,4 +44,4 @@ fann_set_output_scaling_params(    resource $ann,    resource $train_dat
 
 ### Дивіться також
 
--   [fannsetinputscalingparams()](function.fann-set-input-scaling-params.html) - розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання
+-   [fannsetinputscalingparams()](function.fann-set-input-scaling-params.md) - розраховує вхідні параметри масштабування для майбутнього використання на основі даних навчання

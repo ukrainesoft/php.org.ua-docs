@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.snmp2-real-walk.html: « snmp2realwalk
-  - function.snmp2-walk.html: snmp2walk »
-  - index.html: PHP Manual
-  - ref.snmp.html: Функції SNMP
+  - function.snmp2-real-walk.md: « snmp2realwalk
+  - function.snmp2-walk.md: snmp2walk »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
 title: snmp2set
 ---
 # snmp2set
@@ -97,4 +97,4 @@ MIB визначає тип ідентифікатора кожного об'є�
 
 ### Дивіться також
 
--   [snmp2get()](function.snmp2-get.html) - Отримує об'єкт SNMP
+-   [snmp2get()](function.snmp2-get.md) - Отримує об'єкт SNMP

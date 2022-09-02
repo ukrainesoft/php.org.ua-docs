@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.hrtime-unit.html: « HRTimeUnit
+  - class.hrtime-unit.md: « HRTimeUnit
   - book.dio.md: Пряме введення/виведення (Direct IO) »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

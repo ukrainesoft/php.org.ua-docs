@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-tab.html: « UIControlsTab
-  - ui-controls-tab.delete.html: 'ОЙControlsTab::delete »'
-  - index.html: PHP Manual
-  - class.ui-controls-tab.html: ОЙControlsTab
+  - class.ui-controls-tab.md: « UIControlsTab
+  - ui-controls-tab.delete.md: 'ОЙControlsTab::delete »'
+  - index.md: PHP Manual
+  - class.ui-controls-tab.md: ОЙControlsTab
 title: 'ОЙControlsTab::append'
 ---
 # ОЙControlsTab::append

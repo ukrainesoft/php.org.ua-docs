@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.radius-strerror.html: « radiusstrerror
+  - function.radius-strerror.md: « radiusstrerror
   - book.readline.md: Readline »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

@@ -28,7 +28,7 @@ public
 
 `flags`
 
-Одна з констант `EventBase::LOOP_*`. Дивіться [константи EventBase](class.eventbase.html#eventbase.constants)
+Одна з констант `EventBase::LOOP_*`. Дивіться [константи EventBase](class.eventbase.md#eventbase.constants)
 
 ### Значення, що повертаються
 

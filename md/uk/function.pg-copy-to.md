@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-copy-from.html: « pgcopyfrom
-  - function.pg-dbname.html: пгdbname »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-copy-from.md: « pgcopyfrom
+  - function.pg-dbname.md: пгdbname »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгcopyто
 ---
 # пгcopyто
@@ -24,7 +24,7 @@ pg_copy_to(    PgSql\Connection $connection,    string $table_name,  �
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md)
 
 `table_name`
 
@@ -46,7 +46,7 @@ pg_copy_to(    PgSql\Connection $connection,    string $table_name,  �
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -66,4 +66,4 @@ pg_copy_to(    PgSql\Connection $connection,    string $table_name,  �
 
 ### Дивіться також
 
--   [пгcopyfrom()](function.pg-copy-from.html) - Вставляє записи з масиву до таблиці
+-   [пгcopyfrom()](function.pg-copy-from.md) - Вставляє записи з масиву до таблиці

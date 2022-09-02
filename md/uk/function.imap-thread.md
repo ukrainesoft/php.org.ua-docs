@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-subscribe.html: « imapsubscribe
-  - function.imap-timeout.html: imaptimeout »
+  - function.imap-subscribe.md: « imapsubscribe
+  - function.imap-timeout.md: imaptimeout »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapthread

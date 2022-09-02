@@ -1,7 +1,7 @@
 ---
 navigation:
   - mailparse.constants.md: « Обумовлені константи
-  - function.mailparse-determine-best-xfer-encoding.html: mailparsedeterminebestxferencoding »
+  - function.mailparse-determine-best-xfer-encoding.md: mailparsedeterminebestxferencoding »
   - index.md: PHP Manual
   - book.mailparse.md: Mailparse
 title: Mailparse

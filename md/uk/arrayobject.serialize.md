@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayobject.offsetunset.html: '« ArrayObject::offsetUnset'
-  - arrayobject.setflags.html: 'ArrayObject::setFlags »'
-  - index.html: PHP Manual
-  - class.arrayobject.html: ArrayObject
+  - arrayobject.offsetunset.md: '« ArrayObject::offsetUnset'
+  - arrayobject.setflags.md: 'ArrayObject::setFlags »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::serialize'
 ---
 # ArrayObject::serialize
@@ -18,7 +18,7 @@ ArrayObject::serialize — Серіалізувати ArrayObject
 public ArrayObject::serialize(): string
 ```
 
-Серіалізує [ArrayObject](class.arrayobject.html)
+Серіалізує [ArrayObject](class.arrayobject.md)
 
 **Увага**
 
@@ -30,7 +30,7 @@ public ArrayObject::serialize(): string
 
 ### Значення, що повертаються
 
-Серіалізоване подання [ArrayObject](class.arrayobject.html)
+Серіалізоване подання [ArrayObject](class.arrayobject.md)
 
 ### Приклади
 
@@ -57,6 +57,6 @@ string(21) "x:i:0;a:0:{};m:a:0:{}"
 
 ### Дивіться також
 
--   [ArrayObject::unserialize()](arrayobject.unserialize.html) - Десеріалізувати ArrayObject
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Серіалізація об'єктів](language.oop5.serialization.html)
+-   [ArrayObject::unserialize()](arrayobject.unserialize.md) - Десеріалізувати ArrayObject
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

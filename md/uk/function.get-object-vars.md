@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-mangled-object-vars.html: « getmangledobjectvars
-  - function.get-parent-class.html: getparentclass »
+  - function.get-mangled-object-vars.md: « getmangledobjectvars
+  - function.get-parent-class.md: getparentclass »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: getobjectvars

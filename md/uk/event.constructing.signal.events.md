@@ -55,4 +55,4 @@ $base->loop();
 
 Зверніть увагу, що функції зворотного дзвінка запускаються всередині подієвого циклу після отримання сигналу, так що для них цілком безпечно викликати функції, які не слід запускати зі звичайних обробників сигналів POSIX.
 
-Також почитайте [» Fast portable non-blocking network programming with Libevent, Constructing Signal Events](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.html#_constructing_signal_events)
+Також почитайте [» Fast portable non-blocking network programming with Libevent, Constructing Signal Events](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_constructing_signal_events)

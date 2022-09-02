@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.pspell.md: « Функции Pspell
-  - function.pspell-add-to-session.html: pspelladdтоsession »
+  - function.pspell-add-to-session.md: pspelladdтоsession »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspelladdтоpersonal
@@ -18,7 +18,7 @@ pspelladdтоpersonal — Додає слово до персонального 
 pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 ```
 
-**pspelladdтоpersonal()** додає слово до персонального списку слів. Якщо ви використовували [pspellnewconfig()](function.pspell-new-config.html) разом з [pspellconfigpersonal()](function.pspell-config-personal.html) для відкриття словника, ви можете зберегти список слів пізніше за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.md)
+**pspelladdтоpersonal()** додає слово до персонального списку слів. Якщо ви використовували [pspellnewconfig()](function.pspell-new-config.md) разом з [pspellconfigpersonal()](function.pspell-config-personal.md) для відкриття словника, ви можете зберегти список слів пізніше за допомогою [pspellsavewordlist()](function.pspell-save-wordlist.md)
 
 ### Список параметрів
 

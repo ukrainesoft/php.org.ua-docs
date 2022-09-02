@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-connection-busy.html: « pgconnectionbusy
-  - function.pg-connection-status.html: пгconnectionstatus »
+  - function.pg-connection-busy.md: « pgconnectionbusy
+  - function.pg-connection-status.md: пгconnectionstatus »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгconnectionreset

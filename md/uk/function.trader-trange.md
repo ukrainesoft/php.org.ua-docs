@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-tema.html: « tradertema
-  - function.trader-trima.html: tradertrima »
+  - function.trader-tema.md: « tradertema
+  - function.trader-trima.md: tradertrima »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradertrange

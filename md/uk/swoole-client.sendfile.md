@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.send.html: '« SwooleClient::send'
-  - swoole-client.sendto.html: 'SwooleClient::sendto »'
+  - swoole-client.send.md: '« SwooleClient::send'
+  - swoole-client.sendto.md: 'SwooleClient::sendto »'
   - index.md: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::sendfile'
 ---
 # SwooleClient::sendfile

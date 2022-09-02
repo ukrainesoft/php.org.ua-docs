@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.getstrokeopacity.html: '« ImagickDraw::getStrokeOpacity'
-  - imagickdraw.gettextalignment.html: 'ImagickDraw::getTextAlignment »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.getstrokeopacity.md: '« ImagickDraw::getStrokeOpacity'
+  - imagickdraw.gettextalignment.md: 'ImagickDraw::getTextAlignment »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getStrokeWidth'
 ---
 # ImagickDraw::getStrokeWidth

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-getpwuid.html: « posixgetpwuid
-  - function.posix-getsid.html: posixgetsid »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-getpwuid.md: « posixgetpwuid
+  - function.posix-getsid.md: posixgetsid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixgetrlimit
 ---
 # posixgetrlimit
@@ -92,4 +92,4 @@ Array
 ### Дивіться також
 
 -   керівництво GETRLIMIT(2)
--   [posixsetrlimit()](function.posix-setrlimit.html) - встановлює межі системних ресурсів
+-   [posixsetrlimit()](function.posix-setrlimit.md) - встановлює межі системних ресурсів

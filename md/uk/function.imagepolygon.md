@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagepng.html: « imagepng
-  - function.imagerectangle.html: imagerectangle »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagepng.md: « imagepng
+  - function.imagerectangle.md: imagerectangle »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagepolygon
 ---
 # imagepolygon
@@ -32,7 +32,7 @@ imagepolygon(    GdImage $image,    array $points,    int $num_point
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `points`
 
@@ -48,7 +48,7 @@ imagepolygon(    GdImage $image,    array $points,    int $num_point
 
 `color`
 
-Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -59,7 +59,7 @@ imagepolygon(    GdImage $image,    array $points,    int $num_point
 | Версия | Описание |
 | --- | --- |
 |  | Параметр `num_points` оголошено застарілим. |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -96,7 +96,7 @@ imagedestroy($image);
 
 ### Дивіться також
 
--   [imagefilledpolygon()](function.imagefilledpolygon.html) - Малювання зафарбованого багатокутника
--   [imageopenpolygon()](function.imageopenpolygon.html) - Малює відкритий полігон
--   [imagecreate()](function.imagecreate.html) - Створення нового палітрового зображення
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
+-   [imagefilledpolygon()](function.imagefilledpolygon.md) - Малювання зафарбованого багатокутника
+-   [imageopenpolygon()](function.imageopenpolygon.md) - Малює відкритий полігон
+-   [imagecreate()](function.imagecreate.md) - Створення нового палітрового зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення

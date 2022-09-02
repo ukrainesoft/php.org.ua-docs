@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.geoip.md: « Функции GeoIP
-  - function.geoip-continent-code-by-name.html: geoipcontinentcodeбname »
+  - function.geoip-continent-code-by-name.md: geoipcontinentcodeбname »
   - index.md: PHP Manual
   - ref.geoip.md: Функции GeoIP
 title: geoipAsnumбname

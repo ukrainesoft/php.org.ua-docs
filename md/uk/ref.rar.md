@@ -1,7 +1,7 @@
 ---
 navigation:
   - rar.examples.md: « Приклади
-  - function.rar-wrapper-cache-stats.html: rarwrappercachestats »
+  - function.rar-wrapper-cache-stats.md: rarwrappercachestats »
   - index.md: PHP Manual
   - book.rar.md: Rar
 title: Rar

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.getregion.html: '« IntlTimeZone::getRegion'
-  - intltimezone.getunknown.html: 'IntlTimeZone::getUnknown »'
-  - index.html: PHP Manual
-  - class.intltimezone.html: IntlTimeZone
+  - intltimezone.getregion.md: '« IntlTimeZone::getRegion'
+  - intltimezone.getunknown.md: 'IntlTimeZone::getUnknown »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getTZDataVersion'
 ---
 # IntlTimeZone::getTZDataVersion

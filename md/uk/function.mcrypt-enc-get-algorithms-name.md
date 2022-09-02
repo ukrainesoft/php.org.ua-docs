@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mcrypt-decrypt.html: « mcryptdecrypt
-  - function.mcrypt-enc-get-block-size.html: mcryptencgetblocksize »
-  - index.html: PHP Manual
-  - ref.mcrypt.html: Mcrypt
+  - function.mcrypt-decrypt.md: « mcryptdecrypt
+  - function.mcrypt-enc-get-block-size.md: mcryptencgetblocksize »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
 title: mcryptencgetalgorithmsname
 ---
 # mcryptencgetalgorithmsname

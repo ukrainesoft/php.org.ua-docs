@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventlistener.getsocketname.html: '« EventListener::getSocketName'
-  - eventlistener.seterrorcallback.html: 'EventListener::setErrorCallback »'
-  - index.html: PHP Manual
-  - class.eventlistener.html: EventListener
+  - eventlistener.getsocketname.md: '« EventListener::getSocketName'
+  - eventlistener.seterrorcallback.md: 'EventListener::setErrorCallback »'
+  - index.md: PHP Manual
+  - class.eventlistener.md: EventListener
 title: 'EventListener::setCallback'
 ---
 # EventListener::setCallback
@@ -58,7 +58,7 @@ callback(    
 
 `listener`
 
-Об'єкт [EventListener](class.eventlistener.html)
+Об'єкт [EventListener](class.eventlistener.md)
 
 `fd`
 

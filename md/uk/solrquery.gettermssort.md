@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.gettermsreturnraw.html: '« SolrQuery::getTermsReturnRaw'
-  - solrquery.gettermsupperbound.html: 'SolrQuery::getTermsUpperBound »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.gettermsreturnraw.md: '« SolrQuery::getTermsReturnRaw'
+  - solrquery.gettermsupperbound.md: 'SolrQuery::getTermsUpperBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getTermsSort'
 ---
 # SolrQuery::getTermsSort

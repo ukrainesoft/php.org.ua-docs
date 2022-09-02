@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-utcdatetime.html: « MongoDBBSONUTCDateTime
-  - mongodb-bson-utcdatetime.jsonserialize.html: 'MongoDBBSONUTCDateTime::jsonSerialize »'
+  - class.mongodb-bson-utcdatetime.md: « MongoDBBSONUTCDateTime
+  - mongodb-bson-utcdatetime.jsonserialize.md: 'MongoDBBSONUTCDateTime::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+  - class.mongodb-bson-utcdatetime.md: MongoDBBSONUTCDateTime
 title: 'MongoDBBSONUTCDateTime::construct'
 ---
 # MongoDBBSONUTCDateTime::construct
@@ -24,7 +24,7 @@ final public MongoDB\BSON\UTCDateTime::__construct(int|float|string|DateTimeInte
 
 Кількість мілісекунд з часів Unix (1 січня 1970). Негативні значення становлять дати до 1970 року. Це значення може бути представлене як 64-розрядний int. Для сумісності в 32-бітових системах цей параметр також може бути представлений як float або string.
 
-Якщо аргумент є [DateTimeInterface](class.datetimeinterface.md), З цього значення буде отримано кількість мілісекунд, що пройшли з початку епохи Unix. Зверніть увагу, що у версіях PHP до 7.1.0 об'єкти [DateTime](class.datetime.md) і [DateTimeImmutable](class.datetimeimmutable.md), побудовані за поточним часом, [не включають точність менше секунди](migration71.incompatible.html#migration71.incompatible.datetime-microseconds)
+Якщо аргумент є [DateTimeInterface](class.datetimeinterface.md), З цього значення буде отримано кількість мілісекунд, що пройшли з початку епохи Unix. Зверніть увагу, що у версіях PHP до 7.1.0 об'єкти [DateTime](class.datetime.md) і [DateTimeImmutable](class.datetimeimmutable.md), побудовані за поточним часом, [не включають точність менше секунди](migration71.incompatible.md#migration71.incompatible.datetime-microseconds)
 
 Якщо цей аргумент дорівнює **`null`**, використовуватиметься поточний час за промовчанням.
 

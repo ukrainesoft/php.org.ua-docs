@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sodium.setup.html: « Встановлення та налаштування
-  - sodium.installation.html: Установка »
-  - index.html: PHP Manual
-  - sodium.setup.html: Встановлення та налаштування
+  - sodium.setup.md: « Встановлення та налаштування
+  - sodium.installation.md: Установка »
+  - index.md: PHP Manual
+  - sodium.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

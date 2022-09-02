@@ -24,7 +24,7 @@ public Imagick::setImageColorspace(int $colorspace): bool
 
 `colorspace`
 
-Одна з [COLORSPACE констант](imagick.constants.html#imagick.constants.colorspace)
+Одна з [COLORSPACE констант](imagick.constants.md#imagick.constants.colorspace)
 
 ### Значення, що повертаються
 

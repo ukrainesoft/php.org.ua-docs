@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.timezone-transitions-get.html: « timezonetransitionsget
+  - function.timezone-transitions-get.md: « timezonetransitionsget
   - datetime.formats.md: Допустимі формати дати/часу »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу

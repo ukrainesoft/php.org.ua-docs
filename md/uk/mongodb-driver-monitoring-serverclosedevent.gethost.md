@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-serverclosedevent.html: « MongoDBDriverMonitoringServerClosedEvent
-  - mongodb-driver-monitoring-serverclosedevent.getport.html: 'MongoDBDriverMonitoringServerClosedEvent::getPort »'
+  - class.mongodb-driver-monitoring-serverclosedevent.md: « MongoDBDriverMonitoringServerClosedEvent
+  - mongodb-driver-monitoring-serverclosedevent.getport.md: 'MongoDBDriverMonitoringServerClosedEvent::getPort »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverclosedevent.html: MongoDBDriverMonitoringServerClosedEvent
+  - class.mongodb-driver-monitoring-serverclosedevent.md: MongoDBDriverMonitoringServerClosedEvent
 title: 'MongoDBDriverMonitoringServerClosedEvent::getHost'
 ---
 # MongoDBDriverMonitoringServerClosedEvent::getHost

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-fsync.html: « eiofsync
-  - function.eio-futime.html: eiofutime »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-fsync.md: « eiofsync
+  - function.eio-futime.md: eiofutime »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eioftruncate
 ---
 # eioftruncate

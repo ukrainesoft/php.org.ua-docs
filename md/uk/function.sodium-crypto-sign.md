@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-verify-detached.html: « sodiumcryptosignverifydetached
-  - function.sodium-crypto-stream-keygen.html: sodiumcryptostreamkeygen »
+  - function.sodium-crypto-sign-verify-detached.md: « sodiumcryptosignverifydetached
+  - function.sodium-crypto-stream-keygen.md: sodiumcryptostreamkeygen »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptosign

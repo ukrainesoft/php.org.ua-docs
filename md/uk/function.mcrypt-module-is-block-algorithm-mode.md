@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mcrypt-module-get-supported-key-sizes.html: « mcryptmodulegetsupportedkeysizes
-  - function.mcrypt-module-is-block-algorithm.html: mcryptmoduleісblockalgorithm »
-  - index.html: PHP Manual
-  - ref.mcrypt.html: Mcrypt
+  - function.mcrypt-module-get-supported-key-sizes.md: « mcryptmodulegetsupportedkeysizes
+  - function.mcrypt-module-is-block-algorithm.md: mcryptmoduleісblockalgorithm »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
 title: mcryptmoduleісblockalgorithmmode
 ---
 # mcryptmoduleісblockalgorithmmode

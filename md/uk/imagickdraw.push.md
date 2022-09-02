@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.poppattern.html: '« ImagickDraw::popPattern'
-  - imagickdraw.pushclippath.html: 'ImagickDraw::pushClipPath »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.poppattern.md: '« ImagickDraw::popPattern'
+  - imagickdraw.pushclippath.md: 'ImagickDraw::pushClipPath »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::push'
 ---
 # ImagickDraw::push
@@ -22,7 +22,7 @@ public ImagickDraw::push(): bool
 
 На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Клонує поточний об'єкт ImagickDraw для створення нового об'єкта ImagickDraw, який потім додається до стек ImagickDraw. Вихідний об'єкт ImagickDraw (або кілька об'єктів) можна повернути, викликавши [ImagickDraw::pop()](imagickdraw.pop.html). Об'єкти ImagickDraw зберігаються у стеку ImagickDraw. Для кожної операції видалення має бути еквівалентна операція додавання.
+Клонує поточний об'єкт ImagickDraw для створення нового об'єкта ImagickDraw, який потім додається до стек ImagickDraw. Вихідний об'єкт ImagickDraw (або кілька об'єктів) можна повернути, викликавши [ImagickDraw::pop()](imagickdraw.pop.md). Об'єкти ImagickDraw зберігаються у стеку ImagickDraw. Для кожної операції видалення має бути еквівалентна операція додавання.
 
 ### Значення, що повертаються
 

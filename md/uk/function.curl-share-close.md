@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-setopt.html: « curlsetopt
-  - function.curl-share-errno.html: curlshareerrno »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-setopt.md: « curlsetopt
+  - function.curl-share-errno.md: curlshareerrno »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlshareclose
 ---
 # curlshareclose
@@ -28,7 +28,7 @@ curl_share_close(CurlShareHandle $share_handle): void
 
 `share_handle`
 
-Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.html)
+Обробник cURL, що розділяється, повертається [curlshareinit()](function.curl-share-init.md)
 
 ### Значення, що повертаються
 
@@ -38,11 +38,11 @@ curl_share_close(CurlShareHandle $share_handle): void
 
 | Версия | Описание |
 | --- | --- |
-|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.html) instance now; Попередньо, як ресурс був виявлений. |
+|  | `share_handle` expects a [CurlShareHandle](class.curlsharehandle.md) instance now; Попередньо, як ресурс був виявлений. |
 
 ### Приклади
 
-**Приклад #1 Приклад використання [curlsharesetopt()](function.curl-share-setopt.html)**
+**Приклад #1 Приклад використання [curlsharesetopt()](function.curl-share-setopt.md)**
 
 У цьому прикладі ми створюємо роздільний обробник cURL, додаємо в нього два звичайні обробники і запускаємо їх. Вони будуть використовувати одні й ті ж куки.
 
@@ -78,4 +78,4 @@ curl_close($ch2);
 
 ### Дивіться також
 
--   [curlshareinit()](function.curl-share-init.html) - Ініціалізація оброблюваного обробника cURL
+-   [curlshareinit()](function.curl-share-init.md) - Ініціалізація оброблюваного обробника cURL

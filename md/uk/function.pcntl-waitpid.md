@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pcntl-wait.html: pcntlwait
-  - function.pcntl-wexitstatus.html: pcntlwexitstatus »
-  - index.html: PHP Manual
-  - ref.pcntl.html: Функції PCNTL
+  - function.pcntl-wait.md: pcntlwait
+  - function.pcntl-wexitstatus.md: pcntlwexitstatus »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
 title: pcntlwaitpid
 ---
 # pcntlwaitpid
@@ -36,7 +36,7 @@ pcntl_waitpid(    int $process_id,    int &$status,    int $flags = 
 
 `status`
 
-**pcntlwaitpid()** розмістить інформацію про статус за посиланням у аргументі `status`, який може бути переданий у такі функції: [pcntlwifexited()](function.pcntl-wifexited.html) [pcntlwifstopped()](function.pcntl-wifstopped.html) [pcntlwifsignaled()](function.pcntl-wifsignaled.html) [pcntlwexitstatus()](function.pcntl-wexitstatus.html) [pcntlwtermsig()](function.pcntl-wtermsig.html) і [pcntlwstopsig()](function.pcntl-wstopsig.md)
+**pcntlwaitpid()** розмістить інформацію про статус за посиланням у аргументі `status`, який може бути переданий у такі функції: [pcntlwifexited()](function.pcntl-wifexited.md) [pcntlwifstopped()](function.pcntl-wifstopped.md) [pcntlwifsignaled()](function.pcntl-wifsignaled.md) [pcntlwexitstatus()](function.pcntl-wexitstatus.md) [pcntlwtermsig()](function.pcntl-wtermsig.md) і [pcntlwstopsig()](function.pcntl-wstopsig.md)
 
 `flags`
 

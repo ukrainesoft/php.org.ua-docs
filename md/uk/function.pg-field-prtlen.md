@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-field-num.html: « pgfieldnum
-  - function.pg-field-size.html: пгfieldsize »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-field-num.md: « pgfieldnum
+  - function.pg-field-size.md: пгfieldsize »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгfieldprtlen
 ---
 # пгfieldprtlen
@@ -26,7 +26,7 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 `field_name_or_number` Номер чи ім'я вибраного поля. Може передаватися або як int або як string. Якщо передається значення типу int, PHP розпізнає його як номер, інакше як назву поля.
 
-Ознайомтеся з прикладами на сторінці з описом функції [пгfieldname()](function.pg-field-name.html)
+Ознайомтеся з прикладами на сторінці з описом функції [пгfieldname()](function.pg-field-name.md)
 
 > **Зауваження**
 > 
@@ -36,7 +36,7 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 
@@ -50,7 +50,7 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -97,4 +97,4 @@ field type: varchar
 
 ### Дивіться також
 
--   [пгfieldsize()](function.pg-field-size.html) - Повертає розмір поля
+-   [пгfieldsize()](function.pg-field-size.md) - Повертає розмір поля

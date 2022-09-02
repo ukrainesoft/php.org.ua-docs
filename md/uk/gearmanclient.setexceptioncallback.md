@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.setdatacallback.html: '« GearmanClient::setDataCallback'
-  - gearmanclient.setfailcallback.html: 'GearmanClient::setFailCallback »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.setdatacallback.md: '« GearmanClient::setDataCallback'
+  - gearmanclient.setfailcallback.md: 'GearmanClient::setFailCallback »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::setExceptionCallback'
 ---
 # GearmanClient::setExceptionCallback

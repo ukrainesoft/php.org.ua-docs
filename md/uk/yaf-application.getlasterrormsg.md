@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.getdispatcher.html: '« YafApplication::getDispatcher'
-  - yaf-application.getlasterrorno.html: 'YafApplication::getLastErrorNo »'
-  - index.html: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - yaf-application.getdispatcher.md: '« YafApplication::getDispatcher'
+  - yaf-application.getlasterrorno.md: 'YafApplication::getLastErrorNo »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::getLastErrorMsg'
 ---
 # YafApplication::getLastErrorMsg

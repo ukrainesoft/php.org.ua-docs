@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.substr-compare.html: « substrcompare
-  - function.substr-replace.html: substrreplace »
+  - function.substr-compare.md: « substrcompare
+  - function.substr-replace.md: substrreplace »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: substrcount

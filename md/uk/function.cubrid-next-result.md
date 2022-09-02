@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-move-cursor.html: « cubridmovecursor
-  - function.cubrid-num-cols.html: cubridnumcols »
+  - function.cubrid-move-cursor.md: « cubridmovecursor
+  - function.cubrid-num-cols.md: cubridnumcols »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridnextresult

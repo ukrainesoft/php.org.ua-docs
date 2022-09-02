@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.function-exists.html: « functionexists
-  - function.register-shutdown-function.html: registershutdownfunction »
+  - function.function-exists.md: « functionexists
+  - function.register-shutdown-function.md: registershutdownfunction »
   - index.md: PHP Manual
   - ref.funchand.md: Функции управления функциями
 title: getdefinedфункцій

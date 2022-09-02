@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.uopz-copy.html: « uopzcopy
-  - function.uopz-delete.html: uopzdelete »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - function.uopz-copy.md: « uopzcopy
+  - function.uopz-delete.md: uopzdelete »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzdelfunction
 ---
 # uopzdelfunction
@@ -44,7 +44,7 @@ uopz_del_function(string $class, string $function, int &$all = true): bool
 
 ### Помилки
 
-**uopzdelfunction()** викидає [RuntimeException](class.runtimeexception.html), якщо видалені функції або метод не були додані за допомогою [uopzaddfunction()](function.uopz-add-function.md)
+**uopzdelfunction()** викидає [RuntimeException](class.runtimeexception.md), якщо видалені функції або метод не були додані за допомогою [uopzaddfunction()](function.uopz-add-function.md)
 
 ### Приклади
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.win32-send-custom-control.html: « win32sendcustomcontrol
-  - function.win32-set-service-exit-mode.html: win32setserviceexitmode »
+  - function.win32-send-custom-control.md: « win32sendcustomcontrol
+  - function.win32-set-service-exit-mode.md: win32setserviceexitmode »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
 title: win32setserviceexitcode

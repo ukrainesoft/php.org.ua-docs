@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-colorbutton.getcolor.html: '« UIControlsColorButton::getColor'
-  - ui-controls-colorbutton.setcolor.html: 'ОЙControlsColorButton::setColor »'
+  - ui-controls-colorbutton.getcolor.md: '« UIControlsColorButton::getColor'
+  - ui-controls-colorbutton.setcolor.md: 'ОЙControlsColorButton::setColor »'
   - index.md: PHP Manual
-  - class.ui-controls-colorbutton.html: ОЙControlsColorButton
+  - class.ui-controls-colorbutton.md: ОЙControlsColorButton
 title: 'ОЙControlsColorButton::onChange'
 ---
 # ОЙControlsColorButton::onChange

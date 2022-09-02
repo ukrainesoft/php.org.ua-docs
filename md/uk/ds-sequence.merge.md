@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.map.html: '« DsSequence::map'
-  - ds-sequence.pop.html: 'ДсSequence::pop »'
-  - index.html: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - ds-sequence.map.md: '« DsSequence::map'
+  - ds-sequence.pop.md: 'ДсSequence::pop »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::merge'
 ---
 # ДсSequence::merge
@@ -24,7 +24,7 @@ abstract public Ds\Sequence::merge(mixed $values): Ds\Sequence
 
 `values`
 
-Об'єкт класу [traversable](class.traversable.html) або array.
+Об'єкт класу [traversable](class.traversable.md) або array.
 
 ### Значення, що повертаються
 

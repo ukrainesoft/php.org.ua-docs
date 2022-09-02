@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.pathmovetoabsolute.html: '« ImagickDraw::pathMoveToAbsolute'
-  - imagickdraw.pathstart.html: 'ImagickDraw::pathStart »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.pathmovetoabsolute.md: '« ImagickDraw::pathMoveToAbsolute'
+  - imagickdraw.pathstart.md: 'ImagickDraw::pathStart »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathMoveToRelative'
 ---
 # ImagickDraw::pathMoveToRelative

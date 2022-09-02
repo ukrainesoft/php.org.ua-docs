@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashstringinthash.loadfromfile.html: '« QuickHashStringIntHash::loadFromFile'
-  - quickhashstringinthash.savetofile.html: 'QuickHashStringIntHash::saveToFile »'
-  - index.html: PHP Manual
-  - class.quickhashstringinthash.html: QuickHashStringIntHash
+  - quickhashstringinthash.loadfromfile.md: '« QuickHashStringIntHash::loadFromFile'
+  - quickhashstringinthash.savetofile.md: 'QuickHashStringIntHash::saveToFile »'
+  - index.md: PHP Manual
+  - class.quickhashstringinthash.md: QuickHashStringIntHash
 title: 'QuickHashStringIntHash::loadFromString'
 ---
 # QuickHashStringIntHash::loadFromString

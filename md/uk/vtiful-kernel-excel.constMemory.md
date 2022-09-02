@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-excel.autoFilter.html: '« VtifulKernelExcel::autoFilter'
-  - vtiful-kernel-excel.construct.html: 'VtifulKernelExcel::construct »'
+  - vtiful-kernel-excel.autoFilter.md: '« VtifulKernelExcel::autoFilter'
+  - vtiful-kernel-excel.construct.md: 'VtifulKernelExcel::construct »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
 title: 'VtifulKernelExcel::constMemory'
 ---
 # VtifulKernelExcel::constMemory

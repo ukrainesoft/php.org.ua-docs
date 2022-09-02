@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gnupg-clearsignkeys.html: « gnupgclearsignkeys
-  - function.gnupg-decryptverify.html: gnupgdecryptverify »
-  - index.html: PHP Manual
-  - ref.gnupg.html: GnuPG Функції
+  - function.gnupg-clearsignkeys.md: « gnupgclearsignkeys
+  - function.gnupg-decryptverify.md: gnupgdecryptverify »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
 title: gnupgdecrypt
 ---
 # gnupgdecrypt
@@ -18,13 +18,13 @@ gnupgdecrypt — Розшифровує переданий текст
 gnupg_decrypt(resource $identifier, string $text): string
 ```
 
-Розшифровує переданий текст ключами, встановленими раніше за допомогою [gnupgadddecryptkey](function.gnupg-adddecryptkey.html)
+Розшифровує переданий текст ключами, встановленими раніше за допомогою [gnupgadddecryptkey](function.gnupg-adddecryptkey.md)
 
 ### Список параметрів
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `text`
 

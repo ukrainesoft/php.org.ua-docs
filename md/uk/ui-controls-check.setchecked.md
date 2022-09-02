@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-check.ontoggle.html: '« UIControlsCheck::onToggle'
-  - ui-controls-check.settext.html: 'ОЙControlsCheck::setText »'
+  - ui-controls-check.ontoggle.md: '« UIControlsCheck::onToggle'
+  - ui-controls-check.settext.md: 'ОЙControlsCheck::setText »'
   - index.md: PHP Manual
-  - class.ui-controls-check.html: ОЙControlsCheck
+  - class.ui-controls-check.md: ОЙControlsCheck
 title: 'ОЙControlsCheck::setChecked'
 ---
 # ОЙControlsCheck::setChecked

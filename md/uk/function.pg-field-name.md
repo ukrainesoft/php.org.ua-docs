@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-field-is-null.html: « pgfieldісnull
-  - function.pg-field-num.html: пгfieldnum »
+  - function.pg-field-is-null.md: « pgfieldісnull
+  - function.pg-field-num.md: пгfieldnum »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгfieldname
@@ -28,7 +28,7 @@ pg_field_name(PgSql\Result $result, int $field): string
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field`
 

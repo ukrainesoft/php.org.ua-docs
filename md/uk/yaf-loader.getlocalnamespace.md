@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-loader.getlibrarypath.html: '« YafLoader::getLibraryPath'
-  - yaf-loader.getnamespacepath.html: 'YafLoader::getNamespacePath »'
-  - index.html: PHP Manual
-  - class.yaf-loader.html: YafLoader
+  - yaf-loader.getlibrarypath.md: '« YafLoader::getLibraryPath'
+  - yaf-loader.getnamespacepath.md: 'YafLoader::getNamespacePath »'
+  - index.md: PHP Manual
+  - class.yaf-loader.md: YafLoader
 title: 'YafLoader::getLocalNamespace'
 ---
 # YafLoader::getLocalNamespace

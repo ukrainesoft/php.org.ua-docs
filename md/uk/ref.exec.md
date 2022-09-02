@@ -1,9 +1,9 @@
 ---
 navigation:
-  - exec.constants.html: « Обумовлені константи
-  - function.escapeshellarg.html: escapeshellarg »
-  - index.html: PHP Manual
-  - book.exec.html: Запуск програми
+  - exec.constants.md: « Обумовлені константи
+  - function.escapeshellarg.md: escapeshellarg »
+  - index.md: PHP Manual
+  - book.exec.md: Запуск програми
 title: Функції запуску програм
 ---
 # Функції запуску програм
@@ -16,18 +16,18 @@ title: Функції запуску програм
 
 ## Дивіться також
 
-Ці функції також тісно пов'язані з оператором [зворотні лапки (](language.operators.execution.html)
+Ці функції також тісно пов'язані з оператором [зворотні лапки (](language.operators.execution.md)
 
 ## Зміст
 
--   [escapeshellarg](function.escapeshellarg.html) — Екранувати рядок для того, щоб він міг бути використаний як аргумент командного рядка
--   [escapeshellcmd](function.escapeshellcmd.html) — Екранувати метасимволи командного рядка
--   [exec](function.exec.html) — Виконати зовнішню програму
--   [passthru](function.passthru.html) — Виконати зовнішню програму та відобразити необроблений висновок
--   [procclose](function.proc-close.html) — Завершити процес, відкритий procopen та повернути код повернення цього процесу
--   [procgetstatus](function.proc-get-status.html) — Отримати інформацію про процес, відкритий procopen
--   [procnice](function.proc-nice.html) — Змінити пріоритет поточного процесу
--   [procopen](function.proc-open.html) — Виконати команду та відкрити покажчик на файл для введення/виводу
--   [procterminate](function.proc-terminate.html) — Знищити процес, відкритий за допомогою функції procopen
--   [shellexec](function.shell-exec.html) — Виконати команду через оболонку та повернути висновок у вигляді рядка
--   [system](function.system.html) — Виконати зовнішню програму та відобразити висновок
+-   [escapeshellarg](function.escapeshellarg.md) — Екранувати рядок для того, щоб він міг бути використаний як аргумент командного рядка
+-   [escapeshellcmd](function.escapeshellcmd.md) — Екранувати метасимволи командного рядка
+-   [exec](function.exec.md) — Виконати зовнішню програму
+-   [passthru](function.passthru.md) — Виконати зовнішню програму та відобразити необроблений висновок
+-   [procclose](function.proc-close.md) — Завершити процес, відкритий procopen та повернути код повернення цього процесу
+-   [procgetstatus](function.proc-get-status.md) — Отримати інформацію про процес, відкритий procopen
+-   [procnice](function.proc-nice.md) — Змінити пріоритет поточного процесу
+-   [procopen](function.proc-open.md) — Виконати команду та відкрити покажчик на файл для введення/виводу
+-   [procterminate](function.proc-terminate.md) — Знищити процес, відкритий за допомогою функції procopen
+-   [shellexec](function.shell-exec.md) — Виконати команду через оболонку та повернути висновок у вигляді рядка
+-   [system](function.system.md) — Виконати зовнішню програму та відобразити висновок

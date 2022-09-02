@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-add-user.html: « fbirdadduser
-  - function.fbird-backup.html: fbirdbackup »
+  - function.fbird-add-user.md: « fbirdadduser
+  - function.fbird-backup.md: fbirdbackup »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdaffectedrows

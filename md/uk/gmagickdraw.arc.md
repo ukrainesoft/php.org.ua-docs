@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.annotate.html: '« GmagickDraw::annotate'
-  - gmagickdraw.bezier.html: 'GmagickDraw::bezier »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.annotate.md: '« GmagickDraw::annotate'
+  - gmagickdraw.bezier.md: 'GmagickDraw::bezier »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::arc'
 ---
 # GmagickDraw::arc

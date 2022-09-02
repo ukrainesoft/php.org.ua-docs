@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rlexer.consume.html: '« ParleRLexer::consume'
-  - parle-rlexer.gettoken.html: 'ParleRLexer::getToken »'
+  - parle-rlexer.consume.md: '« ParleRLexer::consume'
+  - parle-rlexer.gettoken.md: 'ParleRLexer::getToken »'
   - index.md: PHP Manual
-  - class.parle-rlexer.html: ParleRLexer
+  - class.parle-rlexer.md: ParleRLexer
 title: 'ParleRLexer::dump'
 ---
 # ParleRLexer::dump

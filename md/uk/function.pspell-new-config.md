@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-config-save-repl.html: « pspellconfigsaverepl
-  - function.pspell-new-personal.html: pspellnewpersonal »
+  - function.pspell-config-save-repl.md: « pspellconfigsaverepl
+  - function.pspell-new-personal.md: pspellnewpersonal »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspellnewconfig
@@ -18,7 +18,7 @@ pspellnewconfig — Завантажує новий словник із уста
 pspell_new_config(PSpell\Config $config): PSpell\Dictionary|false
 ```
 
-**pspellnewconfig()** відкриває новий словник з параметрами, заданими в `config`, створеної за допомогою [pspellconfigcreate()](function.pspell-config-create.html) та модифікованою за допомогою функцій **pspellconfig**. Цей метод дає найбільшу гнучкість і має всі функціональні можливості, що надаються [pspellnew()](function.pspell-new.html) і [pspellnewpersonal()](function.pspell-new-personal.md)
+**pspellnewconfig()** відкриває новий словник з параметрами, заданими в `config`, створеної за допомогою [pspellconfigcreate()](function.pspell-config-create.md) та модифікованою за допомогою функцій **pspellconfig**. Цей метод дає найбільшу гнучкість і має всі функціональні можливості, що надаються [pspellnew()](function.pspell-new.md) і [pspellnewpersonal()](function.pspell-new-personal.md)
 
 ### Список параметрів
 

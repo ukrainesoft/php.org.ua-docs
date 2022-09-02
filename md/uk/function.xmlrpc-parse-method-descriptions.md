@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xmlrpc-is-fault.html: « xmlrpcісfault
-  - function.xmlrpc-server-add-introspection-data.html: xmlrpcserveraddintrospectiondata »
+  - function.xmlrpc-is-fault.md: « xmlrpcісfault
+  - function.xmlrpc-server-add-introspection-data.md: xmlrpcserveraddintrospectiondata »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcparseметодdescriptions

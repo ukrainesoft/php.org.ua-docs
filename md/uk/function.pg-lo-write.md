@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-lo-unlink.html: « pgлоunlink
-  - function.pg-meta-data.html: пгmetadata »
+  - function.pg-lo-unlink.md: « pgлоunlink
+  - function.pg-meta-data.md: пгmetadata »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пглоwrite
@@ -30,7 +30,7 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 `data`
 

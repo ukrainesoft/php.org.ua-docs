@@ -1,7 +1,7 @@
 ---
 navigation:
   - ffi.typeof.md: '« FFI::typeof'
-  - class.ffi-ctype.html: FFICType »
+  - class.ffi-ctype.md: FFICType »
   - index.md: PHP Manual
   - book.ffi.md: FFI
 title: Доступ до даних C
@@ -17,7 +17,7 @@ title: Доступ до даних C
 -   Дані C скалярних типів можуть читатись і присвоюватися через властивість $cdata: `$x = FFI::new('int'); $x->cdata = 42;`
 -   Поля структур(struct) та об'єднань(union) C доступні як звичайні властивості об'єкта PHP: `$cdata->field`
 -   Доступ до елементів масивів C відбувається так само, як доступ до елементів звичайного масиву PHP: `$cdata[$offset]`
--   Масиви C можна перебирати за допомогою [foreach](control-structures.foreach.html)
+-   Масиви C можна перебирати за допомогою [foreach](control-structures.foreach.md)
 -   Для масивів C можна використовувати функцію [count()](function.count.md)
 -   Покажчики C можуть бути розіменовані як масив: `$cdata[0]`
 -   Покажчики C можна порівнювати звичайними операторами порівняння (`<` `<=` `==` `!=` `>=` `>`
@@ -25,7 +25,7 @@ title: Доступ до даних C
 -   Вказівники C можна віднімати один з одного за допомогою операції `-`
 -   Вказівники на функції можна викликати як звичайні замикання PHP: `$cdata()`
 -   Будь-які дані C можна клонувати за допомогою [clone](language.oop5.cloning.md) `$cdata2 = clone $cdata;`
--   Будь-які дані C можна візуалізувати за допомогою [vardump()](function.var-dump.html) [printr()](function.print-r.html), і т.д.
+-   Будь-які дані C можна візуалізувати за допомогою [vardump()](function.var-dump.md) [printr()](function.print-r.md), і т.д.
 
 > **Зауваження**: Зверніть увагу, що для екземплярів **FFICData** не підтримуються функції [isset()](function.isset.md) [empty()](function.empty.md) і [unset()](function.unset.md). А для тих, що обертають структури та об'єднання, не реалізований інтерфейс. [Traversable](class.traversable.md)
 

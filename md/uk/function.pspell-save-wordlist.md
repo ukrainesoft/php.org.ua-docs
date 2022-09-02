@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-new.html: « pspellnew
-  - function.pspell-store-replacement.html: pspellstorereplacement »
+  - function.pspell-new.md: « pspellnew
+  - function.pspell-store-replacement.md: pspellstorereplacement »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspellsavewordlist
@@ -18,7 +18,7 @@ pspellsavewordlist — Зберігає персональний список с
 pspell_save_wordlist(PSpell\Dictionary $dictionary): bool
 ```
 
-**pspellsavewordlist()** зберігає персональний список слів поточної сесії. Розташування файлів для збереження вказується за допомогою [pspellconfigpersonal()](function.pspell-config-personal.html) та (необов'язково) [pspellconfigrepl()](function.pspell-config-repl.md)
+**pspellsavewordlist()** зберігає персональний список слів поточної сесії. Розташування файлів для збереження вказується за допомогою [pspellconfigpersonal()](function.pspell-config-personal.md) та (необов'язково) [pspellconfigrepl()](function.pspell-config-repl.md)
 
 ### Список параметрів
 

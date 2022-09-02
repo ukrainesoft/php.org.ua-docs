@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reserved.variables.get.html: GET
-  - reserved.variables.files.html: FILES »
-  - index.html: PHP Manual
-  - reserved.variables.html: Зумовлені змінні
+  - reserved.variables.get.md: GET
+  - reserved.variables.files.md: FILES »
+  - index.md: PHP Manual
+  - reserved.variables.md: Зумовлені змінні
 title: POST
 ---
 # POST

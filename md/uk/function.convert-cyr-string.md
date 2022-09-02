@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.chunk-split.html: « chunksplit
-  - function.convert-uudecode.html: convertuudecode »
+  - function.chunk-split.md: « chunksplit
+  - function.convert-uudecode.md: convertuudecode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: convertcyrstring

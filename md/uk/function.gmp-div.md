@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-div-r.html: « gmpdivр
-  - function.gmp-divexact.html: gmpdivexact »
+  - function.gmp-div-r.md: « gmpdivр
+  - function.gmp-divexact.md: gmpdivexact »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpdiv

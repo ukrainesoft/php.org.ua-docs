@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-affected-rows.html: « ibaseaffectedrows
-  - function.ibase-blob-add.html: ibaseblobadd »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-affected-rows.md: « ibaseaffectedrows
+  - function.ibase-blob-add.md: ibaseblobadd »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasebackup
 ---
 # ibasebackup
@@ -36,7 +36,7 @@ ibase_backup(    resource $service_handle,    string $source_db,    
 
 `options`
 
-Додаткові опції передачі на сервер бази даних для резервного копіювання. Параметр `options` може бути комбінацією з наступних констант: **`IBASE_BKP_IGNORE_CHECKSUMS`** **`IBASE_BKP_IGNORE_LIMBO`** **`IBASE_BKP_METADATA_ONLY`** **`IBASE_BKP_NO_GARBAGE_COLLECT`** **`IBASE_BKP_OLD_DESCRIPTIONS`** **`IBASE_BKP_NON_TRANSPORTABLE`** або **`IBASE_BKP_CONVERT`**. Прочитайте розділ про [Обумовлені константи](ibase.constants.html) для отримання додаткової інформації.
+Додаткові опції передачі на сервер бази даних для резервного копіювання. Параметр `options` може бути комбінацією з наступних констант: **`IBASE_BKP_IGNORE_CHECKSUMS`** **`IBASE_BKP_IGNORE_LIMBO`** **`IBASE_BKP_METADATA_ONLY`** **`IBASE_BKP_NO_GARBAGE_COLLECT`** **`IBASE_BKP_OLD_DESCRIPTIONS`** **`IBASE_BKP_NON_TRANSPORTABLE`** або **`IBASE_BKP_CONVERT`**. Прочитайте розділ про [Обумовлені константи](ibase.constants.md) для отримання додаткової інформації.
 
 `verbose`
 
@@ -88,4 +88,4 @@ ibase_service_detach ($service);
 
 ### Дивіться також
 
--   [ibaserestore()](function.ibase-restore.html) - Запускає завдання відновлення у диспетчері служб та негайно повертається
+-   [ibaserestore()](function.ibase-restore.md) - Запускає завдання відновлення у диспетчері служб та негайно повертається

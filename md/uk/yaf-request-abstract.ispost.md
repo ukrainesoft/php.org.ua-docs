@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.isoptions.html: '« YafRequestAbstract::isOptions'
-  - yaf-request-abstract.isput.html: 'YafRequestAbstract::isPut »'
-  - index.html: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - yaf-request-abstract.isoptions.md: '« YafRequestAbstract::isOptions'
+  - yaf-request-abstract.isput.md: 'YafRequestAbstract::isPut »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::isPost'
 ---
 # YafRequestAbstract::isPost

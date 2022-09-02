@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.register.html: '« GearmanWorker::register'
-  - gearmanworker.returncode.html: 'GearmanWorker::returnCode »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.register.md: '« GearmanWorker::register'
+  - gearmanworker.returncode.md: 'GearmanWorker::returnCode »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::removeOptions'
 ---
 # GearmanWorker::removeOptions
@@ -32,6 +32,6 @@ public GearmanWorker::removeOptions(int $option): bool
 
 ### Дивіться також
 
--   [GearmanWorker::options()](gearmanworker.options.html) - Отримання налаштувань обробника
--   [GearmanWorker::setOptions()](gearmanworker.setoptions.html) - Встановлення налаштувань обробника
--   [GearmanWorker::addOptions()](gearmanworker.addoptions.html) - Додавання налаштувань обробника
+-   [GearmanWorker::options()](gearmanworker.options.md) - Отримання налаштувань обробника
+-   [GearmanWorker::setOptions()](gearmanworker.setoptions.md) - Встановлення налаштувань обробника
+-   [GearmanWorker::addOptions()](gearmanworker.addoptions.md) - Додавання налаштувань обробника

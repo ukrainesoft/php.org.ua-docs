@@ -1,7 +1,7 @@
 ---
 navigation:
   - parallel.bootstrap.md: « parallelbootstrap
-  - class.parallel-runtime.html: parallelRuntime »
+  - class.parallel-runtime.md: parallelRuntime »
   - index.md: PHP Manual
   - functional.parallel.md: Функціональний API
 title: parallelrun

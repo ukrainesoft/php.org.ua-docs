@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.yaz-scan-result.html: « yazscanresult
-  - function.yaz-schema.html: yazschema »
-  - index.html: PHP Manual
-  - ref.yaz.html: Функции YAZ
+  - function.yaz-scan-result.md: « yazscanresult
+  - function.yaz-schema.md: yazschema »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
 title: yazscan
 ---
 # yazscan
@@ -20,7 +20,7 @@ yaz_scan(    resource $id,    string $type,    string $startterm, �
 
 Функція готує запит сканування для встановленого з'єднання протоколу Z39.50.
 
-Щоб надіслати запит сканування на сервер і отримати відповідь, потрібно викликати функцію [yazwait()](function.yaz-wait.html). Як запевняють [yazwait()](function.yaz-wait.html) викличте [yazerror()](function.yaz-error.html) для отримання помилки та [yazscanresult()](function.yaz-scan-result.md) для отримання результату.
+Щоб надіслати запит сканування на сервер і отримати відповідь, потрібно викликати функцію [yazwait()](function.yaz-wait.md). Як запевняють [yazwait()](function.yaz-wait.md) викличте [yazerror()](function.yaz-error.md) для отримання помилки та [yazscanresult()](function.yaz-scan-result.md) для отримання результату.
 
 ### Список параметрів
 

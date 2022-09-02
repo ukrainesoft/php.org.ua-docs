@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-field-len.html: « mysqlfieldlen
-  - function.mysql-field-seek.html: mysqlfieldseek »
+  - function.mysql-field-len.md: « mysqlfieldlen
+  - function.mysql-field-seek.md: mysqlfieldseek »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlfieldname

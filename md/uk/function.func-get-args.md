@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.func-get-arg.html: « funcgetarg
-  - function.func-num-args.html: funcnumargs »
+  - function.func-get-arg.md: « funcgetarg
+  - function.func-num-args.md: funcnumargs »
   - index.md: PHP Manual
   - ref.funchand.md: Функции управления функциями
 title: funcgetargs
@@ -20,7 +20,7 @@ func_get_args(): array
 
 Отримує масив, що містить аргументи функції.
 
-Ця функція може бути використана спільно з [funcnumargs()](function.func-num-args.html) і [funcgetarg()](function.func-get-arg.md) для створення функцій із змінною кількістю аргументів.
+Ця функція може бути використана спільно з [funcnumargs()](function.func-num-args.md) і [funcgetarg()](function.func-get-arg.md) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -117,7 +117,7 @@ byRef($arg);
 
 ### Дивіться також
 
--   [Синтаксис](functions.arguments.html#functions.variable-arg-list)
+-   [Синтаксис](functions.arguments.md#functions.variable-arg-list)
 -   [funcgetarg()](function.func-get-arg.md)
 -   [funcnumargs()](function.func-num-args.md)
 -   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md)

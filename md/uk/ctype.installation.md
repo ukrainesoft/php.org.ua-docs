@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ctype.requirements.html: « Вимоги
-  - ctype.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - ctype.setup.html: Встановлення та налаштування
+  - ctype.requirements.md: « Вимоги
+  - ctype.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - ctype.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

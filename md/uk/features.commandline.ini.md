@@ -12,7 +12,7 @@ title: Опції конфігурації
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [cliserver.color](features.commandline.ini.html#ini.cli-server.color) | "0" | PHPINIALL |  |
+| [cliserver.color](features.commandline.ini.md#ini.cli-server.color) | "0" | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

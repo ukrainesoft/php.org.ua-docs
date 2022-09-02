@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.setmaxlinelen.html: '« SplFileObject::setMaxLineLen'
-  - splfileobject.valid.html: 'SplFileObject::valid »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.setmaxlinelen.md: '« SplFileObject::setMaxLineLen'
+  - splfileobject.valid.md: 'SplFileObject::valid »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::toString'
 ---
 # SplFileObject::toString
@@ -20,4 +20,4 @@ SplFileObject::toString - Псевдонім [SplFileObject::fgets()](splfileobj
 
 | Версия | Описание |
 | --- | --- |
-|  | Змінено псевдонім з [SplFileObject::current()](splfileobject.current.html) на [SplFileObject::fgets()](splfileobject.fgets.md) |
+|  | Змінено псевдонім з [SplFileObject::current()](splfileobject.current.md) на [SplFileObject::fgets()](splfileobject.fgets.md) |

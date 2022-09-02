@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-rfc822-write-address.html: « imaprfc822writeaddress
-  - function.imap-scan.html: imapscan »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-rfc822-write-address.md: « imaprfc822writeaddress
+  - function.imap-scan.md: imapscan »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapsavebody
 ---
 # imapsavebody
@@ -54,7 +54,7 @@ imap_savebody(    IMAP\Connection $imap,    resource|string|int $file, 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

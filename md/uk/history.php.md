@@ -1,9 +1,9 @@
 ---
 navigation:
-  - history.html: « Історія PHP та суміжних проектів
-  - history.php.related.html: Історія суміжних з PHP проектів
-  - index.html: PHP Manual
-  - history.html: Історія PHP та суміжних проектів
+  - history.md: « Історія PHP та суміжних проектів
+  - history.php.related.md: Історія суміжних з PHP проектів
+  - index.md: PHP Manual
+  - history.md: Історія PHP та суміжних проектів
 title: Історія PHP
 ---
 ## Історія PHP

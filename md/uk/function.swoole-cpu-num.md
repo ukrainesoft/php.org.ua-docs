@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-client-select.html: « swooleclientselect
-  - function.swoole-errno.html: swooleerrno »
+  - function.swoole-client-select.md: « swooleclientselect
+  - function.swoole-errno.md: swooleerrno »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swoolecpunum
 ---
 # swoolecpunum

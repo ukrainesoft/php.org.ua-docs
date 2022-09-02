@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandstartedevent.getcommandname.html: '« MongoDBDriverMonitoringCommandStartedEvent::getCommandName'
-  - mongodb-driver-monitoring-commandstartedevent.getoperationid.html: 'MongoDBDriverMonitoringCommandStartedEvent::getOperationId »'
+  - mongodb-driver-monitoring-commandstartedevent.getcommandname.md: '« MongoDBDriverMonitoringCommandStartedEvent::getCommandName'
+  - mongodb-driver-monitoring-commandstartedevent.getoperationid.md: 'MongoDBDriverMonitoringCommandStartedEvent::getOperationId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandstartedevent.html: MongoDBDriverMonitoringCommandStartedEvent
+  - class.mongodb-driver-monitoring-commandstartedevent.md: MongoDBDriverMonitoringCommandStartedEvent
 title: 'MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName'
 ---
 # MongoDBDriverMonitoringCommandStartedEvent::getDatabaseName

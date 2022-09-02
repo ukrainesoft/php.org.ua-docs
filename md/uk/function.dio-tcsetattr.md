@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dio-stat.html: « diostat
-  - function.dio-truncate.html: diotruncate »
+  - function.dio-stat.md: « diostat
+  - function.dio-truncate.md: diotruncate »
   - index.md: PHP Manual
   - ref.dio.md: Функції прямого введення/виводу
 title: diotcsetattr

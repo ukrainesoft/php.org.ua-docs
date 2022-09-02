@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-result.html: « cubridresult
-  - oldaliases.cubrid.html: Застарілі псевдоніми та функції CUBRID »
-  - index.html: PHP Manual
-  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+  - function.cubrid-result.md: « cubridresult
+  - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridunbufferedquery
 ---
 # cubridunbufferedquery
@@ -28,11 +28,11 @@ SQL-запит
 
 `conn_identifier`
 
-Ідентифікатор з'єднання CUBRID. Якщо не встановлено, то буде використано останнє з'єднання, повернене [cubridconnect()](function.cubrid-connect.html)
+Ідентифікатор з'єднання CUBRID. Якщо не встановлено, то буде використано останнє з'єднання, повернене [cubridconnect()](function.cubrid-connect.md)
 
 ### Значення, що повертаються
 
-Для SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результуючий набір, [cubridquery()](function.cubrid-query.html) повертає ресурс у разі успішного виконання.
+Для SELECT, SHOW, DESCRIBE, EXPLAIN та інших запитів, що повертають результуючий набір, [cubridquery()](function.cubrid-query.md) повертає ресурс у разі успішного виконання.
 
 Для операторів SQL іншого типу UPDATE, DELETE, DROP і т.д. повертає **`true`** у разі успішного виконання.
 
@@ -66,4 +66,4 @@ SQL-запит
 
 > **Зауваження**
 > 
-> Переваги **cubridunbufferedquery()** мають свою ціну: ви не зможете використати [cubridnumrows()](function.cubrid-num-rows.html) і [cubriddataseek()](function.cubrid-data-seek.html) для результуючого набору, повернутий **cubridunbufferedquery()**
+> Переваги **cubridunbufferedquery()** мають свою ціну: ви не зможете використати [cubridnumrows()](function.cubrid-num-rows.md) і [cubriddataseek()](function.cubrid-data-seek.md) для результуючого набору, повернутий **cubridunbufferedquery()**

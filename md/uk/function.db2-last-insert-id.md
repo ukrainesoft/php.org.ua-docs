@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-get-option.html: « db2getoption
-  - function.db2-lob-read.html: db2lobread »
+  - function.db2-get-option.md: « db2getoption
+  - function.db2-lob-read.md: db2lobread »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2lastinsertід
 ---
 # db2lastinsertід
@@ -35,7 +35,7 @@ db2_last_insert_id(resource $resource): string
 
 `resource`
 
-Допустимий ресурс підключення, що повертається [db2connect()](function.db2-connect.html) або [db2pconnect()](function.db2-pconnect.md). Значення цього параметра може бути ресурсом оператора чи ресурсом набору результатів.
+Допустимий ресурс підключення, що повертається [db2connect()](function.db2-connect.md) або [db2pconnect()](function.db2-pconnect.md). Значення цього параметра може бути ресурсом оператора чи ресурсом набору результатів.
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - numberformatter.parsecurrency.html: '« NumberFormatter::parseCurrency'
-  - numberformatter.setattribute.html: 'NumberFormatter::setAttribute »'
-  - index.html: PHP Manual
-  - class.numberformatter.html: NumberFormatter
+  - numberformatter.parsecurrency.md: '« NumberFormatter::parseCurrency'
+  - numberformatter.setattribute.md: 'NumberFormatter::setAttribute »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::parse'
 ---
 # NumberFormatter::parse
@@ -34,7 +34,7 @@ numfmt_parse(    NumberFormatter $formatter,    string $string,    i
 
 `formatter`
 
-Об'єкт [NumberFormatter](class.numberformatter.html)
+Об'єкт [NumberFormatter](class.numberformatter.md)
 
 `string`
 
@@ -42,7 +42,7 @@ numfmt_parse(    NumberFormatter $formatter,    string $string,    i
 
 `type`
 
-Використовуваний [тип форматирования](class.numberformatter.html#intl.numberformatter-constants.types). За замовчуванням використовується **`NumberFormatter::TYPE_DOUBLE`**
+Використовуваний [тип форматирования](class.numberformatter.md#intl.numberformatter-constants.types). За замовчуванням використовується **`NumberFormatter::TYPE_DOUBLE`**
 
 `offset`
 
@@ -85,6 +85,6 @@ echo $fmt->parse($num, NumberFormatter::TYPE_INT32)."\n";
 
 ### Дивіться також
 
--   [numfmtgeterrorcode()](numberformatter.geterrorcode.html) - Отримує останній код помилки засобу форматування
--   [numfmtformat()](numberformatter.format.html) - Форматує число
--   [numfmtparsecurrency()](numberformatter.parsecurrency.html) - Розбирає номер валюти
+-   [numfmtgeterrorcode()](numberformatter.geterrorcode.md) - Отримує останній код помилки засобу форматування
+-   [numfmtformat()](numberformatter.format.md) - Форматує число
+-   [numfmtparsecurrency()](numberformatter.parsecurrency.md) - Розбирає номер валюти

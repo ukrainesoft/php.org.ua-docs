@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-blockquote.html: « CommonMarkNodeBlockQuote
-  - commonmark-node-bulletlist.construct.html: 'CommonMarkNodeBulletList::construct »'
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - class.commonmark-node-blockquote.md: « CommonMarkNodeBlockQuote
+  - commonmark-node-bulletlist.construct.md: 'CommonMarkNodeBulletList::construct »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: BulletList успадковує CommonMarkNode
 ---
 # BulletList успадковує CommonMarkNode

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcache.flush.html: '« Memcache::flush'
-  - memcache.getextendedstats.html: 'Memcache::getExtendedStats »'
-  - index.html: PHP Manual
-  - class.memcache.html: Memcache
+  - memcache.flush.md: '« Memcache::flush'
+  - memcache.getextendedstats.md: 'Memcache::getExtendedStats »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
 title: 'Memcache::get'
 ---
 # Memcache::get

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-check.html: « pspellcheck
-  - function.pspell-config-create.html: pspellconfigcreate »
+  - function.pspell-check.md: « pspellcheck
+  - function.pspell-config-create.md: pspellconfigcreate »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspellclearsession

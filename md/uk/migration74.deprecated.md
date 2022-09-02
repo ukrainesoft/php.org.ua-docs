@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration74.incompatible.md: '« Зміни, що ламають зворотну сумісність'
-  - migration74.removed-extensions.html: Віддалені модулі »
+  - migration74.removed-extensions.md: Віддалені модулі »
   - index.md: PHP Manual
   - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
 title: Застаріла функціональність
@@ -36,7 +36,7 @@ title: Застаріла функціональність
 
 Приведення типу `(real)` оголошено застарілим, натомість використовуйте `(float)`
 
-Функція [ісreal()](function.is-real.html) також оголошено застарілою, замість неї використовуйте [ісfloat()](function.is-float.md)
+Функція [ісreal()](function.is-real.md) також оголошено застарілою, замість неї використовуйте [ісfloat()](function.is-float.md)
 
 #### Скасування прив'язки `$this` при використанні `$this`
 
@@ -48,7 +48,7 @@ title: Застаріла функціональність
 
 #### INI-опція allowurlinclude
 
-Конфігураційна директива [allowurlinclude](filesystem.configuration.html#ini.allow-url-include) оголошено застарілою. При включеній опції буде викликано повідомлення про застарілі можливості під час завантаження.
+Конфігураційна директива [allowurlinclude](filesystem.configuration.md#ini.allow-url-include) оголошено застарілою. При включеній опції буде викликано повідомлення про застарілі можливості під час завантаження.
 
 #### Неприпустимі символи в основних функціях перетворення
 
@@ -56,11 +56,11 @@ title: Застаріла функціональність
 
 #### Використання [arraykeyexists()](function.array-key-exists.md) з об'єктом
 
-Використання [arraykeyexists()](function.array-key-exists.html) з об'єктом оголошено застарілим. Натомість слід використовувати або [isset()](function.isset.md), або [propertyexists()](function.property-exists.md)
+Використання [arraykeyexists()](function.array-key-exists.md) з об'єктом оголошено застарілим. Натомість слід використовувати або [isset()](function.isset.md), або [propertyexists()](function.property-exists.md)
 
 #### Функції, пов'язані з чарівними лапками
 
-Функції [getmagicquotesgpc()](function.get-magic-quotes-gpc.html) і [getmagicquotesruntime()](function.get-magic-quotes-runtime.md) оголошено застарілими. Вони завжди повертають **`false`**
+Функції [getmagicquotesgpc()](function.get-magic-quotes-gpc.md) і [getmagicquotesruntime()](function.get-magic-quotes-runtime.md) оголошено застарілими. Вони завжди повертають **`false`**
 
 #### Функція [hebrevc()](function.hebrevc.md)
 
@@ -102,7 +102,7 @@ title: Застаріла функціональність
 
 ### Полегшений протокол доступу до каталогів (LDAP)
 
-Функції [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.html) і [ldapcontrolpagedresult()](function.ldap-control-paged-result.html) оголошено застарілими. Для керування посторінковим режимом використовуйте функцію [ldapsearch()](function.ldap-search.md)
+Функції [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.md) і [ldapcontrolpagedresult()](function.ldap-control-paged-result.md) оголошено застарілими. Для керування посторінковим режимом використовуйте функцію [ldapsearch()](function.ldap-search.md)
 
 ### Reflection
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagecharup.html: « imagecharup
-  - function.imagecolorallocatealpha.html: imagecolorallocatealpha »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagecharup.md: « imagecharup
+  - function.imagecolorallocatealpha.md: imagecolorallocatealpha »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorallocate
 ---
 # imagecolorallocate
@@ -30,7 +30,7 @@ imagecolorallocate(    GdImage $image,    int $red,    int $green, 
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
 
@@ -52,7 +52,7 @@ imagecolorallocate(    GdImage $image,    int $red,    int $green, 
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 

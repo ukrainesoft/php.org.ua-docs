@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.getbykey.html: '« Memcached::getByKey'
-  - memcached.getdelayedbykey.html: 'Memcached::getDelayedByKey »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.getbykey.md: '« Memcached::getByKey'
+  - memcached.getdelayedbykey.md: 'Memcached::getDelayedByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::getDelayed'
 ---
 # Memcached::getDelayed
@@ -18,7 +18,7 @@ Memcached::getDelayed — Запитує декілька записів
 public Memcached::getDelayed(array $keys, bool $with_cas = ?, callable $value_cb = ?): bool
 ```
 
-**Memcached::getDelayed()** запитує у memcache кілька записів, ключі яких передані в масиві `keys`. Даний метод не чекає відповіді та повертає значення відразу. Коли ви готові отримати записи, зробіть виклик методу [Memcached::fetch()](memcached.fetch.html) або [Memcached::fetchAll()](memcached.fetchall.md). Якщо параметр `with_cas` встановлений у true, то CAS токени також будуть запитані.
+**Memcached::getDelayed()** запитує у memcache кілька записів, ключі яких передані в масиві `keys`. Даний метод не чекає відповіді та повертає значення відразу. Коли ви готові отримати записи, зробіть виклик методу [Memcached::fetch()](memcached.fetch.md) або [Memcached::fetchAll()](memcached.fetchall.md). Якщо параметр `with_cas` встановлений у true, то CAS токени також будуть запитані.
 
 Замість отримання результатів у явному вигляді, ви можете вказати [callback-функцию для получения результата](memcached.callbacks.md) за допомогою параметра `value_cb`
 

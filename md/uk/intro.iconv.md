@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.iconv.html: « iconv
-  - iconv.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.iconv.html: iconv
+  - book.iconv.md: « iconv
+  - iconv.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.iconv.md: iconv
 title: Вступ
 ---
 # Вступ

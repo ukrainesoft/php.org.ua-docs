@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.zend-thread-id.html: « zendthreadід
+  - function.zend-thread-id.md: « zendthreadід
   - book.phpdbg.md: phpdbg »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-bulkwrite.update.html: '« MongoDBDriverBulkWrite::update'
-  - mongodb-driver-session.aborttransaction.html: 'MongoDBDriverSession::abortTransaction »'
+  - mongodb-driver-bulkwrite.update.md: '« MongoDBDriverBulkWrite::update'
+  - mongodb-driver-session.aborttransaction.md: 'MongoDBDriverSession::abortTransaction »'
   - index.md: PHP Manual
   - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverSession

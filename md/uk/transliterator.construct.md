@@ -16,7 +16,7 @@ Transliterator::construct - Приватний конструктор
 
 final private **Transliterator::construct**
 
-Цей метод може бути викликаний. Він існує лише для закриття можливості створення об'єкта за допомогою оператора [new](language.oop5.basic.html#language.oop5.basic.new)
+Цей метод може бути викликаний. Він існує лише для закриття можливості створення об'єкта за допомогою оператора [new](language.oop5.basic.md#language.oop5.basic.new)
 
 Замість нього використовуйте фабричні методи [Transliterator::create()](transliterator.create.md) або [Transliterator::createFromRules()](transliterator.createfromrules.md)
 

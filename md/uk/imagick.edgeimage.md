@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.drawimage.html: '« Imagick::drawImage'
-  - imagick.embossimage.html: 'Imagick::embossImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.drawimage.md: '« Imagick::drawImage'
+  - imagick.embossimage.md: 'Imagick::embossImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::edgeImage'
 ---
 # Imagick::edgeImage

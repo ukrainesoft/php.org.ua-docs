@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-buffer-destroy.html: « openalbufferdestroy
-  - function.openal-buffer-loadwav.html: openalbufferloadwav »
+  - function.openal-buffer-destroy.md: « openalbufferdestroy
+  - function.openal-buffer-loadwav.md: openalbufferloadwav »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalbufferget

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - collator.construct.html: '« Collator::construct'
-  - collator.getattribute.html: 'Collator::getAttribute »'
-  - index.html: PHP Manual
-  - class.collator.html: Collator
+  - collator.construct.md: '« Collator::construct'
+  - collator.getattribute.md: 'Collator::getAttribute »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
 title: 'Collator::create'
 ---
 # Collator::create
@@ -38,7 +38,7 @@ collator_create(string $locale): ?Collator
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр [Collator](class.collator.html) або **`null`** у разі виникнення помилки.
+Повертає новий екземпляр [Collator](class.collator.md) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -57,4 +57,4 @@ if( !isset( $coll ) ) {
 
 ### Дивіться також
 
--   [Collator::construct()](collator.construct.html) - Створює новий екземпляр Collator
+-   [Collator::construct()](collator.construct.md) - Створює новий екземпляр Collator

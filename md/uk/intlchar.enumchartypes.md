@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.enumcharnames.html: '« IntlChar::enumCharNames'
-  - intlchar.foldcase.html: 'IntlChar::foldCase »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.enumcharnames.md: '« IntlChar::enumCharNames'
+  - intlchar.foldcase.md: 'IntlChar::foldCase »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::enumCharTypes'
 ---
 # IntlChar::enumCharTypes

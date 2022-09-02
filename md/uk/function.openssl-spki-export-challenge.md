@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-sign.html: « opensslsign
-  - function.openssl-spki-export.html: opensslspkiexport »
+  - function.openssl-sign.md: « opensslsign
+  - function.openssl-spki-export.md: opensslspkiexport »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslspkiexportchallenge

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-controller-abstract.getcontrollername.html: '« YafActionAbstract::getControllerName'
-  - yaf-view-interface.assign.html: 'YafViewInterface::assign »'
+  - yaf-controller-abstract.getcontrollername.md: '« YafActionAbstract::getControllerName'
+  - yaf-view-interface.assign.md: 'YafViewInterface::assign »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafViewInterface
@@ -12,7 +12,7 @@ title: Клас YafViewInterface
 
 ## Вступ
 
-Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [YafViewSimple](class.yaf-view-simple.html). Приклад реалізації дивіться у описі [YafDispatcher::setView()](yaf-dispatcher.setview.md)
+Yaf надає розробникам можливість використовувати їх власний движок відображення, що відрізняється від вбудованого [YafViewSimple](class.yaf-view-simple.md). Приклад реалізації дивіться у описі [YafDispatcher::setView()](yaf-dispatcher.setview.md)
 
 ## Огляд класів
 

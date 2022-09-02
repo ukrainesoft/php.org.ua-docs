@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdatasync.html: « fdatasync
-  - function.fflush.html: fflush »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.fdatasync.md: « fdatasync
+  - function.fflush.md: fflush »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: feof
 ---
 # feof
@@ -24,7 +24,7 @@ feof(resource $stream): bool
 
 `stream`
 
-Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.html)
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.md) або [fsockopen()](function.fsockopen.md) (і все ще не закритий функцією [fclose()](function.fclose.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ feof(resource $stream): bool
 
 **Увага**
 
-Якщо підключення відкрите за допомогою [fsockopen()](function.fsockopen.html), не було закрито сервером, **feof()** повисне. Для варіанта обходу цієї поведінки дивіться такий приклад:
+Якщо підключення відкрите за допомогою [fsockopen()](function.fsockopen.md), не було закрито сервером, **feof()** повисне. Для варіанта обходу цієї поведінки дивіться такий приклад:
 
 **Приклад #1 Обробка часу очікування з функцією **feof()****
 

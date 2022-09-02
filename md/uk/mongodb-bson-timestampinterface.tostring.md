@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-timestampinterface.gettimestamp.html: '« MongoDBBSONTimestampInterface::getTimestamp'
-  - class.mongodb-bson-utcdatetimeinterface.html: MongoDBBSONUTCDateTimeInterface »
+  - mongodb-bson-timestampinterface.gettimestamp.md: '« MongoDBBSONTimestampInterface::getTimestamp'
+  - class.mongodb-bson-utcdatetimeinterface.md: MongoDBBSONUTCDateTimeInterface »
   - index.md: PHP Manual
-  - class.mongodb-bson-timestampinterface.html: MongoDBBSONTimestampInterface
+  - class.mongodb-bson-timestampinterface.md: MongoDBBSONTimestampInterface
 title: 'MongoDBBSONTimestampInterface::function toString() { \[native code\] }'
 ---
 # MongoDBBSONTimestampInterface::function toString() { \[native code\] }

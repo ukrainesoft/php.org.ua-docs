@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-stat.html: « eiostat
-  - function.eio-symlink.html: eiosymlink »
+  - function.eio-stat.md: « eiostat
+  - function.eio-symlink.md: eiosymlink »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiostatvfs
@@ -48,7 +48,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -56,7 +56,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Значення, що повертаються
 
-[eiostat()](function.eio-stat.html) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки. У разі успішного виконання параметр `result` функції `callback` є масивом.
+[eiostat()](function.eio-stat.md) повертає покажчик на запит у разі успішного виконання або **`false`** у разі виникнення помилки. У разі успішного виконання параметр `result` функції `callback` є масивом.
 
 ### Приклади
 

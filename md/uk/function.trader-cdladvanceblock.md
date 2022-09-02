@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlabandonedbaby.html: « tradercdlabandonedbaby
-  - function.trader-cdlbelthold.html: tradercdlbelthold »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlabandonedbaby.md: « tradercdlabandonedbaby
+  - function.trader-cdlbelthold.md: tradercdlbelthold »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdladvanceblock
 ---
 # tradercdladvanceblock

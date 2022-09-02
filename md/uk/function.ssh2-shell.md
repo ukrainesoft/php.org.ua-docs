@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-sftp.html: « ssh2sftp
-  - function.ssh2-tunnel.html: ssh2tunnel »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-sftp.md: « ssh2sftp
+  - function.ssh2-tunnel.md: ssh2tunnel »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2shell
 ---
 # ssh2shell
@@ -24,7 +24,7 @@ ssh2_shell(    resource $session,    string $term_type = "vanilla",  �
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 `term_type`
 
@@ -48,7 +48,7 @@ ssh2_shell(    resource $session,    string $term_type = "vanilla",  �
 
 ### Значення, що повертаються
 
-Повертає ресурс ([resource](language.types.resource.html)) потоку у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс ([resource](language.types.resource.md)) потоку у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -65,6 +65,6 @@ $stream = ssh2_shell($connection, 'vt102', null, 80, 24, SSH2_TERM_UNIT_C
 
 ### Дивіться також
 
--   [ssh2exec()](function.ssh2-exec.html) - Виконання команди на віддаленому сервері
--   [ssh2tunnel()](function.ssh2-tunnel.html) - Відкрити тунель через віддалений сервер
--   [ssh2fetchstream()](function.ssh2-fetch-stream.html) - отримання розширеного потоку даних
+-   [ssh2exec()](function.ssh2-exec.md) - Виконання команди на віддаленому сервері
+-   [ssh2tunnel()](function.ssh2-tunnel.md) - Відкрити тунель через віддалений сервер
+-   [ssh2fetchstream()](function.ssh2-fetch-stream.md) - отримання розширеного потоку даних

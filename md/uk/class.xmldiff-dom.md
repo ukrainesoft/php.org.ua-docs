@@ -1,7 +1,7 @@
 ---
 navigation:
-  - xmldiff-base.merge.html: '« XMLDiffBase::merge'
-  - xmldiff-dom.diff.html: 'XMLDiffDOM::diff »'
+  - xmldiff-base.merge.md: '« XMLDiffBase::merge'
+  - xmldiff-dom.diff.md: 'XMLDiffDOM::diff »'
   - index.md: PHP Manual
   - book.xmldiff.md: XMLDiff
 title: Клас XMLDiffDOM

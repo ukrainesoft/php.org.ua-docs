@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-show.html: «psshow
-  - function.ps-stringwidth.html: псstringwidth »
+  - function.ps-show.md: «psshow
+  - function.ps-stringwidth.md: псstringwidth »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псstringgeometry

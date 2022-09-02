@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.seterrorhandler.html: '« YafDispatcher::setErrorHandler'
-  - yaf-dispatcher.setview.html: 'YafDispatcher::setView »'
+  - yaf-dispatcher.seterrorhandler.md: '« YafDispatcher::setErrorHandler'
+  - yaf-dispatcher.setview.md: 'YafDispatcher::setView »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::setRequest'
 ---
 # YafDispatcher::setRequest

@@ -1,14 +1,14 @@
 ---
 navigation:
-  - features.file-upload.errors.seealso.html: « Смотрите также
-  - features.connection-handling.html: Работа с соединениями »
+  - features.file-upload.errors.seealso.md: « Смотрите также
+  - features.connection-handling.md: Работа с соединениями »
   - index.md: PHP Manual
   - features.md: Відмітні особливості
 title: Робота з віддаленими файлами
 ---
 # Робота з віддаленими файлами
 
-У випадку, якщо опція **allowurlfopen** включена в конфігураційному файлі php.ini, ви можете використовувати URL-адреси HTTP і FTP у більшості функцій, які приймають як параметр ім'я файлу. Також ви можете використовувати посилання в операторах [include](function.include.md) [includeonce](function.include-once.html) [require](function.require.md) і [requireonce](function.require-once.md) (Для коректної роботи цих функцій повинна бути включена опція **allowurlinclude**). Додаткову інформацію про протоколи, що підтримуються в PHP, ви можете знайти в [Підтримувані протоколи та обгортки](wrappers.md)
+У випадку, якщо опція **allowurlfopen** включена в конфігураційному файлі php.ini, ви можете використовувати URL-адреси HTTP і FTP у більшості функцій, які приймають як параметр ім'я файлу. Також ви можете використовувати посилання в операторах [include](function.include.md) [includeonce](function.include-once.md) [require](function.require.md) і [requireonce](function.require-once.md) (Для коректної роботи цих функцій повинна бути включена опція **allowurlinclude**). Додаткову інформацію про протоколи, що підтримуються в PHP, ви можете знайти в [Підтримувані протоколи та обгортки](wrappers.md)
 
 Наприклад, ви можете використовувати це для того, щоб відкрити файл на віддаленому сервері, витягти необхідні вам дані та використовувати їх у запиті до бази даних або просто відобразити їх у дизайні вашого сайту.
 

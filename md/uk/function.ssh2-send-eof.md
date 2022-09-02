@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-scp-send.html: « ssh2scpsend
-  - function.ssh2-sftp-chmod.html: ssh2sftpchmod »
+  - function.ssh2-scp-send.md: « ssh2scpsend
+  - function.ssh2-sftp-chmod.md: ssh2sftpchmod »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2sendeof
@@ -24,7 +24,7 @@ ssh2_send_eof(resource $channel): bool
 
 `channel`
 
-Потік SSH; можна отримати за допомогою таких функцій, як [ssh2fetchstream()](function.ssh2-fetch-stream.html) або [ssh2connect()](function.ssh2-connect.md)
+Потік SSH; можна отримати за допомогою таких функцій, як [ssh2fetchstream()](function.ssh2-fetch-stream.md) або [ssh2connect()](function.ssh2-connect.md)
 
 ### Значення, що повертаються
 

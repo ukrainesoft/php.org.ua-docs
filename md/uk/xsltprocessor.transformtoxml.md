@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xsltprocessor.transformtouri.html: '« XSLTProcessor::transformToUri'
-  - refs.ui.html: Модулі для роботи з GUI
-  - index.html: PHP Manual
-  - class.xsltprocessor.html: XSLTProcessor
+  - xsltprocessor.transformtouri.md: '« XSLTProcessor::transformToUri'
+  - refs.ui.md: Модулі для роботи з GUI
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::transformToXml'
 ---
 # XSLTProcessor::transformToXml
@@ -18,13 +18,13 @@ XSLTProcessor::transformToXml — Перетворює на XML
 public XSLTProcessor::transformToXml(object $document): string|null|false
 ```
 
-Перетворює вихідний вузол у рядок, застосовуючи таблиці стилів, які встановлені за допомогою методу [xsltprocessor::importStylesheet()](xsltprocessor.importstylesheet.html)
+Перетворює вихідний вузол у рядок, застосовуючи таблиці стилів, які встановлені за допомогою методу [xsltprocessor::importStylesheet()](xsltprocessor.importstylesheet.md)
 
 ### Список параметрів
 
 `document`
 
-Об'єкт класу [DOMDocument](class.domdocument.html) або [SimpleXMLElement](class.simplexmlelement.html) для перетворення.
+Об'єкт класу [DOMDocument](class.domdocument.md) або [SimpleXMLElement](class.simplexmlelement.md) для перетворення.
 
 ### Значення, що повертаються
 
@@ -64,5 +64,5 @@ Hey! Welcome to Nicolas Eliaszewicz's sweet CD collection!
 
 ### Дивіться також
 
--   [XSLTProcessor::transformToDoc()](xsltprocessor.transformtodoc.html) - Перетворює на DOMDocument
--   [XSLTProcessor::transformToUri()](xsltprocessor.transformtouri.html) - Перетворює на URI
+-   [XSLTProcessor::transformToDoc()](xsltprocessor.transformtodoc.md) - Перетворює на DOMDocument
+-   [XSLTProcessor::transformToUri()](xsltprocessor.transformtouri.md) - Перетворює на URI

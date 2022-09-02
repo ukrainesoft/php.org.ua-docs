@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-auth-agent.html: « ssh2authagent
-  - function.ssh2-auth-none.html: ssh2authnone »
+  - function.ssh2-auth-agent.md: « ssh2authagent
+  - function.ssh2-auth-none.md: ssh2authnone »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2authhostbasedfile

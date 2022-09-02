@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-simple.rewind.html: '« YafConfigSimple::rewind'
-  - yaf-config-simple.toarray.html: 'YafConfigSimple::toArray »'
+  - yaf-config-simple.rewind.md: '« YafConfigSimple::rewind'
+  - yaf-config-simple.toarray.md: 'YafConfigSimple::toArray »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.html: YafConfigSimple
+  - class.yaf-config-simple.md: YafConfigSimple
 title: 'YafConfigSimple::set'
 ---
 # YafConfigSimple::set

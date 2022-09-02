@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.str-starts-with.html: « strstartswith
+  - function.str-starts-with.md: « strstartswith
   - function.strcasecmp.md: strcasecmp »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками

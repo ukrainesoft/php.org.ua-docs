@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-context-get-default.html: « streamcontextgetdefault
-  - function.stream-context-get-params.html: streamcontextgetparams »
+  - function.stream-context-get-default.md: « streamcontextgetdefault
+  - function.stream-context-get-params.md: streamcontextgetparams »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamcontextgetoptions

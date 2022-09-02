@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagetickspersecond.html: '« Imagick::getImageTicksPerSecond'
-  - imagick.getimagetype.html: 'Imagick::getImageType »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagetickspersecond.md: '« Imagick::getImageTicksPerSecond'
+  - imagick.getimagetype.md: 'Imagick::getImageType »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageTotalInkDensity'
 ---
 # Imagick::getImageTotalInkDensity

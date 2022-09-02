@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-data-source.html: « odbcdatasource
-  - function.odbc-error.html: odbcerror »
+  - function.odbc-data-source.md: « odbcdatasource
+  - function.odbc-error.md: odbcerror »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcдо

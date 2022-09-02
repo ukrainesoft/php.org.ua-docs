@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-clientencryption.construct.html: '« MongoDBDriverClientEncryption::construct'
-  - mongodb-driver-clientencryption.decrypt.html: 'MongoDBDriverClientEncryption::decrypt »'
+  - mongodb-driver-clientencryption.construct.md: '« MongoDBDriverClientEncryption::construct'
+  - mongodb-driver-clientencryption.decrypt.md: 'MongoDBDriverClientEncryption::decrypt »'
   - index.md: PHP Manual
-  - class.mongodb-driver-clientencryption.html: MongoDBDriverClientEncryption
+  - class.mongodb-driver-clientencryption.md: MongoDBDriverClientEncryption
 title: 'MongoDBDriverClientEncryption::createDataKey'
 ---
 # MongoDBDriverClientEncryption::createDataKey

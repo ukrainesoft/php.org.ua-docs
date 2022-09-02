@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-exec.html: « ssh2exec
-  - function.ssh2-fingerprint.html: ssh2fingerprint »
+  - function.ssh2-exec.md: « ssh2exec
+  - function.ssh2-fingerprint.md: ssh2fingerprint »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2fetchstream

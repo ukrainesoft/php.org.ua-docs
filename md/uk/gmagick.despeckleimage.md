@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.deconstructimages.html: '« Gmagick::deconstructimages'
-  - gmagick.destroy.html: 'Gmagick::destroy »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.deconstructimages.md: '« Gmagick::deconstructimages'
+  - gmagick.destroy.md: 'Gmagick::destroy »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::despeckleimage'
 ---
 # Gmagick::despeckleimage

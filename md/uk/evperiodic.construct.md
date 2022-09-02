@@ -19,7 +19,7 @@ float `$offset`
 string `$interval`  
 [callable](language.types.callable.md) `$reschedule_cb`  
 [callable](language.types.callable.md) `$callback`  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`**  
 int `$priority`
 
 Створює об'єкт спостерігача EvPeriodic та запускає його автоматично. Метод [EvPeriodic::createStopped()](evperiodic.createstopped.md) створює зупинений періодичний спостерігач.
@@ -48,7 +48,7 @@ int `$priority`
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 

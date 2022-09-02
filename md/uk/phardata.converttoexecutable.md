@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phardata.converttodata.html: '« PharData::convertToData'
-  - phardata.copy.html: 'PharData::copy »'
-  - index.html: PHP Manual
-  - class.phardata.html: PharData
+  - phardata.converttodata.md: '« PharData::convertToData'
+  - phardata.copy.md: 'PharData::copy »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
 title: 'PharData::convertToExecutable'
 ---
 # PharData::convertToExecutable
@@ -20,13 +20,13 @@ public PharData::convertToExecutable(?int $format = null, ?int $compression = nu
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Цей метод використовується для конвертації tar/zip-архіву, що не запускається, а phar-архів, що запускається. Може бути використаний будь-який із трьох форматів, що запускаються (phar, tar або zip). Також допустимо стиснення архіву цілком.
 
-Якщо зміни не вказані, цей метод кидає виняток [BadMethodCallException](class.badmethodcallexception.html)
+Якщо зміни не вказані, цей метод кидає виняток [BadMethodCallException](class.badmethodcallexception.md)
 
-У разі успішного виконання, цей метод створює новий архів на диску та повертає об'єкт [Phar](class.phar.html). Старий архів залишається недоторканим.
+У разі успішного виконання, цей метод створює новий архів на диску та повертає об'єкт [Phar](class.phar.md). Старий архів залишається недоторканим.
 
 ### Список параметрів
 
@@ -46,11 +46,11 @@ public PharData::convertToExecutable(?int $format = null, ?int $compression = nu
 
 ### Значення, що повертаються
 
-Цей метод повертає об'єкт [Phar](class.phar.html) і **`null`** у разі виникнення помилки.
+Цей метод повертає об'єкт [Phar](class.phar.md) і **`null`** у разі виникнення помилки.
 
 ### Помилки
 
-Метод викидає виняток [BadMethodCallException](class.badmethodcallexception.html) якщо не може зробити стиснення або якщо заданий невідомий алгоритм стиснення, для архіву включена буферизація за допомогою [Phar::startBuffering()](phar.startbuffering.html), а метод [Phar::stopBuffering()](phar.stopbuffering.html) не викликався. Викидається виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо запис заборонено. І викидається [PharException](class.pharexception.html), якщо виникли проблеми з записом на диск.
+Метод викидає виняток [BadMethodCallException](class.badmethodcallexception.md) якщо не може зробити стиснення або якщо заданий невідомий алгоритм стиснення, для архіву включена буферизація за допомогою [Phar::startBuffering()](phar.startbuffering.md), а метод [Phar::stopBuffering()](phar.stopbuffering.md) не викликався. Викидається виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо запис заборонено. І викидається [PharException](class.pharexception.md), якщо виникли проблеми з записом на диск.
 
 ### список змін
 
@@ -82,6 +82,6 @@ try {
 
 ### Дивіться також
 
--   [Phar::convertToExecutable()](phar.converttoexecutable.html) - Конвертує phar-архів в інший формат файлу, що виконується.
--   [Phar::convertToData()](phar.converttodata.html) - Конвертує phar-архів в tar-або zip-файл, що не виконується.
--   [PharData::convertToData()](phardata.converttodata.html) - Конвертація phar-архіву в tar/zip-архів, що не запускається.
+-   [Phar::convertToExecutable()](phar.converttoexecutable.md) - Конвертує phar-архів в інший формат файлу, що виконується.
+-   [Phar::convertToData()](phar.converttodata.md) - Конвертує phar-архів в tar-або zip-файл, що не виконується.
+-   [PharData::convertToData()](phardata.converttodata.md) - Конвертація phar-архіву в tar/zip-архів, що не запускається.

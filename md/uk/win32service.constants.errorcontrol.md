@@ -1,9 +1,9 @@
 ---
 navigation:
-  - win32service.constants.servicestarttype.html: Константи типу запуску служби Win32Service
-  - win32service.constants.serviceflag.html: Константи прапорів сервісу Win32Service
-  - index.html: PHP Manual
-  - win32service.constants.html: Обумовлені константи
+  - win32service.constants.servicestarttype.md: Константи типу запуску служби Win32Service
+  - win32service.constants.serviceflag.md: Константи прапорів сервісу Win32Service
+  - index.md: PHP Manual
+  - win32service.constants.md: Обумовлені константи
 ---
 **Константи контролю помилок сервісу Win32Service**
 

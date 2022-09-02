@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pspell-config-ignore.html: « pspellconfigignore
-  - function.pspell-config-personal.html: pspellconfigpersonal »
-  - index.html: PHP Manual
-  - ref.pspell.html: Функции Pspell
+  - function.pspell-config-ignore.md: « pspellconfigignore
+  - function.pspell-config-personal.md: pspellconfigpersonal »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
 title: pspellconfigmode
 ---
 # pspellconfigmode
@@ -18,13 +18,13 @@ pspellconfigmode — Змінює режим кількості варіанті
 pspell_config_mode(PSpell\Config $config, int $mode): bool
 ```
 
-**pspellconfigmode()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.html). Ця функція визначає, скільки варіантів виправлення повертатиме функція [pspellsuggest()](function.pspell-suggest.html)
+**pspellconfigmode()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md). Ця функція визначає, скільки варіантів виправлення повертатиме функція [pspellsuggest()](function.pspell-suggest.md)
 
 ### Список параметрів
 
 `config`
 
-Екземпляр [PSpellConfig](class.pspell-config.html)
+Екземпляр [PSpellConfig](class.pspell-config.md)
 
 `mode`
 
@@ -42,7 +42,7 @@ pspell_config_mode(PSpell\Config $config, int $mode): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `config` тепер чекає екземпляр [PSpellConfig](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

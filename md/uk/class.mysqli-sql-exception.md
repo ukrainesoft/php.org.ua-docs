@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli-warning.next.html: '« mysqliwarning::next'
-  - mysqli-sql-exception.getsqlstate.html: 'mysqlisqlexception::getSqlState »'
+  - mysqli-warning.next.md: '« mysqliwarning::next'
+  - mysqli-sql-exception.getsqlstate.md: 'mysqlisqlexception::getSqlState »'
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: Клас mysqlisqlexception

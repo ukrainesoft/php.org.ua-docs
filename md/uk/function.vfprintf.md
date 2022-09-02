@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.utf8-encode.html: « utf8encode
+  - function.utf8-encode.md: « utf8encode
   - function.vprintf.md: vprintf »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками

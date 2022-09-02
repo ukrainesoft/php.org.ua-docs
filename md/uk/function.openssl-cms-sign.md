@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-cms-read.html: « opensslcmsread
-  - function.openssl-cms-verify.html: opensslcmsverify »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-cms-read.md: « opensslcmsread
+  - function.openssl-cms-verify.md: opensslcmsverify »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslcmssign
 ---
 # opensslcmssign
@@ -32,11 +32,11 @@ openssl_cms_sign(    string $input_filename,    string $output_filename,
 
 `certificate`
 
-Сертифікат підпису. Дивіться [параметри ключа/сертифіката](openssl.certparams.html) для отримання списку припустимих значень.
+Сертифікат підпису. Дивіться [параметри ключа/сертифіката](openssl.certparams.md) для отримання списку припустимих значень.
 
 `private_key`
 
-Ключ, пов'язаний з `certificate`. Дивіться [параметри ключа/сертифіката](openssl.certparams.html) для отримання списку припустимих значень.
+Ключ, пов'язаний з `certificate`. Дивіться [параметри ключа/сертифіката](openssl.certparams.md) для отримання списку припустимих значень.
 
 `headers`
 

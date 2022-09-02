@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-getmailboxes.html: « imapgetmailboxes
-  - function.imap-header.html: imapheader »
+  - function.imap-getmailboxes.md: « imapgetmailboxes
+  - function.imap-header.md: imapheader »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapgetsubscribed
@@ -20,21 +20,21 @@ imap_getsubscribed(IMAP\Connection $imap, string $reference, string $pattern): a
 
 Повертає інформацію про список усіх поштових скриньок, на які ви підписані.
 
-Ідентично [imapgetmailboxes()](function.imap-getmailboxes.html), за винятком того, що повертається лише список скриньок, на які підписано користувач.
+Ідентично [imapgetmailboxes()](function.imap-getmailboxes.md), за винятком того, що повертається лише список скриньок, на які підписано користувач.
 
 ### Список параметрів
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `reference`
 
-У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imapopen()](function.imap-open.html)
+У `reference`, як правило, повинна бути вказана лише специфікація сервера, як описано в [imapopen()](function.imap-open.md)
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `pattern`
 
@@ -60,4 +60,4 @@ imap_getsubscribed(IMAP\Connection $imap, string $reference, string $pattern): a
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

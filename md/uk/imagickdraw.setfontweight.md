@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setfontstyle.html: '« ImagickDraw::setFontStyle'
-  - imagickdraw.setgravity.html: 'ImagickDraw::setGravity »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setfontstyle.md: '« ImagickDraw::setFontStyle'
+  - imagickdraw.setgravity.md: 'ImagickDraw::setGravity »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFontWeight'
 ---
 # ImagickDraw::setFontWeight

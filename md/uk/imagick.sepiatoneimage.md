@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.separateimagechannel.html: '« Imagick::separateImageChannel'
-  - imagick.setbackgroundcolor.html: 'Imagick::setBackgroundColor »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.separateimagechannel.md: '« Imagick::separateImageChannel'
+  - imagick.setbackgroundcolor.md: 'Imagick::setBackgroundColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::sepiaToneImage'
 ---
 # Imagick::sepiaToneImage

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getlanguage.html: '« YafRequestAbstract::getLanguage'
-  - yaf-request-abstract.getmodulename.html: 'YafRequestAbstract::getModuleName »'
+  - yaf-request-abstract.getlanguage.md: '« YafRequestAbstract::getLanguage'
+  - yaf-request-abstract.getmodulename.md: 'YafRequestAbstract::getModuleName »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getMethod'
 ---
 # YafRequestAbstract::getMethod

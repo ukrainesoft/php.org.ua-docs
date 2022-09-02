@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setgroupcachepercent.html: '« SolrQuery::setGroupCachePercent'
-  - solrquery.setgroupformat.html: 'SolrQuery::setGroupFormat »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setgroupcachepercent.md: '« SolrQuery::setGroupCachePercent'
+  - solrquery.setgroupformat.md: 'SolrQuery::setGroupFormat »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setGroupFacet'
 ---
 # SolrQuery::setGroupFacet

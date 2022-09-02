@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-timestamp.unserialize.html: '« MongoDBBSONTimestamp::unserialize'
-  - mongodb-bson-utcdatetime.construct.html: 'MongoDBBSONUTCDateTime::construct »'
-  - index.html: PHP Manual
-  - book.bson.html: MongoDBBSON
+  - mongodb-bson-timestamp.unserialize.md: '« MongoDBBSONTimestamp::unserialize'
+  - mongodb-bson-utcdatetime.construct.md: 'MongoDBBSONUTCDateTime::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONUTCDateTime
 ---
 # Клас MongoDBBSONUTCDateTime
@@ -46,15 +46,15 @@ final public unserialize(string $serialized): void
 
 | Версия | Описание |
 | --- | --- |
-| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.html) для PHP 8.0+. |
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONUTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.html) |
-| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.html) |
+| PECL mongodb 1.12.0 | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+. |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONUTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 
--   [MongoDBBSONUTCDateTime::construct](mongodb-bson-utcdatetime.construct.html) — Створює новий UTCDateTime
--   [MongoDBBSONUTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.html) — Повертає уявлення, яке можна перетворити на JSON
--   [MongoDBBSONUTCDateTime::serialize](mongodb-bson-utcdatetime.serialize.html) - Серіалізує UTCDateTime
--   [MongoDBBSONUTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.html) — Повертає уявлення DateTime цього UTCDateTime
--   [MongoDBBSONUTCDateTime::toString](mongodb-bson-utcdatetime.tostring.html) — Повертає рядкову виставу UTCDateTime
--   [MongoDBBSONUTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.html) - Десеріалізує UTCDateTime
+-   [MongoDBBSONUTCDateTime::construct](mongodb-bson-utcdatetime.construct.md) — Створює новий UTCDateTime
+-   [MongoDBBSONUTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.md) — Повертає уявлення, яке можна перетворити на JSON
+-   [MongoDBBSONUTCDateTime::serialize](mongodb-bson-utcdatetime.serialize.md) - Серіалізує UTCDateTime
+-   [MongoDBBSONUTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.md) — Повертає уявлення DateTime цього UTCDateTime
+-   [MongoDBBSONUTCDateTime::toString](mongodb-bson-utcdatetime.tostring.md) — Повертає рядкову виставу UTCDateTime
+-   [MongoDBBSONUTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.md) - Десеріалізує UTCDateTime

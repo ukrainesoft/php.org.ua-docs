@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mysqli.quickstart.stored-procedures.html: « Збережені процедури
+  - mysqli.quickstart.stored-procedures.md: « Збережені процедури
   - mysqli.quickstart.transactions.md: API поддержка транзакций »
   - index.md: PHP Manual
   - mysqli.quickstart.md: Краткое руководство

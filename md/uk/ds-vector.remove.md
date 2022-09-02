@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.reduce.html: '« DsVector::reduce'
-  - ds-vector.reverse.html: 'ДсVector::reverse »'
-  - index.html: PHP Manual
-  - class.ds-vector.html: Вектор
+  - ds-vector.reduce.md: '« DsVector::reduce'
+  - ds-vector.reverse.md: 'ДсVector::reverse »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::remove'
 ---
 # ДсVector::remove
@@ -32,7 +32,7 @@ public Ds\Vector::remove(int $index): mixed
 
 ### Помилки
 
-Викидає виняток [OutOfRangeException](class.outofrangeexception.html)якщо індекс некоректний.
+Викидає виняток [OutOfRangeException](class.outofrangeexception.md)якщо індекс некоректний.
 
 ### Приклади
 

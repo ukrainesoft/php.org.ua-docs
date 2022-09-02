@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.values.html: '« DsMap::values'
-  - class.ds-pair.html: Пара »
+  - ds-map.values.md: '« DsMap::values'
+  - class.ds-pair.md: Пара »
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::xor'
 ---
 # ДсMap::xor

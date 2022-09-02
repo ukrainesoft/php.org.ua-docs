@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-laplace.html: « statsdenslaplace
-  - function.stats-dens-normal.html: statsdensnormal »
+  - function.stats-dens-laplace.md: « statsdenslaplace
+  - function.stats-dens-normal.md: statsdensnormal »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdenslogistic

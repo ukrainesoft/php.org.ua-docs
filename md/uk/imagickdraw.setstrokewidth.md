@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setstrokepatternurl.html: '« ImagickDraw::setStrokePatternURL'
-  - imagickdraw.settextalignment.html: 'ImagickDraw::setTextAlignment »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setstrokepatternurl.md: '« ImagickDraw::setStrokePatternURL'
+  - imagickdraw.settextalignment.md: 'ImagickDraw::setTextAlignment »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setStrokeWidth'
 ---
 # ImagickDraw::setStrokeWidth

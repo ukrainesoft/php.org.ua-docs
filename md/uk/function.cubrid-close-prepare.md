@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-bind.html: « cubridbind
-  - function.cubrid-close-request.html: cubridcloserequest »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-bind.md: « cubridbind
+  - function.cubrid-close-request.md: cubridcloserequest »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridcloseprepare
 ---
 # cubridcloseprepare
@@ -18,7 +18,7 @@ cubridcloseprepare — Закриває обробник запиту
 cubrid_close_prepare(resource $req_identifier): bool
 ```
 
-Функція **cubridcloseprepare()** закриває обробник запиту, заданий у `req_identifier`, і звільняє виділену йому пам'ять. Є синонімом для [cubridcloserequest()](function.cubrid-close-request.html)
+Функція **cubridcloseprepare()** закриває обробник запиту, заданий у `req_identifier`, і звільняє виділену йому пам'ять. Є синонімом для [cubridcloserequest()](function.cubrid-close-request.md)
 
 ### Список параметрів
 
@@ -55,4 +55,4 @@ if ($con) {
 
 ### Дивіться також
 
--   [cubridcloserequest()](function.cubrid-close-request.html) - Закриває обробник запиту
+-   [cubridcloserequest()](function.cubrid-close-request.md) - Закриває обробник запиту

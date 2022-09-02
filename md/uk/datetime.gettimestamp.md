@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.getoffset.html: '« DateTimeInterface::getOffset'
-  - datetime.gettimezone.html: 'DateTimeInterface::getTimezone »'
-  - index.html: PHP Manual
-  - class.datetimeinterface.html: DateTimeInterface
+  - datetime.getoffset.md: '« DateTimeInterface::getOffset'
+  - datetime.gettimezone.md: 'DateTimeInterface::getTimezone »'
+  - index.md: PHP Manual
+  - class.datetimeinterface.md: DateTimeInterface
 title: 'DateTimeInterface::getTimestamp'
 ---
 # DateTimeInterface::getTimestamp
@@ -52,7 +52,7 @@ date_timestamp_get(DateTimeInterface $object): int
 
 ### Помилки
 
-Якщо тимчасова мітка не може бути представлена ​​як ціле число (int), викидається [ValueError](class.valueerror.html). До PHP 8.0.0 у цьому випадку поверталося **`false`**. Тим не менш, мітку часу можна отримати як рядок (string) за допомогою [DateTimeInterface::format()](datetime.format.html) з форматом `U`
+Якщо тимчасова мітка не може бути представлена ​​як ціле число (int), викидається [ValueError](class.valueerror.md). До PHP 8.0.0 у цьому випадку поверталося **`false`**. Тим не менш, мітку часу можна отримати як рядок (string) за допомогою [DateTimeInterface::format()](datetime.format.md) з форматом `U`
 
 ### список змін
 
@@ -90,5 +90,5 @@ echo date_timestamp_get($date);
 
 ### Дивіться також
 
--   [DateTime::setTimestamp()](datetime.settimestamp.html) - Встановлює дату та час на основі мітки часу Unix
--   [DateTime::format()](datetime.format.html) - Повертає дату, відформатовану згідно з переданим форматом
+-   [DateTime::setTimestamp()](datetime.settimestamp.md) - Встановлює дату та час на основі мітки часу Unix
+-   [DateTime::format()](datetime.format.md) - Повертає дату, відформатовану згідно з переданим форматом

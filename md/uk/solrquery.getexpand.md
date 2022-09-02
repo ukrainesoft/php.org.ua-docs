@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.destruct.html: '« SolrQuery::destruct'
-  - solrquery.getexpandfilterqueries.html: 'SolrQuery::getExpandFilterQueries »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.destruct.md: '« SolrQuery::destruct'
+  - solrquery.getexpandfilterqueries.md: 'SolrQuery::getExpandFilterQueries »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getExpand'
 ---
 # SolrQuery::getExpand

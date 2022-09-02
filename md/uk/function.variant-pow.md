@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-or.html: « variantор
-  - function.variant-round.html: variantround »
+  - function.variant-or.md: « variantор
+  - function.variant-round.md: variantround »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantpow

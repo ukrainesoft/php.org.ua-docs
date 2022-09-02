@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.init.html: '« mysqli::init'
-  - mysqli.kill.html: 'mysqli::kill »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.init.md: '« mysqli::init'
+  - mysqli.kill.md: 'mysqli::kill »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::$insertід'
 ---
 # mysqli::$insertід
@@ -18,7 +18,7 @@ mysqli::$insertid - mysqliinsertid — Повертає значення, ств
 
 Об'єктно-орієнтований стиль
 
-int|string [$mysqli->insertід](mysqli.insert-id.html)
+int|string [$mysqli->insertід](mysqli.insert-id.md)
 
 Процедурний стиль
 
@@ -36,7 +36,7 @@ mysqli_insert_id(mysqli $mysql): int|string
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 

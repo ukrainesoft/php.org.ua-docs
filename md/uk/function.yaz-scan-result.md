@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-record.html: « yazrecord
-  - function.yaz-scan.html: yazscan »
+  - function.yaz-record.md: « yazrecord
+  - function.yaz-scan.md: yazscan »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazscanresult

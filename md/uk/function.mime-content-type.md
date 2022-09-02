@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.finfo-set-flags.html: « finfosetflags
+  - function.finfo-set-flags.md: « finfosetflags
   - class.finfo.md: finfo »
   - index.md: PHP Manual
   - ref.fileinfo.md: Функции модуля Fileinfo

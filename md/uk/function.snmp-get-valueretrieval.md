@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.snmp-get-quick-print.html: « snmpgetquickprint
-  - function.snmp-read-mib.html: snmpreadmib »
-  - index.html: PHP Manual
-  - ref.snmp.html: Функції SNMP
+  - function.snmp-get-quick-print.md: « snmpgetquickprint
+  - function.snmp-read-mib.md: snmpreadmib »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
 title: snmpgetvalueretrieval
 ---
 # snmpgetvalueretrieval
@@ -43,5 +43,5 @@ snmp_get_valueretrieval(): int
 
 ### Дивіться також
 
--   [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.html) - Визначає метод повернення значень SNMP
--   [Обумовлені константи](snmp.constants.html)
+-   [snmpsetvalueretrieval()](function.snmp-set-valueretrieval.md) - Визначає метод повернення значень SNMP
+-   [Обумовлені константи](snmp.constants.md)

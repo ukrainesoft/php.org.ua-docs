@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-parser.sigil.html: '« ParleParser::sigil'
-  - parle-parser.tokenid.html: 'ParleParser::tokenId »'
+  - parle-parser.sigil.md: '« ParleParser::sigil'
+  - parle-parser.tokenid.md: 'ParleParser::tokenId »'
   - index.md: PHP Manual
-  - class.parle-parser.html: ParleParser
+  - class.parle-parser.md: ParleParser
 title: 'ParleParser::token'
 ---
 # ParleParser::token

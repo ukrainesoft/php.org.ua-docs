@@ -1,9 +1,9 @@
 ---
 navigation:
-  - soapfault.construct.html: '« SoapFault::construct'
-  - class.soapheader.html: SoapHeader »
-  - index.html: PHP Manual
-  - class.soapfault.html: SoapFault
+  - soapfault.construct.md: '« SoapFault::construct'
+  - class.soapheader.md: SoapHeader »
+  - index.md: PHP Manual
+  - class.soapfault.md: SoapFault
 title: 'SoapFault::toString'
 ---
 # SoapFault::toString

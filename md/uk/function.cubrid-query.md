@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-ping.html: « cubridping
-  - function.cubrid-real-escape-string.html: cubridrealescapestring »
+  - function.cubrid-ping.md: « cubridping
+  - function.cubrid-real-escape-string.md: cubridrealescapestring »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridquery
@@ -40,7 +40,7 @@ SQL-запит
 
 Повернутий результат можна передавати у функцію [cubridfetcharray()](function.cubrid-fetch-array.md) і їй подібні до роботи з отриманими даними.
 
-Використовуйте [cubridnumrows()](function.cubrid-num-rows.html) для визначення кількості повернутих оператором SELECT рядків або [cubridaffectedrows()](function.cubrid-affected-rows.md) для визначення кількості порушених рядків, для запитів, що змінюють дані, таких як DELETE, INSERT, REPLACE та UPDATE.
+Використовуйте [cubridnumrows()](function.cubrid-num-rows.md) для визначення кількості повернутих оператором SELECT рядків або [cubridaffectedrows()](function.cubrid-affected-rows.md) для визначення кількості порушених рядків, для запитів, що змінюють дані, таких як DELETE, INSERT, REPLACE та UPDATE.
 
 **cubridquery()** також може завершитися з помилкою та повернути **`false`**, якщо користувач не має права на доступ до таблиці, яка використовується у запиті.
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.getopt.md: « getopt
-  - function.ini-alter.html: inialter »
+  - function.ini-alter.md: inialter »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getrusage

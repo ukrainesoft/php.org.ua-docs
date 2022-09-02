@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-columns.html: « odbccolumns
-  - function.odbc-connect.html: odbcconnect »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-columns.md: « odbccolumns
+  - function.odbc-connect.md: odbcconnect »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbccommit
 ---
 # odbccommit

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-memzero.html: « sodiummemzero
-  - function.sodium-unpad.html: sodiumunpad »
+  - function.sodium-memzero.md: « sodiummemzero
+  - function.sodium-unpad.md: sodiumunpad »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumpad

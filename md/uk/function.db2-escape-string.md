@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-cursor-type.html: « db2cursortype
-  - function.db2-exec.html: db2exec »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-cursor-type.md: « db2cursortype
+  - function.db2-exec.md: db2exec »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2escapestring
 ---
 # db2escapestring
@@ -71,4 +71,4 @@ db2_escape_string:
 
 ### Дивіться також
 
--   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
+-   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання

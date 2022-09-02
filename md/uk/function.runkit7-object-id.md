@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.runkit7-method-rename.html: « runkit7methodrename
-  - function.runkit7-superglobals.html: runkit7superglobals »
+  - function.runkit7-method-rename.md: « runkit7methodrename
+  - function.runkit7-superglobals.md: runkit7superglobals »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
 title: runkit7objectід

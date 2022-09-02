@@ -1,9 +1,9 @@
 ---
 navigation:
-  - directoryiterator.seek.html: '« DirectoryIterator::seek'
-  - directoryiterator.valid.html: 'DirectoryIterator::valid »'
-  - index.html: PHP Manual
-  - class.directoryiterator.html: DirectoryIterator
+  - directoryiterator.seek.md: '« DirectoryIterator::seek'
+  - directoryiterator.valid.md: 'DirectoryIterator::valid »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::toString'
 ---
 # DirectoryIterator::toString
@@ -19,7 +19,7 @@ public
    DirectoryIterator::__toString(): string
 ```
 
-Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.html)
+Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Список параметрів
 
@@ -27,7 +27,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.html)
+Повертає ім'я файлу поточного елемента [DirectoryIterator](class.directoryiterator.md)
 
 ### Приклади
 
@@ -57,5 +57,5 @@ pear.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::getFilename()](directoryiterator.getfilename.html) - Повертає ім'я файлу поточного елемента DirectoryIterator
--   Магічний метод [toString()](language.oop5.magic.html#object.tostring)
+-   [DirectoryIterator::getFilename()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator
+-   Магічний метод [toString()](language.oop5.magic.md#object.tostring)

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-bind.html: « ldapbind
-  - function.ldap-compare.html: ldapcompare »
+  - function.ldap-bind.md: « ldapbind
+  - function.ldap-compare.md: ldapcompare »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapclose

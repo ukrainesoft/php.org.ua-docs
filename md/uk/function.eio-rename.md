@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-realpath.html: « eiorealpath
-  - function.eio-rmdir.html: eiormdir »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-realpath.md: « eiorealpath
+  - function.eio-rmdir.md: eiormdir »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiorename
 ---
 # eiorename

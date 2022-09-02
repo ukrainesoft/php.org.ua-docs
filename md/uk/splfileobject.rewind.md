@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.next.html: '« SplFileObject::next'
-  - splfileobject.seek.html: 'SplFileObject::seek »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.next.md: '« SplFileObject::next'
+  - splfileobject.seek.md: 'SplFileObject::seek »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::rewind'
 ---
 # SplFileObject::rewind
@@ -30,7 +30,7 @@ public SplFileObject::rewind(): void
 
 ### Помилки
 
-Якщо покажчик не можна перемотати, буде викинуто виняток [RuntimeException](class.runtimeexception.html)
+Якщо покажчик не можна перемотати, буде викинуто виняток [RuntimeException](class.runtimeexception.md)
 
 ### Приклади
 
@@ -53,8 +53,8 @@ echo $file->current();
 
 ### Дивіться також
 
--   [SplFileObject::current()](splfileobject.current.html) - Отримати поточний рядок файлу
--   [SplFileObject::key()](splfileobject.key.html) - Отримати номер рядка
--   [SplFileObject::seek()](splfileobject.seek.html) - Переклад файлового покажчика на заданий рядок
--   [SplFileObject::next()](splfileobject.next.html) - Читати наступний рядок
--   [SplFileObject::valid()](splfileobject.valid.html) - Перевіряє, чи кінець файлу (EOF) досягнуто.
+-   [SplFileObject::current()](splfileobject.current.md) - Отримати поточний рядок файлу
+-   [SplFileObject::key()](splfileobject.key.md) - Отримати номер рядка
+-   [SplFileObject::seek()](splfileobject.seek.md) - Переклад файлового покажчика на заданий рядок
+-   [SplFileObject::next()](splfileobject.next.md) - Читати наступний рядок
+-   [SplFileObject::valid()](splfileobject.valid.md) - Перевіряє, чи кінець файлу (EOF) досягнуто.

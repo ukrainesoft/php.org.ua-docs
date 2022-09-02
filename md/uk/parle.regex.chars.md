@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle.pattern.matching.html: « Сопоставление с шаблоном
-  - parle.regex.charclass.html: Класи символів »
-  - index.html: PHP Manual
-  - parle.pattern.matching.html: Сопоставление с шаблоном
+  - parle.pattern.matching.md: « Сопоставление с шаблоном
+  - parle.regex.charclass.md: Класи символів »
+  - index.md: PHP Manual
+  - parle.pattern.matching.md: Сопоставление с шаблоном
 title: Подання символів
 ---
 ## Подання символів

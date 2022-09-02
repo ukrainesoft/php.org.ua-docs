@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sqlsrv-free-stmt.html: « sqlsrvfreestmt
-  - function.sqlsrv-get-field.html: sqlsrvgetfield »
-  - index.html: PHP Manual
-  - ref.sqlsrv.html: Функції SQLSRV
+  - function.sqlsrv-free-stmt.md: « sqlsrvfreestmt
+  - function.sqlsrv-get-field.md: sqlsrvgetfield »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvgetconfig
 ---
 # sqlsrvgetconfig

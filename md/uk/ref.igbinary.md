@@ -1,9 +1,9 @@
 ---
 navigation:
-  - igbinary.configuration.html: « Налаштування під час виконання
-  - function.igbinary-serialize.html: igbinaryserialize »
-  - index.html: PHP Manual
-  - book.igbinary.html: Igbinary
+  - igbinary.configuration.md: « Налаштування під час виконання
+  - function.igbinary-serialize.md: igbinaryserialize »
+  - index.md: PHP Manual
+  - book.igbinary.md: Igbinary
 title: Функції Igbinary
 ---
 # Функції Igbinary

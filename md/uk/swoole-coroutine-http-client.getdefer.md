@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.get.html: '« SwooleCoroutineHttpClient::get'
-  - swoole-coroutine-http-client.isconnected.html: 'SwooleCoroutineHttpClient::isConnected »'
+  - swoole-coroutine-http-client.get.md: '« SwooleCoroutineHttpClient::get'
+  - swoole-coroutine-http-client.isconnected.md: 'SwooleCoroutineHttpClient::isConnected »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::getDefer'
 ---
 # SwooleCoroutineHttpClient::getDefer

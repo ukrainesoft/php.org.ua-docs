@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-add-ext.html: « ldapaddext
-  - function.ldap-bind-ext.html: ldapbindext »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-add-ext.md: « ldapaddext
+  - function.ldap-bind-ext.md: ldapbindext »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapadd
 ---
 # ldapadd
@@ -24,7 +24,7 @@ ldap_add(    LDAP\Connection $ldap,    string $dn,    array $entry,�
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
 
@@ -54,7 +54,7 @@ $entry["attribute2"][1] = "value2";
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 |  | Додано підтримку параметра `controls` |
 

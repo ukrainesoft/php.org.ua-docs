@@ -1,6 +1,6 @@
 ---
 navigation:
-  - migration71.new-functions.html: « Нові функції
+  - migration71.new-functions.md: « Нові функції
   - migration71.incompatible.md: 'Зміни, що ламають зворотну сумісність »'
   - index.md: PHP Manual
   - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x

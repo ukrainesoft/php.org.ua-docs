@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfiber.gettrace.html: '« ReflectionFiber::getTrace'
-  - reflectionintersectiontype.gettypes.html: 'ReflectionIntersectionType::getTypes »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionfiber.gettrace.md: '« ReflectionFiber::getTrace'
+  - reflectionintersectiontype.gettypes.md: 'ReflectionIntersectionType::getTypes »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас ReflectionIntersectionType
 ---
 # Клас ReflectionIntersectionType
@@ -44,4 +44,4 @@ public ReflectionType::__toString(): string
 
 ## Зміст
 
--   [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.html) — Повертає типи, включені до типу intersection
+-   [ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md) — Повертає типи, включені до типу intersection

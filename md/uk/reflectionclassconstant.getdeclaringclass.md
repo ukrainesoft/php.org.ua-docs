@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclassconstant.getattributes.html: '« ReflectionClassConstant::getAttributes'
-  - reflectionclassconstant.getdoccomment.html: 'ReflectionClassConstant::getDocComment »'
-  - index.html: PHP Manual
-  - class.reflectionclassconstant.html: ReflectionClassConstant
+  - reflectionclassconstant.getattributes.md: '« ReflectionClassConstant::getAttributes'
+  - reflectionclassconstant.getdoccomment.md: 'ReflectionClassConstant::getDocComment »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::getDeclaringClass'
 ---
 # ReflectionClassConstant::getDeclaringClass
@@ -26,4 +26,4 @@ public ReflectionClassConstant::getDeclaringClass(): ReflectionClass
 
 ### Значення, що повертаються
 
-Об'єкт [ReflectionClass](class.reflectionclass.html)
+Об'єкт [ReflectionClass](class.reflectionclass.md)

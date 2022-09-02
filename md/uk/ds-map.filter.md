@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.diff.html: '« DsMap::diff'
-  - ds-map.first.html: 'ДсMap::first »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.diff.md: '« DsMap::diff'
+  - ds-map.first.md: 'ДсMap::first »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::filter'
 ---
 # ДсMap::filter
@@ -28,9 +28,9 @@ public Ds\Map::filter(callable $callback = ?): Ds\Map
 callback(mixed $key, mixed $value): bool
 ```
 
-Опціональний аргумент типу [callable](language.types.callable.html), який повертає **`true`**, якщо пара повинна бути включена та **`false`**, якщо ні.
+Опціональний аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо пара повинна бути включена та **`false`**, якщо ні.
 
-Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивіться розділ з [приведением к boolean](language.types.boolean.html#language.types.boolean.casting)
+Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивіться розділ з [приведением к boolean](language.types.boolean.md#language.types.boolean.casting)
 
 ### Значення, що повертаються
 

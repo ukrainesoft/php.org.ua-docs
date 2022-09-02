@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.getintpropertyvalue.html: '« IntlChar::getIntPropertyValue'
-  - intlchar.getpropertyenum.html: 'IntlChar::getPropertyEnum »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.getintpropertyvalue.md: '« IntlChar::getIntPropertyValue'
+  - intlchar.getpropertyenum.md: 'IntlChar::getPropertyEnum »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::getNumericValue'
 ---
 # IntlChar::getNumericValue

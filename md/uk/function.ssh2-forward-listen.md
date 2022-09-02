@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-forward-accept.html: « ssh2forwardaccept
-  - function.ssh2-methods-negotiated.html: ssh2methodsnegotiated »
+  - function.ssh2-forward-accept.md: « ssh2forwardaccept
+  - function.ssh2-methods-negotiated.md: ssh2methodsnegotiated »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2forwardlisten

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.initview.html: '« YafDispatcher::initView'
-  - yaf-dispatcher.returnresponse.html: 'YafDispatcher::returnResponse »'
+  - yaf-dispatcher.initview.md: '« YafDispatcher::initView'
+  - yaf-dispatcher.returnresponse.md: 'YafDispatcher::returnResponse »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::registerPlugin'
 ---
 # YafDispatcher::registerPlugin
@@ -18,7 +18,7 @@ YafDispatcher::registerPlugin — Реєструє плагін
 public Yaf_Dispatcher::registerPlugin(Yaf_Plugin_Abstract $plugin): Yaf_Dispatcher
 ```
 
-Реєструє плагін (дивіться [YafPluginAbstract](class.yaf-plugin-abstract.html)). Як правило, ми реєструємо плагіни в Bootstrap (дивіться [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
+Реєструє плагін (дивіться [YafPluginAbstract](class.yaf-plugin-abstract.md)). Як правило, ми реєструємо плагіни в Bootstrap (дивіться [YafBootstrapAbstract](class.yaf-bootstrap-abstract.md)
 
 ### Список параметрів
 

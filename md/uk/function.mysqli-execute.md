@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mysqli-escape-string.html: '« mysqli::escapestring'
-  - function.mysqli-get-client-stats.html: mysqligetclientstats »
-  - index.html: PHP Manual
-  - ref.mysqli.html: Синоніми та застарілі функції Mysqli
+  - function.mysqli-escape-string.md: '« mysqli::escapestring'
+  - function.mysqli-get-client-stats.md: mysqligetclientstats »
+  - index.md: PHP Manual
+  - ref.mysqli.md: Синоніми та застарілі функції Mysqli
 title: mysqliexecute
 ---
 # mysqliexecute

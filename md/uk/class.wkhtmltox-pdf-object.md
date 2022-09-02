@@ -1,7 +1,7 @@
 ---
 navigation:
-  - wkhtmltox-pdf-converter.getversion.html: '« wkhtmltoxPDFConverter::getVersion'
-  - wkhtmltox-pdf-object.construct.html: 'wkhtmltoxPDFObject::construct »'
+  - wkhtmltox-pdf-converter.getversion.md: '« wkhtmltoxPDFConverter::getVersion'
+  - wkhtmltox-pdf-object.construct.md: 'wkhtmltoxPDFObject::construct »'
   - index.md: PHP Manual
   - book.wkhtmltox.md: wkhtmltox
 title: Клас wkhtmltoxPDFObject

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splobjectstorage.offsetunset.html: '« SplObjectStorage::offsetUnset'
-  - splobjectstorage.removeallexcept.html: 'SplObjectStorage::removeAllExcept »'
-  - index.html: PHP Manual
-  - class.splobjectstorage.html: SplObjectStorage
+  - splobjectstorage.offsetunset.md: '« SplObjectStorage::offsetUnset'
+  - splobjectstorage.removeallexcept.md: 'SplObjectStorage::removeAllExcept »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::removeAll'
 ---
 # SplObjectStorage::removeAll

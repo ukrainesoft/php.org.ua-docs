@@ -1,6 +1,6 @@
 ---
 navigation:
-  - install.pecl.php-config.html: « php-config
+  - install.pecl.php-config.md: « php-config
   - install.problems.md: Проблеми? »
   - index.md: PHP Manual
   - install.pecl.md: Установка модулей PECL

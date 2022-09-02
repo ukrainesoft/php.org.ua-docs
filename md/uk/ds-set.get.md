@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.first.html: '« DsSet::first'
-  - ds-set.intersect.html: 'ДсSet::intersect »'
+  - ds-set.first.md: '« DsSet::first'
+  - ds-set.intersect.md: 'ДсSet::intersect »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::get'
 ---
 # ДсSet::get

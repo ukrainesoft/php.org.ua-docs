@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-errormsg.html: « odbcerrormsg
-  - function.odbc-execute.html: odbcexecute »
+  - function.odbc-errormsg.md: « odbcerrormsg
+  - function.odbc-execute.md: odbcexecute »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcexec

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-special-columns.html: « db2specialcolumns
-  - function.db2-stmt-error.html: db2stmterror »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-special-columns.md: « db2specialcolumns
+  - function.db2-stmt-error.md: db2stmterror »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2statistics
 ---
 # db2statistics

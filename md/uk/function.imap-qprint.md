@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-ping.html: « imapping
-  - function.imap-rename.html: imaprename »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-ping.md: « imapping
+  - function.imap-rename.md: imaprename »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapqprint
 ---
 # imapqprint

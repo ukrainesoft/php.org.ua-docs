@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-repos-open.html: « svnreposopen
-  - function.svn-revert.html: svnrevert »
+  - function.svn-repos-open.md: « svnreposopen
+  - function.svn-revert.md: svnrevert »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnreposrecover

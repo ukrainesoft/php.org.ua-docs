@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimagedelay.html: '« Gmagick::getimagedelay'
-  - gmagick.getimagedispose.html: 'Gmagick::getimagedispose »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimagedelay.md: '« Gmagick::getimagedelay'
+  - gmagick.getimagedispose.md: 'Gmagick::getimagedispose »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimagedepth'
 ---
 # Gmagick::getimagedepth

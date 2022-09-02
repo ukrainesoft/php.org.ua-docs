@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.getchilddocumentscount.html: '« SolrDocument::getChildDocumentsCount'
-  - solrdocument.getfieldcount.html: 'SolrDocument::getFieldCount »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.getchilddocumentscount.md: '« SolrDocument::getChildDocumentsCount'
+  - solrdocument.getfieldcount.md: 'SolrDocument::getFieldCount »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::getField'
 ---
 # SolrDocument::getField

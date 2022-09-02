@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-lsub.html: « imaplsub
-  - function.imap-mail-copy.html: imapmailcopy »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-lsub.md: « imaplsub
+  - function.imap-mail-copy.md: imapmailcopy »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapmailcompose
 ---
 # imapmailcompose

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.serialize.html: '« MongoDBDriverReadPreference::serialize'
-  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern »
+  - mongodb-driver-readpreference.serialize.md: '« MongoDBDriverReadPreference::serialize'
+  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern »
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::unserialize'
 ---
 # MongoDBDriverReadPreference::unserialize

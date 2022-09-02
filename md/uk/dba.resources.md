@@ -1,11 +1,11 @@
 ---
 navigation:
-  - dba.configuration.html: « Налаштування під час виконання
-  - dba.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - dba.setup.html: Встановлення та налаштування
+  - dba.configuration.md: « Налаштування під час виконання
+  - dba.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - dba.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів
 
-Функції [dbaopen()](function.dba-open.html) і [dbapopen()](function.dba-popen.md) повертають обробник для доступу до вказаного файлу бази даних, який використовується всіма іншими функціями модуля.
+Функції [dbaopen()](function.dba-open.md) і [dbapopen()](function.dba-popen.md) повертають обробник для доступу до вказаного файлу бази даних, який використовується всіма іншими функціями модуля.

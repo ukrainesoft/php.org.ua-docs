@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlsticksandwich.html: « tradercdlsticksandwich
-  - function.trader-cdltasukigap.html: tradercdltasukigap »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlsticksandwich.md: « tradercdlsticksandwich
+  - function.trader-cdltasukigap.md: tradercdltasukigap »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdltakuri
 ---
 # tradercdltakuri

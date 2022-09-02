@@ -38,7 +38,7 @@ numfmt_set_text_attribute(NumberFormatter $formatter, int $attribute, string $va
 
 `attribute`
 
-Специфікатор атрибуту - одна з констант [текстового атрибуту](class.numberformatter.html#intl.numberformatter-constants.unumberformattextattribute)
+Специфікатор атрибуту - одна з констант [текстового атрибуту](class.numberformatter.md#intl.numberformatter-constants.unumberformattextattribute)
 
 `value`
 

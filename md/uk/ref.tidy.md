@@ -1,7 +1,7 @@
 ---
 navigation:
   - tidynode.istext.md: '« tidyNode::isText'
-  - function.ob-tidyhandler.html: проtidyhandler »
+  - function.ob-tidyhandler.md: проtidyhandler »
   - index.md: PHP Manual
   - book.tidy.md: Tidy
 title: Tidy

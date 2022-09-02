@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.polygon.html: '« GmagickDraw::polygon'
-  - gmagickdraw.rectangle.html: 'GmagickDraw::rectangle »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.polygon.md: '« GmagickDraw::polygon'
+  - gmagickdraw.rectangle.md: 'GmagickDraw::rectangle »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::polyline'
 ---
 # GmagickDraw::polyline

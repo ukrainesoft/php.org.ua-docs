@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-phrase-to-seeds.html: « statsrandphraseтоseeds
-  - function.stats-rand-setall.html: statsrandsetall »
+  - function.stats-rand-phrase-to-seeds.md: « statsrandphraseтоseeds
+  - function.stats-rand-setall.md: statsrandsetall »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandranf

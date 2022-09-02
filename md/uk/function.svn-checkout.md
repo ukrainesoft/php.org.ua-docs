@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-cat.html: « svncat
-  - function.svn-cleanup.html: svncleanup »
+  - function.svn-cat.md: « svncat
+  - function.svn-cleanup.md: svncleanup »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svncheckout

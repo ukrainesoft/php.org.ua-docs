@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-ini.rewind.html: '« YafConfigIni::rewind'
-  - yaf-config-ini.toarray.html: 'YafConfigIni::toArray »'
+  - yaf-config-ini.rewind.md: '« YafConfigIni::rewind'
+  - yaf-config-ini.toarray.md: 'YafConfigIni::toArray »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.html: YafConfigIni
+  - class.yaf-config-ini.md: YafConfigIni
 title: 'YafConfigIni::set'
 ---
 # YafConfigIni::set

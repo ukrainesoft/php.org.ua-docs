@@ -1,6 +1,6 @@
 ---
 navigation:
-  - rrd.examples-procedural.html: « Процедурний приклад PECL/rrd
+  - rrd.examples-procedural.md: « Процедурний приклад PECL/rrd
   - ref.rrd.md: Функції RRD »
   - index.md: PHP Manual
   - rrd.examples.md: Приклади

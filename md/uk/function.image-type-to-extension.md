@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.getimagesizefromstring.md: « getimagesizefromstring
-  - function.image-type-to-mime-type.html: imagetypeтоmimetype »
+  - function.image-type-to-mime-type.md: imagetypeтоmimetype »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagetypeтоextension

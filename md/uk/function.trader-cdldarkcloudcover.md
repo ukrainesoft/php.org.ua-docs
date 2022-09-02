@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlcounterattack.html: « tradercdlcounterattack
-  - function.trader-cdldoji.html: tradercdldoji »
+  - function.trader-cdlcounterattack.md: « tradercdlcounterattack
+  - function.trader-cdldoji.md: tradercdldoji »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdldarkcloudcover

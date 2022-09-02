@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rrdgraph.setoptions.html: '« RRDGraph::setOptions'
-  - rrdupdater.construct.html: 'RRDUpdater::construct »'
-  - index.html: PHP Manual
-  - book.rrd.html: RRD
+  - rrdgraph.setoptions.md: '« RRDGraph::setOptions'
+  - rrdupdater.construct.md: 'RRDUpdater::construct »'
+  - index.md: PHP Manual
+  - book.rrd.md: RRD
 title: Клас RRDUpdater
 ---
 # Клас RRDUpdater
@@ -40,5 +40,5 @@ title: Клас RRDUpdater
 
 ## Зміст
 
--   [RRDUpdater::construct](rrdupdater.construct.html) — Створює новий об'єкт RRDUpdater
--   [RRDUpdater::update](rrdupdater.update.html) — Оновлює файл бази даних RRD
+-   [RRDUpdater::construct](rrdupdater.construct.md) — Створює новий об'єкт RRDUpdater
+-   [RRDUpdater::update](rrdupdater.update.md) — Оновлює файл бази даних RRD

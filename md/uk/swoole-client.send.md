@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.resume.html: '« SwooleClient::resume'
-  - swoole-client.sendfile.html: 'SwooleClient::sendfile »'
-  - index.html: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - swoole-client.resume.md: '« SwooleClient::resume'
+  - swoole-client.sendfile.md: 'SwooleClient::sendfile »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::send'
 ---
 # SwooleClient::send

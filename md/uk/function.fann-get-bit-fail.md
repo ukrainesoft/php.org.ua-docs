@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-bit-fail-limit.html: « fanngetbitfaillimit
-  - function.fann-get-cascade-activation-functions-count.html: fanngetcascadeactivationfunctionscount »
+  - function.fann-get-bit-fail-limit.md: « fanngetbitfaillimit
+  - function.fann-get-cascade-activation-functions-count.md: fanngetcascadeactivationfunctionscount »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetbitfail
@@ -18,9 +18,9 @@ fanngetbitfail - Кількість бітів збою
 fann_get_bit_fail(resource $ann): int
 ```
 
-Кількість бітів збою; означає число вихідних нейронів, які відрізняються більше, ніж межа збою бітів (див. [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.html) [fannsetbitfaillimit()](function.fann-set-bit-fail-limit.md)). Біти враховуються у всіх навчальних даних, тому це число може бути більше за кількість навчальних даних.
+Кількість бітів збою; означає число вихідних нейронів, які відрізняються більше, ніж межа збою бітів (див. [fanngetbitfaillimit()](function.fann-get-bit-fail-limit.md) [fannsetbitfaillimit()](function.fann-set-bit-fail-limit.md)). Біти враховуються у всіх навчальних даних, тому це число може бути більше за кількість навчальних даних.
 
-Це значення скидається [fannresetMSE()](function.fann-reset-mse.html) і оновлюється всіма тими самими функціями, які також оновлюють значення MSE (наприклад, [fanntestdata()](function.fann-test-data.html) [fanntrainepoch()](function.fann-train-epoch.md)
+Це значення скидається [fannresetMSE()](function.fann-reset-mse.md) і оновлюється всіма тими самими функціями, які також оновлюють значення MSE (наприклад, [fanntestdata()](function.fann-test-data.md) [fanntrainepoch()](function.fann-train-epoch.md)
 
 ### Список параметрів
 

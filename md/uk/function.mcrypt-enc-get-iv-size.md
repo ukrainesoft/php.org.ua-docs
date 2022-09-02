@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mcrypt-enc-get-block-size.html: « mcryptencgetblocksize
-  - function.mcrypt-enc-get-key-size.html: mcryptencgetkeysize »
-  - index.html: PHP Manual
-  - ref.mcrypt.html: Mcrypt
+  - function.mcrypt-enc-get-block-size.md: « mcryptencgetblocksize
+  - function.mcrypt-enc-get-key-size.md: mcryptencgetkeysize »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
 title: mcryptencgetвербsize
 ---
 # mcryptencgetвербsize

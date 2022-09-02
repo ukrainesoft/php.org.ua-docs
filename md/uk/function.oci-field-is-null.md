@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-fetch.html: « ocifetch
-  - function.oci-field-name.html: ocifieldname »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-fetch.md: « ocifetch
+  - function.oci-field-name.md: ocifieldname »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocifieldісnull
 ---
 # ocifieldісnull
@@ -36,7 +36,7 @@ oci_field_is_null(resource $statement, string|int $column): bool
 
 ### Приклади
 
-**Приклад #1 Приклад використання [ocifieldname()](function.oci-field-name.html)**
+**Приклад #1 Приклад використання [ocifieldname()](function.oci-field-name.md)**
 
 ```php
 <?php
@@ -76,4 +76,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnisnull()](function.ocicolumnisnull.html). У PHP 5.0.0 і вище [ocicolumnisnull()](function.ocicolumnisnull.html) є аліасом \*\*ocifieldісnull()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnisnull()](function.ocicolumnisnull.md). У PHP 5.0.0 і вище [ocicolumnisnull()](function.ocicolumnisnull.md) є аліасом \*\*ocifieldісnull()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

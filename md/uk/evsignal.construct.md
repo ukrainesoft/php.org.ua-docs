@@ -17,7 +17,7 @@ EvSignal::construct - Конструктор об'єкта спостеріга�
 public **EvSignal::construct**  
 int `$signum`  
 [callable](language.types.callable.md) `$callback`  
-[mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` **`null`**  
+[mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` **`null`**  
 int `$priority`
 
 Створює об'єкт спостерігач EvSignal та автоматично його запускає. Для створення зупиненого об'єкта спостерігача використовуйте метод [EvSignal::createStopped()](evsignal.createstopped.md)
@@ -38,7 +38,7 @@ int `$priority`
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Приклади
 

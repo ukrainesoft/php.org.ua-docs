@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.next.html: '« MongoDBDriverCursor::next'
-  - mongodb-driver-cursor.settypemap.html: 'MongoDBDriverCursor::setTypeMap »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - mongodb-driver-cursor.next.md: '« MongoDBDriverCursor::next'
+  - mongodb-driver-cursor.settypemap.md: 'MongoDBDriverCursor::setTypeMap »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::rewind'
 ---
 # MongoDBDriverCursor::rewind
@@ -30,11 +30,11 @@ public MongoDB\Driver\Cursor::rewind(): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.html)
--   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.html)
--   Кидає виняток [MongoDBDriverExceptionLogicException](class.mongodb-driver-exception-logicexception.html) якщо метод був викликаний після просування курсору далі за свою першу позицію.
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
+-   У разі невдалої аутентифікації кидає виняток [MongoDBDriverExceptionAuthenticationException](class.mongodb-driver-exception-authenticationexception.md)
+-   Кидає виняток [MongoDBDriverExceptionLogicException](class.mongodb-driver-exception-logicexception.md) якщо метод був викликаний після просування курсору далі за свою першу позицію.
 
 ### Дивіться також
 
--   [Iterator::rewind()](iterator.rewind.html) – Повертає ітератор на перший елемент
+-   [Iterator::rewind()](iterator.rewind.md) – Повертає ітератор на перший елемент

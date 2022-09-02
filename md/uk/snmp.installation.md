@@ -1,9 +1,9 @@
 ---
 navigation:
-  - snmp.requirements.html: « Вимоги
-  - snmp.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - snmp.setup.html: Встановлення та налаштування
+  - snmp.requirements.md: « Вимоги
+  - snmp.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - snmp.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

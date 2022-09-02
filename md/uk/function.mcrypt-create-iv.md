@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.mcrypt.html: « Mcrypt
-  - function.mcrypt-decrypt.html: mcryptdecrypt »
-  - index.html: PHP Manual
-  - ref.mcrypt.html: Mcrypt
+  - ref.mcrypt.md: « Mcrypt
+  - function.mcrypt-decrypt.md: mcryptdecrypt »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
 title: mcryptcreateверб
 ---
 # mcryptcreateверб
@@ -18,7 +18,7 @@ mcryptcreateiv — Створити вектор, що ініціалізує (I
 
 Є такі альтернативи:
 
--   [randombytes()](function.random-bytes.html)
+-   [randombytes()](function.random-bytes.md)
 
 ### Опис
 
@@ -64,4 +64,4 @@ IV призначений лише завдання альтернативног
 -   [» http://www.ciphersbyritter.com/GLOSSARY.HTM#IV](http://www.ciphersbyritter.com/GLOSSARY.HTM#IV)
 -   [» http://www.quadibloc.com/crypto/co0409.htm](http://www.quadibloc.com/crypto/co0409.htm)
 -   Applied Cryptography by Schneier (ISBN 0-471-11709-9), розділ 9.3
--   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти

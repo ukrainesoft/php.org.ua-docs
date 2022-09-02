@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.task.html: '« SwooleServer::task'
-  - swoole-server.taskwaitmulti.html: 'SwooleServer::taskWaitMulti »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - swoole-server.task.md: '« SwooleServer::task'
+  - swoole-server.taskwaitmulti.md: 'SwooleServer::taskWaitMulti »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::taskwait'
 ---
 # SwooleServer::taskwait

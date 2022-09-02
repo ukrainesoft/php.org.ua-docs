@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-mysql.construct.html: '« SwooleMySQL::construct'
-  - swoole-mysql.getbuffer.html: 'SwooleMySQL::getBuffer »'
-  - index.html: PHP Manual
-  - class.swoole-mysql.html: SwooleMySQL
+  - swoole-mysql.construct.md: '« SwooleMySQL::construct'
+  - swoole-mysql.getbuffer.md: 'SwooleMySQL::getBuffer »'
+  - index.md: PHP Manual
+  - class.swoole-mysql.md: SwooleMySQL
 title: 'SwooleMySQL::destruct'
 ---
 # SwooleMySQL::destruct

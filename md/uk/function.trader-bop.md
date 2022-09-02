@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-beta.html: « traderbeta
-  - function.trader-cci.html: tradercci »
+  - function.trader-beta.md: « traderbeta
+  - function.trader-cci.md: tradercci »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderbop

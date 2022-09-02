@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-ccl-conf.html: « yazcclconf
-  - function.yaz-close.html: yazclose »
+  - function.yaz-ccl-conf.md: « yazcclconf
+  - function.yaz-close.md: yazclose »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazcclparse

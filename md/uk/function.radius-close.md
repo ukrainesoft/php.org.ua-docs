@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-auth-open.html: « radiusauthopen
-  - function.radius-config.html: radiusconfig »
+  - function.radius-auth-open.md: « radiusauthopen
+  - function.radius-config.md: radiusconfig »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiusclose

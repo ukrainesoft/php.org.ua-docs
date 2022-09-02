@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-enc-get-key-size.html: « mcryptencgetkeysize
-  - function.mcrypt-enc-get-supported-key-sizes.html: mcryptencgetsupportedkeysizes »
+  - function.mcrypt-enc-get-key-size.md: « mcryptencgetkeysize
+  - function.mcrypt-enc-get-supported-key-sizes.md: mcryptencgetsupportedkeysizes »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptencgetmodesname

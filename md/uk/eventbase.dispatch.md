@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbase.construct.html: '« EventBase::construct'
-  - eventbase.exit.html: 'EventBase::exit »'
-  - index.html: PHP Manual
-  - class.eventbase.html: EventBase
+  - eventbase.construct.md: '« EventBase::construct'
+  - eventbase.exit.md: 'EventBase::exit »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
 title: 'EventBase::dispatch'
 ---
 # EventBase::dispatch
@@ -19,11 +19,11 @@ public
    EventBase::dispatch(): void
 ```
 
-Очікує, доки події стануть активними, і запускає їх callback-функції. Так само як [EventBase::loop()](eventbase.loop.html) без встановлених прапорів.
+Очікує, доки події стануть активними, і запускає їх callback-функції. Так само як [EventBase::loop()](eventbase.loop.md) без встановлених прапорів.
 
 **Увага**
 
-*НЕ* руйнуйте об'єкт [EventBase](class.eventbase.html) доки не звільнені пов'язані з `Event` ресурси. В іншому випадку це призведе до непередбачуваних результатів!
+*НЕ* руйнуйте об'єкт [EventBase](class.eventbase.md) доки не звільнені пов'язані з `Event` ресурси. В іншому випадку це призведе до непередбачуваних результатів!
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ public
 
 ### Дивіться також
 
--   [EventBase::loop()](eventbase.loop.html) - Відправлення очікуваних подій
+-   [EventBase::loop()](eventbase.loop.md) - Відправлення очікуваних подій

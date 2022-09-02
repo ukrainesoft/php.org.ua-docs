@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-undelete.html: « imapundelete
-  - function.imap-utf7-decode.html: imaputf7decode »
+  - function.imap-undelete.md: « imapundelete
+  - function.imap-utf7-decode.md: imaputf7decode »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapunsubscribe
@@ -32,7 +32,7 @@ imap_unsubscribe(IMAP\Connection $imap, string $mailbox): bool
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 

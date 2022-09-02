@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-infinite.html: « isinfinite
-  - function.lcg-value.html: lcgvalue »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.is-infinite.md: « isinfinite
+  - function.lcg-value.md: lcgvalue »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: ісnan
 ---
 # ісnan
@@ -53,5 +53,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ісfinite()](function.is-finite.html) - Перевіряє, чи є значення допустимим кінцевим числом
--   [ісinfinite()](function.is-infinite.html) - Перевіряє, чи є значення нескінченним
+-   [ісfinite()](function.is-finite.md) - Перевіряє, чи є значення допустимим кінцевим числом
+-   [ісinfinite()](function.is-infinite.md) - Перевіряє, чи є значення нескінченним

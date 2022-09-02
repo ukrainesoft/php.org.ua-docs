@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-close.html: « ociclose
-  - function.oci-connect.html: ociconnect »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-close.md: « ociclose
+  - function.oci-connect.md: ociconnect »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocicommit
 ---
 # ocicommit
@@ -20,7 +20,7 @@ oci_commit(resource $connection): bool
 
 Підтверджує транзакцію з'єднання `connection`. Підтвердження завершує поточну транзакцію та робить усі зміни постійними. Вона також звільняє всі блокування.
 
-Транзакція починається при першому SQL-запиті, який змінює дані, який був запущений за допомогою функції [ociexecute()](function.oci-execute.html) та прапор **`OCI_NO_AUTO_COMMIT`**. Наступні зміни даних від інших запитів також стають частиною цієї транзакції. Зміни, зроблені в транзакції, є тимчасовими доти, доки транзакція не буде зафіксована або поки не буде здійснено її відкат. Інші користувачі бази даних не зможуть побачити зміни до їх підтвердження.
+Транзакція починається при першому SQL-запиті, який змінює дані, який був запущений за допомогою функції [ociexecute()](function.oci-execute.md) та прапор **`OCI_NO_AUTO_COMMIT`**. Наступні зміни даних від інших запитів також стають частиною цієї транзакції. Зміни, зроблені в транзакції, є тимчасовими доти, доки транзакція не буде зафіксована або поки не буде здійснено її відкат. Інші користувачі бази даних не зможуть побачити зміни до їх підтвердження.
 
 При вставці або оновленні даних рекомендується використовувати транзакції для збереження цілісності даних та збільшення продуктивності.
 
@@ -28,7 +28,7 @@ oci_commit(resource $connection): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md) або [ocinewconnect()](function.oci-new-connect.md)
 
 ### Значення, що повертаються
 
@@ -79,11 +79,11 @@ if (!$r) {
 > 
 > Транзакції будуть автоматично відкачені під час закриття з'єднання або закінчення скрипту (залежно від того, що станеться раніше). Для підтвердження транзакції необхідно явно викликати функцію **ocicommit()**
 > 
-> Усі виклики [ociexecute()](function.oci-execute.html), явно або за замовчуванням, що використовують режим **`OCI_COMMIT_ON_SUCCESS`** зафіксують будь-яку попередню незафіксовану транзакцію.
+> Усі виклики [ociexecute()](function.oci-execute.md), явно або за замовчуванням, що використовують режим **`OCI_COMMIT_ON_SUCCESS`** зафіксують будь-яку попередню незафіксовану транзакцію.
 > 
 > Будь-який DDL-запит Oracle, такий як `CREATE` або `DROP` автоматично підтверджує будь-яку незавершену транзакцію.
 
 ### Дивіться також
 
--   [ociexecute()](function.oci-execute.html) - Виконує підготовлений вираз
--   [ocirollback()](function.oci-rollback.html) - Відкочує транзакції, що очікують на обробку
+-   [ociexecute()](function.oci-execute.md) - Виконує підготовлений вираз
+-   [ocirollback()](function.oci-rollback.md) - Відкочує транзакції, що очікують на обробку

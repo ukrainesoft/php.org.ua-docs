@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-broker-dict-exists.html: « enchantbrokerdictexists
-  - function.enchant-broker-free.html: enchantbrokerfree »
+  - function.enchant-broker-dict-exists.md: « enchantbrokerdictexists
+  - function.enchant-broker-free.md: enchantbrokerfree »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantbrokerfreedict
@@ -28,7 +28,7 @@ enchant_broker_free_dict(EnchantDictionary $dictionary): bool
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 ### Значення, що повертаються
 

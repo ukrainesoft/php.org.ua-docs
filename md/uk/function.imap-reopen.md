@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-renamemailbox.html: « imaprenamemailbox
-  - function.imap-rfc822-parse-adrlist.html: imaprfc822parseadrlist »
+  - function.imap-renamemailbox.md: « imaprenamemailbox
+  - function.imap-rfc822-parse-adrlist.md: imaprfc822parseadrlist »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapreopen
@@ -32,7 +32,7 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `flags`
 
@@ -42,7 +42,7 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 -   **`OP_ANONYMOUS`** - не використовувати та не оновлювати .newsrc для новин (тільки NNTP)
 -   **`OP_HALFOPEN`** - відкрити з'єднання, але не підключатися до поштової скриньки для IMAP і NNTP.
 -   **`OP_EXPUNGE`** - мовчки виконати видалення позначених для видалення повідомлень у потоці
--   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.html) і [imapexpunge()](function.imap-expunge.md)
+-   **`CL_EXPUNGE`** - автоматично видаляти всі позначені для видалення повідомлення під час закриття поштової скриньки (див. [imapdelete()](function.imap-delete.md) і [imapexpunge()](function.imap-expunge.md)
 
 `retries`
 

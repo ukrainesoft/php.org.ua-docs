@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqsocket.recv.html: '« ZMQSocket::recv'
-  - zmqsocket.send.html: 'ZMQSocket::send »'
-  - index.html: PHP Manual
-  - class.zmqsocket.html: ZMQSocket
+  - zmqsocket.recv.md: '« ZMQSocket::recv'
+  - zmqsocket.send.md: 'ZMQSocket::send »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::recvMulti'
 ---
 # ZMQSocket::recvMulti

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.close.html: '« SQLite3::close'
-  - sqlite3.createaggregate.html: 'SQLite3::createAggregate »'
-  - index.html: PHP Manual
-  - class.sqlite3.html: SQLite3
+  - sqlite3.close.md: '« SQLite3::close'
+  - sqlite3.createaggregate.md: 'SQLite3::createAggregate »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
 title: 'SQLite3::construct'
 ---
 # SQLite3::construct
@@ -41,7 +41,7 @@ public **SQLite3::construct**(string `$filename`, int `$flags` = SQLITE3OPENREAD
 
 ### Помилки
 
-Викидає виняток [Exception](class.exception.html) у разі виникнення помилки.
+Викидає виняток [Exception](class.exception.md) у разі виникнення помилки.
 
 ### список змін
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-delete.html: « imapdelete
-  - function.imap-errors.html: imaperrors »
+  - function.imap-delete.md: « imapdelete
+  - function.imap-errors.md: imaperrors »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapdeletemailbox
@@ -32,7 +32,7 @@ imap_deletemailbox(IMAP\Connection $imap, string $mailbox): bool
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 

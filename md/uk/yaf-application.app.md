@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-application.html: « YafApplication
-  - yaf-application.bootstrap.html: 'YafApplication::bootstrap »'
-  - index.html: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - class.yaf-application.md: « YafApplication
+  - yaf-application.bootstrap.md: 'YafApplication::bootstrap »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::app'
 ---
 # YafApplication::app
@@ -18,7 +18,7 @@ YafApplication::app — Вийняти екземпляр програми
 public staticYaf_Application::app(): mixed
 ```
 
-Витягує екземпляр класу [YafApplication](class.yaf-application.html). Також для цього ви можете використати [YafDispatcher::getApplication()](yaf-dispatcher.getapplication.html)
+Витягує екземпляр класу [YafApplication](class.yaf-application.md). Також для цього ви можете використати [YafDispatcher::getApplication()](yaf-dispatcher.getapplication.md)
 
 ### Список параметрів
 
@@ -30,4 +30,4 @@ public staticYaf_Application::app(): mixed
 
 ### Дивіться також
 
--   [YafDispatcher::getApplication()](yaf-dispatcher.getapplication.html) - Отримує додаток
+-   [YafDispatcher::getApplication()](yaf-dispatcher.getapplication.md) - Отримує додаток

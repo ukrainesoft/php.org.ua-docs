@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-set-info.html: «pssetinfo
-  - function.ps-set-text-pos.html: псsettextpos »
+  - function.ps-set-info.md: «pssetinfo
+  - function.ps-set-text-pos.md: псsettextpos »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetparameter

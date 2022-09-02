@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-rewrite.route.html: '« YafRouteRewrite::route'
-  - yaf-router.addconfig.html: 'YafRouter::addConfig »'
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf-route-rewrite.route.md: '« YafRouteRewrite::route'
+  - yaf-router.addconfig.md: 'YafRouter::addConfig »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafRouter
 ---
 # Клас YafRouter
@@ -12,7 +12,7 @@ title: Клас YafRouter
 
 ## Вступ
 
-**YafRouter** – це стандартний каркасний маршрутизатор. Маршрутизація - це процес отримання кінцевої точки URI (тої частини URI, яка йде після базового URI: дивіться [YafRequestAbstract::setBaseUri()](yaf-request-abstract.setbaseuri.html)) та розкладання її на параметри, щоб визначити, який модуль, контролер та дія повинні отримати запит. Ці значення модуля, контролера, дії та інших параметрів упаковані в об'єкт [YafRequestAbstract](class.yaf-request-abstract.html), який потім обробляється [YafDispatcher](class.yaf-dispatcher.html). Маршрутизація відбувається лише один раз: при початковому отриманні запиту та до відправлення першого контролера . **YafRouter** призначений для забезпечення функціональності, подібної до modrewrite, з використанням чистих структур PHP. Він базується на маршрутизації Ruby on Rails і не вимагає будь-яких попередніх знань про перезапис URL веб-сервера. Він призначений для роботи з одним правилом Apache modrewrite (одним з):
+**YafRouter** – це стандартний каркасний маршрутизатор. Маршрутизація - це процес отримання кінцевої точки URI (тої частини URI, яка йде після базового URI: дивіться [YafRequestAbstract::setBaseUri()](yaf-request-abstract.setbaseuri.md)) та розкладання її на параметри, щоб визначити, який модуль, контролер та дія повинні отримати запит. Ці значення модуля, контролера, дії та інших параметрів упаковані в об'єкт [YafRequestAbstract](class.yaf-request-abstract.md), який потім обробляється [YafDispatcher](class.yaf-dispatcher.md). Маршрутизація відбувається лише один раз: при початковому отриманні запиту та до відправлення першого контролера . **YafRouter** призначений для забезпечення функціональності, подібної до modrewrite, з використанням чистих структур PHP. Він базується на маршрутизації Ruby on Rails і не вимагає будь-яких попередніх знань про перезапис URL веб-сервера. Він призначений для роботи з одним правилом Apache modrewrite (одним з):
 
 **Приклад #1 Правило перезапису Apache**
 
@@ -40,7 +40,7 @@ if (!-e $requestfilename) { rewrite ^/(.) /index.php/$1 last; } }
 
 ## Маршрут за замовчуванням
 
-**YafRouter** поставляється з попередньо налаштованим маршрутом за умовчанням [YafRouteStatic](class.yaf-route-static.html), який буде відповідати URI у формі контролера/дії. Крім того, ім'я модуля може бути зазначено як перший елемент шляху, що дозволяє використовувати URI форми модуля/контролера/дії. Нарешті, він також буде відповідати будь-яким додатковим параметрам, які додаються до URI за замовчуванням - controller /action/var1/value1/var2/value2.
+**YafRouter** поставляється з попередньо налаштованим маршрутом за умовчанням [YafRouteStatic](class.yaf-route-static.md), який буде відповідати URI у формі контролера/дії. Крім того, ім'я модуля може бути зазначено як перший елемент шляху, що дозволяє використовувати URI форми модуля/контролера/дії. Нарешті, він також буде відповідати будь-яким додатковим параметрам, які додаються до URI за замовчуванням - controller /action/var1/value1/var2/value2.
 
 > **Зауваження**
 > 
@@ -48,7 +48,7 @@ if (!-e $requestfilename) { rewrite ^/(.) /index.php/$1 last; } }
 
 Деякі приклади відповідності таких маршрутів:
 
-**Приклад #5 Приклад використання [YafRouteStatic](class.yaf-route-static.html)(маршрут за замовчуванням)**
+**Приклад #5 Приклад використання [YafRouteStatic](class.yaf-route-static.md)(маршрут за замовчуванням)**
 
 // Припускаючи наступне налаштування: $conf = array( "application" => array( "modules" => "Index,Blog", ), );
 
@@ -106,14 +106,14 @@ routes
 
 current
 
-після фази маршрутизації вказується назва, який маршрут використовується для маршрутизації поточного запиту. Ви можете отримати його ім'я за допомогою [YafRouter::getCurrentRoute()](yaf-router.getcurrentroute.html)
+після фази маршрутизації вказується назва, який маршрут використовується для маршрутизації поточного запиту. Ви можете отримати його ім'я за допомогою [YafRouter::getCurrentRoute()](yaf-router.getcurrentroute.md)
 
 ## Зміст
 
--   [YafRouter::addConfig](yaf-router.addconfig.html) — Додає настроєні маршрути до маршрутизатора
--   [YafRouter::addRoute](yaf-router.addroute.html) — Додає новий маршрут до маршрутизатора
--   [YafRouter::construct](yaf-router.construct.html) - Конструктор класу YafRouter
--   [YafRouter::getCurrentRoute](yaf-router.getcurrentroute.html) — Отримує ім'я діючого маршруту
--   [YafRouter::getRoute](yaf-router.getroute.html) — Отримує маршрут на ім'я
--   [YafRouter::getRoutes](yaf-router.getroutes.html) — Отримує зареєстровані маршрути
--   [YafRouter::route](yaf-router.route.html) - Призначення route
+-   [YafRouter::addConfig](yaf-router.addconfig.md) — Додає настроєні маршрути до маршрутизатора
+-   [YafRouter::addRoute](yaf-router.addroute.md) — Додає новий маршрут до маршрутизатора
+-   [YafRouter::construct](yaf-router.construct.md) - Конструктор класу YafRouter
+-   [YafRouter::getCurrentRoute](yaf-router.getcurrentroute.md) — Отримує ім'я діючого маршруту
+-   [YafRouter::getRoute](yaf-router.getroute.md) — Отримує маршрут на ім'я
+-   [YafRouter::getRoutes](yaf-router.getroutes.md) — Отримує зареєстровані маршрути
+-   [YafRouter::route](yaf-router.route.md) - Призначення route

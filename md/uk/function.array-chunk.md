@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-change-key-case.html: « arraychangekeycase
-  - function.array-column.html: arraycolumn »
+  - function.array-change-key-case.md: « arraychangekeycase
+  - function.array-column.md: arraycolumn »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraychunk

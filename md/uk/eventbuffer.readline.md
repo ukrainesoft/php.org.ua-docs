@@ -28,7 +28,7 @@ public
 
 `eol_style`
 
-Одна з [EventBuffer:EOLконстант](class.eventbuffer.html#eventbuffer.constants)
+Одна з [EventBuffer:EOLконстант](class.eventbuffer.md#eventbuffer.constants)
 
 ### Значення, що повертаються
 

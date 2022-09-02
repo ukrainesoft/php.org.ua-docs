@@ -1,16 +1,16 @@
 ---
 navigation:
-  - reflectionclass.getinterfaces.html: '« ReflectionClass::getInterfaces'
-  - reflectionclass.getmethods.html: 'ReflectionClass::getMethods »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.getinterfaces.md: '« ReflectionClass::getInterfaces'
+  - reflectionclass.getmethods.md: 'ReflectionClass::getMethods »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getMethod'
 ---
 # ReflectionClass::getMethod
 
 (PHP 5, PHP 7, PHP 8)
 
-ReflectionClass::getMethod — Повертає екземпляр [ReflectionMethod](class.reflectionmethod.html) для методу класу
+ReflectionClass::getMethod — Повертає екземпляр [ReflectionMethod](class.reflectionmethod.md) для методу класу
 
 ### Опис
 
@@ -18,7 +18,7 @@ ReflectionClass::getMethod — Повертає екземпляр [ReflectionMe
 public ReflectionClass::getMethod(string $name): ReflectionMethod
 ```
 
-Повертає екземпляр [ReflectionMethod](class.reflectionmethod.html) для методу класу
+Повертає екземпляр [ReflectionMethod](class.reflectionmethod.md) для методу класу
 
 ### Список параметрів
 
@@ -28,11 +28,11 @@ public ReflectionClass::getMethod(string $name): ReflectionMethod
 
 ### Значення, що повертаються
 
-Екземпляр класу [ReflectionMethod](class.reflectionmethod.html)
+Екземпляр класу [ReflectionMethod](class.reflectionmethod.md)
 
 ### Помилки
 
-[ReflectionException](class.reflectionexception.html) якщо метод не існує.
+[ReflectionException](class.reflectionexception.md) якщо метод не існує.
 
 ### Приклади
 
@@ -59,4 +59,4 @@ object(ReflectionMethod)#2 (2) {
 
 ### Дивіться також
 
--   [ReflectionClass::getMethods()](reflectionclass.getmethods.html) - Повертає список методів у вигляді масиву
+-   [ReflectionClass::getMethods()](reflectionclass.getmethods.md) - Повертає список методів у вигляді масиву

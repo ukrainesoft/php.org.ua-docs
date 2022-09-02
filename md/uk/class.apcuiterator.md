@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.apcu-store.html: « apcustore
+  - function.apcu-store.md: « apcustore
   - apcuiterator.construct.md: 'APCUIterator::construct »'
   - index.md: PHP Manual
   - book.apcu.md: APCu

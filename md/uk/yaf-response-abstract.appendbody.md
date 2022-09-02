@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-response-abstract.html: « YafResponseAbstract
-  - yaf-response-abstract.clearbody.html: 'YafResponseAbstract::clearBody »'
-  - index.html: PHP Manual
-  - class.yaf-response-abstract.html: YafResponseAbstract
+  - class.yaf-response-abstract.md: « YafResponseAbstract
+  - yaf-response-abstract.clearbody.md: 'YafResponseAbstract::clearBody »'
+  - index.md: PHP Manual
+  - class.yaf-response-abstract.md: YafResponseAbstract
 title: 'YafResponseAbstract::appendBody'
 ---
 # YafResponseAbstract::appendBody
@@ -60,8 +60,8 @@ echo $response;
 
 ### Дивіться також
 
--   [YafConfigIni](class.yaf-config-ini.html)
--   [YafResponseAbstract::getBody()](yaf-response-abstract.getbody.html) - Отримує наявний вміст
--   [YafResponseAbstract::setBody()](yaf-response-abstract.setbody.html) - Встановлює вміст відповіді
--   [YafResponseAbstract::prependBody()](yaf-response-abstract.prependbody.html) - Призначення prependBody
--   [YafResponseAbstract::clearBody()](yaf-response-abstract.clearbody.html) - скидає все існуюче тіло відповіді
+-   [YafConfigIni](class.yaf-config-ini.md)
+-   [YafResponseAbstract::getBody()](yaf-response-abstract.getbody.md) - Отримує наявний вміст
+-   [YafResponseAbstract::setBody()](yaf-response-abstract.setbody.md) - Встановлює вміст відповіді
+-   [YafResponseAbstract::prependBody()](yaf-response-abstract.prependbody.md) - Призначення prependBody
+-   [YafResponseAbstract::clearBody()](yaf-response-abstract.clearbody.md) - скидає все існуюче тіло відповіді

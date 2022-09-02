@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf.resources.html: « Типи ресурсів
-  - yaf.tutorials.html: Приклади »
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf.resources.md: « Типи ресурсів
+  - yaf.tutorials.md: Приклади »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Обумовлені константи
 ---
 # Обумовлені константи

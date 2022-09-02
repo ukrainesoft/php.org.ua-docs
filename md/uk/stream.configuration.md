@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stream.installation.html: « Установка
-  - stream.resources.html: Класи для роботи з потоками »
-  - index.html: PHP Manual
-  - stream.setup.html: Встановлення та налаштування
+  - stream.installation.md: « Установка
+  - stream.resources.md: Класи для роботи з потоками »
+  - index.md: PHP Manual
+  - stream.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

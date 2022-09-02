@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeerror.getmessage.html: '« MongoDBDriverWriteError::getMessage'
-  - mongodb-driver-writeresult.getdeletedcount.html: 'MongoDBDriverWriteResult::getDeletedCount »'
-  - index.html: PHP Manual
-  - book.mongodb.html: MongoDBDriver
+  - mongodb-driver-writeerror.getmessage.md: '« MongoDBDriverWriteError::getMessage'
+  - mongodb-driver-writeresult.getdeletedcount.md: 'MongoDBDriverWriteResult::getDeletedCount »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverWriteResult
 ---
 # Клас MongoDBDriverWriteResult
@@ -12,7 +12,7 @@ title: Клас MongoDBDriverWriteResult
 
 ## Вступ
 
-Клас **MongoDBDriverWriteResult** інкапсулює інформацію про виконане [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html) і може бути повернутий [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
+Клас **MongoDBDriverWriteResult** інкапсулює інформацію про виконане [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md) і може бути повернутий [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
 
 ## Огляд класів
 

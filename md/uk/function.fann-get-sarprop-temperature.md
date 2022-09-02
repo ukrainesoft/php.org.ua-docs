@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-sarprop-step-error-threshold-factor.html: « fanngetsarpropsteperrorthresholdfactor
-  - function.fann-get-sarprop-weight-decay-shift.html: fanngetsarpropweightdecayshift »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-sarprop-step-error-threshold-factor.md: « fanngetsarpropsteperrorthresholdfactor
+  - function.fann-get-sarprop-weight-decay-shift.md: fanngetsarpropweightdecayshift »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetsarproptemperature
 ---
 # fanngetsarproptemperature
@@ -40,4 +40,4 @@ fann_get_sarprop_temperature(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetsarproptemperature()](function.fann-set-sarprop-temperature.html) - Встановлює температуру sarprop
+-   [fannsetsarproptemperature()](function.fann-set-sarprop-temperature.md) - Встановлює температуру sarprop

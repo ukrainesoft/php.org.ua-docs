@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-cascadetrain-on-data.html: « fanncascadetrainвінdata
-  - function.fann-clear-scaling-params.html: fannclearscalingparams »
+  - function.fann-cascadetrain-on-data.md: « fanncascadetrainвінdata
+  - function.fann-clear-scaling-params.md: fannclearscalingparams »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanncascadetrainвінfile
@@ -40,7 +40,7 @@ fann_cascadetrain_on_file(    resource $ann,    string $filename,   �
 
 `desired_error`
 
-Вибрані [fanngetMSE()](function.fann-get-mse.html) або [fanngetbitfail()](function.fann-get-bit-fail.html), в залежності від обраної за допомогою [fannsettrainstopfunction()](function.fann-set-train-stop-function.md) функції зупинки.
+Вибрані [fanngetMSE()](function.fann-get-mse.md) або [fanngetbitfail()](function.fann-get-bit-fail.md), в залежності від обраної за допомогою [fannsettrainstopfunction()](function.fann-set-train-stop-function.md) функції зупинки.
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-rmdir.html: « ftprmdir
-  - function.ftp-site.html: ftpsite »
+  - function.ftp-rmdir.md: « ftprmdir
+  - function.ftp-site.md: ftpsite »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpsetoption

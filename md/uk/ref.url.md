@@ -1,7 +1,7 @@
 ---
 navigation:
   - url.constants.md: « Обумовлені константи
-  - function.base64-decode.html: base64decode »
+  - function.base64-decode.md: base64decode »
   - index.md: PHP Manual
   - book.url.md: URL
 title: Функції URL

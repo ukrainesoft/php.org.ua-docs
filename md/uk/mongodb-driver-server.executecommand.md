@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.executebulkwrite.html: '« MongoDBDriverServer::executeBulkWrite'
-  - mongodb-driver-server.executequery.html: 'MongoDBDriverServer::executeQuery »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - mongodb-driver-server.executebulkwrite.md: '« MongoDBDriverServer::executeBulkWrite'
+  - mongodb-driver-server.executequery.md: 'MongoDBDriverServer::executeQuery »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::executeCommand'
 ---
 # MongoDBDriverServer::executeCommand
@@ -20,7 +20,7 @@ final public MongoDB\Driver\Server::executeCommand(string $db, MongoDB\Driver\Co
 
 Виконує команду на сервері.
 
-Цей метод не застосовує особливої ​​логіки до команди. Хоча цей метод приймає `"readConcern"` і `"writeConcern"`, які будуть включені в документи коанди, ці опції не будуть відповідати значенням за замовчуванням [MongoDB URI соединения](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-uri) , і не враховуватиметься версія сервера MongoDB. Тому користувачам рекомендується використовувати конкретні методи команди читання та/або запису, якщо це можливо.
+Цей метод не застосовує особливої ​​логіки до команди. Хоча цей метод приймає `"readConcern"` і `"writeConcern"`, які будуть включені в документи коанди, ці опції не будуть відповідати значенням за замовчуванням [MongoDB URI соединения](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri) , і не враховуватиметься версія сервера MongoDB. Тому користувачам рекомендується використовувати конкретні методи команди читання та/або запису, якщо це можливо.
 
 > **Зауваження**: Опція `"readPreference"` не контролює сервер, якого драйвер виконує операцію; вона завжди виконуватиметься на цьому об'єкті сервера. Замість цього він може бути використаний при виконанні операції на другому вузлі (з набору реплік, не автономний) або на вузлі mongos для забезпечення того, що драйвер встановлює дротовий протокол відповідним чином або додає перевагу читання до операції відповідно.
 
@@ -59,7 +59,7 @@ final public MongoDB\Driver\Server::executeCommand(string $db, MongoDB\Driver\Co
 
 **Увага**
 
-При використанні `"session"` та наявності незавершених транзакцій, ви не можете вказати `"readConcern"` ор `"writeConcern"` option. Це призведе до викидання винятків [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html). Натомість ви повинні встановити ці дві опції при створенні транзакції за допомогою [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.md)
+При використанні `"session"` та наявності незавершених транзакцій, ви не можете вказати `"readConcern"` ор `"writeConcern"` option. Це призведе до викидання винятків [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). Натомість ви повинні встановити ці дві опції при створенні транзакції за допомогою [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.md)
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-demangle-mppe-key.html: « radiusdemanglemppekey
-  - function.radius-get-attr.html: radiusgetattr »
+  - function.radius-demangle-mppe-key.md: « radiusdemanglemppekey
+  - function.radius-get-attr.md: radiusgetattr »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiusdemangle

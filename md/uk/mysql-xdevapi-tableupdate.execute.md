@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableupdate.construct.html: '« TableUpdate::construct'
-  - mysql-xdevapi-tableupdate.limit.html: 'TableUpdate::limit »'
+  - mysql-xdevapi-tableupdate.construct.md: '« TableUpdate::construct'
+  - mysql-xdevapi-tableupdate.limit.md: 'TableUpdate::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableupdate.html: mysqlxdevapiTableUpdate
+  - class.mysql-xdevapi-tableupdate.md: mysqlxdevapiTableUpdate
 title: 'TableUpdate::execute'
 ---
 # TableUpdate::execute

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - example.xmlwriter-simple.html: « Створення простого XML-документу
-  - example.xmlwriter-oop.html: Робота з об'єктно-орієнтованим API »
-  - index.html: PHP Manual
-  - xmlwriter.examples.html: Приклади
+  - example.xmlwriter-simple.md: « Створення простого XML-документу
+  - example.xmlwriter-oop.md: Робота з об'єктно-орієнтованим API »
+  - index.md: PHP Manual
+  - xmlwriter.examples.md: Приклади
 title: Робота з просторами імен XML
 ---
 ## Робота з просторами імен XML

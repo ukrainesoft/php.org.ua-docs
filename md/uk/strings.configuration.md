@@ -1,9 +1,9 @@
 ---
 navigation:
-  - strings.installation.html: « Установка
-  - strings.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - strings.setup.html: Встановлення та налаштування
+  - strings.installation.md: « Установка
+  - strings.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - strings.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

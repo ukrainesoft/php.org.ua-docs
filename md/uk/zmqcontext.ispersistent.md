@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqcontext.getsocket.html: '« ZMQContext::getSocket'
-  - zmqcontext.setopt.html: 'ZMQContext::setOpt »'
-  - index.html: PHP Manual
-  - class.zmqcontext.html: ZMQContext
+  - zmqcontext.getsocket.md: '« ZMQContext::getSocket'
+  - zmqcontext.setopt.md: 'ZMQContext::setOpt »'
+  - index.md: PHP Manual
+  - class.zmqcontext.md: ZMQContext
 title: 'ZMQContext::isPersistent'
 ---
 # ZMQContext::isPersistent

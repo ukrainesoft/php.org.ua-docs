@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.session.md: « Функції для роботи з сесіями
-  - function.session-cache-expire.html: sessioncacheexpire »
+  - function.session-cache-expire.md: sessioncacheexpire »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessionabort
@@ -37,7 +37,7 @@ session_abort(): bool
 ### Дивіться також
 
 -   [SESSION](reserved.variables.session.md)
--   Директива конфігурації [session.autostart](session.configuration.html#ini.session.auto-start)
+-   Директива конфігурації [session.autostart](session.configuration.md#ini.session.auto-start)
 -   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
 -   [sessionreset()](function.session-reset.md) - реініціалізує сесію оригінальними значеннями
 -   [sessioncommit()](function.session-commit.md) - Псевдонім sessionwriteclose

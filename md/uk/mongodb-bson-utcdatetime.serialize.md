@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetime.jsonserialize.html: '« MongoDBBSONUTCDateTime::jsonSerialize'
-  - mongodb-bson-utcdatetime.todatetime.html: 'MongoDBBSONUTCDateTime::toDateTime »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+  - mongodb-bson-utcdatetime.jsonserialize.md: '« MongoDBBSONUTCDateTime::jsonSerialize'
+  - mongodb-bson-utcdatetime.todatetime.md: 'MongoDBBSONUTCDateTime::toDateTime »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-utcdatetime.md: MongoDBBSONUTCDateTime
 title: 'MongoDBBSONUTCDateTime::serialize'
 ---
 # MongoDBBSONUTCDateTime::serialize
@@ -24,14 +24,14 @@ final public MongoDB\BSON\UTCDateTime::serialize(): string
 
 ### Значення, що повертаються
 
-Повертає серіалізовану виставу [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.html)
+Повертає серіалізовану виставу [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBBSONUTCDateTime::unserialize()](mongodb-bson-utcdatetime.unserialize.html) - Десеріалізує UTCDateTime
--   [serialize()](function.serialize.html) - Генерує придатне для зберігання подання змінної
--   [Серіалізація об'єктів](language.oop5.serialization.html)
+-   [MongoDBBSONUTCDateTime::unserialize()](mongodb-bson-utcdatetime.unserialize.md) - Десеріалізує UTCDateTime
+-   [serialize()](function.serialize.md) - Генерує придатне для зберігання подання змінної
+-   [Серіалізація об'єктів](language.oop5.serialization.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.geterrno.html: '« GearmanWorker::getErrno'
-  - gearmanworker.register.html: 'GearmanWorker::register »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.geterrno.md: '« GearmanWorker::getErrno'
+  - gearmanworker.register.md: 'GearmanWorker::register »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::options'
 ---
 # GearmanWorker::options
@@ -30,4 +30,4 @@ public GearmanWorker::options(): int
 
 ### Дивіться також
 
--   [GearmanWorker::setOptions()](gearmanworker.setoptions.html) - Встановлення налаштувань обробника
+-   [GearmanWorker::setOptions()](gearmanworker.setoptions.md) - Встановлення налаштувань обробника

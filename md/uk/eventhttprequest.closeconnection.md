@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttprequest.clearheaders.html: '« EventHttpRequest::clearHeaders'
-  - eventhttprequest.construct.html: 'EventHttpRequest::construct »'
-  - index.html: PHP Manual
-  - class.eventhttprequest.html: EventHttpRequest
+  - eventhttprequest.clearheaders.md: '« EventHttpRequest::clearHeaders'
+  - eventhttprequest.construct.md: 'EventHttpRequest::construct »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::closeConnection'
 ---
 # EventHttpRequest::closeConnection

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-fingerprint.html: « ssh2fingerprint
-  - function.ssh2-forward-listen.html: ssh2forwardlisten »
+  - function.ssh2-fingerprint.md: « ssh2fingerprint
+  - function.ssh2-forward-listen.md: ssh2forwardlisten »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2forwardaccept

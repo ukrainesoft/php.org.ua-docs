@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagegd2.html: « imagegd2
-  - function.imagegetclip.html: imagegetclip »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagegd2.md: « imagegd2
+  - function.imagegetclip.md: imagegetclip »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegd
 ---
 # imagegd
@@ -24,7 +24,7 @@ imagegd(GdImage $image, ?string $file = null): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -43,7 +43,7 @@ imagegd(GdImage $image, ?string $file = null): bool
 | Версия | Описание |
 | --- | --- |
 |  | `file` тепер допускає значення null. |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 |  | Тепер **imagegd()** дозволяє зберігати зображення "truecolor". Раніше вони неявно перетворювалися на палітру. |
 
 ### Приклади
@@ -95,4 +95,4 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagegd2()](function.imagegd2.html) - Виведення GD2 зображення у браузер або файл
+-   [imagegd2()](function.imagegd2.md) - Виведення GD2 зображення у браузер або файл

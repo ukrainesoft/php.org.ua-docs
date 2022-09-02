@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.disablesslchecks.html: '« OAuth::disableSSLChecks'
-  - oauth.enableredirects.html: 'OAuth::enableRedirects »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.disablesslchecks.md: '« OAuth::disableSSLChecks'
+  - oauth.enableredirects.md: 'OAuth::enableRedirects »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::enableDebug'
 ---
 # OAuth::enableDebug

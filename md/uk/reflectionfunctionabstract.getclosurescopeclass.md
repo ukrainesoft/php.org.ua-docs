@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getattributes.html: '« ReflectionFunctionAbstract::getAttributes'
-  - reflectionfunctionabstract.getclosurethis.html: 'ReflectionFunctionAbstract::getClosureThis »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getattributes.md: '« ReflectionFunctionAbstract::getAttributes'
+  - reflectionfunctionabstract.getclosurethis.md: 'ReflectionFunctionAbstract::getClosureThis »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getClosureScopeClass'
 ---
 # ReflectionFunctionAbstract::getClosureScopeClass

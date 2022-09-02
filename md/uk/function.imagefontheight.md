@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imageflip.html: « imageflip
-  - function.imagefontwidth.html: imagefontwidth »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imageflip.md: « imageflip
+  - function.imagefontwidth.md: imagefontwidth »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagefontheight
 ---
 # imagefontheight
@@ -24,7 +24,7 @@ imagefontheight(GdFont|int $font): int
 
 `font`
 
-Може приймати значення 1, 2, 3, 4, 5 для вбудованих шрифтів у кодуванні latin2 (вища кількість відповідає більшому шрифту) або екземпляр [GdFont](class.gdfont.html), що повертається функцією [imageloadfont()](function.imageloadfont.html)
+Може приймати значення 1, 2, 3, 4, 5 для вбудованих шрифтів у кодуванні latin2 (вища кількість відповідає більшому шрифту) або екземпляр [GdFont](class.gdfont.md), що повертається функцією [imageloadfont()](function.imageloadfont.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ imagefontheight(GdFont|int $font): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.html), і ціле число (int); раніше приймалося лише ціле число (int). |
+|  | Параметр `font` тепер приймає як екземпляр [GdFont](class.gdfont.md), і ціле число (int); раніше приймалося лише ціле число (int). |
 
 ### Приклади
 
@@ -52,7 +52,7 @@ echo 'Font height: ' . imagefontheight(4);
 Font height: 16
 ```
 
-**Приклад #2 Використання **imagefontheight()** разом з [imageloadfont()](function.imageloadfont.html)**
+**Приклад #2 Використання **imagefontheight()** разом з [imageloadfont()](function.imageloadfont.md)**
 
 ```php
 <?php
@@ -71,5 +71,5 @@ Font height: 43
 
 ### Дивіться також
 
--   [imagefontwidth()](function.imagefontwidth.html) - Отримання ширини шрифту
--   [imageloadfont()](function.imageloadfont.html) - Завантаження шрифту
+-   [imagefontwidth()](function.imagefontwidth.md) - Отримання ширини шрифту
+-   [imageloadfont()](function.imageloadfont.md) - Завантаження шрифту

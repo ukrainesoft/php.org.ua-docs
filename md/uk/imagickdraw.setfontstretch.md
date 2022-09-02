@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setfontsize.html: '« ImagickDraw::setFontSize'
-  - imagickdraw.setfontstyle.html: 'ImagickDraw::setFontStyle »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setfontsize.md: '« ImagickDraw::setFontSize'
+  - imagickdraw.setfontstyle.md: 'ImagickDraw::setFontStyle »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setFontStretch'
 ---
 # ImagickDraw::setFontStretch
@@ -28,7 +28,7 @@ public ImagickDraw::setFontStretch(int $fontStretch): bool
 
 `fontStretch`
 
-Одна з констант [STRETCH](imagick.constants.html#imagick.constants.stretch) `imagick::STRETCH_*`
+Одна з констант [STRETCH](imagick.constants.md#imagick.constants.stretch) `imagick::STRETCH_*`
 
 ### Значення, що повертаються
 

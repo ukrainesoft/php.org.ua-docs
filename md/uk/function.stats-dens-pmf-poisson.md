@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-pmf-negative-binomial.html: « statsdenspmfnegativebinomial
-  - function.stats-dens-t.html: statsdenst »
+  - function.stats-dens-pmf-negative-binomial.md: « statsdenspmfnegativebinomial
+  - function.stats-dens-t.md: statsdenst »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdenspmfpoisson

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.continue.html: « continue
-  - control-structures.match.html: match »
+  - control-structures.continue.md: « continue
+  - control-structures.match.md: match »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: switch
 ---
 ## switch
@@ -16,7 +16,7 @@ title: switch
 
 > **Зауваження**
 > 
-> Зауважте, що конструкція switch/case використовує [нестрогое сравнение (==)](types.comparisons.html#types.comparisions-loose)
+> Зауважте, що конструкція switch/case використовує [нестрогое сравнение (==)](types.comparisons.md#types.comparisions-loose)
 
 У наступному прикладі кожен блок коду еквівалентний. В одному використовується серія операторів `if` і `elseif`, а в іншому - оператор `switch`. У кожному випадку результат той самий.
 

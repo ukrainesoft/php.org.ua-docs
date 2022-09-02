@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.bindec.html: « bindec
-  - function.cos.html: cos »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.bindec.md: « bindec
+  - function.cos.md: cos »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: ceil
 ---
 # ceil

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.setmethod.html: '« SwooleHttpClient::setMethod'
-  - class.swoole-http-request.html: SwooleHttpRequest »
+  - swoole-http-client.setmethod.md: '« SwooleHttpClient::setMethod'
+  - class.swoole-http-request.md: SwooleHttpRequest »
   - index.md: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::upgrade'
 ---
 # SwooleHttpClient::upgrade

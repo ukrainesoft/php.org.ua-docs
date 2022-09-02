@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-get-md-methods.html: « opensslgetмдmethods
-  - function.openssl-get-publickey.html: opensslgetpublickey »
+  - function.openssl-get-md-methods.md: « opensslgetмдmethods
+  - function.openssl-get-publickey.md: opensslgetpublickey »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslgetprivatekey

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-brush.setcolor.html: '« UIDrawBrush::setColor'
-  - ui-draw-brush-gradient.addstop.html: 'ОЙDrawBrushGradient::addStop »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-draw-brush.setcolor.md: '« UIDrawBrush::setColor'
+  - ui-draw-brush-gradient.addstop.md: 'ОЙDrawBrushGradient::addStop »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Градієнтні пензлі
 ---
 # Градієнтні пензлі

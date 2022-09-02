@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.jsonserialize.html: '« DsQueue::jsonSerialize'
-  - ds-queue.pop.html: 'ДсQueue::pop »'
+  - ds-queue.jsonserialize.md: '« DsQueue::jsonSerialize'
+  - ds-queue.pop.md: 'ДсQueue::pop »'
   - index.md: PHP Manual
-  - class.ds-queue.html: Черга
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::peek'
 ---
 # ДсQueue::peek

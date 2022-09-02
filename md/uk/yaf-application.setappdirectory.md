@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.run.html: '« YafApplication::run'
-  - class.yaf-bootstrap-abstract.html: YafBootstrapAbstract »
-  - index.html: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - yaf-application.run.md: '« YafApplication::run'
+  - class.yaf-bootstrap-abstract.md: YafBootstrapAbstract »
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::setAppDirectory'
 ---
 # YafApplication::setAppDirectory

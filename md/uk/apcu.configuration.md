@@ -22,19 +22,19 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [apc.enabled](apcu.configuration.html#ini.apcu.enabled) | "1" | PHPINISYSTEM |  |
-| [apc.shmsegments](apcu.configuration.html#ini.apcu.shm-segments) | "1" | PHPINISYSTEM |  |
-| [apc.shmsize](apcu.configuration.html#ini.apcu.shm-size) | "32M" | PHPINISYSTEM |  |
-| [apc.entrieshint](apcu.configuration.html#ini.apcu.entries-hint) | "4096" | PHPINISYSTEM |  |
-| [apc.ttl](apcu.configuration.html#ini.apcu.ttl) | "0" | PHPINISYSTEM |  |
-| [apc.gcttl](apcu.configuration.html#ini.apcu.gc-ttl) | "3600" | PHPINISYSTEM |  |
-| [apc.mmapfilemask](apcu.configuration.html#ini.apcu.mmap-file-mask) | NULL | PHPINISYSTEM |  |
-| [apc.slamdefense](apcu.configuration.html#ini.apcu.slam-defense) | "1" | PHPINISYSTEM |  |
-| [apc.enablecli](apcu.configuration.html#ini.apcu.enable-cli) | "0" | PHPINISYSTEM |  |
-| [apc.userequesttime](apcu.configuration.html#ini.apcu.use-request-time) | "0" | PHPINIALL | До APCu 5.1.19 значення за промовчанням було "1". |
-| [apc.serializer](apcu.configuration.html#ini.apcu.serializer) | "php" | PHPINISYSTEM | До APCu 5.1.19 значення за промовчанням було "default". |
-| [apc.coredumpunmap](apcu.configuration.html#ini.apcu.coredump-unmap) | "0" | PHPINISYSTEM |  |
-| [apc.preloadpath](apcu.configuration.html#ini.apcu.preload-path) | NULL | PHPINISYSTEM |  |
+| [apc.enabled](apcu.configuration.md#ini.apcu.enabled) | "1" | PHPINISYSTEM |  |
+| [apc.shmsegments](apcu.configuration.md#ini.apcu.shm-segments) | "1" | PHPINISYSTEM |  |
+| [apc.shmsize](apcu.configuration.md#ini.apcu.shm-size) | "32M" | PHPINISYSTEM |  |
+| [apc.entrieshint](apcu.configuration.md#ini.apcu.entries-hint) | "4096" | PHPINISYSTEM |  |
+| [apc.ttl](apcu.configuration.md#ini.apcu.ttl) | "0" | PHPINISYSTEM |  |
+| [apc.gcttl](apcu.configuration.md#ini.apcu.gc-ttl) | "3600" | PHPINISYSTEM |  |
+| [apc.mmapfilemask](apcu.configuration.md#ini.apcu.mmap-file-mask) | NULL | PHPINISYSTEM |  |
+| [apc.slamdefense](apcu.configuration.md#ini.apcu.slam-defense) | "1" | PHPINISYSTEM |  |
+| [apc.enablecli](apcu.configuration.md#ini.apcu.enable-cli) | "0" | PHPINISYSTEM |  |
+| [apc.userequesttime](apcu.configuration.md#ini.apcu.use-request-time) | "0" | PHPINIALL | До APCu 5.1.19 значення за промовчанням було "1". |
+| [apc.serializer](apcu.configuration.md#ini.apcu.serializer) | "php" | PHPINISYSTEM | До APCu 5.1.19 значення за промовчанням було "default". |
+| [apc.coredumpunmap](apcu.configuration.md#ini.apcu.coredump-unmap) | "0" | PHPINISYSTEM |  |
+| [apc.preloadpath](apcu.configuration.md#ini.apcu.preload-path) | NULL | PHPINISYSTEM |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -50,7 +50,7 @@ title: Налаштування під час виконання
 
 `apc.shm_size` string
 
-Розмір сегмента пам'яті, що розділяється, заданий в короткій нотації (дивіться [цей FAQ](faq.using.html#faq.using.shorthandbytes)). За замовчуванням деякі системи (включаючи більшість варіантів BSD) обмежують це значення вкрай малим значенням.
+Розмір сегмента пам'яті, що розділяється, заданий в короткій нотації (дивіться [цей FAQ](faq.using.md#faq.using.shorthandbytes)). За замовчуванням деякі системи (включаючи більшість варіантів BSD) обмежують це значення вкрай малим значенням.
 
 `apc.entries_hint` int
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phardata.setalias.html: '« PharData::setAlias'
-  - phardata.setmetadata.html: 'PharData::setMetadata »'
-  - index.html: PHP Manual
-  - class.phardata.html: PharData
+  - phardata.setalias.md: '« PharData::setAlias'
+  - phardata.setmetadata.md: 'PharData::setMetadata »'
+  - index.md: PHP Manual
+  - class.phardata.md: PharData
 title: 'PharData::setDefaultStub'
 ---
 # PharData::setDefaultStub
@@ -36,7 +36,7 @@ tar/zip-архіви, що не запускаються, не можуть ма
 
 ### Помилки
 
-Викидає виняток [PharException](class.pharexception.html)
+Викидає виняток [PharException](class.pharexception.md)
 
 ### список змін
 
@@ -46,4 +46,4 @@ tar/zip-архіви, що не запускаються, не можуть ма
 
 ### Дивіться також
 
--   [Phar::setDefaultStub()](phar.setdefaultstub.html) - Встановити завантажувач PHP або початкову заглушку Phar-архіву в завантажувач за замовчуванням
+-   [Phar::setDefaultStub()](phar.setdefaultstub.md) - Встановити завантажувач PHP або початкову заглушку Phar-архіву в завантажувач за замовчуванням

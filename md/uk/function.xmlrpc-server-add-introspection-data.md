@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xmlrpc-parse-method-descriptions.html: « xmlrpcparsemethoddescriptions
-  - function.xmlrpc-server-call-method.html: xmlrpcservercallmethod »
+  - function.xmlrpc-parse-method-descriptions.md: « xmlrpcparsemethoddescriptions
+  - function.xmlrpc-server-call-method.md: xmlrpcservercallmethod »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcserveraddintrospectiondata

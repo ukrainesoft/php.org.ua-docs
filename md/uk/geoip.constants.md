@@ -1,9 +1,9 @@
 ---
 navigation:
-  - geoip.resources.html: « Типи ресурсів
-  - ref.geoip.html: Функции GeoIP »
-  - index.html: PHP Manual
-  - book.geoip.html: GeoIP
+  - geoip.resources.md: « Типи ресурсів
+  - ref.geoip.md: Функции GeoIP »
+  - index.md: PHP Manual
+  - book.geoip.md: GeoIP
 title: Обумовлені константи
 ---
 # Обумовлені константи

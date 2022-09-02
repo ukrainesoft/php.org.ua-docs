@@ -1,7 +1,7 @@
 ---
 navigation:
   - svmmodel.getsvrprobability.md: '« SVMModel::getSvrProbability'
-  - svmmodel.predict-probability.html: 'SVMModel::predictprobability »'
+  - svmmodel.predict-probability.md: 'SVMModel::predictprobability »'
   - index.md: PHP Manual
   - class.svmmodel.md: SVMModel
 title: 'SVMModel::load'

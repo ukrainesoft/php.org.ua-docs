@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.reverse.html: '« DsVector::reverse'
-  - ds-vector.rotate.html: 'ДсVector::rotate »'
-  - index.html: PHP Manual
-  - class.ds-vector.html: Вектор
+  - ds-vector.reverse.md: '« DsVector::reverse'
+  - ds-vector.rotate.md: 'ДсVector::rotate »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::reversed'
 ---
 # ДсVector::reversed

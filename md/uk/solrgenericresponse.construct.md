@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.solrgenericresponse.html: « SolrGenericResponse
-  - solrgenericresponse.destruct.html: 'SolrGenericResponse::destruct »'
-  - index.html: PHP Manual
-  - class.solrgenericresponse.html: SolrGenericResponse
+  - class.solrgenericresponse.md: « SolrGenericResponse
+  - solrgenericresponse.destruct.md: 'SolrGenericResponse::destruct »'
+  - index.md: PHP Manual
+  - class.solrgenericresponse.md: SolrGenericResponse
 title: 'SolrGenericResponse::construct'
 ---
 # SolrGenericResponse::construct

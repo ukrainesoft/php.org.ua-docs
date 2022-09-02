@@ -36,6 +36,6 @@ title: Правила
         
 -   PHP резервує всі ідентифікатори, що починаються з `__` як магічні. Рекомендується не створювати ідентифікатори, що починаються з `__`крім як з метою використовувати документовану магічну функціональність. Приклади:
     
-    -   [get()](language.oop5.overloading.html#object.get)
+    -   [get()](language.oop5.overloading.md#object.get)
         
     -   [autoload()](function.autoload.md)

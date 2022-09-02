@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setimageredprimary.html: '« Gmagick::setimageredprimary'
-  - gmagick.setimageresolution.html: 'Gmagick::setimageresolution »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setimageredprimary.md: '« Gmagick::setimageredprimary'
+  - gmagick.setimageresolution.md: 'Gmagick::setimageresolution »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagerenderingintent'
 ---
 # Gmagick::setimagerenderingintent
@@ -24,7 +24,7 @@ public Gmagick::setimagerenderingintent(int $rendering_intent): Gmagick
 
 `rendering_intent`
 
-Одна з констант [способа отображения](gmagick.constants.html#gmagick.constants.renderingintent) `Gmagick::RENDERINGINTENT_*`
+Одна з констант [способа отображения](gmagick.constants.md#gmagick.constants.renderingintent) `Gmagick::RENDERINGINTENT_*`
 
 ### Значення, що повертаються
 

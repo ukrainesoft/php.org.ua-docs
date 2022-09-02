@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.stmt-init.html: '« mysqli::stmtinit'
-  - mysqli.thread-id.html: 'mysqli::$threadid »'
+  - mysqli.stmt-init.md: '« mysqli::stmtinit'
+  - mysqli.thread-id.md: 'mysqli::$threadid »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::storeresult'
@@ -52,7 +52,7 @@ mysqli_store_result(mysqli $mysql, int $mode = 0): mysqli_result|false
 
 > **Зауваження**
 > 
-> **mysqlistoreresult()** повертає \*\*`false`\*\*якщо запит не повертає результуючої таблиці (наприклад, у разі вираження INSERT). Також функція поверне \*\*`false`\*\*якщо дані з результуючого набору не вдалося прочитати. Наявність помилки можна перевірити функцією [mysqlierror()](mysqli.error.md), яка у разі поверне непустий рядок; [mysqlierrno()](mysqli.errno.md) поверне ненульове значення; і [mysqlifieldcount()](mysqli.field-count.html) також поверне ненульове значення. Також можливою причиною повернення **`false`** після успішного виклику [mysqliquery()](mysqli.query.md) може бути занадто великий результуючий набір (бракує пам'яті для його розміщення). Якщо функція [mysqlifieldcount()](mysqli.field-count.md) повертає ненульове значення, тож запит повернув непустий результуючий набір.
+> **mysqlistoreresult()** повертає \*\*`false`\*\*якщо запит не повертає результуючої таблиці (наприклад, у разі вираження INSERT). Також функція поверне \*\*`false`\*\*якщо дані з результуючого набору не вдалося прочитати. Наявність помилки можна перевірити функцією [mysqlierror()](mysqli.error.md), яка у разі поверне непустий рядок; [mysqlierrno()](mysqli.errno.md) поверне ненульове значення; і [mysqlifieldcount()](mysqli.field-count.md) також поверне ненульове значення. Також можливою причиною повернення **`false`** після успішного виклику [mysqliquery()](mysqli.query.md) може бути занадто великий результуючий набір (бракує пам'яті для його розміщення). Якщо функція [mysqlifieldcount()](mysqli.field-count.md) повертає ненульове значення, тож запит повернув непустий результуючий набір.
 
 ### Приклади
 

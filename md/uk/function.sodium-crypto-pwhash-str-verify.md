@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-pwhash-str-needs-rehash.html: « sodiumcryptopwhashstrneedsrehash
-  - function.sodium-crypto-pwhash-str.html: sodiumcryptopwhashstr »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-pwhash-str-needs-rehash.md: « sodiumcryptopwhashstrneedsrehash
+  - function.sodium-crypto-pwhash-str.md: sodiumcryptopwhashstr »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptopwhashstrverify
 ---
 # sodiumcryptopwhashstrverify
@@ -18,13 +18,13 @@ sodiumcryptopwhashstrverify — Перевіряє, чи пароль відпо
 sodium_crypto_pwhash_str_verify(string $hash, string $password): bool
 ```
 
-Перевіряє, що хеш пароля, створений [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html)відповідає заданому паролю. Зверніть увагу, що в цій функції порядок аргументів не відповідає порядку аргументів у схожій функції [passwordverify()](function.password-verify.html)
+Перевіряє, що хеш пароля, створений [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md)відповідає заданому паролю. Зверніть увагу, що в цій функції порядок аргументів не відповідає порядку аргументів у схожій функції [passwordverify()](function.password-verify.md)
 
 ### Список параметрів
 
 `hash`
 
-Хеш, створений функцією [passwordhash()](function.password-hash.html)
+Хеш, створений функцією [passwordhash()](function.password-hash.md)
 
 `password`
 
@@ -42,6 +42,6 @@ sodium_crypto_pwhash_str_verify(string $hash, string $password): bool
 
 ### Дивіться також
 
--   [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.html) - Отримати ASCII-кодований хеш
--   [passwordhash()](function.password-hash.html) - Створює хеш пароля
--   [passwordverify()](function.password-verify.html) - Перевіряє, чи пароль хешу відповідає
+-   [sodiumcryptopwhashstr()](function.sodium-crypto-pwhash-str.md) - Отримати ASCII-кодований хеш
+-   [passwordhash()](function.password-hash.md) - Створює хеш пароля
+-   [passwordverify()](function.password-verify.md) - Перевіряє, чи пароль хешу відповідає

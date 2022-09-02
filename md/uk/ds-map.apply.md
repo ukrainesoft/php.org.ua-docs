@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.allocate.html: '« DsMap::allocate'
-  - ds-map.capacity.html: 'ДсMap::capacity »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.allocate.md: '« DsMap::allocate'
+  - ds-map.capacity.md: 'ДсMap::capacity »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::apply'
 ---
 # ДсMap::apply
@@ -28,7 +28,7 @@ public Ds\Map::apply(callable $callback): void
 callback(mixed $key, mixed $value): mixed
 ```
 
-Об'єкт типу [callable](language.types.callable.html)
+Об'єкт типу [callable](language.types.callable.md)
 
 Callback-функція має повертати нове значення, яке замінить поточне.
 

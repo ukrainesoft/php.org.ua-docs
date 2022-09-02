@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionmodify.unset.html: '« CollectionModify::unset'
-  - mysql-xdevapi-collectionremove.bind.html: 'CollectionRemove::bind »'
+  - mysql-xdevapi-collectionmodify.unset.md: '« CollectionModify::unset'
+  - mysql-xdevapi-collectionremove.bind.md: 'CollectionRemove::bind »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас CollectionRemove
 ---
 # Клас CollectionRemove

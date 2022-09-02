@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.func-num-args.html: « funcnumargs
-  - function.get-defined-functions.html: getdefinedfunctions »
-  - index.html: PHP Manual
-  - ref.funchand.html: Функции управления функциями
+  - function.func-num-args.md: « funcnumargs
+  - function.get-defined-functions.md: getdefinedfunctions »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
 title: functionexists
 ---
 # functionexists
@@ -32,7 +32,7 @@ function_exists(string $function): bool
 
 > **Зауваження**
 > 
-> Ця функція повертає **`false`** для мовних конструкцій, таких як [includeonce](function.include-once.html) або [echo](function.echo.html)
+> Ця функція повертає **`false`** для мовних конструкцій, таких як [includeonce](function.include-once.md) або [echo](function.echo.md)
 
 ### Приклади
 
@@ -52,12 +52,12 @@ if (function_exists('imap_open')) {
 
 > **Зауваження**
 > 
-> Зверніть увагу, що назва функції може бути присутня, навіть якщо саму функцію неможливо використовувати через налаштування конфігурації або опції компіляції (наприклад, як для функцій [image](ref.image.html)
+> Зверніть увагу, що назва функції може бути присутня, навіть якщо саму функцію неможливо використовувати через налаштування конфігурації або опції компіляції (наприклад, як для функцій [image](ref.image.md)
 
 ### Дивіться також
 
--   [methodexists()](function.method-exists.html) - Перевіряє, чи існує метод у даному класі
--   [ісcallable()](function.is-callable.html) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
--   [getdefinedfunctions()](function.get-defined-functions.html) - Повертає масив усіх певних функцій
--   [classexists()](function.class-exists.html) - Перевіряє, чи був оголошений клас
--   [extensionloaded()](function.extension-loaded.html) - Визначає, чи завантажений модуль
+-   [methodexists()](function.method-exists.md) - Перевіряє, чи існує метод у даному класі
+-   [ісcallable()](function.is-callable.md) - Перевіряє, що значення може бути викликане як функція у поточній області видимості
+-   [getdefinedfunctions()](function.get-defined-functions.md) - Повертає масив усіх певних функцій
+-   [classexists()](function.class-exists.md) - Перевіряє, чи був оголошений клас
+-   [extensionloaded()](function.extension-loaded.md) - Визначає, чи завантажений модуль

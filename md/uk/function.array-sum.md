@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-splice.html: « arraysplice
-  - function.array-udiff-assoc.html: arrayudiffassoc »
+  - function.array-splice.md: « arraysplice
+  - function.array-udiff-assoc.md: arrayudiffassoc »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraysum

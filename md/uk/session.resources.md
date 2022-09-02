@@ -1,9 +1,9 @@
 ---
 navigation:
-  - session.configuration.html: « Налаштування під час виконання
-  - session.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - session.setup.html: Встановлення та налаштування
+  - session.configuration.md: « Налаштування під час виконання
+  - session.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - session.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

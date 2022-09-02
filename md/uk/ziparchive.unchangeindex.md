@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.unchangearchive.html: '« ZipArchive::unchangeArchive'
-  - ziparchive.unchangename.html: 'ZipArchive::unchangeName »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.unchangearchive.md: '« ZipArchive::unchangeArchive'
+  - ziparchive.unchangename.md: 'ZipArchive::unchangeName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::unchangeIndex'
 ---
 # ZipArchive::unchangeIndex

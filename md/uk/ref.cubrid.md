@@ -1,7 +1,7 @@
 ---
 navigation:
   - cubrid.examples.md: « Приклади
-  - function.cubrid-bind.html: cubridbind »
+  - function.cubrid-bind.md: cubridbind »
   - index.md: PHP Manual
   - book.cubrid.md: CUBRID
 title: Функції CUBRID

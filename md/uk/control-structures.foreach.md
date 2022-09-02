@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.for.html: « for
-  - control-structures.break.html: break »
-  - index.html: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - control-structures.for.md: « for
+  - control-structures.break.md: break »
+  - index.md: PHP Manual
+  - language.control-structures.md: Управляющие конструкции
 title: foreach
 ---
 ## foreach
@@ -23,7 +23,7 @@ foreach (iterable_expression as $key => $value)
 
 Другий цикл додатково надасть ключ поточного елемента змінної `$key` на кожній ітерації.
 
-Зверніть увагу, що `foreach` не змінює покажчик внутрішнього масиву, який використовується такими функціями, як [current()](function.current.html) і [key()](function.key.md)
+Зверніть увагу, що `foreach` не змінює покажчик внутрішнього масиву, який використовується такими функціями, як [current()](function.current.md) і [key()](function.key.md)
 
 можливо [налаштувати ітератори об'єктів](language.oop5.iterations.md)
 

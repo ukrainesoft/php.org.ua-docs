@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-chunk.html: « arraychunk
-  - function.array-combine.html: arraycombine »
+  - function.array-chunk.md: « arraychunk
+  - function.array-combine.md: arraycombine »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraycolumn
@@ -32,7 +32,7 @@ array_column(array $array, int|string|null $column_key, int|string|null $index_k
 
 `index_key`
 
-Ключ стовпця, значення якого будуть використовуватися як ключі масиву, що повертається. Може бути як цілим ключем, так і рядковим. Тип значення [приводится](language.types.array.html#language.types.array.key-casts), як завжди для ключів масиву (проте до PHP 8.0.0 об'єкти, що підтримують перетворення до рядка, також дозволені).
+Ключ стовпця, значення якого будуть використовуватися як ключі масиву, що повертається. Може бути як цілим ключем, так і рядковим. Тип значення [приводится](language.types.array.md#language.types.array.key-casts), як завжди для ключів масиву (проте до PHP 8.0.0 об'єкти, що підтримують перетворення до рядка, також дозволені).
 
 ### Значення, що повертаються
 

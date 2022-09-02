@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-set-blocking.html: « streamsetblocking
-  - function.stream-set-read-buffer.html: streamsetreadbuffer »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-set-blocking.md: « streamsetblocking
+  - function.stream-set-read-buffer.md: streamsetreadbuffer »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsetchunksize
 ---
 # streamsetchunksize

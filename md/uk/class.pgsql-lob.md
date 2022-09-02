@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.pgsql-result.html: « PgSqlResult
-  - book.sqlite3.html: SQLite3 »
-  - index.html: PHP Manual
-  - book.pgsql.html: PostgreSQL
+  - class.pgsql-result.md: « PgSqlResult
+  - book.sqlite3.md: SQLite3 »
+  - index.md: PHP Manual
+  - book.pgsql.md: PostgreSQL
 title: Клас PgSqlЛоб
 ---
 # Клас PgSqlЛоб

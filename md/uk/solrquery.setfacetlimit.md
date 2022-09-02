@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setfacetenumcachemindefaultfrequency.html: '« SolrQuery::setFacetEnumCacheMinDefaultFrequency'
-  - solrquery.setfacetmethod.html: 'SolrQuery::setFacetMethod »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setfacetenumcachemindefaultfrequency.md: '« SolrQuery::setFacetEnumCacheMinDefaultFrequency'
+  - solrquery.setfacetmethod.md: 'SolrQuery::setFacetMethod »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setFacetLimit'
 ---
 # SolrQuery::setFacetLimit

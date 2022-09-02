@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yac.construct.html: '« Yac::construct'
-  - yac.dump.html: 'Yac::dump »'
-  - index.html: PHP Manual
-  - class.yac.html: Yac
+  - yac.construct.md: '« Yac::construct'
+  - yac.dump.md: 'Yac::dump »'
+  - index.md: PHP Manual
+  - class.yac.md: Yac
 title: 'Yac::delete'
 ---
 # Yac::delete

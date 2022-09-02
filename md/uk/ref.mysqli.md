@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli-sql-exception.getsqlstate.html: '« mysqlisqlexception::getSqlState'
-  - function.mysqli-connect.html: mysqliconnect »
+  - mysqli-sql-exception.getsqlstate.md: '« mysqlisqlexception::getSqlState'
+  - function.mysqli-connect.md: mysqliconnect »
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: Синоніми та застарілі функції Mysqli

@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.printf.md: « printf
-  - function.quoted-printable-encode.html: quotedprintableencode »
+  - function.quoted-printable-encode.md: quotedprintableencode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: quotedprintabledecode

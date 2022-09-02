@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xdiff-file-patch.html: xdifffilepatch
-  - function.xdiff-string-bdiff-size.html: xdiffstringbdiffsize »
-  - index.html: PHP Manual
-  - ref.xdiff.html: Функції xdiff
+  - function.xdiff-file-patch.md: xdifffilepatch
+  - function.xdiff-string-bdiff-size.md: xdiffstringbdiffsize »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
 title: xdifffilerabdiff
 ---
 # xdifffilerabdiff
@@ -18,9 +18,9 @@ xdifffilerabdiff — Створити бінарний патч порівнюю
 xdiff_file_rabdiff(string $old_file, string $new_file, string $dest): bool
 ```
 
-Створює бінарний патч, порівнюючи два файли і зберігає результат у файл. Ця функція відрізняється від [xdifffilebdiff()](function.xdiff-file-bdiff.html) використовуваним алгоритмом, який працює швидше та виробляє патчі меншого розміру. Ця функція працює як з текстом, так і з бінарними даними. Патч згодом можна застосувати за допомогою функцій [xdifffilebpatch()](function.xdiff-file-bpatch.html)[xdiffstringbpatch()](function.xdiff-string-bpatch.html)
+Створює бінарний патч, порівнюючи два файли і зберігає результат у файл. Ця функція відрізняється від [xdifffilebdiff()](function.xdiff-file-bdiff.md) використовуваним алгоритмом, який працює швидше та виробляє патчі меншого розміру. Ця функція працює як з текстом, так і з бінарними даними. Патч згодом можна застосувати за допомогою функцій [xdifffilebpatch()](function.xdiff-file-bpatch.md)[xdiffstringbpatch()](function.xdiff-string-bpatch.md)
 
-Детальніше різниця алгоритмів пояснена на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.html)
+Детальніше різниця алгоритмів пояснена на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
 
 ### Список параметрів
 
@@ -63,4 +63,4 @@ xdiff_file_rabdiff($old_version, $new_version, 'my_script.bdiff');
 
 ### Дивіться також
 
--   [xdifffilebpatch()](function.xdiff-file-bpatch.html) - Застосувати бінарний патч до файлу
+-   [xdifffilebpatch()](function.xdiff-file-bpatch.md) - Застосувати бінарний патч до файлу

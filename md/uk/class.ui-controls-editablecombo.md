@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-combo.setselected.html: '« UIControlsCombo::setSelected'
-  - ui-controls-editablecombo.append.html: 'ОЙControlsEditableCombo::append »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-controls-combo.setselected.md: '« UIControlsCombo::setSelected'
+  - ui-controls-editablecombo.append.md: 'ОЙControlsEditableCombo::append »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Редагований елемент управління "Комбо"
 ---
 # Редагований елемент управління "Комбо"
@@ -58,7 +58,7 @@ public UI\Control::show()
 
 ## Зміст
 
--   [ОЙControlsEditableCombo::append](ui-controls-editablecombo.append.html) - Додати опцію
--   [ОЙControlsEditableCombo::getText](ui-controls-editablecombo.gettext.html) — Отримати текст
--   [ОЙControlsEditableCombo::onChange](ui-controls-editablecombo.onchange.html) - Обробник зміни
--   [ОЙControlsEditableCombo::setText](ui-controls-editablecombo.settext.html) — Встановити текст
+-   [ОЙControlsEditableCombo::append](ui-controls-editablecombo.append.md) - Додати опцію
+-   [ОЙControlsEditableCombo::getText](ui-controls-editablecombo.gettext.md) — Отримати текст
+-   [ОЙControlsEditableCombo::onChange](ui-controls-editablecombo.onchange.md) - Обробник зміни
+-   [ОЙControlsEditableCombo::setText](ui-controls-editablecombo.settext.md) — Встановити текст

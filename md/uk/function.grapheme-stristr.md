@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.grapheme-stripos.html: « graphemestripos
-  - function.grapheme-strlen.html: graphemestrlen »
+  - function.grapheme-stripos.md: « graphemestripos
+  - function.grapheme-strlen.md: graphemestrlen »
   - index.md: PHP Manual
   - ref.intl.grapheme.md: Функции Grapheme
 title: graphemestristr

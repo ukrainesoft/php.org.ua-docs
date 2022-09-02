@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-ereg-replace-callback.html: « mberegreplacecallback
-  - function.mb-ereg-search-getpos.html: мбeregsearchgetpos »
+  - function.mb-ereg-replace-callback.md: « mberegreplacecallback
+  - function.mb-ereg-search-getpos.md: мбeregsearchgetpos »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбeregreplace

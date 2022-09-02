@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ffi-exception.html: « FFIException
-  - book.opcache.html: OPcache »
-  - index.html: PHP Manual
-  - book.ffi.html: FFI
+  - class.ffi-exception.md: « FFIException
+  - book.opcache.md: OPcache »
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
 title: Виключення парсера FFI
 ---
 # Виключення парсера FFI

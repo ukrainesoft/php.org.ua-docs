@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-foreign-keys.html: « db2foreignkeys
-  - function.db2-free-stmt.html: db2freestmt »
+  - function.db2-foreign-keys.md: « db2foreignkeys
+  - function.db2-free-stmt.md: db2freestmt »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2freeresult
 ---
 # db2freeresult

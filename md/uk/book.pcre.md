@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.parle-parserexception.html: « ParleParserException
+  - class.parle-parserexception.md: « ParleParserException
   - intro.pcre.md: Введение »
   - index.md: PHP Manual
   - refs.basic.text.md: Обработка текста

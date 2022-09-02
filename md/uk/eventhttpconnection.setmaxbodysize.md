@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttpconnection.setlocalport.html: '« EventHttpConnection::setLocalPort'
-  - eventhttpconnection.setmaxheaderssize.html: 'EventHttpConnection::setMaxHeadersSize »'
-  - index.html: PHP Manual
-  - class.eventhttpconnection.html: EventHttpConnection
+  - eventhttpconnection.setlocalport.md: '« EventHttpConnection::setLocalPort'
+  - eventhttpconnection.setmaxheaderssize.md: 'EventHttpConnection::setMaxHeadersSize »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::setMaxBodySize'
 ---
 # EventHttpConnection::setMaxBodySize
@@ -36,4 +36,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpConnection::setMaxHeadersSize()](eventhttpconnection.setmaxheaderssize.html) - Встановлює максимальний розмір заголовка
+-   [EventHttpConnection::setMaxHeadersSize()](eventhttpconnection.setmaxheaderssize.md) - Встановлює максимальний розмір заголовка

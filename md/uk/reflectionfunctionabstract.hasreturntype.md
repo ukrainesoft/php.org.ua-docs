@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.gettentativereturntype.html: '« ReflectionFunctionAbstract::getTentativeReturnType'
-  - reflectionfunctionabstract.hastentativereturntype.html: 'ReflectionFunctionAbstract::hasTentativeReturnType »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.gettentativereturntype.md: '« ReflectionFunctionAbstract::getTentativeReturnType'
+  - reflectionfunctionabstract.hastentativereturntype.md: 'ReflectionFunctionAbstract::hasTentativeReturnType »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::hasReturnType'
 ---
 # ReflectionFunctionAbstract::hasReturnType
@@ -69,4 +69,4 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.html) - Отримує оголошений тип значення, що повертається функцією значення
+-   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.md) - Отримує оголошений тип значення, що повертається функцією значення

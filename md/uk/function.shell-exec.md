@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.proc-terminate.html: « procterminate
+  - function.proc-terminate.md: « procterminate
   - function.system.md: system »
   - index.md: PHP Manual
   - ref.exec.md: Функции запуска программ

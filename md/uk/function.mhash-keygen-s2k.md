@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mhash-get-hash-name.html: « mhashgethashname
-  - function.mhash.html: mhash »
-  - index.html: PHP Manual
-  - ref.mhash.html: Функции Mhash
+  - function.mhash-get-hash-name.md: « mhashgethashname
+  - function.mhash.md: mhash »
+  - index.md: PHP Manual
+  - ref.mhash.md: Функции Mhash
 title: mhashkeygens2k
 ---
 # mhashkeygens2k
@@ -54,4 +54,4 @@ mhash_keygen_s2k(    int $algo,    string $password,    string $salt
 
 | Версия | Описание |
 | --- | --- |
-|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.html) |
+|  | Функцію оголошено застарілою. Використовуйте замість неї [функції`hash_*()`](ref.hash.md) |

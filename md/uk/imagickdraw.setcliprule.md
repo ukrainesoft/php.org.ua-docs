@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setclippath.html: '« ImagickDraw::setClipPath'
-  - imagickdraw.setclipunits.html: 'ImagickDraw::setClipUnits »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setclippath.md: '« ImagickDraw::setClipPath'
+  - imagickdraw.setclipunits.md: 'ImagickDraw::setClipUnits »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setClipRule'
 ---
 # ImagickDraw::setClipRule
@@ -28,7 +28,7 @@ public ImagickDraw::setClipRule(int $fill_rule): bool
 
 `fill_rule`
 
-Одна з констант [FILLRULE](imagick.constants.html#imagick.constants.fillrule) `imagick::FILLRULE_*`
+Одна з констант [FILLRULE](imagick.constants.md#imagick.constants.fillrule) `imagick::FILLRULE_*`
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rparser.dump.html: '« ParleRParser::dump'
-  - parle-rparser.left.html: 'ParleRParser::left »'
+  - parle-rparser.dump.md: '« ParleRParser::dump'
+  - parle-rparser.left.md: 'ParleRParser::left »'
   - index.md: PHP Manual
-  - class.parle-rparser.html: ParleRParser
+  - class.parle-rparser.md: ParleRParser
 title: 'ParleRParser::errorInfo'
 ---
 # ParleRParser::errorInfo

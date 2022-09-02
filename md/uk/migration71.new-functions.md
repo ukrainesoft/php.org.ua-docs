@@ -1,6 +1,6 @@
 ---
 navigation:
-  - migration71.new-features.html: '" Нові можливості'
+  - migration71.new-features.md: '" Нові можливості'
   - migration71.constants.md: Нові глобальні константи »
   - index.md: PHP Manual
   - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.restore-include-path.html: « restoreincludepath
-  - function.set-time-limit.html: settimelimit »
+  - function.restore-include-path.md: « restoreincludepath
+  - function.set-time-limit.md: settimelimit »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: setincludepath
@@ -18,17 +18,17 @@ setincludepath — Встановлює налаштування конфігу�
 set_include_path(string $include_path): string|false
 ```
 
-Задає значення конфігураційної установки [includepath](ini.core.html#ini.include-path) тимчасово виконання скрипта.
+Задає значення конфігураційної установки [includepath](ini.core.md#ini.include-path) тимчасово виконання скрипта.
 
 ### Список параметрів
 
 `include_path`
 
-Нове значення налаштування [includepath](ini.core.html#ini.include-path)
+Нове значення налаштування [includepath](ini.core.md#ini.include-path)
 
 ### Значення, що повертаються
 
-Повертає старе значення [includepath](ini.core.html#ini.include-path) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає старе значення [includepath](ini.core.md#ini.include-path) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Приклади
 

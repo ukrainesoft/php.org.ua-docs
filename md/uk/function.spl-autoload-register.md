@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.spl-autoload-functions.html: « splautoloadfunctions
-  - function.spl-autoload-unregister.html: splautoloadunregister »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - function.spl-autoload-functions.md: « splautoloadfunctions
+  - function.spl-autoload-unregister.md: splautoloadunregister »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: splautoloadregister
 ---
 # splautoloadregister
@@ -20,15 +20,15 @@ spl_autoload_register(?callable $callback = null, bool $throw = true, bool $prep
 
 Реєструє функцію autoload у наданій SPL черзі. В результаті чергу буде активовано, навіть якщо раніше її було вимкнено.
 
-Якщо у вашому скрипті реалізовано функцію [autoload()](function.autoload.html), її необхідно явно зареєструвати у черзі autoload. Це потрібно, т.к . **splautoloadregister()** повністю замінює механізм кешування [autoload()](function.autoload.html) функціями [splautoload()](function.spl-autoload.html) і [splautoloadcall()](function.spl-autoload-call.html)
+Якщо у вашому скрипті реалізовано функцію [autoload()](function.autoload.md), її необхідно явно зареєструвати у черзі autoload. Це потрібно, т.к . **splautoloadregister()** повністю замінює механізм кешування [autoload()](function.autoload.md) функціями [splautoload()](function.spl-autoload.md) і [splautoloadcall()](function.spl-autoload-call.md)
 
-**splautoloadregister()** дозволяє задати кілька реалізацій методу автозавантаження. Вона створює чергу з функцій автозавантаження як їх визначення у скрипті, тоді як вбудована функція [autoload()](function.autoload.html) може мати лише одну реалізацію.
+**splautoloadregister()** дозволяє задати кілька реалізацій методу автозавантаження. Вона створює чергу з функцій автозавантаження як їх визначення у скрипті, тоді як вбудована функція [autoload()](function.autoload.md) може мати лише одну реалізацію.
 
 ### Список параметрів
 
 `callback`
 
-Ім'я функції, що реалізує метод [splautoload()](function.spl-autoload.html). Якщо **`null`**, буде зареєстровано реалізацію за замовчуванням.
+Ім'я функції, що реалізує метод [splautoload()](function.spl-autoload.md). Якщо **`null`**, буде зареєстровано реалізацію за замовчуванням.
 
 ```methodsynopsis
 callback(string $class_name): void
@@ -54,7 +54,7 @@ callback(string $class_name): void
 
 ### Приклади
 
-**Приклад #1 **splautoloadregister()** як альтернатива функції [autoload()](function.autoload.html)**
+**Приклад #1 **splautoloadregister()** як альтернатива функції [autoload()](function.autoload.md)**
 
 ```php
 <?php
@@ -106,4 +106,4 @@ Fatal error: Class 'Foobar\InexistentClass' not found in ...
 
 ### Дивіться також
 
--   [autoload()](function.autoload.html) - Спроба завантажити невизначений клас
+-   [autoload()](function.autoload.md) - Спроба завантажити невизначений клас

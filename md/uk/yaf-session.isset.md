@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.has.html: '« YafSession::has'
-  - yaf-session.key.html: 'YafSession::key »'
+  - yaf-session.has.md: '« YafSession::has'
+  - yaf-session.key.md: 'YafSession::key »'
   - index.md: PHP Manual
-  - class.yaf-session.html: YafSession
+  - class.yaf-session.md: YafSession
 title: 'YafSession::isset'
 ---
 # YafSession::isset

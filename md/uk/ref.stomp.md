@@ -1,7 +1,7 @@
 ---
 navigation:
   - stomp.examples.md: « Приклади
-  - function.stomp-connect-error.html: stompconnecterror »
+  - function.stomp-connect-error.md: stompconnecterror »
   - index.md: PHP Manual
   - book.stomp.md: Stomp
 title: Опції Stomp

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gnupg.examples.html: « Приклади
-  - ref.gnupg.html: GnuPG Функції »
-  - index.html: PHP Manual
-  - gnupg.examples.html: Приклади
+  - gnupg.examples.md: « Приклади
+  - ref.gnupg.md: GnuPG Функції »
+  - index.md: PHP Manual
+  - gnupg.examples.md: Приклади
 title: Прозоре підписування тексту
 ---
 ## Прозоре підписування тексту

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.getdefaultmodule.html: '« YafDispatcher::getDefaultModule'
-  - yaf-dispatcher.getrequest.html: 'YafDispatcher::getRequest »'
+  - yaf-dispatcher.getdefaultmodule.md: '« YafDispatcher::getDefaultModule'
+  - yaf-dispatcher.getrequest.md: 'YafDispatcher::getRequest »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::getInstance'
 ---
 # YafDispatcher::getInstance

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.examples.html: « Приклади
-  - ffi.examples-callback.html: Callback-функции PHP »
-  - index.html: PHP Manual
-  - ffi.examples.html: Приклади
+  - ffi.examples.md: « Приклади
+  - ffi.examples-callback.md: Callback-функции PHP »
+  - index.md: PHP Manual
+  - ffi.examples.md: Приклади
 title: Прості приклади використання FFI
 ---
 ## Прості приклади використання FFI

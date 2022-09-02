@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-get-local-ip.html: « swoolegetlocalіп
-  - function.swoole-load-module.html: swooleloadmodule »
-  - index.html: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - function.swoole-get-local-ip.md: « swoolegetlocalіп
+  - function.swoole-load-module.md: swooleloadmodule »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
 title: swoolelasterror
 ---
 # swoolelasterror

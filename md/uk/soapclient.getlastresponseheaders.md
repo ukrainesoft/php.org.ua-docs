@@ -1,9 +1,9 @@
 ---
 navigation:
-  - soapclient.getlastresponse.html: '« SoapClient::getLastResponse'
-  - soapclient.gettypes.html: 'SoapClient::getTypes »'
-  - index.html: PHP Manual
-  - class.soapclient.html: SoapClient
+  - soapclient.getlastresponse.md: '« SoapClient::getLastResponse'
+  - soapclient.gettypes.md: 'SoapClient::getTypes »'
+  - index.md: PHP Manual
+  - class.soapclient.md: SoapClient
 title: 'SoapClient::getLastResponseHeaders'
 ---
 # SoapClient::getLastResponseHeaders
@@ -22,7 +22,7 @@ public SoapClient::__getLastResponseHeaders(): ?string
 
 > **Зауваження**
 > 
-> Функція працює лише, якщо об'єкт [SoapClient](class.soapclient.html) був створений з налаштуванням `trace`, рівною **`true`**
+> Функція працює лише, якщо об'єкт [SoapClient](class.soapclient.md) був створений з налаштуванням `trace`, рівною **`true`**
 
 ### Список параметрів
 
@@ -46,6 +46,6 @@ echo "ЗАГОЛОВКИ ОТВЕТА:\n" . $client->__getLastResponseHeader
 
 ### Дивіться також
 
--   [SoapClient::getLastRequestHeaders()](soapclient.getlastrequestheaders.html) - Повертає SOAP-заголовки останнього запиту
--   [SoapClient::getLastRequest()](soapclient.getlastrequest.html) - Повертає останній SOAP-запит
--   [SoapClient::getLastResponse()](soapclient.getlastresponse.html) - Повертає останню SOAP-відповідь
+-   [SoapClient::getLastRequestHeaders()](soapclient.getlastrequestheaders.md) - Повертає SOAP-заголовки останнього запиту
+-   [SoapClient::getLastRequest()](soapclient.getlastrequest.md) - Повертає останній SOAP-запит
+-   [SoapClient::getLastResponse()](soapclient.getlastresponse.md) - Повертає останню SOAP-відповідь

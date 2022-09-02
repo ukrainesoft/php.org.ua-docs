@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.chmod.html: « chmod
-  - function.clearstatcache.html: clearstatcache »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.chmod.md: « chmod
+  - function.clearstatcache.md: clearstatcache »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: chown
 ---
 # chown
@@ -73,11 +73,11 @@ Array
 
 ### Примітки
 
-> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.html)оскільки файл повинен бути доступний через файлову систему сервера.
+> **Зауваження**: Ця функція не застосовується для роботи з [віддаленими файлами](features.remote-files.md)оскільки файл повинен бути доступний через файлову систему сервера.
 
 > **Зауваження**: У Windows функція мовчки завершується помилкою при застосуванні до звичайного файлу.
 
 ### Дивіться також
 
--   [chmod()](function.chmod.html) - Змінює режим доступу до файлу
--   [chgrp()](function.chgrp.html) - Змінює групу файлу
+-   [chmod()](function.chmod.md) - Змінює режим доступу до файлу
+-   [chgrp()](function.chgrp.md) - Змінює групу файлу

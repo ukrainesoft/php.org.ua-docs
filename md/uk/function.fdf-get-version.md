@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-get-value.html: « fdfgetvalue
-  - function.fdf-header.html: fdfheader »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-get-value.md: « fdfgetvalue
+  - function.fdf-header.md: fdfheader »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfgetversion
 ---
 # fdfgetversion
@@ -24,7 +24,7 @@ fdf_get_version(resource $fdf_document = ?): string
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ fdf_get_version(resource $fdf_document = ?): string
 
 ### Дивіться також
 
--   [fdfsetversion()](function.fdf-set-version.html) - Встановлює номер версії для FDF
+-   [fdfsetversion()](function.fdf-set-version.md) - Встановлює номер версії для FDF

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-clientencryption.createdatakey.html: '« MongoDBDriverClientEncryption::createDataKey'
-  - mongodb-driver-clientencryption.encrypt.html: 'MongoDBDriverClientEncryption::encrypt »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-clientencryption.html: MongoDBDriverClientEncryption
+  - mongodb-driver-clientencryption.createdatakey.md: '« MongoDBDriverClientEncryption::createDataKey'
+  - mongodb-driver-clientencryption.encrypt.md: 'MongoDBDriverClientEncryption::encrypt »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-clientencryption.md: MongoDBDriverClientEncryption
 title: 'MongoDBDriverClientEncryption::decrypt'
 ---
 # MongoDBDriverClientEncryption::decrypt
@@ -24,17 +24,17 @@ final public MongoDB\Driver\ClientEncryption::decrypt(MongoDB\BSON\Binary $value
 
 `value`
 
-Об'єкт класу [MongoDBBSONBinary](class.mongodb-bson-binary.html) з підтипом 6, що містить зашифровані дані.
+Об'єкт класу [MongoDBBSONBinary](class.mongodb-bson-binary.md) з підтипом 6, що містить зашифровані дані.
 
 ### Значення, що повертаються
 
-Повертає розшифровані дані у тому вигляді, як вони були передані в [MongoDBDriverClientEncryption::encrypt()](mongodb-driver-clientencryption.encrypt.html)
+Повертає розшифровані дані у тому вигляді, як вони були передані в [MongoDBDriverClientEncryption::encrypt()](mongodb-driver-clientencryption.encrypt.md)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Кидає виняток [MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.html) якщо в процесі дешифрування сталася помилка
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Кидає виняток [MongoDBDriverExceptionEncryptionException](class.mongodb-driver-exception-encryptionexception.md) якщо в процесі дешифрування сталася помилка
 
 ### Дивіться також
 
--   [MongoDBDriverClientEncryption::encrypt()](mongodb-driver-clientencryption.encrypt.html) - Шифрує дані
+-   [MongoDBDriverClientEncryption::encrypt()](mongodb-driver-clientencryption.encrypt.md) - Шифрує дані

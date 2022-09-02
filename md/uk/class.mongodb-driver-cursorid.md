@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-cursor.valid.html: '« MongoDBDriverCursor::valid'
-  - mongodb-driver-cursorid.construct.html: 'MongoDBDriverCursorId::construct »'
+  - mongodb-driver-cursor.valid.md: '« MongoDBDriverCursor::valid'
+  - mongodb-driver-cursorid.construct.md: 'MongoDBDriverCursorId::construct »'
   - index.md: PHP Manual
   - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverCursorId

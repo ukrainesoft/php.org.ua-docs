@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.starttransaction.html: '« Session::startTransaction'
-  - mysql-xdevapi-sqlstatement.bind.html: 'SqlStatement::bind »'
-  - index.html: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - mysql-xdevapi-session.starttransaction.md: '« Session::startTransaction'
+  - mysql-xdevapi-sqlstatement.bind.md: 'SqlStatement::bind »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас SqlStatement
 ---
 # Клас SqlStatement
@@ -64,9 +64,9 @@ statement
 
 ## Зміст
 
--   [SqlStatement::bind](mysql-xdevapi-sqlstatement.bind.html) — Зв'язує параметри затвердження
--   [SqlStatement::construct](mysql-xdevapi-sqlstatement.construct.html) - Опис конструктора
--   [SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.html) — Виконує операцію
--   [SqlStatement::getNextResult](mysql-xdevapi-sqlstatement.getnextresult.html) — Отримує наступний результат
--   [SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.html) — Отримує результат
--   [SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.html) — Перевіряє, чи є ще результати
+-   [SqlStatement::bind](mysql-xdevapi-sqlstatement.bind.md) — Зв'язує параметри затвердження
+-   [SqlStatement::construct](mysql-xdevapi-sqlstatement.construct.md) - Опис конструктора
+-   [SqlStatement::execute](mysql-xdevapi-sqlstatement.execute.md) — Виконує операцію
+-   [SqlStatement::getNextResult](mysql-xdevapi-sqlstatement.getnextresult.md) — Отримує наступний результат
+-   [SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.md) — Отримує результат
+-   [SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.md) — Перевіряє, чи є ще результати

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdl3inside.html: « tradercdl3inside
-  - function.trader-cdl3outside.html: tradercdl3outside »
+  - function.trader-cdl3inside.md: « tradercdl3inside
+  - function.trader-cdl3outside.md: tradercdl3outside »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdl3linestrike

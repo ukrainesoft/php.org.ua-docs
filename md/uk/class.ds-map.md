@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ds-deque.unshift.html: '« DsDeque::unshift'
-  - ds-map.allocate.html: 'ДсMap::allocate »'
+  - ds-deque.unshift.md: '« DsDeque::unshift'
+  - ds-map.allocate.md: 'ДсMap::allocate »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Клас Map

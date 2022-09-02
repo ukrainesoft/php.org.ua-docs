@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-static.match.html: '« YafRouteStatic::match'
-  - class.yaf-route-supervar.html: YafRouteSupervar »
-  - index.html: PHP Manual
-  - class.yaf-route-static.html: YafRouteStatic
+  - yaf-route-static.match.md: '« YafRouteStatic::match'
+  - class.yaf-route-supervar.md: YafRouteSupervar »
+  - index.md: PHP Manual
+  - class.yaf-route-static.md: YafRouteStatic
 title: 'YafRouteStatic::route'
 ---
 # YafRouteStatic::route
@@ -44,8 +44,8 @@ public Yaf_Route_Static::route(Yaf_Request_Abstract $request): bool
 
 ### Дивіться також
 
--   [YafRouteSupervar::route()](yaf-route-supervar.route.html) - Призначення route
--   [YafRouteSimple::route()](yaf-route-simple.route.html) - Надсилає запит
--   [YafRouteRegex::route()](yaf-route-regex.route.html) - Мета маршруту
--   [YafRouteRewrite::route()](yaf-route-rewrite.route.html) - Призначення route
--   [YafRouteMap::route()](yaf-route-map.route.html) - Призначення route
+-   [YafRouteSupervar::route()](yaf-route-supervar.route.md) - Призначення route
+-   [YafRouteSimple::route()](yaf-route-simple.route.md) - Надсилає запит
+-   [YafRouteRegex::route()](yaf-route-regex.route.md) - Мета маршруту
+-   [YafRouteRewrite::route()](yaf-route-rewrite.route.md) - Призначення route
+-   [YafRouteMap::route()](yaf-route-map.route.md) - Призначення route

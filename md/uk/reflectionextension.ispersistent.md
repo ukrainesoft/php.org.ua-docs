@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionextension.info.html: '« ReflectionExtension::info'
-  - reflectionextension.istemporary.html: 'ReflectionExtension::isTemporary »'
-  - index.html: PHP Manual
-  - class.reflectionextension.html: ReflectionExtension
+  - reflectionextension.info.md: '« ReflectionExtension::info'
+  - reflectionextension.istemporary.md: 'ReflectionExtension::isTemporary »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::isPersistent'
 ---
 # ReflectionExtension::isPersistent
@@ -28,7 +28,7 @@ public ReflectionExtension::isPersistent(): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** для модулів, що завантажуються через ini-налаштування [`extension`](ini.core.html#ini.extension) **`false`** в іншому випадку.
+Повертає **`true`** для модулів, що завантажуються через ini-налаштування [`extension`](ini.core.md#ini.extension) **`false`** в іншому випадку.
 
 ### Дивіться також
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine.call-user-func-array.html: '« SwooleCoroutine::calluserfuncarray'
-  - swoole-coroutine.cli-wait.html: 'SwooleCoroutine::cliwait »'
-  - index.html: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - swoole-coroutine.call-user-func-array.md: '« SwooleCoroutine::calluserfuncarray'
+  - swoole-coroutine.cli-wait.md: 'SwooleCoroutine::cliwait »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutine::calluserfunc'
 ---
 # SwooleCoroutine::calluserfunc
@@ -24,7 +24,7 @@ public static Swoole\Coroutine::call_user_func(callable $callback, mixed ...$arg
 
 `callback`
 
-Функція [callable](language.types.callable.html) для дзвінка.
+Функція [callable](language.types.callable.md) для дзвінка.
 
 `args`
 

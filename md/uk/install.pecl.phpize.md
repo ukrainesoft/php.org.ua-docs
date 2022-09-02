@@ -1,9 +1,9 @@
 ---
 navigation:
-  - install.pecl.pear.html: '« Компіляція модулів, що розділяються, за допомогою команди pecl'
-  - install.pecl.php-config.html: php-config »
-  - index.html: PHP Manual
-  - install.pecl.html: Установка модулей PECL
+  - install.pecl.pear.md: '« Компіляція модулів, що розділяються, за допомогою команди pecl'
+  - install.pecl.php-config.md: php-config »
+  - index.md: PHP Manual
+  - install.pecl.md: Установка модулей PECL
 title: 'Компіляція модулів, що розділяються, за допомогою phpize'
 ---
 ## Компіляція модулів, що розділяються, за допомогою phpize
@@ -20,7 +20,7 @@ $ make
 # make install
 ```
 
-У разі успішної установки буде створено файл extname.so і розміщено в PHP [директорію модулів](ini.core.html#ini.extension-dir). Вам буде потрібно додати рядок `extension=extname.so` у php.ini перед використанням цього модуля.
+У разі успішної установки буде створено файл extname.so і розміщено в PHP [директорію модулів](ini.core.md#ini.extension-dir). Вам буде потрібно додати рядок `extension=extname.so` у php.ini перед використанням цього модуля.
 
 Якщо в системі немає `phpize`, але існує можливість встановлення заздалегідь скомпільованих пакетів (типу RPM), переконайтеся, що встановлена ​​відповідна версія пакета PHP для розробників, оскільки вони часто містять команду `phpize` з відповідними файлами заголовків для збирання PHP та його модулів.
 

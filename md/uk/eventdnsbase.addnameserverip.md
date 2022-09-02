@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.eventdnsbase.html: « EventDnsBase
-  - eventdnsbase.addsearch.html: 'EventDnsBase::addSearch »'
-  - index.html: PHP Manual
-  - class.eventdnsbase.html: EventDnsBase
+  - class.eventdnsbase.md: « EventDnsBase
+  - eventdnsbase.addsearch.md: 'EventDnsBase::addSearch »'
+  - index.md: PHP Manual
+  - class.eventdnsbase.md: EventDnsBase
 title: 'EventDnsBase::addNameserverIp'
 ---
 # EventDnsBase::addNameserverIp

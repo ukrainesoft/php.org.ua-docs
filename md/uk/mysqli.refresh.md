@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.reap-async-query.html: '« mysqli::reapasyncquery'
-  - mysqli.release-savepoint.html: 'mysqli::releasesavepoint »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.reap-async-query.md: '« mysqli::reapasyncquery'
+  - mysqli.release-savepoint.md: 'mysqli::releasesavepoint »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::refresh'
 ---
 # mysqli::refresh
@@ -34,13 +34,13 @@ mysqli_refresh(mysqli $mysql, int $flags): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `flags`
 
-Налаштування оновлення задаються константами MYSQLIREFRESH, які описані у розділі документації [Константи MySQLi](mysqli.constants.html)
+Налаштування оновлення задаються константами MYSQLIREFRESH, які описані у розділі документації [Константи MySQLi](mysqli.constants.md)
 
-Дивіться також офіційну документацію [» MySQL Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.html)
+Дивіться також офіційну документацію [» MySQL Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.md)
 
 ### Значення, що повертаються
 
@@ -48,4 +48,4 @@ mysqli_refresh(mysqli $mysql, int $flags): bool
 
 ### Дивіться також
 
--   [mysqlipoll()](mysqli.poll.html) - Опитування підключень
+-   [mysqlipoll()](mysqli.poll.md) - Опитування підключень

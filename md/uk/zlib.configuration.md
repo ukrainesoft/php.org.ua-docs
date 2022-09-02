@@ -1,26 +1,26 @@
 ---
 navigation:
-  - zlib.installation.html: « Установка
-  - zlib.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - zlib.setup.html: Встановлення та налаштування
+  - zlib.installation.md: « Установка
+  - zlib.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - zlib.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
 
 Поведінка цих функцій залежить від установок у php.ini.
 
-Модуль zlib надає можливість стиснення сторінок, що передаються (в т.ч. динамічних) на льоту, якщо браузер це підтримує. За стиск відповідають три параметри в [конфігураційному файлі](configuration.file.html) php.ini.
+Модуль zlib надає можливість стиснення сторінок, що передаються (в т.ч. динамічних) на льоту, якщо браузер це підтримує. За стиск відповідають три параметри в [конфігураційному файлі](configuration.file.md) php.ini.
 
 **Параметри конфігурації Zlib**
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression) | "0" | PHPINIALL |  |
-| [zlib.outputcompressionlevel](zlib.configuration.html#ini.zlib.output-compression-level) | "-1" | PHPINIALL |  |
-| [zlib.outputhandler](zlib.configuration.html#ini.zlib.output-handler) | "" | PHPINIALL |  |
+| [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression) | "0" | PHPINIALL |  |
+| [zlib.outputcompressionlevel](zlib.configuration.md#ini.zlib.output-compression-level) | "-1" | PHPINIALL |  |
+| [zlib.outputhandler](zlib.configuration.md#ini.zlib.output-handler) | "" | PHPINIALL |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
@@ -32,7 +32,7 @@ title: Налаштування під час виконання
 
 > **Зауваження**
 > 
-> [outputhandler](outcontrol.configuration.html#ini.output-handler) має бути порожнім, якщо вибрано значення 'On'! Замість нього слід використовувати `zlib.output_handler`
+> [outputhandler](outcontrol.configuration.md#ini.output-handler) має бути порожнім, якщо вибрано значення 'On'! Замість нього слід використовувати `zlib.output_handler`
 
 `zlib.output_compression_level` int
 
@@ -40,4 +40,4 @@ title: Налаштування під час виконання
 
 `zlib.output_handler` string
 
-Якщо zlib.outputcompression активовано, не можна вказувати додаткові обробники виводу. Цей параметр виконує те саме, що і [outputhandler](outcontrol.configuration.html#ini.output-handler)але в іншому порядку.
+Якщо zlib.outputcompression активовано, не можна вказувати додаткові обробники виводу. Цей параметр виконує те саме, що і [outputhandler](outcontrol.configuration.md#ini.output-handler)але в іншому порядку.

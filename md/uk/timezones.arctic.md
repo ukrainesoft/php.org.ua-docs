@@ -1,9 +1,9 @@
 ---
 navigation:
-  - timezones.antarctica.html: Антарктика
-  - timezones.asia.html: Азия »
-  - index.html: PHP Manual
-  - timezones.html: Список підтримуваних часових поясів
+  - timezones.antarctica.md: Антарктика
+  - timezones.asia.md: Азия »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
 title: Арктика
 ---
 ## Арктика

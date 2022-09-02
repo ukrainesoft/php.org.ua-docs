@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdo.rollback.html: '« PDO::rollBack'
-  - class.pdostatement.html: PDOStatement »
-  - index.html: PHP Manual
-  - class.pdo.html: PDO
+  - pdo.rollback.md: '« PDO::rollBack'
+  - class.pdostatement.md: PDOStatement »
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
 title: 'PDO::setAttribute'
 ---
 # PDO::setAttribute

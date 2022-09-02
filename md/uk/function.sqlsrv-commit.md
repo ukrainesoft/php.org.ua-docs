@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-close.html: « sqlsrvclose
-  - function.sqlsrv-configure.html: sqlsrvconfigure »
+  - function.sqlsrv-close.md: « sqlsrvclose
+  - function.sqlsrv-configure.md: sqlsrvconfigure »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvcommit
@@ -18,7 +18,7 @@ sqlsrvcommit - Фіксує транзакцію, розпочату за доп
 sqlsrv_commit(resource $conn): bool
 ```
 
-Фіксує транзакцію, розпочату за допомогою [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.html). З'єднання повертається в режим автоматичної фіксації після дзвінка **sqlsrvcommit()**. Підтверджена транзакція включає всі оператори, які були виконані після виклику [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання SQL-операторів, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
+Фіксує транзакцію, розпочату за допомогою [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). З'єднання повертається в режим автоматичної фіксації після дзвінка **sqlsrvcommit()**. Підтверджена транзакція включає всі оператори, які були виконані після виклику [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання SQL-операторів, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ sqlsrv_commit(resource $conn): bool
 
 **Приклад #1 Приклад використання **sqlsrvcommit()****
 
-У наступному прикладі показано, як використовувати **sqlsrvcommit()** разом з [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.html) і [sqlsrvrollback()](function.sqlsrv-rollback.md)
+У наступному прикладі показано, як використовувати **sqlsrvcommit()** разом з [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) і [sqlsrvrollback()](function.sqlsrv-rollback.md)
 
 ```php
 <?php

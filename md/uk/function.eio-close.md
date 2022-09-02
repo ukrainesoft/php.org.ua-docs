@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-chown.html: « eiochown
-  - function.eio-custom.html: eiocustom »
+  - function.eio-chown.md: « eiochown
+  - function.eio-custom.md: eiocustom »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eioclose

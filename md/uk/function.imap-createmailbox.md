@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-create.html: « imapcreate
-  - function.imap-delete.html: imapdelete »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-create.md: « imapcreate
+  - function.imap-delete.md: imapdelete »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapcreatemailbox
 ---
 # imapcreatemailbox
@@ -24,15 +24,15 @@ imap_createmailbox(IMAP\Connection $imap, string $mailbox): bool
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `mailbox`
 
-Ім'я поштової скриньки. Детальніше дивіться [imapopen()](function.imap-open.html). Імена поштових скриньок, що містять міжнародні символи, повинні бути закодовані за допомогою [imaputf7encode()](function.imap-utf7-encode.html)
+Ім'я поштової скриньки. Детальніше дивіться [imapopen()](function.imap-open.md). Імена поштових скриньок, що містять міжнародні символи, повинні бути закодовані за допомогою [imaputf7encode()](function.imap-utf7-encode.md)
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 
@@ -42,7 +42,7 @@ imap_createmailbox(IMAP\Connection $imap, string $mailbox): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -100,5 +100,5 @@ imap_close($mbox);
 
 ### Дивіться також
 
--   [imaprenamemailbox()](function.imap-renamemailbox.html) - Перейменувати поштову скриньку
--   [imapdeletemailbox()](function.imap-deletemailbox.html) - Видалити поштову скриньку
+-   [imaprenamemailbox()](function.imap-renamemailbox.md) - Перейменувати поштову скриньку
+-   [imapdeletemailbox()](function.imap-deletemailbox.md) - Видалити поштову скриньку

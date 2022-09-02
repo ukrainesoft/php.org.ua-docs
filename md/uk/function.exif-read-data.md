@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.exif-imagetype.html: « exifimagetype
-  - function.exif-tagname.html: exiftagname »
+  - function.exif-imagetype.md: « exifimagetype
+  - function.exif-tagname.md: exiftagname »
   - index.md: PHP Manual
   - ref.exif.md: Exif Функції
 title: exifreaddata
@@ -113,7 +113,7 @@ FILE.FileDateTime: 1017666176
 FILE.FileSize: 1240
 FILE.FileType: 2
 FILE.SectionsFound: ANY_TAG, IFD0, THUMBNAIL, COMMENT
-COMPUTED.html: width="1" height="1"
+COMPUTED.md: width="1" height="1"
 COMPUTED.Height: 1
 COMPUTED.Width: 1
 COMPUTED.IsColor: 1
@@ -184,7 +184,7 @@ EXIF Headers:
 
 > **Зауваження**
 > 
-> Якщо дозволено [mbstring](ref.mbstring.md), то exif буде намагатися обробляти юнікод і брати кодування як зазначено в [exif.decodeunicodemotorola](exif.configuration.html#ini.exif.decode-unicode-motorola) і [exif.decodeunicodeintel](exif.configuration.html#ini.exif.decode-unicode-intel). Модуль exif не намагатиметься самостійно визначити кодування та вказівка ​​правильного кодування залишається на совісті користувача шляхом встановлення однієї з двох INI-директив перед викликом **exifreaddata()**
+> Якщо дозволено [mbstring](ref.mbstring.md), то exif буде намагатися обробляти юнікод і брати кодування як зазначено в [exif.decodeunicodemotorola](exif.configuration.md#ini.exif.decode-unicode-motorola) і [exif.decodeunicodeintel](exif.configuration.md#ini.exif.decode-unicode-intel). Модуль exif не намагатиметься самостійно визначити кодування та вказівка ​​правильного кодування залишається на совісті користувача шляхом встановлення однієї з двох INI-директив перед викликом **exifreaddata()**
 
 > **Зауваження**
 > 

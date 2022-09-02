@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mysql-get-client-info.html: « mysqlgetclientinfo
-  - function.mysql-get-proto-info.html: mysqlgetprotoinfo »
-  - index.html: PHP Manual
-  - ref.mysql.html: MySQL
+  - function.mysql-get-client-info.md: « mysqlgetclientinfo
+  - function.mysql-get-proto-info.md: mysqlgetprotoinfo »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
 title: mysqlgethostinfo
 ---
 # mysqlgethostinfo
@@ -14,10 +14,10 @@ mysqlgethostinfo — Повертає інформацію про з'єднан�
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqligethostinfo()](mysqli.get-host-info.html)
--   [PDO::getAttribute(PDO::ATTRCONNECTIONSTATUS)](pdo.getattribute.html)
+-   [mysqligethostinfo()](mysqli.get-host-info.md)
+-   [PDO::getAttribute(PDO::ATTRCONNECTIONSTATUS)](pdo.getattribute.md)
 
 ### Опис
 
@@ -31,7 +31,7 @@ mysql_get_host_info(resource $link_identifier = NULL): string|false
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -59,6 +59,6 @@ printf("Тип соединения с MySQL: %s\n", mysql_get_host_info())
 
 ### Дивіться також
 
--   [mysqlgetclientinfo()](function.mysql-get-client-info.html) - Повертає дані про MySQL-клієнт
--   [mysqlgetprotoinfo()](function.mysql-get-proto-info.html) - Повертає інформацію про протокол MySQL
--   [mysqlgetserverinfo()](function.mysql-get-server-info.html) - Повертає інформацію про сервер MySQL
+-   [mysqlgetclientinfo()](function.mysql-get-client-info.md) - Повертає дані про MySQL-клієнт
+-   [mysqlgetprotoinfo()](function.mysql-get-proto-info.md) - Повертає інформацію про протокол MySQL
+-   [mysqlgetserverinfo()](function.mysql-get-server-info.md) - Повертає інформацію про сервер MySQL

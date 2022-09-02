@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagecolorclosesthwb.html: « imagecolorclosesthwb
-  - function.imagecolorexact.html: imagecolorexact »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagecolorclosesthwb.md: « imagecolorclosesthwb
+  - function.imagecolorexact.md: imagecolorexact »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolordeallocate
 ---
 # imagecolordeallocate
@@ -18,13 +18,13 @@ imagecolordeallocate — Розрив асоціації змінної із к�
 imagecolordeallocate(GdImage $image, int $color): bool
 ```
 
-Розриває асоціацію змінної з кольором, яка раніше була створена функціями [imagecolorallocate()](function.imagecolorallocate.html) або [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
+Розриває асоціацію змінної з кольором, яка раніше була створена функціями [imagecolorallocate()](function.imagecolorallocate.md) або [imagecolorallocatealpha()](function.imagecolorallocatealpha.md)
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `color`
 

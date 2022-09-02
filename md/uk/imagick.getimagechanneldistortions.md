@@ -28,11 +28,11 @@ public Imagick::getImageChannelDistortions(Imagick $reference, int $metric, int 
 
 `metric`
 
-Зверніться до цього списку [констант типа METRIC](imagick.constants.html#imagick.constants.metric)
+Зверніться до цього списку [констант типа METRIC](imagick.constants.md#imagick.constants.metric)
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

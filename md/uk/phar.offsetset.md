@@ -40,7 +40,7 @@ public Phar::offsetSet(string $localName, resource|string $value): void
 
 ### Помилки
 
-Якщо опція [phar.readonly](phar.configuration.html#ini.phar.readonly) встановлений в `1`, то буде викинуто виняток [BadMethodCallException](class.badmethodcallexception.md)Так як модифікувати Phar-архів можна тільки, якщо phar.readonly дорівнює `0`. Якщо виникнуть якісь проблеми із записом на диск - викидається виняток [PharException](class.pharexception.md)
+Якщо опція [phar.readonly](phar.configuration.md#ini.phar.readonly) встановлений в `1`, то буде викинуто виняток [BadMethodCallException](class.badmethodcallexception.md)Так як модифікувати Phar-архів можна тільки, якщо phar.readonly дорівнює `0`. Якщо виникнуть якісь проблеми із записом на диск - викидається виняток [PharException](class.pharexception.md)
 
 ### Приклади
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - gender-gender.isnick.html: '« GenderGender::isNick'
+  - gender-gender.isnick.md: '« GenderGender::isNick'
   - book.gettext.md: Gettext »
   - index.md: PHP Manual
   - class.gender.md: GenderGender

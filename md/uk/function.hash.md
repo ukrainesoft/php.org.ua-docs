@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.hash-update.html: « hashupdate
+  - function.hash-update.md: « hashupdate
   - book.mcrypt.md: Mcrypt »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash

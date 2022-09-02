@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.setindent.html: '« XMLWriter::setIndent'
-  - xmlwriter.startattribute.html: 'XMLWriter::startAttribute »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.setindent.md: '« XMLWriter::setIndent'
+  - xmlwriter.startattribute.md: 'XMLWriter::startAttribute »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::setIndentString'
 ---
 # XMLWriter::setIndentString
@@ -34,7 +34,7 @@ xmlwriter_set_indent_string(XMLWriter $writer, string $indentation): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `indentString`
 

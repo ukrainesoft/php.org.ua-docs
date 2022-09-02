@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sessionhandler.close.html: '« SessionHandler::close'
-  - sessionhandler.destroy.html: 'SessionHandler::destroy »'
-  - index.html: PHP Manual
-  - class.sessionhandler.html: SessionHandler
+  - sessionhandler.close.md: '« SessionHandler::close'
+  - sessionhandler.destroy.md: 'SessionHandler::destroy »'
+  - index.md: PHP Manual
+  - class.sessionhandler.md: SessionHandler
 title: 'SessionHandler::createsid'
 ---
 # SessionHandler::createsid
@@ -30,5 +30,5 @@ public SessionHandler::create_sid(): string
 
 ### Дивіться також
 
--   [sessionid()](function.session-id.html) - Отримує та/або встановлює ідентифікатор поточної сесії
--   [sessioncreateid()](function.session-create-id.html) - створює новий ідентифікатор сесії
+-   [sessionid()](function.session-id.md) - Отримує та/або встановлює ідентифікатор поточної сесії
+-   [sessioncreateid()](function.session-create-id.md) - створює новий ідентифікатор сесії

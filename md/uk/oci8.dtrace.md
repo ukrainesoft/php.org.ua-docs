@@ -1,11 +1,11 @@
 ---
 navigation:
-  - oci8.taf.html: >-
+  - oci8.taf.md: >-
       « Поддержка прозрачного для приложений восстановления после отказа
       (Transparent Application Failover или TAF) для OCI8
-  - oci8.datatypes.html: 'Типи даних, що підтримуються »'
-  - index.html: PHP Manual
-  - book.oci8.html: OCI8
+  - oci8.datatypes.md: 'Типи даних, що підтримуються »'
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
 title: OCI8 та динамічне трасування DTrace
 ---
 # OCI8 та динамічне трасування DTrace
@@ -21,7 +21,7 @@ $ export PHP_DTRACE=yes
 $ pecl install oci8
 ```
 
-Відредагуйте php.ini, задавши [extensiondir](ini.core.html#ini.extension-dir) рівним директорії, в якій створився oci8.so, а також увімкніть модуль таким чином:
+Відредагуйте php.ini, задавши [extensiondir](ini.core.md#ini.extension-dir) рівним директорії, в якій створився oci8.so, а також увімкніть модуль таким чином:
 
 ```
 extension=oci8.so
@@ -51,7 +51,7 @@ extension=oci8.so
 
 Параметр clientid встановлюється функцією [ocisetclientidentifier()](function.oci-set-client-identifier.md)
 
-Ядро PHP містить статичні зонди. Дивіться розділ [Статичні зонди DTrace у ядрі PHP](features.dtrace.dtrace.html#features.dtrace.static-probes)
+Ядро PHP містить статичні зонди. Дивіться розділ [Статичні зонди DTrace у ядрі PHP](features.dtrace.dtrace.md#features.dtrace.static-probes)
 
 **Внутрішні налагоджувальні зонди DTrace в OCI8**
 

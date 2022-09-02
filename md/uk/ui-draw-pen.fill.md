@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-pen.clip.html: '« UIDrawPen::clip'
-  - ui-draw-pen.restore.html: 'ОЙDrawPen::restore »'
+  - ui-draw-pen.clip.md: '« UIDrawPen::clip'
+  - ui-draw-pen.restore.md: 'ОЙDrawPen::restore »'
   - index.md: PHP Manual
-  - class.ui-draw-pen.html: ОЙDrawPen
+  - class.ui-draw-pen.md: ОЙDrawPen
 title: 'ОЙDrawPen::fill'
 ---
 # ОЙDrawPen::fill

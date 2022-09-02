@@ -1,9 +1,9 @@
 ---
 navigation:
-  - fileinfo.installation.html: « Установка
-  - fileinfo.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - fileinfo.setup.html: Встановлення та налаштування
+  - fileinfo.installation.md: « Установка
+  - fileinfo.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - fileinfo.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

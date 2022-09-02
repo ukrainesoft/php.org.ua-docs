@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-collection.isempty.html: '« DsCollection::isEmpty'
-  - class.ds-hashable.html: Хешируемое »
+  - ds-collection.isempty.md: '« DsCollection::isEmpty'
+  - class.ds-hashable.md: Хешируемое »
   - index.md: PHP Manual
-  - class.ds-collection.html: Коллекция
+  - class.ds-collection.md: Коллекция
 title: 'ДсCollection::toArray'
 ---
 # ДсCollection::toArray

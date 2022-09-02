@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-spin.html: « UIControlsSpin
-  - ui-controls-spin.getvalue.html: 'ОЙControlsSpin::getValue »'
-  - index.html: PHP Manual
-  - class.ui-controls-spin.html: ОЙControlsSpin
+  - class.ui-controls-spin.md: « UIControlsSpin
+  - ui-controls-spin.getvalue.md: 'ОЙControlsSpin::getValue »'
+  - index.md: PHP Manual
+  - class.ui-controls-spin.md: ОЙControlsSpin
 title: 'ОЙControlsSpin::construct'
 ---
 # ОЙControlsSpin::construct

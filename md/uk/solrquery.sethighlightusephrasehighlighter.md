@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.sethighlightsnippets.html: '« SolrQuery::setHighlightSnippets'
-  - solrquery.setmlt.html: 'SolrQuery::setMlt »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.sethighlightsnippets.md: '« SolrQuery::setHighlightSnippets'
+  - solrquery.setmlt.md: 'SolrQuery::setMlt »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightUsePhraseHighlighter'
 ---
 # SolrQuery::setHighlightUsePhraseHighlighter

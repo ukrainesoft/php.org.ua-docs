@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-unshift.html: « arrayunshift
-  - function.array-walk-recursive.html: arraywalkrecursive »
+  - function.array-unshift.md: « arrayunshift
+  - function.array-walk-recursive.md: arraywalkrecursive »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayvalues

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - messageformatter.geterrorcode.html: '« MessageFormatter::getErrorCode'
-  - messageformatter.getlocale.html: 'MessageFormatter::getLocale »'
-  - index.html: PHP Manual
-  - class.messageformatter.html: MessageFormatter
+  - messageformatter.geterrorcode.md: '« MessageFormatter::getErrorCode'
+  - messageformatter.getlocale.md: 'MessageFormatter::getLocale »'
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::getErrorMessage'
 ---
 # MessageFormatter::getErrorMessage

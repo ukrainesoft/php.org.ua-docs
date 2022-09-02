@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-connect.html: « ociconnect
-  - function.oci-error.html: ocierror »
+  - function.oci-connect.md: « ociconnect
+  - function.oci-error.md: ocierror »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocidefineбname
@@ -26,7 +26,7 @@ oci_define_by_name(    resource $statement,    string $column,    mi
 
 `statement`
 
-Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.html) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
+Коректний ідентифікатор виразу OCI8, отриманий з [ociparse()](function.oci-parse.md) та виконаний функцією [ociexecute()](function.oci-execute.md), або ідентифікатор виразу `REF CURSOR`
 
 `column`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.rotate.html: '« DsSequence::rotate'
-  - ds-sequence.shift.html: 'ДсSequence::shift »'
+  - ds-sequence.rotate.md: '« DsSequence::rotate'
+  - ds-sequence.shift.md: 'ДсSequence::shift »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::set'
 ---
 # ДсSequence::set

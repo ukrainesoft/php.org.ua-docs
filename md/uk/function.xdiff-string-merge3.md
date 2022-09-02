@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xdiff-string-diff.html: xdiffstringdiff
-  - function.xdiff-string-patch-binary.html: xdiffstringpatchbinary »
-  - index.html: PHP Manual
-  - ref.xdiff.html: Функції xdiff
+  - function.xdiff-string-diff.md: xdiffstringdiff
+  - function.xdiff-string-patch-binary.md: xdiffstringpatchbinary »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
 title: xdiffstringmerge3
 ---
 # xdiffstringmerge3
@@ -44,4 +44,4 @@ xdiff_string_merge3(    string $old_data,    string $new_data1,    s
 
 ### Дивіться також
 
--   [xdifffilemerge3()](function.xdiff-file-merge3.html) - Об'єднання трьох файлів в один
+-   [xdifffilemerge3()](function.xdiff-file-merge3.md) - Об'єднання трьох файлів в один

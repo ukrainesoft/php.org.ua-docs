@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.toarray.html: '« DsMap::toArray'
-  - ds-map.values.html: 'ДсMap::values »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.toarray.md: '« DsMap::toArray'
+  - ds-map.values.md: 'ДсMap::values »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::union'
 ---
 # ДсMap::union

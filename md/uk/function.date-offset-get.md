@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-modify.html: « datemodify
-  - function.date-parse-from-format.html: dateparsefromformat »
+  - function.date-modify.md: « datemodify
+  - function.date-parse-from-format.md: dateparsefromformat »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: dateoffsetget

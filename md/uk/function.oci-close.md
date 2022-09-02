@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-client-version.html: « ociclientversion
-  - function.oci-commit.html: ocicommit »
+  - function.oci-client-version.md: « ociclientversion
+  - function.oci-commit.md: ocicommit »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociclose
@@ -18,7 +18,7 @@ ociclose — Закриває з'єднання із сервером Oracle
 oci_close(resource $connection): ?bool
 ```
 
-Звільняє `connection`. Відповідне йому з'єднання з базою даних буде закрито за відсутності ресурсів, що його використовують, і якщо воно було отримано з функції [ociconnect()](function.oci-connect.html) або [ocinewconnect()](function.oci-new-connect.md)
+Звільняє `connection`. Відповідне йому з'єднання з базою даних буде закрито за відсутності ресурсів, що його використовують, і якщо воно було отримано з функції [ociconnect()](function.oci-connect.md) або [ocinewconnect()](function.oci-new-connect.md)
 
 Рекомендується закривати більше не використовувані з'єднання, т.к. це звільняє ресурси бази даних іншим користувачам.
 
@@ -26,11 +26,11 @@ oci_close(resource $connection): ?bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.md)
+Ідентифікатор з'єднання Oracle, отриманий із функцій [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md) або [ocinewconnect()](function.oci-new-connect.md)
 
 ### Значення, що повертаються
 
-Повертає **`null`** якщо [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) включений або **`true`** в іншому випадку.
+Повертає **`null`** якщо [oci8.oldociclosesemantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics) включений або **`true`** в іншому випадку.
 
 ### Приклади
 
@@ -158,7 +158,7 @@ print $r;  // отображает возвращённое функцие
 
 > **Зауваження**
 > 
-> До версії PHP 5.1.2 (PECL OCI8 1.1) **ociclose()** не виконувала жодних дій. У новіших версіях вона вже правильно закриває з'єднання. Використовуйте директиву [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) відновлення старої поведінки цієї функції.
+> До версії PHP 5.1.2 (PECL OCI8 1.1) **ociclose()** не виконувала жодних дій. У новіших версіях вона вже правильно закриває з'єднання. Використовуйте директиву [oci8.oldociclosesemantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics) відновлення старої поведінки цієї функції.
 
 > **Зауваження**
 > 

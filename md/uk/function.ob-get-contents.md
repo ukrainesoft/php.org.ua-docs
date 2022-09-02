@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ob-get-clean.html: « obgetclean
-  - function.ob-get-flush.html: проgetflush »
+  - function.ob-get-clean.md: « obgetclean
+  - function.ob-get-flush.md: проgetflush »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
 title: проgetcontents

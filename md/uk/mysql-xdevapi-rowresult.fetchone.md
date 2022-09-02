@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-rowresult.fetchall.html: '« RowResult::fetchAll'
-  - mysql-xdevapi-rowresult.getcolumncount.html: 'RowResult::getColumnsCount »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+  - mysql-xdevapi-rowresult.fetchall.md: '« RowResult::fetchAll'
+  - mysql-xdevapi-rowresult.getcolumncount.md: 'RowResult::getColumnsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
 title: 'RowResult::fetchOne'
 ---
 # RowResult::fetchOne

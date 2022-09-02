@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-is-list.html: « arrayісlist
-  - function.array-key-first.html: arraykeyfirst »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-is-list.md: « arrayісlist
+  - function.array-key-first.md: arraykeyfirst »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraykeyexists
 ---
 # arraykeyexists
@@ -51,9 +51,9 @@ if (array_key_exists('first', $search_array)) {
 ?>
 ```
 
-**Приклад #2 **arraykeyexists()** і [isset()](function.isset.html)**
+**Приклад #2 **arraykeyexists()** і [isset()](function.isset.md)**
 
-[isset()](function.isset.html) не повертає **`true`** для ключів масиву, що вказують на **`null`**, а **arraykeyexists()** повертає.
+[isset()](function.isset.md) не повертає **`true`** для ключів масиву, що вказують на **`null`**, а **arraykeyexists()** повертає.
 
 ```php
 <?php
@@ -73,11 +73,11 @@ array_key_exists('first', $search_array);
 > 
 > З причин зворотної сумісності, **arraykeyexists()** повертає **`true`**, якщо `key` є властивістю об'єкта (object), переданим як параметр `array`. Поведінка застаріла у PHP 7.4.0 та видалена у PHP 8.0.0.
 > 
-> Щоб перевірити, чи містить об'єкт будь-яку властивість, використовуйте функцію [propertyexists()](function.property-exists.html)
+> Щоб перевірити, чи містить об'єкт будь-яку властивість, використовуйте функцію [propertyexists()](function.property-exists.md)
 
 ### Дивіться також
 
--   [isset()](function.isset.html) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
--   [arraykeys()](function.array-keys.html) - Повертає все або деяке підмножина ключів масиву
--   [інarray()](function.in-array.html) - Перевіряє, чи є у масиві значення
--   [propertyexists()](function.property-exists.html) - Перевіряє, чи містить об'єкт чи клас зазначений атрибут
+-   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
+-   [arraykeys()](function.array-keys.md) - Повертає все або деяке підмножина ключів масиву
+-   [інarray()](function.in-array.md) - Перевіряє, чи є у масиві значення
+-   [propertyexists()](function.property-exists.md) - Перевіряє, чи містить об'єкт чи клас зазначений атрибут

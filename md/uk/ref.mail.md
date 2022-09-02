@@ -1,7 +1,7 @@
 ---
 navigation:
   - mail.constants.md: « Обумовлені константи
-  - function.ezmlm-hash.html: ezmlmhash »
+  - function.ezmlm-hash.md: ezmlmhash »
   - index.md: PHP Manual
   - book.mail.md: Mail
 title: Пошта

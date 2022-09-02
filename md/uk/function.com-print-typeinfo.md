@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.com-message-pump.html: « commessagepump
-  - function.variant-abs.html: variantabs »
-  - index.html: PHP Manual
-  - ref.com.html: Функции COM
+  - function.com-message-pump.md: « commessagepump
+  - function.variant-abs.md: variantabs »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
 title: comprinttypeinfo
 ---
 # comprinttypeinfo

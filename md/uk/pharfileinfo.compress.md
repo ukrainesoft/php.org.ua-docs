@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pharfileinfo.chmod.html: '« PharFileInfo::chmod'
-  - pharfileinfo.construct.html: 'PharFileInfo::construct »'
-  - index.html: PHP Manual
-  - class.pharfileinfo.html: PharFileInfo
+  - pharfileinfo.chmod.md: '« PharFileInfo::chmod'
+  - pharfileinfo.construct.md: 'PharFileInfo::construct »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::compress'
 ---
 # PharFileInfo::compress
@@ -18,7 +18,7 @@ PharFileInfo::compress — Стиснути поточний файл за до�
 public PharFileInfo::compress(int $compression): bool
 ```
 
-Цей метод стискає файл усередині phar-архіву за допомогою bzip2 чи zlib. Для конкретних алгоритмів стиснення необхідно, щоб були підключені модулі [bzip2](ref.bzip2.html) або [zlib](ref.zlib.html) відповідно. Також, якщо файл вже стиснутий, то для його розтискання буде потрібно відповідний модуль. Так як дана функціональність змінює вміст архіву, для його нормальної роботи необхідно, щоб INI-опція [phar.readonly](phar.configuration.html#ini.phar.readonly) було відключено, інакше не вдасться внести зміни до архіву [Phar](class.phar.html). Файли [PharData](class.phardata.html) не мають обмежень, пов'язаних із налаштуванням у php.ini.
+Цей метод стискає файл усередині phar-архіву за допомогою bzip2 чи zlib. Для конкретних алгоритмів стиснення необхідно, щоб були підключені модулі [bzip2](ref.bzip2.md) або [zlib](ref.zlib.md) відповідно. Також, якщо файл вже стиснутий, то для його розтискання буде потрібно відповідний модуль. Так як дана функціональність змінює вміст архіву, для його нормальної роботи необхідно, щоб INI-опція [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено, інакше не вдасться внести зміни до архіву [Phar](class.phar.md). Файли [PharData](class.phardata.md) не мають обмежень, пов'язаних із налаштуванням у php.ini.
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public PharFileInfo::compress(int $compression): bool
 
 ### Помилки
 
-Викидає [BadMethodCallException](class.badmethodcallexception.html), якщо INI-опція [phar.readonly](phar.configuration.html#ini.phar.readonly) увімкнено, або якщо відповідний модуль [bzip2](ref.bzip2.html)[zlib](ref.zlib.html) недоступний.
+Викидає [BadMethodCallException](class.badmethodcallexception.md), якщо INI-опція [phar.readonly](phar.configuration.md#ini.phar.readonly) увімкнено, або якщо відповідний модуль [bzip2](ref.bzip2.md)[zlib](ref.zlib.md) недоступний.
 
 ### Приклади
 
@@ -62,13 +62,13 @@ bool(true)
 
 ### Дивіться також
 
--   [PharFileInfo::getCompressedSize()](pharfileinfo.getcompressedsize.html) - Отримати реальний розмір файлу на диску з урахуванням стиснення
--   [PharFileInfo::isCompressed()](pharfileinfo.iscompressed.html) - Перевірити, чи стиснутий файл
--   [PharFileInfo::decompress()](pharfileinfo.decompress.html) - Розтискає поточний файл
--   [Phar::canCompress()](phar.cancompress.html) - Перевіряє, чи підтримує модуль phar стиск з використанням zlib або bzip2
--   [Phar::isCompressed()](phar.iscompressed.html) - Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
--   [Phar::compressFiles()](phar.compressfiles.html) - Стискає всі файли у поточному Phar-архіві
--   [Phar::decompressFiles()](phar.decompressfiles.html) - Розпаковує всі файли в поточному Phar-архіві
--   [Phar::compress()](phar.compress.html) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
--   [Phar::decompress()](phar.decompress.html) - Розпаковує весь Phar-архів
--   [Phar::getSupportedCompression()](phar.getsupportedcompression.html) - Повертає масив підтримуваних алгоритмів стиснення
+-   [PharFileInfo::getCompressedSize()](pharfileinfo.getcompressedsize.md) - Отримати реальний розмір файлу на диску з урахуванням стиснення
+-   [PharFileInfo::isCompressed()](pharfileinfo.iscompressed.md) - Перевірити, чи стиснутий файл
+-   [PharFileInfo::decompress()](pharfileinfo.decompress.md) - Розтискає поточний файл
+-   [Phar::canCompress()](phar.cancompress.md) - Перевіряє, чи підтримує модуль phar стиск з використанням zlib або bzip2
+-   [Phar::isCompressed()](phar.iscompressed.md) - Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів стиснутий повністю (.tar.gz/tar.bz і так далі)
+-   [Phar::compressFiles()](phar.compressfiles.md) - Стискає всі файли у поточному Phar-архіві
+-   [Phar::decompressFiles()](phar.decompressfiles.md) - Розпаковує всі файли в поточному Phar-архіві
+-   [Phar::compress()](phar.compress.md) - Стискає весь Phar-архів за допомогою Gzip- або Bzip2-стиснення
+-   [Phar::decompress()](phar.decompress.md) - Розпаковує весь Phar-архів
+-   [Phar::getSupportedCompression()](phar.getsupportedcompression.md) - Повертає масив підтримуваних алгоритмів стиснення

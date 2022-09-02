@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.opcache-get-configuration.html: « opcachegetconfiguration
-  - function.opcache-invalidate.html: opcacheinvalidate »
-  - index.html: PHP Manual
-  - ref.opcache.html: Функции OPcache
+  - function.opcache-get-configuration.md: « opcachegetconfiguration
+  - function.opcache-invalidate.md: opcacheinvalidate »
+  - index.md: PHP Manual
+  - ref.opcache.md: Функции OPcache
 title: opcachegetstatus
 ---
 # opcachegetstatus
@@ -36,4 +36,4 @@ opcache_get_status(bool $include_scripts = true): array|false
 
 ### Дивіться також
 
--   [opcachegetconfiguration()](function.opcache-get-configuration.html) - Отримати конфігураційну інформацію кешу
+-   [opcachegetconfiguration()](function.opcache-get-configuration.md) - Отримати конфігураційну інформацію кешу

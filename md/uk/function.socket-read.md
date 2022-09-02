@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-listen.html: « socketlisten
-  - function.socket-recv.html: socketrecv »
+  - function.socket-listen.md: « socketlisten
+  - function.socket-recv.md: socketrecv »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketread
@@ -18,13 +18,13 @@ socketread — Читає рядок максимальну довжину ба�
 socket_read(Socket $socket, int $length, int $mode = PHP_BINARY_READ): string|false
 ```
 
-Функція **socketread()** читає дані з екземпляра [Socket](class.socket.md) `socket`, створеного за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.md)
+Функція **socketread()** читає дані з екземпляра [Socket](class.socket.md) `socket`, створеного за допомогою функцій [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
 
 ### Список параметрів
 
 `socket`
 
-Екземпляр [Socket](class.socket.md)створений за допомогою функцій [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.md)
+Екземпляр [Socket](class.socket.md)створений за допомогою функцій [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
 
 `length`
 
@@ -39,7 +39,7 @@ socket_read(Socket $socket, int $length, int $mode = PHP_BINARY_READ): string|fa
 
 ### Значення, що повертаються
 
-**socketread()** повертає дані у вигляді рядка у разі успішного виконання, або **`false`** у разі виникнення помилки (включаючи випадок, коли віддалений хост закрив з'єднання). Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
+**socketread()** повертає дані у вигляді рядка у разі успішного виконання, або **`false`** у разі виникнення помилки (включаючи випадок, коли віддалений хост закрив з'єднання). Код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.md). Цей код може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 > **Зауваження**
 > 

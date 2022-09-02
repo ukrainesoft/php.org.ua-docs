@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sessionhandler.write.html: '« SessionHandler::write'
-  - sessionhandlerinterface.close.html: 'SessionHandlerInterface::close »'
-  - index.html: PHP Manual
-  - book.session.html: Сессии
+  - sessionhandler.write.md: '« SessionHandler::write'
+  - sessionhandlerinterface.close.md: 'SessionHandlerInterface::close »'
+  - index.md: PHP Manual
+  - book.session.md: Сессии
 title: Клас SessionHandlerInterface
 ---
 # Клас SessionHandlerInterface

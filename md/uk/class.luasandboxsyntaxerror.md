@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.luasandboxruntimeerror.html: « LuaSandboxRuntimeError
-  - class.luasandboxtimeouterror.html: LuaSandboxTimeoutError »
-  - index.html: PHP Manual
-  - book.luasandbox.html: LuaSandbox
+  - class.luasandboxruntimeerror.md: « LuaSandboxRuntimeError
+  - class.luasandboxtimeouterror.md: LuaSandboxTimeoutError »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
 title: Клас LuaSandboxSyntaxError
 ---
 # Клас LuaSandboxSyntaxError

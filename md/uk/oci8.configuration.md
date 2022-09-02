@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oci8.test.html: « Тестування
-  - oci8.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - oci8.setup.html: Встановлення та налаштування
+  - oci8.test.md: « Тестування
+  - oci8.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - oci8.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,16 +14,16 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [oci8.connectionclass](oci8.configuration.html#ini.oci8.connection-class) | "" | PHPINIALL | Доступна з версії PECL OCI8 1.3. |
-| [oci8.defaultprefetch](oci8.configuration.html#ini.oci8.default-prefetch) | "100" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.events](oci8.configuration.html#ini.oci8.events) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.3. |
-| [oci8.maxpersistent](oci8.configuration.html#ini.oci8.max-persistent) | "-1" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. Оголошена застарілою починаючи з PHP 8.1.0. |
-| [oci8.oldociclosesemantics](oci8.configuration.html#ini.oci8.old-oci-close-semantics) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.persistenttimeout](oci8.configuration.html#ini.oci8.persistent-timeout) | "-1" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.pinginterval](oci8.configuration.html#ini.oci8.ping-interval) | "60" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.prefetchlobsize](oci8.configuration.html#ini.oci8.prefetch-lob-size) | "0" | PHPINISYSTEM | Доступна з версії PECL OCI8 3.2. |
-| [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.statementcachesize](oci8.configuration.html#ini.oci8.statement-cache-size) | "20" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.connectionclass](oci8.configuration.md#ini.oci8.connection-class) | "" | PHPINIALL | Доступна з версії PECL OCI8 1.3. |
+| [oci8.defaultprefetch](oci8.configuration.md#ini.oci8.default-prefetch) | "100" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.events](oci8.configuration.md#ini.oci8.events) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.3. |
+| [oci8.maxpersistent](oci8.configuration.md#ini.oci8.max-persistent) | "-1" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. Оголошена застарілою починаючи з PHP 8.1.0. |
+| [oci8.oldociclosesemantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.persistenttimeout](oci8.configuration.md#ini.oci8.persistent-timeout) | "-1" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.pinginterval](oci8.configuration.md#ini.oci8.ping-interval) | "60" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.prefetchlobsize](oci8.configuration.md#ini.oci8.prefetch-lob-size) | "0" | PHPINISYSTEM | Доступна з версії PECL OCI8 3.2. |
+| [oci8.privilegedconnect](oci8.configuration.md#ini.oci8.privileged-connect) | Off | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
+| [oci8.statementcachesize](oci8.configuration.md#ini.oci8.statement-cache-size) | "20" | PHPINISYSTEM | Доступна з версії PECL OCI8 1.1. |
 
 Коротке пояснення конфігураційних директив.
 
@@ -31,7 +31,7 @@ title: Налаштування під час виконання
 
 Цей текст, що визначається користувачем, обов'язково повинен бути заданий при використанні резидентного пулу з'єднань бази даних Oracle (Database Resident Connection Pooling (DRCP)). Це дозволяє суб-партиціонування пулу з'єднань DRCP, що дозволяє постійним з'єднанням OCI8 із програми знову використовувати сесії бази даних від попереднього PHP-скрипту, покращуючи масштабованість. Якщо програма використовує процес з пулу бази даних, який раніше використовується з іншим класом з'єднань, налаштування сесії, такі як формат дати Oracle, будуть скинуті. Це запобігає випадковому обміну інформацією між різними додатками.
 
-Значення може бути встановлене під час виконання скрипту за допомогою [iniset()](function.ini-set.html) до встановлення з'єднання.
+Значення може бути встановлене під час виконання скрипту за допомогою [iniset()](function.ini-set.md) до встановлення з'єднання.
 
 Для використання DRCP, OCI8 має бути зібрана з бібліотеками Oracle 11*г* або новіше і база даних має бути Oracle 11*г* чи новіший. Пул з'єднань DRCP у базі даних має бути включений, `oci8.connection_class` має бути встановлене в те саме рядкове значення для всіх веб-серверів, що виконують одну і ту ж програму, а рядок з'єднання OCI8 повинен вказувати на сервер з пула. Програма повинна використовувати постійні з'єднання.
 
@@ -39,9 +39,9 @@ title: Налаштування під час виконання
 
 Ця опція встановлює значення за замовчуванням для кількості екстра рядів, які будуть повернуті та автоматично закешовані за низькорівневого запиту даних з бази даних. Встановлення значення в `0` вимикає попередню вибірку (prefetching).
 
-Значення попередньої вибірки не змінює кількість рядів, що повертаються користувачеві такими функціями як [ocifetcharray()](function.oci-fetch-array.html); OCI8 внутрішньо обробляє попередню вибірку та кешування рядів.
+Значення попередньої вибірки не змінює кількість рядів, що повертаються користувачеві такими функціями як [ocifetcharray()](function.oci-fetch-array.md); OCI8 внутрішньо обробляє попередню вибірку та кешування рядів.
 
-Значення може бути встановлене окремо для кожного виразу (per-statement) за допомогою [ocisetprefetch()](function.oci-set-prefetch.html) до виконання самого виразу.
+Значення може бути встановлене окремо для кожного виразу (per-statement) за допомогою [ocisetprefetch()](function.oci-set-prefetch.md) до виконання самого виразу.
 
 У PHP 5.3 (PECL OCI8 1.3.4) значення за замовчуванням було збільшено з `10` до `100`
 
@@ -67,21 +67,21 @@ title: Налаштування під час виконання
 
 `oci8.old_oci_close_semantics` bool
 
-Ця опція контролює поведінку функції [ociclose()](function.oci-close.html). Її включення означає, що [ociclose()](function.oci-close.html) не робить нічого; з'єднання не буде закрито, доки не закінчиться виконання скрипту. Це зроблено лише з метою зворотної сумісності. Якщо ви відчуваєте потребу в цьому налаштуванні, *суворо рекомендується* налаштувати виклики [ociclose()](function.oci-close.html) у ваших скриптах замість увімкнення цієї опції.
+Ця опція контролює поведінку функції [ociclose()](function.oci-close.md). Її включення означає, що [ociclose()](function.oci-close.md) не робить нічого; з'єднання не буде закрито, доки не закінчиться виконання скрипту. Це зроблено лише з метою зворотної сумісності. Якщо ви відчуваєте потребу в цьому налаштуванні, *суворо рекомендується* налаштувати виклики [ociclose()](function.oci-close.md) у ваших скриптах замість увімкнення цієї опції.
 
 `oci8.persistent_timeout` int
 
-Максимальна кількість секунд, що дозволяється PHP-процесу тримати постійне з'єднання відкритим, що не використовується. Встановлення цієї опції в -1 означає, що з'єднання, що не використовуються, будуть утримані, поки PHP-процес не завершить своє виконання або з'єднання не буде примусово закрито за допомогою функції [ociclose()](function.oci-close.html)
+Максимальна кількість секунд, що дозволяється PHP-процесу тримати постійне з'єднання відкритим, що не використовується. Встановлення цієї опції в -1 означає, що з'єднання, що не використовуються, будуть утримані, поки PHP-процес не завершить своє виконання або з'єднання не буде примусово закрито за допомогою функції [ociclose()](function.oci-close.md)
 
 > **Зауваження**: У PHP закінчення терміну дії ресурсів, що не використовуються, не засноване на повідомленнях. Воно відбувається коли PHP завершує обробку скрипта і перевіряє позначку часу останніх використаних ресурсів. Звідси виникає наступний парадокс: з'єднання, що не використовуються, можуть бути закриті тільки коли є деяка активність (хоча і не обов'язково пов'язана з OCI8) в PHP-процесі. Якщо є більше одного PHP-процесу, то кожен з них окремо повинен бути приведений в дію для того, щоб ініціювати закінчення терміну дії ресурсів, що простоюють. Введення резидентного пулу з'єднань бази даних (DRCP) у Oracle 11*г* вирішує проблеми з пам'яттю та ресурсами, які раніше намагалися вирішити `oci8.max_persistent` і `oci8.persistent_timeout`
 
-> **Зауваження**: У PHP 5.3 (PECL OCI8 1.3), постійні з'єднання можуть бути закриті за допомогою [ociclose()](function.oci-close.html)
+> **Зауваження**: У PHP 5.3 (PECL OCI8 1.3), постійні з'єднання можуть бути закриті за допомогою [ociclose()](function.oci-close.md)
 
 `oci8.ping_interval` int
 
-Кількість секунд, що має пройти до пінгу протягом виконання [ocipconnect()](function.oci-pconnect.html). Пінг забезпечує коректність з'єднання бази даних. Якщо встановлено 0, постійні з'єднання пінгуватимуться під час кожного виклику [ocipconnect()](function.oci-pconnect.html). Для повного відключення пінгів встановіть цю опцію -1.
+Кількість секунд, що має пройти до пінгу протягом виконання [ocipconnect()](function.oci-pconnect.md). Пінг забезпечує коректність з'єднання бази даних. Якщо встановлено 0, постійні з'єднання пінгуватимуться під час кожного виклику [ocipconnect()](function.oci-pconnect.md). Для повного відключення пінгів встановіть цю опцію -1.
 
-> **Зауваження**: Відключення пінгів дозволяє [ocipconnect()](function.oci-pconnect.html) діяти з максимальною ефективністю, але PHP може бути нездатним визначити непридатні з'єднання, наприклад, при обриві мережі або при відключенні бази даних Oracle після того, як PHP встановив з'єднання, доки з'єднання знову не буде використано в скрипті. Проконсультуйтеся з документацією функції [ocipconnect()](function.oci-pconnect.html) для більш детальної інформації.
+> **Зауваження**: Відключення пінгів дозволяє [ocipconnect()](function.oci-pconnect.md) діяти з максимальною ефективністю, але PHP може бути нездатним визначити непридатні з'єднання, наприклад, при обриві мережі або при відключенні бази даних Oracle після того, як PHP встановив з'єднання, доки з'єднання знову не буде використано в скрипті. Проконсультуйтеся з документацією функції [ocipconnect()](function.oci-pconnect.md) для більш детальної інформації.
 
 `oci8.prefetch_lob_size` int
 
@@ -89,7 +89,7 @@ title: Налаштування під час виконання
 
 Значення впливає на LOB, що повертаються як екземпляри OCILob, а також на ті, що повертаються з використанням **`OCI_RETURN_LOBS`**
 
-Значення може бути встановлене для кожного оператора за допомогою функції [ocisetprefetchlob()](function.oci-set-prefetch-lob.html) до виконання оператора.
+Значення може бути встановлене для кожного оператора за допомогою функції [ocisetprefetchlob()](function.oci-set-prefetch-lob.md) до виконання оператора.
 
 > **Зауваження**: Використовуйте з Oracle Database 12.2 або новішим.
 

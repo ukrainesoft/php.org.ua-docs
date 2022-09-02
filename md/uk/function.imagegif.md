@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagegetinterpolation.html: « imagegetinterpolation
-  - function.imagegrabscreen.html: imagegrabscreen »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagegetinterpolation.md: « imagegetinterpolation
+  - function.imagegrabscreen.md: imagegrabscreen »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegif
 ---
 # imagegif
@@ -18,15 +18,15 @@ imagegif - Виводить зображення в браузер або пиш
 imagegif(GdImage $image, resource|string|null $file = null): bool
 ```
 
-**imagegif()** створює GIF файл `file` із зображення `image`. Аргумент `image` повертається функціями [imagecreate()](function.imagecreate.html) або `imagecreatefrom*`
+**imagegif()** створює GIF файл `file` із зображення `image`. Аргумент `image` повертається функціями [imagecreate()](function.imagecreate.md) або `imagecreatefrom*`
 
-Файл матиме формат GIF87a, якщо зображення не було зроблено прозорою функцією [imagecolortransparent()](function.imagecolortransparent.html). У цьому випадку формат файлу буде GIF89a.
+Файл матиме формат GIF87a, якщо зображення не було зроблено прозорою функцією [imagecolortransparent()](function.imagecolortransparent.md). У цьому випадку формат файлу буде GIF89a.
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -44,7 +44,7 @@ imagegif(GdImage $image, resource|string|null $file = null): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -148,7 +148,7 @@ echo 'Преобразование PNG в GIF успешно заверш�
 
 > **Зауваження**
 > 
-> Ви можете використовувати функцію [imagetypes()](function.imagetypes.html) для перевірки, які формати підтримуються:
+> Ви можете використовувати функцію [imagetypes()](function.imagetypes.md) для перевірки, які формати підтримуються:
 > 
 > ```php
 > <?php
@@ -166,7 +166,7 @@ echo 'Преобразование PNG в GIF успешно заверш�
 
 ### Дивіться також
 
--   [imagepng()](function.imagepng.html) - Виведення PNG зображення у браузер або файл
--   [imagewbmp()](function.imagewbmp.html) - Виводить зображення до браузера або пише у файл
--   [imagejpeg()](function.imagejpeg.html) - Виводить зображення до браузера або пише у файл
--   [imagetypes()](function.imagetypes.html) - Повертає список типів зображень, які підтримує PHP збірка
+-   [imagepng()](function.imagepng.md) - Виведення PNG зображення у браузер або файл
+-   [imagewbmp()](function.imagewbmp.md) - Виводить зображення до браузера або пише у файл
+-   [imagejpeg()](function.imagejpeg.md) - Виводить зображення до браузера або пише у файл
+-   [imagetypes()](function.imagetypes.md) - Повертає список типів зображень, які підтримує PHP збірка

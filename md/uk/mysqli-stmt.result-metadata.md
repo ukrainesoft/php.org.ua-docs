@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.reset.html: '« mysqlistmt::reset'
-  - mysqli-stmt.send-long-data.html: 'mysqlistmt::sendlongdata »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.reset.md: '« mysqlistmt::reset'
+  - mysqli-stmt.send-long-data.md: 'mysqlistmt::sendlongdata »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::resultmetadata'
 ---
 # mysqlistmt::resultmetadata
@@ -61,7 +61,7 @@ mysqli_stmt_result_metadata(mysqli_stmt $statement): mysqli_result|false
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

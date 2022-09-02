@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.image-type-to-mime-type.html: « imagetypeтоmimetype
+  - function.image-type-to-mime-type.md: « imagetypeтоmimetype
   - function.imageaffine.md: imageaffine »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-status.html: « imapstatus
-  - function.imap-thread.html: imapthread »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-status.md: « imapstatus
+  - function.imap-thread.md: imapthread »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapsubscribe
 ---
 # imapsubscribe
@@ -32,7 +32,7 @@ imap_subscribe(IMAP\Connection $imap, string $mailbox): bool
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 ### Значення, що повертаються
 
@@ -42,7 +42,7 @@ imap_subscribe(IMAP\Connection $imap, string $mailbox): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

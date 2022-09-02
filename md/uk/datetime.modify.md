@@ -1,7 +1,7 @@
 ---
 navigation:
   - datetime.getlasterrors.md: '« DateTime::getLastErrors'
-  - datetime.set-state.html: 'DateTime::setstate »'
+  - datetime.set-state.md: 'DateTime::setstate »'
   - index.md: PHP Manual
   - class.datetime.md: DateTime
 title: 'DateTime::modify'

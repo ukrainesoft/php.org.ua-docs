@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-orderedlist.html: « CommonMarkNodeOrderedList
-  - class.commonmark-node-item.html: CommonMarkNodeItem »
+  - class.commonmark-node-orderedlist.md: « CommonMarkNodeOrderedList
+  - class.commonmark-node-item.md: CommonMarkNodeItem »
   - index.md: PHP Manual
-  - class.commonmark-node-orderedlist.html: CommonMarkNodeOrderedList
+  - class.commonmark-node-orderedlist.md: CommonMarkNodeOrderedList
 title: 'CommonMarkNodeOrderedList::construct'
 ---
 # CommonMarkNodeOrderedList::construct

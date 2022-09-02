@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-midprice.html: « tradermidprice
-  - function.trader-minindex.html: traderminindex »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-midprice.md: « tradermidprice
+  - function.trader-minindex.md: traderminindex »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradermin
 ---
 # tradermin

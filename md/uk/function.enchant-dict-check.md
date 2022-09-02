@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-dict-add.html: « enchantdictadd
-  - function.enchant-dict-describe.html: enchantdictdescribe »
+  - function.enchant-dict-add.md: « enchantdictadd
+  - function.enchant-dict-describe.md: enchantdictdescribe »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantdictcheck
@@ -24,7 +24,7 @@ enchant_dict_check(EnchantDictionary $dictionary, string $word): bool
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 

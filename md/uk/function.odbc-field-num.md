@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-field-name.html: « odbcfieldname
-  - function.odbc-field-precision.html: odbcfieldprecision »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-field-name.md: « odbcfieldname
+  - function.odbc-field-precision.md: odbcfieldprecision »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcfieldnum
 ---
 # odbcfieldnum

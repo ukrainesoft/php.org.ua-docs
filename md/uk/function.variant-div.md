@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-date-to-timestamp.html: « variantdateтоtimestamp
-  - function.variant-eqv.html: varianteqv »
+  - function.variant-date-to-timestamp.md: « variantdateтоtimestamp
+  - function.variant-eqv.md: varianteqv »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantdiv

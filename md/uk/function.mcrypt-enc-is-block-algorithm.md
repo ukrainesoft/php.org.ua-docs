@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-enc-is-block-algorithm-mode.html: « mcryptencісblockalgorithmmode
-  - function.mcrypt-enc-is-block-mode.html: mcryptencісblockmode »
+  - function.mcrypt-enc-is-block-algorithm-mode.md: « mcryptencісblockalgorithmmode
+  - function.mcrypt-enc-is-block-mode.md: mcryptencісblockmode »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptencісblockalgorithm

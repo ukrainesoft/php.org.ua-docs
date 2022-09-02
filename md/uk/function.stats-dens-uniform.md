@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-t.html: « statsdensт
-  - function.stats-dens-weibull.html: statsdensweibull »
+  - function.stats-dens-t.md: « statsdensт
+  - function.stats-dens-weibull.md: statsdensweibull »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdensuniform

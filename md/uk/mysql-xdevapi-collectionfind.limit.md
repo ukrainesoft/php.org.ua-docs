@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.having.html: '« CollectionFind::having'
-  - mysql-xdevapi-collectionfind.lockexclusive.html: 'CollectionFind::lockExclusive »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+  - mysql-xdevapi-collectionfind.having.md: '« CollectionFind::having'
+  - mysql-xdevapi-collectionfind.lockexclusive.md: 'CollectionFind::lockExclusive »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
 title: 'CollectionFind::limit'
 ---
 # CollectionFind::limit

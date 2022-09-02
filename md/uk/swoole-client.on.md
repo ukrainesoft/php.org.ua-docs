@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.isconnected.html: '« SwooleClient::isConnected'
-  - swoole-client.pause.html: 'SwooleClient::pause »'
-  - index.html: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - swoole-client.isconnected.md: '« SwooleClient::isConnected'
+  - swoole-client.pause.md: 'SwooleClient::pause »'
+  - index.md: PHP Manual
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::on'
 ---
 # SwooleClient::on

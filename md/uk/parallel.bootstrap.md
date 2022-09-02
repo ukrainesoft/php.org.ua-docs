@@ -1,9 +1,9 @@
 ---
 navigation:
-  - functional.parallel.html: « Функціональний API
-  - parallel.run.html: parallelrun »
-  - index.html: PHP Manual
-  - functional.parallel.html: Функціональний API
+  - functional.parallel.md: « Функціональний API
+  - parallel.run.md: parallelrun »
+  - index.md: PHP Manual
+  - functional.parallel.md: Функціональний API
 title: parallelbootstrap
 ---
 # parallelbootstrap

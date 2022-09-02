@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setmltmintermfrequency.html: '« SolrQuery::setMltMinTermFrequency'
-  - solrquery.setomitheader.html: 'SolrQuery::setOmitHeader »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setmltmintermfrequency.md: '« SolrQuery::setMltMinTermFrequency'
+  - solrquery.setomitheader.md: 'SolrQuery::setOmitHeader »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setMltMinWordLength'
 ---
 # SolrQuery::setMltMinWordLength

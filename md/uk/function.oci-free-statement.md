@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-free-descriptor.html: « ocifreedescriptor
-  - function.oci-get-implicit-resultset.html: ocigetimplicitresultset »
+  - function.oci-free-descriptor.md: « ocifreedescriptor
+  - function.oci-get-implicit-resultset.md: ocigetimplicitresultset »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocifreestatement

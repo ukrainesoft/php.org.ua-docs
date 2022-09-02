@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-sync.notify.html: '« parallelSync::notify'
-  - book.pthreads.html: pthreads »
-  - index.html: PHP Manual
-  - class.parallel-sync.html: parallelSync
+  - parallel-sync.notify.md: '« parallelSync::notify'
+  - book.pthreads.md: pthreads »
+  - index.md: PHP Manual
+  - class.parallel-sync.md: parallelSync
 title: 'parallelSync::invoke'
 ---
 # parallelSync::invoke

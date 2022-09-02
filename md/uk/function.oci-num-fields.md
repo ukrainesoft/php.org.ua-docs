@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-new-descriptor.html: « ocinewdescriptor
-  - function.oci-num-rows.html: ocinumrows »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-new-descriptor.md: « ocinewdescriptor
+  - function.oci-num-rows.md: ocinumrows »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocinumfields
 ---
 # ocinumfields
@@ -68,4 +68,4 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinumcols()](function.ocinumcols.html). У PHP 5.0.0 і вище [ocinumcols()](function.ocinumcols.md) є аліасом \*\*ocinumfields()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinumcols()](function.ocinumcols.md). У PHP 5.0.0 і вище [ocinumcols()](function.ocinumcols.md) є аліасом \*\*ocinumfields()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

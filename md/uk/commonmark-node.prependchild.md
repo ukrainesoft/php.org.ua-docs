@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-node.appendchild.html: '« CommonMarkNode::appendChild'
-  - commonmark-node.insertafter.html: 'CommonMarkNode::insertAfter »'
-  - index.html: PHP Manual
-  - class.commonmark-node.html: CommonMarkNode
+  - commonmark-node.appendchild.md: '« CommonMarkNode::appendChild'
+  - commonmark-node.insertafter.md: 'CommonMarkNode::insertAfter »'
+  - index.md: PHP Manual
+  - class.commonmark-node.md: CommonMarkNode
 title: 'CommonMarkNode::prependChild'
 ---
 # CommonMarkNode::prependChild

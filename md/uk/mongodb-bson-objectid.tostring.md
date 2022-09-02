@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-objectid.serialize.html: '« MongoDBBSONObjectId::serialize'
-  - mongodb-bson-objectid.unserialize.html: 'MongoDBBSONObjectId::unserialize »'
+  - mongodb-bson-objectid.serialize.md: '« MongoDBBSONObjectId::serialize'
+  - mongodb-bson-objectid.unserialize.md: 'MongoDBBSONObjectId::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
 title: 'MongoDBBSONObjectId::function toString() { \[native code\] }'
 ---
 # MongoDBBSONObjectId::function toString() { \[native code\] }

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-lob-send.html: « cubridlobsend
-  - function.cubrid-lob2-bind.html: cubridlob2bind »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-lob-send.md: « cubridlobsend
+  - function.cubrid-lob2-bind.md: cubridlob2bind »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridлобsize
 ---
 # cubridлобsize
@@ -51,7 +51,7 @@ cubrid_lob_close($lobs);
 
 ### Дивіться також
 
--   [cubridlobget()](function.cubrid-lob-get.html) - Отримує дані BLOB/CLOB
--   [cubridlobclose()](function.cubrid-lob-close.html) - Закриває дані BLOB/CLOB
--   [cubridlobexport()](function.cubrid-lob-export.html) - Експортує дані BLOB/CLOB у файл
--   [cubridlobsend()](function.cubrid-lob-send.html) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера
+-   [cubridlobget()](function.cubrid-lob-get.md) - Отримує дані BLOB/CLOB
+-   [cubridlobclose()](function.cubrid-lob-close.md) - Закриває дані BLOB/CLOB
+-   [cubridlobexport()](function.cubrid-lob-export.md) - Експортує дані BLOB/CLOB у файл
+-   [cubridlobsend()](function.cubrid-lob-send.md) - Читає дані BLOB/CLOB та відправляє їх прямо до браузера

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-drop.html: « cubriddrop
-  - function.cubrid-error-code.html: cubriderrorcode »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-drop.md: « cubriddrop
+  - function.cubrid-error-code.md: cubriderrorcode »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubriderrorcodefacility
 ---
 # cubriderrorcodefacility

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tokenizer.examples.html: « Приклади
-  - phptoken.construct.html: 'PhpToken::construct »'
-  - index.html: PHP Manual
-  - book.tokenizer.html: Лексер (Tokenizer)
+  - tokenizer.examples.md: « Приклади
+  - phptoken.construct.md: 'PhpToken::construct »'
+  - index.md: PHP Manual
+  - book.tokenizer.md: Лексер (Tokenizer)
 title: Клас PhpToken
 ---
 # Клас PhpToken
@@ -12,7 +12,7 @@ title: Клас PhpToken
 
 ## Вступ
 
-Цей клас надає альтернативу функції [tokengetall()](function.token-get-all.html). Тоді як функція повертає токени або у вигляді односимвольного рядка або у вигляді масиву з ідентифікатором токена, його текстом і номером рядка, [PhpToken::tokenize()](phptoken.tokenize.html) нормалізує всі токени в об'єкти PhpToken, що дозволяє набагато зручніше працювати з токенами.
+Цей клас надає альтернативу функції [tokengetall()](function.token-get-all.md). Тоді як функція повертає токени або у вигляді односимвольного рядка або у вигляді масиву з ідентифікатором токена, його текстом і номером рядка, [PhpToken::tokenize()](phptoken.tokenize.md) нормалізує всі токени в об'єкти PhpToken, що дозволяє набагато зручніше працювати з токенами.
 
 ## Огляд класів
 
@@ -81,9 +81,9 @@ pos
 
 ## Зміст
 
--   [PhpToken::construct](phptoken.construct.html) - Створює об'єкт PhpToken
--   [PhpToken::getTokenName](phptoken.gettokenname.html) - Повертає ім'я токена
--   [PhpToken::is](phptoken.is.html) — Перевіряє, чи відповідає токен зазначеному типу
--   [PhpToken::isIgnorable](phptoken.isignorable.html) — Повідомляє, чи токен ігноруватиметься парсером PHP
--   [PhpToken::toString](phptoken.tostring.html) — Повертає текстовий вміст токена
--   [PhpToken::tokenize](phptoken.tokenize.html) — Розбирає заданий рядок, що містить програму на PHP, масив об'єктів PhpToken
+-   [PhpToken::construct](phptoken.construct.md) - Створює об'єкт PhpToken
+-   [PhpToken::getTokenName](phptoken.gettokenname.md) - Повертає ім'я токена
+-   [PhpToken::is](phptoken.is.md) — Перевіряє, чи відповідає токен зазначеному типу
+-   [PhpToken::isIgnorable](phptoken.isignorable.md) — Повідомляє, чи токен ігноруватиметься парсером PHP
+-   [PhpToken::toString](phptoken.tostring.md) — Повертає текстовий вміст токена
+-   [PhpToken::tokenize](phptoken.tokenize.md) — Розбирає заданий рядок, що містить програму на PHP, масив об'єктів PhpToken

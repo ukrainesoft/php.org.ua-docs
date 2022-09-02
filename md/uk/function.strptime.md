@@ -1,16 +1,16 @@
 ---
 navigation:
-  - function.strftime.html: « strftime
-  - function.strtotime.html: strtotime »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.strftime.md: « strftime
+  - function.strtotime.md: strtotime »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: strptime
 ---
 # strptime
 
 (PHP 5> = 5.1.0, PHP 7, PHP 8)
 
-strptime — Розбирає рядок дати/часу, згенерований функцією [strftime()](function.strftime.html)
+strptime — Розбирає рядок дати/часу, згенерований функцією [strftime()](function.strftime.md)
 
 **Увага**
 
@@ -24,19 +24,19 @@ strptime(string $timestamp, string $format): array|false
 
 **strptime()** повертає масив з даними розбору рядка `timestamp`, або **`false`** у разі виникнення помилки.
 
-Назви місяців і тижнів, а також інші назви, що залежать від мови, відповідають поточним параметрам розташування, встановленим за допомогою [setlocale()](function.setlocale.html) **`LC_TIME`**
+Назви місяців і тижнів, а також інші назви, що залежать від мови, відповідають поточним параметрам розташування, встановленим за допомогою [setlocale()](function.setlocale.md) **`LC_TIME`**
 
 ### Список параметрів
 
 `timestamp` (string)
 
-Рядок для аналізу (наприклад, рядковий результат виконання функції [strftime()](function.strftime.html)
+Рядок для аналізу (наприклад, рядковий результат виконання функції [strftime()](function.strftime.md)
 
 `format` (string)
 
-Формат рядка `timestamp` (наприклад, формат, який використовується у функції [strftime()](function.strftime.html)). Слід звернути увагу на той факт, що не всі можливості форматування, що використовуються в [strftime()](function.strftime.html) будуть оброблятися в **strptime()**; Набір підтримуваних символів форматування залежить від ОС та використовуваної С-бібліотеки.
+Формат рядка `timestamp` (наприклад, формат, який використовується у функції [strftime()](function.strftime.md)). Слід звернути увагу на той факт, що не всі можливості форматування, що використовуються в [strftime()](function.strftime.md) будуть оброблятися в **strptime()**; Набір підтримуваних символів форматування залежить від ОС та використовуваної С-бібліотеки.
 
-За додатковою інформацією щодо можливостей форматування звертайтесь на сторінку опису функції [strftime()](function.strftime.html)
+За додатковою інформацією щодо можливостей форматування звертайтесь на сторінку опису функції [strftime()](function.strftime.md)
 
 ### Значення, що повертаються
 
@@ -60,7 +60,7 @@ strptime(string $timestamp, string $format): array|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Функцію оголошено застарілою. Замість неї використовуйте [dateparsefromformat()](function.date-parse-from-format.html) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.html) (Для синтаксичного аналізу, що залежить від мовного стандарту). |
+|  | Функцію оголошено застарілою. Замість неї використовуйте [dateparsefromformat()](function.date-parse-from-format.md) (для синтаксичного аналізу, що не залежить від мовного стандарту) або [IntlDateFormatter::parse()](intldateformatter.parse.md) (Для синтаксичного аналізу, що залежить від мовного стандарту). |
 
 ### Приклади
 
@@ -102,7 +102,7 @@ Array
 
 > **Зауваження**
 > 
-> Насправді ця функція викликає бібліотечну функцію `strptime()`. У різних ОС поведінка функції може відрізнятися. Функція [dateparsefromformat()](function.date-parse-from-format.html) позбавлена ​​цього недоліку та рекомендована до використання.
+> Насправді ця функція викликає бібліотечну функцію `strptime()`. У різних ОС поведінка функції може відрізнятися. Функція [dateparsefromformat()](function.date-parse-from-format.md) позбавлена ​​цього недоліку та рекомендована до використання.
 
 > **Зауваження**
 > 
@@ -110,7 +110,7 @@ Array
 
 ### Дивіться також
 
--   [checkdate()](function.checkdate.html) - Перевіряє коректність дати за григоріанським календарем
--   [strftime()](function.strftime.html) - Форматує поточну дату/час з урахуванням поточних налаштувань локалі
--   [dateparsefromformat()](function.date-parse-from-format.html) - Отримання інформації про задану у визначеному форматі дату
--   [DateTime::createFromFormat()](datetime.createfromformat.html) - Розбирає рядок з датою згідно з вказаним форматом
+-   [checkdate()](function.checkdate.md) - Перевіряє коректність дати за григоріанським календарем
+-   [strftime()](function.strftime.md) - Форматує поточну дату/час з урахуванням поточних налаштувань локалі
+-   [dateparsefromformat()](function.date-parse-from-format.md) - Отримання інформації про задану у визначеному форматі дату
+-   [DateTime::createFromFormat()](datetime.createfromformat.md) - Розбирає рядок з датою згідно з вказаним форматом

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mysqli.character-set-name.html: '« mysqli::charactersetname'
+  - mysqli.character-set-name.md: '« mysqli::charactersetname'
   - mysqli.commit.md: 'mysqli::commit »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli

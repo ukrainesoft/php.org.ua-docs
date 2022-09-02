@@ -1,9 +1,9 @@
 ---
 navigation:
-  - iteratoriterator.rewind.html: '« IteratorIterator::rewind'
-  - class.limititerator.html: LimitIterator »
-  - index.html: PHP Manual
-  - class.iteratoriterator.html: IteratorIterator
+  - iteratoriterator.rewind.md: '« IteratorIterator::rewind'
+  - class.limititerator.md: LimitIterator »
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::valid'
 ---
 # IteratorIterator::valid
@@ -30,5 +30,5 @@ public IteratorIterator::valid(): bool
 
 ### Дивіться також
 
--   [iteratorcount()](function.iterator-count.html) - Підраховує кількість елементів в ітераторі
--   [IteratorIterator::current()](iteratoriterator.current.html) - Отримує поточне значення
+-   [iteratorcount()](function.iterator-count.md) - Підраховує кількість елементів в ітераторі
+-   [IteratorIterator::current()](iteratoriterator.current.md) - Отримує поточне значення

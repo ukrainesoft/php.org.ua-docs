@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.finfo-file.html: « finfofile
-  - function.finfo-set-flags.html: finfosetflags »
-  - index.html: PHP Manual
-  - ref.fileinfo.html: Функции модуля Fileinfo
+  - function.finfo-file.md: « finfofile
+  - function.finfo-set-flags.md: finfosetflags »
+  - index.md: PHP Manual
+  - ref.fileinfo.md: Функции модуля Fileinfo
 title: finfoopen
 ---
 # finfoopen
@@ -24,7 +24,7 @@ finfo_open(int $flags = FILEINFO_NONE, ?string $magic_database = null): finfo|fa
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public [finfo::construct](finfo.construct.html)(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_database` **`null`**
+public [finfo::construct](finfo.construct.md)(int `$flags` **`FILEINFO_NONE`**, ?string `$magic_database` **`null`**
 
 Ця функція відкриває магічну базу даних та повертає екземпляр.
 
@@ -32,7 +32,7 @@ public [finfo::construct](finfo.construct.html)(int `$flags` **`FILEINFO_NONE`**
 
 `flags`
 
-Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.html)
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md)
 
 `magic_database`
 
@@ -42,13 +42,13 @@ public [finfo::construct](finfo.construct.html)(int `$flags` **`FILEINFO_NONE`**
 
 ### Значення, що повертаються
 
-(Тільки процедурний стиль) Повертає екземпляр [finfo](class.finfo.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+(Тільки процедурний стиль) Повертає екземпляр [finfo](class.finfo.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [finfo](class.finfo.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [finfo](class.finfo.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 |  | `magic_database` тепер допускає значення null. |
 
 ### Приклади
@@ -100,4 +100,4 @@ text/plain; charset=us-ascii
 
 ### Дивіться також
 
--   [finfoclose()](function.finfo-close.html) - Закриває екземпляр finfo
+-   [finfoclose()](function.finfo-close.md) - Закриває екземпляр finfo

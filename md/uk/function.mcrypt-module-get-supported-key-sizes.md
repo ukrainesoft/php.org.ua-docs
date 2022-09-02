@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-module-get-algo-key-size.html: « mcryptmodulegetalgokeysize
-  - function.mcrypt-module-is-block-algorithm-mode.html: mcryptmoduleісblockalgorithmmode »
+  - function.mcrypt-module-get-algo-key-size.md: « mcryptmodulegetalgokeysize
+  - function.mcrypt-module-is-block-algorithm-mode.md: mcryptmoduleісblockalgorithmmode »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptmodulegetsupportedkeysizes

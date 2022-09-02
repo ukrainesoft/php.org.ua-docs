@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-mama.html: « tradermama
-  - function.trader-max.html: tradermax »
+  - function.trader-mama.md: « tradermama
+  - function.trader-max.md: tradermax »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradermavp

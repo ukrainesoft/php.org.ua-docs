@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-mysql.getbuffer.html: '« SwooleMySQL::getBuffer'
-  - swoole-mysql.query.html: 'SwooleMySQL::query »'
+  - swoole-mysql.getbuffer.md: '« SwooleMySQL::getBuffer'
+  - swoole-mysql.query.md: 'SwooleMySQL::query »'
   - index.md: PHP Manual
-  - class.swoole-mysql.html: SwooleMySQL
+  - class.swoole-mysql.md: SwooleMySQL
 title: 'SwooleMySQL::on'
 ---
 # SwooleMySQL::on

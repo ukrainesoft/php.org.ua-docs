@@ -24,7 +24,7 @@ public ReflectionClass::getProperties(?int $filter = null): array
 
 `filter`
 
-Опціональний фільтр, що дозволяє повертати лише бажані типи властивостей. Він налаштовується за допомогою [констант ReflectionProperty](class.reflectionproperty.html#reflectionproperty.constants.modifiers), за промовчанням дозволяє повертати властивості всіх типів.
+Опціональний фільтр, що дозволяє повертати лише бажані типи властивостей. Він налаштовується за допомогою [констант ReflectionProperty](class.reflectionproperty.md#reflectionproperty.constants.modifiers), за промовчанням дозволяє повертати властивості всіх типів.
 
 ### Значення, що повертаються
 
@@ -91,4 +91,4 @@ array(2) {
 
 -   [ReflectionClass::getProperty()](reflectionclass.getproperty.md) - Повертає екземпляр ReflectionProperty для якості класу
 -   [ReflectionProperty](class.reflectionproperty.md)
--   [константи ReflectionProperty](class.reflectionproperty.html#reflectionproperty.constants.modifiers)
+-   [константи ReflectionProperty](class.reflectionproperty.md#reflectionproperty.constants.modifiers)

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-root.html: « gmproot
-  - function.gmp-scan0.html: gmpscan0 »
+  - function.gmp-root.md: « gmproot
+  - function.gmp-scan0.md: gmpscan0 »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmprootrem

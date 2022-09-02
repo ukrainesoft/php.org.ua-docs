@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pcre.setup.html: « Встановлення та налаштування
-  - pcre.installation.html: Установка »
-  - index.html: PHP Manual
-  - pcre.setup.html: Встановлення та налаштування
+  - pcre.setup.md: « Встановлення та налаштування
+  - pcre.installation.md: Установка »
+  - index.md: PHP Manual
+  - pcre.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

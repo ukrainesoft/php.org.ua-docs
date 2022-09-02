@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.mysqlnd.html: « Mysqlnd
-  - mysqlnd.overview.html: Обзор »
-  - index.html: PHP Manual
-  - book.mysqlnd.html: Mysqlnd
+  - book.mysqlnd.md: « Mysqlnd
+  - mysqlnd.overview.md: Обзор »
+  - index.md: PHP Manual
+  - book.mysqlnd.md: Mysqlnd
 title: Вступ
 ---
 # Вступ

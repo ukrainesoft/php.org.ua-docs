@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xsltprocessor.removeparameter.html: '« XSLTProcessor::removeParameter'
-  - xsltprocessor.setprofiling.html: 'XSLTProcessor::setProfiling »'
-  - index.html: PHP Manual
-  - class.xsltprocessor.html: XSLTProcessor
+  - xsltprocessor.removeparameter.md: '« XSLTProcessor::removeParameter'
+  - xsltprocessor.setprofiling.md: 'XSLTProcessor::setProfiling »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::setParameter'
 ---
 # XSLTProcessor::setParameter

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.setisodate.html: '« DateTime::setISODate'
-  - datetime.settimestamp.html: 'DateTime::setTimestamp »'
-  - index.html: PHP Manual
-  - class.datetime.html: DateTime
+  - datetime.setisodate.md: '« DateTime::setISODate'
+  - datetime.settimestamp.md: 'DateTime::setTimestamp »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
 title: 'DateTime::setTime'
 ---
 # DateTime::setTime
@@ -30,15 +30,15 @@ date_time_set(    DateTime $object,    int $hour,    int $minute, �
 
 Встановлює поточне значення часу об'єкта DateTime на нове значення.
 
-Подібний до методу [DateTimeImmutable::setTime()](datetimeimmutable.settime.html), крім роботи з об'єктом [DateTime](class.datetime.html)
+Подібний до методу [DateTimeImmutable::setTime()](datetimeimmutable.settime.md), крім роботи з об'єктом [DateTime](class.datetime.md)
 
-Процедурна версія приймає об'єкт [DateTime](class.datetime.html) як перший аргумент.
+Процедурна версія приймає об'єкт [DateTime](class.datetime.md) як перший аргумент.
 
 ### Список параметрів
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.html), що повертається [datecreate()](function.date-create.html). Функція змінює цей об'єкт.
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md). Функція змінює цей об'єкт.
 
 `hour`
 
@@ -58,7 +58,7 @@ date_time_set(    DateTime $object,    int $hour,    int $minute, �
 
 ### Значення, що повертаються
 
-Повертає модифікований об'єкт [DateTime](class.datetime.html) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
+Повертає модифікований об'єкт [DateTime](class.datetime.md) для застосування в ланцюгу методів або **`false`** у разі виникнення помилки.
 
 ### список змін
 
@@ -69,4 +69,4 @@ date_time_set(    DateTime $object,    int $hour,    int $minute, �
 
 ### Дивіться також
 
--   [DateTimeImmutable::setTime()](datetimeimmutable.settime.html) - Встановлює час
+-   [DateTimeImmutable::setTime()](datetimeimmutable.settime.md) - Встановлює час

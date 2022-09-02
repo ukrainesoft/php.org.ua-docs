@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-cursorid.unserialize.html: '« MongoDBDriverCursorId::unserialize'
-  - mongodb-driver-cursorinterface.getid.html: 'MongoDBDriverCursorInterface::getId »'
+  - mongodb-driver-cursorid.unserialize.md: '« MongoDBDriverCursorId::unserialize'
+  - mongodb-driver-cursorinterface.getid.md: 'MongoDBDriverCursorInterface::getId »'
   - index.md: PHP Manual
   - book.mongodb.md: MongoDBDriver
 title: Інтерфейс MongoDBDriverCursorInterface

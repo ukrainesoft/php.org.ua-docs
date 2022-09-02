@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-udiff-uassoc.html: « arrayudiffuassoc
-  - function.array-uintersect-assoc.html: arrayuintersectassoc »
+  - function.array-udiff-uassoc.md: « arrayudiffuassoc
+  - function.array-uintersect-assoc.md: arrayuintersectassoc »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayudiff

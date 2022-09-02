@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-draw-path.html: « UIDrawPath
-  - ui-draw-path.arcto.html: 'ОЙDrawPath::arcTo »'
-  - index.html: PHP Manual
-  - class.ui-draw-path.html: ОЙDrawPath
+  - class.ui-draw-path.md: « UIDrawPath
+  - ui-draw-path.arcto.md: 'ОЙDrawPath::arcTo »'
+  - index.md: PHP Manual
+  - class.ui-draw-path.md: ОЙDrawPath
 title: 'ОЙDrawPath::addRectangle'
 ---
 # ОЙDrawPath::addRectangle

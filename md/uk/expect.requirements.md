@@ -1,9 +1,9 @@
 ---
 navigation:
-  - expect.setup.html: « Встановлення та налаштування
-  - expect.installation.html: Установка »
-  - index.html: PHP Manual
-  - expect.setup.html: Встановлення та налаштування
+  - expect.setup.md: « Встановлення та налаштування
+  - expect.installation.md: Установка »
+  - index.md: PHP Manual
+  - expect.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-export.html: « gmpexport
-  - function.gmp-gcd.html: gmpgcd »
+  - function.gmp-export.md: « gmpexport
+  - function.gmp-gcd.md: gmpgcd »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpfact

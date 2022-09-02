@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-atomic.sub.html: '« SwooleAtomic::sub'
-  - swoole-buffer.append.html: 'SwooleBuffer::append »'
+  - swoole-atomic.sub.md: '« SwooleAtomic::sub'
+  - swoole-buffer.append.md: 'SwooleBuffer::append »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleBuffer

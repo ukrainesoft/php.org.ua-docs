@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openal-source-pause.html: « openalsourcepause
-  - function.openal-source-rewind.html: openalsourcerewind »
-  - index.html: PHP Manual
-  - ref.openal.html: Функции OpenAL
+  - function.openal-source-pause.md: « openalsourcepause
+  - function.openal-source-rewind.md: openalsourcerewind »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
 title: openalsourceplay
 ---
 # openalsourceplay
@@ -22,7 +22,7 @@ openal_source_play(resource $source): bool
 
 `source`
 
-Ресурс [Open AL(Source)](openal.resources.html) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
+Ресурс [Open AL(Source)](openal.resources.md) (Створений раніше за допомогою [openalsourcecreate()](function.openal-source-create.md)
 
 ### Значення, що повертаються
 

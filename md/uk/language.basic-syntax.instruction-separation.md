@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.basic-syntax.phpmode.html: « Изолирование от HTML
-  - language.basic-syntax.comments.html: Комментарии »
+  - language.basic-syntax.phpmode.md: « Изолирование от HTML
+  - language.basic-syntax.comments.md: Комментарии »
   - index.md: PHP Manual
-  - language.basic-syntax.html: Основи синтаксису
+  - language.basic-syntax.md: Основи синтаксису
 title: Поділ інструкцій
 ---
 ## Поділ інструкцій

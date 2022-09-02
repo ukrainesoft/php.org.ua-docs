@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandfailedevent.getdurationmicros.html: '« MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros'
-  - mongodb-driver-monitoring-commandfailedevent.getoperationid.html: 'MongoDBDriverMonitoringCommandFailedEvent::getOperationId »'
+  - mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md: '« MongoDBDriverMonitoringCommandFailedEvent::getDurationMicros'
+  - mongodb-driver-monitoring-commandfailedevent.getoperationid.md: 'MongoDBDriverMonitoringCommandFailedEvent::getOperationId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
 title: 'MongoDBDriverMonitoringCommandFailedEvent::getError'
 ---
 # MongoDBDriverMonitoringCommandFailedEvent::getError

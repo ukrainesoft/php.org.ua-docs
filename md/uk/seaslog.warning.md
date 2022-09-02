@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.setrequestvariable.html: '« SeasLog::setRequestVariable'
-  - book.spl.html: SPL »
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.setrequestvariable.md: '« SeasLog::setRequestVariable'
+  - book.spl.md: SPL »
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::warning'
 ---
 # SeasLog::warning
@@ -36,7 +36,7 @@ public static SeasLog::warning(string $message, array $content = ?, string $logg
 
 `logger`
 
-logger, укладений у третій параметр, буде використовуватися зараз, як тимчасовий реєстратор, якщо функція SeasLog::setLogger() викликається у попередньому вмісті. Якщо logger дорівнює NULL або "" (порожній рядок), SeasLog використовуватиме останній реєстратор, встановлений методом [SeasLog::setLogger()](seaslog.setlogger.html)
+logger, укладений у третій параметр, буде використовуватися зараз, як тимчасовий реєстратор, якщо функція SeasLog::setLogger() викликається у попередньому вмісті. Якщо logger дорівнює NULL або "" (порожній рядок), SeasLog використовуватиме останній реєстратор, встановлений методом [SeasLog::setLogger()](seaslog.setlogger.md)
 
 ### Значення, що повертаються
 
@@ -89,12 +89,12 @@ array(2) {
 
 ### Дивіться також
 
--   [seaslog.defaulttemplate](seaslog.configuration.html#ini.seaslog.default-template)
--   [SeasLog::debug()](seaslog.debug.html) - Записує інформацію рівня "debug" до журналу
--   [SeasLog::info()](seaslog.info.html) - Записує інформацію рівня "info" до журналу
--   [SeasLog::notice()](seaslog.notice.html) - Записує інформацію рівня "notice" у журнал
--   [SeasLog::error()](seaslog.error.html) - Записує інформацію рівня "error" у журнал
--   [SeasLog::critical()](seaslog.critical.html) - Записує інформацію рівня "critical" у журнал
--   [SeasLog::alert()](seaslog.alert.html) - Записує інформацію рівня "alert" у журнал
--   [SeasLog::emergency()](seaslog.emergency.html) - Записує інформацію рівня "emergency" до журналу
--   [SeasLog::log()](seaslog.log.html) - Загальна функція запису до журналу
+-   [seaslog.defaulttemplate](seaslog.configuration.md#ini.seaslog.default-template)
+-   [SeasLog::debug()](seaslog.debug.md) - Записує інформацію рівня "debug" до журналу
+-   [SeasLog::info()](seaslog.info.md) - Записує інформацію рівня "info" до журналу
+-   [SeasLog::notice()](seaslog.notice.md) - Записує інформацію рівня "notice" у журнал
+-   [SeasLog::error()](seaslog.error.md) - Записує інформацію рівня "error" у журнал
+-   [SeasLog::critical()](seaslog.critical.md) - Записує інформацію рівня "critical" у журнал
+-   [SeasLog::alert()](seaslog.alert.md) - Записує інформацію рівня "alert" у журнал
+-   [SeasLog::emergency()](seaslog.emergency.md) - Записує інформацію рівня "emergency" до журналу
+-   [SeasLog::log()](seaslog.log.md) - Загальна функція запису до журналу

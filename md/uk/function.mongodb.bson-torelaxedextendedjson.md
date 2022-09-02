@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mongodb.bson-tophp.html: « MongoDBBSONtoPHP
-  - class.mongodb-bson-binary.html: MongoDBBSONBinary »
-  - index.html: PHP Manual
-  - ref.bson.functions.html: Функції
+  - function.mongodb.bson-tophp.md: « MongoDBBSONtoPHP
+  - class.mongodb-bson-binary.md: MongoDBBSONBinary »
+  - index.md: PHP Manual
+  - ref.bson.functions.md: Функції
 title: MongoDBBSONtoRelaxedExtendedJSON
 ---
 # MongoDBBSONtoRelaxedExtendedJSON

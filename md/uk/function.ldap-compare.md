@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-close.html: « ldapclose
-  - function.ldap-connect.html: ldapconnect »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-close.md: « ldapclose
+  - function.ldap-connect.md: ldapconnect »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapcompare
 ---
 # ldapcompare
@@ -24,7 +24,7 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $at
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
 
@@ -40,7 +40,7 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $at
 
 `controls`
 
-Масив [управляющих констант LDAP](ldap.controls.html) для відправки у запиті.
+Масив [управляющих констант LDAP](ldap.controls.md) для відправки у запиті.
 
 ### Значення, що повертаються
 
@@ -50,7 +50,7 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $at
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `controls` тепер припускає значення null; раніше значення за умовчанням було `[]` |
 |  | Додано підтримку параметра `controls` |
 

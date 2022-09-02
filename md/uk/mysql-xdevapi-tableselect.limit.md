@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.having.html: '« TableSelect::having'
-  - mysql-xdevapi-tableselect.lockexclusive.html: 'TableSelect::lockExclusive »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - mysql-xdevapi-tableselect.having.md: '« TableSelect::having'
+  - mysql-xdevapi-tableselect.lockexclusive.md: 'TableSelect::lockExclusive »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::limit'
 ---
 # TableSelect::limit

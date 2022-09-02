@@ -28,19 +28,19 @@ title: Обумовлені константи
 
 **`CAL_GREGORIAN`** (int)
 
-Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.md): використовувати пролептичний григоріанський календар
+Для [caldaysінmonth()](function.cal-days-in-month.md) [calfromjd()](function.cal-from-jd.md) [calinfo()](function.cal-info.md) і [calтоjd()](function.cal-to-jd.md): використовувати пролептичний григоріанський календар
 
 **`CAL_JULIAN`** (int)
 
-Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.md): використовувати юліанський календар
+Для [caldaysінmonth()](function.cal-days-in-month.md) [calfromjd()](function.cal-from-jd.md) [calinfo()](function.cal-info.md) і [calтоjd()](function.cal-to-jd.md): використовувати юліанський календар
 
 **`CAL_JEWISH`** (int)
 
-Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.md): використовувати єврейський календар
+Для [caldaysінmonth()](function.cal-days-in-month.md) [calfromjd()](function.cal-from-jd.md) [calinfo()](function.cal-info.md) і [calтоjd()](function.cal-to-jd.md): використовувати єврейський календар
 
 **`CAL_FRENCH`** (int)
 
-Для [caldaysінmonth()](function.cal-days-in-month.html) [calfromjd()](function.cal-from-jd.html) [calinfo()](function.cal-info.html) і [calтоjd()](function.cal-to-jd.md): використовувати французький республіканський календар.
+Для [caldaysінmonth()](function.cal-days-in-month.md) [calfromjd()](function.cal-from-jd.md) [calinfo()](function.cal-info.md) і [calтоjd()](function.cal-to-jd.md): використовувати французький республіканський календар.
 
 **`CAL_NUM_CALS`** (int)
 

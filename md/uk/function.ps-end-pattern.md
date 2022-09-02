@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-end-page.html: «psendpage
-  - function.ps-end-template.html: псendtemplate »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-end-page.md: «psendpage
+  - function.ps-end-template.md: псendtemplate »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псendpattern
 ---
 # псendpattern

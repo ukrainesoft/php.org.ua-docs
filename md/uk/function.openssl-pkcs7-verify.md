@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-pkcs7-sign.html: « opensslpkcs7sign
-  - function.openssl-pkey-derive.html: opensslpkeyderive »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-pkcs7-sign.md: « opensslpkcs7sign
+  - function.openssl-pkey-derive.md: opensslpkeyderive »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslpkcs7verify
 ---
 # opensslpkcs7verify

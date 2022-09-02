@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-server.html: « SwooleServer
-  - swoole-server.addprocess.html: 'SwooleServer::addProcess »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: « SwooleServer
+  - swoole-server.addprocess.md: 'SwooleServer::addProcess »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::addlistener'
 ---
 # SwooleServer::addlistener

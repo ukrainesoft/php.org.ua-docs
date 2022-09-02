@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.reverse.html: '« DsSequence::reverse'
-  - ds-sequence.rotate.html: 'ДсSequence::rotate »'
+  - ds-sequence.reverse.md: '« DsSequence::reverse'
+  - ds-sequence.rotate.md: 'ДсSequence::rotate »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::reversed'
 ---
 # ДсSequence::reversed

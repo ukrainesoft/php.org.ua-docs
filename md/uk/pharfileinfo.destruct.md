@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pharfileinfo.delmetadata.html: '« PharFileInfo::delMetadata'
-  - pharfileinfo.getcrc32.html: 'PharFileInfo::getCRC32 »'
-  - index.html: PHP Manual
-  - class.pharfileinfo.html: PharFileInfo
+  - pharfileinfo.delmetadata.md: '« PharFileInfo::delMetadata'
+  - pharfileinfo.getcrc32.md: 'PharFileInfo::getCRC32 »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::destruct'
 ---
 # PharFileInfo::destruct

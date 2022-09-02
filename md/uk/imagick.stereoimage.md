@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.steganoimage.html: '« Imagick::steganoImage'
-  - imagick.stripimage.html: 'Imagick::stripImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.steganoimage.md: '« Imagick::steganoImage'
+  - imagick.stripimage.md: 'Imagick::stripImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::stereoImage'
 ---
 # Imagick::stereoImage

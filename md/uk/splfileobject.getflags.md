@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.getcurrentline.html: '« SplFileObject::getCurrentLine'
-  - splfileobject.getmaxlinelen.html: 'SplFileObject::getMaxLineLen »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.getcurrentline.md: '« SplFileObject::getCurrentLine'
+  - splfileobject.getmaxlinelen.md: 'SplFileObject::getMaxLineLen »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::getFlags'
 ---
 # SplFileObject::getFlags
@@ -61,4 +61,4 @@ if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {
 
 ### Дивіться також
 
--   [SplFileObject::setFlags()](splfileobject.setflags.html) - Встановлює прапори для SplFileObject
+-   [SplFileObject::setFlags()](splfileobject.setflags.md) - Встановлює прапори для SplFileObject

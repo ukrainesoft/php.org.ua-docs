@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-decimal128.tostring.html: '« MongoDBBSONDecimal128::toString'
-  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript »
+  - mongodb-bson-decimal128.tostring.md: '« MongoDBBSONDecimal128::toString'
+  - class.mongodb-bson-javascript.md: MongoDBBSONJavascript »
   - index.md: PHP Manual
-  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128
+  - class.mongodb-bson-decimal128.md: MongoDBBSONDecimal128
 title: 'MongoDBBSONDecimal128::unserialize'
 ---
 # MongoDBBSONDecimal128::unserialize

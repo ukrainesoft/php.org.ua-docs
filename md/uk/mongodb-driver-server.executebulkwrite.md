@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.construct.html: '« MongoDBDriverServer::construct'
-  - mongodb-driver-server.executecommand.html: 'MongoDBDriverServer::executeCommand »'
+  - mongodb-driver-server.construct.md: '« MongoDBDriverServer::construct'
+  - mongodb-driver-server.executecommand.md: 'MongoDBDriverServer::executeCommand »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::executeBulkWrite'
 ---
 # MongoDBDriverServer::executeBulkWrite
@@ -52,7 +52,7 @@ final public MongoDB\Driver\Server::executeBulkWrite(string $namespace, MongoDB\
 ### Помилки
 
 -   За відсутності операцій запису в `bulk` викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
--   Якщо `bulk` вже був виконаний, викидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html). Об'єкти [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md) не можуть бути виконані кілька разів.
+-   Якщо `bulk` вже був виконаний, викидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). Об'єкти [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md) не можуть бути виконані кілька разів.
 -   Викидається [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису.
 -   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 -   При невдалому з'єднанні з сервером (крім помилок аутентифікації) кидає виняток [MongoDBDriverExceptionConnectionException](class.mongodb-driver-exception-connectionexception.md)
@@ -69,7 +69,7 @@ final public MongoDB\Driver\Server::executeBulkWrite(string $namespace, MongoDB\
 | --- | --- |
 | PECL mongodb 1.4.4 | Якщо опція `"session"` використовується у поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) |
 | PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md) |
-| PECL mongodb 1.3.0 | Якщо `bulk` не містить операцій запису, викидається [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html). Раніше викидалося [MongoDBDriverExceptionBulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md) |
+| PECL mongodb 1.3.0 | Якщо `bulk` не містить операцій запису, викидається [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). Раніше викидалося [MongoDBDriverExceptionBulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md) |
 
 ### Примітки
 

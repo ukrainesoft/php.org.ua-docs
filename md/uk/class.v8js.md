@@ -1,12 +1,12 @@
 ---
 navigation:
-  - v8js.examples.html: « Приклади
-  - v8js.construct.html: 'V8Js::construct »'
-  - index.html: PHP Manual
-  - book.v8js.html: V8js
-title: 'Клас [V8Js](class.v8js.html)'
+  - v8js.examples.md: « Приклади
+  - v8js.construct.md: 'V8Js::construct »'
+  - index.md: PHP Manual
+  - book.v8js.md: V8js
+title: 'Клас [V8Js](class.v8js.md)'
 ---
-# Клас [V8Js](class.v8js.html)
+# Клас [V8Js](class.v8js.md)
 
 (PECL v8js >= 0.1.0)
 
@@ -14,7 +14,7 @@ title: 'Клас [V8Js](class.v8js.html)'
 
 Це основний клас модуля V8Js. Кожен екземпляр цього класу має власний контекст у якому буде скомпільовано та запущено JavaScript.
 
-Також дивіться [V8Js::construct()](v8js.construct.html)
+Також дивіться [V8Js::construct()](v8js.construct.md)
 
 ## Огляд класів
 
@@ -71,8 +71,8 @@ public static registerExtension(    string $extension_name,    string $s
 
 ## Зміст
 
--   [V8Js::construct](v8js.construct.html) - Створює новий об'єкт V8Js
--   [V8Js::executeString](v8js.executestring.html) — Виконати рядок як код Javascript
--   [V8Js::getExtensions](v8js.getextensions.html) — Повертає масив зареєстрованих модулів
--   [V8Js::getPendingException](v8js.getpendingexception.html) — Повертає очікуваний непойманий виняток Javascript
--   [V8Js::registerExtension](v8js.registerextension.html) - Реєстрація модуля Javascript для V8Js
+-   [V8Js::construct](v8js.construct.md) - Створює новий об'єкт V8Js
+-   [V8Js::executeString](v8js.executestring.md) — Виконати рядок як код Javascript
+-   [V8Js::getExtensions](v8js.getextensions.md) — Повертає масив зареєстрованих модулів
+-   [V8Js::getPendingException](v8js.getpendingexception.md) — Повертає очікуваний непойманий виняток Javascript
+-   [V8Js::registerExtension](v8js.registerextension.md) - Реєстрація модуля Javascript для V8Js

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashintset.loadfromstring.html: '« QuickHashIntSet::loadFromString'
-  - quickhashintset.savetostring.html: 'QuickHashIntSet::saveToString »'
-  - index.html: PHP Manual
-  - class.quickhashintset.html: QuickHashIntSet
+  - quickhashintset.loadfromstring.md: '« QuickHashIntSet::loadFromString'
+  - quickhashintset.savetostring.md: 'QuickHashIntSet::saveToString »'
+  - index.md: PHP Manual
+  - class.quickhashintset.md: QuickHashIntSet
 title: 'QuickHashIntSet::saveToFile'
 ---
 # QuickHashIntSet::saveToFile

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-fetch-row.html: « fbirdfetchrow
-  - function.fbird-free-event-handler.html: fbirdfreeeventhandler »
+  - function.fbird-fetch-row.md: « fbirdfetchrow
+  - function.fbird-free-event-handler.md: fbirdfreeeventhandler »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdfieldinfo

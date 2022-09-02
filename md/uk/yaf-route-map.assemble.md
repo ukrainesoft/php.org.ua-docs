@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-route-map.html: « YafRouteMap
-  - yaf-route-map.construct.html: 'YafRouteMap::construct »'
+  - class.yaf-route-map.md: « YafRouteMap
+  - yaf-route-map.construct.md: 'YafRouteMap::construct »'
   - index.md: PHP Manual
-  - class.yaf-route-map.html: YafRouteMap
+  - class.yaf-route-map.md: YafRouteMap
 title: 'YafRouteMap::assemble'
 ---
 # YafRouteMap::assemble

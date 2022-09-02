@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.switch.html: « switch
-  - control-structures.declare.html: declare »
+  - control-structures.switch.md: « switch
+  - control-structures.declare.md: declare »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: match
 ---
 ## match

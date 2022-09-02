@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetime.createfromimmutable.html: '« DateTime::createFromImmutable'
-  - datetime.getlasterrors.html: 'DateTime::getLastErrors »'
-  - index.html: PHP Manual
-  - class.datetime.html: DateTime
+  - datetime.createfromimmutable.md: '« DateTime::createFromImmutable'
+  - datetime.getlasterrors.md: 'DateTime::getLastErrors »'
+  - index.md: PHP Manual
+  - class.datetime.md: DateTime
 title: 'DateTime::createFromInterface'
 ---
 # DateTime::createFromInterface
@@ -22,11 +22,11 @@ public static DateTime::createFromInterface(DateTimeInterface $object): DateTime
 
 `object`
 
-Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.html), з якого треба отримати версію, що змінюється. Сам об'єкт не модифікується. На його основі створюється новий об'єкт [DateTime](class.datetime.html), що містить ту ж інформацію про дату, час і часовий пояс.
+Об'єкт, що реалізує інтерфейс [DateTimeInterface](class.datetimeinterface.md), з якого треба отримати версію, що змінюється. Сам об'єкт не модифікується. На його основі створюється новий об'єкт [DateTime](class.datetime.md), що містить ту ж інформацію про дату, час і часовий пояс.
 
 ### Значення, що повертаються
 
-Повертає новий об'єкт [DateTime](class.datetime.html)
+Повертає новий об'єкт [DateTime](class.datetime.md)
 
 ### Приклади
 

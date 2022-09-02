@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.setbaseuri.html: '« YafRequestAbstract::setBaseUri'
-  - yaf-request-abstract.setdispatched.html: 'YafRequestAbstract::setDispatched »'
+  - yaf-request-abstract.setbaseuri.md: '« YafRequestAbstract::setBaseUri'
+  - yaf-request-abstract.setdispatched.md: 'YafRequestAbstract::setDispatched »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::setControllerName'
 ---
 # YafRequestAbstract::setControllerName

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sem.installation.html: « Установка
-  - sem.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - sem.setup.html: Встановлення та налаштування
+  - sem.installation.md: « Установка
+  - sem.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - sem.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,9 +14,9 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [sysvshm.initmem](sem.configuration.html#ini.sysvshm.init-mem) |  | PHPINISYSTEM |  |
+| [sysvshm.initmem](sem.configuration.md#ini.sysvshm.init-mem) |  | PHPINISYSTEM |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

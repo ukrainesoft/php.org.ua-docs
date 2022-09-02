@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pcntl-sigtimedwait.html: pcntlsigtimedwait
-  - function.pcntl-strerror.html: pcntlstrerror »
-  - index.html: PHP Manual
-  - ref.pcntl.html: Функції PCNTL
+  - function.pcntl-sigtimedwait.md: pcntlsigtimedwait
+  - function.pcntl-strerror.md: pcntlstrerror »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
 title: pcntlsigwaitinfo
 ---
 # pcntlsigwaitinfo
@@ -18,7 +18,7 @@ pcntlsigwaitinfo — Очікування сигналів
 pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 ```
 
-Функція **pcntlsigwaitinfo()** призупиняє виконання скрипту, що викликає, до тих пір, поки не буде доставлений один із сигналів, зазначених у `signals`. Якщо один із сигналів вже очікує обробки (наприклад, заблоковано [pcntlsigprocmask()](function.pcntl-sigprocmask.html)**pcntlsigwaitinfo()** негайно поверне управління.
+Функція **pcntlsigwaitinfo()** призупиняє виконання скрипту, що викликає, до тих пір, поки не буде доставлений один із сигналів, зазначених у `signals`. Якщо один із сигналів вже очікує обробки (наприклад, заблоковано [pcntlsigprocmask()](function.pcntl-sigprocmask.md)**pcntlsigwaitinfo()** негайно поверне управління.
 
 ### Список параметрів
 
@@ -77,5 +77,5 @@ pcntl_sigwaitinfo(array(SIGHUP), $info);
 
 ### Дивіться також
 
--   [pcntlsigprocmask()](function.pcntl-sigprocmask.html) - Задає та витягує список сигналів, що блокуються.
--   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.html) - Очікує сигнали протягом заданого часу
+-   [pcntlsigprocmask()](function.pcntl-sigprocmask.md) - Задає та витягує список сигналів, що блокуються.
+-   [pcntlsigtimedwait()](function.pcntl-sigtimedwait.md) - Очікує сигнали протягом заданого часу

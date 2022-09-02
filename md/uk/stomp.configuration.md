@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stomp.installation.html: « Установка
-  - stomp.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - stomp.setup.html: Встановлення та налаштування
+  - stomp.installation.md: « Установка
+  - stomp.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - stomp.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,11 +14,11 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [stomp.defaultbroker](stomp.configuration.html#ini.stomp.default-broker) | tcp://localhost:61613 | PHPINIALL |  |
-| [stomp.defaultconnectiontimeoutsec](stomp.configuration.html#ini.stomp.default-connection-timeout-sec) |  | PHPINIALL |  |
-| [stomp.defaultconnectiontimeoutusec](stomp.configuration.html#ini.stomp.default-connection-timeout-usec) |  | PHPINIALL |  |
-| [stomp.defaultreadtimeoutsec](stomp.configuration.html#ini.stomp.default-read-timeout-sec) |  | PHPINIALL |  |
-| [stomp.defaultreadtimeoutusec](stomp.configuration.html#ini.stomp.default-read-timeout-usec) |  | PHPINIALL |  |
+| [stomp.defaultbroker](stomp.configuration.md#ini.stomp.default-broker) | tcp://localhost:61613 | PHPINIALL |  |
+| [stomp.defaultconnectiontimeoutsec](stomp.configuration.md#ini.stomp.default-connection-timeout-sec) |  | PHPINIALL |  |
+| [stomp.defaultconnectiontimeoutusec](stomp.configuration.md#ini.stomp.default-connection-timeout-usec) |  | PHPINIALL |  |
+| [stomp.defaultreadtimeoutsec](stomp.configuration.md#ini.stomp.default-read-timeout-sec) |  | PHPINIALL |  |
+| [stomp.defaultreadtimeoutusec](stomp.configuration.md#ini.stomp.default-read-timeout-usec) |  | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

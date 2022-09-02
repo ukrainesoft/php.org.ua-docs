@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.variant-int.html: « variantint
-  - function.variant-mul.html: variantmul »
-  - index.html: PHP Manual
-  - ref.com.html: Функции COM
+  - function.variant-int.md: « variantint
+  - function.variant-mul.md: variantmul »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
 title: variantmod
 ---
 # variantmod

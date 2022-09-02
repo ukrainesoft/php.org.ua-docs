@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-activation-steepness.html: « fanngetactivationsteepness
-  - function.fann-get-bit-fail-limit.html: fanngetbitfaillimit »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-activation-steepness.md: « fanngetactivationsteepness
+  - function.fann-get-bit-fail-limit.md: fanngetbitfaillimit »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetbiasarray
 ---
 # fanngetbiasarray

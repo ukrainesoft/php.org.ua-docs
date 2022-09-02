@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionzendextension.getauthor.html: '« ReflectionZendExtension::getAuthor'
-  - reflectionzendextension.getname.html: 'ReflectionZendExtension::getName »'
-  - index.html: PHP Manual
-  - class.reflectionzendextension.html: ReflectionZendExtension
+  - reflectionzendextension.getauthor.md: '« ReflectionZendExtension::getAuthor'
+  - reflectionzendextension.getname.md: 'ReflectionZendExtension::getName »'
+  - index.md: PHP Manual
+  - class.reflectionzendextension.md: ReflectionZendExtension
 title: 'ReflectionZendExtension::getCopyright'
 ---
 # ReflectionZendExtension::getCopyright

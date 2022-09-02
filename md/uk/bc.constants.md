@@ -1,9 +1,9 @@
 ---
 navigation:
-  - bc.resources.html: « Типи ресурсів
-  - ref.bc.html: Функции BC Math »
-  - index.html: PHP Manual
-  - book.bc.html: BC Math
+  - bc.resources.md: « Типи ресурсів
+  - ref.bc.md: Функции BC Math »
+  - index.md: PHP Manual
+  - book.bc.md: BC Math
 title: Обумовлені константи
 ---
 # Обумовлені константи

@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.uodbc.md: « Функции ODBC
-  - function.odbc-binmode.html: odbcbinmode »
+  - function.odbc-binmode.md: odbcbinmode »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcautocommit

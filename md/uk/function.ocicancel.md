@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocibindbyname.html: « ocibindbyname
-  - function.ocicloselob.html: ocicloselob »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocibindbyname.md: « ocibindbyname
+  - function.ocicloselob.md: ocicloselob »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocicancel
 ---
 # ocicancel

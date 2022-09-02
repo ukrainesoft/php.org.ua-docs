@@ -26,4 +26,4 @@ public ImagickDraw::getStrokeLineJoin(): int
 
 ### Значення, що повертаються
 
-Повертає одну з констант [LINEJOIN](imagick.constants.html#imagick.constants.linejoin) `imagick::LINEJOIN_*`) або 0, якщо з'єднання лінії обведення не встановлено.
+Повертає одну з констант [LINEJOIN](imagick.constants.md#imagick.constants.linejoin) `imagick::LINEJOIN_*`) або 0, якщо з'єднання лінії обведення не встановлено.

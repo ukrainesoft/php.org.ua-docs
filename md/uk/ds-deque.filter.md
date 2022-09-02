@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.count.html: '« DsDeque::count'
-  - ds-deque.find.html: 'ДсDeque::find »'
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - ds-deque.count.md: '« DsDeque::count'
+  - ds-deque.find.md: 'ДсDeque::find »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::filter'
 ---
 # ДсDeque::filter
@@ -30,7 +30,7 @@ callback(mixed $value): bool
 
 Опціональний аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
 
-Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивіться [приведение к boolean](language.types.boolean.html#language.types.boolean.casting)
+Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивіться [приведение к boolean](language.types.boolean.md#language.types.boolean.casting)
 
 ### Значення, що повертаються
 

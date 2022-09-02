@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: « MongoDBDriverMonitoringServerHeartbeatSucceededEvent
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.html: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost »'
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: « MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
 title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros'
 ---
 # MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros

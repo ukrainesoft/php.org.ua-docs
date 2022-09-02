@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.serialize.html: « serialize
-  - function.strval.html: strval »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.serialize.md: « serialize
+  - function.strval.md: strval »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: settype
 ---
 # settype
@@ -64,6 +64,6 @@ settype($bar, "string");  // $bar теперь "1" (строка)
 
 ### Дивіться також
 
--   [gettype()](function.gettype.html) - Повертає тип змінної
--   [Приведение типов](language.types.type-juggling.html#language.types.typecasting)
--   [Маніпуляції з типами](language.types.type-juggling.html)
+-   [gettype()](function.gettype.md) - Повертає тип змінної
+-   [Приведение типов](language.types.type-juggling.md#language.types.typecasting)
+-   [Маніпуляції з типами](language.types.type-juggling.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-lexer.insertmacro.html: '« ParleLexer::insertMacro'
-  - parle-lexer.reset.html: 'ParleLexer::reset »'
-  - index.html: PHP Manual
-  - class.parle-lexer.html: ParleLexer
+  - parle-lexer.insertmacro.md: '« ParleLexer::insertMacro'
+  - parle-lexer.reset.md: 'ParleLexer::reset »'
+  - index.md: PHP Manual
+  - class.parle-lexer.md: ParleLexer
 title: 'ParleLexer::push'
 ---
 # ParleLexer::push

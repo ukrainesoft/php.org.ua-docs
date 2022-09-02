@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzseek.html: « gzseek
-  - function.gzuncompress.html: gzuncompress »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzseek.md: « gzseek
+  - function.gzuncompress.md: gzuncompress »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gztell
 ---
 # gztell
@@ -24,7 +24,7 @@ gztell(resource $stream): int|false
 
 `stream`
 
-Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.html)
+Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.md)
 
 ### Значення, що повертаються
 
@@ -32,6 +32,6 @@ gztell(resource $stream): int|false
 
 ### Дивіться також
 
--   [gzopen()](function.gzopen.html) - Відкрити gz-файл
--   [gzseek()](function.gzseek.html) - Перемістити вказівник на позицію в покажчику gz-файлу
--   [gzrewind()](function.gzrewind.html) - Перемістити позицію покажчик gz-файлу на початок
+-   [gzopen()](function.gzopen.md) - Відкрити gz-файл
+-   [gzseek()](function.gzseek.md) - Перемістити вказівник на позицію в покажчику gz-файлу
+-   [gzrewind()](function.gzrewind.md) - Перемістити позицію покажчик gz-файлу на початок

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-async-set.html: « swooleasyncset
-  - function.swoole-async-writefile.html: swooleasyncwritefile »
+  - function.swoole-async-set.md: « swooleasyncset
+  - function.swoole-async-writefile.md: swooleasyncwritefile »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleasyncwrite
 ---
 # swooleasyncwrite

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-schemaobject.getschema.html: '« SchemaObject::getSchema'
-  - mysql-xdevapi-session.close.html: 'Session::close »'
+  - mysql-xdevapi-schemaobject.getschema.md: '« SchemaObject::getSchema'
+  - mysql-xdevapi-session.close.md: 'Session::close »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас Session
 ---
 # Клас Session

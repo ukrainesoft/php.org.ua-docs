@@ -1,6 +1,6 @@
 ---
 navigation:
-  - language.oop5.late-static-bindings.html: « Пізніше статичне зв'язування
+  - language.oop5.late-static-bindings.md: « Пізніше статичне зв'язування
   - language.oop5.serialization.md: Серіалізація об'єктів »
   - index.md: PHP Manual
   - language.oop5.md: Класи та об'єкти

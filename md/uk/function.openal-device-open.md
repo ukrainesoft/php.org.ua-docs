@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openal-device-close.html: « openaldeviceclose
-  - function.openal-listener-get.html: openallistenerget »
-  - index.html: PHP Manual
-  - ref.openal.html: Функции OpenAL
+  - function.openal-device-close.md: « openaldeviceclose
+  - function.openal-listener-get.md: openallistenerget »
+  - index.md: PHP Manual
+  - ref.openal.md: Функции OpenAL
 title: openaldeviceopen
 ---
 # openaldeviceopen
@@ -26,9 +26,9 @@ openal_device_open(string $device_desc = ?): resource
 
 ### Значення, що повертаються
 
-Повертає ресурс [Open AL(Device)](openal.resources.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає ресурс [Open AL(Device)](openal.resources.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [openaldeviceclose()](function.openal-device-close.html) - Закрити пристрій OpenAL
--   [openalcontextcreate()](function.openal-context-create.html) - Створити контекст обробки звуку
+-   [openaldeviceclose()](function.openal-device-close.md) - Закрити пристрій OpenAL
+-   [openalcontextcreate()](function.openal-context-create.md) - Створити контекст обробки звуку

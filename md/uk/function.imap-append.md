@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-alerts.html: « imapalerts
-  - function.imap-base64.html: imapbase64 »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-alerts.md: « imapalerts
+  - function.imap-base64.md: imapbase64 »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapappend
 ---
 # imapappend
@@ -24,15 +24,15 @@ imap_append(    IMAP\Connection $imap,    string $folder,    string 
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `folder`
 
-Ім'я поштової скриньки. Дивіться [imapopen()](function.imap-open.html) для детальної інформації.
+Ім'я поштової скриньки. Дивіться [imapopen()](function.imap-open.md) для детальної інформації.
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `message`
 
@@ -56,7 +56,7 @@ imap_append(    IMAP\Connection $imap,    string $folder,    string 
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `options` і `internal_date` тепер допускають значення null. |
 
 ### Приклади

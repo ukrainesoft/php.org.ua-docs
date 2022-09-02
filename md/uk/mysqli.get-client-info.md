@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.get-charset.html: '« mysqli::getcharset'
-  - mysqli.get-client-version.html: 'mysqli::$clientversion »'
+  - mysqli.get-charset.md: '« mysqli::getcharset'
+  - mysqli.get-client-version.md: 'mysqli::$clientversion »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$clientinfo'

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domchildnode.replacewith.html: '« DOMChildNode::replaceWith'
-  - domcomment.construct.html: 'DOMComment::construct »'
-  - index.html: PHP Manual
-  - book.dom.html: DOM
+  - domchildnode.replacewith.md: '« DOMChildNode::replaceWith'
+  - domcomment.construct.md: 'DOMComment::construct »'
+  - index.md: PHP Manual
+  - book.dom.md: DOM
 title: Клас DOMComment
 ---
 # Клас DOMComment
@@ -148,8 +148,8 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 ## Дивіться також
 
--   [» Спецификация W3C комментариев](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.html#core-ID-1728279322)
+-   [» Спецификация W3C комментариев](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1728279322)
 
 ## Зміст
 
--   [DOMComment::construct](domcomment.construct.html) — Створює новий екземпляр класу DOMComment
+-   [DOMComment::construct](domcomment.construct.md) — Створює новий екземпляр класу DOMComment

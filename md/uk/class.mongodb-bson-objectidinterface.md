@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.mongodb-bson-minkeyinterface.html: « MongoDBBSONMinKeyInterface
-  - mongodb-bson-objectidinterface.gettimestamp.html: 'MongoDBBSONObjectIdInterface::getTimestamp »'
+  - class.mongodb-bson-minkeyinterface.md: « MongoDBBSONMinKeyInterface
+  - mongodb-bson-objectidinterface.gettimestamp.md: 'MongoDBBSONObjectIdInterface::getTimestamp »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONObjectIdInterface

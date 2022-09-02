@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rparser.nonassoc.html: '« ParleRParser::nonassoc'
-  - parle-rparser.push.html: 'ParleRParser::push »'
+  - parle-rparser.nonassoc.md: '« ParleRParser::nonassoc'
+  - parle-rparser.push.md: 'ParleRParser::push »'
   - index.md: PHP Manual
-  - class.parle-rparser.html: ParleRParser
+  - class.parle-rparser.md: ParleRParser
 title: 'ParleRParser::precedence'
 ---
 # ParleRParser::precedence

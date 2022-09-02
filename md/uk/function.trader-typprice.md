@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-tsf.html: « tradertsf
-  - function.trader-ultosc.html: traderultosc »
+  - function.trader-tsf.md: « tradertsf
+  - function.trader-ultosc.md: traderultosc »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradertypprice

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-column-privileges.html: « db2columnprivileges
-  - function.db2-commit.html: db2commit »
+  - function.db2-column-privileges.md: « db2columnprivileges
+  - function.db2-commit.md: db2commit »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2columns
 ---
 # db2columns

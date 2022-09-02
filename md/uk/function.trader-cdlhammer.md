@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlgravestonedoji.html: « tradercdlgravestonedoji
-  - function.trader-cdlhangingman.html: tradercdlhangingman »
+  - function.trader-cdlgravestonedoji.md: « tradercdlgravestonedoji
+  - function.trader-cdlhangingman.md: tradercdlhangingman »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlhammer

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.componere-definition.html: « ComponereDefinition
-  - componere-definition.addconstant.html: 'ComponereDefinition::addConstant »'
+  - class.componere-definition.md: « ComponereDefinition
+  - componere-definition.addconstant.md: 'ComponereDefinition::addConstant »'
   - index.md: PHP Manual
-  - class.componere-definition.html: ComponereDefinition
+  - class.componere-definition.md: ComponereDefinition
 title: 'ComponereDefinition::construct'
 ---
 # ComponereDefinition::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setimagechanneldepth.html: '« Gmagick::setimagechanneldepth'
-  - gmagick.setimagecompose.html: 'Gmagick::setimagecompose »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setimagechanneldepth.md: '« Gmagick::setimagechanneldepth'
+  - gmagick.setimagecompose.md: 'Gmagick::setimagecompose »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagecolorspace'
 ---
 # Gmagick::setimagecolorspace
@@ -24,11 +24,11 @@ public Gmagick::setimagecolorspace(int $colorspace): Gmagick
 
 `colorspace`
 
-Одна з констант [Цветового пространства](gmagick.constants.html#gmagick.constants.colorspace) `Gmagick::COLORSPACE_*`
+Одна з констант [Цветового пространства](gmagick.constants.md#gmagick.constants.colorspace) `Gmagick::COLORSPACE_*`
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-generichash.html: « sodiumcryptogenerichash
-  - function.sodium-crypto-kdf-keygen.html: sodiumcryptokdfkeygen »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-generichash.md: « sodiumcryptogenerichash
+  - function.sodium-crypto-kdf-keygen.md: sodiumcryptokdfkeygen »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptokdfderivefromkey
 ---
 # sodiumcryptokdfderivefromkey

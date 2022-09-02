@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getnumberofrequiredparameters.html: '« ReflectionFunctionAbstract::getNumberOfRequiredParameters'
-  - reflectionfunctionabstract.getreturntype.html: 'ReflectionFunctionAbstract::getReturnType »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getnumberofrequiredparameters.md: '« ReflectionFunctionAbstract::getNumberOfRequiredParameters'
+  - reflectionfunctionabstract.getreturntype.md: 'ReflectionFunctionAbstract::getReturnType »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getParameters'
 ---
 # ReflectionFunctionAbstract::getParameters
@@ -18,7 +18,7 @@ ReflectionFunctionAbstract::getParameters — Отримує параметри
 public ReflectionFunctionAbstract::getParameters(): array
 ```
 
-Отримання параметрів у вигляді масиву об'єктів [ReflectionParameter](class.reflectionparameter.html) у тому порядку, в якому вони визначені у джерелі.
+Отримання параметрів у вигляді масиву об'єктів [ReflectionParameter](class.reflectionparameter.md) у тому порядку, в якому вони визначені у джерелі.
 
 ### Список параметрів
 
@@ -26,9 +26,9 @@ public ReflectionFunctionAbstract::getParameters(): array
 
 ### Значення, що повертаються
 
-Параметри, представлені об'єктами [ReflectionParameter](class.reflectionparameter.html)
+Параметри, представлені об'єктами [ReflectionParameter](class.reflectionparameter.md)
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.html) - Отримує кількість параметрів
--   [funcgetargs()](function.func-get-args.html) - Повертає масив, що містить аргументи функції
+-   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) - Отримує кількість параметрів
+-   [funcgetargs()](function.func-get-args.md) - Повертає масив, що містить аргументи функції

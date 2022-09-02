@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-parser.reset.html: '« ParleParser::reset'
-  - parle-parser.sigil.html: 'ParleParser::sigil »'
+  - parle-parser.reset.md: '« ParleParser::reset'
+  - parle-parser.sigil.md: 'ParleParser::sigil »'
   - index.md: PHP Manual
-  - class.parle-parser.html: ParleParser
+  - class.parle-parser.md: ParleParser
 title: 'ParleParser::right'
 ---
 # ParleParser::right

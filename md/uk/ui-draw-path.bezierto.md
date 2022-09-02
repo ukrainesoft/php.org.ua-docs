@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-path.arcto.html: '« UIDrawPath::arcTo'
-  - ui-draw-path.closefigure.html: 'ОЙDrawPath::closeFigure »'
+  - ui-draw-path.arcto.md: '« UIDrawPath::arcTo'
+  - ui-draw-path.closefigure.md: 'ОЙDrawPath::closeFigure »'
   - index.md: PHP Manual
-  - class.ui-draw-path.html: ОЙDrawPath
+  - class.ui-draw-path.md: ОЙDrawPath
 title: 'ОЙDrawPath::bezierTo'
 ---
 # ОЙDrawPath::bezierTo

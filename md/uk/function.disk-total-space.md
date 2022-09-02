@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.disk-free-space.html: « diskfreespace
+  - function.disk-free-space.md: « diskfreespace
   - function.diskfreespace.md: diskfreespace »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи

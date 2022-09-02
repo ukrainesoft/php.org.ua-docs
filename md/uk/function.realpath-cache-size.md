@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.realpath-cache-get.html: « realpathcacheget
-  - function.realpath.html: realpath »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.realpath-cache-get.md: « realpathcacheget
+  - function.realpath.md: realpath »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: realpathcachesize
 ---
 # realpathcachesize
@@ -47,4 +47,4 @@ int(412)
 ### Дивіться також
 
 -   [realpathcacheget()](function.realpath-cache-get.md) - Отримує записи з кеша realpath
--   Конфігураційна опція [realpathcachesize](ini.core.html#ini.realpath-cache-size)
+-   Конфігураційна опція [realpathcachesize](ini.core.md#ini.realpath-cache-size)

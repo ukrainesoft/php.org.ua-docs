@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gc-collect-cycles.html: « gccollectcycles
-  - function.gc-enable.html: гкenable »
+  - function.gc-collect-cycles.md: « gccollectcycles
+  - function.gc-enable.md: гкenable »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: гкdisable
@@ -18,7 +18,7 @@ title: гкdisable
 gc_disable(): void
 ```
 
-Відключає збирач циклічних посилань шляхом встановлення значення [zend.enableгк](info.configuration.html#ini.zend.enable-gc) в `0`
+Відключає збирач циклічних посилань шляхом встановлення значення [zend.enableгк](info.configuration.md#ini.zend.enable-gc) в `0`
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dom-import-simplexml.html: « domimportsimplexml
-  - intro.libxml.html: Введение »
-  - index.html: PHP Manual
-  - refs.xml.html: Обработка XML
+  - function.dom-import-simplexml.md: « domimportsimplexml
+  - intro.libxml.md: Введение »
+  - index.md: PHP Manual
+  - refs.xml.md: Обработка XML
 title: libxml
 ---
 # libxml

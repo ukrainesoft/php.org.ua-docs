@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ftp-systype.html: « ftpsystype
-  - book.gearman.html: Gearman »
-  - index.html: PHP Manual
-  - book.ftp.html: FTP
+  - function.ftp-systype.md: « ftpsystype
+  - book.gearman.md: Gearman »
+  - index.md: PHP Manual
+  - book.ftp.md: FTP
 title: Клас FTPConnection
 ---
 # Клас FTPConnection

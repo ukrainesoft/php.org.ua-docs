@@ -1,7 +1,7 @@
 ---
 navigation:
   - yaz.examples.md: « Приклади
-  - function.yaz-addinfo.html: yazaddinfo »
+  - function.yaz-addinfo.md: yazaddinfo »
   - index.md: PHP Manual
   - book.yaz.md: YAZ
 title: Функції YAZ

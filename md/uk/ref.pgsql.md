@@ -1,7 +1,7 @@
 ---
 navigation:
-  - pgsql.examples-queries.html: « Базовое использование
-  - function.pg-affected-rows.html: пгaffectedrows »
+  - pgsql.examples-queries.md: « Базовое использование
+  - function.pg-affected-rows.md: пгaffectedrows »
   - index.md: PHP Manual
   - book.pgsql.md: PostgreSQL
 title: Функції PostgreSQL

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.recursivefilteriterator.html: « RecursiveFilterIterator
-  - recursivefilteriterator.getchildren.html: 'RecursiveFilterIterator::getChildren »'
-  - index.html: PHP Manual
-  - class.recursivefilteriterator.html: RecursiveFilterIterator
+  - class.recursivefilteriterator.md: « RecursiveFilterIterator
+  - recursivefilteriterator.getchildren.md: 'RecursiveFilterIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.recursivefilteriterator.md: RecursiveFilterIterator
 title: 'RecursiveFilterIterator::construct'
 ---
 # RecursiveFilterIterator::construct
@@ -14,15 +14,15 @@ RecursiveFilterIterator::construct — Створює об'єкт RecursiveFilte
 
 ### Опис
 
-public **RecursiveFilterIterator::construct**[RecursiveIterator](class.recursiveiterator.html) `$iterator`
+public **RecursiveFilterIterator::construct**[RecursiveIterator](class.recursiveiterator.md) `$iterator`
 
-Створює ітератор [RecursiveFilterIterator](class.recursivefilteriterator.html) на основі [RecursiveIterator](class.recursiveiterator.html)
+Створює ітератор [RecursiveFilterIterator](class.recursivefilteriterator.md) на основі [RecursiveIterator](class.recursiveiterator.md)
 
 ### Список параметрів
 
 `iterator`
 
-Об'єкт-ітератор [RecursiveIterator](class.recursiveiterator.html)елементи якого потрібно відфільтрувати.
+Об'єкт-ітератор [RecursiveIterator](class.recursiveiterator.md)елементи якого потрібно відфільтрувати.
 
 ### Приклади
 
@@ -102,6 +102,6 @@ test5
 
 ### Дивіться також
 
--   [RecursiveFilterIterator::getChildren()](recursivefilteriterator.getchildren.html) - Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveFilterIterator
--   [RecursiveFilterIterator::hasChildren()](recursivefilteriterator.haschildren.html) - Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
--   [FilterIterator::accept()](filteriterator.accept.html) - Перевіряє, чи є поточний елемент ітератора допустимим
+-   [RecursiveFilterIterator::getChildren()](recursivefilteriterator.getchildren.md) - Повертає дочірні елементи внутрішнього ітератора у вигляді об'єкта RecursiveFilterIterator
+-   [RecursiveFilterIterator::hasChildren()](recursivefilteriterator.haschildren.md) - Перевіряє, чи має поточний елемент внутрішнього ітератора дочірні елементи
+-   [FilterIterator::accept()](filteriterator.accept.md) - Перевіряє, чи є поточний елемент ітератора допустимим

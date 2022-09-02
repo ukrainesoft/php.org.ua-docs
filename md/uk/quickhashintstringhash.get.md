@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhashintstringhash.exists.html: '« QuickHashIntStringHash::exists'
-  - quickhashintstringhash.getsize.html: 'QuickHashIntStringHash::getSize »'
-  - index.html: PHP Manual
-  - class.quickhashintstringhash.html: QuickHashIntStringHash
+  - quickhashintstringhash.exists.md: '« QuickHashIntStringHash::exists'
+  - quickhashintstringhash.getsize.md: 'QuickHashIntStringHash::getSize »'
+  - index.md: PHP Manual
+  - class.quickhashintstringhash.md: QuickHashIntStringHash
 title: 'QuickHashIntStringHash::get'
 ---
 # QuickHashIntStringHash::get

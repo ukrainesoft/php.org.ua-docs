@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.phpdbg-end-oplog.html: « phpdbgendoplog
-  - function.phpdbg-get-executable.html: phpdbggetexecutable »
+  - function.phpdbg-end-oplog.md: « phpdbgendoplog
+  - function.phpdbg-get-executable.md: phpdbggetexecutable »
   - index.md: PHP Manual
   - ref.phpdbg.md: Функции phpdbg
 title: phpdbgexec

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-show-xy2.html: «psshowxy2
-  - function.ps-show2.html: псshow2 »
+  - function.ps-show-xy2.md: «psshowxy2
+  - function.ps-show2.md: псshow2 »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псshowзі

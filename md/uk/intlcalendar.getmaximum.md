@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.getlocale.html: '« IntlCalendar::getLocale'
-  - intlcalendar.getminimaldaysinfirstweek.html: 'IntlCalendar::getMinimalDaysInFirstWeek »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.getlocale.md: '« IntlCalendar::getLocale'
+  - intlcalendar.getminimaldaysinfirstweek.md: 'IntlCalendar::getMinimalDaysInFirstWeek »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getMaximum'
 ---
 # IntlCalendar::getMaximum
@@ -26,17 +26,17 @@ public IntlCalendar::getMaximum(int $field): int|false
 intlcal_get_maximum(IntlCalendar $calendar, int $field): int|false
 ```
 
-Отримує глобальне максимальне значення поля у цьому конкретному календарі. Це значення більше або дорівнює значенню, що повертається [IntlCalendar::getActualMaximum()](intlcalendar.getactualmaximum.html), яке, у свою чергу, більше або дорівнює значенню, що повертається [IntlCalendar::getLeastMaximum()](intlcalendar.getleastmaximum.html)
+Отримує глобальне максимальне значення поля у цьому конкретному календарі. Це значення більше або дорівнює значенню, що повертається [IntlCalendar::getActualMaximum()](intlcalendar.getactualmaximum.md), яке, у свою чергу, більше або дорівнює значенню, що повертається [IntlCalendar::getLeastMaximum()](intlcalendar.getleastmaximum.md)
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 
@@ -44,6 +44,6 @@ intlcal_get_maximum(IntlCalendar $calendar, int $field): int|false
 
 ### Дивіться також
 
--   [IntlCalendar::getActualMaximum()](intlcalendar.getactualmaximum.html) - Максимальне значення для поля з урахуванням поточного часу об'єкта
--   [IntlCalendar::getLeastMaximum()](intlcalendar.getleastmaximum.html) - Отримує найменший локальний максимум для поля
--   [IntlCalendar::getMinimum()](intlcalendar.getminimum.html) - Отримує глобальне мінімальне значення поля
+-   [IntlCalendar::getActualMaximum()](intlcalendar.getactualmaximum.md) - Максимальне значення для поля з урахуванням поточного часу об'єкта
+-   [IntlCalendar::getLeastMaximum()](intlcalendar.getleastmaximum.md) - Отримує найменший локальний максимум для поля
+-   [IntlCalendar::getMinimum()](intlcalendar.getminimum.md) - Отримує глобальне мінімальне значення поля

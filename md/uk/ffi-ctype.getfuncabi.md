@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getenumkind.html: '« FFICType::getEnumKind'
-  - ffi-ctype.getfuncparametercount.html: 'FFICType::getFuncParameterCount »'
+  - ffi-ctype.getenumkind.md: '« FFICType::getEnumKind'
+  - ffi-ctype.getfuncparametercount.md: 'FFICType::getFuncParameterCount »'
   - index.md: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getFuncABI'
 ---
 # FFICType::getFuncABI

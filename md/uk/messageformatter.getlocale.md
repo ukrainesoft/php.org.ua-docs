@@ -1,9 +1,9 @@
 ---
 navigation:
-  - messageformatter.geterrormessage.html: '« MessageFormatter::getErrorMessage'
-  - messageformatter.getpattern.html: 'MessageFormatter::getPattern »'
-  - index.html: PHP Manual
-  - class.messageformatter.html: MessageFormatter
+  - messageformatter.geterrormessage.md: '« MessageFormatter::getErrorMessage'
+  - messageformatter.getpattern.md: 'MessageFormatter::getPattern »'
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::getLocale'
 ---
 # MessageFormatter::getLocale

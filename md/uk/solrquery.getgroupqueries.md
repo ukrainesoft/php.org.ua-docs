@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getgroupoffset.html: '« SolrQuery::getGroupOffset'
-  - solrquery.getgroupsortfields.html: 'SolrQuery::getGroupSortFields »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getgroupoffset.md: '« SolrQuery::getGroupOffset'
+  - solrquery.getgroupsortfields.md: 'SolrQuery::getGroupSortFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getGroupQueries'
 ---
 # SolrQuery::getGroupQueries

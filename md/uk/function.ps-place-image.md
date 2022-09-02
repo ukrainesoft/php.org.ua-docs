@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-open-memory-image.html: «psopenmemoryimage
-  - function.ps-rect.html: псrect »
+  - function.ps-open-memory-image.md: «psopenmemoryimage
+  - function.ps-rect.md: псrect »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псplaceimage
@@ -28,7 +28,7 @@ ps_place_image(    resource $psdoc,    int $imageid,    float $x, �
 
 `imageid`
 
-Ідентифікатор ресурсу зображення, повернутий [псopenimage()](function.ps-open-image.html) або [псopenimagefile()](function.ps-open-image-file.md)
+Ідентифікатор ресурсу зображення, повернутий [псopenimage()](function.ps-open-image.md) або [псopenimagefile()](function.ps-open-image-file.md)
 
 `x`
 

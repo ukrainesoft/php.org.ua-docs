@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.gettablename.html: '« ColumnResult::getTableName'
-  - mysql-xdevapi-columnresult.isnumbersigned.html: 'ColumnResult::isNumberSigned »'
+  - mysql-xdevapi-columnresult.gettablename.md: '« ColumnResult::getTableName'
+  - mysql-xdevapi-columnresult.isnumbersigned.md: 'ColumnResult::isNumberSigned »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::getType'
 ---
 # ColumnResult::getType

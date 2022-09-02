@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-parser.parse.html: '« CommonMarkParser::parse'
-  - class.commonmark-cql.html: CommonMarkCQL »
+  - commonmark-parser.parse.md: '« CommonMarkParser::parse'
+  - class.commonmark-cql.md: CommonMarkCQL »
   - index.md: PHP Manual
-  - class.commonmark-parser.html: CommonMarkParser
+  - class.commonmark-parser.md: CommonMarkParser
 title: 'CommonMarkParser::finish'
 ---
 # CommonMarkParser::finish

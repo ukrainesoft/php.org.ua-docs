@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-stochrsi.html: « traderstochrsi
-  - function.trader-sum.html: tradersum »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-stochrsi.md: « traderstochrsi
+  - function.trader-sum.md: tradersum »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradersub
 ---
 # tradersub

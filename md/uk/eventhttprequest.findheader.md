@@ -35,7 +35,7 @@ public
 
 `type`
 
-Одна з констант [`EventHttpRequest::*_HEADER`](class.eventhttprequest.html#eventhttprequest.constants)
+Одна з констант [`EventHttpRequest::*_HEADER`](class.eventhttprequest.md#eventhttprequest.constants)
 
 ### Значення, що повертаються
 

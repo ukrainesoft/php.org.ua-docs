@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-check.setchecked.html: '« UIControlsCheck::setChecked'
-  - class.ui-controls-button.html: ОЙControlsButton »
-  - index.html: PHP Manual
-  - class.ui-controls-check.html: ОЙControlsCheck
+  - ui-controls-check.setchecked.md: '« UIControlsCheck::setChecked'
+  - class.ui-controls-button.md: ОЙControlsButton »
+  - index.md: PHP Manual
+  - class.ui-controls-check.md: ОЙControlsCheck
 title: 'ОЙControlsCheck::setText'
 ---
 # ОЙControlsCheck::setText

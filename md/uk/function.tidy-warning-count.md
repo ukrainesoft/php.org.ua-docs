@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.tidy-get-output.html: « tidygetoutput
-  - book.tokenizer.html: Лексер (Tokenizer) »
-  - index.html: PHP Manual
-  - ref.tidy.html: Tidy
+  - function.tidy-get-output.md: « tidygetoutput
+  - book.tokenizer.md: Лексер (Tokenizer) »
+  - index.md: PHP Manual
+  - ref.tidy.md: Tidy
 title: tidywarningcount
 ---
 # tidywarningcount
@@ -24,7 +24,7 @@ tidy_warning_count(tidy $tidy): int
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 
@@ -48,5 +48,5 @@ echo tidy_warning_count($tidy) . "\n"; //5
 
 ### Дивіться також
 
--   [tidyerrorcount()](function.tidy-error-count.html) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
--   [tidyaccesscount()](function.tidy-access-count.html) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі
+-   [tidyerrorcount()](function.tidy-error-count.md) - Повертає кількість помилок Tidy, які зустрілися під час розгляду документа
+-   [tidyaccesscount()](function.tidy-access-count.md) - Повертає кількість доступних попереджень Tidy, що зустрілися у розглянутому документі

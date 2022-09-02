@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.more-results.html: '« mysqlistmt::moreresults'
-  - mysqli-stmt.num-rows.html: 'mysqlistmt::$numrows »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.more-results.md: '« mysqlistmt::moreresults'
+  - mysqli-stmt.num-rows.md: 'mysqlistmt::$numrows »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::nextresult'
 ---
 # mysqlistmt::nextresult
@@ -32,13 +32,13 @@ mysqli_stmt_next_result(mysqli_stmt $statement): bool
 
 > **Зауваження**
 > 
-> До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.html)
+> До PHP 8.1.0, функція доступна лише з [mysqlnd](book.mysqlnd.md)
 
 ### Список параметрів
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.html)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 
@@ -52,5 +52,5 @@ mysqli_stmt_next_result(mysqli_stmt $statement): bool
 
 ### Дивіться також
 
--   [mysqlistmt::moreresults()](mysqli-stmt.more-results.html) - Перевіряє, чи є ще набори рядків внаслідок мультизапиту
--   [mysqli::multiquery()](mysqli.multi-query.html) - Виконує один або кілька запитів до бази даних
+-   [mysqlistmt::moreresults()](mysqli-stmt.more-results.md) - Перевіряє, чи є ще набори рядків внаслідок мультизапиту
+-   [mysqli::multiquery()](mysqli.multi-query.md) - Виконує один або кілька запитів до бази даних

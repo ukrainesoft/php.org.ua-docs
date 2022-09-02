@@ -1,14 +1,14 @@
 ---
 navigation:
-  - intro.ui.html: « Введение
-  - ui.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - intro.ui.md: « Введение
+  - ui.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](ui.requirements.html)
--   [Установка](ui.installation.html)
+-   [Вимоги](ui.requirements.md)
+-   [Установка](ui.installation.md)

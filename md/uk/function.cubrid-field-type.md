@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-field-table.html: « cubridfieldtable
-  - function.cubrid-list-dbs.html: cubridlistdbs »
-  - index.html: PHP Manual
-  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+  - function.cubrid-field-table.md: « cubridfieldtable
+  - function.cubrid-list-dbs.md: cubridlistdbs »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridfieldtype
 ---
 # cubridfieldtype
@@ -24,7 +24,7 @@ cubrid_field_type(resource $result, int $field_offset): string
 
 `result`
 
-`Result`, отриманий з [cubridexecute()](function.cubrid-execute.html)
+`Result`, отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `field_offset`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.stomp.html: « Stomp
-  - stomp.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.stomp.html: Stomp
+  - book.stomp.md: « Stomp
+  - stomp.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.stomp.md: Stomp
 title: Вступ
 ---
 # Вступ

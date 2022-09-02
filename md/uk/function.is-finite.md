@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.intdiv.md: « intdiv
-  - function.is-infinite.html: ісinfinite »
+  - function.is-infinite.md: ісinfinite »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції
 title: ісfinite

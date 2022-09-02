@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.createdefaultstub.html: '« Phar::createDefaultStub'
-  - phar.decompressfiles.html: 'Phar::decompressFiles »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.createdefaultstub.md: '« Phar::createDefaultStub'
+  - phar.decompressfiles.md: 'Phar::decompressFiles »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::decompress'
 ---
 # Phar::decompress
@@ -20,11 +20,11 @@ public Phar::decompress(?string $extension = null): ?Phar
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Що стосується phar-архівами, заснованими на tar чи phar, цей метод розпаковує весь архів.
 
-У випадку з phar-архівами, що базуються на zip, виклик даного методу зазнає невдачі і буде кинуто виняток. Для розпакування архіву, стиснутого за алгоритмом gzip, має бути включений модуль [zlib](ref.zlib.html); для розпакування архіву, стиснутого за алгоритмом bzip2, має бути включений модуль [bzip2](ref.bzip2.md). Як і у випадку з іншим функціоналом, що модифікує зміст phar-архіву, для успішної роботи даного методу необхідно, щоб INI-змінна [phar.readonly](phar.configuration.html#ini.phar.readonly) було відключено.
+У випадку з phar-архівами, що базуються на zip, виклик даного методу зазнає невдачі і буде кинуто виняток. Для розпакування архіву, стиснутого за алгоритмом gzip, має бути включений модуль [zlib](ref.zlib.md); для розпакування архіву, стиснутого за алгоритмом bzip2, має бути включений модуль [bzip2](ref.bzip2.md). Як і у випадку з іншим функціоналом, що модифікує зміст phar-архіву, для успішної роботи даного методу необхідно, щоб INI-змінна [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено.
 
 Крім того, цей метод автоматично змінює розширення файлу архіву: за замовчуванням `.phar` для phar-архівів та `.phar.tar` для phar-архівів, що базуються на tar. Як альтернатива розширення файлу може бути задано за допомогою другого параметра.
 
@@ -40,7 +40,7 @@ public Phar::decompress(?string $extension = null): ?Phar
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо INI-змінна [phar.readonly](phar.configuration.html#ini.phar.readonly) включена, модуль [zlib](ref.zlib.html) не доступний або модуль [bzip2](ref.bzip2.md) не увімкнуто.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо INI-змінна [phar.readonly](phar.configuration.md#ini.phar.readonly) включена, модуль [zlib](ref.zlib.md) не доступний або модуль [bzip2](ref.bzip2.md) не увімкнуто.
 
 ### список змін
 

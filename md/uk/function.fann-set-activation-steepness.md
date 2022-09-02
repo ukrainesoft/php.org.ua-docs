@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-activation-steepness-output.html: « fannsetactivationsteepnessoutput
-  - function.fann-set-bit-fail-limit.html: fannsetbitfaillimit »
+  - function.fann-set-activation-steepness-output.md: « fannsetactivationsteepnessoutput
+  - function.fann-set-bit-fail-limit.md: fannsetbitfaillimit »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetactivationsteepness

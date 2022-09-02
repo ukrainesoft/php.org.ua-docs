@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.gettitle.html: '« UIWindow::getTitle'
-  - ui-window.hasmargin.html: 'ОЙWindow::hasMargin »'
+  - ui-window.gettitle.md: '« UIWindow::getTitle'
+  - ui-window.hasmargin.md: 'ОЙWindow::hasMargin »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::hasBorders'
 ---
 # ОЙWindow::hasBorders

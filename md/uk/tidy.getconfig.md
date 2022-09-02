@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidy.props.errorbuffer.html: '« tidy::$errorBuffer'
-  - tidy.gethtmlver.html: 'tidy::getHtmlVer »'
-  - index.html: PHP Manual
-  - class.tidy.html: tidy
+  - tidy.props.errorbuffer.md: '« tidy::$errorBuffer'
+  - tidy.gethtmlver.md: 'tidy::getHtmlVer »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
 title: 'tidy::getConfig'
 ---
 # tidy::getConfig
@@ -34,7 +34,7 @@ tidy_get_config(tidy $tidy): array
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getmltqueryfields.html: '« SolrQuery::getMltQueryFields'
-  - solrquery.getrows.html: 'SolrQuery::getRows »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getmltqueryfields.md: '« SolrQuery::getMltQueryFields'
+  - solrquery.getrows.md: 'SolrQuery::getRows »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getQuery'
 ---
 # SolrQuery::getQuery

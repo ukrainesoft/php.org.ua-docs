@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.atan.md: « atan
-  - function.base-convert.html: baseconvert »
+  - function.base-convert.md: baseconvert »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції
 title: atanh

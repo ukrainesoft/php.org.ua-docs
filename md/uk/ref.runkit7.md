@@ -1,7 +1,7 @@
 ---
 navigation:
   - runkit7.constants.md: « Обумовлені константи
-  - function.runkit7-constant-add.html: runkit7constantadd »
+  - function.runkit7-constant-add.md: runkit7constantadd »
   - index.md: PHP Manual
   - book.runkit7.md: runkit7
 title: Функції runkit7

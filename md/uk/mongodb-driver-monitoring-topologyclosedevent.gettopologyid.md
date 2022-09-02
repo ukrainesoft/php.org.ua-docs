@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-topologyclosedevent.html: « MongoDBDriverMonitoringTopologyClosedEvent
-  - class.mongodb-driver-monitoring-topologyopeningevent.html: MongoDBDriverMonitoringTopologyOpeningEvent »
+  - class.mongodb-driver-monitoring-topologyclosedevent.md: « MongoDBDriverMonitoringTopologyClosedEvent
+  - class.mongodb-driver-monitoring-topologyopeningevent.md: MongoDBDriverMonitoringTopologyOpeningEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-topologyclosedevent.html: MongoDBDriverMonitoringTopologyClosedEvent
+  - class.mongodb-driver-monitoring-topologyclosedevent.md: MongoDBDriverMonitoringTopologyClosedEvent
 title: 'MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId'
 ---
 # MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId

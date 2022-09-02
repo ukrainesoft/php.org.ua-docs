@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-unique.html: « arrayunique
-  - function.array-values.html: arrayvalues »
+  - function.array-unique.md: « arrayunique
+  - function.array-values.md: arrayvalues »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayunshift

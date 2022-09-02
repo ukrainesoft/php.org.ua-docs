@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.union.html: '« DsSet::union'
-  - class.ds-stack.html: Стек »
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.union.md: '« DsSet::union'
+  - class.ds-stack.md: Стек »
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::xor'
 ---
 # ДсSet::xor

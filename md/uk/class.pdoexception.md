@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdostatement.setfetchmode.html: '« PDOStatement::setFetchMode'
-  - pdo.drivers.html: Драйвери PDO »
-  - index.html: PHP Manual
-  - book.pdo.html: PDO
+  - pdostatement.setfetchmode.md: '« PDOStatement::setFetchMode'
+  - pdo.drivers.md: Драйвери PDO »
+  - index.md: PHP Manual
+  - book.pdo.md: PDO
 title: Клас PDOException
 ---
 # Клас PDOException
@@ -86,7 +86,7 @@ private Exception::__clone(): void
 
 errorInfo
 
-Відповідає [PDO::errorInfo()](pdo.errorinfo.html) або [PDOStatement::errorInfo()](pdostatement.errorinfo.md)
+Відповідає [PDO::errorInfo()](pdo.errorinfo.md) або [PDOStatement::errorInfo()](pdostatement.errorinfo.md)
 
 code
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-parse-into-struct.html: « xmlparseintostruct
-  - function.xml-parser-create-ns.html: xmlparsercreatens »
+  - function.xml-parse-into-struct.md: « xmlparseintostruct
+  - function.xml-parser-create-ns.md: xmlparsercreatens »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlparse
@@ -38,7 +38,7 @@ xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
 
 Повертає 1 при успішному завершенні, 0 інакше.
 
-У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xmlgeterrorcode()](function.xml-get-error-code.html) [xmlerrorstring()](function.xml-error-string.html) [xmlgetcurrentlinenumber()](function.xml-get-current-line-number.html) [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.html) і [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.md)
+У разі невдалого аналізу інформацію про помилки можна отримати за допомогою функцій [xmlgeterrorcode()](function.xml-get-error-code.md) [xmlerrorstring()](function.xml-error-string.md) [xmlgetcurrentlinenumber()](function.xml-get-current-line-number.md) [xmlgetcurrentcolumnnumber()](function.xml-get-current-column-number.md) і [xmlgetcurrentbyteindex()](function.xml-get-current-byte-index.md)
 
 > **Зауваження**
 > 

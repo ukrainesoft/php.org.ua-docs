@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ds-vector.unshift.html: '« DsVector::unshift'
-  - ds-deque.allocate.html: 'ДсDeque::allocate »'
+  - ds-vector.unshift.md: '« DsVector::unshift'
+  - ds-deque.allocate.md: 'ДсDeque::allocate »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Клас Deque

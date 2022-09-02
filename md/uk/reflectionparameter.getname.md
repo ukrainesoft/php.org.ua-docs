@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionparameter.getdefaultvalueconstantname.html: '« ReflectionParameter::getDefaultValueConstantName'
-  - reflectionparameter.getposition.html: 'ReflectionParameter::getPosition »'
-  - index.html: PHP Manual
-  - class.reflectionparameter.html: ReflectionParameter
+  - reflectionparameter.getdefaultvalueconstantname.md: '« ReflectionParameter::getDefaultValueConstantName'
+  - reflectionparameter.getposition.md: 'ReflectionParameter::getPosition »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::getName'
 ---
 # ReflectionParameter::getName

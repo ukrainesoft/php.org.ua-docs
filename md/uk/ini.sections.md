@@ -12,14 +12,14 @@ title: Список розділів php.ini
 
 Ці розділи не мають прямого впливу на PHP. Вони потрібні для угрупування інших директив php.ini разом та для можливості діяти залежно від певного хоста чи шляху.
 
-Дані розділи використовуються лише в режимі CGI/FastCGI і в них не можуть бути використані директиви [extension](ini.core.html#ini.extension) і [zendextension](ini.core.html#ini.zend-extension)
+Дані розділи використовуються лише в режимі CGI/FastCGI і в них не можуть бути використані директиви [extension](ini.core.md#ini.extension) і [zendextension](ini.core.md#ini.zend-extension)
 
 **Розділи**
 
 | Название | Место изменения | История изменений |
 | --- | --- | --- |
-| [\[HOST=\]](ini.sections.html#ini.per-host) | PHPINISYSTEM |  |
-| [\[PATH=\]](ini.sections.html#ini.per-path) | PHPINISYSTEM |  |
+| [\[HOST=\]](ini.sections.md#ini.per-host) | PHPINISYSTEM |  |
+| [\[PATH=\]](ini.sections.md#ini.per-path) | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

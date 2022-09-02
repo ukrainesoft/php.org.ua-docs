@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-sarprop-step-error-shift.html: « fanngetsarpropsteperrorshift
-  - function.fann-get-sarprop-temperature.html: fanngetsarproptemperature »
+  - function.fann-get-sarprop-step-error-shift.md: « fanngetsarpropsteperrorshift
+  - function.fann-get-sarprop-temperature.md: fanngetsarproptemperature »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetsarpropsteperrorthresholdfactor

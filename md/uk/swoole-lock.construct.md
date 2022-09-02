@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-lock.html: « SwooleLock
-  - swoole-lock.destruct.html: 'SwooleLock::destruct »'
+  - class.swoole-lock.md: « SwooleLock
+  - swoole-lock.destruct.md: 'SwooleLock::destruct »'
   - index.md: PHP Manual
-  - class.swoole-lock.html: SwooleLock
+  - class.swoole-lock.md: SwooleLock
 title: 'SwooleLock::construct'
 ---
 # SwooleLock::construct

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-last-notice.html: « pglastnotice
-  - function.pg-lo-close.html: пглоclose »
+  - function.pg-last-notice.md: « pglastnotice
+  - function.pg-lo-close.md: пглоclose »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгlastoid
@@ -34,7 +34,7 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 ### Значення, що повертаються
 

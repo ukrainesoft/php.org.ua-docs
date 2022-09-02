@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-binomial.html: « gmpbinomial
-  - function.gmp-cmp.html: gmpcmp »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-binomial.md: « gmpbinomial
+  - function.gmp-cmp.md: gmpcmp »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpclrbit
 ---
 # gmpclrbit

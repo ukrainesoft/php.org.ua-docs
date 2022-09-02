@@ -1,9 +1,9 @@
 ---
 navigation:
-  - resourcebundle.geterrormessage.html: '« ResourceBundle::getErrorMessage'
-  - resourcebundle.locales.html: 'ResourceBundle::getLocales »'
-  - index.html: PHP Manual
-  - class.resourcebundle.html: ResourceBundle
+  - resourcebundle.geterrormessage.md: '« ResourceBundle::getErrorMessage'
+  - resourcebundle.locales.md: 'ResourceBundle::getLocales »'
+  - index.md: PHP Manual
+  - class.resourcebundle.md: ResourceBundle
 title: 'ResourceBundle::get'
 ---
 # ResourceBundle::get

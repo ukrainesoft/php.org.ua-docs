@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.pop.html: '« SwooleProcess::pop'
-  - swoole-process.read.html: 'SwooleProcess::read »'
-  - index.html: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - swoole-process.pop.md: '« SwooleProcess::pop'
+  - swoole-process.read.md: 'SwooleProcess::read »'
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::push'
 ---
 # SwooleProcess::push

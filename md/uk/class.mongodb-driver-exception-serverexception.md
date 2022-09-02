@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-runtimeexception.haserrorlabel.html: '« MongoDBDriverExceptionRuntimeException::hasErrorLabel'
-  - class.mongodb-driver-exception-sslconnectionexception.html: MongoDBDriverExceptionSSLConnectionException »
+  - mongodb-driver-runtimeexception.haserrorlabel.md: '« MongoDBDriverExceptionRuntimeException::hasErrorLabel'
+  - class.mongodb-driver-exception-sslconnectionexception.md: MongoDBDriverExceptionSSLConnectionException »
   - index.md: PHP Manual
   - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionServerException

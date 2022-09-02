@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdladvanceblock.html: « tradercdladvanceblock
-  - function.trader-cdlbreakaway.html: tradercdlbreakaway »
+  - function.trader-cdladvanceblock.md: « tradercdladvanceblock
+  - function.trader-cdlbreakaway.md: tradercdlbreakaway »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlbelthold

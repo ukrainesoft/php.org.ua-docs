@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.gettextantialias.html: '« ImagickDraw::getTextAntialias'
-  - imagickdraw.gettextencoding.html: 'ImagickDraw::getTextEncoding »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.gettextantialias.md: '« ImagickDraw::getTextAntialias'
+  - imagickdraw.gettextencoding.md: 'ImagickDraw::getTextEncoding »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getTextDecoration'
 ---
 # ImagickDraw::getTextDecoration
@@ -26,4 +26,4 @@ public ImagickDraw::getTextDecoration(): int
 
 ### Значення, що повертаються
 
-Повертає одну з констант [DECORATION](imagick.constants.html#imagick.constants.decoration) `imagick::DECORATION_*`) або 0, якщо оформлення не задано.
+Повертає одну з констант [DECORATION](imagick.constants.md#imagick.constants.decoration) `imagick::DECORATION_*`) або 0, якщо оформлення не задано.

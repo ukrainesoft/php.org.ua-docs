@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.ssh2-tunnel.html: « ssh2tunnel
+  - function.ssh2-tunnel.md: « ssh2tunnel
   - intro.stomp.md: Введение »
   - index.md: PHP Manual
   - refs.remote.other.md: Інші служби

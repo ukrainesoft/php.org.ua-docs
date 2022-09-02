@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.parallel-events.html: « parallelEvents
-  - parallel-events.settimeout.html: 'parallelEvents::setTimeout »'
+  - class.parallel-events.md: « parallelEvents
+  - parallel-events.settimeout.md: 'parallelEvents::setTimeout »'
   - index.md: PHP Manual
-  - class.parallel-events.html: parallelEvents
+  - class.parallel-events.md: parallelEvents
 title: 'parallelEvents::setBlocking'
 ---
 # parallelEvents::setBlocking

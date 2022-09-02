@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-simple.set.html: '« YafConfigSimple::set'
-  - yaf-config-simple.valid.html: 'YafConfigSimple::valid »'
+  - yaf-config-simple.set.md: '« YafConfigSimple::set'
+  - yaf-config-simple.valid.md: 'YafConfigSimple::valid »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.html: YafConfigSimple
+  - class.yaf-config-simple.md: YafConfigSimple
 title: 'YafConfigSimple::toArray'
 ---
 # YafConfigSimple::toArray

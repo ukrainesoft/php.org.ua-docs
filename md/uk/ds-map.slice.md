@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.skip.html: '« DsMap::skip'
-  - ds-map.sort.html: 'ДсMap::sort »'
+  - ds-map.skip.md: '« DsMap::skip'
+  - ds-map.sort.md: 'ДсMap::sort »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::slice'
 ---
 # ДсMap::slice

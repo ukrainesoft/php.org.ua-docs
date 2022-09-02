@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-rowresult.construct.html: '« RowResult::construct'
-  - mysql-xdevapi-rowresult.fetchone.html: 'RowResult::fetchOne »'
+  - mysql-xdevapi-rowresult.construct.md: '« RowResult::construct'
+  - mysql-xdevapi-rowresult.fetchone.md: 'RowResult::fetchOne »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
 title: 'RowResult::fetchAll'
 ---
 # RowResult::fetchAll

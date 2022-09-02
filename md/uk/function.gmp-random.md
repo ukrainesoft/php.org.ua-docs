@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-random-seed.html: « gmprandomseed
-  - function.gmp-root.html: gmproot »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-random-seed.md: « gmprandomseed
+  - function.gmp-root.md: gmproot »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmprandom
 ---
 # gmprandom
@@ -32,7 +32,7 @@ gmp_random(int $limiter = 20): GMP
 
 Обмежувач.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

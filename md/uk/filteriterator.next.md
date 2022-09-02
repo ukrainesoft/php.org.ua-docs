@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filteriterator.key.html: '« FilterIterator::key'
-  - filteriterator.rewind.html: 'FilterIterator::rewind »'
-  - index.html: PHP Manual
-  - class.filteriterator.html: FilterIterator
+  - filteriterator.key.md: '« FilterIterator::key'
+  - filteriterator.rewind.md: 'FilterIterator::rewind »'
+  - index.md: PHP Manual
+  - class.filteriterator.md: FilterIterator
 title: 'FilterIterator::next'
 ---
 # FilterIterator::next

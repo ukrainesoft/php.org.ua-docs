@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-scalar-sub.html: « sodiumcryptocoreristretto255scalarsub
-  - function.sodium-crypto-generichash-final.html: sodiumcryptogenerichashfinal »
+  - function.sodium-crypto-core-ristretto255-scalar-sub.md: « sodiumcryptocoreristretto255scalarsub
+  - function.sodium-crypto-generichash-final.md: sodiumcryptogenerichashfinal »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255sub

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-resources.html: « getresources
-  - function.getlastmod.html: getlastmod »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.get-resources.md: « getresources
+  - function.getlastmod.md: getlastmod »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: getenv
 ---
 # getenv
@@ -24,7 +24,7 @@ getenv(): array
 
 Отримує значення змінного середовища.
 
-Список усіх змінних оточення можна переглянути за допомогою функції [phpinfo()](function.phpinfo.html). Багато з цих змінних є у документі [» RFC 3875](http://www.faqs.org/rfcs/rfc3875), здебільшого у розділі 4.1, "Request Meta-Variables".
+Список усіх змінних оточення можна переглянути за допомогою функції [phpinfo()](function.phpinfo.md). Багато з цих змінних є у документі [» RFC 3875](http://www.faqs.org/rfcs/rfc3875), здебільшого у розділі 4.1, "Request Meta-Variables".
 
 ### Список параметрів
 
@@ -69,10 +69,10 @@ $ip = getenv('REMOTE_ADDR', true) ?: getenv('REMOTE_ADDR');
 
 **Увага**
 
-Якщо PHP запущено в SAPI, наприклад, як Fast CGI, ця функція буде повертати значення змінних оточення встановлених SAPI, навіть якщо ви використовували [putenv()](function.putenv.html) для встановлення локальної змінної з таким самим ім'ям. Використовуйте параметр `local_only` для отримання встановлених локально змінних.
+Якщо PHP запущено в SAPI, наприклад, як Fast CGI, ця функція буде повертати значення змінних оточення встановлених SAPI, навіть якщо ви використовували [putenv()](function.putenv.md) для встановлення локальної змінної з таким самим ім'ям. Використовуйте параметр `local_only` для отримання встановлених локально змінних.
 
 ### Дивіться також
 
--   [putenv()](function.putenv.html) - Встановлює значення змінного середовища
--   [apachegetenv()](function.apache-getenv.html) - Повертає змінну оточення підпроцесу сервера Apache
--   [Суперглобальні змінні](language.variables.superglobals.html)
+-   [putenv()](function.putenv.md) - Встановлює значення змінного середовища
+-   [apachegetenv()](function.apache-getenv.md) - Повертає змінну оточення підпроцесу сервера Apache
+-   [Суперглобальні змінні](language.variables.superglobals.md)

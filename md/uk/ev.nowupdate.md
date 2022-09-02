@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ev.now.html: '« Ev::now'
-  - ev.recommendedbackends.html: 'Ev::recommendedBackends »'
-  - index.html: PHP Manual
-  - class.ev.html: Єв
+  - ev.now.md: '« Ev::now'
+  - ev.recommendedbackends.md: 'Ev::recommendedBackends »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
 title: 'Ev::nowUpdate'
 ---
 # Ev::nowUpdate
@@ -21,7 +21,7 @@ final
    Ev::nowUpdate(): void
 ```
 
-Встановлює поточний час шляхом запиту до ядра в процесі оновлення часу, що повертається. [Ev::now()](ev.now.html). Це дорога операція і зазвичай виконується автоматично всередині [Ev::run()](ev.run.md)
+Встановлює поточний час шляхом запиту до ядра в процесі оновлення часу, що повертається. [Ev::now()](ev.now.md). Це дорога операція і зазвичай виконується автоматично всередині [Ev::run()](ev.run.md)
 
 Цей метод рідко коли корисний, але коли деякі callback-функції працюють дуже довго без звернення до циклу за умовчанням, оновлення поточного часу в *libev* є непоганою ідеєю.
 

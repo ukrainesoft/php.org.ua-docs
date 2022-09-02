@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filter.examples.validation.html: « Перевірка (валідація)
-  - ref.filter.html: Функції фільтрації даних »
-  - index.html: PHP Manual
-  - filter.examples.html: Приклади
+  - filter.examples.validation.md: « Перевірка (валідація)
+  - ref.filter.md: Функції фільтрації даних »
+  - index.md: PHP Manual
+  - filter.examples.md: Приклади
 title: Очищення (нормалізація)
 ---
 ## Очищення (нормалізація)

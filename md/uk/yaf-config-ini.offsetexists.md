@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-ini.next.html: '« YafConfigIni::next'
-  - yaf-config-ini.offsetget.html: 'YafConfigIni::offsetGet »'
+  - yaf-config-ini.next.md: '« YafConfigIni::next'
+  - yaf-config-ini.offsetget.md: 'YafConfigIni::offsetGet »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.html: YafConfigIni
+  - class.yaf-config-ini.md: YafConfigIni
 title: 'YafConfigIni::offsetExists'
 ---
 # YafConfigIni::offsetExists

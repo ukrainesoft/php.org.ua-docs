@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-timestamp.jsonserialize.html: '« MongoDBBSONTimestamp::jsonSerialize'
-  - mongodb-bson-timestamp.tostring.html: 'MongoDBBSONTimestamp::toString »'
+  - mongodb-bson-timestamp.jsonserialize.md: '« MongoDBBSONTimestamp::jsonSerialize'
+  - mongodb-bson-timestamp.tostring.md: 'MongoDBBSONTimestamp::toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
 title: 'MongoDBBSONTimestamp::serialize'
 ---
 # MongoDBBSONTimestamp::serialize

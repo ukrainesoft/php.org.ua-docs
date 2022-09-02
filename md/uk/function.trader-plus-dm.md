@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-plus-di.html: « traderplusді
-  - function.trader-ppo.html: traderppo »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-plus-di.md: « traderplusді
+  - function.trader-ppo.md: traderppo »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderplusдм
 ---
 # traderplusдм

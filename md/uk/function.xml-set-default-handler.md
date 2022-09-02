@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-set-character-data-handler.html: « xmlsetcharacterdatahandler
-  - function.xml-set-element-handler.html: xmlsetelementhandler »
+  - function.xml-set-character-data-handler.md: « xmlsetcharacterdatahandler
+  - function.xml-set-element-handler.md: xmlsetelementhandler »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlsetdefaulthandler

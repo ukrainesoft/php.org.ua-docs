@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-stat-binomial-coef.html: « statsstatbinomialcoef
-  - function.stats-stat-factorial.html: statsstatfactorial »
+  - function.stats-stat-binomial-coef.md: « statsstatbinomialcoef
+  - function.stats-stat-factorial.md: statsstatfactorial »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsстатиcorrelation

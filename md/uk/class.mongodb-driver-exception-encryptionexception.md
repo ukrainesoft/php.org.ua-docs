@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-connectiontimeoutexception.html: « MongoDBDriverExceptionConnectionTimeoutException
-  - class.mongodb-driver-exception-exception.html: MongoDBDriverExceptionException »
+  - class.mongodb-driver-exception-connectiontimeoutexception.md: « MongoDBDriverExceptionConnectionTimeoutException
+  - class.mongodb-driver-exception-exception.md: MongoDBDriverExceptionException »
   - index.md: PHP Manual
   - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionEncryptionException

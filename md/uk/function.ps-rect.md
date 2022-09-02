@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-place-image.html: «psplaceimage
-  - function.ps-restore.html: псrestore »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-place-image.md: «psplaceimage
+  - function.ps-restore.md: псrestore »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псrect
 ---
 # псrect
@@ -24,7 +24,7 @@ ps_rect(    resource $psdoc,    float $x,    float $y,    float 
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий [псnew()](function.ps-new.md)
 
 `x`
 
@@ -48,6 +48,6 @@ ps_rect(    resource $psdoc,    float $x,    float $y,    float 
 
 ### Дивіться також
 
--   [псarc()](function.ps-arc.html) - Малює дугу проти годинникової стрілки
+-   [псarc()](function.ps-arc.md) - Малює дугу проти годинникової стрілки
 -   **псcirle()**
--   [псlineto()](function.ps-lineto.html) - Малює лінію
+-   [псlineto()](function.ps-lineto.md) - Малює лінію

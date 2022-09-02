@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.uopz-get-exit-status.html: « uopzgetexitstatus
-  - function.uopz-get-mock.html: uopzgetmock »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - function.uopz-get-exit-status.md: « uopzgetexitstatus
+  - function.uopz-get-mock.md: uopzgetmock »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzgethook
 ---
 # uopzgethook
@@ -61,5 +61,5 @@ object(Closure)#2 (0) {
 
 ### Дивіться також
 
--   [uopzsethook()](function.uopz-set-hook.html) - Встановлює обробник для виконання під час виклику функції або методу
--   [uopzunsethook()](function.uopz-unset-hook.html) - Видаляє раніше встановлену функцію чи метод
+-   [uopzsethook()](function.uopz-set-hook.md) - Встановлює обробник для виконання під час виклику функції або методу
+-   [uopzunsethook()](function.uopz-unset-hook.md) - Видаляє раніше встановлену функцію чи метод

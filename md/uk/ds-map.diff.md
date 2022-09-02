@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.count.html: '« DsMap::count'
-  - ds-map.filter.html: 'ДсMap::filter »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.count.md: '« DsMap::count'
+  - ds-map.filter.md: 'ДсMap::filter »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::diff'
 ---
 # ДсMap::diff

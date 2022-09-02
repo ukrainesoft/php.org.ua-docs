@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbufferevent.setpriority.html: '« EventBufferEvent::setPriority'
-  - eventbufferevent.setwatermark.html: 'EventBufferEvent::setWatermark »'
-  - index.html: PHP Manual
-  - class.eventbufferevent.html: EventBufferEvent
+  - eventbufferevent.setpriority.md: '« EventBufferEvent::setPriority'
+  - eventbufferevent.setwatermark.md: 'EventBufferEvent::setWatermark »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::setTimeouts'
 ---
 # EventBufferEvent::setTimeouts

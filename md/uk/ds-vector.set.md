@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.rotate.html: '« DsVector::rotate'
-  - ds-vector.shift.html: 'ДсVector::shift »'
+  - ds-vector.rotate.md: '« DsVector::rotate'
+  - ds-vector.shift.md: 'ДсVector::shift »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::set'
 ---
 # ДсVector::set

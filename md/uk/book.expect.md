@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evwatcher.stop.html: '« EvWatcher::stop'
-  - intro.expect.html: Введение »
-  - index.html: PHP Manual
-  - refs.fileprocess.process.html: Модули для управления процессами программ
+  - evwatcher.stop.md: '« EvWatcher::stop'
+  - intro.expect.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.process.md: Модули для управления процессами программ
 title: Expect
 ---
 # Expect

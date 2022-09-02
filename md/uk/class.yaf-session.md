@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-route-supervar.route.html: '« YafRouteSupervar::route'
-  - yaf-session.construct.html: 'YafSession::construct »'
+  - yaf-route-supervar.route.md: '« YafRouteSupervar::route'
+  - yaf-session.construct.md: 'YafSession::construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafSession

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-check-path.html: « svnфсcheckpath
-  - function.svn-fs-copy.html: svnфсcopy »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-check-path.md: « svnфсcheckpath
+  - function.svn-fs-copy.md: svnфсcopy »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсcontentschanged
 ---
 # svnфсcontentschanged

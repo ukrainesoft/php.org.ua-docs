@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocilogoff.html: « ocilogoff
-  - function.ocinewcollection.html: ocinewcollection »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocilogoff.md: « ocilogoff
+  - function.ocinewcollection.md: ocinewcollection »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocilogon
 ---
 # ocilogon

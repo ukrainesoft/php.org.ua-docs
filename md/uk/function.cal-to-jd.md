@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cal-info.html: « calinfo
-  - function.easter-date.html: easterdate »
-  - index.html: PHP Manual
-  - ref.calendar.html: Календарь
+  - function.cal-info.md: « calinfo
+  - function.easter-date.md: easterdate »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
 title: calтожд
 ---
 # calтожд

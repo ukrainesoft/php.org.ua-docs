@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmp.examples.html: « Приклади
-  - function.gmp-abs.html: gmpabs »
-  - index.html: PHP Manual
-  - book.gmp.html: GMP
+  - gmp.examples.md: « Приклади
+  - function.gmp-abs.md: gmpabs »
+  - index.md: PHP Manual
+  - book.gmp.md: GMP
 title: GMP Функції
 ---
 # GMP Функції

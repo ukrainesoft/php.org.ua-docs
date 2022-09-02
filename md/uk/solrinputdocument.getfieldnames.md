@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrinputdocument.getfieldcount.html: '« SolrInputDocument::getFieldCount'
-  - solrinputdocument.haschilddocuments.html: 'SolrInputDocument::hasChildDocuments »'
-  - index.html: PHP Manual
-  - class.solrinputdocument.html: SolrInputDocument
+  - solrinputdocument.getfieldcount.md: '« SolrInputDocument::getFieldCount'
+  - solrinputdocument.haschilddocuments.md: 'SolrInputDocument::hasChildDocuments »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::getFieldNames'
 ---
 # SolrInputDocument::getFieldNames

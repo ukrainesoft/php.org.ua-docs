@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.setdefaultstub.html: '« Phar::setDefaultStub'
-  - phar.setsignaturealgorithm.html: 'Phar::setSignatureAlgorithm »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.setdefaultstub.md: '« Phar::setDefaultStub'
+  - phar.setsignaturealgorithm.md: 'Phar::setSignatureAlgorithm »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::setMetadata'
 ---
 # Phar::setMetadata
@@ -20,9 +20,9 @@ public Phar::setMetadata(mixed $metadata): void
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Функція **Phar::setMetadata()** використовується для збереження даних, що характеризують phar-архів загалом . [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.html) використовується для встановлення метаданих для файлу. Якщо метаданих буде багато, це може знизити швидкість завантаження phar-архіву.
+Функція **Phar::setMetadata()** використовується для збереження даних, що характеризують phar-архів загалом . [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) використовується для встановлення метаданих для файлу. Якщо метаданих буде багато, це може знизити швидкість завантаження phar-архіву.
 
 Метадані можна використовувати, наприклад, для вказівки, який файл повинен виконуватися під час завантаження, або для вказівки розташування маніфесту, типу package.xml для модуля [» PEAR](https://pear.php.net/). Загалом будь-які корисні в контексті phar-архіву дані.
 
@@ -66,6 +66,6 @@ array(1) {
 
 ### Дивіться також
 
--   [Phar::getMetadata()](phar.getmetadata.html) - Витягти метадані phar-архіву
--   [Phar::delMetadata()](phar.delmetadata.html) - Видалити глобальні метадані в архіві phar
--   [Phar::hasMetadata()](phar.hasmetadata.html) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву
+-   [Phar::delMetadata()](phar.delmetadata.md) - Видалити глобальні метадані в архіві phar
+-   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані

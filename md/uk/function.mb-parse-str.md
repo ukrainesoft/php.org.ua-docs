@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-output-handler.html: « mboutputhandler
-  - function.mb-preferred-mime-name.html: мбpreferredmimename »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-output-handler.md: « mboutputhandler
+  - function.mb-preferred-mime-name.md: мбpreferredmimename »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбparsestr
 ---
 # мбparsestr

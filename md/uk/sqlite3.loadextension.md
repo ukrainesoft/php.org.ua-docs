@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.lastinsertrowid.html: '« SQLite3::lastInsertRowID'
-  - sqlite3.open.html: 'SQLite3::open »'
-  - index.html: PHP Manual
-  - class.sqlite3.html: SQLite3
+  - sqlite3.lastinsertrowid.md: '« SQLite3::lastInsertRowID'
+  - sqlite3.open.md: 'SQLite3::open »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
 title: 'SQLite3::loadExtension'
 ---
 # SQLite3::loadExtension

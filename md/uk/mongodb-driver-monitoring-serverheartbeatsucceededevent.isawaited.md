@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply'
-  - class.mongodb-driver-monitoring-topologychangedevent.html: MongoDBDriverMonitoringTopologyChangedEvent »
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply'
+  - class.mongodb-driver-monitoring-topologychangedevent.md: MongoDBDriverMonitoringTopologyChangedEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent
 title: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited'
 ---
 # MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited

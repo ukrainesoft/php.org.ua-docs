@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.seaslog-get-version.html: « seasloggetversion
+  - function.seaslog-get-version.md: « seasloggetversion
   - seaslog.alert.md: 'SeasLog::alert »'
   - index.md: PHP Manual
   - book.seaslog.md: Seaslog

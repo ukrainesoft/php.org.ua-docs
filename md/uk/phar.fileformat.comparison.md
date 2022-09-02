@@ -15,16 +15,16 @@ title: 'Порівняння Phar, Tar та Zip'
 | Функционал | Phar | Tar | Zip |
 | --- | --- | --- | --- |
 | Стандартний формат файлу | Ні | Так | Так |
-| Можливе виконання без модуля Phar[](phar.fileformat.comparison.html#phar.fileformat.phartip) | Так | Ні | Ні |
+| Можливе виконання без модуля Phar[](phar.fileformat.comparison.md#phar.fileformat.phartip) | Так | Ні | Ні |
 | Пофайловий стиск | Так | Ні | Так |
 | Стиснення всього архіву | Так | Так | Ні |
 | Перевірка підпису всього архіву | Так | Так | Так |
 | Підтримка веб-застосунків | Так | Так | Так |
 | Пофайлові метадані | Так | Так | Так |
 | Метадані всього архіву | Так | Так | Так |
-| Створення/зміна архіву[](phar.fileformat.comparison.html#phar.fileformat.phartip2) | Так | Так | Так |
+| Створення/зміна архіву[](phar.fileformat.comparison.md#phar.fileformat.phartip2) | Так | Так | Так |
 | Повна підтримка всіх функцій - обертання потоку | Так | Так | Так |
-| Може бути створено/змінено, навіть якщо phar.readonly=1[](phar.fileformat.comparison.html#phar.fileformat.phartip3) | Ні | Так | Так |
+| Може бути створено/змінено, навіть якщо phar.readonly=1[](phar.fileformat.comparison.md#phar.fileformat.phartip3) | Ні | Так | Так |
 
 **Підказка**
 

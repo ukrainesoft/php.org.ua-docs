@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-exec.html: « curlexec
-  - function.curl-getinfo.html: curlgetinfo »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-exec.md: « curlexec
+  - function.curl-getinfo.md: curlgetinfo »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlfilecreate
 ---
 # curlfilecreate
@@ -14,4 +14,4 @@ curlfilecreate — Створює об'єкт CURLFile
 
 ### Опис
 
-Ця функція є псевдонімом: [CURLFile::construct()](curlfile.construct.html)
+Ця функція є псевдонімом: [CURLFile::construct()](curlfile.construct.md)

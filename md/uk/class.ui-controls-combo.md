@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-separator.construct.html: '« UIControlsSeparator::construct'
-  - ui-controls-combo.append.html: 'ОЙControlsCombo::append »'
+  - ui-controls-separator.construct.md: '« UIControlsSeparator::construct'
+  - ui-controls-combo.append.md: 'ОЙControlsCombo::append »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління "Комбо"

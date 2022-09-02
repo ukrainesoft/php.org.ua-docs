@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-merge-recursive.html: « arraymergerecursive
-  - function.array-multisort.html: arraymultisort »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-merge-recursive.md: « arraymergerecursive
+  - function.array-multisort.md: arraymultisort »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraymerge
 ---
 # arraymerge
@@ -138,7 +138,7 @@ Array
 
 ### Дивіться також
 
--   [arraymergerecursive()](function.array-merge-recursive.html) - Рекурсивне злиття одного або більше масивів
--   [arrayreplace()](function.array-replace.html) - Замінює елементи масиву елементами інших переданих масивів
--   [arraycombine()](function.array-combine.html) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
--   [Оператори, що працюють із масивами](language.operators.array.html)
+-   [arraymergerecursive()](function.array-merge-recursive.md) - Рекурсивне злиття одного або більше масивів
+-   [arrayreplace()](function.array-replace.md) - Замінює елементи масиву елементами інших переданих масивів
+-   [arraycombine()](function.array-combine.md) - Створює новий масив, використовуючи один масив як ключі, а інший для його значень
+-   [Оператори, що працюють із масивами](language.operators.array.md)

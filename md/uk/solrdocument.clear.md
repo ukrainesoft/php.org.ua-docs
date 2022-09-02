@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.addfield.html: '« SolrDocument::addField'
-  - solrdocument.clone.html: 'SolrDocument::clone »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.addfield.md: '« SolrDocument::addField'
+  - solrdocument.clone.md: 'SolrDocument::clone »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::clear'
 ---
 # SolrDocument::clear

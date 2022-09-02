@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagebias.html: '« Imagick::setImageBias'
-  - imagick.setimageblueprimary.html: 'Imagick::setImageBluePrimary »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagebias.md: '« Imagick::setImageBias'
+  - imagick.setimageblueprimary.md: 'Imagick::setImageBluePrimary »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageBiasQuantum'
 ---
 # Imagick::setImageBiasQuantum

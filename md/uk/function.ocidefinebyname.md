@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocicommit.html: « ocicommit
-  - function.ocierror.html: ocierror »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocicommit.md: « ocicommit
+  - function.ocierror.md: ocierror »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocidefinebyname
 ---
 # ocidefinebyname

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - wincache.reroutes.html: « Перенаправление функций WinCache
-  - wincache.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - wincache.setup.html: Встановлення та налаштування
+  - wincache.reroutes.md: « Перенаправление функций WinCache
+  - wincache.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - wincache.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

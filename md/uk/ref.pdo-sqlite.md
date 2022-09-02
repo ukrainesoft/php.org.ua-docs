@@ -1,7 +1,7 @@
 ---
 navigation:
   - pdo.pgsqllobunlink.md: '« PDO::pgsqlLOBUnlink'
-  - ref.pdo-sqlite.connection.html: PDOSQLITE DSN »
+  - ref.pdo-sqlite.connection.md: PDOSQLITE DSN »
   - index.md: PHP Manual
   - pdo.drivers.md: Драйвери PDO
 title: Функції SQLite (PDOSQLITE)
@@ -22,7 +22,7 @@ PDOSQLITE це драйвер, який реалізує [интерфейс Dat
 
 > **Зауваження** **Додаткове налаштування на Windows з PHP 7.4.0**
 > 
-> Для роботи цього модуля системної змінної Windows PATH повинні бути доступні DLLфайли. Щоб дізнатися, як цього досягти, зверніться до розділу FAQ "[Як додати мою директорію з PHP до змінної Windows PATH](faq.installation.html#faq.installation.addtopath)". Хоча копіювання DLL-файлів з директорії PHP до системної папки Windows також вирішує проблему (бо системна директорія за умовчанням знаходиться в змінній PATH), це не рекомендується . *Цей модуль потребує наступних файлів у змінній PATH:* libsqlite3.dll.
+> Для роботи цього модуля системної змінної Windows PATH повинні бути доступні DLLфайли. Щоб дізнатися, як цього досягти, зверніться до розділу FAQ "[Як додати мою директорію з PHP до змінної Windows PATH](faq.installation.md#faq.installation.addtopath)". Хоча копіювання DLL-файлів з директорії PHP до системної папки Windows також вирішує проблему (бо системна директорія за умовчанням знаходиться в змінній PATH), це не рекомендується . *Цей модуль потребує наступних файлів у змінній PATH:* libsqlite3.dll.
 
 ## Зміст
 

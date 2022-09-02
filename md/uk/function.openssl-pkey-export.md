@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-pkey-export-to-file.html: « opensslpkeyexportтоfile
-  - function.openssl-pkey-free.html: opensslpkeyfree »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-pkey-export-to-file.md: « opensslpkeyexportтоfile
+  - function.openssl-pkey-free.md: opensslpkeyfree »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslpkeyexport
 ---
 # opensslpkeyexport
@@ -20,7 +20,7 @@ openssl_pkey_export(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string
 
 **opensslpkeyexport()** експортує `key` у вигляді рядка у форматі PEM і зберігає його в `output` (Передається за посиланням).
 
-> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.html)
+> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.md)
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ openssl_pkey_export(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string
 
 `options`
 
-`options` можна використовувати для тонкого налаштування процесу експорту шляхом вказівки або перевизначення опцій конфігураційного файлу openssl. Дивіться опис [opensslcsrnew()](function.openssl-csr-new.html) для детальної інформації про `options`
+`options` можна використовувати для тонкого налаштування процесу експорту шляхом вказівки або перевизначення опцій конфігураційного файлу openssl. Дивіться опис [opensslcsrnew()](function.openssl-csr-new.md) для детальної інформації про `options`
 
 ### Значення, що повертаються
 
@@ -44,4 +44,4 @@ openssl_pkey_export(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string
 
 | Версия | Описание |
 | --- | --- |
-|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |

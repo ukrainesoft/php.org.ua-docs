@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.getlatency.html: '« MongoDBDriverServer::getLatency'
-  - mongodb-driver-server.getserverdescription.html: 'MongoDBDriverServer::getServerDescription »'
+  - mongodb-driver-server.getlatency.md: '« MongoDBDriverServer::getLatency'
+  - mongodb-driver-server.getserverdescription.md: 'MongoDBDriverServer::getServerDescription »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::getPort'
 ---
 # MongoDBDriverServer::getPort

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.apache.html: « Функции Apache
-  - function.apache-get-modules.html: apachegetmodules »
-  - index.html: PHP Manual
-  - ref.apache.html: Функции Apache
+  - ref.apache.md: « Функции Apache
+  - function.apache-get-modules.md: apachegetmodules »
+  - index.md: PHP Manual
+  - ref.apache.md: Функции Apache
 title: apachechildterminate
 ---
 # apachechildterminate

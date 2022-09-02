@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-udiff.html: « arrayudiff
-  - function.array-uintersect-uassoc.html: arrayuintersectuassoc »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-udiff.md: « arrayudiff
+  - function.array-uintersect-uassoc.md: arrayuintersectuassoc »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayuintersectassoc
 ---
 # arrayuintersectassoc

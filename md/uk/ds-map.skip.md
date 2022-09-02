@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.reversed.html: '« DsMap::reversed'
-  - ds-map.slice.html: 'ДсMap::slice »'
+  - ds-map.reversed.md: '« DsMap::reversed'
+  - ds-map.slice.md: 'ДсMap::slice »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::skip'
 ---
 # ДсMap::skip

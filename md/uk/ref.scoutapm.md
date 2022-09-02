@@ -1,7 +1,7 @@
 ---
 navigation:
   - scoutapm.constants.md: « Обумовлені константи
-  - function.scoutapm-get-calls.html: scoutapmgetcalls »
+  - function.scoutapm-get-calls.md: scoutapmgetcalls »
   - index.md: PHP Manual
   - book.scoutapm.md: ScoutAPM
 title: Функції Scoutapm

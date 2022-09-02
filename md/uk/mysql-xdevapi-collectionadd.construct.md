@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-collectionadd.html: « mysqlxdevapiCollectionAdd
-  - mysql-xdevapi-collectionadd.execute.html: 'CollectionAdd::execute »'
+  - class.mysql-xdevapi-collectionadd.md: « mysqlxdevapiCollectionAdd
+  - mysql-xdevapi-collectionadd.execute.md: 'CollectionAdd::execute »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionadd.html: mysqlxdevapiCollectionAdd
+  - class.mysql-xdevapi-collectionadd.md: mysqlxdevapiCollectionAdd
 title: 'CollectionAdd::construct'
 ---
 # CollectionAdd::construct

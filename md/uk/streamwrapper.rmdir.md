@@ -1,7 +1,7 @@
 ---
 navigation:
   - streamwrapper.rename.md: '« streamWrapper::rename'
-  - streamwrapper.stream-cast.html: 'streamWrapper::streamcast »'
+  - streamwrapper.stream-cast.md: 'streamWrapper::streamcast »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::rmdir'

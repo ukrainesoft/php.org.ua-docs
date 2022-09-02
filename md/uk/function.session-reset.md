@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.session-register-shutdown.html: « sessionregistershutdown
-  - function.session-save-path.html: sessionsavepath »
-  - index.html: PHP Manual
-  - ref.session.html: Функції для роботи із сесіями
+  - function.session-register-shutdown.md: « sessionregistershutdown
+  - function.session-save-path.md: sessionsavepath »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
 title: sessionreset
 ---
 # sessionreset
@@ -37,7 +37,7 @@ session_reset(): bool
 ### Дивіться також
 
 -   [SESSION](reserved.variables.session.md)
--   Опція конфігурації [session.autostart](session.configuration.html#ini.session.auto-start)
+-   Опція конфігурації [session.autostart](session.configuration.md#ini.session.auto-start)
 -   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
 -   [sessionabort()](function.session-abort.md) - Скасує зміни у масиві сесії та завершує її
 -   [sessioncommit()](function.session-commit.md) - Псевдонім sessionwriteclose

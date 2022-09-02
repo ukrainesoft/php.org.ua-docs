@@ -1,9 +1,9 @@
 ---
 navigation:
-  - appenditerator.getiteratorindex.html: '« AppendIterator::getIteratorIndex'
-  - appenditerator.next.html: 'AppendIterator::next »'
-  - index.html: PHP Manual
-  - class.appenditerator.html: AppendIterator
+  - appenditerator.getiteratorindex.md: '« AppendIterator::getIteratorIndex'
+  - appenditerator.next.md: 'AppendIterator::next »'
+  - index.md: PHP Manual
+  - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::key'
 ---
 # AppendIterator::key
@@ -77,8 +77,8 @@ c capybara
 
 ### Дивіться також
 
--   [Iterator::key()](iterator.key.html) - Повертає ключ поточного елемента
--   [AppendIterator::current()](appenditerator.current.html) - Повертає поточне значення
--   [AppendIterator::valid()](appenditerator.valid.html) - Перевіряє термін дії поточного елемента
--   [AppendIterator::next()](appenditerator.next.html) - Переходить до наступного елементу
--   [AppendIterator::rewind()](appenditerator.rewind.html) - перемотує ітератор
+-   [Iterator::key()](iterator.key.md) - Повертає ключ поточного елемента
+-   [AppendIterator::current()](appenditerator.current.md) - Повертає поточне значення
+-   [AppendIterator::valid()](appenditerator.valid.md) - Перевіряє термін дії поточного елемента
+-   [AppendIterator::next()](appenditerator.next.md) - Переходить до наступного елементу
+-   [AppendIterator::rewind()](appenditerator.rewind.md) - перемотує ітератор

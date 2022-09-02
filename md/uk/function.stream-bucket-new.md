@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-bucket-make-writeable.html: « streambucketmakewriteable
-  - function.stream-bucket-prepend.html: streambucketprepend »
+  - function.stream-bucket-make-writeable.md: « streambucketmakewriteable
+  - function.stream-bucket-prepend.md: streambucketprepend »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streambucketnew

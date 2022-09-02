@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cmo.html: « tradercmo
-  - function.trader-cos.html: tradercos »
+  - function.trader-cmo.md: « tradercmo
+  - function.trader-cos.md: tradercos »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercorrel

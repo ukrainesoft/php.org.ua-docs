@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xml-parser-free.html: « xmlparserfree
-  - function.xml-parser-set-option.html: xmlparsersetoption »
-  - index.html: PHP Manual
-  - ref.xml.html: Функции парсера XML
+  - function.xml-parser-free.md: « xmlparserfree
+  - function.xml-parser-set-option.md: xmlparsersetoption »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
 title: xmlparsergetoption
 ---
 # xmlparsergetoption
@@ -28,7 +28,7 @@ xml_parser_get_option(XMLParser $parser, int $option): string|int
 
 `option`
 
-Яке налаштування отримати. Доступні такі параметри **`XML_OPTION_CASE_FOLDING`** **`XML_OPTION_SKIP_TAGSTART`** **`XML_OPTION_SKIP_WHITE`** і **`XML_OPTION_TARGET_ENCODING`**. Їх опис дивіться у документації до функції [xmlparsersetoption()](function.xml-parser-set-option.html)
+Яке налаштування отримати. Доступні такі параметри **`XML_OPTION_CASE_FOLDING`** **`XML_OPTION_SKIP_TAGSTART`** **`XML_OPTION_SKIP_WHITE`** і **`XML_OPTION_TARGET_ENCODING`**. Їх опис дивіться у документації до функції [xmlparsersetoption()](function.xml-parser-set-option.md)
 
 ### Значення, що повертаються
 
@@ -38,5 +38,5 @@ xml_parser_get_option(XMLParser $parser, int $option): string|int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікували ресурс (resource). |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
 |  | Тепер параметр `options` підтримує **`XML_OPTION_SKIP_TAGSTART`** і **`XML_OPTION_SKIP_WHITE`** |

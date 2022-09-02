@@ -1,7 +1,7 @@
 ---
 navigation:
   - fdf.examples.md: « Приклади
-  - function.fdf-add-doc-javascript.html: fdfadddocjavascript »
+  - function.fdf-add-doc-javascript.md: fdfadddocjavascript »
   - index.md: PHP Manual
   - book.fdf.md: FDF
 title: FDF

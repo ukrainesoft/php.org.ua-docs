@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-clear-error.html: « swooleclearerror
-  - function.swoole-cpu-num.html: swoolecpunum »
-  - index.html: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - function.swoole-clear-error.md: « swooleclearerror
+  - function.swoole-cpu-num.md: swoolecpunum »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleclientselect
 ---
 # swooleclientselect

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-priorityqueue.jsonserialize.html: '« DsPriorityQueue::jsonSerialize'
-  - ds-priorityqueue.pop.html: 'ДсPriorityQueue::pop »'
+  - ds-priorityqueue.jsonserialize.md: '« DsPriorityQueue::jsonSerialize'
+  - ds-priorityqueue.pop.md: 'ДсPriorityQueue::pop »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - class.ds-priorityqueue.md: Черга з пріоритетом
 title: 'ДсPriorityQueue::peek'
 ---
 # ДсPriorityQueue::peek

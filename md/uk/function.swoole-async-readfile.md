@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-async-read.html: « swooleasyncread
-  - function.swoole-async-set.html: swooleasyncset »
+  - function.swoole-async-read.md: « swooleasyncread
+  - function.swoole-async-set.md: swooleasyncset »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleasyncreadfile
 ---
 # swooleasyncreadfile

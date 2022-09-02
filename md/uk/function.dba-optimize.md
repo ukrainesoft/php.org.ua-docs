@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dba-open.html: « dbaopen
-  - function.dba-popen.html: dbapopen »
+  - function.dba-open.md: « dbaopen
+  - function.dba-popen.md: dbapopen »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbaoptimize
@@ -24,7 +24,7 @@ dba_optimize(resource $dba): bool
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.md)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-list.html: « ldaplist
-  - function.ldap-mod-add.html: ldapmodadd »
+  - function.ldap-list.md: « ldaplist
+  - function.ldap-mod-add.md: ldapmodadd »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapmodaddext
@@ -18,7 +18,7 @@ ldapmodaddext — Додати значення атрибуту до поточ
 ldap_mod_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
 ```
 
-Робить те саме, що й [ldapmodadd()](function.ldap-mod-add.html), але повертає екземпляр [LDAPResult](class.ldap-result.html) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
+Робить те саме, що й [ldapmodadd()](function.ldap-mod-add.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
 
 ### Список параметрів
 

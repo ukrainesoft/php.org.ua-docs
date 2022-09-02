@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.com-create-guid.html: « comcreateguid
-  - function.com-get-active-object.html: comgetactiveobject »
+  - function.com-create-guid.md: « comcreateguid
+  - function.com-get-active-object.md: comgetactiveobject »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: comeventsink

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-getpgrp.html: « posixgetpgrp
-  - function.posix-getppid.html: posixgetppid »
+  - function.posix-getpgrp.md: « posixgetpgrp
+  - function.posix-getppid.md: posixgetppid »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixgetpid

@@ -98,5 +98,5 @@ array(2) {
 
 -   [ReflectionFunction::invoke()](reflectionfunction.invoke.md) - Викликає функцію
 -   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md) - Отримує кількість параметрів
--   [invoke()](language.oop5.magic.html#object.invoke)
+-   [invoke()](language.oop5.magic.md#object.invoke)
 -   [calluserfuncarray()](function.call-user-func-array.md) - Викликає callback-функцію з масивом параметрів

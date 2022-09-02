@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.getcolumnnames.html: '« SqlStatementResult::getColumnNames'
-  - mysql-xdevapi-sqlstatementresult.getgeneratedids.html: 'SqlStatementResult::getGeneratedIds »'
+  - mysql-xdevapi-sqlstatementresult.getcolumnnames.md: '« SqlStatementResult::getColumnNames'
+  - mysql-xdevapi-sqlstatementresult.getgeneratedids.md: 'SqlStatementResult::getGeneratedIds »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::getColumns'
 ---
 # SqlStatementResult::getColumns

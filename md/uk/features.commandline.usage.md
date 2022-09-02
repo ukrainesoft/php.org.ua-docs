@@ -1,7 +1,7 @@
 ---
 navigation:
   - features.commandline.options.md: « Опції
-  - features.commandline.io-streams.html: Потоки введення/виводу »
+  - features.commandline.io-streams.md: Потоки введення/виводу »
   - index.md: PHP Manual
   - features.commandline.md: Використання PHP у командному рядку
 title: Виконання PHP-файлів

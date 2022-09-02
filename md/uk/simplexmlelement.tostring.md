@@ -1,9 +1,9 @@
 ---
 navigation:
-  - simplexmlelement.savexml.html: '« SimpleXMLElement::saveXML'
-  - simplexmlelement.xpath.html: 'SimpleXMLElement::xpath »'
-  - index.html: PHP Manual
-  - class.simplexmlelement.html: SimpleXMLElement
+  - simplexmlelement.savexml.md: '« SimpleXMLElement::saveXML'
+  - simplexmlelement.xpath.md: 'SimpleXMLElement::xpath »'
+  - index.md: PHP Manual
+  - class.simplexmlelement.md: SimpleXMLElement
 title: 'SimpleXMLElement::toString'
 ---
 # SimpleXMLElement::toString
@@ -47,4 +47,4 @@ echo $xml;
 
 ### Дивіться також
 
--   [SimpleXMLElement::asXML()](simplexmlelement.asxml.html) - Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML
+-   [SimpleXMLElement::asXML()](simplexmlelement.asxml.md) - Повертає сформований XML-документ у вигляді рядка на основі елемента SimpleXML

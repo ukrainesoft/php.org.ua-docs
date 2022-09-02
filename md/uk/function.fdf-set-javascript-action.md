@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-set-flags.html: « fdfsetflags
-  - function.fdf-set-on-import-javascript.html: fdfsetвінimportjavascript »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-set-flags.md: « fdfsetflags
+  - function.fdf-set-on-import-javascript.md: fdfsetвінimportjavascript »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfsetjavascriptaction
 ---
 # fdfsetjavascriptaction
@@ -24,7 +24,7 @@ fdf_set_javascript_action(    resource $fdf_document,    string $fieldna
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -40,4 +40,4 @@ fdf_set_javascript_action(    resource $fdf_document,    string $fieldna
 
 ### Дивіться також
 
--   [fdfsetsubmitformaction()](function.fdf-set-submit-form-action.html) - Встановлює дію форми надсилання поля
+-   [fdfsetsubmitformaction()](function.fdf-set-submit-form-action.md) - Встановлює дію форми надсилання поля

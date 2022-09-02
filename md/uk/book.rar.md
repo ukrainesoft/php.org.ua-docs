@@ -1,48 +1,48 @@
 ---
 navigation:
-  - class.pharexception.html: « PharException
-  - intro.rar.html: Введение »
-  - index.html: PHP Manual
-  - refs.compression.html: Модулі для стиснення та архівації
+  - class.pharexception.md: « PharException
+  - intro.rar.md: Введение »
+  - index.md: PHP Manual
+  - refs.compression.md: Модулі для стиснення та архівації
 title: Архівування Rar
 ---
 # Архівування Rar
 
--   [Введение](intro.rar.html)
--   [Встановлення та налаштування](rar.setup.html)
-    -   [Вимоги](rar.requirements.html)
-    -   [Установка](rar.installation.html)
-    -   [Налаштування під час виконання](rar.configuration.html)
-    -   [Типи ресурсів](rar.resources.html)
--   [Обумовлені константи](rar.constants.html)
--   [Приклади](rar.examples.html)
--   [Rar](ref.rar.html)
-    -   [rarwrappercachestats](function.rar-wrapper-cache-stats.html) — Кеш доступів та відмов обгортки URL
--   [RarArchive](class.rararchive.html) - Клас RarArchive
-    -   [RarArchive::close](rararchive.close.html) — Закриває RAR архів та звільняє всі ресурси
-    -   [RarArchive::getComment](rararchive.getcomment.html) — Отримати текст коментаря з архіву RAR
-    -   [RarArchive::getEntries](rararchive.getentries.html) — Повертає повний список елементів із RAR архіву
-    -   [RarArchive::getEntry](rararchive.getentry.html) — Повертає об'єкт елемента з архіву RAR
-    -   [RarArchive::isBroken](rararchive.isbroken.html) — Перевіряє, чи не зламано архів (не завершено)
-    -   [RarArchive::isSolid](rararchive.issolid.html) — Перевірити, чи є архів суцільним
-    -   [RarArchive::open](rararchive.open.html) - Відкриває архів RAR
-    -   [RarArchive::setAllowBroken](rararchive.setallowbroken.html) — Чи відкривати пошкоджені архіви
-    -   [RarArchive::toString](rararchive.tostring.html) — Отримати текстову виставу
--   [RarEntry](class.rarentry.html) - Клас RarEntry
-    -   [RarEntry::extract](rarentry.extract.html) — Витягує елемент із архіву
-    -   [RarEntry::getAttr](rarentry.getattr.html) — Повертає атрибути елемента архіву
-    -   [RarEntry::getCrc](rarentry.getcrc.html) — Повертає CRC елемент архіву
-    -   [RarEntry::getFileTime](rarentry.getfiletime.html) — Останнім часом повертає зміни елемента
-    -   [RarEntry::getHostOs](rarentry.gethostos.html) — Повертає оригінальну ОС елемента
-    -   [RarEntry::getMethod](rarentry.getmethod.html) — Повертає метод компресії елемента
-    -   [RarEntry::getName](rarentry.getname.html) — Повертає ім'я елемента
-    -   [RarEntry::getPackedSize](rarentry.getpackedsize.html) — Повертає розмір стисненого елемента
-    -   [RarEntry::getStream](rarentry.getstream.html) — Отримати обробник для запису
-    -   [RarEntry::getUnpackedSize](rarentry.getunpackedsize.html) — Повертає розмір елемента у розпакованому стані
-    -   [RarEntry::getVersion](rarentry.getversion.html) — Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
-    -   [RarEntry::isDirectory](rarentry.isdirectory.html) — Перевіряє, чи є запис директорією
-    -   [RarEntry::isEncrypted](rarentry.isencrypted.html) — Перевіряє, чи зашифрований запис
-    -   [RarEntry::toString](rarentry.tostring.html) — Отримати текстове подання запису
--   [RarException](class.rarexception.html) - Клас RarException
-    -   [RarException::isUsingExceptions](rarexception.isusingexceptions.html) — Перевірити, чи будуть функції повертати помилки чи викидати винятки
-    -   [RarException::setUsingExceptions](rarexception.setusingexceptions.html) — Включити або вимкнути генерацію винятків замість повернення помилок
+-   [Введение](intro.rar.md)
+-   [Встановлення та налаштування](rar.setup.md)
+    -   [Вимоги](rar.requirements.md)
+    -   [Установка](rar.installation.md)
+    -   [Налаштування під час виконання](rar.configuration.md)
+    -   [Типи ресурсів](rar.resources.md)
+-   [Обумовлені константи](rar.constants.md)
+-   [Приклади](rar.examples.md)
+-   [Rar](ref.rar.md)
+    -   [rarwrappercachestats](function.rar-wrapper-cache-stats.md) — Кеш доступів та відмов обгортки URL
+-   [RarArchive](class.rararchive.md) - Клас RarArchive
+    -   [RarArchive::close](rararchive.close.md) — Закриває RAR архів та звільняє всі ресурси
+    -   [RarArchive::getComment](rararchive.getcomment.md) — Отримати текст коментаря з архіву RAR
+    -   [RarArchive::getEntries](rararchive.getentries.md) — Повертає повний список елементів із RAR архіву
+    -   [RarArchive::getEntry](rararchive.getentry.md) — Повертає об'єкт елемента з архіву RAR
+    -   [RarArchive::isBroken](rararchive.isbroken.md) — Перевіряє, чи не зламано архів (не завершено)
+    -   [RarArchive::isSolid](rararchive.issolid.md) — Перевірити, чи є архів суцільним
+    -   [RarArchive::open](rararchive.open.md) - Відкриває архів RAR
+    -   [RarArchive::setAllowBroken](rararchive.setallowbroken.md) — Чи відкривати пошкоджені архіви
+    -   [RarArchive::toString](rararchive.tostring.md) — Отримати текстову виставу
+-   [RarEntry](class.rarentry.md) - Клас RarEntry
+    -   [RarEntry::extract](rarentry.extract.md) — Витягує елемент із архіву
+    -   [RarEntry::getAttr](rarentry.getattr.md) — Повертає атрибути елемента архіву
+    -   [RarEntry::getCrc](rarentry.getcrc.md) — Повертає CRC елемент архіву
+    -   [RarEntry::getFileTime](rarentry.getfiletime.md) — Останнім часом повертає зміни елемента
+    -   [RarEntry::getHostOs](rarentry.gethostos.md) — Повертає оригінальну ОС елемента
+    -   [RarEntry::getMethod](rarentry.getmethod.md) — Повертає метод компресії елемента
+    -   [RarEntry::getName](rarentry.getname.md) — Повертає ім'я елемента
+    -   [RarEntry::getPackedSize](rarentry.getpackedsize.md) — Повертає розмір стисненого елемента
+    -   [RarEntry::getStream](rarentry.getstream.md) — Отримати обробник для запису
+    -   [RarEntry::getUnpackedSize](rarentry.getunpackedsize.md) — Повертає розмір елемента у розпакованому стані
+    -   [RarEntry::getVersion](rarentry.getversion.md) — Повертає мінімальну версію програми RAR, необхідну для розпакування елемента
+    -   [RarEntry::isDirectory](rarentry.isdirectory.md) — Перевіряє, чи є запис директорією
+    -   [RarEntry::isEncrypted](rarentry.isencrypted.md) — Перевіряє, чи зашифрований запис
+    -   [RarEntry::toString](rarentry.tostring.md) — Отримати текстове подання запису
+-   [RarException](class.rarexception.md) - Клас RarException
+    -   [RarException::isUsingExceptions](rarexception.isusingexceptions.md) — Перевірити, чи будуть функції повертати помилки чи викидати винятки
+    -   [RarException::setUsingExceptions](rarexception.setusingexceptions.md) — Включити або вимкнути генерацію винятків замість повернення помилок

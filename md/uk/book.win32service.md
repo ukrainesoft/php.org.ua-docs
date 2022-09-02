@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.variant-xor.html: « variantxor
+  - function.variant-xor.md: « variantxor
   - intro.win32service.md: Введение »
   - index.md: PHP Manual
   - refs.utilspec.windows.md: Модулі лише для Windows

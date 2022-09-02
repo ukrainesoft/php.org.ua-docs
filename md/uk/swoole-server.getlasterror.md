@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.getclientlist.html: '« SwooleServer::getClientList'
-  - swoole-server.heartbeat.html: 'SwooleServer::heartbeat »'
+  - swoole-server.getclientlist.md: '« SwooleServer::getClientList'
+  - swoole-server.heartbeat.md: 'SwooleServer::heartbeat »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::getLastError'
 ---
 # SwooleServer::getLastError

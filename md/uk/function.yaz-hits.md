@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.yaz-get-option.html: « yazgetoption
-  - function.yaz-itemorder.html: yazitemorder »
-  - index.html: PHP Manual
-  - ref.yaz.html: Функции YAZ
+  - function.yaz-get-option.md: « yazgetoption
+  - function.yaz-itemorder.md: yazitemorder »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
 title: yazhits
 ---
 # yazhits
@@ -24,7 +24,7 @@ yaz_hits(resource $id, array &$searchresult = ?): int
 
 `id`
 
-Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.html)
+Ресурс підключення, що повертається [yazconnect()](function.yaz-connect.md)
 
 `searchresult`
 

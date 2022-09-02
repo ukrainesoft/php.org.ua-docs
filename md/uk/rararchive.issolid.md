@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rararchive.isbroken.html: '« RarArchive::isBroken'
-  - rararchive.open.html: 'RarArchive::open »'
-  - index.html: PHP Manual
-  - class.rararchive.html: RarArchive
+  - rararchive.isbroken.md: '« RarArchive::isBroken'
+  - rararchive.open.md: 'RarArchive::open »'
+  - index.md: PHP Manual
+  - class.rararchive.md: RarArchive
 title: 'RarArchive::isSolid'
 ---
 # RarArchive::isSolid
@@ -34,7 +34,7 @@ rar_solid_is(RarArchive $rarfile): bool
 
 `rarfile`
 
-Об'єкт [RarArchive](class.rararchive.html), відкритий за допомогою [raropen()](rararchive.open.html)
+Об'єкт [RarArchive](class.rararchive.md), відкритий за допомогою [raropen()](rararchive.open.md)
 
 ### Значення, що повертаються
 

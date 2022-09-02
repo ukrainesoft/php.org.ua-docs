@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-minmax.html: « traderminmax
-  - function.trader-minus-di.html: traderminusdi »
+  - function.trader-minmax.md: « traderminmax
+  - function.trader-minus-di.md: traderminusdi »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderminmaxindex

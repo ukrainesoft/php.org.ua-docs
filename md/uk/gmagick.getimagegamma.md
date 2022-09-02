@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimageformat.html: '« Gmagick::getimageformat'
-  - gmagick.getimagegreenprimary.html: 'Gmagick::getimagegreenprimary »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimageformat.md: '« Gmagick::getimageformat'
+  - gmagick.getimagegreenprimary.md: 'Gmagick::getimagegreenprimary »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimagegamma'
 ---
 # Gmagick::getimagegamma

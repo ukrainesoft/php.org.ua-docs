@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.com.md: « Функции COM
-  - function.com-event-sink.html: comeventsink »
+  - function.com-event-sink.md: comeventsink »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: comcreateguid

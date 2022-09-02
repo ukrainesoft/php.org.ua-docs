@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.construct.html: '« ColumnResult::construct'
-  - mysql-xdevapi-columnresult.getcollationname.html: 'ColumnResult::getCollationName »'
+  - mysql-xdevapi-columnresult.construct.md: '« ColumnResult::construct'
+  - mysql-xdevapi-columnresult.getcollationname.md: 'ColumnResult::getCollationName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::getCharacterSetName'
 ---
 # ColumnResult::getCharacterSetName

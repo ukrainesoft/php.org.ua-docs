@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.registerplugin.html: '« YafDispatcher::registerPlugin'
-  - yaf-dispatcher.setdefaultaction.html: 'YafDispatcher::setDefaultAction »'
+  - yaf-dispatcher.registerplugin.md: '« YafDispatcher::registerPlugin'
+  - yaf-dispatcher.setdefaultaction.md: 'YafDispatcher::setDefaultAction »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::returnResponse'
 ---
 # YafDispatcher::returnResponse

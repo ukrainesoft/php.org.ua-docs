@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.html: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost'
-  - mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.html: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited »'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::getHost'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.md: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.html: MongoDBDriverMonitoringServerHeartbeatFailedEvent
+  - class.mongodb-driver-monitoring-serverheartbeatfailedevent.md: MongoDBDriverMonitoringServerHeartbeatFailedEvent
 title: 'MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort'
 ---
 # MongoDBDriverMonitoringServerHeartbeatFailedEvent::getPort
@@ -28,4 +28,4 @@ final public MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getPort(): in
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrobject.offsetunset.html: '« SolrObject::offsetUnset'
-  - solrclient.adddocument.html: 'SolrClient::addDocument »'
-  - index.html: PHP Manual
-  - book.solr.html: Solr
+  - solrobject.offsetunset.md: '« SolrObject::offsetUnset'
+  - solrclient.adddocument.md: 'SolrClient::addDocument »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
 title: Клас SolrClient
 ---
 # Клас SolrClient
@@ -160,25 +160,25 @@ public threads(): void
 
 ## Зміст
 
--   [SolrClient::addDocument](solrclient.adddocument.html) — Додає документ до індексу
--   [SolrClient::addDocuments](solrclient.adddocuments.html) — Додає колекцію екземплярів SolrInputDocument до індексу
--   [SolrClient::commit](solrclient.commit.html) — Завершує всі додавання/видалення, зроблені в індексі
--   [SolrClient::construct](solrclient.construct.html) - Конструктор об'єкта SolrClient
--   [SolrClient::deleteById](solrclient.deletebyid.html) — Видаляє за ідентифікатором
--   [SolrClient::deleteByIds](solrclient.deletebyids.html) — Видаляє за ідентифікаторами
--   [SolrClient::deleteByQueries](solrclient.deletebyqueries.html) — Видаляє всі документи, що відповідають будь-якому запиту.
--   [SolrClient::deleteByQuery](solrclient.deletebyquery.html) — Видаляє всі документи, які відповідають заданому запиту
--   [SolrClient::destruct](solrclient.destruct.html) - Деструктор SolrClient
--   [SolrClient::getById](solrclient.getbyid.html) — Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
--   [SolrClient::getByIds](solrclient.getbyids.html) — Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
--   [SolrClient::getDebug](solrclient.getdebug.html) — Повертає дані налагодження для останньої спроби підключення
--   [SolrClient::getOptions](solrclient.getoptions.html) - Повертає внутрішні параметри клієнта
--   [SolrClient::optimize](solrclient.optimize.html) - Дефрагментує індекс
--   [SolrClient::ping](solrclient.ping.html) — Перевіряє, чи сервер Solr працює
--   [SolrClient::query](solrclient.query.html) — Надсилає запит на сервер
--   [SolrClient::request](solrclient.request.html) — Надсилає необроблений запит на оновлення
--   [SolrClient::rollback](solrclient.rollback.html) — Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
--   [SolrClient::setResponseWriter](solrclient.setresponsewriter.html) - Встановлює письменник відповіді, що використовується для підготовки відповіді від Solr
--   [SolrClient::setServlet](solrclient.setservlet.html) — Змінює вказаний тип сервлету на нове значення
--   [SolrClient::system](solrclient.system.html) — Отримує інформацію про сервер Solr
--   [SolrClient::threads](solrclient.threads.html) — Перевіряє статус тем
+-   [SolrClient::addDocument](solrclient.adddocument.md) — Додає документ до індексу
+-   [SolrClient::addDocuments](solrclient.adddocuments.md) — Додає колекцію екземплярів SolrInputDocument до індексу
+-   [SolrClient::commit](solrclient.commit.md) — Завершує всі додавання/видалення, зроблені в індексі
+-   [SolrClient::construct](solrclient.construct.md) - Конструктор об'єкта SolrClient
+-   [SolrClient::deleteById](solrclient.deletebyid.md) — Видаляє за ідентифікатором
+-   [SolrClient::deleteByIds](solrclient.deletebyids.md) — Видаляє за ідентифікаторами
+-   [SolrClient::deleteByQueries](solrclient.deletebyqueries.md) — Видаляє всі документи, що відповідають будь-якому запиту.
+-   [SolrClient::deleteByQuery](solrclient.deletebyquery.md) — Видаляє всі документи, які відповідають заданому запиту
+-   [SolrClient::destruct](solrclient.destruct.md) - Деструктор SolrClient
+-   [SolrClient::getById](solrclient.getbyid.md) — Отримує документ щодо ідентифікатора. Використовує Solr Realtime Get (RTG)
+-   [SolrClient::getByIds](solrclient.getbyids.md) — Отримує документи щодо їх ідентифікаторів. Використовує Solr Realtime Get (RTG)
+-   [SolrClient::getDebug](solrclient.getdebug.md) — Повертає дані налагодження для останньої спроби підключення
+-   [SolrClient::getOptions](solrclient.getoptions.md) - Повертає внутрішні параметри клієнта
+-   [SolrClient::optimize](solrclient.optimize.md) - Дефрагментує індекс
+-   [SolrClient::ping](solrclient.ping.md) — Перевіряє, чи сервер Solr працює
+-   [SolrClient::query](solrclient.query.md) — Надсилає запит на сервер
+-   [SolrClient::request](solrclient.request.md) — Надсилає необроблений запит на оновлення
+-   [SolrClient::rollback](solrclient.rollback.md) — Відкочує всі додавання/видалення, зроблені в індекс з моменту останньої фіксації
+-   [SolrClient::setResponseWriter](solrclient.setresponsewriter.md) - Встановлює письменник відповіді, що використовується для підготовки відповіді від Solr
+-   [SolrClient::setServlet](solrclient.setservlet.md) — Змінює вказаний тип сервлету на нове значення
+-   [SolrClient::system](solrclient.system.md) — Отримує інформацію про сервер Solr
+-   [SolrClient::threads](solrclient.threads.md) — Перевіряє статус тем

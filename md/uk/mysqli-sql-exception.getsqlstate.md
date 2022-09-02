@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysqli-sql-exception.html: « mysqlisqlexception
+  - class.mysqli-sql-exception.md: « mysqlisqlexception
   - ref.mysqli.md: Синоніми та застарілі функції Mysqli »
   - index.md: PHP Manual
-  - class.mysqli-sql-exception.html: mysqlisqlexception
+  - class.mysqli-sql-exception.md: mysqlisqlexception
 title: 'mysqlisqlexception::getSqlState'
 ---
 # mysqlisqlexception::getSqlState

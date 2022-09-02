@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-close-image.html: «pscloseimage
-  - function.ps-closepath-stroke.html: псclosepathstroke »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-close-image.md: «pscloseimage
+  - function.ps-closepath-stroke.md: псclosepathstroke »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псclose
 ---
 # псclose
@@ -20,15 +20,15 @@ ps_close(resource $psdoc): bool
 
 Закриває документ PostScript.
 
-Функція записує кількість сторінок у документі PostScript. Вона також записує ієрархію закладок . **псclose()** не звільняє ресурси, як [псdelete()](function.ps-delete.html)
+Функція записує кількість сторінок у документі PostScript. Вона також записує ієрархію закладок . **псclose()** не звільняє ресурси, як [псdelete()](function.ps-delete.md)
 
-Функція також викликається функцією [псdelete()](function.ps-delete.html)якщо вона не була викликана раніше.
+Функція також викликається функцією [псdelete()](function.ps-delete.md)якщо вона не була викликана раніше.
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
@@ -36,5 +36,5 @@ ps_close(resource $psdoc): bool
 
 ### Дивіться також
 
--   [псopenfile()](function.ps-open-file.html) - Відкриває файл для виводу
--   [псdelete()](function.ps-delete.html) - Видаляє всі ресурси документа PostScript
+-   [псopenfile()](function.ps-open-file.md) - Відкриває файл для виводу
+-   [псdelete()](function.ps-delete.md) - Видаляє всі ресурси документа PostScript

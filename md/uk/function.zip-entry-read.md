@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.zip-entry-open.html: « zipentryopen
-  - function.zip-open.html: zipopen »
+  - function.zip-entry-open.md: « zipentryopen
+  - function.zip-open.md: zipopen »
   - index.md: PHP Manual
   - ref.zip.md: Функции Zip
 title: zipentryread
@@ -28,7 +28,7 @@ zip_entry_read(resource $zip_entry, int $len = 1024): string|false
 
 `zip_entry`
 
-Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.html)
+Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.md)
 
 `len`
 
@@ -50,6 +50,6 @@ zip_entry_read(resource $zip_entry, int $len = 1024): string|false
 
 ### Дивіться також
 
--   [zipentryopen()](function.zip-entry-open.html) - відкриває директорію для читання
--   [zipentryclose()](function.zip-entry-close.html) - закриває дескриптор директорії
--   [zipentryfilesize()](function.zip-entry-filesize.html) - Повертає реальний розмір файлу для дескриптора директорії
+-   [zipentryopen()](function.zip-entry-open.md) - відкриває директорію для читання
+-   [zipentryclose()](function.zip-entry-close.md) - закриває дескриптор директорії
+-   [zipentryfilesize()](function.zip-entry-filesize.md) - Повертає реальний розмір файлу для дескриптора директорії

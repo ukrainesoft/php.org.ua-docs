@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.flushinstantly.html: '« YafDispatcher::flushInstantly'
-  - yaf-dispatcher.getdefaultaction.html: 'YafDispatcher::getDefaultAction »'
+  - yaf-dispatcher.flushinstantly.md: '« YafDispatcher::flushInstantly'
+  - yaf-dispatcher.getdefaultaction.md: 'YafDispatcher::getDefaultAction »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::getApplication'
 ---
 # YafDispatcher::getApplication
@@ -18,7 +18,7 @@ YafDispatcher::getApplication — Отримує програму
 public Yaf_Dispatcher::getApplication(): Yaf_Application
 ```
 
-Отримує екземпляр [YafApplication](class.yaf-application.html). Те саме, що і [YafApplication::app()](yaf-application.app.md)
+Отримує екземпляр [YafApplication](class.yaf-application.md). Те саме, що і [YafApplication::app()](yaf-application.app.md)
 
 ### Список параметрів
 

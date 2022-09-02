@@ -1,9 +1,9 @@
 ---
 navigation:
-  - snmp.close.html: '« SNMP::close'
-  - snmp.get.html: 'SNMP::get »'
-  - index.html: PHP Manual
-  - class.snmp.html: SNMP
+  - snmp.close.md: '« SNMP::close'
+  - snmp.get.md: 'SNMP::get »'
+  - index.md: PHP Manual
+  - class.snmp.md: SNMP
 title: 'SNMP::construct'
 ---
 # SNMP::construct
@@ -73,6 +73,6 @@ STRING: Test server
 
 ### Дивіться також
 
--   [SNMP::close()](snmp.close.html) - Закриває сесію SNMP
+-   [SNMP::close()](snmp.close.md) - Закриває сесію SNMP
 
 <table class="doctable table"><tbody class="tbody"><tr><td>SNMP::VERSION_1</td><td><abbr title="Simple Network Management Protocol">SNMP</abbr> community</td></tr><tr><td>SNMP::VERSION_2C</td><td><abbr title="Simple Network Management Protocol">SNMP</abbr> community</td></tr><tr><td>SNMP::VERSION_3</td><td><abbr title="Simple Network Management Protocol">SNMP</abbr>v3 securityName</td></tr></tbody></table>

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-cancel.html: « eiocancel
-  - function.eio-chown.html: eiochown »
+  - function.eio-cancel.md: « eiocancel
+  - function.eio-chown.md: eiochown »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiochmod

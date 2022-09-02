@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.session-encode.html: « sessionencode
-  - function.session-get-cookie-params.html: sessiongetcookieparams »
-  - index.html: PHP Manual
-  - ref.session.html: Функції для роботи із сесіями
+  - function.session-encode.md: « sessionencode
+  - function.session-get-cookie-params.md: sessiongetcookieparams »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
 title: sessionгк
 ---
 # sessionгк
@@ -22,7 +22,7 @@ session_gc(): int|false
 
 Складання сміття, засноване на ймовірності в цілому працює, але має кілька проблем. 1) На низькозавантажених сайтах ці сесії можуть бути не видалені протягом бажаного часу. 2) На високозавантажених сайтах складання сміття може виконуватися надто часто. 3) Складання сміття виконується під час обробки запиту користувача, що призводить до додаткової затримки користувача.
 
-Тому рекомендується виконувати складання сміття на робочих системах періодично, наприклад, використовувати завдання cron у UNIX-подібних системах. При цьому переконайтесь, що вимкнули складання сміття на основі ймовірності, встановивши [session.gcprobability](session.configuration.html#ini.session.gc-probability) 0.
+Тому рекомендується виконувати складання сміття на робочих системах періодично, наприклад, використовувати завдання cron у UNIX-подібних системах. При цьому переконайтесь, що вимкнули складання сміття на основі ймовірності, встановивши [session.gcprobability](session.configuration.md#ini.session.gc-probability) 0.
 
 ### Список параметрів
 
@@ -82,4 +82,4 @@ if (file_exists($gc_time)) {
 
 -   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу
 -   [sessiondestroy()](function.session-destroy.md) - Знищує всі дані сесії
--   [session.gcprobability](session.configuration.html#ini.session.gc-probability)
+-   [session.gcprobability](session.configuration.md#ini.session.gc-probability)

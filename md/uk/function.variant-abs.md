@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.com-print-typeinfo.html: « comprinttypeinfo
-  - function.variant-add.html: variantadd »
+  - function.com-print-typeinfo.md: « comprinttypeinfo
+  - function.variant-add.md: variantadd »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantabs

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.setrsacertificate.html: '« OAuth::setRSACertificate'
-  - oauth.settimestamp.html: 'OAuth::setTimestamp »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.setrsacertificate.md: '« OAuth::setRSACertificate'
+  - oauth.settimestamp.md: 'OAuth::setTimestamp »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::setSSLChecks'
 ---
 # OAuth::setSSLChecks

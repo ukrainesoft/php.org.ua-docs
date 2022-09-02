@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel.run.html: « parallelrun
-  - parallel-runtime.construct.html: 'parallelRuntime::construct »'
-  - index.html: PHP Manual
-  - book.parallel.html: parallel
+  - parallel.run.md: « parallelrun
+  - parallel-runtime.construct.md: 'parallelRuntime::construct »'
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
 title: Клас parallelRuntime
 ---
 # Клас parallelRuntime
@@ -58,7 +58,7 @@ public kill(): void
 
 ## Зміст
 
--   [parallelRuntime::construct](parallel-runtime.construct.html) - Конструктор класу Runtime
--   [parallelRuntime::run](parallel-runtime.run.html) - Виконання
--   [parallelRuntime::close](parallel-runtime.close.html) — Витончене з'єднання під час виконання
--   [parallelRuntime::kill](parallel-runtime.kill.html) — З'єднання під час виконання
+-   [parallelRuntime::construct](parallel-runtime.construct.md) - Конструктор класу Runtime
+-   [parallelRuntime::run](parallel-runtime.run.md) - Виконання
+-   [parallelRuntime::close](parallel-runtime.close.md) — Витончене з'єднання під час виконання
+-   [parallelRuntime::kill](parallel-runtime.kill.md) — З'єднання під час виконання

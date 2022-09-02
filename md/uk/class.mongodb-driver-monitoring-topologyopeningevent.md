@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-topologyclosedevent.gettopologyid.html: '« MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId'
-  - mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html: 'MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId »'
-  - index.html: PHP Manual
-  - mongodb.monitoring.html: MongoDBDriverMonitoring
+  - mongodb-driver-monitoring-topologyclosedevent.gettopologyid.md: '« MongoDBDriverMonitoringTopologyClosedEvent::getTopologyId'
+  - mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md: 'MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Клас MongoDBDriverMonitoringTopologyOpeningEvent
 ---
 # Клас MongoDBDriverMonitoringTopologyOpeningEvent
@@ -37,4 +37,4 @@ title: Клас MongoDBDriverMonitoringTopologyOpeningEvent
 
 ## Зміст
 
--   [MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.html) - Повертає ідентифікатор топології
+-   [MongoDBDriverMonitoringTopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md) - Повертає ідентифікатор топології

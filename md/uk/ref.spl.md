@@ -1,7 +1,7 @@
 ---
 navigation:
   - class.unexpectedvalueexception.md: « UnexpectedValueException
-  - function.class-implements.html: classimplements »
+  - function.class-implements.md: classimplements »
   - index.md: PHP Manual
   - book.spl.md: SPL
 title: Функції SPL

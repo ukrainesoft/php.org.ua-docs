@@ -32,15 +32,15 @@ public ZipArchive::open(string $filename, int $flags = 0): bool|int
 
 Режим відкриття файлів, що використовується.
 
--   **`[ZipArchive::OVERWRITE](zip.constants.html#ziparchive.constants.overwrite)`**
+-   **`[ZipArchive::OVERWRITE](zip.constants.md#ziparchive.constants.overwrite)`**
     
--   **`[ZipArchive::CREATE](zip.constants.html#ziparchive.constants.create)`**
+-   **`[ZipArchive::CREATE](zip.constants.md#ziparchive.constants.create)`**
     
--   **`[ZipArchive::RDONLY](zip.constants.html#ziparchive.constants.rdonly)`**
+-   **`[ZipArchive::RDONLY](zip.constants.md#ziparchive.constants.rdonly)`**
     
--   **`[ZipArchive::EXCL](zip.constants.html#ziparchive.constants.excl)`**
+-   **`[ZipArchive::EXCL](zip.constants.md#ziparchive.constants.excl)`**
     
--   **`[ZipArchive::CHECKCONS](zip.constants.html#ziparchive.constants.checkcons)`**
+-   **`[ZipArchive::CHECKCONS](zip.constants.md#ziparchive.constants.checkcons)`**
     
 
 ### Значення, що повертаються

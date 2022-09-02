@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdo.pgsqlcopytofile.html: '« PDO::pgsqlCopyToFile'
-  - pdo.pgsqlgetpid.html: 'PDO::pgsqlGetPid »'
-  - index.html: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - pdo.pgsqlcopytofile.md: '« PDO::pgsqlCopyToFile'
+  - pdo.pgsqlgetpid.md: 'PDO::pgsqlGetPid »'
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlGetNotify'
 ---
 # PDO::pgsqlGetNotify
@@ -24,7 +24,7 @@ public PDO::pgsqlGetNotify(int $result_type = PDO::FETCH_USE_DEFAULT, int $ms_ti
 
 `result_type`
 
-Формат, в якому має повернутися результуючий набір, представлений як одна з констант [**`PDO::FETCH_*`**](pdostatement.fetch.html)
+Формат, в якому має повернутися результуючий набір, представлений як одна з констант [**`PDO::FETCH_*`**](pdostatement.fetch.md)
 
 `ms_timeout`
 

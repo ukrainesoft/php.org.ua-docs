@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzuncompress.html: « gzuncompress
-  - function.inflate-add.html: inflateadd »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzuncompress.md: « gzuncompress
+  - function.inflate-add.md: inflateadd »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzwrite
 ---
 # gzwrite

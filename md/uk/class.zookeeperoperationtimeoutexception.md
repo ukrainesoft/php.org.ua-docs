@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.zookeepernonodeexception.html: « ZookeeperNoNodeException
-  - class.zookeepersessionexception.html: ZookeeperSessionException »
-  - index.html: PHP Manual
-  - book.zookeeper.html: ZooKeeper
+  - class.zookeepernonodeexception.md: « ZookeeperNoNodeException
+  - class.zookeepersessionexception.md: ZookeeperSessionException »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
 title: Клас ZookeeperOperationTimeoutException
 ---
 # Клас ZookeeperOperationTimeoutException

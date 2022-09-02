@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.spl.html: « Функції SPL
-  - function.class-parents.html: classparents »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - ref.spl.md: « Функції SPL
+  - function.class-parents.md: classparents »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: classimplements
 ---
 # classimplements

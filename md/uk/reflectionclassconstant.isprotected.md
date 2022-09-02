@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclassconstant.isprivate.html: '« ReflectionClassConstant::isPrivate'
-  - reflectionclassconstant.ispublic.html: 'ReflectionClassConstant::isPublic »'
-  - index.html: PHP Manual
-  - class.reflectionclassconstant.html: ReflectionClassConstant
+  - reflectionclassconstant.isprivate.md: '« ReflectionClassConstant::isPrivate'
+  - reflectionclassconstant.ispublic.md: 'ReflectionClassConstant::isPublic »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::isProtected'
 ---
 # ReflectionClassConstant::isProtected
@@ -30,6 +30,6 @@ public ReflectionClassConstant::isProtected(): bool
 
 ### Дивіться також
 
--   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.html) - Перевіряє, чи є константа класу остаточною
--   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.html) - Перевіряє, чи константа є загальнодоступною
--   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.html) - Перевіряє, чи є константа закритою
+-   [ReflectionClassConstant::isFinal()](reflectionclassconstant.isfinal.md) - Перевіряє, чи є константа класу остаточною
+-   [ReflectionClassConstant::isPublic()](reflectionclassconstant.ispublic.md) - Перевіряє, чи константа є загальнодоступною
+-   [ReflectionClassConstant::isPrivate()](reflectionclassconstant.isprivate.md) - Перевіряє, чи є константа закритою

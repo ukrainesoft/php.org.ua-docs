@@ -1,9 +1,9 @@
 ---
 navigation:
-  - svn.setup.html: « Встановлення та налаштування
-  - svn.installation.html: Установка »
-  - index.html: PHP Manual
-  - svn.setup.html: Встановлення та налаштування
+  - svn.setup.md: « Встановлення та налаштування
+  - svn.installation.md: Установка »
+  - index.md: PHP Manual
+  - svn.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

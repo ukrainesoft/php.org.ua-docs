@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-object.html: « isobject
-  - function.is-resource.html: ісresource »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-object.md: « isobject
+  - function.is-resource.md: ісresource »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісreal
 ---
 # ісreal

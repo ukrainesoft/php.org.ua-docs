@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-lob2-tell64.html: « cubridlob2tell64
-  - function.cubrid-lob2-write.html: cubridlob2write »
+  - function.cubrid-lob2-tell64.md: « cubridlob2tell64
+  - function.cubrid-lob2-write.md: cubridlob2write »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridlob2tell

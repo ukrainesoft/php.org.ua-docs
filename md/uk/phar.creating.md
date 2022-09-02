@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.using.object.html: '« Використання Phar-архівів: класи Phar та PharData'
-  - phar.creating.intro.html: 'Создание Phar-архивов: Введение »'
-  - index.html: PHP Manual
-  - book.phar.html: Phar
+  - phar.using.object.md: '« Використання Phar-архівів: класи Phar та PharData'
+  - phar.creating.intro.md: 'Создание Phar-архивов: Введение »'
+  - index.md: PHP Manual
+  - book.phar.md: Phar
 title: Створення Phar-архівів
 ---
 # Створення Phar-архівів

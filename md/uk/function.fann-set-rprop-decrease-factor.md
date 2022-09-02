@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-quickprop-mu.html: « fannsetquickpropму
-  - function.fann-set-rprop-delta-max.html: fannsetrpropdeltamax »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-quickprop-mu.md: « fannsetquickpropму
+  - function.fann-set-rprop-delta-max.md: fannsetrpropdeltamax »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetrpropdecreasefactor
 ---
 # fannsetrpropdecreasefactor
@@ -36,4 +36,4 @@ fann_set_rprop_decrease_factor(resource $ann, float $rprop_decrease_factor): boo
 
 ### Дивіться також
 
--   [fanngetrpropdecreasefactor()](function.fann-get-rprop-decrease-factor.html) - Повертає коефіцієнт зменшення під час навчання RPROP
+-   [fanngetrpropdecreasefactor()](function.fann-get-rprop-decrease-factor.md) - Повертає коефіцієнт зменшення під час навчання RPROP

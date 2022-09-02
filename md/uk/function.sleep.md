@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.show-source.html: « showsource
-  - function.sys-getloadavg.html: sysgetloadavg »
+  - function.show-source.md: « showsource
+  - function.sys-getloadavg.md: sysgetloadavg »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: sleep

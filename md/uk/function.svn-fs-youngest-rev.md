@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-txn-root.html: « svnфсtxnroot
-  - function.svn-import.html: svnimport »
+  - function.svn-fs-txn-root.md: « svnфсtxnroot
+  - function.svn-import.md: svnimport »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсyoungestrev

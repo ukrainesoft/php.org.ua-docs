@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-get-db-parameter.html: « cubridgetдбparameter
-  - function.cubrid-get-server-info.html: cubridgetserverinfo »
+  - function.cubrid-get-db-parameter.md: « cubridgetдбparameter
+  - function.cubrid-get-server-info.md: cubridgetserverinfo »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridgetquerytimeout

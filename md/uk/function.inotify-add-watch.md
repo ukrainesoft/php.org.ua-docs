@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.inotify.md: « Функции Inotify
-  - function.inotify-init.html: inotifyinit »
+  - function.inotify-init.md: inotifyinit »
   - index.md: PHP Manual
   - ref.inotify.md: Функции Inotify
 title: inotifyaddwatch

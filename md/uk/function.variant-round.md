@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.variant-pow.html: « variantpow
-  - function.variant-set-type.html: variantsettype »
-  - index.html: PHP Manual
-  - ref.com.html: Функции COM
+  - function.variant-pow.md: « variantpow
+  - function.variant-set-type.md: variantsettype »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
 title: variantround
 ---
 # variantround

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-close.html: « pgclose
-  - function.pg-connect.html: пгconnect »
+  - function.pg-close.md: « pgclose
+  - function.pg-connect.md: пгconnect »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгconnectpoll

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tcpwrap.configuration.html: « Налаштування під час виконання
-  - tcpwrap.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - tcpwrap.setup.html: Встановлення та налаштування
+  - tcpwrap.configuration.md: « Налаштування під час виконання
+  - tcpwrap.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - tcpwrap.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

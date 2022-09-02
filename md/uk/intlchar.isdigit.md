@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.isdefined.html: '« IntlChar::isdefined'
-  - intlchar.isgraph.html: 'IntlChar::isgraph »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.isdefined.md: '« IntlChar::isdefined'
+  - intlchar.isgraph.md: 'IntlChar::isgraph »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::isdigit'
 ---
 # IntlChar::isdigit
@@ -54,6 +54,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isalpha()](intlchar.isalpha.html) - Перевірити, чи є символ літерою
--   [IntlChar::isalnum()](intlchar.isalnum.html) - Перевірити, чи є символ буквою чи цифрою
--   [IntlChar::isxdigit()](intlchar.isxdigit.html) - Перевірити, чи є символ шістнадцятковою цифрою
+-   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою
+-   [IntlChar::isalnum()](intlchar.isalnum.md) - Перевірити, чи є символ буквою чи цифрою
+-   [IntlChar::isxdigit()](intlchar.isxdigit.md) - Перевірити, чи є символ шістнадцятковою цифрою

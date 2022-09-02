@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-connect.html: « ldapconnect
-  - function.ldap-control-paged-result.html: ldapcontrolpagedresult »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-connect.md: « ldapconnect
+  - function.ldap-control-paged-result.md: ldapcontrolpagedresult »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapcontrolpagedresultresponse
 ---
 # ldapcontrolpagedresultresponse
@@ -14,7 +14,7 @@ ldapcontrolpagedresultresponse — Отримати вказівник на по
 
 **Увага**
 
-Функція була оголошена *застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls` в [ldapsearch()](function.ldap-search.html). Дивіться також [Керуючі об'єкти LDAP](ldap.controls.md) для отримання додаткової інформації.
+Функція була оголошена *застарілої* в PHP 7.4.0 та *ВИДАЛЕНО* у PHP 8.0.0. Замість неї слід використовувати параметр `controls` в [ldapsearch()](function.ldap-search.md). Дивіться також [Керуючі об'єкти LDAP](ldap.controls.md) для отримання додаткової інформації.
 
 ### Опис
 

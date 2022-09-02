@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-rprop-delta-min.html: « fannsetrpropdeltamin
-  - function.fann-set-rprop-increase-factor.html: fannsetrpropincreasefactor »
+  - function.fann-set-rprop-delta-min.md: « fannsetrpropdeltamin
+  - function.fann-set-rprop-increase-factor.md: fannsetrpropincreasefactor »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetrpropdeltazero

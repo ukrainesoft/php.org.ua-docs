@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.oci8.html: « OCI8 Функции
-  - function.oci-bind-by-name.html: ocibindбname »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - ref.oci8.md: « OCI8 Функции
+  - function.oci-bind-by-name.md: ocibindбname »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocibindarrayбname
 ---
 # ocibindarrayбname

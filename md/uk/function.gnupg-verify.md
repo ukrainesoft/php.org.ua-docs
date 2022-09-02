@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gnupg-sign.html: « gnupgsign
-  - book.wkhtmltox.html: wkhtmltox »
-  - index.html: PHP Manual
-  - ref.gnupg.html: GnuPG Функції
+  - function.gnupg-sign.md: « gnupgsign
+  - book.wkhtmltox.md: wkhtmltox »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
 title: gnupgverify
 ---
 # gnupgverify
@@ -24,7 +24,7 @@ gnupg_verify(    resource $identifier,    string $signed_text,    st
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `signed_text`
 

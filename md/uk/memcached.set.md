@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.resetserverlist.html: '« Memcached::resetServerList'
-  - memcached.setbykey.html: 'Memcached::setByKey »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.resetserverlist.md: '« Memcached::resetServerList'
+  - memcached.setbykey.md: 'Memcached::setByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::set'
 ---
 # Memcached::set
@@ -34,11 +34,11 @@ public Memcached::set(string $key, mixed $value, int $expiration = ?): bool
 
 `expiration`
 
-Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.html)
+Час зберігання об'єкта за промовчанням дорівнює 0. Для більш детальної інформації дивіться [Час зберігання об'єкту](memcached.expiration.md)
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.html)
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Використовуйте за необхідності [Memcached::getResultCode()](memcached.getresultcode.md)
 
 ### Приклади
 
@@ -80,6 +80,6 @@ object(stdClass)#1 (0) {
 
 ### Дивіться також
 
--   [Memcached::setByKey()](memcached.setbykey.html) - Зберігає запис на вказаному сервері
--   [Memcached::add()](memcached.add.html) - Додає елемент із новим ключем
--   [Memcached::replace()](memcached.replace.html) - Замінює існуючий запис із зазначеним ключем
+-   [Memcached::setByKey()](memcached.setbykey.md) - Зберігає запис на вказаному сервері
+-   [Memcached::add()](memcached.add.md) - Додає елемент із новим ключем
+-   [Memcached::replace()](memcached.replace.md) - Замінює існуючий запис із зазначеним ключем

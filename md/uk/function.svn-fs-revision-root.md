@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-revision-prop.html: « svnфсrevisionprop
-  - function.svn-fs-txn-root.html: svnфсtxnroot »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-revision-prop.md: « svnфсrevisionprop
+  - function.svn-fs-txn-root.md: svnфсtxnroot »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсrevisionroot
 ---
 # svnфсrevisionroot

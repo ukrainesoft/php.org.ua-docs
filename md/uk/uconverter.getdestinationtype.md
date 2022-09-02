@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.getdestinationencoding.html: '« UConverter::getDestinationEncoding'
-  - uconverter.geterrorcode.html: 'UConverter::getErrorCode »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.getdestinationencoding.md: '« UConverter::getDestinationEncoding'
+  - uconverter.geterrorcode.md: 'UConverter::getErrorCode »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::getDestinationType'
 ---
 # UConverter::getDestinationType

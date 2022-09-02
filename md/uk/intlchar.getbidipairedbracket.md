@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.fordigit.html: '« IntlChar::forDigit'
-  - intlchar.getblockcode.html: 'IntlChar::getBlockCode »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.fordigit.md: '« IntlChar::forDigit'
+  - intlchar.getblockcode.md: 'IntlChar::getBlockCode »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::getBidiPairedBracket'
 ---
 # IntlChar::getBidiPairedBracket
@@ -20,7 +20,7 @@ public static IntlChar::getBidiPairedBracket(int|string $codepoint): int|string|
 
 Отримує парну дужку для символу.
 
-Для `Bidi_Paired_Bracket_Type!=None`, це аналогічно [IntlChar::charMirror()](intlchar.charmirror.html). Якщо такого немає, повертається вихідний `codepoint`
+Для `Bidi_Paired_Bracket_Type!=None`, це аналогічно [IntlChar::charMirror()](intlchar.charmirror.md). Якщо такого немає, повертається вихідний `codepoint`
 
 ### Список параметрів
 
@@ -54,6 +54,6 @@ string(1) "]"
 
 ### Дивіться також
 
--   [IntlChar::charMirror()](intlchar.charmirror.html) - Отримати "дзеркальний" символ за кодом
+-   [IntlChar::charMirror()](intlchar.charmirror.md) - Отримати "дзеркальний" символ за кодом
 -   **`IntlChar::PROPERTY_BIDI_PAIRED_BRACKET`**
 -   **`IntlChar::PROPERTY_BIDI_PAIRED_BRACKET_TYPE`**

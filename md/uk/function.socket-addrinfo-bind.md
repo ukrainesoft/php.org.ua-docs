@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-accept.html: « socketaccept
-  - function.socket-addrinfo-connect.html: socketaddrinfoconnect »
+  - function.socket-accept.md: « socketaccept
+  - function.socket-addrinfo-connect.md: socketaddrinfoconnect »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketaddrinfobind

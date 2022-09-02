@@ -44,7 +44,7 @@ public Imagick::exportImagePixels(    int $x,    int $y,    int $wid
 
 `STORAGE`
 
-Зверніться до цього списку [констант типа PIXEL](imagick.constants.html#imagick.constants.pixel)
+Зверніться до цього списку [констант типа PIXEL](imagick.constants.md#imagick.constants.pixel)
 
 ### Значення, що повертаються
 

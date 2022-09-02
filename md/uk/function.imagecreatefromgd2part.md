@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagecreatefromgd2.html: « imagecreatefromgd2
-  - function.imagecreatefromgd.html: imagecreatefromgd »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagecreatefromgd2.md: « imagecreatefromgd2
+  - function.imagecreatefromgd.md: imagecreatefromgd »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecreatefromgd2part
 ---
 # imagecreatefromgd2part
@@ -22,7 +22,7 @@ imagecreatefromgd2part(    string $filename,    int $x,    int $y, 
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.html). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Список параметрів
 
@@ -54,7 +54,7 @@ y-координата точки вихідного зображення.
 
 | Версия | Описание |
 | --- | --- |
-|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 

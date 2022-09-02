@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-mysql.html: « MySQL (PDO)
-  - ref.pdo-sqlsrv.html: MS SQL Server (PDO) »
-  - index.html: PHP Manual
-  - ref.pdo-mysql.html: MySQL (PDO)
+  - ref.pdo-mysql.md: « MySQL (PDO)
+  - ref.pdo-sqlsrv.md: MS SQL Server (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-mysql.md: MySQL (PDO)
 title: PDOMYSQL DSN
 ---
 # PDOMYSQL DSN
@@ -38,7 +38,7 @@ DSN-префікс - це **`mysql:`**
 
 `charset`
 
-Кодування. Дивіться розділ [Кодування](mysqlinfo.concepts.charset.html) для додаткової інформації.
+Кодування. Дивіться розділ [Кодування](mysqlinfo.concepts.charset.md) для додаткової інформації.
 
 ### Приклади
 
@@ -61,4 +61,4 @@ mysql:unix_socket=/tmp/mysql.sock;dbname=testdb
 
 > **Зауваження** **Тільки Unix:**
 > 
-> Якщо ім'я хоста встановлено як `"localhost"`, З'єднання відбувається через сокет домену. Якщо PDOMYSQL скомпільований з використанням libmysqlclient, то шлях до файлу-сокету буде збігатися з шляхом, яким скомпільований libmysqlclient. Якщо PDOMYSQL скомпільований з використанням mysqlnd, значення сокета за умовчанням, може бути виставлено з використанням налаштування [pdomysql.defaultsocket](ref.pdo-mysql.html#ini.pdo-mysql.default-socket)
+> Якщо ім'я хоста встановлено як `"localhost"`, З'єднання відбувається через сокет домену. Якщо PDOMYSQL скомпільований з використанням libmysqlclient, то шлях до файлу-сокету буде збігатися з шляхом, яким скомпільований libmysqlclient. Якщо PDOMYSQL скомпільований з використанням mysqlnd, значення сокета за умовчанням, може бути виставлено з використанням налаштування [pdomysql.defaultsocket](ref.pdo-mysql.md#ini.pdo-mysql.default-socket)

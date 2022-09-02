@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-set-on-import-javascript.html: « fdfsetвінimportjavascript
-  - function.fdf-set-status.html: fdfsetstatus »
+  - function.fdf-set-on-import-javascript.md: « fdfsetвінimportjavascript
+  - function.fdf-set-status.md: fdfsetstatus »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfsetopt
@@ -24,7 +24,7 @@ fdf_set_opt(    resource $fdf_document,    string $fieldname,    int
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 
@@ -42,4 +42,4 @@ fdf_set_opt(    resource $fdf_document,    string $fieldname,    int
 
 ### Дивіться також
 
--   [fdfsetflags()](function.fdf-set-flags.html) - Встановлює прапор поля
+-   [fdfsetflags()](function.fdf-set-flags.md) - Встановлює прапор поля

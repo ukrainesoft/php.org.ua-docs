@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-auth-set-parameter.html: « svnauthsetparameter
-  - function.svn-cat.html: svncat »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-auth-set-parameter.md: « svnauthsetparameter
+  - function.svn-cat.md: svncat »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnblame
 ---
 # svnblame
@@ -66,6 +66,6 @@ Array
 
 ### Дивіться також
 
--   [svndiff()](function.svn-diff.html) - Рекурсивно показує різницю двох файлів
+-   [svndiff()](function.svn-diff.md) - Рекурсивно показує різницю двох файлів
 -   **svnlogs()**
--   [svnstatus()](function.svn-status.html) - Повертає SVN-статус файлів та директорій робочої копії
+-   [svnstatus()](function.svn-status.md) - Повертає SVN-статус файлів та директорій робочої копії

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - expect.examples-usage.html: « Приклади використання Expect
-  - function.expect-expectl.html: expectexpectl »
+  - expect.examples-usage.md: « Приклади використання Expect
+  - function.expect-expectl.md: expectexpectl »
   - index.md: PHP Manual
   - book.expect.md: Expect
 title: Опції Expect

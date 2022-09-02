@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-createmailbox.html: « imapcreatemailbox
-  - function.imap-deletemailbox.html: imapdeletemailbox »
+  - function.imap-createmailbox.md: « imapcreatemailbox
+  - function.imap-deletemailbox.md: imapdeletemailbox »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapdelete
@@ -18,7 +18,7 @@ imapdelete — Позначити повідомлення для видален
 imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 ```
 
-Позначає повідомлення, перелічені у `message_nums` для видалення. Позначені повідомлення залишатимуться в скриньці доки не буде викликана функція [imapexpunge()](function.imap-expunge.html), або [imapclose()](function.imap-close.md) із встановленим параметром **`CL_EXPUNGE`**
+Позначає повідомлення, перелічені у `message_nums` для видалення. Позначені повідомлення залишатимуться в скриньці доки не буде викликана функція [imapexpunge()](function.imap-expunge.md), або [imapclose()](function.imap-close.md) із встановленим параметром **`CL_EXPUNGE`**
 
 ### Список параметрів
 

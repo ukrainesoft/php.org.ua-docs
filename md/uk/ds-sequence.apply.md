@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.allocate.html: '« DsSequence::allocate'
-  - ds-sequence.capacity.html: 'ДсSequence::capacity »'
+  - ds-sequence.allocate.md: '« DsSequence::allocate'
+  - ds-sequence.capacity.md: 'ДсSequence::capacity »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::apply'
 ---
 # ДсSequence::apply

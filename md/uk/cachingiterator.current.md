@@ -1,9 +1,9 @@
 ---
 navigation:
-  - cachingiterator.count.html: '« CachingIterator::count'
-  - cachingiterator.getcache.html: 'CachingIterator::getCache »'
-  - index.html: PHP Manual
-  - class.cachingiterator.html: CachingIterator
+  - cachingiterator.count.md: '« CachingIterator::count'
+  - cachingiterator.getcache.md: 'CachingIterator::getCache »'
+  - index.md: PHP Manual
+  - class.cachingiterator.md: CachingIterator
 title: 'CachingIterator::current'
 ---
 # CachingIterator::current
@@ -34,4 +34,4 @@ mixed
 
 ### Дивіться також
 
--   [Iterator::current()](iterator.current.html) - Повернення поточного елемента
+-   [Iterator::current()](iterator.current.md) - Повернення поточного елемента

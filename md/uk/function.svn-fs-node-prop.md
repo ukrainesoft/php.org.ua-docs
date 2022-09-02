@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-node-created-rev.html: « svnфсnodecreatedrev
-  - function.svn-fs-props-changed.html: svnфсpropschanged »
+  - function.svn-fs-node-created-rev.md: « svnфсnodecreatedrev
+  - function.svn-fs-props-changed.md: svnфсpropschanged »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсnodeprop

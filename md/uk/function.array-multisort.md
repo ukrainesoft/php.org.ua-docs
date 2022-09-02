@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-merge.html: « arraymerge
-  - function.array-pad.html: arraypad »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-merge.md: « arraymerge
+  - function.array-pad.md: arraypad »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraymultisort
 ---
 # arraymultisort
@@ -51,8 +51,8 @@ array_multisort(    array &$array1,    mixed $array1_sort_order = SORT_A
 -   **`SORT_REGULAR`** - Звичайне порівняння елементів (без зміни типів)
 -   **`SORT_NUMERIC`** - Порівняння елементів як чисел
 -   **`SORT_STRING`** - Порівняння елементів як рядків
--   **`SORT_LOCALE_STRING`** - Порівняння елементів як рядків, враховуючи поточну локаль. Використовується локаль, яку можна міняти за допомогою функції [setlocale()](function.setlocale.html)
--   **`SORT_NATURAL`** - Порівняння елементів як рядків з використанням алгоритму "natural order", як у функції [natsort()](function.natsort.html)
+-   **`SORT_LOCALE_STRING`** - Порівняння елементів як рядків, враховуючи поточну локаль. Використовується локаль, яку можна міняти за допомогою функції [setlocale()](function.setlocale.md)
+-   **`SORT_NATURAL`** - Порівняння елементів як рядків з використанням алгоритму "natural order", як у функції [natsort()](function.natsort.md)
 -   **`SORT_FLAG_CASE`** - може бути об'єднаний (бінарне АБО) з **`SORT_STRING`** або **`SORT_NATURAL`** для сортування без урахування регістру
 
 Цей аргумент може змінюватися місцями з `array1_sort_order` чи взагалі бути пропущеним. У цьому випадку мається на увазі значення **`SORT_REGULAR`**
@@ -150,7 +150,7 @@ volume | edition
     67 |       7
 ```
 
-Дані представлені як масиву з ім'ям data. Зазвичай їх можна отримати, наприклад, за допомогою циклу функції [mysqlifetchassoc()](mysqli-result.fetch-assoc.html)
+Дані представлені як масиву з ім'ям data. Зазвичай їх можна отримати, наприклад, за допомогою циклу функції [mysqlifetchassoc()](mysqli-result.fetch-assoc.md)
 
 ```php
 <?php
@@ -229,5 +229,5 @@ Array
 
 ### Дивіться також
 
--   [usort()](function.usort.html) - Сортує масив за значеннями використовуючи функцію користувача для порівняння елементів
--   [Порівняння функцій сортування масивів](array.sorting.html)
+-   [usort()](function.usort.md) - Сортує масив за значеннями використовуючи функцію користувача для порівняння елементів
+-   [Порівняння функцій сортування масивів](array.sorting.md)

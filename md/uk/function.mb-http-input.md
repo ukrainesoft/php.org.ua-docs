@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-get-info.html: « mbgetinfo
-  - function.mb-http-output.html: мбhttpoutput »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-get-info.md: « mbgetinfo
+  - function.mb-http-output.md: мбhttpoutput »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбhttpinput
 ---
 # мбhttpinput

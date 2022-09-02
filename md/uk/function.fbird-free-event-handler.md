@@ -1,21 +1,21 @@
 ---
 navigation:
-  - function.fbird-field-info.html: « fbirdfieldinfo
-  - function.fbird-free-query.html: fbirdfreequery »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.fbird-field-info.md: « fbirdfieldinfo
+  - function.fbird-free-query.md: fbirdfreequery »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdfreeeventhandler
 ---
 # fbirdfreeeventhandler
 
 (PHP 5, PHP 7 < 7.4.0)
 
-fbirdfreeeventhandler - Псевдонім [ibasefreeeventhandler()](function.ibase-free-event-handler.html)
+fbirdfreeeventhandler - Псевдонім [ibasefreeeventhandler()](function.ibase-free-event-handler.md)
 
 ### Опис
 
-Ця функція є псевдонімом: [ibasefreeeventhandler()](function.ibase-free-event-handler.html)
+Ця функція є псевдонімом: [ibasefreeeventhandler()](function.ibase-free-event-handler.md)
 
 ### Дивіться також
 
--   [fbirdseteventhandler()](function.fbird-set-event-handler.html) - Псевдонім ibaseseteventhandler
+-   [fbirdseteventhandler()](function.fbird-set-event-handler.md) - Псевдонім ibaseseteventhandler

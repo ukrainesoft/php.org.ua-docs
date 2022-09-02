@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.remapimage.html: '« Imagick::remapImage'
-  - imagick.removeimageprofile.html: 'Imagick::removeImageProfile »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.remapimage.md: '« Imagick::remapImage'
+  - imagick.removeimageprofile.md: 'Imagick::removeImageProfile »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::removeImage'
 ---
 # Imagick::removeImage

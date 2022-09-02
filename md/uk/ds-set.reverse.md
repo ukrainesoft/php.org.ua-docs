@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.remove.html: '« DsSet::remove'
-  - ds-set.reversed.html: 'ДсSet::reversed »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.remove.md: '« DsSet::remove'
+  - ds-set.reversed.md: 'ДсSet::reversed »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::reverse'
 ---
 # ДсSet::reverse

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.intlbreakiterator.html: « IntlBreakIterator
-  - intlbreakiterator.createcharacterinstance.html: 'IntlBreakIterator::createCharacterInstance »'
-  - index.html: PHP Manual
-  - class.intlbreakiterator.html: IntlBreakIterator
+  - class.intlbreakiterator.md: « IntlBreakIterator
+  - intlbreakiterator.createcharacterinstance.md: 'IntlBreakIterator::createCharacterInstance »'
+  - index.md: PHP Manual
+  - class.intlbreakiterator.md: IntlBreakIterator
 title: 'IntlBreakIterator::construct'
 ---
 # IntlBreakIterator::construct

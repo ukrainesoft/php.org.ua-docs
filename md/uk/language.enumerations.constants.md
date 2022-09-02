@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.enumerations.static-methods.html: « Статичні методи перерахувань
-  - language.enumerations.traits.html: Трейти »
-  - index.html: PHP Manual
-  - language.enumerations.html: Перечисления
+  - language.enumerations.static-methods.md: « Статичні методи перерахувань
+  - language.enumerations.traits.md: Трейти »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
 title: Константи перерахувань
 ---
 ## Константи перерахувань

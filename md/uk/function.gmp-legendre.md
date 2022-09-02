@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-lcm.html: « gmplcm
-  - function.gmp-mod.html: gmpmod »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-lcm.md: « gmplcm
+  - function.gmp-mod.md: gmpmod »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmplegendre
 ---
 # gmplegendre
@@ -24,17 +24,17 @@ gmp_legendre(GMP|int|string $num1, GMP|int|string $num2): int
 
 `num1`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 Має бути позитивним і непарним.
 
 ### Значення, що повертаються
 
-Об'єкт класу [GMP](class.gmp.html)ю
+Об'єкт класу [GMP](class.gmp.md)ю
 
 ### Приклади
 
@@ -56,5 +56,5 @@ echo gmp_legendre("2", "3") . "\n";
 
 ### Дивіться також
 
--   [gmpjacobi()](function.gmp-jacobi.html) - Символ Якобі
--   [gmpkronecker()](function.gmp-kronecker.html) - Символ Кронекера - Якобі
+-   [gmpjacobi()](function.gmp-jacobi.md) - Символ Якобі
+-   [gmpkronecker()](function.gmp-kronecker.md) - Символ Кронекера - Якобі

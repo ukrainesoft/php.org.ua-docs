@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.mqseries.html: « mqseries
-  - mqseries.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.mqseries.html: mqseries
+  - book.mqseries.md: « mqseries
+  - mqseries.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.mqseries.md: mqseries
 title: Вступ
 ---
 # Вступ

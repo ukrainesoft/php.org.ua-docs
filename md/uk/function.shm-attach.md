@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sem-remove.html: « semremove
-  - function.shm-detach.html: shmdetach »
-  - index.html: PHP Manual
-  - ref.sem.html: Функції семафорів
+  - function.sem-remove.md: « semremove
+  - function.shm-detach.md: shmdetach »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
 title: shmattach
 ---
 # shmattach
@@ -20,7 +20,7 @@ shm_attach(int $key, ?int $size = null, int $permissions = 0666): SysvSharedMemo
 
 **shmattach()** повертає ідентифікатор, який можна використовувати для доступу до пам'яті System V, що розділяється, по заданому ключу `key`. Перший виклик створює сегмент розміром `size` та опціональними бітами прав доступу `permissions`
 
-Наступний виклик **shmattach()** з тим же ключем `key` поверне інший екземпляр [SysvSharedMemory](class.sysvsharedmemory.html), але вони обидва будуть вказувати на один і той же сегмент пам'яті, що розділяється. Параметри `size` і `permissions` будуть проігноровані.
+Наступний виклик **shmattach()** з тим же ключем `key` поверне інший екземпляр [SysvSharedMemory](class.sysvsharedmemory.md), але вони обидва будуть вказувати на один і той же сегмент пам'яті, що розділяється. Параметри `size` і `permissions` будуть проігноровані.
 
 ### Список параметрів
 
@@ -38,16 +38,16 @@ shm_attach(int $key, ?int $size = null, int $permissions = 0666): SysvSharedMemo
 
 ### Значення, що повертаються
 
-Повертає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | У разі успішного виконання функція повертає екземпляр [SysvSharedMemory](class.sysvsharedmemory.html); раніше повертався ресурс (resource). |
+|  | У разі успішного виконання функція повертає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше повертався ресурс (resource). |
 |  | `size` тепер допускає значення null. |
 
 ### Дивіться також
 
--   [shmdetach()](function.shm-detach.html) - Вимикається від сегмента пам'яті, що розділяється
--   [ftok()](function.ftok.html) - Перетворення шляху та ідентифікатора проекту на ключ System V IPC
+-   [shmdetach()](function.shm-detach.md) - Вимикається від сегмента пам'яті, що розділяється
+-   [ftok()](function.ftok.md) - Перетворення шляху та ідентифікатора проекту на ключ System V IPC

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.cubrid-save-to-glo.html: « cubridsaveтоglo
+  - function.cubrid-save-to-glo.md: « cubridsaveтоglo
   - book.dbase.md: dBase »
   - index.md: PHP Manual
   - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID

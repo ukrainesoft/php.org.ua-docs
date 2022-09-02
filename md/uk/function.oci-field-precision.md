@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-field-name.html: « ocifieldname
-  - function.oci-field-scale.html: ocifieldscale »
+  - function.oci-field-name.md: « ocifieldname
+  - function.oci-field-scale.md: ocifieldscale »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocifieldprecision

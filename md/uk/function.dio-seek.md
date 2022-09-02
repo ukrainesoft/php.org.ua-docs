@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dio-read.html: « dioread
-  - function.dio-stat.html: diostat »
-  - index.html: PHP Manual
-  - ref.dio.html: Функції прямого введення/виводу
+  - function.dio-read.md: « dioread
+  - function.dio-stat.md: diostat »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
 title: dioseek
 ---
 # dioseek

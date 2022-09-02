@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-init.html: « curlinit
-  - function.curl-multi-close.html: curlmulticlose »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-init.md: « curlinit
+  - function.curl-multi-close.md: curlmulticlose »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlmultiaddhandle
 ---
 # curlmultiaddhandle
@@ -24,11 +24,11 @@ curl_multi_add_handle(CurlMultiHandle $multi_handle, CurlHandle $handle): int
 
 `multi_handle`
 
-Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.html)
+Мультидескриптор cURL, отриманий з [curlmultiinit()](function.curl-multi-init.md)
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -39,7 +39,7 @@ curl_multi_add_handle(CurlMultiHandle $multi_handle, CurlHandle $handle): int
 | Версия | Описание |
 | --- | --- |
 |  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -83,6 +83,6 @@ curl_multi_close($mh);
 
 ### Дивіться також
 
--   [curlmultiremovehandle()](function.curl-multi-remove-handle.html) - Видаляє cURL дескриптор з набору cURL дескрипторів
--   [curlmultiinit()](function.curl-multi-init.html) - Створює набір cURL-дескрипторів
--   [curlinit()](function.curl-init.html) - Ініціалізує сеанс cURL
+-   [curlmultiremovehandle()](function.curl-multi-remove-handle.md) - Видаляє cURL дескриптор з набору cURL дескрипторів
+-   [curlmultiinit()](function.curl-multi-init.md) - Створює набір cURL-дескрипторів
+-   [curlinit()](function.curl-init.md) - Ініціалізує сеанс cURL

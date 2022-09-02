@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlseparatinglines.html: « tradercdlseparatinglines
-  - function.trader-cdlshortline.html: tradercdlshortline »
+  - function.trader-cdlseparatinglines.md: « tradercdlseparatinglines
+  - function.trader-cdlshortline.md: tradercdlshortline »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlshootingstar

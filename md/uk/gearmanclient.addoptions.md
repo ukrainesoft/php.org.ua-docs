@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.gearmanclient.html: « GearmanClient
-  - gearmanclient.addserver.html: 'GearmanClient::addServer »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - class.gearmanclient.md: « GearmanClient
+  - gearmanclient.addserver.md: 'GearmanClient::addServer »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::addOptions'
 ---
 # GearmanClient::addOptions

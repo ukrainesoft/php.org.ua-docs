@@ -1,9 +1,9 @@
 ---
 navigation:
-  - exec.setup.html: « Встановлення та налаштування
-  - exec.installation.html: Установка »
-  - index.html: PHP Manual
-  - exec.setup.html: Встановлення та налаштування
+  - exec.setup.md: « Встановлення та налаштування
+  - exec.installation.md: Установка »
+  - index.md: PHP Manual
+  - exec.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

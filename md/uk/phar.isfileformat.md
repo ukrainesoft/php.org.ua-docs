@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.iscompressed.html: '« Phar::isCompressed'
-  - phar.isvalidpharfilename.html: 'Phar::isValidPharFilename »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.iscompressed.md: '« Phar::isCompressed'
+  - phar.isvalidpharfilename.md: 'Phar::isValidPharFilename »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::isFileFormat'
 ---
 # Phar::isFileFormat

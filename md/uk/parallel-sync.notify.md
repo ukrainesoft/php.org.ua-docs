@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-sync.wait.html: '« parallelSync::wait'
-  - parallel-sync.invoke.html: 'parallelSync::invoke »'
+  - parallel-sync.wait.md: '« parallelSync::wait'
+  - parallel-sync.invoke.md: 'parallelSync::invoke »'
   - index.md: PHP Manual
-  - class.parallel-sync.html: parallelSync
+  - class.parallel-sync.md: parallelSync
 title: 'parallelSync::notify'
 ---
 # parallelSync::notify

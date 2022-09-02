@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.pcntl.md: « Функції PCNTL
-  - function.pcntl-async-signals.html: pcntlasyncsignals »
+  - function.pcntl-async-signals.md: pcntlasyncsignals »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlalarm

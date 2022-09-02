@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-stroke.getthickness.html: '« UIDrawStroke::getThickness'
-  - ui-draw-stroke.setjoin.html: 'ОЙDrawStroke::setJoin »'
+  - ui-draw-stroke.getthickness.md: '« UIDrawStroke::getThickness'
+  - ui-draw-stroke.setjoin.md: 'ОЙDrawStroke::setJoin »'
   - index.md: PHP Manual
-  - class.ui-draw-stroke.html: ОЙDrawStroke
+  - class.ui-draw-stroke.md: ОЙDrawStroke
 title: 'ОЙDrawStroke::setCap'
 ---
 # ОЙDrawStroke::setCap

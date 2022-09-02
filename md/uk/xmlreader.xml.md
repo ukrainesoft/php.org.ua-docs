@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlreader.setschema.html: '« XMLReader::setSchema'
-  - book.xmlwriter.html: XMLWriter »
-  - index.html: PHP Manual
-  - class.xmlreader.html: XMLReader
+  - xmlreader.setschema.md: '« XMLReader::setSchema'
+  - book.xmlwriter.md: XMLWriter »
+  - index.md: PHP Manual
+  - class.xmlreader.md: XMLReader
 title: 'XMLReader::XML'
 ---
 # XMLReader::XML

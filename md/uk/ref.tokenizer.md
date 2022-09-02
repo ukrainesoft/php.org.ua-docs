@@ -1,7 +1,7 @@
 ---
 navigation:
   - phptoken.tokenize.md: '« PhpToken::tokenize'
-  - function.token-get-all.html: tokengetall »
+  - function.token-get-all.md: tokengetall »
   - index.md: PHP Manual
   - book.tokenizer.md: Лексер (Tokenizer)
 title: Функції PHP-лексера (tokenizer)

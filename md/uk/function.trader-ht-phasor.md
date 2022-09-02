@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-ht-dcphase.html: « traderхтdcphase
-  - function.trader-ht-sine.html: traderхтsine »
+  - function.trader-ht-dcphase.md: « traderхтdcphase
+  - function.trader-ht-sine.md: traderхтsine »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderхтphasor

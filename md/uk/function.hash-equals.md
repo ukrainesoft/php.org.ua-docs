@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-copy.html: « hashcopy
-  - function.hash-file.html: hashfile »
+  - function.hash-copy.md: « hashcopy
+  - function.hash-file.md: hashfile »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashequals

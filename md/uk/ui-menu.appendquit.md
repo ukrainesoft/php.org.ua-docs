@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-menu.appendpreferences.html: '« UIMenu::appendPreferences'
-  - ui-menu.appendseparator.html: 'ОЙMenu::appendSeparator »'
+  - ui-menu.appendpreferences.md: '« UIMenu::appendPreferences'
+  - ui-menu.appendseparator.md: 'ОЙMenu::appendSeparator »'
   - index.md: PHP Manual
-  - class.ui-menu.html: ОЙMenu
+  - class.ui-menu.md: ОЙMenu
 title: 'ОЙMenu::appendQuit'
 ---
 # ОЙMenu::appendQuit

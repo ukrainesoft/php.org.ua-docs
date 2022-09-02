@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filesystemiterator.current.html: '« FilesystemIterator::current'
-  - filesystemiterator.key.html: 'FilesystemIterator::key »'
-  - index.html: PHP Manual
-  - class.filesystemiterator.html: FilesystemIterator
+  - filesystemiterator.current.md: '« FilesystemIterator::current'
+  - filesystemiterator.key.md: 'FilesystemIterator::key »'
+  - index.md: PHP Manual
+  - class.filesystemiterator.md: FilesystemIterator
 title: 'FilesystemIterator::getFlags'
 ---
 # FilesystemIterator::getFlags
@@ -18,7 +18,7 @@ FilesystemIterator::getFlags — Отримання прапорів налаш�
 public FilesystemIterator::getFlags(): int
 ```
 
-Отримує значення прапорів налаштувань об'єкта у вигляді, як вони були задані методами [FilesystemIterator::construct()](filesystemiterator.construct.html) або [FilesystemIterator::setFlags()](filesystemiterator.setflags.html)
+Отримує значення прапорів налаштувань об'єкта у вигляді, як вони були задані методами [FilesystemIterator::construct()](filesystemiterator.construct.md) або [FilesystemIterator::setFlags()](filesystemiterator.setflags.md)
 
 ### Список параметрів
 
@@ -30,5 +30,5 @@ public FilesystemIterator::getFlags(): int
 
 ### Дивіться також
 
--   [FilesystemIterator::construct()](filesystemiterator.construct.html) - Створює новий ітератор файлової системи
--   [FilesystemIterator::setFlags()](filesystemiterator.setflags.html) - Завдання прапорів обробки
+-   [FilesystemIterator::construct()](filesystemiterator.construct.md) - Створює новий ітератор файлової системи
+-   [FilesystemIterator::setFlags()](filesystemiterator.setflags.md) - Завдання прапорів обробки

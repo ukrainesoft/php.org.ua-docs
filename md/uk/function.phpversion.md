@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.phpinfo.html: « phpinfo
-  - function.putenv.html: putenv »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.phpinfo.md: « phpinfo
+  - function.putenv.md: putenv »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: phpversion
 ---
 # phpversion
@@ -93,8 +93,8 @@ if (PHP_VERSION_ID < 50207) {
 
 ### Дивіться також
 
--   [Константи PHPVERSION](reserved.constants.html#reserved.constants.core)
--   [versioncompare()](function.version-compare.html) - Порівнює два "стандартизовані" рядки з номером версії PHP
--   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
--   [phpcredits()](function.phpcredits.html) - Виводить список розробників PHP
--   [zendversion()](function.zend-version.html) - Отримує версію двигуна Zend
+-   [Константи PHPVERSION](reserved.constants.md#reserved.constants.core)
+-   [versioncompare()](function.version-compare.md) - Порівнює два "стандартизовані" рядки з номером версії PHP
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [phpcredits()](function.phpcredits.md) - Виводить список розробників PHP
+-   [zendversion()](function.zend-version.md) - Отримує версію двигуна Zend

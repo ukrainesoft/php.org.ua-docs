@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-longreadlen.html: « odbclongreadlen
-  - function.odbc-num-fields.html: odbcnumfields »
+  - function.odbc-longreadlen.md: « odbclongreadlen
+  - function.odbc-num-fields.md: odbcnumfields »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcnextresult
@@ -18,7 +18,7 @@ odbcnextresult — Перевіряє, чи є кілька результаті
 odbc_next_result(resource $statement): bool
 ```
 
-Перевіряє, чи доступні інші результуючі набори, а також дозволяє доступ до наступного результуючого набору за допомогою [odbcfetcharray()](function.odbc-fetch-array.html) [odbcfetchrow()](function.odbc-fetch-row.html) [odbcresult()](function.odbc-result.md) і т.д.
+Перевіряє, чи доступні інші результуючі набори, а також дозволяє доступ до наступного результуючого набору за допомогою [odbcfetcharray()](function.odbc-fetch-array.md) [odbcfetchrow()](function.odbc-fetch-row.md) [odbcresult()](function.odbc-result.md) і т.д.
 
 ### Список параметрів
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.class-exists.html: « classexists
-  - function.get-called-class.html: getcalledclass »
+  - function.class-exists.md: « classexists
+  - function.get-called-class.md: getcalledclass »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: enumexists

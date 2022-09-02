@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.win32-start-service-ctrl-dispatcher.html: « win32startservicectrldispatcher
-  - function.win32-stop-service.html: win32stopservice »
+  - function.win32-start-service-ctrl-dispatcher.md: « win32startservicectrldispatcher
+  - function.win32-stop-service.md: win32stopservice »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
 title: win32startservice
@@ -48,7 +48,7 @@ win32_start_service(string $servicename, string $machine = ?): void
 | --- | --- |
 | PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed) |
 | PECL win32service 0.3.0 | Ця функція більше не потребує привілею адміністратора, якщо коректно налаштовано ACL для користувача, що використовується. |
 
 ### Дивіться також

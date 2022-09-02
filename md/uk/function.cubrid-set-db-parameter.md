@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-set-autocommit.html: « cubridsetautocommit
-  - function.cubrid-set-drop.html: cubridsetdrop »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-set-autocommit.md: « cubridsetautocommit
+  - function.cubrid-set-drop.md: cubridsetdrop »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridsetдбparameter
 ---
 # cubridsetдбparameter
@@ -25,13 +25,13 @@ cubrid_set_db_parameter(resource $conn_identifier, int $param_type, int $param_v
 
 > **Зауваження**
 > 
-> Режим автоматичної фіксації може бути встановлений за допомогою [cubridsetautocommit()](function.cubrid-set-autocommit.html)
+> Режим автоматичної фіксації може бути встановлений за допомогою [cubridsetautocommit()](function.cubrid-set-autocommit.md)
 
 ### Список параметрів
 
 `conn_identifier`
 
-CUBRID з'єднання. Якщо ідентифікатор з'єднання не вказано, передбачається останнє посилання, яке відкривається [cubridconnect()](function.cubrid-connect.html)
+CUBRID з'єднання. Якщо ідентифікатор з'єднання не вказано, передбачається останнє посилання, яке відкривається [cubridconnect()](function.cubrid-connect.md)
 
 `param_type`
 
@@ -47,7 +47,7 @@ CUBRID з'єднання. Якщо ідентифікатор з'єднання 
 
 ### Приклади
 
-**Приклад #1 Приклад використання [cubridgetдбparameter()](function.cubrid-get-db-parameter.html)**
+**Приклад #1 Приклад використання [cubridgetдбparameter()](function.cubrid-get-db-parameter.md)**
 
 ```php
 <?php
@@ -93,5 +93,5 @@ array(4) {
 
 ### Дивіться також
 
--   [cubridgetдбparameter()](function.cubrid-get-db-parameter.html) - Повертає параметри бази даних CUBRID
--   [cubridsetautocommit()](function.cubrid-set-autocommit.html) - Встановлює режим авто-комміту для з'єднання
+-   [cubridgetдбparameter()](function.cubrid-get-db-parameter.md) - Повертає параметри бази даних CUBRID
+-   [cubridsetautocommit()](function.cubrid-set-autocommit.md) - Встановлює режим авто-комміту для з'єднання

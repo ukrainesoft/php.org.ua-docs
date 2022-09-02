@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqsocket.send.html: '« ZMQSocket::send'
-  - zmqsocket.setsockopt.html: 'ZMQSocket::setSockOpt »'
-  - index.html: PHP Manual
-  - class.zmqsocket.html: ZMQSocket
+  - zmqsocket.send.md: '« ZMQSocket::send'
+  - zmqsocket.setsockopt.md: 'ZMQSocket::setSockOpt »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::sendmulti'
 ---
 # ZMQSocket::sendmulti

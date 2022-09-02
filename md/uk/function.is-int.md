@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-float.html: « isfloat
-  - function.is-integer.html: ісinteger »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-float.md: « isfloat
+  - function.is-integer.md: ісinteger »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісint
 ---
 # ісint

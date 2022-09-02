@@ -1,9 +1,9 @@
 ---
 navigation:
-  - svm.crossvalidate.html: '« SVM::crossvalidate'
-  - svm.setoptions.html: 'SVM::setOptions »'
-  - index.html: PHP Manual
-  - class.svm.html: SVM
+  - svm.crossvalidate.md: '« SVM::crossvalidate'
+  - svm.setoptions.md: 'SVM::setOptions »'
+  - index.md: PHP Manual
+  - class.svm.md: SVM
 title: 'SVM::getOptions'
 ---
 # SVM::getOptions

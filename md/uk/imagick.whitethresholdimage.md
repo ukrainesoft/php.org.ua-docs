@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.waveimage.html: '« Imagick::waveImage'
-  - imagick.writeimage.html: 'Imagick::writeImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.waveimage.md: '« Imagick::waveImage'
+  - imagick.writeimage.md: 'Imagick::writeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::whiteThresholdImage'
 ---
 # Imagick::whiteThresholdImage

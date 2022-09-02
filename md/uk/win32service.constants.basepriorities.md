@@ -1,7 +1,7 @@
 ---
 navigation:
   - win32service.constants.errors.md: « Коди помилок Win32
-  - win32service.constants.recovery-action.html: Действия при восстановлении Win32 »
+  - win32service.constants.recovery-action.md: Действия при восстановлении Win32 »
   - index.md: PHP Manual
   - win32service.constants.md: Обумовлені константи
 ---

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gnupg-decryptverify.html: « gnupgdecryptverify
-  - function.gnupg-encrypt.html: gnupgencrypt »
-  - index.html: PHP Manual
-  - ref.gnupg.html: GnuPG Функції
+  - function.gnupg-decryptverify.md: « gnupgdecryptverify
+  - function.gnupg-encrypt.md: gnupgencrypt »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
 title: gnupgdeletekey
 ---
 # gnupgdeletekey
@@ -22,7 +22,7 @@ gnupg_deletekey(resource $identifier, string $key, bool $allow_secret): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 `key`
 

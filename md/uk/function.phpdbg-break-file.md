@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.phpdbg.md: « Функции phpdbg
-  - function.phpdbg-break-function.html: phpdbgbreakfunction »
+  - function.phpdbg-break-function.md: phpdbgbreakfunction »
   - index.md: PHP Manual
   - ref.phpdbg.md: Функции phpdbg
 title: phpdbgbreakfile

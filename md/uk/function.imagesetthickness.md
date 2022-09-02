@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagesetstyle.html: « imagesetstyle
-  - function.imagesettile.html: imagesettile »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagesetstyle.md: « imagesetstyle
+  - function.imagesettile.md: imagesettile »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesetthickness
 ---
 # imagesetthickness
@@ -24,7 +24,7 @@ imagesetthickness(GdImage $image, int $thickness): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `thickness`
 
@@ -38,7 +38,7 @@ imagesetthickness(GdImage $image, int $thickness): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 

@@ -1,16 +1,16 @@
 ---
 navigation:
-  - langref.html: « Довідник мови
-  - language.basic-syntax.phptags.html: Теги PHP »
-  - index.html: PHP Manual
-  - langref.html: Довідник мови
+  - langref.md: « Довідник мови
+  - language.basic-syntax.phptags.md: Теги PHP »
+  - index.md: PHP Manual
+  - langref.md: Довідник мови
 title: Основи синтаксису
 ---
 # Основи синтаксису
 
 ## Зміст
 
--   [Теги PHP](language.basic-syntax.phptags.html)
--   [Изолирование от HTML](language.basic-syntax.phpmode.html)
--   [Разделение инструкций](language.basic-syntax.instruction-separation.html)
--   [Комментарии](language.basic-syntax.comments.html)
+-   [Теги PHP](language.basic-syntax.phptags.md)
+-   [Изолирование от HTML](language.basic-syntax.phpmode.md)
+-   [Разделение инструкций](language.basic-syntax.instruction-separation.md)
+-   [Комментарии](language.basic-syntax.comments.md)

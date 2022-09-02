@@ -1,9 +1,9 @@
 ---
 navigation:
-  - event.add.html: '« Event::add'
-  - event.addtimer.html: 'Event::addTimer »'
-  - index.html: PHP Manual
-  - class.event.html: Event
+  - event.add.md: '« Event::add'
+  - event.addtimer.md: 'Event::addTimer »'
+  - index.md: PHP Manual
+  - class.event.md: Event
 title: 'Event::addSignal'
 ---
 # Event::addSignal

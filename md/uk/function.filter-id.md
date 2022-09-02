@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.filter-has-var.html: « filterhasvar
-  - function.filter-input-array.html: filterinputarray »
-  - index.html: PHP Manual
-  - ref.filter.html: Функції фільтрації даних
+  - function.filter-has-var.md: « filterhasvar
+  - function.filter-input-array.md: filterinputarray »
+  - index.md: PHP Manual
+  - ref.filter.md: Функції фільтрації даних
 title: filterід
 ---
 # filterід

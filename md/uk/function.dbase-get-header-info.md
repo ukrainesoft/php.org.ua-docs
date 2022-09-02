@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dbase-delete-record.html: « dbasedeleterecord
-  - function.dbase-get-record-with-names.html: dbasegetrecordwithnames »
-  - index.html: PHP Manual
-  - ref.dbase.html: dBase
+  - function.dbase-delete-record.md: « dbasedeleterecord
+  - function.dbase-get-record-with-names.md: dbasegetrecordwithnames »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
 title: dbasegetheaderinfo
 ---
 # dbasegetheaderinfo
@@ -24,7 +24,7 @@ dbase_get_header_info(resource $database): array
 
 `database`
 
-Ресурс бази даних, отриманий за допомогою [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
+Ресурс бази даних, отриманий за допомогою [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
@@ -38,7 +38,7 @@ name
 
 type
 
-Тип поля dBase в зручному для сприйняття вигляді (date, boolean, і т.д.) типи файлів, що підтримуються, перераховані в [вступної секції](intro.dbase.html)
+Тип поля dBase в зручному для сприйняття вигляді (date, boolean, і т.д.) типи файлів, що підтримуються, перераховані в [вступної секції](intro.dbase.md)
 
 length
 
@@ -50,7 +50,7 @@ precision
 
 format
 
-Запропонований у [printf()](function.printf.html) формат специфікації для цього типу
+Запропонований у [printf()](function.printf.md) формат специфікації для цього типу
 
 offset
 

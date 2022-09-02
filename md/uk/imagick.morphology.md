@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.morphimages.html: '« Imagick::morphImages'
-  - imagick.mosaicimages.html: 'Imagick::mosaicImages »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.morphimages.md: '« Imagick::morphImages'
+  - imagick.mosaicimages.md: 'Imagick::mosaicImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::morphology'
 ---
 # Imagick::morphology

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - radius.requirements.html: « Вимоги
-  - radius.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - radius.setup.html: Встановлення та налаштування
+  - radius.requirements.md: « Вимоги
+  - radius.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - radius.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

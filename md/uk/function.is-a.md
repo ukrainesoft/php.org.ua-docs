@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.interface-exists.html: « interfaceexists
-  - function.is-subclass-of.html: ісsubclassof »
+  - function.interface-exists.md: « interfaceexists
+  - function.is-subclass-of.md: ісsubclassof »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: іса

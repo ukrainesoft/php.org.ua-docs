@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-group.hasmargin.html: '« UIControlsGroup::hasMargin'
-  - ui-controls-group.settitle.html: 'ОЙControlsGroup::setTitle »'
+  - ui-controls-group.hasmargin.md: '« UIControlsGroup::hasMargin'
+  - ui-controls-group.settitle.md: 'ОЙControlsGroup::setTitle »'
   - index.md: PHP Manual
-  - class.ui-controls-group.html: ОЙControlsGroup
+  - class.ui-controls-group.md: ОЙControlsGroup
 title: 'ОЙControlsGroup::setMargin'
 ---
 # ОЙControlsGroup::setMargin

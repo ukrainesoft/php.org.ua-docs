@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getversion.html: '« Gmagick::getversion'
-  - gmagick.haspreviousimage.html: 'Gmagick::haspreviousimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getversion.md: '« Gmagick::getversion'
+  - gmagick.haspreviousimage.md: 'Gmagick::haspreviousimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::hasnextimage'
 ---
 # Gmagick::hasnextimage

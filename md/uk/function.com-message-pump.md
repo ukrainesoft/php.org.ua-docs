@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.com-load-typelib.html: « comloadtypelib
-  - function.com-print-typeinfo.html: comprinttypeinfo »
+  - function.com-load-typelib.md: « comloadtypelib
+  - function.com-print-typeinfo.md: comprinttypeinfo »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: commessagepump

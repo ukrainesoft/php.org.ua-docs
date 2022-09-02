@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsubscriber.commandsucceeded.html: '« MongoDBDriverMonitoringCommandSubscriber::commandSucceeded'
-  - mongodb-driver-monitoring-sdamsubscriber.serverchanged.html: 'MongoDBDriverMonitoringSDAMSubscriber::serverChanged »'
+  - mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md: '« MongoDBDriverMonitoringCommandSubscriber::commandSucceeded'
+  - mongodb-driver-monitoring-sdamsubscriber.serverchanged.md: 'MongoDBDriverMonitoringSDAMSubscriber::serverChanged »'
   - index.md: PHP Manual
   - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Інтерфейс MongoDBDriverMonitoringSDAMSubscriber

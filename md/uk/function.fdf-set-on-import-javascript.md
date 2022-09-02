@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-set-javascript-action.html: « fdfsetjavascriptaction
-  - function.fdf-set-opt.html: fdfsetopt »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-set-javascript-action.md: « fdfsetjavascriptaction
+  - function.fdf-set-opt.md: fdfsetopt »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfsetвінimportjavascript
 ---
 # fdfsetвінimportjavascript
@@ -24,5 +24,5 @@ fdf_set_on_import_javascript(resource $fdf_document, string $script, bool $befor
 
 ### Дивіться також
 
--   [fdfadddocjavascript()](function.fdf-add-doc-javascript.html) - Додає код javascript у документ FDF
--   [fdfsetjavascriptaction()](function.fdf-set-javascript-action.html) - Встановлює дію JavaScript для поля
+-   [fdfadddocjavascript()](function.fdf-add-doc-javascript.md) - Додає код javascript у документ FDF
+-   [fdfsetjavascriptaction()](function.fdf-set-javascript-action.md) - Встановлює дію JavaScript для поля

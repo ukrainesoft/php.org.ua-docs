@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-matrix.multiply.html: '« UIDrawMatrix::multiply'
-  - ui-draw-matrix.scale.html: 'ОЙDrawMatrix::scale »'
-  - index.html: PHP Manual
-  - class.ui-draw-matrix.html: ОЙDrawMatrix
+  - ui-draw-matrix.multiply.md: '« UIDrawMatrix::multiply'
+  - ui-draw-matrix.scale.md: 'ОЙDrawMatrix::scale »'
+  - index.md: PHP Manual
+  - class.ui-draw-matrix.md: ОЙDrawMatrix
 title: 'ОЙDrawMatrix::rotate'
 ---
 # ОЙDrawMatrix::rotate

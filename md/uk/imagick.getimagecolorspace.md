@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagecolors.html: '« Imagick::getImageColors'
-  - imagick.getimagecompose.html: 'Imagick::getImageCompose »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagecolors.md: '« Imagick::getImageColors'
+  - imagick.getimagecompose.md: 'Imagick::getImageCompose »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageColorspace'
 ---
 # Imagick::getImageColorspace
@@ -18,7 +18,7 @@ Imagick::getImageColorspace — Повертає палітру кольорів
 public Imagick::getImageColorspace(): int
 ```
 
-Повертає ціле число, що відповідає значенню однієї з [COLORSPACE констант](imagick.constants.html#imagick.constants.colorspace)
+Повертає ціле число, що відповідає значенню однієї з [COLORSPACE констант](imagick.constants.md#imagick.constants.colorspace)
 
 ### Список параметрів
 

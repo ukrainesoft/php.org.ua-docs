@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.count.html: '« DsSet::count'
-  - ds-set.filter.html: 'ДсSet::filter »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.count.md: '« DsSet::count'
+  - ds-set.filter.md: 'ДсSet::filter »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::diff'
 ---
 # ДсSet::diff

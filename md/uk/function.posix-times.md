@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-strerror.html: « posixstrerror
-  - function.posix-ttyname.html: posixttyname »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-strerror.md: « posixstrerror
+  - function.posix-ttyname.md: posixttyname »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixtimes
 ---
 # posixtimes

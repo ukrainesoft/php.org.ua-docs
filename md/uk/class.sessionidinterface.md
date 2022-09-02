@@ -1,7 +1,7 @@
 ---
 navigation:
   - sessionhandlerinterface.write.md: '« SessionHandlerInterface::write'
-  - sessionidinterface.create-sid.html: 'SessionIdInterface::createsid »'
+  - sessionidinterface.create-sid.md: 'SessionIdInterface::createsid »'
   - index.md: PHP Manual
   - book.session.md: Сессии
 title: Інтерфейс SessionIdInterface

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - win32service.constants.controlsaccepted.html: '« бітові маски обробки повідомлень, що приймаються службою Win32Service'
-  - win32service.constants.errorcontrol.html: Константи контролю помилок сервісу Win32Service
-  - index.html: PHP Manual
-  - win32service.constants.html: Обумовлені константи
+  - win32service.constants.controlsaccepted.md: '« бітові маски обробки повідомлень, що приймаються службою Win32Service'
+  - win32service.constants.errorcontrol.md: Константи контролю помилок сервісу Win32Service
+  - index.md: PHP Manual
+  - win32service.constants.md: Обумовлені константи
 ---
 **Константи типу запуску служби Win32Service**
 

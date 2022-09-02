@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.enumerations.constants.html: « Константи перерахувань
-  - language.enumerations.expressions.html: Значення перерахування у постійних виразах »
-  - index.html: PHP Manual
-  - language.enumerations.html: Перечисления
+  - language.enumerations.constants.md: « Константи перерахувань
+  - language.enumerations.expressions.md: Значення перерахування у постійних виразах »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
 title: Трейти
 ---
 ## Трейти

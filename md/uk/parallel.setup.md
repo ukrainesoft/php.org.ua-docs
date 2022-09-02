@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.parallel.html: « Введение
-  - philosophy.parallel.html: Философия »
-  - index.html: PHP Manual
-  - book.parallel.html: parallel
+  - intro.parallel.md: « Введение
+  - philosophy.parallel.md: Философия »
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
 title: Встановлення
 ---
 # Встановлення

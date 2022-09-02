@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.tolower.html: '« IntlChar::tolower'
-  - intlchar.toupper.html: 'IntlChar::toupper »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.tolower.md: '« IntlChar::tolower'
+  - intlchar.toupper.md: 'IntlChar::toupper »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::totitle'
 ---
 # IntlChar::totitle
@@ -62,6 +62,6 @@ int(65)
 
 ### Дивіться також
 
--   [IntlChar::tolower()](intlchar.tolower.html) - Перетворення символу Unicode на нижній регістр
--   [IntlChar::toupper()](intlchar.toupper.html) - Перетворення символу Unicode у верхній регістр
--   [мбconvertcase()](function.mb-convert-case.html) - Здійснює зміну регістру символів у рядку
+-   [IntlChar::tolower()](intlchar.tolower.md) - Перетворення символу Unicode на нижній регістр
+-   [IntlChar::toupper()](intlchar.toupper.md) - Перетворення символу Unicode у верхній регістр
+-   [мбconvertcase()](function.mb-convert-case.md) - Здійснює зміну регістру символів у рядку

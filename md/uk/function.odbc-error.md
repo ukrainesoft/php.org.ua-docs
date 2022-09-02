@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-do.html: « odbcдо
-  - function.odbc-errormsg.html: odbcerrormsg »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-do.md: « odbcдо
+  - function.odbc-errormsg.md: odbcerrormsg »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcerror
 ---
 # odbcerror
@@ -24,13 +24,13 @@ odbc_error(?resource $odbc = null): string
 
 `odbc`
 
-Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.html)
+Ідентифікатор з'єднання ODBC, за подробицями звертайтесь до [odbcconnect()](function.odbc-connect.md)
 
 ### Значення, що повертаються
 
 Якщо вказано параметр `odbc`, повертається останній стан цієї сполуки, інакше повертається останній стан будь-якої сполуки.
 
-Ця функція повертає осмислене значення лише тоді, коли останній запит ODBC завершився невдало (тобто функція [odbcexec()](function.odbc-exec.html) повернула **`false`**
+Ця функція повертає осмислене значення лише тоді, коли останній запит ODBC завершився невдало (тобто функція [odbcexec()](function.odbc-exec.md) повернула **`false`**
 
 ### список змін
 
@@ -40,5 +40,5 @@ odbc_error(?resource $odbc = null): string
 
 ### Дивіться також
 
--   [odbcerrormsg()](function.odbc-errormsg.html) - Повертає останнє повідомлення про помилку
--   [odbcexec()](function.odbc-exec.html) - Виконує інструкцію SQL безпосередньо
+-   [odbcerrormsg()](function.odbc-errormsg.md) - Повертає останнє повідомлення про помилку
+-   [odbcexec()](function.odbc-exec.md) - Виконує інструкцію SQL безпосередньо

@@ -1,7 +1,7 @@
 ---
 navigation:
   - xattr.constants.md: « Обумовлені константи
-  - function.xattr-get.html: xattrget »
+  - function.xattr-get.md: xattrget »
   - index.md: PHP Manual
   - book.xattr.md: xattr
 title: xattr Функції

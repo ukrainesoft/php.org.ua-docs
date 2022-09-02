@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.trader-wma.html: « traderwma
+  - function.trader-wma.md: « traderwma
   - book.fdf.md: FDF »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

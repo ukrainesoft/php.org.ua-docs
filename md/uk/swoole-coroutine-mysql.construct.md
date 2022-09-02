@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-mysql.connect.html: '« SwooleCoroutineMySQL::connect'
-  - swoole-coroutine-mysql.destruct.html: 'SwooleCoroutineMySQL::destruct »'
-  - index.html: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - swoole-coroutine-mysql.connect.md: '« SwooleCoroutineMySQL::connect'
+  - swoole-coroutine-mysql.destruct.md: 'SwooleCoroutineMySQL::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineMySQL::construct'
 ---
 # SwooleCoroutineMySQL::construct

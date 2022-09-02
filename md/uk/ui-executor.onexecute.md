@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-executor.kill.html: '« UIExecutor::kill'
-  - ui-executor.setinterval.html: 'ОЙExecutor::setInterval »'
+  - ui-executor.kill.md: '« UIExecutor::kill'
+  - ui-executor.setinterval.md: 'ОЙExecutor::setInterval »'
   - index.md: PHP Manual
-  - class.ui-executor.html: ОЙExecutor
+  - class.ui-executor.md: ОЙExecutor
 title: 'ОЙExecutor::onExecute'
 ---
 # ОЙExecutor::onExecute

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagealphachannel.html: '« Imagick::getImageAlphaChannel'
-  - imagick.getimageattribute.html: 'Imagick::getImageAttribute »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagealphachannel.md: '« Imagick::getImageAlphaChannel'
+  - imagick.getimageattribute.md: 'Imagick::getImageAttribute »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageArtifact'
 ---
 # Imagick::getImageArtifact
@@ -36,5 +36,5 @@ public Imagick::getImageArtifact(string $artifact): string
 
 ### Дивіться також
 
--   [Imagick::setImageArtifact()](imagick.setimageartifact.html) - Встановлює артефакт зображення
--   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.html) - Видаляє артефакт зображення
+-   [Imagick::setImageArtifact()](imagick.setimageartifact.md) - Встановлює артефакт зображення
+-   [Imagick::deleteImageArtifact()](imagick.deleteimageartifact.md) - Видаляє артефакт зображення

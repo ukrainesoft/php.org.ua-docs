@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-demangle.html: « radiusdemangle
-  - function.radius-get-tagged-attr-data.html: radiusgettaggedattrdata »
+  - function.radius-demangle.md: « radiusdemangle
+  - function.radius-get-tagged-attr-data.md: radiusgettaggedattrdata »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiusgetattr

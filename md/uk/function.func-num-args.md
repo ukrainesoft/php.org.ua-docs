@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.func-get-args.html: « funcgetargs
-  - function.function-exists.html: functionexists »
-  - index.html: PHP Manual
-  - ref.funchand.html: Функции управления функциями
+  - function.func-get-args.md: « funcgetargs
+  - function.function-exists.md: functionexists »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
 title: funcnumargs
 ---
 # funcnumargs
@@ -20,7 +20,7 @@ func_num_args(): int
 
 Отримує кількість аргументів переданих функції.
 
-Ця функція також може бути використана спільно з [funcgetarg()](function.func-get-arg.html) і [funcgetargs()](function.func-get-args.md) для створення функцій із змінною кількістю аргументів.
+Ця функція також може бути використана спільно з [funcgetarg()](function.func-get-arg.md) і [funcgetargs()](function.func-get-args.md) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -64,7 +64,7 @@ foo(1, 2, 3);
 
 ### Дивіться також
 
--   [Синтаксис](functions.arguments.html#functions.variable-arg-list)
+-   [Синтаксис](functions.arguments.md#functions.variable-arg-list)
 -   [funcgetarg()](function.func-get-arg.md)
 -   [funcgetargs()](function.func-get-args.md)
 -   [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md)

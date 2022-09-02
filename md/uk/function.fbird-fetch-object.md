@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-fetch-assoc.html: « fbirdfetchassoc
-  - function.fbird-fetch-row.html: fbirdfetchrow »
+  - function.fbird-fetch-assoc.md: « fbirdfetchassoc
+  - function.fbird-fetch-row.md: fbirdfetchrow »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdfetchobject

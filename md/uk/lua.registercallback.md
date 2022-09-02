@@ -1,9 +1,9 @@
 ---
 navigation:
-  - lua.include.html: '« Lua::include'
-  - class.luaclosure.html: LuaClosure »
-  - index.html: PHP Manual
-  - class.lua.html: Lua
+  - lua.include.md: '« Lua::include'
+  - class.luaclosure.md: LuaClosure »
+  - index.md: PHP Manual
+  - class.lua.md: Lua
 title: 'Lua::registerCallback'
 ---
 # Lua::registerCallback

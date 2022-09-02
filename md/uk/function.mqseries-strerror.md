@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mqseries-set.html: « mqseriesset
+  - function.mqseries-set.md: « mqseriesset
   - book.network.md: Сеть »
   - index.md: PHP Manual
   - ref.mqseries.md: Функции mqseries

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-error.html: « fdferror
-  - function.fdf-get-attachment.html: fdfgetattachment »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-error.md: « fdferror
+  - function.fdf-get-attachment.md: fdfgetattachment »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfgetап
 ---
 # fdfgetап
@@ -24,7 +24,7 @@ fdf_get_ap(    resource $fdf_document,    string $field,    int $fac
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 `field`
 

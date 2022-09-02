@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileinfo.islink.html: '« SplFileInfo::isLink'
-  - splfileinfo.iswritable.html: 'SplFileInfo::isWritable »'
-  - index.html: PHP Manual
-  - class.splfileinfo.html: SplFileInfo
+  - splfileinfo.islink.md: '« SplFileInfo::isLink'
+  - splfileinfo.iswritable.md: 'SplFileInfo::isWritable »'
+  - index.md: PHP Manual
+  - class.splfileinfo.md: SplFileInfo
 title: 'SplFileInfo::isReadable'
 ---
 # SplFileInfo::isReadable

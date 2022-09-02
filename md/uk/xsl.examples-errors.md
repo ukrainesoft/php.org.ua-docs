@@ -1,6 +1,6 @@
 ---
 navigation:
-  - xsl.examples-collection.html: « Файли collection.xml та collection.xsl для прикладів
+  - xsl.examples-collection.md: « Файли collection.xml та collection.xsl для прикладів
   - class.xsltprocessor.md: XSLTProcessor »
   - index.md: PHP Manual
   - xsl.examples.md: Приклади

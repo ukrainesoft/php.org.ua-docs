@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.php-ini-scanned-files.html: « phpiniscannedfiles
-  - function.php-uname.html: phpuname »
+  - function.php-ini-scanned-files.md: « phpiniscannedfiles
+  - function.php-uname.md: phpuname »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: phpsapiname
@@ -61,4 +61,4 @@ if (substr($sapi_type, 0, 3) == 'cgi') {
 
 ### Дивіться також
 
--   [PHPSAPI](reserved.constants.html#reserved.constants.core)
+-   [PHPSAPI](reserved.constants.md#reserved.constants.core)

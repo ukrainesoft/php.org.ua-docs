@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-rmdir.html: « eiormdir
-  - function.eio-sendfile.html: eiosendfile »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-rmdir.md: « eiormdir
+  - function.eio-sendfile.md: eiosendfile »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eioseek
 ---
 # eioseek
@@ -60,7 +60,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 

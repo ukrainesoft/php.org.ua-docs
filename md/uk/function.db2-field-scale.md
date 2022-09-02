@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-field-precision.html: « db2fieldprecision
-  - function.db2-field-type.html: db2fieldtype »
+  - function.db2-field-precision.md: « db2fieldprecision
+  - function.db2-field-type.md: db2fieldtype »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2fieldscale
 ---
 # db2fieldscale

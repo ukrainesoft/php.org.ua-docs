@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.sem.html: « Функції семафорів
-  - function.msg-get-queue.html: msggetqueue »
-  - index.html: PHP Manual
-  - ref.sem.html: Функції семафорів
+  - ref.sem.md: « Функції семафорів
+  - function.msg-get-queue.md: msggetqueue »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
 title: ftok
 ---
 # ftok

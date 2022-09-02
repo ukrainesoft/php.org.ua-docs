@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.on.html: '« SwooleClient::on'
-  - swoole-client.pipe.html: 'SwooleClient::pipe »'
+  - swoole-client.on.md: '« SwooleClient::on'
+  - swoole-client.pipe.md: 'SwooleClient::pipe »'
   - index.md: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::pause'
 ---
 # SwooleClient::pause

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-random.html: « sodiumcryptocoreristretto255random
-  - function.sodium-crypto-core-ristretto255-scalar-complement.html: sodiumcryptocoreristretto255scalarcomplement »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-core-ristretto255-random.md: « sodiumcryptocoreristretto255random
+  - function.sodium-crypto-core-ristretto255-scalar-complement.md: sodiumcryptocoreristretto255scalarcomplement »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255scalaradd
 ---
 # sodiumcryptocoreristretto255scalaradd
@@ -63,5 +63,5 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ
--   [sodiumcryptocoreristretto255scalarsub()](function.sodium-crypto-core-ristretto255-scalar-sub.html) - Віднімає скалярне значення
+-   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md) - Генерує випадковий ключ
+-   [sodiumcryptocoreristretto255scalarsub()](function.sodium-crypto-core-ristretto255-scalar-sub.md) - Віднімає скалярне значення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-patch.getclosures.html: '« ComponerePatch::getClosures'
-  - componere-method.construct.html: 'ComponereMethod::construct »'
-  - index.html: PHP Manual
-  - book.componere.html: Componere
+  - componere-patch.getclosures.md: '« ComponerePatch::getClosures'
+  - componere-method.construct.md: 'ComponereMethod::construct »'
+  - index.md: PHP Manual
+  - book.componere.md: Componere
 title: Клас ComponereMethod
 ---
 # Клас ComponereMethod

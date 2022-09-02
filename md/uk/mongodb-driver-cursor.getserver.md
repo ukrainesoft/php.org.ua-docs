@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.getid.html: '« MongoDBDriverCursor::getId'
-  - mongodb-driver-cursor.isdead.html: 'MongoDBDriverCursor::isDead »'
+  - mongodb-driver-cursor.getid.md: '« MongoDBDriverCursor::getId'
+  - mongodb-driver-cursor.isdead.md: 'MongoDBDriverCursor::isDead »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::getServer'
 ---
 # MongoDBDriverCursor::getServer
@@ -18,7 +18,7 @@ MongoDBDriverCursor::getServer — Повертає сервер, пов'яза�
 final public MongoDB\Driver\Cursor::getServer(): MongoDB\Driver\Server
 ```
 
-Повертає [MongoDBDriverServer](class.mongodb-driver-server.html), пов'язаний із курсором. Це сервер, який виконав [MongoDBDriverQuery](class.mongodb-driver-query.html) або [MongoDBDriverCommand](class.mongodb-driver-command.md)
+Повертає [MongoDBDriverServer](class.mongodb-driver-server.md), пов'язаний із курсором. Це сервер, який виконав [MongoDBDriverQuery](class.mongodb-driver-query.md) або [MongoDBDriverCommand](class.mongodb-driver-command.md)
 
 ### Список параметрів
 

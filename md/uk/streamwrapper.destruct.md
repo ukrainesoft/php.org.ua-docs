@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.construct.html: '« streamWrapper::construct'
-  - streamwrapper.dir-closedir.html: 'streamWrapper::dirclosedir »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.construct.md: '« streamWrapper::construct'
+  - streamwrapper.dir-closedir.md: 'streamWrapper::dirclosedir »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::destruct'
 ---
 # streamWrapper::destruct

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - streamwrapper.stream-cast.html: '« streamWrapper::streamcast'
-  - streamwrapper.stream-eof.html: 'streamWrapper::streameof »'
+  - streamwrapper.stream-cast.md: '« streamWrapper::streamcast'
+  - streamwrapper.stream-eof.md: 'streamWrapper::streameof »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamclose'

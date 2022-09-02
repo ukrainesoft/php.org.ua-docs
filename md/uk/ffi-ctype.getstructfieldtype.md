@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getstructfieldoffset.html: '« FFICType::getStructFieldOffset'
-  - class.ffi-exception.html: FFIException »
+  - ffi-ctype.getstructfieldoffset.md: '« FFICType::getStructFieldOffset'
+  - class.ffi-exception.md: FFIException »
   - index.md: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getStructFieldType'
 ---
 # FFICType::getStructFieldType

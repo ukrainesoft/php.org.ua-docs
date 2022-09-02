@@ -1,9 +1,9 @@
 ---
 navigation:
-  - radius.constants.html: « Обумовлені константи
-  - radius.constants.packets.html: типи пакетів RADIUS »
-  - index.html: PHP Manual
-  - radius.constants.html: Обумовлені константи
+  - radius.constants.md: « Обумовлені константи
+  - radius.constants.packets.md: типи пакетів RADIUS »
+  - index.md: PHP Manual
+  - radius.constants.md: Обумовлені константи
 title: Опції RADIUS
 ---
 ## Опції RADIUS

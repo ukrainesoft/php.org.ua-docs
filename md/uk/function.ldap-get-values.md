@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-get-values-len.html: « ldapgetvalueslen
-  - function.ldap-list.html: ldaplist »
+  - function.ldap-get-values-len.md: « ldapgetvalueslen
+  - function.ldap-list.md: ldaplist »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapgetvalues
@@ -28,7 +28,7 @@ ldap_get_values(LDAP\Connection $ldap, LDAP\ResultEntry $entry, string $attribut
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 

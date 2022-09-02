@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-loader.getnamespaces.html: '« YafLoader::getLocalNamespace'
-  - yaf-loader.islocalname.html: 'YafLoader::isLocalName »'
+  - yaf-loader.getnamespaces.md: '« YafLoader::getLocalNamespace'
+  - yaf-loader.islocalname.md: 'YafLoader::isLocalName »'
   - index.md: PHP Manual
-  - class.yaf-loader.html: YafLoader
+  - class.yaf-loader.md: YafLoader
 title: 'YafLoader::import'
 ---
 # YafLoader::import

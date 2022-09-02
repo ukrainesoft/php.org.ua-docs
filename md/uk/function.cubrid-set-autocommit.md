@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-set-add.html: « cubridsetadd
-  - function.cubrid-set-db-parameter.html: cubridsetдбparameter »
+  - function.cubrid-set-add.md: « cubridsetadd
+  - function.cubrid-set-db-parameter.md: cubridsetдбparameter »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridsetautocommit

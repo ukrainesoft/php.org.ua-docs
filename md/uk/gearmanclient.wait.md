@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.timeout.html: '« GearmanClient::timeout'
-  - class.gearmanjob.html: GearmanJob »
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.timeout.md: '« GearmanClient::timeout'
+  - class.gearmanjob.md: GearmanJob »
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::wait'
 ---
 # GearmanClient::wait
@@ -30,4 +30,4 @@ public GearmanClient::wait(): bool
 
 ### Дивіться також
 
--   [GearmanWorker::wait()](gearmanworker.wait.html) - Очікування запиту з одного із сервера завдань
+-   [GearmanWorker::wait()](gearmanworker.wait.md) - Очікування запиту з одного із сервера завдань

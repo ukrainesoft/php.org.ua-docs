@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evio.createstopped.html: '« EvIo::createStopped'
-  - class.evloop.html: EvLoop »
-  - index.html: PHP Manual
-  - class.evio.html: EvIo
+  - evio.createstopped.md: '« EvIo::createStopped'
+  - class.evloop.md: EvLoop »
+  - index.md: PHP Manual
+  - class.evio.md: EvIo
 title: 'EvIo::set'
 ---
 # EvIo::set
@@ -31,11 +31,11 @@ public
 
 `fd`
 
-Дивіться [EvIo::construct()](evio.construct.html)
+Дивіться [EvIo::construct()](evio.construct.md)
 
 `events`
 
-Дивіться [EvIo::construct()](evio.construct.html)
+Дивіться [EvIo::construct()](evio.construct.md)
 
 ### Значення, що повертаються
 

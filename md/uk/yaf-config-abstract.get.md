@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-config-abstract.html: « YafConfigAbstract
-  - yaf-config-abstract.readonly.html: 'YafConfigAbstract::readonly »'
-  - index.html: PHP Manual
-  - class.yaf-config-abstract.html: YafConfigAbstract
+  - class.yaf-config-abstract.md: « YafConfigAbstract
+  - yaf-config-abstract.readonly.md: 'YafConfigAbstract::readonly »'
+  - index.md: PHP Manual
+  - class.yaf-config-abstract.md: YafConfigAbstract
 title: 'YafConfigAbstract::get'
 ---
 # YafConfigAbstract::get

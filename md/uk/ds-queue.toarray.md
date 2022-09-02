@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.push.html: '« DsQueue::push'
-  - class.ds-priorityqueue.html: Черга з пріоритетом »
-  - index.html: PHP Manual
-  - class.ds-queue.html: Черга
+  - ds-queue.push.md: '« DsQueue::push'
+  - class.ds-priorityqueue.md: Черга з пріоритетом »
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::toArray'
 ---
 # ДсQueue::toArray

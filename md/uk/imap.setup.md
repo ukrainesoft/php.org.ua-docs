@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.imap.html: « Введение
-  - imap.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.imap.html: IMAP
+  - intro.imap.md: « Введение
+  - imap.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.imap.md: IMAP
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](imap.requirements.html)
--   [Установка](imap.installation.html)
--   [Налаштування під час виконання](imap.configuration.html)
--   [Типи ресурсів](imap.resources.html)
+-   [Вимоги](imap.requirements.md)
+-   [Установка](imap.installation.md)
+-   [Налаштування під час виконання](imap.configuration.md)
+-   [Типи ресурсів](imap.resources.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.radius-close.html: « radiusclose
-  - function.radius-create-request.html: radiuscreaterequest »
-  - index.html: PHP Manual
-  - ref.radius.html: Функции Radius
+  - function.radius-close.md: « radiusclose
+  - function.radius-create-request.md: radiuscreaterequest »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
 title: radiusconfig
 ---
 # radiusconfig

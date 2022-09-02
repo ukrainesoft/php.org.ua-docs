@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-scp-recv.html: « ssh2scprecv
-  - function.ssh2-send-eof.html: ssh2sendeof »
+  - function.ssh2-scp-recv.md: « ssh2scprecv
+  - function.ssh2-send-eof.md: ssh2sendeof »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2scpsend

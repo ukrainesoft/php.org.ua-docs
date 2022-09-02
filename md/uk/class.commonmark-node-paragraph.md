@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-node-heading.construct.html: '« CommonMarkNodeHeading::construct'
-  - class.commonmark-node-blockquote.html: CommonMarkNodeBlockQuote »
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - commonmark-node-heading.construct.md: '« CommonMarkNodeHeading::construct'
+  - class.commonmark-node-blockquote.md: CommonMarkNodeBlockQuote »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: Paragraph успадковує CommonMarkNode
 ---
 # Paragraph успадковує CommonMarkNode

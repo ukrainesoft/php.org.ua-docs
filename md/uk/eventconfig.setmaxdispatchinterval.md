@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventconfig.setflags.html: '« EventConfig::setFlags'
-  - class.eventdnsbase.html: EventDnsBase »
-  - index.html: PHP Manual
-  - class.eventconfig.html: EventConfig
+  - eventconfig.setflags.md: '« EventConfig::setFlags'
+  - class.eventdnsbase.md: EventDnsBase »
+  - index.md: PHP Manual
+  - class.eventconfig.md: EventConfig
 title: 'EventConfig::setMaxDispatchInterval'
 ---
 # EventConfig::setMaxDispatchInterval

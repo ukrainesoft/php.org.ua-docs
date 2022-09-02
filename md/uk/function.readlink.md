@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.readfile.html: « readfile
-  - function.realpath-cache-get.html: realpathcacheget »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.readfile.md: « readfile
+  - function.realpath-cache-get.md: realpathcacheget »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: readlink
 ---
 # readlink
@@ -47,6 +47,6 @@ echo readlink('/vmlinuz');
 
 ### Дивіться також
 
--   [ісlink()](function.is-link.html) - Визначає, чи є файл символічним посиланням
--   [symlink()](function.symlink.html) - Створює символічне посилання
--   [linkinfo()](function.linkinfo.html) - Повертає інформацію про посилання
+-   [ісlink()](function.is-link.md) - Визначає, чи є файл символічним посиланням
+-   [symlink()](function.symlink.md) - Створює символічне посилання
+-   [linkinfo()](function.linkinfo.md) - Повертає інформацію про посилання

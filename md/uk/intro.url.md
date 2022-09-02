@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.url.html: « URL
-  - url.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.url.html: URL
+  - book.url.md: « URL
+  - url.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.url.md: URL
 title: Вступ
 ---
 # Вступ

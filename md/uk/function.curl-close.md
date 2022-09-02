@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.curl.md: « Функции cURL
-  - function.curl-copy-handle.html: curlcopyhandle »
+  - function.curl-copy-handle.md: curlcopyhandle »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlclose

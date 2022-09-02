@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.medianfilterimage.html: '« Imagick::medianFilterImage'
-  - imagick.minifyimage.html: 'Imagick::minifyImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.medianfilterimage.md: '« Imagick::medianFilterImage'
+  - imagick.minifyimage.md: 'Imagick::minifyImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::mergeImageLayers'
 ---
 # Imagick::mergeImageLayers

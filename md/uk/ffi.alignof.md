@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.addr.html: '« FFI::addr'
-  - ffi.arraytype.html: 'FFI::arrayType »'
-  - index.html: PHP Manual
-  - class.ffi.html: FFI
+  - ffi.addr.md: '« FFI::addr'
+  - ffi.arraytype.md: 'FFI::arrayType »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
 title: 'FFI::alignof'
 ---
 # FFI::alignof
@@ -18,7 +18,7 @@ FFI::alignof — Повертає величину вирівнювання
 public static FFI::alignof(FFI\CData|FFI\CType &$ptr): int
 ```
 
-Повертає величину вирівнювання об'єктів [FFICData](class.ffi-cdata.html) або [FFICType](class.ffi-ctype.html)
+Повертає величину вирівнювання об'єктів [FFICData](class.ffi-cdata.md) або [FFICType](class.ffi-ctype.md)
 
 ### Список параметрів
 
@@ -28,4 +28,4 @@ public static FFI::alignof(FFI\CData|FFI\CType &$ptr): int
 
 ### Значення, що повертаються
 
-Повертає величину вирівнювання об'єктів [FFICData](class.ffi-cdata.html) або [FFICType](class.ffi-ctype.html)
+Повертає величину вирівнювання об'єктів [FFICData](class.ffi-cdata.md) або [FFICType](class.ffi-ctype.md)

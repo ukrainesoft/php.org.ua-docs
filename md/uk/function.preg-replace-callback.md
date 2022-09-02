@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.preg-replace-callback-array.html: « pregreplacecallbackarray
-  - function.preg-replace.html: pregreplace »
-  - index.html: PHP Manual
-  - ref.pcre.html: Функции PCRE
+  - function.preg-replace-callback-array.md: « pregreplacecallbackarray
+  - function.preg-replace.md: pregreplace »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
 title: pregreplacecallback
 ---
 # pregreplacecallback
@@ -18,7 +18,7 @@ pregreplacecallback — Виконує пошук за регулярним ви
 preg_replace_callback(    string|array $pattern,    callable $callback,    string|array $subject,    int $limit = -1,    int &$count = null,    int $flags = 0): string|array|null
 ```
 
-Поведінка цієї функції багато в чому нагадує [pregreplace()](function.preg-replace.html), за винятком того, що замість параметра `replacement` необхідно вказувати `callback`функцію.
+Поведінка цієї функції багато в чому нагадує [pregreplace()](function.preg-replace.md), за винятком того, що замість параметра `replacement` необхідно вказувати `callback`функцію.
 
 ### Список параметрів
 
@@ -34,7 +34,7 @@ Callback-функція, що викликається, якій буде пер
 handler(array $matches): string
 ```
 
-Досить часто `callback` функція, окрім як у виклику \*\*pregreplacecallback()\*\*ні в чому більше не бере участі. Виходячи з цих міркувань, можна використовувати [анонімні функції](functions.anonymous.html) для створення callback-функції безпосередньо у виклику **pregreplacecallback()**. Якщо ви використовуєте такий підхід, вся інформація, пов'язана із заміною за регулярним виразом, буде зібрана в одному місці, і простір імен функцій не буде захаращуватися записами, що не використовуються.
+Досить часто `callback` функція, окрім як у виклику \*\*pregreplacecallback()\*\*ні в чому більше не бере участі. Виходячи з цих міркувань, можна використовувати [анонімні функції](functions.anonymous.md) для створення callback-функції безпосередньо у виклику **pregreplacecallback()**. Якщо ви використовуєте такий підхід, вся інформація, пов'язана із заміною за регулярним виразом, буде зібрана в одному місці, і простір імен функцій не буде захаращуватися записами, що не використовуються.
 
 **Приклад #1 **pregreplacecallback()** та анонімна функція**
 
@@ -72,7 +72,7 @@ fclose($fp);
 
 `flags`
 
-`flags` може бути комбінацією прапорів **`PREG_OFFSET_CAPTURE`** і \*\*`PREG_UNMATCHED_AS_NULL`\*\*які впливають на формат масиву збігів. Дивіться опис у [pregmatch()](function.preg-match.html) для більш детальної інформації.
+`flags` може бути комбінацією прапорів **`PREG_OFFSET_CAPTURE`** і \*\*`PREG_UNMATCHED_AS_NULL`\*\*які впливають на формат масиву збігів. Дивіться опис у [pregmatch()](function.preg-match.md) для більш детальної інформації.
 
 ### Значення, що повертаються
 
@@ -149,9 +149,9 @@ echo $output;
 
 ### Дивіться також
 
--   [Регулярні вирази PCRE](pcre.pattern.html)
--   [pregreplacecallbackarray()](function.preg-replace-callback-array.html) - Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного виклику
--   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
--   [Анонімні функції](functions.anonymous.html)
+-   [Регулярні вирази PCRE](pcre.pattern.md)
+-   [pregreplacecallbackarray()](function.preg-replace-callback-array.md) - Здійснює пошук та заміну за регулярним виразом з використанням функцій зворотного виклику
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   [Анонімні функції](functions.anonymous.md)

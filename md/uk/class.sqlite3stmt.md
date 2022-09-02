@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.version.html: '« SQLite3::version'
-  - sqlite3stmt.bindparam.html: 'SQLite3Stmt::bindParam »'
-  - index.html: PHP Manual
-  - book.sqlite3.html: SQLite3
+  - sqlite3.version.md: '« SQLite3::version'
+  - sqlite3stmt.bindparam.md: 'SQLite3Stmt::bindParam »'
+  - index.md: PHP Manual
+  - book.sqlite3.md: SQLite3
 title: Клас SQLite3Stmt
 ---
 # Клас SQLite3Stmt

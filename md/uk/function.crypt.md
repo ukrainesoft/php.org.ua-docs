@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.crc32.html: « crc32
-  - function.echo.html: echo »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.crc32.md: « crc32
+  - function.echo.md: echo »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: crypt
 ---
 # crypt
@@ -22,11 +22,11 @@ crypt — Незворотне хешування рядка
 crypt(string $string, string $salt): string
 ```
 
-**crypt()** повертає хешований рядок, отриманий за допомогою стандартного алгоритму UNIX, заснованого на DES або іншого алгоритму. Функція [passwordverify()](function.password-verify.html) сумісна з **crypt()**. Отже, хеші паролів, створені **crypt()**, можуть бути використані в [passwordverify()](function.password-verify.md)
+**crypt()** повертає хешований рядок, отриманий за допомогою стандартного алгоритму UNIX, заснованого на DES або іншого алгоритму. Функція [passwordverify()](function.password-verify.md) сумісна з **crypt()**. Отже, хеші паролів, створені **crypt()**, можуть бути використані в [passwordverify()](function.password-verify.md)
 
 До версії PHP 8.0.0 параметр `salt` був необов'язковим. Однак функція **crypt()** створює слабкий хеш без параметра `salt`, а без нього видає помилку рівня **`E_NOTICE`**. Переконайтеся, що ви використовуєте досить складну сіль для кращої безпеки.
 
-Функція [passwordhash()](function.password-hash.html) використовує складний хеш, генерує складну сіль і застосовує правильно кількість раундів хешування автоматично . [passwordhash()](function.password-hash.html) є простою обгорткою над **crypt()** та сумісна з існуючими хешами паролів. Тому вітається використання [passwordhash()](function.password-hash.md)
+Функція [passwordhash()](function.password-hash.md) використовує складний хеш, генерує складну сіль і застосовує правильно кількість раундів хешування автоматично . [passwordhash()](function.password-hash.md) є простою обгорткою над **crypt()** та сумісна з існуючими хешами паролів. Тому вітається використання [passwordhash()](function.password-hash.md)
 
 Вид хешування визначається переданим аргументом salt (сіль). Якщо сіль не вказана, буде автоматично згенерована стандартна випадкова двосимвольна (DES) або дванадцятисимвольна (MD5) сіль, залежно від доступності алгоритму MD5 crypt(). Обумовлена ​​константа **`CRYPT_SALT_LENGTH`** дозволяє визначити максимально доступну довжину солі відповідно до алгоритмів, що використовуються.
 

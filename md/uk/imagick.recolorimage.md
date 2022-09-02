@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.readimages.html: '« Imagick::readimages'
-  - imagick.reducenoiseimage.html: 'Imagick::reduceNoiseImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.readimages.md: '« Imagick::readimages'
+  - imagick.reducenoiseimage.md: 'Imagick::reduceNoiseImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::recolorImage'
 ---
 # Imagick::recolorImage

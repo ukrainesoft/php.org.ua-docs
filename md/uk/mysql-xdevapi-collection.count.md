@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collection.construct.html: '« Collection::construct'
-  - mysql-xdevapi-collection.createindex.html: 'Collection::createIndex »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+  - mysql-xdevapi-collection.construct.md: '« Collection::construct'
+  - mysql-xdevapi-collection.createindex.md: 'Collection::createIndex »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
 title: 'Collection::count'
 ---
 # Collection::count

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-dup2.html: « eiodup2
-  - function.eio-fallocate.html: eiofallocate »
+  - function.eio-dup2.md: « eiodup2
+  - function.eio-fallocate.md: eiofallocate »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eioeventloop

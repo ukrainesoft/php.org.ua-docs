@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-form.html: « UIControlsForm
-  - ui-controls-form.delete.html: 'ОЙControlsForm::delete »'
+  - class.ui-controls-form.md: « UIControlsForm
+  - ui-controls-form.delete.md: 'ОЙControlsForm::delete »'
   - index.md: PHP Manual
-  - class.ui-controls-form.html: ОЙControlsForm
+  - class.ui-controls-form.md: ОЙControlsForm
 title: 'ОЙControlsForm::append'
 ---
 # ОЙControlsForm::append

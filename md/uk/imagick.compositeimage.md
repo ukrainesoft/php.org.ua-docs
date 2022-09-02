@@ -28,7 +28,7 @@ public Imagick::compositeImage(    Imagick $composite_object,    int $co
 
 `compose`
 
-Оператор накладання. Дивіться [Константи оператора накладання](imagick.constants.html#imagick.constants.compositeop)
+Оператор накладання. Дивіться [Константи оператора накладання](imagick.constants.md#imagick.constants.compositeop)
 
 `x`
 
@@ -40,7 +40,7 @@ public Imagick::compositeImage(    Imagick $composite_object,    int $co
 
 `channel`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

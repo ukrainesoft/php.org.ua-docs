@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole.resources.html: « Типи ресурсів
-  - ref.swoole-funcs.html: Функции Swoole »
-  - index.html: PHP Manual
-  - book.swoole.html: Swoole
+  - swoole.resources.md: « Типи ресурсів
+  - ref.swoole-funcs.md: Функции Swoole »
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
 title: Обумовлені константи
 ---
 # Обумовлені константи

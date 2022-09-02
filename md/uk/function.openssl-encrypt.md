@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-digest.html: « openssldigest
-  - function.openssl-error-string.html: opensslerrorstring »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-digest.md: « openssldigest
+  - function.openssl-error-string.md: opensslerrorstring »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslencrypt
 ---
 # opensslencrypt

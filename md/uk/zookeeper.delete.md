@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.create.html: '« Zookeeper::create'
-  - zookeeper.exists.html: 'Zookeeper::exists »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.create.md: '« Zookeeper::create'
+  - zookeeper.exists.md: 'Zookeeper::exists »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::delete'
 ---
 # Zookeeper::delete

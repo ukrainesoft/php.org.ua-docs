@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-dblib.html: « MS SQL Server (PDODBLIB)
-  - ref.pdo-firebird.html: Firebird (PDO) »
+  - ref.pdo-dblib.md: « MS SQL Server (PDODBLIB)
+  - ref.pdo-firebird.md: Firebird (PDO) »
   - index.md: PHP Manual
-  - ref.pdo-dblib.html: MS SQL Server (PDODBLIB)
+  - ref.pdo-dblib.md: MS SQL Server (PDODBLIB)
 title: PDODBLIB DSN
 ---
 # PDODBLIB DSN

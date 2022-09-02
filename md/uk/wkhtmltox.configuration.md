@@ -1,7 +1,7 @@
 ---
 navigation:
   - wkhtmltox.installation.md: « Установка
-  - class.wkhtmltox-pdf-converter.html: wkhtmltoxPDFConverter »
+  - class.wkhtmltox-pdf-converter.md: wkhtmltoxPDFConverter »
   - index.md: PHP Manual
   - wkhtmltox.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання

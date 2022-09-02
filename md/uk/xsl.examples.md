@@ -1,7 +1,7 @@
 ---
 navigation:
   - xsl.constants.md: « Обумовлені константи
-  - xsl.examples-collection.html: Файли collection.xml та collection.xsl для прикладів »
+  - xsl.examples-collection.md: Файли collection.xml та collection.xsl для прикладів »
   - index.md: PHP Manual
   - book.xsl.md: XSL
 title: Приклади

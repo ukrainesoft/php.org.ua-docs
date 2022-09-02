@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfixedarray.getsize.html: '« SplFixedArray::getSize'
-  - splfixedarray.next.html: 'SplFixedArray::next »'
-  - index.html: PHP Manual
-  - class.splfixedarray.html: SplFixedArray
+  - splfixedarray.getsize.md: '« SplFixedArray::getSize'
+  - splfixedarray.next.md: 'SplFixedArray::next »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::key'
 ---
 # SplFixedArray::key

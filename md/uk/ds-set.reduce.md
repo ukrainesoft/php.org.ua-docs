@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.merge.html: '« DsSet::merge'
-  - ds-set.remove.html: 'ДсSet::remove »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.merge.md: '« DsSet::merge'
+  - ds-set.remove.md: 'ДсSet::remove »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::reduce'
 ---
 # ДсSet::reduce

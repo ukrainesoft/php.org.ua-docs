@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-intval.html: « gmpintval
-  - function.gmp-jacobi.html: gmpjacobi »
+  - function.gmp-intval.md: « gmpintval
+  - function.gmp-jacobi.md: gmpjacobi »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpinvert

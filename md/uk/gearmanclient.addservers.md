@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.addserver.html: '« GearmanClient::addServer'
-  - gearmanclient.addtask.html: 'GearmanClient::addTask »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.addserver.md: '« GearmanClient::addServer'
+  - gearmanclient.addtask.md: 'GearmanClient::addTask »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::addServers'
 ---
 # GearmanClient::addServers

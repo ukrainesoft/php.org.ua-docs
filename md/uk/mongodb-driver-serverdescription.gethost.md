@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-serverdescription.gethelloresponse.html: '« MongoDBDriverServerDescription::getHelloResponse'
-  - mongodb-driver-serverdescription.getlastupdatetime.html: 'MongoDBDriverServerDescription::getLastUpdateTime »'
+  - mongodb-driver-serverdescription.gethelloresponse.md: '« MongoDBDriverServerDescription::getHelloResponse'
+  - mongodb-driver-serverdescription.getlastupdatetime.md: 'MongoDBDriverServerDescription::getLastUpdateTime »'
   - index.md: PHP Manual
-  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription
 title: 'MongoDBDriverServerDescription::getHost'
 ---
 # MongoDBDriverServerDescription::getHost

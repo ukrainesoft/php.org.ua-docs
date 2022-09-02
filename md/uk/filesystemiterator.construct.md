@@ -26,7 +26,7 @@ public **FilesystemIterator::construct**(string `$directory`, int `$flags` = Fil
 
 `flags`
 
-Поведінку деяких методів можна встановити за допомогою прапорів. Список цих прапорів можна знайти на сторінці [визначених констант FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants). Також їх можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.md)
+Поведінку деяких методів можна встановити за допомогою прапорів. Список цих прапорів можна знайти на сторінці [визначених констант FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants). Також їх можна задати пізніше методом [FilesystemIterator::setFlags()](filesystemiterator.setflags.md)
 
 > **Зауваження**
 > 

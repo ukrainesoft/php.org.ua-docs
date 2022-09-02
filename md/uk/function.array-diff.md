@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-diff-ukey.html: « arraydiffukey
-  - function.array-fill-keys.html: arrayfillkeys »
+  - function.array-diff-ukey.md: « arraydiffukey
+  - function.array-fill-keys.md: arrayfillkeys »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraydiff
@@ -65,7 +65,7 @@ Array
 
 **Приклад #2 Приклад використання **arraydiff()** з несхожими типами**
 
-Два елементи вважаються рівними тоді і лише тоді, коли `(string) $elem1 === (string) $elem2`. Тобто коли [строковое представление](language.types.string.html#language.types.string.casting) однаково.
+Два елементи вважаються рівними тоді і лише тоді, коли `(string) $elem1 === (string) $elem2`. Тобто коли [строковое представление](language.types.string.md#language.types.string.casting) однаково.
 
 ```php
 <?php

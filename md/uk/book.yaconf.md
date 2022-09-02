@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.yaf-exception-loadfailed-view.html: « YafExceptionLoadFailedView
+  - class.yaf-exception-loadfailed-view.md: « YafExceptionLoadFailedView
   - intro.yaconf.md: Введение »
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі

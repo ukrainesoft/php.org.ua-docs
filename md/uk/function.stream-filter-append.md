@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-copy-to-stream.html: « streamcopyтоstream
-  - function.stream-filter-prepend.html: streamfilterprepend »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-copy-to-stream.md: « streamcopyтоstream
+  - function.stream-filter-prepend.md: streamfilterprepend »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamfilterappend
 ---
 # streamfilterappend

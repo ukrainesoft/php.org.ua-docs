@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-cascade-min-cand-epochs.html: « fanngetcascademincandepochs
-  - function.fann-get-cascade-num-candidate-groups.html: fanngetcascadenumcandidategroups »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-cascade-min-cand-epochs.md: « fanngetcascademincandepochs
+  - function.fann-get-cascade-num-candidate-groups.md: fanngetcascadenumcandidategroups »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetcascademinoutepochs
 ---
 # fanngetcascademinoutepochs
@@ -40,4 +40,4 @@ fann_get_cascade_min_out_epochs(resource $ann): int
 
 ### Дивіться також
 
--   [fannsetcascademinoutepochs()](function.fann-set-cascade-min-out-epochs.html) - Встановлює мінімальні епохи вихідних даних
+-   [fannsetcascademinoutepochs()](function.fann-set-cascade-min-out-epochs.md) - Встановлює мінімальні епохи вихідних даних

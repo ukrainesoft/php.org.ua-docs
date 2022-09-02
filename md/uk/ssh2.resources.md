@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ssh2.configuration.html: « Налаштування під час виконання
-  - ssh2.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - ssh2.setup.html: Встановлення та налаштування
+  - ssh2.configuration.md: « Налаштування під час виконання
+  - ssh2.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - ssh2.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

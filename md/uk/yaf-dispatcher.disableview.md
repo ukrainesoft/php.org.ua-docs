@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.construct.html: '« YafDispatcher::construct'
-  - yaf-dispatcher.dispatch.html: 'YafDispatcher::dispatch »'
+  - yaf-dispatcher.construct.md: '« YafDispatcher::construct'
+  - yaf-dispatcher.dispatch.md: 'YafDispatcher::dispatch »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::disableView'
 ---
 # YafDispatcher::disableView

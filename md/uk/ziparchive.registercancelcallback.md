@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.open.html: '« ZipArchive::open'
-  - ziparchive.registerprogresscallback.html: 'ZipArchive::registerProgressCallback »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.open.md: '« ZipArchive::open'
+  - ziparchive.registerprogresscallback.md: 'ZipArchive::registerProgressCallback »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::registerCancelCallback'
 ---
 # ZipArchive::registerCancelCallback
@@ -56,4 +56,4 @@ if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
 
 ### Дивіться також
 
--   [ZipArchive::registerProgressCallback()](ziparchive.registerprogresscallback.html) - Реєструє callback-функцію для надання оновлень під час закриття архіву
+-   [ZipArchive::registerProgressCallback()](ziparchive.registerprogresscallback.md) - Реєструє callback-функцію для надання оновлень під час закриття архіву

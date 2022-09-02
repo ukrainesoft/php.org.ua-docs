@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdo.pgsqllobcreate.html: '« PDO::pgsqlLOBCreate'
-  - pdo.pgsqllobunlink.html: 'PDO::pgsqlLOBUnlink »'
-  - index.html: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - pdo.pgsqllobcreate.md: '« PDO::pgsqlLOBCreate'
+  - pdo.pgsqllobunlink.md: 'PDO::pgsqlLOBUnlink »'
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlLOBOpen'
 ---
 # PDO::pgsqlLOBOpen
@@ -18,7 +18,7 @@ PDO::pgsqlLOBOpen — Відкриває потік для існуючого в
 public PDO::pgsqlLOBOpen(string $oid, string $mode = "rb"): resource|false
 ```
 
-Функція **PDO::pgsqlLOBOpen()** відкриває потік до великого об'єкта (LOB) заданого за допомогою `oid`. Якщо `mode` заданий як `r`потік відкривається для читання. Якщо `mode` заданий як `w`для запису. Для маніпуляції з потоком можна використовувати звичайні файлові функції, такі як [fread()](function.fread.html) [fwrite()](function.fwrite.html) і [fgets()](function.fgets.md)
+Функція **PDO::pgsqlLOBOpen()** відкриває потік до великого об'єкта (LOB) заданого за допомогою `oid`. Якщо `mode` заданий як `r`потік відкривається для читання. Якщо `mode` заданий як `w`для запису. Для маніпуляції з потоком можна використовувати звичайні файлові функції, такі як [fread()](function.fread.md) [fwrite()](function.fwrite.md) і [fgets()](function.fgets.md)
 
 > **Зауваження**: Ця функція та всі маніпуляції з LOB повинні відбуватися у транзакції.
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - svmmodel.getnrclass.html: '« SVMModel::getNrClass'
-  - svmmodel.getsvrprobability.html: 'SVMModel::getSvrProbability »'
-  - index.html: PHP Manual
-  - class.svmmodel.html: SVMModel
+  - svmmodel.getnrclass.md: '« SVMModel::getNrClass'
+  - svmmodel.getsvrprobability.md: 'SVMModel::getSvrProbability »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
 title: 'SVMModel::getSvmType'
 ---
 # SVMModel::getSvmType

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.prev.html: « prev
-  - function.reset.html: reset »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.prev.md: « prev
+  - function.reset.md: reset »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: range
 ---
 # range
@@ -82,6 +82,6 @@ foreach (range('c', 'a') as $letter) {
 
 ### Дивіться також
 
--   [shuffle()](function.shuffle.html) - перемішує масив
--   [arrayfill()](function.array-fill.html) - Заповнює масив значеннями
--   [foreach](control-structures.foreach.html)
+-   [shuffle()](function.shuffle.md) - перемішує масив
+-   [arrayfill()](function.array-fill.md) - Заповнює масив значеннями
+-   [foreach](control-structures.foreach.md)

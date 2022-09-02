@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.getfontstyle.html: '« GmagickDraw::getfontstyle'
-  - gmagickdraw.getstrokecolor.html: 'GmagickDraw::getstrokecolor »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.getfontstyle.md: '« GmagickDraw::getfontstyle'
+  - gmagickdraw.getstrokecolor.md: 'GmagickDraw::getstrokecolor »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::getfontweight'
 ---
 # GmagickDraw::getfontweight

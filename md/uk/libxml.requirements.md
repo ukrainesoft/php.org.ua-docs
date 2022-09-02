@@ -1,9 +1,9 @@
 ---
 navigation:
-  - libxml.setup.html: « Встановлення та налаштування
-  - libxml.installation.html: Установка »
-  - index.html: PHP Manual
-  - libxml.setup.html: Встановлення та налаштування
+  - libxml.setup.md: « Встановлення та налаштування
+  - libxml.installation.md: Установка »
+  - index.md: PHP Manual
+  - libxml.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

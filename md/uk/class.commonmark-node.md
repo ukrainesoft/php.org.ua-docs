@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-custominline.html: « CommonMarkNodeCustomInline
-  - commonmark-node.appendchild.html: 'CommonMarkNode::appendChild »'
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - class.commonmark-node-custominline.md: « CommonMarkNodeCustomInline
+  - commonmark-node.appendchild.md: 'CommonMarkNode::appendChild »'
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: Анотація класу CommonMarkNode
 ---
 # Анотація класу CommonMarkNode
@@ -93,10 +93,10 @@ public accept(CommonMark\Interfaces\IVisitor $visitor): void
 
 ## Зміст
 
--   [CommonMarkNode::appendChild](commonmark-node.appendchild.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::prependChild](commonmark-node.prependchild.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::insertAfter](commonmark-node.insertafter.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::insertBefore](commonmark-node.insertbefore.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::replace](commonmark-node.replace.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::unlink](commonmark-node.unlink.html) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
--   [CommonMarkNode::accept](commonmark-node.accept.html) - Visitation
+-   [CommonMarkNode::appendChild](commonmark-node.appendchild.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::prependChild](commonmark-node.prependchild.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::insertAfter](commonmark-node.insertafter.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::insertBefore](commonmark-node.insertbefore.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::replace](commonmark-node.replace.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::unlink](commonmark-node.unlink.md) - Маніпуляції з AST (Абстрактне синтаксичне дерево)
+-   [CommonMarkNode::accept](commonmark-node.accept.md) - Visitation

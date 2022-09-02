@@ -1,9 +1,9 @@
 ---
 navigation:
-  - classobj.constants.html: « Обумовлені константи
-  - ref.classobj.html: Функції роботи з класами та об'єктами »
-  - index.html: PHP Manual
-  - book.classobj.html: Класи та об'єкти
+  - classobj.constants.md: « Обумовлені константи
+  - ref.classobj.md: Функції роботи з класами та об'єктами »
+  - index.md: PHP Manual
+  - book.classobj.md: Класи та об'єкти
 title: Приклади
 ---
 # Приклади

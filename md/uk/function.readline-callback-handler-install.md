@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.readline-add-history.html: « readlineaddhistory
-  - function.readline-callback-handler-remove.html: readlinecallbackhandlerremove »
-  - index.html: PHP Manual
-  - ref.readline.html: Функции Readline
+  - function.readline-add-history.md: « readlineaddhistory
+  - function.readline-callback-handler-remove.md: readlinecallbackhandlerremove »
+  - index.md: PHP Manual
+  - ref.readline.md: Функции Readline
 title: readlinecallbackhandlerinstall
 ---
 # readlinecallbackhandlerinstall
@@ -20,7 +20,7 @@ readline_callback_handler_install(string $prompt, callable $callback): bool
 
 Ініціалізує callback-інтерфейс readline, друкує `prompt` та повертає управління. Повторний виклик цієї функції без попереднього видалення старого callback-інтерфейсу призведе до його автоматичного перезапису.
 
-Функціонал callback-функцій особливо зручний у комбінації з [streamselect()](function.stream-select.html), оскільки він, на відміну від [readline()](function.readline.md), дозволяє чергувати введення-виведення та введення користувача.
+Функціонал callback-функцій особливо зручний у комбінації з [streamselect()](function.stream-select.md), оскільки він, на відміну від [readline()](function.readline.md), дозволяє чергувати введення-виведення та введення користувача.
 
 ### Список параметрів
 

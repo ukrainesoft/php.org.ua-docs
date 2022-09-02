@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-size.getheight.html: '« UISize::getHeight'
-  - ui-size.of.html: 'ОЙSize::of »'
-  - index.html: PHP Manual
-  - class.ui-size.html: ОЙSize
+  - ui-size.getheight.md: '« UISize::getHeight'
+  - ui-size.of.md: 'ОЙSize::of »'
+  - index.md: PHP Manual
+  - class.ui-size.md: ОЙSize
 title: 'ОЙSize::getWidth'
 ---
 # ОЙSize::getWidth

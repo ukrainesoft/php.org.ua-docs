@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.rollimage.html: '« Gmagick::rollimage'
-  - gmagick.scaleimage.html: 'Gmagick::scaleimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.rollimage.md: '« Gmagick::rollimage'
+  - gmagick.scaleimage.md: 'Gmagick::scaleimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::rotateimage'
 ---
 # Gmagick::rotateimage
@@ -32,7 +32,7 @@ public Gmagick::rotateimage(mixed $color, float $degrees): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

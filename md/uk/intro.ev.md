@@ -1,14 +1,14 @@
 ---
 navigation:
-  - book.ev.html: « Ev
-  - ev.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.ev.html: Єв
+  - book.ev.md: « Ev
+  - ev.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.ev.md: Єв
 title: Вступ
 ---
 # Вступ
 
-Модуль надає інтерфейс до С-бібліотеки [» Libev](http://software.schmorp.de/pkg/libev.html) є високопродуктивним диспетчером подій.
+Модуль надає інтерфейс до С-бібліотеки [» Libev](http://software.schmorp.de/pkg/libev.md) є високопродуктивним диспетчером подій.
 
 > **Зауваження**: Для Windows-платформ цей модуль недоступний.
 

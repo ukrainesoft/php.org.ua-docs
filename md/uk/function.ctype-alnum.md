@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.ctype.md: « Функції Ctype
-  - function.ctype-alpha.html: ctypealpha »
+  - function.ctype-alpha.md: ctypealpha »
   - index.md: PHP Manual
   - ref.ctype.md: Опції Ctype
 title: ctypealnum

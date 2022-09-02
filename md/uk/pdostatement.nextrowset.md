@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdostatement.getiterator.html: '« PDOStatement::getIterator'
-  - pdostatement.rowcount.html: 'PDOStatement::rowCount »'
-  - index.html: PHP Manual
-  - class.pdostatement.html: PDOStatement
+  - pdostatement.getiterator.md: '« PDOStatement::getIterator'
+  - pdostatement.rowcount.md: 'PDOStatement::rowCount »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::nextRowset'
 ---
 # PDOStatement::nextRowset
@@ -32,7 +32,7 @@ public PDOStatement::nextRowset(): bool
 
 **Приклад #1 Вилучення даних з декількох наборів рядків, повернутих процедурою, що зберігається.**
 
-У наступному прикладі показано, як викликати процедуру, що зберігається. `MULTIPLE_ROWSETS`яка повертає три набори рядків. Ми викликаємо **PDOStatement::nextRowset()** у циклі [do-while](control-structures.do.while.html)поки він не поверне **`false`** і завершить цикл, коли не буде доступних результуючих наборів.
+У наступному прикладі показано, як викликати процедуру, що зберігається. `MULTIPLE_ROWSETS`яка повертає три набори рядків. Ми викликаємо **PDOStatement::nextRowset()** у циклі [do-while](control-structures.do.while.md)поки він не поверне **`false`** і завершить цикл, коли не буде доступних результуючих наборів.
 
 ```php
 <?php
@@ -79,7 +79,7 @@ banana   yellow
 
 ### Дивіться також
 
--   [PDOStatement::columnCount()](pdostatement.columncount.html) - Повертає кількість стовпців у результуючому наборі
--   [PDOStatement::execute()](pdostatement.execute.html) - Запускає підготовлений запит на виконання
--   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.html) - Повертає метадані стовпця у результуючій таблиці
--   [PDO::query()](pdo.query.html) - готує та виконує вираз SQL без заповнювачів
+-   [PDOStatement::columnCount()](pdostatement.columncount.md) - Повертає кількість стовпців у результуючому наборі
+-   [PDOStatement::execute()](pdostatement.execute.md) - Запускає підготовлений запит на виконання
+-   [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md) - Повертає метадані стовпця у результуючій таблиці
+-   [PDO::query()](pdo.query.md) - готує та виконує вираз SQL без заповнювачів

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.yaf-exception-loadfailed-controller.html: « YafExceptionLoadFailedController
-  - class.yaf-exception-loadfailed-view.html: YafExceptionLoadFailedView »
+  - class.yaf-exception-loadfailed-controller.md: « YafExceptionLoadFailedController
+  - class.yaf-exception-loadfailed-view.md: YafExceptionLoadFailedView »
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafExceptionLoadFailedAction

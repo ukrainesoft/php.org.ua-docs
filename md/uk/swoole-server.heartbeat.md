@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.getlasterror.html: '« SwooleServer::getLastError'
-  - swoole-server.listen.html: 'SwooleServer::listen »'
+  - swoole-server.getlasterror.md: '« SwooleServer::getLastError'
+  - swoole-server.listen.md: 'SwooleServer::listen »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::heartbeat'
 ---
 # SwooleServer::heartbeat

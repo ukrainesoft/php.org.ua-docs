@@ -1,6 +1,6 @@
 ---
 navigation:
-  - vtiful-kernel-format.underline.html: '« VtifulKernelFormat::underline'
+  - vtiful-kernel-format.underline.md: '« VtifulKernelFormat::underline'
   - book.eio.md: Eio »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

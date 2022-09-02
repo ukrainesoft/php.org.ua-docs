@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-trans.html: « ibasetrans
-  - book.ibm-db2.html: IBM DB2 »
+  - function.ibase-trans.md: « ibasetrans
+  - book.ibm-db2.md: IBM DB2 »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasewaitevent

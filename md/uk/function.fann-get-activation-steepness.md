@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-activation-function.html: « fanngetactivationfunction
-  - function.fann-get-bias-array.html: fanngetbiasarray »
+  - function.fann-get-activation-function.md: « fanngetactivationfunction
+  - function.fann-get-bias-array.md: fanngetbiasarray »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetactivationsteepness

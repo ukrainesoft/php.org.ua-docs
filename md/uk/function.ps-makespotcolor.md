@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-lineto.html: «pslineto
-  - function.ps-moveto.html: псmoveto »
+  - function.ps-lineto.md: «pslineto
+  - function.ps-moveto.md: псmoveto »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псmakespotcolor

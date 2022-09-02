@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-multi-close.html: « curlmulticlose
-  - function.curl-multi-exec.html: curlmultiexec »
+  - function.curl-multi-close.md: « curlmulticlose
+  - function.curl-multi-exec.md: curlmultiexec »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlmultierrno

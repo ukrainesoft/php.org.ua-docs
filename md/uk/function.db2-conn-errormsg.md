@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-conn-error.html: « db2connerror
-  - function.db2-connect.html: db2connect »
+  - function.db2-conn-error.md: « db2connerror
+  - function.db2-connect.md: db2connect »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2connerrormsg
 ---
 # db2connerrormsg

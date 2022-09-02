@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.radius-add-server.html: « radiusaddserver
-  - function.radius-close.html: radiusclose »
-  - index.html: PHP Manual
-  - ref.radius.html: Функции Radius
+  - function.radius-add-server.md: « radiusaddserver
+  - function.radius-close.md: radiusclose »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
 title: radiusauthopen
 ---
 # radiusauthopen

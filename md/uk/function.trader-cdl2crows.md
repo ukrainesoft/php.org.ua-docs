@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cci.html: « tradercci
-  - function.trader-cdl3blackcrows.html: tradercdl3blackcrows »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cci.md: « tradercci
+  - function.trader-cdl3blackcrows.md: tradercdl3blackcrows »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdl2crows
 ---
 # tradercdl2crows

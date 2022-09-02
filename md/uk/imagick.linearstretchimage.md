@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.levelimage.html: '« Imagick::levelImage'
-  - imagick.liquidrescaleimage.html: 'Imagick::liquidRescaleImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.levelimage.md: '« Imagick::levelImage'
+  - imagick.liquidrescaleimage.md: 'Imagick::liquidRescaleImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::linearStretchImage'
 ---
 # Imagick::linearStretchImage

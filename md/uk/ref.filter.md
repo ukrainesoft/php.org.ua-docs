@@ -1,7 +1,7 @@
 ---
 navigation:
   - filter.examples.sanitization.md: « Очищення (нормалізація)
-  - function.filter-has-var.html: filterhasvar »
+  - function.filter-has-var.md: filterhasvar »
   - index.md: PHP Manual
   - book.filter.md: Filter
 title: Функції фільтрації даних

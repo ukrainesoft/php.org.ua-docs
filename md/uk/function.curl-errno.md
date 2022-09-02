@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-copy-handle.html: « curlcopyhandle
-  - function.curl-error.html: curlerror »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-copy-handle.md: « curlcopyhandle
+  - function.curl-error.md: curlerror »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlerrno
 ---
 # curlerrno

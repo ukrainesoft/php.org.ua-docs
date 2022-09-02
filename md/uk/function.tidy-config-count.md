@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.tidy-access-count.html: « tidyaccesscount
-  - function.tidy-error-count.html: tidyerrorcount »
-  - index.html: PHP Manual
-  - ref.tidy.html: Tidy
+  - function.tidy-access-count.md: « tidyaccesscount
+  - function.tidy-error-count.md: tidyerrorcount »
+  - index.md: PHP Manual
+  - ref.tidy.md: Tidy
 title: tidyconfigcount
 ---
 # tidyconfigcount
@@ -24,7 +24,7 @@ tidy_config_count(tidy $tidy): int
 
 `tidy`
 
-Об'єкт [Tidy](class.tidy.html)
+Об'єкт [Tidy](class.tidy.md)
 
 ### Значення, що повертаються
 

@@ -28,7 +28,7 @@ public Imagick::clutImage(Imagick $lookup_table, int $channel = Imagick::CHANNEL
 
 `channel`
 
-Константа [Channeltype](imagick.constants.html#imagick.constants.channel). Якщо не вказано, то за замовчуванням заміна відбувається у всіх каналах.
+Константа [Channeltype](imagick.constants.md#imagick.constants.channel). Якщо не вказано, то за замовчуванням заміна відбувається у всіх каналах.
 
 ### Значення, що повертаються
 

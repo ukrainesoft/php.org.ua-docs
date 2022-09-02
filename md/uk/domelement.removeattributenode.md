@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domelement.removeattribute.html: '« DOMElement::removeAttribute'
-  - domelement.removeattributens.html: 'DOMElement::removeAttributeNS »'
-  - index.html: PHP Manual
-  - class.domelement.html: DOMElement
+  - domelement.removeattribute.md: '« DOMElement::removeAttribute'
+  - domelement.removeattributens.md: 'DOMElement::removeAttributeNS »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
 title: 'DOMElement::removeAttributeNode'
 ---
 # DOMElement::removeAttributeNode
@@ -42,6 +42,6 @@ public DOMElement::removeAttributeNode(DOMAttr $attr): DOMAttr|false
 
 ### Дивіться також
 
--   [DOMElement::hasAttribute()](domelement.hasattribute.html) - Перевіряє, чи існує атрибут
--   [DOMElement::getAttributeNode()](domelement.getattributenode.html) - Повертає вузол атрибуту
--   [DOMElement::setAttributeNode()](domelement.setattributenode.html) - Додає новий вузол атрибуту елемент
+-   [DOMElement::hasAttribute()](domelement.hasattribute.md) - Перевіряє, чи існує атрибут
+-   [DOMElement::getAttributeNode()](domelement.getattributenode.md) - Повертає вузол атрибуту
+-   [DOMElement::setAttributeNode()](domelement.setattributenode.md) - Додає новий вузол атрибуту елемент

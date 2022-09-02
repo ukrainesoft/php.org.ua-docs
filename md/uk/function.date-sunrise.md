@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-sun-info.html: « datesuninfo
-  - function.date-sunset.html: datesunset »
+  - function.date-sun-info.md: « datesuninfo
+  - function.date-sunset.md: datesunset »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datesunrise
@@ -42,15 +42,15 @@ date_sunrise(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STR
 
 `latitude`
 
-За замовчуванням у Північній півкулі для Південної передається негативна величина. Дивіться також [date.defaultlatitude](datetime.configuration.html#ini.date.default-latitude)
+За замовчуванням у Північній півкулі для Південної передається негативна величина. Дивіться також [date.defaultlatitude](datetime.configuration.md#ini.date.default-latitude)
 
 `longitude`
 
-За замовчуванням східна для вказівки західної довготи передається негативна величина. Дивіться також [date.defaultlongitude](datetime.configuration.html#ini.date.default-longitude)
+За замовчуванням східна для вказівки західної довготи передається негативна величина. Дивіться також [date.defaultlongitude](datetime.configuration.md#ini.date.default-longitude)
 
 `zenith`
 
-`zenith` - це кут між центром Сонця та лінією, перпендикулярної поверхні Землі. За замовчуванням [date.sunrisezenith](datetime.configuration.html#ini.date.sunrise-zenith)
+`zenith` - це кут між центром Сонця та лінією, перпендикулярної поверхні Землі. За замовчуванням [date.sunrisezenith](datetime.configuration.md#ini.date.sunrise-zenith)
 
 **Поширені кути `zenith` angles**
 

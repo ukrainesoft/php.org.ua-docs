@@ -1,7 +1,7 @@
 ---
 navigation:
-  - commonmark-node-codeblock.construct.html: '« CommonMarkNodeCodeBlock::construct'
-  - class.commonmark-node-htmlinline.html: CommonMarkNodeHTMLInline »
+  - commonmark-node-codeblock.construct.md: '« CommonMarkNodeCodeBlock::construct'
+  - class.commonmark-node-htmlinline.md: CommonMarkNodeHTMLInline »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: HTMLBlock успадковує CommonMarkNode

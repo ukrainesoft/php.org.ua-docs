@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-activation-function-layer.html: « fannsetactivationfunctionlayer
-  - function.fann-set-activation-function.html: fannsetactivationfunction »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-activation-function-layer.md: « fannsetactivationfunctionlayer
+  - function.fann-set-activation-function.md: fannsetactivationfunction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetactivationfunctionoutput
 ---
 # fannsetactivationfunctionoutput
@@ -28,7 +28,7 @@ fann_set_activation_function_output(resource $ann, int $activation_function): bo
 
 `activation_function`
 
-Константа [функцій активації](fann.constants.html#constants.fann-activation-funcs)
+Константа [функцій активації](fann.constants.md#constants.fann-activation-funcs)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ fann_set_activation_function_output(resource $ann, int $activation_function): bo
 
 ### Дивіться також
 
--   [fannsetactivationfunction()](function.fann-set-activation-function.html) - Встановлює функцію активації для зазначеного нейрона та шару
--   [fannsetactivationfunctionlayer()](function.fann-set-activation-function-layer.html) - Встановлює функцію активації для всіх нейронів у наданому шарі
--   [fannsetactivationfunctionhidden()](function.fann-set-activation-function-hidden.html) - Встановлює функцію активації для всіх прихованих шарів
--   [fannsetactivationsteepness()](function.fann-set-activation-steepness.html) - Встановлює крутість активації для вказаного нейрона та номера шару
+-   [fannsetactivationfunction()](function.fann-set-activation-function.md) - Встановлює функцію активації для зазначеного нейрона та шару
+-   [fannsetactivationfunctionlayer()](function.fann-set-activation-function-layer.md) - Встановлює функцію активації для всіх нейронів у наданому шарі
+-   [fannsetactivationfunctionhidden()](function.fann-set-activation-function-hidden.md) - Встановлює функцію активації для всіх прихованих шарів
+-   [fannsetactivationsteepness()](function.fann-set-activation-steepness.md) - Встановлює крутість активації для вказаного нейрона та номера шару

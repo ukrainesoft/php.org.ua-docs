@@ -1,9 +1,9 @@
 ---
 navigation:
-  - enchant.configuration.html: « Налаштування під час виконання
-  - enchant.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - enchant.setup.html: Встановлення та налаштування
+  - enchant.configuration.md: « Налаштування під час виконання
+  - enchant.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - enchant.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

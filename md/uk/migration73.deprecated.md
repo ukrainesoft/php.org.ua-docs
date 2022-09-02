@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration73.incompatible.md: '« Зміни, що ламають зворотну сумісність'
-  - migration73.other-changes.html: Прочие изменения »
+  - migration73.other-changes.md: Прочие изменения »
   - index.md: PHP Manual
   - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x
 title: 'Функціонал, оголошений застарілим у PHP 7.3.x'
@@ -68,4 +68,4 @@ title: 'Функціонал, оголошений застарілим у PHP 7
 
 ### Функції ODBC та DB2 (PDOODBC)
 
-Налаштування ini-файлу [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) офіційно оголошено застарілим. Опція застаріла у документації, починаючи з PHP 5.1.1.
+Налаштування ini-файлу [pdoodbc.db2instancename](ref.pdo-odbc.md#ini.pdo-odbc.db2-instance-name) офіційно оголошено застарілим. Опція застаріла у документації, починаючи з PHP 5.1.1.

@@ -1,7 +1,7 @@
 ---
 navigation:
   - stream.examples.md: « Приклади
-  - class.php-user-filter.html: phpuserfilter »
+  - class.php-user-filter.md: phpuserfilter »
   - index.md: PHP Manual
   - stream.examples.md: Приклади
 title: 'Приклад класу, зареєстрованого як обгортка потоку'

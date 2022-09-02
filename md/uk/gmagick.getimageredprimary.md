@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimageprofile.html: '« Gmagick::getimageprofile'
-  - gmagick.getimagerenderingintent.html: 'Gmagick::getimagerenderingintent »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimageprofile.md: '« Gmagick::getimageprofile'
+  - gmagick.getimagerenderingintent.md: 'Gmagick::getimagerenderingintent »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimageredprimary'
 ---
 # Gmagick::getimageredprimary

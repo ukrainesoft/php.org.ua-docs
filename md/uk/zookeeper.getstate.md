@@ -40,5 +40,5 @@ public
 -   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
 -   [Zookeeper::connect()](zookeeper.connect.md) - Створює дескриптор для спілкування з zookeeper
 -   [Zookeeper::getClientId()](zookeeper.getclientid.md) - Повертає ідентифікатор сесії клієнта, дійсний тільки в тому випадку, якщо підключення в даний час підключено (тобто останній стан спостерігача - ZOOCONNECTEDSTATE)
--   [Стан ZooKeeper](class.zookeeper.html#zookeeper.class.constants.states)
+-   [Стан ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
 -   [ZookeeperException](class.zookeeperexception.md)

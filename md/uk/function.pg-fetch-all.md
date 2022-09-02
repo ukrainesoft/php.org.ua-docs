@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-fetch-all-columns.html: « pgfetchallcolumns
-  - function.pg-fetch-array.html: пгfetcharray »
+  - function.pg-fetch-all-columns.md: « pgfetchallcolumns
+  - function.pg-fetch-array.md: пгfetcharray »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгfetchall
@@ -26,7 +26,7 @@ pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `mode`
 

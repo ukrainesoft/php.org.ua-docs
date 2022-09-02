@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixeliterator.construct.html: '« ImagickPixelIterator::construct'
-  - imagickpixeliterator.getcurrentiteratorrow.html: 'ImagickPixelIterator::getCurrentIteratorRow »'
-  - index.html: PHP Manual
-  - class.imagickpixeliterator.html: ImagickPixelIterator
+  - imagickpixeliterator.construct.md: '« ImagickPixelIterator::construct'
+  - imagickpixeliterator.getcurrentiteratorrow.md: 'ImagickPixelIterator::getCurrentIteratorRow »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
 title: 'ImagickPixelIterator::destroy'
 ---
 # ImagickPixelIterator::destroy

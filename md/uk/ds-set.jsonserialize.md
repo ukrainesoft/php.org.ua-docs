@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.join.html: '« DsSet::join'
-  - ds-set.last.html: 'ДсSet::last »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.join.md: '« DsSet::join'
+  - ds-set.last.md: 'ДсSet::last »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::jsonSerialize'
 ---
 # ДсSet::jsonSerialize
@@ -12,7 +12,7 @@ title: 'ДсSet::jsonSerialize'
 
 ДсSet::jsonSerialize — Повертає колекцію в JSON-представництві
 
-Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.html)
+Дивіться [JsonSerializable::jsonSerialize()](jsonserializable.jsonserialize.md)
 
 > **Зауваження**
 > 

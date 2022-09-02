@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnishadmin.sethost.html: '« VarnishAdmin::setHost'
-  - varnishadmin.setparam.html: 'VarnishAdmin::setParam »'
-  - index.html: PHP Manual
-  - class.varnishadmin.html: VarnishAdmin
+  - varnishadmin.sethost.md: '« VarnishAdmin::setHost'
+  - varnishadmin.setparam.md: 'VarnishAdmin::setParam »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
 title: 'VarnishAdmin::setIdent'
 ---
 # VarnishAdmin::setIdent

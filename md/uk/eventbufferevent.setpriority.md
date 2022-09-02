@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbufferevent.setcallbacks.html: '« EventBufferEvent::setCallbacks'
-  - eventbufferevent.settimeouts.html: 'EventBufferEvent::setTimeouts »'
-  - index.html: PHP Manual
-  - class.eventbufferevent.html: EventBufferEvent
+  - eventbufferevent.setcallbacks.md: '« EventBufferEvent::setCallbacks'
+  - eventbufferevent.settimeouts.md: 'EventBufferEvent::setTimeouts »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::setPriority'
 ---
 # EventBufferEvent::setPriority

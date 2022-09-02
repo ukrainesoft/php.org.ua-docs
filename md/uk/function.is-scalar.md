@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-resource.html: « isresource
-  - function.is-string.html: ісstring »
+  - function.is-resource.md: « isresource
+  - function.is-string.md: ісstring »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: ісscalar

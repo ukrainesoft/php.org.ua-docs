@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.shm-get-var.html: « shmgetvar
-  - function.shm-put-var.html: shmputvar »
+  - function.shm-get-var.md: « shmgetvar
+  - function.shm-put-var.md: shmputvar »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: shmhasvar

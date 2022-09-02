@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.sendwait.html: '« SwooleServer::sendwait'
-  - swoole-server.shutdown.html: 'SwooleServer::shutdown »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - swoole-server.sendwait.md: '« SwooleServer::sendwait'
+  - swoole-server.shutdown.md: 'SwooleServer::shutdown »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::set'
 ---
 # SwooleServer::set

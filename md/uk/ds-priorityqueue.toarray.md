@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-priorityqueue.push.html: '« DsPriorityQueue::push'
+  - ds-priorityqueue.push.md: '« DsPriorityQueue::push'
   - book.var_representation.md: varrepresentation »
   - index.md: PHP Manual
-  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - class.ds-priorityqueue.md: Черга з пріоритетом
 title: 'ДсPriorityQueue::toArray'
 ---
 # ДсPriorityQueue::toArray

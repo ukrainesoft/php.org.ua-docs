@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-http-client.destruct.html: '« SwooleCoroutineHttpClient::destruct'
-  - swoole-coroutine-http-client.get.html: 'SwooleCoroutineHttpClient::get »'
+  - swoole-coroutine-http-client.destruct.md: '« SwooleCoroutineHttpClient::destruct'
+  - swoole-coroutine-http-client.get.md: 'SwooleCoroutineHttpClient::get »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineHttpClient::execute'
 ---
 # SwooleCoroutineHttpClient::execute

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.wkhtmltox-pdf-object.html: « wkhtmltoxPDFObject
-  - class.wkhtmltox-image-converter.html: wkhtmltoxImageConverter »
+  - class.wkhtmltox-pdf-object.md: « wkhtmltoxPDFObject
+  - class.wkhtmltox-image-converter.md: wkhtmltoxImageConverter »
   - index.md: PHP Manual
-  - class.wkhtmltox-pdf-object.html: wkhtmltoxPDFObject
+  - class.wkhtmltox-pdf-object.md: wkhtmltoxPDFObject
 title: 'wkhtmltoxPDFObject::construct'
 ---
 # wkhtmltoxPDFObject::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-regexinterface.getpattern.html: '« MongoDBBSONRegexInterface::getPattern'
-  - class.mongodb-bson-timestampinterface.html: MongoDBBSONTimestampInterface »
+  - mongodb-bson-regexinterface.getpattern.md: '« MongoDBBSONRegexInterface::getPattern'
+  - class.mongodb-bson-timestampinterface.md: MongoDBBSONTimestampInterface »
   - index.md: PHP Manual
-  - class.mongodb-bson-regexinterface.html: MongoDBBSONRegexInterface
+  - class.mongodb-bson-regexinterface.md: MongoDBBSONRegexInterface
 title: 'MongoDBBSONRegexInterface::toString'
 ---
 # MongoDBBSONRegexInterface::toString

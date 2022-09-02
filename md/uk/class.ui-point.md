@@ -1,7 +1,7 @@
 ---
 navigation:
   - ui.installation.md: « Установка
-  - ui-point.at.html: 'ОЙPoint::at »'
+  - ui-point.at.md: 'ОЙPoint::at »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: 'Представляє позицію (x, y)'

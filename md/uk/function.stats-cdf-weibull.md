@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-uniform.html: « statscdfuniform
-  - function.stats-covariance.html: statscovariance »
+  - function.stats-cdf-uniform.md: « statscdfuniform
+  - function.stats-covariance.md: statscovariance »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdfweibull

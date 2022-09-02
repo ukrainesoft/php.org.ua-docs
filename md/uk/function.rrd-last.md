@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rrd-info.html: « rrdinfo
-  - function.rrd-lastupdate.html: rrdlastupdate »
-  - index.html: PHP Manual
-  - ref.rrd.html: Функції RRD
+  - function.rrd-info.md: « rrdinfo
+  - function.rrd-lastupdate.md: rrdlastupdate »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
 title: rrdlast
 ---
 # rrdlast

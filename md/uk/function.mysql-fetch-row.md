@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-fetch-object.html: « mysqlfetchobject
-  - function.mysql-field-flags.html: mysqlfieldflags »
+  - function.mysql-fetch-object.md: « mysqlfetchobject
+  - function.mysql-field-flags.md: mysqlfieldflags »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlfetchrow

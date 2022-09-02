@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-parser.html: « CommonMarkParser
-  - commonmark-parser.parse.html: 'CommonMarkParser::parse »'
+  - class.commonmark-parser.md: « CommonMarkParser
+  - commonmark-parser.parse.md: 'CommonMarkParser::parse »'
   - index.md: PHP Manual
-  - class.commonmark-parser.html: CommonMarkParser
+  - class.commonmark-parser.md: CommonMarkParser
 title: 'CommonMarkParser::construct'
 ---
 # CommonMarkParser::construct

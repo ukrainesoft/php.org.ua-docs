@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.paintopaqueimage.html: '« Imagick::paintOpaqueImage'
-  - imagick.pingimage.html: 'Imagick::pingImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.paintopaqueimage.md: '« Imagick::paintOpaqueImage'
+  - imagick.pingimage.md: 'Imagick::pingImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::paintTransparentImage'
 ---
 # Imagick::paintTransparentImage

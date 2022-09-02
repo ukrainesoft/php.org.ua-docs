@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.nextresult.html: '« SqlStatementResult::nextResult'
-  - mysql-xdevapi-statement.construct.html: 'Statement::construct »'
+  - mysql-xdevapi-sqlstatementresult.nextresult.md: '« SqlStatementResult::nextResult'
+  - mysql-xdevapi-statement.construct.md: 'Statement::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас Statement
 ---
 # Клас Statement

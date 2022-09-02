@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-object-vars.html: « getobjectvars
-  - function.interface-exists.html: interfaceexists »
+  - function.get-object-vars.md: « getobjectvars
+  - function.interface-exists.md: interfaceexists »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: getparentclass

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domchildnode.before.html: '« DOMChildNode::before'
-  - domchildnode.replacewith.html: 'DOMChildNode::replaceWith »'
-  - index.html: PHP Manual
-  - class.domchildnode.html: DOMChildNode
+  - domchildnode.before.md: '« DOMChildNode::before'
+  - domchildnode.replacewith.md: 'DOMChildNode::replaceWith »'
+  - index.md: PHP Manual
+  - class.domchildnode.md: DOMChildNode
 title: 'DOMChildNode::remove'
 ---
 # DOMChildNode::remove

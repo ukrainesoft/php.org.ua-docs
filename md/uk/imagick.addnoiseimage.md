@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.addimage.html: '« Imagick::addImage'
-  - imagick.affinetransformimage.html: 'Imagick::affineTransformImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.addimage.md: '« Imagick::addImage'
+  - imagick.affinetransformimage.md: 'Imagick::affineTransformImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::addNoiseImage'
 ---
 # Imagick::addNoiseImage
@@ -24,11 +24,11 @@ public Imagick::addNoiseImage(int $noise_type, int $channel = Imagick::CHANNEL_D
 
 `noise_type`
 
-Тип шуму. Зверніться до списку [констант шума](imagick.constants.html#imagick.constants.noise)
+Тип шуму. Зверніться до списку [констант шума](imagick.constants.md#imagick.constants.noise)
 
 `channel`
 
-Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.html#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.html#imagick.constants.channel)
+Передайте будь-яку коректну для вашого режиму каналу константу. Для застосування до більш ніж одного каналу комбінуйте [константи каналів](imagick.constants.md#imagick.constants.channel) за допомогою побітових операторів. За замовчуванням одно **`Imagick::CHANNEL_DEFAULT`**. Зверніться до списку [констант каналів](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

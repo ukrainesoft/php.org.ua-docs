@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.rotationalblurimage.html: '« Imagick::rotationalBlurImage'
-  - imagick.sampleimage.html: 'Imagick::sampleImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.rotationalblurimage.md: '« Imagick::rotationalBlurImage'
+  - imagick.sampleimage.md: 'Imagick::sampleImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::roundCorners'
 ---
 # Imagick::roundCorners

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.arrayiterator.html: « ArrayIterator
-  - arrayiterator.asort.html: 'ArrayIterator::asort »'
-  - index.html: PHP Manual
-  - class.arrayiterator.html: ArrayIterator
+  - class.arrayiterator.md: « ArrayIterator
+  - arrayiterator.asort.md: 'ArrayIterator::asort »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::append'
 ---
 # ArrayIterator::append
@@ -38,8 +38,8 @@ public ArrayIterator::append(mixed $value): void
 
 > **Зауваження**
 > 
-> Цей метод не може бути викликаний, якщо [ArrayIterator](class.arrayiterator.html) вказує на об'єкт.
+> Цей метод не може бути викликаний, якщо [ArrayIterator](class.arrayiterator.md) вказує на об'єкт.
 
 ### Дивіться також
 
--   [ArrayIterator::next()](arrayiterator.next.html) - Переміщує покажчик за наступний запис
+-   [ArrayIterator::next()](arrayiterator.next.md) - Переміщує покажчик за наступний запис

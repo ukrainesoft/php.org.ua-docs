@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.gettagsets.html: '« MongoDBDriverReadPreference::getTagSets'
-  - mongodb-driver-readpreference.unserialize.html: 'MongoDBDriverReadPreference::unserialize »'
+  - mongodb-driver-readpreference.gettagsets.md: '« MongoDBDriverReadPreference::getTagSets'
+  - mongodb-driver-readpreference.unserialize.md: 'MongoDBDriverReadPreference::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::serialize'
 ---
 # MongoDBDriverReadPreference::serialize

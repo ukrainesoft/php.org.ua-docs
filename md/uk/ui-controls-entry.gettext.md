@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-entry.construct.html: '« UIControlsEntry::construct'
-  - ui-controls-entry.isreadonly.html: 'ОЙControlsEntry::isReadOnly »'
+  - ui-controls-entry.construct.md: '« UIControlsEntry::construct'
+  - ui-controls-entry.isreadonly.md: 'ОЙControlsEntry::isReadOnly »'
   - index.md: PHP Manual
-  - class.ui-controls-entry.html: ОЙControlsEntry
+  - class.ui-controls-entry.md: ОЙControlsEntry
 title: 'ОЙControlsEntry::getText'
 ---
 # ОЙControlsEntry::getText

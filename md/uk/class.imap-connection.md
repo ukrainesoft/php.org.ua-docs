@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.imap-utf8.html: « imaputf8
+  - function.imap-utf8.md: « imaputf8
   - book.mail.md: Mail »
   - index.md: PHP Manual
   - book.imap.md: IMAP

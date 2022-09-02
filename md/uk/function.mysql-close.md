@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-client-encoding.html: « mysqlclientencoding
-  - function.mysql-connect.html: mysqlconnect »
+  - function.mysql-client-encoding.md: « mysqlclientencoding
+  - function.mysql-connect.md: mysqlconnect »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlclose
@@ -27,7 +27,7 @@ mysql_close(resource $link_identifier = NULL): bool
 
 **mysqlclose()** закриває непостійне з'єднання з базою даних MySQL, яке вказує переданий дескриптор. Якщо параметр `link_identifier` не вказано, закривається останнє відкрите (поточне) з'єднання.
 
-Відкриті непостійні з'єднання MySQL та результуючі набори автоматично видаляються відразу після закінчення роботи PHP-скрипту. Отже, закривати з'єднання і очищати результуючі набори не обов'язково, але рекомендується, оскільки це відразу звільнить ресурси бази даних і пам'ять, що займається результатами вибірки, що може позитивно позначитися на продуктивності. Більше інформації можна отримати в розділі [Освобождение ресурсов](language.types.resource.html#language.types.resource.self-destruct)
+Відкриті непостійні з'єднання MySQL та результуючі набори автоматично видаляються відразу після закінчення роботи PHP-скрипту. Отже, закривати з'єднання і очищати результуючі набори не обов'язково, але рекомендується, оскільки це відразу звільнить ресурси бази даних і пам'ять, що займається результатами вибірки, що може позитивно позначитися на продуктивності. Більше інформації можна отримати в розділі [Освобождение ресурсов](language.types.resource.md#language.types.resource.self-destruct)
 
 ### Список параметрів
 
@@ -64,7 +64,7 @@ mysql_close($link);
 
 > **Зауваження**
 > 
-> **mysqlclose()** не закриває постійні з'єднання, створені функцією [mysqlpconnect()](function.mysql-pconnect.html). Для додаткової інформації дивіться посібник з [постійним з'єднанням](features.persistent-connections.md)
+> **mysqlclose()** не закриває постійні з'єднання, створені функцією [mysqlpconnect()](function.mysql-pconnect.md). Для додаткової інформації дивіться посібник з [постійним з'єднанням](features.persistent-connections.md)
 
 ### Дивіться також
 

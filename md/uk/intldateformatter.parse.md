@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.localtime.html: '« IntlDateFormatter::localtime'
-  - intldateformatter.setcalendar.html: 'IntlDateFormatter::setCalendar »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.localtime.md: '« IntlDateFormatter::localtime'
+  - intldateformatter.setcalendar.md: 'IntlDateFormatter::setCalendar »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::parse'
 ---
 # IntlDateFormatter::parse
@@ -104,8 +104,8 @@ echo 'Второй преобразованный вывод: ' . datefmt_
 
 ### Дивіться також
 
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
--   [datefmtformat()](intldateformatter.format.html) - Форматує значення дати/часу у вигляді рядка
--   [datefmtlocaltime()](intldateformatter.localtime.html) - Перетворює рядок на значення часу на основі поля
--   [datefmtgeterrorcode()](intldateformatter.geterrorcode.html) - Отримує код помилки останньої операції
--   [datefmtgeterrormessage()](intldateformatter.geterrormessage.html) - Отримує текст помилки останньої операції
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати
+-   [datefmtformat()](intldateformatter.format.md) - Форматує значення дати/часу у вигляді рядка
+-   [datefmtlocaltime()](intldateformatter.localtime.md) - Перетворює рядок на значення часу на основі поля
+-   [datefmtgeterrorcode()](intldateformatter.geterrorcode.md) - Отримує код помилки останньої операції
+-   [datefmtgeterrormessage()](intldateformatter.geterrormessage.md) - Отримує текст помилки останньої операції

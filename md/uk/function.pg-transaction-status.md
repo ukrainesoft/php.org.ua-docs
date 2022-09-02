@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-trace.html: « pgtrace
-  - function.pg-tty.html: пгtty »
+  - function.pg-trace.md: « pgtrace
+  - function.pg-tty.md: пгtty »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгtransactionstatus

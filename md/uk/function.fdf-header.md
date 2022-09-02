@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-get-version.html: « fdfgetversion
-  - function.fdf-next-field-name.html: fdfnextfieldname »
+  - function.fdf-get-version.md: « fdfgetversion
+  - function.fdf-next-field-name.md: fdfnextfieldname »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfheader

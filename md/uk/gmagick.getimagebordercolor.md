@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimageblueprimary.html: '« Gmagick::getimageblueprimary'
-  - gmagick.getimagechanneldepth.html: 'Gmagick::getimagechanneldepth »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimageblueprimary.md: '« Gmagick::getimageblueprimary'
+  - gmagick.getimagechanneldepth.md: 'Gmagick::getimagechanneldepth »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimagebordercolor'
 ---
 # Gmagick::getimagebordercolor
@@ -26,7 +26,7 @@ public Gmagick::getimagebordercolor(): GmagickPixel
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickPixel](class.gmagickpixel.html), що представляє колір кордону
+Об'єкт [GmagickPixel](class.gmagickpixel.md), що представляє колір кордону
 
 ### Помилки
 

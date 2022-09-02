@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.preg-quote.html: « pregquote
-  - function.preg-replace-callback.html: pregreplacecallback »
+  - function.preg-quote.md: « pregquote
+  - function.preg-replace-callback.md: pregreplacecallback »
   - index.md: PHP Manual
   - ref.pcre.md: Функции PCRE
 title: pregreplacecallbackarray

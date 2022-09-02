@@ -1,9 +1,9 @@
 ---
 navigation:
-  - fdf.resources.html: « Типи ресурсів
-  - fdf.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.fdf.html: FDF
+  - fdf.resources.md: « Типи ресурсів
+  - fdf.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.fdf.md: FDF
 title: Обумовлені константи
 ---
 # Обумовлені константи

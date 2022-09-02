@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttprequest.sendreplystart.html: '« EventHttpRequest::sendReplyStart'
-  - eventlistener.construct.html: 'EventListener::construct »'
-  - index.html: PHP Manual
-  - book.event.html: Event
+  - eventhttprequest.sendreplystart.md: '« EventHttpRequest::sendReplyStart'
+  - eventlistener.construct.md: 'EventListener::construct »'
+  - index.md: PHP Manual
+  - book.event.md: Event
 title: Клас EventListener
 ---
 # Клас EventListener
@@ -141,10 +141,10 @@ public
 
 ## Зміст
 
--   [EventListener::construct](eventlistener.construct.html) — Створити новий слухач з'єднання, пов'язаний із базою подій
--   [EventListener::disable](eventlistener.disable.html) — Вимикає подію підключення до об'єкта слухача
--   [EventListener::enable](eventlistener.enable.html) — Включає подію підключення до об'єкта слухача
--   [EventListener::getBase](eventlistener.getbase.html) — Повертає базу подій, пов'язану із слухачем подій
--   [EventListener::getSocketName](eventlistener.getsocketname.html) — Отримує поточну адресу, до якої прив'язаний сокет слухача
--   [EventListener::setCallback](eventlistener.setcallback.html) - Мета setCallback
--   [EventListener::setErrorCallback](eventlistener.seterrorcallback.html) - Встановлює callback-функцію помилки слухача подій
+-   [EventListener::construct](eventlistener.construct.md) — Створити новий слухач з'єднання, пов'язаний із базою подій
+-   [EventListener::disable](eventlistener.disable.md) — Вимикає подію підключення до об'єкта слухача
+-   [EventListener::enable](eventlistener.enable.md) — Включає подію підключення до об'єкта слухача
+-   [EventListener::getBase](eventlistener.getbase.md) — Повертає базу подій, пов'язану із слухачем подій
+-   [EventListener::getSocketName](eventlistener.getsocketname.md) — Отримує поточну адресу, до якої прив'язаний сокет слухача
+-   [EventListener::setCallback](eventlistener.setcallback.md) - Мета setCallback
+-   [EventListener::setErrorCallback](eventlistener.seterrorcallback.md) - Встановлює callback-функцію помилки слухача подій

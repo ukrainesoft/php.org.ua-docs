@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionparameter.allowsnull.html: '« ReflectionParameter::allowsNull'
-  - reflectionparameter.clone.html: 'ReflectionParameter::clone »'
-  - index.html: PHP Manual
-  - class.reflectionparameter.html: ReflectionParameter
+  - reflectionparameter.allowsnull.md: '« ReflectionParameter::allowsNull'
+  - reflectionparameter.clone.md: 'ReflectionParameter::clone »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::canBePassedByValue'
 ---
 # ReflectionParameter::canBePassedByValue

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.getport.html: '« MongoDBDriverServer::getPort'
-  - mongodb-driver-server.gettags.html: 'MongoDBDriverServer::getTags »'
+  - mongodb-driver-server.getport.md: '« MongoDBDriverServer::getPort'
+  - mongodb-driver-server.gettags.md: 'MongoDBDriverServer::getTags »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::getServerDescription'
 ---
 # MongoDBDriverServer::getServerDescription

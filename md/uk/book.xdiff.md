@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.xattr-supported.html: « xattrsupported
+  - function.xattr-supported.md: « xattrsupported
   - intro.xdiff.md: Введение »
   - index.md: PHP Manual
   - refs.fileprocess.file.md: Модулі для роботи з файловою системою

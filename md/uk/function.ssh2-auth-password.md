@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-auth-none.html: « ssh2authnone
-  - function.ssh2-auth-pubkey-file.html: ssh2authpubkeyfile »
+  - function.ssh2-auth-none.md: « ssh2authnone
+  - function.ssh2-auth-pubkey-file.md: ssh2authpubkeyfile »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2authpassword

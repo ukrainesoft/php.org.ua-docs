@@ -14,16 +14,16 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [mbstring.language](mbstring.configuration.html#ini.mbstring.language) | "neutral" | PHPINIALL |  |
-| [mbstring.detectorder](mbstring.configuration.html#ini.mbstring.detect-order) | NULL | PHPINIALL |  |
-| [mbstring.httpinput](mbstring.configuration.html#ini.mbstring.http-input) | "pass" | PHPINIALL | Застаріла |
-| [mbstring.httpoutput](mbstring.configuration.html#ini.mbstring.http-output) | "pass" | PHPINIALL | Застаріла |
-| [mbstring.internalencoding](mbstring.configuration.html#ini.mbstring.internal-encoding) | NULL | PHPINIALL | Застаріла |
-| [mbstring.substitutecharacter](mbstring.configuration.html#ini.mbstring.substitute-character) | NULL | PHPINIALL |  |
-| [mbstring.funcoverload](mbstring.configuration.html#ini.mbstring.func-overload) | "0" | PHPINISYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
-| [mbstring.encodingtranslation](mbstring.configuration.html#ini.mbstring.encoding-translation) | "0" | PHPINIPERDIR |  |
-| [mbstring.httpoutputconvmimetypes](mbstring.configuration.html#ini.mbstring.http-output-conv-mimetypes) | "^(text/ | application/xhtml+xml)" | PHPINIALL |
-| [mbstring.strictdetection](mbstring.configuration.html#ini.mbstring.strict-detection) | "0" | PHPINIALL |  |
+| [mbstring.language](mbstring.configuration.md#ini.mbstring.language) | "neutral" | PHPINIALL |  |
+| [mbstring.detectorder](mbstring.configuration.md#ini.mbstring.detect-order) | NULL | PHPINIALL |  |
+| [mbstring.httpinput](mbstring.configuration.md#ini.mbstring.http-input) | "pass" | PHPINIALL | Застаріла |
+| [mbstring.httpoutput](mbstring.configuration.md#ini.mbstring.http-output) | "pass" | PHPINIALL | Застаріла |
+| [mbstring.internalencoding](mbstring.configuration.md#ini.mbstring.internal-encoding) | NULL | PHPINIALL | Застаріла |
+| [mbstring.substitutecharacter](mbstring.configuration.md#ini.mbstring.substitute-character) | NULL | PHPINIALL |  |
+| [mbstring.funcoverload](mbstring.configuration.md#ini.mbstring.func-overload) | "0" | PHPINISYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
+| [mbstring.encodingtranslation](mbstring.configuration.md#ini.mbstring.encoding-translation) | "0" | PHPINIPERDIR |  |
+| [mbstring.httpoutputconvmimetypes](mbstring.configuration.md#ini.mbstring.http-output-conv-mimetypes) | "^(text/ | application/xhtml+xml)" | PHPINIALL |
+| [mbstring.strictdetection](mbstring.configuration.md#ini.mbstring.strict-detection) | "0" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
@@ -45,7 +45,7 @@ title: Налаштування під час виконання
 
 Визначає внутрішнє кодування символів за промовчанням.
 
-Користувачі повинні залишити цю опцію порожньою та поставити замість неї [`default_charset`](ini.core.html#ini.default-charset)
+Користувачі повинні залишити цю опцію порожньою та поставити замість неї [`default_charset`](ini.core.md#ini.default-charset)
 
 `mbstring.http_input` string
 
@@ -55,7 +55,7 @@ title: Налаштування під час виконання
 
 Визначає кодування символів за промовчанням для введення HTTP.
 
-Користувачі повинні залишити цю опцію порожньою та поставити замість неї [`default_charset`](ini.core.html#ini.default-charset)
+Користувачі повинні залишити цю опцію порожньою та поставити замість неї [`default_charset`](ini.core.md#ini.default-charset)
 
 `mbstring.http_output` string
 
@@ -65,7 +65,7 @@ title: Налаштування під час виконання
 
 Визначає кодування символів за промовчанням для HTTP-виводу (конвертація з внутрішнього кодування в кодування HTTP виводу відбудеться перед виведенням).
 
-Користувачі повинні залишити цю опцію порожньою та поставити замість неї [`default_charset`](ini.core.html#ini.default-charset)
+Користувачі повинні залишити цю опцію порожньою та поставити замість неї [`default_charset`](ini.core.md#ini.default-charset)
 
 `mbstring.detect_order` string
 
@@ -91,9 +91,9 @@ title: Налаштування під час виконання
 
 Включає чітке визначення кодування. Дивіться опис та приклади в [мбdetectencoding()](function.mb-detect-encoding.md)
 
-Згідно [» специфікації HTML 4.01](http://www.w3.org/TR/REC-html40/interact/forms.html#adef-accept-charset), веб-браузерам дозволено перекодувати дані з форми, які вони набувають у кодуванні символів, відмінної від використовуваної на сторінці. Дивіться функцію [мбhttpinput()](function.mb-http-input.md) для того, щоб визначити кодування символів, що використовується браузерами.
+Згідно [» специфікації HTML 4.01](http://www.w3.org/TR/REC-html40/interact/forms.md#adef-accept-charset), веб-браузерам дозволено перекодувати дані з форми, які вони набувають у кодуванні символів, відмінної від використовуваної на сторінці. Дивіться функцію [мбhttpinput()](function.mb-http-input.md) для того, щоб визначити кодування символів, що використовується браузерами.
 
-Хоча популярні браузери здатні досить точно визначити кодування символів даного HTML-документа, краще встановити параметр `charset` у HTTP-заголовку `Content-Type` відповідним значенням за допомогою [header()](function.header.md) або вказати потрібне значення у параметрі [defaultcharset](ini.core.html#ini.sect.data-handling) в ini-налаштуваннях.
+Хоча популярні браузери здатні досить точно визначити кодування символів даного HTML-документа, краще встановити параметр `charset` у HTTP-заголовку `Content-Type` відповідним значенням за допомогою [header()](function.header.md) або вказати потрібне значення у параметрі [defaultcharset](ini.core.md#ini.sect.data-handling) в ini-налаштуваннях.
 
 **Приклад #1 Приклади налаштувань php.ini**
 

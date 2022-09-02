@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.uopz-overload.html: « uopzoverload
-  - function.uopz-rename.html: uopzrename »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - function.uopz-overload.md: « uopzoverload
+  - function.uopz-rename.md: uopzrename »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzredefine
 ---
 # uopzredefine

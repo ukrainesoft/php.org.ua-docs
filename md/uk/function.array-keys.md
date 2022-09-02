@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-key-last.html: « arraykeylast
-  - function.array-map.html: arraymap »
+  - function.array-key-last.md: « arraykeylast
+  - function.array-map.md: arraymap »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraykeys

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrcollapsefunction.gethint.html: '« SolrCollapseFunction::getHint'
-  - solrcollapsefunction.getmin.html: 'SolrCollapseFunction::getMin »'
-  - index.html: PHP Manual
-  - class.solrcollapsefunction.html: SolrCollapseFunction
+  - solrcollapsefunction.gethint.md: '« SolrCollapseFunction::getHint'
+  - solrcollapsefunction.getmin.md: 'SolrCollapseFunction::getMin »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::getMax'
 ---
 # SolrCollapseFunction::getMax
@@ -28,4 +28,4 @@ public SolrCollapseFunction::getMax(): string
 
 ### Дивіться також
 
--   [SolrCollapseFunction::setMax()](solrcollapsefunction.setmax.html) - Вибирає заголовки групи за максимальним значенням числового поля або запиту функції
+-   [SolrCollapseFunction::setMax()](solrcollapsefunction.setmax.md) - Вибирає заголовки групи за максимальним значенням числового поля або запиту функції

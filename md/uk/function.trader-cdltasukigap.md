@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdltakuri.html: « tradercdltakuri
-  - function.trader-cdlthrusting.html: tradercdlthrusting »
+  - function.trader-cdltakuri.md: « tradercdltakuri
+  - function.trader-cdlthrusting.md: tradercdlthrusting »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdltasukigap

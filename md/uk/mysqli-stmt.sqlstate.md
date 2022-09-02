@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.send-long-data.html: '« mysqlistmt::sendlongdata'
-  - mysqli-stmt.store-result.html: 'mysqlistmt::storeresult »'
+  - mysqli-stmt.send-long-data.md: '« mysqlistmt::sendlongdata'
+  - mysqli-stmt.store-result.md: 'mysqlistmt::storeresult »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::$sqlstate'
 ---
 # mysqlistmt::$sqlstate
@@ -32,7 +32,7 @@ mysqli_stmt_sqlstate(mysqli_stmt $statement): string
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

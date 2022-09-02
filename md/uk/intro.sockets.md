@@ -1,16 +1,16 @@
 ---
 navigation:
-  - book.sockets.html: « Сокети
-  - sockets.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.sockets.html: Сокети
+  - book.sockets.md: « Сокети
+  - sockets.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.sockets.md: Сокети
 title: Вступ
 ---
 # Вступ
 
 Модуль socket реалізує низькорівневий інтерфейс для функцій зв'язку сокетів, що базуються на популярних сокетах BSD, забезпечуючи можливість діяти як сервер сокетів, так і клієнт.
 
-Для більш загального клієнтського інтерфейсу сокетів дивіться [streamsocketclient()](function.stream-socket-client.html) [streamsocketserver()](function.stream-socket-server.html) [fsockopen()](function.fsockopen.html) і [pfsockopen()](function.pfsockopen.html)
+Для більш загального клієнтського інтерфейсу сокетів дивіться [streamsocketclient()](function.stream-socket-client.md) [streamsocketserver()](function.stream-socket-server.md) [fsockopen()](function.fsockopen.md) і [pfsockopen()](function.pfsockopen.md)
 
 При використанні цих функцій важливо пам'ятати, що хоча багато з них мають імена, схожі на їх аналоги в C, вони часто мають інший інтерфейс використання. Будь ласка, прочитайте їх описи, щоб уникнути плутанини.
 

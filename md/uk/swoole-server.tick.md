@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.taskwaitmulti.html: '« SwooleServer::taskWaitMulti'
-  - class.swoole-table.html: SwooleTable »
+  - swoole-server.taskwaitmulti.md: '« SwooleServer::taskWaitMulti'
+  - class.swoole-table.md: SwooleTable »
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::tick'
 ---
 # SwooleServer::tick

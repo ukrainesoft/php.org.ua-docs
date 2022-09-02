@@ -24,7 +24,7 @@ title: Математичні функції
     -   [atan2](function.atan2.md) - Арктангенс двох змінних
     -   [atan](function.atan.md) - Арктангенс
     -   [atanh](function.atanh.md) - Гіперболічний арктангенс
-    -   [baseconvert](function.base-convert.html) - Перетворення числа між довільними системами числення
+    -   [baseconvert](function.base-convert.md) - Перетворення числа між довільними системами числення
     -   [bindec](function.bindec.md) — Двійкове у десяткове
     -   [ceil](function.ceil.md) — Округлює дріб у велику сторону
     -   [cos](function.cos.md) - Косінус
@@ -42,18 +42,18 @@ title: Математичні функції
     -   [hexdec](function.hexdec.md) — Переводить число із шістнадцяткової системи числення до десяткової
     -   [hypot](function.hypot.md) - Розраховує довжину гіпотенузи прямокутного трикутника
     -   [intdiv](function.intdiv.md) — Цілочисельний поділ
-    -   [ісfinite](function.is-finite.html) — Перевіряє, чи є значення допустимим кінцевим числом
-    -   [ісinfinite](function.is-infinite.html) — Перевіряє, чи є значення нескінченним
-    -   [ісnan](function.is-nan.html) - Перевіряє, чи є значення "не числом"
-    -   [lcgvalue](function.lcg-value.html) - Комбінований лінійний конгруентний генератор
+    -   [ісfinite](function.is-finite.md) — Перевіряє, чи є значення допустимим кінцевим числом
+    -   [ісinfinite](function.is-infinite.md) — Перевіряє, чи є значення нескінченним
+    -   [ісnan](function.is-nan.md) - Перевіряє, чи є значення "не числом"
+    -   [lcgvalue](function.lcg-value.md) - Комбінований лінійний конгруентний генератор
     -   [log10](function.log10.md) - Десятковий логарифм
     -   [log1p](function.log1p.md) — Повертає log(1 + number), розрахований так, що результат точний навіть якщо значення number близько до нуля
     -   [log](function.log.md) - Натуральний логарифм
     -   [max](function.max.md) — Повертає найбільше значення
     -   [min](function.min.md) — Знаходить найменше значення
-    -   [мтgetrandmax](function.mt-getrandmax.html) — Показує максимально можливе значення випадкового числа
-    -   [мтrand](function.mt-rand.html) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
-    -   [мтsrand](function.mt-srand.html) — Проініціалізує генератор випадкових чисел на базі Вихря Мерсенна
+    -   [мтgetrandmax](function.mt-getrandmax.md) — Показує максимально можливе значення випадкового числа
+    -   [мтrand](function.mt-rand.md) - Генерує випадкове значення методом за допомогою генератора простих чисел на базі Вихря Мерсенна
+    -   [мтsrand](function.mt-srand.md) — Проініціалізує генератор випадкових чисел на базі Вихря Мерсенна
     -   [octdec](function.octdec.md) — Переказує число із вісімкової системи числення до десяткової
     -   [пі](function.pi.md) - Повертає число Пі
     -   [pow](function.pow.md) - Зведення в ступінь

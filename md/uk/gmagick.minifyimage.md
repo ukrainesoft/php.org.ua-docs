@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.medianfilterimage.html: '« Gmagick::medianfilterimage'
-  - gmagick.modulateimage.html: 'Gmagick::modulateimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.medianfilterimage.md: '« Gmagick::medianfilterimage'
+  - gmagick.modulateimage.md: 'Gmagick::modulateimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::minifyimage'
 ---
 # Gmagick::minifyimage

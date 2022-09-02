@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.isiterable.html: '« ReflectionClass::isIterable'
-  - reflectionclass.issubclassof.html: 'ReflectionClass::isSubclassOf »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.isiterable.md: '« ReflectionClass::isIterable'
+  - reflectionclass.issubclassof.md: 'ReflectionClass::isSubclassOf »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::isIterateable'
 ---
 # ReflectionClass::isIterateable

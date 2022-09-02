@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.clone.html: '« ReflectionProperty::clone'
-  - reflectionproperty.export.html: 'ReflectionProperty::export »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.clone.md: '« ReflectionProperty::clone'
+  - reflectionproperty.export.md: 'ReflectionProperty::export »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::construct'
 ---
 # ReflectionProperty::construct
@@ -123,4 +123,4 @@ int(3)
 ### Дивіться також
 
 -   [ReflectionProperty::getName()](reflectionproperty.getname.md) - Отримання імені властивості
--   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

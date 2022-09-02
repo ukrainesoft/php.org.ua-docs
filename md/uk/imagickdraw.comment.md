@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.color.html: '« ImagickDraw::color'
-  - imagickdraw.composite.html: 'ImagickDraw::composite »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.color.md: '« ImagickDraw::color'
+  - imagickdraw.composite.md: 'ImagickDraw::composite »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::comment'
 ---
 # ImagickDraw::comment

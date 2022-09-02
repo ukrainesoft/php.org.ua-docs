@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-mlsd.html: « ftpmlsd
-  - function.ftp-nb-fget.html: ftpнбfget »
+  - function.ftp-mlsd.md: « ftpmlsd
+  - function.ftp-nb-fget.md: ftpнбfget »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpнбcontinue

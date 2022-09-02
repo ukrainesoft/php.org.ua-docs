@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-setbit.html: « gmpsetbit
-  - function.gmp-sqrt.html: gmpsqrt »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-setbit.md: « gmpsetbit
+  - function.gmp-sqrt.md: gmpsqrt »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpsign
 ---
 # gmpsign
@@ -24,7 +24,7 @@ gmp_sign(GMP|int|string $num): int
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), або рядок, що містить число, яке можна перетворити на тип int.
+Об'єкт [GMP](class.gmp.md), або рядок, що містить число, яке можна перетворити на тип int.
 
 ### Значення, що повертаються
 
@@ -57,5 +57,5 @@ echo gmp_sign("0") . "\n";
 
 ### Дивіться також
 
--   [gmpabs()](function.gmp-abs.html) - Абсолютна величина
--   [abs()](function.abs.html) - Абсолютне значення (модуль числа)
+-   [gmpabs()](function.gmp-abs.md) - Абсолютна величина
+-   [abs()](function.abs.md) - Абсолютне значення (модуль числа)

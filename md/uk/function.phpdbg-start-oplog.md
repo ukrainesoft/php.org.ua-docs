@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.phpdbg-prompt.html: « phpdbgprompt
-  - book.runkit7.html: runkit7 »
-  - index.html: PHP Manual
-  - ref.phpdbg.html: Функции phpdbg
+  - function.phpdbg-prompt.md: « phpdbgprompt
+  - book.runkit7.md: runkit7 »
+  - index.md: PHP Manual
+  - ref.phpdbg.md: Функции phpdbg
 title: phpdbgstartoplog
 ---
 # phpdbgstartoplog

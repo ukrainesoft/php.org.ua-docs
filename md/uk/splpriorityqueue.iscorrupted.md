@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splpriorityqueue.insert.html: '« SplPriorityQueue::insert'
-  - splpriorityqueue.isempty.html: 'SplPriorityQueue::isEmpty »'
-  - index.html: PHP Manual
-  - class.splpriorityqueue.html: SplPriorityQueue
+  - splpriorityqueue.insert.md: '« SplPriorityQueue::insert'
+  - splpriorityqueue.isempty.md: 'SplPriorityQueue::isEmpty »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
 title: 'SplPriorityQueue::isCorrupted'
 ---
 # SplPriorityQueue::isCorrupted

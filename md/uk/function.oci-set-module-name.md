@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-set-edition.html: « ocisetedition
-  - function.oci-set-prefetch-lob.html: ocisetprefetchlob »
+  - function.oci-set-edition.md: « ocisetedition
+  - function.oci-set-prefetch-lob.md: ocisetprefetchlob »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocisetmodulename
@@ -30,7 +30,7 @@ oci_set_module_name(resource $connection, string $name): bool
 
 `connection`
 
-Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html), або [ocinewconnect()](function.oci-new-connect.html)
+Ідентифікатор з'єднання Oracle, що повертається [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md), або [ocinewconnect()](function.oci-new-connect.md)
 
 `name`
 
@@ -79,7 +79,7 @@ SQL> select module from v$session;
 
 # Продуктивність
 
-У старих версіях OCI8 або бази даних Oracle можна було встановити інформацію про клієнта за допомогою пакета `DBMS_APPLICATION_INFO`. Для цієї мети ефективніше використання функції [ocisetclientinfo()](function.oci-set-client-info.html)
+У старих версіях OCI8 або бази даних Oracle можна було встановити інформацію про клієнта за допомогою пакета `DBMS_APPLICATION_INFO`. Для цієї мети ефективніше використання функції [ocisetclientinfo()](function.oci-set-client-info.md)
 
 **Застереження**
 
@@ -89,7 +89,7 @@ SQL> select module from v$session;
 
 ### Дивіться також
 
--   [ocisetaction()](function.oci-set-action.html) - Вказує ім'я для дії
--   [ocisetclientinfo()](function.oci-set-client-info.html) - Задає інформацію про клієнта
--   [ocisetclientidentifier()](function.oci-set-client-identifier.html) - задає ідентифікатор клієнта
--   [ocisetдбoperation()](function.oci-set-db-operation.html) - Задає операцію бази даних
+-   [ocisetaction()](function.oci-set-action.md) - Вказує ім'я для дії
+-   [ocisetclientinfo()](function.oci-set-client-info.md) - Задає інформацію про клієнта
+-   [ocisetclientidentifier()](function.oci-set-client-identifier.md) - задає ідентифікатор клієнта
+-   [ocisetдбoperation()](function.oci-set-db-operation.md) - Задає операцію бази даних

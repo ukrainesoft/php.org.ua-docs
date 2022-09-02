@@ -1,9 +1,9 @@
 ---
 navigation:
-  - resourcebundle.count.html: '« ResourceBundle::count'
-  - resourcebundle.geterrorcode.html: 'ResourceBundle::getErrorCode »'
-  - index.html: PHP Manual
-  - class.resourcebundle.html: ResourceBundle
+  - resourcebundle.count.md: '« ResourceBundle::count'
+  - resourcebundle.geterrorcode.md: 'ResourceBundle::getErrorCode »'
+  - index.md: PHP Manual
+  - class.resourcebundle.md: ResourceBundle
 title: 'ResourceBundle::create'
 ---
 # ResourceBundle::create
@@ -52,7 +52,7 @@ public **ResourceBundle::construct**(?string `$locale`, ?string `$bundle`, bool 
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ResourceBundle](class.resourcebundle.html) або **`null`** у разі виникнення помилки.
+Повертає об'єкт [ResourceBundle](class.resourcebundle.md) або **`null`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -82,4 +82,4 @@ echo $r['teststring'];
 
 ### Дивіться також
 
--   [resourcebundleget()](resourcebundle.get.html) - Отримати дані з пакета
+-   [resourcebundleget()](resourcebundle.get.md) - Отримати дані з пакета

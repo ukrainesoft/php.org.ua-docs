@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-view-simple.isset.html: '« YafViewSimple::isset'
-  - yaf-view-simple.set.html: 'YafViewSimple::set »'
+  - yaf-view-simple.isset.md: '« YafViewSimple::isset'
+  - yaf-view-simple.set.md: 'YafViewSimple::set »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.html: YafViewSimple
+  - class.yaf-view-simple.md: YafViewSimple
 title: 'YafViewSimple::render'
 ---
 # YafViewSimple::render

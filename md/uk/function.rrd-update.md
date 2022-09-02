@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.rrd-tune.html: « rrdtune
-  - function.rrd-version.html: rrdversion »
+  - function.rrd-tune.md: « rrdtune
+  - function.rrd-version.md: rrdversion »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
 title: rrdupdate

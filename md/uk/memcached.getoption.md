@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.getmultibykey.html: '« Memcached::getMultiByKey'
-  - memcached.getresultcode.html: 'Memcached::getResultCode »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.getmultibykey.md: '« Memcached::getMultiByKey'
+  - memcached.getresultcode.md: 'Memcached::getResultCode »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::getOption'
 ---
 # Memcached::getOption

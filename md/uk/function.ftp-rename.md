@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-rawlist.html: « ftprawlist
-  - function.ftp-rmdir.html: ftprmdir »
+  - function.ftp-rawlist.md: « ftprawlist
+  - function.ftp-rmdir.md: ftprmdir »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftprename

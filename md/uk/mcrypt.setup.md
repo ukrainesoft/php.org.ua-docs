@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.mcrypt.html: « Введение
-  - mcrypt.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.mcrypt.html: Mcrypt
+  - intro.mcrypt.md: « Введение
+  - mcrypt.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.mcrypt.md: Mcrypt
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

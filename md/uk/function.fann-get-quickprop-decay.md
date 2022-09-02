@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-num-output.html: « fanngetnumoutput
-  - function.fann-get-quickprop-mu.html: fanngetquickpropmu »
+  - function.fann-get-num-output.md: « fanngetnumoutput
+  - function.fann-get-quickprop-mu.md: fanngetquickpropmu »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetquickpropdecay

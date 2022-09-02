@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-is-valid-point.html: « sodiumcryptocoreristretto255ісvalidpoint
-  - function.sodium-crypto-core-ristretto255-scalar-add.html: sodiumcryptocoreristretto255scalaradd »
+  - function.sodium-crypto-core-ristretto255-is-valid-point.md: « sodiumcryptocoreristretto255ісvalidpoint
+  - function.sodium-crypto-core-ristretto255-scalar-add.md: sodiumcryptocoreristretto255scalaradd »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255random

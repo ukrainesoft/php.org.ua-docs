@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionextension.tostring.html: '« ReflectionExtension::toString'
-  - reflectionfunction.construct.html: 'ReflectionFunction::construct »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionextension.tostring.md: '« ReflectionExtension::toString'
+  - reflectionfunction.construct.md: 'ReflectionFunction::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас ReflectionFunction
 ---
 # Клас ReflectionFunction
@@ -103,10 +103,10 @@ abstract public ReflectionFunctionAbstract::__toString(): void
 
 ## Зміст
 
--   [ReflectionFunction::construct](reflectionfunction.construct.html) - Конструктор класу ReflectionFunction
--   [ReflectionFunction::export](reflectionfunction.export.html) - Експортує функції
--   [ReflectionFunction::getClosure](reflectionfunction.getclosure.html) — Повертає динамічно створене замикання функції
--   [ReflectionFunction::invoke](reflectionfunction.invoke.html) - Викликає функцію
--   [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.html) - Виклик функції з передачею аргументів
--   [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.html) — Перевіряє, що функцію вимкнено
--   [ReflectionFunction::toString](reflectionfunction.tostring.html) — Подання у вигляді рядка
+-   [ReflectionFunction::construct](reflectionfunction.construct.md) - Конструктор класу ReflectionFunction
+-   [ReflectionFunction::export](reflectionfunction.export.md) - Експортує функції
+-   [ReflectionFunction::getClosure](reflectionfunction.getclosure.md) — Повертає динамічно створене замикання функції
+-   [ReflectionFunction::invoke](reflectionfunction.invoke.md) - Викликає функцію
+-   [ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md) - Виклик функції з передачею аргументів
+-   [ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md) — Перевіряє, що функцію вимкнено
+-   [ReflectionFunction::toString](reflectionfunction.tostring.md) — Подання у вигляді рядка

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.ob-iconv-handler.html: « obiconvhandler
+  - function.ob-iconv-handler.md: « obiconvhandler
   - intro.intl.md: Введение »
   - index.md: PHP Manual
   - refs.international.md: Підтримка мов та кодувань

@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.explode.md: « explode
-  - function.get-html-translation-table.html: gethtmltranslationtable »
+  - function.get-html-translation-table.md: gethtmltranslationtable »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: fprintf

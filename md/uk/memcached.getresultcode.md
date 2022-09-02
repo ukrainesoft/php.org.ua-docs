@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.getoption.html: '« Memcached::getOption'
-  - memcached.getresultmessage.html: 'Memcached::getResultMessage »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.getoption.md: '« Memcached::getOption'
+  - memcached.getresultmessage.md: 'Memcached::getResultMessage »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::getResultCode'
 ---
 # Memcached::getResultCode

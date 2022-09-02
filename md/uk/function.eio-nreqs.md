@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-nready.html: « eionready
-  - function.eio-nthreads.html: eionthreads »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-nready.md: « eionready
+  - function.eio-nthreads.md: eionthreads »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eionreqs
 ---
 # eionreqs
@@ -18,7 +18,7 @@ eionreqs — Повертає кількість запитів, які потр
 eio_nreqs(): int
 ```
 
-**eionreqs()** може бути виконана у довільному циклі, викликаному [eiopoll()](function.eio-poll.html)
+**eionreqs()** може бути виконана у довільному циклі, викликаному [eiopoll()](function.eio-poll.md)
 
 ### Список параметрів
 
@@ -62,5 +62,5 @@ int(0)
 
 ### Дивіться також
 
--   [eiopoll()](function.eio-poll.html) - Може бути викликана коли є запити, що очікують на виконання
--   [eionready()](function.eio-nready.html) - Повертає кількість ще не опрацьованих запитів
+-   [eiopoll()](function.eio-poll.md) - Може бути викликана коли є запити, що очікують на виконання
+-   [eionready()](function.eio-nready.md) - Повертає кількість ще не опрацьованих запитів

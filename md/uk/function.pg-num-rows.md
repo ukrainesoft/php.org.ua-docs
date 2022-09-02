@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-num-fields.html: « pgnumfields
-  - function.pg-options.html: пгoptions »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-num-fields.md: « pgnumfields
+  - function.pg-options.md: пгoptions »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгnumrows
 ---
 # пгnumrows
@@ -18,7 +18,7 @@ title: пгnumrows
 pg_num_rows(PgSql\Result $result): int
 ```
 
-**пгnumrows()** повертає кількість рядків в екземплярі [PgSqlResult](class.pgsql-result.html)
+**пгnumrows()** повертає кількість рядків в екземплярі [PgSqlResult](class.pgsql-result.md)
 
 > **Зауваження**
 > 
@@ -28,7 +28,7 @@ pg_num_rows(PgSql\Result $result): int
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 ### Значення, що повертаються
 
@@ -38,7 +38,7 @@ pg_num_rows(PgSql\Result $result): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -62,5 +62,5 @@ echo "Возвращено строк: " . $rows . ".\n";
 
 ### Дивіться також
 
--   [пгnumfields()](function.pg-num-fields.html) - Повертає кількість полів у вибірці
--   [пгaffectedrows()](function.pg-affected-rows.html) - Повертає кількість порушених запитом записів (кортежів)
+-   [пгnumfields()](function.pg-num-fields.md) - Повертає кількість полів у вибірці
+-   [пгaffectedrows()](function.pg-affected-rows.md) - Повертає кількість порушених запитом записів (кортежів)

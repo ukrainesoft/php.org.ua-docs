@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-stat.html: '« streamWrapper::streamstat'
-  - streamwrapper.stream-truncate.html: 'streamWrapper::streamtruncate »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-stat.md: '« streamWrapper::streamstat'
+  - streamwrapper.stream-truncate.md: 'streamWrapper::streamtruncate »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamtell'
 ---
 # streamWrapper::streamtell
@@ -18,7 +18,7 @@ streamWrapper::streamtell — Визначення поточної позиці
 public streamWrapper::stream_tell(): int
 ```
 
-Цей метод викликається у процесі виконання [fseek()](function.fseek.html) визначення поточної позиції.
+Цей метод викликається у процесі виконання [fseek()](function.fseek.md) визначення поточної позиції.
 
 ### Список параметрів
 

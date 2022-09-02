@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.endcomment.html: '« XMLWriter::endComment'
-  - xmlwriter.enddtd.html: 'XMLWriter::endDtd »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.endcomment.md: '« XMLWriter::endComment'
+  - xmlwriter.enddtd.md: 'XMLWriter::endDtd »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::endDocument'
 ---
 # XMLWriter::endDocument
@@ -34,7 +34,7 @@ xmlwriter_end_document(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 

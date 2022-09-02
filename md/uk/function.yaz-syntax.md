@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-sort.html: « yazsort
-  - function.yaz-wait.html: yazwait »
+  - function.yaz-sort.md: « yazsort
+  - function.yaz-wait.md: yazwait »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazsyntax
@@ -20,7 +20,7 @@ yaz_syntax(resource $id, string $syntax): void
 
 **yazsyntax()** задає синтаксис, що віддається перевагу, для видобутого запису
 
-Функція повинна бути викликана до [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.md)
+Функція повинна бути викликана до [yazsearch()](function.yaz-search.md) або [yazpresent()](function.yaz-present.md)
 
 ### Список параметрів
 

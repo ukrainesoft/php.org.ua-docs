@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.sethighlightregexpattern.html: '« SolrQuery::setHighlightRegexPattern'
-  - solrquery.sethighlightrequirefieldmatch.html: 'SolrQuery::setHighlightRequireFieldMatch »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.sethighlightregexpattern.md: '« SolrQuery::setHighlightRegexPattern'
+  - solrquery.sethighlightrequirefieldmatch.md: 'SolrQuery::setHighlightRequireFieldMatch »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setHighlightRegexSlop'
 ---
 # SolrQuery::setHighlightRegexSlop

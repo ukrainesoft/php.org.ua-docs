@@ -1,9 +1,9 @@
 ---
 navigation:
-  - directoryiterator.tostring.html: '« DirectoryIterator::toString'
-  - class.emptyiterator.html: EmptyIterator »
-  - index.html: PHP Manual
-  - class.directoryiterator.html: DirectoryIterator
+  - directoryiterator.tostring.md: '« DirectoryIterator::toString'
+  - class.emptyiterator.md: EmptyIterator »
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::valid'
 ---
 # DirectoryIterator::valid
@@ -18,7 +18,7 @@ DirectoryIterator::valid — Перевіряє, чи є поточний еле
 public DirectoryIterator::valid(): bool
 ```
 
-Перевіряє, чи є поточний елемент [DirectoryIterator](class.directoryiterator.html) допустимим файлом.
+Перевіряє, чи є поточний елемент [DirectoryIterator](class.directoryiterator.md) допустимим файлом.
 
 ### Список параметрів
 
@@ -50,8 +50,8 @@ $iterator->valid(); // TRUE
 
 ### Дивіться також
 
--   [DirectoryIterator::current()](directoryiterator.current.html) - Повертає поточний елемент DirectoryIterator
--   [DirectoryIterator::key()](directoryiterator.key.html) - Повертає ключ поточного елемента DirectoryIterator
--   [DirectoryIterator::next()](directoryiterator.next.html) - Переміщує покажчик на наступний елемент DirectoryIterator
--   [DirectoryIterator::rewind()](directoryiterator.rewind.html) - Встановлює покажчик на перший елемент DirectoryIterator
--   [Iterator::valid()](iterator.valid.html) - Перевіряє коректність поточної позиції
+-   [DirectoryIterator::current()](directoryiterator.current.md) - Повертає поточний елемент DirectoryIterator
+-   [DirectoryIterator::key()](directoryiterator.key.md) - Повертає ключ поточного елемента DirectoryIterator
+-   [DirectoryIterator::next()](directoryiterator.next.md) - Переміщує покажчик на наступний елемент DirectoryIterator
+-   [DirectoryIterator::rewind()](directoryiterator.rewind.md) - Встановлює покажчик на перший елемент DirectoryIterator
+-   [Iterator::valid()](iterator.valid.md) - Перевіряє коректність поточної позиції

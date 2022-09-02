@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-action-abstract.execute.html: '« YafActionAbstract::execute'
-  - yaf-controller-abstract.getcontrollername.html: 'YafActionAbstract::getControllerName »'
-  - index.html: PHP Manual
-  - class.yaf-action-abstract.html: YafActionAbstract
+  - yaf-action-abstract.execute.md: '« YafActionAbstract::execute'
+  - yaf-controller-abstract.getcontrollername.md: 'YafActionAbstract::getControllerName »'
+  - index.md: PHP Manual
+  - class.yaf-action-abstract.md: YafActionAbstract
 title: 'YafActionAbstract::getController'
 ---
 # YafActionAbstract::getController
@@ -26,4 +26,4 @@ publicYaf_Action_Abstract::getController(): Yaf_Controller_Abstract
 
 ### Значення, що повертаються
 
-Об'єкт класу [YafControllerAbstract](class.yaf-controller-abstract.html)
+Об'єкт класу [YafControllerAbstract](class.yaf-controller-abstract.md)

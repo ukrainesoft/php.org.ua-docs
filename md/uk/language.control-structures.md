@@ -1,7 +1,7 @@
 ---
 navigation:
   - language.operators.type.md: « Оператор перевірки типу
-  - control-structures.intro.html: Введение »
+  - control-structures.intro.md: Введение »
   - index.md: PHP Manual
   - langref.md: Довідник мови
 title: Керуючі конструкції

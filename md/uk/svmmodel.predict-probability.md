@@ -1,9 +1,9 @@
 ---
 navigation:
-  - svmmodel.load.html: '« SVMModel::load'
-  - svmmodel.predict.html: 'SVMModel::predict »'
-  - index.html: PHP Manual
-  - class.svmmodel.html: SVMModel
+  - svmmodel.load.md: '« SVMModel::load'
+  - svmmodel.predict.md: 'SVMModel::predict »'
+  - index.md: PHP Manual
+  - class.svmmodel.md: SVMModel
 title: 'SVMModel::predictprobability'
 ---
 # SVMModel::predictprobability

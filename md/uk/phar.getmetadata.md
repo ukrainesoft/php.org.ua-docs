@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.getalias.html: '« Phar::getAlias'
-  - phar.getmodified.html: 'Phar::getModified »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.getalias.md: '« Phar::getAlias'
+  - phar.getmodified.md: 'Phar::getModified »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::getMetadata'
 ---
 # Phar::getMetadata

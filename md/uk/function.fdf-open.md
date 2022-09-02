@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-open-string.html: « fdfopenstring
-  - function.fdf-remove-item.html: fdfremoveitem »
+  - function.fdf-open-string.md: « fdfopenstring
+  - function.fdf-remove-item.md: fdfremoveitem »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfopen
@@ -26,7 +26,7 @@ fdf_open(string $filename): resource
 
 `filename`
 
-Шлях до файлу FDF. Файл повинен містити дані, повернені з форми PDF або створені за допомогою [fdfcreate()](function.fdf-create.html) і [fdfsave()](function.fdf-save.md)
+Шлях до файлу FDF. Файл повинен містити дані, повернені з форми PDF або створені за допомогою [fdfcreate()](function.fdf-create.md) і [fdfsave()](function.fdf-save.md)
 
 ### Значення, що повертаються
 

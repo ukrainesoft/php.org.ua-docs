@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.stream-metadata.html: '« streamWrapper::streammetadata'
-  - streamwrapper.stream-read.html: 'streamWrapper::streamread »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.stream-metadata.md: '« streamWrapper::streammetadata'
+  - streamwrapper.stream-read.md: 'streamWrapper::streamread »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamopen'
 ---
 # streamWrapper::streamopen
@@ -18,7 +18,7 @@ streamWrapper::streamopen — Відкриває файл або URL
 public streamWrapper::stream_open(    string $path,    string $mode,    int $options,    ?string &$opened_path): bool
 ```
 
-Цей метод викликається відразу після ініціалізації обгортки (наприклад, [fopen()](function.fopen.html) і [filegetcontents()](function.file-get-contents.html)
+Цей метод викликається відразу після ініціалізації обгортки (наприклад, [fopen()](function.fopen.md) і [filegetcontents()](function.file-get-contents.md)
 
 ### Список параметрів
 
@@ -28,11 +28,11 @@ public streamWrapper::stream_open(    string $path,    string $mode,  
 
 > **Зауваження**
 > 
-> URL можна розділити на частини функцією [parseurl()](function.parse-url.html). URL має бути відокремлений символами ://. Символи : та :/ поки працюють, але подальша підтримка не гарантується.
+> URL можна розділити на частини функцією [parseurl()](function.parse-url.md). URL має бути відокремлений символами ://. Символи : та :/ поки працюють, але подальша підтримка не гарантується.
 
 `mode`
 
-Режим відкриття файлу, аналогічний режимам для [fopen()](function.fopen.html)
+Режим відкриття файлу, аналогічний режимам для [fopen()](function.fopen.md)
 
 > **Зауваження**
 > 
@@ -45,7 +45,7 @@ public streamWrapper::stream_open(    string $path,    string $mode,  
 | Флаг | Описание |
 | --- | --- |
 | **`STREAM_USE_PATH`** | Якщо шлях `path` відносний, потрібно шукати ресурс, використовуючи includepath. |
-| **`STREAM_REPORT_ERRORS`** | Якщо цей прапор задано, Ви можете викликати помилки функцією [triggererror()](function.trigger-error.html) під час відкриття потоку. Якщо прапор не встановлено, помилки викликати не можна. |
+| **`STREAM_REPORT_ERRORS`** | Якщо цей прапор задано, Ви можете викликати помилки функцією [triggererror()](function.trigger-error.md) під час відкриття потоку. Якщо прапор не встановлено, помилки викликати не можна. |
 
 `opened_path`
 
@@ -67,5 +67,5 @@ public streamWrapper::stream_open(    string $path,    string $mode,  
 
 ### Дивіться також
 
--   [fopen()](function.fopen.html) - Відкриває файл або URL
--   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
+-   [fopen()](function.fopen.md) - Відкриває файл або URL
+-   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти

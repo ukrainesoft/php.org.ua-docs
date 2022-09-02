@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.alert.html: '« SeasLog::alert'
-  - seaslog.analyzerdetail.html: 'SeasLog::analyzerDetail »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.alert.md: '« SeasLog::alert'
+  - seaslog.analyzerdetail.md: 'SeasLog::analyzerDetail »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::analyzerCount'
 ---
 # SeasLog::analyzerCount
@@ -92,4 +92,4 @@ int(29)
 
 ### Дивіться також
 
--   [SeasLog::analyzerDetail()](seaslog.analyzerdetail.html) - Отримує деталізацію журналу за рівнем, logpath, keyword, start, limit, order
+-   [SeasLog::analyzerDetail()](seaslog.analyzerdetail.md) - Отримує деталізацію журналу за рівнем, logpath, keyword, start, limit, order

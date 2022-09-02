@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandfailedevent.getreply.html: '« MongoDBDriverMonitoringCommandFailedEvent::getReply'
-  - mongodb-driver-monitoring-commandfailedevent.getserver.html: 'MongoDBDriverMonitoringCommandFailedEvent::getServer »'
+  - mongodb-driver-monitoring-commandfailedevent.getreply.md: '« MongoDBDriverMonitoringCommandFailedEvent::getReply'
+  - mongodb-driver-monitoring-commandfailedevent.getserver.md: 'MongoDBDriverMonitoringCommandFailedEvent::getServer »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
 title: 'MongoDBDriverMonitoringCommandFailedEvent::getRequestId'
 ---
 # MongoDBDriverMonitoringCommandFailedEvent::getRequestId
@@ -18,7 +18,7 @@ MongoDBDriverMonitoringCommandFailedEvent::getRequestId — Повертає і�
 final public MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId(): string
 ```
 
-Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.html) з попереднім [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)
+Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDBDriverMonitoringCommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md) з попереднім [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagegd.html: « imagegd
-  - function.imagegetinterpolation.html: imagegetinterpolation »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagegd.md: « imagegd
+  - function.imagegetinterpolation.md: imagegetinterpolation »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagegetclip
 ---
 # imagegetclip
@@ -24,7 +24,7 @@ imagegetclip(GdImage $image): array
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 ### Значення, що повертаються
 
@@ -39,7 +39,7 @@ imagegetclip(GdImage $image): array
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -68,4 +68,4 @@ Array
 
 ### Дивіться також
 
--   [imagesetclip()](function.imagesetclip.html) - Встановіть прямокутник обмеження
+-   [imagesetclip()](function.imagesetclip.md) - Встановіть прямокутник обмеження

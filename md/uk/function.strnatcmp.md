@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strnatcasecmp.html: « strnatcasecmp
-  - function.strncasecmp.html: strncasecmp »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.strnatcasecmp.md: « strnatcasecmp
+  - function.strncasecmp.md: strncasecmp »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strnatcmp
 ---
 # strnatcmp
@@ -36,7 +36,7 @@ strnatcmp(string $string1, string $string2): int
 
 ### Приклади
 
-Приклад, що показує відмінність цього алгоритму від звичайних функцій порівняння (використовуються в [strcmp()](function.strcmp.html)), наведений нижче:
+Приклад, що показує відмінність цього алгоритму від звичайних функцій порівняння (використовуються в [strcmp()](function.strcmp.md)), наведений нижче:
 
 ```php
 <?php
@@ -76,14 +76,14 @@ Array
 
 ### Дивіться також
 
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [strcasecmp()](function.strcasecmp.html) - Бінарно-безпечне порівняння рядків без урахування регістру
--   [substr()](function.substr.html) - Повертає підрядок
--   [stristr()](function.stristr.html) - Реєстронезалежний варіант функції strstr
--   [strcmp()](function.strcmp.html) - Бінарно-безпечне порівняння рядків
--   [strncmp()](function.strncmp.html) - Бінарно-безпечне порівняння перших n символів рядків
--   [strncasecmp()](function.strncasecmp.html) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
--   [strnatcasecmp()](function.strnatcasecmp.html) - Порівняння рядків без урахування регістру з використанням алгоритму "natural order"
--   [strstr()](function.strstr.html) - Знаходить перше входження підрядка
--   [natsort()](function.natsort.html) - Сортує масив, використовуючи алгоритм "natural order"
--   [natcasesort()](function.natcasesort.html) - Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [strcasecmp()](function.strcasecmp.md) - Бінарно-безпечне порівняння рядків без урахування регістру
+-   [substr()](function.substr.md) - Повертає підрядок
+-   [stristr()](function.stristr.md) - Реєстронезалежний варіант функції strstr
+-   [strcmp()](function.strcmp.md) - Бінарно-безпечне порівняння рядків
+-   [strncmp()](function.strncmp.md) - Бінарно-безпечне порівняння перших n символів рядків
+-   [strncasecmp()](function.strncasecmp.md) - Бінарно-безпечне порівняння перших n символів рядків без урахування регістру
+-   [strnatcasecmp()](function.strnatcasecmp.md) - Порівняння рядків без урахування регістру з використанням алгоритму "natural order"
+-   [strstr()](function.strstr.md) - Знаходить перше входження підрядка
+-   [natsort()](function.natsort.md) - Сортує масив, використовуючи алгоритм "natural order"
+-   [natcasesort()](function.natcasesort.md) - Сортує масив, використовуючи алгоритм "natural order" без урахування регістру символів

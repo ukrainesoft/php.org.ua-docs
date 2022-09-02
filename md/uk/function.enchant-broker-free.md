@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-broker-free-dict.html: « enchantbrokerfreedict
-  - function.enchant-broker-get-dict-path.html: enchantbrokergetdictpath »
+  - function.enchant-broker-free-dict.md: « enchantbrokerfreedict
+  - function.enchant-broker-get-dict-path.md: enchantbrokergetdictpath »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantbrokerfree

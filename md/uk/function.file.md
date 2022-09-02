@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.file-put-contents.html: « fileputcontents
+  - function.file-put-contents.md: « fileputcontents
   - function.fileatime.md: fileatime »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
@@ -32,7 +32,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була увімкнена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 `flags`
 
@@ -40,7 +40,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 **`FILE_USE_INCLUDE_PATH`**
 
-Шукає файл у [includepath](ini.core.html#ini.include-path)
+Шукає файл у [includepath](ini.core.md#ini.include-path)
 
 **`FILE_IGNORE_NEW_LINES`**
 
@@ -62,7 +62,7 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 > 
 > Кожен рядок в отриманому масиві завершуватиметься символами кінця рядка, якщо тільки не використовується **`FILE_IGNORE_NEW_LINES`**
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків при читанні або створенні файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків при читанні або створенні файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.md#ini.auto-detect-line-endings) може допомогти вирішити проблему.
 
 ### Помилки
 
@@ -92,7 +92,7 @@ $trimmed = file('somefile.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LIN
 
 **Увага**
 
-При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.html#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.md) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
+При використанні SSL Microsoft IIS порушує протокол, закриваючи з'єднання без надсилання індикатора `close_notify`. PHP повідомить про це як "SSL: Fatal Protocol Error" в той момент, коли ви досягнете кінця даних. Щоб обійти це, ви повинні встановити [errorreporting](errorfunc.configuration.md#ini.error-reporting) на рівень, що виключає EWARNING. PHP вміє визначати, що на стороні сервера перебуває проблемний IIS при відкритті потоку за допомогою обгортки `https://` та не виводить попередження. Якщо ви використовуєте [fsockopen()](function.fsockopen.md) для створення `ssl://` сокету, ви самі відповідаєте за визначення та придушення цього попередження.
 
 ### Дивіться також
 

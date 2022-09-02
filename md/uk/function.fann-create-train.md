@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-create-train-from-callback.html: « fanncreatetrainfromcallback
-  - function.fann-descale-input.html: fanndescaleinput »
+  - function.fann-create-train-from-callback.md: « fanncreatetrainfromcallback
+  - function.fann-descale-input.md: fanndescaleinput »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanncreatetrain

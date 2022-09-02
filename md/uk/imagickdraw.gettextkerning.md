@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.gettextinterwordspacing.html: '« ImagickDraw::getTextInterwordSpacing'
-  - imagickdraw.gettextundercolor.html: 'ImagickDraw::getTextUnderColor »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.gettextinterwordspacing.md: '« ImagickDraw::getTextInterwordSpacing'
+  - imagickdraw.gettextundercolor.md: 'ImagickDraw::getTextUnderColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getTextKerning'
 ---
 # ImagickDraw::getTextKerning

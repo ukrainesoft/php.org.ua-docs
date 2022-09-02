@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ibm-db2.configuration.html: « Налаштування під час виконання
-  - ibm-db2.constants.html: Обумовлені константи »
+  - ibm-db2.configuration.md: « Налаштування під час виконання
+  - ibm-db2.constants.md: Обумовлені константи »
   - index.md: PHP Manual
-  - ibm-db2.setup.html: Встановлення та налаштування
+  - ibm-db2.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

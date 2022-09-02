@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-is-file.html: « svnфсісfile
-  - function.svn-fs-make-file.html: svnфсmakefile »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-is-file.md: « svnфсісfile
+  - function.svn-fs-make-file.md: svnфсmakefile »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсmakedir
 ---
 # svnфсmakedir

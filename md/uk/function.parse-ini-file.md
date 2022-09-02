@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.move-uploaded-file.html: « moveuploadedfile
-  - function.parse-ini-string.html: parseinistring »
+  - function.move-uploaded-file.md: « moveuploadedfile
+  - function.parse-ini-string.md: parseinistring »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: parseinifile
@@ -26,7 +26,7 @@ parse_ini_file(string $filename, bool $process_sections = false, int $scanner_mo
 
 `filename`
 
-Ім'я ini-файлу, що обробляється. Якщо використовується відносний шлях, він оцінюється щодо поточного робочого каталогу, а потім [includepath](ini.core.html#ini.include-path)
+Ім'я ini-файлу, що обробляється. Якщо використовується відносний шлях, він оцінюється щодо поточного робочого каталогу, а потім [includepath](ini.core.md#ini.include-path)
 
 `process_sections`
 

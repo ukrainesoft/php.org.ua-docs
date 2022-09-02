@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandfailedevent.getrequestid.html: '« MongoDBDriverMonitoringCommandFailedEvent::getRequestId'
-  - mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.html: 'MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId »'
+  - mongodb-driver-monitoring-commandfailedevent.getrequestid.md: '« MongoDBDriverMonitoringCommandFailedEvent::getRequestId'
+  - mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.md: 'MongoDBDriverMonitoringCommandFailedEvent::getServerConnectionId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandfailedevent.html: MongoDBDriverMonitoringCommandFailedEvent
+  - class.mongodb-driver-monitoring-commandfailedevent.md: MongoDBDriverMonitoringCommandFailedEvent
 title: 'MongoDBDriverMonitoringCommandFailedEvent::getServer'
 ---
 # MongoDBDriverMonitoringCommandFailedEvent::getServer

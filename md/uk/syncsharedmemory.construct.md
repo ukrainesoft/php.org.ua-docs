@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.syncsharedmemory.html: « SyncSharedMemory
-  - syncsharedmemory.first.html: 'SyncSharedMemory::first »'
-  - index.html: PHP Manual
-  - class.syncsharedmemory.html: SyncSharedMemory
+  - class.syncsharedmemory.md: « SyncSharedMemory
+  - syncsharedmemory.first.md: 'SyncSharedMemory::first »'
+  - index.md: PHP Manual
+  - class.syncsharedmemory.md: SyncSharedMemory
 title: 'SyncSharedMemory::construct'
 ---
 # SyncSharedMemory::construct
@@ -40,7 +40,7 @@ public SyncSharedMemory::__construct(string $name, int $size)
 
 ### Значення, що повертаються
 
-Новий об'єкт [SyncSharedMemory](class.syncsharedmemory.html)
+Новий об'єкт [SyncSharedMemory](class.syncsharedmemory.md)
 
 ### Помилки
 
@@ -66,7 +66,7 @@ $result = $mem->write(json_encode(array("name" => "my_report.txt")));
 
 ### Дивіться також
 
--   [SyncSharedMemory::first()](syncsharedmemory.first.html) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
--   [SyncSharedMemory::size()](syncsharedmemory.size.html) - Повертає розмір іменованої пам'яті, що розділяється
--   [SyncSharedMemory::write()](syncsharedmemory.write.html) - Копіює дані в іменовану пам'ять, що розділяється.
--   [SyncSharedMemory::read()](syncsharedmemory.read.html) - Копіює дані з іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::first()](syncsharedmemory.first.md) - Перевіряє, чи є об'єкт першим загальносистемним екземпляром іменованої пам'яті, що розділяється.
+-   [SyncSharedMemory::size()](syncsharedmemory.size.md) - Повертає розмір іменованої пам'яті, що розділяється
+-   [SyncSharedMemory::write()](syncsharedmemory.write.md) - Копіює дані в іменовану пам'ять, що розділяється.
+-   [SyncSharedMemory::read()](syncsharedmemory.read.md) - Копіює дані з іменованої пам'яті, що розділяється

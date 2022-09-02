@@ -1,9 +1,9 @@
 ---
 navigation:
-  - iterator.current.html: '« Iterator::current'
-  - iterator.next.html: 'Iterator::next »'
-  - index.html: PHP Manual
-  - class.iterator.html: Iterator
+  - iterator.current.md: '« Iterator::current'
+  - iterator.next.md: 'Iterator::next »'
+  - index.md: PHP Manual
+  - class.iterator.md: Iterator
 title: 'Iterator::key'
 ---
 # Iterator::key

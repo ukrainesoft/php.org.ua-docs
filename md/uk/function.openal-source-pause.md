@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-source-get.html: « openalsourceget
-  - function.openal-source-play.html: openalsourceplay »
+  - function.openal-source-get.md: « openalsourceget
+  - function.openal-source-play.md: openalsourceplay »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalsourcepause

@@ -26,7 +26,7 @@ public Imagick::getImageRenderingIntent(): int
 
 ### Значення, що повертаються
 
-Повертає [схему цветопередачи](imagick.constants.html#imagick.constants.renderingintent) зображення.
+Повертає [схему цветопередачи](imagick.constants.md#imagick.constants.renderingintent) зображення.
 
 ### Помилки
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.cubrid-set-query-timeout.html: « cubridsetquerytimeout
+  - function.cubrid-set-query-timeout.md: « cubridsetquerytimeout
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID

@@ -44,7 +44,7 @@ title: Модифікатори шаблонів
 > 
 > > **Зауваження**
 > > 
-> > У нежадібному режимі зазвичай неможливий збіг символів, що перевищують [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit)
+> > У нежадібному режимі зазвичай неможливий збіг символів, що перевищують [pcre.backtracklimit](pcre.configuration.md#ini.pcre.backtrack-limit)
 > 
 > *З* `PCRE_EXTRA`
 > 

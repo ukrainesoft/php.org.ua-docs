@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tokenizer.requirements.html: « Вимоги
-  - tokenizer.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - tokenizer.setup.html: Встановлення та налаштування
+  - tokenizer.requirements.md: « Вимоги
+  - tokenizer.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - tokenizer.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

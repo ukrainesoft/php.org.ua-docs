@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagescene.html: '« Imagick::setImageScene'
-  - imagick.setimagetype.html: 'Imagick::setImageType »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagescene.md: '« Imagick::setImageScene'
+  - imagick.setimagetype.md: 'Imagick::setImageType »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageTicksPerSecond'
 ---
 # Imagick::setImageTicksPerSecond

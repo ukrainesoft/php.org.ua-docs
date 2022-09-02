@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-kurtosis.html: « statskurtosis
-  - function.stats-rand-gen-chisquare.html: statsrandgenchisquare »
+  - function.stats-kurtosis.md: « statskurtosis
+  - function.stats-rand-gen-chisquare.md: statsrandgenchisquare »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandгенbeta

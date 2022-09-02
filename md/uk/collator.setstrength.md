@@ -113,5 +113,5 @@ array (
 
 ### Дивіться також
 
--   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.md)
+-   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
 -   [collatorgetstrength()](collator.getstrength.md) - набуває поточної сили зіставлення

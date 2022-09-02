@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.stomp-version.html: « stompversion
+  - function.stomp-version.md: « stompversion
   - stomp.abort.md: 'Stomp::abort »'
   - index.md: PHP Manual
   - book.stomp.md: Stomp

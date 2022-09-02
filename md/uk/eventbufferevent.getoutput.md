@@ -21,7 +21,7 @@ public
 
 Повертає базовий вихідний буфер, пов'язаний із поточною буферною подією. Вихідний буфер є сховищем даних для запису.
 
-Зверніть увагу, що є також `[output](class.eventbufferevent.html#eventbufferevent.props.output)` властивість класу [EventBufferEvent](class.eventbufferevent.md)
+Зверніть увагу, що є також `[output](class.eventbufferevent.md#eventbufferevent.props.output)` властивість класу [EventBufferEvent](class.eventbufferevent.md)
 
 ### Список параметрів
 

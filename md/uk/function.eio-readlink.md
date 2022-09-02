@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-readdir.html: « eioreaddir
-  - function.eio-realpath.html: eiorealpath »
+  - function.eio-readdir.md: « eioreaddir
+  - function.eio-realpath.md: eiorealpath »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eioreadlink

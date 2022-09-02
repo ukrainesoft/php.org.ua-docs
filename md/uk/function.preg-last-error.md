@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.preg-last-error-msg.html: « preglasterrormsg
-  - function.preg-match-all.html: pregmatchall »
+  - function.preg-last-error-msg.md: « preglasterrormsg
+  - function.preg-match-all.md: pregmatchall »
   - index.md: PHP Manual
   - ref.pcre.md: Функции PCRE
 title: preglasterror
@@ -50,8 +50,8 @@ if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
 
 -   **`PREG_NO_ERROR`**
 -   **`PREG_INTERNAL_ERROR`**
--   **`PREG_BACKTRACK_LIMIT_ERROR`** (Дивіться також [pcre.backtracklimit](pcre.configuration.html#ini.pcre.backtrack-limit)
--   **`PREG_RECURSION_LIMIT_ERROR`** (Дивіться також [pcre.recursionlimit](pcre.configuration.html#ini.pcre.recursion-limit)
+-   **`PREG_BACKTRACK_LIMIT_ERROR`** (Дивіться також [pcre.backtracklimit](pcre.configuration.md#ini.pcre.backtrack-limit)
+-   **`PREG_RECURSION_LIMIT_ERROR`** (Дивіться також [pcre.recursionlimit](pcre.configuration.md#ini.pcre.recursion-limit)
 -   **`PREG_BAD_UTF8_ERROR`**
 -   **`PREG_BAD_UTF8_OFFSET_ERROR`**
 -   **`PREG_JIT_STACKLIMIT_ERROR`**

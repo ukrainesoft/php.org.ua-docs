@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-minkey.html: « MongoDBBSONMinKey
-  - mongodb-bson-minkey.jsonserialize.html: 'MongoDBBSONMinKey::jsonSerialize »'
+  - class.mongodb-bson-minkey.md: « MongoDBBSONMinKey
+  - mongodb-bson-minkey.jsonserialize.md: 'MongoDBBSONMinKey::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-minkey.html: MongoDBBSONMinKey
+  - class.mongodb-bson-minkey.md: MongoDBBSONMinKey
 title: 'MongoDBBSONMinKey::construct'
 ---
 # MongoDBBSONMinKey::construct

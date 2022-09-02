@@ -1,9 +1,9 @@
 ---
 navigation:
-  - libxml.resources.html: « Типи ресурсів
-  - class.libxmlerror.html: libXMLError »
-  - index.html: PHP Manual
-  - book.libxml.html: libxml
+  - libxml.resources.md: « Типи ресурсів
+  - class.libxmlerror.md: libXMLError »
+  - index.md: PHP Manual
+  - book.libxml.md: libxml
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -68,7 +68,7 @@ DTD-атрибути за замовчуванням
 
 > **Зауваження**
 > 
-> Ця настройка доступна на даний момент лише у функціях [DOMDocument::save](domdocument.save.html) і [DOMDocument::saveXML](domdocument.savexml.md)
+> Ця настройка доступна на даний момент лише у функціях [DOMDocument::save](domdocument.save.md) і [DOMDocument::saveXML](domdocument.savexml.md)
 
 **`LIBXML_NOENT`** (int)
 

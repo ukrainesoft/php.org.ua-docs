@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yar-concurrent-client.reset.html: '« YarConcurrentClient::reset'
-  - yar-server-exception.gettype.html: 'YarServerException::getType »'
+  - yar-concurrent-client.reset.md: '« YarConcurrentClient::reset'
+  - yar-server-exception.gettype.md: 'YarServerException::getType »'
   - index.md: PHP Manual
   - book.yar.md: Yar
 title: Клас YarServerException

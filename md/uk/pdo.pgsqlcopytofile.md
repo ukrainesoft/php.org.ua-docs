@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdo.pgsqlcopytoarray.html: '« PDO::pgsqlCopyToArray'
-  - pdo.pgsqlgetnotify.html: 'PDO::pgsqlGetNotify »'
-  - index.html: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - pdo.pgsqlcopytoarray.md: '« PDO::pgsqlCopyToArray'
+  - pdo.pgsqlgetnotify.md: 'PDO::pgsqlGetNotify »'
+  - index.md: PHP Manual
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlCopyToFile'
 ---
 # PDO::pgsqlCopyToFile

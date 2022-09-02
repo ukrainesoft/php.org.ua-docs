@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagecompression.html: '« Imagick::getImageCompression'
-  - imagick.getimagedelay.html: 'Imagick::getImageDelay »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagecompression.md: '« Imagick::getImageCompression'
+  - imagick.getimagedelay.md: 'Imagick::getImageDelay »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageCompressionQuality'
 ---
 # Imagick::getImageCompressionQuality

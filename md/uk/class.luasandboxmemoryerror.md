@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.luasandboxfatalerror.html: « LuaSandboxFatalError
-  - class.luasandboxruntimeerror.html: LuaSandboxRuntimeError »
-  - index.html: PHP Manual
-  - book.luasandbox.html: LuaSandbox
+  - class.luasandboxfatalerror.md: « LuaSandboxFatalError
+  - class.luasandboxruntimeerror.md: LuaSandboxRuntimeError »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
 title: Клас LuaSandboxMemoryError
 ---
 # Клас LuaSandboxMemoryError
@@ -78,4 +78,4 @@ private Exception::__clone(): void
 
 ## Дивіться також
 
--   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.html)
+-   [LuaSandbox::setMemoryLimit()](luasandbox.setmemorylimit.md)

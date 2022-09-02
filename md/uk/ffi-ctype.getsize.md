@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getpointertype.html: '« FFICType::getPointerType'
-  - ffi-ctype.getstructfieldnames.html: 'FFICType::getStructFieldNames »'
+  - ffi-ctype.getpointertype.md: '« FFICType::getPointerType'
+  - ffi-ctype.getstructfieldnames.md: 'FFICType::getStructFieldNames »'
   - index.md: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getSize'
 ---
 # FFICType::getSize

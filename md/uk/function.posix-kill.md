@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-isatty.html: « posixisatty
-  - function.posix-mkfifo.html: posixmkfifo »
+  - function.posix-isatty.md: « posixisatty
+  - function.posix-mkfifo.md: posixmkfifo »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixkill

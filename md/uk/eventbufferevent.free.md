@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbufferevent.enable.html: '« EventBufferEvent::enable'
-  - eventbufferevent.getdnserrorstring.html: 'EventBufferEvent::getDnsErrorString »'
-  - index.html: PHP Manual
-  - class.eventbufferevent.html: EventBufferEvent
+  - eventbufferevent.enable.md: '« EventBufferEvent::enable'
+  - eventbufferevent.getdnserrorstring.md: 'EventBufferEvent::getDnsErrorString »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::free'
 ---
 # EventBufferEvent::free

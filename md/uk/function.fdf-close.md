@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-add-template.html: « fdfaddtemplate
-  - function.fdf-create.html: fdfcreate »
+  - function.fdf-add-template.md: « fdfaddtemplate
+  - function.fdf-create.md: fdfcreate »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfclose
@@ -24,7 +24,7 @@ fdf_close(resource $fdf_document): void
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 

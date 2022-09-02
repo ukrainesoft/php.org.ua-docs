@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-ftruncate.html: « eioftruncate
-  - function.eio-get-event-stream.html: eiogeteventstream »
+  - function.eio-ftruncate.md: « eioftruncate
+  - function.eio-get-event-stream.md: eiogeteventstream »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiofutime

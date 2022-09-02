@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionmodify.sort.html: '« CollectionModify::sort'
-  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove »
+  - mysql-xdevapi-collectionmodify.sort.md: '« CollectionModify::sort'
+  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
 title: 'CollectionModify::unset'
 ---
 # CollectionModify::unset

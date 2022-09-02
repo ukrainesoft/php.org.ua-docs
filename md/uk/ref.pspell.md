@@ -1,7 +1,7 @@
 ---
 navigation:
   - pspell.constants.md: « Обумовлені константи
-  - function.pspell-add-to-personal.html: pspelladdтоpersonal »
+  - function.pspell-add-to-personal.md: pspelladdтоpersonal »
   - index.md: PHP Manual
   - book.pspell.md: Pspell
 title: Функції Pspell

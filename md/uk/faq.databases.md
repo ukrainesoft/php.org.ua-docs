@@ -1,9 +1,9 @@
 ---
 navigation:
-  - faq.obtaining.html: « Получение PHP
-  - faq.installation.html: Установка »
-  - index.html: PHP Manual
-  - faq.html: ЧАВО
+  - faq.obtaining.md: « Получение PHP
+  - faq.installation.md: Установка »
+  - index.md: PHP Manual
+  - faq.md: ЧАВО
 title: Питання щодо Баз даних
 ---
 # Питання щодо Баз даних
@@ -15,9 +15,9 @@ title: Питання щодо Баз даних
 
 **Я чув, що можна отримати доступ до Microsoft SQL сервер з PHP. Як?**
 
-На Unix ви можете використовувати [PDOODBC](ref.pdo-odbc.html) або [Уніфіковане ODBC API](book.uodbc.html)
+На Unix ви можете використовувати [PDOODBC](ref.pdo-odbc.md) або [Уніфіковане ODBC API](book.uodbc.md)
 
-На Windows можна використовувати [PDOSQLSRV](ref.pdo-sqlsrv.html) або [SQLSRV](book.sqlsrv.html)
+На Windows можна використовувати [PDOSQLSRV](ref.pdo-sqlsrv.md) або [SQLSRV](book.sqlsrv.md)
 
 Також дивіться відповідь на запитання.
 

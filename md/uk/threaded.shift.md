@@ -1,9 +1,9 @@
 ---
 navigation:
-  - threaded.run.html: '« Threaded::run'
-  - threaded.synchronized.html: 'Threaded::synchronized »'
-  - index.html: PHP Manual
-  - class.threaded.html: Threaded
+  - threaded.run.md: '« Threaded::run'
+  - threaded.synchronized.md: 'Threaded::synchronized »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
 title: 'Threaded::shift'
 ---
 # Threaded::shift

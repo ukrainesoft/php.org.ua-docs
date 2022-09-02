@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.analyzercount.html: '« SeasLog::analyzerCount'
-  - seaslog.closeloggerstream.html: 'SeasLog::closeLoggerStream »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.analyzercount.md: '« SeasLog::analyzerCount'
+  - seaslog.closeloggerstream.md: 'SeasLog::closeLoggerStream »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::analyzerDetail'
 ---
 # SeasLog::analyzerDetail
@@ -44,10 +44,10 @@ SeasLog отримує результат виконання команди grep
 
 `order`
 
-Ціле число. За замовчуванням [SEASLOGDETAILORDERASC](seaslog.constants.html#constant.seaslog-detail-order-asc). Дивіться також:
+Ціле число. За замовчуванням [SEASLOGDETAILORDERASC](seaslog.constants.md#constant.seaslog-detail-order-asc). Дивіться також:
 
--   [SEASLOGDETAILORDERASC](seaslog.constants.html#constant.seaslog-detail-order-asc)
--   [SEASLOGDETAILORDERDESC](seaslog.constants.html#constant.seaslog-detail-order-desc)
+-   [SEASLOGDETAILORDERASC](seaslog.constants.md#constant.seaslog-detail-order-asc)
+-   [SEASLOGDETAILORDERDESC](seaslog.constants.md#constant.seaslog-detail-order-desc)
 
 ### Значення, що повертаються
 

@@ -22,7 +22,7 @@ ReflectionFunction::isDisabled — Перевіряє, що функція ви�
 public ReflectionFunction::isDisabled(): bool
 ```
 
-Перевіряє, чи функція вимкнена, за допомогою директиви [disablefunctions](ini.core.html#ini.disable-functions)
+Перевіряє, чи функція вимкнена, за допомогою директиви [disablefunctions](ini.core.md#ini.disable-functions)
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ public ReflectionFunction::isDisabled(): bool
 ### Дивіться також
 
 -   [ReflectionFunctionAbstract::isUserDefined()](reflectionfunctionabstract.isuserdefined.md) - Перевіряє, чи функція є певною користувачем
--   [Директива disablefunctions](ini.core.html#ini.disable-functions)
+-   [Директива disablefunctions](ini.core.md#ini.disable-functions)

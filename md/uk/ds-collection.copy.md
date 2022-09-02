@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-collection.clear.html: '« DsCollection::clear'
-  - ds-collection.isempty.html: 'ДсCollection::isEmpty »'
-  - index.html: PHP Manual
-  - class.ds-collection.html: Коллекция
+  - ds-collection.clear.md: '« DsCollection::clear'
+  - ds-collection.isempty.md: 'ДсCollection::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-collection.md: Коллекция
 title: 'ДсCollection::copy'
 ---
 # ДсCollection::copy

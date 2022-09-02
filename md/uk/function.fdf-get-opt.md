@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-get-flags.html: « fdfgetflags
-  - function.fdf-get-status.html: fdfgetstatus »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-get-flags.md: « fdfgetflags
+  - function.fdf-get-status.md: fdfgetstatus »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfgetopt
 ---
 # fdfgetopt

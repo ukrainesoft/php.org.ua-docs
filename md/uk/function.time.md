@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strtotime.html: « strtotime
-  - function.timezone-abbreviations-list.html: timezoneabbreviationslist »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.strtotime.md: « strtotime
+  - function.timezone-abbreviations-list.md: timezoneabbreviationslist »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: time
 ---
 # time
@@ -22,7 +22,7 @@ time(): int
 
 > **Зауваження**
 > 
-> Мітки часу Unix не містять жодної інформації щодо локального часового поясу. Рекомендується використовувати клас [DateTimeImmutable](class.datetimeimmutable.html) для роботи з інформацією про дату та час, щоб уникнути підводних каменів, пов'язаних з мітками часу Unix.
+> Мітки часу Unix не містять жодної інформації щодо локального часового поясу. Рекомендується використовувати клас [DateTimeImmutable](class.datetimeimmutable.md) для роботи з інформацією про дату та час, щоб уникнути підводних каменів, пов'язаних з мітками часу Unix.
 
 ### Список параметрів
 
@@ -53,9 +53,9 @@ echo 'Сейчас: '. time();
 
 **Підказка**
 
-Час початку запиту доступний у глобальній змінній [SERVER\['REQUESTTIME'\]](reserved.variables.server.html)
+Час початку запиту доступний у глобальній змінній [SERVER\['REQUESTTIME'\]](reserved.variables.server.md)
 
 ### Дивіться також
 
--   [date()](function.date.html) - Форматує тимчасову мітку Unix
--   [microtime()](function.microtime.html) - Повертає поточну позначку часу Unix з мікросекундами
+-   [date()](function.date.md) - Форматує тимчасову мітку Unix
+-   [microtime()](function.microtime.md) - Повертає поточну позначку часу Unix з мікросекундами

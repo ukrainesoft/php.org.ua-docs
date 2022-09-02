@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-async.writefile.html: '« SwooleAsync::writeFile'
-  - swoole-atomic.add.html: 'SwooleAtomic::add »'
+  - swoole-async.writefile.md: '« SwooleAsync::writeFile'
+  - swoole-atomic.add.md: 'SwooleAtomic::add »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleAtomic

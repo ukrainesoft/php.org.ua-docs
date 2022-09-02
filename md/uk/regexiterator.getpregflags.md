@@ -1,9 +1,9 @@
 ---
 navigation:
-  - regexiterator.getmode.html: '« RegexIterator::getMode'
-  - regexiterator.getregex.html: 'RegexIterator::getRegex »'
-  - index.html: PHP Manual
-  - class.regexiterator.html: RegexIterator
+  - regexiterator.getmode.md: '« RegexIterator::getMode'
+  - regexiterator.getregex.md: 'RegexIterator::getRegex »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::getPregFlags'
 ---
 # RegexIterator::getPregFlags
@@ -18,7 +18,7 @@ RegexIterator::getPregFlags — Повертає прапори регулярн
 public RegexIterator::getPregFlags(): int
 ```
 
-Повертає прапори регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.html)
+Повертає прапори регулярного виразу. Список можливих прапорів наведено в описі методу [RegexIterator::construct()](regexiterator.construct.md)
 
 ### Список параметрів
 
@@ -58,4 +58,4 @@ if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {
 
 ### Дивіться також
 
--   [RegexIterator::setPregFlags()](regexiterator.setpregflags.html) - Завдання прапорів регулярного вираження
+-   [RegexIterator::setPregFlags()](regexiterator.setpregflags.md) - Завдання прапорів регулярного вираження

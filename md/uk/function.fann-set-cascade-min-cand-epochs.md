@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-cascade-max-out-epochs.html: « fannsetcascademaxoutepochs
-  - function.fann-set-cascade-min-out-epochs.html: fannsetcascademinoutepochs »
+  - function.fann-set-cascade-max-out-epochs.md: « fannsetcascademaxoutepochs
+  - function.fann-set-cascade-min-out-epochs.md: fannsetcascademinoutepochs »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetcascademincandepochs

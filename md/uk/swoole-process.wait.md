@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.usequeue.html: '« SwooleProcess::useQueue'
-  - swoole-process.write.html: 'SwooleProcess::write »'
+  - swoole-process.usequeue.md: '« SwooleProcess::useQueue'
+  - swoole-process.write.md: 'SwooleProcess::write »'
   - index.md: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::wait'
 ---
 # SwooleProcess::wait

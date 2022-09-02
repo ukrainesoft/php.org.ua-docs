@@ -1,7 +1,7 @@
 ---
 navigation:
   - taint.detail.untaint.md: '« Функції, які не будуть обробляти зіпсований рядок'
-  - function.is-tainted.html: ісtainted »
+  - function.is-tainted.md: ісtainted »
   - index.md: PHP Manual
   - book.taint.md: Taint
 title: Функції Taint

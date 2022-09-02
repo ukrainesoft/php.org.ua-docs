@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.heartbeat.html: '« SwooleServer::heartbeat'
-  - swoole-server.on.html: 'SwooleServer::on »'
+  - swoole-server.heartbeat.md: '« SwooleServer::heartbeat'
+  - swoole-server.on.md: 'SwooleServer::on »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::listen'
 ---
 # SwooleServer::listen

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.affected-rows.html: '« mysqlistmt::$affectedrows'
-  - mysqli-stmt.attr-set.html: 'mysqlistmt::attrset »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.affected-rows.md: '« mysqlistmt::$affectedrows'
+  - mysqli-stmt.attr-set.md: 'mysqlistmt::attrset »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::attrget'
 ---
 # mysqlistmt::attrget
@@ -34,7 +34,7 @@ mysqli_stmt_attr_get(mysqli_stmt $statement, int $attribute): int
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `attribute`
 

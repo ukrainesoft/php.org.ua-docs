@@ -1,9 +1,9 @@
 ---
 navigation:
-  - transports.html: « Список підтримуваних транспортних протоколів
-  - transports.unix.html: 'Unix-сокети: UNIX та UDG »'
-  - index.html: PHP Manual
-  - transports.html: Список підтримуваних транспортних протоколів
+  - transports.md: « Список підтримуваних транспортних протоколів
+  - transports.unix.md: 'Unix-сокети: UNIX та UDG »'
+  - index.md: PHP Manual
+  - transports.md: Список підтримуваних транспортних протоколів
 title: 'Інтернет-сокети: TCP, UDP, SSL та TLS'
 ---
 ## Інтернет-сокети: TCP, UDP, SSL та TLS
@@ -24,7 +24,7 @@ title: 'Інтернет-сокети: TCP, UDP, SSL та TLS'
 -   `sslv3://www.example.com`
 -   `tls://www.example.com`
 
-Інтернет-сокети вимагають вказівки порту на додаток до адреси. В разі [fsockopen()](function.fsockopen.html), порт передається другим параметром і не торкається рядка адреси. При роботі з [streamsocketclient()](function.stream-socket-client.html) та іншими близькими функціями, як і у випадку зі стандартними URL-адресами, порт вказується в кінці адреси, відокремлений двокрапкою.
+Інтернет-сокети вимагають вказівки порту на додаток до адреси. В разі [fsockopen()](function.fsockopen.md), порт передається другим параметром і не торкається рядка адреси. При роботі з [streamsocketclient()](function.stream-socket-client.md) та іншими близькими функціями, як і у випадку зі стандартними URL-адресами, порт вказується в кінці адреси, відокремлений двокрапкою.
 
 -   `tcp://127.0.0.1:80`
 -   `tcp://[fe80::1]:80`

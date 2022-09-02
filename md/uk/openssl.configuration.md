@@ -1,9 +1,9 @@
 ---
 navigation:
-  - openssl.installation.html: « Установка
-  - openssl.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - openssl.setup.html: Встановлення та налаштування
+  - openssl.installation.md: « Установка
+  - openssl.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - openssl.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

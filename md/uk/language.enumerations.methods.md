@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.enumerations.backed.html: Типізовані перерахування
-  - language.enumerations.static-methods.html: Статичні методи перерахувань »
-  - index.html: PHP Manual
-  - language.enumerations.html: Перечисления
+  - language.enumerations.backed.md: Типізовані перерахування
+  - language.enumerations.static-methods.md: Статичні методи перерахувань »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
 title: Методи перерахувань
 ---
 ## Методи перерахувань
@@ -81,7 +81,7 @@ enum Suit: string implements Colorful
 
 Усередині методу визначається змінна `$this`, Що посилається на екземпляр варіанта.
 
-Методи можуть бути як завгодно складними, але на практиці зазвичай повертають статичне значення або [match](control-structures.match.html) для `$this`, щоб надати різні результати для різних випадків.
+Методи можуть бути як завгодно складними, але на практиці зазвичай повертають статичне значення або [match](control-structures.match.md) для `$this`, щоб надати різні результати для різних випадків.
 
 Зверніть увагу, що в цьому випадку було б краще визначити тип перерахування `SuitColor` зі значеннями Red і Black і повернути його натомість. Однак це ускладнило б цей приклад.
 

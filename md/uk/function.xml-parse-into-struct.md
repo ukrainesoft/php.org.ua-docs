@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-get-error-code.html: « xmlgeterrorcode
-  - function.xml-parse.html: xmlparse »
+  - function.xml-get-error-code.md: « xmlgeterrorcode
+  - function.xml-parse.md: xmlparse »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlparseintostruct

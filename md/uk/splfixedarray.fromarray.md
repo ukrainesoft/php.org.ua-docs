@@ -1,16 +1,16 @@
 ---
 navigation:
-  - splfixedarray.current.html: '« SplFixedArray::current'
-  - splfixedarray.getsize.html: 'SplFixedArray::getSize »'
-  - index.html: PHP Manual
-  - class.splfixedarray.html: SplFixedArray
+  - splfixedarray.current.md: '« SplFixedArray::current'
+  - splfixedarray.getsize.md: 'SplFixedArray::getSize »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::fromArray'
 ---
 # SplFixedArray::fromArray
 
 (PHP 5> = 5.3.0, PHP 7, PHP 8)
 
-SplFixedArray::fromArray - Імпортує PHP-масив в об'єкт класу [SplFixedArray](class.splfixedarray.html)
+SplFixedArray::fromArray - Імпортує PHP-масив в об'єкт класу [SplFixedArray](class.splfixedarray.md)
 
 ### Опис
 
@@ -18,7 +18,7 @@ SplFixedArray::fromArray - Імпортує PHP-масив в об'єкт кла
 public static SplFixedArray::fromArray(array $array, bool $preserveKeys = true): SplFixedArray
 ```
 
-Імпортує PHP-масив `array` у новий об'єкт класу [SplFixedArray](class.splfixedarray.html)
+Імпортує PHP-масив `array` у новий об'єкт класу [SplFixedArray](class.splfixedarray.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ public static SplFixedArray::fromArray(array $array, bool $preserveKeys = true):
 
 ### Значення, що повертаються
 
-Повертає об'єкт класу [SplFixedArray](class.splfixedarray.html)містить дані з імпортованого масиву.
+Повертає об'єкт класу [SplFixedArray](class.splfixedarray.md)містить дані з імпортованого масиву.
 
 ### Приклади
 

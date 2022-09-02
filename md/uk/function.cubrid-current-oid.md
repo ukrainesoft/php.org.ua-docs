@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-connect.html: « cubridconnect
-  - function.cubrid-disconnect.html: cubriddisconnect »
+  - function.cubrid-connect.md: « cubridconnect
+  - function.cubrid-disconnect.md: cubriddisconnect »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridcurrentoid

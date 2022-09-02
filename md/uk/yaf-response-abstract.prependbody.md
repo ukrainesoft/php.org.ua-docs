@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-response-abstract.getheader.html: '« YafResponseAbstract::getHeader'
-  - yaf-response-abstract.response.html: 'YafResponseAbstract::response »'
+  - yaf-response-abstract.getheader.md: '« YafResponseAbstract::getHeader'
+  - yaf-response-abstract.response.md: 'YafResponseAbstract::response »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.html: YafResponseAbstract
+  - class.yaf-response-abstract.md: YafResponseAbstract
 title: 'YafResponseAbstract::prependBody'
 ---
 # YafResponseAbstract::prependBody

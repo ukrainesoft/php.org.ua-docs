@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.hash-algos.html: « hashalgos
-  - function.hash-equals.html: hashequals »
-  - index.html: PHP Manual
-  - ref.hash.html: Функции Hash
+  - function.hash-algos.md: « hashalgos
+  - function.hash-equals.md: hashequals »
+  - index.md: PHP Manual
+  - ref.hash.md: Функции Hash
 title: hashcopy
 ---
 # hashcopy

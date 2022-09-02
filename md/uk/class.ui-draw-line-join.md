@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.ui-draw-line-cap.html: « UIDrawLineCap
-  - class.ui-key.html: ОЙKey »
+  - class.ui-draw-line-cap.md: « UIDrawLineCap
+  - class.ui-key.md: ОЙKey »
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Налаштування з'єднання ліній

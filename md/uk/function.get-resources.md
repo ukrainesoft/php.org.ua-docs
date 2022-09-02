@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.get-required-files.html: « getrequiredfiles
+  - function.get-required-files.md: « getrequiredfiles
   - function.getenv.md: getenv »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції

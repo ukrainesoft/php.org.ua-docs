@@ -44,19 +44,19 @@ title: Обумовлені константи
 
 **`RUNKIT7_ACC_PUBLIC`** (int)
 
-Прапор для [runkit7methodadd()](function.runkit7-method-add.html) і [runkit7methodredefine()](function.runkit7-method-redefine.md), щоб зробити метод публічним
+Прапор для [runkit7methodadd()](function.runkit7-method-add.md) і [runkit7methodredefine()](function.runkit7-method-redefine.md), щоб зробити метод публічним
 
 **`RUNKIT7_ACC_PROTECTED`** (int)
 
-Прапор для [runkit7methodadd()](function.runkit7-method-add.html) and [runkit7methodredefine()](function.runkit7-method-redefine.md), щоб зробити метод захищеним.
+Прапор для [runkit7methodadd()](function.runkit7-method-add.md) and [runkit7methodredefine()](function.runkit7-method-redefine.md), щоб зробити метод захищеним.
 
 **`RUNKIT7_ACC_PRIVATE`** (int)
 
-Прапор для [runkit7methodadd()](function.runkit7-method-add.html) and [runkit7methodredefine()](function.runkit7-method-redefine.md), щоб зробити метод приватним
+Прапор для [runkit7methodadd()](function.runkit7-method-add.md) and [runkit7methodredefine()](function.runkit7-method-redefine.md), щоб зробити метод приватним
 
 **`RUNKIT7_ACC_STATIC`** (int)
 
-Прапор для [runkit7methodadd()](function.runkit7-method-add.html) and [runkit7methodredefine()](function.runkit7-method-redefine.md)зробити метод статичним.
+Прапор для [runkit7methodadd()](function.runkit7-method-add.md) and [runkit7methodredefine()](function.runkit7-method-redefine.md)зробити метод статичним.
 
 **`RUNKIT7_FEATURE_MANIPULATION`** (int)
 

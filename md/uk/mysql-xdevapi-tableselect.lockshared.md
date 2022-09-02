@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.lockexclusive.html: '« TableSelect::lockExclusive'
-  - mysql-xdevapi-tableselect.offset.html: 'TableSelect::offset »'
+  - mysql-xdevapi-tableselect.lockexclusive.md: '« TableSelect::lockExclusive'
+  - mysql-xdevapi-tableselect.offset.md: 'TableSelect::offset »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::lockShared'
 ---
 # TableSelect::lockShared

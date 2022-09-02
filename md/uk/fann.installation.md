@@ -1,18 +1,18 @@
 ---
 navigation:
-  - fann.requirements.html: « Вимоги
-  - fann.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - fann.setup.html: Встановлення та налаштування
+  - fann.requirements.md: « Вимоги
+  - fann.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - fann.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення
 
 Модуль FANN має працювати на будь-яких дистрибутивах Linux.
 
--   [Установка библиотеки FANN](fann.installation.html#fann.installation.lib)
--   [Установка из PECL](fann.installation.html#fann.installation.pecl)
--   [Ручная установка](fann.installation.html#fann.installation.manual)
+-   [Установка библиотеки FANN](fann.installation.md#fann.installation.lib)
+-   [Установка из PECL](fann.installation.md#fann.installation.pecl)
+-   [Ручная установка](fann.installation.md#fann.installation.manual)
 
 ## Встановлення бібліотеки FANN
 

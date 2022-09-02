@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.restore-error-handler.html: « restoreerrorhandler
-  - function.set-error-handler.html: seterrorhandler »
-  - index.html: PHP Manual
-  - ref.errorfunc.html: Функции обработки ошибок
+  - function.restore-error-handler.md: « restoreerrorhandler
+  - function.set-error-handler.md: seterrorhandler »
+  - index.md: PHP Manual
+  - ref.errorfunc.md: Функции обработки ошибок
 title: restoreexceptionhandler
 ---
 # restoreexceptionhandler
@@ -18,7 +18,7 @@ restoreexceptionhandler — Відновлює попередній обробн
 restore_exception_handler(): bool
 ```
 
-Використовується після зміни обробника виключень функцією [setexceptionhandler()](function.set-exception-handler.html), щоб повернути попередній обробник (який може бути як вбудованою функцією, так і певною користувачем).
+Використовується після зміни обробника виключень функцією [setexceptionhandler()](function.set-exception-handler.md), щоб повернути попередній обробник (який може бути як вбудованою функцією, так і певною користувачем).
 
 ### Список параметрів
 
@@ -61,7 +61,7 @@ restore_exception_handler(): bool
 
 ### Дивіться також
 
--   [setexceptionhandler()](function.set-exception-handler.html) - Задає користувальницький обробник винятків
--   [seterrorhandler()](function.set-error-handler.html) - Задає користувальницький обробник помилок
--   [restoreerrorhandler()](function.restore-error-handler.html) - Відновлює попередній обробник помилок
--   [errorreporting()](function.error-reporting.html) - Задає, які помилки PHP потраплять у звіт
+-   [setexceptionhandler()](function.set-exception-handler.md) - Задає користувальницький обробник винятків
+-   [seterrorhandler()](function.set-error-handler.md) - Задає користувальницький обробник помилок
+-   [restoreerrorhandler()](function.restore-error-handler.md) - Відновлює попередній обробник помилок
+-   [errorreporting()](function.error-reporting.md) - Задає, які помилки PHP потраплять у звіт

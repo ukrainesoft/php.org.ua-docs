@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdostatement.fetchobject.html: '« PDOStatement::fetchObject'
-  - pdostatement.getcolumnmeta.html: 'PDOStatement::getColumnMeta »'
-  - index.html: PHP Manual
-  - class.pdostatement.html: PDOStatement
+  - pdostatement.fetchobject.md: '« PDOStatement::fetchObject'
+  - pdostatement.getcolumnmeta.md: 'PDOStatement::getColumnMeta »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::getAttribute'
 ---
 # PDOStatement::getAttribute
@@ -36,6 +36,6 @@ public PDOStatement::getAttribute(int $name): mixed
 
 ### Дивіться також
 
--   [PDO::getAttribute()](pdo.getattribute.html) - Отримати атрибут з'єднання з базою даних
--   [PDO::setAttribute()](pdo.setattribute.html) - Встановлення атрибуту
--   [PDOStatement::setAttribute()](pdostatement.setattribute.html) - Встановлює атрибут об'єкту PDOStatement
+-   [PDO::getAttribute()](pdo.getattribute.md) - Отримати атрибут з'єднання з базою даних
+-   [PDO::setAttribute()](pdo.setattribute.md) - Встановлення атрибуту
+-   [PDOStatement::setAttribute()](pdostatement.setattribute.md) - Встановлює атрибут об'єкту PDOStatement

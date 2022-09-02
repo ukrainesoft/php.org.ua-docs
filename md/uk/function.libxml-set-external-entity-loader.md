@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.libxml-get-last-error.html: « libxmlgetlasterror
-  - function.libxml-set-streams-context.html: libxmlsetstreamscontext »
+  - function.libxml-get-last-error.md: « libxmlgetlasterror
+  - function.libxml-set-streams-context.md: libxmlsetstreamscontext »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
 title: libxmlsetexternalentityloader

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixeliterator.resetiterator.html: '« ImagickPixelIterator::resetIterator'
-  - imagickpixeliterator.setiteratorlastrow.html: 'ImagickPixelIterator::setIteratorLastRow »'
-  - index.html: PHP Manual
-  - class.imagickpixeliterator.html: ImagickPixelIterator
+  - imagickpixeliterator.resetiterator.md: '« ImagickPixelIterator::resetIterator'
+  - imagickpixeliterator.setiteratorlastrow.md: 'ImagickPixelIterator::setIteratorLastRow »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
 title: 'ImagickPixelIterator::setIteratorFirstRow'
 ---
 # ImagickPixelIterator::setIteratorFirstRow

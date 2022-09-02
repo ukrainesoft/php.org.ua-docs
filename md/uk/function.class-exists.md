@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.class-alias.html: « classalias
-  - function.enum-exists.html: enumexists »
-  - index.html: PHP Manual
-  - ref.classobj.html: Функції роботи з класами та об'єктами
+  - function.class-alias.md: « classalias
+  - function.enum-exists.md: enumexists »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
 title: classexists
 ---
 # classexists

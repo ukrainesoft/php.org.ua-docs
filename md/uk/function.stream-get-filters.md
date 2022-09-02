@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-get-contents.html: « streamgetcontents
-  - function.stream-get-line.html: streamgetline »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-get-contents.md: « streamgetcontents
+  - function.stream-get-line.md: streamgetline »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamgetfilters
 ---
 # streamgetfilters
@@ -53,5 +53,5 @@ Array (
 
 ### Дивіться також
 
--   [streamfilterregister()](function.stream-filter-register.html) - Реєструє потоковий фільтр, визначений користувачем
--   [streamgetwrappers()](function.stream-get-wrappers.html) - Отримати список зареєстрованих потоків
+-   [streamfilterregister()](function.stream-filter-register.md) - Реєструє потоковий фільтр, визначений користувачем
+-   [streamgetwrappers()](function.stream-get-wrappers.md) - Отримати список зареєстрованих потоків

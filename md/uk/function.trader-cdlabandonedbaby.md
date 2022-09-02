@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdl3whitesoldiers.html: « tradercdl3whitesoldiers
-  - function.trader-cdladvanceblock.html: tradercdladvanceblock »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdl3whitesoldiers.md: « tradercdl3whitesoldiers
+  - function.trader-cdladvanceblock.md: tradercdladvanceblock »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlabandonedbaby
 ---
 # tradercdlabandonedbaby

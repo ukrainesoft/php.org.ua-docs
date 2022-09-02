@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getpointsize.html: '« Imagick::getPointSize'
-  - imagick.getquantumdepth.html: 'Imagick::getQuantumDepth »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getpointsize.md: '« Imagick::getPointSize'
+  - imagick.getquantumdepth.md: 'Imagick::getQuantumDepth »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getQuantum'
 ---
 # Imagick::getQuantum

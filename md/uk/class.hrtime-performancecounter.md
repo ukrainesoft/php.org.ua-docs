@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hrtime.example.basic.html: « Основи використання
-  - hrtime-performancecounter.getfrequency.html: 'HRTimePerformanceCounter::getFrequency »'
-  - index.html: PHP Manual
-  - book.hrtime.html: HRTime
+  - hrtime.example.basic.md: « Основи використання
+  - hrtime-performancecounter.getfrequency.md: 'HRTimePerformanceCounter::getFrequency »'
+  - index.md: PHP Manual
+  - book.hrtime.md: HRTime
 title: Клас HRTimePerformanceCounter
 ---
 # Клас HRTimePerformanceCounter
@@ -36,6 +36,6 @@ public static getTicksSince(int $start): int
 
 ## Зміст
 
--   [HRTimePerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.html) - Частота таймера в тиках за секунду
--   [HRTimePerformanceCounter::getTicks](hrtime-performancecounter.getticks.html) - Поточне значення тиків системи
--   [HRTimePerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.html) - Кількість тиків, що пройшли із заданого значення
+-   [HRTimePerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md) - Частота таймера в тиках за секунду
+-   [HRTimePerformanceCounter::getTicks](hrtime-performancecounter.getticks.md) - Поточне значення тиків системи
+-   [HRTimePerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md) - Кількість тиків, що пройшли із заданого значення

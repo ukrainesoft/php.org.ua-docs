@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.getcommentname.html: '« ZipArchive::getCommentName'
-  - ziparchive.getexternalattributesname.html: 'ZipArchive::getExternalAttributesName »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.getcommentname.md: '« ZipArchive::getCommentName'
+  - ziparchive.getexternalattributesname.md: 'ZipArchive::getExternalAttributesName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getExternalAttributesIndex'
 ---
 # ZipArchive::getExternalAttributesIndex

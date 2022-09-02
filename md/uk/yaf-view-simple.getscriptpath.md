@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-view-simple.get.html: '« YafViewSimple::get'
-  - yaf-view-simple.isset.html: 'YafViewSimple::isset »'
-  - index.html: PHP Manual
-  - class.yaf-view-simple.html: YafViewSimple
+  - yaf-view-simple.get.md: '« YafViewSimple::get'
+  - yaf-view-simple.isset.md: 'YafViewSimple::isset »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.md: YafViewSimple
 title: 'YafViewSimple::getScriptPath'
 ---
 # YafViewSimple::getScriptPath

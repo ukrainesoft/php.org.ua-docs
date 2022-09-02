@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.pathcurvetosmoothrelative.html: '« ImagickDraw::pathCurveToSmoothRelative'
-  - imagickdraw.pathellipticarcrelative.html: 'ImagickDraw::pathEllipticArcRelative »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.pathcurvetosmoothrelative.md: '« ImagickDraw::pathCurveToSmoothRelative'
+  - imagickdraw.pathellipticarcrelative.md: 'ImagickDraw::pathEllipticArcRelative »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathEllipticArcAbsolute'
 ---
 # ImagickDraw::pathEllipticArcAbsolute

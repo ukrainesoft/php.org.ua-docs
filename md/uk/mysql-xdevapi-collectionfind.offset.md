@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.lockshared.html: '« CollectionFind::lockShared'
-  - mysql-xdevapi-collectionfind.sort.html: 'CollectionFind::sort »'
+  - mysql-xdevapi-collectionfind.lockshared.md: '« CollectionFind::lockShared'
+  - mysql-xdevapi-collectionfind.sort.md: 'CollectionFind::sort »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
 title: 'CollectionFind::offset'
 ---
 # CollectionFind::offset

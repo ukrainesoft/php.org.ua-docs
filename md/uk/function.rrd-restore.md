@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rrd-lastupdate.html: « rrdlastupdate
-  - function.rrd-tune.html: rrdtune »
-  - index.html: PHP Manual
-  - ref.rrd.html: Функції RRD
+  - function.rrd-lastupdate.md: « rrdlastupdate
+  - function.rrd-tune.md: rrdtune »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
 title: rrdrestore
 ---
 # rrdrestore

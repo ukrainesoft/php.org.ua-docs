@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.sort.html: '« DsSet::sort'
-  - ds-set.sum.html: 'ДсSet::sum »'
+  - ds-set.sort.md: '« DsSet::sort'
+  - ds-set.sum.md: 'ДсSet::sum »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::sorted'
 ---
 # ДсSet::sorted

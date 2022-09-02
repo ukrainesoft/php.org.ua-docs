@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.phptoken.html: « PhpToken
-  - phptoken.gettokenname.html: 'PhpToken::getTokenName »'
-  - index.html: PHP Manual
-  - class.phptoken.html: PhpToken
+  - class.phptoken.md: « PhpToken
+  - phptoken.gettokenname.md: 'PhpToken::getTokenName »'
+  - index.md: PHP Manual
+  - class.phptoken.md: PhpToken
 title: 'PhpToken::construct'
 ---
 # PhpToken::construct
@@ -26,7 +26,7 @@ int `$pos`
 
 `id`
 
-Одна з констант T (дивіться [Список меток (tokens) парсера](tokens.html)), або символ ASCII, що представляє односимвольний токен.
+Одна з констант T (дивіться [Список меток (tokens) парсера](tokens.md)), або символ ASCII, що представляє односимвольний токен.
 
 `text`
 
@@ -42,4 +42,4 @@ int `$pos`
 
 ### Дивіться також
 
--   [PhpToken::tokenize()](phptoken.tokenize.html) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken
+-   [PhpToken::tokenize()](phptoken.tokenize.md) - Розбирає заданий рядок, що містить програму на PHP, на масив об'єктів PhpToken

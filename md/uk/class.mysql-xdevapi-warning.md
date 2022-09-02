@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableupdate.where.html: '« TableUpdate::where'
-  - mysql-xdevapi-warning.construct.html: 'Warning::construct »'
+  - mysql-xdevapi-tableupdate.where.md: '« TableUpdate::where'
+  - mysql-xdevapi-warning.construct.md: 'Warning::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас Warning
 ---
 # Клас Warning

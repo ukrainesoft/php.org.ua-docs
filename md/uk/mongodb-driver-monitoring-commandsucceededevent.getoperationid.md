@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros'
-  - mongodb-driver-monitoring-commandsucceededevent.getreply.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getReply »'
+  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros'
+  - mongodb-driver-monitoring-commandsucceededevent.getreply.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getReply »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
 title: 'MongoDBDriverMonitoringCommandSucceededEvent::getOperationId'
 ---
 # MongoDBDriverMonitoringCommandSucceededEvent::getOperationId

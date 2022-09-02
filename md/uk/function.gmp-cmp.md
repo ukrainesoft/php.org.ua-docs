@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-clrbit.html: « gmpclrbit
-  - function.gmp-com.html: gmpcom »
+  - function.gmp-clrbit.md: « gmpclrbit
+  - function.gmp-com.md: gmpcom »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpcmp

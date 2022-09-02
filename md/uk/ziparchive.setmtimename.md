@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.setmtimeindex.html: '« ZipArchive::setMtimeIndex'
-  - ziparchive.setpassword.html: 'ZipArchive::setPassword »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.setmtimeindex.md: '« ZipArchive::setMtimeIndex'
+  - ziparchive.setpassword.md: 'ZipArchive::setPassword »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::setMtimeName'
 ---
 # ZipArchive::setMtimeName

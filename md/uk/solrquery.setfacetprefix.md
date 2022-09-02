@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.setfacetoffset.html: '« SolrQuery::setFacetOffset'
-  - solrquery.setfacetsort.html: 'SolrQuery::setFacetSort »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.setfacetoffset.md: '« SolrQuery::setFacetOffset'
+  - solrquery.setfacetsort.md: 'SolrQuery::setFacetSort »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setFacetPrefix'
 ---
 # SolrQuery::setFacetPrefix

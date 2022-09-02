@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-ma.html: « traderма
-  - function.trader-macdext.html: tradermacdext »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-ma.md: « traderма
+  - function.trader-macdext.md: tradermacdext »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradermacd
 ---
 # tradermacd

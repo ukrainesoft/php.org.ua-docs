@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-standard-deviation.html: « statsstandarddeviation
-  - function.stats-stat-correlation.html: statsstatcorrelation »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-standard-deviation.md: « statsstandarddeviation
+  - function.stats-stat-correlation.md: statsstatcorrelation »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsстатиbinomialcoef
 ---
 # statsстатиbinomialcoef

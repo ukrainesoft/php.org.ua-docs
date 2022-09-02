@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.variant-and.html: « variantand
-  - function.variant-cat.html: variantcat »
-  - index.html: PHP Manual
-  - ref.com.html: Функции COM
+  - function.variant-and.md: « variantand
+  - function.variant-cat.md: variantcat »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
 title: variantcast
 ---
 # variantcast
@@ -38,4 +38,4 @@ variant_cast(variant $variant, int $type): variant
 
 ### Дивіться також
 
--   [variantsettype()](function.variant-set-type.html) - Приведення варіанта до іншого типу "за місцем"
+-   [variantsettype()](function.variant-set-type.md) - Приведення варіанта до іншого типу "за місцем"

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-http-input.html: « mbhttpinput
-  - function.mb-internal-encoding.html: мбinternalencoding »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-http-input.md: « mbhttpinput
+  - function.mb-internal-encoding.md: мбinternalencoding »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбhttpoutput
 ---
 # мбhttpoutput

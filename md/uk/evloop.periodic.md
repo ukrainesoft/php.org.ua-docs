@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evloop.nowupdate.html: '« EvLoop::nowUpdate'
-  - evloop.prepare.html: 'EvLoop::prepare »'
-  - index.html: PHP Manual
-  - class.evloop.html: EvLoop
+  - evloop.nowupdate.md: '« EvLoop::nowUpdate'
+  - evloop.prepare.md: 'EvLoop::prepare »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
 title: 'EvLoop::periodic'
 ---
 # EvLoop::periodic
@@ -41,7 +41,7 @@ final
 
 ### Список параметрів
 
-Усі параметри, що й для [EvPeriodic::construct()](evperiodic.construct.html)
+Усі параметри, що й для [EvPeriodic::construct()](evperiodic.construct.md)
 
 ### Значення, що повертаються
 
@@ -49,4 +49,4 @@ final
 
 ### Дивіться також
 
--   [EvPeriodic::construct()](evperiodic.construct.html) - Конструктор об'єкта спостерігача EvPeriodic
+-   [EvPeriodic::construct()](evperiodic.construct.md) - Конструктор об'єкта спостерігача EvPeriodic

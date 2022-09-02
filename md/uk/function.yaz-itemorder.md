@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-hits.html: « yazhits
-  - function.yaz-present.html: yazpresent »
+  - function.yaz-hits.md: « yazhits
+  - function.yaz-present.md: yazpresent »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazitemorder

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.isempty.html: '« DsDeque::isEmpty'
-  - ds-deque.jsonserialize.html: 'ДсDeque::jsonSerialize »'
+  - ds-deque.isempty.md: '« DsDeque::isEmpty'
+  - ds-deque.jsonserialize.md: 'ДсDeque::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::join'
 ---
 # ДсDeque::join

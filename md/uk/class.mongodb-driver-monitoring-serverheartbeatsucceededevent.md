@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.html: '« MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited'
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.html: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros »'
-  - index.html: PHP Manual
-  - mongodb.monitoring.html: MongoDBDriverMonitoring
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md: '« MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.md: 'MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros »'
+  - index.md: PHP Manual
+  - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Клас MongoDBDriverMonitoringServerHeartbeatSucceededEvent
 ---
 # Клас MongoDBDriverMonitoringServerHeartbeatSucceededEvent
@@ -41,8 +41,8 @@ final public isAwaited(): bool
 
 ## Зміст
 
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.html) — Повертає тривалість heartbeat у мікросекундах
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost](mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.html) — Повертає ім'я сервера.
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.html) — Повертає порт, на якому прослуховується сервер
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.html) - Повертає документ відповіді heartbeat
--   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.html) — Повертає, чи використовувався в heartbeat потоковий протокол
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.md) — Повертає тривалість heartbeat у мікросекундах
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getHost](mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md) — Повертає ім'я сервера.
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getPort](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.md) — Повертає порт, на якому прослуховується сервер
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::getReply](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md) - Повертає документ відповіді heartbeat
+-   [MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md) — Повертає, чи використовувався в heartbeat потоковий протокол

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.cubrid.html: « CUBRID
-  - cubrid.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.cubrid.html: CUBRID
+  - book.cubrid.md: « CUBRID
+  - cubrid.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.cubrid.md: CUBRID
 title: Вступ
 ---
 # Вступ

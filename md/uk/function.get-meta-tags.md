@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-headers.html: « getheaders
-  - function.http-build-query.html: httpbuildquery »
-  - index.html: PHP Manual
-  - ref.url.html: Функції URL
+  - function.get-headers.md: « getheaders
+  - function.http-build-query.md: httpbuildquery »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
 title: getmetatags
 ---
 # getmetatags
@@ -30,7 +30,7 @@ get_meta_tags(string $filename, bool $use_include_path = false): array|false
 
 `use_include_path`
 
-Якщо `use_include_path` дорівнює **`true`**, PHP буде шукати файл, використовуючи стандартні шляхи пошуку з директиви php.ini [includepath](ini.core.html#ini.include-path). Це актуально лише для локальних файлів, але не URL.
+Якщо `use_include_path` дорівнює **`true`**, PHP буде шукати файл, використовуючи стандартні шляхи пошуку з директиви php.ini [includepath](ini.core.md#ini.include-path). Це актуально лише для локальних файлів, але не URL.
 
 ### Значення, що повертаються
 
@@ -66,5 +66,5 @@ echo $tags['geo_position']; // 49.33;-86.59
 
 ### Дивіться також
 
--   [htmlentities()](function.htmlentities.html) - Перетворює всі можливі символи у відповідні HTML-сутності
--   [urlencode()](function.urlencode.html) - URL-кодування рядка
+-   [htmlentities()](function.htmlentities.md) - Перетворює всі можливі символи у відповідні HTML-сутності
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка

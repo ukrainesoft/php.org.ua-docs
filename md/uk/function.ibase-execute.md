@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-errmsg.html: « ibaseerrmsg
-  - function.ibase-fetch-assoc.html: ibasefetchassoc »
+  - function.ibase-errmsg.md: « ibaseerrmsg
+  - function.ibase-fetch-assoc.md: ibasefetchassoc »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseexecute

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-detached.html: « sodiumcryptosigndetached
-  - function.sodium-crypto-sign-ed25519-sk-to-curve25519.html: sodiumcryptosigned25519сктоcurve25519 »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-sign-detached.md: « sodiumcryptosigndetached
+  - function.sodium-crypto-sign-ed25519-sk-to-curve25519.md: sodiumcryptosigned25519сктоcurve25519 »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptosigned25519пктоcurve25519
 ---
 # sodiumcryptosigned25519пктоcurve25519

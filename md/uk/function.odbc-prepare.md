@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-pconnect.html: « odbcpconnect
-  - function.odbc-primarykeys.html: odbcprimarykeys »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-pconnect.md: « odbcpconnect
+  - function.odbc-primarykeys.md: odbcprimarykeys »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcprepare
 ---
 # odbcprepare

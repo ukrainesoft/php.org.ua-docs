@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.download.html: '« SwooleHttpClient::download'
-  - swoole-http-client.get.html: 'SwooleHttpClient::get »'
+  - swoole-http-client.download.md: '« SwooleHttpClient::download'
+  - swoole-http-client.get.md: 'SwooleHttpClient::get »'
   - index.md: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::execute'
 ---
 # SwooleHttpClient::execute

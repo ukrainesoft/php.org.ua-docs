@@ -1,9 +1,9 @@
 ---
 navigation:
-  - errorfunc.requirements.html: « Вимоги
-  - errorfunc.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - errorfunc.setup.html: Встановлення та налаштування
+  - errorfunc.requirements.md: « Вимоги
+  - errorfunc.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - errorfunc.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

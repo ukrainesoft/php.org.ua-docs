@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.var-export.html: « varexport
-  - book.oauth.html: OAuth »
-  - index.html: PHP Manual
-  - funcref.html: Справочник функций
+  - function.var-export.md: « varexport
+  - book.oauth.md: OAuth »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
 title: Веб-сервіси
 ---
 # Веб-сервіси

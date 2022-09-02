@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-findfont.html: «psfindfont
-  - function.ps-get-parameter.html: псgetparameter »
+  - function.ps-findfont.md: «psfindfont
+  - function.ps-get-parameter.md: псgetparameter »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псgetbuffer

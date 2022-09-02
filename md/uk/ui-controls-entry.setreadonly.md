@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-entry.onchange.html: '« UIControlsEntry::onChange'
-  - ui-controls-entry.settext.html: 'ОЙControlsEntry::setText »'
+  - ui-controls-entry.onchange.md: '« UIControlsEntry::onChange'
+  - ui-controls-entry.settext.md: 'ОЙControlsEntry::setText »'
   - index.md: PHP Manual
-  - class.ui-controls-entry.html: ОЙControlsEntry
+  - class.ui-controls-entry.md: ОЙControlsEntry
 title: 'ОЙControlsEntry::setReadOnly'
 ---
 # ОЙControlsEntry::setReadOnly

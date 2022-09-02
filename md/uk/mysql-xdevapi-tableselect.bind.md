@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-tableselect.html: « mysqlxdevapiTableSelect
-  - mysql-xdevapi-tableselect.construct.html: 'TableSelect::construct »'
+  - class.mysql-xdevapi-tableselect.md: « mysqlxdevapiTableSelect
+  - mysql-xdevapi-tableselect.construct.md: 'TableSelect::construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::bind'
 ---
 # TableSelect::bind

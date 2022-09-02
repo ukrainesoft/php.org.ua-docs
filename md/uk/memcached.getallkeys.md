@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.get.html: '« Memcached::get'
-  - memcached.getbykey.html: 'Memcached::getByKey »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.get.md: '« Memcached::get'
+  - memcached.getbykey.md: 'Memcached::getByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::getAllKeys'
 ---
 # Memcached::getAllKeys

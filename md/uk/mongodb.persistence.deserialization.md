@@ -42,11 +42,11 @@ array
     
 -   Документ BSON (кореневий або вбудований) з властивістю pclass [](#fnidmongodb.pclass)стає об'єктом PHP імені класу, як це визначено властивістю pclass.
     
-    Якщо цей клас реалізує інтерфейс M[MongoDBBSONPersistable](class.mongodb-bson-persistable.html), то властивості документа BSON, включаючи властивість pclass, відправляються у вигляді асоціативного масиву у функцію [MongoDBBSONUnserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.md) для ініціалізації властивостей об'єкта
+    Якщо цей клас реалізує інтерфейс M[MongoDBBSONPersistable](class.mongodb-bson-persistable.md), то властивості документа BSON, включаючи властивість pclass, відправляються у вигляді асоціативного масиву у функцію [MongoDBBSONUnserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.md) для ініціалізації властивостей об'єкта
     
     Якщо названий клас не існує або не реалізує інтерфейс [MongoDBBSONPersistable](class.mongodb-bson-persistable.md), використовуватиметься **stdClass**, і кожен ключ документа BSON (включаючи pclass) буде встановлено як відкриту властивість **stdClass**
     
-    Функціональність pclass залежить від того, чи є властивістю частиною вилученого документа MongoDB. Якщо ви використовуєте [проекцію](mongodb-driver-query.construct.html#mongodb-driver-query.construct-queryOptions) при запиті документів, потрібно включити поле pclass у проекцію, щоб ця функція працювала.
+    Функціональність pclass залежить від того, чи є властивістю частиною вилученого документа MongoDB. Якщо ви використовуєте [проекцію](mongodb-driver-query.construct.md#mongodb-driver-query.construct-queryOptions) при запиті документів, потрібно включити поле pclass у проекцію, щоб ця функція працювала.
     
 
 `"array"`
@@ -61,7 +61,7 @@ array
 
 Визначає назву класу, який повинен десеріалізувати масив BSON або об'єкт BSON. Для об'єктів BSON, які містять властивості pclass, цей клас матиме пріоритет.
 
-Якщо названий клас не існує, не є конкретним (тобто абстрактним або інтерфейсом) або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.html), то видається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+Якщо названий клас не існує, не є конкретним (тобто абстрактним або інтерфейсом) або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.md), то видається виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 Якщо об'єкт BSON має властивість pclass, і цей клас існує та реалізує [MongoDBBSONPersistable](class.mongodb-bson-persistable.md), він замінить клас, представлений у карті типів.
 
@@ -69,7 +69,7 @@ array
 
 ## TypeMaps
 
-TypeMaps можна встановити за допомогою методу [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.html) для об'єкту [MongoDBDriverCursor](class.mongodb-driver-cursor.html) або аргументу `$typeMap` в [MongoDBBSONtoPHP()](function.mongodb.bson-tophp.md). Кожен із трьох класів (*root* *document*, і *array*) може бути заданий індивідуально, на додаток до типів полів.
+TypeMaps можна встановити за допомогою методу [MongoDBDriverCursor::setTypeMap()](mongodb-driver-cursor.settypemap.md) для об'єкту [MongoDBDriverCursor](class.mongodb-driver-cursor.md) або аргументу `$typeMap` в [MongoDBBSONtoPHP()](function.mongodb.bson-tophp.md). Кожен із трьох класів (*root* *document*, і *array*) може бути заданий індивідуально, на додаток до типів полів.
 
 Якщо значення на карті дорівнює NULL, це означає те саме, що і значення *за замовчуванням* для цього елемента.
 

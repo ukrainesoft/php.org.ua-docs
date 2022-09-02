@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-loader.registernamespace.html: '« YafLoader::registerNamespace'
-  - class.yaf-plugin-abstract.html: YafPluginAbstract »
+  - yaf-loader.registernamespace.md: '« YafLoader::registerNamespace'
+  - class.yaf-plugin-abstract.md: YafPluginAbstract »
   - index.md: PHP Manual
-  - class.yaf-loader.html: YafLoader
+  - class.yaf-loader.md: YafLoader
 title: 'YafLoader::setLibraryPath'
 ---
 # YafLoader::setLibraryPath

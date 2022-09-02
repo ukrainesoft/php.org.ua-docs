@@ -121,4 +121,4 @@ dumpReflectionFunction(new ReflectionFunction($counter2));
 ### Дивіться також
 
 -   [ReflectionMethod::construct()](reflectionmethod.construct.md) - Конструктор класу ReflectionMethod
--   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

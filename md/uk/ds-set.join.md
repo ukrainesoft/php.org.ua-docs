@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.isempty.html: '« DsSet::isEmpty'
-  - ds-set.jsonserialize.html: 'ДсSet::jsonSerialize »'
+  - ds-set.isempty.md: '« DsSet::isEmpty'
+  - ds-set.jsonserialize.md: 'ДсSet::jsonSerialize »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::join'
 ---
 # ДсSet::join

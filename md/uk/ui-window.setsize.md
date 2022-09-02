@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.setmargin.html: '« UIWindow::setMargin'
-  - ui-window.settitle.html: 'ОЙWindow::setTitle »'
+  - ui-window.setmargin.md: '« UIWindow::setMargin'
+  - ui-window.settitle.md: 'ОЙWindow::setTitle »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::setSize'
 ---
 # ОЙWindow::setSize

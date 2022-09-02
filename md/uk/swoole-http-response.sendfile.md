@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-response.rawcookie.html: '« SwooleHttpResponse::rawcookie'
-  - swoole-http-response.status.html: 'SwooleHttpResponse::status »'
+  - swoole-http-response.rawcookie.md: '« SwooleHttpResponse::rawcookie'
+  - swoole-http-response.status.md: 'SwooleHttpResponse::status »'
   - index.md: PHP Manual
-  - class.swoole-http-response.html: SwooleHttpResponse
+  - class.swoole-http-response.md: SwooleHttpResponse
 title: 'SwooleHttpResponse::sendfile'
 ---
 # SwooleHttpResponse::sendfile

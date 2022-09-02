@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-stat-independent-t.html: « statsstatindependentт
-  - function.stats-stat-paired-t.html: statsstatpairedt »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-stat-independent-t.md: « statsstatindependentт
+  - function.stats-stat-paired-t.md: statsstatpairedt »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsстатиinnerproduct
 ---
 # statsстатиinnerproduct

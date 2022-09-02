@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.win32-stop-service.html: « win32stopservice
+  - function.win32-stop-service.md: « win32stopservice
   - book.dom.md: DOM »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

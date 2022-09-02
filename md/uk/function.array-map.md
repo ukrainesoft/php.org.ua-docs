@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-keys.html: « arraykeys
-  - function.array-merge-recursive.html: arraymergerecursive »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-keys.md: « arraykeys
+  - function.array-merge-recursive.md: arraymergerecursive »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraymap
 ---
 # arraymap
@@ -18,13 +18,13 @@ arraymap - Застосовує callback-функцію до всіх елеме
 array_map(?callable $callback, array $array, array ...$arrays): array
 ```
 
-Функція **arraymap()** повертає масив (array), що містить результати застосування `callback`функції до відповідного елементу `array` (і `arrays`, якщо вказано більше масивів), що використовується як аргумент callback-функції. Кількість параметрів, що передаються `callback`функції, що має збігатися з кількістю масивів, переданою функції **arraymap()**. Зайві вхідні масиви ігноруються. Якщо надано недостатню кількість аргументів, викидається [ArgumentCountError](class.argumentcounterror.html)
+Функція **arraymap()** повертає масив (array), що містить результати застосування `callback`функції до відповідного елементу `array` (і `arrays`, якщо вказано більше масивів), що використовується як аргумент callback-функції. Кількість параметрів, що передаються `callback`функції, що має збігатися з кількістю масивів, переданою функції **arraymap()**. Зайві вхідні масиви ігноруються. Якщо надано недостатню кількість аргументів, викидається [ArgumentCountError](class.argumentcounterror.md)
 
 ### Список параметрів
 
 `callback`
 
-[callable](language.types.callable.html), що застосовується до кожного елемента у кожному масиві.
+[callable](language.types.callable.md), що застосовується до кожного елемента у кожному масиві.
 
 **`null`** може бути переданий як значення `callback` для виконання zip операції з кількома масивами. Якщо вказано тільки `array` **arraymap()** поверне вхідний масив.
 
@@ -311,7 +311,7 @@ array(1) {
 
 **Приклад #7 **arraymap()** - асоціативні масиви**
 
-Хоча **arraymap()** безпосередньо не підтримує використання ключа масиву як вхідні дані, це можна змоделювати за допомогою [arraykeys()](function.array-keys.html)
+Хоча **arraymap()** безпосередньо не підтримує використання ключа масиву як вхідні дані, це можна змоделювати за допомогою [arraykeys()](function.array-keys.md)
 
 ```php
 <?php
@@ -345,6 +345,6 @@ array(3) {
 
 ### Дивіться також
 
--   [arrayfilter()](function.array-filter.html) - Фільтрує елементи масиву за допомогою callback-функції
--   [arrayreduce()](function.array-reduce.html) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
--   [arraywalk()](function.array-walk.html) - Застосовує задану користувачем функцію до кожного елемента масиву
+-   [arrayfilter()](function.array-filter.md) - Фільтрує елементи масиву за допомогою callback-функції
+-   [arrayreduce()](function.array-reduce.md) - Ітеративно зменшує масив до єдиного значення, використовуючи callback-функцію
+-   [arraywalk()](function.array-walk.md) - Застосовує задану користувачем функцію до кожного елемента масиву

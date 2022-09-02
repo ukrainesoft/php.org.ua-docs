@@ -1,6 +1,6 @@
 ---
 navigation:
-  - xsl.examples-errors.html: « Обработка ошибок с помощью функций обработки ошибок libxml
+  - xsl.examples-errors.md: « Обработка ошибок с помощью функций обработки ошибок libxml
   - xsltprocessor.construct.md: 'XSLTProcessor::construct »'
   - index.md: PHP Manual
   - book.xsl.md: XSL

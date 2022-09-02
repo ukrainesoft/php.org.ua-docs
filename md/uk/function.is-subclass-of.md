@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-a.html: « isа
-  - function.method-exists.html: methodexists »
-  - index.html: PHP Manual
-  - ref.classobj.html: Функції роботи з класами та об'єктами
+  - function.is-a.md: « isа
+  - function.method-exists.md: methodexists »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
 title: ісsubclassоф
 ---
 # ісsubclassоф

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strchr.html: « strchr
-  - function.strcoll.html: strcoll »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.strchr.md: « strchr
+  - function.strcoll.md: strcoll »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strcmp
 ---
 # strcmp

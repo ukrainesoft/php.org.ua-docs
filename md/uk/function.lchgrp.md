@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.is-writeable.html: « iswriteable
+  - function.is-writeable.md: « iswriteable
   - function.lchown.md: lchown »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи

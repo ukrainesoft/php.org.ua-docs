@@ -1,9 +1,9 @@
 ---
 navigation:
-  - win32service.constants.serviceflag.html: Константи прапорів сервісу Win32Service
-  - win32service.constants.basepriorities.html: Базові класи пріоритетів Win32
-  - index.html: PHP Manual
-  - win32service.constants.html: Обумовлені константи
+  - win32service.constants.serviceflag.md: Константи прапорів сервісу Win32Service
+  - win32service.constants.basepriorities.md: Базові класи пріоритетів Win32
+  - index.md: PHP Manual
+  - win32service.constants.md: Обумовлені константи
 ---
 > **Зауваження**
 > 
@@ -25,7 +25,7 @@ navigation:
 | **`WIN32_ERROR_INVALID_LEVEL`** | 0x0000007C | Параметр InfoLevel містить непідтримуване значення. |
 | **`WIN32_ERROR_INVALID_NAME`** | 0x0000007B | Вказане ім'я служби неправильне. |
 | **`WIN32_ERROR_INVALID_PARAMETER`** | 0x00000057 | Зазначений параметр некоректний. |
-| **`WIN32_ERROR_INVALID_SERVICE_ACCOUNT`** | 0x00000421 | Ім'я облікового запису користувача, вказане в `user` Відсутнє. Дивіться [win32createservice()](function.win32-create-service.html) |
+| **`WIN32_ERROR_INVALID_SERVICE_ACCOUNT`** | 0x00000421 | Ім'я облікового запису користувача, вказане в `user` Відсутнє. Дивіться [win32createservice()](function.win32-create-service.md) |
 | **`WIN32_ERROR_INVALID_SERVICE_CONTROL`** | 0x0000041C | Запитаний контрольний код є недійсним або неприйнятним для служби. |
 | **`WIN32_ERROR_PATH_NOT_FOUND`** | 0x00000003 | Виконуваний файл служби не знайдено. |
 | **`WIN32_ERROR_SERVICE_ALREADY_RUNNING`** | 0x00000420 | Екземпляр служби вже запущено. |

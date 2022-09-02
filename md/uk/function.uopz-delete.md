@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-del-function.html: « uopzdelfunction
-  - function.uopz-extend.html: uopzextend »
+  - function.uopz-del-function.md: « uopzdelfunction
+  - function.uopz-extend.md: uopzextend »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzdelete

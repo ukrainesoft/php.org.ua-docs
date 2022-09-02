@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrcollapsefunction.getmin.html: '« SolrCollapseFunction::getMin'
-  - solrcollapsefunction.getsize.html: 'SolrCollapseFunction::getSize »'
-  - index.html: PHP Manual
-  - class.solrcollapsefunction.html: SolrCollapseFunction
+  - solrcollapsefunction.getmin.md: '« SolrCollapseFunction::getMin'
+  - solrcollapsefunction.getsize.md: 'SolrCollapseFunction::getSize »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::getNullPolicy'
 ---
 # SolrCollapseFunction::getNullPolicy
@@ -28,4 +28,4 @@ public SolrCollapseFunction::getNullPolicy(): string
 
 ### Дивіться також
 
--   [SolrCollapseFunction::setNullPolicy()](solrcollapsefunction.setnullpolicy.html) - Встановлює NULL-політику
+-   [SolrCollapseFunction::setNullPolicy()](solrcollapsefunction.setnullpolicy.md) - Встановлює NULL-політику

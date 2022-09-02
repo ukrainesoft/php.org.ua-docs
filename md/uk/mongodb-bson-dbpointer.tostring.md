@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-dbpointer.serialize.html: '« MongoDBBSONDBPointer::serialize'
-  - mongodb-bson-dbpointer.unserialize.html: 'MongoDBBSONDBPointer::unserialize »'
+  - mongodb-bson-dbpointer.serialize.md: '« MongoDBBSONDBPointer::serialize'
+  - mongodb-bson-dbpointer.unserialize.md: 'MongoDBBSONDBPointer::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-dbpointer.html: MongoDBBSONDBPointer
+  - class.mongodb-bson-dbpointer.md: MongoDBBSONDBPointer
 title: 'MongoDBBSONDBPointer::toString'
 ---
 # MongoDBBSONDBPointer::toString

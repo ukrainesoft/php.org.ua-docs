@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dbase-open.html: « dbaseopen
-  - function.dbase-replace-record.html: dbasereplacerecord »
+  - function.dbase-open.md: « dbaseopen
+  - function.dbase-replace-record.md: dbasereplacerecord »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
 title: dbasepack
@@ -24,7 +24,7 @@ dbase_pack(resource $database): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 

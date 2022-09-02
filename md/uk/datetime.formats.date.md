@@ -1,14 +1,14 @@
 ---
 navigation:
-  - datetime.formats.time.html: « Формати времени
-  - datetime.formats.compound.html: Складові форматів »
-  - index.html: PHP Manual
-  - datetime.formats.html: Допустимі формати дати/часу
+  - datetime.formats.time.md: « Формати времени
+  - datetime.formats.compound.md: Складові форматів »
+  - index.md: PHP Manual
+  - datetime.formats.md: Допустимі формати дати/часу
 title: Формати дати
 ---
 ## Формати дати
 
-На цій сторінці описані формати дати, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.html) [DateTime](class.datetime.html) [datecreate()](function.date-create.html) [datecreateimmutable()](function.date-create-immutable.html) і [strtotime()](function.strtotime.html)
+На цій сторінці описані формати дати, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) [datecreate()](function.date-create.md) [datecreateimmutable()](function.date-create-immutable.md) і [strtotime()](function.strtotime.md)
 
 **Використовувані символи**
 

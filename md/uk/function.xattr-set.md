@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xattr-remove.html: « xattrremove
-  - function.xattr-supported.html: xattrsupported »
+  - function.xattr-remove.md: « xattrremove
+  - function.xattr-supported.md: xattrsupported »
   - index.md: PHP Manual
   - ref.xattr.md: xattr Функции
 title: xattrset

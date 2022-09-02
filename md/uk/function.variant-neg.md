@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-mul.html: « variantmul
-  - function.variant-not.html: variantnot »
+  - function.variant-mul.md: « variantmul
+  - function.variant-not.md: variantnot »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantneg

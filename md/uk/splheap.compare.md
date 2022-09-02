@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.splheap.html: « SplHeap
-  - splheap.count.html: 'SplHeap::count »'
-  - index.html: PHP Manual
-  - class.splheap.html: SplHeap
+  - class.splheap.md: « SplHeap
+  - splheap.count.md: 'SplHeap::count »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
 title: 'SplHeap::compare'
 ---
 # SplHeap::compare

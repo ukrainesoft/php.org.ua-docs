@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdl3blackcrows.html: « tradercdl3blackcrows
-  - function.trader-cdl3linestrike.html: tradercdl3linestrike »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdl3blackcrows.md: « tradercdl3blackcrows
+  - function.trader-cdl3linestrike.md: tradercdl3linestrike »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdl3inside
 ---
 # tradercdl3inside

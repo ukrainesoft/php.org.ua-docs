@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.getdayofweektype.html: '« IntlCalendar::getDayOfWeekType'
-  - intlcalendar.geterrormessage.html: 'IntlCalendar::getErrorMessage »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.getdayofweektype.md: '« IntlCalendar::getDayOfWeekType'
+  - intlcalendar.geterrormessage.md: 'IntlCalendar::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getErrorCode'
 ---
 # IntlCalendar::getErrorCode
@@ -28,7 +28,7 @@ public IntlCalendar::getErrorCode(): int|false
 intlcal_get_error_code(IntlCalendar $calendar): int|false
 ```
 
-Повертає числовий код помилки ICU для останнього виклику цього об'єкта (включаючи клонування) або [IntlCalendar](class.intlcalendar.html), вказаний для параметра `calendar` (У версії з процедурним стилем). Це може означати лише попередження (негативний код помилки) або повну відсутність помилки (**`U_ZERO_ERROR`**). Фактичну наявність помилки можна перевірити за допомогою [intlісfailure()](function.intl-is-failure.md)
+Повертає числовий код помилки ICU для останнього виклику цього об'єкта (включаючи клонування) або [IntlCalendar](class.intlcalendar.md), вказаний для параметра `calendar` (У версії з процедурним стилем). Це може означати лише попередження (негативний код помилки) або повну відсутність помилки (**`U_ZERO_ERROR`**). Фактичну наявність помилки можна перевірити за допомогою [intlісfailure()](function.intl-is-failure.md)
 
 Недійсні аргументи, виявлені на стороні PHP (до виклику функцій бібліотеки ICU), не записуються для цієї функції.
 

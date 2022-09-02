@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-language.html: « mblanguage
-  - function.mb-ord.html: мбord »
+  - function.mb-language.md: « mblanguage
+  - function.mb-ord.md: мбord »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбlistencodings

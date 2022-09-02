@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimageproperty.html: '« Imagick::setImageProperty'
-  - imagick.setimagerenderingintent.html: 'Imagick::setImageRenderingIntent »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimageproperty.md: '« Imagick::setImageProperty'
+  - imagick.setimagerenderingintent.md: 'Imagick::setImageRenderingIntent »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageRedPrimary'
 ---
 # Imagick::setImageRedPrimary

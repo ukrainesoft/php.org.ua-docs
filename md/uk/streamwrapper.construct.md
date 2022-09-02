@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.streamwrapper.html: « streamWrapper
-  - streamwrapper.destruct.html: 'streamWrapper::destruct »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - class.streamwrapper.md: « streamWrapper
+  - streamwrapper.destruct.md: 'streamWrapper::destruct »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::construct'
 ---
 # streamWrapper::construct
@@ -16,7 +16,7 @@ streamWrapper::construct — Створює новий об'єкт оберта�
 
 public **streamWrapper::construct**
 
-Викликається при відкритті обгортки потоку безпосередньо перед викликом методу [streamWrapper::streamopen()](streamwrapper.stream-open.html)
+Викликається при відкритті обгортки потоку безпосередньо перед викликом методу [streamWrapper::streamopen()](streamwrapper.stream-open.md)
 
 ### Список параметрів
 

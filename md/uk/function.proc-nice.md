@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.proc-get-status.html: « procgetstatus
-  - function.proc-open.html: procopen »
+  - function.proc-get-status.md: « procgetstatus
+  - function.proc-open.md: procopen »
   - index.md: PHP Manual
   - ref.exec.md: Функции запуска программ
 title: procnice

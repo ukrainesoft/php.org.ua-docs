@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oci8.constants.html: « Обумовлені константи
-  - oci8.connection.html: Работа с соединениями OCI8 и Connection Pooling »
-  - index.html: PHP Manual
-  - book.oci8.html: OCI8
+  - oci8.constants.md: « Обумовлені константи
+  - oci8.connection.md: Работа с соединениями OCI8 и Connection Pooling »
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
 title: Приклади
 ---
 # Приклади

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-ht-phasor.html: « traderхтphasor
-  - function.trader-ht-trendline.html: traderхтtrendline »
+  - function.trader-ht-phasor.md: « traderхтphasor
+  - function.trader-ht-trendline.md: traderхтtrendline »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderхтsine

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apcu-entry.html: « apcuentry
-  - function.apcu-fetch.html: apcufetch »
-  - index.html: PHP Manual
-  - ref.apcu.html: Функции APCu
+  - function.apcu-entry.md: « apcuentry
+  - function.apcu-fetch.md: apcufetch »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
 title: apcuexists
 ---
 # apcuexists
@@ -79,5 +79,5 @@ array(2) {
 
 ### Дивіться також
 
--   [apcucacheinfo()](function.apcu-cache-info.html) - Витягує закешовану інформацію зі сховища APCu
--   [apcufetch()](function.apcu-fetch.html) - Витягує з кеша збережену змінну
+-   [apcucacheinfo()](function.apcu-cache-info.md) - Витягує закешовану інформацію зі сховища APCu
+-   [apcufetch()](function.apcu-fetch.md) - Витягує з кеша збережену змінну

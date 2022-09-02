@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-spki-export.html: « opensslspkiexport
-  - function.openssl-spki-verify.html: opensslspkiverify »
+  - function.openssl-spki-export.md: « opensslspkiexport
+  - function.openssl-spki-verify.md: opensslspkiverify »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslspkinew

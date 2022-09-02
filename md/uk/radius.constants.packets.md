@@ -8,11 +8,11 @@ title: типи пакетів RADIUS
 ---
 ## типи пакетів RADIUS
 
-Пакети RADIUS, будь то запит або відповідь, завжди включають тип. Ці константи корисні при заданні типу при використанні [radiuscreaterequest()](function.radius-create-request.html) та при обробці відповіді [radiussendrequest()](function.radius-send-request.md)
+Пакети RADIUS, будь то запит або відповідь, завжди включають тип. Ці константи корисні при заданні типу при використанні [radiuscreaterequest()](function.radius-create-request.md) та при обробці відповіді [radiussendrequest()](function.radius-send-request.md)
 
 **`RADIUS_ACCESS_REQUEST`** (int)
 
-Запит Access-Request (Запит доступу) використовується для автентифікації користувача сервером RADIUS. Дані пакети повинні містити атрибут [**`RADIUS_NAS_IP_ADDRESS`**](radius.constants.attributes.html#constant.radius-nas-ip-address) або [**`RADIUS_NAS_IDENTIFIER`**](radius.constants.attributes.html#constant.radius-nas-identifier) , також повинні містити [**`RADIUS_USER_PASSWORD`**](radius.constants.attributes.html#constant.radius-user-password) [**`RADIUS_CHAP_PASSWORD`**](radius.constants.attributes.html#constant.radius-chap-password) або [**`RADIUS_STATE`**](radius.constants.attributes.html#constant.radius-state) , і можуть містити атрибут [**`RADIUS_USER_NAME`**](radius.constants.attributes.html#constant.radius-user-name)
+Запит Access-Request (Запит доступу) використовується для автентифікації користувача сервером RADIUS. Дані пакети повинні містити атрибут [**`RADIUS_NAS_IP_ADDRESS`**](radius.constants.attributes.md#constant.radius-nas-ip-address) або [**`RADIUS_NAS_IDENTIFIER`**](radius.constants.attributes.md#constant.radius-nas-identifier) , також повинні містити [**`RADIUS_USER_PASSWORD`**](radius.constants.attributes.md#constant.radius-user-password) [**`RADIUS_CHAP_PASSWORD`**](radius.constants.attributes.md#constant.radius-chap-password) або [**`RADIUS_STATE`**](radius.constants.attributes.md#constant.radius-state) , і можуть містити атрибут [**`RADIUS_USER_NAME`**](radius.constants.attributes.md#constant.radius-user-name)
 
 **`RADIUS_ACCESS_ACCEPT`** (int)
 

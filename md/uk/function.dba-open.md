@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dba-nextkey.html: « dbanextkey
-  - function.dba-optimize.html: dbaoptimize »
+  - function.dba-nextkey.md: « dbanextkey
+  - function.dba-optimize.md: dbaoptimize »
   - index.md: PHP Manual
   - ref.dba.md: Функції DBA
 title: dbaopen

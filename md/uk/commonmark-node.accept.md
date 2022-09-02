@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-node.unlink.html: '« CommonMarkNode::unlink'
-  - class.commonmark-interfaces-ivisitor.html: CommonMarkInterfacesIVisitor »
+  - commonmark-node.unlink.md: '« CommonMarkNode::unlink'
+  - class.commonmark-interfaces-ivisitor.md: CommonMarkInterfacesIVisitor »
   - index.md: PHP Manual
-  - class.commonmark-node.html: CommonMarkNode
+  - class.commonmark-node.md: CommonMarkNode
 title: 'CommonMarkNode::accept'
 ---
 # CommonMarkNode::accept

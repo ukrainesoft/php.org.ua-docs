@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-quickprop-decay.html: « fannsetquickpropdecay
-  - function.fann-set-rprop-decrease-factor.html: fannsetrpropdecreasefactor »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-quickprop-decay.md: « fannsetquickpropdecay
+  - function.fann-set-rprop-decrease-factor.md: fannsetrpropdecreasefactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetquickpropму
 ---
 # fannsetquickpropму

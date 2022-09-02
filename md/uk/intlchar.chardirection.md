@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.chardigitvalue.html: '« IntlChar::charDigitValue'
-  - intlchar.charfromname.html: 'IntlChar::charFromName »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.chardigitvalue.md: '« IntlChar::charDigitValue'
+  - intlchar.charfromname.md: 'IntlChar::charFromName »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::charDirection'
 ---
 # IntlChar::charDirection

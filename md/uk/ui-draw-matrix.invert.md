@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-draw-matrix.html: « UIDrawMatrix
-  - ui-draw-matrix.isinvertible.html: 'ОЙDrawMatrix::isInvertible »'
-  - index.html: PHP Manual
-  - class.ui-draw-matrix.html: ОЙDrawMatrix
+  - class.ui-draw-matrix.md: « UIDrawMatrix
+  - ui-draw-matrix.isinvertible.md: 'ОЙDrawMatrix::isInvertible »'
+  - index.md: PHP Manual
+  - class.ui-draw-matrix.md: ОЙDrawMatrix
 title: 'ОЙDrawMatrix::invert'
 ---
 # ОЙDrawMatrix::invert

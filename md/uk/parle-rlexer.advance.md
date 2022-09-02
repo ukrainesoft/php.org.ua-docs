@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.parle-rlexer.html: « ParleRLexer
-  - parle-rlexer.build.html: 'ParleRLexer::build »'
+  - class.parle-rlexer.md: « ParleRLexer
+  - parle-rlexer.build.md: 'ParleRLexer::build »'
   - index.md: PHP Manual
-  - class.parle-rlexer.html: ParleRLexer
+  - class.parle-rlexer.md: ParleRLexer
 title: 'ParleRLexer::advance'
 ---
 # ParleRLexer::advance

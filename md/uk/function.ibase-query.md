@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-prepare.html: « ibaseprepare
-  - function.ibase-restore.html: ibaserestore »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-prepare.md: « ibaseprepare
+  - function.ibase-restore.md: ibaserestore »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasequery
 ---
 # ibasequery
@@ -63,7 +63,7 @@ $sth = ibase_query($dbh, $stmt) or die(ibase_errmsg());
 
 ### Дивіться також
 
--   [ibaseerrmsg()](function.ibase-errmsg.html) - Повертає повідомлення про помилку
--   [ibasefetchrow()](function.ibase-fetch-row.html) - Витягує рядок із бази даних InterBase
--   [ibasefetchobject()](function.ibase-fetch-object.html) - Отримує об'єкт із бази даних InterBase
--   [ibasefreeresult()](function.ibase-free-result.html) - Звільняє набір результатів
+-   [ibaseerrmsg()](function.ibase-errmsg.md) - Повертає повідомлення про помилку
+-   [ibasefetchrow()](function.ibase-fetch-row.md) - Витягує рядок із бази даних InterBase
+-   [ibasefetchobject()](function.ibase-fetch-object.md) - Отримує об'єкт із бази даних InterBase
+-   [ibasefreeresult()](function.ibase-free-result.md) - Звільняє набір результатів

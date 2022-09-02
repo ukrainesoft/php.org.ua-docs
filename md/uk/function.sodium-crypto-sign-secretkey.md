@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-publickey.html: « sodiumcryptosignpublickey
-  - function.sodium-crypto-sign-seed-keypair.html: sodiumcryptosignseedkeypair »
+  - function.sodium-crypto-sign-publickey.md: « sodiumcryptosignpublickey
+  - function.sodium-crypto-sign-seed-keypair.md: sodiumcryptosignseedkeypair »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptosignsecretkey

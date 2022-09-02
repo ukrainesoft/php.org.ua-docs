@@ -1,9 +1,9 @@
 ---
 navigation:
-  - limititerator.next.html: '« LimitIterator::next'
-  - limititerator.seek.html: 'LimitIterator::seek »'
-  - index.html: PHP Manual
-  - class.limititerator.html: LimitIterator
+  - limititerator.next.md: '« LimitIterator::next'
+  - limititerator.seek.md: 'LimitIterator::seek »'
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
 title: 'LimitIterator::rewind'
 ---
 # LimitIterator::rewind
@@ -18,7 +18,7 @@ LimitIterator::rewind — Переміщує курсор на початков�
 public LimitIterator::rewind(): void
 ```
 
-Переміщує ітератор на початкову позицію, задану під час створення об'єкта конструктором [LimitIterator::construct()](limititerator.construct.html)
+Переміщує ітератор на початкову позицію, задану під час створення об'єкта конструктором [LimitIterator::construct()](limititerator.construct.md)
 
 ### Список параметрів
 
@@ -30,8 +30,8 @@ public LimitIterator::rewind(): void
 
 ### Дивіться також
 
--   [LimitIterator::current()](limititerator.current.html) - Отримання поточного елемента
--   [LimitIterator::key()](limititerator.key.html) - Отримання поточного ключа
--   [LimitIterator::next()](limititerator.next.html) - Переміщення до наступної позиції
--   [LimitIterator::seek()](limititerator.seek.html) - переміщує ітератор на задану позицію
--   [LimitIterator::valid()](limititerator.valid.html) - Перевіряє валідність поточного елемента
+-   [LimitIterator::current()](limititerator.current.md) - Отримання поточного елемента
+-   [LimitIterator::key()](limititerator.key.md) - Отримання поточного ключа
+-   [LimitIterator::next()](limititerator.next.md) - Переміщення до наступної позиції
+-   [LimitIterator::seek()](limititerator.seek.md) - переміщує ітератор на задану позицію
+-   [LimitIterator::valid()](limititerator.valid.md) - Перевіряє валідність поточного елемента

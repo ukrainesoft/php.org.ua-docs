@@ -1,9 +1,9 @@
 ---
 navigation:
-  - v8js.setup.html: « Встановлення та налаштування
-  - v8js.installation.html: Установка »
-  - index.html: PHP Manual
-  - v8js.setup.html: Встановлення та налаштування
+  - v8js.setup.md: « Встановлення та налаштування
+  - v8js.installation.md: Установка »
+  - index.md: PHP Manual
+  - v8js.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

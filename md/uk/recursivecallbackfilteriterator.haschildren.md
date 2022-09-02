@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recursivecallbackfilteriterator.getchildren.html: '« RecursiveCallbackFilterIterator::getChildren'
-  - class.recursivedirectoryiterator.html: RecursiveDirectoryIterator »
-  - index.html: PHP Manual
-  - class.recursivecallbackfilteriterator.html: RecursiveCallbackFilterIterator
+  - recursivecallbackfilteriterator.getchildren.md: '« RecursiveCallbackFilterIterator::getChildren'
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator »
+  - index.md: PHP Manual
+  - class.recursivecallbackfilteriterator.md: RecursiveCallbackFilterIterator
 title: 'RecursiveCallbackFilterIterator::hasChildren'
 ---
 # RecursiveCallbackFilterIterator::hasChildren
@@ -55,6 +55,6 @@ $files = new RecursiveCallbackFilterIterator($dir, function ($current, $ke
 
 ### Дивіться також
 
--   [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.html#recursivecallbackfilteriterator.examples)
--   [RecursiveCallbackFilterIterator::construct()](recursivecallbackfilteriterator.construct.html) - Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
--   [RecursiveCallbackFilteriterator::getChildren()](recursivecallbackfilteriterator.getchildren.html) - Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator
+-   [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
+-   [RecursiveCallbackFilterIterator::construct()](recursivecallbackfilteriterator.construct.md) - Створює об'єкт класу RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator
+-   [RecursiveCallbackFilteriterator::getChildren()](recursivecallbackfilteriterator.getchildren.md) - Повертає дочірні елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.image.html: « Функції GD та функції для роботи із зображеннями
-  - function.getimagesize.html: getimagesize »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - ref.image.md: « Функції GD та функції для роботи із зображеннями
+  - function.getimagesize.md: getimagesize »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: гдinfo
 ---
 # гдinfo

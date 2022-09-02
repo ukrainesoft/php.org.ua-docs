@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.domnamednodemap.html: « DOMNamedNodeMap
-  - domnamednodemap.getnameditem.html: 'DOMNamedNodeMap::getNamedItem »'
-  - index.html: PHP Manual
-  - class.domnamednodemap.html: DOMNamedNodeMap
+  - class.domnamednodemap.md: « DOMNamedNodeMap
+  - domnamednodemap.getnameditem.md: 'DOMNamedNodeMap::getNamedItem »'
+  - index.md: PHP Manual
+  - class.domnamednodemap.md: DOMNamedNodeMap
 title: 'DOMNamedNodeMap::count'
 ---
 # DOMNamedNodeMap::count
@@ -26,4 +26,4 @@ public DOMNamedNodeMap::count(): int
 
 ### Значення, що повертаються
 
-Повертає кількість вузлів у відображенні, яке ідентичне властивості [length](class.domnamednodemap.html#domnamednodemap.props.length)
+Повертає кількість вузлів у відображенні, яке ідентичне властивості [length](class.domnamednodemap.md#domnamednodemap.props.length)

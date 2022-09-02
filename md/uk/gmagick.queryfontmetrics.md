@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.quantizeimages.html: '« Gmagick::quantizeimages'
-  - gmagick.queryfonts.html: 'Gmagick::queryfonts »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.quantizeimages.md: '« Gmagick::quantizeimages'
+  - gmagick.queryfonts.md: 'Gmagick::queryfonts »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::queryfontmetrics'
 ---
 # Gmagick::queryfontmetrics
@@ -26,7 +26,7 @@ public Gmagick::queryfontmetrics(GmagickDraw $draw, string $text): array
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

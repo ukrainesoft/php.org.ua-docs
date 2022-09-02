@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.wkhtmltox.html: « wkhtmltox
-  - wkhtmltox.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.wkhtmltox.html: wkhtmltox
+  - book.wkhtmltox.md: « wkhtmltox
+  - wkhtmltox.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.wkhtmltox.md: wkhtmltox
 title: Вступ
 ---
 # Вступ

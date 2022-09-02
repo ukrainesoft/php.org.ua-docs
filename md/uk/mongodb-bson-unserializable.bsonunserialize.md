@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-unserializable.html: « MongoDBBSONUnserializable
-  - class.mongodb-bson-binaryinterface.html: MongoDBBSONBinaryInterface »
+  - class.mongodb-bson-unserializable.md: « MongoDBBSONUnserializable
+  - class.mongodb-bson-binaryinterface.md: MongoDBBSONBinaryInterface »
   - index.md: PHP Manual
-  - class.mongodb-bson-unserializable.html: MongoDBBSONUnserializable
+  - class.mongodb-bson-unserializable.md: MongoDBBSONUnserializable
 title: 'MongoDBBSONUnserializable::bsonUnserialize'
 ---
 # MongoDBBSONUnserializable::bsonUnserialize
@@ -22,7 +22,7 @@ abstract public MongoDB\BSON\Unserializable::bsonUnserialize(array $data): void
 
 Не забудьте перевірити властивість id під час обробки даних із документа BSON.
 
-> **Зауваження**: Даний метод служить як [конструктора](language.oop5.decon.html#language.oop5.decon.constructor) об'єкта Метод [construct()](language.oop5.decon.html#object.construct) *не* буде викликатись після цього методу.
+> **Зауваження**: Даний метод служить як [конструктора](language.oop5.decon.md#language.oop5.decon.constructor) об'єкта Метод [construct()](language.oop5.decon.md#object.construct) *не* буде викликатись після цього методу.
 
 ### Список параметрів
 

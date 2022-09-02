@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ev.feedsignalevent.html: '« Ev::feedSignalEvent'
-  - ev.now.html: 'Ev::now »'
-  - index.html: PHP Manual
-  - class.ev.html: Єв
+  - ev.feedsignalevent.md: '« Ev::feedSignalEvent'
+  - ev.now.md: 'Ev::now »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
 title: 'Ev::iteration'
 ---
 # Ev::iteration

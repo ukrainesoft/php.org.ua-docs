@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ibm-db2.constants.html: « Обумовлені константи
-  - function.db2-autocommit.html: db2autocommit »
+  - ibm-db2.constants.md: « Обумовлені константи
+  - function.db2-autocommit.md: db2autocommit »
   - index.md: PHP Manual
-  - book.ibm-db2.html: IBM DB2
+  - book.ibm-db2.md: IBM DB2
 title: Функції IBM DB2
 ---
 # Функції IBM DB2

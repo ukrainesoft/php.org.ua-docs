@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.parle.html: « Введение
-  - parle.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.parle.html: Parle
+  - intro.parle.md: « Введение
+  - parle.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.parle.md: Parle
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

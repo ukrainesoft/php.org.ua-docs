@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.getgravity.html: '« ImagickDraw::getGravity'
-  - imagickdraw.getstrokecolor.html: 'ImagickDraw::getStrokeColor »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.getgravity.md: '« ImagickDraw::getGravity'
+  - imagickdraw.getstrokecolor.md: 'ImagickDraw::getStrokeColor »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getStrokeAntialias'
 ---
 # ImagickDraw::getStrokeAntialias

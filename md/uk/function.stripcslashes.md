@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strip-tags.html: « striptags
-  - function.stripos.html: stripos »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.strip-tags.md: « striptags
+  - function.stripos.md: stripos »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: stripcslashes
 ---
 # stripcslashes

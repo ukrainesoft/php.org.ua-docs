@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-update-file.html: « hashupdatefile
-  - function.hash-update.html: hashupdate »
+  - function.hash-update-file.md: « hashupdatefile
+  - function.hash-update.md: hashupdate »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashupdatestream

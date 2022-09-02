@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-revision-root.html: « svnфсrevisionroot
-  - function.svn-fs-youngest-rev.html: svnфсyoungestrev »
+  - function.svn-fs-revision-root.md: « svnфсrevisionroot
+  - function.svn-fs-youngest-rev.md: svnфсyoungestrev »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсtxnroot

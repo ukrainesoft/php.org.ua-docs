@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.point.html: '« GmagickDraw::point'
-  - gmagickdraw.polyline.html: 'GmagickDraw::polyline »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.point.md: '« GmagickDraw::point'
+  - gmagickdraw.polyline.md: 'GmagickDraw::polyline »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::polygon'
 ---
 # GmagickDraw::polygon
@@ -28,4 +28,4 @@ public GmagickDraw::polygon(array $coordinates): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.html)
+Об'єкт [GmagickDraw](class.gmagickdraw.md)

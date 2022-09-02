@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.foreach.html: « foreach
-  - control-structures.continue.html: continue »
+  - control-structures.foreach.md: « foreach
+  - control-structures.continue.md: continue »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: break
 ---
 ## break

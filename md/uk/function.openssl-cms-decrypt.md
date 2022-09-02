@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-cipher-iv-length.html: « opensslcipherвербlength
-  - function.openssl-cms-encrypt.html: opensslcmsencrypt »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-cipher-iv-length.md: « opensslcipherвербlength
+  - function.openssl-cms-encrypt.md: opensslcmsencrypt »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslcmsdecrypt
 ---
 # opensslcmsdecrypt

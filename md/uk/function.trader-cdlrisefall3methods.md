@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlrickshawman.html: « tradercdlrickshawman
-  - function.trader-cdlseparatinglines.html: tradercdlseparatinglines »
+  - function.trader-cdlrickshawman.md: « tradercdlrickshawman
+  - function.trader-cdlseparatinglines.md: tradercdlseparatinglines »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlrisefall3methods

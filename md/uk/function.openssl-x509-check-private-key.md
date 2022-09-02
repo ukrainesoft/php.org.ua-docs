@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-verify.html: « opensslverify
-  - function.openssl-x509-checkpurpose.html: opensslx509checkpurpose »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-verify.md: « opensslverify
+  - function.openssl-x509-checkpurpose.md: opensslx509checkpurpose »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslx509checkprivatekey
 ---
 # opensslx509checkprivatekey
@@ -44,5 +44,5 @@ openssl_x509_check_private_key(OpenSSLCertificate|string $certificate, OpenSSLAs
 
 | Версия | Описание |
 | --- | --- |
-|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509` |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html) або [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` або `OpenSSL X.509` |
+|  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509` |

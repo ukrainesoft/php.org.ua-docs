@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-buffer.write.html: '« SwooleBuffer::write'
-  - swoole-channel.construct.html: 'SwooleChannel::construct »'
+  - swoole-buffer.write.md: '« SwooleBuffer::write'
+  - swoole-channel.construct.md: 'SwooleChannel::construct »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleChannel

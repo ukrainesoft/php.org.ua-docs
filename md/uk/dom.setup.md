@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.dom.html: « Введение
-  - dom.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.dom.html: DOM
+  - intro.dom.md: « Введение
+  - dom.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.dom.md: DOM
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](dom.requirements.html)
--   [Установка](dom.installation.html)
--   [Налаштування під час виконання](dom.configuration.html)
--   [Типи ресурсів](dom.resources.html)
+-   [Вимоги](dom.requirements.md)
+-   [Установка](dom.installation.md)
+-   [Налаштування під час виконання](dom.configuration.md)
+-   [Типи ресурсів](dom.resources.md)

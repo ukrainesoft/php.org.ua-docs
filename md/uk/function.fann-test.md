@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-test-data.html: « fanntestdata
-  - function.fann-train-epoch.html: fanntrainepoch »
+  - function.fann-test-data.md: « fanntestdata
+  - function.fann-train-epoch.md: fanntrainepoch »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanntest

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.sum.html: '« DsVector::sum'
-  - ds-vector.unshift.html: 'ДсVector::unshift »'
+  - ds-vector.sum.md: '« DsVector::sum'
+  - ds-vector.unshift.md: 'ДсVector::unshift »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::toArray'
 ---
 # ДсVector::toArray

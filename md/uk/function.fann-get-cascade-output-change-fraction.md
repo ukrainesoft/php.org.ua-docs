@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-cascade-num-candidates.html: « fanngetcascadenumcandidates
-  - function.fann-get-cascade-output-stagnation-epochs.html: fanngetcascadeoutputstagnationepochs »
+  - function.fann-get-cascade-num-candidates.md: « fanngetcascadenumcandidates
+  - function.fann-get-cascade-output-stagnation-epochs.md: fanngetcascadeoutputstagnationepochs »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetcascadeoutputchangefraction
@@ -18,7 +18,7 @@ fanngetcascadeoutputchangefraction — Повертає частку зміни 
 fann_get_cascade_output_change_fraction(resource $ann): float
 ```
 
-Частка зміни виходу каскаду - це число від 0 до 1, що визначає, наскільки більша частина значення [fanngetMSE()](function.fann-get-mse.html) має змінитися в [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.md) під час навчання вихідних з'єднань, щоб навчання, щоб не застоювалося. Якщо навчання зупиниться, навчання вихідних з'єднань буде припинено та будуть підготовлені нові кандидати.
+Частка зміни виходу каскаду - це число від 0 до 1, що визначає, наскільки більша частина значення [fanngetMSE()](function.fann-get-mse.md) має змінитися в [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.md) під час навчання вихідних з'єднань, щоб навчання, щоб не застоювалося. Якщо навчання зупиниться, навчання вихідних з'єднань буде припинено та будуть підготовлені нові кандидати.
 
 Це означає, що якщо MSE не змінюється на частку **fanngetcascadeoutputchangefraction()** протягом періоду [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.md), Навчання вихідних з'єднань припиниться, тому що навчання зупинилося.
 

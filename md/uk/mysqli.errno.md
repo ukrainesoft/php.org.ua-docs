@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.dump-debug-info.html: '« mysqli::dumpdebuginfo'
-  - mysqli.error-list.html: 'mysqli::$errorlist »'
+  - mysqli.dump-debug-info.md: '« mysqli::dumpdebuginfo'
+  - mysqli.error-list.md: 'mysqli::$errorlist »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$errno'

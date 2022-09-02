@@ -1,9 +1,9 @@
 ---
 navigation:
-  - exception.getprevious.html: '« Exception::getPrevious'
-  - exception.getfile.html: 'Exception::getFile »'
-  - index.html: PHP Manual
-  - class.exception.html: Exception
+  - exception.getprevious.md: '« Exception::getPrevious'
+  - exception.getfile.md: 'Exception::getFile »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
 title: 'Exception::getCode'
 ---
 # Exception::getCode
@@ -26,7 +26,7 @@ final public Exception::getCode(): int
 
 ### Значення, що повертаються
 
-Повертає код виключення типу int у класу [Exception](class.exception.html), але у нащадків класу [Exception](class.exception.html) може бути інший тип (наприклад, типу string в [PDOException](class.pdoexception.html)
+Повертає код виключення типу int у класу [Exception](class.exception.md), але у нащадків класу [Exception](class.exception.md) може бути інший тип (наприклад, типу string в [PDOException](class.pdoexception.md)
 
 ### Приклади
 
@@ -50,4 +50,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getCode()](throwable.getcode.html) - Повертає код виключення
+-   [Throwable::getCode()](throwable.getcode.md) - Повертає код виключення

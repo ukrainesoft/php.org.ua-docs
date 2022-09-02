@@ -1,9 +1,9 @@
 ---
 navigation:
-  - libxml.constants.html: « Обумовлені константи
-  - ref.libxml.html: Функції libxml »
-  - index.html: PHP Manual
-  - book.libxml.html: libxml
+  - libxml.constants.md: « Обумовлені константи
+  - ref.libxml.md: Функції libxml »
+  - index.md: PHP Manual
+  - book.libxml.md: libxml
 title: Клас libXMLError
 ---
 # Клас libXMLError
@@ -12,7 +12,7 @@ title: Клас libXMLError
 
 ## Вступ
 
-Містить різну інформацію про помилки, що викидаються libxml. Коди помилок описані в офіційній [» xmlError API документации](http://www.xmlsoft.org/html/libxml-xmlerror.html)
+Містить різну інформацію про помилки, що викидаються libxml. Коди помилок описані в офіційній [» xmlError API документации](http://www.xmlsoft.org/html/libxml-xmlerror.md)
 
 ## Огляд класів
 

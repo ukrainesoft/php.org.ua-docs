@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-expunge.html: « imapexpunge
-  - function.imap-fetchbody.html: imapfetchbody »
+  - function.imap-expunge.md: « imapexpunge
+  - function.imap-fetchbody.md: imapfetchbody »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapfetchoverview

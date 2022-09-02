@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.isput.html: '« YafRequestAbstract::isPut'
-  - yaf-request-abstract.isxmlhttprequest.html: 'YafRequestAbstract::isXmlHttpRequest »'
+  - yaf-request-abstract.isput.md: '« YafRequestAbstract::isPut'
+  - yaf-request-abstract.isxmlhttprequest.md: 'YafRequestAbstract::isXmlHttpRequest »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::isRouted'
 ---
 # YafRequestAbstract::isRouted

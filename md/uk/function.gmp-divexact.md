@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-div.html: « gmpdiv
-  - function.gmp-export.html: gmpexport »
+  - function.gmp-div.md: « gmpdiv
+  - function.gmp-export.md: gmpexport »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpdivexact

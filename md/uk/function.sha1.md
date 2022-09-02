@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sha1-file.html: « sha1file
-  - function.similar-text.html: similartext »
+  - function.sha1-file.md: « sha1file
+  - function.similar-text.md: similartext »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: sha1
@@ -14,7 +14,7 @@ sha1 - Повертає SHA1-хеш рядки
 
 **Увага**
 
-Не рекомендується використовувати цю функцію для забезпечення безпеки зберігання паролів через високу швидкість роботи даного алгоритму. Докладніше читайте у розділі [Відповіді на найчастіші запитання щодо шифрування паролів](faq.passwords.html#faq.passwords.fasthash)
+Не рекомендується використовувати цю функцію для забезпечення безпеки зберігання паролів через високу швидкість роботи даного алгоритму. Докладніше читайте у розділі [Відповіді на найчастіші запитання щодо шифрування паролів](faq.passwords.md#faq.passwords.fasthash)
 
 ### Опис
 

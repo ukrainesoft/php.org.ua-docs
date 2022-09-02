@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-t61-to-8859.html: « ldapt61то
-  - class.ldap-connection.html: LDAPConnection »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-t61-to-8859.md: « ldapt61то
+  - class.ldap-connection.md: LDAPConnection »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapunbind
 ---
 # ldapunbind
@@ -24,7 +24,7 @@ ldap_unbind(LDAP\Connection $ldap): bool
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 ### Значення, що повертаються
 
@@ -34,8 +34,8 @@ ldap_unbind(LDAP\Connection $ldap): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [ldapbind()](function.ldap-bind.html) - Прив'язати до LDAP директорії
+-   [ldapbind()](function.ldap-bind.md) - Прив'язати до LDAP директорії

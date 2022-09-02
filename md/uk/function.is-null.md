@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-long.html: « islong
-  - function.is-numeric.html: ісnumeric »
+  - function.is-long.md: « islong
+  - function.is-numeric.md: ісnumeric »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: ісnull
@@ -53,7 +53,7 @@ bool(true)
 
 ### Дивіться також
 
--   Тип [**`null`**](language.types.null.html#language.types.null.syntax)
+-   Тип [**`null`**](language.types.null.md#language.types.null.syntax)
 -   [isset()](function.isset.md) - Визначає, чи була встановлена ​​змінна значенням, відмінним від null
 -   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
 -   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом чи рядком, що містить число

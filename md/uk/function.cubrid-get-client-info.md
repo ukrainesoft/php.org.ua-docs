@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-get-class-name.html: « cubridgetclassname
-  - function.cubrid-get-db-parameter.html: cubridgetдбparameter »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-get-class-name.md: « cubridgetclassname
+  - function.cubrid-get-db-parameter.md: cubridgetдбparameter »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridgetclientinfo
 ---
 # cubridgetclientinfo

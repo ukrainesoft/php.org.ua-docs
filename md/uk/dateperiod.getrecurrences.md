@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dateperiod.getenddate.html: '« DatePeriod::getEndDate'
-  - dateperiod.getstartdate.html: 'DatePeriod::getStartDate »'
-  - index.html: PHP Manual
-  - class.dateperiod.html: DatePeriod
+  - dateperiod.getenddate.md: '« DatePeriod::getEndDate'
+  - dateperiod.getstartdate.md: 'DatePeriod::getStartDate »'
+  - index.md: PHP Manual
+  - class.dateperiod.md: DatePeriod
 title: 'DatePeriod::getRecurrences'
 ---
 # DatePeriod::getRecurrences
@@ -32,4 +32,4 @@ public DatePeriod::getRecurrences(): ?int
 
 ### Дивіться також
 
--   [DatePeriod::$recurrences](class.dateperiod.html#dateperiod.props.recurrences)
+-   [DatePeriod::$recurrences](class.dateperiod.md#dateperiod.props.recurrences)

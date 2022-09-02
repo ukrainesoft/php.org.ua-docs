@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.in-array.html: « inarray
+  - function.in-array.md: « inarray
   - function.key.md: key »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами

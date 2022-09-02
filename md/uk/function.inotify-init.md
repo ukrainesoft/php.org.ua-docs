@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.inotify-add-watch.html: « inotifyaddwatch
-  - function.inotify-queue-len.html: inotifyqueuelen »
+  - function.inotify-add-watch.md: « inotifyaddwatch
+  - function.inotify-queue-len.md: inotifyqueuelen »
   - index.md: PHP Manual
   - ref.inotify.md: Функции Inotify
 title: inotifyinit

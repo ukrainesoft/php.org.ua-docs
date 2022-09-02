@@ -1,7 +1,7 @@
 ---
 navigation:
-  - componere-method.getreflector.html: '« ComponereMethod::getReflector'
-  - componere-value.construct.html: 'ComponereValue::construct »'
+  - componere-method.getreflector.md: '« ComponereMethod::getReflector'
+  - componere-value.construct.md: 'ComponereValue::construct »'
   - index.md: PHP Manual
   - book.componere.md: Componere
 title: Клас ComponereValue

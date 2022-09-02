@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.new.html: '« FFI::new'
-  - ffi.sizeof.html: 'FFI::sizeof »'
-  - index.html: PHP Manual
-  - class.ffi.html: FFI
+  - ffi.new.md: '« FFI::new'
+  - ffi.sizeof.md: 'FFI::sizeof »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
 title: 'FFI::scope'
 ---
 # FFI::scope

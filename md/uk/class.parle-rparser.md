@@ -1,7 +1,7 @@
 ---
 navigation:
-  - parle-parser.validate.html: '« ParleParser::validate'
-  - parle-rparser.advance.html: 'ParleRParser::advance »'
+  - parle-parser.validate.md: '« ParleParser::validate'
+  - parle-rparser.advance.md: 'ParleRParser::advance »'
   - index.md: PHP Manual
   - book.parle.md: Parle
 title: Клас ParleRParser

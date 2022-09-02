@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.charmirror.html: '« IntlChar::charMirror'
-  - intlchar.chartype.html: 'IntlChar::charType »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.charmirror.md: '« IntlChar::charMirror'
+  - intlchar.chartype.md: 'IntlChar::charType »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::charName'
 ---
 # IntlChar::charName
@@ -66,5 +66,5 @@ string(0) ""
 
 ### Дивіться також
 
--   [IntlChar::charFromName()](intlchar.charfromname.html) - Знайти символ Unicode по його імені та повернути його код
--   [IntlChar::enumCharNames()](intlchar.enumcharnames.html) - Перераховує всі присвоєні символи Unicode у заданому діапазоні
+-   [IntlChar::charFromName()](intlchar.charfromname.md) - Знайти символ Unicode по його імені та повернути його код
+-   [IntlChar::enumCharNames()](intlchar.enumcharnames.md) - Перераховує всі присвоєні символи Unicode у заданому діапазоні

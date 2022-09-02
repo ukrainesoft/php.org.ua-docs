@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xlswriter.setup.html: « Встановлення та налаштування
-  - xlswriter.installation.html: Установка »
-  - index.html: PHP Manual
-  - xlswriter.setup.html: Встановлення та налаштування
+  - xlswriter.setup.md: « Встановлення та налаштування
+  - xlswriter.installation.md: Установка »
+  - index.md: PHP Manual
+  - xlswriter.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

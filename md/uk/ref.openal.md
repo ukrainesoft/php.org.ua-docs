@@ -1,7 +1,7 @@
 ---
 navigation:
   - openal.constants.md: « Обумовлені константи
-  - function.openal-buffer-create.html: openalbuffercreate »
+  - function.openal-buffer-create.md: openalbuffercreate »
   - index.md: PHP Manual
   - book.openal.md: OpenAL
 title: Функції OpenAL

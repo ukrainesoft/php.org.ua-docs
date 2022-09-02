@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.recode.html: « Функции Recode
-  - function.recode-string.html: recodestring »
-  - index.html: PHP Manual
-  - ref.recode.html: Функции Recode
+  - ref.recode.md: « Функции Recode
+  - function.recode-string.md: recodestring »
+  - index.md: PHP Manual
+  - ref.recode.md: Функции Recode
 title: recodefile
 ---
 # recodefile
@@ -56,4 +56,4 @@ recode_file("us..flat", $input, $output);
 
 ### Дивіться також
 
--   [fopen()](function.fopen.html) - Відкриває файл або URL
+-   [fopen()](function.fopen.md) - Відкриває файл або URL

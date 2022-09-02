@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmldiff-base.construct.html: '« XMLDiffBase::construct'
-  - xmldiff-base.merge.html: 'XMLDiffBase::merge »'
-  - index.html: PHP Manual
-  - class.xmldiff-base.html: XMLDiffBase
+  - xmldiff-base.construct.md: '« XMLDiffBase::construct'
+  - xmldiff-base.merge.md: 'XMLDiffBase::merge »'
+  - index.md: PHP Manual
+  - class.xmldiff-base.md: XMLDiffBase
 title: 'XMLDiffBase::diff'
 ---
 # XMLDiffBase::diff

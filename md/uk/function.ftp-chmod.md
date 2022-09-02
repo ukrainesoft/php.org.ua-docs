@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-chdir.html: « ftpchdir
-  - function.ftp-close.html: ftpclose »
+  - function.ftp-chdir.md: « ftpchdir
+  - function.ftp-close.md: ftpclose »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpchmod

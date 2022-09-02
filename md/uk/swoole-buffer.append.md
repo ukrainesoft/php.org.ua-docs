@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-buffer.html: « SwooleBuffer
-  - swoole-buffer.clear.html: 'SwooleBuffer::clear »'
+  - class.swoole-buffer.md: « SwooleBuffer
+  - swoole-buffer.clear.md: 'SwooleBuffer::clear »'
   - index.md: PHP Manual
-  - class.swoole-buffer.html: SwooleBuffer
+  - class.swoole-buffer.md: SwooleBuffer
 title: 'SwooleBuffer::append'
 ---
 # SwooleBuffer::append

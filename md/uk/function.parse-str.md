@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ord.html: « ord
-  - function.print.html: print »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.ord.md: « ord
+  - function.print.md: print »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: parsestr
 ---
 # parsestr
@@ -85,15 +85,15 @@ echo $output['My_Value']; // Something
 
 > **Зауваження**
 > 
-> Усі змінні створюються (або заносяться до масиву) вже оброблені функцією [urldecode()](function.urldecode.html)
+> Усі змінні створюються (або заносяться до масиву) вже оброблені функцією [urldecode()](function.urldecode.md)
 
 > **Зауваження**
 > 
-> Для отримання поточної `QUERY_STRING`, можна використовувати змінну [SERVER\['QUERYSTRING'\]](reserved.variables.server.html). Крім того, можливо ви захочете прочитати розділ про [змінних поза PHP](language.variables.external.html)
+> Для отримання поточної `QUERY_STRING`, можна використовувати змінну [SERVER\['QUERYSTRING'\]](reserved.variables.server.md). Крім того, можливо ви захочете прочитати розділ про [змінних поза PHP](language.variables.external.md)
 
 ### Дивіться також
 
--   [parseurl()](function.parse-url.html) - Розбирає URL та повертає його компоненти
--   [pathinfo()](function.pathinfo.html) - Повертає інформацію про шлях до файлу
--   [httpbuildquery()](function.http-build-query.html) - Генерує URL-кодований рядок запиту
--   [urldecode()](function.urldecode.html) - Декодування URL-кодованого рядка
+-   [parseurl()](function.parse-url.md) - Розбирає URL та повертає його компоненти
+-   [pathinfo()](function.pathinfo.md) - Повертає інформацію про шлях до файлу
+-   [httpbuildquery()](function.http-build-query.md) - Генерує URL-кодований рядок запиту
+-   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка

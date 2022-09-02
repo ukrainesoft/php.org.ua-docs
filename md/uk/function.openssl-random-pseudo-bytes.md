@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-public-encrypt.html: « opensslpublicencrypt
-  - function.openssl-seal.html: opensslseal »
+  - function.openssl-public-encrypt.md: « opensslpublicencrypt
+  - function.openssl-seal.md: opensslseal »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslrandompseudobytes

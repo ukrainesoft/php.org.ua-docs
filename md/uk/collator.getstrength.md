@@ -51,6 +51,6 @@ $strength = collator_get_strength( $coll );
 
 ### Дивіться також
 
--   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.md)
+-   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
 -   [collatorsetstrength()](collator.setstrength.md) - встановлює силу зіставлення
 -   [collatorgetattribute()](collator.getattribute.md) - Отримує значення атрибуту зіставлення

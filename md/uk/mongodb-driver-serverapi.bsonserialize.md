@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-serverapi.html: « MongoDBDriverServerApi
-  - mongodb-driver-serverapi.construct.html: 'MongoDBDriverServerApi::construct »'
+  - class.mongodb-driver-serverapi.md: « MongoDBDriverServerApi
+  - mongodb-driver-serverapi.construct.md: 'MongoDBDriverServerApi::construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-serverapi.html: MongoDBDriverServerApi
+  - class.mongodb-driver-serverapi.md: MongoDBDriverServerApi
 title: 'MongoDBDriverServerApi::bsonSerialize'
 ---
 # MongoDBDriverServerApi::bsonSerialize

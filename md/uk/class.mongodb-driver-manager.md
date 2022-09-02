@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.mongodb.html: « MongoDBDriver
-  - mongodb-driver-manager.addsubscriber.html: 'MongoDBDriverManager::addSubscriber »'
-  - index.html: PHP Manual
-  - book.mongodb.html: MongoDBDriver
+  - book.mongodb.md: « MongoDBDriver
+  - mongodb-driver-manager.addsubscriber.md: 'MongoDBDriverManager::addSubscriber »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverManager
 ---
 # Клас MongoDBDriverManager
@@ -57,9 +57,9 @@ final public startSession(?array $options = null): MongoDB\Driver\Session
 
 ## Приклади
 
-**Приклад #1 Простий приклад використання [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html)**
+**Приклад #1 Простий приклад використання [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md)**
 
-Виводить різну інформацію про **MongoDBDriverManager** за допомогою функції [vardump()](function.var-dump.html). Це може бути корисним для налагодження, щоб подивитися як драйвер бачить налаштування MongoDB і які опції використовуються.
+Виводить різну інформацію про **MongoDBDriverManager** за допомогою функції [vardump()](function.var-dump.md). Це може бути корисним для налагодження, щоб подивитися як драйвер бачить налаштування MongoDB і які опції використовуються.
 
 ```php
 <?php
@@ -84,20 +84,20 @@ object(MongoDB\Driver\Manager)#1 (2) {
 
 ## Зміст
 
--   [MongoDBDriverManager::addSubscriber](mongodb-driver-manager.addsubscriber.html) — Реєструє передплатника на подію моніторингу в даному об'єкті Manager
--   [MongoDBDriverManager::construct](mongodb-driver-manager.construct.html) - Створює новий Manager MongoDB
--   [MongoDBDriverManager::createClientEncryption](mongodb-driver-manager.createclientencryption.html) — Створення нового об'єкта ClientEncryption
--   [MongoDBDriverManager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.html) — Виконує одну або кілька операцій запису
--   [MongoDBDriverManager::executeCommand](mongodb-driver-manager.executecommand.html) - Виконує команду бази даних
--   [MongoDBDriverManager::executeQuery](mongodb-driver-manager.executequery.html) — Виконує запит до бази даних
--   [MongoDBDriverManager::executeReadCommand](mongodb-driver-manager.executereadcommand.html) - Виконує команду бази даних, яка читає
--   [MongoDBDriverManager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.html) — Виконує команду бази даних, яка читає та пише
--   [MongoDBDriverManager::executeWriteCommand](mongodb-driver-manager.executewritecommand.html) - Виконує команду бази даних, яка пише
--   [MongoDBDriverManager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.html) — Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
--   [MongoDBDriverManager::getReadConcern](mongodb-driver-manager.getreadconcern.html) — Повертає ReadConcern для Manager
--   [MongoDBDriverManager::getReadPreference](mongodb-driver-manager.getreadpreference.html) — Повертає ReadPreference для Manager
--   [MongoDBDriverManager::getServers](mongodb-driver-manager.getservers.html) — Повертає сервери, до яких підключено менеджера
--   [MongoDBDriverManager::getWriteConcern](mongodb-driver-manager.getwriteconcern.html) — Повертає WriteConcern для Manager
--   [MongoDBDriverManager::removeSubscriber](mongodb-driver-manager.removesubscriber.html) — Скасує реєстрацію передплатника на подію моніторингу на даному об'єкті Manager
--   [MongoDBDriverManager::selectServer](mongodb-driver-manager.selectserver.html) — Вибрати сервер, який відповідає перевагам читання
--   [MongoDBDriverManager::startSession](mongodb-driver-manager.startsession.html) — Запуск нового клієнтського сеансу для використання з цим клієнтом
+-   [MongoDBDriverManager::addSubscriber](mongodb-driver-manager.addsubscriber.md) — Реєструє передплатника на подію моніторингу в даному об'єкті Manager
+-   [MongoDBDriverManager::construct](mongodb-driver-manager.construct.md) - Створює новий Manager MongoDB
+-   [MongoDBDriverManager::createClientEncryption](mongodb-driver-manager.createclientencryption.md) — Створення нового об'єкта ClientEncryption
+-   [MongoDBDriverManager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.md) — Виконує одну або кілька операцій запису
+-   [MongoDBDriverManager::executeCommand](mongodb-driver-manager.executecommand.md) - Виконує команду бази даних
+-   [MongoDBDriverManager::executeQuery](mongodb-driver-manager.executequery.md) — Виконує запит до бази даних
+-   [MongoDBDriverManager::executeReadCommand](mongodb-driver-manager.executereadcommand.md) - Виконує команду бази даних, яка читає
+-   [MongoDBDriverManager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.md) — Виконує команду бази даних, яка читає та пише
+-   [MongoDBDriverManager::executeWriteCommand](mongodb-driver-manager.executewritecommand.md) - Виконує команду бази даних, яка пише
+-   [MongoDBDriverManager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.md) — Повертає опцію автоматичного шифрування encryptedFieldsMap для Manager
+-   [MongoDBDriverManager::getReadConcern](mongodb-driver-manager.getreadconcern.md) — Повертає ReadConcern для Manager
+-   [MongoDBDriverManager::getReadPreference](mongodb-driver-manager.getreadpreference.md) — Повертає ReadPreference для Manager
+-   [MongoDBDriverManager::getServers](mongodb-driver-manager.getservers.md) — Повертає сервери, до яких підключено менеджера
+-   [MongoDBDriverManager::getWriteConcern](mongodb-driver-manager.getwriteconcern.md) — Повертає WriteConcern для Manager
+-   [MongoDBDriverManager::removeSubscriber](mongodb-driver-manager.removesubscriber.md) — Скасує реєстрацію передплатника на подію моніторингу на даному об'єкті Manager
+-   [MongoDBDriverManager::selectServer](mongodb-driver-manager.selectserver.md) — Вибрати сервер, який відповідає перевагам читання
+-   [MongoDBDriverManager::startSession](mongodb-driver-manager.startsession.md) — Запуск нового клієнтського сеансу для використання з цим клієнтом

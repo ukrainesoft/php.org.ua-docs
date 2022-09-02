@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-export.html: « gnupgexport
-  - function.gnupg-geterror.html: gnupggeterror »
+  - function.gnupg-export.md: « gnupgexport
+  - function.gnupg-geterror.md: gnupggeterror »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupggetengineinfo

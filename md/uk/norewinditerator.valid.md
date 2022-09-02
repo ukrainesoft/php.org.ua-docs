@@ -1,9 +1,9 @@
 ---
 navigation:
-  - norewinditerator.rewind.html: '« NoRewindIterator::rewind'
-  - class.parentiterator.html: ParentIterator »
-  - index.html: PHP Manual
-  - class.norewinditerator.html: NoRewindIterator
+  - norewinditerator.rewind.md: '« NoRewindIterator::rewind'
+  - class.parentiterator.md: ParentIterator »
+  - index.md: PHP Manual
+  - class.norewinditerator.md: NoRewindIterator
 title: 'NoRewindIterator::valid'
 ---
 # NoRewindIterator::valid
@@ -34,4 +34,4 @@ public NoRewindIterator::valid(): bool
 
 ### Дивіться також
 
--   [NoRewindIterator::getInnerIterator()](norewinditerator.getinneriterator.html) - отримує внутрішній ітератор
+-   [NoRewindIterator::getInnerIterator()](norewinditerator.getinneriterator.md) - отримує внутрішній ітератор

@@ -52,7 +52,7 @@ URI ресурс для виведення.
 
 **Приклад #1 Прямий висновок XML**
 
-Можна безпосередньо виводити XML, використовуючи [обёртку потока php://output](wrappers.php.html#wrappers.php.output)
+Можна безпосередньо виводити XML, використовуючи [обёртку потока php://output](wrappers.php.md#wrappers.php.output)
 
 ```php
 <?php

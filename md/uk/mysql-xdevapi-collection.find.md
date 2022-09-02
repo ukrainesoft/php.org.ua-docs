@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collection.existsindatabase.html: '« Collection::existsInDatabase'
-  - mysql-xdevapi-collection.getname.html: 'Collection::getName »'
+  - mysql-xdevapi-collection.existsindatabase.md: '« Collection::existsInDatabase'
+  - mysql-xdevapi-collection.getname.md: 'Collection::getName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
 title: 'Collection::find'
 ---
 # Collection::find

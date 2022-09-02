@@ -1,9 +1,9 @@
 ---
 navigation:
-  - refs.database.html: « Модулі для роботи з базами даних
-  - book.dba.html: DBA »
-  - index.html: PHP Manual
-  - refs.database.html: Модулі для роботи з базами даних
+  - refs.database.md: « Модулі для роботи з базами даних
+  - book.dba.md: DBA »
+  - index.md: PHP Manual
+  - refs.database.md: Модулі для роботи з базами даних
 title: Рівні абстракції
 ---
 # Рівні абстракції

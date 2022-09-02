@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.getlastresponseheaders.html: '« OAuth::getLastResponseHeaders'
-  - oauth.getrequestheader.html: 'OAuth::getRequestHeader »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.getlastresponseheaders.md: '« OAuth::getLastResponseHeaders'
+  - oauth.getrequestheader.md: 'OAuth::getRequestHeader »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::getLastResponseInfo'
 ---
 # OAuth::getLastResponseInfo
@@ -26,9 +26,9 @@ public OAuth::getLastResponseInfo(): array
 
 ### Значення, що повертаються
 
-Повертає масив з інформацією на останній запит. Можна використовувати константи [curlgetinfo()](function.curl-getinfo.html)
+Повертає масив з інформацією на останній запит. Можна використовувати константи [curlgetinfo()](function.curl-getinfo.md)
 
 ### Дивіться також
 
--   [OAuth::fetch()](oauth.fetch.html) - Витягти захищений ресурс OAuth
--   [OAuth::getLastResponse()](oauth.getlastresponse.html) - Отримати останню відповідь
+-   [OAuth::fetch()](oauth.fetch.md) - Витягти захищений ресурс OAuth
+-   [OAuth::getLastResponse()](oauth.getlastresponse.md) - Отримати останню відповідь

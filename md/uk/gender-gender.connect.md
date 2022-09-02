@@ -1,7 +1,7 @@
 ---
 navigation:
   - class.gender.md: « GenderGender
-  - gender-gender.construct.html: 'GenderGender::construct »'
+  - gender-gender.construct.md: 'GenderGender::construct »'
   - index.md: PHP Manual
   - class.gender.md: GenderGender
 title: 'GenderGender::connect'

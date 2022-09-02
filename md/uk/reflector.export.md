@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.reflector.html: « Reflector
-  - reflector.tostring.html: 'Reflector::toString »'
-  - index.html: PHP Manual
-  - class.reflector.html: Reflector
+  - class.reflector.md: « Reflector
+  - reflector.tostring.md: 'Reflector::toString »'
+  - index.md: PHP Manual
+  - class.reflector.md: Reflector
 title: 'Reflector::export'
 ---
 # Reflector::export

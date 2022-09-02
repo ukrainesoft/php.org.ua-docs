@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.lzf-optimized-for.html: « lzfoptimizedfor
-  - intro.phar.html: Введение »
-  - index.html: PHP Manual
-  - refs.compression.html: Модулі для стиснення та архівації
+  - function.lzf-optimized-for.md: « lzfoptimizedfor
+  - intro.phar.md: Введение »
+  - index.md: PHP Manual
+  - refs.compression.md: Модулі для стиснення та архівації
 title: Phar
 ---
 # Phar

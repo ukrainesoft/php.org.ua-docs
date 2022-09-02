@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-cmsg-space.html: « socketcmsgspace
-  - function.socket-create-listen.html: socketcreatelisten »
+  - function.socket-cmsg-space.md: « socketcmsgspace
+  - function.socket-create-listen.md: socketcreatelisten »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketconnect
@@ -36,7 +36,7 @@ socket_connect(Socket $socket, string $address, ?int $port = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код може бути потім переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Код помилки можна отримати за допомогою функції [socketlasterror()](function.socket-last-error.md). Цей код може бути потім переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 > **Зауваження**
 > 

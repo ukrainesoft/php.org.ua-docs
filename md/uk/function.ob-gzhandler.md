@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ob-get-status.html: « obgetstatus
-  - function.ob-implicit-flush.html: про implicit flush »
+  - function.ob-get-status.md: « obgetstatus
+  - function.ob-implicit-flush.md: про implicit flush »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
 title: проgzhandler
@@ -53,7 +53,7 @@ ob_start("ob_gzhandler");
 
 > **Зауваження**
 > 
-> Ви не можете використовувати одночасно **проgzhandler()** і [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression). Також зверніть увагу, що використання [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression) краще, ніж **проgzhandler()**
+> Ви не можете використовувати одночасно **проgzhandler()** і [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression). Також зверніть увагу, що використання [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression) краще, ніж **проgzhandler()**
 
 ### Дивіться також
 

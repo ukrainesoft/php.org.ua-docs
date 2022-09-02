@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrresponse.gethttpstatusmessage.html: '« SolrResponse::getHttpStatusMessage'
-  - solrresponse.getrawrequestheaders.html: 'SolrResponse::getRawRequestHeaders »'
-  - index.html: PHP Manual
-  - class.solrresponse.html: SolrResponse
+  - solrresponse.gethttpstatusmessage.md: '« SolrResponse::getHttpStatusMessage'
+  - solrresponse.getrawrequestheaders.md: 'SolrResponse::getRawRequestHeaders »'
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
 title: 'SolrResponse::getRawRequest'
 ---
 # SolrResponse::getRawRequest

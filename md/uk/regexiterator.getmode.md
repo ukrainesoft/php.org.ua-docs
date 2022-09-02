@@ -1,9 +1,9 @@
 ---
 navigation:
-  - regexiterator.getflags.html: '« RegexIterator::getFlags'
-  - regexiterator.getpregflags.html: 'RegexIterator::getPregFlags »'
-  - index.html: PHP Manual
-  - class.regexiterator.html: RegexIterator
+  - regexiterator.getflags.md: '« RegexIterator::getFlags'
+  - regexiterator.getpregflags.md: 'RegexIterator::getPregFlags »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::getMode'
 ---
 # RegexIterator::getMode
@@ -18,7 +18,7 @@ RegexIterator::getMode — Повертає режим роботи
 public RegexIterator::getMode(): int
 ```
 
-Повертає режим роботи. Список можливих режимів наведено на сторінці [RegexIterator::setMode()](regexiterator.setmode.html)
+Повертає режим роботи. Список можливих режимів наведено на сторінці [RegexIterator::setMode()](regexiterator.setmode.md)
 
 ### Список параметрів
 
@@ -61,4 +61,4 @@ if ($mode & RegexIterator::GET_MATCH) {
 
 ### Дивіться також
 
--   [RegexIterator::setMode()](regexiterator.setmode.html) - Встановлення режиму роботи
+-   [RegexIterator::setMode()](regexiterator.setmode.md) - Встановлення режиму роботи

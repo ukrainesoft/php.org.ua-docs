@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.win32service.html: « win32service
-  - win32service.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.win32service.html: win32service
+  - book.win32service.md: « win32service
+  - win32service.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.win32service.md: win32service
 title: Вступ
 ---
 # Вступ

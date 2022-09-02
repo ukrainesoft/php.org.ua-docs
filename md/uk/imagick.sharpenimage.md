@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.shadowimage.html: '« Imagick::shadowImage'
-  - imagick.shaveimage.html: 'Imagick::shaveImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.shadowimage.md: '« Imagick::shadowImage'
+  - imagick.shaveimage.md: 'Imagick::shaveImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::sharpenImage'
 ---
 # Imagick::sharpenImage

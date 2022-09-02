@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimagewhitepoint.html: '« Gmagick::getimagewhitepoint'
-  - gmagick.getpackagename.html: 'Gmagick::getpackagename »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimagewhitepoint.md: '« Gmagick::getimagewhitepoint'
+  - gmagick.getpackagename.md: 'Gmagick::getpackagename »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimagewidth'
 ---
 # Gmagick::getimagewidth

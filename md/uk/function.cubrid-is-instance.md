@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-insert-id.html: « cubridinsertід
-  - function.cubrid-lob-close.html: cubridlobclose »
+  - function.cubrid-insert-id.md: « cubridinsertід
+  - function.cubrid-lob-close.md: cubridlobclose »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridісinstance

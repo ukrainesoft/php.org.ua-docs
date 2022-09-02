@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-delete-user.html: « ibasedeleteuser
-  - function.ibase-errcode.html: ibaseerrcode »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-delete-user.md: « ibasedeleteuser
+  - function.ibase-errcode.md: ibaseerrcode »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasedropдб
 ---
 # ibasedropдб
@@ -18,7 +18,7 @@ ibasedropdb — Видалення бази даних
 ibase_drop_db(resource $connection = null): bool
 ```
 
-Функція видаляє базу даних, яка була відкрита або за допомогою [ibaseconnect()](function.ibase-connect.html), або [ibasepconnect()](function.ibase-pconnect.html). База даних закривається та видаляється з сервера.
+Функція видаляє базу даних, яка була відкрита або за допомогою [ibaseconnect()](function.ibase-connect.md), або [ibasepconnect()](function.ibase-pconnect.md). База даних закривається та видаляється з сервера.
 
 ### Список параметрів
 
@@ -32,5 +32,5 @@ ibase_drop_db(resource $connection = null): bool
 
 ### Дивіться також
 
--   [ibaseconnect()](function.ibase-connect.html) - Відкриває з'єднання з базою даних
--   [ibasepconnect()](function.ibase-pconnect.html) - Відкриває постійне з'єднання з базою даних InterBase
+-   [ibaseconnect()](function.ibase-connect.md) - Відкриває з'єднання з базою даних
+-   [ibasepconnect()](function.ibase-pconnect.md) - Відкриває постійне з'єднання з базою даних InterBase

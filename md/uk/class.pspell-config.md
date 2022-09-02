@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.pspell-dictionary.html: « PSpellDictionary
+  - class.pspell-dictionary.md: « PSpellDictionary
   - book.recode.md: Recode »
   - index.md: PHP Manual
   - book.pspell.md: Pspell

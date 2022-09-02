@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-undefine.html: « uopzundefine
-  - function.uopz-unset-mock.html: uopzunsetmock »
+  - function.uopz-undefine.md: « uopzundefine
+  - function.uopz-unset-mock.md: uopzunsetmock »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzunsethook

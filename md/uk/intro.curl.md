@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.curl.html: « cURL
-  - curl.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.curl.html: cURL
+  - book.curl.md: « cURL
+  - curl.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.curl.md: cURL
 title: Вступ
 ---
 # Вступ

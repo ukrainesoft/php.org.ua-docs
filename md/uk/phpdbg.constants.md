@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phpdbg.configuration.html: « Налаштування під час виконання
-  - ref.phpdbg.html: Функции phpdbg »
-  - index.html: PHP Manual
-  - book.phpdbg.html: phpdbg
+  - phpdbg.configuration.md: « Налаштування під час виконання
+  - ref.phpdbg.md: Функции phpdbg »
+  - index.md: PHP Manual
+  - book.phpdbg.md: phpdbg
 title: Обумовлені константи
 ---
 # Обумовлені константи

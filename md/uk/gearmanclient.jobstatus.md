@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.geterrno.html: '« GearmanClient::getErrno'
-  - gearmanclient.ping.html: 'GearmanClient::ping »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.geterrno.md: '« GearmanClient::getErrno'
+  - gearmanclient.ping.md: 'GearmanClient::ping »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::jobStatus'
 ---
 # GearmanClient::jobStatus

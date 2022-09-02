@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.imagickkernel.html: « ImagickKernel
-  - imagickkernel.addunitykernel.html: 'ImagickKernel::addUnityKernel »'
-  - index.html: PHP Manual
-  - class.imagickkernel.html: ImagickKernel
+  - class.imagickkernel.md: « ImagickKernel
+  - imagickkernel.addunitykernel.md: 'ImagickKernel::addUnityKernel »'
+  - index.md: PHP Manual
+  - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::addKernel'
 ---
 # ImagickKernel::addKernel

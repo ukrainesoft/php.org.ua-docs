@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-subclass-of.html: « issubclassоф
-  - function.property-exists.html: propertyexists »
+  - function.is-subclass-of.md: « issubclassоф
+  - function.property-exists.md: propertyexists »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: методexists

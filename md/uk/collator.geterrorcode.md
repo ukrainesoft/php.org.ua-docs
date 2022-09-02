@@ -1,9 +1,9 @@
 ---
 navigation:
-  - collator.getattribute.html: '« Collator::getAttribute'
-  - collator.geterrormessage.html: 'Collator::getErrorMessage »'
-  - index.html: PHP Manual
-  - class.collator.html: Collator
+  - collator.getattribute.md: '« Collator::getAttribute'
+  - collator.geterrormessage.md: 'Collator::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
 title: 'Collator::getErrorCode'
 ---
 # Collator::getErrorCode
@@ -32,7 +32,7 @@ collator_get_error_code(Collator $object): int|false
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 ### Значення, що повертаються
 
@@ -52,4 +52,4 @@ if( collator_get_attribute( $coll, Collator::FRENCH_COLLATION ) === false�
 
 ### Дивіться також
 
--   [collatorgeterrormessage()](collator.geterrormessage.html) - Отримує текст для останньої помилки коду Collator
+-   [collatorgeterrormessage()](collator.geterrormessage.md) - Отримує текст для останньої помилки коду Collator

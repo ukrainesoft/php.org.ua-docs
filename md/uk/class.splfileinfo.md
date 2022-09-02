@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spl.files.html: « Обработка файлов
-  - splfileinfo.construct.html: 'SplFileInfo::construct »'
-  - index.html: PHP Manual
-  - spl.files.html: Обработка файлов
+  - spl.files.md: « Обработка файлов
+  - splfileinfo.construct.md: 'SplFileInfo::construct »'
+  - index.md: PHP Manual
+  - spl.files.md: Обработка файлов
 title: Клас SplFileInfo
 ---
 # Клас SplFileInfo
@@ -69,36 +69,36 @@ public __toString(): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Клас **SplFileInfo** тепер реалізує [Stringable](class.stringable.html) |
+|  | Клас **SplFileInfo** тепер реалізує [Stringable](class.stringable.md) |
 
 ## Зміст
 
--   [SplFileInfo::construct](splfileinfo.construct.html) — Створити новий об'єкт SplFileInfo
--   [SplFileInfo::getATime](splfileinfo.getatime.html) — Отримує час останнього доступу до файлу
--   [SplFileInfo::getBasename](splfileinfo.getbasename.html) — Отримує базове ім'я файлу
--   [SplFileInfo::getCTime](splfileinfo.getctime.html) — Повертає час останньої зміни індексного дескриптора файлу
--   [SplFileInfo::getExtension](splfileinfo.getextension.html) — Отримує розширення файлу
--   [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.html) — Отримує об'єкт SplFileInfo для файлу
--   [SplFileInfo::getFilename](splfileinfo.getfilename.html) — Отримує ім'я файлу
--   [SplFileInfo::getGroup](splfileinfo.getgroup.html) — Отримує групу файлу
--   [SplFileInfo::getInode](splfileinfo.getinode.html) — Отримує індексний дескриптор для файлу
--   [SplFileInfo::getLinkTarget](splfileinfo.getlinktarget.html) — Отримує шлях заслання
--   [SplFileInfo::getMTime](splfileinfo.getmtime.html) — Отримує час останньої зміни
--   [SplFileInfo::getOwner](splfileinfo.getowner.html) — Отримує власника файлу
--   [SplFileInfo::getPath](splfileinfo.getpath.html) — Отримує шлях без імені файлу
--   [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.html) — Отримує об'єкт SplFileInfo для заданого шляху
--   [SplFileInfo::getPathname](splfileinfo.getpathname.html) — Отримує шлях до файлу
--   [SplFileInfo::getPerms](splfileinfo.getperms.html) — Отримує список дозволів
--   [SplFileInfo::getRealPath](splfileinfo.getrealpath.html) — Отримує абсолютний шлях до файлу
--   [SplFileInfo::getSize](splfileinfo.getsize.html) — Отримує розмір файлу
--   [SplFileInfo::getType](splfileinfo.gettype.html) — Отримує тип файлу
--   [SplFileInfo::isDir](splfileinfo.isdir.html) — Вказує, чи файл є каталогом
--   [SplFileInfo::isExecutable](splfileinfo.isexecutable.html) — Вказує, чи файл виконуваний
--   [SplFileInfo::isFile](splfileinfo.isfile.html) — Вказує, чи об'єкт посилається на звичайний файл
--   [SplFileInfo::isLink](splfileinfo.islink.html) — Вказує, чи файл є посиланням
--   [SplFileInfo::isReadable](splfileinfo.isreadable.html) — Вказує, чи файл доступний для читання
--   [SplFileInfo::isWritable](splfileinfo.iswritable.html) — Вказує, чи файл доступний для запису
--   [SplFileInfo::openFile](splfileinfo.openfile.html) — Отримує об'єкт SplFileObject для файлу
--   [SplFileInfo::setFileClass](splfileinfo.setfileclass.html) — Задає ім'я класу, який використовуватиметься методом SplFileInfo::openFile
--   [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.html) — Вказує ім'я класу, об'єкти якого створюватимуться методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
--   [SplFileInfo::toString](splfileinfo.tostring.html) — Повертає шлях до файлу у вигляді рядка
+-   [SplFileInfo::construct](splfileinfo.construct.md) — Створити новий об'єкт SplFileInfo
+-   [SplFileInfo::getATime](splfileinfo.getatime.md) — Отримує час останнього доступу до файлу
+-   [SplFileInfo::getBasename](splfileinfo.getbasename.md) — Отримує базове ім'я файлу
+-   [SplFileInfo::getCTime](splfileinfo.getctime.md) — Повертає час останньої зміни індексного дескриптора файлу
+-   [SplFileInfo::getExtension](splfileinfo.getextension.md) — Отримує розширення файлу
+-   [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md) — Отримує об'єкт SplFileInfo для файлу
+-   [SplFileInfo::getFilename](splfileinfo.getfilename.md) — Отримує ім'я файлу
+-   [SplFileInfo::getGroup](splfileinfo.getgroup.md) — Отримує групу файлу
+-   [SplFileInfo::getInode](splfileinfo.getinode.md) — Отримує індексний дескриптор для файлу
+-   [SplFileInfo::getLinkTarget](splfileinfo.getlinktarget.md) — Отримує шлях заслання
+-   [SplFileInfo::getMTime](splfileinfo.getmtime.md) — Отримує час останньої зміни
+-   [SplFileInfo::getOwner](splfileinfo.getowner.md) — Отримує власника файлу
+-   [SplFileInfo::getPath](splfileinfo.getpath.md) — Отримує шлях без імені файлу
+-   [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md) — Отримує об'єкт SplFileInfo для заданого шляху
+-   [SplFileInfo::getPathname](splfileinfo.getpathname.md) — Отримує шлях до файлу
+-   [SplFileInfo::getPerms](splfileinfo.getperms.md) — Отримує список дозволів
+-   [SplFileInfo::getRealPath](splfileinfo.getrealpath.md) — Отримує абсолютний шлях до файлу
+-   [SplFileInfo::getSize](splfileinfo.getsize.md) — Отримує розмір файлу
+-   [SplFileInfo::getType](splfileinfo.gettype.md) — Отримує тип файлу
+-   [SplFileInfo::isDir](splfileinfo.isdir.md) — Вказує, чи файл є каталогом
+-   [SplFileInfo::isExecutable](splfileinfo.isexecutable.md) — Вказує, чи файл виконуваний
+-   [SplFileInfo::isFile](splfileinfo.isfile.md) — Вказує, чи об'єкт посилається на звичайний файл
+-   [SplFileInfo::isLink](splfileinfo.islink.md) — Вказує, чи файл є посиланням
+-   [SplFileInfo::isReadable](splfileinfo.isreadable.md) — Вказує, чи файл доступний для читання
+-   [SplFileInfo::isWritable](splfileinfo.iswritable.md) — Вказує, чи файл доступний для запису
+-   [SplFileInfo::openFile](splfileinfo.openfile.md) — Отримує об'єкт SplFileObject для файлу
+-   [SplFileInfo::setFileClass](splfileinfo.setfileclass.md) — Задає ім'я класу, який використовуватиметься методом SplFileInfo::openFile
+-   [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md) — Вказує ім'я класу, об'єкти якого створюватимуться методами SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
+-   [SplFileInfo::toString](splfileinfo.tostring.md) — Повертає шлях до файлу у вигляді рядка

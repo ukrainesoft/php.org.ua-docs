@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration56.md: « Миграция с PHP 5.5.x на PHP 5.6.x
-  - migration56.new-features.html: Нові можливості "
+  - migration56.new-features.md: Нові можливості "
   - index.md: PHP Manual
   - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
 title: 'Зміни, що ламають зворотну сумісність'
@@ -55,7 +55,7 @@ array(3) {
 
 ### Суворість [jsondecode()](function.json-decode.md)
 
-Тепер [jsondecode()](function.json-decode.html) відповідно до специфікації JSON відхиляє JSON літерали `true` `false` і `null`, задані не строго в нижньому регістрі, і відповідно встановлює [jsonlasterror()](function.json-last-error.html). Раніше дані, що передаються в [jsondecode()](function.json-decode.md) і що містять виключно одне з цих значень у верхньому або змішаному регістрі приймалися.
+Тепер [jsondecode()](function.json-decode.md) відповідно до специфікації JSON відхиляє JSON літерали `true` `false` і `null`, задані не строго в нижньому регістрі, і відповідно встановлює [jsonlasterror()](function.json-last-error.md). Раніше дані, що передаються в [jsondecode()](function.json-decode.md) і що містять виключно одне з цих значень у верхньому або змішаному регістрі приймалися.
 
 Ця зміна вплине тільки у разі передачі в [jsondecode()](function.json-decode.md) некоректного JSON. У разі коректно сформованого JSON ніякого ефекту не буде.
 
@@ -63,9 +63,9 @@ array(3) {
 
 Всі клієнтські потоки, що шифруються, тепер за замовчуванням включають перевірку бенкетів. За промовчанням використовується OpenSSL CA пакет для перевірки сертифіката бенкету. У більшості випадків нічого не потрібно робити для з'єднання з серверами з правильним SSL сертифікатом, так як зазвичай OpenSSL вже налаштований для використання хороших CA пакетів.
 
-Стандартний CA пакет може бути перевизначений глобально за допомогою установки або openssl.cafile або openssl.capath рядків конфігурації, або ж на рівні кожного запиту, використовуючи опції контексту [`cafile`](context.ssl.html#context.ssl.cafile) або [`capath`](context.ssl.html#context.ssl.capath)
+Стандартний CA пакет може бути перевизначений глобально за допомогою установки або openssl.cafile або openssl.capath рядків конфігурації, або ж на рівні кожного запиту, використовуючи опції контексту [`cafile`](context.ssl.md#context.ssl.cafile) або [`capath`](context.ssl.md#context.ssl.capath)
 
-Хоча це й не рекомендується, але можна вимкнути перевірку сертифіката бенкету для запиту, встановивши [`verify_peer`](context.ssl.html#context.ssl.verify-peer) опцію контексту в **`false`**, і можна вимкнути перевірку імені бенкету, встановивши [`verify_peer_name`](context.ssl.html#context.ssl.verify-peer-name) в **`false`**
+Хоча це й не рекомендується, але можна вимкнути перевірку сертифіката бенкету для запиту, встановивши [`verify_peer`](context.ssl.md#context.ssl.verify-peer) опцію контексту в **`false`**, і можна вимкнути перевірку імені бенкету, встановивши [`verify_peer_name`](context.ssl.md#context.ssl.verify-peer-name) в **`false`**
 
 ### Тепер ресурси [GMP](book.gmp.md) є об'єктами
 
@@ -73,7 +73,7 @@ array(3) {
 
 ### Тепер функція [Mcrypt](book.mcrypt.md) вимагає коректні ключі та IV
 
-[mcryptencrypt()](function.mcrypt-encrypt.html) [mcryptdecrypt()](function.mcrypt-decrypt.html) **mcryptcbc()** **mcryptcfb()** **mcryptecb()** [mcryptgeneric()](function.mcrypt-generic.md) і **mcryptofb()** більше не приймають ключі та IV з некоректною довжиною, а режими блокового шифру, що вимагають IV, будуть завершуватися помилково, якщо його не передати.
+[mcryptencrypt()](function.mcrypt-encrypt.md) [mcryptdecrypt()](function.mcrypt-decrypt.md) **mcryptcbc()** **mcryptcfb()** **mcryptecb()** [mcryptgeneric()](function.mcrypt-generic.md) і **mcryptofb()** більше не приймають ключі та IV з некоректною довжиною, а режими блокового шифру, що вимагають IV, будуть завершуватися помилково, якщо його не передати.
 
 ### Завантаження файлів за допомогою [cURL](book.curl.md)
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-multilineentry.construct.html: '« UIControlsMultilineEntry::construct'
-  - ui-controls-multilineentry.isreadonly.html: 'ОЙControlsMultilineEntry::isReadOnly »'
+  - ui-controls-multilineentry.construct.md: '« UIControlsMultilineEntry::construct'
+  - ui-controls-multilineentry.isreadonly.md: 'ОЙControlsMultilineEntry::isReadOnly »'
   - index.md: PHP Manual
-  - class.ui-controls-multilineentry.html: ОЙControlsMultilineEntry
+  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
 title: 'ОЙControlsMultilineEntry::getText'
 ---
 # ОЙControlsMultilineEntry::getText

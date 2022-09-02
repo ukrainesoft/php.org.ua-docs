@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.getunknown.html: '« IntlTimeZone::getUnknown'
-  - intltimezone.hassamerules.html: 'IntlTimeZone::hasSameRules »'
-  - index.html: PHP Manual
-  - class.intltimezone.html: IntlTimeZone
+  - intltimezone.getunknown.md: '« IntlTimeZone::getUnknown'
+  - intltimezone.hassamerules.md: 'IntlTimeZone::hasSameRules »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getWindowsID'
 ---
 # IntlTimeZone::getWindowsID

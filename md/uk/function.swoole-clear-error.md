@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-async-writefile.html: « swooleasyncwritefile
-  - function.swoole-client-select.html: swooleclientselect »
-  - index.html: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - function.swoole-async-writefile.md: « swooleasyncwritefile
+  - function.swoole-client-select.md: swooleclientselect »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleclearerror
 ---
 # swooleclearerror

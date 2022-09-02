@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfixedarray.toarray.html: '« SplFixedArray::toArray'
-  - splfixedarray.wakeup.html: 'SplFixedArray::wakeup »'
-  - index.html: PHP Manual
-  - class.splfixedarray.html: SplFixedArray
+  - splfixedarray.toarray.md: '« SplFixedArray::toArray'
+  - splfixedarray.wakeup.md: 'SplFixedArray::wakeup »'
+  - index.md: PHP Manual
+  - class.splfixedarray.md: SplFixedArray
 title: 'SplFixedArray::valid'
 ---
 # SplFixedArray::valid

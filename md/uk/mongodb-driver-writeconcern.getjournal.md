@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.construct.html: '« MongoDBDriverWriteConcern::construct'
-  - mongodb-driver-writeconcern.getw.html: 'MongoDBDriverWriteConcern::getW »'
+  - mongodb-driver-writeconcern.construct.md: '« MongoDBDriverWriteConcern::construct'
+  - mongodb-driver-writeconcern.getw.md: 'MongoDBDriverWriteConcern::getW »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
 title: 'MongoDBDriverWriteConcern::getJournal'
 ---
 # MongoDBDriverWriteConcern::getJournal

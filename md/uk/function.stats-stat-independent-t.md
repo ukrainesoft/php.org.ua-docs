@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-stat-factorial.html: « statsstatfactorial
-  - function.stats-stat-innerproduct.html: statsstatinnerproduct »
+  - function.stats-stat-factorial.md: « statsstatfactorial
+  - function.stats-stat-innerproduct.md: statsstatinnerproduct »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsстатиindependentт

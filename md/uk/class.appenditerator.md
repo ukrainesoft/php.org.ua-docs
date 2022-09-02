@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spl.iterators.html: « Ітератори
-  - appenditerator.append.html: 'AppendIterator::append »'
-  - index.html: PHP Manual
-  - spl.iterators.html: Ітератори
+  - spl.iterators.md: « Ітератори
+  - appenditerator.append.md: 'AppendIterator::append »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
 title: Клас AppendIterator
 ---
 # Клас AppendIterator

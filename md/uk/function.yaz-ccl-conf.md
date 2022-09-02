@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-addinfo.html: « yazaddinfo
-  - function.yaz-ccl-parse.html: yazcclparse »
+  - function.yaz-addinfo.md: « yazaddinfo
+  - function.yaz-ccl-parse.md: yazcclparse »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazcclconf

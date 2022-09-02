@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-fput.html: « ftpfput
-  - function.ftp-get.html: ftpget »
+  - function.ftp-fput.md: « ftpfput
+  - function.ftp-get.md: ftpget »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpgetoption

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - iteratoriterator.current.html: '« IteratorIterator::current'
-  - iteratoriterator.key.html: 'IteratorIterator::key »'
-  - index.html: PHP Manual
-  - class.iteratoriterator.html: IteratorIterator
+  - iteratoriterator.current.md: '« IteratorIterator::current'
+  - iteratoriterator.key.md: 'IteratorIterator::key »'
+  - index.md: PHP Manual
+  - class.iteratoriterator.md: IteratorIterator
 title: 'IteratorIterator::getInnerIterator'
 ---
 # IteratorIterator::getInnerIterator
@@ -26,9 +26,9 @@ public IteratorIterator::getInnerIterator(): ?Iterator
 
 ### Значення, що повертаються
 
-Внутрішній ітератор, який було передано методу [IteratorIterator::construct()](iteratoriterator.construct.html) або \*\*`null`\*\*якщо внутрішній ітератор відсутній.
+Внутрішній ітератор, який було передано методу [IteratorIterator::construct()](iteratoriterator.construct.md) або \*\*`null`\*\*якщо внутрішній ітератор відсутній.
 
 ### Дивіться також
 
--   [Iterator](class.iterator.html)
--   [OuterIterator](class.outeriterator.html)
+-   [Iterator](class.iterator.md)
+-   [OuterIterator](class.outeriterator.md)

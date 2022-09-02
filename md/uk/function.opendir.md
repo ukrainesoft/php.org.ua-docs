@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.getcwd.html: « getcwd
-  - function.readdir.html: readdir »
-  - index.html: PHP Manual
-  - ref.dir.html: Функції для роботи з каталогами
+  - function.getcwd.md: « getcwd
+  - function.readdir.md: readdir »
+  - index.md: PHP Manual
+  - ref.dir.md: Функції для роботи з каталогами
 title: opendir
 ---
 # opendir
@@ -18,7 +18,7 @@ opendir — Відкриває дескриптор каталогу
 opendir(string $directory, ?resource $context = null): resource|false
 ```
 
-Відкриває дескриптор каталогу для подальшого використання з функціями [closedir()](function.closedir.html) [readdir()](function.readdir.html) і [rewinddir()](function.rewinddir.html)
+Відкриває дескриптор каталогу для подальшого використання з функціями [closedir()](function.closedir.md) [readdir()](function.readdir.md) і [rewinddir()](function.rewinddir.md)
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ opendir(string $directory, ?resource $context = null): resource|false
 
 `context`
 
-Для опису параметра `context` зверніться до розділу [Потоки](ref.stream.html)
+Для опису параметра `context` зверніться до розділу [Потоки](ref.stream.md)
 
 ### Значення, що повертаються
 
@@ -78,6 +78,6 @@ if (is_dir($dir)) {
 
 ### Дивіться також
 
--   [ісdir()](function.is-dir.html) - Визначає, чи є ім'я файлу директорією
--   [readdir()](function.readdir.html) - Отримує елемент каталогу за його дескриптором
--   [dir()](function.dir.html) - Повертає екземпляр класу Directory
+-   [ісdir()](function.is-dir.md) - Визначає, чи є ім'я файлу директорією
+-   [readdir()](function.readdir.md) - Отримує елемент каталогу за його дескриптором
+-   [dir()](function.dir.md) - Повертає екземпляр класу Directory

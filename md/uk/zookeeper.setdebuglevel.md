@@ -63,5 +63,5 @@ SUCCESS
 
 ### Дивіться також
 
--   [Уровень логирования ZooKeeper](class.zookeeper.html#zookeeper.class.constants.log-levels)
+-   [Уровень логирования ZooKeeper](class.zookeeper.md#zookeeper.class.constants.log-levels)
 -   [ZookeeperException](class.zookeeperexception.md)

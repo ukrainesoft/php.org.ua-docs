@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-rprop-increase-factor.html: « fannsetrpropincreasefactor
-  - function.fann-set-sarprop-step-error-threshold-factor.html: fannsetsarpropsteperrorthresholdfactor »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-rprop-increase-factor.md: « fannsetrpropincreasefactor
+  - function.fann-set-sarprop-step-error-threshold-factor.md: fannsetsarpropsteperrorthresholdfactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetsarpropsteperrorshift
 ---
 # fannsetsarpropsteperrorshift
@@ -42,4 +42,4 @@ fann_set_sarprop_step_error_shift(resource $ann, float $sarprop_step_error_shift
 
 ### Дивіться також
 
--   [fanngetsarpropsteperrorshift()](function.fann-get-sarprop-step-error-shift.html) - Повертає зрушення помилки кроку sarprop
+-   [fanngetsarpropsteperrorshift()](function.fann-get-sarprop-step-error-shift.md) - Повертає зрушення помилки кроку sarprop

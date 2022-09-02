@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-abort-txn.html: « svnфсaborttxn
-  - function.svn-fs-begin-txn2.html: svnфсbegintxn2 »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-abort-txn.md: « svnфсaborttxn
+  - function.svn-fs-begin-txn2.md: svnфсbegintxn2 »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсapplytext
 ---
 # svnфсapplytext

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.find.html: '« DsVector::find'
-  - ds-vector.get.html: 'ДсVector::get »'
-  - index.html: PHP Manual
-  - class.ds-vector.html: Вектор
+  - ds-vector.find.md: '« DsVector::find'
+  - ds-vector.get.md: 'ДсVector::get »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::first'
 ---
 # ДсVector::first
@@ -30,7 +30,7 @@ public Ds\Vector::first(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо вектор порожній.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо вектор порожній.
 
 ### Приклади
 

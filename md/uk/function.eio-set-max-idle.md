@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-sendfile.html: « eiosendfile
-  - function.eio-set-max-parallel.html: eiosetmaxparallel »
+  - function.eio-sendfile.md: « eiosendfile
+  - function.eio-set-max-parallel.md: eiosetmaxparallel »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiosetmaxidle

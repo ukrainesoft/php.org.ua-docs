@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlclosingmarubozu.html: « tradercdlclosingmarubozu
-  - function.trader-cdlcounterattack.html: tradercdlcounterattack »
+  - function.trader-cdlclosingmarubozu.md: « tradercdlclosingmarubozu
+  - function.trader-cdlcounterattack.md: tradercdlcounterattack »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlconcealbabyswall

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.setviewbox.html: '« ImagickDraw::setViewbox'
-  - imagickdraw.skewy.html: 'ImagickDraw::skewY »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.setviewbox.md: '« ImagickDraw::setViewbox'
+  - imagickdraw.skewy.md: 'ImagickDraw::skewY »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::skewX'
 ---
 # ImagickDraw::skewX

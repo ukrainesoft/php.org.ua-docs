@@ -1,9 +1,9 @@
 ---
 navigation:
-  - luasandbox.installation.html: « Установка
-  - luasandbox.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - luasandbox.setup.html: Встановлення та налаштування
+  - luasandbox.installation.md: « Установка
+  - luasandbox.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - luasandbox.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

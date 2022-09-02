@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.compersisthelper.html: « COMPersistHelper
-  - compersisthelper.getcurfilename.html: 'COMPersistHelper::GetCurFileName »'
-  - index.html: PHP Manual
-  - class.compersisthelper.html: COMPersistHelper
+  - class.compersisthelper.md: « COMPersistHelper
+  - compersisthelper.getcurfilename.md: 'COMPersistHelper::GetCurFileName »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::construct'
 ---
 # COMPersistHelper::construct
@@ -22,4 +22,4 @@ public **COMPersistHelper::construct**[variant](class.variant.md) `$variant` **`
 
 `variant`
 
-Об'єкт COM, що реалізує інтерфейс **IDispatch**. Для успішного виклику методів [COMPersistHelper](class.compersisthelper.html), об'єкт повинен реалізовувати інтерфейси **IPersistFile** **IPersistStream** та/або **IPersistStreamInit**. Передача **`null`** в якості `variant` виправдана лише в тому випадку, якщо об'єкт буде завантажений із потоку за допомогою [COMPersistHelper::LoadFromStream()](compersisthelper.loadfromstream.md)
+Об'єкт COM, що реалізує інтерфейс **IDispatch**. Для успішного виклику методів [COMPersistHelper](class.compersisthelper.md), об'єкт повинен реалізовувати інтерфейси **IPersistFile** **IPersistStream** та/або **IPersistStreamInit**. Передача **`null`** в якості `variant` виправдана лише в тому випадку, якщо об'єкт буде завантажений із потоку за допомогою [COMPersistHelper::LoadFromStream()](compersisthelper.loadfromstream.md)

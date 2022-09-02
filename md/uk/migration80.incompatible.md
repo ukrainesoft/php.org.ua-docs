@@ -1,6 +1,6 @@
 ---
 navigation:
-  - migration80.new-features.html: « Новая функциональность
+  - migration80.new-features.md: « Новая функциональность
   - migration80.deprecated.md: 'Функціональність, оголошена застарілою в PHP 8.0.x'
   - index.md: PHP Manual
   - migration80.md: Миграция с PHP 7.4.x на PHP 8.0.x
@@ -31,13 +31,13 @@ title: 'Зміни, що ламають зворотну сумісність'
     
 -   Помилки тверджень (assertions) тепер викидаються за умовчанням. Якщо краща стара поведінка, `assert.exception=0` можна встановити в INI-налаштуваннях.
     
--   Методи з тим самим ім'ям, як і клас, більше не інтерпретуються як конструктори. Натомість слід використовувати метод [construct()](language.oop5.decon.html#object.construct)
+-   Методи з тим самим ім'ям, як і клас, більше не інтерпретуються як конструктори. Натомість слід використовувати метод [construct()](language.oop5.decon.md#object.construct)
     
 -   Можливість статичного виклику нестатичних методів видалено. Таким чином, [ісcallable()](function.is-callable.md) завершиться помилкою під час перевірки нестатичного методу з ім'ям класу (необхідно перевіряти з екземпляром об'єкта).
     
 -   Приведення типів `(real)` і `(unset)` видалено.
     
--   INI-директива [trackerrors](errorfunc.configuration.html#ini.track-errors) видалено. Це означає, що phperrormsg більше не є актуальним. Замість нього можна використовувати функцію [errorgetlast()](function.error-get-last.md)
+-   INI-директива [trackerrors](errorfunc.configuration.md#ini.track-errors) видалено. Це означає, що phperrormsg більше не є актуальним. Замість нього можна використовувати функцію [errorgetlast()](function.error-get-last.md)
     
 -   Можливість визначати константи без урахування регістру було видалено. Третій аргумент [define()](function.define.md) більше не може бути **`true`**
     
@@ -53,7 +53,7 @@ title: 'Зміни, що ламають зворотну сумісність'
     
 -   Можливість відв'язати це від належних замикань, що містять використання цього, також була видалена.
     
--   Можливість використання [arraykeyexists()](function.array-key-exists.html) з об'єктами було видалено. Натомість можна використовувати [isset()](function.isset.md) або [propertyexists()](function.property-exists.md)
+-   Можливість використання [arraykeyexists()](function.array-key-exists.md) з об'єктами було видалено. Натомість можна використовувати [isset()](function.isset.md) або [propertyexists()](function.property-exists.md)
     
 -   Робота параметра `key` у функції [arraykeyexists()](function.array-key-exists.md) тепер наведена відповідно до [isset()](function.isset.md) та звичайним доступом до масиву. Всі типи ключів тепер використовують звичайне приведення типів, масив/об'єкт до ключа призведе до викидання [TypeError](class.typeerror.md)
     
@@ -61,7 +61,7 @@ title: 'Зміни, що ламають зворотну сумісність'
     
 -   Рівень errorreporting за замовчуванням тепер **`E_ALL`**. Раніше він виключав **`E_NOTICE`** і **`E_DEPRECATED`**
     
--   [displaystartuperrors](errorfunc.configuration.html#ini.display-startup-errors) тепер включено за замовчуванням.
+-   [displaystartuperrors](errorfunc.configuration.md#ini.display-startup-errors) тепер включено за замовчуванням.
     
 -   Використання parent всередині класу, який не має батька, тепер призведе до фатальної помилки під час компіляції.
     
@@ -276,27 +276,27 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 Декілька ресурсів ([resource](language.types.resource.md)) були перетворені на об'єкти (object). Перевірки значення, що повертається з використанням [ісresource()](function.is-resource.md) слід замінити перевірками на **`false`**
 
--   [curlinit()](function.curl-init.html) тепер повертає об'єкт [CurlHandle](class.curlhandle.md) замість ресурсу ([resource](language.types.resource.md)). Функція [curlclose()](function.curl-close.md) більше не має сенсу, натомість екземпляр [CurlHandle](class.curlhandle.md) автоматично знищується, якщо на нього немає посилання.
+-   [curlinit()](function.curl-init.md) тепер повертає об'єкт [CurlHandle](class.curlhandle.md) замість ресурсу ([resource](language.types.resource.md)). Функція [curlclose()](function.curl-close.md) більше не має сенсу, натомість екземпляр [CurlHandle](class.curlhandle.md) автоматично знищується, якщо на нього немає посилання.
     
--   [curlmultiinit()](function.curl-multi-init.html) тепер повертає об'єкт [CurlMultiHandle](class.curlmultihandle.md) замість ресурсу ([resource](language.types.resource.md)). Функція [curlmulticlose()](function.curl-multi-close.md) більше не має сенсу, натомість екземпляр [CurlMultiHandle](class.curlmultihandle.md) автоматично знищується, якщо на нього немає посилання.
+-   [curlmultiinit()](function.curl-multi-init.md) тепер повертає об'єкт [CurlMultiHandle](class.curlmultihandle.md) замість ресурсу ([resource](language.types.resource.md)). Функція [curlmulticlose()](function.curl-multi-close.md) більше не має сенсу, натомість екземпляр [CurlMultiHandle](class.curlmultihandle.md) автоматично знищується, якщо на нього немає посилання.
     
--   [curlshareinit()](function.curl-share-init.html) тепер повертає об'єкт [CurlShareHandle](class.curlsharehandle.md) замість ресурсу ([resource](language.types.resource.md)). Функція [curlshareclose()](function.curl-share-close.md) більше не має сенсу, натомість екземпляр [CurlShareHandle](class.curlsharehandle.md) автоматично знищується, якщо на нього немає посилання.
+-   [curlshareinit()](function.curl-share-init.md) тепер повертає об'єкт [CurlShareHandle](class.curlsharehandle.md) замість ресурсу ([resource](language.types.resource.md)). Функція [curlshareclose()](function.curl-share-close.md) більше не має сенсу, натомість екземпляр [CurlShareHandle](class.curlsharehandle.md) автоматично знищується, якщо на нього немає посилання.
     
 -   [enchantbrokerinit()](function.enchant-broker-init.md) тепер повертає об'єкт [EnchantBroker](class.enchantbroker.md) замість ресурсу ([resource](language.types.resource.md)
     
--   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) і [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md) тепер повертають [EnchantDictionary](class.enchantdictionary.md) об'єкт замість ресурсу ([resource](language.types.resource.md)
+-   [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) і [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md) тепер повертають [EnchantDictionary](class.enchantdictionary.md) об'єкт замість ресурсу ([resource](language.types.resource.md)
     
 -   Модуль GD тепер використовує об'єкти [GdImage](class.gdimage.md) як базова структура даних для зображень, а не ресурси ([resource](language.types.resource.md)). Функція [imagedestroy()](function.imagedestroy.md) більше немає сенсу; натомість екземпляр [GdImage](class.gdimage.md) автоматично знищується, якщо на нього немає посилання.
     
--   [opensslx509read()](function.openssl-x509-read.html) і [opensslcsrsign()](function.openssl-csr-sign.html) тепер повертають об'єкт [OpenSSLCertificate](class.opensslcertificate.md) замість ресурсу ([resource](language.types.resource.md)). Функція [opensslx509free()](function.openssl-x509-free.md) оголошена застарілою і більше не має сенсу, натомість екземпляр [OpenSSLCertificate](class.opensslcertificate.md) автоматично знищується, якщо на нього більше не посилаються.
+-   [opensslx509read()](function.openssl-x509-read.md) і [opensslcsrsign()](function.openssl-csr-sign.md) тепер повертають об'єкт [OpenSSLCertificate](class.opensslcertificate.md) замість ресурсу ([resource](language.types.resource.md)). Функція [opensslx509free()](function.openssl-x509-free.md) оголошена застарілою і більше не має сенсу, натомість екземпляр [OpenSSLCertificate](class.opensslcertificate.md) автоматично знищується, якщо на нього більше не посилаються.
     
 -   [opensslcsrnew()](function.openssl-csr-new.md) тепер повертає об'єкт [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md) замість ресурсу ([resource](language.types.resource.md)
     
--   [opensslpkeynew()](function.openssl-pkey-new.html) тепер повертає об'єкт [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) замість ресурсу ([resource](language.types.resource.md)). Функція [opensslpkeyfree()](function.openssl-pkey-free.md) оголошена застарілою і більше не має сенсу, натомість екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) автоматично знищується, якщо на нього більше не посилаються.
+-   [opensslpkeynew()](function.openssl-pkey-new.md) тепер повертає об'єкт [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) замість ресурсу ([resource](language.types.resource.md)). Функція [opensslpkeyfree()](function.openssl-pkey-free.md) оголошена застарілою і більше не має сенсу, натомість екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) автоматично знищується, якщо на нього більше не посилаються.
     
--   [shmopopen()](function.shmop-open.html) тепер повертає об'єкт [Shmop](class.shmop.md) замість ресурсу ([resource](language.types.resource.md)). Функція [shmopclose()](function.shmop-close.md) більше немає сенсу і оголошена застарілою; натомість екземпляр [Shmop](class.shmop.md) автоматично знищується, якщо на нього більше не посилаються.
+-   [shmopopen()](function.shmop-open.md) тепер повертає об'єкт [Shmop](class.shmop.md) замість ресурсу ([resource](language.types.resource.md)). Функція [shmopclose()](function.shmop-close.md) більше немає сенсу і оголошена застарілою; натомість екземпляр [Shmop](class.shmop.md) автоматично знищується, якщо на нього більше не посилаються.
     
--   [socketcreate()](function.socket-create.html) [socketcreatelisten()](function.socket-create-listen.html) [socketaccept()](function.socket-accept.html) [socketimportstream()](function.socket-import-stream.html) [socketaddrinfoconnect()](function.socket-addrinfo-connect.html) [socketaddrinfobind()](function.socket-addrinfo-bind.html) і [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.html) тепер повертають об'єкт [Socket](class.socket.md) замість ресурсу ([resource](language.types.resource.md) . [socketaddrinfolookup()](function.socket-addrinfo-lookup.md) тепер повертає масив об'єктів [AddressInfo](class.addressinfo.md) замість масиву ресурсів ([resource](language.types.resource.md)
+-   [socketcreate()](function.socket-create.md) [socketcreatelisten()](function.socket-create-listen.md) [socketaccept()](function.socket-accept.md) [socketimportstream()](function.socket-import-stream.md) [socketaddrinfoconnect()](function.socket-addrinfo-connect.md) [socketaddrinfobind()](function.socket-addrinfo-bind.md) і [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.md) тепер повертають об'єкт [Socket](class.socket.md) замість ресурсу ([resource](language.types.resource.md) . [socketaddrinfolookup()](function.socket-addrinfo-lookup.md) тепер повертає масив об'єктів [AddressInfo](class.addressinfo.md) замість масиву ресурсів ([resource](language.types.resource.md)
     
 -   [msggetqueue()](function.msg-get-queue.md) тепер повертають об'єкт [SysvMessageQueue](class.sysvmessagequeue.md) замість ресурсу ([resource](language.types.resource.md)
     
@@ -304,7 +304,7 @@ title: 'Зміни, що ламають зворотну сумісність'
     
 -   [shmattach()](function.shm-attach.md) тепер повертають об'єкт [SysvSharedMemory](class.sysvsharedmemory.md) замість ресурсу ([resource](language.types.resource.md)
     
--   [xmlparsercreate()](function.xml-parser-create.html) і [xmlparsercreatens()](function.xml-parser-create-ns.html) тепер повертають об'єкт [XMLParser](class.xmlparser.md) замість ресурсу ([resource](language.types.resource.md)). Функція [xmlparserfree()](function.xml-parser-free.md) більше не має сенсу, натомість екземпляр XMLParser автоматично знищується, якщо на нього більше не посилаються.
+-   [xmlparsercreate()](function.xml-parser-create.md) і [xmlparsercreatens()](function.xml-parser-create-ns.md) тепер повертають об'єкт [XMLParser](class.xmlparser.md) замість ресурсу ([resource](language.types.resource.md)). Функція [xmlparserfree()](function.xml-parser-free.md) більше не має сенсу, натомість екземпляр XMLParser автоматично знищується, якщо на нього більше не посилаються.
     
 -   Функції [XMLWriter](book.xmlwriter.md) тепер приймають та повертають, відповідно, об'єкти [XMLWriter](class.xmlwriter.md) замість ресурсів ([resource](language.types.resource.md)
     
@@ -315,7 +315,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### COM та .Net (Windows)
 
-Можливість імпорту констант без урахування регістру з бібліотек типів було видалено. Другий аргумент [comloadtypelib()](function.com-load-typelib.md) більше не може бути false; [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive) більше не можна вимкнути; Маркери без урахування регістру в [com.typelibfile](com.configuration.html#ini.com.typelib-file) ігноруються.
+Можливість імпорту констант без урахування регістру з бібліотек типів було видалено. Другий аргумент [comloadtypelib()](function.com-load-typelib.md) більше не може бути false; [com.autoregistercasesensitive](com.configuration.md#ini.com.autoregister-casesensitive) більше не можна вимкнути; Маркери без урахування регістру в [com.typelibfile](com.configuration.md#ini.com.typelib-file) ігноруються.
 
 ### CURL
 
@@ -356,11 +356,11 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### Enchant
 
--   [enchantbrokerlistdicts()](function.enchant-broker-list-dicts.html) [enchantbrokerdescribe()](function.enchant-broker-describe.html) і [enchantdictsuggest()](function.enchant-dict-suggest.md) тепер повертають порожній масив замість **`null`**
+-   [enchantbrokerlistdicts()](function.enchant-broker-list-dicts.md) [enchantbrokerdescribe()](function.enchant-broker-describe.md) і [enchantdictsuggest()](function.enchant-dict-suggest.md) тепер повертають порожній масив замість **`null`**
 
 ### Exif
 
-[readexifdata()](function.read-exif-data.html) була видалена; Замість неї слід використовувати [exifreaddata()](function.exif-read-data.md)
+[readexifdata()](function.read-exif-data.md) була видалена; Замість неї слід використовувати [exifreaddata()](function.exif-read-data.md)
 
 ### Фільтрування даних
 
@@ -382,7 +382,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### GMP
 
-[gmprandom()](function.gmp-random.html) було видалено. Замість неї слід використовувати [gmprandomrange()](function.gmp-random-range.html) або [gmprandombits()](function.gmp-random-bits.md)
+[gmprandom()](function.gmp-random.md) було видалено. Замість неї слід використовувати [gmprandomrange()](function.gmp-random-range.md) або [gmprandombits()](function.gmp-random-bits.md)
 
 ### Iconv
 
@@ -392,7 +392,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 -   Невикористовуваний аргумент `default_host` функції [imapheaderinfo()](function.imap-headerinfo.md) був видалений.
     
--   Функція [imapheader()](function.imap-header.html)яка є псевдонімом [imapheaderinfo()](function.imap-headerinfo.md), було видалено.
+-   Функція [imapheader()](function.imap-header.md)яка є псевдонімом [imapheaderinfo()](function.imap-headerinfo.md), було видалено.
     
 
 ### Функції інтернаціоналізації
@@ -404,14 +404,14 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### LDAP
 
--   Застарілі функції [ldapsort()](function.ldap-sort.html) [ldapcontrolpagedresult()](function.ldap-control-paged-result.html) і [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.md) видалено.
+-   Застарілі функції [ldapsort()](function.ldap-sort.md) [ldapcontrolpagedresult()](function.ldap-control-paged-result.md) і [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.md) видалено.
     
 -   Змінився інтерфейс [ldapsetrebindproc()](function.ldap-set-rebind-proc.md); параметр `callback` більше не приймає порожні рядки; натомість слід вказувати **`null`**
     
 
 ### MBString
 
--   Директива [mbstring.funcoverload](mbstring.configuration.html#ini.mbstring.func-overload) було видалено. Пов'язані константи **`MB_OVERLOAD_MAIL`** **`MB_OVERLOAD_STRING`** і **`MB_OVERLOAD_REGEX`** також було видалено. Зрештою, записи `"func_overload"` і `"func_overload_list"` в [мбgetinfo()](function.mb-get-info.md) були вилучені.
+-   Директива [mbstring.funcoverload](mbstring.configuration.md#ini.mbstring.func-overload) було видалено. Пов'язані константи **`MB_OVERLOAD_MAIL`** **`MB_OVERLOAD_STRING`** і **`MB_OVERLOAD_REGEX`** також було видалено. Зрештою, записи `"func_overload"` і `"func_overload_list"` в [мбgetinfo()](function.mb-get-info.md) були вилучені.
     
 -   [мбparsestr()](function.mb-parse-str.md) більше не можна використовувати без передачі масиву результатів.
     
@@ -431,11 +431,11 @@ title: 'Зміни, що ламають зворотну сумісність'
     -   **mberegsearchgetregs()** [мбeregsearchgetregs()](function.mb-ereg-search-getregs.md)
     -   **mberegsearchgetpos()** [мбeregsearchgetpos()](function.mb-ereg-search-getpos.md)
     -   **mberegsearchsetpos()** [мбeregsearchsetpos()](function.mb-ereg-search-setpos.md)
--   Модифікатор `e` для [мбeregreplace()](function.mb-ereg-replace.html) був видалений. Замість нього слід використовувати[мбeregreplacecallback()](function.mb-ereg-replace-callback.md)
+-   Модифікатор `e` для [мбeregreplace()](function.mb-ereg-replace.md) був видалений. Замість нього слід використовувати[мбeregreplacecallback()](function.mb-ereg-replace-callback.md)
     
 -   Аргумент нерядкового шаблону для [мбeregreplace()](function.mb-ereg-replace.md) тепер інтерпретуватиметься як рядок замість кодової точки ASCII. Попередню поведінку можна відновити явним викликом [chr()](function.chr.md)
     
--   Аргумент `needle` для функцій [мбstrpos()](function.mb-strpos.html) [мбstrrpos()](function.mb-strrpos.html) [мбstripos()](function.mb-stripos.html) [мбstrripos()](function.mb-strripos.html) [мбstrstr()](function.mb-strstr.html) [мбstristr()](function.mb-stristr.html) [мбstrrchr()](function.mb-strrchr.html) і [мбstrrichr()](function.mb-strrichr.md) тепер може бути порожнім.
+-   Аргумент `needle` для функцій [мбstrpos()](function.mb-strpos.md) [мбstrrpos()](function.mb-strrpos.md) [мбstripos()](function.mb-stripos.md) [мбstrripos()](function.mb-strripos.md) [мбstrstr()](function.mb-strstr.md) [мбstristr()](function.mb-stristr.md) [мбstrrchr()](function.mb-strrchr.md) і [мбstrrichr()](function.mb-strrichr.md) тепер може бути порожнім.
     
 -   Параметр `is_hex`, який не використовувався для внутрішніх цілей, був видалений з [мбdecodenumericentity()](function.mb-decode-numericentity.md)
     
@@ -443,7 +443,7 @@ title: 'Зміни, що ламають зворотну сумісність'
     
 -   Псевдоніми кодування символів `ISO_8859-*` були замінені на псевдоніми `ISO8859-*` для кращої сумісності із модулем iconv. Псевдоніми mbregex ISO 8859 з підкресленням (`ISO_8859_*` і `ISO8859_*`) також були видалені.
     
--   [мбereg()](function.mb-ereg.html) і [мбeregi()](function.mb-eregi.md) тепер повертатимуть логічне значення **`true`**, у разі знайденого збігу. Раніше вони повертали ціле число `1`, якщо аргумент `matches` не було передано, або `max(1, strlen($matches[0]))`, якщо `matches` був не пустий.
+-   [мбereg()](function.mb-ereg.md) і [мбeregi()](function.mb-eregi.md) тепер повертатимуть логічне значення **`true`**, у разі знайденого збігу. Раніше вони повертали ціле число `1`, якщо аргумент `matches` не було передано, або `max(1, strlen($matches[0]))`, якщо `matches` був не пустий.
     
 
 ### OCI8
@@ -464,7 +464,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### OpenSSL
 
--   [opensslseal()](function.openssl-seal.html) і [opensslopen()](function.openssl-open.md) тепер вимагають передачі `method`, так як попереднє значення за замовчуванням `"RC4"` вважається небезпечним.
+-   [opensslseal()](function.openssl-seal.md) і [opensslopen()](function.openssl-open.md) тепер вимагають передачі `method`, так як попереднє значення за замовчуванням `"RC4"` вважається небезпечним.
 
 ### Регулярні вирази (сумісні з Perl)
 
@@ -481,7 +481,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### PDO ODBC
 
-Директива php.ini [pdoodbc.db2instancename](ref.pdo-odbc.html#ini.pdo-odbc.db2-instance-name) було видалено.
+Директива php.ini [pdoodbc.db2instancename](ref.pdo-odbc.md#ini.pdo-odbc.db2-instance-name) було видалено.
 
 ### PDO MySQL
 
@@ -491,7 +491,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 -   Застарілий синтаксис [пгconnect()](function.pg-connect.md) за допомогою кількох параметрів замість рядка підключення більше не підтримується.
     
--   Застарілі сигнатури [пглоimport()](function.pg-lo-import.html) і [пглоexport()](function.pg-lo-export.md), що передають з'єднання як останній аргумент, більше не підтримуються. Натомість з'єднання має бути передано першим аргументом.
+-   Застарілі сигнатури [пглоimport()](function.pg-lo-import.md) і [пглоexport()](function.pg-lo-export.md), що передають з'єднання як останній аргумент, більше не підтримуються. Натомість з'єднання має бути передано першим аргументом.
     
 -   [пгfetchall()](function.pg-fetch-all.md) тепер повертатиме порожній масив замість **`false`** для наборів результатів із відсутніми рядками.
     
@@ -523,7 +523,7 @@ title: 'Зміни, що ламають зворотну сумісність'
     
 -   Методи Reflection export() були видалені. Натомість об'єкти reflection можуть бути перетворені на рядок.
     
--   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.md) і [ReflectionMethod::isDestructor()](reflectionmethod.isdestructor.md) тепер також повертають **`true`** для методів інтерфейсів [construct()](language.oop5.decon.html#object.construct) і [destruct()](language.oop5.decon.html#object.destruct). Раніше це було вірно лише для методів класів та трейтів.
+-   [ReflectionMethod::isConstructor()](reflectionmethod.isconstructor.md) і [ReflectionMethod::isDestructor()](reflectionmethod.isdestructor.md) тепер також повертають **`true`** для методів інтерфейсів [construct()](language.oop5.decon.md#object.construct) і [destruct()](language.oop5.decon.md#object.destruct). Раніше це було вірно лише для методів класів та трейтів.
     
 -   Метод **ReflectionType::isBuiltin()** переміщений у [ReflectionNamedType](class.reflectionnamedtype.md). У [ReflectionUnionType](class.reflectionuniontype.md) цього методу немає.
     
@@ -549,17 +549,17 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### Бібліотека стандартних функцій
 
--   [assert()](function.assert.md) більше не виконуватиме рядкові аргументи, натомість вони будуть оброблятися як будь-які звичайні аргументи. Таким чином, замість `assert('$a == $b')` слід використовувати `assert($a == $b)`. INI-директива [assert.quieteval](info.configuration.html#ini.assert.quiet-eval) та константа **`ASSERT_QUIET_EVAL`** були видалені, оскільки вони не мають сенсу.
+-   [assert()](function.assert.md) більше не виконуватиме рядкові аргументи, натомість вони будуть оброблятися як будь-які звичайні аргументи. Таким чином, замість `assert('$a == $b')` слід використовувати `assert($a == $b)`. INI-директива [assert.quieteval](info.configuration.md#ini.assert.quiet-eval) та константа **`ASSERT_QUIET_EVAL`** були видалені, оскільки вони не мають сенсу.
     
 -   [parsestr()](function.parse-str.md) більше не можна використовувати без зазначення масиву результатів.
     
--   Фільтр [string.striptags](filters.string.html#filters.string.strip_tags) видалено.
+-   Фільтр [string.striptags](filters.string.md#filters.string.strip_tags) видалено.
     
 -   Аргумент `needle` функцій [strpos()](function.strpos.md) [strrpos()](function.strrpos.md) [stripos()](function.stripos.md) [strripos()](function.strripos.md) [strstr()](function.strstr.md) [strchr()](function.strchr.md) [strrchr()](function.strrchr.md) і [stristr()](function.stristr.md) тепер завжди інтерпретуватиметься як рядок. Раніше невеликі потреби інтерпретувалися як кодова точка ASCII. Явний виклик [chr()](function.chr.md) може використовуватись для відновлення попередньої поведінки.
     
 -   Аргумент `needle` функцій [strpos()](function.strpos.md) [strrpos()](function.strrpos.md) [stripos()](function.stripos.md) [strripos()](function.strripos.md) [strstr()](function.strstr.md) [stristr()](function.stristr.md) і [strrchr()](function.strrchr.md) тепер може бути порожнім.
     
--   Аргумент `length` функцій [substr()](function.substr.md) [substrcount()](function.substr-count.html) [substrcompare()](function.substr-compare.html) і [iconvsubstr()](function.iconv-substr.md) тепер може бути **`null`**. Значення **`null`** означає відсутність аргументу довжини, і тому функції повернуть залишок рядка замість порожнього рядка.
+-   Аргумент `length` функцій [substr()](function.substr.md) [substrcount()](function.substr-count.md) [substrcompare()](function.substr-compare.md) і [iconvsubstr()](function.iconv-substr.md) тепер може бути **`null`**. Значення **`null`** означає відсутність аргументу довжини, і тому функції повернуть залишок рядка замість порожнього рядка.
     
 -   Аргумент `length` функції [arraysplice()](function.array-splice.md) тепер може бути **`null`**. Передача значення **`null`** означає відсутність аргументу, тому функція видалити все, починаючи від `offset` до кінця масиву.
     
@@ -592,9 +592,9 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     Раніше у всіх випадках query та fragment були **`null`**
     
--   [vardump()](function.var-dump.html) і [debugzvaldump()](function.debug-zval-dump.md) тепер друкуватимуть числа з плаваючою точкою, використовуючи [serializeprecision](ini.core.html#ini.serialize-precision), а не [precision](ini.core.html#ini.precision). У конфігурації за промовчанням це означає, що цифри з плаваючою точкою тепер друкуються з повною точністю цими функціями налагодження.
+-   [vardump()](function.var-dump.md) і [debugzvaldump()](function.debug-zval-dump.md) тепер друкуватимуть числа з плаваючою точкою, використовуючи [serializeprecision](ini.core.md#ini.serialize-precision), а не [precision](ini.core.md#ini.precision). У конфігурації за промовчанням це означає, що цифри з плаваючою точкою тепер друкуються з повною точністю цими функціями налагодження.
     
--   Якщо масив, що повертається [sleep()](language.oop5.magic.html#object.sleep), Містить неіснуючі властивості, тепер вони автоматично проігноруються. Раніше такі властивості були б серіалізовані, якби вони мали значення **`null`**
+-   Якщо масив, що повертається [sleep()](language.oop5.magic.md#object.sleep), Містить неіснуючі властивості, тепер вони автоматично проігноруються. Раніше такі властивості були б серіалізовані, якби вони мали значення **`null`**
     
 -   Локаль за замовчуванням під час запуску тепер завжди буде визначено як `"C"`. За замовчуванням локалі не успадковуються з оточення. Раніше для **`LC_ALL`** було встановлено значення `"C"`, в той час як **`LC_CTYPE`** успадковувався від оточення. Однак деякі функції не враховували успадковану локаль без явного виклику [setlocale()](function.setlocale.md). Явний виклик [setlocale()](function.setlocale.md) тепер потрібно завжди, якщо компонент локалі повинен бути змінений зі значенням за замовчуванням.
     
@@ -604,7 +604,7 @@ title: 'Зміни, що ламають зворотну сумісність'
     
 -   Результат функцій сортування міг змінитися, якщо масиві є однакові елементи.
     
--   Будь-які функції, що приймають callback-функції, які явно не вказані для прийому параметрів посилання, тепер будуть попереджати, якщо використовується callback-функція з посиланнями. Наприклад, [arrayfilter()](function.array-filter.html) і [arrayreduce()](function.array-reduce.md). Раніше так було більшість функцій, але не всі.
+-   Будь-які функції, що приймають callback-функції, які явно не вказані для прийому параметрів посилання, тепер будуть попереджати, якщо використовується callback-функція з посиланнями. Наприклад, [arrayfilter()](function.array-filter.md) і [arrayreduce()](function.array-reduce.md). Раніше так було більшість функцій, але не всі.
     
 -   Обгортка HTTP-потоку, використовувана такими функціями, як [filegetcontents()](function.file-get-contents.md), тепер за промовчанням оголошує HTTP/1.1, а не HTTP/1.0. Не змінює поведінки клієнта, але може змусити сервери реагувати інакше. Щоб зберегти стару поведінку, установіть параметр контексту потоку `'protocol_version'`, наприклад:
     
@@ -617,7 +617,7 @@ title: 'Зміни, що ламають зворотну сумісність'
     
 -   Виклик [crypt()](function.crypt.md) без явної передачі солі більше не підтримується. Якщо ви хочете створити надійний хеш із автоматично згенерованою сіллю, використовуйте натомість [passwordhash()](function.password-hash.md)
     
--   [substr()](function.substr.md) [мбsubstr()](function.mb-substr.html) [iconvsubstr()](function.iconv-substr.html) і [graphemesubstr()](function.grapheme-substr.md) тепер послідовно фіксують зміщення межі кордону рядка. Раніше, у деяких випадках, замість порожнього рядка повертався **`false`**
+-   [substr()](function.substr.md) [мбsubstr()](function.mb-substr.md) [iconvsubstr()](function.iconv-substr.md) і [graphemesubstr()](function.grapheme-substr.md) тепер послідовно фіксують зміщення межі кордону рядка. Раніше, у деяких випадках, замість порожнього рядка повертався **`false`**
     
 -   У Windows функції виконання програм ([procopen()](function.proc-open.md) [exec()](function.exec.md) [popen()](function.popen.md) і т.д.) з використанням оболонки тепер послідовно виконують \*\*%comspec% /s /c "$commandline"\*\*яка робить те ж саме, що і виконання **$commandline** (без додаткових лапок).
     
@@ -656,7 +656,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 -   [gzgetss()](function.gzgetss.md) видалено.
     
--   [zlib.outputcompression](zlib.configuration.html#ini.zlib.output-compression) більше не вимикається автоматично для `Content-Type: image/*`
+-   [zlib.outputcompression](zlib.configuration.md#ini.zlib.output-compression) більше не вимикається автоматично для `Content-Type: image/*`
     
 
 ### Пакети тестів PHP для Windows

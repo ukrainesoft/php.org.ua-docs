@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.str-repeat.html: « strrepeat
-  - function.str-rot13.html: strrot13 »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.str-repeat.md: « strrepeat
+  - function.str-rot13.md: strrot13 »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strreplace
 ---
 # strreplace
@@ -20,7 +20,7 @@ str_replace(    array|string $search,    array|string $replace,    s
 
 Ця функція повертає рядок або масив, в якому всі входження `search` в `subject` замінені на `replace`
 
-Якщо не потрібні складні правила пошуку/заміни (наприклад, регулярні вирази), використання цієї функції краще [pregreplace()](function.preg-replace.html)
+Якщо не потрібні складні правила пошуку/заміни (наприклад, регулярні вирази), використання цієї функції краще [pregreplace()](function.preg-replace.md)
 
 ### Список параметрів
 
@@ -116,11 +116,11 @@ echo $output;
 
 > **Зауваження**
 > 
-> Ця функція чутлива до регістру. Використовуйте [strireplace()](function.str-ireplace.html) для заміни без урахування регістру.
+> Ця функція чутлива до регістру. Використовуйте [strireplace()](function.str-ireplace.md) для заміни без урахування регістру.
 
 ### Дивіться також
 
--   [strireplace()](function.str-ireplace.html) - Реєстронезалежний варіант функції strreplace
--   [substrreplace()](function.substr-replace.html) - Замінює частину рядка
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [strtr()](function.strtr.html) - Перетворює задані символи або замінює підрядки
+-   [strireplace()](function.str-ireplace.md) - Реєстронезалежний варіант функції strreplace
+-   [substrreplace()](function.substr-replace.md) - Замінює частину рядка
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [strtr()](function.strtr.md) - Перетворює задані символи або замінює підрядки

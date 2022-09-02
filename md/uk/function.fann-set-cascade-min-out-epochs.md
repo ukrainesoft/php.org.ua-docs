@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-cascade-min-cand-epochs.html: « fannsetcascademincandepochs
-  - function.fann-set-cascade-num-candidate-groups.html: fannsetcascadenumcandidategroups »
+  - function.fann-set-cascade-min-cand-epochs.md: « fannsetcascademincandepochs
+  - function.fann-set-cascade-num-candidate-groups.md: fannsetcascadenumcandidategroups »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetcascademinoutepochs

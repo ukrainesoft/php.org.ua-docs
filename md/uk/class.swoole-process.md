@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.swoole-mysql-exception.html: « SwooleMySQLException
-  - swoole-process.alarm.html: 'SwooleProcess::alarm »'
+  - class.swoole-mysql-exception.md: « SwooleMySQLException
+  - swoole-process.alarm.md: 'SwooleProcess::alarm »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleProcess

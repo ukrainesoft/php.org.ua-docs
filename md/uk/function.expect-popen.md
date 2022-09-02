@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.expect-expectl.html: « expectexpectl
+  - function.expect-expectl.md: « expectexpectl
   - book.pcntl.md: PCNTL »
   - index.md: PHP Manual
   - ref.expect.md: Функции Expect

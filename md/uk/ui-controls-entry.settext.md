@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-entry.setreadonly.html: '« UIControlsEntry::setReadOnly'
-  - class.ui-controls-multilineentry.html: ОЙControlsMultilineEntry »
-  - index.html: PHP Manual
-  - class.ui-controls-entry.html: ОЙControlsEntry
+  - ui-controls-entry.setreadonly.md: '« UIControlsEntry::setReadOnly'
+  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry »
+  - index.md: PHP Manual
+  - class.ui-controls-entry.md: ОЙControlsEntry
 title: 'ОЙControlsEntry::setText'
 ---
 # ОЙControlsEntry::setText

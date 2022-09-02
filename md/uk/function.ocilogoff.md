@@ -1,20 +1,20 @@
 ---
 navigation:
-  - function.ociloadlob.html: « ociloadlob
-  - function.ocilogon.html: ocilogon »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ociloadlob.md: « ociloadlob
+  - function.ocilogon.md: ocilogon »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocilogoff
 ---
 # ocilogoff
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocilogoff - Псевдонім [ociclose()](function.oci-close.html)
+ocilogoff - Псевдонім [ociclose()](function.oci-close.md)
 
 ### Опис
 
-Псевдонім [ociclose()](function.oci-close.html)
+Псевдонім [ociclose()](function.oci-close.md)
 
 **Увага**
 

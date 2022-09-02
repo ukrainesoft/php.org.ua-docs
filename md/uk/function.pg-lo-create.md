@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-lo-close.html: « pgлоclose
-  - function.pg-lo-export.html: пглоexport »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-lo-close.md: « pgлоclose
+  - function.pg-lo-export.md: пглоexport »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пглоcreate
 ---
 # пглоcreate
@@ -26,7 +26,7 @@ pg_lo_create(mixed $object_id): int
 
 Операції з використанням інтерфейсу великих об'єктів необхідно укладати у блок транзакції.
 
-Замість використання інтерфейсу великих об'єктів (який не має контролю доступу і дуже громіздкий сам по собі) користуйтеся полями PostgreSQL типу bytea для зберігання бінарних даних та функцією [пгescapebytea()](function.pg-escape-bytea.html) для їхнього екранування.
+Замість використання інтерфейсу великих об'єктів (який не має контролю доступу і дуже громіздкий сам по собі) користуйтеся полями PostgreSQL типу bytea для зберігання бінарних даних та функцією [пгescapebytea()](function.pg-escape-bytea.md) для їхнього екранування.
 
 > **Зауваження**
 > 
@@ -36,7 +36,7 @@ pg_lo_create(mixed $object_id): int
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -54,7 +54,7 @@ OID великого об'єкта або **`false`** у разі виникне
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

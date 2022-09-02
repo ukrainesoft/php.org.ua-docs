@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-bias-array.html: « fanngetbiasarray
-  - function.fann-get-bit-fail.html: fanngetbitfail »
+  - function.fann-get-bias-array.md: « fanngetbiasarray
+  - function.fann-get-bit-fail.md: fanngetbitfail »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetbitfaillimit
@@ -20,7 +20,7 @@ fann_get_bit_fail_limit(resource $ann): float
 
 Повертає межу збою бітів, використану під час навчання.
 
-Межа збою бітів використовується під час навчання, коли [функция остановки](fann.constants.html#constants.fann-stopfunc) має значення **`FANN_STOPFUNC_BIT`**
+Межа збою бітів використовується під час навчання, коли [функция остановки](fann.constants.md#constants.fann-stopfunc) має значення **`FANN_STOPFUNC_BIT`**
 
 Межа – це максимально допустима різниця між бажаним результатом та фактичним результатом під час тренування. Кожен вихід, який розходиться більше за цю межу, вважається як біт зі збоєм. Ця різниця ділиться на два під час роботи з симетричними функціями активації, так що симетричні і не симетричні функції активації можуть використовувати одну і ту ж межу.
 

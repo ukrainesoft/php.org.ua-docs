@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-affected-rows.html: « cubridaffectedrows
-  - function.cubrid-close.html: cubridclose »
+  - function.cubrid-affected-rows.md: « cubridaffectedrows
+  - function.cubrid-close.md: cubridclose »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridclientencoding

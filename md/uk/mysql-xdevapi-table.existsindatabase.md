@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-table.delete.html: '« Table::delete'
-  - mysql-xdevapi-table.getname.html: 'Table::getName »'
+  - mysql-xdevapi-table.delete.md: '« Table::delete'
+  - mysql-xdevapi-table.getname.md: 'Table::getName »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
 title: 'Table::existsInDatabase'
 ---
 # Table::existsInDatabase

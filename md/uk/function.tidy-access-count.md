@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ob-tidyhandler.html: « obtidyhandler
-  - function.tidy-config-count.html: tidyconfigcount »
-  - index.html: PHP Manual
-  - ref.tidy.html: Tidy
+  - function.ob-tidyhandler.md: « obtidyhandler
+  - function.tidy-config-count.md: tidyconfigcount »
+  - index.md: PHP Manual
+  - ref.tidy.md: Tidy
 title: tidyaccesscount
 ---
 # tidyaccesscount

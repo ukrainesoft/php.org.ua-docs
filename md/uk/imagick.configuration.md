@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.installation.html: « Установка
-  - imagick.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - imagick.setup.html: Встановлення та налаштування
+  - imagick.installation.md: « Установка
+  - imagick.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - imagick.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,11 +14,11 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [imagick.localefix](imagick.configuration.html#ini.imagick.locale-fix) | **`false`** | PHPINIALL | Доступно з Imagick 2.1.0 |
-| [imagick.progressmonitor](imagick.configuration.html#ini.imagick.progress-monitor) | **`false`** | PHPINISYSTEM | Доступно з Imagick 2.2.2 |
-| [imagick.skipversioncheck](imagick.configuration.html#ini.imagick.skip-version-check) | **`false`** | PHPINISYSTEM | Доступно з Imagick 3.3.0 |
+| [imagick.localefix](imagick.configuration.md#ini.imagick.locale-fix) | **`false`** | PHPINIALL | Доступно з Imagick 2.1.0 |
+| [imagick.progressmonitor](imagick.configuration.md#ini.imagick.progress-monitor) | **`false`** | PHPINISYSTEM | Доступно з Imagick 2.2.2 |
+| [imagick.skipversioncheck](imagick.configuration.md#ini.imagick.skip-version-check) | **`false`** | PHPINISYSTEM | Доступно з Imagick 3.3.0 |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

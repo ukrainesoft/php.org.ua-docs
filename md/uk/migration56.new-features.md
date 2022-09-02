@@ -57,7 +57,7 @@ a
 
 ### Функції зі змінною кількістю аргументів, використовуючи синтаксис `...`
 
-[Функції зі змінною кількістю аргументів](functions.arguments.html#functions.variable-arg-list) тепер можна реалізовувати з використанням оператора `...` замість того, щоб покладатися на [funcgetargs()](function.func-get-args.md)
+[Функції зі змінною кількістю аргументів](functions.arguments.md#functions.variable-arg-list) тепер можна реалізовувати з використанням оператора `...` замість того, щоб покладатися на [funcgetargs()](function.func-get-args.md)
 
 ```php
 <?php
@@ -163,13 +163,13 @@ Name\Space\f
 
 ### Кодування за замовчуванням
 
-Доданий ini-параметр [defaultcharset](ini.core.html#ini.default-charset), в якому можна вказати кодування за промовчанням для використання у функціях [htmlentities()](function.htmlentities.md) [htmlentitydecode()](function.html-entity-decode.md) і [htmlspecialchars()](function.htmlspecialchars.md). Зверніть увагу, що якщо (зараз вважається застарілим) задані параметри кодування iconv та mbstring, вони матимуть перевагу перед defaultcharset для iconv та mbstring.
+Доданий ini-параметр [defaultcharset](ini.core.md#ini.default-charset), в якому можна вказати кодування за промовчанням для використання у функціях [htmlentities()](function.htmlentities.md) [htmlentitydecode()](function.html-entity-decode.md) і [htmlspecialchars()](function.htmlspecialchars.md). Зверніть увагу, що якщо (зараз вважається застарілим) задані параметри кодування iconv та mbstring, вони матимуть перевагу перед defaultcharset для iconv та mbstring.
 
 Значення цієї настройки за промовчанням дорівнює `UTF-8`
 
-### Перевикористання [`php://input`](wrappers.php.html#wrappers.php.input)
+### Перевикористання [`php://input`](wrappers.php.md#wrappers.php.input)
 
-[`php://input`](wrappers.php.html#wrappers.php.input) тепер можна перевідкривати та зчитувати стільки разів, скільки потрібно. Це також призвело до значного зменшення обсягу пам'яті, необхідної для роботи з POST.
+[`php://input`](wrappers.php.md#wrappers.php.input) тепер можна перевідкривати та зчитувати стільки разів, скільки потрібно. Це також призвело до значного зменшення обсягу пам'яті, необхідної для роботи з POST.
 
 ### Завантаження великих файлів
 
@@ -206,7 +206,7 @@ if (version_compare(PHP_VERSION, '5.6', '<')) {
 
 ### [hashequals()](function.hash-equals.md) для запобігання атакам за часом при порівнянні рядків
 
-Була додана функція [hashequals()](function.hash-equals.html) для порівняння двох рядків за постійний час. Це має допомогти уникнути атак у часі; наприклад, під час тестування хешування паролів функцією [crypt()](function.crypt.md) (за умови, що ви не можете використовувати [passwordhash()](function.password-hash.html) і [passwordverify()](function.password-verify.md), які не піддаються атакам за часом).
+Була додана функція [hashequals()](function.hash-equals.md) для порівняння двох рядків за постійний час. Це має допомогти уникнути атак у часі; наприклад, під час тестування хешування паролів функцією [crypt()](function.crypt.md) (за умови, що ви не можете використовувати [passwordhash()](function.password-hash.md) і [passwordverify()](function.password-verify.md), які не піддаються атакам за часом).
 
 ```php
 <?php
@@ -228,7 +228,7 @@ bool(false)
 
 ### `__debugInfo()`
 
-Було додано магічний метод [debugInfo()](language.oop5.magic.html#language.oop5.magic.debuginfo) для того, щоб дозволити об'єкту змінювати значення властивостей, що виводяться при використанні [vardump()](function.var-dump.md)
+Було додано магічний метод [debugInfo()](language.oop5.magic.md#language.oop5.magic.debuginfo) для того, щоб дозволити об'єкту змінювати значення властивостей, що виводяться при використанні [vardump()](function.var-dump.md)
 
 ```php
 <?php
@@ -265,10 +265,10 @@ object(C)#1 (1) {
 
 ### Поліпшення SSL/TLS
 
-Дуже багато було зроблено для покращення підтримки SSL/TLS у PHP 5.6. Включаючи [разрешение проверки пиров по умолчанию](migration56.incompatible.html#migration56.incompatible.peer-verification), підтримка звірки відбитків сертифікатів, зниження впливу атаки переєднання TLS і безлічі нових [опций контекста SSL](context.ssl.md) для більш точного контролю над параметрами протоколу та перевірок під час використання зашифрованих потоків.
+Дуже багато було зроблено для покращення підтримки SSL/TLS у PHP 5.6. Включаючи [разрешение проверки пиров по умолчанию](migration56.incompatible.md#migration56.incompatible.peer-verification), підтримка звірки відбитків сертифікатів, зниження впливу атаки переєднання TLS і безлічі нових [опций контекста SSL](context.ssl.md) для більш точного контролю над параметрами протоколу та перевірок під час використання зашифрованих потоків.
 
 Докладніше всі ці зміни описані в розділі цього посібника [Изменения OpenSSL в PHP 5.6.x](migration56.openssl.md)
 
 ### Підтримка асинхронності [pgsql](book.pgsql.md)
 
-Модуль [pgsql](book.pgsql.md) тепер підтримує асинхронні з'єднання та запити, тим самим дозволяючи неблокуючу взаємодію з базами даних PostgreSQL. Асинхронні з'єднання можуть бути встановлені за допомогою константи **`PGSQL_CONNECT_ASYNC`**, та нові функції [пгconnectpoll()](function.pg-connect-poll.html) [пгsocket()](function.pg-socket.html) [пгconsumeinput()](function.pg-consume-input.html) і [пгflush()](function.pg-flush.md) можуть бути використані для обробки асинхронних з'єднань та запитів.
+Модуль [pgsql](book.pgsql.md) тепер підтримує асинхронні з'єднання та запити, тим самим дозволяючи неблокуючу взаємодію з базами даних PostgreSQL. Асинхронні з'єднання можуть бути встановлені за допомогою константи **`PGSQL_CONNECT_ASYNC`**, та нові функції [пгconnectpoll()](function.pg-connect-poll.md) [пгsocket()](function.pg-socket.md) [пгconsumeinput()](function.pg-consume-input.md) і [пгflush()](function.pg-flush.md) можуть бути використані для обробки асинхронних з'єднань та запитів.

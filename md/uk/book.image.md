@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.read-exif-data.html: « readexifdata
+  - function.read-exif-data.md: « readexifdata
   - intro.image.md: Введение »
   - index.md: PHP Manual
   - refs.utilspec.image.md: Обработка и генерация изображений

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.disk-total-space.html: « disktotalspace
+  - function.disk-total-space.md: « disktotalspace
   - function.fclose.md: fclose »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.settextalignment.html: '« ImagickDraw::setTextAlignment'
-  - imagickdraw.settextdecoration.html: 'ImagickDraw::setTextDecoration »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.settextalignment.md: '« ImagickDraw::setTextAlignment'
+  - imagickdraw.settextdecoration.md: 'ImagickDraw::setTextDecoration »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setTextAntialias'
 ---
 # ImagickDraw::setTextAntialias

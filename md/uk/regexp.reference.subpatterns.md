@@ -1,6 +1,6 @@
 ---
 navigation:
-  - regexp.reference.internal-options.html: « Установка внутренних опций
+  - regexp.reference.internal-options.md: « Установка внутренних опций
   - regexp.reference.repetition.md: Повторение »
   - index.md: PHP Manual
   - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів

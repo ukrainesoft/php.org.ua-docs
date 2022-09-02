@@ -1,9 +1,9 @@
 ---
 navigation:
-  - directoryiterator.valid.html: '« DirectoryIterator::valid'
-  - emptyiterator.current.html: 'EmptyIterator::current »'
-  - index.html: PHP Manual
-  - spl.iterators.html: Ітератори
+  - directoryiterator.valid.md: '« DirectoryIterator::valid'
+  - emptyiterator.current.md: 'EmptyIterator::current »'
+  - index.md: PHP Manual
+  - spl.iterators.md: Ітератори
 title: Клас EmptyIterator
 ---
 # Клас EmptyIterator

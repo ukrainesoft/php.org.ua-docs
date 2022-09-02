@@ -1,9 +1,9 @@
 ---
 navigation:
-  - collator.sortwithsortkeys.html: '« Collator::sortWithSortKeys'
-  - class.numberformatter.html: NumberFormatter »
-  - index.html: PHP Manual
-  - class.collator.html: Collator
+  - collator.sortwithsortkeys.md: '« Collator::sortWithSortKeys'
+  - class.numberformatter.md: NumberFormatter »
+  - index.md: PHP Manual
+  - class.collator.md: Collator
 title: 'Collator::sort'
 ---
 # Collator::sort
@@ -30,13 +30,13 @@ collator_sort(Collator $object, array &$array, int $flags = Collator::SORT_REGUL
 
 Функція сортує масив відповідно до поточних правил локалі.
 
-Еквівалентна стандартній функції PHP [sort()](function.sort.html)
+Еквівалентна стандартній функції PHP [sort()](function.sort.md)
 
 ### Список параметрів
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `array`
 
@@ -90,6 +90,6 @@ array (
 
 ### Дивіться також
 
--   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collatorasort()](collator.asort.html) - Сортує масив із збереженням асоціації індексу
--   [collatorsortwithsortkeys()](collator.sortwithsortkeys.html) - Сортує масив з використанням зазначеного Collator та ключів сортування
+-   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
+-   [collatorasort()](collator.asort.md) - Сортує масив із збереженням асоціації індексу
+-   [collatorsortwithsortkeys()](collator.sortwithsortkeys.md) - Сортує масив з використанням зазначеного Collator та ключів сортування

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.convert-uudecode.html: « convertuudecode
-  - function.count-chars.html: countchars »
+  - function.convert-uudecode.md: « convertuudecode
+  - function.count-chars.md: countchars »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: convertuuencode

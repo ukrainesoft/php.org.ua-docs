@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayiterator.construct.html: '« ArrayIterator::construct'
-  - arrayiterator.current.html: 'ArrayIterator::current »'
-  - index.html: PHP Manual
-  - class.arrayiterator.html: ArrayIterator
+  - arrayiterator.construct.md: '« ArrayIterator::construct'
+  - arrayiterator.current.md: 'ArrayIterator::current »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::count'
 ---
 # ArrayIterator::count
@@ -34,4 +34,4 @@ public ArrayIterator::count(): int
 
 ### Дивіться також
 
--   [ArrayIterator::getFlags()](arrayiterator.getflags.html) - Отримує прапори поведінки
+-   [ArrayIterator::getFlags()](arrayiterator.getflags.md) - Отримує прапори поведінки

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-sftp-chmod.html: « ssh2sftpchmod
-  - function.ssh2-sftp-mkdir.html: ssh2sftpmkdir »
+  - function.ssh2-sftp-chmod.md: « ssh2sftpchmod
+  - function.ssh2-sftp-mkdir.md: ssh2sftpmkdir »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2sftplstat

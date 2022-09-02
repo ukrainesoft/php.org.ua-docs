@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttpconnection.setlocaladdress.html: '« EventHttpConnection::setLocalAddress'
-  - eventhttpconnection.setmaxbodysize.html: 'EventHttpConnection::setMaxBodySize »'
-  - index.html: PHP Manual
-  - class.eventhttpconnection.html: EventHttpConnection
+  - eventhttpconnection.setlocaladdress.md: '« EventHttpConnection::setLocalAddress'
+  - eventhttpconnection.setmaxbodysize.md: 'EventHttpConnection::setMaxBodySize »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::setLocalPort'
 ---
 # EventHttpConnection::setLocalPort
@@ -34,4 +34,4 @@ public
 
 ### Дивіться також
 
--   [EventHttpConnection::setLocalAddress()](eventhttpconnection.setlocaladdress.html) - Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання
+-   [EventHttpConnection::setLocalAddress()](eventhttpconnection.setlocaladdress.md) - Встановлює IP-адресу, з якої відбуваються HTTP-з'єднання

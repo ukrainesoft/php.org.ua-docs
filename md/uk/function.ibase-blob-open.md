@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-blob-info.html: « ibaseblobinfo
-  - function.ibase-close.html: ibaseclose »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-blob-info.md: « ibaseblobinfo
+  - function.ibase-close.md: ibaseclose »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseblobopen
 ---
 # ibaseblobopen
@@ -36,10 +36,10 @@ ibase_blob_open(string $blob_id): resource|false
 
 ### Значення, що повертаються
 
-Повертає дескриптор BLOB-об'єкта для подальшого використання за допомогою [ibaseblobget()](function.ibase-blob-get.html) або **`false`** у разі виникнення помилки.
+Повертає дескриптор BLOB-об'єкта для подальшого використання за допомогою [ibaseblobget()](function.ibase-blob-get.md) або **`false`** у разі виникнення помилки.
 
 ### Дивіться також
 
--   [ibaseblobclose()](function.ibase-blob-close.html) - Закриває BLOB-об'єкт
--   [ibaseblobecho()](function.ibase-blob-echo.html) - Виводить вміст BLOB-об'єкта у браузер
--   [ibaseblobget()](function.ibase-blob-get.html) - Отримує кількість байтів від відкритого BLOB-об'єкта
+-   [ibaseblobclose()](function.ibase-blob-close.md) - Закриває BLOB-об'єкт
+-   [ibaseblobecho()](function.ibase-blob-echo.md) - Виводить вміст BLOB-об'єкта у браузер
+-   [ibaseblobget()](function.ibase-blob-get.md) - Отримує кількість байтів від відкритого BLOB-об'єкта

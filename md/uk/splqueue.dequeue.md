@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splqueue.construct.html: '« SplQueue::construct'
-  - splqueue.enqueue.html: 'SplQueue::enqueue »'
-  - index.html: PHP Manual
-  - class.splqueue.html: SplQueue
+  - splqueue.construct.md: '« SplQueue::construct'
+  - splqueue.enqueue.md: 'SplQueue::enqueue »'
+  - index.md: PHP Manual
+  - class.splqueue.md: SplQueue
 title: 'SplQueue::dequeue'
 ---
 # SplQueue::dequeue
@@ -22,7 +22,7 @@ public SplQueue::dequeue(): mixed
 
 > **Зауваження**
 > 
-> **SplQueue::dequeue()** - псевдонім [SplDoublyLinkedList::shift()](spldoublylinkedlist.shift.html)
+> **SplQueue::dequeue()** - псевдонім [SplDoublyLinkedList::shift()](spldoublylinkedlist.shift.md)
 
 ### Список параметрів
 

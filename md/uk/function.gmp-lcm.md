@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-kronecker.html: « gmpkronecker
-  - function.gmp-legendre.html: gmplegendre »
+  - function.gmp-kronecker.md: « gmpkronecker
+  - function.gmp-legendre.md: gmplegendre »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmplcm

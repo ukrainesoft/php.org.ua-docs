@@ -59,7 +59,7 @@ print "$b\n"; // также печатает 4, так как $b явл
 ?>
 ```
 
-Оператор [new](language.oop5.basic.html#language.oop5.basic.new) автоматично повертає посилання, тому присвоєння результату операції [new](language.oop5.basic.html#language.oop5.basic.new) за посиланням є помилкою.
+Оператор [new](language.oop5.basic.md#language.oop5.basic.new) автоматично повертає посилання, тому присвоєння результату операції [new](language.oop5.basic.md#language.oop5.basic.new) за посиланням є помилкою.
 
 ```php
 <?php
@@ -109,4 +109,4 @@ Parse error: syntax error, unexpected 'new' (T_NEW) in …
 
 -   [арифметичні оператори](language.operators.arithmetic.md)
 -   [побітові оператори](language.operators.bitwise.md)
--   [оператори об'єднання з null](language.operators.comparison.html#language.operators.comparison.coalesce)
+-   [оператори об'єднання з null](language.operators.comparison.md#language.operators.comparison.coalesce)

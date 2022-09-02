@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.gethighlightfragmenter.html: '« SolrQuery::getHighlightFragmenter'
-  - solrquery.gethighlighthighlightmultiterm.html: 'SolrQuery::getHighlightHighlightMultiTerm »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.gethighlightfragmenter.md: '« SolrQuery::getHighlightFragmenter'
+  - solrquery.gethighlighthighlightmultiterm.md: 'SolrQuery::getHighlightHighlightMultiTerm »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getHighlightFragsize'
 ---
 # SolrQuery::getHighlightFragsize

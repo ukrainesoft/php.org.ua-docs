@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-obv.html: « traderobv
-  - function.trader-plus-dm.html: traderplusdm »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-obv.md: « traderobv
+  - function.trader-plus-dm.md: traderplusdm »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderplusді
 ---
 # traderplusді

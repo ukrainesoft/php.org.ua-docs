@@ -1,9 +1,9 @@
 ---
 navigation:
-  - commonmark-node.replace.html: '« CommonMarkNode::replace'
-  - commonmark-node.accept.html: 'CommonMarkNode::accept »'
+  - commonmark-node.replace.md: '« CommonMarkNode::replace'
+  - commonmark-node.accept.md: 'CommonMarkNode::accept »'
   - index.md: PHP Manual
-  - class.commonmark-node.html: CommonMarkNode
+  - class.commonmark-node.md: CommonMarkNode
 title: 'CommonMarkNode::unlink'
 ---
 # CommonMarkNode::unlink

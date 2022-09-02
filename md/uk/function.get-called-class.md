@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enum-exists.html: « enumexists
-  - function.get-class-methods.html: getclassmethods »
+  - function.enum-exists.md: « enumexists
+  - function.get-class-methods.md: getclassmethods »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: getcalledclass

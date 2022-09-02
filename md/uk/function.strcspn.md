@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.strcoll.md: « strcoll
-  - function.strip-tags.html: striptags »
+  - function.strip-tags.md: striptags »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: strcspn

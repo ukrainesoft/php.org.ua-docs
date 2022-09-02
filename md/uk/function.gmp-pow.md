@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-popcount.html: « gmppopcount
-  - function.gmp-powm.html: gmppowm »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-popcount.md: « gmppopcount
+  - function.gmp-powm.md: gmppowm »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmppow
 ---
 # gmppow

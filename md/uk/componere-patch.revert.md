@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-patch.apply.html: '« ComponerePatch::apply'
-  - componere-patch.isapplied.html: 'ComponerePatch::isApplied »'
+  - componere-patch.apply.md: '« ComponerePatch::apply'
+  - componere-patch.isapplied.md: 'ComponerePatch::isApplied »'
   - index.md: PHP Manual
-  - class.componere-patch.html: ComponerePatch
+  - class.componere-patch.md: ComponerePatch
 title: 'ComponerePatch::revert'
 ---
 # ComponerePatch::revert

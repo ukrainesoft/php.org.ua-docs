@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-scalar-mul.html: « sodiumcryptocoreristretto255scalarmul
-  - function.sodium-crypto-core-ristretto255-scalar-random.html: sodiumcryptocoreristretto255scalarrandom »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-core-ristretto255-scalar-mul.md: « sodiumcryptocoreristretto255scalarmul
+  - function.sodium-crypto-core-ristretto255-scalar-random.md: sodiumcryptocoreristretto255scalarrandom »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255scalarnegate
 ---
 # sodiumcryptocoreristretto255scalarnegate
@@ -58,4 +58,4 @@ bool(true)
 
 ### Дивіться також
 
--   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.html) - Генерує випадковий ключ
+-   [sodiumcryptocoreristretto255scalarrandom()](function.sodium-crypto-core-ristretto255-scalar-random.md) - Генерує випадковий ключ

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.isacknowledged.html: '« MongoDBDriverWriteResult::isAcknowledged'
+  - mongodb-driver-writeresult.isacknowledged.md: '« MongoDBDriverWriteResult::isAcknowledged'
   - ref.bson.functions.md: Функції »
   - index.md: PHP Manual
   - set.mongodb.md: MongoDB

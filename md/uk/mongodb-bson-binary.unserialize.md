@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-binary.tostring.html: '« MongoDBBSONBinary::toString'
-  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128 »
+  - mongodb-bson-binary.tostring.md: '« MongoDBBSONBinary::toString'
+  - class.mongodb-bson-decimal128.md: MongoDBBSONDecimal128 »
   - index.md: PHP Manual
-  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+  - class.mongodb-bson-binary.md: MongoDBBSONBinary
 title: 'MongoDBBSONBinary::unserialize'
 ---
 # MongoDBBSONBinary::unserialize
@@ -22,7 +22,7 @@ final public MongoDB\BSON\Binary::unserialize(string $serialized): void
 
 `serialized`
 
-Серіалізований [MongoDBBSONBinary](class.mongodb-bson-binary.html)
+Серіалізований [MongoDBBSONBinary](class.mongodb-bson-binary.md)
 
 ### Значення, що повертаються
 
@@ -30,12 +30,12 @@ final public MongoDB\BSON\Binary::unserialize(string $serialized): void
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html)якщо властивості не можуть бути десеріалізовані (наприклад, `serialized` був неправильно сформований).
--   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)якщо властивості неприпустимі (наприклад, відсутні поля або неприпустимі значення).
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md)якщо властивості не можуть бути десеріалізовані (наприклад, `serialized` був неправильно сформований).
+-   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо властивості неприпустимі (наприклад, відсутні поля або неприпустимі значення).
 
 ### Дивіться також
 
--   [MongoDBBSONBinary::serialize()](mongodb-bson-binary.serialize.html) - Серіалізує Binary
+-   [MongoDBBSONBinary::serialize()](mongodb-bson-binary.serialize.md) - Серіалізує Binary
 -   [unserialize()](function.unserialize.md) - Створює PHP-значення зі збереженого уявлення
 -   [Серіалізація об'єктів](language.oop5.serialization.md)

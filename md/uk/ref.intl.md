@@ -1,7 +1,7 @@
 ---
 navigation:
   - intliterator.valid.md: '« IntlIterator::valid'
-  - function.intl-error-name.html: intlerrorname »
+  - function.intl-error-name.md: intlerrorname »
   - index.md: PHP Manual
   - book.intl.md: intl
 title: Функції intl

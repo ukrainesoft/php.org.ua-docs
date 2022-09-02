@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ui-run.html: « UIrun
-  - class.ui-draw-text-font-italic.html: ОЙDrawTextFontItalic »
+  - function.ui-run.md: « UIrun
+  - class.ui-draw-text-font-italic.md: ОЙDrawTextFontItalic »
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Налаштування зображення шрифту

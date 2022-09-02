@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.getmaxstalenessseconds.html: '« MongoDBDriverReadPreference::getMaxStalenessSeconds'
-  - mongodb-driver-readpreference.getmodestring.html: 'MongoDBDriverReadPreference::getModeString »'
+  - mongodb-driver-readpreference.getmaxstalenessseconds.md: '« MongoDBDriverReadPreference::getMaxStalenessSeconds'
+  - mongodb-driver-readpreference.getmodestring.md: 'MongoDBDriverReadPreference::getModeString »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::getMode'
 ---
 # MongoDBDriverReadPreference::getMode

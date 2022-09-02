@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ksort.html: « ksort
-  - function.natcasesort.html: natcasesort »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.ksort.md: « ksort
+  - function.natcasesort.md: natcasesort »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: list
 ---
 # list
@@ -18,7 +18,7 @@ list — Надає змінним зі списку значення подіб
 list(mixed $var, mixed ...$vars = ?): array
 ```
 
-Подібно [array()](function.array.html), це не функція, а мовна конструкція . **list()** використовується для того, щоб надати списку змінних значення за одну операцію. Рядки не можна розпакувати, а вирази **list()** не можуть бути повністю порожніми.
+Подібно [array()](function.array.md), це не функція, а мовна конструкція . **list()** використовується для того, щоб надати списку змінних значення за одну операцію. Рядки не можна розпакувати, а вирази **list()** не можуть бути повністю порожніми.
 
 > **Зауваження**
 > 
@@ -160,6 +160,6 @@ id: 2, name: Fred
 
 ### Дивіться також
 
--   [each()](function.each.html) - Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
--   [array()](function.array.html) - створює масив
--   [extract()](function.extract.html) - Імпортує змінні з масиву до поточної таблиці символів
+-   [each()](function.each.md) - Повертає поточну пару ключ/значення з масиву та зміщує його покажчик
+-   [array()](function.array.md) - створює масив
+-   [extract()](function.extract.md) - Імпортує змінні з масиву до поточної таблиці символів

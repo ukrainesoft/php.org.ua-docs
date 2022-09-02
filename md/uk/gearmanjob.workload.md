@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanjob.warning.html: '« GearmanJob::warning'
-  - gearmanjob.workloadsize.html: 'GearmanJob::workloadSize »'
-  - index.html: PHP Manual
-  - class.gearmanjob.html: GearmanJob
+  - gearmanjob.warning.md: '« GearmanJob::warning'
+  - gearmanjob.workloadsize.md: 'GearmanJob::workloadSize »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::workload'
 ---
 # GearmanJob::workload
@@ -30,5 +30,5 @@ public GearmanJob::workload(): string
 
 ### Дивіться також
 
--   [GearmanClient::do()](gearmanclient.do.html) - Виконує одне завдання та повертає результат Застарілий метод
--   [GearmanJob::workloadSize()](gearmanjob.workloadsize.html) - Отримання розміру даних, що оброблюються
+-   [GearmanClient::do()](gearmanclient.do.md) - Виконує одне завдання та повертає результат Застарілий метод
+-   [GearmanJob::workloadSize()](gearmanjob.workloadsize.md) - Отримання розміру даних, що оброблюються

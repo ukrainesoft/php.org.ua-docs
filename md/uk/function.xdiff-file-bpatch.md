@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-file-bdiff.html: xdifffilebdiff
-  - function.xdiff-file-diff-binary.html: xdifffilediffbinary »
+  - function.xdiff-file-bdiff.md: xdifffilebdiff
+  - function.xdiff-file-diff-binary.md: xdifffilediffbinary »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdifffilebpatch
@@ -18,7 +18,7 @@ xdifffilebpatch — Застосувати бінарний патч до фай
 xdiff_file_bpatch(string $file, string $patch, string $dest): bool
 ```
 
-Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі, створені як [xdifffilebdiff()](function.xdiff-file-bdiff.html) так і [xdifffilerabdiff()](function.xdiff-file-rabdiff.md) або їх копії.
+Застосувати до файлу `file` патч `patch` і записати результат у файл `dest`. Ця функція приймає патчі, створені як [xdifffilebdiff()](function.xdiff-file-bdiff.md) так і [xdifffilerabdiff()](function.xdiff-file-rabdiff.md) або їх копії.
 
 ### Список параметрів
 

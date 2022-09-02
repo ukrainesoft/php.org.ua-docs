@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-close.html: « socketclose
-  - function.socket-connect.html: socketconnect »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-close.md: « socketclose
+  - function.socket-connect.md: socketconnect »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketcmsgspace
 ---
 # socketcmsgspace
@@ -34,5 +34,5 @@ socket_cmsg_space(int $level, int $type, int $num = 0): ?int
 
 ### Дивіться також
 
--   [socketrecvmsg()](function.socket-recvmsg.html) - Прочитати повідомлення
--   [socketsendmsg()](function.socket-sendmsg.html) - Надіслати повідомлення
+-   [socketrecvmsg()](function.socket-recvmsg.md) - Прочитати повідомлення
+-   [socketsendmsg()](function.socket-sendmsg.md) - Надіслати повідомлення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.haspreviousimage.html: '« Imagick::hasPreviousImage'
-  - imagick.identifyimage.html: 'Imagick::identifyImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.haspreviousimage.md: '« Imagick::hasPreviousImage'
+  - imagick.identifyimage.md: 'Imagick::identifyImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::identifyFormat'
 ---
 # Imagick::identifyFormat

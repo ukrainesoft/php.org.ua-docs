@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqsocket.getsockettype.html: '« ZMQSocket::getSocketType'
-  - zmqsocket.ispersistent.html: 'ZMQSocket::isPersistent »'
-  - index.html: PHP Manual
-  - class.zmqsocket.html: ZMQSocket
+  - zmqsocket.getsockettype.md: '« ZMQSocket::getSocketType'
+  - zmqsocket.ispersistent.md: 'ZMQSocket::isPersistent »'
+  - index.md: PHP Manual
+  - class.zmqsocket.md: ZMQSocket
 title: 'ZMQSocket::getSockOpt'
 ---
 # ZMQSocket::getSockOpt

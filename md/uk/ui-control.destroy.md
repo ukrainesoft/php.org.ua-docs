@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-control.html: « UIControl
-  - ui-control.disable.html: 'ОЙControl::disable »'
+  - class.ui-control.md: « UIControl
+  - ui-control.disable.md: 'ОЙControl::disable »'
   - index.md: PHP Manual
-  - class.ui-control.html: ОЙControl
+  - class.ui-control.md: ОЙControl
 title: 'ОЙControl::destroy'
 ---
 # ОЙControl::destroy

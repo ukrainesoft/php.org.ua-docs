@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.ds.html: « Введение
-  - ds.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.ds.html: Структури даних
+  - intro.ds.md: « Введение
+  - ds.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

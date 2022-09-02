@@ -14,7 +14,7 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) | "0" | PHPINISYSTEM | Доступно з PHP 7.1.25, 7.2.13 та 7.3.0. Раніше був неявно увімкнений. |
+| [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) | "0" | PHPINISYSTEM | Доступно з PHP 7.1.25, 7.2.13 та 7.3.0. Раніше був неявно увімкнений. |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

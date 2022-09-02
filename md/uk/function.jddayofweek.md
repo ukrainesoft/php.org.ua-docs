@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gregoriantojd.html: « gregoriantojd
-  - function.jdmonthname.html: jdmonthname »
-  - index.html: PHP Manual
-  - ref.calendar.html: Календарь
+  - function.gregoriantojd.md: « gregoriantojd
+  - function.jdmonthname.md: jdmonthname »
+  - index.md: PHP Manual
+  - ref.calendar.md: Календарь
 title: jddayofweek
 ---
 # jddayofweek

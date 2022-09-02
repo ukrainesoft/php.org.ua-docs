@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-blob-open.html: « fbirdblobopen
-  - function.fbird-commit-ret.html: fbirdcommitret »
+  - function.fbird-blob-open.md: « fbirdblobopen
+  - function.fbird-commit-ret.md: fbirdcommitret »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdclose

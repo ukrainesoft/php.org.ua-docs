@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-bson-maxkey.unserialize.html: '« MongoDBBSONMaxKey::unserialize'
-  - mongodb-bson-minkey.construct.html: 'MongoDBBSONMinKey::construct »'
+  - mongodb-bson-maxkey.unserialize.md: '« MongoDBBSONMaxKey::unserialize'
+  - mongodb-bson-minkey.construct.md: 'MongoDBBSONMinKey::construct »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONMinKey

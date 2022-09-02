@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-bucket-new.html: « streambucketnew
-  - function.stream-context-create.html: streamcontextcreate »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-bucket-new.md: « streambucketnew
+  - function.stream-context-create.md: streamcontextcreate »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streambucketprepend
 ---
 # streambucketprepend
@@ -18,7 +18,7 @@ streambucketprepend — Додати відро на початок бригад
 stream_bucket_prepend(resource $brigade, object $bucket): void
 ```
 
-Ця функція може використовуватися для додавання відра на початок бригади відер. Зазвичай вона викликається з [phpuserfilter::filter()](php-user-filter.filter.html)
+Ця функція може використовуватися для додавання відра на початок бригади відер. Зазвичай вона викликається з [phpuserfilter::filter()](php-user-filter.filter.md)
 
 ### Список параметрів
 

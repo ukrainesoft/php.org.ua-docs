@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-get-transports.html: « streamgettransports
-  - function.stream-is-local.html: streamісlocal »
+  - function.stream-get-transports.md: « streamgettransports
+  - function.stream-is-local.md: streamісlocal »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamgetwrappers

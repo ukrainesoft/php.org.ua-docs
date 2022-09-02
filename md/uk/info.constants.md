@@ -1,9 +1,9 @@
 ---
 navigation:
-  - info.resources.html: « Типи ресурсів
-  - ref.info.html: Опції PHP/інформаційні функції »
-  - index.html: PHP Manual
-  - book.info.html: Опции/информация PHP
+  - info.resources.md: « Типи ресурсів
+  - ref.info.md: Опції PHP/інформаційні функції »
+  - index.md: PHP Manual
+  - book.info.md: Опции/информация PHP
 title: Обумовлені константи
 ---
 # Обумовлені константи

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.stats-stat-powersum.html: « statsstatpowersum
+  - function.stats-stat-powersum.md: « statsstatpowersum
   - book.trader.md: Trader »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики

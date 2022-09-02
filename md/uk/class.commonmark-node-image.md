@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.commonmark-node-htmlinline.html: « CommonMarkNodeHTMLInline
-  - commonmark-node-image.construct.html: 'CommonMarkNodeImage::construct »'
+  - class.commonmark-node-htmlinline.md: « CommonMarkNodeHTMLInline
+  - commonmark-node-image.construct.md: 'CommonMarkNodeImage::construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: Image успадковує CommonMarkNode

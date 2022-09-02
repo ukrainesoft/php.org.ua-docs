@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-create-standard.html: « fanncreatestandard
-  - function.fann-create-train.html: fanncreatetrain »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-create-standard.md: « fanncreatestandard
+  - function.fann-create-train.md: fanncreatetrain »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanncreatetrainfromcallback
 ---
 # fanncreatetrainfromcallback
@@ -79,7 +79,7 @@ if ($train_data) {
 
 ### Дивіться також
 
--   [fannreadtrainfromfile()](function.fann-read-train-from-file.html) - Читає файл, у якому зберігаються дані навчання
--   [fanntrainвінdata()](function.fann-train-on-data.html) - Навчання на всьому обсязі даних на часовому інтервалі
--   [fanndestroytrain()](function.fann-destroy-train.html) - Знищує тренувальні дані
--   [fannsavetrain()](function.fann-save-train.html) - Зберігає структуру навчання у файл
+-   [fannreadtrainfromfile()](function.fann-read-train-from-file.md) - Читає файл, у якому зберігаються дані навчання
+-   [fanntrainвінdata()](function.fann-train-on-data.md) - Навчання на всьому обсязі даних на часовому інтервалі
+-   [fanndestroytrain()](function.fann-destroy-train.md) - Знищує тренувальні дані
+-   [fannsavetrain()](function.fann-save-train.md) - Зберігає структуру навчання у файл

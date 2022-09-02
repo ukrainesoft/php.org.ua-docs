@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdl3outside.html: « tradercdl3outside
-  - function.trader-cdl3whitesoldiers.html: tradercdl3whitesoldiers »
+  - function.trader-cdl3outside.md: « tradercdl3outside
+  - function.trader-cdl3whitesoldiers.md: tradercdl3whitesoldiers »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdl3starsinsouth

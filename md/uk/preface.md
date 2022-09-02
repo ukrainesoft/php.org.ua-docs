@@ -1,7 +1,7 @@
 ---
 navigation:
   - manual.md: « Руководство по PHP
-  - getting-started.html: Приступаючи до роботи»
+  - getting-started.md: Приступаючи до роботи»
   - index.md: PHP Manual
   - manual.md: Руководство по PHP
 title: Передмова

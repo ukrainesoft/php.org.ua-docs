@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.random-bytes.html: « randombytes
-  - book.hash.html: Hash »
-  - index.html: PHP Manual
-  - ref.csprng.html: Функции CSPRNG
+  - function.random-bytes.md: « randombytes
+  - book.hash.md: Hash »
+  - index.md: PHP Manual
+  - ref.csprng.md: Функции CSPRNG
 title: randomint
 ---
 # randomint
@@ -23,9 +23,9 @@ random_int(int $min, int $max): int
 Джерело випадкових величин, що використовуються цією функцією:
 
 -   У Windows завжди використовується [**CryptGenRandom()**](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379942(v=vs.85).aspx) Починаючи з PHP 7.2.0, замість нього завжди використовуватиметься [» CNG-API](https://docs.microsoft.com/en-us/windows/desktop/SecCNG/cng-portal)
--   У Linux, якщо доступний, використовується системний виклик [» getrandom(2)](http://man7.org/linux/man-pages/man2/getrandom.2.html)
+-   У Linux, якщо доступний, використовується системний виклик [» getrandom(2)](http://man7.org/linux/man-pages/man2/getrandom.2.md)
 -   На інших платформах використовується /dev/urandom.
--   Якщо доступні джерела випадкових величин відсутні, викидається виняток [Exception](class.exception.html)
+-   Якщо доступні джерела випадкових величин відсутні, викидається виняток [Exception](class.exception.md)
 
 > **Зауваження**: Ця функція була додана в PHP 7.0, а для версій з 5.2 до 5.6 включно доступна [» користувацька реалізація](https://github.com/paragonie/random_compat)
 
@@ -45,9 +45,9 @@ random_int(int $min, int $max): int
 
 ### Помилки
 
--   Якщо відповідних джерел випадкових величин відсутні, то викидається виняток [Exception](class.exception.html)
--   Якщо встановлено некоректний параметр, викидається виняток [TypeError](class.typeerror.html)
--   Якщо поставити `max` менше ніж `min`, то буде викинуто виняток класу [Error](class.error.html)
+-   Якщо відповідних джерел випадкових величин відсутні, то викидається виняток [Exception](class.exception.md)
+-   Якщо встановлено некоректний параметр, викидається виняток [TypeError](class.typeerror.md)
+-   Якщо поставити `max` менше ніж `min`, то буде викинуто виняток класу [Error](class.error.md)
 
 ### Приклади
 
@@ -69,4 +69,4 @@ int(-898)
 
 ### Дивіться також
 
--   [randombytes()](function.random-bytes.html) - Генерує криптографічно безпечні псевдовипадкові байти
+-   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти

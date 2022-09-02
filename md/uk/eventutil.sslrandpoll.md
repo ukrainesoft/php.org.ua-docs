@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventutil.setsocketoption.html: '« EventUtil::setSocketOption'
-  - book.ftp.html: FTP »
-  - index.html: PHP Manual
-  - class.eventutil.html: EventUtil
+  - eventutil.setsocketoption.md: '« EventUtil::setSocketOption'
+  - book.ftp.md: FTP »
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
 title: 'EventUtil::sslRandPoll'
 ---
 # EventUtil::sslRandPoll

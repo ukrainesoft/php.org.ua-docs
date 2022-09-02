@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.iscntrl.html: '« IntlChar::iscntrl'
-  - intlchar.isdigit.html: 'IntlChar::isdigit »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.iscntrl.md: '« IntlChar::iscntrl'
+  - intlchar.isdigit.md: 'IntlChar::isdigit »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::isdefined'
 ---
 # IntlChar::isdefined

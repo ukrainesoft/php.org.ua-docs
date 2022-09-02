@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-mysql.close.html: '« SwooleMySQL::close'
-  - swoole-mysql.construct.html: 'SwooleMySQL::construct »'
+  - swoole-mysql.close.md: '« SwooleMySQL::close'
+  - swoole-mysql.construct.md: 'SwooleMySQL::construct »'
   - index.md: PHP Manual
-  - class.swoole-mysql.html: SwooleMySQL
+  - class.swoole-mysql.md: SwooleMySQL
 title: 'SwooleMySQL::connect'
 ---
 # SwooleMySQL::connect

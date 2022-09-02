@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.microtime.html: « microtime
-  - function.strftime.html: strftime »
-  - index.html: PHP Manual
-  - ref.datetime.html: Функції дати та часу
+  - function.microtime.md: « microtime
+  - function.strftime.md: strftime »
+  - index.md: PHP Manual
+  - ref.datetime.md: Функції дати та часу
 title: mktime
 ---
 # mktime
@@ -22,7 +22,7 @@ mktime(    int $hour,    ?int $minute = null,    ?int $second = null
 
 Аргументи можуть бути опущені праворуч наліво. У цьому випадку їх значення за промовчанням дорівнюють відповідним компонентам локальної дати/часу.
 
-Виклик **mktime()** без аргументів застарів. Для отримання поточної позначки часу можна використовувати [time()](function.time.html)
+Виклик **mktime()** без аргументів застарів. Для отримання поточної позначки часу можна використовувати [time()](function.time.md)
 
 ### Список параметрів
 
@@ -56,7 +56,7 @@ mktime(    int $hour,    ?int $minute = null,    ?int $second = null
 
 ### Помилки
 
-Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.html)
+Кожен виклик до функцій дати/часу при неправильних налаштуваннях часового поясу згенерує помилку рівня **`E_WARNING`**, якщо часовий пояс неправильний. Дивіться також [datedefaulttimezoneset()](function.date-default-timezone-set.md)
 
 ### список змін
 
@@ -110,7 +110,7 @@ echo strftime("Последний день февраля 2000 г.: %d", 
 
 ### Дивіться також
 
--   [checkdate()](function.checkdate.html) - Перевіряє коректність дати за григоріанським календарем
--   [gmmktime()](function.gmmktime.html) - Повертає локальну мітку часу Unix для часу за Грінвічем
--   [date()](function.date.html) - Форматує тимчасову мітку Unix
--   [time()](function.time.html) - Повертає поточну мітку системного часу Unix
+-   [checkdate()](function.checkdate.md) - Перевіряє коректність дати за григоріанським календарем
+-   [gmmktime()](function.gmmktime.md) - Повертає локальну мітку часу Unix для часу за Грінвічем
+-   [date()](function.date.md) - Форматує тимчасову мітку Unix
+-   [time()](function.time.md) - Повертає поточну мітку системного часу Unix

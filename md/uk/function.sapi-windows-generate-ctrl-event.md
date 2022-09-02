@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sapi-windows-cp-set.html: « sapiwindowsспset
-  - function.sapi-windows-set-ctrl-handler.html: sapiwindowssetctrlhandler »
+  - function.sapi-windows-cp-set.md: « sapiwindowsспset
+  - function.sapi-windows-set-ctrl-handler.md: sapiwindowssetctrlhandler »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: sapiwindowsgeneratectrlevent

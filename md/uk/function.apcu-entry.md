@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.apcu-enabled.html: « apcuenabled
-  - function.apcu-exists.html: apcuexists »
+  - function.apcu-enabled.md: « apcuenabled
+  - function.apcu-exists.md: apcuexists »
   - index.md: PHP Manual
   - ref.apcu.md: Функции APCu
 title: apcuentry

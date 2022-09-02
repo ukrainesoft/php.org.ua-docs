@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.getsupportedcompression.html: '« Phar::getSupportedCompression'
-  - phar.getversion.html: 'Phar::getVersion »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.getsupportedcompression.md: '« Phar::getSupportedCompression'
+  - phar.getversion.md: 'Phar::getVersion »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::getSupportedSignatures'
 ---
 # Phar::getSupportedSignatures

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wincache-ocache-fileinfo.html: « wincacheocachefileinfo
-  - function.wincache-refresh-if-changed.html: wincacherefreshіфchanged »
+  - function.wincache-ocache-fileinfo.md: « wincacheocachefileinfo
+  - function.wincache-refresh-if-changed.md: wincacherefreshіфchanged »
   - index.md: PHP Manual
   - ref.wincache.md: Функции WinCache
 title: wincacheocachememinfo

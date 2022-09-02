@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-stmt-error.html: « db2stmterror
-  - function.db2-table-privileges.html: db2tableprivileges »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-stmt-error.md: « db2stmterror
+  - function.db2-table-privileges.md: db2tableprivileges »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2stmterrormsg
 ---
 # db2stmterrormsg
@@ -20,7 +20,7 @@ db2_stmt_errormsg(resource $stmt = ?): string
 
 Повертає рядок, який містить останнє повідомлення про помилку SQL-виразу.
 
-Якщо ви не передаєте ресурс виразу як аргумент у **db2stmterrormsg()**, драйвер повертає повідомлення про помилку, пов'язане з останньою спробою повернути ресурс оператора, наприклад, [db2prepare()](function.db2-prepare.html) або [db2exec()](function.db2-exec.md)
+Якщо ви не передаєте ресурс виразу як аргумент у **db2stmterrormsg()**, драйвер повертає повідомлення про помилку, пов'язане з останньою спробою повернути ресурс оператора, наприклад, [db2prepare()](function.db2-prepare.md) або [db2exec()](function.db2-exec.md)
 
 ### Список параметрів
 

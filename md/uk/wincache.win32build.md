@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.wincache-unlock.html: « wincacheunlock
-  - wincache.win32build.prereq.html: Пререквізити »
-  - index.html: PHP Manual
-  - book.wincache.html: WinCache
+  - function.wincache-unlock.md: « wincacheunlock
+  - wincache.win32build.prereq.md: Пререквізити »
+  - index.md: PHP Manual
+  - book.wincache.md: WinCache
 title: Складання для Windows
 ---
 # Складання для Windows

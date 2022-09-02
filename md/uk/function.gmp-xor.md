@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.gmp-testbit.html: « gmptestbit
+  - function.gmp-testbit.md: « gmptestbit
   - class.gmp.md: GMP »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції

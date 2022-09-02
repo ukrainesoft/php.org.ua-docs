@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-serialize.unpack.html: '« SwooleSerialize::unpack'
-  - swoole-server.addlistener.html: 'SwooleServer::addlistener »'
-  - index.html: PHP Manual
-  - book.swoole.html: Swoole
+  - swoole-serialize.unpack.md: '« SwooleSerialize::unpack'
+  - swoole-server.addlistener.md: 'SwooleServer::addlistener »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
 title: Клас SwooleServer
 ---
 # Клас SwooleServer
@@ -73,44 +73,44 @@ public tick(int $interval_ms, callable $callback): void
 
 ## Зміст
 
--   [SwooleServer::addlistener](swoole-server.addlistener.html) — Додає нового слухача на сервер
--   [SwooleServer::addProcess](swoole-server.addprocess.html) — Додає певний користувачем swooleprocess на сервер
--   [SwooleServer::after](swoole-server.after.html) - Запускає callback-функцію після закінчення певного періоду часу
--   [SwooleServer::bind](swoole-server.bind.html) — Прив'язує з'єднання до вказаного ідентифікатора користувача
--   [SwooleServer::clearTimer](swoole-server.cleartimer.html) - Зупиняє та знищує таймер
--   [SwooleServer::close](swoole-server.close.html) - Закриває з'єднання з клієнтом
--   [SwooleServer::confirm](swoole-server.confirm.html) - Перевіряє стан з'єднання
--   [SwooleServer::connectioninfo](swoole-server.connection-info.html) — Отримує інформацію про з'єднання з описом файлу
--   [SwooleServer::connectionlist](swoole-server.connection-list.html) — Отримує всі встановлені з'єднання
--   [SwooleServer::construct](swoole-server.construct.html) - Створює сервер Swoole
--   [SwooleServer::defer](swoole-server.defer.html) — Відкладає виконання callback-функції наприкінці поточного EventLoop
--   [SwooleServerPort::construct](swoole-server-port.construct.html) - Створює порт сервера
--   [SwooleServerPort::destruct](swoole-server-port.destruct.html) — Знищує порт сервера
--   [SwooleServerPort::on](swoole-server-port.on.html) - Реєструє callback-функції події
--   [SwooleServerPort::set](swoole-server-port.set.html) — Встановлює протокол порту сервера
--   [SwooleServer::exist](swoole-server.exist.html) — Перевіряє, чи є з'єднання
--   [SwooleServer::finish](swoole-server.finish.html) — Використовується в процесі завдання для надсилання результату до робочого процесу після завершення завдання
--   [SwooleServer::getClientInfo](swoole-server.getclientinfo.html) — Отримує інформацію про з'єднання з описом файлу
--   [SwooleServer::getClientList](swoole-server.getclientlist.html) — Отримує всі встановлені з'єднання
--   [SwooleServer::getLastError](swoole-server.getlasterror.html) — Отримує код останньої помилки
--   [SwooleServer::heartbeat](swoole-server.heartbeat.html) — Перевіряє всі з'єднання на сервері
--   [SwooleServer::listen](swoole-server.listen.html) — Слухає по заданому IP та порту, тип сокету
--   [SwooleServer::on](swoole-server.on.html) - Реєструє callback-функцію на ім'я події
--   [SwooleServer::pause](swoole-server.pause.html) — Припиняє отримання даних від з'єднання
--   [SwooleServer::protect](swoole-server.protect.html) — Встановлює з'єднання у захищений режим
--   [SwooleServer::reload](swoole-server.reload.html) - Перезапускає всі робочі процеси
--   [SwooleServer::resume](swoole-server.resume.html) — Починає отримувати дані із з'єднання
--   [SwooleServer::send](swoole-server.send.html) — Надсилає дані клієнту
--   [SwooleServer::sendfile](swoole-server.sendfile.html) — Надсилає файл на з'єднання
--   [SwooleServer::sendMessage](swoole-server.sendmessage.html) — Надсилає повідомлення робочим процесам за ідентифікатором
--   [SwooleServer::sendto](swoole-server.sendto.html) — Надсилає дані на віддалену UDP-адресу
--   [SwooleServer::sendwait](swoole-server.sendwait.html) — Надсилає дані у віддалений сокет блокуючим способом
--   [SwooleServer::set](swoole-server.set.html) — Встановлює налаштування часу виконання сервера swoole
--   [SwooleServer::shutdown](swoole-server.shutdown.html) — Завершує процес головного сервера, функцію можна викликати у робочих процесах
--   [SwooleServer::start](swoole-server.start.html) - Запускає сервер Swoole
--   [SwooleServer::stats](swoole-server.stats.html) — Отримує статистику сервера Swoole
--   [SwooleServer::stop](swoole-server.stop.html) - Зупиняє сервер Swoole
--   [SwooleServer::task](swoole-server.task.html) — Надсилає дані до робочих процесів завдання
--   [SwooleServer::taskwait](swoole-server.taskwait.html) — Надсилає дані робочим процесам завдання блокуючим способом
--   [SwooleServer::taskWaitMulti](swoole-server.taskwaitmulti.html) — Виконує кілька завдань одночасно
--   [SwooleServer::tick](swoole-server.tick.html) — Повторює цю функцію у кожний заданий інтервал часу
+-   [SwooleServer::addlistener](swoole-server.addlistener.md) — Додає нового слухача на сервер
+-   [SwooleServer::addProcess](swoole-server.addprocess.md) — Додає певний користувачем swooleprocess на сервер
+-   [SwooleServer::after](swoole-server.after.md) - Запускає callback-функцію після закінчення певного періоду часу
+-   [SwooleServer::bind](swoole-server.bind.md) — Прив'язує з'єднання до вказаного ідентифікатора користувача
+-   [SwooleServer::clearTimer](swoole-server.cleartimer.md) - Зупиняє та знищує таймер
+-   [SwooleServer::close](swoole-server.close.md) - Закриває з'єднання з клієнтом
+-   [SwooleServer::confirm](swoole-server.confirm.md) - Перевіряє стан з'єднання
+-   [SwooleServer::connectioninfo](swoole-server.connection-info.md) — Отримує інформацію про з'єднання з описом файлу
+-   [SwooleServer::connectionlist](swoole-server.connection-list.md) — Отримує всі встановлені з'єднання
+-   [SwooleServer::construct](swoole-server.construct.md) - Створює сервер Swoole
+-   [SwooleServer::defer](swoole-server.defer.md) — Відкладає виконання callback-функції наприкінці поточного EventLoop
+-   [SwooleServerPort::construct](swoole-server-port.construct.md) - Створює порт сервера
+-   [SwooleServerPort::destruct](swoole-server-port.destruct.md) — Знищує порт сервера
+-   [SwooleServerPort::on](swoole-server-port.on.md) - Реєструє callback-функції події
+-   [SwooleServerPort::set](swoole-server-port.set.md) — Встановлює протокол порту сервера
+-   [SwooleServer::exist](swoole-server.exist.md) — Перевіряє, чи є з'єднання
+-   [SwooleServer::finish](swoole-server.finish.md) — Використовується в процесі завдання для надсилання результату до робочого процесу після завершення завдання
+-   [SwooleServer::getClientInfo](swoole-server.getclientinfo.md) — Отримує інформацію про з'єднання з описом файлу
+-   [SwooleServer::getClientList](swoole-server.getclientlist.md) — Отримує всі встановлені з'єднання
+-   [SwooleServer::getLastError](swoole-server.getlasterror.md) — Отримує код останньої помилки
+-   [SwooleServer::heartbeat](swoole-server.heartbeat.md) — Перевіряє всі з'єднання на сервері
+-   [SwooleServer::listen](swoole-server.listen.md) — Слухає по заданому IP та порту, тип сокету
+-   [SwooleServer::on](swoole-server.on.md) - Реєструє callback-функцію на ім'я події
+-   [SwooleServer::pause](swoole-server.pause.md) — Припиняє отримання даних від з'єднання
+-   [SwooleServer::protect](swoole-server.protect.md) — Встановлює з'єднання у захищений режим
+-   [SwooleServer::reload](swoole-server.reload.md) - Перезапускає всі робочі процеси
+-   [SwooleServer::resume](swoole-server.resume.md) — Починає отримувати дані із з'єднання
+-   [SwooleServer::send](swoole-server.send.md) — Надсилає дані клієнту
+-   [SwooleServer::sendfile](swoole-server.sendfile.md) — Надсилає файл на з'єднання
+-   [SwooleServer::sendMessage](swoole-server.sendmessage.md) — Надсилає повідомлення робочим процесам за ідентифікатором
+-   [SwooleServer::sendto](swoole-server.sendto.md) — Надсилає дані на віддалену UDP-адресу
+-   [SwooleServer::sendwait](swoole-server.sendwait.md) — Надсилає дані у віддалений сокет блокуючим способом
+-   [SwooleServer::set](swoole-server.set.md) — Встановлює налаштування часу виконання сервера swoole
+-   [SwooleServer::shutdown](swoole-server.shutdown.md) — Завершує процес головного сервера, функцію можна викликати у робочих процесах
+-   [SwooleServer::start](swoole-server.start.md) - Запускає сервер Swoole
+-   [SwooleServer::stats](swoole-server.stats.md) — Отримує статистику сервера Swoole
+-   [SwooleServer::stop](swoole-server.stop.md) - Зупиняє сервер Swoole
+-   [SwooleServer::task](swoole-server.task.md) — Надсилає дані до робочих процесів завдання
+-   [SwooleServer::taskwait](swoole-server.taskwait.md) — Надсилає дані робочим процесам завдання блокуючим способом
+-   [SwooleServer::taskWaitMulti](swoole-server.taskwaitmulti.md) — Виконує кілька завдань одночасно
+-   [SwooleServer::tick](swoole-server.tick.md) — Повторює цю функцію у кожний заданий інтервал часу

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.apache-child-terminate.html: « apachechildterminate
-  - function.apache-get-version.html: apachegetversion »
+  - function.apache-child-terminate.md: « apachechildterminate
+  - function.apache-get-version.md: apachegetversion »
   - index.md: PHP Manual
   - ref.apache.md: Функции Apache
 title: apachegetmodules

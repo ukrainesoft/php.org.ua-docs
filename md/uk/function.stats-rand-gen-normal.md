@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-gen-noncentral-t.html: « statsrandgennoncentralт
-  - function.stats-rand-gen-t.html: statsrandgent »
+  - function.stats-rand-gen-noncentral-t.md: « statsrandgennoncentralт
+  - function.stats-rand-gen-t.md: statsrandgent »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandгенnormal

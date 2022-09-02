@@ -1,7 +1,7 @@
 ---
 navigation:
-  - xmldiff-memory.merge.html: '« XMLDiffMemory::merge'
-  - xmldiff-file.diff.html: 'XMLDiffFile::diff »'
+  - xmldiff-memory.merge.md: '« XMLDiffMemory::merge'
+  - xmldiff-file.diff.md: 'XMLDiffFile::diff »'
   - index.md: PHP Manual
   - book.xmldiff.md: XMLDiff
 title: Клас XMLDiffFile

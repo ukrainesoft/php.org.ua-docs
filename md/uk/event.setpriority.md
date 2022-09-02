@@ -1,9 +1,9 @@
 ---
 navigation:
-  - event.set.html: '« Event::set'
-  - event.settimer.html: 'Event::setTimer »'
-  - index.html: PHP Manual
-  - class.event.html: Event
+  - event.set.md: '« Event::set'
+  - event.settimer.md: 'Event::setTimer »'
+  - index.md: PHP Manual
+  - class.event.md: Event
 title: 'Event::setPriority'
 ---
 # Event::setPriority

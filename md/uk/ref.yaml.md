@@ -1,7 +1,7 @@
 ---
 navigation:
   - yaml.callbacks.emit.md: « Публікуючі callback-функції
-  - function.yaml-emit-file.html: yamlemitfile »
+  - function.yaml-emit-file.md: yamlemitfile »
   - index.md: PHP Manual
   - book.yaml.md: Yaml
 title: Функції Yaml

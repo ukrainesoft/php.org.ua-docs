@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.readimageblob.html: '« Imagick::readImageBlob'
-  - imagick.readimages.html: 'Imagick::readimages »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.readimageblob.md: '« Imagick::readImageBlob'
+  - imagick.readimages.md: 'Imagick::readimages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::readImageFile'
 ---
 # Imagick::readImageFile

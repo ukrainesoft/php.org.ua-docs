@@ -28,7 +28,7 @@ public Imagick::functionImage(int $function, array $arguments, int $channel = Im
 
 `function`
 
-Зверніться до списку [констант FUNCTION](imagick.constants.html#imagick.constants.function)
+Зверніться до списку [констант FUNCTION](imagick.constants.md#imagick.constants.function)
 
 `arguments`
 

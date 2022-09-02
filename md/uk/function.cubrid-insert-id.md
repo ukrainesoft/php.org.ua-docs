@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-get.html: « cubridget
-  - function.cubrid-is-instance.html: cubridісinstance »
+  - function.cubrid-get.md: « cubridget
+  - function.cubrid-is-instance.md: cubridісinstance »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridinsertід

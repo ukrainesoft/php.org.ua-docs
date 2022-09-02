@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-symbol.html: « MongoDBBSONSymbol
-  - mongodb-bson-symbol.jsonserialize.html: 'MongoDBBSONSymbol::jsonSerialize »'
+  - class.mongodb-bson-symbol.md: « MongoDBBSONSymbol
+  - mongodb-bson-symbol.jsonserialize.md: 'MongoDBBSONSymbol::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-symbol.html: MongoDBBSONSymbol
+  - class.mongodb-bson-symbol.md: MongoDBBSONSymbol
 title: 'MongoDBBSONSymbol::construct'
 ---
 # MongoDBBSONSymbol::construct
@@ -18,7 +18,7 @@ MongoDBBSONSymbol::construct — Створює новий Symbol (не вико
 final private MongoDB\BSON\Symbol::__construct()
 ```
 
-Об'єкти [MongoDBBSONSymbol](class.mongodb-bson-symbol.html) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
+Об'єкти [MongoDBBSONSymbol](class.mongodb-bson-symbol.md) створюються шляхом перетворення із застарілого типу BSON і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 

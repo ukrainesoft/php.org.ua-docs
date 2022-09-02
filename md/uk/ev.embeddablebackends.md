@@ -29,7 +29,7 @@ final
 
 ### Значення, що повертаються
 
-Повертає бітову маску, що містить [прапори бекенда](class.ev.html#ev.constants.watcher-backends), об'єднані за допомогою побітового *АБО*
+Повертає бітову маску, що містить [прапори бекенда](class.ev.md#ev.constants.watcher-backends), об'єднані за допомогою побітового *АБО*
 
 ### Приклади
 
@@ -69,5 +69,5 @@ if (!$socket_loop) {
 -   [EvEmbed](class.evembed.md)
 -   [Ev::recommendedBackends()](ev.recommendedbackends.md) - Отримати бітову маску рекомендованих бекендів для даної платформи
 -   [Ev::supportedBackends()](ev.supportedbackends.md) - Повертає набір бекендів, які підтримуються поточною конфігурацією libev
--   [Прапори бекенда](class.ev.html#ev.constants.watcher-backends)
+-   [Прапори бекенда](class.ev.md#ev.constants.watcher-backends)
 -   [Приклади](ev.examples.md)

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-close.html: « cubridclose
-  - function.cubrid-db-name.html: cubridдбname »
+  - function.cubrid-close.md: « cubridclose
+  - function.cubrid-db-name.md: cubridдбname »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubriddataseek

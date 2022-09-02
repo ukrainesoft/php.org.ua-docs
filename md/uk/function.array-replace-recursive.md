@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-reduce.html: « arrayreduce
-  - function.array-replace.html: arrayreplace »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-reduce.md: « arrayreduce
+  - function.array-replace.md: arrayreplace »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayreplacerecursive
 ---
 # arrayreplacerecursive
@@ -123,5 +123,5 @@ Array
 
 ### Дивіться також
 
--   [arrayreplace()](function.array-replace.html) - Замінює елементи масиву елементами інших переданих масивів
--   [arraymergerecursive()](function.array-merge-recursive.html) - Рекурсивне злиття одного або більше масивів
+-   [arrayreplace()](function.array-replace.md) - Замінює елементи масиву елементами інших переданих масивів
+-   [arraymergerecursive()](function.array-merge-recursive.md) - Рекурсивне злиття одного або більше масивів

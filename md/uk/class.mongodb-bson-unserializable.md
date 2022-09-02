@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-serializable.bsonserialize.html: '« MongoDBBSONSerializable::bsonSerialize'
-  - mongodb-bson-unserializable.bsonunserialize.html: 'MongoDBBSONUnserializable::bsonUnserialize »'
-  - index.html: PHP Manual
-  - book.bson.html: MongoDBBSON
+  - mongodb-bson-serializable.bsonserialize.md: '« MongoDBBSONSerializable::bsonSerialize'
+  - mongodb-bson-unserializable.bsonunserialize.md: 'MongoDBBSONUnserializable::bsonUnserialize »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONUnserializable
 ---
 # Інтерфейс MongoDBBSONUnserializable
@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBBSONUnserializable
 
 ## Вступ
 
-Класи, які реалізують цей інтерфейс, можуть бути вказані в [карте типов](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps) для десеріалізації масивів та документів BSON (як кореневих, так і вбудованих).
+Класи, які реалізують цей інтерфейс, можуть бути вказані в [карте типов](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps) для десеріалізації масивів та документів BSON (як кореневих, так і вбудованих).
 
 ## Огляд інтерфейсів
 
@@ -42,4 +42,4 @@ title: Інтерфейс MongoDBBSONUnserializable
 
 ## Зміст
 
--   [MongoDBBSONUnserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.html) — Створює об'єкт із масиву BSON або документа
+-   [MongoDBBSONUnserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.md) — Створює об'єкт із масиву BSON або документа

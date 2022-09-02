@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-manager.addsubscriber.html: '« MongoDBDriverManager::addSubscriber'
-  - mongodb-driver-manager.createclientencryption.html: 'MongoDBDriverManager::createClientEncryption »'
+  - mongodb-driver-manager.addsubscriber.md: '« MongoDBDriverManager::addSubscriber'
+  - mongodb-driver-manager.createclientencryption.md: 'MongoDBDriverManager::createClientEncryption »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.html: MongoDBDriverManager
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
 title: 'MongoDBDriverManager::construct'
 ---
 # MongoDBDriverManager::construct
@@ -468,7 +468,7 @@ Azure та GCP тепер підтримуються як постачальни
 
 Додані параметри драйвера `"allow_invalid_hostname"` `"ca_file"` `"ca_dir"` `"clr_file"` `"pem_file"` `"pem_pwd"` і `"weak_cert_validation"`
 
-API потоків PHP більше не використовується для підключення до сокету. Параметр URI `"connectTimeoutMS"` тепер за умовчанням дорівнює 10 секунд замість [defaultsockettimeout](filesystem.configuration.html#ini.default-socket-timeout) у попередніх версіях. Крім того, драйвер більше не підтримує все [параметри SSL-контексту](context.ssl.md) через параметр драйвера `"context"`
+API потоків PHP більше не використовується для підключення до сокету. Параметр URI `"connectTimeoutMS"` тепер за умовчанням дорівнює 10 секунд замість [defaultsockettimeout](filesystem.configuration.md#ini.default-socket-timeout) у попередніх версіях. Крім того, драйвер більше не підтримує все [параметри SSL-контексту](context.ssl.md) через параметр драйвера `"context"`
 
 | | PECL mongodb 1.1.0
 

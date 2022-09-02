@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.apache.html: « Apache
-  - apache.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.apache.html: Apache
+  - book.apache.md: « Apache
+  - apache.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.apache.md: Apache
 title: Вступ
 ---
 # Вступ

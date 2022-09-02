@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-event.write.html: '« SwooleEvent::write'
-  - class.swoole-http-client.html: SwooleHttpClient »
-  - index.html: PHP Manual
-  - book.swoole.html: Swoole
+  - swoole-event.write.md: '« SwooleEvent::write'
+  - class.swoole-http-client.md: SwooleHttpClient »
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
 title: Клас SwooleException
 ---
 # Клас SwooleException

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqlnd.incompatibilities.html: « Несумісності
-  - mysqlnd.stats.html: Статистика »
-  - index.html: PHP Manual
-  - book.mysqlnd.html: Mysqlnd
+  - mysqlnd.incompatibilities.md: « Несумісності
+  - mysqlnd.stats.md: Статистика »
+  - index.md: PHP Manual
+  - book.mysqlnd.md: Mysqlnd
 title: Постійне з'єднання
 ---
 # Постійне з'єднання

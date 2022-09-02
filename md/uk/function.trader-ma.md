@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-log10.html: « traderlog10
-  - function.trader-macd.html: tradermacd »
+  - function.trader-log10.md: « traderlog10
+  - function.trader-macd.md: tradermacd »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderма

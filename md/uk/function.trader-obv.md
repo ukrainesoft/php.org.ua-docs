@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-natr.html: « tradernatr
-  - function.trader-plus-di.html: traderplusdi »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-natr.md: « tradernatr
+  - function.trader-plus-di.md: traderplusdi »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderobv
 ---
 # traderobv

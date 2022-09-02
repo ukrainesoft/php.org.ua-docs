@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmantask.isrunning.html: '« GearmanTask::isRunning'
-  - gearmantask.recvdata.html: 'GearmanTask::recvData »'
-  - index.html: PHP Manual
-  - class.gearmantask.html: GearmanTask
+  - gearmantask.isrunning.md: '« GearmanTask::isRunning'
+  - gearmantask.recvdata.md: 'GearmanTask::recvData »'
+  - index.md: PHP Manual
+  - class.gearmantask.md: GearmanTask
 title: 'GearmanTask::jobHandle'
 ---
 # GearmanTask::jobHandle
@@ -32,4 +32,4 @@ public GearmanTask::jobHandle(): string
 
 ### Дивіться також
 
--   [GearmanClient::doJobHandle()](gearmanclient.dojobhandle.html) - Отримати дескриптор завдання, що виконується
+-   [GearmanClient::doJobHandle()](gearmanclient.dojobhandle.md) - Отримати дескриптор завдання, що виконується

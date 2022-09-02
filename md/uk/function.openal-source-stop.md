@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-source-set.html: « openalsourceset
-  - function.openal-stream.html: openalstream »
+  - function.openal-source-set.md: « openalsourceset
+  - function.openal-stream.md: openalstream »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalsourcestop

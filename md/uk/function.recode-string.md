@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.recode-file.html: « recodefile
-  - function.recode.html: recode »
-  - index.html: PHP Manual
-  - ref.recode.html: Функции Recode
+  - function.recode-file.md: « recodefile
+  - function.recode.md: recode »
+  - index.md: PHP Manual
+  - ref.recode.md: Функции Recode
 title: recodestring
 ---
 # recodestring
@@ -51,6 +51,6 @@ echo recode_string("us..flat", "The following character has a diacritical
 ### Дивіться також
 
 -   Докладніше про запити на перекодування читайте у документації, яка входить до дистрибутиву GNU Recode.
--   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
--   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
--   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбconvertencoding()](function.mb-convert-encoding.md) - Перетворює рядок з одного кодування символів на інший
+-   [UConverter::transcode()](uconverter.transcode.md) - Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

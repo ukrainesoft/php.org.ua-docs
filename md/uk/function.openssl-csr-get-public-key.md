@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-csr-export.html: « opensslcsrexport
-  - function.openssl-csr-get-subject.html: opensslcsrgetsubject »
+  - function.openssl-csr-export.md: « opensslcsrexport
+  - function.openssl-csr-get-subject.md: opensslcsrgetsubject »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslcsrgetpublickey

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - locale.lookup.html: '« Locale::lookup'
-  - locale.setdefault.html: 'Locale::setDefault »'
-  - index.html: PHP Manual
-  - class.locale.html: Locale
+  - locale.lookup.md: '« Locale::lookup'
+  - locale.setdefault.md: 'Locale::setDefault »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
 title: 'Locale::parseLocale'
 ---
 # Locale::parseLocale
@@ -78,4 +78,4 @@ language : sl , script : Latn , region : IT , variant0 : NEDIS ,
 
 ### Дивіться також
 
--   [localecompose()](locale.composelocale.html) - Повертає коректно відсортовані та розділені ідентифікатори локалі
+-   [localecompose()](locale.composelocale.md) - Повертає коректно відсортовані та розділені ідентифікатори локалі

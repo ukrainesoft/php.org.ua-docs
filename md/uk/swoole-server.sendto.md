@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.sendmessage.html: '« SwooleServer::sendMessage'
-  - swoole-server.sendwait.html: 'SwooleServer::sendwait »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - swoole-server.sendmessage.md: '« SwooleServer::sendMessage'
+  - swoole-server.sendwait.md: 'SwooleServer::sendwait »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::sendto'
 ---
 # SwooleServer::sendto

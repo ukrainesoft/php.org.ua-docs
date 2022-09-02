@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-free-result.html: « pgfreeresult
-  - function.pg-get-pid.html: пгgetpid »
+  - function.pg-free-result.md: « pgfreeresult
+  - function.pg-get-pid.md: пгgetpid »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгgetnotify

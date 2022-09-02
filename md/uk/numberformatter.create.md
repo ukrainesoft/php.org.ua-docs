@@ -44,7 +44,7 @@ public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$
 
 `style`
 
-Стиль форматування, одна з констант [стилю форматування](class.numberformatter.html#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`** або **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.html#details) або [» документации ICU RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.html#details)відповідно.
+Стиль форматування, одна з констант [стилю форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`** або **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details) або [» документации ICU RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details)відповідно.
 
 `pattern`
 

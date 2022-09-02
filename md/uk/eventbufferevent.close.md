@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.eventbufferevent.html: « EventBufferEvent
-  - eventbufferevent.connect.html: 'EventBufferEvent::connect »'
-  - index.html: PHP Manual
-  - class.eventbufferevent.html: EventBufferEvent
+  - class.eventbufferevent.md: « EventBufferEvent
+  - eventbufferevent.connect.md: 'EventBufferEvent::connect »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::close'
 ---
 # EventBufferEvent::close

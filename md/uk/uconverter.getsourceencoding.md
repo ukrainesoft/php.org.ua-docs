@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.geterrormessage.html: '« UConverter::getErrorMessage'
-  - uconverter.getsourcetype.html: 'UConverter::getSourceType »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.geterrormessage.md: '« UConverter::getErrorMessage'
+  - uconverter.getsourcetype.md: 'UConverter::getSourceType »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::getSourceEncoding'
 ---
 # UConverter::getSourceEncoding

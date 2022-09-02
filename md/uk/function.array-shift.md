@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-search.html: « arraysearch
-  - function.array-slice.html: arrayslice »
+  - function.array-search.md: « arraysearch
+  - function.array-slice.md: arrayslice »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayshift

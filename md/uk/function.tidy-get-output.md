@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.tidy-error-count.html: « tidyerrorcount
-  - function.tidy-warning-count.html: tidywarningcount »
+  - function.tidy-error-count.md: « tidyerrorcount
+  - function.tidy-warning-count.md: tidywarningcount »
   - index.md: PHP Manual
   - ref.tidy.md: Tidy
 title: tidygetoutput

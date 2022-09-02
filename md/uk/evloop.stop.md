@@ -28,7 +28,7 @@ public
 
 `how`
 
-Одна з *Ev::BREAK* [констант](class.ev.html#ev.constants.break-flags)
+Одна з *Ev::BREAK* [констант](class.ev.md#ev.constants.break-flags)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-set-block.html: « socketsetblock
-  - function.socket-set-option.html: socketsetoption »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-set-block.md: « socketsetblock
+  - function.socket-set-option.md: socketsetoption »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketsetnonblock
 ---
 # socketsetnonblock
@@ -26,7 +26,7 @@ socket_set_nonblock(Socket $socket): bool
 
 `socket`
 
-Екземпляр [Socket](class.socket.html), створений за допомогою функції [socketcreate()](function.socket-create.html) або [socketaccept()](function.socket-accept.html)
+Екземпляр [Socket](class.socket.md), створений за допомогою функції [socketcreate()](function.socket-create.md) або [socketaccept()](function.socket-accept.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ socket_set_nonblock(Socket $socket): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Приклади
 
@@ -51,10 +51,10 @@ socket_accept($socket);
 ?>
 ```
 
-Цей приклад створює сокет, що слухає, на всіх інтерфейсах на порту 1223 і встановлює сокет в режим **`O_NONBLOCK`**. . [socketaccept()](function.socket-accept.html) буде негайно повертати помилку, якщо тільки в цей момент немає очікуваного з'єднання.
+Цей приклад створює сокет, що слухає, на всіх інтерфейсах на порту 1223 і встановлює сокет в режим **`O_NONBLOCK`**. . [socketaccept()](function.socket-accept.md) буде негайно повертати помилку, якщо тільки в цей момент немає очікуваного з'єднання.
 
 ### Дивіться також
 
--   [socketsetblock()](function.socket-set-block.html) - Встановлює блокуючий режим на сокеті
--   [socketsetoption()](function.socket-set-option.html) - Встановлює опції для сокету
--   [streamsetblocking()](function.stream-set-blocking.html) - Встановити блокуючий/неблокуючий режим у потоці
+-   [socketsetblock()](function.socket-set-block.md) - Встановлює блокуючий режим на сокеті
+-   [socketsetoption()](function.socket-set-option.md) - Встановлює опції для сокету
+-   [streamsetblocking()](function.stream-set-blocking.md) - Встановити блокуючий/неблокуючий режим у потоці

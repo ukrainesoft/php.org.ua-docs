@@ -1,9 +1,9 @@
 ---
 navigation:
-  - json.requirements.html: « Вимоги
-  - json.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - json.setup.html: Встановлення та налаштування
+  - json.requirements.md: « Вимоги
+  - json.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - json.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

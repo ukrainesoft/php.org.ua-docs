@@ -1,9 +1,9 @@
 ---
 navigation:
-  - readline.installation.html: « Установка
-  - readline.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - readline.setup.html: Встановлення та налаштування
+  - readline.installation.md: « Установка
+  - readline.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - readline.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [cli.pager](readline.configuration.html#ini.cli.pager) | "" | PHPINIALL |  |
-| [cli.prompt](readline.configuration.html#ini.cli.prompt) | "в > " | PHPINIALL |  |
+| [cli.pager](readline.configuration.md#ini.cli.pager) | "" | PHPINIALL |  |
+| [cli.prompt](readline.configuration.md#ini.cli.prompt) | "в > " | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

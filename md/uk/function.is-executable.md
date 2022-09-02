@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-dir.html: « isdir
-  - function.is-file.html: ісfile »
+  - function.is-dir.md: « isdir
+  - function.is-file.md: ісfile »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: ісexecutable

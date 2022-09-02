@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.getschema.html: '« Session::getSchema'
-  - mysql-xdevapi-session.getserverversion.html: 'Session::getServerVersion »'
+  - mysql-xdevapi-session.getschema.md: '« Session::getSchema'
+  - mysql-xdevapi-session.getserverversion.md: 'Session::getServerVersion »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::getSchemas'
 ---
 # Session::getSchemas

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-db-info.html: « ibaseдбinfo
-  - function.ibase-drop-db.html: ibasedropdb »
+  - function.ibase-db-info.md: « ibaseдбinfo
+  - function.ibase-drop-db.md: ibasedropdb »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasedeleteuser

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.iterator-count.html: « iteratorcount
-  - function.spl-autoload-call.html: splautoloadcall »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - function.iterator-count.md: « iteratorcount
+  - function.spl-autoload-call.md: splautoloadcall »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: iteratorтоarray
 ---
 # iteratorтоarray

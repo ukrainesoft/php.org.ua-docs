@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.html: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited'
-  - mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.html: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost »'
+  - mongodb-driver-monitoring-serverheartbeatfailedevent.isawaited.md: '« MongoDBDriverMonitoringServerHeartbeatFailedEvent::isAwaited'
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost »'
   - index.md: PHP Manual
   - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Клас MongoDBDriverMonitoringServerHeartbeatStartedEvent
@@ -39,6 +39,6 @@ final public isAwaited(): bool
 
 ## Зміст
 
--   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.html) — Повертає ім'я сервера.
--   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.html) — Повертає порт, на якому прослуховується сервер
--   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.html) — Повертає, чи використовувався в heartbeat потоковий протокол
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md) — Повертає ім'я сервера.
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort](mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md) — Повертає порт, на якому прослуховується сервер
+-   [MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md) — Повертає, чи використовувався в heartbeat потоковий протокол

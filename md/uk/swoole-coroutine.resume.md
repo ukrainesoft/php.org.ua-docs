@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine.getuid.html: '« SwooleCoroutine::getuid'
-  - swoole-coroutine.suspend.html: 'SwooleCoroutine::suspend »'
+  - swoole-coroutine.getuid.md: '« SwooleCoroutine::getuid'
+  - swoole-coroutine.suspend.md: 'SwooleCoroutine::suspend »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutine::resume'
 ---
 # SwooleCoroutine::resume

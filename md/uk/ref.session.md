@@ -1,7 +1,7 @@
 ---
 navigation:
   - session.security.ini.md: « INI-налаштування безпеки сесій
-  - function.session-abort.html: sessionabort »
+  - function.session-abort.md: sessionabort »
   - index.md: PHP Manual
   - book.session.md: Сессии
 title: Функції для роботи із сесіями

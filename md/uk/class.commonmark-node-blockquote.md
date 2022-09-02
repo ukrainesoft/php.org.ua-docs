@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.commonmark-node-paragraph.html: « CommonMarkNodeParagraph
-  - class.commonmark-node-bulletlist.html: CommonMarkNodeBulletList »
+  - class.commonmark-node-paragraph.md: « CommonMarkNodeParagraph
+  - class.commonmark-node-bulletlist.md: CommonMarkNodeBulletList »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: BlockQuote успадковує CommonMarkNode

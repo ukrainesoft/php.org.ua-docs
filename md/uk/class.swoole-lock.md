@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-server.start.html: '« SwooleHttpServer::start'
-  - swoole-lock.construct.html: 'SwooleLock::construct »'
-  - index.html: PHP Manual
-  - book.swoole.html: Swoole
+  - swoole-http-server.start.md: '« SwooleHttpServer::start'
+  - swoole-lock.construct.md: 'SwooleLock::construct »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
 title: Клас SwooleLock
 ---
 # Клас SwooleLock
@@ -39,10 +39,10 @@ public unlock(): void
 
 ## Зміст
 
--   [SwooleLock::construct](swoole-lock.construct.html) — Створює блокування пам'яті
--   [SwooleLock::destruct](swoole-lock.destruct.html) — Знищує блокування пам'яті Swoole
--   [SwooleLock::lockread](swoole-lock.lock-read.html) — Блокує читання-запис блокування для читання
--   [SwooleLock::lock](swoole-lock.lock.html) — Намагається отримати блокування. Заблокується, якщо блокування недоступне
--   [SwooleLock::trylockread](swoole-lock.trylock-read.html) — Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
--   [SwooleLock::trylock](swoole-lock.trylock.html) — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
--   [SwooleLock::unlock](swoole-lock.unlock.html) - Знімає блокування
+-   [SwooleLock::construct](swoole-lock.construct.md) — Створює блокування пам'яті
+-   [SwooleLock::destruct](swoole-lock.destruct.md) — Знищує блокування пам'яті Swoole
+-   [SwooleLock::lockread](swoole-lock.lock-read.md) — Блокує читання-запис блокування для читання
+-   [SwooleLock::lock](swoole-lock.lock.md) — Намагається отримати блокування. Заблокується, якщо блокування недоступне
+-   [SwooleLock::trylockread](swoole-lock.trylock-read.md) — Намагається заблокувати блокування читання-запису для читання і відразу повертає, навіть якщо блокування недоступне
+-   [SwooleLock::trylock](swoole-lock.trylock.md) — Намагається отримати блокування і відразу повертає, навіть якщо блокування недоступне
+-   [SwooleLock::unlock](swoole-lock.unlock.md) - Знімає блокування

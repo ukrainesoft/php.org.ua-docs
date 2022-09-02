@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.pathmovetorelative.html: '« ImagickDraw::pathMoveToRelative'
-  - imagickdraw.point.html: 'ImagickDraw::point »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.pathmovetorelative.md: '« ImagickDraw::pathMoveToRelative'
+  - imagickdraw.point.md: 'ImagickDraw::point »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathStart'
 ---
 # ImagickDraw::pathStart

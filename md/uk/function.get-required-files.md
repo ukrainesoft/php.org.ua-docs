@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-magic-quotes-runtime.html: « getmagicquotesruntime
-  - function.get-resources.html: getresources »
+  - function.get-magic-quotes-runtime.md: « getmagicquotesruntime
+  - function.get-resources.md: getresources »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getrequiredfiles

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xdiff.installation.html: « Установка
-  - xdiff.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - xdiff.setup.html: Встановлення та налаштування
+  - xdiff.installation.md: « Установка
+  - xdiff.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - xdiff.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

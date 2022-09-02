@@ -1,9 +1,9 @@
 ---
 navigation:
-  - limititerator.seek.html: '« LimitIterator::seek'
-  - class.multipleiterator.html: MultipleIterator »
-  - index.html: PHP Manual
-  - class.limititerator.html: LimitIterator
+  - limititerator.seek.md: '« LimitIterator::seek'
+  - class.multipleiterator.md: MultipleIterator »
+  - index.md: PHP Manual
+  - class.limititerator.md: LimitIterator
 title: 'LimitIterator::valid'
 ---
 # LimitIterator::valid
@@ -30,8 +30,8 @@ public LimitIterator::valid(): bool
 
 ### Дивіться також
 
--   [LimitIterator::current()](limititerator.current.html) - Отримання поточного елемента
--   [LimitIterator::key()](limititerator.key.html) - Отримання поточного ключа
--   [LimitIterator::rewind()](limititerator.rewind.html) - Переміщує покажчик на початкову позицію
--   [LimitIterator::next()](limititerator.next.html) - Переміщення до наступної позиції
--   [LimitIterator::seek()](limititerator.seek.html) - переміщує ітератор на задану позицію
+-   [LimitIterator::current()](limititerator.current.md) - Отримання поточного елемента
+-   [LimitIterator::key()](limititerator.key.md) - Отримання поточного ключа
+-   [LimitIterator::rewind()](limititerator.rewind.md) - Переміщує покажчик на початкову позицію
+-   [LimitIterator::next()](limititerator.next.md) - Переміщення до наступної позиції
+-   [LimitIterator::seek()](limititerator.seek.md) - переміщує ітератор на задану позицію

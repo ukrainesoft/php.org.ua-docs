@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dcngettext.html: « dcngettext
-  - function.dngettext.html: dngettext »
-  - index.html: PHP Manual
-  - ref.gettext.html: Функции gettext
+  - function.dcngettext.md: « dcngettext
+  - function.dngettext.md: dngettext »
+  - index.md: PHP Manual
+  - ref.gettext.md: Функции gettext
 title: dgettext
 ---
 # dgettext
@@ -36,4 +36,4 @@ dgettext(string $domain, string $message): string
 
 ### Дивіться також
 
--   [gettext()](function.gettext.html) - Шукає повідомлення у поточному домені
+-   [gettext()](function.gettext.md) - Шукає повідомлення у поточному домені

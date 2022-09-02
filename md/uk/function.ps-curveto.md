@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-continue-text.html: «pscontinuetext
-  - function.ps-delete.html: псdelete »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-continue-text.md: «pscontinuetext
+  - function.ps-delete.md: псdelete »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псcurveto
 ---
 # псcurveto
@@ -24,7 +24,7 @@ ps_curveto(    resource $psdoc,    float $x1,    float $y1,    f
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `x1`
 
@@ -56,4 +56,4 @@ ps_curveto(    resource $psdoc,    float $x1,    float $y1,    f
 
 ### Дивіться також
 
--   [псlineto()](function.ps-lineto.html) - Малює лінію
+-   [псlineto()](function.ps-lineto.md) - Малює лінію

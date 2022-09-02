@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evperiodic.construct.html: '« EvPeriodic::construct'
-  - evperiodic.set.html: 'EvPeriodic::set »'
-  - index.html: PHP Manual
-  - class.evperiodic.html: EvPeriodic
+  - evperiodic.construct.md: '« EvPeriodic::construct'
+  - evperiodic.set.md: 'EvPeriodic::set »'
+  - index.md: PHP Manual
+  - class.evperiodic.md: EvPeriodic
 title: 'EvPeriodic::createStopped'
 ---
 # EvPeriodic::createStopped
@@ -67,7 +67,7 @@ final
 
 `priority`
 
-[Пріоритет спостерігачів](class.ev.html#ev.constants.watcher-pri)
+[Пріоритет спостерігачів](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 

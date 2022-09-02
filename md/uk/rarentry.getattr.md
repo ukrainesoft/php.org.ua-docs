@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rarentry.extract.html: '« RarEntry::extract'
-  - rarentry.getcrc.html: 'RarEntry::getCrc »'
-  - index.html: PHP Manual
-  - class.rarentry.html: RarEntry
+  - rarentry.extract.md: '« RarEntry::extract'
+  - rarentry.getcrc.md: 'RarEntry::getCrc »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
 title: 'RarEntry::getAttr'
 ---
 # RarEntry::getAttr

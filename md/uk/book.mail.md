@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.imap-connection.html: « IMAPConnection
+  - class.imap-connection.md: « IMAPConnection
   - intro.mail.md: Введение »
   - index.md: PHP Manual
   - refs.remote.mail.md: Модулі для роботи з поштою

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.filegroup.html: « filegroup
-  - function.filemtime.html: filemtime »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.filegroup.md: « filegroup
+  - function.filemtime.md: filemtime »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: fileinode
 ---
 # fileinode
@@ -49,13 +49,13 @@ if (getmyinode() == fileinode($filename)) {
 
 ### Примітки
 
-> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.html)
+> **Зауваження**: Результати цієї функції кешуються Більш детальну інформацію дивіться у розділі [clearstatcache()](function.clearstatcache.md)
 
 **Підказка**
 
-Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.html), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.html)
+Починаючи з PHP 5.0.0, ця функція також може бути використана з *деякими* обгортками url. Список обгорток, що підтримуються сімейством функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 
--   [getmyinode()](function.getmyinode.html) - Отримує значення inode поточного скрипту
--   [stat()](function.stat.html) - Повертає інформацію про файл
+-   [getmyinode()](function.getmyinode.md) - Отримує значення inode поточного скрипту
+-   [stat()](function.stat.md) - Повертає інформацію про файл

@@ -1,7 +1,7 @@
 ---
 navigation:
   - yar.examples.md: « Приклади
-  - yar-server.construct.html: 'YarServer::construct »'
+  - yar-server.construct.md: 'YarServer::construct »'
   - index.md: PHP Manual
   - book.yar.md: Yar
 title: Клас YarServer

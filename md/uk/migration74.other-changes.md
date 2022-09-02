@@ -1,7 +1,7 @@
 ---
 navigation:
-  - migration74.removed-extensions.html: « Видалені модулі
-  - migration74.windows-support.html: Поддержка Windows »
+  - migration74.removed-extensions.md: « Видалені модулі
+  - migration74.windows-support.md: Поддержка Windows »
   - index.md: PHP Manual
   - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
 title: Інші зміни
@@ -20,9 +20,9 @@ title: Інші зміни
 
 ### Зміни обробки INI-файлів
 
-[zend.exceptionignoreargs](ini.core.html#ini.zend.exception-ignore-args) - нова INI-директива для включення або виключення аргументів з трасування стека, отриманих у винятках.
+[zend.exceptionignoreargs](ini.core.md#ini.zend.exception-ignore-args) - нова INI-директива для включення або виключення аргументів з трасування стека, отриманих у винятках.
 
-[opcache.preloaduser](opcache.configuration.html#ini.opcache.preload-user) - нова INI-директива для встановлення користувача, з-під якого має виконуватися код попереднього завантаження, інакше це буде root (не допускається з міркувань безпеки).
+[opcache.preloaduser](opcache.configuration.md#ini.opcache.preload-user) - нова INI-директива для встановлення користувача, з-під якого має виконуватися код попереднього завантаження, інакше це буде root (не допускається з міркувань безпеки).
 
 ### Міграція на pkg-config
 
@@ -126,11 +126,11 @@ title: Інші зміни
 
 ### OPcache
 
-Конфігураційні опції **\-disable-opcache-file** і **\-enable-opcache-file** видалені на користь використання INI-директиви [opcache.filecache](opcache.configuration.html#ini.opcache.file-cache)
+Конфігураційні опції **\-disable-opcache-file** і **\-enable-opcache-file** видалені на користь використання INI-директиви [opcache.filecache](opcache.configuration.md#ini.opcache.file-cache)
 
 ### Хешування паролів
 
-Функції [passwordhash()](function.password-hash.html) і [passwordneedsrehash()](function.password-needs-rehash.md) тепер приймають рядок, що обнулюється, (string) і ціле число (int) в аргументі `$algo`
+Функції [passwordhash()](function.password-hash.md) і [passwordneedsrehash()](function.password-needs-rehash.md) тепер приймають рядок, що обнулюється, (string) і ціле число (int) в аргументі `$algo`
 
 ### PEAR
 

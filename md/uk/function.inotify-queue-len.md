@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.inotify-init.html: « inotifyinit
-  - function.inotify-read.html: inotifyread »
-  - index.html: PHP Manual
-  - ref.inotify.html: Функции Inotify
+  - function.inotify-init.md: « inotifyinit
+  - function.inotify-read.md: inotifyread »
+  - index.md: PHP Manual
+  - ref.inotify.md: Функции Inotify
 title: inotifyqueuelen
 ---
 # inotifyqueuelen
@@ -18,7 +18,7 @@ inotifyqueuelen — Повертає кількість очікуваних п�
 inotify_queue_len(resource $inotify_instance): int
 ```
 
-Функція дозволяє зрозуміти, чи заблокує [inotifyread()](function.inotify-read.html) виконання чи ні. Якщо повернене число більше нуля, то в черзі є повідомлення та [inotifyread()](function.inotify-read.md) не заблокує виконання скрипту.
+Функція дозволяє зрозуміти, чи заблокує [inotifyread()](function.inotify-read.md) виконання чи ні. Якщо повернене число більше нуля, то в черзі є повідомлення та [inotifyread()](function.inotify-read.md) не заблокує виконання скрипту.
 
 ### Список параметрів
 

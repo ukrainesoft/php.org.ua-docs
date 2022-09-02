@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.win32-set-service-status.html: « win32setservicestatus
-  - function.win32-start-service.html: win32startservice »
+  - function.win32-set-service-status.md: « win32setservicestatus
+  - function.win32-start-service.md: win32startservice »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
 title: win32startservicectrldispatcher
@@ -20,7 +20,7 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 При запуску за допомогою диспетчера служб, процесу служби необхідно звірятися з ним для моніторингу служби та зв'язку з нею. Ця функція виконує звіряння за допомогою створення потоку обробки низькорівневого зв'язку з диспетчером служб.
 
-Після запуску процес служби має здійснити дві дії. Перше – повідомити диспетчеру служб, що службу запущено. Це здійснюється шляхом виклику [win32setservicestatus()](function.win32-set-service-status.html) з константою **`WIN32_SERVICE_RUNNING`**. Якщо вам необхідно виконати тривалий процес перед запуском служби, то ви можете використовувати константу **`WIN32_SERVICE_START_PENDING`**. Друге – продовжити звірку з диспетчером служб, щоб визначити необхідність відключення. Це здійснюється за допомогою періодичного виклику [win32getlastcontrolmessage()](function.win32-get-last-control-message.md) та обробки коду повернення відповідним чином.
+Після запуску процес служби має здійснити дві дії. Перше – повідомити диспетчеру служб, що службу запущено. Це здійснюється шляхом виклику [win32setservicestatus()](function.win32-set-service-status.md) з константою **`WIN32_SERVICE_RUNNING`**. Якщо вам необхідно виконати тривалий процес перед запуском служби, то ви можете використовувати константу **`WIN32_SERVICE_START_PENDING`**. Друге – продовжити звірку з диспетчером служб, щоб визначити необхідність відключення. Це здійснюється за допомогою періодичного виклику [win32getlastcontrolmessage()](function.win32-get-last-control-message.md) та обробки коду повернення відповідним чином.
 
 **Застереження**
 
@@ -54,7 +54,7 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 | --- | --- |
 | PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 1.0.0 | Тип значення, що повертається void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed) |
 | PECL win32service 0.4.0 | Доданий параметр `gracefulMode` |
 | PECL win32service 0.2.0 | Ця функція працює тільки з `"cli"` SAPI. |
 

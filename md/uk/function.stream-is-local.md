@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-get-wrappers.html: « streamgetwrappers
-  - function.stream-isatty.html: streamisatty »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-get-wrappers.md: « streamgetwrappers
+  - function.stream-isatty.md: streamisatty »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamісlocal
 ---
 # streamісlocal

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rparser.consume.html: '« ParleRParser::consume'
-  - parle-rparser.errorinfo.html: 'ParleRParser::errorInfo »'
-  - index.html: PHP Manual
-  - class.parle-rparser.html: ParleRParser
+  - parle-rparser.consume.md: '« ParleRParser::consume'
+  - parle-rparser.errorinfo.md: 'ParleRParser::errorInfo »'
+  - index.md: PHP Manual
+  - class.parle-rparser.md: ParleRParser
 title: 'ParleRParser::dump'
 ---
 # ParleRParser::dump

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getreply.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getReply'
-  - mongodb-driver-monitoring-commandsucceededevent.getserver.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getServer »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+  - mongodb-driver-monitoring-commandsucceededevent.getreply.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getReply'
+  - mongodb-driver-monitoring-commandsucceededevent.getserver.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getServer »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
 title: 'MongoDBDriverMonitoringCommandSucceededEvent::getRequestId'
 ---
 # MongoDBDriverMonitoringCommandSucceededEvent::getRequestId
@@ -18,7 +18,7 @@ MongoDBDriverMonitoringCommandSucceededEvent::getRequestId — Повертає 
 final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getRequestId(): string
 ```
 
-Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.html) з попереднім [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)
+Ідентифікатор запиту генерується драйвером і може бути використаний для зв'язування [MongoDBDriverMonitoringCommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md) з попереднім [MongoDBDriverMonitoringCommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)
 
 ### Список параметрів
 

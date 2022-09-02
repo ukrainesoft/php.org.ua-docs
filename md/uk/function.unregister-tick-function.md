@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.register-tick-function.html: « registertickfunction
+  - function.register-tick-function.md: « registertickfunction
   - book.quickhash.md: Quickhash »
   - index.md: PHP Manual
   - ref.funchand.md: Функции управления функциями

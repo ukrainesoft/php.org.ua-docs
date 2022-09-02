@@ -1,9 +1,9 @@
 ---
 navigation:
-  - fileinfo.resources.html: « Типи ресурсів
-  - ref.fileinfo.html: Функции модуля Fileinfo »
-  - index.html: PHP Manual
-  - book.fileinfo.html: FileInfo
+  - fileinfo.resources.md: « Типи ресурсів
+  - ref.fileinfo.md: Функции модуля Fileinfo »
+  - index.md: PHP Manual
+  - book.fileinfo.md: FileInfo
 title: Обумовлені константи
 ---
 # Обумовлені константи

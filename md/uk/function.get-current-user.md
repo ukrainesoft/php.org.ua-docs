@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-cfg-var.html: « getcfgvar
-  - function.get-defined-constants.html: getdefinedconstants »
+  - function.get-cfg-var.md: « getcfgvar
+  - function.get-defined-constants.md: getdefinedconstants »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getcurrentuser

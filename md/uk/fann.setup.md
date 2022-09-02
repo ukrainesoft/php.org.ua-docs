@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.fann.html: « Введение
-  - fann.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.fann.html: FANN
+  - intro.fann.md: « Введение
+  - fann.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.fann.md: FANN
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

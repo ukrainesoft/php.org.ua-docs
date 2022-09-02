@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-cascade-min-out-epochs.html: « fanngetcascademinoutepochs
-  - function.fann-get-cascade-num-candidates.html: fanngetcascadenumcandidates »
+  - function.fann-get-cascade-min-out-epochs.md: « fanngetcascademinoutepochs
+  - function.fann-get-cascade-num-candidates.md: fanngetcascadenumcandidates »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetcascadenumcandidategroups

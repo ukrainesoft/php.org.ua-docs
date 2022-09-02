@@ -105,7 +105,7 @@ name
 
 type
 
-Тип тега (одна з [констант](tidy.constants.html#tidy.constants.nodetype), описаних вище, наприклад **`TIDY_NODETYPE_PHP`**
+Тип тега (одна з [констант](tidy.constants.md#tidy.constants.nodetype), описаних вище, наприклад **`TIDY_NODETYPE_PHP`**
 
 line
 
@@ -121,7 +121,7 @@ proprietary
 
 ід
 
-Ідентифікатор тега (одна з [констант](tidy.constants.html#tidy.constants.tag), описаних вище, наприклад **`TIDY_TAG_FRAME`**
+Ідентифікатор тега (одна з [констант](tidy.constants.md#tidy.constants.tag), описаних вище, наприклад **`TIDY_TAG_FRAME`**
 
 attribute
 

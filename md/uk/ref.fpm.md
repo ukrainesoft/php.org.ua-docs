@@ -1,7 +1,7 @@
 ---
 navigation:
   - fpm.status.md: « Сторінка стану
-  - function.fastcgi-finish-request.html: fastcgifinishrequest »
+  - function.fastcgi-finish-request.md: fastcgifinishrequest »
   - index.md: PHP Manual
   - book.fpm.md: Менеджер процесів FastCGI
 title: Функції FPM

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.inflate-add.html: « inflateadd
-  - function.inflate-get-status.html: inflategetstatus »
+  - function.inflate-add.md: « inflateadd
+  - function.inflate-get-status.md: inflategetstatus »
   - index.md: PHP Manual
   - ref.zlib.md: Функции Zlib
 title: inflategetreadlen

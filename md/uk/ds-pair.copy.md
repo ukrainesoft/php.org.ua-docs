@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-pair.construct.html: '« DsPair::construct'
-  - ds-pair.isempty.html: 'ДсPair::isEmpty »'
+  - ds-pair.construct.md: '« DsPair::construct'
+  - ds-pair.isempty.md: 'ДсPair::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-pair.html: Пара
+  - class.ds-pair.md: Пара
 title: 'ДсPair::copy'
 ---
 # ДсPair::copy

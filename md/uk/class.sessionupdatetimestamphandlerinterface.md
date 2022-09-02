@@ -1,6 +1,6 @@
 ---
 navigation:
-  - sessionidinterface.create-sid.html: '« SessionIdInterface::createsid'
+  - sessionidinterface.create-sid.md: '« SessionIdInterface::createsid'
   - sessionupdatetimestamphandlerinterface.updatetimestamp.md: 'SessionUpdateTimestampHandlerInterface::updateTimestamp »'
   - index.md: PHP Manual
   - book.session.md: Сессии

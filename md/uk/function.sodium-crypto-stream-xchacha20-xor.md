@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-stream-xchacha20-keygen.html: « sodiumcryptostreamxchacha20keygen
-  - function.sodium-crypto-stream-xchacha20.html: sodiumcryptostreamxchacha20 »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-stream-xchacha20-keygen.md: « sodiumcryptostreamxchacha20keygen
+  - function.sodium-crypto-stream-xchacha20.md: sodiumcryptostreamxchacha20 »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptostreamxchacha20xor
 ---
 # sodiumcryptostreamxchacha20xor
@@ -22,7 +22,7 @@ sodium_crypto_stream_xchacha20_xor(string $message, string $nonce, string $key):
 
 **Застереження**
 
-Це шифрування не автентифікується і не запобігає атакам з вибраним зашифрованим текстом. Обов'язково об'єднайте зашифрований текст із кодом автентифікації повідомлення (Message Authentication Code), наприклад, за допомогою функції [sodiumcryptoaeadxchacha20poly1305ietfencrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.html) або [sodiumcryptoauth()](function.sodium-crypto-auth.md)
+Це шифрування не автентифікується і не запобігає атакам з вибраним зашифрованим текстом. Обов'язково об'єднайте зашифрований текст із кодом автентифікації повідомлення (Message Authentication Code), наприклад, за допомогою функції [sodiumcryptoaeadxchacha20poly1305ietfencrypt()](function.sodium-crypto-aead-xchacha20poly1305-ietf-encrypt.md) або [sodiumcryptoauth()](function.sodium-crypto-auth.md)
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domnode.isdefaultnamespace.html: '« DOMNode::isDefaultNamespace'
-  - domnode.issupported.html: 'DOMNode::isSupported »'
-  - index.html: PHP Manual
-  - class.domnode.html: DOMNode
+  - domnode.isdefaultnamespace.md: '« DOMNode::isDefaultNamespace'
+  - domnode.issupported.md: 'DOMNode::isSupported »'
+  - index.md: PHP Manual
+  - class.domnode.md: DOMNode
 title: 'DOMNode::isSameNode'
 ---
 # DOMNode::isSameNode

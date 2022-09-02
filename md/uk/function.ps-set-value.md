@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-set-text-pos.html: «pssettextpos
-  - function.ps-setcolor.html: псsetcolor »
+  - function.ps-set-text-pos.md: «pssettextpos
+  - function.ps-setcolor.md: псsetcolor »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetvalue

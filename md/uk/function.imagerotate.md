@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imageresolution.html: « imageresolution
-  - function.imagesavealpha.html: imagesavealpha »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imageresolution.md: « imageresolution
+  - function.imagesavealpha.md: imagesavealpha »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagerotate
 ---
 # imagerotate
@@ -26,7 +26,7 @@ imagerotate(    GdImage $image,    float $angle,    int $background_
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `angle`
 
@@ -48,8 +48,8 @@ imagerotate(    GdImage $image,    float $angle,    int $background_
 
 | Версия | Описание |
 | --- | --- |
-|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.html); раніше повертався ресурс (resource). |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | У разі успішного виконання функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 |  | Невикористовуваний `v` тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int). |
 
 ### Приклади
@@ -90,8 +90,8 @@ imagedestroy($rotate);
 
 > **Зауваження**
 > 
-> Ця функція піддається впливу методу інтерполяції, встановленим функцією [imagesetinterpolation()](function.imagesetinterpolation.html)
+> Ця функція піддається впливу методу інтерполяції, встановленим функцією [imagesetinterpolation()](function.imagesetinterpolation.md)
 
 ### Дивіться також
 
--   [imagesetinterpolation()](function.imagesetinterpolation.html) - встановлює метод інтерполяції
+-   [imagesetinterpolation()](function.imagesetinterpolation.md) - встановлює метод інтерполяції

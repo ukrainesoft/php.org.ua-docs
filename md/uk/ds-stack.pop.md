@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.peek.html: '« DsStack::peek'
-  - ds-stack.push.html: 'ДсStack::push »'
-  - index.html: PHP Manual
-  - class.ds-stack.html: Стек
+  - ds-stack.peek.md: '« DsStack::peek'
+  - ds-stack.push.md: 'ДсStack::push »'
+  - index.md: PHP Manual
+  - class.ds-stack.md: Стек
 title: 'ДсStack::pop'
 ---
 # ДсStack::pop

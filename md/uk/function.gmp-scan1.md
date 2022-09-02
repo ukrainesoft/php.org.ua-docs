@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-scan0.html: « gmpscan0
-  - function.gmp-setbit.html: gmpsetbit »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-scan0.md: « gmpscan0
+  - function.gmp-setbit.md: gmpsetbit »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpscan1
 ---
 # gmpscan1
@@ -26,7 +26,7 @@ gmp_scan1(GMP|int|string $num1, int $start): int
 
 Число, що сканується.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `start`
 

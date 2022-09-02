@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-search.html: « ldapsearch
-  - function.ldap-set-rebind-proc.html: ldapsetrebindproc »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-search.md: « ldapsearch
+  - function.ldap-set-rebind-proc.md: ldapsetrebindproc »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapsetoption
 ---
 # ldapsetoption
@@ -24,7 +24,7 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 `ldap`
 
-Або екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md) для встановлення опції для цього з'єднання, або **`null`** для встановлення опції глобально.
+Або екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md) для встановлення опції для цього з'єднання, або **`null`** для встановлення опції глобально.
 
 `option`
 
@@ -75,7 +75,7 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

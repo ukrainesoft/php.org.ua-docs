@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dbase-add-record.html: « dbaseaddrecord
-  - function.dbase-create.html: dbasecreate »
-  - index.html: PHP Manual
-  - ref.dbase.html: dBase
+  - function.dbase-add-record.md: « dbaseaddrecord
+  - function.dbase-create.md: dbasecreate »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
 title: dbaseclose
 ---
 # dbaseclose
@@ -24,7 +24,7 @@ dbase_close(resource $database): bool
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 

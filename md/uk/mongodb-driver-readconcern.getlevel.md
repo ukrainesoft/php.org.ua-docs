@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readconcern.construct.html: '« MongoDBDriverReadConcern::construct'
-  - mongodb-driver-readconcern.isdefault.html: 'MongoDBDriverReadConcern::isDefault »'
+  - mongodb-driver-readconcern.construct.md: '« MongoDBDriverReadConcern::construct'
+  - mongodb-driver-readconcern.isdefault.md: 'MongoDBDriverReadConcern::isDefault »'
   - index.md: PHP Manual
-  - class.mongodb-driver-readconcern.html: MongoDBDriverReadConcern
+  - class.mongodb-driver-readconcern.md: MongoDBDriverReadConcern
 title: 'MongoDBDriverReadConcern::getLevel'
 ---
 # MongoDBDriverReadConcern::getLevel

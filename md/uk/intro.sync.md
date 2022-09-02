@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.sync.html: « Sync
-  - sync.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.sync.html: Sync
+  - book.sync.md: « Sync
+  - sync.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.sync.md: Sync
 title: Вступ
 ---
 # Вступ

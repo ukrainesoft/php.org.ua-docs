@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-pconnect.html: « fbirdpconnect
-  - function.fbird-query.html: fbirdquery »
+  - function.fbird-pconnect.md: « fbirdpconnect
+  - function.fbird-query.md: fbirdquery »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdprepare

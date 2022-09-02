@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-simple.readonly.html: '« YafConfigSimple::readonly'
-  - yaf-config-simple.set.html: 'YafConfigSimple::set »'
-  - index.html: PHP Manual
-  - class.yaf-config-simple.html: YafConfigSimple
+  - yaf-config-simple.readonly.md: '« YafConfigSimple::readonly'
+  - yaf-config-simple.set.md: 'YafConfigSimple::set »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.md: YafConfigSimple
 title: 'YafConfigSimple::rewind'
 ---
 # YafConfigSimple::rewind

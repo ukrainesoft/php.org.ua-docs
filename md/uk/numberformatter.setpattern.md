@@ -1,9 +1,9 @@
 ---
 navigation:
-  - numberformatter.setattribute.html: '« NumberFormatter::setAttribute'
-  - numberformatter.setsymbol.html: 'NumberFormatter::setSymbol »'
-  - index.html: PHP Manual
-  - class.numberformatter.html: NumberFormatter
+  - numberformatter.setattribute.md: '« NumberFormatter::setAttribute'
+  - numberformatter.setsymbol.md: 'NumberFormatter::setSymbol »'
+  - index.md: PHP Manual
+  - class.numberformatter.md: NumberFormatter
 title: 'NumberFormatter::setPattern'
 ---
 # NumberFormatter::setPattern
@@ -38,7 +38,7 @@ numfmt_set_pattern(NumberFormatter $formatter, string $pattern): bool
 
 `pattern`
 
-Шаблон у синтаксисі, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.html#details)
+Шаблон у синтаксисі, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
 
 ### Значення, що повертаються
 

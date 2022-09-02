@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.url.md: « Функції URL
-  - function.base64-encode.html: base64encode »
+  - function.base64-encode.md: base64encode »
   - index.md: PHP Manual
   - ref.url.md: Функції URL
 title: base64decode

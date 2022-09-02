@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-executable.html: « isexecutable
-  - function.is-link.html: ісlink »
+  - function.is-executable.md: « isexecutable
+  - function.is-link.md: ісlink »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: ісfile

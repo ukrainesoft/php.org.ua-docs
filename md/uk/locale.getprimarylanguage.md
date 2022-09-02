@@ -1,9 +1,9 @@
 ---
 navigation:
-  - locale.getkeywords.html: '« Locale::getKeywords'
-  - locale.getregion.html: 'Locale::getRegion »'
-  - index.html: PHP Manual
-  - class.locale.html: Locale
+  - locale.getkeywords.md: '« Locale::getKeywords'
+  - locale.getregion.md: 'Locale::getRegion »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
 title: 'Locale::getPrimaryLanguage'
 ---
 # Locale::getPrimaryLanguage

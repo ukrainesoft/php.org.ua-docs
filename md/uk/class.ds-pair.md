@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ds-map.xor.html: '« DsMap::xor'
-  - ds-pair.clear.html: 'ДсPair::clear »'
+  - ds-map.xor.md: '« DsMap::xor'
+  - ds-pair.clear.md: 'ДсPair::clear »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Клас Pair

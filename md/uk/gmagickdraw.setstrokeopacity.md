@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.setstrokecolor.html: '« GmagickDraw::setstrokecolor'
-  - gmagickdraw.setstrokewidth.html: 'GmagickDraw::setstrokewidth »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.setstrokecolor.md: '« GmagickDraw::setstrokecolor'
+  - gmagickdraw.setstrokewidth.md: 'GmagickDraw::setstrokewidth »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::setstrokeopacity'
 ---
 # GmagickDraw::setstrokeopacity
@@ -28,4 +28,4 @@ public GmagickDraw::setstrokeopacity(float $stroke_opacity): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [GmagickDraw](class.gmagickdraw.html)
+Об'єкт [GmagickDraw](class.gmagickdraw.md)

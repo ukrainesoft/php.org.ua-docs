@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domdocumentfragment.appendxml.html: '« DOMDocumentFragment::appendXML'
-  - class.domdocumenttype.html: DOMDocumentType »
-  - index.html: PHP Manual
-  - class.domdocumentfragment.html: DOMDocumentFragment
+  - domdocumentfragment.appendxml.md: '« DOMDocumentFragment::appendXML'
+  - class.domdocumenttype.md: DOMDocumentType »
+  - index.md: PHP Manual
+  - class.domdocumentfragment.md: DOMDocumentFragment
 title: 'DOMDocumentFragment::construct'
 ---
 # DOMDocumentFragment::construct

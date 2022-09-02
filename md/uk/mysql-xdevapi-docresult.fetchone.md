@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-docresult.fetchall.html: '« DocResult::fetchAll'
-  - mysql-xdevapi-docresult.getwarnings.html: 'DocResult::getWarnings »'
+  - mysql-xdevapi-docresult.fetchall.md: '« DocResult::fetchAll'
+  - mysql-xdevapi-docresult.getwarnings.md: 'DocResult::getWarnings »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult
 title: 'DocResult::fetchOne'
 ---
 # DocResult::fetchOne

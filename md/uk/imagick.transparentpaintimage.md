@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.transformimagecolorspace.html: '« Imagick::transformImageColorspace'
-  - imagick.transposeimage.html: 'Imagick::transposeImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.transformimagecolorspace.md: '« Imagick::transformImageColorspace'
+  - imagick.transposeimage.md: 'Imagick::transposeImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::transparentPaintImage'
 ---
 # Imagick::transparentPaintImage

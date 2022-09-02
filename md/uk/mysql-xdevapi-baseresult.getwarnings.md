@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-baseresult.html: « mysqlxdevapiBaseResult
-  - mysql-xdevapi-baseresult.getwarningscount.html: 'BaseResult::getWarningsCount »'
+  - class.mysql-xdevapi-baseresult.md: « mysqlxdevapiBaseResult
+  - mysql-xdevapi-baseresult.getwarningscount.md: 'BaseResult::getWarningsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-baseresult.html: mysqlxdevapiBaseResult
+  - class.mysql-xdevapi-baseresult.md: mysqlxdevapiBaseResult
 title: 'BaseResult::getWarnings'
 ---
 # BaseResult::getWarnings

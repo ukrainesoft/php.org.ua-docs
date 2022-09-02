@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.rrd-xport.html: « rrdxport
+  - function.rrd-xport.md: « rrdxport
   - class.rrdcreator.md: RRDCreator »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD

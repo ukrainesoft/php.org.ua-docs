@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-diff-uassoc.html: « arraydiffuassoc
-  - function.array-diff.html: arraydiff »
+  - function.array-diff-uassoc.md: « arraydiffuassoc
+  - function.array-diff.md: arraydiff »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arraydiffukey

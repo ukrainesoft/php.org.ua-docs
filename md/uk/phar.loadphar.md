@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.iswritable.html: '« Phar::isWritable'
-  - phar.mapphar.html: 'Phar::mapPhar »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.iswritable.md: '« Phar::isWritable'
+  - phar.mapphar.md: 'Phar::mapPhar »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::loadPhar'
 ---
 # Phar::loadPhar
@@ -28,7 +28,7 @@ final public static Phar::loadPhar(string $filename, ?string $alias = null): boo
 
 `alias`
 
-Псевдонім для доступу до архіву. Зверніть увагу, що багато phar-архівів мають свій явно заданий псевдонім і, при заданні нового псевдоніма, буде викинуто виняток [PharException](class.pharexception.html)
+Псевдонім для доступу до архіву. Зверніть увагу, що багато phar-архівів мають свій явно заданий псевдонім і, при заданні нового псевдоніма, буде викинуто виняток [PharException](class.pharexception.md)
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ final public static Phar::loadPhar(string $filename, ?string $alias = null): boo
 
 ### Помилки
 
-Якщо заданий параметр із псевдонімом, а архів, що завантажується, вже має псевдонім, то буде викинуто виняток [PharException](class.pharexception.html)
+Якщо заданий параметр із псевдонімом, а архів, що завантажується, вже має псевдонім, то буде викинуто виняток [PharException](class.pharexception.md)
 
 ### Приклади
 
@@ -57,4 +57,4 @@ try {
 
 ### Дивіться також
 
--   [Phar::mapPhar()](phar.mapphar.html) - Прочитати поточний запущений phar-архів та зареєструвати його маніфест
+-   [Phar::mapPhar()](phar.mapphar.md) - Прочитати поточний запущений phar-архів та зареєструвати його маніфест

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-get-unstable-period.html: « tradergetunstableperiod
-  - function.trader-ht-dcphase.html: traderхтdcphase »
+  - function.trader-get-unstable-period.md: « tradergetunstableperiod
+  - function.trader-ht-dcphase.md: traderхтdcphase »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderхтdcperiod

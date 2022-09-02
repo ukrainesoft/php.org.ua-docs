@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mqseries-put.html: « mqseriesput
-  - function.mqseries-strerror.html: mqseriesstrerror »
+  - function.mqseries-put.md: « mqseriesput
+  - function.mqseries-strerror.md: mqseriesstrerror »
   - index.md: PHP Manual
   - ref.mqseries.md: Функции mqseries
 title: mqseriesset

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - throwable.tostring.html: '« Throwable::toString'
-  - arrayaccess.offsetexists.html: 'ArrayAccess::offsetExists »'
-  - index.html: PHP Manual
-  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+  - throwable.tostring.md: '« Throwable::toString'
+  - arrayaccess.offsetexists.md: 'ArrayAccess::offsetExists »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс ArrayAccess
 ---
 # Інтерфейс ArrayAccess
@@ -110,7 +110,7 @@ obj Object
 
 ## Зміст
 
--   [ArrayAccess::offsetExists](arrayaccess.offsetexists.html) - Визначає, чи існує задане зміщення (ключ)
--   [ArrayAccess::offsetGet](arrayaccess.offsetget.html) — Повертає задане усунення (ключ)
--   [ArrayAccess::offsetSet](arrayaccess.offsetset.html) — Надає значення заданому зміщенню
--   [ArrayAccess::offsetUnset](arrayaccess.offsetunset.html) - Видаляє зміщення
+-   [ArrayAccess::offsetExists](arrayaccess.offsetexists.md) - Визначає, чи існує задане зміщення (ключ)
+-   [ArrayAccess::offsetGet](arrayaccess.offsetget.md) — Повертає задане усунення (ключ)
+-   [ArrayAccess::offsetSet](arrayaccess.offsetset.md) — Надає значення заданому зміщенню
+-   [ArrayAccess::offsetUnset](arrayaccess.offsetunset.md) - Видаляє зміщення

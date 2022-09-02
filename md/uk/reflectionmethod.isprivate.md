@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionmethod.isfinal.html: '« ReflectionMethod::isFinal'
-  - reflectionmethod.isprotected.html: 'ReflectionMethod::isProtected »'
-  - index.html: PHP Manual
-  - class.reflectionmethod.html: ReflectionMethod
+  - reflectionmethod.isfinal.md: '« ReflectionMethod::isFinal'
+  - reflectionmethod.isprotected.md: 'ReflectionMethod::isProtected »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isPrivate'
 ---
 # ReflectionMethod::isPrivate
@@ -30,4 +30,4 @@ public ReflectionMethod::isPrivate(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::isPublic()](reflectionmethod.ispublic.html) - Перевіряє, чи є метод загальнодоступним
+-   [ReflectionMethod::isPublic()](reflectionmethod.ispublic.md) - Перевіряє, чи є метод загальнодоступним

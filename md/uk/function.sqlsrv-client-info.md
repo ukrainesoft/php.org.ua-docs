@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sqlsrv-cancel.html: « sqlsrvcancel
-  - function.sqlsrv-close.html: sqlsrvclose »
-  - index.html: PHP Manual
-  - ref.sqlsrv.html: Функції SQLSRV
+  - function.sqlsrv-cancel.md: « sqlsrvcancel
+  - function.sqlsrv-close.md: sqlsrvclose »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvclientinfo
 ---
 # sqlsrvclientinfo
@@ -65,4 +65,4 @@ if( $client_info = sqlsrv_client_info( $conn)) {
 
 ### Дивіться також
 
--   [sqlsrvserverinfo()](function.sqlsrv-server-info.html) - Повертає інформацію про сервер
+-   [sqlsrvserverinfo()](function.sqlsrv-server-info.md) - Повертає інформацію про сервер

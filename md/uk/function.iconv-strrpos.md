@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.iconv-strpos.html: « iconvstrpos
-  - function.iconv-substr.html: iconvsubstr »
-  - index.html: PHP Manual
-  - ref.iconv.html: Функции iconv
+  - function.iconv-strpos.md: « iconvstrpos
+  - function.iconv-substr.md: iconvsubstr »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
 title: iconvstrrpos
 ---
 # iconvstrrpos
@@ -46,7 +46,7 @@ iconv_strrpos(string $haystack, string $needle, ?string $encoding = null): int|f
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 

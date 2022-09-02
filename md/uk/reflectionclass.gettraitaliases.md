@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.getstaticpropertyvalue.html: '« ReflectionClass::getStaticPropertyValue'
-  - reflectionclass.gettraitnames.html: 'ReflectionClass::getTraitNames »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.getstaticpropertyvalue.md: '« ReflectionClass::getStaticPropertyValue'
+  - reflectionclass.gettraitnames.md: 'ReflectionClass::getTraitNames »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getTraitAliases'
 ---
 # ReflectionClass::getTraitAliases

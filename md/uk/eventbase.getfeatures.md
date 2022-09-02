@@ -27,7 +27,7 @@ public
 
 ### Значення, що повертаються
 
-Повертає бітову маску функцій, що підтримуються. Дивіться константи [EventConfig::FEATURE](class.eventconfig.html#eventconfig.constants)
+Повертає бітову маску функцій, що підтримуються. Дивіться константи [EventConfig::FEATURE](class.eventconfig.md#eventconfig.constants)
 
 ### Приклади
 

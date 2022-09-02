@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.addtasklowbackground.html: '« GearmanClient::addTaskLowBackground'
-  - gearmanclient.clearcallbacks.html: 'GearmanClient::clearCallbacks »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.addtasklowbackground.md: '« GearmanClient::addTaskLowBackground'
+  - gearmanclient.clearcallbacks.md: 'GearmanClient::clearCallbacks »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::addTaskStatus'
 ---
 # GearmanClient::addTaskStatus

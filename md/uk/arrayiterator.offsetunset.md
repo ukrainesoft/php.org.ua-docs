@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayiterator.offsetset.html: '« ArrayIterator::offsetSet'
-  - arrayiterator.rewind.html: 'ArrayIterator::rewind »'
-  - index.html: PHP Manual
-  - class.arrayiterator.html: ArrayIterator
+  - arrayiterator.offsetset.md: '« ArrayIterator::offsetSet'
+  - arrayiterator.rewind.md: 'ArrayIterator::rewind »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::offsetUnset'
 ---
 # ArrayIterator::offsetUnset
@@ -20,7 +20,7 @@ public ArrayIterator::offsetUnset(mixed $key): void
 
 Скидає значення зі зміщення.
 
-Якщо ітерація виконується та **ArrayIterator::offsetUnset()** використовується для скидання поточного індексу ітерації, позиція ітерації буде зміщена до наступного індексу. Оскільки позиція ітерації також зміщується наприкінці [foreach](control-structures.foreach.html) у тілі циклу, використання **ArrayIterator::offsetUnset()** всередині циклу [`foreach`](control-structures.foreach.md) може призвести до пропуску індексів.
+Якщо ітерація виконується та **ArrayIterator::offsetUnset()** використовується для скидання поточного індексу ітерації, позиція ітерації буде зміщена до наступного індексу. Оскільки позиція ітерації також зміщується наприкінці [foreach](control-structures.foreach.md) у тілі циклу, використання **ArrayIterator::offsetUnset()** всередині циклу [`foreach`](control-structures.foreach.md) може призвести до пропуску індексів.
 
 ### Список параметрів
 

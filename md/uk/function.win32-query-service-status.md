@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.win32-pause-service.html: « win32pauseservice
-  - function.win32-send-custom-control.html: win32sendcustomcontrol »
-  - index.html: PHP Manual
-  - ref.win32service.html: win32service
+  - function.win32-pause-service.md: « win32pauseservice
+  - function.win32-send-custom-control.md: win32sendcustomcontrol »
+  - index.md: PHP Manual
+  - ref.win32service.md: win32service
 title: win32queryservicestatus
 ---
 # win32queryservicestatus
@@ -34,27 +34,27 @@ win32_query_service_status(string $servicename, string $machine = ?): array
 
 Повертає масив, що складається з наступної інформації у разі успішного виконання:
 
-До версії 1.0.0 **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.html) при невдалому завершенні роботи.
+До версії 1.0.0 **`false`** якщо була виявлена ​​проблема з параметрами або [код ошибки Win32](win32service.constants.errors.md) при невдалому завершенні роботи.
 
 `ServiceType`
 
-dwServiceType. Дивіться [Побутові маски типів служби Win32Service](win32service.constants.servicetype.html)
+dwServiceType. Дивіться [Побутові маски типів служби Win32Service](win32service.constants.servicetype.md)
 
 `CurrentState`
 
-dwCurrentState. Дивіться [Константи стану служби Win32Service](win32service.constants.servicestatus.html)
+dwCurrentState. Дивіться [Константи стану служби Win32Service](win32service.constants.servicestatus.md)
 
 `ControlsAccepted`
 
-Які елементи керування службами приймаються службою. Дивіться [Побутові маски Win32Service Service Control Message Accepted](win32service.constants.controlsaccepted.html)
+Які елементи керування службами приймаються службою. Дивіться [Побутові маски Win32Service Service Control Message Accepted](win32service.constants.controlsaccepted.md)
 
 `Win32ExitCode`
 
-Якщо служба завершила роботу, тут з'являється код повернення з процесу. Це значення дорівнює \*\*`WIN32_ERROR_SERVICE_SPECIFIC_ERROR`\*\*якщо режим виходу не є плавним. Дивіться [коди помилок Win32Service](win32service.constants.errors.html) і [win32setserviceexitmode()](function.win32-set-service-exit-mode.html)
+Якщо служба завершила роботу, тут з'являється код повернення з процесу. Це значення дорівнює \*\*`WIN32_ERROR_SERVICE_SPECIFIC_ERROR`\*\*якщо режим виходу не є плавним. Дивіться [коди помилок Win32Service](win32service.constants.errors.md) і [win32setserviceexitmode()](function.win32-set-service-exit-mode.md)
 
 `ServiceSpecificExitCode`
 
-Якщо служба завершила роботу, тут відображається код конкретної служби, зареєстрований у журналі подій. Це значення дорівнює значенню, визначеному [win32setserviceexitcode()](function.win32-set-service-exit-code.html)
+Якщо служба завершила роботу, тут відображається код конкретної служби, зареєстрований у журналі подій. Це значення дорівнює значенню, визначеному [win32setserviceexitcode()](function.win32-set-service-exit-code.md)
 
 `CheckPoint`
 
@@ -70,20 +70,20 @@ dwCurrentState. Дивіться [Константи стану служби Win
 
 `ServiceFlags`
 
-dwServiceFlags. Дивіться [Константи прапорів служби Win32Service](win32service.constants.serviceflag.html)
+dwServiceFlags. Дивіться [Константи прапорів служби Win32Service](win32service.constants.serviceflag.md)
 
 ### Помилки
 
-Викидається [ValueError](class.valueerror.html), якщо значення параметра `servicename` не вказано.
+Викидається [ValueError](class.valueerror.md), якщо значення параметра `servicename` не вказано.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.html) у разі невірних даних у параметрах раніше поверталося **`false`** |
-| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.html) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.html) |
-| PECL win32service 1.0.0 | Тип повернення тепер array, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах раніше поверталося **`false`** |
+| PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
+| PECL win32service 1.0.0 | Тип повернення тепер array, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed) |
 
 ### Дивіться також
 
--   [Обумовлені константи Win32Service](win32service.constants.html)
+-   [Обумовлені константи Win32Service](win32service.constants.md)

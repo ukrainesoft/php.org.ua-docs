@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-lstat.html: « eiolstat
-  - function.eio-mknod.html: eiomknod »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-lstat.md: « eiolstat
+  - function.eio-mknod.md: eiomknod »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiomkdir
 ---
 # eiomkdir

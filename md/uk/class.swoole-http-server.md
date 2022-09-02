@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-http-response.write.html: '« SwooleHttpResponse::write'
-  - swoole-http-server.on.html: 'SwooleHttpServer::on »'
+  - swoole-http-response.write.md: '« SwooleHttpResponse::write'
+  - swoole-http-server.on.md: 'SwooleHttpServer::on »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleHttpServer

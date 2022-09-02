@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-first-attribute.html: « ldapfirstattribute
-  - function.ldap-first-reference.html: ldapfirstreference »
+  - function.ldap-first-attribute.md: « ldapfirstattribute
+  - function.ldap-first-reference.md: ldapfirstreference »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapfirstentry
@@ -26,11 +26,11 @@ ldap_first_entry(LDAP\Connection $ldap, LDAP\Result $result): LDAP\ResultEntry|f
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 ### Значення, що повертаються
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.parse-url.html: « parseurl
-  - function.rawurlencode.html: rawurlencode »
-  - index.html: PHP Manual
-  - ref.url.html: Функції URL
+  - function.parse-url.md: « parseurl
+  - function.rawurlencode.md: rawurlencode »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
 title: rawurldecode
 ---
 # rawurldecode
@@ -46,11 +46,11 @@ echo rawurldecode('foo%20bar%40baz'); // foo bar@baz
 
 > **Зауваження**
 > 
-> **rawurldecode()** не декодує символ додавання ('+') у пробіли. Це робить [urldecode()](function.urldecode.html)
+> **rawurldecode()** не декодує символ додавання ('+') у пробіли. Це робить [urldecode()](function.urldecode.md)
 
 ### Дивіться також
 
--   [rawurlencode()](function.rawurlencode.html) - URL-кодування рядка згідно з RFC 3986
--   [urldecode()](function.urldecode.html) - Декодування URL-кодованого рядка
--   [urlencode()](function.urlencode.html) - URL-кодування рядка
+-   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
+-   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
+-   [urlencode()](function.urlencode.md) - URL-кодування рядка
 -   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

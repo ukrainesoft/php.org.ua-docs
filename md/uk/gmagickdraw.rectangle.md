@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.polyline.html: '« GmagickDraw::polyline'
-  - gmagickdraw.rotate.html: 'GmagickDraw::rotate »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.polyline.md: '« GmagickDraw::polyline'
+  - gmagickdraw.rotate.md: 'GmagickDraw::rotate »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::rectangle'
 ---
 # GmagickDraw::rectangle
@@ -40,4 +40,4 @@ public GmagickDraw::rectangle(    float $x1,    float $y1,    float 
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

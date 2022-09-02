@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.parse-str.html: « parsestr
+  - function.parse-str.md: « parsestr
   - function.printf.md: printf »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
@@ -28,7 +28,7 @@ print(string $expression): int
 
 `expression`
 
-Вираз для виведення. Нестрокові значення будуть перетворені на рядки, навіть якщо [включена директива`strict_types`](language.types.declarations.html#language.types.declarations.strict)
+Вираз для виведення. Нестрокові значення будуть перетворені на рядки, навіть якщо [включена директива`strict_types`](language.types.declarations.md#language.types.declarations.strict)
 
 ### Значення, що повертаються
 
@@ -129,7 +129,7 @@ if ( print "привет" ) {
 > ?>
 > ```
 
-> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.html#functions.named-arguments)
+> **Зауваження**: Оскільки це мовна конструкція, а не функція, вона не може викликатися за допомогою [змінних функцій](functions.variable-functions.md) або [іменованих аргументів](functions.arguments.md#functions.named-arguments)
 
 ### Дивіться також
 

@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [trader.realprecision](trader.configuration.html#ini.trader.real-precision) |  | PHPINIALL | З версії trader 0.2.1 |
-| [trader.realroundmode](trader.configuration.html#ini.trader.real-round-mode) | HALFDOWN | PHPINIALL | З версії trader 0.3.0 |
+| [trader.realprecision](trader.configuration.md#ini.trader.real-precision) |  | PHPINIALL | З версії trader 0.2.1 |
+| [trader.realroundmode](trader.configuration.md#ini.trader.real-round-mode) | HALFDOWN | PHPINIALL | З версії trader 0.3.0 |
 
 Коротке пояснення конфігураційних директив.
 

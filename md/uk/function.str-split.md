@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.str-shuffle.html: « strshuffle
-  - function.str-starts-with.html: strstartswith »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.str-shuffle.md: « strshuffle
+  - function.str-starts-with.md: strstartswith »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strsplit
 ---
 # strsplit
@@ -36,13 +36,13 @@ str_split(string $string, int $length = 1): array
 
 ### Помилки
 
-Якщо параметр `length` менше `1`, буде викинута помилка [ValueError](class.valueerror.html)
+Якщо параметр `length` менше `1`, буде викинута помилка [ValueError](class.valueerror.md)
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Тепер якщо параметр `length` менше `1`, буде викинута помилка [ValueError](class.valueerror.html); раніше, натомість видавалася помилка рівня **`E_WARNING`**, а функція повертала **`false`** |
+|  | Тепер якщо параметр `length` менше `1`, буде викинута помилка [ValueError](class.valueerror.md); раніше, натомість видавалася помилка рівня **`E_WARNING`**, а функція повертала **`false`** |
 
 ### Приклади
 
@@ -94,14 +94,14 @@ Array
 
 > **Зауваження**
 > 
-> Функція **strsplit()** здійснює розбивку за байтами, а не за символами, у разі використання рядків у багатобайтних кодуваннях. Використовуйте функцію [мбstrsplit()](function.mb-str-split.html), щоб розбити рядок кодових точок.
+> Функція **strsplit()** здійснює розбивку за байтами, а не за символами, у разі використання рядків у багатобайтних кодуваннях. Використовуйте функцію [мбstrsplit()](function.mb-str-split.md), щоб розбити рядок кодових точок.
 
 ### Дивіться також
 
--   [мбstrsplit()](function.mb-str-split.html) - Якщо заданий багатобайтовий рядок повертає масив символів
--   [chunksplit()](function.chunk-split.html) - Розбиває рядок на фрагменти
--   [pregsplit()](function.preg-split.html) - Розбиває рядок за регулярним виразом
--   [explode()](function.explode.html) - Розбиває рядок за допомогою роздільника
--   [countchars()](function.count-chars.html) - Повертає інформацію про символи, що входять до рядка
--   [strwordcount()](function.str-word-count.html) - Повертає інформацію про слова, що входять до рядка
--   [for](control-structures.for.html)
+-   [мбstrsplit()](function.mb-str-split.md) - Якщо заданий багатобайтовий рядок повертає масив символів
+-   [chunksplit()](function.chunk-split.md) - Розбиває рядок на фрагменти
+-   [pregsplit()](function.preg-split.md) - Розбиває рядок за регулярним виразом
+-   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
+-   [countchars()](function.count-chars.md) - Повертає інформацію про символи, що входять до рядка
+-   [strwordcount()](function.str-word-count.md) - Повертає інформацію про слова, що входять до рядка
+-   [for](control-structures.for.md)

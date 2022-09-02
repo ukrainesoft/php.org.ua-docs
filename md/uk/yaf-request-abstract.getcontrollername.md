@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getbaseuri.html: '« YafRequestAbstract::getBaseUri'
-  - yaf-request-abstract.getenv.html: 'YafRequestAbstract::getEnv »'
-  - index.html: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - yaf-request-abstract.getbaseuri.md: '« YafRequestAbstract::getBaseUri'
+  - yaf-request-abstract.getenv.md: 'YafRequestAbstract::getEnv »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getControllerName'
 ---
 # YafRequestAbstract::getControllerName

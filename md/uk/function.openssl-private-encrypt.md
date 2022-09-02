@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-private-decrypt.html: « opensslprivatedecrypt
-  - function.openssl-public-decrypt.html: opensslpublicdecrypt »
+  - function.openssl-private-decrypt.md: « opensslprivatedecrypt
+  - function.openssl-public-decrypt.md: opensslpublicdecrypt »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslprivateencrypt

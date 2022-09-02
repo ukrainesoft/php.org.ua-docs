@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-getcwd.html: « posixgetcwd
-  - function.posix-geteuid.html: posixgeteuid »
+  - function.posix-getcwd.md: « posixgetcwd
+  - function.posix-geteuid.md: posixgeteuid »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixgetegid
@@ -45,7 +45,7 @@ echo 'My effective group id is '.posix_getegid(); //40
 
 ### Примітки
 
-**posixgetegid()** відрізняється від [posixgetgid()](function.posix-getgid.html) тому, що ефективний ідентифікатор групи може бути змінений викликаним процесом, використовуючи [posixsetegid()](function.posix-setegid.md)
+**posixgetegid()** відрізняється від [posixgetgid()](function.posix-getgid.md) тому, що ефективний ідентифікатор групи може бути змінений викликаним процесом, використовуючи [posixsetegid()](function.posix-setegid.md)
 
 ### Дивіться також
 

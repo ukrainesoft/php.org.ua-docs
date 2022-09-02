@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.readline.html: « Введение
-  - readline.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.readline.html: Readline
+  - intro.readline.md: « Введение
+  - readline.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.readline.md: Readline
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](readline.requirements.html)
--   [Установка](readline.installation.html)
--   [Налаштування під час виконання](readline.configuration.html)
--   [Типи ресурсів](readline.resources.html)
+-   [Вимоги](readline.requirements.md)
+-   [Установка](readline.installation.md)
+-   [Налаштування під час виконання](readline.configuration.md)
+-   [Типи ресурсів](readline.resources.md)

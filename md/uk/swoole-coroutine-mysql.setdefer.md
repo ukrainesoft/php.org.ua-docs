@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-mysql.recv.html: '« SwooleCoroutineMySQL::recv'
-  - swoole-coroutine.getuid.html: 'SwooleCoroutine::getuid »'
+  - swoole-coroutine-mysql.recv.md: '« SwooleCoroutineMySQL::recv'
+  - swoole-coroutine.getuid.md: 'SwooleCoroutine::getuid »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineMySQL::setDefer'
 ---
 # SwooleCoroutineMySQL::setDefer

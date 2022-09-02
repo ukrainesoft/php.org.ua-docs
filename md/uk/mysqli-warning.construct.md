@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysqli-warning.html: « mysqliwarning
-  - mysqli-warning.next.html: 'mysqliwarning::next »'
-  - index.html: PHP Manual
-  - class.mysqli-warning.html: mysqliwarning
+  - class.mysqli-warning.md: « mysqliwarning
+  - mysqli-warning.next.md: 'mysqliwarning::next »'
+  - index.md: PHP Manual
+  - class.mysqli-warning.md: mysqliwarning
 title: 'mysqliwarning::construct'
 ---
 # mysqliwarning::construct

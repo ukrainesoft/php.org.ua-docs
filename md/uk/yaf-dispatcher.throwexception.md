@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.setview.html: '« YafDispatcher::setView'
-  - class.yaf-config-abstract.html: YafConfigAbstract »
+  - yaf-dispatcher.setview.md: '« YafDispatcher::setView'
+  - class.yaf-config-abstract.md: YafConfigAbstract »
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::throwException'
 ---
 # YafDispatcher::throwException
@@ -20,7 +20,7 @@ public Yaf_Dispatcher::throwException(bool $flag = ?): Yaf_Dispatcher
 
 Вмикає/вимикає викидання винятків у разі виникнення непередбаченої помилки. Коли увімкнено, Yaf буде викидати винятки замість того, щоб викликати помилки, які можна відловити.
 
-Ви також можете використовувати [application.dispatcher.throwException](yaf.appconfig.html#configuration.yaf.dispatcher.throwexception), щоб досягти тієї ж мети.
+Ви також можете використовувати [application.dispatcher.throwException](yaf.appconfig.md#configuration.yaf.dispatcher.throwexception), щоб досягти тієї ж мети.
 
 ### Список параметрів
 

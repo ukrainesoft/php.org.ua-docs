@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.construct.html: '« DsSet::construct'
-  - ds-set.copy.html: 'ДсSet::copy »'
+  - ds-set.construct.md: '« DsSet::construct'
+  - ds-set.copy.md: 'ДсSet::copy »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::contains'
 ---
 # ДсSet::contains

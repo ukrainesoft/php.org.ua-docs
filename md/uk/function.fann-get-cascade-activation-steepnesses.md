@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-cascade-activation-steepnesses-count.html: « fanngetcascadeactivationsteepnessescount
-  - function.fann-get-cascade-candidate-change-fraction.html: fanngetcascadecandidatechangefraction »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-cascade-activation-steepnesses-count.md: « fanngetcascadeactivationsteepnessescount
+  - function.fann-get-cascade-candidate-change-fraction.md: fanngetcascadecandidatechangefraction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetcascadeactivationsteepnesses
 ---
 # fanngetcascadeactivationsteepnesses
@@ -20,7 +20,7 @@ fann_get_cascade_activation_steepnesses(resource $ann): array
 
 Масив крутості каскадної активації – це масив різних функцій активації, які використовуються кандидатами.
 
-Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.html) для опису того, які кандидатні нейрони генеруватимуться цим масивом.
+Дивіться [fanngetcascadenumcandidates()](function.fann-get-cascade-num-candidates.md) для опису того, які кандидатні нейрони генеруватимуться цим масивом.
 
 Крутизна активації за промовчанням: {0,25, 0,50, 0,75, 1,00}.
 
@@ -36,5 +36,5 @@ fann_get_cascade_activation_steepnesses(resource $ann): array
 
 ### Дивіться також
 
--   [fanngetcascadeactivationsteepnessescount()](function.fann-get-cascade-activation-steepnesses-count.html) - Кількість крутості активації
--   [fannsetcascadeactivationsteepnesses()](function.fann-set-cascade-activation-steepnesses.html) - Встановлює масив крутості включення кандидатів у каскад
+-   [fanngetcascadeactivationsteepnessescount()](function.fann-get-cascade-activation-steepnesses-count.md) - Кількість крутості активації
+-   [fannsetcascadeactivationsteepnesses()](function.fann-set-cascade-activation-steepnesses.md) - Встановлює масив крутості включення кандидатів у каскад

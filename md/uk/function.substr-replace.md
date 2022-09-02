@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.substr-count.html: « substrcount
-  - function.substr.html: substr »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.substr-count.md: « substrcount
+  - function.substr.md: substr »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: substrreplace
 ---
 # substrreplace
@@ -110,6 +110,6 @@ A: AAAXX; B: BBBX; C: CCC
 
 ### Дивіться також
 
--   [strreplace()](function.str-replace.html) - Замінює всі входження рядка пошуку на рядок заміни
--   [substr()](function.substr.html) - Повертає підрядок
--   [Доступ к символу в строке и его изменение](language.types.string.html#language.types.string.substr)
+-   [strreplace()](function.str-replace.md) - Замінює всі входження рядка пошуку на рядок заміни
+-   [substr()](function.substr.md) - Повертає підрядок
+-   [Доступ к символу в строке и его изменение](language.types.string.md#language.types.string.substr)

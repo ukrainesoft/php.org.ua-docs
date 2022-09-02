@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-rprop-decrease-factor.html: « fannsetrpropdecreasefactor
-  - function.fann-set-rprop-delta-min.html: fannsetrpropdeltamin »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-rprop-decrease-factor.md: « fannsetrpropdecreasefactor
+  - function.fann-set-rprop-delta-min.md: fannsetrpropdeltamin »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetrpropdeltamax
 ---
 # fannsetrpropdeltamax

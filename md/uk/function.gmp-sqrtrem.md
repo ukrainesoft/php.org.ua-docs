@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-sqrt.html: « gmpsqrt
-  - function.gmp-strval.html: gmpstrval »
+  - function.gmp-sqrt.md: « gmpsqrt
+  - function.gmp-strval.md: gmpstrval »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpsqrtrem

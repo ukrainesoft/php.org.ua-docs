@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-prepare.html: « fbirdprepare
-  - function.fbird-restore.html: fbirdrestore »
+  - function.fbird-prepare.md: « fbirdprepare
+  - function.fbird-restore.md: fbirdrestore »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdquery

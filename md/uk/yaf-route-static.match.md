@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-static.assemble.html: '« YafRouteStatic::assemble'
-  - yaf-route-static.route.html: 'YafRouteStatic::route »'
+  - yaf-route-static.assemble.md: '« YafRouteStatic::assemble'
+  - yaf-route-static.route.md: 'YafRouteStatic::route »'
   - index.md: PHP Manual
-  - class.yaf-route-static.html: YafRouteStatic
+  - class.yaf-route-static.md: YafRouteStatic
 title: 'YafRouteStatic::match'
 ---
 # YafRouteStatic::match

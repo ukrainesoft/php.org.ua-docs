@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.spl-autoload-unregister.html: « splautoloadunregister
-  - function.spl-classes.html: splclasses »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - function.spl-autoload-unregister.md: « splautoloadunregister
+  - function.spl-classes.md: splclasses »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: splautoload
 ---
 # splautoload
@@ -18,7 +18,7 @@ splautoload — Реалізація за замовчуванням метод�
 spl_autoload(string $class, ?string $file_extensions = null): void
 ```
 
-Ця функція являє собою базову реалізацію методу [autoload()](function.autoload.html). Якщо вона не вказана та [splautoloadregister()](function.spl-autoload-register.html) викликається без будь-яких параметрів, то при кожному наступному виклику [autoload()](function.autoload.html) використовуватиметься саме ця функція.
+Ця функція являє собою базову реалізацію методу [autoload()](function.autoload.md). Якщо вона не вказана та [splautoloadregister()](function.spl-autoload-register.md) викликається без будь-яких параметрів, то при кожному наступному виклику [autoload()](function.autoload.md) використовуватиметься саме ця функція.
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ spl_autoload(string $class, ?string $file_extensions = null): void
 
 ### Помилки
 
-Викликає виняток [LogicException](class.logicexception.html), якщо клас не знайдено та відсутні інші зареєстровані автозавантажувачі.
+Викликає виняток [LogicException](class.logicexception.md), якщо клас не знайдено та відсутні інші зареєстровані автозавантажувачі.
 
 ### список змін
 

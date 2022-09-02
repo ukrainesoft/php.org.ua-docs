@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.dbase.html: « Введение
-  - dbase.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.dbase.html: dBase
+  - intro.dbase.md: « Введение
+  - dbase.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.dbase.md: dBase
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](dbase.requirements.html)
--   [Установка](dbase.installation.html)
--   [Налаштування під час виконання](dbase.configuration.html)
--   [Типи ресурсів](dbase.resources.html)
+-   [Вимоги](dbase.requirements.md)
+-   [Установка](dbase.installation.md)
+-   [Налаштування під час виконання](dbase.configuration.md)
+-   [Типи ресурсів](dbase.resources.md)

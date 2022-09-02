@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.autoload.html: autoload
-  - function.class-exists.html: classexists »
-  - index.html: PHP Manual
-  - ref.classobj.html: Функції роботи з класами та об'єктами
+  - function.autoload.md: autoload
+  - function.class-exists.md: classexists »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
 title: classalias
 ---
 # classalias
@@ -80,5 +80,5 @@ bool(true)
 
 ### Дивіться також
 
--   [getparentclass()](function.get-parent-class.html) - Повертає ім'я батьківського класу для об'єкта чи класу
--   [ісsubclassof()](function.is-subclass-of.html) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його
+-   [getparentclass()](function.get-parent-class.md) - Повертає ім'я батьківського класу для об'єкта чи класу
+-   [ісsubclassof()](function.is-subclass-of.md) - Перевіряє, чи містить об'єкт у своєму дереві предків зазначений клас чи прямо реалізує його

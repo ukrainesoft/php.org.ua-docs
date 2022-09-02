@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.gettraitaliases.html: '« ReflectionClass::getTraitAliases'
-  - reflectionclass.gettraits.html: 'ReflectionClass::getTraits »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.gettraitaliases.md: '« ReflectionClass::getTraitAliases'
+  - reflectionclass.gettraits.md: 'ReflectionClass::getTraits »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getTraitNames'
 ---
 # ReflectionClass::getTraitNames

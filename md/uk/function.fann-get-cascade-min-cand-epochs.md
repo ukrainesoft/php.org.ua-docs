@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-cascade-max-out-epochs.html: « fanngetcascademaxoutepochs
-  - function.fann-get-cascade-min-out-epochs.html: fanngetcascademinoutepochs »
+  - function.fann-get-cascade-max-out-epochs.md: « fanngetcascademaxoutepochs
+  - function.fann-get-cascade-min-out-epochs.md: fanngetcascademinoutepochs »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetcascademincandepochs

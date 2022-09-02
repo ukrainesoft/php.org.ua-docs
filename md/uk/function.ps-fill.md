@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-fill-stroke.html: «psfillstroke
-  - function.ps-findfont.html: псfindfont »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-fill-stroke.md: «psfillstroke
+  - function.ps-findfont.md: псfindfont »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псfill
 ---
 # псfill

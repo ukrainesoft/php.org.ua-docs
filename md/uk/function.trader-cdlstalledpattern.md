@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlspinningtop.html: « tradercdlspinningtop
-  - function.trader-cdlsticksandwich.html: tradercdlsticksandwich »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlspinningtop.md: « tradercdlspinningtop
+  - function.trader-cdlsticksandwich.md: tradercdlsticksandwich »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlstalledpattern
 ---
 # tradercdlstalledpattern

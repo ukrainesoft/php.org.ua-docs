@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.password.md: « Функції хешування паролів
-  - function.password-get-info.html: passwordgetinfo »
+  - function.password-get-info.md: passwordgetinfo »
   - index.md: PHP Manual
   - ref.password.md: Функції хешування паролів
 title: passwordalgos

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzdecode.html: « gzdecode
-  - function.gzencode.html: gzencode »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzdecode.md: « gzdecode
+  - function.gzencode.md: gzencode »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzdeflate
 ---
 # gzdeflate

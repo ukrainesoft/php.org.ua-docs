@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.halt-compiler.html: haltcompiler
-  - function.highlight-string.html: highlightstring »
+  - function.halt-compiler.md: haltcompiler
+  - function.highlight-string.md: highlightstring »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: highlightfile
@@ -51,4 +51,4 @@ AddType application/x-httpd-php-source .phps
 ### Дивіться також
 
 -   [highlightstring()](function.highlight-string.md) - Підсвічування синтаксису рядка
--   [Подсвечивание директив INI](misc.configuration.html#ini.syntax-highlighting)
+-   [Подсвечивание директив INI](misc.configuration.md#ini.syntax-highlighting)

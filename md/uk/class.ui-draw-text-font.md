@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-layout.setwidth.html: '« UIDrawTextLayout::setWidth'
-  - ui-draw-text-font.construct.html: 'ОЙDrawTextFont::construct »'
-  - index.html: PHP Manual
-  - book.ui.html: ОЙ
+  - ui-draw-text-layout.setwidth.md: '« UIDrawTextLayout::setWidth'
+  - ui-draw-text-font.construct.md: 'ОЙDrawTextFont::construct »'
+  - index.md: PHP Manual
+  - book.ui.md: ОЙ
 title: Подає шрифт
 ---
 # Подає шрифт
@@ -45,9 +45,9 @@ public getUnderlineThickness(): float
 
 ## Зміст
 
--   [ОЙDrawTextFont::construct](ui-draw-text-font.construct.html) — Створити новий об'єкт Font
--   [ОЙDrawTextFont::getAscent](ui-draw-text-font.getascent.html) — Показники шрифту
--   [ОЙDrawTextFont::getDescent](ui-draw-text-font.getdescent.html) — Показники шрифту
--   [ОЙDrawTextFont::getLeading](ui-draw-text-font.getleading.html) — Показники шрифту
--   [ОЙDrawTextFont::getUnderlinePosition](ui-draw-text-font.getunderlineposition.html) — Показники шрифту
--   [ОЙDrawTextFont::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.html) — Показники шрифту
+-   [ОЙDrawTextFont::construct](ui-draw-text-font.construct.md) — Створити новий об'єкт Font
+-   [ОЙDrawTextFont::getAscent](ui-draw-text-font.getascent.md) — Показники шрифту
+-   [ОЙDrawTextFont::getDescent](ui-draw-text-font.getdescent.md) — Показники шрифту
+-   [ОЙDrawTextFont::getLeading](ui-draw-text-font.getleading.md) — Показники шрифту
+-   [ОЙDrawTextFont::getUnderlinePosition](ui-draw-text-font.getunderlineposition.md) — Показники шрифту
+-   [ОЙDrawTextFont::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.md) — Показники шрифту

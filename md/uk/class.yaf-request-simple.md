@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-http.isxmlhttprequest.html: '« YafRequestHttp::isXmlHttpRequest'
-  - yaf-request-simple.construct.html: 'YafRequestSimple::construct »'
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf-request-http.isxmlhttprequest.md: '« YafRequestHttp::isXmlHttpRequest'
+  - yaf-request-simple.construct.md: 'YafRequestSimple::construct »'
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafRequestSimple
 ---
 # Клас YafRequestSimple

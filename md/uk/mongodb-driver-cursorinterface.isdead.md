@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursorinterface.getserver.html: '« MongoDBDriverCursorInterface::getServer'
-  - mongodb-driver-cursorinterface.settypemap.html: 'MongoDBDriverCursorInterface::setTypeMap »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface
+  - mongodb-driver-cursorinterface.getserver.md: '« MongoDBDriverCursorInterface::getServer'
+  - mongodb-driver-cursorinterface.settypemap.md: 'MongoDBDriverCursorInterface::setTypeMap »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-cursorinterface.md: MongoDBDriverCursorInterface
 title: 'MongoDBDriverCursorInterface::isDead'
 ---
 # MongoDBDriverCursorInterface::isDead
@@ -37,8 +37,8 @@ abstract public MongoDB\Driver\CursorInterface::isDead(): bool
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Дивіться також
 
--   [MongoDBDriverCursor::isDead()](mongodb-driver-cursor.isdead.html) - Перевіряє, чи курсор вичерпано чи може містити додаткові результати
+-   [MongoDBDriverCursor::isDead()](mongodb-driver-cursor.isdead.md) - Перевіряє, чи курсор вичерпано чи може містити додаткові результати

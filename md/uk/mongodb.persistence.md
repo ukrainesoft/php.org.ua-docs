@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb.connection-handling.html: « Соединения
-  - mongodb.persistence.serialization.html: Сериализация в BSON »
-  - index.html: PHP Manual
-  - mongodb.architecture.html: Архитектура и внутреннее устройство драйвера
+  - mongodb.connection-handling.md: « Соединения
+  - mongodb.persistence.serialization.md: Сериализация в BSON »
+  - index.md: PHP Manual
+  - mongodb.architecture.md: Архитектура и внутреннее устройство драйвера
 title: Серіалізація та десеріалізація змінних PHP у MongoDB
 ---
 # Серіалізація та десеріалізація змінних PHP у MongoDB

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-pmf-poisson.html: « statsdenspmfpoisson
-  - function.stats-dens-uniform.html: statsdensuniform »
+  - function.stats-dens-pmf-poisson.md: « statsdenspmfpoisson
+  - function.stats-dens-uniform.md: statsdensuniform »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdensт

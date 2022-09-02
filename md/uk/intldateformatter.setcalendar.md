@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.parse.html: '« IntlDateFormatter::parse'
-  - intldateformatter.setlenient.html: 'IntlDateFormatter::setLenient »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.parse.md: '« IntlDateFormatter::parse'
+  - intldateformatter.setlenient.md: 'IntlDateFormatter::setLenient »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::setCalendar'
 ---
 # IntlDateFormatter::setCalendar
@@ -38,7 +38,7 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 `calendar`
 
-Може бути: [тип календаря](class.intldateformatter.html#intl.intldateformatter-constants.calendartypes) для використання (за замовчуванням **`IntlDateFormatter::GREGORIAN`**, який також використовується, якщо вказано значення **`null`**) або об'єкт [IntlCalendar](class.intlcalendar.md)
+Може бути: [тип календаря](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes) для використання (за замовчуванням **`IntlDateFormatter::GREGORIAN`**, який також використовується, якщо вказано значення **`null`**) або об'єкт [IntlCalendar](class.intlcalendar.md)
 
 Будь-який переданий об'єкт [IntlCalendar](class.intlcalendar.md) буде клоновано; до об'єкта аргументу не буде внесено жодних змін.
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.sorted.html: '« DsDeque::sorted'
-  - ds-deque.toarray.html: 'ДсDeque::toArray »'
+  - ds-deque.sorted.md: '« DsDeque::sorted'
+  - ds-deque.toarray.md: 'ДсDeque::toArray »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::sum'
 ---
 # ДсDeque::sum

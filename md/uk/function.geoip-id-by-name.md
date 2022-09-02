@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.geoip-domain-by-name.html: « geoipdomainбname
-  - function.geoip-isp-by-name.html: geoipispбname »
+  - function.geoip-domain-by-name.md: « geoipdomainбname
+  - function.geoip-isp-by-name.md: geoipispбname »
   - index.md: PHP Manual
   - ref.geoip.md: Функции GeoIP
 title: geoipідбname

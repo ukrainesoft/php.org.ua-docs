@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.getserver.html: '« MongoDBDriverCursor::getServer'
-  - mongodb-driver-cursor.key.html: 'MongoDBDriverCursor::key »'
+  - mongodb-driver-cursor.getserver.md: '« MongoDBDriverCursor::getServer'
+  - mongodb-driver-cursor.key.md: 'MongoDBDriverCursor::key »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::isDead'
 ---
 # MongoDBDriverCursor::isDead

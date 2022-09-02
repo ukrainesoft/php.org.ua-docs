@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.writedtdelement.html: '« XMLWriter::writeDtdElement'
-  - xmlwriter.writeelement.html: 'XMLWriter::writeElement »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.writedtdelement.md: '« XMLWriter::writeDtdElement'
+  - xmlwriter.writeelement.md: 'XMLWriter::writeElement »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::writeDtdEntity'
 ---
 # XMLWriter::writeDtdEntity
@@ -34,7 +34,7 @@ xmlwriter_write_dtd_entity(    XMLWriter $writer,    string $name,   
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `name`
 

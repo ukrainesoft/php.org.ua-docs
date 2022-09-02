@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-count-entries.html: « ldapcountentries
-  - function.ldap-delete-ext.html: ldapdeleteext »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-count-entries.md: « ldapcountentries
+  - function.ldap-delete-ext.md: ldapdeleteext »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapcountreferences
 ---
 # ldapcountreferences
@@ -24,11 +24,11 @@ ldap_count_references(LDAP\Connection $ldap, LDAP\Result $result): int
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 ### Значення, що повертаються
 
@@ -38,8 +38,8 @@ ldap_count_references(LDAP\Connection $ldap, LDAP\Result $result): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
-|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `result` тепер чекає екземпляр [LDAPResult](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

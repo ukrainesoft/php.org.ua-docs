@@ -1,9 +1,9 @@
 ---
 navigation:
-  - generator.wakeup.html: '« Generator::wakeup'
-  - fiber.construct.html: 'Fiber::construct »'
-  - index.html: PHP Manual
-  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+  - generator.wakeup.md: '« Generator::wakeup'
+  - fiber.construct.md: 'Fiber::construct »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Клас Fiber
 ---
 # Клас Fiber
@@ -48,18 +48,18 @@ public static getCurrent(): ?Fiber
 
 ## Дивіться також
 
-[Огляд файберів](language.fibers.html)
+[Огляд файберів](language.fibers.md)
 
 ## Зміст
 
--   [Fiber::construct](fiber.construct.html) - Створює новий екземпляр Fiber
--   [Fiber::start](fiber.start.html) - Починає виконання волокна
--   [Fiber::resume](fiber.resume.html) — Відновлює виконання файбера зі значенням
--   [Fiber::throw](fiber.throw.html) — Відновлює виконання файбера за винятком
--   [Fiber::getReturn](fiber.getreturn.html) — Отримує значення, яке повертається файбером
--   [Fiber::isStarted](fiber.isstarted.html) — Визначає, чи запущено файбер
--   [Fiber::isSuspended](fiber.issuspended.html) — Визначає, чи зупинено файбер
--   [Fiber::isRunning](fiber.isrunning.html) — Визначає, чи працює файбер
--   [Fiber::isTerminated](fiber.isterminated.html) — Визначає, чи файбер завершено.
--   [Fiber::suspend](fiber.suspend.html) — Припиняє виконання поточного файбера
--   [Fiber::getCurrent](fiber.getcurrent.html) — Отримує поточний екземпляр Fiber, що виконується.
+-   [Fiber::construct](fiber.construct.md) - Створює новий екземпляр Fiber
+-   [Fiber::start](fiber.start.md) - Починає виконання волокна
+-   [Fiber::resume](fiber.resume.md) — Відновлює виконання файбера зі значенням
+-   [Fiber::throw](fiber.throw.md) — Відновлює виконання файбера за винятком
+-   [Fiber::getReturn](fiber.getreturn.md) — Отримує значення, яке повертається файбером
+-   [Fiber::isStarted](fiber.isstarted.md) — Визначає, чи запущено файбер
+-   [Fiber::isSuspended](fiber.issuspended.md) — Визначає, чи зупинено файбер
+-   [Fiber::isRunning](fiber.isrunning.md) — Визначає, чи працює файбер
+-   [Fiber::isTerminated](fiber.isterminated.md) — Визначає, чи файбер завершено.
+-   [Fiber::suspend](fiber.suspend.md) — Припиняє виконання поточного файбера
+-   [Fiber::getCurrent](fiber.getcurrent.md) — Отримує поточний екземпляр Fiber, що виконується.

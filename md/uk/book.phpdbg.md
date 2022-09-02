@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.zend-version.html: « zendversion
+  - function.zend-version.md: « zendversion
   - intro.phpdbg.md: Введение »
   - index.md: PHP Manual
   - refs.basic.php.md: Изменение поведения PHP

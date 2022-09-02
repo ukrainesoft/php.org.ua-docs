@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-run.html: « fannrun
-  - function.fann-save.html: fannsave »
+  - function.fann-run.md: « fannrun
+  - function.fann-save.md: fannsave »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsavetrain

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-ed25519-sk-to-curve25519.html: « sodiumcryptosigned25519сктоcurve25519
-  - function.sodium-crypto-sign-keypair.html: sodiumcryptosignkeypair »
+  - function.sodium-crypto-sign-ed25519-sk-to-curve25519.md: « sodiumcryptosigned25519сктоcurve25519
+  - function.sodium-crypto-sign-keypair.md: sodiumcryptosignkeypair »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptosignkeypairfromsecretkeyandpublickey

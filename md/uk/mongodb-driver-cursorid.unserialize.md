@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursorid.tostring.html: '« MongoDBDriverCursorId::toString'
-  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface »
+  - mongodb-driver-cursorid.tostring.md: '« MongoDBDriverCursorId::toString'
+  - class.mongodb-driver-cursorinterface.md: MongoDBDriverCursorInterface »
   - index.md: PHP Manual
-  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId
+  - class.mongodb-driver-cursorid.md: MongoDBDriverCursorId
 title: 'MongoDBDriverCursorId::unserialize'
 ---
 # MongoDBDriverCursorId::unserialize

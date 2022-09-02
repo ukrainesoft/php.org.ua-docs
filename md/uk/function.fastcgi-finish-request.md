@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.fpm.html: « Функції FPM
-  - function.fpm-get-status.html: fpmgetstatus »
-  - index.html: PHP Manual
-  - ref.fpm.html: Функції FPM
+  - ref.fpm.md: « Функції FPM
+  - function.fpm-get-status.md: fpmgetstatus »
+  - index.md: PHP Manual
+  - ref.fpm.md: Функції FPM
 title: fastcgifinishrequest
 ---
 # fastcgifinishrequest

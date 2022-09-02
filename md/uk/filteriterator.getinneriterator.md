@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filteriterator.current.html: '« FilterIterator::current'
-  - filteriterator.key.html: 'FilterIterator::key »'
-  - index.html: PHP Manual
-  - class.filteriterator.html: FilterIterator
+  - filteriterator.current.md: '« FilterIterator::current'
+  - filteriterator.key.md: 'FilterIterator::key »'
+  - index.md: PHP Manual
+  - class.filteriterator.md: FilterIterator
 title: 'FilterIterator::getInnerIterator'
 ---
 # FilterIterator::getInnerIterator

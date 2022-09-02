@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-manager.getreadpreference.html: '« MongoDBDriverManager::getReadPreference'
-  - mongodb-driver-manager.getwriteconcern.html: 'MongoDBDriverManager::getWriteConcern »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-manager.html: MongoDBDriverManager
+  - mongodb-driver-manager.getreadpreference.md: '« MongoDBDriverManager::getReadPreference'
+  - mongodb-driver-manager.getwriteconcern.md: 'MongoDBDriverManager::getWriteConcern »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
 title: 'MongoDBDriverManager::getServers'
 ---
 # MongoDBDriverManager::getServers

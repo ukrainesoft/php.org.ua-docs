@@ -1,9 +1,9 @@
 ---
 navigation:
-  - url.configuration.html: « Налаштування під час виконання
-  - url.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - url.setup.html: Встановлення та налаштування
+  - url.configuration.md: « Налаштування під час виконання
+  - url.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - url.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

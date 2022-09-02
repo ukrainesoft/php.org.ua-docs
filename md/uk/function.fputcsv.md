@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fpassthru.html: « fpassthru
-  - function.fputs.html: fputs »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.fpassthru.md: « fpassthru
+  - function.fputs.md: fputs »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: fputcsv
 ---
 # fputcsv
@@ -24,7 +24,7 @@ fputcsv(    resource $stream,    array $fields,    string $separator
 
 `stream`
 
-Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.html)
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.md) або [fsockopen()](function.fsockopen.md) (і все ще не закритий функцією [fclose()](function.fclose.md)
 
 `fields`
 
@@ -94,8 +94,8 @@ aaa,bbb,ccc,dddd
 
 ### Примітки
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків при читанні або створенні файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків при читанні або створенні файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.md#ini.auto-detect-line-endings) може допомогти вирішити проблему.
 
 ### Дивіться також
 
--   [fgetcsv()](function.fgetcsv.html) - Читає рядок з файлу та проводить розбір даних CSV
+-   [fgetcsv()](function.fgetcsv.md) - Читає рядок з файлу та проводить розбір даних CSV

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-strpos.html: « mbstrpos
-  - function.mb-strrichr.html: мбstrrichr »
+  - function.mb-strpos.md: « mbstrpos
+  - function.mb-strrichr.md: мбstrrichr »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбstrrchr

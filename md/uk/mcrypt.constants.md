@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mcrypt.resources.html: « Типи ресурсів
-  - mcrypt.ciphers.html: Шифри Mcrypt »
-  - index.html: PHP Manual
-  - book.mcrypt.html: Mcrypt
+  - mcrypt.resources.md: « Типи ресурсів
+  - mcrypt.ciphers.md: Шифри Mcrypt »
+  - index.md: PHP Manual
+  - book.mcrypt.md: Mcrypt
 title: Обумовлені константи
 ---
 # Обумовлені константи

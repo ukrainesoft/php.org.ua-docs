@@ -1,7 +1,7 @@
 ---
 navigation:
-  - streamwrapper.stream-seek.html: '« streamWrapper::streamseek'
-  - streamwrapper.stream-stat.html: 'streamWrapper::streamstat »'
+  - streamwrapper.stream-seek.md: '« streamWrapper::streamseek'
+  - streamwrapper.stream-stat.md: 'streamWrapper::streamstat »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamsetoption'

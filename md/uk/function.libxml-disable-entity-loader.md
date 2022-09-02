@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.libxml-clear-errors.html: « libxmlclearerrors
-  - function.libxml-get-errors.html: libxmlgeterrors »
+  - function.libxml-clear-errors.md: « libxmlclearerrors
+  - function.libxml-get-errors.md: libxmlgeterrors »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
 title: libxmldisableentityloader

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imageloadfont.html: « imageloadfont
-  - function.imagepalettecopy.html: imagepalettecopy »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imageloadfont.md: « imageloadfont
+  - function.imagepalettecopy.md: imagepalettecopy »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageopenpolygon
 ---
 # imageopenpolygon
@@ -26,13 +26,13 @@ imageopenpolygon(GdImage $image, array $points, int $color): bool
 imageopenpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
 ```
 
-**imageopenpolygon()** малює відкритий полігон на заданому зображенні (`image`). На відміну від [imagepolygon()](function.imagepolygon.html), лінія між останньою та першою точкою не малюється.
+**imageopenpolygon()** малює відкритий полігон на заданому зображенні (`image`). На відміну від [imagepolygon()](function.imagepolygon.md), лінія між останньою та першою точкою не малюється.
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `points`
 
@@ -48,7 +48,7 @@ imageopenpolygon(    GdImage $image,    array $points,    int $num_p
 
 `color`
 
-Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -59,7 +59,7 @@ imageopenpolygon(    GdImage $image,    array $points,    int $num_p
 | Версия | Описание |
 | --- | --- |
 |  | Параметр `num_points` оголошено застарілим. |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -96,4 +96,4 @@ imagedestroy($image);
 
 ### Дивіться також
 
--   [imagepolygon()](function.imagepolygon.html) - Малювання багатокутника
+-   [imagepolygon()](function.imagepolygon.md) - Малювання багатокутника

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-secretbox.html: « sodiumcryptosecretbox
-  - function.sodium-crypto-secretstream-xchacha20poly1305-init-push.html: sodiumcryptosecretstreamxchacha20poly1305initpush »
+  - function.sodium-crypto-secretbox.md: « sodiumcryptosecretbox
+  - function.sodium-crypto-secretstream-xchacha20poly1305-init-push.md: sodiumcryptosecretstreamxchacha20poly1305initpush »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptosecretstreamxchacha20poly1305initpull

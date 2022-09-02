@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.contains.html: '« DsSequence::contains'
-  - ds-sequence.find.html: 'ДсSequence::find »'
-  - index.html: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - ds-sequence.contains.md: '« DsSequence::contains'
+  - ds-sequence.find.md: 'ДсSequence::find »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::filter'
 ---
 # ДсSequence::filter
@@ -30,7 +30,7 @@ callback(mixed $value): bool
 
 Необов'язковий аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
 
-Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивися [приведение к boolean](language.types.boolean.html#language.types.boolean.casting)
+Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивися [приведение к boolean](language.types.boolean.md#language.types.boolean.casting)
 
 ### Значення, що повертаються
 

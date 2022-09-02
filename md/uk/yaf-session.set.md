@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.rewind.html: '« YafSession::rewind'
-  - yaf-session.start.html: 'YafSession::start »'
+  - yaf-session.rewind.md: '« YafSession::rewind'
+  - yaf-session.start.md: 'YafSession::start »'
   - index.md: PHP Manual
-  - class.yaf-session.html: YafSession
+  - class.yaf-session.md: YafSession
 title: 'YafSession::set'
 ---
 # YafSession::set

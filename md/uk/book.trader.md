@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.stats-variance.html: « statsvariance
+  - function.stats-variance.md: « statsvariance
   - intro.trader.md: Введение »
   - index.md: PHP Manual
   - refs.math.md: Математичні модулі

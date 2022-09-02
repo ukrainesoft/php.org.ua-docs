@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-pkey-export.html: « opensslpkeyexport
-  - function.openssl-pkey-get-details.html: opensslpkeygetdetails »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-pkey-export.md: « opensslpkeyexport
+  - function.openssl-pkey-get-details.md: opensslpkeygetdetails »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslpkeyfree
 ---
 # opensslpkeyfree
@@ -26,7 +26,7 @@ openssl_pkey_free(OpenSSLAsymmetricKey $key): void
 > 
 > Використання функції не має сенсу. До PHP 8.0.0 вона використовувалася для закриття ресурсу.
 
-Функція вивільняє ресурс закритого ключа, створений [opensslpkeynew()](function.openssl-pkey-new.html)
+Функція вивільняє ресурс закритого ключа, створений [opensslpkeynew()](function.openssl-pkey-new.md)
 
 ### Список параметрів
 
@@ -43,4 +43,4 @@ openssl_pkey_free(OpenSSLAsymmetricKey $key): void
 | Версия | Описание |
 | --- | --- |
 |  | Функція застаріла, оскільки не має сенсу. |
-|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL key` |
+|  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |

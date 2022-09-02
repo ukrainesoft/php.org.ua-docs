@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rawurlencode.html: « rawurlencode
-  - function.urlencode.html: urlencode »
-  - index.html: PHP Manual
-  - ref.url.html: Функції URL
+  - function.rawurlencode.md: « rawurlencode
+  - function.urlencode.md: urlencode »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
 title: urldecode
 ---
 # urldecode
@@ -52,7 +52,7 @@ foreach (explode('&', $query) as $chunk) {
 
 **Увага**
 
-Змінні у суперглобальних масивах [GET](reserved.variables.get.html) і [REQUEST](reserved.variables.request.html) вже декодовані. Застосування **urldecode()** до елементів [GET](reserved.variables.get.html) або [REQUEST](reserved.variables.request.md) може призвести до несподіваних та небезпечних результатів.
+Змінні у суперглобальних масивах [GET](reserved.variables.get.md) і [REQUEST](reserved.variables.request.md) вже декодовані. Застосування **urldecode()** до елементів [GET](reserved.variables.get.md) або [REQUEST](reserved.variables.request.md) може призвести до несподіваних та небезпечних результатів.
 
 ### Дивіться також
 

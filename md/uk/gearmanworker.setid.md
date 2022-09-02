@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.returncode.html: '« GearmanWorker::returnCode'
-  - gearmanworker.setoptions.html: 'GearmanWorker::setOptions »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.returncode.md: '« GearmanWorker::returnCode'
+  - gearmanworker.setoptions.md: 'GearmanWorker::setOptions »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::setId'
 ---
 # GearmanWorker::setId

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.gettermssort.html: '« SolrQuery::getTermsSort'
-  - solrquery.gettimeallowed.html: 'SolrQuery::getTimeAllowed »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.gettermssort.md: '« SolrQuery::getTermsSort'
+  - solrquery.gettimeallowed.md: 'SolrQuery::getTimeAllowed »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getTermsUpperBound'
 ---
 # SolrQuery::getTermsUpperBound

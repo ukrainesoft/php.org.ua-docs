@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.gnupg.html: « GnuPG
-  - gnupg.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.gnupg.html: GnuPG
+  - book.gnupg.md: « GnuPG
+  - gnupg.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.gnupg.md: GnuPG
 title: Вступ
 ---
 # Вступ

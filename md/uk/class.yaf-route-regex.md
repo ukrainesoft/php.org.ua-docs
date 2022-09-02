@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-route-map.route.html: '« YafRouteMap::route'
-  - yaf-route-regex.assemble.html: 'YafRouteRegex::assemble »'
+  - yaf-route-map.route.md: '« YafRouteMap::route'
+  - yaf-route-regex.assemble.md: 'YafRouteRegex::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafRouteRegex

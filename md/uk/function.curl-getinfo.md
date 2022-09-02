@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-file-create.html: « curlfilecreate
-  - function.curl-init.html: curlinit »
+  - function.curl-file-create.md: « curlfilecreate
+  - function.curl-init.md: curlinit »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlgetinfo

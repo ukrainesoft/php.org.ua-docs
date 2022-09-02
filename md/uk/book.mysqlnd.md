@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mysql-unbuffered-query.html: « mysqlunbufferedquery
+  - function.mysql-unbuffered-query.md: « mysqlunbufferedquery
   - intro.mysqlnd.md: Введение »
   - index.md: PHP Manual
   - set.mysqlinfo.md: MySQL

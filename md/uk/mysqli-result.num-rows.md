@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.lengths.html: '« mysqliresult::$lengths'
-  - class.mysqli-driver.html: mysqlidriver »
+  - mysqli-result.lengths.md: '« mysqliresult::$lengths'
+  - class.mysqli-driver.md: mysqlidriver »
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::$numrows'
 ---
 # mysqliresult::$numrows
@@ -34,7 +34,7 @@ mysqli_num_rows(mysqli_result $result): int|string
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 

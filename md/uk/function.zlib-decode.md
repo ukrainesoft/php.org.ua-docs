@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.readgzfile.md: « readgzfile
-  - function.zlib-encode.html: zlibencode »
+  - function.zlib-encode.md: zlibencode »
   - index.md: PHP Manual
   - ref.zlib.md: Функции Zlib
 title: zlibdecode

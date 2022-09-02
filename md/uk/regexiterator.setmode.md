@@ -1,9 +1,9 @@
 ---
 navigation:
-  - regexiterator.setflags.html: '« RegexIterator::setFlags'
-  - regexiterator.setpregflags.html: 'RegexIterator::setPregFlags »'
-  - index.html: PHP Manual
-  - class.regexiterator.html: RegexIterator
+  - regexiterator.setflags.md: '« RegexIterator::setFlags'
+  - regexiterator.setpregflags.md: 'RegexIterator::setPregFlags »'
+  - index.md: PHP Manual
+  - class.regexiterator.md: RegexIterator
 title: 'RegexIterator::setMode'
 ---
 # RegexIterator::setMode
@@ -26,17 +26,17 @@ public RegexIterator::setMode(int $mode): void
 
 Режим роботи.
 
-Нижче наведено можливі режими. Сенс та значення режимів описані в розділі [зумовлених констант](class.regexiterator.html#regexiterator.constants)
+Нижче наведено можливі режими. Сенс та значення режимів описані в розділі [зумовлених констант](class.regexiterator.md#regexiterator.constants)
 
-**Режими роботи [RegexIterator](class.regexiterator.html)**
+**Режими роботи [RegexIterator](class.regexiterator.md)**
 
 | значение | константа |
 | --- | --- |
-|  | [RegexIterator::MATCH](class.regexiterator.html#regexiterator.constants.match) |
-|  | [RegexIterator::GETMATCH](class.regexiterator.html#regexiterator.constants.get-match) |
-|  | [RegexIterator::ALLMATCHES](class.regexiterator.html#regexiterator.constants.all-matches) |
-|  | [RegexIterator::SPLIT](class.regexiterator.html#regexiterator.constants.split) |
-|  | [RegexIterator::REPLACE](class.regexiterator.html#regexiterator.constants.replace) |
+|  | [RegexIterator::MATCH](class.regexiterator.md#regexiterator.constants.match) |
+|  | [RegexIterator::GETMATCH](class.regexiterator.md#regexiterator.constants.get-match) |
+|  | [RegexIterator::ALLMATCHES](class.regexiterator.md#regexiterator.constants.all-matches) |
+|  | [RegexIterator::SPLIT](class.regexiterator.md#regexiterator.constants.split) |
+|  | [RegexIterator::REPLACE](class.regexiterator.md#regexiterator.constants.replace) |
 
 ### Значення, що повертаються
 
@@ -72,4 +72,4 @@ str3 => 123
 
 ### Дивіться також
 
--   [RegexIterator::getMode()](regexiterator.getmode.html) - Повертає режим роботи
+-   [RegexIterator::getMode()](regexiterator.getmode.md) - Повертає режим роботи

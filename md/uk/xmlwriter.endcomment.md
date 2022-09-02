@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.endcdata.html: '« XMLWriter::endCdata'
-  - xmlwriter.enddocument.html: 'XMLWriter::endDocument »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.endcdata.md: '« XMLWriter::endCdata'
+  - xmlwriter.enddocument.md: 'XMLWriter::endDocument »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::endComment'
 ---
 # XMLWriter::endComment
@@ -34,7 +34,7 @@ xmlwriter_end_comment(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
@@ -44,9 +44,9 @@ xmlwriter_end_comment(XMLWriter $writer): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікували ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startComment()](xmlwriter.startcomment.html) - Створює стартовий коментар
--   [XMLWriter::writeComment()](xmlwriter.writecomment.html) - Записати повний тег коментаря
+-   [XMLWriter::startComment()](xmlwriter.startcomment.md) - Створює стартовий коментар
+-   [XMLWriter::writeComment()](xmlwriter.writecomment.md) - Записати повний тег коментаря

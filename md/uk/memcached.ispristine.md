@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.ispersistent.html: '« Memcached::isPersistent'
-  - memcached.prepend.html: 'Memcached::prepend »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.ispersistent.md: '« Memcached::isPersistent'
+  - memcached.prepend.md: 'Memcached::prepend »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::isPristine'
 ---
 # Memcached::isPristine
@@ -30,4 +30,4 @@ public Memcached::isPristine(): bool
 
 ### Дивіться також
 
--   [Memcached::isPersistent()](memcached.ispersistent.html) - Перевіряє чи використовується стійке з'єднання з сервером memcache
+-   [Memcached::isPersistent()](memcached.ispersistent.md) - Перевіряє чи використовується стійке з'єднання з сервером memcache

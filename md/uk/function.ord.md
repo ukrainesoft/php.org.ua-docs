@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.number-format.html: « numberformat
-  - function.parse-str.html: parsestr »
+  - function.number-format.md: « numberformat
+  - function.parse-str.md: parsestr »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: ord

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.ui-draw-line-join.html: « UIDrawLineJoin
-  - class.ui-exception-invalidargumentexception.html: ОЙExceptionInvalidArgumentException »
+  - class.ui-draw-line-join.md: « UIDrawLineJoin
+  - class.ui-exception-invalidargumentexception.md: ОЙExceptionInvalidArgumentException »
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Ключові ідентифікатори

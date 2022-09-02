@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdostatement.columncount.html: '« PDOStatement::columnCount'
-  - pdostatement.errorcode.html: 'PDOStatement::errorCode »'
-  - index.html: PHP Manual
-  - class.pdostatement.html: PDOStatement
+  - pdostatement.columncount.md: '« PDOStatement::columnCount'
+  - pdostatement.errorcode.md: 'PDOStatement::errorCode »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::debugDumpParams'
 ---
 # PDOStatement::debugDumpParams
@@ -24,7 +24,7 @@ public PDOStatement::debugDumpParams(): ?bool
 
 **Підказка**
 
-Як і з будь-якою іншою функцією, що здійснює виведення безпосередньо у браузер, ви можете використовувати [функції контролю виведення](book.outcontrol.html), щоб перехоплювати дані, що виводяться цією функцією, і зберігати їх, наприклад, у рядок (string).
+Як і з будь-якою іншою функцією, що здійснює виведення безпосередньо у браузер, ви можете використовувати [функції контролю виведення](book.outcontrol.md), щоб перехоплювати дані, що виводяться цією функцією, і зберігати їх, наприклад, у рядок (string).
 
 Ця функція виводить інформацію про параметри запиту, які існують на момент дзвінка. Додаткові параметри не зберігаються у запиті, тому не відображаються.
 
@@ -125,6 +125,6 @@ param_type=2
 
 ### Дивіться також
 
--   [PDO::prepare()](pdo.prepare.html) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
--   [PDOStatement::bindParam()](pdostatement.bindparam.html) - Прив'язує параметр запиту до змінної
--   [PDOStatement::bindValue()](pdostatement.bindvalue.html) - Зв'язує параметр із заданим значенням
+-   [PDO::prepare()](pdo.prepare.md) - готує запит до виконання та повертає пов'язаний із цим запитом об'єкт
+-   [PDOStatement::bindParam()](pdostatement.bindparam.md) - Прив'язує параметр запиту до змінної
+-   [PDOStatement::bindValue()](pdostatement.bindvalue.md) - Зв'язує параметр із заданим значенням

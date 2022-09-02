@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-nan.html: « isnan
-  - function.log10.html: log10 »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.is-nan.md: « isnan
+  - function.log10.md: log10 »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: lcgvalue
 ---
 # lcgvalue
@@ -22,7 +22,7 @@ lcg_value(): float
 
 **Застереження**
 
-Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.html) [randombytes()](function.random-bytes.html) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
+Ця функція не генерує криптографічно безпечні значення і не повинна використовуватись у криптографічних цілях. Якщо вам потрібне криптографічно безпечне значення, подумайте про використання функцій [randomint()](function.random-int.md) [randombytes()](function.random-bytes.md) або [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) замість цієї.
 
 ### Список параметрів
 

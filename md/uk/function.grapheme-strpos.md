@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.grapheme-strlen.html: « graphemestrlen
-  - function.grapheme-strripos.html: graphemestrripos »
-  - index.html: PHP Manual
-  - ref.intl.grapheme.html: Функции Grapheme
+  - function.grapheme-strlen.md: « graphemestrlen
+  - function.grapheme-strripos.md: graphemestrripos »
+  - index.md: PHP Manual
+  - ref.intl.grapheme.md: Функции Grapheme
 title: graphemestrpos
 ---
 # graphemestrpos
@@ -69,9 +69,9 @@ print grapheme_strpos( $char_a_ring_nfd . $char_a_ring_nfd . $char_o_diaer
 
 ### Дивіться також
 
--   [graphemestripos()](function.grapheme-stripos.html) - Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
--   [graphemestristr()](function.grapheme-stristr.html) - Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
--   [graphemestrripos()](function.grapheme-strripos.html) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
--   [graphemestrrpos()](function.grapheme-strrpos.html) - знаходить позицію (в одиницях графеми) останнього входження рядка
--   [graphemestrstr()](function.grapheme-strstr.html) - Повертає частину рядка haystack від першої появи needle до кінця haystack
+-   [graphemestripos()](function.grapheme-stripos.md) - Знаходить позицію (в одиницях графеми) першої появи рядка без урахування регістру
+-   [graphemestristr()](function.grapheme-stristr.md) - Повертає частину рядка haystack від першої появи needle без урахування регістру до кінця haystack
+-   [graphemestrripos()](function.grapheme-strripos.md) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
+-   [graphemestrrpos()](function.grapheme-strrpos.md) - знаходить позицію (в одиницях графеми) останнього входження рядка
+-   [graphemestrstr()](function.grapheme-strstr.md) - Повертає частину рядка haystack від першої появи needle до кінця haystack
 -   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

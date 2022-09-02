@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.namespaces.global.html: « Глобальний простір
-  - language.namespaces.rules.html: Правила разрешения имён »
-  - index.html: PHP Manual
-  - language.namespaces.html: Пространства имён
+  - language.namespaces.global.md: « Глобальний простір
+  - language.namespaces.rules.md: Правила разрешения имён »
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
 title: 'Використання просторів імен: перехід до глобальної функції/константи'
 ---
 ## Використання просторів імен: перехід до глобальної функції/константи

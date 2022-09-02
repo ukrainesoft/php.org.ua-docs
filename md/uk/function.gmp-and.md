@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-add.html: « gmpadd
-  - function.gmp-binomial.html: gmpbinomial »
+  - function.gmp-add.md: « gmpadd
+  - function.gmp-binomial.md: gmpbinomial »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpand

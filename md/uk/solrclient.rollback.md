@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrclient.request.html: '« SolrClient::request'
-  - solrclient.setresponsewriter.html: 'SolrClient::setResponseWriter »'
-  - index.html: PHP Manual
-  - class.solrclient.html: SolrClient
+  - solrclient.request.md: '« SolrClient::request'
+  - solrclient.setresponsewriter.md: 'SolrClient::setResponseWriter »'
+  - index.md: PHP Manual
+  - class.solrclient.md: SolrClient
 title: 'SolrClient::rollback'
 ---
 # SolrClient::rollback

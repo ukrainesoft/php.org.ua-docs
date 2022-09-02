@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-set-db-operation.html: « ocisetдбoperation
-  - function.oci-set-module-name.html: ocisetmodulename »
+  - function.oci-set-db-operation.md: « ocisetдбoperation
+  - function.oci-set-module-name.md: ocisetmodulename »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocisetedition
@@ -22,7 +22,7 @@ oci_set_edition(string $edition): bool
 
 Подібні "випуски" Oracle дозволяють запускати програми, що використовують однакові схеми та імена об'єктів у конкурентному режимі. Це може бути корисним при модернізації працюючих систем без їх відключення.
 
-Викликайте **ocisetedition()** до виклику [ociconnect()](function.oci-connect.html) [ocipconnect()](function.oci-pconnect.html) або [ocinewconnect()](function.oci-new-connect.md)
+Викликайте **ocisetedition()** до виклику [ociconnect()](function.oci-connect.md) [ocipconnect()](function.oci-pconnect.md) або [ocinewconnect()](function.oci-new-connect.md)
 
 Якщо заданий випуск неприпустимий у базі даних, з'єднання не встановлюватиметься, навіть якщо функція **ocisetedition()** успішно виконається.
 
@@ -94,4 +94,4 @@ echo "Результат: $r\n";
 
 # DRCP об'єднання з'єднань у пул
 
-Щоб уникнути несумісності та випадкових помилок при використанні серій та [DRCP](oci8.connection.md) в Oracle 11.2.0.1 дотримуйтесь однозначної відповідності між [oci8.connectionclass](oci8.configuration.html#ini.oci8.connection-class) та ім'ям "випуску", яким користуються додатки. Кожен сервер, що входить до складу пулу із заданим класом з'єднань, повинен використовуватися лише з одним "випуском". Це обмеження усунуто у версії Oracle 11.2.0.2.
+Щоб уникнути несумісності та випадкових помилок при використанні серій та [DRCP](oci8.connection.md) в Oracle 11.2.0.1 дотримуйтесь однозначної відповідності між [oci8.connectionclass](oci8.configuration.md#ini.oci8.connection-class) та ім'ям "випуску", яким користуються додатки. Кожен сервер, що входить до складу пулу із заданим класом з'єднань, повинен використовуватися лише з одним "випуском". Це обмеження усунуто у версії Oracle 11.2.0.2.

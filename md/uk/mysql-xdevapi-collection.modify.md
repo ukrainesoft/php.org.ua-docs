@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collection.getsession.html: '« Collection::getSession'
-  - mysql-xdevapi-collection.remove.html: 'Collection::remove »'
+  - mysql-xdevapi-collection.getsession.md: '« Collection::getSession'
+  - mysql-xdevapi-collection.remove.md: 'Collection::remove »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
 title: 'Collection::modify'
 ---
 # Collection::modify

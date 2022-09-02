@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.proc-close.html: « procclose
-  - function.proc-nice.html: procnice »
+  - function.proc-close.md: « procclose
+  - function.proc-nice.md: procnice »
   - index.md: PHP Manual
   - ref.exec.md: Функции запуска программ
 title: procgetstatus

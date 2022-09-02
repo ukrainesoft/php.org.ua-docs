@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.phpdbg-get-executable.html: « phpdbggetexecutable
-  - function.phpdbg-start-oplog.html: phpdbgstartoplog »
+  - function.phpdbg-get-executable.md: « phpdbggetexecutable
+  - function.phpdbg-start-oplog.md: phpdbgstartoplog »
   - index.md: PHP Manual
   - ref.phpdbg.md: Функции phpdbg
 title: phpdbgprompt

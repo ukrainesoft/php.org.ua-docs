@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-set-db-parameter.html: « cubridsetдбparameter
-  - function.cubrid-set-query-timeout.html: cubridsetquerytimeout »
+  - function.cubrid-set-db-parameter.md: « cubridsetдбparameter
+  - function.cubrid-set-query-timeout.md: cubridsetquerytimeout »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridsetdrop

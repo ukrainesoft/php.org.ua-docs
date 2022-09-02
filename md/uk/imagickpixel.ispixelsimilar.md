@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixel.getindex.html: '« ImagickPixel::getIndex'
-  - imagickpixel.ispixelsimilarquantum.html: 'ImagickPixel::isPixelSimilarQuantum »'
-  - index.html: PHP Manual
-  - class.imagickpixel.html: ImagickPixel
+  - imagickpixel.getindex.md: '« ImagickPixel::getIndex'
+  - imagickpixel.ispixelsimilarquantum.md: 'ImagickPixel::isPixelSimilarQuantum »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::isPixelSimilar'
 ---
 # ImagickPixel::isPixelSimilar
@@ -18,7 +18,7 @@ ImagickPixel::isPixelSimilar — Перевіряє відстань між ци
 public ImagickPixel::isPixelSimilar(ImagickPixel $color, float $fuzz): bool
 ```
 
-Перевіряє відстань між кольором, описаним цим об'єктом ImagickPixel, та кольором наданого об'єкта, наносячи їх значення RGB на кольоровий куб. Якщо відстань між двома точками менша за задане значення розмиття, кольори схожі. Метод замінює [ImagickPixel::isSimilar()](imagickpixel.issimilar.html) і коректно нормалізує значення fuzz у ImageMagick QuantumRange.
+Перевіряє відстань між кольором, описаним цим об'єктом ImagickPixel, та кольором наданого об'єкта, наносячи їх значення RGB на кольоровий куб. Якщо відстань між двома точками менша за задане значення розмиття, кольори схожі. Метод замінює [ImagickPixel::isSimilar()](imagickpixel.issimilar.md) і коректно нормалізує значення fuzz у ImageMagick QuantumRange.
 
 ### Список параметрів
 

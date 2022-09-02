@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-get-last-error.html: « eiogetlasterror
-  - function.eio-grp-cancel.html: eiogrpcancel »
+  - function.eio-get-last-error.md: « eiogetlasterror
+  - function.eio-grp-cancel.md: eiogrpcancel »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiogrpadd

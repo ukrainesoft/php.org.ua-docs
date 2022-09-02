@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ftp.examples.html: « Приклади
-  - ref.ftp.html: Функції FTP »
-  - index.html: PHP Manual
-  - ftp.examples.html: Приклади
+  - ftp.examples.md: « Приклади
+  - ref.ftp.md: Функції FTP »
+  - index.md: PHP Manual
+  - ftp.examples.md: Приклади
 title: Просте використання
 ---
 ## Просте використання

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.uopz-flags.html: « uopzflags
-  - function.uopz-get-exit-status.html: uopzgetexitstatus »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - function.uopz-flags.md: « uopzflags
+  - function.uopz-get-exit-status.md: uopzgetexitstatus »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzfunction
 ---
 # uopzfunction

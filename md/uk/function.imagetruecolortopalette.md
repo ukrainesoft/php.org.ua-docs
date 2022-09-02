@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagesy.html: « imagesy
-  - function.imagettfbbox.html: imagettfbbox »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagesy.md: « imagesy
+  - function.imagettfbbox.md: imagettfbbox »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagetruecolortopalette
 ---
 # imagetruecolortopalette
@@ -24,7 +24,7 @@ imagetruecolortopalette(GdImage $image, bool $dither, int $num_colors): bool
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `dither`
 
@@ -42,7 +42,7 @@ imagetruecolortopalette(GdImage $image, bool $dither, int $num_colors): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

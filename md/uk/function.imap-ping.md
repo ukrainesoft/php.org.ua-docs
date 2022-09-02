@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-open.html: « imapopen
-  - function.imap-qprint.html: imapqprint »
+  - function.imap-open.md: « imapopen
+  - function.imap-qprint.md: imapqprint »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapping

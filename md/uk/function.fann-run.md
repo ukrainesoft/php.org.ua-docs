@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-reset-mse.html: « fannresetMSE
-  - function.fann-save-train.html: fannsavetrain »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-reset-mse.md: « fannresetMSE
+  - function.fann-save-train.md: fannsavetrain »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannrun
 ---
 # fannrun

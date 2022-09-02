@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-set-object.html: « xmlsetobject
-  - function.xml-set-start-namespace-decl-handler.html: xmlsetstartnamespacedeclhandler »
+  - function.xml-set-object.md: « xmlsetobject
+  - function.xml-set-start-namespace-decl-handler.md: xmlsetstartnamespacedeclhandler »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlsetprocessinginstructionhandler

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-rollback.html: « odbcrollback
-  - function.odbc-specialcolumns.html: odbcspecialcolumns »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-rollback.md: « odbcrollback
+  - function.odbc-specialcolumns.md: odbcspecialcolumns »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcsetoption
 ---
 # odbcsetoption

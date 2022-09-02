@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-link.html: « eiolink
-  - function.eio-mkdir.html: eiomkdir »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-link.md: « eiolink
+  - function.eio-mkdir.md: eiomkdir »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiolstat
 ---
 # eiolstat
@@ -48,7 +48,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -120,5 +120,5 @@ array(12) {
 
 ### Дивіться також
 
--   [eiostat()](function.eio-stat.html) - Повертає статус файлу
--   [eiofstat()](function.eio-fstat.html) - Повертає статус файлу
+-   [eiostat()](function.eio-stat.md) - Повертає статус файлу
+-   [eiofstat()](function.eio-fstat.md) - Повертає статус файлу

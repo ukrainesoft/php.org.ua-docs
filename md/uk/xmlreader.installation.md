@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlreader.requirements.html: « Вимоги
-  - xmlreader.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - xmlreader.setup.html: Встановлення та налаштування
+  - xmlreader.requirements.md: « Вимоги
+  - xmlreader.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - xmlreader.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

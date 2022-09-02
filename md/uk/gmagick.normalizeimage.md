@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.nextimage.html: '« Gmagick::nextimage'
-  - gmagick.oilpaintimage.html: 'Gmagick::oilpaintimage »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.nextimage.md: '« Gmagick::nextimage'
+  - gmagick.oilpaintimage.md: 'Gmagick::oilpaintimage »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::normalizeimage'
 ---
 # Gmagick::normalizeimage
@@ -28,7 +28,7 @@ public Gmagick::normalizeimage(int $channel = ?): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

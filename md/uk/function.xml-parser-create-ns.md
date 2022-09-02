@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-parse.html: « xmlparse
-  - function.xml-parser-create.html: xmlparsercreate »
+  - function.xml-parse.md: « xmlparse
+  - function.xml-parser-create.md: xmlparsercreate »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlparsercreateнс

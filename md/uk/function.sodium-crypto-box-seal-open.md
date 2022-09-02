@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-box-publickey.html: « sodiumcryptoboxpublickey
-  - function.sodium-crypto-box-seal.html: sodiumcryptoboxseal »
+  - function.sodium-crypto-box-publickey.md: « sodiumcryptoboxpublickey
+  - function.sodium-crypto-box-seal.md: sodiumcryptoboxseal »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptoboxsealopen

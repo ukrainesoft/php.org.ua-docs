@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-recvfrom.html: « socketrecvfrom
-  - function.socket-select.html: socketselect »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-recvfrom.md: « socketrecvfrom
+  - function.socket-select.md: socketselect »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketrecvmsg
 ---
 # socketrecvmsg

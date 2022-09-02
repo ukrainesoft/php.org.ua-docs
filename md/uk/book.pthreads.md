@@ -1,56 +1,56 @@
 ---
 navigation:
-  - parallel-sync.invoke.html: '« parallelSync::invoke'
-  - intro.pthreads.html: Введение »
-  - index.html: PHP Manual
-  - refs.fileprocess.process.html: Модули для управления процессами программ
+  - parallel-sync.invoke.md: '« parallelSync::invoke'
+  - intro.pthreads.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.process.md: Модули для управления процессами программ
 title: pthreads
 ---
 # pthreads
 
--   [Введение](intro.pthreads.html)
--   [Встановлення та налаштування](pthreads.setup.html)
-    -   [Вимоги](pthreads.requirements.html)
-    -   [Установка](pthreads.installation.html)
-    -   [Налаштування під час виконання](pthreads.configuration.html)
--   [Обумовлені константи](pthreads.constants.html)
--   [Threaded](class.threaded.html) - Клас Threaded
-    -   [Threaded::chunk](threaded.chunk.html) - Обробка
-    -   [Threaded::count](threaded.count.html) - Обробка
-    -   [Threaded::extend](threaded.extend.html) - Обробка під час виконання
-    -   [Threaded::isRunning](thread.isrunning.html) — Визначення стану
-    -   [Threaded::isTerminated](threaded.isterminated.html) — Визначення стану
-    -   [Threaded::merge](threaded.merge.html) - Обробка
-    -   [Threaded::notify](threaded.notify.html) - Синхронізація
-    -   [Threaded::notifyOne](threaded.notifyone.html) - Синхронізація
-    -   [Threaded::pop](threaded.pop.html) - Обробка
-    -   [Threaded::run](threaded.run.html) - Виконання
-    -   [Threaded::shift](threaded.shift.html) - Обробка
-    -   [Threaded::synchronized](threaded.synchronized.html) - Синхронізація
-    -   [Threaded::wait](threaded.wait.html) - Синхронізація
--   [Thread](class.thread.html) - Клас Thread
-    -   [Thread::getCreatorId](thread.getcreatorid.html) - Ідентифікація
-    -   [Thread::getCurrentThread](thread.getcurrentthread.html) - Ідентифікація
-    -   [Thread::getCurrentThreadId](thread.getcurrentthreadid.html) - Ідентифікація
-    -   [Thread::getThreadId](thread.getthreadid.html) - Ідентифікація
-    -   [Thread::isJoined](thread.isjoined.html) — Визначення стану
-    -   [Thread::isStarted](thread.isstarted.html) — Визначення стану
-    -   [Thread::join](thread.join.html) - Синхронізація
-    -   [Thread::start](thread.start.html) - Виконання
--   [Worker](class.worker.html) - Клас Worker
-    -   [Worker::collect](worker.collect.html) — Зібрати посилання на завершені завдання
-    -   [Worker::getStacked](worker.getstacked.html) — Повертає поточний розмір стека
-    -   [Worker::isShutdown](worker.isshutdown.html) — Визначення стану
-    -   [Worker::shutdown](worker.shutdown.html) - Зупинити Worker
-    -   [Worker::stack](worker.stack.html) — Покласти завдання на стек
-    -   [Worker::unstack](worker.unstack.html) — Забрати завдання зі стека
--   [Collectable](class.collectable.html) - Інтерфейс Collectable
-    -   [Collectable::isGarbage](collectable.isgarbage.html) — Визначає, чи позначений об'єкт як сміття
--   [Pool](class.pool.html) - Клас Pool
-    -   [Pool::collect](pool.collect.html) — Збирає посилання на виконані завдання
-    -   [Pool::construct](pool.construct.html) - Створює новий пул воркерів
-    -   [Pool::resize](pool.resize.html) - Змінює розмір пулу
-    -   [Pool::shutdown](pool.shutdown.html) - Вимикає всі воркери
-    -   [Pool::submit](pool.submit.html) - Відправляє об'єкт на виконання
-    -   [Pool::submitTo](pool.submitTo.html) — Надсилає завдання конкретному воркеру для виконання
--   [Volatile](class.volatile.html) - Клас Volatile
+-   [Введение](intro.pthreads.md)
+-   [Встановлення та налаштування](pthreads.setup.md)
+    -   [Вимоги](pthreads.requirements.md)
+    -   [Установка](pthreads.installation.md)
+    -   [Налаштування під час виконання](pthreads.configuration.md)
+-   [Обумовлені константи](pthreads.constants.md)
+-   [Threaded](class.threaded.md) - Клас Threaded
+    -   [Threaded::chunk](threaded.chunk.md) - Обробка
+    -   [Threaded::count](threaded.count.md) - Обробка
+    -   [Threaded::extend](threaded.extend.md) - Обробка під час виконання
+    -   [Threaded::isRunning](thread.isrunning.md) — Визначення стану
+    -   [Threaded::isTerminated](threaded.isterminated.md) — Визначення стану
+    -   [Threaded::merge](threaded.merge.md) - Обробка
+    -   [Threaded::notify](threaded.notify.md) - Синхронізація
+    -   [Threaded::notifyOne](threaded.notifyone.md) - Синхронізація
+    -   [Threaded::pop](threaded.pop.md) - Обробка
+    -   [Threaded::run](threaded.run.md) - Виконання
+    -   [Threaded::shift](threaded.shift.md) - Обробка
+    -   [Threaded::synchronized](threaded.synchronized.md) - Синхронізація
+    -   [Threaded::wait](threaded.wait.md) - Синхронізація
+-   [Thread](class.thread.md) - Клас Thread
+    -   [Thread::getCreatorId](thread.getcreatorid.md) - Ідентифікація
+    -   [Thread::getCurrentThread](thread.getcurrentthread.md) - Ідентифікація
+    -   [Thread::getCurrentThreadId](thread.getcurrentthreadid.md) - Ідентифікація
+    -   [Thread::getThreadId](thread.getthreadid.md) - Ідентифікація
+    -   [Thread::isJoined](thread.isjoined.md) — Визначення стану
+    -   [Thread::isStarted](thread.isstarted.md) — Визначення стану
+    -   [Thread::join](thread.join.md) - Синхронізація
+    -   [Thread::start](thread.start.md) - Виконання
+-   [Worker](class.worker.md) - Клас Worker
+    -   [Worker::collect](worker.collect.md) — Зібрати посилання на завершені завдання
+    -   [Worker::getStacked](worker.getstacked.md) — Повертає поточний розмір стека
+    -   [Worker::isShutdown](worker.isshutdown.md) — Визначення стану
+    -   [Worker::shutdown](worker.shutdown.md) - Зупинити Worker
+    -   [Worker::stack](worker.stack.md) — Покласти завдання на стек
+    -   [Worker::unstack](worker.unstack.md) — Забрати завдання зі стека
+-   [Collectable](class.collectable.md) - Інтерфейс Collectable
+    -   [Collectable::isGarbage](collectable.isgarbage.md) — Визначає, чи позначений об'єкт як сміття
+-   [Pool](class.pool.md) - Клас Pool
+    -   [Pool::collect](pool.collect.md) — Збирає посилання на виконані завдання
+    -   [Pool::construct](pool.construct.md) - Створює новий пул воркерів
+    -   [Pool::resize](pool.resize.md) - Змінює розмір пулу
+    -   [Pool::shutdown](pool.shutdown.md) - Вимикає всі воркери
+    -   [Pool::submit](pool.submit.md) - Відправляє об'єкт на виконання
+    -   [Pool::submitTo](pool.submitTo.md) — Надсилає завдання конкретному воркеру для виконання
+-   [Volatile](class.volatile.md) - Клас Volatile

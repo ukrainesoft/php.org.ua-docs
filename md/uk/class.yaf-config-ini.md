@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-config-abstract.toarray.html: '« YafConfigAbstract::toArray'
-  - yaf-config-ini.construct.html: 'YafConfigIni::construct »'
+  - yaf-config-abstract.toarray.md: '« YafConfigAbstract::toArray'
+  - yaf-config-ini.construct.md: 'YafConfigIni::construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafConfigIni

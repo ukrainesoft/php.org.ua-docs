@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-open-image-file.html: «psopenimagefile
-  - function.ps-open-memory-image.html: псopenmemoryimage »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-open-image-file.md: «psopenimagefile
+  - function.ps-open-memory-image.md: псopenmemoryimage »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псopenimage
 ---
 # псopenimage
@@ -24,7 +24,7 @@ ps_open_image(    resource $psdoc,    string $type,    string $sourc
 
 `psdoc`
 
-Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу PostScript-файлу, повернутий функцією [псnew()](function.ps-new.md)
 
 `type`
 
@@ -66,6 +66,6 @@ ps_open_image(    resource $psdoc,    string $type,    string $sourc
 
 ### Дивіться також
 
--   [псopenimagefile()](function.ps-open-image-file.html) - Відкриває зображення із файлу
--   [псplaceimage()](function.ps-place-image.html) - Розміщує зображення на сторінці
--   [псcloseimage()](function.ps-close-image.html) - Закриває зображення та звільняє пам'ять
+-   [псopenimagefile()](function.ps-open-image-file.md) - Відкриває зображення із файлу
+-   [псplaceimage()](function.ps-place-image.md) - Розміщує зображення на сторінці
+-   [псcloseimage()](function.ps-close-image.md) - Закриває зображення та звільняє пам'ять

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mysql-stat.html: « mysqlstat
-  - function.mysql-thread-id.html: mysqlthreadid »
-  - index.html: PHP Manual
-  - ref.mysql.html: MySQL
+  - function.mysql-stat.md: « mysqlstat
+  - function.mysql-thread-id.md: mysqlthreadid »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
 title: mysqltablename
 ---
 # mysqltablename
@@ -14,7 +14,7 @@ mysqltablename — Повертає ім'я таблиці, яка містит�
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   SQL запит: `SHOW TABLES`
 

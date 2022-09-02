@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-priorityqueue.copy.html: '« DsPriorityQueue::copy'
-  - ds-priorityqueue.isempty.html: 'ДсPriorityQueue::isEmpty »'
-  - index.html: PHP Manual
-  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - ds-priorityqueue.copy.md: '« DsPriorityQueue::copy'
+  - ds-priorityqueue.isempty.md: 'ДсPriorityQueue::isEmpty »'
+  - index.md: PHP Manual
+  - class.ds-priorityqueue.md: Черга з пріоритетом
 title: 'ДсPriorityQueue::count'
 ---
 # ДсPriorityQueue::count

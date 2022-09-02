@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-wsaprotocol-info-release.html: « socketwsaprotocolinforelease
-  - class.addressinfo.html: AddressInfo »
-  - index.html: PHP Manual
-  - book.sockets.html: Сокети
+  - function.socket-wsaprotocol-info-release.md: « socketwsaprotocolinforelease
+  - class.addressinfo.md: AddressInfo »
+  - index.md: PHP Manual
+  - book.sockets.md: Сокети
 title: Клас Socket
 ---
 # Клас Socket

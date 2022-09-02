@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-simple.construct.html: '« YafConfigSimple::construct'
-  - yaf-config-simple.current.html: 'YafConfigSimple::current »'
+  - yaf-config-simple.construct.md: '« YafConfigSimple::construct'
+  - yaf-config-simple.current.md: 'YafConfigSimple::current »'
   - index.md: PHP Manual
-  - class.yaf-config-simple.html: YafConfigSimple
+  - class.yaf-config-simple.md: YafConfigSimple
 title: 'YafConfigSimple::count'
 ---
 # YafConfigSimple::count

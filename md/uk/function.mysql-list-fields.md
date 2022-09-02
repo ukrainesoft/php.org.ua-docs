@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mysql-list-dbs.html: « mysqllistdbs
-  - function.mysql-list-processes.html: mysqllistprocesses »
-  - index.html: PHP Manual
-  - ref.mysql.html: MySQL
+  - function.mysql-list-dbs.md: « mysqllistdbs
+  - function.mysql-list-processes.md: mysqllistprocesses »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
 title: mysqllistfields
 ---
 # mysqllistfields
@@ -14,7 +14,7 @@ mysqllistfields — Повертає список колонок таблиці
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 5.4.0, і, разом з [модулем MySQL](book.mysql.html)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+Ця функція оголошена застарілою в PHP 5.4.0, і, разом з [модулем MySQL](book.mysql.md)видалено PHP в 7.0.0. Замість неї використовуйте модулі, що активно розвиваються. [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 -   SQL запит: `SHOW COLUMNS FROM sometable`
 
@@ -40,13 +40,13 @@ mysql_list_fields(string $database_name, string $table_name, resource $link_iden
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
 Дескриптор результату (resource) у разі успішного виконання, або **`false`** у разі виникнення помилки.
 
-Результат, що повертається, може бути оброблений за допомогою наступних функцій: [mysqlfieldflags()](function.mysql-field-flags.html) [mysqlfieldlen()](function.mysql-field-len.html) [mysqlfieldname()](function.mysql-field-name.html) і [mysqlfieldtype()](function.mysql-field-type.md)
+Результат, що повертається, може бути оброблений за допомогою наступних функцій: [mysqlfieldflags()](function.mysql-field-flags.md) [mysqlfieldlen()](function.mysql-field-len.md) [mysqlfieldname()](function.mysql-field-name.md) і [mysqlfieldtype()](function.mysql-field-type.md)
 
 ### Приклади
 

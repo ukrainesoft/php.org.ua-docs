@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-send.html: « socketsend
-  - function.socket-sendto.html: socketsendto »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-send.md: « socketsend
+  - function.socket-sendto.md: socketsendto »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketsendmsg
 ---
 # socketsendmsg

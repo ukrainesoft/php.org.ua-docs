@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serveropeningevent.gethost.html: '« MongoDBDriverMonitoringServerOpeningEvent::getHost'
-  - mongodb-driver-monitoring-serveropeningevent.gettopologyid.html: 'MongoDBDriverMonitoringServerOpeningEvent::getTopologyId »'
+  - mongodb-driver-monitoring-serveropeningevent.gethost.md: '« MongoDBDriverMonitoringServerOpeningEvent::getHost'
+  - mongodb-driver-monitoring-serveropeningevent.gettopologyid.md: 'MongoDBDriverMonitoringServerOpeningEvent::getTopologyId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serveropeningevent.html: MongoDBDriverMonitoringServerOpeningEvent
+  - class.mongodb-driver-monitoring-serveropeningevent.md: MongoDBDriverMonitoringServerOpeningEvent
 title: 'MongoDBDriverMonitoringServerOpeningEvent::getPort'
 ---
 # MongoDBDriverMonitoringServerOpeningEvent::getPort

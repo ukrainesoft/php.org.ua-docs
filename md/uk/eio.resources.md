@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eio.configuration.html: « Налаштування під час виконання
-  - eio.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - eio.setup.html: Встановлення та налаштування
+  - eio.configuration.md: « Налаштування під час виконання
+  - eio.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - eio.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

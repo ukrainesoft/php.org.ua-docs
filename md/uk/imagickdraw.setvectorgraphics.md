@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.settextundercolor.html: '« ImagickDraw::setTextUnderColor'
-  - imagickdraw.setviewbox.html: 'ImagickDraw::setViewbox »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.settextundercolor.md: '« ImagickDraw::setTextUnderColor'
+  - imagickdraw.setviewbox.md: 'ImagickDraw::setViewbox »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::setVectorGraphics'
 ---
 # ImagickDraw::setVectorGraphics

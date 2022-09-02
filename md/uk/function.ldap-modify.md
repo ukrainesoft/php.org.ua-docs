@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-modify-batch.html: « ldapmodifybatch
-  - function.ldap-next-attribute.html: ldapnextattribute »
+  - function.ldap-modify-batch.md: « ldapmodifybatch
+  - function.ldap-next-attribute.md: ldapnextattribute »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapmodify

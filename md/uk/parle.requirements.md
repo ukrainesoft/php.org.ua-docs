@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle.setup.html: « Встановлення та налаштування
-  - parle.installation.html: Установка »
-  - index.html: PHP Manual
-  - parle.setup.html: Встановлення та налаштування
+  - parle.setup.md: « Встановлення та налаштування
+  - parle.installation.md: Установка »
+  - index.md: PHP Manual
+  - parle.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

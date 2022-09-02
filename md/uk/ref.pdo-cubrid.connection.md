@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-cubrid.html: « CUBRID (PDO)
-  - pdo.cubrid-schema.html: 'PDO::cubridschema »'
+  - ref.pdo-cubrid.md: « CUBRID (PDO)
+  - pdo.cubrid-schema.md: 'PDO::cubridschema »'
   - index.md: PHP Manual
-  - ref.pdo-cubrid.html: CUBRID (PDO)
+  - ref.pdo-cubrid.md: CUBRID (PDO)
 title: PDOCUBRID DSN
 ---
 # PDOCUBRID DSN

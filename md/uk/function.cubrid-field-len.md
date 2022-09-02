@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-field-flags.html: « cubridfieldflags
-  - function.cubrid-field-name.html: cubridfieldname »
-  - index.html: PHP Manual
-  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+  - function.cubrid-field-flags.md: « cubridfieldflags
+  - function.cubrid-field-name.md: cubridfieldname »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridfieldlen
 ---
 # cubridfieldlen
@@ -24,7 +24,7 @@ cubrid_field_len(resource $result, int $field_offset): int
 
 `result`
 
-`Result` отриманий з [cubridexecute()](function.cubrid-execute.html)
+`Result` отриманий з [cubridexecute()](function.cubrid-execute.md)
 
 `field_offset`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration56.new-functions.html: « Нові функції
-  - migration56.extensions.html: Другие изменения в модулях »
-  - index.html: PHP Manual
-  - migration56.html: Миграция с PHP 5.5.x на PHP 5.6.x
+  - migration56.new-functions.md: « Нові функції
+  - migration56.extensions.md: Другие изменения в модулях »
+  - index.md: PHP Manual
+  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
 title: Зміни OpenSSL у PHP 5.6.x
 ---
 ## Зміни OpenSSL у PHP 5.6.x
@@ -12,23 +12,23 @@ title: Зміни OpenSSL у PHP 5.6.x
 
 Всі клієнтські потоки, що шифруються, тепер за замовчуванням включають перевірку бенкетів. За промовчанням використовується OpenSSL CA пакет для перевірки сертифіката бенкету. У більшості випадків нічого не потрібно робити для з'єднання з серверами з правильним SSL сертифікатом, так як зазвичай OpenSSL вже налаштований для використання хороших CA пакетів.
 
-Стандартний CA пакет може бути перевизначений глобально за допомогою установки або openssl.cafile або openssl.capath рядків конфігурації, або ж на рівні кожного запиту, використовуючи опції контексту [`cafile`](context.ssl.html#context.ssl.cafile) або [`capath`](context.ssl.html#context.ssl.capath)
+Стандартний CA пакет може бути перевизначений глобально за допомогою установки або openssl.cafile або openssl.capath рядків конфігурації, або ж на рівні кожного запиту, використовуючи опції контексту [`cafile`](context.ssl.md#context.ssl.cafile) або [`capath`](context.ssl.md#context.ssl.capath)
 
-Хоча це й не рекомендується, але можна вимкнути перевірку сертифіката бенкету для запиту, встановивши [`verify_peer`](context.ssl.html#context.ssl.verify-peer) опцію контексту в **`false`**, і можна вимкнути перевірку імені бенкету, встановивши [`verify_peer_name`](context.ssl.html#context.ssl.verify-peer-name) в **`false`**
+Хоча це й не рекомендується, але можна вимкнути перевірку сертифіката бенкету для запиту, встановивши [`verify_peer`](context.ssl.md#context.ssl.verify-peer) опцію контексту в **`false`**, і можна вимкнути перевірку імені бенкету, встановивши [`verify_peer_name`](context.ssl.md#context.ssl.verify-peer-name) в **`false`**
 
 ### Сигнатура сертифіката
 
-Було додано підтримку вилучення та перевірки сигнатури сертифіката. Для отримання сигнатур сертифікатів X.509 додано функцію [opensslx509fingerprint()](function.openssl-x509-fingerprint.html). Також було додано дві опції [контекста потока SSL](context.ssl.html) `capture_peer_cert` для захоплення вузлового сертифіката X.509, та `peer_fingerprint` для перевірки сертифіката на відповідність заданій сигнатурі.
+Було додано підтримку вилучення та перевірки сигнатури сертифіката. Для отримання сигнатур сертифікатів X.509 додано функцію [opensslx509fingerprint()](function.openssl-x509-fingerprint.md). Також було додано дві опції [контекста потока SSL](context.ssl.md) `capture_peer_cert` для захоплення вузлового сертифіката X.509, та `peer_fingerprint` для перевірки сертифіката на відповідність заданій сигнатурі.
 
 ### Оновлено шифри за замовчуванням
 
 Список стандартних шифрів, що використовуються PHP, був оновлений на більш безпечний відповідно до [»  рекомендациями по шифрам от Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite), з двома додатковими винятками: анонімні шифри Діффі-Хеллмана та RC4.
 
-Цей список доступний через нову константу **`OPENSSL_DEFAULT_STREAM_CIPHERS`**, і може бути перевизначений (як і в попередніх версіях PHP) установкою опцією контексту [`ciphers`](context.ssl.html#context.ssl.ciphers)
+Цей список доступний через нову константу **`OPENSSL_DEFAULT_STREAM_CIPHERS`**, і може бути перевизначений (як і в попередніх версіях PHP) установкою опцією контексту [`ciphers`](context.ssl.md#context.ssl.ciphers)
 
 ### Стиснення заборонено за умовчанням
 
-Стиснення SSL/TLS було заборонено за замовчуванням для зменшення зменшення ймовірності атаки типу CRIME. У PHP 5.4.13 було додано опцію контексту [`disable_compression`](context.ssl.html#context.ssl.disable-compression) для можливості заборонити компресію і тепер вона за умовчанням встановлена ​​як **`true`** (тобто компресію заборонено).
+Стиснення SSL/TLS було заборонено за замовчуванням для зменшення зменшення ймовірності атаки типу CRIME. У PHP 5.4.13 було додано опцію контексту [`disable_compression`](context.ssl.md#context.ssl.disable-compression) для можливості заборонити компресію і тепер вона за умовчанням встановлена ​​як **`true`** (тобто компресію заборонено).
 
 ### Дозвіл серверу визначати свій власний порядок шифрів
 
@@ -36,7 +36,7 @@ title: Зміни OpenSSL у PHP 5.6.x
 
 ### Доступ до узгодженого протоколу та шифру
 
-Протокол та шифр, узгоджені для шифрованого потоку, доступні за допомогою функцій [streamgetmetadata()](function.stream-get-meta-data.html) або [streamcontextgetoptions()](function.stream-context-get-options.html), якщо опція контексту SSL `capture_session_meta` встановлена ​​як **`true`**
+Протокол та шифр, узгоджені для шифрованого потоку, доступні за допомогою функцій [streamgetmetadata()](function.stream-get-meta-data.md) або [streamcontextgetoptions()](function.stream-context-get-options.md), якщо опція контексту SSL `capture_session_meta` встановлена ​​як **`true`**
 
 ```php
 <?php
@@ -89,9 +89,9 @@ openssl dhparam -out /path/to/my/certs/dh-2048.pem 2048
 
 ### Вибір версії SSL/TLS
 
-Тепер можна вибирати конкретну версію SSL та TLS за допомогою опції контексту `crypto_method` або вказуючи конкретний транспорт під час створення обгортки потоку (наприклад, за допомогою виклику [streamsocketclient()](function.stream-socket-client.html) або [streamsocketserver()](function.stream-socket-server.html)
+Тепер можна вибирати конкретну версію SSL та TLS за допомогою опції контексту `crypto_method` або вказуючи конкретний транспорт під час створення обгортки потоку (наприклад, за допомогою виклику [streamsocketclient()](function.stream-socket-client.md) або [streamsocketserver()](function.stream-socket-server.md)
 
-Опція контексту SSL `crypto_method` приймає бітову маску, що перераховує допустимі протоколи, як і задається в параметрі `crypto_type` функції [streamsocketenablecrypto()](function.stream-socket-enable-crypto.html)
+Опція контексту SSL `crypto_method` приймає бітову маску, що перераховує допустимі протоколи, як і задається в параметрі `crypto_type` функції [streamsocketenablecrypto()](function.stream-socket-enable-crypto.md)
 
 **Вибрана версія протоколу та відповідні опції**
 
@@ -130,9 +130,9 @@ $sock = stream_socket_client('tlsv1.2://google.com:443/');
 ?>
 ```
 
-### Додана функція [opensslgetcertlocations()](function.openssl-get-cert-locations.html)
+### Додана функція [opensslgetcertlocations()](function.openssl-get-cert-locations.md)
 
-Була додана функція [opensslgetcertlocations()](function.openssl-get-cert-locations.html): вона повертає розташування, в яких PHP шукатиме пакети CA за замовчуванням.
+Була додана функція [opensslgetcertlocations()](function.openssl-get-cert-locations.md): вона повертає розташування, в яких PHP шукатиме пакети CA за замовчуванням.
 
 ```php
 <?php
@@ -165,7 +165,7 @@ array(8) {
 
 ### Підтримка SPKI
 
-Було додано підтримку для створення, вилучення та перевірки підписаних публічних ключів та розпізнавальних рядків (SPKAC). Були додані функції [opensslspkinew()](function.openssl-spki-new.html) [opensslspkiverify()](function.openssl-spki-verify.html) [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.html) і [opensslspkiexport()](function.openssl-spki-export.html) для створення, перевірки експорту PEM публічних ключів та відповідних розпізнавальних рядків із SPKAC, створених з елементів HTML5 `KeyGen`
+Було додано підтримку для створення, вилучення та перевірки підписаних публічних ключів та розпізнавальних рядків (SPKAC). Були додані функції [opensslspkinew()](function.openssl-spki-new.md) [opensslspkiverify()](function.openssl-spki-verify.md) [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.md) і [opensslspkiexport()](function.openssl-spki-export.md) для створення, перевірки експорту PEM публічних ключів та відповідних розпізнавальних рядків із SPKAC, створених з елементів HTML5 `KeyGen`
 
 `openssl_spki_new`
 

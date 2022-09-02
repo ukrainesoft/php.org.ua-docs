@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.snmp-set-enum-print.html: « snmpsetenumprint
-  - function.snmp-set-oid-output-format.html: snmpsetoidoutputformat »
+  - function.snmp-set-enum-print.md: « snmpsetenumprint
+  - function.snmp-set-oid-output-format.md: snmpsetoidoutputformat »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpsetoidnumericprint

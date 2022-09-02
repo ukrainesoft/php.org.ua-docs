@@ -18,7 +18,7 @@ SessionHandlerInterface::destroy — Знищує сесію
 public SessionHandlerInterface::destroy(string $id): bool
 ```
 
-Знищує сесію. Викликається функціями [sessionregenerateid()](function.session-regenerate-id.html) (З $destroy = **`true`** [sessiondestroy()](function.session-destroy.html) та при невдалому завершенні функції [sessiondecode()](function.session-decode.md)
+Знищує сесію. Викликається функціями [sessionregenerateid()](function.session-regenerate-id.md) (З $destroy = **`true`** [sessiondestroy()](function.session-destroy.md) та при невдалому завершенні функції [sessiondecode()](function.session-decode.md)
 
 ### Список параметрів
 

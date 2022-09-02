@@ -1,9 +1,9 @@
 ---
 navigation:
-  - filesystemiterator.construct.html: '« FilesystemIterator::construct'
-  - filesystemiterator.getflags.html: 'FilesystemIterator::getFlags »'
-  - index.html: PHP Manual
-  - class.filesystemiterator.html: FilesystemIterator
+  - filesystemiterator.construct.md: '« FilesystemIterator::construct'
+  - filesystemiterator.getflags.md: 'FilesystemIterator::getFlags »'
+  - index.md: PHP Manual
+  - class.filesystemiterator.md: FilesystemIterator
 title: 'FilesystemIterator::current'
 ---
 # FilesystemIterator::current
@@ -26,7 +26,7 @@ public FilesystemIterator::current(): string|SplFileInfo|FilesystemIterator
 
 ### Значення, що повертаються
 
-Ім'я файлу, інформація про файл, або $this, залежно від встановлених прапорів. Дивіться [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
+Ім'я файлу, інформація про файл, або $this, залежно від встановлених прапорів. Дивіться [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)
 
 ### Приклади
 
@@ -53,6 +53,6 @@ foreach ($iterator as $fileinfo) {
 
 ### Дивіться також
 
--   [Константи FilesystemIterator](class.filesystemiterator.html#filesystemiterator.constants)
--   [DirectoryIterator::current()](directoryiterator.current.html) - Повертає поточний елемент DirectoryIterator
--   [DirectoryIterator::getFileName()](directoryiterator.getfilename.html) - Повертає ім'я файлу поточного елемента DirectoryIterator
+-   [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)
+-   [DirectoryIterator::current()](directoryiterator.current.md) - Повертає поточний елемент DirectoryIterator
+-   [DirectoryIterator::getFileName()](directoryiterator.getfilename.md) - Повертає ім'я файлу поточного елемента DirectoryIterator

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.fetch-row.html: '« mysqliresult::fetchrow'
-  - mysqli-result.field-seek.html: 'mysqliresult::fieldseek »'
+  - mysqli-result.fetch-row.md: '« mysqliresult::fetchrow'
+  - mysqli-result.field-seek.md: 'mysqliresult::fieldseek »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::$fieldcount'
 ---
 # mysqliresult::$fieldcount
@@ -32,7 +32,7 @@ mysqli_num_fields(mysqli_result $result): int
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 

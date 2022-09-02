@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ctype-alpha.html: « ctypealpha
-  - function.ctype-digit.html: ctypedigit »
-  - index.html: PHP Manual
-  - ref.ctype.html: Опції Ctype
+  - function.ctype-alpha.md: « ctypealpha
+  - function.ctype-digit.md: ctypedigit »
+  - index.md: PHP Manual
+  - ref.ctype.md: Опції Ctype
 title: ctypecntrl
 ---
 # ctypecntrl
@@ -32,7 +32,7 @@ ctype_cntrl(mixed $text): bool
 
 **Увага**
 
-Починаючи з PHP 8.1.0, передача нерядкових аргументів застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки, аргумент повинен бути приведений до рядка (string) або повинен бути зроблений явний виклик функції [chr()](function.chr.html)
+Починаючи з PHP 8.1.0, передача нерядкових аргументів застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки, аргумент повинен бути приведений до рядка (string) або повинен бути зроблений явний виклик функції [chr()](function.chr.md)
 
 ### Значення, що повертаються
 
@@ -64,4 +64,4 @@ foreach ($strings as $name => $testcase) {
 
 ### Дивіться також
 
--   [ctypeprint()](function.ctype-print.html) - Перевіряє наявність друкованих символів
+-   [ctypeprint()](function.ctype-print.md) - Перевіряє наявність друкованих символів

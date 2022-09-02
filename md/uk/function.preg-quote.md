@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.preg-match.html: « pregmatch
-  - function.preg-replace-callback-array.html: pregreplacecallbackarray »
+  - function.preg-match.md: « pregmatch
+  - function.preg-replace-callback-array.md: pregreplacecallbackarray »
   - index.md: PHP Manual
   - ref.pcre.md: Функции PCRE
 title: pregquote

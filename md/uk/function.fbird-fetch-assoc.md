@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-execute.html: « fbirdexecute
-  - function.fbird-fetch-object.html: fbirdfetchobject »
+  - function.fbird-execute.md: « fbirdexecute
+  - function.fbird-fetch-object.md: fbirdfetchobject »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdfetchassoc

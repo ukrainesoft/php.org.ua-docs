@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-config-data-dir.html: « pspellconfigdatadir
-  - function.pspell-config-ignore.html: pspellconfigignore »
+  - function.pspell-config-data-dir.md: « pspellconfigdatadir
+  - function.pspell-config-ignore.md: pspellconfigignore »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspellconfigdictdir

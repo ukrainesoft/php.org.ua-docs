@@ -59,7 +59,7 @@ if (empty($empty)) {
 
 **Мені треба перетворити всі одиночні лапки (') у зворотний сліш з наступною одиночною лапкою ('). Як я можу це зробити за допомогою регулярного виразу? Я також хотів би перетворити " на "і в**
 
-Маючи на увазі, що ви хочете використовувати результат перетворення в роботі з базою даних, використовуйте відповідний механізм екранування, що йде з базою даних, що використовується. Наприклад, використовуйте [mysqlrealescapestring()](function.mysql-real-escape-string.html) з MySQL та [пгescapestring()](function.pg-escape-string.md) з PostgreSQL. Є також загальніші функції [addslashes()](function.addslashes.md) і [stripslashes()](function.stripslashes.md)Вони часто зустрічаються в старому PHP-коді.
+Маючи на увазі, що ви хочете використовувати результат перетворення в роботі з базою даних, використовуйте відповідний механізм екранування, що йде з базою даних, що використовується. Наприклад, використовуйте [mysqlrealescapestring()](function.mysql-real-escape-string.md) з MySQL та [пгescapestring()](function.pg-escape-string.md) з PostgreSQL. Є також загальніші функції [addslashes()](function.addslashes.md) і [stripslashes()](function.stripslashes.md)Вони часто зустрічаються в старому PHP-коді.
 
 \*\*Коли я роблю таке, висновок друкується не в тому порядку:
 
@@ -108,7 +108,7 @@ foreach ($headers as $name => $content) {
 ?>
 ```
 
-Також дивіться [apachelookupuri()](function.apache-lookup-uri.html) [apacheresponseheaders()](function.apache-response-headers.md) і [fsockopen()](function.fsockopen.md)
+Також дивіться [apachelookupuri()](function.apache-lookup-uri.md) [apacheresponseheaders()](function.apache-response-headers.md) і [fsockopen()](function.fsockopen.md)
 
 **Коли я намагаюся використати аутентифікацію з IIS, я отримую 'No Input file specified'.**
 

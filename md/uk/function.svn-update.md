@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.svn-status.html: « svnstatus
+  - function.svn-status.md: « svnstatus
   - book.tcpwrap.md: TCP »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN

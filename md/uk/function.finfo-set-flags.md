@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.finfo-open.html: « finfoopen
-  - function.mime-content-type.html: mimecontenttype »
+  - function.finfo-open.md: « finfoopen
+  - function.mime-content-type.md: mimecontenttype »
   - index.md: PHP Manual
   - ref.fileinfo.md: Функции модуля Fileinfo
 title: finfosetflags

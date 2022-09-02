@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-get-parameter.html: «psgetparameter
-  - function.ps-hyphenate.html: псhyphenate »
+  - function.ps-get-parameter.md: «psgetparameter
+  - function.ps-hyphenate.md: псhyphenate »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псgetvalue

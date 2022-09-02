@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-javascript.unserialize.html: '« MongoDBBSONJavascript::unserialize'
-  - mongodb-bson-maxkey.construct.html: 'MongoDBBSONMaxKey::construct »'
-  - index.html: PHP Manual
-  - book.bson.html: MongoDBBSON
+  - mongodb-bson-javascript.unserialize.md: '« MongoDBBSONJavascript::unserialize'
+  - mongodb-bson-maxkey.construct.md: 'MongoDBBSONMaxKey::construct »'
+  - index.md: PHP Manual
+  - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONMaxKey
 ---
 # Клас MongoDBBSONMaxKey
@@ -47,7 +47,7 @@ final public unserialize(string $serialized): void
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDBBSONMaxKeyInterface](class.mongodb-bson-maxkeyinterface.md) |
-| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.html) і [JsonSerializable](class.jsonserializable.md) |
+| PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) і [JsonSerializable](class.jsonserializable.md) |
 
 ## Зміст
 

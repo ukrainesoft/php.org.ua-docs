@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.removeoptions.html: '« GearmanWorker::removeOptions'
-  - gearmanworker.setid.html: 'GearmanWorker::setId »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.removeoptions.md: '« GearmanWorker::removeOptions'
+  - gearmanworker.setid.md: 'GearmanWorker::setId »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::returnCode'
 ---
 # GearmanWorker::returnCode
@@ -30,5 +30,5 @@ public GearmanWorker::returnCode(): int
 
 ### Дивіться також
 
--   [GearmanWorker::error()](gearmanworker.error.html) - Отримання останньої виявленої помилки
--   [GearmanWorker::getErrno()](gearmanworker.geterrno.html) - Отримання номера помилки
+-   [GearmanWorker::error()](gearmanworker.error.md) - Отримання останньої виявленої помилки
+-   [GearmanWorker::getErrno()](gearmanworker.geterrno.md) - Отримання номера помилки

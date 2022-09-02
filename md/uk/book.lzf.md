@@ -1,21 +1,21 @@
 ---
 navigation:
-  - function.bzwrite.html: « bzwrite
-  - intro.lzf.html: Введение »
-  - index.html: PHP Manual
-  - refs.compression.html: Модулі для стиснення та архівації
+  - function.bzwrite.md: « bzwrite
+  - intro.lzf.md: Введение »
+  - index.md: PHP Manual
+  - refs.compression.md: Модулі для стиснення та архівації
 title: LZF
 ---
 # LZF
 
--   [Введение](intro.lzf.html)
--   [Встановлення та налаштування](lzf.setup.html)
-    -   [Вимоги](lzf.requirements.html)
-    -   [Установка](lzf.installation.html)
-    -   [Налаштування під час виконання](lzf.configuration.html)
-    -   [Типи ресурсів](lzf.resources.html)
--   [Обумовлені константи](lzf.constants.html)
--   [Функції LZF](ref.lzf.html)
-    -   [lzfcompress](function.lzf-compress.html) - Стиснення LZF
-    -   [lzfdecompress](function.lzf-decompress.html) - Розархівація LZF
-    -   [lzfoptimizedfor](function.lzf-optimized-for.html) — Визначає режим оптимізації модуля LZF
+-   [Введение](intro.lzf.md)
+-   [Встановлення та налаштування](lzf.setup.md)
+    -   [Вимоги](lzf.requirements.md)
+    -   [Установка](lzf.installation.md)
+    -   [Налаштування під час виконання](lzf.configuration.md)
+    -   [Типи ресурсів](lzf.resources.md)
+-   [Обумовлені константи](lzf.constants.md)
+-   [Функції LZF](ref.lzf.md)
+    -   [lzfcompress](function.lzf-compress.md) - Стиснення LZF
+    -   [lzfdecompress](function.lzf-decompress.md) - Розархівація LZF
+    -   [lzfoptimizedfor](function.lzf-optimized-for.md) — Визначає режим оптимізації модуля LZF

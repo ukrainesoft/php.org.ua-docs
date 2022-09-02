@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mcrypt-enc-get-modes-name.html: « mcryptencgetmodesname
-  - function.mcrypt-enc-is-block-algorithm-mode.html: mcryptencісblockalgorithmmode »
-  - index.html: PHP Manual
-  - ref.mcrypt.html: Mcrypt
+  - function.mcrypt-enc-get-modes-name.md: « mcryptencgetmodesname
+  - function.mcrypt-enc-is-block-algorithm-mode.md: mcryptencісblockalgorithmmode »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
 title: mcryptencgetsupportedkeysizes
 ---
 # mcryptencgetsupportedkeysizes

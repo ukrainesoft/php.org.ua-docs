@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.close.html: '« SwooleProcess::close'
-  - swoole-process.daemon.html: 'SwooleProcess::daemon »'
+  - swoole-process.close.md: '« SwooleProcess::close'
+  - swoole-process.daemon.md: 'SwooleProcess::daemon »'
   - index.md: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::construct'
 ---
 # SwooleProcess::construct

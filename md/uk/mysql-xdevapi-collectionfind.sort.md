@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.offset.html: '« CollectionFind::offset'
-  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify »
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+  - mysql-xdevapi-collectionfind.offset.md: '« CollectionFind::offset'
+  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
 title: 'CollectionFind::sort'
 ---
 # CollectionFind::sort

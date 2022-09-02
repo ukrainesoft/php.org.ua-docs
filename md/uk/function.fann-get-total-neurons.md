@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-total-connections.html: « fanngettotalconnections
-  - function.fann-get-train-error-function.html: fanngettrainerrorfunction »
+  - function.fann-get-total-connections.md: « fanngettotalconnections
+  - function.fann-get-train-error-function.md: fanngettrainerrorfunction »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngettotalneurons

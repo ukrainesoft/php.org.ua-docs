@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.radius-send-request.html: « radiussendrequest
-  - function.radius-strerror.html: radiusstrerror »
-  - index.html: PHP Manual
-  - ref.radius.html: Функции Radius
+  - function.radius-send-request.md: « radiussendrequest
+  - function.radius-strerror.md: radiusstrerror »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
 title: radiusserversecret
 ---
 # radiusserversecret

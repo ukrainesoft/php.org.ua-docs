@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setimagescene.html: '« Gmagick::setimagescene'
-  - gmagick.setimageunits.html: 'Gmagick::setimageunits »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setimagescene.md: '« Gmagick::setimagescene'
+  - gmagick.setimageunits.md: 'Gmagick::setimageunits »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagetype'
 ---
 # Gmagick::setimagetype
@@ -24,11 +24,11 @@ public Gmagick::setimagetype(int $imgType): Gmagick
 
 `imgType`
 
-Одна з констант [типа изображения](gmagick.constants.html#gmagick.constants.imagetype) `Gmagick::IMGTYPE_*`
+Одна з констант [типа изображения](gmagick.constants.md#gmagick.constants.imagetype) `Gmagick::IMGTYPE_*`
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

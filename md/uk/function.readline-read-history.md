@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.readline-on-new-line.html: « readlineвінnewline
-  - function.readline-redisplay.html: readlineredisplay »
+  - function.readline-on-new-line.md: « readlineвінnewline
+  - function.readline-redisplay.md: readlineredisplay »
   - index.md: PHP Manual
   - ref.readline.md: Функции Readline
 title: readlinereadhistory

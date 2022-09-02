@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.parse-ini-string.html: « parseinistring
+  - function.parse-ini-string.md: « parseinistring
   - function.pclose.md: pclose »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи

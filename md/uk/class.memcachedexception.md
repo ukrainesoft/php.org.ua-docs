@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.touchbykey.html: '« Memcached::touchByKey'
-  - book.mqseries.html: mqseries »
-  - index.html: PHP Manual
-  - book.memcached.html: Memcached
+  - memcached.touchbykey.md: '« Memcached::touchByKey'
+  - book.mqseries.md: mqseries »
+  - index.md: PHP Manual
+  - book.memcached.md: Memcached
 title: Клас MemcachedException
 ---
 # Клас MemcachedException

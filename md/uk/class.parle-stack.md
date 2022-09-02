@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rparser.validate.html: '« ParleRParser::validate'
-  - parle-stack.pop.html: 'ParleStack::pop »'
-  - index.html: PHP Manual
-  - book.parle.html: Parle
+  - parle-rparser.validate.md: '« ParleRParser::validate'
+  - parle-stack.pop.md: 'ParleStack::pop »'
+  - index.md: PHP Manual
+  - book.parle.md: Parle
 title: Клас ParleStack
 ---
 # Клас ParleStack
@@ -66,5 +66,5 @@ top
 
 ## Зміст
 
--   [ParleStack::pop](parle-stack.pop.html) — Витягує предмет із стеку
--   [ParleStack::push](parle-stack.push.html) — Поміщає елемент у стек
+-   [ParleStack::pop](parle-stack.pop.md) — Витягує предмет із стеку
+-   [ParleStack::push](parle-stack.push.md) — Поміщає елемент у стек

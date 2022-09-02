@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-set-cookie-params.html: « sessionsetcookieparams
-  - function.session-start.html: sessionstart »
+  - function.session-set-cookie-params.md: « sessionsetcookieparams
+  - function.session-start.md: sessionstart »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessionsetsavehandler
@@ -36,7 +36,7 @@ session_set_save_handler(object $sessionhandler, bool $register_shutdown = true)
 
 `register_shutdown`
 
-Зареєструвати [sessionwriteclose()](function.session-write-close.html) як функцію [registershutdownfunction()](function.register-shutdown-function.md)
+Зареєструвати [sessionwriteclose()](function.session-write-close.md) як функцію [registershutdownfunction()](function.register-shutdown-function.md)
 
 або
 
@@ -72,7 +72,7 @@ Callback-функція `read` повинна завжди повертати к
 
 Ця callback-функція викликається внутрішнім механізмом PHP при старті сесії або виклику [sessionstart()](function.session-start.md). Перед тим, як буде викликана ця callback-функція, PHP викличе callback-функцію `open`
 
-Значення, що повертається даної callback-функції повинно бути в такому ж серіалізованому форматі, який спочатку передавався для зберігання в callback-функцію `write`. Значення, що повертається, буде автоматично десеріалізовано PHP і використано для заповнення суперглобальної змінної [SESSION](reserved.variables.session.md). Навіть якщо дані схожі на результат [serialize()](function.serialize.md), варто пам'ятати, що це інший формат серіалізації, який визначений ini-директивою [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+Значення, що повертається даної callback-функції повинно бути в такому ж серіалізованому форматі, який спочатку передавався для зберігання в callback-функцію `write`. Значення, що повертається, буде автоматично десеріалізовано PHP і використано для заповнення суперглобальної змінної [SESSION](reserved.variables.session.md). Навіть якщо дані схожі на результат [serialize()](function.serialize.md), варто пам'ятати, що це інший формат серіалізації, який визначений ini-директивою [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
 
 `write`
 
@@ -82,7 +82,7 @@ Callback-функція з наступною сигнатурою:
 write(string $sessionId, string $data): bool
 ```
 
-Callback-функція `write` викликається, коли сесія має бути збережена та закрита. Ця callback-функція приймає ідентифікатор поточної сесії та серіалізовану версію суперглобальної змінної [SESSION](reserved.variables.session.md). Метод серіалізації, що використовується всередині PHP, визначений ini-директивою. [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+Callback-функція `write` викликається, коли сесія має бути збережена та закрита. Ця callback-функція приймає ідентифікатор поточної сесії та серіалізовану версію суперглобальної змінної [SESSION](reserved.variables.session.md). Метод серіалізації, що використовується всередині PHP, визначений ini-директивою. [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
 
 Передані у цю callback-функцію серіалізовані дані сесії мають бути збережені у зв'язку з переданим ідентифікатором сесії. При отриманні цих даних, callback-функція `read` повинна повернути те саме значення, що було передано в callback-функцію `write`
 
@@ -100,7 +100,7 @@ Callback-функція з наступною сигнатурою:
 destroy(string $sessionId): bool
 ```
 
-Ця callback-функція викликається, коли сесія знищується за допомогою [sessiondestroy()](function.session-destroy.html) або під час виклику [sessionregenerateid()](function.session-regenerate-id.md) з параметром destroy, встановленим у **`true`**. Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
+Ця callback-функція викликається, коли сесія знищується за допомогою [sessiondestroy()](function.session-destroy.md) або під час виклику [sessionregenerateid()](function.session-regenerate-id.md) з параметром destroy, встановленим у **`true`**. Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
 
 `gc`
 
@@ -110,7 +110,7 @@ Callback-функція з наступною сигнатурою:
 gc(int $lifetime): bool
 ```
 
-Callback-функція збирача сміття періодично викликається PHP для очищення даних старих сесій. Частота контролюється директивами [session.gcprobability](session.configuration.html#ini.session.gc-probability) і [session.gcdivisor](session.configuration.html#ini.session.gc-divisor). Значення lifetime, яке передається в дану callback-функцію, може бути встановлено в [session.gcmaxlifetime](session.configuration.html#ini.session.gc-maxlifetime). Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
+Callback-функція збирача сміття періодично викликається PHP для очищення даних старих сесій. Частота контролюється директивами [session.gcprobability](session.configuration.md#ini.session.gc-probability) і [session.gcdivisor](session.configuration.md#ini.session.gc-divisor). Значення lifetime, яке передається в дану callback-функцію, може бути встановлено в [session.gcmaxlifetime](session.configuration.md#ini.session.gc-maxlifetime). Значення, що повертається, має бути **`true`** у разі успішного виконання, **`false`** у разі невдачі.
 
 `create_sid`
 
@@ -130,7 +130,7 @@ Callback-функція з наступною сигнатурою:
 validate_sid(string $key): bool
 ```
 
-Callback-функція виконується, коли має бути запущена сесія, надається ідентифікатор сесії та вмикається [session.usestrictmode](session.configuration.html#ini.session.use-strict-mode). . `key` – це ідентифікатор сесії для перевірки. Ідентифікатор сесії є дійсним, якщо сесія з таким ідентифікатором вже існує. Значення, що повертається, має бути **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
+Callback-функція виконується, коли має бути запущена сесія, надається ідентифікатор сесії та вмикається [session.usestrictmode](session.configuration.md#ini.session.use-strict-mode). . `key` – це ідентифікатор сесії для перевірки. Ідентифікатор сесії є дійсним, якщо сесія з таким ідентифікатором вже існує. Значення, що повертається, має бути **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 `update_timestamp`
 
@@ -182,8 +182,8 @@ session_start();
 
 ### Дивіться також
 
--   Директива [session.savehandler](session.configuration.html#ini.session.save-handler)
--   Директива [session.serializehandler](session.configuration.html#ini.session.serialize-handler)
+-   Директива [session.savehandler](session.configuration.md#ini.session.save-handler)
+-   Директива [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
 -   [registershutdownfunction()](function.register-shutdown-function.md) - Реєструє функцію, яка виконається після завершення роботи скрипту
 -   [sessionregistershutdown()](function.session-register-shutdown.md) - функція завершення сесії
 -   Зверніться до [» savehandler.inc](https://github.com/php/php-src/blob/master/ext/session/tests/save_handler.inc) для повного набору рекомендацій щодо реалізації

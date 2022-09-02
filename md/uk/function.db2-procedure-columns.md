@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-primary-keys.html: « db2primarykeys
-  - function.db2-procedures.html: db2procedures »
+  - function.db2-primary-keys.md: « db2primarykeys
+  - function.db2-procedures.md: db2procedures »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2procedurecolumns
 ---
 # db2procedurecolumns

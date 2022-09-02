@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-next-result.html: « odbcnextresult
-  - function.odbc-num-rows.html: odbcnumrows »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-next-result.md: « odbcnextresult
+  - function.odbc-num-rows.md: odbcnumrows »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcnumfields
 ---
 # odbcnumfields

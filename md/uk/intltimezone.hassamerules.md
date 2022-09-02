@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.getwindowsid.html: '« IntlTimeZone::getWindowsID'
-  - intltimezone.todatetimezone.html: 'IntlTimeZone::toDateTimeZone »'
-  - index.html: PHP Manual
-  - class.intltimezone.html: IntlTimeZone
+  - intltimezone.getwindowsid.md: '« IntlTimeZone::getWindowsID'
+  - intltimezone.todatetimezone.md: 'IntlTimeZone::toDateTimeZone »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::hasSameRules'
 ---
 # IntlTimeZone::hasSameRules

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle.regex.unicodecharclass.html: « Класи символів Unicode
-  - parle.regex.anchors.html: Якоря »
-  - index.html: PHP Manual
-  - parle.pattern.matching.html: Сопоставление с шаблоном
+  - parle.regex.unicodecharclass.md: « Класи символів Unicode
+  - parle.regex.anchors.md: Якоря »
+  - index.md: PHP Manual
+  - parle.pattern.matching.md: Сопоставление с шаблоном
 title: Чергування та повторення
 ---
 ## Чергування та повторення

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-share-init.html: « curlshareinit
-  - function.curl-share-strerror.html: curlsharestrerror »
+  - function.curl-share-init.md: « curlshareinit
+  - function.curl-share-strerror.md: curlsharestrerror »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlsharesetopt

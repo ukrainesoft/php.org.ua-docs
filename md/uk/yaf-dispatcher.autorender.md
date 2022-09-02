@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-dispatcher.html: « YafDispatcher
-  - yaf-dispatcher.catchexception.html: 'YafDispatcher::catchException »'
+  - class.yaf-dispatcher.md: « YafDispatcher
+  - yaf-dispatcher.catchexception.md: 'YafDispatcher::catchException »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::autoRender'
 ---
 # YafDispatcher::autoRender

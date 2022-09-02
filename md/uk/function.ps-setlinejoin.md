@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-setlinecap.html: «pssetlinecap
-  - function.ps-setlinewidth.html: псsetlinewidth »
+  - function.ps-setlinecap.md: «pssetlinecap
+  - function.ps-setlinewidth.md: псsetlinewidth »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsetlinejoin

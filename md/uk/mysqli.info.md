@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mysqli.get-warnings.html: '« mysqli::getwarnings'
+  - mysqli.get-warnings.md: '« mysqli::getwarnings'
   - mysqli.init.md: 'mysqli::init »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli

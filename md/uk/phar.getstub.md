@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.getsignature.html: '« Phar::getSignature'
-  - phar.getsupportedcompression.html: 'Phar::getSupportedCompression »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.getsignature.md: '« Phar::getSignature'
+  - phar.getsupportedcompression.md: 'Phar::getSupportedCompression »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::getStub'
 ---
 # Phar::getStub
@@ -42,7 +42,7 @@ php myphar.phar
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html), якщо з будь-яких причин не може отримати текст завантажувача.
+Викидає виняток [RuntimeException](class.runtimeexception.md), якщо з будь-яких причин не може отримати текст завантажувача.
 
 ### Приклади
 
@@ -82,5 +82,5 @@ __HALT_COMPILER(); ?>
 
 ### Дивіться також
 
--   [Phar::setStub()](phar.setstub.html) - Встановити завантажувач або завантажувальну заглушку в Phar-архів
--   [Phar::createDefaultStub()](phar.createdefaultstub.html) - Створити заглушку у форматі phar-архіву
+-   [Phar::setStub()](phar.setstub.md) - Встановити завантажувач або завантажувальну заглушку в Phar-архів
+-   [Phar::createDefaultStub()](phar.createdefaultstub.md) - Створити заглушку у форматі phar-архіву

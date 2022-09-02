@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.phpdbg-break-next.html: « phpdbgbreaknext
-  - function.phpdbg-color.html: phpdbgcolor »
+  - function.phpdbg-break-next.md: « phpdbgbreaknext
+  - function.phpdbg-color.md: phpdbgcolor »
   - index.md: PHP Manual
   - ref.phpdbg.md: Функции phpdbg
 title: phpdbgclear

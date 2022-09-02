@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mysqli.get-server-version.html: '« mysqli::$serverversion'
+  - mysqli.get-server-version.md: '« mysqli::$serverversion'
   - mysqli.info.md: 'mysqli::$info »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.get.html: '« YafSession::get'
-  - yaf-session.has.html: 'YafSession::has »'
-  - index.html: PHP Manual
-  - class.yaf-session.html: YafSession
+  - yaf-session.get.md: '« YafSession::get'
+  - yaf-session.has.md: 'YafSession::has »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
 title: 'YafSession::getInstance'
 ---
 # YafSession::getInstance

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.thread.html: « Thread
-  - thread.getcurrentthread.html: 'Thread::getCurrentThread »'
-  - index.html: PHP Manual
-  - class.thread.html: Thread
+  - class.thread.md: « Thread
+  - thread.getcurrentthread.md: 'Thread::getCurrentThread »'
+  - index.md: PHP Manual
+  - class.thread.md: Thread
 title: 'Thread::getCreatorId'
 ---
 # Thread::getCreatorId

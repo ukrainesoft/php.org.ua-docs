@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzread.html: « gzread
-  - function.gzseek.html: gzseek »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzread.md: « gzread
+  - function.gzseek.md: gzseek »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzrewind
 ---
 # gzrewind

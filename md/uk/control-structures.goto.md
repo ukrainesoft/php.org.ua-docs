@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.include-once.html: « includeonce
+  - function.include-once.md: « includeonce
   - language.functions.md: Функції »
   - index.md: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - language.control-structures.md: Управляющие конструкции
 title: goto
 ---
 ## goto

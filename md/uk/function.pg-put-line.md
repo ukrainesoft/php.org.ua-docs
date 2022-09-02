@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-prepare.html: « pgprepare
-  - function.pg-query-params.html: пгqueryparams »
+  - function.pg-prepare.md: « pgprepare
+  - function.pg-query-params.md: пгqueryparams »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгputline
@@ -30,13 +30,13 @@ pg_put_line(PgSql\Connection $connection = ?, string $data): bool
 
 **Увага**
 
-Використання **пгputline()** може призвести до відмови операцій з великими об'єктами, що включають функції [пглоread()](function.pg-lo-read.html) і [пглоtell()](function.pg-lo-tell.html). Для цього використовуйте функції [пгcopyfrom()](function.pg-copy-from.html) і [пгcopyto()](function.pg-copy-to.md)
+Використання **пгputline()** може призвести до відмови операцій з великими об'єктами, що включають функції [пглоread()](function.pg-lo-read.md) і [пглоtell()](function.pg-lo-tell.md). Для цього використовуйте функції [пгcopyfrom()](function.pg-copy-from.md) і [пгcopyto()](function.pg-copy-to.md)
 
 ### Список параметрів
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mongodb.bson-fromjson.html: « MongoDBBSONfromJSON
-  - function.mongodb.bson-tocanonicalextendedjson.html: MongoDBBSONtoCanonicalExtendedJSON »
+  - function.mongodb.bson-fromjson.md: « MongoDBBSONfromJSON
+  - function.mongodb.bson-tocanonicalextendedjson.md: MongoDBBSONtoCanonicalExtendedJSON »
   - index.md: PHP Manual
   - ref.bson.functions.md: Функції
 title: MongoDBBSONвідPHP
@@ -32,7 +32,7 @@ MongoDB\BSON\fromPHP(array|object $value): string
 
 ### Помилки
 
--   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.html), якщо значення PHP не може бути перетворено на BSON. Можливі причини включають, але не обмежуються, зіткненням з несподіваним екземпляром [MongoDBBSONType](class.mongodb-bson-type.html) або [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md), не може повернути array або **stdClass**
+-   Видає [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md), якщо значення PHP не може бути перетворено на BSON. Можливі причини включають, але не обмежуються, зіткненням з несподіваним екземпляром [MongoDBBSONType](class.mongodb-bson-type.md) або [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md), не може повернути array або **stdClass**
 
 ### Приклади
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-multilineentry.append.html: '« UIControlsMultilineEntry::append'
-  - ui-controls-multilineentry.gettext.html: 'ОЙControlsMultilineEntry::getText »'
+  - ui-controls-multilineentry.append.md: '« UIControlsMultilineEntry::append'
+  - ui-controls-multilineentry.gettext.md: 'ОЙControlsMultilineEntry::getText »'
   - index.md: PHP Manual
-  - class.ui-controls-multilineentry.html: ОЙControlsMultilineEntry
+  - class.ui-controls-multilineentry.md: ОЙControlsMultilineEntry
 title: 'ОЙControlsMultilineEntry::construct'
 ---
 # ОЙControlsMultilineEntry::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.domcdatasection.html: « DOMCdataSection
-  - class.domcharacterdata.html: DOMCharacterData »
-  - index.html: PHP Manual
-  - class.domcdatasection.html: DOMCdataSection
+  - class.domcdatasection.md: « DOMCdataSection
+  - class.domcharacterdata.md: DOMCharacterData »
+  - index.md: PHP Manual
+  - class.domcdatasection.md: DOMCdataSection
 title: 'DOMCdataSection::construct'
 ---
 # DOMCdataSection::construct

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.setdeterministicconnorder.html: '« Zookeeper::setDeterministicConnOrder'
-  - zookeeper.setwatcher.html: 'Zookeeper::setWatcher »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.setdeterministicconnorder.md: '« Zookeeper::setDeterministicConnOrder'
+  - zookeeper.setwatcher.md: 'Zookeeper::setWatcher »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::setLogStream'
 ---
 # Zookeeper::setLogStream

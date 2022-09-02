@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-response.gzip.html: '« SwooleHttpResponse::gzip'
-  - swoole-http-response.initheader.html: 'SwooleHttpResponse::initHeader »'
-  - index.html: PHP Manual
-  - class.swoole-http-response.html: SwooleHttpResponse
+  - swoole-http-response.gzip.md: '« SwooleHttpResponse::gzip'
+  - swoole-http-response.initheader.md: 'SwooleHttpResponse::initHeader »'
+  - index.md: PHP Manual
+  - class.swoole-http-response.md: SwooleHttpResponse
 title: 'SwooleHttpResponse::header'
 ---
 # SwooleHttpResponse::header

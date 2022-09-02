@@ -1,7 +1,7 @@
 ---
 navigation:
-  - parallel-channel.close.html: '« parallelChannel::close'
-  - parallel-events.setblocking.html: 'parallelEvents::setBlocking »'
+  - parallel-channel.close.md: '« parallelChannel::close'
+  - parallel-events.setblocking.md: 'parallelEvents::setBlocking »'
   - index.md: PHP Manual
   - book.parallel.md: parallel
 title: Клас parallelEvents
@@ -10,7 +10,7 @@ title: Клас parallelEvents
 
 ## Цикл подій
 
-Цикл подій відстежує стан наборів об'єктів Future та/або Channel (цілей) для виконання операцій читання ([parallelFuture::value()](parallel-future.value.html) [parallelChannel::recv()](parallel-channel.recv.html)) та записи ([parallelChannel::send()](parallel-channel.send.md)) у міру того, як цілі стають доступними та операції можуть виконуватися без блокування циклу подій.
+Цикл подій відстежує стан наборів об'єктів Future та/або Channel (цілей) для виконання операцій читання ([parallelFuture::value()](parallel-future.value.md) [parallelChannel::recv()](parallel-channel.recv.md)) та записи ([parallelChannel::send()](parallel-channel.send.md)) у міру того, як цілі стають доступними та операції можуть виконуватися без блокування циклу подій.
 
 ## Огляд класів
 

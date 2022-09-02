@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-javascript.getcode.html: '« MongoDBBSONJavascript::getCode'
-  - mongodb-bson-javascript.jsonserialize.html: 'MongoDBBSONJavascript::jsonSerialize »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+  - mongodb-bson-javascript.getcode.md: '« MongoDBBSONJavascript::getCode'
+  - mongodb-bson-javascript.jsonserialize.md: 'MongoDBBSONJavascript::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-javascript.md: MongoDBBSONJavascript
 title: 'MongoDBBSONJavascript::getScope'
 ---
 # MongoDBBSONJavascript::getScope
@@ -28,7 +28,7 @@ final public MongoDB\BSON\Javascript::getScope(): ?object
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 

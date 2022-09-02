@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-informix.html: « Informix (PDO)
-  - ref.pdo-mysql.html: MySQL (PDO) »
+  - ref.pdo-informix.md: « Informix (PDO)
+  - ref.pdo-mysql.md: MySQL (PDO) »
   - index.md: PHP Manual
-  - ref.pdo-informix.html: Informix (PDO)
+  - ref.pdo-informix.md: Informix (PDO)
 title: PDOINFORMIX DSN
 ---
 # PDOINFORMIX DSN

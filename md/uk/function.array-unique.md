@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-uintersect.html: « arrayuintersect
-  - function.array-unshift.html: arrayunshift »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-uintersect.md: « arrayuintersect
+  - function.array-unshift.md: arrayunshift »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayunique
 ---
 # arrayunique
@@ -99,4 +99,4 @@ array(2) {
 
 ### Дивіться також
 
--   [arraycountvalues()](function.array-count-values.html) - підраховує кількість усіх значень масиву
+-   [arraycountvalues()](function.array-count-values.md) - підраховує кількість усіх значень масиву

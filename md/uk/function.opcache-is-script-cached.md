@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.opcache-invalidate.html: « opcacheinvalidate
-  - function.opcache-reset.html: opcachereset »
+  - function.opcache-invalidate.md: « opcacheinvalidate
+  - function.opcache-reset.md: opcachereset »
   - index.md: PHP Manual
   - ref.opcache.md: Функции OPcache
 title: opcacheісscriptcached

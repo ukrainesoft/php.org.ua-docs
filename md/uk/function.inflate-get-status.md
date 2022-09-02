@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.inflate-get-read-len.html: « inflategetreadlen
-  - function.inflate-init.html: inflateinit »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.inflate-get-read-len.md: « inflategetreadlen
+  - function.inflate-init.md: inflateinit »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: inflategetstatus
 ---
 # inflategetstatus
@@ -32,4 +32,4 @@ inflate_get_status(InflateContext $context): int
 
 | Версия | Описание |
 | --- | --- |
-|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.html); раніше, очікувався ресурс (resource). |
+|  | `context` чекає на екземпляр [InflateContext](class.inflatecontext.md); раніше, очікувався ресурс (resource). |

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-bucket-prepend.html: « streambucketprepend
-  - function.stream-context-get-default.html: streamcontextgetdefault »
+  - function.stream-bucket-prepend.md: « streambucketprepend
+  - function.stream-context-get-default.md: streamcontextgetdefault »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamcontextcreate

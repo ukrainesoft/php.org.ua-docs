@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.yaml-parse-url.html: « yamlparseurl
+  - function.yaml-parse-url.md: « yamlparseurl
   - book.yaf.md: Yaf »
   - index.md: PHP Manual
   - ref.yaml.md: Функции Yaml

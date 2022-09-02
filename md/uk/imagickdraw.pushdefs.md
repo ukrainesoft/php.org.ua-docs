@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.pushclippath.html: '« ImagickDraw::pushClipPath'
-  - imagickdraw.pushpattern.html: 'ImagickDraw::pushPattern »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.pushclippath.md: '« ImagickDraw::pushClipPath'
+  - imagickdraw.pushpattern.md: 'ImagickDraw::pushPattern »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pushDefs'
 ---
 # ImagickDraw::pushDefs
@@ -22,7 +22,7 @@ public ImagickDraw::pushDefs(): bool
 
 На цей час ця функція ще була документована; для ознайомлення доступний лише перелік аргументів.
 
-Вказує, що команди аж до завершальної команди [ImagickDraw::popDefs()](imagickdraw.popdefs.html) створюють іменовані елементи (наприклад, шляхи відсічного контуру, текстури тощо), які можуть безпечно оброблятися раніше для підвищення ефективності.
+Вказує, що команди аж до завершальної команди [ImagickDraw::popDefs()](imagickdraw.popdefs.md) створюють іменовані елементи (наприклад, шляхи відсічного контуру, текстури тощо), які можуть безпечно оброблятися раніше для підвищення ефективності.
 
 ### Значення, що повертаються
 

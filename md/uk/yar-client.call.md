@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yar-client.html: « YarClient
-  - yar-client.construct.html: 'YarClient::construct »'
+  - class.yar-client.md: « YarClient
+  - yar-client.construct.md: 'YarClient::construct »'
   - index.md: PHP Manual
-  - class.yar-client.html: YarClient
+  - class.yar-client.md: YarClient
 title: 'YarClient::call'
 ---
 # YarClient::call

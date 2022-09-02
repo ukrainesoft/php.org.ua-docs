@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-version.html: « pgversion
-  - class.pgsql-result.html: PgSqlResult »
+  - function.pg-version.md: « pgversion
+  - class.pgsql-result.md: PgSqlResult »
   - index.md: PHP Manual
   - book.pgsql.md: PostgreSQL
 title: Клас PgSqlConnection

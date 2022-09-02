@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-set-status.html: « fdfsetstatus
-  - function.fdf-set-target-frame.html: fdfsettargetframe »
+  - function.fdf-set-status.md: « fdfsetstatus
+  - function.fdf-set-target-frame.md: fdfsettargetframe »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfsetsubmitformaction
@@ -24,7 +24,7 @@ fdf_set_submit_form_action(    resource $fdf_document,    string $fieldn
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 `fieldname`
 

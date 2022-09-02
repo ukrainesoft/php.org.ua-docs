@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.msg-queue-exists.html: « msgqueueexists
-  - function.msg-remove-queue.html: msgremovequeue »
+  - function.msg-queue-exists.md: « msgqueueexists
+  - function.msg-remove-queue.md: msgremovequeue »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: msgreceive

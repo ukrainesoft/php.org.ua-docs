@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.decompress.html: '« Phar::decompress'
-  - phar.delmetadata.html: 'Phar::delMetadata »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.decompress.md: '« Phar::decompress'
+  - phar.delmetadata.md: 'Phar::delMetadata »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::decompressFiles'
 ---
 # Phar::decompressFiles
@@ -20,11 +20,11 @@ public Phar::decompressFiles(): bool
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-У разі використання з phar-архівами, заснованими на tar, цей метод викидає виняток [BadMethodCallException](class.badmethodcallexception.html), оскільки стиснення окремих файлів усередині tar-архіву не підтримується цим форматом. Для стиснення цілого phar-архіву, заснованого на tar, використовуйте [Phar::compress()](phar.compress.md)
+У разі використання з phar-архівами, заснованими на tar, цей метод викидає виняток [BadMethodCallException](class.badmethodcallexception.md), оскільки стиснення окремих файлів усередині tar-архіву не підтримується цим форматом. Для стиснення цілого phar-архіву, заснованого на tar, використовуйте [Phar::compress()](phar.compress.md)
 
-У разі використання з phar-архівами, що базуються на zip або phar, цей метод розпаковує всі файли в Phar-архіві. Якщо будь-які файли всередині архіву були стиснуті за допомогою bzip2/zlib-стиснення, то для можливості скористатися даним методом повинен бути включений модуль [zlib](ref.zlib.html) або [bzip2](ref.bzip2.md). Як і у випадку з іншим функціоналом, що модифікує зміст phar-архіву, для успішної роботи даного методу необхідно, щоб INI-змінна [phar.readonly](phar.configuration.html#ini.phar.readonly) було відключено.
+У разі використання з phar-архівами, що базуються на zip або phar, цей метод розпаковує всі файли в Phar-архіві. Якщо будь-які файли всередині архіву були стиснуті за допомогою bzip2/zlib-стиснення, то для можливості скористатися даним методом повинен бути включений модуль [zlib](ref.zlib.md) або [bzip2](ref.bzip2.md). Як і у випадку з іншим функціоналом, що модифікує зміст phar-архіву, для успішної роботи даного методу необхідно, щоб INI-змінна [phar.readonly](phar.configuration.md#ini.phar.readonly) було відключено.
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ public Phar::decompressFiles(): bool
 
 ### Помилки
 
-Викидає виняток [BadMethodCallException](class.badmethodcallexception.html), якщо INI-змінна [phar.readonly](phar.configuration.html#ini.phar.readonly) включена, модуль [zlib](ref.zlib.html) недоступний або якщо будь-які файли всередині архіву були стиснуті з використанням bzip2-стиснення та модуль [bzip2](ref.bzip2.md) не увімкнуто.
+Викидає виняток [BadMethodCallException](class.badmethodcallexception.md), якщо INI-змінна [phar.readonly](phar.configuration.md#ini.phar.readonly) включена, модуль [zlib](ref.zlib.md) недоступний або якщо будь-які файли всередині архіву були стиснуті з використанням bzip2-стиснення та модуль [bzip2](ref.bzip2.md) не увімкнуто.
 
 ### Приклади
 

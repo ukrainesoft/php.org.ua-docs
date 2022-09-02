@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.preg-grep.html: « preggrep
-  - function.preg-last-error.html: preglasterror »
+  - function.preg-grep.md: « preggrep
+  - function.preg-last-error.md: preglasterror »
   - index.md: PHP Manual
   - ref.pcre.md: Функции PCRE
 title: preglasterrormsg

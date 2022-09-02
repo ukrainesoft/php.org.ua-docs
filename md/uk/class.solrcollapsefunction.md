@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdismaxquery.useedismaxqueryparser.html: '« SolrDisMaxQuery::useEDisMaxQueryParser'
-  - solrcollapsefunction.construct.html: 'SolrCollapseFunction::construct »'
-  - index.html: PHP Manual
-  - book.solr.html: Solr
+  - solrdismaxquery.useedismaxqueryparser.md: '« SolrDisMaxQuery::useEDisMaxQueryParser'
+  - solrcollapsefunction.construct.md: 'SolrCollapseFunction::construct »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
 title: Клас SolrCollapseFunction
 ---
 # Клас SolrCollapseFunction
@@ -70,17 +70,17 @@ public __toString(): string
 
 ## Зміст
 
--   [SolrCollapseFunction::construct](solrcollapsefunction.construct.html) - Конструктор класу
--   [SolrCollapseFunction::getField](solrcollapsefunction.getfield.html) - Повертає згорнуте поле
--   [SolrCollapseFunction::getHint](solrcollapsefunction.gethint.html) — Повертає підказку згортання
--   [SolrCollapseFunction::getMax](solrcollapsefunction.getmax.html) — Повертає максимальне значення
--   [SolrCollapseFunction::getMin](solrcollapsefunction.getmin.html) — Повертає мінімальне значення
--   [SolrCollapseFunction::getNullPolicy](solrcollapsefunction.getnullpolicy.html) — Повертає політику NULL
--   [SolrCollapseFunction::getSize](solrcollapsefunction.getsize.html) — Повертає параметр розміру
--   [SolrCollapseFunction::setField](solrcollapsefunction.setfield.html) — Встановлює поле для згортання
--   [SolrCollapseFunction::setHint](solrcollapsefunction.sethint.html) - Встановлює підказку згортання
--   [SolrCollapseFunction::setMax](solrcollapsefunction.setmax.html) — Вибирає заголовки групи за максимальним значенням числового поля або запитом функції
--   [SolrCollapseFunction::setMin](solrcollapsefunction.setmin.html) — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні за числовим полем
--   [SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.html) - Встановлює NULL-політику
--   [SolrCollapseFunction::setSize](solrcollapsefunction.setsize.html) — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні за числовим полем
--   [SolrCollapseFunction::toString](solrcollapsefunction.tostring.html) — Повертає рядок, який представляє побудовану функцію згортання
+-   [SolrCollapseFunction::construct](solrcollapsefunction.construct.md) - Конструктор класу
+-   [SolrCollapseFunction::getField](solrcollapsefunction.getfield.md) - Повертає згорнуте поле
+-   [SolrCollapseFunction::getHint](solrcollapsefunction.gethint.md) — Повертає підказку згортання
+-   [SolrCollapseFunction::getMax](solrcollapsefunction.getmax.md) — Повертає максимальне значення
+-   [SolrCollapseFunction::getMin](solrcollapsefunction.getmin.md) — Повертає мінімальне значення
+-   [SolrCollapseFunction::getNullPolicy](solrcollapsefunction.getnullpolicy.md) — Повертає політику NULL
+-   [SolrCollapseFunction::getSize](solrcollapsefunction.getsize.md) — Повертає параметр розміру
+-   [SolrCollapseFunction::setField](solrcollapsefunction.setfield.md) — Встановлює поле для згортання
+-   [SolrCollapseFunction::setHint](solrcollapsefunction.sethint.md) - Встановлює підказку згортання
+-   [SolrCollapseFunction::setMax](solrcollapsefunction.setmax.md) — Вибирає заголовки групи за максимальним значенням числового поля або запитом функції
+-   [SolrCollapseFunction::setMin](solrcollapsefunction.setmin.md) — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні за числовим полем
+-   [SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.md) - Встановлює NULL-політику
+-   [SolrCollapseFunction::setSize](solrcollapsefunction.setsize.md) — Встановлює початковий розмір структур даних, що згортаються, тільки при згортанні за числовим полем
+-   [SolrCollapseFunction::toString](solrcollapsefunction.tostring.md) — Повертає рядок, який представляє побудовану функцію згортання

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-execute.html: « ibaseexecute
-  - function.ibase-fetch-object.html: ibasefetchobject »
+  - function.ibase-execute.md: « ibaseexecute
+  - function.ibase-fetch-object.md: ibasefetchobject »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasefetchassoc

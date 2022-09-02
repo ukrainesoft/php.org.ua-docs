@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ftp.examples-basic.html: « Простое использование
-  - function.ftp-alloc.html: ftpalloc »
+  - ftp.examples-basic.md: « Простое использование
+  - function.ftp-alloc.md: ftpalloc »
   - index.md: PHP Manual
   - book.ftp.md: FTP
 title: Функції FTP

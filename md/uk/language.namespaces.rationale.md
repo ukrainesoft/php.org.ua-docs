@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.namespaces.html: « Пространства имён
-  - language.namespaces.definition.html: Определение пространств имён »
-  - index.html: PHP Manual
-  - language.namespaces.html: Пространства имён
+  - language.namespaces.md: « Пространства имён
+  - language.namespaces.definition.md: Определение пространств имён »
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
 title: Огляд просторів імен
 ---
 ## Огляд просторів імен

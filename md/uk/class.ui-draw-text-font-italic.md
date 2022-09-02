@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.ui-draw-text-font-weight.html: « UIDrawTextFontWeight
-  - class.ui-draw-text-font-stretch.html: ОЙDrawTextFontStretch »
+  - class.ui-draw-text-font-weight.md: « UIDrawTextFontWeight
+  - class.ui-draw-text-font-stretch.md: ОЙDrawTextFontStretch »
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Налаштування курсивного шрифту

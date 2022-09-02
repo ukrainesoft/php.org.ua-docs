@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.similar-text.html: « similartext
-  - function.sprintf.html: sprintf »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.similar-text.md: « similartext
+  - function.sprintf.md: sprintf »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: soundex
 ---
 # soundex
@@ -57,6 +57,6 @@ soundex("Lukasiewicz") == soundex("Lissajous"); // L222
 
 ### Дивіться також
 
--   [levenshtein()](function.levenshtein.html) - обчислює відстань Левенштейна між двома рядками
--   [metaphone()](function.metaphone.html) - Повертає ключ metaphone для рядка
--   [similartext()](function.similar-text.html) - обчислює ступінь схожості двох рядків
+-   [levenshtein()](function.levenshtein.md) - обчислює відстань Левенштейна між двома рядками
+-   [metaphone()](function.metaphone.md) - Повертає ключ metaphone для рядка
+-   [similartext()](function.similar-text.md) - обчислює ступінь схожості двох рядків

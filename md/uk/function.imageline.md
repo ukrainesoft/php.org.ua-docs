@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagelayereffect.html: « imagelayereffect
-  - function.imageloadfont.html: imageloadfont »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagelayereffect.md: « imagelayereffect
+  - function.imageloadfont.md: imageloadfont »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imageline
 ---
 # imageline
@@ -24,7 +24,7 @@ imageline(    GdImage $image,    int $x1,    int $y1,    int $x2
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x1`
 
@@ -44,7 +44,7 @@ y-координата другої точки.
 
 `color`
 
-Колір лінії. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Колір лінії. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -54,7 +54,7 @@ y-координата другої точки.
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -93,5 +93,5 @@ function imagelinethick($image, $x1, $y1, $x2, $y2, $color, $thick = 1)
 
 ### Дивіться також
 
--   [imagecreatetruecolor()](function.imagecreatetruecolor.html) - Створення нового повнокольорового зображення
--   [imagecolorallocate()](function.imagecolorallocate.html) - Створення кольору для зображення
+-   [imagecreatetruecolor()](function.imagecreatetruecolor.md) - Створення нового повнокольорового зображення
+-   [imagecolorallocate()](function.imagecolorallocate.md) - Створення кольору для зображення

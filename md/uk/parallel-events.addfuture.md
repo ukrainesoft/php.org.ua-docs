@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-events.addchannel.html: '« parallelEvents::addChannel'
-  - parallel-events.remove.html: 'parallelEvents::remove »'
-  - index.html: PHP Manual
-  - class.parallel-events.html: parallelEvents
+  - parallel-events.addchannel.md: '« parallelEvents::addChannel'
+  - parallel-events.remove.md: 'parallelEvents::remove »'
+  - index.md: PHP Manual
+  - class.parallel-events.md: parallelEvents
 title: 'parallelEvents::addFuture'
 ---
 # parallelEvents::addFuture

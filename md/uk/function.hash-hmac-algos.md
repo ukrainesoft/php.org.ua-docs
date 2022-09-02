@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-hkdf.html: « hashhkdf
-  - function.hash-hmac-file.html: hashhmacfile »
+  - function.hash-hkdf.md: « hashhkdf
+  - function.hash-hmac-file.md: hashhmacfile »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashhmacalgos
@@ -91,7 +91,7 @@ Array
 
 > **Зауваження**
 > 
-> До PHP 7.2.0 єдиним варіантом отримати список підтримуваних алгоритмів було викликати функцію [hashalgos()](function.hash-algos.html), яка також повертала алгоритми, що не підтримуються [hashhmac()](function.hash-hmac.md)
+> До PHP 7.2.0 єдиним варіантом отримати список підтримуваних алгоритмів було викликати функцію [hashalgos()](function.hash-algos.md), яка також повертала алгоритми, що не підтримуються [hashhmac()](function.hash-hmac.md)
 
 ### Дивіться також
 

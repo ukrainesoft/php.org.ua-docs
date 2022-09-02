@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.quoted-printable-decode.html: « quotedprintabledecode
-  - function.quotemeta.html: quotemeta »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.quoted-printable-decode.md: « quotedprintabledecode
+  - function.quotemeta.md: quotemeta »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: quotedprintableencode
 ---
 # quotedprintableencode
@@ -20,7 +20,7 @@ quoted_printable_encode(string $string): string
 
 Повертає рядок, закодований у формат quoted-printable відповідно до розділу 6.7 [» RFC2045](http://www.faqs.org/rfcs/rfc2045)
 
-Ця функція подібна до функції [imap8bit()](function.imap-8bit.html), крім того, що не вимагає для своєї роботи модуля IMAP.
+Ця функція подібна до функції [imap8bit()](function.imap-8bit.md), крім того, що не вимагає для своєї роботи модуля IMAP.
 
 ### Список параметрів
 
@@ -55,5 +55,5 @@ string(29) "Möchten Sie ein paar Äpfel?"
 
 ### Дивіться також
 
--   [quotedprintabledecode()](function.quoted-printable-decode.html) - Перетворює рядок, закодований методом quoted-printable у 8-бітовий рядок
--   [iconvmimeencode()](function.iconv-mime-encode.html) - Створює поле MIME-заголовка
+-   [quotedprintabledecode()](function.quoted-printable-decode.md) - Перетворює рядок, закодований методом quoted-printable у 8-бітовий рядок
+-   [iconvmimeencode()](function.iconv-mime-encode.md) - Створює поле MIME-заголовка

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-add-bookmark.html: «psaddbookmark
-  - function.ps-add-locallink.html: псaddlocallink »
+  - function.ps-add-bookmark.md: «psaddbookmark
+  - function.ps-add-locallink.md: псaddlocallink »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псaddlaunchlink

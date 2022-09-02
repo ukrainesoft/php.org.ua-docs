@@ -1,9 +1,9 @@
 ---
 navigation:
-  - luasandbox.configuration.html: « Налаштування під час виконання
-  - reference.luasandbox.differences.html: Отличия от стандартного Lua »
-  - index.html: PHP Manual
-  - luasandbox.setup.html: Встановлення та налаштування
+  - luasandbox.configuration.md: « Налаштування під час виконання
+  - reference.luasandbox.differences.md: Отличия от стандартного Lua »
+  - index.md: PHP Manual
+  - luasandbox.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

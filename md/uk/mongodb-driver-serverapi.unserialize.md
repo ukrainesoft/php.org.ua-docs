@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-serverapi.serialize.html: '« MongoDBDriverServerApi::serialize'
-  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern »
-  - index.html: PHP Manual
-  - class.mongodb-driver-serverapi.html: MongoDBDriverServerApi
+  - mongodb-driver-serverapi.serialize.md: '« MongoDBDriverServerApi::serialize'
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern »
+  - index.md: PHP Manual
+  - class.mongodb-driver-serverapi.md: MongoDBDriverServerApi
 title: 'MongoDBDriverServerApi::unserialize'
 ---
 # MongoDBDriverServerApi::unserialize

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-unset-hook.html: « uopzunsethook
-  - function.uopz-unset-return.html: uopzunsetreturn »
+  - function.uopz-unset-hook.md: « uopzunsethook
+  - function.uopz-unset-return.md: uopzunsetreturn »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzunsetmock

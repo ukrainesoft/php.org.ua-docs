@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.html: '« MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription'
-  - class.mongodb-driver-monitoring-topologyclosedevent.html: MongoDBDriverMonitoringTopologyClosedEvent »
+  - mongodb-driver-monitoring-topologychangedevent.getpreviousdescription.md: '« MongoDBDriverMonitoringTopologyChangedEvent::getPreviousDescription'
+  - class.mongodb-driver-monitoring-topologyclosedevent.md: MongoDBDriverMonitoringTopologyClosedEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-topologychangedevent.html: MongoDBDriverMonitoringTopologyChangedEvent
+  - class.mongodb-driver-monitoring-topologychangedevent.md: MongoDBDriverMonitoringTopologyChangedEvent
 title: 'MongoDBDriverMonitoringTopologyChangedEvent::getTopologyId'
 ---
 # MongoDBDriverMonitoringTopologyChangedEvent::getTopologyId

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-decimal128.serialize.html: '« MongoDBBSONDecimal128::serialize'
-  - mongodb-bson-decimal128.unserialize.html: 'MongoDBBSONDecimal128::unserialize »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-decimal128.html: MongoDBBSONDecimal128
+  - mongodb-bson-decimal128.serialize.md: '« MongoDBBSONDecimal128::serialize'
+  - mongodb-bson-decimal128.unserialize.md: 'MongoDBBSONDecimal128::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-decimal128.md: MongoDBBSONDecimal128
 title: 'MongoDBBSONDecimal128::function toString() { \[native code\] }'
 ---
 # MongoDBBSONDecimal128::function toString() { \[native code\] }

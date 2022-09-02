@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.endelement.html: '« XMLWriter::endElement'
-  - xmlwriter.flush.html: 'XMLWriter::flush »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.endelement.md: '« XMLWriter::endElement'
+  - xmlwriter.flush.md: 'XMLWriter::flush »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::endPi'
 ---
 # XMLWriter::endPi
@@ -34,7 +34,7 @@ xmlwriter_end_pi(XMLWriter $writer): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.html)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 ### Значення, що повертаються
 
@@ -44,9 +44,9 @@ xmlwriter_end_pi(XMLWriter $writer): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.html); раніше очікувався ресурс (resource). |
+|  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікувався ресурс (resource). |
 
 ### Дивіться також
 
--   [XMLWriter::startPi()](xmlwriter.startpi.html) - Створити стартовий тег PI
--   [XMLWriter::writePi()](xmlwriter.writepi.html) - Записати інструкцію обробки (PI)
+-   [XMLWriter::startPi()](xmlwriter.startpi.md) - Створити стартовий тег PI
+-   [XMLWriter::writePi()](xmlwriter.writepi.md) - Записати інструкцію обробки (PI)

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.stomp-connect-error.html: « stompconnecterror
+  - function.stomp-connect-error.md: « stompconnecterror
   - class.stomp.md: Stomp »
   - index.md: PHP Manual
   - ref.stomp.md: Функции Stomp

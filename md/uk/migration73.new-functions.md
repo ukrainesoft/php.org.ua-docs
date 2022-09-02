@@ -1,60 +1,60 @@
 ---
 navigation:
-  - migration73.new-features.html: '" Нові можливості'
-  - migration73.constants.html: Нові глобальні константи »
-  - index.html: PHP Manual
-  - migration73.html: Миграция с PHP 7.2.x на PHP 7.3.x
+  - migration73.new-features.md: '" Нові можливості'
+  - migration73.constants.md: Нові глобальні константи »
+  - index.md: PHP Manual
+  - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x
 title: Нові функції
 ---
 ## Нові функції
 
 ### Ядро PHP
 
--   [arraykeyfirst()](function.array-key-first.html)
--   [arraykeylast()](function.array-key-last.html)
--   [гкstatus()](function.gc-status.html)
--   [hrtime()](function.hrtime.html)
--   [ісcountable()](function.is-countable.html)
--   [netgetinterfaces()](function.net-get-interfaces.html)
+-   [arraykeyfirst()](function.array-key-first.md)
+-   [arraykeylast()](function.array-key-last.md)
+-   [гкstatus()](function.gc-status.md)
+-   [hrtime()](function.hrtime.md)
+-   [ісcountable()](function.is-countable.md)
+-   [netgetinterfaces()](function.net-get-interfaces.md)
 
 ### Менеджер процесів FastCGI
 
--   [fpmgetstatus()](function.fpm-get-status.html)
+-   [fpmgetstatus()](function.fpm-get-status.md)
 
 ### дата і час
 
--   [DateTime::createFromImmutable()](datetime.createfromimmutable.html)
+-   [DateTime::createFromImmutable()](datetime.createfromimmutable.md)
 
 ### Обчислення над цілими числами з довільною точністю (GNU Multiple Precision)
 
--   [gmpbinomial()](function.gmp-binomial.html)
--   [gmpkronecker()](function.gmp-kronecker.html)
--   [gmplcm()](function.gmp-lcm.html)
--   [gmpperfectpower()](function.gmp-perfect-power.html)
+-   [gmpbinomial()](function.gmp-binomial.md)
+-   [gmpkronecker()](function.gmp-kronecker.md)
+-   [gmplcm()](function.gmp-lcm.md)
+-   [gmpperfectpower()](function.gmp-perfect-power.md)
 
 ### Функції інтернаціоналізації
 
--   [Normalizer::getRawDecomposition()](normalizer.getrawdecomposition.html)
--   [normalizergetrawdecomposition()](normalizer.getrawdecomposition.html)
+-   [Normalizer::getRawDecomposition()](normalizer.getrawdecomposition.md)
+-   [normalizergetrawdecomposition()](normalizer.getrawdecomposition.md)
 -   **Spoofchecker::setRestrictionLevel()**
 
 ### Полегшений протокол доступу до каталогів (LDAP)
 
--   [ldapaddext()](function.ldap-add-ext.html)
--   [ldapbindext()](function.ldap-bind-ext.html)
--   [ldapdeleteext()](function.ldap-delete-ext.html)
--   [ldapexoprefresh()](function.ldap-exop-refresh.html)
--   [ldapmodaddext()](function.ldap-mod_add-ext.html)
--   [ldapmodreplaceext()](function.ldap-mod_replace-ext.html)
--   [ldapmoddelext()](function.ldap-mod_del-ext.html)
--   [ldaprenameext()](function.ldap-rename-ext.html)
+-   [ldapaddext()](function.ldap-add-ext.md)
+-   [ldapbindext()](function.ldap-bind-ext.md)
+-   [ldapdeleteext()](function.ldap-delete-ext.md)
+-   [ldapexoprefresh()](function.ldap-exop-refresh.md)
+-   [ldapmodaddext()](function.ldap-mod_add-ext.md)
+-   [ldapmodreplaceext()](function.ldap-mod_replace-ext.md)
+-   [ldapmoddelext()](function.ldap-mod_del-ext.md)
+-   [ldaprenameext()](function.ldap-rename-ext.md)
 
 ### OpenSSL
 
--   [opensslpkeyderive()](function.openssl-pkey-derive.html)
+-   [opensslpkeyderive()](function.openssl-pkey-derive.md)
 
 ### Сокети
 
--   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html)
--   [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.html)
--   [socketwsaprotocolinforelease()](function.socket-wsaprotocol-info-release.html)
+-   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md)
+-   [socketwsaprotocolinfoimport()](function.socket-wsaprotocol-info-import.md)
+-   [socketwsaprotocolinforelease()](function.socket-wsaprotocol-info-release.md)

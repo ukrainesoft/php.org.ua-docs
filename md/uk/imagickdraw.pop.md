@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.polyline.html: '« ImagickDraw::polyline'
-  - imagickdraw.popclippath.html: 'ImagickDraw::popClipPath »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.polyline.md: '« ImagickDraw::polyline'
+  - imagickdraw.popclippath.md: 'ImagickDraw::popClipPath »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pop'
 ---
 # ImagickDraw::pop

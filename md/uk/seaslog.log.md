@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.info.html: '« SeasLog::info'
-  - seaslog.notice.html: 'SeasLog::notice »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.info.md: '« SeasLog::info'
+  - seaslog.notice.md: 'SeasLog::notice »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::log'
 ---
 # SeasLog::log
@@ -26,14 +26,14 @@ public static SeasLog::log(    string $level,    string $message = ?, �
 
 Можна використовувати рівень один із:
 
--   [SEASLOGDEBUG](seaslog.constants.html#constant.seaslog-debug)
--   [SEASLOGINFO](seaslog.constants.html#constant.seaslog-info)
--   [SEASLOGNOTICE](seaslog.constants.html#constant.seaslog-notice)
--   [SEASLOGWARNING](seaslog.constants.html#constant.seaslog-warning)
--   [SEASLOGERROR](seaslog.constants.html#constant.seaslog-error)
--   [SEASLOGCRITICAL](seaslog.constants.html#constant.seaslog-critical)
--   [SEASLOGALERT](seaslog.constants.html#constant.seaslog-alert)
--   [SEASLOGEMERGENCY](seaslog.constants.html#constant.seaslog-emergency)
+-   [SEASLOGDEBUG](seaslog.constants.md#constant.seaslog-debug)
+-   [SEASLOGINFO](seaslog.constants.md#constant.seaslog-info)
+-   [SEASLOGNOTICE](seaslog.constants.md#constant.seaslog-notice)
+-   [SEASLOGWARNING](seaslog.constants.md#constant.seaslog-warning)
+-   [SEASLOGERROR](seaslog.constants.md#constant.seaslog-error)
+-   [SEASLOGCRITICAL](seaslog.constants.md#constant.seaslog-critical)
+-   [SEASLOGALERT](seaslog.constants.md#constant.seaslog-alert)
+-   [SEASLOGEMERGENCY](seaslog.constants.md#constant.seaslog-emergency)
 
 Або ви можете створити власний рівень.
 
@@ -47,7 +47,7 @@ public static SeasLog::log(    string $level,    string $message = ?, �
 
 `logger`
 
-logger, укладений у третій параметр, буде використовуватися зараз, як тимчасовий реєстратор, якщо функція SeasLog::setLogger() викликається у попередньому вмісті. Якщо logger дорівнює NULL або "" (порожній рядок), SeasLog використовуватиме останній реєстратор, встановлений методом [SeasLog::setLogger()](seaslog.setlogger.html)
+logger, укладений у третій параметр, буде використовуватися зараз, як тимчасовий реєстратор, якщо функція SeasLog::setLogger() викликається у попередньому вмісті. Якщо logger дорівнює NULL або "" (порожній рядок), SeasLog використовуватиме останній реєстратор, встановлений методом [SeasLog::setLogger()](seaslog.setlogger.md)
 
 ### Значення, що повертаються
 
@@ -125,12 +125,12 @@ array(1) {
 
 ### Дивіться також
 
--   [seaslog.defaulttemplate](seaslog.configuration.html#ini.seaslog.default-template)
--   [SeasLog::debug()](seaslog.debug.html) - Записує інформацію рівня "debug" до журналу
--   [SeasLog::info()](seaslog.info.html) - Записує інформацію рівня "info" до журналу
--   [SeasLog::notice()](seaslog.notice.html) - Записує інформацію рівня "notice" у журнал
--   [SeasLog::warning()](seaslog.warning.html) - Записує інформацію рівня "warning" до журналу
--   [SeasLog::error()](seaslog.error.html) - Записує інформацію рівня "error" у журнал
--   [SeasLog::critical()](seaslog.critical.html) - Записує інформацію рівня "critical" у журнал
--   [SeasLog::alert()](seaslog.alert.html) - Записує інформацію рівня "alert" у журнал
--   [SeasLog::emergency()](seaslog.emergency.html) - Записує інформацію рівня "emergency" до журналу
+-   [seaslog.defaulttemplate](seaslog.configuration.md#ini.seaslog.default-template)
+-   [SeasLog::debug()](seaslog.debug.md) - Записує інформацію рівня "debug" до журналу
+-   [SeasLog::info()](seaslog.info.md) - Записує інформацію рівня "info" до журналу
+-   [SeasLog::notice()](seaslog.notice.md) - Записує інформацію рівня "notice" у журнал
+-   [SeasLog::warning()](seaslog.warning.md) - Записує інформацію рівня "warning" до журналу
+-   [SeasLog::error()](seaslog.error.md) - Записує інформацію рівня "error" у журнал
+-   [SeasLog::critical()](seaslog.critical.md) - Записує інформацію рівня "critical" у журнал
+-   [SeasLog::alert()](seaslog.alert.md) - Записує інформацію рівня "alert" у журнал
+-   [SeasLog::emergency()](seaslog.emergency.md) - Записує інформацію рівня "emergency" до журналу

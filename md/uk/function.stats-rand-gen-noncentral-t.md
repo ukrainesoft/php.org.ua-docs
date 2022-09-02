@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-rand-gen-noncentral-f.html: « statsrandgennoncentralф
-  - function.stats-rand-gen-normal.html: statsrandgennormal »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-rand-gen-noncentral-f.md: « statsrandgennoncentralф
+  - function.stats-rand-gen-normal.md: statsrandgennormal »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsrandгенnoncentralт
 ---
 # statsrandгенnoncentralт

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ctype-digit.html: « ctypedigit
-  - function.ctype-lower.html: ctypelower »
-  - index.html: PHP Manual
-  - ref.ctype.html: Опції Ctype
+  - function.ctype-digit.md: « ctypedigit
+  - function.ctype-lower.md: ctypelower »
+  - index.md: PHP Manual
+  - ref.ctype.md: Опції Ctype
 title: ctypegraph
 ---
 # ctypegraph
@@ -32,7 +32,7 @@ ctype_graph(mixed $text): bool
 
 **Увага**
 
-Починаючи з PHP 8.1.0, передача нерядкових аргументів застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки, аргумент повинен бути приведений до рядка (string) або повинен бути зроблений явний виклик функції [chr()](function.chr.html)
+Починаючи з PHP 8.1.0, передача нерядкових аргументів застаріла. У майбутньому аргумент інтерпретуватиметься як рядок замість коду ASCII. Залежно від передбачуваної поведінки, аргумент повинен бути приведений до рядка (string) або повинен бути зроблений явний виклик функції [chr()](function.chr.md)
 
 ### Значення, що повертаються
 
@@ -65,6 +65,6 @@ foreach ($strings as $name => $testcase) {
 
 ### Дивіться також
 
--   [ctypealnum()](function.ctype-alnum.html) - Перевіряє наявність буквено-цифрових символів
--   [ctypeprint()](function.ctype-print.html) - Перевіряє наявність друкованих символів
--   [ctypepunct()](function.ctype-punct.html) - Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.
+-   [ctypealnum()](function.ctype-alnum.md) - Перевіряє наявність буквено-цифрових символів
+-   [ctypeprint()](function.ctype-print.md) - Перевіряє наявність друкованих символів
+-   [ctypepunct()](function.ctype-punct.md) - Перевіряє наявність друкованих символів, які не містять пробілових або буквено-цифрових символів.

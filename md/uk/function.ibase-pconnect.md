@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-param-info.html: « ibaseparaminfo
-  - function.ibase-prepare.html: ibaseprepare »
+  - function.ibase-param-info.md: « ibaseparaminfo
+  - function.ibase-prepare.md: ibaseprepare »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasepconnect

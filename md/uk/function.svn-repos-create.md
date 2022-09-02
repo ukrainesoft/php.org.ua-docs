@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-mkdir.html: « svnmkdir
-  - function.svn-repos-fs-begin-txn-for-commit.html: svnreposфсbegintxnforcommit »
+  - function.svn-mkdir.md: « svnmkdir
+  - function.svn-repos-fs-begin-txn-for-commit.md: svnreposфсbegintxnforcommit »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnreposcreate

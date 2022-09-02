@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-read-train-from-file.html: « fannreadtrainfromfile
-  - function.fann-reset-errstr.html: fannreseterrstr »
+  - function.fann-read-train-from-file.md: « fannreadtrainfromfile
+  - function.fann-reset-errstr.md: fannreseterrstr »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannreseterrno

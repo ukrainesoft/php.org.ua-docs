@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionmethod.isabstract.html: '« ReflectionMethod::isAbstract'
-  - reflectionmethod.isdestructor.html: 'ReflectionMethod::isDestructor »'
-  - index.html: PHP Manual
-  - class.reflectionmethod.html: ReflectionMethod
+  - reflectionmethod.isabstract.md: '« ReflectionMethod::isAbstract'
+  - reflectionmethod.isdestructor.md: 'ReflectionMethod::isDestructor »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isConstructor'
 ---
 # ReflectionMethod::isConstructor

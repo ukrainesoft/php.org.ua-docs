@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-service-detach.html: « ibaseservicedetach
-  - function.ibase-trans.html: ibasetrans »
+  - function.ibase-service-detach.md: « ibaseservicedetach
+  - function.ibase-trans.md: ibasetrans »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseseteventhandler

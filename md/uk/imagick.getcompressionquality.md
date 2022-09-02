@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getcompression.html: '« Imagick::getCompression'
-  - imagick.getcopyright.html: 'Imagick::getCopyright »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getcompression.md: '« Imagick::getCompression'
+  - imagick.getcopyright.md: 'Imagick::getCopyright »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getCompressionQuality'
 ---
 # Imagick::getCompressionQuality

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.dolow.html: '« GearmanClient::doLow'
-  - gearmanclient.donormal.html: 'GearmanClient::doNormal »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.dolow.md: '« GearmanClient::doLow'
+  - gearmanclient.donormal.md: 'GearmanClient::doNormal »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::doLowBackground'
 ---
 # GearmanClient::doLowBackground
@@ -40,8 +40,8 @@ public GearmanClient::doLowBackground(string $function_name, string $workload, s
 
 ### Дивіться також
 
--   [GearmanClient::doNormal()](gearmanclient.donormal.html) - Виконує одиночне завдання та повертає результат
--   [GearmanClient::doHigh()](gearmanclient.dohigh.html) - Запускає на виконання завдання із високим пріоритетом
--   [GearmanClient::doLow()](gearmanclient.dolow.html) - Запускає виконання завдання з низьким пріоритетом
--   [GearmanClient::doBackground()](gearmanclient.dobackground.html) - Запускає виконання завдання у фоновому режимі
--   [GearmanClient::doHighBackground()](gearmanclient.dohighbackground.html) - Запускає на виконання із високим пріоритетом завдання у фоновому режимі
+-   [GearmanClient::doNormal()](gearmanclient.donormal.md) - Виконує одиночне завдання та повертає результат
+-   [GearmanClient::doHigh()](gearmanclient.dohigh.md) - Запускає на виконання завдання із високим пріоритетом
+-   [GearmanClient::doLow()](gearmanclient.dolow.md) - Запускає виконання завдання з низьким пріоритетом
+-   [GearmanClient::doBackground()](gearmanclient.dobackground.md) - Запускає виконання завдання у фоновому режимі
+-   [GearmanClient::doHighBackground()](gearmanclient.dohighbackground.md) - Запускає на виконання із високим пріоритетом завдання у фоновому режимі

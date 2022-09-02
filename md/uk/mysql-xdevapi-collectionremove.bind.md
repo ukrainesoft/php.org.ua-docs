@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-collectionremove.html: « mysqlxdevapiCollectionRemove
-  - mysql-xdevapi-collectionremove.construct.html: 'CollectionRemove::construct »'
+  - class.mysql-xdevapi-collectionremove.md: « mysqlxdevapiCollectionRemove
+  - mysql-xdevapi-collectionremove.construct.md: 'CollectionRemove::construct »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionremove.html: mysqlxdevapiCollectionRemove
+  - class.mysql-xdevapi-collectionremove.md: mysqlxdevapiCollectionRemove
 title: 'CollectionRemove::bind'
 ---
 # CollectionRemove::bind

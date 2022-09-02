@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ldap.installation.html: « Установка
-  - ldap.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - ldap.setup.html: Встановлення та налаштування
+  - ldap.installation.md: « Установка
+  - ldap.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - ldap.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,9 +14,9 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [ldap.maxlinks](ldap.configuration.html#ini.ldap.max_links) | "-1" | PHPINISYSTEM |  |
+| [ldap.maxlinks](ldap.configuration.md#ini.ldap.max_links) | "-1" | PHPINISYSTEM |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 

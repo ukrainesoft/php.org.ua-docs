@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.geoip-country-code3-by-name.html: « geoipcountrycode3бname
-  - function.geoip-database-info.html: geoipdatabaseinfo »
-  - index.html: PHP Manual
-  - ref.geoip.html: Функции GeoIP
+  - function.geoip-country-code3-by-name.md: « geoipcountrycode3бname
+  - function.geoip-database-info.md: geoipdatabaseinfo »
+  - index.md: PHP Manual
+  - ref.geoip.md: Функции GeoIP
 title: geoipcountrynameбname
 ---
 # geoipcountrynameбname
@@ -53,5 +53,5 @@ if ($country) {
 
 ### Дивіться також
 
--   [geoipcountrycodeбname()](function.geoip-country-code-by-name.html) - Отримати двосимвольний код країни
--   [geoipcountrycode3бname()](function.geoip-country-code3-by-name.html) - Отримати трисимвольний код країни
+-   [geoipcountrycodeбname()](function.geoip-country-code-by-name.md) - Отримати двосимвольний код країни
+-   [geoipcountrycode3бname()](function.geoip-country-code3-by-name.md) - Отримати трисимвольний код країни

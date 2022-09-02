@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-values.html: « arrayvalues
-  - function.array-walk.html: arraywalk »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-values.md: « arrayvalues
+  - function.array-walk.md: arraywalk »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arraywalkrecursive
 ---
 # arraywalkrecursive

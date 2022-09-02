@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.release-savepoint.html: '« mysqli::releasesavepoint'
-  - mysqli.savepoint.html: 'mysqli::savepoint »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.release-savepoint.md: '« mysqli::releasesavepoint'
+  - mysqli.savepoint.md: 'mysqli::savepoint »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::rollback'
 ---
 # mysqli::rollback
@@ -34,7 +34,7 @@ mysqli_rollback(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `flags`
 
@@ -56,7 +56,7 @@ mysqli_rollback(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### Приклади
 
-Дивіться приклад використання у розділі [](mysqli.begin-transaction.html#mysqli.begin-transaction.example.basic)[mysqli::begintransaction()](mysqli.begin-transaction.html)
+Дивіться приклад використання у розділі [](mysqli.begin-transaction.md#mysqli.begin-transaction.example.basic)[mysqli::begintransaction()](mysqli.begin-transaction.md)
 
 ### Примітки
 
@@ -66,7 +66,7 @@ mysqli_rollback(mysqli $mysql, int $flags = 0, ?string $name = null): bool
 
 ### Дивіться також
 
--   [mysqlibegintransaction()](mysqli.begin-transaction.html) - Стартує транзакцію
--   [mysqlicommit()](mysqli.commit.html) - Фіксує поточну транзакцію
--   [mysqliautocommit()](mysqli.autocommit.html) - Вмикає або вимикає автоматичну фіксацію змін бази даних
--   [mysqlireleasesavepoint()](mysqli.release-savepoint.html) - Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції
+-   [mysqlibegintransaction()](mysqli.begin-transaction.md) - Стартує транзакцію
+-   [mysqlicommit()](mysqli.commit.md) - Фіксує поточну транзакцію
+-   [mysqliautocommit()](mysqli.autocommit.md) - Вмикає або вимикає автоматичну фіксацію змін бази даних
+-   [mysqlireleasesavepoint()](mysqli.release-savepoint.md) - Видаляє іменовану точку збереження зі списку точок збереження поточної транзакції

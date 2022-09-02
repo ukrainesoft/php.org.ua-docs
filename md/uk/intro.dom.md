@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.dom.html: « DOM
-  - dom.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.dom.html: DOM
+  - book.dom.md: « DOM
+  - dom.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.dom.md: DOM
 title: Вступ
 ---
 # Вступ
@@ -12,4 +12,4 @@ title: Вступ
 
 > **Зауваження**
 > 
-> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.html) [UConverter::transcode()](uconverter.transcode.html) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.
+> Модуль DOM використовує кодування UTF-8. Використовуйте [мбconvertencoding()](function.mb-convert-encoding.md) [UConverter::transcode()](uconverter.transcode.md) або [iconv()](function.iconv.md) для роботи з іншими кодуванням.

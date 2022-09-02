@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.phpversion.html: « phpversion
-  - function.restore-include-path.html: restoreincludepath »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.phpversion.md: « phpversion
+  - function.restore-include-path.md: restoreincludepath »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: putenv
 ---
 # putenv
@@ -42,5 +42,5 @@ putenv("UNIQID=$uniqid");
 
 ### Дивіться також
 
--   [getenv()](function.getenv.html) - набуття значення змінної оточення
--   [apachesetenv()](function.apache-setenv.html) - Встановлює змінну subprocessenv Apache
+-   [getenv()](function.getenv.md) - набуття значення змінної оточення
+-   [apachesetenv()](function.apache-setenv.md) - Встановлює змінну subprocessenv Apache

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-double.html: « isdouble
-  - function.is-int.html: ісint »
-  - index.html: PHP Manual
-  - ref.var.html: Функції для роботи зі змінними
+  - function.is-double.md: « isdouble
+  - function.is-int.md: ісint »
+  - index.md: PHP Manual
+  - ref.var.md: Функції для роботи зі змінними
 title: ісfloat
 ---
 # ісfloat
@@ -22,7 +22,7 @@ is_float(mixed $value): bool
 
 > **Зауваження**
 > 
-> Щоб перевірити, чи є змінна числом або рядком, що містить число (як поле введення у формі, яке завжди є рядком), використовуйте [ісnumeric()](function.is-numeric.html)
+> Щоб перевірити, чи є змінна числом або рядком, що містить число (як поле введення у формі, яке завжди є рядком), використовуйте [ісnumeric()](function.is-numeric.md)
 
 ### Список параметрів
 
@@ -61,9 +61,9 @@ bool(false)
 
 ### Дивіться також
 
--   [ісbool()](function.is-bool.html) - Перевіряє, чи є змінна булевою
--   [ісint()](function.is-int.html) - Перевіряє, чи є змінна цілим числом
--   [ісnumeric()](function.is-numeric.html) - Перевіряє, чи є змінна числом або рядком, що містить число
--   [ісstring()](function.is-string.html) - Перевіряє, чи є змінним рядком
--   [ісarray()](function.is-array.html) - Визначає, чи є змінна масивом
--   [ісobject()](function.is-object.html) - Перевіряє, чи є змінна об'єктом
+-   [ісbool()](function.is-bool.md) - Перевіряє, чи є змінна булевою
+-   [ісint()](function.is-int.md) - Перевіряє, чи є змінна цілим числом
+-   [ісnumeric()](function.is-numeric.md) - Перевіряє, чи є змінна числом або рядком, що містить число
+-   [ісstring()](function.is-string.md) - Перевіряє, чи є змінним рядком
+-   [ісarray()](function.is-array.md) - Визначає, чи є змінна масивом
+-   [ісobject()](function.is-object.md) - Перевіряє, чи є змінна об'єктом

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.executewritecommand.html: '« MongoDBDriverServer::executeWriteCommand'
-  - mongodb-driver-server.getinfo.html: 'MongoDBDriverServer::getInfo »'
+  - mongodb-driver-server.executewritecommand.md: '« MongoDBDriverServer::executeWriteCommand'
+  - mongodb-driver-server.getinfo.md: 'MongoDBDriverServer::getInfo »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::getHost'
 ---
 # MongoDBDriverServer::getHost

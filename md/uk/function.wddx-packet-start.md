@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.wddx-packet-end.html: « wddxpacketend
-  - function.wddx-serialize-value.html: wddxserializevalue »
+  - function.wddx-packet-end.md: « wddxpacketend
+  - function.wddx-serialize-value.md: wddxserializevalue »
   - index.md: PHP Manual
   - ref.wddx.md: Функції WDDX
 title: wddxpacketstart

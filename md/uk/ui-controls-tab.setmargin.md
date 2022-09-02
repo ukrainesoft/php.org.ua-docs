@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-tab.pages.html: '« UIControlsTab::pages'
-  - class.ui-controls-check.html: ОЙControlsCheck »
-  - index.html: PHP Manual
-  - class.ui-controls-tab.html: ОЙControlsTab
+  - ui-controls-tab.pages.md: '« UIControlsTab::pages'
+  - class.ui-controls-check.md: ОЙControlsCheck »
+  - index.md: PHP Manual
+  - class.ui-controls-tab.md: ОЙControlsTab
 title: 'ОЙControlsTab::setMargin'
 ---
 # ОЙControlsTab::setMargin

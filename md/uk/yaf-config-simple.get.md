@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-simple.current.html: '« YafConfigSimple::current'
-  - yaf-config-simple.isset.html: 'YafConfigSimple::isset »'
-  - index.html: PHP Manual
-  - class.yaf-config-simple.html: YafConfigSimple
+  - yaf-config-simple.current.md: '« YafConfigSimple::current'
+  - yaf-config-simple.isset.md: 'YafConfigSimple::isset »'
+  - index.md: PHP Manual
+  - class.yaf-config-simple.md: YafConfigSimple
 title: 'YafConfigSimple::get'
 ---
 # YafConfigSimple::get

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-sqrt.html: « tradersqrt
-  - function.trader-stoch.html: traderstoch »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-sqrt.md: « tradersqrt
+  - function.trader-stoch.md: traderstoch »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderstddev
 ---
 # traderstddev

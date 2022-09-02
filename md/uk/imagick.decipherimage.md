@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.cyclecolormapimage.html: '« Imagick::cycleColormapImage'
-  - imagick.deconstructimages.html: 'Imagick::deconstructImages »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.cyclecolormapimage.md: '« Imagick::cycleColormapImage'
+  - imagick.deconstructimages.md: 'Imagick::deconstructImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::decipherImage'
 ---
 # Imagick::decipherImage
@@ -18,7 +18,7 @@ Imagick::decipherImage — Розшифровує зображення
 public Imagick::decipherImage(string $passphrase): bool
 ```
 
-Розшифровує зображення, яке було зашифровано раніше. Зображення має бути зашифроване з використанням [Imagick::encipherImage()](imagick.encipherimage.html). Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.9 або старшим.
+Розшифровує зображення, яке було зашифровано раніше. Зображення має бути зашифроване з використанням [Imagick::encipherImage()](imagick.encipherimage.md). Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.9 або старшим.
 
 ### Список параметрів
 
@@ -32,4 +32,4 @@ public Imagick::decipherImage(string $passphrase): bool
 
 ### Дивіться також
 
--   [Imagick::encipherImage()](imagick.encipherimage.html) - Шифрує зображення
+-   [Imagick::encipherImage()](imagick.encipherimage.md) - Шифрує зображення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.radius.html: « Функции Radius
-  - function.radius-add-server.html: radiusaddserver »
-  - index.html: PHP Manual
-  - ref.radius.html: Функции Radius
+  - ref.radius.md: « Функции Radius
+  - function.radius-add-server.md: radiusaddserver »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
 title: radiusacctopen
 ---
 # radiusacctopen

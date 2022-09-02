@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-priorityqueue.peek.html: '« DsPriorityQueue::peek'
-  - ds-priorityqueue.push.html: 'ДсPriorityQueue::push »'
+  - ds-priorityqueue.peek.md: '« DsPriorityQueue::peek'
+  - ds-priorityqueue.push.md: 'ДсPriorityQueue::push »'
   - index.md: PHP Manual
-  - class.ds-priorityqueue.html: Черга з пріоритетом
+  - class.ds-priorityqueue.md: Черга з пріоритетом
 title: 'ДсPriorityQueue::pop'
 ---
 # ДсPriorityQueue::pop

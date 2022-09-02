@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-set-encoding.html: « fdfsetencoding
-  - function.fdf-set-flags.html: fdfsetflags »
+  - function.fdf-set-encoding.md: « fdfsetencoding
+  - function.fdf-set-flags.md: fdfsetflags »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfsetfile
@@ -24,7 +24,7 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `url`
 

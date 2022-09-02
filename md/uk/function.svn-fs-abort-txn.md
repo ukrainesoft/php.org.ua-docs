@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-export.html: « svnexport
-  - function.svn-fs-apply-text.html: svnфсapplytext »
+  - function.svn-export.md: « svnexport
+  - function.svn-fs-apply-text.md: svnфсapplytext »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсaborttxn

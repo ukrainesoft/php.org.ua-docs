@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-mysql.query.html: '« SwooleMySQL::query'
-  - class.swoole-process.html: SwooleProcess »
-  - index.html: PHP Manual
-  - book.swoole.html: Swoole
+  - swoole-mysql.query.md: '« SwooleMySQL::query'
+  - class.swoole-process.md: SwooleProcess »
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
 title: Клас SwooleMySQLException
 ---
 # Клас SwooleMySQLException

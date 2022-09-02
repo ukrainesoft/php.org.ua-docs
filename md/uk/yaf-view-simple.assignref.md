@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-view-simple.assign.html: '« YafViewSimple::assign'
-  - yaf-view-simple.clear.html: 'YafViewSimple::clear »'
+  - yaf-view-simple.assign.md: '« YafViewSimple::assign'
+  - yaf-view-simple.clear.md: 'YafViewSimple::clear »'
   - index.md: PHP Manual
-  - class.yaf-view-simple.html: YafViewSimple
+  - class.yaf-view-simple.md: YafViewSimple
 title: 'YafViewSimple::assignRef'
 ---
 # YafViewSimple::assignRef

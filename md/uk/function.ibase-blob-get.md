@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-blob-echo.html: « ibaseblobecho
-  - function.ibase-blob-import.html: ibaseblobimport »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-blob-echo.md: « ibaseblobecho
+  - function.ibase-blob-import.md: ibaseblobimport »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseblobget
 ---
 # ibaseblobget

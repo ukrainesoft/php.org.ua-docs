@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-int.html: « isint
-  - function.is-iterable.html: ісiterable »
+  - function.is-int.md: « isint
+  - function.is-iterable.md: ісiterable »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: ісinteger

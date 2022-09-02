@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-session.gettransactionstate.html: '« MongoDBDriverSession::getTransactionState'
-  - mongodb-driver-session.isintransaction.html: 'MongoDBDriverSession::isInTransaction »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-session.html: MongoDBDriverSession
+  - mongodb-driver-session.gettransactionstate.md: '« MongoDBDriverSession::getTransactionState'
+  - mongodb-driver-session.isintransaction.md: 'MongoDBDriverSession::isInTransaction »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-session.md: MongoDBDriverSession
 title: 'MongoDBDriverSession::isDirty'
 ---
 # MongoDBDriverSession::isDirty

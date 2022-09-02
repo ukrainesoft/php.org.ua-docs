@@ -37,4 +37,4 @@ public SessionHandlerInterface::open(string $path, string $name): bool
 ### Дивіться також
 
 -   [sessionname()](function.session-name.md) - Отримати чи встановити ім'я поточної сесії
--   Опція конфігурації [session.auto-start](session.configuration.html#ini.session.auto-start)
+-   Опція конфігурації [session.auto-start](session.configuration.md#ini.session.auto-start)

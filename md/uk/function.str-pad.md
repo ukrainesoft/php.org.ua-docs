@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.str-ireplace.html: « strireplace
-  - function.str-repeat.html: strrepeat »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.str-ireplace.md: « strireplace
+  - function.str-repeat.md: strrepeat »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strpad
 ---
 # strpad

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.readimagefile.html: '« Imagick::readImageFile'
-  - imagick.recolorimage.html: 'Imagick::recolorImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.readimagefile.md: '« Imagick::readImageFile'
+  - imagick.recolorimage.md: 'Imagick::recolorImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::readimages'
 ---
 # Imagick::readimages

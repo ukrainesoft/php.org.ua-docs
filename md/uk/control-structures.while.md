@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.alternative-syntax.html: Альтернативний синтаксис керуючих структур
-  - control-structures.do.while.html: do-while »
-  - index.html: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - control-structures.alternative-syntax.md: Альтернативний синтаксис керуючих структур
+  - control-structures.do.while.md: do-while »
+  - index.md: PHP Manual
+  - language.control-structures.md: Управляющие конструкции
 title: while
 ---
 ## while

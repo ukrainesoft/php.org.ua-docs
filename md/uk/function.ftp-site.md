@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-set-option.html: « ftpsetoption
-  - function.ftp-size.html: ftpsize »
+  - function.ftp-set-option.md: « ftpsetoption
+  - function.ftp-size.md: ftpsize »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpsite

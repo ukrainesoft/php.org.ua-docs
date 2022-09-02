@@ -1,9 +1,9 @@
 ---
 navigation:
-  - openssl.ciphers.html: Алгоритми шифрування
-  - openssl.constsni.html: Константа SNI (Server Name Indication) »
-  - index.html: PHP Manual
-  - openssl.constants.html: Обумовлені константи
+  - openssl.ciphers.md: Алгоритми шифрування
+  - openssl.constsni.md: Константа SNI (Server Name Indication) »
+  - index.md: PHP Manual
+  - openssl.constants.md: Обумовлені константи
 title: Константи версій
 ---
 ## Константи версій

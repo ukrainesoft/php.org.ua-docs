@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rar.requirements.html: « Вимоги
-  - rar.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - rar.setup.html: Встановлення та налаштування
+  - rar.requirements.md: « Вимоги
+  - rar.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - rar.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення
@@ -18,4 +18,4 @@ title: Встановлення
 
 gunzip rar-xxx.tgz tar -xvf rar-xxx.tar cd rar-xxx phpize ./configure && make && make install
 
-Користувачам Windows необхідно увімкнути phprar.dll у php.ini. DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.html)
+Користувачам Windows необхідно увімкнути phprar.dll у php.ini. DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [сборка на Windows](install.windows.building.md)

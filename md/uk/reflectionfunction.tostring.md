@@ -59,4 +59,4 @@ Function [ <user> function title ] {
 ### Дивіться також
 
 -   [ReflectionFunction::export()](reflectionfunction.export.md) - Експортує функції
--   [toString()](language.oop5.magic.html#object.tostring)
+-   [toString()](language.oop5.magic.md#object.tostring)

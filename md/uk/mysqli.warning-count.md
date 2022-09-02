@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.use-result.html: '« mysqli::useresult'
-  - class.mysqli-stmt.html: mysqlistmt »
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.use-result.md: '« mysqli::useresult'
+  - class.mysqli-stmt.md: mysqlistmt »
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::$warningcount'
 ---
 # mysqli::$warningcount
@@ -18,7 +18,7 @@ mysqli::$warningcount - mysqliwarningcount — Повертає кількіст
 
 Об'єктно-орієнтований стиль
 
-int [$mysqli->warningcount](mysqli.warning-count.html)
+int [$mysqli->warningcount](mysqli.warning-count.md)
 
 Процедурний стиль
 
@@ -36,7 +36,7 @@ mysqli_warning_count(mysqli $mysql): int
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 ### Значення, що повертаються
 
@@ -120,6 +120,6 @@ Warning (1264): Data truncated for column 'Name' at row 1
 
 ### Дивіться також
 
--   [mysqlierrno()](mysqli.errno.html) - Повертає код помилки останнього виклику функції
--   [mysqlierror()](mysqli.error.html) - Повертає рядок із описом останньої помилки
--   [mysqlisqlstate()](mysqli.sqlstate.html) - Повертає код стану SQLSTATE останній MySQL операції
+-   [mysqlierrno()](mysqli.errno.md) - Повертає код помилки останнього виклику функції
+-   [mysqlierror()](mysqli.error.md) - Повертає рядок із описом останньої помилки
+-   [mysqlisqlstate()](mysqli.sqlstate.md) - Повертає код стану SQLSTATE останній MySQL операції

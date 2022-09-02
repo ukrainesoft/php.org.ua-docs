@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlmorningstar.html: « tradercdlmorningstar
-  - function.trader-cdlpiercing.html: tradercdlpiercing »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlmorningstar.md: « tradercdlmorningstar
+  - function.trader-cdlpiercing.md: tradercdlpiercing »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlonneck
 ---
 # tradercdlonneck

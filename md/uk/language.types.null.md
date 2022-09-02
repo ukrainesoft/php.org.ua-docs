@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.types.resource.html: « Ресурс
-  - language.types.callable.html: Функції зворотного дзвінка (callback-функції) »
-  - index.html: PHP Manual
-  - language.types.html: Типи
+  - language.types.resource.md: « Ресурс
+  - language.types.callable.md: Функції зворотного дзвінка (callback-функції) »
+  - index.md: PHP Manual
+  - language.types.md: Типи
 title: 'NULL'
 ---
 ## NULL
@@ -29,7 +29,7 @@ $var = NULL;
 ?>
 ```
 
-Дивіться також функції [ісnull()](function.is-null.html) і [unset()](function.unset.md)
+Дивіться також функції [ісnull()](function.is-null.md) і [unset()](function.unset.md)
 
 ### Приведення до **`null`**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fstat.html: « fstat
-  - function.ftell.html: ftell »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.fstat.md: « fstat
+  - function.ftell.md: ftell »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: fsync
 ---
 # fsync
@@ -18,13 +18,13 @@ fsync — Синхронізує зміни у файлі (включаючи м
 fsync(resource $stream): bool
 ```
 
-Функція синхронізує зміни у файлі, включаючи метадані. Вона схожа на [fflush()](function.fflush.html), але також дає інструкції операційній системі про запис на накопичувач.
+Функція синхронізує зміни у файлі, включаючи метадані. Вона схожа на [fflush()](function.fflush.md), але також дає інструкції операційній системі про запис на накопичувач.
 
 ### Список параметрів
 
 `stream`
 
-Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.html)
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.md) або [fsockopen()](function.fsockopen.md) (і все ще не закритий функцією [fclose()](function.fclose.md)
 
 ### Значення, що повертаються
 
@@ -51,5 +51,5 @@ fclose($stream);
 
 ### Дивіться також
 
--   [fdatasync()](function.fdatasync.html) - Синхронізує дані (але не метадані) із файлом
--   [fflush()](function.fflush.html) - скидає буфер виведення у файл
+-   [fdatasync()](function.fdatasync.md) - Синхронізує дані (але не метадані) із файлом
+-   [fflush()](function.fflush.md) - скидає буфер виведення у файл

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-session.advanceclustertime.html: '« MongoDBDriverSession::advanceClusterTime'
-  - mongodb-driver-session.committransaction.html: 'MongoDBDriverSession::commitTransaction »'
+  - mongodb-driver-session.advanceclustertime.md: '« MongoDBDriverSession::advanceClusterTime'
+  - mongodb-driver-session.committransaction.md: 'MongoDBDriverSession::commitTransaction »'
   - index.md: PHP Manual
-  - class.mongodb-driver-session.html: MongoDBDriverSession
+  - class.mongodb-driver-session.md: MongoDBDriverSession
 title: 'MongoDBDriverSession::advanceOperationTime'
 ---
 # MongoDBDriverSession::advanceOperationTime

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.clippathimage.html: '« Imagick::clipPathImage'
-  - imagick.clutimage.html: 'Imagick::clutImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.clippathimage.md: '« Imagick::clipPathImage'
+  - imagick.clutimage.md: 'Imagick::clutImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::clone'
 ---
 # Imagick::clone
@@ -22,7 +22,7 @@ public Imagick::clone(): Imagick
 
 **Увага**
 
-Функція застаріла (*DEPRECATED*) з imagick версії 3.1.0, замість неї використовуйте ключове слово [clone](language.oop5.cloning.html)
+Функція застаріла (*DEPRECATED*) з imagick версії 3.1.0, замість неї використовуйте ключове слово [clone](language.oop5.cloning.md)
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ public Imagick::clone(): Imagick
 
 | Версия | Описание |
 | --- | --- |
-| PECL imagick 3.1.0 | Метод застарів на користь ключового слова [clone](language.oop5.cloning.html) |
+| PECL imagick 3.1.0 | Метод застарів на користь ключового слова [clone](language.oop5.cloning.md) |
 
 ### Приклади
 

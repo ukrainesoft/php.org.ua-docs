@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.queryfonts.html: '« Imagick::queryFonts'
-  - imagick.radialblurimage.html: 'Imagick::radialBlurImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.queryfonts.md: '« Imagick::queryFonts'
+  - imagick.radialblurimage.md: 'Imagick::radialBlurImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::queryFormats'
 ---
 # Imagick::queryFormats

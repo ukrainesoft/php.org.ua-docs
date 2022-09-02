@@ -1,9 +1,9 @@
 ---
 navigation:
-  - locale.getdisplaylanguage.html: '« Locale::getDisplayLanguage'
-  - locale.getdisplayregion.html: 'Locale::getDisplayRegion »'
-  - index.html: PHP Manual
-  - class.locale.html: Locale
+  - locale.getdisplaylanguage.md: '« Locale::getDisplayLanguage'
+  - locale.getdisplayregion.md: 'Locale::getDisplayRegion »'
+  - index.md: PHP Manual
+  - class.locale.md: Locale
 title: 'Locale::getDisplayName'
 ---
 # Locale::getDisplayName

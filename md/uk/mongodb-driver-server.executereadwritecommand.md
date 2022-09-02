@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.executereadcommand.html: '« MongoDBDriverServer::executeReadCommand'
-  - mongodb-driver-server.executewritecommand.html: 'MongoDBDriverServer::executeWriteCommand »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - mongodb-driver-server.executereadcommand.md: '« MongoDBDriverServer::executeReadCommand'
+  - mongodb-driver-server.executewritecommand.md: 'MongoDBDriverServer::executeWriteCommand »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::executeReadWriteCommand'
 ---
 # MongoDBDriverServer::executeReadWriteCommand
@@ -20,7 +20,7 @@ final public MongoDB\Driver\Server::executeReadWriteCommand(string $db, MongoDB\
 
 Виконує команду на сервері.
 
-Цей метод буде застосовувати логіку, специфічну для команд, які читають та пишуть (наприклад, [» aggregate](https://www.mongodb.com/docs/manual/reference/command/aggregate/)) та враховують версію сервера MongoDB. Параметри `"readConcern"` і `"writeConcern"` за замовчуванням відповідають відповідним значенням з [URI подключения MongoDB](mongodb-driver-manager.construct.html#mongodb-driver-manager.construct-uri)
+Цей метод буде застосовувати логіку, специфічну для команд, які читають та пишуть (наприклад, [» aggregate](https://www.mongodb.com/docs/manual/reference/command/aggregate/)) та враховують версію сервера MongoDB. Параметри `"readConcern"` і `"writeConcern"` за замовчуванням відповідають відповідним значенням з [URI подключения MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
 
 ### Список параметрів
 
@@ -53,7 +53,7 @@ final public MongoDB\Driver\Server::executeReadWriteCommand(string $db, MongoDB\
 
 **Увага**
 
-При використанні `"session"` та наявності незавершених транзакцій, ви не можете вказати `"readConcern"` ор `"writeConcern"` option. Це призведе до викидання винятків [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html). Натомість ви повинні встановити ці дві опції при створенні транзакції за допомогою [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.md)
+При використанні `"session"` та наявності незавершених транзакцій, ви не можете вказати `"readConcern"` ор `"writeConcern"` option. Це призведе до викидання винятків [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). Натомість ви повинні встановити ці дві опції при створенні транзакції за допомогою [MongoDBDriverSession::startTransaction()](mongodb-driver-session.starttransaction.md)
 
 ### Значення, що повертаються
 

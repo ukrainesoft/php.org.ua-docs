@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-add.html: « sodiumcryptocoreristretto255add
-  - function.sodium-crypto-core-ristretto255-is-valid-point.html: sodiumcryptocoreristretto255ісvalidpoint »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-core-ristretto255-add.md: « sodiumcryptocoreristretto255add
+  - function.sodium-crypto-core-ristretto255-is-valid-point.md: sodiumcryptocoreristretto255ісvalidpoint »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255fromhash
 ---
 # sodiumcryptocoreristretto255fromhash
@@ -57,6 +57,6 @@ string(64) "3066f82a1a747d45120d1740f14358531a8f04bbffe6a819f86dfe50f44a0a46"
 
 ### Дивіться також
 
--   [sodiumhex2bin()](function.sodium-hex2bin.html) - Декодує рядок у шістнадцятковому поданні до бінарного
--   [sodiumbin2hex()](function.sodium-bin2hex.html) - Кодувати у шістнадцяткову виставу
+-   [sodiumhex2bin()](function.sodium-hex2bin.md) - Декодує рядок у шістнадцятковому поданні до бінарного
+-   [sodiumbin2hex()](function.sodium-bin2hex.md) - Кодувати у шістнадцяткову виставу
 -   **sodiumcryptocoreristretto255fromhash()**

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ob-implicit-flush.html: « obimplicitflush
-  - function.ob-start.html: проstart »
-  - index.html: PHP Manual
-  - ref.outcontrol.html: Функції контролю виведення
+  - function.ob-implicit-flush.md: « obimplicitflush
+  - function.ob-start.md: проstart »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
 title: проlisthandlers
 ---
 # проlisthandlers
@@ -26,7 +26,7 @@ ob_list_handlers(): array
 
 ### Значення, що повертаються
 
-Функція поверне масив із використовуваними обробниками виводу (якщо є). Якщо увімкнено [outputbuffering](outcontrol.configuration.html#ini.output-buffering) або використовувалася анонімна функція разом з [проstart()](function.ob-start.md), то **проlisthandlers()** поверне "default output handler".
+Функція поверне масив із використовуваними обробниками виводу (якщо є). Якщо увімкнено [outputbuffering](outcontrol.configuration.md#ini.output-buffering) або використовувалася анонімна функція разом з [проstart()](function.ob-start.md), то **проlisthandlers()** поверне "default output handler".
 
 ### Приклади
 

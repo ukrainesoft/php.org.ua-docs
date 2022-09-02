@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursorinterface.isdead.html: '« MongoDBDriverCursorInterface::isDead'
-  - mongodb-driver-cursorinterface.toarray.html: 'MongoDBDriverCursorInterface::toArray »'
+  - mongodb-driver-cursorinterface.isdead.md: '« MongoDBDriverCursorInterface::isDead'
+  - mongodb-driver-cursorinterface.toarray.md: 'MongoDBDriverCursorInterface::toArray »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursorinterface.html: MongoDBDriverCursorInterface
+  - class.mongodb-driver-cursorinterface.md: MongoDBDriverCursorInterface
 title: 'MongoDBDriverCursorInterface::setTypeMap'
 ---
 # MongoDBDriverCursorInterface::setTypeMap
@@ -18,13 +18,13 @@ MongoDBDriverCursorInterface::setTypeMap — Задати порівняння �
 abstract public MongoDB\Driver\CursorInterface::setTypeMap(array $typemap): void
 ```
 
-Задати [сопоставление типов](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps) для використання при десеріалізації результатів BSON значення PHP.
+Задати [сопоставление типов](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps) для використання при десеріалізації результатів BSON значення PHP.
 
 ### Список параметрів
 
 `typeMap` (array)
 
-[Конфігурація карти типів](mongodb.persistence.deserialization.html#mongodb.persistence.typemaps)
+[Конфігурація карти типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)
 
 ### Значення, що повертаються
 

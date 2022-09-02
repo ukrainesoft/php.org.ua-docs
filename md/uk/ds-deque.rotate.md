@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.reversed.html: '« DsDeque::reversed'
-  - ds-deque.set.html: 'ДсDeque::set »'
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - ds-deque.reversed.md: '« DsDeque::reversed'
+  - ds-deque.set.md: 'ДсDeque::set »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::rotate'
 ---
 # ДсDeque::rotate

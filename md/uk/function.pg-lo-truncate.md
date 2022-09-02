@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-lo-tell.html: « pgлоtell
-  - function.pg-lo-unlink.html: пглоunlink »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-lo-tell.md: « pgлоtell
+  - function.pg-lo-unlink.md: пглоunlink »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пглоtruncate
 ---
 # пглоtruncate
@@ -18,7 +18,7 @@ title: пглоtruncate
 pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 ```
 
-**пглоtruncate()** обрізає екземпляр [PgSqlLob](class.pgsql-lob.html)
+**пглоtruncate()** обрізає екземпляр [PgSqlLob](class.pgsql-lob.md)
 
 Для використання інтерфейсу великого об'єкта необхідно укласти його в блок транзакцій.
 
@@ -26,7 +26,7 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.html)
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 `size`
 
@@ -40,7 +40,7 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `lob` тепер чекає екземпляр [PgSqlLob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -61,4 +61,4 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 ### Дивіться також
 
--   [пглоtell()](function.pg-lo-tell.html) - Повертає поточне положення внутрішнього покажчика великого об'єкта
+-   [пглоtell()](function.pg-lo-tell.md) - Повертає поточне положення внутрішнього покажчика великого об'єкта

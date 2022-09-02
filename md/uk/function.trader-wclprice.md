@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-var.html: « tradervar
-  - function.trader-willr.html: traderwillr »
+  - function.trader-var.md: « tradervar
+  - function.trader-willr.md: traderwillr »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderwclprice

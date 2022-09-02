@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getformat.html: '« Imagick::getFormat'
-  - imagick.gethomeurl.html: 'Imagick::getHomeURL »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getformat.md: '« Imagick::getFormat'
+  - imagick.gethomeurl.md: 'Imagick::getHomeURL »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getGravity'
 ---
 # Imagick::getGravity
@@ -26,4 +26,4 @@ public Imagick::getGravity(): int
 
 ### Значення, що повертаються
 
-Повертає значення гравітації. Дивіться список [констант гравитации](imagick.constants.html#imagick.constants.gravity)
+Повертає значення гравітації. Дивіться список [констант гравитации](imagick.constants.md#imagick.constants.gravity)

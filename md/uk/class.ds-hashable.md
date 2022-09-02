@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ds-collection.toarray.html: '« DsCollection::toArray'
-  - ds-hashable.equals.html: 'ДсHashable::equals »'
+  - ds-collection.toarray.md: '« DsCollection::toArray'
+  - ds-hashable.equals.md: 'ДсHashable::equals »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Інтерфейс Hashable

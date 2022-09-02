@@ -1,7 +1,7 @@
 ---
 navigation:
   - functions.arguments.md: « Аргументи функції
-  - functions.variable-functions.html: Звернення до функцій через змінні »
+  - functions.variable-functions.md: Звернення до функцій через змінні »
   - index.md: PHP Manual
   - language.functions.md: Функції
 title: Повернення значень

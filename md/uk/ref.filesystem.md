@@ -1,16 +1,16 @@
 ---
 navigation:
-  - filesystem.constants.html: « Обумовлені константи
-  - function.basename.html: basename »
-  - index.html: PHP Manual
-  - book.filesystem.html: Файлова система
+  - filesystem.constants.md: « Обумовлені константи
+  - function.basename.md: basename »
+  - index.md: PHP Manual
+  - book.filesystem.md: Файлова система
 title: Функції файлової системи
 ---
 # Функції файлової системи
 
 # Дивіться також
 
-Опис родинних функцій ви зможете знайти у розділах [Каталоги](ref.dir.html) і [Виконання програм](ref.exec.md)
+Опис родинних функцій ви зможете знайти у розділах [Каталоги](ref.dir.md) і [Виконання програм](ref.exec.md)
 
 За списком обгорток URL для роботи з віддаленими файлами та поясненнями зверніться до розділу [Підтримувані протоколи та обгортки](wrappers.md)
 

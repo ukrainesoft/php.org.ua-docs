@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.iconv-mime-decode-headers.html: « iconvmimedecodeheaders
-  - function.iconv-mime-encode.html: iconvmimeencode »
+  - function.iconv-mime-decode-headers.md: « iconvmimedecodeheaders
+  - function.iconv-mime-encode.md: iconvmimeencode »
   - index.md: PHP Manual
   - ref.iconv.md: Функции iconv
 title: iconvmimedecode

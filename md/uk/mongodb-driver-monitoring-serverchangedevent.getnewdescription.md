@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverchangedevent.gethost.html: '« MongoDBDriverMonitoringServerChangedEvent::getHost'
-  - mongodb-driver-monitoring-serverchangedevent.getport.html: 'MongoDBDriverMonitoringServerChangedEvent::getPort »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-serverchangedevent.html: MongoDBDriverMonitoringServerChangedEvent
+  - mongodb-driver-monitoring-serverchangedevent.gethost.md: '« MongoDBDriverMonitoringServerChangedEvent::getHost'
+  - mongodb-driver-monitoring-serverchangedevent.getport.md: 'MongoDBDriverMonitoringServerChangedEvent::getPort »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-serverchangedevent.md: MongoDBDriverMonitoringServerChangedEvent
 title: 'MongoDBDriverMonitoringServerChangedEvent::getNewDescription'
 ---
 # MongoDBDriverMonitoringServerChangedEvent::getNewDescription

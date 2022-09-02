@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocistatementtype.html: « ocistatementtype
-  - function.ociwritetemporarylob.html: ociwritetemporarylob »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocistatementtype.md: « ocistatementtype
+  - function.ociwritetemporarylob.md: ociwritetemporarylob »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ociwritelobtofile
 ---
 # ociwritelobtofile

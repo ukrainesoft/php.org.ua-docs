@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-readpreference.bsonserialize.html: '« MongoDBDriverReadPreference::bsonSerialize'
-  - mongodb-driver-readpreference.gethedge.html: 'MongoDBDriverReadPreference::getHedge »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-readpreference.html: MongoDBDriverReadPreference
+  - mongodb-driver-readpreference.bsonserialize.md: '« MongoDBDriverReadPreference::bsonSerialize'
+  - mongodb-driver-readpreference.gethedge.md: 'MongoDBDriverReadPreference::getHedge »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-readpreference.md: MongoDBDriverReadPreference
 title: 'MongoDBDriverReadPreference::construct'
 ---
 # MongoDBDriverReadPreference::construct
@@ -18,7 +18,7 @@ MongoDBDriverReadPreference::construct — Створити новий ReadPrefe
 final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array $tagSets = null, ?array $options = null)
 ```
 
-Створює новий [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.html)що є незмінним об'єктом значення.
+Створює новий [MongoDBDriverReadPreference](class.mongodb-driver-readpreference.md)що є незмінним об'єктом значення.
 
 ### Список параметрів
 
@@ -76,10 +76,10 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   При некоректному `mode` викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Якщо `tagSets` надається як первинна перевага читання або має неправильний формат (тобто не масив з нуля або більше документів) викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
--   Якщо опція `"maxStalenessSeconds"` надається для первинної переваги читання або знаходиться поза діапазоном, викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   При некоректному `mode` викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Якщо `tagSets` надається як первинна перевага читання або має неправильний формат (тобто не масив з нуля або більше документів) викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
+-   Якщо опція `"maxStalenessSeconds"` надається для первинної переваги читання або знаходиться поза діапазоном, викидає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
@@ -87,7 +87,7 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 | --- | --- |
 | PECL mongodb 1.8.0 | Доданий параметр `"hedge"` |
 | PECL mongodb 1.3.0 |  |
-| Аргумент `mode` тепер набуває рядкового значення, яке відповідає URI-опції `"readPreference"` для [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.html) |  |
+| Аргумент `mode` тепер набуває рядкового значення, яке відповідає URI-опції `"readPreference"` для [MongoDBDriverManager::construct()](mongodb-driver-manager.construct.md) |  |
 
 | | PECL mongodb 1.2.0
 

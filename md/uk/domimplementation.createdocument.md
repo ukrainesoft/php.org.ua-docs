@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domimplementation.construct.html: '« DOMImplementation::construct'
-  - domimplementation.createdocumenttype.html: 'DOMImplementation::createDocumentType »'
-  - index.html: PHP Manual
-  - class.domimplementation.html: DOMImplementation
+  - domimplementation.construct.md: '« DOMImplementation::construct'
+  - domimplementation.createdocumenttype.md: 'DOMImplementation::createDocumentType »'
+  - index.md: PHP Manual
+  - class.domimplementation.md: DOMImplementation
 title: 'DOMImplementation::createDocument'
 ---
 # DOMImplementation::createDocument
@@ -18,7 +18,7 @@ DOMImplementation::createDocument — Створює об'єкт класу DOMD
 public DOMImplementation::createDocument(?string $namespace = null, string $qualifiedName = "", ?DOMDocumentType $doctype = null): DOMDocument|false
 ```
 
-Створює об'єкт класу [DOMDocument](class.domdocument.html) заданого типу із його елементом document.
+Створює об'єкт класу [DOMDocument](class.domdocument.md) заданого типу із його елементом document.
 
 ### Список параметрів
 
@@ -36,7 +36,7 @@ URI простору імен створюваного елемента document
 
 ### Значення, що повертаються
 
-Новий об'єкт класу [DOMDocument](class.domdocument.html). Якщо аргументи `namespace` `qualifiedName`, і `doctype` мають значення null, об'єкт, що повертається [DOMDocument](class.domdocument.html) буде порожнім та без елемента document.
+Новий об'єкт класу [DOMDocument](class.domdocument.md). Якщо аргументи `namespace` `qualifiedName`, і `doctype` мають значення null, об'єкт, що повертається [DOMDocument](class.domdocument.md) буде порожнім та без елемента document.
 
 ### Помилки
 
@@ -48,7 +48,7 @@ URI простору імен створюваного елемента document
 
 Виникає, якщо виявлена ​​помилка у рядках `namespace` і `qualifiedName`
 
-До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.html)
+До PHP 8.0.0 метод *може* викликатись статично, але викличе помилку **`E_DEPRECATED`**. Починаючи з PHP 8.0.0, виклик цього методу статично викидає виняток [Error](class.error.md)
 
 ### список змін
 
@@ -59,5 +59,5 @@ URI простору імен створюваного елемента document
 
 ### Дивіться також
 
--   [DOMDocument::construct()](domdocument.construct.html) - Створює новий об'єкт DOMDocument
--   [DOMImplementation::createDocumentType()](domimplementation.createdocumenttype.html) - Створює порожній об'єкт класу DOMDocumentType
+-   [DOMDocument::construct()](domdocument.construct.md) - Створює новий об'єкт DOMDocument
+-   [DOMImplementation::createDocumentType()](domimplementation.createdocumenttype.md) - Створює порожній об'єкт класу DOMDocumentType

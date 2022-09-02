@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.getattributes.html: '« ReflectionClass::getAttributes'
-  - reflectionclass.getconstants.html: 'ReflectionClass::getConstants »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.getattributes.md: '« ReflectionClass::getAttributes'
+  - reflectionclass.getconstants.md: 'ReflectionClass::getConstants »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getConstant'
 ---
 # ReflectionClass::getConstant

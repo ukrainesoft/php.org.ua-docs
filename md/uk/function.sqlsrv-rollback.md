@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-query.html: « sqlsrvquery
-  - function.sqlsrv-rows-affected.html: sqlsrvrowsaffected »
+  - function.sqlsrv-query.md: « sqlsrvquery
+  - function.sqlsrv-rows-affected.md: sqlsrvrowsaffected »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvrollback
@@ -34,7 +34,7 @@ sqlsrv_rollback(resource $conn): bool
 
 **Приклад #1 Приклад використання **sqlsrvrollback()****
 
-У наступному прикладі показано, як використовувати [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.html) разом з [sqlsrvcommit()](function.sqlsrv-commit.md) або **sqlsrvrollback()**
+У наступному прикладі показано, як використовувати [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md) разом з [sqlsrvcommit()](function.sqlsrv-commit.md) або **sqlsrvrollback()**
 
 ```php
 <?php

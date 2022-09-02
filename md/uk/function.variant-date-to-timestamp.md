@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-date-from-timestamp.html: « variantdatefromtimestamp
-  - function.variant-div.html: variantdiv »
+  - function.variant-date-from-timestamp.md: « variantdatefromtimestamp
+  - function.variant-div.md: variantdiv »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantdateтоtimestamp

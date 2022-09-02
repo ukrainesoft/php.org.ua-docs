@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stream.setup.html: « Встановлення та налаштування
-  - stream.installation.html: Установка »
-  - index.html: PHP Manual
-  - stream.setup.html: Встановлення та налаштування
+  - stream.setup.md: « Встановлення та налаштування
+  - stream.installation.md: Установка »
+  - index.md: PHP Manual
+  - stream.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

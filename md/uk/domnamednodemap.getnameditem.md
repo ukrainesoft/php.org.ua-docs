@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domnamednodemap.count.html: '« DOMNamedNodeMap::count'
-  - domnamednodemap.getnameditemns.html: 'DOMNamedNodeMap::getNamedItemNS »'
-  - index.html: PHP Manual
-  - class.domnamednodemap.html: DOMNamedNodeMap
+  - domnamednodemap.count.md: '« DOMNamedNodeMap::count'
+  - domnamednodemap.getnameditemns.md: 'DOMNamedNodeMap::getNamedItemNS »'
+  - index.md: PHP Manual
+  - class.domnamednodemap.md: DOMNamedNodeMap
 title: 'DOMNamedNodeMap::getNamedItem'
 ---
 # DOMNamedNodeMap::getNamedItem
@@ -32,4 +32,4 @@ public DOMNamedNodeMap::getNamedItem(string $qualifiedName): ?DOMNode
 
 ### Дивіться також
 
--   [DOMNamedNodeMap::getNamedItemNS()](domnamednodemap.getnameditemns.html) - Отримує вузол із заданим локальним ім'ям та URI простору імен
+-   [DOMNamedNodeMap::getNamedItemNS()](domnamednodemap.getnameditemns.md) - Отримує вузол із заданим локальним ім'ям та URI простору імен

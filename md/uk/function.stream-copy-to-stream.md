@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-context-set-params.html: « streamcontextsetparams
-  - function.stream-filter-append.html: streamfilterappend »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-context-set-params.md: « streamcontextsetparams
+  - function.stream-filter-append.md: streamfilterappend »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamcopyтоstream
 ---
 # streamcopyтоstream

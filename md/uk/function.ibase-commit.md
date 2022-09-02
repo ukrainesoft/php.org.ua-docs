@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-commit-ret.html: « ibasecommitret
-  - function.ibase-connect.html: ibaseconnect »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-commit-ret.md: « ibasecommitret
+  - function.ibase-connect.md: ibaseconnect »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibasecommit
 ---
 # ibasecommit

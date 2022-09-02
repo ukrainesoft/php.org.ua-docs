@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-box.delete.html: '« UIControlsBox::delete'
-  - ui-controls-box.ispadded.html: 'ОЙControlsBox::isPadded »'
-  - index.html: PHP Manual
-  - class.ui-controls-box.html: ОЙControlsBox
+  - ui-controls-box.delete.md: '« UIControlsBox::delete'
+  - ui-controls-box.ispadded.md: 'ОЙControlsBox::isPadded »'
+  - index.md: PHP Manual
+  - class.ui-controls-box.md: ОЙControlsBox
 title: 'ОЙControlsBox::getOrientation'
 ---
 # ОЙControlsBox::getOrientation

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.first.html: '« DsVector::first'
-  - ds-vector.insert.html: 'ДсVector::insert »'
+  - ds-vector.first.md: '« DsVector::first'
+  - ds-vector.insert.md: 'ДсVector::insert »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::get'
 ---
 # ДсVector::get

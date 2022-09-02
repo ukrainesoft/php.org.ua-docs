@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stats.setup.html: « Встановлення та налаштування
-  - stats.installation.html: Установка »
-  - index.html: PHP Manual
-  - stats.setup.html: Встановлення та налаштування
+  - stats.setup.md: « Встановлення та налаштування
+  - stats.installation.md: Установка »
+  - index.md: PHP Manual
+  - stats.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-result-error.html: « pgresulterror
-  - function.pg-result-status.html: пгresultstatus »
+  - function.pg-result-error.md: « pgresulterror
+  - function.pg-result-status.md: пгresultstatus »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгresultseek
@@ -24,7 +24,7 @@ pg_result_seek(PgSql\Result $result, int $row): bool
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 

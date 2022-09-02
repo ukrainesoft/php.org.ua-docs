@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.removefacetfield.html: '« SolrQuery::removeFacetField'
-  - solrquery.removefield.html: 'SolrQuery::removeField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.removefacetfield.md: '« SolrQuery::removeFacetField'
+  - solrquery.removefield.md: 'SolrQuery::removeField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::removeFacetQuery'
 ---
 # SolrQuery::removeFacetQuery

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.gettermsmaxcount.html: '« SolrQuery::getTermsMaxCount'
-  - solrquery.gettermsprefix.html: 'SolrQuery::getTermsPrefix »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.gettermsmaxcount.md: '« SolrQuery::getTermsMaxCount'
+  - solrquery.gettermsprefix.md: 'SolrQuery::getTermsPrefix »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getTermsMinCount'
 ---
 # SolrQuery::getTermsMinCount

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-setpolydash.html: «pssetpolydash
-  - function.ps-shading.html: псshading »
+  - function.ps-setpolydash.md: «pssetpolydash
+  - function.ps-shading.md: псshading »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псshadingpattern

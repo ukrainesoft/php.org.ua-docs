@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xhprof.requirements.html: « Вимоги
-  - xhprof.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - xhprof.setup.html: Встановлення та налаштування
+  - xhprof.requirements.md: « Вимоги
+  - xhprof.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - xhprof.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

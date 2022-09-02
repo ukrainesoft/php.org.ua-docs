@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-format.bold.html: '« VtifulKernelFormat::bold'
-  - vtiful-kernel-format.underline.html: 'VtifulKernelFormat::underline »'
-  - index.html: PHP Manual
-  - class.vtiful-kernel-format.html: VtifulKernelFormat
+  - vtiful-kernel-format.bold.md: '« VtifulKernelFormat::bold'
+  - vtiful-kernel-format.underline.md: 'VtifulKernelFormat::underline »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-format.md: VtifulKernelFormat
 title: 'VtifulKernelFormat::italic'
 ---
 # VtifulKernelFormat::italic
@@ -18,7 +18,7 @@ VtifulKernelFormat::italic — Курсив
 public Vtiful\Kernel\Format::italic(resource $handle)
 ```
 
-Формат курсиву [VtifulKernelFormat](class.vtiful-kernel-format.html)
+Формат курсиву [VtifulKernelFormat](class.vtiful-kernel-format.md)
 
 ### Список параметрів
 

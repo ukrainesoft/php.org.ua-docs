@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-result.getautoincrementvalue.html: '« Result::getAutoIncrementValue'
-  - mysql-xdevapi-result.getwarnings.html: 'Result::getWarnings »'
+  - mysql-xdevapi-result.getautoincrementvalue.md: '« Result::getAutoIncrementValue'
+  - mysql-xdevapi-result.getwarnings.md: 'Result::getWarnings »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
 title: 'Result::getGeneratedIds'
 ---
 # Result::getGeneratedIds

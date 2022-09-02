@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.easter-date.html: « easterdate
+  - function.easter-date.md: « easterdate
   - function.frenchtojd.md: frenchtojd »
   - index.md: PHP Manual
   - ref.calendar.md: Календарь

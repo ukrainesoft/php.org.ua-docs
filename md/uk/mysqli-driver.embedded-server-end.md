@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysqli-driver.html: « mysqlidriver
-  - mysqli-driver.embedded-server-start.html: 'mysqlidriver::embeddedserverstart »'
+  - class.mysqli-driver.md: « mysqlidriver
+  - mysqli-driver.embedded-server-start.md: 'mysqlidriver::embeddedserverstart »'
   - index.md: PHP Manual
-  - class.mysqli-driver.html: mysqlidriver
+  - class.mysqli-driver.md: mysqlidriver
 title: 'mysqlidriver::embeddedserverend'
 ---
 # mysqlidriver::embeddedserverend

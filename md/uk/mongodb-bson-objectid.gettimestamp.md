@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-objectid.construct.html: '« MongoDBBSONObjectId::construct'
-  - mongodb-bson-objectid.jsonserialize.html: 'MongoDBBSONObjectId::jsonSerialize »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+  - mongodb-bson-objectid.construct.md: '« MongoDBBSONObjectId::construct'
+  - mongodb-bson-objectid.jsonserialize.md: 'MongoDBBSONObjectId::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
 title: 'MongoDBBSONObjectId::getTimestamp'
 ---
 # MongoDBBSONObjectId::getTimestamp
@@ -20,7 +20,7 @@ final public MongoDB\BSON\ObjectId::getTimestamp(): int
 
 Компонент мітки часу в ObjectId – це його найбільш значущі 32 біти, які позначають кількість секунд від початку епохи Unix. Це значення читається як 32-розрядне ціле число без знака з порядком байтів у старшому порядку.
 
-> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.html)
+> **Зауваження**: Оскільки цілий тип PHP є знаковим, деякі значення, отримані за допомогою цього методу, можуть перетворитися на негативні цілі числа на 32-бітових платформах. Для отримання рядкового представлення беззнакового цілого можна скористатися шаблоном форматування %u функції [sprintf()](function.sprintf.md)
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ final public MongoDB\BSON\ObjectId::getTimestamp(): int
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### Приклади
 

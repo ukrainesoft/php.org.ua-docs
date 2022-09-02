@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.sum.html: '« DsSequence::sum'
-  - class.ds-vector.html: Вектор »
+  - ds-sequence.sum.md: '« DsSequence::sum'
+  - class.ds-vector.md: Вектор »
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::unshift'
 ---
 # ДсSequence::unshift

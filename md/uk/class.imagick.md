@@ -1,12 +1,12 @@
 ---
 navigation:
-  - imagick.examples-1.html: « Базовое использование
-  - imagick.adaptiveblurimage.html: 'Imagick::adaptiveBlurImage »'
-  - index.html: PHP Manual
-  - book.imagick.html: ImageMagick
-title: 'Клас [Imagick](class.imagick.html)'
+  - imagick.examples-1.md: « Базовое использование
+  - imagick.adaptiveblurimage.md: 'Imagick::adaptiveBlurImage »'
+  - index.md: PHP Manual
+  - book.imagick.md: ImageMagick
+title: 'Клас [Imagick](class.imagick.md)'
 ---
-# Клас [Imagick](class.imagick.html)
+# Клас [Imagick](class.imagick.md)
 
 (PECL imagick 2, PECL imagick 3)
 
@@ -389,457 +389,457 @@ public writeImagesFile(resource $filehandle, string $format = ?): bool
 
 | Эффекты изображения | Методы получения | Методы установки | Чтение/запись изображений | Другие |
 | --- | --- | --- | --- | --- |
-| [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.html) | [Imagick::getCompression()](imagick.getcompression.html) | [Imagick::setBackgroundColor()](imagick.setbackgroundcolor.html) | [Imagick::construct()](imagick.construct.html) | [Imagick::clear()](imagick.clear.html) |
-| [Imagick::adaptiveResizeImage()](imagick.adaptiveresizeimage.html) | [Imagick::getFilename()](imagick.getfilename.html) | [Imagick::setCompressionQuality()](imagick.setcompressionquality.html) | [Imagick::addImage()](imagick.addimage.html) | [Imagick::clone()](imagick.clone.html) |
-| [Imagick::adaptiveSharpenImage()](imagick.adaptivesharpenimage.html) | [Imagick::getFormat()](imagick.getformat.html) | [Imagick::setCompression()](imagick.setcompression.html) | [Imagick::appendImages()](imagick.appendimages.html) | [Imagick::current()](imagick.current.html) |
-| [Imagick::adaptiveThresholdImage()](imagick.adaptivethresholdimage.html) | [Imagick::getImageBackgroundColor()](imagick.getimagebackgroundcolor.html) | [Imagick::setFilename()](imagick.setfilename.html) | [Imagick::getFilename()](imagick.getfilename.html) | [Imagick::destroy()](imagick.destroy.html) |
-| [Imagick::addNoiseImage()](imagick.addnoiseimage.html) | [Imagick::getImageBlob()](imagick.getimageblob.html) | [Imagick::getImagesBlob()](imagick.getimagesblob.html) | [Imagick::setFormat()](imagick.setformat.html) | [Imagick::getFormat()](imagick.getformat.html) |
-| [Imagick::affinetransformimage()](imagick.affinetransformimage.html) | [Imagick::getImageBluePrimary()](imagick.getimageblueprimary.html) | [Imagick::setImageBackgroundColor()](imagick.setimagebackgroundcolor.html) | [Imagick::getImageFilename()](imagick.getimagefilename.html) | [Imagick::getHomeURL()](imagick.gethomeurl.html) |
-| [Imagick::annotateImage()](imagick.annotateimage.html) | [Imagick::getImageBorderColor()](imagick.getimagebordercolor.html) | [Imagick::setFirstIterator()](imagick.setfirstiterator.html) | [Imagick::getImageFormat()](imagick.getimageformat.html) | [Imagick::commentImage()](imagick.commentimage.html) |
-| [Imagick::averageImages()](imagick.averageimages.html) | [Imagick::getImageChannelDepth()](imagick.getimagechanneldepth.html) | [Imagick::setImageBias()](imagick.setimagebias.html) | [Imagick::getImage()](imagick.getimage.html) | [Imagick::getNumberImages()](imagick.getnumberimages.html) |
-| [Imagick::blackThresholdImage()](imagick.blackthresholdimage.html) | [Imagick::getImageChannelDistortion()](imagick.getimagechanneldistortion.html) | [Imagick::setImageBluePrimary()](imagick.setimageblueprimary.html) | [Imagick::setImageFilename()](imagick.setimagefilename.html) | [Imagick::getReleaseDate()](imagick.getreleasedate.html) |
-| [Imagick::blurImage()](imagick.blurimage.html) | [Imagick::getImageChannelExtrema()](imagick.getimagechannelextrema.html) | [Imagick::setImageBorderColor()](imagick.setimagebordercolor.html) | [Imagick::setImageFormat()](imagick.setimageformat.html) | [Imagick::getVersion()](imagick.getversion.html) |
-| [Imagick::borderImage()](imagick.borderimage.html) | [Imagick::getImageChannelMean()](imagick.getimagechannelmean.html) | [Imagick::setImageChannelDepth()](imagick.setimagechanneldepth.html) | [Imagick::readImageFile()](imagick.readimagefile.html) | [Imagick::hasNextImage()](imagick.hasnextimage.html) |
-| [Imagick::charcoalImage()](imagick.charcoalimage.html) | [Imagick::getImageChannelStatistics()](imagick.getimagechannelstatistics.html) | [Imagick::setImageColormapColor()](imagick.setimagecolormapcolor.html) | [Imagick::readImage()](imagick.readimage.html) | [Imagick::hasPreviousImage()](imagick.haspreviousimage.html) |
-| [Imagick::chopImage()](imagick.chopimage.html) | [Imagick::getImageColormapColor()](imagick.getimagecolormapcolor.html) | [Imagick::setImageColorSpace()](imagick.setimagecolorspace.html) | [Imagick::writeImages()](imagick.writeimages.html) | [Imagick::labelImage()](imagick.labelimage.html) |
-| [Imagick::clipImage()](imagick.clipimage.html) | [Imagick::getImageColorspace()](imagick.getimagecolorspace.html) | [Imagick::setImageCompose()](imagick.setimagecompose.html) | [Imagick::writeImage()](imagick.writeimage.html) | [Imagick::newImage()](imagick.newimage.html) |
-| [Imagick::clipPathImage()](imagick.clippathimage.html) | [Imagick::getImageColors()](imagick.getimagecolors.html) | [Imagick::setImageCompression()](imagick.setimagecompression.html) |  | [Imagick::newPseudoImage()](imagick.newpseudoimage.html) |
-| [Imagick::coalesceImages()](imagick.coalesceimages.html) | [Imagick::getImageCompose()](imagick.getimagecompose.html) | [Imagick::setImageDelay()](imagick.setimagedelay.html) |  | [Imagick::nextImage()](imagick.nextimage.html) |
-| [Imagick::colorFloodFillImage()](imagick.colorfloodfillimage.html) | [Imagick::getImageDelay()](imagick.getimagedelay.html) | [Imagick::setImageDepth()](imagick.setimagedepth.html) |  | [Imagick::pingImageBlob()](imagick.pingimageblob.html) |
-| [Imagick::colorizeImage()](imagick.colorizeimage.html) | [Imagick::getImageDepth()](imagick.getimagedepth.html) | [Imagick::setImageDispose()](imagick.setimagedispose.html) |  | [Imagick::pingImageFile()](imagick.pingimagefile.html) |
-| [Imagick::combineImages()](imagick.combineimages.html) | [Imagick::getImageDispose()](imagick.getimagedispose.html) | [Imagick::setImageDispose()](imagick.setimagedispose.html) |  | [Imagick::pingImage()](imagick.pingimage.html) |
-| [Imagick::compareImageChannels()](imagick.compareimagechannels.html) | [Imagick::getImageDistortion()](imagick.getimagedistortion.html) | [Imagick::setImageExtent()](imagick.setimageextent.html) |  | [Imagick::previousImage()](imagick.previousimage.html) |
-| [Imagick::compareImageLayers()](imagick.compareimagelayers.html) | [Imagick::getImageExtrema()](imagick.getimageextrema.html) | [Imagick::setImageFilename()](imagick.setimagefilename.html) |  | [Imagick::profileImage()](imagick.profileimage.html) |
-| [Imagick::compositeImage()](imagick.compositeimage.html) | [Imagick::getImageFilename()](imagick.getimagefilename.html) | [Imagick::setImageFormat()](imagick.setimageformat.html) |  | [Imagick::queryFormats()](imagick.queryformats.html) |
-| [Imagick::contrastImage()](imagick.contrastimage.html) | [Imagick::getImageFormat()](imagick.getimageformat.html) | [Imagick::setImageGamma()](imagick.setimagegamma.html) |  | [Imagick::removeImageProfile()](imagick.removeimageprofile.html) |
-| [Imagick::contrastStretchImage()](imagick.contraststretchimage.html) | [Imagick::getImageGamma()](imagick.getimagegamma.html) | [Imagick::setImageGreenPrimary()](imagick.setimagegreenprimary.html) |  | [Imagick::removeImage()](imagick.removeimage.html) |
-| [Imagick::convolveImage()](imagick.convolveimage.html) | [Imagick::getImageGeometry()](imagick.getimagegeometry.html) | [Imagick::setImageIndex()](imagick.setimageindex.html) |  | [Imagick::setFirstIterator()](imagick.setfirstiterator.html) |
-| [Imagick::cropImage()](imagick.cropimage.html) | [Imagick::getImageGreenPrimary()](imagick.getimagegreenprimary.html) | [Imagick::setImageInterpolateMethod()](imagick.setimageinterpolatemethod.html) |  | [Imagick::setImageIndex()](imagick.setimageindex.html) |
-| [Imagick::cycleColormapImage()](imagick.cyclecolormapimage.html) | [Imagick::getImageHeight()](imagick.getimageheight.html) | [Imagick::setImageIterations()](imagick.setimageiterations.html) |  | [Imagick::valid()](imagick.valid.html) |
-| [Imagick::deconstructImages()](imagick.deconstructimages.html) | [Imagick::getImageHistogram()](imagick.getimagehistogram.html) | [Imagick::setImageMatteColor()](imagick.setimagemattecolor.html) |  | [Imagick::getCopyright()](imagick.getcopyright.html) |
-| [Imagick::drawImage()](imagick.drawimage.html) | [Imagick::getImageIndex()](imagick.getimageindex.html) | [Imagick::setImageMatte()](imagick.setimagematte.html) |  |  |
-| [Imagick::edgeImage()](imagick.edgeimage.html) | [Imagick::getImageInterlaceScheme()](imagick.getimageinterlacescheme.html) | [Imagick::setImagePage()](imagick.setimagepage.html) |  |  |
-| [Imagick::embossImage()](imagick.embossimage.html) | [Imagick::getImageInterpolateMethod()](imagick.getimageinterpolatemethod.html) | [Imagick::setImageProfile()](imagick.setimageprofile.html) |  |  |
-| [Imagick::enhanceImage()](imagick.enhanceimage.html) | [Imagick::getImageIterations()](imagick.getimageiterations.html) | [Imagick::setImageProperty()](imagick.setimageproperty.html) |  |  |
-| [Imagick::equalizeImage()](imagick.equalizeimage.html) | [Imagick::getImageMatteColor()](imagick.getimagemattecolor.html) | [Imagick::setImageRedPrimary()](imagick.setimageredprimary.html) |  |  |
-| [Imagick::evaluateImage()](imagick.evaluateimage.html) | [Imagick::getImageMatte()](imagick.getimagematte.html) | [Imagick::setImageRenderingIntent()](imagick.setimagerenderingintent.html) |  |  |
-| [Imagick::flattenImages()](imagick.flattenimages.html) | [Imagick::getImagePage()](imagick.getimagepage.html) | [Imagick::setImageResolution()](imagick.setimageresolution.html) |  |  |
-| [Imagick::flipImage()](imagick.flipimage.html) | [Imagick::getImagePixelColor()](imagick.getimagepixelcolor.html) | [Imagick::setImageScene()](imagick.setimagescene.html) |  |  |
-| [Imagick::flopImage()](imagick.flopimage.html) | [Imagick::getImageProfile()](imagick.getimageprofile.html) | [Imagick::setImageTicksPerSecond()](imagick.setimagetickspersecond.html) |  |  |
-|  | [Imagick::getImageProperty()](imagick.getimageproperty.html) | [Imagick::setImageType()](imagick.setimagetype.html) |  |  |
-| [Imagick::fxImage()](imagick.fximage.html) | [Imagick::getImageRedPrimary()](imagick.getimageredprimary.html) | [Imagick::setImageUnits()](imagick.setimageunits.html) |  |  |
-| [Imagick::gammaImage()](imagick.gammaimage.html) | [Imagick::getImageRegion()](imagick.getimageregion.html) | [Imagick::setImageVirtualPixelMethod()](imagick.setimagevirtualpixelmethod.html) |  |  |
-| [Imagick::gaussianBlurImage()](imagick.gaussianblurimage.html) | [Imagick::getImageRenderingIntent()](imagick.getimagerenderingintent.html) | [Imagick::setImageWhitepoint()](imagick.setimagewhitepoint.html) |  |  |
-| [Imagick::implodeImage()](imagick.implodeimage.html) | [Imagick::getImageResolution()](imagick.getimageresolution.html) | [Imagick::setInterlaceScheme()](imagick.setinterlacescheme.html) |  |  |
-| [Imagick::levelImage()](imagick.levelimage.html) | [Imagick::getImageScene()](imagick.getimagescene.html) | [Imagick::setOption()](imagick.setoption.html) |  |  |
-| [Imagick::linearStretchImage()](imagick.linearstretchimage.html) | [Imagick::getImageSignature()](imagick.getimagesignature.html) | [Imagick::setPage()](imagick.setpage.html) |  |  |
-| [Imagick::magnifyImage()](imagick.magnifyimage.html) | [Imagick::getImageTicksPerSecond()](imagick.getimagetickspersecond.html) | [Imagick::setResolution()](imagick.setresolution.html) |  |  |
-| [Imagick::matteFloodFillImage()](imagick.mattefloodfillimage.html) | [Imagick::getImageTotalInkDensity()](imagick.getimagetotalinkdensity.html) | [Imagick::setResourceLimit()](imagick.setresourcelimit.html) |  |  |
-| [Imagick::medianFilterImage()](imagick.medianfilterimage.html) | [Imagick::getImageType()](imagick.getimagetype.html) | [Imagick::setSamplingFactors()](imagick.setsamplingfactors.html) |  |  |
-| [Imagick::minifyImage()](imagick.minifyimage.html) | [Imagick::getImageUnits()](imagick.getimageunits.html) | [Imagick::setSizeOffset()](imagick.setsizeoffset.html) |  |  |
-| [Imagick::modulateImage()](imagick.modulateimage.html) | [Imagick::getImageVirtualPixelMethod()](imagick.getimagevirtualpixelmethod.html) | [Imagick::setSize()](imagick.setsize.html) |  |  |
-| [Imagick::montageImage()](imagick.montageimage.html) | [Imagick::getImageWhitepoint()](imagick.getimagewhitepoint.html) | [Imagick::setType()](imagick.settype.html) |  |  |
-| [Imagick::morphImages()](imagick.morphimages.html) | [Imagick::getImageWidth()](imagick.getimagewidth.html) |  |  |  |
-| [Imagick::mosaicImages()](imagick.mosaicimages.html) | [Imagick::getImage()](imagick.getimage.html) |  |  |  |
-| [Imagick::motionBlurImage()](imagick.motionblurimage.html) | [Imagick::getInterlaceScheme()](imagick.getinterlacescheme.html) |  |  |  |
-| [Imagick::negateImage()](imagick.negateimage.html) | [Imagick::getNumberImages()](imagick.getnumberimages.html) |  |  |  |
-| [Imagick::normalizeImage()](imagick.normalizeimage.html) | [Imagick::getOption()](imagick.getoption.html) |  |  |  |
-| [Imagick::oilPaintImage()](imagick.oilpaintimage.html) | [Imagick::getPackageName()](imagick.getpackagename.html) |  |  |  |
-| [Imagick::optimizeImageLayers()](imagick.optimizeimagelayers.html) | [Imagick::getPage()](imagick.getpage.html) |  |  |  |
-| [Imagick::paintOpaqueImage()](imagick.paintopaqueimage.html) | [Imagick::getPixelIterator()](imagick.getpixeliterator.html) |  |  |  |
-| [Imagick::paintTransparentImage()](imagick.painttransparentimage.html) | [Imagick::getPixelRegionIterator()](imagick.getpixelregioniterator.html) |  |  |  |
-| [Imagick::posterizeImage()](imagick.posterizeimage.html) | [Imagick::getQuantumDepth()](imagick.getquantumdepth.html) |  |  |  |
-| [Imagick::radialBlurImage()](imagick.radialblurimage.html) | [Imagick::getQuantumRange()](imagick.getquantumrange.html) |  |  |  |
-| [Imagick::raiseImage()](imagick.raiseimage.html) | [Imagick::getResourceLimit()](imagick.getresourcelimit.html) |  |  |  |
-| [Imagick::randomThresholdImage()](imagick.randomthresholdimage.html) | [Imagick::getResource()](imagick.getresource.html) |  |  |  |
-| [Imagick::reduceNoiseImage()](imagick.reducenoiseimage.html) | [Imagick::getSamplingFactors()](imagick.getsamplingfactors.html) |  |  |  |
-| [Imagick::render()](imagick.render.html) | [Imagick::getSizeOffset()](imagick.getsizeoffset.html) |  |  |  |
-| [Imagick::resampleImage()](imagick.resampleimage.html) | [Imagick::getSize()](imagick.getsize.html) |  |  |  |
-| [Imagick::resizeImage()](imagick.resizeimage.html) | [Imagick::identifyImage()](imagick.identifyimage.html) |  |  |  |
-| [Imagick::rollImage()](imagick.rollimage.html) | [Imagick::getImageSize()](imagick.getimagesize.html) |  |  |  |
-| [Imagick::rotateImage()](imagick.rotateimage.html) |  |  |  |  |
-| [Imagick::sampleImage()](imagick.sampleimage.html) |  |  |  |  |
-| [Imagick::scaleImage()](imagick.scaleimage.html) |  |  |  |  |
-| [Imagick::separateImageChannel()](imagick.separateimagechannel.html) |  |  |  |  |
-| [Imagick::sepiaToneImage()](imagick.sepiatoneimage.html) |  |  |  |  |
-| [Imagick::shadeImage()](imagick.shadeimage.html) |  |  |  |  |
-| [Imagick::shadowImage()](imagick.shadowimage.html) |  |  |  |  |
-| [Imagick::sharpenImage()](imagick.sharpenimage.html) |  |  |  |  |
-| [Imagick::shaveImage()](imagick.shaveimage.html) |  |  |  |  |
-| [Imagick::shearImage()](imagick.shearimage.html) |  |  |  |  |
-| [Imagick::sigmoidalContrastImage()](imagick.sigmoidalcontrastimage.html) |  |  |  |  |
-| [Imagick::sketchImage()](imagick.sketchimage.html) |  |  |  |  |
-| [Imagick::solarizeImage()](imagick.solarizeimage.html) |  |  |  |  |
-| [Imagick::spliceImage()](imagick.spliceimage.html) |  |  |  |  |
-| [Imagick::spreadImage()](imagick.spreadimage.html) |  |  |  |  |
-| [Imagick::steganoImage()](imagick.steganoimage.html) |  |  |  |  |
-| [Imagick::stereoImage()](imagick.stereoimage.html) |  |  |  |  |
-| [Imagick::stripImage()](imagick.stripimage.html) |  |  |  |  |
-| [Imagick::swirlImage()](imagick.swirlimage.html) |  |  |  |  |
-| [Imagick::textureImage()](imagick.textureimage.html) |  |  |  |  |
-| [Imagick::thresholdImage()](imagick.thresholdimage.html) |  |  |  |  |
-| [Imagick::thumbnailImage()](imagick.thumbnailimage.html) |  |  |  |  |
-| [Imagick::tintImage()](imagick.tintimage.html) |  |  |  |  |
-| [Imagick::transverseImage()](imagick.transverseimage.html) |  |  |  |  |
-| [Imagick::trimImage()](imagick.trimimage.html) |  |  |  |  |
-| [Imagick::uniqueImageColors()](imagick.uniqueimagecolors.html) |  |  |  |  |
-| [Imagick::unsharpMaskImage()](imagick.unsharpmaskimage.html) |  |  |  |  |
-| [Imagick::vignetteImage()](imagick.vignetteimage.html) |  |  |  |  |
-| [Imagick::waveImage()](imagick.waveimage.html) |  |  |  |  |
-| [Imagick::whiteThresholdImage()](imagick.whitethresholdimage.html) |  |  |  |  |
+| [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md) | [Imagick::getCompression()](imagick.getcompression.md) | [Imagick::setBackgroundColor()](imagick.setbackgroundcolor.md) | [Imagick::construct()](imagick.construct.md) | [Imagick::clear()](imagick.clear.md) |
+| [Imagick::adaptiveResizeImage()](imagick.adaptiveresizeimage.md) | [Imagick::getFilename()](imagick.getfilename.md) | [Imagick::setCompressionQuality()](imagick.setcompressionquality.md) | [Imagick::addImage()](imagick.addimage.md) | [Imagick::clone()](imagick.clone.md) |
+| [Imagick::adaptiveSharpenImage()](imagick.adaptivesharpenimage.md) | [Imagick::getFormat()](imagick.getformat.md) | [Imagick::setCompression()](imagick.setcompression.md) | [Imagick::appendImages()](imagick.appendimages.md) | [Imagick::current()](imagick.current.md) |
+| [Imagick::adaptiveThresholdImage()](imagick.adaptivethresholdimage.md) | [Imagick::getImageBackgroundColor()](imagick.getimagebackgroundcolor.md) | [Imagick::setFilename()](imagick.setfilename.md) | [Imagick::getFilename()](imagick.getfilename.md) | [Imagick::destroy()](imagick.destroy.md) |
+| [Imagick::addNoiseImage()](imagick.addnoiseimage.md) | [Imagick::getImageBlob()](imagick.getimageblob.md) | [Imagick::getImagesBlob()](imagick.getimagesblob.md) | [Imagick::setFormat()](imagick.setformat.md) | [Imagick::getFormat()](imagick.getformat.md) |
+| [Imagick::affinetransformimage()](imagick.affinetransformimage.md) | [Imagick::getImageBluePrimary()](imagick.getimageblueprimary.md) | [Imagick::setImageBackgroundColor()](imagick.setimagebackgroundcolor.md) | [Imagick::getImageFilename()](imagick.getimagefilename.md) | [Imagick::getHomeURL()](imagick.gethomeurl.md) |
+| [Imagick::annotateImage()](imagick.annotateimage.md) | [Imagick::getImageBorderColor()](imagick.getimagebordercolor.md) | [Imagick::setFirstIterator()](imagick.setfirstiterator.md) | [Imagick::getImageFormat()](imagick.getimageformat.md) | [Imagick::commentImage()](imagick.commentimage.md) |
+| [Imagick::averageImages()](imagick.averageimages.md) | [Imagick::getImageChannelDepth()](imagick.getimagechanneldepth.md) | [Imagick::setImageBias()](imagick.setimagebias.md) | [Imagick::getImage()](imagick.getimage.md) | [Imagick::getNumberImages()](imagick.getnumberimages.md) |
+| [Imagick::blackThresholdImage()](imagick.blackthresholdimage.md) | [Imagick::getImageChannelDistortion()](imagick.getimagechanneldistortion.md) | [Imagick::setImageBluePrimary()](imagick.setimageblueprimary.md) | [Imagick::setImageFilename()](imagick.setimagefilename.md) | [Imagick::getReleaseDate()](imagick.getreleasedate.md) |
+| [Imagick::blurImage()](imagick.blurimage.md) | [Imagick::getImageChannelExtrema()](imagick.getimagechannelextrema.md) | [Imagick::setImageBorderColor()](imagick.setimagebordercolor.md) | [Imagick::setImageFormat()](imagick.setimageformat.md) | [Imagick::getVersion()](imagick.getversion.md) |
+| [Imagick::borderImage()](imagick.borderimage.md) | [Imagick::getImageChannelMean()](imagick.getimagechannelmean.md) | [Imagick::setImageChannelDepth()](imagick.setimagechanneldepth.md) | [Imagick::readImageFile()](imagick.readimagefile.md) | [Imagick::hasNextImage()](imagick.hasnextimage.md) |
+| [Imagick::charcoalImage()](imagick.charcoalimage.md) | [Imagick::getImageChannelStatistics()](imagick.getimagechannelstatistics.md) | [Imagick::setImageColormapColor()](imagick.setimagecolormapcolor.md) | [Imagick::readImage()](imagick.readimage.md) | [Imagick::hasPreviousImage()](imagick.haspreviousimage.md) |
+| [Imagick::chopImage()](imagick.chopimage.md) | [Imagick::getImageColormapColor()](imagick.getimagecolormapcolor.md) | [Imagick::setImageColorSpace()](imagick.setimagecolorspace.md) | [Imagick::writeImages()](imagick.writeimages.md) | [Imagick::labelImage()](imagick.labelimage.md) |
+| [Imagick::clipImage()](imagick.clipimage.md) | [Imagick::getImageColorspace()](imagick.getimagecolorspace.md) | [Imagick::setImageCompose()](imagick.setimagecompose.md) | [Imagick::writeImage()](imagick.writeimage.md) | [Imagick::newImage()](imagick.newimage.md) |
+| [Imagick::clipPathImage()](imagick.clippathimage.md) | [Imagick::getImageColors()](imagick.getimagecolors.md) | [Imagick::setImageCompression()](imagick.setimagecompression.md) |  | [Imagick::newPseudoImage()](imagick.newpseudoimage.md) |
+| [Imagick::coalesceImages()](imagick.coalesceimages.md) | [Imagick::getImageCompose()](imagick.getimagecompose.md) | [Imagick::setImageDelay()](imagick.setimagedelay.md) |  | [Imagick::nextImage()](imagick.nextimage.md) |
+| [Imagick::colorFloodFillImage()](imagick.colorfloodfillimage.md) | [Imagick::getImageDelay()](imagick.getimagedelay.md) | [Imagick::setImageDepth()](imagick.setimagedepth.md) |  | [Imagick::pingImageBlob()](imagick.pingimageblob.md) |
+| [Imagick::colorizeImage()](imagick.colorizeimage.md) | [Imagick::getImageDepth()](imagick.getimagedepth.md) | [Imagick::setImageDispose()](imagick.setimagedispose.md) |  | [Imagick::pingImageFile()](imagick.pingimagefile.md) |
+| [Imagick::combineImages()](imagick.combineimages.md) | [Imagick::getImageDispose()](imagick.getimagedispose.md) | [Imagick::setImageDispose()](imagick.setimagedispose.md) |  | [Imagick::pingImage()](imagick.pingimage.md) |
+| [Imagick::compareImageChannels()](imagick.compareimagechannels.md) | [Imagick::getImageDistortion()](imagick.getimagedistortion.md) | [Imagick::setImageExtent()](imagick.setimageextent.md) |  | [Imagick::previousImage()](imagick.previousimage.md) |
+| [Imagick::compareImageLayers()](imagick.compareimagelayers.md) | [Imagick::getImageExtrema()](imagick.getimageextrema.md) | [Imagick::setImageFilename()](imagick.setimagefilename.md) |  | [Imagick::profileImage()](imagick.profileimage.md) |
+| [Imagick::compositeImage()](imagick.compositeimage.md) | [Imagick::getImageFilename()](imagick.getimagefilename.md) | [Imagick::setImageFormat()](imagick.setimageformat.md) |  | [Imagick::queryFormats()](imagick.queryformats.md) |
+| [Imagick::contrastImage()](imagick.contrastimage.md) | [Imagick::getImageFormat()](imagick.getimageformat.md) | [Imagick::setImageGamma()](imagick.setimagegamma.md) |  | [Imagick::removeImageProfile()](imagick.removeimageprofile.md) |
+| [Imagick::contrastStretchImage()](imagick.contraststretchimage.md) | [Imagick::getImageGamma()](imagick.getimagegamma.md) | [Imagick::setImageGreenPrimary()](imagick.setimagegreenprimary.md) |  | [Imagick::removeImage()](imagick.removeimage.md) |
+| [Imagick::convolveImage()](imagick.convolveimage.md) | [Imagick::getImageGeometry()](imagick.getimagegeometry.md) | [Imagick::setImageIndex()](imagick.setimageindex.md) |  | [Imagick::setFirstIterator()](imagick.setfirstiterator.md) |
+| [Imagick::cropImage()](imagick.cropimage.md) | [Imagick::getImageGreenPrimary()](imagick.getimagegreenprimary.md) | [Imagick::setImageInterpolateMethod()](imagick.setimageinterpolatemethod.md) |  | [Imagick::setImageIndex()](imagick.setimageindex.md) |
+| [Imagick::cycleColormapImage()](imagick.cyclecolormapimage.md) | [Imagick::getImageHeight()](imagick.getimageheight.md) | [Imagick::setImageIterations()](imagick.setimageiterations.md) |  | [Imagick::valid()](imagick.valid.md) |
+| [Imagick::deconstructImages()](imagick.deconstructimages.md) | [Imagick::getImageHistogram()](imagick.getimagehistogram.md) | [Imagick::setImageMatteColor()](imagick.setimagemattecolor.md) |  | [Imagick::getCopyright()](imagick.getcopyright.md) |
+| [Imagick::drawImage()](imagick.drawimage.md) | [Imagick::getImageIndex()](imagick.getimageindex.md) | [Imagick::setImageMatte()](imagick.setimagematte.md) |  |  |
+| [Imagick::edgeImage()](imagick.edgeimage.md) | [Imagick::getImageInterlaceScheme()](imagick.getimageinterlacescheme.md) | [Imagick::setImagePage()](imagick.setimagepage.md) |  |  |
+| [Imagick::embossImage()](imagick.embossimage.md) | [Imagick::getImageInterpolateMethod()](imagick.getimageinterpolatemethod.md) | [Imagick::setImageProfile()](imagick.setimageprofile.md) |  |  |
+| [Imagick::enhanceImage()](imagick.enhanceimage.md) | [Imagick::getImageIterations()](imagick.getimageiterations.md) | [Imagick::setImageProperty()](imagick.setimageproperty.md) |  |  |
+| [Imagick::equalizeImage()](imagick.equalizeimage.md) | [Imagick::getImageMatteColor()](imagick.getimagemattecolor.md) | [Imagick::setImageRedPrimary()](imagick.setimageredprimary.md) |  |  |
+| [Imagick::evaluateImage()](imagick.evaluateimage.md) | [Imagick::getImageMatte()](imagick.getimagematte.md) | [Imagick::setImageRenderingIntent()](imagick.setimagerenderingintent.md) |  |  |
+| [Imagick::flattenImages()](imagick.flattenimages.md) | [Imagick::getImagePage()](imagick.getimagepage.md) | [Imagick::setImageResolution()](imagick.setimageresolution.md) |  |  |
+| [Imagick::flipImage()](imagick.flipimage.md) | [Imagick::getImagePixelColor()](imagick.getimagepixelcolor.md) | [Imagick::setImageScene()](imagick.setimagescene.md) |  |  |
+| [Imagick::flopImage()](imagick.flopimage.md) | [Imagick::getImageProfile()](imagick.getimageprofile.md) | [Imagick::setImageTicksPerSecond()](imagick.setimagetickspersecond.md) |  |  |
+|  | [Imagick::getImageProperty()](imagick.getimageproperty.md) | [Imagick::setImageType()](imagick.setimagetype.md) |  |  |
+| [Imagick::fxImage()](imagick.fximage.md) | [Imagick::getImageRedPrimary()](imagick.getimageredprimary.md) | [Imagick::setImageUnits()](imagick.setimageunits.md) |  |  |
+| [Imagick::gammaImage()](imagick.gammaimage.md) | [Imagick::getImageRegion()](imagick.getimageregion.md) | [Imagick::setImageVirtualPixelMethod()](imagick.setimagevirtualpixelmethod.md) |  |  |
+| [Imagick::gaussianBlurImage()](imagick.gaussianblurimage.md) | [Imagick::getImageRenderingIntent()](imagick.getimagerenderingintent.md) | [Imagick::setImageWhitepoint()](imagick.setimagewhitepoint.md) |  |  |
+| [Imagick::implodeImage()](imagick.implodeimage.md) | [Imagick::getImageResolution()](imagick.getimageresolution.md) | [Imagick::setInterlaceScheme()](imagick.setinterlacescheme.md) |  |  |
+| [Imagick::levelImage()](imagick.levelimage.md) | [Imagick::getImageScene()](imagick.getimagescene.md) | [Imagick::setOption()](imagick.setoption.md) |  |  |
+| [Imagick::linearStretchImage()](imagick.linearstretchimage.md) | [Imagick::getImageSignature()](imagick.getimagesignature.md) | [Imagick::setPage()](imagick.setpage.md) |  |  |
+| [Imagick::magnifyImage()](imagick.magnifyimage.md) | [Imagick::getImageTicksPerSecond()](imagick.getimagetickspersecond.md) | [Imagick::setResolution()](imagick.setresolution.md) |  |  |
+| [Imagick::matteFloodFillImage()](imagick.mattefloodfillimage.md) | [Imagick::getImageTotalInkDensity()](imagick.getimagetotalinkdensity.md) | [Imagick::setResourceLimit()](imagick.setresourcelimit.md) |  |  |
+| [Imagick::medianFilterImage()](imagick.medianfilterimage.md) | [Imagick::getImageType()](imagick.getimagetype.md) | [Imagick::setSamplingFactors()](imagick.setsamplingfactors.md) |  |  |
+| [Imagick::minifyImage()](imagick.minifyimage.md) | [Imagick::getImageUnits()](imagick.getimageunits.md) | [Imagick::setSizeOffset()](imagick.setsizeoffset.md) |  |  |
+| [Imagick::modulateImage()](imagick.modulateimage.md) | [Imagick::getImageVirtualPixelMethod()](imagick.getimagevirtualpixelmethod.md) | [Imagick::setSize()](imagick.setsize.md) |  |  |
+| [Imagick::montageImage()](imagick.montageimage.md) | [Imagick::getImageWhitepoint()](imagick.getimagewhitepoint.md) | [Imagick::setType()](imagick.settype.md) |  |  |
+| [Imagick::morphImages()](imagick.morphimages.md) | [Imagick::getImageWidth()](imagick.getimagewidth.md) |  |  |  |
+| [Imagick::mosaicImages()](imagick.mosaicimages.md) | [Imagick::getImage()](imagick.getimage.md) |  |  |  |
+| [Imagick::motionBlurImage()](imagick.motionblurimage.md) | [Imagick::getInterlaceScheme()](imagick.getinterlacescheme.md) |  |  |  |
+| [Imagick::negateImage()](imagick.negateimage.md) | [Imagick::getNumberImages()](imagick.getnumberimages.md) |  |  |  |
+| [Imagick::normalizeImage()](imagick.normalizeimage.md) | [Imagick::getOption()](imagick.getoption.md) |  |  |  |
+| [Imagick::oilPaintImage()](imagick.oilpaintimage.md) | [Imagick::getPackageName()](imagick.getpackagename.md) |  |  |  |
+| [Imagick::optimizeImageLayers()](imagick.optimizeimagelayers.md) | [Imagick::getPage()](imagick.getpage.md) |  |  |  |
+| [Imagick::paintOpaqueImage()](imagick.paintopaqueimage.md) | [Imagick::getPixelIterator()](imagick.getpixeliterator.md) |  |  |  |
+| [Imagick::paintTransparentImage()](imagick.painttransparentimage.md) | [Imagick::getPixelRegionIterator()](imagick.getpixelregioniterator.md) |  |  |  |
+| [Imagick::posterizeImage()](imagick.posterizeimage.md) | [Imagick::getQuantumDepth()](imagick.getquantumdepth.md) |  |  |  |
+| [Imagick::radialBlurImage()](imagick.radialblurimage.md) | [Imagick::getQuantumRange()](imagick.getquantumrange.md) |  |  |  |
+| [Imagick::raiseImage()](imagick.raiseimage.md) | [Imagick::getResourceLimit()](imagick.getresourcelimit.md) |  |  |  |
+| [Imagick::randomThresholdImage()](imagick.randomthresholdimage.md) | [Imagick::getResource()](imagick.getresource.md) |  |  |  |
+| [Imagick::reduceNoiseImage()](imagick.reducenoiseimage.md) | [Imagick::getSamplingFactors()](imagick.getsamplingfactors.md) |  |  |  |
+| [Imagick::render()](imagick.render.md) | [Imagick::getSizeOffset()](imagick.getsizeoffset.md) |  |  |  |
+| [Imagick::resampleImage()](imagick.resampleimage.md) | [Imagick::getSize()](imagick.getsize.md) |  |  |  |
+| [Imagick::resizeImage()](imagick.resizeimage.md) | [Imagick::identifyImage()](imagick.identifyimage.md) |  |  |  |
+| [Imagick::rollImage()](imagick.rollimage.md) | [Imagick::getImageSize()](imagick.getimagesize.md) |  |  |  |
+| [Imagick::rotateImage()](imagick.rotateimage.md) |  |  |  |  |
+| [Imagick::sampleImage()](imagick.sampleimage.md) |  |  |  |  |
+| [Imagick::scaleImage()](imagick.scaleimage.md) |  |  |  |  |
+| [Imagick::separateImageChannel()](imagick.separateimagechannel.md) |  |  |  |  |
+| [Imagick::sepiaToneImage()](imagick.sepiatoneimage.md) |  |  |  |  |
+| [Imagick::shadeImage()](imagick.shadeimage.md) |  |  |  |  |
+| [Imagick::shadowImage()](imagick.shadowimage.md) |  |  |  |  |
+| [Imagick::sharpenImage()](imagick.sharpenimage.md) |  |  |  |  |
+| [Imagick::shaveImage()](imagick.shaveimage.md) |  |  |  |  |
+| [Imagick::shearImage()](imagick.shearimage.md) |  |  |  |  |
+| [Imagick::sigmoidalContrastImage()](imagick.sigmoidalcontrastimage.md) |  |  |  |  |
+| [Imagick::sketchImage()](imagick.sketchimage.md) |  |  |  |  |
+| [Imagick::solarizeImage()](imagick.solarizeimage.md) |  |  |  |  |
+| [Imagick::spliceImage()](imagick.spliceimage.md) |  |  |  |  |
+| [Imagick::spreadImage()](imagick.spreadimage.md) |  |  |  |  |
+| [Imagick::steganoImage()](imagick.steganoimage.md) |  |  |  |  |
+| [Imagick::stereoImage()](imagick.stereoimage.md) |  |  |  |  |
+| [Imagick::stripImage()](imagick.stripimage.md) |  |  |  |  |
+| [Imagick::swirlImage()](imagick.swirlimage.md) |  |  |  |  |
+| [Imagick::textureImage()](imagick.textureimage.md) |  |  |  |  |
+| [Imagick::thresholdImage()](imagick.thresholdimage.md) |  |  |  |  |
+| [Imagick::thumbnailImage()](imagick.thumbnailimage.md) |  |  |  |  |
+| [Imagick::tintImage()](imagick.tintimage.md) |  |  |  |  |
+| [Imagick::transverseImage()](imagick.transverseimage.md) |  |  |  |  |
+| [Imagick::trimImage()](imagick.trimimage.md) |  |  |  |  |
+| [Imagick::uniqueImageColors()](imagick.uniqueimagecolors.md) |  |  |  |  |
+| [Imagick::unsharpMaskImage()](imagick.unsharpmaskimage.md) |  |  |  |  |
+| [Imagick::vignetteImage()](imagick.vignetteimage.md) |  |  |  |  |
+| [Imagick::waveImage()](imagick.waveimage.md) |  |  |  |  |
+| [Imagick::whiteThresholdImage()](imagick.whitethresholdimage.md) |  |  |  |  |
 
 ## Зміст
 
--   [Imagick::adaptiveBlurImage](imagick.adaptiveblurimage.html) — Додає адаптивний фільтр розмиття до зображення
--   [Imagick::adaptiveResizeImage](imagick.adaptiveresizeimage.html) — Адаптивна зміна розміру зображення з даними тріангуляції
--   [Imagick::adaptiveSharpenImage](imagick.adaptivesharpenimage.html) — Адаптивна зміна різкості зображення
--   [Imagick::adaptiveThresholdImage](imagick.adaptivethresholdimage.html) — Вибір порога кожного пікселя в залежності від діапазону інтенсивності
--   [Imagick::addImage](imagick.addimage.html) — Додає нове зображення до списку зображень об'єкту Imagick
--   [Imagick::addNoiseImage](imagick.addnoiseimage.html) - Накладає випадковий шум на зображення
--   [Imagick::affineTransformImage](imagick.affinetransformimage.html) — Перетворення зображення
--   [Imagick::animateImages](imagick.animateimages.html) — Анімація одного або кількох зображень
--   [Imagick::annotateImage](imagick.annotateimage.html) — Додає текстовий коментар на зображення
--   [Imagick::appendImages](imagick.appendimages.html) — Об'єднує набір зображень
--   [Imagick::autoLevelImage](imagick.autolevelimage.html) - Опис
--   [Imagick::averageImages](imagick.averageimages.html) — Усереднює набір зображень
--   [Imagick::blackThresholdImage](imagick.blackthresholdimage.html) — Перевести всі пікселі нижче граничного значення в чорний колір
--   [Imagick::blueShiftImage](imagick.blueshiftimage.html) - Опис
--   [Imagick::blurImage](imagick.blurimage.html) — Додає фільтр розмиття до зображення
--   [Imagick::borderImage](imagick.borderimage.html) — Оточує зображення рамкою
--   [Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.html) - Опис
--   [Imagick::charcoalImage](imagick.charcoalimage.html) - Малювання вугіллям
--   [Imagick::chopImage](imagick.chopimage.html) — Видаляє область зображення та обрізає його.
--   [Imagick::clampImage](imagick.clampimage.html) - Опис
--   [Imagick::clear](imagick.clear.html) — Очищає всі ресурси, пов'язані з об'єктом Imagick
--   [Imagick::clipImage](imagick.clipimage.html) — Обрізка вздовж найближчого контуру з профілем 8BIM
--   [Imagick::clipImagePath](imagick.clipimagepath.html) - Опис
--   [Imagick::clipPathImage](imagick.clippathimage.html) — Відсікти уздовж зазначеного контуру з профілем 8BIM
--   [Imagick::clone](imagick.clone.html) — Створює точну копію об'єкту Imagick
--   [Imagick::clutImage](imagick.clutimage.html) — Замінює кольори у зображенні
--   [Imagick::coalesceImages](imagick.coalesceimages.html) — Компонує набір зображень
--   [Imagick::colorFloodfillImage](imagick.colorfloodfillimage.html) — Змінює значення кольору будь-якого пікселя, що відповідає цільовому
--   [Imagick::colorizeImage](imagick.colorizeimage.html) — Змішування кольору заливки із зображенням
--   [Imagick::colorMatrixImage](imagick.colormatriximage.html) — Застосовує перетворення кольору до зображення
--   [Imagick::combineImages](imagick.combineimages.html) — Об'єднує одне або кілька зображень в одне зображення
--   [Imagick::commentImage](imagick.commentimage.html) — Додає коментар до вашого зображення
--   [Imagick::compareImageChannels](imagick.compareimagechannels.html) — Повертає різницю в одному чи кількох зображеннях
--   [Imagick::compareImageLayers](imagick.compareimagelayers.html) — Повертає максимальну область, що обмежує між зображеннями.
--   [Imagick::compareImages](imagick.compareimages.html) — Порівнює зображення з відновленим зображенням
--   [Imagick::compositeImage](imagick.compositeimage.html) — Накладає одне зображення на інше
--   [Imagick::construct](imagick.construct.html) - Конструктор об'єкту Imagick
--   [Imagick::contrastImage](imagick.contrastimage.html) — Змінює контраст зображення
--   [Imagick::contrastStretchImage](imagick.contraststretchimage.html) — Підвищує контрастність кольорового зображення
--   [Imagick::convolveImage](imagick.convolveimage.html) — Застосовує ядро ​​згортки до зображення.
--   [Imagick::count](imagick.count.html) — Отримує кількість зображень
--   [Imagick::cropImage](imagick.cropimage.html) — Витягує область зображення
--   [Imagick::cropThumbnailImage](imagick.cropthumbnailimage.html) - Створює обрізану мініатюру
--   [Imagick::current](imagick.current.html) — Повертає посилання на поточний об'єкт Imagick
--   [Imagick::cycleColormapImage](imagick.cyclecolormapimage.html) — Відображає карту кольорів зображення
--   [Imagick::decipherImage](imagick.decipherimage.html) — Розшифровує зображення
--   [Imagick::deconstructImages](imagick.deconstructimages.html) — Повертає певні піксельні відмінності між зображеннями
--   [Imagick::deleteImageArtifact](imagick.deleteimageartifact.html) — Видаляє артефакт зображення
--   [Imagick::deleteImageProperty](imagick.deleteimageproperty.html) - Опис
--   [Imagick::deskewImage](imagick.deskewimage.html) — Видаляє перекіс із зображення
--   [Imagick::despeckleImage](imagick.despeckleimage.html) - Зменшує спекл-шум на зображенні
--   [Imagick::destroy](imagick.destroy.html) — Видаляє об'єкт Imagick
--   [Imagick::displayImage](imagick.displayimage.html) — Виводить зображення
--   [Imagick::displayImages](imagick.displayimages.html) — Виводить зображення або послідовність зображень
--   [Imagick::distortImage](imagick.distortimage.html) — Спотворює зображення, використовуючи різні методи спотворення
--   [Imagick::drawImage](imagick.drawimage.html) — Виконує рендеринг об'єкту ImagickDraw на поточному зображенні
--   [Imagick::edgeImage](imagick.edgeimage.html) — Підсилює краї зображення.
--   [Imagick::embossImage](imagick.embossimage.html) — Повертає зображення у градаціях сірого із тривимірним ефектом
--   [Imagick::encipherImage](imagick.encipherimage.html) - Шифрує зображення
--   [Imagick::enhanceImage](imagick.enhanceimage.html) — Покращує якість шумного зображення
--   [Imagick::equalizeImage](imagick.equalizeimage.html) — Вирівнює гістограму зображення
--   [Imagick::evaluateImage](imagick.evaluateimage.html) — Застосовує вираз до зображення
--   [Imagick::exportImagePixels](imagick.exportimagepixels.html) — Експортує пікселі зображення
--   [Imagick::extentImage](imagick.extentimage.html) — Встановлює розмір зображення
--   [Imagick::filter](imagick.filter.html) - Опис
--   [Imagick::flattenImages](imagick.flattenimages.html) — Поєднує послідовність зображень
--   [Imagick::flipImage](imagick.flipimage.html) — Створює вертикальне дзеркало зображення
--   [Imagick::floodFillPaintImage](imagick.floodfillpaintimage.html) — Змінює значення кольору будь-якого пікселя, що відповідає цільовому
--   [Imagick::flopImage](imagick.flopimage.html) — Створює горизонтальне дзеркальне відображення
--   [Imagick::forwardFourierTransformImage](imagick.forwardfouriertransformimage.html) - Опис
--   [Imagick::frameImage](imagick.frameimage.html) — Додає імітацію тривимірного кордону
--   [Imagick::functionImage](imagick.functionimage.html) — Застосовує функцію зображення.
--   [Imagick::fxImage](imagick.fximage.html) — Оцінює вираз для кожного пікселя у зображенні
--   [Imagick::gammaImage](imagick.gammaimage.html) - Гамма-корекція зображення
--   [Imagick::gaussianBlurImage](imagick.gaussianblurimage.html) — Розмиває зображення
--   [Imagick::getColorspace](imagick.getcolorspace.html) — Повертає палітру кольорів
--   [Imagick::getCompression](imagick.getcompression.html) — Повертає тип стиснення об'єкта
--   [Imagick::getCompressionQuality](imagick.getcompressionquality.html) — Повертає якість стиснення об'єкта
--   [Imagick::getCopyright](imagick.getcopyright.html) — Повертає копірайт API ImageMagick у вигляді рядка
--   [Imagick::getFilename](imagick.getfilename.html) - Ім'я файлу результуючого зображення
--   [Imagick::getFont](imagick.getfont.html) — Повертає назву шрифту
--   [Imagick::getFormat](imagick.getformat.html) — Повертає формат Imagick об'єкту
--   [Imagick::getGravity](imagick.getgravity.html) - Повертає значення гравітації (тяжіння)
--   [Imagick::getHomeURL](imagick.gethomeurl.html) — Повертає домашню URL-адресу бібліотеки ImageMagick
--   [Imagick::getImage](imagick.getimage.html) — Повертає новий об'єкт Imagick
--   [Imagick::getImageAlphaChannel](imagick.getimagealphachannel.html) — Перевіряє, чи є зображення альфа-канал
--   [Imagick::getImageArtifact](imagick.getimageartifact.html) — Повертає артефакт зображення
--   [Imagick::getImageAttribute](imagick.getimageattribute.html) - Повертає іменований атрибут
--   [Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.html) — Повертає колір тла зображення
--   [Imagick::getImageBlob](imagick.getimageblob.html) — Повертає послідовність зображень у вигляді BLOB
--   [Imagick::getImageBluePrimary](imagick.getimageblueprimary.html) — Повертає основну точку синього кольору зображення
--   [Imagick::getImageBorderColor](imagick.getimagebordercolor.html) — Повертає колір рамки зображення
--   [Imagick::getImageChannelDepth](imagick.getimagechanneldepth.html) — Повертає глибину для певного каналу зображення
--   [Imagick::getImageChannelDistortion](imagick.getimagechanneldistortion.html) — Порівнює канали зображення з відновленим зображенням
--   [Imagick::getImageChannelDistortions](imagick.getimagechanneldistortions.html) — Повертає спотворення каналу
--   [Imagick::getImageChannelExtrema](imagick.getimagechannelextrema.html) — Повертає екстремуми для одного або кількох каналів зображення
--   [Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.html) — Повертає ексцес та асиметрію певного каналу
--   [Imagick::getImageChannelMean](imagick.getimagechannelmean.html) — Повертає середнє та стандартне відхилення
--   [Imagick::getImageChannelRange](imagick.getimagechannelrange.html) — Повертає діапазон каналів
--   [Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.html) — Повертає статистику для кожного каналу зображення
--   [Imagick::getImageClipMask](imagick.getimageclipmask.html) — Повертає відсічну маску зображення
--   [Imagick::getImageColormapColor](imagick.getimagecolormapcolor.html) — Повертає колір зазначеного індексу палітри
--   [Imagick::getImageColors](imagick.getimagecolors.html) — Повертає кількість унікальних кольорів у зображенні
--   [Imagick::getImageColorspace](imagick.getimagecolorspace.html) — Повертає палітру кольорів зображення
--   [Imagick::getImageCompose](imagick.getimagecompose.html) — Повертає складовий оператор, пов'язаний із зображенням
--   [Imagick::getImageCompression](imagick.getimagecompression.html) — Повертає поточний тип компресії зображення
--   [Imagick::getImageCompressionQuality](imagick.getimagecompressionquality.html) — Повертає поточну якість стиснення зображення
--   [Imagick::getImageDelay](imagick.getimagedelay.html) — Повертає затримку зображення
--   [Imagick::getImageDepth](imagick.getimagedepth.html) — Повертає глибину зображення
--   [Imagick::getImageDispose](imagick.getimagedispose.html) — Повертає метод видалення зображення
--   [Imagick::getImageDistortion](imagick.getimagedistortion.html) — Порівнює зображення з відновленим зображенням
--   [Imagick::getImageExtrema](imagick.getimageextrema.html) — Повертає екстремуми зображення
--   [Imagick::getImageFilename](imagick.getimagefilename.html) — Повертає ім'я файлу конкретного зображення у послідовності
--   [Imagick::getImageFormat](imagick.getimageformat.html) — Повертає формат зображення в послідовності.
--   [Imagick::getImageGamma](imagick.getimagegamma.html) — Повертає гаму зображення
--   [Imagick::getImageGeometry](imagick.getimagegeometry.html) — Повертає ширину та висоту у вигляді асоціативного масиву
--   [Imagick::getImageGravity](imagick.getimagegravity.html) - Повертає значення гравітації (тяжіння)
--   [Imagick::getImageGreenPrimary](imagick.getimagegreenprimary.html) — Повертає первинну точку кольоровості зеленого
--   [Imagick::getImageHeight](imagick.getimageheight.html) — Повертає висоту зображення
--   [Imagick::getImageHistogram](imagick.getimagehistogram.html) — Повертає гістограму зображення
--   [Imagick::getImageIndex](imagick.getimageindex.html) — Повертає індекс активного поточного зображення.
--   [Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.html) — Отримує схему надрядкового зображення
--   [Imagick::getImageInterpolateMethod](imagick.getimageinterpolatemethod.html) — Повертає метод інтерполяції
--   [Imagick::getImageIterations](imagick.getimageiterations.html) — Повертає ітерацію зображення
--   [Imagick::getImageLength](imagick.getimagelength.html) — Повертає довжину зображення у байтах
--   [Imagick::getImageMatte](imagick.getimagematte.html) — Повертає, якщо зображення містить матовий канал
--   [Imagick::getImageMatteColor](imagick.getimagemattecolor.html) — Повертає матовий колір зображення
--   [Imagick::getImageMimeType](imagick.getimagemimetype.html) — Повертає MIME-тип зображення
--   [Imagick::getImageOrientation](imagick.getimageorientation.html) — Повертає орієнтацію зображення
--   [Imagick::getImagePage](imagick.getimagepage.html) — Повертає геометрію сторінки
--   [Imagick::getImagePixelColor](imagick.getimagepixelcolor.html) — Повертає колір вказаного пікселя
--   [Imagick::getImageProfile](imagick.getimageprofile.html) — Повертає іменований профіль зображення
--   [Imagick::getImageProfiles](imagick.getimageprofiles.html) — Повертає профілі зображень
--   [Imagick::getImageProperties](imagick.getimageproperties.html) — Повертає властивості зображення
--   [Imagick::getImageProperty](imagick.getimageproperty.html) — Повертає іменовану властивість зображення
--   [Imagick::getImageRedPrimary](imagick.getimageredprimary.html) — Повертає червону первинну точку кольоровості
--   [Imagick::getImageRegion](imagick.getimageregion.html) — Витягує область зображення
--   [Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.html) — Повертає схему передачі кольору зображення
--   [Imagick::getImageResolution](imagick.getimageresolution.html) — Повертає роздільну здатність зображення за X та Y
--   [Imagick::getImagesBlob](imagick.getimagesblob.html) — Повертає всі послідовності зображення у вигляді великого двійкового об'єкта
--   [Imagick::getImageScene](imagick.getimagescene.html) — Повертає сцену зображення
--   [Imagick::getImageSignature](imagick.getimagesignature.html) - Генерує хеш SHA-256
--   [Imagick::getImageSize](imagick.getimagesize.html) — Повертає розмір зображення у байтах
--   [Imagick::getImageTicksPerSecond](imagick.getimagetickspersecond.html) — Отримує кількість кадрів на секунду для зображення
--   [Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.html) — Повертає загальну щільність чорнила зображення
--   [Imagick::getImageType](imagick.getimagetype.html) — Повертає можливий тип зображення
--   [Imagick::getImageUnits](imagick.getimageunits.html) — Повертає одиниці вимірювання роздільної здатності зображення
--   [Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.html) — Повертає метод віртуального пікселя
--   [Imagick::getImageWhitePoint](imagick.getimagewhitepoint.html) — Повертає білу точку кольоровості
--   [Imagick::getImageWidth](imagick.getimagewidth.html) — Повертає ширину зображення
--   [Imagick::getInterlaceScheme](imagick.getinterlacescheme.html) — Отримує схему стиснення зображення
--   [Imagick::getIteratorIndex](imagick.getiteratorindex.html) — Повертає індекс активного поточного зображення.
--   [Imagick::getNumberImages](imagick.getnumberimages.html) — Повертає кількість зображень в об'єкті
--   [Imagick::getOption](imagick.getoption.html) — Повертає значення, пов'язане із зазначеним ключем
--   [Imagick::getPackageName](imagick.getpackagename.html) — Повертає ім'я ImageMagick
--   [Imagick::getPage](imagick.getpage.html) — Повертає геометрію сторінки
--   [Imagick::getPixelIterator](imagick.getpixeliterator.html) - Повертає MagickPixelIterator
--   [Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.html) — Повертає об'єкт ImagickPixelIterator для секції зображення
--   [Imagick::getPointSize](imagick.getpointsize.html) — Повертає розмір точки
--   [Imagick::getQuantum](imagick.getquantum.html) — Повертає квантовий діапазон ImageMagick
--   [Imagick::getQuantumDepth](imagick.getquantumdepth.html) - Повертає величину глибини
--   [Imagick::getQuantumRange](imagick.getquantumrange.html) — Повертає розмір спектру Imagick
--   [Imagick::getRegistry](imagick.getregistry.html) - Опис
--   [Imagick::getReleaseDate](imagick.getreleasedate.html) — Повертає дату випуску ImageMagick
--   [Imagick::getResource](imagick.getresource.html) — Повертає розмір пам'яті вказаного ресурсу.
--   [Imagick::getResourceLimit](imagick.getresourcelimit.html) — Повертає заданий ліміт ресурсів
--   [Imagick::getSamplingFactors](imagick.getsamplingfactors.html) — Повертає горизонтальний та вертикальний фактор вибірки
--   [Imagick::getSize](imagick.getsize.html) — Повертає розмір, пов'язаний із об'єктом Imagick
--   [Imagick::getSizeOffset](imagick.getsizeoffset.html) — Повертає розмір усунення
--   [Imagick::getVersion](imagick.getversion.html) — Повертає версію API ImageMagick
--   [Imagick::haldClutImage](imagick.haldclutimage.html) — Замінює кольори у зображенні
--   [Imagick::hasNextImage](imagick.hasnextimage.html) — Перевіряє, чи об'єкт містить більше зображень
--   [Imagick::hasPreviousImage](imagick.haspreviousimage.html) — Перевіряє, чи об'єкт має попереднє зображення.
--   [Imagick::identifyFormat](imagick.identifyformat.html) - Опис
--   [Imagick::identifyImage](imagick.identifyimage.html) — Визначає зображення та отримує атрибути
--   [Imagick::implodeImage](imagick.implodeimage.html) — Створює копію зображення
--   [Imagick::importImagePixels](imagick.importimagepixels.html) — Імпортує пікселі зображення
--   [Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.html) - Реалізує дискретне перетворення Фур'є
--   [Imagick::labelImage](imagick.labelimage.html) — Додає позначку до зображення
--   [Imagick::levelImage](imagick.levelimage.html) — Регулює рівні зображення
--   [Imagick::linearStretchImage](imagick.linearstretchimage.html) — Розтягує з насиченням яскравість зображення
--   [Imagick::liquidRescaleImage](imagick.liquidrescaleimage.html) — Анімує зображення чи зображення
--   [Imagick::listRegistry](imagick.listregistry.html) - Опис
--   [Imagick::magnifyImage](imagick.magnifyimage.html) — Пропорційно масштабує зображення вдвічі
--   [Imagick::mapImage](imagick.mapimage.html) — Замінює кольори зображення на найближчий колір із еталонного зображення
--   [Imagick::matteFloodfillImage](imagick.mattefloodfillimage.html) — Змінює значення прозорості кольору
--   [Imagick::medianFilterImage](imagick.medianfilterimage.html) — Застосовує цифровий фільтр
--   [Imagick::mergeImageLayers](imagick.mergeimagelayers.html) — Об'єднує шари зображення
--   [Imagick::minifyImage](imagick.minifyimage.html) — Масштабує зображення пропорційно до половини його розміру.
--   [Imagick::modulateImage](imagick.modulateimage.html) — Керуйте яскравістю, насиченістю та відтінком
--   [Imagick::montageImage](imagick.montageimage.html) — Створює складне зображення
--   [Imagick::morphImages](imagick.morphimages.html) — Перетворює набір зображень
--   [Imagick::morphology](imagick.morphology.html) - Опис
--   [Imagick::mosaicImages](imagick.mosaicimages.html) — Формує мозаїку із зображень
--   [Imagick::motionBlurImage](imagick.motionblurimage.html) — Імітує розмиття у русі
--   [Imagick::negateImage](imagick.negateimage.html) - Інвертує кольори в еталонному зображенні
--   [Imagick::newImage](imagick.newimage.html) — Створює нове зображення
--   [Imagick::newPseudoImage](imagick.newpseudoimage.html) — Створює нове зображення
--   [Imagick::nextImage](imagick.nextimage.html) — Переходить до наступного зображення
--   [Imagick::normalizeImage](imagick.normalizeimage.html) — Підвищує контрастність кольорового зображення
--   [Imagick::oilPaintImage](imagick.oilpaintimage.html) — Імітує картину олією
--   [Imagick::opaquePaintImage](imagick.opaquepaintimage.html) — Змінює значення кольору будь-якого пікселя, що відповідає цільовому
--   [Imagick::optimizeImageLayers](imagick.optimizeimagelayers.html) — Видаляє повторювані частини зображень для оптимізації
--   [Imagick::orderedPosterizeImage](imagick.orderedposterizeimage.html) - Виконує впорядкований дизеринг
--   [Imagick::paintFloodfillImage](imagick.paintfloodfillimage.html) — Змінює значення кольору будь-якого пікселя, що відповідає меті
--   [Imagick::paintOpaqueImage](imagick.paintopaqueimage.html) — Змінює будь-який піксель, що відповідає кольору
--   [Imagick::paintTransparentImage](imagick.painttransparentimage.html) — Змінює будь-який піксель, який відповідає кольору, на колір, визначений заливкою
--   [Imagick::pingImage](imagick.pingimage.html) — Отримує основні атрибути зображення
--   [Imagick::pingImageBlob](imagick.pingimageblob.html) — Швидко витягує атрибути
--   [Imagick::pingImageFile](imagick.pingimagefile.html) — Отримує базові атрибути зображення у спрощений спосіб.
--   [Imagick::polaroidImage](imagick.polaroidimage.html) - Імітує фото Polaroid
--   [Imagick::posterizeImage](imagick.posterizeimage.html) — Зменшує зображення до обмеженої кількості рівнів кольору
--   [Imagick::previewImages](imagick.previewimages.html) — Швидке визначення відповідних параметрів для обробки зображень
--   [Imagick::previousImage](imagick.previousimage.html) — Перехід до попереднього зображення в об'єкті
--   [Imagick::profileImage](imagick.profileimage.html) — Додає або видаляє профіль зображення
--   [Imagick::quantizeImage](imagick.quantizeimage.html) - Аналізує кольори еталонного зображення
--   [Imagick::quantizeImages](imagick.quantizeimages.html) — Аналізує кольори у послідовності зображень
--   [Imagick::queryFontMetrics](imagick.queryfontmetrics.html) — Повертає масив, який представляє метрики шрифту
--   [Imagick::queryFonts](imagick.queryfonts.html) — Повертає налаштовані шрифти
--   [Imagick::queryFormats](imagick.queryformats.html) — Повертає формати, які підтримує Imagick
--   [Imagick::radialBlurImage](imagick.radialblurimage.html) — Радіальне розмиття зображення
--   [Imagick::raiseImage](imagick.raiseimage.html) — Створює імітацію ефекту 3D-кнопки
--   [Imagick::randomThresholdImage](imagick.randomthresholdimage.html) — Створює висококонтрастне двокольорове зображення
--   [Imagick::readImage](imagick.readimage.html) — Читає зображення із файлу
--   [Imagick::readImageBlob](imagick.readimageblob.html) — Зчитує зображення з двійкового рядка
--   [Imagick::readImageFile](imagick.readimagefile.html) — Читає зображення із відкритого дескриптора файлу
--   [Imagick::readimages](imagick.readimages.html) — Читає зображення з масиву імен файлів
--   [Imagick::recolorImage](imagick.recolorimage.html) — Перефарбовує зображення
--   [Imagick::reduceNoiseImage](imagick.reducenoiseimage.html) — Згладжує контури зображення
--   [Imagick::remapImage](imagick.remapimage.html) — Перезначає кольори зображення
--   [Imagick::removeImage](imagick.removeimage.html) — Видалення зображення зі списку зображень
--   [Imagick::removeImageProfile](imagick.removeimageprofile.html) — Видаляє іменований профіль зображення та повертає його
--   [Imagick::render](imagick.render.html) - Відображає всі попередні команди малювання
--   [Imagick::resampleImage](imagick.resampleimage.html) — Перетворює зображення до бажаного дозволу
--   [Imagick::resetImagePage](imagick.resetimagepage.html) — Скидає сторінку зображення
--   [Imagick::resizeImage](imagick.resizeimage.html) — Масштабує зображення
--   [Imagick::rollImage](imagick.rollimage.html) — Зміщує зображення
--   [Imagick::rotateImage](imagick.rotateimage.html) — Повертає зображення
--   [Imagick::rotationalBlurImage](imagick.rotationalblurimage.html) — Застосовує обертальне розмиття до зображення.
--   [Imagick::roundCorners](imagick.roundcorners.html) — Заокруглює кути зображення
--   [Imagick::sampleImage](imagick.sampleimage.html) — Масштабує зображення з піксельною вибіркою
--   [Imagick::scaleImage](imagick.scaleimage.html) — Масштабує розмір зображення
--   [Imagick::segmentImage](imagick.segmentimage.html) — Сегментує зображення
--   [Imagick::selectiveBlurImage](imagick.selectiveblurimage.html) - Опис
--   [Imagick::separateImageChannel](imagick.separateimagechannel.html) — Відокремлює канал від зображення.
--   [Imagick::sepiaToneImage](imagick.sepiatoneimage.html) — Тонування зображення сепією
--   [Imagick::setBackgroundColor](imagick.setbackgroundcolor.html) — Встановлює колір тла об'єкта за промовчанням
--   [Imagick::setColorspace](imagick.setcolorspace.html) — Встановлює колірний простір
--   [Imagick::setCompression](imagick.setcompression.html) — Встановлює тип стиснення об'єкта за промовчанням
--   [Imagick::setCompressionQuality](imagick.setcompressionquality.html) — Встановлює якість стандартного стиснення об'єкта
--   [Imagick::setFilename](imagick.setfilename.html) — Встановлює ім'я файлу перед читанням чи записом зображення
--   [Imagick::setFirstIterator](imagick.setfirstiterator.html) - Встановлює ітератор Imagick для першого зображення
--   [Imagick::setFont](imagick.setfont.html) - Встановлює шрифт
--   [Imagick::setFormat](imagick.setformat.html) — Встановлює формат об'єкту Imagick
--   [Imagick::setGravity](imagick.setgravity.html) - Встановлює гравітацію
--   [Imagick::setImage](imagick.setimage.html) — Замінює зображення в об'єкті
--   [Imagick::setImageAlphaChannel](imagick.setimagealphachannel.html) - Встановлює альфа-канал зображення
--   [Imagick::setImageArtifact](imagick.setimageartifact.html) - Встановлює артефакт зображення
--   [Imagick::setImageAttribute](imagick.setimageattribute.html) — Встановлює атрибут зображення
--   [Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.html) — Встановлює колір тла зображення
--   [Imagick::setImageBias](imagick.setimagebias.html) — Встановлює зміщення зображення для будь-якого методу, який згортає зображення
--   [Imagick::setImageBiasQuantum](imagick.setimagebiasquantum.html) - Опис
--   [Imagick::setImageBluePrimary](imagick.setimageblueprimary.html) — Встановлює кольоровість зображення блакитною основною точкою.
--   [Imagick::setImageBorderColor](imagick.setimagebordercolor.html) — Встановлює колір рамки зображення
--   [Imagick::setImageChannelDepth](imagick.setimagechanneldepth.html) — Встановлює глибину певного каналу зображення
--   [Imagick::setImageClipMask](imagick.setimageclipmask.html) - Встановлює маску кліпу
--   [Imagick::setImageColormapColor](imagick.setimagecolormapcolor.html) — Встановлює колір вказаного індексу картки
--   [Imagick::setImageColorspace](imagick.setimagecolorspace.html) — Встановлює колірний простір зображення
--   [Imagick::setImageCompose](imagick.setimagecompose.html) — Встановлює оператор складеного зображення
--   [Imagick::setImageCompression](imagick.setimagecompression.html) — Встановлює стиснення зображення
--   [Imagick::setImageCompressionQuality](imagick.setimagecompressionquality.html) — Встановлює якість стиснення зображення
--   [Imagick::setImageDelay](imagick.setimagedelay.html) — Встановлює затримку зображення
--   [Imagick::setImageDepth](imagick.setimagedepth.html) — Встановлює глибину зображення
--   [Imagick::setImageDispose](imagick.setimagedispose.html) — Встановлює метод видалення зображення
--   [Imagick::setImageExtent](imagick.setimageextent.html) — Встановлює розмір зображення
--   [Imagick::setImageFilename](imagick.setimagefilename.html) — Встановлює ім'я конкретного файлу.
--   [Imagick::setImageFormat](imagick.setimageformat.html) — Встановлює формат певного зображення
--   [Imagick::setImageGamma](imagick.setimagegamma.html) — Встановлює гаму зображення
--   [Imagick::setImageGravity](imagick.setimagegravity.html) — Встановлює гравітацію зображення
--   [Imagick::setImageGreenPrimary](imagick.setimagegreenprimary.html) — Встановлює кольоровість зображення зеленою первинною точкою.
--   [Imagick::setImageIndex](imagick.setimageindex.html) - Встановлює позицію ітератора
--   [Imagick::setImageInterlaceScheme](imagick.setimageinterlacescheme.html) — Встановлює стиснення зображення
--   [Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.html) — Встановлює метод інтерполяції пікселів зображення
--   [Imagick::setImageIterations](imagick.setimageiterations.html) — Встановлює ітерацію зображення
--   [Imagick::setImageMatte](imagick.setimagematte.html) — Встановлює матовий канал зображення
--   [Imagick::setImageMatteColor](imagick.setimagemattecolor.html) — Встановлює матовий колір зображення
--   [Imagick::setImageOpacity](imagick.setimageopacity.html) — Встановлює рівень непрозорості зображення
--   [Imagick::setImageOrientation](imagick.setimageorientation.html) — Встановлює орієнтацію зображення
--   [Imagick::setImagePage](imagick.setimagepage.html) — Встановлює геометрію сторінки зображення
--   [Imagick::setImageProfile](imagick.setimageprofile.html) - Додає іменований профіль до об'єкту Imagick
--   [Imagick::setImageProperty](imagick.setimageproperty.html) — Встановлює властивість зображення
--   [Imagick::setImageRedPrimary](imagick.setimageredprimary.html) — Встановлює червону первинну точку кольоровості зображення
--   [Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.html) — Встановлює схему передачі кольору зображення
--   [Imagick::setImageResolution](imagick.setimageresolution.html) — Встановлює роздільну здатність зображення
--   [Imagick::setImageScene](imagick.setimagescene.html) — Встановлює сцену зображення
--   [Imagick::setImageTicksPerSecond](imagick.setimagetickspersecond.html) — Встановлює тривалість відображення кадру
--   [Imagick::setImageType](imagick.setimagetype.html) — Встановлює тип зображення
--   [Imagick::setImageUnits](imagick.setimageunits.html) — Встановлює одиниці вимірювання роздільної здатності зображення
--   [Imagick::setImageVirtualPixelMethod](imagick.setimagevirtualpixelmethod.html) - Встановлює метод віртуального пікселя
--   [Imagick::setImageWhitePoint](imagick.setimagewhitepoint.html) — Встановлює білу точку кольору зображення
--   [Imagick::setInterlaceScheme](imagick.setinterlacescheme.html) — Встановлює стиснення зображення
--   [Imagick::setIteratorIndex](imagick.setiteratorindex.html) - Встановлює позицію ітератора
--   [Imagick::setLastIterator](imagick.setlastiterator.html) - Встановлює ітератор Imagick до останнього зображення
--   [Imagick::setOption](imagick.setoption.html) - Встановлює опцію
--   [Imagick::setPage](imagick.setpage.html) — Встановлює геометрію сторінки об'єкту Imagick
--   [Imagick::setPointSize](imagick.setpointsize.html) - Встановлює розмір точки
--   [Imagick::setProgressMonitor](imagick.setprogressmonitor.html) — Встановлює callback-функцію, яка буде викликатись під час обробки зображення Imagick
--   [Imagick::setRegistry](imagick.setregistry.html) - Опис
--   [Imagick::setResolution](imagick.setresolution.html) — Встановлює роздільну здатність зображення
--   [Imagick::setResourceLimit](imagick.setresourcelimit.html) - Встановлює ліміт для конкретного ресурсу
--   [Imagick::setSamplingFactors](imagick.setsamplingfactors.html) — Встановлює коефіцієнти вибірки зображень
--   [Imagick::setSize](imagick.setsize.html) — Встановлює розмір об'єкту Imagick
--   [Imagick::setSizeOffset](imagick.setsizeoffset.html) — Встановлює розмір та усунення об'єкта Imagick
--   [Imagick::setType](imagick.settype.html) — Встановлює атрибут типу зображення
--   [Imagick::shadeImage](imagick.shadeimage.html) — Створює 3D-ефект
--   [Imagick::shadowImage](imagick.shadowimage.html) — Імітує тінь зображення
--   [Imagick::sharpenImage](imagick.sharpenimage.html) — Підвищує різкість зображення
--   [Imagick::shaveImage](imagick.shaveimage.html) — Видаляє пікселі по краях зображення
--   [Imagick::shearImage](imagick.shearimage.html) - Створює паралелограм
--   [Imagick::sigmoidalContrastImage](imagick.sigmoidalcontrastimage.html) - Регулює контраст зображення
--   [Imagick::sketchImage](imagick.sketchimage.html) - Імітує малюнок олівцем
--   [Imagick::smushImages](imagick.smushimages.html) - Опис
--   [Imagick::solarizeImage](imagick.solarizeimage.html) — Застосовує до зображення ефект соляризації
--   [Imagick::sparseColorImage](imagick.sparsecolorimage.html) - Інтерполює кольори
--   [Imagick::spliceImage](imagick.spliceimage.html) — Склеює суцільний колір у зображення
--   [Imagick::spreadImage](imagick.spreadimage.html) — Випадково зміщує кожен піксель у блоці
--   [Imagick::statisticImage](imagick.statisticimage.html) - Опис
--   [Imagick::steganoImage](imagick.steganoimage.html) — Приховує цифровий водяний знак у зображенні
--   [Imagick::stereoImage](imagick.stereoimage.html) — Об'єднує два зображення
--   [Imagick::stripImage](imagick.stripimage.html) — Знімає зображення всіх профілів та коментарів
--   [Imagick::subImageMatch](imagick.subimagematch.html) - Опис
--   [Imagick::swirlImage](imagick.swirlimage.html) — Закручує пікселі навколо центру зображення
--   [Imagick::textureImage](imagick.textureimage.html) — Багато разів розміщує зображення текстури
--   [Imagick::thresholdImage](imagick.thresholdimage.html) - Змінює окремі пікселі на основі порогового значення
--   [Imagick::thumbnailImage](imagick.thumbnailimage.html) — Змінює розмір зображення
--   [Imagick::tintImage](imagick.tintimage.html) — Застосовує вектор кольору до кожного пікселя зображення
--   [Imagick::toString](imagick.tostring.html) — Повертає зображення у вигляді рядка
--   [Imagick::transformImage](imagick.transformimage.html) — Зручний метод налаштування розміру кадрування та геометрії зображення
--   [Imagick::transformImageColorspace](imagick.transformimagecolorspace.html) — Перетворює зображення на новий колірний простір
--   [Imagick::transparentPaintImage](imagick.transparentpaintimage.html) — Малює пікселі прозорими
--   [Imagick::transposeImage](imagick.transposeimage.html) — Створює вертикальне дзеркальне відображення
--   [Imagick::transverseImage](imagick.transverseimage.html) — Створює горизонтальне дзеркальне відображення
--   [Imagick::trimImage](imagick.trimimage.html) — Видаляє краї із зображення
--   [Imagick::uniqueImageColors](imagick.uniqueimagecolors.html) - Відкидає все, крім одного, будь-якого кольору пікселя
--   [Imagick::unsharpMaskImage](imagick.unsharpmaskimage.html) - Різкість зображення
--   [Imagick::valid](imagick.valid.html) — Перевіряє, чи поточний елемент є коректним.
--   [Imagick::vignetteImage](imagick.vignetteimage.html) — Додає він'єтний фільтр до зображення
--   [Imagick::waveImage](imagick.waveimage.html) — Застосовує хвильовий фільтр до зображення
--   [Imagick::whiteThresholdImage](imagick.whitethresholdimage.html) — Зафарбовує всі пікселі вище за поріг у білий
--   [Imagick::writeImage](imagick.writeimage.html) — Записує зображення за вказаним ім'ям файлу
--   [Imagick::writeImageFile](imagick.writeimagefile.html) — Записує зображення у файл
--   [Imagick::writeImages](imagick.writeimages.html) — Записує зображення або послідовність зображень
--   [Imagick::writeImagesFile](imagick.writeimagesfile.html) — Записує кадри у файловий дескриптор
+-   [Imagick::adaptiveBlurImage](imagick.adaptiveblurimage.md) — Додає адаптивний фільтр розмиття до зображення
+-   [Imagick::adaptiveResizeImage](imagick.adaptiveresizeimage.md) — Адаптивна зміна розміру зображення з даними тріангуляції
+-   [Imagick::adaptiveSharpenImage](imagick.adaptivesharpenimage.md) — Адаптивна зміна різкості зображення
+-   [Imagick::adaptiveThresholdImage](imagick.adaptivethresholdimage.md) — Вибір порога кожного пікселя в залежності від діапазону інтенсивності
+-   [Imagick::addImage](imagick.addimage.md) — Додає нове зображення до списку зображень об'єкту Imagick
+-   [Imagick::addNoiseImage](imagick.addnoiseimage.md) - Накладає випадковий шум на зображення
+-   [Imagick::affineTransformImage](imagick.affinetransformimage.md) — Перетворення зображення
+-   [Imagick::animateImages](imagick.animateimages.md) — Анімація одного або кількох зображень
+-   [Imagick::annotateImage](imagick.annotateimage.md) — Додає текстовий коментар на зображення
+-   [Imagick::appendImages](imagick.appendimages.md) — Об'єднує набір зображень
+-   [Imagick::autoLevelImage](imagick.autolevelimage.md) - Опис
+-   [Imagick::averageImages](imagick.averageimages.md) — Усереднює набір зображень
+-   [Imagick::blackThresholdImage](imagick.blackthresholdimage.md) — Перевести всі пікселі нижче граничного значення в чорний колір
+-   [Imagick::blueShiftImage](imagick.blueshiftimage.md) - Опис
+-   [Imagick::blurImage](imagick.blurimage.md) — Додає фільтр розмиття до зображення
+-   [Imagick::borderImage](imagick.borderimage.md) — Оточує зображення рамкою
+-   [Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.md) - Опис
+-   [Imagick::charcoalImage](imagick.charcoalimage.md) - Малювання вугіллям
+-   [Imagick::chopImage](imagick.chopimage.md) — Видаляє область зображення та обрізає його.
+-   [Imagick::clampImage](imagick.clampimage.md) - Опис
+-   [Imagick::clear](imagick.clear.md) — Очищає всі ресурси, пов'язані з об'єктом Imagick
+-   [Imagick::clipImage](imagick.clipimage.md) — Обрізка вздовж найближчого контуру з профілем 8BIM
+-   [Imagick::clipImagePath](imagick.clipimagepath.md) - Опис
+-   [Imagick::clipPathImage](imagick.clippathimage.md) — Відсікти уздовж зазначеного контуру з профілем 8BIM
+-   [Imagick::clone](imagick.clone.md) — Створює точну копію об'єкту Imagick
+-   [Imagick::clutImage](imagick.clutimage.md) — Замінює кольори у зображенні
+-   [Imagick::coalesceImages](imagick.coalesceimages.md) — Компонує набір зображень
+-   [Imagick::colorFloodfillImage](imagick.colorfloodfillimage.md) — Змінює значення кольору будь-якого пікселя, що відповідає цільовому
+-   [Imagick::colorizeImage](imagick.colorizeimage.md) — Змішування кольору заливки із зображенням
+-   [Imagick::colorMatrixImage](imagick.colormatriximage.md) — Застосовує перетворення кольору до зображення
+-   [Imagick::combineImages](imagick.combineimages.md) — Об'єднує одне або кілька зображень в одне зображення
+-   [Imagick::commentImage](imagick.commentimage.md) — Додає коментар до вашого зображення
+-   [Imagick::compareImageChannels](imagick.compareimagechannels.md) — Повертає різницю в одному чи кількох зображеннях
+-   [Imagick::compareImageLayers](imagick.compareimagelayers.md) — Повертає максимальну область, що обмежує між зображеннями.
+-   [Imagick::compareImages](imagick.compareimages.md) — Порівнює зображення з відновленим зображенням
+-   [Imagick::compositeImage](imagick.compositeimage.md) — Накладає одне зображення на інше
+-   [Imagick::construct](imagick.construct.md) - Конструктор об'єкту Imagick
+-   [Imagick::contrastImage](imagick.contrastimage.md) — Змінює контраст зображення
+-   [Imagick::contrastStretchImage](imagick.contraststretchimage.md) — Підвищує контрастність кольорового зображення
+-   [Imagick::convolveImage](imagick.convolveimage.md) — Застосовує ядро ​​згортки до зображення.
+-   [Imagick::count](imagick.count.md) — Отримує кількість зображень
+-   [Imagick::cropImage](imagick.cropimage.md) — Витягує область зображення
+-   [Imagick::cropThumbnailImage](imagick.cropthumbnailimage.md) - Створює обрізану мініатюру
+-   [Imagick::current](imagick.current.md) — Повертає посилання на поточний об'єкт Imagick
+-   [Imagick::cycleColormapImage](imagick.cyclecolormapimage.md) — Відображає карту кольорів зображення
+-   [Imagick::decipherImage](imagick.decipherimage.md) — Розшифровує зображення
+-   [Imagick::deconstructImages](imagick.deconstructimages.md) — Повертає певні піксельні відмінності між зображеннями
+-   [Imagick::deleteImageArtifact](imagick.deleteimageartifact.md) — Видаляє артефакт зображення
+-   [Imagick::deleteImageProperty](imagick.deleteimageproperty.md) - Опис
+-   [Imagick::deskewImage](imagick.deskewimage.md) — Видаляє перекіс із зображення
+-   [Imagick::despeckleImage](imagick.despeckleimage.md) - Зменшує спекл-шум на зображенні
+-   [Imagick::destroy](imagick.destroy.md) — Видаляє об'єкт Imagick
+-   [Imagick::displayImage](imagick.displayimage.md) — Виводить зображення
+-   [Imagick::displayImages](imagick.displayimages.md) — Виводить зображення або послідовність зображень
+-   [Imagick::distortImage](imagick.distortimage.md) — Спотворює зображення, використовуючи різні методи спотворення
+-   [Imagick::drawImage](imagick.drawimage.md) — Виконує рендеринг об'єкту ImagickDraw на поточному зображенні
+-   [Imagick::edgeImage](imagick.edgeimage.md) — Підсилює краї зображення.
+-   [Imagick::embossImage](imagick.embossimage.md) — Повертає зображення у градаціях сірого із тривимірним ефектом
+-   [Imagick::encipherImage](imagick.encipherimage.md) - Шифрує зображення
+-   [Imagick::enhanceImage](imagick.enhanceimage.md) — Покращує якість шумного зображення
+-   [Imagick::equalizeImage](imagick.equalizeimage.md) — Вирівнює гістограму зображення
+-   [Imagick::evaluateImage](imagick.evaluateimage.md) — Застосовує вираз до зображення
+-   [Imagick::exportImagePixels](imagick.exportimagepixels.md) — Експортує пікселі зображення
+-   [Imagick::extentImage](imagick.extentimage.md) — Встановлює розмір зображення
+-   [Imagick::filter](imagick.filter.md) - Опис
+-   [Imagick::flattenImages](imagick.flattenimages.md) — Поєднує послідовність зображень
+-   [Imagick::flipImage](imagick.flipimage.md) — Створює вертикальне дзеркало зображення
+-   [Imagick::floodFillPaintImage](imagick.floodfillpaintimage.md) — Змінює значення кольору будь-якого пікселя, що відповідає цільовому
+-   [Imagick::flopImage](imagick.flopimage.md) — Створює горизонтальне дзеркальне відображення
+-   [Imagick::forwardFourierTransformImage](imagick.forwardfouriertransformimage.md) - Опис
+-   [Imagick::frameImage](imagick.frameimage.md) — Додає імітацію тривимірного кордону
+-   [Imagick::functionImage](imagick.functionimage.md) — Застосовує функцію зображення.
+-   [Imagick::fxImage](imagick.fximage.md) — Оцінює вираз для кожного пікселя у зображенні
+-   [Imagick::gammaImage](imagick.gammaimage.md) - Гамма-корекція зображення
+-   [Imagick::gaussianBlurImage](imagick.gaussianblurimage.md) — Розмиває зображення
+-   [Imagick::getColorspace](imagick.getcolorspace.md) — Повертає палітру кольорів
+-   [Imagick::getCompression](imagick.getcompression.md) — Повертає тип стиснення об'єкта
+-   [Imagick::getCompressionQuality](imagick.getcompressionquality.md) — Повертає якість стиснення об'єкта
+-   [Imagick::getCopyright](imagick.getcopyright.md) — Повертає копірайт API ImageMagick у вигляді рядка
+-   [Imagick::getFilename](imagick.getfilename.md) - Ім'я файлу результуючого зображення
+-   [Imagick::getFont](imagick.getfont.md) — Повертає назву шрифту
+-   [Imagick::getFormat](imagick.getformat.md) — Повертає формат Imagick об'єкту
+-   [Imagick::getGravity](imagick.getgravity.md) - Повертає значення гравітації (тяжіння)
+-   [Imagick::getHomeURL](imagick.gethomeurl.md) — Повертає домашню URL-адресу бібліотеки ImageMagick
+-   [Imagick::getImage](imagick.getimage.md) — Повертає новий об'єкт Imagick
+-   [Imagick::getImageAlphaChannel](imagick.getimagealphachannel.md) — Перевіряє, чи є зображення альфа-канал
+-   [Imagick::getImageArtifact](imagick.getimageartifact.md) — Повертає артефакт зображення
+-   [Imagick::getImageAttribute](imagick.getimageattribute.md) - Повертає іменований атрибут
+-   [Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.md) — Повертає колір тла зображення
+-   [Imagick::getImageBlob](imagick.getimageblob.md) — Повертає послідовність зображень у вигляді BLOB
+-   [Imagick::getImageBluePrimary](imagick.getimageblueprimary.md) — Повертає основну точку синього кольору зображення
+-   [Imagick::getImageBorderColor](imagick.getimagebordercolor.md) — Повертає колір рамки зображення
+-   [Imagick::getImageChannelDepth](imagick.getimagechanneldepth.md) — Повертає глибину для певного каналу зображення
+-   [Imagick::getImageChannelDistortion](imagick.getimagechanneldistortion.md) — Порівнює канали зображення з відновленим зображенням
+-   [Imagick::getImageChannelDistortions](imagick.getimagechanneldistortions.md) — Повертає спотворення каналу
+-   [Imagick::getImageChannelExtrema](imagick.getimagechannelextrema.md) — Повертає екстремуми для одного або кількох каналів зображення
+-   [Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.md) — Повертає ексцес та асиметрію певного каналу
+-   [Imagick::getImageChannelMean](imagick.getimagechannelmean.md) — Повертає середнє та стандартне відхилення
+-   [Imagick::getImageChannelRange](imagick.getimagechannelrange.md) — Повертає діапазон каналів
+-   [Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.md) — Повертає статистику для кожного каналу зображення
+-   [Imagick::getImageClipMask](imagick.getimageclipmask.md) — Повертає відсічну маску зображення
+-   [Imagick::getImageColormapColor](imagick.getimagecolormapcolor.md) — Повертає колір зазначеного індексу палітри
+-   [Imagick::getImageColors](imagick.getimagecolors.md) — Повертає кількість унікальних кольорів у зображенні
+-   [Imagick::getImageColorspace](imagick.getimagecolorspace.md) — Повертає палітру кольорів зображення
+-   [Imagick::getImageCompose](imagick.getimagecompose.md) — Повертає складовий оператор, пов'язаний із зображенням
+-   [Imagick::getImageCompression](imagick.getimagecompression.md) — Повертає поточний тип компресії зображення
+-   [Imagick::getImageCompressionQuality](imagick.getimagecompressionquality.md) — Повертає поточну якість стиснення зображення
+-   [Imagick::getImageDelay](imagick.getimagedelay.md) — Повертає затримку зображення
+-   [Imagick::getImageDepth](imagick.getimagedepth.md) — Повертає глибину зображення
+-   [Imagick::getImageDispose](imagick.getimagedispose.md) — Повертає метод видалення зображення
+-   [Imagick::getImageDistortion](imagick.getimagedistortion.md) — Порівнює зображення з відновленим зображенням
+-   [Imagick::getImageExtrema](imagick.getimageextrema.md) — Повертає екстремуми зображення
+-   [Imagick::getImageFilename](imagick.getimagefilename.md) — Повертає ім'я файлу конкретного зображення у послідовності
+-   [Imagick::getImageFormat](imagick.getimageformat.md) — Повертає формат зображення в послідовності.
+-   [Imagick::getImageGamma](imagick.getimagegamma.md) — Повертає гаму зображення
+-   [Imagick::getImageGeometry](imagick.getimagegeometry.md) — Повертає ширину та висоту у вигляді асоціативного масиву
+-   [Imagick::getImageGravity](imagick.getimagegravity.md) - Повертає значення гравітації (тяжіння)
+-   [Imagick::getImageGreenPrimary](imagick.getimagegreenprimary.md) — Повертає первинну точку кольоровості зеленого
+-   [Imagick::getImageHeight](imagick.getimageheight.md) — Повертає висоту зображення
+-   [Imagick::getImageHistogram](imagick.getimagehistogram.md) — Повертає гістограму зображення
+-   [Imagick::getImageIndex](imagick.getimageindex.md) — Повертає індекс активного поточного зображення.
+-   [Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.md) — Отримує схему надрядкового зображення
+-   [Imagick::getImageInterpolateMethod](imagick.getimageinterpolatemethod.md) — Повертає метод інтерполяції
+-   [Imagick::getImageIterations](imagick.getimageiterations.md) — Повертає ітерацію зображення
+-   [Imagick::getImageLength](imagick.getimagelength.md) — Повертає довжину зображення у байтах
+-   [Imagick::getImageMatte](imagick.getimagematte.md) — Повертає, якщо зображення містить матовий канал
+-   [Imagick::getImageMatteColor](imagick.getimagemattecolor.md) — Повертає матовий колір зображення
+-   [Imagick::getImageMimeType](imagick.getimagemimetype.md) — Повертає MIME-тип зображення
+-   [Imagick::getImageOrientation](imagick.getimageorientation.md) — Повертає орієнтацію зображення
+-   [Imagick::getImagePage](imagick.getimagepage.md) — Повертає геометрію сторінки
+-   [Imagick::getImagePixelColor](imagick.getimagepixelcolor.md) — Повертає колір вказаного пікселя
+-   [Imagick::getImageProfile](imagick.getimageprofile.md) — Повертає іменований профіль зображення
+-   [Imagick::getImageProfiles](imagick.getimageprofiles.md) — Повертає профілі зображень
+-   [Imagick::getImageProperties](imagick.getimageproperties.md) — Повертає властивості зображення
+-   [Imagick::getImageProperty](imagick.getimageproperty.md) — Повертає іменовану властивість зображення
+-   [Imagick::getImageRedPrimary](imagick.getimageredprimary.md) — Повертає червону первинну точку кольоровості
+-   [Imagick::getImageRegion](imagick.getimageregion.md) — Витягує область зображення
+-   [Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.md) — Повертає схему передачі кольору зображення
+-   [Imagick::getImageResolution](imagick.getimageresolution.md) — Повертає роздільну здатність зображення за X та Y
+-   [Imagick::getImagesBlob](imagick.getimagesblob.md) — Повертає всі послідовності зображення у вигляді великого двійкового об'єкта
+-   [Imagick::getImageScene](imagick.getimagescene.md) — Повертає сцену зображення
+-   [Imagick::getImageSignature](imagick.getimagesignature.md) - Генерує хеш SHA-256
+-   [Imagick::getImageSize](imagick.getimagesize.md) — Повертає розмір зображення у байтах
+-   [Imagick::getImageTicksPerSecond](imagick.getimagetickspersecond.md) — Отримує кількість кадрів на секунду для зображення
+-   [Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.md) — Повертає загальну щільність чорнила зображення
+-   [Imagick::getImageType](imagick.getimagetype.md) — Повертає можливий тип зображення
+-   [Imagick::getImageUnits](imagick.getimageunits.md) — Повертає одиниці вимірювання роздільної здатності зображення
+-   [Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.md) — Повертає метод віртуального пікселя
+-   [Imagick::getImageWhitePoint](imagick.getimagewhitepoint.md) — Повертає білу точку кольоровості
+-   [Imagick::getImageWidth](imagick.getimagewidth.md) — Повертає ширину зображення
+-   [Imagick::getInterlaceScheme](imagick.getinterlacescheme.md) — Отримує схему стиснення зображення
+-   [Imagick::getIteratorIndex](imagick.getiteratorindex.md) — Повертає індекс активного поточного зображення.
+-   [Imagick::getNumberImages](imagick.getnumberimages.md) — Повертає кількість зображень в об'єкті
+-   [Imagick::getOption](imagick.getoption.md) — Повертає значення, пов'язане із зазначеним ключем
+-   [Imagick::getPackageName](imagick.getpackagename.md) — Повертає ім'я ImageMagick
+-   [Imagick::getPage](imagick.getpage.md) — Повертає геометрію сторінки
+-   [Imagick::getPixelIterator](imagick.getpixeliterator.md) - Повертає MagickPixelIterator
+-   [Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.md) — Повертає об'єкт ImagickPixelIterator для секції зображення
+-   [Imagick::getPointSize](imagick.getpointsize.md) — Повертає розмір точки
+-   [Imagick::getQuantum](imagick.getquantum.md) — Повертає квантовий діапазон ImageMagick
+-   [Imagick::getQuantumDepth](imagick.getquantumdepth.md) - Повертає величину глибини
+-   [Imagick::getQuantumRange](imagick.getquantumrange.md) — Повертає розмір спектру Imagick
+-   [Imagick::getRegistry](imagick.getregistry.md) - Опис
+-   [Imagick::getReleaseDate](imagick.getreleasedate.md) — Повертає дату випуску ImageMagick
+-   [Imagick::getResource](imagick.getresource.md) — Повертає розмір пам'яті вказаного ресурсу.
+-   [Imagick::getResourceLimit](imagick.getresourcelimit.md) — Повертає заданий ліміт ресурсів
+-   [Imagick::getSamplingFactors](imagick.getsamplingfactors.md) — Повертає горизонтальний та вертикальний фактор вибірки
+-   [Imagick::getSize](imagick.getsize.md) — Повертає розмір, пов'язаний із об'єктом Imagick
+-   [Imagick::getSizeOffset](imagick.getsizeoffset.md) — Повертає розмір усунення
+-   [Imagick::getVersion](imagick.getversion.md) — Повертає версію API ImageMagick
+-   [Imagick::haldClutImage](imagick.haldclutimage.md) — Замінює кольори у зображенні
+-   [Imagick::hasNextImage](imagick.hasnextimage.md) — Перевіряє, чи об'єкт містить більше зображень
+-   [Imagick::hasPreviousImage](imagick.haspreviousimage.md) — Перевіряє, чи об'єкт має попереднє зображення.
+-   [Imagick::identifyFormat](imagick.identifyformat.md) - Опис
+-   [Imagick::identifyImage](imagick.identifyimage.md) — Визначає зображення та отримує атрибути
+-   [Imagick::implodeImage](imagick.implodeimage.md) — Створює копію зображення
+-   [Imagick::importImagePixels](imagick.importimagepixels.md) — Імпортує пікселі зображення
+-   [Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.md) - Реалізує дискретне перетворення Фур'є
+-   [Imagick::labelImage](imagick.labelimage.md) — Додає позначку до зображення
+-   [Imagick::levelImage](imagick.levelimage.md) — Регулює рівні зображення
+-   [Imagick::linearStretchImage](imagick.linearstretchimage.md) — Розтягує з насиченням яскравість зображення
+-   [Imagick::liquidRescaleImage](imagick.liquidrescaleimage.md) — Анімує зображення чи зображення
+-   [Imagick::listRegistry](imagick.listregistry.md) - Опис
+-   [Imagick::magnifyImage](imagick.magnifyimage.md) — Пропорційно масштабує зображення вдвічі
+-   [Imagick::mapImage](imagick.mapimage.md) — Замінює кольори зображення на найближчий колір із еталонного зображення
+-   [Imagick::matteFloodfillImage](imagick.mattefloodfillimage.md) — Змінює значення прозорості кольору
+-   [Imagick::medianFilterImage](imagick.medianfilterimage.md) — Застосовує цифровий фільтр
+-   [Imagick::mergeImageLayers](imagick.mergeimagelayers.md) — Об'єднує шари зображення
+-   [Imagick::minifyImage](imagick.minifyimage.md) — Масштабує зображення пропорційно до половини його розміру.
+-   [Imagick::modulateImage](imagick.modulateimage.md) — Керуйте яскравістю, насиченістю та відтінком
+-   [Imagick::montageImage](imagick.montageimage.md) — Створює складне зображення
+-   [Imagick::morphImages](imagick.morphimages.md) — Перетворює набір зображень
+-   [Imagick::morphology](imagick.morphology.md) - Опис
+-   [Imagick::mosaicImages](imagick.mosaicimages.md) — Формує мозаїку із зображень
+-   [Imagick::motionBlurImage](imagick.motionblurimage.md) — Імітує розмиття у русі
+-   [Imagick::negateImage](imagick.negateimage.md) - Інвертує кольори в еталонному зображенні
+-   [Imagick::newImage](imagick.newimage.md) — Створює нове зображення
+-   [Imagick::newPseudoImage](imagick.newpseudoimage.md) — Створює нове зображення
+-   [Imagick::nextImage](imagick.nextimage.md) — Переходить до наступного зображення
+-   [Imagick::normalizeImage](imagick.normalizeimage.md) — Підвищує контрастність кольорового зображення
+-   [Imagick::oilPaintImage](imagick.oilpaintimage.md) — Імітує картину олією
+-   [Imagick::opaquePaintImage](imagick.opaquepaintimage.md) — Змінює значення кольору будь-якого пікселя, що відповідає цільовому
+-   [Imagick::optimizeImageLayers](imagick.optimizeimagelayers.md) — Видаляє повторювані частини зображень для оптимізації
+-   [Imagick::orderedPosterizeImage](imagick.orderedposterizeimage.md) - Виконує впорядкований дизеринг
+-   [Imagick::paintFloodfillImage](imagick.paintfloodfillimage.md) — Змінює значення кольору будь-якого пікселя, що відповідає меті
+-   [Imagick::paintOpaqueImage](imagick.paintopaqueimage.md) — Змінює будь-який піксель, що відповідає кольору
+-   [Imagick::paintTransparentImage](imagick.painttransparentimage.md) — Змінює будь-який піксель, який відповідає кольору, на колір, визначений заливкою
+-   [Imagick::pingImage](imagick.pingimage.md) — Отримує основні атрибути зображення
+-   [Imagick::pingImageBlob](imagick.pingimageblob.md) — Швидко витягує атрибути
+-   [Imagick::pingImageFile](imagick.pingimagefile.md) — Отримує базові атрибути зображення у спрощений спосіб.
+-   [Imagick::polaroidImage](imagick.polaroidimage.md) - Імітує фото Polaroid
+-   [Imagick::posterizeImage](imagick.posterizeimage.md) — Зменшує зображення до обмеженої кількості рівнів кольору
+-   [Imagick::previewImages](imagick.previewimages.md) — Швидке визначення відповідних параметрів для обробки зображень
+-   [Imagick::previousImage](imagick.previousimage.md) — Перехід до попереднього зображення в об'єкті
+-   [Imagick::profileImage](imagick.profileimage.md) — Додає або видаляє профіль зображення
+-   [Imagick::quantizeImage](imagick.quantizeimage.md) - Аналізує кольори еталонного зображення
+-   [Imagick::quantizeImages](imagick.quantizeimages.md) — Аналізує кольори у послідовності зображень
+-   [Imagick::queryFontMetrics](imagick.queryfontmetrics.md) — Повертає масив, який представляє метрики шрифту
+-   [Imagick::queryFonts](imagick.queryfonts.md) — Повертає налаштовані шрифти
+-   [Imagick::queryFormats](imagick.queryformats.md) — Повертає формати, які підтримує Imagick
+-   [Imagick::radialBlurImage](imagick.radialblurimage.md) — Радіальне розмиття зображення
+-   [Imagick::raiseImage](imagick.raiseimage.md) — Створює імітацію ефекту 3D-кнопки
+-   [Imagick::randomThresholdImage](imagick.randomthresholdimage.md) — Створює висококонтрастне двокольорове зображення
+-   [Imagick::readImage](imagick.readimage.md) — Читає зображення із файлу
+-   [Imagick::readImageBlob](imagick.readimageblob.md) — Зчитує зображення з двійкового рядка
+-   [Imagick::readImageFile](imagick.readimagefile.md) — Читає зображення із відкритого дескриптора файлу
+-   [Imagick::readimages](imagick.readimages.md) — Читає зображення з масиву імен файлів
+-   [Imagick::recolorImage](imagick.recolorimage.md) — Перефарбовує зображення
+-   [Imagick::reduceNoiseImage](imagick.reducenoiseimage.md) — Згладжує контури зображення
+-   [Imagick::remapImage](imagick.remapimage.md) — Перезначає кольори зображення
+-   [Imagick::removeImage](imagick.removeimage.md) — Видалення зображення зі списку зображень
+-   [Imagick::removeImageProfile](imagick.removeimageprofile.md) — Видаляє іменований профіль зображення та повертає його
+-   [Imagick::render](imagick.render.md) - Відображає всі попередні команди малювання
+-   [Imagick::resampleImage](imagick.resampleimage.md) — Перетворює зображення до бажаного дозволу
+-   [Imagick::resetImagePage](imagick.resetimagepage.md) — Скидає сторінку зображення
+-   [Imagick::resizeImage](imagick.resizeimage.md) — Масштабує зображення
+-   [Imagick::rollImage](imagick.rollimage.md) — Зміщує зображення
+-   [Imagick::rotateImage](imagick.rotateimage.md) — Повертає зображення
+-   [Imagick::rotationalBlurImage](imagick.rotationalblurimage.md) — Застосовує обертальне розмиття до зображення.
+-   [Imagick::roundCorners](imagick.roundcorners.md) — Заокруглює кути зображення
+-   [Imagick::sampleImage](imagick.sampleimage.md) — Масштабує зображення з піксельною вибіркою
+-   [Imagick::scaleImage](imagick.scaleimage.md) — Масштабує розмір зображення
+-   [Imagick::segmentImage](imagick.segmentimage.md) — Сегментує зображення
+-   [Imagick::selectiveBlurImage](imagick.selectiveblurimage.md) - Опис
+-   [Imagick::separateImageChannel](imagick.separateimagechannel.md) — Відокремлює канал від зображення.
+-   [Imagick::sepiaToneImage](imagick.sepiatoneimage.md) — Тонування зображення сепією
+-   [Imagick::setBackgroundColor](imagick.setbackgroundcolor.md) — Встановлює колір тла об'єкта за промовчанням
+-   [Imagick::setColorspace](imagick.setcolorspace.md) — Встановлює колірний простір
+-   [Imagick::setCompression](imagick.setcompression.md) — Встановлює тип стиснення об'єкта за промовчанням
+-   [Imagick::setCompressionQuality](imagick.setcompressionquality.md) — Встановлює якість стандартного стиснення об'єкта
+-   [Imagick::setFilename](imagick.setfilename.md) — Встановлює ім'я файлу перед читанням чи записом зображення
+-   [Imagick::setFirstIterator](imagick.setfirstiterator.md) - Встановлює ітератор Imagick для першого зображення
+-   [Imagick::setFont](imagick.setfont.md) - Встановлює шрифт
+-   [Imagick::setFormat](imagick.setformat.md) — Встановлює формат об'єкту Imagick
+-   [Imagick::setGravity](imagick.setgravity.md) - Встановлює гравітацію
+-   [Imagick::setImage](imagick.setimage.md) — Замінює зображення в об'єкті
+-   [Imagick::setImageAlphaChannel](imagick.setimagealphachannel.md) - Встановлює альфа-канал зображення
+-   [Imagick::setImageArtifact](imagick.setimageartifact.md) - Встановлює артефакт зображення
+-   [Imagick::setImageAttribute](imagick.setimageattribute.md) — Встановлює атрибут зображення
+-   [Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.md) — Встановлює колір тла зображення
+-   [Imagick::setImageBias](imagick.setimagebias.md) — Встановлює зміщення зображення для будь-якого методу, який згортає зображення
+-   [Imagick::setImageBiasQuantum](imagick.setimagebiasquantum.md) - Опис
+-   [Imagick::setImageBluePrimary](imagick.setimageblueprimary.md) — Встановлює кольоровість зображення блакитною основною точкою.
+-   [Imagick::setImageBorderColor](imagick.setimagebordercolor.md) — Встановлює колір рамки зображення
+-   [Imagick::setImageChannelDepth](imagick.setimagechanneldepth.md) — Встановлює глибину певного каналу зображення
+-   [Imagick::setImageClipMask](imagick.setimageclipmask.md) - Встановлює маску кліпу
+-   [Imagick::setImageColormapColor](imagick.setimagecolormapcolor.md) — Встановлює колір вказаного індексу картки
+-   [Imagick::setImageColorspace](imagick.setimagecolorspace.md) — Встановлює колірний простір зображення
+-   [Imagick::setImageCompose](imagick.setimagecompose.md) — Встановлює оператор складеного зображення
+-   [Imagick::setImageCompression](imagick.setimagecompression.md) — Встановлює стиснення зображення
+-   [Imagick::setImageCompressionQuality](imagick.setimagecompressionquality.md) — Встановлює якість стиснення зображення
+-   [Imagick::setImageDelay](imagick.setimagedelay.md) — Встановлює затримку зображення
+-   [Imagick::setImageDepth](imagick.setimagedepth.md) — Встановлює глибину зображення
+-   [Imagick::setImageDispose](imagick.setimagedispose.md) — Встановлює метод видалення зображення
+-   [Imagick::setImageExtent](imagick.setimageextent.md) — Встановлює розмір зображення
+-   [Imagick::setImageFilename](imagick.setimagefilename.md) — Встановлює ім'я конкретного файлу.
+-   [Imagick::setImageFormat](imagick.setimageformat.md) — Встановлює формат певного зображення
+-   [Imagick::setImageGamma](imagick.setimagegamma.md) — Встановлює гаму зображення
+-   [Imagick::setImageGravity](imagick.setimagegravity.md) — Встановлює гравітацію зображення
+-   [Imagick::setImageGreenPrimary](imagick.setimagegreenprimary.md) — Встановлює кольоровість зображення зеленою первинною точкою.
+-   [Imagick::setImageIndex](imagick.setimageindex.md) - Встановлює позицію ітератора
+-   [Imagick::setImageInterlaceScheme](imagick.setimageinterlacescheme.md) — Встановлює стиснення зображення
+-   [Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.md) — Встановлює метод інтерполяції пікселів зображення
+-   [Imagick::setImageIterations](imagick.setimageiterations.md) — Встановлює ітерацію зображення
+-   [Imagick::setImageMatte](imagick.setimagematte.md) — Встановлює матовий канал зображення
+-   [Imagick::setImageMatteColor](imagick.setimagemattecolor.md) — Встановлює матовий колір зображення
+-   [Imagick::setImageOpacity](imagick.setimageopacity.md) — Встановлює рівень непрозорості зображення
+-   [Imagick::setImageOrientation](imagick.setimageorientation.md) — Встановлює орієнтацію зображення
+-   [Imagick::setImagePage](imagick.setimagepage.md) — Встановлює геометрію сторінки зображення
+-   [Imagick::setImageProfile](imagick.setimageprofile.md) - Додає іменований профіль до об'єкту Imagick
+-   [Imagick::setImageProperty](imagick.setimageproperty.md) — Встановлює властивість зображення
+-   [Imagick::setImageRedPrimary](imagick.setimageredprimary.md) — Встановлює червону первинну точку кольоровості зображення
+-   [Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.md) — Встановлює схему передачі кольору зображення
+-   [Imagick::setImageResolution](imagick.setimageresolution.md) — Встановлює роздільну здатність зображення
+-   [Imagick::setImageScene](imagick.setimagescene.md) — Встановлює сцену зображення
+-   [Imagick::setImageTicksPerSecond](imagick.setimagetickspersecond.md) — Встановлює тривалість відображення кадру
+-   [Imagick::setImageType](imagick.setimagetype.md) — Встановлює тип зображення
+-   [Imagick::setImageUnits](imagick.setimageunits.md) — Встановлює одиниці вимірювання роздільної здатності зображення
+-   [Imagick::setImageVirtualPixelMethod](imagick.setimagevirtualpixelmethod.md) - Встановлює метод віртуального пікселя
+-   [Imagick::setImageWhitePoint](imagick.setimagewhitepoint.md) — Встановлює білу точку кольору зображення
+-   [Imagick::setInterlaceScheme](imagick.setinterlacescheme.md) — Встановлює стиснення зображення
+-   [Imagick::setIteratorIndex](imagick.setiteratorindex.md) - Встановлює позицію ітератора
+-   [Imagick::setLastIterator](imagick.setlastiterator.md) - Встановлює ітератор Imagick до останнього зображення
+-   [Imagick::setOption](imagick.setoption.md) - Встановлює опцію
+-   [Imagick::setPage](imagick.setpage.md) — Встановлює геометрію сторінки об'єкту Imagick
+-   [Imagick::setPointSize](imagick.setpointsize.md) - Встановлює розмір точки
+-   [Imagick::setProgressMonitor](imagick.setprogressmonitor.md) — Встановлює callback-функцію, яка буде викликатись під час обробки зображення Imagick
+-   [Imagick::setRegistry](imagick.setregistry.md) - Опис
+-   [Imagick::setResolution](imagick.setresolution.md) — Встановлює роздільну здатність зображення
+-   [Imagick::setResourceLimit](imagick.setresourcelimit.md) - Встановлює ліміт для конкретного ресурсу
+-   [Imagick::setSamplingFactors](imagick.setsamplingfactors.md) — Встановлює коефіцієнти вибірки зображень
+-   [Imagick::setSize](imagick.setsize.md) — Встановлює розмір об'єкту Imagick
+-   [Imagick::setSizeOffset](imagick.setsizeoffset.md) — Встановлює розмір та усунення об'єкта Imagick
+-   [Imagick::setType](imagick.settype.md) — Встановлює атрибут типу зображення
+-   [Imagick::shadeImage](imagick.shadeimage.md) — Створює 3D-ефект
+-   [Imagick::shadowImage](imagick.shadowimage.md) — Імітує тінь зображення
+-   [Imagick::sharpenImage](imagick.sharpenimage.md) — Підвищує різкість зображення
+-   [Imagick::shaveImage](imagick.shaveimage.md) — Видаляє пікселі по краях зображення
+-   [Imagick::shearImage](imagick.shearimage.md) - Створює паралелограм
+-   [Imagick::sigmoidalContrastImage](imagick.sigmoidalcontrastimage.md) - Регулює контраст зображення
+-   [Imagick::sketchImage](imagick.sketchimage.md) - Імітує малюнок олівцем
+-   [Imagick::smushImages](imagick.smushimages.md) - Опис
+-   [Imagick::solarizeImage](imagick.solarizeimage.md) — Застосовує до зображення ефект соляризації
+-   [Imagick::sparseColorImage](imagick.sparsecolorimage.md) - Інтерполює кольори
+-   [Imagick::spliceImage](imagick.spliceimage.md) — Склеює суцільний колір у зображення
+-   [Imagick::spreadImage](imagick.spreadimage.md) — Випадково зміщує кожен піксель у блоці
+-   [Imagick::statisticImage](imagick.statisticimage.md) - Опис
+-   [Imagick::steganoImage](imagick.steganoimage.md) — Приховує цифровий водяний знак у зображенні
+-   [Imagick::stereoImage](imagick.stereoimage.md) — Об'єднує два зображення
+-   [Imagick::stripImage](imagick.stripimage.md) — Знімає зображення всіх профілів та коментарів
+-   [Imagick::subImageMatch](imagick.subimagematch.md) - Опис
+-   [Imagick::swirlImage](imagick.swirlimage.md) — Закручує пікселі навколо центру зображення
+-   [Imagick::textureImage](imagick.textureimage.md) — Багато разів розміщує зображення текстури
+-   [Imagick::thresholdImage](imagick.thresholdimage.md) - Змінює окремі пікселі на основі порогового значення
+-   [Imagick::thumbnailImage](imagick.thumbnailimage.md) — Змінює розмір зображення
+-   [Imagick::tintImage](imagick.tintimage.md) — Застосовує вектор кольору до кожного пікселя зображення
+-   [Imagick::toString](imagick.tostring.md) — Повертає зображення у вигляді рядка
+-   [Imagick::transformImage](imagick.transformimage.md) — Зручний метод налаштування розміру кадрування та геометрії зображення
+-   [Imagick::transformImageColorspace](imagick.transformimagecolorspace.md) — Перетворює зображення на новий колірний простір
+-   [Imagick::transparentPaintImage](imagick.transparentpaintimage.md) — Малює пікселі прозорими
+-   [Imagick::transposeImage](imagick.transposeimage.md) — Створює вертикальне дзеркальне відображення
+-   [Imagick::transverseImage](imagick.transverseimage.md) — Створює горизонтальне дзеркальне відображення
+-   [Imagick::trimImage](imagick.trimimage.md) — Видаляє краї із зображення
+-   [Imagick::uniqueImageColors](imagick.uniqueimagecolors.md) - Відкидає все, крім одного, будь-якого кольору пікселя
+-   [Imagick::unsharpMaskImage](imagick.unsharpmaskimage.md) - Різкість зображення
+-   [Imagick::valid](imagick.valid.md) — Перевіряє, чи поточний елемент є коректним.
+-   [Imagick::vignetteImage](imagick.vignetteimage.md) — Додає він'єтний фільтр до зображення
+-   [Imagick::waveImage](imagick.waveimage.md) — Застосовує хвильовий фільтр до зображення
+-   [Imagick::whiteThresholdImage](imagick.whitethresholdimage.md) — Зафарбовує всі пікселі вище за поріг у білий
+-   [Imagick::writeImage](imagick.writeimage.md) — Записує зображення за вказаним ім'ям файлу
+-   [Imagick::writeImageFile](imagick.writeimagefile.md) — Записує зображення у файл
+-   [Imagick::writeImages](imagick.writeimages.md) — Записує зображення або послідовність зображень
+-   [Imagick::writeImagesFile](imagick.writeimagesfile.md) — Записує кадри у файловий дескриптор

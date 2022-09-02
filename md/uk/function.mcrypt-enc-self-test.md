@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-enc-is-block-mode.html: « mcryptencісblockmode
-  - function.mcrypt-encrypt.html: mcryptencrypt »
+  - function.mcrypt-enc-is-block-mode.md: « mcryptencісblockmode
+  - function.mcrypt-encrypt.md: mcryptencrypt »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptencselftest

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ref.pdo-odbc.connection.html: « PDOODBC DSN
-  - ref.pdo-pgsql.connection.html: PDOPGSQL DSN »
+  - ref.pdo-odbc.connection.md: « PDOODBC DSN
+  - ref.pdo-pgsql.connection.md: PDOPGSQL DSN »
   - index.md: PHP Manual
   - pdo.drivers.md: Драйвери PDO
 title: Функції PostgreSQL (PDOPGSQL)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.charcoalimage.html: '« Imagick::charcoalImage'
-  - imagick.clampimage.html: 'Imagick::clampImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.charcoalimage.md: '« Imagick::charcoalImage'
+  - imagick.clampimage.md: 'Imagick::clampImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::chopImage'
 ---
 # Imagick::chopImage
@@ -76,4 +76,4 @@ echo $image;
 
 ### Дивіться також
 
--   [Imagick::cropImage()](imagick.cropimage.html) - Витягує область зображення
+-   [Imagick::cropImage()](imagick.cropimage.md) - Витягує область зображення

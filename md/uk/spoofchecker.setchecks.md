@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spoofchecker.setallowedlocales.html: '« Spoofchecker::setAllowedLocales'
-  - class.transliterator.html: Transliterator »
-  - index.html: PHP Manual
-  - class.spoofchecker.html: Spoofchecker
+  - spoofchecker.setallowedlocales.md: '« Spoofchecker::setAllowedLocales'
+  - class.transliterator.md: Transliterator »
+  - index.md: PHP Manual
+  - class.spoofchecker.md: Spoofchecker
 title: 'Spoofchecker::setChecks'
 ---
 # Spoofchecker::setChecks

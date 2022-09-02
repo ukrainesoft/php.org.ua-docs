@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-query.construct.html: '« MongoDBDriverQuery::construct'
-  - mongodb-driver-bulkwrite.construct.html: 'MongoDBDriverBulkWrite::construct »'
-  - index.html: PHP Manual
-  - book.mongodb.html: MongoDBDriver
+  - mongodb-driver-query.construct.md: '« MongoDBDriverQuery::construct'
+  - mongodb-driver-bulkwrite.construct.md: 'MongoDBDriverBulkWrite::construct »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverBulkWrite
 ---
 # Клас MongoDBDriverBulkWrite

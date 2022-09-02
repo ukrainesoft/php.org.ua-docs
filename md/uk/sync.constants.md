@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sync.resources.html: « Типи ресурсів
-  - class.syncmutex.html: SyncMutex »
-  - index.html: PHP Manual
-  - book.sync.html: Sync
+  - sync.resources.md: « Типи ресурсів
+  - class.syncmutex.md: SyncMutex »
+  - index.md: PHP Manual
+  - book.sync.md: Sync
 title: Обумовлені константи
 ---
 # Обумовлені константи

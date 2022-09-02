@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.stats.html: '« SwooleServer::stats'
-  - swoole-server.task.html: 'SwooleServer::task »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - swoole-server.stats.md: '« SwooleServer::stats'
+  - swoole-server.task.md: 'SwooleServer::task »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::stop'
 ---
 # SwooleServer::stop

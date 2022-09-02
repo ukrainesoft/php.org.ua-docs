@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-simple.construct.html: '« YafRouteSimple::construct'
-  - class.yaf-route-static.html: YafRouteStatic »
+  - yaf-route-simple.construct.md: '« YafRouteSimple::construct'
+  - class.yaf-route-static.md: YafRouteStatic »
   - index.md: PHP Manual
-  - class.yaf-route-simple.html: YafRouteSimple
+  - class.yaf-route-simple.md: YafRouteSimple
 title: 'YafRouteSimple::route'
 ---
 # YafRouteSimple::route

@@ -18,7 +18,7 @@ Imagick::getImageOrientation — Повертає орієнтацію зобр�
 public Imagick::getImageOrientation(): int
 ```
 
-Повертає орієнтацію зображення. Значення, що повертається - одна з [констант ORIENTATION](imagick.constants.html#imagick.constants.orientation)
+Повертає орієнтацію зображення. Значення, що повертається - одна з [констант ORIENTATION](imagick.constants.md#imagick.constants.orientation)
 
 ### Список параметрів
 

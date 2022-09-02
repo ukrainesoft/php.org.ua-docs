@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagesetbrush.html: « imagesetbrush
-  - function.imagesetinterpolation.html: imagesetinterpolation »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagesetbrush.md: « imagesetbrush
+  - function.imagesetinterpolation.md: imagesetinterpolation »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagesetclip
 ---
 # imagesetclip
@@ -24,7 +24,7 @@ imagesetclip(    GdImage $image,    int $x1,    int $y1,    int 
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x1`
 
@@ -50,8 +50,8 @@ imagesetclip(    GdImage $image,    int $x1,    int $y1,    int 
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 
--   [imagegetclip()](function.imagegetclip.html) - Отримати прямокутник, що відсікає
+-   [imagegetclip()](function.imagegetclip.md) - Отримати прямокутник, що відсікає

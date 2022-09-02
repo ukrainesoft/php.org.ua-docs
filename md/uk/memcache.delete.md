@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcache.decrement.html: '« Memcache::decrement'
-  - memcache.flush.html: 'Memcache::flush »'
-  - index.html: PHP Manual
-  - class.memcache.html: Memcache
+  - memcache.decrement.md: '« Memcache::decrement'
+  - memcache.flush.md: 'Memcache::flush »'
+  - index.md: PHP Manual
+  - class.memcache.md: Memcache
 title: 'Memcache::delete'
 ---
 # Memcache::delete

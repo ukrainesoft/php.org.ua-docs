@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.addbykey.html: '« Memcached::addByKey'
-  - memcached.addservers.html: 'Memcached::addServers »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.addbykey.md: '« Memcached::addByKey'
+  - memcached.addservers.md: 'Memcached::addServers »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::addServer'
 ---
 # Memcached::addServer
@@ -18,7 +18,7 @@ Memcached::addServer — Додає сервер до пулу
 public Memcached::addServer(string $host, int $port, int $weight = 0): bool
 ```
 
-**Memcached::addServer()** додає вказаний сервер у пул. При цьому з'єднання встановлено не буде, але якщо ви використовуєте налаштування консистентного розподілу ключів (за допомогою **`Memcached::DISTRIBUTION_CONSISTENT`** або **`Memcached::OPT_LIBKETAMA_COMPATIBLE`**), деякі внутрішні структури даних буде оновлено. Таким чином, якщо вам необхідно додати кілька серверів, краще використовувати [Memcached::addServers()](memcached.addservers.html) т.к. оновлення даних відбувається одноразово.
+**Memcached::addServer()** додає вказаний сервер у пул. При цьому з'єднання встановлено не буде, але якщо ви використовуєте налаштування консистентного розподілу ключів (за допомогою **`Memcached::DISTRIBUTION_CONSISTENT`** або **`Memcached::OPT_LIBKETAMA_COMPATIBLE`**), деякі внутрішні структури даних буде оновлено. Таким чином, якщо вам необхідно додати кілька серверів, краще використовувати [Memcached::addServers()](memcached.addservers.md) т.к. оновлення даних відбувається одноразово.
 
 Один і той самий сервер може зустрічатися в пулі кілька разів, тому що жодних перевірок на дублювання входжень немає. Але це недоцільно; натомість потрібно використовувати параметр `weight` підвищення пріоритету даного сервера.
 
@@ -57,5 +57,5 @@ $m->addServer('mem2.domain.com', 11211, 67);
 
 ### Дивіться також
 
--   [Memcached::addServers()](memcached.addservers.html) - Додає кілька серверів у пул
--   [Memcached::resetServerList()](memcached.resetserverlist.html) - Очищає список серверів
+-   [Memcached::addServers()](memcached.addservers.md) - Додає кілька серверів у пул
+-   [Memcached::resetServerList()](memcached.resetserverlist.md) - Очищає список серверів

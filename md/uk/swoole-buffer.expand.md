@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-buffer.destruct.html: '« SwooleBuffer::destruct'
-  - swoole-buffer.read.html: 'SwooleBuffer::read »'
+  - swoole-buffer.destruct.md: '« SwooleBuffer::destruct'
+  - swoole-buffer.read.md: 'SwooleBuffer::read »'
   - index.md: PHP Manual
-  - class.swoole-buffer.html: SwooleBuffer
+  - class.swoole-buffer.md: SwooleBuffer
 title: 'SwooleBuffer::expand'
 ---
 # SwooleBuffer::expand

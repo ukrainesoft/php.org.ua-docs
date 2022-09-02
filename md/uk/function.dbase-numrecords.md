@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dbase-numfields.html: « dbasenumfields
-  - function.dbase-open.html: dbaseopen »
+  - function.dbase-numfields.md: « dbasenumfields
+  - function.dbase-open.md: dbaseopen »
   - index.md: PHP Manual
   - ref.dbase.md: dBase
 title: dbasenumrecords
@@ -32,7 +32,7 @@ dbase_numrecords(resource $database): int
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.md)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 

@@ -28,7 +28,7 @@ readfile(string $filename, bool $use_include_path = false, ?resource $context = 
 
 `use_include_path`
 
-Якщо ви хочете, щоб використовувався пошук файлу в [includepath](ini.core.html#ini.include-path), встановіть цей параметр у **`true`**
+Якщо ви хочете, щоб використовувався пошук файлу в [includepath](ini.core.md#ini.include-path), встановіть цей параметр у **`true`**
 
 `context`
 
@@ -76,7 +76,7 @@ if (file_exists($file)) {
 
 **Підказка**
 
-Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.html#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
+Для цієї функції ви можете використовувати URL як ім'я файлу, якщо була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Докладніше про визначення імені файлу в описі функції [fopen()](function.fopen.md). Дивіться також список оберток URL, що підтримуються, їх можливості, зауваження щодо використання та список визначених констант у розділі [Підтримувані протоколи та обгортки](wrappers.md)
 
 ### Дивіться також
 

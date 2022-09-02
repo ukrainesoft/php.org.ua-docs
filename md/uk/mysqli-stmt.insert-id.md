@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.get-warnings.html: '« mysqlistmt::getwarnings'
-  - mysqli-stmt.more-results.html: 'mysqlistmt::moreresults »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.get-warnings.md: '« mysqlistmt::getwarnings'
+  - mysqli-stmt.more-results.md: 'mysqlistmt::moreresults »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::$insertід'
 ---
 # mysqlistmt::$insertід

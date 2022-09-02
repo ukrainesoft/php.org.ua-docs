@@ -46,11 +46,11 @@ date_format(DateTimeInterface $object, string $format): string
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.html)
+Тільки для процедурного стилю: об'єкт [DateTime](class.datetime.md), що повертається [datecreate()](function.date-create.md)
 
 `format`
 
-Шаблон результуючого рядка (string) з датою. Дивіться параметри форматування нижче. Також існує кілька [визначених констант дати/часу](class.datetimeinterface.html#datetime.constants.types), які можна використовувати замість цих параметрів. Наприклад: **`DATE_RSS`** замінює шаблон `'D, d M Y H:i:s'`
+Шаблон результуючого рядка (string) з датою. Дивіться параметри форматування нижче. Також існує кілька [визначених констант дати/часу](class.datetimeinterface.md#datetime.constants.types), які можна використовувати замість цих параметрів. Наприклад: **`DATE_RSS`** замінює шаблон `'D, d M Y H:i:s'`
 
 **У параметрі `format` розпізнаються такі символи**
 
@@ -109,7 +109,7 @@ date_format(DateTimeInterface $object, string $format): string
 
 > **Зауваження**
 > 
-> Оскільки функція, що розглядається, приймає як параметр тимчасові мітки типу int, форматуючий символ `u` буде корисним лише при використанні функції [dateformat()](function.date-format.html) та користувацьких міток часу, створених за допомогою функції [datecreate()](function.date-create.html)
+> Оскільки функція, що розглядається, приймає як параметр тимчасові мітки типу int, форматуючий символ `u` буде корисним лише при використанні функції [dateformat()](function.date-format.md) та користувацьких міток часу, створених за допомогою функції [datecreate()](function.date-create.md)
 
 ### Значення, що повертаються
 

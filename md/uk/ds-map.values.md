@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.union.html: '« DsMap::union'
-  - ds-map.xor.html: 'ДсMap::xor »'
+  - ds-map.union.md: '« DsMap::union'
+  - ds-map.xor.md: 'ДсMap::xor »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::values'
 ---
 # ДсMap::values

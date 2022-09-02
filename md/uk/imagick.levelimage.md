@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.labelimage.html: '« Imagick::labelImage'
-  - imagick.linearstretchimage.html: 'Imagick::linearStretchImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.labelimage.md: '« Imagick::labelImage'
+  - imagick.linearstretchimage.md: 'Imagick::linearStretchImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::levelImage'
 ---
 # Imagick::levelImage
@@ -36,7 +36,7 @@ public Imagick::levelImage(    float $blackPoint,    float $gamma,   
 
 `channel`
 
-Вкажіть будь-яку константу каналу, яка відповідає режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до цього списку [констант канала](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу каналу, яка відповідає режиму каналу. Щоб застосувати більше одного каналу, об'єднайте константи типу каналу за допомогою побітових операторів. Зверніться до цього списку [констант канала](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

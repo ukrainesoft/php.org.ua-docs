@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-control.enable.html: '« UIControl::enable'
-  - ui-control.gettoplevel.html: 'ОЙControl::getTopLevel »'
+  - ui-control.enable.md: '« UIControl::enable'
+  - ui-control.gettoplevel.md: 'ОЙControl::getTopLevel »'
   - index.md: PHP Manual
-  - class.ui-control.html: ОЙControl
+  - class.ui-control.md: ОЙControl
 title: 'ОЙControl::getParent'
 ---
 # ОЙControl::getParent

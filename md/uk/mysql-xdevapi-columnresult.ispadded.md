@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.isnumbersigned.html: '« ColumnResult::isNumberSigned'
-  - class.mysql-xdevapi-crudoperationbindable.html: mysqlxdevapiCrudOperationBindable »
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - mysql-xdevapi-columnresult.isnumbersigned.md: '« ColumnResult::isNumberSigned'
+  - class.mysql-xdevapi-crudoperationbindable.md: mysqlxdevapiCrudOperationBindable »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::isPadded'
 ---
 # ColumnResult::isPadded

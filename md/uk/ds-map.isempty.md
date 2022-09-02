@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.intersect.html: '« DsMap::intersect'
-  - ds-map.jsonserialize.html: 'ДсMap::jsonSerialize »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.intersect.md: '« DsMap::intersect'
+  - ds-map.jsonserialize.md: 'ДсMap::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::isEmpty'
 ---
 # ДсMap::isEmpty

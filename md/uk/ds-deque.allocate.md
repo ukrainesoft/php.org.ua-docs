@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-deque.html: « Двостороння черга
-  - ds-deque.apply.html: 'ДсDeque::apply »'
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: « Двостороння черга
+  - ds-deque.apply.md: 'ДсDeque::apply »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::allocate'
 ---
 # ДсDeque::allocate

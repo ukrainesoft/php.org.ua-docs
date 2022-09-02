@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apcu-exists.html: « apcuexists
-  - function.apcu-inc.html: apcuinc »
-  - index.html: PHP Manual
-  - ref.apcu.html: Функции APCu
+  - function.apcu-exists.md: « apcuexists
+  - function.apcu-inc.md: apcuinc »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
 title: apcufetch
 ---
 # apcufetch
@@ -24,7 +24,7 @@ apcu_fetch(mixed $key, bool &$success = ?): mixed
 
 `key`
 
-Ключ `key`, під яким запис було збережено в кеш (за допомогою [apcustore()](function.apcu-store.html)). Якщо заданий масив, то буде вилучено та повернено кожен елемент.
+Ключ `key`, під яким запис було збережено в кеш (за допомогою [apcustore()](function.apcu-store.md)). Якщо заданий масив, то буде вилучено та повернено кожен елемент.
 
 `success`
 
@@ -60,6 +60,6 @@ string(3) "BAR"
 
 ### Дивіться також
 
--   [apcustore()](function.apcu-store.html) - Кешує змінну
--   [apcudelete()](function.apcu-delete.html) - Видаляє збережене значення з кешу
--   [APCUIterator](class.apcuiterator.html)
+-   [apcustore()](function.apcu-store.md) - Кешує змінну
+-   [apcudelete()](function.apcu-delete.md) - Видаляє збережене значення з кешу
+-   [APCUIterator](class.apcuiterator.md)

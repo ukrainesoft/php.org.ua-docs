@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-table.html: « mysqlxdevapiTable
-  - mysql-xdevapi-table.count.html: 'Table::count »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: « mysqlxdevapiTable
+  - mysql-xdevapi-table.count.md: 'Table::count »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
 title: 'Table::construct'
 ---
 # Table::construct

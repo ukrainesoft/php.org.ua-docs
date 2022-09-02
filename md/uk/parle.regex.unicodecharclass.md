@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle.regex.charclass.html: « Класи символів
-  - parle.regex.alternation.html: Чередование и повторение »
-  - index.html: PHP Manual
-  - parle.pattern.matching.html: Сопоставление с шаблоном
+  - parle.regex.charclass.md: « Класи символів
+  - parle.regex.alternation.md: Чередование и повторение »
+  - index.md: PHP Manual
+  - parle.pattern.matching.md: Сопоставление с шаблоном
 title: Класи символів Unicode
 ---
 ## Класи символів Unicode

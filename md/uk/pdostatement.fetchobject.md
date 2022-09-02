@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdostatement.fetchcolumn.html: '« PDOStatement::fetchColumn'
-  - pdostatement.getattribute.html: 'PDOStatement::getAttribute »'
-  - index.html: PHP Manual
-  - class.pdostatement.html: PDOStatement
+  - pdostatement.fetchcolumn.md: '« PDOStatement::fetchColumn'
+  - pdostatement.getattribute.md: 'PDOStatement::getAttribute »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::fetchObject'
 ---
 # PDOStatement::fetchObject
@@ -18,7 +18,7 @@ PDOStatement::fetchObject — Витягує наступний рядок і п
 public PDOStatement::fetchObject(?string $class = "stdClass", array $constructorArgs = []): object|false
 ```
 
-Витягує наступний рядок і повертає його у вигляді об'єкта. Цей метод є альтернативою виклику [PDOStatement::fetch()](pdostatement.fetch.html) з параметром **`PDO::FETCH_CLASS`** або **`PDO::FETCH_OBJ`**
+Витягує наступний рядок і повертає його у вигляді об'єкта. Цей метод є альтернативою виклику [PDOStatement::fetch()](pdostatement.fetch.md) з параметром **`PDO::FETCH_CLASS`** або **`PDO::FETCH_OBJ`**
 
 Коли об'єкт вилучено, його властивості наповнюються значеннями відповідних стовпців, і після цього викликається його конструктор.
 
@@ -38,4 +38,4 @@ public PDOStatement::fetchObject(?string $class = "stdClass", array $constructor
 
 ### Дивіться також
 
--   [PDOStatement::fetch()](pdostatement.fetch.html) - Вилучення наступного рядка з результуючого набору
+-   [PDOStatement::fetch()](pdostatement.fetch.md) - Вилучення наступного рядка з результуючого набору

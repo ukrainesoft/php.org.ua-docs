@@ -1,6 +1,6 @@
 ---
 navigation:
-  - datetimeimmutable.set-state.html: '« DateTimeImmutable::setstate'
+  - datetimeimmutable.set-state.md: '« DateTimeImmutable::setstate'
   - datetimeimmutable.setisodate.md: 'DateTimeImmutable::setISODate »'
   - index.md: PHP Manual
   - class.datetimeimmutable.md: DateTimeImmutable

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.setbasepath.html: '« SeasLog::setBasePath'
-  - seaslog.setlogger.html: 'SeasLog::setLogger »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.setbasepath.md: '« SeasLog::setBasePath'
+  - seaslog.setlogger.md: 'SeasLog::setLogger »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::setDatetimeFormat'
 ---
 # SeasLog::setDatetimeFormat
@@ -28,7 +28,7 @@ public static SeasLog::setDatetimeFormat(string $format): bool
 
 `format`
 
-Рядок. Наприклад, "Y-m-d H:i:s" або "Ymd His". Дивіться перший параметр "формат" функції [date()](function.date.html)
+Рядок. Наприклад, "Y-m-d H:i:s" або "Ymd His". Дивіться перший параметр "формат" функції [date()](function.date.md)
 
 ### Значення, що повертаються
 
@@ -54,4 +54,4 @@ bool(true)
 
 ### Дивіться також
 
--   [SeasLog::getDateTimeFormat()](seaslog.getdatetimeformat.html) - Отримує стиль формату дати та часу SeasLog
+-   [SeasLog::getDateTimeFormat()](seaslog.getdatetimeformat.md) - Отримує стиль формату дати та часу SeasLog

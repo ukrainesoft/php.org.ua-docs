@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mcrypt-generic-init.html: « mcryptgenericinit
-  - function.mcrypt-get-block-size.html: mcryptgetblocksize »
-  - index.html: PHP Manual
-  - ref.mcrypt.html: Mcrypt
+  - function.mcrypt-generic-init.md: « mcryptgenericinit
+  - function.mcrypt-get-block-size.md: mcryptgetblocksize »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
 title: mcryptgeneric
 ---
 # mcryptgeneric
@@ -24,7 +24,7 @@ mcrypt_generic(resource $td, string $data): string
 
 Ця функція шифрує дані. Дані будуть доповнені символами`\0`" для того, щоб їх розмір став кратним розміру блоку. Ця функція повертає зашифровані дані. Зверніть увагу, що довжина рядка, що повертається, може бути більше вихідної через доповнення.
 
-Якщо ви хочете зберігати шифровані дані в базі даних, переконайтеся, що ви зберігаєте рядок повністю, як вона була повернута цією функцією, інакше ви потім не зможете її розшифрувати. Якщо ваш оригінальний рядок був 10 символів довжиною, а розмір блоку дорівнює 8 (використовуйте [mcryptencgetblocksize()](function.mcrypt-enc-get-block-size.html) для визначення розміру блоку) то розмір стовпця бази даних повинен бути як мінімум 16 символів. Зверніть увагу, що рядок повертається [mdecryptgeneric()](function.mdecrypt-generic.md) також буде розміром 16 символів. У такому разі просто використовуйте rtrim($str, "0") для видалення доданих символів.
+Якщо ви хочете зберігати шифровані дані в базі даних, переконайтеся, що ви зберігаєте рядок повністю, як вона була повернута цією функцією, інакше ви потім не зможете її розшифрувати. Якщо ваш оригінальний рядок був 10 символів довжиною, а розмір блоку дорівнює 8 (використовуйте [mcryptencgetblocksize()](function.mcrypt-enc-get-block-size.md) для визначення розміру блоку) то розмір стовпця бази даних повинен бути як мінімум 16 символів. Зверніть увагу, що рядок повертається [mdecryptgeneric()](function.mdecrypt-generic.md) також буде розміром 16 символів. У такому разі просто використовуйте rtrim($str, "0") для видалення доданих символів.
 
 Наприклад, якщо ви збережете дані в MySQL, пам'ятайте, що при вставці значень поля типу VARCHAR, у них автоматично відкидаються пробіли з кінця рядка. Якщо зашифровані дані закінчуються на пробіл (ASCII 32), вони будуть пошкоджені при такій вставці. Найкраще використовуйте для зберігання поля типу TINYBLOB/TINYTEX або більше.
 
@@ -34,7 +34,7 @@ mcrypt_generic(resource $td, string $data): string
 
 Дескриптор шифрування.
 
-Обробник шифрування завжди повинен ініціалізуватися за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.html) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.html). Дивіться приклад у описі функції [mcryptmoduleopen()](function.mcrypt-module-open.md)
+Обробник шифрування завжди повинен ініціалізуватися за допомогою [mcryptgenericinit()](function.mcrypt-generic-init.md) з ключем та ініціалізуючим вектором перед викликом функції. Як тільки шифрування завершено, необхідно звільнити буфери шифрування шляхом виклику функції [mcryptgenericdeinit()](function.mcrypt-generic-deinit.md). Дивіться приклад у описі функції [mcryptmoduleopen()](function.mcrypt-module-open.md)
 
 `data`
 

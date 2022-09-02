@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splpriorityqueue.getextractflags.html: '« SplPriorityQueue::getExtractFlags'
-  - splpriorityqueue.iscorrupted.html: 'SplPriorityQueue::isCorrupted »'
-  - index.html: PHP Manual
-  - class.splpriorityqueue.html: SplPriorityQueue
+  - splpriorityqueue.getextractflags.md: '« SplPriorityQueue::getExtractFlags'
+  - splpriorityqueue.iscorrupted.md: 'SplPriorityQueue::isCorrupted »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
 title: 'SplPriorityQueue::insert'
 ---
 # SplPriorityQueue::insert

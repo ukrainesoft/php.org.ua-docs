@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.getcalendarobject.html: '« IntlDateFormatter::getCalendarObject'
-  - intldateformatter.islenient.html: 'IntlDateFormatter::isLenient »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.getcalendarobject.md: '« IntlDateFormatter::getCalendarObject'
+  - intldateformatter.islenient.md: 'IntlDateFormatter::isLenient »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getTimeZone'
 ---
 # IntlDateFormatter::getTimeZone
@@ -28,7 +28,7 @@ public IntlDateFormatter::getTimeZone(): IntlTimeZone|false
 datefmt_get_timezone(IntlDateFormatter $formatter): IntlTimeZone|false
 ```
 
-Повертає об'єкт [IntlTimeZone](class.intltimezone.html), що представляє часовий пояс, який використовуватиметься цим об'єктом для форматування дати та часу. При форматуванні об'єктів [IntlCalendar](class.intlcalendar.html) і [DateTime](class.datetime.html) За допомогою цього [IntlDateFormatter](class.intldateformatter.md), використовуваний часовий пояс буде той, який повертається цим методом, а не той, який пов'язаний з об'єктами, що форматуються.
+Повертає об'єкт [IntlTimeZone](class.intltimezone.md), що представляє часовий пояс, який використовуватиметься цим об'єктом для форматування дати та часу. При форматуванні об'єктів [IntlCalendar](class.intlcalendar.md) і [DateTime](class.datetime.md) За допомогою цього [IntlDateFormatter](class.intldateformatter.md), використовуваний часовий пояс буде той, який повертається цим методом, а не той, який пов'язаний з об'єктами, що форматуються.
 
 ### Список параметрів
 

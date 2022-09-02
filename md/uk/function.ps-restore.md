@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-rect.html: «psrect
-  - function.ps-rotate.html: псrotate »
+  - function.ps-rect.md: «psrect
+  - function.ps-rotate.md: псrotate »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псrestore
@@ -18,7 +18,7 @@ title: псrestore
 ps_restore(resource $psdoc): bool
 ```
 
-Відновлює раніше збережений графічний контекст. Будь-який виклик [псsave()](function.ps-save.html) повинен супроводжуватись викликом **псrestore()**. Усі перетворення координат, налаштування стилю ліній, налаштування кольору тощо. відновлюються до стану до дзвінка [псsave()](function.ps-save.md)
+Відновлює раніше збережений графічний контекст. Будь-який виклик [псsave()](function.ps-save.md) повинен супроводжуватись викликом **псrestore()**. Усі перетворення координат, налаштування стилю ліній, налаштування кольору тощо. відновлюються до стану до дзвінка [псsave()](function.ps-save.md)
 
 ### Список параметрів
 

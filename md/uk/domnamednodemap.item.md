@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domnamednodemap.getnameditemns.html: '« DOMNamedNodeMap::getNamedItemNS'
-  - class.domnode.html: DOMNode »
-  - index.html: PHP Manual
-  - class.domnamednodemap.html: DOMNamedNodeMap
+  - domnamednodemap.getnameditemns.md: '« DOMNamedNodeMap::getNamedItemNS'
+  - class.domnode.md: DOMNode »
+  - index.md: PHP Manual
+  - class.domnamednodemap.md: DOMNamedNodeMap
 title: 'DOMNamedNodeMap::item'
 ---
 # DOMNamedNodeMap::item
@@ -18,7 +18,7 @@ DOMNamedNodeMap::item — Отримує вузол із заданим інде
 public DOMNamedNodeMap::item(int $index): ?DOMNode
 ```
 
-Витягує вузол із заданим індексом `index` з об'єкту класу [DOMNamedNodeMap](class.domnamednodemap.html)
+Витягує вузол із заданим індексом `index` з об'єкту класу [DOMNamedNodeMap](class.domnamednodemap.md)
 
 ### Список параметрів
 

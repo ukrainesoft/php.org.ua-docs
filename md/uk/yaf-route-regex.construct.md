@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-regex.assemble.html: '« YafRouteRegex::assemble'
-  - yaf-route-regex.route.html: 'YafRouteRegex::route »'
+  - yaf-route-regex.assemble.md: '« YafRouteRegex::assemble'
+  - yaf-route-regex.route.md: 'YafRouteRegex::route »'
   - index.md: PHP Manual
-  - class.yaf-route-regex.html: YafRouteRegex
+  - class.yaf-route-regex.md: YafRouteRegex
 title: 'YafRouteRegex::construct'
 ---
 # YafRouteRegex::construct

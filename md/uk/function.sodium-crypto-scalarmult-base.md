@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sodium-crypto-pwhash.html: « sodiumcryptopwhash
-  - function.sodium-crypto-scalarmult-ristretto255-base.html: sodiumcryptoscalarmultristretto255base »
-  - index.html: PHP Manual
-  - ref.sodium.html: Функции Sodium
+  - function.sodium-crypto-pwhash.md: « sodiumcryptopwhash
+  - function.sodium-crypto-scalarmult-ristretto255-base.md: sodiumcryptoscalarmultristretto255base »
+  - index.md: PHP Manual
+  - ref.sodium.md: Функции Sodium
 title: sodiumcryptoscalarmultbase
 ---
 # sodiumcryptoscalarmultbase

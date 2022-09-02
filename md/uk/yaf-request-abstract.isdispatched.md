@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.iscli.html: '« YafRequestAbstract::isCli'
-  - yaf-request-abstract.isget.html: 'YafRequestAbstract::isGet »'
+  - yaf-request-abstract.iscli.md: '« YafRequestAbstract::isCli'
+  - yaf-request-abstract.isget.md: 'YafRequestAbstract::isGet »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::isDispatched'
 ---
 # YafRequestAbstract::isDispatched

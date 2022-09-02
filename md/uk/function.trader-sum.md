@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-sub.html: « tradersub
-  - function.trader-t3.html: tradert3 »
+  - function.trader-sub.md: « tradersub
+  - function.trader-t3.md: tradert3 »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradersum

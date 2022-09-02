@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mongodb.bson-torelaxedextendedjson.html: « MongoDBBSONtoRelaxedExtendedJSON
-  - mongodb-bson-binary.construct.html: 'MongoDBBSONBinary::construct »'
+  - function.mongodb.bson-torelaxedextendedjson.md: « MongoDBBSONtoRelaxedExtendedJSON
+  - mongodb-bson-binary.construct.md: 'MongoDBBSONBinary::construct »'
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Клас MongoDBBSONBinary

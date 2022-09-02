@@ -1,9 +1,9 @@
 ---
 navigation:
-  - timezones.asia.html: « Азия
-  - timezones.australia.html: Австралія »
-  - index.html: PHP Manual
-  - timezones.html: Список підтримуваних часових поясів
+  - timezones.asia.md: « Азия
+  - timezones.australia.md: Австралія »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
 title: Атлантика
 ---
 ## Атлантика

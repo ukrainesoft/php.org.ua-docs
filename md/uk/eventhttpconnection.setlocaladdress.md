@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttpconnection.setclosecallback.html: '« EventHttpConnection::setCloseCallback'
-  - eventhttpconnection.setlocalport.html: 'EventHttpConnection::setLocalPort »'
-  - index.html: PHP Manual
-  - class.eventhttpconnection.html: EventHttpConnection
+  - eventhttpconnection.setclosecallback.md: '« EventHttpConnection::setCloseCallback'
+  - eventhttpconnection.setlocalport.md: 'EventHttpConnection::setLocalPort »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::setLocalAddress'
 ---
 # EventHttpConnection::setLocalAddress

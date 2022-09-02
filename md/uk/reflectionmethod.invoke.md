@@ -74,5 +74,5 @@ echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');
 ### Дивіться також
 
 -   [ReflectionMethod::invokeArgs()](reflectionmethod.invokeargs.md) - виклик методу з передачею аргументів масивом
--   [invoke()](language.oop5.magic.html#object.invoke)
+-   [invoke()](language.oop5.magic.md#object.invoke)
 -   [calluserfunc()](function.call-user-func.md) - Викликає callback-функцію, задану у першому параметрі

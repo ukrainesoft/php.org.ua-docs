@@ -18,7 +18,7 @@ ReflectionProperty::isPromoted — Перевіряє, чи визначено �
 public ReflectionProperty::isPromoted(): bool
 ```
 
-Перевіряє, [чи визначено властивість у конструкторі](language.oop5.decon.html#language.oop5.decon.constructor.promotion)
+Перевіряє, [чи визначено властивість у конструкторі](language.oop5.decon.md#language.oop5.decon.constructor.promotion)
 
 ### Список параметрів
 

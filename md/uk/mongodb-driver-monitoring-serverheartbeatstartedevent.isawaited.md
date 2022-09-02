@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatstartedevent.getport.html: '« MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort'
-  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.html: MongoDBDriverMonitoringServerHeartbeatSucceededEvent »
+  - mongodb-driver-monitoring-serverheartbeatstartedevent.getport.md: '« MongoDBDriverMonitoringServerHeartbeatStartedEvent::getPort'
+  - class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md: MongoDBDriverMonitoringServerHeartbeatSucceededEvent »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.html: MongoDBDriverMonitoringServerHeartbeatStartedEvent
+  - class.mongodb-driver-monitoring-serverheartbeatstartedevent.md: MongoDBDriverMonitoringServerHeartbeatStartedEvent
 title: 'MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited'
 ---
 # MongoDBDriverMonitoringServerHeartbeatStartedEvent::isAwaited

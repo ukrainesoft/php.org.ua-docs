@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-perfect-square.html: « gmpperfectsquare
-  - function.gmp-pow.html: gmppow »
+  - function.gmp-perfect-square.md: « gmpperfectsquare
+  - function.gmp-pow.md: gmppow »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmppopcount

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-bulkwrite.construct.html: '« MongoDBDriverBulkWrite::construct'
-  - mongodb-driver-bulkwrite.delete.html: 'MongoDBDriverBulkWrite::delete »'
+  - mongodb-driver-bulkwrite.construct.md: '« MongoDBDriverBulkWrite::construct'
+  - mongodb-driver-bulkwrite.delete.md: 'MongoDBDriverBulkWrite::delete »'
   - index.md: PHP Manual
-  - class.mongodb-driver-bulkwrite.html: MongoDBDriverBulkWrite
+  - class.mongodb-driver-bulkwrite.md: MongoDBDriverBulkWrite
 title: 'MongoDBDriverBulkWrite::count'
 ---
 # MongoDBDriverBulkWrite::count

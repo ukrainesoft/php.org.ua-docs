@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-create-iv.html: « mcryptcreateверб
-  - function.mcrypt-enc-get-algorithms-name.html: mcryptencgetalgorithmsname »
+  - function.mcrypt-create-iv.md: « mcryptcreateверб
+  - function.mcrypt-enc-get-algorithms-name.md: mcryptencgetalgorithmsname »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptdecrypt

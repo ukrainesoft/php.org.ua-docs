@@ -1,9 +1,9 @@
 ---
 navigation:
-  - stomp.subscribe.html: '« Stomp::subscribe'
-  - class.stompframe.html: StompFrame »
-  - index.html: PHP Manual
-  - class.stomp.html: Stomp
+  - stomp.subscribe.md: '« Stomp::subscribe'
+  - class.stompframe.md: StompFrame »
+  - index.md: PHP Manual
+  - class.stomp.md: Stomp
 title: 'Stomp::unsubscribe'
 ---
 # Stomp::unsubscribe

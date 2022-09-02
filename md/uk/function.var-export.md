@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.var-dump.html: « vardump
+  - function.var-dump.md: « vardump
   - refs.webservice.md: Веб-сервіси »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
@@ -121,7 +121,7 @@ A::__set_state(array(
 ))
 ```
 
-**Приклад #4 Використання [setstate()](language.oop5.magic.html#object.set-state)**
+**Приклад #4 Використання [setstate()](language.oop5.magic.md#object.set-state)**
 
 ```php
 <?php
@@ -178,7 +178,7 @@ object(A)#2 (2) {
 
 > **Зауваження**
 > 
-> Для того, щоб можна було використовувати згенерований **varexport()** PHP-код, необхідно, щоб усі порушені об'єкти реалізовували магічний метод [setstate](language.oop5.magic.html#object.set-state). Єдиний виняток **stdClass**, який експортується за допомогою масиву, приведеного до об'єкта.
+> Для того, щоб можна було використовувати згенерований **varexport()** PHP-код, необхідно, щоб усі порушені об'єкти реалізовували магічний метод [setstate](language.oop5.magic.md#object.set-state). Єдиний виняток **stdClass**, який експортується за допомогою масиву, приведеного до об'єкта.
 
 ### Дивіться також
 

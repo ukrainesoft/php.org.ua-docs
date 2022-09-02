@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domdocument.validate.html: '« DOMDocument::validate'
-  - class.domdocumentfragment.html: DOMDocumentFragment »
-  - index.html: PHP Manual
-  - class.domdocument.html: DOMDocument
+  - domdocument.validate.md: '« DOMDocument::validate'
+  - class.domdocumentfragment.md: DOMDocumentFragment »
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
 title: 'DOMDocument::xinclude'
 ---
 # DOMDocument::xinclude

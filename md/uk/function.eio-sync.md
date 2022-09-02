@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-sync-file-range.html: « eiosyncfilerange
-  - function.eio-syncfs.html: eiosyncfs »
+  - function.eio-sync-file-range.md: « eiosyncfilerange
+  - function.eio-syncfs.md: eiosyncfs »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiosync

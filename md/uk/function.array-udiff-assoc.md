@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-sum.html: « arraysum
-  - function.array-udiff-uassoc.html: arrayudiffuassoc »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-sum.md: « arraysum
+  - function.array-udiff-uassoc.md: arrayudiffuassoc »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayudiffassoc
 ---
 # arrayudiffassoc
@@ -42,7 +42,7 @@ callback(mixed $a, mixed $b): int
 
 ### Значення, що повертаються
 
-**arrayudiffassoc()** повертає масив (array), що містить усі елементи `array`, яких немає у якомусь із решти аргументів. Зверніть увагу, що на відміну від [arraydiff()](function.array-diff.html) і [arrayudiff()](function.array-udiff.html) у порівнянні використовуються ключі. Порівняння даних масиву здійснюється за допомогою callback-функції, наданої користувачем. У цьому сенсі поведінка цієї функції відрізняється від [arraydiffassoc()](function.array-diff-assoc.md), яка використовується вбудовану функцію для порівняння.
+**arrayudiffassoc()** повертає масив (array), що містить усі елементи `array`, яких немає у якомусь із решти аргументів. Зверніть увагу, що на відміну від [arraydiff()](function.array-diff.md) і [arrayudiff()](function.array-udiff.md) у порівнянні використовуються ключі. Порівняння даних масиву здійснюється за допомогою callback-функції, наданої користувачем. У цьому сенсі поведінка цієї функції відрізняється від [arraydiffassoc()](function.array-diff-assoc.md), яка використовується вбудовану функцію для порівняння.
 
 ### Приклади
 

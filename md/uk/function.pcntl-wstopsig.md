@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-wifstopped.html: pcntlwifstopped
-  - function.pcntl-wtermsig.html: pcntlwtermsig »
+  - function.pcntl-wifstopped.md: pcntlwifstopped
+  - function.pcntl-wtermsig.md: pcntlwtermsig »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlwstopsig

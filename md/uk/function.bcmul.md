@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.bcmod.html: « bcmod
-  - function.bcpow.html: bcpow »
-  - index.html: PHP Manual
-  - ref.bc.html: Функции BC Math
+  - function.bcmod.md: « bcmod
+  - function.bcpow.md: bcpow »
+  - index.md: PHP Manual
+  - ref.bc.md: Функции BC Math
 title: bcmul
 ---
 # bcmul
@@ -32,7 +32,7 @@ bcmul(string $num1, string $num2, ?int $scale = null): string
 
 `scale`
 
-Цей необов'язковий параметр використовується для встановлення кількості знаків після десяткового роздільника у результаті. Якщо не задано, то, за замовчуванням, буде використано значення, задане глобально за допомогою [bcscale()](function.bcscale.html), або `0`
+Цей необов'язковий параметр використовується для встановлення кількості знаків після десяткового роздільника у результаті. Якщо не задано, то, за замовчуванням, буде використано значення, задане глобально за допомогою [bcscale()](function.bcscale.md), або `0`
 
 ### Значення, що повертаються
 
@@ -72,4 +72,4 @@ echo bcmul('2', '4'); // 8
 
 ### Дивіться також
 
--   [bcdiv()](function.bcdiv.html) - Операція поділу для чисел довільної точності
+-   [bcdiv()](function.bcdiv.md) - Операція поділу для чисел довільної точності

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-num-rows.html: « sqlsrvnumrows
-  - function.sqlsrv-query.html: sqlsrvquery »
+  - function.sqlsrv-num-rows.md: « sqlsrvnumrows
+  - function.sqlsrv-query.md: sqlsrvquery »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvprepare

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.intersect.html: '« DsSet::intersect'
-  - ds-set.join.html: 'ДсSet::join »'
-  - index.html: PHP Manual
-  - class.ds-set.html: Набор
+  - ds-set.intersect.md: '« DsSet::intersect'
+  - ds-set.join.md: 'ДсSet::join »'
+  - index.md: PHP Manual
+  - class.ds-set.md: Набор
 title: 'ДсSet::isEmpty'
 ---
 # ДсSet::isEmpty

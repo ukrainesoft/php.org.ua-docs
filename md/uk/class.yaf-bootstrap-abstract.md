@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.setappdirectory.html: '« YafApplication::setAppDirectory'
-  - class.yaf-dispatcher.html: YafDispatcher »
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf-application.setappdirectory.md: '« YafApplication::setAppDirectory'
+  - class.yaf-dispatcher.md: YafDispatcher »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafBootstrapAbstract
 ---
 # Клас YafBootstrapAbstract
@@ -16,7 +16,7 @@ Bootstrap є механізмом, який використовується д�
 
 Користувач може визначити свій власний Bootstrap клас, успадкувавши **YafBootstrapAbstract**
 
-Будь-який метод, оголошений у класі Bootstrap, що починається на "init", буде викликаний [YafApplication::bootstrap()](yaf-application.bootstrap.html) один за одним відповідно до заданої послідовності.
+Будь-який метод, оголошений у класі Bootstrap, що починається на "init", буде викликаний [YafApplication::bootstrap()](yaf-application.bootstrap.md) один за одним відповідно до заданої послідовності.
 
 ## Приклади
 

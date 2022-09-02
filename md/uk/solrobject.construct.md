@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.solrobject.html: « SolrObject
-  - solrobject.destruct.html: 'SolrObject::destruct »'
-  - index.html: PHP Manual
-  - class.solrobject.html: SolrObject
+  - class.solrobject.md: « SolrObject
+  - solrobject.destruct.md: 'SolrObject::destruct »'
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
 title: 'SolrObject::construct'
 ---
 # SolrObject::construct

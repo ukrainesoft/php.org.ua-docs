@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.getshortname.html: '« ReflectionClass::getShortName'
-  - reflectionclass.getstaticproperties.html: 'ReflectionClass::getStaticProperties »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.getshortname.md: '« ReflectionClass::getShortName'
+  - reflectionclass.getstaticproperties.md: 'ReflectionClass::getStaticProperties »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getStartLine'
 ---
 # ReflectionClass::getStartLine

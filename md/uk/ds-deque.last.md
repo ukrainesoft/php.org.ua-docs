@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.jsonserialize.html: '« DsDeque::jsonSerialize'
-  - ds-deque.map.html: 'ДсDeque::map »'
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - ds-deque.jsonserialize.md: '« DsDeque::jsonSerialize'
+  - ds-deque.map.md: 'ДсDeque::map »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::last'
 ---
 # ДсDeque::last
@@ -30,7 +30,7 @@ public Ds\Deque::last(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо двостороння черга порожня.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо двостороння черга порожня.
 
 ### Приклади
 

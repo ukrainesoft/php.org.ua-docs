@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-fetch-overview.html: « imapfetchoverview
-  - function.imap-fetchheader.html: imapfetchheader »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-fetch-overview.md: « imapfetchoverview
+  - function.imap-fetchheader.md: imapfetchheader »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapfetchbody
 ---
 # imapfetchbody
@@ -24,7 +24,7 @@ imap_fetchbody(    IMAP\Connection $imap,    int $message_num,    st
 
 `imap`
 
-Екземпляр [IMAPConnection](class.imap-connection.html)
+Екземпляр [IMAPConnection](class.imap-connection.md)
 
 `message_num`
 
@@ -50,9 +50,9 @@ imap_fetchbody(    IMAP\Connection $imap,    int $message_num,    st
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 
--   [imapsavebody()](function.imap-savebody.html) - Зберегти частину тіла повідомлення у файл
--   [imapfetchstructure()](function.imap-fetchstructure.html) - Прочитати структуру вказаного повідомлення
+-   [imapsavebody()](function.imap-savebody.md) - Зберегти частину тіла повідомлення у файл
+-   [imapfetchstructure()](function.imap-fetchstructure.md) - Прочитати структуру вказаного повідомлення

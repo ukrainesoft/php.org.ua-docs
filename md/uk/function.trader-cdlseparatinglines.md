@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlrisefall3methods.html: « tradercdlrisefall3methods
-  - function.trader-cdlshootingstar.html: tradercdlshootingstar »
+  - function.trader-cdlrisefall3methods.md: « tradercdlrisefall3methods
+  - function.trader-cdlshootingstar.md: tradercdlshootingstar »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlseparatinglines

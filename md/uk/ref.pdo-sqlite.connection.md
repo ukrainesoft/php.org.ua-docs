@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-sqlite.html: « SQLite (PDO)
-  - pdo.sqlitecreateaggregate.html: 'PDO::sqliteCreateAggregate »'
-  - index.html: PHP Manual
-  - ref.pdo-sqlite.html: SQLite (PDO)
+  - ref.pdo-sqlite.md: « SQLite (PDO)
+  - pdo.sqlitecreateaggregate.md: 'PDO::sqliteCreateAggregate »'
+  - index.md: PHP Manual
+  - ref.pdo-sqlite.md: SQLite (PDO)
 title: PDOSQLITE DSN
 ---
 # PDOSQLITE DSN

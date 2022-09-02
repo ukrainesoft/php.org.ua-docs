@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.param-count.html: '« mysqlistmt::$paramcount'
-  - mysqli-stmt.reset.html: 'mysqlistmt::reset »'
+  - mysqli-stmt.param-count.md: '« mysqlistmt::$paramcount'
+  - mysqli-stmt.reset.md: 'mysqlistmt::reset »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::prepare'
 ---
 # mysqlistmt::prepare
@@ -47,7 +47,7 @@ mysqli_stmt_prepare(mysqli_stmt $statement, string $query): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 `query`
 

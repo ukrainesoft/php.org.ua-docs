@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-implement.html: « uopzimplement
-  - function.uopz-redefine.html: uopzredefine »
+  - function.uopz-implement.md: « uopzimplement
+  - function.uopz-redefine.md: uopzredefine »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzoverload

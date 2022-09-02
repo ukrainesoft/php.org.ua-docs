@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayobject.getiterator.html: '« ArrayObject::getIterator'
-  - arrayobject.ksort.html: 'ArrayObject::ksort »'
-  - index.html: PHP Manual
-  - class.arrayobject.html: ArrayObject
+  - arrayobject.getiterator.md: '« ArrayObject::getIterator'
+  - arrayobject.ksort.md: 'ArrayObject::ksort »'
+  - index.md: PHP Manual
+  - class.arrayobject.md: ArrayObject
 title: 'ArrayObject::getIteratorClass'
 ---
 # ArrayObject::getIteratorClass
@@ -18,7 +18,7 @@ ArrayObject::getIteratorClass — Отримує ім'я класу ітерат
 public ArrayObject::getIteratorClass(): string
 ```
 
-Отримує ім'я класу ітератора масиву, що використовується [ArrayObject::getIterator()](arrayobject.getiterator.html)
+Отримує ім'я класу ітератора масиву, що використовується [ArrayObject::getIterator()](arrayobject.getiterator.md)
 
 ### Список параметрів
 
@@ -66,4 +66,4 @@ string(15) "MyArrayIterator"
 
 ### Дивіться також
 
--   [ArrayObject::setIteratorClass](arrayobject.setiteratorclass.html)
+-   [ArrayObject::setIteratorClass](arrayobject.setiteratorclass.md)

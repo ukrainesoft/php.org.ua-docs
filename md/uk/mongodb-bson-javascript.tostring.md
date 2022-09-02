@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-javascript.serialize.html: '« MongoDBBSONJavascript::serialize'
-  - mongodb-bson-javascript.unserialize.html: 'MongoDBBSONJavascript::unserialize »'
+  - mongodb-bson-javascript.serialize.md: '« MongoDBBSONJavascript::serialize'
+  - mongodb-bson-javascript.unserialize.md: 'MongoDBBSONJavascript::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-javascript.html: MongoDBBSONJavascript
+  - class.mongodb-bson-javascript.md: MongoDBBSONJavascript
 title: 'MongoDBBSONJavascript::toString'
 ---
 # MongoDBBSONJavascript::toString

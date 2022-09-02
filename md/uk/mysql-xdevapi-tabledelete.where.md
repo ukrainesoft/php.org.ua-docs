@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tabledelete.orderby.html: '« TableDelete::orderby'
-  - class.mysql-xdevapi-tableinsert.html: mysqlxdevapiTableInsert »
+  - mysql-xdevapi-tabledelete.orderby.md: '« TableDelete::orderby'
+  - class.mysql-xdevapi-tableinsert.md: mysqlxdevapiTableInsert »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
 title: 'TableDelete::where'
 ---
 # TableDelete::where

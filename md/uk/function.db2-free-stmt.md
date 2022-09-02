@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-free-result.html: « db2freeresult
-  - function.db2-get-option.html: db2getoption »
+  - function.db2-free-result.md: « db2freeresult
+  - function.db2-get-option.md: db2getoption »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2freestmt
 ---
 # db2freestmt

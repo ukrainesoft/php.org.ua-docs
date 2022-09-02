@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-getgrnam.html: « posixgetgrnam
-  - function.posix-getlogin.html: posixgetlogin »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-getgrnam.md: « posixgetgrnam
+  - function.posix-getlogin.md: posixgetlogin »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixgetgroups
 ---
 # posixgetgroups

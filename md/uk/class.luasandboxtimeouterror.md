@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.luasandboxsyntaxerror.html: « LuaSandboxSyntaxError
-  - book.misc.html: Misc. »
-  - index.html: PHP Manual
-  - book.luasandbox.html: LuaSandbox
+  - class.luasandboxsyntaxerror.md: « LuaSandboxSyntaxError
+  - book.misc.md: Misc. »
+  - index.md: PHP Manual
+  - book.luasandbox.md: LuaSandbox
 title: Клас LuaSandboxTimeoutError
 ---
 # Клас LuaSandboxTimeoutError
@@ -78,4 +78,4 @@ private Exception::__clone(): void
 
 ## Дивіться також
 
--   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.html)
+-   [LuaSandbox::setCPULimit()](luasandbox.setcpulimit.md)

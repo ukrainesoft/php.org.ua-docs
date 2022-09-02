@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-get-static.html: « uopzgetstatic
-  - function.uopz-overload.html: uopzoverload »
+  - function.uopz-get-static.md: « uopzgetstatic
+  - function.uopz-overload.md: uopzoverload »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzimplement

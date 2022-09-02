@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.zmq.html: « Обмін повідомленнями 0MQ
-  - zmq.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.zmq.html: Обмін повідомленнями 0MQ
+  - book.zmq.md: « Обмін повідомленнями 0MQ
+  - zmq.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.zmq.md: Обмін повідомленнями 0MQ
 title: Вступ
 ---
 # Вступ

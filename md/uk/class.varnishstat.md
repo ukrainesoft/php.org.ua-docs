@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnishadmin.stop.html: '« VarnishAdmin::stop'
-  - varnishstat.construct.html: 'VarnishStat::construct »'
-  - index.html: PHP Manual
-  - book.varnish.html: Varnish
+  - varnishadmin.stop.md: '« VarnishAdmin::stop'
+  - varnishstat.construct.md: 'VarnishStat::construct »'
+  - index.md: PHP Manual
+  - book.varnish.md: Varnish
 title: Клас VarnishStat
 ---
 # Клас VarnishStat
@@ -35,5 +35,5 @@ public getSnapshot(): array
 
 ## Зміст
 
--   [VarnishStat::construct](varnishstat.construct.html) - Конструктор VarnishStat
--   [VarnishStat::getSnapshot](varnishstat.getsnapshot.html) — Отримати фотографію статистики поточного екземпляра varnish
+-   [VarnishStat::construct](varnishstat.construct.md) - Конструктор VarnishStat
+-   [VarnishStat::getSnapshot](varnishstat.getsnapshot.md) — Отримати фотографію статистики поточного екземпляра varnish

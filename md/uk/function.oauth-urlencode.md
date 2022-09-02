@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oauth-get-sbs.html: « oauthgetsbs
-  - class.oauth.html: OAuth »
-  - index.html: PHP Manual
-  - ref.oauth.html: Функции OAuth
+  - function.oauth-get-sbs.md: « oauthgetsbs
+  - class.oauth.md: OAuth »
+  - index.md: PHP Manual
+  - ref.oauth.md: Функции OAuth
 title: oauthurlencode
 ---
 # oauthurlencode

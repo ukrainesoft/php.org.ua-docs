@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xdiff-file-bpatch.html: xdifffilebpatch
-  - function.xdiff-file-diff.html: xdifffilediff »
+  - function.xdiff-file-bpatch.md: xdifffilebpatch
+  - function.xdiff-file-diff.md: xdifffilediff »
   - index.md: PHP Manual
   - ref.xdiff.md: Функції xdiff
 title: xdifffilediffbinary

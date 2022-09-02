@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-set-parameter.html: «pssetparameter
-  - function.ps-set-value.html: псsetvalue »
+  - function.ps-set-parameter.md: «pssetparameter
+  - function.ps-set-value.md: псsetvalue »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsettextpos
@@ -18,15 +18,15 @@ title: псsettextpos
 ps_set_text_pos(resource $psdoc, float $x, float $y): bool
 ```
 
-Встановлює позицію наступного виведення тексту. Можна встановити значення X та Y окремо, викликавши [псsetvalue()](function.ps-set-value.html) і вибравши `textx` або `texty` відповідно як ім'я значення.
+Встановлює позицію наступного виведення тексту. Можна встановити значення X та Y окремо, викликавши [псsetvalue()](function.ps-set-value.md) і вибравши `textx` або `texty` відповідно як ім'я значення.
 
-Для виведення тексту в певному місці зручніше використовувати [псshowxy()](function.ps-show-xy.html) замість встановлення позиції тексту та виклику [псshow()](function.ps-show.html)
+Для виведення тексту в певному місці зручніше використовувати [псshowxy()](function.ps-show-xy.md) замість встановлення позиції тексту та виклику [псshow()](function.ps-show.md)
 
 ### Список параметрів
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `x`
 
@@ -72,5 +72,5 @@ ps_delete($ps);
 
 ### Дивіться також
 
--   [псsetvalue()](function.ps-set-value.html) - Встановлює певні значення
--   [псshow()](function.ps-show.html) - Виводить текст
+-   [псsetvalue()](function.ps-set-value.md) - Встановлює певні значення
+-   [псshow()](function.ps-show.md) - Виводить текст

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mt-rand.html: « mtrand
+  - function.mt-rand.md: « mtrand
   - function.octdec.md: octdec »
   - index.md: PHP Manual
   - ref.math.md: Математичні функції
@@ -45,8 +45,8 @@ mt_srand(int $seed = 0, int $mode = MT_RAND_MT19937): void
 
 | Версия | Описание |
 | --- | --- |
-|  | [srand()](function.srand.md) [тепер є](migration71.incompatible.html#migration71.incompatible.rand-srand-aliases) псевдонімом для **мтsrand()** |
-|  | [мтrand()](function.mt-rand.md) [була змінена](migration71.incompatible.html#migration71.incompatible.fixes-to-mt_rand-algorithm) для використання фіксованої, коректної версії алгоритму Вихря Мерсенна. Для відкату до старої поведінки, використовуйте **мтsrand()** з другим параметром **`MT_RAND_PHP`** |
+|  | [srand()](function.srand.md) [тепер є](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) псевдонімом для **мтsrand()** |
+|  | [мтrand()](function.mt-rand.md) [була змінена](migration71.incompatible.md#migration71.incompatible.fixes-to-mt_rand-algorithm) для використання фіксованої, коректної версії алгоритму Вихря Мерсенна. Для відкату до старої поведінки, використовуйте **мтsrand()** з другим параметром **`MT_RAND_PHP`** |
 
 ### Приклади
 

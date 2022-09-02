@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidy.repairfile.html: '« tidy::repairFile'
-  - tidy.root.html: 'tidy::root »'
-  - index.html: PHP Manual
-  - class.tidy.html: tidy
+  - tidy.repairfile.md: '« tidy::repairFile'
+  - tidy.root.md: 'tidy::root »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
 title: 'tidy::repairString'
 ---
 # tidy::repairString
@@ -102,6 +102,6 @@ echo $clean;
 
 ### Дивіться також
 
--   [tidy::parseFile()](tidy.parsefile.html) - Розбір розмітки у файлі або URI
--   [tidy::parseString()](tidy.parsestring.html) - Розбір документа, що зберігається у рядку
--   [tidy::repairFile()](tidy.repairfile.html) - Відновлює розмітку файлу та повертає його у вигляді рядка
+-   [tidy::parseFile()](tidy.parsefile.md) - Розбір розмітки у файлі або URI
+-   [tidy::parseString()](tidy.parsestring.md) - Розбір документа, що зберігається у рядку
+-   [tidy::repairFile()](tidy.repairfile.md) - Відновлює розмітку файлу та повертає його у вигляді рядка

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.mysql-xdevapi.html: « Функції Mysqlxdevapi
-  - function.mysql-xdevapi-getsession.html: getSession »
-  - index.html: PHP Manual
-  - ref.mysql-xdevapi.html: Функції Mysqlxdevapi
+  - ref.mysql-xdevapi.md: « Функції Mysqlxdevapi
+  - function.mysql-xdevapi-getsession.md: getSession »
+  - index.md: PHP Manual
+  - ref.mysql-xdevapi.md: Функції Mysqlxdevapi
 title: expression
 ---
 # expression

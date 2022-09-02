@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.construct.html: '« DsStack::construct'
-  - ds-stack.count.html: 'ДсStack::count »'
+  - ds-stack.construct.md: '« DsStack::construct'
+  - ds-stack.count.md: 'ДсStack::count »'
   - index.md: PHP Manual
-  - class.ds-stack.html: Стек
+  - class.ds-stack.md: Стек
 title: 'ДсStack::copy'
 ---
 # ДсStack::copy

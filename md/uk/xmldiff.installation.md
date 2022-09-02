@@ -1,7 +1,7 @@
 ---
 navigation:
   - xmldiff.requirements.md: « Вимоги
-  - class.xmldiff-base.html: XMLDiffBase »
+  - class.xmldiff-base.md: XMLDiffBase »
   - index.md: PHP Manual
   - xmldiff.setup.md: Встановлення та налаштування
 title: Встановлення

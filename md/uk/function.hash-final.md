@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.hash-file.html: « hashfile
-  - function.hash-hkdf.html: hashhkdf »
+  - function.hash-file.md: « hashfile
+  - function.hash-hkdf.md: hashhkdf »
   - index.md: PHP Manual
   - ref.hash.md: Функции Hash
 title: hashfinal

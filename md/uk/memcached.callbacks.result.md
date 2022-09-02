@@ -1,7 +1,7 @@
 ---
 navigation:
   - memcached.callbacks.md: « Функції зворотного виклику
-  - memcached.callbacks.read-through.html: Функції зворотного виклику наскрізного читання кеша »
+  - memcached.callbacks.read-through.md: Функції зворотного виклику наскрізного читання кеша »
   - index.md: PHP Manual
   - memcached.callbacks.md: Опції зворотного дзвінка
 title: Функції зворотного дзвінка для результуючого набору

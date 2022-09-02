@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.com-event-sink.html: « comeventsink
-  - function.com-load-typelib.html: comloadtypelib »
-  - index.html: PHP Manual
-  - ref.com.html: Функции COM
+  - function.com-event-sink.md: « comeventsink
+  - function.com-load-typelib.md: comloadtypelib »
+  - index.md: PHP Manual
+  - ref.com.md: Функции COM
 title: comgetactiveobject
 ---
 # comgetactiveobject

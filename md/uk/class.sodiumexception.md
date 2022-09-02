@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.sodium-unpad.html: « sodiumunpad
+  - function.sodium-unpad.md: « sodiumunpad
   - refs.database.md: Модулі для роботи з базами даних
   - index.md: PHP Manual
   - book.sodium.md: Sodium

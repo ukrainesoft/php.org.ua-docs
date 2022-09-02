@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openal-buffer-data.html: « openalbufferdata
-  - function.openal-buffer-get.html: openalbufferget »
+  - function.openal-buffer-data.md: « openalbufferdata
+  - function.openal-buffer-get.md: openalbufferget »
   - index.md: PHP Manual
   - ref.openal.md: Функции OpenAL
 title: openalbufferdestroy

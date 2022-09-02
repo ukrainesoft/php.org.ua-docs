@@ -1,9 +1,9 @@
 ---
 navigation:
-  - context.ftp.html: « Параметри контексту FTP
-  - context.curl.html: Опции контекста CURL »
-  - index.html: PHP Manual
-  - context.html: Контекстні опції та параметри
+  - context.ftp.md: « Параметри контексту FTP
+  - context.curl.md: Опции контекста CURL »
+  - index.md: PHP Manual
+  - context.md: Контекстні опції та параметри
 title: Опції контексту SSL
 ---
 # Опції контексту SSL
@@ -34,7 +34,7 @@ title: Опції контексту SSL
 
 `allow_self_signed` bool
 
-Дозволити самопідписані сертифікати. Вимагає [`verify_peer`](context.ssl.html#context.ssl.verify-peer)
+Дозволити самопідписані сертифікати. Вимагає [`verify_peer`](context.ssl.md#context.ssl.verify-peer)
 
 За замовчуванням **`false`**
 
@@ -66,7 +66,7 @@ title: Опції контексту SSL
 
 `ciphers` string
 
-Встановлює перелік доступних алгоритмів шифрування. Формат цього рядка описаний у розділі [» шифри(1)](https://www.openssl.org/docs/manmaster/man1/ciphers.html#CIPHER-LIST-FORMAT)
+Встановлює перелік доступних алгоритмів шифрування. Формат цього рядка описаний у розділі [» шифри(1)](https://www.openssl.org/docs/manmaster/man1/ciphers.md#CIPHER-LIST-FORMAT)
 
 За замовчуванням набуває значення `DEFAULT`
 
@@ -96,7 +96,7 @@ title: Опції контексту SSL
 
 `security_level` int
 
-Встановлює рівень безпеки. Якщо не вказано, використовується стандартний рівень безпеки, вказаний у бібліотеці. Рівні безпеки описані в [» SSLCTXgetsecuritylevel(3)](https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_get_security_level.html)
+Встановлює рівень безпеки. Якщо не вказано, використовується стандартний рівень безпеки, вказаний у бібліотеці. Рівні безпеки описані в [» SSLCTXgetsecuritylevel(3)](https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_get_security_level.md)
 
 Доступна з PHP 7.2.0 та OpenSSL 1.1.0.
 
@@ -108,10 +108,10 @@ title: Опції контексту SSL
 
 ### Примітки
 
-> **Зауваження**: Так як `ssl://` - це нижчележачий транспортний протокол для обгорток [`https://`](wrappers.http.html) і [`ftps://`](wrappers.ftp.html), то будь-які опції контексту, які застосовуються до `ssl://` будуть також застосовуватися до `https://` і `ftps://`
+> **Зауваження**: Так як `ssl://` - це нижчележачий транспортний протокол для обгорток [`https://`](wrappers.http.md) і [`ftps://`](wrappers.ftp.md), то будь-які опції контексту, які застосовуються до `ssl://` будуть також застосовуватися до `https://` і `ftps://`
 
 > **Зауваження**: Щоб була доступна можливість вказати ім'я сервера (SNI, Server Name Indication), PHP має бути скомпільований з OpenSSL 0.9.8j або пізнішою. Використовуйте константу **`OPENSSL_TLSEXT_SERVER_NAME`** щоб визначити, чи підтримується SNI.
 
 ### Дивіться також
 
--   [Контекстні опції сокету](context.socket.html)
+-   [Контекстні опції сокету](context.socket.md)

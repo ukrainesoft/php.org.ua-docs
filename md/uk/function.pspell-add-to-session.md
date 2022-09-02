@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-add-to-personal.html: « pspelladdтоpersonal
-  - function.pspell-check.html: pspellcheck »
+  - function.pspell-add-to-personal.md: « pspelladdтоpersonal
+  - function.pspell-check.md: pspellcheck »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspelladdтоsession

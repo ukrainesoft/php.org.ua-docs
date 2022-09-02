@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.xml-set-unparsed-entity-decl-handler.html: « xmlsetunparsedentitydeclhandler
+  - function.xml-set-unparsed-entity-decl-handler.md: « xmlsetunparsedentitydeclhandler
   - book.xmlreader.md: XMLReader »
   - index.md: PHP Manual
   - book.xml.md: Разбор XML

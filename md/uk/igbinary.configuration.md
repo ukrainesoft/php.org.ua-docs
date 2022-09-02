@@ -1,9 +1,9 @@
 ---
 navigation:
-  - igbinary.installation.html: « Установка
-  - ref.igbinary.html: Функции Igbinary »
-  - index.html: PHP Manual
-  - igbinary.setup.html: Встановлення та налаштування
+  - igbinary.installation.md: « Установка
+  - ref.igbinary.md: Функции Igbinary »
+  - index.md: PHP Manual
+  - igbinary.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,13 +14,13 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [igbinary.compactstrings](igbinary.configuration.html#ini.igbinary.compact-strings) |  | PHPINIALL |  |
+| [igbinary.compactstrings](igbinary.configuration.md#ini.igbinary.compact-strings) |  | PHPINIALL |  |
 
 **Параметри конфігурації сесії, що впливають на поведінку Igbinary**
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [session.savehandler](igbinary.configuration.html#ini.igbinary.save-handler) | "files" | PHPINIALL |  |
+| [session.savehandler](igbinary.configuration.md#ini.igbinary.save-handler) | "files" | PHPINIALL |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

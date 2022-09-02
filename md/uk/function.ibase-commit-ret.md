@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-close.html: « ibaseclose
-  - function.ibase-commit.html: ibasecommit »
+  - function.ibase-close.md: « ibaseclose
+  - function.ibase-commit.md: ibasecommit »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasecommitret

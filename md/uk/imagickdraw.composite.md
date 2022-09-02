@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.comment.html: '« ImagickDraw::comment'
-  - imagickdraw.construct.html: 'ImagickDraw::construct »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.comment.md: '« ImagickDraw::comment'
+  - imagickdraw.construct.md: 'ImagickDraw::construct »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::composite'
 ---
 # ImagickDraw::composite
@@ -28,7 +28,7 @@ public ImagickDraw::composite(    int $compose,    float $x,    floa
 
 `compose`
 
-Оператор накладання. Одна з констант [Оператора накладання](imagick.constants.html#imagick.constants.compositeop) `imagick::COMPOSITE_*`
+Оператор накладання. Одна з констант [Оператора накладання](imagick.constants.md#imagick.constants.compositeop) `imagick::COMPOSITE_*`
 
 `x`
 
@@ -48,7 +48,7 @@ public ImagickDraw::composite(    int $compose,    float $x,    floa
 
 `compositeWand`
 
-Об'єкт [Imagick](class.imagick.html), З якого взято композиційне зображення.
+Об'єкт [Imagick](class.imagick.md), З якого взято композиційне зображення.
 
 ### Значення, що повертаються
 

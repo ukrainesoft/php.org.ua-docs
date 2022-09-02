@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-text-font.getdescent.html: '« UIDrawTextFont::getDescent'
-  - ui-draw-text-font.getunderlineposition.html: 'ОЙDrawTextFont::getUnderlinePosition »'
-  - index.html: PHP Manual
-  - class.ui-draw-text-font.html: ОЙDrawTextFont
+  - ui-draw-text-font.getdescent.md: '« UIDrawTextFont::getDescent'
+  - ui-draw-text-font.getunderlineposition.md: 'ОЙDrawTextFont::getUnderlinePosition »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font.md: ОЙDrawTextFont
 title: 'ОЙDrawTextFont::getLeading'
 ---
 # ОЙDrawTextFont::getLeading

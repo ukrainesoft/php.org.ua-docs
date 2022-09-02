@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.exif-tagname.html: « exiftagname
-  - function.read-exif-data.html: readexifdata »
-  - index.html: PHP Manual
-  - ref.exif.html: Exif Функції
+  - function.exif-tagname.md: « exiftagname
+  - function.read-exif-data.md: readexifdata »
+  - index.md: PHP Manual
+  - ref.exif.md: Exif Функції
 title: exifthumbnail
 ---
 # exifthumbnail

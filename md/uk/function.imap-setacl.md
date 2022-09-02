@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-set-quota.html: « imapsetquota
-  - function.imap-setflag-full.html: imapsetflagfull »
+  - function.imap-set-quota.md: « imapsetquota
+  - function.imap-setflag-full.md: imapsetflagfull »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapsetacl
@@ -32,7 +32,7 @@ imap_setacl(    IMAP\Connection $imap,    string $mailbox,    string
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `user_id`
 

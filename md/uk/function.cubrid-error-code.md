@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-error-code-facility.html: « cubriderrorcodefacility
-  - function.cubrid-error-msg.html: cubriderrormsg »
+  - function.cubrid-error-code-facility.md: « cubriderrorcodefacility
+  - function.cubrid-error-msg.md: cubriderrormsg »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubriderrorcode

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-module-name.html: « sessionmodulename
-  - function.session-regenerate-id.html: sessionregenerateid »
+  - function.session-module-name.md: « sessionmodulename
+  - function.session-regenerate-id.md: sessionregenerateid »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessionname
@@ -62,4 +62,4 @@ echo "Предыдущее имя сессии: $previous_name<br />";
 
 ### Дивіться також
 
--   Параметр конфігурації [session.name](session.configuration.html#ini.session.name)
+-   Параметр конфігурації [session.name](session.configuration.md#ini.session.name)

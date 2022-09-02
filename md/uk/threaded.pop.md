@@ -1,9 +1,9 @@
 ---
 navigation:
-  - threaded.notifyone.html: '« Threaded::notifyOne'
-  - threaded.run.html: 'Threaded::run »'
-  - index.html: PHP Manual
-  - class.threaded.html: Threaded
+  - threaded.notifyone.md: '« Threaded::notifyOne'
+  - threaded.run.md: 'Threaded::run »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
 title: 'Threaded::pop'
 ---
 # Threaded::pop

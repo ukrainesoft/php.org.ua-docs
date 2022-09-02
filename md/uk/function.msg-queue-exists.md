@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.msg-get-queue.html: « msggetqueue
-  - function.msg-receive.html: msgreceive »
-  - index.html: PHP Manual
-  - ref.sem.html: Функції семафорів
+  - function.msg-get-queue.md: « msggetqueue
+  - function.msg-receive.md: msgreceive »
+  - index.md: PHP Manual
+  - ref.sem.md: Функції семафорів
 title: msgqueueexists
 ---
 # msgqueueexists
@@ -32,6 +32,6 @@ msg_queue_exists(int $key): bool
 
 ### Дивіться також
 
--   [msgremovequeue()](function.msg-remove-queue.html) - Видалення черги повідомлень
--   [msgreceive()](function.msg-receive.html) - Отримання повідомлення з черги повідомлень
--   [msgstatqueue()](function.msg-stat-queue.html) - Отримання інформації із структури даних черги повідомлень
+-   [msgremovequeue()](function.msg-remove-queue.md) - Видалення черги повідомлень
+-   [msgreceive()](function.msg-receive.md) - Отримання повідомлення з черги повідомлень
+-   [msgstatqueue()](function.msg-stat-queue.md) - Отримання інформації із структури даних черги повідомлень

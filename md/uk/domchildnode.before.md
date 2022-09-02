@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domchildnode.after.html: '« DOMChildNode::after'
-  - domchildnode.remove.html: 'DOMChildNode::remove »'
-  - index.html: PHP Manual
-  - class.domchildnode.html: DOMChildNode
+  - domchildnode.after.md: '« DOMChildNode::after'
+  - domchildnode.remove.md: 'DOMChildNode::remove »'
+  - index.md: PHP Manual
+  - class.domchildnode.md: DOMChildNode
 title: 'DOMChildNode::before'
 ---
 # DOMChildNode::before
@@ -32,6 +32,6 @@ public DOMChildNode::before(DOMNode|string ...$nodes): void
 
 ### Дивіться також
 
--   [DOMChildNode::after()](domchildnode.after.html) - Додає вузли після вузла
--   [DOMChildNode::remove()](domchildnode.remove.html) - видаляє вузол
--   [DOMChildNode::replaceWith()](domchildnode.replacewith.html) - Замінює вузол новими вузлами
+-   [DOMChildNode::after()](domchildnode.after.md) - Додає вузли після вузла
+-   [DOMChildNode::remove()](domchildnode.remove.md) - видаляє вузол
+-   [DOMChildNode::replaceWith()](domchildnode.replacewith.md) - Замінює вузол новими вузлами

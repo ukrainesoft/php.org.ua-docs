@@ -32,7 +32,7 @@ public
 
 `methods`
 
-Бітова маска констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.html#eventhttprequest.constants)
+Бітова маска констант [`EventHttpRequest::CMD_*`](class.eventhttprequest.md#eventhttprequest.constants)
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-error.html: « mysqlerror
-  - function.mysql-fetch-array.html: mysqlfetcharray »
+  - function.mysql-error.md: « mysqlerror
+  - function.mysql-fetch-array.md: mysqlfetcharray »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlescapestring
@@ -27,7 +27,7 @@ mysql_escape_string(string $unescaped_string): string
 
 Функція екранує `unescaped_string` таким чином, після чого її можна безпечно використовувати в [mysqlquery()](function.mysql-query.md). Ця функція застаріла.
 
-Функція ідентична [mysqlrealescapestring()](function.mysql-real-escape-string.html), виключаючи той факт, що [mysqlrealescapestring()](function.mysql-real-escape-string.md) приймає параметром ще й ідентифікатор з'єднання та екранує рядок з урахуванням поточного кодування . **mysqlescapestring()** не робить цього і результат роботи не залежить від кодування, в якому ви працюєте з БД.
+Функція ідентична [mysqlrealescapestring()](function.mysql-real-escape-string.md), виключаючи той факт, що [mysqlrealescapestring()](function.mysql-real-escape-string.md) приймає параметром ще й ідентифікатор з'єднання та екранує рядок з урахуванням поточного кодування . **mysqlescapestring()** не робить цього і результат роботи не залежить від кодування, в якому ви працюєте з БД.
 
 ### Список параметрів
 
@@ -67,4 +67,4 @@ Escaped string: Zak\'s Laptop
 
 -   [mysqlrealescapestring()](function.mysql-real-escape-string.md) - Екранує спеціальні символи у рядках для використання у виразах SQL
 -   [addslashes()](function.addslashes.md) - Екранує рядок за допомогою слішів
--   Директиву [magicquotesgpc](info.configuration.html#ini.magic-quotes-gpc)
+-   Директиву [magicquotesgpc](info.configuration.md#ini.magic-quotes-gpc)

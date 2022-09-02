@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixel.setcolorcount.html: '« ImagickPixel::setColorCount'
-  - imagickpixel.setcolorvaluequantum.html: 'ImagickPixel::setColorValueQuantum »'
-  - index.html: PHP Manual
-  - class.imagickpixel.html: ImagickPixel
+  - imagickpixel.setcolorcount.md: '« ImagickPixel::setColorCount'
+  - imagickpixel.setcolorvaluequantum.md: 'ImagickPixel::setColorValueQuantum »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::setColorValue'
 ---
 # ImagickPixel::setColorValue

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-msgno.html: « imapmsgno
-  - function.imap-num-msg.html: imapnummsg »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-msgno.md: « imapmsgno
+  - function.imap-num-msg.md: imapnummsg »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapmutf7тоutf8
 ---
 # imapmutf7тоutf8

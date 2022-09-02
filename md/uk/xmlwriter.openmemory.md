@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.fullendelement.html: '« XMLWriter::fullEndElement'
-  - xmlwriter.openuri.html: 'XMLWriter::openUri »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.fullendelement.md: '« XMLWriter::fullEndElement'
+  - xmlwriter.openuri.md: 'XMLWriter::openUri »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::openMemory'
 ---
 # XMLWriter::openMemory
@@ -42,7 +42,7 @@ xmlwriter_open_memory(): XMLWriter|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.html) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.md) |
+|  | Функція тепер повертає екземпляр [XMLWriter](class.xmlwriter.md) у разі успішного виконання. Раніше в цьому випадку повертався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

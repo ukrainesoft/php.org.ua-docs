@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionmethod.isdestructor.html: '« ReflectionMethod::isDestructor'
-  - reflectionmethod.isprivate.html: 'ReflectionMethod::isPrivate »'
-  - index.html: PHP Manual
-  - class.reflectionmethod.html: ReflectionMethod
+  - reflectionmethod.isdestructor.md: '« ReflectionMethod::isDestructor'
+  - reflectionmethod.isprivate.md: 'ReflectionMethod::isPrivate »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::isFinal'
 ---
 # ReflectionMethod::isFinal
@@ -30,4 +30,4 @@ public ReflectionMethod::isFinal(): bool
 
 ### Дивіться також
 
--   [ReflectionMethod::isStatic()](reflectionmethod.isstatic.html) - Перевіряє, чи є метод статичним
+-   [ReflectionMethod::isStatic()](reflectionmethod.isstatic.md) - Перевіряє, чи є метод статичним

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimagebordercolor.html: '« Gmagick::getimagebordercolor'
-  - gmagick.getimagecolors.html: 'Gmagick::getimagecolors »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimagebordercolor.md: '« Gmagick::getimagebordercolor'
+  - gmagick.getimagecolors.md: 'Gmagick::getimagecolors »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimagechanneldepth'
 ---
 # Gmagick::getimagechanneldepth

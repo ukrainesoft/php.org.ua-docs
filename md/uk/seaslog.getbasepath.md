@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.flushbuffer.html: '« SeasLog::flushBuffer'
-  - seaslog.getbuffer.html: 'SeasLog::getBuffer »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.flushbuffer.md: '« SeasLog::flushBuffer'
+  - seaslog.getbuffer.md: 'SeasLog::getBuffer »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::getBasePath'
 ---
 # SeasLog::getBasePath
@@ -18,7 +18,7 @@ SeasLog::getBasePath — Отримує базовий шлях SeasLog
 public static Seaslog::getBasePath(): string
 ```
 
-Використовуйте функцію **SeasLog::getBasePath()**, щоб отримати значення [seaslog.defaultbasepath](seaslog.configuration.html#ini.seaslog.default-basepath), яка налаштована в php.ini (seaslog.ini).
+Використовуйте функцію **SeasLog::getBasePath()**, щоб отримати значення [seaslog.defaultbasepath](seaslog.configuration.md#ini.seaslog.default-basepath), яка налаштована в php.ini (seaslog.ini).
 
 Якщо ви використовуєте [Seaslog::setBasePath()](seaslog.setbasepath.md)результат зміниться.
 
@@ -28,7 +28,7 @@ public static Seaslog::getBasePath(): string
 
 ### Значення, що повертаються
 
-Повертає значення [seaslog.defaultbasepath](seaslog.configuration.html#ini.seaslog.default-basepath) у вигляді рядка.
+Повертає значення [seaslog.defaultbasepath](seaslog.configuration.md#ini.seaslog.default-basepath) у вигляді рядка.
 
 ### Приклади
 

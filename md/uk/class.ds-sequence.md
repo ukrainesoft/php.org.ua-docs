@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ds-hashable.hash.html: '« DsHashable::hash'
-  - ds-sequence.allocate.html: 'ДсSequence::allocate »'
+  - ds-hashable.hash.md: '« DsHashable::hash'
+  - ds-sequence.allocate.md: 'ДсSequence::allocate »'
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Інтерфейс Sequence

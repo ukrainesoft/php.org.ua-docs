@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.connection-aborted.html: « connectionaborted
+  - function.connection-aborted.md: « connectionaborted
   - function.constant.md: constant »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції

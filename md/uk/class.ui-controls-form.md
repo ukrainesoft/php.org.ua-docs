@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-picker.construct.html: '« UIControlsPicker::construct'
-  - ui-controls-form.append.html: 'ОЙControlsForm::append »'
+  - ui-controls-picker.construct.md: '« UIControlsPicker::construct'
+  - ui-controls-form.append.md: 'ОЙControlsForm::append »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління "Форма" (розташування)

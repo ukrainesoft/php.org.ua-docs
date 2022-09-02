@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.addfromstring.html: '« ZipArchive::addFromString'
-  - ziparchive.addpattern.html: 'ZipArchive::addPattern »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.addfromstring.md: '« ZipArchive::addFromString'
+  - ziparchive.addpattern.md: 'ZipArchive::addPattern »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::addGlob'
 ---
 # ZipArchive::addGlob
@@ -26,7 +26,7 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
 
 `pattern`
 
-Шаблон функції [glob()](function.glob.html), за яким вибиратимуться файли.
+Шаблон функції [glob()](function.glob.md), за яким вибиратимуться файли.
 
 `flags`
 
@@ -50,11 +50,11 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
     
 -   `"flags"`
     
-    Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.html)
+    Бітова маска, що складається з **`ZipArchive::FL_OVERWRITE`** **`ZipArchive::FL_ENC_GUESS`** **`ZipArchive::FL_ENC_UTF_8`** **`ZipArchive::FL_ENC_CP437`**. Поведінка констант описана на сторінці [ZIP-константи](zip.constants.md)
     
 -   `"comp_method"`
     
-    Метод стиснення, одна з констант **`ZipArchive::CM_*`**, дивіться сторінку [константи ZIP](zip.constants.html)
+    Метод стиснення, одна з констант **`ZipArchive::CM_*`**, дивіться сторінку [константи ZIP](zip.constants.md)
     
 -   `"comp_flags"`
     
@@ -62,7 +62,7 @@ public ZipArchive::addGlob(string $pattern, int $flags = 0, array $options = [])
     
 -   `"enc_method"`
     
-    Метод шифрування, одна з констант **`ZipArchive::EM_*`**, дивіться сторінку [константи ZIP](zip.constants.html)
+    Метод шифрування, одна з констант **`ZipArchive::EM_*`**, дивіться сторінку [константи ZIP](zip.constants.md)
     
 -   `"enc_password"`
     
@@ -102,5 +102,5 @@ if ($ret !== TRUE) {
 
 ### Дивіться також
 
--   [ZipArchive::addFile()](ziparchive.addfile.html) - Додає до ZIP-архіву файл по зазначеному шляху
--   [ZipArchive::addPattern()](ziparchive.addpattern.html) - Додати файли з директорії відповідно до шаблону регулярного вираження PCRE
+-   [ZipArchive::addFile()](ziparchive.addfile.md) - Додає до ZIP-архіву файл по зазначеному шляху
+-   [ZipArchive::addPattern()](ziparchive.addpattern.md) - Додати файли з директорії відповідно до шаблону регулярного вираження PCRE

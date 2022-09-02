@@ -1,7 +1,7 @@
 ---
 navigation:
   - mongodb.security.script_injection.md: « Атака за допомогою ін'єкцій у скриптах
-  - class.mongodb-driver-manager.html: MongoDBDriverManager »
+  - class.mongodb-driver-manager.md: MongoDBDriverManager »
   - index.md: PHP Manual
   - set.mongodb.md: MongoDB
 title: Класи драйвера MongoDB

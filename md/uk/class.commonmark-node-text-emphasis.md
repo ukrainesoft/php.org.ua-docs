@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-text-strong.html: « CommonMarkNodeTextStrong
-  - class.commonmark-node-thematicbreak.html: CommonMarkNodeThematicBreak »
-  - index.html: PHP Manual
-  - book.cmark.html: CommonMark
+  - class.commonmark-node-text-strong.md: « CommonMarkNodeTextStrong
+  - class.commonmark-node-thematicbreak.md: CommonMarkNodeThematicBreak »
+  - index.md: PHP Manual
+  - book.cmark.md: CommonMark
 title: Emphasis успадковує CommonMarkNode
 ---
 # Emphasis успадковує CommonMarkNode

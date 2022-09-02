@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gnupg-geterror.html: « gnupggeterror
-  - function.gnupg-getprotocol.html: gnupggetprotocol »
-  - index.html: PHP Manual
-  - ref.gnupg.html: GnuPG Функції
+  - function.gnupg-geterror.md: « gnupggeterror
+  - function.gnupg-getprotocol.md: gnupggetprotocol »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
 title: gnupggeterrorinfo
 ---
 # gnupggeterrorinfo

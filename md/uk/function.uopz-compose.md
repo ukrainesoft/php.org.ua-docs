@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-backup.html: « uopzbackup
-  - function.uopz-copy.html: uopzcopy »
+  - function.uopz-backup.md: « uopzbackup
+  - function.uopz-copy.md: uopzcopy »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzcompose

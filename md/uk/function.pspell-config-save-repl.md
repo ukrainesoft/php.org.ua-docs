@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-config-runtogether.html: « pspellconfigruntogether
-  - function.pspell-new-config.html: pspellnewconfig »
+  - function.pspell-config-runtogether.md: « pspellconfigruntogether
+  - function.pspell-new-config.md: pspellnewconfig »
   - index.md: PHP Manual
   - ref.pspell.md: Функции Pspell
 title: pspellconfigsaverepl
@@ -18,7 +18,7 @@ pspellconfigsaverepl — Визначає, чи зберігати список 
 pspell_config_save_repl(PSpell\Config $config, bool $save): bool
 ```
 
-**pspellconfigsaverepl()** визначає, чи буде [pspellsavewordlist()](function.pspell-save-wordlist.html) зберігати пари разом зі списком слів. Зазвичай немає необхідності використовувати цю функцію, оскільки, якщо використовується [pspellconfigrepl()](function.pspell-config-repl.html), заміщуючі пари будуть збережені [pspellsavewordlist()](function.pspell-save-wordlist.md) у будь-якому випадку, і, якщо вона не використовується, заміщувальні пари не зберігатимуться.
+**pspellconfigsaverepl()** визначає, чи буде [pspellsavewordlist()](function.pspell-save-wordlist.md) зберігати пари разом зі списком слів. Зазвичай немає необхідності використовувати цю функцію, оскільки, якщо використовується [pspellconfigrepl()](function.pspell-config-repl.md), заміщуючі пари будуть збережені [pspellsavewordlist()](function.pspell-save-wordlist.md) у будь-якому випадку, і, якщо вона не використовується, заміщувальні пари не зберігатимуться.
 
 **pspellconfigsaverepl()** має бути використана для конфігурації перед викликом [pspellnewconfig()](function.pspell-new-config.md)
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.rrd-fetch.html: « rrdfetch
-  - function.rrd-graph.html: rrdgraph »
-  - index.html: PHP Manual
-  - ref.rrd.html: Функції RRD
+  - function.rrd-fetch.md: « rrdfetch
+  - function.rrd-graph.md: rrdgraph »
+  - index.md: PHP Manual
+  - ref.rrd.md: Функції RRD
 title: rrdfirst
 ---
 # rrdfirst

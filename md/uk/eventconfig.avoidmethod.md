@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.eventconfig.html: « EventConfig
-  - eventconfig.construct.html: 'EventConfig::construct »'
-  - index.html: PHP Manual
-  - class.eventconfig.html: EventConfig
+  - class.eventconfig.md: « EventConfig
+  - eventconfig.construct.md: 'EventConfig::construct »'
+  - index.md: PHP Manual
+  - class.eventconfig.md: EventConfig
 title: 'EventConfig::avoidMethod'
 ---
 # EventConfig::avoidMethod
@@ -22,13 +22,13 @@ public
    ): bool
 ```
 
-Попросити libevent не використовувати певний метод події (бекенд). Дивіться [» Створення бази події](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.html#_creating_an_event_base)
+Попросити libevent не використовувати певний метод події (бекенд). Дивіться [» Створення бази події](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.md#_creating_an_event_base)
 
 ### Список параметрів
 
 `method`
 
-Метод бекенда, який потрібно ігнорувати. Дивіться [константи EventConfig](class.eventconfig.html#eventconfig.constants)
+Метод бекенда, який потрібно ігнорувати. Дивіться [константи EventConfig](class.eventconfig.md#eventconfig.constants)
 
 ### Значення, що повертаються
 
@@ -49,4 +49,4 @@ if ($cfg->avoidMethod("select")) {
 
 ### Дивіться також
 
--   [EventBase::construct()](eventbase.construct.html) - Конструктор об'єкту EventBase
+-   [EventBase::construct()](eventbase.construct.md) - Конструктор об'єкту EventBase

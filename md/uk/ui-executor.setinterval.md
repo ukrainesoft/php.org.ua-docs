@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-executor.onexecute.html: '« UIExecutor::onExecute'
-  - class.ui-controls-tab.html: ОЙControlsTab »
-  - index.html: PHP Manual
-  - class.ui-executor.html: ОЙExecutor
+  - ui-executor.onexecute.md: '« UIExecutor::onExecute'
+  - class.ui-controls-tab.md: ОЙControlsTab »
+  - index.md: PHP Manual
+  - class.ui-executor.md: ОЙExecutor
 title: 'ОЙExecutor::setInterval'
 ---
 # ОЙExecutor::setInterval

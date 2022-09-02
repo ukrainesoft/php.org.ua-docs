@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-unbuffered-query.html: « cubridunbufferedquery
-  - function.cubrid-load-from-glo.html: cubridloadfromglo »
+  - function.cubrid-unbuffered-query.md: « cubridunbufferedquery
+  - function.cubrid-load-from-glo.md: cubridloadfromglo »
   - index.md: PHP Manual
   - book.cubrid.md: CUBRID
 title: Застарілі псевдоніми та функції CUBRID

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-serverexception.html: « MongoDBDriverExceptionServerException
-  - class.mongodb-driver-exception-unexpectedvalueexception.html: MongoDBDriverExceptionUnexpectedValueException »
+  - class.mongodb-driver-exception-serverexception.md: « MongoDBDriverExceptionServerException
+  - class.mongodb-driver-exception-unexpectedvalueexception.md: MongoDBDriverExceptionUnexpectedValueException »
   - index.md: PHP Manual
   - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionSSLConnectionException (застарілий)

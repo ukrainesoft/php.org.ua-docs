@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-rprop-delta-max.html: « fanngetrpropdeltamax
-  - function.fann-get-rprop-delta-zero.html: fanngetrpropdeltazero »
+  - function.fann-get-rprop-delta-max.md: « fanngetrpropdeltamax
+  - function.fann-get-rprop-delta-zero.md: fanngetrpropdeltazero »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetrpropdeltamin

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-spki-export-challenge.html: « opensslspkiexportchallenge
-  - function.openssl-spki-new.html: opensslspkinew »
+  - function.openssl-spki-export-challenge.md: « opensslspkiexportchallenge
+  - function.openssl-spki-new.md: opensslspkinew »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslspkiexport
@@ -70,9 +70,9 @@ if ($spkac != NULL) {
 
 ### Дивіться також
 
--   [opensslspkinew()](function.openssl-spki-new.html) - Створення нового підписаного відкритого ключа із викликом
--   [opensslspkiverify()](function.openssl-spki-verify.html) - Перевіряє підписаний відкритий ключ та виклик
--   [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.html) - Експорт виклику, пов'язаного з підписаним ключем та викликом
--   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
--   [opensslcsrnew()](function.openssl-csr-new.html) - Генерує CSR
--   [opensslcsrsign()](function.openssl-csr-sign.html) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [opensslspkinew()](function.openssl-spki-new.md) - Створення нового підписаного відкритого ключа із викликом
+-   [opensslspkiverify()](function.openssl-spki-verify.md) - Перевіряє підписаний відкритий ключ та виклик
+-   [opensslspkiexportchallenge()](function.openssl-spki-export-challenge.md) - Експорт виклику, пов'язаного з підписаним ключем та викликом
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.md) - Отримати список доступних методів хешування
+-   [opensslcsrnew()](function.openssl-csr-new.md) - Генерує CSR
+-   [opensslcsrsign()](function.openssl-csr-sign.md) - Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат

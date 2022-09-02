@@ -12,13 +12,13 @@ title: Вступ
 
 Кожному відвідувачу сайту надається унікальний ідентифікатор, який називається ідентифікатором сесії (session id). Він зберігається або в cookie на стороні користувача, або передається через URL-адресу.
 
-Підтримка сесій дозволяє зберігати дані між запитами у суперглобальному масиві. [SESSION](reserved.variables.session.md). У той момент, коли відвідувач отримує доступ до сайту, PHP перевіряє автоматично (якщо [session.autostart](session.configuration.html#ini.session.auto-start) встановлено в 1) або на запит (явним чином через виклик [sessionstart()](function.session-start.md)), чи був певний ідентифікатор сесії надісланий разом із запитом. Якщо так, відновлюється збережене раніше оточення.
+Підтримка сесій дозволяє зберігати дані між запитами у суперглобальному масиві. [SESSION](reserved.variables.session.md). У той момент, коли відвідувач отримує доступ до сайту, PHP перевіряє автоматично (якщо [session.autostart](session.configuration.md#ini.session.auto-start) встановлено в 1) або на запит (явним чином через виклик [sessionstart()](function.session-start.md)), чи був певний ідентифікатор сесії надісланий разом із запитом. Якщо так, відновлюється збережене раніше оточення.
 
 **Застереження**
 
-При включеному [session.autostart](session.configuration.html#ini.session.auto-start) єдиним способом приміщення об'єктів у сесію залишиться завантаження описів класу за допомогою [autoprependfile](ini.core.html#ini.auto-prepend-file). В іншому випадку доведеться виконати серіалізацію ([serialize()](function.serialize.md)) та десеріалізацію ([unserialize()](function.unserialize.md)) об'єкта вручну.
+При включеному [session.autostart](session.configuration.md#ini.session.auto-start) єдиним способом приміщення об'єктів у сесію залишиться завантаження описів класу за допомогою [autoprependfile](ini.core.md#ini.auto-prepend-file). В іншому випадку доведеться виконати серіалізацію ([serialize()](function.serialize.md)) та десеріалізацію ([unserialize()](function.unserialize.md)) об'єкта вручну.
 
-[SESSION](reserved.variables.session.md) (і всі зареєстровані змінні) серіалізуються всередині PHP після виконання запиту, використовуючи обробник серіалізації, вказаний в INI-опції [session.serializehandler](session.configuration.html#ini.session.serialize-handler). Зареєстровані, але невизначені змінні позначаються як невизначені. При подальшому доступі вони не визначаються сесійним модулем, якщо користувач знову не визначить їх.
+[SESSION](reserved.variables.session.md) (і всі зареєстровані змінні) серіалізуються всередині PHP після виконання запиту, використовуючи обробник серіалізації, вказаний в INI-опції [session.serializehandler](session.configuration.md#ini.session.serialize-handler). Зареєстровані, але невизначені змінні позначаються як невизначені. При подальшому доступі вони не визначаються сесійним модулем, якщо користувач знову не визначить їх.
 
 **Увага**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pspell-clear-session.html: « pspellclearsession
-  - function.pspell-config-data-dir.html: pspellconfigdatadir »
-  - index.html: PHP Manual
-  - ref.pspell.html: Функции Pspell
+  - function.pspell-clear-session.md: « pspellclearsession
+  - function.pspell-config-data-dir.md: pspellconfigdatadir »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
 title: pspellconfigcreate
 ---
 # pspellconfigcreate
@@ -20,7 +20,7 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 Створює конфігурацію для відкриття словника.
 
-**pspellconfigcreate()** має синтаксис, дуже схожий на синтаксис [pspellnew()](function.pspell-new.html). Фактично використання **pspellconfigcreate()** відразу після [pspellnewconfig()](function.pspell-new-config.html) дасть такий самий результат. Однак після створення нової конфігурації також можна використовувати функції **pspellconfig** до виклику [pspellnewconfig()](function.pspell-new-config.md) для здобуття переваг від деякої додаткової функціональності.
+**pspellconfigcreate()** має синтаксис, дуже схожий на синтаксис [pspellnew()](function.pspell-new.md). Фактично використання **pspellconfigcreate()** відразу після [pspellnewconfig()](function.pspell-new-config.md) дасть такий самий результат. Однак після створення нової конфігурації також можна використовувати функції **pspellconfig** до виклику [pspellnewconfig()](function.pspell-new-config.md) для здобуття переваг від деякої додаткової функціональності.
 
 Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
 
@@ -50,7 +50,7 @@ pspell_config_create(    string $language,    string $spelling = "",  
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [PSpellConfig](class.pspell-config.html); раніше повертався ресурс ([resource](language.types.resource.md) |
+|  | Повертає екземпляр [PSpellConfig](class.pspell-config.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

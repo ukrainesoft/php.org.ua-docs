@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.shm-detach.html: « shmdetach
-  - function.shm-has-var.html: shmhasvar »
+  - function.shm-detach.md: « shmdetach
+  - function.shm-has-var.md: shmhasvar »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: shmgetvar

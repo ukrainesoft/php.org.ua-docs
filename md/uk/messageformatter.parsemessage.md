@@ -1,9 +1,9 @@
 ---
 navigation:
-  - messageformatter.getpattern.html: '« MessageFormatter::getPattern'
-  - messageformatter.parse.html: 'MessageFormatter::parse »'
-  - index.html: PHP Manual
-  - class.messageformatter.html: MessageFormatter
+  - messageformatter.getpattern.md: '« MessageFormatter::getPattern'
+  - messageformatter.parse.md: 'MessageFormatter::parse »'
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::parseMessage'
 ---
 # MessageFormatter::parseMessage
@@ -95,6 +95,6 @@ array (
 
 ### Дивіться також
 
--   [msgfmtcreate()](messageformatter.create.html) - Створює засіб форматування повідомлень
--   [msgfmtformatmessage()](messageformatter.formatmessage.html) - Швидко форматує повідомлення
--   [msgfmtparse()](messageformatter.parse.html) - Розбирає рядок згідно шаблону
+-   [msgfmtcreate()](messageformatter.create.md) - Створює засіб форматування повідомлень
+-   [msgfmtformatmessage()](messageformatter.formatmessage.md) - Швидко форматує повідомлення
+-   [msgfmtparse()](messageformatter.parse.md) - Розбирає рядок згідно шаблону

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evchild.construct.html: '« EvChild::construct'
-  - evchild.set.html: 'EvChild::set »'
-  - index.html: PHP Manual
-  - class.evchild.html: EvChild
+  - evchild.construct.md: '« EvChild::construct'
+  - evchild.set.md: 'EvChild::set »'
+  - index.md: PHP Manual
+  - class.evchild.md: EvChild
 title: 'EvChild::createStopped'
 ---
 # EvChild::createStopped
@@ -36,21 +36,21 @@ final
     = ?): object
 ```
 
-Те саме, що й [EvChild::construct()](evchild.construct.html) але не відбувається автоматичного запуску спостерігача.
+Те саме, що й [EvChild::construct()](evchild.construct.md) але не відбувається автоматичного запуску спостерігача.
 
 ### Список параметрів
 
 `pid`
 
-Дивіться [EvChild::construct()](evchild.construct.html)
+Дивіться [EvChild::construct()](evchild.construct.md)
 
 `trace`
 
-Дивіться [EvChild::construct()](evchild.construct.html)
+Дивіться [EvChild::construct()](evchild.construct.md)
 
 `callback`
 
-Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.html)
+Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md)
 
 `data`
 
@@ -58,11 +58,11 @@ final
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Значення, що повертаються
 
 ### Дивіться також
 
--   [EvChild::construct()](evchild.construct.html) - Створює об'єкт спостерігач EvChild
--   [EvLoop::child()](evloop.child.html) - Створює об'єкт EvChild, пов'язаний із поточним циклом подій
+-   [EvChild::construct()](evchild.construct.md) - Створює об'єкт спостерігач EvChild
+-   [EvLoop::child()](evloop.child.md) - Створює об'єкт EvChild, пов'язаний із поточним циклом подій

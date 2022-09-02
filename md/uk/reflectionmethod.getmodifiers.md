@@ -26,7 +26,7 @@ public ReflectionMethod::getModifiers(): int
 
 ### Значення, що повертаються
 
-Числове уявлення модифікаторів. Описи та значення цих модифікаторів наведено у списку [зумовлених констант](class.reflectionmethod.html#reflectionmethod.constants.modifiers)
+Числове уявлення модифікаторів. Описи та значення цих модифікаторів наведено у списку [зумовлених констант](class.reflectionmethod.md#reflectionmethod.constants.modifiers)
 
 ### Приклади
 

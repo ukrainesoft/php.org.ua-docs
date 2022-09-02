@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-set-error-verbosity.html: « pgseterrorverbosity
-  - function.pg-trace.html: пгtrace »
+  - function.pg-set-error-verbosity.md: « pgseterrorverbosity
+  - function.pg-trace.md: пгtrace »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгsocket

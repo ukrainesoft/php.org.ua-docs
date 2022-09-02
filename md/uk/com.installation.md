@@ -1,9 +1,9 @@
 ---
 navigation:
-  - com.requirements.html: « Вимоги
-  - com.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - com.setup.html: Встановлення та налаштування
+  - com.requirements.md: « Вимоги
+  - com.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - com.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

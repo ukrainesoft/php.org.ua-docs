@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xmlrpc-encode.html: « xmlrpcencode
-  - function.xmlrpc-is-fault.html: xmlrpcісfault »
-  - index.html: PHP Manual
-  - ref.xmlrpc.html: Функції XML-RPC
+  - function.xmlrpc-encode.md: « xmlrpcencode
+  - function.xmlrpc-is-fault.md: xmlrpcісfault »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcgettype
 ---
 # xmlrpcgettype

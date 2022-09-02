@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-crudoperationskippable.html: « mysqlxdevapiCrudOperationSkippable
-  - class.mysql-xdevapi-crudoperationsortable.html: mysqlxdevapiCrudOperationSortable »
+  - class.mysql-xdevapi-crudoperationskippable.md: « mysqlxdevapiCrudOperationSkippable
+  - class.mysql-xdevapi-crudoperationsortable.md: mysqlxdevapiCrudOperationSortable »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-crudoperationskippable.html: mysqlxdevapiCrudOperationSkippable
+  - class.mysql-xdevapi-crudoperationskippable.md: mysqlxdevapiCrudOperationSkippable
 title: 'CrudOperationSkippable::skip'
 ---
 # CrudOperationSkippable::skip

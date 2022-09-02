@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-beta.html: « statsdensbeta
-  - function.stats-dens-chisquare.html: statsdenschisquare »
+  - function.stats-dens-beta.md: « statsdensbeta
+  - function.stats-dens-chisquare.md: statsdenschisquare »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdenscauchy

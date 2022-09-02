@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-text.html: « CommonMarkNodeText
-  - class.commonmark-node-text-strong.html: CommonMarkNodeTextStrong »
+  - class.commonmark-node-text.md: « CommonMarkNodeText
+  - class.commonmark-node-text-strong.md: CommonMarkNodeTextStrong »
   - index.md: PHP Manual
-  - class.commonmark-node-text.html: CommonMarkNodeText
+  - class.commonmark-node-text.md: CommonMarkNodeText
 title: 'CommonMarkNodeText::construct'
 ---
 # CommonMarkNodeText::construct

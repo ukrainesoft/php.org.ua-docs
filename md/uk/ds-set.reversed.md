@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-set.reverse.html: '« DsSet::reverse'
-  - ds-set.slice.html: 'ДсSet::slice »'
+  - ds-set.reverse.md: '« DsSet::reverse'
+  - ds-set.slice.md: 'ДсSet::slice »'
   - index.md: PHP Manual
-  - class.ds-set.html: Набор
+  - class.ds-set.md: Набор
 title: 'ДсSet::reversed'
 ---
 # ДсSet::reversed

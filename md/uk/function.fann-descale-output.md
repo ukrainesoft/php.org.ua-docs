@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-descale-input.html: « fanndescaleinput
-  - function.fann-descale-train.html: fanndescaletrain »
+  - function.fann-descale-input.md: « fanndescaleinput
+  - function.fann-descale-train.md: fanndescaletrain »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanndescaleoutput

@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.hash.html: « Введение
-  - hash.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.hash.html: Hash
+  - intro.hash.md: « Введение
+  - hash.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.hash.md: Hash
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](hash.requirements.html)
--   [Установка](hash.installation.html)
--   [Налаштування під час виконання](hash.configuration.html)
--   [Типи ресурсів](hash.resources.html)
+-   [Вимоги](hash.requirements.md)
+-   [Установка](hash.installation.md)
+-   [Налаштування під час виконання](hash.configuration.md)
+-   [Типи ресурсів](hash.resources.md)

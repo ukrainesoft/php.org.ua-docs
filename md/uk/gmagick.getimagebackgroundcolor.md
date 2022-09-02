@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getfilename.html: '« Gmagick::getfilename'
-  - gmagick.getimageblueprimary.html: 'Gmagick::getimageblueprimary »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getfilename.md: '« Gmagick::getfilename'
+  - gmagick.getimageblueprimary.md: 'Gmagick::getimageblueprimary »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimagebackgroundcolor'
 ---
 # Gmagick::getimagebackgroundcolor

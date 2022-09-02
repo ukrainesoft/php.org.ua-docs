@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.fgets.md: « fgets
-  - function.file-exists.html: fileexists »
+  - function.file-exists.md: fileexists »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: fgetss
@@ -79,7 +79,7 @@ if ($handle) {
 
 ### Примітки
 
-> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.html#ini.auto-detect-line-endings) може допомогти вирішити проблему.
+> **Зауваження**: Якщо у вас виникають проблеми з розпізнаванням PHP кінців рядків під час читання або створення файлів на Macintosh-сумісному комп'ютері, увімкнення опції [autodetectlineendings](filesystem.configuration.md#ini.auto-detect-line-endings) може допомогти вирішити проблему.
 
 ### Дивіться також
 
@@ -89,4 +89,4 @@ if ($handle) {
 -   [fsockopen()](function.fsockopen.md) - Відкриває з'єднання з інтернет-сокетом або доменним сокетом Unix
 -   [striptags()](function.strip-tags.md) - Видаляє теги HTML та PHP з рядка
 -   [SplFileObject::fgetss()](splfileobject.fgetss.md) - Отримати рядок із файлу та видалити теги HTML
--   Фільтр [string.striptags](filters.string.html#filters.string.strip_tags)
+-   Фільтр [string.striptags](filters.string.md#filters.string.strip_tags)

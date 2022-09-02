@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.runkit7-method-copy.html: « runkit7methodcopy
-  - function.runkit7-method-remove.html: runkit7methodremove »
-  - index.html: PHP Manual
-  - ref.runkit7.html: Функції runkit7
+  - function.runkit7-method-copy.md: « runkit7methodcopy
+  - function.runkit7-method-remove.md: runkit7methodremove »
+  - index.md: PHP Manual
+  - ref.runkit7.md: Функції runkit7
 title: runkit7методredefine
 ---
 # runkit7методredefine
@@ -42,7 +42,7 @@ runkit7_method_redefine(    string $class_name,    string $method_name,�
 
 `closure`
 
-Замикання ([closure](class.closure.html)), Що визначає метод.
+Замикання ([closure](class.closure.md)), Що визначає метод.
 
 `flags`
 
@@ -105,8 +105,8 @@ echo "После: " . $e->foo();
 
 ### Дивіться також
 
--   [runkit7methodadd()](function.runkit7-method-add.html) - Динамічно додає новий метод у заданий клас
--   [runkit7methodcopy()](function.runkit7-method-copy.html) - Копіює метод з одного класу до іншого
--   [runkit7methodremove()](function.runkit7-method-remove.html) - динамічно видаляє заданий метод
--   [runkit7methodrename()](function.runkit7-method-rename.html) - динамічно змінює ім'я заданого методу
--   [runkit7functionredefine()](function.runkit7-function-redefine.html) - замінює визначення функції новою реалізацією
+-   [runkit7methodadd()](function.runkit7-method-add.md) - Динамічно додає новий метод у заданий клас
+-   [runkit7methodcopy()](function.runkit7-method-copy.md) - Копіює метод з одного класу до іншого
+-   [runkit7methodremove()](function.runkit7-method-remove.md) - динамічно видаляє заданий метод
+-   [runkit7methodrename()](function.runkit7-method-rename.md) - динамічно змінює ім'я заданого методу
+-   [runkit7functionredefine()](function.runkit7-function-redefine.md) - замінює визначення функції новою реалізацією

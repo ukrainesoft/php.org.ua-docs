@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sync.requirements.html: « Вимоги
-  - sync.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - sync.setup.html: Встановлення та налаштування
+  - sync.requirements.md: « Вимоги
+  - sync.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - sync.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

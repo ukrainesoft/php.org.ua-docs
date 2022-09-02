@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-internal-encoding.html: « mbinternalencoding
-  - function.mb-list-encodings.html: мбlistencodings »
+  - function.mb-internal-encoding.md: « mbinternalencoding
+  - function.mb-list-encodings.md: мбlistencodings »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбlanguage

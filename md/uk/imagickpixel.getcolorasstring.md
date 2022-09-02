@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixel.getcolor.html: '« ImagickPixel::getColor'
-  - imagickpixel.getcolorcount.html: 'ImagickPixel::getColorCount »'
-  - index.html: PHP Manual
-  - class.imagickpixel.html: ImagickPixel
+  - imagickpixel.getcolor.md: '« ImagickPixel::getColor'
+  - imagickpixel.getcolorcount.md: 'ImagickPixel::getColorCount »'
+  - index.md: PHP Manual
+  - class.imagickpixel.md: ImagickPixel
 title: 'ImagickPixel::getColorAsString'
 ---
 # ImagickPixel::getColorAsString

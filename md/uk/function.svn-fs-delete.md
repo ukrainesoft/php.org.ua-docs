@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-copy.html: « svnфсcopy
-  - function.svn-fs-dir-entries.html: svnфсdirentries »
+  - function.svn-fs-copy.md: « svnфсcopy
+  - function.svn-fs-dir-entries.md: svnфсdirentries »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсdelete

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-read.html: « eioread
-  - function.eio-readdir.html: eioreaddir »
+  - function.eio-read.md: « eioread
+  - function.eio-readdir.md: eioreaddir »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eioreadahead

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pcntl-sigwaitinfo.html: pcntlsigwaitinfo
-  - function.pcntl-unshare.html: pcntlunshare »
-  - index.html: PHP Manual
-  - ref.pcntl.html: Функції PCNTL
+  - function.pcntl-sigwaitinfo.md: pcntlsigwaitinfo
+  - function.pcntl-unshare.md: pcntlunshare »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
 title: pcntlstrerror
 ---
 # pcntlstrerror

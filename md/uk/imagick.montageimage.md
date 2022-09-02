@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.modulateimage.html: '« Imagick::modulateImage'
-  - imagick.morphimages.html: 'Imagick::morphImages »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.modulateimage.md: '« Imagick::modulateImage'
+  - imagick.morphimages.md: 'Imagick::morphImages »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::montageImage'
 ---
 # Imagick::montageImage
@@ -36,7 +36,7 @@ public Imagick::montageImage(    ImagickDraw $draw,    string $tile_geom
 
 `mode`
 
-Режим кадрування мініатюр, дивіться [константи режиму кадрування](imagick.constants.html#imagick.constants.montagemode)
+Режим кадрування мініатюр, дивіться [константи режиму кадрування](imagick.constants.md#imagick.constants.montagemode)
 
 `frame`
 
@@ -44,4 +44,4 @@ public Imagick::montageImage(    ImagickDraw $draw,    string $tile_geom
 
 ### Значення, що повертаються
 
-Створює складне зображення та повертає його як новий об'єкт [Imagick](class.imagick.html)
+Створює складне зображення та повертає його як новий об'єкт [Imagick](class.imagick.md)

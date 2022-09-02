@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ob-get-level.html: « obgetlevel
-  - function.ob-gzhandler.html: проgzhandler »
-  - index.html: PHP Manual
-  - ref.outcontrol.html: Функції контролю виведення
+  - function.ob-get-level.md: « obgetlevel
+  - function.ob-gzhandler.md: проgzhandler »
+  - index.md: PHP Manual
+  - ref.outcontrol.md: Функції контролю виведення
 title: проgetstatus
 ---
 # проgetstatus
@@ -40,7 +40,7 @@ Array ( level => 2 type => 0 status => 0 name => URL-Rewriter del => 1 )
 | type | `PHP_OUTPUT_HANDLER_INTERNAL (0)` або `PHP_OUTPUT_HANDLER_USER (1)` |
 | type | `0` (внутрішній обробник) або `1` (наданий користувачем обробник) |
 | name | Назва діючого обробника виводу або 'default output handler', якщо не заданий |
-| del | Прапор очищення, встановлений [проstart()](function.ob-start.html) |
+| del | Прапор очищення, встановлений [проstart()](function.ob-start.md) |
 
 Якщо функція викликана з `full_status` **`true`**, Повертається масив з елементів рівнів активних буферів. Як ключ використовується рівень виведення, і кожен елемент масиву містить масив інформації про статус одного з активних елементів виведення.
 
@@ -79,11 +79,11 @@ Array
 
 | Ключ | Значение |
 | --- | --- |
-| chunksize | Розмір порції, встановлений [проstart()](function.ob-start.html) |
+| chunksize | Розмір порції, встановлений [проstart()](function.ob-start.md) |
 | size |  |
 | blocksize |  |
 
 ### Дивіться також
 
--   [проgetlevel()](function.ob-get-level.html) - Повертає рівень вкладеності механізму буферизації виводу
--   [проlisthandlers()](function.ob-list-handlers.html) - Список всіх використовуваних обробників виводу
+-   [проgetlevel()](function.ob-get-level.md) - Повертає рівень вкладеності механізму буферизації виводу
+-   [проlisthandlers()](function.ob-list-handlers.md) - Список всіх використовуваних обробників виводу

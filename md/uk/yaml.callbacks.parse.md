@@ -1,14 +1,14 @@
 ---
 navigation:
-  - yaml.callbacks.html: « Callback-функции
-  - yaml.callbacks.emit.html: Публікуючі callback-функції »
-  - index.html: PHP Manual
-  - yaml.callbacks.html: Callback-функции
+  - yaml.callbacks.md: « Callback-функции
+  - yaml.callbacks.emit.md: Публікуючі callback-функції »
+  - index.md: PHP Manual
+  - yaml.callbacks.md: Callback-функции
 title: Callback-функції парсингу
 ---
 ## Callback-функції парсингу
 
-Callback-функцій (callback) для парсингу викликається функціями [yamlparse()](function.yaml-parse.html) [yamlparsefile()](function.yaml-parse-file.html) або [yamlparseurl()](function.yaml-parse-url.md) для виявлення зареєстрованого тега YAML. У callback-функцію передається значення тегованого запису, сам тег та прапори, що визначають скалярний тип запису. Функція Callback повинна повернути дані, які парсер YAML повинен використовувати для цього запису.
+Callback-функцій (callback) для парсингу викликається функціями [yamlparse()](function.yaml-parse.md) [yamlparsefile()](function.yaml-parse-file.md) або [yamlparseurl()](function.yaml-parse-url.md) для виявлення зареєстрованого тега YAML. У callback-функцію передається значення тегованого запису, сам тег та прапори, що визначають скалярний тип запису. Функція Callback повинна повернути дані, які парсер YAML повинен використовувати для цього запису.
 
 **Приклад #1 Приклад використання callback-функції парсингу**
 

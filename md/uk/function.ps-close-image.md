@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-clip.html: «psclip
-  - function.ps-close.html: псclose »
+  - function.ps-clip.md: «psclip
+  - function.ps-close.md: псclose »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псcloseimage
@@ -28,7 +28,7 @@ ps_close_image(resource $psdoc, int $imageid): void|false
 
 `imageid`
 
-Ідентифікатор ресурсу зображення, повернутий функцією [псopenimage()](function.ps-open-image.html) або [псopenimagefile()](function.ps-open-image-file.md)
+Ідентифікатор ресурсу зображення, повернутий функцією [псopenimage()](function.ps-open-image.md) або [псopenimagefile()](function.ps-open-image-file.md)
 
 ### Значення, що повертаються
 

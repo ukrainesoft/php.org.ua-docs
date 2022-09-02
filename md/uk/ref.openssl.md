@@ -1,75 +1,75 @@
 ---
 navigation:
-  - openssl.cert.verification.html: « Проверка сертификатов
-  - function.openssl-cipher-iv-length.html: opensslcipherвербlength »
-  - index.html: PHP Manual
-  - book.openssl.html: OpenSSL
+  - openssl.cert.verification.md: « Проверка сертификатов
+  - function.openssl-cipher-iv-length.md: opensslcipherвербlength »
+  - index.md: PHP Manual
+  - book.openssl.md: OpenSSL
 title: Функції OpenSSL
 ---
 # Функції OpenSSL
 
 ## Зміст
 
--   [opensslcipherвербlength](function.openssl-cipher-iv-length.html) — Отримує довжину вектора, що ініціалізує, шифру.
--   [opensslcmsdecrypt](function.openssl-cms-decrypt.html) — Розшифровує CMS-повідомлення
--   [opensslcmsencrypt](function.openssl-cms-encrypt.html) — Зашифровує CMS-повідомлення
--   [opensslcmsread](function.openssl-cms-read.html) — Експортує файл CMS до масиву сертифікатів PEM
--   [opensslcmssign](function.openssl-cms-sign.html) - Підписує файл
--   [opensslcmsverify](function.openssl-cms-verify.html) — Перевіряє підпис CMS
--   [opensslcsrexportтоfile](function.openssl-csr-export-to-file.html) — Експортує CSR у файл
--   [opensslcsrexport](function.openssl-csr-export.html) — Експортує CSR у вигляді рядка
--   [opensslcsrgetpublickey](function.openssl-csr-get-public-key.html) — Повертає відкритий ключ CSR
--   [opensslcsrgetsubject](function.openssl-csr-get-subject.html) — Повертає суб'єкт CSR
--   [opensslcsrnew](function.openssl-csr-new.html) - Генерує CSR
--   [opensslcsrsign](function.openssl-csr-sign.html) — Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
--   [openssldecrypt](function.openssl-decrypt.html) - Розшифровує дані
--   [opensslдхcomputekey](function.openssl-dh-compute-key.html) — Обчислює загальний секретний ключ для віддаленого відкритого ключа DH і локального ключа DH
--   [openssldigest](function.openssl-digest.html) - Обчислення дайджесту
--   [opensslencrypt](function.openssl-encrypt.html) - Шифрує дані
--   [opensslerrorstring](function.openssl-error-string.html) — Повертає повідомлення про помилку openSSL
--   [opensslfreekey](function.openssl-free-key.html) — Вивільнення ресурсу ключа
--   [opensslgetcertlocations](function.openssl-get-cert-locations.html) — Отримати доступні місця розташування сертифікатів
--   [opensslgetciphermethods](function.openssl-get-cipher-methods.html) — Отримати список доступних алгоритмів шифрування
--   [opensslgetcurvenames](function.openssl-get-curve-names.html) - Список доступних імен кривих для ECC
--   [opensslgetмдmethods](function.openssl-get-md-methods.html) — Отримати список доступних методів хешування
--   [opensslgetprivatekey](function.openssl-get-privatekey.html) - Псевдонім opensslpkeygetprivate
--   [opensslgetpublickey](function.openssl-get-publickey.html) - Псевдонім opensslpkeygetpublic
--   [opensslopen](function.openssl-open.html) — Відкрити запечатані дані
--   [opensslpbkdf2](function.openssl-pbkdf2.html) — Генерує рядки PKCS5 v2 PBKDF2
--   [opensslpkcs12exportтоfile](function.openssl-pkcs12-export-to-file.html) — Експортує у сумісний із PKCS#12 файл сховища сертифікатів
--   [opensslpkcs12export](function.openssl-pkcs12-export.html) — Експортує сумісний із PKCS#12 файл сховища сертифікатів у змінну
--   [opensslpkcs12read](function.openssl-pkcs12-read.html) — Розбирає сховище сертифікатів PKCS#12 у масив
--   [opensslpkcs7decrypt](function.openssl-pkcs7-decrypt.html) — Розшифрувати повідомлення, зашифроване S/MIME
--   [opensslpkcs7encrypt](function.openssl-pkcs7-encrypt.html) — Шифрує повідомлення S/MIME
--   [opensslpkcs7read](function.openssl-pkcs7-read.html) — Експортувати файл PKCS7 до масиву сертифікатів PEM
--   [opensslpkcs7sign](function.openssl-pkcs7-sign.html) — Підписати повідомлення S/MIME
--   [opensslpkcs7verify](function.openssl-pkcs7-verify.html) — Перевірити підпис повідомлення S/MIME
--   [opensslpkeyderive](function.openssl-pkey-derive.html) — Обчислює загальний секрет відкритого значення віддаленого та локального ключа DH або ECDH
--   [opensslpkeyexportтоfile](function.openssl-pkey-export-to-file.html) — Записує у файл ключ у форматі PEM
--   [opensslpkeyexport](function.openssl-pkey-export.html) — Отримує рядок із ключем у форматі PEM
--   [opensslpkeyfree](function.openssl-pkey-free.html) — Визволяє ресурс закритого ключа
--   [opensslpkeygetdetails](function.openssl-pkey-get-details.html) — Отримує масив із детальною інформацією про ключ
--   [opensslpkeygetprivate](function.openssl-pkey-get-private.html) — Отримати закритий ключ
--   [opensslpkeygetpublic](function.openssl-pkey-get-public.html) — Витягує відкритий ключ із сертифіката та готує його до використання.
--   [opensslpkeynew](function.openssl-pkey-new.html) - Генерує новий закритий ключ
--   [opensslprivatedecrypt](function.openssl-private-decrypt.html) — Розшифровує дані за допомогою закритого ключа
--   [opensslprivateencrypt](function.openssl-private-encrypt.html) - Шифрує дані секретним ключем
--   [opensslpublicdecrypt](function.openssl-public-decrypt.html) — Розшифрування даних за допомогою відкритого ключа
--   [opensslpublicencrypt](function.openssl-public-encrypt.html) - Шифрування даних відкритим ключем
--   [opensslrandompseudobytes](function.openssl-random-pseudo-bytes.html) - Генерує псевдовипадкову послідовність байт
--   [opensslseal](function.openssl-seal.html) - Запечатати (зашифрувати) дані
--   [opensslsign](function.openssl-sign.html) - Генерація підпису
--   [opensslspkiexportchallenge](function.openssl-spki-export-challenge.html) — Експорт дзвінка, пов'язаного з підписаним ключем та дзвінком
--   [opensslspkiexport](function.openssl-spki-export.html) — Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
--   [opensslspkinew](function.openssl-spki-new.html) — Створення нового відкритого підписаного ключа з викликом
--   [opensslspkiverify](function.openssl-spki-verify.html) — Перевіряє підписаний відкритий ключ та виклик
--   [opensslverify](function.openssl-verify.html) - Звіряння сигнатури
--   [opensslx509checkprivatekey](function.openssl-x509-check-private-key.html) — Перевірити, чи секретний ключ відноситься до сертифіката
--   [opensslx509checkpurpose](function.openssl-x509-checkpurpose.html) — Перевіряє, чи можна використовувати сертифікат для конкретних завдань
--   [opensslx509exportтоfile](function.openssl-x509-export-to-file.html) — Експортує сертифікат у файл
--   [opensslx509export](function.openssl-x509-export.html) — Експортує сертифікат у рядок
--   [opensslx509fingerprint](function.openssl-x509-fingerprint.html) - Обчислює відбиток або дайджест, заданий сертифікатом X.509
--   [opensslx509free](function.openssl-x509-free.html) — Вивільняє ресурс сертифіката
--   [opensslx509parse](function.openssl-x509-parse.html) — Розібрати сертифікат X509 та отримати масив із даними про нього
--   [opensslx509read](function.openssl-x509-read.html) — Розібрати сертифікат X.509 та повернути для нього об'єкт
--   [opensslx509verify](function.openssl-x509-verify.html) — Перевірити цифровий підпис сертифіката x509 за допомогою публічного ключа
+-   [opensslcipherвербlength](function.openssl-cipher-iv-length.md) — Отримує довжину вектора, що ініціалізує, шифру.
+-   [opensslcmsdecrypt](function.openssl-cms-decrypt.md) — Розшифровує CMS-повідомлення
+-   [opensslcmsencrypt](function.openssl-cms-encrypt.md) — Зашифровує CMS-повідомлення
+-   [opensslcmsread](function.openssl-cms-read.md) — Експортує файл CMS до масиву сертифікатів PEM
+-   [opensslcmssign](function.openssl-cms-sign.md) - Підписує файл
+-   [opensslcmsverify](function.openssl-cms-verify.md) — Перевіряє підпис CMS
+-   [opensslcsrexportтоfile](function.openssl-csr-export-to-file.md) — Експортує CSR у файл
+-   [opensslcsrexport](function.openssl-csr-export.md) — Експортує CSR у вигляді рядка
+-   [opensslcsrgetpublickey](function.openssl-csr-get-public-key.md) — Повертає відкритий ключ CSR
+-   [opensslcsrgetsubject](function.openssl-csr-get-subject.md) — Повертає суб'єкт CSR
+-   [opensslcsrnew](function.openssl-csr-new.md) - Генерує CSR
+-   [opensslcsrsign](function.openssl-csr-sign.md) — Підписати CSR за допомогою іншого сертифіката (або ним же) та створити сертифікат
+-   [openssldecrypt](function.openssl-decrypt.md) - Розшифровує дані
+-   [opensslдхcomputekey](function.openssl-dh-compute-key.md) — Обчислює загальний секретний ключ для віддаленого відкритого ключа DH і локального ключа DH
+-   [openssldigest](function.openssl-digest.md) - Обчислення дайджесту
+-   [opensslencrypt](function.openssl-encrypt.md) - Шифрує дані
+-   [opensslerrorstring](function.openssl-error-string.md) — Повертає повідомлення про помилку openSSL
+-   [opensslfreekey](function.openssl-free-key.md) — Вивільнення ресурсу ключа
+-   [opensslgetcertlocations](function.openssl-get-cert-locations.md) — Отримати доступні місця розташування сертифікатів
+-   [opensslgetciphermethods](function.openssl-get-cipher-methods.md) — Отримати список доступних алгоритмів шифрування
+-   [opensslgetcurvenames](function.openssl-get-curve-names.md) - Список доступних імен кривих для ECC
+-   [opensslgetмдmethods](function.openssl-get-md-methods.md) — Отримати список доступних методів хешування
+-   [opensslgetprivatekey](function.openssl-get-privatekey.md) - Псевдонім opensslpkeygetprivate
+-   [opensslgetpublickey](function.openssl-get-publickey.md) - Псевдонім opensslpkeygetpublic
+-   [opensslopen](function.openssl-open.md) — Відкрити запечатані дані
+-   [opensslpbkdf2](function.openssl-pbkdf2.md) — Генерує рядки PKCS5 v2 PBKDF2
+-   [opensslpkcs12exportтоfile](function.openssl-pkcs12-export-to-file.md) — Експортує у сумісний із PKCS#12 файл сховища сертифікатів
+-   [opensslpkcs12export](function.openssl-pkcs12-export.md) — Експортує сумісний із PKCS#12 файл сховища сертифікатів у змінну
+-   [opensslpkcs12read](function.openssl-pkcs12-read.md) — Розбирає сховище сертифікатів PKCS#12 у масив
+-   [opensslpkcs7decrypt](function.openssl-pkcs7-decrypt.md) — Розшифрувати повідомлення, зашифроване S/MIME
+-   [opensslpkcs7encrypt](function.openssl-pkcs7-encrypt.md) — Шифрує повідомлення S/MIME
+-   [opensslpkcs7read](function.openssl-pkcs7-read.md) — Експортувати файл PKCS7 до масиву сертифікатів PEM
+-   [opensslpkcs7sign](function.openssl-pkcs7-sign.md) — Підписати повідомлення S/MIME
+-   [opensslpkcs7verify](function.openssl-pkcs7-verify.md) — Перевірити підпис повідомлення S/MIME
+-   [opensslpkeyderive](function.openssl-pkey-derive.md) — Обчислює загальний секрет відкритого значення віддаленого та локального ключа DH або ECDH
+-   [opensslpkeyexportтоfile](function.openssl-pkey-export-to-file.md) — Записує у файл ключ у форматі PEM
+-   [opensslpkeyexport](function.openssl-pkey-export.md) — Отримує рядок із ключем у форматі PEM
+-   [opensslpkeyfree](function.openssl-pkey-free.md) — Визволяє ресурс закритого ключа
+-   [opensslpkeygetdetails](function.openssl-pkey-get-details.md) — Отримує масив із детальною інформацією про ключ
+-   [opensslpkeygetprivate](function.openssl-pkey-get-private.md) — Отримати закритий ключ
+-   [opensslpkeygetpublic](function.openssl-pkey-get-public.md) — Витягує відкритий ключ із сертифіката та готує його до використання.
+-   [opensslpkeynew](function.openssl-pkey-new.md) - Генерує новий закритий ключ
+-   [opensslprivatedecrypt](function.openssl-private-decrypt.md) — Розшифровує дані за допомогою закритого ключа
+-   [opensslprivateencrypt](function.openssl-private-encrypt.md) - Шифрує дані секретним ключем
+-   [opensslpublicdecrypt](function.openssl-public-decrypt.md) — Розшифрування даних за допомогою відкритого ключа
+-   [opensslpublicencrypt](function.openssl-public-encrypt.md) - Шифрування даних відкритим ключем
+-   [opensslrandompseudobytes](function.openssl-random-pseudo-bytes.md) - Генерує псевдовипадкову послідовність байт
+-   [opensslseal](function.openssl-seal.md) - Запечатати (зашифрувати) дані
+-   [opensslsign](function.openssl-sign.md) - Генерація підпису
+-   [opensslspkiexportchallenge](function.openssl-spki-export-challenge.md) — Експорт дзвінка, пов'язаного з підписаним ключем та дзвінком
+-   [opensslspkiexport](function.openssl-spki-export.md) — Експорт відкритого ключа у форматі PEM із підписаного відкритого ключа з викликом
+-   [opensslspkinew](function.openssl-spki-new.md) — Створення нового відкритого підписаного ключа з викликом
+-   [opensslspkiverify](function.openssl-spki-verify.md) — Перевіряє підписаний відкритий ключ та виклик
+-   [opensslverify](function.openssl-verify.md) - Звіряння сигнатури
+-   [opensslx509checkprivatekey](function.openssl-x509-check-private-key.md) — Перевірити, чи секретний ключ відноситься до сертифіката
+-   [opensslx509checkpurpose](function.openssl-x509-checkpurpose.md) — Перевіряє, чи можна використовувати сертифікат для конкретних завдань
+-   [opensslx509exportтоfile](function.openssl-x509-export-to-file.md) — Експортує сертифікат у файл
+-   [opensslx509export](function.openssl-x509-export.md) — Експортує сертифікат у рядок
+-   [opensslx509fingerprint](function.openssl-x509-fingerprint.md) - Обчислює відбиток або дайджест, заданий сертифікатом X.509
+-   [opensslx509free](function.openssl-x509-free.md) — Вивільняє ресурс сертифіката
+-   [opensslx509parse](function.openssl-x509-parse.md) — Розібрати сертифікат X509 та отримати масив із даними про нього
+-   [opensslx509read](function.openssl-x509-read.md) — Розібрати сертифікат X.509 та повернути для нього об'єкт
+-   [opensslx509verify](function.openssl-x509-verify.md) — Перевірити цифровий підпис сертифіката x509 за допомогою публічного ключа

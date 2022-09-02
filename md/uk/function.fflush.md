@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.feof.html: « feof
-  - function.fgetc.html: fgetc »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.feof.md: « feof
+  - function.fgetc.md: fgetc »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: fflush
 ---
 # fflush
@@ -24,7 +24,7 @@ fflush(resource $stream): bool
 
 `stream`
 
-Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.html) або [fsockopen()](function.fsockopen.html) (і все ще не закритий функцією [fclose()](function.fclose.md)
+Вказівник на файл повинен бути коректним і вказувати на файл, успішно відкритий функціями [fopen()](function.fopen.md) або [fsockopen()](function.fsockopen.md) (і все ще не закритий функцією [fclose()](function.fclose.md)
 
 ### Значення, що повертаються
 

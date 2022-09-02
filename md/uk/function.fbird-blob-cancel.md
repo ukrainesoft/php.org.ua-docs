@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-blob-add.html: « fbirdblobadd
-  - function.fbird-blob-close.html: fbirdblobclose »
+  - function.fbird-blob-add.md: « fbirdblobadd
+  - function.fbird-blob-close.md: fbirdblobclose »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdblobcancel

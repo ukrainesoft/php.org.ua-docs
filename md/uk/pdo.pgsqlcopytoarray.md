@@ -3,7 +3,7 @@ navigation:
   - pdo.pgsqlcopyfromfile.md: '« PDO::pgsqlCopyFromFile'
   - pdo.pgsqlcopytofile.md: 'PDO::pgsqlCopyToFile »'
   - index.md: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlCopyToArray'
 ---
 # PDO::pgsqlCopyToArray

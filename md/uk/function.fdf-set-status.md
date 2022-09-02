@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-set-opt.html: « fdfsetopt
-  - function.fdf-set-submit-form-action.html: fdfsetsubmitformaction »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - function.fdf-set-opt.md: « fdfsetopt
+  - function.fdf-set-submit-form-action.md: fdfsetsubmitformaction »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfsetstatus
 ---
 # fdfsetstatus
@@ -24,7 +24,7 @@ fdf_set_status(resource $fdf_document, string $status): bool
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) ор [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) ор [fdfopenstring()](function.fdf-open-string.md)
 
 `status`
 
@@ -34,4 +34,4 @@ fdf_set_status(resource $fdf_document, string $status): bool
 
 ### Дивіться також
 
--   [fdfgetstatus()](function.fdf-get-status.html) - Отримує значення ключа /STATUS
+-   [fdfgetstatus()](function.fdf-get-status.md) - Отримує значення ключа /STATUS

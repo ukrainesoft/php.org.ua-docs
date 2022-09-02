@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-pause.html: « curlpause
-  - function.curl-setopt-array.html: curlsetoptarray »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-pause.md: « curlpause
+  - function.curl-setopt-array.md: curlsetoptarray »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlreset
 ---
 # curlreset
@@ -24,7 +24,7 @@ curl_reset(CurlHandle $handle): void
 
 `handle`
 
-Дескриптор cURL, отриманий з [curlinit()](function.curl-init.html)
+Дескриптор cURL, отриманий з [curlinit()](function.curl-init.md)
 
 ### Значення, що повертаються
 
@@ -34,7 +34,7 @@ curl_reset(CurlHandle $handle): void
 
 | Версия | Описание |
 | --- | --- |
-|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.html); раніше, очікувався ресурс (resource). |
+|  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -64,8 +64,8 @@ curl_close($ch);
 
 > **Зауваження**
 > 
-> **curlreset()** також скидає URL, заданий як параметр [curlinit()](function.curl-init.html)
+> **curlreset()** також скидає URL, заданий як параметр [curlinit()](function.curl-init.md)
 
 ### Дивіться також
 
--   [curlsetopt()](function.curl-setopt.html) - Встановлює параметр для сеансу CURL
+-   [curlsetopt()](function.curl-setopt.md) - Встановлює параметр для сеансу CURL

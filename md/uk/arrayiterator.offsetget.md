@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayiterator.offsetexists.html: '« ArrayIterator::offsetExists'
-  - arrayiterator.offsetset.html: 'ArrayIterator::offsetSet »'
-  - index.html: PHP Manual
-  - class.arrayiterator.html: ArrayIterator
+  - arrayiterator.offsetexists.md: '« ArrayIterator::offsetExists'
+  - arrayiterator.offsetset.md: 'ArrayIterator::offsetSet »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::offsetGet'
 ---
 # ArrayIterator::offsetGet
@@ -36,5 +36,5 @@ public ArrayIterator::offsetGet(mixed $key): mixed
 
 ### Дивіться також
 
--   [ArrayIterator::offsetSet()](arrayiterator.offsetset.html) - Встановлює значення для усунення
--   [ArrayIterator::offsetUnset()](arrayiterator.offsetunset.html) - скидає значення зі зміщення
+-   [ArrayIterator::offsetSet()](arrayiterator.offsetset.md) - Встановлює значення для усунення
+-   [ArrayIterator::offsetUnset()](arrayiterator.offsetunset.md) - скидає значення зі зміщення

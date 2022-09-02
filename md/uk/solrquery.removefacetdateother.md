@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.removefacetdatefield.html: '« SolrQuery::removeFacetDateField'
-  - solrquery.removefacetfield.html: 'SolrQuery::removeFacetField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.removefacetdatefield.md: '« SolrQuery::removeFacetDateField'
+  - solrquery.removefacetfield.md: 'SolrQuery::removeFacetField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::removeFacetDateOther'
 ---
 # SolrQuery::removeFacetDateOther

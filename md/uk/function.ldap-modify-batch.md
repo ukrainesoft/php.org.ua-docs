@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-mod-replace.html: « ldapmodreplace
-  - function.ldap-modify.html: ldapmodify »
+  - function.ldap-mod-replace.md: « ldapmodreplace
+  - function.ldap-modify.md: ldapmodify »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapmodifybatch
@@ -24,7 +24,7 @@ ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `dn`
 

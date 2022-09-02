@@ -1,9 +1,9 @@
 ---
 navigation:
-  - locale.parselocale.html: '« Locale::parseLocale'
-  - class.normalizer.html: Normalizer »
-  - index.html: PHP Manual
-  - class.locale.html: Locale
+  - locale.parselocale.md: '« Locale::parseLocale'
+  - class.normalizer.md: Normalizer »
+  - index.md: PHP Manual
+  - class.locale.md: Locale
 title: 'Locale::setDefault'
 ---
 # Locale::setDefault
@@ -68,4 +68,4 @@ de-DE
 
 ### Дивіться також
 
--   [localegetdefault()](locale.getdefault.html) - Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'
+-   [localegetdefault()](locale.getdefault.md) - Отримання значення локалі INTL за замовчуванням з опції 'defaultlocale'

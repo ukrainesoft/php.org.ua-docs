@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.classobj.md: « Функції роботи з класами та об'єктами
-  - function.class-alias.html: classalias »
+  - function.class-alias.md: classalias »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: autoload

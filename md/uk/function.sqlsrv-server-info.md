@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sqlsrv-send-stream-data.html: « sqlsrvsendstreamdata
-  - refs.calendar.html: Модулі для роботи з датою та часом »
-  - index.html: PHP Manual
-  - ref.sqlsrv.html: Функції SQLSRV
+  - function.sqlsrv-send-stream-data.md: « sqlsrvsendstreamdata
+  - refs.calendar.md: Модулі для роботи з датою та часом »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvserverinfo
 ---
 # sqlsrvserverinfo
@@ -63,4 +63,4 @@ if( $server_info )
 
 ### Дивіться також
 
--   [sqlsrvclientinfo()](function.sqlsrv-client-info.html) - Повертає інформацію про клієнта та зазначене підключення
+-   [sqlsrvclientinfo()](function.sqlsrv-client-info.md) - Повертає інформацію про клієнта та зазначене підключення

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-html-translation-table.html: « gethtmltranslationtable
-  - function.hebrevc.html: hebrevc »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.get-html-translation-table.md: « gethtmltranslationtable
+  - function.hebrevc.md: hebrevc »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: hebrev
 ---
 # hebrev
@@ -38,4 +38,4 @@ hebrev(string $string, int $max_chars_per_line = 0): string
 
 ### Дивіться також
 
--   [hebrevc()](function.hebrevc.html) - Перетворює текст на івриті з логічного кодування на візуальне з перетворенням перекладу рядка
+-   [hebrevc()](function.hebrevc.md) - Перетворює текст на івриті з логічного кодування на візуальне з перетворенням перекладу рядка

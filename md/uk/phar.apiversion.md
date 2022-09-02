@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.addfromstring.html: '« Phar::addFromString'
-  - phar.buildfromdirectory.html: 'Phar::buildFromDirectory »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.addfromstring.md: '« Phar::addFromString'
+  - phar.buildfromdirectory.md: 'Phar::buildFromDirectory »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::apiVersion'
 ---
 # Phar::apiVersion

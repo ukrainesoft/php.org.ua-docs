@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration74.constants.html: « Нові глобальні константи
-  - migration74.deprecated.html: Устаревшая функциональность »
-  - index.html: PHP Manual
-  - migration74.html: Миграция с PHP 7.3.x на PHP 7.4.x
+  - migration74.constants.md: « Нові глобальні константи
+  - migration74.deprecated.md: Устаревшая функциональность »
+  - index.md: PHP Manual
+  - migration74.md: Миграция с PHP 7.3.x на PHP 7.4.x
 title: 'Зміни, що ламають зворотну сумісність'
 ---
 ## Зміни, що ламають зворотну сумісність
@@ -14,9 +14,9 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 Спроба використовувати значення типу null, bool, int, float або resource як масив (наприклад, `$null["key"]`) Тепер створить повідомлення.
 
-#### Функція [getdeclaredclasses()](function.get-declared-classes.html)
+#### Функція [getdeclaredclasses()](function.get-declared-classes.md)
 
-Функція [getdeclaredclasses()](function.get-declared-classes.html) більше не повертає анонімних класів, які ще не були створені.
+Функція [getdeclaredclasses()](function.get-declared-classes.md) більше не повертає анонімних класів, які ще не були створені.
 
 #### Ключове слово `fn`
 
@@ -28,7 +28,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 #### Поточні обгортки
 
-При використанні include/require з потоком, [streamWrapper::streamsetoption()](streamwrapper.stream-set-option.html) буде викликатись з параметром **`STREAM_OPTION_READ_BUFFER`**. Для користувальницьких потокових обгорток, можливо, знадобиться реалізація методу [streamWrapper::streamsetoption()](streamwrapper.stream-set-option.html), щоб прибрати попередження (як правило, вистачає тільки повернення **`false`**
+При використанні include/require з потоком, [streamWrapper::streamsetoption()](streamwrapper.stream-set-option.md) буде викликатись з параметром **`STREAM_OPTION_READ_BUFFER`**. Для користувальницьких потокових обгорток, можливо, знадобиться реалізація методу [streamWrapper::streamsetoption()](streamwrapper.stream-set-option.md), щоб прибрати попередження (як правило, вистачає тільки повернення **`false`**
 
 #### Серіалізація
 
@@ -45,13 +45,13 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 Програми, які правильно використовують константи PASSWORDDEFAULT, PASSWORDBCRYPT, PASSWORDARGON2I та PASSWORDARGON2ID, працюватимуть як і раніше.
 
-#### Функція [htmlentities()](function.htmlentities.html)
+#### Функція [htmlentities()](function.htmlentities.md)
 
-Функція [htmlentities()](function.htmlentities.html) тепер буде видавати повідомлення (замість попередження рівня ESTRICT), якщо воно використовується з кодуванням, для якого підтримується лише перетворення основних символів. У цьому випадку вона еквівалентна використанню [htmlspecialchars()](function.htmlspecialchars.html)
+Функція [htmlentities()](function.htmlentities.md) тепер буде видавати повідомлення (замість попередження рівня ESTRICT), якщо воно використовується з кодуванням, для якого підтримується лише перетворення основних символів. У цьому випадку вона еквівалентна використанню [htmlspecialchars()](function.htmlspecialchars.md)
 
-#### Функції [fread()](function.fread.html) і [fwrite()](function.fwrite.html)
+#### Функції [fread()](function.fread.md) і [fwrite()](function.fwrite.md)
 
-Функції [fread()](function.fread.html) і [fwrite()](function.fwrite.html) тепер повертатимуть \*\*`false`\*\*якщо операція не вдалася. Раніше повертався порожній рядок або 0. До помилок EAGAIN/EWOULDBLOCK це не стосується.
+Функції [fread()](function.fread.md) і [fwrite()](function.fwrite.md) тепер повертатимуть \*\*`false`\*\*якщо операція не вдалася. Раніше повертався порожній рядок або 0. До помилок EAGAIN/EWOULDBLOCK це не стосується.
 
 Ці функції тепер також викликають повідомлення при невдалому виконанні, наприклад, під час запису файловий ресурс, призначений лише читання.
 
@@ -61,31 +61,31 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### CURL
 
-Спроба серіалізації класу [CURLFile](class.curlfile.html) тепер створить виняток. Раніше виняток викидався лише за десеріалізації.
+Спроба серіалізації класу [CURLFile](class.curlfile.md) тепер створить виняток. Раніше виняток викидався лише за десеріалізації.
 
 Використання **`CURLPIPE_HTTP1`** оголошено застарілим і не підтримуватиметься з версії cURL 7.62.0.
 
-Параметр `$version` функції [curlversion()](function.curl-version.html) оголошено застарілим. Якщо передається значення, не рівне **`CURLVERSION_NOW`** за промовчанням буде викликано попередження, а параметр проігноровано.
+Параметр `$version` функції [curlversion()](function.curl-version.md) оголошено застарілим. Якщо передається значення, не рівне **`CURLVERSION_NOW`** за промовчанням буде викликано попередження, а параметр проігноровано.
 
 ### дата і час
 
-Виклик [vardump()](function.var-dump.html) або схожої налагоджувальної функції з екземпляром [DateTime](class.datetime.html) або [DateTimeImmutable](class.datetimeimmutable.html) більше не залишає після виконання доступних властивостей.
+Виклик [vardump()](function.var-dump.md) або схожої налагоджувальної функції з екземпляром [DateTime](class.datetime.md) або [DateTimeImmutable](class.datetimeimmutable.md) більше не залишає після виконання доступних властивостей.
 
-Порівняння об'єктів [DateInterval](class.dateinterval.html) (з використанням `==` `<` і т.д.) тепер створює попередження і завжди повертає **`false`**. Раніше всі об'єкти [DateInterval](class.dateinterval.html) вважалися однаковими, якщо вони не мали властивостей.
+Порівняння об'єктів [DateInterval](class.dateinterval.md) (з використанням `==` `<` і т.д.) тепер створює попередження і завжди повертає **`false`**. Раніше всі об'єкти [DateInterval](class.dateinterval.md) вважалися однаковими, якщо вони не мали властивостей.
 
 ### Intl
 
-Значення параметрів за замовчуванням у функціях [idnтоascii()](function.idn-to-ascii.html) і [idnтоutf8()](function.idn-to-utf8.html) тепер **`INTL_IDNA_VARIANT_UTS46`** замість застарілого **`INTL_IDNA_VARIANT_2003`**
+Значення параметрів за замовчуванням у функціях [idnтоascii()](function.idn-to-ascii.md) і [idnтоutf8()](function.idn-to-utf8.md) тепер **`INTL_IDNA_VARIANT_UTS46`** замість застарілого **`INTL_IDNA_VARIANT_2003`**
 
 ### MySQLi
 
 Функціональність вбудованого сервера видалено. Вона була зламана як мінімум із PHP 7.0.
 
-Недокументована властивість `mysqli::$stat` було видалено на користь використання [mysqli::stat()](mysqli.stat.html)
+Недокументована властивість `mysqli::$stat` було видалено на користь використання [mysqli::stat()](mysqli.stat.md)
 
 ### OpenSSL
 
-Функція [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.html) тепер викидатиме виняток у ситуаціях, що й функція [randombytes()](function.random-bytes.html). Зокрема, викидається [Error](class.error.html), якщо кількість запрошених байтів менша або дорівнює нулю. Виняток [Exception](class.exception.html) викидається, якщо не отримано достатньої випадковості. Аргумент `$crypto_strong` гарантовано завжди дорівнюватиме \*\*`true`\*\*якщо функція нічого не викидає, тому явно перевіряти його не потрібно.
+Функція [opensslrandompseudobytes()](function.openssl-random-pseudo-bytes.md) тепер викидатиме виняток у ситуаціях, що й функція [randombytes()](function.random-bytes.md). Зокрема, викидається [Error](class.error.md), якщо кількість запрошених байтів менша або дорівнює нулю. Виняток [Exception](class.exception.md) викидається, якщо не отримано достатньої випадковості. Аргумент `$crypto_strong` гарантовано завжди дорівнюватиме \*\*`true`\*\*якщо функція нічого не викидає, тому явно перевіряти його не потрібно.
 
 ### Регулярні вирази (сумісні Perl)
 
@@ -93,33 +93,33 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ### Об'єкти даних PHP (PDO)
 
-Спроба серіалізувати екземпляр [PDO](class.pdo.html) або [PDOStatement](class.pdostatement.html) тепер створить [Exception](class.exception.html), а не [PDOException](class.pdoexception.html)за аналогією з іншими внутрішніми класами, які не підтримують серіалізацію.
+Спроба серіалізувати екземпляр [PDO](class.pdo.md) або [PDOStatement](class.pdostatement.md) тепер створить [Exception](class.exception.md), а не [PDOException](class.pdoexception.md)за аналогією з іншими внутрішніми класами, які не підтримують серіалізацію.
 
 ### Reflection
 
 Об'єкти Reflection тепер створюють виняток, якщо спробувати серіалізувати їх. Серіалізація об'єктів Reflection ніколи не підтримувалась і призводила до пошкодження об'єктів Reflection. Наразі це було явно заборонено.
 
-Змінилися значення констант класів [ReflectionClassConstant](class.reflectionclassconstant.html) [ReflectionMethod](class.reflectionmethod.html) і [ReflectionProperty](class.reflectionproperty.html)
+Змінилися значення констант класів [ReflectionClassConstant](class.reflectionclassconstant.md) [ReflectionMethod](class.reflectionmethod.md) і [ReflectionProperty](class.reflectionproperty.md)
 
 ### Стандартна бібліотека PHP (SPL)
 
-Виклик [getobjectvars()](function.get-object-vars.html) з екземпляром [ArrayObject](class.arrayobject.html) тепер завжди повертатиме властивості самого [ArrayObject](class.arrayobject.html) (або підкласу). Раніше він повертав значення упакованого масиву/об'єкта, якщо не було вказано прапор **`ArrayObject::STD_PROP_LIST`**
+Виклик [getobjectvars()](function.get-object-vars.md) з екземпляром [ArrayObject](class.arrayobject.md) тепер завжди повертатиме властивості самого [ArrayObject](class.arrayobject.md) (або підкласу). Раніше він повертав значення упакованого масиву/об'єкта, якщо не було вказано прапор **`ArrayObject::STD_PROP_LIST`**
 
 Інші порушені операції:
 
 -   **ReflectionObject::getProperties()**
--   [reset()](function.reset.html) [current()](function.current.html) і т.д. Використовуйте натомість методи [Iterator](class.iterator.html)
--   Ймовірно, решта працює з властивостями об'єкта при доступі у вигляді списку, наприклад, [arraywalk()](function.array-walk.html)
+-   [reset()](function.reset.md) [current()](function.current.md) і т.д. Використовуйте натомість методи [Iterator](class.iterator.md)
+-   Ймовірно, решта працює з властивостями об'єкта при доступі у вигляді списку, наприклад, [arraywalk()](function.array-walk.md)
 
-На приведення типу `(array)` ці зміни не вплинуть. Вони, як і раніше, повертають або упакований масив, або властивості. [ArrayObject](class.arrayobject.html), залежно від того, чи використовується прапор **`ArrayObject::STD_PROP_LIST`**
+На приведення типу `(array)` ці зміни не вплинуть. Вони, як і раніше, повертають або упакований масив, або властивості. [ArrayObject](class.arrayobject.md), залежно від того, чи використовується прапор **`ArrayObject::STD_PROP_LIST`**
 
-Метод [SplPriorityQueue::setExtractFlags()](splpriorityqueue.setextractflags.html) викине виняток, якщо передано нуль. Раніше це призводило до фатальної помилки, що відловлюється, при наступній операції вилучення.
+Метод [SplPriorityQueue::setExtractFlags()](splpriorityqueue.setextractflags.md) викине виняток, якщо передано нуль. Раніше це призводило до фатальної помилки, що відловлюється, при наступній операції вилучення.
 
-[ArrayObject](class.arrayobject.html) [ArrayIterator](class.arrayiterator.html) [SplDoublyLinkedList](class.spldoublylinkedlist.html) і [SplObjectStorage](class.splobjectstorage.html) тепер підтримують `__serialize()` і `__unserialize()` на додаток до інтерфейсу [Serializable](class.serializable.html). Тому тепер створені в більш старих версіях PHP серіалізовані дані все ще можуть бути неправильно оброблені. Однак нові створені серіалізовані дані в PHP 7.4 не сприйматимуться в більш старих версіях.
+[ArrayObject](class.arrayobject.md) [ArrayIterator](class.arrayiterator.md) [SplDoublyLinkedList](class.spldoublylinkedlist.md) і [SplObjectStorage](class.splobjectstorage.md) тепер підтримують `__serialize()` і `__unserialize()` на додаток до інтерфейсу [Serializable](class.serializable.md). Тому тепер створені в більш старих версіях PHP серіалізовані дані все ще можуть бути неправильно оброблені. Однак нові створені серіалізовані дані в PHP 7.4 не сприйматимуться в більш старих версіях.
 
 ### Лексер (Tokenizer)
 
-Функція [tokengetall()](function.token-get-all.html) тепер відобразить мітку **`T_BAD_CHARACTER`** у разі виявлення непередбачених символів у потоці міток.
+Функція [tokengetall()](function.token-get-all.md) тепер відобразить мітку **`T_BAD_CHARACTER`** у разі виявлення непередбачених символів у потоці міток.
 
 ### Вхідні Cookies
 

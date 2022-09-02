@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayiterator.asort.html: '« ArrayIterator::asort'
-  - arrayiterator.count.html: 'ArrayIterator::count »'
-  - index.html: PHP Manual
-  - class.arrayiterator.html: ArrayIterator
+  - arrayiterator.asort.md: '« ArrayIterator::asort'
+  - arrayiterator.count.md: 'ArrayIterator::count »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::construct'
 ---
 # ArrayIterator::construct
@@ -16,7 +16,7 @@ ArrayIterator::construct — Створює ArrayIterator
 
 public **ArrayIterator::construct**(array | об'єкт `$array` , int `$flags`
 
-Створює [ArrayIterator](class.arrayiterator.html) типу об'єкта.
+Створює [ArrayIterator](class.arrayiterator.md) типу об'єкта.
 
 **Увага**
 
@@ -30,8 +30,8 @@ public **ArrayIterator::construct**(array | об'єкт `$array` , int `$flags`
 
 `flags`
 
-Прапори для керування поведінкою об'єкта [ArrayIterator](class.arrayiterator.html). Дивіться [ArrayIterator::setFlags()](arrayiterator.setflags.html)
+Прапори для керування поведінкою об'єкта [ArrayIterator](class.arrayiterator.md). Дивіться [ArrayIterator::setFlags()](arrayiterator.setflags.md)
 
 ### Дивіться також
 
--   [ArrayIterator::getArrayCopy()](arrayiterator.getarraycopy.html) - Повертає копію масиву
+-   [ArrayIterator::getArrayCopy()](arrayiterator.getarraycopy.md) - Повертає копію масиву

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getarrayelementtype.html: '« FFICType::getArrayElementType'
-  - ffi-ctype.getattributes.html: 'FFICType::getAttributes »'
+  - ffi-ctype.getarrayelementtype.md: '« FFICType::getArrayElementType'
+  - ffi-ctype.getattributes.md: 'FFICType::getAttributes »'
   - index.md: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getArrayLength'
 ---
 # FFICType::getArrayLength

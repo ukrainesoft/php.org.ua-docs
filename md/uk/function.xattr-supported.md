@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.xattr-set.html: « xattrset
+  - function.xattr-set.md: « xattrset
   - book.xdiff.md: xdiff »
   - index.md: PHP Manual
   - ref.xattr.md: xattr Функции

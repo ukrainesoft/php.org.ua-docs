@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dbase-get-record.html: « dbasegetrecord
-  - function.dbase-numrecords.html: dbasenumrecords »
-  - index.html: PHP Manual
-  - ref.dbase.html: dBase
+  - function.dbase-get-record.md: « dbasegetrecord
+  - function.dbase-numrecords.md: dbasenumrecords »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
 title: dbasenumfields
 ---
 # dbasenumfields
@@ -28,7 +28,7 @@ dbase_numfields(resource $database): int
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 ### Значення, що повертаються
 
@@ -78,4 +78,4 @@ dbase_close($db);
 
 ### Дивіться також
 
--   [dbasenumrecords()](function.dbase-numrecords.html) - Отримує кількість записів у базі даних
+-   [dbasenumrecords()](function.dbase-numrecords.md) - Отримує кількість записів у базі даних

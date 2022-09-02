@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.on.html: '« SwooleServer::on'
-  - swoole-server.protect.html: 'SwooleServer::protect »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - swoole-server.on.md: '« SwooleServer::on'
+  - swoole-server.protect.md: 'SwooleServer::protect »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::pause'
 ---
 # SwooleServer::pause

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.setlogger.html: '« SeasLog::setLogger'
-  - seaslog.setrequestvariable.html: 'SeasLog::setRequestVariable »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.setlogger.md: '« SeasLog::setLogger'
+  - seaslog.setrequestvariable.md: 'SeasLog::setRequestVariable »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::setRequestID'
 ---
 # SeasLog::setRequestID
@@ -50,4 +50,4 @@ bool(true)
 
 ### Дивіться також
 
--   [SeasLog::getRequestID()](seaslog.getrequestid.html) - Отримує диференційовані запити SeasLog requestід
+-   [SeasLog::getRequestID()](seaslog.getrequestid.md) - Отримує диференційовані запити SeasLog requestід

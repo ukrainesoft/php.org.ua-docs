@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-readable.html: « isreadable
-  - function.is-writable.html: ісwritable »
+  - function.is-readable.md: « isreadable
+  - function.is-writable.md: ісwritable »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: ісuploadedfile

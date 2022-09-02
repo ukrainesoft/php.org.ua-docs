@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-descale-train.html: « fanndescaletrain
-  - function.fann-destroy.html: fanndestroy »
+  - function.fann-descale-train.md: « fanndescaletrain
+  - function.fann-destroy.md: fanndestroy »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanndestroytrain

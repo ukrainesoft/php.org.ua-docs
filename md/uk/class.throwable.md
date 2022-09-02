@@ -1,9 +1,9 @@
 ---
 navigation:
-  - iteratoraggregate.getiterator.html: '« IteratorAggregate::getIterator'
-  - throwable.getmessage.html: 'Throwable::getMessage »'
-  - index.html: PHP Manual
-  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+  - iteratoraggregate.getiterator.md: '« IteratorAggregate::getIterator'
+  - throwable.getmessage.md: 'Throwable::getMessage »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Throwable
 ---
 # Throwable
@@ -12,11 +12,11 @@ title: Throwable
 
 ## Вступ
 
-**Throwable** є батьківським інтерфейсом для всіх об'єктів, що викидаються за допомогою виразу [`throw`](language.exceptions.html), включаючи класи [Error](class.error.html) і [Exception](class.exception.html)
+**Throwable** є батьківським інтерфейсом для всіх об'єктів, що викидаються за допомогою виразу [`throw`](language.exceptions.md), включаючи класи [Error](class.error.md) і [Exception](class.exception.md)
 
 > **Зауваження**
 > 
-> Класи PHP не можуть безпосередньо реалізувати інтерфейс **Throwable**. Натомість вони можуть успадковувати підклас [Exception](class.exception.html)
+> Класи PHP не можуть безпосередньо реалізувати інтерфейс **Throwable**. Натомість вони можуть успадковувати підклас [Exception](class.exception.md)
 
 ## Огляд інтерфейсів
 
@@ -55,15 +55,15 @@ abstract public __toString(): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Клас **Throwable** тепер реалізує інтерфейс [Stringable](class.stringable.html) |
+|  | Клас **Throwable** тепер реалізує інтерфейс [Stringable](class.stringable.md) |
 
 ## Зміст
 
--   [Throwable::getMessage](throwable.getmessage.html) — Отримує повідомлення помилки
--   [Throwable::getCode](throwable.getcode.html) — Повертає код виключення
--   [Throwable::getFile](throwable.getfile.html) — Повертає файл, у якому викинуто виняток
--   [Throwable::getLine](throwable.getline.html) — Отримує рядок скрипта, в якому цей об'єкт було викинуто
--   [Throwable::getTrace](throwable.gettrace.html) — Повертає трасування стека
--   [Throwable::getTraceAsString](throwable.gettraceasstring.html) — Отримує результати трасування стека у вигляді рядка
--   [Throwable::getPrevious](throwable.getprevious.html) — Повертає попередній Throwable
--   [Throwable::toString](throwable.tostring.html) — Отримує рядкову виставу викинутого об'єкта
+-   [Throwable::getMessage](throwable.getmessage.md) — Отримує повідомлення помилки
+-   [Throwable::getCode](throwable.getcode.md) — Повертає код виключення
+-   [Throwable::getFile](throwable.getfile.md) — Повертає файл, у якому викинуто виняток
+-   [Throwable::getLine](throwable.getline.md) — Отримує рядок скрипта, в якому цей об'єкт було викинуто
+-   [Throwable::getTrace](throwable.gettrace.md) — Повертає трасування стека
+-   [Throwable::getTraceAsString](throwable.gettraceasstring.md) — Отримує результати трасування стека у вигляді рядка
+-   [Throwable::getPrevious](throwable.getprevious.md) — Повертає попередній Throwable
+-   [Throwable::toString](throwable.tostring.md) — Отримує рядкову виставу викинутого об'єкта

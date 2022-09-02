@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.gettermsincludelowerbound.html: '« SolrQuery::getTermsIncludeLowerBound'
-  - solrquery.gettermslimit.html: 'SolrQuery::getTermsLimit »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.gettermsincludelowerbound.md: '« SolrQuery::getTermsIncludeLowerBound'
+  - solrquery.gettermslimit.md: 'SolrQuery::getTermsLimit »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getTermsIncludeUpperBound'
 ---
 # SolrQuery::getTermsIncludeUpperBound

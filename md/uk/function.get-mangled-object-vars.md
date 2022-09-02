@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-declared-traits.html: « getdeclaredtraits
-  - function.get-object-vars.html: getobjectvars »
-  - index.html: PHP Manual
-  - ref.classobj.html: Функції роботи з класами та об'єктами
+  - function.get-declared-traits.md: « getdeclaredtraits
+  - function.get-object-vars.md: getobjectvars »
+  - index.md: PHP Manual
+  - ref.classobj.md: Функції роботи з класами та об'єктами
 title: getmangledobjectvars
 ---
 # getmangledobjectvars
@@ -18,7 +18,7 @@ getmangledobjectvars — Повертає масив спотворених вл
 get_mangled_object_vars(object $object): array
 ```
 
-Повертає масив (array), елементи якого властивості (змінні-члени) цього об'єкта. Ключами будуть імена змінних-членів з деякими примітними винятками: до закритих полів класу (private) попереду буде дописано ім'я класу; до захищених полів класу (protected) попереду буде додано символ `*`. Ці додані значення з обох сторін також мають `NUL` байти. Неініціалізовані [типізовані властивості](language.oop5.properties.html#language.oop5.properties.typed-properties) автоматично відкидаються.
+Повертає масив (array), елементи якого властивості (змінні-члени) цього об'єкта. Ключами будуть імена змінних-членів з деякими примітними винятками: до закритих полів класу (private) попереду буде дописано ім'я класу; до захищених полів класу (protected) попереду буде додано символ `*`. Ці додані значення з обох сторін також мають `NUL` байти. Неініціалізовані [типізовані властивості](language.oop5.properties.md#language.oop5.properties.typed-properties) автоматично відкидаються.
 
 ### Список параметрів
 
@@ -95,5 +95,5 @@ array(2) {
 
 ### Дивіться також
 
--   [getclassvars()](function.get-class-vars.html) - Повертає оголошені за умовчанням властивості класу
--   [getobjectvars()](function.get-object-vars.html) - Повертає властивості вказаного об'єкту
+-   [getclassvars()](function.get-class-vars.md) - Повертає оголошені за умовчанням властивості класу
+-   [getobjectvars()](function.get-object-vars.md) - Повертає властивості вказаного об'єкту

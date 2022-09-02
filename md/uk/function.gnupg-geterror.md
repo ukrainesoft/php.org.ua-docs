@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-getengineinfo.html: « gnupggetengineinfo
-  - function.gnupg-geterrorinfo.html: gnupggeterrorinfo »
+  - function.gnupg-getengineinfo.md: « gnupggetengineinfo
+  - function.gnupg-geterrorinfo.md: gnupggeterrorinfo »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupggeterror

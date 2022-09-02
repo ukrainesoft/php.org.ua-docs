@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-cascadetrain-on-file.html: « fanncascadetrainвінfile
-  - function.fann-copy.html: fanncopy »
+  - function.fann-cascadetrain-on-file.md: « fanncascadetrainвінfile
+  - function.fann-copy.md: fanncopy »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannclearscalingparams

@@ -39,7 +39,7 @@ var_dump(B::counter()); // int(4), ранее было int(2)
 
 #### Необов'язкові параметри, вказані перед обов'язковими параметрами
 
-[Необов'язковий параметр](functions.arguments.html#functions.arguments.default), вказаний перед обов'язковими параметрами, тепер завжди обробляється як обов'язковий навіть при виклику з використанням [іменованих аргументів](functions.arguments.html#functions.named-arguments). Починаючи з PHP 8.0.0, але до PHP 8.1.0, наведений нижче код видає попередження про старіння визначення, але успішно виконується під час виклику. Починаючи з PHP 8.1.0, видається помилка класу [ArgumentCountError](class.argumentcounterror.md), як це було б під час виклику з позиційними аргументами.
+[Необов'язковий параметр](functions.arguments.md#functions.arguments.default), вказаний перед обов'язковими параметрами, тепер завжди обробляється як обов'язковий навіть при виклику з використанням [іменованих аргументів](functions.arguments.md#functions.named-arguments). Починаючи з PHP 8.0.0, але до PHP 8.1.0, наведений нижче код видає попередження про старіння визначення, але успішно виконується під час виклику. Починаючи з PHP 8.1.0, видається помилка класу [ArgumentCountError](class.argumentcounterror.md), як це було б під час виклику з позиційними аргументами.
 
 ```php
 <?php
@@ -74,7 +74,7 @@ Deprecated: Optional parameter $container declared before required parameter
 ArgumentCountError - makeyogurt(): Argument #1 ($container) not passed
 ```
 
-Зверніть увагу, що значення за замовчуванням **`null`** може використовуватися перед обов'язковими параметрами для вказівки [типа, допускающего значение null](language.types.declarations.html#language.types.declarations.nullable)Але цей параметр все одно буде обов'язковим.
+Зверніть увагу, що значення за замовчуванням **`null`** може використовуватися перед обов'язковими параметрами для вказівки [типа, допускающего значение null](language.types.declarations.md#language.types.declarations.nullable)Але цей параметр все одно буде обов'язковим.
 
 #### Сумісність типу значення, що повертається, з внутрішніми класами
 
@@ -115,7 +115,7 @@ ArgumentCountError - makeyogurt(): Argument #1 ($container) not passed
 
 ### MySQLi
 
-Функції [mysqlifetchfields()](mysqli-result.fetch-fields.html) і [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) тепер завжди повертають `0` у властивості maxlength. Це значення можна обчислити, перебираючи набір результатів та вибираючи максимальну довжину. Такий алгоритм раніше використовував PHP.
+Функції [mysqlifetchfields()](mysqli-result.fetch-fields.md) і [mysqlifetchfielddirect()](mysqli-result.fetch-field-direct.md) тепер завжди повертають `0` у властивості maxlength. Це значення можна обчислити, перебираючи набір результатів та вибираючи максимальну довжину. Такий алгоритм раніше використовував PHP.
 
 Опція **`MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH`** більше немає сенсу.
 
@@ -129,13 +129,13 @@ ArgumentCountError - makeyogurt(): Argument #1 ($container) not passed
 
 ### MySQLnd
 
-INI-директива [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.fetch_data_copy) було видалено. Це не повинно призводити до видимих ​​для користувача змін у поведінці.
+INI-директива [mysqlnd.fetchdatacopy](mysqlnd.config.md#ini.mysqlnd.fetch_data_copy) було видалено. Це не повинно призводити до видимих ​​для користувача змін у поведінці.
 
 ### OpenSSL
 
 Секретні ключі EC тепер експортуватимуться у форматі PKCS#8, а не у традиційному форматі, як і всі інші ключі.
 
-[opensslpkcs7encrypt()](function.openssl-pkcs7-encrypt.html) і [opensslcmsencrypt()](function.openssl-cms-encrypt.md) тепер за замовчуванням використовують шифр AES-128-CBC, а чи не RC2-40. Шифр RC2-40 вважається небезпечним і не включений за промовчанням у OpenSSL 3.
+[opensslpkcs7encrypt()](function.openssl-pkcs7-encrypt.md) і [opensslcmsencrypt()](function.openssl-cms-encrypt.md) тепер за замовчуванням використовують шифр AES-128-CBC, а чи не RC2-40. Шифр RC2-40 вважається небезпечним і не включений за промовчанням у OpenSSL 3.
 
 ### Об'єкти даних PHP
 
@@ -159,7 +159,7 @@ INI-директива [mysqlnd.fetchdatacopy](mysqlnd.config.html#ini.mysqlnd.f
 
 [versioncompare()](function.version-compare.md) більше не приймає недокументованих скорочень операторів.
 
-Функції [htmlspecialchars()](function.htmlspecialchars.md) [htmlentities()](function.htmlentities.md) [htmlspecialcharsdecode()](function.htmlspecialchars-decode.html) [htmlentitydecode()](function.html-entity-decode.html) і [gethtmltranslationtable()](function.get-html-translation-table.md) тепер за умовчанням використовують `ENT_QUOTES | ENT_SUBSTITUTE` замість **`ENT_COMPAT`**. Це означає, що тепер `'` екранується в `&#039;`. Крім того, у разі неправильного UTF-8 замість порожнього рядка буде повернуто заміщувальний символ Unicode.
+Функції [htmlspecialchars()](function.htmlspecialchars.md) [htmlentities()](function.htmlentities.md) [htmlspecialcharsdecode()](function.htmlspecialchars-decode.md) [htmlentitydecode()](function.html-entity-decode.md) і [gethtmltranslationtable()](function.get-html-translation-table.md) тепер за умовчанням використовують `ENT_QUOTES | ENT_SUBSTITUTE` замість **`ENT_COMPAT`**. Це означає, що тепер `'` екранується в `&#039;`. Крім того, у разі неправильного UTF-8 замість порожнього рядка буде повернуто заміщувальний символ Unicode.
 
 [debugzvaldump()](function.debug-zval-dump.md) тепер виводить refcount оболонок посилань з їх refcount, замість того, щоб просто додавати `&` до значення. Це більш точно моделює еталонну виставу, починаючи з PHP 7.0.
 

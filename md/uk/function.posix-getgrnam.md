@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-getgrgid.html: « posixgetgrgid
-  - function.posix-getgroups.html: posixgetgroups »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-getgrgid.md: « posixgetgrgid
+  - function.posix-getgroups.md: posixgetgroups »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixgetgrnam
 ---
 # posixgetgrnam
@@ -70,8 +70,8 @@ Array
 
 ### Дивіться також
 
--   [posixgetegid()](function.posix-getegid.html) - Повертає ефективний ідентифікатор групи поточного процесу EGID
--   [posixgetgrgid()](function.posix-getgrgid.html) - Повертає інформацію про групу за її ID
--   [filegroup()](function.filegroup.html) - Отримує ідентифікатор групи файлу
--   [stat()](function.stat.html) - Повертає інформацію про файл
+-   [posixgetegid()](function.posix-getegid.md) - Повертає ефективний ідентифікатор групи поточного процесу EGID
+-   [posixgetgrgid()](function.posix-getgrgid.md) - Повертає інформацію про групу за її ID
+-   [filegroup()](function.filegroup.md) - Отримує ідентифікатор групи файлу
+-   [stat()](function.stat.md) - Повертає інформацію про файл
 -   POSIX керівництво GETGRNAM(3)

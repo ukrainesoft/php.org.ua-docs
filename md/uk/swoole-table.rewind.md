@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.next.html: '« SwooleTable::next'
-  - swoole-table.set.html: 'SwooleTable::set »'
-  - index.html: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - swoole-table.next.md: '« SwooleTable::next'
+  - swoole-table.set.md: 'SwooleTable::set »'
+  - index.md: PHP Manual
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::rewind'
 ---
 # SwooleTable::rewind

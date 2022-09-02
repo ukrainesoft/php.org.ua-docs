@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.toarray.html: '« DsStack::toArray'
-  - ds-queue.allocate.html: 'ДсQueue::allocate »'
-  - index.html: PHP Manual
-  - book.ds.html: Структури даних
+  - ds-stack.toarray.md: '« DsStack::toArray'
+  - ds-queue.allocate.md: 'ДсQueue::allocate »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
 title: Клас Queue
 ---
 # Клас Queue

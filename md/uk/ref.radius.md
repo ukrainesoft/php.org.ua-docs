@@ -1,7 +1,7 @@
 ---
 navigation:
   - radius.examples.md: « Приклади
-  - function.radius-acct-open.html: radiusacctopen »
+  - function.radius-acct-open.md: radiusacctopen »
   - index.md: PHP Manual
   - book.radius.md: Radius
 title: Функції Radius

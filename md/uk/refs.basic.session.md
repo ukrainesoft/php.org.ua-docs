@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.fpm-get-status.html: « fpmgetstatus
+  - function.fpm-get-status.md: « fpmgetstatus
   - book.session.md: Сессии »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

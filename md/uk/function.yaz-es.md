@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-es-result.html: « yazесresult
-  - function.yaz-get-option.html: yazgetoption »
+  - function.yaz-es-result.md: « yazесresult
+  - function.yaz-get-option.md: yazgetoption »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazес
@@ -30,7 +30,7 @@ yaz_es(
 > 
 > Чимало серверів Z39.50 не підтримують Extended Services.
 
-**yazes()** створює пакети Extended Service Request і поміщає в чергу операцій. Використовуйте [yazwait()](function.yaz-wait.html) для надсилання запиту(ів) на сервер. Після завершення [yazwait()](function.yaz-wait.html), результату операцій Extended Service слід очікувати за допомогою дзвінка [yazесresult()](function.yaz-es-result.md)
+**yazes()** створює пакети Extended Service Request і поміщає в чергу операцій. Використовуйте [yazwait()](function.yaz-wait.md) для надсилання запиту(ів) на сервер. Після завершення [yazwait()](function.yaz-wait.md), результату операцій Extended Service слід очікувати за допомогою дзвінка [yazесresult()](function.yaz-es-result.md)
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-manager.html: « MongoDBDriverManager
-  - mongodb-driver-manager.construct.html: 'MongoDBDriverManager::construct »'
+  - class.mongodb-driver-manager.md: « MongoDBDriverManager
+  - mongodb-driver-manager.construct.md: 'MongoDBDriverManager::construct »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.html: MongoDBDriverManager
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
 title: 'MongoDBDriverManager::addSubscriber'
 ---
 # MongoDBDriverManager::addSubscriber

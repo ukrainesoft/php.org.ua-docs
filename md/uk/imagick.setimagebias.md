@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagebackgroundcolor.html: '« Imagick::setImageBackgroundColor'
-  - imagick.setimagebiasquantum.html: 'Imagick::setImageBiasQuantum »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagebackgroundcolor.md: '« Imagick::setImageBackgroundColor'
+  - imagick.setimagebiasquantum.md: 'Imagick::setImageBiasQuantum »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageBias'
 ---
 # Imagick::setImageBias

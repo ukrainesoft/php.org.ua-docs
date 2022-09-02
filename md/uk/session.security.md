@@ -1,9 +1,9 @@
 ---
 navigation:
-  - session.upload-progress.html: « Отслеживание прогресса загрузки файлов с помощью сессий
-  - features.session.security.management.html: Базові засади управління сесіями »
-  - index.html: PHP Manual
-  - book.session.html: Сессии
+  - session.upload-progress.md: « Отслеживание прогресса загрузки файлов с помощью сессий
+  - features.session.security.management.md: Базові засади управління сесіями »
+  - index.md: PHP Manual
+  - book.session.md: Сессии
 title: Безпека сесій
 ---
 # Безпека сесій

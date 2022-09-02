@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.basic-syntax.instruction-separation.html: « Разделение инструкций
+  - language.basic-syntax.instruction-separation.md: « Разделение инструкций
   - language.types.md: Типи »
   - index.md: PHP Manual
-  - language.basic-syntax.html: Основи синтаксису
+  - language.basic-syntax.md: Основи синтаксису
 title: Коментарі
 ---
 ## Коментарі

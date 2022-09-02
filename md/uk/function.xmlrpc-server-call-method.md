@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xmlrpc-server-add-introspection-data.html: « xmlrpcserveraddintrospectiondata
-  - function.xmlrpc-server-create.html: xmlrpcservercreate »
+  - function.xmlrpc-server-add-introspection-data.md: « xmlrpcserveraddintrospectiondata
+  - function.xmlrpc-server-create.md: xmlrpcservercreate »
   - index.md: PHP Manual
   - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcservercallметод

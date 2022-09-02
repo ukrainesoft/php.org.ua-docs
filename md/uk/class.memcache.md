@@ -1,6 +1,6 @@
 ---
 navigation:
-  - memcache.examples-overview.html: « Базовое использование
+  - memcache.examples-overview.md: « Базовое использование
   - memcache.add.md: 'Memcache::add »'
   - index.md: PHP Manual
   - book.memcache.md: Memcache

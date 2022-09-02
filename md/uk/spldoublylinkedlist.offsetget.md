@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.offsetexists.html: '« SplDoublyLinkedList::offsetExists'
-  - spldoublylinkedlist.offsetset.html: 'SplDoublyLinkedList::offsetSet »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.offsetexists.md: '« SplDoublyLinkedList::offsetExists'
+  - spldoublylinkedlist.offsetset.md: 'SplDoublyLinkedList::offsetSet »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::offsetGet'
 ---
 # SplDoublyLinkedList::offsetGet

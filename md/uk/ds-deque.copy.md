@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.contains.html: '« DsDeque::contains'
-  - ds-deque.count.html: 'ДсDeque::count »'
+  - ds-deque.contains.md: '« DsDeque::contains'
+  - ds-deque.count.md: 'ДсDeque::count »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::copy'
 ---
 # ДсDeque::copy

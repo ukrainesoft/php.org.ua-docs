@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.thread-safe.html: '« mysqli::threadsafe'
-  - mysqli.warning-count.html: 'mysqli::$warningcount »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.thread-safe.md: '« mysqli::threadsafe'
+  - mysqli.warning-count.md: 'mysqli::$warningcount »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::useresult'
 ---
 # mysqli::useresult
@@ -34,7 +34,7 @@ mysqli_use_result(mysqli $mysql): mysqli_result|false
 
 > **Зауваження**
 > 
-> **mysqliuseresult()** не передає весь результуючий набір на клієнта, а отже неможливо скористатися функцією [mysqlidataseek()](mysqli-result.data-seek.html)для переміщення по ньому. Для цього потрібно скористатися функцією [mysqlistoreresult()](mysqli.store-result.md). . **mysqliuseresult()** не слід використовувати, якщо на стороні клієнта дані результуючого набору довго обробляються, оскільки це затримує роботу сервера і не дає іншим процесам оновлювати таблиці, дані з яких є в результуючому наборі.
+> **mysqliuseresult()** не передає весь результуючий набір на клієнта, а отже неможливо скористатися функцією [mysqlidataseek()](mysqli-result.data-seek.md)для переміщення по ньому. Для цього потрібно скористатися функцією [mysqlistoreresult()](mysqli.store-result.md). . **mysqliuseresult()** не слід використовувати, якщо на стороні клієнта дані результуючого набору довго обробляються, оскільки це затримує роботу сервера і не дає іншим процесам оновлювати таблиці, дані з яких є в результуючому наборі.
 
 ### Список параметрів
 

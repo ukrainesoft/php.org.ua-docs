@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-value.setstatic.html: '« ComponereValue::setStatic'
-  - componere-value.isprotected.html: 'ComponereValue::isProtected »'
+  - componere-value.setstatic.md: '« ComponereValue::setStatic'
+  - componere-value.isprotected.md: 'ComponereValue::isProtected »'
   - index.md: PHP Manual
-  - class.componere-value.html: ComponereValue
+  - class.componere-value.md: ComponereValue
 title: 'ComponereValue::isPrivate'
 ---
 # ComponereValue::isPrivate

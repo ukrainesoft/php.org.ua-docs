@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-default-timezone-get.html: « datedefaulttimezoneget
-  - function.date-diff.html: datediff »
+  - function.date-default-timezone-get.md: « datedefaulttimezoneget
+  - function.date-diff.md: datediff »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datedefaulttimezoneset
@@ -20,7 +20,7 @@ date_default_timezone_set(string $timezoneId): bool
 
 **datedefaulttimezoneset()** встановлює часовий пояс за промовчанням для всіх функцій дати/часу у скрипті.
 
-Замість використання цієї функції, ви можете скористатися INI-налаштуванням [date.timezone](datetime.configuration.html#ini.date.timezone) для встановлення часового поясу за промовчанням.
+Замість використання цієї функції, ви можете скористатися INI-налаштуванням [date.timezone](datetime.configuration.md#ini.date.timezone) для встановлення часового поясу за промовчанням.
 
 ### Список параметрів
 

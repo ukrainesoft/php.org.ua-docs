@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-response-abstract.setbody.html: '« YafResponseAbstract::setBody'
-  - yaf-response-abstract.setredirect.html: 'YafResponseAbstract::setRedirect »'
+  - yaf-response-abstract.setbody.md: '« YafResponseAbstract::setBody'
+  - yaf-response-abstract.setredirect.md: 'YafResponseAbstract::setRedirect »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.html: YafResponseAbstract
+  - class.yaf-response-abstract.md: YafResponseAbstract
 title: 'YafResponseAbstract::setHeader'
 ---
 # YafResponseAbstract::setHeader

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageprofiles.html: '« Imagick::getImageProfiles'
-  - imagick.getimageproperty.html: 'Imagick::getImageProperty »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageprofiles.md: '« Imagick::getImageProfiles'
+  - imagick.getimageproperty.md: 'Imagick::getImageProperty »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageProperties'
 ---
 # Imagick::getImageProperties

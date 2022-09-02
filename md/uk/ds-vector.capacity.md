@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.apply.html: '« DsVector::apply'
-  - ds-vector.clear.html: 'ДсVector::clear »'
+  - ds-vector.apply.md: '« DsVector::apply'
+  - ds-vector.clear.md: 'ДсVector::clear »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::capacity'
 ---
 # ДсVector::capacity

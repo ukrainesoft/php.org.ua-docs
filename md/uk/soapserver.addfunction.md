@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.soapserver.html: « SoapServer
-  - soapserver.addsoapheader.html: 'SoapServer::addSoapHeader »'
-  - index.html: PHP Manual
-  - class.soapserver.html: SoapServer
+  - class.soapserver.md: « SoapServer
+  - soapserver.addsoapheader.md: 'SoapServer::addSoapHeader »'
+  - index.md: PHP Manual
+  - class.soapserver.md: SoapServer
 title: 'SoapServer::addFunction'
 ---
 # SoapServer::addFunction

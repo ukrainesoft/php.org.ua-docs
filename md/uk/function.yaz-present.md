@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-itemorder.html: « yazitemorder
-  - function.yaz-range.html: yazrange »
+  - function.yaz-itemorder.md: « yazitemorder
+  - function.yaz-range.md: yazrange »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazpresent

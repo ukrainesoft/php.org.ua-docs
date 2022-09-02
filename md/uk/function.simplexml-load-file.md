@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.simplexml-import-dom.html: « simplexmlimportdom
-  - function.simplexml-load-string.html: simplexmlloadstring »
+  - function.simplexml-import-dom.md: « simplexmlimportdom
+  - function.simplexml-load-string.md: simplexmlloadstring »
   - index.md: PHP Manual
   - ref.simplexml.md: Функции SimpleXML
 title: simplexmlloadfile
@@ -56,7 +56,7 @@ simplexml_load_file(    string $filename,    ?string $class_name = Simpl
 
 **Підказка**
 
-Використовуйте функцію [libxmluseinternalerrors()](function.libxml-use-internal-errors.html) для того, щоб придушити всі помилки XML, та функцію [libxmlgeterrors()](function.libxml-get-errors.md) для проходу ними згодом.
+Використовуйте функцію [libxmluseinternalerrors()](function.libxml-use-internal-errors.md) для того, щоб придушити всі помилки XML, та функцію [libxmlgeterrors()](function.libxml-get-errors.md) для проходу ними згодом.
 
 ### Приклади
 

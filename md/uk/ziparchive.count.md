@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.close.html: '« ZipArchive::close'
-  - ziparchive.deleteindex.html: 'ZipArchive::deleteIndex »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.close.md: '« ZipArchive::close'
+  - ziparchive.deleteindex.md: 'ZipArchive::deleteIndex »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::count'
 ---
 # ZipArchive::count

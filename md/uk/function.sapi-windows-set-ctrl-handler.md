@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sapi-windows-generate-ctrl-event.html: « sapiwindowsgeneratectrlevent
-  - function.sapi-windows-vt100-support.html: sapiwindowsvt100support »
+  - function.sapi-windows-generate-ctrl-event.md: « sapiwindowsgeneratectrlevent
+  - function.sapi-windows-vt100-support.md: sapiwindowsvt100support »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: sapiwindowssetctrlhandler

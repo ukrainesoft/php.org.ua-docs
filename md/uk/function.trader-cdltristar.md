@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlthrusting.html: « tradercdlthrusting
-  - function.trader-cdlunique3river.html: tradercdlunique3river »
+  - function.trader-cdlthrusting.md: « tradercdlthrusting
+  - function.trader-cdlunique3river.md: tradercdlunique3river »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdltristar

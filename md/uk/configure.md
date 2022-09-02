@@ -1,6 +1,6 @@
 ---
 navigation:
-  - debugger-about.html: « Об отладке в PHP
+  - debugger-about.md: « Об отладке в PHP
   - configure.about.md: Список основних опцій конфігурації »
   - index.md: PHP Manual
   - appendices.md: Appendices

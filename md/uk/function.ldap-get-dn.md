@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-get-attributes.html: « ldapgetattributes
-  - function.ldap-get-entries.html: ldapgetentries »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-get-attributes.md: « ldapgetattributes
+  - function.ldap-get-entries.md: ldapgetentries »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapgetдн
 ---
 # ldapgetдн
@@ -24,11 +24,11 @@ ldap_get_dn(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.html)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `entry`
 
-Екземпляр [LDAPResultEntry](class.ldap-result-entry.html)
+Екземпляр [LDAPResultEntry](class.ldap-result-entry.md)
 
 ### Значення, що повертаються
 
@@ -38,5 +38,5 @@ ldap_get_dn(LDAP\Connection $ldap, LDAP\ResultEntry $entry): string|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
-|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `entry` тепер чекає екземпляр [LDAPResultEntry](class.ldap-result-entry.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

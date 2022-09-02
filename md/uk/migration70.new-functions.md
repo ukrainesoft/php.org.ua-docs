@@ -1,6 +1,6 @@
 ---
 navigation:
-  - migration70.changed-functions.html: « Змінені функції
+  - migration70.changed-functions.md: « Змінені функції
   - migration70.classes.md: Нові класи та інтерфейси »
   - index.md: PHP Manual
   - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x

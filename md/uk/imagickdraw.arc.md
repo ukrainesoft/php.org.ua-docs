@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.annotation.html: '« ImagickDraw::annotation'
-  - imagickdraw.bezier.html: 'ImagickDraw::bezier »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.annotation.md: '« ImagickDraw::annotation'
+  - imagickdraw.bezier.md: 'ImagickDraw::bezier »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::arc'
 ---
 # ImagickDraw::arc

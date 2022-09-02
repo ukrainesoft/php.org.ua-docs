@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-fetch-row.html: « pgfetchrow
-  - function.pg-field-name.html: пгfieldname »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-fetch-row.md: « pgfetchrow
+  - function.pg-field-name.md: пгfieldname »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгfieldісnull
 ---
 # пгfieldісnull
@@ -22,7 +22,7 @@ pg_field_is_null(PgSql\Result $result, int $row, mixed $field): int
 pg_field_is_null(PgSql\Result $result, mixed $field): int
 ```
 
-**пгfieldісnull()** перевіряє, чи містить осередок екземпляра [PgSqlResult](class.pgsql-result.html) значення SQL `NULL`
+**пгfieldісnull()** перевіряє, чи містить осередок екземпляра [PgSqlResult](class.pgsql-result.md) значення SQL `NULL`
 
 > **Зауваження**
 > 
@@ -32,7 +32,7 @@ pg_field_is_null(PgSql\Result $result, mixed $field): int
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.html) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `row`
 
@@ -50,7 +50,7 @@ pg_field_is_null(PgSql\Result $result, mixed $field): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `result` тепер чекає екземпляр [PgSqlResult](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

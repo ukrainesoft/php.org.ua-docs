@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-prepare.html: « cubridprepare
-  - function.cubrid-rollback.html: cubridrollback »
+  - function.cubrid-prepare.md: « cubridprepare
+  - function.cubrid-rollback.md: cubridrollback »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridput

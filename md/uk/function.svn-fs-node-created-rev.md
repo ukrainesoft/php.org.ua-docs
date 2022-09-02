@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-make-file.html: « svnфсmakefile
-  - function.svn-fs-node-prop.html: svnфсnodeprop »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-make-file.md: « svnфсmakefile
+  - function.svn-fs-node-prop.md: svnфсnodeprop »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсnodecreatedrev
 ---
 # svnфсnodecreatedrev

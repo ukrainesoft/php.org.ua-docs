@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-fetchbody.html: « imapfetchbody
-  - function.imap-fetchmime.html: imapfetchmime »
+  - function.imap-fetchbody.md: « imapfetchbody
+  - function.imap-fetchmime.md: imapfetchmime »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapfetchheader

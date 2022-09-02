@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mailparse-msg-extract-part.html: « mailparsemsgextractpart
-  - function.mailparse-msg-free.html: mailparsemsgfree »
-  - index.html: PHP Manual
-  - ref.mailparse.html: Mailparse
+  - function.mailparse-msg-extract-part.md: « mailparsemsgextractpart
+  - function.mailparse-msg-free.md: mailparsemsgfree »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
 title: mailparsemsgextractwholepartfile
 ---
 # mailparsemsgextractwholepartfile
@@ -36,5 +36,5 @@ mailparse_msg_extract_whole_part_file(resource $mimemail, string $filename, call
 
 ### Дивіться також
 
--   [mailparsemsgextractpart()](function.mailparse-msg-extract-part.html) - Вийняти/декодувати секцію із повідомленням
--   [mailparsemsgextractpartfile()](function.mailparse-msg-extract-part-file.html) - Вийняти/декодувати секцію із повідомленням із файлу
+-   [mailparsemsgextractpart()](function.mailparse-msg-extract-part.md) - Вийняти/декодувати секцію із повідомленням
+-   [mailparsemsgextractpartfile()](function.mailparse-msg-extract-part-file.md) - Вийняти/декодувати секцію із повідомленням із файлу

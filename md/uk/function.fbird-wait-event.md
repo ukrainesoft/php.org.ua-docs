@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-trans.html: « fbirdtrans
-  - function.ibase-add-user.html: ibaseadduser »
+  - function.fbird-trans.md: « fbirdtrans
+  - function.ibase-add-user.md: ibaseadduser »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdwaitevent

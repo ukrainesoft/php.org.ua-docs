@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-request-abstract.setrouted.html: '« YafRequestAbstract::setRouted'
-  - yaf-request-http.construct.html: 'YafRequestHttp::construct »'
+  - yaf-request-abstract.setrouted.md: '« YafRequestAbstract::setRouted'
+  - yaf-request-http.construct.md: 'YafRequestHttp::construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafRequestHttp
@@ -16,7 +16,7 @@ title: Клас YafRequestHttp
 
 > **Зауваження**
 > 
-> З метою безпеки $GET/$POST доступні тільки для читання в Yaf, що означає, що якщо ви встановите значення для цих глобальних змінних, ви не зможете отримати їх за допомогою [YafRequestHttp::getQuery()](yaf-request-http.getquery.html) або [YafRequestHttp::getPost()](yaf-request-http.getpost.md)
+> З метою безпеки $GET/$POST доступні тільки для читання в Yaf, що означає, що якщо ви встановите значення для цих глобальних змінних, ви не зможете отримати їх за допомогою [YafRequestHttp::getQuery()](yaf-request-http.getquery.md) або [YafRequestHttp::getPost()](yaf-request-http.getpost.md)
 > 
 > Якщо виникає потреба у використанні такого функціоналу при модульному тестуванні, Yaf може бути зібраний за допомогою --enable-yaf-debug, який дозволить Yaf прочитати значення, задане користувачем через скрипт.
 > 

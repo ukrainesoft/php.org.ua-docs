@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocicollappend.html: « ocicollappend
-  - function.ocicollassignelem.html: ocicollassignelem »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocicollappend.md: « ocicollappend
+  - function.ocicollassignelem.md: ocicollassignelem »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocicollassign
 ---
 # ocicollassign

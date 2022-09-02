@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mb-substr-count.html: « mbsubstrcount
+  - function.mb-substr-count.md: « mbsubstrcount
   - book.pspell.md: Pspell »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками

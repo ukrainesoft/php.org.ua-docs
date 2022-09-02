@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pspell-store-replacement.html: « pspellstorereplacement
-  - class.pspell-dictionary.html: PSpellDictionary »
-  - index.html: PHP Manual
-  - ref.pspell.html: Функции Pspell
+  - function.pspell-store-replacement.md: « pspellstorereplacement
+  - class.pspell-dictionary.md: PSpellDictionary »
+  - index.md: PHP Manual
+  - ref.pspell.md: Функции Pspell
 title: pspellsuggest
 ---
 # pspellsuggest
@@ -24,7 +24,7 @@ pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 
 `dictionary`
 
-Екземпляр [PSpellDictionary](class.pspell-dictionary.html)
+Екземпляр [PSpellDictionary](class.pspell-dictionary.md)
 
 `word`
 
@@ -38,7 +38,7 @@ pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `dictionary` тепер чекає екземпляр [PSpellDictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

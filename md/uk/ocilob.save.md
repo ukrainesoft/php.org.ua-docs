@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ocilob.rewind.html: '« OCILob::rewind'
-  - ocilob.savefile.html: 'OCILob::saveFile »'
-  - index.html: PHP Manual
-  - class.ocilob.html: OCILob
+  - ocilob.rewind.md: '« OCILob::rewind'
+  - ocilob.savefile.md: 'OCILob::saveFile »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
 title: 'OCILob::save'
 ---
 # OCILob::save
@@ -38,9 +38,9 @@ public OCILob::save(string $data, int $offset = 0): bool
 
 | Версия | Описание |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::write](ocilob.write.html)
--   [OCILob::import](ocilob.import.html)
+-   [OCILob::write](ocilob.write.md)
+-   [OCILob::import](ocilob.import.md)

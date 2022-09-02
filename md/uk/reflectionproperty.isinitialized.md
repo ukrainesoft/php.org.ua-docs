@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.isdefault.html: '« ReflectionProperty::isDefault'
-  - reflectionproperty.isprivate.html: 'ReflectionProperty::isPrivate »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.isdefault.md: '« ReflectionProperty::isDefault'
+  - reflectionproperty.isprivate.md: 'ReflectionProperty::isPrivate »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::isInitialized'
 ---
 # ReflectionProperty::isInitialized
@@ -28,11 +28,11 @@ public ReflectionProperty::isInitialized(?object $object = null): bool
 
 ### Значення, що повертаються
 
-Повертає **`false`** для типизованих властивостей, яким не було надано значення і для властивостей, до яких явно застосували функцію [unset()](function.unset.html). Для решти властивостей повертає **`true`**
+Повертає **`false`** для типизованих властивостей, яким не було надано значення і для властивостей, до яких явно застосували функцію [unset()](function.unset.md). Для решти властивостей повертає **`true`**
 
 ### Помилки
 
-Кидає виняток [ReflectionException](class.reflectionexception.html) якщо властивість недоступна. Доступ до protected і private властивостей можна отримати за допомогою [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html)
+Кидає виняток [ReflectionException](class.reflectionexception.md) якщо властивість недоступна. Доступ до protected і private властивостей можна отримати за допомогою [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md)
 
 ### список змін
 
@@ -68,4 +68,4 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionProperty::hasType()](reflectionproperty.hastype.html) - Перевірити, чи заданий для властивості тип
+-   [ReflectionProperty::hasType()](reflectionproperty.hastype.md) - Перевірити, чи заданий для властивості тип

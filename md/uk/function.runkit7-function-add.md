@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.runkit7-constant-remove.html: « runkit7constantremove
-  - function.runkit7-function-copy.html: runkit7functioncopy »
+  - function.runkit7-constant-remove.md: « runkit7constantremove
+  - function.runkit7-function-copy.md: runkit7functioncopy »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
 title: runkit7functionadd

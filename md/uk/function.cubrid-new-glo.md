@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-load-from-glo.html: « cubridloadfromglo
-  - function.cubrid-save-to-glo.html: cubridsaveтоglo »
+  - function.cubrid-load-from-glo.md: « cubridloadfromglo
+  - function.cubrid-save-to-glo.md: cubridsaveтоglo »
   - index.md: PHP Manual
   - oldaliases.cubrid.md: Застарілі псевдоніми та функції CUBRID
 title: cubridnewglo

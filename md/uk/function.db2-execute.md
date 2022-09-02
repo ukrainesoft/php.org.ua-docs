@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-exec.html: « db2exec
-  - function.db2-fetch-array.html: db2fetcharray »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-exec.md: « db2exec
+  - function.db2-fetch-array.md: db2fetcharray »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2execute
 ---
 # db2execute
@@ -18,17 +18,17 @@ db2execute - Виконує підготовлений SQL-запит
 db2_execute(resource $stmt, array $parameters = ?): bool
 ```
 
-**db2execute()** виконує SQL-запит, підготовлений за допомогою [db2prepare()](function.db2-prepare.html)
+**db2execute()** виконує SQL-запит, підготовлений за допомогою [db2prepare()](function.db2-prepare.md)
 
-Якщо SQL-запит повертає набір результатів, наприклад, інструкція SELECT або CALL для процедури, що зберігається, яка повертає один або кілька наборів результатів, ви можете отримати рядок як масив з ресурсу `stmt`, використовуючи [db2fetchassoc()](function.db2-fetch-assoc.html) [db2fetchboth()](function.db2-fetch-both.html)або [db2fetcharray()](function.db2-fetch-array.html). Як альтернативу ви можете використовувати [db2fetchrow()](function.db2-fetch-row.html) для переміщення покажчика набору результатів на наступний рядок та вибірки стовпця з цього рядка за допомогою [db2result()](function.db2-result.html)
+Якщо SQL-запит повертає набір результатів, наприклад, інструкція SELECT або CALL для процедури, що зберігається, яка повертає один або кілька наборів результатів, ви можете отримати рядок як масив з ресурсу `stmt`, використовуючи [db2fetchassoc()](function.db2-fetch-assoc.md) [db2fetchboth()](function.db2-fetch-both.md)або [db2fetcharray()](function.db2-fetch-array.md). Як альтернативу ви можете використовувати [db2fetchrow()](function.db2-fetch-row.md) для переміщення покажчика набору результатів на наступний рядок та вибірки стовпця з цього рядка за допомогою [db2result()](function.db2-result.md)
 
-Зверніться до [db2prepare()](function.db2-prepare.html) для короткого обговорення переваг використання [db2prepare()](function.db2-prepare.html) і **db2execute()** замість [db2exec()](function.db2-exec.html)
+Зверніться до [db2prepare()](function.db2-prepare.md) для короткого обговорення переваг використання [db2prepare()](function.db2-prepare.md) і **db2execute()** замість [db2exec()](function.db2-exec.md)
 
 ### Список параметрів
 
 `stmt`
 
-Підготовлений запит, який повертається функцією [db2prepare()](function.db2-prepare.html)
+Підготовлений запит, який повертається функцією [db2prepare()](function.db2-prepare.md)
 
 `parameters`
 
@@ -69,7 +69,7 @@ if ($stmt) {
 
 **Приклад #2 Виклик збереженої процедури з параметром OUT**
 
-У наступному прикладі готується запит CALL, який приймає один маркер параметра, що представляє параметр OUT, пов'язує змінну PHP `$my_pets` з параметром за допомогою [db2bindparam()](function.db2-bind-param.html), а потім викликає **db2execute()** для виконання запиту CALL. Після виконання запиту CALL процедури, що зберігається значення `$num_pets` змінюється, щоб відобразити значення, що повертається процедурою, що зберігається для цього параметра OUT.
+У наступному прикладі готується запит CALL, який приймає один маркер параметра, що представляє параметр OUT, пов'язує змінну PHP `$my_pets` з параметром за допомогою [db2bindparam()](function.db2-bind-param.md), а потім викликає **db2execute()** для виконання запиту CALL. Після виконання запиту CALL процедури, що зберігається значення `$num_pets` змінюється, щоб відобразити значення, що повертається процедурою, що зберігається для цього параметра OUT.
 
 ```php
 <?php
@@ -267,10 +267,10 @@ db2_close($conn);
 
 ### Дивіться також
 
--   [db2exec()](function.db2-exec.html) - Виконує SQL-запит безпосередньо
--   [db2fetcharray()](function.db2-fetch-array.html) - Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
--   [db2fetchassoc()](function.db2-fetch-assoc.html) - Повертає масив, індексований на ім'я стовпця, що представляє рядок у наборі результатів
--   [db2fetchboth()](function.db2-fetch-both.html) - Повертає масив, індексований як на ім'я стовпця, так і за позицією, що представляє рядок у наборі результатів
--   [db2fetchrow()](function.db2-fetch-row.html) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
--   [db2prepare()](function.db2-prepare.html) - готує SQL-запит до виконання
--   [db2result()](function.db2-result.html) - Повертає один стовпець з рядка у наборі результатів
+-   [db2exec()](function.db2-exec.md) - Виконує SQL-запит безпосередньо
+-   [db2fetcharray()](function.db2-fetch-array.md) - Повертає масив, індексований за положенням стовпця, що представляє рядок у наборі результатів
+-   [db2fetchassoc()](function.db2-fetch-assoc.md) - Повертає масив, індексований на ім'я стовпця, що представляє рядок у наборі результатів
+-   [db2fetchboth()](function.db2-fetch-both.md) - Повертає масив, індексований як на ім'я стовпця, так і за позицією, що представляє рядок у наборі результатів
+-   [db2fetchrow()](function.db2-fetch-row.md) - Встановлює вказівник набору результатів на наступний рядок або запрошений рядок
+-   [db2prepare()](function.db2-prepare.md) - готує SQL-запит до виконання
+-   [db2result()](function.db2-result.md) - Повертає один стовпець з рядка у наборі результатів

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-grp-cancel.html: « eiogrpcancel
-  - function.eio-grp.html: eiogrp »
+  - function.eio-grp-cancel.md: « eiogrpcancel
+  - function.eio-grp.md: eiogrp »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiogrplimit

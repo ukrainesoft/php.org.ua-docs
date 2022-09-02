@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.preg-match-all.html: « pregmatchall
-  - function.preg-quote.html: pregquote »
+  - function.preg-match-all.md: « pregmatchall
+  - function.preg-quote.md: pregquote »
   - index.md: PHP Manual
   - ref.pcre.md: Функции PCRE
 title: pregmatch

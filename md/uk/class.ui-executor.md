@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-area.setsize.html: '« UIArea::setSize'
-  - ui-executor.construct.html: 'ОЙExecutor::construct »'
+  - ui-area.setsize.md: '« UIArea::setSize'
+  - ui-executor.construct.md: 'ОЙExecutor::construct »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Планувальник виконання

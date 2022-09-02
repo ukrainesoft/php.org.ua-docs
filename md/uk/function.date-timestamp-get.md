@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-time-set.html: « datetimeset
-  - function.date-timestamp-set.html: datetimestampset »
+  - function.date-time-set.md: « datetimeset
+  - function.date-timestamp-set.md: datetimestampset »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datetimestampget

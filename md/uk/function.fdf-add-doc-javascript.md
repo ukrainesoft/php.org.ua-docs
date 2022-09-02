@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.fdf.html: « FDF
-  - function.fdf-add-template.html: fdfaddtemplate »
-  - index.html: PHP Manual
-  - ref.fdf.html: FDF
+  - ref.fdf.md: « FDF
+  - function.fdf-add-template.md: fdfaddtemplate »
+  - index.md: PHP Manual
+  - ref.fdf.md: FDF
 title: fdfadddocjavascript
 ---
 # fdfadddocjavascript
@@ -24,7 +24,7 @@ fdf_add_doc_javascript(resource $fdf_document, string $script_name, string $scri
 
 `fdf_document`
 
-Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.html)
+Дескриптор документа FDF, що повертається [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 `script_name`
 

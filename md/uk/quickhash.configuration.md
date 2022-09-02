@@ -1,9 +1,9 @@
 ---
 navigation:
-  - quickhash.installation.html: « Установка
-  - quickhash.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - quickhash.setup.html: Встановлення та налаштування
+  - quickhash.installation.md: « Установка
+  - quickhash.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - quickhash.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

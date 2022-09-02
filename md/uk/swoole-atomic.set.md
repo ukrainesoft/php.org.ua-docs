@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-atomic.get.html: '« SwooleAtomic::get'
-  - swoole-atomic.sub.html: 'SwooleAtomic::sub »'
+  - swoole-atomic.get.md: '« SwooleAtomic::get'
+  - swoole-atomic.sub.md: 'SwooleAtomic::sub »'
   - index.md: PHP Manual
-  - class.swoole-atomic.html: SwooleAtomic
+  - class.swoole-atomic.md: SwooleAtomic
 title: 'SwooleAtomic::set'
 ---
 # SwooleAtomic::set

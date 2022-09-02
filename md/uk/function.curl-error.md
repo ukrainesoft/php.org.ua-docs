@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-errno.html: « curlerrno
-  - function.curl-escape.html: curlescape »
+  - function.curl-errno.md: « curlerrno
+  - function.curl-escape.md: curlescape »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlerror

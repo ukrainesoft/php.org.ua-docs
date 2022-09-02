@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-action-abstract.getcontroller.html: '« YafActionAbstract::getController'
-  - class.yaf-view-interface.html: YafViewInterface »
-  - index.html: PHP Manual
-  - class.yaf-action-abstract.html: YafActionAbstract
+  - yaf-action-abstract.getcontroller.md: '« YafActionAbstract::getController'
+  - class.yaf-view-interface.md: YafViewInterface »
+  - index.md: PHP Manual
+  - class.yaf-action-abstract.md: YafActionAbstract
 title: 'YafActionAbstract::getControllerName'
 ---
 # YafActionAbstract::getControllerName

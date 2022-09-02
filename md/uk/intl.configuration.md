@@ -14,9 +14,9 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [intl.defaultlocale](intl.configuration.html#ini.intl.default-locale) |  | PHPINIALL |  |
-| [intl.errorlevel](intl.configuration.html#ini.intl.error-level) |  | PHPINIALL |  |
-| [intl.useexceptions](intl.configuration.html#ini.intl.use-exceptions) |  | PHPINIALL | Доступно з PECL 3.0.0a1 |
+| [intl.defaultlocale](intl.configuration.md#ini.intl.default-locale) |  | PHPINIALL |  |
+| [intl.errorlevel](intl.configuration.md#ini.intl.error-level) |  | PHPINIALL |  |
+| [intl.useexceptions](intl.configuration.md#ini.intl.use-exceptions) |  | PHPINIALL | Доступно з PECL 3.0.0a1 |
 
 Коротке пояснення конфігураційних директив.
 
@@ -34,6 +34,6 @@ title: Налаштування під час виконання
 
 `intl.use_exceptions` int
 
-Якщо встановлено як **`true`**, то замість помилок викидатимуться винятки класу [IntlException](class.intlexception.md). Можна використовувати на додаток до [intl.errorlevel](intl.configuration.html#ini.intl.error-level)
+Якщо встановлено як **`true`**, то замість помилок викидатимуться винятки класу [IntlException](class.intlexception.md). Можна використовувати на додаток до [intl.errorlevel](intl.configuration.md#ini.intl.error-level)
 
 за умовчанням одно **`false`**

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-last-error.html: « imaplasterror
-  - function.imap-listmailbox.html: imaplistmailbox »
+  - function.imap-last-error.md: « imaplasterror
+  - function.imap-listmailbox.md: imaplistmailbox »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imaplist
@@ -32,7 +32,7 @@ imap_list(IMAP\Connection $imap, string $reference, string $pattern): array|fals
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `pattern`
 

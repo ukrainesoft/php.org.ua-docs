@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setbackgroundcolor.html: '« Imagick::setBackgroundColor'
-  - imagick.setcompression.html: 'Imagick::setCompression »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setbackgroundcolor.md: '« Imagick::setBackgroundColor'
+  - imagick.setcompression.md: 'Imagick::setCompression »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setColorspace'
 ---
 # Imagick::setColorspace
@@ -24,7 +24,7 @@ public Imagick::setColorspace(int $COLORSPACE): bool
 
 `COLORSPACE`
 
-Одна з [констант COLORSPACE](imagick.constants.html#imagick.constants.colorspace)
+Одна з [констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace)
 
 ### Значення, що повертаються
 

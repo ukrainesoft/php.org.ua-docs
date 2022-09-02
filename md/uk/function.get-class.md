@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-class-vars.html: « getclassvars
-  - function.get-declared-classes.html: getdeclaredclasses »
+  - function.get-class-vars.md: « getclassvars
+  - function.get-declared-classes.md: getdeclaredclasses »
   - index.md: PHP Manual
   - ref.classobj.md: Функції роботи з класами та об'єктами
 title: getclass

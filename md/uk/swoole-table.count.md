@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-table.construct.html: '« SwooleTable::construct'
-  - swoole-table.create.html: 'SwooleTable::create »'
+  - swoole-table.construct.md: '« SwooleTable::construct'
+  - swoole-table.create.md: 'SwooleTable::create »'
   - index.md: PHP Manual
-  - class.swoole-table.html: SwooleTable
+  - class.swoole-table.md: SwooleTable
 title: 'SwooleTable::count'
 ---
 # SwooleTable::count

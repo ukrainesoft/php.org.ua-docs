@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-end-template.html: «psendtemplate
-  - function.ps-fill.html: псfill »
+  - function.ps-end-template.md: «psendtemplate
+  - function.ps-fill.md: псfill »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псfillstroke

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-queue.html: Черга
-  - ds-queue.capacity.html: 'ДсQueue::capacity »'
-  - index.html: PHP Manual
-  - class.ds-queue.html: Черга
+  - class.ds-queue.md: Черга
+  - ds-queue.capacity.md: 'ДсQueue::capacity »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::allocate'
 ---
 # ДсQueue::allocate

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.base64-decode.html: « base64decode
-  - function.get-headers.html: getheaders »
-  - index.html: PHP Manual
-  - ref.url.html: Функції URL
+  - function.base64-decode.md: « base64decode
+  - function.get-headers.md: getheaders »
+  - index.md: PHP Manual
+  - ref.url.md: Функції URL
 title: base64encode
 ---
 # base64encode
@@ -53,7 +53,7 @@ echo base64_encode($str);
 
 ### Дивіться також
 
--   [base64decode()](function.base64-decode.html) - Декодує дані, закодовані MIME base64
--   [chunksplit()](function.chunk-split.html) - Розбиває рядок на фрагменти
--   [convertuuencode()](function.convert-uuencode.html) - Кодує рядок у форматі uuencode
+-   [base64decode()](function.base64-decode.md) - Декодує дані, закодовані MIME base64
+-   [chunksplit()](function.chunk-split.md) - Розбиває рядок на фрагменти
+-   [convertuuencode()](function.convert-uuencode.md) - Кодує рядок у форматі uuencode
 -   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-schema.existsindatabase.html: '« Schema::existsInDatabase'
-  - mysql-xdevapi-schema.getcollectionastable.html: 'Schema::getCollectionAsTable »'
+  - mysql-xdevapi-schema.existsindatabase.md: '« Schema::existsInDatabase'
+  - mysql-xdevapi-schema.getcollectionastable.md: 'Schema::getCollectionAsTable »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
 title: 'Schema::getCollection'
 ---
 # Schema::getCollection

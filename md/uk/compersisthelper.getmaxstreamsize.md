@@ -1,9 +1,9 @@
 ---
 navigation:
-  - compersisthelper.getcurfilename.html: '« COMPersistHelper::GetCurFileName'
-  - compersisthelper.initnew.html: 'COMPersistHelper::InitNew »'
-  - index.html: PHP Manual
-  - class.compersisthelper.html: COMPersistHelper
+  - compersisthelper.getcurfilename.md: '« COMPersistHelper::GetCurFileName'
+  - compersisthelper.initnew.md: 'COMPersistHelper::InitNew »'
+  - index.md: PHP Manual
+  - class.compersisthelper.md: COMPersistHelper
 title: 'COMPersistHelper::GetMaxStreamSize'
 ---
 # COMPersistHelper::GetMaxStreamSize
@@ -30,4 +30,4 @@ public COMPersistHelper::GetMaxStreamSize(): int
 
 ### Помилки
 
-Викидає виняток [comexception](class.com-exception.html)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStreamInit**або якщо виклик **IPersistStream::GetSizeMax()** завершився помилкою.
+Викидає виняток [comexception](class.com-exception.md)якщо пов'язаний об'єкт не реалізує COM інтерфейс **IPersistStreamInit**або якщо виклик **IPersistStream::GetSizeMax()** завершився помилкою.

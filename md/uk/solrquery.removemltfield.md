@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.removehighlightfield.html: '« SolrQuery::removeHighlightField'
-  - solrquery.removemltqueryfield.html: 'SolrQuery::removeMltQueryField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.removehighlightfield.md: '« SolrQuery::removeHighlightField'
+  - solrquery.removemltqueryfield.md: 'SolrQuery::removeMltQueryField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::removeMltField'
 ---
 # SolrQuery::removeMltField

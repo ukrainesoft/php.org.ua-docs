@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.snmp.md: « Функції SNMP
-  - function.snmp-get-valueretrieval.html: snmpgetvalueretrieval »
+  - function.snmp-get-valueretrieval.md: snmpgetvalueretrieval »
   - index.md: PHP Manual
   - ref.snmp.md: Функції SNMP
 title: snmpgetquickprint

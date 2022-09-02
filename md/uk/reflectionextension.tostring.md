@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionextension.istemporary.html: '« ReflectionExtension::isTemporary'
-  - class.reflectionfunction.html: ReflectionFunction »
-  - index.html: PHP Manual
-  - class.reflectionextension.html: ReflectionExtension
+  - reflectionextension.istemporary.md: '« ReflectionExtension::isTemporary'
+  - class.reflectionfunction.md: ReflectionFunction »
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::function toString() { \[native code\] }'
 ---
 # ReflectionExtension::function toString() { \[native code\] }
@@ -18,7 +18,7 @@ ReflectionExtension::toString — Перетворення на рядок
 public ReflectionExtension::__toString(): string
 ```
 
-Виконує експорт модуля та повертає його у вигляді рядка string. Це те саме, що й виклик [ReflectionExtension::export()](reflectionextension.export.html) з аргументом `return`, рівним **`true`**
+Виконує експорт модуля та повертає його у вигляді рядка string. Це те саме, що й виклик [ReflectionExtension::export()](reflectionextension.export.md) з аргументом `return`, рівним **`true`**
 
 ### Список параметрів
 
@@ -26,10 +26,10 @@ public ReflectionExtension::__toString(): string
 
 ### Значення, що повертаються
 
-Повертає експортований модуль у вигляді рядка, так само як [ReflectionExtension::export()](reflectionextension.export.html)
+Повертає експортований модуль у вигляді рядка, так само як [ReflectionExtension::export()](reflectionextension.export.md)
 
 ### Дивіться також
 
--   [ReflectionExtension::construct()](reflectionextension.construct.html) - Створює об'єкт класу ReflectionExtension
--   [ReflectionExtension::export()](reflectionextension.export.html) - Експортує модуль
--   [toString()](language.oop5.magic.html#object.tostring)
+-   [ReflectionExtension::construct()](reflectionextension.construct.md) - Створює об'єкт класу ReflectionExtension
+-   [ReflectionExtension::export()](reflectionextension.export.md) - Експортує модуль
+-   [toString()](language.oop5.magic.md#object.tostring)

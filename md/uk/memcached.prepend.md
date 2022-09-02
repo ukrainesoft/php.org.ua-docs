@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.ispristine.html: '« Memcached::isPristine'
-  - memcached.prependbykey.html: 'Memcached::prependByKey »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.ispristine.md: '« Memcached::isPristine'
+  - memcached.prependbykey.md: 'Memcached::prependByKey »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::prepend'
 ---
 # Memcached::prepend
@@ -36,7 +36,7 @@ public Memcached::prepend(string $key, string $value): bool
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.html) повертає **`Memcached::RES_NOTSTORED`** якщо переданий ключ не існує.
+Повертає **`true`** у разі успішного виконання або **`false`** у разі виникнення помилки. Метод [Memcached::getResultCode()](memcached.getresultcode.md) повертає **`Memcached::RES_NOTSTORED`** якщо переданий ключ не існує.
 
 ### Приклади
 
@@ -62,5 +62,5 @@ string(6) "defabc"
 
 ### Дивіться також
 
--   [Memcached::prependByKey()](memcached.prependbykey.html) - Додає дані на початок існуючого запису на вказаному сервері
--   [Memcached::append()](memcached.append.html) - Додає дані до існуючого запису
+-   [Memcached::prependByKey()](memcached.prependbykey.md) - Додає дані на початок існуючого запису на вказаному сервері
+-   [Memcached::append()](memcached.append.md) - Додає дані до існуючого запису

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.money-format.html: « moneyformat
+  - function.money-format.md: « moneyformat
   - function.nl2br.md: nl2br »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками

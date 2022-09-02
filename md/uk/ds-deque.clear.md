@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.capacity.html: '« DsDeque::capacity'
-  - ds-deque.construct.html: 'ДсDeque::construct »'
-  - index.html: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - ds-deque.capacity.md: '« DsDeque::capacity'
+  - ds-deque.construct.md: 'ДсDeque::construct »'
+  - index.md: PHP Manual
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::clear'
 ---
 # ДсDeque::clear

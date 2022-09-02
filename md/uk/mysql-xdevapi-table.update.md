@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-table.select.html: '« Table::select'
-  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete »
+  - mysql-xdevapi-table.select.md: '« Table::select'
+  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
 title: 'Table::update'
 ---
 # Table::update

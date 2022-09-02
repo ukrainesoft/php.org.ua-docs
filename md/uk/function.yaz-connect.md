@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-close.html: « yazclose
-  - function.yaz-database.html: yazdatabase »
+  - function.yaz-close.md: « yazclose
+  - function.yaz-database.md: yazdatabase »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazconnect
@@ -80,7 +80,7 @@ charset
 
 preferredMessageSize
 
-Цілочисленний параметр, що визначає максимальний розмір всіх записів, що повертаються сервером під час пошуку, в байтах. Для більш детальної інформації дивіться стандарт [» Z39.50](http://www.loc.gov/z3950/agency/markup/04.html#3.2.1.1.4)
+Цілочисленний параметр, що визначає максимальний розмір всіх записів, що повертаються сервером під час пошуку, в байтах. Для більш детальної інформації дивіться стандарт [» Z39.50](http://www.loc.gov/z3950/agency/markup/04.md#3.2.1.1.4)
 
 > **Зауваження**
 > 
@@ -88,7 +88,7 @@ preferredMessageSize
 
 maximumRecordSize
 
-Цілочисленний параметр, що визначає максимальну кількість байт в окремому записі, що повертається сервером у результаті пошуку. Цей параметр відноситься до Exceptional-record-size у стандарті [» Z39.50](http://www.loc.gov/z3950/agency/markup/04.html#3.2.1.1.4)
+Цілочисленний параметр, що визначає максимальну кількість байт в окремому записі, що повертається сервером у результаті пошуку. Цей параметр відноситься до Exceptional-record-size у стандарті [» Z39.50](http://www.loc.gov/z3950/agency/markup/04.md#3.2.1.1.4)
 
 > **Зауваження**
 > 

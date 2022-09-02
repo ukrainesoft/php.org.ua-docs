@@ -1,14 +1,14 @@
 ---
 navigation:
   - radius.constants.packets.md: типи пакетів RADIUS
-  - radius.constants.vendor-specific.html: Атрибути RADIUS специфічні для різних виробників.
+  - radius.constants.vendor-specific.md: Атрибути RADIUS специфічні для різних виробників.
   - index.md: PHP Manual
   - radius.constants.md: Обумовлені константи
 title: Типи атрибутів RADIUS
 ---
 ## Типи атрибутів RADIUS
 
-Ці константи описують типи атрибутів RADIUS, які можна використовувати у функціях [radiusputaddr()](function.radius-put-addr.html) [radiusputattr()](function.radius-put-attr.html) [radiusputint()](function.radius-put-int.html) і [radiusputstring()](function.radius-put-string.md)
+Ці константи описують типи атрибутів RADIUS, які можна використовувати у функціях [radiusputaddr()](function.radius-put-addr.md) [radiusputattr()](function.radius-put-attr.md) [radiusputint()](function.radius-put-int.md) і [radiusputstring()](function.radius-put-string.md)
 
 **`RADIUS_USER_NAME`** (int)
 
@@ -20,7 +20,7 @@ title: Типи атрибутів RADIUS
 
 **`RADIUS_CHAP_PASSWORD`** (int)
 
-Атрибут Chap-Password. Повинен бути типу string та містити ідентифікатор CHAP користувача, 16 байт, що містять MD5-хеш ідентифікатора CHAP, текстове представлення пароля та перевірочне значення CHAP з'єднаними в один рядок. Зверніть увагу, що перевірочне значення CHAP також має бути окремо надіслано в атрибуті [**`RADIUS_CHAP_CHALLENGE`**](radius.constants.attributes.html#constant.radius-chap-challenge)
+Атрибут Chap-Password. Повинен бути типу string та містити ідентифікатор CHAP користувача, 16 байт, що містять MD5-хеш ідентифікатора CHAP, текстове представлення пароля та перевірочне значення CHAP з'єднаними в один рядок. Зверніть увагу, що перевірочне значення CHAP також має бути окремо надіслано в атрибуті [**`RADIUS_CHAP_CHALLENGE`**](radius.constants.attributes.md#constant.radius-chap-challenge)
 
 **Приклад #1 Використання паролів CHAP**
 
@@ -87,11 +87,11 @@ radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
 **`RADIUS_FRAMED_IP_ADDRESS`** (int)
 
-Атрибут Framed-IP-Address. Атрибут повинен містити адресу мережі користувача у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html) та витягується функцією [radiuscvtaddr()](function.radius-cvt-addr.md)
+Атрибут Framed-IP-Address. Атрибут повинен містити адресу мережі користувача у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md) та витягується функцією [radiuscvtaddr()](function.radius-cvt-addr.md)
 
 **`RADIUS_FRAMED_IP_NETMASK`** (int)
 
-Атрибут Framed-IP-Netmask. Атрибут повинен містити маску мережі користувача у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.html) та витягується функцією [radiuscvtaddr()](function.radius-cvt-addr.md)
+Атрибут Framed-IP-Netmask. Атрибут повинен містити маску мережі користувача у вигляді цілого числа. Атрибут встановлюється функцією [radiusputaddr()](function.radius-put-addr.md) та витягується функцією [radiuscvtaddr()](function.radius-cvt-addr.md)
 
 **`RADIUS_FRAMED_ROUTING`** (int)
 
@@ -163,7 +163,7 @@ radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
 **`RADIUS_VENDOR_SPECIFIC`** (int)
 
-Атрибут Vendor-Specific. Загалом значення цього атрибуту повинні встановлюватися з використанням функцій [radiusputvendoraddr()](function.radius-put-vendor-addr.html) [radiusputvendorattr()](function.radius-put-vendor-attr.html) [radiusputvendorint()](function.radius-put-vendor-int.html) і [radiusputvendorstring()](function.radius-put-vendor-string.md), а чи не безпосередньо.
+Атрибут Vendor-Specific. Загалом значення цього атрибуту повинні встановлюватися з використанням функцій [radiusputvendoraddr()](function.radius-put-vendor-addr.md) [radiusputvendorattr()](function.radius-put-vendor-attr.md) [radiusputvendorint()](function.radius-put-vendor-int.md) і [radiusputvendorstring()](function.radius-put-vendor-string.md), а чи не безпосередньо.
 
 Ці константи необхідні інтерпретації специфічних, які від виробника атрибутів, які у відповідях сервера RADIUS; коли отримані такі атрибути, потрібно використовувати функцію [radiusgetvendorattr()](function.radius-get-vendor-attr.md) для вилучення ідентифікатора вендора, типу атрибута та його значення.
 

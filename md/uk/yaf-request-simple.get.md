@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-simple.construct.html: '« YafRequestSimple::construct'
-  - yaf-request-simple.getcookie.html: 'YafRequestSimple::getCookie »'
+  - yaf-request-simple.construct.md: '« YafRequestSimple::construct'
+  - yaf-request-simple.getcookie.md: 'YafRequestSimple::getCookie »'
   - index.md: PHP Manual
-  - class.yaf-request-simple.html: YafRequestSimple
+  - class.yaf-request-simple.md: YafRequestSimple
 title: 'YafRequestSimple::get'
 ---
 # YafRequestSimple::get

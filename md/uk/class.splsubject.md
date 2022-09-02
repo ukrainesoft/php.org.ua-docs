@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splobserver.update.html: '« SplObserver::update'
-  - splsubject.attach.html: 'SplSubject::attach »'
-  - index.html: PHP Manual
-  - spl.misc.html: Різні класи та інтерфейси
+  - splobserver.update.md: '« SplObserver::update'
+  - splsubject.attach.md: 'SplSubject::attach »'
+  - index.md: PHP Manual
+  - spl.misc.md: Різні класи та інтерфейси
 title: Інтерфейс SplSubject
 ---
 # Інтерфейс SplSubject
@@ -12,7 +12,7 @@ title: Інтерфейс SplSubject
 
 ## Вступ
 
-Інтерфейс **SplSubject** використовується спільно з [SplObserver](class.splobserver.html) для реалізації шаблону проектування Спостерігач (Observer).
+Інтерфейс **SplSubject** використовується спільно з [SplObserver](class.splobserver.md) для реалізації шаблону проектування Спостерігач (Observer).
 
 ## Огляд інтерфейсів
 
@@ -36,6 +36,6 @@ public notify(): void
 
 ## Зміст
 
--   [SplSubject::attach](splsubject.attach.html) — Приєднати спостерігача (об'єкт класу SplObserver)
--   [SplSubject::detach](splsubject.detach.html) — Від'єднати спостерігача
--   [SplSubject::notify](splsubject.notify.html) — повідомити спостерігача
+-   [SplSubject::attach](splsubject.attach.md) — Приєднати спостерігача (об'єкт класу SplObserver)
+-   [SplSubject::detach](splsubject.detach.md) — Від'єднати спостерігача
+-   [SplSubject::notify](splsubject.notify.md) — повідомити спостерігача

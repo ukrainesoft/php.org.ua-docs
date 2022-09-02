@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-pconnect.html: « pgpconnect
-  - function.pg-port.html: пгport »
+  - function.pg-pconnect.md: « pgpconnect
+  - function.pg-port.md: пгport »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгping
@@ -24,7 +24,7 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо параметр `connection` вказано **`null`**, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-eregi.html: « mberegi
-  - function.mb-http-input.html: мбhttpinput »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-eregi.md: « mberegi
+  - function.mb-http-input.md: мбhttpinput »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбgetinfo
 ---
 # мбgetinfo

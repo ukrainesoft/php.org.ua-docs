@@ -1,9 +1,9 @@
 ---
 navigation:
-  - seaslog.getrequestvariable.html: '« SeasLog::getRequestVariable'
-  - seaslog.log.html: 'SeasLog::log »'
-  - index.html: PHP Manual
-  - class.seaslog.html: SeasLog
+  - seaslog.getrequestvariable.md: '« SeasLog::getRequestVariable'
+  - seaslog.log.md: 'SeasLog::log »'
+  - index.md: PHP Manual
+  - class.seaslog.md: SeasLog
 title: 'SeasLog::info'
 ---
 # SeasLog::info
@@ -89,7 +89,7 @@ array(2) {
 
 ### Дивіться також
 
--   [seaslog.defaulttemplate](seaslog.configuration.html#ini.seaslog.default-template)
+-   [seaslog.defaulttemplate](seaslog.configuration.md#ini.seaslog.default-template)
 -   [SeasLog::debug()](seaslog.debug.md) - Записує інформацію рівня "debug" до журналу
 -   [SeasLog::notice()](seaslog.notice.md) - Записує інформацію рівня "notice" у журнал
 -   [SeasLog::warning()](seaslog.warning.md) - Записує інформацію рівня "warning" до журналу

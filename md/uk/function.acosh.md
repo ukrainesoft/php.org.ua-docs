@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.acos.html: « acos
-  - function.asin.html: asin »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.acos.md: « acos
+  - function.asin.md: asin »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: acosh
 ---
 # acosh

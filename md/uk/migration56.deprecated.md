@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration56.new-features.html: '" Нові можливості'
-  - migration56.changed-functions.html: Змінені функції »
-  - index.html: PHP Manual
-  - migration56.html: Миграция с PHP 5.5.x на PHP 5.6.x
+  - migration56.new-features.md: '" Нові можливості'
+  - migration56.changed-functions.md: Змінені функції »
+  - index.md: PHP Manual
+  - migration56.md: Миграция с PHP 5.5.x на PHP 5.6.x
 title: 'Функціонал, оголошений застарілим у PHP 5.6.x'
 ---
 ## Функціонал, оголошений застарілим у PHP 5.6.x
@@ -37,15 +37,15 @@ B
 
 ### $HTTPRAWPOSTDATA та `always_populate_raw_post_data`
 
-`always_populate_raw_post_data` тепер буде викликати помилку \*\*`E_DEPRECATED`\*\*якщо $HTTPRAWPOSTDATA заповнено. Новий код має використовувати [`php://input`](wrappers.php.html#wrappers.php.input) замість $HTTPRAWPOSTDATA, який буде видалено у майбутніх версіях PHP. Ви можете вибрати нову поведінку (у якій $HTTPRAWPOSTDATA ніколи не визначається, отже, **`E_DEPRECATED`** не буде генерувати помилку) шляхом установки `always_populate_raw_post_data` в `-1`
+`always_populate_raw_post_data` тепер буде викликати помилку \*\*`E_DEPRECATED`\*\*якщо $HTTPRAWPOSTDATA заповнено. Новий код має використовувати [`php://input`](wrappers.php.md#wrappers.php.input) замість $HTTPRAWPOSTDATA, який буде видалено у майбутніх версіях PHP. Ви можете вибрати нову поведінку (у якій $HTTPRAWPOSTDATA ніколи не визначається, отже, **`E_DEPRECATED`** не буде генерувати помилку) шляхом установки `always_populate_raw_post_data` в `-1`
 
-### Налаштування кодування [iconv](book.iconv.html) і [mbstring](book.mbstring.html)
+### Налаштування кодування [iconv](book.iconv.md) і [mbstring](book.mbstring.md)
 
-Параметри конфігурації [iconv](book.iconv.html) і [mbstring](book.mbstring.html), пов'язані з кодуванням, застаріли на користь [`default_charset`](ini.core.html#ini.default-charset). Застарілі опції:
+Параметри конфігурації [iconv](book.iconv.md) і [mbstring](book.mbstring.md), пов'язані з кодуванням, застаріли на користь [`default_charset`](ini.core.md#ini.default-charset). Застарілі опції:
 
--   [`iconv.input_encoding`](iconv.configuration.html#ini.iconv.input-encoding)
--   [`iconv.output_encoding`](iconv.configuration.html#ini.iconv.output-encoding)
--   [`iconv.internal_encoding`](iconv.configuration.html#ini.iconv.internal-encoding)
--   [`mbstring.http_input`](mbstring.configuration.html#ini.mbstring.http-input)
--   [`mbstring.http_output`](mbstring.configuration.html#ini.mbstring.http-output)
--   [`mbstring.internal_encoding`](mbstring.configuration.html#ini.mbstring.internal-encoding)
+-   [`iconv.input_encoding`](iconv.configuration.md#ini.iconv.input-encoding)
+-   [`iconv.output_encoding`](iconv.configuration.md#ini.iconv.output-encoding)
+-   [`iconv.internal_encoding`](iconv.configuration.md#ini.iconv.internal-encoding)
+-   [`mbstring.http_input`](mbstring.configuration.md#ini.mbstring.http-input)
+-   [`mbstring.http_output`](mbstring.configuration.md#ini.mbstring.http-output)
+-   [`mbstring.internal_encoding`](mbstring.configuration.md#ini.mbstring.internal-encoding)

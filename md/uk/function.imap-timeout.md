@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-thread.html: « imapthread
-  - function.imap-uid.html: imapuid »
+  - function.imap-thread.md: « imapthread
+  - function.imap-uid.md: imapuid »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imaptimeout

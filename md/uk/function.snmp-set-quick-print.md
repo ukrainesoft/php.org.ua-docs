@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.snmp-set-oid-output-format.html: « snmpsetoidoutputformat
-  - function.snmp-set-valueretrieval.html: snmpsetvalueretrieval »
-  - index.html: PHP Manual
-  - ref.snmp.html: Функції SNMP
+  - function.snmp-set-oid-output-format.md: « snmpsetoidoutputformat
+  - function.snmp-set-valueretrieval.md: snmpsetvalueretrieval »
+  - index.md: PHP Manual
+  - ref.snmp.md: Функції SNMP
 title: snmpsetquickprint
 ---
 # snmpsetquickprint

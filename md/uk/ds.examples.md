@@ -1,7 +1,7 @@
 ---
 navigation:
   - ds.constants.md: « Обумовлені константи
-  - class.ds-collection.html: Коллекция »
+  - class.ds-collection.md: Коллекция »
   - index.md: PHP Manual
   - book.ds.md: Структури даних
 title: Приклади

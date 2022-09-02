@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-real-escape-string.html: « mysqlrealescapestring
-  - function.mysql-select-db.html: mysqlselectdb »
+  - function.mysql-real-escape-string.md: « mysqlrealescapestring
+  - function.mysql-select-db.md: mysqlselectdb »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlresult
@@ -16,7 +16,7 @@ mysqlresult — Повертає дані результату запиту
 
 Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlidataseek()](mysqli-result.data-seek.html) у зв'язку з [mysqlifieldseek()](mysqli-result.field-seek.html) і [mysqlifetchfield()](mysqli-result.fetch-field.md)
+-   [mysqlidataseek()](mysqli-result.data-seek.md) у зв'язку з [mysqlifieldseek()](mysqli-result.field-seek.md) і [mysqlifetchfield()](mysqli-result.fetch-field.md)
 -   [PDOStatement::fetchColumn()](pdostatement.fetchcolumn.md)
 
 ### Опис

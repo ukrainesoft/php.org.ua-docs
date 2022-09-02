@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-init-weights.html: « fanninitweights
-  - function.fann-merge-train-data.html: fannmergetraindata »
+  - function.fann-init-weights.md: « fanninitweights
+  - function.fann-merge-train-data.md: fannmergetraindata »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannlengthtraindata

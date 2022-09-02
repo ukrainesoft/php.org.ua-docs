@@ -1,9 +1,9 @@
 ---
 navigation:
-  - install.windows.requirements.html: « Вимоги к установке
-  - install.windows.tools.html: Инструмент установки PHP на Windows »
-  - index.html: PHP Manual
-  - install.windows.html: Установка в системах Windows
+  - install.windows.requirements.md: « Вимоги к установке
+  - install.windows.tools.md: Инструмент установки PHP на Windows »
+  - index.md: PHP Manual
+  - install.windows.md: Установка в системах Windows
 title: PECL
 ---
 ## PECL

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-add-user.html: « ibaseadduser
-  - function.ibase-backup.html: ibasebackup »
+  - function.ibase-add-user.md: « ibaseadduser
+  - function.ibase-backup.md: ibasebackup »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseaffectedrows

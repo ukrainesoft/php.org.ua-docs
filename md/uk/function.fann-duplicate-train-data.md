@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-destroy.html: « fanndestroy
-  - function.fann-get-activation-function.html: fanngetactivationfunction »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-destroy.md: « fanndestroy
+  - function.fann-get-activation-function.md: fanngetactivationfunction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannduplicatetraindata
 ---
 # fannduplicatetraindata

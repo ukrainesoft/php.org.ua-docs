@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqli.info.md: '« mysqli::$info'
-  - mysqli.insert-id.html: 'mysqli::$insertid »'
+  - mysqli.insert-id.md: 'mysqli::$insertid »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::init'

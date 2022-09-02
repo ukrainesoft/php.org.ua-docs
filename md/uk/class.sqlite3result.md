@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3stmt.reset.html: '« SQLite3Stmt::reset'
-  - sqlite3result.columnname.html: 'SQLite3Result::columnName »'
-  - index.html: PHP Manual
-  - book.sqlite3.html: SQLite3
+  - sqlite3stmt.reset.md: '« SQLite3Stmt::reset'
+  - sqlite3result.columnname.md: 'SQLite3Result::columnName »'
+  - index.md: PHP Manual
+  - book.sqlite3.md: SQLite3
 title: Клас SQLite3Result
 ---
 # Клас SQLite3Result
@@ -43,10 +43,10 @@ public reset(): bool
 
 ## Зміст
 
--   [SQLite3Result::columnName](sqlite3result.columnname.html) — >Повертає ім'я n-ого стовпця
--   [SQLite3Result::columnType](sqlite3result.columntype.html) - Повертає тип n-ного стовпця
--   [SQLite3Result::construct](sqlite3result.construct.html) - Конструктор класу SQLite3Result
--   [SQLite3Result::fetchArray](sqlite3result.fetcharray.html) — Вибирає один рядок з результуючого набору і поміщає його в асоціативний або нумерований масив, або в обох відразу
--   [SQLite3Result::finalize](sqlite3result.finalize.html) - Закриває результуючий набір
--   [SQLite3Result::numColumns](sqlite3result.numcolumns.html) — Повертає кількість стовпців у результуючому наборі
--   [SQLite3Result::reset](sqlite3result.reset.html) — Скидає покажчик результуючого набору на перший рядок
+-   [SQLite3Result::columnName](sqlite3result.columnname.md) — >Повертає ім'я n-ого стовпця
+-   [SQLite3Result::columnType](sqlite3result.columntype.md) - Повертає тип n-ного стовпця
+-   [SQLite3Result::construct](sqlite3result.construct.md) - Конструктор класу SQLite3Result
+-   [SQLite3Result::fetchArray](sqlite3result.fetcharray.md) — Вибирає один рядок з результуючого набору і поміщає його в асоціативний або нумерований масив, або в обох відразу
+-   [SQLite3Result::finalize](sqlite3result.finalize.md) - Закриває результуючий набір
+-   [SQLite3Result::numColumns](sqlite3result.numcolumns.md) — Повертає кількість стовпців у результуючому наборі
+-   [SQLite3Result::reset](sqlite3result.reset.md) — Скидає покажчик результуючого набору на перший рядок

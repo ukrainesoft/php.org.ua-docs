@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-get-config.html: « sqlsrvgetconfig
-  - function.sqlsrv-has-rows.html: sqlsrvhasrows »
+  - function.sqlsrv-get-config.md: « sqlsrvgetconfig
+  - function.sqlsrv-has-rows.md: sqlsrvhasrows »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvgetfield
@@ -24,7 +24,7 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 `stmt`
 
-Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.html)
+Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 `fieldIndex`
 
@@ -42,7 +42,7 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 **Приклад #1 Приклад використання **sqlsrvgetfield()****
 
-У наступному прикладі показано, як отримати рядок за допомогою [sqlsrvfetch()](function.sqlsrv-fetch.html) та отримати поля рядки за допомогою **sqlsrvgetfield()**
+У наступному прикладі показано, як отримати рядок за допомогою [sqlsrvfetch()](function.sqlsrv-fetch.md) та отримати поля рядки за допомогою **sqlsrvgetfield()**
 
 ```php
 <?php
@@ -78,6 +78,6 @@ echo $comment;
 
 ### Дивіться також
 
--   [sqlsrvfetch()](function.sqlsrv-fetch.html) - Робить наступний рядок у наборі результатів доступного для читання
--   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.html) - Повертає рядок як масив
--   [sqlsrvfetchobject()](function.sqlsrv-fetch-object.html) - Отримує наступний рядок даних у наборі результатів як об'єкт
+-   [sqlsrvfetch()](function.sqlsrv-fetch.md) - Робить наступний рядок у наборі результатів доступного для читання
+-   [sqlsrvfetcharray()](function.sqlsrv-fetch-array.md) - Повертає рядок як масив
+-   [sqlsrvfetchobject()](function.sqlsrv-fetch-object.md) - Отримує наступний рядок даних у наборі результатів як об'єкт

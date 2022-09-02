@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcache.setup.html: « Встановлення та налаштування
-  - memcache.installation.html: Установка »
-  - index.html: PHP Manual
-  - memcache.setup.html: Встановлення та налаштування
+  - memcache.setup.md: « Встановлення та налаштування
+  - memcache.installation.md: Установка »
+  - index.md: PHP Manual
+  - memcache.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

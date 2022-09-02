@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-ereg-search-getpos.html: « mberegsearchgetpos
-  - function.mb-ereg-search-init.html: мбeregsearchinit »
+  - function.mb-ereg-search-getpos.md: « mberegsearchgetpos
+  - function.mb-ereg-search-init.md: мбeregsearchinit »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбeregsearchgetregs
@@ -26,7 +26,7 @@ mb_ereg_search_getregs(): array|false
 
 ### Значення, що повертаються
 
-Масив (array) містить підрядки, що збіглися з регулярним виразом, в результаті виконання функцій [мбeregsearch()](function.mb-ereg-search.html) [мбeregsearchpos()](function.mb-ereg-search-pos.html) [мбeregsearchregs()](function.mb-ereg-search-regs.md). Якщо збігів кілька, то перший елемент міститиме співпадаючий підрядок, другий міститиме першу частину в квадратних дужках, третій елемент міститиме другу частину в квадратних дужках і так далі. Функція поверне **`false`** у разі виникнення помилки.
+Масив (array) містить підрядки, що збіглися з регулярним виразом, в результаті виконання функцій [мбeregsearch()](function.mb-ereg-search.md) [мбeregsearchpos()](function.mb-ereg-search-pos.md) [мбeregsearchregs()](function.mb-ereg-search-regs.md). Якщо збігів кілька, то перший елемент міститиме співпадаючий підрядок, другий міститиме першу частину в квадратних дужках, третій елемент міститиме другу частину в квадратних дужках і так далі. Функція поверне **`false`** у разі виникнення помилки.
 
 ### Примітки
 

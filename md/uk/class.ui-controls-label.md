@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-colorbutton.setcolor.html: '« UIControlsColorButton::setColor'
-  - ui-controls-label.construct.html: 'ОЙControlsLabel::construct »'
+  - ui-controls-colorbutton.setcolor.md: '« UIControlsColorButton::setColor'
+  - ui-controls-label.construct.md: 'ОЙControlsLabel::construct »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління "Мітка"

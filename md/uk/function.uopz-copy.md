@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.uopz-compose.html: « uopzcompose
-  - function.uopz-del-function.html: uopzdelfunction »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - function.uopz-compose.md: « uopzcompose
+  - function.uopz-del-function.md: uopzdelfunction »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzcopy
 ---
 # uopzcopy

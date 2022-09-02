@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-is-instance.html: « cubridісinstance
-  - function.cubrid-lob-export.html: cubridlobexport »
+  - function.cubrid-is-instance.md: « cubridісinstance
+  - function.cubrid-lob-export.md: cubridlobexport »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridлобclose

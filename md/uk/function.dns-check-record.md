@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.closelog.md: « closelog
-  - function.dns-get-mx.html: dnsgetmx »
+  - function.dns-get-mx.md: dnsgetmx »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: dnscheckrecord

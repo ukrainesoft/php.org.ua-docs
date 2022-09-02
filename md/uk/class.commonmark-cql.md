@@ -1,7 +1,7 @@
 ---
 navigation:
-  - commonmark-parser.finish.html: '« CommonMarkParser::finish'
-  - commonmark-cql.construct.html: 'CommonMarkCQL::construct »'
+  - commonmark-parser.finish.md: '« CommonMarkParser::finish'
+  - commonmark-cql.construct.md: 'CommonMarkCQL::construct »'
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: Клас CommonMarkCQL

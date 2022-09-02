@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-sftp-rmdir.html: « ssh2sftprmdir
-  - function.ssh2-sftp-symlink.html: ssh2sftpsymlink »
+  - function.ssh2-sftp-rmdir.md: « ssh2sftprmdir
+  - function.ssh2-sftp-symlink.md: ssh2sftpsymlink »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2sftpстати

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-http.getquery.html: '« YafRequestHttp::getQuery'
-  - yaf-request-http.getrequest.html: 'YafRequestHttp::getRequest »'
+  - yaf-request-http.getquery.md: '« YafRequestHttp::getQuery'
+  - yaf-request-http.getrequest.md: 'YafRequestHttp::getRequest »'
   - index.md: PHP Manual
-  - class.yaf-request-http.html: YafRequestHttp
+  - class.yaf-request-http.md: YafRequestHttp
 title: 'YafRequestHttp::getRaw'
 ---
 # YafRequestHttp::getRaw

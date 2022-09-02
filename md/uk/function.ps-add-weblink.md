@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-add-pdflink.html: «psaddpdflink
-  - function.ps-arc.html: псarc »
+  - function.ps-add-pdflink.md: «psaddpdflink
+  - function.ps-arc.md: псarc »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псaddweblink

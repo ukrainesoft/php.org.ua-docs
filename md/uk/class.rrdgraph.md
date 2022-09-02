@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rrdcreator.save.html: '« RRDCreator::save'
-  - rrdgraph.construct.html: 'RRDGraph::construct »'
-  - index.html: PHP Manual
-  - book.rrd.html: RRD
+  - rrdcreator.save.md: '« RRDCreator::save'
+  - rrdgraph.construct.md: 'RRDGraph::construct »'
+  - index.md: PHP Manual
+  - book.rrd.md: RRD
 title: Клас RRDGraph
 ---
 # Клас RRDGraph
@@ -40,7 +40,7 @@ public setOptions(array $options): void
 
 ## Зміст
 
--   [RRDGraph::construct](rrdgraph.construct.html) — Створює новий екземпляр RRDGraph
--   [RRDGraph::save](rrdgraph.save.html) — Зберігає результат запиту на зображення
--   [RRDGraph::saveVerbose](rrdgraph.saveverbose.html) — Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
--   [RRDGraph::setOptions](rrdgraph.setoptions.html) — Встановлює параметри експорту графіка rrd
+-   [RRDGraph::construct](rrdgraph.construct.md) — Створює новий екземпляр RRDGraph
+-   [RRDGraph::save](rrdgraph.save.md) — Зберігає результат запиту на зображення
+-   [RRDGraph::saveVerbose](rrdgraph.saveverbose.md) — Зберігає запит до бази даних RRD у зображення та повертає докладну інформацію про згенерований графік
+-   [RRDGraph::setOptions](rrdgraph.setoptions.md) — Встановлює параметри експорту графіка rrd

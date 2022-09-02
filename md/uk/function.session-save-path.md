@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.session-reset.html: « sessionreset
-  - function.session-set-cookie-params.html: sessionsetcookieparams »
+  - function.session-reset.md: « sessionreset
+  - function.session-set-cookie-params.md: sessionsetcookieparams »
   - index.md: PHP Manual
   - ref.session.md: Функції для роботи із сесіями
 title: sessionsavepath
@@ -42,4 +42,4 @@ session_save_path(?string $path = null): string|false
 
 ### Дивіться також
 
--   [session.savepath](session.configuration.html#ini.session.save-path)
+-   [session.savepath](session.configuration.md#ini.session.save-path)

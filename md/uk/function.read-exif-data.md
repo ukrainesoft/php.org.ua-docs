@@ -1,16 +1,16 @@
 ---
 navigation:
-  - function.exif-thumbnail.html: « exifthumbnail
-  - book.image.html: GD »
-  - index.html: PHP Manual
-  - ref.exif.html: Exif Функції
+  - function.exif-thumbnail.md: « exifthumbnail
+  - book.image.md: GD »
+  - index.md: PHP Manual
+  - ref.exif.md: Exif Функції
 title: readexifdata
 ---
 # readexifdata
 
 (PHP 4> = 4.0.1, PHP 5, PHP 7)
 
-readexifdata - Псевдонім [exifreaddata()](function.exif-read-data.html)
+readexifdata - Псевдонім [exifreaddata()](function.exif-read-data.md)
 
 **Увага**
 
@@ -18,7 +18,7 @@ readexifdata - Псевдонім [exifreaddata()](function.exif-read-data.html)
 
 ### Опис
 
-Ця функція є псевдонімом: [exifreaddata()](function.exif-read-data.html)
+Ця функція є псевдонімом: [exifreaddata()](function.exif-read-data.md)
 
 ### список змін
 

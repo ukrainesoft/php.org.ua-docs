@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-share-strerror.html: « curlsharestrerror
-  - function.curl-unescape.html: curlunescape »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-share-strerror.md: « curlsharestrerror
+  - function.curl-unescape.md: curlunescape »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlstrerror
 ---
 # curlstrerror
@@ -24,7 +24,7 @@ curl_strerror(int $error_code): ?string
 
 `error_code`
 
-Одна з констант [» кодов ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+Одна з констант [» кодов ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
 
 ### Значення, що повертаються
 
@@ -32,7 +32,7 @@ curl_strerror(int $error_code): ?string
 
 ### Приклади
 
-**Приклад #1 Приклад використання [curlerrno()](function.curl-errno.html)**
+**Приклад #1 Приклад використання [curlerrno()](function.curl-errno.md)**
 
 ```php
 <?php
@@ -62,6 +62,6 @@ cURL error (1):
 
 ### Дивіться також
 
--   [curlerrno()](function.curl-errno.html) - Повертає код останньої помилки
--   [curlerror()](function.curl-error.html) - Повертає рядок із описом останньої помилки поточного сеансу
--   [» Коди помилок Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+-   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки
+-   [curlerror()](function.curl-error.md) - Повертає рядок із описом останньої помилки поточного сеансу
+-   [» Коди помилок Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

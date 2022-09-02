@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-form.ispadded.html: '« UIControlsForm::isPadded'
-  - class.ui-controls-grid.html: ОЙControlsGrid »
-  - index.html: PHP Manual
-  - class.ui-controls-form.html: ОЙControlsForm
+  - ui-controls-form.ispadded.md: '« UIControlsForm::isPadded'
+  - class.ui-controls-grid.md: ОЙControlsGrid »
+  - index.md: PHP Manual
+  - class.ui-controls-form.md: ОЙControlsForm
 title: 'ОЙControlsForm::setPadded'
 ---
 # ОЙControlsForm::setPadded

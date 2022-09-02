@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-correl.html: « tradercorrel
-  - function.trader-cosh.html: tradercosh »
+  - function.trader-correl.md: « tradercorrel
+  - function.trader-cosh.md: tradercosh »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercos

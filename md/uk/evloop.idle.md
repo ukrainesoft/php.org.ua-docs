@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evloop.fork.html: '« EvLoop::fork'
-  - evloop.invokepending.html: 'EvLoop::invokePending »'
-  - index.html: PHP Manual
-  - class.evloop.html: EvLoop
+  - evloop.fork.md: '« EvLoop::fork'
+  - evloop.invokepending.md: 'EvLoop::invokePending »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
 title: 'EvLoop::idle'
 ---
 # EvLoop::idle

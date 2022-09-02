@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-connect.html: « fbirdconnect
-  - function.fbird-delete-user.html: fbirddeleteuser »
+  - function.fbird-connect.md: « fbirdconnect
+  - function.fbird-delete-user.md: fbirddeleteuser »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdдбinfo

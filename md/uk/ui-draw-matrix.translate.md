@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-matrix.skew.html: '« UIDrawMatrix::skew'
-  - class.ui-draw-color.html: ОЙDrawColor »
-  - index.html: PHP Manual
-  - class.ui-draw-matrix.html: ОЙDrawMatrix
+  - ui-draw-matrix.skew.md: '« UIDrawMatrix::skew'
+  - class.ui-draw-color.md: ОЙDrawColor »
+  - index.md: PHP Manual
+  - class.ui-draw-matrix.md: ОЙDrawMatrix
 title: 'ОЙDrawMatrix::translate'
 ---
 # ОЙDrawMatrix::translate

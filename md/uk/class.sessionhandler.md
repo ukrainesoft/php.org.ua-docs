@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.session-write-close.html: « sessionwriteclose
+  - function.session-write-close.md: « sessionwriteclose
   - sessionhandler.close.md: 'SessionHandler::close »'
   - index.md: PHP Manual
   - book.session.md: Сессии
@@ -12,7 +12,7 @@ title: Клас SessionHandler
 
 ## Вступ
 
-**SessionHandler** це спеціальний клас, який може використовуватись для доповнення внутрішнього оброблювача сесій PHP шляхом створення дочірніх класів від цього. Існує сім методів, які є обгортками над сімома внутрішніми обробниками зберігання даних сесії (`open` `close` `read` `write` `destroy` `gc` і `create_sid`). За умовчанням цей клас обертає всі внутрішні обробники сесії, визначені в опції конфігурації [session.savehandler](session.configuration.html#ini.session.save-handler). За замовчуванням ця опція має значення `files`. Інші внутрішні обробники сесій надаються PHP-модулями, такими як SQLite (`sqlite`), Memcache (`memcache`) та Memcached (`memcached`
+**SessionHandler** це спеціальний клас, який може використовуватись для доповнення внутрішнього оброблювача сесій PHP шляхом створення дочірніх класів від цього. Існує сім методів, які є обгортками над сімома внутрішніми обробниками зберігання даних сесії (`open` `close` `read` `write` `destroy` `gc` і `create_sid`). За умовчанням цей клас обертає всі внутрішні обробники сесії, визначені в опції конфігурації [session.savehandler](session.configuration.md#ini.session.save-handler). За замовчуванням ця опція має значення `files`. Інші внутрішні обробники сесій надаються PHP-модулями, такими як SQLite (`sqlite`), Memcache (`memcache`) та Memcached (`memcached`
 
 Екземпляр класу **SessionHandler** може встановлюватися як обробник сесії за допомогою виклику функції [sessionsetsavehandler()](function.session-set-save-handler.md). У цьому випадку він стане обгорткою існуючого внутрішнього оброблювача. Класи, що розширюють **SessionHandler** дозволять перевизначити методи оброблювача сесії або перехопити/відфільтрувати їх шляхом виклику батьківських методів-оберток внутрішнього оброблювача сесій PHP.
 
@@ -20,7 +20,7 @@ title: Клас SessionHandler
 
 Так як **SessionHandler** є обгорткою над стандартним внутрішнім обробником сесії, то приклад, наведений вище про шифрування даних може бути застосований до будь-якого внутрішнього оброблювача сесії навіть без розуміння внутрішнього пристрою процесу сесії.
 
-Для використання цього класу, по-перше, встановіть обробник, який ви хочете доповнити, використовуючи [session.savehandler](session.configuration.html#ini.session.save-handler). Далі передайте екземпляр класу **SessionHandler** або одного з класів, що розширюють його функції [sessionsetsavehandler()](function.session-set-save-handler.md)
+Для використання цього класу, по-перше, встановіть обробник, який ви хочете доповнити, використовуючи [session.savehandler](session.configuration.md#ini.session.save-handler). Далі передайте екземпляр класу **SessionHandler** або одного з класів, що розширюють його функції [sessionsetsavehandler()](function.session-set-save-handler.md)
 
 Зауважте, що методи цього класу призначені для внутрішнього виклику з PHP. Викликати їх зі свого коду не потрібно. Додаткову інформацію про роботу сесії можна дізнатись з опису функції [sessionsetsavehandler()](function.session-set-save-handler.md)
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.finfo-buffer.html: « finfobuffer
-  - function.finfo-file.html: finfofile »
+  - function.finfo-buffer.md: « finfobuffer
+  - function.finfo-file.md: finfofile »
   - index.md: PHP Manual
   - ref.fileinfo.md: Функции модуля Fileinfo
 title: finfoclose
@@ -18,13 +18,13 @@ finfoclose — Закриває екземпляр finfo
 finfo_close(finfo $finfo): bool
 ```
 
-Функція закриває екземпляр, який було відкрито функцією [finfoopen()](function.finfo-open.html)
+Функція закриває екземпляр, який було відкрито функцією [finfoopen()](function.finfo-open.md)
 
 ### Список параметрів
 
 `finfo`
 
-Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.html)
+Екземпляр [finfo](class.finfo.md), що повертається функцією [finfoopen()](function.finfo-open.md)
 
 ### Значення, що повертаються
 

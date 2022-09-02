@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ocilob.export.html: '« OCILob::export'
-  - ocilob.free.html: 'OCILob::free »'
-  - index.html: PHP Manual
-  - class.ocilob.html: OCILob
+  - ocilob.export.md: '« OCILob::export'
+  - ocilob.free.md: 'OCILob::free »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
 title: 'OCILob::flush'
 ---
 # OCILob::flush
@@ -36,9 +36,9 @@ public OCILob::flush(int $flag = 0): bool
 
 | Версия | Описание |
 | --- | --- |
-| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.html) відповідно до стандартів іменування PHP. |
+| 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 
 ### Дивіться також
 
--   [OCILob::getBuffering](ocilob.getbuffering.html)
--   [OCILob::setBuffering](ocilob.setbuffering.html)
+-   [OCILob::getBuffering](ocilob.getbuffering.md)
+-   [OCILob::setBuffering](ocilob.setbuffering.md)

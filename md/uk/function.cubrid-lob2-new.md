@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-lob2-import.html: « cubridlob2import
-  - function.cubrid-lob2-read.html: cubridlob2read »
+  - function.cubrid-lob2-import.md: « cubridlob2import
+  - function.cubrid-lob2-read.md: cubridlob2read »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridlob2new
@@ -24,7 +24,7 @@ cubrid_lob2_new(resource $conn_identifier = ?, string $type = "BLOB"): resource
 
 `conn_identifier`
 
-Ідентифікатор підключення. Якщо ідентифікатор з'єднання не вказано, передбачається останнє підключення, відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) або [cubridconnectwithurl()](function.cubrid-connect-with-url.md)
+Ідентифікатор підключення. Якщо ідентифікатор з'єднання не вказано, передбачається останнє підключення, відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) або [cubridconnectwithurl()](function.cubrid-connect-with-url.md)
 
 `type`
 

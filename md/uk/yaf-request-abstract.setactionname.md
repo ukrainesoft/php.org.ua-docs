@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.isxmlhttprequest.html: '« YafRequestAbstract::isXmlHttpRequest'
-  - yaf-request-abstract.setbaseuri.html: 'YafRequestAbstract::setBaseUri »'
+  - yaf-request-abstract.isxmlhttprequest.md: '« YafRequestAbstract::isXmlHttpRequest'
+  - yaf-request-abstract.setbaseuri.md: 'YafRequestAbstract::setBaseUri »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::setActionName'
 ---
 # YafRequestAbstract::setActionName

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.badmethodcallexception.html: « BadMethodCallException
-  - class.invalidargumentexception.html: InvalidArgumentException »
-  - index.html: PHP Manual
-  - spl.exceptions.html: Исключения
+  - class.badmethodcallexception.md: « BadMethodCallException
+  - class.invalidargumentexception.md: InvalidArgumentException »
+  - index.md: PHP Manual
+  - spl.exceptions.md: Исключения
 title: Клас DomainException
 ---
 # Клас DomainException

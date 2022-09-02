@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.insert.html: '« DsDeque::insert'
-  - ds-deque.join.html: 'ДсDeque::join »'
+  - ds-deque.insert.md: '« DsDeque::insert'
+  - ds-deque.join.md: 'ДсDeque::join »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::isEmpty'
 ---
 # ДсDeque::isEmpty

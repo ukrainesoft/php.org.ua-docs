@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-simple.getpost.html: '« YafRequestSimple::getPost'
-  - yaf-request-simple.getrequest.html: 'YafRequestSimple::getRequest »'
+  - yaf-request-simple.getpost.md: '« YafRequestSimple::getPost'
+  - yaf-request-simple.getrequest.md: 'YafRequestSimple::getRequest »'
   - index.md: PHP Manual
-  - class.yaf-request-simple.html: YafRequestSimple
+  - class.yaf-request-simple.md: YafRequestSimple
 title: 'YafRequestSimple::getQuery'
 ---
 # YafRequestSimple::getQuery

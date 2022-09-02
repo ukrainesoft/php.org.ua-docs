@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.outcontrol.md: « Функції контролю виведення
-  - function.ob-clean.html: проclean »
+  - function.ob-clean.md: проclean »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
 title: flush

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-maintain-db.html: « fbirdmaintainдб
-  - function.fbird-name-result.html: fbirdnameresult »
+  - function.fbird-maintain-db.md: « fbirdmaintainдб
+  - function.fbird-name-result.md: fbirdnameresult »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdmodifyuser

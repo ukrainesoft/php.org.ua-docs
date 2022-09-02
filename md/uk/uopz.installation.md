@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uopz.requirements.html: « Вимоги
-  - uopz.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - uopz.setup.html: Встановлення та налаштування
+  - uopz.requirements.md: « Вимоги
+  - uopz.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - uopz.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення
@@ -12,4 +12,4 @@ title: Встановлення
 
 Користувачі Windows можуть завантажити готовий реліз із сайту [» PECL](https://windows.php.net/downloads/pecl/releases/uopz)
 
-Починаючи з 5.0.0, модуль повинен завантажуватись як звичайний модуль PHP ([extension](ini.core.html#ini.extension)). Раніше його треба було завантажувати як [zendextension](ini.core.html#ini.zend-extension)
+Починаючи з 5.0.0, модуль повинен завантажуватись як звичайний модуль PHP ([extension](ini.core.md#ini.extension)). Раніше його треба було завантажувати як [zendextension](ini.core.md#ini.zend-extension)

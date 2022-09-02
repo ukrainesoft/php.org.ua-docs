@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-auth-password.html: « ssh2authpassword
-  - function.ssh2-connect.html: ssh2connect »
+  - function.ssh2-auth-password.md: « ssh2authpassword
+  - function.ssh2-connect.md: ssh2connect »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2authpubkeyfile

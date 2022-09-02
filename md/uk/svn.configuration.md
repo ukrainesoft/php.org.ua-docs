@@ -1,9 +1,9 @@
 ---
 navigation:
-  - svn.installation.html: « Установка
-  - svn.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - svn.setup.html: Встановлення та налаштування
+  - svn.installation.md: « Установка
+  - svn.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - svn.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

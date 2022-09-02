@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.setmulti.html: '« Memcached::setMulti'
-  - memcached.setoption.html: 'Memcached::setOption »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.setmulti.md: '« Memcached::setMulti'
+  - memcached.setoption.md: 'Memcached::setOption »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::setMultiByKey'
 ---
 # Memcached::setMultiByKey

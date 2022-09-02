@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-fs-apply-text.html: « svnфсapplytext
-  - function.svn-fs-change-node-prop.html: svnфсchangenodeprop »
+  - function.svn-fs-apply-text.md: « svnфсapplytext
+  - function.svn-fs-change-node-prop.md: svnфсchangenodeprop »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnфсbegintxn2

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-reopen.html: « imapreopen
-  - function.imap-rfc822-parse-headers.html: imaprfc822parseheaders »
+  - function.imap-reopen.md: « imapreopen
+  - function.imap-rfc822-parse-headers.md: imaprfc822parseheaders »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imaprfc822parseadrlist
@@ -84,4 +84,4 @@ foreach ($address_array as $id => $val) {
 
 ### Дивіться також
 
--   [imaprfc822parseheaders()](function.imap-rfc822-parse-headers.html) - Розбір рядка заголовка листа
+-   [imaprfc822parseheaders()](function.imap-rfc822-parse-headers.md) - Розбір рядка заголовка листа

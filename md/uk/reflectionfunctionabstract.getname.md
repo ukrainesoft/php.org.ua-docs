@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getfilename.html: '« ReflectionFunctionAbstract::getFileName'
-  - reflectionfunctionabstract.getnamespacename.html: 'ReflectionFunctionAbstract::getNamespaceName »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getfilename.md: '« ReflectionFunctionAbstract::getFileName'
+  - reflectionfunctionabstract.getnamespacename.md: 'ReflectionFunctionAbstract::getNamespaceName »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getName'
 ---
 # ReflectionFunctionAbstract::getName

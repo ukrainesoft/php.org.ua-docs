@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.runtimeexception.html: « RuntimeException
-  - class.unexpectedvalueexception.html: UnexpectedValueException »
-  - index.html: PHP Manual
-  - spl.exceptions.html: Исключения
+  - class.runtimeexception.md: « RuntimeException
+  - class.unexpectedvalueexception.md: UnexpectedValueException »
+  - index.md: PHP Manual
+  - spl.exceptions.md: Исключения
 title: Клас UnderflowException
 ---
 # Клас UnderflowException

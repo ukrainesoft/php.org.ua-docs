@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mysqli.get-server-info.html: '« mysqli::$serverinfo'
-  - mysqli.get-warnings.html: 'mysqli::getwarnings »'
+  - mysqli.get-server-info.md: '« mysqli::$serverinfo'
+  - mysqli.get-warnings.md: 'mysqli::getwarnings »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::$serverversion'

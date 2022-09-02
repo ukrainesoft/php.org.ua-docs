@@ -1,7 +1,7 @@
 ---
 navigation:
   - hrtime.examples.md: « Приклади
-  - class.hrtime-performancecounter.html: HRTimePerformanceCounter »
+  - class.hrtime-performancecounter.md: HRTimePerformanceCounter »
   - index.md: PHP Manual
   - hrtime.examples.md: Приклади
 title: Основи використання

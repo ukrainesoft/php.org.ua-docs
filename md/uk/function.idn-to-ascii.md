@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.intl.idn.md: « Функції IDN
-  - function.idn-to-utf8.html: idnтоutf8 »
+  - function.idn-to-utf8.md: idnтоutf8 »
   - index.md: PHP Manual
   - ref.intl.idn.md: Функції IDN
 title: idnтоascii

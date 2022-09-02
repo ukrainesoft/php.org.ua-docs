@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setsamplingfactors.html: '« Imagick::setSamplingFactors'
-  - imagick.setsizeoffset.html: 'Imagick::setSizeOffset »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setsamplingfactors.md: '« Imagick::setSamplingFactors'
+  - imagick.setsizeoffset.md: 'Imagick::setSizeOffset »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setSize'
 ---
 # Imagick::setSize

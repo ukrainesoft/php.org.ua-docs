@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-view-simple.construct.html: '« YafViewSimple::construct'
-  - yaf-view-simple.eval.html: 'YafViewSimple::eval »'
-  - index.html: PHP Manual
-  - class.yaf-view-simple.html: YafViewSimple
+  - yaf-view-simple.construct.md: '« YafViewSimple::construct'
+  - yaf-view-simple.eval.md: 'YafViewSimple::eval »'
+  - index.md: PHP Manual
+  - class.yaf-view-simple.md: YafViewSimple
 title: 'YafViewSimple::display'
 ---
 # YafViewSimple::display

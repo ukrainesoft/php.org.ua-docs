@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.gd-info.html: « gdinfo
+  - function.gd-info.md: « gdinfo
   - function.getimagesizefromstring.md: getimagesizefromstring »
   - index.md: PHP Manual
   - ref.image.md: Функції GD та функції для роботи із зображеннями

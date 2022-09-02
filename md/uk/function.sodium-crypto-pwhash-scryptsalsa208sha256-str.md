@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.html: « sodiumcryptopwhashscryptsalsa208sha256strverify
-  - function.sodium-crypto-pwhash-scryptsalsa208sha256.html: sodiumcryptopwhashscryptsalsa208sha256 »
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md: « sodiumcryptopwhashscryptsalsa208sha256strverify
+  - function.sodium-crypto-pwhash-scryptsalsa208sha256.md: sodiumcryptopwhashscryptsalsa208sha256 »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptopwhashscryptsalsa208sha256str

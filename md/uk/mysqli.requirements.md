@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.setup.html: « Встановлення та налаштування
-  - mysqli.installation.html: Установка »
-  - index.html: PHP Manual
-  - mysqli.setup.html: Встановлення та налаштування
+  - mysqli.setup.md: « Встановлення та налаштування
+  - mysqli.installation.md: Установка »
+  - index.md: PHP Manual
+  - mysqli.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

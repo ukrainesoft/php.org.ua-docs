@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-setlinewidth.html: «pssetlinewidth
-  - function.ps-setoverprintmode.html: псsetoverprintmode »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-setlinewidth.md: «pssetlinewidth
+  - function.ps-setoverprintmode.md: псsetoverprintmode »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псsetmiterlimit
 ---
 # псsetmiterlimit
@@ -24,7 +24,7 @@ ps_setmiterlimit(resource $psdoc, float $value): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 `value`
 
@@ -36,6 +36,6 @@ ps_setmiterlimit(resource $psdoc, float $value): bool
 
 ### Дивіться також
 
--   [псsetlinecap()](function.ps-setlinecap.html) - Встановлює зовнішній вигляд закінчення лінії
--   [псsetlinejoin()](function.ps-setlinejoin.html) - Встановлює спосіб з'єднання ліній
--   [псsetlinewidth()](function.ps-setlinewidth.html) - Встановлює ширину лінії
+-   [псsetlinecap()](function.ps-setlinecap.md) - Встановлює зовнішній вигляд закінчення лінії
+-   [псsetlinejoin()](function.ps-setlinejoin.md) - Встановлює спосіб з'єднання ліній
+-   [псsetlinewidth()](function.ps-setlinewidth.md) - Встановлює ширину лінії

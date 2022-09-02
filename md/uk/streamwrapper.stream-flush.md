@@ -1,7 +1,7 @@
 ---
 navigation:
-  - streamwrapper.stream-eof.html: '« streamWrapper::streameof'
-  - streamwrapper.stream-lock.html: 'streamWrapper::streamlock »'
+  - streamwrapper.stream-eof.md: '« streamWrapper::streameof'
+  - streamwrapper.stream-lock.md: 'streamWrapper::streamlock »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamflush'

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.getlength.html: '« ColumnResult::getLength'
-  - mysql-xdevapi-columnresult.gettablelabel.html: 'ColumnResult::getTableLabel »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - mysql-xdevapi-columnresult.getlength.md: '« ColumnResult::getLength'
+  - mysql-xdevapi-columnresult.gettablelabel.md: 'ColumnResult::getTableLabel »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::getSchemaName'
 ---
 # ColumnResult::getSchemaName

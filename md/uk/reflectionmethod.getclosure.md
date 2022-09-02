@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionmethod.export.html: '« ReflectionMethod::export'
-  - reflectionmethod.getdeclaringclass.html: 'ReflectionMethod::getDeclaringClass »'
-  - index.html: PHP Manual
-  - class.reflectionmethod.html: ReflectionMethod
+  - reflectionmethod.export.md: '« ReflectionMethod::export'
+  - reflectionmethod.getdeclaringclass.md: 'ReflectionMethod::getDeclaringClass »'
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::getClosure'
 ---
 # ReflectionMethod::getClosure
@@ -30,7 +30,7 @@ public ReflectionMethod::getClosure(?object $object = null): Closure
 
 ### Значення, що повертаються
 
-Повертає замикання [Closure](class.closure.html). Повертає **`null`** у разі виникнення помилки.
+Повертає замикання [Closure](class.closure.md). Повертає **`null`** у разі виникнення помилки.
 
 ### список змін
 

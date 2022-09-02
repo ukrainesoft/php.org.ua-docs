@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ui-quit.html: « UIquit
-  - class.ui-draw-text-font-weight.html: ОЙDrawTextFontWeight »
+  - function.ui-quit.md: « UIquit
+  - class.ui-draw-text-font-weight.md: ОЙDrawTextFontWeight »
   - index.md: PHP Manual
   - ref.ui.md: Функции UI
 title: ОЙrun

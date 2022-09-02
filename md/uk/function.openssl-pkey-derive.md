@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkcs7-verify.html: « opensslpkcs7verify
-  - function.openssl-pkey-export-to-file.html: opensslpkeyexportтоfile »
+  - function.openssl-pkcs7-verify.md: « opensslpkcs7verify
+  - function.openssl-pkey-export-to-file.md: opensslpkeyexportтоfile »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkeyderive

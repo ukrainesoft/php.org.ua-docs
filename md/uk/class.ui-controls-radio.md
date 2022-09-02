@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-editablecombo.settext.html: '« UIControlsEditableCombo::setText'
-  - ui-controls-radio.append.html: 'ОЙControlsRadio::append »'
+  - ui-controls-editablecombo.settext.md: '« UIControlsEditableCombo::setText'
+  - ui-controls-radio.append.md: 'ОЙControlsRadio::append »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління "Радіо"

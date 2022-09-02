@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.destruct.html: '« SwooleHttpClient::destruct'
-  - swoole-http-client.execute.html: 'SwooleHttpClient::execute »'
-  - index.html: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - swoole-http-client.destruct.md: '« SwooleHttpClient::destruct'
+  - swoole-http-client.execute.md: 'SwooleHttpClient::execute »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::download'
 ---
 # SwooleHttpClient::download

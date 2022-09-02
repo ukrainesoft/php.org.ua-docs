@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-minus-dm.html: « traderminusдм
-  - function.trader-mult.html: tradermult »
+  - function.trader-minus-dm.md: « traderminusдм
+  - function.trader-mult.md: tradermult »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradermom

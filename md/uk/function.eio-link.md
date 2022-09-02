@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-init.html: « eioinit
-  - function.eio-lstat.html: eiolstat »
+  - function.eio-init.md: « eioinit
+  - function.eio-lstat.md: eiolstat »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiolink

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-getgroups.html: « posixgetgroups
-  - function.posix-getpgid.html: posixgetpgid »
+  - function.posix-getgroups.md: « posixgetgroups
+  - function.posix-getpgid.md: posixgetpgid »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixgetlogin

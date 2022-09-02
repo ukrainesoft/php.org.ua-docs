@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagecolorspace.html: '« Imagick::setImageColorspace'
-  - imagick.setimagecompression.html: 'Imagick::setImageCompression »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagecolorspace.md: '« Imagick::setImageColorspace'
+  - imagick.setimagecompression.md: 'Imagick::setImageCompression »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageCompose'
 ---
 # Imagick::setImageCompose

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.output-add-rewrite-var.html: « outputaddrewritevar
+  - function.output-add-rewrite-var.md: « outputaddrewritevar
   - book.info.md: Опции/информация PHP »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
@@ -32,7 +32,7 @@ output_reset_rewrite_vars(): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.html) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.md) |
+|  | До PHP 7.1.0, змінні перезаписи встановлені функцією [outputaddrewritevar()](function.output-add-rewrite-var.md) використовують той самий буфер модуля сесії "trans sid". З PHP 7.1.0, використовується окремий буфер і **outputresetrewritevars()** тільки видаляє перемінні перезаписи [outputaddrewritevar()](function.output-add-rewrite-var.md) |
 
 ### Приклади
 
@@ -63,7 +63,7 @@ echo '<a href="file.php">ссылка</a>';
 -   [outputaddrewritevar()](function.output-add-rewrite-var.md) - Додати значення в обробник URL
 -   [проflush()](function.ob-flush.md) - Скинути (надіслати) буфер виводу
 -   [проlisthandlers()](function.ob-list-handlers.md) - Список всіх використовуваних обробників виводу
--   [urlrewriter.tags](outcontrol.configuration.html#ini.url-rewriter.tags)
--   [urlrewriter.hosts](outcontrol.configuration.html#ini.url-rewriter.hosts)
--   [session.transsidtags](session.configuration.html#ini.session.trans-sid-tags)
--   [session.transsidhosts](session.configuration.html#ini.session.trans-sid-hosts)
+-   [urlrewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags)
+-   [urlrewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts)
+-   [session.transsidtags](session.configuration.md#ini.session.trans-sid-tags)
+-   [session.transsidhosts](session.configuration.md#ini.session.trans-sid-hosts)

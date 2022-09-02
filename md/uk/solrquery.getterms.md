@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getstatsfields.html: '« SolrQuery::getStatsFields'
-  - solrquery.gettermsfield.html: 'SolrQuery::getTermsField »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getstatsfields.md: '« SolrQuery::getStatsFields'
+  - solrquery.gettermsfield.md: 'SolrQuery::getTermsField »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getTerms'
 ---
 # SolrQuery::getTerms

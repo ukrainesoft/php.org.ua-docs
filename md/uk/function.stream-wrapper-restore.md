@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-wrapper-register.html: « streamwrapperregister
-  - function.stream-wrapper-unregister.html: streamwrapperunregister »
+  - function.stream-wrapper-register.md: « streamwrapperregister
+  - function.stream-wrapper-unregister.md: streamwrapperunregister »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamwrapperrestore

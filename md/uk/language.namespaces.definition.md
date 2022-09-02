@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.namespaces.rationale.html: « Огляд просторів імен
-  - language.namespaces.nested.html: Определение подпространств имён »
-  - index.html: PHP Manual
-  - language.namespaces.html: Пространства имён
+  - language.namespaces.rationale.md: « Огляд просторів імен
+  - language.namespaces.nested.md: Определение подпространств имён »
+  - index.md: PHP Manual
+  - language.namespaces.md: Пространства имён
 title: Визначення просторів імен
 ---
 ## Визначення просторів імен

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine.call-user-func.html: '« SwooleCoroutine::calluserfunc'
-  - swoole-coroutine.create.html: 'SwooleCoroutine::create »'
+  - swoole-coroutine.call-user-func.md: '« SwooleCoroutine::calluserfunc'
+  - swoole-coroutine.create.md: 'SwooleCoroutine::create »'
   - index.md: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutine::cliwait'
 ---
 # SwooleCoroutine::cliwait

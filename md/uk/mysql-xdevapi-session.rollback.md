@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.releasesavepoint.html: '« Session::releaseSavepoint'
-  - mysql-xdevapi-session.rollbackto.html: 'Session::rollbackTo »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - mysql-xdevapi-session.releasesavepoint.md: '« Session::releaseSavepoint'
+  - mysql-xdevapi-session.rollbackto.md: 'Session::rollbackTo »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::rollback'
 ---
 # Session::rollback

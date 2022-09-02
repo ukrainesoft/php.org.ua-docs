@@ -1,9 +1,9 @@
 ---
 navigation:
-  - cubridmysql.cubrid.html: « Функції сумісності CUBRID MySQL
-  - function.cubrid-client-encoding.html: cubridclientencoding »
-  - index.html: PHP Manual
-  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+  - cubridmysql.cubrid.md: « Функції сумісності CUBRID MySQL
+  - function.cubrid-client-encoding.md: cubridclientencoding »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridaffectedrows
 ---
 # cubridaffectedrows
@@ -28,11 +28,11 @@ cubrid_affected_rows(resource $req_identifier = ?): int
 
 `conn_identifier`
 
-Ідентифікатор з'єднання CUBRID. Якщо не задано, то використовуватиметься останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.html) з'єднання.
+Ідентифікатор з'єднання CUBRID. Якщо не задано, то використовуватиметься останнє відкрите за допомогою [cubridconnect()](function.cubrid-connect.md) з'єднання.
 
 `req_identifier`
 
-Ідентифікатор запиту має бути повернутий функціями [cubridprepare()](function.cubrid-prepare.html) або [cubridexecute()](function.cubrid-execute.html). Якщо не заданий, буде використано останній запит, повернутий [cubridprepare()](function.cubrid-prepare.html) або [cubridexecute()](function.cubrid-execute.html)
+Ідентифікатор запиту має бути повернутий функціями [cubridprepare()](function.cubrid-prepare.md) або [cubridexecute()](function.cubrid-execute.md). Якщо не заданий, буде використано останній запит, повернутий [cubridprepare()](function.cubrid-prepare.md) або [cubridexecute()](function.cubrid-execute.md)
 
 ### Значення, що повертаються
 
@@ -78,4 +78,4 @@ Rows deleted: 5
 
 ### Дивіться також
 
--   [cubridexecute()](function.cubrid-execute.html) - Виконує підготовлений SQL-оператор
+-   [cubridexecute()](function.cubrid-execute.md) - Виконує підготовлений SQL-оператор

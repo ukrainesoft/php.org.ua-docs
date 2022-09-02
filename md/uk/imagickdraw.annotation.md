@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.affine.html: '« ImagickDraw::affine'
-  - imagickdraw.arc.html: 'ImagickDraw::arc »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.affine.md: '« ImagickDraw::affine'
+  - imagickdraw.arc.md: 'ImagickDraw::arc »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::annotation'
 ---
 # ImagickDraw::annotation

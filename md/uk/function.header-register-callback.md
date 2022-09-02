@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.getservbyport.md: « getservbyport
-  - function.header-remove.html: headerremove »
+  - function.header-remove.md: headerremove »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: headerregistercallback

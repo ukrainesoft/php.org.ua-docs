@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimageblueprimary.html: '« Imagick::setImageBluePrimary'
-  - imagick.setimagechanneldepth.html: 'Imagick::setImageChannelDepth »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimageblueprimary.md: '« Imagick::setImageBluePrimary'
+  - imagick.setimagechanneldepth.md: 'Imagick::setImageChannelDepth »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageBorderColor'
 ---
 # Imagick::setImageBorderColor

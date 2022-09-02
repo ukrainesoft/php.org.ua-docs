@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reference.pcre.pattern.syntax.html: « Опис синтаксису Perl-сумісних регулярних виразів
-  - regexp.reference.delimiters.html: Розділювачі »
-  - index.html: PHP Manual
-  - reference.pcre.pattern.syntax.html: Опис синтаксису Perl-сумісних регулярних виразів
+  - reference.pcre.pattern.syntax.md: « Опис синтаксису Perl-сумісних регулярних виразів
+  - regexp.reference.delimiters.md: Розділювачі »
+  - index.md: PHP Manual
+  - reference.pcre.pattern.syntax.md: Опис синтаксису Perl-сумісних регулярних виразів
 title: Вступ
 ---
 ## Вступ

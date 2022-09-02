@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdltristar.html: « tradercdltristar
-  - function.trader-cdlupsidegap2crows.html: tradercdlupsidegap2crows »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdltristar.md: « tradercdltristar
+  - function.trader-cdlupsidegap2crows.md: tradercdlupsidegap2crows »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlunique3river
 ---
 # tradercdlunique3river

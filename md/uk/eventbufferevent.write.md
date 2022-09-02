@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbufferevent.sslsocket.html: '« EventBufferEvent::sslSocket'
-  - eventbufferevent.writebuffer.html: 'EventBufferEvent::writeBuffer »'
-  - index.html: PHP Manual
-  - class.eventbufferevent.html: EventBufferEvent
+  - eventbufferevent.sslsocket.md: '« EventBufferEvent::sslSocket'
+  - eventbufferevent.writebuffer.md: 'EventBufferEvent::writeBuffer »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::write'
 ---
 # EventBufferEvent::write

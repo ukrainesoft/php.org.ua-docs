@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.setcontrollername.html: '« YafRequestAbstract::setControllerName'
-  - yaf-request-abstract.setmodulename.html: 'YafRequestAbstract::setModuleName »'
+  - yaf-request-abstract.setcontrollername.md: '« YafRequestAbstract::setControllerName'
+  - yaf-request-abstract.setmodulename.md: 'YafRequestAbstract::setModuleName »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::setDispatched'
 ---
 # YafRequestAbstract::setDispatched

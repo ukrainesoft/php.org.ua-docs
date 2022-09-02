@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-loader.islocalname.html: '« YafLoader::isLocalName'
-  - yaf-loader.registernamespace.html: 'YafLoader::registerNamespace »'
+  - yaf-loader.islocalname.md: '« YafLoader::isLocalName'
+  - yaf-loader.registernamespace.md: 'YafLoader::registerNamespace »'
   - index.md: PHP Manual
-  - class.yaf-loader.html: YafLoader
+  - class.yaf-loader.md: YafLoader
 title: 'YafLoader::registerLocalNamespace'
 ---
 # YafLoader::registerLocalNamespace
@@ -18,7 +18,7 @@ YafLoader::registerLocalNamespace — Реєструє префікс локал
 public Yaf_Loader::registerLocalNamespace(mixed $prefix): void
 ```
 
-Реєструє префікс локального класу, [YafLoader](class.yaf-loader.md) шукає класи у двох каталогах бібліотеки, один із яких налаштовується за допомогою [application.library.directory](yaf.appconfig.html#configuration.yaf.library) (в application.ini) який називається локальним каталогом бібліотек; інший налаштовується за допомогою [yaf.library](yaf.configuration.html#ini.yaf.library) (в php.ini), який називається глобальним каталогом бібліотеки, оскільки він може використовуватися багатьма програмами на одному сервері.
+Реєструє префікс локального класу, [YafLoader](class.yaf-loader.md) шукає класи у двох каталогах бібліотеки, один із яких налаштовується за допомогою [application.library.directory](yaf.appconfig.md#configuration.yaf.library) (в application.ini) який називається локальним каталогом бібліотек; інший налаштовується за допомогою [yaf.library](yaf.configuration.md#ini.yaf.library) (в php.ini), який називається глобальним каталогом бібліотеки, оскільки він може використовуватися багатьма програмами на одному сервері.
 
 Коли запускається автозавантаження, [YafLoader](class.yaf-loader.md) визначатиме, у якому каталозі бібліотеки слід шукати, слід шукати, перевіряючи ім'я префікса пропущеного імені класу. Якщо ім'я префікса зареєстроване як localnamespack, шукатиметься в каталозі локальної бібліотеки, інакше — у каталозі глобальної бібліотеки.
 

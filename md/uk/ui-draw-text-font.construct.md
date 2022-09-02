@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-draw-text-font.html: « UIDrawTextFont
-  - ui-draw-text-font.getascent.html: 'ОЙDrawTextFont::getAscent »'
-  - index.html: PHP Manual
-  - class.ui-draw-text-font.html: ОЙDrawTextFont
+  - class.ui-draw-text-font.md: « UIDrawTextFont
+  - ui-draw-text-font.getascent.md: 'ОЙDrawTextFont::getAscent »'
+  - index.md: PHP Manual
+  - class.ui-draw-text-font.md: ОЙDrawTextFont
 title: 'ОЙDrawTextFont::construct'
 ---
 # ОЙDrawTextFont::construct
@@ -14,7 +14,7 @@ title: 'ОЙDrawTextFont::construct'
 
 ### Опис
 
-public **ОЙDrawTextFont::construct**[ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.html) `$descriptor`
+public **ОЙDrawTextFont::construct**[ОЙDrawTextFontDescriptor](class.ui-draw-text-font-descriptor.md) `$descriptor`
 
 Створить новий об'єкт Font, використовуючи заданий дескриптор
 

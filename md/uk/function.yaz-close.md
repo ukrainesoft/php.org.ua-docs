@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.yaz-ccl-parse.html: « yazcclparse
-  - function.yaz-connect.html: yazconnect »
-  - index.html: PHP Manual
-  - ref.yaz.html: Функции YAZ
+  - function.yaz-ccl-parse.md: « yazcclparse
+  - function.yaz-connect.md: yazconnect »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
 title: yazclose
 ---
 # yazclose

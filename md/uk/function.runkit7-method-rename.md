@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.runkit7-method-remove.html: « runkit7methodremove
-  - function.runkit7-object-id.html: runkit7objectid »
+  - function.runkit7-method-remove.md: « runkit7methodremove
+  - function.runkit7-object-id.md: runkit7objectid »
   - index.md: PHP Manual
   - ref.runkit7.md: Функції runkit7
 title: runkit7методrename

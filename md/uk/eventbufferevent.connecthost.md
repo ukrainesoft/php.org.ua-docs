@@ -62,7 +62,7 @@ public
 
 `family`
 
-Сімейство адрес . **`EventUtil::AF_UNSPEC`** **`EventUtil::AF_INET`** або **`EventUtil::AF_INET6`**. Зверніться до списку [констант EventUtil](class.eventutil.html#eventutil.constants)
+Сімейство адрес . **`EventUtil::AF_UNSPEC`** **`EventUtil::AF_INET`** або **`EventUtil::AF_INET6`**. Зверніться до списку [констант EventUtil](class.eventutil.md#eventutil.constants)
 
 ### Значення, що повертаються
 

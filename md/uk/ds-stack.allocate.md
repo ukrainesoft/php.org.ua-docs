@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-stack.html: « Стек
-  - ds-stack.capacity.html: 'ДсStack::capacity »'
+  - class.ds-stack.md: « Стек
+  - ds-stack.capacity.md: 'ДсStack::capacity »'
   - index.md: PHP Manual
-  - class.ds-stack.html: Стек
+  - class.ds-stack.md: Стек
 title: 'ДсStack::allocate'
 ---
 # ДсStack::allocate

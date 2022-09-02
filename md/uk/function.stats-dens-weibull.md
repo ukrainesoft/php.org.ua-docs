@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-dens-uniform.html: « statsdensuniform
-  - function.stats-harmonic-mean.html: statsharmonicmean »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-dens-uniform.md: « statsdensuniform
+  - function.stats-harmonic-mean.md: statsharmonicmean »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsdensweibull
 ---
 # statsdensweibull

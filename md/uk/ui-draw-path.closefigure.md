@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-path.bezierto.html: '« UIDrawPath::bezierTo'
-  - ui-draw-path.construct.html: 'ОЙDrawPath::construct »'
-  - index.html: PHP Manual
-  - class.ui-draw-path.html: ОЙDrawPath
+  - ui-draw-path.bezierto.md: '« UIDrawPath::bezierTo'
+  - ui-draw-path.construct.md: 'ОЙDrawPath::construct »'
+  - index.md: PHP Manual
+  - class.ui-draw-path.md: ОЙDrawPath
 title: 'ОЙDrawPath::closeFigure'
 ---
 # ОЙDrawPath::closeFigure

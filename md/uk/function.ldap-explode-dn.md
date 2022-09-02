@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-exop.html: « ldapexop
-  - function.ldap-first-attribute.html: ldapfirstattribute »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-exop.md: « ldapexop
+  - function.ldap-first-attribute.md: ldapfirstattribute »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapexplodeдн
 ---
 # ldapexplodeдн

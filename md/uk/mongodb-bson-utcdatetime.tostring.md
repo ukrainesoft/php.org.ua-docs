@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-utcdatetime.todatetime.html: '« MongoDBBSONUTCDateTime::toDateTime'
-  - mongodb-bson-utcdatetime.unserialize.html: 'MongoDBBSONUTCDateTime::unserialize »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-utcdatetime.html: MongoDBBSONUTCDateTime
+  - mongodb-bson-utcdatetime.todatetime.md: '« MongoDBBSONUTCDateTime::toDateTime'
+  - mongodb-bson-utcdatetime.unserialize.md: 'MongoDBBSONUTCDateTime::unserialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-utcdatetime.md: MongoDBBSONUTCDateTime
 title: 'MongoDBBSONUTCDateTime::function toString() { \[native code\] }'
 ---
 # MongoDBBSONUTCDateTime::function toString() { \[native code\] }

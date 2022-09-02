@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-set-hook.html: « uopzsethook
-  - function.uopz-set-property.html: uopzsetproperty »
+  - function.uopz-set-hook.md: « uopzsethook
+  - function.uopz-set-property.md: uopzsetproperty »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzsetmock
@@ -22,7 +22,7 @@ uopz_set_mock(string $class, mixed $mock): void
 
 > **Зауваження**
 > 
-> Тільки динамічний доступ до властивостей та методів буде використовувати об'єкт `mock`. Статичний доступ використовуватиме оригінальний `class`. Дивіться [пример](function.uopz-set-mock.html#uopz_set_mock.example.static) нижче.
+> Тільки динамічний доступ до властивостей та методів буде використовувати об'єкт `mock`. Статичний доступ використовуватиме оригінальний `class`. Дивіться [пример](function.uopz-set-mock.md#uopz_set_mock.example.static) нижче.
 
 ### Список параметрів
 
@@ -42,7 +42,7 @@ uopz_set_mock(string $class, mixed $mock): void
 
 | Версия | Описание |
 | --- | --- |
-| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopzredefine()](function.uopz-redefine.html) і [uopzsetreturn()](function.uopz-set-return.md), або [Componere](book.componere.md) |
+| uopz 6.0.0 | Імітування статичних функцій не підтримуються цією функцією. Замість цього слід використовувати [uopzredefine()](function.uopz-redefine.md) і [uopzsetreturn()](function.uopz-set-return.md), або [Componere](book.componere.md) |
 
 ### Приклади
 

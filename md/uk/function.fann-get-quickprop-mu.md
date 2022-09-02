@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-quickprop-decay.html: « fanngetquickpropdecay
-  - function.fann-get-rprop-decrease-factor.html: fanngetrpropdecreasefactor »
+  - function.fann-get-quickprop-decay.md: « fanngetquickpropdecay
+  - function.fann-get-rprop-decrease-factor.md: fanngetrpropdecreasefactor »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetquickpropму

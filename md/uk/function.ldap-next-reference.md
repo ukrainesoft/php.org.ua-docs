@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-next-entry.html: « ldapnextentry
-  - function.ldap-parse-exop.html: ldapparseexop »
+  - function.ldap-next-entry.md: « ldapnextentry
+  - function.ldap-parse-exop.md: ldapparseexop »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapnextreference

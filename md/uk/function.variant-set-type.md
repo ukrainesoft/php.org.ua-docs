@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-round.html: « variantround
-  - function.variant-set.html: variantset »
+  - function.variant-round.md: « variantround
+  - function.variant-set.md: variantset »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantsettype
@@ -18,7 +18,7 @@ variantsettype — Приведення варіанта до іншого ти�
 variant_set_type(variant $variant, int $type): void
 ```
 
-Функція аналогічна [variantcast()](function.variant-cast.html) крім того, що змінюється сам варіант, а чи не створюється новий. Функції, що передаються, ідентичні параметрам функції [variantcast()](function.variant-cast.md)
+Функція аналогічна [variantcast()](function.variant-cast.md) крім того, що змінюється сам варіант, а чи не створюється новий. Функції, що передаються, ідентичні параметрам функції [variantcast()](function.variant-cast.md)
 
 ### Список параметрів
 

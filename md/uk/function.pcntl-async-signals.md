@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pcntl-alarm.html: pcntlalarm
-  - function.pcntl-errno.html: pcntlerrno »
-  - index.html: PHP Manual
-  - ref.pcntl.html: Функції PCNTL
+  - function.pcntl-alarm.md: pcntlalarm
+  - function.pcntl-errno.md: pcntlerrno »
+  - index.md: PHP Manual
+  - ref.pcntl.md: Функції PCNTL
 title: pcntlasyncsignals
 ---
 # pcntlasyncsignals

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.clone.html: '« GearmanWorker::clone'
-  - gearmanworker.echo.html: 'GearmanWorker::echo »'
-  - index.html: PHP Manual
-  - class.gearmanworker.html: GearmanWorker
+  - gearmanworker.clone.md: '« GearmanWorker::clone'
+  - gearmanworker.echo.md: 'GearmanWorker::echo »'
+  - index.md: PHP Manual
+  - class.gearmanworker.md: GearmanWorker
 title: 'GearmanWorker::construct'
 ---
 # GearmanWorker::construct
@@ -18,7 +18,7 @@ GearmanWorker::construct — Створення об'єкту GearmanWorker
 public GearmanWorker::__construct()
 ```
 
-Створює об'єкт [GearmanWorker](class.gearmanworker.html)представляє обробник, який підключається до сервера завдань і приймає завдання для виконання.
+Створює об'єкт [GearmanWorker](class.gearmanworker.md)представляє обробник, який підключається до сервера завдань і приймає завдання для виконання.
 
 ### Список параметрів
 
@@ -26,8 +26,8 @@ public GearmanWorker::__construct()
 
 ### Значення, що повертаються
 
-Об'єкт класу [GearmanWorker](class.gearmanworker.html)
+Об'єкт класу [GearmanWorker](class.gearmanworker.md)
 
 ### Дивіться також
 
--   [GearmanWorker::clone()](gearmanworker.clone.html) - Створення копії оброблювача
+-   [GearmanWorker::clone()](gearmanworker.clone.md) - Створення копії оброблювача

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domcharacterdata.appenddata.html: '« DOMCharacterData::appendData'
-  - domcharacterdata.insertdata.html: 'DOMCharacterData::insertData »'
-  - index.html: PHP Manual
-  - class.domcharacterdata.html: DOMCharacterData
+  - domcharacterdata.appenddata.md: '« DOMCharacterData::appendData'
+  - domcharacterdata.insertdata.md: 'DOMCharacterData::insertData »'
+  - index.md: PHP Manual
+  - class.domcharacterdata.md: DOMCharacterData
 title: 'DOMCharacterData::deleteData'
 ---
 # DOMCharacterData::deleteData
@@ -42,7 +42,7 @@ public DOMCharacterData::deleteData(int $offset, int $count): bool
 
 ### Дивіться також
 
--   [DOMCharacterData::appendData()](domcharacterdata.appenddata.html) - Додати рядок до кінця символьних даних вузла
--   [DOMCharacterData::insertData()](domcharacterdata.insertdata.html) - Вставити рядок у вказану 16-бітну позицію
--   [DOMCharacterData::replaceData()](domcharacterdata.replacedata.html) - Замінити підрядок у вузлі типу DOMCharacterData
--   [DOMCharacterData::substringData()](domcharacterdata.substringdata.html) - Витягує певний діапазон даних із вузла
+-   [DOMCharacterData::appendData()](domcharacterdata.appenddata.md) - Додати рядок до кінця символьних даних вузла
+-   [DOMCharacterData::insertData()](domcharacterdata.insertdata.md) - Вставити рядок у вказану 16-бітну позицію
+-   [DOMCharacterData::replaceData()](domcharacterdata.replacedata.md) - Замінити підрядок у вузлі типу DOMCharacterData
+-   [DOMCharacterData::substringData()](domcharacterdata.substringdata.md) - Витягує певний діапазон даних із вузла

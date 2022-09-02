@@ -1,7 +1,7 @@
 ---
 navigation:
   - intlchar.getblockcode.md: '« IntlChar::getBlockCode'
-  - intlchar.getfc-nfkc-closure.html: 'IntlChar::getFCNFKCClosure »'
+  - intlchar.getfc-nfkc-closure.md: 'IntlChar::getFCNFKCClosure »'
   - index.md: PHP Manual
   - class.intlchar.md: IntlChar
 title: 'IntlChar::getCombiningClass'

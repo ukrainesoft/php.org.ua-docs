@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.selectiveblurimage.html: '« Imagick::selectiveBlurImage'
-  - imagick.sepiatoneimage.html: 'Imagick::sepiaToneImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.selectiveblurimage.md: '« Imagick::selectiveBlurImage'
+  - imagick.sepiatoneimage.md: 'Imagick::sepiaToneImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::separateImageChannel'
 ---
 # Imagick::separateImageChannel

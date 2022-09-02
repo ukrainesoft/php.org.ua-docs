@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-set-max-poll-time.html: « eiosetmaxpolltime
-  - function.eio-stat.html: eiostat »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-set-max-poll-time.md: « eiosetmaxpolltime
+  - function.eio-stat.md: eiostat »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiosetminparallel
 ---
 # eiosetminparallel

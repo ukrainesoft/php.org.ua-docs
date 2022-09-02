@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.filter.html: '« DsMap::filter'
-  - ds-map.get.html: 'ДсMap::get »'
+  - ds-map.filter.md: '« DsMap::filter'
+  - ds-map.get.md: 'ДсMap::get »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::first'
 ---
 # ДсMap::first

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.tidynode.html: « tidyNode
-  - tidynode.getparent.html: 'tidyNode::getParent »'
-  - index.html: PHP Manual
-  - class.tidynode.html: tidyNode
+  - class.tidynode.md: « tidyNode
+  - tidynode.getparent.md: 'tidyNode::getParent »'
+  - index.md: PHP Manual
+  - class.tidynode.md: tidyNode
 title: 'tidyNode::construct'
 ---
 # tidyNode::construct

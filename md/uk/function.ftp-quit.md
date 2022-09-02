@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-pwd.html: « ftppwd
-  - function.ftp-raw.html: ftpraw »
+  - function.ftp-pwd.md: « ftppwd
+  - function.ftp-raw.md: ftpraw »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpquit

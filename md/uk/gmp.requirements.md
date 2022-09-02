@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmp.setup.html: « Встановлення та налаштування
-  - gmp.installation.html: Установка »
-  - index.html: PHP Manual
-  - gmp.setup.html: Встановлення та налаштування
+  - gmp.setup.md: « Встановлення та налаштування
+  - gmp.installation.md: Установка »
+  - index.md: PHP Manual
+  - gmp.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

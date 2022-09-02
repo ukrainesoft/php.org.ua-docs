@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-fetch-stream.html: « ssh2fetchstream
-  - function.ssh2-forward-accept.html: ssh2forwardaccept »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-fetch-stream.md: « ssh2fetchstream
+  - function.ssh2-forward-accept.md: ssh2forwardaccept »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2fingerprint
 ---
 # ssh2fingerprint
@@ -24,7 +24,7 @@ ssh2_fingerprint(resource $session, int $flags = SSH2_FINGERPRINT_MD5 | SSH2_FIN
 
 `session`
 
-Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.html)
+Ідентифікатор з'єднання SSH, отриманий з [ssh2connect()](function.ssh2-connect.md)
 
 `flags`
 

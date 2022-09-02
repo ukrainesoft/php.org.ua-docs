@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-first-reference.html: « ldapfirstreference
-  - function.ldap-get-attributes.html: ldapgetattributes »
+  - function.ldap-first-reference.md: « ldapfirstreference
+  - function.ldap-get-attributes.md: ldapgetattributes »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapfreeresult
@@ -26,7 +26,7 @@ ldap_free_result(LDAP\Result $result): bool
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 ### Значення, що повертаються
 

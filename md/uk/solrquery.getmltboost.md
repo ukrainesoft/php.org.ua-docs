@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getmlt.html: '« SolrQuery::getMlt'
-  - solrquery.getmltcount.html: 'SolrQuery::getMltCount »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getmlt.md: '« SolrQuery::getMlt'
+  - solrquery.getmltcount.md: 'SolrQuery::getMltCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getMltBoost'
 ---
 # SolrQuery::getMltBoost

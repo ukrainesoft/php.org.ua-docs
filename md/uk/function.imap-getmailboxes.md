@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-getacl.html: « imapgetacl
-  - function.imap-getsubscribed.html: imapgetsubscribed »
+  - function.imap-getacl.md: « imapgetacl
+  - function.imap-getsubscribed.md: imapgetsubscribed »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapgetmailboxes
@@ -32,7 +32,7 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 **Увага**
 
-Якщо [imap.enableinsecurersh](imap.configuration.html#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
+Якщо [imap.enableinsecurersh](imap.configuration.md#ini.imap.enable-insecure-rsh) не вимкнено, то передача в цей параметр не перевірених даних *не безпечна*
 
 `pattern`
 

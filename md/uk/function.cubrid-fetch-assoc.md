@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-fetch-array.html: « cubridfetcharray
-  - function.cubrid-fetch-field.html: cubridfetchfield »
+  - function.cubrid-fetch-array.md: « cubridfetcharray
+  - function.cubrid-fetch-field.md: cubridfetchfield »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridfetchassoc

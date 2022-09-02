@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-cdf-poisson.html: « statscdfpoisson
-  - function.stats-cdf-uniform.html: statscdfuniform »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-cdf-poisson.md: « statscdfpoisson
+  - function.stats-cdf-uniform.md: statscdfuniform »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statscdfт
 ---
 # statscdfт

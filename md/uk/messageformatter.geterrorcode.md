@@ -1,9 +1,9 @@
 ---
 navigation:
-  - messageformatter.format.html: '« MessageFormatter::format'
-  - messageformatter.geterrormessage.html: 'MessageFormatter::getErrorMessage »'
-  - index.html: PHP Manual
-  - class.messageformatter.html: MessageFormatter
+  - messageformatter.format.md: '« MessageFormatter::format'
+  - messageformatter.geterrormessage.md: 'MessageFormatter::getErrorMessage »'
+  - index.md: PHP Manual
+  - class.messageformatter.md: MessageFormatter
 title: 'MessageFormatter::getErrorCode'
 ---
 # MessageFormatter::getErrorCode

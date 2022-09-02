@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-pen.stroke.html: '« UIDrawPen::stroke'
-  - ui-draw-pen.write.html: 'ОЙDrawPen::write »'
+  - ui-draw-pen.stroke.md: '« UIDrawPen::stroke'
+  - ui-draw-pen.write.md: 'ОЙDrawPen::write »'
   - index.md: PHP Manual
-  - class.ui-draw-pen.html: ОЙDrawPen
+  - class.ui-draw-pen.md: ОЙDrawPen
 title: 'ОЙDrawPen::transform'
 ---
 # ОЙDrawPen::transform

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.toucallback.html: '« UConverter::toUCallback'
-  - ref.intl.grapheme.html: Функции Grapheme »
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.toucallback.md: '« UConverter::toUCallback'
+  - ref.intl.grapheme.md: Функции Grapheme »
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::transcode'
 ---
 # UConverter::transcode
@@ -121,5 +121,5 @@ echo bin2hex($iso8859_1_string), "\n";
 
 ### Дивіться також
 
--   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
--   [iconv()](function.iconv.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбconvertencoding()](function.mb-convert-encoding.md) - Перетворює рядок з одного кодування символів на інший
+-   [iconv()](function.iconv.md) - Перетворює рядок з одного кодування символів на інший

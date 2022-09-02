@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-cascade-candidate-change-fraction.html: « fannsetcascadecandidatechangefraction
-  - function.fann-set-cascade-candidate-stagnation-epochs.html: fannsetcascadecandidatestagnationepochs »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-cascade-candidate-change-fraction.md: « fannsetcascadecandidatechangefraction
+  - function.fann-set-cascade-candidate-stagnation-epochs.md: fannsetcascadecandidatestagnationepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetcascadecandidatelimit
 ---
 # fannsetcascadecandidatelimit

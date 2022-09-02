@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dba-key-split.html: « dbakeysplit
-  - function.dba-nextkey.html: dbanextkey »
-  - index.html: PHP Manual
-  - ref.dba.html: Функції DBA
+  - function.dba-key-split.md: « dbakeysplit
+  - function.dba-nextkey.md: dbanextkey »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
 title: dbalist
 ---
 # dbalist

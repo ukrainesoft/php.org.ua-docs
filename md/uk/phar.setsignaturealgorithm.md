@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.setmetadata.html: '« Phar::setMetadata'
-  - phar.setstub.html: 'Phar::setStub »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.setmetadata.md: '« Phar::setMetadata'
+  - phar.setstub.md: 'Phar::setStub »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::setSignatureAlgorithm'
 ---
 # Phar::setSignatureAlgorithm
@@ -20,11 +20,11 @@ public Phar::setSignatureAlgorithm(int $algo, ?string $privateKey = null): void
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
 Встановлює алгоритм підписання phar-архіву та застосовує його. Доступні такі алгоритми підписання: `Phar::MD5` `Phar::SHA1` `Phar::SHA256` `Phar::SHA512` і `Phar::OPENSSL`
 
-Зверніть увагу, що для всіх phar-архівів, що виконуються, підпис створюється автоматично, з використанням за замовчуванням `SHA1`. Архіви з даними на основі tar або zip (створені за допомогою класу [PharData](class.phardata.html)) повинні мати явно створену за допомогою **Phar::setSignatureAlgorithm()** підпис.
+Зверніть увагу, що для всіх phar-архівів, що виконуються, підпис створюється автоматично, з використанням за замовчуванням `SHA1`. Архіви з даними на основі tar або zip (створені за допомогою класу [PharData](class.phardata.md)) повинні мати явно створену за допомогою **Phar::setSignatureAlgorithm()** підпис.
 
 ### Список параметрів
 
@@ -45,7 +45,7 @@ $p->setSignatureAlgorithm(Phar::OPENSSL, $pkey);
 ?>
 ```
 
-Подробиці про іменування та розміщення файлу відкритого ключа дивіться у розділі [Введение в phar](phar.using.html)
+Подробиці про іменування та розміщення файлу відкритого ключа дивіться у розділі [Введение в phar](phar.using.md)
 
 ### Значення, що повертаються
 
@@ -53,7 +53,7 @@ $p->setSignatureAlgorithm(Phar::OPENSSL, $pkey);
 
 ### Помилки
 
-Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.html) за будь-яких помилок, крім помилок запису на диск. При помилках запису на диск викидає виняток [PharException](class.pharexception.html)
+Викидає виняток [UnexpectedValueException](class.unexpectedvalueexception.md) за будь-яких помилок, крім помилок запису на диск. При помилках запису на диск викидає виняток [PharException](class.pharexception.md)
 
 ### список змін
 
@@ -63,5 +63,5 @@ $p->setSignatureAlgorithm(Phar::OPENSSL, $pkey);
 
 ### Дивіться також
 
--   [Phar::getSupportedSignatures()](phar.getsupportedsignatures.html) - Отримати масив підтримуваних алгоритмів підпису архіву
--   [Phar::getSignature()](phar.getsignature.html) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву
+-   [Phar::getSupportedSignatures()](phar.getsupportedsignatures.md) - Отримати масив підтримуваних алгоритмів підпису архіву
+-   [Phar::getSignature()](phar.getsignature.md) - Отримати MD5/SHA1/SHA256/SHA512/OpenSSL підпис Phar-архіву

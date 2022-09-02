@@ -1,9 +1,9 @@
 ---
 navigation:
-  - uconverter.getstandards.html: '« UConverter::getStandards'
-  - uconverter.reasontext.html: 'UConverter::reasonText »'
-  - index.html: PHP Manual
-  - class.uconverter.html: UConverter
+  - uconverter.getstandards.md: '« UConverter::getStandards'
+  - uconverter.reasontext.md: 'UConverter::reasonText »'
+  - index.md: PHP Manual
+  - class.uconverter.md: UConverter
 title: 'UConverter::getSubstChars'
 ---
 # UConverter::getSubstChars

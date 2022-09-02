@@ -1,9 +1,9 @@
 ---
 navigation:
-  - syncreaderwriter.readunlock.html: '« SyncReaderWriter::readunlock'
-  - syncreaderwriter.writeunlock.html: 'SyncReaderWriter::writeunlock »'
-  - index.html: PHP Manual
-  - class.syncreaderwriter.html: SyncReaderWriter
+  - syncreaderwriter.readunlock.md: '« SyncReaderWriter::readunlock'
+  - syncreaderwriter.writeunlock.md: 'SyncReaderWriter::writeunlock »'
+  - index.md: PHP Manual
+  - class.syncreaderwriter.md: SyncReaderWriter
 title: 'SyncReaderWriter::writelock'
 ---
 # SyncReaderWriter::writelock
@@ -18,7 +18,7 @@ SyncReaderWriter::writelock — Очікує ексклюзивного блок
 public SyncReaderWriter::writelock(int $wait = -1): bool
 ```
 
-Отримує ексклюзивне блокування запису для об'єкту [SyncReaderWriter](class.syncreaderwriter.html)
+Отримує ексклюзивне блокування запису для об'єкту [SyncReaderWriter](class.syncreaderwriter.md)
 
 ### Список параметрів
 
@@ -45,4 +45,4 @@ $readwrite->writeunlock();
 
 ### Дивіться також
 
--   [SyncReaderWriter::writeunlock()](syncreaderwriter.writeunlock.html) - Знімає блокування запису
+-   [SyncReaderWriter::writeunlock()](syncreaderwriter.writeunlock.md) - Знімає блокування запису

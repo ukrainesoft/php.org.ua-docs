@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-connect.html: « ssh2connect
-  - function.ssh2-exec.html: ssh2exec »
+  - function.ssh2-connect.md: « ssh2connect
+  - function.ssh2-exec.md: ssh2exec »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2disconnect

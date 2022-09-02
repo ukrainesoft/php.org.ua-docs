@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.getmxrr.html: « getmxrr
-  - function.getprotobynumber.html: getprotobynumber »
-  - index.html: PHP Manual
-  - ref.network.html: Мережеві функції
+  - function.getmxrr.md: « getmxrr
+  - function.getprotobynumber.md: getprotobynumber »
+  - index.md: PHP Manual
+  - ref.network.md: Мережеві функції
 title: getprotobyname
 ---
 # getprotobyname

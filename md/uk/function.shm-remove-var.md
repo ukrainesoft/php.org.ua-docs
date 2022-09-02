@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.shm-put-var.html: « shmputvar
-  - function.shm-remove.html: shmremove »
+  - function.shm-put-var.md: « shmputvar
+  - function.shm-remove.md: shmremove »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: shmremovevar

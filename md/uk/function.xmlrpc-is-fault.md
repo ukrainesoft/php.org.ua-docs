@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xmlrpc-get-type.html: « xmlrpcgettype
-  - function.xmlrpc-parse-method-descriptions.html: xmlrpcparsemethoddescriptions »
-  - index.html: PHP Manual
-  - ref.xmlrpc.html: Функції XML-RPC
+  - function.xmlrpc-get-type.md: « xmlrpcgettype
+  - function.xmlrpc-parse-method-descriptions.md: xmlrpcparsemethoddescriptions »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcісfault
 ---
 # xmlrpcісfault
@@ -26,7 +26,7 @@ xmlrpc_is_fault(array $arg): bool
 
 `arg`
 
-Масив, що повертається [xmlrpcdecode()](function.xmlrpc-decode.html)
+Масив, що повертається [xmlrpcdecode()](function.xmlrpc-decode.md)
 
 ### Значення, що повертаються
 
@@ -34,8 +34,8 @@ xmlrpc_is_fault(array $arg): bool
 
 ### Приклади
 
-Дивіться приклад [xmlrpcencoderequest()](function.xmlrpc-encode-request.html)
+Дивіться приклад [xmlrpcencoderequest()](function.xmlrpc-encode-request.md)
 
 ### Дивіться також
 
--   [xmlrpcdecode()](function.xmlrpc-decode.html) - Декодує XML у нативні типи PHP
+-   [xmlrpcdecode()](function.xmlrpc-decode.md) - Декодує XML у нативні типи PHP

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fbird-errmsg.html: « fbirderrmsg
-  - function.fbird-fetch-assoc.html: fbirdfetchassoc »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.fbird-errmsg.md: « fbirderrmsg
+  - function.fbird-fetch-assoc.md: fbirdfetchassoc »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdexecute
 ---
 # fbirdexecute

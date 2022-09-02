@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-open.html: « opensslopen
-  - function.openssl-pkcs12-export-to-file.html: opensslpkcs12exportтоfile »
+  - function.openssl-open.md: « opensslopen
+  - function.openssl-pkcs12-export-to-file.md: opensslpkcs12exportтоfile »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpbkdf2
@@ -36,7 +36,7 @@ PBKDF2 рекомендує використовувати криптограф�
 
 `iterations`
 
-Кількість ітерацій . [» NIST рекомендует как минимум 10,000](https://pages.nist.gov/800-63-3/sp800-63b.html#sec5)
+Кількість ітерацій . [» NIST рекомендует как минимум 10,000](https://pages.nist.gov/800-63-3/sp800-63b.md#sec5)
 
 `digest_algo`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domtext.construct.html: '« DOMText::construct'
-  - domtext.iswhitespaceinelementcontent.html: 'DOMText::isWhitespaceInElementContent »'
-  - index.html: PHP Manual
-  - class.domtext.html: DOMText
+  - domtext.construct.md: '« DOMText::construct'
+  - domtext.iswhitespaceinelementcontent.md: 'DOMText::isWhitespaceInElementContent »'
+  - index.md: PHP Manual
+  - class.domtext.md: DOMText
 title: 'DOMText::isElementContentWhitespace'
 ---
 # DOMText::isElementContentWhitespace

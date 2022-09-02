@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-typprice.html: « tradertypprice
-  - function.trader-var.html: tradervar »
+  - function.trader-typprice.md: « tradertypprice
+  - function.trader-var.md: tradervar »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderultosc

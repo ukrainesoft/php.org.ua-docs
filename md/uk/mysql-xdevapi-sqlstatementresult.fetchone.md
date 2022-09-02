@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.fetchall.html: '« SqlStatementResult::fetchAll'
-  - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.html: 'SqlStatementResult::getAffectedItemsCount »'
+  - mysql-xdevapi-sqlstatementresult.fetchall.md: '« SqlStatementResult::fetchAll'
+  - mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md: 'SqlStatementResult::getAffectedItemsCount »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::fetchOne'
 ---
 # SqlStatementResult::fetchOne

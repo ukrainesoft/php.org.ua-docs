@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.session-start.html: « sessionstart
-  - function.session-unset.html: sessionunset »
-  - index.html: PHP Manual
-  - ref.session.html: Функції для роботи із сесіями
+  - function.session-start.md: « sessionstart
+  - function.session-unset.md: sessionunset »
+  - index.md: PHP Manual
+  - ref.session.md: Функції для роботи із сесіями
 title: sessionstatus
 ---
 # sessionstatus
@@ -32,4 +32,4 @@ session_status(): int
 
 ### Дивіться також
 
--   [sessionstart()](function.session-start.html) - Стартує нову сесію, або відновлює існуючу
+-   [sessionstart()](function.session-start.md) - Стартує нову сесію, або відновлює існуючу

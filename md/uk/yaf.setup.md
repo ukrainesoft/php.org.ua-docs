@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.yaf.html: « Введение
-  - yaf.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - intro.yaf.md: « Введение
+  - yaf.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](yaf.requirements.html)
--   [Установка](yaf.installation.html)
--   [Налаштування під час виконання](yaf.configuration.html)
--   [Типи ресурсів](yaf.resources.html)
+-   [Вимоги](yaf.requirements.md)
+-   [Установка](yaf.installation.md)
+-   [Налаштування під час виконання](yaf.configuration.md)
+-   [Типи ресурсів](yaf.resources.md)

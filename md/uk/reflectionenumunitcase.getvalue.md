@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionenumunitcase.getenum.html: '« ReflectionEnumUnitCase::getEnum'
-  - class.reflectionenumbackedcase.html: ReflectionEnumBackedCase »
-  - index.html: PHP Manual
-  - class.reflectionenumunitcase.html: ReflectionEnumUnitCase
+  - reflectionenumunitcase.getenum.md: '« ReflectionEnumUnitCase::getEnum'
+  - class.reflectionenumbackedcase.md: ReflectionEnumBackedCase »
+  - index.md: PHP Manual
+  - class.reflectionenumunitcase.md: ReflectionEnumUnitCase
 title: 'ReflectionEnumUnitCase::getValue'
 ---
 # ReflectionEnumUnitCase::getValue

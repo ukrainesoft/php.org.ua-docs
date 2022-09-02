@@ -3,7 +3,7 @@ navigation:
   - pdo.pgsqlgetnotify.md: '« PDO::pgsqlGetNotify'
   - pdo.pgsqllobcreate.md: 'PDO::pgsqlLOBCreate »'
   - index.md: PHP Manual
-  - ref.pdo-pgsql.html: PostgreSQL (PDO)
+  - ref.pdo-pgsql.md: PostgreSQL (PDO)
 title: 'PDO::pgsqlGetPid'
 ---
 # PDO::pgsqlGetPid

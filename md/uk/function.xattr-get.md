@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.xattr.md: « xattr Функции
-  - function.xattr-list.html: xattrlist »
+  - function.xattr-list.md: xattrlist »
   - index.md: PHP Manual
   - ref.xattr.md: xattr Функции
 title: xattrget

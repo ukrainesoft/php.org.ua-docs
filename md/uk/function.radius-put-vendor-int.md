@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-put-vendor-attr.html: « radiusputvendorattr
-  - function.radius-put-vendor-string.html: radiusputvendorstring »
+  - function.radius-put-vendor-attr.md: « radiusputvendorattr
+  - function.radius-put-vendor-string.md: radiusputvendorstring »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiusputvendorint
@@ -44,11 +44,11 @@ ID виробника (Vendor).
 
 `options`
 
-Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.html#constant.radius-option-salt)
+Бітова маска опцій атрибуту. Як значення можна використовувати [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged) і [**`RADIUS_OPTION_SALT`**](radius.constants.options.md#constant.radius-option-salt)
 
 `tag`
 
-Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.html#constant.radius-option-tagged)
+Тег атрибут. Цей параметр ігнорується, якщо не встановлено опцію [**`RADIUS_OPTION_TAGGED`**](radius.constants.options.md#constant.radius-option-tagged)
 
 ### Значення, що повертаються
 

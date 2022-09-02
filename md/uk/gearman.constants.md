@@ -1,16 +1,16 @@
 ---
 navigation:
-  - gearman.resources.html: « Типи ресурсів
-  - gearman.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.gearman.html: Gearman
+  - gearman.resources.md: « Типи ресурсів
+  - gearman.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.gearman.md: Gearman
 title: Обумовлені константи
 ---
 # Обумовлені константи
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 
-Значення, що повертаються. Завжди перевіряйте значення [GearmanClient::error()](gearmanclient.error.html) або **GearmanWorker()**, що містить рядок з описом помилки, так як у цьому рядку може бути більш детальна інформація про останню операцію:
+Значення, що повертаються. Завжди перевіряйте значення [GearmanClient::error()](gearmanclient.error.md) або **GearmanWorker()**, що містить рядок з описом помилки, так як у цьому рядку може бути більш детальна інформація про останню операцію:
 
 **`GEARMAN_SUCCESS`** (int)
 
@@ -26,11 +26,11 @@ title: Обумовлені константи
 
 **`GEARMAN_NO_ACTIVE_FDS`** (int)
 
-На момент виклику [GearmanClient::wait()](gearmanclient.wait.html) або **GearmanWorker()** не було активних підключень.
+На момент виклику [GearmanClient::wait()](gearmanclient.wait.md) або **GearmanWorker()** не було активних підключень.
 
 **`GEARMAN_UNEXPECTED_PACKET`** (int)
 
-Значить, щось пішло зовсім не так, як мало. Застосовується тільки до [GearmanWorker](class.gearmanworker.html)
+Значить, щось пішло зовсім не так, як мало. Застосовується тільки до [GearmanWorker](class.gearmanworker.md)
 
 **`GEARMAN_GETADDRINFO`** (int)
 
@@ -38,7 +38,7 @@ title: Обумовлені константи
 
 **`GEARMAN_NO_SERVERS`** (int)
 
-Перед відправкою завдання чи завдання не було викликано метод [GearmanClient::addServer()](gearmanclient.addserver.html)
+Перед відправкою завдання чи завдання не було викликано метод [GearmanClient::addServer()](gearmanclient.addserver.md)
 
 **`GEARMAN_LOST_CONNECTION`** (int)
 
@@ -54,23 +54,23 @@ title: Обумовлені константи
 
 **`GEARMAN_WORK_DATA`** (int)
 
-Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.html) під час роботи [GearmanClient::do()](gearmanclient.do.html). Обробник (worker), що виконує завдання, посилає цей код, коли йому потрібно оновити дані на клієнті, передати частину результатів роботи або скинути дані під час виконання довгих завдань.
+Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.md) під час роботи [GearmanClient::do()](gearmanclient.do.md). Обробник (worker), що виконує завдання, посилає цей код, коли йому потрібно оновити дані на клієнті, передати частину результатів роботи або скинути дані під час виконання довгих завдань.
 
 **`GEARMAN_WORK_WARNING`** (int)
 
-Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.html) під час роботи [GearmanClient::do()](gearmanclient.do.html). Оновлює клієнт із відправкою попередженням. Поведінка ті ж, що і у випадку \*\*`GEARMAN_WORK_DATA`\*\*Однак цей код слід інтерпретувати як попередження замість звичайних даних відповіді.
+Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.md) під час роботи [GearmanClient::do()](gearmanclient.do.md). Оновлює клієнт із відправкою попередженням. Поведінка ті ж, що і у випадку \*\*`GEARMAN_WORK_DATA`\*\*Однак цей код слід інтерпретувати як попередження замість звичайних даних відповіді.
 
 **`GEARMAN_WORK_STATUS`** (int)
 
-Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.html) під час роботи [GearmanClient::do()](gearmanclient.do.html). Оброблювач завдання посилає цей код, щоб оновити статус завдання, що довго виконується. Використовуйте [GearmanClient::doStatus()](gearmanclient.dostatus.html) для одержання відсотка завершення роботи.
+Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.md) під час роботи [GearmanClient::do()](gearmanclient.do.md). Оброблювач завдання посилає цей код, щоб оновити статус завдання, що довго виконується. Використовуйте [GearmanClient::doStatus()](gearmanclient.dostatus.md) для одержання відсотка завершення роботи.
 
 **`GEARMAN_WORK_EXCEPTION`** (int)
 
-Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.html) під час роботи [GearmanClient::do()](gearmanclient.do.html). Вказує, що виконання завдання завершилося невдачею із заданим винятком.
+Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.md) під час роботи [GearmanClient::do()](gearmanclient.do.md). Вказує, що виконання завдання завершилося невдачею із заданим винятком.
 
 **`GEARMAN_WORK_FAIL`** (int)
 
-Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.html) під час роботи [GearmanClient::do()](gearmanclient.do.html). Вказує, що завдання виконати не вдалося.
+Код повернення повідомлення, який можна отримати методом [GearmanClient::returnCode()](gearmanclient.returncode.md) під час роботи [GearmanClient::do()](gearmanclient.do.md). Вказує, що завдання виконати не вдалося.
 
 **`GEARMAN_COULD_NOT_CONNECT`** (int)
 
@@ -90,11 +90,11 @@ title: Обумовлені константи
 
 **`GEARMAN_NO_JOBS`** (int)
 
-Для неблокуючого оброблювача, коли [GearmanWorker::work()](gearmanworker.work.html) немає активних завдань.
+Для неблокуючого оброблювача, коли [GearmanWorker::work()](gearmanworker.work.md) немає активних завдань.
 
 **`GEARMAN_ECHO_DATA_CORRUPTION`** (int)
 
-Вказує, що після виклику [GearmanClient::echo()](gearmanclient.echo.html) або [GearmanWorker::echo()](gearmanworker.echo.html) повернені дані не відповідають переданим.
+Вказує, що після виклику [GearmanClient::echo()](gearmanclient.echo.md) або [GearmanWorker::echo()](gearmanworker.echo.md) повернені дані не відповідають переданим.
 
 **`GEARMAN_NEED_WORKLOAD_FN`** (int)
 
@@ -102,7 +102,7 @@ title: Обумовлені константи
 
 **`GEARMAN_PAUSE`** (int)
 
-При роботі в неблокуючому режимі це значення може повернути callback-функція, щоб призупинити обробку завдання і вийти з методу [GearmanClient::runTasks()](gearmanclient.runtasks.html). Щоб продовжити роботу, слід ще раз викликати метод [GearmanClient::runTasks()](gearmanclient.runtasks.html)
+При роботі в неблокуючому режимі це значення може повернути callback-функція, щоб призупинити обробку завдання і вийти з методу [GearmanClient::runTasks()](gearmanclient.runtasks.md). Щоб продовжити роботу, слід ще раз викликати метод [GearmanClient::runTasks()](gearmanclient.runtasks.md)
 
 **`GEARMAN_UNKNOWN_STATE`** (int)
 
@@ -116,7 +116,7 @@ title: Обумовлені константи
 
 Перевищено час очікування, заданий клієнтом/обробником.
 
-Налаштування [GearmanClient](class.gearmanclient.html)
+Налаштування [GearmanClient](class.gearmanclient.md)
 
 **`GEARMAN_CLIENT_GENERATE_UNIQUE`** (int)
 
@@ -134,7 +134,7 @@ title: Обумовлені константи
 
 Автоматично знищувати об'єкти завдань після виконання. Ця установка використовується за замовчуванням, щоб запобігти витоку пам'яті.
 
-Налаштування [GearmanWorker](class.gearmanworker.html)
+Налаштування [GearmanWorker](class.gearmanworker.md)
 
 **`GEARMAN_WORKER_NON_BLOCKING`** (int)
 

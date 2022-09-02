@@ -1,6 +1,6 @@
 ---
 navigation:
-  - migration70.new-functions.html: « Нові функції
+  - migration70.new-functions.md: « Нові функції
   - migration70.constants.md: Нові глобальні константи »
   - index.md: PHP Manual
   - migration70.md: Миграция с PHP 5.6.x на PHP 7.0.x

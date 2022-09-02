@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-connect-poll.html: « pgconnectpoll
-  - function.pg-connection-busy.html: пгconnectionbusy »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-connect-poll.md: « pgconnectpoll
+  - function.pg-connection-busy.md: пгconnectionbusy »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгconnect
 ---
 # пгconnect
@@ -38,17 +38,17 @@ pg_connect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 Якщо у функцію передано константу **`PGSQL_CONNECT_FORCE_NEW`**, буде створюватися нове підключення, навіть якщо `connection_string` ідентична рядку існуючого підключення.
 
-Якщо передана константа **`PGSQL_CONNECT_ASYNC`**, то з'єднання встановлюється асинхронним. Стан з'єднання можна перевірити за допомогою функцій [пгconnectpoll()](function.pg-connect-poll.html) або [пгconnectionstatus()](function.pg-connection-status.html)
+Якщо передана константа **`PGSQL_CONNECT_ASYNC`**, то з'єднання встановлюється асинхронним. Стан з'єднання можна перевірити за допомогою функцій [пгconnectpoll()](function.pg-connect-poll.md) або [пгconnectionstatus()](function.pg-connection-status.md)
 
 ### Значення, що повертаються
 
-Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає екземпляр [PgSqlConnection](class.pgsql-connection.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше повертався ресурс ([resource](language.types.resource.html) |
+|  | Повертає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше повертався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -76,10 +76,10 @@ $dbconn5 = pg_connect("host=localhost options='--client_encoding=UTF8'");
 
 ### Дивіться також
 
--   [пгpconnect()](function.pg-pconnect.html) - Відкриває постійне з'єднання із сервером PostgreSQL
--   [пгclose()](function.pg-close.html) - Закриває з'єднання з базою даних PostgreSQL
--   [пгhost()](function.pg-host.html) - Повертає ім'я хоста, що відповідає підключенню
--   [пгport()](function.pg-port.html) - Повертає номер порту, який відповідає заданому з'єднанню
--   [пгtty()](function.pg-tty.html) - Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
--   [пгoptions()](function.pg-options.html) - Отримання параметрів з'єднання із сервером баз даних
--   [пгdbname()](function.pg-dbname.html) - Визначає ім'я бази даних
+-   [пгpconnect()](function.pg-pconnect.md) - Відкриває постійне з'єднання із сервером PostgreSQL
+-   [пгclose()](function.pg-close.md) - Закриває з'єднання з базою даних PostgreSQL
+-   [пгhost()](function.pg-host.md) - Повертає ім'я хоста, що відповідає підключенню
+-   [пгport()](function.pg-port.md) - Повертає номер порту, який відповідає заданому з'єднанню
+-   [пгtty()](function.pg-tty.md) - Повертає ім'я терміналу TTY, пов'язане зі з'єднанням
+-   [пгoptions()](function.pg-options.md) - Отримання параметрів з'єднання із сервером баз даних
+-   [пгdbname()](function.pg-dbname.md) - Визначає ім'я бази даних

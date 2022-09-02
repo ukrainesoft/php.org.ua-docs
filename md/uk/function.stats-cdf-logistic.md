@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-laplace.html: « statscdflaplace
-  - function.stats-cdf-negative-binomial.html: statscdfnegativebinomial »
+  - function.stats-cdf-laplace.md: « statscdflaplace
+  - function.stats-cdf-negative-binomial.md: statscdfnegativebinomial »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdflogistic

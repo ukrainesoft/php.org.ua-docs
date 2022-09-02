@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-path.addrectangle.html: '« UIDrawPath::addRectangle'
-  - ui-draw-path.bezierto.html: 'ОЙDrawPath::bezierTo »'
+  - ui-draw-path.addrectangle.md: '« UIDrawPath::addRectangle'
+  - ui-draw-path.bezierto.md: 'ОЙDrawPath::bezierTo »'
   - index.md: PHP Manual
-  - class.ui-draw-path.html: ОЙDrawPath
+  - class.ui-draw-path.md: ОЙDrawPath
 title: 'ОЙDrawPath::arcTo'
 ---
 # ОЙDrawPath::arcTo

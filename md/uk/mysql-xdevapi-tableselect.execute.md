@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.construct.html: '« TableSelect::construct'
-  - mysql-xdevapi-tableselect.groupby.html: 'TableSelect::groupBy »'
+  - mysql-xdevapi-tableselect.construct.md: '« TableSelect::construct'
+  - mysql-xdevapi-tableselect.groupby.md: 'TableSelect::groupBy »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::execute'
 ---
 # TableSelect::execute

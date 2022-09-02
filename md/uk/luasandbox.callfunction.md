@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.luasandbox.html: « LuaSandbox
-  - luasandbox.disableprofiler.html: 'LuaSandbox::disableProfiler »'
-  - index.html: PHP Manual
-  - class.luasandbox.html: LuaSandbox
+  - class.luasandbox.md: « LuaSandbox
+  - luasandbox.disableprofiler.md: 'LuaSandbox::disableProfiler »'
+  - index.md: PHP Manual
+  - class.luasandbox.md: LuaSandbox
 title: 'LuaSandbox::callFunction'
 ---
 # LuaSandbox::callFunction
@@ -24,7 +24,7 @@ public LuaSandbox::callFunction(string $name, mixed ...$args): array|bool
 
 Якщо змінна не існує або не є функцією, буде повернено false і буде видано попередження.
 
-Для отримання додаткової інформації про виклик функцій Lua та значення, що повертаються дивіться [LuaSandboxFunction::call()](luasandboxfunction.call.html)
+Для отримання додаткової інформації про виклик функцій Lua та значення, що повертаються дивіться [LuaSandboxFunction::call()](luasandboxfunction.call.md)
 
 ### Список параметрів
 

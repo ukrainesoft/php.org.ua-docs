@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-context-create.html: « streamcontextcreate
-  - function.stream-context-get-options.html: streamcontextgetoptions »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-context-create.md: « streamcontextcreate
+  - function.stream-context-get-options.md: streamcontextgetoptions »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamcontextgetdefault
 ---
 # streamcontextgetdefault
@@ -18,7 +18,7 @@ streamcontextgetdefault — Отримує контекст потоку за п
 stream_context_get_default(?array $options = null): resource
 ```
 
-Повертає контекст потоку за умовчанням, який використовується у будь-яких файлових операціях ([fopen()](function.fopen.html) [filegetcontents()](function.file-get-contents.html) і т.д.), викликаних без параметра контексту. Опції для контексту за умовчанням можуть бути опціонально вказані за допомогою цієї функції використовуючи той же синтаксис, що і для [streamcontextcreate()](function.stream-context-create.html)
+Повертає контекст потоку за умовчанням, який використовується у будь-яких файлових операціях ([fopen()](function.fopen.md) [filegetcontents()](function.file-get-contents.md) і т.д.), викликаних без параметра контексту. Опції для контексту за умовчанням можуть бути опціонально вказані за допомогою цієї функції використовуючи той же синтаксис, що і для [streamcontextcreate()](function.stream-context-create.md)
 
 ### Список параметрів
 
@@ -79,6 +79,6 @@ readfile('http://www.example.com', false, $alternate);
 
 ### Дивіться також
 
--   [streamcontextcreate()](function.stream-context-create.html) - Створює контекст потоку
--   [streamcontextsetdefault()](function.stream-context-set-default.html) - Встановити контекст потоку за промовчанням
--   Список підтримуваних обгорток з опціями контексту ([Підтримувані протоколи та обгортки](wrappers.html)
+-   [streamcontextcreate()](function.stream-context-create.md) - Створює контекст потоку
+-   [streamcontextsetdefault()](function.stream-context-set-default.md) - Встановити контекст потоку за промовчанням
+-   Список підтримуваних обгорток з опціями контексту ([Підтримувані протоколи та обгортки](wrappers.md)

@@ -1,14 +1,14 @@
 ---
 navigation:
-  - simplexml.examples.html: « Приклади
-  - simplexml.examples-errors.html: Робота з помилками XML »
-  - index.html: PHP Manual
-  - simplexml.examples.html: Приклади
+  - simplexml.examples.md: « Приклади
+  - simplexml.examples-errors.md: Робота з помилками XML »
+  - index.md: PHP Manual
+  - simplexml.examples.md: Приклади
 title: Базове використання SimpleXML
 ---
 ## Базове використання SimpleXML
 
-Деякі приклади цього посібника включають рядок XML. Замість того, щоб повторювати її в кожному прикладі, покладіть цей рядок у файл, який включайте в кожному прикладі. Цей рядок наведено у наступному прикладі. Крім цього, можна створити XML-документ і зчитувати його функцією [simplexmlloadfile()](function.simplexml-load-file.html)
+Деякі приклади цього посібника включають рядок XML. Замість того, щоб повторювати її в кожному прикладі, покладіть цей рядок у файл, який включайте в кожному прикладі. Цей рядок наведено у наступному прикладі. Крім цього, можна створити XML-документ і зчитувати його функцією [simplexmlloadfile()](function.simplexml-load-file.md)
 
 **Приклад #1 Файл example.php з рядком XML**
 
@@ -114,7 +114,7 @@ Mr. Coder играет El ActÓr
 
 > **Зауваження**
 > 
-> Властивості (`$movies->movie` у попередньому прикладі) не є масивами. Це [ітерований](class.iterator.html) об'єкт [у вигляді масиву](class.arrayaccess.html)
+> Властивості (`$movies->movie` у попередньому прикладі) не є масивами. Це [ітерований](class.iterator.md) об'єкт [у вигляді масиву](class.arrayaccess.md)
 
 **Приклад #5 Використання атрибутів**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.start.html: '« YafSession::start'
-  - yaf-session.valid.html: 'YafSession::valid »'
-  - index.html: PHP Manual
-  - class.yaf-session.html: YafSession
+  - yaf-session.start.md: '« YafSession::start'
+  - yaf-session.valid.md: 'YafSession::valid »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
 title: 'YafSession::unset'
 ---
 # YafSession::unset

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.recursiveregexiterator.html: « RecursiveRegexIterator
-  - recursiveregexiterator.getchildren.html: 'RecursiveRegexIterator::getChildren »'
-  - index.html: PHP Manual
-  - class.recursiveregexiterator.html: RecursiveRegexIterator
+  - class.recursiveregexiterator.md: « RecursiveRegexIterator
+  - recursiveregexiterator.getchildren.md: 'RecursiveRegexIterator::getChildren »'
+  - index.md: PHP Manual
+  - class.recursiveregexiterator.md: RecursiveRegexIterator
 title: 'RecursiveRegexIterator::construct'
 ---
 # RecursiveRegexIterator::construct

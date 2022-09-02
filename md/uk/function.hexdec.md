@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.getrandmax.html: « getrandmax
-  - function.hypot.html: hypot »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.getrandmax.md: « getrandmax
+  - function.hypot.md: hypot »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: hexdec
 ---
 # hexdec
@@ -61,7 +61,7 @@ var_dump(hexdec("a0")); // выведет "int(160)"
 
 ### Дивіться також
 
--   [dechex()](function.dechex.html) - Переводить число з десяткової системи числення до шістнадцяткової
--   [bindec()](function.bindec.html) - Двійкове у десяткове
--   [octdec()](function.octdec.html) - Переводить число з вісімкової системи числення до десяткової
--   [baseconvert()](function.base-convert.html) - Перетворення числа між довільними системами числення
+-   [dechex()](function.dechex.md) - Переводить число з десяткової системи числення до шістнадцяткової
+-   [bindec()](function.bindec.md) - Двійкове у десяткове
+-   [octdec()](function.octdec.md) - Переводить число з вісімкової системи числення до десяткової
+-   [baseconvert()](function.base-convert.md) - Перетворення числа між довільними системами числення

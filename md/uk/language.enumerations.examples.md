@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.enumerations.serialization.html: « Сериализация
-  - language.errors.html: Ошибки »
-  - index.html: PHP Manual
-  - language.enumerations.html: Перечисления
+  - language.enumerations.serialization.md: « Сериализация
+  - language.errors.md: Ошибки »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
 title: Приклади
 ---
 ## Приклади
@@ -22,7 +22,7 @@ function query($fields, $filter, SortOrder $order = SortOrder::ASC) { ..
 ?>
 ```
 
-Функція `query()` тепер може безпечно працювати, знаючи, що `$order` гарантовано буде або `SortOrder::ASC`, або `SortOrder::DESC`. Будь-яке інше значення призвело б до [TypeError](class.typeerror.html)тому подальша перевірка помилок або тестування не потрібна.
+Функція `query()` тепер може безпечно працювати, знаючи, що `$order` гарантовано буде або `SortOrder::ASC`, або `SortOrder::DESC`. Будь-яке інше значення призвело б до [TypeError](class.typeerror.md)тому подальша перевірка помилок або тестування не потрібна.
 
 **Приклад #2 Розширені ексклюзивні значення**
 

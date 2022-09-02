@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-rowresult.getcolumns.html: '« RowResult::getColumns'
-  - mysql-xdevapi-rowresult.getwarningscount.html: 'RowResult::getWarningsCount »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-rowresult.html: mysqlxdevapiRowResult
+  - mysql-xdevapi-rowresult.getcolumns.md: '« RowResult::getColumns'
+  - mysql-xdevapi-rowresult.getwarningscount.md: 'RowResult::getWarningsCount »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-rowresult.md: mysqlxdevapiRowResult
 title: 'RowResult::getWarnings'
 ---
 # RowResult::getWarnings

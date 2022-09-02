@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.win32-get-last-control-message.html: « win32getlastcontrolmessage
-  - function.win32-query-service-status.html: win32queryservicestatus »
+  - function.win32-get-last-control-message.md: « win32getlastcontrolmessage
+  - function.win32-query-service-status.md: win32queryservicestatus »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
 title: win32pauseservice
@@ -48,7 +48,7 @@ win32_pause_service(string $servicename, string $machine = ?): void
 | --- | --- |
 | PECL win32service 1.0.0 | Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`** |
 | PECL win32service 1.0.0 | Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код ошибки Win32](win32service.constants.errors.md) |
-| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.html#language.types.declarations.mixed) |
+| PECL win32service 1.0.0 | Тип повертається тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed) |
 | PECL win32service 0.3.0 | Функція більше не вимагає облікового запису адміністратора, якщо ACL інстальовано для іншого облікового запису. |
 
 ### Дивіться також

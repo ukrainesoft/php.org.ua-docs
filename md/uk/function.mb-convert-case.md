@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-chr.html: « mbchr
-  - function.mb-convert-encoding.html: мбconvertencoding »
+  - function.mb-chr.md: « mbchr
+  - function.mb-convert-encoding.md: мбconvertencoding »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбconvertcase

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-stroke.html: «psstroke
-  - function.ps-symbol-width.html: псsymbolwidth »
+  - function.ps-stroke.md: «psstroke
+  - function.ps-symbol-width.md: псsymbolwidth »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псsymbolname

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-rand-gen-funiform.html: « statsrandgenfuniform
-  - function.stats-rand-gen-ibinomial-negative.html: statsrandgenibinomialnegative »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-rand-gen-funiform.md: « statsrandgenfuniform
+  - function.stats-rand-gen-ibinomial-negative.md: statsrandgenibinomialnegative »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statsrandгенgamma
 ---
 # statsrandгенgamma

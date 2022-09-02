@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-timestamp.gettimestamp.html: '« MongoDBBSONTimestamp::getTimestamp'
-  - mongodb-bson-timestamp.serialize.html: 'MongoDBBSONTimestamp::serialize »'
-  - index.html: PHP Manual
-  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+  - mongodb-bson-timestamp.gettimestamp.md: '« MongoDBBSONTimestamp::getTimestamp'
+  - mongodb-bson-timestamp.serialize.md: 'MongoDBBSONTimestamp::serialize »'
+  - index.md: PHP Manual
+  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
 title: 'MongoDBBSONTimestamp::jsonSerialize'
 ---
 # MongoDBBSONTimestamp::jsonSerialize
@@ -24,9 +24,9 @@ final public MongoDB\BSON\Timestamp::jsonSerialize(): mixed
 
 ### Значення, що повертаються
 
-Повертає дані, які можуть бути серіалізовані за допомогою [jsonencode()](function.json-encode.html) для створення розширеного JSON-подання [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.md)
+Повертає дані, які можуть бути серіалізовані за допомогою [jsonencode()](function.json-encode.md) для створення розширеного JSON-подання [MongoDBBSONTimestamp](class.mongodb-bson-timestamp.md)
 
-> **Зауваження**: Висновок відповідає висновку функції [MongoDBBSONtoJSON()](function.mongodb.bson-tojson.html)яка використовує успадкований, специфічний для драйвера, розширений формат JSON. Він не обов'язково підходитиме під [» relaxed](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example) або [» canonical](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) уявлення розширеного JSON, що використовуються в [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) і [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)відповідно.
+> **Зауваження**: Висновок відповідає висновку функції [MongoDBBSONtoJSON()](function.mongodb.bson-tojson.md)яка використовує успадкований, специфічний для драйвера, розширений формат JSON. Він не обов'язково підходитиме під [» relaxed](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example) або [» canonical](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) уявлення розширеного JSON, що використовуються в [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) і [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)відповідно.
 
 ### Помилки
 

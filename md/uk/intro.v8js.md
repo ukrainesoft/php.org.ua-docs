@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.v8js.html: « V8js
-  - v8js.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.v8js.html: V8js
+  - book.v8js.md: « V8js
+  - v8js.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.v8js.md: V8js
 title: Вступ
 ---
 # Вступ

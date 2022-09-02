@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-x509-checkpurpose.html: « opensslx509checkpurpose
-  - function.openssl-x509-export.html: opensslx509export »
+  - function.openssl-x509-checkpurpose.md: « opensslx509checkpurpose
+  - function.openssl-x509-export.md: opensslx509export »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslx509exportтоfile

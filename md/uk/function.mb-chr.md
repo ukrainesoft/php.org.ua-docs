@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-check-encoding.html: « mbcheckencoding
-  - function.mb-convert-case.html: мбconvertcase »
+  - function.mb-check-encoding.md: « mbcheckencoding
+  - function.mb-convert-case.md: мбconvertcase »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбchr

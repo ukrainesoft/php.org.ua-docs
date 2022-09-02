@@ -14,13 +14,13 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [yac.compressthreshold](yac.configuration.html#ini.yac.compress-threshold) |  | PHPINISYSTEM |  |
-| [yac.debug](yac.configuration.html#ini.yac.debug) |  | PHPINIALL |  |
-| [yac.enable](yac.configuration.html#ini.yac.enable) |  | PHPINISYSTEM |  |
-| [yac.enablecli](yac.configuration.html#ini.yac.enable-cli) |  | PHPINISYSTEM |  |
-| [yac.keysmemorysize](yac.configuration.html#ini.yac.keys-memory-size) | ЧС | PHPINISYSTEM |  |
-| [yac.serializer](yac.configuration.html#ini.yac.serializer) | php | PHPINISYSTEM |  |
-| [yac.valuesmemorysize](yac.configuration.html#ini.yac.values-memory-size) | 64M | PHPINISYSTEM |  |
+| [yac.compressthreshold](yac.configuration.md#ini.yac.compress-threshold) |  | PHPINISYSTEM |  |
+| [yac.debug](yac.configuration.md#ini.yac.debug) |  | PHPINIALL |  |
+| [yac.enable](yac.configuration.md#ini.yac.enable) |  | PHPINISYSTEM |  |
+| [yac.enablecli](yac.configuration.md#ini.yac.enable-cli) |  | PHPINISYSTEM |  |
+| [yac.keysmemorysize](yac.configuration.md#ini.yac.keys-memory-size) | ЧС | PHPINISYSTEM |  |
+| [yac.serializer](yac.configuration.md#ini.yac.serializer) | php | PHPINISYSTEM |  |
+| [yac.valuesmemorysize](yac.configuration.md#ini.yac.values-memory-size) | 64M | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 

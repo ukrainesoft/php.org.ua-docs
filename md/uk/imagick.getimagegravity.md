@@ -26,4 +26,4 @@ public Imagick::getImageGravity(): int
 
 ### Значення, що повертаються
 
-Повертає значення гравітації. Дивіться список [констант гравитации](imagick.constants.html#imagick.constants.gravity)
+Повертає значення гравітації. Дивіться список [констант гравитации](imagick.constants.md#imagick.constants.gravity)

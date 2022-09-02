@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.math.html: « Введение
-  - math.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.math.html: Math
+  - intro.math.md: « Введение
+  - math.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.math.md: Math
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](math.requirements.html)
--   [Установка](math.installation.html)
--   [Налаштування під час виконання](math.configuration.html)
--   [Типи ресурсів](math.resources.html)
+-   [Вимоги](math.requirements.md)
+-   [Установка](math.installation.md)
+-   [Налаштування під час виконання](math.configuration.md)
+-   [Типи ресурсів](math.resources.md)

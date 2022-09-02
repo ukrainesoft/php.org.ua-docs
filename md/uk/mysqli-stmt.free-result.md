@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.field-count.html: '« mysqlistmt::$fieldcount'
-  - mysqli-stmt.get-result.html: 'mysqlistmt::getresult »'
-  - index.html: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - mysqli-stmt.field-count.md: '« mysqlistmt::$fieldcount'
+  - mysqli-stmt.get-result.md: 'mysqlistmt::getresult »'
+  - index.md: PHP Manual
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::freeresult'
 ---
 # mysqlistmt::freeresult
@@ -34,7 +34,7 @@ mysqli_stmt_free_result(mysqli_stmt $statement): void
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

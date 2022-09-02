@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.opcache-reset.html: « opcachereset
-  - intro.outcontrol.html: Введение »
-  - index.html: PHP Manual
-  - refs.basic.php.html: Изменение поведения PHP
+  - function.opcache-reset.md: « opcachereset
+  - intro.outcontrol.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.php.md: Изменение поведения PHP
 title: Управління буфером виводу
 ---
 # Управління буфером виводу

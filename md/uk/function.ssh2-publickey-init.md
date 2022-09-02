@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-publickey-add.html: « ssh2publickeyadd
-  - function.ssh2-publickey-list.html: ssh2publickeylist »
+  - function.ssh2-publickey-add.md: « ssh2publickeyadd
+  - function.ssh2-publickey-list.md: ssh2publickeylist »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2publickeyinit

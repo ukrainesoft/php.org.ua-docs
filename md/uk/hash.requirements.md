@@ -1,9 +1,9 @@
 ---
 navigation:
-  - hash.setup.html: « Встановлення та налаштування
-  - hash.installation.html: Установка »
-  - index.html: PHP Manual
-  - hash.setup.html: Встановлення та налаштування
+  - hash.setup.md: « Встановлення та налаштування
+  - hash.installation.md: Установка »
+  - index.md: PHP Manual
+  - hash.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

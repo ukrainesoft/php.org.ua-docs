@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagecolorallocate.html: « imagecolorallocate
-  - function.imagecolorat.html: imagecolorat »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagecolorallocate.md: « imagecolorallocate
+  - function.imagecolorat.md: imagecolorat »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagecolorallocatealpha
 ---
 # imagecolorallocatealpha
@@ -18,13 +18,13 @@ imagecolorallocatealpha — Створення кольору для зобра�
 imagecolorallocatealpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int|false
 ```
 
-**imagecolorallocatealpha()** працює аналогічно до функцій [imagecolorallocate()](function.imagecolorallocate.html), але ще додає до кольору параметр `alpha`, що відповідає за прозорість.
+**imagecolorallocatealpha()** працює аналогічно до функцій [imagecolorallocate()](function.imagecolorallocate.md), але ще додає до кольору параметр `alpha`, що відповідає за прозорість.
 
 ### Список параметрів
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `red`
 
@@ -50,13 +50,13 @@ imagecolorallocatealpha(    GdImage $image,    int $red,    int $gre
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -126,5 +126,5 @@ int(0)
 
 ### Дивіться також
 
--   [imagecolorallocate()](function.imagecolorallocate.html) - Створення кольору для зображення
--   [imagecolordeallocate()](function.imagecolordeallocate.html) - Розрив асоціації змінної із кольором для заданого зображення
+-   [imagecolorallocate()](function.imagecolorallocate.md) - Створення кольору для зображення
+-   [imagecolordeallocate()](function.imagecolordeallocate.md) - Розрив асоціації змінної із кольором для заданого зображення

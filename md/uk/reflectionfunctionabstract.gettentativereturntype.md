@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getstaticvariables.html: '« ReflectionFunctionAbstract::getStaticVariables'
-  - reflectionfunctionabstract.hasreturntype.html: 'ReflectionFunctionAbstract::hasReturnType »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getstaticvariables.md: '« ReflectionFunctionAbstract::getStaticVariables'
+  - reflectionfunctionabstract.hasreturntype.md: 'ReflectionFunctionAbstract::hasReturnType »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getTentativeReturnType'
 ---
 # ReflectionFunctionAbstract::getTentativeReturnType
@@ -26,7 +26,7 @@ public ReflectionFunctionAbstract::getTentativeReturnType(): ?ReflectionType
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ReflectionType](class.reflectiontype.html), якщо вказано попередній тип значення, що повертається, в іншому випадку повертає **`null`**
+Повертає об'єкт [ReflectionType](class.reflectiontype.md), якщо вказано попередній тип значення, що повертається, в іншому випадку повертає **`null`**
 
 ### Приклади
 
@@ -48,6 +48,6 @@ object(ReflectionNamedType)#2 (0) {
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.html) - Отримує оголошений тип значення, що повертається функцією значення
--   [ReflectionFunctionAbstract::hasTentativeReturnType()](reflectionfunctionabstract.hastentativereturntype.html) - Визначає, чи є у функції попередній тип значення, що повертається
--   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.html#language.oop5.inheritance.internal-classes)
+-   [ReflectionFunctionAbstract::getReturnType()](reflectionfunctionabstract.getreturntype.md) - Отримує оголошений тип значення, що повертається функцією значення
+-   [ReflectionFunctionAbstract::hasTentativeReturnType()](reflectionfunctionabstract.hastentativereturntype.md) - Визначає, чи є у функції попередній тип значення, що повертається
+-   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)

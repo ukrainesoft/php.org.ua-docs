@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pharfileinfo.getcontent.html: '« PharFileInfo::getContent'
-  - pharfileinfo.getpharflags.html: 'PharFileInfo::getPharFlags »'
-  - index.html: PHP Manual
-  - class.pharfileinfo.html: PharFileInfo
+  - pharfileinfo.getcontent.md: '« PharFileInfo::getContent'
+  - pharfileinfo.getpharflags.md: 'PharFileInfo::getPharFlags »'
+  - index.md: PHP Manual
+  - class.pharfileinfo.md: PharFileInfo
 title: 'PharFileInfo::getMetadata'
 ---
 # PharFileInfo::getMetadata
@@ -64,9 +64,9 @@ array(2) {
 
 ### Дивіться також
 
--   [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.html) - Встановлення метаданих для конкретного файлу
--   [PharFileInfo::hasMetadata()](pharfileinfo.hasmetadata.html) - Перевірити, чи є у файлу метадані
--   [PharFileInfo::delMetadata()](pharfileinfo.delmetadata.html) - Видалити метадані файлу
--   [Phar::setMetadata()](phar.setmetadata.html) - Встановити метадані phar-архіву
--   [Phar::hasMetadata()](phar.hasmetadata.html) - Перевірити, чи містить phar-архів глобальні метадані
--   [Phar::getMetadata()](phar.getmetadata.html) - Витягти метадані phar-архіву
+-   [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) - Встановлення метаданих для конкретного файлу
+-   [PharFileInfo::hasMetadata()](pharfileinfo.hasmetadata.md) - Перевірити, чи є у файлу метадані
+-   [PharFileInfo::delMetadata()](pharfileinfo.delmetadata.md) - Видалити метадані файлу
+-   [Phar::setMetadata()](phar.setmetadata.md) - Встановити метадані phar-архіву
+-   [Phar::hasMetadata()](phar.hasmetadata.md) - Перевірити, чи містить phar-архів глобальні метадані
+-   [Phar::getMetadata()](phar.getmetadata.md) - Витягти метадані phar-архіву

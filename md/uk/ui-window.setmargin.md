@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.setfullscreen.html: '« UIWindow::setFullScreen'
-  - ui-window.setsize.html: 'ОЙWindow::setSize »'
-  - index.html: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - ui-window.setfullscreen.md: '« UIWindow::setFullScreen'
+  - ui-window.setsize.md: 'ОЙWindow::setSize »'
+  - index.md: PHP Manual
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::setMargin'
 ---
 # ОЙWindow::setMargin

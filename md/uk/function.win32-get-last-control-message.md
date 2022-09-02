@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.win32-delete-service.html: « win32deleteservice
-  - function.win32-pause-service.html: win32pauseservice »
+  - function.win32-delete-service.md: « win32deleteservice
+  - function.win32-pause-service.md: win32pauseservice »
   - index.md: PHP Manual
   - ref.win32service.md: win32service
 title: win32getlastcontrolmessage

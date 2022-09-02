@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-nop.html: « eionop
-  - function.eio-nready.html: eionready »
+  - function.eio-nop.md: « eionop
+  - function.eio-nready.md: eionready »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eionpending

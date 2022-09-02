@@ -1,7 +1,7 @@
 ---
 navigation:
   - tcpwrap.constants.md: « Обумовлені константи
-  - function.tcpwrap-check.html: tcpwrapcheck »
+  - function.tcpwrap-check.md: tcpwrapcheck »
   - index.md: PHP Manual
   - book.tcpwrap.md: TCP
 title: Функції TCP

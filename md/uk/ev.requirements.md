@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ev.setup.html: « Встановлення та налаштування
-  - ev.installation.html: Установка »
-  - index.html: PHP Manual
-  - ev.setup.html: Встановлення та налаштування
+  - ev.setup.md: « Встановлення та налаштування
+  - ev.installation.md: Установка »
+  - index.md: PHP Manual
+  - ev.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

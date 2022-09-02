@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-adxr.html: « traderadxr
-  - function.trader-aroon.html: traderaroon »
+  - function.trader-adxr.md: « traderadxr
+  - function.trader-aroon.md: traderaroon »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderapo

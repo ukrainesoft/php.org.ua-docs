@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-repos-fs-begin-txn-for-commit.html: « svnreposфсbegintxnforcommit
-  - function.svn-repos-fs.html: svnreposfs »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-repos-fs-begin-txn-for-commit.md: « svnreposфсbegintxnforcommit
+  - function.svn-repos-fs.md: svnreposfs »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnreposфсcommittxn
 ---
 # svnreposфсcommittxn

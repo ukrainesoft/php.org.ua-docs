@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-set-static.html: « uopzsetstatic
-  - function.uopz-unset-hook.html: uopzunsethook »
+  - function.uopz-set-static.md: « uopzsetstatic
+  - function.uopz-unset-hook.md: uopzunsethook »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzundefine

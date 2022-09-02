@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-cdlkickingbylength.html: « tradercdlkickingbylength
-  - function.trader-cdllongleggeddoji.html: tradercdllongleggeddoji »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-cdlkickingbylength.md: « tradercdlkickingbylength
+  - function.trader-cdllongleggeddoji.md: tradercdllongleggeddoji »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradercdlladderbottom
 ---
 # tradercdlladderbottom

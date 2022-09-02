@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-response-abstract.setheader.html: '« YafResponseAbstract::setHeader'
-  - yaf-response-abstract.tostring.html: 'YafResponseAbstract::toString »'
+  - yaf-response-abstract.setheader.md: '« YafResponseAbstract::setHeader'
+  - yaf-response-abstract.tostring.md: 'YafResponseAbstract::toString »'
   - index.md: PHP Manual
-  - class.yaf-response-abstract.html: YafResponseAbstract
+  - class.yaf-response-abstract.md: YafResponseAbstract
 title: 'YafResponseAbstract::setRedirect'
 ---
 # YafResponseAbstract::setRedirect

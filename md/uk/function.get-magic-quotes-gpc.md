@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.get-loaded-extensions.html: « getloadedextensions
-  - function.get-magic-quotes-runtime.html: getmagicquotesruntime »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.get-loaded-extensions.md: « getloadedextensions
+  - function.get-magic-quotes-runtime.md: getmagicquotesruntime »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: getmagicquotesgpc
 ---
 # getmagicquotesgpc

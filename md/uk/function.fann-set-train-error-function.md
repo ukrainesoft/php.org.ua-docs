@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-scaling-params.html: « fannsetscalingparams
-  - function.fann-set-train-stop-function.html: fannsettrainstopfunction »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-scaling-params.md: « fannsetscalingparams
+  - function.fann-set-train-stop-function.md: fannsettrainstopfunction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsettrainerrorfunction
 ---
 # fannsettrainerrorfunction
@@ -20,7 +20,7 @@ fann_set_train_error_function(resource $ann, int $error_function): bool
 
 Встановлює функцію помилки під час тренування.
 
-Функції помилок описані далі у константах [функций ошибок](fann.constants.html#constants.fann-errorfunc)
+Функції помилок описані далі у константах [функций ошибок](fann.constants.md#constants.fann-errorfunc)
 
 ### Список параметрів
 
@@ -30,7 +30,7 @@ fann_set_train_error_function(resource $ann, int $error_function): bool
 
 `error_function`
 
-Константа [функций ошибок](fann.constants.html#constants.fann-errorfunc)
+Константа [функций ошибок](fann.constants.md#constants.fann-errorfunc)
 
 ### Значення, що повертаються
 

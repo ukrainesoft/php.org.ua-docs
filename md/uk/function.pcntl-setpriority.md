@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-rfork.html: pcntlrfork
-  - function.pcntl-signal-dispatch.html: pcntlsignaldispatch »
+  - function.pcntl-rfork.md: pcntlrfork
+  - function.pcntl-signal-dispatch.md: pcntlsignaldispatch »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlsetpriority

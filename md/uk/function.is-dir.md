@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.glob.md: « glob
-  - function.is-executable.html: ісexecutable »
+  - function.is-executable.md: ісexecutable »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: ісdir
@@ -24,7 +24,7 @@ is_dir(string $filename): bool
 
 `filename`
 
-Шлях до файлу. Якщо `filename` є відносним ім'ям, він перевірятиметься щодо поточної робочої директорії. Якщо `filename` є символічним або жорстким посиланням, то посилання буде розкрито та перевірено. При включеному [openbasedir](ini.core.html#ini.open-basedir) можуть застосовуватись подальші обмеження.
+Шлях до файлу. Якщо `filename` є відносним ім'ям, він перевірятиметься щодо поточної робочої директорії. Якщо `filename` є символічним або жорстким посиланням, то посилання буде розкрито та перевірено. При включеному [openbasedir](ini.core.md#ini.open-basedir) можуть застосовуватись подальші обмеження.
 
 ### Значення, що повертаються
 

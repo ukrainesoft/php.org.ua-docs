@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-lock-write.html: « cubridlockwrite
-  - function.cubrid-next-result.html: cubridnextresult »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-lock-write.md: « cubridlockwrite
+  - function.cubrid-next-result.md: cubridnextresult »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridmovecursor
 ---
 # cubridmovecursor

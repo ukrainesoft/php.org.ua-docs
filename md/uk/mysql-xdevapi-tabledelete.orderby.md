@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tabledelete.limit.html: '« TableDelete::limit'
-  - mysql-xdevapi-tabledelete.where.html: 'TableDelete::where »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-tabledelete.html: mysqlxdevapiTableDelete
+  - mysql-xdevapi-tabledelete.limit.md: '« TableDelete::limit'
+  - mysql-xdevapi-tabledelete.where.md: 'TableDelete::where »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-tabledelete.md: mysqlxdevapiTableDelete
 title: 'TableDelete::orderby'
 ---
 # TableDelete::orderby

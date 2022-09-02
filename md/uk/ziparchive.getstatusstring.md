@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.getnameindex.html: '« ZipArchive::getNameIndex'
-  - ziparchive.getstream.html: 'ZipArchive::getStream »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.getnameindex.md: '« ZipArchive::getNameIndex'
+  - ziparchive.getstream.md: 'ZipArchive::getStream »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getStatusString'
 ---
 # ZipArchive::getStatusString

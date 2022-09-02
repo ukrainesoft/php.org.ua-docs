@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.iconv-substr.html: « iconvsubstr
-  - function.ob-iconv-handler.html: проiconvhandler »
-  - index.html: PHP Manual
-  - ref.iconv.html: Функции iconv
+  - function.iconv-substr.md: « iconvsubstr
+  - function.ob-iconv-handler.md: проiconvhandler »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
 title: iconv
 ---
 # iconv
@@ -78,5 +78,5 @@ Notice: iconv(): Detected an illegal character in input string in .\iconv-exampl
 
 ### Дивіться також
 
--   [мбconvertencoding()](function.mb-convert-encoding.html) - Перетворює рядок з одного кодування символів на інший
--   [UConverter::transcode()](uconverter.transcode.html) - Перетворює рядок з одного кодування символів на інший
+-   [мбconvertencoding()](function.mb-convert-encoding.md) - Перетворює рядок з одного кодування символів на інший
+-   [UConverter::transcode()](uconverter.transcode.md) - Перетворює рядок з одного кодування символів на інший

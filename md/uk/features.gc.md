@@ -1,7 +1,7 @@
 ---
 navigation:
   - features.commandline.ini.md: « Опции конфигурации
-  - features.gc.refcounting-basics.html: Основи підрахунку посилань »
+  - features.gc.refcounting-basics.md: Основи підрахунку посилань »
   - index.md: PHP Manual
   - features.md: Відмітні особливості
 title: Складання сміття

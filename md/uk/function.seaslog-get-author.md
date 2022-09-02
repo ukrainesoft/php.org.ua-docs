@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.seaslog.html: « Функции Seaslog
-  - function.seaslog-get-version.html: seasloggetversion »
-  - index.html: PHP Manual
-  - ref.seaslog.html: Функции Seaslog
+  - ref.seaslog.md: « Функции Seaslog
+  - function.seaslog-get-version.md: seasloggetversion »
+  - index.md: PHP Manual
+  - ref.seaslog.md: Функции Seaslog
 title: seasloggetauthor
 ---
 # seasloggetauthor

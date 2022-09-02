@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server-port.construct.html: '« SwooleServerPort::construct'
-  - swoole-server-port.on.html: 'SwooleServerPort::on »'
-  - index.html: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - swoole-server-port.construct.md: '« SwooleServerPort::construct'
+  - swoole-server-port.on.md: 'SwooleServerPort::on »'
+  - index.md: PHP Manual
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServerPort::destruct'
 ---
 # SwooleServerPort::destruct

@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqli.stat.md: '« mysqli::stat'
-  - mysqli.store-result.html: 'mysqli::storeresult »'
+  - mysqli.store-result.md: 'mysqli::storeresult »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::stmtinit'

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-box.ispadded.html: '« UIControlsBox::isPadded'
-  - class.ui-draw-pen.html: ОЙDrawPen »
+  - ui-controls-box.ispadded.md: '« UIControlsBox::isPadded'
+  - class.ui-draw-pen.md: ОЙDrawPen »
   - index.md: PHP Manual
-  - class.ui-controls-box.html: ОЙControlsBox
+  - class.ui-controls-box.md: ОЙControlsBox
 title: 'ОЙControlsBox::setPadded'
 ---
 # ОЙControlsBox::setPadded

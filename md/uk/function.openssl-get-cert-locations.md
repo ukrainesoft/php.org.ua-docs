@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-free-key.html: « opensslfreekey
-  - function.openssl-get-cipher-methods.html: opensslgetciphermethods »
+  - function.openssl-free-key.md: « opensslfreekey
+  - function.openssl-get-cipher-methods.md: opensslgetciphermethods »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslgetcertlocations

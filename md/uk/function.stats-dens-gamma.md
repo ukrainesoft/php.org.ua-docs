@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-dens-f.html: « statsdensф
-  - function.stats-dens-laplace.html: statsdenslaplace »
+  - function.stats-dens-f.md: « statsdensф
+  - function.stats-dens-laplace.md: statsdenslaplace »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsdensgamma

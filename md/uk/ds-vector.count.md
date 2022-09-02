@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.copy.html: '« DsVector::copy'
-  - ds-vector.filter.html: 'ДсVector::filter »'
+  - ds-vector.copy.md: '« DsVector::copy'
+  - ds-vector.filter.md: 'ДсVector::filter »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::count'
 ---
 # ДсVector::count

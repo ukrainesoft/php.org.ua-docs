@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.com-exception.html: « comexception
-  - function.com-create-guid.html: comcreateguid »
+  - class.com-exception.md: « comexception
+  - function.com-create-guid.md: comcreateguid »
   - index.md: PHP Manual
   - book.com.md: COM
 title: Функції COM

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yar-client.construct.html: '« YarClient::construct'
-  - class.yar-concurrent-client.html: YarConcurrentClient »
+  - yar-client.construct.md: '« YarClient::construct'
+  - class.yar-concurrent-client.md: YarConcurrentClient »
   - index.md: PHP Manual
-  - class.yar-client.html: YarClient
+  - class.yar-client.md: YarClient
 title: 'YarClient::setOpt'
 ---
 # YarClient::setOpt

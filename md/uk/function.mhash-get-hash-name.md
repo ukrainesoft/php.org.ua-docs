@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mhash-get-block-size.html: « mhashgetblocksize
-  - function.mhash-keygen-s2k.html: mhashkeygens2k »
+  - function.mhash-get-block-size.md: « mhashgetblocksize
+  - function.mhash-keygen-s2k.md: mhashkeygens2k »
   - index.md: PHP Manual
   - ref.mhash.md: Функции Mhash
 title: mhashgethashname

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-cascade-max-cand-epochs.html: « fanngetcascademaxcandepochs
-  - function.fann-get-cascade-min-cand-epochs.html: fanngetcascademincandepochs »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-cascade-max-cand-epochs.md: « fanngetcascademaxcandepochs
+  - function.fann-get-cascade-min-cand-epochs.md: fanngetcascademincandepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetcascademaxoutepochs
 ---
 # fanngetcascademaxoutepochs
@@ -34,4 +34,4 @@ fann_get_cascade_max_out_epochs(resource $ann): int
 
 ### Дивіться також
 
--   [fannsetcascademaxoutepochs()](function.fann-set-cascade-max-out-epochs.html) - Встановлює максимальну кількість епох
+-   [fannsetcascademaxoutepochs()](function.fann-set-cascade-max-out-epochs.md) - Встановлює максимальну кількість епох

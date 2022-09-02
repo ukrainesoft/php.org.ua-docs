@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.ps.html: « PS
-  - ps.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.ps.html: ПС
+  - book.ps.md: « PS
+  - ps.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.ps.md: ПС
 title: Вступ
 ---
 # Вступ

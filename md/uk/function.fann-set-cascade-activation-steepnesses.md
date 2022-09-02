@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-cascade-activation-functions.html: « fannsetcascadeactivationfunctions
-  - function.fann-set-cascade-candidate-change-fraction.html: fannsetcascadecandidatechangefraction »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-cascade-activation-functions.md: « fannsetcascadeactivationfunctions
+  - function.fann-set-cascade-candidate-change-fraction.md: fannsetcascadecandidatechangefraction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetcascadeactivationsteepnesses
 ---
 # fannsetcascadeactivationsteepnesses

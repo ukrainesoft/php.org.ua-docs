@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.set.html: '« SwooleClient::set'
-  - swoole-client.wakeup.html: 'SwooleClient::wakeup »'
+  - swoole-client.set.md: '« SwooleClient::set'
+  - swoole-client.wakeup.md: 'SwooleClient::wakeup »'
   - index.md: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::sleep'
 ---
 # SwooleClient::sleep

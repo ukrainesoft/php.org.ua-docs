@@ -24,7 +24,7 @@ public Imagick::setImageOrientation(int $orientation): bool
 
 `orientation`
 
-Одна з констант [ORIENTATION](imagick.constants.html#imagick.constants.orientation)
+Одна з констант [ORIENTATION](imagick.constants.md#imagick.constants.orientation)
 
 ### Значення, що повертаються
 

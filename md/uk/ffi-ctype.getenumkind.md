@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi-ctype.getattributes.html: '« FFICType::getAttributes'
-  - ffi-ctype.getfuncabi.html: 'FFICType::getFuncABI »'
+  - ffi-ctype.getattributes.md: '« FFICType::getAttributes'
+  - ffi-ctype.getfuncabi.md: 'FFICType::getFuncABI »'
   - index.md: PHP Manual
-  - class.ffi-ctype.html: FFICType
+  - class.ffi-ctype.md: FFICType
 title: 'FFICType::getEnumKind'
 ---
 # FFICType::getEnumKind

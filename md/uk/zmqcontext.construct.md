@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.zmqcontext.html: « ZMQContext
-  - zmqcontext.getopt.html: 'ZMQContext::getOpt »'
-  - index.html: PHP Manual
-  - class.zmqcontext.html: ZMQContext
+  - class.zmqcontext.md: « ZMQContext
+  - zmqcontext.getopt.md: 'ZMQContext::getOpt »'
+  - index.md: PHP Manual
+  - class.zmqcontext.md: ZMQContext
 title: 'ZMQContext::construct'
 ---
 # ZMQContext::construct

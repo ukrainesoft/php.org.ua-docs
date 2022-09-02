@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-num-params.html: « ibasenumparams
-  - function.ibase-pconnect.html: ibasepconnect »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-num-params.md: « ibasenumparams
+  - function.ibase-pconnect.md: ibasepconnect »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseparaminfo
 ---
 # ibaseparaminfo
@@ -36,5 +36,5 @@ ibase_param_info(resource $query, int $param_number): array
 
 ### Дивіться також
 
--   [ibasefieldinfo()](function.ibase-field-info.html) - Отримує інформацію про поле
--   [ibasenumparams()](function.ibase-num-params.html) - Повертає кількість параметрів у підготовленому запиті
+-   [ibasefieldinfo()](function.ibase-field-info.md) - Отримує інформацію про поле
+-   [ibasenumparams()](function.ibase-num-params.md) - Повертає кількість параметрів у підготовленому запиті

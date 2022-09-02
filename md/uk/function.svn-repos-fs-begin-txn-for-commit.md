@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-repos-create.html: « svnreposcreate
-  - function.svn-repos-fs-commit-txn.html: svnreposфсcommittxn »
+  - function.svn-repos-create.md: « svnreposcreate
+  - function.svn-repos-fs-commit-txn.md: svnreposфсcommittxn »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svnreposфсbegintxnforcommit

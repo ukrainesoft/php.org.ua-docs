@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gc-mem-caches.html: « gcmemcaches
-  - function.get-cfg-var.html: getcfgvar »
+  - function.gc-mem-caches.md: « gcmemcaches
+  - function.get-cfg-var.md: getcfgvar »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: гкstatus

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-count-references.html: « ldapcountreferences
-  - function.ldap-delete.html: ldapdelete »
+  - function.ldap-count-references.md: « ldapcountreferences
+  - function.ldap-delete.md: ldapdelete »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapdeleteext
@@ -18,7 +18,7 @@ ldapdeleteext — Видалити запис із директорії
 ldap_delete_ext(LDAP\Connection $ldap, string $dn, ?array $controls = null): LDAP\Result|false
 ```
 
-Робить те саме, що й [ldapdelete()](function.ldap-delete.html), але повертає екземпляр [LDAPResult](class.ldap-result.html) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
+Робить те саме, що й [ldapdelete()](function.ldap-delete.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
 
 ### Список параметрів
 

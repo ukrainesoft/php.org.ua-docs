@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.reflectionclassconstant.html: « ReflectionClassConstant
-  - reflectionclassconstant.export.html: 'ReflectionClassConstant::export »'
-  - index.html: PHP Manual
-  - class.reflectionclassconstant.html: ReflectionClassConstant
+  - class.reflectionclassconstant.md: « ReflectionClassConstant
+  - reflectionclassconstant.export.md: 'ReflectionClassConstant::export »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::construct'
 ---
 # ReflectionClassConstant::construct
@@ -34,4 +34,4 @@ public **ReflectionClassConstant::construct**(object | string `$class`, string `
 
 ### Дивіться також
 
--   [Конструктори](language.oop5.decon.html#language.oop5.decon.constructor)
+-   [Конструктори](language.oop5.decon.md#language.oop5.decon.constructor)

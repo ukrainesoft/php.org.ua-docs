@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3.querysingle.html: '« SQLite3::querySingle'
-  - sqlite3.version.html: 'SQLite3::version »'
-  - index.html: PHP Manual
-  - class.sqlite3.html: SQLite3
+  - sqlite3.querysingle.md: '« SQLite3::querySingle'
+  - sqlite3.version.md: 'SQLite3::version »'
+  - index.md: PHP Manual
+  - class.sqlite3.md: SQLite3
 title: 'SQLite3::setAuthorizer'
 ---
 # SQLite3::setAuthorizer

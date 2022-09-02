@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-get-charset.html: « cubridgetcharset
-  - function.cubrid-get-client-info.html: cubridgetclientinfo »
+  - function.cubrid-get-charset.md: « cubridgetcharset
+  - function.cubrid-get-client-info.md: cubridgetclientinfo »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridgetclassname

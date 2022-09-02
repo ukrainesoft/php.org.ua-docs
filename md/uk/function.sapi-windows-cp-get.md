@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sapi-windows-cp-conv.html: « sapiwindowsспconv
-  - function.sapi-windows-cp-is-utf8.html: sapiwindowsспісutf8 »
-  - index.html: PHP Manual
-  - ref.misc.html: Різні функції
+  - function.sapi-windows-cp-conv.md: « sapiwindowsспconv
+  - function.sapi-windows-cp-is-utf8.md: sapiwindowsспісutf8 »
+  - index.md: PHP Manual
+  - ref.misc.md: Різні функції
 title: sapiwindowsспget
 ---
 # sapiwindowsспget

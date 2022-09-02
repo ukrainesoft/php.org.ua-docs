@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.zlib-get-coding-type.html: « zlibgetcodingtype
-  - class.inflatecontext.html: InflateContext »
-  - index.html: PHP Manual
-  - book.zlib.html: Zlib
+  - function.zlib-get-coding-type.md: « zlibgetcodingtype
+  - class.inflatecontext.md: InflateContext »
+  - index.md: PHP Manual
+  - book.zlib.md: Zlib
 title: Клас DeflateContext
 ---
 # Клас DeflateContext

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-result.construct.html: '« Result::construct'
-  - mysql-xdevapi-result.getautoincrementvalue.html: 'Result::getAutoIncrementValue »'
+  - mysql-xdevapi-result.construct.md: '« Result::construct'
+  - mysql-xdevapi-result.getautoincrementvalue.md: 'Result::getAutoIncrementValue »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-result.html: mysqlxdevapiResult
+  - class.mysql-xdevapi-result.md: mysqlxdevapiResult
 title: 'Result::getAffectedItemsCount'
 ---
 # Result::getAffectedItemsCount

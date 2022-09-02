@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-ini.offsetunset.html: '« YafConfigIni::offsetUnset'
-  - yaf-config-ini.rewind.html: 'YafConfigIni::rewind »'
-  - index.html: PHP Manual
-  - class.yaf-config-ini.html: YafConfigIni
+  - yaf-config-ini.offsetunset.md: '« YafConfigIni::offsetUnset'
+  - yaf-config-ini.rewind.md: 'YafConfigIni::rewind »'
+  - index.md: PHP Manual
+  - class.yaf-config-ini.md: YafConfigIni
 title: 'YafConfigIni::readonly'
 ---
 # YafConfigIni::readonly

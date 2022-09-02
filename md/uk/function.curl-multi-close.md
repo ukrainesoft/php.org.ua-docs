@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-multi-add-handle.html: « curlmultiaddhandle
-  - function.curl-multi-errno.html: curlmultierrno »
+  - function.curl-multi-add-handle.md: « curlmultiaddhandle
+  - function.curl-multi-errno.md: curlmultierrno »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlmulticlose

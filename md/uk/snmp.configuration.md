@@ -1,9 +1,9 @@
 ---
 navigation:
-  - snmp.installation.html: « Установка
-  - snmp.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - snmp.setup.html: Встановлення та налаштування
+  - snmp.installation.md: « Установка
+  - snmp.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - snmp.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

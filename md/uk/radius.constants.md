@@ -1,19 +1,19 @@
 ---
 navigation:
-  - radius.resources.html: « Типи ресурсів
-  - radius.constants.options.html: Опции RADIUS »
-  - index.html: PHP Manual
-  - book.radius.html: Radius
+  - radius.resources.md: « Типи ресурсів
+  - radius.constants.options.md: Опции RADIUS »
+  - index.md: PHP Manual
+  - book.radius.md: Radius
 title: Обумовлені константи
 ---
 # Обумовлені константи
 
 ## Зміст
 
--   [Опции RADIUS](radius.constants.options.html)
--   [типи пакетів RADIUS](radius.constants.packets.html)
--   [Типи атрибутів RADIUS](radius.constants.attributes.html)
--   [Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.html)
+-   [Опции RADIUS](radius.constants.options.md)
+-   [типи пакетів RADIUS](radius.constants.packets.md)
+-   [Типи атрибутів RADIUS](radius.constants.attributes.md)
+-   [Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.md)
 
 Наведені нижче константи визначені даним модулем і можуть бути доступні тільки в тому випадку, якщо PHP був зібраний за допомогою цього модуля або в тому випадку, якщо даний модуль був динамічно завантажений під час виконання.
 

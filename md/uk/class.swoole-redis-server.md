@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.write.html: '« SwooleProcess::write'
-  - swoole-redis-server.format.html: 'SwooleRedisServer::format »'
-  - index.html: PHP Manual
-  - book.swoole.html: Swoole
+  - swoole-process.write.md: '« SwooleProcess::write'
+  - swoole-redis-server.format.md: 'SwooleRedisServer::format »'
+  - index.md: PHP Manual
+  - book.swoole.md: Swoole
 title: Клас SwooleRedisServer
 ---
 # Клас SwooleRedisServer
@@ -131,6 +131,6 @@ public Swoole\Server::tick(int $interval_ms, callable $callback): void
 
 ## Зміст
 
--   [SwooleRedisServer::format](swoole-redis-server.format.html) - Опис
--   [SwooleRedisServer::setHandler](swoole-redis-server.sethandler.html) - Опис
--   [SwooleRedisServer::start](swoole-redis-server.start.html) - Опис
+-   [SwooleRedisServer::format](swoole-redis-server.format.md) - Опис
+-   [SwooleRedisServer::setHandler](swoole-redis-server.sethandler.md) - Опис
+-   [SwooleRedisServer::start](swoole-redis-server.start.md) - Опис

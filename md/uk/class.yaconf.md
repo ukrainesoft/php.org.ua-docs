@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaconf.constants.html: « Обумовлені константи
-  - yaconf.get.html: 'Yaconf::get »'
-  - index.html: PHP Manual
-  - book.yaconf.html: Yaconf
+  - yaconf.constants.md: « Обумовлені константи
+  - yaconf.get.md: 'Yaconf::get »'
+  - index.md: PHP Manual
+  - book.yaconf.md: Yaconf
 title: Клас Yaconf
 ---
 # Клас Yaconf

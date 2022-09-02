@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-regex.getpattern.html: '« MongoDBBSONRegex::getPattern'
-  - mongodb-bson-regex.serialize.html: 'MongoDBBSONRegex::serialize »'
+  - mongodb-bson-regex.getpattern.md: '« MongoDBBSONRegex::getPattern'
+  - mongodb-bson-regex.serialize.md: 'MongoDBBSONRegex::serialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-regex.html: MongoDBBSONRegex
+  - class.mongodb-bson-regex.md: MongoDBBSONRegex
 title: 'MongoDBBSONRegex::jsonSerialize'
 ---
 # MongoDBBSONRegex::jsonSerialize
@@ -24,9 +24,9 @@ final public MongoDB\BSON\Regex::jsonSerialize(): mixed
 
 ### Значення, що повертаються
 
-Повертає дані, які можуть бути серіалізовані за допомогою [jsonencode()](function.json-encode.html) для створення розширеного JSON-подання [MongoDBBSONRegex](class.mongodb-bson-regex.md)
+Повертає дані, які можуть бути серіалізовані за допомогою [jsonencode()](function.json-encode.md) для створення розширеного JSON-подання [MongoDBBSONRegex](class.mongodb-bson-regex.md)
 
-> **Зауваження**: Висновок відповідає висновку функції [MongoDBBSONtoJSON()](function.mongodb.bson-tojson.html)яка використовує успадкований, специфічний для драйвера, розширений формат JSON. Він не обов'язково підходитиме під [» relaxed](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example) або [» canonical](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) уявлення розширеного JSON, що використовуються в [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.html) і [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)відповідно.
+> **Зауваження**: Висновок відповідає висновку функції [MongoDBBSONtoJSON()](function.mongodb.bson-tojson.md)яка використовує успадкований, специфічний для драйвера, розширений формат JSON. Він не обов'язково підходитиме під [» relaxed](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example) або [» canonical](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example) уявлення розширеного JSON, що використовуються в [MongoDBBSONtoRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) і [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)відповідно.
 
 ### Помилки
 

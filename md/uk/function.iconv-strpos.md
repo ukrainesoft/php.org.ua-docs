@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.iconv-strlen.html: « iconvstrlen
-  - function.iconv-strrpos.html: iconvstrrpos »
-  - index.html: PHP Manual
-  - ref.iconv.html: Функции iconv
+  - function.iconv-strlen.md: « iconvstrlen
+  - function.iconv-strrpos.md: iconvstrrpos »
+  - index.md: PHP Manual
+  - ref.iconv.md: Функции iconv
 title: iconvstrpos
 ---
 # iconvstrpos
@@ -20,7 +20,7 @@ iconv_strpos(    string $haystack,    string $needle,    int $offset
 
 Повертає позицію першого входження підрядка `needle` у рядку `haystack`
 
-На відміну від [strpos()](function.strpos.html) **iconvstrpos()** повертає зміщення перед рядком у символах, а не в байтах. Кількість символів трактується залежно від вказаної параметром `encoding` кодування.
+На відміну від [strpos()](function.strpos.md) **iconvstrpos()** повертає зміщення перед рядком у символах, а не в байтах. Кількість символів трактується залежно від вказаної параметром `encoding` кодування.
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ iconv_strpos(    string $haystack,    string $needle,    int $offset
 
 `encoding`
 
-Якщо параметр `encoding` не вказано, то мається на увазі, що `string` має кодування [iconv.internalencoding](iconv.configuration.html)
+Якщо параметр `encoding` не вказано, то мається на увазі, що `string` має кодування [iconv.internalencoding](iconv.configuration.md)
 
 Якщо `haystack` або `needle` не є рядками, вони будуть перетворені на рядок та застосовані як код символу.
 
@@ -50,7 +50,7 @@ iconv_strpos(    string $haystack,    string $needle,    int $offset
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### список змін
 
@@ -61,6 +61,6 @@ iconv_strpos(    string $haystack,    string $needle,    int $offset
 
 ### Дивіться також
 
--   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
--   [iconvstrrpos()](function.iconv-strrpos.html) - Повертає позицію останнього входження підрядка
--   [мбstrpos()](function.mb-strpos.html) - Пошук позиції першого входження одного рядка до іншого
+-   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
+-   [iconvstrrpos()](function.iconv-strrpos.md) - Повертає позицію останнього входження підрядка
+-   [мбstrpos()](function.mb-strpos.md) - Пошук позиції першого входження одного рядка до іншого

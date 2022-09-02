@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-col-get.html: « cubridcolget
-  - function.cubrid-column-names.html: cubridcolumnnames »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-col-get.md: « cubridcolget
+  - function.cubrid-column-names.md: cubridcolumnnames »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridcolsize
 ---
 # cubridcolsize

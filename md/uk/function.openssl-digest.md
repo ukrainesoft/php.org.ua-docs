@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-dh-compute-key.html: « opensslдхcomputekey
-  - function.openssl-encrypt.html: opensslencrypt »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-dh-compute-key.md: « opensslдхcomputekey
+  - function.openssl-encrypt.md: opensslencrypt »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: openssldigest
 ---
 # openssldigest
@@ -28,7 +28,7 @@ openssl_digest(string $data, string $digest_algo, bool $binary = false): string|
 
 `digest_algo`
 
-Метод обчислення дайджесту, наприклад "sha256". Список доступних методів можна отримати за допомогою [opensslgetмдmethods()](function.openssl-get-md-methods.html)
+Метод обчислення дайджесту, наприклад "sha256". Список доступних методів можна отримати за допомогою [opensslgetмдmethods()](function.openssl-get-md-methods.md)
 
 `binary`
 
@@ -44,4 +44,4 @@ openssl_digest(string $data, string $digest_algo, bool $binary = false): string|
 
 ### Дивіться також
 
--   [opensslgetмдmethods()](function.openssl-get-md-methods.html) - Отримати список доступних методів хешування
+-   [opensslgetмдmethods()](function.openssl-get-md-methods.md) - Отримати список доступних методів хешування

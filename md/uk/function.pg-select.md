@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-result-status.html: « pgresultstatus
-  - function.pg-send-execute.html: пгsendexecute »
+  - function.pg-result-status.md: « pgresultstatus
+  - function.pg-send-execute.md: пгsendexecute »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгselect

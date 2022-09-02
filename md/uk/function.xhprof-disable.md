@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.xhprof.md: « Функции Xhprof
-  - function.xhprof-enable.html: xhprofenable »
+  - function.xhprof-enable.md: xhprofenable »
   - index.md: PHP Manual
   - ref.xhprof.md: Функции Xhprof
 title: xhprofdisable

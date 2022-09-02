@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.setactionname.html: '« YafRequestAbstract::setActionName'
-  - yaf-request-abstract.setcontrollername.html: 'YafRequestAbstract::setControllerName »'
-  - index.html: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - yaf-request-abstract.setactionname.md: '« YafRequestAbstract::setActionName'
+  - yaf-request-abstract.setcontrollername.md: 'YafRequestAbstract::setControllerName »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::setBaseUri'
 ---
 # YafRequestAbstract::setBaseUri

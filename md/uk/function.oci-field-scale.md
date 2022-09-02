@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-field-precision.html: « ocifieldprecision
-  - function.oci-field-size.html: ocifieldsize »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-field-precision.md: « ocifieldprecision
+  - function.oci-field-size.md: ocifieldsize »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocifieldscale
 ---
 # ocifieldscale
@@ -78,7 +78,7 @@ oci_close($conn);
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnscale()](function.ocicolumnscale.html). У PHP 5.0.0 і вище [ocicolumnscale()](function.ocicolumnscale.md) є аліасом \*\*ocifieldscale()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocicolumnscale()](function.ocicolumnscale.md). У PHP 5.0.0 і вище [ocicolumnscale()](function.ocicolumnscale.md) є аліасом \*\*ocifieldscale()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
 
 ### Дивіться також
 

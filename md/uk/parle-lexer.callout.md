@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-lexer.build.html: '« ParleLexer::build'
-  - parle-lexer.consume.html: 'ParleLexer::consume »'
+  - parle-lexer.build.md: '« ParleLexer::build'
+  - parle-lexer.consume.md: 'ParleLexer::consume »'
   - index.md: PHP Manual
-  - class.parle-lexer.html: ParleLexer
+  - class.parle-lexer.md: ParleLexer
 title: 'ParleLexer::callout'
 ---
 # ParleLexer::callout

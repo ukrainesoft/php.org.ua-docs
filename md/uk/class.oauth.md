@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oauth-urlencode.html: « oauthurlencode
-  - oauth.construct.html: 'OAuth::construct »'
-  - index.html: PHP Manual
-  - book.oauth.html: OAuth
+  - function.oauth-urlencode.md: « oauthurlencode
+  - oauth.construct.md: 'OAuth::construct »'
+  - index.md: PHP Manual
+  - book.oauth.md: OAuth
 title: Клас OAuth
 ---
 # Клас OAuth
@@ -82,29 +82,29 @@ debugInfo
 
 ## Зміст
 
--   [OAuth::construct](oauth.construct.html) — Створює новий об'єкт OAuth
--   [OAuth::destruct](oauth.destruct.html) - Деструктор
--   [OAuth::disableDebug](oauth.disabledebug.html) — Вимкнути докладну налагоджувальну інформацію
--   [OAuth::disableRedirects](oauth.disableredirects.html) — Вимкнути переадресацію
--   [OAuth::disableSSLChecks](oauth.disablesslchecks.html) — Вимкнути SSL перевірки
--   [OAuth::enableDebug](oauth.enabledebug.html) — Включити докладну налагоджувальну інформацію
--   [OAuth::enableRedirects](oauth.enableredirects.html) — Включити переадресацію
--   [OAuth::enableSSLChecks](oauth.enablesslchecks.html) — Увімкнути перевірки SSL
--   [OAuth::fetch](oauth.fetch.html) — Витягти захищений ресурс OAuth
--   [OAuth::generateSignature](oauth.generatesignature.html) - Згенерувати підпис
--   [OAuth::getAccessToken](oauth.getaccesstoken.html) — Отримати токен доступу
--   [OAuth::getCAPath](oauth.getcapath.html) — Отримати інформацію CA
--   [OAuth::getLastResponse](oauth.getlastresponse.html) — Отримати останню відповідь
--   [OAuth::getLastResponseHeaders](oauth.getlastresponseheaders.html) — Отримати заголовки останньої відповіді
--   [OAuth::getLastResponseInfo](oauth.getlastresponseinfo.html) — Отримати HTTP-інформацію про останню відповідь
--   [OAuth::getRequestHeader](oauth.getrequestheader.html) - Згенерувати підпис заголовка OAuth
--   [OAuth::getRequestToken](oauth.getrequesttoken.html) — Витягти токен запиту
--   [OAuth::setAuthType](oauth.setauthtype.html) - Встановити тип авторизації
--   [OAuth::setCAPath](oauth.setcapath.html) — Встановити CA для шляху та інформації
--   [OAuth::setNonce](oauth.setnonce.html) — Встановити nonce для подальших запитів
--   [OAuth::setRequestEngine](oauth.setrequestengine.html) — Використовується для setRequestEngine
--   [OAuth::setRSACertificate](oauth.setrsacertificate.html) — Встановити сертифікат RSA
--   [OAuth::setSSLChecks](oauth.setsslchecks.html) — Виконувати певні перевірки SSL для запиту
--   [OAuth::setTimestamp](oauth.settimestamp.html) — Встановити позначку часу
--   [OAuth::setToken](oauth.settoken.html) - Задати токен та його пароль
--   [OAuth::setVersion](oauth.setversion.html) — Встановити версію OAuth
+-   [OAuth::construct](oauth.construct.md) — Створює новий об'єкт OAuth
+-   [OAuth::destruct](oauth.destruct.md) - Деструктор
+-   [OAuth::disableDebug](oauth.disabledebug.md) — Вимкнути докладну налагоджувальну інформацію
+-   [OAuth::disableRedirects](oauth.disableredirects.md) — Вимкнути переадресацію
+-   [OAuth::disableSSLChecks](oauth.disablesslchecks.md) — Вимкнути SSL перевірки
+-   [OAuth::enableDebug](oauth.enabledebug.md) — Включити докладну налагоджувальну інформацію
+-   [OAuth::enableRedirects](oauth.enableredirects.md) — Включити переадресацію
+-   [OAuth::enableSSLChecks](oauth.enablesslchecks.md) — Увімкнути перевірки SSL
+-   [OAuth::fetch](oauth.fetch.md) — Витягти захищений ресурс OAuth
+-   [OAuth::generateSignature](oauth.generatesignature.md) - Згенерувати підпис
+-   [OAuth::getAccessToken](oauth.getaccesstoken.md) — Отримати токен доступу
+-   [OAuth::getCAPath](oauth.getcapath.md) — Отримати інформацію CA
+-   [OAuth::getLastResponse](oauth.getlastresponse.md) — Отримати останню відповідь
+-   [OAuth::getLastResponseHeaders](oauth.getlastresponseheaders.md) — Отримати заголовки останньої відповіді
+-   [OAuth::getLastResponseInfo](oauth.getlastresponseinfo.md) — Отримати HTTP-інформацію про останню відповідь
+-   [OAuth::getRequestHeader](oauth.getrequestheader.md) - Згенерувати підпис заголовка OAuth
+-   [OAuth::getRequestToken](oauth.getrequesttoken.md) — Витягти токен запиту
+-   [OAuth::setAuthType](oauth.setauthtype.md) - Встановити тип авторизації
+-   [OAuth::setCAPath](oauth.setcapath.md) — Встановити CA для шляху та інформації
+-   [OAuth::setNonce](oauth.setnonce.md) — Встановити nonce для подальших запитів
+-   [OAuth::setRequestEngine](oauth.setrequestengine.md) — Використовується для setRequestEngine
+-   [OAuth::setRSACertificate](oauth.setrsacertificate.md) — Встановити сертифікат RSA
+-   [OAuth::setSSLChecks](oauth.setsslchecks.md) — Виконувати певні перевірки SSL для запиту
+-   [OAuth::setTimestamp](oauth.settimestamp.md) — Встановити позначку часу
+-   [OAuth::setToken](oauth.settoken.md) - Задати токен та його пароль
+-   [OAuth::setVersion](oauth.setversion.md) — Встановити версію OAuth

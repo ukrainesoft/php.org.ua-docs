@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.setalias.html: '« Phar::setAlias'
-  - phar.setmetadata.html: 'Phar::setMetadata »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.setalias.md: '« Phar::setAlias'
+  - phar.setmetadata.md: 'Phar::setMetadata »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::setDefaultStub'
 ---
 # Phar::setDefaultStub
@@ -20,9 +20,9 @@ public Phar::setDefaultStub(?string $index = null, ?string $webIndex = null): bo
 
 > **Зауваження**
 > 
-> Для коректної роботи з об'єктами [Phar](class.phar.html) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.html)
+> Для коректної роботи з об'єктами [Phar](class.phar.md) цьому методу необхідне встановлення значення php.ini `phar.readonly` в `0`. В іншому випадку, буде викинуто виняток [PharException](class.pharexception.md)
 
-Цей метод комбінує функціональність двох інших методів, [Phar::createDefaultStub()](phar.createdefaultstub.html) і [Phar::setStub()](phar.setstub.html)
+Цей метод комбінує функціональність двох інших методів, [Phar::createDefaultStub()](phar.createdefaultstub.md) і [Phar::setStub()](phar.setstub.md)
 
 ### Список параметрів
 
@@ -40,7 +40,7 @@ public Phar::setDefaultStub(?string $index = null, ?string $webIndex = null): bo
 
 ### Помилки
 
-Буде викинуто виняток [UnexpectedValueException](class.unexpectedvalueexception.html), якщо [phar.readonly](phar.configuration.html#ini.phar.readonly) дозволено у php.ini. У разі проблем із записом на диск буде викинуто виняток [PharException](class.pharexception.html)
+Буде викинуто виняток [UnexpectedValueException](class.unexpectedvalueexception.md), якщо [phar.readonly](phar.configuration.md#ini.phar.readonly) дозволено у php.ini. У разі проблем із записом на диск буде викинуто виняток [PharException](class.pharexception.md)
 
 ### список змін
 
@@ -67,5 +67,5 @@ try {
 
 ### Дивіться також
 
--   [Phar::setStub()](phar.setstub.html) - Встановити завантажувач або завантажувальну заглушку в Phar-архів
--   [Phar::createDefaultStub()](phar.createdefaultstub.html) - Створити заглушку у форматі phar-архіву
+-   [Phar::setStub()](phar.setstub.md) - Встановити завантажувач або завантажувальну заглушку в Phar-архів
+-   [Phar::createDefaultStub()](phar.createdefaultstub.md) - Створити заглушку у форматі phar-архіву

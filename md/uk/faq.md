@@ -1,8 +1,8 @@
 ---
 navigation:
-  - class.ui-exception-runtimeexception.html: « UIExceptionRuntimeException
-  - faq.general.html: Загальна інформація "
-  - index.html: PHP Manual
+  - class.ui-exception-runtimeexception.md: « UIExceptionRuntimeException
+  - faq.general.md: Загальна інформація "
+  - index.md: PHP Manual
 title: 'ЧАВО: Часті питання та відповіді на них'
 ---
 # ЧАВО: Часті питання та відповіді на них

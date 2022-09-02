@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-list-dbs.html: « cubridlistdbs
-  - function.cubrid-ping.html: cubridping »
+  - function.cubrid-list-dbs.md: « cubridlistdbs
+  - function.cubrid-ping.md: cubridping »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridnumfields
@@ -24,7 +24,7 @@ cubrid_num_fields(resource $result): int
 
 `result`
 
-`result`, отриманий з [cubridexecute()](function.cubrid-execute.html) [cubridquery()](function.cubrid-query.html) або [cubridprepare()](function.cubrid-prepare.md)
+`result`, отриманий з [cubridexecute()](function.cubrid-execute.md) [cubridquery()](function.cubrid-query.md) або [cubridprepare()](function.cubrid-prepare.md)
 
 ### Значення, що повертаються
 

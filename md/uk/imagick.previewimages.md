@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.posterizeimage.html: '« Imagick::posterizeImage'
-  - imagick.previousimage.html: 'Imagick::previousImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.posterizeimage.md: '« Imagick::posterizeImage'
+  - imagick.previousimage.md: 'Imagick::previousImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::previewImages'
 ---
 # Imagick::previewImages
@@ -24,7 +24,7 @@ public Imagick::previewImages(int $preview): bool
 
 `preview`
 
-Тип попереднього перегляду. Дивіться [константи типу попереднього перегляду](imagick.constants.html#imagick.constants.preview)
+Тип попереднього перегляду. Дивіться [константи типу попереднього перегляду](imagick.constants.md#imagick.constants.preview)
 
 ### Значення, що повертаються
 

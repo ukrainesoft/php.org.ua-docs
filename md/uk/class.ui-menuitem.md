@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-menu.construct.html: '« UIMenu::construct'
-  - ui-menuitem.disable.html: 'ОЙMenuItem::disable »'
+  - ui-menu.construct.md: '« UIMenu::construct'
+  - ui-menuitem.disable.md: 'ОЙMenuItem::disable »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент меню

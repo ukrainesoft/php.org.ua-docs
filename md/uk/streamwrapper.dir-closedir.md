@@ -1,7 +1,7 @@
 ---
 navigation:
   - streamwrapper.destruct.md: '« streamWrapper::destruct'
-  - streamwrapper.dir-opendir.html: 'streamWrapper::diropendir »'
+  - streamwrapper.dir-opendir.md: 'streamWrapper::diropendir »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::dirclosedir'

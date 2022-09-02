@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.fetchall.html: '« Memcached::fetchAll'
-  - memcached.get.html: 'Memcached::get »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.fetchall.md: '« Memcached::fetchAll'
+  - memcached.get.md: 'Memcached::get »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::flush'
 ---
 # Memcached::flush

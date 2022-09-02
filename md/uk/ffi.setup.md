@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.ffi.html: « Введение
-  - ffi.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.ffi.html: FFI
+  - intro.ffi.md: « Введение
+  - ffi.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.ffi.md: FFI
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](ffi.requirements.html)
--   [Установка](ffi.installation.html)
--   [Налаштування під час виконання](ffi.configuration.html)
--   [Типи ресурсів](ffi.resources.html)
+-   [Вимоги](ffi.requirements.md)
+-   [Установка](ffi.installation.md)
+-   [Налаштування під час виконання](ffi.configuration.md)
+-   [Типи ресурсів](ffi.resources.md)

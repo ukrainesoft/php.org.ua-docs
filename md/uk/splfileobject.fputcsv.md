@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.fpassthru.html: '« SplFileObject::fpassthru'
-  - splfileobject.fread.html: 'SplFileObject::fread »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.fpassthru.md: '« SplFileObject::fpassthru'
+  - splfileobject.fread.md: 'SplFileObject::fread »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fputcsv'
 ---
 # SplFileObject::fputcsv
@@ -95,5 +95,5 @@ aaa,bbb,ccc,dddd
 
 ### Дивіться також
 
--   [fputcsv()](function.fputcsv.html) - Форматує рядок у вигляді CSV і записує його у файловий покажчик
--   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.html) - Отримати рядок із файлу та його розбір як поля CSV
+-   [fputcsv()](function.fputcsv.md) - Форматує рядок у вигляді CSV і записує його у файловий покажчик
+-   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md) - Отримати рядок із файлу та його розбір як поля CSV

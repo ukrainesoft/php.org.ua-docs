@@ -12,7 +12,7 @@ title: Обумовлені константи
 
 **`CASE_LOWER`** (int)
 
-**`CASE_LOWER`** використовується з [arraychangekeycase()](function.array-change-key-case.html) для конвертації ключів масиву у нижній регістр. Це дія за умовчанням для [arraychangekeycase()](function.array-change-key-case.md)
+**`CASE_LOWER`** використовується з [arraychangekeycase()](function.array-change-key-case.md) для конвертації ключів масиву у нижній регістр. Це дія за умовчанням для [arraychangekeycase()](function.array-change-key-case.md)
 
 **`CASE_UPPER`** (int)
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-activation-steepness-hidden.html: « fannsetactivationsteepnesshidden
-  - function.fann-set-activation-steepness-output.html: fannsetactivationsteepnessoutput »
+  - function.fann-set-activation-steepness-hidden.md: « fannsetactivationsteepnesshidden
+  - function.fann-set-activation-steepness-output.md: fannsetactivationsteepnessoutput »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetactivationsteepnesslayer

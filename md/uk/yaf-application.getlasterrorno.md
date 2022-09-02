@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.getlasterrormsg.html: '« YafApplication::getLastErrorMsg'
-  - yaf-application.getmodules.html: 'YafApplication::getModules »'
-  - index.html: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - yaf-application.getlasterrormsg.md: '« YafApplication::getLastErrorMsg'
+  - yaf-application.getmodules.md: 'YafApplication::getModules »'
+  - index.md: PHP Manual
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::getLastErrorNo'
 ---
 # YafApplication::getLastErrorNo

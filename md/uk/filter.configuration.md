@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [filter.default](filter.configuration.html#ini.filter.default) | "unsaferaw" | PHPINIPERDIR | Параметр застарів, починаючи з PHP 8.1.0. |
-| [filter.defaultflags](filter.configuration.html#ini.filter.default-flags) | NULL | PHPINIPERDIR |  |
+| [filter.default](filter.configuration.md#ini.filter.default) | "unsaferaw" | PHPINIPERDIR | Параметр застарів, починаючи з PHP 8.1.0. |
+| [filter.defaultflags](filter.configuration.md#ini.filter.default-flags) | NULL | PHPINIPERDIR |  |
 
 Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 

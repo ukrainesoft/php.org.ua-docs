@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getfacetdatestart.html: '« SolrQuery::getFacetDateStart'
-  - solrquery.getfacetlimit.html: 'SolrQuery::getFacetLimit »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getfacetdatestart.md: '« SolrQuery::getFacetDateStart'
+  - solrquery.getfacetlimit.md: 'SolrQuery::getFacetLimit »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getFacetFields'
 ---
 # SolrQuery::getFacetFields

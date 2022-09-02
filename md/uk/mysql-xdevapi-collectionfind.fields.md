@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.execute.html: '« CollectionFind::execute'
-  - mysql-xdevapi-collectionfind.groupby.html: 'CollectionFind::groupBy »'
+  - mysql-xdevapi-collectionfind.execute.md: '« CollectionFind::execute'
+  - mysql-xdevapi-collectionfind.groupby.md: 'CollectionFind::groupBy »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
 title: 'CollectionFind::fields'
 ---
 # CollectionFind::fields

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-query.html: « pgquery
-  - function.pg-result-error.html: пгresulterror »
+  - function.pg-query.md: « pgquery
+  - function.pg-result-error.md: пгresulterror »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгresulterrorfield
@@ -20,15 +20,15 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 **пгresulterrorfield()** повертає одне з полів звіту про помилки, пов'язаного з екземпляром `result`. Функція підтримується серверами PostgreSQL версій 7.4 та вище. Потрібне поле задається аргументом `field_code`
 
-Функції [пгquery()](function.pg-query.html) і [пгqueryparams()](function.pg-query-params.html) у разі помилок повертають **`false`** замість ресурсу. Щоб мати можливість обробляти помилки, користуйтеся функціями [пгsendquery()](function.pg-send-query.html) і [пгgetresult()](function.pg-get-result.md)
+Функції [пгquery()](function.pg-query.md) і [пгqueryparams()](function.pg-query-params.md) у разі помилок повертають **`false`** замість ресурсу. Щоб мати можливість обробляти помилки, користуйтеся функціями [пгsendquery()](function.pg-send-query.md) і [пгgetresult()](function.pg-get-result.md)
 
-Для отримання додаткової інформації про хід виконання функції, що відмовила [пгquery()](function.pg-query.html) використовуйте функції [пгseterrorverbosity()](function.pg-set-error-verbosity.html) і [пгlasterror()](function.pg-last-error.md) та обробляйте результат їх виконання.
+Для отримання додаткової інформації про хід виконання функції, що відмовила [пгquery()](function.pg-query.md) використовуйте функції [пгseterrorverbosity()](function.pg-set-error-verbosity.md) і [пгlasterror()](function.pg-last-error.md) та обробляйте результат їх виконання.
 
 ### Список параметрів
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 `field_code`
 

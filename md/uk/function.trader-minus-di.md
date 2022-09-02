@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-minmaxindex.html: « traderminmaxindex
-  - function.trader-minus-dm.html: traderminusdm »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-minmaxindex.md: « traderminmaxindex
+  - function.trader-minus-dm.md: traderminusdm »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderminusді
 ---
 # traderminusді

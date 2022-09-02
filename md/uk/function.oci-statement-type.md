@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-set-prefetch.html: « ocisetprefetch
-  - function.oci-unregister-taf-callback.html: ociunregistertafcallback »
+  - function.oci-set-prefetch.md: « ocisetprefetch
+  - function.oci-unregister-taf-callback.md: ociunregistertafcallback »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocistatementtype

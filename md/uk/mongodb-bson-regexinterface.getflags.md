@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-regexinterface.html: « MongoDBBSONRegexInterface
-  - mongodb-bson-regexinterface.getpattern.html: 'MongoDBBSONRegexInterface::getPattern »'
+  - class.mongodb-bson-regexinterface.md: « MongoDBBSONRegexInterface
+  - mongodb-bson-regexinterface.getpattern.md: 'MongoDBBSONRegexInterface::getPattern »'
   - index.md: PHP Manual
-  - class.mongodb-bson-regexinterface.html: MongoDBBSONRegexInterface
+  - class.mongodb-bson-regexinterface.md: MongoDBBSONRegexInterface
 title: 'MongoDBBSONRegexInterface::getFlags'
 ---
 # MongoDBBSONRegexInterface::getFlags

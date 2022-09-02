@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.forward-static-call.html: « forwardstaticcall
-  - function.func-get-args.html: funcgetargs »
-  - index.html: PHP Manual
-  - ref.funchand.html: Функции управления функциями
+  - function.forward-static-call.md: « forwardstaticcall
+  - function.func-get-args.md: funcgetargs »
+  - index.md: PHP Manual
+  - ref.funchand.md: Функции управления функциями
 title: funcgetarg
 ---
 # funcgetarg
@@ -20,7 +20,7 @@ func_get_arg(int $position): mixed
 
 Повертає зазначений аргумент зі списку аргументів функції користувача.
 
-Ця функція може бути використана спільно з [funcgetargs()](function.func-get-args.html) і [funcnumargs()](function.func-num-args.md) для створення функцій із змінною кількістю аргументів.
+Ця функція може бути використана спільно з [funcgetargs()](function.func-get-args.md) і [funcnumargs()](function.func-num-args.md) для створення функцій із змінною кількістю аргументів.
 
 ### Список параметрів
 
@@ -105,6 +105,6 @@ byRef($arg);
 
 ### Дивіться також
 
--   [Синтаксис](functions.arguments.html#functions.variable-arg-list)
+-   [Синтаксис](functions.arguments.md#functions.variable-arg-list)
 -   [funcgetargs()](function.func-get-args.md)
 -   [funcnumargs()](function.func-num-args.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-select.html: « swooleselect
-  - function.swoole-strerror.html: swoolestrerror »
+  - function.swoole-select.md: « swooleselect
+  - function.swoole-strerror.md: swoolestrerror »
   - index.md: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: Функции Swoole
 title: swoolesetprocessname
 ---
 # swoolesetprocessname

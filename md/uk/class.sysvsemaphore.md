@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.sysvmessagequeue.html: « SysvMessageQueue
-  - class.sysvsharedmemory.html: SysvSharedMemory »
-  - index.html: PHP Manual
-  - book.sem.html: Семафори
+  - class.sysvmessagequeue.md: « SysvMessageQueue
+  - class.sysvsharedmemory.md: SysvSharedMemory »
+  - index.md: PHP Manual
+  - book.sem.md: Семафори
 title: Клас SysvSemaphore
 ---
 # Клас SysvSemaphore

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-get-last-errors.html: « dategetlasterrors
-  - function.date-interval-format.html: dateintervalformat »
+  - function.date-get-last-errors.md: « dategetlasterrors
+  - function.date-interval-format.md: dateintervalformat »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: dateintervalcreatefromdatestring

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - class.ffi-parserexception.html: « FFIParserException
+  - class.ffi-parserexception.md: « FFIParserException
   - intro.opcache.md: Введение »
   - index.md: PHP Manual
   - refs.basic.php.md: Изменение поведения PHP

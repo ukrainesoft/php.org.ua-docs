@@ -1,9 +1,9 @@
 ---
 navigation:
-  - v8js.installation.html: « Установка
-  - v8js.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - v8js.setup.html: Встановлення та налаштування
+  - v8js.installation.md: « Установка
+  - v8js.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - v8js.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,8 +14,8 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [v8js.maxdisposedcontexts](v8js.configuration.html#ini.v8js.max-disposed-contexts) |  | PHPINIALL |  |
-| [v8js.flags](v8js.configuration.html#ini.v8js.flags) |  | PHPINIALL |  |
+| [v8js.maxdisposedcontexts](v8js.configuration.md#ini.v8js.max-disposed-contexts) |  | PHPINIALL |  |
+| [v8js.flags](v8js.configuration.md#ini.v8js.flags) |  | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.yaz-wait.html: « yazwait
+  - function.yaz-wait.md: « yazwait
   - intro.zmq.md: Введение »
   - index.md: PHP Manual
   - refs.remote.other.md: Інші служби

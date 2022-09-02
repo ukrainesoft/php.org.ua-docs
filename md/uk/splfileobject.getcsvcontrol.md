@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.getchildren.html: '« SplFileObject::getChildren'
-  - splfileobject.getcurrentline.html: 'SplFileObject::getCurrentLine »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.getchildren.md: '« SplFileObject::getChildren'
+  - splfileobject.getcurrentline.md: 'SplFileObject::getCurrentLine »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::getCsvControl'
 ---
 # SplFileObject::getCsvControl
@@ -59,5 +59,5 @@ Array
 
 ### Дивіться також
 
--   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.html) - Встановлює символи роздільника, обгортання та екранування для CSV
--   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.html) - Отримати рядок із файлу та його розбір як поля CSV
+-   [SplFileObject::setCsvControl()](splfileobject.setcsvcontrol.md) - Встановлює символи роздільника, обгортання та екранування для CSV
+-   [SplFileObject::fgetcsv()](splfileobject.fgetcsv.md) - Отримати рядок із файлу та його розбір як поля CSV

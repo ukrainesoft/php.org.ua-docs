@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagegreenprimary.html: '« Imagick::setImageGreenPrimary'
-  - imagick.setimageinterlacescheme.html: 'Imagick::setImageInterlaceScheme »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagegreenprimary.md: '« Imagick::setImageGreenPrimary'
+  - imagick.setimageinterlacescheme.md: 'Imagick::setImageInterlaceScheme »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageIndex'
 ---
 # Imagick::setImageIndex

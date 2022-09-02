@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-blob-cancel.html: « ibaseblobcancel
-  - function.ibase-blob-create.html: ibaseblobcreate »
+  - function.ibase-blob-cancel.md: « ibaseblobcancel
+  - function.ibase-blob-create.md: ibaseblobcreate »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseblobclose
@@ -18,13 +18,13 @@ ibaseblobclose — Закриває BLOB-об'єкт
 ibase_blob_close(resource $blob_handle): mixed
 ```
 
-Ця функція закриває BLOB-об'єкт, відкритий для читання за допомогою [ibaseblobopen()](function.ibase-blob-open.html) або [ibaseblobcreate()](function.ibase-blob-create.md)
+Ця функція закриває BLOB-об'єкт, відкритий для читання за допомогою [ibaseblobopen()](function.ibase-blob-open.md) або [ibaseblobcreate()](function.ibase-blob-create.md)
 
 ### Список параметрів
 
 `blob_handle`
 
-BLOB-об'єкт, відкритий за допомогою [ibaseblobcreate()](function.ibase-blob-create.html) або [ibaseblobopen()](function.ibase-blob-open.md)
+BLOB-об'єкт, відкритий за допомогою [ibaseblobcreate()](function.ibase-blob-create.md) або [ibaseblobopen()](function.ibase-blob-open.md)
 
 ### Значення, що повертаються
 

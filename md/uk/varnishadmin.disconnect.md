@@ -1,9 +1,9 @@
 ---
 navigation:
-  - varnishadmin.construct.html: '« VarnishAdmin::construct'
-  - varnishadmin.getpanic.html: 'VarnishAdmin::getPanic »'
-  - index.html: PHP Manual
-  - class.varnishadmin.html: VarnishAdmin
+  - varnishadmin.construct.md: '« VarnishAdmin::construct'
+  - varnishadmin.getpanic.md: 'VarnishAdmin::getPanic »'
+  - index.md: PHP Manual
+  - class.varnishadmin.md: VarnishAdmin
 title: 'VarnishAdmin::disconnect'
 ---
 # VarnishAdmin::disconnect

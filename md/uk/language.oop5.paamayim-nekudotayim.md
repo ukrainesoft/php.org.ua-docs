@@ -83,4 +83,4 @@ $class->myFunc();
 ?>
 ```
 
-Дивіться також [деякі приклади статичних викликів](language.oop5.basic.html#language.oop5.basic.class.this)
+Дивіться також [деякі приклади статичних викликів](language.oop5.basic.md#language.oop5.basic.class.this)

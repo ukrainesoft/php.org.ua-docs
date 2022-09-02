@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.curl-multi-init.html: « curlmultiinit
-  - function.curl-multi-select.html: curlmultiselect »
-  - index.html: PHP Manual
-  - ref.curl.html: Функции cURL
+  - function.curl-multi-init.md: « curlmultiinit
+  - function.curl-multi-select.md: curlmultiselect »
+  - index.md: PHP Manual
+  - ref.curl.md: Функции cURL
 title: curlmultiremovehandle
 ---
 # curlmultiremovehandle

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-websocket-server.pack.html: '« SwooleWebSocketServer::pack'
-  - swoole-websocket-server.unpack.html: 'SwooleWebSocketServer::unpack »'
-  - index.html: PHP Manual
-  - class.swoole-websocket-server.html: SwooleWebSocketServer
+  - swoole-websocket-server.pack.md: '« SwooleWebSocketServer::pack'
+  - swoole-websocket-server.unpack.md: 'SwooleWebSocketServer::unpack »'
+  - index.md: PHP Manual
+  - class.swoole-websocket-server.md: SwooleWebSocketServer
 title: 'SwooleWebSocketServer::push'
 ---
 # SwooleWebSocketServer::push

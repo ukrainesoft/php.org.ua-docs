@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttpconnection.makerequest.html: '« EventHttpConnection::makeRequest'
-  - eventhttpconnection.setlocaladdress.html: 'EventHttpConnection::setLocalAddress »'
-  - index.html: PHP Manual
-  - class.eventhttpconnection.html: EventHttpConnection
+  - eventhttpconnection.makerequest.md: '« EventHttpConnection::makeRequest'
+  - eventhttpconnection.setlocaladdress.md: 'EventHttpConnection::setLocalAddress »'
+  - index.md: PHP Manual
+  - class.eventhttpconnection.md: EventHttpConnection
 title: 'EventHttpConnection::setCloseCallback'
 ---
 # EventHttpConnection::setCloseCallback
@@ -121,7 +121,7 @@ function _http_default($req, $dummy)
     // Мы должны явно это освободить. Смотрите
 ```
 
-[EventHttpRequest::getConnection()](eventhttprequest.getconnection.html)
+[EventHttpRequest::getConnection()](eventhttprequest.getconnection.md)
 
 ```php
 $bev->free(); // освобождаем

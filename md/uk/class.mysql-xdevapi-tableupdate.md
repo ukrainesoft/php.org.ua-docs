@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.where.html: '« TableSelect::where'
-  - mysql-xdevapi-tableupdate.bind.html: 'TableUpdate::bind »'
-  - index.html: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - mysql-xdevapi-tableselect.where.md: '« TableSelect::where'
+  - mysql-xdevapi-tableupdate.bind.md: 'TableUpdate::bind »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас TableUpdate
 ---
 # Клас TableUpdate
@@ -43,10 +43,10 @@ public where(string $where_expr): mysql_xdevapi\TableUpdate
 
 ## Зміст
 
--   [TableUpdate::bind](mysql-xdevapi-tableupdate.bind.html) — Прив'язує параметри запиту на оновлення
--   [TableUpdate::construct](mysql-xdevapi-tableupdate.construct.html) - Конструктор класу TableUpdate
--   [TableUpdate::execute](mysql-xdevapi-tableupdate.execute.html) — Виконує запит на оновлення
--   [TableUpdate::limit](mysql-xdevapi-tableupdate.limit.html) - Обмежує кількість рядків для оновлення
--   [TableUpdate::orderby](mysql-xdevapi-tableupdate.orderby.html) - Встановлює критерії сортування
--   [TableUpdate::set](mysql-xdevapi-tableupdate.set.html) — Додає поле для оновлення
--   [TableUpdate::where](mysql-xdevapi-tableupdate.where.html) - Встановлює фільтр пошуку
+-   [TableUpdate::bind](mysql-xdevapi-tableupdate.bind.md) — Прив'язує параметри запиту на оновлення
+-   [TableUpdate::construct](mysql-xdevapi-tableupdate.construct.md) - Конструктор класу TableUpdate
+-   [TableUpdate::execute](mysql-xdevapi-tableupdate.execute.md) — Виконує запит на оновлення
+-   [TableUpdate::limit](mysql-xdevapi-tableupdate.limit.md) - Обмежує кількість рядків для оновлення
+-   [TableUpdate::orderby](mysql-xdevapi-tableupdate.orderby.md) - Встановлює критерії сортування
+-   [TableUpdate::set](mysql-xdevapi-tableupdate.set.md) — Додає поле для оновлення
+-   [TableUpdate::where](mysql-xdevapi-tableupdate.where.md) - Встановлює фільтр пошуку

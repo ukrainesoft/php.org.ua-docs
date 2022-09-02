@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-databaseobject.getname.html: '« DatabaseObject::getName'
-  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult »
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-databaseobject.html: mysqlxdevapiDatabaseObject
+  - mysql-xdevapi-databaseobject.getname.md: '« DatabaseObject::getName'
+  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult »
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-databaseobject.md: mysqlxdevapiDatabaseObject
 title: 'DatabaseObject::getSession'
 ---
 # DatabaseObject::getSession

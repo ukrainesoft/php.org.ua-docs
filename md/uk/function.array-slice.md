@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-shift.html: « arrayshift
-  - function.array-splice.html: arraysplice »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-shift.md: « arrayshift
+  - function.array-splice.md: arraysplice »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayslice
 ---
 # arrayslice
@@ -137,6 +137,6 @@ Array
 
 ### Дивіться також
 
--   [arraychunk()](function.array-chunk.html) - Розбиває масив на частини
--   [arraysplice()](function.array-splice.html) - Видаляє частину масиву і замінює її чимось ще
--   [unset()](function.unset.html) - Видаляє змінну
+-   [arraychunk()](function.array-chunk.md) - Розбиває масив на частини
+-   [arraysplice()](function.array-splice.md) - Видаляє частину масиву і замінює її чимось ще
+-   [unset()](function.unset.md) - Видаляє змінну

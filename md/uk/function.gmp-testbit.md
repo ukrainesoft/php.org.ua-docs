@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-sub.html: « gmpsub
-  - function.gmp-xor.html: gmpxor »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-sub.md: « gmpsub
+  - function.gmp-xor.md: gmpxor »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmptestbit
 ---
 # gmptestbit

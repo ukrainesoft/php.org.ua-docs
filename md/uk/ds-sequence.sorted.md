@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.sort.html: '« DsSequence::sort'
-  - ds-sequence.sum.html: 'ДсSequence::sum »'
-  - index.html: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - ds-sequence.sort.md: '« DsSequence::sort'
+  - ds-sequence.sum.md: 'ДсSequence::sum »'
+  - index.md: PHP Manual
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::sorted'
 ---
 # ДсSequence::sorted

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-abstract.readonly.html: '« YafConfigAbstract::readonly'
-  - yaf-config-abstract.toarray.html: 'YafConfigAbstract::toArray »'
-  - index.html: PHP Manual
-  - class.yaf-config-abstract.html: YafConfigAbstract
+  - yaf-config-abstract.readonly.md: '« YafConfigAbstract::readonly'
+  - yaf-config-abstract.toarray.md: 'YafConfigAbstract::toArray »'
+  - index.md: PHP Manual
+  - class.yaf-config-abstract.md: YafConfigAbstract
 title: 'YafConfigAbstract::set'
 ---
 # YafConfigAbstract::set

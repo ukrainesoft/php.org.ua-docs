@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-config.html: « radiusconfig
-  - function.radius-cvt-addr.html: radiuscvtaddr »
+  - function.radius-config.md: « radiusconfig
+  - function.radius-cvt-addr.md: radiuscvtaddr »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiuscreaterequest

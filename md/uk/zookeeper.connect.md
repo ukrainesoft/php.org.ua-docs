@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.close.html: '« Zookeeper::close'
-  - zookeeper.construct.html: 'Zookeeper::construct »'
-  - index.html: PHP Manual
-  - class.zookeeper.html: Zookeeper
+  - zookeeper.close.md: '« Zookeeper::close'
+  - zookeeper.construct.md: 'Zookeeper::construct »'
+  - index.md: PHP Manual
+  - class.zookeeper.md: Zookeeper
 title: 'Zookeeper::connect'
 ---
 # Zookeeper::connect
@@ -45,9 +45,9 @@ Callback – функція глобального спостерігача. К�
 
 **Застереження**
 
-Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.html) та його похідні.
+Починаючи з версії 0.3.0, метод викидає виняток [ZookeeperException](class.zookeeperexception.md) та його похідні.
 
 ### Дивіться також
 
--   [Zookeeper::construct()](zookeeper.construct.html) - Створює дескриптор для спілкування з zookeeper
--   [ZookeeperException](class.zookeeperexception.html)
+-   [Zookeeper::construct()](zookeeper.construct.md) - Створює дескриптор для спілкування з zookeeper
+-   [ZookeeperException](class.zookeeperexception.md)

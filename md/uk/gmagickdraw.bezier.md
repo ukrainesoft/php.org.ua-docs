@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.arc.html: '« GmagickDraw::arc'
-  - gmagickdraw.ellipse.html: 'GmagickDraw::ellipse »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.arc.md: '« GmagickDraw::arc'
+  - gmagickdraw.ellipse.md: 'GmagickDraw::ellipse »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::bezier'
 ---
 # GmagickDraw::bezier
@@ -28,4 +28,4 @@ public GmagickDraw::bezier(array $coordinate_array): GmagickDraw
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html)
+Об'єкт [Gmagick](class.gmagick.md)

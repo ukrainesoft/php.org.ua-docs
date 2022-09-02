@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.poll.html: '« mysqli::poll'
-  - mysqli.query.html: 'mysqli::query »'
-  - index.html: PHP Manual
-  - class.mysqli.html: mysqli
+  - mysqli.poll.md: '« mysqli::poll'
+  - mysqli.query.md: 'mysqli::query »'
+  - index.md: PHP Manual
+  - class.mysqli.md: mysqli
 title: 'mysqli::prepare'
 ---
 # mysqli::prepare
@@ -30,13 +30,13 @@ mysqli_prepare(mysqli $mysql, string $query): mysqli_stmt|false
 
 Підготовляє SQL-запит і повертає покажчик цього виразу, який можна використовувати подальших операцій із цим виразом. Запит повинен складатися з одного виразу SQL.
 
-Шаблон оператора може містити нуль або кілька знаків запитання (`?`), позначок параметрів⁠, також званих заповнювачами. Мітки параметрів повинні бути прив'язані до змінних додатків за допомогою [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) перед виконанням виразу.
+Шаблон оператора може містити нуль або кілька знаків запитання (`?`), позначок параметрів⁠, також званих заповнювачами. Мітки параметрів повинні бути прив'язані до змінних додатків за допомогою [mysqlistmtbindparam()](mysqli-stmt.bind-param.md) перед виконанням виразу.
 
 ### Список параметрів
 
 `mysql`
 
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.html), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.html) або [mysqliinit()](mysqli.init.html)
+Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md), отриманий за допомогою [mysqliconnect()](function.mysqli-connect.md) або [mysqliinit()](mysqli.init.md)
 
 `query`
 
@@ -123,9 +123,9 @@ Amersfoort находится в округе Utrecht
 
 ### Дивіться також
 
--   [mysqlistmtexecute()](mysqli-stmt.execute.html) - Виконує підготовлене затвердження
--   [mysqlistmtfetch()](mysqli-stmt.fetch.html) - пов'язує результати підготовленого виразу зі змінними
--   [mysqlistmtbindparam()](mysqli-stmt.bind-param.html) - Прив'язка змінних до параметрів запиту, що готується.
--   [mysqlistmtbindresult()](mysqli-stmt.bind-result.html) - Прив'язка змінних до підготовленого запиту для розміщення результату
--   [mysqlistmtgetresult()](mysqli-stmt.get-result.html) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
--   [mysqlistmtclose()](mysqli-stmt.close.html) - Закриває підготовлений запит
+-   [mysqlistmtexecute()](mysqli-stmt.execute.md) - Виконує підготовлене затвердження
+-   [mysqlistmtfetch()](mysqli-stmt.fetch.md) - пов'язує результати підготовленого виразу зі змінними
+-   [mysqlistmtbindparam()](mysqli-stmt.bind-param.md) - Прив'язка змінних до параметрів запиту, що готується.
+-   [mysqlistmtbindresult()](mysqli-stmt.bind-result.md) - Прив'язка змінних до підготовленого запиту для розміщення результату
+-   [mysqlistmtgetresult()](mysqli-stmt.get-result.md) - Отримує результат із підготовленого запиту у вигляді об'єкта mysqliresult
+-   [mysqlistmtclose()](mysqli-stmt.close.md) - Закриває підготовлений запит

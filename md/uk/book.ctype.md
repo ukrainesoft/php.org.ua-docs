@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.trait-exists.html: « traitexists
+  - function.trait-exists.md: « traitexists
   - intro.ctype.md: Введение »
   - index.md: PHP Manual
   - refs.basic.vartype.md: 'Модулі, що відносяться до змінних та типів'

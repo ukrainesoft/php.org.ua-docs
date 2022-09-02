@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.roundcorners.html: '« Imagick::roundCorners'
-  - imagick.scaleimage.html: 'Imagick::scaleImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.roundcorners.md: '« Imagick::roundCorners'
+  - imagick.scaleimage.md: 'Imagick::scaleImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::sampleImage'
 ---
 # Imagick::sampleImage

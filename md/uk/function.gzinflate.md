@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzgetss.html: « gzgetss
-  - function.gzopen.html: gzopen »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzgetss.md: « gzgetss
+  - function.gzopen.md: gzopen »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzinflate
 ---
 # gzinflate

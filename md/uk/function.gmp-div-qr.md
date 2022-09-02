@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-div-q.html: « gmpdivдо
-  - function.gmp-div-r.html: gmpdivr »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-div-q.md: « gmpdivдо
+  - function.gmp-div-r.md: gmpdivr »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpdivгр
 ---
 # gmpdivгр
@@ -26,17 +26,17 @@ gmp_div_qr(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_
 
 Подільне.
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `num2`
 
 Дільник числа `num1`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 `rounding_mode`
 
-У документації до функції [gmpdivq()](function.gmp-div-q.html) наведено опис аргументу `rounding_mode`
+У документації до функції [gmpdivq()](function.gmp-div-q.md) наведено опис аргументу `rounding_mode`
 
 ### Значення, що повертаються
 
@@ -57,5 +57,5 @@ gmp_div_qr(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_
 
 ### Дивіться також
 
--   [gmpdivq()](function.gmp-div-q.html) - Розподіл чисел
--   [gmpdivr()](function.gmp-div-r.html) - Залишок від розподілу чисел
+-   [gmpdivq()](function.gmp-div-q.md) - Розподіл чисел
+-   [gmpdivr()](function.gmp-div-r.md) - Залишок від розподілу чисел

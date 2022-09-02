@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domelement.removeattributenode.html: '« DOMElement::removeAttributeNode'
-  - domelement.setattribute.html: 'DOMElement::setAttribute »'
-  - index.html: PHP Manual
-  - class.domelement.html: DOMElement
+  - domelement.removeattributenode.md: '« DOMElement::removeAttributeNode'
+  - domelement.setattribute.md: 'DOMElement::setAttribute »'
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
 title: 'DOMElement::removeAttributeNS'
 ---
 # DOMElement::removeAttributeNS
@@ -42,6 +42,6 @@ URI простір імен.
 
 ### Дивіться також
 
--   [DOMElement::hasAttributeNS()](domelement.hasattributens.html) - Перевіряє, чи існує заданий атрибут
--   [DOMElement::getAttributeNS()](domelement.getattributens.html) - Повертає значення атрибуту
--   [DOMElement::setAttributeNS()](domelement.setattributens.html) - Додає новий атрибут
+-   [DOMElement::hasAttributeNS()](domelement.hasattributens.md) - Перевіряє, чи існує заданий атрибут
+-   [DOMElement::getAttributeNS()](domelement.getattributens.md) - Повертає значення атрибуту
+-   [DOMElement::setAttributeNS()](domelement.setattributens.md) - Додає новий атрибут

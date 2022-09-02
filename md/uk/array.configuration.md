@@ -1,9 +1,9 @@
 ---
 navigation:
-  - array.installation.html: « Установка
-  - array.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - array.setup.html: Встановлення та налаштування
+  - array.installation.md: « Установка
+  - array.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - array.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-wexitstatus.html: pcntlwexitstatus
-  - function.pcntl-wifsignaled.html: pcntlwifsignaled »
+  - function.pcntl-wexitstatus.md: pcntlwexitstatus
+  - function.pcntl-wifsignaled.md: pcntlwifsignaled »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlwifexited

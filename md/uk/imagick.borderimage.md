@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.blurimage.html: '« Imagick::blurImage'
-  - imagick.brightnesscontrastimage.html: 'Imagick::brightnessContrastImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.blurimage.md: '« Imagick::blurImage'
+  - imagick.brightnesscontrastimage.md: 'Imagick::brightnessContrastImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::borderImage'
 ---
 # Imagick::borderImage

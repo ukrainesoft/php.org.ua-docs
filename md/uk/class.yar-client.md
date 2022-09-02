@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yar-server.handle.html: '« YarServer::handle'
-  - yar-client.call.html: 'YarClient::call »'
+  - yar-server.handle.md: '« YarServer::handle'
+  - yar-client.call.md: 'YarClient::call »'
   - index.md: PHP Manual
   - book.yar.md: Yar
 title: Клас YarClient

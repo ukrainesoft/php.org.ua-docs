@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-random-bits.html: « gmprandombits
-  - function.gmp-random-seed.html: gmprandomseed »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-random-bits.md: « gmprandombits
+  - function.gmp-random-seed.md: gmprandomseed »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmprandomrange
 ---
 # gmprandomrange

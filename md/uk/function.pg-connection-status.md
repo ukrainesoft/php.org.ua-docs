@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-connection-reset.html: « pgconnectionreset
-  - function.pg-consume-input.html: пгconsumeinput »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-connection-reset.md: « pgconnectionreset
+  - function.pg-consume-input.md: пгconsumeinput »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгconnectionstatus
 ---
 # пгconnectionstatus
@@ -34,7 +34,7 @@ pg_connection_status(PgSql\Connection $connection): int
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 

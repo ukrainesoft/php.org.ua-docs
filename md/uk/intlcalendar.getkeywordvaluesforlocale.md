@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.getgreatestminimum.html: '« IntlCalendar::getGreatestMinimum'
-  - intlcalendar.getleastmaximum.html: 'IntlCalendar::getLeastMaximum »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.getgreatestminimum.md: '« IntlCalendar::getGreatestMinimum'
+  - intlcalendar.getleastmaximum.md: 'IntlCalendar::getLeastMaximum »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getKeywordValuesForLocale'
 ---
 # IntlCalendar::getKeywordValuesForLocale

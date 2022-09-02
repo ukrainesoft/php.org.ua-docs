@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-num-fields.html: « fbirdnumfields
-  - function.fbird-param-info.html: fbirdparaminfo »
+  - function.fbird-num-fields.md: « fbirdnumfields
+  - function.fbird-param-info.md: fbirdparaminfo »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdnumparams

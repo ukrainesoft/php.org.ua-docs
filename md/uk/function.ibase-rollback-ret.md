@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-restore.html: « ibaserestore
-  - function.ibase-rollback.html: ibaserollback »
+  - function.ibase-restore.md: « ibaserestore
+  - function.ibase-rollback.md: ibaserollback »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaserollbackret

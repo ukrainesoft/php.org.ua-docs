@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-train-epoch.html: « fanntrainepoch
-  - function.fann-train-on-file.html: fanntrainвінfile »
+  - function.fann-train-epoch.md: « fanntrainepoch
+  - function.fann-train-on-file.md: fanntrainвінfile »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanntrainвінdata
@@ -42,7 +42,7 @@ fann_train_on_data(    resource $ann,    resource $data,    int $max
 
 `desired_error`
 
-Бажана [fanngetMSE()](function.fann-get-mse.html) або [fanngetbitfail()](function.fann-get-bit-fail.html), в залежності від обраної функції зупинки [fannsettrainstopfunction()](function.fann-set-train-stop-function.md)
+Бажана [fanngetMSE()](function.fann-get-mse.md) або [fanngetbitfail()](function.fann-get-bit-fail.md), в залежності від обраної функції зупинки [fannsettrainstopfunction()](function.fann-set-train-stop-function.md)
 
 ### Значення, що повертаються
 

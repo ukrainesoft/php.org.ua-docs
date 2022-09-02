@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldatepatterngenerator.getbestpattern.html: '« IntlDatePatternGenerator::getBestPattern'
-  - intlpartsiterator.getbreakiterator.html: 'IntlPartsIterator::getBreakIterator »'
-  - index.html: PHP Manual
-  - book.intl.html: intl
+  - intldatepatterngenerator.getbestpattern.md: '« IntlDatePatternGenerator::getBestPattern'
+  - intlpartsiterator.getbreakiterator.md: 'IntlPartsIterator::getBreakIterator »'
+  - index.md: PHP Manual
+  - book.intl.md: intl
 title: Клас IntlPartsIterator
 ---
 # Клас IntlPartsIterator

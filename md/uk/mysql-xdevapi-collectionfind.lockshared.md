@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.lockexclusive.html: '« CollectionFind::lockExclusive'
-  - mysql-xdevapi-collectionfind.offset.html: 'CollectionFind::offset »'
+  - mysql-xdevapi-collectionfind.lockexclusive.md: '« CollectionFind::lockExclusive'
+  - mysql-xdevapi-collectionfind.offset.md: 'CollectionFind::offset »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
 title: 'CollectionFind::lockShared'
 ---
 # CollectionFind::lockShared

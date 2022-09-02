@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.convert-uuencode.html: « convertuuencode
-  - function.crc32.html: crc32 »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.convert-uuencode.md: « convertuuencode
+  - function.crc32.md: crc32 »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: countchars
 ---
 # countchars
@@ -78,5 +78,5 @@ foreach (count_chars($data, 1) as $i => $val) {
 
 ### Дивіться також
 
--   [strpos()](function.strpos.html) - Повертає позицію першого входження підрядка
--   [substrcount()](function.substr-count.html) - Повертає кількість входжень підрядка
+-   [strpos()](function.strpos.md) - Повертає позицію першого входження підрядка
+-   [substrcount()](function.substr-count.md) - Повертає кількість входжень підрядка

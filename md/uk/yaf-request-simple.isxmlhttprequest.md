@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-simple.getrequest.html: '« YafRequestSimple::getRequest'
-  - class.yaf-response-abstract.html: YafResponseAbstract »
-  - index.html: PHP Manual
-  - class.yaf-request-simple.html: YafRequestSimple
+  - yaf-request-simple.getrequest.md: '« YafRequestSimple::getRequest'
+  - class.yaf-response-abstract.md: YafResponseAbstract »
+  - index.md: PHP Manual
+  - class.yaf-request-simple.md: YafRequestSimple
 title: 'YafRequestSimple::isXmlHttpRequest'
 ---
 # YafRequestSimple::isXmlHttpRequest

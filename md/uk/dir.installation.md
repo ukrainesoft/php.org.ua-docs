@@ -1,9 +1,9 @@
 ---
 navigation:
-  - dir.requirements.html: « Вимоги
-  - dir.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - dir.setup.html: Встановлення та налаштування
+  - dir.requirements.md: « Вимоги
+  - dir.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - dir.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

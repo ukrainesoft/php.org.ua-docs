@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-field-scale.html: « ocifieldscale
-  - function.oci-field-type-raw.html: ocifieldtyperaw »
+  - function.oci-field-scale.md: « ocifieldscale
+  - function.oci-field-type-raw.md: ocifieldtyperaw »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ocifieldsize

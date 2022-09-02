@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.inotify-read.html: « inotifyread
-  - book.xattr.html: xattr »
-  - index.html: PHP Manual
-  - ref.inotify.html: Функции Inotify
+  - function.inotify-read.md: « inotifyread
+  - book.xattr.md: xattr »
+  - index.md: PHP Manual
+  - ref.inotify.md: Функции Inotify
 title: inotifyрмwatch
 ---
 # inotifyрмwatch
@@ -24,7 +24,7 @@ inotify_rm_watch(resource $inotify_instance, int $watch_descriptor): bool
 
 `inotify_instance`
 
-Ресурс, що повертається [inotifyinit()](function.inotify-init.html)
+Ресурс, що повертається [inotifyinit()](function.inotify-init.md)
 
 `watch_descriptor`
 
@@ -36,4 +36,4 @@ inotify_rm_watch(resource $inotify_instance, int $watch_descriptor): bool
 
 ### Дивіться також
 
--   [inotifyinit()](function.inotify-init.html) - Ініціалізує екземпляр inotify
+-   [inotifyinit()](function.inotify-init.md) - Ініціалізує екземпляр inotify

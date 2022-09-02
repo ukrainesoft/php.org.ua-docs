@@ -1,6 +1,6 @@
 ---
 navigation:
-  - datetime.examples-arithmetic.html: « Арифметика дати/часу
+  - datetime.examples-arithmetic.md: « Арифметика дати/часу
   - datetime.add.md: 'DateTime::add »'
   - index.md: PHP Manual
   - book.datetime.md: Дата/время

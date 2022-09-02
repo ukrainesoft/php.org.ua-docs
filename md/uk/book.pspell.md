@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mb-substr.html: « mbsubstr
+  - function.mb-substr.md: « mbsubstr
   - intro.pspell.md: Введение »
   - index.md: PHP Manual
   - refs.international.md: Підтримка мов та кодувань

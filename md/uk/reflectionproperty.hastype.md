@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.hasdefaultvalue.html: '« ReflectionProperty::hasDefaultValue'
-  - reflectionproperty.isdefault.html: 'ReflectionProperty::isDefault »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.hasdefaultvalue.md: '« ReflectionProperty::hasDefaultValue'
+  - reflectionproperty.isdefault.md: 'ReflectionProperty::isDefault »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::hasType'
 ---
 # ReflectionProperty::hasType
@@ -52,5 +52,5 @@ bool(true)
 
 ### Дивіться також
 
--   [ReflectionProperty::getType()](reflectionproperty.gettype.html) - Отримати тип властивості
--   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.html) - Перевірити, чи ініціалізована властивість
+-   [ReflectionProperty::getType()](reflectionproperty.gettype.md) - Отримати тип властивості
+-   [ReflectionProperty::isInitialized()](reflectionproperty.isinitialized.md) - Перевірити, чи ініціалізована властивість

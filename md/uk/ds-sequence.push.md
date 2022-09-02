@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-sequence.pop.html: '« DsSequence::pop'
-  - ds-sequence.reduce.html: 'ДсSequence::reduce »'
+  - ds-sequence.pop.md: '« DsSequence::pop'
+  - ds-sequence.reduce.md: 'ДсSequence::reduce »'
   - index.md: PHP Manual
-  - class.ds-sequence.html: Послідовність
+  - class.ds-sequence.md: Послідовність
 title: 'ДсSequence::push'
 ---
 # ДсSequence::push

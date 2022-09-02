@@ -1,7 +1,7 @@
 ---
 navigation:
-  - migration71.changed-functions.html: « Змінені функції
-  - migration71.windows-support.html: Поддержка Windows »
+  - migration71.changed-functions.md: « Змінені функції
+  - migration71.windows-support.md: Поддержка Windows »
   - index.md: PHP Manual
   - migration71.md: Миграция с PHP 7.0.x на PHP 7.1.x
 title: Інші зміни

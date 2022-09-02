@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tokens.html: « Список меток (tokens) парсера
-  - userlandnaming.globalnamespace.html: Глобальний простір імен »
-  - index.html: PHP Manual
-  - appendices.html: Appendices
+  - tokens.md: « Список меток (tokens) парсера
+  - userlandnaming.globalnamespace.md: Глобальний простір імен »
+  - index.md: PHP Manual
+  - appendices.md: Appendices
 title: Посібник з іменування
 ---
 # Посібник з іменування

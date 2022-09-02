@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mqseries-close.html: « mqseriesclose
-  - function.mqseries-conn.html: mqseriesconn »
+  - function.mqseries-close.md: « mqseriesclose
+  - function.mqseries-conn.md: mqseriesconn »
   - index.md: PHP Manual
   - ref.mqseries.md: Функции mqseries
 title: mqseriescmit

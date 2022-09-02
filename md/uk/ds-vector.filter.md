@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.count.html: '« DsVector::count'
-  - ds-vector.find.html: 'ДсVector::find »'
+  - ds-vector.count.md: '« DsVector::count'
+  - ds-vector.find.md: 'ДсVector::find »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::filter'
 ---
 # ДсVector::filter
@@ -30,7 +30,7 @@ callback(mixed $value): bool
 
 Опціональний аргумент типу [callable](language.types.callable.md), який повертає **`true`**, якщо значення має бути включено та **`false`**, якщо ні.
 
-Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивіться [приведение к boolean](language.types.boolean.html#language.types.boolean.casting)
+Якщо callback-функція не задана, будуть включені тільки елементи, які призводять до логічного значення **`true`** (дивіться [приведение к boolean](language.types.boolean.md#language.types.boolean.casting)
 
 ### Значення, що повертаються
 

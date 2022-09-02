@@ -1,9 +1,9 @@
 ---
 navigation:
-  - componere-definition.getclosure.html: '« ComponereDefinition::getClosure'
-  - class.componere-patch.html: ComponerePatch »
-  - index.html: PHP Manual
-  - class.componere-definition.html: ComponereDefinition
+  - componere-definition.getclosure.md: '« ComponereDefinition::getClosure'
+  - class.componere-patch.md: ComponerePatch »
+  - index.md: PHP Manual
+  - class.componere-definition.md: ComponereDefinition
 title: 'ComponereDefinition::getClosures'
 ---
 # ComponereDefinition::getClosures

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.oci8.html: « OCI8
-  - oci8.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.oci8.html: OCI8
+  - book.oci8.md: « OCI8
+  - oci8.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.oci8.md: OCI8
 title: Вступ
 ---
 # Вступ

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.memcpy.html: '« FFI::memcpy'
-  - ffi.new.html: 'FFI::new »'
-  - index.html: PHP Manual
-  - class.ffi.html: FFI
+  - ffi.memcpy.md: '« FFI::memcpy'
+  - ffi.new.md: 'FFI::new »'
+  - index.md: PHP Manual
+  - class.ffi.md: FFI
 title: 'FFI::memset'
 ---
 # FFI::memset

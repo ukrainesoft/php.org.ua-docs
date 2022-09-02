@@ -1,7 +1,7 @@
 ---
 navigation:
   - migration72.incompatible.md: '« Зміни, що ламають зворотну сумісність'
-  - migration72.other-changes.html: Прочие изменения »
+  - migration72.other-changes.md: Прочие изменения »
   - index.md: PHP Manual
   - migration72.md: Миграция с PHP 7.1.x на PHP 7.2.x
 title: 'Функціонал, оголошений застарілим у PHP 7.2.x'
@@ -29,7 +29,7 @@ string(11) "NONEXISTENT"
 
 ### різновид **`INTL_IDNA_VARIANT_2003`**
 
-У модулі Intl оголошено застарілим варіант **`INTL_IDNA_VARIANT_2003`**, який в даний час використовується за замовчуванням для функцій [idnтоascii()](function.idn-to-ascii.html) і [idnтоutf8()](function.idn-to-utf8.md). У PHP 7.4 значення за замовчуванням буде змінено на **`INTL_IDNA_VARIANT_UTS46`**, а в наступній основній версії PHP константа **`INTL_IDNA_VARIANT_2003`** буде повністю видалено.
+У модулі Intl оголошено застарілим варіант **`INTL_IDNA_VARIANT_2003`**, який в даний час використовується за замовчуванням для функцій [idnтоascii()](function.idn-to-ascii.md) і [idnтоutf8()](function.idn-to-utf8.md). У PHP 7.4 значення за замовчуванням буде змінено на **`INTL_IDNA_VARIANT_UTS46`**, а в наступній основній версії PHP константа **`INTL_IDNA_VARIANT_2003`** буде повністю видалено.
 
 ### Функція [autoload()](function.autoload.md)
 
@@ -53,11 +53,11 @@ string(11) "NONEXISTENT"
 
 ### [parsestr()](function.parse-str.md) без другого параметра
 
-Без передачі другого параметра функції [parsestr()](function.parse-str.html), параметри рядка запиту будуть заповнювати поточну таблицю символів (доступні як змінні в локальній області видимості). Враховуючи наслідки для безпеки через це, використання [parsestr()](function.parse-str.md) без другого параметра оголошено застарілим. Ця функція завжди повинна використовуватися з двома аргументами, тому що в другому аргументі зберігаються параметри рядка запиту як елементи масиву.
+Без передачі другого параметра функції [parsestr()](function.parse-str.md), параметри рядка запиту будуть заповнювати поточну таблицю символів (доступні як змінні в локальній області видимості). Враховуючи наслідки для безпеки через це, використання [parsestr()](function.parse-str.md) без другого параметра оголошено застарілим. Ця функція завжди повинна використовуватися з двома аргументами, тому що в другому аргументі зберігаються параметри рядка запиту як елементи масиву.
 
 ### Функція [gmprandom()](function.gmp-random.md)
 
-Ця функція генерує випадкове число, засноване на діапазоні, який обчислюється залежно від платформи розміру лімба (limb). Через це ця функція оголошена застарілою. Переважним способом генерації випадкового числа через модуль GMP є використання функцій [gmprandombits()](function.gmp-random-bits.html) і [gmprandomrange()](function.gmp-random-range.md)
+Ця функція генерує випадкове число, засноване на діапазоні, який обчислюється залежно від платформи розміру лімба (limb). Через це ця функція оголошена застарілою. Переважним способом генерації випадкового числа через модуль GMP є використання функцій [gmprandombits()](function.gmp-random-bits.md) і [gmprandomrange()](function.gmp-random-range.md)
 
 ### Функція [each()](function.each.md)
 
@@ -73,4 +73,4 @@ string(11) "NONEXISTENT"
 
 ### Функція [readexifdata()](function.read-exif-data.md)
 
-Псевдонім [readexifdata()](function.read-exif-data.html) був оголошений застарілим на користь функції [exifreaddata()](function.exif-read-data.md)
+Псевдонім [readexifdata()](function.read-exif-data.md) був оголошений застарілим на користь функції [exifreaddata()](function.exif-read-data.md)

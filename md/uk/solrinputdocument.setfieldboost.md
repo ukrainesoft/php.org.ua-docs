@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrinputdocument.setboost.html: '« SolrInputDocument::setBoost'
-  - solrinputdocument.sort.html: 'SolrInputDocument::sort »'
-  - index.html: PHP Manual
-  - class.solrinputdocument.html: SolrInputDocument
+  - solrinputdocument.setboost.md: '« SolrInputDocument::setBoost'
+  - solrinputdocument.sort.md: 'SolrInputDocument::sort »'
+  - index.md: PHP Manual
+  - class.solrinputdocument.md: SolrInputDocument
 title: 'SolrInputDocument::setFieldBoost'
 ---
 # SolrInputDocument::setFieldBoost

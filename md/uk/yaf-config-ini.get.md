@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-config-ini.current.html: '« YafConfigIni::current'
-  - yaf-config-ini.isset.html: 'YafConfigIni::isset »'
+  - yaf-config-ini.current.md: '« YafConfigIni::current'
+  - yaf-config-ini.isset.md: 'YafConfigIni::isset »'
   - index.md: PHP Manual
-  - class.yaf-config-ini.html: YafConfigIni
+  - class.yaf-config-ini.md: YafConfigIni
 title: 'YafConfigIni::get'
 ---
 # YafConfigIni::get

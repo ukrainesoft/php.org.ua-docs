@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.count.html: '« YafSession::count'
-  - yaf-session.del.html: 'YafSession::del »'
-  - index.html: PHP Manual
-  - class.yaf-session.html: YafSession
+  - yaf-session.count.md: '« YafSession::count'
+  - yaf-session.del.md: 'YafSession::del »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
 title: 'YafSession::current'
 ---
 # YafSession::current

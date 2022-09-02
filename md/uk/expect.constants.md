@@ -1,9 +1,9 @@
 ---
 navigation:
-  - expect.resources.html: « Типи ресурсів
-  - expect.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.expect.html: Expect
+  - expect.resources.md: « Типи ресурсів
+  - expect.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.expect.md: Expect
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -28,7 +28,7 @@ title: Обумовлені константи
 
 **`EXP_TIMEOUT`** (int)
 
-Значення, що повертається [expectexpectl()](function.expect-expectl.md) після вичерпання часу очікування, заданого в [expect.timeout](expect.configuration.html#ini.expect.timeout)
+Значення, що повертається [expectexpectl()](function.expect-expectl.md) після вичерпання часу очікування, заданого в [expect.timeout](expect.configuration.md#ini.expect.timeout)
 
 **`EXP_FULLBUFFER`** (int)
 

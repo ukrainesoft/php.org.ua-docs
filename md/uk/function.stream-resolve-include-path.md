@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-register-wrapper.html: « streamregisterwrapper
-  - function.stream-select.html: streamselect »
+  - function.stream-register-wrapper.md: « streamregisterwrapper
+  - function.stream-select.md: streamselect »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamresolveincludepath

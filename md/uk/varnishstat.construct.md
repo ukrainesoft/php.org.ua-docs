@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.varnishstat.html: « VarnishStat
-  - varnishstat.getsnapshot.html: 'VarnishStat::getSnapshot »'
-  - index.html: PHP Manual
-  - class.varnishstat.html: VarnishStat
+  - class.varnishstat.md: « VarnishStat
+  - varnishstat.getsnapshot.md: 'VarnishStat::getSnapshot »'
+  - index.md: PHP Manual
+  - class.varnishstat.md: VarnishStat
 title: 'ВарнішСтат::construct'
 ---
 # ВарнішСтат::construct

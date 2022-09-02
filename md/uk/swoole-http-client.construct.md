@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.close.html: '« SwooleHttpClient::close'
-  - swoole-http-client.destruct.html: 'SwooleHttpClient::destruct »'
-  - index.html: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - swoole-http-client.close.md: '« SwooleHttpClient::close'
+  - swoole-http-client.destruct.md: 'SwooleHttpClient::destruct »'
+  - index.md: PHP Manual
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::construct'
 ---
 # SwooleHttpClient::construct

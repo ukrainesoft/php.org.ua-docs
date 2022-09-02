@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.gettablelabel.html: '« ColumnResult::getTableLabel'
-  - mysql-xdevapi-columnresult.gettype.html: 'ColumnResult::getType »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - mysql-xdevapi-columnresult.gettablelabel.md: '« ColumnResult::getTableLabel'
+  - mysql-xdevapi-columnresult.gettype.md: 'ColumnResult::getType »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::getTableName'
 ---
 # ColumnResult::getTableName

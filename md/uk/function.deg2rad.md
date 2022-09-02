@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.decoct.html: « decoct
-  - function.exp.html: exp »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.decoct.md: « decoct
+  - function.exp.md: exp »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: deg2rad
 ---
 # deg2rad
@@ -45,4 +45,4 @@ var_dump(deg2rad(45) === M_PI_4); // bool(true)
 
 ### Дивіться також
 
--   [rad2deg()](function.rad2deg.html) - Перетворює значення з радіанів на градуси
+-   [rad2deg()](function.rad2deg.md) - Перетворює значення з радіанів на градуси

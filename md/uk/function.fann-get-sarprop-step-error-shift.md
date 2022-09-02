@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-rprop-increase-factor.html: « fanngetrpropincreasefactor
-  - function.fann-get-sarprop-step-error-threshold-factor.html: fanngetsarpropsteperrorthresholdfactor »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-rprop-increase-factor.md: « fanngetrpropincreasefactor
+  - function.fann-get-sarprop-step-error-threshold-factor.md: fanngetsarpropsteperrorthresholdfactor »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetsarpropsteperrorshift
 ---
 # fanngetsarpropsteperrorshift

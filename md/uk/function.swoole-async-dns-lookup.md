@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.swoole-funcs.html: « Функции Swoole
-  - function.swoole-async-read.html: swooleasyncread »
-  - index.html: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - ref.swoole-funcs.md: « Функции Swoole
+  - function.swoole-async-read.md: swooleasyncread »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleasyncdnslookup
 ---
 # swooleasyncdnslookup

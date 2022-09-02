@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-send-query.html: « pgsendquery
-  - function.pg-set-error-verbosity.html: пгseterrorverbosity »
+  - function.pg-send-query.md: « pgsendquery
+  - function.pg-set-error-verbosity.md: пгseterrorverbosity »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгsetclientencoding
@@ -30,7 +30,7 @@ PostgreSQL автоматично конвертує дані з кодуван�
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

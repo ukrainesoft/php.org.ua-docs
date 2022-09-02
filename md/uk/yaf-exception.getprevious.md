@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-exception.construct.html: '« YafException::construct'
-  - class.yaf-exception-typeerror.html: YafExceptionTypeError »
+  - yaf-exception.construct.md: '« YafException::construct'
+  - class.yaf-exception-typeerror.md: YafExceptionTypeError »
   - index.md: PHP Manual
-  - class.yaf-exception.html: YafException
+  - class.yaf-exception.md: YafException
 title: 'YafException::getPrevious'
 ---
 # YafException::getPrevious

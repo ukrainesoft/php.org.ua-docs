@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-close-request.html: « cubridcloserequest
-  - function.cubrid-col-size.html: cubridcolsize »
+  - function.cubrid-close-request.md: « cubridcloserequest
+  - function.cubrid-col-size.md: cubridcolsize »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridcolget

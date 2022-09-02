@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqcontext.getopt.html: '« ZMQContext::getOpt'
-  - zmqcontext.ispersistent.html: 'ZMQContext::isPersistent »'
-  - index.html: PHP Manual
-  - class.zmqcontext.html: ZMQContext
+  - zmqcontext.getopt.md: '« ZMQContext::getOpt'
+  - zmqcontext.ispersistent.md: 'ZMQContext::isPersistent »'
+  - index.md: PHP Manual
+  - class.zmqcontext.md: ZMQContext
 title: 'ZMQContext::getSocket'
 ---
 # ZMQContext::getSocket
@@ -36,7 +36,7 @@ Callback-функція, яка буде викликана під час ств
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ZMQSocket](class.zmqsocket.html)
+Повертає об'єкт [ZMQSocket](class.zmqsocket.md)
 
 ### Помилки
 

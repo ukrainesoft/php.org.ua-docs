@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.uopz.html: « Функції Uopz
-  - function.uopz-allow-exit.html: uopzallowexit »
-  - index.html: PHP Manual
-  - ref.uopz.html: Функції Uopz
+  - ref.uopz.md: « Функції Uopz
+  - function.uopz-allow-exit.md: uopzallowexit »
+  - index.md: PHP Manual
+  - ref.uopz.md: Функції Uopz
 title: uopzaddfunction
 ---
 # uopzaddfunction
@@ -36,7 +36,7 @@ uopz_add_function(    string $class,    string $function,    Closure
 
 `handler`
 
-Об'єкт [Closure](class.closure.html)що визначає нову функцію або метод.
+Об'єкт [Closure](class.closure.md)що визначає нову функцію або метод.
 
 `flags`
 
@@ -52,7 +52,7 @@ uopz_add_function(    string $class,    string $function,    Closure
 
 ### Помилки
 
-**uopzaddfunction()** викидає [RuntimeException](class.runtimeexception.html), якщо функція, що додається, або метод вже існує.
+**uopzaddfunction()** викидає [RuntimeException](class.runtimeexception.md), якщо функція, що додається, або метод вже існує.
 
 ### Приклади
 
@@ -73,5 +73,5 @@ bar
 
 ### Дивіться також
 
--   [uopzdelfunction()](function.uopz-del-function.html) - Видаляє раніше додану функцію або метод
--   [uopzsetreturn()](function.uopz-set-return.html) - Надати значення, що повертається для існуючої функції
+-   [uopzdelfunction()](function.uopz-del-function.md) - Видаляє раніше додану функцію або метод
+-   [uopzsetreturn()](function.uopz-set-return.md) - Надати значення, що повертається для існуючої функції

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.class-implements.html: « classimplements
-  - function.class-uses.html: classuses »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - function.class-implements.md: « classimplements
+  - function.class-uses.md: classuses »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: classparents
 ---
 # classparents
@@ -28,7 +28,7 @@ class_parents(object|string $object_or_class, bool $autoload = true): array|fals
 
 `autoload`
 
-Чи викликати за замовчуванням [autoload](language.oop5.autoload.html)
+Чи викликати за замовчуванням [autoload](language.oop5.autoload.md)
 
 ### Значення, що повертаються
 
@@ -77,4 +77,4 @@ Array
 
 ### Дивіться також
 
--   [classimplements()](function.class-implements.html) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі
+-   [classimplements()](function.class-implements.md) - Повертає список інтерфейсів, реалізованих у заданому класі чи інтерфейсі

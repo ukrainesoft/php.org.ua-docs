@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mailparse-msg-get-part-data.html: « mailparsemsggetpartdata
-  - function.mailparse-msg-get-structure.html: mailparsemsggetstructure »
-  - index.html: PHP Manual
-  - ref.mailparse.html: Mailparse
+  - function.mailparse-msg-get-part-data.md: « mailparsemsggetpartdata
+  - function.mailparse-msg-get-structure.md: mailparsemsggetstructure »
+  - index.md: PHP Manual
+  - ref.mailparse.md: Mailparse
 title: mailparsemsggetpart
 ---
 # mailparsemsggetpart

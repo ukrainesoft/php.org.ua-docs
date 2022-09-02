@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.radius-cvt-addr.html: « radiuscvtaddr
-  - function.radius-cvt-string.html: radiuscvtstring »
+  - function.radius-cvt-addr.md: « radiuscvtaddr
+  - function.radius-cvt-string.md: radiuscvtstring »
   - index.md: PHP Manual
   - ref.radius.md: Функции Radius
 title: radiuscvtint
@@ -59,5 +59,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiuscvtaddr()](function.radius-cvt-addr.html) - Перетворює необроблені дані на IP-адресу
--   [radiuscvtstring()](function.radius-cvt-string.html) - Перетворює необроблені дані на рядок
+-   [radiuscvtaddr()](function.radius-cvt-addr.md) - Перетворює необроблені дані на IP-адресу
+-   [radiuscvtstring()](function.radius-cvt-string.md) - Перетворює необроблені дані на рядок

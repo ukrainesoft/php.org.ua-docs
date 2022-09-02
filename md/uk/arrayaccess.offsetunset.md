@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayaccess.offsetset.html: '« ArrayAccess::offsetSet'
-  - class.serializable.html: Serializable »
-  - index.html: PHP Manual
-  - class.arrayaccess.html: ArrayAccess
+  - arrayaccess.offsetset.md: '« ArrayAccess::offsetSet'
+  - class.serializable.md: Serializable »
+  - index.md: PHP Manual
+  - class.arrayaccess.md: ArrayAccess
 title: 'ArrayAccess::offsetUnset'
 ---
 # ArrayAccess::offsetUnset
@@ -22,7 +22,7 @@ public ArrayAccess::offsetUnset(mixed $offset): void
 
 > **Зауваження**
 > 
-> Цей метод *не* буде викликаний при наведенні типу до [(unset)](language.types.type-juggling.html#language.types.typecasting)
+> Цей метод *не* буде викликаний при наведенні типу до [(unset)](language.types.type-juggling.md#language.types.typecasting)
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-pair.clear.html: '« DsPair::clear'
-  - ds-pair.copy.html: 'ДсPair::copy »'
+  - ds-pair.clear.md: '« DsPair::clear'
+  - ds-pair.copy.md: 'ДсPair::copy »'
   - index.md: PHP Manual
-  - class.ds-pair.html: Пара
+  - class.ds-pair.md: Пара
 title: 'ДсPair::construct'
 ---
 # ДсPair::construct
@@ -14,7 +14,7 @@ title: 'ДсPair::construct'
 
 ### Опис
 
-public **ДсPair::construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$key` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$value`
+public **ДсPair::construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$key` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$value`
 
 Створення екземпляр класу із заданим ключем `key` та значенням `value`
 

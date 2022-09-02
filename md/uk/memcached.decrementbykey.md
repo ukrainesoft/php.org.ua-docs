@@ -1,9 +1,9 @@
 ---
 navigation:
-  - memcached.decrement.html: '« Memcached::decrement'
-  - memcached.delete.html: 'Memcached::delete »'
-  - index.html: PHP Manual
-  - class.memcached.html: Memcached
+  - memcached.decrement.md: '« Memcached::decrement'
+  - memcached.delete.md: 'Memcached::delete »'
+  - index.md: PHP Manual
+  - class.memcached.md: Memcached
 title: 'Memcached::decrementByKey'
 ---
 # Memcached::decrementByKey
@@ -48,6 +48,6 @@ public Memcached::decrementByKey(    string $server_key,    string $key,
 
 ### Дивіться також
 
--   [Memcached::decrement()](memcached.decrement.html) - Зменшує числове значення запису
--   [Memcached::increment()](memcached.increment.html) - Збільшує числове значення запису
--   [Memcached::incrementByKey()](memcached.incrementbykey.html) - Збільшує числове значення запису, що зберігається на вказаному сервері
+-   [Memcached::decrement()](memcached.decrement.md) - Зменшує числове значення запису
+-   [Memcached::increment()](memcached.increment.md) - Збільшує числове значення запису
+-   [Memcached::incrementByKey()](memcached.incrementbykey.md) - Збільшує числове значення запису, що зберігається на вказаному сервері

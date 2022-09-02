@@ -8,7 +8,7 @@ title: Відносні формати
 ---
 ## Відносні формати
 
-На цій сторінці описані відносні формати дати/часу, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) [datecreate()](function.date-create.html) [datecreateimmutable()](function.date-create-immutable.md) і [strtotime()](function.strtotime.md)
+На цій сторінці описані відносні формати дати/часу, які розуміє парсер функцій: [DateTimeImmutable](class.datetimeimmutable.md) [DateTime](class.datetime.md) [datecreate()](function.date-create.md) [datecreateimmutable()](function.date-create-immutable.md) і [strtotime()](function.strtotime.md)
 
 **Використовувані символи**
 
@@ -41,7 +41,7 @@ title: Відносні формати
 | `number` `space``unit` | 'week') | Обчислює відносний час з використанням числових значень періоду. |
 | `ordinal` `space` `unit` | Обчислює відносний час під час використання рядкових значень періоду. | "fifth day", "second month" |
 | 'ago' | Віднімає всі значення від останнього отриманого моменту часу. | "2 дні тому", "8 днів тому 14:00", "2 місяці 5 днів тому", "2 місяці тому 5 днів", "2 дні тому" |
-| `dayname` | Переміщається наступного дня вказаного дня тижня. (Дивіться [замечание](datetime.formats.relative.html#datetime.formats.relative.dayname-note) | "Monday" |
+| `dayname` | Переміщається наступного дня вказаного дня тижня. (Дивіться [замечание](datetime.formats.relative.md#datetime.formats.relative.dayname-note) | "Monday" |
 | `reltext` `space` 'week' | Розбирає специфічний формат "weekday + last/this/next week". | "Monday next week" |
 
 > **Зауваження**

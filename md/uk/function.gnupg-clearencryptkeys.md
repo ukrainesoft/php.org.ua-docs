@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-cleardecryptkeys.html: « gnupgcleardecryptkeys
-  - function.gnupg-clearsignkeys.html: gnupgclearsignkeys »
+  - function.gnupg-cleardecryptkeys.md: « gnupgcleardecryptkeys
+  - function.gnupg-clearsignkeys.md: gnupgclearsignkeys »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgclearencryptkeys

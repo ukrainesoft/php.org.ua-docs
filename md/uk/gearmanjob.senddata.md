@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanjob.sendcomplete.html: '« GearmanJob::sendComplete'
-  - gearmanjob.sendexception.html: 'GearmanJob::sendException »'
-  - index.html: PHP Manual
-  - class.gearmanjob.html: GearmanJob
+  - gearmanjob.sendcomplete.md: '« GearmanJob::sendComplete'
+  - gearmanjob.sendexception.md: 'GearmanJob::sendException »'
+  - index.md: PHP Manual
+  - class.gearmanjob.md: GearmanJob
 title: 'GearmanJob::sendData'
 ---
 # GearmanJob::sendData
@@ -32,5 +32,5 @@ public GearmanJob::sendData(string $data): bool
 
 ### Дивіться також
 
--   [GearmanJob::workload()](gearmanjob.workload.html) - отримання даних для обробки
--   [GearmanTask::data()](gearmantask.data.html) - Отримати дані, повернені для завдання
+-   [GearmanJob::workload()](gearmanjob.workload.md) - отримання даних для обробки
+-   [GearmanTask::data()](gearmantask.data.md) - Отримати дані, повернені для завдання

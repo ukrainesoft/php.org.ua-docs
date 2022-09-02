@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.token-get-all.html: « tokengetall
+  - function.token-get-all.md: « tokengetall
   - book.url.md: URL »
   - index.md: PHP Manual
   - ref.tokenizer.md: Функции PHP-лексера (tokenizer)

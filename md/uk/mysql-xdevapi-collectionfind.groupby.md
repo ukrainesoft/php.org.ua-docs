@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.fields.html: '« CollectionFind::fields'
-  - mysql-xdevapi-collectionfind.having.html: 'CollectionFind::having »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+  - mysql-xdevapi-collectionfind.fields.md: '« CollectionFind::fields'
+  - mysql-xdevapi-collectionfind.having.md: 'CollectionFind::having »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
 title: 'CollectionFind::groupBy'
 ---
 # CollectionFind::groupBy

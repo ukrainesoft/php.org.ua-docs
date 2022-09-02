@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.allocate.html: '« DsStack::allocate'
-  - ds-stack.clear.html: 'ДсStack::clear »'
+  - ds-stack.allocate.md: '« DsStack::allocate'
+  - ds-stack.clear.md: 'ДсStack::clear »'
   - index.md: PHP Manual
-  - class.ds-stack.html: Стек
+  - class.ds-stack.md: Стек
 title: 'ДсStack::capacity'
 ---
 # ДсStack::capacity

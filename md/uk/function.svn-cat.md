@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.svn-blame.html: « svnblame
-  - function.svn-checkout.html: svncheckout »
+  - function.svn-blame.md: « svnblame
+  - function.svn-checkout.md: svncheckout »
   - index.md: PHP Manual
   - ref.svn.md: Функції SVN
 title: svncat

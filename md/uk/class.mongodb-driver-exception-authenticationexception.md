@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb.exceptions.html: « MongoDBDriverException
-  - class.mongodb-driver-exception-bulkwriteexception.html: MongoDBDriverExceptionBulkWriteException »
-  - index.html: PHP Manual
-  - mongodb.exceptions.html: MongoDBDriverException
+  - mongodb.exceptions.md: « MongoDBDriverException
+  - class.mongodb-driver-exception-bulkwriteexception.md: MongoDBDriverExceptionBulkWriteException »
+  - index.md: PHP Manual
+  - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionAuthenticationException
 ---
 # Клас MongoDBDriverExceptionAuthenticationException

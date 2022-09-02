@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-setall.html: « statsrandsetall
-  - function.stats-standard-deviation.html: statsstandarddeviation »
+  - function.stats-rand-setall.md: « statsrandsetall
+  - function.stats-standard-deviation.md: statsstandarddeviation »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsskew

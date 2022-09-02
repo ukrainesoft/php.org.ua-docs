@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-field-scale.html: « odbcfieldscale
-  - function.odbc-foreignkeys.html: odbcforeignkeys »
+  - function.odbc-field-scale.md: « odbcfieldscale
+  - function.odbc-foreignkeys.md: odbcforeignkeys »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcfieldtype

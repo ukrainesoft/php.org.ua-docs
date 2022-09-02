@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-lob2-read.html: « cubridlob2read
-  - function.cubrid-lob2-seek.html: cubridlob2seek »
-  - index.html: PHP Manual
-  - ref.cubrid.html: Функции CUBRID
+  - function.cubrid-lob2-read.md: « cubridlob2read
+  - function.cubrid-lob2-seek.md: cubridlob2seek »
+  - index.md: PHP Manual
+  - ref.cubrid.md: Функции CUBRID
 title: cubridlob2seek64
 ---
 # cubridlob2seek64
@@ -34,7 +34,7 @@ cubrid_lob2_seek64(resource $lob_identifier, string $offset, int $origin = CUBRI
 
 `lob_identifier`
 
-Ідентифікатор LOB внаслідок роботи функції [cubridlob2new()](function.cubrid-lob2-new.html) або отриманий із набору результатів.
+Ідентифікатор LOB внаслідок роботи функції [cubridlob2new()](function.cubrid-lob2-new.md) або отриманий із набору результатів.
 
 `offset`
 
@@ -92,10 +92,10 @@ cubrid_disconnect($conn);
 
 ### Дивіться також
 
--   [cubridlob2read()](function.cubrid-lob2-read.html) - Здійснює читання з даних BLOB/CLOB
--   [cubridlob2write()](function.cubrid-lob2-write.html) - Записує до LOB-об'єкту
--   [cubridlob2seek()](function.cubrid-lob2-seek.html) - Переміщує курсор LOB-об'єкта
--   [cubridlob2tell()](function.cubrid-lob2-tell.html) - Повідомляє положення курсору LOB-об'єкта
--   [cubridlob2tell64()](function.cubrid-lob2-tell64.html) - Повідомляє положення курсору LOB-об'єкта
--   [cubridlob2size()](function.cubrid-lob2-size.html) - Отримує розмір LOB-об'єкта
--   [cubridlob2size64()](function.cubrid-lob2-size64.html) - Отримує розмір LOB-об'єкта
+-   [cubridlob2read()](function.cubrid-lob2-read.md) - Здійснює читання з даних BLOB/CLOB
+-   [cubridlob2write()](function.cubrid-lob2-write.md) - Записує до LOB-об'єкту
+-   [cubridlob2seek()](function.cubrid-lob2-seek.md) - Переміщує курсор LOB-об'єкта
+-   [cubridlob2tell()](function.cubrid-lob2-tell.md) - Повідомляє положення курсору LOB-об'єкта
+-   [cubridlob2tell64()](function.cubrid-lob2-tell64.md) - Повідомляє положення курсору LOB-об'єкта
+-   [cubridlob2size()](function.cubrid-lob2-size.md) - Отримує розмір LOB-об'єкта
+-   [cubridlob2size64()](function.cubrid-lob2-size64.md) - Отримує розмір LOB-об'єкта

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-close.html: « ftpclose
-  - function.ftp-delete.html: ftpdelete »
+  - function.ftp-close.md: « ftpclose
+  - function.ftp-delete.md: ftpdelete »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpconnect
@@ -32,7 +32,7 @@ ftp_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connection
 
 `timeout`
 
-Цей аргумент вказує час очікування в секундах всіх наступних мережевих операцій. Якщо опущено, використовується значення за промовчанням - 90 секунд. Час очікування може бути змінено та отримано у будь-який момент за допомогою функцій [ftpsetoption()](function.ftp-set-option.html) і [ftpgetoption()](function.ftp-get-option.md) відповідно.
+Цей аргумент вказує час очікування в секундах всіх наступних мережевих операцій. Якщо опущено, використовується значення за промовчанням - 90 секунд. Час очікування може бути змінено та отримано у будь-який момент за допомогою функцій [ftpsetoption()](function.ftp-set-option.md) і [ftpgetoption()](function.ftp-get-option.md) відповідно.
 
 ### Значення, що повертаються
 

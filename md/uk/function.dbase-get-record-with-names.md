@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dbase-get-header-info.html: « dbasegetheaderinfo
-  - function.dbase-get-record.html: dbasegetrecord »
-  - index.html: PHP Manual
-  - ref.dbase.html: dBase
+  - function.dbase-get-header-info.md: « dbasegetheaderinfo
+  - function.dbase-get-record.md: dbasegetrecord »
+  - index.md: PHP Manual
+  - ref.dbase.md: dBase
 title: dbasegetrecordwithnames
 ---
 # dbasegetrecordwithnames
@@ -24,7 +24,7 @@ dbase_get_record_with_names(resource $database, int $number): array
 
 `database`
 
-Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.html) або [dbasecreate()](function.dbase-create.html)
+Ресурс бази даних, що повертається функцією [dbaseopen()](function.dbase-open.md) або [dbasecreate()](function.dbase-create.md)
 
 `number`
 
@@ -32,7 +32,7 @@ dbase_get_record_with_names(resource $database, int $number): array
 
 ### Значення, що повертаються
 
-Асоціативний масив із даними рядка. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbasedeleterecord()](function.dbase-delete-record.html)). Повертає і пусті записи. Отже, цією функцією неможливо отримати значення чи ім'я поля `delete`
+Асоціативний масив із даними рядка. Масив буде включати ключ `deleted` який дорівнює 1, якщо запис позначено видалення (дивіться [dbasedeleterecord()](function.dbase-delete-record.md)). Повертає і пусті записи. Отже, цією функцією неможливо отримати значення чи ім'я поля `delete`
 
 Кожне поле перетворюється на відповідний тип PHP, за винятком:
 
@@ -77,4 +77,4 @@ if ($db) {
 
 ### Дивіться також
 
--   [dbasegetrecord()](function.dbase-get-record.html) - Отримує записи з бази даних, як із індексованого масиву
+-   [dbasegetrecord()](function.dbase-get-record.md) - Отримує записи з бази даних, як із індексованого масиву

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-events-input.remove.html: '« parallelEventsInput::remove'
-  - class.parallel-events-event-type.html: parallelEventsEventType »
-  - index.html: PHP Manual
-  - book.parallel.html: parallel
+  - parallel-events-input.remove.md: '« parallelEventsInput::remove'
+  - class.parallel-events-event-type.md: parallelEventsEventType »
+  - index.md: PHP Manual
+  - book.parallel.md: parallel
 title: Клас parallelEventsEvent
 ---
 # Клас parallelEventsEvent

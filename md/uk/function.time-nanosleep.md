@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sys-getloadavg.html: « sysgetloadavg
-  - function.time-sleep-until.html: timesleepuntil »
+  - function.sys-getloadavg.md: « sysgetloadavg
+  - function.time-sleep-until.md: timesleepuntil »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: timenanosleep

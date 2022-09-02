@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-docresult.html: « mysqlxdevapiDocResult
-  - mysql-xdevapi-docresult.fetchall.html: 'DocResult::fetchAll »'
+  - class.mysql-xdevapi-docresult.md: « mysqlxdevapiDocResult
+  - mysql-xdevapi-docresult.fetchall.md: 'DocResult::fetchAll »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-docresult.html: mysqlxdevapiDocResult
+  - class.mysql-xdevapi-docresult.md: mysqlxdevapiDocResult
 title: 'DocResult::construct'
 ---
 # DocResult::construct

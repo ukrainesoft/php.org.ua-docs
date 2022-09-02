@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.libxml-use-internal-errors.html: « libxmluseinternalerrors
+  - function.libxml-use-internal-errors.md: « libxmluseinternalerrors
   - intro.simplexml.md: Введение »
   - index.md: PHP Manual
   - refs.xml.md: Обработка XML

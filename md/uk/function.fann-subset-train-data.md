@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-shuffle-train-data.html: « fannshuffletraindata
-  - function.fann-test-data.html: fanntestdata »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-shuffle-train-data.md: « fannshuffletraindata
+  - function.fann-test-data.md: fanntestdata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsubsettraindata
 ---
 # fannsubsettraindata
@@ -20,7 +20,7 @@ fann_subset_train_data(resource $data, int $pos, int $length): resource
 
 Повертає копію підмножини з навчальних даних resource, що починаються з `pos` та довжиною `length` елементів.
 
-`fann_subset_train_data(train_data, 0, fann_length_train_data(train_data))` робить те саме, що і [fannduplicatetraindata()](function.fann-duplicate-train-data.html)
+`fann_subset_train_data(train_data, 0, fann_length_train_data(train_data))` робить те саме, що і [fannduplicatetraindata()](function.fann-duplicate-train-data.md)
 
 ### Список параметрів
 
@@ -42,4 +42,4 @@ fann_subset_train_data(resource $data, int $pos, int $length): resource
 
 ### Дивіться також
 
--   [fannduplicatetraindata()](function.fann-duplicate-train-data.html) - Повертає точну копію тренувальних даних
+-   [fannduplicatetraindata()](function.fann-duplicate-train-data.md) - Повертає точну копію тренувальних даних

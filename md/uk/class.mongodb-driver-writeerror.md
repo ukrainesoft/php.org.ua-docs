@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeconcernerror.getmessage.html: '« MongoDBDriverWriteConcernError::getMessage'
-  - mongodb-driver-writeerror.getcode.html: 'MongoDBDriverWriteError::getCode »'
-  - index.html: PHP Manual
-  - book.mongodb.html: MongoDBDriver
+  - mongodb-driver-writeconcernerror.getmessage.md: '« MongoDBDriverWriteConcernError::getMessage'
+  - mongodb-driver-writeerror.getcode.md: 'MongoDBDriverWriteError::getCode »'
+  - index.md: PHP Manual
+  - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverWriteError
 ---
 # Клас MongoDBDriverWriteError

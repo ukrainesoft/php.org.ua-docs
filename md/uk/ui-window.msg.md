@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.isfullscreen.html: '« UIWindow::isFullScreen'
-  - ui-window.onclosing.html: 'ОЙWindow::onClosing »'
+  - ui-window.isfullscreen.md: '« UIWindow::isFullScreen'
+  - ui-window.onclosing.md: 'ОЙWindow::onClosing »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::msg'
 ---
 # ОЙWindow::msg

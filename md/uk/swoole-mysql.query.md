@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-mysql.on.html: '« SwooleMySQL::on'
-  - class.swoole-mysql-exception.html: SwooleMySQLException »
+  - swoole-mysql.on.md: '« SwooleMySQL::on'
+  - class.swoole-mysql-exception.md: SwooleMySQLException »
   - index.md: PHP Manual
-  - class.swoole-mysql.html: SwooleMySQL
+  - class.swoole-mysql.md: SwooleMySQL
 title: 'SwooleMySQL::query'
 ---
 # SwooleMySQL::query

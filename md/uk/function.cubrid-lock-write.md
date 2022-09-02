@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-lock-read.html: « cubridlockread
-  - function.cubrid-move-cursor.html: cubridmovecursor »
+  - function.cubrid-lock-read.md: « cubridlockread
+  - function.cubrid-move-cursor.md: cubridmovecursor »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridlockwrite

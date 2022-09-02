@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-scale-output-train-data.html: « fannscaleoutputtraindata
-  - function.fann-scale-train-data.html: fannscaletraindata »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-scale-output-train-data.md: « fannscaleoutputtraindata
+  - function.fann-scale-train-data.md: fannscaletraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannscaleoutput
 ---
 # fannscaleoutput
@@ -36,5 +36,5 @@ fann_scale_output(resource $ann, array $output_vector): bool
 
 ### Дивіться також
 
--   [fanndescaleoutput()](function.fann-descale-output.html) - Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів
--   [fannscaleinput()](function.fann-scale-input.html) - Масштабує дані у вхідному векторі перед подачею їх у ann на основі раніше розрахованих параметрів
+-   [fanndescaleoutput()](function.fann-descale-output.md) - Масштабує дані у вихідному векторі після отримання їх на основі раніше розрахованих параметрів
+-   [fannscaleinput()](function.fann-scale-input.md) - Масштабує дані у вхідному векторі перед подачею їх у ann на основі раніше розрахованих параметрів

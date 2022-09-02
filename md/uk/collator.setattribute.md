@@ -1,9 +1,9 @@
 ---
 navigation:
-  - collator.getstrength.html: '« Collator::getStrength'
-  - collator.setstrength.html: 'Collator::setStrength »'
-  - index.html: PHP Manual
-  - class.collator.html: Collator
+  - collator.getstrength.md: '« Collator::getStrength'
+  - collator.setstrength.md: 'Collator::setStrength »'
+  - index.md: PHP Manual
+  - class.collator.md: Collator
 title: 'Collator::setAttribute'
 ---
 # Collator::setAttribute
@@ -32,7 +32,7 @@ collator_set_attribute(Collator $object, int $attribute, int $value): bool
 
 `object`
 
-Об'єкт [Collator](class.collator.html)
+Об'єкт [Collator](class.collator.md)
 
 `attribute`
 
@@ -64,6 +64,6 @@ if ($val === false) {
 
 ### Дивіться також
 
--   [Константи](class.collator.html#intl.collator-constants) [Collator](class.collator.html)
--   [collatorgetattribute()](collator.getattribute.html) - Отримує значення атрибуту зіставлення
--   [collatorsetstrength()](collator.setstrength.html) - встановлює силу зіставлення
+-   [Константи](class.collator.md#intl.collator-constants) [Collator](class.collator.md)
+-   [collatorgetattribute()](collator.getattribute.md) - Отримує значення атрибуту зіставлення
+-   [collatorsetstrength()](collator.setstrength.md) - встановлює силу зіставлення

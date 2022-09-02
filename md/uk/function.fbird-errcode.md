@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-drop-db.html: « fbirddropдб
-  - function.fbird-errmsg.html: fbirderrmsg »
+  - function.fbird-drop-db.md: « fbirddropдб
+  - function.fbird-errmsg.md: fbirderrmsg »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirderrcode

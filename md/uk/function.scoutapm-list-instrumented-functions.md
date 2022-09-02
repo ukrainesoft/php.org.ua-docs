@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.scoutapm-get-calls.html: « scoutapmgetcalls
+  - function.scoutapm-get-calls.md: « scoutapmgetcalls
   - book.snmp.md: SNMP »
   - index.md: PHP Manual
   - ref.scoutapm.md: Функции Scoutapm

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.keys.html: '« DsMap::keys'
-  - ds-map.ksorted.html: 'ДсMap::ksorted »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.keys.md: '« DsMap::keys'
+  - ds-map.ksorted.md: 'ДсMap::ksorted »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::ksort'
 ---
 # ДсMap::ksort

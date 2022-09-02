@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocifetchstatement.html: « ocifetchstatement
-  - function.ocifreecursor.html: ocifreecursor »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocifetchstatement.md: « ocifetchstatement
+  - function.ocifreecursor.md: ocifreecursor »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocifreecollection
 ---
 # ocifreecollection

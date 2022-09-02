@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.msg-receive.html: « msgreceive
-  - function.msg-send.html: msgsend »
+  - function.msg-receive.md: « msgreceive
+  - function.msg-send.md: msgsend »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: msgremovequeue

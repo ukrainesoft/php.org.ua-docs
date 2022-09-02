@@ -1,9 +1,9 @@
 ---
 navigation:
-  - opcache.setup.html: « Встановлення та налаштування
-  - opcache.installation.html: Установка »
-  - index.html: PHP Manual
-  - opcache.setup.html: Встановлення та налаштування
+  - opcache.setup.md: « Встановлення та налаштування
+  - opcache.installation.md: Установка »
+  - index.md: PHP Manual
+  - opcache.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

@@ -1,7 +1,7 @@
 ---
 navigation:
   - imap.constants.md: « Обумовлені константи
-  - function.imap-8bit.html: imap8bit »
+  - function.imap-8bit.md: imap8bit »
   - index.md: PHP Manual
   - book.imap.md: IMAP
 title: Функції IMAP

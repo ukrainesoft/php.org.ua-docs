@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-lo-import.html: « pgлоimport
-  - function.pg-lo-read-all.html: пглоreadall »
+  - function.pg-lo-import.md: « pgлоimport
+  - function.pg-lo-read-all.md: пглоreadall »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пглоopen
@@ -34,7 +34,7 @@ pg_lo_open(PgSql\Connection $connection, int $oid, string $mode): PgSql\Lob|fals
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.md)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 

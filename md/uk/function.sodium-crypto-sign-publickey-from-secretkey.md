@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-sign-open.html: « sodiumcryptosignopen
-  - function.sodium-crypto-sign-publickey.html: sodiumcryptosignpublickey »
+  - function.sodium-crypto-sign-open.md: « sodiumcryptosignopen
+  - function.sodium-crypto-sign-publickey.md: sodiumcryptosignpublickey »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptosignpublickeyfromsecretkey

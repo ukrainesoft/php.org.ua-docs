@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ibase-blob-create.html: « ibaseblobcreate
-  - function.ibase-blob-get.html: ibaseblobget »
-  - index.html: PHP Manual
-  - ref.ibase.html: Функции Firebird/InterBase
+  - function.ibase-blob-create.md: « ibaseblobcreate
+  - function.ibase-blob-get.md: ibaseblobget »
+  - index.md: PHP Manual
+  - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseblobecho
 ---
 # ibaseblobecho

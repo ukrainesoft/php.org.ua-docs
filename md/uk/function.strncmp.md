@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.strncasecmp.html: « strncasecmp
-  - function.strpbrk.html: strpbrk »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.strncasecmp.md: « strncasecmp
+  - function.strpbrk.md: strpbrk »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: strncmp
 ---
 # strncmp

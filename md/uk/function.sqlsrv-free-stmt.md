@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-field-metadata.html: « sqlsrvfieldmetadata
-  - function.sqlsrv-get-config.html: sqlsrvgetconfig »
+  - function.sqlsrv-field-metadata.md: « sqlsrvfieldmetadata
+  - function.sqlsrv-get-config.md: sqlsrvgetconfig »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvfreestmt
@@ -60,7 +60,7 @@ sqlsrv_free_stmt( $stmt);
 
 ### Примітки
 
-Основна відмінність між **sqlsrvfreestmt()** і [sqlsrvcancel()](function.sqlsrv-cancel.html) полягає в тому, що ресурс оператора, скасований за допомогою [sqlsrvcancel()](function.sqlsrv-cancel.html), може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
+Основна відмінність між **sqlsrvfreestmt()** і [sqlsrvcancel()](function.sqlsrv-cancel.md) полягає в тому, що ресурс оператора, скасований за допомогою [sqlsrvcancel()](function.sqlsrv-cancel.md), може бути повторно виконаний, якщо він був створений за допомогою [sqlsrvprepare()](function.sqlsrv-prepare.md). Ресурс оператора, скасований за допомогою **sqlsrvfreestatement()**, не може бути повторно виконано.
 
 ### Дивіться також
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.getdefaultproperties.html: '« ReflectionClass::getDefaultProperties'
-  - reflectionclass.getendline.html: 'ReflectionClass::getEndLine »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.getdefaultproperties.md: '« ReflectionClass::getDefaultProperties'
+  - reflectionclass.getendline.md: 'ReflectionClass::getEndLine »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::getDocComment'
 ---
 # ReflectionClass::getDocComment

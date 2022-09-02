@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimagepage.html: '« Imagick::setImagePage'
-  - imagick.setimageproperty.html: 'Imagick::setImageProperty »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimagepage.md: '« Imagick::setImagePage'
+  - imagick.setimageproperty.md: 'Imagick::setImageProperty »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageProfile'
 ---
 # Imagick::setImageProfile

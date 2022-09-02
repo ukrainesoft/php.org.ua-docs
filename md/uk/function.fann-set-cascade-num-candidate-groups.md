@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-cascade-min-out-epochs.html: « fannsetcascademinoutepochs
-  - function.fann-set-cascade-output-change-fraction.html: fannsetcascadeoutputchangefraction »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-cascade-min-out-epochs.md: « fannsetcascademinoutepochs
+  - function.fann-set-cascade-output-change-fraction.md: fannsetcascadeoutputchangefraction »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetcascadenumcandidategroups
 ---
 # fannsetcascadenumcandidategroups
@@ -36,4 +36,4 @@ fann_set_cascade_num_candidate_groups(resource $ann, int $cascade_num_candidate_
 
 ### Дивіться також
 
--   [fanngetcascadenumcandidategroups()](function.fann-get-cascade-num-candidate-groups.html) - Повертає кількість груп кандидатів
+-   [fanngetcascadenumcandidategroups()](function.fann-get-cascade-num-candidate-groups.md) - Повертає кількість груп кандидатів

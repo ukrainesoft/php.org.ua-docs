@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-client.post.html: '« SwooleHttpClient::post'
-  - swoole-http-client.set.html: 'SwooleHttpClient::set »'
+  - swoole-http-client.post.md: '« SwooleHttpClient::post'
+  - swoole-http-client.set.md: 'SwooleHttpClient::set »'
   - index.md: PHP Manual
-  - class.swoole-http-client.html: SwooleHttpClient
+  - class.swoole-http-client.md: SwooleHttpClient
 title: 'SwooleHttpClient::push'
 ---
 # SwooleHttpClient::push

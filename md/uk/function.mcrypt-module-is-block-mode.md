@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mcrypt-module-is-block-algorithm.html: « mcryptmoduleісblockalgorithm
-  - function.mcrypt-module-open.html: mcryptmoduleopen »
+  - function.mcrypt-module-is-block-algorithm.md: « mcryptmoduleісblockalgorithm
+  - function.mcrypt-module-open.md: mcryptmoduleopen »
   - index.md: PHP Manual
   - ref.mcrypt.md: Mcrypt
 title: mcryptmoduleісblockmode

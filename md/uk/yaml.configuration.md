@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaml.installation.html: « Установка
-  - yaml.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - yaml.setup.html: Встановлення та налаштування
+  - yaml.installation.md: « Установка
+  - yaml.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - yaml.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,12 +14,12 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [yaml.decodebinary](yaml.configuration.html#ini.yaml.decode-binary) |  | PHPINIALL |  |
-| [yaml.decodephp](yaml.configuration.html#ini.yaml.decode-php) |  | PHPINIALL | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
-| [yaml.decodetimestamp](yaml.configuration.html#ini.yaml.decode-timestamp) |  | PHPINIALL |  |
-| [yaml.outputcanonical](yaml.configuration.html#ini.yaml.output-canonical) |  | PHPINIALL |  |
-| [yaml.outputindent](yaml.configuration.html#ini.yaml.output-indent) |  | PHPINIALL |  |
-| [yaml.outputwidth](yaml.configuration.html#ini.yaml.output-width) |  | PHPINIALL |  |
+| [yaml.decodebinary](yaml.configuration.md#ini.yaml.decode-binary) |  | PHPINIALL |  |
+| [yaml.decodephp](yaml.configuration.md#ini.yaml.decode-php) |  | PHPINIALL | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
+| [yaml.decodetimestamp](yaml.configuration.md#ini.yaml.decode-timestamp) |  | PHPINIALL |  |
+| [yaml.outputcanonical](yaml.configuration.md#ini.yaml.output-canonical) |  | PHPINIALL |  |
+| [yaml.outputindent](yaml.configuration.md#ini.yaml.output-indent) |  | PHPINIALL |  |
+| [yaml.outputwidth](yaml.configuration.md#ini.yaml.output-width) |  | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 
@@ -33,7 +33,7 @@ title: Налаштування під час виконання
 
 `yaml.decode_timestamp` int
 
-Контролює декодування явних та неявних скалярів "tag:yaml.org,2002:timestamp" у потоці документів YAML. Значення за умовчанням дорівнює `0`що означає відсутність декодування. Якщо поставити `1`, то для розбору тимчасової мітки Unix буде використовуватись [strtotime()](function.strtotime.html). Якщо поставити `2`, то для розбору тимчасової мітки буде використовуватися [datecreate()](function.date-create.html), що створює об'єкт [DateTime](class.datetime.md)
+Контролює декодування явних та неявних скалярів "tag:yaml.org,2002:timestamp" у потоці документів YAML. Значення за умовчанням дорівнює `0`що означає відсутність декодування. Якщо поставити `1`, то для розбору тимчасової мітки Unix буде використовуватись [strtotime()](function.strtotime.md). Якщо поставити `2`, то для розбору тимчасової мітки буде використовуватися [datecreate()](function.date-create.md), що створює об'єкт [DateTime](class.datetime.md)
 
 `yaml.output_canonical` boolean
 

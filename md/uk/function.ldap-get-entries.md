@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-get-dn.html: « ldapgetдн
-  - function.ldap-get-option.html: ldapgetoption »
+  - function.ldap-get-dn.md: « ldapgetдн
+  - function.ldap-get-option.md: ldapgetoption »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapgetentries
@@ -24,11 +24,11 @@ ldap_get_entries(LDAP\Connection $ldap, LDAP\Result $result): array|false
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 `result`
 
-Екземпляр [LDAPResult](class.ldap-result.html), що повертається [ldaplist()](function.ldap-list.html) або [ldapsearch()](function.ldap-search.md)
+Екземпляр [LDAPResult](class.ldap-result.md), що повертається [ldaplist()](function.ldap-list.md) або [ldapsearch()](function.ldap-search.md)
 
 ### Значення, що повертаються
 

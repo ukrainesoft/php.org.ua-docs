@@ -1,7 +1,7 @@
 ---
 navigation:
   - phpdbg.constants.md: « Обумовлені константи
-  - function.phpdbg-break-file.html: phpdbgbreakfile »
+  - function.phpdbg-break-file.md: phpdbgbreakfile »
   - index.md: PHP Manual
   - book.phpdbg.md: phpdbg
 title: Функції phpdbg

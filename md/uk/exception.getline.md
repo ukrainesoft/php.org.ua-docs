@@ -1,9 +1,9 @@
 ---
 navigation:
-  - exception.getfile.html: '« Exception::getFile'
-  - exception.gettrace.html: 'Exception::getTrace »'
-  - index.html: PHP Manual
-  - class.exception.html: Exception
+  - exception.getfile.md: '« Exception::getFile'
+  - exception.gettrace.md: 'Exception::getTrace »'
+  - index.md: PHP Manual
+  - class.exception.md: Exception
 title: 'Exception::getLine'
 ---
 # Exception::getLine
@@ -50,4 +50,4 @@ try {
 
 ### Дивіться також
 
--   [Throwable::getLine()](throwable.getline.html) - Отримує рядок скрипта, в якому цей об'єкт був викинутий
+-   [Throwable::getLine()](throwable.getline.md) - Отримує рядок скрипта, в якому цей об'єкт був викинутий

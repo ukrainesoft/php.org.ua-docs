@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventutil.getsocketname.html: '« EventUtil::getSocketName'
-  - eventutil.sslrandpoll.html: 'EventUtil::sslRandPoll »'
-  - index.html: PHP Manual
-  - class.eventutil.html: EventUtil
+  - eventutil.getsocketname.md: '« EventUtil::getSocketName'
+  - eventutil.sslrandpoll.md: 'EventUtil::sslRandPoll »'
+  - index.md: PHP Manual
+  - class.eventutil.md: EventUtil
 title: 'EventUtil::setSocketOption'
 ---
 # EventUtil::setSocketOption
@@ -42,15 +42,15 @@ public
 
 `level`
 
-Одна з констант `EventUtil::SOL_*`. Визначає рівень протоколу, до якого належить параметр. Наприклад, для роботи з рівнем сокету, параметр `level` має бути виставлений як **`EventUtil::SOL_SOCKET`**. Інші рівні, такі як TCP, можна використовувати, вказавши відповідну константу. Рівні протоколу можна переглянути за допомогою функції [getprotobyname()](function.getprotobyname.html). Дивіться [константи EventUtil](class.eventutil.html#eventutil.constants)
+Одна з констант `EventUtil::SOL_*`. Визначає рівень протоколу, до якого належить параметр. Наприклад, для роботи з рівнем сокету, параметр `level` має бути виставлений як **`EventUtil::SOL_SOCKET`**. Інші рівні, такі як TCP, можна використовувати, вказавши відповідну константу. Рівні протоколу можна переглянути за допомогою функції [getprotobyname()](function.getprotobyname.md). Дивіться [константи EventUtil](class.eventutil.md#eventutil.constants)
 
 `optname`
 
-Ім'я опції (тип). Те саме, що й відповідний параметр функції [socketgetoption()](function.socket-get-option.html). Дивіться [константи EventUtil](class.eventutil.html#eventutil.constants)
+Ім'я опції (тип). Те саме, що й відповідний параметр функції [socketgetoption()](function.socket-get-option.md). Дивіться [константи EventUtil](class.eventutil.md#eventutil.constants)
 
 `optval`
 
-Приймає ті ж значення, що й параметр `optval` функції [socketgetoption()](function.socket-get-option.html)
+Приймає ті ж значення, що й параметр `optval` функції [socketgetoption()](function.socket-get-option.md)
 
 ### Значення, що повертаються
 
@@ -58,5 +58,5 @@ public
 
 ### Дивіться також
 
--   [socketgetoption()](function.socket-get-option.html) - Отримує опції потоку для сокету
--   [socketsetoption()](function.socket-set-option.html) - Встановлює опції для сокету
+-   [socketgetoption()](function.socket-get-option.md) - Отримує опції потоку для сокету
+-   [socketsetoption()](function.socket-set-option.md) - Встановлює опції для сокету

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-get-return.html: « uopzgetreturn
-  - function.uopz-implement.html: uopzimplement »
+  - function.uopz-get-return.md: « uopzgetreturn
+  - function.uopz-implement.md: uopzimplement »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzgetstatic

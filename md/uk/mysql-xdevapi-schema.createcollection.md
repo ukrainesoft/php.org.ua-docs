@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-schema.construct.html: '« Schema::construct'
-  - mysql-xdevapi-schema.dropcollection.html: 'Schema::dropCollection »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+  - mysql-xdevapi-schema.construct.md: '« Schema::construct'
+  - mysql-xdevapi-schema.dropcollection.md: 'Schema::dropCollection »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
 title: 'Schema::createCollection'
 ---
 # Schema::createCollection

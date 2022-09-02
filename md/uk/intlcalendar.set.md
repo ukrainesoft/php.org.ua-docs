@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.roll.html: '« IntlCalendar::roll'
-  - intlcalendar.setfirstdayofweek.html: 'IntlCalendar::setFirstDayOfWeek »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.roll.md: '« IntlCalendar::roll'
+  - intlcalendar.setfirstdayofweek.md: 'IntlCalendar::setFirstDayOfWeek »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::set'
 ---
 # IntlCalendar::set
@@ -48,7 +48,7 @@ intlcal_set(    IntlCalendar $cal,    int $year,    int $month,  �
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 `value`
 

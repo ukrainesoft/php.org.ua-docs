@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.scoutapm-list-instrumented-functions.html: « scoutapmlistinstrumentedfunctions
+  - function.scoutapm-list-instrumented-functions.md: « scoutapmlistinstrumentedfunctions
   - intro.snmp.md: Введение »
   - index.md: PHP Manual
   - refs.remote.other.md: Інші служби

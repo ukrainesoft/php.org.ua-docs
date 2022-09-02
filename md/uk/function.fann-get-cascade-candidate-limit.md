@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-get-cascade-candidate-change-fraction.html: « fanngetcascadecandidatechangefraction
-  - function.fann-get-cascade-candidate-stagnation-epochs.html: fanngetcascadecandidatestagnationepochs »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-get-cascade-candidate-change-fraction.md: « fanngetcascadecandidatechangefraction
+  - function.fann-get-cascade-candidate-stagnation-epochs.md: fanngetcascadecandidatestagnationepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanngetcascadecandidatelimit
 ---
 # fanngetcascadecandidatelimit
@@ -36,4 +36,4 @@ fann_get_cascade_candidate_limit(resource $ann): float
 
 ### Дивіться також
 
--   [fannsetcascadecandidatelimit()](function.fann-set-cascade-candidate-limit.html) - встановлює ліміт кандидатів
+-   [fannsetcascadecandidatelimit()](function.fann-set-cascade-candidate-limit.md) - встановлює ліміт кандидатів

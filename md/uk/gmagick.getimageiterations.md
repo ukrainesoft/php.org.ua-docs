@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimageinterlacescheme.html: '« Gmagick::getimageinterlacescheme'
-  - gmagick.getimagematte.html: 'Gmagick::getimagematte »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimageinterlacescheme.md: '« Gmagick::getimageinterlacescheme'
+  - gmagick.getimagematte.md: 'Gmagick::getimagematte »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimageiterations'
 ---
 # Gmagick::getimageiterations

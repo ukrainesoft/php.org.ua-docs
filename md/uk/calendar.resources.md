@@ -1,9 +1,9 @@
 ---
 navigation:
-  - calendar.configuration.html: « Налаштування під час виконання
-  - calendar.constants.html: Обумовлені константи »
-  - index.html: PHP Manual
-  - calendar.setup.html: Встановлення та налаштування
+  - calendar.configuration.md: « Налаштування під час виконання
+  - calendar.constants.md: Обумовлені константи »
+  - index.md: PHP Manual
+  - calendar.setup.md: Встановлення та налаштування
 title: Типи ресурсів
 ---
 ## Типи ресурсів

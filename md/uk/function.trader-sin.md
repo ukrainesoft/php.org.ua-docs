@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-set-unstable-period.html: « tradersetunstableperiod
-  - function.trader-sinh.html: tradersinh »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-set-unstable-period.md: « tradersetunstableperiod
+  - function.trader-sinh.md: tradersinh »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradersin
 ---
 # tradersin

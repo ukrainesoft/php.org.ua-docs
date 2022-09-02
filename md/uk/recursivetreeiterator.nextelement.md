@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recursivetreeiterator.next.html: '« RecursiveTreeIterator::next'
-  - recursivetreeiterator.rewind.html: 'RecursiveTreeIterator::rewind »'
-  - index.html: PHP Manual
-  - class.recursivetreeiterator.html: RecursiveTreeIterator
+  - recursivetreeiterator.next.md: '« RecursiveTreeIterator::next'
+  - recursivetreeiterator.rewind.md: 'RecursiveTreeIterator::rewind »'
+  - index.md: PHP Manual
+  - class.recursivetreeiterator.md: RecursiveTreeIterator
 title: 'RecursiveTreeIterator::nextElement'
 ---
 # RecursiveTreeIterator::nextElement

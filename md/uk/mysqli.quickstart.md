@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqli.overview.md: « Краткий обзор
-  - mysqli.quickstart.dual-interface.html: Процедурний та об'єктно-орієнтований інтерфейс »
+  - mysqli.quickstart.dual-interface.md: Процедурний та об'єктно-орієнтований інтерфейс »
   - index.md: PHP Manual
   - book.mysqli.md: MySQLi
 title: Короткий посібник

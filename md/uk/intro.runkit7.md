@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.runkit7.html: « runkit7
-  - runkit7.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.runkit7.html: runkit7
+  - book.runkit7.md: « runkit7
+  - runkit7.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.runkit7.md: runkit7
 title: Вступ
 ---
 # Вступ

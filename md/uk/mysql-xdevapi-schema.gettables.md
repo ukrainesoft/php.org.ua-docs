@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-schema.gettable.html: '« Schema::getTable'
-  - class.mysql-xdevapi-schemaobject.html: mysqlxdevapiSchemaObject »
+  - mysql-xdevapi-schema.gettable.md: '« Schema::getTable'
+  - class.mysql-xdevapi-schemaobject.md: mysqlxdevapiSchemaObject »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-schema.html: mysqlxdevapiSchema
+  - class.mysql-xdevapi-schema.md: mysqlxdevapiSchema
 title: 'Schema::getTables'
 ---
 # Schema::getTables

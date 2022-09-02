@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-bulkwrite.html: « MongoDBDriverBulkWrite
-  - mongodb-driver-bulkwrite.count.html: 'MongoDBDriverBulkWrite::count »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-bulkwrite.html: MongoDBDriverBulkWrite
+  - class.mongodb-driver-bulkwrite.md: « MongoDBDriverBulkWrite
+  - mongodb-driver-bulkwrite.count.md: 'MongoDBDriverBulkWrite::count »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-bulkwrite.md: MongoDBDriverBulkWrite
 title: 'MongoDBDriverBulkWrite::construct'
 ---
 # MongoDBDriverBulkWrite::construct
@@ -18,7 +18,7 @@ MongoDBDriverBulkWrite::construct — Створює новий об'єкт Bulk
 public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 ```
 
-Створює новий [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.html), який є об'єктом, що змінюється, до якого можуть бути додані одна і кілька операцій запису. Операції запису можуть бути виконані за допомогою [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html)
+Створює новий [MongoDBDriverBulkWrite](class.mongodb-driver-bulkwrite.md), який є об'єктом, що змінюється, до якого можуть бути додані одна і кілька операцій запису. Операції запису можуть бути виконані за допомогою [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md)
 
 ### Список параметрів
 
@@ -33,7 +33,7 @@ public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 
 Цей параметр доступний у MongoDB 3.2+ та ігнорується у старіших версіях сервера, які не підтримують перевірку рівня сервера.
 
-**`false`** | | comment | [mixed](language.types.declarations.html#language.types.declarations.mixed)
+**`false`** | | comment | [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Довільний коментар, що допомагає відстежити операцію за допомогою профільника бази даних, виводу CurrentOp та журналів.
 
@@ -49,7 +49,7 @@ public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 
 ### список змін
 
@@ -130,5 +130,5 @@ printf("Удалено  %d документ(ов)\n", $result->getDeletedCou
 
 ### Дивіться також
 
--   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.html) - Виконує одну або кілька операцій запису
--   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.html)
+-   [MongoDBDriverManager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) - Виконує одну або кілька операцій запису
+-   [MongoDBDriverWriteResult](class.mongodb-driver-writeresult.md)

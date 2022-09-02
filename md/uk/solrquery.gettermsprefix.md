@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.gettermsmincount.html: '« SolrQuery::getTermsMinCount'
-  - solrquery.gettermsreturnraw.html: 'SolrQuery::getTermsReturnRaw »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.gettermsmincount.md: '« SolrQuery::getTermsMinCount'
+  - solrquery.gettermsreturnraw.md: 'SolrQuery::getTermsReturnRaw »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getTermsPrefix'
 ---
 # SolrQuery::getTermsPrefix

@@ -3,7 +3,7 @@ navigation:
   - pdo.sqlitecreateaggregate.md: '« PDO::sqliteCreateAggregate'
   - pdo.sqlitecreatefunction.md: 'PDO::sqliteCreateFunction »'
   - index.md: PHP Manual
-  - ref.pdo-sqlite.html: SQLite (PDO)
+  - ref.pdo-sqlite.md: SQLite (PDO)
 title: 'PDO::sqliteCreateCollation'
 ---
 # PDO::sqliteCreateCollation

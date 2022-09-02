@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlcalendar.get.html: '« IntlCalendar::get'
-  - intlcalendar.getactualminimum.html: 'IntlCalendar::getActualMinimum »'
-  - index.html: PHP Manual
-  - class.intlcalendar.html: IntlCalendar
+  - intlcalendar.get.md: '« IntlCalendar::get'
+  - intlcalendar.getactualminimum.md: 'IntlCalendar::getActualMinimum »'
+  - index.md: PHP Manual
+  - class.intlcalendar.md: IntlCalendar
 title: 'IntlCalendar::getActualMaximum'
 ---
 # IntlCalendar::getActualMaximum
@@ -26,19 +26,19 @@ public IntlCalendar::getActualMaximum(int $field): int|false
 intlcal_get_actual_maximum(IntlCalendar $calendar, int $field): int|false
 ```
 
-Повертає відносне значення поля для поточного часу. Точна семантика залежить від поля, але в загальному випадку це значення, яке було б отримано, якщо встановити значення поля на [найменший відносний максимум](intlcalendar.getleastmaximum.html) і збільшувати його до тих пір, поки не буде досягнуто [глобальний максимум](intlcalendar.getmaximum.html), щоб обернути значення поля, в якому значення, що повертається буде глобальним максимумом або значенням до перенесення, відповідно.
+Повертає відносне значення поля для поточного часу. Точна семантика залежить від поля, але в загальному випадку це значення, яке було б отримано, якщо встановити значення поля на [найменший відносний максимум](intlcalendar.getleastmaximum.md) і збільшувати його до тих пір, поки не буде досягнуто [глобальний максимум](intlcalendar.getmaximum.md), щоб обернути значення поля, в якому значення, що повертається буде глобальним максимумом або значенням до перенесення, відповідно.
 
-Наприклад, у григоріанському календарі фактичне максимальне значення для [дня месяца](class.intlcalendar.html#intlcalendar.constants.field-day-of-month) варіюватиметься від `28` до `31`, в залежності від місяця та року поточного часу.
+Наприклад, у григоріанському календарі фактичне максимальне значення для [дня месяца](class.intlcalendar.md#intlcalendar.constants.field-day-of-month) варіюватиметься від `28` до `31`, в залежності від місяця та року поточного часу.
 
 ### Список параметрів
 
 `calendar`
 
-Екземпляр [IntlCalendar](class.intlcalendar.html)
+Екземпляр [IntlCalendar](class.intlcalendar.md)
 
 `field`
 
-Одна з представлених у класі [IntlCalendar](class.intlcalendar.html) [констант](class.intlcalendar.html#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
+Одна з представлених у класі [IntlCalendar](class.intlcalendar.md) [констант](class.intlcalendar.md#intlcalendar.constants) полів типу дата/час. Ціла кількість від `0` до **`IntlCalendar::FIELD_COUNT`**
 
 ### Значення, що повертаються
 
@@ -68,6 +68,6 @@ int(29)
 
 ### Дивіться також
 
--   [IntlCalendar::getMaximum()](intlcalendar.getmaximum.html) - Отримує глобальне максимальне значення поля
--   [IntlCalendar::getLeastMaximum()](intlcalendar.getleastmaximum.html) - Отримує найменший локальний максимум для поля
--   [IntlCalendar::getActualMinimum()](intlcalendar.getactualminimum.html) - Мінімальне значення для поля з урахуванням поточного часу об'єкта
+-   [IntlCalendar::getMaximum()](intlcalendar.getmaximum.md) - Отримує глобальне максимальне значення поля
+-   [IntlCalendar::getLeastMaximum()](intlcalendar.getleastmaximum.md) - Отримує найменший локальний максимум для поля
+-   [IntlCalendar::getActualMinimum()](intlcalendar.getactualminimum.md) - Мінімальне значення для поля з урахуванням поточного часу об'єкта

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.var.html: « Введение
-  - var.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.var.html: Обробка змінних
+  - intro.var.md: « Введение
+  - var.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.var.md: Обробка змінних
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

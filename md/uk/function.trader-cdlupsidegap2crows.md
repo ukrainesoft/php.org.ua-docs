@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlunique3river.html: « tradercdlunique3river
-  - function.trader-cdlxsidegap3methods.html: tradercdlxsidegap3methods »
+  - function.trader-cdlunique3river.md: « tradercdlunique3river
+  - function.trader-cdlxsidegap3methods.md: tradercdlxsidegap3methods »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlupsidegap2crows

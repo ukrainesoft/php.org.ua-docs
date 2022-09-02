@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-linearreg-slope.html: « traderlinearregslope
-  - function.trader-ln.html: traderln »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-linearreg-slope.md: « traderlinearregslope
+  - function.trader-ln.md: traderln »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderlinearreg
 ---
 # traderlinearreg

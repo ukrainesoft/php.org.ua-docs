@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-bson-serializable.html: « MongoDBBSONSerializable
-  - class.mongodb-bson-unserializable.html: MongoDBBSONUnserializable »
+  - class.mongodb-bson-serializable.md: « MongoDBBSONSerializable
+  - class.mongodb-bson-unserializable.md: MongoDBBSONUnserializable »
   - index.md: PHP Manual
-  - class.mongodb-bson-serializable.html: MongoDBBSONSerializable
+  - class.mongodb-bson-serializable.md: MongoDBBSONSerializable
 title: 'MongoDBBSONSerializable::bsonSerialize'
 ---
 # MongoDBBSONSerializable::bsonSerialize
@@ -20,9 +20,9 @@ abstract public MongoDB\BSON\Serializable::bsonSerialize(): array|object
 
 Викликається під час серіалізації об'єкта BSON. Метод повинен повертати array або **stdClass**
 
-Кореневі документи (наприклад, [MongoDBBSONSerializable](class.mongodb-bson-serializable.html), передані в [MongoDBBSONfromPHP()](function.mongodb.bson-fromphp.md)) завжди будуть серіалізовані як документ BSON. Для значень полів асоціативні масиви та екземпляри **stdClass** будуть серіалізовані у вигляді документа BSON, а послідовні масиви (наприклад, послідовні числові індекси, що починаються з `0`) будуть серіалізовані у вигляді масиву BSON.
+Кореневі документи (наприклад, [MongoDBBSONSerializable](class.mongodb-bson-serializable.md), передані в [MongoDBBSONfromPHP()](function.mongodb.bson-fromphp.md)) завжди будуть серіалізовані як документ BSON. Для значень полів асоціативні масиви та екземпляри **stdClass** будуть серіалізовані у вигляді документа BSON, а послідовні масиви (наприклад, послідовні числові індекси, що починаються з `0`) будуть серіалізовані у вигляді масиву BSON.
 
-Користувачам рекомендується включати властивість id (наприклад, [MongoDBBSONObjectId](class.mongodb-bson-objectid.html), ініціалізований у вашому конструкторі) при поверненні даних для кореневого документа BSON; в іншому випадку драйвер або база даних повинні будуть згенерувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) при вставці чи злитті документа, відповідно.
+Користувачам рекомендується включати властивість id (наприклад, [MongoDBBSONObjectId](class.mongodb-bson-objectid.md), ініціалізований у вашому конструкторі) при поверненні даних для кореневого документа BSON; в іншому випадку драйвер або база даних повинні будуть згенерувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) при вставці чи злитті документа, відповідно.
 
 ### Список параметрів
 

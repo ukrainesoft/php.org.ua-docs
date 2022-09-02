@@ -26,4 +26,4 @@ public ImagickDraw::getGravity(): int
 
 ### Значення, що повертаються
 
-Повертає константу [GRAVITY](imagick.constants.html#imagick.constants.gravity) `imagick::GRAVITY_*`) у разі успішного виконання або 0, якщо гравітація не встановлена.
+Повертає константу [GRAVITY](imagick.constants.md#imagick.constants.gravity) `imagick::GRAVITY_*`) у разі успішного виконання або 0, якщо гравітація не встановлена.

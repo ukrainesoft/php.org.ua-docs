@@ -37,4 +37,4 @@ public Imagick::setImageAlphaChannel(int $mode): bool
 ### Дивіться також
 
 -   [Imagick::setImageMatte()](imagick.setimagematte.md) - Встановлює матовий канал зображення
--   [Константи альфа-каналу Imagick](imagick.constants.html#imagick.constants.alphachannel)
+-   [Константи альфа-каналу Imagick](imagick.constants.md#imagick.constants.alphachannel)

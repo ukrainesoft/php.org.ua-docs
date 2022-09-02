@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.circle.html: '« ImagickDraw::circle'
-  - imagickdraw.clone.html: 'ImagickDraw::clone »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.circle.md: '« ImagickDraw::circle'
+  - imagickdraw.clone.md: 'ImagickDraw::clone »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::clear'
 ---
 # ImagickDraw::clear

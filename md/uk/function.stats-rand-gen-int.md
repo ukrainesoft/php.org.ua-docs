@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-gen-ibinomial.html: « statsrandgenibinomial
-  - function.stats-rand-gen-ipoisson.html: statsrandgenipoisson »
+  - function.stats-rand-gen-ibinomial.md: « statsrandgenibinomial
+  - function.stats-rand-gen-ipoisson.md: statsrandgenipoisson »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandгенint

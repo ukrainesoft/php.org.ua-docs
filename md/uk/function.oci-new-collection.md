@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.oci-lob-is-equal.html: « ocilobісequal
-  - function.oci-new-connect.html: ocinewconnect »
-  - index.html: PHP Manual
-  - ref.oci8.html: OCI8 Функции
+  - function.oci-lob-is-equal.md: « ocilobісequal
+  - function.oci-new-connect.md: ocinewconnect »
+  - index.md: PHP Manual
+  - ref.oci8.md: OCI8 Функции
 title: ocinewcollection
 ---
 # ocinewcollection
@@ -24,7 +24,7 @@ oci_new_collection(resource $connection, string $type_name, ?string $schema = nu
 
 `connection`
 
-Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.html) або [ocipconnect()](function.oci-pconnect.md)
+Ідентифікатор з'єднання з сервером Oracle, який повертається функцією [ociconnect()](function.oci-connect.md) або [ocipconnect()](function.oci-pconnect.md)
 
 `type_name`
 
@@ -52,4 +52,4 @@ oci_new_collection(resource $connection, string $type_name, ?string $schema = nu
 
 > **Зауваження**
 > 
-> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcollection()](function.ocinewcollection.html). У PHP 5.0.0 і вище [ocinewcollection()](function.ocinewcollection.md) є аліасом \*\*ocinewcollection()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.
+> У версіях PHP нижче 5.0.0 ця функція називалася [ocinewcollection()](function.ocinewcollection.md). У PHP 5.0.0 і вище [ocinewcollection()](function.ocinewcollection.md) є аліасом \*\*ocinewcollection()\*\*Тому ви можете продовжувати використовувати це ім'я, однак це не рекомендується.

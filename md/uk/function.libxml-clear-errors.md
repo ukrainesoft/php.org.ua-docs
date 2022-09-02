@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.libxml.md: « Функції libxml
-  - function.libxml-disable-entity-loader.html: libxmldisableentityloader »
+  - function.libxml-disable-entity-loader.md: libxmldisableentityloader »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
 title: libxmlclearerrors
@@ -30,5 +30,5 @@ libxml_clear_errors(): void
 
 ### Дивіться також
 
--   [libxmlgeterrors()](function.libxml-get-errors.html) - Отримання масиву помилок, що відбулися.
--   [libxmlgetlasterror()](function.libxml-get-last-error.html) - Вилучення останньої помилки з libxml
+-   [libxmlgeterrors()](function.libxml-get-errors.md) - Отримання масиву помилок, що відбулися.
+-   [libxmlgetlasterror()](function.libxml-get-last-error.md) - Вилучення останньої помилки з libxml

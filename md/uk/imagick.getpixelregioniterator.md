@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getpixeliterator.html: '« Imagick::getPixelIterator'
-  - imagick.getpointsize.html: 'Imagick::getPointSize »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getpixeliterator.md: '« Imagick::getPixelIterator'
+  - imagick.getpointsize.md: 'Imagick::getPointSize »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getPixelRegionIterator'
 ---
 # Imagick::getPixelRegionIterator

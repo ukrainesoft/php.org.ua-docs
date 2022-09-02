@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.sum.html: '« DsMap::sum'
-  - ds-map.union.html: 'ДсMap::union »'
+  - ds-map.sum.md: '« DsMap::sum'
+  - ds-map.union.md: 'ДсMap::union »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::toArray'
 ---
 # ДсMap::toArray

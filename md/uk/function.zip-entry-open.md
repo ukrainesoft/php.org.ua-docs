@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.zip-entry-name.html: « zipentryname
-  - function.zip-entry-read.html: zipentryread »
-  - index.html: PHP Manual
-  - ref.zip.html: Функции Zip
+  - function.zip-entry-name.md: « zipentryname
+  - function.zip-entry-read.md: zipentryread »
+  - index.md: PHP Manual
+  - ref.zip.md: Функции Zip
 title: zipentryopen
 ---
 # zipentryopen
@@ -28,15 +28,15 @@ zip_entry_open(resource $zip_dp, resource $zip_entry, string $mode = "rb"): bool
 
 `zip_dp`
 
-Дескриптор, що повертається функцією [zipopen()](function.zip-open.html)
+Дескриптор, що повертається функцією [zipopen()](function.zip-open.md)
 
 `zip_entry`
 
-Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.html)
+Дескриптор директорії, що повертається функцією [zipread()](function.zip-read.md)
 
 `mode`
 
-Доступні режими наведено у документації до функції [fopen()](function.fopen.html)
+Доступні режими наведено у документації до функції [fopen()](function.fopen.md)
 
 > **Зауваження**
 > 
@@ -48,7 +48,7 @@ zip_entry_open(resource $zip_dp, resource $zip_entry, string $mode = "rb"): bool
 
 > **Зауваження**
 > 
-> На відміну від функції [fopen()](function.fopen.html) та інших подібних функцій, значення, що повертається функцією **zipentryopen()** тільки інформує нас про результат виконання операції та не потрібно для подальшого читання чи закриття дескриптора директорії.
+> На відміну від функції [fopen()](function.fopen.md) та інших подібних функцій, значення, що повертається функцією **zipentryopen()** тільки інформує нас про результат виконання операції та не потрібно для подальшого читання чи закриття дескриптора директорії.
 
 ### список змін
 
@@ -58,5 +58,5 @@ zip_entry_open(resource $zip_dp, resource $zip_entry, string $mode = "rb"): bool
 
 ### Дивіться також
 
--   [zipentryclose()](function.zip-entry-close.html) - закриває дескриптор директорії
--   [zipentryread()](function.zip-entry-read.html) - Читає дані із відкритого раніше дескриптора директорії
+-   [zipentryclose()](function.zip-entry-close.md) - закриває дескриптор директорії
+-   [zipentryread()](function.zip-entry-read.md) - Читає дані із відкритого раніше дескриптора директорії

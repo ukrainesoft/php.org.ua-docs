@@ -33,4 +33,4 @@ title: Інші зміни у модулях
 
 ### [MySQLi](book.mysqli.md)
 
-Додано опцію [mysqli.rollbackвінcachedplink](mysqli.configuration.html#ini.mysqli.rollback-on-cached-plink)яка управляє поведінкою відкату постійних з'єднань.
+Додано опцію [mysqli.rollbackвінcachedplink](mysqli.configuration.md#ini.mysqli.rollback-on-cached-plink)яка управляє поведінкою відкату постійних з'єднань.

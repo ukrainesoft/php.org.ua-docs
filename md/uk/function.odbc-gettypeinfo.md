@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-free-result.html: « odbcfreeresult
-  - function.odbc-longreadlen.html: odbclongreadlen »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-free-result.md: « odbcfreeresult
+  - function.odbc-longreadlen.md: odbclongreadlen »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcgettypeinfo
 ---
 # odbcgettypeinfo

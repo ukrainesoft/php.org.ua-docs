@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.inotify.html: « Введение
-  - inotify.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.inotify.html: Inotify
+  - intro.inotify.md: « Введение
+  - inotify.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.inotify.md: Inotify
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

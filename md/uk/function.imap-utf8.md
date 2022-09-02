@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-utf8-to-mutf7.html: « imaputf8тоmutf7
-  - class.imap-connection.html: IMAPConnection »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-utf8-to-mutf7.md: « imaputf8тоmutf7
+  - class.imap-connection.md: IMAPConnection »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imaputf8
 ---
 # imaputf8
@@ -48,4 +48,4 @@ Johannes Schlüter
 
 ### Дивіться також
 
--   [imapmimeheaderdecode()](function.imap-mime-header-decode.html) - Декодувати елементи заголовка
+-   [imapmimeheaderdecode()](function.imap-mime-header-decode.md) - Декодувати елементи заголовка

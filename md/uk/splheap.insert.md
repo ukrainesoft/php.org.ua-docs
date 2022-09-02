@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splheap.extract.html: '« SplHeap::extract'
-  - splheap.iscorrupted.html: 'SplHeap::isCorrupted »'
-  - index.html: PHP Manual
-  - class.splheap.html: SplHeap
+  - splheap.extract.md: '« SplHeap::extract'
+  - splheap.iscorrupted.md: 'SplHeap::isCorrupted »'
+  - index.md: PHP Manual
+  - class.splheap.md: SplHeap
 title: 'SplHeap::insert'
 ---
 # SplHeap::insert

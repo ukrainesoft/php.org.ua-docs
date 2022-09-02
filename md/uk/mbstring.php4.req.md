@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mbstring.overload.html: « Механизм перегрузки функций
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками.
-  - index.html: PHP Manual
-  - book.mbstring.html: Багатобайтові рядки
+  - mbstring.overload.md: « Механизм перегрузки функций
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками.
+  - index.md: PHP Manual
+  - book.mbstring.md: Багатобайтові рядки
 title: Вимоги до кодування символів у PHP
 ---
 # Вимоги до кодування символів у PHP

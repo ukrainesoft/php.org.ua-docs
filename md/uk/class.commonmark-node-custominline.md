@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.commonmark-node-customblock.html: « CommonMarkNodeCustomBlock
-  - class.commonmark-node.html: CommonMarkNode »
+  - class.commonmark-node-customblock.md: « CommonMarkNodeCustomBlock
+  - class.commonmark-node.md: CommonMarkNode »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: CustomInline успадковує CommonMarkNode

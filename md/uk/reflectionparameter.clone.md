@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionparameter.canbepassedbyvalue.html: '« ReflectionParameter::canBePassedByValue'
-  - reflectionparameter.construct.html: 'ReflectionParameter::construct »'
-  - index.html: PHP Manual
-  - class.reflectionparameter.html: ReflectionParameter
+  - reflectionparameter.canbepassedbyvalue.md: '« ReflectionParameter::canBePassedByValue'
+  - reflectionparameter.construct.md: 'ReflectionParameter::construct »'
+  - index.md: PHP Manual
+  - class.reflectionparameter.md: ReflectionParameter
 title: 'ReflectionParameter::clone'
 ---
 # ReflectionParameter::clone

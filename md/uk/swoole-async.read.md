@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-async.dnslookup.html: '« SwooleAsync::dnsLookup'
-  - swoole-async.readfile.html: 'SwooleAsync::readFile »'
-  - index.html: PHP Manual
-  - class.swoole-async.html: SwooleAsync
+  - swoole-async.dnslookup.md: '« SwooleAsync::dnsLookup'
+  - swoole-async.readfile.md: 'SwooleAsync::readFile »'
+  - index.md: PHP Manual
+  - class.swoole-async.md: SwooleAsync
 title: 'SwooleAsync::read'
 ---
 # SwooleAsync::read

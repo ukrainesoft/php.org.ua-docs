@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.taint.html: « taint
-  - book.ds.html: Структури даних
-  - index.html: PHP Manual
-  - ref.taint.html: Функции Taint
+  - function.taint.md: « taint
+  - book.ds.md: Структури даних
+  - index.md: PHP Manual
+  - ref.taint.md: Функции Taint
 title: untaint
 ---
 # untaint

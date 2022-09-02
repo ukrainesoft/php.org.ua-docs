@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mailparse-rfc822-parse-addresses.html: « mailparserfc822parseaddresses
-  - function.mailparse-uudecode-all.html: mailparseuudecodeall »
+  - function.mailparse-rfc822-parse-addresses.md: « mailparserfc822parseaddresses
+  - function.mailparse-uudecode-all.md: mailparseuudecodeall »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
 title: mailparsestreamencode

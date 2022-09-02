@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration81.deprecated.html: « Устаревшая функциональность
-  - migration80.html: Миграция с PHP 7.4.x на PHP 8.0.x »
-  - index.html: PHP Manual
-  - migration81.html: Миграция с PHP 8.0.x на PHP 8.1.x
+  - migration81.deprecated.md: « Устаревшая функциональность
+  - migration80.md: Миграция с PHP 7.4.x на PHP 8.0.x »
+  - index.md: PHP Manual
+  - migration81.md: Миграция с PHP 8.0.x на PHP 8.1.x
 title: Інші зміни
 ---
 ## Інші зміни
@@ -12,17 +12,17 @@ title: Інші зміни
 
 #### CLI
 
-Використання **а** без [модуля readline](book.readline.html) тепер призведе до помилки. Раніше використання **а** без модуля readline було аналогічним виклику **php** без жодних аргументів, за винятком виведення додаткового повідомлення `"Interactive mode enabled"`. Цей режим був *не* інтерактивним.
+Використання **а** без [модуля readline](book.readline.md) тепер призведе до помилки. Раніше використання **а** без модуля readline було аналогічним виклику **php** без жодних аргументів, за винятком виведення додаткового повідомлення `"Interactive mode enabled"`. Цей режим був *не* інтерактивним.
 
 #### PHPDBG
 
-Можливість дистанційного налагодження в [phpdbg](book.phpdbg.html) було видалено.
+Можливість дистанційного налагодження в [phpdbg](book.phpdbg.md) було видалено.
 
 ### Змінені функції
 
 #### Ядро
 
-Порядок властивостей, що використовуються в [foreach](control-structures.foreach.html) [vardump()](function.var-dump.html) [serialize()](function.serialize.html), у порівнянні об'єктів тощо. був змінений. Тепер властивості впорядковані природним чином відповідно до їх оголошення та спадкування. Властивості, оголошені у батьківському класі, будуть перед дочірніми.
+Порядок властивостей, що використовуються в [foreach](control-structures.foreach.md) [vardump()](function.var-dump.md) [serialize()](function.serialize.md), у порівнянні об'єктів тощо. був змінений. Тепер властивості впорядковані природним чином відповідно до їх оголошення та спадкування. Властивості, оголошені у батьківському класі, будуть перед дочірніми.
 
 Цей порядок відповідає внутрішньому розташуванню властивостей у структурі `zend_object` і повторює порядок у `default_properties_table[]` і `properties_info_table[]`. Старий лад не був задокументований і був викликаний деталями реалізації спадкування класів.
 
@@ -32,35 +32,35 @@ title: Інші зміни
 
 #### GMP
 
-Усі функції [GMP](book.gmp.html) тепер приймають вісімковий рядок з початковим вісімковим префіксом (`"0o"``"0O"`
+Усі функції [GMP](book.gmp.md) тепер приймають вісімковий рядок з початковим вісімковим префіксом (`"0o"``"0O"`
 
 #### PDO ODBC
 
-Виклик [PDO::getAttribute()](pdo.getattribute.html) з константою **`PDO::ATTR_SERVER_INFO`** і **`PDO::ATTR_SERVER_VERSION`** тепер поверне значення замість генерації виключення [PDOException](class.pdoexception.html)
+Виклик [PDO::getAttribute()](pdo.getattribute.md) з константою **`PDO::ATTR_SERVER_INFO`** і **`PDO::ATTR_SERVER_VERSION`** тепер поверне значення замість генерації виключення [PDOException](class.pdoexception.md)
 
 #### Reflection
 
-Виклик [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.html) і [ReflectionMethod::setAccessible()](reflectionmethod.setaccessible.html) більше не потрібно. Властивості та методи тепер завжди вважаються доступними під час роботи через Reflection.
+Виклик [ReflectionProperty::setAccessible()](reflectionproperty.setaccessible.md) і [ReflectionMethod::setAccessible()](reflectionmethod.setaccessible.md) більше не потрібно. Властивості та методи тепер завжди вважаються доступними під час роботи через Reflection.
 
 #### Стандартні функції
 
-[syslog()](function.syslog.html) тепер безпечний для двійкових файлів.
+[syslog()](function.syslog.md) тепер безпечний для двійкових файлів.
 
 ### Інші зміни у модулях
 
 #### ДД
 
-[imagewebp()](function.imagewebp.html) тепер може виконати кодування WebP без втрат, якщо передати **`IMG_WEBP_LOSSLESS`** параметром quality.
+[imagewebp()](function.imagewebp.md) тепер може виконати кодування WebP без втрат, якщо передати **`IMG_WEBP_LOSSLESS`** параметром quality.
 
 Ця константа визначається тільки в тому випадку, якщо libgd, що використовується, підтримує кодування WebP без втрат.
 
 #### MySQLi
 
-При складанні PHP з бібліотекою libmysqlclient тепер доступні функції [mysqlistmt::nextresult()](mysqli-stmt.next-result.html) і [mysqli::fetchall()](mysqli-result.fetch-all.html)
+При складанні PHP з бібліотекою libmysqlclient тепер доступні функції [mysqlistmt::nextresult()](mysqli-stmt.next-result.md) і [mysqli::fetchall()](mysqli-result.fetch-all.md)
 
 #### OpenSSL
 
--   Для [модуля OpenSSL](book.openssl.html) тепер потрібно OpenSSL версії не нижче 1.0.2.
+-   Для [модуля OpenSSL](book.openssl.md) тепер потрібно OpenSSL версії не нижче 1.0.2.
     
 -   Тепер підтримується OpenSSL 3.0. Майте на увазі, що багато шифрів більше не включені за умовчанням (частина застарілого провайдера) і перевірка параметрів (наприклад, мінімальні розміри ключів) стала суворішою.
     
@@ -82,7 +82,7 @@ title: Інші зміни
 
 ### Зміни в обробці INI-файлів
 
--   INI-директива [logerrorsmaxlen](errorfunc.configuration.html#ini.log-errors-max-len) видалено. Починаючи з PHP 8.0.0, вона вже перестала працювати.
+-   INI-директива [logerrorsmaxlen](errorfunc.configuration.md#ini.log-errors-max-len) видалено. Починаючи з PHP 8.0.0, вона вже перестала працювати.
     
 -   Долар на початку рядка в лапках тепер можна екранувати: `"\${"` тепер інтерпретуватиметься як рядок із вмістом `${`
     

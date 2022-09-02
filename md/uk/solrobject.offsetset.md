@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrobject.offsetget.html: '« SolrObject::offsetGet'
-  - solrobject.offsetunset.html: 'SolrObject::offsetUnset »'
-  - index.html: PHP Manual
-  - class.solrobject.html: SolrObject
+  - solrobject.offsetget.md: '« SolrObject::offsetGet'
+  - solrobject.offsetunset.md: 'SolrObject::offsetUnset »'
+  - index.md: PHP Manual
+  - class.solrobject.md: SolrObject
 title: 'SolrObject::offsetSet'
 ---
 # SolrObject::offsetSet

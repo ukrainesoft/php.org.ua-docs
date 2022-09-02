@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-picker.html: « UIControlsPicker
-  - class.ui-controls-form.html: ОЙControlsForm »
-  - index.html: PHP Manual
-  - class.ui-controls-picker.html: ОЙControlsPicker
+  - class.ui-controls-picker.md: « UIControlsPicker
+  - class.ui-controls-form.md: ОЙControlsForm »
+  - index.md: PHP Manual
+  - class.ui-controls-picker.md: ОЙControlsPicker
 title: 'ОЙControlsPicker::construct'
 ---
 # ОЙControlsPicker::construct

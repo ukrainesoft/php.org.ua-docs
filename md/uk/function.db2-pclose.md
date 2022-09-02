@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-num-rows.html: « db2numrows
-  - function.db2-pconnect.html: db2pconnect »
-  - index.html: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - function.db2-num-rows.md: « db2numrows
+  - function.db2-pconnect.md: db2pconnect »
+  - index.md: PHP Manual
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2pclose
 ---
 # db2pclose

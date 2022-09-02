@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-change-node-prop.html: « svnфсchangenodeprop
-  - function.svn-fs-contents-changed.html: svnфсcontentschanged »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-change-node-prop.md: « svnфсchangenodeprop
+  - function.svn-fs-contents-changed.md: svnфсcontentschanged »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсcheckpath
 ---
 # svnфсcheckpath

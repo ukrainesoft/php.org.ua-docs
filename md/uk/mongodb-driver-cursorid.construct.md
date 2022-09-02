@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-cursorid.html: « MongoDBDriverCursorId
-  - mongodb-driver-cursorid.serialize.html: 'MongoDBDriverCursorId::serialize »'
+  - class.mongodb-driver-cursorid.md: « MongoDBDriverCursorId
+  - mongodb-driver-cursorid.serialize.md: 'MongoDBDriverCursorId::serialize »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursorid.html: MongoDBDriverCursorId
+  - class.mongodb-driver-cursorid.md: MongoDBDriverCursorId
 title: 'MongoDBDriverCursorId::construct'
 ---
 # MongoDBDriverCursorId::construct
@@ -18,7 +18,7 @@ MongoDBDriverCursorId::construct — Створює новий об'єкт Curso
 final private MongoDB\Driver\CursorId::__construct()
 ```
 
-Об'єкти [MongoDBDriverCursorId](class.mongodb-driver-cursorid.html) повертаються з [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md) і не можуть бути створені безпосередньо.
+Об'єкти [MongoDBDriverCursorId](class.mongodb-driver-cursorid.md) повертаються з [MongoDBDriverCursor::getId()](mongodb-driver-cursor.getid.md) і не можуть бути створені безпосередньо.
 
 ### Список параметрів
 

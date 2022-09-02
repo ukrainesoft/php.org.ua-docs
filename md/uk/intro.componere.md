@@ -12,7 +12,7 @@ Componere (латинська, англійська: compose) призначен
 
 ##### Структура:
 
-[ComponereDefinition](class.componere-definition.html) використовується визначення (або перевизначення) класу під час виконання; Потім клас може бути зареєстрований і у разі перевизначення він замінює вихідний клас доти, доки існує [ComponereDefinition](class.componere-definition.md)
+[ComponereDefinition](class.componere-definition.md) використовується визначення (або перевизначення) класу під час виконання; Потім клас може бути зареєстрований і у разі перевизначення він замінює вихідний клас доти, доки існує [ComponereDefinition](class.componere-definition.md)
 
 public [ComponereDefinition::construct](componere-definition.construct.md)(string `$name`
 
@@ -24,7 +24,7 @@ public [ComponereDefinition::construct](componere-definition.construct.md)(strin
 
 ##### Патчінг:
 
-[ComponerePatch](class.componere-patch.html) використовується зміни класу конкретного екземпляра об'єкта під час виконання; Після застосування виправлення буде застосовуватися доти, доки існує [ComponerePatch](class.componere-patch.md) і його можна скасувати.
+[ComponerePatch](class.componere-patch.md) використовується зміни класу конкретного екземпляра об'єкта під час виконання; Після застосування виправлення буде застосовуватися доти, доки існує [ComponerePatch](class.componere-patch.md) і його можна скасувати.
 
 public [ComponerePatch::construct](componere-patch.construct.md)(object `$instance`
 

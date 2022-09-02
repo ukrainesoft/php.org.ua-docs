@@ -38,7 +38,7 @@ numfmt_get_attribute(NumberFormatter $formatter, int $attribute): int|float|fals
 
 `attribute`
 
-Специфікатор атрибуту - одна з констант [числового атрибута](class.numberformatter.html#intl.numberformatter-constants.unumberformatattribute)
+Специфікатор атрибуту - одна з констант [числового атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute)
 
 ### Значення, що повертаються
 

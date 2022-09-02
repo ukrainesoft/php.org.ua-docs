@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.isstatic.html: '« ReflectionProperty::isStatic'
-  - reflectionproperty.setvalue.html: 'ReflectionProperty::setValue »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.isstatic.md: '« ReflectionProperty::isStatic'
+  - reflectionproperty.setvalue.md: 'ReflectionProperty::setValue »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::setAccessible'
 ---
 # ReflectionProperty::setAccessible
@@ -18,7 +18,7 @@ ReflectionProperty::setAccessible — Робить властивість дос
 public ReflectionProperty::setAccessible(bool $accessible): void
 ```
 
-Забезпечує доступ до захищеної або закритої властивості за допомогою методів [ReflectionProperty::getValue()](reflectionproperty.getvalue.html) і [ReflectionProperty::setValue()](reflectionproperty.setvalue.md)
+Забезпечує доступ до захищеної або закритої властивості за допомогою методів [ReflectionProperty::getValue()](reflectionproperty.getvalue.md) і [ReflectionProperty::setValue()](reflectionproperty.setvalue.md)
 
 > **Зауваження**: Починаючи з PHP 8.1.0, виклик методу не має сенсу; всі методи викликаються за умовчанням.
 

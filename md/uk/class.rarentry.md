@@ -350,35 +350,35 @@ public __toString(): string
 
 **`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**
 
-Маска для ізоляції чотирьох останніх біт (напівбайт) для атрибутів UNIX (ЗIFMT, тип файлової маски). Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константами [**`RarEntry::ATTRIBUTE_UNIX_FIFO`**](class.rarentry.html#rarentry.constants.attribute-unix-fifo) [**`RarEntry::ATTRIBUTE_UNIX_CHAR_DEV`**](class.rarentry.html#rarentry.constants.attribute-unix-char-dev) [**`RarEntry::ATTRIBUTE_UNIX_DIRECTORY`**](class.rarentry.html#rarentry.constants.attribute-unix-directory) [**`RarEntry::ATTRIBUTE_UNIX_BLOCK_DEV`**](class.rarentry.html#rarentry.constants.attribute-unix-block-dev) [**`RarEntry::ATTRIBUTE_UNIX_REGULAR_FILE`**](class.rarentry.html#rarentry.constants.attribute-unix-regular-file) [**`RarEntry::ATTRIBUTE_UNIX_SYM_LINK`**](class.rarentry.html#rarentry.constants.attribute-unix-sym-link) і [**`RarEntry::ATTRIBUTE_UNIX_SOCKET`**](class.rarentry.html#rarentry.constants.attribute-unix-socket)
+Маска для ізоляції чотирьох останніх біт (напівбайт) для атрибутів UNIX (ЗIFMT, тип файлової маски). Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константами [**`RarEntry::ATTRIBUTE_UNIX_FIFO`**](class.rarentry.md#rarentry.constants.attribute-unix-fifo) [**`RarEntry::ATTRIBUTE_UNIX_CHAR_DEV`**](class.rarentry.md#rarentry.constants.attribute-unix-char-dev) [**`RarEntry::ATTRIBUTE_UNIX_DIRECTORY`**](class.rarentry.md#rarentry.constants.attribute-unix-directory) [**`RarEntry::ATTRIBUTE_UNIX_BLOCK_DEV`**](class.rarentry.md#rarentry.constants.attribute-unix-block-dev) [**`RarEntry::ATTRIBUTE_UNIX_REGULAR_FILE`**](class.rarentry.md#rarentry.constants.attribute-unix-regular-file) [**`RarEntry::ATTRIBUTE_UNIX_SYM_LINK`**](class.rarentry.md#rarentry.constants.attribute-unix-sym-link) і [**`RarEntry::ATTRIBUTE_UNIX_SOCKET`**](class.rarentry.md#rarentry.constants.attribute-unix-socket)
 
 **`RarEntry::ATTRIBUTE_UNIX_FIFO`**
 
-Спеціальні файли FIFO в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Спеціальні файли FIFO в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.md#rarentry.constants.attribute-unix-final-quartet)
 
 **`RarEntry::ATTRIBUTE_UNIX_CHAR_DEV`**
 
-Спеціальні файли символьних пристроїв у Unix будуть мати це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Спеціальні файли символьних пристроїв у Unix будуть мати це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.md#rarentry.constants.attribute-unix-final-quartet)
 
 **`RarEntry::ATTRIBUTE_UNIX_DIRECTORY`**
 
-Директорії в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet). Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.md), який також працює із записами доданими в інших операційних системах.
+Директорії в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.md#rarentry.constants.attribute-unix-final-quartet). Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.md), який також працює із записами доданими в інших операційних системах.
 
 **`RarEntry::ATTRIBUTE_UNIX_BLOCK_DEV`**
 
-Спеціальні файли блокових пристроїв у Unix будуть мати це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Спеціальні файли блокових пристроїв у Unix будуть мати це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.md#rarentry.constants.attribute-unix-final-quartet)
 
 **`RarEntry::ATTRIBUTE_UNIX_REGULAR_FILE`**
 
-Звичайні файли (не директорії) у Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet). Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.md), який також працює із записами доданими в інших операційних системах.
+Звичайні файли (не директорії) у Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.md#rarentry.constants.attribute-unix-final-quartet). Також дивіться опис методу [RarEntry::isDirectory()](rarentry.isdirectory.md), який також працює із записами доданими в інших операційних системах.
 
 **`RarEntry::ATTRIBUTE_UNIX_SYM_LINK`**
 
-Символічні посилання в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Символічні посилання в Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.md#rarentry.constants.attribute-unix-final-quartet)
 
 **`RarEntry::ATTRIBUTE_UNIX_SOCKET`**
 
-Спеціальні файли сокетів у Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.html#rarentry.constants.attribute-unix-final-quartet)
+Спеціальні файли сокетів у Unix матимуть це значення у чотирьох останніх бітах. Використовується з [RarEntry::getAttr()](rarentry.getattr.md) та константою [**`RarEntry::ATTRIBUTE_UNIX_FINAL_QUARTET`**](class.rarentry.md#rarentry.constants.attribute-unix-final-quartet)
 
 ## Зміст
 

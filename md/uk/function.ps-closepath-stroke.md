@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ps-close.html: «psclose
-  - function.ps-closepath.html: псclosepath »
-  - index.html: PHP Manual
-  - ref.ps.html: Функції PS
+  - function.ps-close.md: «psclose
+  - function.ps-closepath.md: псclosepath »
+  - index.md: PHP Manual
+  - ref.ps.md: Функції PS
 title: псclosepathstroke
 ---
 # псclosepathstroke
@@ -24,7 +24,7 @@ ps_closepath_stroke(resource $psdoc): bool
 
 `psdoc`
 
-Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.html)
+Ідентифікатор ресурсу файлу postscript, повернутий функцією [псnew()](function.ps-new.md)
 
 ### Значення, що повертаються
 
@@ -32,4 +32,4 @@ ps_closepath_stroke(resource $psdoc): bool
 
 ### Дивіться також
 
--   [псclosepath()](function.ps-closepath.html) - Замикає шлях
+-   [псclosepath()](function.ps-closepath.md) - Замикає шлях

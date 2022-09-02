@@ -1,7 +1,7 @@
 ---
 navigation:
   - apache.constants.md: « Обумовлені константи
-  - function.apache-child-terminate.html: apachechildterminate »
+  - function.apache-child-terminate.md: apachechildterminate »
   - index.md: PHP Manual
   - book.apache.md: Apache
 title: Функції Apache

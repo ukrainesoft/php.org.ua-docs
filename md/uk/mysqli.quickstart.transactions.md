@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli.quickstart.multiple-statement.html: « Множинні запити
-  - mysqli.quickstart.metadata.html: Метадані »
-  - index.html: PHP Manual
-  - mysqli.quickstart.html: Краткое руководство
+  - mysqli.quickstart.multiple-statement.md: « Множинні запити
+  - mysqli.quickstart.metadata.md: Метадані »
+  - index.md: PHP Manual
+  - mysqli.quickstart.md: Краткое руководство
 title: API підтримка транзакцій
 ---
 ## API підтримка транзакцій
@@ -47,7 +47,7 @@ $mysqli->commit();
 
 *Дивіться також*
 
--   [mysqli::autocommit()](mysqli.autocommit.html)
--   [mysqli::begintransaction()](mysqli.begin-transaction.html)
--   [mysqli::commit()](mysqli.commit.html)
--   [mysqli::rollback()](mysqli.rollback.html)
+-   [mysqli::autocommit()](mysqli.autocommit.md)
+-   [mysqli::begintransaction()](mysqli.begin-transaction.md)
+-   [mysqli::commit()](mysqli.commit.md)
+-   [mysqli::rollback()](mysqli.rollback.md)

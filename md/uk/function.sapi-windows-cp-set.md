@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sapi-windows-cp-is-utf8.html: « sapiwindowsспісutf8
-  - function.sapi-windows-generate-ctrl-event.html: sapiwindowsgeneratectrlevent »
+  - function.sapi-windows-cp-is-utf8.md: « sapiwindowsспісutf8
+  - function.sapi-windows-generate-ctrl-event.md: sapiwindowsgeneratectrlevent »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: sapiwindowsспset

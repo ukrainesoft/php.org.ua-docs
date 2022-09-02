@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.apache-request-headers.html: « apacherequestheaders
-  - function.apache-setenv.html: apachesetenv »
+  - function.apache-request-headers.md: « apacherequestheaders
+  - function.apache-setenv.md: apachesetenv »
   - index.md: PHP Manual
   - ref.apache.md: Функции Apache
 title: apacheresponseheaders

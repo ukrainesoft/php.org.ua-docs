@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.getmodified.html: '« Phar::getModified'
-  - phar.getsignature.html: 'Phar::getSignature »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.getmodified.md: '« Phar::getModified'
+  - phar.getsignature.md: 'Phar::getSignature »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::getPath'
 ---
 # Phar::getPath

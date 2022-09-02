@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xattr-get.html: « xattrget
-  - function.xattr-remove.html: xattrremove »
+  - function.xattr-get.md: « xattrget
+  - function.xattr-remove.md: xattrremove »
   - index.md: PHP Manual
   - ref.xattr.md: xattr Функции
 title: xattrlist

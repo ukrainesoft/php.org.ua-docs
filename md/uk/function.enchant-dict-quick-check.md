@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-dict-is-in-session.html: « enchantdictісінsession
-  - function.enchant-dict-store-replacement.html: enchantdictstorereplacement »
+  - function.enchant-dict-is-in-session.md: « enchantdictісінsession
+  - function.enchant-dict-store-replacement.md: enchantdictstorereplacement »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantdictquickcheck
@@ -24,7 +24,7 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 

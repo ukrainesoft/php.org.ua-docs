@@ -1,9 +1,9 @@
 ---
 navigation:
-  - timezones.africa.html: « Африка
-  - timezones.antarctica.html: Антарктика »
-  - index.html: PHP Manual
-  - timezones.html: Список підтримуваних часових поясів
+  - timezones.africa.md: « Африка
+  - timezones.antarctica.md: Антарктика »
+  - index.md: PHP Manual
+  - timezones.md: Список підтримуваних часових поясів
 title: Америка
 ---
 ## Америка

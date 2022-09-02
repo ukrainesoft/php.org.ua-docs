@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-disconnect.html: « ssh2disconnect
-  - function.ssh2-fetch-stream.html: ssh2fetchstream »
+  - function.ssh2-disconnect.md: « ssh2disconnect
+  - function.ssh2-fetch-stream.md: ssh2fetchstream »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2exec

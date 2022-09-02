@@ -1,9 +1,9 @@
 ---
 navigation:
-  - recursivedirectoryiterator.getsubpathname.html: '« RecursiveDirectoryIterator::getSubPathname'
-  - recursivedirectoryiterator.key.html: 'RecursiveDirectoryIterator::key »'
-  - index.html: PHP Manual
-  - class.recursivedirectoryiterator.html: RecursiveDirectoryIterator
+  - recursivedirectoryiterator.getsubpathname.md: '« RecursiveDirectoryIterator::getSubPathname'
+  - recursivedirectoryiterator.key.md: 'RecursiveDirectoryIterator::key »'
+  - index.md: PHP Manual
+  - class.recursivedirectoryiterator.md: RecursiveDirectoryIterator
 title: 'RecursiveDirectoryIterator::hasChildren'
 ---
 # RecursiveDirectoryIterator::hasChildren

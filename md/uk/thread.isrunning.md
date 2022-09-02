@@ -1,9 +1,9 @@
 ---
 navigation:
-  - threaded.extend.html: '« Threaded::extend'
-  - threaded.isterminated.html: 'Threaded::isTerminated »'
-  - index.html: PHP Manual
-  - class.threaded.html: Threaded
+  - threaded.extend.md: '« Threaded::extend'
+  - threaded.isterminated.md: 'Threaded::isTerminated »'
+  - index.md: PHP Manual
+  - class.threaded.md: Threaded
 title: 'Threaded::isRunning'
 ---
 # Threaded::isRunning

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - install.problems.support.html: « Інші проблеми
-  - configuration.html: Конфігурація часу виконання »
-  - index.html: PHP Manual
-  - install.problems.html: Проблеми?
+  - install.problems.support.md: « Інші проблеми
+  - configuration.md: Конфігурація часу виконання »
+  - index.md: PHP Manual
+  - install.problems.md: Проблеми?
 title: Повідомлення про баги
 ---
 ## Повідомлення про баги

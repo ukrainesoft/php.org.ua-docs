@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-es.html: « yazес
-  - function.yaz-hits.html: yazhits »
+  - function.yaz-es.md: « yazес
+  - function.yaz-hits.md: yazhits »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazgetoption

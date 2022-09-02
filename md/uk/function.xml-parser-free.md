@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xml-parser-create.html: « xmlparsercreate
-  - function.xml-parser-get-option.html: xmlparsergetoption »
-  - index.html: PHP Manual
-  - ref.xml.html: Функции парсера XML
+  - function.xml-parser-create.md: « xmlparsercreate
+  - function.xml-parser-get-option.md: xmlparsergetoption »
+  - index.md: PHP Manual
+  - ref.xml.md: Функции парсера XML
 title: xmlparserfree
 ---
 # xmlparserfree
@@ -42,4 +42,4 @@ xml_parser_free(XMLParser $parser): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.html); раніше очікувався ресурс (resource). |
+|  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікувався ресурс (resource). |

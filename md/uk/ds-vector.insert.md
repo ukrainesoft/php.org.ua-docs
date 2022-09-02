@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.get.html: '« DsVector::get'
-  - ds-vector.isempty.html: 'ДсVector::isEmpty »'
+  - ds-vector.get.md: '« DsVector::get'
+  - ds-vector.isempty.md: 'ДсVector::isEmpty »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::insert'
 ---
 # ДсVector::insert

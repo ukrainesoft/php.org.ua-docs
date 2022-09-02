@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.odbc-execute.html: « odbcexecute
-  - function.odbc-fetch-into.html: odbcfetchinto »
+  - function.odbc-execute.md: « odbcexecute
+  - function.odbc-fetch-into.md: odbcfetchinto »
   - index.md: PHP Manual
   - ref.uodbc.md: Функции ODBC
 title: odbcfetcharray

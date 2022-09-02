@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttprequest.sendreplychunk.html: '« EventHttpRequest::sendReplyChunk'
-  - eventhttprequest.sendreplystart.html: 'EventHttpRequest::sendReplyStart »'
-  - index.html: PHP Manual
-  - class.eventhttprequest.html: EventHttpRequest
+  - eventhttprequest.sendreplychunk.md: '« EventHttpRequest::sendReplyChunk'
+  - eventhttprequest.sendreplystart.md: 'EventHttpRequest::sendReplyStart »'
+  - index.md: PHP Manual
+  - class.eventhttprequest.md: EventHttpRequest
 title: 'EventHttpRequest::sendReplyEnd'
 ---
 # EventHttpRequest::sendReplyEnd

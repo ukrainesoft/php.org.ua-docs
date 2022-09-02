@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ssh2-sftp-mkdir.html: « ssh2sftpmkdir
-  - function.ssh2-sftp-realpath.html: ssh2sftprealpath »
+  - function.ssh2-sftp-mkdir.md: « ssh2sftpmkdir
+  - function.ssh2-sftp-realpath.md: ssh2sftprealpath »
   - index.md: PHP Manual
   - ref.ssh2.md: Функції SSH2
 title: ssh2sftpreadlink

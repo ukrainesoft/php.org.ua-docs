@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.isjavaidpart.html: '« IntlChar::isJavaIDPart'
-  - intlchar.isjavaspacechar.html: 'IntlChar::isJavaSpaceChar »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.isjavaidpart.md: '« IntlChar::isJavaIDPart'
+  - intlchar.isjavaspacechar.md: 'IntlChar::isJavaSpaceChar »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::isJavaIDStart'
 ---
 # IntlChar::isJavaIDStart
@@ -20,7 +20,7 @@ public static IntlChar::isJavaIDStart(int|string $codepoint): ?bool
 
 Перевіряє, чи може символ бути першим в ідентифікаторі Java.
 
-На додаток до [IntlChar::isIDStart()](intlchar.isidstart.html) **`true`** повертається для символів із категорій "Sc" (символ грошової одиниці) та "Pc" (з'єднувальна пунктуація).
+На додаток до [IntlChar::isIDStart()](intlchar.isidstart.md) **`true`** повертається для символів із категорій "Sc" (символ грошової одиниці) та "Pc" (з'єднувальна пунктуація).
 
 ### Список параметрів
 
@@ -56,6 +56,6 @@ bool(false)
 
 ### Дивіться також
 
--   [IntlChar::isIDStart()](intlchar.isidstart.html) - Перевірити, чи можна використовувати символ на початку ідентифікатора
--   [IntlChar::isJavaIDPart()](intlchar.isjavaidpart.html) - Перевірити, чи є символ допустимим в ідентифікаторі Java
--   [IntlChar::isalpha()](intlchar.isalpha.html) - Перевірити, чи є символ літерою
+-   [IntlChar::isIDStart()](intlchar.isidstart.md) - Перевірити, чи можна використовувати символ на початку ідентифікатора
+-   [IntlChar::isJavaIDPart()](intlchar.isjavaidpart.md) - Перевірити, чи є символ допустимим в ідентифікаторі Java
+-   [IntlChar::isalpha()](intlchar.isalpha.md) - Перевірити, чи є символ літерою

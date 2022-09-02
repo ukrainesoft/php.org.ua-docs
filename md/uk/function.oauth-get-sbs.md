@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.oauth.md: « Функции OAuth
-  - function.oauth-urlencode.html: oauthurlencode »
+  - function.oauth-urlencode.md: oauthurlencode »
   - index.md: PHP Manual
   - ref.oauth.md: Функции OAuth
 title: oauthgetsbs

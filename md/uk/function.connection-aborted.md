@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.misc.md: « Різні функції
-  - function.connection-status.html: connectionstatus »
+  - function.connection-status.md: connectionstatus »
   - index.md: PHP Manual
   - ref.misc.md: Різні функції
 title: connectionaborted

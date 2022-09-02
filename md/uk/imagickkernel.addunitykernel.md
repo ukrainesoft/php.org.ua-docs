@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickkernel.addkernel.html: '« ImagickKernel::addKernel'
-  - imagickkernel.frombuiltin.html: 'ImagickKernel::fromBuiltIn »'
-  - index.html: PHP Manual
-  - class.imagickkernel.html: ImagickKernel
+  - imagickkernel.addkernel.md: '« ImagickKernel::addKernel'
+  - imagickkernel.frombuiltin.md: 'ImagickKernel::fromBuiltIn »'
+  - index.md: PHP Manual
+  - class.imagickkernel.md: ImagickKernel
 title: 'ImagickKernel::addUnityKernel'
 ---
 # ImagickKernel::addUnityKernel

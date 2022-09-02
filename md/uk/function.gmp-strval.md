@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gmp-sqrtrem.html: « gmpsqrtrem
-  - function.gmp-sub.html: gmpsub »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - function.gmp-sqrtrem.md: « gmpsqrtrem
+  - function.gmp-sub.md: gmpsub »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpstrval
 ---
 # gmpstrval

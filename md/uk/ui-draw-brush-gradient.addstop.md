@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-draw-brush-gradient.html: « UIDrawBrushGradient
-  - ui-draw-brush-gradient.delstop.html: 'ОЙDrawBrushGradient::delStop »'
+  - class.ui-draw-brush-gradient.md: « UIDrawBrushGradient
+  - ui-draw-brush-gradient.delstop.md: 'ОЙDrawBrushGradient::delStop »'
   - index.md: PHP Manual
-  - class.ui-draw-brush-gradient.html: ОЙDrawBrushGradient
+  - class.ui-draw-brush-gradient.md: ОЙDrawBrushGradient
 title: 'ОЙDrawBrushGradient::addStop'
 ---
 # ОЙDrawBrushGradient::addStop

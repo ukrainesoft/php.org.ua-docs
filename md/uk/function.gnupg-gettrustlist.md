@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-getprotocol.html: « gnupggetprotocol
-  - function.gnupg-import.html: gnupgimport »
+  - function.gnupg-getprotocol.md: « gnupggetprotocol
+  - function.gnupg-import.md: gnupgimport »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupggettrustlist

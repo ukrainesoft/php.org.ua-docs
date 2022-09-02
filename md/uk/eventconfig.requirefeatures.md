@@ -28,7 +28,7 @@ public
 
 `feature`
 
-Бітова маска потрібних властивостей. Дивіться [константи`EventConfig::FEATURE_*`](class.eventconfig.html#eventconfig.constants)
+Бітова маска потрібних властивостей. Дивіться [константи`EventConfig::FEATURE_*`](class.eventconfig.md#eventconfig.constants)
 
 ### Значення, що повертаються
 

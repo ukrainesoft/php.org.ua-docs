@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-lexer.callout.html: '« ParleLexer::callout'
-  - parle-lexer.dump.html: 'ParleLexer::dump »'
+  - parle-lexer.callout.md: '« ParleLexer::callout'
+  - parle-lexer.dump.md: 'ParleLexer::dump »'
   - index.md: PHP Manual
-  - class.parle-lexer.html: ParleLexer
+  - class.parle-lexer.md: ParleLexer
 title: 'ParleLexer::consume'
 ---
 # ParleLexer::consume

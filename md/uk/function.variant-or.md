@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.variant-not.html: « variantnot
-  - function.variant-pow.html: variantpow »
+  - function.variant-not.md: « variantnot
+  - function.variant-pow.md: variantpow »
   - index.md: PHP Manual
   - ref.com.md: Функции COM
 title: variantор

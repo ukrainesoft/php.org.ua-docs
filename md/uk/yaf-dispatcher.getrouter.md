@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.getrequest.html: '« YafDispatcher::getRequest'
-  - yaf-dispatcher.initview.html: 'YafDispatcher::initView »'
+  - yaf-dispatcher.getrequest.md: '« YafDispatcher::getRequest'
+  - yaf-dispatcher.initview.md: 'YafDispatcher::initView »'
   - index.md: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::getRouter'
 ---
 # YafDispatcher::getRouter

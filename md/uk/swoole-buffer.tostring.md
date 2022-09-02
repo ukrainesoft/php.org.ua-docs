@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-buffer.substr.html: '« SwooleBuffer::substr'
-  - swoole-buffer.write.html: 'SwooleBuffer::write »'
+  - swoole-buffer.substr.md: '« SwooleBuffer::substr'
+  - swoole-buffer.write.md: 'SwooleBuffer::write »'
   - index.md: PHP Manual
-  - class.swoole-buffer.html: SwooleBuffer
+  - class.swoole-buffer.md: SwooleBuffer
 title: 'SwooleBuffer::function toString() { \[native code\] }'
 ---
 # SwooleBuffer::function toString() { \[native code\] }

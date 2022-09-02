@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanworker.work.html: '« GearmanWorker::work'
-  - book.ldap.html: LDAP »
-  - index.html: PHP Manual
-  - book.gearman.html: Gearman
+  - gearmanworker.work.md: '« GearmanWorker::work'
+  - book.ldap.md: LDAP »
+  - index.md: PHP Manual
+  - book.gearman.md: Gearman
 title: Клас GearmanException
 ---
 # Клас GearmanException

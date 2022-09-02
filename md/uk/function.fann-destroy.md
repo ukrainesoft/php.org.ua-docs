@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-destroy-train.html: « fanndestroytrain
-  - function.fann-duplicate-train-data.html: fannduplicatetraindata »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-destroy-train.md: « fanndestroytrain
+  - function.fann-duplicate-train-data.md: fannduplicatetraindata »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fanndestroy
 ---
 # fanndestroy

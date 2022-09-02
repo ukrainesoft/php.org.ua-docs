@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-num-fields.html: « ibasenumfields
-  - function.ibase-param-info.html: ibaseparaminfo »
+  - function.ibase-num-fields.md: « ibasenumfields
+  - function.ibase-param-info.md: ibaseparaminfo »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibasenumparams

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.geoip-org-by-name.html: « geoiporgбname
-  - function.geoip-region-by-name.html: geoipregionбname »
+  - function.geoip-org-by-name.md: « geoiporgбname
+  - function.geoip-region-by-name.md: geoipregionбname »
   - index.md: PHP Manual
   - ref.geoip.md: Функции GeoIP
 title: geoiprecordбname

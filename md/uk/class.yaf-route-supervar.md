@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-route-static.route.html: '« YafRouteStatic::route'
-  - yaf-route-supervar.assemble.html: 'YafRouteSupervar::assemble »'
+  - yaf-route-static.route.md: '« YafRouteStatic::route'
+  - yaf-route-supervar.assemble.md: 'YafRouteSupervar::assemble »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafRouteSupervar

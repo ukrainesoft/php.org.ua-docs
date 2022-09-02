@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.yaz-scan.html: « yazscan
-  - function.yaz-search.html: yazsearch »
+  - function.yaz-scan.md: « yazscan
+  - function.yaz-search.md: yazsearch »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazschema
@@ -20,7 +20,7 @@ yaz_schema(resource $id, string $schema): void
 
 **yazschema()** встановлює схему для значень, що повертаються.
 
-Функція має бути викликана до [yazsearch()](function.yaz-search.html) або [yazpresent()](function.yaz-present.md)
+Функція має бути викликана до [yazsearch()](function.yaz-search.md) або [yazpresent()](function.yaz-present.md)
 
 ### Список параметрів
 

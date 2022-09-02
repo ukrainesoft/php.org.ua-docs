@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.lzf-compress.html: « lzfcompress
-  - function.lzf-optimized-for.html: lzfoptimizedfor »
+  - function.lzf-compress.md: « lzfcompress
+  - function.lzf-optimized-for.md: lzfoptimizedfor »
   - index.md: PHP Manual
   - ref.lzf.md: Функції LZF
 title: lzfdecompress

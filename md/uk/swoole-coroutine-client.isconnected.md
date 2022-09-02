@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-coroutine-client.getsockname.html: '« SwooleCoroutineClient::getsockname'
-  - swoole-coroutine-client.recv.html: 'SwooleCoroutineClient::recv »'
-  - index.html: PHP Manual
-  - class.swoole-coroutine.html: SwooleCoroutine
+  - swoole-coroutine-client.getsockname.md: '« SwooleCoroutineClient::getsockname'
+  - swoole-coroutine-client.recv.md: 'SwooleCoroutineClient::recv »'
+  - index.md: PHP Manual
+  - class.swoole-coroutine.md: SwooleCoroutine
 title: 'SwooleCoroutineClient::isConnected'
 ---
 # SwooleCoroutineClient::isConnected

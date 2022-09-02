@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.tintimage.html: '« Imagick::tintImage'
-  - imagick.transformimage.html: 'Imagick::transformImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.tintimage.md: '« Imagick::tintImage'
+  - imagick.transformimage.md: 'Imagick::transformImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::toString'
 ---
 # Imagick::toString
@@ -30,5 +30,5 @@ public Imagick::__toString(): string
 
 ### Дивіться також
 
--   [Imagick::getImageBlob()](imagick.getimageblob.html) - Повертає послідовність зображень у вигляді BLOB
--   [Imagick::getImagesBlob()](imagick.getimagesblob.html) - Повертає всі послідовності зображень у вигляді великого двійкового об'єкта
+-   [Imagick::getImageBlob()](imagick.getimageblob.md) - Повертає послідовність зображень у вигляді BLOB
+-   [Imagick::getImagesBlob()](imagick.getimagesblob.md) - Повертає всі послідовності зображень у вигляді великого двійкового об'єкта

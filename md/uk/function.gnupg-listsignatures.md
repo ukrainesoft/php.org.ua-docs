@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-keyinfo.html: « gnupgkeyinfo
-  - function.gnupg-setarmor.html: gnupgsetarmor »
+  - function.gnupg-keyinfo.md: « gnupgkeyinfo
+  - function.gnupg-setarmor.md: gnupgsetarmor »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupglistsignatures

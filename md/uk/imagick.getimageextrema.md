@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagedistortion.html: '« Imagick::getImageDistortion'
-  - imagick.getimagefilename.html: 'Imagick::getImageFilename »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagedistortion.md: '« Imagick::getImageDistortion'
+  - imagick.getimagefilename.md: 'Imagick::getImageFilename »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageExtrema'
 ---
 # Imagick::getImageExtrema

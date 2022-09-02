@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.onclosing.html: '« UIWindow::onClosing'
-  - ui-window.save.html: 'ОЙWindow::save »'
+  - ui-window.onclosing.md: '« UIWindow::onClosing'
+  - ui-window.save.md: 'ОЙWindow::save »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::open'
 ---
 # ОЙWindow::open

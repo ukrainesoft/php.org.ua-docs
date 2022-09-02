@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-manager.getencryptedfieldsmap.html: '« MongoDBDriverManager::getEncryptedFieldsMap'
-  - mongodb-driver-manager.getreadpreference.html: 'MongoDBDriverManager::getReadPreference »'
+  - mongodb-driver-manager.getencryptedfieldsmap.md: '« MongoDBDriverManager::getEncryptedFieldsMap'
+  - mongodb-driver-manager.getreadpreference.md: 'MongoDBDriverManager::getReadPreference »'
   - index.md: PHP Manual
-  - class.mongodb-driver-manager.html: MongoDBDriverManager
+  - class.mongodb-driver-manager.md: MongoDBDriverManager
 title: 'MongoDBDriverManager::getReadConcern'
 ---
 # MongoDBDriverManager::getReadConcern

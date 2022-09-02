@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pcntl-exec.html: pcntlexec
-  - function.pcntl-get-last-error.html: pcntlgetlasterror »
+  - function.pcntl-exec.md: pcntlexec
+  - function.pcntl-get-last-error.md: pcntlgetlasterror »
   - index.md: PHP Manual
   - ref.pcntl.md: Функції PCNTL
 title: pcntlfork

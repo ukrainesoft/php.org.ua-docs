@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-getinfo.html: « curlgetinfo
-  - function.curl-multi-add-handle.html: curlmultiaddhandle »
+  - function.curl-getinfo.md: « curlgetinfo
+  - function.curl-multi-add-handle.md: curlmultiaddhandle »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlinit
@@ -18,7 +18,7 @@ curlinit - Ініціалізує сеанс cURL
 curl_init(?string $url = null): CurlHandle|false
 ```
 
-Ініціалізує новий сеанс cURL та повертає дескриптор, який використовується з функціями [curlsetopt()](function.curl-setopt.html) [curlexec()](function.curl-exec.html) і [curlclose()](function.curl-close.md)
+Ініціалізує новий сеанс cURL та повертає дескриптор, який використовується з функціями [curlsetopt()](function.curl-setopt.md) [curlexec()](function.curl-exec.md) і [curlclose()](function.curl-close.md)
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ curl_init(?string $url = null): CurlHandle|false
 
 > **Зауваження**
 > 
-> Протокол `file` стає недоступним у cURL, якщо задана опція [openbasedir](ini.core.html#ini.open-basedir)
+> Протокол `file` стає недоступним у cURL, якщо задана опція [openbasedir](ini.core.md#ini.open-basedir)
 
 ### Значення, що повертаються
 

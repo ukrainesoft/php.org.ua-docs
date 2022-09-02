@@ -28,7 +28,7 @@ public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?
 
 `useIncludePath`
 
-Якщо встановлено **`true`**, ім'я файлу також шукається в [includepath](ini.core.html#ini.include-path)
+Якщо встановлено **`true`**, ім'я файлу також шукається в [includepath](ini.core.md#ini.include-path)
 
 `context`
 

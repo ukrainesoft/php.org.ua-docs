@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-timeout.html: « imaptimeout
-  - function.imap-undelete.html: imapundelete »
+  - function.imap-timeout.md: « imaptimeout
+  - function.imap-undelete.md: imapundelete »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapuid

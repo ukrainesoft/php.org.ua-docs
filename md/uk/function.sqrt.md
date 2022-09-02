@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sinh.html: « sinh
-  - function.srand.html: srand »
-  - index.html: PHP Manual
-  - ref.math.html: Математичні функції
+  - function.sinh.md: « sinh
+  - function.srand.md: srand »
+  - index.md: PHP Manual
+  - ref.math.md: Математичні функції
 title: sqrt
 ---
 # sqrt
@@ -44,7 +44,7 @@ echo sqrt(10); // 3.16227766 ...
 
 ### Дивіться також
 
--   [pow()](function.pow.html) - Зведення в ступінь
+-   [pow()](function.pow.md) - Зведення в ступінь
 -   **`M_SQRTPI`** `sqrt(pi)`
 -   **`M_2_SQRTPI`** `2/sqrt(pi)`
 -   **`M_SQRT2`** `sqrt(2)`

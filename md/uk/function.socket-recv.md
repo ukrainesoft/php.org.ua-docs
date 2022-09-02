@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-read.html: « socketread
-  - function.socket-recvfrom.html: socketrecvfrom »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-read.md: « socketread
+  - function.socket-recvfrom.md: socketrecvfrom »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketrecv
 ---
 # socketrecv
@@ -26,7 +26,7 @@ socket_recv(    Socket $socket,    ?string &$data,    int $length, 
 
 `socket`
 
-Параметр `socket` має бути екземпляром [Socket](class.socket.html), попередньо створеним за допомогою функції socketcreate().
+Параметр `socket` має бути екземпляром [Socket](class.socket.md), попередньо створеним за допомогою функції socketcreate().
 
 `data`
 
@@ -51,19 +51,19 @@ socket_recv(    Socket $socket,    ?string &$data,    int $length, 
 
 ### Значення, що повертаються
 
-**socketrecv()** повертає кількість отриманих байтів або **`false`** у разі виникнення помилки. Фактичний код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.html). Цей код помилки може бути переданий функції [socketstrerror()](function.socket-strerror.html) для отримання текстового опису помилки.
+**socketrecv()** повертає кількість отриманих байтів або **`false`** у разі виникнення помилки. Фактичний код помилки може бути отриманий за допомогою функції [socketlasterror()](function.socket-last-error.md). Цей код помилки може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | `socket` тепер екземпляр класу [Socket](class.socket.html); раніше був ресурсом (resource). |
+|  | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **socketrecv()****
 
-Цей приклад - просто варіант першого прикладу статті [Приклади](sockets.examples.html) з використанням **socketrecv()**
+Цей приклад - просто варіант першого прикладу статті [Приклади](sockets.examples.md) з використанням **socketrecv()**
 
 ```php
 <?php

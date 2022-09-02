@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mcrypt-enc-is-block-algorithm.html: « mcryptencісblockalgorithm
-  - function.mcrypt-enc-self-test.html: mcryptencselftest »
-  - index.html: PHP Manual
-  - ref.mcrypt.html: Mcrypt
+  - function.mcrypt-enc-is-block-algorithm.md: « mcryptencісblockalgorithm
+  - function.mcrypt-enc-self-test.md: mcryptencselftest »
+  - index.md: PHP Manual
+  - ref.mcrypt.md: Mcrypt
 title: mcryptencісblockmode
 ---
 # mcryptencісblockmode

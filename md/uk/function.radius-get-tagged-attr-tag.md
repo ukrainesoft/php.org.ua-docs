@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.radius-get-tagged-attr-data.html: « radiusgettaggedattrdata
-  - function.radius-get-vendor-attr.html: radiusgetvendorattr »
-  - index.html: PHP Manual
-  - ref.radius.html: Функции Radius
+  - function.radius-get-tagged-attr-data.md: « radiusgettaggedattrdata
+  - function.radius-get-vendor-attr.md: radiusgetvendorattr »
+  - index.md: PHP Manual
+  - ref.radius.md: Функции Radius
 title: radiusgettaggedattrtag
 ---
 # radiusgettaggedattrtag
@@ -18,7 +18,7 @@ radiusgettaggedattrtag — Витягує тег із позначеного а�
 radius_get_tagged_attr_tag(string $data): int|false
 ```
 
-Якщо з [radiusgetattr()](function.radius-get-attr.html) був повернутий тегований атрибут, [radiusgettaggedattrdata()](function.radius-get-tagged-attr-data.html) поверне тег із атрибуту.
+Якщо з [radiusgetattr()](function.radius-get-attr.md) був повернутий тегований атрибут, [radiusgettaggedattrdata()](function.radius-get-tagged-attr-data.md) поверне тег із атрибуту.
 
 ### Список параметрів
 
@@ -55,5 +55,5 @@ while ($resa = radius_get_attr($res)) {
 
 ### Дивіться також
 
--   [radiusgetattr()](function.radius-get-attr.html) - Витягує атрибут
--   [radiusgettaggedattrdata()](function.radius-get-tagged-attr-data.html) - Витягує дані із позначеного атрибуту
+-   [radiusgetattr()](function.radius-get-attr.md) - Витягує атрибут
+-   [radiusgettaggedattrdata()](function.radius-get-tagged-attr-data.md) - Витягує дані із позначеного атрибуту

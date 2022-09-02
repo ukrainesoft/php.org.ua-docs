@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.logicexception.html: « LogicException
-  - class.outofrangeexception.html: OutOfRangeException »
-  - index.html: PHP Manual
-  - spl.exceptions.html: Исключения
+  - class.logicexception.md: « LogicException
+  - class.outofrangeexception.md: OutOfRangeException »
+  - index.md: PHP Manual
+  - spl.exceptions.md: Исключения
 title: Клас OutOfBoundsException
 ---
 # Клас OutOfBoundsException

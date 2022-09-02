@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.libxml-set-external-entity-loader.html: « libxmlsetexternalentityloader
-  - function.libxml-use-internal-errors.html: libxmluseinternalerrors »
+  - function.libxml-set-external-entity-loader.md: « libxmlsetexternalentityloader
+  - function.libxml-use-internal-errors.md: libxmluseinternalerrors »
   - index.md: PHP Manual
   - ref.libxml.md: Функції libxml
 title: libxmlsetstreamscontext

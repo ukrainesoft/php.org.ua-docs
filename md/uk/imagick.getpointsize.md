@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getpixelregioniterator.html: '« Imagick::getPixelRegionIterator'
-  - imagick.getquantum.html: 'Imagick::getQuantum »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getpixelregioniterator.md: '« Imagick::getPixelRegionIterator'
+  - imagick.getquantum.md: 'Imagick::getQuantum »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getPointSize'
 ---
 # Imagick::getPointSize
@@ -30,4 +30,4 @@ public Imagick::getPointSize(): float
 
 ### Дивіться також
 
--   [Imagick::setPointSize()](imagick.setpointsize.html) - Встановлює розмір точки
+-   [Imagick::setPointSize()](imagick.setpointsize.md) - Встановлює розмір точки

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fann-set-cascade-num-candidate-groups.html: « fannsetcascadenumcandidategroups
-  - function.fann-set-cascade-output-stagnation-epochs.html: fannsetcascadeoutputstagnationepochs »
-  - index.html: PHP Manual
-  - ref.fann.html: Функции Fann
+  - function.fann-set-cascade-num-candidate-groups.md: « fannsetcascadenumcandidategroups
+  - function.fann-set-cascade-output-stagnation-epochs.md: fannsetcascadeoutputstagnationepochs »
+  - index.md: PHP Manual
+  - ref.fann.md: Функции Fann
 title: fannsetcascadeoutputchangefraction
 ---
 # fannsetcascadeoutputchangefraction
@@ -36,4 +36,4 @@ fann_set_cascade_output_change_fraction(resource $ann, float $cascade_output_cha
 
 ### Дивіться також
 
--   [fanngetcascadeoutputchangefraction()](function.fann-get-cascade-output-change-fraction.html) - Повертає частку зміни виходу каскаду
+-   [fanngetcascadeoutputchangefraction()](function.fann-get-cascade-output-change-fraction.md) - Повертає частку зміни виходу каскаду

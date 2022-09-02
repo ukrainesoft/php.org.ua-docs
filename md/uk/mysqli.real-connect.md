@@ -1,7 +1,7 @@
 ---
 navigation:
   - mysqli.query.md: '« mysqli::query'
-  - mysqli.real-escape-string.html: 'mysqli::realescapestring »'
+  - mysqli.real-escape-string.md: 'mysqli::realescapestring »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli
 title: 'mysqli::realconnect'

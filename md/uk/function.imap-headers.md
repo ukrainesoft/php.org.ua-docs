@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-headerinfo.html: « imapheaderinfo
-  - function.imap-last-error.html: imaplasterror »
+  - function.imap-headerinfo.md: « imapheaderinfo
+  - function.imap-last-error.md: imaplasterror »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapheaders

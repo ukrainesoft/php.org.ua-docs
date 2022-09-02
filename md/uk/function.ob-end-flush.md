@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ob-end-clean.html: « obendclean
-  - function.ob-flush.html: проflush »
+  - function.ob-end-clean.md: « obendclean
+  - function.ob-flush.md: проflush »
   - index.md: PHP Manual
   - ref.outcontrol.md: Функції контролю виведення
 title: проendflush
@@ -20,9 +20,9 @@ ob_end_flush(): bool
 
 Ця функція надішле вміст найвищого буфера виводу (якщо воно є) і відключить цей буфер виводу. Якщо ви хочете використати вміст буфера, то вам необхідно викликати [проgetcontents()](function.ob-get-contents.md) перед **проendflush()**, т.к. весь вміст буфера видаляється під час виклику **проendflush()**
 
-Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERFLUSHABLE](outcontrol.constants.html#constant.php-output-handler-flushable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.html#constant.php-output-handler-removable)
+Буфер виводу має запускатися функцією [проstart()](function.ob-start.md) з прапорами [PHPOUTPUTHANDLERFLUSHABLE](outcontrol.constants.md#constant.php-output-handler-flushable) і [PHPOUTPUTHANDLERREMOVABLE](outcontrol.constants.md#constant.php-output-handler-removable)
 
-> **Зауваження**: Ця функція аналогічна [проgetflush()](function.ob-get-flush.html), за винятком того, що [проgetflush()](function.ob-get-flush.md) повертає вміст буфера у вигляді рядка.
+> **Зауваження**: Ця функція аналогічна [проgetflush()](function.ob-get-flush.md), за винятком того, що [проgetflush()](function.ob-get-flush.md) повертає вміст буфера у вигляді рядка.
 
 ### Список параметрів
 

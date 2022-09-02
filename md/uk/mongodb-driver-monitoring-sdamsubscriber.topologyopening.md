@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-sdamsubscriber.topologyclosed.html: '« MongoDBDriverMonitoringSDAMSubscriber::topologyClosed'
-  - class.mongodb-driver-monitoring-subscriber.html: MongoDBDriverMonitoringSubscriber »
+  - mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md: '« MongoDBDriverMonitoringSDAMSubscriber::topologyClosed'
+  - class.mongodb-driver-monitoring-subscriber.md: MongoDBDriverMonitoringSubscriber »
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-sdamsubscriber.html: MongoDBDriverMonitoringSDAMSubscriber
+  - class.mongodb-driver-monitoring-sdamsubscriber.md: MongoDBDriverMonitoringSDAMSubscriber
 title: 'MongoDBDriverMonitoringSDAMSubscriber::topologyOpening'
 ---
 # MongoDBDriverMonitoringSDAMSubscriber::topologyOpening

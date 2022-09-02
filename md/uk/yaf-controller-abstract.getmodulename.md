@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-controller-abstract.getinvokeargs.html: '« YafControllerAbstract::getInvokeArgs'
-  - yaf-controller-abstract.getname.html: 'YafControllerAbstract::getName »'
+  - yaf-controller-abstract.getinvokeargs.md: '« YafControllerAbstract::getInvokeArgs'
+  - yaf-controller-abstract.getname.md: 'YafControllerAbstract::getName »'
   - index.md: PHP Manual
-  - class.yaf-controller-abstract.html: YafControllerAbstract
+  - class.yaf-controller-abstract.md: YafControllerAbstract
 title: 'YafControllerAbstract::getModuleName'
 ---
 # YafControllerAbstract::getModuleName

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-draw-matrix.rotate.html: '« UIDrawMatrix::rotate'
-  - ui-draw-matrix.skew.html: 'ОЙDrawMatrix::skew »'
+  - ui-draw-matrix.rotate.md: '« UIDrawMatrix::rotate'
+  - ui-draw-matrix.skew.md: 'ОЙDrawMatrix::skew »'
   - index.md: PHP Manual
-  - class.ui-draw-matrix.html: ОЙDrawMatrix
+  - class.ui-draw-matrix.md: ОЙDrawMatrix
 title: 'ОЙDrawMatrix::scale'
 ---
 # ОЙDrawMatrix::scale

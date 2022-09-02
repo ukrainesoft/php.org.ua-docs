@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intlchar.getintpropertymaxvalue.html: '« IntlChar::getIntPropertyMaxValue'
-  - intlchar.getintpropertyvalue.html: 'IntlChar::getIntPropertyValue »'
-  - index.html: PHP Manual
-  - class.intlchar.html: IntlChar
+  - intlchar.getintpropertymaxvalue.md: '« IntlChar::getIntPropertyMaxValue'
+  - intlchar.getintpropertyvalue.md: 'IntlChar::getIntPropertyValue »'
+  - index.md: PHP Manual
+  - class.intlchar.md: IntlChar
 title: 'IntlChar::getIntPropertyMinValue'
 ---
 # IntlChar::getIntPropertyMinValue

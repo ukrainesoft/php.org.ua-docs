@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-bulkwrite.count.html: '« MongoDBDriverBulkWrite::count'
-  - mongodb-driver-bulkwrite.insert.html: 'MongoDBDriverBulkWrite::insert »'
+  - mongodb-driver-bulkwrite.count.md: '« MongoDBDriverBulkWrite::count'
+  - mongodb-driver-bulkwrite.insert.md: 'MongoDBDriverBulkWrite::insert »'
   - index.md: PHP Manual
-  - class.mongodb-driver-bulkwrite.html: MongoDBDriverBulkWrite
+  - class.mongodb-driver-bulkwrite.md: MongoDBDriverBulkWrite
 title: 'MongoDBDriverBulkWrite::delete'
 ---
 # MongoDBDriverBulkWrite::delete
@@ -26,7 +26,7 @@ public MongoDB\Driver\BulkWrite::delete(array|object $filter, ?array $deleteOpti
 
 [» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.html) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.md) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `deleteOptions`
 

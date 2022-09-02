@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-free-result.html: « fbirdfreeresult
-  - function.fbird-maintain-db.html: fbirdmaintaindb »
+  - function.fbird-free-result.md: « fbirdfreeresult
+  - function.fbird-maintain-db.md: fbirdmaintaindb »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdгенід

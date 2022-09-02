@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.yaz.md: « Функции YAZ
-  - function.yaz-ccl-conf.html: yazcclconf »
+  - function.yaz-ccl-conf.md: yazcclconf »
   - index.md: PHP Manual
   - ref.yaz.md: Функции YAZ
 title: yazaddinfo

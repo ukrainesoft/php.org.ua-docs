@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.commonmark-parse.html: « CommonMarkParse
-  - function.commonmark-render-html.html: CommonMarkRenderHTML »
+  - function.commonmark-parse.md: « CommonMarkParse
+  - function.commonmark-render-html.md: CommonMarkRenderHTML »
   - index.md: PHP Manual
   - ref.cmark.md: Функции CommonMark
 title: CommonMarkRender

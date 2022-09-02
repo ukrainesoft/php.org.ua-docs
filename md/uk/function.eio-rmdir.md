@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-rename.html: « eiorename
-  - function.eio-seek.html: eioseek »
+  - function.eio-rename.md: « eiorename
+  - function.eio-seek.md: eioseek »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiormdir

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-isodate-set.html: « dateisodateset
-  - function.date-offset-get.html: dateoffsetget »
+  - function.date-isodate-set.md: « dateisodateset
+  - function.date-offset-get.md: dateoffsetget »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: datemodify

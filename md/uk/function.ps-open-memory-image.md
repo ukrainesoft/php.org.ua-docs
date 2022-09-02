@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ps-open-image.html: «psopenimage
-  - function.ps-place-image.html: псplaceimage »
+  - function.ps-open-image.md: «psopenimage
+  - function.ps-place-image.md: псplaceimage »
   - index.md: PHP Manual
   - ref.ps.md: Функції PS
 title: псopenmemoryimage

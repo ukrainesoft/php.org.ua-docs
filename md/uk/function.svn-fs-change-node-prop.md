@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-begin-txn2.html: « svnфсbegintxn2
-  - function.svn-fs-check-path.html: svnфсcheckpath »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-begin-txn2.md: « svnфсbegintxn2
+  - function.svn-fs-check-path.md: svnфсcheckpath »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсchangenodeprop
 ---
 # svnфсchangenodeprop

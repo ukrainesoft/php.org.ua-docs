@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-result.html: « mysqlresult
-  - function.mysql-set-charset.html: mysqlsetcharset »
+  - function.mysql-result.md: « mysqlresult
+  - function.mysql-set-charset.md: mysqlsetcharset »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlselectдб
@@ -35,7 +35,7 @@ mysql_select_db(string $database_name, resource $link_identifier = NULL): bool
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 

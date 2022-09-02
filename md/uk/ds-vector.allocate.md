@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-vector.html: « Вектор
-  - ds-vector.apply.html: 'ДсVector::apply »'
+  - class.ds-vector.md: « Вектор
+  - ds-vector.apply.md: 'ДсVector::apply »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::allocate'
 ---
 # ДсVector::allocate

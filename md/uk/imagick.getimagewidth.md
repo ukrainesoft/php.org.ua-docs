@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimagewhitepoint.html: '« Imagick::getImageWhitePoint'
-  - imagick.getinterlacescheme.html: 'Imagick::getInterlaceScheme »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimagewhitepoint.md: '« Imagick::getImageWhitePoint'
+  - imagick.getinterlacescheme.md: 'Imagick::getInterlaceScheme »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageWidth'
 ---
 # Imagick::getImageWidth

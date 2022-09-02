@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-cdf-noncentral-chisquare.html: « statscdfnoncentralchisquare
-  - function.stats-cdf-noncentral-t.html: statscdfnoncentralt »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-cdf-noncentral-chisquare.md: « statscdfnoncentralchisquare
+  - function.stats-cdf-noncentral-t.md: statscdfnoncentralt »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statscdfnoncentralф
 ---
 # statscdfnoncentralф

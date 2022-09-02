@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.gettags.html: '« MongoDBDriverServer::getTags'
-  - mongodb-driver-server.isarbiter.html: 'MongoDBDriverServer::isArbiter »'
+  - mongodb-driver-server.gettags.md: '« MongoDBDriverServer::getTags'
+  - mongodb-driver-server.isarbiter.md: 'MongoDBDriverServer::isArbiter »'
   - index.md: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::getType'
 ---
 # MongoDBDriverServer::getType

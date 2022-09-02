@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-application.bootstrap.html: '« YafApplication::bootstrap'
-  - yaf-application.construct.html: 'YafApplication::construct »'
+  - yaf-application.bootstrap.md: '« YafApplication::bootstrap'
+  - yaf-application.construct.md: 'YafApplication::construct »'
   - index.md: PHP Manual
-  - class.yaf-application.html: YafApplication
+  - class.yaf-application.md: YafApplication
 title: 'YafApplication::clearLastError'
 ---
 # YafApplication::clearLastError

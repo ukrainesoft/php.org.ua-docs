@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-convert.html: « pgconvert
-  - function.pg-copy-to.html: пгcopyto »
+  - function.pg-convert.md: « pgconvert
+  - function.pg-copy-to.md: пгcopyto »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгcopyfrom

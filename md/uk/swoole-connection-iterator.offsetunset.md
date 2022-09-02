@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-connection-iterator.offsetset.html: '« SwooleConnectionIterator::offsetSet'
-  - swoole-connection-iterator.rewind.html: 'SwooleConnectionIterator::rewind »'
+  - swoole-connection-iterator.offsetset.md: '« SwooleConnectionIterator::offsetSet'
+  - swoole-connection-iterator.rewind.md: 'SwooleConnectionIterator::rewind »'
   - index.md: PHP Manual
-  - class.swoole-connection-iterator.html: SwooleConnectionIterator
+  - class.swoole-connection-iterator.md: SwooleConnectionIterator
 title: 'SwooleConnectionIterator::offsetUnset'
 ---
 # SwooleConnectionIterator::offsetUnset

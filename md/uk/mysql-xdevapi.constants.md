@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi.build.html: « Складання / Компіляція з вихідного коду
-  - changelog.mysql_xdevapi.html: Список изменений »
-  - index.html: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - mysql-xdevapi.build.md: « Складання / Компіляція з вихідного коду
+  - changelog.mysql_xdevapi.md: Список изменений »
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Обумовлені константи
 ---
 # Обумовлені константи

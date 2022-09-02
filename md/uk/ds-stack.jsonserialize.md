@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-stack.isempty.html: '« DsStack::isEmpty'
-  - ds-stack.peek.html: 'ДсStack::peek »'
+  - ds-stack.isempty.md: '« DsStack::isEmpty'
+  - ds-stack.peek.md: 'ДсStack::peek »'
   - index.md: PHP Manual
-  - class.ds-stack.html: Стек
+  - class.ds-stack.md: Стек
 title: 'ДсStack::jsonSerialize'
 ---
 # ДсStack::jsonSerialize

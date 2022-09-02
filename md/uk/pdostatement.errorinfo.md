@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdostatement.errorcode.html: '« PDOStatement::errorCode'
-  - pdostatement.execute.html: 'PDOStatement::execute »'
-  - index.html: PHP Manual
-  - class.pdostatement.html: PDOStatement
+  - pdostatement.errorcode.md: '« PDOStatement::errorCode'
+  - pdostatement.execute.md: 'PDOStatement::execute »'
+  - index.md: PHP Manual
+  - class.pdostatement.md: PDOStatement
 title: 'PDOStatement::errorInfo'
 ---
 # PDOStatement::errorInfo
@@ -62,6 +62,6 @@ Array
 
 ### Дивіться також
 
--   [PDO::errorCode()](pdo.errorcode.html) - Повертає код SQLSTATE результату останньої операції з базою даних
--   [PDO::errorInfo()](pdo.errorinfo.html) - Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
--   [PDOStatement::errorCode()](pdostatement.errorcode.html) - Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
+-   [PDO::errorCode()](pdo.errorcode.md) - Повертає код SQLSTATE результату останньої операції з базою даних
+-   [PDO::errorInfo()](pdo.errorinfo.md) - Отримує розширену інформацію про помилку, що сталася під час останнього звернення до бази даних
+-   [PDOStatement::errorCode()](pdostatement.errorcode.md) - Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement

@@ -56,7 +56,7 @@ $font = 'SomeFont';
 
 > **Зауваження**
 > 
-> Зверніть увагу, що [openbasedir](ini.core.html#ini.open-basedir) *не* застосовується до `fontfile`
+> Зверніть увагу, що [openbasedir](ini.core.md#ini.open-basedir) *не* застосовується до `fontfile`
 
 `string`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intro.array.html: « Введение
-  - array.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.array.html: Масиви
+  - intro.array.md: « Введение
+  - array.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.array.md: Масиви
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування

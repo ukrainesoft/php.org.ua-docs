@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.cubrid.md: « Функции CUBRID
-  - function.cubrid-close-prepare.html: cubridcloseprepare »
+  - function.cubrid-close-prepare.md: cubridcloseprepare »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridbind

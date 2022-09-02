@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.str-word-count.html: « strwordcount
+  - function.str-word-count.md: « strwordcount
   - function.strchr.md: strchr »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками

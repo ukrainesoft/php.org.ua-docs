@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.pgsql-connection.html: « PgSqlConnection
-  - class.pgsql-lob.html: PgSqlLob »
+  - class.pgsql-connection.md: « PgSqlConnection
+  - class.pgsql-lob.md: PgSqlLob »
   - index.md: PHP Manual
   - book.pgsql.md: PostgreSQL
 title: Клас PgSqlResult

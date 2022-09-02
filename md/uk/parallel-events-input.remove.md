@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parallel-events-input.clear.html: '« parallelEventsInput::clear'
-  - class.parallel-events-event.html: parallelEventsEvent »
+  - parallel-events-input.clear.md: '« parallelEventsInput::clear'
+  - class.parallel-events-event.md: parallelEventsEvent »
   - index.md: PHP Manual
-  - class.parallel-events-input.html: parallelEventsInput
+  - class.parallel-events-input.md: parallelEventsInput
 title: 'parallelEventsInput::remove'
 ---
 # parallelEventsInput::remove

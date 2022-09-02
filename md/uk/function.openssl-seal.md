@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-random-pseudo-bytes.html: « opensslrandompseudobytes
-  - function.openssl-sign.html: opensslsign »
+  - function.openssl-random-pseudo-bytes.md: « opensslrandompseudobytes
+  - function.openssl-sign.md: opensslsign »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslseal

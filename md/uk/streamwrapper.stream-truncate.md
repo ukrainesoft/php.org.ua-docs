@@ -1,7 +1,7 @@
 ---
 navigation:
-  - streamwrapper.stream-tell.html: '« streamWrapper::streamtell'
-  - streamwrapper.stream-write.html: 'streamWrapper::streamwrite »'
+  - streamwrapper.stream-tell.md: '« streamWrapper::streamtell'
+  - streamwrapper.stream-write.md: 'streamWrapper::streamwrite »'
   - index.md: PHP Manual
   - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::streamtruncate'

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.variant.html: « variant
-  - class.compersisthelper.html: COMPersistHelper »
-  - index.html: PHP Manual
-  - class.variant.html: variant
+  - class.variant.md: « variant
+  - class.compersisthelper.md: COMPersistHelper »
+  - index.md: PHP Manual
+  - class.variant.md: variant
 title: 'variant:construct'
 ---
 # variant:construct
@@ -14,7 +14,7 @@ variant:construct - Конструктор класу variant
 
 ### Опис
 
-public **variant:construct**[mixed](language.types.declarations.html#language.types.declarations.mixed) `$value` **`null`**, int `$type` **`VT_EMPTY`**, int `$codepage` **`CP_ACP`**
+public **variant:construct**[mixed](language.types.declarations.md#language.types.declarations.mixed) `$value` **`null`**, int `$type` **`VT_EMPTY`**, int `$codepage` **`CP_ACP`**
 
 Створює об'єкт класу variant.
 
@@ -26,8 +26,8 @@ public **variant:construct**[mixed](language.types.declarations.html#language.ty
 
 `type`
 
-Визначає тип контенту об'єкта variant. Допустимі значення - одна з констант **`VT_XXX`** [Обумовлені константи](com.constants.html)). PHP може автоматично визначати параметри, передані за посиланням; їх навіть не потрібно передавати як об'єкти variant. Додаткову інформацію за типами variant читайте у бібліотеці MSDN.
+Визначає тип контенту об'єкта variant. Допустимі значення - одна з констант **`VT_XXX`** [Обумовлені константи](com.constants.md)). PHP може автоматично визначати параметри, передані за посиланням; їх навіть не потрібно передавати як об'єкти variant. Додаткову інформацію за типами variant читайте у бібліотеці MSDN.
 
 `codepage`
 
-Кодова сторінка Подробиці читайте на сторінці [com](class.com.html)
+Кодова сторінка Подробиці читайте на сторінці [com](class.com.md)

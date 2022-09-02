@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-lob2-tell.html: « cubridlob2tell
-  - function.cubrid-lock-read.html: cubridlockread »
+  - function.cubrid-lob2-tell.md: « cubridlob2tell
+  - function.cubrid-lock-read.md: cubridlockread »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridlob2write

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-savebody.html: « imapsavebody
-  - function.imap-scanmailbox.html: imapscanmailbox »
+  - function.imap-savebody.md: « imapsavebody
+  - function.imap-scanmailbox.md: imapscanmailbox »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapscan

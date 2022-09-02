@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-router.addroute.html: '« YafRouter::addRoute'
-  - yaf-router.getcurrentroute.html: 'YafRouter::getCurrentRoute »'
-  - index.html: PHP Manual
-  - class.yaf-router.html: YafRouter
+  - yaf-router.addroute.md: '« YafRouter::addRoute'
+  - yaf-router.getcurrentroute.md: 'YafRouter::getCurrentRoute »'
+  - index.md: PHP Manual
+  - class.yaf-router.md: YafRouter
 title: 'YafRouter::construct'
 ---
 # YafRouter::construct

@@ -1,16 +1,16 @@
 ---
 navigation:
-  - intro.filter.html: « Введение
-  - filter.requirements.html: Вимоги »
-  - index.html: PHP Manual
-  - book.filter.html: Filter
+  - intro.filter.md: « Введение
+  - filter.requirements.md: Вимоги »
+  - index.md: PHP Manual
+  - book.filter.md: Filter
 title: Встановлення та налаштування
 ---
 # Встановлення та налаштування
 
 ## Зміст
 
--   [Вимоги](filter.requirements.html)
--   [Установка](filter.installation.html)
--   [Налаштування під час виконання](filter.configuration.html)
--   [Типи ресурсів](filter.resources.html)
+-   [Вимоги](filter.requirements.md)
+-   [Установка](filter.installation.md)
+-   [Налаштування під час виконання](filter.configuration.md)
+-   [Типи ресурсів](filter.resources.md)

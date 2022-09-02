@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-save.html: « fannsave
-  - function.fann-scale-input.html: fannscaleinput »
+  - function.fann-save.md: « fannsave
+  - function.fann-scale-input.md: fannscaleinput »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannscaleinputtraindata

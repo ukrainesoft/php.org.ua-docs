@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-statement.hasmoreresults.html: '« Statement::hasMoreResults'
-  - mysql-xdevapi-table.construct.html: 'Table::construct »'
-  - index.html: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - mysql-xdevapi-statement.hasmoreresults.md: '« Statement::hasMoreResults'
+  - mysql-xdevapi-table.construct.md: 'Table::construct »'
+  - index.md: PHP Manual
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас Table
 ---
 # Клас Table

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-excel.header.html: '« VtifulKernelExcel::header'
-  - vtiful-kernel-excel.insertImage.html: 'VtifulKernelExcel::insertImage »'
+  - vtiful-kernel-excel.header.md: '« VtifulKernelExcel::header'
+  - vtiful-kernel-excel.insertImage.md: 'VtifulKernelExcel::insertImage »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
 title: 'VtifulKernelExcel::insertFormula'
 ---
 # VtifulKernelExcel::insertFormula

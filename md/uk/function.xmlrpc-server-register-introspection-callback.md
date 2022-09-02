@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xmlrpc-server-destroy.html: « xmlrpcserverdestroy
-  - function.xmlrpc-server-register-method.html: xmlrpcserverregistermethod »
-  - index.html: PHP Manual
-  - ref.xmlrpc.html: Функції XML-RPC
+  - function.xmlrpc-server-destroy.md: « xmlrpcserverdestroy
+  - function.xmlrpc-server-register-method.md: xmlrpcserverregistermethod »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcserverregisterintrospectioncallback
 ---
 # xmlrpcserverregisterintrospectioncallback

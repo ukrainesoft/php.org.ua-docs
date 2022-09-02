@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reserved.constants.html: « Обумовлені константи
-  - resource.html: Список типов ресурсов »
-  - index.html: PHP Manual
-  - reserved.html: Список зарезервованих слів
+  - reserved.constants.md: « Обумовлені константи
+  - resource.md: Список типов ресурсов »
+  - index.md: PHP Manual
+  - reserved.md: Список зарезервованих слів
 title: Список інших зарезервованих слів
 ---
 ## Список інших зарезервованих слів

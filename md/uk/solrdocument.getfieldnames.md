@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrdocument.getfieldcount.html: '« SolrDocument::getFieldCount'
-  - solrdocument.getinputdocument.html: 'SolrDocument::getInputDocument »'
-  - index.html: PHP Manual
-  - class.solrdocument.html: SolrDocument
+  - solrdocument.getfieldcount.md: '« SolrDocument::getFieldCount'
+  - solrdocument.getinputdocument.md: 'SolrDocument::getInputDocument »'
+  - index.md: PHP Manual
+  - class.solrdocument.md: SolrDocument
 title: 'SolrDocument::getFieldNames'
 ---
 # SolrDocument::getFieldNames

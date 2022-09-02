@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.reload.html: '« SwooleServer::reload'
-  - swoole-server.send.html: 'SwooleServer::send »'
+  - swoole-server.reload.md: '« SwooleServer::reload'
+  - swoole-server.send.md: 'SwooleServer::send »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::resume'
 ---
 # SwooleServer::resume

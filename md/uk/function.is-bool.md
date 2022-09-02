@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-array.html: « isarray
-  - function.is-callable.html: ісcallable »
+  - function.is-array.md: « isarray
+  - function.is-callable.md: ісcallable »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
 title: ісbool

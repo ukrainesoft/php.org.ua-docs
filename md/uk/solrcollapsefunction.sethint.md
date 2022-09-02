@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrcollapsefunction.setfield.html: '« SolrCollapseFunction::setField'
-  - solrcollapsefunction.setmax.html: 'SolrCollapseFunction::setMax »'
-  - index.html: PHP Manual
-  - class.solrcollapsefunction.html: SolrCollapseFunction
+  - solrcollapsefunction.setfield.md: '« SolrCollapseFunction::setField'
+  - solrcollapsefunction.setmax.md: 'SolrCollapseFunction::setMax »'
+  - index.md: PHP Manual
+  - class.solrcollapsefunction.md: SolrCollapseFunction
 title: 'SolrCollapseFunction::setHint'
 ---
 # SolrCollapseFunction::setHint
@@ -28,7 +28,7 @@ public SolrCollapseFunction::setHint(string $hint): SolrCollapseFunction
 
 ### Значення, що повертаються
 
-[SolrCollapseFunction](class.solrcollapsefunction.html)
+[SolrCollapseFunction](class.solrcollapsefunction.md)
 
 ### Приклади
 

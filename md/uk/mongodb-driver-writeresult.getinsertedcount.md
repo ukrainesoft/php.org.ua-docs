@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeresult.getdeletedcount.html: '« MongoDBDriverWriteResult::getDeletedCount'
-  - mongodb-driver-writeresult.getmatchedcount.html: 'MongoDBDriverWriteResult::getMatchedCount »'
-  - index.html: PHP Manual
-  - class.mongodb-driver-writeresult.html: MongoDBDriverWriteResult
+  - mongodb-driver-writeresult.getdeletedcount.md: '« MongoDBDriverWriteResult::getDeletedCount'
+  - mongodb-driver-writeresult.getmatchedcount.md: 'MongoDBDriverWriteResult::getMatchedCount »'
+  - index.md: PHP Manual
+  - class.mongodb-driver-writeresult.md: MongoDBDriverWriteResult
 title: 'MongoDBDriverWriteResult::getInsertedCount'
 ---
 # MongoDBDriverWriteResult::getInsertedCount

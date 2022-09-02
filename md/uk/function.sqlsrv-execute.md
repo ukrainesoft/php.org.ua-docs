@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-errors.html: « sqlsrverrors
-  - function.sqlsrv-fetch-array.html: sqlsrvfetcharray »
+  - function.sqlsrv-errors.md: « sqlsrverrors
+  - function.sqlsrv-fetch-array.md: sqlsrvfetcharray »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvexecute

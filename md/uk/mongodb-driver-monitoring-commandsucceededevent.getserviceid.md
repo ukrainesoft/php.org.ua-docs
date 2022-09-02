@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandsucceededevent.getserverconnectionid.html: '« MongoDBDriverMonitoringCommandSucceededEvent::getServerConnectionId'
-  - class.mongodb-driver-monitoring-serverchangedevent.html: MongoDBDriverMonitoringServerChangedEvent »
-  - index.html: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+  - mongodb-driver-monitoring-commandsucceededevent.getserverconnectionid.md: '« MongoDBDriverMonitoringCommandSucceededEvent::getServerConnectionId'
+  - class.mongodb-driver-monitoring-serverchangedevent.md: MongoDBDriverMonitoringServerChangedEvent »
+  - index.md: PHP Manual
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
 title: 'MongoDBDriverMonitoringCommandSucceededEvent::getServiceId'
 ---
 # MongoDBDriverMonitoringCommandSucceededEvent::getServiceId
@@ -30,4 +30,4 @@ final public MongoDB\Driver\Monitoring\CommandSucceededEvent::getServiceId(): ?M
 
 ### Помилки
 
--   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.html)
+-   При помилці парсингу аргумент кидає виняток [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)

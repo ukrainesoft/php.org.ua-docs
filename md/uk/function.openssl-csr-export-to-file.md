@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-cms-verify.html: « opensslcmsverify
-  - function.openssl-csr-export.html: opensslcsrexport »
+  - function.openssl-cms-verify.md: « opensslcmsverify
+  - function.openssl-csr-export.md: opensslcsrexport »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslcsrexportтоfile

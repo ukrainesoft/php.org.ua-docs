@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-parser-get-option.html: « xmlparsergetoption
-  - function.xml-set-character-data-handler.html: xmlsetcharacterdatahandler »
+  - function.xml-parser-get-option.md: « xmlparsergetoption
+  - function.xml-set-character-data-handler.md: xmlsetcharacterdatahandler »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlparsersetoption

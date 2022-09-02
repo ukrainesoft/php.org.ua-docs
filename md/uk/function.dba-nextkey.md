@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dba-list.html: « dbalist
-  - function.dba-open.html: dbaopen »
-  - index.html: PHP Manual
-  - ref.dba.html: Функції DBA
+  - function.dba-list.md: « dbalist
+  - function.dba-open.md: dbaopen »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
 title: dbanextkey
 ---
 # dbanextkey
@@ -24,7 +24,7 @@ dba_nextkey(resource $dba): string|false
 
 `dba`
 
-Обробник бази даних, повернутий [dbaopen()](function.dba-open.html) або [dbapopen()](function.dba-popen.html)
+Обробник бази даних, повернутий [dbaopen()](function.dba-open.md) або [dbapopen()](function.dba-popen.md)
 
 ### Значення, що повертаються
 
@@ -32,6 +32,6 @@ dba_nextkey(resource $dba): string|false
 
 ### Дивіться також
 
--   [dbafirstkey()](function.dba-firstkey.html) - Витягує перший ключ
--   [dbakeysplit()](function.dba-key-split.html) - Розділяє ключ, заданий у вигляді рядка та створює масив з отриманих частин
--   Другий приклад у [приклади DBA](dba.examples.html)
+-   [dbafirstkey()](function.dba-firstkey.md) - Витягує перший ключ
+-   [dbakeysplit()](function.dba-key-split.md) - Розділяє ключ, заданий у вигляді рядка та створює масив з отриманих частин
+-   Другий приклад у [приклади DBA](dba.examples.md)

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-floor.html: « traderfloor
-  - function.trader-get-unstable-period.html: tradergetunstableperiod »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-floor.md: « traderfloor
+  - function.trader-get-unstable-period.md: tradergetunstableperiod »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: tradergetcompat
 ---
 # tradergetcompat

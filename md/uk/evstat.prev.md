@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evstat.createstopped.html: '« EvStat::createStopped'
-  - evstat.set.html: 'EvStat::set »'
-  - index.html: PHP Manual
-  - class.evstat.html: EvStat
+  - evstat.createstopped.md: '« EvStat::createStopped'
+  - evstat.set.md: 'EvStat::set »'
+  - index.md: PHP Manual
+  - class.evstat.md: EvStat
 title: 'EvStat::prev'
 ---
 # EvStat::prev

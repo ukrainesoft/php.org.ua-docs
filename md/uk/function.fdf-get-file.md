@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fdf-get-encoding.html: « fdfgetencoding
-  - function.fdf-get-flags.html: fdfgetflags »
+  - function.fdf-get-encoding.md: « fdfgetencoding
+  - function.fdf-get-flags.md: fdfgetflags »
   - index.md: PHP Manual
   - ref.fdf.md: FDF
 title: fdfgetfile
@@ -24,7 +24,7 @@ fdf_get_file(resource $fdf_document): string
 
 `fdf_document`
 
-Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.html) [fdfopen()](function.fdf-open.html) або [fdfopenstring()](function.fdf-open-string.md)
+Дескриптор FDF-документа, повернутий функціями [fdfcreate()](function.fdf-create.md) [fdfopen()](function.fdf-open.md) або [fdfopenstring()](function.fdf-open-string.md)
 
 ### Значення, що повертаються
 

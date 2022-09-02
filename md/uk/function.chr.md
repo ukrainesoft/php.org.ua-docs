@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.chop.md: « chop
-  - function.chunk-split.html: chunksplit »
+  - function.chunk-split.md: chunksplit »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: chr

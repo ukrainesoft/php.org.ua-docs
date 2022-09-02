@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-set-input-scaling-params.html: « fannsetinputscalingparams
-  - function.fann-set-learning-rate.html: fannsetlearningrate »
+  - function.fann-set-input-scaling-params.md: « fannsetinputscalingparams
+  - function.fann-set-learning-rate.md: fannsetlearningrate »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannsetlearningmomentum

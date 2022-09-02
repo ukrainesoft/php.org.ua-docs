@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-timestamp.serialize.html: '« MongoDBBSONTimestamp::serialize'
-  - mongodb-bson-timestamp.unserialize.html: 'MongoDBBSONTimestamp::unserialize »'
+  - mongodb-bson-timestamp.serialize.md: '« MongoDBBSONTimestamp::serialize'
+  - mongodb-bson-timestamp.unserialize.md: 'MongoDBBSONTimestamp::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-timestamp.html: MongoDBBSONTimestamp
+  - class.mongodb-bson-timestamp.md: MongoDBBSONTimestamp
 title: 'MongoDBBSONTimestamp::function toString() { \[native code\] }'
 ---
 # MongoDBBSONTimestamp::function toString() { \[native code\] }

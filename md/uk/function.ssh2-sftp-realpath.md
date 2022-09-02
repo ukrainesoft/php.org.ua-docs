@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssh2-sftp-readlink.html: « ssh2sftpreadlink
-  - function.ssh2-sftp-rename.html: ssh2sftprename »
-  - index.html: PHP Manual
-  - ref.ssh2.html: Функції SSH2
+  - function.ssh2-sftp-readlink.md: « ssh2sftpreadlink
+  - function.ssh2-sftp-rename.md: ssh2sftprename »
+  - index.md: PHP Manual
+  - ref.ssh2.md: Функції SSH2
 title: ssh2sftprealpath
 ---
 # ssh2sftprealpath

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatementresult.getcolumns.html: '« SqlStatementResult::getColumns'
-  - mysql-xdevapi-sqlstatementresult.getlastinsertid.html: 'SqlStatementResult::getLastInsertId »'
+  - mysql-xdevapi-sqlstatementresult.getcolumns.md: '« SqlStatementResult::getColumns'
+  - mysql-xdevapi-sqlstatementresult.getlastinsertid.md: 'SqlStatementResult::getLastInsertId »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatementresult.html: mysqlxdevapiSqlStatementResult
+  - class.mysql-xdevapi-sqlstatementresult.md: mysqlxdevapiSqlStatementResult
 title: 'SqlStatementResult::getGeneratedIds'
 ---
 # SqlStatementResult::getGeneratedIds

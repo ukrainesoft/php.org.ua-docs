@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.dio.html: « Функції прямого введення/виводу
-  - function.dio-fcntl.html: diofcntl »
-  - index.html: PHP Manual
-  - ref.dio.html: Функції прямого введення/виводу
+  - ref.dio.md: « Функції прямого введення/виводу
+  - function.dio-fcntl.md: diofcntl »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
 title: dioclose
 ---
 # dioclose

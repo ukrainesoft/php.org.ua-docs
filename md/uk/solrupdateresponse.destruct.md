@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrupdateresponse.construct.html: '« SolrUpdateResponse::construct'
-  - class.solrpingresponse.html: SolrPingResponse »
-  - index.html: PHP Manual
-  - class.solrupdateresponse.html: SolrUpdateResponse
+  - solrupdateresponse.construct.md: '« SolrUpdateResponse::construct'
+  - class.solrpingresponse.md: SolrPingResponse »
+  - index.md: PHP Manual
+  - class.solrupdateresponse.md: SolrUpdateResponse
 title: 'SolrUpdateResponse::destruct'
 ---
 # SolrUpdateResponse::destruct

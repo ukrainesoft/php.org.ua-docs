@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-controls-entry.html: « UIControlsEntry
-  - ui-controls-entry.gettext.html: 'ОЙControlsEntry::getText »'
+  - class.ui-controls-entry.md: « UIControlsEntry
+  - ui-controls-entry.gettext.md: 'ОЙControlsEntry::getText »'
   - index.md: PHP Manual
-  - class.ui-controls-entry.html: ОЙControlsEntry
+  - class.ui-controls-entry.md: ОЙControlsEntry
 title: 'ОЙControlsEntry::construct'
 ---
 # ОЙControlsEntry::construct

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fbird-set-event-handler.html: « fbirdseteventhandler
-  - function.fbird-wait-event.html: fbirdwaitevent »
+  - function.fbird-set-event-handler.md: « fbirdseteventhandler
+  - function.fbird-wait-event.md: fbirdwaitevent »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: fbirdtrans

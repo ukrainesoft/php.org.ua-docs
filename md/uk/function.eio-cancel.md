@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-busy.html: « eiobusy
-  - function.eio-chmod.html: eiochmod »
+  - function.eio-busy.md: « eiobusy
+  - function.eio-chmod.md: eiochmod »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiocancel

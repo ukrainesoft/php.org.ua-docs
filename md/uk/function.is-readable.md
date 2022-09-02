@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.is-link.html: « islink
-  - function.is-uploaded-file.html: ісuploadedfile »
+  - function.is-link.md: « islink
+  - function.is-uploaded-file.md: ісuploadedfile »
   - index.md: PHP Manual
   - ref.filesystem.md: Функції файлової системи
 title: ісreadable

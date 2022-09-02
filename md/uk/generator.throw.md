@@ -18,7 +18,7 @@ Generator::throw — Кинути виняток у генератор
 public Generator::throw(Throwable $exception): mixed
 ```
 
-Викидає виняток у генератор та відновлює його виконання. Поведінка буде такою, начебто поточне значення [yield](language.generators.syntax.html#control-structures.yield) замінили на вираз `throw $exception`
+Викидає виняток у генератор та відновлює його виконання. Поведінка буде такою, начебто поточне значення [yield](language.generators.syntax.md#control-structures.yield) замінили на вираз `throw $exception`
 
 Якщо на момент виклику цього методу генератор закритий, виняток буде викинуто в контексті коду, що викликає.
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.swoole-channel.html: « SwooleChannel
-  - swoole-channel.destruct.html: 'SwooleChannel::destruct »'
+  - class.swoole-channel.md: « SwooleChannel
+  - swoole-channel.destruct.md: 'SwooleChannel::destruct »'
   - index.md: PHP Manual
-  - class.swoole-channel.html: SwooleChannel
+  - class.swoole-channel.md: SwooleChannel
 title: 'SwooleChannel::construct'
 ---
 # SwooleChannel::construct

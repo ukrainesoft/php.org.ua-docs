@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionmethod.setaccessible.html: '« ReflectionMethod::setAccessible'
-  - class.reflectionnamedtype.html: ReflectionNamedType »
-  - index.html: PHP Manual
-  - class.reflectionmethod.html: ReflectionMethod
+  - reflectionmethod.setaccessible.md: '« ReflectionMethod::setAccessible'
+  - class.reflectionnamedtype.md: ReflectionNamedType »
+  - index.md: PHP Manual
+  - class.reflectionmethod.md: ReflectionMethod
 title: 'ReflectionMethod::toString'
 ---
 # ReflectionMethod::toString
@@ -26,7 +26,7 @@ public ReflectionMethod::__toString(): string
 
 ### Значення, що повертаються
 
-Строкове представлення об'єкта [ReflectionMethod](class.reflectionmethod.html)
+Строкове представлення об'єкта [ReflectionMethod](class.reflectionmethod.md)
 
 ### Приклади
 
@@ -61,5 +61,5 @@ Method [ <user> public method sayHelloTo ] {
 
 ### Дивіться також
 
--   [ReflectionMethod::export()](reflectionmethod.export.html) - Експорт відбитого методу
--   [toString()](language.oop5.magic.html#object.tostring)
+-   [ReflectionMethod::export()](reflectionmethod.export.md) - Експорт відбитого методу
+-   [toString()](language.oop5.magic.md#object.tostring)

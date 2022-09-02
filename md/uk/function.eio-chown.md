@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-chmod.html: « eiochmod
-  - function.eio-close.html: eioclose »
+  - function.eio-chmod.md: « eiochmod
+  - function.eio-close.md: eioclose »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiochown

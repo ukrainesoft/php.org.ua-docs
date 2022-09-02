@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.resources.html: « Типи ресурсів
-  - phar.using.html: Использование Phar-архивов »
-  - index.html: PHP Manual
-  - book.phar.html: Phar
+  - phar.resources.md: « Типи ресурсів
+  - phar.using.md: Использование Phar-архивов »
+  - index.md: PHP Manual
+  - book.phar.md: Phar
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -41,5 +41,5 @@ title: Обумовлені константи
 
 | Константа | Значение | Описание |
 | --- | --- | --- |
-| **`Phar::PHP`** (int) |  | використовується для вказівки параметра перевизначення MIME-типу [Phar::webPhar()](phar.webphar.html) на те, що розширення має бути розібране як файл PHP |
-| **`Phar::PHPS`** (int) |  | використовується для вказівки параметра перевизначення MIME-типу [Phar::webPhar()](phar.webphar.html), відповідно до якого розширення має бути розібране як вихідний файл PHP за допомогою [highlightfile()](function.highlight-file.html) |
+| **`Phar::PHP`** (int) |  | використовується для вказівки параметра перевизначення MIME-типу [Phar::webPhar()](phar.webphar.md) на те, що розширення має бути розібране як файл PHP |
+| **`Phar::PHPS`** (int) |  | використовується для вказівки параметра перевизначення MIME-типу [Phar::webPhar()](phar.webphar.md), відповідно до якого розширення має бути розібране як вихідний файл PHP за допомогою [highlightfile()](function.highlight-file.md) |

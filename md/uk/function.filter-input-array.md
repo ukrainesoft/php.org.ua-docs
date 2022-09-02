@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.filter-id.html: « filterід
-  - function.filter-input.html: filterinput »
+  - function.filter-id.md: « filterід
+  - function.filter-input.md: filterinput »
   - index.md: PHP Manual
   - ref.filter.md: Функції фільтрації даних
 title: filterinputarray

@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.ucwords.md: « ucwords
-  - function.utf8-encode.html: utf8encode »
+  - function.utf8-encode.md: utf8encode »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: utf8decode

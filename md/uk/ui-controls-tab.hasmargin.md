@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-tab.delete.html: '« UIControlsTab::delete'
-  - ui-controls-tab.insertat.html: 'ОЙControlsTab::insertAt »'
+  - ui-controls-tab.delete.md: '« UIControlsTab::delete'
+  - ui-controls-tab.insertat.md: 'ОЙControlsTab::insertAt »'
   - index.md: PHP Manual
-  - class.ui-controls-tab.html: ОЙControlsTab
+  - class.ui-controls-tab.md: ОЙControlsTab
 title: 'ОЙControlsTab::hasMargin'
 ---
 # ОЙControlsTab::hasMargin

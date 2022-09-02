@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getactionname.html: '« YafRequestAbstract::getActionName'
-  - yaf-request-abstract.getcontrollername.html: 'YafRequestAbstract::getControllerName »'
+  - yaf-request-abstract.getactionname.md: '« YafRequestAbstract::getActionName'
+  - yaf-request-abstract.getcontrollername.md: 'YafRequestAbstract::getControllerName »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getBaseUri'
 ---
 # YafRequestAbstract::getBaseUri

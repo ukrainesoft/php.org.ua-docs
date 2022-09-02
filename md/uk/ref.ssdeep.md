@@ -1,7 +1,7 @@
 ---
 navigation:
   - ssdeep.constants.md: « Обумовлені константи
-  - function.ssdeep-fuzzy-compare.html: ssdeepfuzzycompare »
+  - function.ssdeep-fuzzy-compare.md: ssdeepfuzzycompare »
   - index.md: PHP Manual
   - book.ssdeep.md: ssdeep
 title: Функції ssdeep

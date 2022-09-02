@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.db2-next-result.html: « db2nextresult
-  - function.db2-num-rows.html: db2numrows »
+  - function.db2-next-result.md: « db2nextresult
+  - function.db2-num-rows.md: db2numrows »
   - index.md: PHP Manual
-  - ref.ibm-db2.html: Функції IBM DB2
+  - ref.ibm-db2.md: Функції IBM DB2
 title: db2numfields
 ---
 # db2numfields

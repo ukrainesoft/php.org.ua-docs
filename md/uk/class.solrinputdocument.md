@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrutils.queryphrase.html: '« SolrUtils::queryPhrase'
-  - solrinputdocument.addchilddocument.html: 'SolrInputDocument::addChildDocument »'
-  - index.html: PHP Manual
-  - book.solr.html: Solr
+  - solrutils.queryphrase.md: '« SolrUtils::queryPhrase'
+  - solrinputdocument.addchilddocument.md: 'SolrInputDocument::addChildDocument »'
+  - index.md: PHP Manual
+  - book.solr.md: Solr
 title: Клас SolrInputDocument
 ---
 # Клас SolrInputDocument
@@ -115,26 +115,26 @@ public toArray(): array
 
 ## Зміст
 
--   [SolrInputDocument::addChildDocument](solrinputdocument.addchilddocument.html) — Додає дочірній документ для блокової індексації
--   [SolrInputDocument::addChildDocuments](solrinputdocument.addchilddocuments.html) — Додає масив дочірніх документів
--   [SolrInputDocument::addField](solrinputdocument.addfield.html) — Додає поле до документа
--   [SolrInputDocument::clear](solrinputdocument.clear.html) — скидає вхідний документ
--   [SolrInputDocument::clone](solrinputdocument.clone.html) - Створює копію SolrDocument
--   [SolrInputDocument::construct](solrinputdocument.construct.html) - Конструктор
--   [SolrInputDocument::deleteField](solrinputdocument.deletefield.html) — Видаляє поле із документа
--   [SolrInputDocument::destruct](solrinputdocument.destruct.html) - Деструктор
--   [SolrInputDocument::fieldExists](solrinputdocument.fieldexists.html) — Перевіряє, чи є поле
--   [SolrInputDocument::getBoost](solrinputdocument.getboost.html) — Отримує поточне значення підвищення документа
--   [SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.html) - Повертає масив дочірніх документів (SolrInputDocument)
--   [SolrInputDocument::getChildDocumentsCount](solrinputdocument.getchilddocumentscount.html) — Повертає кількість дочірніх документів
--   [SolrInputDocument::getField](solrinputdocument.getfield.html) — Отримує поле на ім'я
--   [SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.html) — Отримує значення підвищення для певного поля
--   [SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.html) — Повертає кількість полів у документі
--   [SolrInputDocument::getFieldNames](solrinputdocument.getfieldnames.html) — Повертає масив, що містить усі поля у документі
--   [SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.html) — Повертає true, якщо документ має дочірні документи.
--   [SolrInputDocument::merge](solrinputdocument.merge.html) — Об'єднує один вхідний документ до іншого
--   [SolrInputDocument::reset](solrinputdocument.reset.html) - Псевдонім SolrInputDocument::clear
--   [SolrInputDocument::setBoost](solrinputdocument.setboost.html) — Встановлює значення підвищення документа
--   [SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.html) — Встановлює значення підвищення індексу часу для поля
--   [SolrInputDocument::sort](solrinputdocument.sort.html) — Сортує поля у документі
--   [SolrInputDocument::toArray](solrinputdocument.toarray.html) — Повертає подання масиву вхідного документа
+-   [SolrInputDocument::addChildDocument](solrinputdocument.addchilddocument.md) — Додає дочірній документ для блокової індексації
+-   [SolrInputDocument::addChildDocuments](solrinputdocument.addchilddocuments.md) — Додає масив дочірніх документів
+-   [SolrInputDocument::addField](solrinputdocument.addfield.md) — Додає поле до документа
+-   [SolrInputDocument::clear](solrinputdocument.clear.md) — скидає вхідний документ
+-   [SolrInputDocument::clone](solrinputdocument.clone.md) - Створює копію SolrDocument
+-   [SolrInputDocument::construct](solrinputdocument.construct.md) - Конструктор
+-   [SolrInputDocument::deleteField](solrinputdocument.deletefield.md) — Видаляє поле із документа
+-   [SolrInputDocument::destruct](solrinputdocument.destruct.md) - Деструктор
+-   [SolrInputDocument::fieldExists](solrinputdocument.fieldexists.md) — Перевіряє, чи є поле
+-   [SolrInputDocument::getBoost](solrinputdocument.getboost.md) — Отримує поточне значення підвищення документа
+-   [SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.md) - Повертає масив дочірніх документів (SolrInputDocument)
+-   [SolrInputDocument::getChildDocumentsCount](solrinputdocument.getchilddocumentscount.md) — Повертає кількість дочірніх документів
+-   [SolrInputDocument::getField](solrinputdocument.getfield.md) — Отримує поле на ім'я
+-   [SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.md) — Отримує значення підвищення для певного поля
+-   [SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.md) — Повертає кількість полів у документі
+-   [SolrInputDocument::getFieldNames](solrinputdocument.getfieldnames.md) — Повертає масив, що містить усі поля у документі
+-   [SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.md) — Повертає true, якщо документ має дочірні документи.
+-   [SolrInputDocument::merge](solrinputdocument.merge.md) — Об'єднує один вхідний документ до іншого
+-   [SolrInputDocument::reset](solrinputdocument.reset.md) - Псевдонім SolrInputDocument::clear
+-   [SolrInputDocument::setBoost](solrinputdocument.setboost.md) — Встановлює значення підвищення документа
+-   [SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.md) — Встановлює значення підвищення індексу часу для поля
+-   [SolrInputDocument::sort](solrinputdocument.sort.md) — Сортує поля у документі
+-   [SolrInputDocument::toArray](solrinputdocument.toarray.md) — Повертає подання масиву вхідного документа

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-menuitem.html: « UIMenuItem
-  - ui-menuitem.enable.html: 'ОЙMenuItem::enable »'
+  - class.ui-menuitem.md: « UIMenuItem
+  - ui-menuitem.enable.md: 'ОЙMenuItem::enable »'
   - index.md: PHP Manual
-  - class.ui-menuitem.html: ОЙMenuItem
+  - class.ui-menuitem.md: ОЙMenuItem
 title: 'ОЙMenuItem::disable'
 ---
 # ОЙMenuItem::disable

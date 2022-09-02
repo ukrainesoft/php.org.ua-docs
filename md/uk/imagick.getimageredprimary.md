@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimageproperty.html: '« Imagick::getImageProperty'
-  - imagick.getimageregion.html: 'Imagick::getImageRegion »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimageproperty.md: '« Imagick::getImageProperty'
+  - imagick.getimageregion.md: 'Imagick::getImageRegion »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageRedPrimary'
 ---
 # Imagick::getImageRedPrimary

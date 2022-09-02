@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sqlsrv-rollback.html: « sqlsrvrollback
-  - function.sqlsrv-send-stream-data.html: sqlsrvsendstreamdata »
+  - function.sqlsrv-rollback.md: « sqlsrvrollback
+  - function.sqlsrv-send-stream-data.md: sqlsrvsendstreamdata »
   - index.md: PHP Manual
   - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvrowsaffected

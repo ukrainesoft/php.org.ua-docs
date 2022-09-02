@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclass.gettraits.html: '« ReflectionClass::getTraits'
-  - reflectionclass.hasmethod.html: 'ReflectionClass::hasMethod »'
-  - index.html: PHP Manual
-  - class.reflectionclass.html: ReflectionClass
+  - reflectionclass.gettraits.md: '« ReflectionClass::getTraits'
+  - reflectionclass.hasmethod.md: 'ReflectionClass::hasMethod »'
+  - index.md: PHP Manual
+  - class.reflectionclass.md: ReflectionClass
 title: 'ReflectionClass::hasConstant'
 ---
 # ReflectionClass::hasConstant
@@ -56,5 +56,5 @@ bool(false)
 
 ### Дивіться також
 
--   [ReflectionClass::hasMethod()](reflectionclass.hasmethod.html) - Перевіряє, чи заданий метод
--   [ReflectionClass::hasProperty()](reflectionclass.hasproperty.html) - Перевіряє, чи визначено властивість
+-   [ReflectionClass::hasMethod()](reflectionclass.hasmethod.md) - Перевіряє, чи заданий метод
+-   [ReflectionClass::hasProperty()](reflectionclass.hasproperty.md) - Перевіряє, чи визначено властивість

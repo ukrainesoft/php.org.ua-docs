@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-err2str.html: « ldaperr2str
-  - function.ldap-error.html: ldaperror »
+  - function.ldap-err2str.md: « ldaperr2str
+  - function.ldap-error.md: ldaperror »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldaperrno
@@ -24,7 +24,7 @@ ldap_errno(LDAP\Connection $ldap): int
 
 `ldap`
 
-Екземпляр [LDAPConnection](class.ldap-connection.html), що повертається функцією [ldapconnect()](function.ldap-connect.md)
+Екземпляр [LDAPConnection](class.ldap-connection.md), що повертається функцією [ldapconnect()](function.ldap-connect.md)
 
 ### Значення, що повертаються
 

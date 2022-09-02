@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.checkdnsrr.md: « checkdnsrr
-  - function.dns-check-record.html: dnscheckrecord »
+  - function.dns-check-record.md: dnscheckrecord »
   - index.md: PHP Manual
   - ref.network.md: Мережеві функції
 title: closelog

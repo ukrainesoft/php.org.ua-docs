@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.dio-close.html: « dioclose
-  - function.dio-open.html: dioopen »
+  - function.dio-close.md: « dioclose
+  - function.dio-open.md: dioopen »
   - index.md: PHP Manual
   - ref.dio.md: Функції прямого введення/виводу
 title: diofcntl

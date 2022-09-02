@@ -1,7 +1,7 @@
 ---
 navigation:
-  - streamwrapper.url-stat.html: '« streamWrapper::urlstat'
-  - function.stream-bucket-append.html: streambucketappend »
+  - streamwrapper.url-stat.md: '« streamWrapper::urlstat'
+  - function.stream-bucket-append.md: streambucketappend »
   - index.md: PHP Manual
   - book.stream.md: Потоки
 title: Функції для роботи з потоками

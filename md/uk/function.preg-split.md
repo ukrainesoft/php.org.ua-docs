@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.preg-replace.html: « pregreplace
-  - book.ssdeep.html: ssdeep »
-  - index.html: PHP Manual
-  - ref.pcre.html: Функции PCRE
+  - function.preg-replace.md: « pregreplace
+  - book.ssdeep.md: ssdeep »
+  - index.md: PHP Manual
+  - ref.pcre.md: Функции PCRE
 title: pregsplit
 ---
 # pregsplit
@@ -146,7 +146,7 @@ Array
 
 **Підказка**
 
-Якщо вам не потрібна потужність регулярних виразів, ви можете вибрати швидші (хоч і прості) альтернативи на кшталт [explode()](function.explode.html) або [strsplit()](function.str-split.html)
+Якщо вам не потрібна потужність регулярних виразів, ви можете вибрати швидші (хоч і прості) альтернативи на кшталт [explode()](function.explode.md) або [strsplit()](function.str-split.md)
 
 **Підказка**
 
@@ -154,10 +154,10 @@ Array
 
 ### Дивіться також
 
--   "[Регулярні вирази PCRE](pcre.pattern.html)"
--   [pregquote()](function.preg-quote.html) - Екранує символи у регулярних виразах
--   [implode()](function.implode.html) - Об'єднує елементи масиву в рядок
--   [pregmatch()](function.preg-match.html) - Виконує перевірку на відповідність регулярному виразу
--   [pregmatchall()](function.preg-match-all.html) - Виконує глобальний пошук шаблону у рядку
--   [pregreplace()](function.preg-replace.html) - Виконує пошук та заміну за регулярним виразом
--   [preglasterror()](function.preg-last-error.html) - Повертає код помилки виконання останнього регулярного вираження PCRE
+-   "[Регулярні вирази PCRE](pcre.pattern.md)"
+-   [pregquote()](function.preg-quote.md) - Екранує символи у регулярних виразах
+-   [implode()](function.implode.md) - Об'єднує елементи масиву в рядок
+-   [pregmatch()](function.preg-match.md) - Виконує перевірку на відповідність регулярному виразу
+-   [pregmatchall()](function.preg-match-all.md) - Виконує глобальний пошук шаблону у рядку
+-   [pregreplace()](function.preg-replace.md) - Виконує пошук та заміну за регулярним виразом
+-   [preglasterror()](function.preg-last-error.md) - Повертає код помилки виконання останнього регулярного вираження PCRE

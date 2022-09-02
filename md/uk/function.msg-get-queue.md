@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.ftok.md: « ftok
-  - function.msg-queue-exists.html: msgqueueexists »
+  - function.msg-queue-exists.md: msgqueueexists »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: msggetqueue

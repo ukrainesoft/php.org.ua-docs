@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evloop.loopfork.html: '« EvLoop::loopFork'
-  - evloop.nowupdate.html: 'EvLoop::nowUpdate »'
-  - index.html: PHP Manual
-  - class.evloop.html: EvLoop
+  - evloop.loopfork.md: '« EvLoop::loopFork'
+  - evloop.nowupdate.md: 'EvLoop::nowUpdate »'
+  - index.md: PHP Manual
+  - class.evloop.md: EvLoop
 title: 'EvLoop::now'
 ---
 # EvLoop::now
@@ -31,4 +31,4 @@ public
 
 ### Дивіться також
 
--   [Ev::now()](ev.now.html) - Отримати час запуску останньої ітерації циклу за замовчуванням
+-   [Ev::now()](ev.now.md) - Отримати час запуску останньої ітерації циклу за замовчуванням

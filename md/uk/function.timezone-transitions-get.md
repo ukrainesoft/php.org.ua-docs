@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.timezone-open.html: « timezoneopen
-  - function.timezone-version-get.html: timezoneversionget »
+  - function.timezone-open.md: « timezoneopen
+  - function.timezone-version-get.md: timezoneversionget »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: timezonetransitionsget

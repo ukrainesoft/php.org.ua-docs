@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spldoublylinkedlist.setiteratormode.html: '« SplDoublyLinkedList::setIteratorMode'
-  - spldoublylinkedlist.top.html: 'SplDoublyLinkedList::top »'
-  - index.html: PHP Manual
-  - class.spldoublylinkedlist.html: SplDoublyLinkedList
+  - spldoublylinkedlist.setiteratormode.md: '« SplDoublyLinkedList::setIteratorMode'
+  - spldoublylinkedlist.top.md: 'SplDoublyLinkedList::top »'
+  - index.md: PHP Manual
+  - class.spldoublylinkedlist.md: SplDoublyLinkedList
 title: 'SplDoublyLinkedList::shift'
 ---
 # SplDoublyLinkedList::shift
@@ -28,4 +28,4 @@ public SplDoublyLinkedList::shift(): mixed
 
 ### Помилки
 
-Викидає виняток [RuntimeException](class.runtimeexception.html)коли структура даних порожня.
+Викидає виняток [RuntimeException](class.runtimeexception.md)коли структура даних порожня.

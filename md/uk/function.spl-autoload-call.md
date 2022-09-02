@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.iterator-to-array.html: « iteratorтоarray
-  - function.spl-autoload-extensions.html: splautoloadextensions »
-  - index.html: PHP Manual
-  - ref.spl.html: Функції SPL
+  - function.iterator-to-array.md: « iteratorтоarray
+  - function.spl-autoload-extensions.md: splautoloadextensions »
+  - index.md: PHP Manual
+  - ref.spl.md: Функції SPL
 title: splautoloadcall
 ---
 # splautoloadcall

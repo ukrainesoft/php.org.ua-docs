@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.getsockname.html: '« SwooleClient::getsockname'
-  - swoole-client.on.html: 'SwooleClient::on »'
+  - swoole-client.getsockname.md: '« SwooleClient::getsockname'
+  - swoole-client.on.md: 'SwooleClient::on »'
   - index.md: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::isConnected'
 ---
 # SwooleClient::isConnected

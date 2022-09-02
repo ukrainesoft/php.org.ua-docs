@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mailparse-msg-free.html: « mailparsemsgfree
-  - function.mailparse-msg-get-part.html: mailparsemsggetpart »
+  - function.mailparse-msg-free.md: « mailparsemsgfree
+  - function.mailparse-msg-get-part.md: mailparsemsggetpart »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
 title: mailparsemsggetpartdata

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-split.html: « mbsplit
-  - function.mb-strcut.html: мбstrcut »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-split.md: « mbsplit
+  - function.mb-strcut.md: мбstrcut »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбstrsplit
 ---
 # мбstrsplit

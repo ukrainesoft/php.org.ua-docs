@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-fetch-assoc.html: « mysqlfetchassoc
-  - function.mysql-fetch-lengths.html: mysqlfetchlengths »
+  - function.mysql-fetch-assoc.md: « mysqlfetchassoc
+  - function.mysql-fetch-lengths.md: mysqlfetchlengths »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlfetchfield

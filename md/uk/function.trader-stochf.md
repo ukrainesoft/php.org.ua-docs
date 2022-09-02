@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-stoch.html: « traderstoch
-  - function.trader-stochrsi.html: traderstochrsi »
+  - function.trader-stoch.md: « traderstoch
+  - function.trader-stochrsi.md: traderstochrsi »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: traderstochf

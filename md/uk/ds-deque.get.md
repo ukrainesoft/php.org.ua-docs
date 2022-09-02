@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-deque.first.html: '« DsDeque::first'
-  - ds-deque.insert.html: 'ДсDeque::insert »'
+  - ds-deque.first.md: '« DsDeque::first'
+  - ds-deque.insert.md: 'ДсDeque::insert »'
   - index.md: PHP Manual
-  - class.ds-deque.html: Двостороння черга
+  - class.ds-deque.md: Двостороння черга
 title: 'ДсDeque::get'
 ---
 # ДсDeque::get

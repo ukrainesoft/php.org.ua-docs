@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-listscan.html: « imaplistscan
-  - function.imap-lsub.html: imaplsub »
+  - function.imap-listscan.md: « imaplistscan
+  - function.imap-lsub.md: imaplsub »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imaplistsubscribed

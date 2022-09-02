@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mysql-fetch-field.html: « mysqlfetchfield
-  - function.mysql-fetch-object.html: mysqlfetchobject »
+  - function.mysql-fetch-field.md: « mysqlfetchfield
+  - function.mysql-fetch-object.md: mysqlfetchobject »
   - index.md: PHP Manual
   - ref.mysql.md: MySQL
 title: mysqlfetchlengths
@@ -27,7 +27,7 @@ mysql_fetch_lengths(resource $result): array|false
 
 Повертає масив довжин кожного поля, що міститься в останньому ряду результату, отриманому з MySQL.
 
-**mysqlfetchlengths()** повертає довжини кожного поля, що міститься в останньому ряду, обробленому функціями [mysqlfetchrow()](function.mysql-fetch-row.html) [mysqlfetchassoc()](function.mysql-fetch-assoc.html) [mysqlfetcharray()](function.mysql-fetch-array.html) і [mysqlfetchobject()](function.mysql-fetch-object.md) у масиві, що починається з 0.
+**mysqlfetchlengths()** повертає довжини кожного поля, що міститься в останньому ряду, обробленому функціями [mysqlfetchrow()](function.mysql-fetch-row.md) [mysqlfetchassoc()](function.mysql-fetch-assoc.md) [mysqlfetcharray()](function.mysql-fetch-array.md) і [mysqlfetchobject()](function.mysql-fetch-object.md) у масиві, що починається з 0.
 
 ### Список параметрів
 

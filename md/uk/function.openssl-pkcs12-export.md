@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkcs12-export-to-file.html: « opensslpkcs12exportтоfile
-  - function.openssl-pkcs12-read.html: opensslpkcs12read »
+  - function.openssl-pkcs12-export-to-file.md: « opensslpkcs12exportтоfile
+  - function.openssl-pkcs12-read.md: opensslpkcs12read »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkcs12export

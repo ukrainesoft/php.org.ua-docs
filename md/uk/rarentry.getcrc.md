@@ -1,9 +1,9 @@
 ---
 navigation:
-  - rarentry.getattr.html: '« RarEntry::getAttr'
-  - rarentry.getfiletime.html: 'RarEntry::getFileTime »'
-  - index.html: PHP Manual
-  - class.rarentry.html: RarEntry
+  - rarentry.getattr.md: '« RarEntry::getAttr'
+  - rarentry.getfiletime.md: 'RarEntry::getFileTime »'
+  - index.md: PHP Manual
+  - class.rarentry.md: RarEntry
 title: 'RarEntry::getCrc'
 ---
 # RarEntry::getCrc

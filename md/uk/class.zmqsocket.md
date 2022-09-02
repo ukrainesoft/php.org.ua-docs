@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zmqcontext.setopt.html: '« ZMQContext::setOpt'
-  - zmqsocket.bind.html: 'ZMQSocket::bind »'
-  - index.html: PHP Manual
-  - book.zmq.html: Обмін повідомленнями 0MQ
+  - zmqcontext.setopt.md: '« ZMQContext::setOpt'
+  - zmqsocket.bind.md: 'ZMQSocket::bind »'
+  - index.md: PHP Manual
+  - book.zmq.md: Обмін повідомленнями 0MQ
 title: Клас ZMQSocket
 ---
 # Клас ZMQSocket

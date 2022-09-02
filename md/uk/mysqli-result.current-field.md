@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.construct.html: '« mysqliresult::construct'
-  - mysqli-result.data-seek.html: 'mysqliresult::dataseek »'
+  - mysqli-result.construct.md: '« mysqliresult::construct'
+  - mysqli-result.data-seek.md: 'mysqliresult::dataseek »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::$currentfield'
 ---
 # mysqliresult::$currentfield
@@ -26,13 +26,13 @@ int [$mysqliresult->currentfield](mysqli-result.current-field.md)
 mysqli_field_tell(mysqli_result $result): int
 ```
 
-Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqlifetchfield()](mysqli-result.fetch-field.html). Це значення може бути використане як аргумент для [mysqlifieldseek()](mysqli-result.field-seek.md)
+Повертає позицію покажчика поля, що використовується під час останнього виклику [mysqlifetchfield()](mysqli-result.fetch-field.md). Це значення може бути використане як аргумент для [mysqlifieldseek()](mysqli-result.field-seek.md)
 
 ### Список параметрів
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 ### Значення, що повертаються
 

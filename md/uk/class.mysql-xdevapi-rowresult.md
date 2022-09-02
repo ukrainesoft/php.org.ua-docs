@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-result.getwarningscount.html: '« Result::getWarningsCount'
-  - mysql-xdevapi-rowresult.construct.html: 'RowResult::construct »'
+  - mysql-xdevapi-result.getwarningscount.md: '« Result::getWarningsCount'
+  - mysql-xdevapi-rowresult.construct.md: 'RowResult::construct »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас RowResult
 ---
 # Клас RowResult

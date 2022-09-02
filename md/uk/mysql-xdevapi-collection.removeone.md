@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collection.remove.html: '« Collection::remove'
-  - mysql-xdevapi-collection.replaceone.html: 'Collection::replaceOne »'
+  - mysql-xdevapi-collection.remove.md: '« Collection::remove'
+  - mysql-xdevapi-collection.replaceone.md: 'Collection::replaceOne »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collection.html: mysqlxdevapiCollection
+  - class.mysql-xdevapi-collection.md: mysqlxdevapiCollection
 title: 'Collection::removeOne'
 ---
 # Collection::removeOne

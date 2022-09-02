@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.setimageiterations.html: '« Imagick::setImageIterations'
-  - imagick.setimagemattecolor.html: 'Imagick::setImageMatteColor »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.setimageiterations.md: '« Imagick::setImageIterations'
+  - imagick.setimagemattecolor.md: 'Imagick::setImageMatteColor »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::setImageMatte'
 ---
 # Imagick::setImageMatte

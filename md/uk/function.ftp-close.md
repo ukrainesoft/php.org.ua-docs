@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-chmod.html: « ftpchmod
-  - function.ftp-connect.html: ftpconnect »
+  - function.ftp-chmod.md: « ftpchmod
+  - function.ftp-connect.md: ftpconnect »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpclose

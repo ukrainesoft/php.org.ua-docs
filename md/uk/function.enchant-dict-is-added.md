@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-dict-get-error.html: « enchantdictgeterror
-  - function.enchant-dict-is-in-session.html: enchantdictісінsession »
+  - function.enchant-dict-get-error.md: « enchantdictgeterror
+  - function.enchant-dict-is-in-session.md: enchantdictісінsession »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantdictісadded
@@ -24,7 +24,7 @@ enchant_dict_is_added(EnchantDictionary $dictionary, string $word): bool
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 

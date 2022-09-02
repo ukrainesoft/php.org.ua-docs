@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.getimage.html: '« Imagick::getImage'
-  - imagick.getimageartifact.html: 'Imagick::getImageArtifact »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.getimage.md: '« Imagick::getImage'
+  - imagick.getimageartifact.md: 'Imagick::getImageArtifact »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::getImageAlphaChannel'
 ---
 # Imagick::getImageAlphaChannel

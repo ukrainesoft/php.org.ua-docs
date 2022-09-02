@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pspell-suggest.html: « pspellsuggest
-  - class.pspell-config.html: PSpellConfig »
+  - function.pspell-suggest.md: « pspellsuggest
+  - class.pspell-config.md: PSpellConfig »
   - index.md: PHP Manual
   - book.pspell.md: Pspell
 title: Клас PSpellDictionary

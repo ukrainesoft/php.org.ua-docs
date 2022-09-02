@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ini-set.html: « iniset
-  - function.memory-get-usage.html: memorygetusage »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.ini-set.md: « iniset
+  - function.memory-get-usage.md: memorygetusage »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: memorygetpeakusage
 ---
 # memorygetpeakusage
@@ -32,5 +32,5 @@ memory_get_peak_usage(bool $real_usage = false): int
 
 ### Дивіться також
 
--   [memorygetusage()](function.memory-get-usage.html) - Повертає кількість пам'яті, виділену для PHP
--   [memorylimit](ini.core.html#ini.memory-limit)
+-   [memorygetusage()](function.memory-get-usage.md) - Повертає кількість пам'яті, виділену для PHP
+-   [memorylimit](ini.core.md#ini.memory-limit)

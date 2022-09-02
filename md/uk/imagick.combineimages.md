@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.colormatriximage.html: '« Imagick::colorMatrixImage'
-  - imagick.commentimage.html: 'Imagick::commentImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.colormatriximage.md: '« Imagick::colorMatrixImage'
+  - imagick.commentimage.md: 'Imagick::commentImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::combineImages'
 ---
 # Imagick::combineImages
@@ -24,7 +24,7 @@ public Imagick::combineImages(int $channelType): Imagick
 
 `channelType`
 
-Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.html#imagick.constants.channel)
+Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму каналу. Для використання більш ніж одного каналу об'єднайте константи типу CHANNEL за допомогою побітових операторів. Зверніться до цього списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

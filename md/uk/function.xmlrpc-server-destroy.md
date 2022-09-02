@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xmlrpc-server-create.html: « xmlrpcservercreate
-  - function.xmlrpc-server-register-introspection-callback.html: xmlrpcserverregisterintrospectioncallback »
-  - index.html: PHP Manual
-  - ref.xmlrpc.html: Функції XML-RPC
+  - function.xmlrpc-server-create.md: « xmlrpcservercreate
+  - function.xmlrpc-server-register-introspection-callback.md: xmlrpcserverregisterintrospectioncallback »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcserverdestroy
 ---
 # xmlrpcserverdestroy

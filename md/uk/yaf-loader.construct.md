@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-loader.clearlocalnamespace.html: '« YafLoader::clearLocalNamespace'
-  - yaf-loader.getinstance.html: 'YafLoader::getInstance »'
+  - yaf-loader.clearlocalnamespace.md: '« YafLoader::clearLocalNamespace'
+  - yaf-loader.getinstance.md: 'YafLoader::getInstance »'
   - index.md: PHP Manual
-  - class.yaf-loader.html: YafLoader
+  - class.yaf-loader.md: YafLoader
 title: 'YafLoader::construct'
 ---
 # YafLoader::construct

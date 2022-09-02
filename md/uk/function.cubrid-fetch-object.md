@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cubrid-fetch-lengths.html: « cubridfetchlengths
-  - function.cubrid-fetch-row.html: cubridfetchrow »
-  - index.html: PHP Manual
-  - cubridmysql.cubrid.html: Функції сумісності CUBRID MySQL
+  - function.cubrid-fetch-lengths.md: « cubridfetchlengths
+  - function.cubrid-fetch-row.md: cubridfetchrow »
+  - index.md: PHP Manual
+  - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridfetchobject
 ---
 # cubridfetchobject

@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.funchand.md: « Функции управления функциями
-  - function.call-user-func.html: calluserfunc »
+  - function.call-user-func.md: calluserfunc »
   - index.md: PHP Manual
   - ref.funchand.md: Функции управления функциями
 title: calluserfuncarray

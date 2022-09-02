@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.svn-fs-contents-changed.html: « svnфсcontentschanged
-  - function.svn-fs-delete.html: svnфсdelete »
-  - index.html: PHP Manual
-  - ref.svn.html: Функції SVN
+  - function.svn-fs-contents-changed.md: « svnфсcontentschanged
+  - function.svn-fs-delete.md: svnфсdelete »
+  - index.md: PHP Manual
+  - ref.svn.md: Функції SVN
 title: svnфсcopy
 ---
 # svnфсcopy

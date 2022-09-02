@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunction.construct.html: '« ReflectionFunction::construct'
-  - reflectionfunction.getclosure.html: 'ReflectionFunction::getClosure »'
-  - index.html: PHP Manual
-  - class.reflectionfunction.html: ReflectionFunction
+  - reflectionfunction.construct.md: '« ReflectionFunction::construct'
+  - reflectionfunction.getclosure.md: 'ReflectionFunction::getClosure »'
+  - index.md: PHP Manual
+  - class.reflectionfunction.md: ReflectionFunction
 title: 'ReflectionFunction::export'
 ---
 # ReflectionFunction::export
@@ -40,5 +40,5 @@ public static ReflectionFunction::export(string $name, string $return = ?): stri
 
 ### Дивіться також
 
--   [ReflectionFunction::invoke()](reflectionfunction.invoke.html) - Викликає функцію
--   [ReflectionFunction::toString()](reflectionfunction.tostring.html) - Подання у вигляді рядка
+-   [ReflectionFunction::invoke()](reflectionfunction.invoke.md) - Викликає функцію
+-   [ReflectionFunction::toString()](reflectionfunction.tostring.md) - Подання у вигляді рядка

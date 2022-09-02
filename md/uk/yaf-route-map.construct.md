@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-map.assemble.html: '« YafRouteMap::assemble'
-  - yaf-route-map.route.html: 'YafRouteMap::route »'
-  - index.html: PHP Manual
-  - class.yaf-route-map.html: YafRouteMap
+  - yaf-route-map.assemble.md: '« YafRouteMap::assemble'
+  - yaf-route-map.route.md: 'YafRouteMap::route »'
+  - index.md: PHP Manual
+  - class.yaf-route-map.md: YafRouteMap
 title: 'YafRouteMap::construct'
 ---
 # YafRouteMap::construct
@@ -102,9 +102,9 @@ array(
 
 ### Дивіться також
 
--   [YafRouter::addRoute()](yaf-router.addroute.html) - Додає новий маршрут до маршрутизатора
--   [YafRouteStatic](class.yaf-route-static.html)
--   [YafRouteSupervar](class.yaf-route-supervar.html)
--   [YafRouteSimple](class.yaf-route-simple.html)
--   [YafRouteRegex](class.yaf-route-regex.html)
--   [YafRouteRewrite](class.yaf-route-rewrite.html)
+-   [YafRouter::addRoute()](yaf-router.addroute.md) - Додає новий маршрут до маршрутизатора
+-   [YafRouteStatic](class.yaf-route-static.md)
+-   [YafRouteSupervar](class.yaf-route-supervar.md)
+-   [YafRouteSimple](class.yaf-route-simple.md)
+-   [YafRouteRegex](class.yaf-route-regex.md)
+-   [YafRouteRewrite](class.yaf-route-rewrite.md)

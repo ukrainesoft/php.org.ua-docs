@@ -1,7 +1,7 @@
 ---
 navigation:
-  - parallel-runtime.kill.html: '« parallelRuntime::kill'
-  - parallel-future.cancel.html: 'parallelFuture::cancel »'
+  - parallel-runtime.kill.md: '« parallelRuntime::kill'
+  - parallel-future.cancel.md: 'parallelFuture::cancel »'
   - index.md: PHP Manual
   - book.parallel.md: parallel
 title: Клас parallelFuture

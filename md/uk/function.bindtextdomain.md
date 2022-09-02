@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.bind-textdomain-codeset.html: « bindtextdomaincodeset
+  - function.bind-textdomain-codeset.md: « bindtextdomaincodeset
   - function.dcgettext.md: dcgettext »
   - index.md: PHP Manual
   - ref.gettext.md: Функции gettext

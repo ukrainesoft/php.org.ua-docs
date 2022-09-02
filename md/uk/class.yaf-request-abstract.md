@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-registry.set.html: '« YafRegistry::set'
-  - yaf-request-abstract.clearparams.html: 'YafRequestAbstract::clearParams »'
+  - yaf-registry.set.md: '« YafRegistry::set'
+  - yaf-request-abstract.clearparams.md: 'YafRequestAbstract::clearParams »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafRequestAbstract

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - math.requirements.html: « Вимоги
-  - math.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - math.setup.html: Встановлення та налаштування
+  - math.requirements.md: « Вимоги
+  - math.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - math.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

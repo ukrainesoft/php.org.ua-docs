@@ -1,9 +1,9 @@
 ---
 navigation:
-  - math.installation.html: « Установка
-  - math.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - math.setup.html: Встановлення та налаштування
+  - math.installation.md: « Установка
+  - math.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - math.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

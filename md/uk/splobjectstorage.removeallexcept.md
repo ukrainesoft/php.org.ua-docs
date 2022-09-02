@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splobjectstorage.removeall.html: '« SplObjectStorage::removeAll'
-  - splobjectstorage.rewind.html: 'SplObjectStorage::rewind »'
-  - index.html: PHP Manual
-  - class.splobjectstorage.html: SplObjectStorage
+  - splobjectstorage.removeall.md: '« SplObjectStorage::removeAll'
+  - splobjectstorage.rewind.md: 'SplObjectStorage::rewind »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::removeAllExcept'
 ---
 # SplObjectStorage::removeAllExcept

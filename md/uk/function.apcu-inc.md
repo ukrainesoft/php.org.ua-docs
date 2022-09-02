@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.apcu-fetch.html: « apcufetch
-  - function.apcu-key-info.html: apcukeyinfo »
-  - index.html: PHP Manual
-  - ref.apcu.html: Функции APCu
+  - function.apcu-fetch.md: « apcufetch
+  - function.apcu-key-info.md: apcukeyinfo »
+  - index.md: PHP Manual
+  - ref.apcu.md: Функции APCu
 title: apcuinc
 ---
 # apcuinc

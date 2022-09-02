@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.imap.md: « Функции IMAP
-  - function.imap-alerts.html: imapalerts »
+  - function.imap-alerts.md: imapalerts »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imap8bit

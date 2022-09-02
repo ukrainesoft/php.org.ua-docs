@@ -1,9 +1,9 @@
 ---
 navigation:
-  - var-representation.requirements.html: « Вимоги
-  - var-representation.constants.html: Обумовлені константи »
+  - var-representation.requirements.md: « Вимоги
+  - var-representation.constants.md: Обумовлені константи »
   - index.md: PHP Manual
-  - var-representation.setup.html: Встановлення та налаштування
+  - var-representation.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

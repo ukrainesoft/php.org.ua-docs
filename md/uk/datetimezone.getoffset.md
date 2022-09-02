@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetimezone.getname.html: '« DateTimeZone::getName'
-  - datetimezone.gettransitions.html: 'DateTimeZone::getTransitions »'
-  - index.html: PHP Manual
-  - class.datetimezone.html: DateTimeZone
+  - datetimezone.getname.md: '« DateTimeZone::getName'
+  - datetimezone.gettransitions.md: 'DateTimeZone::getTransitions »'
+  - index.md: PHP Manual
+  - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::getOffset'
 ---
 # DateTimeZone::getOffset
@@ -34,7 +34,7 @@ timezone_offset_get(DateTimeZone $object, DateTimeInterface $datetime): int
 
 `object`
 
-Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.html), що повертається [timezoneopen()](function.timezone-open.html)
+Тільки для процедурного стилю: об'єкт [DateTimeZone](class.datetimezone.md), що повертається [timezoneopen()](function.timezone-open.md)
 
 `datetime`
 

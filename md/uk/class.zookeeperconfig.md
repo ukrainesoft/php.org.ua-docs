@@ -1,9 +1,9 @@
 ---
 navigation:
-  - zookeeper.setwatcher.html: '« Zookeeper::setWatcher'
-  - zookeeperconfig.add.html: 'ZookeeperConfig::add »'
-  - index.html: PHP Manual
-  - book.zookeeper.html: ZooKeeper
+  - zookeeper.setwatcher.md: '« Zookeeper::setWatcher'
+  - zookeeperconfig.add.md: 'ZookeeperConfig::add »'
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
 title: Клас ZookeeperConfig
 ---
 # Клас ZookeeperConfig
@@ -46,7 +46,7 @@ public
 
 ## Зміст
 
--   [ZookeeperConfig::add](zookeeperconfig.add.html) — Додає сервери до ансамблю
--   [ZookeeperConfig::get](zookeeperconfig.get.html) — Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
--   [ZookeeperConfig::remove](zookeeperconfig.remove.html) — Видаляє сервери з ансамблю
--   [ZookeeperConfig::set](zookeeperconfig.set.html) — Змінює склад ансамблю ZK та ролі його учасників
+-   [ZookeeperConfig::add](zookeeperconfig.add.md) — Додає сервери до ансамблю
+-   [ZookeeperConfig::get](zookeeperconfig.get.md) — Синхронно отримує останню підтверджену конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого підключено клієнта
+-   [ZookeeperConfig::remove](zookeeperconfig.remove.md) — Видаляє сервери з ансамблю
+-   [ZookeeperConfig::set](zookeeperconfig.set.md) — Змінює склад ансамблю ZK та ролі його учасників

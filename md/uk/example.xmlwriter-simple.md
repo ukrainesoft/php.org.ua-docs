@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.examples.html: « Приклади
-  - example.xmlwriter-namespace.html: Робота з просторами імен XML »
-  - index.html: PHP Manual
-  - xmlwriter.examples.html: Приклади
+  - xmlwriter.examples.md: « Приклади
+  - example.xmlwriter-namespace.md: Робота з просторами імен XML »
+  - index.md: PHP Manual
+  - xmlwriter.examples.md: Приклади
 title: Створення простого XML-документа
 ---
 ## Створення простого XML-документа

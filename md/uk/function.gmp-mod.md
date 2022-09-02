@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gmp-legendre.html: « gmplegendre
-  - function.gmp-mul.html: gmpmul »
+  - function.gmp-legendre.md: « gmplegendre
+  - function.gmp-mul.md: gmpmul »
   - index.md: PHP Manual
   - ref.gmp.md: GMP Функції
 title: gmpmod

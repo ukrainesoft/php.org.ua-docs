@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.gethighlightrequirefieldmatch.html: '« SolrQuery::getHighlightRequireFieldMatch'
-  - solrquery.gethighlightsimplepre.html: 'SolrQuery::getHighlightSimplePre »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.gethighlightrequirefieldmatch.md: '« SolrQuery::getHighlightRequireFieldMatch'
+  - solrquery.gethighlightsimplepre.md: 'SolrQuery::getHighlightSimplePre »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getHighlightSimplePost'
 ---
 # SolrQuery::getHighlightSimplePost

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.basename.html: « basename
-  - function.chmod.html: chmod »
-  - index.html: PHP Manual
-  - ref.filesystem.html: Функції файлової системи
+  - function.basename.md: « basename
+  - function.chmod.md: chmod »
+  - index.md: PHP Manual
+  - ref.filesystem.md: Функції файлової системи
 title: chgrp
 ---
 # chgrp

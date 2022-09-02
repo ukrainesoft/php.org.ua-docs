@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunction.export.html: '« ReflectionFunction::export'
-  - reflectionfunction.invoke.html: 'ReflectionFunction::invoke »'
-  - index.html: PHP Manual
-  - class.reflectionfunction.html: ReflectionFunction
+  - reflectionfunction.export.md: '« ReflectionFunction::export'
+  - reflectionfunction.invoke.md: 'ReflectionFunction::invoke »'
+  - index.md: PHP Manual
+  - class.reflectionfunction.md: ReflectionFunction
 title: 'ReflectionFunction::getClosure'
 ---
 # ReflectionFunction::getClosure

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-mknod.html: « eiomknod
-  - function.eio-npending.html: eionpending »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-mknod.md: « eiomknod
+  - function.eio-npending.md: eionpending »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eionop
 ---
 # eionop

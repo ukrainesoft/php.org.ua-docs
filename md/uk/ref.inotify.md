@@ -1,9 +1,9 @@
 ---
 navigation:
-  - inotify.constants.html: « Обумовлені константи
-  - function.inotify-add-watch.html: inotifyaddwatch »
-  - index.html: PHP Manual
-  - book.inotify.html: Inotify
+  - inotify.constants.md: « Обумовлені константи
+  - function.inotify-add-watch.md: inotifyaddwatch »
+  - index.md: PHP Manual
+  - book.inotify.md: Inotify
 title: Функції Inotify
 ---
 # Функції Inotify

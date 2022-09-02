@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server-port.on.html: '« SwooleServerPort::on'
-  - swoole-server.exist.html: 'SwooleServer::exist »'
+  - swoole-server-port.on.md: '« SwooleServerPort::on'
+  - swoole-server.exist.md: 'SwooleServer::exist »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServerPort::set'
 ---
 # SwooleServerPort::set

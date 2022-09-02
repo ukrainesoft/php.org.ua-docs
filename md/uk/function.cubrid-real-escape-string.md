@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-query.html: « cubridquery
-  - function.cubrid-result.html: cubridresult »
+  - function.cubrid-query.md: « cubridquery
+  - function.cubrid-result.md: cubridresult »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridrealescapestring

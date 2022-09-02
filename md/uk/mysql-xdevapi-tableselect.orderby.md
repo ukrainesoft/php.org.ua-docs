@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.offset.html: '« TableSelect::offset'
-  - mysql-xdevapi-tableselect.where.html: 'TableSelect::where »'
+  - mysql-xdevapi-tableselect.offset.md: '« TableSelect::offset'
+  - mysql-xdevapi-tableselect.where.md: 'TableSelect::where »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::orderby'
 ---
 # TableSelect::orderby

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventhttp.setmaxheaderssize.html: '« EventHttp::setMaxHeadersSize'
-  - class.eventhttpconnection.html: EventHttpConnection »
-  - index.html: PHP Manual
-  - class.eventhttp.html: EventHttp
+  - eventhttp.setmaxheaderssize.md: '« EventHttp::setMaxHeadersSize'
+  - class.eventhttpconnection.md: EventHttpConnection »
+  - index.md: PHP Manual
+  - class.eventhttp.md: EventHttp
 title: 'EventHttp::setTimeout'
 ---
 # EventHttp::setTimeout

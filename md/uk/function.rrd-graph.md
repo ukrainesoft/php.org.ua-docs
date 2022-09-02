@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.rrd-first.html: « rrdfirst
-  - function.rrd-info.html: rrdinfo »
+  - function.rrd-first.md: « rrdfirst
+  - function.rrd-info.md: rrdinfo »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
 title: rrdgraph

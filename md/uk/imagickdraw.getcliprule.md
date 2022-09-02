@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.getclippath.html: '« ImagickDraw::getClipPath'
-  - imagickdraw.getclipunits.html: 'ImagickDraw::getClipUnits »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.getclippath.md: '« ImagickDraw::getClipPath'
+  - imagickdraw.getclipunits.md: 'ImagickDraw::getClipUnits »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getClipRule'
 ---
 # ImagickDraw::getClipRule
@@ -26,4 +26,4 @@ public ImagickDraw::getClipRule(): int
 
 ### Значення, що повертаються
 
-Повертає одну з констант [FILLRULE](imagick.constants.html#imagick.constants.fillrule) `imagick::FILLRULE_*`
+Повертає одну з констант [FILLRULE](imagick.constants.md#imagick.constants.fillrule) `imagick::FILLRULE_*`

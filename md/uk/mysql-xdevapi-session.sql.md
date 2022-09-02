@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.setsavepoint.html: '« Session::setSavepoint'
-  - mysql-xdevapi-session.starttransaction.html: 'Session::startTransaction »'
+  - mysql-xdevapi-session.setsavepoint.md: '« Session::setSavepoint'
+  - mysql-xdevapi-session.starttransaction.md: 'Session::startTransaction »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::sql'
 ---
 # Session::sql

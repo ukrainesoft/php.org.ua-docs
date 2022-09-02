@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-restore.html: « uopzrestore
-  - function.uopz-set-mock.html: uopzsetmock »
+  - function.uopz-restore.md: « uopzrestore
+  - function.uopz-set-mock.md: uopzsetmock »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzsethook

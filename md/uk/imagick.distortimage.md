@@ -28,7 +28,7 @@ public Imagick::distortImage(int $method, array $arguments, bool $bestfit): bool
 
 `method`
 
-Метод спотворення зображення. Дивіться [константи спотворення](imagick.constants.html#imagick.constants.distortion)
+Метод спотворення зображення. Дивіться [константи спотворення](imagick.constants.md#imagick.constants.distortion)
 
 `arguments`
 

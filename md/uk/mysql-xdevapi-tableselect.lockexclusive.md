@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.limit.html: '« TableSelect::limit'
-  - mysql-xdevapi-tableselect.lockshared.html: 'TableSelect::lockShared »'
+  - mysql-xdevapi-tableselect.limit.md: '« TableSelect::limit'
+  - mysql-xdevapi-tableselect.lockshared.md: 'TableSelect::lockShared »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::lockExclusive'
 ---
 # TableSelect::lockExclusive

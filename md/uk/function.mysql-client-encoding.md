@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mysql-affected-rows.html: « mysqlaffectedrows
-  - function.mysql-close.html: mysqlclose »
-  - index.html: PHP Manual
-  - ref.mysql.html: MySQL
+  - function.mysql-affected-rows.md: « mysqlaffectedrows
+  - function.mysql-close.md: mysqlclose »
+  - index.md: PHP Manual
+  - ref.mysql.md: MySQL
 title: mysqlclientencoding
 ---
 # mysqlclientencoding
@@ -14,9 +14,9 @@ mysqlclientencoding — Повертає кодування з'єднання
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
--   [mysqlicharactersetname()](mysqli.character-set-name.html)
+-   [mysqlicharactersetname()](mysqli.character-set-name.md)
 
 ### Опис
 
@@ -30,7 +30,7 @@ mysql_client_encoding(resource $link_identifier = NULL): string
 
 `link_identifier`
 
-З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.html). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.html) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
+З'єднання MySQL. Якщо ідентифікатор з'єднання не вказано, використовується останнє з'єднання, відкрите [mysqlconnect()](function.mysql-connect.md). Якщо таке з'єднання не було знайдено, функція спробує створити таке, якби [mysqlconnect()](function.mysql-connect.md) було викликано без параметрів. Якщо з'єднання не було знайдено та не змогло бути створено, генерується помилка рівня **`E_WARNING`**
 
 ### Значення, що повертаються
 
@@ -57,5 +57,5 @@ echo "Текущая кодировка: $charset\n";
 
 ### Дивіться також
 
--   [mysqlsetcharset()](function.mysql-set-charset.html) - Встановлює кодування клієнта
--   [mysqlrealescapestring()](function.mysql-real-escape-string.html) - Екранує спеціальні символи у рядках для використання у виразах SQL
+-   [mysqlsetcharset()](function.mysql-set-charset.md) - Встановлює кодування клієнта
+-   [mysqlrealescapestring()](function.mysql-real-escape-string.md) - Екранує спеціальні символи у рядках для використання у виразах SQL

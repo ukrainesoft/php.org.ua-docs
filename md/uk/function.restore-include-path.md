@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.putenv.md: « putenv
-  - function.set-include-path.html: setincludepath »
+  - function.set-include-path.md: setincludepath »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: restoreincludepath
@@ -22,7 +22,7 @@ restoreincludepath — Відновлює початкове значення к
 restore_include_path(): void
 ```
 
-Відновлює вихідне значення конфігураційної установки [includepath](ini.core.html#ini.include-path), яка записана в php.ini
+Відновлює вихідне значення конфігураційної установки [includepath](ini.core.md#ini.include-path), яка записана в php.ini
 
 ### Список параметрів
 

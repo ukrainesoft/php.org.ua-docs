@@ -1,9 +1,9 @@
 ---
 navigation:
-  - directoryiterator.islink.html: '« DirectoryIterator::isLink'
-  - directoryiterator.iswritable.html: 'DirectoryIterator::isWritable »'
-  - index.html: PHP Manual
-  - class.directoryiterator.html: DirectoryIterator
+  - directoryiterator.islink.md: '« DirectoryIterator::isLink'
+  - directoryiterator.iswritable.md: 'DirectoryIterator::isWritable »'
+  - index.md: PHP Manual
+  - class.directoryiterator.md: DirectoryIterator
 title: 'DirectoryIterator::isReadable'
 ---
 # DirectoryIterator::isReadable
@@ -18,7 +18,7 @@ DirectoryIterator::isReadable — Визначає, чи доступний по
 public DirectoryIterator::isReadable(): bool
 ```
 
-Визначає, чи поточний елемент доступний. [DirectoryIterator](class.directoryiterator.html) для читання.
+Визначає, чи поточний елемент доступний. [DirectoryIterator](class.directoryiterator.md) для читання.
 
 ### Список параметрів
 
@@ -54,6 +54,6 @@ pears.jpg
 
 ### Дивіться також
 
--   [DirectoryIterator::isExecutable()](directoryiterator.isexecutable.html) - Визначає, чи поточний елемент DirectoryIterator виконується
--   [DirectoryIterator::isWritable()](directoryiterator.iswritable.html) - Визначає, чи доступний поточний елемент DirectoryIterator для запису
--   [DirectoryIterator::getPerms()](directoryiterator.getperms.html) - Повертає набір прав для поточного елемента DirectoryIterator item
+-   [DirectoryIterator::isExecutable()](directoryiterator.isexecutable.md) - Визначає, чи поточний елемент DirectoryIterator виконується
+-   [DirectoryIterator::isWritable()](directoryiterator.iswritable.md) - Визначає, чи доступний поточний елемент DirectoryIterator для запису
+-   [DirectoryIterator::getPerms()](directoryiterator.getperms.md) - Повертає набір прав для поточного елемента DirectoryIterator item

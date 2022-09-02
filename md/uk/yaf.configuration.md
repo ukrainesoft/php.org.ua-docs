@@ -14,16 +14,16 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [yaf.library](yaf.configuration.html#ini.yaf.library) |  | PHPINIALL |  |
-| [yaf.actionprefer](yaf.configuration.html#ini.yaf.action-prefer) |  | PHPINIALL |  |
-| [yaf.lowcasepath](yaf.configuration.html#ini.yaf.lowcase-path) |  | PHPINIALL |  |
-| [yaf.usesplautoload](yaf.configuration.html#ini.yaf.use-spl-autoload) |  | PHPINIALL |  |
-| [yaf.forwardlimit](yaf.configuration.html#ini.yaf.forward-limit) |  | PHPINIALL |  |
-| [yaf.namesuffix](yaf.configuration.html#ini.yaf.name-suffix) |  | PHPINIALL |  |
-| [yaf.nameseparator](yaf.configuration.html#ini.yaf.name-separator) |  | PHPINIALL |  |
-| [yaf.cacheconfig](yaf.configuration.html#ini.yaf.cache-config) |  | PHPINISYSTEM |  |
-| [yaf.environ](yaf.configuration.html#ini.yaf.environ) | product | PHPINISYSTEM |  |
-| [yaf.usenamespace](yaf.configuration.html#ini.yaf.use-namespace) |  | PHPINISYSTEM |  |
+| [yaf.library](yaf.configuration.md#ini.yaf.library) |  | PHPINIALL |  |
+| [yaf.actionprefer](yaf.configuration.md#ini.yaf.action-prefer) |  | PHPINIALL |  |
+| [yaf.lowcasepath](yaf.configuration.md#ini.yaf.lowcase-path) |  | PHPINIALL |  |
+| [yaf.usesplautoload](yaf.configuration.md#ini.yaf.use-spl-autoload) |  | PHPINIALL |  |
+| [yaf.forwardlimit](yaf.configuration.md#ini.yaf.forward-limit) |  | PHPINIALL |  |
+| [yaf.namesuffix](yaf.configuration.md#ini.yaf.name-suffix) |  | PHPINIALL |  |
+| [yaf.nameseparator](yaf.configuration.md#ini.yaf.name-separator) |  | PHPINIALL |  |
+| [yaf.cacheconfig](yaf.configuration.md#ini.yaf.cache-config) |  | PHPINISYSTEM |  |
+| [yaf.environ](yaf.configuration.md#ini.yaf.environ) | product | PHPINISYSTEM |  |
+| [yaf.usenamespace](yaf.configuration.md#ini.yaf.use-namespace) |  | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 
@@ -49,7 +49,7 @@ title: Налаштування під час виконання
 
 > **Зауваження**
 > 
-> Yaf реєструє завантажувач класів під час створення екземпляра класу [YafApplication](class.yaf-application.html), так що будь-які інші автозавантажувачі, зареєстровані до інстанціації цього класу, будуть запущені до [YafLoader::autoload()](yaf-loader.autoload.md)
+> Yaf реєструє завантажувач класів під час створення екземпляра класу [YafApplication](class.yaf-application.md), так що будь-які інші автозавантажувачі, зареєстровані до інстанціації цього класу, будуть запущені до [YafLoader::autoload()](yaf-loader.autoload.md)
 
 Якщо встановлено як Off(за замовчуванням), [YafLoader::autoload()](yaf-loader.autoload.md) завжди повертатиме **`true`**
 
@@ -87,7 +87,7 @@ Yaf використовує шлях до ini-файлу як ключ заке
 
 За замовчуванням одно "product" і використовується Yaf для отримання потрібної секції з ini-файлу.
 
-Отже, якщо параметр дорівнює "product", Yaf використовуватиме секцію "product" в ini-файлі (перший параметр [YafApplication](class.yaf-application.html)) як конфігурація [YafApplication](class.yaf-application.md)
+Отже, якщо параметр дорівнює "product", Yaf використовуватиме секцію "product" в ini-файлі (перший параметр [YafApplication](class.yaf-application.md)) як конфігурація [YafApplication](class.yaf-application.md)
 
 `yaf.use_namespace` int
 

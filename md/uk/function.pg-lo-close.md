@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-last-oid.html: « pglastoid
-  - function.pg-lo-create.html: пглоcreate »
+  - function.pg-last-oid.md: « pglastoid
+  - function.pg-lo-create.md: пглоcreate »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пглоclose
@@ -30,7 +30,7 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 `lob`
 
-Ан [PgSqlLob](class.pgsql-lob.html) instance, returned by [пглоopen()](function.pg-lo-open.md)
+Ан [PgSqlLob](class.pgsql-lob.md) instance, returned by [пглоopen()](function.pg-lo-open.md)
 
 ### Значення, що повертаються
 

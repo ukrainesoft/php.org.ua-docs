@@ -1,9 +1,9 @@
 ---
 navigation:
-  - pdo.errorcode.html: '« PDO::errorCode'
-  - pdo.exec.html: 'PDO::exec »'
-  - index.html: PHP Manual
-  - class.pdo.html: PDO
+  - pdo.errorcode.md: '« PDO::errorCode'
+  - pdo.exec.md: 'PDO::exec »'
+  - index.md: PHP Manual
+  - class.pdo.md: PDO
 title: 'PDO::errorInfo'
 ---
 # PDO::errorInfo
@@ -36,7 +36,7 @@ public PDO::errorInfo(): array
 > 
 > Якщо не встановлено SQLSTATE код або драйвер не повідомив про помилку, то елементи наступні за нульовим будуть мати значення **`null`**
 
-**PDO::errorInfo()** видає інформацію про помилку тільки для операцій, що здійснюються з базою даних безпосередньо з PDO. Якщо створити об'єкт PDOStatement методами [PDO::prepare()](pdo.prepare.html) або [PDO::query()](pdo.query.html), і викликати помилку його методами, **PDO::errorInfo()** цю помилку не відобразить. Вам потрібно викликати [PDOStatement::errorInfo()](pdostatement.errorinfo.html), щоб отримати інформацію про помилки для операції, що виконується на певному об'єкті PDOStatement.
+**PDO::errorInfo()** видає інформацію про помилку тільки для операцій, що здійснюються з базою даних безпосередньо з PDO. Якщо створити об'єкт PDOStatement методами [PDO::prepare()](pdo.prepare.md) або [PDO::query()](pdo.query.md), і викликати помилку його методами, **PDO::errorInfo()** цю помилку не відобразить. Вам потрібно викликати [PDOStatement::errorInfo()](pdostatement.errorinfo.md), щоб отримати інформацію про помилки для операції, що виконується на певному об'єкті PDOStatement.
 
 ### Приклади
 
@@ -67,6 +67,6 @@ Array
 
 ### Дивіться також
 
--   [PDO::errorCode()](pdo.errorcode.html) - Повертає код SQLSTATE результату останньої операції з базою даних
--   [PDOStatement::errorCode()](pdostatement.errorcode.html) - Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
--   [PDOStatement::errorInfo()](pdostatement.errorinfo.html) - отримання розширеної інформації про помилку, що сталася в результаті роботи об'єкта PDOStatement
+-   [PDO::errorCode()](pdo.errorcode.md) - Повертає код SQLSTATE результату останньої операції з базою даних
+-   [PDOStatement::errorCode()](pdostatement.errorcode.md) - Отримує код SQLSTATE, пов'язаний з останньою операцією в об'єкті PDOStatement
+-   [PDOStatement::errorInfo()](pdostatement.errorinfo.md) - отримання розширеної інформації про помилку, що сталася в результаті роботи об'єкта PDOStatement

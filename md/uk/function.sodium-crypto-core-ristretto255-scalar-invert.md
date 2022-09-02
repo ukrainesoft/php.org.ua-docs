@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-core-ristretto255-scalar-complement.html: « sodiumcryptocoreristretto255scalarcomplement
-  - function.sodium-crypto-core-ristretto255-scalar-mul.html: sodiumcryptocoreristretto255scalarmul »
+  - function.sodium-crypto-core-ristretto255-scalar-complement.md: « sodiumcryptocoreristretto255scalarcomplement
+  - function.sodium-crypto-core-ristretto255-scalar-mul.md: sodiumcryptocoreristretto255scalarmul »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptocoreristretto255scalarinvert

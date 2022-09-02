@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagickdraw.gettextdecoration.html: '« GmagickDraw::gettextdecoration'
-  - gmagickdraw.line.html: 'GmagickDraw::line »'
-  - index.html: PHP Manual
-  - class.gmagickdraw.html: GmagickDraw
+  - gmagickdraw.gettextdecoration.md: '« GmagickDraw::gettextdecoration'
+  - gmagickdraw.line.md: 'GmagickDraw::line »'
+  - index.md: PHP Manual
+  - class.gmagickdraw.md: GmagickDraw
 title: 'GmagickDraw::gettextencoding'
 ---
 # GmagickDraw::gettextencoding

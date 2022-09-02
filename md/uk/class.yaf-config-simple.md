@@ -1,7 +1,7 @@
 ---
 navigation:
-  - yaf-config-ini.valid.html: '« YafConfigIni::valid'
-  - yaf-config-simple.construct.html: 'YafConfigSimple::construct »'
+  - yaf-config-ini.valid.md: '« YafConfigIni::valid'
+  - yaf-config-simple.construct.md: 'YafConfigSimple::construct »'
   - index.md: PHP Manual
   - book.yaf.md: Yaf
 title: Клас YafConfigSimple

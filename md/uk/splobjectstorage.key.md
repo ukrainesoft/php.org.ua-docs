@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splobjectstorage.getinfo.html: '« SplObjectStorage::getInfo'
-  - splobjectstorage.next.html: 'SplObjectStorage::next »'
-  - index.html: PHP Manual
-  - class.splobjectstorage.html: SplObjectStorage
+  - splobjectstorage.getinfo.md: '« SplObjectStorage::getInfo'
+  - splobjectstorage.next.md: 'SplObjectStorage::next »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::key'
 ---
 # SplObjectStorage::key
@@ -67,7 +67,7 @@ object(stdClass)#3 (0) {
 
 ### Дивіться також
 
--   [SplObjectStorage::rewind()](splobjectstorage.rewind.html) - Переводить ітератор на перший елемент контейнера
--   [SplObjectStorage::current()](splobjectstorage.current.html) - Повертає поточний об'єкт
--   [SplObjectStorage::next()](splobjectstorage.next.html) - Перехід до наступного об'єкту
--   [SplObjectStorage::valid()](splobjectstorage.valid.html) - Визначає, чи допустиме поточне значення ітератора
+-   [SplObjectStorage::rewind()](splobjectstorage.rewind.md) - Переводить ітератор на перший елемент контейнера
+-   [SplObjectStorage::current()](splobjectstorage.current.md) - Повертає поточний об'єкт
+-   [SplObjectStorage::next()](splobjectstorage.next.md) - Перехід до наступного об'єкту
+-   [SplObjectStorage::valid()](splobjectstorage.valid.md) - Визначає, чи допустиме поточне значення ітератора

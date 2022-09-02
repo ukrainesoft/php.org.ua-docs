@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.settermslowerbound.html: '« SolrQuery::setTermsLowerBound'
-  - solrquery.settermsmincount.html: 'SolrQuery::setTermsMinCount »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.settermslowerbound.md: '« SolrQuery::setTermsLowerBound'
+  - solrquery.settermsmincount.md: 'SolrQuery::setTermsMinCount »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTermsMaxCount'
 ---
 # SolrQuery::setTermsMaxCount

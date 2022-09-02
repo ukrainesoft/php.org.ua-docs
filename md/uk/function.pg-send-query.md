@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-send-query-params.html: « pgsendqueryparams
-  - function.pg-set-client-encoding.html: пгsetclientencoding »
+  - function.pg-send-query-params.md: « pgsendqueryparams
+  - function.pg-set-client-encoding.md: пгsetclientencoding »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгsendquery
@@ -18,9 +18,9 @@ title: пгsendquery
 pg_send_query(PgSql\Connection $connection, string $query): int|bool
 ```
 
-**пгsendquery()** відправляє виконання асинхронний запит. На відміну від [пгquery()](function.pg-query.html) запит може містити кілька SQL-виражень, розділених крапкою з комою. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.md)
+**пгsendquery()** відправляє виконання асинхронний запит. На відміну від [пгquery()](function.pg-query.md) запит може містити кілька SQL-виражень, розділених крапкою з комою. Для отримання результату запиту скористайтеся функцією [пгgetresult()](function.pg-get-result.md)
 
-Виконання запиту не перериває роботу скрипта. Для визначення зайнятості з'єднання (коли запит ще виконується) використовуйте функцію [пгconnectionbusy()](function.pg-connection-busy.html). Виконання запиту можна перервати функцією [пгcancelquery()](function.pg-cancel-query.md)
+Виконання запиту не перериває роботу скрипта. Для визначення зайнятості з'єднання (коли запит ще виконується) використовуйте функцію [пгconnectionbusy()](function.pg-connection-busy.md). Виконання запиту можна перервати функцією [пгcancelquery()](function.pg-cancel-query.md)
 
 Незважаючи на те, що можна надіслати кілька запитів за раз, їх не можна надсилати, поки з'єднання зайняте. В іншому випадку, надісланий запит дочекається завершення попереднього, зітре його результат і запуститься сам. Таким чином, ви втратите дані результату попереднього запиту.
 

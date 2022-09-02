@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-harmonic-mean.html: « statsharmonicmean
-  - function.stats-rand-gen-beta.html: statsrandgenbeta »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-harmonic-mean.md: « statsharmonicmean
+  - function.stats-rand-gen-beta.md: statsrandgenbeta »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statskurtosis
 ---
 # statskurtosis

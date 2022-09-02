@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.nl-langinfo.html: « nllanginfo
-  - function.number-format.html: numberformat »
+  - function.nl-langinfo.md: « nllanginfo
+  - function.number-format.md: numberformat »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: nl2br

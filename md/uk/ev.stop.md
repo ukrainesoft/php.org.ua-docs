@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ev.sleep.html: '« Ev::sleep'
-  - ev.supportedbackends.html: 'Ev::supportedBackends »'
-  - index.html: PHP Manual
-  - class.ev.html: Єв
+  - ev.sleep.md: '« Ev::sleep'
+  - ev.supportedbackends.md: 'Ev::supportedBackends »'
+  - index.md: PHP Manual
+  - class.ev.md: Єв
 title: 'Ev::stop'
 ---
 # Ev::stop
@@ -30,7 +30,7 @@ final
 
 `how`
 
-Одна з *Ev::BREAK* [констант](class.ev.html#ev.constants.break-flags)
+Одна з *Ev::BREAK* [констант](class.ev.md#ev.constants.break-flags)
 
 ### Значення, що повертаються
 
@@ -38,4 +38,4 @@ final
 
 ### Дивіться також
 
--   [Ev::run()](ev.run.html) - Почати перевірку наявності подій та виклик callback-функцій циклу за умовчанням
+-   [Ev::run()](ev.run.md) - Почати перевірку наявності подій та виклик callback-функцій циклу за умовчанням

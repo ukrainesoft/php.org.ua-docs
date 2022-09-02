@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.fetch-all.html: '« mysqliresult::fetchall'
-  - mysqli-result.fetch-assoc.html: 'mysqliresult::fetchassoc »'
-  - index.html: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - mysqli-result.fetch-all.md: '« mysqliresult::fetchall'
+  - mysqli-result.fetch-assoc.md: 'mysqliresult::fetchassoc »'
+  - index.md: PHP Manual
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::fetcharray'
 ---
 # mysqliresult::fetcharray
@@ -42,13 +42,13 @@ mysqli_fetch_array(mysqli_result $result, int $mode = MYSQLI_BOTH): array|null|f
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.html) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.html)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `mode`
 
 Цей необов'язковий параметр приймає значення константи, яка вказує на тип масиву, який потрібно помістити дані. Можливі значення параметра: **`MYSQLI_ASSOC`** **`MYSQLI_NUM`** або **`MYSQLI_BOTH`**
 
-При використанні константи **`MYSQLI_ASSOC`** функція поводитиметься ідентично [mysqlifetchassoc()](mysqli-result.fetch-assoc.html), а при **`MYSQLI_NUM`** ідентично функції [mysqlifetchrow()](mysqli-result.fetch-row.html). При завданні **`MYSQLI_BOTH`** функція створить один масив, що включає атрибути обох варіантів.
+При використанні константи **`MYSQLI_ASSOC`** функція поводитиметься ідентично [mysqlifetchassoc()](mysqli-result.fetch-assoc.md), а при **`MYSQLI_NUM`** ідентично функції [mysqlifetchrow()](mysqli-result.fetch-row.md). При завданні **`MYSQLI_BOTH`** функція створить один масив, що включає атрибути обох варіантів.
 
 ### Значення, що повертаються
 
@@ -116,9 +116,9 @@ Herat (AFG)
 
 ### Дивіться також
 
--   [mysqlifetchassoc()](mysqli-result.fetch-assoc.html) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
--   [mysqlifetchcolumn()](mysqli-result.fetch-column.html) - отримує один стовпець з наступного рядка набору результатів
--   [mysqlifetchrow()](mysqli-result.fetch-row.html) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
--   [mysqlifetchobject()](mysqli-result.fetch-object.html) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
--   [mysqliquery()](mysqli.query.html) - Виконує запит до бази даних
--   [mysqlidataseek()](mysqli-result.data-seek.html) - Переміщує покажчик результату на вибраний рядок
+-   [mysqlifetchassoc()](mysqli-result.fetch-assoc.md) - Вибирає наступний рядок із набору результатів та поміщає його в асоціативний масив
+-   [mysqlifetchcolumn()](mysqli-result.fetch-column.md) - отримує один стовпець з наступного рядка набору результатів
+-   [mysqlifetchrow()](mysqli-result.fetch-row.md) - Вибирає наступний рядок із набору результатів і поміщає його у звичайний масив
+-   [mysqlifetchobject()](mysqli-result.fetch-object.md) - Вибирає наступний рядок із набору результатів у вигляді об'єкта
+-   [mysqliquery()](mysqli.query.md) - Виконує запит до бази даних
+-   [mysqlidataseek()](mysqli-result.data-seek.md) - Переміщує покажчик результату на вибраний рядок

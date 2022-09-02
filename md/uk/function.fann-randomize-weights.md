@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-print-error.html: « fannprinterror
-  - function.fann-read-train-from-file.html: fannreadtrainfromfile »
+  - function.fann-print-error.md: « fannprinterror
+  - function.fann-read-train-from-file.md: fannreadtrainfromfile »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fannrandomizeweights

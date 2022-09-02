@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ffi.examples-basic.html: « Прості приклади використання FFI
-  - ffi.examples-complete.html: Комплексний приклад PHP/FFI/preloading »
-  - index.html: PHP Manual
-  - ffi.examples.html: Приклади
+  - ffi.examples-basic.md: « Прості приклади використання FFI
+  - ffi.examples-complete.md: Комплексний приклад PHP/FFI/preloading »
+  - index.md: PHP Manual
+  - ffi.examples.md: Приклади
 title: Callback-функції PHP
 ---
 ## Callback-функції PHP

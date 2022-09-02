@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-rlexer.insertmacro.html: '« ParleRLexer::insertMacro'
-  - parle-rlexer.pushstate.html: 'ParleRLexer::pushState »'
+  - parle-rlexer.insertmacro.md: '« ParleRLexer::insertMacro'
+  - parle-rlexer.pushstate.md: 'ParleRLexer::pushState »'
   - index.md: PHP Manual
-  - class.parle-rlexer.html: ParleRLexer
+  - class.parle-rlexer.md: ParleRLexer
 title: 'ParleRLexer::push'
 ---
 # ParleRLexer::push

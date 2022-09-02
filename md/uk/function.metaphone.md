@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.md5.html: « md5
-  - function.money-format.html: moneyformat »
-  - index.html: PHP Manual
-  - ref.strings.html: Функції для роботи з рядками
+  - function.md5.md: « md5
+  - function.money-format.md: moneyformat »
+  - index.md: PHP Manual
+  - ref.strings.md: Функції для роботи з рядками
 title: metaphone
 ---
 # metaphone
@@ -20,7 +20,7 @@ metaphone(string $string, int $max_phonemes = 0): string
 
 Повертає ключ metaphone для рядка `string`
 
-Подібно до функції [soundex()](function.soundex.html), metaphone повертає однакове значення для слів, що мають подібну вимову. Ця функція точніша, ніж [soundex()](function.soundex.md), оскільки враховує основні правила вимови англійської. Довжина рядка, що повертається, не фіксована.
+Подібно до функції [soundex()](function.soundex.md), metaphone повертає однакове значення для слів, що мають подібну вимову. Ця функція точніша, ніж [soundex()](function.soundex.md), оскільки враховує основні правила вимови англійської. Довжина рядка, що повертається, не фіксована.
 
 Функція metaphone була написана Lawrence Philips та описана в книзі "Practical Algorithms for Programmers", Binstock & Rex, Addison Wesley, 1995
 

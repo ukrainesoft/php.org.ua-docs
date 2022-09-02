@@ -1,9 +1,9 @@
 ---
 navigation:
-  - language.enumerations.html: « Перечисления
-  - language.enumerations.basics.html: Основи перерахувань »
-  - index.html: PHP Manual
-  - language.enumerations.html: Перечисления
+  - language.enumerations.md: « Перечисления
+  - language.enumerations.basics.md: Основи перерахувань »
+  - index.md: PHP Manual
+  - language.enumerations.md: Перечисления
 title: Огляд перерахувань
 ---
 ## Огляд перерахувань

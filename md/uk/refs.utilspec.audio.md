@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yac.setter.html: '« Yac::set'
-  - book.openal.html: OpenAL »
-  - index.html: PHP Manual
-  - funcref.html: Справочник функций
+  - yac.setter.md: '« Yac::set'
+  - book.openal.md: OpenAL »
+  - index.md: PHP Manual
+  - funcref.md: Справочник функций
 title: Обробка аудіо форматів
 ---
 # Обробка аудіо форматів

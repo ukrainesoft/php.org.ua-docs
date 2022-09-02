@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-event.wait.html: '« SwooleEvent::wait'
-  - class.swoole-exception.html: SwooleException »
+  - swoole-event.wait.md: '« SwooleEvent::wait'
+  - class.swoole-exception.md: SwooleException »
   - index.md: PHP Manual
-  - class.swoole-event.html: SwooleEvent
+  - class.swoole-event.md: SwooleEvent
 title: 'SwooleEvent::write'
 ---
 # SwooleEvent::write

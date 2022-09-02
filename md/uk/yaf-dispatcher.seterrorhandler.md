@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-dispatcher.setdefaultmodule.html: '« YafDispatcher::setDefaultModule'
-  - yaf-dispatcher.setrequest.html: 'YafDispatcher::setRequest »'
-  - index.html: PHP Manual
-  - class.yaf-dispatcher.html: YafDispatcher
+  - yaf-dispatcher.setdefaultmodule.md: '« YafDispatcher::setDefaultModule'
+  - yaf-dispatcher.setrequest.md: 'YafDispatcher::setRequest »'
+  - index.md: PHP Manual
+  - class.yaf-dispatcher.md: YafDispatcher
 title: 'YafDispatcher::setErrorHandler'
 ---
 # YafDispatcher::setErrorHandler
@@ -18,7 +18,7 @@ YafDispatcher::setErrorHandler — Встановлює обробник пом�
 public Yaf_Dispatcher::setErrorHandler(call $callback, int $error_types): Yaf_Dispatcher
 ```
 
-Встановлює обробник помилок Yaf. Якщо [application.dispatcher.throwException](yaf.appconfig.html#configuration.yaf.dispatcher.throwexception) вимкнений, Yaf буде викликати помилку, що перехоплюється, у разі виникнення непередбачених помилок.
+Встановлює обробник помилок Yaf. Якщо [application.dispatcher.throwException](yaf.appconfig.md#configuration.yaf.dispatcher.throwexception) вимкнений, Yaf буде викликати помилку, що перехоплюється, у разі виникнення непередбачених помилок.
 
 Таким чином, цей обробник помилок буде викликатись у разі виникнення помилки.
 
@@ -34,6 +34,6 @@ Callback-функція, що викликається
 
 ### Дивіться також
 
--   [YafDispatcher::throwException()](yaf-dispatcher.throwexception.html) - Вмикає/вимикає викидання винятків
--   [YafApplication::getLastErrorNo()](yaf-application.getlasterrorno.html) - Отримати код останньої помилки
--   [YafApplication::getLastErrorMsg()](yaf-application.getlasterrormsg.html) - Отримати останнє повідомлення про помилку
+-   [YafDispatcher::throwException()](yaf-dispatcher.throwexception.md) - Вмикає/вимикає викидання винятків
+-   [YafApplication::getLastErrorNo()](yaf-application.getlasterrorno.md) - Отримати код останньої помилки
+-   [YafApplication::getLastErrorMsg()](yaf-application.getlasterrormsg.md) - Отримати останнє повідомлення про помилку

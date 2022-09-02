@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.posix-setegid.html: « posixsetegid
-  - function.posix-setgid.html: posixsetgid »
-  - index.html: PHP Manual
-  - ref.posix.html: POSIX Функции
+  - function.posix-setegid.md: « posixsetegid
+  - function.posix-setgid.md: posixsetgid »
+  - index.md: PHP Manual
+  - ref.posix.md: POSIX Функции
 title: posixseteuid
 ---
 # posixseteuid
@@ -32,6 +32,6 @@ posix_seteuid(int $user_id): bool
 
 ### Дивіться також
 
--   [posixgeteuid()](function.posix-geteuid.html) - Повертає ефективний ідентифікатор користувача поточного процесу EUID
--   [posixsetuid()](function.posix-setuid.html) - Встановлює UID поточного процесу
--   [posixgetuid()](function.posix-getuid.html) - Повертає фактичний ідентифікатор користувача поточного процесу UID
+-   [posixgeteuid()](function.posix-geteuid.md) - Повертає ефективний ідентифікатор користувача поточного процесу EUID
+-   [posixsetuid()](function.posix-setuid.md) - Встановлює UID поточного процесу
+-   [posixgetuid()](function.posix-getuid.md) - Повертає фактичний ідентифікатор користувача поточного процесу UID

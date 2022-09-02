@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-cursorinterface.toarray.html: '« MongoDBDriverCursorInterface::toArray'
-  - mongodb-driver-server.construct.html: 'MongoDBDriverServer::construct »'
+  - mongodb-driver-cursorinterface.toarray.md: '« MongoDBDriverCursorInterface::toArray'
+  - mongodb-driver-server.construct.md: 'MongoDBDriverServer::construct »'
   - index.md: PHP Manual
   - book.mongodb.md: MongoDBDriver
 title: Клас MongoDBDriverServer

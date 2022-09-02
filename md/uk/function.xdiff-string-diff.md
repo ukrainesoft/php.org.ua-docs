@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xdiff-string-diff-binary.html: xdiffstringdiffbinary
-  - function.xdiff-string-merge3.html: xdiffstringmerge3 »
-  - index.html: PHP Manual
-  - ref.xdiff.html: Функції xdiff
+  - function.xdiff-string-diff-binary.md: xdiffstringdiffbinary
+  - function.xdiff-string-merge3.md: xdiffstringmerge3 »
+  - index.md: PHP Manual
+  - ref.xdiff.md: Функції xdiff
 title: xdiffstringdiff
 ---
 # xdiffstringdiff
@@ -66,7 +66,7 @@ if (is_string($diff)) {
 
 > **Зауваження**
 > 
-> Ця функція не призначена для роботи з бінарними даними. Для бінарного порівняння використовуйте [xdiffstringbdiff()](function.xdiff-string-bdiff.html) і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
+> Ця функція не призначена для роботи з бінарними даними. Для бінарного порівняння використовуйте [xdiffstringbdiff()](function.xdiff-string-bdiff.md) і [xdiffstringrabdiff()](function.xdiff-string-rabdiff.md)
 
 ### Дивіться також
 

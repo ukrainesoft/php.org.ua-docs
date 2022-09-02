@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.memory-get-usage.html: « memorygetusage
-  - function.php-ini-scanned-files.html: phpiniscannedfiles »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.memory-get-usage.md: « memorygetusage
+  - function.php-ini-scanned-files.md: phpiniscannedfiles »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: phpiniloadedfile
 ---
 # phpiniloadedfile

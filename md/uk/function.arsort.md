@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array.html: « array
-  - function.asort.html: asort »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array.md: « array
+  - function.asort.md: asort »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arsort
 ---
 # arsort
@@ -42,11 +42,11 @@ arsort(array &$array, int $flags = SORT_REGULAR): bool
 
 Прапори типу сортування:
 
--   **`SORT_REGULAR`** - Звичайне порівняння елементів; подробиці описані в розділі [оператори порівняння](language.operators.comparison.html)
+-   **`SORT_REGULAR`** - Звичайне порівняння елементів; подробиці описані в розділі [оператори порівняння](language.operators.comparison.md)
 -   **`SORT_NUMERIC`** - числове порівняння елементів
 -   **`SORT_STRING`** - рядкове порівняння елементів
--   **`SORT_LOCALE_STRING`** - Порівняння елементів як рядки на основі поточного мовного стандарту. Використовується мовний стандарт, який можна змінити за допомогою [setlocale()](function.setlocale.html)
--   **`SORT_NATURAL`** - порівняння елементів як рядки, використовуючи "природний порядок", наприклад [natsort()](function.natsort.html)
+-   **`SORT_LOCALE_STRING`** - Порівняння елементів як рядки на основі поточного мовного стандарту. Використовується мовний стандарт, який можна змінити за допомогою [setlocale()](function.setlocale.md)
+-   **`SORT_NATURAL`** - порівняння елементів як рядки, використовуючи "природний порядок", наприклад [natsort()](function.natsort.md)
 -   **`SORT_FLAG_CASE`** - можна об'єднувати (побітове АБО) з **`SORT_STRING`** або **`SORT_NATURAL`** для сортування рядків без урахування регістру
 
 ### Значення, що повертаються
@@ -80,6 +80,6 @@ c = apple
 
 ### Дивіться також
 
--   [sort()](function.sort.html) - Сортує масив за зростанням
--   [asort()](function.asort.html) - Сортує масив у порядку зростання та підтримує асоціацію індексів
--   [Порівняння функцій сортування масивів](array.sorting.html)
+-   [sort()](function.sort.md) - Сортує масив за зростанням
+-   [asort()](function.asort.md) - Сортує масив у порядку зростання та підтримує асоціацію індексів
+-   [Порівняння функцій сортування масивів](array.sorting.md)

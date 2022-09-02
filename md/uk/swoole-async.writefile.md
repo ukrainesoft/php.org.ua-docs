@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-async.write.html: '« SwooleAsync::write'
-  - class.swoole-atomic.html: SwooleAtomic »
-  - index.html: PHP Manual
-  - class.swoole-async.html: SwooleAsync
+  - swoole-async.write.md: '« SwooleAsync::write'
+  - class.swoole-atomic.md: SwooleAtomic »
+  - index.md: PHP Manual
+  - class.swoole-async.md: SwooleAsync
 title: 'SwooleAsync::writeFile'
 ---
 # SwooleAsync::writeFile

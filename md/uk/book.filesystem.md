@@ -1,101 +1,101 @@
 ---
 navigation:
-  - finfo.set-flags.html: '« finfo::setflags'
-  - intro.filesystem.html: Введение »
-  - index.html: PHP Manual
-  - refs.fileprocess.file.html: Модулі для роботи з файловою системою
+  - finfo.set-flags.md: '« finfo::setflags'
+  - intro.filesystem.md: Введение »
+  - index.md: PHP Manual
+  - refs.fileprocess.file.md: Модулі для роботи з файловою системою
 title: Файлова система
 ---
 # Файлова система
 
--   [Введение](intro.filesystem.html)
--   [Встановлення та налаштування](filesystem.setup.html)
-    -   [Вимоги](filesystem.requirements.html)
-    -   [Установка](filesystem.installation.html)
-    -   [Налаштування під час виконання](filesystem.configuration.html)
-    -   [Типи ресурсів](filesystem.resources.html)
--   [Обумовлені константи](filesystem.constants.html)
--   [Функції файлової системи](ref.filesystem.html)
-    -   [basename](function.basename.html) — Повертає останній компонент імені із зазначеного шляху
-    -   [chgrp](function.chgrp.html) — Змінює групу файлу
-    -   [chmod](function.chmod.html) — Змінює режим доступу до файлу
-    -   [chown](function.chown.html) - Змінює власника файлу
-    -   [clearstatcache](function.clearstatcache.html) — Очищує кеш файлів
-    -   [copy](function.copy.html) - Копіює файл
-    -   [delete](function.delete.html) — Дивіться опис функції unlink або unset
-    -   [dirname](function.dirname.html) — Повертає ім'я батьківського каталогу із зазначеного шляху
-    -   [diskfreespace](function.disk-free-space.html) — Повертає розмір доступного простору в каталозі чи файловій системі
-    -   [disktotalspace](function.disk-total-space.html) — Повертає загальний розмір файлової системи або розділу диска
-    -   [diskfreespace](function.diskfreespace.html) - Псевдонім diskfreespace
-    -   [fclose](function.fclose.html) — Закриває відкритий дескриптор файлу
-    -   [fdatasync](function.fdatasync.html) — Синхронізує дані (але не метадані) із файлом
-    -   [feof](function.feof.html) — Перевіряє, чи кінець файлу досягнуто.
-    -   [fflush](function.fflush.html) — Скидає буфер виводу у файл
-    -   [fgetc](function.fgetc.html) — Зчитує символ із файлу
-    -   [fgetcsv](function.fgetcsv.html) — Читає рядок з файлу та проводить розбір даних CSV
-    -   [fgets](function.fgets.html) — Читає рядок із файлу
-    -   [fgetss](function.fgetss.html) — Читає рядок із файлу та видаляє HTML-теги
-    -   [fileexists](function.file-exists.html) — Перевіряє існування вказаного файлу чи каталогу
-    -   [filegetcontents](function.file-get-contents.html) — Читає вміст файлу в рядок
-    -   [fileputcontents](function.file-put-contents.html) - Пише дані у файл
-    -   [file](function.file.html) — Читає вміст файлу та поміщає його у масив
-    -   [fileatime](function.fileatime.html) — Повертає час останнього доступу до файлу
-    -   [filectime](function.filectime.html) — Повертає час зміни індексного дескриптора файлу
-    -   [filegroup](function.filegroup.html) — Отримує ідентифікатор групи файлу
-    -   [fileinode](function.fileinode.html) — Повертає індексний дескриптор файлу
-    -   [filemtime](function.filemtime.html) — Повертає час останньої зміни файлу
-    -   [fileowner](function.fileowner.html) — Повертає ідентифікатор власника файлу
-    -   [fileperms](function.fileperms.html) — Повертає інформацію про права на файл
-    -   [filesize](function.filesize.html) — Повертає розмір файлу
-    -   [filetype](function.filetype.html) — Повертає тип файлу
-    -   [flock](function.flock.html) — Портоване консультативне блокування файлів
-    -   [fnmatch](function.fnmatch.html) — Перевіряє збіг імені файлу із шаблоном
-    -   [fopen](function.fopen.html) — Відкриває файл чи URL
-    -   [fpassthru](function.fpassthru.html) — Виводить всі дані з файлового покажчика, що залишилися.
-    -   [fputcsv](function.fputcsv.html) — Форматує рядок у вигляді CSV і записує його у файловий покажчик
-    -   [fputs](function.fputs.html) - Псевдонім fwrite
-    -   [fread](function.fread.html) - Бінарно-безпечне читання файлу
-    -   [fscanf](function.fscanf.html) — Обробляє дані з файлу відповідно до формату
-    -   [fseek](function.fseek.html) — Встановлює зміщення у файловому покажчику
-    -   [fstat](function.fstat.html) — Отримує інформацію про файл, використовуючи відкритий файловий покажчик
-    -   [fsync](function.fsync.html) — Синхронізує зміни у файлі (включаючи метадані)
-    -   [ftell](function.ftell.html) — Повертає поточну позицію покажчика читання/запису файлу
-    -   [ftruncate](function.ftruncate.html) — Урізує файл до вказаної довжини
-    -   [fwrite](function.fwrite.html) - Бінарно-безпечний запис у файл
-    -   [glob](function.glob.html) — Знаходить файлові шляхи, що збігаються із шаблоном
-    -   [ісdir](function.is-dir.html) — Визначає, чи ім'я файлу є директорією
-    -   [ісexecutable](function.is-executable.html) — Визначає, чи файл виконуваний.
-    -   [ісfile](function.is-file.html) — Визначає, чи файл є звичайним файлом
-    -   [ісlink](function.is-link.html) — Визначає, чи є файл символічним посиланням
-    -   [ісreadable](function.is-readable.html) — Визначає існування файлу і чи він доступний для читання
-    -   [ісuploadedfile](function.is-uploaded-file.html) — Визначає, чи файл завантажений за допомогою HTTP POST
-    -   [ісwritable](function.is-writable.html) — Визначає, чи є файл для запису.
-    -   [ісwriteable](function.is-writeable.html) - Псевдонім iswritable
-    -   [lchgrp](function.lchgrp.html) — Змінює групу, якій належить символічне посилання
-    -   [lchown](function.lchown.html) - Змінює власника символічного посилання
-    -   [link](function.link.html) - Створює жорстке посилання
-    -   [linkinfo](function.linkinfo.html) — Повертає інформацію про посилання
-    -   [lstat](function.lstat.html) — Повертає інформацію про файл або символічне посилання
-    -   [mkdir](function.mkdir.html) - Створює директорію
-    -   [moveuploadedfile](function.move-uploaded-file.html) — Переміщує завантажений файл у нове місце
-    -   [parseinifile](function.parse-ini-file.html) - Обробляє конфігураційний файл
-    -   [parseinistring](function.parse-ini-string.html) — Розбирає рядок конфігурації
-    -   [pathinfo](function.pathinfo.html) — Повертає інформацію про шлях до файлу
-    -   [pclose](function.pclose.html) — Закриває файловий покажчик процесу
-    -   [popen](function.popen.html) — Відкриває файловий покажчик процесу
-    -   [readfile](function.readfile.html) - Виводить файл
-    -   [readlink](function.readlink.html) — Повертає файл, на який вказує символічне посилання
-    -   [realpathcacheget](function.realpath-cache-get.html) — Отримує записи з кеша realpath
-    -   [realpathcachesize](function.realpath-cache-size.html) — Отримує розмір кеша realpath
-    -   [realpath](function.realpath.html) — Повертає абсолютний канонізований шлях до файлу
-    -   [rename](function.rename.html) — Перейменовує файл чи директорію
-    -   [rewind](function.rewind.html) - Скидає курсор файлового покажчика
-    -   [rmdir](function.rmdir.html) - Видаляє директорію
-    -   [setfilebuffer](function.set-file-buffer.html) - Псевдонім streamsetwritebuffer
-    -   [stat](function.stat.html) — Повертає інформацію про файл
-    -   [symlink](function.symlink.html) - Створює символічне посилання
-    -   [tempnam](function.tempnam.html) — Створює файл із унікальним ім'ям
-    -   [tmpfile](function.tmpfile.html) — Створює тимчасовий файл
-    -   [touch](function.touch.html) — Встановлює час доступу та модифікації файлу
-    -   [umask](function.umask.html) — Змінює поточну umask
-    -   [unlink](function.unlink.html) — Видаляє файл
+-   [Введение](intro.filesystem.md)
+-   [Встановлення та налаштування](filesystem.setup.md)
+    -   [Вимоги](filesystem.requirements.md)
+    -   [Установка](filesystem.installation.md)
+    -   [Налаштування під час виконання](filesystem.configuration.md)
+    -   [Типи ресурсів](filesystem.resources.md)
+-   [Обумовлені константи](filesystem.constants.md)
+-   [Функції файлової системи](ref.filesystem.md)
+    -   [basename](function.basename.md) — Повертає останній компонент імені із зазначеного шляху
+    -   [chgrp](function.chgrp.md) — Змінює групу файлу
+    -   [chmod](function.chmod.md) — Змінює режим доступу до файлу
+    -   [chown](function.chown.md) - Змінює власника файлу
+    -   [clearstatcache](function.clearstatcache.md) — Очищує кеш файлів
+    -   [copy](function.copy.md) - Копіює файл
+    -   [delete](function.delete.md) — Дивіться опис функції unlink або unset
+    -   [dirname](function.dirname.md) — Повертає ім'я батьківського каталогу із зазначеного шляху
+    -   [diskfreespace](function.disk-free-space.md) — Повертає розмір доступного простору в каталозі чи файловій системі
+    -   [disktotalspace](function.disk-total-space.md) — Повертає загальний розмір файлової системи або розділу диска
+    -   [diskfreespace](function.diskfreespace.md) - Псевдонім diskfreespace
+    -   [fclose](function.fclose.md) — Закриває відкритий дескриптор файлу
+    -   [fdatasync](function.fdatasync.md) — Синхронізує дані (але не метадані) із файлом
+    -   [feof](function.feof.md) — Перевіряє, чи кінець файлу досягнуто.
+    -   [fflush](function.fflush.md) — Скидає буфер виводу у файл
+    -   [fgetc](function.fgetc.md) — Зчитує символ із файлу
+    -   [fgetcsv](function.fgetcsv.md) — Читає рядок з файлу та проводить розбір даних CSV
+    -   [fgets](function.fgets.md) — Читає рядок із файлу
+    -   [fgetss](function.fgetss.md) — Читає рядок із файлу та видаляє HTML-теги
+    -   [fileexists](function.file-exists.md) — Перевіряє існування вказаного файлу чи каталогу
+    -   [filegetcontents](function.file-get-contents.md) — Читає вміст файлу в рядок
+    -   [fileputcontents](function.file-put-contents.md) - Пише дані у файл
+    -   [file](function.file.md) — Читає вміст файлу та поміщає його у масив
+    -   [fileatime](function.fileatime.md) — Повертає час останнього доступу до файлу
+    -   [filectime](function.filectime.md) — Повертає час зміни індексного дескриптора файлу
+    -   [filegroup](function.filegroup.md) — Отримує ідентифікатор групи файлу
+    -   [fileinode](function.fileinode.md) — Повертає індексний дескриптор файлу
+    -   [filemtime](function.filemtime.md) — Повертає час останньої зміни файлу
+    -   [fileowner](function.fileowner.md) — Повертає ідентифікатор власника файлу
+    -   [fileperms](function.fileperms.md) — Повертає інформацію про права на файл
+    -   [filesize](function.filesize.md) — Повертає розмір файлу
+    -   [filetype](function.filetype.md) — Повертає тип файлу
+    -   [flock](function.flock.md) — Портоване консультативне блокування файлів
+    -   [fnmatch](function.fnmatch.md) — Перевіряє збіг імені файлу із шаблоном
+    -   [fopen](function.fopen.md) — Відкриває файл чи URL
+    -   [fpassthru](function.fpassthru.md) — Виводить всі дані з файлового покажчика, що залишилися.
+    -   [fputcsv](function.fputcsv.md) — Форматує рядок у вигляді CSV і записує його у файловий покажчик
+    -   [fputs](function.fputs.md) - Псевдонім fwrite
+    -   [fread](function.fread.md) - Бінарно-безпечне читання файлу
+    -   [fscanf](function.fscanf.md) — Обробляє дані з файлу відповідно до формату
+    -   [fseek](function.fseek.md) — Встановлює зміщення у файловому покажчику
+    -   [fstat](function.fstat.md) — Отримує інформацію про файл, використовуючи відкритий файловий покажчик
+    -   [fsync](function.fsync.md) — Синхронізує зміни у файлі (включаючи метадані)
+    -   [ftell](function.ftell.md) — Повертає поточну позицію покажчика читання/запису файлу
+    -   [ftruncate](function.ftruncate.md) — Урізує файл до вказаної довжини
+    -   [fwrite](function.fwrite.md) - Бінарно-безпечний запис у файл
+    -   [glob](function.glob.md) — Знаходить файлові шляхи, що збігаються із шаблоном
+    -   [ісdir](function.is-dir.md) — Визначає, чи ім'я файлу є директорією
+    -   [ісexecutable](function.is-executable.md) — Визначає, чи файл виконуваний.
+    -   [ісfile](function.is-file.md) — Визначає, чи файл є звичайним файлом
+    -   [ісlink](function.is-link.md) — Визначає, чи є файл символічним посиланням
+    -   [ісreadable](function.is-readable.md) — Визначає існування файлу і чи він доступний для читання
+    -   [ісuploadedfile](function.is-uploaded-file.md) — Визначає, чи файл завантажений за допомогою HTTP POST
+    -   [ісwritable](function.is-writable.md) — Визначає, чи є файл для запису.
+    -   [ісwriteable](function.is-writeable.md) - Псевдонім iswritable
+    -   [lchgrp](function.lchgrp.md) — Змінює групу, якій належить символічне посилання
+    -   [lchown](function.lchown.md) - Змінює власника символічного посилання
+    -   [link](function.link.md) - Створює жорстке посилання
+    -   [linkinfo](function.linkinfo.md) — Повертає інформацію про посилання
+    -   [lstat](function.lstat.md) — Повертає інформацію про файл або символічне посилання
+    -   [mkdir](function.mkdir.md) - Створює директорію
+    -   [moveuploadedfile](function.move-uploaded-file.md) — Переміщує завантажений файл у нове місце
+    -   [parseinifile](function.parse-ini-file.md) - Обробляє конфігураційний файл
+    -   [parseinistring](function.parse-ini-string.md) — Розбирає рядок конфігурації
+    -   [pathinfo](function.pathinfo.md) — Повертає інформацію про шлях до файлу
+    -   [pclose](function.pclose.md) — Закриває файловий покажчик процесу
+    -   [popen](function.popen.md) — Відкриває файловий покажчик процесу
+    -   [readfile](function.readfile.md) - Виводить файл
+    -   [readlink](function.readlink.md) — Повертає файл, на який вказує символічне посилання
+    -   [realpathcacheget](function.realpath-cache-get.md) — Отримує записи з кеша realpath
+    -   [realpathcachesize](function.realpath-cache-size.md) — Отримує розмір кеша realpath
+    -   [realpath](function.realpath.md) — Повертає абсолютний канонізований шлях до файлу
+    -   [rename](function.rename.md) — Перейменовує файл чи директорію
+    -   [rewind](function.rewind.md) - Скидає курсор файлового покажчика
+    -   [rmdir](function.rmdir.md) - Видаляє директорію
+    -   [setfilebuffer](function.set-file-buffer.md) - Псевдонім streamsetwritebuffer
+    -   [stat](function.stat.md) — Повертає інформацію про файл
+    -   [symlink](function.symlink.md) - Створює символічне посилання
+    -   [tempnam](function.tempnam.md) — Створює файл із унікальним ім'ям
+    -   [tmpfile](function.tmpfile.md) — Створює тимчасовий файл
+    -   [touch](function.touch.md) — Встановлює час доступу та модифікації файлу
+    -   [umask](function.umask.md) — Змінює поточну umask
+    -   [unlink](function.unlink.md) — Видаляє файл

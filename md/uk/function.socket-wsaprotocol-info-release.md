@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.socket-wsaprotocol-info-import.html: « socketwsaprotocolinfoimport
-  - class.socket.html: Socket »
-  - index.html: PHP Manual
-  - ref.sockets.html: Функции сокета
+  - function.socket-wsaprotocol-info-import.md: « socketwsaprotocolinfoimport
+  - class.socket.md: Socket »
+  - index.md: PHP Manual
+  - ref.sockets.md: Функции сокета
 title: socketwsaprotocolinforelease
 ---
 # socketwsaprotocolinforelease
@@ -26,7 +26,7 @@ socket_wsaprotocol_info_release(string $info_id): bool
 
 `info_id`
 
-Ідентифікатор, отриманий під час виклику [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html)
+Ідентифікатор, отриманий під час виклику [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md)
 
 ### Значення, що повертаються
 
@@ -34,4 +34,4 @@ socket_wsaprotocol_info_release(string $info_id): bool
 
 ### Дивіться також
 
--   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.html) - Експорт структури WSAPROTOCOLINFO
+-   [socketwsaprotocolinfoexport()](function.socket-wsaprotocol-info-export.md) - Експорт структури WSAPROTOCOLINFO

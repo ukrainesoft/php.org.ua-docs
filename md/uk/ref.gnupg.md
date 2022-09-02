@@ -1,7 +1,7 @@
 ---
 navigation:
-  - gnupg.examples-clearsign.html: « Прозоре підписування тексту
-  - function.gnupg-adddecryptkey.html: gnupgadddecryptkey »
+  - gnupg.examples-clearsign.md: « Прозоре підписування тексту
+  - function.gnupg-adddecryptkey.md: gnupgadddecryptkey »
   - index.md: PHP Manual
   - book.gnupg.md: GnuPG
 title: GnuPG Функції

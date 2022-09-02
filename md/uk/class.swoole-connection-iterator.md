@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-client.wakeup.html: '« SwooleClient::wakeup'
-  - swoole-connection-iterator.count.html: 'SwooleConnectionIterator::count »'
+  - swoole-client.wakeup.md: '« SwooleClient::wakeup'
+  - swoole-connection-iterator.count.md: 'SwooleConnectionIterator::count »'
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleConnectionIterator

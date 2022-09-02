@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-scan.html: « imapscan
-  - function.imap-search.html: imapsearch »
+  - function.imap-scan.md: « imapscan
+  - function.imap-search.md: imapsearch »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapscanmailbox

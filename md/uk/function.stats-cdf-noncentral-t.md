@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stats-cdf-noncentral-f.html: « statscdfnoncentralф
-  - function.stats-cdf-normal.html: statscdfnormal »
-  - index.html: PHP Manual
-  - ref.stats.html: Функції статистики
+  - function.stats-cdf-noncentral-f.md: « statscdfnoncentralф
+  - function.stats-cdf-normal.md: statscdfnormal »
+  - index.md: PHP Manual
+  - ref.stats.md: Функції статистики
 title: statscdfnoncentralт
 ---
 # statscdfnoncentralт

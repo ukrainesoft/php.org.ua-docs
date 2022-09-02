@@ -1,7 +1,7 @@
 ---
 navigation:
   - xml.constants.md: « Обумовлені константи
-  - xml.case-folding.html: Приведення до одного регістру »
+  - xml.case-folding.md: Приведення до одного регістру »
   - index.md: PHP Manual
   - book.xml.md: Разбор XML
 title: Обробники подій
@@ -20,6 +20,6 @@ title: Обробники подій
 | [xmlsetdefaulthandler()](function.xml-set-default-handler.md) | Якщо немає спеціального оброблювача, викликається оброблювач за замовчуванням. Ви отримаєте XML та оголошення типів документа за допомогою стандартного обробника. |
 | [xmlsetunparsedentitydeclhandler()](function.xml-set-unparsed-entity-decl-handler.md) | Цей обробник буде викликатись для декларування непроаналізованих (NDATA) сутностей. |
 | [xmlsetnotationdeclhandler()](function.xml-set-notation-decl-handler.md) | Цей оброблювач викликається при оголошенні нотації. |
-| [xmlsetexternalentityrefhandler()](function.xml-set-external-entity-ref-handler.html) | Цей обробник викликається, коли аналізатор XML знаходить посилання на зовнішню сутність. Наприклад, це може бути посилання на файл або URL-адресу. Дивіться [приклад зовнішньої сутності](example.xml-external-entity.md) |
+| [xmlsetexternalentityrefhandler()](function.xml-set-external-entity-ref-handler.md) | Цей обробник викликається, коли аналізатор XML знаходить посилання на зовнішню сутність. Наприклад, це може бути посилання на файл або URL-адресу. Дивіться [приклад зовнішньої сутності](example.xml-external-entity.md) |
 | [xmlsetstartnamespacedeclhandler()](function.xml-set-start-namespace-decl-handler.md) | Цей обробник викликається на початку оголошення простору імен. |
 | [xmlsetendnamespacedeclhandler()](function.xml-set-end-namespace-decl-handler.md) | Цей обробник викликається наприкінці оголошення простору імен. Зазначимо, що ця подія *не* викликається LibXML. |

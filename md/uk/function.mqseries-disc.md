@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mqseries-connx.html: « mqseriesconnx
-  - function.mqseries-get.html: mqseriesget »
+  - function.mqseries-connx.md: « mqseriesconnx
+  - function.mqseries-get.md: mqseriesget »
   - index.md: PHP Manual
   - ref.mqseries.md: Функции mqseries
 title: mqseriesdisc
@@ -18,7 +18,7 @@ mqseriesdisc — MQSeries MQDISC
 mqseries_disc(resource $hconn, resource &$compCode, resource &$reason): void
 ```
 
-Функція **mqseriesdisc()** (MQDISC) розриває з'єднання з менеджером черг. Вона є протилежною функцій [mqseriesconn()](function.mqseries-conn.html) (MQCONN) та [mqseriesconnx()](function.mqseries-connx.md) (MQCONNX).
+Функція **mqseriesdisc()** (MQDISC) розриває з'єднання з менеджером черг. Вона є протилежною функцій [mqseriesconn()](function.mqseries-conn.md) (MQCONN) та [mqseriesconnx()](function.mqseries-connx.md) (MQCONNX).
 
 ### Список параметрів
 

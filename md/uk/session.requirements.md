@@ -1,9 +1,9 @@
 ---
 navigation:
-  - session.setup.html: « Встановлення та налаштування
-  - session.installation.html: Установка »
-  - index.html: PHP Manual
-  - session.setup.html: Встановлення та налаштування
+  - session.setup.md: « Встановлення та налаштування
+  - session.installation.md: Установка »
+  - index.md: PHP Manual
+  - session.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

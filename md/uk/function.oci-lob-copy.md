@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.oci-get-implicit-resultset.html: « ocigetimplicitresultset
-  - function.oci-lob-is-equal.html: ocilobісequal »
+  - function.oci-get-implicit-resultset.md: « ocigetimplicitresultset
+  - function.oci-lob-is-equal.md: ocilobісequal »
   - index.md: PHP Manual
   - ref.oci8.md: OCI8 Функции
 title: ociлобcopy

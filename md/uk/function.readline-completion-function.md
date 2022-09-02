@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.readline-clear-history.html: « readlineclearhistory
-  - function.readline-info.html: readlineinfo »
+  - function.readline-clear-history.md: « readlineclearhistory
+  - function.readline-info.md: readlineinfo »
   - index.md: PHP Manual
   - ref.readline.md: Функции Readline
 title: readlinecompletionfunction

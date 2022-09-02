@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.cli-get-process-title.html: « cligetprocesstitle
-  - function.dl.html: dl »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.cli-get-process-title.md: « cligetprocesstitle
+  - function.dl.md: dl »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: clisetprocesstitle
 ---
 # clisetprocesstitle

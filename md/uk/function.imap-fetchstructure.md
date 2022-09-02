@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-fetchmime.html: « imapfetchmime
-  - function.imap-fetchtext.html: imapfetchtext »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-fetchmime.md: « imapfetchmime
+  - function.imap-fetchtext.md: imapfetchtext »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imapfetchstructure
 ---
 # imapfetchstructure
@@ -71,7 +71,7 @@ imap_fetchstructure(IMAP\Connection $imap, int $message_num, int $flags = 0): st
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `imap` тепер чекає екземпляр [IMAPConnection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Дивіться також
 

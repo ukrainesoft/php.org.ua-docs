@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-redefine.html: « uopzredefine
-  - function.uopz-restore.html: uopzrestore »
+  - function.uopz-redefine.md: « uopzredefine
+  - function.uopz-restore.md: uopzrestore »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzrename

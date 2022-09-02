@@ -1,7 +1,7 @@
 ---
 navigation:
-  - swoole-timer.tick.html: '« SwooleTimer::tick'
-  - class.swoole-websocket-server.html: SwooleWebSocketServer »
+  - swoole-timer.tick.md: '« SwooleTimer::tick'
+  - class.swoole-websocket-server.md: SwooleWebSocketServer »
   - index.md: PHP Manual
   - book.swoole.md: Swoole
 title: Клас SwooleWebSocketFrame

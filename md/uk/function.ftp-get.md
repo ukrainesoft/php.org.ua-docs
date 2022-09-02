@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ftp-get-option.html: « ftpgetoption
-  - function.ftp-login.html: ftplogin »
-  - index.html: PHP Manual
-  - ref.ftp.html: Функції FTP
+  - function.ftp-get-option.md: « ftpgetoption
+  - function.ftp-login.md: ftplogin »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
 title: ftpget
 ---
 # ftpget
@@ -50,7 +50,7 @@ ftp_get(    FTP\Connection $ftp,    string $local_filename,    strin
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим. |
 
 ### Приклади

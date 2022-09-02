@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrresponse.getrawresponseheaders.html: '« SolrResponse::getRawResponseHeaders'
-  - solrresponse.getresponse.html: 'SolrResponse::getResponse »'
-  - index.html: PHP Manual
-  - class.solrresponse.html: SolrResponse
+  - solrresponse.getrawresponseheaders.md: '« SolrResponse::getRawResponseHeaders'
+  - solrresponse.getresponse.md: 'SolrResponse::getResponse »'
+  - index.md: PHP Manual
+  - class.solrresponse.md: SolrResponse
 title: 'SolrResponse::getRequestUrl'
 ---
 # SolrResponse::getRequestUrl

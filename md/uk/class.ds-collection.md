@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds.examples.html: « Приклади
-  - ds-collection.clear.html: 'ДсCollection::clear »'
-  - index.html: PHP Manual
-  - book.ds.html: Структури даних
+  - ds.examples.md: « Приклади
+  - ds-collection.clear.md: 'ДсCollection::clear »'
+  - index.md: PHP Manual
+  - book.ds.md: Структури даних
 title: Інтерфейс Collection
 ---
 # Інтерфейс Collection
@@ -41,7 +41,7 @@ abstract public toArray(): array
 
 | Версия | Описание |
 | --- | --- |
-| PECL ds 1.4.0 | Клас **Collection** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.html) замість [Traversable](class.traversable.md). (Ця зміна з'явилася у поліфілі у версії 1.4.1). |
+| PECL ds 1.4.0 | Клас **Collection** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md) замість [Traversable](class.traversable.md). (Ця зміна з'явилася у поліфілі у версії 1.4.1). |
 
 ## Зміст
 

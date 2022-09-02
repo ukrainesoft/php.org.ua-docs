@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkey-get-public.html: « opensslpkeygetpublic
-  - function.openssl-private-decrypt.html: opensslprivatedecrypt »
+  - function.openssl-pkey-get-public.md: « opensslpkeygetpublic
+  - function.openssl-private-decrypt.md: opensslprivatedecrypt »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkeynew

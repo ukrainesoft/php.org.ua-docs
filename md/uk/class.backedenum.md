@@ -1,9 +1,9 @@
 ---
 navigation:
-  - unitenum.cases.html: '« UnitEnum::cases'
-  - backedenum.from.html: 'BackedEnum::from »'
-  - index.html: PHP Manual
-  - reserved.interfaces.html: Вбудовані інтерфейси та класи
+  - unitenum.cases.md: '« UnitEnum::cases'
+  - backedenum.from.md: 'BackedEnum::from »'
+  - index.md: PHP Manual
+  - reserved.interfaces.md: Вбудовані інтерфейси та класи
 title: Інтерфейс BackedEnum
 ---
 # Інтерфейс BackedEnum
@@ -42,5 +42,5 @@ public static tryFrom(int|string $value): ?static
 
 ## Зміст
 
--   [BackedEnum::from](backedenum.from.html) - Зіставляє скаляр з екземпляром перерахування
--   [BackedEnum::tryFrom](backedenum.tryfrom.html) — Порівнює скаляр з екземпляром перерахування чи null
+-   [BackedEnum::from](backedenum.from.md) - Зіставляє скаляр з екземпляром перерахування
+-   [BackedEnum::tryFrom](backedenum.tryfrom.md) — Порівнює скаляр з екземпляром перерахування чи null

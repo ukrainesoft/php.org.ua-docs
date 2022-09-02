@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-append.html: « ftpappend
-  - function.ftp-chdir.html: ftpchdir »
+  - function.ftp-append.md: « ftpappend
+  - function.ftp-chdir.md: ftpchdir »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpcdup

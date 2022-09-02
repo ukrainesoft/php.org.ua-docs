@@ -1,6 +1,6 @@
 ---
 navigation:
-  - migration70.other-changes.html: « Другие изменения
+  - migration70.other-changes.md: « Другие изменения
   - migration56.incompatible.md: 'Зміни, що ламають зворотну сумісність »'
   - index.md: PHP Manual
   - appendices.md: Appendices

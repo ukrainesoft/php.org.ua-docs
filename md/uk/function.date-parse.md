@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.date-parse-from-format.html: « dateparsefromformat
-  - function.date-sub.html: datesub »
+  - function.date-parse-from-format.md: « dateparsefromformat
+  - function.date-sub.md: datesub »
   - index.md: PHP Manual
   - ref.datetime.md: Функції дати та часу
 title: dateparse

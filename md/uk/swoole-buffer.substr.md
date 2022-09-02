@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-buffer.recycle.html: '« SwooleBuffer::recycle'
-  - swoole-buffer.tostring.html: 'SwooleBuffer::toString »'
-  - index.html: PHP Manual
-  - class.swoole-buffer.html: SwooleBuffer
+  - swoole-buffer.recycle.md: '« SwooleBuffer::recycle'
+  - swoole-buffer.tostring.md: 'SwooleBuffer::toString »'
+  - index.md: PHP Manual
+  - class.swoole-buffer.md: SwooleBuffer
 title: 'SwooleBuffer::substr'
 ---
 # SwooleBuffer::substr

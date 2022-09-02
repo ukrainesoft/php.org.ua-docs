@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-connect-with-url.html: « cubridconnectwithurl
-  - function.cubrid-current-oid.html: cubridcurrentoid »
+  - function.cubrid-connect-with-url.md: « cubridconnectwithurl
+  - function.cubrid-current-oid.md: cubridcurrentoid »
   - index.md: PHP Manual
   - ref.cubrid.md: Функции CUBRID
 title: cubridconnect
@@ -44,7 +44,7 @@ cubrid_connect(    string $host,    int $port,    string $dbname, �
 
 `new_link`
 
-Якщо функція [cubridconnectwithurl()](function.cubrid-connect-with-url.html) була викликана повторно з такими ж аргументами, нове з'єднання не буде створено, замість нього буде повернено ідентифікатор вже підключення. Параметр `new_link` змінює таку поведінку і змушує [cubridconnectwithurl()](function.cubrid-connect-with-url.html) у будь-якому випадку створити нове з'єднання, навіть якщо функція [cubridconnectwithurl()](function.cubrid-connect-with-url.md) раніше була викликана з такими самими аргументами.
+Якщо функція [cubridconnectwithurl()](function.cubrid-connect-with-url.md) була викликана повторно з такими ж аргументами, нове з'єднання не буде створено, замість нього буде повернено ідентифікатор вже підключення. Параметр `new_link` змінює таку поведінку і змушує [cubridconnectwithurl()](function.cubrid-connect-with-url.md) у будь-якому випадку створити нове з'єднання, навіть якщо функція [cubridconnectwithurl()](function.cubrid-connect-with-url.md) раніше була викликана з такими самими аргументами.
 
 ### Значення, що повертаються
 

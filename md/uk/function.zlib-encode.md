@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.zlib-decode.html: « zlibdecode
-  - function.zlib-get-coding-type.html: zlibgetcodingtype »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.zlib-decode.md: « zlibdecode
+  - function.zlib-get-coding-type.md: zlibgetcodingtype »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: zlibencode
 ---
 # zlibencode

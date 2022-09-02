@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.yaf-exception-loadfailed.html: « YafExceptionLoadFailed
-  - class.yaf-exception-loadfailed-controller.html: YafExceptionLoadFailedController »
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - class.yaf-exception-loadfailed.md: « YafExceptionLoadFailed
+  - class.yaf-exception-loadfailed-controller.md: YafExceptionLoadFailedController »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Клас YafExceptionLoadFailedModule
 ---
 # Клас YafExceptionLoadFailedModule

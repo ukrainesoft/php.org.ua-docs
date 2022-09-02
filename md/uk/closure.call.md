@@ -1,9 +1,9 @@
 ---
 navigation:
-  - closure.bindto.html: '« Closure::bindTo'
-  - closure.fromcallable.html: 'Closure::fromCallable »'
-  - index.html: PHP Manual
-  - class.closure.html: Closure
+  - closure.bindto.md: '« Closure::bindTo'
+  - closure.fromcallable.md: 'Closure::fromCallable »'
+  - index.md: PHP Manual
+  - class.closure.md: Closure
 title: 'Closure::call'
 ---
 # Closure::call

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splpriorityqueue.current.html: '« SplPriorityQueue::current'
-  - splpriorityqueue.getextractflags.html: 'SplPriorityQueue::getExtractFlags »'
-  - index.html: PHP Manual
-  - class.splpriorityqueue.html: SplPriorityQueue
+  - splpriorityqueue.current.md: '« SplPriorityQueue::current'
+  - splpriorityqueue.getextractflags.md: 'SplPriorityQueue::getExtractFlags »'
+  - index.md: PHP Manual
+  - class.splpriorityqueue.md: SplPriorityQueue
 title: 'SplPriorityQueue::extract'
 ---
 # SplPriorityQueue::extract

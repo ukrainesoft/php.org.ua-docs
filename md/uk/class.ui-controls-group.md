@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-controls-grid.setpadded.html: '« UIControlsGrid::setPadded'
-  - ui-controls-group.append.html: 'ОЙControlsGroup::append »'
+  - ui-controls-grid.setpadded.md: '« UIControlsGrid::setPadded'
+  - ui-controls-group.append.md: 'ОЙControlsGroup::append »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Елемент управління "Група" (розміщення)

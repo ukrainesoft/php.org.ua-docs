@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mongodb-driver-monitoring-commandsucceededevent.html: « MongoDBDriverMonitoringCommandSucceededEvent
-  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros »'
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: « MongoDBDriverMonitoringCommandSucceededEvent
+  - mongodb-driver-monitoring-commandsucceededevent.getdurationmicros.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getDurationMicros »'
   - index.md: PHP Manual
-  - class.mongodb-driver-monitoring-commandsucceededevent.html: MongoDBDriverMonitoringCommandSucceededEvent
+  - class.mongodb-driver-monitoring-commandsucceededevent.md: MongoDBDriverMonitoringCommandSucceededEvent
 title: 'MongoDBDriverMonitoringCommandSucceededEvent::getCommandName'
 ---
 # MongoDBDriverMonitoringCommandSucceededEvent::getCommandName

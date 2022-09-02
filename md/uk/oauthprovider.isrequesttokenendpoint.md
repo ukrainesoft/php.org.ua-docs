@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauthprovider.is2leggedendpoint.html: '« OAuthProvider::is2LeggedEndpoint'
-  - oauthprovider.removerequiredparameter.html: 'OAuthProvider::removeRequiredParameter »'
-  - index.html: PHP Manual
-  - class.oauthprovider.html: OAuthProvider
+  - oauthprovider.is2leggedendpoint.md: '« OAuthProvider::is2LeggedEndpoint'
+  - oauthprovider.removerequiredparameter.md: 'OAuthProvider::removeRequiredParameter »'
+  - index.md: PHP Manual
+  - class.oauthprovider.md: OAuthProvider
 title: 'OAuthProvider::isRequestTokenEndpoint'
 ---
 # OAuthProvider::isRequestTokenEndpoint
@@ -26,7 +26,7 @@ public OAuthProvider::isRequestTokenEndpoint(bool $will_issue_request_token): vo
 
 `will_issue_request_token`
 
-Встановлює, чи видаватиме токен запиту, тим самим визначаючи, чи потрібно викликати [OAuthProvider::tokenHandler()](oauthprovider.tokenhandler.html)
+Встановлює, чи видаватиме токен запиту, тим самим визначаючи, чи потрібно викликати [OAuthProvider::tokenHandler()](oauthprovider.tokenhandler.md)
 
 ### Значення, що повертаються
 
@@ -34,5 +34,5 @@ public OAuthProvider::isRequestTokenEndpoint(bool $will_issue_request_token): vo
 
 ### Дивіться також
 
--   [OAuthProvider::setRequestTokenPath()](oauthprovider.setrequesttokenpath.html) - Встановити шлях запиту токена
--   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.html) - Повідомити про проблему
+-   [OAuthProvider::setRequestTokenPath()](oauthprovider.setrequesttokenpath.md) - Встановити шлях запиту токена
+-   [OAuthProvider::reportProblem()](oauthprovider.reportproblem.md) - Повідомити про проблему

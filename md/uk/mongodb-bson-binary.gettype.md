@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-binary.getdata.html: '« MongoDBBSONBinary::getData'
-  - mongodb-bson-binary.jsonserialize.html: 'MongoDBBSONBinary::jsonSerialize »'
+  - mongodb-bson-binary.getdata.md: '« MongoDBBSONBinary::getData'
+  - mongodb-bson-binary.jsonserialize.md: 'MongoDBBSONBinary::jsonSerialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-binary.html: MongoDBBSONBinary
+  - class.mongodb-bson-binary.md: MongoDBBSONBinary
 title: 'MongoDBBSONBinary::getType'
 ---
 # MongoDBBSONBinary::getType

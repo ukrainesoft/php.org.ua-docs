@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yar-client.call.html: '« YarClient::call'
-  - yar-client.setopt.html: 'YarClient::setOpt »'
-  - index.html: PHP Manual
-  - class.yar-client.html: YarClient
+  - yar-client.call.md: '« YarClient::call'
+  - yar-client.setopt.md: 'YarClient::setOpt »'
+  - index.md: PHP Manual
+  - class.yar-client.md: YarClient
 title: 'YarClient::construct'
 ---
 # YarClient::construct
@@ -18,7 +18,7 @@ YarClient::construct — Конструктор YarClient
 final public Yar_Client::__construct(string $url, array $options = ?)
 ```
 
-Створює [YarClient](class.yar-client.html) для [YarServer](class.yar-server.html)
+Створює [YarClient](class.yar-client.md) для [YarServer](class.yar-server.md)
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ URL сервера Yar.
 
 ### Значення, що повертаються
 
-Об'єкт класу [YarClient](class.yar-client.html)
+Об'єкт класу [YarClient](class.yar-client.md)
 
 ### Приклади
 
@@ -44,5 +44,5 @@ $client = new Yar_Client("http://host/api/");
 
 ### Дивіться також
 
--   [YarClient::call()](yar-client.call.html) - Виклик сервісу
--   [YarClient::setOpt()](yar-client.setopt.html) - Задати контекст виклику
+-   [YarClient::call()](yar-client.call.md) - Виклик сервісу
+-   [YarClient::setOpt()](yar-client.setopt.md) - Задати контекст виклику

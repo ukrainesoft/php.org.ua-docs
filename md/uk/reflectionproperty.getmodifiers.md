@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionproperty.getdoccomment.html: '« ReflectionProperty::getDocComment'
-  - reflectionproperty.getname.html: 'ReflectionProperty::getName »'
-  - index.html: PHP Manual
-  - class.reflectionproperty.html: ReflectionProperty
+  - reflectionproperty.getdoccomment.md: '« ReflectionProperty::getDocComment'
+  - reflectionproperty.getname.md: 'ReflectionProperty::getName »'
+  - index.md: PHP Manual
+  - class.reflectionproperty.md: ReflectionProperty
 title: 'ReflectionProperty::getModifiers'
 ---
 # ReflectionProperty::getModifiers
@@ -26,7 +26,7 @@ public ReflectionProperty::getModifiers(): int
 
 ### Значення, що повертаються
 
-Числове уявлення модифікаторів. Фактичне значення цих модифікаторів описано у розділі [Обумовлені константи](class.reflectionproperty.html#reflectionproperty.constants.modifiers)
+Числове уявлення модифікаторів. Фактичне значення цих модифікаторів описано у розділі [Обумовлені константи](class.reflectionproperty.md#reflectionproperty.constants.modifiers)
 
 ### Дивіться також
 

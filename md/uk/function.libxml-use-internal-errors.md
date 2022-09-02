@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.libxml-set-streams-context.html: « libxmlsetstreamscontext
-  - book.simplexml.html: SimpleXML »
-  - index.html: PHP Manual
-  - ref.libxml.html: Функції libxml
+  - function.libxml-set-streams-context.md: « libxmlsetstreamscontext
+  - book.simplexml.md: SimpleXML »
+  - index.md: PHP Manual
+  - ref.libxml.md: Функції libxml
 title: libxmluseinternalerrors
 ---
 # libxmluseinternalerrors

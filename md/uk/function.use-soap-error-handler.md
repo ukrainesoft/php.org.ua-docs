@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-soap-fault.html: « issoapfault
-  - class.soapclient.html: SoapClient »
-  - index.html: PHP Manual
-  - ref.soap.html: Функции SOAP
+  - function.is-soap-fault.md: « issoapfault
+  - class.soapclient.md: SoapClient »
+  - index.md: PHP Manual
+  - ref.soap.md: Функции SOAP
 title: usesoaperrorhandler
 ---
 # usesoaperrorhandler

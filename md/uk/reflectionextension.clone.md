@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.reflectionextension.html: « ReflectionExtension
-  - reflectionextension.construct.html: 'ReflectionExtension::construct »'
-  - index.html: PHP Manual
-  - class.reflectionextension.html: ReflectionExtension
+  - class.reflectionextension.md: « ReflectionExtension
+  - reflectionextension.construct.md: 'ReflectionExtension::construct »'
+  - index.md: PHP Manual
+  - class.reflectionextension.md: ReflectionExtension
 title: 'ReflectionExtension::clone'
 ---
 # ReflectionExtension::clone

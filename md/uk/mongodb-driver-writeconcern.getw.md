@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-writeconcern.getjournal.html: '« MongoDBDriverWriteConcern::getJournal'
-  - mongodb-driver-writeconcern.getwtimeout.html: 'MongoDBDriverWriteConcern::getWtimeout »'
+  - mongodb-driver-writeconcern.getjournal.md: '« MongoDBDriverWriteConcern::getJournal'
+  - mongodb-driver-writeconcern.getwtimeout.md: 'MongoDBDriverWriteConcern::getWtimeout »'
   - index.md: PHP Manual
-  - class.mongodb-driver-writeconcern.html: MongoDBDriverWriteConcern
+  - class.mongodb-driver-writeconcern.md: MongoDBDriverWriteConcern
 title: 'MongoDBDriverWriteConcern::getW'
 ---
 # MongoDBDriverWriteConcern::getW

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-controls-form.append.html: '« UIControlsForm::append'
-  - ui-controls-form.ispadded.html: 'ОЙControlsForm::isPadded »'
-  - index.html: PHP Manual
-  - class.ui-controls-form.html: ОЙControlsForm
+  - ui-controls-form.append.md: '« UIControlsForm::append'
+  - ui-controls-form.ispadded.md: 'ОЙControlsForm::isPadded »'
+  - index.md: PHP Manual
+  - class.ui-controls-form.md: ОЙControlsForm
 title: 'ОЙControlsForm::delete'
 ---
 # ОЙControlsForm::delete

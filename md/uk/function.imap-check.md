@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-bodystruct.html: « imapbodystruct
-  - function.imap-clearflag-full.html: imapclearflagfull »
+  - function.imap-bodystruct.md: « imapbodystruct
+  - function.imap-clearflag-full.md: imapclearflagfull »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imapcheck

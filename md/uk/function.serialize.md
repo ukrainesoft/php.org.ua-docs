@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.print-r.html: « printр
+  - function.print-r.md: « printр
   - function.settype.md: settype »
   - index.md: PHP Manual
   - ref.var.md: Функції для роботи зі змінними
@@ -30,7 +30,7 @@ serialize(mixed $value): string
 
 Значення, яке потрібно серіалізувати . **serialize()** обробляє всі типи, крім resource та деяких типів об'єкта (див. примітку нижче). Можна також серіалізувати масиви, які містять посилання на себе. Циклічні посилання всередині масиву/об'єкта, що серіалізується, також зберігаються. Будь-які інші посилання будуть втрачені.
 
-При серіалізації об'єкта PHP намагається викликати магічні методи [serialize()](language.oop5.magic.html#object.serialize) або [sleep()](language.oop5.magic.html#object.sleep) перед серіалізацією. Це робиться для того, щоб дозволити об'єкту в останній момент провести очищення тощо перед серіалізацією. Аналогічно, коли об'єкт відновлюється функцією [unserialize()](function.unserialize.md), викликається магічний метод [unserialize()](language.oop5.magic.html#object.unserialize) або [wakeup()](language.oop5.magic.html#object.wakeup)
+При серіалізації об'єкта PHP намагається викликати магічні методи [serialize()](language.oop5.magic.md#object.serialize) або [sleep()](language.oop5.magic.md#object.sleep) перед серіалізацією. Це робиться для того, щоб дозволити об'єкту в останній момент провести очищення тощо перед серіалізацією. Аналогічно, коли об'єкт відновлюється функцією [unserialize()](function.unserialize.md), викликається магічний метод [unserialize()](language.oop5.magic.md#object.unserialize) або [wakeup()](language.oop5.magic.md#object.wakeup)
 
 > **Зауваження**
 > 
@@ -70,7 +70,7 @@ if (!odbc_execute($stmt, $sqldata)) {
 
 > **Зауваження**
 > 
-> Зверніть увагу, що багато вбудованих PHP об'єктів не може бути серіалізовано. Однак, ті з них, які підтримують цю можливість, реалізують або інтерфейс [Serializable](class.serializable.md), або магічні методи [serialize()](language.oop5.magic.html#object.serialize)[unserialize()](language.oop5.magic.html#object.unserialize) або [sleep()](language.oop5.magic.html#object.sleep)[wakeup()](language.oop5.magic.html#object.wakeup). Якщо вбудований клас не відповідає цим вимогам, він не може бути надійно серіалізований.
+> Зверніть увагу, що багато вбудованих PHP об'єктів не може бути серіалізовано. Однак, ті з них, які підтримують цю можливість, реалізують або інтерфейс [Serializable](class.serializable.md), або магічні методи [serialize()](language.oop5.magic.md#object.serialize)[unserialize()](language.oop5.magic.md#object.unserialize) або [sleep()](language.oop5.magic.md#object.sleep)[wakeup()](language.oop5.magic.md#object.wakeup). Якщо вбудований клас не відповідає цим вимогам, він не може бути надійно серіалізований.
 > 
 > Історично є деякі винятки з вищезгаданого правила, коли деякі внутрішні об'єкти можуть бути серіалізовані без реалізації інтерфейсу або магічних методів.
 
@@ -84,7 +84,7 @@ if (!odbc_execute($stmt, $sqldata)) {
 -   [varexport()](function.var-export.md) - Виводить або повертає інтерпретоване рядкове подання змінної
 -   [jsonencode()](function.json-encode.md) - Повертає JSON-подання даних
 -   [Серіалізація об'єктів](language.oop5.serialization.md)
--   [sleep()](language.oop5.magic.html#object.sleep)
--   [wakeup()](language.oop5.magic.html#object.wakeup)
--   [serialize()](language.oop5.magic.html#object.serialize)
--   [unserialize()](language.oop5.magic.html#object.unserialize)
+-   [sleep()](language.oop5.magic.md#object.sleep)
+-   [wakeup()](language.oop5.magic.md#object.wakeup)
+-   [serialize()](language.oop5.magic.md#object.serialize)
+-   [unserialize()](language.oop5.magic.md#object.unserialize)

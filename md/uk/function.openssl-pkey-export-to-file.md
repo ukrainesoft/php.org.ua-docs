@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pkey-derive.html: « opensslpkeyderive
-  - function.openssl-pkey-export.html: opensslpkeyexport »
+  - function.openssl-pkey-derive.md: « opensslpkeyderive
+  - function.openssl-pkey-export.md: opensslpkeyexport »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkeyexportтоfile

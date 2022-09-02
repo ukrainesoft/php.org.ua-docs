@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-cdf-normal.html: « statscdfnormal
-  - function.stats-cdf-t.html: statscdft »
+  - function.stats-cdf-normal.md: « statscdfnormal
+  - function.stats-cdf-t.md: statscdft »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statscdfpoisson

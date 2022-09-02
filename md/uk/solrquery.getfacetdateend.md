@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getfacet.html: '« SolrQuery::getFacet'
-  - solrquery.getfacetdatefields.html: 'SolrQuery::getFacetDateFields »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getfacet.md: '« SolrQuery::getFacet'
+  - solrquery.getfacetdatefields.md: 'SolrQuery::getFacetDateFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getFacetDateEnd'
 ---
 # SolrQuery::getFacetDateEnd

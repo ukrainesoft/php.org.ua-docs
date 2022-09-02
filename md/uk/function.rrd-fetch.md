@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.rrd-error.html: « rrderror
-  - function.rrd-first.html: rrdfirst »
+  - function.rrd-error.md: « rrderror
+  - function.rrd-first.md: rrdfirst »
   - index.md: PHP Manual
   - ref.rrd.md: Функції RRD
 title: rrdfetch

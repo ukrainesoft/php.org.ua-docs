@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-maxkey.jsonserialize.html: '« MongoDBBSONMaxKey::jsonSerialize'
-  - mongodb-bson-maxkey.unserialize.html: 'MongoDBBSONMaxKey::unserialize »'
+  - mongodb-bson-maxkey.jsonserialize.md: '« MongoDBBSONMaxKey::jsonSerialize'
+  - mongodb-bson-maxkey.unserialize.md: 'MongoDBBSONMaxKey::unserialize »'
   - index.md: PHP Manual
-  - class.mongodb-bson-maxkey.html: MongoDBBSONMaxKey
+  - class.mongodb-bson-maxkey.md: MongoDBBSONMaxKey
 title: 'MongoDBBSONMaxKey::serialize'
 ---
 # MongoDBBSONMaxKey::serialize

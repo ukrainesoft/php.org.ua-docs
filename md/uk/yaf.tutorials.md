@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf.constants.html: « Обумовлені константи
-  - yaf.appconfig.html: Конфигурация приложения »
-  - index.html: PHP Manual
-  - book.yaf.html: Yaf
+  - yaf.constants.md: « Обумовлені константи
+  - yaf.appconfig.md: Конфигурация приложения »
+  - index.md: PHP Manual
+  - book.yaf.md: Yaf
 title: Приклади
 ---
 # Приклади

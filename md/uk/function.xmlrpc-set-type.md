@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.xmlrpc-server-register-method.html: « xmlrpcserverregistermethod
-  - refs.utilspec.windows.html: Модулі лише для Windows »
-  - index.html: PHP Manual
-  - ref.xmlrpc.html: Функції XML-RPC
+  - function.xmlrpc-server-register-method.md: « xmlrpcserverregistermethod
+  - refs.utilspec.windows.md: Модулі лише для Windows »
+  - index.md: PHP Manual
+  - ref.xmlrpc.md: Функції XML-RPC
 title: xmlrpcsettype
 ---
 # xmlrpcsettype

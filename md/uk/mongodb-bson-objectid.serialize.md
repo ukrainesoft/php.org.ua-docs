@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-bson-objectid.jsonserialize.html: '« MongoDBBSONObjectId::jsonSerialize'
-  - mongodb-bson-objectid.tostring.html: 'MongoDBBSONObjectId::toString »'
+  - mongodb-bson-objectid.jsonserialize.md: '« MongoDBBSONObjectId::jsonSerialize'
+  - mongodb-bson-objectid.tostring.md: 'MongoDBBSONObjectId::toString »'
   - index.md: PHP Manual
-  - class.mongodb-bson-objectid.html: MongoDBBSONObjectId
+  - class.mongodb-bson-objectid.md: MongoDBBSONObjectId
 title: 'MongoDBBSONObjectId::serialize'
 ---
 # MongoDBBSONObjectId::serialize

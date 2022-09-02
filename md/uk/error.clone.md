@@ -1,9 +1,9 @@
 ---
 navigation:
-  - error.tostring.html: '« Error::toString'
-  - class.argumentcounterror.html: ArgumentCountError »
-  - index.html: PHP Manual
-  - class.error.html: Error
+  - error.tostring.md: '« Error::toString'
+  - class.argumentcounterror.md: ArgumentCountError »
+  - index.md: PHP Manual
+  - class.error.md: Error
 title: 'Error::clone'
 ---
 # Error::clone

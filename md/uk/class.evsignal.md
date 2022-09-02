@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evprepare.createstopped.html: '« EvPrepare::createStopped'
-  - evsignal.construct.html: 'EvSignal::construct »'
-  - index.html: PHP Manual
-  - book.ev.html: Єв
+  - evprepare.createstopped.md: '« EvPrepare::createStopped'
+  - evsignal.construct.md: 'EvSignal::construct »'
+  - index.md: PHP Manual
+  - book.ev.md: Єв
 title: Клас EvSignal
 ---
 # Клас EvSignal
@@ -16,7 +16,7 @@ title: Клас EvSignal
 
 Обмежень на кількість спостерігачів за тим самим сигналом немає, але тільки в межах одного подієвого циклу. Наприклад, у циклі за замовчуванням працює спостерігач за **`SIGINT`**, а в іншому циклі спостерігач за **`SIGIO`**, але при цьому не можна спостерігати **`SIGINT`** у двох циклах одразу. Ну і за **`SIGCHLD`** можна спостерігати лише у циклі за замовчуванням.
 
-Якщо доступно та підтримується, *libev* встановлює свої обробники з дозволеною поведінкою `SA_RESTART` (або аналогом), тому системні дзвінки не будуть некоректно перериватися. Якщо виникають проблеми із перериванням системних викликів сигналами, всі сигнали можна блокувати у спостерігачі [EvCheck](class.evcheck.html) та розблокувати у спостерігачі [EvPrepare](class.evprepare.html)
+Якщо доступно та підтримується, *libev* встановлює свої обробники з дозволеною поведінкою `SA_RESTART` (або аналогом), тому системні дзвінки не будуть некоректно перериватися. Якщо виникають проблеми із перериванням системних викликів сигналами, всі сигнали можна блокувати у спостерігачі [EvCheck](class.evcheck.md) та розблокувати у спостерігачі [EvPrepare](class.evprepare.md)
 
 ## Огляд класів
 
@@ -134,6 +134,6 @@ signum
 
 ## Зміст
 
--   [EvSignal::construct](evsignal.construct.html) - Конструктор об'єкта спостерігача EvSignal
--   [EvSignal::createStopped](evsignal.createstopped.html) — Create stopped EvSignal watcher object
--   [EvSignal::set](evsignal.set.html) — Налаштування спостерігача
+-   [EvSignal::construct](evsignal.construct.md) - Конструктор об'єкта спостерігача EvSignal
+-   [EvSignal::createStopped](evsignal.createstopped.md) — Create stopped EvSignal watcher object
+-   [EvSignal::set](evsignal.set.md) — Налаштування спостерігача

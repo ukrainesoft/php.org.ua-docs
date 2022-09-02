@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-list-encodings.html: « mblistencodings
-  - function.mb-output-handler.html: мбoutputhandler »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-list-encodings.md: « mblistencodings
+  - function.mb-output-handler.md: мбoutputhandler »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбord
 ---
 # мбord
@@ -20,7 +20,7 @@ mb_ord(string $string, ?string $encoding = null): int|false
 
 Повертає значення кодової точки Unicode для цього символу.
 
-Функція доповнює [мбchr()](function.mb-chr.html)
+Функція доповнює [мбchr()](function.mb-chr.md)
 
 ### Список параметрів
 
@@ -62,7 +62,7 @@ int(8364)
 
 ### Дивіться також
 
--   [мбinternalencoding()](function.mb-internal-encoding.html) - Встановлення/отримання внутрішнього кодування скрипту
--   [мбchr()](function.mb-chr.html) - Повертає символ за значенням кодової точки Unicode
--   [IntlChar::ord()](intlchar.ord.html) - Отримати код символ Unicode
--   [ord()](function.ord.html) - Конвертує перший байт рядка до числа від 0 до 255
+-   [мбinternalencoding()](function.mb-internal-encoding.md) - Встановлення/отримання внутрішнього кодування скрипту
+-   [мбchr()](function.mb-chr.md) - Повертає символ за значенням кодової точки Unicode
+-   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode
+-   [ord()](function.ord.md) - Конвертує перший байт рядка до числа від 0 до 255

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.getimagefilename.html: '« Gmagick::getimagefilename'
-  - gmagick.getimagegamma.html: 'Gmagick::getimagegamma »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.getimagefilename.md: '« Gmagick::getimagefilename'
+  - gmagick.getimagegamma.md: 'Gmagick::getimagegamma »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::getimageformat'
 ---
 # Gmagick::getimageformat

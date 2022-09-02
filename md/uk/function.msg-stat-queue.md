@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.msg-set-queue.html: « msgsetqueue
-  - function.sem-acquire.html: semacquire »
+  - function.msg-set-queue.md: « msgsetqueue
+  - function.sem-acquire.md: semacquire »
   - index.md: PHP Manual
   - ref.sem.md: Функції семафорів
 title: msgстатиqueue

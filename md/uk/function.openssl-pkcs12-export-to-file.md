@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.openssl-pbkdf2.html: « opensslpbkdf2
-  - function.openssl-pkcs12-export.html: opensslpkcs12export »
+  - function.openssl-pbkdf2.md: « opensslpbkdf2
+  - function.openssl-pkcs12-export.md: opensslpkcs12export »
   - index.md: PHP Manual
   - ref.openssl.md: Функции OpenSSL
 title: opensslpkcs12exportтоfile

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-cursor.construct.html: '« MongoDBDriverCursor::construct'
-  - mongodb-driver-cursor.getid.html: 'MongoDBDriverCursor::getId »'
+  - mongodb-driver-cursor.construct.md: '« MongoDBDriverCursor::construct'
+  - mongodb-driver-cursor.getid.md: 'MongoDBDriverCursor::getId »'
   - index.md: PHP Manual
-  - class.mongodb-driver-cursor.html: MongoDBDriverCursor
+  - class.mongodb-driver-cursor.md: MongoDBDriverCursor
 title: 'MongoDBDriverCursor::current'
 ---
 # MongoDBDriverCursor::current

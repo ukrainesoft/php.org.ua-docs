@@ -1,9 +1,9 @@
 ---
 navigation:
-  - spl.misc.html: « Різні класи та інтерфейси
-  - arrayobject.append.html: 'ArrayObject::append »'
-  - index.html: PHP Manual
-  - spl.misc.html: Різні класи та інтерфейси
+  - spl.misc.md: « Різні класи та інтерфейси
+  - arrayobject.append.md: 'ArrayObject::append »'
+  - index.md: PHP Manual
+  - spl.misc.md: Різні класи та інтерфейси
 title: Клас ArrayObject
 ---
 # Клас ArrayObject

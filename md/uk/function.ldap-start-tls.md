@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-sort.html: « ldapsort
-  - function.ldap-t61-to-8859.html: ldapt61то
+  - function.ldap-sort.md: « ldapsort
+  - function.ldap-t61-to-8859.md: ldapt61то
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapstarttls

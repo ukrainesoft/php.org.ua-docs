@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getclosurethis.html: '« ReflectionFunctionAbstract::getClosureThis'
-  - reflectionfunctionabstract.getdoccomment.html: 'ReflectionFunctionAbstract::getDocComment »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getclosurethis.md: '« ReflectionFunctionAbstract::getClosureThis'
+  - reflectionfunctionabstract.getdoccomment.md: 'ReflectionFunctionAbstract::getDocComment »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getClosureUsedVariables'
 ---
 # ReflectionFunctionAbstract::getClosureUsedVariables
@@ -18,7 +18,7 @@ ReflectionFunctionAbstract::getClosureUsedVariables — Повертає мас�
 public ReflectionFunctionAbstract::getClosureUsedVariables(): array
 ```
 
-Повертає масив (array) використовуваних в [Closure](class.closure.html) змінних.
+Повертає масив (array) використовуваних в [Closure](class.closure.md) змінних.
 
 ### Список параметрів
 
@@ -26,7 +26,7 @@ public ReflectionFunctionAbstract::getClosureUsedVariables(): array
 
 ### Значення, що повертаються
 
-Повертає масив (array) використовуваних в [Closure](class.closure.html) змінних.
+Повертає масив (array) використовуваних в [Closure](class.closure.md) змінних.
 
 ### Приклади
 
@@ -61,5 +61,5 @@ array(2) {
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getClosureScopeClass()](reflectionfunctionabstract.getclosurescopeclass.html) - Повертає клас, в рамках якого було оголошено замикання
--   [ReflectionFunctionAbstract::getClosureThis()](reflectionfunctionabstract.getclosurethis.html) - Повертає покажчик, прив'язаний до замикання
+-   [ReflectionFunctionAbstract::getClosureScopeClass()](reflectionfunctionabstract.getclosurescopeclass.md) - Повертає клас, в рамках якого було оголошено замикання
+-   [ReflectionFunctionAbstract::getClosureThis()](reflectionfunctionabstract.getclosurethis.md) - Повертає покажчик, прив'язаний до замикання

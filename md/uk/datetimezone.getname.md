@@ -1,9 +1,9 @@
 ---
 navigation:
-  - datetimezone.getlocation.html: '« DateTimeZone::getLocation'
-  - datetimezone.getoffset.html: 'DateTimeZone::getOffset »'
-  - index.html: PHP Manual
-  - class.datetimezone.html: DateTimeZone
+  - datetimezone.getlocation.md: '« DateTimeZone::getLocation'
+  - datetimezone.getoffset.md: 'DateTimeZone::getOffset »'
+  - index.md: PHP Manual
+  - class.datetimezone.md: DateTimeZone
 title: 'DateTimeZone::getName'
 ---
 # DateTimeZone::getName
@@ -34,8 +34,8 @@ timezone_name_get(DateTimeZone $object): string
 
 `object`
 
-Об'єкт класу [DateTimeZone](class.datetimezone.html)для якого потрібно отримати ім'я.
+Об'єкт класу [DateTimeZone](class.datetimezone.md)для якого потрібно отримати ім'я.
 
 ### Значення, що повертаються
 
-Залежно від типу зони, зсуву UTC (тип 1), абревіатури часового поясу (тип 2) та ідентифікаторів часових поясів, опублікованих у базі даних часових поясів IANA (тип 3), рядок дескриптора для створення нового об'єкта [DateTimeZone](class.datetimezone.html) з тим самим усуненням та/або правилами. Наприклад, `02:00` `CEST` або одне з імен часових поясів у [списку часових поясів](timezones.html)
+Залежно від типу зони, зсуву UTC (тип 1), абревіатури часового поясу (тип 2) та ідентифікаторів часових поясів, опублікованих у базі даних часових поясів IANA (тип 3), рядок дескриптора для створення нового об'єкта [DateTimeZone](class.datetimezone.md) з тим самим усуненням та/або правилами. Наприклад, `02:00` `CEST` або одне з імен часових поясів у [списку часових поясів](timezones.md)

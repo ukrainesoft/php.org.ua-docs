@@ -1,9 +1,9 @@
 ---
 navigation:
-  - control-structures.intro.html: « Введение
-  - control-structures.else.html: else »
-  - index.html: PHP Manual
-  - language.control-structures.html: Управляющие конструкции
+  - control-structures.intro.md: « Введение
+  - control-structures.else.md: else »
+  - index.md: PHP Manual
+  - language.control-structures.md: Управляющие конструкции
 title: іф
 ---
 ## іф
@@ -17,7 +17,7 @@ if (выражение)
   инструкция
 ```
 
-Як описано в [розділ про висловлювання](language.expressions.html), Вираз обчислюється в булеве значення. Якщо вираз набуває значення **`true`**, PHP виконає інструкцію, а якщо воно набуває значення **`false`** - Проігнорує. Інформація про те, які значення вважаються рівними значенню **`false`**, можна знайти у розділі ['Преобразование в булев тип'](language.types.boolean.html#language.types.boolean.casting)
+Як описано в [розділ про висловлювання](language.expressions.md), Вираз обчислюється в булеве значення. Якщо вираз набуває значення **`true`**, PHP виконає інструкцію, а якщо воно набуває значення **`false`** - Проігнорує. Інформація про те, які значення вважаються рівними значенню **`false`**, можна знайти у розділі ['Преобразование в булев тип'](language.types.boolean.md#language.types.boolean.casting)
 
 Наступний приклад виведе a більше b, якщо значення змінної $a більше, ніж $b:
 

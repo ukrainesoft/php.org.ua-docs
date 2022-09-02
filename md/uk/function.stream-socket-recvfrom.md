@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stream-socket-pair.html: « streamsocketpair
-  - function.stream-socket-sendto.html: streamsocketsendto »
+  - function.stream-socket-pair.md: « streamsocketpair
+  - function.stream-socket-sendto.md: streamsocketsendto »
   - index.md: PHP Manual
   - ref.stream.md: Функції для роботи з потоками
 title: streamsocketrecvfrom

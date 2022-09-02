@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql.setup.html: « Встановлення та налаштування
-  - mysql.installation.html: Установка »
-  - index.html: PHP Manual
-  - mysql.setup.html: Встановлення та налаштування
+  - mysql.setup.md: « Встановлення та налаштування
+  - mysql.installation.md: Установка »
+  - index.md: PHP Manual
+  - mysql.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги
@@ -12,4 +12,4 @@ title: Вимоги
 
 **Увага**
 
-Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.html) або [PDOMySQL](ref.pdo-mysql.html). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.html). Альтернативи для цієї функції:
+Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений у PHP 7.0.0. Використовуйте замість нього [MySQLi](book.mysqli.md) або [PDOMySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:

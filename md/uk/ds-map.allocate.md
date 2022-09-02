@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ds-map.html: « Коллекция пар ключ-значение
-  - ds-map.apply.html: 'ДсMap::apply »'
+  - class.ds-map.md: « Коллекция пар ключ-значение
+  - ds-map.apply.md: 'ДсMap::apply »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::allocate'
 ---
 # ДсMap::allocate

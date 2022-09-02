@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.gnupg-setarmor.html: « gnupgsetarmor
-  - function.gnupg-setsignmode.html: gnupgsetsignmode »
+  - function.gnupg-setarmor.md: « gnupgsetarmor
+  - function.gnupg-setsignmode.md: gnupgsetsignmode »
   - index.md: PHP Manual
   - ref.gnupg.md: GnuPG Функції
 title: gnupgseterrormode
@@ -18,7 +18,7 @@ gnupgseterrormode — Встановлює режим звітування пр�
 gnupg_seterrormode(resource $identifier, int $errormode): void
 ```
 
-Встановлює режим [errorreporting](errorfunc.configuration.html#ini.error-reporting)
+Встановлює режим [errorreporting](errorfunc.configuration.md#ini.error-reporting)
 
 ### Список параметрів
 

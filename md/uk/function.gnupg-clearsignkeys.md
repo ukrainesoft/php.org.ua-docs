@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gnupg-clearencryptkeys.html: « gnupgclearencryptkeys
-  - function.gnupg-decrypt.html: gnupgdecrypt »
-  - index.html: PHP Manual
-  - ref.gnupg.html: GnuPG Функції
+  - function.gnupg-clearencryptkeys.md: « gnupgclearencryptkeys
+  - function.gnupg-decrypt.md: gnupgdecrypt »
+  - index.md: PHP Manual
+  - ref.gnupg.md: GnuPG Функції
 title: gnupgclearsignkeys
 ---
 # gnupgclearsignkeys
@@ -22,7 +22,7 @@ gnupg_clearsignkeys(resource $identifier): bool
 
 `identifier`
 
-Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.html) або **gnupg**
+Ідентифікатор gnupg, отриманий з [gnupginit()](function.gnupg-init.md) або **gnupg**
 
 ### Значення, що повертаються
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   - sodium.constants.md: « Обумовлені константи
-  - function.sodium-add.html: sodiumadd »
+  - function.sodium-add.md: sodiumadd »
   - index.md: PHP Manual
   - book.sodium.md: Sodium
 title: Опції Sodium

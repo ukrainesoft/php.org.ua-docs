@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.uopz-unset-return.html: « uopzunsetreturn
+  - function.uopz-unset-return.md: « uopzunsetreturn
   - intro.wincache.md: Введение »
   - index.md: PHP Manual
   - refs.basic.php.md: Изменение поведения PHP

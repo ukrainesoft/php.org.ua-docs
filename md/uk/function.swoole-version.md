@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.swoole-timer-tick.html: « swooletimertick
-  - class.swoole-async.html: SwooleAsync »
-  - index.html: PHP Manual
-  - ref.swoole-funcs.html: Функции Swoole
+  - function.swoole-timer-tick.md: « swooletimertick
+  - class.swoole-async.md: SwooleAsync »
+  - index.md: PHP Manual
+  - ref.swoole-funcs.md: Функции Swoole
 title: swooleversion
 ---
 # swooleversion

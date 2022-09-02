@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.sodium-crypto-stream-keygen.html: « sodiumcryptostreamkeygen
-  - function.sodium-crypto-stream-xchacha20-xor.html: sodiumcryptostreamxchacha20xor »
+  - function.sodium-crypto-stream-keygen.md: « sodiumcryptostreamkeygen
+  - function.sodium-crypto-stream-xchacha20-xor.md: sodiumcryptostreamxchacha20xor »
   - index.md: PHP Manual
   - ref.sodium.md: Функции Sodium
 title: sodiumcryptostreamxchacha20keygen

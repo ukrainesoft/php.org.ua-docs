@@ -1,9 +1,9 @@
 ---
 navigation:
-  - scoutapm.setup.html: « Встановлення та налаштування
-  - scoutapm.installation.html: Установка »
-  - index.html: PHP Manual
-  - scoutapm.setup.html: Встановлення та налаштування
+  - scoutapm.setup.md: « Встановлення та налаштування
+  - scoutapm.installation.md: Установка »
+  - index.md: PHP Manual
+  - scoutapm.setup.md: Встановлення та налаштування
 title: Вимоги
 ---
 ## Вимоги

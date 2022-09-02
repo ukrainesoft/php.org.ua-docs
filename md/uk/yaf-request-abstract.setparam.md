@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.setmodulename.html: '« YafRequestAbstract::setModuleName'
-  - yaf-request-abstract.setrequesturi.html: 'YafRequestAbstract::setRequestUri »'
+  - yaf-request-abstract.setmodulename.md: '« YafRequestAbstract::setModuleName'
+  - yaf-request-abstract.setrequesturi.md: 'YafRequestAbstract::setRequestUri »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::setParam'
 ---
 # YafRequestAbstract::setParam

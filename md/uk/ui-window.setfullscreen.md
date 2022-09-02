@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-window.setborders.html: '« UIWindow::setBorders'
-  - ui-window.setmargin.html: 'ОЙWindow::setMargin »'
+  - ui-window.setborders.md: '« UIWindow::setBorders'
+  - ui-window.setmargin.md: 'ОЙWindow::setMargin »'
   - index.md: PHP Manual
-  - class.ui-window.html: ОЙWindow
+  - class.ui-window.md: ОЙWindow
 title: 'ОЙWindow::setFullScreen'
 ---
 # ОЙWindow::setFullScreen

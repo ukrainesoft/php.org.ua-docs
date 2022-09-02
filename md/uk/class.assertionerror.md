@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.arithmeticerror.html: « ArithmeticError
-  - class.divisionbyzeroerror.html: DivisionByZeroError »
-  - index.html: PHP Manual
-  - reserved.exceptions.html: Обумовлені винятки
+  - class.arithmeticerror.md: « ArithmeticError
+  - class.divisionbyzeroerror.md: DivisionByZeroError »
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
 title: AssertionError
 ---
 # AssertionError
@@ -12,7 +12,7 @@ title: AssertionError
 
 ## Вступ
 
-**AssertionError** викидається, коли твердження, зроблене за допомогою [assert()](function.assert.html), зазнає невдачі.
+**AssertionError** викидається, коли твердження, зроблене за допомогою [assert()](function.assert.md), зазнає невдачі.
 
 ## Огляд класів
 

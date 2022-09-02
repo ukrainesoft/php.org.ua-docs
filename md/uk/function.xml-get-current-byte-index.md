@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-error-string.html: « xmlerrorstring
-  - function.xml-get-current-column-number.html: xmlgetcurrentcolumnnumber »
+  - function.xml-error-string.md: « xmlerrorstring
+  - function.xml-get-current-column-number.md: xmlgetcurrentcolumnnumber »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlgetcurrentbyteindex

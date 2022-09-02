@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.cubrid-client-encoding.html: « cubridclientencoding
-  - function.cubrid-data-seek.html: cubriddataseek »
+  - function.cubrid-client-encoding.md: « cubridclientencoding
+  - function.cubrid-data-seek.md: cubriddataseek »
   - index.md: PHP Manual
   - cubridmysql.cubrid.md: Функції сумісності CUBRID MySQL
 title: cubridclose

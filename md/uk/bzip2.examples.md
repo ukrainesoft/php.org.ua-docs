@@ -1,9 +1,9 @@
 ---
 navigation:
-  - bzip2.constants.html: « Обумовлені константи
-  - ref.bzip2.html: Функції Bzip2 »
-  - index.html: PHP Manual
-  - book.bzip2.html: Bzip2
+  - bzip2.constants.md: « Обумовлені константи
+  - ref.bzip2.md: Функції Bzip2 »
+  - index.md: PHP Manual
+  - book.bzip2.md: Bzip2
 title: Приклади
 ---
 # Приклади

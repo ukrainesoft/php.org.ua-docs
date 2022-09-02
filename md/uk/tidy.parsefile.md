@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidy.isxml.html: '« tidy::isXml'
-  - tidy.parsestring.html: 'tidy::parseString »'
-  - index.html: PHP Manual
-  - class.tidy.html: tidy
+  - tidy.isxml.md: '« tidy::isXml'
+  - tidy.parsestring.md: 'tidy::parseString »'
+  - index.md: PHP Manual
+  - class.tidy.md: tidy
 title: 'tidy::parseFile'
 ---
 # tidy::parseFile
@@ -48,11 +48,11 @@ tidy_parse_file(    string $filename,    array|string|null $config = nul
 
 `useIncludePath`
 
-Пошук файлу в [includepath](ini.core.html#ini.include-path)
+Пошук файлу в [includepath](ini.core.md#ini.include-path)
 
 ### Значення, що повертаються
 
-**tidy::parseFile()** повертає **`true`** у разі успішного виконання . **tidyparsefile()** повертає новий екземпляр [tidy](class.tidy.html) у разі успішного виконання. І метод, і функція повертають **`false`** у разі виникнення помилки.
+**tidy::parseFile()** повертає **`true`** у разі успішного виконання . **tidyparsefile()** повертає новий екземпляр [tidy](class.tidy.md) у разі успішного виконання. І метод, і функція повертають **`false`** у разі виникнення помилки.
 
 ### список змін
 
@@ -80,6 +80,6 @@ if(!empty($tidy->errorBuffer)) {
 
 ### Дивіться також
 
--   [tidy::parsestring()](tidy.parsestring.html) - Розбір документа, що зберігається у рядку
--   [tidy::repairfile()](tidy.repairfile.html) - Відновлює розмітку файлу та повертає його у вигляді рядка
--   [tidy::repairstring()](tidy.repairstring.html) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл
+-   [tidy::parsestring()](tidy.parsestring.md) - Розбір документа, що зберігається у рядку
+-   [tidy::repairfile()](tidy.repairfile.md) - Відновлює розмітку файлу та повертає його у вигляді рядка
+-   [tidy::repairstring()](tidy.repairstring.md) - Відновлює рядок, використовуючи наскільки можна конфігураційний файл

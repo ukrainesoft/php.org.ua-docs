@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.filter.html: « Функції фільтрації даних
-  - function.filter-id.html: filterid »
-  - index.html: PHP Manual
-  - ref.filter.html: Функції фільтрації даних
+  - ref.filter.md: « Функції фільтрації даних
+  - function.filter-id.md: filterid »
+  - index.md: PHP Manual
+  - ref.filter.md: Функції фільтрації даних
 title: filterhasvar
 ---
 # filterhasvar

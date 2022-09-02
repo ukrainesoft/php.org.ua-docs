@@ -14,7 +14,7 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [mongodb.debug](mongodb.configuration.html#ini.mongodb.debug) | "" | PHPINIALL |  |
+| [mongodb.debug](mongodb.configuration.md#ini.mongodb.debug) | "" | PHPINIALL |  |
 
 Коротке пояснення конфігураційних директив.
 

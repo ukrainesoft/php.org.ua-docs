@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imageellipse.html: « imageellipse
-  - function.imagefilledarc.html: imagefilledarc »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imageellipse.md: « imageellipse
+  - function.imagefilledarc.md: imagefilledarc »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagefill
 ---
 # imagefill
@@ -24,7 +24,7 @@ imagefill(    GdImage $image,    int $x,    int $y,    int $colo
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `x`
 
@@ -36,7 +36,7 @@ y-координата початку.
 
 `color`
 
-Колір заливки. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.html)
+Колір заливки. Ідентифікатор кольору, створений функцією [imagecolorallocate()](function.imagecolorallocate.md)
 
 ### Значення, що повертаються
 
@@ -46,7 +46,7 @@ y-координата початку.
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікувався ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -73,4 +73,4 @@ imagedestroy($im);
 
 ### Дивіться також
 
--   [imagecolorallocate()](function.imagecolorallocate.html) - Створення кольору для зображення
+-   [imagecolorallocate()](function.imagecolorallocate.md) - Створення кольору для зображення

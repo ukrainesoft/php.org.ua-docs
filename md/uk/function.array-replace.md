@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.array-replace-recursive.html: « arrayreplacerecursive
-  - function.array-reverse.html: arrayreverse »
-  - index.html: PHP Manual
-  - ref.array.html: Функції для роботи з масивами
+  - function.array-replace-recursive.md: « arrayreplacerecursive
+  - function.array-reverse.md: arrayreverse »
+  - index.md: PHP Manual
+  - ref.array.md: Функції для роботи з масивами
 title: arrayreplace
 ---
 # arrayreplace
@@ -66,5 +66,5 @@ Array
 
 ### Дивіться також
 
--   [arrayreplacerecursive()](function.array-replace-recursive.html) - Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
--   [arraymerge()](function.array-merge.html) - Зливає один або більше масивів
+-   [arrayreplacerecursive()](function.array-replace-recursive.md) - Рекурсивно замінює елементи першого масиву на елементи переданих масивів.
+-   [arraymerge()](function.array-merge.md) - Зливає один або більше масивів

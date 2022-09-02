@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-tableselect.groupby.html: '« TableSelect::groupBy'
-  - mysql-xdevapi-tableselect.limit.html: 'TableSelect::limit »'
+  - mysql-xdevapi-tableselect.groupby.md: '« TableSelect::groupBy'
+  - mysql-xdevapi-tableselect.limit.md: 'TableSelect::limit »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-tableselect.html: mysqlxdevapiTableSelect
+  - class.mysql-xdevapi-tableselect.md: mysqlxdevapiTableSelect
 title: 'TableSelect::having'
 ---
 # TableSelect::having

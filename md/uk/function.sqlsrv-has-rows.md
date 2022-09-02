@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.sqlsrv-get-field.html: « sqlsrvgetfield
-  - function.sqlsrv-next-result.html: sqlsrvnextresult »
-  - index.html: PHP Manual
-  - ref.sqlsrv.html: Функції SQLSRV
+  - function.sqlsrv-get-field.md: « sqlsrvgetfield
+  - function.sqlsrv-next-result.md: sqlsrvnextresult »
+  - index.md: PHP Manual
+  - ref.sqlsrv.md: Функції SQLSRV
 title: sqlsrvhasrows
 ---
 # sqlsrvhasrows
@@ -24,7 +24,7 @@ sqlsrv_has_rows(resource $stmt): bool
 
 `stmt`
 
-Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.html) або [sqlsrvexecute()](function.sqlsrv-execute.html)
+Ресурс оператора, що повертається [sqlsrvquery()](function.sqlsrv-query.md) або [sqlsrvexecute()](function.sqlsrv-execute.md)
 
 ### Значення, що повертаються
 
@@ -54,5 +54,5 @@ if ($stmt) {
 
 ### Дивіться також
 
--   [sqlsrvnumrows()](function.sqlsrv-num-rows.html) - Отримує кількість рядків у наборі результатів
--   [sqlsrvquery()](function.sqlsrv-query.html) - готує та виконує запит
+-   [sqlsrvnumrows()](function.sqlsrv-num-rows.md) - Отримує кількість рядків у наборі результатів
+-   [sqlsrvquery()](function.sqlsrv-query.md) - готує та виконує запит

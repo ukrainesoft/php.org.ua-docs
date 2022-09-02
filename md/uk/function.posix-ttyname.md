@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.posix-times.html: « posixtimes
-  - function.posix-uname.html: posixuname »
+  - function.posix-times.md: « posixtimes
+  - function.posix-uname.md: posixuname »
   - index.md: PHP Manual
   - ref.posix.md: POSIX Функции
 title: posixttyname

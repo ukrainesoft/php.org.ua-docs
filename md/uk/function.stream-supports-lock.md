@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-socket-shutdown.html: « streamsocketshutdown
-  - function.stream-wrapper-register.html: streamwrapperregister »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-socket-shutdown.md: « streamsocketshutdown
+  - function.stream-wrapper-register.md: streamwrapperregister »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsupportslock
 ---
 # streamsupportslock
@@ -18,7 +18,7 @@ streamsupportslock — Визначає, чи блокування підтри�
 stream_supports_lock(resource $stream): bool
 ```
 
-Визначає, чи потік підтримує блокування з використанням [flock()](function.flock.html)
+Визначає, чи потік підтримує блокування з використанням [flock()](function.flock.md)
 
 ### Список параметрів
 
@@ -32,4 +32,4 @@ stream_supports_lock(resource $stream): bool
 
 ### Дивіться також
 
--   [flock()](function.flock.html) - Портоване консультативне блокування файлів
+-   [flock()](function.flock.md) - Портоване консультативне блокування файлів

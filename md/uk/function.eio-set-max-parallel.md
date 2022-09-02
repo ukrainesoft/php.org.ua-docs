@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-set-max-idle.html: « eiosetmaxidle
-  - function.eio-set-max-poll-reqs.html: eiosetmaxpollreqs »
+  - function.eio-set-max-idle.md: « eiosetmaxidle
+  - function.eio-set-max-poll-reqs.md: eiosetmaxpollreqs »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiosetmaxparallel

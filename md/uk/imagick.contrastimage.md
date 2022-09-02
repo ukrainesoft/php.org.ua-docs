@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagick.construct.html: '« Imagick::construct'
-  - imagick.contraststretchimage.html: 'Imagick::contrastStretchImage »'
-  - index.html: PHP Manual
-  - class.imagick.html: Imagick
+  - imagick.construct.md: '« Imagick::construct'
+  - imagick.contraststretchimage.md: 'Imagick::contrastStretchImage »'
+  - index.md: PHP Manual
+  - class.imagick.md: Imagick
 title: 'Imagick::contrastImage'
 ---
 # Imagick::contrastImage

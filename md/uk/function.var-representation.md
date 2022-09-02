@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.var-representation.html: « Функции varrepresentation
+  - ref.var-representation.md: « Функции varrepresentation
   - refs.remote.other.md: Інші служби »
   - index.md: PHP Manual
-  - ref.var-representation.html: Функции varrepresentation
+  - ref.var-representation.md: Функции varrepresentation
 title: varrepresentation
 ---
 # varrepresentation
@@ -111,7 +111,7 @@ echo var_representation($a);
 ])
 ```
 
-**Приклад #5 Приклад використання [setstate()](language.oop5.magic.html#object.set-state)**
+**Приклад #5 Приклад використання [setstate()](language.oop5.magic.md#object.set-state)**
 
 ```php
 <?php

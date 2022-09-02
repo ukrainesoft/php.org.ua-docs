@@ -1,9 +1,9 @@
 ---
 navigation:
-  - fannconnection.construct.html: '« FANNConnection::construct'
-  - fannconnection.gettoneuron.html: 'FANNConnection::getToNeuron »'
-  - index.html: PHP Manual
-  - class.fannconnection.html: FANNConnection
+  - fannconnection.construct.md: '« FANNConnection::construct'
+  - fannconnection.gettoneuron.md: 'FANNConnection::getToNeuron »'
+  - index.md: PHP Manual
+  - class.fannconnection.md: FANNConnection
 title: 'FANNConnection::getFromNeuron'
 ---
 # FANNConnection::getFromNeuron

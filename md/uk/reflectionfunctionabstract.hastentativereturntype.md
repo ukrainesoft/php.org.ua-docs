@@ -49,4 +49,4 @@ bool(true)
 
 -   [ReflectionFunctionAbstract::getTentativeReturnType()](reflectionfunctionabstract.gettentativereturntype.md) - Повертає попередній тип значення, що повертається, пов'язаний з функцією
 -   [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md) - Перевіряє, чи має функція оголошений тип значення, що повертається
--   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.html#language.oop5.inheritance.internal-classes)
+-   [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)

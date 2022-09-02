@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-dict-describe.html: « enchantdictdescribe
-  - function.enchant-dict-is-added.html: enchantdictісadded »
+  - function.enchant-dict-describe.md: « enchantdictdescribe
+  - function.enchant-dict-is-added.md: enchantdictісadded »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantdictgeterror
@@ -24,7 +24,7 @@ enchant_dict_get_error(EnchantDictionary $dictionary): string|false
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 ### Значення, що повертаються
 

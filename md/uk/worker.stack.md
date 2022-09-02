@@ -1,9 +1,9 @@
 ---
 navigation:
-  - worker.shutdown.html: '« Worker::shutdown'
-  - worker.unstack.html: 'Worker::unstack »'
-  - index.html: PHP Manual
-  - class.worker.html: Worker
+  - worker.shutdown.md: '« Worker::shutdown'
+  - worker.unstack.md: 'Worker::unstack »'
+  - index.md: PHP Manual
+  - class.worker.md: Worker
 title: 'Worker::stack'
 ---
 # Worker::stack

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-sqlstatement.execute.html: '« SqlStatement::execute'
-  - mysql-xdevapi-sqlstatement.getresult.html: 'SqlStatement::getResult »'
+  - mysql-xdevapi-sqlstatement.execute.md: '« SqlStatement::execute'
+  - mysql-xdevapi-sqlstatement.getresult.md: 'SqlStatement::getResult »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-sqlstatement.html: mysqlxdevapiSqlStatement
+  - class.mysql-xdevapi-sqlstatement.md: mysqlxdevapiSqlStatement
 title: 'SqlStatement::getNextResult'
 ---
 # SqlStatement::getNextResult

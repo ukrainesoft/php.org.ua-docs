@@ -25,7 +25,7 @@ title: Обумовлені константи
 | IBASEWAIT | Прапор, що вказує, що транзакція повинна чекати у разі конфлікту транзакцій. |
 | IBASENOWAIT | Прапор, що вказує на те, що транзакція повинна повернути помилку при виникненні конфлікту транзакцій. |
 
-Наступні константи можна задавати у функціях [ibasefetchrow()](function.ibase-fetch-row.html) [ibasefetchassoc()](function.ibase-fetch-assoc.html) або [ibasefetchobject()](function.ibase-fetch-object.md)для управління поведінкою вилученням даних.
+Наступні константи можна задавати у функціях [ibasefetchrow()](function.ibase-fetch-row.md) [ibasefetchassoc()](function.ibase-fetch-assoc.md) або [ibasefetchobject()](function.ibase-fetch-object.md)для управління поведінкою вилученням даних.
 
 **Прапори вилучення Firebird/InterBase**
 
@@ -35,7 +35,7 @@ title: Обумовлені константи
 | IBASEFETCHARRAYS | Вимушує витягувати масиви повністю, а не лише їх ідентифікатори. Ідентифікатори масивів можна використовувати тільки для операцій вставки, тому що на даний момент відсутні будь-які інші функції для роботи з ними. |
 | IBASEUNIXTIME | Вимушує поля типу дата/час витягуватися не як рядки, а як тимчасові мітки Unix (кількість секунд, що пройшли з 1 січня 1970 00:00 UTC). Може викликати проблеми на деяких системах, якщо необхідно працювати з ранніми датами. |
 
-Наступні константи використовуються для передачі запитів і сервісних функцій API ([ibaseserverinfo()](function.ibase-server-info.html) [ibaseдбinfo()](function.ibase-db-info.html) [ibasebackup()](function.ibase-backup.html) [ibaserestore()](function.ibase-restore.html) і [ibasemaintaindb()](function.ibase-maintain-db.md)). За подробицями зверніться до документації Firebird/InterBase.
+Наступні константи використовуються для передачі запитів і сервісних функцій API ([ibaseserverinfo()](function.ibase-server-info.md) [ibaseдбinfo()](function.ibase-db-info.md) [ibasebackup()](function.ibase-backup.md) [ibaserestore()](function.ibase-restore.md) і [ibasemaintaindb()](function.ibase-maintain-db.md)). За подробицями зверніться до документації Firebird/InterBase.
 
 **`IBASE_BKP_IGNORE_CHECKSUMS`**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intldateformatter.formatobject.html: '« IntlDateFormatter::formatObject'
-  - intldateformatter.getdatetype.html: 'IntlDateFormatter::getDateType »'
-  - index.html: PHP Manual
-  - class.intldateformatter.html: IntlDateFormatter
+  - intldateformatter.formatobject.md: '« IntlDateFormatter::formatObject'
+  - intldateformatter.getdatetype.md: 'IntlDateFormatter::getDateType »'
+  - index.md: PHP Manual
+  - class.intldateformatter.md: IntlDateFormatter
 title: 'IntlDateFormatter::getCalendar'
 ---
 # IntlDateFormatter::getCalendar
@@ -36,7 +36,7 @@ datefmt_get_calendar(IntlDateFormatter $formatter): int|false
 
 ### Значення, що повертаються
 
-[Тип календаря](class.intldateformatter.html#intl.intldateformatter-constants.calendartypes), який використовується сервісом форматування. Або **`IntlDateFormatter::TRADITIONAL`**, або **`IntlDateFormatter::GREGORIAN`**. Повертає **`false`** у разі виникнення помилки.
+[Тип календаря](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes), який використовується сервісом форматування. Або **`IntlDateFormatter::TRADITIONAL`**, або **`IntlDateFormatter::GREGORIAN`**. Повертає **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -84,6 +84,6 @@ echo 'Теперь тип календаря средства формат�
 
 ### Дивіться також
 
--   [datefmtgetcalendarobject()](intldateformatter.getcalendarobject.html) - Отримує копію об'єкта календаря засобу форматування
--   [datefmtsetcalendar()](intldateformatter.setcalendar.html) - Встановлює тип календаря, який використовується засобом форматування
--   [datefmtcreate()](intldateformatter.create.html) - Створює засіб форматування дати
+-   [datefmtgetcalendarobject()](intldateformatter.getcalendarobject.md) - Отримує копію об'єкта календаря засобу форматування
+-   [datefmtsetcalendar()](intldateformatter.setcalendar.md) - Встановлює тип календаря, який використовується засобом форматування
+-   [datefmtcreate()](intldateformatter.create.md) - Створює засіб форматування дати

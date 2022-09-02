@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-queue.count.html: '« DsQueue::count'
-  - ds-queue.jsonserialize.html: 'ДсQueue::jsonSerialize »'
-  - index.html: PHP Manual
-  - class.ds-queue.html: Черга
+  - ds-queue.count.md: '« DsQueue::count'
+  - ds-queue.jsonserialize.md: 'ДсQueue::jsonSerialize »'
+  - index.md: PHP Manual
+  - class.ds-queue.md: Черга
 title: 'ДсQueue::isEmpty'
 ---
 # ДсQueue::isEmpty

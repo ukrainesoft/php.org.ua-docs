@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ibase-backup.html: « ibasebackup
-  - function.ibase-blob-cancel.html: ibaseblobcancel »
+  - function.ibase-backup.md: « ibasebackup
+  - function.ibase-blob-cancel.md: ibaseblobcancel »
   - index.md: PHP Manual
   - ref.ibase.md: Функции Firebird/InterBase
 title: ibaseblobadd

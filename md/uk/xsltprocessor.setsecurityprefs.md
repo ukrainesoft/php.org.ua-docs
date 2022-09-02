@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xsltprocessor.setprofiling.html: '« XSLTProcessor::setProfiling'
-  - xsltprocessor.transformtodoc.html: 'XSLTProcessor::transformToDoc »'
-  - index.html: PHP Manual
-  - class.xsltprocessor.html: XSLTProcessor
+  - xsltprocessor.setprofiling.md: '« XSLTProcessor::setProfiling'
+  - xsltprocessor.transformtodoc.md: 'XSLTProcessor::transformToDoc »'
+  - index.md: PHP Manual
+  - class.xsltprocessor.md: XSLTProcessor
 title: 'XSLTProcessor::setSecurityPrefs'
 ---
 # XSLTProcessor::setSecurityPrefs

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.is-tainted.html: « istainted
-  - function.untaint.html: untaint »
-  - index.html: PHP Manual
-  - ref.taint.html: Функции Taint
+  - function.is-tainted.md: « istainted
+  - function.untaint.md: untaint »
+  - index.md: PHP Manual
+  - ref.taint.md: Функции Taint
 title: taint
 ---
 # taint

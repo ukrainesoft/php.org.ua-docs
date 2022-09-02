@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.commit.html: '« Session::commit'
-  - mysql-xdevapi-session.createschema.html: 'Session::createSchema »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - mysql-xdevapi-session.commit.md: '« Session::commit'
+  - mysql-xdevapi-session.createschema.md: 'Session::createSchema »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::construct'
 ---
 # Session::construct

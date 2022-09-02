@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ldap-8859-to-t61.html: « ldapтоt61
-  - function.ldap-add.html: ldapadd »
+  - function.ldap-8859-to-t61.md: « ldapтоt61
+  - function.ldap-add.md: ldapadd »
   - index.md: PHP Manual
   - ref.ldap.md: Функції LDAP
 title: ldapaddext
@@ -18,7 +18,7 @@ ldapaddext — Додати записи до каталогу LDAP
 ldap_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
 ```
 
-Робить те саме, що й [ldapadd()](function.ldap-add.html), але повертає екземпляр [LDAPResult](class.ldap-result.html) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
+Робить те саме, що й [ldapadd()](function.ldap-add.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)
 
 ### Список параметрів
 

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-defined-functions.html: « getdefinedfunctions
-  - function.register-tick-function.html: registertickfunction »
+  - function.get-defined-functions.md: « getdefinedfunctions
+  - function.register-tick-function.md: registertickfunction »
   - index.md: PHP Manual
   - ref.funchand.md: Функции управления функциями
 title: registershutdownfunction
@@ -75,11 +75,11 @@ register_shutdown_function('shutdown');
 
 > **Зауваження**
 > 
-> Завершальні функції виконуються окремо від часу, що відстежується [maxexecutiontime](info.configuration.html#ini.max-execution-time). Це означає, що навіть якщо процес буде завершено через занадто довге виконання, завершальні функції все одно будуть викликані. Крім того, якщо `max_execution_time` закінчується під час роботи завершальної функції, процес не буде завершено.
+> Завершальні функції виконуються окремо від часу, що відстежується [maxexecutiontime](info.configuration.md#ini.max-execution-time). Це означає, що навіть якщо процес буде завершено через занадто довге виконання, завершальні функції все одно будуть викликані. Крім того, якщо `max_execution_time` закінчується під час роботи завершальної функції, процес не буде завершено.
 
 ### Дивіться також
 
--   [autoappendfile](ini.core.html#ini.auto-append-file)
+-   [autoappendfile](ini.core.md#ini.auto-append-file)
 -   [exit()](function.exit.md) - Вивести повідомлення та припинити виконання поточного скрипту
 -   [fastcgifinishrequest()](function.fastcgi-finish-request.md) - скидає всі запитані дані клієнту
 -   Розділ [Обработка соединений](features.connection-handling.md)

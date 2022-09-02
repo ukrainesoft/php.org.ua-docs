@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.imap-list.html: « imaplist
-  - function.imap-listscan.html: imaplistscan »
+  - function.imap-list.md: « imaplist
+  - function.imap-listscan.md: imaplistscan »
   - index.md: PHP Manual
   - ref.imap.md: Функции IMAP
 title: imaplistmailbox

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setimageresolution.html: '« Gmagick::setimageresolution'
-  - gmagick.setimagetype.html: 'Gmagick::setimagetype »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setimageresolution.md: '« Gmagick::setimageresolution'
+  - gmagick.setimagetype.md: 'Gmagick::setimagetype »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setimagescene'
 ---
 # Gmagick::setimagescene
@@ -28,7 +28,7 @@ public Gmagick::setimagescene(int $scene): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

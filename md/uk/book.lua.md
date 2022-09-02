@@ -1,26 +1,26 @@
 ---
 navigation:
-  - function.json-last-error.html: « jsonlasterror
-  - intro.lua.html: Введение »
-  - index.html: PHP Manual
-  - refs.basic.other.html: Інші базові модулі
+  - function.json-last-error.md: « jsonlasterror
+  - intro.lua.md: Введение »
+  - index.md: PHP Manual
+  - refs.basic.other.md: Інші базові модулі
 title: Lua
 ---
 # Lua
 
--   [Введение](intro.lua.html)
--   [Встановлення та налаштування](lua.setup.html)
-    -   [Вимоги](lua.requirements.html)
-    -   [Установка](lua.installation.html)
-    -   [Налаштування під час виконання](lua.configuration.html)
-    -   [Типи ресурсів](lua.resources.html)
--   [Lua](class.lua.html) - Клас Lua
-    -   [Lua::assign](lua.assign.html) - Присвоїти PHP-змінної Lua
-    -   [Lua::call](lua.call.html) — Викликати функції Lua
-    -   [Lua::construct](lua.construct.html) - Конструктор Lua
-    -   [Lua::eval](lua.eval.html) - Розбирає рядок як код Lua
-    -   [Lua::getVersion](lua.getversion.html) — Повертає версію
-    -   [Lua::include](lua.include.html) — Розбирає файл, що містить скрипт Lua
-    -   [Lua::registerCallback](lua.registercallback.html) — Зареєструвати функцію PHP у Lua
--   [LuaClosure](class.luaclosure.html) - Клас LuaClosure
-    -   [LuaClosure::invoke](luaclosure.invoke.html) — Виклик замикання Lua
+-   [Введение](intro.lua.md)
+-   [Встановлення та налаштування](lua.setup.md)
+    -   [Вимоги](lua.requirements.md)
+    -   [Установка](lua.installation.md)
+    -   [Налаштування під час виконання](lua.configuration.md)
+    -   [Типи ресурсів](lua.resources.md)
+-   [Lua](class.lua.md) - Клас Lua
+    -   [Lua::assign](lua.assign.md) - Присвоїти PHP-змінної Lua
+    -   [Lua::call](lua.call.md) — Викликати функції Lua
+    -   [Lua::construct](lua.construct.md) - Конструктор Lua
+    -   [Lua::eval](lua.eval.md) - Розбирає рядок як код Lua
+    -   [Lua::getVersion](lua.getversion.md) — Повертає версію
+    -   [Lua::include](lua.include.md) — Розбирає файл, що містить скрипт Lua
+    -   [Lua::registerCallback](lua.registercallback.md) — Зареєструвати функцію PHP у Lua
+-   [LuaClosure](class.luaclosure.md) - Клас LuaClosure
+    -   [LuaClosure::invoke](luaclosure.invoke.md) — Виклик замикання Lua

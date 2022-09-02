@@ -1,9 +1,9 @@
 ---
 navigation:
-  - parle-parser.left.html: '« ParleParser::left'
-  - parle-parser.precedence.html: 'ParleParser::precedence »'
+  - parle-parser.left.md: '« ParleParser::left'
+  - parle-parser.precedence.md: 'ParleParser::precedence »'
   - index.md: PHP Manual
-  - class.parle-parser.html: ParleParser
+  - class.parle-parser.md: ParleParser
 title: 'ParleParser::nonassoc'
 ---
 # ParleParser::nonassoc

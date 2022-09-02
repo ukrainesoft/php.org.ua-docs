@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.clearcallbacks.html: '« GearmanClient::clearCallbacks'
-  - gearmanclient.construct.html: 'GearmanClient::construct »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.clearcallbacks.md: '« GearmanClient::clearCallbacks'
+  - gearmanclient.construct.md: 'GearmanClient::construct »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::clone'
 ---
 # GearmanClient::clone

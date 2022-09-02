@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.stats-rand-gen-ibinomial-negative.html: « statsrandgenibinomialnegative
-  - function.stats-rand-gen-int.html: statsrandgenint »
+  - function.stats-rand-gen-ibinomial-negative.md: « statsrandgenibinomialnegative
+  - function.stats-rand-gen-int.md: statsrandgenint »
   - index.md: PHP Manual
   - ref.stats.md: Функції статистики
 title: statsrandгенibinomial

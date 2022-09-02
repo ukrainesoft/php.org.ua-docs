@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.trader-cdlonneck.html: « tradercdlonneck
-  - function.trader-cdlrickshawman.html: tradercdlrickshawman »
+  - function.trader-cdlonneck.md: « tradercdlonneck
+  - function.trader-cdlrickshawman.md: tradercdlrickshawman »
   - index.md: PHP Manual
   - ref.trader.md: Функции Trader
 title: tradercdlpiercing

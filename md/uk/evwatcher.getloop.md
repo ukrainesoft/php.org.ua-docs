@@ -1,9 +1,9 @@
 ---
 navigation:
-  - evwatcher.feed.html: '« EvWatcher::feed'
-  - evwatcher.invoke.html: 'EvWatcher::invoke »'
-  - index.html: PHP Manual
-  - class.evwatcher.html: EvWatcher
+  - evwatcher.feed.md: '« EvWatcher::feed'
+  - evwatcher.invoke.md: 'EvWatcher::invoke »'
+  - index.md: PHP Manual
+  - class.evwatcher.md: EvWatcher
 title: 'EvWatcher::getLoop'
 ---
 # EvWatcher::getLoop

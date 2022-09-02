@@ -1,9 +1,9 @@
 ---
 navigation:
-  - oauth.getlastresponseinfo.html: '« OAuth::getLastResponseInfo'
-  - oauth.getrequesttoken.html: 'OAuth::getRequestToken »'
-  - index.html: PHP Manual
-  - class.oauth.html: OAuth
+  - oauth.getlastresponseinfo.md: '« OAuth::getLastResponseInfo'
+  - oauth.getrequesttoken.md: 'OAuth::getRequestToken »'
+  - index.md: PHP Manual
+  - class.oauth.md: OAuth
 title: 'OAuth::getRequestHeader'
 ---
 # OAuth::getRequestHeader

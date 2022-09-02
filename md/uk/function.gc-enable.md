@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gc-disable.html: « gcdisable
-  - function.gc-enabled.html: гкenabled »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.gc-disable.md: « gcdisable
+  - function.gc-enabled.md: гкenabled »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: гкenable
 ---
 # гкenable
@@ -18,7 +18,7 @@ title: гкenable
 gc_enable(): void
 ```
 
-Включає збирач циклічних посилань, встановлюючи [zend.enableгк](info.configuration.html#ini.zend.enable-gc) в `1`
+Включає збирач циклічних посилань, встановлюючи [zend.enableгк](info.configuration.md#ini.zend.enable-gc) в `1`
 
 ### Список параметрів
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.fdf-set-version.html: « fdfsetversion
-  - intro.gnupg.html: Введение »
-  - index.html: PHP Manual
-  - refs.utilspec.nontext.html: Генерація нетекстових MIME-форматів
+  - function.fdf-set-version.md: « fdfsetversion
+  - intro.gnupg.md: Введение »
+  - index.md: PHP Manual
+  - refs.utilspec.nontext.md: Генерація нетекстових MIME-форматів
 title: GNU Privacy Guard
 ---
 # GNU Privacy Guard

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getexception.html: '« YafRequestAbstract::getException'
-  - yaf-request-abstract.getmethod.html: 'YafRequestAbstract::getMethod »'
+  - yaf-request-abstract.getexception.md: '« YafRequestAbstract::getException'
+  - yaf-request-abstract.getmethod.md: 'YafRequestAbstract::getMethod »'
   - index.md: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getLanguage'
 ---
 # YafRequestAbstract::getLanguage

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-error-string.html: « opensslerrorstring
-  - function.openssl-get-cert-locations.html: opensslgetcertlocations »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-error-string.md: « opensslerrorstring
+  - function.openssl-get-cert-locations.md: opensslgetcertlocations »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslfreekey
 ---
 # opensslfreekey
@@ -37,4 +37,4 @@ openssl_free_key(OpenSSLAsymmetricKey $key): void
 | Версия | Описание |
 | --- | --- |
 |  | Функція застаріла, оскільки не має сенсу. |
-|  | `key` тепер приймає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймала ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |
+|  | `key` тепер приймає [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймала ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` |

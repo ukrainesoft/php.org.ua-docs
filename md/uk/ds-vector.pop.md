@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.merge.html: '« DsVector::merge'
-  - ds-vector.push.html: 'ДсVector::push »'
+  - ds-vector.merge.md: '« DsVector::merge'
+  - ds-vector.push.md: 'ДсVector::push »'
   - index.md: PHP Manual
-  - class.ds-vector.html: Вектор
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::pop'
 ---
 # ДсVector::pop

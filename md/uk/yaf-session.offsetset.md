@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-session.offsetget.html: '« YafSession::offsetGet'
-  - yaf-session.offsetunset.html: 'YafSession::offsetUnset »'
-  - index.html: PHP Manual
-  - class.yaf-session.html: YafSession
+  - yaf-session.offsetget.md: '« YafSession::offsetGet'
+  - yaf-session.offsetunset.md: 'YafSession::offsetUnset »'
+  - index.md: PHP Manual
+  - class.yaf-session.md: YafSession
 title: 'YafSession::offsetSet'
 ---
 # YafSession::offsetSet

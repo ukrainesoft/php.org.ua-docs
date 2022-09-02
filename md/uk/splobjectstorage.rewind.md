@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splobjectstorage.removeallexcept.html: '« SplObjectStorage::removeAllExcept'
-  - splobjectstorage.serialize.html: 'SplObjectStorage::serialize »'
-  - index.html: PHP Manual
-  - class.splobjectstorage.html: SplObjectStorage
+  - splobjectstorage.removeallexcept.md: '« SplObjectStorage::removeAllExcept'
+  - splobjectstorage.serialize.md: 'SplObjectStorage::serialize »'
+  - index.md: PHP Manual
+  - class.splobjectstorage.md: SplObjectStorage
 title: 'SplObjectStorage::rewind'
 ---
 # SplObjectStorage::rewind

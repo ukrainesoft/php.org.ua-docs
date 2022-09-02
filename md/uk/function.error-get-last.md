@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.error-clear-last.html: « errorclearlast
-  - function.error-log.html: errorlog »
+  - function.error-clear-last.md: « errorclearlast
+  - function.error-log.md: errorlog »
   - index.md: PHP Manual
   - ref.errorfunc.md: Функции обработки ошибок
 title: errorgetlast
@@ -56,6 +56,6 @@ Array
 -   [Константи помилок](errorfunc.constants.md)
 -   Змінна [$phperrormsg](reserved.variables.phperrormsg.md)
 -   [errorclearlast()](function.error-clear-last.md) - Очистити останню помилку
--   [Директива `display_errors`](errorfunc.configuration.html#ini.display-errors)
--   [Директива `html_errors`](errorfunc.configuration.html#ini.html-errors)
--   [Директива `xmlrpc_errors`](errorfunc.configuration.html#ini.xmlrpc-errors)
+-   [Директива `display_errors`](errorfunc.configuration.md#ini.display-errors)
+-   [Директива `html_errors`](errorfunc.configuration.md#ini.html-errors)
+-   [Директива `xmlrpc_errors`](errorfunc.configuration.md#ini.xmlrpc-errors)

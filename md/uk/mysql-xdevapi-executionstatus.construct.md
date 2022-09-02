@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.mysql-xdevapi-executionstatus.html: « mysqlxdevapiExecutionStatus
-  - class.mysql-xdevapi-expression.html: mysqlxdevapiExpression »
+  - class.mysql-xdevapi-executionstatus.md: « mysqlxdevapiExecutionStatus
+  - class.mysql-xdevapi-expression.md: mysqlxdevapiExpression »
   - index.md: PHP Manual
-  - class.mysql-xdevapi-executionstatus.html: mysqlxdevapiExecutionStatus
+  - class.mysql-xdevapi-executionstatus.md: mysqlxdevapiExecutionStatus
 title: 'ExecutionStatus::construct'
 ---
 # ExecutionStatus::construct

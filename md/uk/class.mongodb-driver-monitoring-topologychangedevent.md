@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.html: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited'
-  - mongodb-driver-monitoring-topologychangedevent.getnewdescription.html: 'MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription »'
+  - mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md: '« MongoDBDriverMonitoringServerHeartbeatSucceededEvent::isAwaited'
+  - mongodb-driver-monitoring-topologychangedevent.getnewdescription.md: 'MongoDBDriverMonitoringTopologyChangedEvent::getNewDescription »'
   - index.md: PHP Manual
   - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Клас MongoDBDriverMonitoringTopologyChangedEvent

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mongodb-bson-undefined.unserialize.html: '« MongoDBBSONUndefined::unserialize'
+  - mongodb-bson-undefined.unserialize.md: '« MongoDBBSONUndefined::unserialize'
   - ref.monitoring.functions.md: Функції »
   - index.md: PHP Manual
   - set.mongodb.md: MongoDB

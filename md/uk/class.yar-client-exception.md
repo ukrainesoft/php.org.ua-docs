@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yar-server-exception.gettype.html: '« YarServerException::getType'
-  - yar-client-exception.gettype.html: 'YarClientException::getType »'
-  - index.html: PHP Manual
-  - book.yar.html: Yar
+  - yar-server-exception.gettype.md: '« YarServerException::getType'
+  - yar-client-exception.gettype.md: 'YarClientException::getType »'
+  - index.md: PHP Manual
+  - book.yar.md: Yar
 title: Клас YarClientException
 ---
 # Клас YarClientException

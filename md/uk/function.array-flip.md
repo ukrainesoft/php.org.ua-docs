@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.array-filter.html: « arrayfilter
-  - function.array-intersect-assoc.html: arrayintersectassoc »
+  - function.array-filter.md: « arrayfilter
+  - function.array-intersect-assoc.md: arrayintersectassoc »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
 title: arrayflip

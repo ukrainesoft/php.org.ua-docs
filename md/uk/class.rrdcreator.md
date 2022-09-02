@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.rrdc-disconnect.html: « rrdcdisconnect
+  - function.rrdc-disconnect.md: « rrdcdisconnect
   - rrdcreator.addarchive.md: 'RRDCreator::addArchive »'
   - index.md: PHP Manual
   - book.rrd.md: RRD

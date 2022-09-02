@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.commonmark-node-heading.html: « CommonMarkNodeHeading
-  - class.commonmark-node-paragraph.html: CommonMarkNodeParagraph »
-  - index.html: PHP Manual
-  - class.commonmark-node-heading.html: CommonMarkNodeHeading
+  - class.commonmark-node-heading.md: « CommonMarkNodeHeading
+  - class.commonmark-node-paragraph.md: CommonMarkNodeParagraph »
+  - index.md: PHP Manual
+  - class.commonmark-node-heading.md: CommonMarkNodeHeading
 title: 'CommonMarkNodeHeading::construct'
 ---
 # CommonMarkNodeHeading::construct

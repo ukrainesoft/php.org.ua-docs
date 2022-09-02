@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.settermsfield.html: '« SolrQuery::setTermsField'
-  - solrquery.settermsincludeupperbound.html: 'SolrQuery::setTermsIncludeUpperBound »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.settermsfield.md: '« SolrQuery::setTermsField'
+  - solrquery.settermsincludeupperbound.md: 'SolrQuery::setTermsIncludeUpperBound »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::setTermsIncludeLowerBound'
 ---
 # SolrQuery::setTermsIncludeLowerBound

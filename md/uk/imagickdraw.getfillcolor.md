@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.getclipunits.html: '« ImagickDraw::getClipUnits'
-  - imagickdraw.getfillopacity.html: 'ImagickDraw::getFillOpacity »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.getclipunits.md: '« ImagickDraw::getClipUnits'
+  - imagickdraw.getfillopacity.md: 'ImagickDraw::getFillOpacity »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::getFillColor'
 ---
 # ImagickDraw::getFillColor
@@ -26,4 +26,4 @@ public ImagickDraw::getFillColor(): ImagickPixel
 
 ### Значення, що повертаються
 
-Повертає об'єкт [ImagickPixel](class.imagickpixel.html)
+Повертає об'єкт [ImagickPixel](class.imagickpixel.md)

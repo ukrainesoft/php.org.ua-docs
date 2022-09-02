@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionclassconstant.getdeclaringclass.html: '« ReflectionClassConstant::getDeclaringClass'
-  - reflectionclassconstant.getmodifiers.html: 'ReflectionClassConstant::getModifiers »'
-  - index.html: PHP Manual
-  - class.reflectionclassconstant.html: ReflectionClassConstant
+  - reflectionclassconstant.getdeclaringclass.md: '« ReflectionClassConstant::getDeclaringClass'
+  - reflectionclassconstant.getmodifiers.md: 'ReflectionClassConstant::getModifiers »'
+  - index.md: PHP Manual
+  - class.reflectionclassconstant.md: ReflectionClassConstant
 title: 'ReflectionClassConstant::getDocComment'
 ---
 # ReflectionClassConstant::getDocComment

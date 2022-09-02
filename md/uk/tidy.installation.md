@@ -1,9 +1,9 @@
 ---
 navigation:
-  - tidy.requirements.html: « Вимоги
-  - tidy.configuration.html: Налаштування під час виконання »
-  - index.html: PHP Manual
-  - tidy.setup.html: Встановлення та налаштування
+  - tidy.requirements.md: « Вимоги
+  - tidy.configuration.md: Налаштування під час виконання »
+  - index.md: PHP Manual
+  - tidy.setup.md: Встановлення та налаштування
 title: Встановлення
 ---
 ## Встановлення

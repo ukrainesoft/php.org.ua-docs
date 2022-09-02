@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.pdo-odbc.html: « ODBC и DB2 (PDO)
-  - ref.pdo-pgsql.html: PostgreSQL (PDO) »
-  - index.html: PHP Manual
-  - ref.pdo-odbc.html: ODBC и DB2 (PDO)
+  - ref.pdo-odbc.md: « ODBC и DB2 (PDO)
+  - ref.pdo-pgsql.md: PostgreSQL (PDO) »
+  - index.md: PHP Manual
+  - ref.pdo-odbc.md: ODBC и DB2 (PDO)
 title: PDOODBC DSN
 ---
 # PDOODBC DSN

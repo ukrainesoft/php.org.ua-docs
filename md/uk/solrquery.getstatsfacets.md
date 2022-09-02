@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getstats.html: '« SolrQuery::getStats'
-  - solrquery.getstatsfields.html: 'SolrQuery::getStatsFields »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getstats.md: '« SolrQuery::getStats'
+  - solrquery.getstatsfields.md: 'SolrQuery::getStatsFields »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getStatsFacets'
 ---
 # SolrQuery::getStatsFacets

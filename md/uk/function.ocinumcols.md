@@ -1,20 +1,20 @@
 ---
 navigation:
-  - function.ocinlogon.html: « ocinlogon
-  - function.ociparse.html: ociparse »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocinlogon.md: « ocinlogon
+  - function.ociparse.md: ociparse »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocinumcols
 ---
 # ocinumcols
 
 (PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8> = 1.0.0)
 
-ocinumcols - Псевдонім [ocinumfields()](function.oci-num-fields.html)
+ocinumcols - Псевдонім [ocinumfields()](function.oci-num-fields.md)
 
 ### Опис
 
-Псевдонім [ocinumfields()](function.oci-num-fields.html)
+Псевдонім [ocinumfields()](function.oci-num-fields.md)
 
 **Увага**
 

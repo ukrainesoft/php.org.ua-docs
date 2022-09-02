@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickdraw.pathcurvetoquadraticbeziersmoothrelative.html: '« ImagickDraw::pathCurveToQuadraticBezierSmoothRelative'
-  - imagickdraw.pathcurvetosmoothabsolute.html: 'ImagickDraw::pathCurveToSmoothAbsolute »'
-  - index.html: PHP Manual
-  - class.imagickdraw.html: ImagickDraw
+  - imagickdraw.pathcurvetoquadraticbeziersmoothrelative.md: '« ImagickDraw::pathCurveToQuadraticBezierSmoothRelative'
+  - imagickdraw.pathcurvetosmoothabsolute.md: 'ImagickDraw::pathCurveToSmoothAbsolute »'
+  - index.md: PHP Manual
+  - class.imagickdraw.md: ImagickDraw
 title: 'ImagickDraw::pathCurveToRelative'
 ---
 # ImagickDraw::pathCurveToRelative

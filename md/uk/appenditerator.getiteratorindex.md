@@ -1,9 +1,9 @@
 ---
 navigation:
-  - appenditerator.getinneriterator.html: '« AppendIterator::getInnerIterator'
-  - appenditerator.key.html: 'AppendIterator::key »'
-  - index.html: PHP Manual
-  - class.appenditerator.html: AppendIterator
+  - appenditerator.getinneriterator.md: '« AppendIterator::getInnerIterator'
+  - appenditerator.key.md: 'AppendIterator::key »'
+  - index.md: PHP Manual
+  - class.appenditerator.md: AppendIterator
 title: 'AppendIterator::getIteratorIndex'
 ---
 # AppendIterator::getIteratorIndex
@@ -60,5 +60,5 @@ foreach ($iterator as $key => $current) {
 
 ### Дивіться також
 
--   [AppendIterator::getInnerIterator()](appenditerator.getinneriterator.html) - Повертає внутрішній ітератор
--   [AppendIterator::getArrayIterator()](appenditerator.getarrayiterator.html) - Повертає клас ітератора масиву ArrayIterator
+-   [AppendIterator::getInnerIterator()](appenditerator.getinneriterator.md) - Повертає внутрішній ітератор
+-   [AppendIterator::getArrayIterator()](appenditerator.getarrayiterator.md) - Повертає клас ітератора масиву ArrayIterator

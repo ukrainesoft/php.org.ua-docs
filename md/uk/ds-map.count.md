@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.copy.html: '« DsMap::copy'
-  - ds-map.diff.html: 'ДсMap::diff »'
-  - index.html: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - ds-map.copy.md: '« DsMap::copy'
+  - ds-map.diff.md: 'ДсMap::diff »'
+  - index.md: PHP Manual
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::count'
 ---
 # ДсMap::count
@@ -12,4 +12,4 @@ title: 'ДсMap::count'
 
 ДсMap::count — Повертає кількість елементів колекції
 
-Дивіться опис функції [Countable::count()](countable.count.html)
+Дивіться опис функції [Countable::count()](countable.count.md)

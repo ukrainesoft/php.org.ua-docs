@@ -1,9 +1,9 @@
 ---
 navigation:
-  - com.installation.html: « Установка
-  - com.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - com.setup.html: Встановлення та налаштування
+  - com.installation.md: « Установка
+  - com.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - com.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,15 +14,15 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [com.allowdcom](com.configuration.html#ini.com.allow-dcom) | "0" | PHPINISYSTEM |  |
-| [com.autoregistertypelib](com.configuration.html#ini.com.autoregister-typelib) | "0" | PHPINIALL |  |
-| [com.autoregisterverbose](com.configuration.html#ini.com.autoregister-verbose) | "0" | PHPINIALL |  |
-| [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive) | "1" | PHPINIALL |  |
-| [com.codepage](com.configuration.html#ini.com.code-page) | "" | PHPINIALL |  |
-| [com.dotnetversion](com.configuration.html#ini.com.dotnet-version) | "" | PHPINISYSTEM | Починаючи з PHP 8.0.0 |
-| [com.typelibfile](com.configuration.html#ini.com.typelib-file) | "" | PHPINISYSTEM |  |
+| [com.allowdcom](com.configuration.md#ini.com.allow-dcom) | "0" | PHPINISYSTEM |  |
+| [com.autoregistertypelib](com.configuration.md#ini.com.autoregister-typelib) | "0" | PHPINIALL |  |
+| [com.autoregisterverbose](com.configuration.md#ini.com.autoregister-verbose) | "0" | PHPINIALL |  |
+| [com.autoregistercasesensitive](com.configuration.md#ini.com.autoregister-casesensitive) | "1" | PHPINIALL |  |
+| [com.codepage](com.configuration.md#ini.com.code-page) | "" | PHPINIALL |  |
+| [com.dotnetversion](com.configuration.md#ini.com.dotnet-version) | "" | PHPINISYSTEM | Починаючи з PHP 8.0.0 |
+| [com.typelibfile](com.configuration.md#ini.com.typelib-file) | "" | PHPINISYSTEM |  |
 
-Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.html)
+Для детального опису констант PHPINI, зверніться до розділу [Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 
 Коротке пояснення конфігураційних директив.
 
@@ -32,7 +32,7 @@ title: Налаштування під час виконання
 
 `com.autoregister_typelib`
 
-Якщо увімкнено, PHP спробує зареєструвати константи бібліотеки типів створюваних об'єктів. [COM](class.com.html)якщо ці об'єкти реалізують інтерфейс, необхідний для отримання даної інформації. Регістрозалежність реєстрованих констант контролюється директивою конфігурації php.ini [com.autoregistercasesensitive](com.configuration.html#ini.com.autoregister-casesensitive)
+Якщо увімкнено, PHP спробує зареєструвати константи бібліотеки типів створюваних об'єктів. [COM](class.com.md)якщо ці об'єкти реалізують інтерфейс, необхідний для отримання даної інформації. Регістрозалежність реєстрованих констант контролюється директивою конфігурації php.ini [com.autoregistercasesensitive](com.configuration.md#ini.com.autoregister-casesensitive)
 
 `com.autoregister_verbose`
 
@@ -40,18 +40,18 @@ title: Налаштування під час виконання
 
 `com.autoregister_casesensitive`
 
-Якщо увімкнено (за замовчуванням), константи, виявлені при автозавантаженні бібліотек типів, при інстанцію об'єктів [COM](class.com.html), будуть зареєстровані як реєстрозалежні. Детальніше дивіться в описі функції [comloadtypelib()](function.com-load-typelib.html)
+Якщо увімкнено (за замовчуванням), константи, виявлені при автозавантаженні бібліотек типів, при інстанцію об'єктів [COM](class.com.md), будуть зареєстровані як реєстрозалежні. Детальніше дивіться в описі функції [comloadtypelib()](function.com-load-typelib.md)
 
 `com.code_page`
 
 Контролює кодування за умовчанням під час передачі рядків об'єктам COM. Якщо вказано порожній рядок, PHP буде вважати, що ви хочете використовувати **`CP_ACP`** - Системне кодування ANSI за замовчуванням.
 
-Якщо текст у вашому скрипті міститься у кодуванні відмінному від кодування за умовчанням, то встановлення цього параметра дозволить вам не вказувати кодування кожного разу під час створення об'єкта класу [com](class.com.html) у його конструкторі. Будь ласка, пам'ятайте, що використання цієї директиви (як і будь-якої іншої директиви конфігурації) робить ваш скрипт менш переносимим, так що все ж таки рекомендується вказувати кодування при кожному створенні об'єкта COM.
+Якщо текст у вашому скрипті міститься у кодуванні відмінному від кодування за умовчанням, то встановлення цього параметра дозволить вам не вказувати кодування кожного разу під час створення об'єкта класу [com](class.com.md) у його конструкторі. Будь ласка, пам'ятайте, що використання цієї директиви (як і будь-якої іншої директиви конфігурації) робить ваш скрипт менш переносимим, так що все ж таки рекомендується вказувати кодування при кожному створенні об'єкта COM.
 
 `com.dotnet_version`
 
-Версія платформи .NET для використання з об'єктами [dotnet](class.dotnet.html). Значення параметра - це перші три частини номера версії фреймворку, розділені точками та з префіксом `v`, наприклад `v4.0.30319`
+Версія платформи .NET для використання з об'єктами [dotnet](class.dotnet.md). Значення параметра - це перші три частини номера версії фреймворку, розділені точками та з префіксом `v`, наприклад `v4.0.30319`
 
 `com.typelib_file`
 
-Значення повинно відповідати шляху файлової системи до файлу, що містить список бібліотек типів, які необхідно завантажити під час запуску. Кожен рядок файлу буде розглядатися як ім'я бібліотеки типів, яка буде завантажена, як тільки ви викличете функцію [comloadtypelib()](function.com-load-typelib.html). Константи будуть зареєстровані на постійній основі, тому бібліотеки потрібно завантажувати лише один раз. Якщо ім'я бібліотеки типів закінчується на рядок `#cis` або `#case_insensitive`, то константи будуть зареєстровані як реєстронезалежні.
+Значення повинно відповідати шляху файлової системи до файлу, що містить список бібліотек типів, які необхідно завантажити під час запуску. Кожен рядок файлу буде розглядатися як ім'я бібліотеки типів, яка буде завантажена, як тільки ви викличете функцію [comloadtypelib()](function.com-load-typelib.md). Константи будуть зареєстровані на постійній основі, тому бібліотеки потрібно завантажувати лише один раз. Якщо ім'я бібліотеки типів закінчується на рядок `#cis` або `#case_insensitive`, то константи будуть зареєстровані як реєстронезалежні.

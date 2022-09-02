@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.mongodb-bson-maxkeyinterface.html: « MongoDBBSONMaxKeyInterface
-  - class.mongodb-bson-objectidinterface.html: MongoDBBSONObjectIdInterface »
+  - class.mongodb-bson-maxkeyinterface.md: « MongoDBBSONMaxKeyInterface
+  - class.mongodb-bson-objectidinterface.md: MongoDBBSONObjectIdInterface »
   - index.md: PHP Manual
   - book.bson.md: MongoDBBSON
 title: Інтерфейс MongoDBBSONMinKeyInterface

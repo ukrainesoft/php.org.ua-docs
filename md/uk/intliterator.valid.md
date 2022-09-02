@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intliterator.rewind.html: '« IntlIterator::rewind'
-  - ref.intl.html: Функции intl »
-  - index.html: PHP Manual
-  - class.intliterator.html: IntlIterator
+  - intliterator.rewind.md: '« IntlIterator::rewind'
+  - ref.intl.md: Функции intl »
+  - index.md: PHP Manual
+  - class.intliterator.md: IntlIterator
 title: 'IntlIterator::valid'
 ---
 # IntlIterator::valid

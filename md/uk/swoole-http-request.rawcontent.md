@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-request.destruct.html: '« SwooleHttpRequest::destruct'
-  - class.swoole-http-response.html: SwooleHttpResponse »
-  - index.html: PHP Manual
-  - class.swoole-http-request.html: SwooleHttpRequest
+  - swoole-http-request.destruct.md: '« SwooleHttpRequest::destruct'
+  - class.swoole-http-response.md: SwooleHttpResponse »
+  - index.md: PHP Manual
+  - class.swoole-http-request.md: SwooleHttpRequest
 title: 'SwooleHttpRequest::rawcontent'
 ---
 # SwooleHttpRequest::rawcontent

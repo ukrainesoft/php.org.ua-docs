@@ -1,9 +1,9 @@
 ---
 navigation:
-  - outcontrol.resources.html: « Типи ресурсів
-  - outcontrol.examples.html: Приклади »
-  - index.html: PHP Manual
-  - book.outcontrol.html: Контроль виведення
+  - outcontrol.resources.md: « Типи ресурсів
+  - outcontrol.examples.md: Приклади »
+  - index.md: PHP Manual
+  - book.outcontrol.md: Контроль виведення
 title: Обумовлені константи
 ---
 # Обумовлені константи
@@ -44,15 +44,15 @@ title: Обумовлені константи
 
 **`PHP_OUTPUT_HANDLER_CLEANABLE`** (int)
 
-Визначає чи буфер виводу, створений [проstart()](function.ob-start.html)бути очищеним.
+Визначає чи буфер виводу, створений [проstart()](function.ob-start.md)бути очищеним.
 
 **`PHP_OUTPUT_HANDLER_FLUSHABLE`** (int)
 
-Визначає чи буфер виводу, створений [проstart()](function.ob-start.html), бути скинутий (виведений та очищений).
+Визначає чи буфер виводу, створений [проstart()](function.ob-start.md), бути скинутий (виведений та очищений).
 
 **`PHP_OUTPUT_HANDLER_REMOVABLE`** (int)
 
-Визначає чи буфер виводу, створений [проstart()](function.ob-start.html), бути вилученим до завершення скрипта.
+Визначає чи буфер виводу, створений [проstart()](function.ob-start.md), бути вилученим до завершення скрипта.
 
 **`PHP_OUTPUT_HANDLER_STDFLAGS`** (int)
 

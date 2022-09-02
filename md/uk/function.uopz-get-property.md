@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.uopz-get-mock.html: « uopzgetmock
-  - function.uopz-get-return.html: uopzgetreturn »
+  - function.uopz-get-mock.md: « uopzgetmock
+  - function.uopz-get-return.md: uopzgetreturn »
   - index.md: PHP Manual
   - ref.uopz.md: Функції Uopz
 title: uopzgetproperty

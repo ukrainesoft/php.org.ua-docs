@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-result.fetch-column.html: '« mysqliresult::fetchcolumn'
-  - mysqli-result.fetch-field.html: 'mysqliresult::fetchfield »'
+  - mysqli-result.fetch-column.md: '« mysqliresult::fetchcolumn'
+  - mysqli-result.fetch-field.md: 'mysqliresult::fetchfield »'
   - index.md: PHP Manual
-  - class.mysqli-result.html: mysqliresult
+  - class.mysqli-result.md: mysqliresult
 title: 'mysqliresult::fetchfielddirect'
 ---
 # mysqliresult::fetchfielddirect
@@ -34,7 +34,7 @@ mysqli_fetch_field_direct(mysqli_result $result, int $index): object|false
 
 `result`
 
-Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.html), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.html) [mysqliuseresult()](mysqli.use-result.html) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
+Тільки для процедурного стилю: об'єкт [mysqliresult](class.mysqli-result.md), отриманий за допомогою [mysqliquery()](mysqli.query.md) [mysqlistoreresult()](mysqli.store-result.md) [mysqliuseresult()](mysqli.use-result.md) або [mysqlistmtgetresult()](mysqli-stmt.get-result.md)
 
 `index`
 

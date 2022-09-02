@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-server.getclientinfo.html: '« SwooleServer::getClientInfo'
-  - swoole-server.getlasterror.html: 'SwooleServer::getLastError »'
+  - swoole-server.getclientinfo.md: '« SwooleServer::getClientInfo'
+  - swoole-server.getlasterror.md: 'SwooleServer::getLastError »'
   - index.md: PHP Manual
-  - class.swoole-server.html: SwooleServer
+  - class.swoole-server.md: SwooleServer
 title: 'SwooleServer::getClientList'
 ---
 # SwooleServer::getClientList

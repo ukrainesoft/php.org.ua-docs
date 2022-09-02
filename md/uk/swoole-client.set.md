@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-client.sendto.html: '« SwooleClient::sendto'
-  - swoole-client.sleep.html: 'SwooleClient::sleep »'
+  - swoole-client.sendto.md: '« SwooleClient::sendto'
+  - swoole-client.sleep.md: 'SwooleClient::sleep »'
   - index.md: PHP Manual
-  - class.swoole-client.html: SwooleClient
+  - class.swoole-client.md: SwooleClient
 title: 'SwooleClient::set'
 ---
 # SwooleClient::set

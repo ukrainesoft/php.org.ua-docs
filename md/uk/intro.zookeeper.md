@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.zookeeper.html: « ZooKeeper
-  - zookeeper.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.zookeeper.html: ZooKeeper
+  - book.zookeeper.md: « ZooKeeper
+  - zookeeper.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.zookeeper.md: ZooKeeper
 title: Вступ
 ---
 # Вступ

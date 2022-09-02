@@ -14,7 +14,7 @@ EvIdle::construct - Конструктор спостерігача EvIdle
 
 ### Опис
 
-public **EvIdle::construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.html#language.types.declarations.mixed) `$data` ?, int `$priority`
+public **EvIdle::construct** [callable](language.types.callable.md) `$callback` [mixed](language.types.declarations.md#language.types.declarations.mixed) `$data` ?, int `$priority`
 
 Створює об'єкт спостерігач EvIdle та автоматично його стартує.
 
@@ -30,7 +30,7 @@ public **EvIdle::construct** [callable](language.types.callable.md) `$callback` 
 
 `priority`
 
-[Приоритет наблюдателя](class.ev.html#ev.constants.watcher-pri)
+[Приоритет наблюдателя](class.ev.md#ev.constants.watcher-pri)
 
 ### Дивіться також
 

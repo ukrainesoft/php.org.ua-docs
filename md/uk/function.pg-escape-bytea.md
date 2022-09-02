@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.pg-end-copy.html: « pgendcopy
-  - function.pg-escape-identifier.html: пгescapeidentifier »
-  - index.html: PHP Manual
-  - ref.pgsql.html: Функции PostgreSQL
+  - function.pg-end-copy.md: « pgendcopy
+  - function.pg-escape-identifier.md: пгescapeidentifier »
+  - index.md: PHP Manual
+  - ref.pgsql.md: Функции PostgreSQL
 title: пгescapebytea
 ---
 # пгescapebytea
@@ -30,7 +30,7 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 `connection`
 
-Екземпляр [PgSqlConnection](class.pgsql-connection.html). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.html) або [пгpconnect()](function.pg-pconnect.html)
+Екземпляр [PgSqlConnection](class.pgsql-connection.md). Якщо `connection` не вказано, використовується стандартне з'єднання. Стандартне з'єднання - це останнє з'єднання, виконане за допомогою функцій [пгconnect()](function.pg-connect.md) або [пгpconnect()](function.pg-pconnect.md)
 
 **Увага**
 
@@ -48,7 +48,7 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.html); раніше очікувався ресурс ([resource](language.types.resource.html) |
+|  | Параметр `connection` тепер чекає екземпляр [PgSqlConnection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 
 ### Приклади
 
@@ -72,5 +72,5 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 ### Дивіться також
 
--   [пгunescapebytea()](function.pg-unescape-bytea.html) - Забирає екранування двійкових даних типу bytea
--   [пгescapestring()](function.pg-escape-string.html) - Екранування спецсимволів у рядку запиту
+-   [пгunescapebytea()](function.pg-unescape-bytea.md) - Забирає екранування двійкових даних типу bytea
+-   [пгescapestring()](function.pg-escape-string.md) - Екранування спецсимволів у рядку запиту

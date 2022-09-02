@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbase.gettimeofdaycached.html: '« EventBase::getTimeOfDayCached'
-  - eventbase.gotstop.html: 'EventBase::gotStop »'
-  - index.html: PHP Manual
-  - class.eventbase.html: EventBase
+  - eventbase.gettimeofdaycached.md: '« EventBase::getTimeOfDayCached'
+  - eventbase.gotstop.md: 'EventBase::gotStop »'
+  - index.md: PHP Manual
+  - class.eventbase.md: EventBase
 title: 'EventBase::gotExit'
 ---
 # EventBase::gotExit
@@ -19,7 +19,7 @@ public
    EventBase::gotExit(): bool
 ```
 
-Перевіряє, чи був цикл обробки подій завершено за допомогою [EventBase::exit()](eventbase.exit.html)
+Перевіряє, чи був цикл обробки подій завершено за допомогою [EventBase::exit()](eventbase.exit.md)
 
 ### Список параметрів
 
@@ -27,10 +27,10 @@ public
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо цикл обробки подій завершено за допомогою [EventBase::exit()](eventbase.exit.html) . В інших випадках – **`false`**
+Повертає **`true`**, якщо цикл обробки подій завершено за допомогою [EventBase::exit()](eventbase.exit.md) . В інших випадках – **`false`**
 
 ### Дивіться також
 
--   [EventBase::exit()](eventbase.exit.html) - Припиняє відправлення подій
--   [EventBase::stop()](eventbase.stop.html) - Повідомляє eventbase припинити відправку подій
--   [EventBase::gotStop()](eventbase.gotstop.html) - Перевіряє, чи був цикл обробки подій завершений
+-   [EventBase::exit()](eventbase.exit.md) - Припиняє відправлення подій
+-   [EventBase::stop()](eventbase.stop.md) - Повідомляє eventbase припинити відправку подій
+-   [EventBase::gotStop()](eventbase.gotstop.md) - Перевіряє, чи був цикл обробки подій завершений

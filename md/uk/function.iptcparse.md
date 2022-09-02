@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.iptcembed.html: « iptcembed
-  - function.jpeg2wbmp.html: jpeg2wbmp »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.iptcembed.md: « iptcembed
+  - function.jpeg2wbmp.md: jpeg2wbmp »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: iptcparse
 ---
 # iptcparse

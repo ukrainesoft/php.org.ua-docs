@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reserved.exceptions.html: « Зумовлені винятки
-  - exception.construct.html: 'Exception::construct »'
-  - index.html: PHP Manual
-  - reserved.exceptions.html: Обумовлені винятки
+  - reserved.exceptions.md: « Зумовлені винятки
+  - exception.construct.md: 'Exception::construct »'
+  - index.md: PHP Manual
+  - reserved.exceptions.md: Обумовлені винятки
 title: Exception
 ---
 # Exception
@@ -109,13 +109,13 @@ trace
 
 ## Зміст
 
--   [Exception::construct](exception.construct.html) - Створити виняток
--   [Exception::getMessage](exception.getmessage.html) — Отримує повідомлення про виключення
--   [Exception::getPrevious](exception.getprevious.html) — Повертає попередній об'єкт, що реалізує Throwable
--   [Exception::getCode](exception.getcode.html) — Отримує код виключення
--   [Exception::getFile](exception.getfile.html) — Отримує файл, у якому виник виняток
--   [Exception::getLine](exception.getline.html) — Отримує рядок, у якому виник виняток
--   [Exception::getTrace](exception.gettrace.html) — Отримує трасування стека
--   [Exception::getTraceAsString](exception.gettraceasstring.html) — Отримує трасування стека у вигляді рядка
--   [Exception::toString](exception.tostring.html) — Строкове подання винятку
--   [Exception::clone](exception.clone.html) — Клонувати виняток
+-   [Exception::construct](exception.construct.md) - Створити виняток
+-   [Exception::getMessage](exception.getmessage.md) — Отримує повідомлення про виключення
+-   [Exception::getPrevious](exception.getprevious.md) — Повертає попередній об'єкт, що реалізує Throwable
+-   [Exception::getCode](exception.getcode.md) — Отримує код виключення
+-   [Exception::getFile](exception.getfile.md) — Отримує файл, у якому виник виняток
+-   [Exception::getLine](exception.getline.md) — Отримує рядок, у якому виник виняток
+-   [Exception::getTrace](exception.gettrace.md) — Отримує трасування стека
+-   [Exception::getTraceAsString](exception.gettraceasstring.md) — Отримує трасування стека у вигляді рядка
+-   [Exception::toString](exception.tostring.md) — Строкове подання винятку
+-   [Exception::clone](exception.clone.md) — Клонувати виняток

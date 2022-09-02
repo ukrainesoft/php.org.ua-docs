@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dba-optimize.html: « dbaoptimize
-  - function.dba-replace.html: dbareplace »
-  - index.html: PHP Manual
-  - ref.dba.html: Функції DBA
+  - function.dba-optimize.md: « dbaoptimize
+  - function.dba-replace.md: dbareplace »
+  - index.md: PHP Manual
+  - ref.dba.md: Функції DBA
 title: dbapopen
 ---
 # dbapopen
@@ -18,7 +18,7 @@ dbapopen — Встановити постійний екземпляр бази
 dba_popen(    string $path,    string $mode,    string $handler = ?,    mixed ...$args): resource|false
 ```
 
-[dbaopen()](function.dba-open.html) встановлює постійний екземпляр бази даних шляхом `path` в режимі `mode`, використовуючи обробник `handler`
+[dbaopen()](function.dba-open.md) встановлює постійний екземпляр бази даних шляхом `path` в режимі `mode`, використовуючи обробник `handler`
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ dba_popen(    string $path,    string $mode,    string $handler = ?,
 
 `handler`
 
-Ім'я [обработчика](dba.requirements.html), який буде використовуватися для доступу на шляху `path`. Йому передаються всі необов'язкові параметри, задані в [dbaopen()](function.dba-open.html)
+Ім'я [обработчика](dba.requirements.md), який буде використовуватися для доступу на шляху `path`. Йому передаються всі необов'язкові параметри, задані в [dbaopen()](function.dba-open.md)
 
 `args`
 
@@ -40,7 +40,7 @@ dba_popen(    string $path,    string $mode,    string $handler = ?,
 
 Драйвери `cdb` `cdb_make` `flatfile` `inifile` `qdbm` і `tcadb` не підтримують додаткові параметри.
 
-Драйвери `db1` `db2` `db3` `db4` `dbm` `gdbm` і `ndbm` підтримують єдиний додатковий параметр `$filemode`що має те саме значення, що і параметр `$mode` в [chmod()](function.chmod.html) і за умовчанням дорівнює `0644`
+Драйвери `db1` `db2` `db3` `db4` `dbm` `gdbm` і `ndbm` підтримують єдиний додатковий параметр `$filemode`що має те саме значення, що і параметр `$mode` в [chmod()](function.chmod.md) і за умовчанням дорівнює `0644`
 
 Драйвер `lmdb` приймає два додаткові параметри. Перший дозволяє вказати `$filemode` (дивіться опис вище), а другий - вказати `$mapsize`, де значення має бути кратним розміру сторінки ОС або нулю, щоб використовувати розмір картки за замовчуванням. Параметр `$mapsize` підтримується в PHP 7.3.14 та 7.4.2 відповідно.
 
@@ -50,5 +50,5 @@ dba_popen(    string $path,    string $mode,    string $handler = ?,
 
 ### Дивіться також
 
--   [dbaopen()](function.dba-open.html) - Відкриває базу даних
--   [dbaclose()](function.dba-close.html) - Закриває базу даних DBA
+-   [dbaopen()](function.dba-open.md) - Відкриває базу даних
+-   [dbaclose()](function.dba-close.md) - Закриває базу даних DBA

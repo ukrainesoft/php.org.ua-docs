@@ -1,9 +1,9 @@
 ---
 navigation:
-  - eventbufferevent.setwatermark.html: '« EventBufferEvent::setWatermark'
-  - eventbufferevent.sslfilter.html: 'EventBufferEvent::sslFilter »'
-  - index.html: PHP Manual
-  - class.eventbufferevent.html: EventBufferEvent
+  - eventbufferevent.setwatermark.md: '« EventBufferEvent::setWatermark'
+  - eventbufferevent.sslfilter.md: 'EventBufferEvent::sslFilter »'
+  - index.md: PHP Manual
+  - class.eventbufferevent.md: EventBufferEvent
 title: 'EventBufferEvent::sslError'
 ---
 # EventBufferEvent::sslError
@@ -58,4 +58,4 @@ function ssl_event_cb($bev, $events, $ctx) {
 
 ### Дивіться також
 
--   [EventBufferEvent::sslRenegotiate()](eventbufferevent.sslrenegotiate.html) - Повідомляє буферну подію розпочати перегляд SSL
+-   [EventBufferEvent::sslRenegotiate()](eventbufferevent.sslrenegotiate.md) - Повідомляє буферну подію розпочати перегляд SSL

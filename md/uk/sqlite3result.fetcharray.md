@@ -1,9 +1,9 @@
 ---
 navigation:
-  - sqlite3result.construct.html: '« SQLite3Result::construct'
-  - sqlite3result.finalize.html: 'SQLite3Result::finalize »'
-  - index.html: PHP Manual
-  - class.sqlite3result.html: SQLite3Result
+  - sqlite3result.construct.md: '« SQLite3Result::construct'
+  - sqlite3result.finalize.md: 'SQLite3Result::finalize »'
+  - index.md: PHP Manual
+  - class.sqlite3result.md: SQLite3Result
 title: 'SQLite3Result::fetchArray'
 ---
 # SQLite3Result::fetchArray

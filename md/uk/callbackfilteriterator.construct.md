@@ -26,11 +26,11 @@ public **CallbackFilterIterator::construct**[Iterator](class.iterator.md) `$iter
 
 `callback`
 
-Callback-функція, яка має повертати **`true`**, якщо поточний елемент пройшов фільтр, та **`false`**, якщо елемент відхилено. Дивіться [приклади](class.callbackfilteriterator.html#callbackfilteriterator.examples)
+Callback-функція, яка має повертати **`true`**, якщо поточний елемент пройшов фільтр, та **`false`**, якщо елемент відхилено. Дивіться [приклади](class.callbackfilteriterator.md#callbackfilteriterator.examples)
 
 Можливо будь-яким [callable](language.types.callable.md) значенням.
 
 ### Дивіться також
 
--   [Приклади використання CallbackFilterIterator](class.callbackfilteriterator.html#callbackfilteriterator.examples)
+-   [Приклади використання CallbackFilterIterator](class.callbackfilteriterator.md#callbackfilteriterator.examples)
 -   [CallbackFilterIterator::accept()](callbackfilteriterator.accept.md) - Викликає callback-функцію та передає їй як аргументи поточне значення, поточний ключ та внутрішній покажчик

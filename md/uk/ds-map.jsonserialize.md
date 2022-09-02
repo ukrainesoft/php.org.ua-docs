@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-map.isempty.html: '« DsMap::isEmpty'
-  - ds-map.keys.html: 'ДсMap::keys »'
+  - ds-map.isempty.md: '« DsMap::isEmpty'
+  - ds-map.keys.md: 'ДсMap::keys »'
   - index.md: PHP Manual
-  - class.ds-map.html: Коллекция пар ключ-значение
+  - class.ds-map.md: Коллекция пар ключ-значение
 title: 'ДсMap::jsonSerialize'
 ---
 # ДсMap::jsonSerialize

@@ -1,61 +1,61 @@
 ---
 navigation:
-  - class.snmpexception.html: « SNMPException
-  - intro.sockets.html: Введение »
-  - index.html: PHP Manual
-  - refs.remote.other.html: Інші служби
+  - class.snmpexception.md: « SNMPException
+  - intro.sockets.md: Введение »
+  - index.md: PHP Manual
+  - refs.remote.other.md: Інші служби
 title: Сокети
 ---
 # Сокети
 
--   [Введение](intro.sockets.html)
--   [Встановлення та налаштування](sockets.setup.html)
-    -   [Вимоги](sockets.requirements.html)
-    -   [Установка](sockets.installation.html)
-    -   [Налаштування під час виконання](sockets.configuration.html)
-    -   [Типи ресурсів](sockets.resources.html)
--   [Обумовлені константи](sockets.constants.html)
--   [Приклади](sockets.examples.html)
--   [Ошибки сокетів](sockets.errors.html)
--   [Функции сокета](ref.sockets.html)
-    -   [socketaccept](function.socket-accept.html) - Приймає з'єднання на сокеті
-    -   [socketaddrinfobind](function.socket-addrinfo-bind.html) — Створити та прив'язати до сокету із зазначеного addrinfo
-    -   [socketaddrinfoconnect](function.socket-addrinfo-connect.html) — Створити та підключитися до сокету із вказаного addrinfo
-    -   [socketaddrinfoexplain](function.socket-addrinfo-explain.html) — Отримати інформацію про addrinfo
-    -   [socketaddrinfolookup](function.socket-addrinfo-lookup.html) — Отримати масив із вмістом getaddrinfo про вказане ім'я хоста
-    -   [socketbind](function.socket-bind.html) - Прив'язує ім'я до сокету
-    -   [socketclearerror](function.socket-clear-error.html) — Очищає помилку на сокеті або останній код помилки
-    -   [socketclose](function.socket-close.html) - Закриває екземпляр Socket
-    -   [socketcmsgspace](function.socket-cmsg-space.html) — Обчислити розмір буфера повідомлення
-    -   [socketconnect](function.socket-connect.html) — Починає з'єднання із сокетом
-    -   [socketcreatelisten](function.socket-create-listen.html) — Відкриває сокет на вказаному порту для отримання з'єднань
-    -   [socketcreatepair](function.socket-create-pair.html) — Створює пару нерозрізнених сокетів і зберігає їх у масиві
-    -   [socketcreate](function.socket-create.html) - Створює сокет (кінцеву точку для обміну інформацією)
-    -   [socketexportstream](function.socket-export-stream.html) — Експортувати сокет у потік, що інкапсулює сокет
-    -   [socketgetoption](function.socket-get-option.html) — Отримує опції потоку для сокету
-    -   [socketgetopt](function.socket-getopt.html) - Псевдонім socketgetoption
-    -   [socketgetpeername](function.socket-getpeername.html) — Запитує віддалену сторону зазначеного сокету, в результаті може бути повернутий хост/порт або шлях у файловій системі Unix, залежно від типу сокету
-    -   [socketgetsockname](function.socket-getsockname.html) — Запитує локальну сторону зазначеного сокету, в результаті можна отримати хост/порт або шлях у файловій системі Unix, залежно від типу сокету
-    -   [socketimportstream](function.socket-import-stream.html) - Імпортувати потік
-    -   [socketlasterror](function.socket-last-error.html) - Повертає останню помилку на сокеті
-    -   [socketlisten](function.socket-listen.html) — Прослуховує вхідні з'єднання на сокеті
-    -   [socketread](function.socket-read.html) — Читає рядок максимальну довжину байт із сокету
-    -   [socketrecv](function.socket-recv.html) — Отримує дані із приєднаного сокету
-    -   [socketrecvfrom](function.socket-recvfrom.html) — Отримує дані із сокету, незалежно від того, під'єднаний він чи ні
-    -   [socketrecvmsg](function.socket-recvmsg.html) — Прочитати повідомлення
-    -   [socketselect](function.socket-select.html) — Запускає системний виклик select() для заданих масивів сокетів із зазначеним часом очікування
-    -   [socketsend](function.socket-send.html) — Надсилає дані в приєднаний сокет
-    -   [socketsendmsg](function.socket-sendmsg.html) - Надіслати повідомлення
-    -   [socketsendto](function.socket-sendto.html) — Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
-    -   [socketsetblock](function.socket-set-block.html) — Встановлює блокуючий режим на сокеті
-    -   [socketsetnonblock](function.socket-set-nonblock.html) — Встановлює неблокуючий режим файлового дескриптора fd
-    -   [socketsetoption](function.socket-set-option.html) - Встановлює опції для сокету
-    -   [socketsetopt](function.socket-setopt.html) - Псевдонім socketsetoption
-    -   [socketshutdown](function.socket-shutdown.html) — Завершує роботу сокету на отримання та/або надсилання даних
-    -   [socketstrerror](function.socket-strerror.html) — Повертає рядок, що описує помилку сокету
-    -   [socketwrite](function.socket-write.html) - Запис у сокет
-    -   [socketwsaprotocolinfoexport](function.socket-wsaprotocol-info-export.html) — Експорт структури WSAPROTOCOLINFO
-    -   [socketwsaprotocolinfoimport](function.socket-wsaprotocol-info-import.html) - Імпортує сокет з іншого процесу
-    -   [socketwsaprotocolinforelease](function.socket-wsaprotocol-info-release.html) — Вивільняє експортовану структуру WSAPROTOCOLINFO
--   [Socket](class.socket.html) - Клас Socket
--   [AddressInfo](class.addressinfo.html) - Клас AddressInfo
+-   [Введение](intro.sockets.md)
+-   [Встановлення та налаштування](sockets.setup.md)
+    -   [Вимоги](sockets.requirements.md)
+    -   [Установка](sockets.installation.md)
+    -   [Налаштування під час виконання](sockets.configuration.md)
+    -   [Типи ресурсів](sockets.resources.md)
+-   [Обумовлені константи](sockets.constants.md)
+-   [Приклади](sockets.examples.md)
+-   [Ошибки сокетів](sockets.errors.md)
+-   [Функции сокета](ref.sockets.md)
+    -   [socketaccept](function.socket-accept.md) - Приймає з'єднання на сокеті
+    -   [socketaddrinfobind](function.socket-addrinfo-bind.md) — Створити та прив'язати до сокету із зазначеного addrinfo
+    -   [socketaddrinfoconnect](function.socket-addrinfo-connect.md) — Створити та підключитися до сокету із вказаного addrinfo
+    -   [socketaddrinfoexplain](function.socket-addrinfo-explain.md) — Отримати інформацію про addrinfo
+    -   [socketaddrinfolookup](function.socket-addrinfo-lookup.md) — Отримати масив із вмістом getaddrinfo про вказане ім'я хоста
+    -   [socketbind](function.socket-bind.md) - Прив'язує ім'я до сокету
+    -   [socketclearerror](function.socket-clear-error.md) — Очищає помилку на сокеті або останній код помилки
+    -   [socketclose](function.socket-close.md) - Закриває екземпляр Socket
+    -   [socketcmsgspace](function.socket-cmsg-space.md) — Обчислити розмір буфера повідомлення
+    -   [socketconnect](function.socket-connect.md) — Починає з'єднання із сокетом
+    -   [socketcreatelisten](function.socket-create-listen.md) — Відкриває сокет на вказаному порту для отримання з'єднань
+    -   [socketcreatepair](function.socket-create-pair.md) — Створює пару нерозрізнених сокетів і зберігає їх у масиві
+    -   [socketcreate](function.socket-create.md) - Створює сокет (кінцеву точку для обміну інформацією)
+    -   [socketexportstream](function.socket-export-stream.md) — Експортувати сокет у потік, що інкапсулює сокет
+    -   [socketgetoption](function.socket-get-option.md) — Отримує опції потоку для сокету
+    -   [socketgetopt](function.socket-getopt.md) - Псевдонім socketgetoption
+    -   [socketgetpeername](function.socket-getpeername.md) — Запитує віддалену сторону зазначеного сокету, в результаті може бути повернутий хост/порт або шлях у файловій системі Unix, залежно від типу сокету
+    -   [socketgetsockname](function.socket-getsockname.md) — Запитує локальну сторону зазначеного сокету, в результаті можна отримати хост/порт або шлях у файловій системі Unix, залежно від типу сокету
+    -   [socketimportstream](function.socket-import-stream.md) - Імпортувати потік
+    -   [socketlasterror](function.socket-last-error.md) - Повертає останню помилку на сокеті
+    -   [socketlisten](function.socket-listen.md) — Прослуховує вхідні з'єднання на сокеті
+    -   [socketread](function.socket-read.md) — Читає рядок максимальну довжину байт із сокету
+    -   [socketrecv](function.socket-recv.md) — Отримує дані із приєднаного сокету
+    -   [socketrecvfrom](function.socket-recvfrom.md) — Отримує дані із сокету, незалежно від того, під'єднаний він чи ні
+    -   [socketrecvmsg](function.socket-recvmsg.md) — Прочитати повідомлення
+    -   [socketselect](function.socket-select.md) — Запускає системний виклик select() для заданих масивів сокетів із зазначеним часом очікування
+    -   [socketsend](function.socket-send.md) — Надсилає дані в приєднаний сокет
+    -   [socketsendmsg](function.socket-sendmsg.md) - Надіслати повідомлення
+    -   [socketsendto](function.socket-sendto.md) — Надсилає повідомлення до сокету, незалежно від того, під'єднаний він чи ні
+    -   [socketsetblock](function.socket-set-block.md) — Встановлює блокуючий режим на сокеті
+    -   [socketsetnonblock](function.socket-set-nonblock.md) — Встановлює неблокуючий режим файлового дескриптора fd
+    -   [socketsetoption](function.socket-set-option.md) - Встановлює опції для сокету
+    -   [socketsetopt](function.socket-setopt.md) - Псевдонім socketsetoption
+    -   [socketshutdown](function.socket-shutdown.md) — Завершує роботу сокету на отримання та/або надсилання даних
+    -   [socketstrerror](function.socket-strerror.md) — Повертає рядок, що описує помилку сокету
+    -   [socketwrite](function.socket-write.md) - Запис у сокет
+    -   [socketwsaprotocolinfoexport](function.socket-wsaprotocol-info-export.md) — Експорт структури WSAPROTOCOLINFO
+    -   [socketwsaprotocolinfoimport](function.socket-wsaprotocol-info-import.md) - Імпортує сокет з іншого процесу
+    -   [socketwsaprotocolinforelease](function.socket-wsaprotocol-info-release.md) — Вивільняє експортовану структуру WSAPROTOCOLINFO
+-   [Socket](class.socket.md) - Клас Socket
+-   [AddressInfo](class.addressinfo.md) - Клас AddressInfo

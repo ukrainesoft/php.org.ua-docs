@@ -28,7 +28,7 @@ public ImagickDraw::setFontStyle(int $style): bool
 
 `style`
 
-Одна з констант [STYLE](imagick.constants.html#imagick.constants.styles) `imagick::STYLE_*`
+Одна з констант [STYLE](imagick.constants.md#imagick.constants.styles) `imagick::STYLE_*`
 
 ### Значення, що повертаються
 

@@ -24,7 +24,7 @@ public Gmagick::setimageinterlacescheme(int $interlace): Gmagick
 
 `interlace`
 
-Одна з констант [схеми надрядкового зображення](gmagick.constants.html#gmagick.constants.interlace) `Gmagick::INTERLACE_*`
+Одна з констант [схеми надрядкового зображення](gmagick.constants.md#gmagick.constants.interlace) `Gmagick::INTERLACE_*`
 
 ### Значення, що повертаються
 

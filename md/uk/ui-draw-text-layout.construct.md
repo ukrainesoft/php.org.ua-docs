@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.ui-draw-text-layout.html: « UIDrawTextLayout
-  - ui-draw-text-layout.setcolor.html: 'ОЙDrawTextLayout::setColor »'
+  - class.ui-draw-text-layout.md: « UIDrawTextLayout
+  - ui-draw-text-layout.setcolor.md: 'ОЙDrawTextLayout::setColor »'
   - index.md: PHP Manual
-  - class.ui-draw-text-layout.html: ОЙDrawTextLayout
+  - class.ui-draw-text-layout.md: ОЙDrawTextLayout
 title: 'ОЙDrawTextLayout::construct'
 ---
 # ОЙDrawTextLayout::construct
@@ -14,7 +14,7 @@ title: 'ОЙDrawTextLayout::construct'
 
 ### Опис
 
-public **ОЙDrawTextLayout::construct**(string `$text` [ОЙDrawTextFont](class.ui-draw-text-font.html) `$font`, float `$width`
+public **ОЙDrawTextLayout::construct**(string `$text` [ОЙDrawTextFont](class.ui-draw-text-font.md) `$font`, float `$width`
 
 Створить новий об'єкт макету тексту
 

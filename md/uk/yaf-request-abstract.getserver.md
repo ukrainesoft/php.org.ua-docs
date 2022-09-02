@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-request-abstract.getrequesturi.html: '« YafRequestAbstract::getRequestUri'
-  - yaf-request-abstract.iscli.html: 'YafRequestAbstract::isCli »'
-  - index.html: PHP Manual
-  - class.yaf-request-abstract.html: YafRequestAbstract
+  - yaf-request-abstract.getrequesturi.md: '« YafRequestAbstract::getRequestUri'
+  - yaf-request-abstract.iscli.md: 'YafRequestAbstract::isCli »'
+  - index.md: PHP Manual
+  - class.yaf-request-abstract.md: YafRequestAbstract
 title: 'YafRequestAbstract::getServer'
 ---
 # YafRequestAbstract::getServer

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - imagickpixeliterator.getnextiteratorrow.html: '« ImagickPixelIterator::getNextIteratorRow'
-  - imagickpixeliterator.newpixeliterator.html: 'ImagickPixelIterator::newPixelIterator »'
-  - index.html: PHP Manual
-  - class.imagickpixeliterator.html: ImagickPixelIterator
+  - imagickpixeliterator.getnextiteratorrow.md: '« ImagickPixelIterator::getNextIteratorRow'
+  - imagickpixeliterator.newpixeliterator.md: 'ImagickPixelIterator::newPixelIterator »'
+  - index.md: PHP Manual
+  - class.imagickpixeliterator.md: ImagickPixelIterator
 title: 'ImagickPixelIterator::getPreviousIteratorRow'
 ---
 # ImagickPixelIterator::getPreviousIteratorRow

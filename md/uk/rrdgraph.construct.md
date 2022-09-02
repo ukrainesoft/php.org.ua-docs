@@ -1,22 +1,22 @@
 ---
 navigation:
-  - class.rrdgraph.html: « RRDGraph
-  - rrdgraph.save.html: 'RRDGraph::save »'
-  - index.html: PHP Manual
-  - class.rrdgraph.html: RRDGraph
+  - class.rrdgraph.md: « RRDGraph
+  - rrdgraph.save.md: 'RRDGraph::save »'
+  - index.md: PHP Manual
+  - class.rrdgraph.md: RRDGraph
 title: 'RRDGraph::construct'
 ---
 # RRDGraph::construct
 
 (PECL rrd >= 0.9.0)
 
-RRDGraph::construct — Створює новий екземпляр [RRDGraph](class.rrdgraph.html)
+RRDGraph::construct — Створює новий екземпляр [RRDGraph](class.rrdgraph.md)
 
 ### Опис
 
 public **RRDGraph::construct**(string `$path`
 
-Створює новий екземпляр [RRDGraph](class.rrdgraph.html). Екземпляр відповідає за відображення результату запиту до бази даних RRD у вигляді зображення.
+Створює новий екземпляр [RRDGraph](class.rrdgraph.md). Екземпляр відповідає за відображення результату запиту до бази даних RRD у вигляді зображення.
 
 ### Список параметрів
 

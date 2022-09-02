@@ -1,9 +1,9 @@
 ---
 navigation:
-  - book.fileinfo.html: « FileInfo
-  - fileinfo.setup.html: Встановлення та налаштування »
-  - index.html: PHP Manual
-  - book.fileinfo.html: FileInfo
+  - book.fileinfo.md: « FileInfo
+  - fileinfo.setup.md: Встановлення та налаштування »
+  - index.md: PHP Manual
+  - book.fileinfo.md: FileInfo
 title: Вступ
 ---
 # Вступ

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - arrayiterator.offsetget.html: '« ArrayIterator::offsetGet'
-  - arrayiterator.offsetunset.html: 'ArrayIterator::offsetUnset »'
-  - index.html: PHP Manual
-  - class.arrayiterator.html: ArrayIterator
+  - arrayiterator.offsetget.md: '« ArrayIterator::offsetGet'
+  - arrayiterator.offsetunset.md: 'ArrayIterator::offsetUnset »'
+  - index.md: PHP Manual
+  - class.arrayiterator.md: ArrayIterator
 title: 'ArrayIterator::offsetSet'
 ---
 # ArrayIterator::offsetSet
@@ -40,5 +40,5 @@ public ArrayIterator::offsetSet(mixed $key, mixed $value): void
 
 ### Дивіться також
 
--   [ArrayIterator::offsetGet()](arrayiterator.offsetget.html) - Отримує значення для зміщення
--   [ArrayIterator::offsetUnset()](arrayiterator.offsetunset.html) - скидає значення зі зміщення
+-   [ArrayIterator::offsetGet()](arrayiterator.offsetget.md) - Отримує значення для зміщення
+-   [ArrayIterator::offsetUnset()](arrayiterator.offsetunset.md) - скидає значення зі зміщення

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.phpdbg-exec.html: « phpdbgexec
-  - function.phpdbg-prompt.html: phpdbgprompt »
+  - function.phpdbg-exec.md: « phpdbgexec
+  - function.phpdbg-prompt.md: phpdbgprompt »
   - index.md: PHP Manual
   - ref.phpdbg.md: Функции phpdbg
 title: phpdbggetexecutable

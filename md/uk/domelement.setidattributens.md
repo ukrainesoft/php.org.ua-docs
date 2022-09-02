@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domelement.setidattributenode.html: '« DOMElement::setIdAttributeNode'
-  - class.domentity.html: DOMEntity »
-  - index.html: PHP Manual
-  - class.domelement.html: DOMElement
+  - domelement.setidattributenode.md: '« DOMElement::setIdAttributeNode'
+  - class.domentity.md: DOMEntity »
+  - index.md: PHP Manual
+  - class.domelement.md: DOMElement
 title: 'DOMElement::setIdAttributeNS'
 ---
 # DOMElement::setIdAttributeNS
@@ -50,6 +50,6 @@ URI простір імен атрибута.
 
 ### Дивіться також
 
--   [DOMDocument::getElementById()](domdocument.getelementbyid.html) - Шукає елемент із певним ідентифікатором
--   [DOMElement::setIdAttribute()](domelement.setidattribute.html) - Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
--   [DOMElement::setIdAttributeNode()](domelement.setidattributenode.html) - Оголошує атрибут, вказаний вузлом, з ідентифікатором типу
+-   [DOMDocument::getElementById()](domdocument.getelementbyid.md) - Шукає елемент із певним ідентифікатором
+-   [DOMElement::setIdAttribute()](domelement.setidattribute.md) - Оголошує атрибут, вказаний ім'ям, з ідентифікатором типу
+-   [DOMElement::setIdAttributeNode()](domelement.setidattributenode.md) - Оголошує атрибут, вказаний вузлом, з ідентифікатором типу

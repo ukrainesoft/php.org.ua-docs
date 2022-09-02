@@ -1,7 +1,7 @@
 ---
 navigation:
   - ffi.constants.md: « Обумовлені константи
-  - ffi.examples-basic.html: Прості приклади використання FFI »
+  - ffi.examples-basic.md: Прості приклади використання FFI »
   - index.md: PHP Manual
   - book.ffi.md: FFI
 title: Приклади

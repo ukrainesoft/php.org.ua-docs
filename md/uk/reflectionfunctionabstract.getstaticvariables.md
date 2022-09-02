@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionfunctionabstract.getstartline.html: '« ReflectionFunctionAbstract::getStartLine'
-  - reflectionfunctionabstract.gettentativereturntype.html: 'ReflectionFunctionAbstract::getTentativeReturnType »'
-  - index.html: PHP Manual
-  - class.reflectionfunctionabstract.html: ReflectionFunctionAbstract
+  - reflectionfunctionabstract.getstartline.md: '« ReflectionFunctionAbstract::getStartLine'
+  - reflectionfunctionabstract.gettentativereturntype.md: 'ReflectionFunctionAbstract::getTentativeReturnType »'
+  - index.md: PHP Manual
+  - class.reflectionfunctionabstract.md: ReflectionFunctionAbstract
 title: 'ReflectionFunctionAbstract::getStaticVariables'
 ---
 # ReflectionFunctionAbstract::getStaticVariables
@@ -30,4 +30,4 @@ public ReflectionFunctionAbstract::getStaticVariables(): array
 
 ### Дивіться також
 
--   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.html) - Отримує параметри
+-   [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md) - Отримує параметри

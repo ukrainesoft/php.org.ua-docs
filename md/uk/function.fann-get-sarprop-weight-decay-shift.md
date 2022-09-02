@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.fann-get-sarprop-temperature.html: « fanngetsarproptemperature
-  - function.fann-get-total-connections.html: fanngettotalconnections »
+  - function.fann-get-sarprop-temperature.md: « fanngetsarproptemperature
+  - function.fann-get-total-connections.md: fanngettotalconnections »
   - index.md: PHP Manual
   - ref.fann.md: Функции Fann
 title: fanngetsarpropweightdecayshift

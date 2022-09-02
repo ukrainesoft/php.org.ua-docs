@@ -1,6 +1,6 @@
 ---
 navigation:
-  - install.unix.lighttpd-14.html: « Установка PHP на Lighttpd 1.4 на Unix-системах
+  - install.unix.lighttpd-14.md: « Установка PHP на Lighttpd 1.4 на Unix-системах
   - install.unix.commandline.md: Установка з інтерфейсами CGI та командного рядка »
   - index.md: PHP Manual
   - install.unix.md: Встановлення на Unix-системи

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionadd.execute.html: '« CollectionAdd::execute'
-  - mysql-xdevapi-collectionfind.bind.html: 'CollectionFind::bind »'
+  - mysql-xdevapi-collectionadd.execute.md: '« CollectionAdd::execute'
+  - mysql-xdevapi-collectionfind.bind.md: 'CollectionFind::bind »'
   - index.md: PHP Manual
-  - book.mysql-xdevapi.html: Mysqlxdevapi
+  - book.mysql-xdevapi.md: Mysqlxdevapi
 title: Клас CollectionFind
 ---
 # Клас CollectionFind

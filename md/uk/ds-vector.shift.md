@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ds-vector.set.html: '« DsVector::set'
-  - ds-vector.slice.html: 'ДсVector::slice »'
-  - index.html: PHP Manual
-  - class.ds-vector.html: Вектор
+  - ds-vector.set.md: '« DsVector::set'
+  - ds-vector.slice.md: 'ДсVector::slice »'
+  - index.md: PHP Manual
+  - class.ds-vector.md: Вектор
 title: 'ДсVector::shift'
 ---
 # ДсVector::shift
@@ -30,7 +30,7 @@ public Ds\Vector::shift(): mixed
 
 ### Помилки
 
-Викидає виняток [UnderflowException](class.underflowexception.html)якщо вектор порожній.
+Викидає виняток [UnderflowException](class.underflowexception.md)якщо вектор порожній.
 
 ### Приклади
 

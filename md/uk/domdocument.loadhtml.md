@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domdocument.load.html: '« DOMDocument::load'
-  - domdocument.loadhtmlfile.html: 'DOMDocument::loadHTMLFile »'
-  - index.html: PHP Manual
-  - class.domdocument.html: DOMDocument
+  - domdocument.load.md: '« DOMDocument::load'
+  - domdocument.loadhtmlfile.md: 'DOMDocument::loadHTMLFile »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
 title: 'DOMDocument::loadHTML'
 ---
 # DOMDocument::loadHTML
@@ -18,7 +18,7 @@ DOMDocument::loadHTML — Завантаження HTML з рядка
 public DOMDocument::loadHTML(string $source, int $options = 0): DOMDocument|bool
 ```
 
-Функція розбирає HTML, що міститься у рядку `source`. На відміну від завантаження XML HTML не повинен бути правильно побудованим (well-formed) документом. Ця функція також може бути викликана статично для завантаження та створення об'єкта класу [DOMDocument](class.domdocument.html). Статичний виклик може використовуватися у випадках, коли немає потреби встановлювати значення параметрів об'єкта [DOMDocument](class.domdocument.md) до завантаження документа.
+Функція розбирає HTML, що міститься у рядку `source`. На відміну від завантаження XML HTML не повинен бути правильно побудованим (well-formed) документом. Ця функція також може бути викликана статично для завантаження та створення об'єкта класу [DOMDocument](class.domdocument.md). Статичний виклик може використовуватися у випадках, коли немає потреби встановлювати значення параметрів об'єкта [DOMDocument](class.domdocument.md) до завантаження документа.
 
 ### Список параметрів
 

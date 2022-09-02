@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.getmltfields.html: '« SolrQuery::getMltFields'
-  - solrquery.getmltmaxnumtokens.html: 'SolrQuery::getMltMaxNumTokens »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.getmltfields.md: '« SolrQuery::getMltFields'
+  - solrquery.getmltmaxnumtokens.md: 'SolrQuery::getMltMaxNumTokens »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::getMltMaxNumQueryTerms'
 ---
 # SolrQuery::getMltMaxNumQueryTerms

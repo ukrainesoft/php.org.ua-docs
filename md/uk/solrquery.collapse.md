@@ -1,9 +1,9 @@
 ---
 navigation:
-  - solrquery.addstatsfield.html: '« SolrQuery::addStatsField'
-  - solrquery.construct.html: 'SolrQuery::construct »'
-  - index.html: PHP Manual
-  - class.solrquery.html: SolrQuery
+  - solrquery.addstatsfield.md: '« SolrQuery::addStatsField'
+  - solrquery.construct.md: 'SolrQuery::construct »'
+  - index.md: PHP Manual
+  - class.solrquery.md: SolrQuery
 title: 'SolrQuery::collapse'
 ---
 # SolrQuery::collapse
@@ -28,7 +28,7 @@ public SolrQuery::collapse(SolrCollapseFunction $collapseFunction): SolrQuery
 
 ### Значення, що повертаються
 
-Повертає поточний об'єкт [SolrQuery](class.solrquery.html)
+Повертає поточний об'єкт [SolrQuery](class.solrquery.md)
 
 ### Приклади
 

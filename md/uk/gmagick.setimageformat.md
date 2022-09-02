@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gmagick.setimagefilename.html: '« Gmagick::setimagefilename'
-  - gmagick.setimagegamma.html: 'Gmagick::setimagegamma »'
-  - index.html: PHP Manual
-  - class.gmagick.html: Gmagick
+  - gmagick.setimagefilename.md: '« Gmagick::setimagefilename'
+  - gmagick.setimagegamma.md: 'Gmagick::setimagegamma »'
+  - index.md: PHP Manual
+  - class.gmagick.md: Gmagick
 title: 'Gmagick::setimageformat'
 ---
 # Gmagick::setimageformat
@@ -28,7 +28,7 @@ public Gmagick::setimageformat(string $imageFormat): Gmagick
 
 ### Значення, що повертаються
 
-Об'єкт [Gmagick](class.gmagick.html) у разі успішного виконання.
+Об'єкт [Gmagick](class.gmagick.md) у разі успішного виконання.
 
 ### Помилки
 

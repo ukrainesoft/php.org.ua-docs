@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionmodify.bind.html: '« CollectionModify::bind'
-  - mysql-xdevapi-collectionmodify.execute.html: 'CollectionModify::execute »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-collectionmodify.html: mysqlxdevapiCollectionModify
+  - mysql-xdevapi-collectionmodify.bind.md: '« CollectionModify::bind'
+  - mysql-xdevapi-collectionmodify.execute.md: 'CollectionModify::execute »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-collectionmodify.md: mysqlxdevapiCollectionModify
 title: 'CollectionModify::construct'
 ---
 # CollectionModify::construct

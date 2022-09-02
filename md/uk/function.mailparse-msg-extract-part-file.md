@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mailparse-msg-create.html: « mailparsemsgcreate
-  - function.mailparse-msg-extract-part.html: mailparsemsgextractpart »
+  - function.mailparse-msg-create.md: « mailparsemsgcreate
+  - function.mailparse-msg-extract-part.md: mailparsemsgextractpart »
   - index.md: PHP Manual
   - ref.mailparse.md: Mailparse
 title: mailparsemsgextractpartfile

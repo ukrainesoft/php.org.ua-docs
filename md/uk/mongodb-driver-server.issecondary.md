@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mongodb-driver-server.isprimary.html: '« MongoDBDriverServer::isPrimary'
-  - class.mongodb-driver-serverdescription.html: MongoDBDriverServerDescription »
-  - index.html: PHP Manual
-  - class.mongodb-driver-server.html: MongoDBDriverServer
+  - mongodb-driver-server.isprimary.md: '« MongoDBDriverServer::isPrimary'
+  - class.mongodb-driver-serverdescription.md: MongoDBDriverServerDescription »
+  - index.md: PHP Manual
+  - class.mongodb-driver-server.md: MongoDBDriverServer
 title: 'MongoDBDriverServer::isSecondary'
 ---
 # MongoDBDriverServer::isSecondary

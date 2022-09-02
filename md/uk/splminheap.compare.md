@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.splminheap.html: « SplMinHeap
-  - class.splpriorityqueue.html: SplPriorityQueue »
-  - index.html: PHP Manual
-  - class.splminheap.html: SplMinHeap
+  - class.splminheap.md: « SplMinHeap
+  - class.splpriorityqueue.md: SplPriorityQueue »
+  - index.md: PHP Manual
+  - class.splminheap.md: SplMinHeap
 title: 'SplMinHeap::compare'
 ---
 # SplMinHeap::compare

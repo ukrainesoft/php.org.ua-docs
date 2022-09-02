@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.mb-ereg-search-setpos.html: « mberegsearchsetpos
-  - function.mb-ereg.html: мбereg »
+  - function.mb-ereg-search-setpos.md: « mberegsearchsetpos
+  - function.mb-ereg.md: мбereg »
   - index.md: PHP Manual
   - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбeregsearch

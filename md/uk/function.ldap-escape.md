@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-error.html: « ldaperror
-  - function.ldap-exop-passwd.html: ldapexoppasswd »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-error.md: « ldaperror
+  - function.ldap-exop-passwd.md: ldapexoppasswd »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapescape
 ---
 # ldapescape
@@ -32,7 +32,7 @@ ldap_escape(string $value, string $ignore = "", int $flags = 0): string
 
 `flags`
 
-Контекст, для якого екранується рядок: **`LDAP_ESCAPE_FILTER`** для фільтрів, що використовуються в [ldapsearch()](function.ldap-search.html) або **`LDAP_ESCAPE_DN`** для DN. Якщо не передані жодні прапори, всі символи будуть екрановані.
+Контекст, для якого екранується рядок: **`LDAP_ESCAPE_FILTER`** для фільтрів, що використовуються в [ldapsearch()](function.ldap-search.md) або **`LDAP_ESCAPE_DN`** для DN. Якщо не передані жодні прапори, всі символи будуть екрановані.
 
 ### Значення, що повертаються
 

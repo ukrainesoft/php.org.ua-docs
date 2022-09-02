@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imagewbmp.html: « imagewbmp
-  - function.imagexbm.html: imagexbm »
-  - index.html: PHP Manual
-  - ref.image.html: Функції GD та функції для роботи із зображеннями
+  - function.imagewbmp.md: « imagewbmp
+  - function.imagexbm.md: imagexbm »
+  - index.md: PHP Manual
+  - ref.image.md: Функції GD та функції для роботи із зображеннями
 title: imagewebp
 ---
 # imagewebp
@@ -24,7 +24,7 @@ imagewebp(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 `image`
 
-Об'єкт [GdImage](class.gdimage.html), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.html)
+Об'єкт [GdImage](class.gdimage.md), що повертається однією з функцій створення зображень, наприклад, такий як [imagecreatetruecolor()](function.imagecreatetruecolor.md)
 
 `file`
 
@@ -46,7 +46,7 @@ imagewebp(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 | Версия | Описание |
 | --- | --- |
-|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.html); раніше очікували ресурс (resource). |
+|  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 

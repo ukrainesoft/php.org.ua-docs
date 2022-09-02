@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.php-ini-loaded-file.html: « phpiniloadedfile
-  - function.php-sapi-name.html: phpsapiname »
-  - index.html: PHP Manual
-  - ref.info.html: Опції PHP/інформаційні функції
+  - function.php-ini-loaded-file.md: « phpiniloadedfile
+  - function.php-sapi-name.md: phpsapiname »
+  - index.md: PHP Manual
+  - ref.info.md: Опції PHP/інформаційні функції
 title: phpiniscannedfiles
 ---
 # phpiniscannedfiles
@@ -18,7 +18,7 @@ phpiniscannedfiles — Повертає список .ini-файлів, знай
 php_ini_scanned_files(): string|false
 ```
 
-**phpiniscannedfiles()** повертає список розділених комами конфігураційних файлів, проаналізованих після php.ini. Директорії, в яких проводиться пошук, задаються при компіляції та, опціонально, змінному оточенні під час виконання. Більше інформації можна знайти у [инструкции по установке](configuration.file.html#configuration.file.scan)
+**phpiniscannedfiles()** повертає список розділених комами конфігураційних файлів, проаналізованих після php.ini. Директорії, в яких проводиться пошук, задаються при компіляції та, опціонально, змінному оточенні під час виконання. Більше інформації можна знайти у [инструкции по установке](configuration.file.md#configuration.file.scan)
 
 Імена файлів, що повертаються, включають повний шлях.
 
@@ -50,6 +50,6 @@ if ($filelist = php_ini_scanned_files()) {
 
 ### Дивіться також
 
--   [iniset()](function.ini-set.html) - Встановлює налаштування конфігурації
--   [phpinfo()](function.phpinfo.html) - Виводить інформацію про поточну конфігурацію PHP
--   [phpiniloadedfile()](function.php-ini-loaded-file.html) - Отримати шлях до завантаженого файлу php.ini
+-   [iniset()](function.ini-set.md) - Встановлює налаштування конфігурації
+-   [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну конфігурацію PHP
+-   [phpiniloadedfile()](function.php-ini-loaded-file.md) - Отримати шлях до завантаженого файлу php.ini

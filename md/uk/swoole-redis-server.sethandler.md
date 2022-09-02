@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-redis-server.format.html: '« SwooleRedisServer::format'
-  - swoole-redis-server.start.html: 'SwooleRedisServer::start »'
-  - index.html: PHP Manual
-  - class.swoole-redis-server.html: SwooleRedisServer
+  - swoole-redis-server.format.md: '« SwooleRedisServer::format'
+  - swoole-redis-server.start.md: 'SwooleRedisServer::start »'
+  - index.md: PHP Manual
+  - class.swoole-redis-server.md: SwooleRedisServer
 title: 'SwooleRedisServer::setHandler'
 ---
 # SwooleRedisServer::setHandler

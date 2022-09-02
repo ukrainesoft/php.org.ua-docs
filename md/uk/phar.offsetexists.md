@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.mungserver.html: '« Phar::mungServer'
-  - phar.offsetget.html: 'Phar::offsetGet »'
-  - index.html: PHP Manual
-  - class.phar.html: Phar
+  - phar.mungserver.md: '« Phar::mungServer'
+  - phar.offsetget.md: 'Phar::offsetGet »'
+  - index.md: PHP Manual
+  - class.phar.md: Phar
 title: 'Phar::offsetExists'
 ---
 # Phar::offsetExists

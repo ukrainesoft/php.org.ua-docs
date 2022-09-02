@@ -1,7 +1,7 @@
 ---
 navigation:
-  - class.mongodb-driver-exception-unexpectedvalueexception.html: « MongoDBDriverExceptionUnexpectedValueException
-  - mongodb-driver-writeexception.getwriteresult.html: 'MongoDBDriverExceptionWriteException::getWriteResult »'
+  - class.mongodb-driver-exception-unexpectedvalueexception.md: « MongoDBDriverExceptionUnexpectedValueException
+  - mongodb-driver-writeexception.getwriteresult.md: 'MongoDBDriverExceptionWriteException::getWriteResult »'
   - index.md: PHP Manual
   - mongodb.exceptions.md: MongoDBDriverException
 title: Клас MongoDBDriverExceptionWriteException
@@ -106,7 +106,7 @@ writeResult
 | Версия | Описание |
 | --- | --- |
 | PECL mongodb 1.5.0 |  |
-| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.html) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |
+| Тепер клас успадковується від [MongoDBDriverExceptionServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDBDriverExceptionRuntimeException](class.mongodb-driver-exception-runtimeexception.md) |  |
 
 ## Зміст
 

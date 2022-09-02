@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-exec.html: « ftpexec
-  - function.ftp-fput.html: ftpfput »
+  - function.ftp-exec.md: « ftpexec
+  - function.ftp-fput.md: ftpfput »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftpfget

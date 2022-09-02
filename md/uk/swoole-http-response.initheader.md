@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-http-response.header.html: '« SwooleHttpResponse::header'
-  - swoole-http-response.rawcookie.html: 'SwooleHttpResponse::rawcookie »'
+  - swoole-http-response.header.md: '« SwooleHttpResponse::header'
+  - swoole-http-response.rawcookie.md: 'SwooleHttpResponse::rawcookie »'
   - index.md: PHP Manual
-  - class.swoole-http-response.html: SwooleHttpResponse
+  - class.swoole-http-response.md: SwooleHttpResponse
 title: 'SwooleHttpResponse::initHeader'
 ---
 # SwooleHttpResponse::initHeader

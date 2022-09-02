@@ -1,9 +1,9 @@
 ---
 navigation:
-  - multipleiterator.setflags.html: '« MultipleIterator::setFlags'
-  - class.norewinditerator.html: NoRewindIterator »
-  - index.html: PHP Manual
-  - class.multipleiterator.html: MultipleIterator
+  - multipleiterator.setflags.md: '« MultipleIterator::setFlags'
+  - class.norewinditerator.md: NoRewindIterator »
+  - index.md: PHP Manual
+  - class.multipleiterator.md: MultipleIterator
 title: 'MultipleIterator::valid'
 ---
 # MultipleIterator::valid

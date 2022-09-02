@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.socket-recv.html: « socketrecv
-  - function.socket-recvmsg.html: socketrecvmsg »
+  - function.socket-recv.md: « socketrecv
+  - function.socket-recvmsg.md: socketrecvmsg »
   - index.md: PHP Manual
   - ref.sockets.md: Функции сокета
 title: socketrecvfrom
@@ -61,7 +61,7 @@ socket_recvfrom(    Socket $socket,    string &$data,    int $length
 
 ### Значення, що повертаються
 
-**socketrecvfrom()** повертає кількість отриманих байт або **`false`**, якщо сталася помилка. Фактичний код помилки можна отримати за допомогою виклику функції [socketlasterror()](function.socket-last-error.html). Цей код помилки може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
+**socketrecvfrom()** повертає кількість отриманих байт або **`false`**, якщо сталася помилка. Фактичний код помилки можна отримати за допомогою виклику функції [socketlasterror()](function.socket-last-error.md). Цей код помилки може бути переданий функції [socketstrerror()](function.socket-strerror.md) для отримання текстового опису помилки.
 
 ### список змін
 

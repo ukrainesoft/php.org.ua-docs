@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.pg-flush.html: « pgflush
-  - function.pg-get-notify.html: пгgetnotify »
+  - function.pg-flush.md: « pgflush
+  - function.pg-get-notify.md: пгgetnotify »
   - index.md: PHP Manual
   - ref.pgsql.md: Функции PostgreSQL
 title: пгfreeresult
@@ -30,7 +30,7 @@ pg_free_result(PgSql\Result $result): bool
 
 `result`
 
-Екземпляр [PgSqlResult](class.pgsql-result.html), що повертається функціями [пгquery()](function.pg-query.html) [пгqueryparams()](function.pg-query-params.html) або [пгexecute()](function.pg-execute.md) (між іншим).
+Екземпляр [PgSqlResult](class.pgsql-result.md), що повертається функціями [пгquery()](function.pg-query.md) [пгqueryparams()](function.pg-query-params.md) або [пгexecute()](function.pg-execute.md) (між іншим).
 
 ### Значення, що повертаються
 

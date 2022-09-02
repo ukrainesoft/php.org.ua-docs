@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-symlink.html: « eiosymlink
-  - function.eio-sync.html: eiosync »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-symlink.md: « eiosymlink
+  - function.eio-sync.md: eiosync »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eiosyncfilerange
 ---
 # eiosyncfilerange

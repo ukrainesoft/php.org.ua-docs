@@ -91,4 +91,4 @@ a10
 
 ### Дивіться також
 
--   Документація зі зіставлення SQLite: [» http://sqlite.org/datatype3.html#collation](http://sqlite.org/datatype3.html#collation)
+-   Документація зі зіставлення SQLite: [» http://sqlite.org/datatype3.md#collation](http://sqlite.org/datatype3.md#collation)

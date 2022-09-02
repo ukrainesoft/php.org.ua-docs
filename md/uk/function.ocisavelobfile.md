@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ocisavelob.html: « ocisavelob
-  - function.ociserverversion.html: ociserverversion »
-  - index.html: PHP Manual
-  - oldaliases.oci8.html: Устаревшие наименования и функции OCI8
+  - function.ocisavelob.md: « ocisavelob
+  - function.ociserverversion.md: ociserverversion »
+  - index.md: PHP Manual
+  - oldaliases.oci8.md: Устаревшие наименования и функции OCI8
 title: ocisavelobfile
 ---
 # ocisavelobfile

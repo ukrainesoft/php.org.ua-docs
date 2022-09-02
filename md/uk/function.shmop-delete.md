@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.shmop-close.html: « shmopclose
-  - function.shmop-open.html: shmopopen »
+  - function.shmop-close.md: « shmopclose
+  - function.shmop-open.md: shmopopen »
   - index.md: PHP Manual
   - ref.shmop.md: 'Пам''ять, що розділяється (shared)'
 title: shmopdelete

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzcompress.html: « gzcompress
-  - function.gzdeflate.html: gzdeflate »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzcompress.md: « gzcompress
+  - function.gzdeflate.md: gzdeflate »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzdecode
 ---
 # gzdecode
@@ -24,7 +24,7 @@ gzdecode(string $data, int $max_length = 0): string|false
 
 `data`
 
-Дані для декодування, закодовані за допомогою [gzencode()](function.gzencode.html)
+Дані для декодування, закодовані за допомогою [gzencode()](function.gzencode.md)
 
 `max_length`
 
@@ -40,4 +40,4 @@ gzdecode(string $data, int $max_length = 0): string|false
 
 ### Дивіться також
 
--   [gzencode()](function.gzencode.html) - Створити стислий рядок gzip
+-   [gzencode()](function.gzencode.md) - Створити стислий рядок gzip

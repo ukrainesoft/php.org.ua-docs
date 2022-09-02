@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.eio-unlink.html: « eiounlink
-  - function.eio-write.html: eiowrite »
-  - index.html: PHP Manual
-  - ref.eio.html: Eio Функции
+  - function.eio-unlink.md: « eiounlink
+  - function.eio-write.md: eiowrite »
+  - index.md: PHP Manual
+  - ref.eio.md: Eio Функции
 title: eioutime
 ---
 # eioutime
@@ -54,7 +54,7 @@ void callback(mixed $data, int $result[, resource $req]);
 
 `req`
 
-є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.html)
+є опціональним запитуваним ресурсом, який може використовуватися з такими функціями як [eiogetlasterror()](function.eio-get-last-error.md)
 
 `data`
 
@@ -66,4 +66,4 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ### Дивіться також
 
--   [eiofutime()](function.eio-futime.html) - Змінює дату та час останньої модифікації та доступу до файлу
+-   [eiofutime()](function.eio-futime.md) - Змінює дату та час останньої модифікації та доступу до файлу

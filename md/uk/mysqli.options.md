@@ -1,6 +1,6 @@
 ---
 navigation:
-  - mysqli.next-result.html: '« mysqli::nextresult'
+  - mysqli.next-result.md: '« mysqli::nextresult'
   - mysqli.ping.md: 'mysqli::ping »'
   - index.md: PHP Manual
   - class.mysqli.md: mysqli

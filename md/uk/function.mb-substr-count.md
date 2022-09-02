@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.mb-substitute-character.html: « mbsubstitutecharacter
-  - function.mb-substr.html: мбsubstr »
-  - index.html: PHP Manual
-  - ref.mbstring.html: Функції для роботи з багатобайтовими рядками
+  - function.mb-substitute-character.md: « mbsubstitutecharacter
+  - function.mb-substr.md: мбsubstr »
+  - index.md: PHP Manual
+  - ref.mbstring.md: Функції для роботи з багатобайтовими рядками
 title: мбsubstrcount
 ---
 # мбsubstrcount
@@ -56,6 +56,6 @@ echo mb_substr_count("Это просто проверка", "то"); // �
 
 ### Дивіться також
 
--   [мбstrpos()](function.mb-strpos.html) - Пошук позиції першого входження одного рядка до іншого
--   [мбsubstr()](function.mb-substr.html) - Повертає частину рядка
--   [substrcount()](function.substr-count.html) - Повертає кількість входжень підрядка
+-   [мбstrpos()](function.mb-strpos.md) - Пошук позиції першого входження одного рядка до іншого
+-   [мбsubstr()](function.mb-substr.md) - Повертає частину рядка
+-   [substrcount()](function.substr-count.md) - Повертає кількість входжень підрядка

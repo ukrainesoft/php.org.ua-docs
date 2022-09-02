@@ -1,7 +1,7 @@
 ---
 navigation:
-  - componere-abstract-definition.getreflector.html: '« ComponereAbstractDefinition::getReflector'
-  - componere-definition.construct.html: 'ComponereDefinition::construct »'
+  - componere-abstract-definition.getreflector.md: '« ComponereAbstractDefinition::getReflector'
+  - componere-definition.construct.md: 'ComponereDefinition::construct »'
   - index.md: PHP Manual
   - book.componere.md: Componere
 title: Клас ComponereDefinition

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - syncreaderwriter.writelock.html: '« SyncReaderWriter::writelock'
-  - class.syncsharedmemory.html: SyncSharedMemory »
-  - index.html: PHP Manual
-  - class.syncreaderwriter.html: SyncReaderWriter
+  - syncreaderwriter.writelock.md: '« SyncReaderWriter::writelock'
+  - class.syncsharedmemory.md: SyncSharedMemory »
+  - index.md: PHP Manual
+  - class.syncreaderwriter.md: SyncReaderWriter
 title: 'SyncReaderWriter::writeunlock'
 ---
 # SyncReaderWriter::writeunlock
@@ -18,7 +18,7 @@ SyncReaderWriter::writeunlock — Знімає блокування запису
 public SyncReaderWriter::writeunlock(): bool
 ```
 
-Знімає блокування запису об'єкта [SyncReaderWriter](class.syncreaderwriter.html)
+Знімає блокування запису об'єкта [SyncReaderWriter](class.syncreaderwriter.md)
 
 ### Список параметрів
 
@@ -43,4 +43,4 @@ $readwrite->writeunlock();
 
 ### Дивіться також
 
--   [SyncReaderWriter::writelock()](syncreaderwriter.writelock.html) - Чекає на ексклюзивне блокування запису
+-   [SyncReaderWriter::writelock()](syncreaderwriter.writelock.md) - Чекає на ексклюзивне блокування запису

@@ -14,8 +14,8 @@ title: Обумовлені константи
 
 | Константа | Описание |
 | --- | --- |
-| **`OCI_ASSOC`** | Використовується функціями [ocifetchall()](function.oci-fetch-all.html) і [ocifetcharray()](function.oci-fetch-array.md) для отримання результатів як асоціативного масиву. |
-| **`OCI_BOTH`** | Використовується функціями [ocifetchall()](function.oci-fetch-all.html) і [ocifetcharray()](function.oci-fetch-array.md) для отримання результатів у вигляді масиву з асоціативними та числовими індексами. |
+| **`OCI_ASSOC`** | Використовується функціями [ocifetchall()](function.oci-fetch-all.md) і [ocifetcharray()](function.oci-fetch-array.md) для отримання результатів як асоціативного масиву. |
+| **`OCI_BOTH`** | Використовується функціями [ocifetchall()](function.oci-fetch-all.md) і [ocifetcharray()](function.oci-fetch-array.md) для отримання результатів у вигляді масиву з асоціативними та числовими індексами. |
 | **`OCI_COMMIT_ON_SUCCESS`** | Режим виконання виразів для [ociexecute()](function.oci-execute.md). Автоматично завершує транзакцію оператором COMMIT у разі успішного виконання виразу. |
 | **`OCI_CRED_EXT`** | Використовується функцією [ociconnect()](function.oci-connect.md) для зовнішньої чи системної аутентифікації. Додано Introduced в PHP 5.3 та PECL OCI8 1.3.4. |
 | **`OCI_DEFAULT`** | Дивіться **`OCI_NO_AUTO_COMMIT`** |
@@ -25,15 +25,15 @@ title: Обумовлені константи
 | **`OCI_FETCHSTATEMENT_BY_ROW`** | Альтернативний режим [ocifetchall()](function.oci-fetch-all.md) |
 | **`OCI_LOB_BUFFER_FREE`** | Використовується функцією [OCILob::flush](ocilob.flush.md) для звільнення буферів, що використовуються. |
 | **`OCI_NO_AUTO_COMMIT`** | Режим виконання виразів для [ociexecute()](function.oci-execute.md). У цьому режимі транзакція автоматично не завершується оператором COMMIT. Для підвищення читання використовуйте в новому коді цю константу замість старої рівносильної константи **`OCI_DEFAULT`**. Додана до PHP 5.3.2 (PECL OCI8 1.4). |
-| **`OCI_NUM`** | Використовується з [ocifetchall()](function.oci-fetch-all.html) і [ocifetcharray()](function.oci-fetch-array.md) для одержання масиву з числовими індексами. |
+| **`OCI_NUM`** | Використовується з [ocifetchall()](function.oci-fetch-all.md) і [ocifetcharray()](function.oci-fetch-array.md) для одержання масиву з числовими індексами. |
 | **`OCI_RETURN_LOBS`** | Використовується [ocifetcharray()](function.oci-fetch-array.md) для отримання об'єкта LOB замість дескриптора. |
 | **`OCI_RETURN_NULLS`** | Використовується з [ocifetcharray()](function.oci-fetch-array.md) для отримання порожніх елементів масиву, якщо відповідне поле в результаті дорівнює **`null`** |
 | **`OCI_SEEK_CUR`** | Використовується [OCILob::seek](ocilob.seek.md) для завдання позиції усунення. |
 | **`OCI_SEEK_END`** | Використовується [OCILob::seek](ocilob.seek.md) для завдання позиції усунення. |
 | **`OCI_SEEK_SET`** | Використовується [OCILob::seek](ocilob.seek.md) для завдання позиції усунення. |
 | **`OCI_SYSDATE`** | Більше не використовується. |
-| **`OCI_SYSDBA`** | Використовується функцією [ociconnect()](function.oci-connect.md) для з'єднання з привілеями SYSOPER. Опція php.ini [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) має бути включена. |
-| **`OCI_SYSOPER`** | Використовується функцією [ociconnect()](function.oci-connect.md) для з'єднання з привілеями SYSOPER. Опція php.ini [oci8.privilegedconnect](oci8.configuration.html#ini.oci8.privileged-connect) має бути включена. |
+| **`OCI_SYSDBA`** | Використовується функцією [ociconnect()](function.oci-connect.md) для з'єднання з привілеями SYSOPER. Опція php.ini [oci8.privilegedconnect](oci8.configuration.md#ini.oci8.privileged-connect) має бути включена. |
+| **`OCI_SYSOPER`** | Використовується функцією [ociconnect()](function.oci-connect.md) для з'єднання з привілеями SYSOPER. Опція php.ini [oci8.privilegedconnect](oci8.configuration.md#ini.oci8.privileged-connect) має бути включена. |
 | **`OCI_TEMP_BLOB`** | Використовується функцією [OCILob::writeTemporary](ocilob.writetemporary.md) для створення тимчасового BLOB. |
 | **`OCI_TEMP_CLOB`** | Використовується функцією [OCILob::writeTemporary](ocilob.writetemporary.md) для створення тимчасового CLOB. |
 
@@ -47,7 +47,7 @@ title: Обумовлені константи
 | **`OCI_B_BOL`** | Використовується функцією [ocibindбname()](function.oci-bind-by-name.md) для прив'язки змінних типу PL/SQL BOOLEAN. |
 | **`OCI_B_CFILEE`** | Використовується функцією [ocibindбname()](function.oci-bind-by-name.md) для прив'язки змінних типу CFILE. |
 | **`OCI_B_CLOB`** | Використовується функцією [ocibindбname()](function.oci-bind-by-name.md) для прив'язки змінних типу CLOB. |
-| **`OCI_B_CURSOR`** | Використовується функцією [ocibindбname()](function.oci-bind-by-name.html) для прив'язки курсорів, раніше отриманих з [ocinewdescriptor()](function.oci-new-descriptor.md) |
+| **`OCI_B_CURSOR`** | Використовується функцією [ocibindбname()](function.oci-bind-by-name.md) для прив'язки курсорів, раніше отриманих з [ocinewdescriptor()](function.oci-new-descriptor.md) |
 | **`OCI_B_INT`** | Використовується функцією [ocibindarrayбname()](function.oci-bind-array-by-name.md) для прив'язування масивів елементів типу INTEGER |
 | **`OCI_B_NTY`** | Використовується функцією [ocibindбname()](function.oci-bind-by-name.md) для прив'язки названих типів даних. Зверніть увагу: у PHP < 5.0 константа називалася **`OCI_B_SQLT_NTY`** |
 | **`OCI_B_NUM`** | Використовується функцією [ocibindarrayбname()](function.oci-bind-array-by-name.md) для прив'язування масивів елементів NUMBER. |
@@ -61,7 +61,7 @@ title: Обумовлені константи
 | **`SQLT_BLOB`** | Те саме, що і **`OCI_B_BLOB`** |
 | **`SQLT_BOL`** | Те саме, що і **`OCI_B_BOL`** |
 | **`SQLT_CFILEE`** | Те саме, що і **`OCI_B_CFILEE`** |
-| **`SQLT_CHR`** | Використовується функцією [ocibindarrayбname()](function.oci-bind-array-by-name.html) для прив'язування масивів з елементами VARCHAR2. Також використовується функцією [ocibindбname()](function.oci-bind-by-name.md) |
+| **`SQLT_CHR`** | Використовується функцією [ocibindarrayбname()](function.oci-bind-array-by-name.md) для прив'язування масивів з елементами VARCHAR2. Також використовується функцією [ocibindбname()](function.oci-bind-by-name.md) |
 | **`SQLT_CLOB`** | Те саме, що і **`OCI_B_CLOB`** |
 | **`SQLT_FLT`** | Використовується функцією [ocibindarrayбname()](function.oci-bind-array-by-name.md) для прив'язування масивів з елементами FLOAT. |
 | **`SQLT_INT`** | Те саме, що і **`OCI_B_INT`** |

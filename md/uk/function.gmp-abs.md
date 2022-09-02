@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ref.gmp.html: « GMP Функції
-  - function.gmp-add.html: gmpadd »
-  - index.html: PHP Manual
-  - ref.gmp.html: GMP Функції
+  - ref.gmp.md: « GMP Функції
+  - function.gmp-add.md: gmpadd »
+  - index.md: PHP Manual
+  - ref.gmp.md: GMP Функції
 title: gmpabs
 ---
 # gmpabs
@@ -24,7 +24,7 @@ gmp_abs(GMP|int|string $num): GMP
 
 `num`
 
-Об'єкт [GMP](class.gmp.html), ціле число (int) або числовий рядок (string).
+Об'єкт [GMP](class.gmp.md), ціле число (int) або числовий рядок (string).
 
 ### Значення, що повертаються
 

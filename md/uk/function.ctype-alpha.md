@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ctype-alnum.html: « ctypealnum
-  - function.ctype-cntrl.html: ctypecntrl »
+  - function.ctype-alnum.md: « ctypealnum
+  - function.ctype-cntrl.md: ctypecntrl »
   - index.md: PHP Manual
   - ref.ctype.md: Опції Ctype
 title: ctypealpha

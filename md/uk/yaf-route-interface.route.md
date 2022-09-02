@@ -1,9 +1,9 @@
 ---
 navigation:
-  - yaf-route-interface.assemble.html: '« YafRouteInterface::assemble'
-  - class.yaf-route-map.html: YafRouteMap »
+  - yaf-route-interface.assemble.md: '« YafRouteInterface::assemble'
+  - class.yaf-route-map.md: YafRouteMap »
   - index.md: PHP Manual
-  - class.yaf-route-interface.html: YafRouteInterface
+  - class.yaf-route-interface.md: YafRouteInterface
 title: 'YafRouteInterface::route'
 ---
 # YafRouteInterface::route
@@ -26,7 +26,7 @@ abstract public Yaf_Route_Interface::route(Yaf_Request_Abstract $request): bool
 
 Якщо метод повертає **`true`**, Тоді процес маршруту буде завершено. В іншому випадку [YafRouter](class.yaf-router.md) Викликає наступний маршрут у стеку маршрутів для запиту маршруту.
 
-Цей метод встановить результат маршруту для запиту параметра, викликавши [YafRequestAbstract::setControllerName()](yaf-request-abstract.setcontrollername.html) [YafRequestAbstract::setActionName()](yaf-request-abstract.setactionname.html) і [YafRequestAbstract::setModuleName()](yaf-request-abstract.setmodulename.md)
+Цей метод встановить результат маршруту для запиту параметра, викликавши [YafRequestAbstract::setControllerName()](yaf-request-abstract.setcontrollername.md) [YafRequestAbstract::setActionName()](yaf-request-abstract.setactionname.md) і [YafRequestAbstract::setModuleName()](yaf-request-abstract.setmodulename.md)
 
 Метод повинен також викликати [YafRequestAbstract::setRouted()](yaf-request-abstract.setrouted.md)щоб запит нарешті був перенаправлений.
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ui-executor.construct.html: '« UIExecutor::construct'
-  - ui-executor.onexecute.html: 'ОЙExecutor::onExecute »'
-  - index.html: PHP Manual
-  - class.ui-executor.html: ОЙExecutor
+  - ui-executor.construct.md: '« UIExecutor::construct'
+  - ui-executor.onexecute.md: 'ОЙExecutor::onExecute »'
+  - index.md: PHP Manual
+  - class.ui-executor.md: ОЙExecutor
 title: 'ОЙExecutor::kill'
 ---
 # ОЙExecutor::kill

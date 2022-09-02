@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.ftp-rename.html: « ftprename
-  - function.ftp-set-option.html: ftpsetoption »
+  - function.ftp-rename.md: « ftprename
+  - function.ftp-set-option.md: ftpsetoption »
   - index.md: PHP Manual
   - ref.ftp.md: Функції FTP
 title: ftprmdir

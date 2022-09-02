@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ftp-alloc.html: « ftpalloc
-  - function.ftp-cdup.html: ftpcdup »
-  - index.html: PHP Manual
-  - ref.ftp.html: Функції FTP
+  - function.ftp-alloc.md: « ftpalloc
+  - function.ftp-cdup.md: ftpcdup »
+  - index.md: PHP Manual
+  - ref.ftp.md: Функції FTP
 title: ftpappend
 ---
 # ftpappend
@@ -42,4 +42,4 @@ ftp_append(    FTP\Connection $ftp,    string $remote_filename,    s
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ftp` тепер чекає екземпляр [FTPConnection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |

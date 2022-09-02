@@ -1,9 +1,9 @@
 ---
 navigation:
-  - xmlwriter.writecdata.html: '« XMLWriter::writeCdata'
-  - xmlwriter.writedtd.html: 'XMLWriter::writeDtd »'
-  - index.html: PHP Manual
-  - class.xmlwriter.html: XMLWriter
+  - xmlwriter.writecdata.md: '« XMLWriter::writeCdata'
+  - xmlwriter.writedtd.md: 'XMLWriter::writeDtd »'
+  - index.md: PHP Manual
+  - class.xmlwriter.md: XMLWriter
 title: 'XMLWriter::writeComment'
 ---
 # XMLWriter::writeComment
@@ -34,7 +34,7 @@ xmlwriter_write_comment(XMLWriter $writer, string $content): bool
 
 `writer`
 
-Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.html). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.html) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
+Тільки для процедурних дзвінків. Змінний екземпляр [XMLWriter](class.xmlwriter.md). Об'єкт повертається з дзвінка [xmlwriteropenuri()](xmlwriter.openuri.md) або [xmlwriteropenmemory()](xmlwriter.openmemory.md)
 
 `content`
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.getcolumnname.html: '« ColumnResult::getColumnName'
-  - mysql-xdevapi-columnresult.getlength.html: 'ColumnResult::getLength »'
+  - mysql-xdevapi-columnresult.getcolumnname.md: '« ColumnResult::getColumnName'
+  - mysql-xdevapi-columnresult.getlength.md: 'ColumnResult::getLength »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::getFractionalDigits'
 ---
 # ColumnResult::getFractionalDigits

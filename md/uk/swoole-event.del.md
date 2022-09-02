@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-event.defer.html: '« SwooleEvent::defer'
-  - swoole-event.exit.html: 'SwooleEvent::exit »'
+  - swoole-event.defer.md: '« SwooleEvent::defer'
+  - swoole-event.exit.md: 'SwooleEvent::exit »'
   - index.md: PHP Manual
-  - class.swoole-event.html: SwooleEvent
+  - class.swoole-event.md: SwooleEvent
 title: 'SwooleEvent::del'
 ---
 # SwooleEvent::del

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.tidy-warning-count.html: « tidywarningcount
+  - function.tidy-warning-count.md: « tidywarningcount
   - intro.tokenizer.md: Введение »
   - index.md: PHP Manual
   - refs.basic.other.md: Інші базові модулі

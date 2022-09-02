@@ -1,9 +1,9 @@
 ---
 navigation:
-  - class.vtiful-kernel-excel.html: « VtifulKernelExcel
-  - vtiful-kernel-excel.autoFilter.html: 'VtifulKernelExcel::autoFilter »'
-  - index.html: PHP Manual
-  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+  - class.vtiful-kernel-excel.md: « VtifulKernelExcel
+  - vtiful-kernel-excel.autoFilter.md: 'VtifulKernelExcel::autoFilter »'
+  - index.md: PHP Manual
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
 title: 'VtifulKernelExcel::addSheet'
 ---
 # VtifulKernelExcel::addSheet
@@ -28,7 +28,7 @@ public Vtiful\Kernel\Excel::addSheet(string $sheetName)
 
 ### Значення, що повертаються
 
-Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.html)
+Екземпляр [VtifulKernelExcel](class.vtiful-kernel-excel.md)
 
 ### Приклади
 

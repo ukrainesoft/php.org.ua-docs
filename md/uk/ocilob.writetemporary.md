@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ocilob.write.html: '« OCILob::write'
-  - ocilob.writetofile.html: 'OCILob::writeToFile »'
-  - index.html: PHP Manual
-  - class.ocilob.html: OCILob
+  - ocilob.write.md: '« OCILob::write'
+  - ocilob.writetofile.md: 'OCILob::writeToFile »'
+  - index.md: PHP Manual
+  - class.ocilob.md: OCILob
 title: 'OCILob::writeTemporary'
 ---
 # OCILob::writeTemporary

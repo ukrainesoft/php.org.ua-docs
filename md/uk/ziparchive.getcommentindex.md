@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ziparchive.getarchivecomment.html: '« ZipArchive::getArchiveComment'
-  - ziparchive.getcommentname.html: 'ZipArchive::getCommentName »'
-  - index.html: PHP Manual
-  - class.ziparchive.html: ZipArchive
+  - ziparchive.getarchivecomment.md: '« ZipArchive::getArchiveComment'
+  - ziparchive.getcommentname.md: 'ZipArchive::getCommentName »'
+  - index.md: PHP Manual
+  - class.ziparchive.md: ZipArchive
 title: 'ZipArchive::getCommentIndex'
 ---
 # ZipArchive::getCommentIndex

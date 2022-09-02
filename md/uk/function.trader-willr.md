@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.trader-wclprice.html: « traderwclprice
-  - function.trader-wma.html: traderwma »
-  - index.html: PHP Manual
-  - ref.trader.html: Функции Trader
+  - function.trader-wclprice.md: « traderwclprice
+  - function.trader-wma.md: traderwma »
+  - index.md: PHP Manual
+  - ref.trader.md: Функции Trader
 title: traderwillr
 ---
 # traderwillr

@@ -1,7 +1,7 @@
 ---
 navigation:
   - function.chr.md: « chr
-  - function.convert-cyr-string.html: convertcyrstring »
+  - function.convert-cyr-string.md: convertcyrstring »
   - index.md: PHP Manual
   - ref.strings.md: Функції для роботи з рядками
 title: chunksplit

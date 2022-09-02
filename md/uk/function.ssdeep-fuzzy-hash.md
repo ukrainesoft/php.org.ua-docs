@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ssdeep-fuzzy-hash-filename.html: « ssdeepfuzzyhashfilename
-  - book.strings.html: Рядки »
-  - index.html: PHP Manual
-  - ref.ssdeep.html: Функції ssdeep
+  - function.ssdeep-fuzzy-hash-filename.md: « ssdeepfuzzyhashfilename
+  - book.strings.md: Рядки »
+  - index.md: PHP Manual
+  - ref.ssdeep.md: Функції ssdeep
 title: ssdeepfuzzyhash
 ---
 # ssdeepfuzzyhash

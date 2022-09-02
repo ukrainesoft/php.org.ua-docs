@@ -1,9 +1,9 @@
 ---
 navigation:
-  - migration73.deprecated.html: '« Функціонал, оголошений застарілим у PHP 7.3.x'
-  - migration73.windows-support.html: Поддержка Windows »
-  - index.html: PHP Manual
-  - migration73.html: Миграция с PHP 7.2.x на PHP 7.3.x
+  - migration73.deprecated.md: '« Функціонал, оголошений застарілим у PHP 7.3.x'
+  - migration73.windows-support.md: Поддержка Windows »
+  - index.md: PHP Manual
+  - migration73.md: Миграция с PHP 7.2.x на PHP 7.3.x
 title: Інші зміни
 ---
 ## Інші зміни
@@ -12,7 +12,7 @@ title: Інші зміни
 
 #### Функція set(raw)cookie приймає аргумент $option
 
-Функції [setcookie()](function.setcookie.html) і [setrawcookie()](function.setrawcookie.html) тепер також підтримують таке оголошення (сигнатуру):
+Функції [setcookie()](function.setcookie.md) і [setrawcookie()](function.setrawcookie.md) тепер також підтримують таке оголошення (сигнатуру):
 
 ```methodsynopsis
 setcookie(string $name, string $value = "", array $options = []): bool
@@ -22,31 +22,31 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 #### Нові ini-директиви syslog
 
-Наступні ini-директиви додані для налаштування логування, якщо для опції [errorlog](errorfunc.configuration.html#ini.error-log) встановлено значення `syslog`
+Наступні ini-директиви додані для налаштування логування, якщо для опції [errorlog](errorfunc.configuration.md#ini.error-log) встановлено значення `syslog`
 
-[syslog.facility](errorfunc.configuration.html#ini.syslog.facility)
+[syslog.facility](errorfunc.configuration.md#ini.syslog.facility)
 
 Вказує тип програми, яка реєструє повідомлення.
 
-[syslog.filter](errorfunc.configuration.html#ini.syslog.filter)
+[syslog.filter](errorfunc.configuration.md#ini.syslog.filter)
 
-Задає тип фільтра для фільтрації повідомлень з типами фільтрів, що підтримуються - `all` `no-ctrl` і `ascii`. Починаючи з PHP 7.3.8, також доступний тип `raw`, що відновлює поведінку системного журналу у попередніх версіях PHP. Цей фільтр також вплине на дзвінки [syslog()](function.syslog.html)
+Задає тип фільтра для фільтрації повідомлень з типами фільтрів, що підтримуються - `all` `no-ctrl` і `ascii`. Починаючи з PHP 7.3.8, також доступний тип `raw`, що відновлює поведінку системного журналу у попередніх версіях PHP. Цей фільтр також вплине на дзвінки [syslog()](function.syslog.md)
 
-[syslog.ident](errorfunc.configuration.html#ini.syslog.ident)
+[syslog.ident](errorfunc.configuration.md#ini.syslog.ident)
 
 Задає рядок ident, який додається перед кожним повідомленням.
 
 #### Складальник сміття
 
-Поліпшено [збір циклічних посилань](features.gc.collecting-cycles.html)що може призвести до значних покращень продуктивності.
+Поліпшено [збір циклічних посилань](features.gc.collecting-cycles.md)що може призвести до значних покращень продуктивності.
 
 #### Різне
 
-Функція [varexport()](function.var-export.html) тепер експортує об'єкти **stdClass** як масив, приведений до об'єкта (`(object) array( ... )`), замість використання неіснуючого методу **stdClass::setState()**
+Функція [varexport()](function.var-export.md) тепер експортує об'єкти **stdClass** як масив, приведений до об'єкта (`(object) array( ... )`), замість використання неіснуючого методу **stdClass::setState()**
 
-Функція [debugzvaldump()](function.debug-zval-dump.html) змінена для відображення рекурсивних масивів та об'єктів так само, як і [vardump()](function.var-dump.html). Тепер вона не відображає їх двічі.
+Функція [debugzvaldump()](function.debug-zval-dump.md) змінена для відображення рекурсивних масивів та об'єктів так само, як і [vardump()](function.var-dump.md). Тепер вона не відображає їх двічі.
 
-Функції [arraypush()](function.array-push.html) і [arrayunshift()](function.array-unshift.html) тепер також можуть бути викликані одним аргументом, що особливо зручно в поєднанні з оператором поширення.
+Функції [arraypush()](function.array-push.md) і [arrayunshift()](function.array-unshift.md) тепер також можуть бути викликані одним аргументом, що особливо зручно в поєднанні з оператором поширення.
 
 ### Інтерактивний відладчик PHP
 
@@ -54,7 +54,7 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ### Менеджер процесів FastCGI
 
-Тепер також доступна функція [getallheaders()](function.getallheaders.html)
+Тепер також доступна функція [getallheaders()](function.getallheaders.md)
 
 ### Бібліотека Client URL (cURL)
 
@@ -74,11 +74,11 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 Константа **`Normalizer::NONE`** оголошена застарілою, коли PHP скомпільовано з ICU версії ≥ 56.
 
-Введено константу **`Normalizer::FORM_KC_CF`** як аргумент [Normalizer::normalize()](normalizer.normalize.html) для нормалізації `NFKC_Casefold`; доступна, коли є ICU ≥56.
+Введено константу **`Normalizer::FORM_KC_CF`** як аргумент [Normalizer::normalize()](normalizer.normalize.md) для нормалізації `NFKC_Casefold`; доступна, коли є ICU ≥56.
 
 ### Об'єктна нотація JavaScript (JSON)
 
-Доданий новий прапор **`JSON_THROW_ON_ERROR`**, який можна використовувати з [jsondecode()](function.json-decode.html) або [jsonencode()](function.json-encode.html) і змушує ці функції викидати новий виняток [JsonException](class.jsonexception.html) у разі виникнення помилки, замість того, щоб встановлювати глобальний стан помилки, який вилучається за допомогою [jsonlasterror()](function.json-last-error.html) і [jsonlasterrormsg()](function.json-last-error-msg.html). . **`JSON_PARTIAL_OUTPUT_ON_ERROR`** має пріоритет над **`JSON_THROW_ON_ERROR`**
+Доданий новий прапор **`JSON_THROW_ON_ERROR`**, який можна використовувати з [jsondecode()](function.json-decode.md) або [jsonencode()](function.json-encode.md) і змушує ці функції викидати новий виняток [JsonException](class.jsonexception.md) у разі виникнення помилки, замість того, щоб встановлювати глобальний стан помилки, який вилучається за допомогою [jsonlasterror()](function.json-last-error.md) і [jsonlasterrormsg()](function.json-last-error-msg.md). . **`JSON_PARTIAL_OUTPUT_ON_ERROR`** має пріоритет над **`JSON_THROW_ON_ERROR`**
 
 ### Мультибайтові рядки
 
@@ -98,9 +98,9 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ### Регулярні вирази (сумісні з Perl)
 
-[Модуль PCRE](book.pcre.html) було оновлено до PCRE2, що може призвести до незначних змін у поведінці (наприклад, діапазони символів у класах тепер інтерпретуються суворіше) і доповнює існуючий синтаксис регулярних виразів.
+[Модуль PCRE](book.pcre.md) було оновлено до PCRE2, що може призвести до незначних змін у поведінці (наприклад, діапазони символів у класах тепер інтерпретуються суворіше) і доповнює існуючий синтаксис регулярних виразів.
 
-Функція [pregquote()](function.preg-quote.html) тепер також екранує символ `'#'`
+Функція [pregquote()](function.preg-quote.md) тепер також екранує символ `'#'`
 
 ### Microsoft SQL Server та функції Sybase (PDODBLIB)
 
@@ -116,21 +116,21 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ### Обробка сесій
 
-Функція [sessionsetcookieparams()](function.session-set-cookie-params.html) тепер також підтримує таке оголошення (сигнатуру):
+Функція [sessionsetcookieparams()](function.session-set-cookie-params.md) тепер також підтримує таке оголошення (сигнатуру):
 
 ```methodsynopsis
 session_set_cookie_params(array $options): bool
 ```
 
-де `$options` - асоціативний масив, який може мати будь-який із ключів `"lifetime"` `"path"` `"domain"` `"secure"` `"httponly"` і `"samesite"`. Відповідно, значення, що повертається [sessiongetcookieparams()](function.session-get-cookie-params.html) тепер також має елемент із ключем `"samesite"`. Крім того, нова ini-опція `session.cookie_samesite` для встановлення за промовчанням директиви SameSite для cookies. За замовчуванням використовується значення `""` (порожній рядок), тому директива SameSite не вказана. Може бути встановлена ​​на значення `"Lax"` або `"Strict"`, яке встановлює відповідне значення директиви SameSite.
+де `$options` - асоціативний масив, який може мати будь-який із ключів `"lifetime"` `"path"` `"domain"` `"secure"` `"httponly"` і `"samesite"`. Відповідно, значення, що повертається [sessiongetcookieparams()](function.session-get-cookie-params.md) тепер також має елемент із ключем `"samesite"`. Крім того, нова ini-опція `session.cookie_samesite` для встановлення за промовчанням директиви SameSite для cookies. За замовчуванням використовується значення `""` (порожній рядок), тому директива SameSite не вказана. Може бути встановлена ​​на значення `"Lax"` або `"Strict"`, яке встановлює відповідне значення директиви SameSite.
 
 ### Tidy
 
-Складання разом [» tidyp](https://github.com/petdance/tidyp) Тепер також підтримується прозоро. Оскільки tidyp не пропонує API для отримання дати релізу, [tidygetrelease()](tidy.getrelease.html) і [tidy::getRelease()](tidy.getrelease.html) повертає значення `'unknown'` в цьому випадку.
+Складання разом [» tidyp](https://github.com/petdance/tidyp) Тепер також підтримується прозоро. Оскільки tidyp не пропонує API для отримання дати релізу, [tidygetrelease()](tidy.getrelease.md) і [tidy::getRelease()](tidy.getrelease.md) повертає значення `'unknown'` в цьому випадку.
 
 ### XML-парсер
 
-Значення callback-функції, що повертається [xmlsetexternalentityrefhandler()](function.xml-set-external-entity-ref-handler.html) більше не ігнорується, якщо модуль був зібраний із бібліотекою libxml. Раніше значення, що поверталося, ігнорувалося, а парсинг ніколи не припинявся.
+Значення callback-функції, що повертається [xmlsetexternalentityrefhandler()](function.xml-set-external-entity-ref-handler.md) більше не ігнорується, якщо модуль був зібраний із бібліотекою libxml. Раніше значення, що поверталося, ігнорувалося, а парсинг ніколи не припинявся.
 
 ### Zip
 
@@ -138,4 +138,4 @@ session_set_cookie_params(array $options): bool
 
 ### Стиснення Zlib
 
-Додано параметр контексту zlib/level для [обёртки compress.zlib](wrappers.compression.html), щоб полегшити встановлення бажаного рівня стиснення.
+Додано параметр контексту zlib/level для [обёртки compress.zlib](wrappers.compression.md), щоб полегшити встановлення бажаного рівня стиснення.

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.gzopen.html: « gzopen
-  - function.gzputs.html: gzputs »
-  - index.html: PHP Manual
-  - ref.zlib.html: Функции Zlib
+  - function.gzopen.md: « gzopen
+  - function.gzputs.md: gzputs »
+  - index.md: PHP Manual
+  - ref.zlib.md: Функции Zlib
 title: gzpassthru
 ---
 # gzpassthru
@@ -22,17 +22,17 @@ gzpassthru(resource $stream): int
 
 > **Зауваження**
 > 
-> Використовуйте [gzrewind()](function.gzrewind.html), щоб перемістити вказівник на позицію на початок файлу, якщо ви вже записували дані до нього.
+> Використовуйте [gzrewind()](function.gzrewind.md), щоб перемістити вказівник на позицію на початок файлу, якщо ви вже записували дані до нього.
 
 **Підказка**
 
-Якщо потрібно просто вивести вміст файлу без переміщення вказівника на позицію або внесення змін, використовуйте функцію [readgzfile()](function.readgzfile.html), яка не вимагає виклику функції [gzopen()](function.gzopen.html)
+Якщо потрібно просто вивести вміст файлу без переміщення вказівника на позицію або внесення змін, використовуйте функцію [readgzfile()](function.readgzfile.md), яка не вимагає виклику функції [gzopen()](function.gzopen.md)
 
 ### Список параметрів
 
 `stream`
 
-Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.html)
+Вказівник на gz-файл, повернутий після його успішного відкриття функцією [gzopen()](function.gzopen.md)
 
 ### Значення, що повертаються
 

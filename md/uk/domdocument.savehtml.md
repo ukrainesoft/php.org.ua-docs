@@ -1,9 +1,9 @@
 ---
 navigation:
-  - domdocument.save.html: '« DOMDocument::save'
-  - domdocument.savehtmlfile.html: 'DOMDocument::saveHTMLFile »'
-  - index.html: PHP Manual
-  - class.domdocument.html: DOMDocument
+  - domdocument.save.md: '« DOMDocument::save'
+  - domdocument.savehtmlfile.md: 'DOMDocument::saveHTMLFile »'
+  - index.md: PHP Manual
+  - class.domdocument.md: DOMDocument
 title: 'DOMDocument::saveHTML'
 ---
 # DOMDocument::saveHTML
@@ -58,6 +58,6 @@ echo $doc->saveHTML();
 
 ### Дивіться також
 
--   [DOMDocument::saveHTMLFile()](domdocument.savehtmlfile.html) - Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
--   [DOMDocument::loadHTML()](domdocument.loadhtml.html) - Завантаження HTML з рядка
--   [DOMDocument::loadHTMLFile()](domdocument.loadhtmlfile.html) - Завантаження HTML із файлу
+-   [DOMDocument::saveHTMLFile()](domdocument.savehtmlfile.md) - Зберігає документ із внутрішнього подання до файлу, використовуючи форматування HTML
+-   [DOMDocument::loadHTML()](domdocument.loadhtml.md) - Завантаження HTML з рядка
+-   [DOMDocument::loadHTMLFile()](domdocument.loadhtmlfile.md) - Завантаження HTML із файлу

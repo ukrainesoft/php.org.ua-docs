@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.dio-truncate.html: « diotruncate
-  - book.dir.html: Каталоги »
-  - index.html: PHP Manual
-  - ref.dio.html: Функції прямого введення/виводу
+  - function.dio-truncate.md: « diotruncate
+  - book.dir.md: Каталоги »
+  - index.md: PHP Manual
+  - ref.dio.md: Функції прямого введення/виводу
 title: diowrite
 ---
 # diowrite
@@ -24,7 +24,7 @@ dio_write(resource $fd, string $data, int $len = 0): int
 
 `fd`
 
-Файловий дескриптор, отриманий з [dioopen()](function.dio-open.html)
+Файловий дескриптор, отриманий з [dioopen()](function.dio-open.md)
 
 `data`
 
@@ -40,4 +40,4 @@ dio_write(resource $fd, string $data, int $len = 0): int
 
 ### Дивіться також
 
--   [dioread()](function.dio-read.html) - Прочитай байти із файлового дескриптора
+-   [dioread()](function.dio-read.md) - Прочитай байти із файлового дескриптора

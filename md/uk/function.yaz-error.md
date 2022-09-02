@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.yaz-errno.html: « yazerrno
-  - function.yaz-es-result.html: yazесresult »
-  - index.html: PHP Manual
-  - ref.yaz.html: Функции YAZ
+  - function.yaz-errno.md: « yazerrno
+  - function.yaz-es-result.md: yazесresult »
+  - index.md: PHP Manual
+  - ref.yaz.md: Функции YAZ
 title: yazerror
 ---
 # yazerror

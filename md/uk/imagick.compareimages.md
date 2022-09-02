@@ -28,7 +28,7 @@ public Imagick::compareImages(Imagick $compare, int $metric): array
 
 `metric`
 
-Вкажіть допустиму константу типу метрики. Дивіться список [констант метрики](imagick.constants.html#imagick.constants.metric)
+Вкажіть допустиму константу типу метрики. Дивіться список [констант метрики](imagick.constants.md#imagick.constants.metric)
 
 ### Значення, що повертаються
 

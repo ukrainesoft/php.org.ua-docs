@@ -1,9 +1,9 @@
 ---
 navigation:
-  - phar.installation.html: « Установка
-  - phar.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - phar.setup.html: Встановлення та налаштування
+  - phar.installation.md: « Установка
+  - phar.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - phar.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання
@@ -14,15 +14,15 @@ title: Налаштування під час виконання
 
 | Имя | По умолчанию | Место изменения | Список изменений |
 | --- | --- | --- | --- |
-| [phar.readonly](phar.configuration.html#ini.phar.readonly) | "1" | PHPINIALL |  |
-| [phar.requirehash](phar.configuration.html#ini.phar.require-hash) | "1" | PHPINIALL |  |
-| [phar.cachelist](phar.configuration.html#ini.phar.cache-list) | "" | PHPINISYSTEM |  |
+| [phar.readonly](phar.configuration.md#ini.phar.readonly) | "1" | PHPINIALL |  |
+| [phar.requirehash](phar.configuration.md#ini.phar.require-hash) | "1" | PHPINIALL |  |
+| [phar.cachelist](phar.configuration.md#ini.phar.cache-list) | "" | PHPINISYSTEM |  |
 
 Коротке пояснення конфігураційних директив.
 
 `phar.readonly` bool
 
-Цей параметр вимикає підтримку створення або модифікації Phar-архівів за допомогою потоку `phar` та записи об'єктів [Phar](class.phar.html) на диск. Цей параметр завжди повинен бути увімкнений на робочих машинах, оскільки підтримка запису модулем phar дозволила б просте створення, заснованих на PHP, вірусів у разі присутності інших уразливостей у системі загальної безпеки.
+Цей параметр вимикає підтримку створення або модифікації Phar-архівів за допомогою потоку `phar` та записи об'єктів [Phar](class.phar.md) на диск. Цей параметр завжди повинен бути увімкнений на робочих машинах, оскільки підтримка запису модулем phar дозволила б просте створення, заснованих на PHP, вірусів у разі присутності інших уразливостей у системі загальної безпеки.
 
 > **Зауваження**
 > 
@@ -36,7 +36,7 @@ title: Налаштування під час виконання
 > 
 > Цей параметр може бути вимкнений у php.ini. Якщо параметр `phar.require_hash` відключений у php.ini, користувач може увімкнути `phar.require_hash` у скрипті або вимкнути його пізніше. Якщо параметр `phar.require_hash` включений у php.ini, скрипт може нешкідливо "повторно включити" змінну INI, але може відключити її.
 > 
-> Цей параметр не впливає на читання простих tar-файлів за допомогою класу [PharData](class.phardata.html)
+> Цей параметр не впливає на читання простих tar-файлів за допомогою класу [PharData](class.phardata.md)
 
 **Застереження**
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-table.insert.html: '« Table::insert'
-  - mysql-xdevapi-table.select.html: 'Table::select »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-table.html: mysqlxdevapiTable
+  - mysql-xdevapi-table.insert.md: '« Table::insert'
+  - mysql-xdevapi-table.select.md: 'Table::select »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-table.md: mysqlxdevapiTable
 title: 'Table::isView'
 ---
 # Table::isView

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.curl-share-setopt.html: « curlsharesetopt
-  - function.curl-strerror.html: curlstrerror »
+  - function.curl-share-setopt.md: « curlsharesetopt
+  - function.curl-strerror.md: curlstrerror »
   - index.md: PHP Manual
   - ref.curl.md: Функции cURL
 title: curlsharestrerror

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.enchant-dict-add-to-personal.html: « enchantdictaddтоpersonal
-  - function.enchant-dict-add.html: enchantdictadd »
+  - function.enchant-dict-add-to-personal.md: « enchantdictaddтоpersonal
+  - function.enchant-dict-add.md: enchantdictadd »
   - index.md: PHP Manual
   - ref.enchant.md: Функции Enchant
 title: enchantdictaddтоsession
@@ -24,7 +24,7 @@ enchant_dict_add_to_session(EnchantDictionary $dictionary, string $word): void
 
 `dictionary`
 
-Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.html) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
+Словник Enchant, що повертається [enchantbrokerrequestdict()](function.enchant-broker-request-dict.md) або [enchantbrokerrequestpwldict()](function.enchant-broker-request-pwl-dict.md)
 
 `word`
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - ffi.examples-complete.html: « Комплексний приклад PHP/FFI/preloading
+  - ffi.examples-complete.md: « Комплексний приклад PHP/FFI/preloading
   - ffi.addr.md: 'FFI::addr »'
   - index.md: PHP Manual
   - book.ffi.md: FFI

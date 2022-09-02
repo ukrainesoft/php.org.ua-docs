@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.openssl-csr-new.html: « opensslcsrnew
-  - function.openssl-decrypt.html: openssldecrypt »
-  - index.html: PHP Manual
-  - ref.openssl.html: Функции OpenSSL
+  - function.openssl-csr-new.md: « opensslcsrnew
+  - function.openssl-decrypt.md: openssldecrypt »
+  - index.md: PHP Manual
+  - ref.openssl.md: Функции OpenSSL
 title: opensslcsrsign
 ---
 # opensslcsrsign
@@ -20,13 +20,13 @@ openssl_csr_sign(    OpenSSLCertificateSigningRequest|string $csr,    Op
 
 **opensslcsrsign()** створює сертифікат x509 із заданого CSR.
 
-> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.html)
+> **Зауваження**: Для коректної роботи цієї функції має бути правильний openssl.cnf. Для більш детальної інформації дивіться зауваження під [разделом установки](openssl.installation.md)
 
 ### Список параметрів
 
 `csr`
 
-Створений за допомогою [opensslcsrnew()](function.openssl-csr-new.html) CSR. Також може бути шляхом кодованого в PEM CSR, якщо задано як file://path/to/csr або експортованим рядком, створеним за допомогою [opensslcsrexport()](function.openssl-csr-export.html)
+Створений за допомогою [opensslcsrnew()](function.openssl-csr-new.md) CSR. Також може бути шляхом кодованого в PEM CSR, якщо задано як file://path/to/csr або експортованим рядком, створеним за допомогою [opensslcsrexport()](function.openssl-csr-export.md)
 
 `ca_certificate`
 
@@ -42,7 +42,7 @@ openssl_csr_sign(    OpenSSLCertificateSigningRequest|string $csr,    Op
 
 `options`
 
-Можна тонко налаштувати підпис CSR за допомогою `options`. Подробиці дивіться в описі функції [opensslcsrnew()](function.openssl-csr-new.html), у розділі присвяченому параметру `options`
+Можна тонко налаштувати підпис CSR за допомогою `options`. Подробиці дивіться в описі функції [opensslcsrnew()](function.openssl-csr-new.md), у розділі присвяченому параметру `options`
 
 `serial`
 
@@ -50,16 +50,16 @@ openssl_csr_sign(    OpenSSLCertificateSigningRequest|string $csr,    Op
 
 ### Значення, що повертаються
 
-Повертає [OpenSSLCertificate](class.opensslcertificate.html) у разі успішного виконання або **`false`** у разі виникнення помилки.
+Повертає [OpenSSLCertificate](class.opensslcertificate.md) у разі успішного виконання або **`false`** у разі виникнення помилки.
 
 ### список змін
 
 | Версия | Описание |
 | --- | --- |
-|  | On success, this function returns an [OpenSSLCertificate](class.opensslcertificate.html) instance now; previously, a [resource](language.types.resource.html) of type `OpenSSL X.509` був returned. |
-|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
-|  | `ca_certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
-|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.html); раніше приймався ресурс ([resource](language.types.resource.html)) типу `OpenSSL X.509 CSR` |
+|  | On success, this function returns an [OpenSSLCertificate](class.opensslcertificate.md) instance now; previously, a [resource](language.types.resource.md) of type `OpenSSL X.509` був returned. |
+|  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+|  | `ca_certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
+|  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL X.509 CSR` |
 
 ### Приклади
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-collectionfind.construct.html: '« CollectionFind::construct'
-  - mysql-xdevapi-collectionfind.fields.html: 'CollectionFind::fields »'
+  - mysql-xdevapi-collectionfind.construct.md: '« CollectionFind::construct'
+  - mysql-xdevapi-collectionfind.fields.md: 'CollectionFind::fields »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-collectionfind.html: mysqlxdevapiCollectionFind
+  - class.mysql-xdevapi-collectionfind.md: mysqlxdevapiCollectionFind
 title: 'CollectionFind::execute'
 ---
 # CollectionFind::execute

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-columnresult.gettype.html: '« ColumnResult::getType'
-  - mysql-xdevapi-columnresult.ispadded.html: 'ColumnResult::isPadded »'
+  - mysql-xdevapi-columnresult.gettype.md: '« ColumnResult::getType'
+  - mysql-xdevapi-columnresult.ispadded.md: 'ColumnResult::isPadded »'
   - index.md: PHP Manual
-  - class.mysql-xdevapi-columnresult.html: mysqlxdevapiColumnResult
+  - class.mysql-xdevapi-columnresult.md: mysqlxdevapiColumnResult
 title: 'ColumnResult::isNumberSigned'
 ---
 # ColumnResult::isNumberSigned

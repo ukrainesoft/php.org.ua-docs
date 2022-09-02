@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.fastcgi-finish-request.html: « fastcgifinishrequest
+  - function.fastcgi-finish-request.md: « fastcgifinishrequest
   - refs.basic.session.md: Модулі для роботи із сесіями »
   - index.md: PHP Manual
   - ref.fpm.md: Функції FPM

@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.eio-futime.html: « eiofutime
-  - function.eio-get-last-error.html: eiogetlasterror »
+  - function.eio-futime.md: « eiofutime
+  - function.eio-get-last-error.md: eiogetlasterror »
   - index.md: PHP Manual
   - ref.eio.md: Eio Функции
 title: eiogeteventstream

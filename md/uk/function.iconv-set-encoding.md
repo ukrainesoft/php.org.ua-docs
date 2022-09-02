@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.iconv-mime-encode.html: « iconvmimeencode
-  - function.iconv-strlen.html: iconvstrlen »
+  - function.iconv-mime-encode.md: « iconvmimeencode
+  - function.iconv-strlen.md: iconvstrlen »
   - index.md: PHP Manual
   - ref.iconv.md: Функции iconv
 title: iconvsetencoding

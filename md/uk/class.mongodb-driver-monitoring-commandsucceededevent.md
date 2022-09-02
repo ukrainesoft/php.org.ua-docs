@@ -1,7 +1,7 @@
 ---
 navigation:
-  - mongodb-driver-monitoring-commandstartedevent.getserviceid.html: '« MongoDBDriverMonitoringCommandStartedEvent::getServiceId'
-  - mongodb-driver-monitoring-commandsucceededevent.getcommandname.html: 'MongoDBDriverMonitoringCommandSucceededEvent::getCommandName »'
+  - mongodb-driver-monitoring-commandstartedevent.getserviceid.md: '« MongoDBDriverMonitoringCommandStartedEvent::getServiceId'
+  - mongodb-driver-monitoring-commandsucceededevent.getcommandname.md: 'MongoDBDriverMonitoringCommandSucceededEvent::getCommandName »'
   - index.md: PHP Manual
   - mongodb.monitoring.md: MongoDBDriverMonitoring
 title: Клас MongoDBDriverMonitoringCommandSucceedEvent

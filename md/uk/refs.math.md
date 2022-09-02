@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.mailparse-uudecode-all.html: « mailparseuudecodeall
+  - function.mailparse-uudecode-all.md: « mailparseuudecodeall
   - book.bc.md: BC Math »
   - index.md: PHP Manual
   - funcref.md: Справочник функций

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.odbc-fetch-row.html: « odbcfetchrow
-  - function.odbc-field-name.html: odbcfieldname »
-  - index.html: PHP Manual
-  - ref.uodbc.html: Функции ODBC
+  - function.odbc-fetch-row.md: « odbcfetchrow
+  - function.odbc-field-name.md: odbcfieldname »
+  - index.md: PHP Manual
+  - ref.uodbc.md: Функции ODBC
 title: odbcfieldlen
 ---
 # odbcfieldlen
@@ -36,4 +36,4 @@ odbc_field_len(resource $statement, int $field): int|false
 
 ### Дивіться також
 
--   [odbcfieldscale()](function.odbc-field-scale.html) - Повертає масштаб поля для набуття масштабу числа з плаваючою точкою
+-   [odbcfieldscale()](function.odbc-field-scale.md) - Повертає масштаб поля для набуття масштабу числа з плаваючою точкою

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.stream-select.html: « streamselect
-  - function.stream-set-chunk-size.html: streamsetchunksize »
-  - index.html: PHP Manual
-  - ref.stream.html: Функції для роботи з потоками
+  - function.stream-select.md: « streamselect
+  - function.stream-set-chunk-size.md: streamsetchunksize »
+  - index.md: PHP Manual
+  - ref.stream.md: Функції для роботи з потоками
 title: streamsetblocking
 ---
 # streamsetblocking
@@ -30,7 +30,7 @@ stream_set_blocking(resource $stream, bool $enable): bool
 
 `enable`
 
-Якщо параметр `enable` дорівнює **`false`**, вказаний потік буде переключено в неблокуючий режим, а якщо він дорівнює **`true`**, потік буде переключено в блокуючий режим. Це впливає на такі виклики, як [fgets()](function.fgets.html) і [fread()](function.fread.html), які читають із потоку. У неблокувальному режимі виклик функції [fgets()](function.fgets.html) завжди буде повертатися відразу, тоді як у блокувальному режимі він буде очікувати, поки дані стануть доступні на потоці.
+Якщо параметр `enable` дорівнює **`false`**, вказаний потік буде переключено в неблокуючий режим, а якщо він дорівнює **`true`**, потік буде переключено в блокуючий режим. Це впливає на такі виклики, як [fgets()](function.fgets.md) і [fread()](function.fread.md), які читають із потоку. У неблокувальному режимі виклик функції [fgets()](function.fgets.md) завжди буде повертатися відразу, тоді як у блокувальному режимі він буде очікувати, поки дані стануть доступні на потоці.
 
 ### Значення, що повертаються
 
@@ -44,4 +44,4 @@ stream_set_blocking(resource $stream, bool $enable): bool
 
 ### Дивіться також
 
--   [streamselect()](function.stream-select.html) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds
+-   [streamselect()](function.stream-select.md) - Запускає еквівалент системного виклику select() на заданих масивах потоків з часом очікування, вказаним параметрами seconds та microseconds

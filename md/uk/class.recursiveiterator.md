@@ -1,9 +1,9 @@
 ---
 navigation:
-  - outeriterator.getinneriterator.html: '« OuterIterator::getInnerIterator'
-  - recursiveiterator.getchildren.html: 'RecursiveIterator::getChildren »'
-  - index.html: PHP Manual
-  - spl.interfaces.html: Інтерфейси
+  - outeriterator.getinneriterator.md: '« OuterIterator::getInnerIterator'
+  - recursiveiterator.getchildren.md: 'RecursiveIterator::getChildren »'
+  - index.md: PHP Manual
+  - spl.interfaces.md: Інтерфейси
 title: Інтерфейс RecursiveIterator
 ---
 # Інтерфейс RecursiveIterator
@@ -47,5 +47,5 @@ public Iterator::valid(): bool
 
 ## Зміст
 
--   [RecursiveIterator::getChildren](recursiveiterator.getchildren.html) — Повертає ітератор до поточного елемента
--   [RecursiveIterator::hasChildren](recursiveiterator.haschildren.html) — Визначає, чи можна створити ітератор для поточного елемента.
+-   [RecursiveIterator::getChildren](recursiveiterator.getchildren.md) — Повертає ітератор до поточного елемента
+-   [RecursiveIterator::hasChildren](recursiveiterator.haschildren.md) — Визначає, чи можна створити ітератор для поточного елемента.

@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.inflate-get-status.html: « inflategetstatus
+  - function.inflate-get-status.md: « inflategetstatus
   - function.readgzfile.md: readgzfile »
   - index.md: PHP Manual
   - ref.zlib.md: Функции Zlib

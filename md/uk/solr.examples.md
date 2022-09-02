@@ -1,6 +1,6 @@
 ---
 navigation:
-  - function.solr-get-version.html: « solrgetversion
+  - function.solr-get-version.md: « solrgetversion
   - class.solrutils.md: SolrUtils »
   - index.md: PHP Manual
   - book.solr.md: Solr

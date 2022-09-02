@@ -1,9 +1,9 @@
 ---
 navigation:
-  - vtiful-kernel-excel.mergeCells.html: '« VtifulKernelExcel::mergeCells'
-  - vtiful-kernel-excel.setColumn.html: 'VtifulKernelExcel::setColumn »'
+  - vtiful-kernel-excel.mergeCells.md: '« VtifulKernelExcel::mergeCells'
+  - vtiful-kernel-excel.setColumn.md: 'VtifulKernelExcel::setColumn »'
   - index.md: PHP Manual
-  - class.vtiful-kernel-excel.html: VtifulKernelExcel
+  - class.vtiful-kernel-excel.md: VtifulKernelExcel
 title: 'VtifulKernelExcel::output'
 ---
 # VtifulKernelExcel::output

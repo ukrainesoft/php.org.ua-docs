@@ -1,9 +1,9 @@
 ---
 navigation:
-  - swoole-process.wait.html: '« SwooleProcess::wait'
-  - class.swoole-redis-server.html: SwooleRedisServer »
-  - index.html: PHP Manual
-  - class.swoole-process.html: SwooleProcess
+  - swoole-process.wait.md: '« SwooleProcess::wait'
+  - class.swoole-redis-server.md: SwooleRedisServer »
+  - index.md: PHP Manual
+  - class.swoole-process.md: SwooleProcess
 title: 'SwooleProcess::write'
 ---
 # SwooleProcess::write

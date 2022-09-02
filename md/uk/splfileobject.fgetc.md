@@ -1,9 +1,9 @@
 ---
 navigation:
-  - splfileobject.fflush.html: '« SplFileObject::fflush'
-  - splfileobject.fgetcsv.html: 'SplFileObject::fgetcsv »'
-  - index.html: PHP Manual
-  - class.splfileobject.html: SplFileObject
+  - splfileobject.fflush.md: '« SplFileObject::fflush'
+  - splfileobject.fgetcsv.md: 'SplFileObject::fgetcsv »'
+  - index.md: PHP Manual
+  - class.splfileobject.md: SplFileObject
 title: 'SplFileObject::fgetc'
 ---
 # SplFileObject::fgetc
@@ -30,7 +30,7 @@ public SplFileObject::fgetc(): string|false
 
 **Увага**
 
-Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.html). Використовуйте [оператор ===](language.operators.comparison.html) для перевірки значення, яке повертається цією функцією.
+Ця функція може повертати як логічне значення \*\*`false`\*\*так і значення не типу boolean, яке наводиться до **`false`**. За більш детальною інформацією зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення, яке повертається цією функцією.
 
 ### Приклади
 
@@ -47,4 +47,4 @@ while (false !== ($char = $file->fgetc())) {
 
 ### Дивіться також
 
--   [SplFileObject::fgets()](splfileobject.fgets.html) - Отримує рядок із файлу
+-   [SplFileObject::fgets()](splfileobject.fgets.md) - Отримує рядок із файлу

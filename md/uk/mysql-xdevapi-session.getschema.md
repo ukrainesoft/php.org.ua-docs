@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysql-xdevapi-session.getdefaultschema.html: '« Session::getDefaultSchema'
-  - mysql-xdevapi-session.getschemas.html: 'Session::getSchemas »'
-  - index.html: PHP Manual
-  - class.mysql-xdevapi-session.html: mysqlxdevapiSession
+  - mysql-xdevapi-session.getdefaultschema.md: '« Session::getDefaultSchema'
+  - mysql-xdevapi-session.getschemas.md: 'Session::getSchemas »'
+  - index.md: PHP Manual
+  - class.mysql-xdevapi-session.md: mysqlxdevapiSession
 title: 'Session::getSchema'
 ---
 # Session::getSchema

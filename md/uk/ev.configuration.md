@@ -1,9 +1,9 @@
 ---
 navigation:
-  - ev.installation.html: « Установка
-  - ev.resources.html: Типи ресурсів »
-  - index.html: PHP Manual
-  - ev.setup.html: Встановлення та налаштування
+  - ev.installation.md: « Установка
+  - ev.resources.md: Типи ресурсів »
+  - index.md: PHP Manual
+  - ev.setup.md: Встановлення та налаштування
 title: Налаштування під час виконання
 ---
 ## Налаштування під час виконання

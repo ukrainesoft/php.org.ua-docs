@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.xml-get-current-column-number.html: « xmlgetcurrentcolumnnumber
-  - function.xml-get-error-code.html: xmlgeterrorcode »
+  - function.xml-get-current-column-number.md: « xmlgetcurrentcolumnnumber
+  - function.xml-get-error-code.md: xmlgeterrorcode »
   - index.md: PHP Manual
   - ref.xml.md: Функции парсера XML
 title: xmlgetcurrentlinenumber

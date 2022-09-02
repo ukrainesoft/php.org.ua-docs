@@ -1,9 +1,9 @@
 ---
 navigation:
-  - intltimezone.gettzdataversion.html: '« IntlTimeZone::getTZDataVersion'
-  - intltimezone.getwindowsid.html: 'IntlTimeZone::getWindowsID »'
-  - index.html: PHP Manual
-  - class.intltimezone.html: IntlTimeZone
+  - intltimezone.gettzdataversion.md: '« IntlTimeZone::getTZDataVersion'
+  - intltimezone.getwindowsid.md: 'IntlTimeZone::getWindowsID »'
+  - index.md: PHP Manual
+  - class.intltimezone.md: IntlTimeZone
 title: 'IntlTimeZone::getUnknown'
 ---
 # IntlTimeZone::getUnknown

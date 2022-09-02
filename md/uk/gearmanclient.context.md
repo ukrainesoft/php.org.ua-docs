@@ -1,9 +1,9 @@
 ---
 navigation:
-  - gearmanclient.construct.html: '« GearmanClient::construct'
-  - gearmanclient.data.html: 'GearmanClient::data »'
-  - index.html: PHP Manual
-  - class.gearmanclient.html: GearmanClient
+  - gearmanclient.construct.md: '« GearmanClient::construct'
+  - gearmanclient.data.md: 'GearmanClient::data »'
+  - index.md: PHP Manual
+  - class.gearmanclient.md: GearmanClient
 title: 'GearmanClient::context'
 ---
 # GearmanClient::context

@@ -1,7 +1,7 @@
 ---
 navigation:
   - ref.lzf.md: « Функції LZF
-  - function.lzf-decompress.html: lzfdecompress »
+  - function.lzf-decompress.md: lzfdecompress »
   - index.md: PHP Manual
   - ref.lzf.md: Функції LZF
 title: lzfcompress

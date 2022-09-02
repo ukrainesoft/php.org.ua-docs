@@ -1,9 +1,9 @@
 ---
 navigation:
-  - reflectionnamedtype.isbuiltin.html: '« ReflectionNamedType::isBuiltin'
-  - reflectionobject.construct.html: 'ReflectionObject::construct »'
-  - index.html: PHP Manual
-  - book.reflection.html: Reflection
+  - reflectionnamedtype.isbuiltin.md: '« ReflectionNamedType::isBuiltin'
+  - reflectionobject.construct.md: 'ReflectionObject::construct »'
+  - index.md: PHP Manual
+  - book.reflection.md: Reflection
 title: Клас ReflectionObject
 ---
 # Клас ReflectionObject

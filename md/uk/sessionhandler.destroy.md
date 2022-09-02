@@ -1,6 +1,6 @@
 ---
 navigation:
-  - sessionhandler.create-sid.html: '« SessionHandler::createsid'
+  - sessionhandler.create-sid.md: '« SessionHandler::createsid'
   - sessionhandler.gc.md: 'SessionHandler::gc »'
   - index.md: PHP Manual
   - class.sessionhandler.md: SessionHandler
@@ -18,9 +18,9 @@ SessionHandler::destroy — Знищує сесію
 public SessionHandler::destroy(string $id): bool
 ```
 
-Знищує сесію. Викликається зсередини PHP за допомогою функції [sessionregenerateid()](function.session-regenerate-id.html) (маю на увазі, що параметр `$destroy` встановлений в **`true`**, функції [sessiondestroy()](function.session-destroy.html) або коли виклик [sessiondecode()](function.session-decode.md) невдалий.
+Знищує сесію. Викликається зсередини PHP за допомогою функції [sessionregenerateid()](function.session-regenerate-id.md) (маю на увазі, що параметр `$destroy` встановлений в **`true`**, функції [sessiondestroy()](function.session-destroy.md) або коли виклик [sessiondecode()](function.session-decode.md) невдалий.
 
-Цей метод є обгорткою для внутрішнього обробника PHP, визначеного в налаштуванні ini-файлу [session.savehandler](session.configuration.html#ini.session.save-handler), який встановлюється до оброблювача викликом [sessionsetsavehandler()](function.session-set-save-handler.md)
+Цей метод є обгорткою для внутрішнього обробника PHP, визначеного в налаштуванні ini-файлу [session.savehandler](session.configuration.md#ini.session.save-handler), який встановлюється до оброблювача викликом [sessionsetsavehandler()](function.session-set-save-handler.md)
 
 Якщо цей клас розширюється шляхом наслідування, то виклик батьківського методу `destroy` виконає код обгортки, а отже код внутрішнього оброблювача. Це дозволяє бути перевизначеним, перехопленим або відфільтрованим.
 

@@ -1,9 +1,9 @@
 ---
 navigation:
-  - mysqli-stmt.insert-id.html: '« mysqlistmt::$insertід'
-  - mysqli-stmt.next-result.html: 'mysqlistmt::nextresult »'
+  - mysqli-stmt.insert-id.md: '« mysqlistmt::$insertід'
+  - mysqli-stmt.next-result.md: 'mysqlistmt::nextresult »'
   - index.md: PHP Manual
-  - class.mysqli-stmt.html: mysqlistmt
+  - class.mysqli-stmt.md: mysqlistmt
 title: 'mysqlistmt::moreresults'
 ---
 # mysqlistmt::moreresults
@@ -38,7 +38,7 @@ mysqli_stmt_more_results(mysqli_stmt $statement): bool
 
 `stmt`
 
-Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.html), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
+Тільки для процедурного стилю: об'єкт [mysqlistmt](class.mysqli-stmt.md), отриманий за допомогою [mysqlistmtinit()](mysqli.stmt-init.md)
 
 ### Значення, що повертаються
 

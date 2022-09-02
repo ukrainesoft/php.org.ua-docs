@@ -1,7 +1,7 @@
 ---
 navigation:
-  - function.get-defined-constants.html: « getdefinedconstants
-  - function.get-include-path.html: getincludepath »
+  - function.get-defined-constants.md: « getdefinedconstants
+  - function.get-include-path.md: getincludepath »
   - index.md: PHP Manual
   - ref.info.md: Опції PHP/інформаційні функції
 title: getextensionfuncs

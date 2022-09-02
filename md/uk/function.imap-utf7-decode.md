@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.imap-unsubscribe.html: « imapunsubscribe
-  - function.imap-utf7-encode.html: imaputf7encode »
-  - index.html: PHP Manual
-  - ref.imap.html: Функции IMAP
+  - function.imap-unsubscribe.md: « imapunsubscribe
+  - function.imap-utf7-encode.md: imaputf7encode »
+  - index.md: PHP Manual
+  - ref.imap.md: Функции IMAP
 title: imaputf7decode
 ---
 # imaputf7decode
@@ -34,4 +34,4 @@ imap_utf7_decode(string $string): string|false
 
 ### Дивіться також
 
--   [imaputf7encode()](function.imap-utf7-encode.html) - Перетворює рядок ISO-8859-1 на модифікований UTF-7
+-   [imaputf7encode()](function.imap-utf7-encode.md) - Перетворює рядок ISO-8859-1 на модифікований UTF-7

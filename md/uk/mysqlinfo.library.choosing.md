@@ -1,16 +1,16 @@
 ---
 navigation:
-  - mysqlinfo.api.choosing.html: « Вибір API
-  - mysqlinfo.concepts.html: Основні поняття "
-  - index.html: PHP Manual
-  - mysql.html: Огляд PHP драйверів MySQL
+  - mysqlinfo.api.choosing.md: « Вибір API
+  - mysqlinfo.concepts.md: Основні поняття "
+  - index.md: PHP Manual
+  - mysql.md: Огляд PHP драйверів MySQL
 title: Вибір бібліотеки
 ---
 # Вибір бібліотеки
 
-Модулі mysqli та PDOMySQL - лише легковажні обгортки над бібліотеками написаними мовою C. Ці модулі можуть використовувати бібліотеки [mysqlnd](book.mysqlnd.html) і `libmysqlclient`. Вибір бібліотеки потрібно зробити на етапі компіляції.
+Модулі mysqli та PDOMySQL - лише легковажні обгортки над бібліотеками написаними мовою C. Ці модулі можуть використовувати бібліотеки [mysqlnd](book.mysqlnd.md) і `libmysqlclient`. Вибір бібліотеки потрібно зробити на етапі компіляції.
 
-Бібліотека mysqlnd є частиною дистрибутива PHP. Вона надає такі можливості як ліниве з'єднання (lazy connections) та кешування запитів. У бібліотеці libmysqlclient ці можливості недоступні. Тому вкрай рекомендується використовувати саме вбудовану бібліотеку mysqlnd. Для додаткової інформації дивіться [документацию mysqlnd](book.mysqlnd.html)
+Бібліотека mysqlnd є частиною дистрибутива PHP. Вона надає такі можливості як ліниве з'єднання (lazy connections) та кешування запитів. У бібліотеці libmysqlclient ці можливості недоступні. Тому вкрай рекомендується використовувати саме вбудовану бібліотеку mysqlnd. Для додаткової інформації дивіться [документацию mysqlnd](book.mysqlnd.md)
 
 **Приклад #1 Команди конфігурування для mysqlnd та libmysqlclient**
 
@@ -22,9 +22,9 @@ title: Вибір бібліотеки
 
 *Порівняння можливостей бібліотек*
 
-Рекомендується використовувати бібліотеку [mysqlnd](book.mysqlnd.html), а не MySQL Client Server library (libmysqlclient). Обидві бібліотеки розвиваються та підтримуються виробниками.
+Рекомендується використовувати бібліотеку [mysqlnd](book.mysqlnd.md), а не MySQL Client Server library (libmysqlclient). Обидві бібліотеки розвиваються та підтримуються виробниками.
 
-|  | MySQL native driver ([mysqlnd](book.mysqlnd.html)) | MySQL client server library (`libmysqlclient`) |
+|  | MySQL native driver ([mysqlnd](book.mysqlnd.md)) | MySQL client server library (`libmysqlclient`) |
 | --- | --- | --- |
 | Частина дистрибутива PHP | Так | Ні |
 | З'явилася у версії PHP |  | Немає даних |
@@ -37,7 +37,7 @@ title: Вибір бібліотеки
 | Підтримка іменованих конвеєрів (named pipes) | Так | Так |
 | Неблокуючі, асинхронні запити | Так | Ні |
 | Статистика продуктивності | Так | Ні |
-| LOAD LOCAL INFILE поважає директиву [openbasedir](ini.core.html#ini.open-basedir) | Так | ні |
+| LOAD LOCAL INFILE поважає директиву [openbasedir](ini.core.md#ini.open-basedir) | Так | ні |
 | Використовує штатний менеджер пам'яті PHP (тобто обмеження пам'яті PHP) | Так | Ні |
 | Повертає числові значення як значення з плаваючою точкою (float) (COMQUERY) | Так | ні |
 | Повертає числові значення як рядки (string) (COMQUERY) | Так | Так |

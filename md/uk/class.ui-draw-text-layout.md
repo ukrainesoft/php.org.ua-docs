@@ -1,7 +1,7 @@
 ---
 navigation:
-  - ui-draw-brush-radialgradient.construct.html: '« UIDrawBrushRadialGradient::construct'
-  - ui-draw-text-layout.construct.html: 'ОЙDrawTextLayout::construct »'
+  - ui-draw-brush-radialgradient.construct.md: '« UIDrawBrushRadialGradient::construct'
+  - ui-draw-text-layout.construct.md: 'ОЙDrawTextLayout::construct »'
   - index.md: PHP Manual
   - book.ui.md: ОЙ
 title: Представляє макет тексту

@@ -30,7 +30,7 @@ public
 
 Регулює водяні знаки читання, *водяні знаки* записи або й те, й інше для однієї події буфера.
 
-Водяний знак події буфера – це значення, що визначає кількість байтів, які мають бути прочитані чи записані перед викликом callback-функції. За замовчуванням, кожна подія читання/запису запускає виклик callback-функції. Зверніться до [» Fast portable non-blocking network programming with Libevent: Callbacks and watermarks](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.html#_callbacks_and_watermarks)
+Водяний знак події буфера – це значення, що визначає кількість байтів, які мають бути прочитані чи записані перед викликом callback-функції. За замовчуванням, кожна подія читання/запису запускає виклик callback-функції. Зверніться до [» Fast portable non-blocking network programming with Libevent: Callbacks and watermarks](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.md#_callbacks_and_watermarks)
 
 ### Список параметрів
 

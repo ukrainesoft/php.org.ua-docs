@@ -1,9 +1,9 @@
 ---
 navigation:
-  - streamwrapper.dir-rewinddir.html: '« streamWrapper::dirrewinddir'
-  - streamwrapper.rename.html: 'streamWrapper::rename »'
-  - index.html: PHP Manual
-  - class.streamwrapper.html: streamWrapper
+  - streamwrapper.dir-rewinddir.md: '« streamWrapper::dirrewinddir'
+  - streamwrapper.rename.md: 'streamWrapper::rename »'
+  - index.md: PHP Manual
+  - class.streamwrapper.md: streamWrapper
 title: 'streamWrapper::mkdir'
 ---
 # streamWrapper::mkdir
@@ -18,7 +18,7 @@ streamWrapper::mkdir — Створення директорії
 public streamWrapper::mkdir(string $path, int $mode, int $options): bool
 ```
 
-Цей метод викликається у процесі виконання [mkdir()](function.mkdir.html)
+Цей метод викликається у процесі виконання [mkdir()](function.mkdir.md)
 
 > **Зауваження**
 > 
@@ -32,7 +32,7 @@ public streamWrapper::mkdir(string $path, int $mode, int $options): bool
 
 `mode`
 
-Значення, передане в [mkdir()](function.mkdir.html)
+Значення, передане в [mkdir()](function.mkdir.md)
 
 `options`
 
@@ -54,5 +54,5 @@ public streamWrapper::mkdir(string $path, int $mode, int $options): bool
 
 ### Дивіться також
 
--   [mkdir()](function.mkdir.html) - створює директорію
--   [streamwrapper::rmdir()](streamwrapper.rmdir.html) - видаляє директорію
+-   [mkdir()](function.mkdir.md) - створює директорію
+-   [streamwrapper::rmdir()](streamwrapper.rmdir.md) - видаляє директорію

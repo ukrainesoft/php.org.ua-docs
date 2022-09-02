@@ -1,7 +1,7 @@
 ---
 navigation:
-  - commonmark-node-link.construct.html: '« CommonMarkNodeLink::construct'
-  - class.commonmark-node-custominline.html: CommonMarkNodeCustomInline »
+  - commonmark-node-link.construct.md: '« CommonMarkNodeLink::construct'
+  - class.commonmark-node-custominline.md: CommonMarkNodeCustomInline »
   - index.md: PHP Manual
   - book.cmark.md: CommonMark
 title: CustomBlock успадковує CommonMarkNode

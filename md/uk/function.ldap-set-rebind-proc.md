@@ -1,9 +1,9 @@
 ---
 navigation:
-  - function.ldap-set-option.html: « ldapsetoption
-  - function.ldap-sort.html: ldapsort »
-  - index.html: PHP Manual
-  - ref.ldap.html: Функції LDAP
+  - function.ldap-set-option.md: « ldapsetoption
+  - function.ldap-sort.md: ldapsort »
+  - index.md: PHP Manual
+  - ref.ldap.md: Функції LDAP
 title: ldapsetrebindproc
 ---
 # ldapsetrebindproc
@@ -26,5 +26,5 @@ ldap_set_rebind_proc(LDAP\Connection $ldap, ?callable $callback): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.html); раніше очікувався ресурс ([resource](language.types.resource.md) |
+|  | Параметр `ldap` тепер чекає екземпляр [LDAPConnection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md) |
 |  | `callback` тепер допускає значення null. |

@@ -4,7 +4,7 @@ navigation:
   - ziparchive.addemptydir.md: 'ZipArchive::addEmptyDir »'
   - index.md: PHP Manual
   - book.zip.md: Zip
-title: 'Клас [ZipArchive](class.ziparchive.md)'
+title: 'Клас ZipArchive'
 ---
 # Клас [ZipArchive](class.ziparchive.md)
 

@@ -4,7 +4,7 @@ navigation:
   - imagickpixel.clear.md: 'ImagickPixel::clear »'
   - index.md: PHP Manual
   - book.imagick.md: ImageMagick
-title: 'Клас [ImagickPixel](class.imagickpixel.md)'
+title: 'Клас ImagickPixel'
 ---
 # Клас [ImagickPixel](class.imagickpixel.md)
 

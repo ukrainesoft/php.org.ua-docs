@@ -4,7 +4,7 @@ navigation:
   - ref.posix.md: POSIX Функции »
   - index.md: PHP Manual
   - posix.constants.md: Обумовлені константи
-title: 'Константи [posixsetrlimit()](function.posix-setrlimit.md)'
+title: 'Константи posixsetrlimit()'
 ---
 ## Константи [posixsetrlimit()](function.posix-setrlimit.md)
 

@@ -4,7 +4,7 @@ navigation:
   - domattr.construct.md: 'DOMAttr::construct »'
   - index.md: PHP Manual
   - book.dom.md: DOM
-title: 'Клас [DOMAttr](class.domattr.md)'
+title: 'Клас DOMAttr'
 ---
 # Клас [DOMAttr](class.domattr.md)
 

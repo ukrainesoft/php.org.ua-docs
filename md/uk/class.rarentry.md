@@ -4,7 +4,7 @@ navigation:
   - rarentry.extract.md: 'RarEntry::extract »'
   - index.md: PHP Manual
   - book.rar.md: Rar
-title: 'Клас [RarEntry](class.rarentry.md)'
+title: 'Клас RarEntry'
 ---
 # Клас [RarEntry](class.rarentry.md)
 

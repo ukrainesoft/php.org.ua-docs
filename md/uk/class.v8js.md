@@ -4,7 +4,7 @@ navigation:
   - v8js.construct.md: 'V8Js::construct »'
   - index.md: PHP Manual
   - book.v8js.md: V8js
-title: 'Клас [V8Js](class.v8js.md)'
+title: 'Клас V8Js'
 ---
 # Клас [V8Js](class.v8js.md)
 

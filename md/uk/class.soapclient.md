@@ -4,7 +4,7 @@ navigation:
   - soapclient.call.md: 'SoapClient::call »'
   - index.md: PHP Manual
   - book.soap.md: SOAP
-title: 'Клас [SoapClient](class.soapclient.md)'
+title: 'Клас SoapClient'
 ---
 # Клас [SoapClient](class.soapclient.md)
 

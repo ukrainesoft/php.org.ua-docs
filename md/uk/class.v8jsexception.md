@@ -4,7 +4,7 @@ navigation:
   - v8jsexception.getjsfilename.md: 'V8JsException::getJsFileName »'
   - index.md: PHP Manual
   - book.v8js.md: V8js
-title: 'Клас [V8JsException](class.v8jsexception.md)'
+title: 'Клас V8JsException'
 ---
 # Клас [V8JsException](class.v8jsexception.md)
 

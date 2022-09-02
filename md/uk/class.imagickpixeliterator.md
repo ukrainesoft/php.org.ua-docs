@@ -4,7 +4,7 @@ navigation:
   - imagickpixeliterator.clear.md: 'ImagickPixelIterator::clear »'
   - index.md: PHP Manual
   - book.imagick.md: ImageMagick
-title: 'Клас [ImagickPixelIterator](class.imagickpixeliterator.md)'
+title: 'Клас ImagickPixelIterator'
 ---
 # Клас [ImagickPixelIterator](class.imagickpixeliterator.md)
 

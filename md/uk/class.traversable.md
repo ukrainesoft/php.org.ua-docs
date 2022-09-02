@@ -4,7 +4,7 @@ navigation:
   - class.iterator.md: Iterator »
   - index.md: PHP Manual
   - reserved.interfaces.md: Вбудовані інтерфейси та класи
-title: 'Інтерфейс [Traversable](class.traversable.md)'
+title: 'Інтерфейс Traversable'
 ---
 # Інтерфейс [Traversable](class.traversable.md)
 

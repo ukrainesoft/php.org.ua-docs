@@ -4,7 +4,7 @@ navigation:
   - tidy.body.md: 'tidy::body »'
   - index.md: PHP Manual
   - book.tidy.md: Tidy
-title: 'Клас [tidy](class.tidy.md)'
+title: 'Клас tidy'
 ---
 # Клас [tidy](class.tidy.md)
 

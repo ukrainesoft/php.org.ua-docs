@@ -4,7 +4,7 @@ navigation:
   - imagick.adaptiveblurimage.md: 'Imagick::adaptiveBlurImage »'
   - index.md: PHP Manual
   - book.imagick.md: ImageMagick
-title: 'Клас [Imagick](class.imagick.md)'
+title: 'Клас Imagick'
 ---
 # Клас [Imagick](class.imagick.md)
 

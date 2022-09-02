@@ -4,7 +4,7 @@ navigation:
   - posix.constants.setrlimit.md: Константи posixsetrlimit »
   - index.md: PHP Manual
   - posix.constants.md: Обумовлені константи
-title: 'Константи [posixmknod()](function.posix-mknod.md)'
+title: 'Константи posixmknod()'
 ---
 ## Константи [posixmknod()](function.posix-mknod.md)
 

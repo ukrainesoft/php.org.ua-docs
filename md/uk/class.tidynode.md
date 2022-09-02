@@ -4,7 +4,7 @@ navigation:
   - tidynode.construct.md: 'tidyNode::construct »'
   - index.md: PHP Manual
   - book.tidy.md: Tidy
-title: 'Клас [tidyNode](class.tidynode.md)'
+title: 'Клас tidyNode'
 ---
 # Клас [tidyNode](class.tidynode.md)
 

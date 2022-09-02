@@ -4,7 +4,7 @@ navigation:
   - imagickdraw.affine.md: 'ImagickDraw::affine »'
   - index.md: PHP Manual
   - book.imagick.md: ImageMagick
-title: 'Клас [ImagickDraw](class.imagickdraw.md)'
+title: 'Клас ImagickDraw'
 ---
 # Клас [ImagickDraw](class.imagickdraw.md)
 

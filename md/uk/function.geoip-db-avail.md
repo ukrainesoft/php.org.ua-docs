@@ -41,8 +41,8 @@ geoip_db_avail(int $database): bool
 ```php
 <?php
 
-if (geoip_db_avail(GEOIP_COUNTRY_EDITION))
-    print geoip_database_info(GEOIP_COUNTRY_EDITION);
+if (geoip_db_avail(GEOIP_COUNTRY_EDITION))
+    print geoip_database_info(GEOIP_COUNTRY_EDITION);
 ?>
 ```
 

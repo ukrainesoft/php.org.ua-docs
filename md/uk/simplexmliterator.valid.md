@@ -34,12 +34,12 @@ public SimpleXMLIterator::valid(): bool
 
 ```php
 <?php
-$xmlIterator = new SimpleXMLIterator('<books><book>Основы SQL</book></books>');
+$xmlIterator = new SimpleXMLIterator('<books><book>Основы SQL</book></books>');
 
-$xmlIterator->rewind(); // возврат к первому элементу
-echo var_dump($xmlIterator->valid()); // bool(true)
+$xmlIterator->rewind(); // возврат к первому элементу
+echo var_dump($xmlIterator->valid()); // bool(true)
 
-$xmlIterator->next(); // перейти к следующему элементу
-echo var_dump($xmlIterator->valid()); // bool(false), поскольку есть только один элемент
+$xmlIterator->next(); // перейти к следующему элементу
+echo var_dump($xmlIterator->valid()); // bool(false), поскольку есть только один элемент
 ?>
 ```

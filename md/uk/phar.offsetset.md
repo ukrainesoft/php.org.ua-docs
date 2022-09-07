@@ -50,12 +50,12 @@ offsetSet не потрібно викликати безпосередньо. �
 
 ```php
 <?php
-$p = new Phar('/path/to/my.phar', 0, 'my.phar');
-try {
-    // вызов offsetSet
-    $p['file.txt'] = 'Hi there';
-} catch (Exception $e) {
-    echo 'Не могу изменить file.txt:', $e;
+$p = new Phar('/path/to/my.phar', 0, 'my.phar');
+try {
+    // вызов offsetSet
+    $p['file.txt'] = 'Hi there';
+} catch (Exception $e) {
+    echo 'Не могу изменить file.txt:', $e;
 }
 ?>
 ```

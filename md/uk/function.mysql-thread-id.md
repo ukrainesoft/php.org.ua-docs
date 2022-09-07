@@ -42,10 +42,10 @@ mysql_thread_id(resource $link_identifier = NULL): int|false
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-$thread_id = mysql_thread_id($link);
-if ($thread_id){
-    printf("Идентификатор текущего потока: %d\n", $thread_id);
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$thread_id = mysql_thread_id($link);
+if ($thread_id){
+    printf("Идентификатор текущего потока: %d\n", $thread_id);
 }
 ?>
 ```

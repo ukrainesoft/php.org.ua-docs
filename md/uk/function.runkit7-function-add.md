@@ -15,11 +15,11 @@ runkit7functionadd - Додає нову функцію, функція анал
 ### Опис
 
 ```methodsynopsis
-runkit7_function_add(    string $function_name,    string $argument_list,    string $code,    bool $return_by_reference = null,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_function_add(    string $function_name,    string $argument_list,    string $code,    bool $return_by_reference = null,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ```methodsynopsis
-runkit7_function_add(    string $function_name,    Closure $closure,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_function_add(    string $function_name,    Closure $closure,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ### Список параметрів
@@ -66,7 +66,7 @@ runkit7_function_add(    string $function_name,    Closure $closure,  
 
 ```php
 <?php
-runkit7_function_add('testme','$a,$b','echo "Значение A - $a\n"; echo "Значение B - $b\n";');
+runkit7_function_add('testme','$a,$b','echo "Значение A - $a\n"; echo "Значение B - $b\n";');
 testme(1,2);
 ?>
 ```

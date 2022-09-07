@@ -49,16 +49,16 @@ sodium_crypto_secretbox_open(string $ciphertext, string $nonce, string $key): st
 
 ```php
 <?php
-// $key должен храниться в секрете.
-$key = random_bytes(SODIUM_CRYPTO_SECRETBOX_KEYBYTES);
-// Не используйте $nonce повторно с тем же ключом
-$nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);
-$ciphertext = sodium_crypto_secretbox('message to be encrypted', $nonce, $key);
+// $key должен храниться в секрете.
+$key = random_bytes(SODIUM_CRYPTO_SECRETBOX_KEYBYTES);
+// Не используйте $nonce повторно с тем же ключом
+$nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);
+$ciphertext = sodium_crypto_secretbox('message to be encrypted', $nonce, $key);
 
-// Для расшифровки $ciphertext требуются те же имя и ключ.
-$plaintext = sodium_crypto_secretbox_open($ciphertext, $nonce, $key);
-if ($plaintext !== false) {
-    echo $plaintext . PHP_EOL;
+// Для расшифровки $ciphertext требуются те же имя и ключ.
+$plaintext = sodium_crypto_secretbox_open($ciphertext, $nonce, $key);
+if ($plaintext !== false) {
+    echo $plaintext . PHP_EOL;
 }
 ?>
 ```

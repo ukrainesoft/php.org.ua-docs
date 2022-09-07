@@ -46,31 +46,31 @@ cubrid_prepare(resource $conn_identifier, string $prepare_stmt, int $option = 0)
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-$sql = <<<EOD
-SELECT g.event_code, e.name
-FROM game g
-JOIN event e ON g.event_code=e.code
-WHERE host_year = ? AND event_code NOT IN (SELECT event_code FROM game WHERE host_year=?) GROUP BY event_code;
+$sql = <<<EOD
+SELECT g.event_code, e.name
+FROM game g
+JOIN event e ON g.event_code=e.code
+WHERE host_year = ? AND event_code NOT IN (SELECT event_code FROM game WHERE host_year=?) GROUP BY event_code;
 EOD;
 
-$req = cubrid_prepare($conn, $sql);
+$req = cubrid_prepare($conn, $sql);
 
-cubrid_bind($req, 1, 2004);
-cubrid_bind($req, 2, 2000);
+cubrid_bind($req, 1, 2004);
+cubrid_bind($req, 2, 2000);
 cubrid_execute($req);
 
-$row_num = cubrid_num_rows($req);
-printf("%d соревнований пройдут на олимпиаде 2004, но не в 2000. Например:\n\n", $row_num);
+$row_num = cubrid_num_rows($req);
+printf("%d соревнований пройдут на олимпиаде 2004, но не в 2000. Например:\n\n", $row_num);
 
-printf("%-15s %s\n", "Код соревнования", "Название");
+printf("%-15s %s\n", "Код соревнования", "Название");
 printf("----------------------------\n");
 
-$row = cubrid_fetch_assoc($req);
-printf("%-15d %s\n", $row["event_code"], $row["name"]);
-$row = cubrid_fetch_assoc($req);
-printf("%-15d %s\n", $row["event_code"], $row["name"]);
+$row = cubrid_fetch_assoc($req);
+printf("%-15d %s\n", $row["event_code"], $row["name"]);
+$row = cubrid_fetch_assoc($req);
+printf("%-15d %s\n", $row["event_code"], $row["name"]);
 
 cubrid_disconnect($conn);
 ?>

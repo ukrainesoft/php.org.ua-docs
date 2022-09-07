@@ -16,8 +16,8 @@ title: Інші зміни
 
 ```php
 <?php
-// Ранее 'new', 'private' и 'for' использовать было нельзя.
-Project::new('Project Name')->private()->for('purpose here')->with('username here');
+// Ранее 'new', 'private' и 'for' использовать было нельзя.
+Project::new('Project Name')->private()->for('purpose here')->with('username here');
 ?>
 ```
 

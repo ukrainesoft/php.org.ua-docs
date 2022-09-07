@@ -36,11 +36,11 @@ public Imagick::autoLevelImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
 
 ```php
 <?php
-function autoLevelImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->autoLevelImage();
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function autoLevelImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->autoLevelImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

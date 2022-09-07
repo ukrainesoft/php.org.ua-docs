@@ -71,7 +71,7 @@ mysqli_debug(string $options): bool
 ```php
 <?php
 
-/* Создать файл трассировки в '/tmp/client.trace' на локальной машине (клиенте): */
+/* Создать файл трассировки в '/tmp/client.trace' на локальной машине (клиенте): */
 mysqli_debug("d:t:o,/tmp/client.trace");
 
 ?>

@@ -66,15 +66,15 @@ Callback-функція може приймати до трьох аргумен
 <?php
 
 /**
- * Callback-функция для CallbackFilterIterator
- *
- * @param $current   Значение текущего элемента
- * @param $key       Ключ текущего элемента
- * @param $iterator  Фильтруемый итератор
- * @return boolean   TRUE для принятия текущего элемента, иначе - FALSE
- */
-function my_callback($current, $key, $iterator) {
-    // Код фильтрации
+ * Callback-функция для CallbackFilterIterator
+ *
+ * @param $current   Значение текущего элемента
+ * @param $key       Ключ текущего элемента
+ * @param $iterator  Фильтруемый итератор
+ * @return boolean   TRUE для принятия текущего элемента, иначе - FALSE
+ */
+function my_callback($current, $key, $iterator) {
+    // Код фильтрации
 }
 
 ?>
@@ -87,17 +87,17 @@ function my_callback($current, $key, $iterator) {
 ```php
 <?php
 
-$dir = new FilesystemIterator(__DIR__);
+$dir = new FilesystemIterator(__DIR__);
 
-// Фильтр больших файлов ( > 100MB)
-function is_large_file($current) {
-    return $current->isFile() && $current->getSize() > 104857600;
+// Фильтр больших файлов ( > 100MB)
+function is_large_file($current) {
+    return $current->isFile() && $current->getSize() > 104857600;
 }
-$large_files = new CallbackFilterIterator($dir, 'is_large_file');
+$large_files = new CallbackFilterIterator($dir, 'is_large_file');
 
-// Фильтр каталогов
-$files = new CallbackFilterIterator($dir, function ($current, $key, $iterator) {
-    return $current->isDir() && ! $iterator->isDot();
+// Фильтр каталогов
+$files = new CallbackFilterIterator($dir, function ($current, $key, $iterator) {
+    return $current->isDir() && ! $iterator->isDot();
 });
 
 ?>

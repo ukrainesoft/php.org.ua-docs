@@ -40,8 +40,8 @@ mcrypt_enc_get_supported_key_sizes(resource $td): array
 
 ```php
 <?php
-    $td = mcrypt_module_open('rijndael-256', '', 'ecb', '');
-    var_dump(mcrypt_enc_get_supported_key_sizes($td));
+    $td = mcrypt_module_open('rijndael-256', '', 'ecb', '');
+    var_dump(mcrypt_enc_get_supported_key_sizes($td));
 ?>
 ```
 

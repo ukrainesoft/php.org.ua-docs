@@ -15,7 +15,7 @@ odbcspecialcolumns — Витягує спеціальні стовпці
 ### Опис
 
 ```methodsynopsis
-odbc_specialcolumns(    resource $odbc,    int $type,    ?string $catalog,    string $schema,    string $table,    int $scope,    int $nullable): resource|false
+odbc_specialcolumns(    resource $odbc,    int $type,    ?string $catalog,    string $schema,    string $table,    int $scope,    int $nullable): resource|false
 ```
 
 Витягує або оптимальний набір стовпців, який однозначно визначає рядок у таблиці, або стовпці, які автоматично оновлюються, коли будь-яке значення у рядку оновлюється транзакцією.

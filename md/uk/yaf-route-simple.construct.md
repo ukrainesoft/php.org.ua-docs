@@ -46,8 +46,8 @@ public **YafRouteSimple::construct**(string `$module_name`, string `$controller_
 
 ```php
 <?php
-   $route = new Yaf_Route_Simple("m", "controller", "act");
-   Yaf_Router::getInstance()->addRoute("simple", $route);
+   $route = new Yaf_Route_Simple("m", "controller", "act");
+   Yaf_Router::getInstance()->addRoute("simple", $route);
 ?>
 ```
 

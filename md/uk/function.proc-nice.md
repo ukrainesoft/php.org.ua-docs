@@ -56,7 +56,7 @@ proc_nice(int $priority): bool
 
 ```php
 <?php
-// Наивысший приоритет
+// Наивысший приоритет
 proc_nice(-20);
 ?>
 ```

@@ -54,21 +54,21 @@ gmp_div_q(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 ```php
 <?php
-     $div1 = gmp_div_q("100", "5");
-     echo gmp_strval($div1) . "\n";
+     $div1 = gmp_div_q("100", "5");
+     echo gmp_strval($div1) . "\n";
 
-     $div2 = gmp_div_q("1", "3");
-     echo gmp_strval($div2) . "\n";
+     $div2 = gmp_div_q("1", "3");
+     echo gmp_strval($div2) . "\n";
 
-     $div3 = gmp_div_q("1", "3", GMP_ROUND_PLUSINF);
-     echo gmp_strval($div3) . "\n";
+     $div3 = gmp_div_q("1", "3", GMP_ROUND_PLUSINF);
+     echo gmp_strval($div3) . "\n";
 
-     $div4 = gmp_div_q("-1", "4", GMP_ROUND_PLUSINF);
-     echo gmp_strval($div4) . "\n";
+     $div4 = gmp_div_q("-1", "4", GMP_ROUND_PLUSINF);
+     echo gmp_strval($div4) . "\n";
 
-     $div5 = gmp_div_q("-1", "4", GMP_ROUND_MINUSINF);
-     echo gmp_strval($div5) . "\n";
-     ?>
+     $div5 = gmp_div_q("-1", "4", GMP_ROUND_MINUSINF);
+     echo gmp_strval($div5) . "\n";
+     ?>
 ```
 
 Результат виконання цього прикладу:

@@ -46,11 +46,11 @@ public Imagick::rotateImage(mixed $background, float $degrees): bool
 
 ```php
 <?php
-function rotateImage($imagePath, $angle, $color) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->rotateimage($color, $angle);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function rotateImage($imagePath, $angle, $color) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->rotateimage($color, $angle);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

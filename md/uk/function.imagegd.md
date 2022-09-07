@@ -52,15 +52,15 @@ imagegd(GdImage $image, ?string $file = null): bool
 
 ```php
 <?php
-// Создаём пустое изображение и добавляем текст
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  "A Simple Text String", $text_color);
+// Создаём пустое изображение и добавляем текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  "A Simple Text String", $text_color);
 
-// Выводим изображение
+// Выводим изображение
 imagegd($im);
 
-// Освобождаем память
+// Освобождаем память
 imagedestroy($im);
 ?>
 ```
@@ -69,16 +69,16 @@ imagedestroy($im);
 
 ```php
 <?php
-// Создаём пустое изображение и добавляем текст
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  "A Simple Text String", $text_color);
+// Создаём пустое изображение и добавляем текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  "A Simple Text String", $text_color);
 
-// Сохраняем GD-изображение
-// Расширением GD-изображений является .gd, подробнее на http://www.libgd.org/GdFileFormats
-imagegd($im, 'simple.gd');
+// Сохраняем GD-изображение
+// Расширением GD-изображений является .gd, подробнее на http://www.libgd.org/GdFileFormats
+imagegd($im, 'simple.gd');
 
-// Освобождаем память
+// Освобождаем память
 imagedestroy($im);
 ?>
 ```

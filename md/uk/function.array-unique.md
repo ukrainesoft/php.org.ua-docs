@@ -57,8 +57,8 @@ array_unique(array $array, int $flags = SORT_STRING): array
 
 ```php
 <?php
-$input = array("a" => "green", "red", "b" => "green", "blue", "red");
-$result = array_unique($input);
+$input = array("a" => "green", "red", "b" => "green", "blue", "red");
+$result = array_unique($input);
 print_r($result);
 ?>
 ```
@@ -78,8 +78,8 @@ Array
 
 ```php
 <?php
-$input = array(4, "4", "3", 4, 3, "3");
-$result = array_unique($input);
+$input = array(4, "4", "3", 4, 3, "3");
+$result = array_unique($input);
 var_dump($result);
 ?>
 ```

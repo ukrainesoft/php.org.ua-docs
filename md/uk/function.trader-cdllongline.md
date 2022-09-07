@@ -15,7 +15,7 @@ tradercdllongline - Свічкова модель "Довга свічка"
 ### Опис
 
 ```methodsynopsis
-trader_cdllongline(    array $open,    array $high,    array $low,    array $close): array
+trader_cdllongline(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

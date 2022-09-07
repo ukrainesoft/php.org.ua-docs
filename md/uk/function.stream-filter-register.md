@@ -45,36 +45,36 @@ stream_filter_register(string $filter_name, string $class): bool
 ```php
 <?php
 
-/* Определяем наш класс фильтра */
-class strtoupper_filter extends php_user_filter {
-  function filter($in, $out, &$consumed, $closing)
-  {
-    while ($bucket = stream_bucket_make_writeable($in)) {
-      $bucket->data = strtoupper($bucket->data);
-      $consumed += $bucket->datalen;
-      stream_bucket_append($out, $bucket);
-    }
-    return PSFS_PASS_ON;
-  }
+/* Определяем наш класс фильтра */
+class strtoupper_filter extends php_user_filter {
+  function filter($in, $out, &$consumed, $closing)
+  {
+    while ($bucket = stream_bucket_make_writeable($in)) {
+      $bucket->data = strtoupper($bucket->data);
+      $consumed += $bucket->datalen;
+      stream_bucket_append($out, $bucket);
+    }
+    return PSFS_PASS_ON;
+  }
 }
 
-/* Регистрируем наш фильтр в  PHP */
-stream_filter_register("strtoupper", "strtoupper_filter")
-    or die("Не удалось зарегистрировать фильтр");
+/* Регистрируем наш фильтр в  PHP */
+stream_filter_register("strtoupper", "strtoupper_filter")
+    or die("Не удалось зарегистрировать фильтр");
 
-$fp = fopen("foo-bar.txt", "w");
+$fp = fopen("foo-bar.txt", "w");
 
-/* Присоединяем зарегистрированный фильтр к только что открытому потоку */
-stream_filter_append($fp, "strtoupper");
+/* Присоединяем зарегистрированный фильтр к только что открытому потоку */
+stream_filter_append($fp, "strtoupper");
 
-fwrite($fp, "Line1\n");
-fwrite($fp, "Word - 2\n");
-fwrite($fp, "Easy As 123\n");
+fwrite($fp, "Line1\n");
+fwrite($fp, "Word - 2\n");
+fwrite($fp, "Easy As 123\n");
 
 fclose($fp);
 
-/* Читаем содержимое снова
- */
+/* Читаем содержимое снова
+ */
 readfile("foo-bar.txt");
 
 ?>
@@ -93,59 +93,59 @@ EASY AS 123
 ```php
 <?php
 
-/* Определяем наш класс фильтра */
-class string_filter extends php_user_filter {
-  var $mode;
+/* Определяем наш класс фильтра */
+class string_filter extends php_user_filter {
+  var $mode;
 
-  function filter($in, $out, &$consumed, $closing)
-  {
-    while ($bucket = stream_bucket_make_writeable($in)) {
-      if ($this->mode == 1) {
-        $bucket->data = strtoupper($bucket->data);
-      } elseif ($this->mode == 0) {
-        $bucket->data = strtolower($bucket->data);
-      }
+  function filter($in, $out, &$consumed, $closing)
+  {
+    while ($bucket = stream_bucket_make_writeable($in)) {
+      if ($this->mode == 1) {
+        $bucket->data = strtoupper($bucket->data);
+      } elseif ($this->mode == 0) {
+        $bucket->data = strtolower($bucket->data);
+      }
 
-      $consumed += $bucket->datalen;
-      stream_bucket_append($out, $bucket);
-    }
-    return PSFS_PASS_ON;
-  }
+      $consumed += $bucket->datalen;
+      stream_bucket_append($out, $bucket);
+    }
+    return PSFS_PASS_ON;
+  }
 
-  function onCreate()
-  {
-    if ($this->filtername == 'str.toupper') {
-      $this->mode = 1;
-    } elseif ($this->filtername == 'str.tolower') {
-      $this->mode = 0;
-    } else {
-      /* Был вызван какой-то другой фильтр str.*,
-         возвращаем ошибку, чтобы  PHP мог продолжить его поиск */
-      return false;
-    }
+  function onCreate()
+  {
+    if ($this->filtername == 'str.toupper') {
+      $this->mode = 1;
+    } elseif ($this->filtername == 'str.tolower') {
+      $this->mode = 0;
+    } else {
+      /* Был вызван какой-то другой фильтр str.*,
+         возвращаем ошибку, чтобы  PHP мог продолжить его поиск */
+      return false;
+    }
 
-    return true;
-  }
+    return true;
+  }
 }
 
-/* Регистрируем наш фильтр в  PHP */
-stream_filter_register("str.*", "string_filter")
-    or die("Не удалось зарегистрировать фильтр");
+/* Регистрируем наш фильтр в  PHP */
+stream_filter_register("str.*", "string_filter")
+    or die("Не удалось зарегистрировать фильтр");
 
-$fp = fopen("foo-bar.txt", "w");
+$fp = fopen("foo-bar.txt", "w");
 
-/* Присоединяем зарегистрированный фильтр к только что открытому потоку
-   Мы могли бы использовать здесь  str.tolower */
-stream_filter_append($fp, "str.toupper");
+/* Присоединяем зарегистрированный фильтр к только что открытому потоку
+   Мы могли бы использовать здесь  str.tolower */
+stream_filter_append($fp, "str.toupper");
 
-fwrite($fp, "Line1\n");
-fwrite($fp, "Word - 2\n");
-fwrite($fp, "Easy As 123\n");
+fwrite($fp, "Line1\n");
+fwrite($fp, "Word - 2\n");
+fwrite($fp, "Easy As 123\n");
 
 fclose($fp);
 
-/* Читаем содержимое снова
- */
+/* Читаем содержимое снова
+ */
 readfile("foo-bar.txt");
 ?>
 ```

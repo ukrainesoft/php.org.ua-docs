@@ -53,19 +53,19 @@ mysqli_data_seek(mysqli_result $result, int $offset): bool
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY Name";
-$result = $mysqli->query($query);
+$query = "SELECT Name, CountryCode FROM City ORDER BY Name";
+$result = $mysqli->query($query);
 
-/* Переход к строке 401 */
+/* Переход к строке 401 */
 $result->data_seek(400);
 
-/* Получение строки */
-$row = $result->fetch_row();
+/* Получение строки */
+$row = $result->fetch_row();
 
-printf("Город: %s  Код страны: %s\n", $row[0], $row[1]);
+printf("Город: %s  Код страны: %s\n", $row[0], $row[1]);
 ```
 
 Процедурний стиль
@@ -73,20 +73,20 @@ printf("Город: %s  Код страны: %s\n", $row[0], $row[1]);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY Name";
+$query = "SELECT Name, CountryCode FROM City ORDER BY Name";
 
-$result = mysqli_query($link, $query);
+$result = mysqli_query($link, $query);
 
-/* Переход к строке 401 */
-mysqli_data_seek($result, 400);
+/* Переход к строке 401 */
+mysqli_data_seek($result, 400);
 
-/* Получение строки */
-$row = mysqli_fetch_row($result);
+/* Получение строки */
+$row = mysqli_fetch_row($result);
 
-printf ("Город: %s  Код страны: %s\n", $row[0], $row[1]);
+printf ("Город: %s  Код страны: %s\n", $row[0], $row[1]);
 ```
 
 Результат виконання даних прикладів:
@@ -102,30 +102,30 @@ printf ("Город: %s  Код страны: %s\n", $row[0], $row[1]);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY Name LIMIT 15,4";
-$result = $mysqli->query($query);
+$query = "SELECT Name, CountryCode FROM City ORDER BY Name LIMIT 15,4";
+$result = $mysqli->query($query);
 
-/* Перемещение по набору результатов в обратном порядке */
-for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {
-    $result->data_seek($row_no);
+/* Перемещение по набору результатов в обратном порядке */
+for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {
+    $result->data_seek($row_no);
 
-    /* Получение строки */
-    $row = $result->fetch_row();
+    /* Получение строки */
+    $row = $result->fetch_row();
 
-    printf("Город: %s  Код страны: %s\n", $row[0], $row[1]);
+    printf("Город: %s  Код страны: %s\n", $row[0], $row[1]);
 }
 
-/* Сброс указателя на начало набора результатов */
+/* Сброс указателя на начало набора результатов */
 $result->data_seek(0);
 
-print "\n";
+print "\n";
 
-/* Снова перемещение по тому же набору результатов */
-while ($row = $result->fetch_row()) {
-    printf("Город: %s  Код страны: %s\n", $row[0], $row[1]);
+/* Снова перемещение по тому же набору результатов */
+while ($row = $result->fetch_row()) {
+    printf("Город: %s  Код страны: %s\n", $row[0], $row[1]);
 }
 ```
 

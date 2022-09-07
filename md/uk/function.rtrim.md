@@ -50,25 +50,25 @@ rtrim(string $string, string $characters = " \n\r\t\v\x00"): string
 ```php
 <?php
 
-$text = "\t\tThese are a few words :) ...  ";
-$binary = "\x09Example string\x0A";
-$hello  = "Hello World";
-var_dump($text, $binary, $hello);
+$text = "\t\tThese are a few words :) ...  ";
+$binary = "\x09Example string\x0A";
+$hello  = "Hello World";
+var_dump($text, $binary, $hello);
 
-print "\n";
+print "\n";
 
-$trimmed = rtrim($text);
+$trimmed = rtrim($text);
 var_dump($trimmed);
 
-$trimmed = rtrim($text, " \t.");
+$trimmed = rtrim($text, " \t.");
 var_dump($trimmed);
 
-$trimmed = rtrim($hello, "Hdle");
+$trimmed = rtrim($hello, "Hdle");
 var_dump($trimmed);
 
-// удаляем управляющие ASCII-символы с конца $binary
-// (от 0 до 31 включительно)
-$clean = rtrim($binary, "\x00..\x1F");
+// удаляем управляющие ASCII-символы с конца $binary
+// (от 0 до 31 включительно)
+$clean = rtrim($binary, "\x00..\x1F");
 var_dump($clean);
 
 ?>

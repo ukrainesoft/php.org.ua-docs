@@ -36,15 +36,15 @@ public NoRewindIterator::rewind(): void
 
 ```php
 <?php
-$fruits = array("лимон", "апельсин", "яблоко", "груша");
+$fruits = array("лимон", "апельсин", "яблоко", "груша");
 
-$noRewindIterator = new NoRewindIterator(new ArrayIterator($fruits));
+$noRewindIterator = new NoRewindIterator(new ArrayIterator($fruits));
 
-echo $noRewindIterator->current() . "\n";
+echo $noRewindIterator->current() . "\n";
 $noRewindIterator->next();
-// возврат итератора в начало (ничего не должно случиться)
+// возврат итератора в начало (ничего не должно случиться)
 $noRewindIterator->rewind();
-echo $noRewindIterator->current() . "\n";
+echo $noRewindIterator->current() . "\n";
 ?>
 ```
 

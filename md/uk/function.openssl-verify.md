@@ -15,7 +15,7 @@ opensslverify - Звіряння сигнатури
 ### Опис
 
 ```methodsynopsis
-openssl_verify(    string $data,    string $signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): int|false
+openssl_verify(    string $data,    string $signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): int|false
 ```
 
 **opensslverify()** перевіряє, що підпис `signature` коректна для даних `data` та відкритого ключа `public_key`. Відкритий ключ повинен відповідати закритому ключу, за допомогою якого генерувався підпис.
@@ -58,21 +58,21 @@ openssl_verify(    string $data,    string $signature,    OpenSSLAsy
 
 ```php
 <?php
-// $data и $signature содержат данные и подпись соответственно
+// $data и $signature содержат данные и подпись соответственно
 
-// Извлекает открытый ключ из сертификата и подготавливаем его
-$pubkeyid = openssl_pkey_get_public("file://src/openssl-0.9.6/demos/sign/cert.pem");
+// Извлекает открытый ключ из сертификата и подготавливаем его
+$pubkeyid = openssl_pkey_get_public("file://src/openssl-0.9.6/demos/sign/cert.pem");
 
-// Проверяем, корректна ли подпись
-$ok = openssl_verify($data, $signature, $pubkeyid);
-if ($ok == 1) {
-    echo "Подпись корректная";
-} elseif ($ok == 0) {
-    echo "Подпись некорректная";
-} else {
-    echo "Произошла какая-то ошибка, печаль :(";
+// Проверяем, корректна ли подпись
+$ok = openssl_verify($data, $signature, $pubkeyid);
+if ($ok == 1) {
+    echo "Подпись корректная";
+} elseif ($ok == 0) {
+    echo "Подпись некорректная";
+} else {
+    echo "Произошла какая-то ошибка, печаль :(";
 }
-// Удаляем ключ из памяти
+// Удаляем ключ из памяти
 openssl_free_key($pubkeyid);
 ?>
 ```
@@ -81,28 +81,28 @@ openssl_free_key($pubkeyid);
 
 ```php
 <?php
-//Данные для генерации подписи
-$data = 'my data';
+//Данные для генерации подписи
+$data = 'my data';
 
-//Создаём новую пару открытый/закрытый ключ
-$private_key_res = openssl_pkey_new(array(
-    "private_key_bits" => 2048,
-    "private_key_type" => OPENSSL_KEYTYPE_RSA,
+//Создаём новую пару открытый/закрытый ключ
+$private_key_res = openssl_pkey_new(array(
+    "private_key_bits" => 2048,
+    "private_key_type" => OPENSSL_KEYTYPE_RSA,
 ));
-$details = openssl_pkey_get_details($private_key_res);
-$public_key_res = openssl_pkey_get_public($details['key']);
+$details = openssl_pkey_get_details($private_key_res);
+$public_key_res = openssl_pkey_get_public($details['key']);
 
-//Вычисляем подпись
-openssl_sign($data, $signature, $private_key_res, "sha256WithRSAEncryption");
+//Вычисляем подпись
+openssl_sign($data, $signature, $private_key_res, "sha256WithRSAEncryption");
 
-//Сверяем подпись
-$ok = openssl_verify($data, $signature, $public_key_res, OPENSSL_ALGO_SHA256);
-if ($ok == 1) {
-    echo "корректна";
-} elseif ($ok == 0) {
-    echo "некорректна";
-} else {
-    echo "ошибка: ".openssl_error_string();
+//Сверяем подпись
+$ok = openssl_verify($data, $signature, $public_key_res, OPENSSL_ALGO_SHA256);
+if ($ok == 1) {
+    echo "корректна";
+} elseif ($ok == 0) {
+    echo "некорректна";
+} else {
+    echo "ошибка: ".openssl_error_string();
 }
 ?>
 ```

@@ -15,7 +15,7 @@ shmopopen — Резервування або використання блок�
 ### Опис
 
 ```methodsynopsis
-shmop_open(    int $key,    string $mode,    int $permissions,    int $size): Shmop|false
+shmop_open(    int $key,    string $mode,    int $permissions,    int $size): Shmop|false
 ```
 
 **shmopopen()** резервує або використовує існуючий блок пам'яті, що розділяється.
@@ -63,8 +63,8 @@ shmop_open(    int $key,    string $mode,    int $permissions,   
 
 ```php
 <?php
-$shm_key = ftok(__FILE__, 't');
-$shm_id = shmop_open($shm_key, "c", 0644, 100);
+$shm_key = ftok(__FILE__, 't');
+$shm_id = shmop_open($shm_key, "c", 0644, 100);
 ?>
 ```
 

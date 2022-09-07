@@ -37,13 +37,13 @@ public SolrDisMaxQuery::addUserField(string $field): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery = new SolrDisMaxQuery('lucene');
 $dismaxQuery
 ->addUserField('cat')
 ->addUserField('text')
 ->addUserField('*_dt');
 
-echo $dismaxQuery.PHP_EOL;
+echo $dismaxQuery.PHP_EOL;
 
 ?>
 ```

@@ -12,8 +12,8 @@ title: Чим посилання не є
 
 ```php
 <?php
-function foo(&$var) {
-    $var =& $GLOBALS["baz"];
+function foo(&$var) {
+    $var =& $GLOBALS["baz"];
 }
 foo($bar);
 ?>

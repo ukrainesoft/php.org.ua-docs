@@ -94,7 +94,7 @@ public modify(string $modifier): DateTime|false
 public static __set_state(array $array): DateTime
 public setDate(int $year, int $month, int $day): DateTime
 public setISODate(int $year, int $week, int $dayOfWeek = 1): DateTime
-public setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
+public setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
 public setTimestamp(int $timestamp): DateTime
 public setTimezone(DateTimeZone $timezone): DateTime
 public sub(DateInterval $interval): DateTime

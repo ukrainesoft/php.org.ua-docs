@@ -15,7 +15,7 @@ traderad — Індикатор Чайкіна Накопичення/Розпр
 ### Опис
 
 ```methodsynopsis
-trader_ad(    array $high,    array $low,    array $close,    array $volume): array
+trader_ad(    array $high,    array $low,    array $close,    array $volume): array
 ```
 
 ### Список параметрів

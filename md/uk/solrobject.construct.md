@@ -32,7 +32,7 @@ public **SolrObject::construct**
 
 ```php
 <?php
-/* ... */
+/* ... */
 ?>
 ```
 

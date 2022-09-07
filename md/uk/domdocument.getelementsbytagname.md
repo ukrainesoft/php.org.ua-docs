@@ -36,20 +36,20 @@ public DOMDocument::getElementsByTagName(string $qualifiedName): DOMNodeList
 
 ```php
 <?php
-$xml = <<< XML
-<?xml version="1.0" encoding="utf-8"?>
+$xml = <<< XML
+<?xml version="1.0" encoding="utf-8"?>
 <books>
- <book>Шаблоны корпоративных приложений</book>
- <book>Приёмы объектно-ориентированного проектирования. Паттерны проектирования</book>
- <book>Чистый код</book>
+ <book>Шаблоны корпоративных приложений</book>
+ <book>Приёмы объектно-ориентированного проектирования. Паттерны проектирования</book>
+ <book>Чистый код</book>
 </books>
 XML;
 
-$dom = new DOMDocument;
+$dom = new DOMDocument;
 $dom->loadXML($xml);
-$books = $dom->getElementsByTagName('book');
-foreach ($books as $book) {
-    echo $book->nodeValue, PHP_EOL;
+$books = $dom->getElementsByTagName('book');
+foreach ($books as $book) {
+    echo $book->nodeValue, PHP_EOL;
 }
 ?>
 ```

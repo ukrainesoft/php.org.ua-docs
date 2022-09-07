@@ -16,7 +16,7 @@ title: Використання бібліотеки PHP для MongoDB (PHPLIB)
 
 Останнє, що нам необхідно встановити, перш ніж почати писати нашу програму - встановити бібліотеку PHP.
 
-Бібліотеку встановлюватимемо за допомогою пакетного менеджера [» Composer](https://getcomposer.org/). Інструкції зі встановлення Composer шукайте на його сайті.
+Бібліотеку встановлюватимемо за допомогою пакетного менеджера [» Composer](https://getcomposer.org/). Інструкції зі встановлення Composer шукайте на його сайті.
 
 Встановлюємо бібліотеку так:
 
@@ -38,26 +38,26 @@ Composer створить кілька файлів: `composer.json` `composer.l
 
 ```php
 <?php
-// Этот путь должен указывать на автозагрузчик Composer
-require 'vendor/autoload.php';
+// Этот путь должен указывать на автозагрузчик Composer
+require 'vendor/autoload.php';
 ```
 
-Після цього можна використовувати будь-який функціонал, описаний у [» документации по библиотеке](https://www.mongodb.com/docs/php-library/current/)
+Після цього можна використовувати будь-який функціонал, описаний у [» документации по библиотеке](https://www.mongodb.com/docs/php-library/current/)
 
-Якщо ви раніше використовували старіший драйвер (тобто модуль `mongo`), то API бібліотеки має бути вам знайоме. Воно містить клас [» Client](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBClient/) для з'єднання з MongoDB, клас [» Database](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBDatabase/) для операцій рівня бази даних (тобто команди, управління колекціями) та клас [» Collection](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBCollection) для операцій рівня колекції (тобто методи [» CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), Управління індексами). Різні методи Collection були перейменовані для більшої зрозумілості та відповідності мовно-незалежній [» специфікації](https://github.com/mongodb/specifications/blob/master/source/crud/crud.rst)
+Якщо ви раніше використовували старіший драйвер (тобто модуль `mongo`), то API бібліотеки має бути вам знайоме. Воно містить клас [» Client](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBClient/) для з'єднання з MongoDB, клас [» Database](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBDatabase/) для операцій рівня бази даних (тобто команди, управління колекціями) та клас [» Collection](https://www.mongodb.com/docs/php-library/master/reference//class/MongoDBCollection) для операцій рівня колекції (тобто методи [» CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete), Управління індексами). Різні методи Collection були перейменовані для більшої зрозумілості та відповідності мовно-незалежній [» специфікації](https://github.com/mongodb/specifications/blob/master/source/crud/crud.rst)
 
 Приклад, як вставити документ у колекцію *beers* бази даних *demo*
 
 ```php
 <?php
-require 'vendor/autoload.php'; // подключаем автоподгрузчик классов Composer
+require 'vendor/autoload.php'; // подключаем автоподгрузчик классов Composer
 
-$client = new MongoDB\Client("mongodb://localhost:27017");
-$collection = $client->demo->beers;
+$client = new MongoDB\Client("mongodb://localhost:27017");
+$collection = $client->demo->beers;
 
-$result = $collection->insertOne( [ 'name' => 'Hinterland', 'brewery' => 'BrewDog' ] );
+$result = $collection->insertOne( [ 'name' => 'Hinterland', 'brewery' => 'BrewDog' ] );
 
-echo "Идентификатор вставленного документа '{$result->getInsertedId()}'";
+echo "Идентификатор вставленного документа '{$result->getInsertedId()}'";
 ?>
 ```
 
@@ -67,15 +67,15 @@ echo "Идентификатор вставленного документа�
 
 ```php
 <?php
-require 'vendor/autoload.php'; // подключаем автоподгрузчик классов Composer
+require 'vendor/autoload.php'; // подключаем автоподгрузчик классов Composer
 
-$client = new MongoDB\Client("mongodb://localhost:27017");
-$collection = $client->demo->beers;
+$client = new MongoDB\Client("mongodb://localhost:27017");
+$collection = $client->demo->beers;
 
-$result = $collection->find( [ 'name' => 'Hinterland', 'brewery' => 'BrewDog' ] );
+$result = $collection->find( [ 'name' => 'Hinterland', 'brewery' => 'BrewDog' ] );
 
-foreach ($result as $entry) {
-    echo $entry['_id'], ': ', $entry['name'], "\n";
+foreach ($result as $entry) {
+    echo $entry['_id'], ': ', $entry['name'], "\n";
 }
 ?>
 ```

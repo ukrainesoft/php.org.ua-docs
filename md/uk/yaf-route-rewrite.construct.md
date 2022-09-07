@@ -40,17 +40,17 @@ public **YafRouteRewrite::construct**(string `$match`, array `$route`, array `$v
 
 ```php
 <?php
-   /**
-    * Добавить маршрут перезаписи в стек маршрутов Yaf_Router
-    */
-    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
-        new Yaf_Route_rewrite(
-           "/product/:name/:id/*", //запрос на совпадение с ведущим "/product"
-           array(
-               'controller' => "product",  //маршрут к контроллеру product,
-           ),
-        )
-    );
+   /**
+    * Добавить маршрут перезаписи в стек маршрутов Yaf_Router
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
+        new Yaf_Route_rewrite(
+           "/product/:name/:id/*", //запрос на совпадение с ведущим "/product"
+           array(
+               'controller' => "product",  //маршрут к контроллеру product,
+           ),
+        )
+    );
 ?>
 ```
 
@@ -80,21 +80,21 @@ array(
 
 ```php
 <?php
-   /**
-    * Добавьте маршрут перезаписи в стек маршрутов Yaf_Router, вызвав addconfig
-    */
-    $config = array(
-        "name" => array(
-           "type"  => "rewrite",        //маршрут Yaf_Route_Rewrite
-           "match" => "/user-list/:id", //совпадение только по /user/list/?/
-           "route" => array(
-               'controller' => "user",  //маршрут к контроллеру user,
-               'action'     => "list",  //маршрут к действию list
-           ),
-        ),
-    );
-    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
-        new Yaf_Config_Simple($config));
+   /**
+    * Добавьте маршрут перезаписи в стек маршрутов Yaf_Router, вызвав addconfig
+    */
+    $config = array(
+        "name" => array(
+           "type"  => "rewrite",        //маршрут Yaf_Route_Rewrite
+           "match" => "/user-list/:id", //совпадение только по /user/list/?/
+           "route" => array(
+               'controller' => "user",  //маршрут к контроллеру user,
+               'action'     => "list",  //маршрут к действию list
+           ),
+        ),
+    );
+    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
+        new Yaf_Config_Simple($config));
 ?>
 ```
 
@@ -122,21 +122,21 @@ array(
 
 ```php
 <?php
-   /**
-    * Добавить переписать маршрут использовать результат поиска как имя м/к/д
-    */
-    $config = array(
-        "name" => array(
-           "type"  => "rewrite",
-           "match" => "/user-list/:a/:id", //совпадение только по /user-list/*
-           "route" => array(
-               'controller' => "user",   //маршрут к контроллеру user,
-               'action'     => ":a",     //маршрут к действию :a
-           ),
-        ),
-    );
-    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
-        new Yaf_Config_Simple($config));
+   /**
+    * Добавить переписать маршрут использовать результат поиска как имя м/к/д
+    */
+    $config = array(
+        "name" => array(
+           "type"  => "rewrite",
+           "match" => "/user-list/:a/:id", //совпадение только по /user-list/*
+           "route" => array(
+               'controller' => "user",   //маршрут к контроллеру user,
+               'action'     => ":a",     //маршрут к действию :a
+           ),
+        ),
+    );
+    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
+        new Yaf_Config_Simple($config));
 ?>
 ```
 

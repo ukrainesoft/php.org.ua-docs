@@ -40,10 +40,10 @@ function_exists(string $function): bool
 
 ```php
 <?php
-if (function_exists('imap_open')) {
-    echo "Функции IMAP доступны.<br />\n";
-} else {
-    echo "Функции IMAP недоступны.<br />\n";
+if (function_exists('imap_open')) {
+    echo "Функции IMAP доступны.<br />\n";
+} else {
+    echo "Функции IMAP недоступны.<br />\n";
 }
 ?>
 ```

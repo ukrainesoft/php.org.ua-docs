@@ -44,12 +44,12 @@ intlcal_get_time(IntlCalendar $calendar): float|false
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'en_US');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'en_US');
 
-$cal = new IntlGregorianCalendar(2013, 4 /* Май */, 1, 0, 0, 0);
-$time = $cal->getTime();
-var_dump($time, $time / 1000 == strtotime('2013-05-01 00:00:00')); //true
+$cal = new IntlGregorianCalendar(2013, 4 /* Май */, 1, 0, 0, 0);
+$time = $cal->getTime();
+var_dump($time, $time / 1000 == strtotime('2013-05-01 00:00:00')); //true
 ```
 
 Результат виконання цього прикладу:

@@ -20,7 +20,7 @@ title: Робимо щось корисне
 
 ```php
 <?php
-echo $_SERVER['HTTP_USER_AGENT'];
+echo $_SERVER['HTTP_USER_AGENT'];
 ?>
 ```
 
@@ -38,8 +38,8 @@ Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
 
 ```php
 <?php
-if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE) {
-    echo 'Вы используете Internet Explorer.<br />';
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE) {
+    echo 'Вы используете Internet Explorer.<br />';
 }
 ?>
 ```
@@ -60,15 +60,15 @@ if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE) {
 
 ```php
 <?php
-if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE) {
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE) {
 ?>
-<h3>strpos(), должно быть, вернул не false</h3>
-<p>Вы используете Internet Explorer</p>
+<h3>strpos(), должно быть, вернул не false</h3>
+<p>Вы используете Internet Explorer</p>
 <?php
-} else {
+} else {
 ?>
-<h3>strpos() вернул false</h3>
-<p>Вы не используете Internet Explorer</p>
+<h3>strpos() вернул false</h3>
+<p>Вы не используете Internet Explorer</p>
 <?php
 }
 ?>

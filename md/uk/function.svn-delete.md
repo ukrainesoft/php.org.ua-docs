@@ -44,4 +44,4 @@ svn_delete(string $path, bool $force = false): bool
 
 ### Дивіться також
 
--   [» SVN-документация по svn delete](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.delete.md)
+-   [» SVN-документация по svn delete](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.delete.md)

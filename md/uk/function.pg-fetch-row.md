@@ -55,21 +55,21 @@ pg_fetch_row(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_NUM): arr
 ```php
 <?php
 
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-$result = pg_query($conn, "SELECT author, email FROM authors");
-if (!$result) {
-  echo "Произошла ошибка.\n";
-  exit;
+$result = pg_query($conn, "SELECT author, email FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-while ($row = pg_fetch_row($result)) {
-  echo "Автор: $row[0]  E-mail: $row[1]";
-  echo "<br />\n";
+while ($row = pg_fetch_row($result)) {
+  echo "Автор: $row[0]  E-mail: $row[1]";
+  echo "<br />\n";
 }
 
 ?>

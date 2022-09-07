@@ -44,16 +44,16 @@ ssh2_publickey_list(resource $pkey): array
 
 ```php
 <?php
-$ssh2 = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($ssh2, 'jdoe', 'secret');
-$pkey = ssh2_publickey_init($ssh2);
+$ssh2 = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($ssh2, 'jdoe', 'secret');
+$pkey = ssh2_publickey_init($ssh2);
 
-$list = ssh2_publickey_list($pkey);
+$list = ssh2_publickey_list($pkey);
 
-foreach($list as $key) {
-  echo "Key: {$key['name']}\n";
-  echo "Blob: " . chunk_split(base64_encode($key['blob']), 40, "\n") . "\n";
-  echo "Comment: {$key['attrs']['comment']}\n\n";
+foreach($list as $key) {
+  echo "Key: {$key['name']}\n";
+  echo "Blob: " . chunk_split(base64_encode($key['blob']), 40, "\n") . "\n";
+  echo "Comment: {$key['attrs']['comment']}\n\n";
 }
 ?>
 ```

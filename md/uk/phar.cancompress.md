@@ -36,10 +36,10 @@ final public static Phar::canCompress(int $compression = 0): bool
 
 ```php
 <?php
-if (Phar::canCompress()) {
-    echo file_get_contents('phar://compressedphar.phar/internal/file.txt');
-} else {
-    echo 'сжатие недоступно';
+if (Phar::canCompress()) {
+    echo file_get_contents('phar://compressedphar.phar/internal/file.txt');
+} else {
+    echo 'сжатие недоступно';
 }
 ?>
 ```

@@ -48,25 +48,25 @@ public ImagickDraw::matte(float $x, float $y, int $paintMethod): bool
 
 ```php
 <?php
-function matte($strokeColor, $fillColor, $backgroundColor, $paintType) {
-    $draw = new \ImagickDraw();
+function matte($strokeColor, $fillColor, $backgroundColor, $paintType) {
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
 
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
 
-    $draw->matte(120, 120, $paintType);
-    $draw->rectangle(100, 100, 300, 200);
+    $draw->matte(120, 120, $paintType);
+    $draw->rectangle(100, 100, 300, 200);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

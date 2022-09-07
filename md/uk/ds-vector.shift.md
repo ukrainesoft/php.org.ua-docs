@@ -38,7 +38,7 @@ public Ds\Vector::shift(): mixed
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", "b", "c"]);
+$vector = new \Ds\Vector(["a", "b", "c"]);
 
 var_dump($vector->shift());
 var_dump($vector->shift());

@@ -34,30 +34,30 @@ public ImagickPixelIterator::getNextIteratorRow(): array
 
 ```php
 <?php
-function getNextIteratorRow($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imageIterator = $imagick->getPixelIterator();
+function getNextIteratorRow($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imageIterator = $imagick->getPixelIterator();
 
-    $count = 0;
-    while ($pixels = $imageIterator->getNextIteratorRow()) {
-        if (($count % 3) == 0) {
-            /* Походим по пикселям в строке (столбцы) */
-            foreach ($pixels as $column => $pixel) {
-                /** @var $pixel \ImagickPixel */
-                if ($column % 2) {
-                    /* Красим каждый второй пиксель черным*/
-                    $pixel->setColor("rgba(0, 0, 0, 0)");
-                }
-            }
-            /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
-            $imageIterator->syncIterator();
-        }
+    $count = 0;
+    while ($pixels = $imageIterator->getNextIteratorRow()) {
+        if (($count % 3) == 0) {
+            /* Походим по пикселям в строке (столбцы) */
+            foreach ($pixels as $column => $pixel) {
+                /** @var $pixel \ImagickPixel */
+                if ($column % 2) {
+                    /* Красим каждый второй пиксель черным*/
+                    $pixel->setColor("rgba(0, 0, 0, 0)");
+                }
+            }
+            /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
+            $imageIterator->syncIterator();
+        }
 
-        $count += 1;
-    }
+        $count += 1;
+    }
 
-    header("Content-Type: image/jpg");
-    echo $imagick;
+    header("Content-Type: image/jpg");
+    echo $imagick;
 }
 
 ?>

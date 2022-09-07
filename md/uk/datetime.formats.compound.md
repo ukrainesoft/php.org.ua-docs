@@ -38,14 +38,14 @@ title: Складові форматів
 | ATOM | "2022-06-02T16:58:35+00:00" |
 | COOKIE | "Thursday, 02-Jun-2022 16:58:35 UTC" |
 | ISO8601 | "2022-06-02T16:58:35+0000" |
-| [» RFC 822](http://www.faqs.org/rfcs/rfc822) | "Thu, 02 Jun 22 16:58:35 +0000" |
-| [» RFC 850](http://www.faqs.org/rfcs/rfc850) | "Thursday, 02-Jun-22 16:58:35 UTC" |
-| [» RFC 1036](http://www.faqs.org/rfcs/rfc1036) | "Thu, 02 Jun 22 16:58:35 +0000" |
-| [» RFC 1123](http://www.faqs.org/rfcs/rfc1123) | "Thu, 02 Jun 2022 16:58:35 +0000" |
-| [» RFC 2822](http://www.faqs.org/rfcs/rfc2822) | "Thu, 02 Jun 2022 16:58:35 +0000" |
-| [» RFC 3339](http://www.faqs.org/rfcs/rfc3339) | "2022-06-02T16:58:35+00:00" |
-| [» RFC 3339](http://www.faqs.org/rfcs/rfc3339) Extended | "2022-06-02T16:58:35.698+00:00" |
-| [» RFC 7231](http://www.faqs.org/rfcs/rfc7231) | "Thu, 02 Jun 2022 16:58:35 GMT" |
+| [» RFC 822](http://www.faqs.org/rfcs/rfc822) | "Thu, 02 Jun 22 16:58:35 +0000" |
+| [» RFC 850](http://www.faqs.org/rfcs/rfc850) | "Thursday, 02-Jun-22 16:58:35 UTC" |
+| [» RFC 1036](http://www.faqs.org/rfcs/rfc1036) | "Thu, 02 Jun 22 16:58:35 +0000" |
+| [» RFC 1123](http://www.faqs.org/rfcs/rfc1123) | "Thu, 02 Jun 2022 16:58:35 +0000" |
+| [» RFC 2822](http://www.faqs.org/rfcs/rfc2822) | "Thu, 02 Jun 2022 16:58:35 +0000" |
+| [» RFC 3339](http://www.faqs.org/rfcs/rfc3339) | "2022-06-02T16:58:35+00:00" |
+| [» RFC 3339](http://www.faqs.org/rfcs/rfc3339) Extended | "2022-06-02T16:58:35.698+00:00" |
+| [» RFC 7231](http://www.faqs.org/rfcs/rfc7231) | "Thu, 02 Jun 2022 16:58:35 GMT" |
 | RSS | "Thu, 02 Jun 2022 16:58:35 +0000" |
 | W3C | "2022-06-02T16:58:35+00:00" |
 

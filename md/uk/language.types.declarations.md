@@ -37,8 +37,8 @@ title: Оголошення типів
 
 ```php
 <?php
-    function test(boolean $param) {}
-    test(true);
+    function test(boolean $param) {}
+    test(true);
 ?>
 ```
 
@@ -64,19 +64,19 @@ Stack trace:
 
 ```php
 <?php
-class C {}
-class D extends C {}
+class C {}
+class D extends C {}
 
-// Не является наследником C.
-class E {}
+// Не является наследником C.
+class E {}
 
-function f(C $c) {
-    echo get_class($c)."\n";
+function f(C $c) {
+    echo get_class($c)."\n";
 }
 
-f(new C);
-f(new D);
-f(new E);
+f(new C);
+f(new D);
+f(new E);
 ?>
 ```
 
@@ -97,18 +97,18 @@ Stack trace:
 
 ```php
 <?php
-interface I { public function f(); }
-class C implements I { public function f() {} }
+interface I { public function f(); }
+class C implements I { public function f() {} }
 
-// Не реализует интерфейс I.
-class E {}
+// Не реализует интерфейс I.
+class E {}
 
-function f(I $i) {
-    echo get_class($i)."\n";
+function f(I $i) {
+    echo get_class($i)."\n";
 }
 
-f(new C);
-f(new E);
+f(new C);
+f(new E);
 ?>
 ```
 
@@ -128,12 +128,12 @@ Stack trace:
 
 ```php
 <?php
-function sum($a, $b): float {
-    return $a + $b;
+function sum($a, $b): float {
+    return $a + $b;
 }
 
-// Обратите внимание, что будет возвращено число с плавающей точкой.
-var_dump(sum(1, 2));
+// Обратите внимание, что будет возвращено число с плавающей точкой.
+var_dump(sum(1, 2));
 ?>
 ```
 
@@ -147,10 +147,10 @@ float(3)
 
 ```php
 <?php
-class C {}
+class C {}
 
-function getC(): C {
-    return new C;
+function getC(): C {
+    return new C;
 }
 
 var_dump(getC());
@@ -172,13 +172,13 @@ object(C)#1 (0) {
 
 ```php
 <?php
-class C {}
+class C {}
 
-function f(?C $c) {
-    var_dump($c);
+function f(?C $c) {
+    var_dump($c);
 }
 
-f(new C);
+f(new C);
 f(null);
 ?>
 ```
@@ -195,12 +195,12 @@ NULL
 
 ```php
 <?php
-function get_item(): ?string {
-    if (isset($_GET['item'])) {
-        return $_GET['item'];
-    } else {
-        return null;
-    }
+function get_item(): ?string {
+    if (isset($_GET['item'])) {
+        return $_GET['item'];
+    } else {
+        return null;
+    }
 }
 ?>
 ```
@@ -213,13 +213,13 @@ function get_item(): ?string {
 > 
 > ```php
 > <?php
-> class C {}
+> class C {}
 > 
-> function f(C $c = null) {
->     var_dump($c);
+> function f(C $c = null) {
+>     var_dump($c);
 > }
 > 
-> f(new C);
+> f(new C);
 > f(null);
 > ?>
 > ```
@@ -291,16 +291,16 @@ function get_item(): ?string {
 
 ```php
 <?php
-function foo(): int|INT {} // Запрещено
-function foo(): bool|false {} // Запрещено
-function foo(): int&Traversable {} // Запрещено
-function foo(): self&Traversable {} // Запрещено
-use A as B;
-function foo(): A|B {} // Запрещено ("use" является частью разрешения имён)
-function foo(): A&B {} // Запрещено ("use" является частью разрешения имён)
-class_alias('X', 'Y');
-function foo(): X|Y {} // Допустимо (повторение будет определено только во время выполнения)
-function foo(): X&Y {} // Допустимо (повторение будет определено только во время выполнения)
+function foo(): int|INT {} // Запрещено
+function foo(): bool|false {} // Запрещено
+function foo(): int&Traversable {} // Запрещено
+function foo(): self&Traversable {} // Запрещено
+use A as B;
+function foo(): A|B {} // Запрещено ("use" является частью разрешения имён)
+function foo(): A&B {} // Запрещено ("use" является частью разрешения имён)
+class_alias('X', 'Y');
+function foo(): X|Y {} // Допустимо (повторение будет определено только во время выполнения)
+function foo(): X&Y {} // Допустимо (повторение будет определено только во время выполнения)
 ?>
 ```
 
@@ -316,7 +316,7 @@ function foo(): X&Y {} // Допустимо (повторение буд
 > 
 > ```php
 > <?php
-> function &test(): void {}
+> function &test(): void {}
 > ?>
 > ```
 
@@ -356,12 +356,12 @@ never, говорячи мовою теорії типів, є нижчим ти
 <?php
 declare(strict_types=1);
 
-function sum(int $a, int $b) {
-    return $a + $b;
+function sum(int $a, int $b) {
+    return $a + $b;
 }
 
-var_dump(sum(1, 2));
-var_dump(sum(1.5, 2.5));
+var_dump(sum(1, 2));
+var_dump(sum(1.5, 2.5));
 ?>
 ```
 
@@ -381,14 +381,14 @@ Stack trace:
 
 ```php
 <?php
-function sum(int $a, int $b) {
-    return $a + $b;
+function sum(int $a, int $b) {
+    return $a + $b;
 }
 
-var_dump(sum(1, 2));
+var_dump(sum(1, 2));
 
-// Переданные значения будут приведены к целым числам: обратите внимание на вывод ниже!
-var_dump(sum(1.5, 2.5));
+// Переданные значения будут приведены к целым числам: обратите внимание на вывод ниже!
+var_dump(sum(1.5, 2.5));
 ?>
 ```
 
@@ -405,12 +405,12 @@ int(3)
 <?php
 declare(strict_types=1);
 
-function sum($a, $b): int {
-    return $a + $b;
+function sum($a, $b): int {
+    return $a + $b;
 }
 
-var_dump(sum(1, 2));
-var_dump(sum(1, 2.5));
+var_dump(sum(1, 2));
+var_dump(sum(1, 2.5));
 ?>
 ```
 
@@ -449,26 +449,26 @@ Stack trace:
 
 ```php
 <?php
-// int|string
-42    --> 42          // явный тип
-"42"  --> "42"        // явный тип
-new ObjectWithToString --> строка с результатом выполнения __toString()
-                      // Объекты никогда не будут приведены к целому числу, даже если вернут "числовую строку"
-42.0  --> 42          // float совместим с int
-42.1  --> 42          // float совместим с int
-1e100 --> "1.0E+100"  // float слишком большой для типа int, преобразуется в строку
-INF   --> "INF"       // float слишком большой для типа int, преобразуется в строку
-true  --> 1           // bool совместим с int
-[]    --> TypeError   // array несовместим ни с int, ни со string
+// int|string
+42    --> 42          // явный тип
+"42"  --> "42"        // явный тип
+new ObjectWithToString --> строка с результатом выполнения __toString()
+                      // Объекты никогда не будут приведены к целому числу, даже если вернут "числовую строку"
+42.0  --> 42          // float совместим с int
+42.1  --> 42          // float совместим с int
+1e100 --> "1.0E+100"  // float слишком большой для типа int, преобразуется в строку
+INF   --> "INF"       // float слишком большой для типа int, преобразуется в строку
+true  --> 1           // bool совместим с int
+[]    --> TypeError   // array несовместим ни с int, ни со string
 
-// int|float|bool
-"45"    --> 45        // целочисленная "числовая строка"
-"45.0"  --> 45.0      // "числовая строка" с плавающей точкой
+// int|float|bool
+"45"    --> 45        // целочисленная "числовая строка"
+"45.0"  --> 45.0      // "числовая строка" с плавающей точкой
 
-"45X"   --> true      // не "числовая строка", приведётся к bool
-""      --> false     // не "числовая строка", приведётся к bool
-"X"     --> true      // не "числовая строка", приведётся к bool
-[]      --> TypeError // array несовместим ни с int, ни с float, ни с bool
+"45X"   --> true      // не "числовая строка", приведётся к bool
+""      --> false     // не "числовая строка", приведётся к bool
+"X"     --> true      // не "числовая строка", приведётся к bool
+[]      --> TypeError // array несовместим ни с int, ни с float, ни с bool
 ?>
 ```
 
@@ -480,11 +480,11 @@ true  --> 1           // bool совместим с int
 
 ```php
 <?php
-function array_baz(array &$param)
+function array_baz(array &$param)
 {
-    $param = 1;
+    $param = 1;
 }
-$var = [];
+$var = [];
 array_baz($var);
 var_dump($var);
 array_baz($var);
@@ -509,15 +509,15 @@ Stack trace:
 <?php
 declare(strict_types=1);
 
-function sum(int $a, int $b) {
-    return $a + $b;
+function sum(int $a, int $b) {
+    return $a + $b;
 }
 
-try {
-    var_dump(sum(1, 2));
-    var_dump(sum(1.5, 2.5));
-} catch (TypeError $e) {
-    echo 'Ошибка: ', $e->getMessage();
+try {
+    var_dump(sum(1, 2));
+    var_dump(sum(1.5, 2.5));
+} catch (TypeError $e) {
+    echo 'Ошибка: ', $e->getMessage();
 }
 ?>
 ```

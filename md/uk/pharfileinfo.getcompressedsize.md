@@ -34,13 +34,13 @@ public PharFileInfo::getCompressedSize(): int
 
 ```php
 <?php
-try {
-    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
-    $p['myfile.txt'] = 'hi';
-    $file = $p['myfile.txt'];
-    echo $file->getCompressedSize();
-} catch (Exception $e) {
-    echo 'Операции записи на my.phar завершились ошибкой: ', $e;
+try {
+    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
+    $p['myfile.txt'] = 'hi';
+    $file = $p['myfile.txt'];
+    echo $file->getCompressedSize();
+} catch (Exception $e) {
+    echo 'Операции записи на my.phar завершились ошибкой: ', $e;
 }
 ?>
 ```

@@ -54,13 +54,13 @@ public SyncReaderWriter::__construct(string $name = ?, int $autounlock = 1)
 
 ```php
 <?php
-$readwrite = new SyncReaderWriter("FileCacheLock");
+$readwrite = new SyncReaderWriter("FileCacheLock");
 $readwrite->readlock();
-/* ... */
+/* ... */
 $readwrite->readunlock();
 
 $readwrite->writelock();
-/* ... */
+/* ... */
 $readwrite->writeunlock();
 ?>
 ```

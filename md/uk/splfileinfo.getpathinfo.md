@@ -42,8 +42,8 @@ public SplFileInfo::getPathInfo(?string $class = null): ?SplFileInfo
 
 ```php
 <?php
-$info = new SplFileInfo('/usr/bin/php');
-$parent_info = $info->getPathInfo();
+$info = new SplFileInfo('/usr/bin/php');
+$parent_info = $info->getPathInfo();
 var_dump($parent_info->getRealPath());
 ?>
 ```

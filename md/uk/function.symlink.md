@@ -44,11 +44,11 @@ symlink(string $target, string $link): bool
 
 ```php
 <?php
-$target = 'uploads.php';
-$link = 'uploads';
-symlink($target, $link);
+$target = 'uploads.php';
+$link = 'uploads';
+symlink($target, $link);
 
-echo readlink($link);
+echo readlink($link);
 ?>
 ```
 

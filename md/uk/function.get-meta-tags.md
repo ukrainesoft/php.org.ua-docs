@@ -46,15 +46,15 @@ get_meta_tags(string $filename, bool $use_include_path = false): array|false
 
 ```php
 <?php
-// Предположим, что указанные выше метатеги расположены на www.example.com
-$tags = get_meta_tags('http://www.example.com/');
+// Предположим, что указанные выше метатеги расположены на www.example.com
+$tags = get_meta_tags('http://www.example.com/');
 
-// Обратите внимание, что ключи приведены к нижнему регистру,
-// а точки ('.') в ключах заменены на '_'
-echo $tags['author'];       // name
-echo $tags['keywords'];     // php documentation
-echo $tags['description'];  // a php manual
-echo $tags['geo_position']; // 49.33;-86.59
+// Обратите внимание, что ключи приведены к нижнему регистру,
+// а точки ('.') в ключах заменены на '_'
+echo $tags['author'];       // name
+echo $tags['keywords'];     // php documentation
+echo $tags['description'];  // a php manual
+echo $tags['geo_position']; // 49.33;-86.59
 ?>
 ```
 

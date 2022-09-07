@@ -65,22 +65,22 @@ EXTENDED
 
 ```php
 <?php
-$conn = db2_connect( 'SAMPLE', 'db2inst1', 'ibmdb2' );
-$client = db2_client_info( $conn );
+$conn = db2_connect( 'SAMPLE', 'db2inst1', 'ibmdb2' );
+$client = db2_client_info( $conn );
 
-if ($client) {
-    echo "DRIVER_NAME: ";           var_dump( $client->DRIVER_NAME );
-    echo "DRIVER_VER: ";            var_dump( $client->DRIVER_VER );
-    echo "DATA_SOURCE_NAME: ";      var_dump( $client->DATA_SOURCE_NAME );
-    echo "DRIVER_ODBC_VER: ";       var_dump( $client->DRIVER_ODBC_VER );
-    echo "ODBC_VER: ";              var_dump( $client->ODBC_VER );
-    echo "ODBC_SQL_CONFORMANCE: ";  var_dump( $client->ODBC_SQL_CONFORMANCE );
-    echo "APPL_CODEPAGE: ";         var_dump( $client->APPL_CODEPAGE );
-    echo "CONN_CODEPAGE: ";         var_dump( $client->CONN_CODEPAGE );
+if ($client) {
+    echo "DRIVER_NAME: ";           var_dump( $client->DRIVER_NAME );
+    echo "DRIVER_VER: ";            var_dump( $client->DRIVER_VER );
+    echo "DATA_SOURCE_NAME: ";      var_dump( $client->DATA_SOURCE_NAME );
+    echo "DRIVER_ODBC_VER: ";       var_dump( $client->DRIVER_ODBC_VER );
+    echo "ODBC_VER: ";              var_dump( $client->ODBC_VER );
+    echo "ODBC_SQL_CONFORMANCE: ";  var_dump( $client->ODBC_SQL_CONFORMANCE );
+    echo "APPL_CODEPAGE: ";         var_dump( $client->APPL_CODEPAGE );
+    echo "CONN_CODEPAGE: ";         var_dump( $client->CONN_CODEPAGE );
 }
-else {
-    echo "Error retrieving client information.
-     Perhaps your database connection was invalid.";
+else {
+    echo "Error retrieving client information.
+     Perhaps your database connection was invalid.";
 }
 db2_close($conn);
 

@@ -47,27 +47,27 @@ ftp_chdir(FTP\Connection $ftp, string $directory): bool
 ```php
 <?php
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// проверка соединения
-if ((!$ftp) || (!$login_result)) {
-    die("Не удалось подключиться к FTP-серверу!");
+// проверка соединения
+if ((!$ftp) || (!$login_result)) {
+    die("Не удалось подключиться к FTP-серверу!");
 }
 
-echo "Текущая директория: " . ftp_pwd($ftp) . "\n";
+echo "Текущая директория: " . ftp_pwd($ftp) . "\n";
 
-// пытаемся сменить текущую директорию на somedir
-if (ftp_chdir($ftp, "somedir")) {
-    echo "Новая текущая директория: " . ftp_pwd($ftp) . "\n";
-} else {
-    echo "Не удалось сменить директорию\n";
+// пытаемся сменить текущую директорию на somedir
+if (ftp_chdir($ftp, "somedir")) {
+    echo "Новая текущая директория: " . ftp_pwd($ftp) . "\n";
+} else {
+    echo "Не удалось сменить директорию\n";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 ?>
 ```

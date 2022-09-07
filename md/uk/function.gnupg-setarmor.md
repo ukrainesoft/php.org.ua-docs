@@ -40,9 +40,9 @@ gnupg_setarmor(resource $identifier, int $armor): bool
 
 ```php
 <?php
-$res = gnupg_init();
-gnupg_setarmor($res,1); // текстовый режим вывода;
-gnupg_setarmor($res,0); // бинарный режим вывода;
+$res = gnupg_init();
+gnupg_setarmor($res,1); // текстовый режим вывода;
+gnupg_setarmor($res,0); // бинарный режим вывода;
 ?>
 ```
 
@@ -50,8 +50,8 @@ gnupg_setarmor($res,0); // бинарный режим вывода;
 
 ```php
 <?php
-$gpg = new gnupg();
-$gpg->setarmor(1); // текстовый режим вывода;
-$gpg->setarmor(0); // бинарный режим вывода;
+$gpg = new gnupg();
+$gpg->setarmor(1); // текстовый режим вывода;
+$gpg->setarmor(0); // бинарный режим вывода;
 ?>
 ```

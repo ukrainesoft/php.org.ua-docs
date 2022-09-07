@@ -89,7 +89,7 @@ readonly
 
 ```php
 <?php
-$config = new Yaf_Config_Ini('/path/to/config.ini', 'staging');
+$config = new Yaf_Config_Ini('/path/to/config.ini', 'staging');
 
 var_dump($config->database->params->host);
 var_dump($config->database->params->dbname);

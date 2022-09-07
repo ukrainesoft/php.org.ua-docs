@@ -15,7 +15,7 @@ traderminusdi - Мінус-спрямований індикатор
 ### Опис
 
 ```methodsynopsis
-trader_minus_di(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_minus_di(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

@@ -54,25 +54,25 @@ socket_bind(Socket $socket, string $address, int $port = 0): bool
 
 ```php
 <?php
-// Создаём новый сокет
-$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+// Создаём новый сокет
+$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
-// Пример списка IP-адресов, которые есть на компьютере
-$sourceips['kevin']    = '127.0.0.1';
-$sourceips['madcoder'] = '127.0.0.2';
+// Пример списка IP-адресов, которые есть на компьютере
+$sourceips['kevin']    = '127.0.0.1';
+$sourceips['madcoder'] = '127.0.0.2';
 
-// Привязываем адрес источника
-socket_bind($sock, $sourceips['madcoder']);
+// Привязываем адрес источника
+socket_bind($sock, $sourceips['madcoder']);
 
-// Соединяемся с адресом назначения
-socket_connect($sock, '127.0.0.1', 80);
+// Соединяемся с адресом назначения
+socket_connect($sock, '127.0.0.1', 80);
 
-// Пишем в сокет
-$request = 'GET / HTTP/1.1' . "\r\n" .
-           'Host: example.com' . "\r\n\r\n";
-socket_write($sock, $request);
+// Пишем в сокет
+$request = 'GET / HTTP/1.1' . "\r\n" .
+           'Host: example.com' . "\r\n\r\n";
+socket_write($sock, $request);
 
-// Закрываем сокет
+// Закрываем сокет
 socket_close($sock);
 
 ?>

@@ -54,32 +54,32 @@ mysqli_field_seek(mysqli_result $result, int $index): bool
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Ошибка соединения: %s\n", mysqli_connect_error());
-    exit();
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Ошибка соединения: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";
+$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";
 
-if ($result = $mysqli->query($query)) {
+if ($result = $mysqli->query($query)) {
 
-    /* Получить информацию о поле во втором столбце */
-    $result->field_seek(1);
-    $finfo = $result->fetch_field();
+    /* Получить информацию о поле во втором столбце */
+    $result->field_seek(1);
+    $finfo = $result->fetch_field();
 
-    printf("Имя:     %s\n", $finfo->name);
-    printf("Таблица:    %s\n", $finfo->table);
-    printf("Макс. длина: %d\n", $finfo->max_length);
-    printf("Флаги:    %d\n", $finfo->flags);
-    printf("Тип:     %d\n\n", $finfo->type);
+    printf("Имя:     %s\n", $finfo->name);
+    printf("Таблица:    %s\n", $finfo->table);
+    printf("Макс. длина: %d\n", $finfo->max_length);
+    printf("Флаги:    %d\n", $finfo->flags);
+    printf("Тип:     %d\n\n", $finfo->type);
 
-    $result->close();
+    $result->close();
 }
 
-/* Закрыть соединение */
+/* Закрыть соединение */
 $mysqli->close();
 ?>
 ```
@@ -88,32 +88,32 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Ошибка соединения: %s\n", mysqli_connect_error());
-    exit();
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Ошибка соединения: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";
+$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";
 
-if ($result = mysqli_query($link, $query)) {
+if ($result = mysqli_query($link, $query)) {
 
-    /* Получить информацию о поле во втором столбце */
-    mysqli_field_seek($result, 1);
-    $finfo = mysqli_fetch_field($result);
+    /* Получить информацию о поле во втором столбце */
+    mysqli_field_seek($result, 1);
+    $finfo = mysqli_fetch_field($result);
 
-    printf("Имя:     %s\n", $finfo->name);
-    printf("Таблица:    %s\n", $finfo->table);
-    printf("Макс. длина: %d\n", $finfo->max_length);
-    printf("Флаги:    %d\n", $finfo->flags);
-    printf("Тип:     %d\n\n", $finfo->type);
+    printf("Имя:     %s\n", $finfo->name);
+    printf("Таблица:    %s\n", $finfo->table);
+    printf("Макс. длина: %d\n", $finfo->max_length);
+    printf("Флаги:    %d\n", $finfo->flags);
+    printf("Тип:     %d\n\n", $finfo->type);
 
-    mysqli_free_result($result);
+    mysqli_free_result($result);
 }
 
-/* Закрыть соединение */
+/* Закрыть соединение */
 mysqli_close($link);
 ?>
 ```

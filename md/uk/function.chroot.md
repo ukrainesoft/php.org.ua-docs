@@ -41,7 +41,7 @@ chroot(string $directory): bool
 ```php
 <?php
 chroot("/path/to/your/chroot/");
-echo getcwd();
+echo getcwd();
 ?>
 ```
 

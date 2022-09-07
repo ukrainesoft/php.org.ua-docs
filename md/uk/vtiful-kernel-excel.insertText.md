@@ -15,7 +15,7 @@ VtifulKernelExcel::insertText — Вставити текст
 ### Опис
 
 ```methodsynopsis
-public Vtiful\Kernel\Excel::insertText(    int $row,    int $column,    stringintdouble $data,    string $format = ?)
+public Vtiful\Kernel\Excel::insertText(    int $row,    int $column,    stringintdouble $data,    string $format = ?)
 ```
 
 Вставити текст у комірку.
@@ -48,18 +48,18 @@ public Vtiful\Kernel\Excel::insertText(    int $row,    int $column,  
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$excel = new \Vtiful\Kernel\Excel($config);
+$excel = new \Vtiful\Kernel\Excel($config);
 
-$file = $excel->fileName("free.xlsx")
-    ->header(['name', 'money']);
+$file = $excel->fileName("free.xlsx")
+    ->header(['name', 'money']);
 
-for ($index = 0; $index < 10; $index++) {
-    $file->insertText($index+1, 0, 'viest');
-    $file->insertText($index+1, 1, 10000, '#,##0');
+for ($index = 0; $index < 10; $index++) {
+    $file->insertText($index+1, 0, 'viest');
+    $file->insertText($index+1, 1, 10000, '#,##0');
 }
 
 $textFile->output();

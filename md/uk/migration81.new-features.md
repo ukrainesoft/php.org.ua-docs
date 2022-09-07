@@ -16,8 +16,8 @@ title: Нова функціональність
 
 ```php
 <?php
-014;  // Восьмеричный литерал без префикса
-0o14; // Восьмеричный литерал с префиксом
+014;  // Восьмеричный литерал без префикса
+0o14; // Восьмеричный литерал с префиксом
 ?>
 ```
 
@@ -27,8 +27,8 @@ title: Нова функціональність
 
 ```php
 <?php
-$arr1 = [1, 'a' => 'b'];
-$arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']
+$arr1 = [1, 'a' => 'b'];
+$arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']
 ?>
 ```
 
@@ -96,8 +96,8 @@ $arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']
 
 ```php
 <?php
-$file = new CURLStringFile($data, 'filename.txt', 'text/plain');
-curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' => $file]);
+$file = new CURLStringFile($data, 'filename.txt', 'text/plain');
+curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' => $file]);
 ?>
 ```
 
@@ -127,8 +127,8 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' => $file]);
 
 ```php
 <?php
-$h = hash("murmur3f", $data, options: ["seed" => 42]);
-echo $h, "\n";
+$h = hash("murmur3f", $data, options: ["seed" => 42]);
+echo $h, "\n";
 ?>
 ```
 
@@ -147,8 +147,8 @@ echo $h, "\n";
 
 ```php
 <?php
-$h = hash("xxh3", $data, options: ["seed" => 42]);
-echo $h, "\n";
+$h = hash("xxh3", $data, options: ["seed" => 42]);
+echo $h, "\n";
 ?>
 ```
 
@@ -156,8 +156,8 @@ echo $h, "\n";
 
 ```php
 <?php
-$h = hash("xxh3", $data, options: ["secret" => "как минимум 136 байт секрета"]);
-echo $h, "\n";
+$h = hash("xxh3", $data, options: ["secret" => "как минимум 136 байт секрета"]);
+echo $h, "\n";
 ?>
 ```
 
@@ -175,8 +175,8 @@ echo $h, "\n";
 
 ```php
 <?php
-$stmt = $mysqli->prepare('INSERT INTO users(id, name) VALUES(?,?)');
-$stmt->execute([1, $username]);
+$stmt = $mysqli->prepare('INSERT INTO users(id, name) VALUES(?,?)');
+$stmt->execute([1, $username]);
 ?>
 ```
 
@@ -186,8 +186,8 @@ $stmt->execute([1, $username]);
 
 ```php
 <?php
-$result = $mysqli->query('SELECT username FROM users WHERE id = 123');
-echo $result->fetch_column();
+$result = $mysqli->query('SELECT username FROM users WHERE id = 123');
+echo $result->fetch_column();
 ?>
 ```
 
@@ -201,7 +201,7 @@ echo $result->fetch_column();
 
 ```php
 <?php
-new PDO('sqlite:file:path/to/sqlite.db?mode=ro')
+new PDO('sqlite:file:path/to/sqlite.db?mode=ro')
 ?>
 ```
 

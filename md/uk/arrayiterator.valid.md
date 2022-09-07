@@ -34,16 +34,16 @@ public ArrayIterator::valid(): bool
 
 ```php
 <?php
-$array = array('1' => 'one');
+$array = array('1' => 'one');
 
-$arrayobject = new ArrayObject($array);
-$iterator = $arrayobject->getIterator();
+$arrayobject = new ArrayObject($array);
+$iterator = $arrayobject->getIterator();
 
-var_dump($iterator->valid()); //bool(true)
+var_dump($iterator->valid()); //bool(true)
 
-$iterator->next(); // перемещаем указатель на следующий элемент
+$iterator->next(); // перемещаем указатель на следующий элемент
 
-//bool(false) потому что в Масиве только один элемент
+//bool(false) потому что в Масиве только один элемент
 var_dump($iterator->valid());
 ?>
 ```

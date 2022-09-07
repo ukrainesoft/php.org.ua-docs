@@ -38,11 +38,11 @@ public Imagick::spreadImage(float $radius): bool
 
 ```php
 <?php
-function spreadImage($imagePath, $radius) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->spreadImage($radius);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function spreadImage($imagePath, $radius) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->spreadImage($radius);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

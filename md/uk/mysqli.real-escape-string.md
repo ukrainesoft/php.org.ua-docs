@@ -63,20 +63,20 @@ mysqli_real_escape_string(mysqli $mysql, string $string): string
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$city = "'s-Hertogenbosch";
+$city = "'s-Hertogenbosch";
 
-/* этот запрос с экранированным $city будет работать */
-$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",
-    $mysqli->real_escape_string($city));
-$result = $mysqli->query($query);
-printf("Возвращённые строки: %d.\n", $result->num_rows);
+/* этот запрос с экранированным $city будет работать */
+$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",
+    $mysqli->real_escape_string($city));
+$result = $mysqli->query($query);
+printf("Возвращённые строки: %d.\n", $result->num_rows);
 
-/* этот запрос завершится ошибкой, потому что мы не экранировали $city */
-$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'", $city);
-$result = $mysqli->query($query);
+/* этот запрос завершится ошибкой, потому что мы не экранировали $city */
+$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'", $city);
+$result = $mysqli->query($query);
 ```
 
 Процедурний стиль
@@ -84,20 +84,20 @@ $result = $mysqli->query($query);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$city = "'s-Hertogenbosch";
+$city = "'s-Hertogenbosch";
 
-/* этот запрос с экранированным $city будет работать */
-$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",
-    mysqli_real_escape_string($mysqli, $city));
-$result = mysqli_query($mysqli, $query);
-printf("Возвращённые строки: %d.\n", mysqli_num_rows($result));
+/* этот запрос с экранированным $city будет работать */
+$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",
+    mysqli_real_escape_string($mysqli, $city));
+$result = mysqli_query($mysqli, $query);
+printf("Возвращённые строки: %d.\n", mysqli_num_rows($result));
 
-/* этот запрос завершится ошибкой, потому что мы не экранировали $city */
-$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'", $city);
-$result = mysqli_query($mysqli, $query);
+/* этот запрос завершится ошибкой, потому что мы не экранировали $city */
+$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'", $city);
+$result = mysqli_query($mysqli, $query);
 ```
 
 Результатом виконання даних прикладів буде щось подібне:

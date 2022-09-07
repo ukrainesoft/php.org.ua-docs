@@ -53,17 +53,17 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     int
      $signum
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -72,17 +72,17 @@ public
     final
    public
    static
-   createStopped(    
+   createStopped(    
     int
      $signum
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

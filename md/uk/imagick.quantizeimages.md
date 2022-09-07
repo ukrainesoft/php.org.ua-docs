@@ -15,7 +15,7 @@ Imagick::quantizeImages — Аналізує кольори у послідов�
 ### Опис
 
 ```methodsynopsis
-public Imagick::quantizeImages(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
+public Imagick::quantizeImages(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
 ```
 
 ### Список параметрів

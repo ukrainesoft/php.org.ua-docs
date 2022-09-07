@@ -41,13 +41,13 @@ chdir(string $directory): bool
 ```php
 <?php
 
-// текущий каталог
-echo getcwd() . "\n";
+// текущий каталог
+echo getcwd() . "\n";
 
 chdir('public_html');
 
-// текущий каталог
-echo getcwd() . "\n";
+// текущий каталог
+echo getcwd() . "\n";
 
 ?>
 ```

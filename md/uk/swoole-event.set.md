@@ -15,7 +15,7 @@ SwooleEvent::set — Оновлює callback-функції події соке�
 ### Опис
 
 ```methodsynopsis
-public static Swoole\Event::set(    int $fd,    string $read_callback = ?,    string $write_callback = ?,    string $events = ?): bool
+public static Swoole\Event::set(    int $fd,    string $read_callback = ?,    string $write_callback = ?,    string $events = ?): bool
 ```
 
 ### Список параметрів

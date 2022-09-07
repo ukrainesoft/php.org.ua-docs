@@ -15,26 +15,26 @@ title: Приклади
 ```php
 <?php
 
-$filename = "/tmp/testfile.bz2";
-$str = "This is a test string.\n";
+$filename = "/tmp/testfile.bz2";
+$str = "This is a test string.\n";
 
-// открываем файл для записи
-$bz = bzopen($filename, "w");
+// открываем файл для записи
+$bz = bzopen($filename, "w");
 
-// пишем строку в файл
-bzwrite($bz, $str);
+// пишем строку в файл
+bzwrite($bz, $str);
 
-// закрываем файл
+// закрываем файл
 bzclose($bz);
 
-// открываем файл для чтения
-$bz = bzopen($filename, "r");
+// открываем файл для чтения
+$bz = bzopen($filename, "r");
 
-// читаем 10 символов
-echo bzread($bz, 10);
+// читаем 10 символов
+echo bzread($bz, 10);
 
-// выводим всё, до конца файла (или следующие 1024 символа) и закрываем его.
-echo bzread($bz);
+// выводим всё, до конца файла (или следующие 1024 символа) и закрываем его.
+echo bzread($bz);
 
 bzclose($bz);
 

@@ -40,8 +40,8 @@ array_fill_keys(array $keys, mixed $value): array
 
 ```php
 <?php
-$keys = array('foo', 5, 10, 'bar');
-$a = array_fill_keys($keys, 'banana');
+$keys = array('foo', 5, 10, 'bar');
+$a = array_fill_keys($keys, 'banana');
 print_r($a);
 ?>
 ```

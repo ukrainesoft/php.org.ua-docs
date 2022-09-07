@@ -34,7 +34,7 @@ snmp_get_quick_print(): bool
 
 ```php
 <?php
-$quickprint = snmp_get_quick_print();
+$quickprint = snmp_get_quick_print();
 ?>
 ```
 

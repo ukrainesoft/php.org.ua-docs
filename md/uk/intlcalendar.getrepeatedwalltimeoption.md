@@ -46,28 +46,28 @@ intlcal_get_repeated_wall_time_option(IntlCalendar $calendar): int
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'en_US');
-ini_set('intl.error_level', E_WARNING);
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'en_US');
+ini_set('intl.error_level', E_WARNING);
 
-// 27 октября в 02:00 часы переводятся на 1 час назад с GMT+01 на GMT+00.
-$cal = new IntlGregorianCalendar(2013, 9 /* Октябрь */, 27, 1, 30);
+// 27 октября в 02:00 часы переводятся на 1 час назад с GMT+01 на GMT+00.
+$cal = new IntlGregorianCalendar(2013, 9 /* Октябрь */, 27, 1, 30);
 
-var_dump($cal->getRepeatedWalltimeOption()); // 0 WALLTIME_LAST
+var_dump($cal->getRepeatedWalltimeOption()); // 0 WALLTIME_LAST
 
-$formatter = IntlDateFormatter::create(
-    NULL,
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'UTC'
+$formatter = IntlDateFormatter::create(
+    NULL,
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'UTC'
 );
-var_dump($formatter->format($cal->getTime() / 1000.));
+var_dump($formatter->format($cal->getTime() / 1000.));
 
 $cal->setRepeatedWalltimeOption(IntlCalendar::WALLTIME_FIRST);
-var_dump($cal->getRepeatedWalltimeOption()); // 1 WALLTIME_FIRST
-$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);
+var_dump($cal->getRepeatedWalltimeOption()); // 1 WALLTIME_FIRST
+$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);
 
-var_dump($formatter->format($cal->getTime() / 1000.));
+var_dump($formatter->format($cal->getTime() / 1000.));
 ```
 
 Результат виконання цього прикладу:

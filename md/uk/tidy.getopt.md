@@ -38,7 +38,7 @@ tidy_getopt(tidy $tidy, string $option): string|int|bool
 
 `option`
 
-Ви можете знайти список кожної опції конфігурації з типом тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
+Ви можете знайти список кожної опції конфігурації з типом тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
 
 ### Значення, що повертаються
 
@@ -51,24 +51,24 @@ tidy_getopt(tidy $tidy, string $option): string|int|bool
 ```php
 <?php
 
-$html ='<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+$html ='<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <html><head><title>Заголовок</title></head>
 <body>
 
-<p><img src="img.png"></p>
+<p><img src="img.png"></p>
 
 </body></html>';
 
-$config = array('accessibility-check' => 3,
-                'alt-text' => 'какой-то текст');
+$config = array('accessibility-check' => 3,
+                'alt-text' => 'какой-то текст');
 
-$tidy = new tidy();
-$tidy->parseString($html, $config);
+$tidy = new tidy();
+$tidy->parseString($html, $config);
 
 
-var_dump($tidy->getOpt('accessibility-check')); //integer
-var_dump($tidy->getOpt('lower-literals')); //boolean
-var_dump($tidy->getOpt('alt-text')); //string
+var_dump($tidy->getOpt('accessibility-check')); //integer
+var_dump($tidy->getOpt('lower-literals')); //boolean
+var_dump($tidy->getOpt('alt-text')); //string
 
 ?>
 ```

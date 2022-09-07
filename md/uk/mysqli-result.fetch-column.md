@@ -58,13 +58,13 @@ mysqli_fetch_column(mysqli_result $result, int $column = 0): null|int|float|stri
 
 ```php
 <?php
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
-$query = "SELECT CountryCode, Name FROM City ORDER BY ID DESC LIMIT 5";
-$result = $mysqli->query($query);
-/* получение значения из второго столбца */
-while ($Name = $result->fetch_column(1)) {
-    printf("%s\n", $Name);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$query = "SELECT CountryCode, Name FROM City ORDER BY ID DESC LIMIT 5";
+$result = $mysqli->query($query);
+/* получение значения из второго столбца */
+while ($Name = $result->fetch_column(1)) {
+    printf("%s\n", $Name);
 }
 ```
 
@@ -72,13 +72,13 @@ while ($Name = $result->fetch_column(1)) {
 
 ```php
 <?php
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
-$query = "SELECT CountryCode, Name FROM City ORDER BY ID DESC LIMIT 5";
-$result = mysqli_query($mysqli, $query);
-/* получение значения из второго столбца */
-while ($Name = mysqli_fetch_column($result, 1)) {
-    printf("%s\n", $Name);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+$query = "SELECT CountryCode, Name FROM City ORDER BY ID DESC LIMIT 5";
+$result = mysqli_query($mysqli, $query);
+/* получение значения из второго столбца */
+while ($Name = mysqli_fetch_column($result, 1)) {
+    printf("%s\n", $Name);
 }
 ```
 

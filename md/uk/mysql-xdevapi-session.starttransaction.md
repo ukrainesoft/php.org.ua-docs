@@ -34,15 +34,15 @@ public mysql_xdevapi\Session::startTransaction(): void
 
 ```php
 <?php
-$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$collection = $session->getSchema("addressbook")->getCollection("friends");
+$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$collection = $session->getSchema("addressbook")->getCollection("friends");
 
 $session->startTransaction();
-$collection->add( '{"test1":1, "test2":2}' )->execute();
+$collection->add( '{"test1":1, "test2":2}' )->execute();
 
-$savepoint = $session->setSavepoint();
+$savepoint = $session->setSavepoint();
 
-$collection->add( '{"test3":3, "test4":4}' )->execute();
+$collection->add( '{"test3":3, "test4":4}' )->execute();
 
 $session->releaseSavepoint($savepoint);
 $session->rollback();

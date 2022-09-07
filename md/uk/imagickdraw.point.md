@@ -44,23 +44,23 @@ public ImagickDraw::point(float $x, float $y): bool
 
 ```php
 <?php
-function point($fillColor, $backgroundColor) {
+function point($fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setFillColor($fillColor);
+    $draw->setFillColor($fillColor);
 
-    for ($x = 0; $x < 10000; $x++) {
-        $draw->point(rand(0, 500), rand(0, 500));
-    }
+    for ($x = 0; $x < 10000; $x++) {
+        $draw->point(rand(0, 500), rand(0, 500));
+    }
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

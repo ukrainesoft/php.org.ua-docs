@@ -40,13 +40,13 @@ public QuickHashIntStringHash::__construct(int $size, int $options = 0)
 
 ```php
 <?php
-var_dump( new QuickHashIntStringHash( 1024 ) );
-var_dump( new QuickHashIntStringHash( 1024, QuickHashIntStringHash::CHECK_FOR_DUPES ) );
+var_dump( new QuickHashIntStringHash( 1024 ) );
+var_dump( new QuickHashIntStringHash( 1024, QuickHashIntStringHash::CHECK_FOR_DUPES ) );
 var_dump(
-    new QuickHashIntStringHash(
-        1024,
-        QuickHashIntStringHash::DO_NOT_USE_ZEND_ALLOC | QuickHashIntStringHash::HASHER_JENKINS2
-    )
+    new QuickHashIntStringHash(
+        1024,
+        QuickHashIntStringHash::DO_NOT_USE_ZEND_ALLOC | QuickHashIntStringHash::HASHER_JENKINS2
+    )
 );
 ?>
 ```

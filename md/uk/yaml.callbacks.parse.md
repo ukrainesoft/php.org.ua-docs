@@ -15,24 +15,24 @@ Callback-функцій (callback) для парсингу викликаєть�
 ```php
 <?php
 /**
- * Callback-функция парсинга для тегов yaml.
- * @param mixed $value Данные из файла yaml
- * @param string $tag Тег, для которого срабатывает функция
- * @param int $flags Стиль скаляра записи (смотрите YAML_*_SCALAR_STYLE)
- * @return mixed Значение, которое должен выдать парсер YAML
- */
-function tag_callback ($value, $tag, $flags) {
-  var_dump(func_get_args()); // отладка
-  return "Hello {$value}";
+ * Callback-функция парсинга для тегов yaml.
+ * @param mixed $value Данные из файла yaml
+ * @param string $tag Тег, для которого срабатывает функция
+ * @param int $flags Стиль скаляра записи (смотрите YAML_*_SCALAR_STYLE)
+ * @return mixed Значение, которое должен выдать парсер YAML
+ */
+function tag_callback ($value, $tag, $flags) {
+  var_dump(func_get_args()); // отладка
+  return "Hello {$value}";
 }
 
-$yaml = <<<YAML
-greeting: !example/hello World
+$yaml = <<<YAML
+greeting: !example/hello World
 YAML;
 
-$result = yaml_parse($yaml, 0, $ndocs, array(
-    '!example/hello' => 'tag_callback',
-  ));
+$result = yaml_parse($yaml, 0, $ndocs, array(
+    '!example/hello' => 'tag_callback',
+  ));
 
 var_dump($result);
 ?>

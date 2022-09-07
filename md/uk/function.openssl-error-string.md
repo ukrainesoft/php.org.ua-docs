@@ -34,8 +34,8 @@ openssl_error_string(): string|false
 
 ```php
 <?php
-// Предположим, что вы вызвали функцию openssl, которая завершилась неудачей
-while ($msg = openssl_error_string())
-    echo $msg . "<br />\n";
+// Предположим, что вы вызвали функцию openssl, которая завершилась неудачей
+while ($msg = openssl_error_string())
+    echo $msg . "<br />\n";
 ?>
 ```

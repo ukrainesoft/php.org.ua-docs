@@ -18,7 +18,7 @@ XSLTProcessor::hasExsltSupport — Визначає чи має PHP підтри
 public XSLTProcessor::hasExsltSupport(): bool
 ```
 
-Цей метод визначає чи був PHP налаштований з [» библиотекой EXSLT](http://xmlsoft.org/XSLT/EXSLT/index.md)
+Цей метод визначає чи був PHP налаштований з [» библиотекой EXSLT](http://xmlsoft.org/XSLT/EXSLT/index.md)
 
 ### Список параметрів
 
@@ -35,12 +35,12 @@ public XSLTProcessor::hasExsltSupport(): bool
 ```php
 <?php
 
-$proc = new XSLTProcessor;
-if (!$proc->hasExsltSupport()) {
-    die('EXSLT support not available');
+$proc = new XSLTProcessor;
+if (!$proc->hasExsltSupport()) {
+    die('EXSLT support not available');
 }
 
-// выполнение некоторых действий EXSLT ..
+// выполнение некоторых действий EXSLT ..
 
 ?>
 ```

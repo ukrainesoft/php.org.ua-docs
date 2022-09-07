@@ -34,7 +34,7 @@ stream_get_filters(): array
 
 ```php
 <?php
-$streamlist = stream_get_filters();
+$streamlist = stream_get_filters();
 print_r($streamlist);
 ?>
 ```

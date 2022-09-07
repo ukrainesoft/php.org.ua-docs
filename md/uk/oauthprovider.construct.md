@@ -40,26 +40,26 @@ public OAuthProvider::__construct(array $params_array = ?)
 
 ```php
 <?php
-try {
+try {
 
-    $op = new OAuthProvider();
+    $op = new OAuthProvider();
 
-    // Используем пользовательские callback-функции
-    $op->consumerHandler(array($this, 'lookupConsumer'));
-    $op->timestampNonceHandler(array($this, 'timestampNonceChecker'));
-    $op->tokenHandler(array($this, 'myTokenHandler'));
+    // Используем пользовательские callback-функции
+    $op->consumerHandler(array($this, 'lookupConsumer'));
+    $op->timestampNonceHandler(array($this, 'timestampNonceChecker'));
+    $op->tokenHandler(array($this, 'myTokenHandler'));
 
-    // Игнорируем параметр foo_uri
-    $op->setParam('foo_uri', NULL);
+    // Игнорируем параметр foo_uri
+    $op->setParam('foo_uri', NULL);
 
-    // Для данной конечной точки токен не нужен
-    $op->setRequestTokenPath('/v1/oauth/request_token');
+    // Для данной конечной точки токен не нужен
+    $op->setRequestTokenPath('/v1/oauth/request_token');
 
-    $op->checkOAuthRequest();
+    $op->checkOAuthRequest();
 
-} catch (OAuthException $e) {
+} catch (OAuthException $e) {
 
-    echo OAuthProvider::reportProblem($e);
+    echo OAuthProvider::reportProblem($e);
 }
 ?>
 ```

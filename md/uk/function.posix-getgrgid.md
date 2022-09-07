@@ -48,8 +48,8 @@ posix_getgrgid(int $group_id): array|false
 ```php
 <?php
 
-$groupid   = posix_getegid();
-$groupinfo = posix_getgrgid($groupid);
+$groupid   = posix_getegid();
+$groupinfo = posix_getgrgid($groupid);
 
 print_r($groupinfo);
 ?>

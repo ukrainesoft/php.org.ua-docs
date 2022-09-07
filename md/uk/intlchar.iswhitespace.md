@@ -50,7 +50,7 @@ public static IntlChar::isWhitespace(int|string $codepoint): ?bool
 ```php
 <?php
 var_dump(IntlChar::iswhitespace("A"));
-var_dump(IntlChar::iswhitespace(" "));
+var_dump(IntlChar::iswhitespace(" "));
 var_dump(IntlChar::iswhitespace("\n"));
 var_dump(IntlChar::iswhitespace("\t"));
 var_dump(IntlChar::iswhitespace("\u{00A0}"));

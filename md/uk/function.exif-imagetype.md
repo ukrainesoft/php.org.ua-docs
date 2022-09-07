@@ -73,8 +73,8 @@ exif_imagetype(string $filename): int|false
 
 ```php
 <?php
-if (exif_imagetype('image.gif') != IMAGETYPE_GIF) {
-    echo 'Картинка не gif';
+if (exif_imagetype('image.gif') != IMAGETYPE_GIF) {
+    echo 'Картинка не gif';
 }
 ?>
 ```

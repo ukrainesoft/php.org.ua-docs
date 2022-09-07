@@ -19,11 +19,11 @@ title: Керуючі об'єкти LDAP
 > ```php
 > <?php
 > 
-> // $ds - корректный идентификатор соединения с сервером каталогов
+> // $ds - корректный идентификатор соединения с сервером каталогов
 > 
-> $result = ldap_read($ds, '', '(objectClass=*)', ['supportedControl']);
-> if (!in_array(LDAP_CONTROL_PAGEDRESULTS, ldap_get_entries($ds, $result)[0]['supportedcontrol'])) {
->   die("Этот сервер не поддерживает управление пагинацией");
+> $result = ldap_read($ds, '', '(objectClass=*)', ['supportedControl']);
+> if (!in_array(LDAP_CONTROL_PAGEDRESULTS, ldap_get_entries($ds, $result)[0]['supportedcontrol'])) {
+>   die("Этот сервер не поддерживает управление пагинацией");
 > }
 > 
 > ?>

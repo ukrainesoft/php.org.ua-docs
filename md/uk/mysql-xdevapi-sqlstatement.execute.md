@@ -35,7 +35,7 @@ public mysql_xdevapi\SqlStatement::execute(): mysql_xdevapi\Result
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

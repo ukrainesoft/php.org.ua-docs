@@ -65,7 +65,7 @@ title: Клас SNMP
 
     /* Методы */
     
-   public __construct(    int $version,    string $hostname,    string $community,    int $timeout = -1,    int $retries = -1)
+   public __construct(    int $version,    string $hostname,    string $community,    int $timeout = -1,    int $retries = -1)
 
     public close(): bool
 public get(array|string $objectId, bool $preserveKeys = false): mixed
@@ -73,8 +73,8 @@ public getErrno(): int
 public getError(): string
 public getnext(array|string $objectId): mixed
 public set(array|string $objectId, array|string $type, array|string $value): bool
-public setSecurity(    string $securityLevel,    string $authProtocol = "",    string $authPassphrase = "",    string $privacyProtocol = "",    string $privacyPassphrase = "",    string $contextName = "",    string $contextEngineId = ""): bool
-public walk(    array|string $objectId,    bool $suffixAsKey = false,    int $maxRepetitions = -1,    int $nonRepeaters = -1): array|false
+public setSecurity(    string $securityLevel,    string $authProtocol = "",    string $authPassphrase = "",    string $privacyProtocol = "",    string $privacyPassphrase = "",    string $contextName = "",    string $contextEngineId = ""): bool
+public walk(    array|string $objectId,    bool $suffixAsKey = false,    int $maxRepetitions = -1,    int $nonRepeaters = -1): array|false
 
 
     /* Константы */

@@ -28,9 +28,9 @@ title: Клас GmagickDraw
     /* Методы */
     
    public annotate(float $x, float $y, string $text): GmagickDraw
-public arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): GmagickDraw
+public arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): GmagickDraw
 public bezier(array $coordinate_array): GmagickDraw
-public ellipse(    float $ox,    float $oy,    float $rx,    float $ry,    float $start,    float $end): GmagickDraw
+public ellipse(    float $ox,    float $oy,    float $rx,    float $ry,    float $start,    float $end): GmagickDraw
 public getfillcolor(): GmagickPixel
 public getfillopacity(): float
 public getfont(): mixed
@@ -42,13 +42,13 @@ public getstrokeopacity(): float
 public getstrokewidth(): float
 public gettextdecoration(): int
 public gettextencoding(): mixed
-public line(    float $sx,    float $sy,    float $ex,    float $ey): GmagickDraw
+public line(    float $sx,    float $sy,    float $ex,    float $ey): GmagickDraw
 public point(float $x, float $y): GmagickDraw
 public polygon(array $coordinates): GmagickDraw
 public polyline(array $coordinate_array): GmagickDraw
-public rectangle(    float $x1,    float $y1,    float $x2,    float $y2): GmagickDraw
+public rectangle(    float $x1,    float $y1,    float $x2,    float $y2): GmagickDraw
 public rotate(float $degrees): GmagickDraw
-public roundrectangle(    float $x1,    float $y1,    float $x2,    float $y2,    float $rx,    float $ry): GmagickDraw
+public roundrectangle(    float $x1,    float $y1,    float $x2,    float $y2,    float $rx,    float $ry): GmagickDraw
 public scale(float $x, float $y): GmagickDraw
 public setfillcolor(mixed $color): GmagickDraw
 public setfillopacity(float $fill_opacity): GmagickDraw

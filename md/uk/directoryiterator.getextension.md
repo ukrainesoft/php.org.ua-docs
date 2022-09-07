@@ -35,11 +35,11 @@ public DirectoryIterator::getExtension(): string
 ```php
 <?php
 
-$directory = new DirectoryIterator(__DIR__);
-foreach ($directory as $fileinfo) {
-    if ($fileinfo->isFile()) {
-        echo $fileinfo->getExtension() . "\n";
-    }
+$directory = new DirectoryIterator(__DIR__);
+foreach ($directory as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getExtension() . "\n";
+    }
 }
 
 ?>
@@ -62,7 +62,7 @@ gz
 > 
 > ```php
 > <?php
-> $extension = pathinfo($fileinfo->getFilename(), PATHINFO_EXTENSION);
+> $extension = pathinfo($fileinfo->getFilename(), PATHINFO_EXTENSION);
 > ?>
 > ```
 

@@ -58,10 +58,10 @@ public Ds\Map::remove(mixed $key, mixed $default = ?): mixed
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 
-var_dump($map->remove("a"));      //  1
-var_dump($map->remove("e", 10));  // 10 (используется по умолчанию)
+var_dump($map->remove("a"));      //  1
+var_dump($map->remove("e", 10));  // 10 (используется по умолчанию)
 ?>
 ```
 

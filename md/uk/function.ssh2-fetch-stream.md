@@ -38,11 +38,11 @@ ssh2_fetch_stream(resource $channel, int $streamid): resource
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
 
-$stdio_stream = ssh2_shell($connection);
-$stderr_stream = ssh2_fetch_stream($stdio_stream, SSH2_STREAM_STDERR);
+$stdio_stream = ssh2_shell($connection);
+$stderr_stream = ssh2_fetch_stream($stdio_stream, SSH2_STREAM_STDERR);
 ?>
 ```
 

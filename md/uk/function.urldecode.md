@@ -36,14 +36,14 @@ urldecode(string $string): string
 
 ```php
 <?php
-$query = "my=apples&are=green+and+red";
+$query = "my=apples&are=green+and+red";
 
-foreach (explode('&', $query) as $chunk) {
-    $param = explode("=", $chunk);
+foreach (explode('&', $query) as $chunk) {
+    $param = explode("=", $chunk);
 
-    if ($param) {
-        printf("Значение параметра \"%s\" - \"%s\"<br/>\n", urldecode($param[0]), urldecode($param[1]));
-    }
+    if ($param) {
+        printf("Значение параметра \"%s\" - \"%s\"<br/>\n", urldecode($param[0]), urldecode($param[1]));
+    }
 }
 ?>
 ```
@@ -59,4 +59,4 @@ foreach (explode('&', $query) as $chunk) {
 -   [urlencode()](function.urlencode.md) - URL-кодування рядка
 -   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
 -   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка
--   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

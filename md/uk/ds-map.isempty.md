@@ -34,8 +34,8 @@ public Ds\Map::isEmpty(): bool
 
 ```php
 <?php
-$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
-$b = new \Ds\Map();
+$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$b = new \Ds\Map();
 
 var_dump($a->isEmpty());
 var_dump($b->isEmpty());

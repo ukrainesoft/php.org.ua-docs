@@ -15,7 +15,7 @@ procopen — Виконати команду та відкрити покажч�
 ### Опис
 
 ```methodsynopsis
-proc_open(    array|string $command,    array $descriptor_spec,    array &$pipes,    ?string $cwd = null,    ?array $env_vars = null,    ?array $options = null): resource|false
+proc_open(    array|string $command,    array $descriptor_spec,    array &$pipes,    ?string $cwd = null,    ?array $env_vars = null,    ?array $options = null): resource|false
 ```
 
 **procopen()** аналогічна [popen()](function.popen.md), але надає набагато більше контролю за виконанням програми.
@@ -85,34 +85,34 @@ proc_open(    array|string $command,    array $descriptor_spec,    a
 
 ```php
 <?php
-$descriptorspec = array(
-   0 => array("pipe", "r"),  // stdin - канал, из которого дочерний процесс будет читать
-   1 => array("pipe", "w"),  // stdout - канал, в который дочерний процесс будет записывать
-   2 => array("file", "/tmp/error-output.txt", "a") // stderr - файл для записи
+$descriptorspec = array(
+   0 => array("pipe", "r"),  // stdin - канал, из которого дочерний процесс будет читать
+   1 => array("pipe", "w"),  // stdout - канал, в который дочерний процесс будет записывать
+   2 => array("file", "/tmp/error-output.txt", "a") // stderr - файл для записи
 );
 
-$cwd = '/tmp';
-$env = array('some_option' => 'aeiou');
+$cwd = '/tmp';
+$env = array('some_option' => 'aeiou');
 
-$process = proc_open('php', $descriptorspec, $pipes, $cwd, $env);
+$process = proc_open('php', $descriptorspec, $pipes, $cwd, $env);
 
-if (is_resource($process)) {
-    // $pipes теперь выглядит так:
-    // 0 => записывающий обработчик, подключённый к дочернему stdin
-    // 1 => читающий обработчик, подключённый к дочернему stdout
-    // Вывод сообщений об ошибках будет добавляться в /tmp/error-output.txt
+if (is_resource($process)) {
+    // $pipes теперь выглядит так:
+    // 0 => записывающий обработчик, подключённый к дочернему stdin
+    // 1 => читающий обработчик, подключённый к дочернему stdout
+    // Вывод сообщений об ошибках будет добавляться в /tmp/error-output.txt
 
-    fwrite($pipes[0], '<?php print_r($_ENV); ?>');
-    fclose($pipes[0]);
+    fwrite($pipes[0], '<?php print_r($_ENV); ?>');
+    fclose($pipes[0]);
 
-    echo stream_get_contents($pipes[1]);
-    fclose($pipes[1]);
+    echo stream_get_contents($pipes[1]);
+    fclose($pipes[1]);
 
-    // Важно закрывать все каналы перед вызовом
-    // proc_close во избежание мёртвой блокировки
-    $return_value = proc_close($process);
+    // Важно закрывать все каналы перед вызовом
+    // proc_close во избежание мёртвой блокировки
+    $return_value = proc_close($process);
 
-    echo "команда вернула $return_value\n";
+    echo "команда вернула $return_value\n";
 }
 ?>
 ```
@@ -136,9 +136,9 @@ Array
 
 ```php
 <?php
-$descriptorspec = [STDIN, STDOUT, STDOUT];
-$cmd = '"findstr" "search" "filename.txt"';
-$proc = proc_open($cmd, $descriptorspec, $pipes);
+$descriptorspec = [STDIN, STDOUT, STDOUT];
+$cmd = '"findstr" "search" "filename.txt"';
+$proc = proc_open($cmd, $descriptorspec, $pipes);
 proc_close($proc);
 ?>
 ```
@@ -153,7 +153,7 @@ proc_close($proc);
 Щоб оминути цю поведінку, зазвичай достатньо передати `command` у додаткових лапках:
 
 ```php
-$cmd = '""findstr" "search" "filename.txt""';
+$cmd = '""findstr" "search" "filename.txt""';
 ```
 
 ### Примітки

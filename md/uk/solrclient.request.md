@@ -44,19 +44,19 @@ public SolrClient::request(string $raw_request): SolrUpdateResponse
 
 ```php
 <?php
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$update_response = $client->request("<commit/>");
+$update_response = $client->request("<commit/>");
 
-$response = $update_response->getResponse();
+$response = $update_response->getResponse();
 
 print_r($response);
 ?>

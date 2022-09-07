@@ -20,11 +20,11 @@ title: Повернення значень
 
 ```php
 <?php
-function square($num)
+function square($num)
 {
-    return $num * $num;
+    return $num * $num;
 }
-echo square(4);   // выводит '16'.
+echo square(4);   // выводит '16'.
 ?>
 ```
 
@@ -34,15 +34,15 @@ echo square(4);   // выводит '16'.
 
 ```php
 <?php
-function small_numbers()
+function small_numbers()
 {
-    return [0, 1, 2];
+    return [0, 1, 2];
 }
-// Деструктуризация Масива будет собирать каждый элемент Масива индивидуально
-[$zero, $one, $two] = small_numbers();
+// Деструктуризация Масива будет собирать каждый элемент Масива индивидуально
+[$zero, $one, $two] = small_numbers();
 
-// До версии 7.1.0 единственной эквивалентной альтернативой было использование конструкции list().
-list($zero, $one, $two) = small_numbers();
+// До версии 7.1.0 единственной эквивалентной альтернативой было использование конструкции list().
+list($zero, $one, $two) = small_numbers();
 
 ?>
 ```
@@ -53,12 +53,12 @@ list($zero, $one, $two) = small_numbers();
 
 ```php
 <?php
-function &returns_reference()
+function &returns_reference()
 {
-    return $someref;
+    return $someref;
 }
 
-$newref =& returns_reference();
+$newref =& returns_reference();
 ?>
 ```
 

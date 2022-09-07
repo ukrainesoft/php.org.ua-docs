@@ -40,9 +40,9 @@ fileinode(string $filename): int|false
 
 ```php
 <?php
-$filename = 'index.php';
-if (getmyinode() == fileinode($filename)) {
-    echo 'Вы проверяете текущий файл.';
+$filename = 'index.php';
+if (getmyinode() == fileinode($filename)) {
+    echo 'Вы проверяете текущий файл.';
 }
 ?>
 ```

@@ -50,14 +50,14 @@ pg_meta_data(PgSql\Connection $connection, string $table_name, bool $extended = 
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с сервером");
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с сервером");
 
-  $meta = pg_meta_data($dbconn, 'authors');
-  if (is_array($meta)) {
-      echo '<pre>';
-      var_dump($meta);
-      echo '</pre>';
-  }
+  $meta = pg_meta_data($dbconn, 'authors');
+  if (is_array($meta)) {
+      echo '<pre>';
+      var_dump($meta);
+      echo '</pre>';
+  }
 ?>
 ```
 

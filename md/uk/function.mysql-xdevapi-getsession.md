@@ -52,7 +52,7 @@ URI до сервера MySQL, як `mysqlx://user:password@host`
     
 -   `?attribute=value`: цей елемент є необов'язковим та визначає словник даних, який містить різні параметри, у тому числі:
     
-    -   Атрибут `auth` (механізм аутентифікації), оскільки він відноситься до зашифрованих з'єднань. Для отримання додаткової інформації дивіться [» Параметри команди для зашифрованих з'єднань](https://dev.mysql.com/doc/refman/8.0/en/encrypted-connection-options.md). Підтримуються такі значення: `plain` `mysql41` `external`, і `sha256_mem`
+    -   Атрибут `auth` (механізм аутентифікації), оскільки він відноситься до зашифрованих з'єднань. Для отримання додаткової інформації дивіться [» Параметри команди для зашифрованих з'єднань](https://dev.mysql.com/doc/refman/8.0/en/encrypted-connection-options.md). Підтримуються такі значення: `plain` `mysql41` `external`, і `sha256_mem`
         
     -   Атрибут `connect-timeout` впливає з'єднання, а чи не на наступні операції. Він встановлюється для кожного з'єднання на одному або кількох хостах.
         
@@ -80,15 +80,15 @@ mysqlx://foo:bar@localhost:33260?ssl-mode=required
 mysqlx://foo:bar@localhost:33360?ssl-mode=required&auth=mysql41
 mysqlx://foo:bar@(/path/to/socket)
 mysqlx://foo:bar@(/path/to/socket)?auth=sha256_mem
-mysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]
+mysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]
 mysqlx://foobar?ssl-ca=(/path/to/ca.pem)&ssl-crl=(/path/to/crl.pem)
-mysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]?ssl-mode=disabled
+mysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]?ssl-mode=disabled
 mysqlx://foo:bar@localhost:33160/?connect-timeout=0
 mysqlx://foo:bar@localhost:33160/?connect-timeout=10&compression=required
 mysqlx://foo:bar@localhost:33160/?connect-timeout=10&compression=required&compression-algorithms=[lz4,zstd_stream]
 ```
 
-Для отримання додаткової інформації дивіться MySQL Shell [» Подключение с использованием строки URI](https://dev.mysql.com/doc/refman/8.0/en/mysql-shell-connection-using-uri.md)
+Для отримання додаткової інформації дивіться MySQL Shell [» Подключение с использованием строки URI](https://dev.mysql.com/doc/refman/8.0/en/mysql-shell-connection-using-uri.md)
 
 ### Значення, що повертаються
 
@@ -104,19 +104,19 @@ mysqlx://foo:bar@localhost:33160/?connect-timeout=10&compression=required&compre
 
 ```php
 <?php
-try {
-    $session = mysql_xdevapi\getSession("mysqlx://user:password@host");
-} catch(Exception $e) {
-    die("Не удалось установить соединение: " . $e->getMessage());
+try {
+    $session = mysql_xdevapi\getSession("mysqlx://user:password@host");
+} catch(Exception $e) {
+    die("Не удалось установить соединение: " . $e->getMessage());
 }
 
-$schemas = $session->getSchemas();
+$schemas = $session->getSchemas();
 print_r($schemas);
 
-$mysql_version = $session->getServerVersion();
+$mysql_version = $session->getServerVersion();
 print_r($mysql_version);
 
-var_dump($collection->find("name = 'Alfred'")->execute()->fetchOne());
+var_dump($collection->find("name = 'Alfred'")->execute()->fetchOne());
 ?>
 ```
 

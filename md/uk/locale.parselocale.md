@@ -48,11 +48,11 @@ locale_parse(string $locale): ?array
 
 ```php
 <?php
-$arr = locale_parse('sl-Latn-IT-nedis');
-if ($arr) {
-    foreach ($arr as $key => $value) {
-        echo "$key : $value , ";
-    }
+$arr = locale_parse('sl-Latn-IT-nedis');
+if ($arr) {
+    foreach ($arr as $key => $value) {
+        echo "$key : $value , ";
+    }
 }
 ?>
 ```
@@ -61,11 +61,11 @@ if ($arr) {
 
 ```php
 <?php
-$arr = Locale::parseLocale('sl-Latn-IT-nedis');
-if ($arr) {
-    foreach ($arr as $key => $value) {
-        echo "$key : $value , ";
-    }
+$arr = Locale::parseLocale('sl-Latn-IT-nedis');
+if ($arr) {
+    foreach ($arr as $key => $value) {
+        echo "$key : $value , ";
+    }
 }
 ?>
 ```

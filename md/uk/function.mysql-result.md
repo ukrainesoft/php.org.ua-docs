@@ -55,18 +55,18 @@ mysql_result(resource $result, int $row, mixed $field = 0): string
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-if (!mysql_select_db('database_name')) {
-    die('Ошибка выбора базы данных: ' . mysql_error());
+if (!mysql_select_db('database_name')) {
+    die('Ошибка выбора базы данных: ' . mysql_error());
 }
-$result = mysql_query('SELECT name FROM work.employee');
-if (!$result) {
-    die('Ошибка выполнения запроса:' . mysql_error());
+$result = mysql_query('SELECT name FROM work.employee');
+if (!$result) {
+    die('Ошибка выполнения запроса:' . mysql_error());
 }
-echo mysql_result($result, 2); // выведет имя третьего сотрудника
+echo mysql_result($result, 2); // выведет имя третьего сотрудника
 
 mysql_close($link);
 ?>

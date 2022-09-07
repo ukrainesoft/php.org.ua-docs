@@ -52,11 +52,11 @@ session_name(?string $name = null): string|false
 ```php
 <?php
 
-/* устанавливает имя сессии равным WebsiteID */
+/* устанавливает имя сессии равным WebsiteID */
 
-$previous_name = session_name("WebsiteID");
+$previous_name = session_name("WebsiteID");
 
-echo "Предыдущее имя сессии: $previous_name<br />";
+echo "Предыдущее имя сессии: $previous_name<br />";
 ?>
 ```
 

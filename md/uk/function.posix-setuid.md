@@ -38,11 +38,11 @@ posix_setuid(int $user_id): bool
 
 ```php
 <?php
-echo posix_getuid()."\n"; //10001
-echo posix_geteuid()."\n"; //10001
+echo posix_getuid()."\n"; //10001
+echo posix_geteuid()."\n"; //10001
 posix_setuid(10000);
-echo posix_getuid()."\n"; //10000
-echo posix_geteuid()."\n"; //10000
+echo posix_getuid()."\n"; //10000
+echo posix_geteuid()."\n"; //10000
 ?>
 ```
 

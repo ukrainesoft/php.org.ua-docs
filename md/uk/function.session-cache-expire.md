@@ -47,21 +47,21 @@ session_cache_expire(?int $value = null): int|false
 ```php
 <?php
 
-/* установить ограничитель кеша на 'private' */
+/* установить ограничитель кеша на 'private' */
 
 session_cache_limiter('private');
-$cache_limiter = session_cache_limiter();
+$cache_limiter = session_cache_limiter();
 
-/* установить время жизни на 30 минут */
+/* установить время жизни на 30 минут */
 session_cache_expire(30);
-$cache_expire = session_cache_expire();
+$cache_expire = session_cache_expire();
 
-/* старт сессии */
+/* старт сессии */
 
 session_start();
 
-echo "Ограничитель кеша теперь равен $cache_limiter<br />";
-echo "Закешированные страницы сессии истекают через $cache_expire минут";
+echo "Ограничитель кеша теперь равен $cache_limiter<br />";
+echo "Закешированные страницы сессии истекают через $cache_expire минут";
 ?>
 ```
 

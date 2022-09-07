@@ -41,30 +41,30 @@ oci_field_is_null(resource $statement, string|int $column): bool
 ```php
 <?php
 
-// Создайте таблицу:
-//   CREATE TABLE mytab (c1 NUMBER);
-//   INSERT INTO mytab VALUES (1);
-//   INSERT INTO mytab VALUES (NULL);
+// Создайте таблицу:
+//   CREATE TABLE mytab (c1 NUMBER);
+//   INSERT INTO mytab VALUES (1);
+//   INSERT INTO mytab VALUES (NULL);
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-if (!$conn) {
-    $m = oci_error();
-    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, "SELECT * FROM mytab");
+$stid = oci_parse($conn, "SELECT * FROM mytab");
 oci_execute($stid);
 
-while (($row = oci_fetch_array($stid, OCI_RETURN_NULLS)) != false) {
-    $ncols = oci_num_fields($stid);
-    for ($col = 1; $col <= $ncols; $col++) {
-        var_dump(oci_field_is_null($stid, $col));
-    }
+while (($row = oci_fetch_array($stid, OCI_RETURN_NULLS)) != false) {
+    $ncols = oci_num_fields($stid);
+    for ($col = 1; $col <= $ncols; $col++) {
+        var_dump(oci_field_is_null($stid, $col));
+    }
 }
 
-// Выведет:
-//    bool(false)
-//    bool(true)
+// Выведет:
+//    bool(false)
+//    bool(true)
 
 oci_free_statement($stid);
 oci_close($conn);

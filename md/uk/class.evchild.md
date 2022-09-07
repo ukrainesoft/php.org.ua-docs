@@ -57,20 +57,20 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     int
      $pid
-   ,    
+   ,    
     bool
      $trace
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -79,19 +79,19 @@ public
     final
    public
    static
-   createStopped(    
+   createStopped(    
     int
      $pid
-   ,    
+   ,    
     bool
      $trace
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?): object

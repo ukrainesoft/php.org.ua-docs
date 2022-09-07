@@ -42,14 +42,14 @@ ID процесу сервера бази даних.
 
 ```php
 <?php
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-// PID сервера БД. Сравните его с PID возвращаемым pg_get_notify()
-$pid = pg_get_pid($conn);
+// PID сервера БД. Сравните его с PID возвращаемым pg_get_notify()
+$pid = pg_get_pid($conn);
 ?>
 ```
 

@@ -39,12 +39,12 @@ public QuickHashIntHash::delete(int $key): bool
 ```php
 <?php
 
-$hash = new QuickHashIntHash( 1024 );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->add( 4, 5 ) );
-var_dump( $hash->delete( 4 ) );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->delete( 4 ) );
+$hash = new QuickHashIntHash( 1024 );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->add( 4, 5 ) );
+var_dump( $hash->delete( 4 ) );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->delete( 4 ) );
 ?>
 ```
 

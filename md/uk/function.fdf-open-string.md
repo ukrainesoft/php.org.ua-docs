@@ -38,8 +38,8 @@ fdf_open_string(string $fdf_data): resource
 
 ```php
 <?php
-$fdf = fdf_open_string($HTTP_FDF_DATA);
-/* ... */
+$fdf = fdf_open_string($HTTP_FDF_DATA);
+/* ... */
 fdf_close($fdf);
 ?>
 ```

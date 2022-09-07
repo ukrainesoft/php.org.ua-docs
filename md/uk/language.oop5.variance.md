@@ -28,32 +28,32 @@ title: Коваріантність та контраваріантність
 ```php
 <?php
 
-abstract class Animal
+abstract class Animal
 {
-    protected string $name;
+    protected string $name;
 
-    public function __construct(string $name)
-    {
-        $this->name = $name;
-    }
+    public function __construct(string $name)
+    {
+        $this->name = $name;
+    }
 
-    abstract public function speak();
+    abstract public function speak();
 }
 
-class Dog extends Animal
+class Dog extends Animal
 {
-    public function speak()
-    {
-        echo $this->name . " лает";
-    }
+    public function speak()
+    {
+        echo $this->name . " лает";
+    }
 }
 
-class Cat extends Animal
+class Cat extends Animal
 {
-    public function speak()
-    {
-        echo $this->name . " мяукает";
-    }
+    public function speak()
+    {
+        echo $this->name . " мяукает";
+    }
 }
 ```
 
@@ -62,32 +62,32 @@ class Cat extends Animal
 ```php
 <?php
 
-interface AnimalShelter
+interface AnimalShelter
 {
-    public function adopt(string $name): Animal;
+    public function adopt(string $name): Animal;
 }
 
-class CatShelter implements AnimalShelter
+class CatShelter implements AnimalShelter
 {
-    public function adopt(string $name): Cat // Возвращаем класс Cat вместо Animal
-    {
-        return new Cat($name);
-    }
+    public function adopt(string $name): Cat // Возвращаем класс Cat вместо Animal
+    {
+        return new Cat($name);
+    }
 }
 
-class DogShelter implements AnimalShelter
+class DogShelter implements AnimalShelter
 {
-    public function adopt(string $name): Dog // Возвращаем класс Dog вместо Animal
-    {
-        return new Dog($name);
-    }
+    public function adopt(string $name): Dog // Возвращаем класс Dog вместо Animal
+    {
+        return new Dog($name);
+    }
 }
 
-$kitty = (new CatShelter)->adopt("Рыжик");
+$kitty = (new CatShelter)->adopt("Рыжик");
 $kitty->speak();
-echo "\n";
+echo "\n";
 
-$doggy = (new DogShelter)->adopt("Бобик");
+$doggy = (new DogShelter)->adopt("Бобик");
 $doggy->speak();
 ```
 
@@ -105,23 +105,23 @@ $doggy->speak();
 ```php
 <?php
 
-class Food {}
+class Food {}
 
-class AnimalFood extends Food {}
+class AnimalFood extends Food {}
 
-abstract class Animal
+abstract class Animal
 {
-    protected string $name;
+    protected string $name;
 
-    public function __construct(string $name)
-    {
-        $this->name = $name;
-    }
+    public function __construct(string $name)
+    {
+        $this->name = $name;
+    }
 
-    public function eat(AnimalFood $food)
-    {
-        echo $this->name . " ест " . get_class($food);
-    }
+    public function eat(AnimalFood $food)
+    {
+        echo $this->name . " ест " . get_class($food);
+    }
 }
 ```
 
@@ -130,11 +130,11 @@ abstract class Animal
 ```php
 <?php
 
-class Dog extends Animal
+class Dog extends Animal
 {
-    public function eat(Food $food) {
-        echo $this->name . " ест " . get_class($food);
-    }
+    public function eat(Food $food) {
+        echo $this->name . " ест " . get_class($food);
+    }
 }
 ```
 
@@ -143,13 +143,13 @@ class Dog extends Animal
 ```php
 <?php
 
-$kitty = (new CatShelter)->adopt("Рыжик");
-$catFood = new AnimalFood();
+$kitty = (new CatShelter)->adopt("Рыжик");
+$catFood = new AnimalFood();
 $kitty->eat($catFood);
-echo "\n";
+echo "\n";
 
-$doggy = (new DogShelter)->adopt("Бобик");
-$banana = new Food();
+$doggy = (new DogShelter)->adopt("Бобик");
+$banana = new Food();
 $doggy->eat($banana);
 ```
 

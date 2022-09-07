@@ -50,9 +50,9 @@ geoip_continent_code_by_name(string $hostname): string
 
 ```php
 <?php
-$continent = geoip_continent_code_by_name('www.example.com');
-if ($continent) {
-    echo 'Данный хост расположен в ' . $continent;
+$continent = geoip_continent_code_by_name('www.example.com');
+if ($continent) {
+    echo 'Данный хост расположен в ' . $continent;
 }
 ?>
 ```

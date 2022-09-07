@@ -43,20 +43,20 @@ sqlsrv_server_info(resource $conn): array
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$conn = sqlsrv_connect( $serverName);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$conn = sqlsrv_connect( $serverName);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$server_info = sqlsrv_server_info( $conn);
-if( $server_info )
+$server_info = sqlsrv_server_info( $conn);
+if( $server_info )
 {
-    foreach( $server_info as $key => $value) {
-       echo $key.": ".$value."<br />";
-    }
-} else {
-      die( print_r( sqlsrv_errors(), true));
+    foreach( $server_info as $key => $value) {
+       echo $key.": ".$value."<br />";
+    }
+} else {
+      die( print_r( sqlsrv_errors(), true));
 }
 ?>
 ```

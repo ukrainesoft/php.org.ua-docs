@@ -40,11 +40,11 @@ public Imagick::implodeImage(float $radius): bool
 
 ```php
 <?php
-function implodeImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->implodeImage(0.0001);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function implodeImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->implodeImage(0.0001);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 
 }
 

@@ -32,8 +32,8 @@ title: Очищаючі фільтри
 **Приклад #1 Налаштування стандартного фільтра для роботи аналогічно функції htmlspecialchars**
 
 ```php
-filter.default = full_special_chars
-filter.default_flags = 0
+filter.default = full_special_chars
+filter.default_flags = 0
 ```
 
 ### список змін

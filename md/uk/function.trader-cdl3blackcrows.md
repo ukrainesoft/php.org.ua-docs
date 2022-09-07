@@ -15,7 +15,7 @@ tradercdl3blackcrows — Три чорні ворони
 ### Опис
 
 ```methodsynopsis
-trader_cdl3blackcrows(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3blackcrows(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

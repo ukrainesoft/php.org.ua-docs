@@ -38,9 +38,9 @@ public SplFileObject::key(): int
 
 ```php
 <?php
-$file = new SplFileObject("lipsum.txt");
-foreach ($file as $line) {
-    echo $file->key() . ". " . $line;
+$file = new SplFileObject("lipsum.txt");
+foreach ($file as $line) {
+    echo $file->key() . ". " . $line;
 }
 ?>
 ```
@@ -57,10 +57,10 @@ foreach ($file as $line) {
 
 ```php
 <?php
-$file = new SplFileObject("lipsum.txt");
+$file = new SplFileObject("lipsum.txt");
 $file->setMaxLineLen(20);
-foreach ($file as $line) {
-    echo $file->key() . ". " . $line . "\n";
+foreach ($file as $line) {
+    echo $file->key() . ". " . $line . "\n";
 }
 ?>
 ```

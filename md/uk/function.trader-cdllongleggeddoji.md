@@ -15,7 +15,7 @@ tradercdllongleggeddoji - Свічкова модель "Довгоногі до
 ### Опис
 
 ```methodsynopsis
-trader_cdllongleggeddoji(    array $open,    array $high,    array $low,    array $close): array
+trader_cdllongleggeddoji(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

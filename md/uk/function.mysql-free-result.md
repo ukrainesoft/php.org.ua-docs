@@ -47,19 +47,19 @@ mysql_free_result(resource $result): bool
 
 ```php
 <?php
-$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
-if (!$result) {
-    echo 'Не удалось выполнить запрос: ' . mysql_error();
-    exit;
+$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$result) {
+    echo 'Не удалось выполнить запрос: ' . mysql_error();
+    exit;
 }
-/* Используем результат, подразумевая, что после этого он нам больше не нужен */
-$row = mysql_fetch_assoc($result);
+/* Используем результат, подразумевая, что после этого он нам больше не нужен */
+$row = mysql_fetch_assoc($result);
 
-/* Теперь освобождаем результат и продолжаем дальнейшую работу над нашим скриптом */
+/* Теперь освобождаем результат и продолжаем дальнейшую работу над нашим скриптом */
 mysql_free_result($result);
 
-echo $row['id'];
-echo $row['email'];
+echo $row['id'];
+echo $row['email'];
 ?>
 ```
 

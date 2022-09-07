@@ -36,8 +36,8 @@ public mysql_xdevapi\Session::sql(string $query): mysql_xdevapi\SqlStatement
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 ?>
 ```

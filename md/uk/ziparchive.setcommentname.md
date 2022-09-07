@@ -40,14 +40,14 @@ public ZipArchive::setCommentName(string $name, string $comment): bool
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip');
-if ($res === TRUE) {
-    $zip->setCommentName('entry1.txt', 'новая запись комментария');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+$res = $zip->open('test.zip');
+if ($res === TRUE) {
+    $zip->setCommentName('entry1.txt', 'новая запись комментария');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

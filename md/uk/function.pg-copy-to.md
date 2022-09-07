@@ -15,7 +15,7 @@ title: пгcopyто
 ### Опис
 
 ```methodsynopsis
-pg_copy_to(    PgSql\Connection $connection,    string $table_name,    string $separator = "\t",    string $null_as = "\\\\N"): array|false
+pg_copy_to(    PgSql\Connection $connection,    string $table_name,    string $separator = "\t",    string $null_as = "\\\\N"): array|false
 ```
 
 **пгcopyto()** копіює дані з таблиці до масиву. Для отримання записів посилає серверу команду SQL `COPY TO`
@@ -54,13 +54,13 @@ pg_copy_to(    PgSql\Connection $connection,    string $table_name,  �
 
 ```php
 <?php
-   $db = pg_connect("dbname=publisher") or die("Невозможно подключиться");
+   $db = pg_connect("dbname=publisher") or die("Невозможно подключиться");
 
-   $rows = pg_copy_to($db, $table_name);
+   $rows = pg_copy_to($db, $table_name);
 
-   pg_query($db, "DELETE FROM $table_name");
+   pg_query($db, "DELETE FROM $table_name");
 
-   pg_copy_from($db, $table_name, $rows);
+   pg_copy_from($db, $table_name, $rows);
 ?>
 ```
 

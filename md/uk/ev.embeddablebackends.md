@@ -38,29 +38,29 @@ final
 ```php
 <?php
 /*
-* Проверяем, что kqueue доступен, но не рекомендован и создаём kqueue бэкенд
-* с использованием сокетов (которые обычно работают с любой реализацией kqueue).
-* Сохраняем событийный цикл kqueue/socket-only в loop_socket. (Можем, опционально
-* использовать флаг EVFLAG_NOENV)
+* Проверяем, что kqueue доступен, но не рекомендован и создаём kqueue бэкенд
+* с использованием сокетов (которые обычно работают с любой реализацией kqueue).
+* Сохраняем событийный цикл kqueue/socket-only в loop_socket. (Можем, опционально
+* использовать флаг EVFLAG_NOENV)
 *
-* Пример взят с сайта
-* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
+* Пример взят с сайта
+* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
-$loop        = EvLoop::defaultLoop();
-$socket_loop = NULL;
-$embed       = NULL;
+$loop        = EvLoop::defaultLoop();
+$socket_loop = NULL;
+$embed       = NULL;
 
-if (Ev::supportedBackends() & ~Ev::recommendedBackends() & Ev::BACKEND_KQUEUE) {
- if (($socket_loop = new EvLoop(Ev::BACKEND_KQUEUE))) {
-  $embed = new EvEmbed($loop);
- }
+if (Ev::supportedBackends() & ~Ev::recommendedBackends() & Ev::BACKEND_KQUEUE) {
+ if (($socket_loop = new EvLoop(Ev::BACKEND_KQUEUE))) {
+  $embed = new EvEmbed($loop);
+ }
 }
 
-if (!$socket_loop) {
- $socket_loop = $loop;
+if (!$socket_loop) {
+ $socket_loop = $loop;
 }
 
-// Теперь используем $socket_loop для всех сокетов и $loop всего остального
+// Теперь используем $socket_loop для всех сокетов и $loop всего остального
 ?>
 ```
 

@@ -32,17 +32,17 @@ title: Опції контексту Zip
 
 ```php
 <?php
-// Читаем зашифрованный архив
-$opts = array(
-    'zip' => array(
-        'password' => 'secret',
-    ),
+// Читаем зашифрованный архив
+$opts = array(
+    'zip' => array(
+        'password' => 'secret',
+    ),
 );
-// создаём контекст...
-$context = stream_context_create($opts);
+// создаём контекст...
+$context = stream_context_create($opts);
 
-// ...и используем его для получения данных
-echo file_get_contents('zip://test.zip#test.txt', false, $context);
+// ...и используем его для получения данных
+echo file_get_contents('zip://test.zip#test.txt', false, $context);
 
 ?>
 ```

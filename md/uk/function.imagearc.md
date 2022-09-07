@@ -15,7 +15,7 @@ imagearc - Малювання дуги
 ### Опис
 
 ```methodsynopsis
-imagearc(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $start_angle,    int $end_angle,    int $color): bool
+imagearc(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $start_angle,    int $end_angle,    int $color): bool
 ```
 
 **imagearc()** малює дугу кола із заданими координатами центру.
@@ -71,28 +71,28 @@ y-координат центру.
 ```php
 <?php
 
-// создаём изображение 200*200
-$img = imagecreatetruecolor(200, 200);
+// создаём изображение 200*200
+$img = imagecreatetruecolor(200, 200);
 
-// создаём несколько цветов
-$white = imagecolorallocate($img, 255, 255, 255);
-$red   = imagecolorallocate($img, 255,   0,   0);
-$green = imagecolorallocate($img,   0, 255,   0);
-$blue  = imagecolorallocate($img,   0,   0, 255);
+// создаём несколько цветов
+$white = imagecolorallocate($img, 255, 255, 255);
+$red   = imagecolorallocate($img, 255,   0,   0);
+$green = imagecolorallocate($img,   0, 255,   0);
+$blue  = imagecolorallocate($img,   0,   0, 255);
 
-// рисуем голову
-imagearc($img, 100, 100, 200, 200,  0, 360, $white);
-// рот
-imagearc($img, 100, 100, 150, 150, 25, 155, $red);
-// глаза
-imagearc($img,  60,  75,  50,  50,  0, 360, $green);
-imagearc($img, 140,  75,  50,  50,  0, 360, $blue);
+// рисуем голову
+imagearc($img, 100, 100, 200, 200,  0, 360, $white);
+// рот
+imagearc($img, 100, 100, 150, 150, 25, 155, $red);
+// глаза
+imagearc($img,  60,  75,  50,  50,  0, 360, $green);
+imagearc($img, 140,  75,  50,  50,  0, 360, $blue);
 
-// выводим изображение в браузере
-header("Content-type: image/png");
+// выводим изображение в браузере
+header("Content-type: image/png");
 imagepng($img);
 
-// освобождаем память
+// освобождаем память
 imagedestroy($img);
 
 ?>

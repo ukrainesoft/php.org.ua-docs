@@ -15,7 +15,7 @@ opensslcmsdecrypt — Розшифровує CMS-повідомлення
 ### Опис
 
 ```methodsynopsis
-openssl_cms_decrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string|null $private_key = null,    int $encoding = OPENSSL_ENCODING_SMIME): bool
+openssl_cms_decrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string|null $private_key = null,    int $encoding = OPENSSL_ENCODING_SMIME): bool
 ```
 
 Розшифровує CMS-повідомлення.

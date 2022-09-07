@@ -15,7 +15,7 @@ openssldecrypt - Розшифровує дані
 ### Опис
 
 ```methodsynopsis
-openssl_decrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    ?string $tag = null,    string $aad = ""): string|false
+openssl_decrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    ?string $tag = null,    string $aad = ""): string|false
 ```
 
 Бере необроблений або кодований у base64 рядок і розшифровує його за допомогою заданого методу та ключа.

@@ -39,7 +39,7 @@ public mysql_xdevapi\CollectionRemove::execute(): mysql_xdevapi\Result
 ```php
 <?php
 
-$res = $coll->remove('true')->sort('age desc')->limit(2)->execute();
+$res = $coll->remove('true')->sort('age desc')->limit(2)->execute();
 
 ?>
 ```

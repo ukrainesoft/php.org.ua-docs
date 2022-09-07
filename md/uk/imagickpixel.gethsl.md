@@ -35,9 +35,9 @@ public ImagickPixel::getHSL(): array
 ```php
 <?php
 
-$color = new ImagickPixel('rgb(90%, 10%, 10%)');
+$color = new ImagickPixel('rgb(90%, 10%, 10%)');
 
-$colorInfo = $color->getHSL();
+$colorInfo = $color->getHSL();
 
 print_r($colorInfo);
 

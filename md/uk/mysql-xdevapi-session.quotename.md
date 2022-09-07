@@ -36,13 +36,13 @@ public mysql_xdevapi\Session::quoteName(string $name): string
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$first = "MySQL's test";
+$first = "MySQL's test";
 var_dump($first);
 var_dump($session->quoteName($first));
 
-$second = 'Another `test` "like" `this`';
+$second = 'Another `test` "like" `this`';
 var_dump($second);
 var_dump($session->quoteName($second));
 ?>

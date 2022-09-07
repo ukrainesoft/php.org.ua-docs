@@ -15,7 +15,7 @@ sqlsrvprepare — Підготовка запиту до виконання
 ### Опис
 
 ```methodsynopsis
-sqlsrv_prepare(    resource $conn,    string $sql,    array $params = ?,    array $options = ?): mixed
+sqlsrv_prepare(    resource $conn,    string $sql,    array $params = ?,    array $options = ?): mixed
 ```
 
 Підготовка запиту до виконання. Функція ідеально підходить для підготовки запиту, який виконуватиметься кілька разів із різними значеннями параметрів.
@@ -59,7 +59,7 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 | --- | --- | --- |
 | QueryTimeout | Позитивне ціле значення. | Встановлює час очікування в секундах. За замовчуванням драйвер очікуватиме результатів нескінченно. |
 | SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`** | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.md) |
-| Scrollable | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV. |
+| Scrollable | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV. |
 
 ### Значення, що повертаються
 
@@ -73,36 +73,36 @@ sqlsrv_prepare(    resource $conn,    string $sql,    array $params 
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false) {
-    die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false) {
+    die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "UPDATE Table_1
-        SET OrderQty = ?
-        WHERE SalesOrderID = ?";
+$sql = "UPDATE Table_1
+        SET OrderQty = ?
+        WHERE SalesOrderID = ?";
 
-// Инициализация параметров и подготовка запроса.
-// Переменные $qty и $id связаны с оператором $stmt.
-$qty = 0; $id = 0;
-$stmt = sqlsrv_prepare( $conn, $sql, array( &$qty, &$id));
-if( !$stmt ) {
-    die( print_r( sqlsrv_errors(), true));
+// Инициализация параметров и подготовка запроса.
+// Переменные $qty и $id связаны с оператором $stmt.
+$qty = 0; $id = 0;
+$stmt = sqlsrv_prepare( $conn, $sql, array( &$qty, &$id));
+if( !$stmt ) {
+    die( print_r( sqlsrv_errors(), true));
 }
 
-// Настройка информации SalesOrderDetailID и OrderQty.
-// Этот Масив сопоставляет идентификатор заказа с количеством заказа в парах ключ => значение.
-$orders = array( 1=>10, 2=>20, 3=>30);
+// Настройка информации SalesOrderDetailID и OrderQty.
+// Этот Масив сопоставляет идентификатор заказа с количеством заказа в парах ключ => значение.
+$orders = array( 1=>10, 2=>20, 3=>30);
 
-// Выполнение запроса для каждого заказа.
-foreach( $orders as $id => $qty) {
-    // Поскольку $id и $qty привязаны к $stmt1,
-    // их обновлённые значения используются при каждом выполнении запроса.
-    if( sqlsrv_execute( $stmt ) === false ) {
-          die( print_r( sqlsrv_errors(), true));
-    }
+// Выполнение запроса для каждого заказа.
+foreach( $orders as $id => $qty) {
+    // Поскольку $id и $qty привязаны к $stmt1,
+    // их обновлённые значения используются при каждом выполнении запроса.
+    if( sqlsrv_execute( $stmt ) === false ) {
+          die( print_r( sqlsrv_errors(), true));
+    }
 }
 ?>
 ```

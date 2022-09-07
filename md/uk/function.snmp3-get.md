@@ -15,7 +15,7 @@ snmpv3get — Отримує об'єкт SNMP
 ### Опис
 
 ```methodsynopsis
-snmp3_get(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmp3_get(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
 Функція **snmpv3get()** використовується для читання значення об'єкта SNMP, вказаного в `object_id`
@@ -78,7 +78,7 @@ snmp3_get(    string $hostname,    string $security_name,    string 
 
 ```php
 <?php
-$nameOfSecondInterface = snmp3_get('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName.2');
+$nameOfSecondInterface = snmp3_get('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName.2');
 ?>
 ```
 

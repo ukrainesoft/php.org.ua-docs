@@ -39,7 +39,7 @@ POSIX номер помилки, отриманий із функції [posixge
 ```php
 <?php
 posix_kill(50,SIGKILL);
-echo posix_strerror(posix_get_last_error())."\n";
+echo posix_strerror(posix_get_last_error())."\n";
 ?>
 ```
 

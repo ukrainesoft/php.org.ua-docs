@@ -12,7 +12,7 @@ title: 'Клас SoapClient'
 
 ## Вступ
 
-Клас SoapClient є клієнтом для серверів [» SOAP 1.1](http://www.w3.org/TR/soap11/) [» SOAP 1.2](http://www.w3.org/TR/soap12/). Він може використовуватися в режимі WSDL або без нього.
+Клас SoapClient є клієнтом для серверів [» SOAP 1.1](http://www.w3.org/TR/soap11/) [» SOAP 1.2](http://www.w3.org/TR/soap12/). Він може використовуватися в режимі WSDL або без нього.
 
 ## Огляд класів
 
@@ -179,7 +179,7 @@ title: 'Клас SoapClient'
    public __construct(?string $wsdl, array $options = [])
 
     public __call(string $name, array $args): mixed
-public __doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
+public __doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
 public __getCookies(): array
 public __getFunctions(): ?array
 public __getLastRequest(): ?string
@@ -190,7 +190,7 @@ public __getTypes(): ?array
 public __setCookie(string $name, ?string $value = null): void
 public __setLocation(?string $location = null): ?string
 public __setSoapHeaders(SoapHeader|array|null $headers = null): bool
-public __soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
+public __soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
 
    }
 ```

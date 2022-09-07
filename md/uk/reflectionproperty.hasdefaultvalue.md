@@ -34,25 +34,25 @@ public ReflectionProperty::hasDefaultValue(): bool
 
 ```php
 <?php
-class Foo {
-    public $bar;
-    public ?int $baz;
-    public ?int $foo = null;
-    public int $boing;
+class Foo {
+    public $bar;
+    public ?int $baz;
+    public ?int $foo = null;
+    public int $boing;
 
-    public function __construct()
-    {
-        $this->ping = '';
-    }
+    public function __construct()
+    {
+        $this->ping = '';
+    }
 }
 
-$ro = new ReflectionObject(new Foo());
+$ro = new ReflectionObject(new Foo());
 var_dump($ro->getProperty('bar')->hasDefaultValue());
 var_dump($ro->getProperty('baz')->hasDefaultValue());
 var_dump($ro->getProperty('foo')->hasDefaultValue());
 var_dump($ro->getProperty('boing')->hasDefaultValue());
-var_dump($ro->getProperty('ping')->hasDefaultValue()); // Динамическое свойство
-var_dump($ro->getProperty('pong')->hasDefaultValue()); // Неопределённое свойство
+var_dump($ro->getProperty('ping')->hasDefaultValue()); // Динамическое свойство
+var_dump($ro->getProperty('pong')->hasDefaultValue()); // Неопределённое свойство
 ?>
 ```
 

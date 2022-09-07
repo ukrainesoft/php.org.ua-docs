@@ -46,8 +46,8 @@ resourcebundle_count(ResourceBundle $bundle): int
 
 ```php
 <?php
-$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
-echo resourcebundle_count($r);
+$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
+echo resourcebundle_count($r);
 ?>
 ```
 
@@ -55,8 +55,8 @@ echo resourcebundle_count($r);
 
 ```php
 <?php
-$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
-echo $r->count();
+$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
+echo $r->count();
 ?>
 ```
 

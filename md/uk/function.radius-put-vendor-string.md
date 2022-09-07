@@ -15,7 +15,7 @@ radiusputvendorstring — Приєднує рядковий атрибут, що
 ### Опис
 
 ```methodsynopsis
-radius_put_vendor_string(    resource $radius_handle,    int $vendor,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
+radius_put_vendor_string(    resource $radius_handle,    int $vendor,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує до поточного запиту рядковий атрибут RADIUS, що залежить від постачальника. В загальному, [radiusputvendorattr()](function.radius-put-vendor-attr.md) - корисніша функція для приєднання рядкових атрибутів, оскільки вона бінарно безпечна.

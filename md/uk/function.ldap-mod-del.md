@@ -15,7 +15,7 @@ ldapmoddel — Видалити атрибути з поточних атриб�
 ### Опис
 
 ```methodsynopsis
-ldap_mod_del(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
+ldap_mod_del(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
 ```
 
 Видаляє один або більше атрибутів із зазначеного `dn`. Видалення об'єктів здійснюється функцією [ldapdelete()](function.ldap-delete.md)

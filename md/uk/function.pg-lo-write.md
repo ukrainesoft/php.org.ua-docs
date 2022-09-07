@@ -57,13 +57,13 @@ pg_lo_write(PgSql\Lob $lob, string $data, ?int $length = null): int|false
 
 ```php
 <?php
-   $doc_oid = 189762345;
-   $data = "This will overwrite the start of the large object.";
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $handle = pg_lo_open($database, $doc_oid, "w");
-   $data = pg_lo_write($handle, $data);
-   pg_query($database, "commit");
+   $doc_oid = 189762345;
+   $data = "This will overwrite the start of the large object.";
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $doc_oid, "w");
+   $data = pg_lo_write($handle, $data);
+   pg_query($database, "commit");
 ?>
 ```
 

@@ -15,7 +15,7 @@ swooleasyncwrite — Асинхронний запис даних до пото�
 ### Опис
 
 ```methodsynopsis
-swoole_async_write(    string $filename,    string $content,    int $offset = ?,    callable $callback = ?): bool
+swoole_async_write(    string $filename,    string $content,    int $offset = ?,    callable $callback = ?): bool
 ```
 
 ### Список параметрів

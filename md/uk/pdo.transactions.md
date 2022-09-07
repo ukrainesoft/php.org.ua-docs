@@ -32,26 +32,26 @@ PDO перевіряє можливість використання транз�
 
 ```php
 <?php
-try {
-  $dbh = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2',
-      array(PDO::ATTR_PERSISTENT => true));
-  echo "Подключились\n";
-} catch (Exception $e) {
-  die("Не удалось подключиться: " . $e->getMessage());
+try {
+  $dbh = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2',
+      array(PDO::ATTR_PERSISTENT => true));
+  echo "Подключились\n";
+} catch (Exception $e) {
+  die("Не удалось подключиться: " . $e->getMessage());
 }
 
-try {
-  $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+try {
+  $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $dbh->beginTransaction();
-  $dbh->exec("insert into staff (id, first, last) values (23, 'Joe', 'Bloggs')");
-  $dbh->exec("insert into salarychange (id, amount, changedate)
-      values (23, 50000, NOW())");
-  $dbh->commit();
+  $dbh->beginTransaction();
+  $dbh->exec("insert into staff (id, first, last) values (23, 'Joe', 'Bloggs')");
+  $dbh->exec("insert into salarychange (id, amount, changedate)
+      values (23, 50000, NOW())");
+  $dbh->commit();
 
-} catch (Exception $e) {
-  $dbh->rollBack();
-  echo "Ошибка: " . $e->getMessage();
+} catch (Exception $e) {
+  $dbh->rollBack();
+  echo "Ошибка: " . $e->getMessage();
 }
 ?>
 ```

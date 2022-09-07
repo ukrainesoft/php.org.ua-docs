@@ -24,28 +24,28 @@ title: Властивості
 
 ```php
 <?php
-class SimpleClass
+class SimpleClass
 {
-   public $var1 = 'hello ' . 'world';
-   public $var2 = <<<EOD
-hello world
+   public $var1 = 'hello ' . 'world';
+   public $var2 = <<<EOD
+hello world
 EOD;
-   public $var3 = 1+2;
-   // неправильное определение свойств:
-   public $var4 = self::myStaticMethod();
-   public $var5 = $myVar;
+   public $var3 = 1+2;
+   // неправильное определение свойств:
+   public $var4 = self::myStaticMethod();
+   public $var5 = $myVar;
 
-   // правильное определение свойств:
-   public $var6 = myConstant;
-   public $var7 = [true, false];
+   // правильное определение свойств:
+   public $var6 = myConstant;
+   public $var7 = [true, false];
 
-   public $var8 = <<<'EOD'
-hello world
+   public $var8 = <<<'EOD'
+hello world
 EOD;
 
-   // Без модификатора области видимости:
-   static $var9;
-   readonly int $var10;
+   // Без модификатора области видимости:
+   static $var9;
+   readonly int $var10;
 
 }
 ?>
@@ -64,19 +64,19 @@ EOD;
 ```php
 <?php
 
-class User
+class User
 {
-    public int $id;
-    public ?string $name;
+    public int $id;
+    public ?string $name;
 
-    public function __construct(int $id, ?string $name)
-    {
-        $this->id = $id;
-        $this->name = $name;
-    }
+    public function __construct(int $id, ?string $name)
+    {
+        $this->id = $id;
+        $this->name = $name;
+    }
 }
 
-$user = new User(1234, null);
+$user = new User(1234, null);
 
 var_dump($user->id);
 var_dump($user->name);
@@ -98,39 +98,39 @@ NULL
 ```php
 <?php
 
-class Shape
+class Shape
 {
-    public int $numberOfSides;
-    public string $name;
+    public int $numberOfSides;
+    public string $name;
 
-    public function setNumberOfSides(int $numberOfSides): void
-    {
-        $this->numberOfSides = $numberOfSides;
-    }
+    public function setNumberOfSides(int $numberOfSides): void
+    {
+        $this->numberOfSides = $numberOfSides;
+    }
 
-    public function setName(string $name): void
-    {
-        $this->name = $name;
-    }
+    public function setName(string $name): void
+    {
+        $this->name = $name;
+    }
 
-    public function getNumberOfSides(): int
-    {
-        return $this->numberOfSides;
-    }
+    public function getNumberOfSides(): int
+    {
+        return $this->numberOfSides;
+    }
 
-    public function getName(): string
-    {
-        return $this->name;
-    }
+    public function getName(): string
+    {
+        return $this->name;
+    }
 }
 
-$triangle = new Shape();
+$triangle = new Shape();
 $triangle->setName("triangle");
 $triangle->setNumberofSides(3);
 var_dump($triangle->getName());
 var_dump($triangle->getNumberOfSides());
 
-$circle = new Shape();
+$circle = new Shape();
 $circle->setName("circle");
 var_dump($circle->getName());
 var_dump($circle->getNumberOfSides());
@@ -155,19 +155,19 @@ Fatal error: Uncaught Error: Typed property Shape::$numberOfSides must not be ac
 
 ```php
 <?php
-class Test {
-   public readonly string $prop;
-   public function __construct(string $prop) {
-       // Правильная инициализация.
-       $this->prop = $prop;
-   }
+class Test {
+   public readonly string $prop;
+   public function __construct(string $prop) {
+       // Правильная инициализация.
+       $this->prop = $prop;
+   }
 }
-$test = new Test("foobar");
-// Правильное чтение.
-var_dump($test->prop); // string(6) "foobar"
-// Неправильное переопределение. Не имеет значения, что присвоенное значение такое же.
-$test->prop = "foobar";
-// Ошибка: невозможно изменить readonly-свойство Test::$prop
+$test = new Test("foobar");
+// Правильное чтение.
+var_dump($test->prop); // string(6) "foobar"
+// Неправильное переопределение. Не имеет значения, что присвоенное значение такое же.
+$test->prop = "foobar";
+// Ошибка: невозможно изменить readonly-свойство Test::$prop
 ?>
 ```
 
@@ -185,13 +185,13 @@ Readonly-властивість можна ініціалізувати лише
 
 ```php
 <?php
-class Test1 {
-    public readonly string $prop;
+class Test1 {
+    public readonly string $prop;
 }
-$test1 = new Test1;
-// Неправильная инициализация за пределами закрытой области.
-$test1->prop = "foobar";
-// Ошибка: не удаётся инициализировать readonly-свойство Test1::$prop из глобальной области
+$test1 = new Test1;
+// Неправильная инициализация за пределами закрытой области.
+$test1->prop = "foobar";
+// Ошибка: не удаётся инициализировать readonly-свойство Test1::$prop из глобальной области
 ?>
 ```
 
@@ -201,9 +201,9 @@ $test1->prop = "foobar";
 > 
 > ```php
 > <?php
-> class Test {
->     // Ошибка: у readonly-свойства Test::$prop не может быть значения по умолчанию
->     public readonly int $prop = 42;
+> class Test {
+>     // Ошибка: у readonly-свойства Test::$prop не может быть значения по умолчанию
+>     public readonly int $prop = 42;
 > }
 > ?>
 > ```
@@ -216,22 +216,22 @@ $test1->prop = "foobar";
 
 ```php
 <?php
-class Test {
-    public function __construct(
-        public readonly int $i = 0,
-        public readonly array $ary = [],
-    ) {}
+class Test {
+    public function __construct(
+        public readonly int $i = 0,
+        public readonly array $ary = [],
+    ) {}
 }
-$test = new Test;
-$test->i += 1;
+$test = new Test;
+$test->i += 1;
 $test->i++;
 ++$test->i;
-$test->ary[] = 1;
-$test->ary[0][] = 1;
-$ref =& $test->i;
-$test->i =& $ref;
+$test->ary[] = 1;
+$test->ary[0][] = 1;
+$ref =& $test->i;
+$test->i =& $ref;
 byRef($test->i);
-foreach ($test as &$prop);
+foreach ($test as &$prop);
 ?>
 ```
 
@@ -239,13 +239,13 @@ foreach ($test as &$prop);
 
 ```php
 <?php
-class Test {
-    public function __construct(public readonly object $obj) {}
+class Test {
+    public function __construct(public readonly object $obj) {}
 }
-$test = new Test(new stdClass);
-// Правильное внутреннее изменение.
-$test->obj->foo = 1;
-// Неправильное переопределение.
-$test->obj = new stdClass;
+$test = new Test(new stdClass);
+// Правильное внутреннее изменение.
+$test->obj->foo = 1;
+// Неправильное переопределение.
+$test->obj = new stdClass;
 ?>
 ```

@@ -35,9 +35,9 @@ title: Клас SQLite3
 public busyTimeout(int $milliseconds): bool
 public changes(): int
 public close(): bool
-public createAggregate(    string $name,    callable $stepCallback,    callable $finalCallback,    int $argCount = -1): bool
+public createAggregate(    string $name,    callable $stepCallback,    callable $finalCallback,    int $argCount = -1): bool
 public createCollation(string $name, callable $callback): bool
-public createFunction(    string $name,    callable $callback,    int $argCount = -1,    int $flags = 0): bool
+public createFunction(    string $name,    callable $callback,    int $argCount = -1,    int $flags = 0): bool
 public enableExceptions(bool $enable = false): bool
 public static escapeString(string $string): string
 public exec(string $query): bool
@@ -46,7 +46,7 @@ public lastErrorMsg(): string
 public lastInsertRowID(): int
 public loadExtension(string $name): bool
 public open(string $filename, int $flags = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE, string $encryptionKey = ""): void
-public openBlob(    string $table,    string $column,    int $rowid,    string $database = "main",    int $flags = SQLITE3_OPEN_READONLY): resource|false
+public openBlob(    string $table,    string $column,    int $rowid,    string $database = "main",    int $flags = SQLITE3_OPEN_READONLY): resource|false
 public prepare(string $query): SQLite3Stmt|false
 public query(string $query): SQLite3Result|false
 public querySingle(string $query, bool $entireRow = false): mixed

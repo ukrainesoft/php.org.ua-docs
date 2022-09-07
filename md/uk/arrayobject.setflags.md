@@ -45,16 +45,16 @@ public ArrayObject::setFlags(int $flags): void
 
 ```php
 <?php
-// Масив с доступными фруктами
-$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
+// Масив с доступными фруктами
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
-$fruitsArrayObject = new ArrayObject($fruits);
+$fruitsArrayObject = new ArrayObject($fruits);
 
-// Попытка использовать ключ Масива как свойство
+// Попытка использовать ключ Масива как свойство
 var_dump($fruitsArrayObject->lemons);
-// Установка флага, позволяющего использовать ключи Масива как свойства ArrayObject
+// Установка флага, позволяющего использовать ключи Масива как свойства ArrayObject
 $fruitsArrayObject->setFlags(ArrayObject::ARRAY_AS_PROPS);
-// Новая попытка
+// Новая попытка
 var_dump($fruitsArrayObject->lemons);
 ?>
 ```

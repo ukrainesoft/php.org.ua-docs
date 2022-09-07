@@ -15,7 +15,7 @@ SwooleServer::sendto — Надсилає дані на віддалену UDP-�
 ### Опис
 
 ```methodsynopsis
-public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
+public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
 ```
 
 ### Список параметрів

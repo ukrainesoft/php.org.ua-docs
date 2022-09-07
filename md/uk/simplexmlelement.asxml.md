@@ -42,21 +42,21 @@ public SimpleXMLElement::asXML(?string $filename = null): string|bool
 
 ```php
 <?php
-$string = <<<XML
+$string = <<<XML
 <a>
- <b>
-  <c>текст</c>
-  <c>штучка</c>
- </b>
- <d>
-  <c>код</c>
- </d>
+ <b>
+  <c>текст</c>
+  <c>штучка</c>
+ </b>
+ <d>
+  <c>код</c>
+ </d>
 </a>
 XML;
 
-$xml = new SimpleXMLElement($string);
+$xml = new SimpleXMLElement($string);
 
-echo $xml->asXML();
+echo $xml->asXML();
 
 ?>
 ```
@@ -82,13 +82,13 @@ echo $xml->asXML();
 
 ```php
 <?php
-// Продолжение примера XML выше.
+// Продолжение примера XML выше.
 
-/* Поиск <a><b><c> */
-$result = $xml->xpath('/a/b/c');
+/* Поиск <a><b><c> */
+$result = $xml->xpath('/a/b/c');
 
-foreach ($result as $node) {
-    echo $node->asXML();
+foreach ($result as $node) {
+    echo $node->asXML();
 }
 ?>
 ```

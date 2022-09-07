@@ -34,12 +34,12 @@ public QuickHashIntHash::saveToString(): string
 
 ```php
 <?php
-$hash = new QuickHashIntHash( 1024 );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->add( 4, 34 ) );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->add( 4, 55 ) );
+$hash = new QuickHashIntHash( 1024 );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->add( 4, 34 ) );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->add( 4, 55 ) );
 
-var_dump( $hash->saveToString() );
+var_dump( $hash->saveToString() );
 ?>
 ```

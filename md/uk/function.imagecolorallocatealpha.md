@@ -15,7 +15,7 @@ imagecolorallocatealpha — Створення кольору для зобра�
 ### Опис
 
 ```methodsynopsis
-imagecolorallocatealpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int|false
+imagecolorallocatealpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int|false
 ```
 
 **imagecolorallocatealpha()** працює аналогічно до функцій [imagecolorallocate()](function.imagecolorallocate.md), але ще додає до кольору параметр `alpha`, що відповідає за прозорість.
@@ -64,37 +64,37 @@ imagecolorallocatealpha(    GdImage $image,    int $red,    int $gre
 
 ```php
 <?php
-$size = 300;
-$image=imagecreatetruecolor($size, $size);
+$size = 300;
+$image=imagecreatetruecolor($size, $size);
 
-// создадим белый фон с чёрной рамкой
-$back = imagecolorallocate($image, 255, 255, 255);
-$border = imagecolorallocate($image, 0, 0, 0);
-imagefilledrectangle($image, 0, 0, $size - 1, $size - 1, $back);
-imagerectangle($image, 0, 0, $size - 1, $size - 1, $border);
+// создадим белый фон с чёрной рамкой
+$back = imagecolorallocate($image, 255, 255, 255);
+$border = imagecolorallocate($image, 0, 0, 0);
+imagefilledrectangle($image, 0, 0, $size - 1, $size - 1, $back);
+imagerectangle($image, 0, 0, $size - 1, $size - 1, $border);
 
-$yellow_x = 100;
-$yellow_y = 75;
-$red_x    = 120;
-$red_y    = 165;
-$blue_x   = 187;
-$blue_y   = 125;
-$radius   = 150;
+$yellow_x = 100;
+$yellow_y = 75;
+$red_x    = 120;
+$red_y    = 165;
+$blue_x   = 187;
+$blue_y   = 125;
+$radius   = 150;
 
-// создание цветов с альфа компонентом
-$yellow = imagecolorallocatealpha($image, 255, 255, 0, 75);
-$red    = imagecolorallocatealpha($image, 255, 0, 0, 75);
-$blue   = imagecolorallocatealpha($image, 0, 0, 255, 75);
+// создание цветов с альфа компонентом
+$yellow = imagecolorallocatealpha($image, 255, 255, 0, 75);
+$red    = imagecolorallocatealpha($image, 255, 0, 0, 75);
+$blue   = imagecolorallocatealpha($image, 0, 0, 255, 75);
 
-// рисование 3-х пересекающихся окружностей
-imagefilledellipse($image, $yellow_x, $yellow_y, $radius, $radius, $yellow);
-imagefilledellipse($image, $red_x, $red_y, $radius, $radius, $red);
-imagefilledellipse($image, $blue_x, $blue_y, $radius, $radius, $blue);
+// рисование 3-х пересекающихся окружностей
+imagefilledellipse($image, $yellow_x, $yellow_y, $radius, $radius, $yellow);
+imagefilledellipse($image, $red_x, $red_y, $radius, $radius, $red);
+imagefilledellipse($image, $blue_x, $blue_y, $radius, $radius, $blue);
 
-// не забудьте вывести правильный заголовок!
-header('Content-Type: image/png');
+// не забудьте вывести правильный заголовок!
+header('Content-Type: image/png');
 
-// и наконец, вывод
+// и наконец, вывод
 imagepng($image);
 imagedestroy($image);
 ?>
@@ -110,10 +110,10 @@ imagedestroy($image);
 
 ```php
 <?php
-$alpha8 = 0; // полностью прозрачный
-var_dump(127 - ($alpha8 >> 1));
-$alpha8 = 255; // полностью непрозрачный
-var_dump(127 - ($alpha8 >> 1));
+$alpha8 = 0; // полностью прозрачный
+var_dump(127 - ($alpha8 >> 1));
+$alpha8 = 255; // полностью непрозрачный
+var_dump(127 - ($alpha8 >> 1));
 ?>
 ```
 

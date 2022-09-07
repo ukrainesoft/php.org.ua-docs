@@ -15,7 +15,7 @@ fannsetinputscalingparams — Розраховує вхідні параметр
 ### Опис
 
 ```methodsynopsis
-fann_set_input_scaling_params(    resource $ann,    resource $train_data,    float $new_input_min,    float $new_input_max): bool
+fann_set_input_scaling_params(    resource $ann,    resource $train_data,    float $new_input_min,    float $new_input_max): bool
 ```
 
 Розраховує вхідні параметри масштабування майбутнього використання з урахуванням даних навчання.

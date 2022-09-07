@@ -42,8 +42,8 @@ imagetypes(): int
 
 ```php
 <?php
-if (imagetypes() & IMG_PNG) {
-    echo "Поддержка PNG включена";
+if (imagetypes() & IMG_PNG) {
+    echo "Поддержка PNG включена";
 }
 ?>
 ```

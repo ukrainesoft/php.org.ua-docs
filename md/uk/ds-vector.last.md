@@ -38,7 +38,7 @@ public Ds\Vector::last(): mixed
 
 ```php
 <?php
-$vector = new \Ds\Vector([1, 2, 3]);
+$vector = new \Ds\Vector([1, 2, 3]);
 var_dump($vector->last());
 ?>
 ```

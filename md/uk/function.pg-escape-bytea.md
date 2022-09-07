@@ -56,17 +56,17 @@ pg_escape_bytea(PgSql\Connection $connection = ?, string $data): string
 
 ```php
 <?php
-  // Подключение к базе данных
-  $dbconn = pg_connect('dbname=foo');
+  // Подключение к базе данных
+  $dbconn = pg_connect('dbname=foo');
 
-  // Чтение бинарного файла
-  $data = file_get_contents('image1.jpg');
+  // Чтение бинарного файла
+  $data = file_get_contents('image1.jpg');
 
-  // Экранирование спецсимволов в строке с двоичными данными
-  $escaped = pg_escape_bytea($data);
+  // Экранирование спецсимволов в строке с двоичными данными
+  $escaped = pg_escape_bytea($data);
 
-  // Вставка в таблицу базы данных
-  pg_query("INSERT INTO gallery (name, data) VALUES ('Pine trees', '{$escaped}')");
+  // Вставка в таблицу базы данных
+  pg_query("INSERT INTO gallery (name, data) VALUES ('Pine trees', '{$escaped}')");
 ?>
 ```
 

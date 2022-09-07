@@ -41,12 +41,12 @@ is_executable(string $filename): bool
 ```php
 <?php
 
-$file = '/home/vincent/somefile.sh';
+$file = '/home/vincent/somefile.sh';
 
-if (is_executable($file)) {
-    echo $file.' является исполняемым';
-} else {
-    echo $file.' не является исполняемым';
+if (is_executable($file)) {
+    echo $file.' является исполняемым';
+} else {
+    echo $file.' не является исполняемым';
 }
 
 ?>

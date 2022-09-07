@@ -50,38 +50,38 @@ datefmt_set_lenient(IntlDateFormatter $formatter, bool $lenient): void
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'dd/MM/yyyy'
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'dd/MM/yyyy'
 );
-echo 'Мягкий режим средства форматирования : ';
-if ($fmt->isLenient()) {
-    echo 'ДА';
-} else {
-    echo 'НЕТ';
+echo 'Мягкий режим средства форматирования : ';
+if ($fmt->isLenient()) {
+    echo 'ДА';
+} else {
+    echo 'НЕТ';
 }
-datefmt_parse($fmt, '35/13/1971');
-echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . datefmt_parse($fmt, '35/13/1971');
-if (intl_get_error_code() != 0) {
-    echo "\nСообщение об ошибке : " . intl_get_error_message();
-    echo "\nКод ошибки : " . intl_get_error_code();
+datefmt_parse($fmt, '35/13/1971');
+echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . datefmt_parse($fmt, '35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nСообщение об ошибке : " . intl_get_error_message();
+    echo "\nКод ошибки : " . intl_get_error_code();
 }
-datefmt_set_lenient($fmt, false);
-echo "\nТеперь мягкий режим средства форматирования : ";
-if ($fmt->isLenient()) {
-    echo 'ДА';
-} else {
-    echo 'НЕТ';
+datefmt_set_lenient($fmt, false);
+echo "\nТеперь мягкий режим средства форматирования : ";
+if ($fmt->isLenient()) {
+    echo 'ДА';
+} else {
+    echo 'НЕТ';
 }
-datefmt_parse($fmt, '35/13/1971');
-echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . datefmt_parse($fmt, '35/13/1971');
-if (intl_get_error_code() != 0) {
-    echo "\nСообщение об ошибке : ".intl_get_error_message();
-    echo "\nКод ошибки : ".intl_get_error_code();
+datefmt_parse($fmt, '35/13/1971');
+echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . datefmt_parse($fmt, '35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nСообщение об ошибке : ".intl_get_error_message();
+    echo "\nКод ошибки : ".intl_get_error_code();
 }
 
 ?>
@@ -91,39 +91,39 @@ if (intl_get_error_code() != 0) {
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'dd/MM/yyyy'
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'dd/MM/yyyy'
 );
-echo 'Мягкий режим средства форматирования : ';
-if ($fmt->isLenient()) {
-    echo 'ДА';
-} else {
-    echo 'НЕТ';
+echo 'Мягкий режим средства форматирования : ';
+if ($fmt->isLenient()) {
+    echo 'ДА';
+} else {
+    echo 'НЕТ';
 }
 $fmt->parse('35/13/1971');
-echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . $fmt->parse('35/13/1971');
-if (intl_get_error_code() != 0) {
-    echo "\nСообщение об ошибке : " . intl_get_error_message();
-    echo "\nКод ошибки : " . intl_get_error_code();
+echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . $fmt->parse('35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nСообщение об ошибке : " . intl_get_error_message();
+    echo "\nКод ошибки : " . intl_get_error_code();
 }
 
 $fmt->setLenient(FALSE);
-echo "\nТеперь мягкий режим средства форматирования : ";
-if ($fmt->isLenient()) {
-    echo 'ДА';
-} else {
-    echo 'НЕТ';
+echo "\nТеперь мягкий режим средства форматирования : ";
+if ($fmt->isLenient()) {
+    echo 'ДА';
+} else {
+    echo 'НЕТ';
 }
 $fmt->parse('35/13/1971');
-echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . $fmt->parse('35/13/1971');
-if (intl_get_error_code() != 0) {
-    echo "\nСообщение об ошибке : " . intl_get_error_message();
-    echo "\nКод ошибки : " . intl_get_error_code();
+echo "\nПопытка разобрать '35/13/1971'.\nРезультат : " . $fmt->parse('35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nСообщение об ошибке : " . intl_get_error_message();
+    echo "\nКод ошибки : " . intl_get_error_code();
 }
 
 ?>

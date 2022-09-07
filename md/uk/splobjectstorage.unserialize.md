@@ -36,10 +36,10 @@ public SplObjectStorage::unserialize(string $data): void
 
 ```php
 <?php
-$s1 = new SplObjectStorage;
-$s2 = new SplObjectStorage;
-$o = new StdClass;
-$s1[$o] = "data";
+$s1 = new SplObjectStorage;
+$s2 = new SplObjectStorage;
+$o = new StdClass;
+$s1[$o] = "data";
 
 $s2->unserialize($s1->serialize());
 

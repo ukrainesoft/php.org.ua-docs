@@ -15,7 +15,7 @@ tradercdlrisefall3methods — Бича/ведмежа модель "Три ме�
 ### Опис
 
 ```methodsynopsis
-trader_cdlrisefall3methods(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlrisefall3methods(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

@@ -42,10 +42,10 @@ callback(mixed $value): bool
 
 ```php
 <?php
-$set = new \Ds\Set([1, 2, 3, 4, 5]);
+$set = new \Ds\Set([1, 2, 3, 4, 5]);
 
-var_dump($set->filter(function($value) {
-    return $value % 2 == 0;
+var_dump($set->filter(function($value) {
+    return $value % 2 == 0;
 }));
 ?>
 ```
@@ -65,7 +65,7 @@ object(Ds\Set)#3 (2) {
 
 ```php
 <?php
-$set = new \Ds\Set([0, 1, 'a', true, false]);
+$set = new \Ds\Set([0, 1, 'a', true, false]);
 
 var_dump($set->filter());
 ?>

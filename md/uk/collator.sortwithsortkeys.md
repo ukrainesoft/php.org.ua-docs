@@ -50,11 +50,11 @@ collator_sort_with_sort_keys(Collator $object, array &$array): bool
 
 ```php
 <?php
-$arr  = array( 'Köpfe', 'Kypper', 'Kopfe' );
-$coll = collator_create( 'sv' );
+$arr  = array( 'Köpfe', 'Kypper', 'Kopfe' );
+$coll = collator_create( 'sv' );
 
-collator_sort_with_sort_keys( $coll, $arr );
-var_export( $arr );
+collator_sort_with_sort_keys( $coll, $arr );
+var_export( $arr );
 ?>
 ```
 

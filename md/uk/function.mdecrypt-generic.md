@@ -44,37 +44,37 @@ mdecrypt_generic(resource $td, string $data): string
 
 ```php
 <?php
-    /* Данные */
-    $key = 'Это очень длинный ключ. Сильно больше, чем нужен шифру.';
-    $plain_text = 'очень важные данные';
+    /* Данные */
+    $key = 'Это очень длинный ключ. Сильно больше, чем нужен шифру.';
+    $plain_text = 'очень важные данные';
 
-    /* Открываем модуль и создаём инициализирующий вектор */
-    $td = mcrypt_module_open('des', '', 'ecb', '');
-    $key = substr($key, 0, mcrypt_enc_get_key_size($td));
-    $iv_size = mcrypt_enc_get_iv_size($td);
-    $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
+    /* Открываем модуль и создаём инициализирующий вектор */
+    $td = mcrypt_module_open('des', '', 'ecb', '');
+    $key = substr($key, 0, mcrypt_enc_get_key_size($td));
+    $iv_size = mcrypt_enc_get_iv_size($td);
+    $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
 
-    /* Инициализируем обработчик шифрования */
-    if (mcrypt_generic_init($td, $key, $iv) != -1) {
+    /* Инициализируем обработчик шифрования */
+    if (mcrypt_generic_init($td, $key, $iv) != -1) {
 
-        /* Шифруем данные */
-        $c_t = mcrypt_generic($td, $plain_text);
-        mcrypt_generic_deinit($td);
+        /* Шифруем данные */
+        $c_t = mcrypt_generic($td, $plain_text);
+        mcrypt_generic_deinit($td);
 
-        /* Переинициализируем буферы для дешифровки */
-        mcrypt_generic_init($td, $key, $iv);
-        $p_t = mdecrypt_generic($td, $c_t);
+        /* Переинициализируем буферы для дешифровки */
+        mcrypt_generic_init($td, $key, $iv);
+        $p_t = mdecrypt_generic($td, $c_t);
 
-        /* Убираем мусор */
-        mcrypt_generic_deinit($td);
-        mcrypt_module_close($td);
-    }
+        /* Убираем мусор */
+        mcrypt_generic_deinit($td);
+        mcrypt_module_close($td);
+    }
 
-    if (strncmp($p_t, $plain_text, strlen($plain_text)) == 0) {
-        echo "ок\n";
-    } else {
-        echo "ошибка\n";
-    }
+    if (strncmp($p_t, $plain_text, strlen($plain_text)) == 0) {
+        echo "ок\n";
+    } else {
+        echo "ошибка\n";
+    }
 ?>
 ```
 

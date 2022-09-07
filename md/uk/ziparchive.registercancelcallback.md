@@ -38,13 +38,13 @@ public ZipArchive::registerCancelCallback(callable $callback): bool
 
 ```php
 <?php
-$zip = new ZipArchive();
-if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
-    $zip->addFile(PHP_BINARY, 'php');
-    $zip->registerCancelCallback(function () {
-        return ($someruncondition ? -1 : 0);
-    });
-    $zip->close();
+$zip = new ZipArchive();
+if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {
+    $zip->addFile(PHP_BINARY, 'php');
+    $zip->registerCancelCallback(function () {
+        return ($someruncondition ? -1 : 0);
+    });
+    $zip->close();
 }
 ```
 

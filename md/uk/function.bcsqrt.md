@@ -47,7 +47,7 @@ bcsqrt(string $num, ?int $scale = null): string
 ```php
 <?php
 
-echo bcsqrt('2', 3); // 1.414
+echo bcsqrt('2', 3); // 1.414
 
 ?>
 ```

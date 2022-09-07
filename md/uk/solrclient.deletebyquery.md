@@ -43,17 +43,17 @@ public SolrClient::deleteByQuery(string $query): SolrUpdateResponse
 ```php
 <?php
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-//Это сотрёт весь индекс
+//Это сотрёт весь индекс
 $client->deleteByQuery("*:*");
 $client->commit();
 

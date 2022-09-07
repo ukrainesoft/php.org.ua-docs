@@ -19,13 +19,13 @@ XMLWriter::writeDtdEntity -- xmlwriterwritedtdentity — Записати пов
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public XMLWriter::writeDtdEntity(    string $name,    string $content,    bool $isParam = false,    ?string $publicId = null,    ?string $systemId = null,    ?string $notationData = null): bool
+public XMLWriter::writeDtdEntity(    string $name,    string $content,    bool $isParam = false,    ?string $publicId = null,    ?string $systemId = null,    ?string $notationData = null): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-xmlwriter_write_dtd_entity(    XMLWriter $writer,    string $name,    string $content,    bool $isParam = false,    ?string $publicId = null,    ?string $systemId = null,    ?string $notationData = null): bool
+xmlwriter_write_dtd_entity(    XMLWriter $writer,    string $name,    string $content,    bool $isParam = false,    ?string $publicId = null,    ?string $systemId = null,    ?string $notationData = null): bool
 ```
 
 Записує повний запис DTD.

@@ -66,25 +66,25 @@ array_walk(array|object &$array, callable $callback, mixed $arg = null): bool
 
 ```php
 <?php
-$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
 
-function test_alter(&$item1, $key, $prefix)
+function test_alter(&$item1, $key, $prefix)
 {
-    $item1 = "$prefix: $item1";
+    $item1 = "$prefix: $item1";
 }
 
-function test_print($item2, $key)
+function test_print($item2, $key)
 {
-    echo "$key. $item2\n";
+    echo "$key. $item2\n";
 }
 
-echo "До ...:\n";
-array_walk($fruits, 'test_print');
+echo "До ...:\n";
+array_walk($fruits, 'test_print');
 
-array_walk($fruits, 'test_alter', 'fruit');
-echo "... и после:\n";
+array_walk($fruits, 'test_alter', 'fruit');
+echo "... и после:\n";
 
-array_walk($fruits, 'test_print');
+array_walk($fruits, 'test_print');
 ?>
 ```
 
@@ -107,10 +107,10 @@ c. fruit: apple
 
 ```php
 <?php
-$elements = ['a', 'b', 'c'];
+$elements = ['a', 'b', 'c'];
 
-array_walk($elements, function ($value, $key) {
-  echo "{$key} => {$value}\n";
+array_walk($elements, function ($value, $key) {
+  echo "{$key} => {$value}\n";
 });
 
 ?>

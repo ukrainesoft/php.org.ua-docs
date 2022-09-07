@@ -50,24 +50,24 @@ imagesetbrush(GdImage $image, GdImage $brush): bool
 
 ```php
 <?php
-// Загрузка минилоготипа php
-$php = imagecreatefrompng('./php.png');
+// Загрузка минилоготипа php
+$php = imagecreatefrompng('./php.png');
 
-// Создание основного изображения 100x100
-$im = imagecreatetruecolor(100, 100);
+// Создание основного изображения 100x100
+$im = imagecreatetruecolor(100, 100);
 
-// Заливка фона белым цветом
-$white = imagecolorallocate($im, 255, 255, 255);
-imagefilledrectangle($im, 0, 0, 299, 99, $white);
+// Заливка фона белым цветом
+$white = imagecolorallocate($im, 255, 255, 255);
+imagefilledrectangle($im, 0, 0, 299, 99, $white);
 
-// Установка кисти
-imagesetbrush($im, $php);
+// Установка кисти
+imagesetbrush($im, $php);
 
-// Рисование линии из изображений кисти
-imageline($im, 50, 50, 50, 60, IMG_COLOR_BRUSHED);
+// Рисование линии из изображений кисти
+imageline($im, 50, 50, 50, 60, IMG_COLOR_BRUSHED);
 
-// Вывод и очистка памяти
-header('Content-type: image/png');
+// Вывод и очистка памяти
+header('Content-type: image/png');
 
 imagepng($im);
 imagedestroy($im);

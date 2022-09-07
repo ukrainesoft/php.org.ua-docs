@@ -36,23 +36,23 @@ public mysql_xdevapi\TableSelect::having(string $sort_expr): mysql_xdevapi\Table
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
-$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
-$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 42)")->execute();
-$session->sql("INSERT INTO addressbook.names values ('Suki', 31)")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 42)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('Suki', 31)")->execute();
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
-$result = $table->select('count(*) as count', 'age')
-  ->groupBy('age')->orderBy('age asc')
-  ->having('count > 1')
-  ->execute();
+$result = $table->select('count(*) as count', 'age')
+  ->groupBy('age')->orderBy('age asc')
+  ->having('count > 1')
+  ->execute();
 
-$row = $result->fetchAll();
+$row = $result->fetchAll();
 print_r($row);
 ?>
 ```

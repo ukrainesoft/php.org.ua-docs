@@ -12,9 +12,9 @@ title: Клас MongoDBBSONRegex
 
 ## Вступ
 
-Тип BSON для шаблону регулярного вираження та додаткові [» флаги](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
+Тип BSON для шаблону регулярного вираження та додаткові [» флаги](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
 
-> **Зауваження**: Цей тип BSON в основному використовується при запитах до бази даних. Як альтернативу можна використовувати оператор запиту [» $regex](https://www.mongodb.com/docs/manual/reference/operator/query/regex)
+> **Зауваження**: Цей тип BSON в основному використовується при запитах до бази даних. Як альтернативу можна використовувати оператор запиту [» $regex](https://www.mongodb.com/docs/manual/reference/operator/query/regex)
 
 ## Огляд класів
 

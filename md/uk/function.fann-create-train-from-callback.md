@@ -15,7 +15,7 @@ fanncreatetrainfromcallback — Створює структуру даних н�
 ### Опис
 
 ```methodsynopsis
-fann_create_train_from_callback(    int $num_data,    int $num_input,    int $num_output,    callable $user_function): resource
+fann_create_train_from_callback(    int $num_data,    int $num_input,    int $num_output,    callable $user_function): resource
 ```
 
 Створює структуру даних навчання із наданої користувачем функції. Оскільки навчальні дані є пронумерованими (дані 1, дані 2...), користувач повинен написати функцію, яка отримує номер набору навчальних даних (вхід, вихід) та повертає набір.
@@ -54,19 +54,19 @@ fann_create_train_from_callback(    int $num_data,    int $num_input, �
 
 ```php
 <?php
-function create_train_callback($num_data, $num_input, $num_output) {
-    return array(
-        "input" => array_fill(0, $num_input, 1),
-        "output" => array_fill(0, $num_output, 1),
-    );
+function create_train_callback($num_data, $num_input, $num_output) {
+    return array(
+        "input" => array_fill(0, $num_input, 1),
+        "output" => array_fill(0, $num_output, 1),
+    );
 }
 
-$num_data = 3;
-$num_input = 2;
-$num_output = 1;
-$train_data = fann_create_train_from_callback($num_data, $num_input, $num_output, "create_train_callback");
-if ($train_data) {
-    // Сделай что-нибудь с $train_data
+$num_data = 3;
+$num_input = 2;
+$num_output = 1;
+$train_data = fann_create_train_from_callback($num_data, $num_input, $num_output, "create_train_callback");
+if ($train_data) {
+    // Сделай что-нибудь с $train_data
 }
 ?>
 ```

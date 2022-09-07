@@ -15,11 +15,11 @@ title: Просте використання VarnishLog
 ```php
 <?php
 
-$vl = new VarnishLog;
-while(1) {
-    $line = $vl->getLine();
-    printf("%s %d %s", VarnishLog::getTagName($line['tag']), $line['id'],
-    $line['data']);
+$vl = new VarnishLog;
+while(1) {
+    $line = $vl->getLine();
+    printf("%s %d %s", VarnishLog::getTagName($line['tag']), $line['id'],
+    $line['data']);
 }
 
 exit(0);

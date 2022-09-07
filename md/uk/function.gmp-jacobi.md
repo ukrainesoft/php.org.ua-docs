@@ -18,7 +18,7 @@ gmpjacobi — Символ Якобі
 gmp_jacobi(GMP|int|string $num1, GMP|int|string $num2): int
 ```
 
-Обчислює [» Символ Якоби](http://primes.utm.edu/glossary/page.php?sort=JacobiSymbol) для чисел `num1` і `num2`. . `num2` має бути позитивним та непарним.
+Обчислює [» Символ Якоби](http://primes.utm.edu/glossary/page.php?sort=JacobiSymbol) для чисел `num1` і `num2`. . `num2` має бути позитивним та непарним.
 
 ### Список параметрів
 
@@ -42,8 +42,8 @@ gmp_jacobi(GMP|int|string $num1, GMP|int|string $num2): int
 
 ```php
 <?php
-echo gmp_jacobi("1", "3") . "\n";
-echo gmp_jacobi("2", "3") . "\n";
+echo gmp_jacobi("1", "3") . "\n";
+echo gmp_jacobi("2", "3") . "\n";
 ?>
 ```
 

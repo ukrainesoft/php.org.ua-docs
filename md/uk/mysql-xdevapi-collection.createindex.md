@@ -55,53 +55,53 @@ public mysql_xdevapi\Collection::createIndex(string $index_name, string $index_d
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-// Создание текстового индекса
+// Создание текстового индекса
 $collection->createIndex(
-  'myindex1',
-  '{"fields": [{
-    "field": "$.name",
-    "type": "TEXT(25)",
-    "required": true}],
-    "unique": false}'
+  'myindex1',
+  '{"fields": [{
+    "field": "$.name",
+    "type": "TEXT(25)",
+    "required": true}],
+    "unique": false}'
 );
 
-// Пространственный индекс
+// Пространственный индекс
 $collection->createIndex(
-  'myindex2',
-  '{"fields": [{
-    "field": "$.home",
-    "type": "GEOJSON",
-    "required": true}],
-    "type": "SPATIAL"}'
+  'myindex2',
+  '{"fields": [{
+    "field": "$.home",
+    "type": "GEOJSON",
+    "required": true}],
+    "type": "SPATIAL"}'
 );
 
-// Индекс с несколькими полями
+// Индекс с несколькими полями
 $collection->createIndex(
-  'myindex3',
-  '{"fields": [
-    {
-      "field": "$.name",
-      "type": "TEXT(20)",
-      "required": true
-    },
-    {
-      "field": "$.age",
-      "type": "INTEGER"
-    },
-    {
-      "field": "$.job",
-      "type": "TEXT(30)",
-      "required": false
-    }
-  ],
-  "unique": true
-  }'
+  'myindex3',
+  '{"fields": [
+    {
+      "field": "$.name",
+      "type": "TEXT(20)",
+      "required": true
+    },
+    {
+      "field": "$.age",
+      "type": "INTEGER"
+    },
+    {
+      "field": "$.job",
+      "type": "TEXT(30)",
+      "required": false
+    }
+  ],
+  "unique": true
+  }'
 );
 ```

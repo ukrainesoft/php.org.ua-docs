@@ -36,13 +36,13 @@ xhprof_sample_disable(): array
 <?php
 xhprof_sample_enable();
 
-for ($i = 0; $i <= 10000; $i++) {
-    $a = strlen($i);
-    $b = $i * $a;
-    $c = rand();
+for ($i = 0; $i <= 10000; $i++) {
+    $a = strlen($i);
+    $b = $i * $a;
+    $c = rand();
 }
 
-$xhprof_data = xhprof_sample_disable();
+$xhprof_data = xhprof_sample_disable();
 
 print_r($xhprof_data);
 ?>

@@ -45,15 +45,15 @@ datefmt_get_timezone(IntlDateFormatter $formatter): IntlTimeZone|false
 ```php
 <?php
 
-$madrid = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Madrid');
-$lisbon = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Lisbon');
+$madrid = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Madrid');
+$lisbon = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Lisbon');
 
 var_dump($madrid->getTimezone());
-echo $madrid->getTimezone()->getDisplayName(
-        false, IntlTimeZone::DISPLAY_GENERIC_LOCATION, "en_US"), "\n";
-echo $lisbon->getTimeZone()->getId(), "\n";
-//Идентификатор также можно получить с помощью ->getTimezoneId()
-echo $lisbon->getTimeZoneId(), "\n";
+echo $madrid->getTimezone()->getDisplayName(
+        false, IntlTimeZone::DISPLAY_GENERIC_LOCATION, "en_US"), "\n";
+echo $lisbon->getTimeZone()->getId(), "\n";
+//Идентификатор также можно получить с помощью ->getTimezoneId()
+echo $lisbon->getTimeZoneId(), "\n";
 ```
 
 Результат виконання цього прикладу:

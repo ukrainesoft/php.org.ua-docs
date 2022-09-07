@@ -18,7 +18,7 @@ ssdeepfuzzycompare — Обчислює схожість двох сигнату
 ssdeep_fuzzy_compare(string $signature1, string $signature2): int
 ```
 
-Обчислює величину збігу між `signature1` і `signature2`, використовуючи [»  контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та повертає її.
+Обчислює величину збігу між `signature1` і `signature2`, використовуючи [»  контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та повертає її.
 
 ### Список параметрів
 

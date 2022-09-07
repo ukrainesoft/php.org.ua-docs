@@ -15,7 +15,7 @@ tradercdlpiercing - Паттерн "Просвіт у хмарах"
 ### Опис
 
 ```methodsynopsis
-trader_cdlpiercing(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlpiercing(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

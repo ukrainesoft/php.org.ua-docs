@@ -76,14 +76,14 @@ urls[git] = "http://git.php.net"
 ```php
 <?php
 
-define('BIRD', 'Птица додо');
+define('BIRD', 'Птица додо');
 
-// Обрабатываем без секций
-$ini_array = parse_ini_file("sample.ini");
+// Обрабатываем без секций
+$ini_array = parse_ini_file("sample.ini");
 print_r($ini_array);
 
-// Обрабатываем с секциями
-$ini_array = parse_ini_file("sample.ini", true);
+// Обрабатываем с секциями
+$ini_array = parse_ini_file("sample.ini", true);
 print_r($ini_array);
 
 ?>
@@ -154,22 +154,22 @@ Array
 
 ```php
 <?php
-// Простая функция для сравнения результатов
-function yesno($expression)
+// Простая функция для сравнения результатов
+function yesno($expression)
 {
-    return($expression ? 'Да' : 'Нет');
+    return($expression ? 'Да' : 'Нет');
 }
 
-// Получаем путь к php.ini с помощью функции php_ini_loaded_file()
-$ini_path = php_ini_loaded_file();
+// Получаем путь к php.ini с помощью функции php_ini_loaded_file()
+$ini_path = php_ini_loaded_file();
 
-// Обрабатываем php.ini
-$ini = parse_ini_file($ini_path);
+// Обрабатываем php.ini
+$ini = parse_ini_file($ini_path);
 
-// Выводим и сравниваем значения, учтите, что использование get_cfg_var()
-// даст одинаковые результаты для используемых здесь значений parsed (загруженное из файла) и loaded (используемое в данный момент)
-echo '(parsed) magic_quotes_gpc = ' . yesno($ini['magic_quotes_gpc']) . PHP_EOL;
-echo '(loaded) magic_quotes_gpc = ' . yesno(get_cfg_var('magic_quotes_gpc')) . PHP_EOL;
+// Выводим и сравниваем значения, учтите, что использование get_cfg_var()
+// даст одинаковые результаты для используемых здесь значений parsed (загруженное из файла) и loaded (используемое в данный момент)
+echo '(parsed) magic_quotes_gpc = ' . yesno($ini['magic_quotes_gpc']) . PHP_EOL;
+echo '(loaded) magic_quotes_gpc = ' . yesno(get_cfg_var('magic_quotes_gpc')) . PHP_EOL;
 ?>
 ```
 

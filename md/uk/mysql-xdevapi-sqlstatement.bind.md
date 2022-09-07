@@ -35,7 +35,7 @@ public mysql_xdevapi\SqlStatement::bind(string $param): mysql_xdevapi\SqlStateme
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

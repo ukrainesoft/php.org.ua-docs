@@ -38,7 +38,7 @@ public Ds\Map::union(Ds\Map $map): Ds\Map
 
 ### Також дивіться
 
--   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
+-   [» Об'єднання](https://en.wikipedia.org/wiki/Union_(set_theory)) в Вікіпедія
 
 ### Приклади
 
@@ -46,8 +46,8 @@ public Ds\Map::union(Ds\Map $map): Ds\Map
 
 ```php
 <?php
-$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
-$b = new \Ds\Map(["b" => 3, "c" => 4, "d" => 5]);
+$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$b = new \Ds\Map(["b" => 3, "c" => 4, "d" => 5]);
 
 print_r($a->union($b));
 ?>

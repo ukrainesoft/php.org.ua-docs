@@ -15,7 +15,7 @@ V8Js::registerExtension — Реєстрація модуля Javascript для 
 ### Опис
 
 ```methodsynopsis
-public static V8Js::registerExtension(    string $extension_name,    string $script,    array $dependencies = array(),    bool $auto_enable = false): bool
+public static V8Js::registerExtension(    string $extension_name,    string $script,    array $dependencies = array(),    bool $auto_enable = false): bool
 ```
 
 Реєстрація переданого у `script` Javascript як модуля для використання [V8Js](class.v8js.md)

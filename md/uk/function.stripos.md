@@ -62,22 +62,22 @@ stripos(string $haystack, string $needle, int $offset = 0): int|false
 
 ```php
 <?php
-$findme    = 'a';
-$mystring1 = 'xyz';
-$mystring2 = 'ABC';
+$findme    = 'a';
+$mystring1 = 'xyz';
+$mystring2 = 'ABC';
 
-$pos1 = stripos($mystring1, $findme);
-$pos2 = stripos($mystring2, $findme);
+$pos1 = stripos($mystring1, $findme);
+$pos2 = stripos($mystring2, $findme);
 
-// Конечно, 'a' не входит в 'xyz'
-if ($pos1 === false) {
-    echo "Строка '$findme' не найдена в строке '$mystring1'";
+// Конечно, 'a' не входит в 'xyz'
+if ($pos1 === false) {
+    echo "Строка '$findme' не найдена в строке '$mystring1'";
 }
 
-// Заметьте, что используется ===.  Использование == не даст верного
-// результата, так как 'a' в нулевой позиции.
-if ($pos2 !== false) {
-    echo "Нашёл '$findme' в '$mystring2' в позиции $pos2";
+// Заметьте, что используется ===.  Использование == не даст верного
+// результата, так как 'a' в нулевой позиции.
+if ($pos2 !== false) {
+    echo "Нашёл '$findme' в '$mystring2' в позиции $pos2";
 }
 ?>
 ```

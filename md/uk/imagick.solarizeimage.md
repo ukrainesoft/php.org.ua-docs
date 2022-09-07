@@ -34,11 +34,11 @@ public Imagick::solarizeImage(int $threshold): bool
 
 ```php
 <?php
-function solarizeImage($imagePath, $solarizeThreshold) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->solarizeImage($solarizeThreshold * \Imagick::getQuantum());
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function solarizeImage($imagePath, $solarizeThreshold) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->solarizeImage($solarizeThreshold * \Imagick::getQuantum());
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

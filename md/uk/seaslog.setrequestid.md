@@ -37,7 +37,7 @@ public static SeasLog::setRequestID(string $request_id): bool
 ```php
 <?php
 
-var_dump(SeasLog::setRequestID(time() . rand()));
+var_dump(SeasLog::setRequestID(time() . rand()));
 
 ?>
 ```

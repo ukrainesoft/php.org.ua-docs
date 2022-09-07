@@ -44,15 +44,15 @@ public PDOStatement::bindValue(string|int $param, mixed $value, int $type = PDO:
 
 ```php
 <?php
-/* Выполнение запроса с привязкой PHP-переменных */
-$calories = 150;
-$colour = 'red';
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < :calories AND colour = :colour');
-$sth->bindValue('calories', $calories, PDO::PARAM_INT);
-/* Имена также могут начинаться с двоеточия ":" (необязательно) */
-$sth->bindValue(':colour', $colour, PDO::PARAM_STR);
+/* Выполнение запроса с привязкой PHP-переменных */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < :calories AND colour = :colour');
+$sth->bindValue('calories', $calories, PDO::PARAM_INT);
+/* Имена также могут начинаться с двоеточия ":" (необязательно) */
+$sth->bindValue(':colour', $colour, PDO::PARAM_STR);
 $sth->execute();
 ?>
 ```
@@ -61,14 +61,14 @@ $sth->execute();
 
 ```php
 <?php
-/* Выполнение запроса с привязкой PHP-переменных */
-$calories = 150;
-$colour = 'red';
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < ? AND colour = ?');
-$sth->bindValue(1, $calories, PDO::PARAM_INT);
-$sth->bindValue(2, $colour, PDO::PARAM_STR);
+/* Выполнение запроса с привязкой PHP-переменных */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < ? AND colour = ?');
+$sth->bindValue(1, $calories, PDO::PARAM_INT);
+$sth->bindValue(2, $colour, PDO::PARAM_STR);
 $sth->execute();
 ?>
 ```

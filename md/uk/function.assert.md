@@ -105,24 +105,24 @@ Callback-функція має приймати три аргументи. Пе�
 
 ```php
 <?php
-// Активация утверждений и отключение вывода ошибок
-assert_options(ASSERT_ACTIVE, 1);
-assert_options(ASSERT_WARNING, 0);
-assert_options(ASSERT_QUIET_EVAL, 1);
+// Активация утверждений и отключение вывода ошибок
+assert_options(ASSERT_ACTIVE, 1);
+assert_options(ASSERT_WARNING, 0);
+assert_options(ASSERT_QUIET_EVAL, 1);
 
-// Создание обработчика
-function my_assert_handler($file, $line, $code)
+// Создание обработчика
+function my_assert_handler($file, $line, $code)
 {
-    echo "<hr>Неудачная проверка утверждения:
-        Файл '$file'<br />
-        Строка '$line'<br />
-        Код '$code'<br /><hr />";
+    echo "<hr>Неудачная проверка утверждения:
+        Файл '$file'<br />
+        Строка '$line'<br />
+        Код '$code'<br /><hr />";
 }
 
-// Подключение callback-функции
-assert_options(ASSERT_CALLBACK, 'my_assert_handler');
+// Подключение callback-функции
+assert_options(ASSERT_CALLBACK, 'my_assert_handler');
 
-// Выполнение проверки утверждения, которое завершится неудачей
+// Выполнение проверки утверждения, которое завершится неудачей
 assert('mysql_query("")');
 ?>
 ```
@@ -131,27 +131,27 @@ assert('mysql_query("")');
 
 ```php
 <?php
-// Активация утверждений и отключение вывода ошибок
-assert_options(ASSERT_ACTIVE, 1);
-assert_options(ASSERT_WARNING, 0);
-assert_options(ASSERT_QUIET_EVAL, 1);
+// Активация утверждений и отключение вывода ошибок
+assert_options(ASSERT_ACTIVE, 1);
+assert_options(ASSERT_WARNING, 0);
+assert_options(ASSERT_QUIET_EVAL, 1);
 
-// Создание обработчика
-function my_assert_handler($file, $line, $code, $desc = null)
+// Создание обработчика
+function my_assert_handler($file, $line, $code, $desc = null)
 {
-    echo "Неудачная проверка утверждения в $file:$line: $code";
-    if ($desc) {
-        echo ": $desc";
-    }
-    echo "\n";
+    echo "Неудачная проверка утверждения в $file:$line: $code";
+    if ($desc) {
+        echo ": $desc";
+    }
+    echo "\n";
 }
 
-// Подключение callback-функции
-assert_options(ASSERT_CALLBACK, 'my_assert_handler');
+// Подключение callback-функции
+assert_options(ASSERT_CALLBACK, 'my_assert_handler');
 
-// Выполнение проверки утверждения, которое завершится неудачей
-assert('2 < 1');
-assert('2 < 1', 'Два больше чем один');
+// Выполнение проверки утверждения, которое завершится неудачей
+assert('2 < 1');
+assert('2 < 1', 'Два больше чем один');
 ?>
 ```
 
@@ -168,8 +168,8 @@ assert('2 < 1', 'Два больше чем один');
 
 ```php
 <?php
-assert(true == false);
-echo 'Привет!';
+assert(true == false);
+echo 'Привет!';
 ?>
 ```
 
@@ -200,10 +200,10 @@ Stack trace:
 
 ```php
 <?php
-class CustomError extends AssertionError {}
+class CustomError extends AssertionError {}
 
-assert(true == false, new CustomError('True не является false!'));
-echo 'Привет!';
+assert(true == false, new CustomError('True не является false!'));
+echo 'Привет!';
 ?>
 ```
 

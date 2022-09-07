@@ -15,7 +15,7 @@ ftpfput — Завантажує попередньо відкритий фай�
 ### Опис
 
 ```methodsynopsis
-ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    resource $stream,    int $mode = FTP_BINARY,    int $offset = 0): bool
+ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    resource $stream,    int $mode = FTP_BINARY,    int $offset = 0): bool
 ```
 
 **ftpfput()** завантажує дані із файлового дескриптора у віддалений файл на FTP-сервері.
@@ -60,24 +60,24 @@ ftp_fput(    FTP\Connection $ftp,    string $remote_filename,    res
 ```php
 <?php
 
-// открыть файл для чтения
-$file = 'somefile.txt';
-$fp = fopen($file, 'r');
+// открыть файл для чтения
+$file = 'somefile.txt';
+$fp = fopen($file, 'r');
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// попытка загрузки файла
-if (ftp_fput($ftp, $file, $fp, FTP_ASCII)) {
-    echo "Файл $file успешно загружен\n";
-} else {
-    echo "При загрузке $file произошла проблема\n";
+// попытка загрузки файла
+if (ftp_fput($ftp, $file, $fp, FTP_ASCII)) {
+    echo "Файл $file успешно загружен\n";
+} else {
+    echo "При загрузке $file произошла проблема\n";
 }
 
-// закрываем соединение и дескриптор файла
+// закрываем соединение и дескриптор файла
 ftp_close($ftp);
 fclose($fp);
 

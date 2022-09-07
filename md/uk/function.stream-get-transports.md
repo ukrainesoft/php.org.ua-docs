@@ -34,7 +34,7 @@ stream_get_transports(): array
 
 ```php
 <?php
-$xportlist = stream_get_transports();
+$xportlist = stream_get_transports();
 print_r($xportlist);
 ?>
 ```

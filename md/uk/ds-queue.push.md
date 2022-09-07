@@ -36,12 +36,12 @@ public Ds\Queue::push(mixed ...$values): void
 
 ```php
 <?php
-$queue = new \Ds\Queue();
+$queue = new \Ds\Queue();
 
 $queue->push("a");
 $queue->push("b");
-$queue->push("c", "d");
-$queue->push(...["e", "f"]);
+$queue->push("c", "d");
+$queue->push(...["e", "f"]);
 
 print_r($queue);
 ?>

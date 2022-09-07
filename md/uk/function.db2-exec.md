@@ -52,33 +52,33 @@ SQL запит. Запит не може містити маркер парам�
 
 ```php
 <?php
-$conn = db2_connect($database, $user, $password);
+$conn = db2_connect($database, $user, $password);
 
-// Создание таблицы test
-$create = 'CREATE TABLE animals (id INTEGER, breed VARCHAR(32),
-    name CHAR(16), weight DECIMAL(7,2))';
-$result = db2_exec($conn, $create);
-if ($result) {
-    print "Таблица создана.\n";
+// Создание таблицы test
+$create = 'CREATE TABLE animals (id INTEGER, breed VARCHAR(32),
+    name CHAR(16), weight DECIMAL(7,2))';
+$result = db2_exec($conn, $create);
+if ($result) {
+    print "Таблица создана.\n";
 }
 
-// Наполнение таблицы test
-$animals = array(
-    array(0, 'cat', 'Pook', 3.2),
-    array(1, 'dog', 'Peaches', 12.3),
-    array(2, 'horse', 'Smarty', 350.0),
-    array(3, 'gold fish', 'Bubbles', 0.1),
-    array(4, 'budgerigar', 'Gizmo', 0.2),
-    array(5, 'goat', 'Rickety Ride', 9.7),
-    array(6, 'llama', 'Sweater', 150)
+// Наполнение таблицы test
+$animals = array(
+    array(0, 'cat', 'Pook', 3.2),
+    array(1, 'dog', 'Peaches', 12.3),
+    array(2, 'horse', 'Smarty', 350.0),
+    array(3, 'gold fish', 'Bubbles', 0.1),
+    array(4, 'budgerigar', 'Gizmo', 0.2),
+    array(5, 'goat', 'Rickety Ride', 9.7),
+    array(6, 'llama', 'Sweater', 150)
 );
 
-foreach ($animals as $animal) {
-    $rc = db2_exec($conn, "INSERT INTO animals (id, breed, name, weight)
-      VALUES ({$animal[0]}, '{$animal[1]}', '{$animal[2]}', {$animal[3]})");
-    if ($rc) {
-        print "Добавлена запись... ";
-    }
+foreach ($animals as $animal) {
+    $rc = db2_exec($conn, "INSERT INTO animals (id, breed, name, weight)
+      VALUES ({$animal[0]}, '{$animal[1]}', '{$animal[2]}', {$animal[3]})");
+    if ($rc) {
+        print "Добавлена запись... ";
+    }
 }
 ?>
 ```
@@ -96,16 +96,16 @@ foreach ($animals as $animal) {
 
 ```php
 <?php
-$conn = db2_connect($database, $user, $password);
-$sql = "SELECT name FROM animals
-    WHERE weight < 10.0
-    ORDER BY name";
-if ($conn) {
-    require_once('prepare.inc');
-    $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE));
-    while ($row = db2_fetch_array($stmt)) {
-        print "$row[0]\n";
-    }
+$conn = db2_connect($database, $user, $password);
+$sql = "SELECT name FROM animals
+    WHERE weight < 10.0
+    ORDER BY name";
+if ($conn) {
+    require_once('prepare.inc');
+    $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE));
+    while ($row = db2_fetch_array($stmt)) {
+        print "$row[0]\n";
+    }
 }
 ?>
 ```
@@ -126,22 +126,22 @@ Rickety Ride
 ```php
 <?php
 
-$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
+$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
 
-$query = 'SELECT * FROM XMLTABLE(
-    XMLNAMESPACES (DEFAULT \'http://posample.org\'),
-    \'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'
-    COLUMNS
-    "CID" VARCHAR (50) PATH \'@Cid\',
-    "NAME" VARCHAR (50) PATH \'name\',
-    "PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\'
-    ) AS T
-    WHERE NAME = \'Kathy Smith\'
-    ';
-$stmt = db2_exec($conn, $query);
+$query = 'SELECT * FROM XMLTABLE(
+    XMLNAMESPACES (DEFAULT \'http://posample.org\'),
+    \'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'
+    COLUMNS
+    "CID" VARCHAR (50) PATH \'@Cid\',
+    "NAME" VARCHAR (50) PATH \'name\',
+    "PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\'
+    ) AS T
+    WHERE NAME = \'Kathy Smith\'
+    ';
+$stmt = db2_exec($conn, $query);
 
-while($row = db2_fetch_object($stmt)){
-    printf("$row->CID     $row->NAME     $row->PHONE\n");
+while($row = db2_fetch_object($stmt)){
+    printf("$row->CID     $row->NAME     $row->PHONE\n");
 }
 db2_close($conn);
 
@@ -162,36 +162,36 @@ db2_close($conn);
 ```php
 <?php
 
-$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
+$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
 
-$query = '
-    SELECT A.CID, A.NAME, A.PHONE, C.PONUM, C.STATUS
-    FROM
-    XMLTABLE(
-    XMLNAMESPACES (DEFAULT \'http://posample.org\'),
-    \'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'
-    COLUMNS
-    "CID" BIGINT PATH \'@Cid\',
-    "NAME" VARCHAR (50) PATH \'name\',
-    "PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\'
-    ) as A,
-    PURCHASEORDER AS B,
-    XMLTABLE (
-    XMLNAMESPACES (DEFAULT \'http://posample.org\'),
-    \'db2-fn:xmlcolumn("PURCHASEORDER.PORDER")/PurchaseOrder\'
-    COLUMNS
-    "PONUM"  BIGINT PATH \'@PoNum\',
-    "STATUS" VARCHAR (50) PATH \'@Status\'
-    ) as C
-    WHERE A.CID = B.CUSTID AND
-    B.POID = C.PONUM AND
-    A.NAME = \'Kathy Smith\'
+$query = '
+    SELECT A.CID, A.NAME, A.PHONE, C.PONUM, C.STATUS
+    FROM
+    XMLTABLE(
+    XMLNAMESPACES (DEFAULT \'http://posample.org\'),
+    \'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'
+    COLUMNS
+    "CID" BIGINT PATH \'@Cid\',
+    "NAME" VARCHAR (50) PATH \'name\',
+    "PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\'
+    ) as A,
+    PURCHASEORDER AS B,
+    XMLTABLE (
+    XMLNAMESPACES (DEFAULT \'http://posample.org\'),
+    \'db2-fn:xmlcolumn("PURCHASEORDER.PORDER")/PurchaseOrder\'
+    COLUMNS
+    "PONUM"  BIGINT PATH \'@PoNum\',
+    "STATUS" VARCHAR (50) PATH \'@Status\'
+    ) as C
+    WHERE A.CID = B.CUSTID AND
+    B.POID = C.PONUM AND
+    A.NAME = \'Kathy Smith\'
 ';
 
-$stmt = db2_exec($conn, $query);
+$stmt = db2_exec($conn, $query);
 
-while($row = db2_fetch_object($stmt)){
-    printf("$row->CID     $row->NAME     $row->PHONE     $row->PONUM     $row->STATUS\n");
+while($row = db2_fetch_object($stmt)){
+    printf("$row->CID     $row->NAME     $row->PHONE     $row->PONUM     $row->STATUS\n");
 }
 
 db2_close($conn);
@@ -212,42 +212,42 @@ db2_close($conn);
 ```php
 <?php
 
-$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
+$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
 
-$query = '
+$query = '
 SELECT
 XMLSERIALIZE(
 XMLQUERY(\'
-    declare boundary-space strip;
-    declare default element namespace "http://posample.org";
-    <promoList> {
-    for $prod in $doc/product
-    where $prod/description/price < 10.00
-    order by $prod/description/price ascending
-    return(
-        <promoitem> {
-        $prod,
-        <startdate> {$start} </startdate>,
-        <enddate> {$end} </enddate>,
-        <promoprice> {$promo} </promoprice>
-        } </promoitem>
-    )
-    } </promoList>
-\' passing by ref DESCRIPTION AS "doc",
-PROMOSTART as "start",
-PROMOEND as "end",
-PROMOPRICE as "promo"
-RETURNING SEQUENCE)
-AS CLOB (32000))
-AS NEW_PRODUCT_INFO
-FROM PRODUCT
-WHERE PID = \'100-100-01\'
+    declare boundary-space strip;
+    declare default element namespace "http://posample.org";
+    <promoList> {
+    for $prod in $doc/product
+    where $prod/description/price < 10.00
+    order by $prod/description/price ascending
+    return(
+        <promoitem> {
+        $prod,
+        <startdate> {$start} </startdate>,
+        <enddate> {$end} </enddate>,
+        <promoprice> {$promo} </promoprice>
+        } </promoitem>
+    )
+    } </promoList>
+\' passing by ref DESCRIPTION AS "doc",
+PROMOSTART as "start",
+PROMOEND as "end",
+PROMOPRICE as "promo"
+RETURNING SEQUENCE)
+AS CLOB (32000))
+AS NEW_PRODUCT_INFO
+FROM PRODUCT
+WHERE PID = \'100-100-01\'
 ';
 
-$stmt = db2_exec($conn, $query);
+$stmt = db2_exec($conn, $query);
 
-while($row = db2_fetch_array($stmt)){
-    printf("$row[0]\n");
+while($row = db2_fetch_array($stmt)){
+    printf("$row[0]\n");
 }
 db2_close($conn);
 

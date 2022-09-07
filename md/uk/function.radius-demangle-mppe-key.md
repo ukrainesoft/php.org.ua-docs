@@ -18,7 +18,7 @@ radiusdemanglemppekey — Отримує mppe-ключі зі спотворен
 radius_demangle_mppe_key(resource $radius_handle, string $mangled): string
 ```
 
-При використанні MPPE з MS-CHAPv2 ключі відправляються та одержувані ключі спотворюються (дивіться [» RFC 2548](http://www.faqs.org/rfcs/rfc2548)), однак ця функція не є корисною, оскільки я не думаю, що є або буде реалізація PPTP-MPPE в PHP.
+При використанні MPPE з MS-CHAPv2 ключі відправляються та одержувані ключі спотворюються (дивіться [» RFC 2548](http://www.faqs.org/rfcs/rfc2548)), однак ця функція не є корисною, оскільки я не думаю, що є або буде реалізація PPTP-MPPE в PHP.
 
 ### Список параметрів
 

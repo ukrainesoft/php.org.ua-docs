@@ -15,7 +15,7 @@ Imagick::vignetteImage — Додає він'єтний фільтр до зоб
 ### Опис
 
 ```methodsynopsis
-public Imagick::vignetteImage(    float $blackPoint,    float $whitePoint,    int $x,    int $y): bool
+public Imagick::vignetteImage(    float $blackPoint,    float $whitePoint,    int $x,    int $y): bool
 ```
 
 Пом'якшує краї зображення у стилі віньєтки. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
@@ -48,11 +48,11 @@ public Imagick::vignetteImage(    float $blackPoint,    float $whitePoin
 
 ```php
 <?php
-function vignetteImage($imagePath, $blackPoint, $whitePoint, $x, $y) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->vignetteImage($blackPoint, $whitePoint, $x, $y);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function vignetteImage($imagePath, $blackPoint, $whitePoint, $x, $y) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->vignetteImage($blackPoint, $whitePoint, $x, $y);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

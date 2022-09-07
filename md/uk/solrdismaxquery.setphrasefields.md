@@ -36,9 +36,9 @@ public SolrDisMaxQuery::setPhraseFields(string $fields): SolrDisMaxQuery
 
 ```php
 <?php
-$dismaxQuery = new SolrDisMaxQuery("lucene");
-$dismaxQuery->setPhraseFields("cat~5.1^2 feature^4.5");
-echo $dismaxQuery.PHP_EOL;
+$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery->setPhraseFields("cat~5.1^2 feature^4.5");
+echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 

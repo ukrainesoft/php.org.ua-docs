@@ -37,18 +37,18 @@ public Yaf_Application::bootstrap(Yaf_Bootstrap_Abstract $bootstrap = ?): void
 ```php
 <?php
 /**
- * Этот файл должен находиться по пути APPLICATION_PATH . "/application/"
- * (который определён в конфигурационном файле приложения Yaf_Application).
- * и называться Bootstrap.php, чтобы Yaf_Application смог его найти
- */
-class Bootstrap extends Yaf_Bootstrap_Abstract {
-    function _initConfig(Yaf_Dispatcher $dispatcher) {
-        echo "первый метод вызван\n";
-    }
+ * Этот файл должен находиться по пути APPLICATION_PATH . "/application/"
+ * (который определён в конфигурационном файле приложения Yaf_Application).
+ * и называться Bootstrap.php, чтобы Yaf_Application смог его найти
+ */
+class Bootstrap extends Yaf_Bootstrap_Abstract {
+    function _initConfig(Yaf_Dispatcher $dispatcher) {
+        echo "первый метод вызван\n";
+    }
 
-    function _initPlugin($dispatcher) {
-        echo "второй метод вызван\n";
-    }
+    function _initPlugin($dispatcher) {
+        echo "второй метод вызван\n";
+    }
 }
 ?>
 ```
@@ -58,10 +58,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
 ```php
 <?php
 
-defined('APPLICATION_PATH') // Будет использован APPLICATION_PATH
-    || define('APPLICATION_PATH', __DIR__);
+defined('APPLICATION_PATH') // Будет использован APPLICATION_PATH
+    || define('APPLICATION_PATH', __DIR__);
 
-$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');
+$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');
 $application->bootstrap();
 ?>
 ```

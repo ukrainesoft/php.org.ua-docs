@@ -140,19 +140,19 @@ curl_getinfo(CurlHandle $handle, ?int $option = null): mixed
 
 ```php
 <?php
-// Создаём дескриптор cURL
-$ch = curl_init('http://www.example.com/');
+// Создаём дескриптор cURL
+$ch = curl_init('http://www.example.com/');
 
-// Запускаем
+// Запускаем
 curl_exec($ch);
 
-// Проверяем наличие ошибок
-if (!curl_errno($ch)) {
-  $info = curl_getinfo($ch);
-  echo 'Прошло ', $info['total_time'], ' секунд во время запроса к ', $info['url'], "\n";
+// Проверяем наличие ошибок
+if (!curl_errno($ch)) {
+  $info = curl_getinfo($ch);
+  echo 'Прошло ', $info['total_time'], ' секунд во время запроса к ', $info['url'], "\n";
 }
 
-// Закрываем дескриптор
+// Закрываем дескриптор
 curl_close($ch);
 ?>
 ```
@@ -161,23 +161,23 @@ curl_close($ch);
 
 ```php
 <?php
-// Создаём дескриптор cURL
-$ch = curl_init('http://www.example.com/');
+// Создаём дескриптор cURL
+$ch = curl_init('http://www.example.com/');
 
-// Запускаем
+// Запускаем
 curl_exec($ch);
 
-// Проверяем наличие ошибок
-if (!curl_errno($ch)) {
-  switch ($http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE)) {
-    case 200:  # OK
-      break;
-    default:
-      echo 'Неожиданный код HTTP: ', $http_code, "\n";
-  }
+// Проверяем наличие ошибок
+if (!curl_errno($ch)) {
+  switch ($http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE)) {
+    case 200:  # OK
+      break;
+    default:
+      echo 'Неожиданный код HTTP: ', $http_code, "\n";
+  }
 }
 
-// Закрываем дескриптор
+// Закрываем дескриптор
 curl_close($ch);
 ?>
 ```

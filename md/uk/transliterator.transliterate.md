@@ -25,7 +25,7 @@ public Transliterator::transliterate(string $string, int $start = 0, int $end = 
 Процедурний стиль
 
 ```methodsynopsis
-transliterator_transliterate(    Transliterator|string $transliterator,    string $string,    int $start = 0,    int $end = -1): string|false
+transliterator_transliterate(    Transliterator|string $transliterator,    string $string,    int $start = 0,    int $end = -1): string|false
 ```
 
 Перетворює рядок або його частину за допомогою транслітератора ICU.
@@ -58,17 +58,17 @@ transliterator_transliterate(    Transliterator|string $transliterator,  �
 
 ```php
 <?php
-$s = "\u304A\u65E9\u3046\u3054\u3056\u3044\u307E\u3059";
-echo transliterator_transliterate("Hex-Any/Java", $s), "\n";
+$s = "\u304A\u65E9\u3046\u3054\u3056\u3044\u307E\u3059";
+echo transliterator_transliterate("Hex-Any/Java", $s), "\n";
 
-//теперь обратная операция с дополнительным символом
-$supplChar = html_entity_decode('&#x1D11E;');
-echo mb_strlen($supplChar, "UTF-8"), "\n";
-$encSupplChar = transliterator_transliterate("Any-Hex/Java", $supplChar);
-//вывод двух кодированных UTF-16 символов
-echo $encSupplChar, "\n";
-//и назад
-echo transliterator_transliterate("Hex-Any/Java", $encSupplChar), "\n";
+//теперь обратная операция с дополнительным символом
+$supplChar = html_entity_decode('&#x1D11E;');
+echo mb_strlen($supplChar, "UTF-8"), "\n";
+$encSupplChar = transliterator_transliterate("Any-Hex/Java", $supplChar);
+//вывод двух кодированных UTF-16 символов
+echo $encSupplChar, "\n";
+//и назад
+echo transliterator_transliterate("Hex-Any/Java", $encSupplChar), "\n";
 ?>
 ```
 

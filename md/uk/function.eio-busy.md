@@ -15,7 +15,7 @@ eiobusy - Штучно збільшує навантаження. Може бу�
 ### Опис
 
 ```methodsynopsis
-eio_busy(    int $delay,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_busy(    int $delay,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 Функція **eiobusy()** штучно збільшує навантаження, додаючи `delay` секунд до часу виконання. Корисно при налагодженні та тестуванні продуктивності.

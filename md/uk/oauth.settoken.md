@@ -40,7 +40,7 @@ public OAuth::setToken(string $token, string $token_secret): bool
 
 ```php
 <?php
-$oauth = new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET);
+$oauth = new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET);
 $oauth->setToken("token","token-secret");
 ?>
 ```

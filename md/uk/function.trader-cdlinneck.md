@@ -15,7 +15,7 @@ tradercdlinneck - Свічкова модель "На лінії шиї"
 ### Опис
 
 ```methodsynopsis
-trader_cdlinneck(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlinneck(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

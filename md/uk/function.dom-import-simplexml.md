@@ -43,24 +43,24 @@ dom_import_simplexml(object $node): DOMElement
 ```php
 <?php
 
-$sxe = simplexml_load_string('<books><book><title>чепуха</title></book></books>');
+$sxe = simplexml_load_string('<books><book><title>чепуха</title></book></books>');
 
-if ($sxe === false) {
-    echo 'Ошибка при разборе документа';
-    exit;
+if ($sxe === false) {
+    echo 'Ошибка при разборе документа';
+    exit;
 }
 
-$dom_sxe = dom_import_simplexml($sxe);
-if (!$dom_sxe) {
-    echo 'Ошибка при преобразовании XML';
-    exit;
+$dom_sxe = dom_import_simplexml($sxe);
+if (!$dom_sxe) {
+    echo 'Ошибка при преобразовании XML';
+    exit;
 }
 
-$dom = new DOMDocument('1.0');
-$dom_sxe = $dom->importNode($dom_sxe, true);
-$dom_sxe = $dom->appendChild($dom_sxe);
+$dom = new DOMDocument('1.0');
+$dom_sxe = $dom->importNode($dom_sxe, true);
+$dom_sxe = $dom->appendChild($dom_sxe);
 
-echo $dom->saveXML();
+echo $dom->saveXML();
 
 ?>
 ```

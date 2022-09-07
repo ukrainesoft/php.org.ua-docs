@@ -46,7 +46,7 @@ public **DateInterval::construct**(string `$duration`
 
 Задати період також можна у вигляді дати та часу. Приклад одного року та чотирьох днів може описуватися як `P0001-00-04T00:00:00`. Але значення у цьому форматі не повинні виходити за межі допустимих значень дати та часу (наприклад, `25` годин неприпустимо)
 
-Ці формати засновані на [» спеціфікації ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Durations)
+Ці формати засновані на [» спеціфікації ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Durations)
 
 ### Помилки
 
@@ -66,7 +66,7 @@ public **DateInterval::construct**(string `$duration`
 ```php
 <?php
 
-$interval = new DateInterval('P1W2D');
+$interval = new DateInterval('P1W2D');
 var_dump($interval);
 
 ?>

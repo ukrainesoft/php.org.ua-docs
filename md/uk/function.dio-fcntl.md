@@ -65,13 +65,13 @@ dio_fcntl(resource $fd, int $cmd, mixed $args = ?): mixed
 ```php
 <?php
 
-$fd = dio_open('/dev/ttyS0', O_RDWR);
+$fd = dio_open('/dev/ttyS0', O_RDWR);
 
-if (dio_fcntl($fd, F_SETLK, Array("type"=>F_WRLCK)) == -1) {
-   // дескриптор файла заблокирован
-   echo "Нельзя снять блокировку, она удерживается другим процессом.";
-} else {
-   echo "Блокировка успешно установлена/снята";
+if (dio_fcntl($fd, F_SETLK, Array("type"=>F_WRLCK)) == -1) {
+   // дескриптор файла заблокирован
+   echo "Нельзя снять блокировку, она удерживается другим процессом.";
+} else {
+   echo "Блокировка успешно установлена/снята";
 }
 
 dio_close($fd);

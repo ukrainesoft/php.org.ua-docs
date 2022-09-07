@@ -40,11 +40,11 @@ public static SplFixedArray::fromArray(array $array, bool $preserveKeys = true):
 
 ```php
 <?php
-$fa = SplFixedArray::fromArray(array(1 => 1, 0 => 2, 3 => 3));
+$fa = SplFixedArray::fromArray(array(1 => 1, 0 => 2, 3 => 3));
 
 var_dump($fa);
 
-$fa = SplFixedArray::fromArray(array(1 => 1, 0 => 2, 3 => 3), false);
+$fa = SplFixedArray::fromArray(array(1 => 1, 0 => 2, 3 => 3), false);
 
 var_dump($fa);
 ?>

@@ -36,13 +36,13 @@ tidy_config_count(tidy $tidy): int
 
 ```php
 <?php
-$html = '<p>test</I>';
+$html = '<p>test</I>';
 
-$config = array('doctype' => 'bogus');
+$config = array('doctype' => 'bogus');
 
-$tidy = tidy_parse_string($html, $config);
+$tidy = tidy_parse_string($html, $config);
 
-/* Выведет 1, потому как 'bogus' некорректное объявление типа документа */
-echo tidy_config_count($tidy);
+/* Выведет 1, потому как 'bogus' некорректное объявление типа документа */
+echo tidy_config_count($tidy);
 ?>
 ```

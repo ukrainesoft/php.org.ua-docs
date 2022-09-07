@@ -42,11 +42,11 @@ is_writable(string $filename): bool
 
 ```php
 <?php
-$filename = 'test.txt';
-if (is_writable($filename)) {
-    echo 'Файл доступен для записи';
-} else {
-    echo 'Файл недоступен для записи';
+$filename = 'test.txt';
+if (is_writable($filename)) {
+    echo 'Файл доступен для записи';
+} else {
+    echo 'Файл недоступен для записи';
 }
 ?>
 ```

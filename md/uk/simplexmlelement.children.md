@@ -42,29 +42,29 @@ public SimpleXMLElement::children(?string $namespaceOrPrefix = null, bool $isPre
 
 ```php
 <?php
-$xml = new SimpleXMLElement(
+$xml = new SimpleXMLElement(
 '<person>
- <child role="сын">
-  <child role="дочь"/>
- </child>
- <child role="дочь">
-  <child role="сын">
-   <child role="сын"/>
-  </child>
- </child>
+ <child role="сын">
+  <child role="дочь"/>
+ </child>
+ <child role="дочь">
+  <child role="сын">
+   <child role="сын"/>
+  </child>
+ </child>
 </person>');
 
-foreach ($xml->children() as $second_gen) {
-    echo ' У человека родился(-ась) ' . $second_gen['role'];
+foreach ($xml->children() as $second_gen) {
+    echo ' У человека родился(-ась) ' . $second_gen['role'];
 
-    foreach ($second_gen->children() as $third_gen) {
-        echo ', у которого родился(-ась) ' . $third_gen['role'] . ';';
+    foreach ($second_gen->children() as $third_gen) {
+        echo ', у которого родился(-ась) ' . $third_gen['role'] . ';';
 
-        foreach ($third_gen->children() as $fourth_gen) {
-            echo ' и у ' . $third_gen['role'] .
-                ' родился(-ась) ' . $fourth_gen['role'];
-        }
-    }
+        foreach ($third_gen->children() as $fourth_gen) {
+            echo ' и у ' . $third_gen['role'] .
+                ' родился(-ась) ' . $fourth_gen['role'];
+        }
+    }
 }
 ?>
 ```
@@ -80,27 +80,27 @@ foreach ($xml->children() as $second_gen) {
 
 ```php
 <?php
-$xml = '<example xmlns:foo="my.foo.urn">
-  <foo:a>Яблоко</foo:a>
-  <foo:b>Банан</foo:b>
-  <c>Вишня</c>
+$xml = '<example xmlns:foo="my.foo.urn">
+  <foo:a>Яблоко</foo:a>
+  <foo:b>Банан</foo:b>
+  <c>Вишня</c>
 </example>';
 
-$sxe = new SimpleXMLElement($xml);
+$sxe = new SimpleXMLElement($xml);
 
-$kids = $sxe->children('foo');
+$kids = $sxe->children('foo');
 var_dump(count($kids));
 
-$kids = $sxe->children('foo', TRUE);
+$kids = $sxe->children('foo', TRUE);
 var_dump(count($kids));
 
-$kids = $sxe->children('my.foo.urn');
+$kids = $sxe->children('my.foo.urn');
 var_dump(count($kids));
 
-$kids = $sxe->children('my.foo.urn', TRUE);
+$kids = $sxe->children('my.foo.urn', TRUE);
 var_dump(count($kids));
 
-$kids = $sxe->children();
+$kids = $sxe->children();
 var_dump(count($kids));
 ?>
 ```

@@ -41,18 +41,18 @@ oci_close(resource $connection): ?bool
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM departments');
-$r = oci_execute($stid);
-oci_fetch_all($stid, $res);
+$stid = oci_parse($conn, 'SELECT * FROM departments');
+$r = oci_execute($stid);
+oci_fetch_all($stid, $res);
 var_dump($res);
 
-// Освобождаем идентификатор выражения при закрытии соединения
+// Освобождаем идентификатор выражения при закрытии соединения
 oci_free_statement($stid);
 oci_close($conn);
 
@@ -66,32 +66,32 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM departments');  // это увеличивает refcount на $conn
+$stid = oci_parse($conn, 'SELECT * FROM departments');  // это увеличивает refcount на $conn
 oci_execute($stid);
-oci_fetch_all($stid, $res);
+oci_fetch_all($stid, $res);
 var_dump($res);
 
 oci_close($conn);
 
-// $conn больше не может использоваться в данном скрипте, но реальное
-// соединение с базой данных будет открыто, пока не будет освобождена $stid.
-var_dump($conn);  // выводит NULL
+// $conn больше не может использоваться в данном скрипте, но реальное
+// соединение с базой данных будет открыто, пока не будет освобождена $stid.
+var_dump($conn);  // выводит NULL
 
-// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
-// покажет, что пользователь базы данных всё ещё подключён.
+// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
+// покажет, что пользователь базы данных всё ещё подключён.
 sleep(10);
 
-// Как только $stid освобождается, соединение к базе данных физически закрывается
+// Как только $stid освобождается, соединение к базе данных физически закрывается
 oci_free_statement($stid);
 
-// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
-// покажет, что пользователь базы данных уже отключился.
+// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
+// покажет, что пользователь базы данных уже отключился.
 sleep(10);
 
 ?>
@@ -104,20 +104,20 @@ sleep(10);
 ```php
 <?php
 
-$conn1 = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn1 = oci_connect('hr', 'welcome', 'localhost/XE');
 
-// Использование тех же учётных данных повторно использует одно и то же
-// соединение с базой данных. Любые незафиксированные изменения в
-// $conn1 будут видны в $conn2
-$conn2 = oci_connect('hr', 'welcome', 'localhost/XE');
+// Использование тех же учётных данных повторно использует одно и то же
+// соединение с базой данных. Любые незафиксированные изменения в
+// $conn1 будут видны в $conn2
+$conn2 = oci_connect('hr', 'welcome', 'localhost/XE');
 
-// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
-// покажет, что подключён только один пользователь базы данных.
+// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала
+// покажет, что подключён только один пользователь базы данных.
 sleep(10);
 
-oci_close($conn1); // не закрывает реальное соединение с базой данных
-var_dump($conn1);  // выводит NULL, т.к. $conn1 теперь бесполезна
-var_dump($conn2);  // показывает, что $conn2 всё ещё является корректным ресурсом соединения
+oci_close($conn1); // не закрывает реальное соединение с базой данных
+var_dump($conn1);  // выводит NULL, т.к. $conn1 теперь бесполезна
+var_dump($conn2);  // показывает, что $conn2 всё ещё является корректным ресурсом соединения
 
 ?>
 ```
@@ -129,23 +129,23 @@ var_dump($conn2);  // показывает, что $conn2 всё ещё 
 ```php
 <?php
 
-function myfunc() {
-    $conn = oci_connect('hr', 'hrpwd', 'localhost/XE');
-    if (!$conn) {
-        $e = oci_error();
-        trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
-    }
+function myfunc() {
+    $conn = oci_connect('hr', 'hrpwd', 'localhost/XE');
+    if (!$conn) {
+        $e = oci_error();
+        trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+    }
 
-    $stid = oci_parse($conn, 'UPDATE mytab SET id = 100');
-    oci_execute($stid, OCI_NO_AUTO_COMMIT);
-    return "Закончили!";
+    $stid = oci_parse($conn, 'UPDATE mytab SET id = 100');
+    oci_execute($stid, OCI_NO_AUTO_COMMIT);
+    return "Закончили!";
 }
 
-$r = myfunc();
-// В этой точке происходит откат транзакции и закрывается соответствующее
-// соединение с базой данных
+$r = myfunc();
+// В этой точке происходит откат транзакции и закрывается соответствующее
+// соединение с базой данных
 
-print $r;  // отображает возвращённое функцией значение "Закончили!"
+print $r;  // отображает возвращённое функцией значение "Закончили!"
 
 ?>
 ```

@@ -32,14 +32,14 @@ public **SplStack::construct**
 
 ```php
 <?php
-$q = new SplStack();
+$q = new SplStack();
 
-$q[] = 1;
-$q[] = 2;
-$q[] = 3;
+$q[] = 1;
+$q[] = 2;
+$q[] = 3;
 
-foreach ($q as $elem)  {
- echo $elem."\n";
+foreach ($q as $elem)  {
+ echo $elem."\n";
 }
 ?>
 ```

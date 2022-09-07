@@ -29,13 +29,13 @@ int `$port` = iniget("mysqli.defaultport"),
 string `$socket` = iniget("mysqli.defaultsocket")
 
 ```methodsynopsis
-public mysqli::connect(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket")): void
+public mysqli::connect(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket")): void
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_connect(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket")): mysqli|false
+mysqli_connect(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket")): mysqli|false
 ```
 
 Встановлює з'єднання з працюючим сервером MySQL.
@@ -93,15 +93,15 @@ mysqli_connect(    string $hostname = ini_get("mysqli.default_host"),   �
 ```php
 <?php
 
-/* Вы должны включить отчёт об ошибках для mysqli, прежде чем пытаться установить соединение */
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+/* Вы должны включить отчёт об ошибках для mysqli, прежде чем пытаться установить соединение */
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'my_db');
+$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'my_db');
 
-/* Установите желаемую кодировку после установления соединения */
+/* Установите желаемую кодировку после установления соединения */
 $mysqli->set_charset('utf8mb4');
 
-printf("Успешно... %s\n", $mysqli->host_info);
+printf("Успешно... %s\n", $mysqli->host_info);
 ?>
 ```
 
@@ -110,15 +110,15 @@ printf("Успешно... %s\n", $mysqli->host_info);
 ```php
 <?php
 
-/* Вы должны включить отчёт об ошибках для mysqli, прежде чем пытаться установить соединение */
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+/* Вы должны включить отчёт об ошибках для mysqli, прежде чем пытаться установить соединение */
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-$mysqli = mysqli_connect('localhost', 'my_user', 'my_password', 'my_db');
+$mysqli = mysqli_connect('localhost', 'my_user', 'my_password', 'my_db');
 
-/* Установите желаемую кодировку после установления соединения */
-mysqli_set_charset($mysqli, 'utf8mb4');
+/* Установите желаемую кодировку после установления соединения */
+mysqli_set_charset($mysqli, 'utf8mb4');
 
-printf("Успешно... %s\n", mysqli_get_host_info($mysqli));
+printf("Успешно... %s\n", mysqli_get_host_info($mysqli));
 ```
 
 Результатом виконання даних прикладів буде щось подібне:
@@ -132,15 +132,15 @@ printf("Успешно... %s\n", mysqli_get_host_info($mysqli));
 ```php
 <?php
 
-class FooMysqli extends mysqli {
-    public function __construct($host, $user, $pass, $db, $port, $socket, $charset) {
-        mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-        parent::__construct($host, $user, $pass, $db, $port, $socket);
-        $this->set_charset($charset);
-    }
+class FooMysqli extends mysqli {
+    public function __construct($host, $user, $pass, $db, $port, $socket, $charset) {
+        mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+        parent::__construct($host, $user, $pass, $db, $port, $socket);
+        $this->set_charset($charset);
+    }
 }
 
-$db = new FooMysqli('localhost', 'my_user', 'my_password', 'my_db', 3306, null, 'utf8mb4');
+$db = new FooMysqli('localhost', 'my_user', 'my_password', 'my_db', 3306, null, 'utf8mb4');
 ```
 
 **Приклад #3 Ручна обробка помилок**
@@ -154,15 +154,15 @@ $db = new FooMysqli('localhost', 'my_user', 'my_password', 'my_db', 3306,
 
 error_reporting(0);
 mysqli_report(MYSQLI_REPORT_OFF);
-$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'my_db');
-if ($mysqli->connect_errno) {
-    throw new RuntimeException('ошибка соединения mysqli: ' . $mysqli->connect_error);
+$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'my_db');
+if ($mysqli->connect_errno) {
+    throw new RuntimeException('ошибка соединения mysqli: ' . $mysqli->connect_error);
 }
 
-/* Установите желаемую кодировку после установления соединения */
+/* Установите желаемую кодировку после установления соединения */
 $mysqli->set_charset('utf8mb4');
-if ($mysqli->errno) {
-    throw new RuntimeException('ошибка mysqli: ' . $mysqli->error);
+if ($mysqli->errno) {
+    throw new RuntimeException('ошибка mysqli: ' . $mysqli->error);
 }
 ```
 
@@ -173,15 +173,15 @@ if ($mysqli->errno) {
 
 error_reporting(0);
 mysqli_report(MYSQLI_REPORT_OFF);
-$mysqli = mysqli_connect('localhost', 'my_user', 'my_password', 'my_db');
-if (mysqli_connect_errno()) {
-    throw new RuntimeException('ошибка соединения mysqli: ' . mysqli_connect_error());
+$mysqli = mysqli_connect('localhost', 'my_user', 'my_password', 'my_db');
+if (mysqli_connect_errno()) {
+    throw new RuntimeException('ошибка соединения mysqli: ' . mysqli_connect_error());
 }
 
-/* Установите желаемую кодировку после установления соединения */
-mysqli_set_charset($mysqli, 'utf8mb4');
-if (mysqli_errno($mysqli)) {
-    throw new RuntimeException('ошибка mysqli: ' . mysqli_error($mysqli));
+/* Установите желаемую кодировку после установления соединения */
+mysqli_set_charset($mysqli, 'utf8mb4');
+if (mysqli_errno($mysqli)) {
+    throw new RuntimeException('ошибка mysqli: ' . mysqli_error($mysqli));
 }
 ```
 

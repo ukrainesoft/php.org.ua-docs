@@ -46,9 +46,9 @@ array_diff(array $array, array ...$arrays): array
 
 ```php
 <?php
-$array1 = array("a" => "green", "red", "blue", "red");
-$array2 = array("b" => "green", "yellow", "red");
-$result = array_diff($array1, $array2);
+$array1 = array("a" => "green", "red", "blue", "red");
+$array2 = array("b" => "green", "yellow", "red");
+$result = array_diff($array1, $array2);
 
 print_r($result);
 ?>
@@ -69,30 +69,30 @@ Array
 
 ```php
 <?php
-// Это сгенерирует уведомление о том, что Масив не может быть преобразован в строку.
-$source = [1, 2, 3, 4];
-$filter = [3, 4, [5], 6];
-$result = array_diff($source, $filter);
+// Это сгенерирует уведомление о том, что Масив не может быть преобразован в строку.
+$source = [1, 2, 3, 4];
+$filter = [3, 4, [5], 6];
+$result = array_diff($source, $filter);
 
-// В то же время это нормально, поскольку объекты могут быть преобразованы в строку.
-class S {
-  private $v;
+// В то же время это нормально, поскольку объекты могут быть преобразованы в строку.
+class S {
+  private $v;
 
-  public function __construct(string $v) {
-    $this->v = $v;
-  }
+  public function __construct(string $v) {
+    $this->v = $v;
+  }
 
-  public function __toString() {
-    return $this->v;
-  }
+  public function __toString() {
+    return $this->v;
+  }
 }
 
-$source = [new S('a'), new S('b'), new S('c')];
-$filter = [new S('b'), new S('c'), new S('d')];
+$source = [new S('a'), new S('b'), new S('c')];
+$filter = [new S('b'), new S('c'), new S('d')];
 
-$result = array_diff($source, $filter);
+$result = array_diff($source, $filter);
 
-// $result теперь содержит один экземпляр S('a');
+// $result теперь содержит один экземпляр S('a');
 ?>
 ```
 

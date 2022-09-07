@@ -15,7 +15,7 @@ streamcontextsetoption — Встановлює опцію для потоку/�
 ### Опис
 
 ```methodsynopsis
-stream_context_set_option(    resource $stream_or_context,    string $wrapper,    string $option,    mixed $value): bool
+stream_context_set_option(    resource $stream_or_context,    string $wrapper,    string $option,    mixed $value): bool
 ```
 
 ```methodsynopsis

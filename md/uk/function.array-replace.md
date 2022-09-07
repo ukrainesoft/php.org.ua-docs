@@ -42,11 +42,11 @@ array_replace(array $array, array ...$replacements): array
 
 ```php
 <?php
-$base = array("orange", "banana", "apple", "raspberry");
-$replacements = array(0 => "pineapple", 4 => "cherry");
-$replacements2 = array(0 => "grape");
+$base = array("orange", "banana", "apple", "raspberry");
+$replacements = array(0 => "pineapple", 4 => "cherry");
+$replacements2 = array(0 => "grape");
 
-$basket = array_replace($base, $replacements, $replacements2);
+$basket = array_replace($base, $replacements, $replacements2);
 print_r($basket);
 ?>
 ```

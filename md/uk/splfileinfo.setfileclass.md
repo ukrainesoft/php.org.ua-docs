@@ -36,11 +36,11 @@ public SplFileInfo::setFileClass(string $class = SplFileObject::class): void
 
 ```php
 <?php
-// Создать класс, расширяющий SplFileObject
-class MyFoo extends SplFileObject {}
+// Создать класс, расширяющий SplFileObject
+class MyFoo extends SplFileObject {}
 
-$info = new SplFileInfo(__FILE__);
-// Установить имя класса для использования
+$info = new SplFileInfo(__FILE__);
+// Установить имя класса для использования
 $info->setFileClass('MyFoo');
 var_dump($info->openFile());
 ?>

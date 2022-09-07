@@ -41,12 +41,12 @@ sodium_crypto_core_ristretto255_scalar_invert(string $s): string
 ```php
 <?php
 
-$foo = sodium_crypto_core_ristretto255_scalar_random();
+$foo = sodium_crypto_core_ristretto255_scalar_random();
 
-$inverted = sodium_crypto_core_ristretto255_scalar_invert($foo);
-$reInverted = sodium_crypto_core_ristretto255_scalar_invert($inverted);
+$inverted = sodium_crypto_core_ristretto255_scalar_invert($foo);
+$reInverted = sodium_crypto_core_ristretto255_scalar_invert($inverted);
 
-var_dump(hash_equals($foo, $reInverted));
+var_dump(hash_equals($foo, $reInverted));
 ?>
 ```
 

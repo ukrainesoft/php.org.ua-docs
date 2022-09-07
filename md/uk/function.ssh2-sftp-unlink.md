@@ -38,11 +38,11 @@ ssh2_sftp_unlink(resource $sftp, string $filename): bool
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
-$sftp = ssh2_sftp($connection);
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
 
-ssh2_sftp_unlink($sftp, '/home/username/stale_file');
+ssh2_sftp_unlink($sftp, '/home/username/stale_file');
 ?>
 ```
 

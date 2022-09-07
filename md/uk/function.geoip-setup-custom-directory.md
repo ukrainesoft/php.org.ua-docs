@@ -41,7 +41,7 @@ geoip_setup_custom_directory(string $path): void
 
 geoip_setup_custom_directory('/some/other/path');
 
-print geoip_db_filename(GEOIP_COUNTRY_EDITION);
+print geoip_db_filename(GEOIP_COUNTRY_EDITION);
 
 ?>
 ```

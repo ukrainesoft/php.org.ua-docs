@@ -44,9 +44,9 @@ public Ds\Map::merge(mixed $values): Ds\Map
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 
-print_r($map->merge(["a" => 10, "e" => 50]));
+print_r($map->merge(["a" => 10, "e" => 50]));
 ?>
 ```
 

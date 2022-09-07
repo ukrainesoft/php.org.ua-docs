@@ -16,22 +16,22 @@ title: Приклад використання Tidy
 <?php
 ob_start();
 ?>
-<html>a html document</html>
+<html>a html document</html>
 <?php
-$html = ob_get_clean();
+$html = ob_get_clean();
 
-// Установка конфигурации
-$config = array(
-           'indent'         => true,
-           'output-xhtml'   => true,
-           'wrap'           => 200);
+// Установка конфигурации
+$config = array(
+           'indent'         => true,
+           'output-xhtml'   => true,
+           'wrap'           => 200);
 
-// Tidy
-$tidy = new tidy;
-$tidy->parseString($html, $config, 'utf8');
+// Tidy
+$tidy = new tidy;
+$tidy->parseString($html, $config, 'utf8');
 $tidy->cleanRepair();
 
-// Вывод
-echo $tidy;
+// Вывод
+echo $tidy;
 ?>
 ```

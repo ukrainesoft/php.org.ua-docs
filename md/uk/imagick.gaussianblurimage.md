@@ -48,11 +48,11 @@ public Imagick::gaussianBlurImage(float $radius, float $sigma, int $channel = Im
 
 ```php
 <?php
-function gaussianBlurImage($imagePath, $radius, $sigma, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->gaussianBlurImage($radius, $sigma, $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function gaussianBlurImage($imagePath, $radius, $sigma, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->gaussianBlurImage($radius, $sigma, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

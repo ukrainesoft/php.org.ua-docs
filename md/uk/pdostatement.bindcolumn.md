@@ -15,7 +15,7 @@ PDOStatement::bindColumn — Зв'язує стовпець зі змінною 
 ### Опис
 
 ```methodsynopsis
-public PDOStatement::bindColumn(    string|int $column,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
+public PDOStatement::bindColumn(    string|int $column,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
 ```
 
 **PDOStatement::bindColumn()** прив'язує змінну до заданого стовпця у результуючому наборі запиту. Кожен виклик [PDOStatement::fetch()](pdostatement.fetch.md) або [PDOStatement::fetchAll()](pdostatement.fetchall.md) оновлюватиме всі змінні, задаватиме їм значення стовпців, з якими вони пов'язані.
@@ -60,18 +60,18 @@ public PDOStatement::bindColumn(    string|int $column,    mixed &$var,�
 
 ```php
 <?php
-$stmt = $dbh->prepare('SELECT name, colour, calories FROM fruit');
+$stmt = $dbh->prepare('SELECT name, colour, calories FROM fruit');
 $stmt->execute();
 
-/* Bind by column number */
-$stmt->bindColumn(1, $name);
-$stmt->bindColumn(2, $colour);
+/* Bind by column number */
+$stmt->bindColumn(1, $name);
+$stmt->bindColumn(2, $colour);
 
-/* Bind by column name */
-$stmt->bindColumn('calories', $cals);
+/* Bind by column name */
+$stmt->bindColumn('calories', $cals);
 
-while ($stmt->fetch(PDO::FETCH_BOUND)) {
-    print $name . "\t" . $colour . "\t" . $cals . "\n";
+while ($stmt->fetch(PDO::FETCH_BOUND)) {
+    print $name . "\t" . $colour . "\t" . $cals . "\n";
 }
 ```
 

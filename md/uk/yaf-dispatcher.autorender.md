@@ -42,15 +42,15 @@ bool
 
 ```php
 <?php
-class IndexController extends Yaf_Controller_Abstract {
-     /* Метод init будет вызван, как только будет инициализирован контроллер */
-     public function init() {
-         if ($this->getRequest()->isXmlHttpRequest()) {
-             //не вызывать render для ajax-запроса
-             //мы выведем строку JSON
-             Yaf_Dispatcher::getInstance()->autoRender(FALSE);
-         }
-     }
+class IndexController extends Yaf_Controller_Abstract {
+     /* Метод init будет вызван, как только будет инициализирован контроллер */
+     public function init() {
+         if ($this->getRequest()->isXmlHttpRequest()) {
+             //не вызывать render для ajax-запроса
+             //мы выведем строку JSON
+             Yaf_Dispatcher::getInstance()->autoRender(FALSE);
+         }
+     }
 
 }
 ?>

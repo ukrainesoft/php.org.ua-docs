@@ -52,20 +52,20 @@ imageloadfont(string $filename): GdFont|false
 
 ```php
 <?php
-// Создание нового изображения
-$im = imagecreatetruecolor(50, 20);
-$black = imagecolorallocate($im, 0, 0, 0);
-$white = imagecolorallocate($im, 255, 255, 255);
+// Создание нового изображения
+$im = imagecreatetruecolor(50, 20);
+$black = imagecolorallocate($im, 0, 0, 0);
+$white = imagecolorallocate($im, 255, 255, 255);
 
-// Белый фон
-imagefilledrectangle($im, 0, 0, 49, 19, $white);
+// Белый фон
+imagefilledrectangle($im, 0, 0, 49, 19, $white);
 
-// Загрузка gd шрифта и надпись 'Привет'
-$font = imageloadfont('./04b.gdf');
-imagestring($im, $font, 0, 0, 'Привет', $black);
+// Загрузка gd шрифта и надпись 'Привет'
+$font = imageloadfont('./04b.gdf');
+imagestring($im, $font, 0, 0, 'Привет', $black);
 
-// Вывод изображения
-header('Content-type: image/png');
+// Вывод изображения
+header('Content-type: image/png');
 
 imagepng($im);
 imagedestroy($im);

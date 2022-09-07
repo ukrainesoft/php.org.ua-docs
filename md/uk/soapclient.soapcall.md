@@ -15,7 +15,7 @@ SoapClient::soapCall — Викликає SOAP-функцію
 ### Опис
 
 ```methodsynopsis
-public SoapClient::__soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
+public SoapClient::__soapCall(    string $name,    array $args,    ?array $options = null,    SoapHeader|array|null $inputHeaders = null,    array &$outputHeaders = null): mixed
 ```
 
 Це низькорівнева функція API, яка дозволяє зробити SOAP-дзвінок. Зазвичай у режимі WSDL функції SOAP викликаються як методи об'єкта [SoapClient](class.soapclient.md). Цей метод корисний у режимі, відмінному від WSDL, коли `soapaction` невідомий, `uri` відрізняється від URI за замовчуванням або під час відправлення та/або отримання SOAP-заголовків.
@@ -63,21 +63,21 @@ public SoapClient::__soapCall(    string $name,    array $args,    ?
 ```php
 <?php
 
-$client = new SoapClient("some.wsdl");
-$client->SomeFunction($a, $b, $c);
+$client = new SoapClient("some.wsdl");
+$client->SomeFunction($a, $b, $c);
 
-$client->__soapCall("SomeFunction", array($a, $b, $c));
-$client->__soapCall("SomeFunction", array($a, $b, $c), NULL,
-                    new SoapHeader(), $output_headers);
+$client->__soapCall("SomeFunction", array($a, $b, $c));
+$client->__soapCall("SomeFunction", array($a, $b, $c), NULL,
+                    new SoapHeader(), $output_headers);
 
 
-$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
-                                     'uri'      => "http://test-uri/"));
-$client->SomeFunction($a, $b, $c);
-$client->__soapCall("SomeFunction", array($a, $b, $c));
-$client->__soapCall("SomeFunction", array($a, $b, $c),
-                    array('soapaction' => 'some_action',
-                          'uri'        => 'some_uri'));
+$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
+                                     'uri'      => "http://test-uri/"));
+$client->SomeFunction($a, $b, $c);
+$client->__soapCall("SomeFunction", array($a, $b, $c));
+$client->__soapCall("SomeFunction", array($a, $b, $c),
+                    array('soapaction' => 'some_action',
+                          'uri'        => 'some_uri'));
 ?>
 ```
 

@@ -42,8 +42,8 @@ octdec(string $octal_string): int|float
 
 ```php
 <?php
-echo octdec('77') . "\n";
-echo octdec(decoct(45));
+echo octdec('77') . "\n";
+echo octdec(decoct(45));
 ?>
 ```
 

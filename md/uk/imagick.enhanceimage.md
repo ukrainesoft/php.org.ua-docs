@@ -38,11 +38,11 @@ public Imagick::enhanceImage(): bool
 
 ```php
 <?php
-function enhanceImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->enhanceImage();
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function enhanceImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->enhanceImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

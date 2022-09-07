@@ -45,20 +45,20 @@ sqlsrv_client_info(resource $conn): array
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connOptions = array("UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connOptions );
+$serverName = "serverName\sqlexpress";
+$connOptions = array("UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connOptions );
 
-if( $conn === false ) {
-    die( print_r( sqlsrv_errors(), true));
+if( $conn === false ) {
+    die( print_r( sqlsrv_errors(), true));
 }
 
-if( $client_info = sqlsrv_client_info( $conn)) {
-    foreach( $client_info as $key => $value) {
-        echo $key.": ".$value."<br />";
-    }
-} else {
-    echo "Ошибка при получении информации о клиенте.<br />";
+if( $client_info = sqlsrv_client_info( $conn)) {
+    foreach( $client_info as $key => $value) {
+        echo $key.": ".$value."<br />";
+    }
+} else {
+    echo "Ошибка при получении информации о клиенте.<br />";
 }
 ?>
 ```

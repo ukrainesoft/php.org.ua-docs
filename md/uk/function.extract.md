@@ -89,16 +89,16 @@ extract(array &$array, int $flags = EXTR_OVERWRITE, string $prefix = ""): int
 ```php
 <?php
 
-/* Предположим, что $var_array - это Масив, полученный в результате
-   wddx_deserialize */
+/* Предположим, что $var_array - это Масив, полученный в результате
+   wddx_deserialize */
 
-$size = "large";
-$var_array = array("color" => "blue",
-                   "size"  => "medium",
-                   "shape" => "sphere");
-extract($var_array, EXTR_PREFIX_SAME, "wddx");
+$size = "large";
+$var_array = array("color" => "blue",
+                   "size"  => "medium",
+                   "shape" => "sphere");
+extract($var_array, EXTR_PREFIX_SAME, "wddx");
 
-echo "$color, $size, $shape, $wddx_size\n";
+echo "$color, $size, $shape, $wddx_size\n";
 
 ?>
 ```

@@ -15,7 +15,7 @@ traderstoch - Стохастичний осцилятор
 ### Опис
 
 ```methodsynopsis
-trader_stoch(    array $high,    array $low,    array $close,    int $fastK_Period = ?,    int $slowK_Period = ?,    int $slowK_MAType = ?,    int $slowD_Period = ?,    int $slowD_MAType = ?): array
+trader_stoch(    array $high,    array $low,    array $close,    int $fastK_Period = ?,    int $slowK_Period = ?,    int $slowK_MAType = ?,    int $slowD_Period = ?,    int $slowD_MAType = ?): array
 ```
 
 ### Список параметрів

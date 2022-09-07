@@ -55,25 +55,25 @@ ftp_mdtm(FTP\Connection $ftp, string $filename): int
 ```php
 <?php
 
-$file = 'somefile.txt';
+$file = 'somefile.txt';
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-//  получение времени модификации файла
-$buff = ftp_mdtm($ftp, $file);
+//  получение времени модификации файла
+$buff = ftp_mdtm($ftp, $file);
 
-if ($buff != -1) {
-    // дата последней модификации somefile.txt : March 26 2003 14:16:41.
-    echo "Дата последней модификации $file : " . date("F d Y H:i:s.", $buff);
-} else {
-    echo "Не удалось выполнить mdtime";
+if ($buff != -1) {
+    // дата последней модификации somefile.txt : March 26 2003 14:16:41.
+    echo "Дата последней модификации $file : " . date("F d Y H:i:s.", $buff);
+} else {
+    echo "Не удалось выполнить mdtime";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 
 ?>

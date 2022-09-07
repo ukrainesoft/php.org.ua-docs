@@ -34,7 +34,7 @@ public ReflectionExtension::getConstants(): array
 
 ```php
 <?php
-$ext = new ReflectionExtension('DOM');
+$ext = new ReflectionExtension('DOM');
 
 print_r($ext->getConstants());
 ?>

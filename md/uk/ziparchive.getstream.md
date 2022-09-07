@@ -36,19 +36,19 @@ public ZipArchive::getStream(string $name): resource|false
 
 ```php
 <?php
-$contents = '';
-$z = new ZipArchive();
-if ($z->open('test.zip')) {
-    $fp = $z->getStream('test');
-    if(!$fp) exit("ошибка\n");
+$contents = '';
+$z = new ZipArchive();
+if ($z->open('test.zip')) {
+    $fp = $z->getStream('test');
+    if(!$fp) exit("ошибка\n");
 
-    while (!feof($fp)) {
-        $contents .= fread($fp, 2);
-    }
+    while (!feof($fp)) {
+        $contents .= fread($fp, 2);
+    }
 
-    fclose($fp);
-    file_put_contents('t',$contents);
-    echo "готово.\n";
+    fclose($fp);
+    file_put_contents('t',$contents);
+    echo "готово.\n";
 }
 ?>
 ```
@@ -57,17 +57,17 @@ if ($z->open('test.zip')) {
 
 ```php
 <?php
-$contents = '';
-$fp = fopen('zip://' . dirname(__FILE__) . '/test.zip#test', 'r');
-if (!$fp) {
-    exit("Не получается открыть\n");
+$contents = '';
+$fp = fopen('zip://' . dirname(__FILE__) . '/test.zip#test', 'r');
+if (!$fp) {
+    exit("Не получается открыть\n");
 }
-while (!feof($fp)) {
-    $contents .= fread($fp, 2);
+while (!feof($fp)) {
+    $contents .= fread($fp, 2);
 }
-echo "$contents\n";
+echo "$contents\n";
 fclose($fp);
-echo "Готово.\n";
+echo "Готово.\n";
 ?>
 ```
 
@@ -75,8 +75,8 @@ echo "Готово.\n";
 
 ```php
 <?php
-$im = imagecreatefromgif('zip://' . dirname(__FILE__) . '/test_im.zip#pear_item.gif');
-imagepng($im, 'a.png');
+$im = imagecreatefromgif('zip://' . dirname(__FILE__) . '/test_im.zip#pear_item.gif');
+imagepng($im, 'a.png');
 ?>
 ```
 

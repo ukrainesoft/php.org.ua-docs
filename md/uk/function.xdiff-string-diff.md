@@ -15,7 +15,7 @@ xdiffstringdiff — Створити звичайний патч для двох
 ### Опис
 
 ```methodsynopsis
-xdiff_string_diff(    string $old_data,    string $new_data,    int $context = 3,    bool $minimal = false): string
+xdiff_string_diff(    string $old_data,    string $new_data,    int $context = 3,    bool $minimal = false): string
 ```
 
 Створює патч для рядків `old_data` і `new_data`. Підсумковий патч людину читаємо. Опціональний параметр `context` вказує, скільки рядків контексту має бути додано до патчу навколо кожної відмінності. Встановлення параметра `minimal` на значення **`true`** дозволить отримати максимально короткий патч (може зайняти багато часу).
@@ -50,13 +50,13 @@ xdiff_string_diff(    string $old_data,    string $new_data,    int 
 
 ```php
 <?php
-$old_article = file_get_contents('./old_article.txt');
-$new_article = $_REQUEST['article']; /* Допустим кто-то отправил новую статью через html-форму */
+$old_article = file_get_contents('./old_article.txt');
+$new_article = $_REQUEST['article']; /* Допустим кто-то отправил новую статью через html-форму */
 
-$diff = xdiff_string_diff($old_article, $new_article, 1);
-if (is_string($diff)) {
-    echo "Различия в двух статьях:\n";
-    echo $diff;
+$diff = xdiff_string_diff($old_article, $new_article, 1);
+if (is_string($diff)) {
+    echo "Различия в двух статьях:\n";
+    echo $diff;
 }
 
 ?>

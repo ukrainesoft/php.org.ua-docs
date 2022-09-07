@@ -15,7 +15,7 @@ SNMP::walk — Отримує піддерево об'єкта SNMP
 ### Опис
 
 ```methodsynopsis
-public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = false,    int $maxRepetitions = -1,    int $nonRepeaters = -1): array|false
+public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = false,    int $maxRepetitions = -1,    int $nonRepeaters = -1): array|false
 ```
 
 **SNMP::walk()** використовується для читання піддерева SNMP з коренем у вказаному `objectId`
@@ -52,10 +52,10 @@ public SNMP::walk(    array|string $objectId,    bool $suffixAsKey = fal
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
-  $fulltree = $session->walk(".");
-  print_r($fulltree);
-  $session->close();
+  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
+  $fulltree = $session->walk(".");
+  print_r($fulltree);
+  $session->close();
 ?>
 ```
 
@@ -79,18 +79,18 @@ Array
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
-  $session->valueretrieval = SNMP_VALUE_PLAIN;
-  $ifDescr = $session->walk(".1.3.6.1.2.1.2.2.1.2", TRUE);
-  $session->valueretrieval = SNMP_VALUE_LIBRARY;
-  $ifType = $session->walk(".1.3.6.1.2.1.2.2.1.3", TRUE);
-  print_r($ifDescr);
-  print_r($ifType);
-  $result = array();
-  foreach($ifDescr as $i => $n) {
-    $result[$n] = $ifType[$i];
-  }
-  print_r($result);
+  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
+  $session->valueretrieval = SNMP_VALUE_PLAIN;
+  $ifDescr = $session->walk(".1.3.6.1.2.1.2.2.1.2", TRUE);
+  $session->valueretrieval = SNMP_VALUE_LIBRARY;
+  $ifType = $session->walk(".1.3.6.1.2.1.2.2.1.3", TRUE);
+  print_r($ifDescr);
+  print_r($ifType);
+  $result = array();
+  foreach($ifDescr as $i => $n) {
+    $result[$n] = $ifType[$i];
+  }
+  print_r($result);
 ?>
 ```
 

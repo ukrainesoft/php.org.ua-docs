@@ -67,25 +67,25 @@ final public MongoDB\Driver\Manager::executeQuery(string $namespace, MongoDB\Dri
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
-$bulk->insert(['x' => 2]);
-$bulk->insert(['x' => 3]);
-$manager->executeBulkWrite('db.collection', $bulk);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+$bulk->insert(['x' => 2]);
+$bulk->insert(['x' => 3]);
+$manager->executeBulkWrite('db.collection', $bulk);
 
-$filter = ['x' => ['$gt' => 1]];
-$options = [
-    'projection' => ['_id' => 0],
-    'sort' => ['x' => -1],
+$filter = ['x' => ['$gt' => 1]];
+$options = [
+    'projection' => ['_id' => 0],
+    'sort' => ['x' => -1],
 ];
 
-$query = new MongoDB\Driver\Query($filter, $options);
-$cursor = $manager->executeQuery('db.collection', $query);
+$query = new MongoDB\Driver\Query($filter, $options);
+$cursor = $manager->executeQuery('db.collection', $query);
 
-foreach ($cursor as $document) {
-    var_dump($document);
+foreach ($cursor as $document) {
+    var_dump($document);
 }
 
 ?>
@@ -106,23 +106,23 @@ object(stdClass)#7 (1) {
 
 **Приклад #2 Обмеження часу виконання запиту**
 
-Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.md) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
+Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.md) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
 
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
 
-$filter = ['x' => ['$gt' => 1]];
-$options = [
-    'maxTimeMS' => 1000,
+$filter = ['x' => ['$gt' => 1]];
+$options = [
+    'maxTimeMS' => 1000,
 ];
 
-$query = new MongoDB\Driver\Query($filter, $options);
-$cursor = $manager->executeQuery('db.collection', $query);
+$query = new MongoDB\Driver\Query($filter, $options);
+$cursor = $manager->executeQuery('db.collection', $query);
 
-foreach ($cursor as $document) {
-    var_dump($document);
+foreach ($cursor as $document) {
+    var_dump($document);
 }
 
 ?>

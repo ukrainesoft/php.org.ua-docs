@@ -89,7 +89,7 @@ private
 
     /* Методы */
     
-   public __construct(    array|string|null $code,    string $string,    ?string $actor = null,    mixed $details = null,    ?string $name = null,    mixed $headerFault = null)
+   public __construct(    array|string|null $code,    string $string,    ?string $actor = null,    mixed $details = null,    ?string $name = null,    mixed $headerFault = null)
 
     public __toString(): string
 

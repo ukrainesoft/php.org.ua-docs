@@ -15,7 +15,7 @@ yamlparseurl - Розбирає YAML-потік з URL
 ### Опис
 
 ```methodsynopsis
-yaml_parse_url(    string $url,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
+yaml_parse_url(    string $url,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
 ```
 
 Конвертує повністю або частково потік YAML-документів, що читаються з URL, змінну PHP.

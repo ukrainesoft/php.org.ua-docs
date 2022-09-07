@@ -16,16 +16,16 @@ title: Процедурний та об'єктно-орієнтований ін
 
 ```php
 <?php
-$mysqli = mysqli_connect("example.com", "user", "password", "database");
-$result = mysqli_query($mysqli, "SELECT 'Пожалуйста, не используйте устаревший модуль mysql в новых проектах.' AS _msg FROM DUAL");
-$row = mysqli_fetch_assoc($result);
-echo $row['_msg'];
+$mysqli = mysqli_connect("example.com", "user", "password", "database");
+$result = mysqli_query($mysqli, "SELECT 'Пожалуйста, не используйте устаревший модуль mysql в новых проектах.' AS _msg FROM DUAL");
+$row = mysqli_fetch_assoc($result);
+echo $row['_msg'];
 
-$mysql = mysql_connect("example.com", "user", "password");
+$mysql = mysql_connect("example.com", "user", "password");
 mysql_select_db("test");
-$result = mysql_query("SELECT 'Используйте вместо него модуль mysqli.' AS _msg FROM DUAL", $mysql);
-$row = mysql_fetch_assoc($result);
-echo $row['_msg'];
+$result = mysql_query("SELECT 'Используйте вместо него модуль mysqli.' AS _msg FROM DUAL", $mysql);
+$row = mysql_fetch_assoc($result);
+echo $row['_msg'];
 ?>
 ```
 
@@ -46,17 +46,17 @@ echo $row['_msg'];
 ```php
 <?php
 
-$mysqli = mysqli_connect("example.com", "user", "password", "database");
+$mysqli = mysqli_connect("example.com", "user", "password", "database");
 
-$result = mysqli_query($mysqli, "SELECT 'Мир, полный ' AS _msg FROM DUAL");
-$row = mysqli_fetch_assoc($result);
-echo $row['_msg'];
+$result = mysqli_query($mysqli, "SELECT 'Мир, полный ' AS _msg FROM DUAL");
+$row = mysqli_fetch_assoc($result);
+echo $row['_msg'];
 
-$mysqli = new mysqli("example.com", "user", "password", "database");
+$mysqli = new mysqli("example.com", "user", "password", "database");
 
-$result = $mysqli->query("SELECT 'выбора, чтобы угодить всем.' AS _msg FROM DUAL");
-$row = $result->fetch_assoc();
-echo $row['_msg'];
+$result = $mysqli->query("SELECT 'выбора, чтобы угодить всем.' AS _msg FROM DUAL");
+$row = $result->fetch_assoc();
+echo $row['_msg'];
 ```
 
 Результат виконання цього прикладу:
@@ -76,12 +76,12 @@ echo $row['_msg'];
 ```php
 <?php
 
-$mysqli = new mysqli("example.com", "user", "password", "database");
+$mysqli = new mysqli("example.com", "user", "password", "database");
 
-$result = mysqli_query($mysqli, "SELECT 'Этот код работает, но лучше так не писать.' AS _msg FROM DUAL");
+$result = mysqli_query($mysqli, "SELECT 'Этот код работает, но лучше так не писать.' AS _msg FROM DUAL");
 
-if ($row = $result->fetch_assoc()) {
-    echo $row['_msg'];
+if ($row = $result->fetch_assoc()) {
+    echo $row['_msg'];
 }
 ```
 

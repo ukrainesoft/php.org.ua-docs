@@ -48,11 +48,11 @@ uopz_copy(string $class, string $function): Closure
 
 ```php
 <?php
-$strtotime = uopz_copy('strtotime');
+$strtotime = uopz_copy('strtotime');
 
-uopz_function("strtotime", function($arg1, $arg2) use($strtotime) {
-    /* зесь можно вызвать оригинальную функцию strtotime */
-    var_dump($arg1);
+uopz_function("strtotime", function($arg1, $arg2) use($strtotime) {
+    /* зесь можно вызвать оригинальную функцию strtotime */
+    var_dump($arg1);
 });
 
 var_dump(strtotime('dummy'));

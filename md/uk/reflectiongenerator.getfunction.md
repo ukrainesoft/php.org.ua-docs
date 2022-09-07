@@ -35,14 +35,14 @@ public ReflectionGenerator::getFunction(): ReflectionFunctionAbstract
 ```php
 <?php
 
-function gen()
+function gen()
 {
-    yield 1;
+    yield 1;
 }
 
-$gen = gen();
+$gen = gen();
 
-$reflectionGen = new ReflectionGenerator($gen);
+$reflectionGen = new ReflectionGenerator($gen);
 
 var_dump($reflectionGen->getFunction());
 ```

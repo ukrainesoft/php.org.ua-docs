@@ -12,11 +12,11 @@ title: Приклади
 
 ```php
 <?php
-$input = "what do ya want for nothing?";
-$hash = mhash(MHASH_MD5, $input);
-echo "Хеш MD5 - " . bin2hex($hash) . "<br />\n";
-$hash = mhash(MHASH_MD5, $input, "Jefe");
-echo "Хеш HMAC - " . bin2hex($hash) . "<br />\n";
+$input = "what do ya want for nothing?";
+$hash = mhash(MHASH_MD5, $input);
+echo "Хеш MD5 - " . bin2hex($hash) . "<br />\n";
+$hash = mhash(MHASH_MD5, $input, "Jefe");
+echo "Хеш HMAC - " . bin2hex($hash) . "<br />\n";
 ?>
 ```
 

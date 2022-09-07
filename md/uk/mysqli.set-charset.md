@@ -53,15 +53,15 @@ mysqli_set_charset(mysqli $mysql, string $charset): bool
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
 
-printf("Начальный набор символов: %s\n", $mysqli->character_set_name());
+printf("Начальный набор символов: %s\n", $mysqli->character_set_name());
 
-/* изменение набора символов на utf8mb4 */
+/* изменение набора символов на utf8mb4 */
 $mysqli->set_charset("utf8mb4");
 
-printf("Текущий набор символов: %s\n", $mysqli->character_set_name());
+printf("Текущий набор символов: %s\n", $mysqli->character_set_name());
 ```
 
 Процедурний стиль
@@ -69,15 +69,15 @@ printf("Текущий набор символов: %s\n", $mysqli->characte
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect('localhost', 'my_user', 'my_password', 'test');
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect('localhost', 'my_user', 'my_password', 'test');
 
-printf("Начальный набор символов: %s\n", mysqli_character_set_name($link));
+printf("Начальный набор символов: %s\n", mysqli_character_set_name($link));
 
-/* изменение набора символов на utf8mb4 */
-mysqli_set_charset($link, "utf8mb4");
+/* изменение набора символов на utf8mb4 */
+mysqli_set_charset($link, "utf8mb4");
 
-printf("Текущий набор символов: %s\n", mysqli_character_set_name($link));
+printf("Текущий набор символов: %s\n", mysqli_character_set_name($link));
 ```
 
 Результат виконання даних прикладів:
@@ -102,4 +102,4 @@ printf("Текущий набор символов: %s\n", mysqli_character_
 -   [mysqlicharactersetname()](mysqli.character-set-name.md) - Повертає поточне кодування, встановлене для з'єднання з БД
 -   [mysqlirealescapestring()](mysqli.real-escape-string.md) - Екранує спеціальні символи у рядку для використання у SQL-вираженні, використовуючи поточний набір символів з'єднання
 -   [Концепції кодувань MySQL](mysqlinfo.concepts.charset.md)
--   [» Список підтримуваних MySQL наборів символів](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)
+-   [» Список підтримуваних MySQL наборів символів](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)

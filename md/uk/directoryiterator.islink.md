@@ -37,21 +37,21 @@ public DirectoryIterator::isLink(): bool
 ```php
 <?php
 /**
- * Данная функция рекурсивно удаляет все файлы, символические ссылки и директории
- * по указанному пути.
- *
- * @param string $path Путь к директории для удаления.
- */
-function removeDir($path) {
-    $dir = new DirectoryIterator($path);
-    foreach ($dir as $fileinfo) {
-        if ($fileinfo->isFile() || $fileinfo->isLink()) {
-            unlink($fileinfo->getPathName());
-        } elseif (!$fileinfo->isDot() && $fileinfo->isDir()) {
-            removeDir($fileinfo->getPathName());
-        }
-    }
-    rmdir($path);
+ * Данная функция рекурсивно удаляет все файлы, символические ссылки и директории
+ * по указанному пути.
+ *
+ * @param string $path Путь к директории для удаления.
+ */
+function removeDir($path) {
+    $dir = new DirectoryIterator($path);
+    foreach ($dir as $fileinfo) {
+        if ($fileinfo->isFile() || $fileinfo->isLink()) {
+            unlink($fileinfo->getPathName());
+        } elseif (!$fileinfo->isDot() && $fileinfo->isDir()) {
+            removeDir($fileinfo->getPathName());
+        }
+    }
+    rmdir($path);
 }
 
 removeDir('foo');

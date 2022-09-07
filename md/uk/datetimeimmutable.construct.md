@@ -68,14 +68,14 @@ date_create_immutable(string $datetime = "now", ?DateTimeZone $timezone = null):
 
 ```php
 <?php
-try {
-    $date = new DateTimeImmutable('2000-01-01');
-} catch (Exception $e) {
-    echo $e->getMessage();
-    exit(1);
+try {
+    $date = new DateTimeImmutable('2000-01-01');
+} catch (Exception $e) {
+    echo $e->getMessage();
+    exit(1);
 }
 
-echo $date->format('Y-m-d');
+echo $date->format('Y-m-d');
 ?>
 ```
 
@@ -83,16 +83,16 @@ echo $date->format('Y-m-d');
 
 ```php
 <?php
-$date = date_create('2000-01-01');
-if (!$date) {
-    $e = date_get_last_errors();
-    foreach ($e['errors'] as $error) {
-        echo "$error\n";
-    }
-    exit(1);
+$date = date_create('2000-01-01');
+if (!$date) {
+    $e = date_get_last_errors();
+    foreach ($e['errors'] as $error) {
+        echo "$error\n";
+    }
+    exit(1);
 }
 
-echo date_format($date, 'Y-m-d');
+echo date_format($date, 'Y-m-d');
 ?>
 ```
 
@@ -106,29 +106,29 @@ echo date_format($date, 'Y-m-d');
 
 ```php
 <?php
-// Указанная дата/время в часовом поясе вашего компьютера.
-$date = new DateTimeImmutable('2000-01-01');
-echo $date->format('Y-m-d H:i:sP') . "\n";
+// Указанная дата/время в часовом поясе вашего компьютера.
+$date = new DateTimeImmutable('2000-01-01');
+echo $date->format('Y-m-d H:i:sP') . "\n";
 
-// Указанная дата/время в указанном часовом поясе.
-$date = new DateTimeImmutable('2000-01-01', new DateTimeZone('Pacific/Nauru'));
-echo $date->format('Y-m-d H:i:sP') . "\n";
+// Указанная дата/время в указанном часовом поясе.
+$date = new DateTimeImmutable('2000-01-01', new DateTimeZone('Pacific/Nauru'));
+echo $date->format('Y-m-d H:i:sP') . "\n";
 
-// Текущая дата/время в часовом поясе вашего компьютера.
-$date = new DateTimeImmutable();
-echo $date->format('Y-m-d H:i:sP') . "\n";
+// Текущая дата/время в часовом поясе вашего компьютера.
+$date = new DateTimeImmutable();
+echo $date->format('Y-m-d H:i:sP') . "\n";
 
-// Текущая дата/время в указанном часовом поясе.
-$date = new DateTimeImmutable(null, new DateTimeZone('Pacific/Nauru'));
-echo $date->format('Y-m-d H:i:sP') . "\n";
+// Текущая дата/время в указанном часовом поясе.
+$date = new DateTimeImmutable(null, new DateTimeZone('Pacific/Nauru'));
+echo $date->format('Y-m-d H:i:sP') . "\n";
 
-// Использование временной метки UNIX. Обратите внимание, что результат в часовом поясе UTC.
-$date = new DateTimeImmutable('@946684800');
-echo $date->format('Y-m-d H:i:sP') . "\n";
+// Использование временной метки UNIX. Обратите внимание, что результат в часовом поясе UTC.
+$date = new DateTimeImmutable('@946684800');
+echo $date->format('Y-m-d H:i:sP') . "\n";
 
-// Несуществующие значения переворачиваются.
-$date = new DateTimeImmutable('2000-02-30');
-echo $date->format('Y-m-d H:i:sP') . "\n";
+// Несуществующие значения переворачиваются.
+$date = new DateTimeImmutable('2000-02-30');
+echo $date->format('Y-m-d H:i:sP') . "\n";
 ?>
 ```
 
@@ -147,12 +147,12 @@ echo $date->format('Y-m-d H:i:sP') . "\n";
 
 ```php
 <?php
-$timeZone = new \DateTimeZone('Asia/Tokyo');
+$timeZone = new \DateTimeZone('Asia/Tokyo');
 
-$time = new \DateTimeImmutable();
-$time = $time->setTimezone($timeZone);
+$time = new \DateTimeImmutable();
+$time = $time->setTimezone($timeZone);
 
-echo $time->format('Y/m/d H:i:s'), "\n";
+echo $time->format('Y/m/d H:i:s'), "\n";
 ?>
 ```
 
@@ -166,9 +166,9 @@ echo $time->format('Y/m/d H:i:s'), "\n";
 
 ```php
 <?php
-$time = new \DateTimeImmutable("-1 year");
+$time = new \DateTimeImmutable("-1 year");
 
-echo $time->format('Y/m/d H:i:s'), "\n";
+echo $time->format('Y/m/d H:i:s'), "\n";
 ?>
 ```
 

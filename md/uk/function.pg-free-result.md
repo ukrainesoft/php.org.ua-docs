@@ -48,13 +48,13 @@ pg_free_result(PgSql\Result $result): bool
 
 ```php
 <?php
-$db = pg_connect("dbname=users user=me") || die();
+$db = pg_connect("dbname=users user=me") || die();
 
-$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");
+$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");
 
-$val = pg_fetch_result($res, 1, 0);
+$val = pg_fetch_result($res, 1, 0);
 
-echo "Первое поле во второй строчке: ", $val, "\n";
+echo "Первое поле во второй строчке: ", $val, "\n";
 
 pg_free_result($res);
 ?>

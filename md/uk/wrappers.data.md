@@ -12,7 +12,7 @@ data:// - Схема Data (RFC 2397)
 
 ### Опис
 
-data: ([» RFC 2397](http://www.faqs.org/rfcs/rfc2397)) - це обгортка потоків.
+data: ([» RFC 2397](http://www.faqs.org/rfcs/rfc2397)) - це обгортка потоків.
 
 ### Використання
 
@@ -42,8 +42,8 @@ data: ([» RFC 2397](http://www.faqs.org/rfcs/rfc2397)) - це обгортка
 
 ```php
 <?php
-// выводит "I love PHP"
-echo file_get_contents('data://text/plain;base64,SSBsb3ZlIFBIUAo=');
+// выводит "I love PHP"
+echo file_get_contents('data://text/plain;base64,SSBsb3ZlIFBIUAo=');
 ?>
 ```
 
@@ -51,10 +51,10 @@ echo file_get_contents('data://text/plain;base64,SSBsb3ZlIFBIUAo=');
 
 ```php
 <?php
-$fp   = fopen('data://text/plain;base64,', 'r');
-$meta = stream_get_meta_data($fp);
+$fp   = fopen('data://text/plain;base64,', 'r');
+$meta = stream_get_meta_data($fp);
 
-// выводит "text/plain"
-echo $meta['mediatype'];
+// выводит "text/plain"
+echo $meta['mediatype'];
 ?>
 ```

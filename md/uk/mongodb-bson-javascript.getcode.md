@@ -37,7 +37,7 @@ final public MongoDB\BSON\Javascript::getCode(): string
 ```php
 <?php
 
-$js = new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');
+$js = new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');
 var_dump($js->getCode());
 
 ?>
@@ -51,4 +51,4 @@ string(33) "function foo(bar) { return bar; }"
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

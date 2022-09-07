@@ -28,12 +28,12 @@ private **mysqlxdevapiRowResult::construct**
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
-$row = $table->select('name', 'age')->where('age > 18')->execute()->fetchAll();
+$row = $table->select('name', 'age')->where('age > 18')->execute()->fetchAll();
 
 print_r($row);
 ```

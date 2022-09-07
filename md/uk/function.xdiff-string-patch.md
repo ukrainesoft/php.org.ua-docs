@@ -15,7 +15,7 @@ xdiffstringpatch — Застосувати звичайний патч до р�
 ### Опис
 
 ```methodsynopsis
-xdiff_string_patch(    string $str,    string $patch,    int $flags = ?,    string &$error = ?): string
+xdiff_string_patch(    string $str,    string $patch,    int $flags = ?,    string &$error = ?): string
 ```
 
 Застосовує до рядка `str` звичайний патч `patch` та повертає результат . `patch` має бути звичайним патчем, створеним за допомогою функцій [xdifffilediff()](function.xdiff-file-diff.md) або [xdiffstringdiff()](function.xdiff-string-diff.md). Опціональний параметр `flags` задає режим операції. Усі відкинуті частини патчу будуть записані у змінну `error`
@@ -52,20 +52,20 @@ xdiff_string_patch(    string $str,    string $patch,    int $flags 
 
 ```php
 <?php
-$old_article = file_get_contents('./old_article.txt');
-$diff = $_SERVER['patch']; /* Допустим кто-то отправил патч через html-форму */
+$old_article = file_get_contents('./old_article.txt');
+$diff = $_SERVER['patch']; /* Допустим кто-то отправил патч через html-форму */
 
-$errors = '';
+$errors = '';
 
-$new_article = xdiff_string_patch($old_article, $diff, XDIFF_PATCH_NORMAL, $errors);
-if (is_string($new_article)) {
-    echo "Новая статья:\n";
-    echo $new_article;
+$new_article = xdiff_string_patch($old_article, $diff, XDIFF_PATCH_NORMAL, $errors);
+if (is_string($new_article)) {
+    echo "Новая статья:\n";
+    echo $new_article;
 }
 
-if (strlen($errors)) {
-    echo "Отклонены: \n";
-    echo $errors;
+if (strlen($errors)) {
+    echo "Отклонены: \n";
+    echo $errors;
 }
 
 ?>

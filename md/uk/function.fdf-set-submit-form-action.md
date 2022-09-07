@@ -15,7 +15,7 @@ fdfsetsubmitformaction — Встановлює дію форми надсила
 ### Опис
 
 ```methodsynopsis
-fdf_set_submit_form_action(    resource $fdf_document,    string $fieldname,    int $trigger,    string $script,    int $flags): bool
+fdf_set_submit_form_action(    resource $fdf_document,    string $fieldname,    int $trigger,    string $script,    int $flags): bool
 ```
 
 Встановлює дію форми надсилання для заданого поля.

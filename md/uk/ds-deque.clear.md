@@ -34,7 +34,7 @@ public Ds\Deque::clear(): void
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 print_r($deque);
 
 $deque->clear();

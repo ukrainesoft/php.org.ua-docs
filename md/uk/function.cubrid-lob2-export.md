@@ -40,23 +40,23 @@ cubrid_lob2_export(resource $lob_identifier, string $file_name): bool
 
 ```php
 <?php
-// Таблица: test_lob (id INT, contents CLOB)
+// Таблица: test_lob (id INT, contents CLOB)
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
 
-cubrid_execute($conn,"DROP TABLE if exists doc");
-cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");
-cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");
+cubrid_execute($conn,"DROP TABLE if exists doc");
+cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");
+cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");
 
-$req = cubrid_prepare($conn, "select * from doc");
+$req = cubrid_prepare($conn, "select * from doc");
 
 cubrid_execute($req);
 
-cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
 
-$row = cubrid_fetch($req, CUBRID_NUM | CUBRID_LOB);
+$row = cubrid_fetch($req, CUBRID_NUM | CUBRID_LOB);
 
-cubrid_lob2_export($row[1], "doc_3.txt");
+cubrid_lob2_export($row[1], "doc_3.txt");
 
 cubrid_lob2_close($row[1]);
 cubrid_disconnect($conn);

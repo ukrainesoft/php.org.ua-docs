@@ -15,7 +15,7 @@ yamlparsefile — Розбирає поток YAML з файлу
 ### Опис
 
 ```methodsynopsis
-yaml_parse_file(    string $filename,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
+yaml_parse_file(    string $filename,    int $pos = 0,    int &$ndocs = ?,    array $callbacks = null): mixed
 ```
 
 Конвертує повністю або частково потік YAML-документів, які читаються з файлу, в змінну PHP.

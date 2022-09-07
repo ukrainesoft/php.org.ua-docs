@@ -58,16 +58,16 @@ public PDO::prepare(string $query, array $options = []): PDOStatement|false
 
 ```php
 <?php
-/* Выполнение запроса с передачей ему Масива параметров */
-$sql = 'SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < :calories AND colour = :colour';
-$sth = $dbh->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
-$sth->execute(array('calories' => 150, 'colour' => 'red'));
-$red = $sth->fetchAll();
-/* Ключи Масива также могут начинаться с двоеточия ":" (необязательно) */
-$sth->execute(array(':calories' => 175, ':colour' => 'yellow'));
-$yellow = $sth->fetchAll();
+/* Выполнение запроса с передачей ему Масива параметров */
+$sql = 'SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < :calories AND colour = :colour';
+$sth = $dbh->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+$sth->execute(array('calories' => 150, 'colour' => 'red'));
+$red = $sth->fetchAll();
+/* Ключи Масива также могут начинаться с двоеточия ":" (необязательно) */
+$sth->execute(array(':calories' => 175, ':colour' => 'yellow'));
+$yellow = $sth->fetchAll();
 ?>
 ```
 
@@ -75,14 +75,14 @@ $yellow = $sth->fetchAll();
 
 ```php
 <?php
-/* Выполнение запроса с передачей ему Масива параметров */
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < ? AND colour = ?');
-$sth->execute(array(150, 'red'));
-$red = $sth->fetchAll();
-$sth->execute(array(175, 'yellow'));
-$yellow = $sth->fetchAll();
+/* Выполнение запроса с передачей ему Масива параметров */
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < ? AND colour = ?');
+$sth->execute(array(150, 'red'));
+$red = $sth->fetchAll();
+$sth->execute(array(175, 'yellow'));
+$yellow = $sth->fetchAll();
 ?>
 ```
 
@@ -90,12 +90,12 @@ $yellow = $sth->fetchAll();
 
 ```php
 <?php
-/* замечание: работает только с базами данных PostgreSQL */
-$sth = $dbh->prepare('SELECT * FROM issues WHERE tag::jsonb ?? ?');
+/* замечание: работает только с базами данных PostgreSQL */
+$sth = $dbh->prepare('SELECT * FROM issues WHERE tag::jsonb ?? ?');
 $sth->execute(['feature']);
-$featureIssues = $sth->fetchAll();
+$featureIssues = $sth->fetchAll();
 $sth->execute(['performance']);
-$performanceIssues = $sth->fetchAll();
+$performanceIssues = $sth->fetchAll();
 ?>
 ```
 

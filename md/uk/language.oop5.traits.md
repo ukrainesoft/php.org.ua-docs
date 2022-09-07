@@ -18,19 +18,19 @@ PHP реалізує метод повторного використання к
 
 ```php
 <?php
-trait ezcReflectionReturnInfo {
-    function getReturnType() { /*1*/ }
-    function getReturnDescription() { /*2*/ }
+trait ezcReflectionReturnInfo {
+    function getReturnType() { /*1*/ }
+    function getReturnDescription() { /*2*/ }
 }
 
-class ezcReflectionMethod extends ReflectionMethod {
-    use ezcReflectionReturnInfo;
-    /* ... */
+class ezcReflectionMethod extends ReflectionMethod {
+    use ezcReflectionReturnInfo;
+    /* ... */
 }
 
-class ezcReflectionFunction extends ReflectionFunction {
-    use ezcReflectionReturnInfo;
-    /* ... */
+class ezcReflectionFunction extends ReflectionFunction {
+    use ezcReflectionReturnInfo;
+    /* ... */
 }
 ?>
 ```
@@ -45,24 +45,24 @@ class ezcReflectionFunction extends ReflectionFunction {
 
 ```php
 <?php
-class Base {
-    public function sayHello() {
-        echo 'Hello ';
-    }
+class Base {
+    public function sayHello() {
+        echo 'Hello ';
+    }
 }
 
-trait SayWorld {
-    public function sayHello() {
-        parent::sayHello();
-        echo 'World!';
-    }
+trait SayWorld {
+    public function sayHello() {
+        parent::sayHello();
+        echo 'World!';
+    }
 }
 
-class MyHelloWorld extends Base {
-    use SayWorld;
+class MyHelloWorld extends Base {
+    use SayWorld;
 }
 
-$o = new MyHelloWorld();
+$o = new MyHelloWorld();
 $o->sayHello();
 ?>
 ```
@@ -77,20 +77,20 @@ Hello World!
 
 ```php
 <?php
-trait HelloWorld {
-    public function sayHello() {
-        echo 'Hello World!';
-    }
+trait HelloWorld {
+    public function sayHello() {
+        echo 'Hello World!';
+    }
 }
 
-class TheWorldIsNotEnough {
-    use HelloWorld;
-    public function sayHello() {
-        echo 'Hello Universe!';
-    }
+class TheWorldIsNotEnough {
+    use HelloWorld;
+    public function sayHello() {
+        echo 'Hello Universe!';
+    }
 }
 
-$o = new TheWorldIsNotEnough();
+$o = new TheWorldIsNotEnough();
 $o->sayHello();
 ?>
 ```
@@ -109,26 +109,26 @@ Hello Universe!
 
 ```php
 <?php
-trait Hello {
-    public function sayHello() {
-        echo 'Hello ';
-    }
+trait Hello {
+    public function sayHello() {
+        echo 'Hello ';
+    }
 }
 
-trait World {
-    public function sayWorld() {
-        echo 'World';
-    }
+trait World {
+    public function sayWorld() {
+        echo 'World';
+    }
 }
 
-class MyHelloWorld {
-    use Hello, World;
-    public function sayExclamationMark() {
-        echo '!';
-    }
+class MyHelloWorld {
+    use Hello, World;
+    public function sayExclamationMark() {
+        echo '!';
+    }
 }
 
-$o = new MyHelloWorld();
+$o = new MyHelloWorld();
 $o->sayHello();
 $o->sayWorld();
 $o->sayExclamationMark();
@@ -157,37 +157,37 @@ Hello World!
 
 ```php
 <?php
-trait A {
-    public function smallTalk() {
-        echo 'a';
-    }
-    public function bigTalk() {
-        echo 'A';
-    }
+trait A {
+    public function smallTalk() {
+        echo 'a';
+    }
+    public function bigTalk() {
+        echo 'A';
+    }
 }
 
-trait B {
-    public function smallTalk() {
-        echo 'b';
-    }
-    public function bigTalk() {
-        echo 'B';
-    }
+trait B {
+    public function smallTalk() {
+        echo 'b';
+    }
+    public function bigTalk() {
+        echo 'B';
+    }
 }
 
-class Talker {
-    use A, B {
-        B::smallTalk insteadof A;
-        A::bigTalk insteadof B;
-    }
+class Talker {
+    use A, B {
+        B::smallTalk insteadof A;
+        A::bigTalk insteadof B;
+    }
 }
 
-class Aliased_Talker {
-    use A, B {
-        B::smallTalk insteadof A;
-        A::bigTalk insteadof B;
-        B::bigTalk as talk;
-    }
+class Aliased_Talker {
+    use A, B {
+        B::smallTalk insteadof A;
+        A::bigTalk insteadof B;
+        B::bigTalk as talk;
+    }
 }
 ?>
 ```
@@ -200,21 +200,21 @@ class Aliased_Talker {
 
 ```php
 <?php
-trait HelloWorld {
-    public function sayHello() {
-        echo 'Hello World!';
-    }
+trait HelloWorld {
+    public function sayHello() {
+        echo 'Hello World!';
+    }
 }
 
-// Изменение видимости метода sayHello
-class MyClass1 {
-    use HelloWorld { sayHello as protected; }
+// Изменение видимости метода sayHello
+class MyClass1 {
+    use HelloWorld { sayHello as protected; }
 }
 
-// Создание псевдонима метода с изменённой видимостью
-// видимость sayHello не изменилась
-class MyClass2 {
-    use HelloWorld { sayHello as private myPrivateHello; }
+// Создание псевдонима метода с изменённой видимостью
+// видимость sayHello не изменилась
+class MyClass2 {
+    use HelloWorld { sayHello as private myPrivateHello; }
 }
 ?>
 ```
@@ -227,27 +227,27 @@ class MyClass2 {
 
 ```php
 <?php
-trait Hello {
-    public function sayHello() {
-        echo 'Hello ';
-    }
+trait Hello {
+    public function sayHello() {
+        echo 'Hello ';
+    }
 }
 
-trait World {
-    public function sayWorld() {
-        echo 'World!';
-    }
+trait World {
+    public function sayWorld() {
+        echo 'World!';
+    }
 }
 
-trait HelloWorld {
-    use Hello, World;
+trait HelloWorld {
+    use Hello, World;
 }
 
-class MyHelloWorld {
-    use HelloWorld;
+class MyHelloWorld {
+    use HelloWorld;
 }
 
-$o = new MyHelloWorld();
+$o = new MyHelloWorld();
 $o->sayHello();
 $o->sayWorld();
 ?>
@@ -271,22 +271,22 @@ Hello World!
 
 ```php
 <?php
-trait Hello {
-    public function sayHelloWorld() {
-        echo 'Hello'.$this->getWorld();
-    }
-    abstract public function getWorld();
+trait Hello {
+    public function sayHelloWorld() {
+        echo 'Hello'.$this->getWorld();
+    }
+    abstract public function getWorld();
 }
 
-class MyHelloWorld {
-    private $world;
-    use Hello;
-    public function getWorld() {
-        return $this->world;
-    }
-    public function setWorld($val) {
-        $this->world = $val;
-    }
+class MyHelloWorld {
+    private $world;
+    use Hello;
+    public function getWorld() {
+        return $this->world;
+    }
+    public function setWorld($val) {
+        $this->world = $val;
+    }
 }
 ?>
 ```
@@ -303,24 +303,24 @@ class MyHelloWorld {
 
 ```php
 <?php
-trait Counter {
-    public function inc() {
-        static $c = 0;
-        $c = $c + 1;
-        echo "$c\n";
-    }
+trait Counter {
+    public function inc() {
+        static $c = 0;
+        $c = $c + 1;
+        echo "$c\n";
+    }
 }
 
-class C1 {
-    use Counter;
+class C1 {
+    use Counter;
 }
 
-class C2 {
-    use Counter;
+class C2 {
+    use Counter;
 }
 
-$o = new C1(); $o->inc(); // echo 1
-$p = new C2(); $p->inc(); // echo 1
+$o = new C1(); $o->inc(); // echo 1
+$p = new C2(); $p->inc(); // echo 1
 ?>
 ```
 
@@ -328,14 +328,14 @@ $p = new C2(); $p->inc(); // echo 1
 
 ```php
 <?php
-trait StaticExample {
-    public static function doSomething() {
-        return 'Что-либо делаем';
-    }
+trait StaticExample {
+    public static function doSomething() {
+        return 'Что-либо делаем';
+    }
 }
 
-class Example {
-    use StaticExample;
+class Example {
+    use StaticExample;
 }
 
 Example::doSomething();
@@ -346,13 +346,13 @@ Example::doSomething();
 
 ```php
 <?php
-trait StaticExample {
-    public static $static = 'foo';
+trait StaticExample {
+    public static $static = 'foo';
 }
-class Example {
-    use StaticExample;
+class Example {
+    use StaticExample;
 }
-echo Example::$static;
+echo Example::$static;
 ?>
 ```
 
@@ -364,15 +364,15 @@ echo Example::$static;
 
 ```php
 <?php
-trait PropertiesTrait {
-    public $x = 1;
+trait PropertiesTrait {
+    public $x = 1;
 }
 
-class PropertiesExample {
-    use PropertiesTrait;
+class PropertiesExample {
+    use PropertiesTrait;
 }
 
-$example = new PropertiesExample;
+$example = new PropertiesExample;
 $example->x;
 ?>
 ```
@@ -383,15 +383,15 @@ $example->x;
 
 ```php
 <?php
-trait PropertiesTrait {
-    public $same = true;
-    public $different = false;
+trait PropertiesTrait {
+    public $same = true;
+    public $different = false;
 }
 
-class PropertiesExample {
-    use PropertiesTrait;
-    public $same = true;
-    public $different = true; // Фатальная ошибка
+class PropertiesExample {
+    use PropertiesTrait;
+    public $same = true;
+    public $different = true; // Фатальная ошибка
 }
 ?>
 ```

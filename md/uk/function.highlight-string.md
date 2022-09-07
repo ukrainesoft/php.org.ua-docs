@@ -40,7 +40,7 @@ PHP-код, що підсвічується. Повинен включати т�
 
 ```php
 <?php
-highlight_string('<?php phpinfo(); ?>');
+highlight_string('<?php phpinfo(); ?>');
 ?>
 ```
 

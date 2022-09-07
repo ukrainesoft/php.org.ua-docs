@@ -15,7 +15,7 @@ sqlsrvfetchobject — Отримує наступний рядок даних у
 ### Опис
 
 ```methodsynopsis
-sqlsrv_fetch_object(    resource $stmt,    string $className = ?,    array $ctorParams = ?,    int $row = ?,    int $offset = ?): mixed
+sqlsrv_fetch_object(    resource $stmt,    string $className = ?,    array $ctorParams = ?,    int $row = ?,    int $offset = ?): mixed
 ```
 
 Витягує наступний рядок даних у наборі результатів як екземпляр зазначеного класу з властивостями, що відповідають іменам полів рядка та значенням, що відповідають значенням полів рядка.
@@ -61,24 +61,24 @@ sqlsrv_fetch_object(    resource $stmt,    string $className = ?,   �
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "SELECT fName, lName FROM Table_1";
-$stmt = sqlsrv_query( $conn, $sql);
-if( $stmt === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$sql = "SELECT fName, lName FROM Table_1";
+$stmt = sqlsrv_query( $conn, $sql);
+if( $stmt === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-// Получение каждой строки как объект.
-// Поскольку класс не указан, каждая строка будет получена как объект stdClass.
-// Имена свойств соответствуют именам полей.
-while( $obj = sqlsrv_fetch_object( $stmt)) {
-      echo $obj->fName.", ".$obj->lName."<br />";
+// Получение каждой строки как объект.
+// Поскольку класс не указан, каждая строка будет получена как объект stdClass.
+// Имена свойств соответствуют именам полей.
+while( $obj = sqlsrv_fetch_object( $stmt)) {
+      echo $obj->fName.", ".$obj->lName."<br />";
 }
 ?>
 ```

@@ -48,7 +48,7 @@ locale_get_region(string $locale): ?string
 
 ```php
 <?php
-echo locale_get_region('de-CH-1901');
+echo locale_get_region('de-CH-1901');
 ?>
 ```
 
@@ -56,7 +56,7 @@ echo locale_get_region('de-CH-1901');
 
 ```php
 <?php
-echo Locale::getRegion('de-CH-1901');
+echo Locale::getRegion('de-CH-1901');
 ?>
 ```
 

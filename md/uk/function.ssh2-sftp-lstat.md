@@ -42,18 +42,18 @@ ssh2_sftp_lstat(resource $sftp, string $path): array
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
 
-$sftp = ssh2_sftp($connection);
-$statinfo = ssh2_sftp_lstat($sftp, '/path/to/symlink');
+$sftp = ssh2_sftp($connection);
+$statinfo = ssh2_sftp_lstat($sftp, '/path/to/symlink');
 
-$filesize = $statinfo['size'];
-$group = $statinfo['gid'];
-$owner = $statinfo['uid'];
-$atime = $statinfo['atime'];
-$mtime = $statinfo['mtime'];
-$mode = $statinfo['mode'];
+$filesize = $statinfo['size'];
+$group = $statinfo['gid'];
+$owner = $statinfo['uid'];
+$atime = $statinfo['atime'];
+$mtime = $statinfo['mtime'];
+$mode = $statinfo['mode'];
 ?>
 ```
 

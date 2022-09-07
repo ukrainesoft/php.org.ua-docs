@@ -67,12 +67,12 @@ ldap_connect(?string $uri = null, int $port = 389): LDAP\Connection|false
 ```php
 <?php
 
-// LDAP переменные
-$ldapuri = "ldap://ldap.example.com:389";  // ldap-uri
+// LDAP переменные
+$ldapuri = "ldap://ldap.example.com:389";  // ldap-uri
 
-// Соединение с LDAP
-$ldapconn = ldap_connect($ldapuri)
-          or die("LDAP-URI некорректен");
+// Соединение с LDAP
+$ldapconn = ldap_connect($ldapuri)
+          or die("LDAP-URI некорректен");
 
 ?>
 ```
@@ -82,13 +82,13 @@ $ldapconn = ldap_connect($ldapuri)
 ```php
 <?php
 
-// Убедитесь, что ваш хост корректный и
-// что вы выдали ему сертификат безопасности
-$ldaphost = "ldaps://ldap.example.com/";
+// Убедитесь, что ваш хост корректный и
+// что вы выдали ему сертификат безопасности
+$ldaphost = "ldaps://ldap.example.com/";
 
-// Соединение с LDAP
-$ldapconn = ldap_connect($ldaphost)
-          or die("LDAP-URI некорректен");
+// Соединение с LDAP
+$ldapconn = ldap_connect($ldaphost)
+          or die("LDAP-URI некорректен");
 
 ?>
 ```

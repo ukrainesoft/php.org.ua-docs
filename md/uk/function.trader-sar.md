@@ -15,7 +15,7 @@ tradersar - Параболічний SAR
 ### Опис
 
 ```methodsynopsis
-trader_sar(    array $high,    array $low,    float $acceleration = ?,    float $maximum = ?): array
+trader_sar(    array $high,    array $low,    float $acceleration = ?,    float $maximum = ?): array
 ```
 
 ### Список параметрів

@@ -34,9 +34,9 @@ zend_thread_id(): int
 
 ```php
 <?php
-$thread_id = zend_thread_id();
+$thread_id = zend_thread_id();
 
-echo 'Идентификатор текущего потока выполнения: ' . $thread_id;
+echo 'Идентификатор текущего потока выполнения: ' . $thread_id;
 ?>
 ```
 

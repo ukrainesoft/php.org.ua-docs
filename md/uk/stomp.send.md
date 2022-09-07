@@ -25,7 +25,7 @@ public Stomp::send(string $destination, mixed $msg, array $headers = ?): bool
 Процедурний стиль:
 
 ```methodsynopsis
-stomp_send(    resource $link,    string $destination,    mixed $msg,    array $headers = ?): bool
+stomp_send(    resource $link,    string $destination,    mixed $msg,    array $headers = ?): bool
 ```
 
 Надсилає повідомлення брокеру повідомлень (Message Broker).

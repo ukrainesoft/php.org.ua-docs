@@ -15,7 +15,7 @@ imagefilltoborder - Заливка кольором
 ### Опис
 
 ```methodsynopsis
-imagefilltoborder(    GdImage $image,    int $x,    int $y,    int $border_color,    int $color): bool
+imagefilltoborder(    GdImage $image,    int $x,    int $y,    int $border_color,    int $color): bool
 ```
 
 **imagefilltoborder()** робить заливку області, обмеженою кольором `border_color`. Початкова координата `x` `y` (лівий верхній кут має координати 0, 0), а область зафарбовується кольором `color`
@@ -58,22 +58,22 @@ y-координата початку.
 
 ```php
 <?php
-// создание изображения, установка белого фона
-$im = imagecreatetruecolor(100, 100);
-imagefilledrectangle($im, 0, 0, 100, 100, imagecolorallocate($im, 255, 255, 255));
+// создание изображения, установка белого фона
+$im = imagecreatetruecolor(100, 100);
+imagefilledrectangle($im, 0, 0, 100, 100, imagecolorallocate($im, 255, 255, 255));
 
-// рисование эллипса закрашенного черным цветом
-imageellipse($im, 50, 50, 50, 50, imagecolorallocate($im, 0, 0, 0));
+// рисование эллипса закрашенного черным цветом
+imageellipse($im, 50, 50, 50, 50, imagecolorallocate($im, 0, 0, 0));
 
-// установка цвета границы заливки
-$border = imagecolorallocate($im, 0, 0, 0);
-$fill = imagecolorallocate($im, 255, 0, 0);
+// установка цвета границы заливки
+$border = imagecolorallocate($im, 0, 0, 0);
+$fill = imagecolorallocate($im, 255, 0, 0);
 
-// заливка области
-imagefilltoborder($im, 50, 50, $border, $fill);
+// заливка области
+imagefilltoborder($im, 50, 50, $border, $fill);
 
-// вывод и освобождение памяти
-header('Content-type: image/png');
+// вывод и освобождение памяти
+header('Content-type: image/png');
 imagepng($im);
 imagedestroy($im);
 ?>

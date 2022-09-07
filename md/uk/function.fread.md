@@ -45,10 +45,10 @@ fread(resource $stream, int $length): string|false
 
 ```php
 <?php
-// получает содержимое файла в строку
-$filename = "/usr/local/something.txt";
-$handle = fopen($filename, "r");
-$contents = fread($handle, filesize($filename));
+// получает содержимое файла в строку
+$filename = "/usr/local/something.txt";
+$handle = fopen($filename, "r");
+$contents = fread($handle, filesize($filename));
 fclose($handle);
 ?>
 ```
@@ -61,9 +61,9 @@ fclose($handle);
 
 ```php
 <?php
-$filename = "c:\\files\\somepic.gif";
-$handle = fopen($filename, "rb");
-$contents = fread($handle, filesize($filename));
+$filename = "c:\\files\\somepic.gif";
+$handle = fopen($filename, "rb");
+$contents = fread($handle, filesize($filename));
 fclose($handle);
 ?>
 ```
@@ -76,23 +76,23 @@ fclose($handle);
 
 ```php
 <?php
-$handle = fopen("http://www.example.com/", "rb");
-$contents = stream_get_contents($handle);
+$handle = fopen("http://www.example.com/", "rb");
+$contents = stream_get_contents($handle);
 fclose($handle);
 ?>
 ```
 
 ```php
 <?php
-$handle = fopen("http://www.example.com/", "rb");
-if (FALSE === $handle) {
-    exit("Не удалось открыть поток по url адресу");
+$handle = fopen("http://www.example.com/", "rb");
+if (FALSE === $handle) {
+    exit("Не удалось открыть поток по url адресу");
 }
 
-$contents = '';
+$contents = '';
 
-while (!feof($handle)) {
-    $contents .= fread($handle, 8192);
+while (!feof($handle)) {
+    $contents .= fread($handle, 8192);
 }
 fclose($handle);
 ?>

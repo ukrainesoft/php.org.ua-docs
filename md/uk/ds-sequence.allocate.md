@@ -40,7 +40,7 @@ abstract public Ds\Sequence::allocate(int $capacity): void
 
 ```php
 <?php
-$sequence = new \Ds\Vector();
+$sequence = new \Ds\Vector();
 var_dump($sequence->capacity());
 
 $vector->allocate(100);

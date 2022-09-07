@@ -44,13 +44,13 @@ public static ReflectionClass::export(mixed $argument, bool $return = false): st
 
 ```php
 <?php
-class Apple {
-    public $var1;
-    public $var2 = 'Orange';
+class Apple {
+    public $var1;
+    public $var2 = 'Orange';
 
-    public function type() {
-        return 'Apple';
-    }
+    public function type() {
+        return 'Apple';
+    }
 }
 ReflectionClass::export('Apple');
 ?>

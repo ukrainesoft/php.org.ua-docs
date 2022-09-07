@@ -15,7 +15,7 @@ exifreaddata — Читає заголовки EXIF ​​із файлів зо
 ### Опис
 
 ```methodsynopsis
-exif_read_data(    resource|string $file,    ?string $required_sections = null,    bool $as_arrays = false,    bool $read_thumbnail = false): array|false
+exif_read_data(    resource|string $file,    ?string $required_sections = null,    bool $as_arrays = false,    bool $read_thumbnail = false): array|false
 ```
 
 **exifreaddata()** читає заголовки EXIF ​​із файлів зображень. Таким чином, можна читати метадані, що генеруються цифровими фотоапаратами.
@@ -28,7 +28,7 @@ exif_read_data(    resource|string $file,    ?string $required_sections 
 
 Тег `UserComment` має ті ж проблеми, що й Copyright. Він може зберігати 2 значення. Перше - використане кодування, друге - саме значення. У цьому випадку розділ `IFD` містить або кодування, або масив байт. Розділ `COMPUTED` буде зберігати обидва ці значення в полях `UserCommentEncoding` і `UserComment`. Вміст `UserComment` буде доступно в будь-якому випадку, тому краще використовувати його замість розділу `IFD0`
 
-Також **exifreaddata()** перевіряє EXIF ​​теги на відповідність специфікації EXIF ​​([» http://exif.org/Exif2-2.PDF](http://exif.org/Exif2-2.PDF), Стор. 20).
+Також **exifreaddata()** перевіряє EXIF ​​теги на відповідність специфікації EXIF ​​([» http://exif.org/Exif2-2.PDF](http://exif.org/Exif2-2.PDF), Стор. 20).
 
 ### Список параметрів
 
@@ -86,16 +86,16 @@ exif_read_data(    resource|string $file,    ?string $required_sections 
 
 ```php
 <?php
-echo "test1.jpg:<br />\n";
-$exif = exif_read_data('tests/test1.jpg', 'IFD0');
-echo $exif===false ? "Не найдено данных заголовка.<br />\n" : "Изображение содержит заголовки<br />\n";
+echo "test1.jpg:<br />\n";
+$exif = exif_read_data('tests/test1.jpg', 'IFD0');
+echo $exif===false ? "Не найдено данных заголовка.<br />\n" : "Изображение содержит заголовки<br />\n";
 
-$exif = exif_read_data('tests/test2.jpg', 0, true);
-echo "test2.jpg:<br />\n";
-foreach ($exif as $key => $section) {
-    foreach ($section as $name => $val) {
-        echo "$key.$name: $val<br />\n";
-    }
+$exif = exif_read_data('tests/test2.jpg', 0, true);
+echo "test2.jpg:<br />\n";
+foreach ($exif as $key => $section) {
+    foreach ($section as $name => $val) {
+        echo "$key.$name: $val<br />\n";
+    }
 }
 ?>
 ```
@@ -139,27 +139,27 @@ THUMBNAIL.Thumbnail.Height: 1
 
 ```php
 <?php
-// Открываем файл в бинарном режиме
-$fp = fopen('/path/to/image.jpg', 'rb');
+// Открываем файл в бинарном режиме
+$fp = fopen('/path/to/image.jpg', 'rb');
 
-if (!$fp) {
-    echo 'Ошибка: Невозможно открыть файл для чтения';
-    exit;
+if (!$fp) {
+    echo 'Ошибка: Невозможно открыть файл для чтения';
+    exit;
 }
 
-// Попытка прочитать заголовки exif
-$headers = exif_read_data($fp);
+// Попытка прочитать заголовки exif
+$headers = exif_read_data($fp);
 
-if (!$headers) {
-    echo 'Ошибка: невозможно прочитать заголовки exif';
-    exit;
+if (!$headers) {
+    echo 'Ошибка: невозможно прочитать заголовки exif';
+    exit;
 }
 
-// Напечатать заголовки 'COMPUTED'
-echo 'Заголовки EXIF:' . PHP_EOL;
+// Напечатать заголовки 'COMPUTED'
+echo 'Заголовки EXIF:' . PHP_EOL;
 
-foreach ($headers['COMPUTED'] as $header => $value) {
-    printf(' %s => %s%s', $header, $value, PHP_EOL);
+foreach ($headers['COMPUTED'] as $header => $value) {
+    printf(' %s => %s%s', $header, $value, PHP_EOL);
 }
 ?>
 ```

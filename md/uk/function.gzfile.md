@@ -40,9 +40,9 @@ gzfile(string $filename, int $use_include_path = 0): array|false
 
 ```php
 <?php
-$lines = gzfile('somefile.gz');
-foreach ($lines as $line) {
-    echo $line;
+$lines = gzfile('somefile.gz');
+foreach ($lines as $line) {
+    echo $line;
 }
 ?>
 ```

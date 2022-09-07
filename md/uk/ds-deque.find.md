@@ -40,12 +40,12 @@ public Ds\Deque::find(mixed $value): mixed
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", 1, true]);
+$deque = new \Ds\Deque(["a", 1, true]);
 
-var_dump($deque->find("a")); // 0
-var_dump($deque->find("b")); // false
-var_dump($deque->find("1")); // false
-var_dump($deque->find(1));   // 1
+var_dump($deque->find("a")); // 0
+var_dump($deque->find("b")); // false
+var_dump($deque->find("1")); // false
+var_dump($deque->find(1));   // 1
 ?>
 ```
 

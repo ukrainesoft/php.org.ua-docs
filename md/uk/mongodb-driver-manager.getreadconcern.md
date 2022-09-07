@@ -39,10 +39,10 @@ final public MongoDB\Driver\Manager::getReadConcern(): MongoDB\Driver\ReadConcer
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
 var_dump($manager->getReadConcern());
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017/?readConcernLevel=local');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017/?readConcernLevel=local');
 var_dump($manager->getReadConcern());
 
 ?>

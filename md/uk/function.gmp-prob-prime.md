@@ -44,14 +44,14 @@ gmp_prob_prime(GMP|int|string $num, int $repetitions = 10): int
 
 ```php
 <?php
-// по определению не является простым
-echo gmp_prob_prime("6") . "\n";
+// по определению не является простым
+echo gmp_prob_prime("6") . "\n";
 
-// возможно простое
-echo gmp_prob_prime("1111111111111111111") . "\n";
+// возможно простое
+echo gmp_prob_prime("1111111111111111111") . "\n";
 
-// по определению простое
-echo gmp_prob_prime("11") . "\n";
+// по определению простое
+echo gmp_prob_prime("11") . "\n";
 ?>
 ```
 

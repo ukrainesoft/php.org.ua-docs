@@ -15,7 +15,7 @@ dbaopen — Відкриває базу даних
 ### Опис
 
 ```methodsynopsis
-dba_open(    string $path,    string $mode,    string $handler = ?,    string ...$args): resource|false
+dba_open(    string $path,    string $mode,    string $handler = ?,    string ...$args): resource|false
 ```
 
 **dbaopen()** встановлює екземпляр бази даних шляхом `path` в режимі `mode` використовуючи обробник `handler`

@@ -44,9 +44,9 @@ iconv_get_encoding(string $type = "all"): array|string|false
 ```php
 <pre>
 <?php
-iconv_set_encoding("internal_encoding", "UTF-8");
-iconv_set_encoding("input_encoding", "WINDOWS-1251");
-iconv_set_encoding("output_encoding", "KOI8-U");
+iconv_set_encoding("internal_encoding", "UTF-8");
+iconv_set_encoding("input_encoding", "WINDOWS-1251");
+iconv_set_encoding("output_encoding", "KOI8-U");
 var_dump(iconv_get_encoding('all'));
 ?>
 </pre>

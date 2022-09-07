@@ -55,12 +55,12 @@ public DOMNode::appendChild(DOMNode $node): DOMNode|false
 ```php
 <?php
 
-$doc = new DOMDocument;
+$doc = new DOMDocument;
 
-$node = $doc->createElement("para");
-$newnode = $doc->appendChild($node);
+$node = $doc->createElement("para");
+$newnode = $doc->appendChild($node);
 
-echo $doc->saveXML();
+echo $doc->saveXML();
 ?>
 ```
 
@@ -69,15 +69,15 @@ echo $doc->saveXML();
 ```php
 <?php
 
-$doc = new DOMDocument;
+$doc = new DOMDocument;
 
-$headNode = $doc->createElement("head");
+$headNode = $doc->createElement("head");
 $doc->appendChild($headNode);
 
-$titleNode = $doc->createElement("title");
+$titleNode = $doc->createElement("title");
 $headNode->appendChild($titleNode);
 
-echo $doc->saveXML();
+echo $doc->saveXML();
 ?>
 ```
 

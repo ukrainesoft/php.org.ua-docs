@@ -42,10 +42,10 @@ callback(mixed $key, mixed $value): bool
 
 ```php
 <?php
-$map = new \Ds\Map(["a", "b", "c", "d", "e"]);
+$map = new \Ds\Map(["a", "b", "c", "d", "e"]);
 
-var_dump($map->filter(function($key, $value) {
-    return $key % 2 == 0;
+var_dump($map->filter(function($key, $value) {
+    return $key % 2 == 0;
 }));
 ?>
 ```
@@ -82,7 +82,7 @@ object(Ds\Map)#3 (3) {
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 0, "b" => 1, "c" => true, "d" => false]);
+$map = new \Ds\Map(["a" => 0, "b" => 1, "c" => true, "d" => false]);
 
 var_dump($map->filter());
 ?>

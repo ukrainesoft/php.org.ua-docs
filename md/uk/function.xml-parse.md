@@ -58,13 +58,13 @@ xml_parse(XMLParser $parser, string $data, bool $is_final = false): int
 
 ```php
 <?php
-$stream = fopen('large.xml', 'r');
-$parser = xml_parser_create();
-// установить обработчики
-while (($data = fread($stream, 16384))) {
-    xml_parse($parser, $data); // разобрать текущую часть
+$stream = fopen('large.xml', 'r');
+$parser = xml_parser_create();
+// установить обработчики
+while (($data = fread($stream, 16384))) {
+    xml_parse($parser, $data); // разобрать текущую часть
 }
-xml_parse($parser, '', true); // завершить разбор
+xml_parse($parser, '', true); // завершить разбор
 xml_parser_free($parser);
 fclose($stream);
 ```

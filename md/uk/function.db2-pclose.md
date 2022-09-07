@@ -44,10 +44,10 @@ db2_pclose(resource $resource): bool
 
 ```php
 <?php
-$conn = db2_pconnect('', '', '');
-$rc = db2_pclose($conn);
-if ($rc) {
-    echo "Соединение было успешно закрыто.";
+$conn = db2_pconnect('', '', '');
+$rc = db2_pclose($conn);
+if ($rc) {
+    echo "Соединение было успешно закрыто.";
 }
 ?>
 ```

@@ -17,20 +17,20 @@ EvLoop::io — Створює об'єкт спостерігача EvIo, пов'
 ```methodsynopsis
 final
    public
-   EvLoop::io(    
+   EvLoop::io(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

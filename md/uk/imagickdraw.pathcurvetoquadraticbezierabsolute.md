@@ -15,7 +15,7 @@ ImagickDraw::pathCurveToQuadraticBezierAbsolute — Малює квадрати�
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pathCurveToQuadraticBezierAbsolute(    float $x1,    float $y1,    float $x,    float $y): bool
+public ImagickDraw::pathCurveToQuadraticBezierAbsolute(    float $x1,    float $y1,    float $x,    float $y): bool
 ```
 
 **Увага**
@@ -52,51 +52,51 @@ public ImagickDraw::pathCurveToQuadraticBezierAbsolute(    float $x1,   �
 
 ```php
 <?php
-function pathCurveToQuadraticBezierAbsolute($strokeColor, $fillColor, $backgroundColor) {
+function pathCurveToQuadraticBezierAbsolute($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
 
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
 
-    $draw->pathStart();
-    $draw->pathMoveToAbsolute(50,250);
+    $draw->pathStart();
+    $draw->pathMoveToAbsolute(50,250);
 
-    // Определение квадратичной кривой Безье с текущей позицией в качестве начальной точки,
-    // контрольной точкой являются первые два параметра, а конечной - последние два.
-    $draw->pathCurveToQuadraticBezierAbsolute(
-        150,50,
-        250,250
-    );
+    // Определение квадратичной кривой Безье с текущей позицией в качестве начальной точки,
+    // контрольной точкой являются первые два параметра, а конечной - последние два.
+    $draw->pathCurveToQuadraticBezierAbsolute(
+        150,50,
+        250,250
+    );
 
-    // Определение квадратичной кривой Безье с текущей позицией в качестве начальной точки,
-    // контрольная точка зеркально отражается от контрольной точки предыдущей кривой,
-    // а конечная точка определяется значениями x, y.
-    $draw->pathCurveToQuadraticBezierSmoothAbsolute(
-        450,250
-    );
+    // Определение квадратичной кривой Безье с текущей позицией в качестве начальной точки,
+    // контрольная точка зеркально отражается от контрольной точки предыдущей кривой,
+    // а конечная точка определяется значениями x, y.
+    $draw->pathCurveToQuadraticBezierSmoothAbsolute(
+        450,250
+    );
 
-    // Определение квадратичной кривой Безье с текущей позицией в качестве начальной точки,
-    // контрольная точка зеркально отражается от контрольной точки предыдущей кривой,
-    // а конечная точка определяется значениями x, y относительно текущей позиции.
-    $draw->pathCurveToQuadraticBezierSmoothRelative(
-        200,-100
-    );
+    // Определение квадратичной кривой Безье с текущей позицией в качестве начальной точки,
+    // контрольная точка зеркально отражается от контрольной точки предыдущей кривой,
+    // а конечная точка определяется значениями x, y относительно текущей позиции.
+    $draw->pathCurveToQuadraticBezierSmoothRelative(
+        200,-100
+    );
 
-    $draw->pathFinish();
+    $draw->pathFinish();
 
-    $imagick = new \Imagick();
-    $imagick->newImage(700, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(700, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 
 }
 

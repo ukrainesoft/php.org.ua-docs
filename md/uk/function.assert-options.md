@@ -43,7 +43,7 @@ assert_options(int $what, mixed $value = ?): mixed
 Callback-функція, встановлена ​​за допомогою **`ASSERT_CALLBACK`** або assert.callback, повинен мати наступний підпис:
 
 ```methodsynopsis
-assert_callback(    string $file,    int $line,    string $assertion,    string $description = ?): void
+assert_callback(    string $file,    int $line,    string $assertion,    string $description = ?): void
 ```
 
 `file`
@@ -74,31 +74,31 @@ assert_callback(    string $file,    int $line,    string $assertion
 
 ```php
 <?php
-// Наша функция обработчик
-// неудавшихся проверок
-function function assert_failure($file, $line, $assertion, $message)
+// Наша функция обработчик
+// неудавшихся проверок
+function function assert_failure($file, $line, $assertion, $message)
 {
-    echo "Проверка $assertion в $file на строке $line провалена: $message";
+    echo "Проверка $assertion в $file на строке $line провалена: $message";
 }
 
-// Тестовая функция
-function test_assert($parameter)
+// Тестовая функция
+function test_assert($parameter)
 {
-    assert(is_bool($parameter));
+    assert(is_bool($parameter));
 }
 
-// настройки проверки
-assert_options(ASSERT_ACTIVE,   true);
-assert_options(ASSERT_BAIL,     true);
-assert_options(ASSERT_WARNING,  false);
-assert_options(ASSERT_CALLBACK, 'assert_failure');
+// настройки проверки
+assert_options(ASSERT_ACTIVE,   true);
+assert_options(ASSERT_BAIL,     true);
+assert_options(ASSERT_WARNING,  false);
+assert_options(ASSERT_CALLBACK, 'assert_failure');
 
-// заведомо ошибочное утверждение
+// заведомо ошибочное утверждение
 test_assert(1);
 
-// Этот код не будет выполняться, пока ASSERT_BAIL
-// равен true
-echo 'Никогда не будет выведено';
+// Этот код не будет выполняться, пока ASSERT_BAIL
+// равен true
+echo 'Никогда не будет выведено';
 ?>
 ```
 

@@ -15,7 +15,7 @@ fileputcontents — Пише дані у файл
 ### Опис
 
 ```methodsynopsis
-file_put_contents(    string $filename,    mixed $data,    int $flags = 0,    ?resource $context = null): int|false
+file_put_contents(    string $filename,    mixed $data,    int $flags = 0,    ?resource $context = null): int|false
 ```
 
 Функція ідентична послідовним успішним викликам функцій [fopen()](function.fopen.md) [fwrite()](function.fwrite.md) і [fclose()](function.fclose.md)
@@ -66,13 +66,13 @@ file_put_contents(    string $filename,    mixed $data,    int $flag
 
 ```php
 <?php
-$file = 'people.txt';
-// Открываем файл для получения существующего содержимого
-$current = file_get_contents($file);
-// Добавляем нового человека в файл
-$current .= "John Smith\n";
-// Пишем содержимое обратно в файл
-file_put_contents($file, $current);
+$file = 'people.txt';
+// Открываем файл для получения существующего содержимого
+$current = file_get_contents($file);
+// Добавляем нового человека в файл
+$current .= "John Smith\n";
+// Пишем содержимое обратно в файл
+file_put_contents($file, $current);
 ?>
 ```
 
@@ -80,13 +80,13 @@ file_put_contents($file, $current);
 
 ```php
 <?php
-$file = 'people.txt';
-// Новый человек, которого нужно добавить в файл
-$person = "John Smith\n";
-// Пишем содержимое в файл,
-// используя флаг FILE_APPEND для дописывания содержимого в конец файла
-// и флаг LOCK_EX для предотвращения записи данного файла кем-нибудь другим в данное время
-file_put_contents($file, $person, FILE_APPEND | LOCK_EX);
+$file = 'people.txt';
+// Новый человек, которого нужно добавить в файл
+$person = "John Smith\n";
+// Пишем содержимое в файл,
+// используя флаг FILE_APPEND для дописывания содержимого в конец файла
+// и флаг LOCK_EX для предотвращения записи данного файла кем-нибудь другим в данное время
+file_put_contents($file, $person, FILE_APPEND | LOCK_EX);
 ?>
 ```
 

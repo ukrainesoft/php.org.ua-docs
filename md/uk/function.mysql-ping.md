@@ -48,25 +48,25 @@ mysql_ping(resource $link_identifier = NULL): bool
 <?php
 set_time_limit(0);
 
-$conn = mysql_connect('localhost', 'mysqluser', 'mypass');
-$db   = mysql_select_db('mydb');
+$conn = mysql_connect('localhost', 'mysqluser', 'mypass');
+$db   = mysql_select_db('mydb');
 
-/* Подразумевается что этот запрос будет выполняться достаточно долго */
-$result = mysql_query($sql);
-if (!$result) {
-    echo 'Запрос #1 не удался, выходим.';
-    exit;
+/* Подразумевается что этот запрос будет выполняться достаточно долго */
+$result = mysql_query($sql);
+if (!$result) {
+    echo 'Запрос #1 не удался, выходим.';
+    exit;
 }
 
-/* Проверяем что соединение ещё работает, если нет, соединяемся заново */
-if (!mysql_ping($conn)) {
-    echo 'Соединение потеряно, выходим после запроса #1';
-    exit;
+/* Проверяем что соединение ещё работает, если нет, соединяемся заново */
+if (!mysql_ping($conn)) {
+    echo 'Соединение потеряно, выходим после запроса #1';
+    exit;
 }
 mysql_free_result($result);
 
-/* Соединение ещё работает, выполняем ещё один запрос */
-$result2 = mysql_query($sql2);
+/* Соединение ещё работает, выполняем ещё один запрос */
+$result2 = mysql_query($sql2);
 ?>
 ```
 

@@ -40,13 +40,13 @@ public PharData::delete(string $localName): bool
 
 ```php
 <?php
-try {
-    $phar = new PharData('myphar.zip');
-    $phar->delete('unlink/me.php');
-    // аналог следующего кода:
-    unlink('phar://myphar.phar/unlink/me.php');
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $phar = new PharData('myphar.zip');
+    $phar->delete('unlink/me.php');
+    // аналог следующего кода:
+    unlink('phar://myphar.phar/unlink/me.php');
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

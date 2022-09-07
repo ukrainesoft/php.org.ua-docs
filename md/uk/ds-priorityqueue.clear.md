@@ -34,11 +34,11 @@ public Ds\PriorityQueue::clear(): void
 
 ```php
 <?php
-$queue = new \Ds\PriorityQueue();
+$queue = new \Ds\PriorityQueue();
 
-$queue->push("a",  5);
-$queue->push("b", 15);
-$queue->push("c", 10);
+$queue->push("a",  5);
+$queue->push("b", 15);
+$queue->push("c", 10);
 
 $queue->clear();
 print_r($queue);

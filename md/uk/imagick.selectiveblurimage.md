@@ -15,7 +15,7 @@ Imagick::selectiveBlurImage — Опис
 ### Опис
 
 ```methodsynopsis
-public Imagick::selectiveBlurImage(    float $radius,    float $sigma,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::selectiveBlurImage(    float $radius,    float $sigma,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Вибіркове розмиття зображення у межах порогового значення контрастності. Це схоже на маску нерізкості, яка збільшує різкість всього, якщо контраст перевищує певний поріг.
@@ -42,11 +42,11 @@ public Imagick::selectiveBlurImage(    float $radius,    float $sigma, 
 
 ```php
 <?php
-function selectiveBlurImage($imagePath, $radius, $sigma, $threshold, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->selectiveBlurImage($radius, $sigma, $threshold, $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function selectiveBlurImage($imagePath, $radius, $sigma, $threshold, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->selectiveBlurImage($radius, $sigma, $threshold, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

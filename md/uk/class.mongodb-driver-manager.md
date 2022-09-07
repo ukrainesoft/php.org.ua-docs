@@ -64,7 +64,7 @@ final public startSession(?array $options = null): MongoDB\Driver\Session
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
 var_dump($manager);
 
 ?>

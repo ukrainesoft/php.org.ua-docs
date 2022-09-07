@@ -12,7 +12,7 @@ title: Вимоги до встановлення
 
 PHP вимагає наявності Visual C runtime (CRT). Багато програм вимагають, щоб це вже було встановлено.
 
-Microsoft Visual C ++ для Visual Studio 2019, що розповсюджується, підходить для всіх цих версій PHP, дивіться [» https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
+Microsoft Visual C ++ для Visual Studio 2019, що розповсюджується, підходить для всіх цих версій PHP, дивіться [» https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
 
 Ви повинні завантажити x86 CRT для складання PHP x86 і x64 CRT для складання PHP x64.
 

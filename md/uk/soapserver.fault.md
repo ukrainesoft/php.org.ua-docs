@@ -15,7 +15,7 @@ SoapServer::fault — Вимушує SoapServer повернути помилк�
 ### Опис
 
 ```methodsynopsis
-public SoapServer::fault(    string $code,    string $string,    string $actor = "",    mixed $details = null,    string $name = ""): void
+public SoapServer::fault(    string $code,    string $string,    string $actor = "",    mixed $details = null,    string $name = ""): void
 ```
 
 Надсилає клієнту відповідь на поточний запит із повідомленням про помилку.

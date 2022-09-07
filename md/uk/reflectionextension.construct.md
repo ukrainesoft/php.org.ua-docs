@@ -30,9 +30,9 @@ public **ReflectionExtension::construct**(string `$name`
 
 ```php
 <?php
-$ext = new ReflectionExtension('Reflection');
+$ext = new ReflectionExtension('Reflection');
 
-printf('Модуль: %s (версия: %s)', $ext->getName(), $ext->getVersion());
+printf('Модуль: %s (версия: %s)', $ext->getName(), $ext->getVersion());
 ?>
 ```
 

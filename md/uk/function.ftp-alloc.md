@@ -55,17 +55,17 @@ ftp_alloc(FTP\Connection $ftp, int $size, string &$response = null): bool
 ```php
 <?php
 
-$file = "/home/user/myfile";
+$file = "/home/user/myfile";
 
-/* соединение с сервером */
-$ftp = ftp_connect('ftp.example.com');
-$login_result = ftp_login($ftp, 'anonymous', 'user@example.com');
+/* соединение с сервером */
+$ftp = ftp_connect('ftp.example.com');
+$login_result = ftp_login($ftp, 'anonymous', 'user@example.com');
 
-if (ftp_alloc($ftp, filesize($file), $result)) {
-  echo "Место на сервере успешно зарезервировано.  Отправляю $file.\n";
-  ftp_put($conn_id, '/incoming/myfile', $file, FTP_BINARY);
-} else {
-  echo "Не удалось зарезервировать место на сервере. Ответ сервера: $result\n";
+if (ftp_alloc($ftp, filesize($file), $result)) {
+  echo "Место на сервере успешно зарезервировано.  Отправляю $file.\n";
+  ftp_put($conn_id, '/incoming/myfile', $file, FTP_BINARY);
+} else {
+  echo "Не удалось зарезервировать место на сервере. Ответ сервера: $result\n";
 }
 
 ftp_close($ftp);

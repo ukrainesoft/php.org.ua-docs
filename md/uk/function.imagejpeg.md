@@ -54,18 +54,18 @@ imagejpeg(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ```php
 <?php
-// Создаём пустое изображение и добавляем текст
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
+// Создаём пустое изображение и добавляем текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
 
-// Устанавливаем тип содержимого в заголовок, в данном случае image/jpeg
-header('Content-Type: image/jpeg');
+// Устанавливаем тип содержимого в заголовок, в данном случае image/jpeg
+header('Content-Type: image/jpeg');
 
-// Выводим изображение
+// Выводим изображение
 imagejpeg($im);
 
-// Освобождаем память
+// Освобождаем память
 imagedestroy($im);
 ?>
 ```
@@ -78,15 +78,15 @@ imagedestroy($im);
 
 ```php
 <?php
-// Создаём пустое изображение и добавляем текст
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
+// Создаём пустое изображение и добавляем текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
 
-// Сохраняем изображение в 'simpletext.jpg'
-imagejpeg($im, 'simpletext.jpg');
+// Сохраняем изображение в 'simpletext.jpg'
+imagejpeg($im, 'simpletext.jpg');
 
-// Освобождаем память
+// Освобождаем память
 imagedestroy($im);
 ?>
 ```
@@ -95,18 +95,18 @@ imagedestroy($im);
 
 ```php
 <?php
-// Создаём пустое изображение и добавляем текст
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
+// Создаём пустое изображение и добавляем текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'A Simple Text String', $text_color);
 
-// Устанавливаем тип содержимого в заголовок, в данном случае image/jpeg
-header('Content-Type: image/jpeg');
+// Устанавливаем тип содержимого в заголовок, в данном случае image/jpeg
+header('Content-Type: image/jpeg');
 
-// Пропускаем параметр filename, используя NULL, а затем устанавливаем качество в 75%
-imagejpeg($im, NULL, 75);
+// Пропускаем параметр filename, используя NULL, а затем устанавливаем качество в 75%
+imagejpeg($im, NULL, 75);
 
-// Освобождаем память
+// Освобождаем память
 imagedestroy($im);
 ?>
 ```

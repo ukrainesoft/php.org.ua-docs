@@ -48,13 +48,13 @@ hash_update_stream(HashContext $context, resource $stream, int $length = -1): in
 
 ```php
 <?php
-$fp = tmpfile();
-fwrite($fp, 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
+$fp = tmpfile();
+fwrite($fp, 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
 rewind($fp);
 
-$ctx = hash_init('md5');
-hash_update_stream($ctx, $fp);
-echo hash_final($ctx);
+$ctx = hash_init('md5');
+hash_update_stream($ctx, $fp);
+echo hash_final($ctx);
 ?>
 ```
 

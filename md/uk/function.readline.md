@@ -36,16 +36,16 @@ readline(?string $prompt = null): string|false
 
 ```php
 <?php
-//получим 3 команды от пользователя
-for ($i=0; $i < 3; $i++) {
-        $line = readline("Command: ");
-        readline_add_history($line);
+//получим 3 команды от пользователя
+for ($i=0; $i < 3; $i++) {
+        $line = readline("Command: ");
+        readline_add_history($line);
 }
 
-//распечатаем историю ввода
+//распечатаем историю ввода
 print_r(readline_list_history());
 
-//распечатаем переменные
+//распечатаем переменные
 print_r(readline_info());
 ?>
 ```

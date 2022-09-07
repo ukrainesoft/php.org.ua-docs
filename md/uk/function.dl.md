@@ -54,19 +54,19 @@ Unix - Якщо явно не задано в php.ini, директорія за
 
 ```php
 <?php
-// Пример загрузки модуля, основываясь на ОС
-if (!extension_loaded('sqlite')) {
-    if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-        dl('php_sqlite.dll');
-    } else {
-        dl('sqlite.so');
-    }
+// Пример загрузки модуля, основываясь на ОС
+if (!extension_loaded('sqlite')) {
+    if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+        dl('php_sqlite.dll');
+    } else {
+        dl('sqlite.so');
+    }
 }
 
-// Или на константе PHP_SHLIB_SUFFIX
-if (!extension_loaded('sqlite')) {
-    $prefix = (PHP_SHLIB_SUFFIX === 'dll') ? 'php_' : '';
-    dl($prefix . 'sqlite.' . PHP_SHLIB_SUFFIX);
+// Или на константе PHP_SHLIB_SUFFIX
+if (!extension_loaded('sqlite')) {
+    $prefix = (PHP_SHLIB_SUFFIX === 'dll') ? 'php_' : '';
+    dl($prefix . 'sqlite.' . PHP_SHLIB_SUFFIX);
 }
 ?>
 ```

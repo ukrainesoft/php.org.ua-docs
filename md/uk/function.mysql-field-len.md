@@ -47,15 +47,15 @@ mysql_field_len(resource $result, int $field_offset): int|false
 
 ```php
 <?php
-$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
-if (!$result) {
-    echo 'Не удалось выполнить запрос: ' . mysql_error();
-    exit;
+$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$result) {
+    echo 'Не удалось выполнить запрос: ' . mysql_error();
+    exit;
 }
 
-// Получит длину поля id так, как указано в структуре базы данных
-$length = mysql_field_len($result, 0);
-echo $length;
+// Получит длину поля id так, как указано в структуре базы данных
+$length = mysql_field_len($result, 0);
+echo $length;
 ?>
 ```
 

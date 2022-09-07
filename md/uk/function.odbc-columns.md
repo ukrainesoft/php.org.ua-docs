@@ -15,7 +15,7 @@ odbccolumns — Перелік імен стовпців у вказаних т�
 ### Опис
 
 ```methodsynopsis
-odbc_columns(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $table = null,    ?string $column = null): resource|false
+odbc_columns(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $table = null,    ?string $column = null): resource|false
 ```
 
 Перелічує усі стовпці у запитаному діапазоні.
@@ -83,11 +83,11 @@ odbc_columns(    resource $odbc,    ?string $catalog = null,    ?str
 
 ```php
 <?php
-$conn = odbc_connect($dsn, $user, $pass);
-$columns = odbc_columns($conn, 'TutorialDB', 'dbo', 'test', '%');
-while (($row = odbc_fetch_array($columns))) {
-    print_r($row);
-    break; // последующие строки опущены для краткости
+$conn = odbc_connect($dsn, $user, $pass);
+$columns = odbc_columns($conn, 'TutorialDB', 'dbo', 'test', '%');
+while (($row = odbc_fetch_array($columns))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
 }
 ?>
 ```

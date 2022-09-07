@@ -38,16 +38,16 @@ public ArrayObject::count(): int
 
 ```php
 <?php
-class Example {
-    public $public = 'prop:public';
-    private $prv   = 'prop:private';
-    protected $prt = 'prop:protected';
+class Example {
+    public $public = 'prop:public';
+    private $prv   = 'prop:private';
+    protected $prt = 'prop:protected';
 }
 
-$arrayobj = new ArrayObject(new Example());
+$arrayobj = new ArrayObject(new Example());
 var_dump($arrayobj->count());
 
-$arrayobj = new ArrayObject(array('first','second','third'));
+$arrayobj = new ArrayObject(array('first','second','third'));
 var_dump($arrayobj->count());
 ?>
 ```

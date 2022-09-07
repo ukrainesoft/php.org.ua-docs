@@ -34,12 +34,12 @@ wincache_ucache_clear(): bool
 
 ```php
 <?php
-wincache_ucache_set('green', 1);
-wincache_ucache_set('red', 2);
-wincache_ucache_set('orange', 4);
-wincache_ucache_set('blue', 8);
-wincache_ucache_set('cyan', 16);
-$array1 = array('green', 'red', 'orange', 'blue', 'cyan');
+wincache_ucache_set('green', 1);
+wincache_ucache_set('red', 2);
+wincache_ucache_set('orange', 4);
+wincache_ucache_set('blue', 8);
+wincache_ucache_set('cyan', 16);
+$array1 = array('green', 'red', 'orange', 'blue', 'cyan');
 var_dump(wincache_ucache_get($array1));
 var_dump(wincache_ucache_clear());
 var_dump(wincache_ucache_get($array1));

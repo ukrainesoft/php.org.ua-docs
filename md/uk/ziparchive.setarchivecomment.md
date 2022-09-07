@@ -36,15 +36,15 @@ public ZipArchive::setArchiveComment(string $comment): bool
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip', ZipArchive::CREATE);
-if ($res === TRUE) {
-    $zip->addFromString('test.txt', 'содержимое файла');
-    $zip->setArchiveComment('новый комментарий архива');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+$res = $zip->open('test.zip', ZipArchive::CREATE);
+if ($res === TRUE) {
+    $zip->addFromString('test.txt', 'содержимое файла');
+    $zip->setArchiveComment('новый комментарий архива');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

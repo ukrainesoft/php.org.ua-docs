@@ -49,10 +49,10 @@ public **LimitIterator::construct**[Iterator](class.iterator.md) `$iterator`, in
 
 ```php
 <?php
-$ait = new ArrayIterator(array('a', 'b', 'c', 'd', 'e'));
-$lit = new LimitIterator($ait, 1, 3);
-foreach ($lit as $value) {
-    echo $value . "\n";
+$ait = new ArrayIterator(array('a', 'b', 'c', 'd', 'e'));
+$lit = new LimitIterator($ait, 1, 3);
+foreach ($lit as $value) {
+    echo $value . "\n";
 }
 ?>
 ```

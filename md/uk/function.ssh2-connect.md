@@ -15,7 +15,7 @@ ssh2connect — Підключення до SSH-сервера
 ### Опис
 
 ```methodsynopsis
-ssh2_connect(    string $host,    int $port = 22,    array $methods = ?,    array $callbacks = ?): resource|false
+ssh2_connect(    string $host,    int $port = 22,    array $methods = ?,    array $callbacks = ?): resource|false
 ```
 
 Встановлює з'єднання з сервером SSH.
@@ -41,7 +41,7 @@ ssh2_connect(    string $host,    int $port = 22,    array $methods 
 | clientтоserver | Асоціативний масив, що містить налаштування шифрування, стиснення та методу імітівставки ("message authentication code" або MAC) для повідомлень, надісланих клієнтом серверу. |  |
 | serverтоclient | Асоціативний масив, що містить налаштування шифрування, стиснення та методу імітівставки ("message authentication code" або MAC) для повідомлень, надісланих сервером клієнту. |  |
 
-\- Значення, що підтримуються, залежать від методів, що підтримуються базовою бібліотекою. Детальніше читайте документацію з [» libssh2](http://libssh2.org/)
+\- Значення, що підтримуються, залежать від методів, що підтримуються базовою бібліотекою. Детальніше читайте документацію з [» libssh2](http://libssh2.org/)
 
 **`client_to_server` і `server_to_client` можуть бути асоціативними масивами, що містять будь-який або всі нижчеперелічені параметри.**
 
@@ -53,7 +53,7 @@ ssh2_connect(    string $host,    int $port = 22,    array $methods 
 
 > **Зауваження** **Метод шифрування`none`і MAC**
 > 
-> В цілях безпеки `none` відключений у базовій бібліотеці [» libssh2](http://libssh2.org/), якщо ви не дозволили його самостійно на етапі збирання, використовуючи відповідні ключі ./configure. Дивіться документацію з базової бібліотеки для більш детальної інформації.
+> В цілях безпеки `none` відключений у базовій бібліотеці [» libssh2](http://libssh2.org/), якщо ви не дозволили його самостійно на етапі збирання, використовуючи відповідні ключі ./configure. Дивіться документацію з базової бібліотеки для більш детальної інформації.
 
 `callbacks`
 
@@ -80,25 +80,25 @@ ssh2_connect(    string $host,    int $port = 22,    array $methods 
 
 ```php
 <?php
-/* Оповещаем пользователя, если сервер прервал соединение */
-function my_ssh_disconnect($reason, $message, $language) {
-  printf("Сервер отключился с кодом причины [%d] и сообщением: %s\n",
-         $reason, $message);
+/* Оповещаем пользователя, если сервер прервал соединение */
+function my_ssh_disconnect($reason, $message, $language) {
+  printf("Сервер отключился с кодом причины [%d] и сообщением: %s\n",
+         $reason, $message);
 }
 
-$methods = array(
-  'kex' => 'diffie-hellman-group1-sha1',
-  'client_to_server' => array(
-    'crypt' => '3des-cbc',
-    'comp' => 'none'),
-  'server_to_client' => array(
-    'crypt' => 'aes256-cbc,aes192-cbc,aes128-cbc',
-    'comp' => 'none'));
+$methods = array(
+  'kex' => 'diffie-hellman-group1-sha1',
+  'client_to_server' => array(
+    'crypt' => '3des-cbc',
+    'comp' => 'none'),
+  'server_to_client' => array(
+    'crypt' => 'aes256-cbc,aes192-cbc,aes128-cbc',
+    'comp' => 'none'));
 
-$callbacks = array('disconnect' => 'my_ssh_disconnect');
+$callbacks = array('disconnect' => 'my_ssh_disconnect');
 
-$connection = ssh2_connect('shell.example.com', 22, $methods, $callbacks);
-if (!$connection) die('Не удалось установить соединение');
+$connection = ssh2_connect('shell.example.com', 22, $methods, $callbacks);
+if (!$connection) die('Не удалось установить соединение');
 ?>
 ```
 

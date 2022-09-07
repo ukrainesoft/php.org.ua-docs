@@ -36,19 +36,19 @@ public QuickHashIntSet::add(int $key): bool
 
 ```php
 <?php
-echo "без проверки дубликатов\n";
-$set = new QuickHashIntSet( 1024 );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
+echo "без проверки дубликатов\n";
+$set = new QuickHashIntSet( 1024 );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
 
-echo "\nс проверкой дубликатов\n";
-$set = new QuickHashIntSet( 1024, QuickHashIntSet::CHECK_FOR_DUPES );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
+echo "\nс проверкой дубликатов\n";
+$set = new QuickHashIntSet( 1024, QuickHashIntSet::CHECK_FOR_DUPES );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
 ?>
 ```
 

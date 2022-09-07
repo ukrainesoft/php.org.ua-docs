@@ -36,11 +36,11 @@ gmp_nextprime(GMP|int|string $num): GMP
 
 ```php
 <?php
-$prime1 = gmp_nextprime(10); // ближайшее простое число, следующее за 10
-$prime2 = gmp_nextprime(-1000); // ближайшее простое число, следующее за -1000
+$prime1 = gmp_nextprime(10); // ближайшее простое число, следующее за 10
+$prime2 = gmp_nextprime(-1000); // ближайшее простое число, следующее за -1000
 
-echo gmp_strval($prime1) . "\n";
-echo gmp_strval($prime2) . "\n";
+echo gmp_strval($prime1) . "\n";
+echo gmp_strval($prime2) . "\n";
 ?>
 ```
 

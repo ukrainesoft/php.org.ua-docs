@@ -15,7 +15,7 @@ svnфсcopy — Копіює файл або директорію
 ### Опис
 
 ```methodsynopsis
-svn_fs_copy(    resource $from_root,    string $from_path,    resource $to_root,    string $to_path): bool
+svn_fs_copy(    resource $from_root,    string $from_path,    resource $to_root,    string $to_path): bool
 ```
 
 **Увага**

@@ -46,31 +46,31 @@ imagecreatefrompng(string $filename): GdImage|false
 
 ```php
 <?php
-function LoadPNG($imgname)
+function LoadPNG($imgname)
 {
-    /* Пытаемся открыть */
-    $im = @imagecreatefrompng($imgname);
+    /* Пытаемся открыть */
+    $im = @imagecreatefrompng($imgname);
 
-    /* Если не удалось */
-    if(!$im)
-    {
-        /* Создаём пустое изображение */
-        $im  = imagecreatetruecolor(150, 30);
-        $bgc = imagecolorallocate($im, 255, 255, 255);
-        $tc  = imagecolorallocate($im, 0, 0, 0);
+    /* Если не удалось */
+    if(!$im)
+    {
+        /* Создаём пустое изображение */
+        $im  = imagecreatetruecolor(150, 30);
+        $bgc = imagecolorallocate($im, 255, 255, 255);
+        $tc  = imagecolorallocate($im, 0, 0, 0);
 
-        imagefilledrectangle($im, 0, 0, 150, 30, $bgc);
+        imagefilledrectangle($im, 0, 0, 150, 30, $bgc);
 
-        /* Выводим сообщение об ошибке */
-        imagestring($im, 1, 5, 5, 'Ошибка загрузки ' . $imgname, $tc);
-    }
+        /* Выводим сообщение об ошибке */
+        imagestring($im, 1, 5, 5, 'Ошибка загрузки ' . $imgname, $tc);
+    }
 
-    return $im;
+    return $im;
 }
 
-header('Content-Type: image/png');
+header('Content-Type: image/png');
 
-$img = LoadPNG('bogus.image');
+$img = LoadPNG('bogus.image');
 
 imagepng($img);
 imagedestroy($img);

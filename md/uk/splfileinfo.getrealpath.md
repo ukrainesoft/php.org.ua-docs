@@ -34,19 +34,19 @@ public SplFileInfo::getRealPath(): string|false
 
 ```php
 <?php
-$info = new SplFileInfo('/..//./../../'.__FILE__);
+$info = new SplFileInfo('/..//./../../'.__FILE__);
 var_dump($info->getRealPath());
 
-$info = new SplFileInfo('/tmp');
+$info = new SplFileInfo('/tmp');
 var_dump($info->getRealPath());
 
-$info = new SplFileInfo('/I/Do/Not/Exist');
+$info = new SplFileInfo('/I/Do/Not/Exist');
 var_dump($info->getRealPath());
 
-$info = new SplFileInfo('php://output');
+$info = new SplFileInfo('php://output');
 var_dump($info->getRealPath());
 
-$info = new SplFileInfo("");
+$info = new SplFileInfo("");
 var_dump($info->getRealPath());
 ?>
 ```

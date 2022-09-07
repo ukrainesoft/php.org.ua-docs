@@ -52,16 +52,16 @@ opendir(string $directory, ?resource $context = null): resource|false
 
 ```php
 <?php
-$dir = "/etc/php5/";
+$dir = "/etc/php5/";
 
-// Открыть известный каталог и начать считывать его содержимое
-if (is_dir($dir)) {
-    if ($dh = opendir($dir)) {
-        while (($file = readdir($dh)) !== false) {
-            echo "файл: $file : тип: " . filetype($dir . $file) . "\n";
-        }
-        closedir($dh);
-    }
+// Открыть известный каталог и начать считывать его содержимое
+if (is_dir($dir)) {
+    if ($dh = opendir($dir)) {
+        while (($file = readdir($dh)) !== false) {
+            echo "файл: $file : тип: " . filetype($dir . $file) . "\n";
+        }
+        closedir($dh);
+    }
 }
 ?>
 ```

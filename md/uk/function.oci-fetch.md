@@ -39,29 +39,29 @@ oci_fetch(resource $statement): bool
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
-$stid = oci_parse($conn, $sql);
+$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
+$stid = oci_parse($conn, $sql);
 
-// Определение переменных ДОЛЖНО быть произведено до запуска
-oci_define_by_name($stid, 'LOCATION_ID', $locid);
-oci_define_by_name($stid, 'CITY', $city);
+// Определение переменных ДОЛЖНО быть произведено до запуска
+oci_define_by_name($stid, 'LOCATION_ID', $locid);
+oci_define_by_name($stid, 'CITY', $city);
 
 oci_execute($stid);
 
-// С каждой выборкой переменные заполняются данными следующего ряда
-while (oci_fetch($stid)) {
-    echo "Идентификатор местоположения $city = $locid<br>\n";
+// С каждой выборкой переменные заполняются данными следующего ряда
+while (oci_fetch($stid)) {
+    echo "Идентификатор местоположения $city = $locid<br>\n";
 }
 
-// Выведет:
-//   Идентификатор местоположения Roma = 1000
-//   Идентификатор местоположения Venice = 1100
+// Выведет:
+//   Идентификатор местоположения Roma = 1000
+//   Идентификатор местоположения Venice = 1100
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -74,24 +74,24 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
-$stid = oci_parse($conn, $sql);
+$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
+$stid = oci_parse($conn, $sql);
 oci_execute($stid);
 
-while (oci_fetch($stid)) {
-    echo oci_result($stid, 'LOCATION_ID') . " = ";
-    echo oci_result($stid, 'CITY') . "<br>\n";
+while (oci_fetch($stid)) {
+    echo oci_result($stid, 'LOCATION_ID') . " = ";
+    echo oci_result($stid, 'CITY') . "<br>\n";
 }
 
-// Выведет:
-//   1000 = Roma
-//   1100 = Venice
+// Выведет:
+//   1000 = Roma
+//   1100 = Venice
 
 oci_free_statement($stid);
 oci_close($conn);

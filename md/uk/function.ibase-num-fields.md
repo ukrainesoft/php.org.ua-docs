@@ -36,15 +36,15 @@ ibase_num_fields(resource $result_id): int
 
 ```php
 <?php
-$rs = ibase_query("SELECT * FROM tablename");
-$coln = ibase_num_fields($rs);
-for ($i = 0; $i < $coln; $i++) {
-    $col_info = ibase_field_info($rs, $i);
-    echo "Имя: " . $col_info['name'] . "\n";
-    echo "Псевдоним: " . $col_info['alias'] . "\n";
-    echo "Связь: " . $col_info['relation'] . "\n";
-    echo "Длина: " . $col_info['length'] . "\n";
-    echo "Тип: " . $col_info['type'] . "\n";
+$rs = ibase_query("SELECT * FROM tablename");
+$coln = ibase_num_fields($rs);
+for ($i = 0; $i < $coln; $i++) {
+    $col_info = ibase_field_info($rs, $i);
+    echo "Имя: " . $col_info['name'] . "\n";
+    echo "Псевдоним: " . $col_info['alias'] . "\n";
+    echo "Связь: " . $col_info['relation'] . "\n";
+    echo "Длина: " . $col_info['length'] . "\n";
+    echo "Тип: " . $col_info['type'] . "\n";
 }
 ?>
 ```

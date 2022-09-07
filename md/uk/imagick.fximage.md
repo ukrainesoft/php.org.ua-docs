@@ -18,7 +18,7 @@ Imagick::fxImage — Оцінює вираз для кожного піксел�
 public Imagick::fxImage(string $expression, int $channel = Imagick::CHANNEL_DEFAULT): Imagick
 ```
 
-Оцінює вираз для кожного пікселя у зображенні. Подивіться докладніше про [» Оператор зображення Fx зі спеціальними ефектами](http://www.imagemagick.org/script/fx.php) для отримання додаткової інформації.
+Оцінює вираз для кожного пікселя у зображенні. Подивіться докладніше про [» Оператор зображення Fx зі спеціальними ефектами](http://www.imagemagick.org/script/fx.php) для отримання додаткової інформації.
 
 ### Список параметрів
 
@@ -44,16 +44,16 @@ public Imagick::fxImage(string $expression, int $channel = Imagick::CHANNEL_DEFA
 
 ```php
 <?php
-function fxImage() {
-    $imagick = new \Imagick();
-    $imagick->newPseudoImage(200, 200, "xc:white");
+function fxImage() {
+    $imagick = new \Imagick();
+    $imagick->newPseudoImage(200, 200, "xc:white");
 
-    $fx = 'xx=i-w/2; yy=j-h/2; rr=hypot(xx,yy); (.5-rr/140)*1.2+.5';
-    $fxImage = $imagick->fxImage($fx);
+    $fx = 'xx=i-w/2; yy=j-h/2; rr=hypot(xx,yy); (.5-rr/140)*1.2+.5';
+    $fxImage = $imagick->fxImage($fx);
 
-    header("Content-Type: image/png");
-    $fxImage->setimageformat('png');
-    echo $fxImage->getImageBlob();
+    header("Content-Type: image/png");
+    $fxImage->setimageformat('png');
+    echo $fxImage->getImageBlob();
 }
 
 ?>

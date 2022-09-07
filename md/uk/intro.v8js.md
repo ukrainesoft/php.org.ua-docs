@@ -8,4 +8,4 @@ title: Вступ
 ---
 # Вступ
 
-Модуль включає [» V8 Javascript Engine](http://code.google.com/p/v8/) у PHP.
+Модуль включає [» V8 Javascript Engine](http://code.google.com/p/v8/) у PHP.

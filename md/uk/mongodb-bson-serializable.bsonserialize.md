@@ -39,23 +39,23 @@ array або **stdClass** для серіалізації у вигляді ма
 ```php
 <?php
 
-class MyDocument implements MongoDB\BSON\Serializable
+class MyDocument implements MongoDB\BSON\Serializable
 {
-    private $id;
+    private $id;
 
-    function __construct()
-    {
-        $this->id = new MongoDB\BSON\ObjectId;
-    }
+    function __construct()
+    {
+        $this->id = new MongoDB\BSON\ObjectId;
+    }
 
-    function bsonSerialize(): array
-    {
-        return ['_id' => $this->id, 'foo' => 'bar'];
-    }
+    function bsonSerialize(): array
+    {
+        return ['_id' => $this->id, 'foo' => 'bar'];
+    }
 }
 
-$bson = MongoDB\BSON\fromPHP(new MyDocument);
-echo MongoDB\BSON\toJSON($bson), "\n";
+$bson = MongoDB\BSON\fromPHP(new MyDocument);
+echo MongoDB\BSON\toJSON($bson), "\n";
 
 ?>
 ```
@@ -71,16 +71,16 @@ echo MongoDB\BSON\toJSON($bson), "\n";
 ```php
 <?php
 
-class MyArray implements MongoDB\BSON\Serializable
+class MyArray implements MongoDB\BSON\Serializable
 {
-    function bsonSerialize(): array
-    {
-        return [1, 2, 3];
-    }
+    function bsonSerialize(): array
+    {
+        return [1, 2, 3];
+    }
 }
 
-$bson = MongoDB\BSON\fromPHP(new MyArray);
-echo MongoDB\BSON\toJSON($bson), "\n";
+$bson = MongoDB\BSON\fromPHP(new MyArray);
+echo MongoDB\BSON\toJSON($bson), "\n";
 
 ?>
 ```
@@ -96,17 +96,17 @@ echo MongoDB\BSON\toJSON($bson), "\n";
 ```php
 <?php
 
-class MyDocument implements MongoDB\BSON\Serializable
+class MyDocument implements MongoDB\BSON\Serializable
 {
-    function bsonSerialize(): array
-    {
-        return ['foo' => 'bar'];
-    }
+    function bsonSerialize(): array
+    {
+        return ['foo' => 'bar'];
+    }
 }
 
-$value = ['document' => new MyDocument];
-$bson = MongoDB\BSON\fromPHP($value);
-echo MongoDB\BSON\toJSON($bson), "\n";
+$value = ['document' => new MyDocument];
+$bson = MongoDB\BSON\fromPHP($value);
+echo MongoDB\BSON\toJSON($bson), "\n";
 
 ?>
 ```
@@ -122,17 +122,17 @@ echo MongoDB\BSON\toJSON($bson), "\n";
 ```php
 <?php
 
-class MyArray implements MongoDB\BSON\Serializable
+class MyArray implements MongoDB\BSON\Serializable
 {
-    function bsonSerialize(): array
-    {
-        return [1, 2, 3];
-    }
+    function bsonSerialize(): array
+    {
+        return [1, 2, 3];
+    }
 }
 
-$value = ['array' => new MyArray];
-$bson = MongoDB\BSON\fromPHP($value);
-echo MongoDB\BSON\toJSON($bson), "\n";
+$value = ['array' => new MyArray];
+$bson = MongoDB\BSON\fromPHP($value);
+echo MongoDB\BSON\toJSON($bson), "\n";
 
 ?>
 ```

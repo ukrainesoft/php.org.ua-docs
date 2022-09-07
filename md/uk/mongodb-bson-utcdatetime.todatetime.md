@@ -37,8 +37,8 @@ final public MongoDB\BSON\UTCDateTime::toDateTime(): DateTime
 ```php
 <?php
 
-$utcdatetime = new MongoDB\BSON\UTCDateTime(1416445411987);
-$datetime = $utcdatetime->toDateTime();
+$utcdatetime = new MongoDB\BSON\UTCDateTime(1416445411987);
+$datetime = $utcdatetime->toDateTime();
 var_dump($datetime->format('r'));
 var_dump($datetime->format('U.u'));
 var_dump($datetime->getTimezone());
@@ -61,4 +61,4 @@ object(DateTimeZone)#3 (2) {
 
 ### Дивіться також
 
--   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+-   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

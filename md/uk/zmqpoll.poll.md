@@ -51,61 +51,61 @@ public ZMQPoll::poll(array &$readable, array &$writable, int $timeout = -1): int
 ```php
 <?php
 
-/* Создаём сокет, паттерн request-reply (отвечающий сокет) */
-$context = new ZMQContext();
-$server  = $context->getSocket(ZMQ::SOCKET_REP);
+/* Создаём сокет, паттерн request-reply (отвечающий сокет) */
+$context = new ZMQContext();
+$server  = $context->getSocket(ZMQ::SOCKET_REP);
 
-/* Привязываем к порту 5555 на адрес 127.0.0.1 */
+/* Привязываем к порту 5555 на адрес 127.0.0.1 */
 $server->bind("tcp://127.0.0.1:5555");
 
-/* Создаём новый пул опроса для входящих/исходящих сообщений */
-$poll = new ZMQPoll();
+/* Создаём новый пул опроса для входящих/исходящих сообщений */
+$poll = new ZMQPoll();
 
-/* Добавляем объект и слушаем на предмет опроса входящих/исходящих */
-$id = $poll->add($server, ZMQ::POLL_IN | ZMQ::POLL_OUT);
-echo "Added object with id " . $id . "\n";
+/* Добавляем объект и слушаем на предмет опроса входящих/исходящих */
+$id = $poll->add($server, ZMQ::POLL_IN | ZMQ::POLL_OUT);
+echo "Added object with id " . $id . "\n";
 
-/* Инициализируем Масив читаемых и записываемых элементов */
-$readable = array();
-$writable = array();
+/* Инициализируем Масив читаемых и записываемых элементов */
+$readable = array();
+$writable = array();
 
-while (true) {
-   /* Количество извлечённых событий */
-   $events = 0;
+while (true) {
+   /* Количество извлечённых событий */
+   $events = 0;
 
-   try {
-       /* Опрашиваем, пока есть что делать */
-       $events = $poll->poll($readable, $writable, -1);
-       $errors = $poll->getLastErrors();
+   try {
+       /* Опрашиваем, пока есть что делать */
+       $events = $poll->poll($readable, $writable, -1);
+       $errors = $poll->getLastErrors();
 
-       if (count($errors) > 0) {
-           foreach ($errors as $error) {
-               echo "Ошибка опроса объекта " . $error . "\n";
-           }
-       }
-   } catch (ZMQPollException $e) {
-       echo "Опрос не удался: " . $e->getMessage() . "\n";
-   }
+       if (count($errors) > 0) {
+           foreach ($errors as $error) {
+               echo "Ошибка опроса объекта " . $error . "\n";
+           }
+       }
+   } catch (ZMQPollException $e) {
+       echo "Опрос не удался: " . $e->getMessage() . "\n";
+   }
 
-   if ($events > 0) {
-       /* Перебираем читаемые объекты и получаем сообщения */
-       foreach ($readable as $r) {
-           try {
-               echo "Получено сообщение: " . $r->recv() . "\n";
-           } catch (ZMQException $e) {
-               echo "Ошибка получения: " . $e->getMessage() . "\n";
-           }
-       }
+   if ($events > 0) {
+       /* Перебираем читаемые объекты и получаем сообщения */
+       foreach ($readable as $r) {
+           try {
+               echo "Получено сообщение: " . $r->recv() . "\n";
+           } catch (ZMQException $e) {
+               echo "Ошибка получения: " . $e->getMessage() . "\n";
+           }
+       }
 
-       /* Перебираем записываемые объекты и отправляем ответы */
-       foreach ($writable as $w) {
-           try {
-               $w->send("Получил!");
-           } catch (ZMQException $e) {
-               echo "Ошибка отправки: " . $e->getMessage() . "\n";
-           }
-       }
-   }
+       /* Перебираем записываемые объекты и отправляем ответы */
+       foreach ($writable as $w) {
+           try {
+               $w->send("Получил!");
+           } catch (ZMQException $e) {
+               echo "Ошибка отправки: " . $e->getMessage() . "\n";
+           }
+       }
+   }
 }
 ?>
 ```

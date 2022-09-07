@@ -42,8 +42,8 @@ gnupg_setsignmode(resource $identifier, int $signmode): bool
 
 ```php
 <?php
-$res = gnupg_init();
-gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // производить раздельную подпись
+$res = gnupg_init();
+gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // производить раздельную подпись
 ?>
 ```
 
@@ -51,7 +51,7 @@ gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // производить р
 
 ```php
 <?php
-$gpg = new gnupg();
-$gpg->setsignmode(gnupg::SIG_MODE_DETACH); // производить раздельную подпись
+$gpg = new gnupg();
+$gpg->setsignmode(gnupg::SIG_MODE_DETACH); // производить раздельную подпись
 ?>
 ```

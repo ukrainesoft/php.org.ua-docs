@@ -34,9 +34,9 @@ public mysql_xdevapi\Session::listClients(): array
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$ids = $session->listClients();
+$ids = $session->listClients();
 
 var_dump($ids);
 ?>

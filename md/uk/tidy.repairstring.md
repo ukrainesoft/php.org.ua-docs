@@ -40,7 +40,7 @@ tidy_repair_string(string $string, array|string|null $config = null, ?string $en
 
 Налаштування `config` можуть бути задані у вигляді масиву чи рядка. Якщо заданий рядок, він інтерпретується як ім'я файлу конфігурації, інакше, параметр інтерпретується як самі настройки.
 
-Інформацію про кожен параметр можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
+Інформацію про кожен параметр можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
 
 `encoding`
 
@@ -68,21 +68,21 @@ ob_start();
 ?>
 
 <html>
-  <head>
-    <title>тест</title>
-  </head>
-  <body>
-    <p>ошибка</i>
-  </body>
+  <head>
+    <title>тест</title>
+  </head>
+  <body>
+    <p>ошибка</i>
+  </body>
 </html>
 
 <?php
 
-$buffer = ob_get_clean();
-$tidy = new tidy();
-$clean = $tidy->repairString($buffer);
+$buffer = ob_get_clean();
+$tidy = new tidy();
+$clean = $tidy->repairString($buffer);
 
-echo $clean;
+echo $clean;
 ?>
 ```
 

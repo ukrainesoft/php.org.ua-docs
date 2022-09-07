@@ -63,7 +63,7 @@ public SplFileObject::fgets(): string
 public SplFileObject::fgetss(string $allowable_tags = ?): string
 public SplFileObject::flock(int $operation, int &$wouldBlock = null): bool
 public SplFileObject::fpassthru(): int
-public SplFileObject::fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
+public SplFileObject::fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
 public SplFileObject::fread(int $length): string|false
 public SplFileObject::fscanf(string $format, mixed &...$vars): array|int|null
 public SplFileObject::fseek(int $offset, int $whence = SEEK_SET): int

@@ -48,9 +48,9 @@ public SQLite3::backup(SQLite3 $destination, string $sourceDatabase = "main", st
 
 ```php
 <?php
-// $conn is a connection to an already opened sqlite3 database
+// $conn is a connection to an already opened sqlite3 database
 
-$backup = new SQLite3('backup.sqlite');
+$backup = new SQLite3('backup.sqlite');
 $conn->backup($backup);
 ?>
 ```

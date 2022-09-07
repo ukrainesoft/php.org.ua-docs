@@ -40,15 +40,15 @@ Imagick::textureImage(Imagick $texture_wand): Imagick
 
 ```php
 <?php
-function textureImage($imagePath) {
-    $image = new \Imagick();
-    $image->newImage(640, 480, new \ImagickPixel('pink'));
-    $image->setImageFormat("jpg");
-    $texture = new \Imagick(realpath($imagePath));
-    $texture->scaleimage($image->getimagewidth() / 4, $image->getimageheight() / 4);
-    $image = $image->textureImage($texture);
-    header("Content-Type: image/jpg");
-    echo $image;
+function textureImage($imagePath) {
+    $image = new \Imagick();
+    $image->newImage(640, 480, new \ImagickPixel('pink'));
+    $image->setImageFormat("jpg");
+    $texture = new \Imagick(realpath($imagePath));
+    $texture->scaleimage($image->getimagewidth() / 4, $image->getimageheight() / 4);
+    $image = $image->textureImage($texture);
+    header("Content-Type: image/jpg");
+    echo $image;
 }
 
 ?>

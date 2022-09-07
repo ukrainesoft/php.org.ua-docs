@@ -50,12 +50,12 @@ numfmt_get_locale(NumberFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE): s
 
 ```php
 <?php
-$req     = 'fr_FR_PARIS';
-$fmt     = numfmt_create( $req,  NumberFormatter::DECIMAL);
-$res_val = numfmt_get_locale( $fmt, Locale::VALID_LOCALE );
-$res_act = numfmt_get_locale( $fmt, Locale::ACTUAL_LOCALE );
-printf( "Запрошенная локаль: %s\nДействительная локаль: %s\nФактическая локаль: %s\n",
-         $req, $res_val, $res_act );
+$req     = 'fr_FR_PARIS';
+$fmt     = numfmt_create( $req,  NumberFormatter::DECIMAL);
+$res_val = numfmt_get_locale( $fmt, Locale::VALID_LOCALE );
+$res_act = numfmt_get_locale( $fmt, Locale::ACTUAL_LOCALE );
+printf( "Запрошенная локаль: %s\nДействительная локаль: %s\nФактическая локаль: %s\n",
+         $req, $res_val, $res_act );
 ?>
 ```
 

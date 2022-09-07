@@ -48,37 +48,37 @@ intlcal_get_skipped_wall_time_option(IntlCalendar $calendar): int
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'en_US');
-ini_set('intl.error_level', E_WARNING);
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'en_US');
+ini_set('intl.error_level', E_WARNING);
 
-// 31 марта в 01:00 часы переводятся на 1 час вперёд и с GMT+00 на GMT+01.
-$cal = new IntlGregorianCalendar(2013, 2 /* March */, 31, 1, 30);
+// 31 марта в 01:00 часы переводятся на 1 час вперёд и с GMT+00 на GMT+01.
+$cal = new IntlGregorianCalendar(2013, 2 /* March */, 31, 1, 30);
 
 var_dump(
-    $cal->isLenient(),               // true
-    $cal->getSkippedWalltimeOption() // 0 WALLTIME_LAST
+    $cal->isLenient(),               // true
+    $cal->getSkippedWalltimeOption() // 0 WALLTIME_LAST
 );
 
-$formatter = IntlDateFormatter::create(
-    NULL,
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'UTC'
+$formatter = IntlDateFormatter::create(
+    NULL,
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'UTC'
 );
-var_dump($formatter->format($cal->getTime() / 1000));
+var_dump($formatter->format($cal->getTime() / 1000));
 
 $cal->setSkippedWallTimeOption(IntlCalendar::WALLTIME_FIRST);
-var_dump($cal->getSkippedWalltimeOption()); // 1 WALLTIME_FIRST
-$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);
+var_dump($cal->getSkippedWalltimeOption()); // 1 WALLTIME_FIRST
+$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);
 
-var_dump($formatter->format($cal->getTime() / 1000));
+var_dump($formatter->format($cal->getTime() / 1000));
 
 $cal->setSkippedWallTimeOption(IntlCalendar::WALLTIME_NEXT_VALID);
-var_dump($cal->getSkippedWalltimeOption()); // 2 WALLTIME_NEXT_VALID
-$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);
+var_dump($cal->getSkippedWalltimeOption()); // 2 WALLTIME_NEXT_VALID
+$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);
 
-var_dump($formatter->format($cal->getTime() / 1000));
+var_dump($formatter->format($cal->getTime() / 1000));
 ```
 
 Результат виконання цього прикладу:

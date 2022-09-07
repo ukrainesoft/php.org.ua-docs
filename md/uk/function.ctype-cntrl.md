@@ -44,13 +44,13 @@ ctype_cntrl(mixed $text): bool
 
 ```php
 <?php
-$strings = array('string1' => "\n\r\t", 'string2' => 'arf12');
-foreach ($strings as $name => $testcase) {
-    if (ctype_cntrl($testcase)) {
-        echo "Строка '$name' состоит только из управляющих символов.\n";
-    } else {
-        echo "Строка '$name' не состоит только из управляющих символов.\n";
-    }
+$strings = array('string1' => "\n\r\t", 'string2' => 'arf12');
+foreach ($strings as $name => $testcase) {
+    if (ctype_cntrl($testcase)) {
+        echo "Строка '$name' состоит только из управляющих символов.\n";
+    } else {
+        echo "Строка '$name' не состоит только из управляющих символов.\n";
+    }
 }
 ?>
 ```

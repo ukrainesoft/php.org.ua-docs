@@ -38,13 +38,13 @@ public PharFileInfo::getCRC32(): int
 
 ```php
 <?php
-try {
-    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
-    $p['myfile.txt'] = 'hi';
-    $file = $p['myfile.txt'];
-    echo $file->getCRC32();
-} catch (Exception $e) {
-    echo 'Операции записи на my.phar завершились ошибкой: ', $e;
+try {
+    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
+    $p['myfile.txt'] = 'hi';
+    $file = $p['myfile.txt'];
+    echo $file->getCRC32();
+} catch (Exception $e) {
+    echo 'Операции записи на my.phar завершились ошибкой: ', $e;
 }
 ?>
 ```

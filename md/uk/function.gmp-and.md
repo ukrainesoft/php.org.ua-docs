@@ -40,10 +40,10 @@ gmp_and(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ```php
 <?php
-$and1 = gmp_and("0xfffffffff4", "0x4");
-$and2 = gmp_and("0xfffffffff4", "0x8");
-echo gmp_strval($and1) . "\n";
-echo gmp_strval($and2) . "\n";
+$and1 = gmp_and("0xfffffffff4", "0x4");
+$and2 = gmp_and("0xfffffffff4", "0x8");
+echo gmp_strval($and1) . "\n";
+echo gmp_strval($and2) . "\n";
 ?>
 ```
 

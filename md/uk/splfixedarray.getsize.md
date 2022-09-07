@@ -34,10 +34,10 @@ public SplFixedArray::getSize(): int
 
 ```php
 <?php
-$array = new SplFixedArray(5);
-echo $array->getSize()."\n";
+$array = new SplFixedArray(5);
+echo $array->getSize()."\n";
 $array->setSize(10);
-echo $array->getSize()."\n";
+echo $array->getSize()."\n";
 ?>
 ```
 

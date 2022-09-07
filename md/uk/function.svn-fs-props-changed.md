@@ -15,7 +15,7 @@ svnфсpropschanged - Повертає **`true`**, якщо властивост
 ### Опис
 
 ```methodsynopsis
-svn_fs_props_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
+svn_fs_props_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
 ```
 
 **Увага**

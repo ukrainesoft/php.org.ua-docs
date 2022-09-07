@@ -15,7 +15,7 @@ strgetcsv — Розбирає CSV-рядки в масив
 ### Опис
 
 ```methodsynopsis
-str_getcsv(    string $string,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\"): array
+str_getcsv(    string $string,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\"): array
 ```
 
 Ця функція розбирає рядок у форматі CSV і повертає масив з отриманими з рядка полями.
@@ -61,8 +61,8 @@ str_getcsv(    string $string,    string $separator = ",",    string
 ```php
 <?php
 
-$string = 'PHP,Java,Python,Kotlin,Swift';
-$data = str_getcsv($string);
+$string = 'PHP,Java,Python,Kotlin,Swift';
+$data = str_getcsv($string);
 
 var_dump($data);
 ?>

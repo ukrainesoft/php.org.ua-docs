@@ -18,7 +18,7 @@ MongoDBBSONfromJSON — Повертає подання BSON значення JS
 MongoDB\BSON\fromJSON(string $json): string
 ```
 
-Перетворює рядок [» Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/) у її уявлення BSON.
+Перетворює рядок [» Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/) у її уявлення BSON.
 
 ### Список параметрів
 
@@ -41,9 +41,9 @@ MongoDB\BSON\fromJSON(string $json): string
 ```php
 <?php
 
-$json = '{ "_id": { "$oid": "563143b280d2387c91807965" } }';
-$bson = MongoDB\BSON\fromJSON($json);
-$value = MongoDB\BSON\toPHP($bson);
+$json = '{ "_id": { "$oid": "563143b280d2387c91807965" } }';
+$bson = MongoDB\BSON\fromJSON($json);
+$value = MongoDB\BSON\toPHP($bson);
 var_dump($value);
 
 ?>
@@ -64,5 +64,5 @@ object(stdClass)#2 (1) {
 ### Дивіться також
 
 -   [MongoDBBSONtoJSON()](function.mongodb.bson-tojson.md) - Повертає Legacy Extended JSON подання значення BSON
--   [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
--   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

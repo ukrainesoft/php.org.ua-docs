@@ -39,7 +39,7 @@ title: Підтримка Windows
 
 ### readline
 
-Модуль [readline](book.readline.md) підтримується через бібліотеку [» WinEditLine](http://mingweditline.sourceforge.net/). Таким чином, інтерфейс оболонки CLI також підтримується (`php.exe -a`
+Модуль [readline](book.readline.md) підтримується через бібліотеку [» WinEditLine](http://mingweditline.sourceforge.net/). Таким чином, інтерфейс оболонки CLI також підтримується (`php.exe -a`
 
 ### PHPFCGICHILDREN
 

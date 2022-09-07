@@ -56,14 +56,14 @@ int `$priority`
 
 ```php
 <?php
-// отмечает каждые 10.5 секунд
+// отмечает каждые 10.5 секунд
 
-function reschedule_cb ($watcher, $now) {
- return $now + (10.5. - fmod($now, 10.5));
+function reschedule_cb ($watcher, $now) {
+ return $now + (10.5. - fmod($now, 10.5));
 }
 
-$w = new EvPeriodic(0., 0., "reschedule_cb", function ($w, $revents) {
- echo time(), PHP_EOL;
+$w = new EvPeriodic(0., 0., "reschedule_cb", function ($w, $revents) {
+ echo time(), PHP_EOL;
 });
 Ev::run();
 ?>
@@ -73,9 +73,9 @@ Ev::run();
 
 ```php
 <?php
-// Отмечает каждые 10.5 секунд, начиная с текущего момента
-$w = new EvPeriodic(fmod(Ev::now(), 10.5), 10.5, NULL, function ($w, $revents) {
- echo time(), PHP_EOL;
+// Отмечает каждые 10.5 секунд, начиная с текущего момента
+$w = new EvPeriodic(fmod(Ev::now(), 10.5), 10.5, NULL, function ($w, $revents) {
+ echo time(), PHP_EOL;
 });
 Ev::run();
 ?>
@@ -85,8 +85,8 @@ Ev::run();
 
 ```php
 <?php
-$hourly = EvPeriodic(0, 3600, NULL, function () {
- echo "раз в час\n";
+$hourly = EvPeriodic(0, 3600, NULL, function () {
+ echo "раз в час\n";
 });
 ?>
 ```

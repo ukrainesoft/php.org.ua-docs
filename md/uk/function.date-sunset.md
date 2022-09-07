@@ -19,7 +19,7 @@ datesunset — Повертає час заходу сонця для задан
 ### Опис
 
 ```methodsynopsis
-date_sunset(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STRING,    ?float $latitude = null,    ?float $longitude = null,    ?float $zenith = null,    ?float $utcOffset = null): string|int|float|false
+date_sunset(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STRING,    ?float $latitude = null,    ?float $longitude = null,    ?float $zenith = null,    ?float $utcOffset = null): string|int|float|false
 ```
 
 **datesunset()** повертає час заходу сонця для певних днів (заданого аргументом `timestamp`) та місця розташування.
@@ -87,14 +87,14 @@ date_sunset(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STRI
 ```php
 <?php
 
-/* calculate the sunset time for Lisbon, Portugal
-Latitude: 38.4 North
-Longitude: 9 West
-Zenith ~= 90
-offset: +1 GMT
+/* calculate the sunset time for Lisbon, Portugal
+Latitude: 38.4 North
+Longitude: 9 West
+Zenith ~= 90
+offset: +1 GMT
 */
 
-echo date("D M d Y"). ', время захода солнца : ' .date_sunset(time(), SUNFUNCS_RET_STRING, 38.4, -9, 90, 1);
+echo date("D M d Y"). ', время захода солнца : ' .date_sunset(time(), SUNFUNCS_RET_STRING, 38.4, -9, 90, 1);
 
 ?>
 ```
@@ -109,8 +109,8 @@ Mon Dec 20 2004, время захода солнца : 18:13
 
 ```php
 <?php
-$solstice = strtotime('2017-12-21');
-var_dump(date_sunset($solstice, SUNFUNCS_RET_STRING, 69.245833, -53.537222));
+$solstice = strtotime('2017-12-21');
+var_dump(date_sunset($solstice, SUNFUNCS_RET_STRING, 69.245833, -53.537222));
 ?>
 ```
 

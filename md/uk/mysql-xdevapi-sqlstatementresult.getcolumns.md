@@ -35,7 +35,7 @@ public mysql_xdevapi\SqlStatementResult::getColumns(): Array
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

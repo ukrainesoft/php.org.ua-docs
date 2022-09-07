@@ -38,11 +38,11 @@ public Imagick::equalizeImage(): bool
 
 ```php
 <?php
-function equalizeImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->equalizeImage();
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function equalizeImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->equalizeImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

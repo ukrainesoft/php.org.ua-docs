@@ -39,23 +39,23 @@ PHP підтримує десять найпростіших типів.
 > 
 > ```php
 > <?php
-> $a_bool = TRUE;   // логический
-> $a_str  = "foo";  // строковый
-> $a_str2 = 'foo';  // строковый
-> $an_int = 12;     // целочисленный
+> $a_bool = TRUE;   // логический
+> $a_str  = "foo";  // строковый
+> $a_str2 = 'foo';  // строковый
+> $an_int = 12;     // целочисленный
 > 
-> echo gettype($a_bool); // выводит: boolean
-> echo gettype($a_str);  // выводит: string
+> echo gettype($a_bool); // выводит: boolean
+> echo gettype($a_str);  // выводит: string
 > 
-> // Если это целое, увеличить на четыре
-> if (is_int($an_int)) {
->     $an_int += 4;
+> // Если это целое, увеличить на четыре
+> if (is_int($an_int)) {
+>     $an_int += 4;
 > }
 > 
-> // Если $a_bool - это строка, вывести её
-> // (ничего не выводит)
-> if (is_string($a_bool)) {
->     echo "Строка: $a_bool";
+> // Если $a_bool - это строка, вывести её
+> // (ничего не выводит)
+> if (is_string($a_bool)) {
+>     echo "Строка: $a_bool";
 > }
 > ?>
 > ```

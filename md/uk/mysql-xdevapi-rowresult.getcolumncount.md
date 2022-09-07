@@ -40,16 +40,16 @@ public mysql_xdevapi\RowResult::getColumnsCount(): int
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE addressbook")->execute();
-$session->sql("CREATE DATABASE foo")->execute();
-$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
-$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+$session->sql("DROP DATABASE addressbook")->execute();
+$session->sql("CREATE DATABASE foo")->execute();
+$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
 
-$sql = $session->sql("SELECT * from addressbook.names")->execute();
+$sql = $session->sql("SELECT * from addressbook.names")->execute();
 
-echo $sql->getColumnsCount();
+echo $sql->getColumnsCount();
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

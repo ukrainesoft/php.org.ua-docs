@@ -54,14 +54,14 @@ IV призначений лише завдання альтернативног
 
 ```php
 <?php
-    $size = mcrypt_get_iv_size(MCRYPT_CAST_256, MCRYPT_MODE_CFB);
-    $iv = mcrypt_create_iv($size, MCRYPT_DEV_RANDOM);
+    $size = mcrypt_get_iv_size(MCRYPT_CAST_256, MCRYPT_MODE_CFB);
+    $iv = mcrypt_create_iv($size, MCRYPT_DEV_RANDOM);
 ?>
 ```
 
 ### Дивіться також
 
--   [» http://www.ciphersbyritter.com/GLOSSARY.HTM#IV](http://www.ciphersbyritter.com/GLOSSARY.HTM#IV)
--   [» http://www.quadibloc.com/crypto/co0409.htm](http://www.quadibloc.com/crypto/co0409.htm)
+-   [» http://www.ciphersbyritter.com/GLOSSARY.HTM#IV](http://www.ciphersbyritter.com/GLOSSARY.HTM#IV)
+-   [» http://www.quadibloc.com/crypto/co0409.htm](http://www.quadibloc.com/crypto/co0409.htm)
 -   Applied Cryptography by Schneier (ISBN 0-471-11709-9), розділ 9.3
 -   [randombytes()](function.random-bytes.md) - Генерує криптографічно безпечні псевдовипадкові байти

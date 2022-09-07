@@ -46,14 +46,14 @@ public RegexIterator::setFlags(int $flags): void
 
 ```php
 <?php
-$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
+$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
 
-$arrayIterator = new ArrayIterator($test);
-$regexIterator = new RegexIterator($arrayIterator, '/^test/');
+$arrayIterator = new ArrayIterator($test);
+$regexIterator = new RegexIterator($arrayIterator, '/^test/');
 $regexIterator->setFlags(RegexIterator::USE_KEY);
 
-foreach ($regexIterator as $key => $value) {
-    echo $key . ' => ' . $value . "\n";
+foreach ($regexIterator as $key => $value) {
+    echo $key . ' => ' . $value . "\n";
 }
 ?>
 ```

@@ -15,7 +15,7 @@ title: 'ОЙDrawPath::bezierTo'
 ### Опис
 
 ```methodsynopsis
-public UI\Draw\Path::bezierTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public UI\Draw\Path::bezierTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 ```
 
 Намалює криву Безьє

@@ -15,7 +15,7 @@ eiounlink — Видаляє файл або одне з жорстких пос
 ### Опис
 
 ```methodsynopsis
-eio_unlink(    string $path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_unlink(    string $path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiounlink()** видаляє ім'я із файлової системи.
@@ -35,7 +35,7 @@ eio_unlink(    string $path,    int $pri = EIO_PRI_DEFAULT,    calla
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

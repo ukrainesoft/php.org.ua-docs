@@ -42,11 +42,11 @@ ibase_fetch_object(resource $result_id, int $fetch_flag = 0): object
 
 ```php
 <?php
-$dbh = ibase_connect($host, $username, $password);
-$stmt = 'SELECT * FROM tblname';
-$sth = ibase_query($dbh, $stmt);
-while ($row = ibase_fetch_object($sth)) {
-    echo $row->email . "\n";
+$dbh = ibase_connect($host, $username, $password);
+$stmt = 'SELECT * FROM tblname';
+$sth = ibase_query($dbh, $stmt);
+while ($row = ibase_fetch_object($sth)) {
+    echo $row->email . "\n";
 }
 ibase_close($dbh);
 ?>

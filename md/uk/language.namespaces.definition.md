@@ -18,11 +18,11 @@ title: Визначення просторів імен
 
 ```php
 <?php
-namespace MyProject;
+namespace MyProject;
 
-const CONNECT_OK = 1;
-class Connection { /* ... */ }
-function connect() { /* ... */  }
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 
 ?>
 ```
@@ -36,7 +36,7 @@ function connect() { /* ... */  }
 ```php
 <html>
 <?php
-namespace MyProject; // fatal error - объявление пространства имён должно быть первым выражением в скрипте
+namespace MyProject; // fatal error - объявление пространства имён должно быть первым выражением в скрипте
 ?>
 ```
 

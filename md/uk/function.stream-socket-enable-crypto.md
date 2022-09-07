@@ -15,7 +15,7 @@ streamsocketenablecrypto — Вмикає або вимикає шифруван
 ### Опис
 
 ```methodsynopsis
-stream_socket_enable_crypto(    resource $stream,    bool $enable,    ?int $crypto_method = null,    ?resource $session_stream = null): int|bool
+stream_socket_enable_crypto(    resource $stream,    bool $enable,    ?int $crypto_method = null,    ?resource $session_stream = null): int|bool
 ```
 
 Вмикає або вимикає шифрування на потоці.
@@ -75,21 +75,21 @@ stream_socket_enable_crypto(    resource $stream,    bool $enable,   
 
 ```php
 <?php
-$fp = stream_socket_client("tcp://myproto.example.com:31337", $errno, $errstr, 30);
-if (!$fp) {
-    die("Не могу соединиться: $errstr ($errno)");
+$fp = stream_socket_client("tcp://myproto.example.com:31337", $errno, $errstr, 30);
+if (!$fp) {
+    die("Не могу соединиться: $errstr ($errno)");
 }
 
-/* Включить шифрование для этапа входа в систему */
-stream_socket_enable_crypto($fp, true, STREAM_CRYPTO_METHOD_SSLv23_CLIENT);
-fwrite($fp, "USER бог\r\n");
-fwrite($fp, "PASS секрет\r\n");
+/* Включить шифрование для этапа входа в систему */
+stream_socket_enable_crypto($fp, true, STREAM_CRYPTO_METHOD_SSLv23_CLIENT);
+fwrite($fp, "USER бог\r\n");
+fwrite($fp, "PASS секрет\r\n");
 
-/* Отключить шифрование для всего остального */
-stream_socket_enable_crypto($fp, false);
+/* Отключить шифрование для всего остального */
+stream_socket_enable_crypto($fp, false);
 
-while ($motd = fgets($fp)) {
-    echo $motd;
+while ($motd = fgets($fp)) {
+    echo $motd;
 }
 
 fclose($fp);

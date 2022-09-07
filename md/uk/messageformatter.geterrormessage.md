@@ -46,10 +46,10 @@ msgfmt_get_error_message(MessageFormatter $formatter): string
 
 ```php
 <?php
-$fmt = msgfmt_create("en_US", "{0, number} monkeys on {1, number} trees");
-$str = msgfmt_format($fmt, array());
-if(!$str) {
-    echo "ERROR: ".msgfmt_get_error_message($fmt) . " (" . msgfmt_get_error_code($fmt) . ")\n";
+$fmt = msgfmt_create("en_US", "{0, number} monkeys on {1, number} trees");
+$str = msgfmt_format($fmt, array());
+if(!$str) {
+    echo "ERROR: ".msgfmt_get_error_message($fmt) . " (" . msgfmt_get_error_code($fmt) . ")\n";
 }
 ?>
 ```
@@ -58,10 +58,10 @@ if(!$str) {
 
 ```php
 <?php
-$fmt = new MessageFormatter("en_US", "{0, number} monkeys on {1, number} trees");
-$str = $fmt->format(array());
-if(!$str) {
-    echo "ERROR: ".$fmt->getErrorMessage() . " (" . $fmt->getErrorCode() . ")\n";
+$fmt = new MessageFormatter("en_US", "{0, number} monkeys on {1, number} trees");
+$str = $fmt->format(array());
+if(!$str) {
+    echo "ERROR: ".$fmt->getErrorMessage() . " (" . $fmt->getErrorCode() . ")\n";
 }
 ?>
 ```

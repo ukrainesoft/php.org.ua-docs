@@ -15,10 +15,10 @@ title: Поради
 ```php
 <?php
 
-namespace MyProject;
+namespace MyProject;
 
-function my_function() {
-    return true;
+function my_function() {
+    return true;
 }
 
 \MyProject\my_function();

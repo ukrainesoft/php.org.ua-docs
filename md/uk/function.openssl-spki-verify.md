@@ -42,13 +42,13 @@ openssl_spki_verify(string $spki): bool
 
 ```php
 <?php
-$pkey = openssl_pkey_new('secret password');
-$spkac = openssl_spki_new($pkey, 'challenge string');
+$pkey = openssl_pkey_new('secret password');
+$spkac = openssl_spki_new($pkey, 'challenge string');
 
-if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $spkac))) {
-    echo $spkac;
-} else {
-    echo "Проверка SPKAC не удалась";
+if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $spkac))) {
+    echo $spkac;
+} else {
+    echo "Проверка SPKAC не удалась";
 }
 ?>
 ```
@@ -59,13 +59,13 @@ if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $spkac))) {
 
 ```php
 <?php
-if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $_POST['spkac']))) {
-    echo $spkac;
-} else {
-    echo "Проверка SPKAC не удалась";
+if (openssl_spki_verify(preg_replace('/SPKAC=/', '', $_POST['spkac']))) {
+    echo $spkac;
+} else {
+    echo "Проверка SPKAC не удалась";
 }
 ?>
-<keygen name="spkac" challenge="challenge string" keytype="RSA">
+<keygen name="spkac" challenge="challenge string" keytype="RSA">
 ```
 
 ### Дивіться також

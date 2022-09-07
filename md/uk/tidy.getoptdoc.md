@@ -55,21 +55,21 @@ tidy_get_opt_doc(tidy $tidy, string $option): string|false
 ```php
 <?php
 
-$tidy = new tidy;
-$config = $tidy->getConfig();
+$tidy = new tidy;
+$config = $tidy->getConfig();
 
 ksort($config);
 
-foreach ($config as $opt => $val) {
+foreach ($config as $opt => $val) {
 
-    if (!$doc = $tidy->getOptDoc($opt))
-        $doc = 'документация не существует!';
+    if (!$doc = $tidy->getOptDoc($opt))
+        $doc = 'документация не существует!';
 
-    $val = ($tidy->getOpt($opt) === true)  ? 'true'  : $val;
-    $val = ($tidy->getOpt($opt) === false) ? 'false' : $val;
+    $val = ($tidy->getOpt($opt) === true)  ? 'true'  : $val;
+    $val = ($tidy->getOpt($opt) === false) ? 'false' : $val;
 
-    echo "<p><b>$opt</b> (default: '$val')<br />".
-         "$doc</p><hr />\n";
+    echo "<p><b>$opt</b> (default: '$val')<br />".
+         "$doc</p><hr />\n";
 }
 
 ?>

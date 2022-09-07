@@ -46,10 +46,10 @@ resourcebundle_get_error_message(ResourceBundle $bundle): string
 
 ```php
 <?php
-$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
-echo $r['somestring'];
-if(intl_is_failure(resourcebundle_get_error_code($r))) {
-    report_error("Ошибка пакета: ".resourcebundle_get_error_message($r));
+$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
+echo $r['somestring'];
+if(intl_is_failure(resourcebundle_get_error_code($r))) {
+    report_error("Ошибка пакета: ".resourcebundle_get_error_message($r));
 }
 ?>
 ```
@@ -58,10 +58,10 @@ if(intl_is_failure(resourcebundle_get_error_code($r))) {
 
 ```php
 <?php
-$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
-echo $r['somestring'];
-if(intl_is_failure(ResourceBundle::getErrorCode($r))) {
-    report_error("Ошибка пакета: ".ResourceBundle::getErrorMessage($r));
+$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
+echo $r['somestring'];
+if(intl_is_failure(ResourceBundle::getErrorCode($r))) {
+    report_error("Ошибка пакета: ".ResourceBundle::getErrorMessage($r));
 }
 ?>
 ```

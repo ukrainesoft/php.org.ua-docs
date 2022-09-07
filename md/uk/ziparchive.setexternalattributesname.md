@@ -15,7 +15,7 @@ ZipArchive::setExternalAttributesName — Встановлення зовніш�
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::setExternalAttributesName(    string $name,    int $opsys,    int $attr,    int $flags = 0): bool
+public ZipArchive::setExternalAttributesName(    string $name,    int $opsys,    int $attr,    int $flags = 0): bool
 ```
 
 Встановлення зовнішніх атрибутів запису, заданого на ім'я.
@@ -50,15 +50,15 @@ public ZipArchive::setExternalAttributesName(    string $name,    int $o
 
 ```php
 <?php
-$zip = new ZipArchive();
-$stat = stat($filename='test.txt');
-if (is_array($stat) && $zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
-    $zip->addFile($filename);
-    $zip->setExternalAttributesName($filename, ZipArchive::OPSYS_UNIX, $stat['mode'] << 16);
-    $zip->close();
-    echo "готово\n";
-} else {
-    echo "ошибка\n";
+$zip = new ZipArchive();
+$stat = stat($filename='test.txt');
+if (is_array($stat) && $zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
+    $zip->addFile($filename);
+    $zip->setExternalAttributesName($filename, ZipArchive::OPSYS_UNIX, $stat['mode'] << 16);
+    $zip->close();
+    echo "готово\n";
+} else {
+    echo "ошибка\n";
 }
 ?>
 ```

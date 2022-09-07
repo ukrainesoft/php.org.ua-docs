@@ -44,8 +44,8 @@ chunk_split(string $string, int $length = 76, string $separator = "\r\n"): strin
 
 ```php
 <?php
-// форматирование данных в соответствии с RFC 2045
-$new_string = chunk_split(base64_encode($data));
+// форматирование данных в соответствии с RFC 2045
+$new_string = chunk_split(base64_encode($data));
 ?>
 ```
 
@@ -54,4 +54,4 @@ $new_string = chunk_split(base64_encode($data));
 -   [strsplit()](function.str-split.md) - Перетворює рядок на масив
 -   [explode()](function.explode.md) - Розбиває рядок за допомогою роздільника
 -   [wordwrap()](function.wordwrap.md) - Переносить рядок за вказаною кількістю символів
--   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045)
+-   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045)

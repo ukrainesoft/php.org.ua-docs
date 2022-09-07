@@ -55,19 +55,19 @@ imagewbmp(GdImage $image, resource|string|null $file = null, ?int $foreground_co
 
 ```php
 <?php
-// создание пустого изображения и добавление текста
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
+// создание пустого изображения и добавление текста
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
 
-// Тип содержимого, в данном случае image/vnd.wap.wbmp
-// Подсказка: смотрите image_type_to_mime_type()
-header('Content-Type: image/vnd.wap.wbmp');
+// Тип содержимого, в данном случае image/vnd.wap.wbmp
+// Подсказка: смотрите image_type_to_mime_type()
+header('Content-Type: image/vnd.wap.wbmp');
 
-// Вывод изображения
+// Вывод изображения
 imagewbmp($im);
 
-// Освобождение памяти
+// Освобождение памяти
 imagedestroy($im);
 ?>
 ```
@@ -76,15 +76,15 @@ imagedestroy($im);
 
 ```php
 <?php
-// создание пустого изображения и добавление текста
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
+// создание пустого изображения и добавление текста
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
 
-// Сохранение изображения
-imagewbmp($im, 'simpletext.wbmp');
+// Сохранение изображения
+imagewbmp($im, 'simpletext.wbmp');
 
-// Освобождение памяти
+// Освобождение памяти
 imagedestroy($im);
 ?>
 ```
@@ -93,21 +93,21 @@ imagedestroy($im);
 
 ```php
 <?php
-// создание пустого изображения и добавление текста
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
+// создание пустого изображения и добавление текста
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
 
-// Тип содержимого, в данном случае image/vnd.wap.wbmp
-// Подсказка: смотрите image_type_to_mime_type()
-header('Content-Type: image/vnd.wap.wbmp');
+// Тип содержимого, в данном случае image/vnd.wap.wbmp
+// Подсказка: смотрите image_type_to_mime_type()
+header('Content-Type: image/vnd.wap.wbmp');
 
-// замена цвета
-$foreground_color = imagecolorallocate($im, 255, 0, 0);
+// замена цвета
+$foreground_color = imagecolorallocate($im, 255, 0, 0);
 
-imagewbmp($im, NULL, $foreground_color);
+imagewbmp($im, NULL, $foreground_color);
 
-// Освобождение памяти
+// Освобождение памяти
 imagedestroy($im);
 ?>
 ```

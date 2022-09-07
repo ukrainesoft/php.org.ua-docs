@@ -36,14 +36,14 @@ public Imagick::normalizeImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
 
 ```php
 <?php
-function normalizeImage($imagePath, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $original = clone $imagick;
-    $original->cropimage($original->getImageWidth() / 2, $original->getImageHeight(), 0, 0);
-    $imagick->normalizeImage($channel);
-    $imagick->compositeimage($original, \Imagick::COMPOSITE_ATOP, 0, 0);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function normalizeImage($imagePath, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $original = clone $imagick;
+    $original->cropimage($original->getImageWidth() / 2, $original->getImageHeight(), 0, 0);
+    $imagick->normalizeImage($channel);
+    $imagick->compositeimage($original, \Imagick::COMPOSITE_ATOP, 0, 0);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

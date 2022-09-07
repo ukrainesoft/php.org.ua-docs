@@ -40,10 +40,10 @@ apache_request_headers(): array
 
 ```php
 <?php
-$headers = apache_request_headers();
+$headers = apache_request_headers();
 
-foreach ($headers as $header => $value) {
-    echo "$header: $value <br />\n";
+foreach ($headers as $header => $value) {
+    echo "$header: $value <br />\n";
 }
 ?>
 ```

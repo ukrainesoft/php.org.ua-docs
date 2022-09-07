@@ -37,7 +37,7 @@ bin2hex(string $string): string
 ```php
 <?php
 
-$hex = bin2hex('Hello world!');
+$hex = bin2hex('Hello world!');
 
 var_dump($hex);
 var_dump(hex2bin($hex));

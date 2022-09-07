@@ -38,8 +38,8 @@ gnupg_addencryptkey(resource $identifier, string $fingerprint): bool
 
 ```php
 <?php
-$res = gnupg_init();
-gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+$res = gnupg_init();
+gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
 ?>
 ```
 
@@ -47,7 +47,7 @@ gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->addencryptkey("8660281B6051D071D94B5B230549F9DC851566DC");
 ?>
 ```

@@ -15,7 +15,7 @@ ldapexoppasswd — Обгортка для розширеної операції
 ### Опис
 
 ```methodsynopsis
-ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",    string $old_password = "",    string $new_password = "",    array &$controls = null): string|bool
+ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",    string $old_password = "",    string $new_password = "",    array &$controls = null): string|bool
 ```
 
 Виконує розширену операцію PASSWD.
@@ -60,29 +60,29 @@ ldap_exop_passwd(    LDAP\Connection $ldap,    string $user = "",   �
 
 ```php
 <?php
-$ds = ldap_connect("localhost");  // предположим, что сервер LDAP запущен локально
+$ds = ldap_connect("localhost");  // предположим, что сервер LDAP запущен локально
 
-if ($ds) {
-    // Привязываемся к нужному DN
-    $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", "secret");
-    if (!$bind) {
-      echo "Невозможно осуществить привязку LDAP";
-      exit;
-    }
+if ($ds) {
+    // Привязываемся к нужному DN
+    $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", "secret");
+    if (!$bind) {
+      echo "Невозможно осуществить привязку LDAP";
+      exit;
+    }
 
-    // Используем PASSWD EXOP для смены пароля пользователя на новый случайный
-    $genpw = ldap_exop_passwd($ds, "cn=root, o=My Company, c=US", "secret");
-    if ($genpw) {
-      // Используем для привязки новый пароль
-      $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", $genpw);
-    }
+    // Используем PASSWD EXOP для смены пароля пользователя на новый случайный
+    $genpw = ldap_exop_passwd($ds, "cn=root, o=My Company, c=US", "secret");
+    if ($genpw) {
+      // Используем для привязки новый пароль
+      $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", $genpw);
+    }
 
-    // Возвращаем старый пароль "secret"
-    ldap_exop_passwd($ds, "cn=root, o=My Company, c=US", $genpw, "secret");
+    // Возвращаем старый пароль "secret"
+    ldap_exop_passwd($ds, "cn=root, o=My Company, c=US", $genpw, "secret");
 
-    ldap_close($ds);
-} else {
-    echo "Невозможно соединиться с сервером LDAP";
+    ldap_close($ds);
+} else {
+    echo "Невозможно соединиться с сервером LDAP";
 }
 ?>
 ```

@@ -51,44 +51,44 @@ Callback – функція прогресу для виклику. Вона п�
 
 ```php
 <?php
-        $abortReason = null;
+        $abortReason = null;
 
-        try {
-            $imagick = new \Imagick(realpath($this->control->getImagePath()));
-            $startTime = time();
+        try {
+            $imagick = new \Imagick(realpath($this->control->getImagePath()));
+            $startTime = time();
 
-            $callback = function ($offset, $span)  use ($startTime, &$abortReason) {
-                if (((100 * $offset) / $span)  > 20) {
-                    $abortReason = "Обработка достигла 20%";
-                    return false;
-                }
+            $callback = function ($offset, $span)  use ($startTime, &$abortReason) {
+                if (((100 * $offset) / $span)  > 20) {
+                    $abortReason = "Обработка достигла 20%";
+                    return false;
+                }
 
-                $nowTime = time();
+                $nowTime = time();
 
-                if ($nowTime - $startTime > 5) {
-                    $abortReason = "Обработка изображения заняла более 5 секунд";
-                    return false;
-                }
-                if (($offset % 5) == 0) {
-                    echo "Прогресс: $offset / $span <br/>";
-                }
-                return true;
-            };
+                if ($nowTime - $startTime > 5) {
+                    $abortReason = "Обработка изображения заняла более 5 секунд";
+                    return false;
+                }
+                if (($offset % 5) == 0) {
+                    echo "Прогресс: $offset / $span <br/>";
+                }
+                return true;
+            };
 
-            $imagick->setProgressMonitor($callback);
+            $imagick->setProgressMonitor($callback);
 
-            $imagick->waveImage(2, 15);
+            $imagick->waveImage(2, 15);
 
-            echo "Длина данных: ".strlen($imagick->getImageBlob());
-        }
-        catch(\ImagickException $e) {
-            if ($abortReason != null) {
-                echo "Обработка изображения была прервана: ".$abortReason."<br/>";
-            }
-            else {
-                echo "Поймано исключение ImagickException: ".$e->getMessage()." Тип исключения - ".get_class($e);
-            }
-        }
+            echo "Длина данных: ".strlen($imagick->getImageBlob());
+        }
+        catch(\ImagickException $e) {
+            if ($abortReason != null) {
+                echo "Обработка изображения была прервана: ".$abortReason."<br/>";
+            }
+            else {
+                echo "Поймано исключение ImagickException: ".$e->getMessage()." Тип исключения - ".get_class($e);
+            }
+        }
 
 ?>
 ```

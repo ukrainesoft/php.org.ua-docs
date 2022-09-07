@@ -34,8 +34,8 @@ public Ds\Stack::isEmpty(): bool
 
 ```php
 <?php
-$a = new \Ds\Stack([1, 2, 3]);
-$b = new \Ds\Stack();
+$a = new \Ds\Stack([1, 2, 3]);
+$b = new \Ds\Stack();
 
 var_dump($a->isEmpty());
 var_dump($b->isEmpty());

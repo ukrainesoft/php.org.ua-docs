@@ -15,7 +15,7 @@ fsockopen — Відкриває з'єднання з інтернет-соке�
 ### Опис
 
 ```methodsynopsis
-fsockopen(    string $hostname,    int $port = -1,    int &$error_code = null,    string &$error_message = null,    ?float $timeout = null): resource|false
+fsockopen(    string $hostname,    int $port = -1,    int &$error_code = null,    string &$error_message = null,    ?float $timeout = null): resource|false
 ```
 
 Встановлює з'єднання із сокетом ресурсу `hostname`
@@ -74,18 +74,18 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 ```php
 <?php
-$fp = fsockopen("www.example.com", 80, $errno, $errstr, 30);
-if (!$fp) {
-    echo "$errstr ($errno)<br />\n";
-} else {
-    $out = "GET / HTTP/1.1\r\n";
-    $out .= "Host: www.example.com\r\n";
-    $out .= "Connection: Close\r\n\r\n";
-    fwrite($fp, $out);
-    while (!feof($fp)) {
-        echo fgets($fp, 128);
-    }
-    fclose($fp);
+$fp = fsockopen("www.example.com", 80, $errno, $errstr, 30);
+if (!$fp) {
+    echo "$errstr ($errno)<br />\n";
+} else {
+    $out = "GET / HTTP/1.1\r\n";
+    $out .= "Host: www.example.com\r\n";
+    $out .= "Connection: Close\r\n\r\n";
+    fwrite($fp, $out);
+    while (!feof($fp)) {
+        echo fgets($fp, 128);
+    }
+    fclose($fp);
 }
 ?>
 ```
@@ -96,13 +96,13 @@ if (!$fp) {
 
 ```php
 <?php
-$fp = fsockopen("udp://127.0.0.1", 13, $errno, $errstr);
-if (!$fp) {
-    echo "ERROR: $errno - $errstr<br />\n";
-} else {
-    fwrite($fp, "\n");
-    echo fread($fp, 26);
-    fclose($fp);
+$fp = fsockopen("udp://127.0.0.1", 13, $errno, $errstr);
+if (!$fp) {
+    echo "ERROR: $errno - $errstr<br />\n";
+} else {
+    fwrite($fp, "\n");
+    echo fread($fp, 26);
+    fclose($fp);
 }
 ?>
 ```

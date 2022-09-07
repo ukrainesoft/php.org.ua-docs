@@ -15,7 +15,7 @@ OAuth::getAccessToken — Отримати токен доступу
 ### Опис
 
 ```methodsynopsis
-public OAuth::getAccessToken(    string $access_token_url,    string $auth_session_handle = ?,    string $verifier_token = ?,    string $http_method = ?): array
+public OAuth::getAccessToken(    string $access_token_url,    string $auth_session_handle = ?,    string $verifier_token = ?,    string $http_method = ?): array
 ```
 
 Отримує токен доступу, його пароль та всі додаткові параметри відповіді від провайдера сервісу.
@@ -28,11 +28,11 @@ URL до API видачі токена доступу.
 
 `auth_session_handle`
 
-Обробник сесії авторизації. Цей параметр не описується в специфікації OAuth 1.0, але безліччю провайдерів реалізується. Детальніше читайте за посиланням [» ScalableOAuth](http://oauth.pbwiki.com/ScalableOAuth/)
+Обробник сесії авторизації. Цей параметр не описується в специфікації OAuth 1.0, але безліччю провайдерів реалізується. Детальніше читайте за посиланням [» ScalableOAuth](http://oauth.pbwiki.com/ScalableOAuth/)
 
 `verifier_token`
 
-Для провайдерів із підтримкою 1.0a, параметр `verifier_token` повинен бути заданий під час обміну токена запиту на токен доступу. Якщо `verifier_token` присутній у `$_GET` або `$_POST`, то він буде заданий автоматично і стороні, що викликає, не потрібно явно його задавати в параметрі `verifier_token` (звичайно якщо токен доступу обмінюється за допомогою oauthcallback URL). Детальніше читайте за посиланням [» ScalableOAuth](http://oauth.pbwiki.com/ScalableOAuth/)
+Для провайдерів із підтримкою 1.0a, параметр `verifier_token` повинен бути заданий під час обміну токена запиту на токен доступу. Якщо `verifier_token` присутній у `$_GET` або `$_POST`, то він буде заданий автоматично і стороні, що викликає, не потрібно явно його задавати в параметрі `verifier_token` (звичайно якщо токен доступу обмінюється за допомогою oauthcallback URL). Детальніше читайте за посиланням [» ScalableOAuth](http://oauth.pbwiki.com/ScalableOAuth/)
 
 `http_method`
 
@@ -55,17 +55,17 @@ URL до API видачі токена доступу.
 
 ```php
 <?php
-try {
-    $oauth = new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET);
-    $oauth->setToken($request_token,$request_token_secret);
-    $access_token_info = $oauth->getAccessToken("https://example.com/oauth/access_token");
-    if(!empty($access_token_info)) {
-        print_r($access_token_info);
-    } else {
-        print "Не удалось получить токен доступа, ответ был: " . $oauth->getLastResponse();
-    }
-} catch(OAuthException $E) {
-    echo "Ответ: ". $E->lastResponse . "\n";
+try {
+    $oauth = new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET);
+    $oauth->setToken($request_token,$request_token_secret);
+    $access_token_info = $oauth->getAccessToken("https://example.com/oauth/access_token");
+    if(!empty($access_token_info)) {
+        print_r($access_token_info);
+    } else {
+        print "Не удалось получить токен доступа, ответ был: " . $oauth->getLastResponse();
+    }
+} catch(OAuthException $E) {
+    echo "Ответ: ". $E->lastResponse . "\n";
 }
 ?>
 ```

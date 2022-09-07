@@ -40,22 +40,22 @@ public
 
 ```php
 <?php
-$base = new EventBase();
-$http = new EventHttp($base);
+$base = new EventBase();
+$http = new EventHttp($base);
 
-$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
-if (!$http->bind("127.0.0.1", 8088)) {
-    exit("bind(1) ошибка\n");
+if (!$http->bind("127.0.0.1", 8088)) {
+    exit("bind(1) ошибка\n");
 };
 
-if (!$http->addServerAlias("local.net")) {
-    exit("Не удалось добавить псевдоним сервера\n");
+if (!$http->addServerAlias("local.net")) {
+    exit("Не удалось добавить псевдоним сервера\n");
 }
 
-$http->setCallback("/about", function($req) {
-    echo "URI: ", $req->getUri(), PHP_EOL;
-    $req->sendReply(200, "OK");
+$http->setCallback("/about", function($req) {
+    echo "URI: ", $req->getUri(), PHP_EOL;
+    $req->sendReply(200, "OK");
 });
 $base->dispatch();
 ?>

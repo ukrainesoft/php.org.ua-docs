@@ -15,7 +15,7 @@ title: мбstrrichr
 ### Опис
 
 ```methodsynopsis
-mb_strrichr(    string $haystack,    string $needle,    bool $before_needle = false,    ?string $encoding = null): string|false
+mb_strrichr(    string $haystack,    string $needle,    bool $before_needle = false,    ?string $encoding = null): string|false
 ```
 
 **мбstrrichr()** шукає останнє входження рядка `needle` у рядку `haystack` та повертає частину рядка `haystack`. На відміну від [мбstrrchr()](function.mb-strrchr.md) **мбstrrichr()** не чутлива до регістру символів. Якщо `needle` не знайдено, функція повертає **`false`**

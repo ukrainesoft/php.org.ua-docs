@@ -31,24 +31,24 @@ Apple Banana Cherry
 ```php
 <?php
 
-$xmldoc = new DOMDocument();
-$xsldoc = new DOMDocument();
-$xsl = new XSLTProcessor();
+$xmldoc = new DOMDocument();
+$xsldoc = new DOMDocument();
+$xsl = new XSLTProcessor();
 
 $xmldoc->loadXML('fruits.xml');
 $xsldoc->loadXML('fruits.xsl');
 
 libxml_use_internal_errors(true);
-$result = $xsl->importStyleSheet($xsldoc);
-if (!$result) {
-    foreach (libxml_get_errors() as $error) {
-        echo "Libxml error: {$error->message}\n";
-    }
+$result = $xsl->importStyleSheet($xsldoc);
+if (!$result) {
+    foreach (libxml_get_errors() as $error) {
+        echo "Libxml error: {$error->message}\n";
+    }
 }
 libxml_use_internal_errors(false);
 
-if ($result) {
-    echo $xsl->transformToXML($xmldoc);
+if ($result) {
+    echo $xsl->transformToXML($xmldoc);
 }
 
 ?>

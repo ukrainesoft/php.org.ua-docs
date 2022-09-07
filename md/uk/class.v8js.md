@@ -45,12 +45,12 @@ title: 'Клас V8Js'
 
     /* Методы */
     
-   public __construct(    string $object_name = "PHP",    array $variables = array(),    array $extensions = array(),    bool $report_uncaught_exceptions = true)
+   public __construct(    string $object_name = "PHP",    array $variables = array(),    array $extensions = array(),    bool $report_uncaught_exceptions = true)
 
     public executeString(string $script, string $identifier = "V8Js::executeString()", int $flags = V8Js::FLAG_NONE): mixed
 public static getExtensions(): array
 public getPendingException(): V8JsException
-public static registerExtension(    string $extension_name,    string $script,    array $dependencies = array(),    bool $auto_enable = false): bool
+public static registerExtension(    string $extension_name,    string $script,    array $dependencies = array(),    bool $auto_enable = false): bool
 
    }
 ```

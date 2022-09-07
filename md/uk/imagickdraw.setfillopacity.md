@@ -40,27 +40,27 @@ public ImagickDraw::setFillOpacity(float $fillOpacity): bool
 
 ```php
 <?php
-function setFillOpacity($strokeColor, $fillColor, $backgroundColor) {
+function setFillOpacity($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeWidth(2);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeWidth(2);
 
-    $draw->rectangle(100, 200, 200, 300);
+    $draw->rectangle(100, 200, 200, 300);
 
-    $draw->setFillOpacity(0.4);
-    $draw->rectangle(300, 200, 400, 300);
+    $draw->setFillOpacity(0.4);
+    $draw->rectangle(300, 200, 400, 300);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

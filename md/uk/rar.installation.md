@@ -8,7 +8,7 @@ title: Встановлення
 ---
 ## Встановлення
 
-Модуль Rar в даний час доступний у PECL [» https://pecl.php.net/package/rar](https://pecl.php.net/package/rar)
+Модуль Rar в даний час доступний у PECL [» https://pecl.php.net/package/rar](https://pecl.php.net/package/rar)
 
 Ви також можете скористатися інсталятором PECL, щоб встановити модуль Rar. Для цього необхідно використати команду: **pecl -v install rar**
 

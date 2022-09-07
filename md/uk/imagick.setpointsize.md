@@ -38,19 +38,19 @@ public Imagick::setPointSize(float $point_size): bool
 
 ```php
 <?php
-/* Создание нового объекта Imagick */
-$im = new Imagick();
+/* Создание нового объекта Imagick */
+$im = new Imagick();
 
-/* Установка шрифта для объекта */
+/* Установка шрифта для объекта */
 $im->setFont("example.ttf");
 
-/* Установка размера */
+/* Установка размера */
 $im->setPointSize(12);
 
-/* Создание заголовка */
-$im->newPseudoImage(100, 100, "caption:Hello");
+/* Создание заголовка */
+$im->newPseudoImage(100, 100, "caption:Hello");
 
-/* Работа с изображением */
+/* Работа с изображением */
 ?>
 ```
 

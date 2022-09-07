@@ -54,21 +54,21 @@ session_start(array $options = []): bool
 
 ```php
 <?php
-// page1.php
+// page1.php
 
 session_start();
 
-echo 'Добро пожаловать на страницу 1';
+echo 'Добро пожаловать на страницу 1';
 
-$_SESSION['favcolor'] = 'green';
-$_SESSION['animal']   = 'cat';
-$_SESSION['time']     = time();
+$_SESSION['favcolor'] = 'green';
+$_SESSION['animal']   = 'cat';
+$_SESSION['time']     = time();
 
-// Работает, если сессионная cookie принята
-echo '<br /><a href="page2.php">page 2</a>';
+// Работает, если сессионная cookie принята
+echo '<br /><a href="page2.php">page 2</a>';
 
-// Или можно передать идентификатор сессии, если нужно
-echo '<br /><a href="page2.php?' . SID . '">page 2</a>';
+// Или можно передать идентификатор сессии, если нужно
+echo '<br /><a href="page2.php?' . SID . '">page 2</a>';
 ?>
 ```
 
@@ -78,18 +78,18 @@ echo '<br /><a href="page2.php?' . SID . '">page 2</a>';
 
 ```php
 <?php
-// page2.php
+// page2.php
 
 session_start();
 
-echo 'Добро пожаловать на страницу 2<br />';
+echo 'Добро пожаловать на страницу 2<br />';
 
-echo $_SESSION['favcolor']; // green
-echo $_SESSION['animal'];   // cat
-echo date('Y m d H:i:s', $_SESSION['time']);
+echo $_SESSION['favcolor']; // green
+echo $_SESSION['animal'];   // cat
+echo date('Y m d H:i:s', $_SESSION['time']);
 
-// Можете тут использовать идентификатор сессии, как в page1.php
-echo '<br /><a href="page1.php">page 1</a>';
+// Можете тут использовать идентификатор сессии, как в page1.php
+echo '<br /><a href="page1.php">page 1</a>';
 ?>
 ```
 
@@ -99,9 +99,9 @@ echo '<br /><a href="page1.php">page 1</a>';
 
 ```php
 <?php
-// Устанавливаем срок действия cookie одному дню.
+// Устанавливаем срок действия cookie одному дню.
 session_start([
-    'cookie_lifetime' => 86400,
+    'cookie_lifetime' => 86400,
 ]);
 ?>
 ```
@@ -110,12 +110,12 @@ session_start([
 
 ```php
 <?php
-// Если мы знаем, что в сессии не надо ничего изменять,
-// мы можем просто прочитать её переменные и сразу закрыть,
-// чтобы не блокировать файл сессии, который может понадобиться другим сессиям
+// Если мы знаем, что в сессии не надо ничего изменять,
+// мы можем просто прочитать её переменные и сразу закрыть,
+// чтобы не блокировать файл сессии, который может понадобиться другим сессиям
 session_start([
-    'cookie_lifetime' => 86400,
-    'read_and_close'  => true,
+    'cookie_lifetime' => 86400,
+    'read_and_close'  => true,
 ]);
 ```
 

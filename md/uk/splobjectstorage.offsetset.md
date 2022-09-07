@@ -44,11 +44,11 @@ public SplObjectStorage::offsetSet(object $object, mixed $info = null): void
 
 ```php
 <?php
-$s = new SplObjectStorage;
+$s = new SplObjectStorage;
 
-$o1 = new StdClass;
+$o1 = new StdClass;
 
-$s->offsetSet($o1, "hello"); // $s[$o1] = "hello";
+$s->offsetSet($o1, "hello"); // $s[$o1] = "hello";
 
 var_dump($s[$o1]);
 ?>

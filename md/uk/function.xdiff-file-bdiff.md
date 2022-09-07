@@ -46,10 +46,10 @@ xdiff_file_bdiff(string $old_file, string $new_file, string $dest): bool
 
 ```php
 <?php
-$old_version = 'my_script_1.0.tgz';
-$new_version = 'my_script_1.1.tgz';
+$old_version = 'my_script_1.0.tgz';
+$new_version = 'my_script_1.1.tgz';
 
-xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');
+xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');
 ?>
 ```
 

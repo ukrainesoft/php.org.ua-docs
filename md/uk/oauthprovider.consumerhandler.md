@@ -40,17 +40,17 @@ public OAuthProvider::consumerHandler(callable $callback_function): void
 
 ```php
 <?php
-function lookupConsumer($provider) {
+function lookupConsumer($provider) {
 
-    if ($provider->consumer_key === 'unknown') {
-        return OAUTH_CONSUMER_KEY_UNKNOWN;
-    } else if($provider->consumer_key == 'blacklisted' || $provider->consumer_key === 'throttled') {
-        return OAUTH_CONSUMER_KEY_REFUSED;
-    }
+    if ($provider->consumer_key === 'unknown') {
+        return OAUTH_CONSUMER_KEY_UNKNOWN;
+    } else if($provider->consumer_key == 'blacklisted' || $provider->consumer_key === 'throttled') {
+        return OAUTH_CONSUMER_KEY_REFUSED;
+    }
 
-    $provider->consumer_secret = "the_consumers_secret";
+    $provider->consumer_secret = "the_consumers_secret";
 
-    return OAUTH_OK;
+    return OAUTH_OK;
 }
 ?>
 ```

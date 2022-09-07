@@ -48,9 +48,9 @@ pspell_config_runtogether(PSpell\Config $config, bool $allow): bool
 
 ```php
 <?php
-$pspell_config = pspell_config_create("en");
-pspell_config_runtogether($pspell_config, true);
-$pspell = pspell_new_config($pspell_config);
-pspell_check($pspell, "thecat");
+$pspell_config = pspell_config_create("en");
+pspell_config_runtogether($pspell_config, true);
+$pspell = pspell_new_config($pspell_config);
+pspell_check($pspell, "thecat");
 ?>
 ```

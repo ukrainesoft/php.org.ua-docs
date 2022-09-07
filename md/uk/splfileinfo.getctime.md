@@ -38,8 +38,8 @@ public SplFileInfo::getCTime(): int|false
 
 ```php
 <?php
-$info = new SplFileInfo(__FILE__);
-echo 'Время последнего изменения ' . date('g:i a', $info->getCTime());
+$info = new SplFileInfo(__FILE__);
+echo 'Время последнего изменения ' . date('g:i a', $info->getCTime());
 ?>
 ```
 

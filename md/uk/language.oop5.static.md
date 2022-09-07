@@ -28,14 +28,14 @@ title: Ключове слово static
 
 ```php
 <?php
-class Foo {
-    public static function aStaticMethod() {
-        // ...
-    }
+class Foo {
+    public static function aStaticMethod() {
+        // ...
+    }
 }
 
 Foo::aStaticMethod();
-$classname = 'Foo';
+$classname = 'Foo';
 $classname::aStaticMethod();
 ?>
 ```
@@ -50,36 +50,36 @@ $classname::aStaticMethod();
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    public static $my_static = 'foo';
+    public static $my_static = 'foo';
 
-    public function staticValue() {
-        return self::$my_static;
-    }
+    public function staticValue() {
+        return self::$my_static;
+    }
 }
 
-class Bar extends Foo
+class Bar extends Foo
 {
-    public function fooStatic() {
-        return parent::$my_static;
-    }
+    public function fooStatic() {
+        return parent::$my_static;
+    }
 }
 
 
-print Foo::$my_static . "\n";
+print Foo::$my_static . "\n";
 
-$foo = new Foo();
-print $foo->staticValue() . "\n";
-print $foo->my_static . "\n";      // Не определено свойство my_static
+$foo = new Foo();
+print $foo->staticValue() . "\n";
+print $foo->my_static . "\n";      // Не определено свойство my_static
 
-print $foo::$my_static . "\n";
-$classname = 'Foo';
-print $classname::$my_static . "\n";
+print $foo::$my_static . "\n";
+$classname = 'Foo';
+print $classname::$my_static . "\n";
 
-print Bar::$my_static . "\n";
-$bar = new Bar();
-print $bar->fooStatic() . "\n";
+print Bar::$my_static . "\n";
+$bar = new Bar();
+print $bar->fooStatic() . "\n";
 ?>
 ```
 

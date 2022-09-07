@@ -15,7 +15,7 @@ eiosyncfs — Викликає системний syncfs у Linux, якщо це
 ### Опис
 
 ```methodsynopsis
-eio_syncfs(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_syncfs(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 ### Список параметрів
@@ -33,7 +33,7 @@ eio_syncfs(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

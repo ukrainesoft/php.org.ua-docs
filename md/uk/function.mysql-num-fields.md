@@ -43,14 +43,14 @@ mysql_num_fields(resource $result): int|false
 
 ```php
 <?php
-$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
-if (!$result) {
-    echo 'Не удалось выполнить запрос: ' . mysql_error();
-    exit;
+$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$result) {
+    echo 'Не удалось выполнить запрос: ' . mysql_error();
+    exit;
 }
 
-/* возвращает 2, так как id,email === двум полям */
-echo mysql_num_fields($result);
+/* возвращает 2, так как id,email === двум полям */
+echo mysql_num_fields($result);
 ?>
 ```
 

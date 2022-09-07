@@ -197,7 +197,7 @@ title: Клас UConverter
    public __construct(?string $destination_encoding = null, ?string $source_encoding = null)
 
     public convert(string $str, bool $reverse = false): string|false
-public fromUCallback(    int $reason,    array $source,    int $codePoint,    int &$error): string|int|array|null
+public fromUCallback(    int $reason,    array $source,    int $codePoint,    int &$error): string|int|array|null
 public static getAliases(string $name): array|false|null
 public static getAvailable(): array
 public getDestinationEncoding(): string|false|null
@@ -212,8 +212,8 @@ public static reasonText(int $reason): string
 public setDestinationEncoding(string $encoding): bool
 public setSourceEncoding(string $encoding): bool
 public setSubstChars(string $chars): bool
-public toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
-public static transcode(    string $str,    string $toEncoding,    string $fromEncoding,    ?array $options = null): string|false
+public toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
+public static transcode(    string $str,    string $toEncoding,    string $fromEncoding,    ?array $options = null): string|false
 
    }
 ```

@@ -46,10 +46,10 @@ public DOMElement::setAttribute(string $qualifiedName, string $value): DOMAttr|b
 
 ```php
 <?php
-$doc = new DOMDocument("1.0");
-$node = $doc->createElement("para");
-$newnode = $doc->appendChild($node);
-$newnode->setAttribute("align", "left");
+$doc = new DOMDocument("1.0");
+$node = $doc->createElement("para");
+$newnode = $doc->appendChild($node);
+$newnode->setAttribute("align", "left");
 ?>
 ```
 

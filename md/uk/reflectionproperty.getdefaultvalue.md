@@ -34,13 +34,13 @@ public ReflectionProperty::getDefaultValue(): mixed
 
 ```php
 <?php
-class Foo {
-    public $bar = 1;
-    public ?int $baz;
-    public int $boing = 0;
+class Foo {
+    public $bar = 1;
+    public ?int $baz;
+    public int $boing = 0;
 }
 
-$ro = new ReflectionClass(Foo::class);
+$ro = new ReflectionClass(Foo::class);
 var_dump($ro->getProperty('bar')->getDefaultValue());
 var_dump($ro->getProperty('baz')->getDefaultValue());
 var_dump($ro->getProperty('boing')->getDefaultValue());

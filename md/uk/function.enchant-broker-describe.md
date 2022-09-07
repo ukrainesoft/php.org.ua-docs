@@ -43,9 +43,9 @@ enchant_broker_describe(EnchantBroker $broker): array
 
 ```php
 <?php
-$r = enchant_broker_init();
-$bprovides = enchant_broker_describe($r);
-echo "Брокер предоставляет следующие бэкенды:\n";
+$r = enchant_broker_init();
+$bprovides = enchant_broker_describe($r);
+echo "Брокер предоставляет следующие бэкенды:\n";
 print_r($bprovides);
 
 ?>

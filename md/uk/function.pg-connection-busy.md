@@ -42,13 +42,13 @@ pg_connection_busy(PgSql\Connection $connection): bool
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединится");
-  $bs = pg_connection_busy($dbconn);
-  if ($bs) {
-      echo 'Соединение занято';
-  } else {
-     echo 'Соединение не занято';
-  }
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединится");
+  $bs = pg_connection_busy($dbconn);
+  if ($bs) {
+      echo 'Соединение занято';
+  } else {
+     echo 'Соединение не занято';
+  }
 ?>
 ```
 

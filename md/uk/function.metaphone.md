@@ -66,8 +66,8 @@ string(6) "PRKRMR"
 
 ```php
 <?php
-var_dump(metaphone('programming', 5));
-var_dump(metaphone('programmer', 5));
+var_dump(metaphone('programming', 5));
+var_dump(metaphone('programmer', 5));
 ?>
 ```
 
@@ -84,7 +84,7 @@ string(5) "PRKRM"
 
 ```php
 <?php
-var_dump(metaphone('Asterix', 5));
+var_dump(metaphone('Asterix', 5));
 ?>
 ```
 

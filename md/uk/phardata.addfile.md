@@ -46,20 +46,20 @@ public PharData::addFile(string $filename, ?string $localName = null): void
 
 ```php
 <?php
-try {
-    $a = new PharData('/path/to/my.tar');
+try {
+    $a = new PharData('/path/to/my.tar');
 
-    $a->addFile('/full/path/to/file');
-    // добавление файла
-    $b = $a['full/path/to/file']->getContent();
+    $a->addFile('/full/path/to/file');
+    // добавление файла
+    $b = $a['full/path/to/file']->getContent();
 
-    $a->addFile('/full/path/to/file', 'my/file.txt');
-    $c = $a['my/file.txt']->getContent();
+    $a->addFile('/full/path/to/file', 'my/file.txt');
+    $c = $a['my/file.txt']->getContent();
 
-    // добавление URL
-    $a->addFile('http://www.example.com', 'example.html');
-} catch (Exception $e) {
-    // обработка ошибок
+    // добавление URL
+    $a->addFile('http://www.example.com', 'example.html');
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

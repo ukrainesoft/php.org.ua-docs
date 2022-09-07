@@ -46,9 +46,9 @@ mcrypt_get_cipher_name(string $cipher): string
 
 ```php
 <?php
-   $cipher = MCRYPT_TripleDES;
+   $cipher = MCRYPT_TripleDES;
 
-   echo mcrypt_get_cipher_name($cipher);
+   echo mcrypt_get_cipher_name($cipher);
 ?>
 ```
 

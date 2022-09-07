@@ -15,7 +15,7 @@ imagescale — Масштабувати зображення за заданою
 ### Опис
 
 ```methodsynopsis
-imagescale(    GdImage $image,    int $width,    int $height = -1,    int $mode = IMG_BILINEAR_FIXED): GdImage|false
+imagescale(    GdImage $image,    int $width,    int $height = -1,    int $mode = IMG_BILINEAR_FIXED): GdImage|false
 ```
 
 **imagescale()** масштабує зображення, використовуючи заданий алгоритм інтерполяції.

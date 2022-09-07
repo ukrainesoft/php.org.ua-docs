@@ -46,21 +46,21 @@ imagecolormatch(GdImage $image1, GdImage $image2): bool
 
 ```php
 <?php
-// создание изображений
-$im1 = imagecreatefrompng('./gdlogo.png');
-$im2 = imagecreate(imagesx($im1), imagesy($im1));
+// создание изображений
+$im1 = imagecreatefrompng('./gdlogo.png');
+$im2 = imagecreate(imagesx($im1), imagesy($im1));
 
-// Добавим несколько цветов в $im2
-$colors   = Array();
-$colors[] = imagecolorallocate($im2, 255, 36, 74);
-$colors[] = imagecolorallocate($im2, 40, 0, 240);
-$colors[] = imagecolorallocate($im2, 82, 100, 255);
-$colors[] = imagecolorallocate($im2, 84, 63, 44);
+// Добавим несколько цветов в $im2
+$colors   = Array();
+$colors[] = imagecolorallocate($im2, 255, 36, 74);
+$colors[] = imagecolorallocate($im2, 40, 0, 240);
+$colors[] = imagecolorallocate($im2, 82, 100, 255);
+$colors[] = imagecolorallocate($im2, 84, 63, 44);
 
-// Зададим соответствия этих цветов цветам truecolor изображения
-imagecolormatch($im1, $im2);
+// Зададим соответствия этих цветов цветам truecolor изображения
+imagecolormatch($im1, $im2);
 
-// освободим память
+// освободим память
 imagedestroy($im1);
 imagedestroy($im2);
 ?>

@@ -51,11 +51,11 @@ get_headers(string $url, bool $associative = false, ?resource $context = null): 
 
 ```php
 <?php
-$url = 'http://www.example.com';
+$url = 'http://www.example.com';
 
 print_r(get_headers($url));
 
-print_r(get_headers($url, true));
+print_r(get_headers($url, true));
 ?>
 ```
 
@@ -93,16 +93,16 @@ Array
 
 ```php
 <?php
-// По умолчанию функция get_headers использует GET-запрос для получения заголовков. Если
-// вы хотите вместо него отправить HEAD-запрос, то это можно сделать, используя контекста потока:
+// По умолчанию функция get_headers использует GET-запрос для получения заголовков. Если
+// вы хотите вместо него отправить HEAD-запрос, то это можно сделать, используя контекста потока:
 stream_context_set_default(
-    array(
-        'http' => array(
-            'method' => 'HEAD'
-        )
-    )
+    array(
+        'http' => array(
+            'method' => 'HEAD'
+        )
+    )
 );
-$headers = get_headers('http://example.com');
+$headers = get_headers('http://example.com');
 ?>
 ```
 

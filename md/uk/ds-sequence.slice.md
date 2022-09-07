@@ -42,22 +42,22 @@ abstract public Ds\Sequence::slice(int $index, int $length = ?): Ds\Sequence
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c", "d", "e"]);
+$sequence = new \Ds\Vector(["a", "b", "c", "d", "e"]);
 
-// Диапазон от 2 до конца
+// Диапазон от 2 до конца
 print_r($sequence->slice(2));
 
-// Диапазон от 1 с длиной 3
-print_r($sequence->slice(1, 3));
+// Диапазон от 1 с длиной 3
+print_r($sequence->slice(1, 3));
 
-// Диапазон от 1 до конца
+// Диапазон от 1 до конца
 print_r($sequence->slice(1));
 
-// Диапазон от 2 с конца до начала
+// Диапазон от 2 с конца до начала
 print_r($sequence->slice(-2));
 
-// Диапазон от 1 от 1 с конца
-print_r($sequence->slice(1, -1));
+// Диапазон от 1 от 1 с конца
+print_r($sequence->slice(1, -1));
 ?>
 ```
 

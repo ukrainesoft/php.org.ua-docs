@@ -35,12 +35,12 @@ oci_server_version(resource $connection): string|false
 ```php
 <?php
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-echo "Версия сервера: " . oci_server_version($conn);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+echo "Версия сервера: " . oci_server_version($conn);
 
-// Выведет:
-// Версия сервера: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
-// With the Partitioning, OLAP, Data Mining and Real Application Testing option
+// Выведет:
+// Версия сервера: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+// With the Partitioning, OLAP, Data Mining and Real Application Testing option
 
 oci_close($conn);
 

@@ -55,4 +55,4 @@ svn_cleanup(realpath('help-me'));
 ### Дивіться також
 
 -   **update()**
--   [»  SVN-документация по svn cleanup](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cleanup.md)
+-   [»  SVN-документация по svn cleanup](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cleanup.md)

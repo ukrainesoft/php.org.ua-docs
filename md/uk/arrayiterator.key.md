@@ -34,11 +34,11 @@ public ArrayIterator::key(): string|int|null
 
 ```php
 <?php
-$array = array('key' => 'value');
+$array = array('key' => 'value');
 
-$arrayobject = new ArrayObject($array);
-$iterator = $arrayobject->getIterator();
+$arrayobject = new ArrayObject($array);
+$iterator = $arrayobject->getIterator();
 
-echo $iterator->key(); //key
+echo $iterator->key(); //key
 ?>
 ```

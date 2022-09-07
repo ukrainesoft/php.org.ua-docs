@@ -34,9 +34,9 @@ public SplFileObject::eof(): bool
 
 ```php
 <?php
-$file = new SplFileObject("fruits.txt");
-while ( ! $file->eof()) {
-    echo $file->fgets();
+$file = new SplFileObject("fruits.txt");
+while ( ! $file->eof()) {
+    echo $file->fgets();
 }
 ?>
 ```

@@ -38,9 +38,9 @@ public SoapClient::__getLastResponse(): ?string
 
 ```php
 <?php
-$client = SoapClient("some.wsdl", array('trace' => 1));
-$result = $client->SomeFunction();
-echo "Ответ:\n" . $client->__getLastResponse() . "\n";
+$client = SoapClient("some.wsdl", array('trace' => 1));
+$result = $client->SomeFunction();
+echo "Ответ:\n" . $client->__getLastResponse() . "\n";
 ?>
 ```
 

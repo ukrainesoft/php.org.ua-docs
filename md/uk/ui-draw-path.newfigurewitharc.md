@@ -15,7 +15,7 @@ title: 'ОЙDrawPath::newFigureWithArc'
 ### Опис
 
 ```methodsynopsis
-public UI\Draw\Path::newFigureWithArc(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public UI\Draw\Path::newFigureWithArc(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 ```
 
 ### Список параметрів

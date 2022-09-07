@@ -15,7 +15,7 @@ cubridconnect — Відкриває з'єднання з сервером CUBRI
 ### Опис
 
 ```methodsynopsis
-cubrid_connect(    string $host,    int $port,    string $dbname,    string $userid = ?,    string $passwd = ?,    bool $new_link = false): resource
+cubrid_connect(    string $host,    int $port,    string $dbname,    string $userid = ?,    string $passwd = ?,    bool $new_link = false): resource
 ```
 
 Функція **cubridconnect()** використовується для створення з'єднання з сервером, використовуючи його адресу, порт, ім'я бази даних, ім'я користувача та пароля. Якщо логін та пароль не задані, то за умовчанням використовуватиметься з'єднання "PUBLIC".
@@ -56,35 +56,35 @@ cubrid_connect(    string $host,    int $port,    string $dbname, �
 
 ```php
 <?php
-printf("%-30s %s\n", "CUBRID PHP Version:", cubrid_version());
+printf("%-30s %s\n", "CUBRID PHP Version:", cubrid_version());
 
 printf("\n");
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
 
-if (!$conn) {
-    die('Connect Error ('. cubrid_error_code() .')' . cubrid_error_msg());
+if (!$conn) {
+    die('Connect Error ('. cubrid_error_code() .')' . cubrid_error_msg());
 }
 
-$db_params = cubrid_get_db_parameter($conn);
+$db_params = cubrid_get_db_parameter($conn);
 
-while (list($param_name, $param_value) = each($db_params)) {
-    printf("%-30s %s\n", $param_name, $param_value);
+while (list($param_name, $param_value) = each($db_params)) {
+    printf("%-30s %s\n", $param_name, $param_value);
 }
 
 printf("\n");
 
-$server_info = cubrid_get_server_info($conn);
-$client_info = cubrid_get_client_info();
+$server_info = cubrid_get_server_info($conn);
+$client_info = cubrid_get_client_info();
 
-printf("%-30s %s\n", "Server Info:", $server_info);
-printf("%-30s %s\n", "Client Info:", $client_info);
+printf("%-30s %s\n", "Server Info:", $server_info);
+printf("%-30s %s\n", "Client Info:", $client_info);
 
 printf("\n");
 
-$charset = cubrid_get_charset($conn);
+$charset = cubrid_get_charset($conn);
 
-printf("%-30s %s\n", "CUBRID Charset:", $charset);
+printf("%-30s %s\n", "CUBRID Charset:", $charset);
 
 cubrid_disconnect($conn);
 ?>

@@ -15,7 +15,7 @@ tradercdlharamicross - Паттерн "Хрест Харамі"
 ### Опис
 
 ```methodsynopsis
-trader_cdlharamicross(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlharamicross(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

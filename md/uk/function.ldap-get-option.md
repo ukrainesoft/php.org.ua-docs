@@ -85,11 +85,11 @@ ldap_get_option(LDAP\Connection $ldap, int $option, array|string|int &$value = n
 
 ```php
 <?php
-// $ds допустимый экземпляр LDAP\Connection
-if (ldap_get_option($ds, LDAP_OPT_PROTOCOL_VERSION, $version)) {
-    echo "Используется версия протокола $version\n";
-} else {
-    echo "Невозможно определить версию протокола\n";
+// $ds допустимый экземпляр LDAP\Connection
+if (ldap_get_option($ds, LDAP_OPT_PROTOCOL_VERSION, $version)) {
+    echo "Используется версия протокола $version\n";
+} else {
+    echo "Невозможно определить версию протокола\n";
 }
 ?>
 ```

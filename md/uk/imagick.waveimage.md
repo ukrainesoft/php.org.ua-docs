@@ -44,11 +44,11 @@ public Imagick::waveImage(float $amplitude, float $length): bool
 
 ```php
 <?php
-function waveImage($imagePath, $amplitude, $length) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->waveImage($amplitude, $length);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function waveImage($imagePath, $amplitude, $length) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->waveImage($amplitude, $length);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

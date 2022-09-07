@@ -36,10 +36,10 @@ public SolrDisMaxQuery::setBoostQuery(string $q): SolrDisMaxQuery
 
 ```php
 <?php
-$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery = new SolrDisMaxQuery("lucene");
 
-$dismaxQuery->setBoostQuery('cat:electronics manu:local^2');
-echo $dismaxQuery.PHP_EOL;
+$dismaxQuery->setBoostQuery('cat:electronics manu:local^2');
+echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 

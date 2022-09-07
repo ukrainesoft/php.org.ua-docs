@@ -15,7 +15,7 @@ title: 'ОЙDrawPath::arcTo'
 ### Опис
 
 ```methodsynopsis
-public UI\Draw\Path::arcTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public UI\Draw\Path::arcTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 ```
 
 Намалює дугу

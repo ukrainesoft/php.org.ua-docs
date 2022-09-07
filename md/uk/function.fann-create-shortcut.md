@@ -15,7 +15,7 @@ fanncreateshortcut — Створює стандартну нейронну ме
 ### Опис
 
 ```methodsynopsis
-fann_create_shortcut(    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
+fann_create_shortcut(    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
 ```
 
 Створює стандартну нейронну мережу зворотного розповсюдження, яка повністю підключена і має з'єднання швидкого доступу.

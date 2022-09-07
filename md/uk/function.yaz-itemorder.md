@@ -18,7 +18,7 @@ yazitemorder — Підготовка запиту до Z39.50 Item Order з п�
 yaz_itemorder(resource $id, array $args): void
 ```
 
-Функція готує запит Extended Services за допомогою профілю для використання Item Order Extended Service для Transport ILL (Profile/1). Дивіться [» це](http://www.collectionscanada.ca/iso/ill/stanprf.htm) і [» спецификацию](http://www.collectionscanada.ca/iso/ill/document/standard/z-ill-1a.pdf)
+Функція готує запит Extended Services за допомогою профілю для використання Item Order Extended Service для Transport ILL (Profile/1). Дивіться [» це](http://www.collectionscanada.ca/iso/ill/stanprf.htm) і [» спецификацию](http://www.collectionscanada.ca/iso/ill/document/standard/z-ill-1a.pdf)
 
 ### Список параметрів
 

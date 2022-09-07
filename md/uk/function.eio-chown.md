@@ -15,7 +15,7 @@ eiochown — Змінює права доступу до файлу/директ
 ### Опис
 
 ```methodsynopsis
-eio_chown(    string $path,    int $uid,    int $gid = -1,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_chown(    string $path,    int $uid,    int $gid = -1,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 Змінює права доступу до файлу/директорії.
@@ -47,7 +47,7 @@ eio_chown(    string $path,    int $uid,    int $gid = -1,    in
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

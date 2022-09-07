@@ -34,32 +34,32 @@ public Imagick::colorMatrixImage(array $color_matrix = Imagick::CHANNEL_DEFAULT)
 
 ```php
 <?php
-function colorMatrixImage($imagePath, $colorMatrix) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->setImageOpacity(1);
+function colorMatrixImage($imagePath, $colorMatrix) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setImageOpacity(1);
 
-    //Цветовая матрица должна выглядеть так:
-    //    $colorMatrix = [
-    //        1.5, 0.0, 0.0, 0.0, 0.0, -0.157,
-    //        0.0, 1.0, 0.5, 0.0, 0.0, -0.157,
-    //        0.0, 0.0, 1.5, 0.0, 0.0, -0.157,
-    //        0.0, 0.0, 0.0, 1.0, 0.0,  0.0,
-    //        0.0, 0.0, 0.0, 0.0, 1.0,  0.0,
-    //        0.0, 0.0, 0.0, 0.0, 0.0,  1.0
-    //    ];
+    //Цветовая матрица должна выглядеть так:
+    //    $colorMatrix = [
+    //        1.5, 0.0, 0.0, 0.0, 0.0, -0.157,
+    //        0.0, 1.0, 0.5, 0.0, 0.0, -0.157,
+    //        0.0, 0.0, 1.5, 0.0, 0.0, -0.157,
+    //        0.0, 0.0, 0.0, 1.0, 0.0,  0.0,
+    //        0.0, 0.0, 0.0, 0.0, 1.0,  0.0,
+    //        0.0, 0.0, 0.0, 0.0, 0.0,  1.0
+    //    ];
 
-    $background = new \Imagick();
-    $background->newPseudoImage($imagick->getImageWidth(), $imagick->getImageHeight(),  "pattern:checkerboard");
+    $background = new \Imagick();
+    $background->newPseudoImage($imagick->getImageWidth(), $imagick->getImageHeight(),  "pattern:checkerboard");
 
-    $background->setImageFormat('png');
+    $background->setImageFormat('png');
 
-    $imagick->setImageFormat('png');
-    $imagick->colorMatrixImage($colorMatrix);
+    $imagick->setImageFormat('png');
+    $imagick->colorMatrixImage($colorMatrix);
 
-    $background->compositeImage($imagick, \Imagick::COMPOSITE_ATOP, 0, 0);
+    $background->compositeImage($imagick, \Imagick::COMPOSITE_ATOP, 0, 0);
 
-    header("Content-Type: image/png");
-    echo $background->getImageBlob();
+    header("Content-Type: image/png");
+    echo $background->getImageBlob();
 }
 
 ?>

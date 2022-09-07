@@ -50,7 +50,7 @@ public **DatePeriod::construct**(string `$isostr`, int `$options`
 
 `isostr`
 
-Рядок, що містить інтервал згідно [» спеціфікації ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Repeating_intervals). Нульові входження (`R0/`) не підтримуються.
+Рядок, що містить інтервал згідно [» спеціфікації ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Repeating_intervals). Нульові входження (`R0/`) не підтримуються.
 
 `options`
 
@@ -68,21 +68,21 @@ public **DatePeriod::construct**(string `$isostr`, int `$options`
 
 ```php
 <?php
-$start = new DateTime('2012-07-01');
-$interval = new DateInterval('P7D');
-$end = new DateTime('2012-07-31');
-$recurrences = 4;
-$iso = 'R4/2012-07-01T00:00:00Z/P7D';
+$start = new DateTime('2012-07-01');
+$interval = new DateInterval('P7D');
+$end = new DateTime('2012-07-31');
+$recurrences = 4;
+$iso = 'R4/2012-07-01T00:00:00Z/P7D';
 
-// Эти периоды эквивалентны.
-$period = new DatePeriod($start, $interval, $recurrences);
-$period = new DatePeriod($start, $interval, $end);
-$period = new DatePeriod($iso);
+// Эти периоды эквивалентны.
+$period = new DatePeriod($start, $interval, $recurrences);
+$period = new DatePeriod($start, $interval, $end);
+$period = new DatePeriod($iso);
 
-// При переборе экземпляра DatePeriod в цикле будут отображены все отобранные даты
-// периода.
-foreach ($period as $date) {
-    echo $date->format('Y-m-d')."\n";
+// При переборе экземпляра DatePeriod в цикле будут отображены все отобранные даты
+// периода.
+foreach ($period as $date) {
+    echo $date->format('Y-m-d')."\n";
 }
 ?>
 ```
@@ -101,18 +101,18 @@ foreach ($period as $date) {
 
 ```php
 <?php
-$start = new DateTime('2012-07-01');
-$interval = new DateInterval('P7D');
-$end = new DateTime('2012-07-31');
+$start = new DateTime('2012-07-01');
+$interval = new DateInterval('P7D');
+$end = new DateTime('2012-07-31');
 
-$period = new DatePeriod($start, $interval, $end,
-                         DatePeriod::EXCLUDE_START_DATE);
+$period = new DatePeriod($start, $interval, $end,
+                         DatePeriod::EXCLUDE_START_DATE);
 
-// При переборе экземпляра DatePeriod в цикле будут отображены все отобранные даты
-// периода.
-// Однако в этом случае 2012-07-01 не будет отображена.
-foreach ($period as $date) {
-    echo $date->format('Y-m-d')."\n";
+// При переборе экземпляра DatePeriod в цикле будут отображены все отобранные даты
+// периода.
+// Однако в этом случае 2012-07-01 не будет отображена.
+foreach ($period as $date) {
+    echo $date->format('Y-m-d')."\n";
 }
 ?>
 ```

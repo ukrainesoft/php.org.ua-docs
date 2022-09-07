@@ -15,7 +15,7 @@ imagefilledarc — Малювання та заливання дуги
 ### Опис
 
 ```methodsynopsis
-imagefilledarc(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $start_angle,    int $end_angle,    int $color,    int $style): bool
+imagefilledarc(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $start_angle,    int $end_angle,    int $color,    int $style): bool
 ```
 
 Малює дугу з центром у заданих координатах зображення `image`
@@ -82,32 +82,32 @@ y-координат центру.
 ```php
 <?php
 
-// создание изображения
-$image = imagecreatetruecolor(100, 100);
+// создание изображения
+$image = imagecreatetruecolor(100, 100);
 
-// определение цветов
-$white    = imagecolorallocate($image, 0xFF, 0xFF, 0xFF);
-$gray     = imagecolorallocate($image, 0xC0, 0xC0, 0xC0);
-$darkgray = imagecolorallocate($image, 0x90, 0x90, 0x90);
-$navy     = imagecolorallocate($image, 0x00, 0x00, 0x80);
-$darknavy = imagecolorallocate($image, 0x00, 0x00, 0x50);
-$red      = imagecolorallocate($image, 0xFF, 0x00, 0x00);
-$darkred  = imagecolorallocate($image, 0x90, 0x00, 0x00);
+// определение цветов
+$white    = imagecolorallocate($image, 0xFF, 0xFF, 0xFF);
+$gray     = imagecolorallocate($image, 0xC0, 0xC0, 0xC0);
+$darkgray = imagecolorallocate($image, 0x90, 0x90, 0x90);
+$navy     = imagecolorallocate($image, 0x00, 0x00, 0x80);
+$darknavy = imagecolorallocate($image, 0x00, 0x00, 0x50);
+$red      = imagecolorallocate($image, 0xFF, 0x00, 0x00);
+$darkred  = imagecolorallocate($image, 0x90, 0x00, 0x00);
 
-// делаем эффект 3Д
-for ($i = 60; $i > 50; $i--) {
-   imagefilledarc($image, 50, $i, 100, 50, 0, 45, $darknavy, IMG_ARC_PIE);
-   imagefilledarc($image, 50, $i, 100, 50, 45, 75 , $darkgray, IMG_ARC_PIE);
-   imagefilledarc($image, 50, $i, 100, 50, 75, 360 , $darkred, IMG_ARC_PIE);
+// делаем эффект 3Д
+for ($i = 60; $i > 50; $i--) {
+   imagefilledarc($image, 50, $i, 100, 50, 0, 45, $darknavy, IMG_ARC_PIE);
+   imagefilledarc($image, 50, $i, 100, 50, 45, 75 , $darkgray, IMG_ARC_PIE);
+   imagefilledarc($image, 50, $i, 100, 50, 75, 360 , $darkred, IMG_ARC_PIE);
 }
 
-imagefilledarc($image, 50, 50, 100, 50, 0, 45, $navy, IMG_ARC_PIE);
-imagefilledarc($image, 50, 50, 100, 50, 45, 75 , $gray, IMG_ARC_PIE);
-imagefilledarc($image, 50, 50, 100, 50, 75, 360 , $red, IMG_ARC_PIE);
+imagefilledarc($image, 50, 50, 100, 50, 0, 45, $navy, IMG_ARC_PIE);
+imagefilledarc($image, 50, 50, 100, 50, 45, 75 , $gray, IMG_ARC_PIE);
+imagefilledarc($image, 50, 50, 100, 50, 75, 360 , $red, IMG_ARC_PIE);
 
 
-// вывод изображения
-header('Content-type: image/png');
+// вывод изображения
+header('Content-type: image/png');
 imagepng($image);
 imagedestroy($image);
 ?>

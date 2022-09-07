@@ -51,20 +51,20 @@ int `$priority`
 
 ```php
 <?php
-// Используем 10-секундный интервал обновления.
-$w = new EvStat("/var/log/messages", 8, function ($w) {
- echo "/var/log/messages изменён\n";
+// Используем 10-секундный интервал обновления.
+$w = new EvStat("/var/log/messages", 8, function ($w) {
+ echo "/var/log/messages изменён\n";
 
- $attr = $w->attr();
+ $attr = $w->attr();
 
- if ($attr['nlink']) {
-  printf("Размер: %ld\n", $attr['size']);
-  printf("Просмотрен: %ld\n", $attr['atime']);
-  printf("Изменён: %ld\n", $attr['mtime']);
- } else {
-  fprintf(STDERR, "`messages` файл не найден!");
-  $w->stop();
- }
+ if ($attr['nlink']) {
+  printf("Размер: %ld\n", $attr['size']);
+  printf("Просмотрен: %ld\n", $attr['atime']);
+  printf("Изменён: %ld\n", $attr['mtime']);
+ } else {
+  fprintf(STDERR, "`messages` файл не найден!");
+  $w->stop();
+ }
 });
 
 Ev::run();

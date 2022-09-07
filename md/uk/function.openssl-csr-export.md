@@ -50,19 +50,19 @@ openssl_csr_export(OpenSSLCertificateSigningRequest|string $csr, string &$output
 
 ```php
 <?php
-$subject = array(
-    "commonName" => "example.com",
+$subject = array(
+    "commonName" => "example.com",
 );
-$private_key = openssl_pkey_new(array(
-    "private_key_bits" => 2048,
-    "private_key_type" => OPENSSL_KEYTYPE_RSA,
+$private_key = openssl_pkey_new(array(
+    "private_key_bits" => 2048,
+    "private_key_type" => OPENSSL_KEYTYPE_RSA,
 ));
-$configargs = array(
-    'digest_alg' => 'sha256WithRSAEncryption'
+$configargs = array(
+    'digest_alg' => 'sha256WithRSAEncryption'
 );
-$csr = openssl_csr_new($subject, $private_key, $configargs);
-openssl_csr_export($csr, $csr_string);
-echo $csr_string;
+$csr = openssl_csr_new($subject, $private_key, $configargs);
+openssl_csr_export($csr, $csr_string);
+echo $csr_string;
 ?>
 ```
 

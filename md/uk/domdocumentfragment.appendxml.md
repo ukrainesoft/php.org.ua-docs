@@ -40,12 +40,12 @@ XML для додавання.
 
 ```php
 <?php
-$doc = new DOMDocument();
+$doc = new DOMDocument();
 $doc->loadXML("<root/>");
-$f = $doc->createDocumentFragment();
+$f = $doc->createDocumentFragment();
 $f->appendXML("<foo>text</foo><bar>text2</bar>");
 $doc->documentElement->appendChild($f);
-echo $doc->saveXML();
+echo $doc->saveXML();
 ?>
 ```
 

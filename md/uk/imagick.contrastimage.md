@@ -40,14 +40,14 @@ public Imagick::contrastImage(bool $sharpen): bool
 
 ```php
 <?php
-function contrastImage($imagePath, $contrastType) {
-    $imagick = new \Imagick(realpath($imagePath));
-    if ($contrastType != 2) {
-        $imagick->contrastImage($contrastType);
-    }
+function contrastImage($imagePath, $contrastType) {
+    $imagick = new \Imagick(realpath($imagePath));
+    if ($contrastType != 2) {
+        $imagick->contrastImage($contrastType);
+    }
 
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

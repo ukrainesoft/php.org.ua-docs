@@ -36,7 +36,7 @@ gethostbynamel(string $hostname): array|false
 
 ```php
 <?php
-$hosts = gethostbynamel('www.example.com');
+$hosts = gethostbynamel('www.example.com');
 print_r($hosts);
 ?>
 ```

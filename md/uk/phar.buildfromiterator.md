@@ -61,13 +61,13 @@ public Phar::buildFromIterator(Traversable $iterator, ?string $baseDirectory = n
 
 ```php
 <?php
-// создать с псевдонимом "project.phar"
-$phar = new Phar('project.phar', 0, 'project.phar');
+// создать с псевдонимом "project.phar"
+$phar = new Phar('project.phar', 0, 'project.phar');
 $phar->buildFromIterator(
-    new RecursiveIteratorIterator(
-     new RecursiveDirectoryIterator('/путь/к/проекту')),
-    '/путь/к/проекту');
-$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+    new RecursiveIteratorIterator(
+     new RecursiveDirectoryIterator('/путь/к/проекту')),
+    '/путь/к/проекту');
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 ?>
 ```
 
@@ -77,13 +77,13 @@ $phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 
 ```php
 <?php
-// создать с псевдонимом "project.phar"
-$phar = new Phar('project.phar', 0, 'project.phar');
+// создать с псевдонимом "project.phar"
+$phar = new Phar('project.phar', 0, 'project.phar');
 $phar->buildFromIterator(
-    new RecursiveIteratorIterator(
-     new Phar('/путь/к/anotherphar.phar')),
-    'phar:///путь/к/anotherphar.phar/путь/к/проекту');
-$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+    new RecursiveIteratorIterator(
+     new Phar('/путь/к/anotherphar.phar')),
+    'phar:///путь/к/anotherphar.phar/путь/к/проекту');
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 ?>
 ```
 
@@ -93,15 +93,15 @@ $phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 
 ```php
 <?php
-// создать с псевдонимом "project.phar"
-$phar = new Phar('project.phar', 0, 'project.phar');
+// создать с псевдонимом "project.phar"
+$phar = new Phar('project.phar', 0, 'project.phar');
 $phar->buildFromIterator(
-    new ArrayIterator(
-     array(
-        'путь/внутри/архива/file.php' => dirname(__FILE__) . '/somefile.php',
-        'друго/путь/внутри/архива/file.jpg' => fopen('/путь/к/bigfile.jpg', 'rb'),
-     )));
-$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+    new ArrayIterator(
+     array(
+        'путь/внутри/архива/file.php' => dirname(__FILE__) . '/somefile.php',
+        'друго/путь/внутри/архива/file.jpg' => fopen('/путь/к/bigfile.jpg', 'rb'),
+     )));
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 ?>
 ```
 

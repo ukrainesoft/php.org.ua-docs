@@ -40,11 +40,11 @@ gmp_cmp(GMP|int|string $num1, GMP|int|string $num2): int
 
 ```php
 <?php
-$cmp1 = gmp_cmp("1234", "1000"); // больше
-$cmp2 = gmp_cmp("1000", "1234"); // меньше
-$cmp3 = gmp_cmp("1234", "1234"); // равны
+$cmp1 = gmp_cmp("1234", "1000"); // больше
+$cmp2 = gmp_cmp("1000", "1234"); // меньше
+$cmp3 = gmp_cmp("1234", "1234"); // равны
 
-echo "$cmp1 $cmp2 $cmp3\n";
+echo "$cmp1 $cmp2 $cmp3\n";
 ?>
 ```
 

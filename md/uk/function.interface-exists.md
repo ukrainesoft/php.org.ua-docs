@@ -40,12 +40,12 @@ interface_exists(string $interface, bool $autoload = true): bool
 
 ```php
 <?php
-// Проверяем существование интерфейса перед его использованием
-if (interface_exists('MyInterface')) {
-    class MyClass implements MyInterface
-    {
-        // Методы
-    }
+// Проверяем существование интерфейса перед его использованием
+if (interface_exists('MyInterface')) {
+    class MyClass implements MyInterface
+    {
+        // Методы
+    }
 }
 
 ?>

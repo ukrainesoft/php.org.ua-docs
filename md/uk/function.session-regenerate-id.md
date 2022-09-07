@@ -44,35 +44,35 @@ session_regenerate_id(bool $delete_old_session = false): bool
 
 ```php
 <?php
-// ЗАМЕЧАНИЕ: Это не полностью работающий код, а только пример!
+// ЗАМЕЧАНИЕ: Это не полностью работающий код, а только пример!
 
 session_start();
 
-// Проверяем временную метку удаления
-if (isset($_SESSION['destroyed'])
-    && $_SESSION['destroyed'] < time() - 300) {
-    // Обычно это не должно происходить. Это может быть атакой или результатом нестабильной сети.
-    // Удаляем все статусы аутентификации пользователей этой сессии.
-    remove_all_authentication_flag_from_active_sessions($_SESSION['userid']);
-    throw(new DestroyedSessionAccessException);
+// Проверяем временную метку удаления
+if (isset($_SESSION['destroyed'])
+    && $_SESSION['destroyed'] < time() - 300) {
+    // Обычно это не должно происходить. Это может быть атакой или результатом нестабильной сети.
+    // Удаляем все статусы аутентификации пользователей этой сессии.
+    remove_all_authentication_flag_from_active_sessions($_SESSION['userid']);
+    throw(new DestroyedSessionAccessException);
 }
 
-$old_sessionid = session_id();
+$old_sessionid = session_id();
 
-// Устанавливаем временную метку удаления
-$_SESSION['destroyed'] = time(); // session_regenerate_id() сохраняет данные старой сессии
+// Устанавливаем временную метку удаления
+$_SESSION['destroyed'] = time(); // session_regenerate_id() сохраняет данные старой сессии
 
-// Просто вызов session_regenerate_id() может привести к потере сессии и т.д.
-// Смотрите следующий пример.
+// Просто вызов session_regenerate_id() может привести к потере сессии и т.д.
+// Смотрите следующий пример.
 session_regenerate_id();
 
-// Новой сессии не требуется временная метка удаления.
+// Новой сессии не требуется временная метка удаления.
 unset($_SESSION['destroyed']);
 
-$new_sessionid = session_id();
+$new_sessionid = session_id();
 
-echo "Старая сессия: $old_sessionid<br />";
-echo "Новая сессия: $new_sessionid<br />";
+echo "Старая сессия: $old_sessionid<br />";
+echo "Новая сессия: $new_sessionid<br />";
 
 print_r($_SESSION);
 ?>
@@ -84,55 +84,55 @@ print_r($_SESSION);
 
 ```php
 <?php
-// ЗАМЕЧАНИЕ: Это не полностью работающий код, а только пример!
-// my_session_start() и my_session_regenerate_id() избегают потери
-// сессии из-за нестабильной сети. В дополнение, данный код может предотвращать
-// использование украденных сессий злоумышленниками.
+// ЗАМЕЧАНИЕ: Это не полностью работающий код, а только пример!
+// my_session_start() и my_session_regenerate_id() избегают потери
+// сессии из-за нестабильной сети. В дополнение, данный код может предотвращать
+// использование украденных сессий злоумышленниками.
 
-function my_session_start() {
-    session_start();
-    if (isset($_SESSION['destroyed'])) {
-       if ($_SESSION['destroyed'] < time()-300) {
-           // Обычно это не должно происходить. Это может быть атакой или результатом нестабильной сети.
-           // Удаляем все статусы аутентификации пользователей этой сессии.
-           remove_all_authentication_flag_from_active_sessions($_SESSION['userid']);
-           throw(new DestroyedSessionAccessException);
-       }
-       if (isset($_SESSION['new_session_id'])) {
-           // Срок действия ещё не полностью истёк. Cookie могли быть потеряны из-за нестабильной сети.
-           // Заново пытаемся установить правильный cookie идентификатора сессиии.
-           // ЗАМЕЧАНИЕ: Не пытайтесь заново установить идентификатор сессии если, вы предпочитаете
-           // удалить флаг аутентификации.
-           session_commit();
-           session_id($_SESSION['new_session_id']);
-           // Новый идентификатор сессии должен существовать.
-           session_start();
-           return;
-       }
-   }
+function my_session_start() {
+    session_start();
+    if (isset($_SESSION['destroyed'])) {
+       if ($_SESSION['destroyed'] < time()-300) {
+           // Обычно это не должно происходить. Это может быть атакой или результатом нестабильной сети.
+           // Удаляем все статусы аутентификации пользователей этой сессии.
+           remove_all_authentication_flag_from_active_sessions($_SESSION['userid']);
+           throw(new DestroyedSessionAccessException);
+       }
+       if (isset($_SESSION['new_session_id'])) {
+           // Срок действия ещё не полностью истёк. Cookie могли быть потеряны из-за нестабильной сети.
+           // Заново пытаемся установить правильный cookie идентификатора сессиии.
+           // ЗАМЕЧАНИЕ: Не пытайтесь заново установить идентификатор сессии если, вы предпочитаете
+           // удалить флаг аутентификации.
+           session_commit();
+           session_id($_SESSION['new_session_id']);
+           // Новый идентификатор сессии должен существовать.
+           session_start();
+           return;
+       }
+   }
 }
 
-function my_session_regenerate_id() {
-    // Новый идентификатор сессии необходим для установки правильного идентификатора сессии,
-    // когда идентификатор сессии не был установлен из-за нестабильной сети.
-    $new_session_id = session_create_id();
-    $_SESSION['new_session_id'] = $new_session_id;
+function my_session_regenerate_id() {
+    // Новый идентификатор сессии необходим для установки правильного идентификатора сессии,
+    // когда идентификатор сессии не был установлен из-за нестабильной сети.
+    $new_session_id = session_create_id();
+    $_SESSION['new_session_id'] = $new_session_id;
 
-    // Устанавливаем временную метку удаления.
-    $_SESSION['destroyed'] = time();
+    // Устанавливаем временную метку удаления.
+    $_SESSION['destroyed'] = time();
 
-    // Записываем и закрываем текущую сессию.
-    session_commit();
+    // Записываем и закрываем текущую сессию.
+    session_commit();
 
-    // Стартуем сессию с новым идентификатором.
-    session_id($new_session_id);
-    ini_set('session.use_strict_mode', 0);
-    session_start();
-    ini_set('session.use_strict_mode', 1);
+    // Стартуем сессию с новым идентификатором.
+    session_id($new_session_id);
+    ini_set('session.use_strict_mode', 0);
+    session_start();
+    ini_set('session.use_strict_mode', 1);
 
-    // Новой сессии не нужно это.
-    unset($_SESSION['destroyed']);
-    unset($_SESSION['new_session_id']);
+    // Новой сессии не нужно это.
+    unset($_SESSION['destroyed']);
+    unset($_SESSION['new_session_id']);
 }
 ?>
 ```

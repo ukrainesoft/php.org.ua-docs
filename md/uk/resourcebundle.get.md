@@ -54,8 +54,8 @@ resourcebundle_get(ResourceBundle $bundle, string|int $index, bool $fallback = t
 
 ```php
 <?php
-$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
-echo resourcebundle_get($r, 'somestring');
+$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
+echo resourcebundle_get($r, 'somestring');
 ?>
 ```
 
@@ -63,8 +63,8 @@ echo resourcebundle_get($r, 'somestring');
 
 ```php
 <?php
-$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
-echo $r->get('somestring');
+$r = new ResourceBundle( 'es', "/usr/share/data/myapp");
+echo $r->get('somestring');
 ?>
 ```
 

@@ -15,7 +15,7 @@ snmp2get — Отримує об'єкт SNMP
 ### Опис
 
 ```methodsynopsis
-snmp2_get(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmp2_get(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
 Функція **snmp2get()** використовується для читання значення об'єкта SNMP, вказаного в `object_id`
@@ -52,7 +52,7 @@ Read-спільнота.
 
 ```php
 <?php
-$syscontact = snmp2_get("127.0.0.1", "public", "system.SysContact.0");
+$syscontact = snmp2_get("127.0.0.1", "public", "system.SysContact.0");
 ?>
 ```
 

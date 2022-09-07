@@ -40,9 +40,9 @@ public GearmanWorker::addServer(string $host = 127.0.0.1, int $port = 4730): boo
 
 ```php
 <?php
-$worker= new GearmanWorker();
+$worker= new GearmanWorker();
 $worker->addServer("10.0.0.1");
-$worker->addServer("10.0.0.2", 7003);
+$worker->addServer("10.0.0.2", 7003);
 ?>
 ```
 

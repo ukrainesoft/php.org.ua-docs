@@ -46,13 +46,13 @@ public SoapClient::__setLocation(?string $location = null): ?string
 
 ```php
 <?php
-$client = new SoapClient('http://example.com/webservice.php?wsdl');
+$client = new SoapClient('http://example.com/webservice.php?wsdl');
 
 $client->__setLocation('http://www.somethirdparty.com');
 
-$old_location = $client->__setLocation(); // сбрасывает настройку адреса
+$old_location = $client->__setLocation(); // сбрасывает настройку адреса
 
-echo $old_location;
+echo $old_location;
 
 ?>
 ```

@@ -47,23 +47,23 @@ public DOMXPath::query(string $expression, ?DOMNode $contextNode = null, bool $r
 ```php
 <?php
 
-$doc = new DOMDocument;
+$doc = new DOMDocument;
 
-// Не хотим возиться с пробелами
-$doc->preserveWhiteSpace = false;
+// Не хотим возиться с пробелами
+$doc->preserveWhiteSpace = false;
 
 $doc->load('book.xml');
 
-$xpath = new DOMXPath($doc);
+$xpath = new DOMXPath($doc);
 
-// Начинаем с корневого элемента
-$query = '//book/chapter/para/informaltable/tgroup/tbody/row/entry[. = "en"]';
+// Начинаем с корневого элемента
+$query = '//book/chapter/para/informaltable/tgroup/tbody/row/entry[. = "en"]';
 
-$entries = $xpath->query($query);
+$entries = $xpath->query($query);
 
-foreach ($entries as $entry) {
-    echo "Найдена книга {$entry->previousSibling->previousSibling->nodeValue}," .
-         " автор {$entry->previousSibling->nodeValue}\n";
+foreach ($entries as $entry) {
+    echo "Найдена книга {$entry->previousSibling->previousSibling->nodeValue}," .
+         " автор {$entry->previousSibling->nodeValue}\n";
 }
 ?>
 ```
@@ -80,23 +80,23 @@ foreach ($entries as $entry) {
 ```php
 <?php
 
-$doc = new DOMDocument;
-$doc->preserveWhiteSpace = false;
+$doc = new DOMDocument;
+$doc->preserveWhiteSpace = false;
 
 $doc->load('book.xml');
 
-$xpath = new DOMXPath($doc);
+$xpath = new DOMXPath($doc);
 
-$tbody = $doc->getElementsByTagName('tbody')->item(0);
+$tbody = $doc->getElementsByTagName('tbody')->item(0);
 
-// запрос относительно узла tbody
-$query = 'row/entry[. = "en"]';
+// запрос относительно узла tbody
+$query = 'row/entry[. = "en"]';
 
-$entries = $xpath->query($query, $tbody);
+$entries = $xpath->query($query, $tbody);
 
-foreach ($entries as $entry) {
-    echo "Найдена книга {$entry->previousSibling->previousSibling->nodeValue}," .
-         " автор {$entry->previousSibling->nodeValue}\n";
+foreach ($entries as $entry) {
+    echo "Найдена книга {$entry->previousSibling->previousSibling->nodeValue}," .
+         " автор {$entry->previousSibling->nodeValue}\n";
 }
 ?>
 ```

@@ -48,7 +48,7 @@ get_resources(?string $type = null): array
 
 ```php
 <?php
-$fp = tmpfile();
+$fp = tmpfile();
 var_dump(get_resources());
 ?>
 ```
@@ -66,7 +66,7 @@ array(1) {
 
 ```php
 <?php
-$fp = tmpfile();
+$fp = tmpfile();
 var_dump(get_resources('stream'));
 var_dump(get_resources('curl'));
 ?>

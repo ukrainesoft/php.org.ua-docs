@@ -50,21 +50,21 @@ callback(mixed $carry, mixed $value): mixed
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 
-$callback = function($carry, $value) {
-    return $carry * $value;
+$callback = function($carry, $value) {
+    return $carry * $value;
 };
 
-var_dump($deque->reduce($callback, 5));
+var_dump($deque->reduce($callback, 5));
 
-// Iterations:
+// Iterations:
 //
-// $carry = $initial = 5
+// $carry = $initial = 5
 //
-// $carry = $carry * 1 =  5
-// $carry = $carry * 2 = 10
-// $carry = $carry * 3 = 30
+// $carry = $carry * 1 =  5
+// $carry = $carry * 2 = 10
+// $carry = $carry * 3 = 30
 ?>
 ```
 
@@ -78,19 +78,19 @@ int(30)
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 
-var_dump($deque->reduce(function($carry, $value) {
-    return $carry + $value + 5;
+var_dump($deque->reduce(function($carry, $value) {
+    return $carry + $value + 5;
 }));
 
-// Iterations:
+// Iterations:
 //
-// $carry = $initial = null
+// $carry = $initial = null
 //
-// $carry = $carry + 1 + 5 =  6
-// $carry = $carry + 2 + 5 = 13
-// $carry = $carry + 3 + 5 = 21
+// $carry = $carry + 1 + 5 =  6
+// $carry = $carry + 2 + 5 = 13
+// $carry = $carry + 3 + 5 = 21
 ?>
 ```
 

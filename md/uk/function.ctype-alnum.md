@@ -44,13 +44,13 @@ ctype_alnum(mixed $text): bool
 
 ```php
 <?php
-$strings = array('AbCd1zyZ9', 'foo!#$bar');
-foreach ($strings as $testcase) {
-    if (ctype_alnum($testcase)) {
-        echo "Строка $testcase состоит только из букв и цифр.\n";
-    } else {
-        echo "Строка $testcase не состоит только из букв и цифр.\n";
-    }
+$strings = array('AbCd1zyZ9', 'foo!#$bar');
+foreach ($strings as $testcase) {
+    if (ctype_alnum($testcase)) {
+        echo "Строка $testcase состоит только из букв и цифр.\n";
+    } else {
+        echo "Строка $testcase не состоит только из букв и цифр.\n";
+    }
 }
 ?>
 ```

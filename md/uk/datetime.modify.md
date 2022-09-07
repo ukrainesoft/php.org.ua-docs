@@ -52,9 +52,9 @@ date_modify(DateTime $object, string $modifier): DateTime|false
 
 ```php
 <?php
-$date = new DateTime('2006-12-12');
-$date->modify('+1 day');
-echo $date->format('Y-m-d');
+$date = new DateTime('2006-12-12');
+$date->modify('+1 day');
+echo $date->format('Y-m-d');
 ?>
 ```
 
@@ -62,9 +62,9 @@ echo $date->format('Y-m-d');
 
 ```php
 <?php
-$date = date_create('2006-12-12');
-date_modify($date, '+1 day');
-echo date_format($date, 'Y-m-d');
+$date = date_create('2006-12-12');
+date_modify($date, '+1 day');
+echo date_format($date, 'Y-m-d');
 ?>
 ```
 
@@ -78,13 +78,13 @@ echo date_format($date, 'Y-m-d');
 
 ```php
 <?php
-$date = new DateTime('2000-12-31');
+$date = new DateTime('2000-12-31');
 
-$date->modify('+1 month');
-echo $date->format('Y-m-d') . "\n";
+$date->modify('+1 month');
+echo $date->format('Y-m-d') . "\n";
 
-$date->modify('+1 month');
-echo $date->format('Y-m-d') . "\n";
+$date->modify('+1 month');
+echo $date->format('Y-m-d') . "\n";
 ?>
 ```
 

@@ -33,8 +33,8 @@ final public MongoDB\BSON\ObjectId::__toString(): string
 ```php
 <?php
 
-var_dump((string) new MongoDB\BSON\ObjectId());
-var_dump((string) new MongoDB\BSON\ObjectId('000000000000000000000001'));
+var_dump((string) new MongoDB\BSON\ObjectId());
+var_dump((string) new MongoDB\BSON\ObjectId('000000000000000000000001'));
 
 ?>
 ```
@@ -48,5 +48,5 @@ string(24) "000000000000000000000001"
 
 ### Дивіться також
 
--   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
--   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

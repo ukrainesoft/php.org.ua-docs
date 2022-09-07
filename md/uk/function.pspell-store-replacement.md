@@ -50,12 +50,12 @@ pspell_store_replacement(PSpell\Dictionary $dictionary, string $misspelled, stri
 
 ```php
 <?php
-$pspell_config = pspell_config_create("en");
-pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
-pspell_config_repl($pspell_config, "/var/dictionaries/custom.repl");
-$pspell = pspell_new_config($pspell_config);
+$pspell_config = pspell_config_create("en");
+pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
+pspell_config_repl($pspell_config, "/var/dictionaries/custom.repl");
+$pspell = pspell_new_config($pspell_config);
 
-pspell_store_replacement($pspell, $misspelled, $correct);
+pspell_store_replacement($pspell, $misspelled, $correct);
 pspell_save_wordlist($pspell);
 ?>
 ```

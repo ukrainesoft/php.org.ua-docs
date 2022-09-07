@@ -18,7 +18,7 @@ mailparserfc822parseaddresses — Розібрати адреси відпові
 mailparse_rfc822_parse_addresses(string $addresses): array
 ```
 
-Розбирає список одержувачів відповідно до [» RFC 822](http://www.faqs.org/rfcs/rfc822). Список одержувачів зазвичай знаходиться у заголовку `To:`
+Розбирає список одержувачів відповідно до [» RFC 822](http://www.faqs.org/rfcs/rfc822). Список одержувачів зазвичай знаходиться у заголовку `To:`
 
 ### Список параметрів
 
@@ -45,7 +45,7 @@ mailparse_rfc822_parse_addresses(string $addresses): array
 ```php
 <?php
 
-$to = 'Wez Furlong <wez@example.com>, doe@example.com';
+$to = 'Wez Furlong <wez@example.com>, doe@example.com';
 var_dump(mailparse_rfc822_parse_addresses($to));
 
 ?>

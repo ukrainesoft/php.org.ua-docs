@@ -44,17 +44,17 @@ openssl_pkcs12_read(string $pkcs12, array &$certificates, string $passphrase): b
 
 ```php
 <?php
-if (!$cert_store = file_get_contents("/certs/file.p12")) {
-    echo "Ошибка: невозможно прочитать файл сертификата\n";
-    exit;
+if (!$cert_store = file_get_contents("/certs/file.p12")) {
+    echo "Ошибка: невозможно прочитать файл сертификата\n";
+    exit;
 }
 
-if (openssl_pkcs12_read($cert_store, $cert_info, "my_secret_pass")) {
-    echo "Информация об сертификате\n";
-    print_r($cert_info);
-} else {
-    echo "Ошибка: невозможно прочитать хранилище сертификата.\n";
-    exit;
+if (openssl_pkcs12_read($cert_store, $cert_info, "my_secret_pass")) {
+    echo "Информация об сертификате\n";
+    print_r($cert_info);
+} else {
+    echo "Ошибка: невозможно прочитать хранилище сертификата.\n";
+    exit;
 }
 ?>
 ```

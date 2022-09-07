@@ -46,14 +46,14 @@ Callback-Функція, що повертає результат, або **`nul
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$m->set('int', 99);
-$m->set('string', 'a simple string');
-$m->set('array', array(11, 12));
+$m->set('int', 99);
+$m->set('string', 'a simple string');
+$m->set('array', array(11, 12));
 
-$m->getDelayed(array('int', 'array'), true);
+$m->getDelayed(array('int', 'array'), true);
 var_dump($m->fetchAll());
 ?>
 ```

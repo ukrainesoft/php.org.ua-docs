@@ -15,7 +15,7 @@ ibasemodifyuser — Змінює користувача у безпечній б
 ### Опис
 
 ```methodsynopsis
-ibase_modify_user(    resource $service_handle,    string $user_name,    string $password,    string $first_name = ?,    string $middle_name = ?,    string $last_name = ?): bool
+ibase_modify_user(    resource $service_handle,    string $user_name,    string $password,    string $first_name = ?,    string $middle_name = ?,    string $last_name = ?): bool
 ```
 
 ### Список параметрів

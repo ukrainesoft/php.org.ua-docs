@@ -43,7 +43,7 @@ public static IntlChar::isdefined(int|string $codepoint): ?bool
 ```php
 <?php
 var_dump(IntlChar::isdefined("A"));
-var_dump(IntlChar::isdefined(" "));
+var_dump(IntlChar::isdefined(" "));
 var_dump(IntlChar::isdefined("\u{FDD0}"));
 ?>
 ```

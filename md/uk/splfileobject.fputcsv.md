@@ -15,7 +15,7 @@ SplFileObject::fputcsv — Записати масив полів у вигля�
 ### Опис
 
 ```methodsynopsis
-public SplFileObject::fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
+public SplFileObject::fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
 ```
 
 Записує масив `fields` у файл як рядок CSV.
@@ -70,16 +70,16 @@ public SplFileObject::fputcsv(    array $fields,    string $separator = 
 ```php
 <?php
 
-$list = array (
-    array('aaa', 'bbb', 'ccc', 'dddd'),
-    array('123', '456', '789'),
-    array('"aaa"', '"bbb"')
+$list = array (
+    array('aaa', 'bbb', 'ccc', 'dddd'),
+    array('123', '456', '789'),
+    array('"aaa"', '"bbb"')
 );
 
-$file = new SplFileObject('file.csv', 'w');
+$file = new SplFileObject('file.csv', 'w');
 
-foreach ($list as $fields) {
-    $file->fputcsv($fields);
+foreach ($list as $fields) {
+    $file->fputcsv($fields);
 }
 
 ?>

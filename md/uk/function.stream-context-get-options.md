@@ -36,9 +36,9 @@ stream_context_get_options(resource $stream_or_context): array
 
 ```php
 <?php
-$params = array("method" => "POST");
+$params = array("method" => "POST");
 
-stream_context_set_default(array("http" => $params));
+stream_context_set_default(array("http" => $params));
 
 var_dump(stream_context_get_options(stream_context_get_default()));
 

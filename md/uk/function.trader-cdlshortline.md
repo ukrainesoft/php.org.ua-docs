@@ -15,7 +15,7 @@ tradercdlshortline - Свічкова модель "Свічка коротко�
 ### Опис
 
 ```methodsynopsis
-trader_cdlshortline(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlshortline(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

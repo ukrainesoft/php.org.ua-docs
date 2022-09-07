@@ -15,24 +15,24 @@ title: Основи використання
 ```php
 <?php
 
-$c = new HRTime\StopWatch;
+$c = new HRTime\StopWatch;
 
 $c->start();
-/* Замеряем время выполнения этого блока кода */
-for ($i = 0; $i < 1024*1024; $i++);
+/* Замеряем время выполнения этого блока кода */
+for ($i = 0; $i < 1024*1024; $i++);
 $c->stop();
-$elapsed0 = $c->getLastElapsedTime(HRTime\Unit::NANOSECOND);
+$elapsed0 = $c->getLastElapsedTime(HRTime\Unit::NANOSECOND);
 
-/* Тут не замеряем*/
-for ($i = 0; $i < 1024*1024; $i++);
+/* Тут не замеряем*/
+for ($i = 0; $i < 1024*1024; $i++);
 
 $c->start();
-/* А тут снова замеряем время выполнения этого блока кода */
-for ($i = 0; $i < 1024*1024; $i++);
+/* А тут снова замеряем время выполнения этого блока кода */
+for ($i = 0; $i < 1024*1024; $i++);
 $c->stop();
-$elapsed1 = $c->getLastElapsedTime(HRTime\Unit::NANOSECOND);
+$elapsed1 = $c->getLastElapsedTime(HRTime\Unit::NANOSECOND);
 
-$elapsed_total = $c->getElapsedTime(HRTime\Unit::NANOSECOND);
+$elapsed_total = $c->getElapsedTime(HRTime\Unit::NANOSECOND);
 
 ?>
 ```

@@ -15,7 +15,7 @@ svndiff - Рекурсивно показує відмінності двох ф
 ### Опис
 
 ```methodsynopsis
-svn_diff(    string $path1,    int $rev1,    string $path2,    int $rev2): array
+svn_diff(    string $path1,    int $rev1,    string $path2,    int $rev2): array
 ```
 
 Рекурсивно показує різницю двох файлів `path1` і `path2`
@@ -52,7 +52,7 @@ svn_diff(    string $path1,    int $rev1,    string $path2,    i
 
 Повертає список масивів, що складається з двох потоків: перша - відмінності файлів; друга – помилки. Потоки можуть бути прочитані функцією [fread()](function.fread.md). При помилці повертає **`false`** або **`null`**
 
-За промовчанням висновок відмінностей буде у стандартному форматі Subversion, але також може використовуватися [»  зовнішнім інструментом показу відмінностей](http://svnbook.red-bean.com/en/1.2/svn.advanced.externaldifftools.md), залежно від налаштування Subversion.
+За промовчанням висновок відмінностей буде у стандартному форматі Subversion, але також може використовуватися [»  зовнішнім інструментом показу відмінностей](http://svnbook.red-bean.com/en/1.2/svn.advanced.externaldifftools.md), залежно від налаштування Subversion.
 
 ### Приклади
 
@@ -62,14 +62,14 @@ svn_diff(    string $path1,    int $rev1,    string $path2,    i
 
 ```php
 <?php
-list($diff, $errors) = svn_diff(
-    'http://www.example.com/svnroot/trunk/foo', SVN_REVISION_HEAD,
-    'http://www.example.com/svnroot/branches/dev/foo', SVN_REVISION_HEAD
+list($diff, $errors) = svn_diff(
+    'http://www.example.com/svnroot/trunk/foo', SVN_REVISION_HEAD,
+    'http://www.example.com/svnroot/branches/dev/foo', SVN_REVISION_HEAD
 );
-if (!$diff) exit;
-$contents = '';
-while (!feof($diff)) {
-  $contents .= fread($diff, 8192);
+if (!$diff) exit;
+$contents = '';
+while (!feof($diff)) {
+  $contents .= fread($diff, 8192);
 }
 fclose($diff);
 fclose($errors);
@@ -93,8 +93,8 @@ Index: http://www.example.com/svnroot/trunk/foo
 
 ```php
 <?php
-function svn_diff_same_item($path, $rev1, $rev2) {
-    return svn_diff($path, $rev1, $path, $rev2);
+function svn_diff_same_item($path, $rev1, $rev2) {
+    return svn_diff($path, $rev1, $path, $rev2);
 }
 ?>
 ```
@@ -105,10 +105,10 @@ function svn_diff_same_item($path, $rev1, $rev2) {
 
 ```php
 <?php
-function svn_diff_local($path1, $rev1, $path2, $rev2) {
-    $path1 = str_replace('\\', '/', realpath($path1));
-    $path2 = str_replace('\\', '/', realpath($path2));
-    return svn_diff($path1, $rev1, $path2, $rev2);
+function svn_diff_local($path1, $rev1, $path2, $rev2) {
+    $path1 = str_replace('\\', '/', realpath($path1));
+    $path2 = str_replace('\\', '/', realpath($path2));
+    return svn_diff($path1, $rev1, $path2, $rev2);
 }
 ?>
 ```
@@ -121,4 +121,4 @@ function svn_diff_local($path1, $rev1, $path2, $rev2) {
 
 ### Дивіться також
 
--   [» SVN-документация по svn diff](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.diff.md)
+-   [» SVN-документация по svn diff](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.diff.md)

@@ -15,14 +15,14 @@ title: Робота з об'єктно-орієнтованим API
 ```php
 <?php
 
-$xw = new XMLWriter();
+$xw = new XMLWriter();
 $xw->openMemory();
 $xw->startDocument("1.0");
 $xw->startElement("book");
 $xw->text("example");
 $xw->endElement();
 $xw->endDocument();
-echo $xw->outputMemory();
+echo $xw->outputMemory();
 ```
 
 Результат виконання цього прикладу:

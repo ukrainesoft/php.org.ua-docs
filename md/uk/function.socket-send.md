@@ -15,7 +15,7 @@ socketsend — Надсилає дані в приєднаний сокет
 ### Опис
 
 ```methodsynopsis
-socket_send(    Socket $socket,    string $data,    int $length,    int $flags): int|false
+socket_send(    Socket $socket,    string $data,    int $length,    int $flags): int|false
 ```
 
 Функція **socketsend()** відправляє `length` байт у сокет `socket` з буфера `data`

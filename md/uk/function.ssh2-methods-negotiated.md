@@ -34,22 +34,22 @@ ssh2_methods_negotiated(resource $session): array
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-$methods = ssh2_methods_negotiated($connection);
+$connection = ssh2_connect('shell.example.com', 22);
+$methods = ssh2_methods_negotiated($connection);
 
-echo "Ключи шифрования согласовываются методом: {$methods['kex']}\n";
-echo "Сервер идентифицирован с использованием {$methods['hostkey']} и ";
-echo "отпечатком: " . ssh2_fingerprint($connection) . "\n";
+echo "Ключи шифрования согласовываются методом: {$methods['kex']}\n";
+echo "Сервер идентифицирован с использованием {$methods['hostkey']} и ";
+echo "отпечатком: " . ssh2_fingerprint($connection) . "\n";
 
-echo "Пакеты от клиента к серверу:\n";
-echo "\tШифрование: {$methods['client_to_server']['crypt']}\n";
-echo "\tСжатие: {$methods['client_to_server']['comp']}\n";
-echo "\tMAC: {$methods['client_to_server']['mac']}\n";
+echo "Пакеты от клиента к серверу:\n";
+echo "\tШифрование: {$methods['client_to_server']['crypt']}\n";
+echo "\tСжатие: {$methods['client_to_server']['comp']}\n";
+echo "\tMAC: {$methods['client_to_server']['mac']}\n";
 
-echo "Пакеты от сервера к клиенту:\n";
-echo "\tШифрование: {$methods['server_to_client']['crypt']}\n";
-echo "\tСжатие: {$methods['server_to_client']['comp']}\n";
-echo "\tMAC: {$methods['server_to_client']['mac']}\n";
+echo "Пакеты от сервера к клиенту:\n";
+echo "\tШифрование: {$methods['server_to_client']['crypt']}\n";
+echo "\tСжатие: {$methods['server_to_client']['comp']}\n";
+echo "\tMAC: {$methods['server_to_client']['mac']}\n";
 
 ?>
 ```

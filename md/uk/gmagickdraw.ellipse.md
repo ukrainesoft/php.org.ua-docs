@@ -15,7 +15,7 @@ GmagickDraw::ellipse — Малює еліпс на зображенні
 ### Опис
 
 ```methodsynopsis
-public GmagickDraw::ellipse(    float $ox,    float $oy,    float $rx,    float $ry,    float $start,    float $end): GmagickDraw
+public GmagickDraw::ellipse(    float $ox,    float $oy,    float $rx,    float $ry,    float $start,    float $end): GmagickDraw
 ```
 
 Малює еліпс на зображенні.

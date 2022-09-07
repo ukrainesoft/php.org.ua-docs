@@ -18,7 +18,7 @@ rawurlencode — URL-кодування рядка згідно з RFC 3986
 rawurlencode(string $string): string
 ```
 
-Кодує рядок згідно [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+Кодує рядок згідно [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
 
 ### Список параметрів
 
@@ -28,7 +28,7 @@ URL, який має бути закодований.
 
 ### Значення, що повертаються
 
-Повертає рядок, в якому всі не цифро-літерні символи, крім `-_.~`, повинні бути замінені знаком відсотка (`%`), за яким слідує два шістнадцяткових числа. Це кодування, описане в [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), служить для захисту буквених символів від інтерпретації як спеціальні розмежувачі URL і захищає URL від спотворення при передачі символів з подальшою конвертацією (як у деяких поштових системах).
+Повертає рядок, в якому всі не цифро-літерні символи, крім `-_.~`, повинні бути замінені знаком відсотка (`%`), за яким слідує два шістнадцяткових числа. Це кодування, описане в [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), служить для захисту буквених символів від інтерпретації як спеціальні розмежувачі URL і захищає URL від спотворення при передачі символів з подальшою конвертацією (як у деяких поштових системах).
 
 ### Приклади
 
@@ -36,8 +36,8 @@ URL, який має бути закодований.
 
 ```php
 <?php
-echo '<a href="ftp://user:', rawurlencode('foo @+%/'),
-     '@ftp.example.com/x.txt">';
+echo '<a href="ftp://user:', rawurlencode('foo @+%/'),
+     '@ftp.example.com/x.txt">';
 ?>
 ```
 
@@ -53,8 +53,8 @@ echo '<a href="ftp://user:', rawurlencode('foo @+%/'),
 
 ```php
 <?php
-echo '<a href="http://example.com/department_list_script/',
-    rawurlencode('sales and marketing/Miami'), '">';
+echo '<a href="http://example.com/department_list_script/',
+    rawurlencode('sales and marketing/Miami'), '">';
 ?>
 ```
 
@@ -69,4 +69,4 @@ echo '<a href="http://example.com/department_list_script/',
 -   [rawurldecode()](function.rawurldecode.md) - Декодування URL-кодованого рядка
 -   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
 -   [urlencode()](function.urlencode.md) - URL-кодування рядка
--   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

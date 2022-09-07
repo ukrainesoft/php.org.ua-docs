@@ -34,10 +34,10 @@ public SimpleXMLIterator::current(): mixed
 
 ```php
 <?php
-$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
+$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
 var_dump($xmlIterator->current());
 
-$xmlIterator->rewind(); // сбрасывает курсор к первому элементу
+$xmlIterator->rewind(); // сбрасывает курсор к первому элементу
 var_dump($xmlIterator->current());
 ?>
 ```

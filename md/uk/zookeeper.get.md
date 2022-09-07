@@ -16,7 +16,7 @@ Zookeeper::get — Синхронно отримує дані, пов'язані
 
 ```methodsynopsis
 public
-   Zookeeper::get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
+   Zookeeper::get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
 ```
 
 ### Список параметрів
@@ -57,16 +57,16 @@ public
 
 ```php
 <?php
-$zookeeper = new Zookeeper('locahost:2181');
-$path = '/path/to/node';
-$value = 'nodevalue';
-$zookeeper->set($path, $value);
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/path/to/node';
+$value = 'nodevalue';
+$zookeeper->set($path, $value);
 
-$r = $zookeeper->get($path);
-if ($r)
-  echo $r;
+$r = $zookeeper->get($path);
+if ($r)
+  echo $r;
 else
-  echo 'Ошибка';
+  echo 'Ошибка';
 ?>
 ```
 
@@ -82,10 +82,10 @@ nodevalue
 
 ```php
 <?php
-$zookeeper = new Zookeeper('localhost:2181');
-$path = '/path/to/node';
-$stat = [];
-$zookeeper->get($path, null, $stat);
+$zookeeper = new Zookeeper('localhost:2181');
+$path = '/path/to/node';
+$stat = [];
+$zookeeper->get($path, null, $stat);
 var_dump($stat);
 ?>
 ```

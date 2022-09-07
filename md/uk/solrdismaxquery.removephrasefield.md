@@ -36,13 +36,13 @@ public SolrDisMaxQuery::removePhraseField(string $field): SolrDisMaxQuery
 
 ```php
 <?php
-$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery = new SolrDisMaxQuery('lucene');
 $dismaxQuery
-    ->addPhraseField('first', 3, 1)
-    ->addPhraseField('second', 4, 1)
-    ->addPhraseField('cat', 55);
-echo $dismaxQuery . PHP_EOL;
-echo $dismaxQuery->removePhraseField('second');
+    ->addPhraseField('first', 3, 1)
+    ->addPhraseField('second', 4, 1)
+    ->addPhraseField('cat', 55);
+echo $dismaxQuery . PHP_EOL;
+echo $dismaxQuery->removePhraseField('second');
 ?>
 ```
 

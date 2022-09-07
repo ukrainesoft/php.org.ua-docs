@@ -47,20 +47,20 @@ stomp_error(resource $link): string
 ```php
 <?php
 
-/* подключение */
-try {
-    $stomp = new Stomp('tcp://localhost:61613');
-} catch(StompException $e) {
-    die('Ошибка соединения: ' . $e->getMessage());
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
 }
 
 var_dump($stomp->error());
 
-if (!$stomp->abort('unknown-transaction', array('receipt' => 'foo'))) {
-    var_dump($stomp->error());
+if (!$stomp->abort('unknown-transaction', array('receipt' => 'foo'))) {
+    var_dump($stomp->error());
 }
 
-/* Закрытие соединения */
+/* Закрытие соединения */
 unset($stomp);
 
 ?>
@@ -78,21 +78,21 @@ string(43) "Invalid transaction id: unknown-transaction"
 ```php
 <?php
 
-/* подключение */
-$link = stomp_connect('ssl://localhost:61612');
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
 
-/* проверка соединения */
-if (!$link) {
-    die('Ошибка соединения: ' . stomp_connect_error());
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
 }
 
 var_dump(stomp_error($link));
 
-if (!stomp_abort($link, 'unknown-transaction', array('receipt' => 'foo'))) {
-    var_dump(stomp_error($link));
+if (!stomp_abort($link, 'unknown-transaction', array('receipt' => 'foo'))) {
+    var_dump(stomp_error($link));
 }
 
-/* закрытие соединения */
+/* закрытие соединения */
 stomp_close($link);
 
 ?>

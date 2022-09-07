@@ -36,18 +36,18 @@ sqlsrv_has_rows(resource $stmt): bool
 
 ```php
 <?php
-$server = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
-$conn = sqlsrv_connect( $server, $connectionInfo );
+$server = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
+$conn = sqlsrv_connect( $server, $connectionInfo );
 
-$stmt = sqlsrv_query( $conn, "SELECT * FROM Table_1");
+$stmt = sqlsrv_query( $conn, "SELECT * FROM Table_1");
 
-if ($stmt) {
-   $rows = sqlsrv_has_rows( $stmt );
-   if ($rows === true)
-      echo "Есть строки. <br />";
-   else
-      echo "Нет строк. <br />";
+if ($stmt) {
+   $rows = sqlsrv_has_rows( $stmt );
+   if ($rows === true)
+      echo "Есть строки. <br />";
+   else
+      echo "Нет строк. <br />";
 }
 ?>
 ```

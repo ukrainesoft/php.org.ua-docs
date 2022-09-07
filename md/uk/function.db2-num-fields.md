@@ -39,12 +39,12 @@ db2_num_fields(resource $stmt): int|false
 ```php
 <?php
 
-$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";
-$stmt = db2_prepare($conn, $sql);
-db2_execute($stmt, $sql);
-$columns = db2_num_fields($stmt);
+$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";
+$stmt = db2_prepare($conn, $sql);
+db2_execute($stmt, $sql);
+$columns = db2_num_fields($stmt);
 
-echo "В результирующем наборе {$columns} столбцов.";
+echo "В результирующем наборе {$columns} столбцов.";
 ?>
 ```
 

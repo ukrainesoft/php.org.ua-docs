@@ -42,18 +42,18 @@ public PharData::copy(string $from, string $to): bool
 
 ```php
 <?php
-try {
-    $phar = new PharData('myphar.tar');
-    $phar['a'] = 'hi';
-    $phar->copy('a', 'b');
-    echo $phar['b']; // выводит "phar://myphar.tar/b"
-} catch (Exception $e) {
-    // Обработка ошибок
+try {
+    $phar = new PharData('myphar.tar');
+    $phar['a'] = 'hi';
+    $phar->copy('a', 'b');
+    echo $phar['b']; // выводит "phar://myphar.tar/b"
+} catch (Exception $e) {
+    // Обработка ошибок
 }
 
-// Аналог с использованием потоковых обёрток.
-// В случае проблем вместо исключения вызывается ошибка уровня E_WARNINGS
-copy('phar://myphar.tar/a', 'phar//myphar.tar/c');
-echo file_get_contents('phar://myphar.tar/c'); // выводит "hi"
+// Аналог с использованием потоковых обёрток.
+// В случае проблем вместо исключения вызывается ошибка уровня E_WARNINGS
+copy('phar://myphar.tar/a', 'phar//myphar.tar/c');
+echo file_get_contents('phar://myphar.tar/c'); // выводит "hi"
 ?>
 ```

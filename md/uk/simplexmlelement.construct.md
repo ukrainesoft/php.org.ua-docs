@@ -68,10 +68,10 @@ bool `$isPrefix` **`false`**
 ```php
 <?php
 
-include 'example.php';
+include 'example.php';
 
-$sxe = new SimpleXMLElement($xmlstr);
-echo $sxe->movie[0]->title;
+$sxe = new SimpleXMLElement($xmlstr);
+echo $sxe->movie[0]->title;
 
 ?>
 ```
@@ -87,8 +87,8 @@ PHP: Появление Парсера
 ```php
 <?php
 
-$sxe = new SimpleXMLElement('http://example.org/document.xml', NULL, TRUE);
-echo $sxe->asXML();
+$sxe = new SimpleXMLElement('http://example.org/document.xml', NULL, TRUE);
+echo $sxe->asXML();
 
 ?>
 ```

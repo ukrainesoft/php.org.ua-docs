@@ -24,7 +24,7 @@ final public MongoDB\Driver\ReadConcern::__construct(?string $level = null)
 
 `level`
 
-[» Рівень гарантій читання](https://www.mongodb.com/docs/manual/reference/read-concern/#read-concern-levels). Ви можете використовувати, але не обмежуючись цим, одну з [констант класса](class.mongodb-driver-readconcern.md#mongodb-driver-readconcern.constants)
+[» Рівень гарантій читання](https://www.mongodb.com/docs/manual/reference/read-concern/#read-concern-levels). Ви можете використовувати, але не обмежуючись цим, одну з [констант класса](class.mongodb-driver-readconcern.md#mongodb-driver-readconcern.constants)
 
 ### Помилки
 
@@ -37,18 +37,18 @@ final public MongoDB\Driver\ReadConcern::__construct(?string $level = null)
 ```php
 <?php
 
-/* Неуказанный уровень изоляции чтения (использует поведение сервера по умолчанию) */
-$rc = new MongoDB\Driver\ReadConcern();
+/* Неуказанный уровень изоляции чтения (использует поведение сервера по умолчанию) */
+$rc = new MongoDB\Driver\ReadConcern();
 
-/* Запрашиваем изоляцию чтения от одного узла набора реплик */
-$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);
+/* Запрашиваем изоляцию чтения от одного узла набора реплик */
+$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);
 
-/* Запрашиваем изоляцию чтения от большинства узлов набора реплик */
-$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);
+/* Запрашиваем изоляцию чтения от большинства узлов набора реплик */
+$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);
 
 ?>
 ```
 
 ### Дивіться також
 
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)

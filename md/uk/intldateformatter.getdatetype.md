@@ -46,25 +46,25 @@ datefmt_get_datetype(IntlDateFormatter $formatter): int|false
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Тип даты средства форматирования : ' . datefmt_get_datetype($fmt);
-echo 'Первый отформатированный вывод с типом даты ' . datefmt_format($fmt, 0);
+echo 'Тип даты средства форматирования : ' . datefmt_get_datetype($fmt);
+echo 'Первый отформатированный вывод с типом даты ' . datefmt_format($fmt, 0);
 
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::SHORT,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::SHORT,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Теперь тип даты средства форматирования : ' . datefmt_get_datetype($fmt);
-echo 'Второй отформатированный вывод с типом даты ' . datefmt_format($fmt, 0);
+echo 'Теперь тип даты средства форматирования : ' . datefmt_get_datetype($fmt);
+echo 'Второй отформатированный вывод с типом даты ' . datefmt_format($fmt, 0);
 
 ?>
 ```
@@ -73,24 +73,24 @@ echo 'Второй отформатированный вывод с тип�
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Тип даты средства форматирования : ' . $fmt->getDateType();
-echo 'Первый отформатированный вывод с типом даты ' . $fmt->format(0);
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::SHORT,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+echo 'Тип даты средства форматирования : ' . $fmt->getDateType();
+echo 'Первый отформатированный вывод с типом даты ' . $fmt->format(0);
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::SHORT,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Теперь тип даты средства форматирования : ' . $fmt->getDateType();
-echo 'Второй отформатированный вывод с типом даты ' . $fmt->format(0);
+echo 'Теперь тип даты средства форматирования : ' . $fmt->getDateType();
+echo 'Второй отформатированный вывод с типом даты ' . $fmt->format(0);
 
 ?>
 ```

@@ -112,10 +112,10 @@ public PDO::cubrid_schema(int $schema_type, string $table_name = ?, string $col_
 
 ```php
 <?php
-$pk_list = $dbh->cubrid_schema(PDO::CUBRID_SCH_PRIMARY_KEY, "game");
+$pk_list = $dbh->cubrid_schema(PDO::CUBRID_SCH_PRIMARY_KEY, "game");
 print_r($pk_list);
 
-$fk_list = $dbh->cubrid_schema(PDO::CUBRID_SCH_IMPORTED_KEYS, "game");
+$fk_list = $dbh->cubrid_schema(PDO::CUBRID_SCH_IMPORTED_KEYS, "game");
 print_r($fk_list);
 ?>
 ```

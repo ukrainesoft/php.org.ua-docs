@@ -38,28 +38,28 @@ public mysql_xdevapi\Collection::modify(string $search_condition): mysql_xdevapi
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-$collection->add('{"name": "Альфред", "age": 18, "job": "Дворецкий"}')->execute();
-$collection->add('{"name": "Боб",    "age": 19, "job": "Художник"}')->execute();
+$collection->add('{"name": "Альфред", "age": 18, "job": "Дворецкий"}')->execute();
+$collection->add('{"name": "Боб",    "age": 19, "job": "Художник"}')->execute();
 
-// Добавление двух работ для всех художников: артист и мастер
+// Добавление двух работ для всех художников: артист и мастер
 $collection
-  ->modify("job in ('Дворецкий', 'Художник')")
-  ->arrayAppend('job', 'Артист')
-  ->arrayAppend('job', 'Мастер')
-  ->execute();
+  ->modify("job in ('Дворецкий', 'Художник')")
+  ->arrayAppend('job', 'Артист')
+  ->arrayAppend('job', 'Мастер')
+  ->execute();
 
-// Удаление поля 'beer' из всех документов с возрастом 21
+// Удаление поля 'beer' из всех документов с возрастом 21
 $collection
-  ->modify('age < 21')
-  ->unset(['beer'])
-  ->execute();
+  ->modify('age < 21')
+  ->unset(['beer'])
+  ->execute();
 ?>
 ```

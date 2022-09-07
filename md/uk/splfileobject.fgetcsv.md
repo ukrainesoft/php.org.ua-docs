@@ -60,9 +60,9 @@ public SplFileObject::fgetcsv(string $separator = ",", string $enclosure = "\"",
 
 ```php
 <?php
-$file = new SplFileObject("data.csv");
-while (!$file->eof()) {
-    var_dump($file->fgetcsv());
+$file = new SplFileObject("data.csv");
+while (!$file->eof()) {
+    var_dump($file->fgetcsv());
 }
 ?>
 ```
@@ -71,11 +71,11 @@ while (!$file->eof()) {
 
 ```php
 <?php
-$file = new SplFileObject("animals.csv");
+$file = new SplFileObject("animals.csv");
 $file->setFlags(SplFileObject::READ_CSV);
-foreach ($file as $row) {
-    list($animal, $class, $legs) = $row;
-    printf("A %s is a %s with %d legs\n", $animal, $class, $legs);
+foreach ($file as $row) {
+    list($animal, $class, $legs) = $row;
+    printf("A %s is a %s with %d legs\n", $animal, $class, $legs);
 }
 ?>
 ```

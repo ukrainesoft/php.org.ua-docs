@@ -15,7 +15,7 @@ dngettext — Версія dgettext для множини
 ### Опис
 
 ```methodsynopsis
-dngettext(    string $domain,    string $singular,    string $plural,    int $count): string
+dngettext(    string $domain,    string $singular,    string $plural,    int $count): string
 ```
 
 Функція **dngettext()** дозволяє перевизначити поточний домен `domain` для одного повідомлення у множині.

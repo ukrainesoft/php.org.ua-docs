@@ -48,17 +48,17 @@ mysql_field_table(resource $result, int $field_offset): string
 ```php
 <?php
 
-$query = "SELECT account.*, country.* FROM account, country WHERE country.name = 'Portugal' AND account.country_id = country.id";
+$query = "SELECT account.*, country.* FROM account, country WHERE country.name = 'Portugal' AND account.country_id = country.id";
 
-// получаем результат из базы данных
-$result = mysql_query($query);
+// получаем результат из базы данных
+$result = mysql_query($query);
 
-// выводит имя таблицы и имя поля
-for ($i = 0; $i < mysql_num_fields($result); ++$i) {
-    $table = mysql_field_table($result, $i);
-    $field = mysql_field_name($result, $i);
+// выводит имя таблицы и имя поля
+for ($i = 0; $i < mysql_num_fields($result); ++$i) {
+    $table = mysql_field_table($result, $i);
+    $field = mysql_field_name($result, $i);
 
-    echo  "$table: $field\n";
+    echo  "$table: $field\n";
 }
 
 ?>

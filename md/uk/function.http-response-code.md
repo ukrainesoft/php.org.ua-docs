@@ -39,10 +39,10 @@ http_response_code(int $response_code = 0): int|bool
 ```php
 <?php
 
-// Берём текущий код и устанавливаем новый
+// Берём текущий код и устанавливаем новый
 var_dump(http_response_code(404));
 
-// Берём новый код
+// Берём новый код
 var_dump(http_response_code());
 ?>
 ```
@@ -59,13 +59,13 @@ int(404)
 ```php
 <?php
 
-// Берём текущий код по умолчанию
+// Берём текущий код по умолчанию
 var_dump(http_response_code());
 
-// Устанавливаем код
+// Устанавливаем код
 var_dump(http_response_code(201));
 
-// Берём новый код
+// Берём новый код
 var_dump(http_response_code());
 ?>
 ```

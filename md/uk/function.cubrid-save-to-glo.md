@@ -46,14 +46,14 @@ Oid екземпляра glo в якому ви хочете зберегти ф
 
 ```php
 <?php
-$req = cubrid_execute ($con, "select image from person where id=1");
-if ($req) {
-   list ($oid) = cubrid_fetch($req);
-   cubrid_close_request($req);
-   $res = cubrid_save_to_glo ($con, $oid, "input.jpg");
-   if ($res) {
-      echo "изображение изменено";
-   }
+$req = cubrid_execute ($con, "select image from person where id=1");
+if ($req) {
+   list ($oid) = cubrid_fetch($req);
+   cubrid_close_request($req);
+   $res = cubrid_save_to_glo ($con, $oid, "input.jpg");
+   if ($res) {
+      echo "изображение изменено";
+   }
 }
 ?>
 ```

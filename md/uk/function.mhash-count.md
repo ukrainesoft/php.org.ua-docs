@@ -45,12 +45,12 @@ mhash_count(): int
 ```php
 <?php
 
-$nr = mhash_count();
+$nr = mhash_count();
 
-for ($i = 0; $i <= $nr; $i++) {
-    echo sprintf("Размер блока хеша %s - %d\n",
-        mhash_get_hash_name($i),
-        mhash_get_block_size($i));
+for ($i = 0; $i <= $nr; $i++) {
+    echo sprintf("Размер блока хеша %s - %d\n",
+        mhash_get_hash_name($i),
+        mhash_get_block_size($i));
 }
 ?>
 ```

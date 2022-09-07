@@ -45,10 +45,10 @@ openssl_pkey_new(?array $options = null): OpenSSLAsymmetricKey|false
 
 ```php
 <?php
-$private_key = openssl_pkey_new();
-$public_key_pem = openssl_pkey_get_details($private_key)['key'];
-echo $public_key_pem;
-$public_key = openssl_pkey_get_public($public_key_pem);
+$private_key = openssl_pkey_new();
+$public_key_pem = openssl_pkey_get_details($private_key)['key'];
+echo $public_key_pem;
+$public_key = openssl_pkey_get_public($public_key_pem);
 var_dump($public_key);
 ?>
 ```

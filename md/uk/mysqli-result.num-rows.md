@@ -51,15 +51,15 @@ mysqli_num_rows(mysqli_result $result): int|string
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$result = $mysqli->query("SELECT Code, Name FROM Country ORDER BY Name");
+$result = $mysqli->query("SELECT Code, Name FROM Country ORDER BY Name");
 
-/* Получение количества строк в наборе результатов */
-$row_cnt = $result->num_rows;
+/* Получение количества строк в наборе результатов */
+$row_cnt = $result->num_rows;
 
-printf("Получено %d строк.\n", $row_cnt);
+printf("Получено %d строк.\n", $row_cnt);
 ?>
 ```
 
@@ -68,15 +68,15 @@ printf("Получено %d строк.\n", $row_cnt);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$result = mysqli_query($link, "SELECT Code, Name FROM Country ORDER BY Name");
+$result = mysqli_query($link, "SELECT Code, Name FROM Country ORDER BY Name");
 
-/* Получение количества строк в наборе результатов */
-$row_cnt = mysqli_num_rows($result);
+/* Получение количества строк в наборе результатов */
+$row_cnt = mysqli_num_rows($result);
 
-printf("Получено %d строк.\n", $row_cnt);
+printf("Получено %d строк.\n", $row_cnt);
 ```
 
 Результат виконання даних прикладів:

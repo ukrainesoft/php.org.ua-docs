@@ -45,23 +45,23 @@ geoip_id_by_name(string $hostname): int
 
 ```php
 <?php
-$netspeed = geoip_id_by_name('www.example.com');
+$netspeed = geoip_id_by_name('www.example.com');
 
-echo 'Тип Интернет-соединения: ';
+echo 'Тип Интернет-соединения: ';
 
-switch ($netspeed) {
-    case GEOIP_DIALUP_SPEED:
-        echo 'dial-up';
-        break;
-    case GEOIP_CABLEDSL_SPEED:
-        echo 'cable or DSL';
-        break;
-    case GEOIP_CORPORATE_SPEED:
-        echo 'corporate';
-        break;
-    case GEOIP_UNKNOWN_SPEED:
-    default:
-        echo 'unknown';
+switch ($netspeed) {
+    case GEOIP_DIALUP_SPEED:
+        echo 'dial-up';
+        break;
+    case GEOIP_CABLEDSL_SPEED:
+        echo 'cable or DSL';
+        break;
+    case GEOIP_CORPORATE_SPEED:
+        echo 'corporate';
+        break;
+    case GEOIP_UNKNOWN_SPEED:
+    default:
+        echo 'unknown';
 }
 ?>
 ```

@@ -45,15 +45,15 @@ mysql_errno(resource $link_identifier = NULL): int
 
 ```php
 <?php
-$link = mysql_connect("localhost", "mysql_user", "mysql_password");
+$link = mysql_connect("localhost", "mysql_user", "mysql_password");
 
-if (!mysql_select_db("nonexistentdb", $link)) {
-    echo mysql_errno($link) . ": " . mysql_error($link). "\n";
+if (!mysql_select_db("nonexistentdb", $link)) {
+    echo mysql_errno($link) . ": " . mysql_error($link). "\n";
 }
 
-mysql_select_db("kossu", $link);
-if (!mysql_query("SELECT * FROM nonexistenttable", $link)) {
-    echo mysql_errno($link) . ": " . mysql_error($link) . "\n";
+mysql_select_db("kossu", $link);
+if (!mysql_query("SELECT * FROM nonexistenttable", $link)) {
+    echo mysql_errno($link) . ": " . mysql_error($link) . "\n";
 }
 ?>
 ```
@@ -68,4 +68,4 @@ if (!mysql_query("SELECT * FROM nonexistenttable", $link)) {
 ### Дивіться також
 
 -   [mysqlerror()](function.mysql-error.md) - Повертає текст помилки останньої операції з MySQL
--   [» Коди помилок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.md)
+-   [» Коди помилок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.md)

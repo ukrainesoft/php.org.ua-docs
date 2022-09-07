@@ -40,15 +40,15 @@ cli_set_process_title(string $title): bool
 
 ```php
 <?php
-$title = "Мой потрясающий PHP-скрипт";
-$pid = getmypid(); // вы можете использовать это, чтобы увидеть заголовок процесса в ps
+$title = "Мой потрясающий PHP-скрипт";
+$pid = getmypid(); // вы можете использовать это, чтобы увидеть заголовок процесса в ps
 
-if (!cli_set_process_title($title)) {
-    echo "Не удалось установить заголовок процесса для PID $pid...\n";
-    exit(1);
-} else {
-    echo "Заголовок процесса '$title' для PID $pid был установлен!\n";
-    sleep(5);
+if (!cli_set_process_title($title)) {
+    echo "Не удалось установить заголовок процесса для PID $pid...\n";
+    exit(1);
+} else {
+    echo "Заголовок процесса '$title' для PID $pid был установлен!\n";
+    sleep(5);
 }
 ?>
 ```

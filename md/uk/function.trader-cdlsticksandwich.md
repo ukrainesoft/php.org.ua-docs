@@ -15,7 +15,7 @@ tradercdlsticksandwich - Прилиплий сендвіч
 ### Опис
 
 ```methodsynopsis
-trader_cdlsticksandwich(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlsticksandwich(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

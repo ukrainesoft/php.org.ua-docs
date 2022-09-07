@@ -40,30 +40,30 @@ public ImagickDraw::setClipPath(string $clip_mask): bool
 
 ```php
 <?php
-function setClipPath($strokeColor, $fillColor, $backgroundColor) {
+function setClipPath($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeWidth(2);
+    $draw = new \ImagickDraw();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeWidth(2);
 
-    $clipPathName = 'testClipPath';
+    $clipPathName = 'testClipPath';
 
-    $draw->pushClipPath($clipPathName);
-    $draw->rectangle(0, 0, 250, 250);
-    $draw->popClipPath();
-    $draw->setClipPath($clipPathName);
-    $draw->rectangle(100, 100, 400, 400);
+    $draw->pushClipPath($clipPathName);
+    $draw->rectangle(0, 0, 250, 250);
+    $draw->popClipPath();
+    $draw->setClipPath($clipPathName);
+    $draw->rectangle(100, 100, 400, 400);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

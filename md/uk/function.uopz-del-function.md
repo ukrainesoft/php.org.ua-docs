@@ -52,7 +52,7 @@ uopz_del_function(string $class, string $function, int &$all = true): bool
 
 ```php
 <?php
-uopz_add_function('foo', function () {echo 'bar';});
+uopz_add_function('foo', function () {echo 'bar';});
 var_dump(function_exists('foo'));
 uopz_del_function('foo');
 var_dump(function_exists('foo'));

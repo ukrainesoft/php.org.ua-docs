@@ -36,9 +36,9 @@ public Lua::eval(string $statements): mixed
 
 ```php
 <?php
-$lua = new Lua();
+$lua = new Lua();
 $lua->eval(<<<CODE
-    print(2);
+    print(2);
 CODE
 );
 ?>

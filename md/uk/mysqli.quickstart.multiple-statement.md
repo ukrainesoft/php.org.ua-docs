@@ -19,24 +19,24 @@ MySQL-сервер підтримує наявність в одному мул�
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("example.com", "user", "password", "database");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("example.com", "user", "password", "database");
 
-$mysqli->query("DROP TABLE IF EXISTS test");
-$mysqli->query("CREATE TABLE test(id INT)");
+$mysqli->query("DROP TABLE IF EXISTS test");
+$mysqli->query("CREATE TABLE test(id INT)");
 
-$sql = "SELECT COUNT(*) AS _num FROM test;
-        INSERT INTO test(id) VALUES (1);
-        SELECT COUNT(*) AS _num FROM test; ";
+$sql = "SELECT COUNT(*) AS _num FROM test;
+        INSERT INTO test(id) VALUES (1);
+        SELECT COUNT(*) AS _num FROM test; ";
 
 $mysqli->multi_query($sql);
 
-do {
-    if ($result = $mysqli->store_result()) {
-        var_dump($result->fetch_all(MYSQLI_ASSOC));
-        $result->free();
-    }
-} while ($mysqli->next_result());
+do {
+    if ($result = $mysqli->store_result()) {
+        var_dump($result->fetch_all(MYSQLI_ASSOC));
+        $result->free();
+    }
+} while ($mysqli->next_result());
 ```
 
 Результат виконання цього прикладу:
@@ -66,10 +66,10 @@ array(1) {
 
 ```php
 <?php
-$mysqli = new mysqli("example.com", "user", "password", "database");
-$result = $mysqli->query("SELECT 1; DROP TABLE mysql.user");
-if (!$result) {
-    echo "Ошибка во время выполнения запроса: (" . $mysqli->errno . ") " . $mysqli->error;
+$mysqli = new mysqli("example.com", "user", "password", "database");
+$result = $mysqli->query("SELECT 1; DROP TABLE mysql.user");
+if (!$result) {
+    echo "Ошибка во время выполнения запроса: (" . $mysqli->errno . ") " . $mysqli->error;
 }
 ?>
 ```

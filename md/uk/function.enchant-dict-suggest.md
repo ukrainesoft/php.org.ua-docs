@@ -44,18 +44,18 @@ enchant_dict_suggest(EnchantDictionary $dictionary, string $word): array
 
 ```php
 <?php
-$tag = 'en_US';
-$r = enchant_broker_init();
-if (enchant_broker_dict_exists($r,$tag)) {
-    $d = enchant_broker_request_dict($r, $tag);
+$tag = 'en_US';
+$r = enchant_broker_init();
+if (enchant_broker_dict_exists($r,$tag)) {
+    $d = enchant_broker_request_dict($r, $tag);
 
-    $wordcorrect = enchant_dict_check($d, "soong");
-    if (!$wordcorrect) {
-        $suggs = enchant_dict_suggest($d, "soong");
-        echo "Подсказки для 'soong':";
-        print_r($suggs);
-    }
-    enchant_broker_free_dict($d);
+    $wordcorrect = enchant_dict_check($d, "soong");
+    if (!$wordcorrect) {
+        $suggs = enchant_dict_suggest($d, "soong");
+        echo "Подсказки для 'soong':";
+        print_r($suggs);
+    }
+    enchant_broker_free_dict($d);
 }
 enchant_broker_free($r);
 ?>

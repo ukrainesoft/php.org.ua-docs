@@ -15,7 +15,7 @@ tradercdleveningstar — Вечірня зірка
 ### Опис
 
 ```methodsynopsis
-trader_cdleveningstar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdleveningstar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

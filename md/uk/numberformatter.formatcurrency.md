@@ -54,12 +54,12 @@ numfmt_format_currency(NumberFormatter $formatter, float $amount, string $curren
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::CURRENCY );
-echo numfmt_format_currency($fmt, 1234567.891234567890000, "EUR")."\n";
-echo numfmt_format_currency($fmt, 1234567.891234567890000, "RUR")."\n";
-$fmt = numfmt_create( 'ru_RU', NumberFormatter::CURRENCY );
-echo numfmt_format_currency($fmt, 1234567.891234567890000, "EUR")."\n";
-echo numfmt_format_currency($fmt, 1234567.891234567890000, "RUR")."\n";
+$fmt = numfmt_create( 'de_DE', NumberFormatter::CURRENCY );
+echo numfmt_format_currency($fmt, 1234567.891234567890000, "EUR")."\n";
+echo numfmt_format_currency($fmt, 1234567.891234567890000, "RUR")."\n";
+$fmt = numfmt_create( 'ru_RU', NumberFormatter::CURRENCY );
+echo numfmt_format_currency($fmt, 1234567.891234567890000, "EUR")."\n";
+echo numfmt_format_currency($fmt, 1234567.891234567890000, "RUR")."\n";
 ?>
 ```
 
@@ -67,12 +67,12 @@ echo numfmt_format_currency($fmt, 1234567.891234567890000, "RUR")."\n";
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );
-echo $fmt->formatCurrency(1234567.891234567890000, "EUR")."\n";
-echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."\n";
-$fmt = new NumberFormatter( 'ru_RU', NumberFormatter::CURRENCY );
-echo $fmt->formatCurrency(1234567.891234567890000, "EUR")."\n";
-echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."\n";
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );
+echo $fmt->formatCurrency(1234567.891234567890000, "EUR")."\n";
+echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."\n";
+$fmt = new NumberFormatter( 'ru_RU', NumberFormatter::CURRENCY );
+echo $fmt->formatCurrency(1234567.891234567890000, "EUR")."\n";
+echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."\n";
 ?>
 ```
 

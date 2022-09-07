@@ -15,7 +15,7 @@ odbctables — Отримує список імен таблиць, що збе�
 ### Опис
 
 ```methodsynopsis
-odbc_tables(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $table = null,    ?string $types = null): resource|false
+odbc_tables(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $table = null,    ?string $types = null): resource|false
 ```
 
 Перелічує всі таблиці у запрошеному діапазоні.
@@ -76,11 +76,11 @@ odbc_tables(    resource $odbc,    ?string $catalog = null,    ?stri
 
 ```php
 <?php
-$conn = odbc_connect($dsn, $user, $pass);
-$tables = odbc_tables($conn, 'SalesOrders', 'dbo', '%', 'TABLE');
-while (($row = odbc_fetch_array($tables))) {
-    print_r($row);
-    break; // последующие строки опущены для краткости
+$conn = odbc_connect($dsn, $user, $pass);
+$tables = odbc_tables($conn, 'SalesOrders', 'dbo', '%', 'TABLE');
+while (($row = odbc_fetch_array($tables))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
 }
 ?>
 ```

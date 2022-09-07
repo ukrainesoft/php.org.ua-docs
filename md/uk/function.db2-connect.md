@@ -15,7 +15,7 @@ db2connect — Повертає з'єднання з базою даних
 ### Опис
 
 ```methodsynopsis
-db2_connect(    string $database,    string $username,    string $password,    array $options = ?): resource
+db2_connect(    string $database,    string $username,    string $password,    array $options = ?): resource
 ```
 
 Створення нового з'єднання з базою даних IBM DB2 Universal Database, IBM Cloudscape або Apache Derby database.
@@ -232,18 +232,18 @@ db2 каталог tcpip node loopback remote server db2 catalog database ас a
 
 ```php
 <?php
-$database = 'SAMPLE';
-$user = 'db2inst1';
-$password = 'ibmdb2';
+$database = 'SAMPLE';
+$user = 'db2inst1';
+$password = 'ibmdb2';
 
-$conn = db2_connect($database, $user, $password);
+$conn = db2_connect($database, $user, $password);
 
-if ($conn) {
-    echo "Connection succeeded.";
-    db2_close($conn);
+if ($conn) {
+    echo "Connection succeeded.";
+    db2_close($conn);
 }
-else {
-    echo "Connection failed.";
+else {
+    echo "Connection failed.";
 }
 ?>
 ```
@@ -260,22 +260,22 @@ Connection succeeded.
 
 ```php
 <?php
-$database = 'SAMPLE';
-$user = 'db2inst1';
-$password = 'ibmdb2';
-$hostname = 'localhost';
-$port = 50000;
+$database = 'SAMPLE';
+$user = 'db2inst1';
+$password = 'ibmdb2';
+$hostname = 'localhost';
+$port = 50000;
 
-$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;" .
-  "HOSTNAME=$hostname;PORT=$port;PROTOCOL=TCPIP;UID=$user;PWD=$password;";
-$conn = db2_connect($conn_string, '', '');
+$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;" .
+  "HOSTNAME=$hostname;PORT=$port;PROTOCOL=TCPIP;UID=$user;PWD=$password;";
+$conn = db2_connect($conn_string, '', '');
 
-if ($conn) {
-    echo "Connection succeeded.";
-    db2_close($conn);
+if ($conn) {
+    echo "Connection succeeded.";
+    db2_close($conn);
 }
-else {
-    echo "Connection failed.";
+else {
+    echo "Connection failed.";
 }
 ?>
 ```
@@ -292,25 +292,25 @@ Connection succeeded.
 
 ```php
 <?php
-$database = 'SAMPLE';
-$user = 'db2inst1';
-$password = 'ibmdb2';
-$options = array('autocommit' => DB2_AUTOCOMMIT_OFF);
+$database = 'SAMPLE';
+$user = 'db2inst1';
+$password = 'ibmdb2';
+$options = array('autocommit' => DB2_AUTOCOMMIT_OFF);
 
-$conn = db2_connect($database, $user, $password, $options);
+$conn = db2_connect($database, $user, $password, $options);
 
-if ($conn) {
-    echo "Connection succeeded.\n";
-    if (db2_autocommit($conn)) {
-         echo "Autocommit is on.\n";
-    }
-    else {
-         echo "Autocommit is off.\n";
-    }
-    db2_close($conn);
+if ($conn) {
+    echo "Connection succeeded.\n";
+    if (db2_autocommit($conn)) {
+         echo "Autocommit is on.\n";
+    }
+    else {
+         echo "Autocommit is off.\n";
+    }
+    db2_close($conn);
 }
-else {
-    echo "Connection failed.";
+else {
+    echo "Connection failed.";
 }
 ?>
 ```
@@ -328,14 +328,14 @@ Autocommit is off.
 
 ```php
 <?php
-  $library = "ADC";
-  $i5 = db2_connect("", "", "", array("i5_lib"=>"qsys2"));
-  $result = db2_exec($i5,
-       "select * from systables where table_schema = '$library'");
-  while ($row = db2_fetch_both($result)) {
-     echo $row['TABLE_NAME']."</br>";
-  }
-  db2_close($i5);
+  $library = "ADC";
+  $i5 = db2_connect("", "", "", array("i5_lib"=>"qsys2"));
+  $result = db2_exec($i5,
+       "select * from systables where table_schema = '$library'");
+  while ($row = db2_fetch_both($result)) {
+     echo $row['TABLE_NAME']."</br>";
+  }
+  db2_close($i5);
 ?>
 ```
 
@@ -354,45 +354,45 @@ PICTURES
 ```php
 <?php
 
-$database = "SAMPLE";
-$hostname = "localhost";
-$port = 50000;
-$authID = "db2inst1";
-$auth_pass = "ibmdb2";
+$database = "SAMPLE";
+$hostname = "localhost";
+$port = 50000;
+$authID = "db2inst1";
+$auth_pass = "ibmdb2";
 
-$tc_user = "tcuser";
-$tc_pass = "tcpassword";
+$tc_user = "tcuser";
+$tc_pass = "tcpassword";
 
-$dsn = "DATABASE=$database;HOSTNAME=$hostname;PORT=$port;
-  PROTOCOL=TCPIP;UID=$authID;PWD=$auth_pass;";
-$options = array ("trustedcontext" => DB2_TRUSTED_CONTEXT_ENABLE);
+$dsn = "DATABASE=$database;HOSTNAME=$hostname;PORT=$port;
+  PROTOCOL=TCPIP;UID=$authID;PWD=$auth_pass;";
+$options = array ("trustedcontext" => DB2_TRUSTED_CONTEXT_ENABLE);
 
-$tc_conn = db2_connect($dsn, "", "", $options);
-if($tc_conn) {
-    echo "Explicit trusted connection succeeded.\n";
+$tc_conn = db2_connect($dsn, "", "", $options);
+if($tc_conn) {
+    echo "Explicit trusted connection succeeded.\n";
 
-    if(db2_get_option($tc_conn, "trustedcontext")) {
-        $userBefore = db2_get_option($tc_conn, "trusted_user");
+    if(db2_get_option($tc_conn, "trustedcontext")) {
+        $userBefore = db2_get_option($tc_conn, "trusted_user");
 
-        // Выполнение работы в качестве пользователя 1
+        // Выполнение работы в качестве пользователя 1
 
-        // Переключение на доверенного пользователя
-        $parameters = array("trusted_user" => $tc_user,
-          "trusted_password" => $tcuser_pass);
-        $res = db2_set_option ($tc_conn, $parameters, 1);
+        // Переключение на доверенного пользователя
+        $parameters = array("trusted_user" => $tc_user,
+          "trusted_password" => $tcuser_pass);
+        $res = db2_set_option ($tc_conn, $parameters, 1);
 
-        $userAfter = db2_get_option($tc_conn, "trusted_user");
-        // Продолжение выполнения работы в качестве доверенного пользователя
+        $userAfter = db2_get_option($tc_conn, "trusted_user");
+        // Продолжение выполнения работы в качестве доверенного пользователя
 
-        if($userBefore != $userAfter) {
-            echo "User has been switched." . "\n";
-        }
-    }
+        if($userBefore != $userAfter) {
+            echo "User has been switched." . "\n";
+        }
+    }
 
-    db2_close($tc_conn);
+    db2_close($tc_conn);
 }
-else {
-    echo "Explicit trusted connection failed.\n";
+else {
+    echo "Explicit trusted connection failed.\n";
 }
 ?>
 ```

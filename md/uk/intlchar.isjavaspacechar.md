@@ -39,7 +39,7 @@ public static IntlChar::isJavaSpaceChar(int|string $codepoint): ?bool
 ```php
 <?php
 var_dump(IntlChar::isJavaSpaceChar("A"));
-var_dump(IntlChar::isJavaSpaceChar(" "));
+var_dump(IntlChar::isJavaSpaceChar(" "));
 var_dump(IntlChar::isJavaSpaceChar("\n"));
 var_dump(IntlChar::isJavaSpaceChar("\t"));
 var_dump(IntlChar::isJavaSpaceChar("\u{00A0}"));

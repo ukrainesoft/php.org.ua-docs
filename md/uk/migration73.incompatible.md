@@ -16,9 +16,9 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ```php
 <?php
-$str = <<<FOO
+$str = <<<FOO
 abcdefg
-   FOO
+   FOO
 FOO;
 ?>
 ```
@@ -31,13 +31,13 @@ FOO;
 
 ```php
 <?php
-while ($foo) {
-    switch ($bar) {
-      case "baz":
-         continue;
-         // Предупреждение: "continue" эквивалентен
-         //          "break". Возможно, вы имели в виду "continue 2"?
-   }
+while ($foo) {
+    switch ($bar) {
+      case "baz":
+         continue;
+         // Предупреждение: "continue" эквивалентен
+         //          "break". Возможно, вы имели в виду "continue 2"?
+   }
 }
 ?>
 ```
@@ -52,17 +52,17 @@ while ($foo) {
 
 ```php
 <?php
-class Test {
-    public static $x = 0;
+class Test {
+    public static $x = 0;
 }
-class Test2 extends Test { }
+class Test2 extends Test { }
 
-Test2::$x = &$x;
-$x = 1;
+Test2::$x = &$x;
+$x = 1;
 
-var_dump(Test::$x, Test2::$x);
-// Ранее:  int(0), int(1)
-// Теперь: int(1), int(1)
+var_dump(Test::$x, Test2::$x);
+// Ранее:  int(0), int(1)
+// Теперь: int(1), int(1)
 ?>
 ```
 
@@ -72,10 +72,10 @@ var_dump(Test::$x, Test2::$x);
 
 ```php
 <?php
-$arr = [1];
-$ref =& $arr[0];
-var_dump($arr[0] + ($arr[0] = 2));
-// Ранее: int(4), Теперь: int(3)
+$arr = [1];
+$ref =& $arr[0];
+var_dump($arr[0] + ($arr[0] = 2));
+// Ранее: int(4), Теперь: int(3)
 ?>
 ```
 
@@ -87,11 +87,11 @@ var_dump($arr[0] + ($arr[0] = 2));
 
 ```php
 <?php
-function foo(...$args) {
-    var_dump($args);
+function foo(...$args) {
+    var_dump($args);
 }
-function gen() {
-    yield 1.23 => 123;
+function gen() {
+    yield 1.23 => 123;
 }
 foo(...gen());
 ?>
@@ -109,7 +109,7 @@ foo(...gen());
 
 Про невизначені змінні, передані в [compact()](function.compact.md), тепер буде повідомлено повідомленням.
 
-Функція [getimagesize()](function.getimagesize.md) і пов'язані з нею функції тепер повідомляють mime-типи зображень BMP як `image/bmp` замість `image/x-ms-bmp`оскільки перший зареєстрований в IANA (дивіться [» RFC 7903](http://www.faqs.org/rfcs/rfc7903)
+Функція [getimagesize()](function.getimagesize.md) і пов'язані з нею функції тепер повідомляють mime-типи зображень BMP як `image/bmp` замість `image/x-ms-bmp`оскільки перший зареєстрований в IANA (дивіться [» RFC 7903](http://www.faqs.org/rfcs/rfc7903)
 
 Функція [streamsocketgetname()](function.stream-socket-get-name.md) тепер повертає адреси IPv6, укладені у квадратні дужки. Наприклад, буде повернуто рядок `"[::1]:1337"` замість `"::1:1337"`
 

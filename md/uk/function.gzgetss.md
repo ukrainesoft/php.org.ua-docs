@@ -48,10 +48,10 @@ gzgetss(resource $zp, int $length, string $allowable_tags = ?): string
 
 ```php
 <?php
-$handle = gzopen('somefile.gz', 'r');
-while (!gzeof($handle)) {
-   $buffer = gzgetss($handle, 4096);
-   echo $buffer;
+$handle = gzopen('somefile.gz', 'r');
+while (!gzeof($handle)) {
+   $buffer = gzgetss($handle, 4096);
+   echo $buffer;
 }
 gzclose($handle);
 ?>

@@ -36,9 +36,9 @@ public Phar::isBuffering(): bool
 
 ```php
 <?php
-$p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
-$p2 = new Phar('existingphar.phar');
-$p['file1.txt'] = 'hi';
+$p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+$p2 = new Phar('existingphar.phar');
+$p['file1.txt'] = 'hi';
 var_dump($p->isBuffering());
 var_dump($p2->isBuffering());
 ?>

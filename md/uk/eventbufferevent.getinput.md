@@ -37,12 +37,12 @@ public
 
 ```php
 <?php
-function readcb($bev, $base) {
-    $input = $bev->input; //$bev->getInput();
+function readcb($bev, $base) {
+    $input = $bev->input; //$bev->getInput();
 
-    while (($n = $input->remove($buf, 1024)) > 0) {
-        echo $buf;
-    }
+    while (($n = $input->remove($buf, 1024)) > 0) {
+        echo $buf;
+    }
 }
 ?>
 ```

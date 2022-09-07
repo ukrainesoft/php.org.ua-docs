@@ -15,7 +15,7 @@ Imagick::cropImage — Витягує область зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::cropImage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::cropImage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Витягує область зображення.
@@ -52,11 +52,11 @@ public Imagick::cropImage(    int $width,    int $height,    int $x,
 
 ```php
 <?php
-function cropImage($imagePath, $startX, $startY, $width, $height) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->cropImage($width, $height, $startX, $startY);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function cropImage($imagePath, $startX, $startY, $width, $height) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->cropImage($width, $height, $startX, $startY);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

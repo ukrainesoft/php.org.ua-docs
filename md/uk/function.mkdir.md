@@ -15,7 +15,7 @@ mkdir - Створює директорію
 ### Опис
 
 ```methodsynopsis
-mkdir(    string $directory,    int $permissions = 0777,    bool $recursive = false,    ?resource $context = null): bool
+mkdir(    string $directory,    int $permissions = 0777,    bool $recursive = false,    ?resource $context = null): bool
 ```
 
 Намагається створити директорію, задану в `directory`
@@ -68,7 +68,7 @@ mkdir(    string $directory,    int $permissions = 0777,    bool $re
 
 ```php
 <?php
-mkdir("/path/to/my/dir", 0700);
+mkdir("/path/to/my/dir", 0700);
 ?>
 ```
 
@@ -76,17 +76,17 @@ mkdir("/path/to/my/dir", 0700);
 
 ```php
 <?php
-// Желаемая структура папок
-$structure = './depth1/depth2/depth3/';
+// Желаемая структура папок
+$structure = './depth1/depth2/depth3/';
 
-// Для создания вложенной структуры необходимо указать параметр
-// $recursive в mkdir().
+// Для создания вложенной структуры необходимо указать параметр
+// $recursive в mkdir().
 
-if (!mkdir($structure, 0777, true)) {
-    die('Не удалось создать директории...');
+if (!mkdir($structure, 0777, true)) {
+    die('Не удалось создать директории...');
 }
 
-// ...
+// ...
 ?>
 ```
 

@@ -36,11 +36,11 @@ public DirectoryIterator::getCTime(): int
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-foreach ($iterator as $fileinfo) {
-    if ($fileinfo->isFile()) {
-        echo $fileinfo->getFilename() . " изменялся в " . $fileinfo->getCTime() . "\n";
-    }
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getFilename() . " изменялся в " . $fileinfo->getCTime() . "\n";
+    }
 }
 ?>
 ```

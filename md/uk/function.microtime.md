@@ -40,15 +40,15 @@ microtime(bool $as_float = false): string|float
 
 ```php
 <?php
-$time_start = microtime(true);
+$time_start = microtime(true);
 
-// Спим некоторое время
+// Спим некоторое время
 usleep(100);
 
-$time_end = microtime(true);
-$time = $time_end - $time_start;
+$time_end = microtime(true);
+$time = $time_end - $time_start;
 
-echo "Ничего не делал $time секунд\n";
+echo "Ничего не делал $time секунд\n";
 ?>
 ```
 
@@ -56,14 +56,14 @@ echo "Ничего не делал $time секунд\n";
 
 ```php
 <?php
-// Выбираем время сна случайным образом
-usleep(mt_rand(100, 10000));
+// Выбираем время сна случайным образом
+usleep(mt_rand(100, 10000));
 
-// В суперглобальном Масиве $_SERVER доступно значение REQUEST_TIME_FLOAT.
-// Оно содержит временную метку начала запроса с точностью до микросекунд.
-$time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
+// В суперглобальном Масиве $_SERVER доступно значение REQUEST_TIME_FLOAT.
+// Оно содержит временную метку начала запроса с точностью до микросекунд.
+$time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
 
-echo "Ничего не делал $time секунд\n";
+echo "Ничего не делал $time секунд\n";
 ?>
 ```
 

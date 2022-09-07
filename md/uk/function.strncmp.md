@@ -47,10 +47,10 @@ strncmp(string $string1, string $string2, int $length): int
 ```php
 <?php
 
-$var1 = 'Hello John';
-$var2 = 'Hello Doe';
-if (strncmp($var1, $var2, 5) === 0) {
-    echo 'Первые 5 символов $var1 и $var2 равны при сравнении строк с учётом регистра';
+$var1 = 'Hello John';
+$var2 = 'Hello Doe';
+if (strncmp($var1, $var2, 5) === 0) {
+    echo 'Первые 5 символов $var1 и $var2 равны при сравнении строк с учётом регистра';
 }
 ?>
 ```

@@ -42,12 +42,12 @@ imagecolorstotal(GdImage $image): int
 
 ```php
 <?php
-// Создание изображения
-$im = imagecreatefromgif('php.gif');
+// Создание изображения
+$im = imagecreatefromgif('php.gif');
 
-echo 'Всего цветов в изображении: ' . imagecolorstotal($im);
+echo 'Всего цветов в изображении: ' . imagecolorstotal($im);
 
-// Освобождение памяти
+// Освобождение памяти
 imagedestroy($im);
 ?>
 ```

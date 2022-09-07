@@ -67,20 +67,20 @@ collator_compare(Collator $object, string $string1, string $string2): int|false
 
 ```php
 <?php
-$s1 = 'Hello';
-$s2 = 'hello';
+$s1 = 'Hello';
+$s2 = 'hello';
 
-$coll = collator_create( 'en_US' );
-$res  = collator_compare( $coll, $s1, $s2 );
+$coll = collator_create( 'en_US' );
+$res  = collator_compare( $coll, $s1, $s2 );
 
-if ($res === false) {
-    echo collator_get_error_message( $coll );
-} else if( $res > 0 ) {
-    echo "s1 больше s2\n";
-} else if( $res < 0 ) {
-    echo "s1 меньше s2\n";
-} else {
-    echo "s1 и s2 равны\n";
+if ($res === false) {
+    echo collator_get_error_message( $coll );
+} else if( $res > 0 ) {
+    echo "s1 больше s2\n";
+} else if( $res < 0 ) {
+    echo "s1 меньше s2\n";
+} else {
+    echo "s1 и s2 равны\n";
 }
 ?>
 ```
@@ -93,12 +93,12 @@ s1 більше s2
 
 ```php
 <?php
-$c = new Collator( 'en' );
-$c->setStrength( Collator::PRIMARY );
+$c = new Collator( 'en' );
+$c->setStrength( Collator::PRIMARY );
 
-if ( $c->compare( 'Séan', 'Sean' ) == 0 )
+if ( $c->compare( 'Séan', 'Sean' ) == 0 )
 {
-    echo "Значения равны\n";
+    echo "Значения равны\n";
 }
 ```
 

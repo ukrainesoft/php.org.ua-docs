@@ -34,10 +34,10 @@ public QuickHashStringIntHash::saveToString(): string
 
 ```php
 <?php
-$hash = new QuickHashStringIntHash( 1024 );
-var_dump( $hash->add( "сорок три", 42 ) );
-var_dump( $hash->add( "пятьдесят два", 52 ) );
+$hash = new QuickHashStringIntHash( 1024 );
+var_dump( $hash->add( "сорок три", 42 ) );
+var_dump( $hash->add( "пятьдесят два", 52 ) );
 
-var_dump( $hash->saveToString() );
+var_dump( $hash->saveToString() );
 ?>
 ```

@@ -60,14 +60,14 @@ implode(array $array, string $separator): string
 ```php
 <?php
 
-$array = ['имя', 'почта', 'телефон'];
-var_dump(implode(",", $array)); // string(32) "имя,почта,телефон"
+$array = ['имя', 'почта', 'телефон'];
+var_dump(implode(",", $array)); // string(32) "имя,почта,телефон"
 
-// Пустая строка при использовании пустого Масива:
-var_dump(implode('привет', [])); // string(0) ""
+// Пустая строка при использовании пустого Масива:
+var_dump(implode('привет', [])); // string(0) ""
 
-// Параметр separator не обязателен:
-var_dump(implode(['a', 'b', 'c'])); // string(3) "abc"
+// Параметр separator не обязателен:
+var_dump(implode(['a', 'b', 'c'])); // string(3) "abc"
 
 ?>
 ```

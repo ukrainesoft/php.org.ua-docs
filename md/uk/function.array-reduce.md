@@ -62,24 +62,24 @@ callback(mixed $carry, mixed $item): mixed
 
 ```php
 <?php
-function sum($carry, $item)
+function sum($carry, $item)
 {
-    $carry += $item;
-    return $carry;
+    $carry += $item;
+    return $carry;
 }
 
-function product($carry, $item)
+function product($carry, $item)
 {
-    $carry *= $item;
-    return $carry;
+    $carry *= $item;
+    return $carry;
 }
 
-$a = array(1, 2, 3, 4, 5);
-$x = array();
+$a = array(1, 2, 3, 4, 5);
+$x = array();
 
-var_dump(array_reduce($a, "sum")); // int(15)
-var_dump(array_reduce($a, "product", 10)); // int(1200), потому что: 10*1*2*3*4*5
-var_dump(array_reduce($x, "sum", "Нет данных")); // string(19) "Нет данных"
+var_dump(array_reduce($a, "sum")); // int(15)
+var_dump(array_reduce($a, "product", 10)); // int(1200), потому что: 10*1*2*3*4*5
+var_dump(array_reduce($x, "sum", "Нет данных")); // string(19) "Нет данных"
 ?>
 ```
 

@@ -15,7 +15,7 @@ streamcopyтоstream — Копіює дані з одного потоку до
 ### Опис
 
 ```methodsynopsis
-stream_copy_to_stream(    resource $from,    resource $to,    ?int $length = null,    int $offset = 0): int|false
+stream_copy_to_stream(    resource $from,    resource $to,    ?int $length = null,    int $offset = 0): int|false
 ```
 
 Робить копію до `length` байт даних від поточної позиції (або від позиції `offset`, якщо вказано) потоку `from` у потік `to`. Якщо `length` дорівнює **`null`**, буде скопійовано весь вміст, що залишився з `from`
@@ -54,12 +54,12 @@ stream_copy_to_stream(    resource $from,    resource $to,    ?int $
 
 ```php
 <?php
-$src = fopen('http://www.example.com', 'r');
-$dest1 = fopen('first1k.txt', 'w');
-$dest2 = fopen('remainder.txt', 'w');
+$src = fopen('http://www.example.com', 'r');
+$dest1 = fopen('first1k.txt', 'w');
+$dest2 = fopen('remainder.txt', 'w');
 
-echo stream_copy_to_stream($src, $dest1, 1024) . " байт скопировано в first1k.txt\n";
-echo stream_copy_to_stream($src, $dest2) . " байт скопировано в remainder.txt\n";
+echo stream_copy_to_stream($src, $dest1, 1024) . " байт скопировано в first1k.txt\n";
+echo stream_copy_to_stream($src, $dest2) . " байт скопировано в remainder.txt\n";
 
 ?>
 ```

@@ -37,16 +37,16 @@ public IntlDatePatternGenerator::getBestPattern(string $skeleton): string|false
 ```php
 <?php
 
-$skeleton = 'YYYYMMdd';
-$today = \DateTimeImmutable::createFromFormat('Y-m-d', '2021-04-24');
+$skeleton = 'YYYYMMdd';
+$today = \DateTimeImmutable::createFromFormat('Y-m-d', '2021-04-24');
 
-$patternGenerator = new \IntlDatePatternGenerator('de_DE');
-$pattern = $patternGenerator->getBestPattern($skeleton);
-echo 'Немецкий: ', \IntlDateFormatter::formatObject($today, $pattern, 'de_DE'), "\n";
+$patternGenerator = new \IntlDatePatternGenerator('de_DE');
+$pattern = $patternGenerator->getBestPattern($skeleton);
+echo 'Немецкий: ', \IntlDateFormatter::formatObject($today, $pattern, 'de_DE'), "\n";
 
-$patternGenerator = new \IntlDatePatternGenerator('en_US');
-$pattern = $patternGenerator->getBestPattern($skeleton);
-echo 'Английский: ', \IntlDateFormatter::formatObject($today, $pattern, 'en_US');
+$patternGenerator = new \IntlDatePatternGenerator('en_US');
+$pattern = $patternGenerator->getBestPattern($skeleton);
+echo 'Английский: ', \IntlDateFormatter::formatObject($today, $pattern, 'en_US');
 ?>
 ```
 

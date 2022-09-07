@@ -51,13 +51,13 @@ pg_tty(?PgSql\Connection $connection = null): string
 
 ```php
 <?php
-$pgsql_conn = pg_connect("dbname=mark host=localhost");
+$pgsql_conn = pg_connect("dbname=mark host=localhost");
 
-if ($pgsql_conn) {
-   print "TTY отладки сервера: " . pg_tty($pgsql_conn) . "<br/>\n";
-} else {
-   print pg_last_error($pgsql_conn);
-   exit;
+if ($pgsql_conn) {
+   print "TTY отладки сервера: " . pg_tty($pgsql_conn) . "<br/>\n";
+} else {
+   print pg_last_error($pgsql_conn);
+   exit;
 }
 ?>
 ```

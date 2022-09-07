@@ -22,7 +22,7 @@ public
    ): bool
 ```
 
-Попросити libevent не використовувати певний метод події (бекенд). Дивіться [» Створення бази події](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.md#_creating_an_event_base)
+Попросити libevent не використовувати певний метод події (бекенд). Дивіться [» Створення бази події](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.md#_creating_an_event_base)
 
 ### Список параметрів
 
@@ -40,9 +40,9 @@ public
 
 ```php
 <?php
-$cfg = new EventConfig();
-if ($cfg->avoidMethod("select")) {
-    echo "Метод 'select' будет игнорироваться\n";
+$cfg = new EventConfig();
+if ($cfg->avoidMethod("select")) {
+    echo "Метод 'select' будет игнорироваться\n";
 }
 ?>
 ```

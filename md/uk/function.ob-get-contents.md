@@ -37,17 +37,17 @@ ob_get_contents(): string|false
 
 ob_start();
 
-echo "Привет ";
+echo "Привет ";
 
-$out1 = ob_get_contents();
+$out1 = ob_get_contents();
 
-echo "Мир";
+echo "Мир";
 
-$out2 = ob_get_contents();
+$out2 = ob_get_contents();
 
 ob_end_clean();
 
-var_dump($out1, $out2);
+var_dump($out1, $out2);
 ?>
 ```
 

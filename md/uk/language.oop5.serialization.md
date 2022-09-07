@@ -16,35 +16,35 @@ title: Серіалізація об'єктів
 
 ```php
 <?php
-// classa.inc:
+// classa.inc:
 
-  class A {
-      public $one = 1;
+  class A {
+      public $one = 1;
 
-      public function show_one() {
-          echo $this->one;
-      }
-  }
+      public function show_one() {
+          echo $this->one;
+      }
+  }
 
-// page1.php:
+// page1.php:
 
-  include("classa.inc");
+  include("classa.inc");
 
-  $a = new A;
-  $s = serialize($a);
-  // сохраняем $s где-нибудь, откуда page2.php сможет его получить.
-  file_put_contents('store', $s);
+  $a = new A;
+  $s = serialize($a);
+  // сохраняем $s где-нибудь, откуда page2.php сможет его получить.
+  file_put_contents('store', $s);
 
-// page2.php:
+// page2.php:
 
-  // это нужно для того, чтобы функция unserialize работала правильно.
-  include("classa.inc");
+  // это нужно для того, чтобы функция unserialize работала правильно.
+  include("classa.inc");
 
-  $s = file_get_contents('store');
-  $a = unserialize($s);
+  $s = file_get_contents('store');
+  $a = unserialize($s);
 
-  // теперь можно использовать метод show_one() объекта $a.
-  $a->show_one();
+  // теперь можно использовать метод show_one() объекта $a.
+  $a->show_one();
 ?>
 ```
 

@@ -34,8 +34,8 @@ public Ds\Set::isEmpty(): bool
 
 ```php
 <?php
-$a = new \Ds\Set([1, 2, 3]);
-$b = new \Ds\Set();
+$a = new \Ds\Set([1, 2, 3]);
+$b = new \Ds\Set();
 
 var_dump($a->isEmpty());
 var_dump($b->isEmpty());

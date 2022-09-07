@@ -15,7 +15,7 @@ tradercdlgapsidesidewhite - Свічкова модель "Суміжні біл
 ### Опис
 
 ```methodsynopsis
-trader_cdlgapsidesidewhite(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlgapsidesidewhite(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

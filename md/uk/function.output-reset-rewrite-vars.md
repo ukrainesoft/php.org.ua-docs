@@ -41,13 +41,13 @@ output_reset_rewrite_vars(): bool
 ```php
 <?php
 session_start();
-output_add_rewrite_var('var', 'value');
+output_add_rewrite_var('var', 'value');
 
-echo '<a href="file.php">ссылка</a>';
+echo '<a href="file.php">ссылка</a>';
 ob_flush();
 
 output_reset_rewrite_vars();
-echo '<a href="file.php">ссылка</a>';
+echo '<a href="file.php">ссылка</a>';
 ?>
 ```
 

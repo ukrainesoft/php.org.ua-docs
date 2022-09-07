@@ -40,7 +40,7 @@ public Ds\Deque::remove(int $index): mixed
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c"]);
+$deque = new \Ds\Deque(["a", "b", "c"]);
 
 var_dump($deque->remove(1));
 var_dump($deque->remove(0));

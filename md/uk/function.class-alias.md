@@ -45,23 +45,23 @@ class_alias(string $class, string $alias, bool $autoload = true): bool
 ```php
 <?php
 
-class foo { }
+class foo { }
 
-class_alias('foo', 'bar');
+class_alias('foo', 'bar');
 
-$a = new foo;
-$b = new bar;
+$a = new foo;
+$b = new bar;
 
-// объекты одинаковы
-var_dump($a == $b, $a === $b);
-var_dump($a instanceof $b);
+// объекты одинаковы
+var_dump($a == $b, $a === $b);
+var_dump($a instanceof $b);
 
-// классы одинаковы
-var_dump($a instanceof foo);
-var_dump($a instanceof bar);
+// классы одинаковы
+var_dump($a instanceof foo);
+var_dump($a instanceof bar);
 
-var_dump($b instanceof foo);
-var_dump($b instanceof bar);
+var_dump($b instanceof foo);
+var_dump($b instanceof bar);
 
 ?>
 ```

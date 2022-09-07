@@ -58,31 +58,31 @@ expect_expectl(resource $expect, array $cases, array &$match = ?): int
 
 ```php
 <?php
-// Копируем файлы с сервера:
-ini_set("expect.timeout", 30);
+// Копируем файлы с сервера:
+ini_set("expect.timeout", 30);
 
-$stream = fopen("expect://scp user@remotehost:/var/log/messages /home/user/messages.txt", "r");
+$stream = fopen("expect://scp user@remotehost:/var/log/messages /home/user/messages.txt", "r");
 
-$cases = array(
-    // array(шаблон, возвращаемов в случае совпадения значение)
-    array("password:", "asked for password"),
-    array("yes/no)?",  "asked for yes/no")
+$cases = array(
+    // array(шаблон, возвращаемов в случае совпадения значение)
+    array("password:", "asked for password"),
+    array("yes/no)?",  "asked for yes/no")
 );
 
-while (true) {
-    switch (expect_expectl($stream, $cases)) {
-        case "asked for password":
-            fwrite($stream, "my password\n");
-            break;
-        case "asked for yes/no":
-            fwrite($stream, "yes\n");
-            break;
-        case EXP_TIMEOUT:
-        case EXP_EOF:
-            break 2; // Прерывает как switch так и цикл while
-        default:
-            die("Произошла ошибка!");
-    }
+while (true) {
+    switch (expect_expectl($stream, $cases)) {
+        case "asked for password":
+            fwrite($stream, "my password\n");
+            break;
+        case "asked for yes/no":
+            fwrite($stream, "yes\n");
+            break;
+        case EXP_TIMEOUT:
+        case EXP_EOF:
+            break 2; // Прерывает как switch так и цикл while
+        default:
+            die("Произошла ошибка!");
+    }
 }
 
 fclose($stream);

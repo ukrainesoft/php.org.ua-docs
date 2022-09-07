@@ -44,7 +44,7 @@ hex2bin(string $string): string|false
 
 ```php
 <?php
-$hex = hex2bin("d0bfd180d0b8d0bcd0b5d18020d188d0b5d181d182d0bdd0b0d0b4d186d0b0d182d0b5d180d0b8d187d0bdd18bd18520d0b4d0b0d0bdd0bdd18bd185");
+$hex = hex2bin("d0bfd180d0b8d0bcd0b5d18020d188d0b5d181d182d0bdd0b0d0b4d186d0b0d182d0b5d180d0b8d187d0bdd18bd18520d0b4d0b0d0bdd0bdd18bd185");
 var_dump($hex);
 ?>
 ```

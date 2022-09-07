@@ -35,7 +35,7 @@ No parameters.
 ```php
 <?php
 Phar::interceptFileFuncs();
-include 'phar://' . __FILE__ . '/file.php';
+include 'phar://' . __FILE__ . '/file.php';
 ?>
 ```
 
@@ -45,7 +45,7 @@ include 'phar://' . __FILE__ . '/file.php';
 
 ```php
 <?php
-echo file_get_contents('file2.txt');
+echo file_get_contents('file2.txt');
 ?>
 ```
 

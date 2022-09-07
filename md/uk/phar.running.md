@@ -40,7 +40,7 @@ final public static Phar::running(bool $returnPhar = true): string
 
 ```php
 <?php
-$a = Phar::running(); // $a равно "phar:///path/to/my.phar"
-$b = Phar::running(false); // $b равно "/path/to/my.phar"
+$a = Phar::running(); // $a равно "phar:///path/to/my.phar"
+$b = Phar::running(false); // $b равно "/path/to/my.phar"
 ?>
 ```

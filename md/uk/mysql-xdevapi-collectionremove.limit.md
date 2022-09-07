@@ -41,7 +41,7 @@ public mysql_xdevapi\CollectionRemove::limit(int $rows): mysql_xdevapi\Collectio
 ```php
 <?php
 
-$res = $coll->remove('job in (\'Barista\', \'Programmatore\', \'Ballerino\', \'Programmatrice\')')->limit(5)->sort(['age desc', 'name asc'])->execute();
+$res = $coll->remove('job in (\'Barista\', \'Programmatore\', \'Ballerino\', \'Programmatrice\')')->limit(5)->sort(['age desc', 'name asc'])->execute();
 
 ?>
 ```

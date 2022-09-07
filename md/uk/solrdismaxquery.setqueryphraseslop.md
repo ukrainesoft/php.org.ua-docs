@@ -39,9 +39,9 @@ public SolrDisMaxQuery::setQueryPhraseSlop(string $slop): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery();
+$dismaxQuery = new SolrDisMaxQuery();
 $dismaxQuery->setQueryPhraseSlop(3);
-echo $dismaxQuery;
+echo $dismaxQuery;
 ?>
 ```
 

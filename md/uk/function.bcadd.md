@@ -51,11 +51,11 @@ bcadd(string $num1, string $num2, ?int $scale = null): string
 ```php
 <?php
 
-$a = '1.234';
-$b = '5';
+$a = '1.234';
+$b = '5';
 
-echo bcadd($a, $b);     // 6
-echo bcadd($a, $b, 4);  // 6.2340
+echo bcadd($a, $b);     // 6
+echo bcadd($a, $b, 4);  // 6.2340
 
 ?>
 ```

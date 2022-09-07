@@ -34,12 +34,12 @@ public Thread::getCreatorId(): int
 
 ```php
 <?php
-class My extends Thread {
-    public function run() {
-        printf("%s создан потоком #%lu\n", __CLASS__, $this->getCreatorId());
-    }
+class My extends Thread {
+    public function run() {
+        printf("%s создан потоком #%lu\n", __CLASS__, $this->getCreatorId());
+    }
 }
-$my = new My();
+$my = new My();
 $my->start();
 ?>
 ```

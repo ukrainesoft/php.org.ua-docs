@@ -34,10 +34,10 @@ public ReflectionParameter::hasType(): bool
 
 ```php
 <?php
-function someFunction(string $param, $param2 = null) {}
+function someFunction(string $param, $param2 = null) {}
 
-$reflectionFunc = new ReflectionFunction('someFunction');
-$reflectionParams = $reflectionFunc->getParameters();
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParams = $reflectionFunc->getParameters();
 
 var_dump($reflectionParams[0]->hasType());
 var_dump($reflectionParams[1]->hasType());

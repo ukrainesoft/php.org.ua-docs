@@ -12,21 +12,21 @@ title: Приклади
 
 ```php
 <?php
-$set = new QuickHashIntSet( 1024, QuickHashIntSet::CHECK_FOR_DUPES );
-$set->add( 1 );
-$set->add( 3 );
+$set = new QuickHashIntSet( 1024, QuickHashIntSet::CHECK_FOR_DUPES );
+$set->add( 1 );
+$set->add( 3 );
 
-var_dump( $set->exists( 3 ) );
-var_dump( $set->exists( 4 ) );
+var_dump( $set->exists( 3 ) );
+var_dump( $set->exists( 4 ) );
 
-$set->saveToFile( "/tmp/test-set.set" );
+$set->saveToFile( "/tmp/test-set.set" );
 
-$newSet = QuickHashIntSet::loadFromFile(
-    "/tmp/test-set.set"
+$newSet = QuickHashIntSet::loadFromFile(
+    "/tmp/test-set.set"
 );
 
-var_dump( $newSet->exists( 3 ) );
-var_dump( $newSet->exists( 4 ) );
+var_dump( $newSet->exists( 3 ) );
+var_dump( $newSet->exists( 4 ) );
 ?>
 ```
 
@@ -43,21 +43,21 @@ bool(false)
 
 ```php
 <?php
-$hash = new QuickHashIntHash( 64 );
+$hash = new QuickHashIntHash( 64 );
 
-// Добавление и обновление записей хеша.
-$hash[3] = 145926;
-$hash[3] = 1415926;
-$hash[2] = 72;
+// Добавление и обновление записей хеша.
+$hash[3] = 145926;
+$hash[3] = 1415926;
+$hash[2] = 72;
 
-// Проверка существования ключей
-var_dump( isset( $hash[3] ) );
+// Проверка существования ключей
+var_dump( isset( $hash[3] ) );
 
-// Удаление записей хеша
-unset( $hash[2] );
+// Удаление записей хеша
+unset( $hash[2] );
 
-// Получение значения, сохранённого для хеша
-echo $hash[3], "\n";
+// Получение значения, сохранённого для хеша
+echo $hash[3], "\n";
 ?>
 ```
 
@@ -72,18 +72,18 @@ bool(true)
 
 ```php
 <?php
-$hash = new QuickHashIntHash( 64 );
+$hash = new QuickHashIntHash( 64 );
 
-// Добавление записей хеша.
-$hash[1] = 145926;
-$hash[2] = 1415926;
-$hash[3] = 72;
-$hash[4] = 712314;
-$hash[5] = -4234;
+// Добавление записей хеша.
+$hash[1] = 145926;
+$hash[2] = 1415926;
+$hash[3] = 72;
+$hash[4] = 712314;
+$hash[5] = -4234;
 
-foreach( $hash as $key => $value )
+foreach( $hash as $key => $value )
 {
-    echo $key, ' => ', $value, "\n";
+    echo $key, ' => ', $value, "\n";
 }
 ?>
 ```
@@ -102,15 +102,15 @@ foreach( $hash as $key => $value )
 
 ```php
 <?php
-$hash = new QuickHashIntStringHash( 64 );
+$hash = new QuickHashIntStringHash( 64 );
 
-// Добавление записей хеша.
-$hash[1] = "один миллион четыреста пятнадцать тысяч девятьсот двадцать шесть";
-$hash->add( 2, "ещё один" );
+// Добавление записей хеша.
+$hash[1] = "один миллион четыреста пятнадцать тысяч девятьсот двадцать шесть";
+$hash->add( 2, "ещё один" );
 
-foreach( $hash as $key => $value )
+foreach( $hash as $key => $value )
 {
-    echo $key, ' => ', $value, "\n";
+    echo $key, ' => ', $value, "\n";
 }
 ?>
 ```

@@ -40,7 +40,7 @@ HTML-сайт в HTML-файлі, виявлений Tidy.
 
     /* Методы */
     
-   public __construct(    ?string $filename = null,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false)
+   public __construct(    ?string $filename = null,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false)
 
     public body(): ?tidyNode
 public cleanRepair(): bool
@@ -56,11 +56,11 @@ public head(): ?tidyNode
 public html(): ?tidyNode
 public isXhtml(): bool
 public isXml(): bool
-public parseFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): bool
-tidy_parse_file(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): tidy|false
+public parseFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): bool
+tidy_parse_file(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): tidy|false
 public parseString(string $string, array|string|null $config = null, ?string $encoding = null): bool
 tidy_parse_string(string $string, array|string|null $config = null, ?string $encoding = null): tidy|false
-public static repairFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): string|false
+public static repairFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): string|false
 public static repairString(string $string, array|string|null $config = null, ?string $encoding = null): string|false
 public root(): ?tidyNode
 

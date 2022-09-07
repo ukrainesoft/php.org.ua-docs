@@ -64,26 +64,26 @@ public IteratorIterator::valid(): bool
 ```php
 <?php
 
-// Создать итератор для ограничения
-$fruits = new ArrayIterator(array(
-    'apple',
-    'banana',
-    'cherry',
-    'damson',
-    'elderberry'
+// Создать итератор для ограничения
+$fruits = new ArrayIterator(array(
+    'apple',
+    'banana',
+    'cherry',
+    'damson',
+    'elderberry'
 ));
 
-// Цикл только по первым трём фруктам
-foreach (new LimitIterator($fruits, 0, 3) as $fruit) {
-    var_dump($fruit);
+// Цикл только по первым трём фруктам
+foreach (new LimitIterator($fruits, 0, 3) as $fruit) {
+    var_dump($fruit);
 }
 
-echo "\n";
+echo "\n";
 
-// Цикл, начиная с третьего фрукта и до конца
-// Примечание: смещение начинается с нуля для яблока
-foreach (new LimitIterator($fruits, 2) as $fruit) {
-    var_dump($fruit);
+// Цикл, начиная с третьего фрукта и до конца
+// Примечание: смещение начинается с нуля для яблока
+foreach (new LimitIterator($fruits, 2) as $fruit) {
+    var_dump($fruit);
 }
 
 ?>

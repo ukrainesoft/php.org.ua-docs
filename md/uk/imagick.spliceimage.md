@@ -15,7 +15,7 @@ Imagick::spliceImage — Склеює суцільний колір у зобр�
 ### Опис
 
 ```methodsynopsis
-public Imagick::spliceImage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::spliceImage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Склеює суцільний колір зображення.
@@ -40,11 +40,11 @@ public Imagick::spliceImage(    int $width,    int $height,    int $
 
 ```php
 <?php
-function spliceImage($imagePath, $startX, $startY, $width, $height) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->spliceImage($width, $height, $startX, $startY);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function spliceImage($imagePath, $startX, $startY, $width, $height) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->spliceImage($width, $height, $startX, $startY);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

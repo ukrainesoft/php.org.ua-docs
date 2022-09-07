@@ -15,7 +15,7 @@ tradercdltristar - Свічкова модель "Трістар"
 ### Опис
 
 ```methodsynopsis
-trader_cdltristar(    array $open,    array $high,    array $low,    array $close): array
+trader_cdltristar(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

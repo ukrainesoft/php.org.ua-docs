@@ -54,8 +54,8 @@ create_function(string $args, string $code): string
 
 ```php
 <?php
-$newfunc = create_function('$a,$b', 'return "ln($a) + ln($b) = " . log($a * $b);');
-echo $newfunc(2, M_E) . "\n";
+$newfunc = create_function('$a,$b', 'return "ln($a) + ln($b) = " . log($a * $b);');
+echo $newfunc(2, M_E) . "\n";
 ?>
 ```
 
@@ -63,8 +63,8 @@ echo $newfunc(2, M_E) . "\n";
 
 ```php
 <?php
-$newfunc = function($a,$b) { return "ln($a) + ln($b) = " . log($a * $b); };
-echo $newfunc(2, M_E) . "\n";
+$newfunc = function($a,$b) { return "ln($a) + ln($b) = " . log($a * $b); };
+echo $newfunc(2, M_E) . "\n";
 ?>
 ```
 
@@ -80,35 +80,35 @@ ln(2) + ln(2.718281828459) = 1.6931471805599
 
 ```php
 <?php
-function process($var1, $var2, $farr)
+function process($var1, $var2, $farr)
 {
-    foreach ($farr as $f) {
-        echo $f($var1, $var2) . "\n";
-    }
+    foreach ($farr as $f) {
+        echo $f($var1, $var2) . "\n";
+    }
 }
 
-// создаём кучу математических функций
-$farr = array(
-    create_function('$x,$y', 'return "тригонометрия: ".(sin($x) + $x*cos($y));'),
-    create_function('$x,$y', 'return "гипотенуза: ".sqrt($x*$x + $y*$y);'),
-    create_function('$a,$b', 'if ($a >=0) {return "b*a^2 = ".$b*sqrt($a);} else {return false;}'),
-    create_function('$a,$b', "return \"min(b^2+a, a^2,b) = \".min(\$a*\$a+\$b,\$b*\$b+\$a);"),
-    create_function('$a,$b', 'if ($a > 0 && $b != 0) {return "ln(a)/b = ".log($a)/$b; } else { return false; }')
+// создаём кучу математических функций
+$farr = array(
+    create_function('$x,$y', 'return "тригонометрия: ".(sin($x) + $x*cos($y));'),
+    create_function('$x,$y', 'return "гипотенуза: ".sqrt($x*$x + $y*$y);'),
+    create_function('$a,$b', 'if ($a >=0) {return "b*a^2 = ".$b*sqrt($a);} else {return false;}'),
+    create_function('$a,$b', "return \"min(b^2+a, a^2,b) = \".min(\$a*\$a+\$b,\$b*\$b+\$a);"),
+    create_function('$a,$b', 'if ($a > 0 && $b != 0) {return "ln(a)/b = ".log($a)/$b; } else { return false; }')
 );
 
-echo "\nИспользование первого Масива динамических функций\n";
-echo "Параметры: 2.3445, M_PI\n";
-process(2.3445, M_PI, $farr);
+echo "\nИспользование первого Масива динамических функций\n";
+echo "Параметры: 2.3445, M_PI\n";
+process(2.3445, M_PI, $farr);
 
-// теперь создаём кучу функций обработки строк
-$garr = array(
-    create_function('$b,$a', 'if (strncmp($a, $b, 3) == 0) return "** \"$a\" '.
-        'и \"$b\"\n** для меня одинаковы! (смотря по первым 3 символам)";'),
-    create_function('$a,$b', 'return "CRCs: " . crc32($a) . ", ".crc32($b);'),
-    create_function('$a,$b', 'return "similar(a,b) = " . similar_text($a, $b, $p) . "($p%)";')
+// теперь создаём кучу функций обработки строк
+$garr = array(
+    create_function('$b,$a', 'if (strncmp($a, $b, 3) == 0) return "** \"$a\" '.
+        'и \"$b\"\n** для меня одинаковы! (смотря по первым 3 символам)";'),
+    create_function('$a,$b', 'return "CRCs: " . crc32($a) . ", ".crc32($b);'),
+    create_function('$a,$b', 'return "similar(a,b) = " . similar_text($a, $b, $p) . "($p%)";')
 );
-echo "\nИспользование второго Масива динамических функций\n";
-process("Варкалось. Хливкие шорьки пырялись по наве", "Варан ползёт", $garr);
+echo "\nИспользование второго Масива динамических функций\n";
+process("Варкалось. Хливкие шорьки пырялись по наве", "Варан ползёт", $garr);
 ?>
 ```
 
@@ -116,35 +116,35 @@ process("Варкалось. Хливкие шорьки пырялись п
 
 ```php
 <?php
-function process($var1, $var2, $farr)
+function process($var1, $var2, $farr)
 {
-    foreach ($farr as $f) {
-        echo $f($var1, $var2) . "\n";
-    }
+    foreach ($farr as $f) {
+        echo $f($var1, $var2) . "\n";
+    }
 }
 
-// создаём кучу математических функций
-$farr = array(
-    function($x,$y) { return "тригонометрия: ".(sin($x) + $x*cos($y)); },
-    function($x,$y) { return "гипотенуза: ".sqrt($x*$x + $y*$y); },
-    function($a,$b) { if ($a >=0) {return "b*a^2 = ".$b*sqrt($a);} else {return false;} },
-    function($a,$b) { return "min(b^2+a, a^2,b) = " . min($a*$a+$b, $b*$b+$a); },
-    function($a,$b) { if ($a > 0 && $b != 0) {return "ln(a)/b = ".log($a)/$b; } else { return false; } }
+// создаём кучу математических функций
+$farr = array(
+    function($x,$y) { return "тригонометрия: ".(sin($x) + $x*cos($y)); },
+    function($x,$y) { return "гипотенуза: ".sqrt($x*$x + $y*$y); },
+    function($a,$b) { if ($a >=0) {return "b*a^2 = ".$b*sqrt($a);} else {return false;} },
+    function($a,$b) { return "min(b^2+a, a^2,b) = " . min($a*$a+$b, $b*$b+$a); },
+    function($a,$b) { if ($a > 0 && $b != 0) {return "ln(a)/b = ".log($a)/$b; } else { return false; } }
 );
 
-echo "\nИспользование первого Масива динамических функций\n";
-echo "Параметры: 2.3445, M_PI\n";
-process(2.3445, M_PI, $farr);
+echo "\nИспользование первого Масива динамических функций\n";
+echo "Параметры: 2.3445, M_PI\n";
+process(2.3445, M_PI, $farr);
 
-// теперь создаём кучу функций обработки строк
-$garr = array(
-    function($b,$a) { if (strncmp($a, $b, 3) == 0) return "** \"$a\" " .
-        "и \"$b\"\n** для меня одинаковы! (смотря по первым 3 символам)"; },
-    function($a,$b) { return "CRCs: " . crc32($a) . ", ".crc32($b); },
-    function($a,$b) { return "similar(a,b) = " . similar_text($a, $b, $p) . "($p%)"; }
+// теперь создаём кучу функций обработки строк
+$garr = array(
+    function($b,$a) { if (strncmp($a, $b, 3) == 0) return "** \"$a\" " .
+        "и \"$b\"\n** для меня одинаковы! (смотря по первым 3 символам)"; },
+    function($a,$b) { return "CRCs: " . crc32($a) . ", ".crc32($b); },
+    function($a,$b) { return "similar(a,b) = " . similar_text($a, $b, $p) . "($p%)"; }
 );
-echo "\nИспользование второго Масива динамических функций\n";
-process("Варкалось. Хливкие шорьки пырялись по наве", "Варан ползёт", $garr);
+echo "\nИспользование второго Масива динамических функций\n";
+process("Варкалось. Хливкие шорьки пырялись по наве", "Варан ползёт", $garr);
 ?>
 ```
 
@@ -172,8 +172,8 @@ similar(a,b) = 16(31.683168316832%)
 
 ```php
 <?php
-$av = array("the ", "a ", "that ", "this ");
-array_walk($av, create_function('&$v,$k', '$v = $v . "mango";'));
+$av = array("the ", "a ", "that ", "this ");
+array_walk($av, create_function('&$v,$k', '$v = $v . "mango";'));
 print_r($av);
 ?>
 ```
@@ -182,8 +182,8 @@ print_r($av);
 
 ```php
 <?php
-$av = array("о, ", "эх, ", "то ", "это ");
-array_walk($av, create_function('&$v,$k', '$v = $v . "манго";'));
+$av = array("о, ", "эх, ", "то ", "это ");
+array_walk($av, create_function('&$v,$k', '$v = $v . "манго";'));
 print_r($av);
 ?>
 ```
@@ -204,11 +204,11 @@ Array
 
 ```php
 <?php
-$sv = array("мало", "много", "большая строка", "строка строка строка");
-echo "Оригинальный Масив:\n";
+$sv = array("мало", "много", "большая строка", "строка строка строка");
+echo "Оригинальный Масив:\n";
 print_r($sv);
-echo "Отсортированный:\n";
-usort($sv, create_function('$a,$b','return strlen($b) - strlen($a);'));
+echo "Отсортированный:\n";
+usort($sv, create_function('$a,$b','return strlen($b) - strlen($a);'));
 print_r($sv);
 ?>
 ```
@@ -217,11 +217,11 @@ print_r($sv);
 
 ```php
 <?php
-$sv = array("мало", "много", "большая строка", "строка строка строка");
-echo "Оригинальный Масив:\n";
+$sv = array("мало", "много", "большая строка", "строка строка строка");
+echo "Оригинальный Масив:\n";
 print_r($sv);
-echo "Отсортированный:\n";
-usort($sv, function($a,$b) { return strlen($b) - strlen($a); });
+echo "Отсортированный:\n";
+usort($sv, function($a,$b) { return strlen($b) - strlen($a); });
 print_r($sv);
 ?>
 ```

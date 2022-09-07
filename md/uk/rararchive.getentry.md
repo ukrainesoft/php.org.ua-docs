@@ -60,14 +60,14 @@ rar_entry_get(RarArchive $rarfile, string $entryname): RarEntry|false
 
 ```php
 <?php
-$rar_arch = RarArchive::open('solid.rar');
-if ($rar_arch === FALSE)
-    die("Не смог открыть RAR архив.");
-$rar_entry = $rar_arch->getEntry('tese.txt');
-if ($rar_entry === FALSE)
-    die("Не смог достать этот объект");
-echo get_class($rar_entry)."\n";
-echo $rar_entry;
+$rar_arch = RarArchive::open('solid.rar');
+if ($rar_arch === FALSE)
+    die("Не смог открыть RAR архив.");
+$rar_entry = $rar_arch->getEntry('tese.txt');
+if ($rar_entry === FALSE)
+    die("Не смог достать этот объект");
+echo get_class($rar_entry)."\n";
+echo $rar_entry;
 $rar_arch->close();
 ?>
 ```
@@ -83,14 +83,14 @@ RarEntry for file "tese.txt" (23b93a7a)
 
 ```php
 <?php
-$rar_arch = rar_open('solid.rar');
-if ($rar_arch === FALSE)
-    die("Не смог открыть RAR архив.");
-$rar_entry = rar_entry_get($rar_arch, 'tese.txt');
-if ($rar_entry === FALSE)
-    die("Не смог достать этот объект");
-echo get_class($rar_entry)."\n";
-echo $rar_entry;
+$rar_arch = rar_open('solid.rar');
+if ($rar_arch === FALSE)
+    die("Не смог открыть RAR архив.");
+$rar_entry = rar_entry_get($rar_arch, 'tese.txt');
+if ($rar_entry === FALSE)
+    die("Не смог достать этот объект");
+echo get_class($rar_entry)."\n";
+echo $rar_entry;
 rar_close($rar_arch);
 ?>
 ```

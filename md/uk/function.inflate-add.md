@@ -34,7 +34,7 @@ inflate_add(InflateContext $context, string $data, int $flush_mode = ZLIB_SYNC_F
 
 `flush_mode`
 
-Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** завершення роботи з останнім блоком даних. Детальний опис констант дивіться в [» руководство zlib](http://www.zlib.net/manual.md)
+Одна з констант: **`ZLIB_BLOCK`** **`ZLIB_NO_FLUSH`** **`ZLIB_PARTIAL_FLUSH`** **`ZLIB_SYNC_FLUSH`** (за замовчуванням), **`ZLIB_FULL_FLUSH`** **`ZLIB_FINISH`**. Зазвичай потрібно встановити **`ZLIB_NO_FLUSH`** для максимальної компресії та **`ZLIB_FINISH`** завершення роботи з останнім блоком даних. Детальний опис констант дивіться в [» руководство zlib](http://www.zlib.net/manual.md)
 
 ### Значення, що повертаються
 

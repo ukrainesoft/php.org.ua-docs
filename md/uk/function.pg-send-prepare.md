@@ -52,26 +52,26 @@ pg_send_prepare(PgSql\Connection $connection, string $statement_name, string $qu
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Could not connect");
+  $dbconn = pg_connect("dbname=publisher") or die("Could not connect");
 
-  // Подготовка запроса
-  if (!pg_connection_busy($dbconn)) {
-    pg_send_prepare($dbconn, "my_query", 'SELECT * FROM shops WHERE name = $1');
-    $res1 = pg_get_result($dbconn);
-  }
+  // Подготовка запроса
+  if (!pg_connection_busy($dbconn)) {
+    pg_send_prepare($dbconn, "my_query", 'SELECT * FROM shops WHERE name = $1');
+    $res1 = pg_get_result($dbconn);
+  }
 
-  // Запуск запроса на выполнение. Стоит отметить, что нет необходимости экранировать
-  // спецсимволы в строке "Joe's Widgets"
-  if (!pg_connection_busy($dbconn)) {
-    pg_send_execute($dbconn, "my_query", array("Joe's Widgets"));
-    $res2 = pg_get_result($dbconn);
-  }
+  // Запуск запроса на выполнение. Стоит отметить, что нет необходимости экранировать
+  // спецсимволы в строке "Joe's Widgets"
+  if (!pg_connection_busy($dbconn)) {
+    pg_send_execute($dbconn, "my_query", array("Joe's Widgets"));
+    $res2 = pg_get_result($dbconn);
+  }
 
-  // Запуск на выполнение того же запроса, но с другим параметром
-  if (!pg_connection_busy($dbconn)) {
-    pg_send_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));
-    $res3 = pg_get_result($dbconn);
-  }
+  // Запуск на выполнение того же запроса, но с другим параметром
+  if (!pg_connection_busy($dbconn)) {
+    pg_send_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));
+    $res3 = pg_get_result($dbconn);
+  }
 
 ?>
 ```

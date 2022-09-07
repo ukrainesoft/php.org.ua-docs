@@ -39,14 +39,14 @@ qf: При створенні DisjunctionMaxQueries з запиту корист
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery = new SolrDisMaxQuery('lucene');
 $dismaxQuery
-    ->addQueryField('first', 3)
-    ->addQueryField('second', 0.2)
-    ->addQueryField('cat');
-echo $dismaxQuery . PHP_EOL;
-// удалите поле 'second'
-echo $dismaxQuery->removeQueryField('second');
+    ->addQueryField('first', 3)
+    ->addQueryField('second', 0.2)
+    ->addQueryField('cat');
+echo $dismaxQuery . PHP_EOL;
+// удалите поле 'second'
+echo $dismaxQuery->removeQueryField('second');
 ?>
 ```
 

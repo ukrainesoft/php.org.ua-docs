@@ -8,7 +8,7 @@ title: Кодування символів
 ---
 ## Кодування символів
 
-В ідеальному випадку кодування символів має встановлюватися на рівні сервера і робити це згідно з описом у розділі [» Конфігурація кодування символів](http://dev.mysql.com/doc/mysql/en/charset-configuration.md) документації MySQL сервера. В якості альтернативи кожен MySQL API пропонує метод встановлення кодування символів під час виконання.
+В ідеальному випадку кодування символів має встановлюватися на рівні сервера і робити це згідно з описом у розділі [» Конфігурація кодування символів](http://dev.mysql.com/doc/mysql/en/charset-configuration.md) документації MySQL сервера. В якості альтернативи кожен MySQL API пропонує метод встановлення кодування символів під час виконання.
 
 **Застереження**
 
@@ -21,19 +21,19 @@ title: Кодування символів
 ```php
 <?php
 
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-// Этот запрос не влияет на поведение $mysqli->real_escape_string();
-$mysqli->query("SET NAMES utf8mb4");
+// Этот запрос не влияет на поведение $mysqli->real_escape_string();
+$mysqli->query("SET NAMES utf8mb4");
 
-// И этот не влияет на $mysqli->real_escape_string();
-$mysqli->query("SET CHARACTER SET utf8mb4");
+// И этот не влияет на $mysqli->real_escape_string();
+$mysqli->query("SET CHARACTER SET utf8mb4");
 
-// но вот этот запрос повлияет на поведение $mysqli->real_escape_string();
+// но вот этот запрос повлияет на поведение $mysqli->real_escape_string();
 $mysqli->set_charset('utf8mb4');
 
-// а этот НЕ повлияет, потому что нельзя использовать "-"
-$mysqli->set_charset('UTF-8'); // (utf8mb4, а не UTF-8)
+// а этот НЕ повлияет, потому что нельзя использовать "-"
+$mysqli->set_charset('UTF-8'); // (utf8mb4, а не UTF-8)
 ?>
 ```
 
@@ -47,16 +47,16 @@ $mysqli->set_charset('UTF-8'); // (utf8mb4, а не UTF-8)
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-echo 'Первоначальная кодировка: ' . $mysqli->character_set_name() . "\n";
+echo 'Первоначальная кодировка: ' . $mysqli->character_set_name() . "\n";
 
-if (!$mysqli->set_charset('utf8mb4')) {
-    printf("Ошибка загрузки кодировки utf8mb4: %s\n", $mysqli->error);
-    exit;
+if (!$mysqli->set_charset('utf8mb4')) {
+    printf("Ошибка загрузки кодировки utf8mb4: %s\n", $mysqli->error);
+    exit;
 }
 
-echo 'Ваша текущая кодировка: ' . $mysqli->character_set_name() . "\n";
+echo 'Ваша текущая кодировка: ' . $mysqli->character_set_name() . "\n";
 ?>
 ```
 
@@ -64,6 +64,6 @@ echo 'Ваша текущая кодировка: ' . $mysqli->character_s
 
 ```php
 <?php
-$pdo = new PDO("mysql:host=localhost;dbname=world;charset=utf8mb4", 'my_user', 'my_pass');
+$pdo = new PDO("mysql:host=localhost;dbname=world;charset=utf8mb4", 'my_user', 'my_pass');
 ?>
 ```

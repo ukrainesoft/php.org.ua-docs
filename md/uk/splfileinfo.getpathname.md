@@ -34,7 +34,7 @@ public SplFileInfo::getPathname(): string
 
 ```php
 <?php
-$info = new SplFileInfo('/usr/bin/php');
+$info = new SplFileInfo('/usr/bin/php');
 var_dump($info->getPathname());
 ?>
 ```

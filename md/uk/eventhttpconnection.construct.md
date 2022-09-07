@@ -16,19 +16,19 @@ EventHttpConnection::construct — Конструктор об'єкта EventHtt
 
 ```methodsynopsis
 public
-   EventHttpConnection::__construct(    
+   EventHttpConnection::__construct(    
     EventBase
      $base
-   ,    
+   ,    
     EventDnsBase
      $dns_base
-   ,    
+   ,    
     string
      $address
-   ,    
+   ,    
     int
      $port
-   ,    
+   ,    
     EventSslContext
      $ctx
      = null

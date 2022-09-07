@@ -56,11 +56,11 @@ locale_get_display_region(string $locale, ?string $displayLocale = null): string
 
 ```php
 <?php
-echo locale_get_display_region('sl-Latn-IT-nedis', 'en');
-echo ";\n";
-echo locale_get_display_region('sl-Latn-IT-nedis', 'fr');
-echo ";\n";
-echo locale_get_display_region('sl-Latn-IT-nedis', 'de');
+echo locale_get_display_region('sl-Latn-IT-nedis', 'en');
+echo ";\n";
+echo locale_get_display_region('sl-Latn-IT-nedis', 'fr');
+echo ";\n";
+echo locale_get_display_region('sl-Latn-IT-nedis', 'de');
 ?>
 ```
 
@@ -68,11 +68,11 @@ echo locale_get_display_region('sl-Latn-IT-nedis', 'de');
 
 ```php
 <?php
-echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'en');
-echo ";\n";
-echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'fr');
-echo ";\n";
-echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'de');
+echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'en');
+echo ";\n";
+echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'fr');
+echo ";\n";
+echo Locale::getDisplayRegion('sl-Latn-IT-nedis', 'de');
 ?>
 ```
 

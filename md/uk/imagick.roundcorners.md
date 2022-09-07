@@ -19,7 +19,7 @@ Imagick::roundCorners — Скруглює кути зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::roundCorners(    float $x_rounding,    float $y_rounding,    float $stroke_width = 10,    float $displace = 5,    float $size_correction = -6): bool
+public Imagick::roundCorners(    float $x_rounding,    float $y_rounding,    float $stroke_width = 10,    float $displace = 5,    float $size_correction = -6): bool
 ```
 
 Заокруглює кути зображення. Перші два параметри керують ступенем заокруглення, а три останні параметри можуть використовуватися для точного налаштування процесу заокруглення. Цей метод доступний, якщо Imagick був скомпільований із версією ImageMagick 6.2.9 або старшим. Цей метод недоступний, якщо Imagick був скомпільований з версією ImageMagick 7.0.70 або старшим.
@@ -59,8 +59,8 @@ public Imagick::roundCorners(    float $x_rounding,    float $y_rounding
 ```php
 <?php
 
-$image = new Imagick();
-$image->newPseudoImage(100, 100, "magick:rose");
+$image = new Imagick();
+$image->newPseudoImage(100, 100, "magick:rose");
 $image->setImageFormat("png");
 
 $image->roundCorners(5,3);

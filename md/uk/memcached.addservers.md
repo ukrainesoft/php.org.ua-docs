@@ -38,11 +38,11 @@ public Memcached::addServers(array $servers): bool
 
 ```php
 <?php
-$m = new Memcached();
+$m = new Memcached();
 
-$servers = array(
-    array('mem1.domain.com', 11211, 33),
-    array('mem2.domain.com', 11211, 67)
+$servers = array(
+    array('mem1.domain.com', 11211, 33),
+    array('mem2.domain.com', 11211, 67)
 );
 $m->addServers($servers);
 ?>

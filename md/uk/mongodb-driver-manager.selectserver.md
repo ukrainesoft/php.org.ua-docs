@@ -20,7 +20,7 @@ final public MongoDB\Driver\Manager::selectServer(?MongoDB\Driver\ReadPreference
 
 Вибирає [MongoDBDriverServer](class.mongodb-driver-server.md), відповідний `readPreference`. Якщо параметр `readPreference` дорівнює **`null`** або опущено, за промовчанням буде обрано первинний сервер. Це можна використовувати для попереднього вибору сервера, щоб перевірити версію перед виконанням операції.
 
-> **Зауваження**: На відміну від [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md), цей метод ініціалізуватиме підключення до бази даних і при необхідності виконувати виявлення сервера. Детальніше дивіться . [» Специфікацію вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst#single-threaded-server-selection)
+> **Зауваження**: На відміну від [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md), цей метод ініціалізуватиме підключення до бази даних і при необхідності виконувати виявлення сервера. Детальніше дивіться . [» Специфікацію вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst#single-threaded-server-selection)
 
 ### Список параметрів
 
@@ -49,4 +49,4 @@ final public MongoDB\Driver\Manager::selectServer(?MongoDB\Driver\ReadPreference
 
 -   [MongoDBDriverServer](class.mongodb-driver-server.md)
 -   [MongoDBDriverManager::getServers()](mongodb-driver-manager.getservers.md) - Повертає сервери, до яких підключено менеджера
--   [» Специфікація вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
+-   [» Специфікація вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)

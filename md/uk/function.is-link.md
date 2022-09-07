@@ -40,12 +40,12 @@ is_link(string $filename): bool
 
 ```php
 <?php
-$link = 'uploads';
+$link = 'uploads';
 
-if (is_link($link)) {
-    echo(readlink($link));
-} else {
-    symlink('uploads.php', $link);
+if (is_link($link)) {
+    echo(readlink($link));
+} else {
+    symlink('uploads.php', $link);
 }
 ?>
 ```

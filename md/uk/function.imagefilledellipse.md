@@ -15,7 +15,7 @@ imagefilledellipse - Малювання зафарбованого еліпса
 ### Опис
 
 ```methodsynopsis
-imagefilledellipse(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $color): bool
+imagefilledellipse(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $color): bool
 ```
 
 Малює еліпс із центром у заданих координатах зображення `image`
@@ -63,20 +63,20 @@ y-координат центру.
 ```php
 <?php
 
-// создание пустого изображения
-$image = imagecreatetruecolor(400, 300);
+// создание пустого изображения
+$image = imagecreatetruecolor(400, 300);
 
-// заливка фона
-$bg = imagecolorallocate($image, 0, 0, 0);
+// заливка фона
+$bg = imagecolorallocate($image, 0, 0, 0);
 
-// выбор цвета для эллипса
-$col_ellipse = imagecolorallocate($image, 255, 255, 255);
+// выбор цвета для эллипса
+$col_ellipse = imagecolorallocate($image, 255, 255, 255);
 
-// рисование белого эллипса
-imagefilledellipse($image, 200, 150, 300, 200, $col_ellipse);
+// рисование белого эллипса
+imagefilledellipse($image, 200, 150, 300, 200, $col_ellipse);
 
-// вывод картинки
-header("Content-type: image/png");
+// вывод картинки
+header("Content-type: image/png");
 imagepng($image);
 
 ?>

@@ -15,7 +15,7 @@ title: псarc
 ### Опис
 
 ```methodsynopsis
-ps_arc(    resource $psdoc,    float $x,    float $y,    float $radius,    float $alpha,    float $beta): bool
+ps_arc(    resource $psdoc,    float $x,    float $y,    float $radius,    float $alpha,    float $beta): bool
 ```
 
 Малює частину кола із середньою точкою в точці (`x` `y`). Дуга починається під кутом `alpha` і закінчується під кутом `beta`. Вона малюється проти годинникової стрілки (використовуйте [псarcn()](function.ps-arcn.md) для малювання за годинниковою стрілкою). Дочірній шлях, доданий до поточного шляху, починається на дузі під кутом `alpha` і закінчується на дузі під кутом `beta`

@@ -35,20 +35,20 @@ public RegexIterator::getMode(): int
 ```php
 <?php
 
-$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
+$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
 
-$arrayIterator = new ArrayIterator($test);
-$regexIterator = new RegexIterator($arrayIterator, '/^[a-z]+/', RegexIterator::GET_MATCH);
+$arrayIterator = new ArrayIterator($test);
+$regexIterator = new RegexIterator($arrayIterator, '/^[a-z]+/', RegexIterator::GET_MATCH);
 
-$mode = $regexIterator->getMode();
-if ($mode & RegexIterator::GET_MATCH) {
-    echo 'Проверка соответствий для каждого элемента.';
-} elseif ($mode & RegexIterator::ALL_MATCHES) {
-    echo 'Получение всех соответствий для каждого элемента.';
-} elseif ($mode & RegexIterator::MATCH) {
-    echo 'Получение элементов, прошедших отбор.';
-} elseif ($mode & RegexIterator::SPLIT) {
-    echo 'Получение отдельных частей каждого элемента.';
+$mode = $regexIterator->getMode();
+if ($mode & RegexIterator::GET_MATCH) {
+    echo 'Проверка соответствий для каждого элемента.';
+} elseif ($mode & RegexIterator::ALL_MATCHES) {
+    echo 'Получение всех соответствий для каждого элемента.';
+} elseif ($mode & RegexIterator::MATCH) {
+    echo 'Получение элементов, прошедших отбор.';
+} elseif ($mode & RegexIterator::SPLIT) {
+    echo 'Получение отдельных частей каждого элемента.';
 }
 ?>
 ```

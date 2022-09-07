@@ -50,16 +50,16 @@ cubrid_insert_id(resource $conn_identifier = ?): string
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-@cubrid_execute($conn, "DROP TABLE cubrid_test");
-cubrid_execute($conn, "CREATE TABLE cubrid_test (d int AUTO_INCREMENT(1, 2), t varchar)");
+@cubrid_execute($conn, "DROP TABLE cubrid_test");
+cubrid_execute($conn, "CREATE TABLE cubrid_test (d int AUTO_INCREMENT(1, 2), t varchar)");
 
-for ($i = 0; $i < 10; $i++) {
-    cubrid_execute($conn, "INSERT INTO cubrid_test(t) VALUES('cubrid_test')");
+for ($i = 0; $i < 10; $i++) {
+    cubrid_execute($conn, "INSERT INTO cubrid_test(t) VALUES('cubrid_test')");
 }
 
-$id = cubrid_insert_id();
+$id = cubrid_insert_id();
 var_dump($id);
 
 cubrid_disconnect($conn);

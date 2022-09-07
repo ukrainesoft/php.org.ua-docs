@@ -20,7 +20,7 @@ xdiff_file_rabdiff(string $old_file, string $new_file, string $dest): bool
 
 Створює бінарний патч, порівнюючи два файли і зберігає результат у файл. Ця функція відрізняється від [xdifffilebdiff()](function.xdiff-file-bdiff.md) використовуваним алгоритмом, який працює швидше та виробляє патчі меншого розміру. Ця функція працює як з текстом, так і з бінарними даними. Патч згодом можна застосувати за допомогою функцій [xdifffilebpatch()](function.xdiff-file-bpatch.md)[xdiffstringbpatch()](function.xdiff-string-bpatch.md)
 
-Детальніше різниця алгоритмів пояснена на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
+Детальніше різниця алгоритмів пояснена на сайті [» libxdiff](http://www.xmailserver.org/xdiff-lib.md)
 
 ### Список параметрів
 
@@ -48,10 +48,10 @@ xdiff_file_rabdiff(string $old_file, string $new_file, string $dest): bool
 
 ```php
 <?php
-$old_version = 'my_script_1.0.tgz';
-$new_version = 'my_script_1.1.tgz';
+$old_version = 'my_script_1.0.tgz';
+$new_version = 'my_script_1.1.tgz';
 
-xdiff_file_rabdiff($old_version, $new_version, 'my_script.bdiff');
+xdiff_file_rabdiff($old_version, $new_version, 'my_script.bdiff');
 ?>
 ```
 

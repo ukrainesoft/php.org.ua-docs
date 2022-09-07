@@ -15,7 +15,7 @@ Gmagick::quantizeimages — Аналізує кольори у послідов�
 ### Опис
 
 ```methodsynopsis
-public Gmagick::quantizeimages(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
+public Gmagick::quantizeimages(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
 ```
 
 Аналізує кольори у послідовності зображень та вибирає фіксовану кількість кольорів для представлення зображення. Метою алгоритму є мінімізація різниці у кольорі між вхідним та вихідним зображенням при мінімізації часу обробки.

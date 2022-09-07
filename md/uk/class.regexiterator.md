@@ -67,7 +67,7 @@ title: Клас RegexIterator
 
     /* Методы */
     
-   public __construct(    Iterator $iterator,    string $pattern,    int $mode = RegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
+   public __construct(    Iterator $iterator,    string $pattern,    int $mode = RegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
 
     public accept(): bool
 public getFlags(): int

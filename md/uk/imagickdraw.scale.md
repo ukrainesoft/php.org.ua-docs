@@ -44,24 +44,24 @@ public ImagickDraw::scale(float $x, float $y): bool
 
 ```php
 <?php
-function scale($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor) {
+function scale($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor) {
 
-    $draw = new \ImagickDraw();
-    $draw->setStrokeColor($strokeColor);
-    $draw->setStrokeWidth(4);
-    $draw->setFillColor($fillColor);
-    $draw->rectangle(200, 200, 300, 300);
-    $draw->setFillColor($fillModifiedColor);
-    $draw->scale(1.4, 1.4);
-    $draw->rectangle(200, 200, 300, 300);
+    $draw = new \ImagickDraw();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setStrokeWidth(4);
+    $draw->setFillColor($fillColor);
+    $draw->rectangle(200, 200, 300, 300);
+    $draw->setFillColor($fillModifiedColor);
+    $draw->scale(1.4, 1.4);
+    $draw->rectangle(200, 200, 300, 300);
 
-    $image = new \Imagick();
-    $image->newImage(500, 500, $backgroundColor);
-    $image->setImageFormat("png");
-    $image->drawImage($draw);
+    $image = new \Imagick();
+    $image->newImage(500, 500, $backgroundColor);
+    $image->setImageFormat("png");
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

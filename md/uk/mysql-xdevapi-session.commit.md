@@ -34,13 +34,13 @@ public mysql_xdevapi\Session::commit(): Object
 
 ```php
 <?php
-$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$collection = $session->getSchema("addressbook")->getCollection("friends");
+$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$collection = $session->getSchema("addressbook")->getCollection("friends");
 
 $session->startTransaction();
 
-$collection->add('{"John":42, "Sam":33}')->execute();
-$savepoint = $session->setSavepoint();
+$collection->add('{"John":42, "Sam":33}')->execute();
+$savepoint = $session->setSavepoint();
 
 $session->commit();
 $session->close();

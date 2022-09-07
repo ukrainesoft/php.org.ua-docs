@@ -51,7 +51,7 @@ bcpow(string $num, string $exponent, ?int $scale = null): string
 ```php
 <?php
 
-echo bcpow('4.2', '3', 2); // 74.08
+echo bcpow('4.2', '3', 2); // 74.08
 
 ?>
 ```
@@ -66,7 +66,7 @@ echo bcpow('4.2', '3', 2); // 74.08
 > 
 > ```php
 > <?php
-> echo bcpow('5', '2', 2);     // выдаст "25", вместо "25.00"
+> echo bcpow('5', '2', 2);     // выдаст "25", вместо "25.00"
 > ?>
 > ```
 

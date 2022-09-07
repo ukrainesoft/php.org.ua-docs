@@ -57,11 +57,11 @@ public PharData::buildFromIterator(Traversable $iterator, ?string $baseDirectory
 
 ```php
 <?php
-$phar = new PharData('project.tar');
+$phar = new PharData('project.tar');
 $phar->buildFromIterator(
-    new RecursiveIteratorIterator(
-     new RecursiveDirectoryIterator('/path/to/project')),
-    '/path/to/project');
+    new RecursiveIteratorIterator(
+     new RecursiveDirectoryIterator('/path/to/project')),
+    '/path/to/project');
 ?>
 ```
 
@@ -71,12 +71,12 @@ $phar->buildFromIterator(
 
 ```php
 <?php
-$phar = new PharData('project.tar');
+$phar = new PharData('project.tar');
 $phar->buildFromIterator(
-    new RecursiveIteratorIterator(
-     new Phar('/path/to/anotherphar.phar')),
-    'phar:///path/to/anotherphar.phar/path/to/project');
-$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
+    new RecursiveIteratorIterator(
+     new Phar('/path/to/anotherphar.phar')),
+    'phar:///path/to/anotherphar.phar/path/to/project');
+$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 ?>
 ```
 
@@ -86,13 +86,13 @@ $phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));
 
 ```php
 <?php
-$phar = new PharData('project.tar');
+$phar = new PharData('project.tar');
 $phar->buildFromIterator(
-    new ArrayIterator(
-     array(
-        'internal/file.php' => dirname(__FILE__) . '/somefile.php',
-        'another/file.jpg' => fopen('/path/to/bigfile.jpg', 'rb'),
-     )));
+    new ArrayIterator(
+     array(
+        'internal/file.php' => dirname(__FILE__) . '/somefile.php',
+        'another/file.jpg' => fopen('/path/to/bigfile.jpg', 'rb'),
+     )));
 ?>
 ```
 

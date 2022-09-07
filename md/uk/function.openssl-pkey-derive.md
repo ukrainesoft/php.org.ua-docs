@@ -44,8 +44,8 @@ openssl_pkey_derive(OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public
 
 ```php
 <?php
-// Загрузка закрытого ключа
-$priv = openssl_pkey_get_private("-----BEGIN PRIVATE KEY-----
+// Загрузка закрытого ключа
+$priv = openssl_pkey_get_private("-----BEGIN PRIVATE KEY-----
 MIICJgIBADCCARcGCSqGSIb3DQEDATCCAQgCggEBAJLxRCaZ933uW+AXmabHFDDy
 upojBIRlbmQLJZfigDaSA1f9YOTsIv+WwVFTX/J1mtCyx9uBcz0Nt2kmVwxWuc2f
 VtCEMPsmLsVXX7xRUFLpyX1Y1IYGBVXQOoOvLWYQjpZgnx47Pkh1Ok1+smffztfC
@@ -58,11 +58,11 @@ cPqBixs+3rSn4fADzAIvdLBmogjtiIZoB6qyHrllF/2xwTVGEeYaZIupQH3bMK2b
 dlbKh9kIhZafclHfRVfyp+fVSKPfgrRAcLUgAbsVjOjPeJ90xQ4DTMZ6vjiv6tHM
 hkSjJIcGhRtSBzVF/cT38GyCeTmiIA/dRz2d70lWrqDQCdp9ArijgnpjNKAAulSY
 CirnMsGZTDGmLOHg4xOZ5FEAzZI2sFNLlcw=
------END PRIVATE KEY-----
+-----END PRIVATE KEY-----
 ");
 
-// Загрузка открытого ключа
-$pub = openssl_pkey_get_public("-----BEGIN PUBLIC KEY-----
+// Загрузка открытого ключа
+$pub = openssl_pkey_get_public("-----BEGIN PUBLIC KEY-----
 MIICJDCCARcGCSqGSIb3DQEDATCCAQgCggEBAJLxRCaZ933uW+AXmabHFDDyupoj
 BIRlbmQLJZfigDaSA1f9YOTsIv+WwVFTX/J1mtCyx9uBcz0Nt2kmVwxWuc2fVtCE
 MPsmLsVXX7xRUFLpyX1Y1IYGBVXQOoOvLWYQjpZgnx47Pkh1Ok1+smffztfC0DCN
@@ -75,9 +75,9 @@ ucqC1YXCMqmIwPySvLQUB/Dl8kgau7BLAnIJm8VP+MVrn8g9gghD0qRCgPgtEaDV
 vocfgnOU43rhKnIgO0cHOKtw2qybSFB8QuZrYugq4j8Bwkrzh6rdMMeyMl/ej5Aj
 c0wamOzuBDtXt0T9+Fx3khHaowjCc7xJZRgZCxg43SbqMWJ9lUg94I7+LTX61Gyv
 dtlkbGbtoDOnxeNnN93gwQZngGYZYciu
------END PUBLIC KEY-----
+-----END PUBLIC KEY-----
 ");
 
-// Выводит шестнадцатеричную версию произведённого ключа
-echo bin2hex(openssl_pkey_derive($pub,$priv));
+// Выводит шестнадцатеричную версию произведённого ключа
+echo bin2hex(openssl_pkey_derive($pub,$priv));
 ```

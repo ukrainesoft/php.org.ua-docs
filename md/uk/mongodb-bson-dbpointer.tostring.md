@@ -28,4 +28,4 @@ final public MongoDB\BSON\DBPointer::__toString(): string
 
 ### Дивіться також
 
--   [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)

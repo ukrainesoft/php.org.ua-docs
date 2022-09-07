@@ -40,7 +40,7 @@ pclose(resource $handle): int
 
 ```php
 <?php
-$handle = popen('/bin/ls', 'r');
+$handle = popen('/bin/ls', 'r');
 pclose($handle);
 ?>
 ```

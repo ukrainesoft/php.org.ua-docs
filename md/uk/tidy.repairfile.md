@@ -19,13 +19,13 @@ tidy::repairFile -- tidyrepairfile — Відновлює розмітку фа�
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public static tidy::repairFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): string|false
+public static tidy::repairFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): string|false
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-tidy_repair_file(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): string|false
+tidy_repair_file(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): string|false
 ```
 
 Відновлює отриманий файл та повертає його у вигляді рядка.
@@ -67,13 +67,13 @@ tidy_repair_file(    string $filename,    array|string|null $config = nu
 
 ```php
 <?php
-$file = 'file.html';
+$file = 'file.html';
 
-$tidy = new tidy();
-$repaired = $tidy->repairfile($file);
-rename($file, $file . '.bak');
+$tidy = new tidy();
+$repaired = $tidy->repairfile($file);
+rename($file, $file . '.bak');
 
-file_put_contents($file, $repaired);
+file_put_contents($file, $repaired);
 ?>
 ```
 

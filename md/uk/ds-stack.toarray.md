@@ -38,7 +38,7 @@ public Ds\Stack::toArray(): array
 
 ```php
 <?php
-$stack = new \Ds\Stack([1, 2, 3]);
+$stack = new \Ds\Stack([1, 2, 3]);
 
 var_dump($stack->toArray());
 ?>

@@ -15,7 +15,7 @@ IntlChar::enumCharNames — Перераховує всі символи Unicode
 ### Опис
 
 ```methodsynopsis
-public static IntlChar::enumCharNames(    int|string $start,    int|string $end,    callable $callback,    int $type = IntlChar::UNICODE_CHAR_NAME): ?bool
+public static IntlChar::enumCharNames(    int|string $start,    int|string $end,    callable $callback,    int $type = IntlChar::UNICODE_CHAR_NAME): ?bool
 ```
 
 Перелічує всі присвоєні символи Unicode в заданому діапазоні (включаючи початок діапазону та виключаючи кінець) і для кожного з них функцію, передаючи код символу та його ім'я.
@@ -60,8 +60,8 @@ public static IntlChar::enumCharNames(    int|string $start,    int|stri
 
 ```php
 <?php
-IntlChar::enumCharNames(0x2600, 0x2610, function($codepoint, $nameChoice, $name) {
-    printf("U+%04x %s\n", $codepoint, $name);
+IntlChar::enumCharNames(0x2600, 0x2610, function($codepoint, $nameChoice, $name) {
+    printf("U+%04x %s\n", $codepoint, $name);
 });
 ?>
 ```

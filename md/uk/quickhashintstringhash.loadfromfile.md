@@ -78,17 +78,17 @@ key/value 2 (key = 3, string index = 4 ("NINE")):
 
 ```php
 <?php
-$file = dirname( __FILE__ ) . "/simple.string.hash";
-$hash = QuickHashIntStringHash::loadFromFile(
-    $file,
-    QuickHashIntStringHash::DO_NOT_USE_ZEND_ALLOC
+$file = dirname( __FILE__ ) . "/simple.string.hash";
+$hash = QuickHashIntStringHash::loadFromFile(
+    $file,
+    QuickHashIntStringHash::DO_NOT_USE_ZEND_ALLOC
 );
-foreach( range( 0, 0x0f ) as $key )
+foreach( range( 0, 0x0f ) as $key )
 {
-    printf( "Ключ %3d (%2x) %s\n",
-        $key, $key,
-        $hash->exists( $key ) ? 'установлен' : 'не установлен'
-    );
+    printf( "Ключ %3d (%2x) %s\n",
+        $key, $key,
+        $hash->exists( $key ) ? 'установлен' : 'не установлен'
+    );
 }
 ?>
 ```

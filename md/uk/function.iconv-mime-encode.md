@@ -47,7 +47,7 @@ Subject: =?ISO-8859-1?Q?Pr=FCfung_f=FCr?= Entwerfen von einer MIME kopfzeile
 | scheme | string | Задає, як закодувати значення поля. Значенням цього елемента може бути "B", або "Q". "B" означає схему кодування `base64`, а "Q" - `quoted-printable` | У | У |
 | input-charset | string | Задає, в якому кодуванні представлені аргументи `field_name` і `field_value`. Якщо не задано, **iconvmimeencode()** передбачає, що набір символів вказано в ini-налаштуванні [iconv.internalencoding](iconv.configuration.md) | [iconv.internalencoding](iconv.configuration.md) | ISO-8859-1 |
 | output-charset | string | Задає набір символів, у якому буде представлений результат. `MIME`Заголовок. | [iconv.internalencoding](iconv.configuration.md) | UTF-8 |
-| line-length | int | Встановлює максимальну довжину рядків заголовка. Якщо результуючий заголовок виявиться довшим за цю величину, функція його розріже на кілька рядків відповідно до [» Форматом інтернет повідомлень - RFC2822](http://www.faqs.org/rfcs/rfc2822). Якщо не встановлено, ця довжина буде встановлена ​​76 символами. |  |  |
+| line-length | int | Встановлює максимальну довжину рядків заголовка. Якщо результуючий заголовок виявиться довшим за цю величину, функція його розріже на кілька рядків відповідно до [» Форматом інтернет повідомлень - RFC2822](http://www.faqs.org/rfcs/rfc2822). Якщо не встановлено, ця довжина буде встановлена ​​76 символами. |  |  |
 | line-break-chars | string | Задає послідовність символів, які будуть використовуватися для завершення "розрізаних" рядків заголовка, якщо заголовок виявиться довшим за один рядок. Якщо не встановлено, будуть використовуватися символи "рn" (`CR` `LF`). Зверніть увагу, що цей аргумент завжди обробляється як рядок ASCII незалежно від значення `input-charset` | рн | н |
 
 ### Значення, що повертаються
@@ -60,19 +60,19 @@ Subject: =?ISO-8859-1?Q?Pr=FCfung_f=FCr?= Entwerfen von einer MIME kopfzeile
 
 ```php
 <?php
-$preferences = array(
-    "input-charset" => "ISO-8859-1",
-    "output-charset" => "UTF-8",
-    "line-length" => 76,
-    "line-break-chars" => "\n"
+$preferences = array(
+    "input-charset" => "ISO-8859-1",
+    "output-charset" => "UTF-8",
+    "line-length" => 76,
+    "line-break-chars" => "\n"
 );
-$preferences["scheme"] = "Q";
-// Результат "Subject: =?UTF-8?Q?Pr=C3=BCfung=20Pr=C3=BCfung?="
-echo iconv_mime_encode("Subject", "Prüfung Prüfung", $preferences);
+$preferences["scheme"] = "Q";
+// Результат "Subject: =?UTF-8?Q?Pr=C3=BCfung=20Pr=C3=BCfung?="
+echo iconv_mime_encode("Subject", "Prüfung Prüfung", $preferences);
 
-$preferences["scheme"] = "B";
-// Результат "Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?="
-echo iconv_mime_encode("Subject", "Prüfung Prüfung", $preferences);
+$preferences["scheme"] = "B";
+// Результат "Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?="
+echo iconv_mime_encode("Subject", "Prüfung Prüfung", $preferences);
 ?>
 ```
 

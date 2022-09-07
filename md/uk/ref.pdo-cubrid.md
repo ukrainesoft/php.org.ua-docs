@@ -18,7 +18,7 @@ PDOCUBRID – драйвер, що реалізує [интерфейс PHP Data
 
 ## Встановлення
 
-Для складання модуля PDOCUBRID, на тому ж хості має бути встановлений СУБД CUBRID. PDOCUBRID є модулем [» PECL](https://pecl.php.net/), так що для його встановлення дотримуйтесь інструкцій [Установка модулей PECL](install.pecl.md). Для вказівки команді **configure** директорії із встановленою базою CUBRID, використовуйте наступний синтаксис:
+Для складання модуля PDOCUBRID, на тому ж хості має бути встановлений СУБД CUBRID. PDOCUBRID є модулем [» PECL](https://pecl.php.net/), так що для його встановлення дотримуйтесь інструкцій [Установка модулей PECL](install.pecl.md). Для вказівки команді **configure** директорії із встановленою базою CUBRID, використовуйте наступний синтаксис:
 
 ```
 $ ./configure --with-pdo-cubrid=/path/to/CUBRID[,shared]
@@ -45,13 +45,13 @@ DLL для цього модуля PECL зараз недоступна. Див�
 
 ```php
 <?php
-$fp = fopen('lob_test.png', 'rb');
+$fp = fopen('lob_test.png', 'rb');
 
-$sql_stmt = "INSERT INTO lob_test(name, content) VALUES('lob_test.png', ?)";
+$sql_stmt = "INSERT INTO lob_test(name, content) VALUES('lob_test.png', ?)";
 
-$stmt = $dbh->prepare($sql_stmt);
-$ret = $stmt->bindParam(1, $fp, PDO::PARAM_LOB);
-$ret = $stmt->execute();
+$stmt = $dbh->prepare($sql_stmt);
+$ret = $stmt->bindParam(1, $fp, PDO::PARAM_LOB);
+$ret = $stmt->execute();
 ?>
 ```
 
@@ -59,13 +59,13 @@ $ret = $stmt->execute();
 
 ```php
 <?php
-$sql_stmt = "SELECT content FROM lob_test WHERE name='lob_test.png'";
+$sql_stmt = "SELECT content FROM lob_test WHERE name='lob_test.png'";
 
-$stmt = $dbh->prepare($sql_stmt);
+$stmt = $dbh->prepare($sql_stmt);
 $stmt->execute();
-$result = $stmt->fetch(PDO::FETCH_NUM);
+$result = $stmt->fetch(PDO::FETCH_NUM);
 
-header("Content-Type: image/png");
+header("Content-Type: image/png");
 fpassthru($result[0]);
 ?>
 ```
@@ -93,17 +93,17 @@ fpassthru($result[0]);
 
 ```php
 <?php
-$conn_str ="cubrid:dbname=demodb;host=localhost;port=33000";
-$cubrid_pdo = new PDO($conn_str, 'dba', '');
+$conn_str ="cubrid:dbname=demodb;host=localhost;port=33000";
+$cubrid_pdo = new PDO($conn_str, 'dba', '');
 
-$cubrid_pdo->exec("DROP TABLE if exists test_tbl");
-$cubrid_pdo->exec("CREATE TABLE test_tbl (col_1 SET(VARCHAR))");
+$cubrid_pdo->exec("DROP TABLE if exists test_tbl");
+$cubrid_pdo->exec("CREATE TABLE test_tbl (col_1 SET(VARCHAR))");
 
-$sql_stmt_insert = "INSERT INTO test_tbl VALUES (?);";
-$stmt = $cubrid_pdo->prepare($sql_stmt_insert);
-$data = array("abc","def","ghi");
-$ret = $stmt->bindParam(1, $data, PDO::PARAM_NULL);
-$ret = $stmt->execute();
+$sql_stmt_insert = "INSERT INTO test_tbl VALUES (?);";
+$stmt = $cubrid_pdo->prepare($sql_stmt_insert);
+$data = array("abc","def","ghi");
+$ret = $stmt->bindParam(1, $data, PDO::PARAM_NULL);
+$ret = $stmt->execute();
 var_Dump($ret);
 ?>
 ```
@@ -112,17 +112,17 @@ var_Dump($ret);
 
 ```php
 <?php
-$conn_str ="cubrid:dbname=demodb;host=localhost;port=33000";
-$cubrid_pdo = new PDO($conn_str, 'dba', '');
+$conn_str ="cubrid:dbname=demodb;host=localhost;port=33000";
+$cubrid_pdo = new PDO($conn_str, 'dba', '');
 
-$cubrid_pdo->exec("DROP TABLE if exists test_tbl");
-$cubrid_pdo->exec("CREATE TABLE test_tbl (col_1 SET(int))");
+$cubrid_pdo->exec("DROP TABLE if exists test_tbl");
+$cubrid_pdo->exec("CREATE TABLE test_tbl (col_1 SET(int))");
 
-$sql_stmt_insert = "INSERT INTO test_tbl VALUES (?);";
-$stmt = $cubrid_pdo->prepare($sql_stmt_insert);
-$data = array(1,2,3,4);
-$ret = $stmt->bindParam(1, $data, 0,0,"int");
-$ret = $stmt->execute();
+$sql_stmt_insert = "INSERT INTO test_tbl VALUES (?);";
+$stmt = $cubrid_pdo->prepare($sql_stmt_insert);
+$data = array(1,2,3,4);
+$ret = $stmt->bindParam(1, $data, 0,0,"int");
+$ret = $stmt->execute();
 var_Dump($ret);
 ?>
 ```

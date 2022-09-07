@@ -51,21 +51,21 @@ public GearmanClient::doNormal(string $function_name, string $workload, string $
 ```php
 <?php
 
-# Код клиента
+# Код клиента
 
-echo "Запуск\n";
+echo "Запуск\n";
 
-# Создание клиента.
-$gmclient= new GearmanClient();
+# Создание клиента.
+$gmclient= new GearmanClient();
 
-# Добавление сервера по умолчанию (localhost).
+# Добавление сервера по умолчанию (localhost).
 $gmclient->addServer();
 
-echo "Отправка задания\n";
+echo "Отправка задания\n";
 
-$result = $gmclient->doNormal("reverse", "Hello!");
+$result = $gmclient->doNormal("reverse", "Hello!");
 
-echo "Задание выполнено: $result\n";
+echo "Задание выполнено: $result\n";
 
 ?>
 ```
@@ -73,31 +73,31 @@ echo "Задание выполнено: $result\n";
 ```php
 <?php
 
-echo "Запуск\n";
+echo "Запуск\n";
 
-# Создание объекта обработчика заданий.
-$gmworker= new GearmanWorker();
+# Создание объекта обработчика заданий.
+$gmworker= new GearmanWorker();
 
-# Добавление сервера по умолчанию (localhost).
+# Добавление сервера по умолчанию (localhost).
 $gmworker->addServer();
 
-# Регистрация функции "reverse" на сервере. Замена обрабатывающей функции
-# на "reverse_fn_fast" для быстрой обработки без вывода
-$gmworker->addFunction("reverse", "reverse_fn");
+# Регистрация функции "reverse" на сервере. Замена обрабатывающей функции
+# на "reverse_fn_fast" для быстрой обработки без вывода
+$gmworker->addFunction("reverse", "reverse_fn");
 
-print "Ожидание задания...\n";
+print "Ожидание задания...\n";
 while($gmworker->work())
 {
-  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
-  {
-    echo "Код возврата: " . $gmworker->returnCode() . "\n";
-    break;
-  }
+  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
+  {
+    echo "Код возврата: " . $gmworker->returnCode() . "\n";
+    break;
+  }
 }
 
-function reverse_fn($job)
+function reverse_fn($job)
 {
-  return strrev($job->workload());
+  return strrev($job->workload());
 }
 
 ?>
@@ -118,46 +118,46 @@ function reverse_fn($job)
 ```php
 <?php
 
-# Код клиента
+# Код клиента
 
-# Создание клиента.
-$gmclient= new GearmanClient();
+# Создание клиента.
+$gmclient= new GearmanClient();
 
-# Добавление сервера по умолчанию (localhost).
+# Добавление сервера по умолчанию (localhost).
 $gmclient->addServer();
 
-echo "Отправка задания\n";
+echo "Отправка задания\n";
 
-# Отправка задания перевернуть строку
+# Отправка задания перевернуть строку
 do
 {
-  $result = $gmclient->doNormal("reverse", "Hello!");
-  # Проверка состояния на ошибки или возвращаемые данные.
+  $result = $gmclient->doNormal("reverse", "Hello!");
+  # Проверка состояния на ошибки или возвращаемые данные.
 
-  switch($gmclient->returnCode())
-  {
-    case GEARMAN_WORK_DATA:
-      echo "Данные: $result\n";
-      break;
-    case GEARMAN_WORK_STATUS:
-      list($numerator, $denominator)= $gmclient->doStatus();
-      echo "Статус: $numerator/$denominator complete\n";
-      break;
-    case GEARMAN_WORK_FAIL:
-      echo "Ошибка\n";
-      exit;
-    case GEARMAN_SUCCESS:
-      break;
-    default:
-      echo "Код возврата: " . $gmclient->returnCode() . "\n";
-      echo "Ошибка: " . $gmclient->error() . "\n";
-      echo "Номер ошибки: " . $gmclient->getErrno() . "\n";
-      exit;
-  }
+  switch($gmclient->returnCode())
+  {
+    case GEARMAN_WORK_DATA:
+      echo "Данные: $result\n";
+      break;
+    case GEARMAN_WORK_STATUS:
+      list($numerator, $denominator)= $gmclient->doStatus();
+      echo "Статус: $numerator/$denominator complete\n";
+      break;
+    case GEARMAN_WORK_FAIL:
+      echo "Ошибка\n";
+      exit;
+    case GEARMAN_SUCCESS:
+      break;
+    default:
+      echo "Код возврата: " . $gmclient->returnCode() . "\n";
+      echo "Ошибка: " . $gmclient->error() . "\n";
+      echo "Номер ошибки: " . $gmclient->getErrno() . "\n";
+      exit;
+  }
 }
-while($gmclient->returnCode() != GEARMAN_SUCCESS);
+while($gmclient->returnCode() != GEARMAN_SUCCESS);
 
-echo "Обработка завершена: $result\n";
+echo "Обработка завершена: $result\n";
 
 ?>
 ```
@@ -165,52 +165,52 @@ echo "Обработка завершена: $result\n";
 ```php
 <?php
 
-# Код обработчика
+# Код обработчика
 
-echo "Запуск\n";
+echo "Запуск\n";
 
-# Создаём свой объект обработчика.
-$gmworker= new GearmanWorker();
+# Создаём свой объект обработчика.
+$gmworker= new GearmanWorker();
 
-# Добавление сервера по умолчанию (localhost).
+# Добавление сервера по умолчанию (localhost).
 $gmworker->addServer();
 
-# Регистрируем функцию "reverse" на сервере.
-$gmworker->addFunction("reverse", "reverse_fn");
+# Регистрируем функцию "reverse" на сервере.
+$gmworker->addFunction("reverse", "reverse_fn");
 
-print "Ожидание задания...\n";
+print "Ожидание задания...\n";
 while($gmworker->work())
 {
-  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
-  {
-    echo "Код возврата: " . $gmworker->returnCode() . "\n";
-    break;
-  }
+  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
+  {
+    echo "Код возврата: " . $gmworker->returnCode() . "\n";
+    break;
+  }
 }
 
-function reverse_fn($job)
+function reverse_fn($job)
 {
-  echo "Получено задание: " . $job->handle() . "\n";
+  echo "Получено задание: " . $job->handle() . "\n";
 
-  $workload = $job->workload();
-  $workload_size = $job->workloadSize();
+  $workload = $job->workload();
+  $workload_size = $job->workloadSize();
 
-  echo "Загружены данные: $workload ($workload_size)\n";
+  echo "Загружены данные: $workload ($workload_size)\n";
 
-  # Этот цикл не является необходимым, просто показывает, как все работает
-  for ($x= 0; $x < $workload_size; $x++)
-  {
-    echo "Отправка статуса: " + $x + 1 . "/$workload_size завершено\n";
-    $job->sendStatus($x+1, $workload_size);
-    $job->sendData(substr($workload, $x, 1));
-    sleep(1);
-  }
+  # Этот цикл не является необходимым, просто показывает, как все работает
+  for ($x= 0; $x < $workload_size; $x++)
+  {
+    echo "Отправка статуса: " + $x + 1 . "/$workload_size завершено\n";
+    $job->sendStatus($x+1, $workload_size);
+    $job->sendData(substr($workload, $x, 1));
+    sleep(1);
+  }
 
-  $result= strrev($workload);
-  echo "Результат: $result\n";
+  $result= strrev($workload);
+  echo "Результат: $result\n";
 
-  # Возвращаем то, что хотим отправить клиенту
-  return $result;
+  # Возвращаем то, что хотим отправить клиенту
+  return $result;
 }
 
 ?>

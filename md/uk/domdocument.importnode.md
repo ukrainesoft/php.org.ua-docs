@@ -51,30 +51,30 @@ public DOMDocument::importNode(DOMNode $node, bool $deep = false): DOMNode|false
 ```php
 <?php
 
-$orgdoc = new DOMDocument;
-$orgdoc->loadXML("<root><element><child>text in child</child></element></root>");
+$orgdoc = new DOMDocument;
+$orgdoc->loadXML("<root><element><child>text in child</child></element></root>");
 
-// Узел, который будет импортирован в новый документ
-$node = $orgdoc->getElementsByTagName("element")->item(0);
+// Узел, который будет импортирован в новый документ
+$node = $orgdoc->getElementsByTagName("element")->item(0);
 
 
-// Создание нового документа
-$newdoc = new DOMDocument;
-$newdoc->formatOutput = true;
+// Создание нового документа
+$newdoc = new DOMDocument;
+$newdoc->formatOutput = true;
 
-// Добавление разметки
-$newdoc->loadXML("<root><someelement>text in some element</someelement></root>");
+// Добавление разметки
+$newdoc->loadXML("<root><someelement>text in some element</someelement></root>");
 
-echo "Новый документ перед добавлением в него узлов:\n";
-echo $newdoc->saveXML();
+echo "Новый документ перед добавлением в него узлов:\n";
+echo $newdoc->saveXML();
 
-// Импорт узла и всех его потомков в документ
-$node = $newdoc->importNode($node, true);
-// И затем добавление его в корневой узел
+// Импорт узла и всех его потомков в документ
+$node = $newdoc->importNode($node, true);
+// И затем добавление его в корневой узел
 $newdoc->documentElement->appendChild($node);
 
-echo "\nНовый документ после добавления в него узлов:\n";
-echo $newdoc->saveXML();
+echo "\nНовый документ после добавления в него узлов:\n";
+echo $newdoc->saveXML();
 ?>
 ```
 

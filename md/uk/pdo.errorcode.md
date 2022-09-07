@@ -36,10 +36,10 @@ public PDO::errorCode(): ?string
 
 ```php
 <?php
-/* Спровоцируем ошибку -- таблицы BONES не существует */
-$dbh->exec("INSERT INTO bones(skull) VALUES ('lucy')");
+/* Спровоцируем ошибку -- таблицы BONES не существует */
+$dbh->exec("INSERT INTO bones(skull) VALUES ('lucy')");
 
-echo "\nPDO::errorCode(): ", $dbh->errorCode();
+echo "\nPDO::errorCode(): ", $dbh->errorCode();
 ?>
 ```
 

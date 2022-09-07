@@ -34,11 +34,11 @@ public static DateTime::createFromInterface(DateTimeInterface $object): DateTime
 
 ```php
 <?php
-$date = new DateTimeImmutable("2014-06-20 11:45 Europe/London");
+$date = new DateTimeImmutable("2014-06-20 11:45 Europe/London");
 
-$mutable = DateTime::createFromInterface($date);
+$mutable = DateTime::createFromInterface($date);
 
-$date = new DateTime("2014-06-20 11:45 Europe/London");
-$also_mutable = DateTime::createFromInterface($date);
+$date = new DateTime("2014-06-20 11:45 Europe/London");
+$also_mutable = DateTime::createFromInterface($date);
 ?>
 ```

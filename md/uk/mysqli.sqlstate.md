@@ -26,7 +26,7 @@ string [$mysqli->sqlstate](mysqli.sqlstate.md)
 mysqli_sqlstate(mysqli $mysql): string
 ```
 
-Повертає рядок із SQLSTATE кодом останньої помилки. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Ці коди визначені у стандарті ANSI, а також у ODBC. Переглянути список можливих значень можна на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
+Повертає рядок із SQLSTATE кодом останньої помилки. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Ці коди визначені у стандарті ANSI, а також у ODBC. Переглянути список можливих значень можна на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
 
 > **Зауваження**
 > 
@@ -50,17 +50,17 @@ mysqli_sqlstate(mysqli $mysql): string
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* таблица City уже существует, так что мы должны получить ошибку */
-if (!$mysqli->query("CREATE TABLE City (ID INT, Name VARCHAR(30))")) {
-    printf("Ошибка - SQLSTATE %s.\n", $mysqli->sqlstate);
+/* таблица City уже существует, так что мы должны получить ошибку */
+if (!$mysqli->query("CREATE TABLE City (ID INT, Name VARCHAR(30))")) {
+    printf("Ошибка - SQLSTATE %s.\n", $mysqli->sqlstate);
 }
 
 $mysqli->close();
@@ -71,17 +71,17 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* таблица City уже существует, так что мы должны получить ошибку */
-if (!mysqli_query($link, "CREATE TABLE City (ID INT, Name VARCHAR(30))")) {
-    printf("Ошибка - SQLSTATE %s.\n", mysqli_sqlstate($link));
+/* таблица City уже существует, так что мы должны получить ошибку */
+if (!mysqli_query($link, "CREATE TABLE City (ID INT, Name VARCHAR(30))")) {
+    printf("Ошибка - SQLSTATE %s.\n", mysqli_sqlstate($link));
 }
 
 mysqli_close($link);

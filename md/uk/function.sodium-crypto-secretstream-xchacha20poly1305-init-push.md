@@ -39,33 +39,33 @@ sodium_crypto_secretstream_xchacha20poly1305_init_push(string $key): array
 
 ```php
 <?php
-function encrypt_file(string $inputFilePath, string $outputFilePath, string $key): void
+function encrypt_file(string $inputFilePath, string $outputFilePath, string $key): void
 {
-    [$state, $header] = sodium_crypto_secretstream_xchacha20poly1305_init_push($key);
+    [$state, $header] = sodium_crypto_secretstream_xchacha20poly1305_init_push($key);
 
-    $inputFile = fopen($inputFilePath, 'rb');
-    $outputFile = fopen($outputFilePath, 'wb');
-    // Запись заголовка:
-    fwrite($outputFile, $header);
-    $inputFileSize = fstat($inputFile)['size'];
+    $inputFile = fopen($inputFilePath, 'rb');
+    $outputFile = fopen($outputFilePath, 'wb');
+    // Запись заголовка:
+    fwrite($outputFile, $header);
+    $inputFileSize = fstat($inputFile)['size'];
 
-    // Зашифровка файла и запись его содержимого в выходной файл:
-    for ($i = 0; $i < $inputFileSize; $i += 8175) {
-        $ptxt_chunk = fread($inputFile, 8175);
-        $ctxt_chunk = sodium_crypto_secretstream_xchacha20poly1305_push($state, $ptxt_chunk);
-        fwrite($outputFile, $ctxt_chunk);
-    }
+    // Зашифровка файла и запись его содержимого в выходной файл:
+    for ($i = 0; $i < $inputFileSize; $i += 8175) {
+        $ptxt_chunk = fread($inputFile, 8175);
+        $ctxt_chunk = sodium_crypto_secretstream_xchacha20poly1305_push($state, $ptxt_chunk);
+        fwrite($outputFile, $ctxt_chunk);
+    }
 
-    sodium_memzero($state);
-    fclose($inputFile);
-    fclose($outputFile);
+    sodium_memzero($state);
+    fclose($inputFile);
+    fclose($outputFile);
 }
 
-// sodium_crypto_secretstream_xchacha20poly1305_keygen()
-$key = sodium_base642bin('MS0lzb7HC+thY6jY01pkTE/cwsQxnRq0/2L1eL4Hxn8=', SODIUM_BASE64_VARIANT_ORIGINAL);
+// sodium_crypto_secretstream_xchacha20poly1305_keygen()
+$key = sodium_base642bin('MS0lzb7HC+thY6jY01pkTE/cwsQxnRq0/2L1eL4Hxn8=', SODIUM_BASE64_VARIANT_ORIGINAL);
 
-file_put_contents('hello.txt', 'Hello world!');
-encrypt_file('hello.txt', 'hello.txt.encrypted', $key);
+file_put_contents('hello.txt', 'Hello world!');
+encrypt_file('hello.txt', 'hello.txt.encrypted', $key);
 var_dump(sodium_bin2hex(file_get_contents('hello.txt.encrypted')));
 ?>
 ```

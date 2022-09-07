@@ -40,12 +40,12 @@ getservbyname(string $service, string $protocol): int|false
 
 ```php
 <?php
-$services = array('http', 'ftp', 'ssh', 'telnet', 'imap',
-'smtp', 'nicname', 'gopher', 'finger', 'pop3', 'www');
+$services = array('http', 'ftp', 'ssh', 'telnet', 'imap',
+'smtp', 'nicname', 'gopher', 'finger', 'pop3', 'www');
 
-foreach ($services as $service) {
-    $port = getservbyname($service, 'tcp');
-    echo $service . ": " . $port . "<br />\n";
+foreach ($services as $service) {
+    $port = getservbyname($service, 'tcp');
+    echo $service . ": " . $port . "<br />\n";
 }
 ?>
 ```
@@ -53,4 +53,4 @@ foreach ($services as $service) {
 ### Дивіться також
 
 -   [getservbyport()](function.getservbyport.md) - Отримує інтернет-службу, що відповідає заданому порту та протоколу
--   Дивіться [» http://www.iana.org/assignments/port-numbers](http://www.iana.org/assignments/port-numbers) щоб отримати повний список номерів портів.
+-   Дивіться [» http://www.iana.org/assignments/port-numbers](http://www.iana.org/assignments/port-numbers) щоб отримати повний список номерів портів.

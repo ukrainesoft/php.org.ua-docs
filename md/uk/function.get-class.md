@@ -56,20 +56,20 @@ get_class(object $object = ?): string
 ```php
 <?php
 
-class foo {
-    function name()
-    {
-        echo "Меня зовут " , get_class($this) , "\n";
-    }
+class foo {
+    function name()
+    {
+        echo "Меня зовут " , get_class($this) , "\n";
+    }
 }
 
-// создание объекта
-$bar = new foo();
+// создание объекта
+$bar = new foo();
 
-// внешний вызов
-echo "Его имя " , get_class($bar) , "\n";
+// внешний вызов
+echo "Его имя " , get_class($bar) , "\n";
 
-// внутренний вызов
+// внутренний вызов
 $bar->name();
 
 ?>
@@ -87,18 +87,18 @@ $bar->name();
 ```php
 <?php
 
-abstract class bar {
-    public function __construct()
-    {
-        var_dump(get_class($this));
-        var_dump(get_class());
-    }
+abstract class bar {
+    public function __construct()
+    {
+        var_dump(get_class($this));
+        var_dump(get_class());
+    }
 }
 
-class foo extends bar {
+class foo extends bar {
 }
 
-new foo;
+new foo;
 
 ?>
 ```
@@ -115,16 +115,16 @@ string(3) "bar"
 ```php
 <?php
 
-namespace Foo\Bar;
+namespace Foo\Bar;
 
-class Baz {
-    public function __construct()
-    {
+class Baz {
+    public function __construct()
+    {
 
-    }
+    }
 }
 
-$baz = new \Foo\Bar\Baz;
+$baz = new \Foo\Bar\Baz;
 
 var_dump(get_class($baz));
 ?>

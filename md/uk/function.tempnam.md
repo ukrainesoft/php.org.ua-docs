@@ -48,13 +48,13 @@ tempnam(string $directory, string $prefix): string|false
 
 ```php
 <?php
-$tmpfname = tempnam("/tmp", "FOO");
+$tmpfname = tempnam("/tmp", "FOO");
 
-$handle = fopen($tmpfname, "w");
-fwrite($handle, "записываем в во временный файл");
+$handle = fopen($tmpfname, "w");
+fwrite($handle, "записываем в во временный файл");
 fclose($handle);
 
-// здесь мы чего-нибудь делаем
+// здесь мы чего-нибудь делаем
 
 unlink($tmpfname);
 ?>

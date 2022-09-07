@@ -45,21 +45,21 @@ SQL-запити *не повинні* закінчуватися точкою �
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-// Парсинг запроса. Обратите внимание на отсутствие точки запятой в конце SQL-запроса
-$stid = oci_parse($conn, 'SELECT * FROM employees');
+// Парсинг запроса. Обратите внимание на отсутствие точки запятой в конце SQL-запроса
+$stid = oci_parse($conn, 'SELECT * FROM employees');
 oci_execute($stid);
 
-echo "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
-    }
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 ?>
 ```
@@ -70,32 +70,32 @@ echo "</table>\n";
 <?php
 
 /*
-  Перед запуском PHP-скрипта, создайте хранимую процедуру в
-  SQL*Plus или SQL Developer:
+  Перед запуском PHP-скрипта, создайте хранимую процедуру в
+  SQL*Plus или SQL Developer:
 
-  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS
-  BEGIN
-      p2 := p1 * 2;
-  END;
+  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS
+  BEGIN
+      p2 := p1 * 2;
+  END;
 
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$p1 = 8;
+$p1 = 8;
 
-// При парсинге PL/SQL запросов необходимо наличие точки с запятой в конце строки
-$stid = oci_parse($conn, 'begin myproc(:p1, :p2); end;');
-oci_bind_by_name($stid, ':p1', $p1);
-oci_bind_by_name($stid, ':p2', $p2, 40);
+// При парсинге PL/SQL запросов необходимо наличие точки с запятой в конце строки
+$stid = oci_parse($conn, 'begin myproc(:p1, :p2); end;');
+oci_bind_by_name($stid, ':p1', $p1);
+oci_bind_by_name($stid, ':p2', $p2, 40);
 
 oci_execute($stid);
 
-print "$p2\n";   // prints 16
+print "$p2\n";   // prints 16
 
 oci_free_statement($stid);
 oci_close($conn);

@@ -15,7 +15,7 @@ xdifffilepatch — Використання уніфікованого патч�
 ### Опис
 
 ```methodsynopsis
-xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $flags = DIFF_PATCH_NORMAL): mixed
+xdiff_file_patch(    string $file,    string $patch,    string $dest,    int $flags = DIFF_PATCH_NORMAL): mixed
 ```
 
 Застосовує до файлу `file` патча `patch` та зберігає результат у файл . `patch` має бути уніфікованим патчем, створеним функціями [xdifffilediff()](function.xdiff-file-diff.md)[xdiffstringdiff()](function.xdiff-string-diff.md). Необов'язковий параметр `flags` задає режим операції.
@@ -52,13 +52,13 @@ xdiff_file_patch(    string $file,    string $patch,    string $dest
 
 ```php
 <?php
-$old_version = 'my_script-1.0.php';
-$patch = 'my_script.patch';
+$old_version = 'my_script-1.0.php';
+$patch = 'my_script.patch';
 
-$errors = xdiff_file_patch($old_version, $patch, 'my_script-1.1.php');
-if (is_string($errors)) {
-   echo "Отклонены:\n";
-   echo $errors;
+$errors = xdiff_file_patch($old_version, $patch, 'my_script-1.1.php');
+if (is_string($errors)) {
+   echo "Отклонены:\n";
+   echo $errors;
 }
 
 ?>
@@ -70,13 +70,13 @@ if (is_string($errors)) {
 
 ```php
 <?php
-$new_version = 'my_script-1.1.php';
-$patch = 'my_script.patch';
+$new_version = 'my_script-1.1.php';
+$patch = 'my_script.patch';
 
-$errors = xdiff_file_patch($new_version, $patch, 'my_script-1.0.php', XDIFF_PATCH_REVERSE);
-if (is_string($errors)) {
-   echo "Отклонены:\n";
-   echo $errors;
+$errors = xdiff_file_patch($new_version, $patch, 'my_script-1.0.php', XDIFF_PATCH_REVERSE);
+if (is_string($errors)) {
+   echo "Отклонены:\n";
+   echo $errors;
 }
 
 ?>

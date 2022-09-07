@@ -51,21 +51,21 @@ ftp_login(FTP\Connection $ftp, string $username, string $password): bool
 ```php
 <?php
 
-$ftp_server = "ftp.example.com";
-$ftp_user = "foo";
-$ftp_pass = "bar";
+$ftp_server = "ftp.example.com";
+$ftp_user = "foo";
+$ftp_pass = "bar";
 
-// установить соединение или выйти
-$ftp = ftp_connect($ftp_server) or die("Не удалось установить соединение с $ftp_server");
+// установить соединение или выйти
+$ftp = ftp_connect($ftp_server) or die("Не удалось установить соединение с $ftp_server");
 
-// попытка входа
-if (@ftp_login($ftp, $ftp_user, $ftp_pass)) {
-    echo "Произведён вход на $ftp_server под именем $ftp_user\n";
-} else {
-    echo "Не удалось войти под именем $ftp_user\n";
+// попытка входа
+if (@ftp_login($ftp, $ftp_user, $ftp_pass)) {
+    echo "Произведён вход на $ftp_server под именем $ftp_user\n";
+} else {
+    echo "Не удалось войти под именем $ftp_user\n";
 }
 
-// закрыть соединение
+// закрыть соединение
 ftp_close($ftp);
 ?>
 ```

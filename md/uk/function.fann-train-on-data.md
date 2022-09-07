@@ -15,7 +15,7 @@ fanntrainвінdata — Навчання на всьому обсязі дани
 ### Опис
 
 ```methodsynopsis
-fann_train_on_data(    resource $ann,    resource $data,    int $max_epochs,    int $epochs_between_reports,    float $desired_error): bool
+fann_train_on_data(    resource $ann,    resource $data,    int $max_epochs,    int $epochs_between_reports,    float $desired_error): bool
 ```
 
 Навчання на повному наборі даних, часовому інтервалі.

@@ -12,34 +12,34 @@ title: Трейти
 
 ```php
 <?php
-interface Colorful
+interface Colorful
 {
-    public function color(): string;
+    public function color(): string;
 }
 
-trait Rectangle
+trait Rectangle
 {
-    public function shape(): string {
-        return "Прямоугольние";
-    }
+    public function shape(): string {
+        return "Прямоугольние";
+    }
 }
 
-enum Suit implements Colorful
+enum Suit implements Colorful
 {
-    use Rectangle;
+    use Rectangle;
 
-    case Hearts;
-    case Diamonds;
-    case Clubs;
-    case Spades;
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
 
-    public function color(): string
-    {
-        return match($this) {
-            Suit::Hearts, Suit::Diamonds => 'Красный',
-            Suit::Clubs, Suit::Spades => 'Чёрный',
-        };
-    }
+    public function color(): string
+    {
+        return match($this) {
+            Suit::Hearts, Suit::Diamonds => 'Красный',
+            Suit::Clubs, Suit::Spades => 'Чёрный',
+        };
+    }
 }
 ?>
 ```

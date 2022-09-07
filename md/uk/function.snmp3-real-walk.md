@@ -15,7 +15,7 @@ snmpv3realwalk — Повертає всі об'єкти, включаючи ї�
 ### Опис
 
 ```methodsynopsis
-snmp3_real_walk(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmp3_real_walk(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
 Функція **snmpv3realwalk()** використовується для обходу об'єктів SNMP, починаючи з `object_id` і повертає як їх значення, а й ідентифікатори об'єктів.
@@ -78,7 +78,7 @@ snmp3_real_walk(    string $hostname,    string $security_name,    s
 
 ```php
 <?php
- var_export(snmp3_real_walk('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName'));
+ var_export(snmp3_real_walk('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName'));
 ?>
 ```
 

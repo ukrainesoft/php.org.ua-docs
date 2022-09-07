@@ -51,16 +51,16 @@ Memcache::decrement(string $key, int $value = 1): int|false
 ```php
 <?php
 
-/* процедурное API */
-$memcache_obj = memcache_connect('memcache_host', 11211);
-/* декрементировать на 2 */
-$new_value = memcache_decrement($memcache_obj, 'test_item', 2);
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
+/* декрементировать на 2 */
+$new_value = memcache_decrement($memcache_obj, 'test_item', 2);
 
-/* объектно-ориентированное API */
-$memcache_obj = new Memcache;
-$memcache_obj->connect('memcache_host', 11211);
-/* декрементировать на 3 */
-$new_value = $memcache_obj->decrement('test_item', 3);
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
+/* декрементировать на 3 */
+$new_value = $memcache_obj->decrement('test_item', 3);
 ?>
 ```
 

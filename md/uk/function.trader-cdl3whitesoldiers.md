@@ -15,7 +15,7 @@ tradercdl3whitesoldiers - Три наступних білих солдатів
 ### Опис
 
 ```methodsynopsis
-trader_cdl3whitesoldiers(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3whitesoldiers(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

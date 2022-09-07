@@ -47,11 +47,11 @@ grapheme_strripos(string $haystack, string $needle, int $offset = 0): int|false
 ```php
 <?php
 
-$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
-$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
-$char_O_diaeresis_nfd = "O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) normalization form "D"
+$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
+$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
+$char_O_diaeresis_nfd = "O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) normalization form "D"
 
-print grapheme_strripos( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd);
+print grapheme_strripos( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_o_diaeresis_nfd, $char_O_diaeresis_nfd);
 
 ?>
 ```
@@ -69,4 +69,4 @@ print grapheme_strripos( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_
 -   [graphemestrpos()](function.grapheme-strpos.md) - знаходить позицію (в одиницях графеми) першого входження рядка
 -   [graphemestrrpos()](function.grapheme-strrpos.md) - знаходить позицію (в одиницях графеми) останнього входження рядка
 -   [graphemestrstr()](function.grapheme-strstr.md) - Повертає частину рядка haystack від першої появи needle до кінця haystack
--   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

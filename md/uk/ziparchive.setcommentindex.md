@@ -40,14 +40,14 @@ public ZipArchive::setCommentIndex(int $index, string $comment): bool
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip');
-if ($res === TRUE) {
-    $zip->setCommentIndex(2, 'новая запись комментария');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+$res = $zip->open('test.zip');
+if ($res === TRUE) {
+    $zip->setCommentIndex(2, 'новая запись комментария');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

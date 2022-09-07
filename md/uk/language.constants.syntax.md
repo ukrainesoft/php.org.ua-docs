@@ -31,10 +31,10 @@ title: Синтаксис
 
 ```php
 <?php
-define("CONSTANT", "Здравствуй, мир.");
-echo CONSTANT; // выводит "Здравствуй, мир."
-echo Constant; // Выбросит ошибку: Неопределённая константа "Constant"
-               // До PHP 8.0.0 выводит "Constant" и выдаёт предупреждение.
+define("CONSTANT", "Здравствуй, мир.");
+echo CONSTANT; // выводит "Здравствуй, мир."
+echo Constant; // Выбросит ошибку: Неопределённая константа "Constant"
+               // До PHP 8.0.0 выводит "Constant" и выдаёт предупреждение.
 ?>
 ```
 
@@ -42,25 +42,25 @@ echo Constant; // Выбросит ошибку: Неопределённа
 
 ```php
 <?php
-// Простое скалярное значение
-const CONSTANT = 'Здравствуй, мир.';
+// Простое скалярное значение
+const CONSTANT = 'Здравствуй, мир.';
 
-echo CONSTANT;
+echo CONSTANT;
 
-// Скалярное выражение
-const ANOTHER_CONST = CONSTANT . ' Прощай, мир.';
-echo ANOTHER_CONST;
+// Скалярное выражение
+const ANOTHER_CONST = CONSTANT . ' Прощай, мир.';
+echo ANOTHER_CONST;
 
-const ANIMALS = array('dog', 'cat', 'bird');
-echo ANIMALS[1]; // выводит "cat"
+const ANIMALS = array('dog', 'cat', 'bird');
+echo ANIMALS[1]; // выводит "cat"
 
-// Масиви в константе
-define('ANIMALS', array(
-    'dog',
-    'cat',
-    'bird'
+// Масиви в константе
+define('ANIMALS', array(
+    'dog',
+    'cat',
+    'bird'
 ));
-echo ANIMALS[1]; // выводит "cat"
+echo ANIMALS[1]; // выводит "cat"
 ?>
 ```
 

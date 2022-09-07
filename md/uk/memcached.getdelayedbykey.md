@@ -15,7 +15,7 @@ Memcached::getDelayedByKey — Запитує кілька записів із �
 ### Опис
 
 ```methodsynopsis
-public Memcached::getDelayedByKey(    string $server_key,    array $keys,    bool $with_cas = ?,    callable $value_cb = ?): bool
+public Memcached::getDelayedByKey(    string $server_key,    array $keys,    bool $with_cas = ?,    callable $value_cb = ?): bool
 ```
 
 **Memcached::getDelayedByKey()** працює аналогічно [Memcached::getDelayed()](memcached.getdelayed.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер.

@@ -15,7 +15,7 @@ fdfsetflags — Встановлює прапор поля
 ### Опис
 
 ```methodsynopsis
-fdf_set_flags(    resource $fdf_document,    string $fieldname,    int $whichFlags,    int $newFlags): bool
+fdf_set_flags(    resource $fdf_document,    string $fieldname,    int $whichFlags,    int $newFlags): bool
 ```
 
 Встановлює певні прапори поля.

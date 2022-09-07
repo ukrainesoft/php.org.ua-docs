@@ -36,7 +36,7 @@ mysqli_get_client_stats(): array
 
 ```php
 <?php
-$link = mysqli_connect();
+$link = mysqli_connect();
 print_r(mysqli_get_client_stats());
 ?>
 ```

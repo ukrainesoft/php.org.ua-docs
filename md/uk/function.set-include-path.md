@@ -38,8 +38,8 @@ set_include_path(string $include_path): string|false
 <?php
 set_include_path('/usr/lib/pear');
 
-// Или так
-ini_set('include_path', '/usr/lib/pear');
+// Или так
+ini_set('include_path', '/usr/lib/pear');
 ?>
 ```
 
@@ -51,8 +51,8 @@ ini_set('include_path', '/usr/lib/pear');
 
 ```php
 <?php
-$path = '/usr/lib/pear';
-set_include_path(get_include_path() . PATH_SEPARATOR . $path);
+$path = '/usr/lib/pear';
+set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 ?>
 ```
 

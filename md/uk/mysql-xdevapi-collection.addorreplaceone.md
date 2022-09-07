@@ -55,21 +55,21 @@ public mysql_xdevapi\Collection::addOrReplaceOne(string $id, string $doc): mysql
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema = $session->getSchema("addressbook");
-$create = $schema->createCollection("people");
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
 
-$collection = $schema->getCollection("people");
+$collection = $schema->getCollection("people");
 
-// Использование add()
-$result = $collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
+// Использование add()
+$result = $collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
 
-// Использование addOrReplaceOne()
-// Примечания: мы передаём известное значение _id
-$result = $collection->addOrReplaceOne('00005b6b53610000000000000056', '{"name": "Fred",  "age": 21, "job": "Construction"}');
+// Использование addOrReplaceOne()
+// Примечания: мы передаём известное значение _id
+$result = $collection->addOrReplaceOne('00005b6b53610000000000000056', '{"name": "Fred",  "age": 21, "job": "Construction"}');
 
 ?>
 ```

@@ -40,14 +40,14 @@ cubrid_num_fields(resource $result): int
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-$req = cubrid_execute($conn, "SELECT * FROM code");
+$req = cubrid_execute($conn, "SELECT * FROM code");
 
-$row_num = cubrid_num_rows($req);
-$col_num = cubrid_num_fields($req);
+$row_num = cubrid_num_rows($req);
+$col_num = cubrid_num_fields($req);
 
-printf("Количество строк: %d\nКоличество столбцов: %d\n", $row_num, $col_num);
+printf("Количество строк: %d\nКоличество столбцов: %d\n", $row_num, $col_num);
 
 cubrid_disconnect($conn);
 ?>

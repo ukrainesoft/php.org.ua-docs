@@ -12,13 +12,13 @@ title: Приклади
 
 ```php
 <?php
-enum SortOrder
+enum SortOrder
 {
-    case ASC;
-    case DESC;
+    case ASC;
+    case DESC;
 }
 
-function query($fields, $filter, SortOrder $order = SortOrder::ASC) { ... }
+function query($fields, $filter, SortOrder $order = SortOrder::ASC) { ... }
 ?>
 ```
 
@@ -28,22 +28,22 @@ function query($fields, $filter, SortOrder $order = SortOrder::ASC) { ..
 
 ```php
 <?php
-enum UserStatus: string
+enum UserStatus: string
 {
-    case Pending = 'P';
-    case Active = 'A';
-    case Suspended = 'S';
-    case CanceledByUser = 'C';
+    case Pending = 'P';
+    case Active = 'A';
+    case Suspended = 'S';
+    case CanceledByUser = 'C';
 
-    public function label(): string
-    {
-        return match($this) {
-            static::Pending => 'В ожидании',
-            static::Active => 'Активный',
-            static::Suspended => 'Приостановленный',
-            static::CanceledByUser => 'Отменено пользователем',
-        };
-    }
+    public function label(): string
+    {
+        return match($this) {
+            static::Pending => 'В ожидании',
+            static::Active => 'Активный',
+            static::Suspended => 'Приостановленный',
+            static::CanceledByUser => 'Отменено пользователем',
+        };
+    }
 }
 ?>
 ```
@@ -54,8 +54,8 @@ enum UserStatus: string
 
 ```php
 <?php
-foreach (UserStatus::cases() as $case) {
-    printf('<option value="%s">%s</option>\n', $case->value, $case->label());
+foreach (UserStatus::cases() as $case) {
+    printf('<option value="%s">%s</option>\n', $case->value, $case->label());
 }
 ?>
 ```

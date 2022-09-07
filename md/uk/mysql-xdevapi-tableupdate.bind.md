@@ -36,16 +36,16 @@ public mysql_xdevapi\TableUpdate::bind(array $placeholder_values): mysql_xdevapi
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
 $table->update()
-  ->set('status', 'admin')
-  ->where('name = :name and age > :age')
-  ->bind(['name' => 'Bernie', 'age' => 2000])
-  ->execute();
+  ->set('status', 'admin')
+  ->where('name = :name and age > :age')
+  ->bind(['name' => 'Bernie', 'age' => 2000])
+  ->execute();
 
 ?>
 ```

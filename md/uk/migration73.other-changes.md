@@ -126,7 +126,7 @@ session_set_cookie_params(array $options): bool
 
 ### Tidy
 
-Складання разом [» tidyp](https://github.com/petdance/tidyp) Тепер також підтримується прозоро. Оскільки tidyp не пропонує API для отримання дати релізу, [tidygetrelease()](tidy.getrelease.md) і [tidy::getRelease()](tidy.getrelease.md) повертає значення `'unknown'` в цьому випадку.
+Складання разом [» tidyp](https://github.com/petdance/tidyp) Тепер також підтримується прозоро. Оскільки tidyp не пропонує API для отримання дати релізу, [tidygetrelease()](tidy.getrelease.md) і [tidy::getRelease()](tidy.getrelease.md) повертає значення `'unknown'` в цьому випадку.
 
 ### XML-парсер
 

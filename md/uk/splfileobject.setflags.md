@@ -36,10 +36,10 @@ public SplFileObject::setFlags(int $flags): void
 
 ```php
 <?php
-$file = new SplFileObject("data.csv");
+$file = new SplFileObject("data.csv");
 $file->setFlags(SplFileObject::READ_CSV);
-foreach ($file as $fields) {
-    var_dump($fields);
+foreach ($file as $fields) {
+    var_dump($fields);
 }
 ?>
 ```

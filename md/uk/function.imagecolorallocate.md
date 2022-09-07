@@ -15,7 +15,7 @@ imagecolorallocate — Створення кольору зображення
 ### Опис
 
 ```methodsynopsis
-imagecolorallocate(    GdImage $image,    int $red,    int $green,    int $blue): int|false
+imagecolorallocate(    GdImage $image,    int $red,    int $green,    int $blue): int|false
 ```
 
 Повертає ідентифікатор кольору відповідно до заданих компонентів RGB.
@@ -67,18 +67,18 @@ imagecolorallocate(    GdImage $image,    int $red,    int $green, 
 ```php
 <?php
 
-$im = imagecreate(100, 100);
+$im = imagecreate(100, 100);
 
-// делаем фон красным
-$background = imagecolorallocate($im, 255, 0, 0);
+// делаем фон красным
+$background = imagecolorallocate($im, 255, 0, 0);
 
-// создадим несколько цветов
-$white = imagecolorallocate($im, 255, 255, 255);
-$black = imagecolorallocate($im, 0, 0, 0);
+// создадим несколько цветов
+$white = imagecolorallocate($im, 255, 255, 255);
+$black = imagecolorallocate($im, 0, 0, 0);
 
-// шестнадцатеричный способ
-$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
-$black = imagecolorallocate($im, 0x00, 0x00, 0x00);
+// шестнадцатеричный способ
+$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
+$black = imagecolorallocate($im, 0x00, 0x00, 0x00);
 
 ?>
 ```

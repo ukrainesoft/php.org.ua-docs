@@ -40,10 +40,10 @@ strcmp(string $string1, string $string2): int
 
 ```php
 <?php
-$var1 = "Hello";
-$var2 = "hello";
-if (strcmp($var1, $var2) !== 0) {
-    echo '$var1 не равно $var2 при регистрозависимом сравнении';
+$var1 = "Hello";
+$var2 = "hello";
+if (strcmp($var1, $var2) !== 0) {
+    echo '$var1 не равно $var2 при регистрозависимом сравнении';
 }
 ?>
 ```

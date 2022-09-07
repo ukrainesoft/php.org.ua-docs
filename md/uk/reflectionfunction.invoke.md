@@ -36,14 +36,14 @@ public ReflectionFunction::invoke(mixed ...$args): mixed
 
 ```php
 <?php
-function title($title, $name)
+function title($title, $name)
 {
-    return sprintf("%s. %s\r\n", $title, $name);
+    return sprintf("%s. %s\r\n", $title, $name);
 }
 
-$function = new ReflectionFunction('title');
+$function = new ReflectionFunction('title');
 
-echo $function->invoke('Dr', 'Phil');
+echo $function->invoke('Dr', 'Phil');
 ?>
 ```
 

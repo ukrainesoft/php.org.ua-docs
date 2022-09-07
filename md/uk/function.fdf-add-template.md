@@ -15,7 +15,7 @@ fdfaddtemplate — Додає шаблон до FDF-документу
 ### Опис
 
 ```methodsynopsis
-fdf_add_template(    resource $fdf_document,    int $newpage,    string $filename,    string $template,    int $rename): bool
+fdf_add_template(    resource $fdf_document,    int $newpage,    string $filename,    string $template,    int $rename): bool
 ```
 
 **Увага**

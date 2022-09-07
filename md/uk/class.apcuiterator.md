@@ -31,7 +31,7 @@ title: Клас APCUIterator
 
     /* Методы */
     
-   public __construct(    array|string|null $search = null,    int $format = APC_ITER_ALL,    int $chunk_size = 100,    int $list = APC_LIST_ACTIVE)
+   public __construct(    array|string|null $search = null,    int $format = APC_ITER_ALL,    int $chunk_size = 100,    int $list = APC_LIST_ACTIVE)
 
     public current(): mixed
 public getTotalCount(): int

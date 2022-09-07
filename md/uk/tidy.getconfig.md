@@ -40,7 +40,7 @@ tidy_get_config(tidy $tidy): array
 
 Повертає масив опцій конфігурації.
 
-Інформацію про кожен параметр можна отримати тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
+Інформацію про кожен параметр можна отримати тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
 
 ### Приклади
 
@@ -48,12 +48,12 @@ tidy_get_config(tidy $tidy): array
 
 ```php
 <?php
-$html = '<p>тест</p>';
-$config = array('indent' => TRUE,
-                'output-xhtml' => TRUE,
-                'wrap' => 200);
+$html = '<p>тест</p>';
+$config = array('indent' => TRUE,
+                'output-xhtml' => TRUE,
+                'wrap' => 200);
 
-$tidy = tidy_parse_string($html, $config);
+$tidy = tidy_parse_string($html, $config);
 
 print_r($tidy->getConfig());
 ?>

@@ -64,7 +64,7 @@ wincache_ucache_info(bool $summaryonly = false, string $key = NULL): array|false
 ```php
 <?php
 wincache_ucache_get('green');
-wincache_ucache_set('green', 2922);
+wincache_ucache_set('green', 2922);
 wincache_ucache_get('green');
 wincache_ucache_get('green');
 wincache_ucache_get('green');

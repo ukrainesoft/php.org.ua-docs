@@ -34,10 +34,10 @@ final public Exception::getMessage(): string
 
 ```php
 <?php
-try {
-    throw new Exception("Какое-нибудь сообщение об ошибке");
-} catch(Exception $e) {
-    echo $e->getMessage();
+try {
+    throw new Exception("Какое-нибудь сообщение об ошибке");
+} catch(Exception $e) {
+    echo $e->getMessage();
 }
 ?>
 ```

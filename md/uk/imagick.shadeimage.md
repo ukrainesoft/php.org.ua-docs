@@ -48,11 +48,11 @@ public Imagick::shadeImage(bool $gray, float $azimuth, float $elevation): bool
 
 ```php
 <?php
-function shadeImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->shadeImage(true, 45, 20);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function shadeImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->shadeImage(true, 45, 20);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

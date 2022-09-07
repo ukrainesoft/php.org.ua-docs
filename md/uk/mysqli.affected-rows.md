@@ -51,29 +51,29 @@ mysqli_affected_rows(mysqli $mysql): int|string
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* Добавление строк */
-$mysqli->query("CREATE TABLE Language SELECT * from CountryLanguage");
-printf("Затронутые строки (INSERT): %d\n", $mysqli->affected_rows);
+/* Добавление строк */
+$mysqli->query("CREATE TABLE Language SELECT * from CountryLanguage");
+printf("Затронутые строки (INSERT): %d\n", $mysqli->affected_rows);
 
-$mysqli->query("ALTER TABLE Language ADD Status int default 0");
+$mysqli->query("ALTER TABLE Language ADD Status int default 0");
 
-/* Обновление строк */
-$mysqli->query("UPDATE Language SET Status=1 WHERE Percentage > 50");
-printf("Затронутые строки (UPDATE): %d\n", $mysqli->affected_rows);
+/* Обновление строк */
+$mysqli->query("UPDATE Language SET Status=1 WHERE Percentage > 50");
+printf("Затронутые строки (UPDATE): %d\n", $mysqli->affected_rows);
 
-/* Удаление строк */
-$mysqli->query("DELETE FROM Language WHERE Percentage < 50");
-printf("Затронутые строки (DELETE): %d\n", $mysqli->affected_rows);
+/* Удаление строк */
+$mysqli->query("DELETE FROM Language WHERE Percentage < 50");
+printf("Затронутые строки (DELETE): %d\n", $mysqli->affected_rows);
 
-/* Выборка всех строк */
-$result = $mysqli->query("SELECT CountryCode FROM Language");
-printf("Затронутые строки (SELECT): %d\n", $mysqli->affected_rows);
+/* Выборка всех строк */
+$result = $mysqli->query("SELECT CountryCode FROM Language");
+printf("Затронутые строки (SELECT): %d\n", $mysqli->affected_rows);
 
-/* Удаление таблицы Language */
-$mysqli->query("DROP TABLE Language");
+/* Удаление таблицы Language */
+$mysqli->query("DROP TABLE Language");
 ?>
 ```
 
@@ -82,29 +82,29 @@ $mysqli->query("DROP TABLE Language");
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* Добавление строк */
-mysqli_query($link, "CREATE TABLE Language SELECT * from CountryLanguage");
-printf("Затронутые строки (INSERT): %d\n", mysqli_affected_rows($link));
+/* Добавление строк */
+mysqli_query($link, "CREATE TABLE Language SELECT * from CountryLanguage");
+printf("Затронутые строки (INSERT): %d\n", mysqli_affected_rows($link));
 
-mysqli_query($link, "ALTER TABLE Language ADD Status int default 0");
+mysqli_query($link, "ALTER TABLE Language ADD Status int default 0");
 
-/* Обновление строк */
-mysqli_query($link, "UPDATE Language SET Status=1 WHERE Percentage > 50");
-printf("Затронутые строки (UPDATE): %d\n", mysqli_affected_rows($link));
+/* Обновление строк */
+mysqli_query($link, "UPDATE Language SET Status=1 WHERE Percentage > 50");
+printf("Затронутые строки (UPDATE): %d\n", mysqli_affected_rows($link));
 
-/* Удаление строк */
-mysqli_query($link, "DELETE FROM Language WHERE Percentage < 50");
-printf("Затронутые строки (DELETE): %d\n", mysqli_affected_rows($link));
+/* Удаление строк */
+mysqli_query($link, "DELETE FROM Language WHERE Percentage < 50");
+printf("Затронутые строки (DELETE): %d\n", mysqli_affected_rows($link));
 
-/* Выборка всех строк */
-$result = mysqli_query($link, "SELECT CountryCode FROM Language");
-printf("Затронутые строки (SELECT): %d\n", mysqli_affected_rows($link));
+/* Выборка всех строк */
+$result = mysqli_query($link, "SELECT CountryCode FROM Language");
+printf("Затронутые строки (SELECT): %d\n", mysqli_affected_rows($link));
 
-/* Удаление таблицы Language */
-mysqli_query($link, "DROP TABLE Language");
+/* Удаление таблицы Language */
+mysqli_query($link, "DROP TABLE Language");
 ?>
 ```
 

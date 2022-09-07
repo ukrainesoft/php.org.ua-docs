@@ -45,53 +45,53 @@ iptcembed(string $iptc_data, string $filename, int $spool = 0): string|bool
 ```php
 <?php
 
-// iptc_make_tag() функция от Thies C. Arntzen
-function iptc_make_tag($rec, $data, $value)
+// iptc_make_tag() функция от Thies C. Arntzen
+function iptc_make_tag($rec, $data, $value)
 {
-    $length = strlen($value);
-    $retval = chr(0x1C) . chr($rec) . chr($data);
+    $length = strlen($value);
+    $retval = chr(0x1C) . chr($rec) . chr($data);
 
-    if($length < 0x8000)
-    {
-        $retval .= chr($length >> 8) .  chr($length & 0xFF);
-    }
-    else
-    {
-        $retval .= chr(0x80) .
-                   chr(0x04) .
-                   chr(($length >> 24) & 0xFF) .
-                   chr(($length >> 16) & 0xFF) .
-                   chr(($length >> 8) & 0xFF) .
-                   chr($length & 0xFF);
-    }
+    if($length < 0x8000)
+    {
+        $retval .= chr($length >> 8) .  chr($length & 0xFF);
+    }
+    else
+    {
+        $retval .= chr(0x80) .
+                   chr(0x04) .
+                   chr(($length >> 24) & 0xFF) .
+                   chr(($length >> 16) & 0xFF) .
+                   chr(($length >> 8) & 0xFF) .
+                   chr($length & 0xFF);
+    }
 
-    return $retval . $value;
+    return $retval . $value;
 }
 
-// Путь к jpeg файлу
-$path = './phplogo.jpg';
+// Путь к jpeg файлу
+$path = './phplogo.jpg';
 
-// установка IPTC тэгов
-$iptc = array(
-    '2#120' => 'Тестовое изображение',
-    '2#116' => 'Copyright 2008-2009, The PHP Group'
+// установка IPTC тэгов
+$iptc = array(
+    '2#120' => 'Тестовое изображение',
+    '2#116' => 'Copyright 2008-2009, The PHP Group'
 );
 
-// Преобразование IPTC тэгов в двоичный код
-$data = '';
+// Преобразование IPTC тэгов в двоичный код
+$data = '';
 
-foreach($iptc as $tag => $string)
+foreach($iptc as $tag => $string)
 {
-    $tag = substr($tag, 2);
-    $data .= iptc_make_tag(2, $tag, $string);
+    $tag = substr($tag, 2);
+    $data .= iptc_make_tag(2, $tag, $string);
 }
 
-// Встраивание IPTC данных
-$content = iptcembed($data, $path);
+// Встраивание IPTC данных
+$content = iptcembed($data, $path);
 
-// запись нового изображения в файл
-$fp = fopen($path, "wb");
-fwrite($fp, $content);
+// запись нового изображения в файл
+$fp = fopen($path, "wb");
+fwrite($fp, $content);
 fclose($fp);
 ?>
 ```

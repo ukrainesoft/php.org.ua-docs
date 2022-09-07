@@ -46,11 +46,11 @@ pg_num_rows(PgSql\Result $result): int
 
 ```php
 <?php
-$result = pg_query($conn, "SELECT 1");
+$result = pg_query($conn, "SELECT 1");
 
-$rows = pg_num_rows($result);
+$rows = pg_num_rows($result);
 
-echo "Возвращено строк: " . $rows . ".\n";
+echo "Возвращено строк: " . $rows . ".\n";
 ?>
 ```
 

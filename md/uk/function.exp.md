@@ -40,8 +40,8 @@ exp(float $num): float
 
 ```php
 <?php
-echo exp(12) . "\n";
-echo exp(5.7);
+echo exp(12) . "\n";
+echo exp(5.7);
 ?>
 ```
 

@@ -17,20 +17,20 @@ EvLoop::periodic — Створює об'єкт спостерігача EvPerio
 ```methodsynopsis
 final
    public
-   EvLoop::periodic(    
+   EvLoop::periodic(    
     float
      $offset
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

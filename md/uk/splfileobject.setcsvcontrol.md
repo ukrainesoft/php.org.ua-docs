@@ -50,12 +50,12 @@ public SplFileObject::setCsvControl(string $separator = ",", string $enclosure =
 
 ```php
 <?php
-$file = new SplFileObject("data.csv");
+$file = new SplFileObject("data.csv");
 $file->setFlags(SplFileObject::READ_CSV);
 $file->setCsvControl('|');
-foreach ($file as $row) {
-    list ($fruit, $quantity) = $row;
-    // Что-то делаем со значениями
+foreach ($file as $row) {
+    list ($fruit, $quantity) = $row;
+    // Что-то делаем со значениями
 }
 ?>
 ```

@@ -36,19 +36,19 @@ radius_get_tagged_attr_data(string $data): string|false
 
 ```php
 <?php
-while ($resa = radius_get_attr($res)) {
-    if (!is_array($resa)) {
-        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
-        exit;
-    }
+while ($resa = radius_get_attr($res)) {
+    if (!is_array($resa)) {
+        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
 
-    $attr = $resa['attr'];
-    $data = $resa['data'];
+    $attr = $resa['attr'];
+    $data = $resa['data'];
 
-    $tag = radius_get_tagged_attr_tag($data);
-    $value = radius_get_tagged_attr_data($data);
+    $tag = radius_get_tagged_attr_tag($data);
+    $value = radius_get_tagged_attr_data($data);
 
-    printf("Получен тегированный атрибут с тегом %d и значением %s\n", $tag, $value);
+    printf("Получен тегированный атрибут с тегом %d и значением %s\n", $tag, $value);
 }
 ?>
 ```

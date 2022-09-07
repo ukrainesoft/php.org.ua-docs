@@ -46,15 +46,15 @@ public ZipArchive::addPattern(string $pattern, string $path = ".", array $option
 
 ```php
 <?php
-$zip = new ZipArchive();
-$ret = $zip->open('application.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
-if ($ret !== TRUE) {
-    printf('Ошибка с кодом %d', $ret);
-} else {
-    $directory = realpath('.');
-    $options = array('add_path' => 'sources/', 'remove_path' => $directory);
-    $zip->addPattern('/\.(?:php|txt)$/', $directory, $options);
-    $zip->close();
+$zip = new ZipArchive();
+$ret = $zip->open('application.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);
+if ($ret !== TRUE) {
+    printf('Ошибка с кодом %d', $ret);
+} else {
+    $directory = realpath('.');
+    $options = array('add_path' => 'sources/', 'remove_path' => $directory);
+    $zip->addPattern('/\.(?:php|txt)$/', $directory, $options);
+    $zip->close();
 }
 ?>
 ```

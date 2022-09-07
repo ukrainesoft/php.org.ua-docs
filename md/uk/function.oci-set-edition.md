@@ -45,17 +45,17 @@ oci_set_edition(string $edition): bool
 ```php
 <?php
 
-// Файл 1
+// Файл 1
 
-echo "Версия приложения 1\n";
+echo "Версия приложения 1\n";
 
 oci_set_edition('ORA$BASE');
-$c = oci_connect('hr', 'welcome', 'localhost/XE');
+$c = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$s = oci_parse($c, "begin :r := myfunc(); end;");
-oci_bind_by_name($s, ":r", $r, 20);
+$s = oci_parse($c, "begin :r := myfunc(); end;");
+oci_bind_by_name($s, ":r", $r, 20);
 oci_execute($s);
-echo "Результат: $r\n";
+echo "Результат: $r\n";
 
 ?>
 ```
@@ -63,17 +63,17 @@ echo "Результат: $r\n";
 ```php
 <?php
 
-// Файл 2
+// Файл 2
 
-echo "Версия приложения 2\n";
+echo "Версия приложения 2\n";
 
 oci_set_edition('E1');
-$c = oci_connect('hr', 'welcome', 'localhost/XE');
+$c = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$s = oci_parse($c, "begin :r := myfunc(); end;");
-oci_bind_by_name($s, ":r", $r, 20);
+$s = oci_parse($c, "begin :r := myfunc(); end;");
+oci_bind_by_name($s, ":r", $r, 20);
 oci_execute($s);
-echo "Результат: $r\n";
+echo "Результат: $r\n";
 
 ?>
 ```

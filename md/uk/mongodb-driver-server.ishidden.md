@@ -18,7 +18,7 @@ MongoDBDriverServer::isHidden — Перевіряє, чи є сервер пр�
 final public MongoDB\Driver\Server::isHidden(): bool
 ```
 
-Повертає, чи є цей сервер [» прихованим членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member) набір реплік.
+Повертає, чи є цей сервер [» прихованим членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member) набір реплік.
 
 ### Список параметрів
 

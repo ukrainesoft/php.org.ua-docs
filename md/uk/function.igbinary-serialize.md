@@ -48,8 +48,8 @@ igbinary_serialize(mixed $value): string|false
 
 ```php
 <?php
-$ser = igbinary_serialize(['test', 'test']);
-echo urlencode($ser), "\n";
+$ser = igbinary_serialize(['test', 'test']);
+echo urlencode($ser), "\n";
 var_export(igbinary_unserialize($ser));
 ?>
 ```

@@ -15,7 +15,7 @@ tradercdlhomingpigeon - Свічкова модель "Поштовий голу
 ### Опис
 
 ```methodsynopsis
-trader_cdlhomingpigeon(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhomingpigeon(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

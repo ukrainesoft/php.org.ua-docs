@@ -27,13 +27,13 @@ title: Клас SwooleHttpResponse
 
     /* Методы */
     
-   public cookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): string
+   public cookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): string
 public __destruct(): void
 public end(string $content = ?): void
 public gzip(string $compress_level = ?): ReturnType
 public header(string $key, string $value, string $ucwords = ?): void
 public initHeader(): ReturnType
-public rawcookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): ReturnType
+public rawcookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): ReturnType
 public sendfile(string $filename, int $offset = ?): ReturnType
 public status(string $http_code): ReturnType
 public write(string $content): void

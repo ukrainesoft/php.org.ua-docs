@@ -15,7 +15,7 @@ title: пгinsert
 ### Опис
 
 ```methodsynopsis
-pg_insert(    PgSql\Connection $connection,    string $table_name,    array $values,    int $flags = PGSQL_DML_EXEC): PgSql\Result|string|bool
+pg_insert(    PgSql\Connection $connection,    string $table_name,    array $values,    int $flags = PGSQL_DML_EXEC): PgSql\Result|string|bool
 ```
 
 **пгinsert()** вставляє записи з масиву `values` до таблиці `table_name`
@@ -61,16 +61,16 @@ pg_insert(    PgSql\Connection $connection,    string $table_name,   
 
 ```php
 <?php
-  $dbconn = pg_connect('dbname=foo');
-  // Это безопасно в некоторой степени, поскольку все значения экранируются.
-  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
-  // ни с через экранирование, ни с помощью подготовленного запроса.
-  $res = pg_insert($dbconn, 'post_log', $_POST);
-  if ($res) {
-      echo "Данные из POST успешно внесены в журнал\n";
-  } else {
-      echo "Пользователь прислал неверные данные\n";
-  }
+  $dbconn = pg_connect('dbname=foo');
+  // Это безопасно в некоторой степени, поскольку все значения экранируются.
+  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
+  // ни с через экранирование, ни с помощью подготовленного запроса.
+  $res = pg_insert($dbconn, 'post_log', $_POST);
+  if ($res) {
+      echo "Данные из POST успешно внесены в журнал\n";
+  } else {
+      echo "Пользователь прислал неверные данные\n";
+  }
 ?>
 ```
 

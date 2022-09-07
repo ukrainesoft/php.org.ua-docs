@@ -50,11 +50,11 @@ public Imagick::borderImage(mixed $bordercolor, int $width, int $height): bool
 
 ```php
 <?php
-function borderImage($imagePath, $color, $width, $height) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->borderImage($color, $width, $height);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function borderImage($imagePath, $color, $width, $height) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->borderImage($color, $width, $height);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

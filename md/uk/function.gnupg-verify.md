@@ -15,7 +15,7 @@ gnupgverify — Перевірка підпису тексту
 ### Опис
 
 ```methodsynopsis
-gnupg_verify(    resource $identifier,    string $signed_text,    string $signature,    string &$plaintext = ?): array
+gnupg_verify(    resource $identifier,    string $signed_text,    string $signature,    string &$plaintext = ?): array
 ```
 
 Перевіряє підпис переданого у параметрі `signed_text` тексту та повертає інформацію про підпис.
@@ -48,13 +48,13 @@ gnupg_verify(    resource $identifier,    string $signed_text,    st
 
 ```php
 <?php
-$plaintext = "";
-$res = gnupg_init();
-// прозрачная подпись
-$info = gnupg_verify($res, $signed_text, false, $plaintext);
+$plaintext = "";
+$res = gnupg_init();
+// прозрачная подпись
+$info = gnupg_verify($res, $signed_text, false, $plaintext);
 print_r($info);
-// раздельная подпись
-$info = gnupg_verify($res, $signed_text, $signature);
+// раздельная подпись
+$info = gnupg_verify($res, $signed_text, $signature);
 print_r($info);
 ?>
 ```
@@ -63,13 +63,13 @@ print_r($info);
 
 ```php
 <?php
-$plaintext = "";
-$gpg = new gnupg();
-// прозрачная подпись
-$info = $gpg->verify($signed_text, false, $plaintext);
+$plaintext = "";
+$gpg = new gnupg();
+// прозрачная подпись
+$info = $gpg->verify($signed_text, false, $plaintext);
 print_r($info);
-// раздельная подпись
-$info = $gpg->verify($signed_text, $signature);
+// раздельная подпись
+$info = $gpg->verify($signed_text, $signature);
 print_r($info);
 ?>
 ```

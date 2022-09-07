@@ -44,8 +44,8 @@ uopz_get_static(string $function): array
 
 ```php
 <?php
-function foo() {
-    static $bar = 'baz';
+function foo() {
+    static $bar = 'baz';
 }
 var_dump(uopz_get_static('foo'));
 ?>

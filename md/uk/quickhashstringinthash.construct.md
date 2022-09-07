@@ -40,7 +40,7 @@ public QuickHashStringIntHash::__construct(int $size, int $options = 0)
 
 ```php
 <?php
-var_dump( new QuickHashStringIntHash( 1024 ) );
-var_dump( new QuickHashStringIntHash( 1024, QuickHashStringIntHash::CHECK_FOR_DUPES ) );
+var_dump( new QuickHashStringIntHash( 1024 ) );
+var_dump( new QuickHashStringIntHash( 1024, QuickHashStringIntHash::CHECK_FOR_DUPES ) );
 ?>
 ```

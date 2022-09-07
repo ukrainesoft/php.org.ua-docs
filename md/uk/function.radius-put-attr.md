@@ -15,7 +15,7 @@ radiusputattr - Приєднує бінарний атрибут
 ### Опис
 
 ```methodsynopsis
-radius_put_attr(    resource $radius_handle,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
+radius_put_attr(    resource $radius_handle,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує бінарний атрибут до запиту RADIUS.
@@ -63,12 +63,12 @@ radius_put_attr(    resource $radius_handle,    int $type,    string
 ```php
 <?php
 mt_srand(time());
-$chall = mt_rand();
-$chapval = md5(pack('Ca*',1 , 'sepp' . $chall));
-$pass = pack('CH*', 1, $chapval);
-if (!radius_put_attr($res, RADIUS_CHAP_PASSWORD, $pass)) {
-    echo 'Ошибка Radius:' . radius_strerror($res). "\n<br />";
-    exit;
+$chall = mt_rand();
+$chapval = md5(pack('Ca*',1 , 'sepp' . $chall));
+$pass = pack('CH*', 1, $chapval);
+if (!radius_put_attr($res, RADIUS_CHAP_PASSWORD, $pass)) {
+    echo 'Ошибка Radius:' . radius_strerror($res). "\n<br />";
+    exit;
 }
 ?>
 ```

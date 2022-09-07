@@ -24,7 +24,7 @@ curl_share_strerror(int $error_code): ?string
 
 `error_code`
 
-Одна з констант: [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+Одна з констант: [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
 
 ### Значення, що повертаються
 

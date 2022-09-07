@@ -18,7 +18,7 @@ curlescape — Кодує заданий рядок як URL
 curl_escape(CurlHandle $handle, string $string): string|false
 ```
 
-Кодує рядок згідно [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+Кодує рядок згідно [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
 
 ### Список параметрів
 
@@ -46,20 +46,20 @@ curl_escape(CurlHandle $handle, string $string): string|false
 
 ```php
 <?php
-// Создаём обработчик curl
-$ch = curl_init();
+// Создаём обработчик curl
+$ch = curl_init();
 
-// Экранируем строку, которую хотим передать методом GET
-$location = curl_escape($ch, 'Hofbräuhaus / München');
-// Результат: Hofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen
+// Экранируем строку, которую хотим передать методом GET
+$location = curl_escape($ch, 'Hofbräuhaus / München');
+// Результат: Hofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen
 
-// Собираем URL по частям
-$url = "http://example.com/add_location.php?location={$location}";
-// Результат: http://example.com/add_location.php?location=Hofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen
+// Собираем URL по частям
+$url = "http://example.com/add_location.php?location={$location}";
+// Результат: http://example.com/add_location.php?location=Hofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen
 
-// Посылаем запрос HTTP и закрываем обработчик
-curl_setopt($ch, CURLOPT_URL, $url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+// Посылаем запрос HTTP и закрываем обработчик
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_exec($ch);
 curl_close($ch);
 ?>
@@ -70,4 +70,4 @@ curl_close($ch);
 -   [curlunescape()](function.curl-unescape.md) - Декодує закодований URL-рядок
 -   [urlencode()](function.urlencode.md) - URL-кодування рядка
 -   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
--   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

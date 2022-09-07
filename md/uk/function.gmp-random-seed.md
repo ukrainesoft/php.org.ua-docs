@@ -40,18 +40,18 @@ gmp_random_seed(GMP|int|string $seed): void
 
 ```php
 <?php
-// установка начального состояния
+// установка начального состояния
 gmp_random_seed(100);
 
 var_dump(gmp_strval(gmp_random(1)));
 
-// изменим начальное состояние
+// изменим начальное состояние
 gmp_random_seed(gmp_init(-100));
 
 var_dump(gmp_strval(gmp_random_bits(10)));
 
-// зададим некорректное начальное состояние
-var_dump(gmp_random_seed('not a number'));
+// зададим некорректное начальное состояние
+var_dump(gmp_random_seed('not a number'));
 ```
 
 Результат виконання цього прикладу:

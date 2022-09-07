@@ -42,7 +42,7 @@ public static IntlChar::isblank(int|string $codepoint): ?bool
 ```php
 <?php
 var_dump(IntlChar::isblank("A"));
-var_dump(IntlChar::isblank(" "));
+var_dump(IntlChar::isblank(" "));
 var_dump(IntlChar::isblank("\t"));
 ?>
 ```

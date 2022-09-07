@@ -56,19 +56,19 @@ rar_list(RarArchive $rarfile): array|false
 
 ```php
 <?php
-$rar_arch = RarArchive::open('solid.rar');
-if ($rar_arch === FALSE)
-    die("Не смог открыть RAR архив.");
+$rar_arch = RarArchive::open('solid.rar');
+if ($rar_arch === FALSE)
+    die("Не смог открыть RAR архив.");
 
-$rar_entries = $rar_arch->getEntries();
-if ($rar_entries === FALSE)
-    die("Не смог достать содержимое.");
+$rar_entries = $rar_arch->getEntries();
+if ($rar_entries === FALSE)
+    die("Не смог достать содержимое.");
 
-echo "Нашёл " . count($rar_entries) . " объектов.\n";
+echo "Нашёл " . count($rar_entries) . " объектов.\n";
 
-foreach ($rar_entries as $e) {
-    echo $e;
-    echo "\n";
+foreach ($rar_entries as $e) {
+    echo $e;
+    echo "\n";
 }
 $rar_arch->close();
 ?>
@@ -86,19 +86,19 @@ RarEntry for file "unrardll.txt" (2ed64b6e)
 
 ```php
 <?php
-$rar_arch = rar_open('solid.rar');
-if ($rar_arch === FALSE)
-    die("Could not open RAR archive.");
+$rar_arch = rar_open('solid.rar');
+if ($rar_arch === FALSE)
+    die("Could not open RAR archive.");
 
-$rar_entries = rar_list($rar_arch);
-if ($rar_entries === FALSE)
-    die("Could retrieve entries.");
+$rar_entries = rar_list($rar_arch);
+if ($rar_entries === FALSE)
+    die("Could retrieve entries.");
 
-echo "Found " . count($rar_entries) . " entries.\n";
+echo "Found " . count($rar_entries) . " entries.\n";
 
-foreach ($rar_entries as $e) {
-    echo $e;
-    echo "\n";
+foreach ($rar_entries as $e) {
+    echo $e;
+    echo "\n";
 }
 rar_close($rar_arch);
 ?>

@@ -38,15 +38,15 @@ public PharFileInfo::delMetadata(): bool
 
 ```php
 <?php
-try {
-    $a = new Phar('myphar.phar');
-    $a['hi'] = 'hi';
-    var_dump($a['hi']->delMetadata());
-    $a['hi']->setMetadata('there');
-    var_dump($a['hi']->delMetadata());
-    var_dump($a['hi']->delMetadata());
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $a = new Phar('myphar.phar');
+    $a['hi'] = 'hi';
+    var_dump($a['hi']->delMetadata());
+    $a['hi']->setMetadata('there');
+    var_dump($a['hi']->delMetadata());
+    var_dump($a['hi']->delMetadata());
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

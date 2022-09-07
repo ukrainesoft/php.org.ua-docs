@@ -14,7 +14,7 @@ PDODBLIB – драйвер, що реалізує [интерфейс PHP Data 
 
 Модуль недоступний для Windows.
 
-У Windows ви повинні використовувати SqlSrv – альтернативний драйвер для MS SQL, доступний на сайті Microsoft: [» http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx)
+У Windows ви повинні використовувати SqlSrv – альтернативний драйвер для MS SQL, доступний на сайті Microsoft: [» http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx)
 
 Якщо використовувати SqlSrv неможливо, то для з'єднання з Microsoft SQL Server і Sybase, використовуйте драйвер [PDOODBC](ref.pdo-odbc.md), тому що нативний Windows DB-LIB є давнім, потоконебезпечним і не підтримується Microsoft.
 

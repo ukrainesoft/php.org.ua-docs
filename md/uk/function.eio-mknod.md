@@ -15,7 +15,7 @@ eiomknod — Створює спеціальний або звичайний ф�
 ### Опис
 
 ```methodsynopsis
-eio_mknod(    string $path,    int $mode,    int $dev,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_mknod(    string $path,    int $mode,    int $dev,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiomknod()** створює звичайний чи спеціальний (що частіше) файл.
@@ -47,7 +47,7 @@ eio_mknod(    string $path,    int $mode,    int $dev,    int $p
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -76,23 +76,23 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-// имя FIFO
-$temp_filename = "/tmp/eio-temp-fifo";
+// имя FIFO
+$temp_filename = "/tmp/eio-temp-fifo";
 
-/* будет вызываться по завершении работы функции eio_mknod() */
-function my_mknod_callback($data, $result) {
-    $s = stat($data);
-    var_dump($s);
+/* будет вызываться по завершении работы функции eio_mknod() */
+function my_mknod_callback($data, $result) {
+    $s = stat($data);
+    var_dump($s);
 
-    if ($result == 0) {
-        echo "eio_mknod_ok";
-    }
+    if ($result == 0) {
+        echo "eio_mknod_ok";
+    }
 
-    @unlink($data);
+    @unlink($data);
 }
 
-eio_mknod($temp_filename, EIO_S_IFIFO, 0,
-    EIO_PRI_DEFAULT, "my_mknod_callback", $temp_filename);
+eio_mknod($temp_filename, EIO_S_IFIFO, 0,
+    EIO_PRI_DEFAULT, "my_mknod_callback", $temp_filename);
 eio_event_loop();
 ?>
 ```

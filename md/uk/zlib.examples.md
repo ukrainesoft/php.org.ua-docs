@@ -15,37 +15,37 @@ title: Приклади
 ```php
 <?php
 
-$filename = tempnam('/tmp', 'zlibtest') . '.gz';
-echo "<html>\n<head></head>\n<body>\n<pre>\n";
-$s = "Только тест, тест, тест, тест, тест, тест, тест, тест!\n";
+$filename = tempnam('/tmp', 'zlibtest') . '.gz';
+echo "<html>\n<head></head>\n<body>\n<pre>\n";
+$s = "Только тест, тест, тест, тест, тест, тест, тест, тест!\n";
 
-// Открытие файла для записи с максимальным сжатием
-$zp = gzopen($filename, "w9");
+// Открытие файла для записи с максимальным сжатием
+$zp = gzopen($filename, "w9");
 
-// Запись строки в файл
-gzwrite($zp, $s);
+// Запись строки в файл
+gzwrite($zp, $s);
 
-// Закрытие файла
+// Закрытие файла
 gzclose($zp);
 
-// Открытие файла для чтения
-$zp = gzopen($filename, "r");
+// Открытие файла для чтения
+$zp = gzopen($filename, "r");
 
-// Чтение трёх символов
-echo gzread($zp, 3);
+// Чтение трёх символов
+echo gzread($zp, 3);
 
-// Вывод до конца файла, а затем закрытие файла
+// Вывод до конца файла, а затем закрытие файла
 gzpassthru($zp);
 gzclose($zp);
 
-echo "\n";
+echo "\n";
 
-// Открытие файла и вывод содержимого (во второй раз)
-if (readgzfile($filename) != strlen($s)) {
-     echo "Возникла ошибка с функциями zlib!";
+// Открытие файла и вывод содержимого (во второй раз)
+if (readgzfile($filename) != strlen($s)) {
+     echo "Возникла ошибка с функциями zlib!";
 }
 unlink($filename);
-echo "</pre>\n</body>\n</html>\n";
+echo "</pre>\n</body>\n</html>\n";
 
 ?>
 ```
@@ -55,17 +55,17 @@ echo "</pre>\n</body>\n</html>\n";
 ```php
 <?php
 
-// Выполнение компрессии GZIP:
-$deflateContext = deflate_init(ZLIB_ENCODING_GZIP);
-$compressed = deflate_add($deflateContext, "Данные для сжатия", ZLIB_NO_FLUSH);
-$compressed .= deflate_add($deflateContext, ", больше данных", ZLIB_NO_FLUSH);
-$compressed .= deflate_add($deflateContext, "и ещё больше данных!", ZLIB_FINISH);
+// Выполнение компрессии GZIP:
+$deflateContext = deflate_init(ZLIB_ENCODING_GZIP);
+$compressed = deflate_add($deflateContext, "Данные для сжатия", ZLIB_NO_FLUSH);
+$compressed .= deflate_add($deflateContext, ", больше данных", ZLIB_NO_FLUSH);
+$compressed .= deflate_add($deflateContext, "и ещё больше данных!", ZLIB_FINISH);
 
-// Выполнение декомпрессии GZIP:
-$inflateContext = inflate_init(ZLIB_ENCODING_GZIP);
-$uncompressed = inflate_add($inflateContext, $compressed, ZLIB_NO_FLUSH);
-$uncompressed .= inflate_add($inflateContext, NULL, ZLIB_FINISH);
-echo $uncompressed;
+// Выполнение декомпрессии GZIP:
+$inflateContext = inflate_init(ZLIB_ENCODING_GZIP);
+$uncompressed = inflate_add($inflateContext, $compressed, ZLIB_NO_FLUSH);
+$uncompressed .= inflate_add($inflateContext, NULL, ZLIB_FINISH);
+echo $uncompressed;
 ?>
 ```
 

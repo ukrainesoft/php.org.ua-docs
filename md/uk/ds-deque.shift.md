@@ -38,7 +38,7 @@ public Ds\Deque::shift(): mixed
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c"]);
+$deque = new \Ds\Deque(["a", "b", "c"]);
 
 var_dump($deque->shift());
 var_dump($deque->shift());

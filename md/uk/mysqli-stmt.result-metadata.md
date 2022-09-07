@@ -73,28 +73,28 @@ mysqli_stmt_result_metadata(mysqli_stmt $statement): mysqli_result|false
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
 
-$mysqli->query("DROP TABLE IF EXISTS friends");
-$mysqli->query("CREATE TABLE friends (id int, name varchar(20))");
+$mysqli->query("DROP TABLE IF EXISTS friends");
+$mysqli->query("CREATE TABLE friends (id int, name varchar(20))");
 
-$mysqli->query("INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");
+$mysqli->query("INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");
 
-$stmt = $mysqli->prepare("SELECT id, name FROM friends");
+$stmt = $mysqli->prepare("SELECT id, name FROM friends");
 $stmt->execute();
 
-/* получаем результирующий набор метаданных */
-$result = $stmt->result_metadata();
+/* получаем результирующий набор метаданных */
+$result = $stmt->result_metadata();
 
-/* извлекаем информацию о столбце из метаданных */
-$field = $result->fetch_field();
+/* извлекаем информацию о столбце из метаданных */
+$field = $result->fetch_field();
 
-printf("Имя столбца: %s\n", $field->name);
+printf("Имя столбца: %s\n", $field->name);
 
-/* закрываем результирующий набор */
+/* закрываем результирующий набор */
 $result->close();
 
-/* закрываем подключение */
+/* закрываем подключение */
 $mysqli->close();
 ?>
 ```
@@ -103,28 +103,28 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "test");
+$link = mysqli_connect("localhost", "my_user", "my_password", "test");
 
-mysqli_query($link, "DROP TABLE IF EXISTS friends");
-mysqli_query($link, "CREATE TABLE friends (id int, name varchar(20))");
+mysqli_query($link, "DROP TABLE IF EXISTS friends");
+mysqli_query($link, "CREATE TABLE friends (id int, name varchar(20))");
 
-mysqli_query($link, "INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");
+mysqli_query($link, "INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");
 
-$stmt = mysqli_prepare($link, "SELECT id, name FROM friends");
+$stmt = mysqli_prepare($link, "SELECT id, name FROM friends");
 mysqli_stmt_execute($stmt);
 
-/* получаем результирующий набор метаданных */
-$result = mysqli_stmt_result_metadata($stmt);
+/* получаем результирующий набор метаданных */
+$result = mysqli_stmt_result_metadata($stmt);
 
-/* извлекаем информацию о столбце из метаданных */
-$field = mysqli_fetch_field($result);
+/* извлекаем информацию о столбце из метаданных */
+$field = mysqli_fetch_field($result);
 
-printf("Имя столбца: %s\n", $field->name);
+printf("Имя столбца: %s\n", $field->name);
 
-/* закрываем результирующий набор */
+/* закрываем результирующий набор */
 mysqli_free_result($result);
 
-/* закрываем подключение */
+/* закрываем подключение */
 mysqli_close($link);
 ?>
 ```

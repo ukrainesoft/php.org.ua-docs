@@ -34,14 +34,14 @@ public SyncEvent::reset(): bool
 
 ```php
 <?php
-// В веб-приложении:
-$event = new SyncEvent("DemoApplication", true);
+// В веб-приложении:
+$event = new SyncEvent("DemoApplication", true);
 $event->wait();
 
-// В задании cron:
-$event = new SyncEvent("DemoApplication", true);
+// В задании cron:
+$event = new SyncEvent("DemoApplication", true);
 $event->reset();
-/* ... Выполнение некоторых задач по обслуживанию ... */
+/* ... Выполнение некоторых задач по обслуживанию ... */
 $event->fire();
 ?>
 ```

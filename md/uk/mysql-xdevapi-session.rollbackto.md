@@ -36,17 +36,17 @@ public mysql_xdevapi\Session::rollbackTo(string $name): void
 
 ```php
 <?php
-$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$collection = $session->getSchema("addressbook")->getCollection("names");
+$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$collection = $session->getSchema("addressbook")->getCollection("names");
 
 $session->startTransaction();
-$collection->add( '{"test1":1, "test2":2}' )->execute();
+$collection->add( '{"test1":1, "test2":2}' )->execute();
 
-$savepoint1 = $session->setSavepoint();
+$savepoint1 = $session->setSavepoint();
 
-$collection->add( '{"test3":3, "test4":4}' )->execute();
+$collection->add( '{"test3":3, "test4":4}' )->execute();
 
-$savepoint2 = $session->setSavepoint();
+$savepoint2 = $session->setSavepoint();
 
 $session->rollbackTo($savepoint1);
 ?>

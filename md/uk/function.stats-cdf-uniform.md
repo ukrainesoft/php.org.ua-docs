@@ -15,7 +15,7 @@ statscdfuniform — Обчислює один із параметрів рівн
 ### Опис
 
 ```methodsynopsis
-stats_cdf_uniform(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_uniform(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
 Повертає кумулятивну функцію рівномірного розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`

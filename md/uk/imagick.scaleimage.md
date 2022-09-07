@@ -15,7 +15,7 @@ Imagick::scaleImage — Масштабує розмір зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::scaleImage(    int $cols,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
+public Imagick::scaleImage(    int $cols,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
 ```
 
 Масштабує зображення до розмірів. Другий параметр буде обчислено, якщо в якості будь-якого з параметрів буде передано 0.
@@ -50,11 +50,11 @@ public Imagick::scaleImage(    int $cols,    int $rows,    bool $bes
 
 ```php
 <?php
-function scaleImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->scaleImage(150, 150, true);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function scaleImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->scaleImage(150, 150, true);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

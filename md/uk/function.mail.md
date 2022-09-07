@@ -15,7 +15,7 @@ mail — Надсилає електронну пошту
 ### Опис
 
 ```methodsynopsis
-mail(    string $to,    string $subject,    string $message,    array|string $additional_headers = [],    string $additional_params = ""): bool
+mail(    string $to,    string $subject,    string $message,    array|string $additional_headers = [],    string $additional_params = ""): bool
 ```
 
 Надсилає електронну пошту.
@@ -26,7 +26,7 @@ mail(    string $to,    string $subject,    string $message,    
 
 Одержувач або одержувачі листа.
 
-Формат цього параметра має відповідати [» RFC 2822](http://www.faqs.org/rfcs/rfc2822). Декілька прикладів:
+Формат цього параметра має відповідати [» RFC 2822](http://www.faqs.org/rfcs/rfc2822). Декілька прикладів:
 
 -   [user@example.com](mailto:user@example.com)
 -   [user@example.com](mailto:user@example.com) [anotheruser@example.com](mailto:anotheruser@example.com)
@@ -39,7 +39,7 @@ mail(    string $to,    string $subject,    string $message,    
 
 **Застереження**
 
-Тема має відповідати [» RFC 2047](http://www.faqs.org/rfcs/rfc2047)
+Тема має відповідати [» RFC 2047](http://www.faqs.org/rfcs/rfc2047)
 
 `message`
 
@@ -53,7 +53,7 @@ mail(    string $to,    string $subject,    string $message,    
 
 ```php
 <?php
-$text = str_replace("\n.", "\n..", $text);
+$text = str_replace("\n.", "\n..", $text);
 ?>
 ```
 
@@ -77,7 +77,7 @@ $text = str_replace("\n.", "\n..", $text);
 
 > **Зауваження**
 > 
-> Якщо повідомлення не надсилаються, спробуйте використовувати лише LF (n). Деякі агенти пересилання повідомлень Unix (особливо [» qmail](http://cr.yp.to/qmail.md)) автоматично замінюють LF на CRLF (що призводить до подвійного CR, якщо використовувалося CRLF). Використовуйте цей захід у крайньому випадку, оскільки це порушує [» RFC 2822](http://www.faqs.org/rfcs/rfc2822)
+> Якщо повідомлення не надсилаються, спробуйте використовувати лише LF (n). Деякі агенти пересилання повідомлень Unix (особливо [» qmail](http://cr.yp.to/qmail.md)) автоматично замінюють LF на CRLF (що призводить до подвійного CR, якщо використовувалося CRLF). Використовуйте цей захід у крайньому випадку, оскільки це порушує [» RFC 2822](http://www.faqs.org/rfcs/rfc2822)
 
 `additional_params` (Необов'язковий)
 
@@ -109,14 +109,14 @@ $text = str_replace("\n.", "\n..", $text);
 
 ```php
 <?php
-// Сообщение
-$message = "Line 1\r\nLine 2\r\nLine 3";
+// Сообщение
+$message = "Line 1\r\nLine 2\r\nLine 3";
 
-// На случай если какая-то строка письма длиннее 70 символов мы используем wordwrap()
-$message = wordwrap($message, 70, "\r\n");
+// На случай если какая-то строка письма длиннее 70 символов мы используем wordwrap()
+$message = wordwrap($message, 70, "\r\n");
 
-// Отправляем
-mail('caffeinated@example.com', 'My Subject', $message);
+// Отправляем
+mail('caffeinated@example.com', 'My Subject', $message);
 ?>
 ```
 
@@ -126,14 +126,14 @@ mail('caffeinated@example.com', 'My Subject', $message);
 
 ```php
 <?php
-$to      = 'nobody@example.com';
-$subject = 'the subject';
-$message = 'hello';
-$headers = 'From: webmaster@example.com' . "\r\n" .
-    'Reply-To: webmaster@example.com' . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+$to      = 'nobody@example.com';
+$subject = 'the subject';
+$message = 'hello';
+$headers = 'From: webmaster@example.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
-mail($to, $subject, $message, $headers);
+mail($to, $subject, $message, $headers);
 ?>
 ```
 
@@ -143,16 +143,16 @@ mail($to, $subject, $message, $headers);
 
 ```php
 <?php
-$to      = 'nobody@example.com';
-$subject = 'the subject';
-$message = 'hello';
-$headers = array(
-    'From' => 'webmaster@example.com',
-    'Reply-To' => 'webmaster@example.com',
-    'X-Mailer' => 'PHP/' . phpversion()
+$to      = 'nobody@example.com';
+$subject = 'the subject';
+$message = 'hello';
+$headers = array(
+    'From' => 'webmaster@example.com',
+    'Reply-To' => 'webmaster@example.com',
+    'X-Mailer' => 'PHP/' . phpversion()
 );
 
-mail($to, $subject, $message, $headers);
+mail($to, $subject, $message, $headers);
 ?>
 ```
 
@@ -162,8 +162,8 @@ mail($to, $subject, $message, $headers);
 
 ```php
 <?php
-mail('nobody@example.com', 'the subject', 'the message', null,
-   '-fwebmaster@example.com');
+mail('nobody@example.com', 'the subject', 'the message', null,
+   '-fwebmaster@example.com');
 ?>
 ```
 
@@ -173,53 +173,53 @@ mail('nobody@example.com', 'the subject', 'the message', null,
 
 ```php
 <?php
-// несколько получателей
-$to = 'johny@example.com, sally@example.com'; // обратите внимание на запятую
+// несколько получателей
+$to = 'johny@example.com, sally@example.com'; // обратите внимание на запятую
 
-// тема письма
-$subject = 'Birthday Reminders for August';
+// тема письма
+$subject = 'Birthday Reminders for August';
 
-// текст письма
-$message = '
+// текст письма
+$message = '
 <html>
 <head>
-  <title>Birthday Reminders for August</title>
+  <title>Birthday Reminders for August</title>
 </head>
 <body>
-  <p>Here are the birthdays upcoming in August!</p>
-  <table>
-    <tr>
-      <th>Person</th><th>Day</th><th>Month</th><th>Year</th>
-    </tr>
-    <tr>
-      <td>Johny</td><td>10th</td><td>August</td><td>1970</td>
-    </tr>
-    <tr>
-      <td>Sally</td><td>17th</td><td>August</td><td>1973</td>
-    </tr>
-  </table>
+  <p>Here are the birthdays upcoming in August!</p>
+  <table>
+    <tr>
+      <th>Person</th><th>Day</th><th>Month</th><th>Year</th>
+    </tr>
+    <tr>
+      <td>Johny</td><td>10th</td><td>August</td><td>1970</td>
+    </tr>
+    <tr>
+      <td>Sally</td><td>17th</td><td>August</td><td>1973</td>
+    </tr>
+  </table>
 </body>
 </html>
 ';
 
-// Для отправки HTML-письма должен быть установлен заголовок Content-type
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+// Для отправки HTML-письма должен быть установлен заголовок Content-type
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-// Дополнительные заголовки
-$headers[] = 'To: Mary <mary@example.com>, Kelly <kelly@example.com>';
-$headers[] = 'From: Birthday Reminder <birthday@example.com>';
-$headers[] = 'Cc: birthdayarchive@example.com';
-$headers[] = 'Bcc: birthdaycheck@example.com';
+// Дополнительные заголовки
+$headers[] = 'To: Mary <mary@example.com>, Kelly <kelly@example.com>';
+$headers[] = 'From: Birthday Reminder <birthday@example.com>';
+$headers[] = 'Cc: birthdayarchive@example.com';
+$headers[] = 'Bcc: birthdaycheck@example.com';
 
-// Отправляем
-mail($to, $subject, $message, implode("\r\n", $headers));
+// Отправляем
+mail($to, $subject, $message, implode("\r\n", $headers));
 ?>
 ```
 
 > **Зауваження**
 > 
-> Для надсилання HTML або інших комплексних повідомлень рекомендується використовувати PEAR-пакет [» PEAR::MailMime](https://pear.php.net/package/Mail_Mime)
+> Для надсилання HTML або інших комплексних повідомлень рекомендується використовувати PEAR-пакет [» PEAR::MailMime](https://pear.php.net/package/Mail_Mime)
 
 ### Примітки
 
@@ -235,15 +235,15 @@ mail($to, $subject, $message, implode("\r\n", $headers));
 > 
 > Не слід використовувати функцію **mail()** для надсилання великої кількості листів у циклі. Функція відкриває та закриває з'єднання з SMTP-сервером для кожного листа, що не дуже ефективно.
 > 
-> Для надсилання великої кількості повідомлень зверніть увагу на пакети [» PEAR::Mail](https://pear.php.net/package/Mail) і [» PEAR::MailQueue](https://pear.php.net/package/Mail_Queue)
+> Для надсилання великої кількості повідомлень зверніть увагу на пакети [» PEAR::Mail](https://pear.php.net/package/Mail) і [» PEAR::MailQueue](https://pear.php.net/package/Mail_Queue)
 
 > **Зауваження**
 > 
-> Корисні RFC: [» RFC 1896](http://www.faqs.org/rfcs/rfc1896) [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) [» RFC 2046](http://www.faqs.org/rfcs/rfc2046) [» RFC 2047](http://www.faqs.org/rfcs/rfc2047) [» RFC 2048](http://www.faqs.org/rfcs/rfc2048) [» RFC 2049](http://www.faqs.org/rfcs/rfc2049) і [» RFC 2822](http://www.faqs.org/rfcs/rfc2822)
+> Корисні RFC: [» RFC 1896](http://www.faqs.org/rfcs/rfc1896) [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) [» RFC 2046](http://www.faqs.org/rfcs/rfc2046) [» RFC 2047](http://www.faqs.org/rfcs/rfc2047) [» RFC 2048](http://www.faqs.org/rfcs/rfc2048) [» RFC 2049](http://www.faqs.org/rfcs/rfc2049) і [» RFC 2822](http://www.faqs.org/rfcs/rfc2822)
 
 ### Дивіться також
 
 -   [мбsendmail()](function.mb-send-mail.md) - Надсилання закодованого повідомлення
 -   [imapmail()](function.imap-mail.md) - Надіслати email
--   [» PEAR::Mail](https://pear.php.net/package/Mail)
--   [» PEAR::MailMime](https://pear.php.net/package/Mail_Mime)
+-   [» PEAR::Mail](https://pear.php.net/package/Mail)
+-   [» PEAR::MailMime](https://pear.php.net/package/Mail_Mime)

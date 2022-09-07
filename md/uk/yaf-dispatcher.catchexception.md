@@ -35,28 +35,28 @@ public Yaf_Dispatcher::catchException(bool $flag = ?): Yaf_Dispatcher
 **Приклад #1 Приклад використання **YafDispatcher::catchException()****
 
 ```php
-/* если вы определили ErrorController следующим образом */
+/* если вы определили ErrorController следующим образом */
 <?php
-class ErrorController extends Yaf_Controller_Abstract {
-     /**
-      * вы также можете вызвать Yaf_Request_Abstract::getException, чтобы получить
-      * неперехваченное исключение.
-      */
-     public function errorAction($exception) {
-        /* error occurs */
-        switch ($exception->getCode()) {
-            case YAF_ERR_NOTFOUND_MODULE:
-            case YAF_ERR_NOTFOUND_CONTROLLER:
-            case YAF_ERR_NOTFOUND_ACTION:
-            case YAF_ERR_NOTFOUND_VIEW:
-                echo 404, ":", $exception->getMessage();
-                break;
-            default :
-                $message = $exception->getMessage();
-                echo 0, ":", $exception->getMessage();
-                break;
-        }
-     }
+class ErrorController extends Yaf_Controller_Abstract {
+     /**
+      * вы также можете вызвать Yaf_Request_Abstract::getException, чтобы получить
+      * неперехваченное исключение.
+      */
+     public function errorAction($exception) {
+        /* error occurs */
+        switch ($exception->getCode()) {
+            case YAF_ERR_NOTFOUND_MODULE:
+            case YAF_ERR_NOTFOUND_CONTROLLER:
+            case YAF_ERR_NOTFOUND_ACTION:
+            case YAF_ERR_NOTFOUND_VIEW:
+                echo 404, ":", $exception->getMessage();
+                break;
+            default :
+                $message = $exception->getMessage();
+                echo 0, ":", $exception->getMessage();
+                break;
+        }
+     }
 }
 ?>
 ```

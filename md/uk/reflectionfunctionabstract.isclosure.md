@@ -34,14 +34,14 @@ public ReflectionFunctionAbstract::isClosure(): bool
 
 ```php
 <?php
-// Не замыкание
-$function1 = 'str_replace';
-$reflection1 = new ReflectionFunction($function1);
+// Не замыкание
+$function1 = 'str_replace';
+$reflection1 = new ReflectionFunction($function1);
 var_dump($reflection1->isClosure());
 
-// Замыкание
-$function2 = function () {};
-$reflection2 = new ReflectionFunction($function2);
+// Замыкание
+$function2 = function () {};
+$reflection2 = new ReflectionFunction($function2);
 var_dump($reflection2->isClosure());
 ?>
 ```

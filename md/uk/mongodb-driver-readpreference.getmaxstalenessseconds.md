@@ -37,21 +37,21 @@ final public MongoDB\Driver\ReadPreference::getMaxStalenessSeconds(): int
 ```php
 <?php
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY);
 var_dump($rp->getMaxStalenessSeconds());
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, [
-    'maxStalenessSeconds' => MongoDB\Driver\ReadPreference::NO_MAX_STALENESS,
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, [
+    'maxStalenessSeconds' => MongoDB\Driver\ReadPreference::NO_MAX_STALENESS,
 ]);
 var_dump($rp->getMaxStalenessSeconds());
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, [
-    'maxStalenessSeconds' => MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS,
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, [
+    'maxStalenessSeconds' => MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS,
 ]);
 var_dump($rp->getMaxStalenessSeconds());
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, [
-    'maxStalenessSeconds' => 1000,
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, [
+    'maxStalenessSeconds' => 1000,
 ]);
 var_dump($rp->getMaxStalenessSeconds());
 
@@ -69,4 +69,4 @@ int(1000)
 
 ### Дивіться також
 
--   [» Руководство по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» Руководство по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)

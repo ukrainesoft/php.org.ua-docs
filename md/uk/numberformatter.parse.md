@@ -25,7 +25,7 @@ public NumberFormatter::parse(string $string, int $type = NumberFormatter::TYPE_
 Процедурний стиль
 
 ```methodsynopsis
-numfmt_parse(    NumberFormatter $formatter,    string $string,    int $type = NumberFormatter::TYPE_DOUBLE,    int &$offset = null): int|float|false
+numfmt_parse(    NumberFormatter $formatter,    string $string,    int $type = NumberFormatter::TYPE_DOUBLE,    int &$offset = null): int|float|false
 ```
 
 Перетворює рядок на число, використовуючи правила засобу форматування.
@@ -58,10 +58,10 @@ numfmt_parse(    NumberFormatter $formatter,    string $string,    i
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-$num = "1.234.567,891";
-echo numfmt_parse($fmt, $num)."\n";
-echo numfmt_parse($fmt, $num, NumberFormatter::TYPE_INT32)."\n";
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+$num = "1.234.567,891";
+echo numfmt_parse($fmt, $num)."\n";
+echo numfmt_parse($fmt, $num, NumberFormatter::TYPE_INT32)."\n";
 ?>
 ```
 
@@ -69,10 +69,10 @@ echo numfmt_parse($fmt, $num, NumberFormatter::TYPE_INT32)."\n";
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
-$num = "1.234.567,891";
-echo $fmt->parse($num)."\n";
-echo $fmt->parse($num, NumberFormatter::TYPE_INT32)."\n";
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+$num = "1.234.567,891";
+echo $fmt->parse($num)."\n";
+echo $fmt->parse($num, NumberFormatter::TYPE_INT32)."\n";
 ?>
 ```
 

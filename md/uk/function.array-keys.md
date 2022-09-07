@@ -50,14 +50,14 @@ array_keys(array $array, mixed $search_value, bool $strict = false): array
 
 ```php
 <?php
-$array = array(0 => 100, "color" => "red");
+$array = array(0 => 100, "color" => "red");
 print_r(array_keys($array));
 
-$array = array("blue", "red", "green", "blue", "blue");
-print_r(array_keys($array, "blue"));
+$array = array("blue", "red", "green", "blue", "blue");
+print_r(array_keys($array, "blue"));
 
-$array = array("color" => array("blue", "red", "green"),
-               "size"  => array("small", "medium", "large"));
+$array = array("color" => array("blue", "red", "green"),
+               "size"  => array("small", "medium", "large"));
 print_r(array_keys($array));
 ?>
 ```

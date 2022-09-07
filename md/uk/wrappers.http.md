@@ -54,19 +54,19 @@ INI-директива [from](filesystem.configuration.md#ini.from) буде в�
 
 ```php
 <?php
-$url = 'http://www.example.com/redirecting_page.php';
+$url = 'http://www.example.com/redirecting_page.php';
 
-$fp = fopen($url, 'r');
+$fp = fopen($url, 'r');
 
-$meta_data = stream_get_meta_data($fp);
-foreach ($meta_data['wrapper_data'] as $response) {
+$meta_data = stream_get_meta_data($fp);
+foreach ($meta_data['wrapper_data'] as $response) {
 
-    /* Были ли мы переадресованы? */
-    if (strtolower(substr($response, 0, 10)) == 'location: ') {
+    /* Были ли мы переадресованы? */
+    if (strtolower(substr($response, 0, 10)) == 'location: ') {
 
-        /* Сохранить в $url адрес, куда нас переадресовали */
-        $url = substr($response, 10);
-    }
+        /* Сохранить в $url адрес, куда нас переадресовали */
+        $url = substr($response, 10);
+    }
 
 }
 

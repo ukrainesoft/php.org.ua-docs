@@ -34,29 +34,29 @@ public ImagickPixelIterator::clear(): bool
 
 ```php
 <?php
-function clear($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
+function clear($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $imageIterator = $imagick->getPixelRegionIterator(100, 100, 250, 200);
+    $imageIterator = $imagick->getPixelRegionIterator(100, 100, 250, 200);
 
-    /* Походим по строкам пикселей */
-    foreach ($imageIterator as $pixels) {
-        /** @var $pixel \ImagickPixel */
-        /* Походим по пикселям в строке (столбцы) */
-        foreach ($pixels as $column => $pixel) {
-            if ($column % 2) {
-                /* Красим каждый второй пиксель черным*/
-                $pixel->setColor("rgba(0, 0, 0, 0)");
-            }
-        }
-        /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
-        $imageIterator->syncIterator();
-    }
+    /* Походим по строкам пикселей */
+    foreach ($imageIterator as $pixels) {
+        /** @var $pixel \ImagickPixel */
+        /* Походим по пикселям в строке (столбцы) */
+        foreach ($pixels as $column => $pixel) {
+            if ($column % 2) {
+                /* Красим каждый второй пиксель черным*/
+                $pixel->setColor("rgba(0, 0, 0, 0)");
+            }
+        }
+        /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
+        $imageIterator->syncIterator();
+    }
 
-    $imageIterator->clear();
+    $imageIterator->clear();
 
-    header("Content-Type: image/jpg");
-    echo $imagick;
+    header("Content-Type: image/jpg");
+    echo $imagick;
 }
 
 ?>

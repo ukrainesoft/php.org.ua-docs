@@ -34,7 +34,7 @@ gethostname(): string|false
 
 ```php
 <?php
-echo gethostname(); // может вывести например: sandie
+echo gethostname(); // может вывести например: sandie
 ?>
 ```
 

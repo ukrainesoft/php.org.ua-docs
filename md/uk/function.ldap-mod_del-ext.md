@@ -15,7 +15,7 @@ ldapmoddelext — Видалити значення атрибутів із по
 ### Опис
 
 ```methodsynopsis
-ldap_mod_del_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
+ldap_mod_del_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
 ```
 
 Робить те саме, що й [ldapmoddel()](function.ldap-mod-del.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)

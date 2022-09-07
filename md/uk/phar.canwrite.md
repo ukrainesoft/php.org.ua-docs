@@ -32,8 +32,8 @@ final public static Phar::canWrite(): bool
 
 ```php
 <?php
-if (Phar::canWrite()) {
-    file_put_contents('phar://myphar.phar/file.txt', 'всем привет');
+if (Phar::canWrite()) {
+    file_put_contents('phar://myphar.phar/file.txt', 'всем привет');
 }
 ?>
 ```

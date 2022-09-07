@@ -52,22 +52,22 @@ public offsetUnset(object $object): void
 
 ```php
 <?php
-$wm = new WeakMap();
+$wm = new WeakMap();
 
-$o = new StdClass;
+$o = new StdClass;
 
-class A {
-    public function __destruct() {
-        echo "Уничтожено!\n";
-    }
+class A {
+    public function __destruct() {
+        echo "Уничтожено!\n";
+    }
 }
 
-$wm[$o] = new A;
+$wm[$o] = new A;
 
 var_dump(count($wm));
-echo "Сброс...\n";
+echo "Сброс...\n";
 unset($o);
-echo "Готово\n";
+echo "Готово\n";
 var_dump(count($wm));
 ```
 

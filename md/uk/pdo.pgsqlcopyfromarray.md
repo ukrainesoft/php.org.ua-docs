@@ -15,7 +15,7 @@ PDO::pgsqlCopyFromArray — Копіювати масив PHP до таблиц�
 ### Опис
 
 ```methodsynopsis
-public PDO::pgsqlCopyFromArray(    string $table_name,    array $rows,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): bool
+public PDO::pgsqlCopyFromArray(    string $table_name,    array $rows,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): bool
 ```
 
 Копіює дані з масиву `rows` до таблиці `table_name` з використанням роздільника полів `delimiter` та списку полів `fields`

@@ -15,7 +15,7 @@ eiofsync — Синхронізує поточний стан файлу із ф
 ### Опис
 
 ```methodsynopsis
-eio_fsync(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_fsync(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 Синхронізує поточний стан файлу із фізичним пристроєм.
@@ -35,7 +35,7 @@ eio_fsync(    mixed $fd,    int $pri = EIO_PRI_DEFAULT,    callable 
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

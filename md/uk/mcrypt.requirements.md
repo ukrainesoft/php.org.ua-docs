@@ -8,7 +8,7 @@ title: Вимоги
 ---
 ## Вимоги
 
-Ці функції працюють використовуючи [» mcrypt](http://mcrypt.sourceforge.net/). Для того, щоб використовувати їх, завантажте libmcrypt-x.x.tar.gz з [» http://mcrypt.sourceforge.net/](http://mcrypt.sourceforge.net/) та дотримуйтесь інструкцій з встановлення.
+Ці функції працюють використовуючи [» mcrypt](http://mcrypt.sourceforge.net/). Для того, щоб використовувати їх, завантажте libmcrypt-x.x.tar.gz з [» http://mcrypt.sourceforge.net/](http://mcrypt.sourceforge.net/) та дотримуйтесь інструкцій з встановлення.
 
 Вам буде потрібно libmcrypt версії 2.5.6 або вище.
 

@@ -36,34 +36,34 @@ sqlsrv_send_stream_data(resource $stmt): bool
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "UPDATE Table_1 SET data = ( ?) WHERE id = 100";
+$sql = "UPDATE Table_1 SET data = ( ?) WHERE id = 100";
 
-// Откройте данные параметров как поток и поместите их в Масив $params.
-$data = fopen( "data://text/plain,[ Lengthy content here. ]", "r");
-$params = array( &$data);
+// Откройте данные параметров как поток и поместите их в Масив $params.
+$data = fopen( "data://text/plain,[ Lengthy content here. ]", "r");
+$params = array( &$data);
 
-// Подготовьте выражение. Используйте Масив $options, чтобы
-// отключить поведение по умолчанию, которое заключается в отправке всех данных
-// потока во время выполнения запроса.
-$options = array("SendStreamParamsAtExec"=>0);
-$stmt = sqlsrv_prepare( $conn, $sql, $params, $options);
+// Подготовьте выражение. Используйте Масив $options, чтобы
+// отключить поведение по умолчанию, которое заключается в отправке всех данных
+// потока во время выполнения запроса.
+$options = array("SendStreamParamsAtExec"=>0);
+$stmt = sqlsrv_prepare( $conn, $sql, $params, $options);
 
-sqlsrv_execute( $stmt);
+sqlsrv_execute( $stmt);
 
-// Отправляйте до 8 КБ данных параметров на сервер
-// при каждом вызове sqlsrv_send_stream_data.
-$i = 1;
-while( sqlsrv_send_stream_data( $stmt)) {
-      $i++;
+// Отправляйте до 8 КБ данных параметров на сервер
+// при каждом вызове sqlsrv_send_stream_data.
+$i = 1;
+while( sqlsrv_send_stream_data( $stmt)) {
+      $i++;
 }
-echo "$i вызовов было сделано.";
+echo "$i вызовов было сделано.";
 ?>
 ```
 

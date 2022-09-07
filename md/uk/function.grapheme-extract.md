@@ -17,7 +17,7 @@ graphemeextract — Функція для вилучення послідовн�
 Процедурний стиль
 
 ```methodsynopsis
-grapheme_extract(    string $haystack,    int $size,    int $type = GRAPHEME_EXTR_COUNT,    int $offset = 0,    int &$next = null): string|false
+grapheme_extract(    string $haystack,    int $size,    int $type = GRAPHEME_EXTR_COUNT,    int $offset = 0,    int &$next = null): string|false
 ```
 
 Функція для вилучення послідовності кластерів за замовчуванням графем з текстового буфера, яка повинна бути закодована в UTF-8.
@@ -65,10 +65,10 @@ grapheme_extract(    string $haystack,    int $size,    int $type = 
 ```php
 <?php
 
-$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
-$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
+$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
+$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
 
-print urlencode(grapheme_extract( $char_a_ring_nfd . $char_o_diaeresis_nfd, 1, GRAPHEME_EXTR_COUNT, 2));
+print urlencode(grapheme_extract( $char_a_ring_nfd . $char_o_diaeresis_nfd, 1, GRAPHEME_EXTR_COUNT, 2));
 
 ?>
 ```
@@ -82,4 +82,4 @@ o%CC%88
 ### Дивіться також
 
 -   [graphemesubstr()](function.grapheme-substr.md) - Повертає частину рядка
--   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

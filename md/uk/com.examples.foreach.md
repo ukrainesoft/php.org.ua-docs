@@ -19,9 +19,9 @@ title: For Each
 
 ```php
 <?php
-$domainObject = new COM("WinNT://Domain");
-foreach ($domainObject as $obj) {
-   echo $obj->Name . "<br />";
+$domainObject = new COM("WinNT://Domain");
+foreach ($domainObject as $obj) {
+   echo $obj->Name . "<br />";
 }
 ?>
 ```

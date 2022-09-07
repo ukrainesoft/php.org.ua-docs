@@ -34,12 +34,12 @@ public Threaded::isTerminated(): bool
 
 ```php
 <?php
-class My extends Thread {
-    public function run() {
-        i_do_not_exist();
-    }
+class My extends Thread {
+    public function run() {
+        i_do_not_exist();
+    }
 }
-$my = new My();
+$my = new My();
 $my->start();
 $my->join();
 var_dump($my->isTerminated());

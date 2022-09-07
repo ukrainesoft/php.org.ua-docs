@@ -44,11 +44,11 @@ gmp_random(int $limiter = 20): GMP
 
 ```php
 <?php
-$rand1 = gmp_random(1); // случайное число от 0 до 1 * бит на лимб
-$rand2 = gmp_random(2); // случайное число от 0 до 2 * бит на лимб
+$rand1 = gmp_random(1); // случайное число от 0 до 1 * бит на лимб
+$rand2 = gmp_random(2); // случайное число от 0 до 2 * бит на лимб
 
-echo gmp_strval($rand1) . "\n";
-echo gmp_strval($rand2) . "\n";
+echo gmp_strval($rand1) . "\n";
+echo gmp_strval($rand2) . "\n";
 ?>
 ```
 

@@ -15,7 +15,7 @@ imapreopen — Відкриває потік IMAP до нової скриньк
 ### Опис
 
 ```methodsynopsis
-imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $flags = 0,    int $retries = 0): bool
+imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $flags = 0,    int $retries = 0): bool
 ```
 
 Перевідкриває вказаний потік до скриньки `mailbox` на сервері IMAP чи NNTP.
@@ -64,9 +64,9 @@ imap_reopen(    IMAP\Connection $imap,    string $mailbox,    int $f
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password") or die(implode(", ", imap_errors()));
-// ...
-imap_reopen($mbox, "{imap.example.org:143}INBOX.Sent") or die(implode(", ", imap_errors()));
-// ..
+$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password") or die(implode(", ", imap_errors()));
+// ...
+imap_reopen($mbox, "{imap.example.org:143}INBOX.Sent") or die(implode(", ", imap_errors()));
+// ..
 ?>
 ```

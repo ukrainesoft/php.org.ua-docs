@@ -61,7 +61,7 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 | **`LDAP_OPT_X_TLS_RANDOM_FILE`** | string | PHP 7.1.0 |
 | **`LDAP_OPT_X_TLS_REQUIRE_CERT`** | int | PHP 7.0.5 |
 
-**`LDAP_OPT_SERVER_CONTROLS`** і **`LDAP_OPT_CLIENT_CONTROLS`** вимагають список елементів керування. Це означає, що значення має бути масивом елементів керування. Елемент управління складається з *oid*, що визначає елемент управління, опціонального *значення*, та додаткового прапора для *критичності*. У PHP елемент керування задається масивом, що містить елемент із ключем *oid* і рядковим значенням і двома необов'язковими елементами. Необов'язкові елементи є ключем *value* з рядковим значенням та ключем *iscritical* з логічним значенням . *iscritical* за замовчуванням встановлюється в ***`false`***, якщо не вказано. Для більш детальної інформації дивіться [» draft-ietf-ldapext-ldap-c-api-xx.txt](http://www.openldap.org/devel/cvsweb.cgi/~checkout~/doc/drafts/draft-ietf-ldapext-ldap-c-api-xx.txt). Дивіться також другий приклад, наведений нижче.
+**`LDAP_OPT_SERVER_CONTROLS`** і **`LDAP_OPT_CLIENT_CONTROLS`** вимагають список елементів керування. Це означає, що значення має бути масивом елементів керування. Елемент управління складається з *oid*, що визначає елемент управління, опціонального *значення*, та додаткового прапора для *критичності*. У PHP елемент керування задається масивом, що містить елемент із ключем *oid* і рядковим значенням і двома необов'язковими елементами. Необов'язкові елементи є ключем *value* з рядковим значенням та ключем *iscritical* з логічним значенням . *iscritical* за замовчуванням встановлюється в ***`false`***, якщо не вказано. Для більш детальної інформації дивіться [» draft-ietf-ldapext-ldap-c-api-xx.txt](http://www.openldap.org/devel/cvsweb.cgi/~checkout~/doc/drafts/draft-ietf-ldapext-ldap-c-api-xx.txt). Дивіться також другий приклад, наведений нижче.
 
 `value`
 
@@ -83,11 +83,11 @@ ldap_set_option(?LDAP\Connection $ldap, int $option, array|string|int|bool $valu
 
 ```php
 <?php
-// $ds - действительный идентификатор связи с LDAP-сервером
-if (ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3)) {
-    echo "Используется LDAPv3";
-} else {
-    echo "Не удалось установить версию протокола в 3";
+// $ds - действительный идентификатор связи с LDAP-сервером
+if (ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3)) {
+    echo "Используется LDAPv3";
+} else {
+    echo "Не удалось установить версию протокола в 3";
 }
 ?>
 ```
@@ -96,14 +96,14 @@ if (ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3)) {
 
 ```php
 <?php
-// $ds - действительный идентификатор связи с LDAP-сервером
-// элемент управления с отсутствующим значением
-$ctrl1 = array("oid" => "1.2.752.58.10.1", "iscritical" => true);
-// iscritical по умолчанию FALSE
-$ctrl2 = array("oid" => "1.2.752.58.1.10", "value" => "magic");
-// попытка установить оба элемента управления
-if (!ldap_set_option($ds, LDAP_OPT_SERVER_CONTROLS, array($ctrl1, $ctrl2))) {
-    echo "Не удалось установить серверные элементы управления";
+// $ds - действительный идентификатор связи с LDAP-сервером
+// элемент управления с отсутствующим значением
+$ctrl1 = array("oid" => "1.2.752.58.10.1", "iscritical" => true);
+// iscritical по умолчанию FALSE
+$ctrl2 = array("oid" => "1.2.752.58.1.10", "value" => "magic");
+// попытка установить оба элемента управления
+if (!ldap_set_option($ds, LDAP_OPT_SERVER_CONTROLS, array($ctrl1, $ctrl2))) {
+    echo "Не удалось установить серверные элементы управления";
 }
 ?>
 ```

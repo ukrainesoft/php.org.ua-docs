@@ -38,9 +38,9 @@ geoip_country_code3_by_name(string $hostname): string
 
 ```php
 <?php
-$country = geoip_country_code3_by_name('www.example.com');
-if ($country) {
-    echo 'Хост расположен в ' . $country;
+$country = geoip_country_code3_by_name('www.example.com');
+if ($country) {
+    echo 'Хост расположен в ' . $country;
 }
 ?>
 ```

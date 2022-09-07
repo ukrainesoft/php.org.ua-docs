@@ -15,7 +15,7 @@ Gmagick::annotateimage — Підписати зображення тексто�
 ### Опис
 
 ```methodsynopsis
-public Gmagick::annotateimage(    GmagickDraw $GmagickDraw,    float $x,    float $y,    float $angle,    string $text): Gmagick
+public Gmagick::annotateimage(    GmagickDraw $GmagickDraw,    float $x,    float $y,    float $angle,    string $text): Gmagick
 ```
 
 Підписати зображення тексту.

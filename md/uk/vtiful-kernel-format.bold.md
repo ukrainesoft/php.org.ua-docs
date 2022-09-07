@@ -36,20 +36,20 @@ public Vtiful\Kernel\Format::bold(resource $handle)
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$excel  = new \Vtiful\Kernel\Excel($config);
+$excel  = new \Vtiful\Kernel\Excel($config);
 
-$fileObject = $excel->fileName('tutorial01.xlsx');
-$fileHandle = $fileObject->getHandle();
+$fileObject = $excel->fileName('tutorial01.xlsx');
+$fileHandle = $fileObject->getHandle();
 
-$boldStyle = \Vtiful\Kernel\Format::bold($fileHandle);
+$boldStyle = \Vtiful\Kernel\Format::bold($fileHandle);
 
-$fileObject->header(['name', 'age'])
-    ->data([['viest', 21]])
-    ->setColumn('A:A', 200, $boldStyle)
-    ->output();
+$fileObject->header(['name', 'age'])
+    ->data([['viest', 21]])
+    ->setColumn('A:A', 200, $boldStyle)
+    ->output();
 ?>
 ```

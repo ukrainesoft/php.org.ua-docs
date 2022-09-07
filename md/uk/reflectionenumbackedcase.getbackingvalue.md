@@ -34,17 +34,17 @@ public ReflectionEnumBackedCase::getBackingValue(): int|string
 
 ```php
 <?php
-enum Suit: string
+enum Suit: string
 {
-    case Hearts = 'H';
-    case Diamonds = 'D';
-    case Clubs = 'C';
-    case Spades = 'S';
+    case Hearts = 'H';
+    case Diamonds = 'D';
+    case Clubs = 'C';
+    case Spades = 'S';
 }
 
-$rEnum = new ReflectionEnum(Suit::class);
+$rEnum = new ReflectionEnum(Suit::class);
 
-$rCase = $rEnum->getCase('Spades');
+$rCase = $rEnum->getCase('Spades');
 
 var_dump($rCase->getBackingValue());
 ?>

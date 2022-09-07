@@ -42,9 +42,9 @@ VARIANT – це еквівалент zval для COM; це структура, 
 
 ```php
 <?php
-$v = new variant(42);
-print "Тип — " . variant_get_type($v) . "<br/>";
-print "Значение — " . $v . "<br/>";
+$v = new variant(42);
+print "Тип — " . variant_get_type($v) . "<br/>";
+print "Значение — " . $v . "<br/>";
 ?>
 ```
 

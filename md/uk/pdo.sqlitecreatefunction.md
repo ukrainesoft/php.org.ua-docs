@@ -15,7 +15,7 @@ PDO::sqliteCreateFunction — Реєстрація функції користу
 ### Опис
 
 ```methodsynopsis
-public PDO::sqliteCreateFunction(    string $function_name,    callable $callback,    int $num_args = -1,    int $flags = 0): bool
+public PDO::sqliteCreateFunction(    string $function_name,    callable $callback,    int $num_args = -1,    int $flags = 0): bool
 ```
 
 **Увага**
@@ -76,14 +76,14 @@ callback(mixed $value, mixed ...$values): mixed
 
 ```php
 <?php
-function md5_and_reverse($string)
+function md5_and_reverse($string)
 {
-    return strrev(md5($string));
+    return strrev(md5($string));
 }
 
-$db = new PDO('sqlite:sqlitedb');
-$db->sqliteCreateFunction('md5rev', 'md5_and_reverse', 1);
-$rows = $db->query('SELECT md5rev(filename) FROM files')->fetchAll();
+$db = new PDO('sqlite:sqlitedb');
+$db->sqliteCreateFunction('md5rev', 'md5_and_reverse', 1);
+$rows = $db->query('SELECT md5rev(filename) FROM files')->fetchAll();
 ?>
 ```
 

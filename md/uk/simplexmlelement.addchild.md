@@ -49,24 +49,24 @@ public SimpleXMLElement::addChild(string $qualifiedName, ?string $value = null, 
 ```php
 <?php
 
-include 'example.php';
+include 'example.php';
 
-$sxe = new SimpleXMLElement($xmlstr);
-$sxe->addAttribute('type', 'documentary');
+$sxe = new SimpleXMLElement($xmlstr);
+$sxe->addAttribute('type', 'documentary');
 
-$movie = $sxe->addChild('movie');
-$movie->addChild('title', 'PHP2: Истории парсера');
-$movie->addChild('plot', 'Все о людях, создававших его.');
+$movie = $sxe->addChild('movie');
+$movie->addChild('title', 'PHP2: Истории парсера');
+$movie->addChild('plot', 'Все о людях, создававших его.');
 
-$characters = $movie->addChild('characters');
-$character  = $characters->addChild('character');
-$character->addChild('name', 'Mr. Parser');
-$character->addChild('actor', 'John Doe');
+$characters = $movie->addChild('characters');
+$character  = $characters->addChild('character');
+$character->addChild('name', 'Mr. Parser');
+$character->addChild('actor', 'John Doe');
 
-$rating = $movie->addChild('rating', '5');
-$rating->addAttribute('type', 'stars');
+$rating = $movie->addChild('rating', '5');
+$rating->addAttribute('type', 'stars');
 
-echo $sxe->asXML();
+echo $sxe->asXML();
 
 ?>
 ```

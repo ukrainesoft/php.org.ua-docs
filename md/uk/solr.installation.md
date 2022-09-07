@@ -8,9 +8,9 @@ title: Встановлення
 ---
 ## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/solr](https://pecl.php.net/package/solr)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/solr](https://pecl.php.net/package/solr)
 
-Щоб отримати допомогу та підтримку, відвідайте групу модулів Google . [» Модуль Apache Solr PHP](https://groups.google.com/forum/#!forum/php-solr)
+Щоб отримати допомогу та підтримку, відвідайте групу модулів Google . [» Модуль Apache Solr PHP](https://groups.google.com/forum/#!forum/php-solr)
 
 Бінарні файли Windows (DLL-файли) для цього модуля PECL доступні на сайті PECL.
 

@@ -25,7 +25,7 @@ public NumberFormatter::parseCurrency(string $string, string &$currency, int &$o
 Процедурний стиль
 
 ```methodsynopsis
-numfmt_parse_currency(    NumberFormatter $formatter,    string $string,    string &$currency,    int &$offset = null): float|false
+numfmt_parse_currency(    NumberFormatter $formatter,    string $string,    string &$currency,    int &$offset = null): float|false
 ```
 
 Розбирає рядок на число з плаваючою точкою та валюту за допомогою засобу форматування.
@@ -54,9 +54,9 @@ numfmt_parse_currency(    NumberFormatter $formatter,    string $string,
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::CURRENCY );
-$num = "1.234.567,89\xc2\xa0$";
-echo "У нас ".numfmt_parse_currency($fmt, $num, $curr)." в $curr\n";
+$fmt = numfmt_create( 'de_DE', NumberFormatter::CURRENCY );
+$num = "1.234.567,89\xc2\xa0$";
+echo "У нас ".numfmt_parse_currency($fmt, $num, $curr)." в $curr\n";
 ?>
 ```
 
@@ -64,9 +64,9 @@ echo "У нас ".numfmt_parse_currency($fmt, $num, $curr)." в $curr\n";
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );
-$num = "1.234.567,89\xc2\xa0$";
-echo "У нас ".$fmt->parseCurrency($num, $curr)." в $curr\n";
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );
+$num = "1.234.567,89\xc2\xa0$";
+echo "У нас ".$fmt->parseCurrency($num, $curr)." в $curr\n";
 ?>
 ```
 

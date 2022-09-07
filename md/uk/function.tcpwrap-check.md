@@ -15,7 +15,7 @@ tcpwrapcheck — Проводить перевірку tcpwrap
 ### Опис
 
 ```methodsynopsis
-tcpwrap_check(    string $daemon,    string $address,    string $user = ?,    bool $nodns = false): bool
+tcpwrap_check(    string $daemon,    string $address,    string $user = ?,    bool $nodns = false): bool
 ```
 
 Функція звіряється з файлами /etc/hosts.allow та /etc/hosts.deny для перевірки, чи можна чи не можна дати доступ клієнту до демона `daemon`
@@ -54,8 +54,8 @@ php: 127.0.0.1
 
 ```php
 <?php
-if (!tcpwrap_check('php', $_SERVER['REMOTE_ADDR'])) {
-  die('Вас тут не ждут');
+if (!tcpwrap_check('php', $_SERVER['REMOTE_ADDR'])) {
+  die('Вас тут не ждут');
 }
 ?>
 ```

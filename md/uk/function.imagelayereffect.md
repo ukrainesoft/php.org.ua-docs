@@ -67,22 +67,22 @@ imagelayereffect(GdImage $image, int $effect): bool
 
 ```php
 <?php
-// Задание изображения
-$im = imagecreatetruecolor(100, 100);
+// Задание изображения
+$im = imagecreatetruecolor(100, 100);
 
-// Установка фона
-imagefilledrectangle($im, 0, 0, 100, 100, imagecolorallocate($im, 220, 220, 220));
+// Установка фона
+imagefilledrectangle($im, 0, 0, 100, 100, imagecolorallocate($im, 220, 220, 220));
 
-// Применение флага альфа сопряжения - overlay
-imagelayereffect($im, IMG_EFFECT_OVERLAY);
+// Применение флага альфа сопряжения - overlay
+imagelayereffect($im, IMG_EFFECT_OVERLAY);
 
-// Рисуем два серых эллипса
-imagefilledellipse($im, 50, 50, 40, 40, imagecolorallocate($im, 100, 255, 100));
-imagefilledellipse($im, 50, 50, 50, 80, imagecolorallocate($im, 100, 100, 255));
-imagefilledellipse($im, 50, 50, 80, 50, imagecolorallocate($im, 255, 100, 100));
+// Рисуем два серых эллипса
+imagefilledellipse($im, 50, 50, 40, 40, imagecolorallocate($im, 100, 255, 100));
+imagefilledellipse($im, 50, 50, 50, 80, imagecolorallocate($im, 100, 100, 255));
+imagefilledellipse($im, 50, 50, 80, 50, imagecolorallocate($im, 255, 100, 100));
 
-// Вывод
-header('Content-type: image/png');
+// Вывод
+header('Content-type: image/png');
 
 imagepng($im);
 imagedestroy($im);

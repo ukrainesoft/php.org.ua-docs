@@ -36,14 +36,14 @@ public PharData::addEmptyDir(string $directory): void
 
 ```php
 <?php
-try {
-    $a = new PharData('/path/to/my.tar');
+try {
+    $a = new PharData('/path/to/my.tar');
 
-    $a->addEmptyDir('/full/path/to/file');
-    // показывает, как хранится файл
-    $b = $a['full/path/to/file']->isDir();
-} catch (Exception $e) {
-    // обрабатываем ошибки
+    $a->addEmptyDir('/full/path/to/file');
+    // показывает, как хранится файл
+    $b = $a['full/path/to/file']->isDir();
+} catch (Exception $e) {
+    // обрабатываем ошибки
 }
 ?>
 ```

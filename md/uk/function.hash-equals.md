@@ -46,12 +46,12 @@ hash_equals(string $known_string, string $user_string): bool
 
 ```php
 <?php
-$expected  = crypt('12345', '$2a$07$usesomesillystringforsalt$');
-$correct   = crypt('12345', '$2a$07$usesomesillystringforsalt$');
-$incorrect = crypt('apple', '$2a$07$usesomesillystringforsalt$');
+$expected  = crypt('12345', '$2a$07$usesomesillystringforsalt$');
+$correct   = crypt('12345', '$2a$07$usesomesillystringforsalt$');
+$incorrect = crypt('apple', '$2a$07$usesomesillystringforsalt$');
 
-var_dump(hash_equals($expected, $correct));
-var_dump(hash_equals($expected, $incorrect));
+var_dump(hash_equals($expected, $correct));
+var_dump(hash_equals($expected, $incorrect));
 ?>
 ```
 

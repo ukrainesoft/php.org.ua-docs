@@ -50,11 +50,11 @@ gmp_import(string $data, int $word_size = 1, int $flags = GMP_MSW_FIRST | GMP_NA
 
 ```php
 <?php
-$number = gmp_import("\0");
-echo gmp_strval($number) . "\n";
+$number = gmp_import("\0");
+echo gmp_strval($number) . "\n";
 
-$number = gmp_import("\0\1\2");
-echo gmp_strval($number) . "\n";
+$number = gmp_import("\0\1\2");
+echo gmp_strval($number) . "\n";
 ?>
 ```
 

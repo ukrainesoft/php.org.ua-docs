@@ -34,10 +34,10 @@ final public Error::getMessage(): string
 
 ```php
 <?php
-try {
-    throw new Error("Страшная ошибка");
-} catch(Error $e) {
-    echo $e->getMessage();
+try {
+    throw new Error("Страшная ошибка");
+} catch(Error $e) {
+    echo $e->getMessage();
 }
 ?>
 ```

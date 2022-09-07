@@ -46,10 +46,10 @@ hexdec(string $hex_string): int|float
 <?php
 var_dump(hexdec("See"));
 var_dump(hexdec("ee"));
-// в обоих случаях будет выведено "int(238)"
+// в обоих случаях будет выведено "int(238)"
 
-var_dump(hexdec("that")); // выведет "int(10)"
-var_dump(hexdec("a0")); // выведет "int(160)"
+var_dump(hexdec("that")); // выведет "int(10)"
+var_dump(hexdec("a0")); // выведет "int(160)"
 ?>
 ```
 

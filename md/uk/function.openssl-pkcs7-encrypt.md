@@ -15,7 +15,7 @@ opensslpkcs7encrypt — Шифрує повідомлення S/MIME
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs7_encrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|array|string $certificate,    ?array $headers,    int $flags = 0,    int $cipher_algo = OPENSSL_CIPHER_AES_128_CBC): bool
+openssl_pkcs7_encrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|array|string $certificate,    ?array $headers,    int $flags = 0,    int $cipher_algo = OPENSSL_CIPHER_AES_128_CBC): bool
 ```
 
 **opensslpkcs7encrypt()** читає повідомлення з файлу `input_filename`шифрує його за допомогою 40-бітного RC2 шифру таким чином, що розшифрувати його можуть тільки одержувачі, зазначеними в `certificate`
@@ -61,36 +61,36 @@ openssl_pkcs7_encrypt(    string $input_filename,    string $output_file
 
 ```php
 <?php
-// Сообщение, которое вы хотите зашифровать и отправить своему секретному
-// агенту с позывным Козодой. У вас есть его сертификат в файле nighthawk.pem
-$data = <<<EOD
+// Сообщение, которое вы хотите зашифровать и отправить своему секретному
+// агенту с позывным Козодой. У вас есть его сертификат в файле nighthawk.pem
+$data = <<<EOD
 Козодой,
 
-Совершенно секретно! После прочтения сжечь!
+Совершенно секретно! После прочтения сжечь!
 
-Враги приближаются! Связной с новым поддельным паспортом
-будет ждать тебя завтра в кафе в 8.30 утра.
+Враги приближаются! Связной с новым поддельным паспортом
+будет ждать тебя завтра в кафе в 8.30 утра.
 
-Пароль - "У вас ус отклеился!"
-Отзыв - "Это не ус, а борода!"
+Пароль - "У вас ус отклеился!"
+Отзыв - "Это не ус, а борода!"
 
 EOD;
 
-// загружаем ключ
-$key = file_get_contents("nighthawk.pem");
+// загружаем ключ
+$key = file_get_contents("nighthawk.pem");
 
-// записываем сообщение в файл
-$fp = fopen("msg.txt", "w");
-fwrite($fp, $data);
+// записываем сообщение в файл
+$fp = fopen("msg.txt", "w");
+fwrite($fp, $data);
 fclose($fp);
 
-// шифруем
-if (openssl_pkcs7_encrypt("msg.txt", "enc.txt", $key,
-    array("To" => "nighthawk@example.com", // ассоциативный синтаксис
-          "From: HQ <hq@example.com>", // индексированный синтаксис
-          "Subject" => "СРОЧНО!!! ВАЖНО!!!"))) {
-    // сообщение зашифровано - отправляем!!
-    exec(ini_get("sendmail_path") . " < enc.txt");
+// шифруем
+if (openssl_pkcs7_encrypt("msg.txt", "enc.txt", $key,
+    array("To" => "nighthawk@example.com", // ассоциативный синтаксис
+          "From: HQ <hq@example.com>", // индексированный синтаксис
+          "Subject" => "СРОЧНО!!! ВАЖНО!!!"))) {
+    // сообщение зашифровано - отправляем!!
+    exec(ini_get("sendmail_path") . " < enc.txt");
 }
 ?>
 ```

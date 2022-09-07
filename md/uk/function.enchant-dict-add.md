@@ -45,13 +45,13 @@ enchant_dict_add(EnchantDictionary $dictionary, string $word): void
 ```php
 <?php
 
-$filename = './my_word_list.pwl';
-$word = 'Supercalifragilisticexpialidocious';
+$filename = './my_word_list.pwl';
+$word = 'Supercalifragilisticexpialidocious';
 
-$broker = enchant_broker_init();
-$dict = enchant_broker_request_pwl_dict($broker, $filename);
+$broker = enchant_broker_init();
+$dict = enchant_broker_request_pwl_dict($broker, $filename);
 
-enchant_dict_add($dict, $word);
+enchant_dict_add($dict, $word);
 
 enchant_broker_free($broker);
 

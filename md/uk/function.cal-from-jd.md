@@ -40,8 +40,8 @@ cal_from_jd(int $julian_day, int $calendar): array
 
 ```php
 <?php
-$today = unixtojd(mktime(0, 0, 0, 8, 16, 2003));
-print_r(cal_from_jd($today, CAL_GREGORIAN));
+$today = unixtojd(mktime(0, 0, 0, 8, 16, 2003));
+print_r(cal_from_jd($today, CAL_GREGORIAN));
 ?>
 ```
 

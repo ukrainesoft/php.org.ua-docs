@@ -52,13 +52,13 @@ strtok(string $token): string|false
 
 ```php
 <?php
-$string = "This is\tan example\nstring";
-/* В качестве разделителей используем пробел, табуляцию и перевод строки */
-$tok = strtok($string, " \n\t");
+$string = "This is\tan example\nstring";
+/* В качестве разделителей используем пробел, табуляцию и перевод строки */
+$tok = strtok($string, " \n\t");
 
-while ($tok !== false) {
-    echo "Word=$tok<br />";
-    $tok = strtok(" \n\t");
+while ($tok !== false) {
+    echo "Word=$tok<br />";
+    $tok = strtok(" \n\t");
 }
 ?>
 ```
@@ -67,9 +67,9 @@ while ($tok !== false) {
 
 ```php
 <?php
-$first_token  = strtok('/something', '/');
-$second_token = strtok('/');
-var_dump($first_token, $second_token);
+$first_token  = strtok('/something', '/');
+$second_token = strtok('/');
+var_dump($first_token, $second_token);
 ?>
 ```
 
@@ -84,18 +84,18 @@ string(9) "something"
 
 ```php
 <?php
-$string = ";aaa;;bbb;";
+$string = ";aaa;;bbb;";
 
-$parts = [];
-$tok = strtok($string, ";");
-while ($tok !== false) {
-    $parts[] = $tok;
-    $tok = strtok(";");
+$parts = [];
+$tok = strtok($string, ";");
+while ($tok !== false) {
+    $parts[] = $tok;
+    $tok = strtok(";");
 }
-echo json_encode($parts),"\n";
+echo json_encode($parts),"\n";
 
-$parts = explode(";", $string);
-echo json_encode($parts),"\n";
+$parts = explode(";", $string);
+echo json_encode($parts),"\n";
 ```
 
 Результат виконання цього прикладу:

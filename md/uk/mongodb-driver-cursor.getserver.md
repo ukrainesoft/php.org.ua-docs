@@ -39,14 +39,14 @@ final public MongoDB\Driver\Cursor::getServer(): MongoDB\Driver\Server
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
-$query = new MongoDB\Driver\Query([]);
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$query = new MongoDB\Driver\Query([]);
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
-$manager->executeBulkWrite('db.collection', $bulk);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+$manager->executeBulkWrite('db.collection', $bulk);
 
-$cursor = $manager->executeQuery('db.collection', $query);
+$cursor = $manager->executeQuery('db.collection', $query);
 var_dump($cursor->getServer());
 
 ?>

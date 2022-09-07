@@ -46,17 +46,17 @@ db2_execute(resource $stmt, array $parameters = ?): bool
 
 ```php
 <?php
-$pet = array(0, 'cat', 'Pook', 3.2);
+$pet = array(0, 'cat', 'Pook', 3.2);
 
-$insert = 'INSERT INTO animals (id, breed, name, weight)
-    VALUES (?, ?, ?, ?)';
+$insert = 'INSERT INTO animals (id, breed, name, weight)
+    VALUES (?, ?, ?, ?)';
 
-$stmt = db2_prepare($conn, $insert);
-if ($stmt) {
-    $result = db2_execute($stmt, $pet);
-    if ($result) {
-        print "Успешно добавлен новый питомец.";
-    }
+$stmt = db2_prepare($conn, $insert);
+if ($stmt) {
+    $result = db2_execute($stmt, $pet);
+    if ($result) {
+        print "Успешно добавлен новый питомец.";
+    }
 }
 ?>
 ```
@@ -73,11 +73,11 @@ if ($stmt) {
 
 ```php
 <?php
-$num_pets = 0;
-$res = db2_prepare($conn, "CALL count_my_pets(?)");
-$rc = db2_bind_param($res, 1, "num_pets", DB2_PARAM_OUT);
-$rc = db2_execute($res);
-print "У меня $num_pets домашних животных!";
+$num_pets = 0;
+$res = db2_prepare($conn, "CALL count_my_pets(?)");
+$rc = db2_bind_param($res, 1, "num_pets", DB2_PARAM_OUT);
+$rc = db2_execute($res);
+print "У меня $num_pets домашних животных!";
 ?>
 ```
 
@@ -94,30 +94,30 @@ print "У меня $num_pets домашних животных!";
 ```php
 <?php
 
-$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
+$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
 
-$query = 'SELECT * FROM XMLTABLE(
-    XMLNAMESPACES (DEFAULT \'http://posample.org\'),
-    \'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'
-    COLUMNS
-    "CID" VARCHAR (50) PATH \'@Cid\',
-    "NAME" VARCHAR (50) PATH \'name\',
-    "PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\'
-    ) AS T
-    WHERE NAME = ?
-    ';
+$query = 'SELECT * FROM XMLTABLE(
+    XMLNAMESPACES (DEFAULT \'http://posample.org\'),
+    \'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'
+    COLUMNS
+    "CID" VARCHAR (50) PATH \'@Cid\',
+    "NAME" VARCHAR (50) PATH \'name\',
+    "PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\'
+    ) AS T
+    WHERE NAME = ?
+    ';
 
-$stmt = db2_prepare($conn, $query);
+$stmt = db2_prepare($conn, $query);
 
-$name = 'Kathy Smith';
+$name = 'Kathy Smith';
 
-if ($stmt) {
-    db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);
-    db2_execute($stmt);
+if ($stmt) {
+    db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);
+    db2_execute($stmt);
 
-    while($row = db2_fetch_object($stmt)){
-    printf("$row->CID     $row->NAME     $row->PHONE\n");
-    }
+    while($row = db2_fetch_object($stmt)){
+    printf("$row->CID     $row->NAME     $row->PHONE\n");
+    }
 }
 db2_close($conn);
 
@@ -138,43 +138,43 @@ db2_close($conn);
 ```php
 <?php
 
-$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
+$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
 
-$query = '
-SELECT A.CID, A.NAME, A.PHONE, C.PONUM, C.STATUS
+$query = '
+SELECT A.CID, A.NAME, A.PHONE, C.PONUM, C.STATUS
 FROM
 XMLTABLE(
-XMLNAMESPACES (DEFAULT \'http://posample.org\'),
+XMLNAMESPACES (DEFAULT \'http://posample.org\'),
 \'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'
 COLUMNS
-"CID" BIGINT PATH \'@Cid\',
-"NAME" VARCHAR (50) PATH \'name\',
-"PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\'
-) as A,
-PURCHASEORDER AS B,
-XMLTABLE (
-XMLNAMESPACES (DEFAULT \'http://posample.org\'),
+"CID" BIGINT PATH \'@Cid\',
+"NAME" VARCHAR (50) PATH \'name\',
+"PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\'
+) as A,
+PURCHASEORDER AS B,
+XMLTABLE (
+XMLNAMESPACES (DEFAULT \'http://posample.org\'),
 \'db2-fn:xmlcolumn("PURCHASEORDER.PORDER")/PurchaseOrder\'
 COLUMNS
-"PONUM"  BIGINT PATH \'@PoNum\',
-"STATUS" VARCHAR (50) PATH \'@Status\'
-) as C
-WHERE A.CID = B.CUSTID AND
-    B.POID = C.PONUM AND
-    A.NAME = ?
+"PONUM"  BIGINT PATH \'@PoNum\',
+"STATUS" VARCHAR (50) PATH \'@Status\'
+) as C
+WHERE A.CID = B.CUSTID AND
+    B.POID = C.PONUM AND
+    A.NAME = ?
 ';
 
-$stmt = db2_prepare($conn, $query);
+$stmt = db2_prepare($conn, $query);
 
-$name = 'Kathy Smith';
+$name = 'Kathy Smith';
 
-if ($stmt) {
-    db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);
-    db2_execute($stmt);
+if ($stmt) {
+    db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);
+    db2_execute($stmt);
 
-    while($row = db2_fetch_object($stmt)){
-    printf("$row->CID     $row->NAME     $row->PHONE     $row->PONUM     $row->STATUS\n");
-    }
+    while($row = db2_fetch_object($stmt)){
+    printf("$row->CID     $row->NAME     $row->PHONE     $row->PONUM     $row->STATUS\n");
+    }
 }
 
 db2_close($conn);
@@ -195,49 +195,49 @@ db2_close($conn);
 ```php
 <?php
 
-$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
+$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");
 
-$query = '
+$query = '
 SELECT
 XMLSERIALIZE(
 XMLQUERY(\'
-    declare boundary-space strip;
-    declare default element namespace "http://posample.org";
-    <promoList> {
-    for $prod in $doc/product
-    where $prod/description/price < 10.00
-    order by $prod/description/price ascending
-    return(
-        <promoitem> {
-        $prod,
-        <startdate> {$start} </startdate>,
-        <enddate> {$end} </enddate>,
-        <promoprice> {$promo} </promoprice>
-            } </promoitem>
-    )
-    } </promoList>
-\' passing by ref DESCRIPTION AS "doc",
-PROMOSTART as "start",
-PROMOEND as "end",
-PROMOPRICE as "promo"
-RETURNING SEQUENCE)
-AS CLOB (32000))
-AS NEW_PRODUCT_INFO
-FROM PRODUCT
-WHERE PID = ?
+    declare boundary-space strip;
+    declare default element namespace "http://posample.org";
+    <promoList> {
+    for $prod in $doc/product
+    where $prod/description/price < 10.00
+    order by $prod/description/price ascending
+    return(
+        <promoitem> {
+        $prod,
+        <startdate> {$start} </startdate>,
+        <enddate> {$end} </enddate>,
+        <promoprice> {$promo} </promoprice>
+            } </promoitem>
+    )
+    } </promoList>
+\' passing by ref DESCRIPTION AS "doc",
+PROMOSTART as "start",
+PROMOEND as "end",
+PROMOPRICE as "promo"
+RETURNING SEQUENCE)
+AS CLOB (32000))
+AS NEW_PRODUCT_INFO
+FROM PRODUCT
+WHERE PID = ?
 ';
 
-$stmt = db2_prepare($conn, $query);
+$stmt = db2_prepare($conn, $query);
 
-$pid = "100-100-01";
+$pid = "100-100-01";
 
-if ($stmt) {
-    db2_bind_param($stmt, 1, "pid", DB2_PARAM_IN);
-    db2_execute($stmt);
+if ($stmt) {
+    db2_bind_param($stmt, 1, "pid", DB2_PARAM_IN);
+    db2_execute($stmt);
 
-    while($row = db2_fetch_array($stmt)){
-    printf("$row[0]\n");
-    }
+    while($row = db2_fetch_array($stmt)){
+    printf("$row[0]\n");
+    }
 }
 
 db2_close($conn);

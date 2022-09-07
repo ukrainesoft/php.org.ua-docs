@@ -15,13 +15,13 @@ Gmagick::cropimage — Обрізає зображення
 ### Опис
 
 ```methodsynopsis
-public Gmagick::cropimage(    
+public Gmagick::cropimage(    
     int
      $width
-   ,    
+   ,    
     int
      $height
-   ,    int $x,    int $y): Gmagick
+   ,    int $x,    int $y): Gmagick
 ```
 
 Обрізає зображення.

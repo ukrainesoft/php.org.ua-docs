@@ -46,12 +46,12 @@ offsetSet не потрібно викликати безпосередньо. �
 
 ```php
 <?php
-$p = new PharData('/path/to/my.tar');
-try {
-    // вызов offsetSet
-    $p['file.txt'] = 'Привет';
-} catch (Exception $e) {
-    echo 'Не удалось изменить file.txt:', $e;
+$p = new PharData('/path/to/my.tar');
+try {
+    // вызов offsetSet
+    $p['file.txt'] = 'Привет';
+} catch (Exception $e) {
+    echo 'Не удалось изменить file.txt:', $e;
 }
 ?>
 ```

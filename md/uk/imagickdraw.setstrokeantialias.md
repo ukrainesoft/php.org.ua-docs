@@ -40,30 +40,30 @@ public ImagickDraw::setStrokeAntialias(bool $stroke_antialias): bool
 
 ```php
 <?php
-function setStrokeAntialias($strokeColor, $fillColor, $backgroundColor) {
+function setStrokeAntialias($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(1);
-    $draw->setStrokeAntialias(false);
-    $draw->line(100, 100, 400, 105);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(1);
+    $draw->setStrokeAntialias(false);
+    $draw->line(100, 100, 400, 105);
 
-    $draw->line(100, 140, 400, 185);
+    $draw->line(100, 140, 400, 185);
 
-    $draw->setStrokeAntialias(true);
-    $draw->line(100, 110, 400, 115);
-    $draw->line(100, 150, 400, 195);
+    $draw->setStrokeAntialias(true);
+    $draw->line(100, 110, 400, 115);
+    $draw->line(100, 150, 400, 195);
 
-    $image = new \Imagick();
-    $image->newImage(500, 250, $backgroundColor);
-    $image->setImageFormat("png");
+    $image = new \Imagick();
+    $image->newImage(500, 250, $backgroundColor);
+    $image->setImageFormat("png");
 
-    $image->drawImage($draw);
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

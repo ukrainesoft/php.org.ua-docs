@@ -30,11 +30,11 @@ public **ДсVector::construct**[mixed](language.types.declarations.md#language.
 
 ```php
 <?php
-$vector = new \Ds\Vector();
+$vector = new \Ds\Vector();
 var_dump($vector);
 
 
-$vector = new \Ds\Vector([1, 2, 3]);
+$vector = new \Ds\Vector([1, 2, 3]);
 var_dump($vector);
 ?>
 ```

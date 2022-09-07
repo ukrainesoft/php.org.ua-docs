@@ -15,7 +15,7 @@ tradercdlupsidegap2crows - Свічкова модель "Перевернені
 ### Опис
 
 ```methodsynopsis
-trader_cdlupsidegap2crows(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlupsidegap2crows(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

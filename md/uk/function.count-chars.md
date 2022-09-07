@@ -52,10 +52,10 @@ count_chars(string $string, int $mode = 0): array|string
 
 ```php
 <?php
-$data = "Two Ts and one F.";
+$data = "Two Ts and one F.";
 
-foreach (count_chars($data, 1) as $i => $val) {
-   echo "\"" , chr($i) , "\" встречается в строке $val раз(а).\n";
+foreach (count_chars($data, 1) as $i => $val) {
+   echo "\"" , chr($i) , "\" встречается в строке $val раз(а).\n";
 }
 ?>
 ```

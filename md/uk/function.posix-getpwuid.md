@@ -51,7 +51,7 @@ posix_getpwuid(int $user_id): array|false
 ```php
 <?php
 
-$userinfo = posix_getpwuid(10000);
+$userinfo = posix_getpwuid(10000);
 
 print_r($userinfo);
 ?>

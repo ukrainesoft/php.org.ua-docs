@@ -15,7 +15,7 @@ yazscan — Підготовка сканування
 ### Опис
 
 ```methodsynopsis
-yaz_scan(    resource $id,    string $type,    string $startterm,    array $flags = ?): void
+yaz_scan(    resource $id,    string $type,    string $startterm,    array $flags = ?): void
 ```
 
 Функція готує запит сканування для встановленого з'єднання протоколу Z39.50.
@@ -54,26 +54,26 @@ yaz_scan(    resource $id,    string $type,    string $startterm, �
 
 ```php
 <?php
-function scan_titles($id, $startterm)
+function scan_titles($id, $startterm)
 {
-  yaz_scan($id, "rpn", "@attr 1=4 " . $startterm);
-  yaz_wait();
-  $errno = yaz_errno($id);
-  if ($errno == 0) {
-    $ar = yaz_scan_result($id, $options);
-    echo 'Scan ok; ';
-    foreach ($options as $key => $val) {
-      echo "$key = $val ";
-    }
-    echo '<br /><table>';
-    while (list($key, list($k, $term, $tcount)) = each($ar)) {
-      if (empty($k)) continue;
-      echo "<tr><td>$term</td><td>$tcount</td></tr>";
-    }
-    echo '</table>';
-  } else {
-    echo "Сканирование не удалось. Ошибка: " . yaz_error($id) . "<br />";
-  }
+  yaz_scan($id, "rpn", "@attr 1=4 " . $startterm);
+  yaz_wait();
+  $errno = yaz_errno($id);
+  if ($errno == 0) {
+    $ar = yaz_scan_result($id, $options);
+    echo 'Scan ok; ';
+    foreach ($options as $key => $val) {
+      echo "$key = $val ";
+    }
+    echo '<br /><table>';
+    while (list($key, list($k, $term, $tcount)) = each($ar)) {
+      if (empty($k)) continue;
+      echo "<tr><td>$term</td><td>$tcount</td></tr>";
+    }
+    echo '</table>';
+  } else {
+    echo "Сканирование не удалось. Ошибка: " . yaz_error($id) . "<br />";
+  }
 }
 ?>
 ```

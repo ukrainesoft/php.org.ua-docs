@@ -50,14 +50,14 @@ public Imagick::evaluateImage(int $op, float $constant, int $channel = Imagick::
 
 ```php
 <?php
-// Создание нового объекта с изображением
-$im = new Imagick('example-alpha.png');
+// Создание нового объекта с изображением
+$im = new Imagick('example-alpha.png');
 
-// Уменьшение значнения альфа-канала на 50%
-$im->evaluateImage(Imagick::EVALUATE_DIVIDE, 2, Imagick::CHANNEL_ALPHA);
+// Уменьшение значнения альфа-канала на 50%
+$im->evaluateImage(Imagick::EVALUATE_DIVIDE, 2, Imagick::CHANNEL_ALPHA);
 
-// Вывод изображения
-header("Content-Type: image/png");
-echo $im;
+// Вывод изображения
+header("Content-Type: image/png");
+echo $im;
 ?>
 ```

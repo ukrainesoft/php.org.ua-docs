@@ -44,13 +44,13 @@ public ZipArchive::extractTo(string $pathto, array|string|null $files = null): b
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test.zip') === TRUE) {
-    $zip->extractTo('/my/destination/dir/');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    $zip->extractTo('/my/destination/dir/');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```
@@ -59,14 +59,14 @@ if ($zip->open('test.zip') === TRUE) {
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test_im.zip');
-if ($res === TRUE) {
-    $zip->extractTo('/my/destination/dir/', array('pear_item.gif', 'testfromfile.php'));
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+$res = $zip->open('test_im.zip');
+if ($res === TRUE) {
+    $zip->extractTo('/my/destination/dir/', array('pear_item.gif', 'testfromfile.php'));
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

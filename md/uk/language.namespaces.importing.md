@@ -20,31 +20,31 @@ PHP може створювати псевдоніми імені/імпорту
 
 ```php
 <?php
-namespace foo;
-use My\Full\Classname as Another;
+namespace foo;
+use My\Full\Classname as Another;
 
-// это тоже самое, что и использование My\Full\NSname as NSname
-use My\Full\NSname;
+// это тоже самое, что и использование My\Full\NSname as NSname
+use My\Full\NSname;
 
-// импортирование глобального класса
-use ArrayObject;
+// импортирование глобального класса
+use ArrayObject;
 
-// импортирование функции
-use function My\Full\functionName;
+// импортирование функции
+use function My\Full\functionName;
 
-// псевдоним функции
-use function My\Full\functionName as func;
+// псевдоним функции
+use function My\Full\functionName as func;
 
-// импортирование константы
-use const My\Full\CONSTANT;
+// импортирование константы
+use const My\Full\CONSTANT;
 
-$obj = new namespace\Another; // создаёт экземпляр класса foo\Another
-$obj = new Another; // создаёт объект класса My\Full\Classname
-NSname\subns\func(); // вызывает функцию My\Full\NSname\subns\func
-$a = new ArrayObject(array(1)); // создаёт объект класса ArrayObject
-// без выражения "use ArrayObject" мы создадим объект класса foo\ArrayObject
-func(); // вызывает функцию My\Full\functionName
-echo CONSTANT; // выводит содержимое константы My\Full\CONSTANT
+$obj = new namespace\Another; // создаёт экземпляр класса foo\Another
+$obj = new Another; // создаёт объект класса My\Full\Classname
+NSname\subns\func(); // вызывает функцию My\Full\NSname\subns\func
+$a = new ArrayObject(array(1)); // создаёт объект класса ArrayObject
+// без выражения "use ArrayObject" мы создадим объект класса foo\ArrayObject
+func(); // вызывает функцию My\Full\functionName
+echo CONSTANT; // выводит содержимое константы My\Full\CONSTANT
 ?>
 ```
 
@@ -56,10 +56,10 @@ PHP додатково підтримує зручне скорочення дл
 
 ```php
 <?php
-use My\Full\Classname as Another, My\Full\NSname;
+use My\Full\Classname as Another, My\Full\NSname;
 
-$obj = new Another; // создаёт объект класса My\Full\Classname
-NSname\subns\func(); // вызывает функцию My\Full\NSname\subns\func
+$obj = new Another; // создаёт объект класса My\Full\Classname
+NSname\subns\func(); // вызывает функцию My\Full\NSname\subns\func
 ?>
 ```
 
@@ -69,11 +69,11 @@ NSname\subns\func(); // вызывает функцию My\Full\NSname\subns
 
 ```php
 <?php
-use My\Full\Classname as Another, My\Full\NSname;
+use My\Full\Classname as Another, My\Full\NSname;
 
-$obj = new Another; // создаёт объект класса My\Full\Classname
-$a = 'Another';
-$obj = new $a;      // создаёт объект класса Another
+$obj = new Another; // создаёт объект класса My\Full\Classname
+$a = 'Another';
+$obj = new $a;      // создаёт объект класса Another
 ?>
 ```
 
@@ -83,12 +83,12 @@ $obj = new $a;      // создаёт объект класса Ano
 
 ```php
 <?php
-use My\Full\Classname as Another, My\Full\NSname;
+use My\Full\Classname as Another, My\Full\NSname;
 
-$obj = new Another; // создаёт объект класса My\Full\Classname
-$obj = new \Another; // создаёт объект класса Another
-$obj = new Another\thing; // создаёт объект класса My\Full\Classname\thing
-$obj = new \Another\thing; // создаёт объект класса Another\thing
+$obj = new Another; // создаёт объект класса My\Full\Classname
+$obj = new \Another; // создаёт объект класса Another
+$obj = new Another\thing; // создаёт объект класса My\Full\Classname\thing
+$obj = new \Another\thing; // создаёт объект класса Another\thing
 ?>
 ```
 
@@ -100,13 +100,13 @@ $obj = new \Another\thing; // создаёт объект класса A
 
 ```php
 <?php
-namespace Languages;
+namespace Languages;
 
-function toGreenlandic()
+function toGreenlandic()
 {
-    use Languages\Danish;
+    use Languages\Danish;
 
-    //...
+    //...
 }
 ?>
 ```
@@ -122,20 +122,20 @@ function toGreenlandic()
 ```php
 <?php
 
-use some\namespace\ClassA;
-use some\namespace\ClassB;
-use some\namespace\ClassC as C;
+use some\namespace\ClassA;
+use some\namespace\ClassB;
+use some\namespace\ClassC as C;
 
-use function some\namespace\fn_a;
-use function some\namespace\fn_b;
-use function some\namespace\fn_c;
+use function some\namespace\fn_a;
+use function some\namespace\fn_b;
+use function some\namespace\fn_c;
 
-use const some\namespace\ConstA;
-use const some\namespace\ConstB;
-use const some\namespace\ConstC;
+use const some\namespace\ConstA;
+use const some\namespace\ConstB;
+use const some\namespace\ConstC;
 
-// Эквивалентно следующему групповому использованию
-use some\namespace\{ClassA, ClassB, ClassC as C};
-use function some\namespace\{fn_a, fn_b, fn_c};
-use const some\namespace\{ConstA, ConstB, ConstC};
+// Эквивалентно следующему групповому использованию
+use some\namespace\{ClassA, ClassB, ClassC as C};
+use function some\namespace\{fn_a, fn_b, fn_c};
+use const some\namespace\{ConstA, ConstB, ConstC};
 ```

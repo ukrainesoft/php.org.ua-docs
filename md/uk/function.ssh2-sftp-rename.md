@@ -44,11 +44,11 @@ ssh2_sftp_rename(resource $sftp, string $from, string $to): bool
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
-$sftp = ssh2_sftp($connection);
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
 
-ssh2_sftp_rename($sftp, '/home/username/oldname', '/home/username/newname');
+ssh2_sftp_rename($sftp, '/home/username/oldname', '/home/username/newname');
 ?>
 ```
 

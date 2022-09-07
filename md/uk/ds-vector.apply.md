@@ -42,8 +42,8 @@ Callback-функція має повертати нове значення, я�
 
 ```php
 <?php
-$vector = new \Ds\Vector([1, 2, 3]);
-$vector->apply(function($value) { return $value * 2; });
+$vector = new \Ds\Vector([1, 2, 3]);
+$vector->apply(function($value) { return $value * 2; });
 
 print_r($vector);
 ?>

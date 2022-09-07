@@ -33,8 +33,8 @@ public static SeasLog::getBuffer(): array
 ```php
 <?php
 
-var_dump(SeasLog::info('info log'));
-var_dump(SeasLog::debug('debug log'));
+var_dump(SeasLog::info('info log'));
+var_dump(SeasLog::debug('debug log'));
 var_dump(SeasLog::getBuffer());
 
 ?>

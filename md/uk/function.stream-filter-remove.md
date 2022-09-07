@@ -36,13 +36,13 @@ stream_filter_remove(resource $stream_filter): bool
 
 ```php
 <?php
-/* Открытие тестового файла для чтения и записи */
-$fp = fopen("test.txt", "rw");
+/* Открытие тестового файла для чтения и записи */
+$fp = fopen("test.txt", "rw");
 
-$rot13_filter = stream_filter_append($fp, "string.rot13", STREAM_FILTER_WRITE);
-fwrite($fp, "This is ");
+$rot13_filter = stream_filter_append($fp, "string.rot13", STREAM_FILTER_WRITE);
+fwrite($fp, "This is ");
 stream_filter_remove($rot13_filter);
-fwrite($fp, "a test\n");
+fwrite($fp, "a test\n");
 
 rewind($fp);
 fpassthru($fp);

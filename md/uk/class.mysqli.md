@@ -122,7 +122,7 @@ title: Клас mysqli
 
     /* Методы */
     
-   public __construct(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket"))
+   public __construct(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket"))
 
     public autocommit(bool $enable): bool
 public begin_transaction(int $flags = 0, ?string $name = null): bool
@@ -130,7 +130,7 @@ public change_user(string $username, string $password, ?string $database): bool
 public character_set_name(): string
 public close(): bool
 public commit(int $flags = 0, ?string $name = null): bool
-public connect(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket")): void
+public connect(    string $hostname = ini_get("mysqli.default_host"),    string $username = ini_get("mysqli.default_user"),    string $password = ini_get("mysqli.default_pw"),    string $database = "",    int $port = ini_get("mysqli.default_port"),    string $socket = ini_get("mysqli.default_socket")): void
 public debug(string $options): bool
 public dump_debug_info(): bool
 public get_charset(): ?object
@@ -144,10 +144,10 @@ public multi_query(string $query): bool
 public next_result(): bool
 public options(int $option, string|int $value): bool
 public ping(): bool
-public static poll(    ?array &$read,    ?array &$error,    array &$reject,    int $seconds,    int $microseconds = 0): int|false
+public static poll(    ?array &$read,    ?array &$error,    array &$reject,    int $seconds,    int $microseconds = 0): int|false
 public prepare(string $query): mysqli_stmt|false
 public query(string $query, int $result_mode = MYSQLI_STORE_RESULT): mysqli_result|bool
-public real_connect(    string $host = ?,    string $username = ?,    string $passwd = ?,    string $dbname = ?,    int $port = ?,    string $socket = ?,    int $flags = ?): bool
+public real_connect(    string $host = ?,    string $username = ?,    string $passwd = ?,    string $dbname = ?,    int $port = ?,    string $socket = ?,    int $flags = ?): bool
 public real_escape_string(string $string): string
 public real_query(string $query): bool
 public reap_async_query(): mysqli_result|bool
@@ -157,7 +157,7 @@ public rollback(int $flags = 0, ?string $name = null): bool
 public savepoint(string $name): bool
 public select_db(string $database): bool
 public set_charset(string $charset): bool
-public ssl_set(    ?string $key,    ?string $certificate,    ?string $ca_certificate,    ?string $ca_path,    ?string $cipher_algos): bool
+public ssl_set(    ?string $key,    ?string $certificate,    ?string $ca_certificate,    ?string $ca_path,    ?string $cipher_algos): bool
 public stat(): string|false
 public stmt_init(): mysqli_stmt|false
 public store_result(int $mode = 0): mysqli_result|false

@@ -41,14 +41,14 @@ usleep(int $microseconds): void
 ```php
 <?php
 
-// Текущее время
-echo date('h:i:s') . "\n";
+// Текущее время
+echo date('h:i:s') . "\n";
 
-// ждать 2 секунды
+// ждать 2 секунды
 usleep(2000000);
 
-// вернуться к исполнению
-echo date('h:i:s') . "\n";
+// вернуться к исполнению
+echo date('h:i:s') . "\n";
 
 ?>
 ```

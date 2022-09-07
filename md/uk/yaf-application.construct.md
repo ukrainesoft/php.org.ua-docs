@@ -60,10 +60,10 @@ ap.dispatcher.defaultModuel=Index ap.dispatcher.defaultController=Index ap.dispa
 
 ```php
 <?php
-defined('APPLICATION_PATH')                  // APPLICATION_PATH will be used in the ini config file
-    || define('APPLICATION_PATH', __DIR__));
+defined('APPLICATION_PATH')                  // APPLICATION_PATH will be used in the ini config file
+    || define('APPLICATION_PATH', __DIR__));
 
-$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');
+$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');
 $application->bootstrap()->run();
 ?>
 ```
@@ -74,14 +74,14 @@ $application->bootstrap()->run();
 
 ```php
 <?php
-$config = array(
-    "application" => array(
-        "directory" => realpath(dirname(__FILE__)) . "/application",
-    ),
+$config = array(
+    "application" => array(
+        "directory" => realpath(dirname(__FILE__)) . "/application",
+    ),
 );
 
-/** Yaf_Application */
-$application = new Yaf_Application($config);
+/** Yaf_Application */
+$application = new Yaf_Application($config);
 $application->bootstrap()->run();
 ?>
 ```

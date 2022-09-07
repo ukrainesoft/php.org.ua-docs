@@ -37,10 +37,10 @@ final public MongoDB\Driver\WriteConcern::bsonSerialize(): object
 ```php
 <?php
 
-$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY);
+$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY);
 var_dump($wc->bsonSerialize());
 
-echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($wc));
+echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($wc));
 
 ?>
 ```
@@ -61,10 +61,10 @@ object(stdClass)#2 (1) {
 ```php
 <?php
 
-$wc = new MongoDB\Driver\WriteConcern(2, 1000, true);
+$wc = new MongoDB\Driver\WriteConcern(2, 1000, true);
 var_dump($wc->bsonSerialize());
 
-echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($wc));
+echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($wc));
 
 ?>
 ```
@@ -87,4 +87,4 @@ object(stdClass)#2 (3) {
 ### Дивіться також
 
 -   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
--   [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

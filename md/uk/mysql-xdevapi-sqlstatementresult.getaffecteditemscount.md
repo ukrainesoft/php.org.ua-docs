@@ -35,7 +35,7 @@ public mysql_xdevapi\SqlStatementResult::getAffectedItemsCount(): int
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

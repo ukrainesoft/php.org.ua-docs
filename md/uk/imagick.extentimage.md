@@ -15,7 +15,7 @@ Imagick::extentImage — Встановлює розмір зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::extentImage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::extentImage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Зручний спосіб встановлення розміру зображення. Метод встановлює розмір зображення і дозволяє встановити координати x,y там, де починається нова область. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.1 або старшим.

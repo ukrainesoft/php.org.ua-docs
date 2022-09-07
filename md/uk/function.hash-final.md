@@ -44,9 +44,9 @@ hash_final(HashContext $context, bool $binary = false): string
 
 ```php
 <?php
-$ctx = hash_init('sha1');
-hash_update($ctx, 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
-echo hash_final($ctx);
+$ctx = hash_init('sha1');
+hash_update($ctx, 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
+echo hash_final($ctx);
 ?>
 ```
 

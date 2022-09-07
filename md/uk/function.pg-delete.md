@@ -15,7 +15,7 @@ title: пгdelete
 ### Опис
 
 ```methodsynopsis
-pg_delete(    PgSql\Connection $connection,    string $table_name,    array $conditions,    int $flags = PGSQL_DML_EXEC): string|bool
+pg_delete(    PgSql\Connection $connection,    string $table_name,    array $conditions,    int $flags = PGSQL_DML_EXEC): string|bool
 ```
 
 **пгdelete()** видаляє з таблиці записи, що відповідають ключам та значенням масиву `conditions`
@@ -60,16 +60,16 @@ pg_delete(    PgSql\Connection $connection,    string $table_name,   
 
 ```php
 <?php
-  $db = pg_connect('dbname=foo');
-  // Это безопасно в некоторой степени, поскольку все значения экранируются.
-  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
-  // ни с через экранирование, ни с помощью подготовленного запроса.
-  $res = pg_delete($db, 'post_log', $_POST, PG_DML_ESCAPE);
-  if ($res) {
-      echo "Данные из POST удалены: $res\n";
-  } else {
-      echo "Пользователь отправил неверные входные данные\n";
-  }
+  $db = pg_connect('dbname=foo');
+  // Это безопасно в некоторой степени, поскольку все значения экранируются.
+  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
+  // ни с через экранирование, ни с помощью подготовленного запроса.
+  $res = pg_delete($db, 'post_log', $_POST, PG_DML_ESCAPE);
+  if ($res) {
+      echo "Данные из POST удалены: $res\n";
+  } else {
+      echo "Пользователь отправил неверные входные данные\n";
+  }
 ?>
 ```
 

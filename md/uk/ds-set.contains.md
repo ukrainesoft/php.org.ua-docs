@@ -44,16 +44,16 @@ public Ds\Set::contains(mixed ...$values): bool
 
 ```php
 <?php
-$set = new \Ds\Set([1, 2, 3]);
+$set = new \Ds\Set([1, 2, 3]);
 
-var_dump($set->contains(1));                // true
-var_dump($set->contains(1, 2));             // true
-var_dump($set->contains(...[1, 2]));        // true
+var_dump($set->contains(1));                // true
+var_dump($set->contains(1, 2));             // true
+var_dump($set->contains(...[1, 2]));        // true
 
-var_dump($set->contains("1"));              // false
-var_dump($set->contains(...[1, 2, 3, 4]));  // false
+var_dump($set->contains("1"));              // false
+var_dump($set->contains(...[1, 2, 3, 4]));  // false
 
-var_dump($set->contains(...[]));            // true
+var_dump($set->contains(...[]));            // true
 ?>
 ```
 

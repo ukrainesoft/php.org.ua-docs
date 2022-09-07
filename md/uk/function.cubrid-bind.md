@@ -15,7 +15,7 @@ cubridbind — Зв'язує змінні із підготовленим зап
 ### Опис
 
 ```methodsynopsis
-cubrid_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
+cubrid_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
 ```
 
 Функція **cubridbind()** використовується для прив'язки значень до зазначених міток, або знаків питання, в SQL-запиті, заданому [cubridprepare()](function.cubrid-prepare.md). Якщо не встановлено параметр `bind_value_type`, то буде використовуватися рядковий тип.
@@ -86,25 +86,25 @@ cubrid_bind(    resource $req_identifier,    int $bind_index,    mix
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
 
-$result = cubrid_execute($conn, "SELECT code FROM event WHERE sports='Basketball' and gender='M'");
-$row = cubrid_fetch_array($result, CUBRID_ASSOC);
-$event_code = $row["code"];
+$result = cubrid_execute($conn, "SELECT code FROM event WHERE sports='Basketball' and gender='M'");
+$row = cubrid_fetch_array($result, CUBRID_ASSOC);
+$event_code = $row["code"];
 
 cubrid_close_request($result);
 
-$game_req = cubrid_prepare($conn, "SELECT athlete_code FROM game WHERE host_year=1992 and event_code=? and nation_code='USA'");
-cubrid_bind($game_req, 1, $event_code, "number");
+$game_req = cubrid_prepare($conn, "SELECT athlete_code FROM game WHERE host_year=1992 and event_code=? and nation_code='USA'");
+cubrid_bind($game_req, 1, $event_code, "number");
 cubrid_execute($game_req);
 
-printf("--- Dream Team (1992 United States men's Olympic basketball team) ---\n");
-while ($athlete_code = cubrid_fetch_array($game_req, CUBRID_NUM)) {
-    $athlete_req = cubrid_prepare($conn, "SELECT name FROM athlete WHERE code=? AND nation_code='USA' AND event='Basketball' AND gender='M'");
-    cubrid_bind($athlete_req, 1, $athlete_code[0], "number");
-    cubrid_execute($athlete_req);
-    $row = cubrid_fetch_assoc($athlete_req);
-    printf("%s\n", $row["name"]);
+printf("--- Dream Team (1992 United States men's Olympic basketball team) ---\n");
+while ($athlete_code = cubrid_fetch_array($game_req, CUBRID_NUM)) {
+    $athlete_req = cubrid_prepare($conn, "SELECT name FROM athlete WHERE code=? AND nation_code='USA' AND event='Basketball' AND gender='M'");
+    cubrid_bind($athlete_req, 1, $athlete_code[0], "number");
+    cubrid_execute($athlete_req);
+    $row = cubrid_fetch_assoc($athlete_req);
+    printf("%s\n", $row["name"]);
 }
 
 cubrid_close_request($game_req);
@@ -136,17 +136,17 @@ Barkley Charles
 
 ```php
 <?php
-$con = cubrid_connect("localhost", 33000, "demodb", "dba", "");
-if ($con) {
-    cubrid_execute($con,"DROP TABLE if exists php_cubrid_lob_test");
-    cubrid_execute($con,"CREATE TABLE php_cubrid_lob_test (doc_content CLOB)");
-    $sql = "INSERT INTO php_cubrid_lob_test(doc_content) VALUES(?)";
-    $req = cubrid_prepare($con, $sql);
+$con = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+if ($con) {
+    cubrid_execute($con,"DROP TABLE if exists php_cubrid_lob_test");
+    cubrid_execute($con,"CREATE TABLE php_cubrid_lob_test (doc_content CLOB)");
+    $sql = "INSERT INTO php_cubrid_lob_test(doc_content) VALUES(?)";
+    $req = cubrid_prepare($con, $sql);
 
-    $fp = fopen("book.txt", "rb");
+    $fp = fopen("book.txt", "rb");
 
-    cubrid_bind($req, 1, $fp, "clob");
-    cubrid_execute($req);
+    cubrid_bind($req, 1, $fp, "clob");
+    cubrid_execute($req);
 }
 ?>
 ```
@@ -155,15 +155,15 @@ if ($con) {
 
 ```php
 <?php
-$con = cubrid_connect("localhost", 33000, "demodb", "dba", "");
-if ($con) {
-    cubrid_execute($con,"DROP TABLE if exists php_cubrid_lob_test");
-    cubrid_execute($con,"CREATE TABLE php_cubrid_lob_test (image BLOB)");
-    $sql = "INSERT INTO php_cubrid_lob_test(image) VALUES(?)";
-    $req = cubrid_prepare($con, $sql);
+$con = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+if ($con) {
+    cubrid_execute($con,"DROP TABLE if exists php_cubrid_lob_test");
+    cubrid_execute($con,"CREATE TABLE php_cubrid_lob_test (image BLOB)");
+    $sql = "INSERT INTO php_cubrid_lob_test(image) VALUES(?)";
+    $req = cubrid_prepare($con, $sql);
 
-    cubrid_bind($req, 1, "cubrid_logo.png", "blob");
-    cubrid_execute($req);
+    cubrid_bind($req, 1, "cubrid_logo.png", "blob");
+    cubrid_execute($req);
 }
 ?>
 ```

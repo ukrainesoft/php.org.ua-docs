@@ -20,7 +20,7 @@ final public MongoDB\Driver\Server::executeReadCommand(string $db, MongoDB\Drive
 
 Виконує команду на цьому сервері.
 
-Цей метод застосовуватиме логіку, специфічну для команд, які читають (наприклад, [» count](https://www.mongodb.com/docs/manual/reference/command/count/)) та враховують версію сервера MongoDB. Опція `"readConcern"` буде за умовчанням відповідати відповідному значенню з [URI подключения MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
+Цей метод застосовуватиме логіку, специфічну для команд, які читають (наприклад, [» count](https://www.mongodb.com/docs/manual/reference/command/count/)) та враховують версію сервера MongoDB. Опція `"readConcern"` буде за умовчанням відповідати відповідному значенню з [URI подключения MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
 
 > **Зауваження**: Опція `"readPreference"` не контролює сервер, якого драйвер виконує операцію; вона завжди виконуватиметься на цьому об'єкті сервера. Натомість, він може бути використаний при виконанні операції на другому вузлі (з набору реплік, не автономний) або на вузлі mongos для забезпечення того, що драйвер встановлює дротовий протокол відповідним чином або додає перевагу читання до операції відповідно.
 

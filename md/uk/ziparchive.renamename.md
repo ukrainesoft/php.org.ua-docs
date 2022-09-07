@@ -40,13 +40,13 @@ public ZipArchive::renameName(string $name, string $new_name): bool
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip');
-if ($res === TRUE) {
-    $zip->renameName('currentname.txt','newname.txt');
-    $zip->close();
-} else {
-    echo 'ошибка с кодом:' . $res;
+$zip = new ZipArchive;
+$res = $zip->open('test.zip');
+if ($res === TRUE) {
+    $zip->renameName('currentname.txt','newname.txt');
+    $zip->close();
+} else {
+    echo 'ошибка с кодом:' . $res;
 }
 ?>
 ```

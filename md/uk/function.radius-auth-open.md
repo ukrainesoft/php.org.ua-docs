@@ -32,8 +32,8 @@ radius_auth_open(): resource
 
 ```php
 <?php
-$radh = radius_auth_open()
-    or die ("Не удалось создать дескриптор");
-echo "Дескриптор успешно создан";
+$radh = radius_auth_open()
+    or die ("Не удалось создать дескриптор");
+echo "Дескриптор успешно создан";
 ?>
 ```

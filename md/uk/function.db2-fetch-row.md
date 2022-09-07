@@ -46,13 +46,13 @@ db2_fetch_row(resource $stmt, int $row_number = ?): bool
 
 ```php
 <?php
-$sql = 'SELECT name, breed FROM animals WHERE weight < ?';
-$stmt = db2_prepare($conn, $sql);
-db2_execute($stmt, array(10));
-while (db2_fetch_row($stmt)) {
-    $name = db2_result($stmt, 0);
-    $breed = db2_result($stmt, 1);
-    print "$name $breed";
+$sql = 'SELECT name, breed FROM animals WHERE weight < ?';
+$stmt = db2_prepare($conn, $sql);
+db2_execute($stmt, array(10));
+while (db2_fetch_row($stmt)) {
+    $name = db2_result($stmt, 0);
+    $breed = db2_result($stmt, 1);
+    print "$name $breed";
 }
 ?>
 ```
@@ -72,21 +72,21 @@ goat Rickety Ride
 
 ```php
 <?php
-  $conn = db2_connect("","","");
-  $sql = 'SELECT SPECIFIC_SCHEMA, SPECIFIC_NAME, ROUTINE_SCHEMA, ROUTINE_NAME, ROUTINE_TYPE, ROUTINE_CREATED, ROUTINE_BODY, IN_PARMS, OUT_PARMS, INOUT_PARMS, PARAMETER_STYLE, EXTERNAL_NAME, EXTERNAL_LANGUAGE FROM QSYS2.SYSROUTINES FETCH FIRST 2 ROWS ONLY';
-  $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE));
-  while ($row = db2_fetch_both($stmt)){
-    echo "<br>db2_fetch_both {$row['SPECIFIC_NAME']} {$row['ROUTINE_CREATED']} {$row[5]}";
-  }
-  $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE));
-  while ($row = db2_fetch_array($stmt)){
-    echo "<br>db2_fetch_array {$row[1]}  {$row[5]}";
-  }
-  $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE));
-  while ($row = db2_fetch_object($stmt)){
-    echo "<br>db2_fetch_object {$row->SPECIFIC_NAME} {$row->ROUTINE_CREATED}";
-  }
-  db2_close($conn);
+  $conn = db2_connect("","","");
+  $sql = 'SELECT SPECIFIC_SCHEMA, SPECIFIC_NAME, ROUTINE_SCHEMA, ROUTINE_NAME, ROUTINE_TYPE, ROUTINE_CREATED, ROUTINE_BODY, IN_PARMS, OUT_PARMS, INOUT_PARMS, PARAMETER_STYLE, EXTERNAL_NAME, EXTERNAL_LANGUAGE FROM QSYS2.SYSROUTINES FETCH FIRST 2 ROWS ONLY';
+  $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE));
+  while ($row = db2_fetch_both($stmt)){
+    echo "<br>db2_fetch_both {$row['SPECIFIC_NAME']} {$row['ROUTINE_CREATED']} {$row[5]}";
+  }
+  $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE));
+  while ($row = db2_fetch_array($stmt)){
+    echo "<br>db2_fetch_array {$row[1]}  {$row[5]}";
+  }
+  $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE));
+  while ($row = db2_fetch_object($stmt)){
+    echo "<br>db2_fetch_object {$row->SPECIFIC_NAME} {$row->ROUTINE_CREATED}";
+  }
+  db2_close($conn);
 ?>
 ```
 

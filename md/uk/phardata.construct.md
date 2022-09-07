@@ -48,13 +48,13 @@ int `$format`
 
 ```php
 <?php
-try {
-    $p = new PharData('/path/to/my.tar', Phar::CURRENT_AS_FILEINFO | Phar::KEY_AS_FILENAME);
-} catch (UnexpectedValueException $e) {
-    die('Не удалось открыть my.tar');
-} catch (BadMethodCallException $e) {
-    echo 'Технически, это никогда не произойдёт';
+try {
+    $p = new PharData('/path/to/my.tar', Phar::CURRENT_AS_FILEINFO | Phar::KEY_AS_FILENAME);
+} catch (UnexpectedValueException $e) {
+    die('Не удалось открыть my.tar');
+} catch (BadMethodCallException $e) {
+    echo 'Технически, это никогда не произойдёт';
 }
-echo file_get_contents('phar:///path/to/my.tar/example.txt');
+echo file_get_contents('phar:///path/to/my.tar/example.txt');
 ?>
 ```

@@ -46,13 +46,13 @@ public mysql_xdevapi\Schema::createCollection(string $name, string $validate = ?
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS food")->execute();
-$session->sql("CREATE DATABASE food")->execute();
-$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
+$session->sql("DROP DATABASE IF EXISTS food")->execute();
+$session->sql("CREATE DATABASE food")->execute();
+$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
 
-$schema = $session->getSchema("food");
+$schema = $session->getSchema("food");
 $schema->createCollection("trees");
 
 print_r($schema->gettables());
@@ -82,27 +82,27 @@ Array
 
 ```php
 <?php
- $collection = $schema->createCollection("mycollection", '{
-    "validation": {
-        "level": "strict",
-        "schema": {
-            "id": "http://json-schema.org/geo",
-            "description": "A geographical coordinate",
-            "type": "object",
-            "properties": {
-                "latitude": {
-                    "type": "number"
-                },
-                "longitude": {
-                    "type": "number"
-                }
-            },
-            "required": ["latitude", "longitude"]
-        }
-    }
+ $collection = $schema->createCollection("mycollection", '{
+    "validation": {
+        "level": "strict",
+        "schema": {
+            "id": "http://json-schema.org/geo",
+            "description": "A geographical coordinate",
+            "type": "object",
+            "properties": {
+                "latitude": {
+                    "type": "number"
+                },
+                "longitude": {
+                    "type": "number"
+                }
+            },
+            "required": ["latitude", "longitude"]
+        }
+    }
 }');
-// Успешное выполнение
-$collection->add('{"latitude": 10, "longitude": 20}')->execute();
-// Ошибка, недопустимые типы (не числа)
-$collection->add('{"latitude": "lat", "longitude": "long"}')->execute();
+// Успешное выполнение
+$collection->add('{"latitude": 10, "longitude": 20}')->execute();
+// Ошибка, недопустимые типы (не числа)
+$collection->add('{"latitude": "lat", "longitude": "long"}')->execute();
 ```

@@ -34,11 +34,11 @@ public ReflectionClass::isFinal(): bool
 
 ```php
 <?php
-class       TestClass { }
-final class TestFinalClass { }
+class       TestClass { }
+final class TestFinalClass { }
 
-$normalClass = new ReflectionClass('TestClass');
-$finalClass  = new ReflectionClass('TestFinalClass');
+$normalClass = new ReflectionClass('TestClass');
+$finalClass  = new ReflectionClass('TestFinalClass');
 
 var_dump($normalClass->isFinal());
 var_dump($finalClass->isFinal());

@@ -50,23 +50,23 @@ ftp_rename(FTP\Connection $ftp, string $from, string $to): bool
 
 ```php
 <?php
-$old_file = 'somefile.txt.bak';
-$new_file = 'somefile.txt';
+$old_file = 'somefile.txt.bak';
+$new_file = 'somefile.txt';
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// попытка переименовать $olf_file в $new_file
-if (ftp_rename($ftp, $old_file, $new_file)) {
- echo "Файл $old_file переименован в $new_file\n";
-} else {
- echo "Не удалось переименовать $old_file в $new_file\n";
+// попытка переименовать $olf_file в $new_file
+if (ftp_rename($ftp, $old_file, $new_file)) {
+ echo "Файл $old_file переименован в $new_file\n";
+} else {
+ echo "Не удалось переименовать $old_file в $new_file\n";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 ?>
 ```

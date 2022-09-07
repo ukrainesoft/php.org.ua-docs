@@ -40,30 +40,30 @@ public ImagickDraw::setFontSize(float $pointsize): bool
 
 ```php
 <?php
-function setFontSize($fillColor, $strokeColor, $backgroundColor) {
+function setFontSize($fillColor, $strokeColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(2);
-    $draw->setFont("../fonts/Arial.ttf");
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFont("../fonts/Arial.ttf");
 
-    $sizes = [24, 36, 48, 60, 72];
+    $sizes = [24, 36, 48, 60, 72];
 
-    foreach ($sizes as $size) {
-        $draw->setFontSize($size);
-        $draw->annotation(50, ($size * $size / 16), "Lorem Ipsum!");
-    }
+    foreach ($sizes as $size) {
+        $draw->setFontSize($size);
+        $draw->annotation(50, ($size * $size / 16), "Lorem Ipsum!");
+    }
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -32,8 +32,8 @@ radius_acct_open(): resource
 
 ```php
 <?php
-$res = radius_acct_open ()
-    or die ("Не удалось создать дескриптор");
-print("Дескриптор успешно создан");
+$res = radius_acct_open ()
+    or die ("Не удалось создать дескриптор");
+print("Дескриптор успешно создан");
 ?>
 ```

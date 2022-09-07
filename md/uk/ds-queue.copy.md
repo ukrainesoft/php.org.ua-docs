@@ -34,10 +34,10 @@ public Ds\Queue::copy(): Ds\Queue
 
 ```php
 <?php
-$a = new \Ds\Queue([1, 2, 3]);
-$b = $a->copy();
+$a = new \Ds\Queue([1, 2, 3]);
+$b = $a->copy();
 
-// Изменение копии не отражается на оригинале
+// Изменение копии не отражается на оригинале
 $b->push(4);
 
 print_r($a);

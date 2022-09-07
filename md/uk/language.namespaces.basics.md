@@ -28,13 +28,13 @@ file1.php
 
 ```php
 <?php
-namespace Foo\Bar\subnamespace;
+namespace Foo\Bar\subnamespace;
 
-const FOO = 1;
-function foo() {}
-class foo
+const FOO = 1;
+function foo() {}
+class foo
 {
-    static function staticmethod() {}
+    static function staticmethod() {}
 }
 ?>
 ```
@@ -43,31 +43,31 @@ file2.php
 
 ```php
 <?php
-namespace Foo\Bar;
-include 'file1.php';
+namespace Foo\Bar;
+include 'file1.php';
 
-const FOO = 2;
-function foo() {}
-class foo
+const FOO = 2;
+function foo() {}
+class foo
 {
-    static function staticmethod() {}
+    static function staticmethod() {}
 }
 
-/* Неполные имена */
-foo(); // определяется как функция Foo\Bar\foo
-foo::staticmethod(); // определяется как класс Foo\Bar\foo с методом staticmethod
-echo FOO; // определяется как константа Foo\Bar\FOO
+/* Неполные имена */
+foo(); // определяется как функция Foo\Bar\foo
+foo::staticmethod(); // определяется как класс Foo\Bar\foo с методом staticmethod
+echo FOO; // определяется как константа Foo\Bar\FOO
 
-/* Полные имена */
-subnamespace\foo(); // определяется как функция Foo\Bar\subnamespace\foo
-subnamespace\foo::staticmethod(); // определяется как класс Foo\Bar\subnamespace\foo
-                                  // c методом staticmethod
-echo subnamespace\FOO; // определяется как константа Foo\Bar\subnamespace\FOO
+/* Полные имена */
+subnamespace\foo(); // определяется как функция Foo\Bar\subnamespace\foo
+subnamespace\foo::staticmethod(); // определяется как класс Foo\Bar\subnamespace\foo
+                                  // c методом staticmethod
+echo subnamespace\FOO; // определяется как константа Foo\Bar\subnamespace\FOO
 
-/* Абсолютные имена */
-\Foo\Bar\foo(); // определяется как функция Foo\Bar\foo
-\Foo\Bar\foo::staticmethod(); // определяется как класс Foo\Bar\foo с методом staticmethod
-echo \Foo\Bar\FOO; // определяется как константа Foo\Bar\FOO
+/* Абсолютные имена */
+\Foo\Bar\foo(); // определяется как функция Foo\Bar\foo
+\Foo\Bar\foo::staticmethod(); // определяется как класс Foo\Bar\foo с методом staticmethod
+echo \Foo\Bar\FOO; // определяется как константа Foo\Bar\FOO
 ?>
 ```
 
@@ -77,14 +77,14 @@ echo \Foo\Bar\FOO; // определяется как константа F
 
 ```php
 <?php
-namespace Foo;
+namespace Foo;
 
-function strlen() {}
-const INI_ALL = 3;
-class Exception {}
+function strlen() {}
+const INI_ALL = 3;
+class Exception {}
 
-$a = \strlen('hi'); // вызывает глобальную функцию strlen
-$b = \INI_ALL; // получает доступ к глобальной константе INI_ALL
-$c = new \Exception('error'); // Создаёт экземпляр глобального класса Exception
+$a = \strlen('hi'); // вызывает глобальную функцию strlen
+$b = \INI_ALL; // получает доступ к глобальной константе INI_ALL
+$c = new \Exception('error'); // Создаёт экземпляр глобального класса Exception
 ?>
 ```

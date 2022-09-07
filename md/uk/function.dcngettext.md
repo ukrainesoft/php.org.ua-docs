@@ -15,7 +15,7 @@ dcngettext — Версія dcgettext для множини
 ### Опис
 
 ```methodsynopsis
-dcngettext(    string $domain,    string $singular,    string $plural,    int $count,    int $category): string
+dcngettext(    string $domain,    string $singular,    string $plural,    int $count,    int $category): string
 ```
 
 Ця функція дозволяє перевизначити одне повідомлення з використанням множини в поточному домені.

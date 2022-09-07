@@ -15,7 +15,7 @@ GearmanClient::addTaskHighBackground — Додати високопріорит
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::addTaskHighBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public GearmanClient::addTaskHighBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
 ```
 
 Додає високопріоритетне фонове завдання для паралельної роботи з іншими завданнями. Викличте цей метод для всіх завдань, які працюватимуть паралельно, а потім викличте [GearmanClient::runTasks()](gearmanclient.runtasks.md) для виконання робіт. Завдання з високим пріоритетом будуть вибрані із черги раніше завдань із нормальним або низьким пріоритетом.

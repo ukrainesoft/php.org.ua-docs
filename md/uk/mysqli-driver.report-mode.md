@@ -61,21 +61,21 @@ mysqli_report(int $flags): bool
 ```php
 <?php
 
-/* включение протоколирования */
-$driver = new mysqli_driver();
-$driver->report_mode = MYSQLI_REPORT_ALL;
+/* включение протоколирования */
+$driver = new mysqli_driver();
+$driver->report_mode = MYSQLI_REPORT_ALL;
 
-try {
-    /* если получится подключится, будет выброшено исключение mysqli_sql_exception */
-    $mysqli = new mysqli("localhost", "my_user", "my_password", "my_db");
+try {
+    /* если получится подключится, будет выброшено исключение mysqli_sql_exception */
+    $mysqli = new mysqli("localhost", "my_user", "my_password", "my_db");
 
-    /* этот запрос должен сообщить об ошибке */
-    $result = $mysqli->query("SELECT Name FROM Nonexistingtable WHERE population > 50000");
+    /* этот запрос должен сообщить об ошибке */
+    $result = $mysqli->query("SELECT Name FROM Nonexistingtable WHERE population > 50000");
 
-    /* этот запрос должен сообщить о неверном индексе, если у столбца population нет индекса */
-    $result = $mysqli->query("SELECT Name FROM City WHERE population > 50000");
-} catch (mysqli_sql_exception $e) {
-    error_log($e->__toString());
+    /* этот запрос должен сообщить о неверном индексе, если у столбца population нет индекса */
+    $result = $mysqli->query("SELECT Name FROM City WHERE population > 50000");
+} catch (mysqli_sql_exception $e) {
+    error_log($e->__toString());
 }
 ```
 
@@ -84,20 +84,20 @@ try {
 ```php
 <?php
 
-/* включение протоколирования */
+/* включение протоколирования */
 mysqli_report(MYSQLI_REPORT_ALL);
 
-try {
-    /* Если соединение завершилось с ошибкой, будет выброшено исключение mysqli_sql_exception */
-    $link = mysqli_connect("localhost", "my_user", "my_password", "my_db");
+try {
+    /* Если соединение завершилось с ошибкой, будет выброшено исключение mysqli_sql_exception */
+    $link = mysqli_connect("localhost", "my_user", "my_password", "my_db");
 
-    /* этот запрос должен сообщить об ошибке */
-    $result = mysqli_query($link, "SELECT Name FROM Nonexistingtable WHERE population > 50000");
+    /* этот запрос должен сообщить об ошибке */
+    $result = mysqli_query($link, "SELECT Name FROM Nonexistingtable WHERE population > 50000");
 
-    /* этот запрос должен сообщить о неверном индексе, если у столбца population нет индекса */
-    $result = mysqli_query($link, "SELECT Name FROM City WHERE population > 50000");
-} catch (mysqli_sql_exception $e) {
-    error_log($e->__toString());
+    /* этот запрос должен сообщить о неверном индексе, если у столбца population нет индекса */
+    $result = mysqli_query($link, "SELECT Name FROM City WHERE population > 50000");
+} catch (mysqli_sql_exception $e) {
+    error_log($e->__toString());
 }
 ```
 
@@ -106,20 +106,20 @@ try {
 ```php
 <?php
 
-/* включение протоколирования */
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+/* включение протоколирования */
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-try {
-    /* если получится подключится, будет выброшено исключение mysqli_sql_exception */
-    $mysqli = new mysqli("localhost", "my_user", "my_password", "my_db");
+try {
+    /* если получится подключится, будет выброшено исключение mysqli_sql_exception */
+    $mysqli = new mysqli("localhost", "my_user", "my_password", "my_db");
 
-    /* этот запрос должен сообщить об ошибке */
-    $result = $mysqli->query("SELECT Name FROM Nonexistingtable WHERE population > 50000");
+    /* этот запрос должен сообщить об ошибке */
+    $result = $mysqli->query("SELECT Name FROM Nonexistingtable WHERE population > 50000");
 
-    /* это НЕ БУДЕТ сообщать об ошибках, даже если индекс недоступен */
-    $result = $mysqli->query("SELECT Name FROM City WHERE population > 50000");
-} catch (mysqli_sql_exception $e) {
-    error_log($e->__toString());
+    /* это НЕ БУДЕТ сообщать об ошибках, даже если индекс недоступен */
+    $result = $mysqli->query("SELECT Name FROM City WHERE population > 50000");
+} catch (mysqli_sql_exception $e) {
+    error_log($e->__toString());
 }
 ```
 

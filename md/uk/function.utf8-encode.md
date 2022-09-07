@@ -53,10 +53,10 @@ utf8_encode(string $string): string
 
 ```php
 <?php
-// Преобразование строки 'Zoë' из ISO 8859-1 в UTF-8
-$iso8859_1_string = "\x5A\x6F\xEB";
-$utf8_string = utf8_encode($iso8859_1_string);
-echo bin2hex($utf8_string), "\n";
+// Преобразование строки 'Zoë' из ISO 8859-1 в UTF-8
+$iso8859_1_string = "\x5A\x6F\xEB";
+$utf8_string = utf8_encode($iso8859_1_string);
+echo bin2hex($utf8_string), "\n";
 ?>
 ```
 

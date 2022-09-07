@@ -15,7 +15,7 @@ ftpput — Завантажує файл на сервер FTP
 ### Опис
 
 ```methodsynopsis
-ftp_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
+ftp_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
 ```
 
 **ftpput()** завантажує локальний файл на сервер FTP.
@@ -59,23 +59,23 @@ ftp_put(    FTP\Connection $ftp,    string $remote_filename,    stri
 
 ```php
 <?php
-$file = 'somefile.txt';
-$remote_file = 'readme.txt';
+$file = 'somefile.txt';
+$remote_file = 'readme.txt';
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// загрузка файла
-if (ftp_put($ftp, $remote_file, $file, FTP_ASCII)) {
- echo "$file успешно загружен на сервер\n";
-} else {
- echo "Не удалось загрузить $file на сервер\n";
+// загрузка файла
+if (ftp_put($ftp, $remote_file, $file, FTP_ASCII)) {
+ echo "$file успешно загружен на сервер\n";
+} else {
+ echo "Не удалось загрузить $file на сервер\n";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 ?>
 ```

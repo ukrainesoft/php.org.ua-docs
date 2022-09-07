@@ -15,7 +15,7 @@ ociconnect — Встановлює з'єднання з базою даних O
 ### Опис
 
 ```methodsynopsis
-oci_connect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
+oci_connect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
 ```
 
 Повертає ідентифікатор з'єднання, який використовується більшістю функцій модуля.
@@ -38,7 +38,7 @@ oci_connect(    string $username,    string $password,    ?string $c
 
 `connection_string`
 
-Містить `экземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
+Містить `экземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
 
 Якщо не вказано окремо або **`null`**, PHP використовує змінні оточення, такі як **`TWO_TASK`** (на Linux) або **`LOCAL`** (на Windows) та **`ORACLE_SID`** для визначення `экземпляра Oracle` для з'єднання.
 
@@ -81,25 +81,25 @@ oci_connect(    string $username,    string $password,    ?string $c
 ```php
 <?php
 
-// Подключается к XE сервису (т.е. к базе данных) на "localhost"
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+// Подключается к XE сервису (т.е. к базе данных) на "localhost"
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM employees');
+$stid = oci_parse($conn, 'SELECT * FROM employees');
 oci_execute($stid);
 
-echo "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
-    }
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 ?>
 ```
@@ -109,35 +109,35 @@ echo "</table>\n";
 ```php
 <?php
 
-// Соединяется с базой данных MYDB описанной в файле tnsnames.ora,
-// Пример записи в tnsnames.ora для MYDB:
-//   MYDB =
-//     (DESCRIPTION =
-//       (ADDRESS = (PROTOCOL = TCP)(HOST = mymachine.oracle.com)(PORT = 1521))
-//       (CONNECT_DATA =
-//         (SERVER = DEDICATED)
-//         (SERVICE_NAME = XE)
-//       )
-//     )
+// Соединяется с базой данных MYDB описанной в файле tnsnames.ora,
+// Пример записи в tnsnames.ora для MYDB:
+//   MYDB =
+//     (DESCRIPTION =
+//       (ADDRESS = (PROTOCOL = TCP)(HOST = mymachine.oracle.com)(PORT = 1521))
+//       (CONNECT_DATA =
+//         (SERVER = DEDICATED)
+//         (SERVICE_NAME = XE)
+//       )
+//     )
 
-$conn = oci_connect('hr', 'welcome', 'MYDB');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'MYDB');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM employees');
+$stid = oci_parse($conn, 'SELECT * FROM employees');
 oci_execute($stid);
 
-echo "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
-    }
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 ?>
 ```
@@ -147,24 +147,24 @@ echo "</table>\n";
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE', 'AL32UTF8');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE', 'AL32UTF8');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM employees');
+$stid = oci_parse($conn, 'SELECT * FROM employees');
 oci_execute($stid);
 
-echo "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
-    }
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 ?>
 ```
@@ -174,98 +174,98 @@ echo "</table>\n";
 ```php
 <?php
 
-$c1 = oci_connect("hr", "welcome", 'localhost/XE');
-$c2 = oci_connect("hr", "welcome", 'localhost/XE');
+$c1 = oci_connect("hr", "welcome", 'localhost/XE');
+$c2 = oci_connect("hr", "welcome", 'localhost/XE');
 
-// $c1 и $c2 содержат одинаковый PHP id ресурса, что означает, что
-// они используют одинаковое базовое соединение
-echo "c1 is $c1<br>\n";
-echo "c2 is $c2<br>\n";
+// $c1 и $c2 содержат одинаковый PHP id ресурса, что означает, что
+// они используют одинаковое базовое соединение
+echo "c1 is $c1<br>\n";
+echo "c2 is $c2<br>\n";
 
-function create_table($conn)
+function create_table($conn)
 {
-    $stmt = oci_parse($conn, "create table hallo (test varchar2(64))");
-    oci_execute($stmt);
-    echo "Created table<br>\n";
+    $stmt = oci_parse($conn, "create table hallo (test varchar2(64))");
+    oci_execute($stmt);
+    echo "Created table<br>\n";
 }
 
-function drop_table($conn)
+function drop_table($conn)
 {
-    $stmt = oci_parse($conn, "drop table hallo");
-    oci_execute($stmt);
-    echo "Dropped table<br>\n";
+    $stmt = oci_parse($conn, "drop table hallo");
+    oci_execute($stmt);
+    echo "Dropped table<br>\n";
 }
 
-function insert_data($connname, $conn)
+function insert_data($connname, $conn)
 {
-    $stmt = oci_parse($conn, "insert into hallo
-              values(to_char(sysdate,'DD-MON-YY HH24:MI:SS'))");
-    oci_execute($stmt, OCI_DEFAULT);
-    echo "$connname inserted row without committing<br>\n";
+    $stmt = oci_parse($conn, "insert into hallo
+              values(to_char(sysdate,'DD-MON-YY HH24:MI:SS'))");
+    oci_execute($stmt, OCI_DEFAULT);
+    echo "$connname inserted row without committing<br>\n";
 }
 
-function rollback($connname, $conn)
+function rollback($connname, $conn)
 {
-    oci_rollback($conn);
-    echo "$connname rollback<br>\n";
+    oci_rollback($conn);
+    echo "$connname rollback<br>\n";
 }
 
-function select_data($connname, $conn)
+function select_data($connname, $conn)
 {
-    $stmt = oci_parse($conn, "select * from hallo");
-    oci_execute($stmt, OCI_DEFAULT);
-    echo "$connname ----selecting<br>\n";
-    while (oci_fetch($stmt)) {
-        echo "    " . oci_result($stmt, "TEST") . "<br>\n";
-    }
-    echo "$connname ----done<br>\n";
+    $stmt = oci_parse($conn, "select * from hallo");
+    oci_execute($stmt, OCI_DEFAULT);
+    echo "$connname ----selecting<br>\n";
+    while (oci_fetch($stmt)) {
+        echo "    " . oci_result($stmt, "TEST") . "<br>\n";
+    }
+    echo "$connname ----done<br>\n";
 }
 
 create_table($c1);
 
-insert_data('c1', $c1);   // Вставить строку используя c1
-sleep(2);                 // остановиться для записи другой временной метки для следующей строки
-insert_data('c2', $c2);   // Вставить строку используя c2
+insert_data('c1', $c1);   // Вставить строку используя c1
+sleep(2);                 // остановиться для записи другой временной метки для следующей строки
+insert_data('c2', $c2);   // Вставить строку используя c2
 
-select_data('c1', $c1);   // Возврат результата обоих вставок
-select_data('c2', $c2);   // Возврат результата обоих вставок
+select_data('c1', $c1);   // Возврат результата обоих вставок
+select_data('c2', $c2);   // Возврат результата обоих вставок
 
-rollback('c1', $c1);      // Откат используя c1
+rollback('c1', $c1);      // Откат используя c1
 
-select_data('c1', $c1);   // Откат был произведён для обоих вставок
-select_data('c2', $c2);
+select_data('c1', $c1);   // Откат был произведён для обоих вставок
+select_data('c2', $c2);
 
 drop_table($c1);
 
-// Закрытие одного из соединений делает переменную PHP недоступной, но
-// другие могут быть использованы
+// Закрытие одного из соединений делает переменную PHP недоступной, но
+// другие могут быть использованы
 oci_close($c1);
-echo "c1 is $c1<br>\n";
-echo "c2 is $c2<br>\n";
+echo "c1 is $c1<br>\n";
+echo "c2 is $c2<br>\n";
 
 
-// Вывод is:
-//    c1 is Resource id #5
-//    c2 is Resource id #5
-//    Created table
-//    c1 inserted row without committing
-//    c2 inserted row without committing
-//    c1 ----selecting
-//        09-DEC-09 12:14:43
-//        09-DEC-09 12:14:45
-//    c1 ----done
-//    c2 ----selecting
-//        09-DEC-09 12:14:43
-//        09-DEC-09 12:14:45
-//    c2 ----done
-//    c1 rollback
-//    c1 ----selecting
-//    c1 ----done
-//    c2 ----selecting
-//    c2 ----done
-//    Dropped table
-//    c1 is
-//    c2 is Resource id #5
+// Вывод is:
+//    c1 is Resource id #5
+//    c2 is Resource id #5
+//    Created table
+//    c1 inserted row without committing
+//    c2 inserted row without committing
+//    c1 ----selecting
+//        09-DEC-09 12:14:43
+//        09-DEC-09 12:14:45
+//    c1 ----done
+//    c2 ----selecting
+//        09-DEC-09 12:14:43
+//        09-DEC-09 12:14:45
+//    c2 ----done
+//    c1 rollback
+//    c1 ----selecting
+//    c1 ----done
+//    c2 ----selecting
+//    c2 ----done
+//    Dropped table
+//    c1 is
+//    c2 is Resource id #5
 
 ?>
 ```

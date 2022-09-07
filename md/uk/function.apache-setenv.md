@@ -48,7 +48,7 @@ apache_setenv(string $variable, string $value, bool $walk_to_top = false): bool
 
 ```php
 <?php
-apache_setenv("EXAMPLE_VAR", "Какое-либо значение");
+apache_setenv("EXAMPLE_VAR", "Какое-либо значение");
 ?>
 ```
 

@@ -35,21 +35,21 @@ public ReflectionGenerator::getExecutingGenerator(): Generator
 ```php
 <?php
 
-class GenExample
+class GenExample
 {
-    public function gen()
-    {
-        yield 1;
-    }
+    public function gen()
+    {
+        yield 1;
+    }
 }
 
-$gen = (new GenExample)->gen();
+$gen = (new GenExample)->gen();
 
-$reflectionGen = new ReflectionGenerator($gen);
+$reflectionGen = new ReflectionGenerator($gen);
 
-$gen2 = $reflectionGen->getExecutingGenerator();
+$gen2 = $reflectionGen->getExecutingGenerator();
 
-var_dump($gen2 === $gen);
+var_dump($gen2 === $gen);
 var_dump($gen2->current());
 ```
 

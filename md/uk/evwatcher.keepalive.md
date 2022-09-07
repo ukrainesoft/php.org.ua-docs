@@ -44,8 +44,8 @@ public
 
 ```php
 <?php
-$udp_socket = ...
-$udp_watcher = new EvIo($udp_socket, Ev::READ, function () { /* ... */ });
+$udp_socket = ...
+$udp_watcher = new EvIo($udp_socket, Ev::READ, function () { /* ... */ });
 $udp_watcher->keepalive(FALSE);
 ?>
 ```

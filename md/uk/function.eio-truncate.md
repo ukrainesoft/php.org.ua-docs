@@ -15,7 +15,7 @@ eiotruncate — Зменшує розмір файлу
 ### Опис
 
 ```methodsynopsis
-eio_truncate(    string $path,    int $offset = 0,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_truncate(    string $path,    int $offset = 0,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiotruncate()** урізує файл, дескриптор якого вказаний у параметрі `fd` точно до `length` байт.
@@ -39,7 +39,7 @@ eio_truncate(    string $path,    int $offset = 0,    int $pri = EIO
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

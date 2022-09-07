@@ -42,11 +42,11 @@ public Imagick::reduceNoiseImage(float $radius): bool
 
 ```php
 <?php
-function reduceNoiseImage($imagePath, $reduceNoise) {
-    $imagick = new \Imagick(realpath($imagePath));
-    @$imagick->reduceNoiseImage($reduceNoise);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function reduceNoiseImage($imagePath, $reduceNoise) {
+    $imagick = new \Imagick(realpath($imagePath));
+    @$imagick->reduceNoiseImage($reduceNoise);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

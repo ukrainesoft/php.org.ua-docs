@@ -15,7 +15,7 @@ title: псshowboxed
 ### Опис
 
 ```methodsynopsis
-ps_show_boxed(    resource $psdoc,    string $text,    float $left,    float $bottom,    float $width,    float $height,    string $hmode,    string $feature = ?): int
+ps_show_boxed(    resource $psdoc,    string $text,    float $left,    float $bottom,    float $width,    float $height,    string $hmode,    string $feature = ?): int
 ```
 
 Виводить текст у заданому полі. Нижній лівий кут поля знаходиться в (`left` `bottom`). За потреби будуть вставлені розриви рядків. Декілька прогалин розглядаються як один. Табулятори розглядаються як прогалини.

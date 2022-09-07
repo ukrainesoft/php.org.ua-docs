@@ -52,13 +52,13 @@ db2_autocommit(resource $connection, bool $value = ?): mixed
 
 ```php
 <?php
-$options = array('autocommit' => DB2_AUTOCOMMIT_OFF);
-$conn = db2_connect($database, $user, $password, $options);
-$ac = db2_autocommit($conn);
-if ($ac == DB2_AUTOCOMMIT_OFF) {
-    print "$ac -- автоподтверждение включено.";
-} else {
-    print "$ac -- автоподтверждение отключено.";
+$options = array('autocommit' => DB2_AUTOCOMMIT_OFF);
+$conn = db2_connect($database, $user, $password, $options);
+$ac = db2_autocommit($conn);
+if ($ac == DB2_AUTOCOMMIT_OFF) {
+    print "$ac -- автоподтверждение включено.";
+} else {
+    print "$ac -- автоподтверждение отключено.";
 }
 ?>
 ```
@@ -75,21 +75,21 @@ if ($ac == DB2_AUTOCOMMIT_OFF) {
 
 ```php
 <?php
-$options = array('autocommit' => DB2_AUTOCOMMIT_OFF);
-$conn = db2_connect($database, $user, $password, $options);
+$options = array('autocommit' => DB2_AUTOCOMMIT_OFF);
+$conn = db2_connect($database, $user, $password, $options);
 
-// Включаем автоподтверждение
-$rc = db2_autocommit($conn, DB2_AUTOCOMMIT_ON);
-if ($rc) {
-    print "Автоподтверждение успешно включено.\n";
+// Включаем автоподтверждение
+$rc = db2_autocommit($conn, DB2_AUTOCOMMIT_ON);
+if ($rc) {
+    print "Автоподтверждение успешно включено.\n";
 }
 
-// ппроверяет текущий режим
-$ac = db2_autocommit($conn);
-if ($ac == DB2_AUTOCOMMIT_OFF) {
-    print "$ac -- автоподтверждение включено.";
-} else {
-    print "$ac -- автоподтверждение отключено.";
+// ппроверяет текущий режим
+$ac = db2_autocommit($conn);
+if ($ac == DB2_AUTOCOMMIT_OFF) {
+    print "$ac -- автоподтверждение включено.";
+} else {
+    print "$ac -- автоподтверждение отключено.";
 }
 ?>
 ```

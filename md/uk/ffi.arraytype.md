@@ -22,8 +22,8 @@ public static FFI::arrayType(FFI\CType $type, array $dimensions): FFI\CType
 
 ```php
 <?php
-$t1 = FFI::type("int[2][3]");
-$t2 = FFI::arrayType(FFI::type("int"), [2, 3]);
+$t1 = FFI::type("int[2][3]");
+$t2 = FFI::arrayType(FFI::type("int"), [2, 3]);
 ?>
 ```
 

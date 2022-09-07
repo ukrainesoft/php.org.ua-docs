@@ -42,7 +42,7 @@ gnupg_adddecryptkey(resource $identifier, string $fingerprint, string $passphras
 
 ```php
 <?php
-$res = gnupg_init();
+$res = gnupg_init();
 gnupg_adddecryptkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");
 ?>
 ```
@@ -51,7 +51,7 @@ gnupg_adddecryptkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
 ?>
 ```

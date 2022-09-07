@@ -50,14 +50,14 @@ imagetruecolortopalette(GdImage $image, bool $dither, int $num_colors): bool
 
 ```php
 <?php
-// Создание полноцветного изображения
-$im = imagecreatetruecolor(100, 100);
+// Создание полноцветного изображения
+$im = imagecreatetruecolor(100, 100);
 
-// Преобразование в палитровое (255 цветов) без сглаживания
-imagetruecolortopalette($im, false, 255);
+// Преобразование в палитровое (255 цветов) без сглаживания
+imagetruecolortopalette($im, false, 255);
 
-// Сохранение картинки
-imagepng($im, './paletteimage.png');
+// Сохранение картинки
+imagepng($im, './paletteimage.png');
 imagedestroy($im);
 ?>
 ```

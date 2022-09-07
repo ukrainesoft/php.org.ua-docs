@@ -42,10 +42,10 @@ mysql_client_encoding(resource $link_identifier = NULL): string
 
 ```php
 <?php
-$link    = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-$charset = mysql_client_encoding($link);
+$link    = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$charset = mysql_client_encoding($link);
 
-echo "Текущая кодировка: $charset\n";
+echo "Текущая кодировка: $charset\n";
 ?>
 ```
 

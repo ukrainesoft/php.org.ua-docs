@@ -54,12 +54,12 @@ msgfmt_parse_message(string $locale, string $pattern, string $message): array|fa
 
 ```php
 <?php
-$fmt = msgfmt_parse_message('en_US', "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree",
-                            "4,560 monkeys on 123 trees make 37.073 monkeys per tree");
+$fmt = msgfmt_parse_message('en_US', "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree",
+                            "4,560 monkeys on 123 trees make 37.073 monkeys per tree");
 var_export($fmt);
 
-$fmt = msgfmt_parse_message('de', "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum",
-                            "4.560 Affen auf 123 Bäumen sind 37,073 Affen pro Baum");
+$fmt = msgfmt_parse_message('de', "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum",
+                            "4.560 Affen auf 123 Bäumen sind 37,073 Affen pro Baum");
 var_export($fmt);
 ?>
 ```
@@ -68,12 +68,12 @@ var_export($fmt);
 
 ```php
 <?php
-$fmt = MessageFormatter::parseMessage('en_US', "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree",
-                            "4,560 monkeys on 123 trees make 37.073 monkeys per tree");
+$fmt = MessageFormatter::parseMessage('en_US', "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree",
+                            "4,560 monkeys on 123 trees make 37.073 monkeys per tree");
 var_export($fmt);
 
-$fmt = MessageFormatter::parseMessage('de', "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum",
-                            "4.560 Affen auf 123 Bäumen sind 37,073 Affen pro Baum");
+$fmt = MessageFormatter::parseMessage('de', "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum",
+                            "4.560 Affen auf 123 Bäumen sind 37,073 Affen pro Baum");
 var_export($fmt);
 ?>
 ```

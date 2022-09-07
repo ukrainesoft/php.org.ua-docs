@@ -24,7 +24,7 @@ public Phar::setMetadata(mixed $metadata): void
 
 Функція **Phar::setMetadata()** використовується для збереження даних, що характеризують phar-архів загалом . [PharFileInfo::setMetadata()](pharfileinfo.setmetadata.md) використовується для встановлення метаданих для файлу. Якщо метаданих буде багато, це може знизити швидкість завантаження phar-архіву.
 
-Метадані можна використовувати, наприклад, для вказівки, який файл повинен виконуватися під час завантаження, або для вказівки розташування маніфесту, типу package.xml для модуля [» PEAR](https://pear.php.net/). Загалом будь-які корисні в контексті phar-архіву дані.
+Метадані можна використовувати, наприклад, для вказівки, який файл повинен виконуватися під час завантаження, або для вказівки розташування маніфесту, типу package.xml для модуля [» PEAR](https://pear.php.net/). Загалом будь-які корисні в контексті phar-архіву дані.
 
 ### Список параметрів
 
@@ -42,15 +42,15 @@ public Phar::setMetadata(mixed $metadata): void
 
 ```php
 <?php
-// удалим, на всякий случай
+// удалим, на всякий случай
 @unlink('brandnewphar.phar');
-try {
-    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
-    $p['file.php'] = '<?php echo "привет"';
-    $p->setMetadata(array('bootstrap' => 'file.php'));
-    var_dump($p->getMetadata());
-} catch (Exception $e) {
-    echo 'Не могу создать/изменить phar:', $e;
+try {
+    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+    $p['file.php'] = '<?php echo "привет"';
+    $p->setMetadata(array('bootstrap' => 'file.php'));
+    var_dump($p->getMetadata());
+} catch (Exception $e) {
+    echo 'Не могу создать/изменить phar:', $e;
 }
 ?>
 ```

@@ -45,13 +45,13 @@ sodium_crypto_core_ristretto255_scalar_add(string $x, string $y): string
 ```php
 <?php
 
-$foo = sodium_crypto_core_ristretto255_scalar_random();
-$bar = sodium_crypto_core_ristretto255_scalar_random();
+$foo = sodium_crypto_core_ristretto255_scalar_random();
+$bar = sodium_crypto_core_ristretto255_scalar_random();
 
-$value = sodium_crypto_core_ristretto255_scalar_add($foo, $bar);
-$value = sodium_crypto_core_ristretto255_scalar_sub($value, $bar);
+$value = sodium_crypto_core_ristretto255_scalar_add($foo, $bar);
+$value = sodium_crypto_core_ristretto255_scalar_sub($value, $bar);
 
-var_dump(hash_equals($foo, $value));
+var_dump(hash_equals($foo, $value));
 ?>
 ```
 

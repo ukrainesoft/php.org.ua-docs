@@ -36,21 +36,21 @@ public ReflectionClassConstant::isEnumCase(): bool
 
 ```php
 <?php
-enum Status
+enum Status
 {
-    const BORING_CONSTANT = 'test';
-    const ENUM_VALUE = Status::PUBLISHED;
+    const BORING_CONSTANT = 'test';
+    const ENUM_VALUE = Status::PUBLISHED;
 
-    case DRAFT;
-    case PUBLISHED;
-    case ARCHIVED;
+    case DRAFT;
+    case PUBLISHED;
+    case ARCHIVED;
 }
 
-$reflection = new ReflectionEnum(Status::class);
-foreach ($reflection->getReflectionConstants() as $constant) {
-    echo "{$constant->name} - это ",
-        $constant->isEnumCase() ? "вариант переключения" : "обычная константа класса",
-        PHP_EOL;
+$reflection = new ReflectionEnum(Status::class);
+foreach ($reflection->getReflectionConstants() as $constant) {
+    echo "{$constant->name} - это ",
+        $constant->isEnumCase() ? "вариант переключения" : "обычная константа класса",
+        PHP_EOL;
 }
 ?>
 ```

@@ -40,9 +40,9 @@ gnupg_export(resource $identifier, string $fingerprint): string
 
 ```php
 <?php
-$res = gnupg_init();
-$export = gnupg_export($res, "8660281B6051D071D94B5B230549F9DC851566DC");
-echo $export;
+$res = gnupg_init();
+$export = gnupg_export($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+echo $export;
 ?>
 ```
 
@@ -50,7 +50,7 @@ echo $export;
 
 ```php
 <?php
-$gpg = new gnupg();
-$export = $gpg->export("8660281B6051D071D94B5B230549F9DC851566DC");
+$gpg = new gnupg();
+$export = $gpg->export("8660281B6051D071D94B5B230549F9DC851566DC");
 ?>
 ```

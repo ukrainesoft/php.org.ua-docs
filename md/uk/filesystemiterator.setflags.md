@@ -38,16 +38,16 @@ public FilesystemIterator::setFlags(int $flags): void
 
 ```php
 <?php
-$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_PATHNAME);
-echo "Ключом является путь к файлу:\n";
-foreach ($iterator as $key => $fileinfo) {
-    echo $key . "\n";
+$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_PATHNAME);
+echo "Ключом является путь к файлу:\n";
+foreach ($iterator as $key => $fileinfo) {
+    echo $key . "\n";
 }
 
 $iterator->setFlags(FilesystemIterator::KEY_AS_FILENAME);
-echo "\nКлючом является имя файла:\n";
-foreach ($iterator as $key => $fileinfo) {
-    echo $key . "\n";
+echo "\nКлючом является имя файла:\n";
+foreach ($iterator as $key => $fileinfo) {
+    echo $key . "\n";
 }
 ?>
 ```

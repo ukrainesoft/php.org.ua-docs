@@ -15,7 +15,7 @@ Memcached::cas — Порівнює та встановлює значення �
 ### Опис
 
 ```methodsynopsis
-public Memcached::cas(    float $cas_token,    string $key,    mixed $value,    int $expiration = ?): bool
+public Memcached::cas(    float $cas_token,    string $key,    mixed $value,    int $expiration = ?): bool
 ```
 
 **Memcached::cas()** здійснює перевірку та встановлення значення запису, нове значення буде збережено тільки якщо інші клієнти не оновили його з часу останнього звернення цим клієнтом. Ця перевірка здійснюється за допомогою параметра `cas_token`, який являє собою 64-бітове значення, присвоєне існуючому запису сервером memcache. Зверніться до документації методу **Memcached::get**який використовується для отримання цього токена. Зверніть увагу, що токен представлений у вигляді числа подвійної точності через обмеження діапазону значень цілого типу в PHP.
@@ -48,24 +48,24 @@ public Memcached::cas(    float $cas_token,    string $key,    mixed
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-do {
-    /* fetch IP list and its token */
-    $ips = $m->get('ip_block', null, $cas);
-    /* if list doesn't exist yet, create it and do
-       an atomic add which will fail if someone else already added it */
-    if ($m->getResultCode() == Memcached::RES_NOTFOUND) {
-        $ips = array($_SERVER['REMOTE_ADDR']);
-        $m->add('ip_block', $ips);
-    /* otherwise, add IP to the list and store via compare-and-swap
-       with the token, which will fail if someone else updated the list */
-    } else {
-        $ips[] = $_SERVER['REMOTE_ADDR'];
-        $m->cas($cas, 'ip_block', $ips);
-    }
-} while ($m->getResultCode() != Memcached::RES_SUCCESS);
+do {
+    /* fetch IP list and its token */
+    $ips = $m->get('ip_block', null, $cas);
+    /* if list doesn't exist yet, create it and do
+       an atomic add which will fail if someone else already added it */
+    if ($m->getResultCode() == Memcached::RES_NOTFOUND) {
+        $ips = array($_SERVER['REMOTE_ADDR']);
+        $m->add('ip_block', $ips);
+    /* otherwise, add IP to the list and store via compare-and-swap
+       with the token, which will fail if someone else updated the list */
+    } else {
+        $ips[] = $_SERVER['REMOTE_ADDR'];
+        $m->cas($cas, 'ip_block', $ips);
+    }
+} while ($m->getResultCode() != Memcached::RES_SUCCESS);
 
 ?>
 ```

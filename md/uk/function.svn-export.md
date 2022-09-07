@@ -15,7 +15,7 @@ svnexport — Експортує вміст директорії SVN
 ### Опис
 
 ```methodsynopsis
-svn_export(    string $frompath,    string $topath,    bool $working_copy = true,    int $revision_no = -1): bool
+svn_export(    string $frompath,    string $topath,    bool $working_copy = true,    int $revision_no = -1): bool
 ```
 
 Експортує дані як з робочої копії, так і з репозиторію в чисту директорію.
@@ -44,10 +44,10 @@ svn_export(    string $frompath,    string $topath,    bool $working
 
 ```php
 <?php
-$working_dir     = '../';
-$new_working_dir = '/home/user/devel/foo/trunk';
+$working_dir     = '../';
+$new_working_dir = '/home/user/devel/foo/trunk';
 
-svn_export($working_dir, $new_working_dir);
+svn_export($working_dir, $new_working_dir);
 ?>
 ```
 

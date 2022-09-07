@@ -15,7 +15,7 @@ title: псaddbookmark
 ### Опис
 
 ```methodsynopsis
-ps_add_bookmark(    resource $psdoc,    string $text,    int $parent = 0,    int $open = 0): int
+ps_add_bookmark(    resource $psdoc,    string $text,    int $parent = 0,    int $open = 0): int
 ```
 
 Додає закладку до поточної сторінки. Закладки зазвичай видно у програмах перегляду PDF ліворуч від сторінки в ієрархічному дереві. Натискання на закладку відкриває сторінку, на яку вона посилається.

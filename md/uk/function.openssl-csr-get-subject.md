@@ -46,23 +46,23 @@ openssl_csr_get_subject(OpenSSLCertificateSigningRequest|string $csr, bool $shor
 
 ```php
 <?php
-$subject = array(
-    "countryName" => "CA",
-    "stateOrProvinceName" => "Alberta",
-    "localityName" => "Calgary",
-    "organizationName" => "XYZ Widgets Inc",
-    "organizationalUnitName" => "PHP Documentation Team",
-    "commonName" => "Wez Furlong",
-    "emailAddress" => "wez@example.com",
+$subject = array(
+    "countryName" => "CA",
+    "stateOrProvinceName" => "Alberta",
+    "localityName" => "Calgary",
+    "organizationName" => "XYZ Widgets Inc",
+    "organizationalUnitName" => "PHP Documentation Team",
+    "commonName" => "Wez Furlong",
+    "emailAddress" => "wez@example.com",
 );
-$private_key = openssl_pkey_new(array(
-    "private_key_bits" => 2048,
-    "private_key_type" => OPENSSL_KEYTYPE_RSA,
+$private_key = openssl_pkey_new(array(
+    "private_key_bits" => 2048,
+    "private_key_type" => OPENSSL_KEYTYPE_RSA,
 ));
-$configargs = array(
-    'digest_alg' => 'sha512WithRSAEncryption'
+$configargs = array(
+    'digest_alg' => 'sha512WithRSAEncryption'
 );
-$csr = openssl_csr_new($subject, $privkey, $configargs);
+$csr = openssl_csr_new($subject, $privkey, $configargs);
 print_r(openssl_csr_get_subject($csr));
 ?>
 ```

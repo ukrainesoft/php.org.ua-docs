@@ -73,7 +73,7 @@ const
 
     /* Методы */
     
-   public __construct(    string $filename,    int $flags = FilesystemIterator::SKIP_DOTS | FilesystemIterator::UNIX_PATHS,    ?string $alias = null,    int $format = 0)
+   public __construct(    string $filename,    int $flags = FilesystemIterator::SKIP_DOTS | FilesystemIterator::UNIX_PATHS,    ?string $alias = null,    int $format = 0)
 
     public addEmptyDir(string $directory): void
 public addFile(string $filename, ?string $localName = null): void

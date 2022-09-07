@@ -15,7 +15,7 @@ ssh2exec — Виконання команди на віддаленому се�
 ### Опис
 
 ```methodsynopsis
-ssh2_exec(    resource $session,    string $command,    string $pty = ?,    array $env = ?,    int $width = 80,    int $height = 25,    int $width_height_type = SSH2_TERM_UNIT_CHARS): resource|false
+ssh2_exec(    resource $session,    string $command,    string $pty = ?,    array $env = ?,    int $width = 80,    int $height = 25,    int $width_height_type = SSH2_TERM_UNIT_CHARS): resource|false
 ```
 
 Запуск команди на віддаленому сервері та виділення для неї каналу.
@@ -56,10 +56,10 @@ ssh2_exec(    resource $session,    string $command,    string $pty 
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
 
-$stream = ssh2_exec($connection, '/usr/local/bin/php -i');
+$stream = ssh2_exec($connection, '/usr/local/bin/php -i');
 ?>
 ```
 

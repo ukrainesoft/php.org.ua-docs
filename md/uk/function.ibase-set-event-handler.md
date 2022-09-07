@@ -19,7 +19,7 @@ ibase_set_event_handler(callable $event_handler, string $event_name, string ...$
 ```
 
 ```methodsynopsis
-ibase_set_event_handler(    resource $connection,    callable $event_handler,    string $event_name,    string ...$event_names): resource
+ibase_set_event_handler(    resource $connection,    callable $event_handler,    string $event_name,    string ...$event_names): resource
 ```
 
 Функція реєструє функцію PHP в якості обробника подій для зазначених подій.
@@ -51,18 +51,18 @@ Callback-функція має повертати **`false`**, якщо обро
 ```php
 <?php
 
-function event_handler($event_name, $link)
+function event_handler($event_name, $link)
 {
-    if ($event_name == "NEW ORDER") {
-        // обрабатываем новый заказ
-        ibase_query($link, "UPDATE orders SET status='handled'");
-    } else if ($event_name == "DB_SHUTDOWN") {
-        // отменяем обработчик событий
-        return false;
-    }
+    if ($event_name == "NEW ORDER") {
+        // обрабатываем новый заказ
+        ibase_query($link, "UPDATE orders SET status='handled'");
+    } else if ($event_name == "DB_SHUTDOWN") {
+        // отменяем обработчик событий
+        return false;
+    }
 }
 
-ibase_set_event_handler($link, "event_handler", "NEW_ORDER", "DB_SHUTDOWN");
+ibase_set_event_handler($link, "event_handler", "NEW_ORDER", "DB_SHUTDOWN");
 ?>
 ```
 

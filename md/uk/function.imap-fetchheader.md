@@ -18,7 +18,7 @@ imapfetchheader — Отримати назву повідомлення
 imap_fetchheader(IMAP\Connection $imap, int $message_num, int $flags = 0): string|false
 ```
 
-Ця функція отримує повний, нефільтрований заголовок у форматі [» RFC2822](http://www.faqs.org/rfcs/rfc2822) для заданого повідомлення.
+Ця функція отримує повний, нефільтрований заголовок у форматі [» RFC2822](http://www.faqs.org/rfcs/rfc2822) для заданого повідомлення.
 
 ### Список параметрів
 

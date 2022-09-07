@@ -46,10 +46,10 @@ True для установки біта (установки в 1/включен�
 
 ```php
 <?php
-$a = gmp_init("2"); //
-echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
-gmp_setbit($a, 0); // 0b10 now becomes 0b11
-echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+$a = gmp_init("2"); //
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+gmp_setbit($a, 0); // 0b10 now becomes 0b11
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 ?>
 ```
 
@@ -64,10 +64,10 @@ echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 
 ```php
 <?php
-$a = gmp_init("0xfd");
-echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
-gmp_setbit($a, 1); // index starts at 0
-echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+$a = gmp_init("0xfd");
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+gmp_setbit($a, 1); // index starts at 0
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 ?>
 ```
 
@@ -82,10 +82,10 @@ echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 
 ```php
 <?php
-$a = gmp_init("0xff");
-echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
-gmp_setbit($a, 0, false); // clear bit at index 0
-echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+$a = gmp_init("0xff");
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
+gmp_setbit($a, 0, false); // clear bit at index 0
+echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "\n";
 ?>
 ```
 

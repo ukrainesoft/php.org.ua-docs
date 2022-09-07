@@ -24,28 +24,28 @@ title: switch
 
 ```php
 <?php
-// Оператор switch:
+// Оператор switch:
 
-switch ($i) {
-    case 0:
-        echo "i равно 0";
-        break;
-    case 1:
-        echo "i равно 1";
-        break;
-    case 2:
-        echo "i равно 2";
-        break;
+switch ($i) {
+    case 0:
+        echo "i равно 0";
+        break;
+    case 1:
+        echo "i равно 1";
+        break;
+    case 2:
+        echo "i равно 2";
+        break;
 }
 
-// Эквивалентно:
+// Эквивалентно:
 
-if ($i == 0) {
-    echo "i равно 0";
-} elseif ($i == 1) {
-    echo "i равно 1";
-} elseif ($i == 2) {
-    echo "i равно 2";
+if ($i == 0) {
+    echo "i равно 0";
+} elseif ($i == 1) {
+    echo "i равно 1";
+} elseif ($i == 2) {
+    echo "i равно 2";
 }
 ?>
 ```
@@ -54,16 +54,16 @@ if ($i == 0) {
 
 ```php
 <?php
-switch ($i) {
-    case "яблоко":
-        echo "i это яблоко";
-        break;
-    case "шоколадка":
-        echo "i это шоколадка";
-        break;
-    case "пирог":
-        echo "i это пирог";
-        break;
+switch ($i) {
+    case "яблоко":
+        echo "i это яблоко";
+        break;
+    case "шоколадка":
+        echo "i это шоколадка";
+        break;
+    case "пирог":
+        echo "i это пирог";
+        break;
 }
 ?>
 ```
@@ -72,13 +72,13 @@ switch ($i) {
 
 ```php
 <?php
-switch ($i) {
-    case 0:
-        echo "i равно 0";
-    case 1:
-        echo "i равно 1";
-    case 2:
-        echo "i равно 2";
+switch ($i) {
+    case 0:
+        echo "i равно 0";
+    case 1:
+        echo "i равно 1";
+    case 2:
+        echo "i равно 2";
 }
 ?>
 ```
@@ -91,14 +91,14 @@ switch ($i) {
 
 ```php
 <?php
-switch ($i) {
-    case 0:
-    case 1:
-    case 2:
-        echo "i меньше чем 3, но неотрицательный";
-        break;
-    case 3:
-        echo "i равно 3";
+switch ($i) {
+    case 0:
+    case 1:
+    case 2:
+        echo "i меньше чем 3, но неотрицательный";
+        break;
+    case 3:
+        echo "i равно 3";
 }
 ?>
 ```
@@ -107,18 +107,18 @@ switch ($i) {
 
 ```php
 <?php
-switch ($i) {
-    case 0:
-        echo "i равно 0";
-        break;
-    case 1:
-        echo "i равно 1";
-        break;
-    case 2:
-        echo "i равно 2";
-        break;
-    default:
-       echo "i не равно 0, 1 или 2";
+switch ($i) {
+    case 0:
+        echo "i равно 0";
+        break;
+    case 1:
+        echo "i равно 1";
+        break;
+    case 2:
+        echo "i равно 2";
+        break;
+    default:
+       echo "i не равно 0, 1 или 2";
 }
 ?>
 ```
@@ -133,25 +133,25 @@ switch ($i) {
 
 ```php
 <?php
-$target = 1;
-$start = 3;
+$target = 1;
+$start = 3;
 
-switch ($target) {
-    case $start - 1:
-        print "A";
-        break;
-    case $start - 2:
-        print "B";
-        break;
-    case $start - 3:
-        print "C";
-        break;
-    case $start - 4:
-        print "D";
-        break;
+switch ($target) {
+    case $start - 1:
+        print "A";
+        break;
+    case $start - 2:
+        print "B";
+        break;
+    case $start - 3:
+        print "C";
+        break;
+    case $start - 4:
+        print "D";
+        break;
 }
 
-// Выведет "B"
+// Выведет "B"
 ?>
 ```
 
@@ -159,25 +159,25 @@ switch ($target) {
 
 ```php
 <?php
-$offset = 1;
-$start = 3;
+$offset = 1;
+$start = 3;
 
-switch (true) {
-    case $start - $offset === 1:
-        print "A";
-        break;
-    case $start - $offset === 2:
-        print "B";
-        break;
-    case $start - $offset === 3:
-        print "C";
-        break;
-    case $start - $offset === 4:
-        print "D";
-        break;
+switch (true) {
+    case $start - $offset === 1:
+        print "A";
+        break;
+    case $start - $offset === 2:
+        print "B";
+        break;
+    case $start - $offset === 3:
+        print "C";
+        break;
+    case $start - $offset === 4:
+        print "D";
+        break;
 }
 
-// Выведет "B"
+// Выведет "B"
 ?>
 ```
 
@@ -185,18 +185,18 @@ switch (true) {
 
 ```php
 <?php
-switch ($i):
-    case 0:
-        echo "i равно 0";
-        break;
-    case 1:
-        echo "i равно 1";
-        break;
-    case 2:
-        echo "i равно 2";
-        break;
-    default:
-        echo "i не равно 0, 1 или 2";
+switch ($i):
+    case 0:
+        echo "i равно 0";
+        break;
+    case 1:
+        echo "i равно 1";
+        break;
+    case 2:
+        echo "i равно 2";
+        break;
+    default:
+        echo "i не равно 0, 1 или 2";
 endswitch;
 ?>
 ```
@@ -207,15 +207,15 @@ endswitch;
 <?php
 switch($beer)
 {
-    case 'tuborg';
-    case 'carlsberg';
-    case 'stella';
-    case 'heineken';
-        echo 'Хороший выбор';
-        break;
-    default;
-        echo 'Пожалуйста, сделайте новый выбор...';
-        break;
+    case 'tuborg';
+    case 'carlsberg';
+    case 'stella';
+    case 'heineken';
+        echo 'Хороший выбор';
+        break;
+    default;
+        echo 'Пожалуйста, сделайте новый выбор...';
+        break;
 }
 ?>
 ```

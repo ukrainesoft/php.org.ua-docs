@@ -30,19 +30,19 @@ title: include
 vars.php
 <?php
 
-$color = 'зелёное';
-$fruit = 'яблоко';
+$color = 'зелёное';
+$fruit = 'яблоко';
 
 ?>
 
 test.php
 <?php
 
-echo "Одно $color $fruit"; // Одно
+echo "Одно $color $fruit"; // Одно
 
-include 'vars.php';
+include 'vars.php';
 
-echo "Одно $color $fruit"; // Одно зелёное яблоко
+echo "Одно $color $fruit"; // Одно зелёное яблоко
 
 ?>
 ```
@@ -54,21 +54,21 @@ echo "Одно $color $fruit"; // Одно зелёное яблоко
 ```php
 <?php
 
-function foo()
+function foo()
 {
-    global $color;
+    global $color;
 
-    include 'vars.php';
+    include 'vars.php';
 
-    echo "Одно $color $fruit";
+    echo "Одно $color $fruit";
 }
 
-/* vars.php в той же области видимости, что и foo(),  *
-* поэтому $fruit НЕ будет доступен за пределами этой области     *
-* $color доступен, поскольку мы объявили переменную глобальной */
+/* vars.php в той же области видимости, что и foo(),  *
+* поэтому $fruit НЕ будет доступен за пределами этой области     *
+* $color доступен, поскольку мы объявили переменную глобальной */
 
-foo();                    // Одно зелёное яблоко
-echo "Одно $color $fruit";   // Одно зелёное
+foo();                    // Одно зелёное яблоко
+echo "Одно $color $fruit";   // Одно зелёное
 
 ?>
 ```
@@ -82,19 +82,19 @@ echo "Одно $color $fruit";   // Одно зелёное
 ```php
 <?php
 
-/* В этом примере предполагается, что www.example.com настроен на обработку .php
-* файлов, но не .txt. Также, 'Сработает' обозначает, что переменные
-* $foo и $bar доступны внутри включаемого файла. */
+/* В этом примере предполагается, что www.example.com настроен на обработку .php
+* файлов, но не .txt. Также, 'Сработает' обозначает, что переменные
+* $foo и $bar доступны внутри включаемого файла. */
 
-// Не сработает; file.txt не обрабатывается www.example.com как PHP
-include 'http://www.example.com/file.txt?foo=1&bar=2';
+// Не сработает; file.txt не обрабатывается www.example.com как PHP
+include 'http://www.example.com/file.txt?foo=1&bar=2';
 
-// Не сработает; будет искать файл 'file.php?foo=1&bar=2' в
-// локальной файловой системе.
-include 'file.php?foo=1&bar=2';
+// Не сработает; будет искать файл 'file.php?foo=1&bar=2' в
+// локальной файловой системе.
+include 'file.php?foo=1&bar=2';
 
-// Сработает.
-include 'http://www.example.com/file.php?foo=1&bar=2';
+// Сработает.
+include 'http://www.example.com/file.php?foo=1&bar=2';
 ?>
 ```
 
@@ -114,14 +114,14 @@ include 'http://www.example.com/file.php?foo=1&bar=2';
 
 ```php
 <?php
-// не сработает, интерпретируется как include(('vars.php') == TRUE), то есть include('1')
-if (include('vars.php') == TRUE) {
-    echo 'OK';
+// не сработает, интерпретируется как include(('vars.php') == TRUE), то есть include('1')
+if (include('vars.php') == TRUE) {
+    echo 'OK';
 }
 
-// сработает
-if ((include 'vars.php') == TRUE) {
-    echo 'OK';
+// сработает
+if ((include 'vars.php') == TRUE) {
+    echo 'OK';
 }
 ?>
 ```
@@ -132,29 +132,29 @@ if ((include 'vars.php') == TRUE) {
 return.php
 <?php
 
-$var = 'PHP';
+$var = 'PHP';
 
-return $var;
+return $var;
 
 ?>
 
 noreturn.php
 <?php
 
-$var = 'PHP';
+$var = 'PHP';
 
 ?>
 
 testreturns.php
 <?php
 
-$foo = include 'return.php';
+$foo = include 'return.php';
 
-echo $foo; // выведет 'PHP'
+echo $foo; // выведет 'PHP'
 
-$bar = include 'noreturn.php';
+$bar = include 'noreturn.php';
 
-echo $bar; // выведет 1
+echo $bar; // выведет 1
 
 ?>
 ```
@@ -169,15 +169,15 @@ echo $bar; // выведет 1
 
 ```php
 <?php
-$string = get_include_contents('somefile.php');
+$string = get_include_contents('somefile.php');
 
-function get_include_contents($filename) {
-    if (is_file($filename)) {
-        ob_start();
-        include $filename;
-        return ob_get_clean();
-    }
-    return false;
+function get_include_contents($filename) {
+    if (is_file($filename)) {
+        ob_start();
+        include $filename;
+        return ob_get_clean();
+    }
+    return false;
 }
 
 ?>

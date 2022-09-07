@@ -15,7 +15,7 @@ traderstochf - Швидкий стохастичний осцилятор
 ### Опис
 
 ```methodsynopsis
-trader_stochf(    array $high,    array $low,    array $close,    int $fastK_Period = ?,    int $fastD_Period = ?,    int $fastD_MAType = ?): array
+trader_stochf(    array $high,    array $low,    array $close,    int $fastK_Period = ?,    int $fastD_Period = ?,    int $fastD_MAType = ?): array
 ```
 
 ### Список параметрів

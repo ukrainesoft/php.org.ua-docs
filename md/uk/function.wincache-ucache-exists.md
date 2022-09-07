@@ -36,8 +36,8 @@ wincache_ucache_exists(string $key): bool
 
 ```php
 <?php
-if (!wincache_ucache_exists('green'))
-    wincache_ucache_set('green', 1);
+if (!wincache_ucache_exists('green'))
+    wincache_ucache_set('green', 1);
 var_dump(wincache_ucache_exists('green'));
 ?>
 ```

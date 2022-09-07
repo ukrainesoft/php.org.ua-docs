@@ -15,7 +15,7 @@ Memcache::setServerParams — Змінює параметри сервера т�
 ### Опис
 
 ```methodsynopsis
-Memcache::setServerParams(    string $host,    int $port = 11211,    int $timeout = ?,    int $retry_interval = false,    bool $status = ?,    callable $failure_callback = ?): bool
+Memcache::setServerParams(    string $host,    int $port = 11211,    int $timeout = ?,    int $retry_interval = false,    bool $status = ?,    callable $failure_callback = ?): bool
 ```
 
 **Memcache::setServerParams()** змінює параметри сервера під час виконання. Ви також можете використати функцію **memcachesetserverparams()**
@@ -61,24 +61,24 @@ Memcache::setServerParams(    string $host,    int $port = 11211,   �
 ```php
 <?php
 
-function _callback_memcache_failure($host, $port) {
-    print "неудачное подключение memcache - '$host:$port'";
+function _callback_memcache_failure($host, $port) {
+    print "неудачное подключение memcache - '$host:$port'";
 }
 
-/* объектно-ориентированное API */
+/* объектно-ориентированное API */
 
-$memcache = new Memcache;
+$memcache = new Memcache;
 
-// Добавить сервер в офлайн-режим
-$memcache->addServer('memcache_host', 11211, false, 1, 1, -1, false);
+// Добавить сервер в офлайн-режим
+$memcache->addServer('memcache_host', 11211, false, 1, 1, -1, false);
 
-// Перевести сервер обратно в онлайн
-$memcache->setServerParams('memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');
+// Перевести сервер обратно в онлайн
+$memcache->setServerParams('memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');
 
-/* процедурное API */
+/* процедурное API */
 
-$memcache_obj = memcache_connect('memcache_host', 11211);
-memcache_set_server_params($memcache_obj, 'memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');
+$memcache_obj = memcache_connect('memcache_host', 11211);
+memcache_set_server_params($memcache_obj, 'memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');
 
 ?>
 ```

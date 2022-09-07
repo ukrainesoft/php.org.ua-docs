@@ -56,25 +56,25 @@ CUBRIDCURSORLAST: рухатись назад з кінця LOB-об'єкта.
 
 ```php
 <?php
-// test_lob (id INT, contents CLOB)
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+// test_lob (id INT, contents CLOB)
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
 
-cubrid_execute($conn,"DROP TABLE if exists test_lob");
-cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
-$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES(2, ?)");
+cubrid_execute($conn,"DROP TABLE if exists test_lob");
+cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
+$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES(2, ?)");
 
-$lob = cubrid_lob2_new($conn, 'CLOB');
-$len = cubrid_lob2_write($lob, "Hello world");
+$lob = cubrid_lob2_new($conn, 'CLOB');
+$len = cubrid_lob2_write($lob, "Hello world");
 
-cubrid_lob2_seek($lob, 0, CUBRID_CURSOR_LAST);
-cubrid_lob2_write($lob, "beautiful");
+cubrid_lob2_seek($lob, 0, CUBRID_CURSOR_LAST);
+cubrid_lob2_write($lob, "beautiful");
 
-cubrid_lob2_seek($lob, 15, CUBRID_CURSOR_FIRST);
-$data = cubrid_lob2_read($lob, 5);
+cubrid_lob2_seek($lob, 15, CUBRID_CURSOR_FIRST);
+$data = cubrid_lob2_read($lob, 5);
 
-echo $data."\n";
+echo $data."\n";
 
-cubrid_lob2_bind($req, 1, $lob);
+cubrid_lob2_bind($req, 1, $lob);
 cubrid_execute($req);
 
 cubrid_disconnect($conn);

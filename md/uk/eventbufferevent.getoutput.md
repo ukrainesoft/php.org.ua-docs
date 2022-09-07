@@ -37,33 +37,33 @@ public
 
 ```php
 <?php
-$base = new EventBase();
+$base = new EventBase();
 
-$dns_base = new EventDnsBase($base, TRUE); // Использовать асинхронное разрешение DNS
-if (!$dns_base) {
-    exit("Не удалось инициализировать базу DNS\n");
+$dns_base = new EventDnsBase($base, TRUE); // Использовать асинхронное разрешение DNS
+if (!$dns_base) {
+    exit("Не удалось инициализировать базу DNS\n");
 }
 
-$bev = new EventBufferEvent($base, /* использовать внутренний сокет */ NULL,
-    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,
-    "readcb", /* writecb */ NULL, "eventcb", $base
+$bev = new EventBufferEvent($base, /* использовать внутренний сокет */ NULL,
+    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,
+    "readcb", /* writecb */ NULL, "eventcb", $base
 );
-if (!$bev) {
-    exit("Не удалось создать сокет bufferevent\n");
+if (!$bev) {
+    exit("Не удалось создать сокет bufferevent\n");
 }
 
-$bev->enable(Event::READ | Event::WRITE);
+$bev->enable(Event::READ | Event::WRITE);
 
-$output = $bev->getOutput();
-if (!$output->add(
-    "GET {$argv[2]} HTTP/1.0\r\n".
-    "Host: {$argv[1]}\r\n".
-    "Connection: Close\r\n\r\n"
-)) {
-    exit("Не удалось добавить запрос в выходной буфер\n");
+$output = $bev->getOutput();
+if (!$output->add(
+    "GET {$argv[2]} HTTP/1.0\r\n".
+    "Host: {$argv[1]}\r\n".
+    "Connection: Close\r\n\r\n"
+)) {
+    exit("Не удалось добавить запрос в выходной буфер\n");
 }
 
-/* ... */
+/* ... */
 ?>
 ```
 

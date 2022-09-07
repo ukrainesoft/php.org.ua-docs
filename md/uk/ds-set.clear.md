@@ -34,7 +34,7 @@ public Ds\Set::clear(): void
 
 ```php
 <?php
-$set = new \Ds\Set([1, 2, 3]);
+$set = new \Ds\Set([1, 2, 3]);
 print_r($set);
 
 $set->clear();

@@ -15,7 +15,7 @@ traderstochrsi - Стохастичний відносний індекс сил
 ### Опис
 
 ```methodsynopsis
-trader_stochrsi(    array $real,    int $timePeriod = ?,    int $fastK_Period = ?,    int $fastD_Period = ?,    int $fastD_MAType = ?): array
+trader_stochrsi(    array $real,    int $timePeriod = ?,    int $fastK_Period = ?,    int $fastD_Period = ?,    int $fastD_MAType = ?): array
 ```
 
 ### Список параметрів

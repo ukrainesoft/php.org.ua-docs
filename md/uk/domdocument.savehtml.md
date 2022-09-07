@@ -37,21 +37,21 @@ public DOMDocument::saveHTML(?DOMNode $node = null): string|false
 ```php
 <?php
 
-$doc = new DOMDocument('1.0');
+$doc = new DOMDocument('1.0');
 
-$root = $doc->createElement('html');
-$root = $doc->appendChild($root);
+$root = $doc->createElement('html');
+$root = $doc->appendChild($root);
 
-$head = $doc->createElement('head');
-$head = $root->appendChild($head);
+$head = $doc->createElement('head');
+$head = $root->appendChild($head);
 
-$title = $doc->createElement('title');
-$title = $head->appendChild($title);
+$title = $doc->createElement('title');
+$title = $head->appendChild($title);
 
-$text = $doc->createTextNode('Это заголовок');
-$text = $title->appendChild($text);
+$text = $doc->createTextNode('Это заголовок');
+$text = $title->appendChild($text);
 
-echo $doc->saveHTML();
+echo $doc->saveHTML();
 
 ?>
 ```

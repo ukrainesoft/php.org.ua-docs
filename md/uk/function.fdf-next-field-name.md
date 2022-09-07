@@ -40,11 +40,11 @@ fdf_next_field_name(resource $fdf_document, string $fieldname = ?): string
 
 ```php
 <?php
-$fdf = fdf_open($HTTP_FDF_DATA);
-for ($field = fdf_next_field_name($fdf);
-    $field != "";
-    $field = fdf_next_field_name($fdf, $field)) {
-    echo "Поле: $field\n";
+$fdf = fdf_open($HTTP_FDF_DATA);
+for ($field = fdf_next_field_name($fdf);
+    $field != "";
+    $field = fdf_next_field_name($fdf, $field)) {
+    echo "Поле: $field\n";
 }
 ?>
 ```

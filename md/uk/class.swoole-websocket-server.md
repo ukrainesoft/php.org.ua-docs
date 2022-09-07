@@ -34,8 +34,8 @@ title: Клас SwooleWebSocketServer
     
    public exist(int $fd): bool
 public on(string $event_name, callable $callback): ReturnType
-public static pack(    string $data,    string $opcode = ?,    string $finish = ?,    string $mask = ?): binary
-public push(    string $fd,    string $data,    string $opcode = ?,    string $finish = ?): void
+public static pack(    string $data,    string $opcode = ?,    string $finish = ?,    string $mask = ?): binary
+public push(    string $fd,    string $data,    string $opcode = ?,    string $finish = ?): void
 public static unpack(binary $data): string
 
 

@@ -40,10 +40,10 @@ gmp_clrbit(GMP $num, int $index): void
 
 ```php
 <?php
-    $a = gmp_init("0xff");
-    gmp_clrbit($a, 0); // индексация с 0, младший значащий бит
-    echo gmp_strval($a) . "\n";
-    ?>
+    $a = gmp_init("0xff");
+    gmp_clrbit($a, 0); // индексация с 0, младший значащий бит
+    echo gmp_strval($a) . "\n";
+    ?>
 ```
 
 Результат виконання цього прикладу:

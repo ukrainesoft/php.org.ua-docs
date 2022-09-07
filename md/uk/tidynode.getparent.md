@@ -35,26 +35,26 @@ public tidyNode::getParent(): ?tidyNode
 ```php
 <?php
 
-$html = <<< HTML
+$html = <<< HTML
 <html><head>
-<?php echo '<title>заголовок</title>'; ?>
+<?php echo '<title>заголовок</title>'; ?>
 <#
-  /* JSTE-код */
-  alert('Hello World');
+  /* JSTE-код */
+  alert('Hello World');
 #>
- </head>
- <body>
- Hello World
- </body>
+ </head>
+ <body>
+ Hello World
+ </body>
 </html>
 
 HTML;
 
 
-$tidy = tidy_parse_string($html);
-$num = 0;
+$tidy = tidy_parse_string($html);
+$num = 0;
 
-$node = $tidy->html()->child[0]->child[0];
+$node = $tidy->html()->child[0]->child[0];
 
 var_dump($node->getparent()->name);
 ?>

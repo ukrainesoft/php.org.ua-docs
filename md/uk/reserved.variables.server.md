@@ -202,7 +202,7 @@ URI, який було надано для доступу до цієї стор
 
 ```php
 <?php
-echo $_SERVER['SERVER_NAME'];
+echo $_SERVER['SERVER_NAME'];
 ?>
 ```
 

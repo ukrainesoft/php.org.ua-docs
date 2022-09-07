@@ -44,19 +44,19 @@ public Vtiful\Kernel\Excel::setRow(string $range, float $height, resource $forma
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$excel  = new \Vtiful\Kernel\Excel($config);
+$excel  = new \Vtiful\Kernel\Excel($config);
 
-$fileObject = $excel->fileName('tutorial01.xlsx');
-$fileHandle = $fileObject->getHandle();
+$fileObject = $excel->fileName('tutorial01.xlsx');
+$fileHandle = $fileObject->getHandle();
 
-$boldStyle = \Vtiful\Kernel\Format::bold($fileHandle);
+$boldStyle = \Vtiful\Kernel\Format::bold($fileHandle);
 
-$fileObject->header(['name', 'age'])
-    ->data([['viest', 21]])
-    ->setRow('A1', 20, $boldStyle,)
-    ->output();
+$fileObject->header(['name', 'age'])
+    ->data([['viest', 21]])
+    ->setRow('A1', 20, $boldStyle,)
+    ->output();
 ```

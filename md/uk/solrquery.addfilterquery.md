@@ -37,25 +37,25 @@ public SolrQuery::addFilterQuery(string $fq): SolrQuery
 ```php
 <?php
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery();
+$query = new SolrQuery();
 
 $query->setQuery('*:*');
 
 $query->addFilterQuery('color:blue,green');
 
-$query_response = $client->query($query);
+$query_response = $client->query($query);
 
-$response = $query_response->getResponse();
+$response = $query_response->getResponse();
 
 print_r($response['facet_counts']['facet_fields']);
 

@@ -30,7 +30,7 @@ openssl_get_curve_names(): array|false
 |  |  |  |
 |  |  |  |
 
-[» NIST рекомендує використовувати криві ECC як мінімум у 256 біт](http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4)
+[» NIST рекомендує використовувати криві ECC як мінімум у 256 біт](http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4)
 
 ### Список параметрів
 
@@ -46,7 +46,7 @@ openssl_get_curve_names(): array|false
 
 ```php
 <?php
-$curve_names = openssl_get_curve_names();
+$curve_names = openssl_get_curve_names();
 print_r($curve_names);
 ?>
 ```

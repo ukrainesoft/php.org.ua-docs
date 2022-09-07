@@ -39,9 +39,9 @@ solr_get_version(): string
 ```php
 <?php
 
-$solr_version = solr_get_version();
+$solr_version = solr_get_version();
 
-print $solr_version;
+print $solr_version;
 
 ?>
 ```

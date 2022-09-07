@@ -15,7 +15,7 @@ eiodup2 — Створює дублікат дескриптора файлу
 ### Опис
 
 ```methodsynopsis
-eio_dup2(    mixed $fd,    mixed $fd2,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_dup2(    mixed $fd,    mixed $fd2,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiodup2()** Створює дублікат дескриптора файлу.
@@ -39,7 +39,7 @@ eio_dup2(    mixed $fd,    mixed $fd2,    int $pri = EIO_PRI_DEFAULT
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

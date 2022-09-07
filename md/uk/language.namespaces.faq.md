@@ -38,7 +38,7 @@ title: 'Часті питання (FAQ): речі, які вам необхід�
 
 ```php
 <?php
-$a = new \stdClass;
+$a = new \stdClass;
 ?>
 ```
 
@@ -48,7 +48,7 @@ $a = new \stdClass;
 
 ```php
 <?php
-$a = new stdClass;
+$a = new stdClass;
 ?>
 ```
 
@@ -58,15 +58,15 @@ $a = new stdClass;
 
 ```php
 <?php
-namespace foo;
-$a = new \stdClass;
+namespace foo;
+$a = new \stdClass;
 
-function test(\ArrayObject $parameter_type_example = null) {}
+function test(\ArrayObject $parameter_type_example = null) {}
 
-$a = \DirectoryIterator::CURRENT_AS_FILEINFO;
+$a = \DirectoryIterator::CURRENT_AS_FILEINFO;
 
-// расширение внутреннего или глобального класса
-class MyException extends \Exception {}
+// расширение внутреннего или глобального класса
+class MyException extends \Exception {}
 ?>
 ```
 
@@ -76,23 +76,23 @@ class MyException extends \Exception {}
 
 ```php
 <?php
-namespace foo;
+namespace foo;
 
-class MyClass {}
+class MyClass {}
 
-// использование класса из текущего пространства имен в качестве типа параметра
-function test(MyClass $parameter_type_example = null) {}
-// другой способ использовать класс из текущего пространства имен в качестве типа параметра
-function test(\foo\MyClass $parameter_type_example = null) {}
+// использование класса из текущего пространства имен в качестве типа параметра
+function test(MyClass $parameter_type_example = null) {}
+// другой способ использовать класс из текущего пространства имен в качестве типа параметра
+function test(\foo\MyClass $parameter_type_example = null) {}
 
-// расширение класса из текущего пространства имён
-class Extended extends MyClass {}
+// расширение класса из текущего пространства имён
+class Extended extends MyClass {}
 
-// доступ к глобальной функции
-$a = \globalfunc();
+// доступ к глобальной функции
+$a = \globalfunc();
 
-// доступ к глобальной константе
-$b = \INI_ALL;
+// доступ к глобальной константе
+$b = \INI_ALL;
 ?>
 ```
 
@@ -104,10 +104,10 @@ $b = \INI_ALL;
 
 ```php
 <?php
-namespace foo;
-$a = new \my\name(); // создаёт экземпляр класса "my\name"
-echo \strlen('hi'); // вызывает функцию "strlen"
-$a = \INI_ALL; // переменной $a присваивается значение константы "INI_ALL"
+namespace foo;
+$a = new \my\name(); // создаёт экземпляр класса "my\name"
+echo \strlen('hi'); // вызывает функцию "strlen"
+$a = \INI_ALL; // переменной $a присваивается значение константы "INI_ALL"
 ?>
 ```
 
@@ -123,13 +123,13 @@ $a = \INI_ALL; // переменной $a присваивается зн
 
 ```php
 <?php
-namespace foo;
-use blah\blah as foo;
+namespace foo;
+use blah\blah as foo;
 
-$a = new my\name(); // создаёт экземпляр класса "foo\my\name"
-foo\bar::name(); // вызывает статический метод "name" в классе "blah\blah\bar"
-my\bar(); // вызывает функцию "foo\my\bar"
-$a = my\BAR; // присваивает переменной $a значение константы "foo\my\BAR"
+$a = new my\name(); // создаёт экземпляр класса "foo\my\name"
+foo\bar::name(); // вызывает статический метод "name" в классе "blah\blah\bar"
+my\bar(); // вызывает функцию "foo\my\bar"
+$a = my\BAR; // присваивает переменной $a значение константы "foo\my\BAR"
 ?>
 ```
 
@@ -145,11 +145,11 @@ $a = my\BAR; // присваивает переменной $a значе
 
 ```php
 <?php
-namespace foo;
-use blah\blah as foo;
+namespace foo;
+use blah\blah as foo;
 
-$a = new name(); // создаёт экземпляр класса "foo\name"
-foo::name(); // вызывает статический метод "name" в классе "blah\blah"
+$a = new name(); // создаёт экземпляр класса "foo\name"
+foo::name(); // вызывает статический метод "name" в классе "blah\blah"
 ?>
 ```
 
@@ -165,28 +165,28 @@ foo::name(); // вызывает статический метод "name" 
 
 ```php
 <?php
-namespace foo;
-use blah\blah as foo;
+namespace foo;
+use blah\blah as foo;
 
-const FOO = 1;
+const FOO = 1;
 
-function my() {}
-function foo() {}
-function sort(&$a)
+function my() {}
+function foo() {}
+function sort(&$a)
 {
-    \sort($a); // вызывает глобальную функцию "sort"
-    $a = array_flip($a);
-    return $a;
+    \sort($a); // вызывает глобальную функцию "sort"
+    $a = array_flip($a);
+    return $a;
 }
 
-my(); // вызывает "foo\my"
-$a = strlen('hi'); // вызывает глобальную функцию "strlen", потому что "foo\strlen" не существует
-$arr = array(1,3,2);
-$b = sort($arr); // вызывает функцию "foo\sort"
-$c = foo(); // вызывает функцию "foo\foo" - импорт не применяется
+my(); // вызывает "foo\my"
+$a = strlen('hi'); // вызывает глобальную функцию "strlen", потому что "foo\strlen" не существует
+$arr = array(1,3,2);
+$b = sort($arr); // вызывает функцию "foo\sort"
+$c = foo(); // вызывает функцию "foo\foo" - импорт не применяется
 
-$a = FOO; // присваивает переменной $a значение константы "foo\FOO" - импорт не применяется
-$b = INI_ALL; // присваивает переменной $b значение глобальной константы "INI_ALL"
+$a = FOO; // присваивает переменной $a значение константы "foo\FOO" - импорт не применяется
+$b = INI_ALL; // присваивает переменной $b значение глобальной константы "INI_ALL"
 ?>
 ```
 
@@ -198,8 +198,8 @@ file1.php
 
 ```php
 <?php
-namespace my\stuff;
-class MyClass {}
+namespace my\stuff;
+class MyClass {}
 ?>
 ```
 
@@ -207,8 +207,8 @@ another.php
 
 ```php
 <?php
-namespace another;
-class thing {}
+namespace another;
+class thing {}
 ?>
 ```
 
@@ -216,12 +216,12 @@ file2.php
 
 ```php
 <?php
-namespace my\stuff;
-include 'file1.php';
-include 'another.php';
+namespace my\stuff;
+include 'file1.php';
+include 'another.php';
 
-use another\thing as MyClass;
-$a = new MyClass; // создаёт экземпляр класса "thing" из пространства имён "another"
+use another\thing as MyClass;
+$a = new MyClass; // создаёт экземпляр класса "thing" из пространства имён "another"
 ?>
 ```
 
@@ -229,10 +229,10 @@ $a = new MyClass; // создаёт экземпляр класса "thi
 
 ```php
 <?php
-namespace my\stuff;
-use another\thing as MyClass;
-class MyClass {} // фатальная ошибка: MyClass конфликтует с выражением импорта
-$a = new MyClass;
+namespace my\stuff;
+use another\thing as MyClass;
+class MyClass {} // фатальная ошибка: MyClass конфликтует с выражением импорта
+$a = new MyClass;
 ?>
 ```
 
@@ -242,10 +242,10 @@ PHP не дозволяє вкладення просторів імен одн�
 
 ```php
 <?php
-namespace my\stuff {
-    namespace nested {
-        class foo {}
-    }
+namespace my\stuff {
+    namespace nested {
+        class foo {}
+    }
 }
 ?>
 ```
@@ -254,8 +254,8 @@ namespace my\stuff {
 
 ```php
 <?php
-namespace my\stuff\nested {
-    class foo {}
+namespace my\stuff\nested {
+    class foo {}
 }
 ?>
 ```
@@ -268,11 +268,11 @@ namespace my\stuff\nested {
 
 ```php
 <?php
-$a = "dangerous\name"; // \n - это переход на новую строку внутри строки с двойными кавычками!
-$obj = new $a;
+$a = "dangerous\name"; // \n - это переход на новую строку внутри строки с двойными кавычками!
+$obj = new $a;
 
-$a = 'not\at\all\dangerous'; // а тут нет проблем.
-$obj = new $a;
+$a = 'not\at\all\dangerous'; // а тут нет проблем.
+$obj = new $a;
 ?>
 ```
 
@@ -286,11 +286,11 @@ $obj = new $a;
 
 ```php
 <?php
-namespace bar;
-$a = FOO; // выводит предупреждение: undefined constants "FOO" assumed "FOO";
-$a = \FOO; // фатальная ошибка: undefined namespace constant FOO
-$a = Bar\FOO; // фатальная ошибка: undefined namespace constant bar\Bar\FOO
-$a = \Bar\FOO; // фатальная ошибка: undefined namespace constant Bar\FOO
+namespace bar;
+$a = FOO; // выводит предупреждение: undefined constants "FOO" assumed "FOO";
+$a = \FOO; // фатальная ошибка: undefined namespace constant FOO
+$a = Bar\FOO; // фатальная ошибка: undefined namespace constant bar\Bar\FOO
+$a = \Bar\FOO; // фатальная ошибка: undefined namespace constant Bar\FOO
 ?>
 ```
 
@@ -302,9 +302,9 @@ $a = \Bar\FOO; // фатальная ошибка: undefined namespace c
 
 ```php
 <?php
-namespace bar;
-const NULL = 0; // Фатальная ошибка;
-const true = 'stupid'; // также фатальная ошибка;
-// и т.д.
+namespace bar;
+const NULL = 0; // Фатальная ошибка;
+const true = 'stupid'; // также фатальная ошибка;
+// и т.д.
 ?>
 ```

@@ -44,9 +44,9 @@ public Ds\Deque::set(int $index, mixed $value): void
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c"]);
+$deque = new \Ds\Deque(["a", "b", "c"]);
 
-$deque->set(1, "_");
+$deque->set(1, "_");
 print_r($deque);
 ?>
 ```
@@ -66,9 +66,9 @@ Ds\Deque Object
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c"]);
+$deque = new \Ds\Deque(["a", "b", "c"]);
 
-$deque[1] = "_";
+$deque[1] = "_";
 print_r($deque);
 ?>
 ```

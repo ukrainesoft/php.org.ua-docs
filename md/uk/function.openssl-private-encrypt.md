@@ -15,7 +15,7 @@ opensslprivateencrypt - Шифрує дані секретним ключем
 ### Опис
 
 ```methodsynopsis
-openssl_private_encrypt(    string $data,    string &$encrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
+openssl_private_encrypt(    string $data,    string &$encrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
 ```
 
 **opensslprivateencrypt()** шифрує `data` за допомогою секретного ключа `private_key` і зберігає результат у `encrypted_data`. Далі можна розшифрувати за допомогою [opensslpublicdecrypt()](function.openssl-public-decrypt.md)

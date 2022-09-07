@@ -48,9 +48,9 @@ preg_grep(string $pattern, array $array, int $flags = 0): array|false
 
 ```php
 <?php
-// Возвращает все элементы Масива,
-// содержащие числа с плавающей точкой
-$fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
+// Возвращает все элементы Масива,
+// содержащие числа с плавающей точкой
+$fl_array = preg_grep("/^(\d+)?\.\d+$/", $array);
 ?>
 ```
 

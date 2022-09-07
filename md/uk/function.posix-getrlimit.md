@@ -55,7 +55,7 @@ posix_getrlimit(): array|false
 ```php
 <?php
 
-$limits = posix_getrlimit();
+$limits = posix_getrlimit();
 
 print_r($limits);
 ?>

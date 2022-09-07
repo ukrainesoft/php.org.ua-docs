@@ -36,12 +36,12 @@ public Ds\Deque::push(mixed ...$values): void
 
 ```php
 <?php
-$deque = new \Ds\Deque();
+$deque = new \Ds\Deque();
 
 $deque->push("a");
 $deque->push("b");
-$deque->push("c", "d");
-$deque->push(...["e", "f"]);
+$deque->push("c", "d");
+$deque->push(...["e", "f"]);
 
 print_r($deque);
 ?>

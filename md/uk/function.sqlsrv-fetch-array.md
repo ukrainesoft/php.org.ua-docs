@@ -15,7 +15,7 @@ sqlsrvfetcharray — Повертає рядок як масив
 ### Опис
 
 ```methodsynopsis
-sqlsrv_fetch_array(    resource $stmt,    int $fetchType = ?,    int $row = ?,    int $offset = ?): array
+sqlsrv_fetch_array(    resource $stmt,    int $fetchType = ?,    int $row = ?,    int $offset = ?): array
 ```
 
 Повертає наступний доступний рядок даних у вигляді асоціативного масиву, числового масиву або й того й іншого (за умовчанням).
@@ -50,24 +50,24 @@ sqlsrv_fetch_array(    resource $stmt,    int $fetchType = ?,    int
 
 ```php
 <?php
-$serverName = "serverName\instanceName";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo );
-if( $conn === false ) {
-    die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\instanceName";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo );
+if( $conn === false ) {
+    die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "SELECT FirstName, LastName FROM SomeTable";
-$stmt = sqlsrv_query( $conn, $sql );
-if( $stmt === false) {
-    die( print_r( sqlsrv_errors(), true) );
+$sql = "SELECT FirstName, LastName FROM SomeTable";
+$stmt = sqlsrv_query( $conn, $sql );
+if( $stmt === false) {
+    die( print_r( sqlsrv_errors(), true) );
 }
 
-while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
-      echo $row['LastName'].", ".$row['FirstName']."<br />";
+while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
+      echo $row['LastName'].", ".$row['FirstName']."<br />";
 }
 
-sqlsrv_free_stmt( $stmt);
+sqlsrv_free_stmt( $stmt);
 ?>
 ```
 
@@ -75,24 +75,24 @@ sqlsrv_free_stmt( $stmt);
 
 ```php
 <?php
-$serverName = "serverName\instanceName";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo );
-if( $conn === false ) {
-    die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\instanceName";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo );
+if( $conn === false ) {
+    die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "SELECT FirstName, LastName FROM SomeTable";
-$stmt = sqlsrv_query( $conn, $sql );
-if( $stmt === false) {
-    die( print_r( sqlsrv_errors(), true) );
+$sql = "SELECT FirstName, LastName FROM SomeTable";
+$stmt = sqlsrv_query( $conn, $sql );
+if( $stmt === false) {
+    die( print_r( sqlsrv_errors(), true) );
 }
 
-while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
-      echo $row[0].", ".$row[1]."<br />";
+while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_NUMERIC) ) {
+      echo $row[0].", ".$row[1]."<br />";
 }
 
-sqlsrv_free_stmt( $stmt);
+sqlsrv_free_stmt( $stmt);
 ?>
 ```
 

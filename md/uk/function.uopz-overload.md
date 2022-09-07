@@ -40,10 +40,10 @@ uopz_overload(int $opcode, Callable $callable): void
 
 ```php
 <?php
-uopz_overload(ZEND_EXIT, function(){});
+uopz_overload(ZEND_EXIT, function(){});
 
 exit();
-echo "Привет, Мир";
+echo "Привет, Мир";
 ?>
 ```
 

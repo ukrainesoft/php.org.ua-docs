@@ -15,7 +15,7 @@ ImagickDraw::roundRectangle — Малює прямокутник із закр�
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::roundRectangle(    float $x1,    float $y1,    float $x2,    float $y2,    float $rx,    float $ry): bool
+public ImagickDraw::roundRectangle(    float $x1,    float $y1,    float $x2,    float $y2,    float $rx,    float $ry): bool
 ```
 
 **Увага**
@@ -60,25 +60,25 @@ public ImagickDraw::roundRectangle(    float $x1,    float $y1,    f
 
 ```php
 <?php
-function roundRectangle($strokeColor, $fillColor, $backgroundColor, $startX, $startY, $endX, $endY, $roundX, $roundY) {
+function roundRectangle($strokeColor, $fillColor, $backgroundColor, $startX, $startY, $endX, $endY, $roundX, $roundY) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeWidth(2);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeWidth(2);
 
-    $draw->roundRectangle($startX, $startY, $endX, $endY, $roundX, $roundY);
+    $draw->roundRectangle($startX, $startY, $endX, $endY, $roundX, $roundY);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -40,9 +40,9 @@ public SplFileObject::fgets(): string
 
 ```php
 <?php
-$file = new SplFileObject("file.txt");
-while (!$file->eof()) {
-    echo $file->fgets();
+$file = new SplFileObject("file.txt");
+while (!$file->eof()) {
+    echo $file->fgets();
 }
 ?>
 ```

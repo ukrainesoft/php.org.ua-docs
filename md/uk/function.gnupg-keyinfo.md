@@ -38,8 +38,8 @@ gnupg_keyinfo(resource $identifier, string $pattern): array
 
 ```php
 <?php
-$res = gnupg_init();
-$info = gnupg_keyinfo($res, 'test');
+$res = gnupg_init();
+$info = gnupg_keyinfo($res, 'test');
 print_r($info);
 ?>
 ```
@@ -48,8 +48,8 @@ print_r($info);
 
 ```php
 <?php
-$gpg = new gnupg();
-$info = $gpg->keyinfo("test");
+$gpg = new gnupg();
+$info = $gpg->keyinfo("test");
 print_r($info);
 ?>
 ```

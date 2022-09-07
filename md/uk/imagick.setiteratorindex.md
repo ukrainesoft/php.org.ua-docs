@@ -38,13 +38,13 @@ public Imagick::setIteratorIndex(int $index): bool
 
 ```php
 <?php
-$im = new Imagick();
-$im->newImage(100, 100, new ImagickPixel("red"));
-$im->newImage(100, 100, new ImagickPixel("green"));
-$im->newImage(100, 100, new ImagickPixel("blue"));
+$im = new Imagick();
+$im->newImage(100, 100, new ImagickPixel("red"));
+$im->newImage(100, 100, new ImagickPixel("green"));
+$im->newImage(100, 100, new ImagickPixel("blue"));
 
 $im->setIteratorIndex(1);
-echo $im->getIteratorIndex();
+echo $im->getIteratorIndex();
 ?>
 ```
 

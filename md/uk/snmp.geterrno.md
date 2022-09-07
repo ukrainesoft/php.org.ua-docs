@@ -34,9 +34,9 @@ public SNMP::getErrno(): int
 
 ```php
 <?php
-$session = new SNMP(SNMP::VERSION_2c, '127.0.0.1', 'boguscommunity');
+$session = new SNMP(SNMP::VERSION_2c, '127.0.0.1', 'boguscommunity');
 var_dump(@$session->get('.1.3.6.1.2.1.1.1.0'));
-var_dump($session->getErrno() == SNMP::ERRNO_TIMEOUT);
+var_dump($session->getErrno() == SNMP::ERRNO_TIMEOUT);
 ?>
 ```
 

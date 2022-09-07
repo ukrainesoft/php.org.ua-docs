@@ -15,7 +15,7 @@ odbcprocedurecolumns — Отримує інформацію про параме
 ### Опис
 
 ```methodsynopsis
-odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $procedure = null,    ?string $column = null): resource|false
+odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $procedure = null,    ?string $column = null): resource|false
 ```
 
 Отримує інформацію про параметри процедури.
@@ -84,11 +84,11 @@ odbc_procedurecolumns(    resource $odbc,    ?string $catalog = null, �
 
 ```php
 <?php
-$conn = odbc_connect($dsn, $user, $pass);
-$columns = odbc_procedurecolumns($conn, 'TutorialDB', 'dbo', 'GetEmployeeSalesYTD;1', '%');
-while (($row = odbc_fetch_array($columns))) {
-    print_r($row);
-    break; // последующие строки опущены для краткости
+$conn = odbc_connect($dsn, $user, $pass);
+$columns = odbc_procedurecolumns($conn, 'TutorialDB', 'dbo', 'GetEmployeeSalesYTD;1', '%');
+while (($row = odbc_fetch_array($columns))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
 }
 ?>
 ```

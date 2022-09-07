@@ -46,42 +46,42 @@ mysql_fetch_assoc(resource $result): array
 ```php
 <?php
 
-$conn = mysql_connect("localhost", "mysql_user", "mysql_password");
+$conn = mysql_connect("localhost", "mysql_user", "mysql_password");
 
-if (!$conn) {
-    echo "Unable to connect to DB: " . mysql_error();
-    exit;
+if (!$conn) {
+    echo "Unable to connect to DB: " . mysql_error();
+    exit;
 }
 
-if (!mysql_select_db("mydbname")) {
-    echo "Unable to select mydbname: " . mysql_error();
-    exit;
+if (!mysql_select_db("mydbname")) {
+    echo "Unable to select mydbname: " . mysql_error();
+    exit;
 }
 
-$sql = "SELECT id as userid, fullname, userstatus
-        FROM   sometable
-        WHERE  userstatus = 1";
+$sql = "SELECT id as userid, fullname, userstatus
+        FROM   sometable
+        WHERE  userstatus = 1";
 
-$result = mysql_query($sql);
+$result = mysql_query($sql);
 
-if (!$result) {
-    echo "Could not successfully run query ($sql) from DB: " . mysql_error();
-    exit;
+if (!$result) {
+    echo "Could not successfully run query ($sql) from DB: " . mysql_error();
+    exit;
 }
 
-if (mysql_num_rows($result) == 0) {
-    echo "No rows found, nothing to print so am exiting";
-    exit;
+if (mysql_num_rows($result) == 0) {
+    echo "No rows found, nothing to print so am exiting";
+    exit;
 }
 
-// До тех пор, пока в результате содержатся ряды, помещаем их в ассоциативный Масив.
-// Замечание: если запрос возвращает только один ряд - нет нужды в цикле.
-// Замечание: если вы добавите extract($row); в начало цикла, вы сделаете
-//            доступными переменные $userid, $fullname и $userstatus
-while ($row = mysql_fetch_assoc($result)) {
-    echo $row["userid"];
-    echo $row["fullname"];
-    echo $row["userstatus"];
+// До тех пор, пока в результате содержатся ряды, помещаем их в ассоциативный Масив.
+// Замечание: если запрос возвращает только один ряд - нет нужды в цикле.
+// Замечание: если вы добавите extract($row); в начало цикла, вы сделаете
+//            доступными переменные $userid, $fullname и $userstatus
+while ($row = mysql_fetch_assoc($result)) {
+    echo $row["userid"];
+    echo $row["fullname"];
+    echo $row["userstatus"];
 }
 
 mysql_free_result($result);

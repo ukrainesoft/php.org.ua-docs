@@ -18,7 +18,7 @@ md5file — Повертає MD5-хеш файлу
 md5_file(string $filename, bool $binary = false): string|false
 ```
 
-Обчислює MD5-хеш файлу, ім'я якого задано аргументом `filename`, використовуючи [» алгоритм MD5 RSA Data Security, Inc.](http://www.faqs.org/rfcs/rfc1321) і повертає цей хеш. Хеш є 32-значним шістнадцятковим числом.
+Обчислює MD5-хеш файлу, ім'я якого задано аргументом `filename`, використовуючи [» алгоритм MD5 RSA Data Security, Inc.](http://www.faqs.org/rfcs/rfc1321) і повертає цей хеш. Хеш є 32-значним шістнадцятковим числом.
 
 ### Список параметрів
 
@@ -40,9 +40,9 @@ md5_file(string $filename, bool $binary = false): string|false
 
 ```php
 <?php
-$file = 'php-5.3.0alpha2-Win32-VC9-x64.zip';
+$file = 'php-5.3.0alpha2-Win32-VC9-x64.zip';
 
-echo 'MD5-хеш файла ' . $file . ': ' . md5_file($file);
+echo 'MD5-хеш файла ' . $file . ': ' . md5_file($file);
 ?>
 ```
 

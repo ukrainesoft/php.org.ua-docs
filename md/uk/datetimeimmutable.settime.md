@@ -15,7 +15,7 @@ DateTimeImmutable::setTime — Встановлює час
 ### Опис
 
 ```methodsynopsis
-public DateTimeImmutable::setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTimeImmutable
+public DateTimeImmutable::setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTimeImmutable
 ```
 
 Повертає новий об'єкт DateTimeImmutable із часом, встановленим на заданий час.
@@ -57,13 +57,13 @@ public DateTimeImmutable::setTime(    int $hour,    int $minute,    
 
 ```php
 <?php
-$date = new DateTimeImmutable('2001-01-01');
+$date = new DateTimeImmutable('2001-01-01');
 
-$newDate = $date->setTime(14, 55);
-echo $date->format('Y-m-d H:i:s') . "\n";
+$newDate = $date->setTime(14, 55);
+echo $date->format('Y-m-d H:i:s') . "\n";
 
-$newDate = $date->setTime(14, 55, 24);
-echo $date->format('Y-m-d H:i:s') . "\n";
+$newDate = $date->setTime(14, 55, 24);
+echo $date->format('Y-m-d H:i:s') . "\n";
 ?>
 ```
 
@@ -78,19 +78,19 @@ echo $date->format('Y-m-d H:i:s') . "\n";
 
 ```php
 <?php
-$date = new DateTimeImmutable('2001-01-01');
+$date = new DateTimeImmutable('2001-01-01');
 
-$newDate = $date->setTime(14, 55, 24);
-echo $newDate->format('Y-m-d H:i:s') . "\n";
+$newDate = $date->setTime(14, 55, 24);
+echo $newDate->format('Y-m-d H:i:s') . "\n";
 
-$newDate = $date->setTime(14, 55, 65);
-echo $newDate->format('Y-m-d H:i:s') . "\n";
+$newDate = $date->setTime(14, 55, 65);
+echo $newDate->format('Y-m-d H:i:s') . "\n";
 
-$newDate = $date->setTime(14, 65, 24);
-echo $newDate->format('Y-m-d H:i:s') . "\n";
+$newDate = $date->setTime(14, 65, 24);
+echo $newDate->format('Y-m-d H:i:s') . "\n";
 
-$newDate = $date->setTime(25, 55, 24);
-echo $newDate->format('Y-m-d H:i:s') . "\n";
+$newDate = $date->setTime(25, 55, 24);
+echo $newDate->format('Y-m-d H:i:s') . "\n";
 ?>
 ```
 

@@ -15,7 +15,7 @@ substrcount — Повертає кількість входжень підря�
 ### Опис
 
 ```methodsynopsis
-substr_count(    string $haystack,    string $needle,    int $offset = 0,    ?int $length = null): int
+substr_count(    string $haystack,    string $needle,    int $offset = 0,    ?int $length = null): int
 ```
 
 **substrcount()** повертає кількість входжень підрядка `needle` у рядок `haystack`. Зауважте, що параметр `needle` чутливий до регістру.
@@ -59,24 +59,24 @@ substr_count(    string $haystack,    string $needle,    int $offset
 
 ```php
 <?php
-$text = 'This is a test';
-echo strlen($text); // 14
+$text = 'This is a test';
+echo strlen($text); // 14
 
-echo substr_count($text, 'is'); // 2
+echo substr_count($text, 'is'); // 2
 
-// строка уменьшается до 's is a test', поэтому вывод будет 1
-echo substr_count($text, 'is', 3);
+// строка уменьшается до 's is a test', поэтому вывод будет 1
+echo substr_count($text, 'is', 3);
 
-// текст уменьшается до 's i', поэтому вывод будет 0
-echo substr_count($text, 'is', 3, 3);
+// текст уменьшается до 's i', поэтому вывод будет 0
+echo substr_count($text, 'is', 3, 3);
 
-// генерирует предупреждение, так как  5+10 > 14
-echo substr_count($text, 'is', 5, 10);
+// генерирует предупреждение, так как  5+10 > 14
+echo substr_count($text, 'is', 5, 10);
 
 
-// выводит только 1, т.к. перекрывающиеся подстроки не учитываются
-$text2 = 'gcdgcdgcd';
-echo substr_count($text2, 'gcdgcd');
+// выводит только 1, т.к. перекрывающиеся подстроки не учитываются
+$text2 = 'gcdgcdgcd';
+echo substr_count($text2, 'gcdgcd');
 ?>
 ```
 

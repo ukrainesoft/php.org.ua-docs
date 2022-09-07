@@ -19,7 +19,7 @@ Imagick::matteFloodfillImage — Змінює значення прозорос�
 ### Опис
 
 ```methodsynopsis
-public Imagick::matteFloodfillImage(    float $alpha,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
+public Imagick::matteFloodfillImage(    float $alpha,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
 ```
 
 Змінює значення прозорості будь-якого пікселя, що відповідає меті та є найближчим сусідом. Якщо вказано метод **`FillToBorderMethod`**, значення прозорості змінюється для будь-якого сусіднього пікселя, який не відповідає елементу bordercolor зображення.

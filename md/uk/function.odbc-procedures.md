@@ -15,7 +15,7 @@ odbcprocedures — Отримує список процедур, які збер
 ### Опис
 
 ```methodsynopsis
-odbc_procedures(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $procedure = null): resource|false
+odbc_procedures(    resource $odbc,    ?string $catalog = null,    ?string $schema = null,    ?string $procedure = null): resource|false
 ```
 
 Перелічує всі процедури у запрошеному діапазоні.
@@ -69,11 +69,11 @@ odbc_procedures(    resource $odbc,    ?string $catalog = null,    ?
 
 ```php
 <?php
-$conn = odbc_connect($dsn, $user, $pass);
-$procedures = odbc_procedures($conn, $catalog, $schema, '%');
-while (($row = odbc_fetch_array($procedures))) {
-    print_r($row);
-    break; // последующие строки опущены для краткости
+$conn = odbc_connect($dsn, $user, $pass);
+$procedures = odbc_procedures($conn, $catalog, $schema, '%');
+while (($row = odbc_fetch_array($procedures))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
 }
 ?>
 ```

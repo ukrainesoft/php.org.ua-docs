@@ -34,7 +34,7 @@ timezone_version_get(): string
 
 ```php
 <?php
-echo timezone_version_get();
+echo timezone_version_get();
 ?>
 ```
 

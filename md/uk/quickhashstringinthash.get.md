@@ -36,11 +36,11 @@ public QuickHashStringIntHash::get(string $key): mixed
 
 ```php
 <?php
-$hash = new QuickHashStringIntHash( 8 );
-var_dump( $hash->get( "one" ) );
+$hash = new QuickHashStringIntHash( 8 );
+var_dump( $hash->get( "one" ) );
 
-var_dump( $hash->add( "two", 2 ) );
-var_dump( $hash->get( "two" ) );
+var_dump( $hash->add( "two", 2 ) );
+var_dump( $hash->get( "two" ) );
 ?>
 ```
 

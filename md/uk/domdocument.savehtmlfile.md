@@ -37,23 +37,23 @@ public DOMDocument::saveHTMLFile(string $filename): int|false
 ```php
 <?php
 
-$doc = new DOMDocument('1.0');
-// мы хотим красивый вывод
-$doc->formatOutput = true;
+$doc = new DOMDocument('1.0');
+// мы хотим красивый вывод
+$doc->formatOutput = true;
 
-$root = $doc->createElement('html');
-$root = $doc->appendChild($root);
+$root = $doc->createElement('html');
+$root = $doc->appendChild($root);
 
-$head = $doc->createElement('head');
-$head = $root->appendChild($head);
+$head = $doc->createElement('head');
+$head = $root->appendChild($head);
 
-$title = $doc->createElement('title');
-$title = $head->appendChild($title);
+$title = $doc->createElement('title');
+$title = $head->appendChild($title);
 
-$text = $doc->createTextNode('Это заголовок');
-$text = $title->appendChild($text);
+$text = $doc->createTextNode('Это заголовок');
+$text = $title->appendChild($text);
 
-echo 'Записано: ' . $doc->saveHTMLFile("/tmp/test.html") . ' байт'; // Записано: 129 байт
+echo 'Записано: ' . $doc->saveHTMLFile("/tmp/test.html") . ' байт'; // Записано: 129 байт
 
 ?>
 ```

@@ -35,19 +35,19 @@ public ReflectionGenerator::getExecutingFile(): string
 ```php
 <?php
 
-class GenExample
+class GenExample
 {
-    public function gen()
-    {
-        yield 1;
-    }
+    public function gen()
+    {
+        yield 1;
+    }
 }
 
-$gen = (new GenExample)->gen();
+$gen = (new GenExample)->gen();
 
-$reflectionGen = new ReflectionGenerator($gen);
+$reflectionGen = new ReflectionGenerator($gen);
 
-echo "Файл: {$reflectionGen->getExecutingFile()}";
+echo "Файл: {$reflectionGen->getExecutingFile()}";
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

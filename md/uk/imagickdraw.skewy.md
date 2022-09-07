@@ -40,26 +40,26 @@ public ImagickDraw::skewY(float $degrees): bool
 
 ```php
 <?php
-function skewY($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor,
-               $startX, $startY, $endX, $endY, $skew) {
+function skewY($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor,
+               $startX, $startY, $endX, $endY, $skew) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setStrokeWidth(2);
-    $draw->setFillColor($fillColor);
-    $draw->rectangle($startX, $startY, $endX, $endY);
-    $draw->setFillColor($fillModifiedColor);
-    $draw->skewY($skew);
-    $draw->rectangle($startX, $startY, $endX, $endY);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFillColor($fillColor);
+    $draw->rectangle($startX, $startY, $endX, $endY);
+    $draw->setFillColor($fillModifiedColor);
+    $draw->skewY($skew);
+    $draw->rectangle($startX, $startY, $endX, $endY);
 
-    $image = new \Imagick();
-    $image->newImage(500, 500, $backgroundColor);
-    $image->setImageFormat("png");
-    $image->drawImage($draw);
+    $image = new \Imagick();
+    $image->newImage(500, 500, $backgroundColor);
+    $image->setImageFormat("png");
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

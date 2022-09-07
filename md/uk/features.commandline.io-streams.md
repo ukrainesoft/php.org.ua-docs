@@ -19,7 +19,7 @@ title: Потоки введення/виводу
 
 ```php
 <?php
-$stdin = fopen('php://stdin', 'r');
+$stdin = fopen('php://stdin', 'r');
 ?>
 ```
 
@@ -27,8 +27,8 @@ $stdin = fopen('php://stdin', 'r');
 
 ```php
 <?php
-$line = trim(fgets(STDIN)); // читает одну строку из STDIN
-fscanf(STDIN, "%d\n", $number); // читает число из STDIN
+$line = trim(fgets(STDIN)); // читает одну строку из STDIN
+fscanf(STDIN, "%d\n", $number); // читает число из STDIN
 ?>
 ```
 
@@ -38,7 +38,7 @@ fscanf(STDIN, "%d\n", $number); // читает число из STDIN
 
 ```php
 <?php
-$stdout = fopen('php://stdout', 'w');
+$stdout = fopen('php://stdout', 'w');
 ?>
 ```
 
@@ -48,7 +48,7 @@ $stdout = fopen('php://stdout', 'w');
 
 ```php
 <?php
-$stderr = fopen('php://stderr', 'w');
+$stderr = fopen('php://stderr', 'w');
 ?>
 ```
 

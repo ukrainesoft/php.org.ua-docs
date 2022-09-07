@@ -40,10 +40,10 @@ public Ds\Vector::unshift(mixed $values = ?): void
 
 ```php
 <?php
-$vector = new \Ds\Vector([1, 2, 3]);
+$vector = new \Ds\Vector([1, 2, 3]);
 
 $vector->unshift("a");
-$vector->unshift("b", "c");
+$vector->unshift("b", "c");
 
 print_r($vector);
 ?>

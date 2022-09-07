@@ -44,20 +44,20 @@ datefmt_get_calendar_object(IntlDateFormatter $formatter): IntlCalendar|false|nu
 
 ```php
 <?php
-$formatter = IntlDateFormatter::create(
-    "fr_FR@calendar=islamic",
-    NULL,
-    NULL,
-    "GMT-01:00",
-    IntlDateFormatter::TRADITIONAL
+$formatter = IntlDateFormatter::create(
+    "fr_FR@calendar=islamic",
+    NULL,
+    NULL,
+    "GMT-01:00",
+    IntlDateFormatter::TRADITIONAL
 );
 
-$cal = $formatter->getCalendarObject();
+$cal = $formatter->getCalendarObject();
 
 var_dump(
-    $cal->getType(),
-    $cal->getTimeZone(),
-    $cal->getLocale(Locale::VALID_LOCALE)
+    $cal->getType(),
+    $cal->getTimeZone(),
+    $cal->getLocale(Locale::VALID_LOCALE)
 );
 ```
 

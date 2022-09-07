@@ -38,8 +38,8 @@ array_pop(array &$array): mixed
 
 ```php
 <?php
-$stack = array("orange", "banana", "apple", "raspberry");
-$fruit = array_pop($stack);
+$stack = array("orange", "banana", "apple", "raspberry");
+$fruit = array_pop($stack);
 print_r($stack);
 ?>
 ```

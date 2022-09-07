@@ -15,7 +15,7 @@ sodiumcryptokdfderivefromkey — Витягти підрозділ
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_kdf_derive_from_key(    int $subkey_length,    int $subkey_id,    string $context,    string $key): string
+sodium_crypto_kdf_derive_from_key(    int $subkey_length,    int $subkey_id,    string $context,    string $key): string
 ```
 
 Отримує підрозділ із кореневого ключа та додаткового контексту.

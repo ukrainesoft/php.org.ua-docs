@@ -61,9 +61,9 @@ geoip_record_by_name(string $hostname): array
 
 ```php
 <?php
-$record = geoip_record_by_name('www.example.com');
-if ($record) {
-    print_r($record);
+$record = geoip_record_by_name('www.example.com');
+if ($record) {
+    print_r($record);
 }
 ?>
 ```

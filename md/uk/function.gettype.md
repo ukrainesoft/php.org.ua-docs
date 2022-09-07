@@ -54,10 +54,10 @@ gettype(mixed $value): string
 ```php
 <?php
 
-$data = array(1, 1., NULL, new stdClass, 'foo');
+$data = array(1, 1., NULL, new stdClass, 'foo');
 
-foreach ($data as $value) {
-    echo gettype($value), "\n";
+foreach ($data as $value) {
+    echo gettype($value), "\n";
 }
 
 ?>

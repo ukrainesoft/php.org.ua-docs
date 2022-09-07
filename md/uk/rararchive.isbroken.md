@@ -46,10 +46,10 @@ rar_broken_is(RarArchive $rarfile): bool
 
 ```php
 <?php
-function retnull() { return null; }
-$file = dirname(__FILE__) . "/multi_broken.part1.rar";
-/* третий аргумент служит для подавления сообщений */
-$arch = RarArchive::open($file, null, 'retnull');
+function retnull() { return null; }
+$file = dirname(__FILE__) . "/multi_broken.part1.rar";
+/* третий аргумент служит для подавления сообщений */
+$arch = RarArchive::open($file, null, 'retnull');
 var_dump($arch->isBroken());
 ?>
 ```
@@ -64,10 +64,10 @@ bool(true)
 
 ```php
 <?php
-function retnull() { return null; }
-$file = dirname(__FILE__) . "/multi_broken.part1.rar";
-/* третий аргумент служит для подавления сообщений */
-$arch = rar_open($file, null, 'retnull');
+function retnull() { return null; }
+$file = dirname(__FILE__) . "/multi_broken.part1.rar";
+/* третий аргумент служит для подавления сообщений */
+$arch = rar_open($file, null, 'retnull');
 var_dump(rar_broken_is($arch));
 ?>
 ```

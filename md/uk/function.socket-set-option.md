@@ -15,7 +15,7 @@ socketsetoption — Встановлює опції для сокету
 ### Опис
 
 ```methodsynopsis
-socket_set_option(    Socket $socket,    int $level,    int $option,    array|string|int $value): bool
+socket_set_option(    Socket $socket,    int $level,    int $option,    array|string|int $value): bool
 ```
 
 Функція **socketsetoption()** встановлює опцію, вказану в параметрі `option`, на рівні протоколу `level`у значення, вказане параметром `value` для сокету `socket`
@@ -54,26 +54,26 @@ socket_set_option(    Socket $socket,    int $level,    int $option,
 
 ```php
 <?php
-$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
-if (!is_resource($socket)) {
-    echo 'Не могу создать сокет: '. socket_strerror(socket_last_error()) . PHP_EOL;
+if (!is_resource($socket)) {
+    echo 'Не могу создать сокет: '. socket_strerror(socket_last_error()) . PHP_EOL;
 }
 
-if (!socket_set_option($socket, SOL_SOCKET, SO_REUSEADDR, 1)) {
-    echo 'Не могу установить опцию на сокете: '. socket_strerror(socket_last_error()) . PHP_EOL;
+if (!socket_set_option($socket, SOL_SOCKET, SO_REUSEADDR, 1)) {
+    echo 'Не могу установить опцию на сокете: '. socket_strerror(socket_last_error()) . PHP_EOL;
 }
 
-if (!socket_bind($socket, '127.0.0.1', 1223)) {
-    echo 'Не могу привязать сокет: '. socket_strerror(socket_last_error()) . PHP_EOL;
+if (!socket_bind($socket, '127.0.0.1', 1223)) {
+    echo 'Не могу привязать сокет: '. socket_strerror(socket_last_error()) . PHP_EOL;
 }
 
-$rval = socket_get_option($socket, SOL_SOCKET, SO_REUSEADDR);
+$rval = socket_get_option($socket, SOL_SOCKET, SO_REUSEADDR);
 
-if ($rval === false) {
-    echo 'Не могу получить опцию сокета: '. socket_strerror(socket_last_error()) . PHP_EOL;
-} else if ($rval !== 0) {
-    echo 'Опция SO_REUSEADDR установлена на сокете!' . PHP_EOL;
+if ($rval === false) {
+    echo 'Не могу получить опцию сокета: '. socket_strerror(socket_last_error()) . PHP_EOL;
+} else if ($rval !== 0) {
+    echo 'Опция SO_REUSEADDR установлена на сокете!' . PHP_EOL;
 }
 ?>
 ```

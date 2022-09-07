@@ -28,12 +28,12 @@ title: Автоматичне завантаження класів
 
 ```php
 <?php
-spl_autoload_register(function ($class_name) {
-    include $class_name . '.php';
+spl_autoload_register(function ($class_name) {
+    include $class_name . '.php';
 });
 
-$obj  = new MyClass1();
-$obj2 = new MyClass2();
+$obj  = new MyClass1();
+$obj2 = new MyClass2();
 ?>
 ```
 
@@ -44,17 +44,17 @@ $obj2 = new MyClass2();
 ```php
 <?php
 
-spl_autoload_register(function ($name) {
-    var_dump($name);
+spl_autoload_register(function ($name) {
+    var_dump($name);
 });
 
-class Foo implements ITest {
+class Foo implements ITest {
 }
 
 /*
-string(5) "ITest"
+string(5) "ITest"
 
-Fatal error: Interface 'ITest' not found in ...
+Fatal error: Interface 'ITest' not found in ...
 */
 ?>
 ```

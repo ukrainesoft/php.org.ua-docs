@@ -44,29 +44,29 @@ public SplObjectStorage::getHash(object $object): string
 
 ```php
 <?php
-class OneSpecimenPerClassStorage extends SplObjectStorage {
-    public function getHash($o) {
-        return get_class($o);
-    }
+class OneSpecimenPerClassStorage extends SplObjectStorage {
+    public function getHash($o) {
+        return get_class($o);
+    }
 }
-class A {}
+class A {}
 
-$s = new OneSpecimenPerClassStorage;
-$o1 = new stdClass;
-$o2 = new stdClass;
-$o3 = new A;
+$s = new OneSpecimenPerClassStorage;
+$o1 = new stdClass;
+$o2 = new stdClass;
+$o3 = new A;
 
-$s[$o1] = 1;
-//$o2 предполагается равным $o1, соответственно значение замещается
-$s[$o2] = 2;
-$s[$o3] = 3;
+$s[$o1] = 1;
+//$o2 предполагается равным $o1, соответственно значение замещается
+$s[$o2] = 2;
+$s[$o3] = 3;
 
-//предполагаем, что следующие объекты эквивалентны приведённым выше
-//таким образом, их можно использовать для извлечения данных из контейнера
-$p1 = new stdClass;
-$p2 = new A;
-echo $s[$p1], "\n";
-echo $s[$p2], "\n";
+//предполагаем, что следующие объекты эквивалентны приведённым выше
+//таким образом, их можно использовать для извлечения данных из контейнера
+$p1 = new stdClass;
+$p2 = new A;
+echo $s[$p1], "\n";
+echo $s[$p2], "\n";
 ?>
 ```
 

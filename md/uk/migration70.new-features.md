@@ -14,13 +14,13 @@ title: Нова функціональність
 
 ```php
 <?php
-// Принудительный режим
-function sumOfInts(int ...$ints)
+// Принудительный режим
+function sumOfInts(int ...$ints)
 {
-    return array_sum($ints);
+    return array_sum($ints);
 }
 
-var_dump(sumOfInts(2, '3', 4.1));
+var_dump(sumOfInts(2, '3', 4.1));
 ```
 
 Результат виконання цього прикладу:
@@ -40,14 +40,14 @@ int(9)
 ```php
 <?php
 
-function arraysSum(array ...$arrays): array
+function arraysSum(array ...$arrays): array
 {
-    return array_map(function(array $array): int {
-        return array_sum($array);
-    }, $arrays);
+    return array_map(function(array $array): int {
+        return array_sum($array);
+    }, $arrays);
 }
 
-print_r(arraysSum([1,2,3], [4,5,6], [7,8,9]));
+print_r(arraysSum([1,2,3], [4,5,6], [7,8,9]));
 ```
 
 Результат виконання цього прикладу:
@@ -69,16 +69,16 @@ Array
 
 ```php
 <?php
-// Извлекаем значение $_GET['user'], а если оно не задано,
-// то возвращаем 'nobody'
-$username = $_GET['user'] ?? 'nobody';
-// Это идентично следующему коду:
-$username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
+// Извлекаем значение $_GET['user'], а если оно не задано,
+// то возвращаем 'nobody'
+$username = $_GET['user'] ?? 'nobody';
+// Это идентично следующему коду:
+$username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
 
-// Данный оператор можно использовать в цепочке.
-// В этом примере мы сперва проверяем, задан ли $_GET['user'], если нет,
-// то проверяем $_POST['user'], и если он тоже не задан, то присваеваем 'nobody'.
-$username = $_GET['user'] ?? $_POST['user'] ?? 'nobody';
+// Данный оператор можно использовать в цепочке.
+// В этом примере мы сперва проверяем, задан ли $_GET['user'], если нет,
+// то проверяем $_POST['user'], и если он тоже не задан, то присваеваем 'nobody'.
+$username = $_GET['user'] ?? $_POST['user'] ?? 'nobody';
 ?>
 ```
 
@@ -88,20 +88,20 @@ $username = $_GET['user'] ?? $_POST['user'] ?? 'nobody';
 
 ```php
 <?php
-// Целые числа
-echo 1 <=> 1; // 0
-echo 1 <=> 2; // -1
-echo 2 <=> 1; // 1
+// Целые числа
+echo 1 <=> 1; // 0
+echo 1 <=> 2; // -1
+echo 2 <=> 1; // 1
 
-// Числа с плавающей точкой
-echo 1.5 <=> 1.5; // 0
-echo 1.5 <=> 2.5; // -1
-echo 2.5 <=> 1.5; // 1
+// Числа с плавающей точкой
+echo 1.5 <=> 1.5; // 0
+echo 1.5 <=> 2.5; // -1
+echo 2.5 <=> 1.5; // 1
 
-// Строки
-echo "a" <=> "a"; // 0
-echo "a" <=> "b"; // -1
-echo "b" <=> "a"; // 1
+// Строки
+echo "a" <=> "a"; // 0
+echo "a" <=> "b"; // -1
+echo "b" <=> "a"; // 1
 ?>
 ```
 
@@ -111,13 +111,13 @@ echo "b" <=> "a"; // 1
 
 ```php
 <?php
-define('ANIMALS', [
-    'dog',
-    'cat',
-    'bird'
+define('ANIMALS', [
+    'dog',
+    'cat',
+    'bird'
 ]);
 
-echo ANIMALS[1]; // выводит "cat"
+echo ANIMALS[1]; // выводит "cat"
 ?>
 ```
 
@@ -127,27 +127,27 @@ echo ANIMALS[1]; // выводит "cat"
 
 ```php
 <?php
-interface Logger {
-    public function log(string $msg);
+interface Logger {
+    public function log(string $msg);
 }
 
-class Application {
-    private $logger;
+class Application {
+    private $logger;
 
-    public function getLogger(): Logger {
-         return $this->logger;
-    }
+    public function getLogger(): Logger {
+         return $this->logger;
+    }
 
-    public function setLogger(Logger $logger) {
-         $this->logger = $logger;
-    }
+    public function setLogger(Logger $logger) {
+         $this->logger = $logger;
+    }
 }
 
-$app = new Application;
-$app->setLogger(new class implements Logger {
-    public function log(string $msg) {
-        echo $msg;
-    }
+$app = new Application;
+$app->setLogger(new class implements Logger {
+    public function log(string $msg) {
+        echo $msg;
+    }
 });
 
 var_dump($app->getLogger());
@@ -168,9 +168,9 @@ object(class@anonymous)#2 (0) {
 Він приймає шістнадцятковий код Unicode і записуємо його у форматі UTF-8 у подвійних лапках або форматі heredoc. Будь-який коректний код буде прийнято. Ведучі нулі за бажанням.
 
 ```php
-echo "\u{aa}";
-echo "\u{0000aa}";
-echo "\u{9999}";
+echo "\u{aa}";
+echo "\u{0000aa}";
+echo "\u{9999}";
 ```
 
 Результат виконання цього прикладу:
@@ -187,16 +187,16 @@ echo "\u{9999}";
 
 ```php
 <?php
-class A {private $x = 1;}
+class A {private $x = 1;}
 
-// До PHP 7
-$getX = function() {return $this->x;};
-$getXCB = $getX->bindTo(new A, 'A'); // промежуточное замыкание
-echo $getXCB();
+// До PHP 7
+$getX = function() {return $this->x;};
+$getXCB = $getX->bindTo(new A, 'A'); // промежуточное замыкание
+echo $getXCB();
 
-// PHP 7+
-$getX = function() {return $this->x;};
-echo $getX->call(new A);
+// PHP 7+
+$getX = function() {return $this->x;};
+echo $getX->call(new A);
 ```
 
 Результат виконання цього прикладу:
@@ -213,14 +213,14 @@ echo $getX->call(new A);
 ```php
 <?php
 
-// Преобразование всех объектов в __PHP_Incomplete_Class
-$data = unserialize($foo, ["allowed_classes" => false]);
+// Преобразование всех объектов в __PHP_Incomplete_Class
+$data = unserialize($foo, ["allowed_classes" => false]);
 
-// Преобразование всех объектов, кроме MyClass и MyClass2 в __PHP_Incomplete_Class
-$data = unserialize($foo, ["allowed_classes" => ["MyClass", "MyClass2"]]);
+// Преобразование всех объектов, кроме MyClass и MyClass2 в __PHP_Incomplete_Class
+$data = unserialize($foo, ["allowed_classes" => ["MyClass", "MyClass2"]]);
 
-// Поведение по умолчанию принимает все классы (можно просто не задавать второй аргумент)
-$data = unserialize($foo, ["allowed_classes" => true]);
+// Поведение по умолчанию принимает все классы (можно просто не задавать второй аргумент)
+$data = unserialize($foo, ["allowed_classes" => true]);
 ```
 
 ### [IntlChar](class.intlchar.md)
@@ -230,8 +230,8 @@ $data = unserialize($foo, ["allowed_classes" => true]);
 ```php
 <?php
 
-printf('%x', IntlChar::CODEPOINT_MAX);
-echo IntlChar::charName('@');
+printf('%x', IntlChar::CODEPOINT_MAX);
+echo IntlChar::charName('@');
 var_dump(IntlChar::ispunct('!'));
 ```
 
@@ -253,11 +253,11 @@ bool(true)
 
 ```php
 <?php
-ini_set('assert.exception', 1);
+ini_set('assert.exception', 1);
 
-class CustomError extends AssertionError {}
+class CustomError extends AssertionError {}
 
-assert(false, new CustomError('Сообщение об ошибке'));
+assert(false, new CustomError('Сообщение об ошибке'));
 ?>
 ```
 
@@ -275,23 +275,23 @@ Fatal error: Uncaught CustomError: Сообщение об ошибке
 
 ```php
 <?php
-// До PHP 7
-use some\namespace\ClassA;
-use some\namespace\ClassB;
-use some\namespace\ClassC as C;
+// До PHP 7
+use some\namespace\ClassA;
+use some\namespace\ClassB;
+use some\namespace\ClassC as C;
 
-use function some\namespace\fn_a;
-use function some\namespace\fn_b;
-use function some\namespace\fn_c;
+use function some\namespace\fn_a;
+use function some\namespace\fn_b;
+use function some\namespace\fn_c;
 
-use const some\namespace\ConstA;
-use const some\namespace\ConstB;
-use const some\namespace\ConstC;
+use const some\namespace\ConstA;
+use const some\namespace\ConstB;
+use const some\namespace\ConstC;
 
-// PHP 7+
-use some\namespace\{ClassA, ClassB, ClassC as C};
-use function some\namespace\{fn_a, fn_b, fn_c};
-use const some\namespace\{ConstA, ConstB, ConstC};
+// PHP 7+
+use some\namespace\{ClassA, ClassB, ClassC as C};
+use function some\namespace\{fn_a, fn_b, fn_c};
+use const some\namespace\{ConstA, ConstB, ConstC};
 ?>
 ```
 
@@ -302,18 +302,18 @@ use const some\namespace\{ConstA, ConstB, ConstC};
 ```php
 <?php
 
-$gen = (function() {
-    yield 1;
-    yield 2;
+$gen = (function() {
+    yield 1;
+    yield 2;
 
-    return 3;
+    return 3;
 })();
 
-foreach ($gen as $val) {
-    echo $val, PHP_EOL;
+foreach ($gen as $val) {
+    echo $val, PHP_EOL;
 }
 
-echo $gen->getReturn(), PHP_EOL;
+echo $gen->getReturn(), PHP_EOL;
 ```
 
 Результат виконання цього прикладу:
@@ -332,22 +332,22 @@ echo $gen->getReturn(), PHP_EOL;
 
 ```php
 <?php
-function gen()
+function gen()
 {
-    yield 1;
-    yield 2;
-    yield from gen2();
+    yield 1;
+    yield 2;
+    yield from gen2();
 }
 
-function gen2()
+function gen2()
 {
-    yield 3;
-    yield 4;
+    yield 3;
+    yield 4;
 }
 
-foreach (gen() as $val)
+foreach (gen() as $val)
 {
-    echo $val, PHP_EOL;
+    echo $val, PHP_EOL;
 }
 ?>
 ```
@@ -367,7 +367,7 @@ foreach (gen() as $val)
 
 ```php
 <?php
-var_dump(intdiv(10, 3));
+var_dump(intdiv(10, 3));
 ?>
 ```
 
@@ -388,8 +388,8 @@ int(3)
 ```php
 <?php
 session_start([
-    'cache_limiter' => 'private',
-    'read_and_close' => true,
+    'cache_limiter' => 'private',
+    'read_and_close' => true,
 ]);
 ?>
 ```

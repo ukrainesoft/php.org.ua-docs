@@ -34,7 +34,7 @@ public SyncSharedMemory::size(): int
 
 ```php
 <?php
-$mem = new SyncSharedMemory("AppReportName", 1024);
+$mem = new SyncSharedMemory("AppReportName", 1024);
 var_dump($mem->size());
 ?>
 ```

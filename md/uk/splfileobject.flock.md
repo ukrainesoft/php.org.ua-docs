@@ -46,13 +46,13 @@ public SplFileObject::flock(int $operation, int &$wouldBlock = null): bool
 
 ```php
 <?php
-$file = new SplFileObject("/tmp/lock.txt", "w");
-if ($file->flock(LOCK_EX)) { // выполняем эксклюзивную блокировку
-    $file->ftruncate(0);     // очищаем файл
-    $file->fwrite("Что-нибудь пишем сюда\n");
-    $file->flock(LOCK_UN);   // снимаем блокировку
-} else {
-    echo "Не удалось получить блокировку!";
+$file = new SplFileObject("/tmp/lock.txt", "w");
+if ($file->flock(LOCK_EX)) { // выполняем эксклюзивную блокировку
+    $file->ftruncate(0);     // очищаем файл
+    $file->fwrite("Что-нибудь пишем сюда\n");
+    $file->flock(LOCK_UN);   // снимаем блокировку
+} else {
+    echo "Не удалось получить блокировку!";
 }
 ?>
 ```

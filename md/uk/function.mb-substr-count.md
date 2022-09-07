@@ -50,7 +50,7 @@ mb_substr_count(string $haystack, string $needle, ?string $encoding = null): int
 
 ```php
 <?php
-echo mb_substr_count("Это просто проверка", "то"); // выведет на экран 2
+echo mb_substr_count("Это просто проверка", "то"); // выведет на экран 2
 ?>
 ```
 

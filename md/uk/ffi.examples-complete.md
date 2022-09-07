@@ -16,8 +16,8 @@ preload.php
 
 ```php
 <?php
-FFI::load(__DIR__ . "/dummy.h");
-opcache_compile_file(__DIR__ . "/dummy.php");
+FFI::load(__DIR__ . "/dummy.h");
+opcache_compile_file(__DIR__ . "/dummy.php");
 ?>
 ```
 
@@ -31,16 +31,16 @@ dummy.php
 
 ```php
 <?php
-final class Dummy {
-    private static $ffi = null;
-    function __construct() {
-        if (is_null(self::$ffi)) {
-            self::$ffi = FFI::scope("DUMMY");
-        }
-    }
-    function printf($format, ...$args) {
-       return (int)self::$ffi->printf($format, ...$args);
-    }
+final class Dummy {
+    private static $ffi = null;
+    function __construct() {
+        if (is_null(self::$ffi)) {
+            self::$ffi = FFI::scope("DUMMY");
+        }
+    }
+    function printf($format, ...$args) {
+       return (int)self::$ffi->printf($format, ...$args);
+    }
 }
 ?>
 ```
@@ -49,7 +49,7 @@ test.php
 
 ```php
 <?php
-$d = new Dummy();
-$d->printf("Привет, %s!\n", "мир");
+$d = new Dummy();
+$d->printf("Привет, %s!\n", "мир");
 ?>
 ```

@@ -43,33 +43,33 @@ public Imagick::setImageTicksPerSecond(int $ticks_per_second): bool
 ```php
 <?php
 
-// Изменение анимированного gif-изображения так, чтобы первая половина gif воспроизводилась с половинной скоростью,
-// а вторая половина воспроизводилась с удвоенной скоростью.
+// Изменение анимированного gif-изображения так, чтобы первая половина gif воспроизводилась с половинной скоростью,
+// а вторая половина воспроизводилась с удвоенной скоростью.
 
-$imagick = new Imagick(realpath("Test.gif"));
-$imagick = $imagick->coalesceImages();
+$imagick = new Imagick(realpath("Test.gif"));
+$imagick = $imagick->coalesceImages();
 
-$totalFrames = $imagick->getNumberImages();
+$totalFrames = $imagick->getNumberImages();
 
-$frameCount = 0;
+$frameCount = 0;
 
-foreach ($imagick as $frame) {
-    $imagick->setImageTicksPerSecond(50);
+foreach ($imagick as $frame) {
+    $imagick->setImageTicksPerSecond(50);
 
-    if ($frameCount < ($totalFrames / 2)) {
-        // Измените кадр так, чтобы он отображался вдвое дольше, чем сейчас.
-        $imagick->setImageTicksPerSecond(50);
-    } else {
-        // Измените кадр так, чтобы он отображался вдвое меньше, чем сейчас.
-        $imagick->setImageTicksPerSecond(200);
-    }
+    if ($frameCount < ($totalFrames / 2)) {
+        // Измените кадр так, чтобы он отображался вдвое дольше, чем сейчас.
+        $imagick->setImageTicksPerSecond(50);
+    } else {
+        // Измените кадр так, чтобы он отображался вдвое меньше, чем сейчас.
+        $imagick->setImageTicksPerSecond(200);
+    }
 
-    $frameCount++;
+    $frameCount++;
 }
 
-$imagick = $imagick->deconstructImages();
+$imagick = $imagick->deconstructImages();
 
-$imagick->writeImages("/path/to/save/output.gif", true);
+$imagick->writeImages("/path/to/save/output.gif", true);
 
 ?>
 ```

@@ -15,7 +15,7 @@ snmpset — Встановлює значення об'єкта SNMP
 ### Опис
 
 ```methodsynopsis
-snmpset(    string $hostname,    string $community,    array|string $object_id,    array|string $type,    array|string $value,    int $timeout = -1,    int $retries = -1): bool
+snmpset(    string $hostname,    string $community,    array|string $object_id,    array|string $type,    array|string $value,    int $timeout = -1,    int $retries = -1): bool
 ```
 
 **snmpset()** використовується для встановлення значення об'єкта SNMP, вказаного у параметрі `object_id`
@@ -81,7 +81,7 @@ MIB визначає тип ідентифікатора кожного об'є�
 
 ```php
 <?php
-  snmpset("localhost", "public", "IF-MIB::ifAlias.3", "s", "foo");
+  snmpset("localhost", "public", "IF-MIB::ifAlias.3", "s", "foo");
 ?>
 ```
 
@@ -89,9 +89,9 @@ MIB визначає тип ідентифікатора кожного об'є�
 
 ```php
 <?php
-  snmpset("localhost", "public", 'FOO-MIB::bar.42', 'b', '0 1 2 3 4');
-// or
-  snmpset("localhost", "public", 'FOO-MIB::bar.42', 'x', 'F0');
+  snmpset("localhost", "public", 'FOO-MIB::bar.42', 'b', '0 1 2 3 4');
+// or
+  snmpset("localhost", "public", 'FOO-MIB::bar.42', 'x', 'F0');
 ?>
 ```
 

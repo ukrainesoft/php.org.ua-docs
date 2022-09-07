@@ -34,15 +34,15 @@ public Phar::hasMetadata(): bool
 
 ```php
 <?php
-try {
-    $phar = new Phar('myphar.phar');
-    var_dump($phar->hasMetadata());
-    $phar->setMetadata(array('thing' => 'hi'));
-    var_dump($phar->hasMetadata());
-    $phar->delMetadata();
-    var_dump($phar->hasMetadata());
-} catch (Exception $e) {
-    // handle error
+try {
+    $phar = new Phar('myphar.phar');
+    var_dump($phar->hasMetadata());
+    $phar->setMetadata(array('thing' => 'hi'));
+    var_dump($phar->hasMetadata());
+    $phar->delMetadata();
+    var_dump($phar->hasMetadata());
+} catch (Exception $e) {
+    // handle error
 }
 ?>
 ```

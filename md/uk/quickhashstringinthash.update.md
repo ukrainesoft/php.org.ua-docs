@@ -40,19 +40,19 @@ public QuickHashStringIntHash::update(string $key, int $value): bool
 
 ```php
 <?php
-$hash = new QuickHashStringIntHash( 1024 );
+$hash = new QuickHashStringIntHash( 1024 );
 
-$hash->add( 'шесть', 314159265 );
-$hash->add( "множество", 314159265 );
+$hash->add( 'шесть', 314159265 );
+$hash->add( "множество", 314159265 );
 
-echo $hash->get( 'шесть' ), "\n";
-echo $hash->get( 'множество' ), "\n";
+echo $hash->get( 'шесть' ), "\n";
+echo $hash->get( 'множество' ), "\n";
 
-var_dump( $hash->update( 'множество', 314159266 ) );
-var_dump( $hash->update( "множество плюс один", 314159999 ) );
+var_dump( $hash->update( 'множество', 314159266 ) );
+var_dump( $hash->update( "множество плюс один", 314159999 ) );
 
-echo $hash->get( 'шесть' ), "\n";
-echo $hash->get( 'множество' ), "\n";
+echo $hash->get( 'шесть' ), "\n";
+echo $hash->get( 'множество' ), "\n";
 ?>
 ```
 

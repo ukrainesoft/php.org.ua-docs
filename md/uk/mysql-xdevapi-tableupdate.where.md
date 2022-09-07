@@ -36,17 +36,17 @@ public mysql_xdevapi\TableUpdate::where(string $where_expr): mysql_xdevapi\Table
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
-$res = $table->update()
-  ->set('level', 3)
-  ->where('age > 15 and age < 22')
-  ->limit(4)
-  ->orderby(['age asc','name desc'])
-  ->execute();
+$res = $table->update()
+  ->set('level', 3)
+  ->where('age > 15 and age < 22')
+  ->limit(4)
+  ->orderby(['age asc','name desc'])
+  ->execute();
 
 ?>
 ```

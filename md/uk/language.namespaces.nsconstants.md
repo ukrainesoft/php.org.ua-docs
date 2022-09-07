@@ -18,9 +18,9 @@ PHP підтримує два способи доступу до абстрак�
 
 ```php
 <?php
-namespace MyProject;
+namespace MyProject;
 
-echo '"', __NAMESPACE__, '"'; // выводит "MyProject"
+echo '"', __NAMESPACE__, '"'; // выводит "MyProject"
 ?>
 ```
 
@@ -29,7 +29,7 @@ echo '"', __NAMESPACE__, '"'; // выводит "MyProject"
 ```php
 <?php
 
-echo '"', __NAMESPACE__, '"'; // выводит ""
+echo '"', __NAMESPACE__, '"'; // выводит ""
 ?>
 ```
 
@@ -39,12 +39,12 @@ echo '"', __NAMESPACE__, '"'; // выводит ""
 
 ```php
 <?php
-namespace MyProject;
+namespace MyProject;
 
-function get($classname)
+function get($classname)
 {
-    $a = __NAMESPACE__ . '\\' . $classname;
-    return new $a;
+    $a = __NAMESPACE__ . '\\' . $classname;
+    return new $a;
 }
 ?>
 ```
@@ -55,18 +55,18 @@ function get($classname)
 
 ```php
 <?php
-namespace MyProject;
+namespace MyProject;
 
-use blah\blah as mine; // смотрите "Использование пространств имён: импорт/создание псевдонима имени"
+use blah\blah as mine; // смотрите "Использование пространств имён: импорт/создание псевдонима имени"
 
-blah\mine(); // вызывает функцию MyProject\blah\mine()
-namespace\blah\mine(); // вызывает функцию MyProject\blah\mine()
+blah\mine(); // вызывает функцию MyProject\blah\mine()
+namespace\blah\mine(); // вызывает функцию MyProject\blah\mine()
 
-namespace\func(); // вызывает функцию MyProject\func()
-namespace\sub\func(); // вызывает функцию MyProject\sub\func()
-namespace\cname::method(); // вызывает статический метод "method" класса MyProject\cname
-$a = new namespace\sub\cname(); // Создаёт экземпляр класса MyProject\sub\cname
-$b = namespace\CONSTANT; // присваивает значение константы MyProject\CONSTANT переменной $b
+namespace\func(); // вызывает функцию MyProject\func()
+namespace\sub\func(); // вызывает функцию MyProject\sub\func()
+namespace\cname::method(); // вызывает статический метод "method" класса MyProject\cname
+$a = new namespace\sub\cname(); // Создаёт экземпляр класса MyProject\sub\cname
+$b = namespace\CONSTANT; // присваивает значение константы MyProject\CONSTANT переменной $b
 ?>
 ```
 
@@ -75,10 +75,10 @@ $b = namespace\CONSTANT; // присваивает значение кон
 ```php
 <?php
 
-namespace\func(); // вызывает функцию func()
-namespace\sub\func(); // вызывает функцию sub\func()
-namespace\cname::method(); // вызывает статический метод "method" класса cname
-$a = new namespace\sub\cname(); // Создаёт экземпляр класса sub\cname
-$b = namespace\CONSTANT; // присваивает значение константы CONSTANT переменной $b
+namespace\func(); // вызывает функцию func()
+namespace\sub\func(); // вызывает функцию sub\func()
+namespace\cname::method(); // вызывает статический метод "method" класса cname
+$a = new namespace\sub\cname(); // Создаёт экземпляр класса sub\cname
+$b = namespace\CONSTANT; // присваивает значение константы CONSTANT переменной $b
 ?>
 ```

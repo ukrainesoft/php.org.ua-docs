@@ -35,7 +35,7 @@ public mysql_xdevapi\ColumnResult::getCollationName(): string
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

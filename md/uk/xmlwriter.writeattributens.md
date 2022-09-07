@@ -19,13 +19,13 @@ XMLWriter::writeAttributeNs -- xmlwriterwriteattributens — Записати п
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public XMLWriter::writeAttributeNs(    ?string $prefix,    string $name,    ?string $namespace,    string $value): bool
+public XMLWriter::writeAttributeNs(    ?string $prefix,    string $name,    ?string $namespace,    string $value): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-xmlwriter_write_attribute_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace,    string $value): bool
+xmlwriter_write_attribute_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace,    string $value): bool
 ```
 
 Записує повний атрибут простору імен.

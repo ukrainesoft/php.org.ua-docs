@@ -47,12 +47,12 @@ mysqli_connect_error(): ?string
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
-/* @ используется для подавления предупреждений */
-$mysqli = @new mysqli('localhost', 'fake_user', 'wrong_password', 'does_not_exist');
+/* @ используется для подавления предупреждений */
+$mysqli = @new mysqli('localhost', 'fake_user', 'wrong_password', 'does_not_exist');
 
-if ($mysqli->connect_error) {
-    /* Используйте предпочитаемый вами метод регистрации ошибок */
-    error_log('Ошибка при подключении: ' . $mysqli->connect_error);
+if ($mysqli->connect_error) {
+    /* Используйте предпочитаемый вами метод регистрации ошибок */
+    error_log('Ошибка при подключении: ' . $mysqli->connect_error);
 }
 ?>
 ```
@@ -64,12 +64,12 @@ if ($mysqli->connect_error) {
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
-/* @ используется для подавления предупреждений */
-$link = @mysqli_connect('localhost', 'fake_user', 'wrong_password', 'does_not_exist');
+/* @ используется для подавления предупреждений */
+$link = @mysqli_connect('localhost', 'fake_user', 'wrong_password', 'does_not_exist');
 
-if (!$link) {
-    /* Используйте предпочитаемый вами метод регистрации ошибок */
-    error_log('Ошибка при подключении: ' . mysqli_connect_error());
+if (!$link) {
+    /* Используйте предпочитаемый вами метод регистрации ошибок */
+    error_log('Ошибка при подключении: ' . mysqli_connect_error());
 }
 ?>
 ```

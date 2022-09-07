@@ -38,9 +38,9 @@ geoip_country_code_by_name(string $hostname): string
 
 ```php
 <?php
-$country = geoip_country_code_by_name('www.example.com');
-if ($country) {
-    echo 'Хост расположен в ' . $country;
+$country = geoip_country_code_by_name('www.example.com');
+if ($country) {
+    echo 'Хост расположен в ' . $country;
 }
 ?>
 ```
@@ -55,7 +55,7 @@ if ($country) {
 
 **Застереження**
 
-Будь ласка, ознайомтеся з повним списком допустимих значень, що повертаються, в тому числі і спеціальних кодів, тут [» http://www.maxmind.com/en/iso3166](http://www.maxmind.com/en/iso3166)
+Будь ласка, ознайомтеся з повним списком допустимих значень, що повертаються, в тому числі і спеціальних кодів, тут [» http://www.maxmind.com/en/iso3166](http://www.maxmind.com/en/iso3166)
 
 ### Дивіться також
 

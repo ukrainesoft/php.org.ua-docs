@@ -37,17 +37,17 @@ fstat(resource $stream): array|false
 ```php
 <?php
 
-// открываем файл
-$fp = fopen("/etc/passwd", "r");
+// открываем файл
+$fp = fopen("/etc/passwd", "r");
 
-// собираем статистику
-$fstat = fstat($fp);
+// собираем статистику
+$fstat = fstat($fp);
 
-// закрываем файл
+// закрываем файл
 fclose($fp);
 
-// отображаем только ассоциативную часть
-print_r(array_slice($fstat, 13));
+// отображаем только ассоциативную часть
+print_r(array_slice($fstat, 13));
 
 ?>
 ```

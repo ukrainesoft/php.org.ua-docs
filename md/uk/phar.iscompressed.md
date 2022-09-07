@@ -38,14 +38,14 @@ public Phar::isCompressed(): int|false
 
 ```php
 <?php
-try {
-    $phar1 = new Phar('myphar.zip.phar');
-    var_dump($phar1->isCompressed());
-    $phar2 = new Phar('myuncompressed.tar.phar');
-    var_dump($phar2->isCompressed());
-    $phar2->compress(Phar::GZ);
-    var_dump($phar2->isCompressed() == Phar::GZ);
-} catch (Exception $e) {
+try {
+    $phar1 = new Phar('myphar.zip.phar');
+    var_dump($phar1->isCompressed());
+    $phar2 = new Phar('myuncompressed.tar.phar');
+    var_dump($phar2->isCompressed());
+    $phar2->compress(Phar::GZ);
+    var_dump($phar2->isCompressed() == Phar::GZ);
+} catch (Exception $e) {
 }
 ?>
 ```

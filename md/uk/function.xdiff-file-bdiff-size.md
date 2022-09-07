@@ -38,8 +38,8 @@ xdiff_file_bdiff_size(string $file): int
 
 ```php
 <?php
-$length = xdiff_string_bdiff_size('file.bdiff');
-echo "Размер результирующего файла будет $length байт";
+$length = xdiff_string_bdiff_size('file.bdiff');
+echo "Размер результирующего файла будет $length байт";
 ?>
 ```
 

@@ -15,7 +15,7 @@ PDO::sqlite Create Aggregate — Реєстрація агрегуючої фу�
 ### Опис
 
 ```methodsynopsis
-public PDO::sqliteCreateAggregate(    string $function_name,    callable $step_func,    callable $finalize_func,    int $num_args = ?): bool
+public PDO::sqliteCreateAggregate(    string $function_name,    callable $step_func,    callable $finalize_func,    int $num_args = ?): bool
 ```
 
 **Увага**
@@ -39,7 +39,7 @@ public PDO::sqliteCreateAggregate(    string $function_name,    callable
 Ця функція має бути визначена так:
 
 ```methodsynopsis
-step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values): mixed
+step(    mixed $context,    int $rownumber,    mixed $value,    mixed ...$values): mixed
 ```
 
 `context`
@@ -94,42 +94,42 @@ fini(mixed $context, int $rowcount): mixed
 
 ```php
 <?php
-$data = array(
-   'one',
-   'two',
-   'three',
-   'four',
-   'five',
-   'six',
-   'seven',
-   'eight',
-   'nine',
-   'ten',
-   );
-$db = new PDO('sqlite::memory:');
-$db->exec("CREATE TABLE strings(a)");
-$insert = $db->prepare('INSERT INTO strings VALUES (?)');
-foreach ($data as $str) {
-    $insert->execute(array($str));
+$data = array(
+   'one',
+   'two',
+   'three',
+   'four',
+   'five',
+   'six',
+   'seven',
+   'eight',
+   'nine',
+   'ten',
+   );
+$db = new PDO('sqlite::memory:');
+$db->exec("CREATE TABLE strings(a)");
+$insert = $db->prepare('INSERT INTO strings VALUES (?)');
+foreach ($data as $str) {
+    $insert->execute(array($str));
 }
-$insert = null;
+$insert = null;
 
-function max_len_step($context, $rownumber, $string)
+function max_len_step($context, $rownumber, $string)
 {
-    if (strlen($string) > $context) {
-        $context = strlen($string);
-    }
-    return $context;
+    if (strlen($string) > $context) {
+        $context = strlen($string);
+    }
+    return $context;
 }
 
-function max_len_finalize($context, $rowcount)
+function max_len_finalize($context, $rowcount)
 {
-    return $context === null ? 0 : $context;
+    return $context === null ? 0 : $context;
 }
 
-$db->sqliteCreateAggregate('max_len', 'max_len_step', 'max_len_finalize');
+$db->sqliteCreateAggregate('max_len', 'max_len_step', 'max_len_finalize');
 
-var_dump($db->query('SELECT max_len(a) from strings')->fetchAll());
+var_dump($db->query('SELECT max_len(a) from strings')->fetchAll());
 
 ?>
 ```

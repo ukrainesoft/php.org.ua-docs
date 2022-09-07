@@ -37,11 +37,11 @@ public mysql_xdevapi\CollectionFind::having(string $sort_expr): mysql_xdevapi\Co
 ```php
 <?php
 
-//Предполагая, что $coll является корректным объектом Collection
+//Предполагая, что $coll является корректным объектом Collection
 
-//Найти все документы, у которых 'age' больше 40,
-//В объекте Result возвращаются только столбцы 'name' и 'age'.
-$res = $coll->find()->fields(['name','age'])->having('age > 40')->execute();
+//Найти все документы, у которых 'age' больше 40,
+//В объекте Result возвращаются только столбцы 'name' и 'age'.
+$res = $coll->find()->fields(['name','age'])->having('age > 40')->execute();
 
 ?>
 ```

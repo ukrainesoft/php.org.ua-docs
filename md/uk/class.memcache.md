@@ -28,8 +28,8 @@ title: Клас Memcache
 
 
     
-   add(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
-addServer(    string $host,    int $port = 11211,    bool $persistent = ?,    int $weight = ?,    int $timeout = ?,    int $retry_interval = ?,    bool $status = ?,    callable $failure_callback = ?,    int $timeoutms = ?): bool
+   add(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
+addServer(    string $host,    int $port = 11211,    bool $persistent = ?,    int $weight = ?,    int $timeout = ?,    int $retry_interval = ?,    bool $status = ?,    callable $failure_callback = ?,    int $timeoutms = ?): bool
 close(): bool
 connect(string $host, int $port = ?, int $timeout = ?): bool
 decrement(string $key, int $value = 1): int|false
@@ -42,10 +42,10 @@ getStats(string $type = ?, int $slabid = ?, int $limit = 100): array|false
 getVersion(): string|false
 increment(string $key, int $value = 1): int|false
 pconnect(string $host, int $port = ?, int $timeout = ?): mixed
-replace(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
-set(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
+replace(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
+set(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
 setCompressThreshold(int $threshold, float $min_savings = ?): bool
-setServerParams(    string $host,    int $port = 11211,    int $timeout = ?,    int $retry_interval = false,    bool $status = ?,    callable $failure_callback = ?): bool
+setServerParams(    string $host,    int $port = 11211,    int $timeout = ?,    int $retry_interval = false,    bool $status = ?,    callable $failure_callback = ?): bool
 
    }
 ```

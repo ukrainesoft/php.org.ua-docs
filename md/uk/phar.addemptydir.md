@@ -40,14 +40,14 @@ public Phar::addEmptyDir(string $directory): void
 
 ```php
 <?php
-try {
-    $a = new Phar('/путь/к/phar.phar');
+try {
+    $a = new Phar('/путь/к/phar.phar');
 
-    $a->addEmptyDir('/полный/путь/к/файлу');
-    // показывает, как хранится этот файл
-    $b = $a['полный/путь/к/файлу']->isDir();
-} catch (Exception $e) {
-    // обработка ошибок
+    $a->addEmptyDir('/полный/путь/к/файлу');
+    // показывает, как хранится этот файл
+    $b = $a['полный/путь/к/файлу']->isDir();
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

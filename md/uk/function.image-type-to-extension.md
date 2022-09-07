@@ -40,11 +40,11 @@ image_type_to_extension(int $image_type, bool $include_dot = true): string|false
 
 ```php
 <?php
-// Создание изображения
-$im = imagecreatetruecolor(100, 100);
+// Создание изображения
+$im = imagecreatetruecolor(100, 100);
 
-// Сохранение изображения
-imagepng($im, './test' . image_type_to_extension(IMAGETYPE_PNG));
+// Сохранение изображения
+imagepng($im, './test' . image_type_to_extension(IMAGETYPE_PNG));
 imagedestroy($im);
 ?>
 ```

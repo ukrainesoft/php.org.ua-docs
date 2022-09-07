@@ -25,7 +25,7 @@ public DateTime::setDate(int $year, int $month, int $day): DateTime
 Процедурний стиль
 
 ```methodsynopsis
-date_date_set(    DateTime $object,    int $year,    int $month,    int $day): DateTime
+date_date_set(    DateTime $object,    int $year,    int $month,    int $day): DateTime
 ```
 
 Встановлює поточне значення дати об'єкта DateTime на нове значення.

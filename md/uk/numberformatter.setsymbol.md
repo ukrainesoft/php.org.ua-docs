@@ -54,12 +54,12 @@ numfmt_set_symbol(NumberFormatter $formatter, int $symbol, string $value): bool
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-echo "Разделитель: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
-echo numfmt_format($fmt, 1234567.891234567890000)."\n";
-numfmt_set_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");
-echo "Разделитель: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
-echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+echo "Разделитель: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+numfmt_set_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");
+echo "Разделитель: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
 ?>
 ```
 
@@ -67,12 +67,12 @@ echo numfmt_format($fmt, 1234567.891234567890000)."\n";
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
-echo "Разделитель: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
-echo $fmt->format(1234567.891234567890000)."\n";
-$fmt->setSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");
-echo "Разделитель: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
-echo $fmt->format(1234567.891234567890000)."\n";
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+echo "Разделитель: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
+echo $fmt->format(1234567.891234567890000)."\n";
+$fmt->setSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");
+echo "Разделитель: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."\n";
+echo $fmt->format(1234567.891234567890000)."\n";
 ?>
 ```
 

@@ -36,10 +36,10 @@ public RarArchive::__toString(): string
 
 ```php
 <?php
-$rar_arch = RarArchive::open('latest_winrar.rar');
-echo $rar_arch."\n";
+$rar_arch = RarArchive::open('latest_winrar.rar');
+echo $rar_arch."\n";
 $rar_arch->close();
-echo $rar_arch."\n";
+echo $rar_arch."\n";
 ?>
 ```
 

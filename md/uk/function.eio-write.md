@@ -15,7 +15,7 @@ eiowrite — Запис до файлу
 ### Опис
 
 ```methodsynopsis
-eio_write(    mixed $fd,    string $str,    int $length = 0,    int $offset = 0,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_write(    mixed $fd,    string $str,    int $length = 0,    int $offset = 0,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiowrite()** записує до `length` байт з `str` у файл, починаючи з позиції `offset` байт з початку файла.
@@ -47,7 +47,7 @@ eio_write(    mixed $fd,    string $str,    int $length = 0,    
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

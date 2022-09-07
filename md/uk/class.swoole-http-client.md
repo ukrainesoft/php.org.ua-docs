@@ -36,10 +36,10 @@ title: Клас SwooleHttpClient
 
     /* Методы */
     
-   public addFile(    string $path,    string $name,    string $type = ?,    string $filename = ?,    string $offset = ?): void
+   public addFile(    string $path,    string $name,    string $type = ?,    string $filename = ?,    string $offset = ?): void
 public close(): void
 public __destruct(): void
-public download(    string $path,    string $file,    callable $callback,    int $offset = ?): void
+public download(    string $path,    string $file,    callable $callback,    int $offset = ?): void
 public execute(string $path, string $callback): void
 public get(string $path, callable $callback): void
 public isConnected(): bool

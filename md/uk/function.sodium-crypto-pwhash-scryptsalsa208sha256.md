@@ -15,7 +15,7 @@ sodiumcryptopwhashscryptsalsa208sha256 — Отримує ключ із паро
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_pwhash_scryptsalsa208sha256(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit): string
+sodium_crypto_pwhash_scryptsalsa208sha256(    int $length,    string $password,    string $salt,    int $opslimit,    int $memlimit): string
 ```
 
 Аналог функції scrypt [sodiumcryptopwhash()](function.sodium-crypto-pwhash.md)

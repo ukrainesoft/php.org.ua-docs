@@ -15,7 +15,7 @@ fanncascadetrainвінfile — Навчання на даних прочитан
 ### Опис
 
 ```methodsynopsis
-fann_cascadetrain_on_file(    resource $ann,    string $filename,    int $max_neurons,    int $neurons_between_reports,    float $desired_error): bool
+fann_cascadetrain_on_file(    resource $ann,    string $filename,    int $max_neurons,    int $neurons_between_reports,    float $desired_error): bool
 ```
 
 Робить те саме, що і [fanncascadetrainвінdata()](function.fann-cascadetrain-on-data.md)але читає дані безпосередньо з файлу.

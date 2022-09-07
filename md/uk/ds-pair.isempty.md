@@ -34,8 +34,8 @@ public Ds\Pair::isEmpty(): bool
 
 ```php
 <?php
-$a = new \Ds\Pair("a", 1);
-$b = new \Ds\Pair();
+$a = new \Ds\Pair("a", 1);
+$b = new \Ds\Pair();
 
 var_dump($a->isEmpty());
 var_dump($b->isEmpty());

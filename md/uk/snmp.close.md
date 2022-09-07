@@ -34,11 +34,11 @@ public SNMP::close(): bool
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
-  # ...
-  # получить, что-то сделать и т.д.
-  # ...
-  $session->close();
+  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
+  # ...
+  # получить, что-то сделать и т.д.
+  # ...
+  $session->close();
 ?>
 ```
 

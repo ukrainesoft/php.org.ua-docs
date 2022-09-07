@@ -50,31 +50,31 @@ array_column(array $array, int|string|null $column_key, int|string|null $index_k
 
 ```php
 <?php
-// Масив, представляющий из себя набор записей, полученных из базы данных
-$records = array(
-    array(
-        'id' => 2135,
-        'first_name' => 'John',
-        'last_name' => 'Doe',
-    ),
-    array(
-        'id' => 3245,
-        'first_name' => 'Sally',
-        'last_name' => 'Smith',
-    ),
-    array(
-        'id' => 5342,
-        'first_name' => 'Jane',
-        'last_name' => 'Jones',
-    ),
-    array(
-        'id' => 5623,
-        'first_name' => 'Peter',
-        'last_name' => 'Doe',
-    )
+// Масив, представляющий из себя набор записей, полученных из базы данных
+$records = array(
+    array(
+        'id' => 2135,
+        'first_name' => 'John',
+        'last_name' => 'Doe',
+    ),
+    array(
+        'id' => 3245,
+        'first_name' => 'Sally',
+        'last_name' => 'Smith',
+    ),
+    array(
+        'id' => 5342,
+        'first_name' => 'Jane',
+        'last_name' => 'Jones',
+    ),
+    array(
+        'id' => 5623,
+        'first_name' => 'Peter',
+        'last_name' => 'Doe',
+    )
 );
 
-$first_names = array_column($records, 'first_name');
+$first_names = array_column($records, 'first_name');
 print_r($first_names);
 ?>
 ```
@@ -95,8 +95,8 @@ Array
 
 ```php
 <?php
-// Используем Масив $records из первого примера
-$last_names = array_column($records, 'last_name', 'id');
+// Используем Масив $records из первого примера
+$last_names = array_column($records, 'last_name', 'id');
 print_r($last_names);
 ?>
 ```
@@ -118,23 +118,23 @@ Array
 ```php
 <?php
 
-class User
+class User
 {
-    public $username;
+    public $username;
 
-    public function __construct(string $username)
-    {
-        $this->username = $username;
-    }
+    public function __construct(string $username)
+    {
+        $this->username = $username;
+    }
 }
 
-$users = [
-    new User('user 1'),
-    new User('user 2'),
-    new User('user 3'),
+$users = [
+    new User('user 1'),
+    new User('user 2'),
+    new User('user 3'),
 ];
 
-print_r(array_column($users, 'username'));
+print_r(array_column($users, 'username'));
 ?>
 ```
 
@@ -154,33 +154,33 @@ Array
 ```php
 <?php
 
-class Person
+class Person
 {
-    private $name;
+    private $name;
 
-    public function __construct(string $name)
-    {
-        $this->name = $name;
-    }
+    public function __construct(string $name)
+    {
+        $this->name = $name;
+    }
 
-    public function __get($prop)
-    {
-        return $this->$prop;
-    }
+    public function __get($prop)
+    {
+        return $this->$prop;
+    }
 
-    public function __isset($prop) : bool
-    {
-        return isset($this->$prop);
-    }
+    public function __isset($prop) : bool
+    {
+        return isset($this->$prop);
+    }
 }
 
-$people = [
-    new Person('Fred'),
-    new Person('Jane'),
-    new Person('John'),
+$people = [
+    new Person('Fred'),
+    new Person('Jane'),
+    new Person('John'),
 ];
 
-print_r(array_column($people, 'name'));
+print_r(array_column($people, 'name'));
 ?>
 ```
 

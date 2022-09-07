@@ -15,7 +15,7 @@ sodiumcryptoaeadchacha20poly1305decrypt — Перевіряє, потім ро�
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_chacha20poly1305_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
+sodium_crypto_aead_chacha20poly1305_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
 ```
 
 Перевіряє, потім розшифровує за допомогою ChaCha20-Poly1305

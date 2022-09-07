@@ -34,8 +34,8 @@ gnupg_geterror(resource $identifier): string
 
 ```php
 <?php
-$res = gnupg_init();
-echo gnupg_geterror($res);
+$res = gnupg_init();
+echo gnupg_geterror($res);
 ?>
 ```
 
@@ -43,7 +43,7 @@ echo gnupg_geterror($res);
 
 ```php
 <?php
-$gpg = new gnupg();
-echo $gpg->geterror();
+$gpg = new gnupg();
+echo $gpg->geterror();
 ?>
 ```

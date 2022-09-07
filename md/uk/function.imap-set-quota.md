@@ -50,11 +50,11 @@ imap_set_quota(IMAP\Connection $imap, string $quota_root, int $mailbox_size): bo
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org:143}", "mailadmin", "password");
+$mbox = imap_open("{imap.example.org:143}", "mailadmin", "password");
 
-if (!imap_set_quota($mbox, "user.kalowsky", 3000)) {
-    echo "Ошибка при установке квоты\n";
-    return;
+if (!imap_set_quota($mbox, "user.kalowsky", 3000)) {
+    echo "Ошибка при установке квоты\n";
+    return;
 }
 
 imap_close($mbox);

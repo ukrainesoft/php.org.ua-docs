@@ -15,12 +15,12 @@ title: Оголошення класів атрибутів
 ```php
 <?php
 
-namespace Example;
+namespace Example;
 
-use Attribute;
+use Attribute;
 
 #[Attribute]
-class MyAttribute
+class MyAttribute
 {
 }
 ```
@@ -32,12 +32,12 @@ class MyAttribute
 ```php
 <?php
 
-namespace Example;
+namespace Example;
 
-use Attribute;
+use Attribute;
 
-#[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION)]
-class MyAttribute
+#[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION)]
+class MyAttribute
 {
 }
 ```
@@ -61,12 +61,12 @@ class MyAttribute
 ```php
 <?php
 
-namespace Example;
+namespace Example;
 
-use Attribute;
+use Attribute;
 
-#[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION | Attribute::IS_REPEATABLE)]
-class MyAttribute
+#[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_FUNCTION | Attribute::IS_REPEATABLE)]
+class MyAttribute
 {
 }
 ```

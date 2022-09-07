@@ -43,7 +43,7 @@ public mysql_xdevapi\SqlStatementResult::getColumnsCount(): int
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

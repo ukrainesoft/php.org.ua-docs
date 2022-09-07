@@ -47,18 +47,18 @@ pg_result_seek(PgSql\Result $result, int $row): bool
 ```php
 <?php
 
-// Подключение к базе данных
-$conn = pg_pconnect("dbname=publisher");
+// Подключение к базе данных
+$conn = pg_pconnect("dbname=publisher");
 
-// Выполнение запроса
-$result = pg_query($conn, "SELECT author, email FROM authors");
+// Выполнение запроса
+$result = pg_query($conn, "SELECT author, email FROM authors");
 
-// Перемещаемся сразу на третью строку
-// (допускаем, что в результате есть хотя бы три строки)
-pg_result_seek($result, 2);
+// Перемещаемся сразу на третью строку
+// (допускаем, что в результате есть хотя бы три строки)
+pg_result_seek($result, 2);
 
-// Выбираем третью строку из результата
-$row = pg_fetch_row($result);
+// Выбираем третью строку из результата
+$row = pg_fetch_row($result);
 
 ?>
 ```

@@ -38,13 +38,13 @@ public Imagick::transformImageColorspace(int $colorspace): bool
 
 ```php
 <?php
-function transformImageColorspace($imagePath, $colorSpace, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->transformimagecolorspace($colorSpace);
-    //канал должен быть одной из констант канала, например \Imagick::CHANNEL_BLUE
-    $imagick->separateImageChannel($channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function transformImageColorspace($imagePath, $colorSpace, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->transformimagecolorspace($colorSpace);
+    //канал должен быть одной из констант канала, например \Imagick::CHANNEL_BLUE
+    $imagick->separateImageChannel($channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 ?>
 ```

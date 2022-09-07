@@ -34,13 +34,13 @@ public SplFileInfo::__toString(): string
 
 ```php
 <?php
-$info = new SplFileInfo('foo');
+$info = new SplFileInfo('foo');
 var_dump($info->__toString());
-echo $info.PHP_EOL;
+echo $info.PHP_EOL;
 
-$info = new SplFileInfo('/usr/bin/php');
+$info = new SplFileInfo('/usr/bin/php');
 var_dump($info->__toString());
-echo $info.PHP_EOL;
+echo $info.PHP_EOL;
 ?>
 ```
 

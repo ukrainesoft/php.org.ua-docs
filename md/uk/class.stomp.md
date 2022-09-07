@@ -29,7 +29,7 @@ title: Клас Stomp
 
     /* Методы */
     
-    public __construct(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?)
+    public __construct(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?)
 
     public abort(string $transaction_id, array $headers = ?): bool
 stomp_abort(resource $link, string $transaction_id, array $headers = ?): bool
@@ -39,7 +39,7 @@ public begin(string $transaction_id, array $headers = ?): bool
 stomp_begin(resource $link, string $transaction_id, array $headers = ?): bool
 public commit(string $transaction_id, array $headers = ?): bool
 stomp_commit(resource $link, string $transaction_id, array $headers = ?): bool
-stomp_connect(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?): resource
+stomp_connect(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?): resource
 stomp_close(resource $link): bool
 public error(): string
 stomp_error(resource $link): string
@@ -52,7 +52,7 @@ stomp_has_frame(resource $link): bool
 public readFrame(string $class_name = "stompFrame"): stompframe
 stomp_read_frame(resource $link): array
 public send(string $destination, mixed $msg, array $headers = ?): bool
-stomp_send(    resource $link,    string $destination,    mixed $msg,    array $headers = ?): bool
+stomp_send(    resource $link,    string $destination,    mixed $msg,    array $headers = ?): bool
 public setReadTimeout(int $seconds, int $microseconds = ?): void
 stomp_set_read_timeout(resource $link, int $seconds, int $microseconds = ?): void
 public subscribe(string $destination, array $headers = ?): bool

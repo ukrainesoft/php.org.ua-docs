@@ -15,7 +15,7 @@ ftpнбfget — Завантажує файл з FTP-сервера в асин�
 ### Опис
 
 ```methodsynopsis
-ftp_nb_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): int
+ftp_nb_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): int
 ```
 
 **ftpнбfget()** завантажує віддалений файл із FTP-сервера.
@@ -62,30 +62,30 @@ ftp_nb_fget(    FTP\Connection $ftp,    resource $stream,    string 
 ```php
 <?php
 
-// открыть файл для записи
-$file = 'index.php';
-$fp = fopen($file, 'w');
+// открыть файл для записи
+$file = 'index.php';
+$fp = fopen($file, 'w');
 
-$ftp = ftp_connect($ftp_server);
+$ftp = ftp_connect($ftp_server);
 
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// Начало скачивания
-$ret = ftp_nb_fget($ftp, $fp, $file, FTP_BINARY);
-while ($ret == FTP_MOREDATA) {
+// Начало скачивания
+$ret = ftp_nb_fget($ftp, $fp, $file, FTP_BINARY);
+while ($ret == FTP_MOREDATA) {
 
-   // производим какие-то действия ...
-   echo ".";
+   // производим какие-то действия ...
+   echo ".";
 
-   // продолжение скачивания ...
-   $ret = ftp_nb_continue($ftp);
+   // продолжение скачивания ...
+   $ret = ftp_nb_continue($ftp);
 }
-if ($ret != FTP_FINISHED) {
-   echo "При скачивании файла произошла ошибка...";
-   exit(1);
+if ($ret != FTP_FINISHED) {
+   echo "При скачивании файла произошла ошибка...";
+   exit(1);
 }
 
-// закрытие файла
+// закрытие файла
 fclose($fp);
 ?>
 ```

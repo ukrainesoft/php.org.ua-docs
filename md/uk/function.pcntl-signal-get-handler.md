@@ -42,17 +42,17 @@ pcntl_signal_get_handler(int $signal): callable|int
 
 ```php
 <?php
-var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(0)
+var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(0)
 
-function pcntl_test($signo) {}
-pcntl_signal(SIGUSR1, 'pcntl_test');
-var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: string(10) "pcntl_test"
+function pcntl_test($signo) {}
+pcntl_signal(SIGUSR1, 'pcntl_test');
+var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: string(10) "pcntl_test"
 
-pcntl_signal(SIGUSR1, SIG_DFL);
-var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(0)
+pcntl_signal(SIGUSR1, SIG_DFL);
+var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(0)
 
-pcntl_signal(SIGUSR1, SIG_IGN);
-var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(1)
+pcntl_signal(SIGUSR1, SIG_IGN);
+var_dump(pcntl_signal_get_handler(SIGUSR1)); // Вывод: int(1)
 ?>
 ```
 

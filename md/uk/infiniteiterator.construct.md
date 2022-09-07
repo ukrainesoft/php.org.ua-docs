@@ -30,12 +30,12 @@ public **InfiniteIterator::construct**[Iterator](class.iterator.md) `$iterator`
 
 ```php
 <?php
-$arrayit  = new ArrayIterator(array('cat','dog'));
-$infinite = new InfiniteIterator($arrayit);
-$limit    = new LimitIterator($infinite, 0, 7);
-foreach($limit as $value)
+$arrayit  = new ArrayIterator(array('cat','dog'));
+$infinite = new InfiniteIterator($arrayit);
+$limit    = new LimitIterator($infinite, 0, 7);
+foreach($limit as $value)
 {
-    echo "$value\n";
+    echo "$value\n";
 }
 ?>
 ```

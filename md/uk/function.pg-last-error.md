@@ -55,12 +55,12 @@ pg_last_error(?PgSql\Connection $connection = null): string
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с сервером");
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с сервером");
 
-  // Неудачный запрос
-  $res = pg_query($dbconn, "select * from doesnotexist");
+  // Неудачный запрос
+  $res = pg_query($dbconn, "select * from doesnotexist");
 
-  echo pg_last_error($dbconn);
+  echo pg_last_error($dbconn);
 ?>
 ```
 

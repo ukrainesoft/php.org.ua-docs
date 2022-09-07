@@ -40,32 +40,32 @@ cubrid_lob2_read(resource $lob_identifier, int $len): string
 
 ```php
 <?php
-// test_lob (id INT, contents CLOB)
+// test_lob (id INT, contents CLOB)
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "public", "");
+$conn = cubrid_connect("localhost", 33000, "demodb", "public", "");
 
-$req = cubrid_execute($conn, "select * from test_lob");
+$req = cubrid_execute($conn, "select * from test_lob");
 
-$row = cubrid_fetch_row($req, CUBRID_LOB);
+$row = cubrid_fetch_row($req, CUBRID_LOB);
 
-print "текущая позиция - " . cubrid_lob2_tell($row[1]) . "\n";
+print "текущая позиция - " . cubrid_lob2_tell($row[1]) . "\n";
 
-cubrid_lob2_seek($row[1], 10, CUBRID_CURSOR_FIRST);
+cubrid_lob2_seek($row[1], 10, CUBRID_CURSOR_FIRST);
 
-print "\nпозиция после движения вперед - " . cubrid_lob2_tell($row[1]) . "\n";
+print "\nпозиция после движения вперед - " . cubrid_lob2_tell($row[1]) . "\n";
 
-$data = cubrid_lob2_read($row[1], 12);
+$data = cubrid_lob2_read($row[1], 12);
 
-print "\nпозиция после чтения - " . cubrid_lob2_tell($row[1]) . "\n";
+print "\nпозиция после чтения - " . cubrid_lob2_tell($row[1]) . "\n";
 
-print $data . "\n";
+print $data . "\n";
 
-cubrid_lob2_seek($row[1], 5, CUBRID_CURSOR_CURRENT);
+cubrid_lob2_seek($row[1], 5, CUBRID_CURSOR_CURRENT);
 
-print "\nпозиция после повторного движения вперед - " . cubrid_lob2_tell($row[1]) . "\n";
+print "\nпозиция после повторного движения вперед - " . cubrid_lob2_tell($row[1]) . "\n";
 
-$data = cubrid_lob2_read($row[1], 20);
-print $data . "\n";
+$data = cubrid_lob2_read($row[1], 20);
+print $data . "\n";
 
 cubrid_disconnect($conn);
 ?>
@@ -75,26 +75,26 @@ cubrid_disconnect($conn);
 
 ```php
 <?php
-// test_lob (id INT, contents CLOB)
+// test_lob (id INT, contents CLOB)
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
 
-$req = cubrid_execute($conn, "select * from test_lob");
+$req = cubrid_execute($conn, "select * from test_lob");
 
-$row = cubrid_fetch_row($req, CUBRID_LOB);
+$row = cubrid_fetch_row($req, CUBRID_LOB);
 
-while (true) {
-    if ($data = cubrid_lob2_read($row[1], 1024)) {
-        print $data . "\n";
-    }
-    elseif ($data === false) {
-        print "Данных больше нет\n";
-        break;
-    }
-    else {
-        print "Произошла ошибка\n";
-        break;
-    }
+while (true) {
+    if ($data = cubrid_lob2_read($row[1], 1024)) {
+        print $data . "\n";
+    }
+    elseif ($data === false) {
+        print "Данных больше нет\n";
+        break;
+    }
+    else {
+        print "Произошла ошибка\n";
+        break;
+    }
 }
 
 cubrid_disconnect($conn);

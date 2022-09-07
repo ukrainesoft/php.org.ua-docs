@@ -42,25 +42,25 @@ ftp_cdup(FTP\Connection $ftp): bool
 
 ```php
 <?php
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// изменение текущей директории на html
-ftp_chdir($ftp, 'html');
+// изменение текущей директории на html
+ftp_chdir($ftp, 'html');
 
-echo ftp_pwd($ftp); // /html
+echo ftp_pwd($ftp); // /html
 
-// возврат в родительскую директорию
-if (ftp_cdup($ftp)) {
-  echo "команда cdup выполнена успешно\n";
-} else {
-  echo "команда cdup завершилась неудачей\n";
+// возврат в родительскую директорию
+if (ftp_cdup($ftp)) {
+  echo "команда cdup выполнена успешно\n";
+} else {
+  echo "команда cdup завершилась неудачей\n";
 }
 
-echo ftp_pwd($ftp); // /
+echo ftp_pwd($ftp); // /
 
 ftp_close($ftp);
 ?>

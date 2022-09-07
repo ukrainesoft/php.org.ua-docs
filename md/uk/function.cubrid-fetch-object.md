@@ -15,7 +15,7 @@ cubridfetchobject — Витягти наступний рядок як об'є�
 ### Опис
 
 ```methodsynopsis
-cubrid_fetch_object(    resource $result,    string $class_name = ?,    array $params = ?,    int $type = ?): object
+cubrid_fetch_object(    resource $result,    string $class_name = ?,    array $params = ?,    int $type = ?): object
 ```
 
 Функція повертає об'єкт з властивостями, імена яких дорівнюють іменам стовпців результуючого набору, а значення відповідно значенням.
@@ -50,36 +50,36 @@ cubrid_fetch_object(    resource $result,    string $class_name = ?,  
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$res = cubrid_execute($conn, "SELECT * FROM code");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$res = cubrid_execute($conn, "SELECT * FROM code");
 
 var_dump(cubrid_fetch_object($res));
 
-// В случае работы с LOB используйте cubrid_fetch_object($res, CUBRID_LOB)
+// В случае работы с LOB используйте cubrid_fetch_object($res, CUBRID_LOB)
 
-class demodb_code {
-    public $s_name = null;
-    public $f_name = null;
+class demodb_code {
+    public $s_name = null;
+    public $f_name = null;
 
-    public function toString() {
-        var_dump($this);
-    }
+    public function toString() {
+        var_dump($this);
+    }
 }
 
-var_dump(cubrid_fetch_object($res, "demodb_code"));
+var_dump(cubrid_fetch_object($res, "demodb_code"));
 
-// В случае работы с LOB используйте cubrid_fetch_object($res, "demodb_code", CUBRID_LOB)
+// В случае работы с LOB используйте cubrid_fetch_object($res, "demodb_code", CUBRID_LOB)
 
-class demodb_code_construct extends demodb_code {
-    public function __construct($s, $f) {
-        $this->s_name = $s;
-        $this->f_name = $f;
-    }
+class demodb_code_construct extends demodb_code {
+    public function __construct($s, $f) {
+        $this->s_name = $s;
+        $this->f_name = $f;
+    }
 }
 
-var_dump(cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name')));
+var_dump(cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name')));
 
-// В случае работы с LOB используйте cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name'), CUBRID_LOB)
+// В случае работы с LOB используйте cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name'), CUBRID_LOB)
 
 
 var_dump(cubrid_fetch_object($res));

@@ -36,14 +36,14 @@ gmp_sign(GMP|int|string $num): int
 
 ```php
 <?php
-// положительное
-echo gmp_sign("500") . "\n";
+// положительное
+echo gmp_sign("500") . "\n";
 
-// отрицательное
-echo gmp_sign("-500") . "\n";
+// отрицательное
+echo gmp_sign("-500") . "\n";
 
-// ноль
-echo gmp_sign("0") . "\n";
+// ноль
+echo gmp_sign("0") . "\n";
 ?>
 ```
 

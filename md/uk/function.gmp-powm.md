@@ -50,8 +50,8 @@ gmp_powm(GMP|int|string $num, GMP|int|string $exponent, GMP|int|string $modulus)
 
 ```php
 <?php
-$pow1 = gmp_powm("2", "31", "2147483649");
-echo gmp_strval($pow1) . "\n";
+$pow1 = gmp_powm("2", "31", "2147483649");
+echo gmp_strval($pow1) . "\n";
 ?>
 ```
 

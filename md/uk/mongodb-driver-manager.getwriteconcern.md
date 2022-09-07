@@ -39,10 +39,10 @@ final public MongoDB\Driver\Manager::getWriteConcern(): MongoDB\Driver\WriteConc
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
 var_dump($manager->getWriteConcern());
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017/?w=majority&wtimeoutMS=2000');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017/?w=majority&wtimeoutMS=2000');
 var_dump($manager->getWriteConcern());
 
 ?>

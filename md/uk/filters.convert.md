@@ -18,26 +18,26 @@ title: Перетворюючі фільтри
 
 ```php
 <?php
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'convert.base64-encode');
-fwrite($fp, "This is a test.\n");
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'convert.base64-encode');
+fwrite($fp, "This is a test.\n");
 fclose($fp);
-/* Выведет:  VGhpcyBpcyBhIHRlc3QuCg==  */
+/* Выведет:  VGhpcyBpcyBhIHRlc3QuCg==  */
 
-$param = array('line-length' => 8, 'line-break-chars' => "\r\n");
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'convert.base64-encode', STREAM_FILTER_WRITE, $param);
-fwrite($fp, "This is a test.\n");
+$param = array('line-length' => 8, 'line-break-chars' => "\r\n");
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'convert.base64-encode', STREAM_FILTER_WRITE, $param);
+fwrite($fp, "This is a test.\n");
 fclose($fp);
-/* Выведет:  VGhpcyBp
-          :  cyBhIHRl
-          :  c3QuCg==  */
+/* Выведет:  VGhpcyBp
+          :  cyBhIHRl
+          :  c3QuCg==  */
 
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'convert.base64-decode');
-fwrite($fp, "VGhpcyBpcyBhIHRlc3QuCg==");
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'convert.base64-decode');
+fwrite($fp, "VGhpcyBpcyBhIHRlc3QuCg==");
 fclose($fp);
-/* Выведет:  This is a test.  */
+/* Выведет:  This is a test.  */
 ?>
 ```
 
@@ -49,10 +49,10 @@ fclose($fp);
 
 ```php
 <?php
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'convert.quoted-printable-encode');
-fwrite($fp, "This is a test.\n");
-/* Выведет:  =This is a test.=0A  */
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'convert.quoted-printable-encode');
+fwrite($fp, "This is a test.\n");
+/* Выведет:  =This is a test.=0A  */
 ?>
 ```
 
@@ -64,10 +64,10 @@ fwrite($fp, "This is a test.\n");
 
 ```php
 <?php
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'convert.iconv.utf-16le.utf-8');
-fwrite($fp, "T\0h\0i\0s\0 \0i\0s\0 \0a\0 \0t\0e\0s\0t\0.\0\n\0");
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'convert.iconv.utf-16le.utf-8');
+fwrite($fp, "T\0h\0i\0s\0 \0i\0s\0 \0a\0 \0t\0e\0s\0t\0.\0\n\0");
 fclose($fp);
-/* Выведет: This is a test. */
+/* Выведет: This is a test. */
 ?>
 ```

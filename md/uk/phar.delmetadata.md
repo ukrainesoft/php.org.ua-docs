@@ -40,15 +40,15 @@ public Phar::delMetadata(): bool
 
 ```php
 <?php
-try {
-    $phar = new Phar('myphar.phar');
-    var_dump($phar->getMetadata());
-    $phar->setMetadata("hi there");
-    var_dump($phar->getMetadata());
-    $phar->delMetadata();
-    var_dump($phar->getMetadata());
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $phar = new Phar('myphar.phar');
+    var_dump($phar->getMetadata());
+    $phar->setMetadata("hi there");
+    var_dump($phar->getMetadata());
+    $phar->delMetadata();
+    var_dump($phar->getMetadata());
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

@@ -18,7 +18,7 @@ strnatcasecmp — Порівняння рядків без урахування 
 strnatcasecmp(string $string1, string $string2): int
 ```
 
-Ця функція реалізує алгоритм порівняння, який упорядковує алфавітно-цифрові рядки подібно до того, як це зробив би людина. Ця функція подібна [strnatcmp()](function.strnatcmp.md), крім того, що порівняння відбувається без урахування регістру символів. Для отримання додаткової інформації дивіться [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
+Ця функція реалізує алгоритм порівняння, який упорядковує алфавітно-цифрові рядки подібно до того, як це зробив би людина. Ця функція подібна [strnatcmp()](function.strnatcmp.md), крім того, що порівняння відбувається без урахування регістру символів. Для отримання додаткової інформації дивіться [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 ### Список параметрів
 
@@ -41,9 +41,9 @@ strnatcasecmp(string $string1, string $string2): int
 ```php
 <?php
 
-var_dump(strnatcasecmp('Apple', 'Banana'));
-var_dump(strnatcasecmp('Banana', 'Apple'));
-var_dump(strnatcasecmp('apple', 'Apple'));
+var_dump(strnatcasecmp('Apple', 'Banana'));
+var_dump(strnatcasecmp('Banana', 'Apple'));
+var_dump(strnatcasecmp('apple', 'Apple'));
 ?>
 ```
 

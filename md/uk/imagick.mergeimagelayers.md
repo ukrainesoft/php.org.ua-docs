@@ -40,17 +40,17 @@ public Imagick::mergeImageLayers(int $layer_method): Imagick
 
 ```php
 <?php
-function mergeImageLayers($layerMethodType, $imagePath1, $imagePath2) {
+function mergeImageLayers($layerMethodType, $imagePath1, $imagePath2) {
 
-    $imagick = new \Imagick(realpath($imagePath));
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $imagick2 = new \Imagick(realpath($imagePath2));
-    $imagick->addImage($imagick2);
-    $imagick->setImageFormat('png');
+    $imagick2 = new \Imagick(realpath($imagePath2));
+    $imagick->addImage($imagick2);
+    $imagick->setImageFormat('png');
 
-    $result = $imagick->mergeImageLayers($layerMethodType);
-    header("Content-Type: image/png");
-    echo $result->getImageBlob();
+    $result = $imagick->mergeImageLayers($layerMethodType);
+    header("Content-Type: image/png");
+    echo $result->getImageBlob();
 }
 
 ?>

@@ -46,11 +46,11 @@ pg_num_fields(PgSql\Result $result): int
 
 ```php
 <?php
-$result = pg_query($conn, "SELECT 1, 2");
+$result = pg_query($conn, "SELECT 1, 2");
 
-$num = pg_num_fields($result);
+$num = pg_num_fields($result);
 
-echo "Возвращено полей: " . $num . ".\n";
+echo "Возвращено полей: " . $num . ".\n";
 ?>
 ```
 

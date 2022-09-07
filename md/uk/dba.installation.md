@@ -97,7 +97,7 @@ title: Встановлення
 
 > **Зауваження**
 > 
-> Бібліотеку qdbm можна завантажити за посиланням [» http://fallabs.com/qdbm/index.html](http://fallabs.com/qdbm/index.md)
+> Бібліотеку qdbm можна завантажити за посиланням [» http://fallabs.com/qdbm/index.html](http://fallabs.com/qdbm/index.md)
 
 `tcadb`
 
@@ -105,7 +105,7 @@ title: Встановлення
 
 > **Зауваження**
 > 
-> Бібліотеку можна завантажити за посиланням [» http://fallabs.com/tokyocabinet/](http://fallabs.com/tokyocabinet/)
+> Бібліотеку можна завантажити за посиланням [» http://fallabs.com/tokyocabinet/](http://fallabs.com/tokyocabinet/)
 
 `lmdb`
 
@@ -113,4 +113,4 @@ title: Встановлення
 
 > **Зауваження**
 > 
-> Додано до PHP 7.2.0. Бібліотека Lightning Memory-Mapped Database доступна за посиланням [» https://symas.com/lmdb/](https://symas.com/lmdb/)
+> Додано до PHP 7.2.0. Бібліотека Lightning Memory-Mapped Database доступна за посиланням [» https://symas.com/lmdb/](https://symas.com/lmdb/)

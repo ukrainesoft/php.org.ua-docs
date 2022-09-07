@@ -15,7 +15,7 @@ opensslpkcs7sign — Підписати повідомлення S/MIME
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs7_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = PKCS7_DETACHED,    ?string $untrusted_certificates_filename = null): bool
+openssl_pkcs7_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = PKCS7_DETACHED,    ?string $untrusted_certificates_filename = null): bool
 ```
 
 **opensslpkcs7sign()** бере вміст файлу `input_filename` та підписує його з використанням сертифіката `certificate` та закритого ключа `private_key`
@@ -67,27 +67,27 @@ openssl_pkcs7_sign(    string $input_filename,    string $output_filenam
 
 ```php
 <?php
-// сообщение, которое вы хотите подписать для того, чтобы получатели могли
-// проверить, что его послали именно вы
-$data = <<<EOD
+// сообщение, которое вы хотите подписать для того, чтобы получатели могли
+// проверить, что его послали именно вы
+$data = <<<EOD
 
-Разрешаю потратить на обед с контрагентом не более 100,000 рублей.
+Разрешаю потратить на обед с контрагентом не более 100,000 рублей.
 
-Ваш директор.
+Ваш директор.
 EOD;
-// сохраняем сообщение в фалй
-$fp = fopen("msg.txt", "w");
-fwrite($fp, $data);
+// сохраняем сообщение в фалй
+$fp = fopen("msg.txt", "w");
+fwrite($fp, $data);
 fclose($fp);
-// шифруем
-if (openssl_pkcs7_sign("msg.txt", "signed.txt", "file://mycert.pem",
-    array("file://mycert.pem", "mypassphrase"),
-    array("To" => "joes@example.com", // ассоциативный синтаксис
-          "From: HQ <ceo@example.com>", // индексированный синтаксис
-          "Subject" => "Представительские расходы")
-    )) {
-    // сообщение подписано - отправляем!
-    exec(ini_get("sendmail_path") . " < signed.txt");
+// шифруем
+if (openssl_pkcs7_sign("msg.txt", "signed.txt", "file://mycert.pem",
+    array("file://mycert.pem", "mypassphrase"),
+    array("To" => "joes@example.com", // ассоциативный синтаксис
+          "From: HQ <ceo@example.com>", // индексированный синтаксис
+          "Subject" => "Представительские расходы")
+    )) {
+    // сообщение подписано - отправляем!
+    exec(ini_get("sendmail_path") . " < signed.txt");
 }
 ?>
 ```

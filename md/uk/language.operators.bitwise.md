@@ -76,43 +76,43 @@ title: Побітові оператори
 ```php
 <?php
 /*
- * Не обращайте внимания на этот верхний раздел кода,
- * это просто форматирование для более ясного вывода.
- */
+ * Не обращайте внимания на этот верхний раздел кода,
+ * это просто форматирование для более ясного вывода.
+ */
 
-$format = '(%1$2d = %1$04b) = (%2$2d = %2$04b)'
-        . ' %3$s (%4$2d = %4$04b)' . "\n";
+$format = '(%1$2d = %1$04b) = (%2$2d = %2$04b)'
+        . ' %3$s (%4$2d = %4$04b)' . "\n";
 
-echo <<<EOH
- ----------   ----------- -- ----------
- результат      значение      оп тест
- ----------   ----------- -- ----------
+echo <<<EOH
+ ----------   ----------- -- ----------
+ результат      значение      оп тест
+ ----------   ----------- -- ----------
 EOH;
 
 
 /*
- * Вот сами примеры.
- */
+ * Вот сами примеры.
+ */
 
-$values = array(0, 1, 2, 4, 8);
-$test = 1 + 4;
+$values = array(0, 1, 2, 4, 8);
+$test = 1 + 4;
 
-echo "\n Побитовое И (AND) \n";
-foreach ($values as $value) {
-    $result = $value & $test;
-    printf($format, $result, $value, '&', $test);
+echo "\n Побитовое И (AND) \n";
+foreach ($values as $value) {
+    $result = $value & $test;
+    printf($format, $result, $value, '&', $test);
 }
 
-echo "\n Побитовое (включающее) ИЛИ (OR) \n";
-foreach ($values as $value) {
-    $result = $value | $test;
-    printf($format, $result, $value, '|', $test);
+echo "\n Побитовое (включающее) ИЛИ (OR) \n";
+foreach ($values as $value) {
+    $result = $value | $test;
+    printf($format, $result, $value, '|', $test);
 }
 
-echo "\n Побитовое ИСКЛЮЧАЮЩЕЕ ИЛИ (XOR) \n";
-foreach ($values as $value) {
-    $result = $value ^ $test;
-    printf($format, $result, $value, '^', $test);
+echo "\n Побитовое ИСКЛЮЧАЮЩЕЕ ИЛИ (XOR) \n";
+foreach ($values as $value) {
+    $result = $value ^ $test;
+    printf($format, $result, $value, '^', $test);
 }
 ?>
 ```
@@ -149,19 +149,19 @@ foreach ($values as $value) {
 
 ```php
 <?php
-echo 12 ^ 9; // Выводит '5'
+echo 12 ^ 9; // Выводит '5'
 
-echo "12" ^ "9"; // Выводит символ Backspace (ascii 8)
-                 // ('1' (ascii 49)) ^ ('9' (ascii 57)) = #8
+echo "12" ^ "9"; // Выводит символ Backspace (ascii 8)
+                 // ('1' (ascii 49)) ^ ('9' (ascii 57)) = #8
 
-echo "hallo" ^ "hello"; // Выводит ascii-значения #0 #4 #0 #0 #0
-                        // 'a' ^ 'e' = #4
+echo "hallo" ^ "hello"; // Выводит ascii-значения #0 #4 #0 #0 #0
+                        // 'a' ^ 'e' = #4
 
-echo 2 ^ "3"; // Выводит 1
-              // 2 ^ ((int)"3") == 1
+echo 2 ^ "3"; // Выводит 1
+              // 2 ^ ((int)"3") == 1
 
-echo "2" ^ 3; // Выводит 1
-              // ((int)"2") ^ 3 == 1
+echo "2" ^ 3; // Выводит 1
+              // ((int)"2") ^ 3 == 1
 ?>
 ```
 
@@ -170,114 +170,114 @@ echo "2" ^ 3; // Выводит 1
 ```php
 <?php
 /*
- * Несколько примеров.
- */
+ * Несколько примеров.
+ */
 
-echo "\n--- СДВИГ ВПРАВО НАД ПОЛОЖИТЕЛЬНЫМИ ЦЕЛЫМИ ЧИСЛАМИ ---\n";
+echo "\n--- СДВИГ ВПРАВО НАД ПОЛОЖИТЕЛЬНЫМИ ЦЕЛЫМИ ЧИСЛАМИ ---\n";
 
-$val = 4;
-$places = 1;
-$res = $val >> $places;
-p($res, $val, '>>', $places, 'слева была вставлена копия знакового бита');
+$val = 4;
+$places = 1;
+$res = $val >> $places;
+p($res, $val, '>>', $places, 'слева была вставлена копия знакового бита');
 
-$val = 4;
-$places = 2;
-$res = $val >> $places;
-p($res, $val, '>>', $places);
+$val = 4;
+$places = 2;
+$res = $val >> $places;
+p($res, $val, '>>', $places);
 
-$val = 4;
-$places = 3;
-$res = $val >> $places;
-p($res, $val, '>>', $places, 'биты были выдвинуты за правый край');
+$val = 4;
+$places = 3;
+$res = $val >> $places;
+p($res, $val, '>>', $places, 'биты были выдвинуты за правый край');
 
-$val = 4;
-$places = 4;
-$res = $val >> $places;
-p($res, $val, '>>', $places, 'то же, что и выше; нельзя сдвинуть дальше 0');
-
-
-echo "\n--- СДВИГ ВПРАВО НАД ОТРИЦАТЕЛЬНЫМИ ЦЕЛЫМИ ЧИСЛАМИ ---\n";
-
-$val = -4;
-$places = 1;
-$res = $val >> $places;
-p($res, $val, '>>', $places, 'слева была вставлена копия знакового бита');
-
-$val = -4;
-$places = 2;
-$res = $val >> $places;
-p($res, $val, '>>', $places, 'биты были выдвинуты за правый край');
-
-$val = -4;
-$places = 3;
-$res = $val >> $places;
-p($res, $val, '>>', $places, 'то же, что и выше; нельзя сдвинуть дальше -1');
+$val = 4;
+$places = 4;
+$res = $val >> $places;
+p($res, $val, '>>', $places, 'то же, что и выше; нельзя сдвинуть дальше 0');
 
 
-echo "\n--- СДВИГ ВЛЕВО НАД ПОЛОЖИТЕЛЬНЫМИ ЦЕЛЫМИ ЧИСЛАМИ ---\n";
+echo "\n--- СДВИГ ВПРАВО НАД ОТРИЦАТЕЛЬНЫМИ ЦЕЛЫМИ ЧИСЛАМИ ---\n";
 
-$val = 4;
-$places = 1;
-$res = $val << $places;
-p($res, $val, '<<', $places, 'правый край был дополнен нулями');
+$val = -4;
+$places = 1;
+$res = $val >> $places;
+p($res, $val, '>>', $places, 'слева была вставлена копия знакового бита');
 
-$val = 4;
-$places = (PHP_INT_SIZE * 8) - 4;
-$res = $val << $places;
-p($res, $val, '<<', $places);
+$val = -4;
+$places = 2;
+$res = $val >> $places;
+p($res, $val, '>>', $places, 'биты были выдвинуты за правый край');
 
-$val = 4;
-$places = (PHP_INT_SIZE * 8) - 3;
-$res = $val << $places;
-p($res, $val, '<<', $places, 'знаковые биты были выдвинуты');
-
-$val = 4;
-$places = (PHP_INT_SIZE * 8) - 2;
-$res = $val << $places;
-p($res, $val, '<<', $places, 'биты были выдвинуты за левый край');
+$val = -4;
+$places = 3;
+$res = $val >> $places;
+p($res, $val, '>>', $places, 'то же, что и выше; нельзя сдвинуть дальше -1');
 
 
-echo "\n--- СДВИГ ВЛЕВО НАД ОТРИЦАТЕЛЬНЫМИ ЦЕЛЫМИ ЧИСЛАМИ ---\n";
+echo "\n--- СДВИГ ВЛЕВО НАД ПОЛОЖИТЕЛЬНЫМИ ЦЕЛЫМИ ЧИСЛАМИ ---\n";
 
-$val = -4;
-$places = 1;
-$res = $val << $places;
-p($res, $val, '<<', $places, 'правый край был дополнен нулями');
+$val = 4;
+$places = 1;
+$res = $val << $places;
+p($res, $val, '<<', $places, 'правый край был дополнен нулями');
 
-$val = -4;
-$places = (PHP_INT_SIZE * 8) - 3;
-$res = $val << $places;
-p($res, $val, '<<', $places);
+$val = 4;
+$places = (PHP_INT_SIZE * 8) - 4;
+$res = $val << $places;
+p($res, $val, '<<', $places);
 
-$val = -4;
-$places = (PHP_INT_SIZE * 8) - 2;
-$res = $val << $places;
-p($res, $val, '<<', $places, 'биты были выдвинуты за левый край, включая знаковый бит');
+$val = 4;
+$places = (PHP_INT_SIZE * 8) - 3;
+$res = $val << $places;
+p($res, $val, '<<', $places, 'знаковые биты были выдвинуты');
+
+$val = 4;
+$places = (PHP_INT_SIZE * 8) - 2;
+$res = $val << $places;
+p($res, $val, '<<', $places, 'биты были выдвинуты за левый край');
+
+
+echo "\n--- СДВИГ ВЛЕВО НАД ОТРИЦАТЕЛЬНЫМИ ЦЕЛЫМИ ЧИСЛАМИ ---\n";
+
+$val = -4;
+$places = 1;
+$res = $val << $places;
+p($res, $val, '<<', $places, 'правый край был дополнен нулями');
+
+$val = -4;
+$places = (PHP_INT_SIZE * 8) - 3;
+$res = $val << $places;
+p($res, $val, '<<', $places);
+
+$val = -4;
+$places = (PHP_INT_SIZE * 8) - 2;
+$res = $val << $places;
+p($res, $val, '<<', $places, 'биты были выдвинуты за левый край, включая знаковый бит');
 
 
 /*
- * Не обращайте внимания на этот нижний раздел кода,
- * это просто форматирование для более ясного вывода.
- */
+ * Не обращайте внимания на этот нижний раздел кода,
+ * это просто форматирование для более ясного вывода.
+ */
 
-function p($res, $val, $op, $places, $note = '') {
-    $format = '%0' . (PHP_INT_SIZE * 8) . "b\n";
+function p($res, $val, $op, $places, $note = '') {
+    $format = '%0' . (PHP_INT_SIZE * 8) . "b\n";
 
-    printf("Выражение: %d = %d %s %d\n", $res, $val, $op, $places);
+    printf("Выражение: %d = %d %s %d\n", $res, $val, $op, $places);
 
-    echo " Десятичный вид:\n";
-    printf("  val=%d\n", $val);
-    printf("  res=%d\n", $res);
+    echo " Десятичный вид:\n";
+    printf("  val=%d\n", $val);
+    printf("  res=%d\n", $res);
 
-    echo " Двоичный вид:\n";
-    printf('  val=' . $format, $val);
-    printf('  res=' . $format, $res);
+    echo " Двоичный вид:\n";
+    printf('  val=' . $format, $val);
+    printf('  res=' . $format, $res);
 
-    if ($note) {
-        echo " ЗАМЕЧАНИЕ: $note\n";
-    }
+    if ($note) {
+        echo " ЗАМЕЧАНИЕ: $note\n";
+    }
 
-    echo "\n";
+    echo "\n";
 }
 ?>
 ```

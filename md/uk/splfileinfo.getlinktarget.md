@@ -42,10 +42,10 @@ public SplFileInfo::getLinkTarget(): string|false
 
 ```php
 <?php
-$info = new SplFileInfo('/Users/bbieber/workspace');
-if ($info->isLink()) {
-    var_dump($info->getLinkTarget());
-    var_dump($info->getRealPath());
+$info = new SplFileInfo('/Users/bbieber/workspace');
+if ($info->isLink()) {
+    var_dump($info->getLinkTarget());
+    var_dump($info->getRealPath());
 }
 ?>
 ```

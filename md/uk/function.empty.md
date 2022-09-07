@@ -38,16 +38,16 @@ empty(mixed $var): bool
 
 ```php
 <?php
-$var = 0;
+$var = 0;
 
-// Принимает значение true, потому что $var пусто
-if (empty($var)) {
-    echo '$var или 0, или пусто, или вообще не определена';
+// Принимает значение true, потому что $var пусто
+if (empty($var)) {
+    echo '$var или 0, или пусто, или вообще не определена';
 }
 
-// Принимает значение true, потому что $var определена
-if (isset($var)) {
-    echo '$var определена, даже если она пустая';
+// Принимает значение true, потому что $var определена
+if (isset($var)) {
+    echo '$var определена, даже если она пустая';
 }
 ?>
 ```
@@ -56,13 +56,13 @@ if (isset($var)) {
 
 ```php
 <?php
-$expected_array_got_string = 'somestring';
+$expected_array_got_string = 'somestring';
 var_dump(empty($expected_array_got_string['some_key']));
 var_dump(empty($expected_array_got_string[0]));
 var_dump(empty($expected_array_got_string['0']));
 var_dump(empty($expected_array_got_string[0.5]));
 var_dump(empty($expected_array_got_string['0.5']));
-var_dump(empty($expected_array_got_string['0 Mostel']));
+var_dump(empty($expected_array_got_string['0 Mostel']));
 ?>
 ```
 

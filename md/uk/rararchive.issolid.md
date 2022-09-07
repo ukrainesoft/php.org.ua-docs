@@ -46,10 +46,10 @@ rar_solid_is(RarArchive $rarfile): bool
 
 ```php
 <?php
-$arch1 = RarArchive::open("store_method.rar");
-$arch2 = RarArchive::open("solid.rar");
-echo "$arch1: " . ($arch1->isSolid()?'yes':'no') ."\n";
-echo "$arch2: " . ($arch2->isSolid()?'yes':'no') . "\n";
+$arch1 = RarArchive::open("store_method.rar");
+$arch2 = RarArchive::open("solid.rar");
+echo "$arch1: " . ($arch1->isSolid()?'yes':'no') ."\n";
+echo "$arch2: " . ($arch2->isSolid()?'yes':'no') . "\n";
 ?>
 ```
 
@@ -64,9 +64,9 @@ RAR Archive "C:\php_rar\trunk\tests\solid.rar": yes
 
 ```php
 <?php
-$arch1 = rar_open("store_method.rar");
-$arch2 = rar_open("solid.rar");
-echo "$arch1: " . (rar_solid_is($arch1)?'yes':'no') ."\n";
-echo "$arch2: " . (rar_solid_is($arch2)?'yes':'no') . "\n";
+$arch1 = rar_open("store_method.rar");
+$arch2 = rar_open("solid.rar");
+echo "$arch1: " . (rar_solid_is($arch1)?'yes':'no') ."\n";
+echo "$arch2: " . (rar_solid_is($arch2)?'yes':'no') . "\n";
 ?>
 ```

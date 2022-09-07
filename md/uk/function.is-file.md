@@ -42,8 +42,8 @@ is_file(string $filename): bool
 
 ```php
 <?php
-var_dump(is_file('a_file.txt')) . "\n";
-var_dump(is_file('/usr/bin/')) . "\n";
+var_dump(is_file('a_file.txt')) . "\n";
+var_dump(is_file('/usr/bin/')) . "\n";
 ?>
 ```
 

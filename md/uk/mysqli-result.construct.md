@@ -41,14 +41,14 @@ public **mysqliresult::construct**[mysqli](class.mysqli.md) `$mysql`, int `$resu
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* SELECT-запросы возвращают набор результатов */
-$mysqli->real_query("SELECT Name FROM City LIMIT 10");
+/* SELECT-запросы возвращают набор результатов */
+$mysqli->real_query("SELECT Name FROM City LIMIT 10");
 
-$result = new mysqli_result($mysqli);
-printf("Запрос вернул %d записей.\n", $result->num_rows);
+$result = new mysqli_result($mysqli);
+printf("Запрос вернул %d записей.\n", $result->num_rows);
 ```
 
 Результатом виконання даних прикладів буде щось подібне:

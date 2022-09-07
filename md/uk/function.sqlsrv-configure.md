@@ -44,5 +44,5 @@ sqlsrv_configure(string $setting, mixed $value): bool
 
 ### Дивіться також
 
--   [» Обработка ошибок SQLSRV](http://msdn.microsoft.com/en-us/library/cc626302.aspx)
--   [» Ведення журналу активності SQLSRV](http://msdn.microsoft.com/en-us/library/cc296188.aspx)
+-   [» Обработка ошибок SQLSRV](http://msdn.microsoft.com/en-us/library/cc626302.aspx)
+-   [» Ведення журналу активності SQLSRV](http://msdn.microsoft.com/en-us/library/cc296188.aspx)

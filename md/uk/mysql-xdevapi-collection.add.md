@@ -45,30 +45,30 @@ public mysql_xdevapi\Collection::add(mixed $document): mysql_xdevapi\CollectionA
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema = $session->getSchema("addressbook");
-$create = $schema->createCollection("people");
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
 
-$collection = $schema->getCollection("people");
+$collection = $schema->getCollection("people");
 
-// Добавление двух документов
-$collection->add('{"name": "Fred",  "age": 21, "job": "Construction"}')->execute();
-$collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
+// Добавление двух документов
+$collection->add('{"name": "Fred",  "age": 21, "job": "Construction"}')->execute();
+$collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
 
-// Добавление двух документов используя один объект JSON
-$result = $collection->add(
-  '{"name": "Bernie",
-    "jobs": [{"title":"Cat Herder","Salary":42000}, {"title":"Father","Salary":0}],
-    "hobbies": ["Sports","Making cupcakes"]}',
-  '{"name": "Jane",
-    "jobs": [{"title":"Scientist","Salary":18000}, {"title":"Mother","Salary":0}],
-    "hobbies": ["Walking","Making pies"]}')->execute();
+// Добавление двух документов используя один объект JSON
+$result = $collection->add(
+  '{"name": "Bernie",
+    "jobs": [{"title":"Cat Herder","Salary":42000}, {"title":"Father","Salary":0}],
+    "hobbies": ["Sports","Making cupcakes"]}',
+  '{"name": "Jane",
+    "jobs": [{"title":"Scientist","Salary":18000}, {"title":"Mother","Salary":0}],
+    "hobbies": ["Walking","Making pies"]}')->execute();
 
-// Получение списка сгенерированных идентификаторов последней операции add()
-$ids = $result->getGeneratedIds();
+// Получение списка сгенерированных идентификаторов последней операции add()
+$ids = $result->getGeneratedIds();
 print_r($ids);
 ?>
 ```

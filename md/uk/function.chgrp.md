@@ -42,12 +42,12 @@ chgrp(string $filename, string|int $group): bool
 
 ```php
 <?php
-$filename = 'shared_file.txt';
-$format = "Идентификатор группы файла %s @ %s: %d\n";
-printf($format, $filename, date('r'), filegroup($filename));
-chgrp($filename, 8);
-clearstatcache(); // сбрасываем кеш filegroup()
-printf($format, $filename, date('r'), filegroup($filename));
+$filename = 'shared_file.txt';
+$format = "Идентификатор группы файла %s @ %s: %d\n";
+printf($format, $filename, date('r'), filegroup($filename));
+chgrp($filename, 8);
+clearstatcache(); // сбрасываем кеш filegroup()
+printf($format, $filename, date('r'), filegroup($filename));
 ?>
 ```
 

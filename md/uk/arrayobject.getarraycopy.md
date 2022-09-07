@@ -34,14 +34,14 @@ public ArrayObject::getArrayCopy(): array
 
 ```php
 <?php
-// Масив с количеством фруктов
-$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
+// Масив с количеством фруктов
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
-$fruitsArrayObject = new ArrayObject($fruits);
-$fruitsArrayObject['pears'] = 4;
+$fruitsArrayObject = new ArrayObject($fruits);
+$fruitsArrayObject['pears'] = 4;
 
-// Создать копию Масива
-$copy = $fruitsArrayObject->getArrayCopy();
+// Создать копию Масива
+$copy = $fruitsArrayObject->getArrayCopy();
 print_r($copy);
 
 ?>

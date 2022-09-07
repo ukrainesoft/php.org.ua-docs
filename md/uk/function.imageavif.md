@@ -15,7 +15,7 @@ imageavif — Виводить зображення до браузера або
 ### Опис
 
 ```methodsynopsis
-imageavif(    GdImage $image,    resource|string|null $file = null,    int $quality = -1,    int $speed = -1): bool
+imageavif(    GdImage $image,    resource|string|null $file = null,    int $quality = -1,    int $speed = -1): bool
 ```
 
 Виводить або зберігає растрове зображення AVIF із зазначеного параметра `image`

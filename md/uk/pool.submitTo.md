@@ -40,21 +40,21 @@ public Pool::submitTo(int $worker, Threaded $task): int
 
 ```php
 <?php
-class Task extends Threaded {
-    public function run() {
-        var_dump(Thread::getCurrentThreadID());
-    }
+class Task extends Threaded {
+    public function run() {
+        var_dump(Thread::getCurrentThreadID());
+    }
 }
 
-$pool = new Pool(2);
+$pool = new Pool(2);
 
-$pool->submit(new Task());
+$pool->submit(new Task());
 
-for ($i = 0; $i < 5; ++$i) {
-    $pool->submitTo(0, new Task()); // добавление всех заданий первому воркеру
+for ($i = 0; $i < 5; ++$i) {
+    $pool->submitTo(0, new Task()); // добавление всех заданий первому воркеру
 }
 
-$pool->submitTo(1, new Task()); // не может добавить задачу второму воркеру, потому что его ещё не существует
+$pool->submitTo(1, new Task()); // не может добавить задачу второму воркеру, потому что его ещё не существует
 
 $pool->shutdown();
 ```

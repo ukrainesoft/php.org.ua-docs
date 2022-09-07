@@ -45,13 +45,13 @@ socket_last_error(?Socket $socket = null): int
 
 ```php
 <?php
-$socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+$socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
-if ($socket === false) {
-    $errorcode = socket_last_error();
-    $errormsg = socket_strerror($errorcode);
+if ($socket === false) {
+    $errorcode = socket_last_error();
+    $errormsg = socket_strerror($errorcode);
 
-    die("Не могу создать сокет: [$errorcode] $errormsg");
+    die("Не могу создать сокет: [$errorcode] $errormsg");
 }
 ?>
 ```

@@ -15,7 +15,7 @@ imapmailmove — Перемістити вказані повідомлення 
 ### Опис
 
 ```methodsynopsis
-imap_mail_move(    IMAP\Connection $imap,    string $message_nums,    string $mailbox,    int $flags = 0): bool
+imap_mail_move(    IMAP\Connection $imap,    string $message_nums,    string $mailbox,    int $flags = 0): bool
 ```
 
 Переміщує листи, задані в `message_nums` у вказану поштову скриньку `mailbox`. Зверніть увагу, що поштові повідомлення фактично *копіюються* в `mailbox`, а вихідні повідомлення позначаються для видалення. Це означає, що повідомлення в `mailbox` призначаються нові UID.
@@ -28,7 +28,7 @@ imap_mail_move(    IMAP\Connection $imap,    string $message_nums,   
 
 `message_nums`
 
-`message_nums` - це діапазон, а не просто номери повідомлень (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
+`message_nums` - це діапазон, а не просто номери повідомлень (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
 
 `mailbox`
 

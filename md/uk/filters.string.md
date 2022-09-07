@@ -18,10 +18,10 @@ title: Стрічкові фільтри
 
 ```php
 <?php
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'string.rot13');
-fwrite($fp, "This is a test.\n");
-/* Выведет:  Guvf vf n grfg.   */
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'string.rot13');
+fwrite($fp, "This is a test.\n");
+/* Выведет:  Guvf vf n grfg.   */
 ?>
 ```
 
@@ -33,10 +33,10 @@ fwrite($fp, "This is a test.\n");
 
 ```php
 <?php
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'string.toupper');
-fwrite($fp, "This is a test.\n");
-/* Выведет:  THIS IS A TEST.   */
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'string.toupper');
+fwrite($fp, "This is a test.\n");
+/* Выведет:  THIS IS A TEST.   */
 ?>
 ```
 
@@ -48,10 +48,10 @@ fwrite($fp, "This is a test.\n");
 
 ```php
 <?php
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'string.tolower');
-fwrite($fp, "This is a test.\n");
-/* Выведет:  this is a test.   */
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'string.tolower');
+fwrite($fp, "This is a test.\n");
+/* Выведет:  this is a test.   */
 ?>
 ```
 
@@ -67,16 +67,16 @@ fwrite($fp, "This is a test.\n");
 
 ```php
 <?php
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'string.strip_tags', STREAM_FILTER_WRITE, "<b><i><u>");
-fwrite($fp, "<b>bolded text</b> enlarged to a <h1>level 1 heading</h1>\n");
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'string.strip_tags', STREAM_FILTER_WRITE, "<b><i><u>");
+fwrite($fp, "<b>bolded text</b> enlarged to a <h1>level 1 heading</h1>\n");
 fclose($fp);
-/* Выведет:  bolded text enlarged to a level 1 heading   */
+/* Выведет:  bolded text enlarged to a level 1 heading   */
 
-$fp = fopen('php://output', 'w');
-stream_filter_append($fp, 'string.strip_tags', STREAM_FILTER_WRITE, array('b','i','u'));
-fwrite($fp, "<b>bolded text</b> enlarged to a <h1>level 1 heading</h1>\n");
+$fp = fopen('php://output', 'w');
+stream_filter_append($fp, 'string.strip_tags', STREAM_FILTER_WRITE, array('b','i','u'));
+fwrite($fp, "<b>bolded text</b> enlarged to a <h1>level 1 heading</h1>\n");
 fclose($fp);
-/* Выведет:  bolded text enlarged to a level 1 heading   */
+/* Выведет:  bolded text enlarged to a level 1 heading   */
 ?>
 ```

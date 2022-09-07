@@ -38,7 +38,7 @@ public static IntlChar::isISOControl(int|string $codepoint): ?bool
 
 ```php
 <?php
-var_dump(IntlChar::isISOControl(" "));
+var_dump(IntlChar::isISOControl(" "));
 var_dump(IntlChar::isISOControl("\n"));
 var_dump(IntlChar::isISOControl("\u{200e}"));
 ?>

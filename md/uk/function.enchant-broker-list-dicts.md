@@ -43,8 +43,8 @@ enchant_broker_list_dicts(EnchantBroker $broker): array
 
 ```php
 <?php
-$r = enchant_broker_init();
-$dicts = enchant_broker_list_dicts($r);
+$r = enchant_broker_init();
+$dicts = enchant_broker_list_dicts($r);
 print_r($dicts);
 ?>
 ```

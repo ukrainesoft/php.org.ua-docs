@@ -15,7 +15,7 @@ sodiumcryptoaeadchacha20poly1305encrypt — Шифрує, а потім пере
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_chacha20poly1305_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
+sodium_crypto_aead_chacha20poly1305_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
 ```
 
 Шифрує, а потім перевіряє справжність за допомогою ChaCha20-Poly1305

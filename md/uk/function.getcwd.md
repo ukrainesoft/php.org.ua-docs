@@ -37,13 +37,13 @@ getcwd(): string|false
 ```php
 <?php
 
-// текущий каталог
-echo getcwd() . "\n";
+// текущий каталог
+echo getcwd() . "\n";
 
 chdir('cvs');
 
-// текущий каталог
-echo getcwd() . "\n";
+// текущий каталог
+echo getcwd() . "\n";
 
 ?>
 ```

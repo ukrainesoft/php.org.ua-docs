@@ -46,8 +46,8 @@ msgfmt_get_locale(MessageFormatter $formatter): string
 
 ```php
 <?php
-$fmt = msgfmt_create('en_US', "Number {0,number}");
-echo msgfmt_get_locale($fmt);
+$fmt = msgfmt_create('en_US', "Number {0,number}");
+echo msgfmt_get_locale($fmt);
 ?>
 ```
 
@@ -55,8 +55,8 @@ echo msgfmt_get_locale($fmt);
 
 ```php
 <?php
-$fmt = new MessageFormatter('en_US', "Number {0,number}");
-echo $fmt->getLocale();
+$fmt = new MessageFormatter('en_US', "Number {0,number}");
+echo $fmt->getLocale();
 ?>
 ```
 

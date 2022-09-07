@@ -34,7 +34,7 @@ public ReflectionExtension::getClassNames(): array
 
 ```php
 <?php
-$ext = new ReflectionExtension('XMLWriter');
+$ext = new ReflectionExtension('XMLWriter');
 var_dump($ext->getClassNames());
 ?>
 ```

@@ -16,16 +16,16 @@ EventBufferEvent::connectHost — Підключається на ім'я хос
 
 ```methodsynopsis
 public
-   EventBufferEvent::connectHost(    
+   EventBufferEvent::connectHost(    
     EventDnsBase
      $dns_base
-   ,    
+   ,    
     string
      $hostname
-   ,    
+   ,    
     int
      $port
-   ,    
+   ,    
     int
      $family
      = EventUtil::AF_UNSPEC
@@ -74,62 +74,62 @@ public
 
 ```php
 <?php
-/* Callback-функция чтения */
-function readcb($bev, $base) {
-    //$input = $bev->input; //$bev->getInput();
+/* Callback-функция чтения */
+function readcb($bev, $base) {
+    //$input = $bev->input; //$bev->getInput();
 
-    //$pos = $input->search("TTP");
-    $pos = $bev->input->search("TTP");
+    //$pos = $input->search("TTP");
+    $pos = $bev->input->search("TTP");
 
-    while (($n = $bev->input->remove($buf, 1024)) > 0) {
-        echo $buf;
-    }
+    while (($n = $bev->input->remove($buf, 1024)) > 0) {
+        echo $buf;
+    }
 }
 
-/* Callback-функция события */
-function eventcb($bev, $events, $base) {
-    if ($events & EventBufferEvent::CONNECTED) {
-        echo "Подключено.\n";
-    } elseif ($events & (EventBufferEvent::ERROR | EventBufferEvent::EOF)) {
-        if ($events & EventBufferEvent::ERROR) {
-            echo "Ошибка DNS: ", $bev->getDnsErrorString(), PHP_EOL;
-        }
+/* Callback-функция события */
+function eventcb($bev, $events, $base) {
+    if ($events & EventBufferEvent::CONNECTED) {
+        echo "Подключено.\n";
+    } elseif ($events & (EventBufferEvent::ERROR | EventBufferEvent::EOF)) {
+        if ($events & EventBufferEvent::ERROR) {
+            echo "Ошибка DNS: ", $bev->getDnsErrorString(), PHP_EOL;
+        }
 
-        echo "Закрытие\n";
-        $base->exit();
-        exit("Выполнено\n");
-    }
+        echo "Закрытие\n";
+        $base->exit();
+        exit("Выполнено\n");
+    }
 }
 
-$base = new EventBase();
+$base = new EventBase();
 
-$dns_base = new EventDnsBase($base, TRUE); // Использование асинхронного разрешения DNS
-if (!$dns_base) {
-    exit("Не удалось запустить базу DNS\n");
+$dns_base = new EventDnsBase($base, TRUE); // Использование асинхронного разрешения DNS
+if (!$dns_base) {
+    exit("Не удалось запустить базу DNS\n");
 }
 
-$bev = new EventBufferEvent($base, /* использование внутреннего сокета */ NULL,
-    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,
-    "readcb", /* writecb */ NULL, "eventcb", $base
+$bev = new EventBufferEvent($base, /* использование внутреннего сокета */ NULL,
+    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,
+    "readcb", /* writecb */ NULL, "eventcb", $base
 );
-if (!$bev) {
-    exit("Не удалось создать сокет bufferevent\n");
+if (!$bev) {
+    exit("Не удалось создать сокет bufferevent\n");
 }
 
-//$bev->setCallbacks("readcb", /* writecb */ NULL, "eventcb", $base);
-$bev->enable(Event::READ | Event::WRITE);
+//$bev->setCallbacks("readcb", /* writecb */ NULL, "eventcb", $base);
+$bev->enable(Event::READ | Event::WRITE);
 
-$output = $bev->output; //$bev->getOutput();
-if (!$output->add(
-    "GET {$argv[2]} HTTP/1.0\r\n".
-    "Host: {$argv[1]}\r\n".
-    "Connection: Close\r\n\r\n"
-)) {
-    exit("Не удалось добавить запрос в выходной буфер\n");
+$output = $bev->output; //$bev->getOutput();
+if (!$output->add(
+    "GET {$argv[2]} HTTP/1.0\r\n".
+    "Host: {$argv[1]}\r\n".
+    "Connection: Close\r\n\r\n"
+)) {
+    exit("Не удалось добавить запрос в выходной буфер\n");
 }
 
-if (!$bev->connectHost($dns_base, $argv[1], 80, EventUtil::AF_UNSPEC)) {
-    exit("Не удалось подключиться к хосту {$argv[1]}\n");
+if (!$bev->connectHost($dns_base, $argv[1], 80, EventUtil::AF_UNSPEC)) {
+    exit("Не удалось подключиться к хосту {$argv[1]}\n");
 }
 
 $base->dispatch();

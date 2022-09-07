@@ -37,18 +37,18 @@ public SolrQuery::setExpand(bool $value): SolrQuery
 ```php
 <?php
 
-$query = new SolrQuery('lucene');
+$query = new SolrQuery('lucene');
 
 $query
-    ->setExpand(true)
-    ->setExpandRows(50)
-    ->setExpandQuery('text:product')
-    ->addExpandFilterQuery('manu:apple')
-    ->addExpandFilterQuery('inStock:true')
-    ->addExpandSortField('score', SolrQuery::ORDER_DESC)
-    ->addExpandSortField('title', SolrQuery::ORDER_ASC);
+    ->setExpand(true)
+    ->setExpandRows(50)
+    ->setExpandQuery('text:product')
+    ->addExpandFilterQuery('manu:apple')
+    ->addExpandFilterQuery('inStock:true')
+    ->addExpandSortField('score', SolrQuery::ORDER_DESC)
+    ->addExpandSortField('title', SolrQuery::ORDER_ASC);
 
-echo $query.PHP_EOL;
+echo $query.PHP_EOL;
 
 ?>
 ```

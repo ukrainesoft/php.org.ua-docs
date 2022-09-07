@@ -47,15 +47,15 @@ oci_set_db_operation(resource $connection, string $action): bool
 ```php
 <?php
 
-$c = oci_connect('hr', 'welcome', 'localhost/XE');
+$c = oci_connect('hr', 'welcome', 'localhost/XE');
 
-// Записать операцию
-oci_set_db_operation($c, 'main query');
+// Записать операцию
+oci_set_db_operation($c, 'main query');
 
-// Код, вызывающий циклический путь, например запрос:
-$s = oci_parse($c, 'select * from dual');
+// Код, вызывающий циклический путь, например запрос:
+$s = oci_parse($c, 'select * from dual');
 oci_execute($s);
-oci_fetch_all($s, $res);
+oci_fetch_all($s, $res);
 
 sleep(30);
 

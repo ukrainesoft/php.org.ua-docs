@@ -40,33 +40,33 @@ public static Yar_Concurrent_Client::loop(callable $callback = ?, callable $erro
 
 ```php
 <?php
-function callback($retval, $callinfo) {
-     if ($callinfo == NULL) {
-        echo "Так, все запросы запущены, но пока ни одного ответа\n";
-     } else {
-        echo "Это ответ от удалённого запроса. Имя метода", $callinfo["method"],
-             ". Был зарегистрирован " , $callinfo["sequence"] , "\n";
-        var_dump($retval);
-     }
+function callback($retval, $callinfo) {
+     if ($callinfo == NULL) {
+        echo "Так, все запросы запущены, но пока ни одного ответа\n";
+     } else {
+        echo "Это ответ от удалённого запроса. Имя метода", $callinfo["method"],
+             ". Был зарегистрирован " , $callinfo["sequence"] , "\n";
+        var_dump($retval);
+     }
 }
 
-function error_callback($type, $error, $callinfo) {
-    error_log($error);
+function error_callback($type, $error, $callinfo) {
+    error_log($error);
 }
 
-Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback");
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback");
 
-//если функция обратного вызова не задана, то будет использована определённая в цикле вызовов
-Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"));
+//если функция обратного вызова не задана, то будет использована определённая в цикле вызовов
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"));
 
-//этот сервер принимает упаковку JSON
-Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_PACKAGER => "json"));
+//этот сервер принимает упаковку JSON
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_PACKAGER => "json"));
 
-//отдельно заданное время ожидания
-Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_TIMEOUT=>1));
+//отдельно заданное время ожидания
+Yar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_TIMEOUT=>1));
 
-Yar_Concurrent_Client::loop("callback", "error_callback"); //запускаем запросы,
-                                                           //параметр error_callback не обязателен
+Yar_Concurrent_Client::loop("callback", "error_callback"); //запускаем запросы,
+                                                           //параметр error_callback не обязателен
 ?>
 ```
 

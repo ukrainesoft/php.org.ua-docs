@@ -46,20 +46,20 @@ tidy_get_body(tidy $tidy): ?tidyNode
 
 ```php
 <?php
-$html = '
+$html = '
 <html>
-  <head>
-    <title>тест</title>
-  </head>
-  <body>
-    <p>параграф</p>
-  </body>
+  <head>
+    <title>тест</title>
+  </head>
+  <body>
+    <p>параграф</p>
+  </body>
 </html>';
 
-$tidy = tidy_parse_string($html);
+$tidy = tidy_parse_string($html);
 
-$body = $tidy->Body();
-echo $body->value;
+$body = $tidy->Body();
+echo $body->value;
 ?>
 ```
 

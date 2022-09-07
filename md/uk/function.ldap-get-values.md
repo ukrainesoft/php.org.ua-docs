@@ -61,19 +61,19 @@ LDAP дозволяє зберігати більше одного запису 
 
 ```php
 <?php
-// $ds допустимый экземпляр LDAP\Connection
+// $ds допустимый экземпляр LDAP\Connection
 
-// $sr верный результат поиска в директории ldap
+// $sr верный результат поиска в директории ldap
 
-// $entry верный идентификатор записи из вызова функции
-//        вернувшей запись директории
+// $entry верный идентификатор записи из вызова функции
+//        вернувшей запись директории
 
-$values = ldap_get_values($ds, $entry, "mail");
+$values = ldap_get_values($ds, $entry, "mail");
 
-echo $values["count"] . " адреса email для этой записи.<br />";
+echo $values["count"] . " адреса email для этой записи.<br />";
 
-for ($i=0; $i < $values["count"]; $i++) {
-    echo $values[$i] . "<br />";
+for ($i=0; $i < $values["count"]; $i++) {
+    echo $values[$i] . "<br />";
 }
 ?>
 ```

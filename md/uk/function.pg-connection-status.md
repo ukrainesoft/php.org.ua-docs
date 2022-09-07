@@ -42,13 +42,13 @@ pg_connection_status(PgSql\Connection $connection): int
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться");
-  $stat = pg_connection_status($dbconn);
-  if ($stat === PGSQL_CONNECTION_OK) {
-      echo 'Статус соединения: доступно';
-  } else {
-      echo 'Статус соединения: разорвано';
-  }
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться");
+  $stat = pg_connection_status($dbconn);
+  if ($stat === PGSQL_CONNECTION_OK) {
+      echo 'Статус соединения: доступно';
+  } else {
+      echo 'Статус соединения: разорвано';
+  }
 ?>
 ```
 

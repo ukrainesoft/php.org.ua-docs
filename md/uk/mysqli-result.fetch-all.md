@@ -63,14 +63,14 @@ mysqli_fetch_all(mysqli_result $result, int $mode = MYSQLI_NUM): array
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$result = $mysqli->query("SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
+$result = $mysqli->query("SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
 
-$rows = $result->fetch_all(MYSQLI_ASSOC);
-foreach ($rows as $row) {
-    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+$rows = $result->fetch_all(MYSQLI_ASSOC);
+foreach ($rows as $row) {
+    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 }
 ```
 
@@ -79,14 +79,14 @@ foreach ($rows as $row) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$result = mysqli_query($mysqli, "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
+$result = mysqli_query($mysqli, "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
 
-$rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
-foreach ($rows as $row) {
-    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+$rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
+foreach ($rows as $row) {
+    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 }
 ```
 

@@ -34,11 +34,11 @@ public ReflectionClass::isAbstract(): bool
 
 ```php
 <?php
-class          TestClass { }
-abstract class TestAbstractClass { }
+class          TestClass { }
+abstract class TestAbstractClass { }
 
-$testClass     = new ReflectionClass('TestClass');
-$abstractClass = new ReflectionClass('TestAbstractClass');
+$testClass     = new ReflectionClass('TestClass');
+$abstractClass = new ReflectionClass('TestAbstractClass');
 
 var_dump($testClass->isAbstract());
 var_dump($abstractClass->isAbstract());

@@ -36,10 +36,10 @@ cubrid_free_result(resource $req_identifier): bool
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-$req = cubrid_execute($conn, "SELECT * FROM history WHERE host_year=2004 ORDER BY event_code");
-$row = cubrid_fetch_assoc($req);
+$req = cubrid_execute($conn, "SELECT * FROM history WHERE host_year=2004 ORDER BY event_code");
+$row = cubrid_fetch_assoc($req);
 var_dump($row);
 
 cubrid_free_result($req);

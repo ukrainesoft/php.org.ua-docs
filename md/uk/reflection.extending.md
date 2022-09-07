@@ -15,37 +15,37 @@ title: Розширення
 ```php
 <?php
 /**
- * Мой класс Reflection_Method
- */
-class My_Reflection_Method extends ReflectionMethod
+ * Мой класс Reflection_Method
+ */
+class My_Reflection_Method extends ReflectionMethod
 {
-    public $visibility = array();
+    public $visibility = array();
 
-    public function __construct($o, $m)
-    {
-        parent::__construct($o, $m);
-        $this->visibility = Reflection::getModifierNames($this->getModifiers());
-    }
+    public function __construct($o, $m)
+    {
+        parent::__construct($o, $m);
+        $this->visibility = Reflection::getModifierNames($this->getModifiers());
+    }
 }
 
 /**
- * Демо-класс #1
- *
- */
-class T {
-    protected function x() {}
+ * Демо-класс #1
+ *
+ */
+class T {
+    protected function x() {}
 }
 
 /**
- * Демо-класс #2
- *
- */
-class U extends T {
-    function x() {}
+ * Демо-класс #2
+ *
+ */
+class U extends T {
+    function x() {}
 }
 
-// Выведем информацию о методе
-var_dump(new My_Reflection_Method('U', 'x'));
+// Выведем информацию о методе
+var_dump(new My_Reflection_Method('U', 'x'));
 ?>
 ```
 

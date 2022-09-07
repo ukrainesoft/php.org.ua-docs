@@ -41,34 +41,34 @@ public Yaf_Route_Static::assemble(array $info, array $query = ?): string
 ```php
 <?php
 
-$router = new Yaf_Router();
+$router = new Yaf_Router();
 
-$route  = new Yaf_Route_Static();
+$route  = new Yaf_Route_Static();
 
-$router->addRoute("static", $route);
+$router->addRoute("static", $route);
 
 var_dump($router->getRoute('static')->assemble(
-            array(
-                ':a' => 'yafaction',
-                'tkey' => 'tval',
-                ':c' => 'yafcontroller',
-                ':m' => 'yafmodule'
-            ),
-        )
+            array(
+                ':a' => 'yafaction',
+                'tkey' => 'tval',
+                ':c' => 'yafcontroller',
+                ':m' => 'yafmodule'
+            ),
+        )
 );
 
 var_dump($router->getRoute('static')->assemble(
-            array(
-                ':a' => 'yafaction',
-                'tkey' => 'tval',
-                ':c' => 'yafcontroller',
-                ':m' => 'yafmodule'
-            ),
-            array(
-                'tkey1' => 'tval1',
-                'tkey2' => 'tval2'
-            )
-        )
+            array(
+                ':a' => 'yafaction',
+                'tkey' => 'tval',
+                ':c' => 'yafcontroller',
+                ':m' => 'yafmodule'
+            ),
+            array(
+                'tkey1' => 'tval1',
+                'tkey2' => 'tval2'
+            )
+        )
 );
 ```
 

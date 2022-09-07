@@ -36,15 +36,15 @@ public Imagick::posterizeImage(int $levels, bool $dither): bool
 
 ```php
 <?php
-function posterizeImage($imagePath, $posterizeType, $numberLevels) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->posterizeImage($numberLevels, $posterizeType);
-    $imagick->setImageFormat('png');
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+function posterizeImage($imagePath, $posterizeType, $numberLevels) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->posterizeImage($numberLevels, $posterizeType);
+    $imagick->setImageFormat('png');
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
-posterizeImage($imagePath, \Imagick::DITHERMETHOD_RIEMERSMA, 8);
+posterizeImage($imagePath, \Imagick::DITHERMETHOD_RIEMERSMA, 8);
 
 ?>
 ```

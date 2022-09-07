@@ -15,7 +15,7 @@ bcpowmod - Зводить одне число в ступінь іншого і 
 ### Опис
 
 ```methodsynopsis
-bcpowmod(    string $num,    string $exponent,    string $modulus,    ?int $scale = null): string
+bcpowmod(    string $num,    string $exponent,    string $modulus,    ?int $scale = null): string
 ```
 
 Використовуйте метод швидкого зведення числа `num` у ступінь `exponent` та отримання залишку від розподілу на `modulus`
@@ -54,11 +54,11 @@ bcpowmod(    string $num,    string $exponent,    string $modulus, 
 
 ```php
 <?php
-$a = bcpowmod($x, $y, $mod);
+$a = bcpowmod($x, $y, $mod);
 
-$b = bcmod(bcpow($x, $y), $mod);
+$b = bcmod(bcpow($x, $y), $mod);
 
-// $a == $b.
+// $a == $b.
 
 ?>
 ```

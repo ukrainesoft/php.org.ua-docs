@@ -50,20 +50,20 @@ uopz_set_mock(string $class, mixed $mock): void
 
 ```php
 <?php
-class A {
-    public function who() {
-        echo "A";
-    }
+class A {
+    public function who() {
+        echo "A";
+    }
 }
 
-class mockA {
-    public function who() {
-        echo "mockA";
-    }
+class mockA {
+    public function who() {
+        echo "mockA";
+    }
 }
 
-uopz_set_mock(A::class, mockA::class);
-(new A)->who();
+uopz_set_mock(A::class, mockA::class);
+(new A)->who();
 ?>
 ```
 
@@ -77,18 +77,18 @@ mockA
 
 ```php
 <?php
-class A {
-    public function who() {
-        echo "A";
-    }
+class A {
+    public function who() {
+        echo "A";
+    }
 }
 
-uopz_set_mock(A::class, new class {
-                            public function who() {
-                                echo "mockA";
-                            }
-                        });
-(new A)->who();
+uopz_set_mock(A::class, new class {
+                            public function who() {
+                                echo "mockA";
+                            }
+                        });
+(new A)->who();
 ?>
 ```
 
@@ -104,19 +104,19 @@ mockA
 
 ```php
 <?php
-class A {
-    public static function who() {
-        echo "A";
-    }
+class A {
+    public static function who() {
+        echo "A";
+    }
 }
 
-uopz_set_mock(A::class, new class {
-                            const CON = 'mockA';
-                            public static function who() {
-                                echo "mockA";
-                            }
-                        });
-echo A::CON, PHP_EOL;
+uopz_set_mock(A::class, new class {
+                            const CON = 'mockA';
+                            public static function who() {
+                                echo "mockA";
+                            }
+                        });
+echo A::CON, PHP_EOL;
 A::who();
 ```
 

@@ -15,7 +15,7 @@ ImagickDraw::arc — Малює дугу
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): bool
+public ImagickDraw::arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): bool
 ```
 
 **Увага**
@@ -60,29 +60,29 @@ public ImagickDraw::arc(    float $sx,    float $sy,    float $ex, 
 
 ```php
 <?php
-function arc($strokeColor, $fillColor, $backgroundColor, $startX, $startY, $endX, $endY, $startAngle, $endAngle) {
+function arc($strokeColor, $fillColor, $backgroundColor, $startX, $startY, $endX, $endY, $startAngle, $endAngle) {
 
-    //Создание объекта ImagickDraw для рисования.
-    $draw = new \ImagickDraw();
-    $draw->setStrokeWidth(1);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(2);
+    //Создание объекта ImagickDraw для рисования.
+    $draw = new \ImagickDraw();
+    $draw->setStrokeWidth(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(2);
 
-    $draw->arc($startX, $startY, $endX, $endY, $startAngle, $endAngle);
+    $draw->arc($startX, $startY, $endX, $endY, $startAngle, $endAngle);
 
-    //Создание объекта изображения, в который можно преобразовать команды рисования.
-    $image = new \Imagick();
-    $image->newImage(IMAGE_WIDTH, IMAGE_HEIGHT, $backgroundColor);
-    $image->setImageFormat("png");
+    //Создание объекта изображения, в который можно преобразовать команды рисования.
+    $image = new \Imagick();
+    $image->newImage(IMAGE_WIDTH, IMAGE_HEIGHT, $backgroundColor);
+    $image->setImageFormat("png");
 
-    //Преобразование команд рисования в объекте ImagickDraw
-    //в изображение.
-    $image->drawImage($draw);
+    //Преобразование команд рисования в объекте ImagickDraw
+    //в изображение.
+    $image->drawImage($draw);
 
-    //Отображение изображения в браузере
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    //Отображение изображения в браузере
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

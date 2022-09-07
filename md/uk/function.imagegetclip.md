@@ -49,8 +49,8 @@ imagegetclip(GdImage $image): array
 
 ```php
 <?php
-$im = imagecreate(100, 100);
-imagesetclip($im, 10,10, 89,89);
+$im = imagecreate(100, 100);
+imagesetclip($im, 10,10, 89,89);
 print_r(imagegetclip($im));
 ```
 

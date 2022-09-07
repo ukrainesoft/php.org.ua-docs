@@ -42,7 +42,7 @@ public Ds\Queue::toArray(): array
 
 ```php
 <?php
-$queue = new \Ds\Queue([1, 2, 3]);
+$queue = new \Ds\Queue([1, 2, 3]);
 
 var_dump($queue->toArray());
 ?>

@@ -41,11 +41,11 @@ filectime(string $filename): int|false
 ```php
 <?php
 
-// Пример вывода: Файл somefile.txt в последний раз был изменён: December 29 2002 22:16:23.
+// Пример вывода: Файл somefile.txt в последний раз был изменён: December 29 2002 22:16:23.
 
-$filename = 'somefile.txt';
-if (file_exists($filename)) {
-    echo "Файл $filename в последний раз был изменён: " . date("F d Y H:i:s.", filectime($filename));
+$filename = 'somefile.txt';
+if (file_exists($filename)) {
+    echo "Файл $filename в последний раз был изменён: " . date("F d Y H:i:s.", filectime($filename));
 }
 
 ?>

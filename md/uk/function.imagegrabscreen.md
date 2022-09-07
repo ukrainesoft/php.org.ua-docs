@@ -46,8 +46,8 @@ imagegrabscreen(): GdImage|false
 
 ```php
 <?php
-$im = imagegrabscreen();
-imagepng($im, "myscreenshot.png");
+$im = imagegrabscreen();
+imagepng($im, "myscreenshot.png");
 imagedestroy($im);
 ?>
 ```

@@ -35,7 +35,7 @@ title: Допустимі формати дати/часу
     
     ```php
     <?php
-    $res = date_parse("2015-09-31");
+    $res = date_parse("2015-09-31");
     var_dump($res["warnings"]);
     ?>
     ```
@@ -53,7 +53,7 @@ title: Допустимі формати дати/часу
     
     ```php
     <?php
-    $res = DateTimeImmutable::createFromFormat("Y-m-d", "2015-09-34");
+    $res = DateTimeImmutable::createFromFormat("Y-m-d", "2015-09-34");
     var_dump($res);
     ```
     

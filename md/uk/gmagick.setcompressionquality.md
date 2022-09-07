@@ -41,7 +41,7 @@ Gmagick::setCompressionQuality(
 
 ```php
 <?php
-$gm = new Gmagick();
+$gm = new Gmagick();
 $gm->read("magick:rose");
 $gm->setCompressionQuality(2);
 ?>

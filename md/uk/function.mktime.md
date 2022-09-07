@@ -15,7 +15,7 @@ mktime — Повертає позначку часу Unix для заданої
 ### Опис
 
 ```methodsynopsis
-mktime(    int $hour,    ?int $minute = null,    ?int $second = null,    ?int $month = null,    ?int $day = null,    ?int $year = null): int|false
+mktime(    int $hour,    ?int $minute = null,    ?int $second = null,    ?int $month = null,    ?int $day = null,    ?int $year = null): int|false
 ```
 
 Функція повертає мітку часу Unix, що відповідає даті та часу, переданих як аргументи. Мітка часу - це ціле число, що дорівнює різниці в секундах між заданою датою/часом і початком епохи Unix (1 січня 1970 00:00:00 GMT).
@@ -71,14 +71,14 @@ mktime(    int $hour,    ?int $minute = null,    ?int $second = null
 
 ```php
 <?php
-// Устанавливаем используемый по умолчанию часовой пояс.
+// Устанавливаем используемый по умолчанию часовой пояс.
 date_default_timezone_set('UTC');
 
-// Выводит: July 1, 2000 is on a Saturday
-echo "July 1, 2000 is on a " . date("l", mktime(0, 0, 0, 7, 1, 2000));
+// Выводит: July 1, 2000 is on a Saturday
+echo "July 1, 2000 is on a " . date("l", mktime(0, 0, 0, 7, 1, 2000));
 
-// Выводит что-то вроде: 2006-04-05T01:02:03+00:00
-echo date('c', mktime(1, 2, 3, 4, 5, 2006));
+// Выводит что-то вроде: 2006-04-05T01:02:03+00:00
+echo date('c', mktime(1, 2, 3, 4, 5, 2006));
 ?>
 ```
 
@@ -88,10 +88,10 @@ echo date('c', mktime(1, 2, 3, 4, 5, 2006));
 
 ```php
 <?php
-echo date("M-d-Y", mktime(0, 0, 0, 12, 32, 1997));
-echo date("M-d-Y", mktime(0, 0, 0, 13, 1, 1997));
-echo date("M-d-Y", mktime(0, 0, 0, 1, 1, 1998));
-echo date("M-d-Y", mktime(0, 0, 0, 1, 1, 98));
+echo date("M-d-Y", mktime(0, 0, 0, 12, 32, 1997));
+echo date("M-d-Y", mktime(0, 0, 0, 13, 1, 1997));
+echo date("M-d-Y", mktime(0, 0, 0, 1, 1, 1998));
+echo date("M-d-Y", mktime(0, 0, 0, 1, 1, 98));
 ?>
 ```
 
@@ -101,10 +101,10 @@ echo date("M-d-Y", mktime(0, 0, 0, 1, 1, 98));
 
 ```php
 <?php
-$lastday = mktime(0, 0, 0, 3, 0, 2000);
-echo strftime("Последний день февраля 2000 г.: %d", $lastday);
-$lastday = mktime(0, 0, 0, 4, -31, 2000);
-echo strftime("Последний день февраля 2000 г.: %d", $lastday);
+$lastday = mktime(0, 0, 0, 3, 0, 2000);
+echo strftime("Последний день февраля 2000 г.: %d", $lastday);
+$lastday = mktime(0, 0, 0, 4, -31, 2000);
+echo strftime("Последний день февраля 2000 г.: %d", $lastday);
 ?>
 ```
 

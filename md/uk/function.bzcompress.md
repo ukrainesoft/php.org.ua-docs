@@ -46,9 +46,9 @@ bzcompress(string $data, int $block_size = 4, int $work_factor = 0): string|int
 
 ```php
 <?php
-$str = "sample data";
-$bzstr = bzcompress($str, 9);
-echo $bzstr;
+$str = "sample data";
+$bzstr = bzcompress($str, 9);
+echo $bzstr;
 ?>
 ```
 

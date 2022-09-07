@@ -15,7 +15,7 @@ phpuserfilter::filter — Викликається, як тільки засто
 ### Опис
 
 ```methodsynopsis
-public php_user_filter::filter(    resource $in,    resource $out,    int &$consumed,    bool $closing): int
+public php_user_filter::filter(    resource $in,    resource $out,    int &$consumed,    bool $closing): int
 ```
 
 Цей метод викликається щоразу, коли дані читаються з приєднаного потоку або записуються до нього (такими функціями, як [fread()](function.fread.md) або [fwrite()](function.fwrite.md)

@@ -15,7 +15,7 @@ imagefill - Заливка
 ### Опис
 
 ```methodsynopsis
-imagefill(    GdImage $image,    int $x,    int $y,    int $color): bool
+imagefill(    GdImage $image,    int $x,    int $y,    int $color): bool
 ```
 
 Виготовляє заливку, починаючи із заданих координат (верхній лівий кут має координати 0, 0), кольором `color` у зображенні `image`
@@ -55,13 +55,13 @@ y-координата початку.
 ```php
 <?php
 
-$im = imagecreatetruecolor(100, 100);
+$im = imagecreatetruecolor(100, 100);
 
-// установка красного фона
-$red = imagecolorallocate($im, 255, 0, 0);
-imagefill($im, 0, 0, $red);
+// установка красного фона
+$red = imagecolorallocate($im, 255, 0, 0);
+imagefill($im, 0, 0, $red);
 
-header('Content-type: image/png');
+header('Content-type: image/png');
 imagepng($im);
 imagedestroy($im);
 ?>

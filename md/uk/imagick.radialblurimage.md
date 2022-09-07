@@ -40,14 +40,14 @@ public Imagick::radialBlurImage(float $angle, int $channel = Imagick::CHANNEL_DE
 
 ```php
 <?php
-function radialBlurImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    //Размытие 3 раза с разными радиусами
-    $imagick->radialBlurImage(3);
-    $imagick->radialBlurImage(5);
-    $imagick->radialBlurImage(7);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function radialBlurImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    //Размытие 3 раза с разными радиусами
+    $imagick->radialBlurImage(3);
+    $imagick->radialBlurImage(5);
+    $imagick->radialBlurImage(7);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

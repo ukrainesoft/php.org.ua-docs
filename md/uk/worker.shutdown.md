@@ -34,9 +34,9 @@ public Worker::shutdown(): bool
 
 ```php
 <?php
-$my = new Worker();
+$my = new Worker();
 $my->start();
-/* stack/execute tasks */
+/* stack/execute tasks */
 var_dump($my->shutdown());
 ```
 

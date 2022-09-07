@@ -40,16 +40,16 @@ simplexml_import_dom(SimpleXMLElement|DOMNode $node, ?string $class_name = Simpl
 
 ```php
 <?php
-$dom = new DOMDocument;
+$dom = new DOMDocument;
 $dom->loadXML('<books><book><title>чепуха</title></book></books>');
-if (!$dom) {
-    echo 'Ошибка при разборе документа';
-    exit;
+if (!$dom) {
+    echo 'Ошибка при разборе документа';
+    exit;
 }
 
-$s = simplexml_import_dom($dom);
+$s = simplexml_import_dom($dom);
 
-echo $s->book[0]->title;
+echo $s->book[0]->title;
 ?>
 ```
 

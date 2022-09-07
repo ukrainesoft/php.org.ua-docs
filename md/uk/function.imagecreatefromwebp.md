@@ -46,11 +46,11 @@ imagecreatefromwebp(string $filename): GdImage|false
 
 ```php
 <?php
-// Загрузить WebP-файл
-$im = imagecreatefromwebp('./example.webp');
+// Загрузить WebP-файл
+$im = imagecreatefromwebp('./example.webp');
 
-// Сконвертировать его в jpeg-файл со 100%-качеством
-imagejpeg($im, './example.jpeg', 100);
+// Сконвертировать его в jpeg-файл со 100%-качеством
+imagejpeg($im, './example.jpeg', 100);
 imagedestroy($im);
 ?>
 ```

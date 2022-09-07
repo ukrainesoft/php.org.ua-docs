@@ -46,18 +46,18 @@ public Phar::copy(string $from, string $to): bool
 
 ```php
 <?php
-try {
-    $phar = new Phar('myphar.phar');
-    $phar['a'] = 'привет';
-    $phar->copy('a', 'b');
-    echo $phar['b']; // будет выведено "привет"
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $phar = new Phar('myphar.phar');
+    $phar['a'] = 'привет';
+    $phar->copy('a', 'b');
+    echo $phar['b']; // будет выведено "привет"
+} catch (Exception $e) {
+    // обработка ошибок
 }
 
-// обёртка потока, эквивалентная коду выше.
-// в случае возникновения ошибки будет вызвано предупреждение E_WARNING, а не исключение
-copy('phar://myphar.phar/a', 'phar//myphar.phar/c');
-echo file_get_contents('phar://myphar.phar/c'); // будет выведено "привет"
+// обёртка потока, эквивалентная коду выше.
+// в случае возникновения ошибки будет вызвано предупреждение E_WARNING, а не исключение
+copy('phar://myphar.phar/a', 'phar//myphar.phar/c');
+echo file_get_contents('phar://myphar.phar/c'); // будет выведено "привет"
 ?>
 ```

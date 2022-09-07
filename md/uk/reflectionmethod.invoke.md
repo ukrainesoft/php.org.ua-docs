@@ -46,16 +46,16 @@ public ReflectionMethod::invoke(?object $object, mixed ...$args): mixed
 
 ```php
 <?php
-class HelloWorld {
+class HelloWorld {
 
-    public function sayHelloTo($name) {
-        return 'Привет, ' . $name;
-    }
+    public function sayHelloTo($name) {
+        return 'Привет, ' . $name;
+    }
 
 }
 
-$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');
-echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');
+$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');
+echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');
 ?>
 ```
 

@@ -36,10 +36,10 @@ mqseries_strerror(int $reason): string
 
 ```php
 <?php
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("open CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-        exit;
-    }
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("open CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+        exit;
+    }
 ?>
 ```
 

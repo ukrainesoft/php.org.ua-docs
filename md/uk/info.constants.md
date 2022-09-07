@@ -33,7 +33,7 @@ title: Обумовлені константи
 | **`INFO_MODULES`** |  | Завантажені модулі та їх налаштування. |
 | **`INFO_ENVIRONMENT`** |  | Інформація про змінні середовища, яка також доступна в [ENV](reserved.variables.environment.md) |
 | **`INFO_VARIABLES`** |  | Показує все [зумовлені змінні](language.variables.predefined.md) з `EGPCS` (Environment, GET, POST, Cookie, Server). |
-| **`INFO_LICENSE`** |  | Інформація про ліцензію PHP. Дивіться також [» FAQ за ліцензією](https://www.php.net/license/) |
+| **`INFO_LICENSE`** |  | Інформація про ліцензію PHP. Дивіться також [» FAQ за ліцензією](https://www.php.net/license/) |
 | **`INFO_ALL`** |  | Константа за замовчуванням. Показує всю інформацію, описану вище. |
 
 **Константи INI**

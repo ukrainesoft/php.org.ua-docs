@@ -47,15 +47,15 @@ Memcache::delete(string $key, int $timeout = 0): bool
 ```php
 <?php
 
-/* процедурное API */
-$memcache_obj = memcache_connect('memcache_host', 11211);
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
 
-/* элемент будет удалён сервером */
-memcache_delete($memcache_obj, 'key_to_delete');
+/* элемент будет удалён сервером */
+memcache_delete($memcache_obj, 'key_to_delete');
 
-/* объектно-ориентированное API */
-$memcache_obj = new Memcache;
-$memcache_obj->connect('memcache_host', 11211);
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
 
 $memcache_obj->delete('key_to_delete');
 

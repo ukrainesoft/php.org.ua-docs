@@ -71,15 +71,15 @@ public SQLite3Stmt::bindValue(string|int $param, mixed $value, int $type = SQLIT
 
 ```php
 <?php
-$db = new SQLite3(':memory:');
+$db = new SQLite3(':memory:');
 
-$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');
-$db->exec("INSERT INTO foo (id, bar) VALUES (1, 'This is a test')");
+$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');
+$db->exec("INSERT INTO foo (id, bar) VALUES (1, 'This is a test')");
 
-$stmt = $db->prepare('SELECT bar FROM foo WHERE id=:id');
-$stmt->bindValue(':id', 1, SQLITE3_INTEGER);
+$stmt = $db->prepare('SELECT bar FROM foo WHERE id=:id');
+$stmt->bindValue(':id', 1, SQLITE3_INTEGER);
 
-$result = $stmt->execute();
+$result = $stmt->execute();
 var_dump($result->fetchArray(SQLITE3_ASSOC));
 ?>
 ```

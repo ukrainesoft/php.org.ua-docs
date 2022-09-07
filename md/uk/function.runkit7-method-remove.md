@@ -40,23 +40,23 @@ runkit7_method_remove(string $class_name, string $method_name): bool
 
 ```php
 <?php
-class Example {
-    function foo() {
-        return "foo!\n";
-    }
+class Example {
+    function foo() {
+        return "foo!\n";
+    }
 
-    function bar() {
-        return "bar!\n";
-    }
+    function bar() {
+        return "bar!\n";
+    }
 }
 
-// Remove the 'foo' method
+// Remove the 'foo' method
 runkit7_method_remove(
-    'Example',
-    'foo'
+    'Example',
+    'foo'
 );
 
-echo implode(' ', get_class_methods('Example'));
+echo implode(' ', get_class_methods('Example'));
 
 ?>
 ```

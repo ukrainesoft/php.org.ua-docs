@@ -36,27 +36,27 @@ public mysql_xdevapi\CollectionModify::limit(int $rows): mysql_xdevapi\Collectio
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-$collection->add('{"name": "Fred",  "age": 21, "job": "Construction"}')->execute();
-$collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
-$collection->add('{"name": "Betty", "age": 24, "job": "Teacher"}')->execute();
+$collection->add('{"name": "Fred",  "age": 21, "job": "Construction"}')->execute();
+$collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
+$collection->add('{"name": "Betty", "age": 24, "job": "Teacher"}')->execute();
 
 $collection
-  ->modify("job = :job")
-  ->bind(['job' => 'Teacher'])
-  ->set('job', 'Principal')
-  ->limit(1)
-  ->execute();
+  ->modify("job = :job")
+  ->bind(['job' => 'Teacher'])
+  ->set('job', 'Principal')
+  ->limit(1)
+  ->execute();
 
-$result = $collection
-  ->find()
-  ->execute();
+$result = $collection
+  ->find()
+  ->execute();
 
 print_r($result->fetchAll());
 ?>

@@ -34,28 +34,28 @@ public Yaf_Plugin_Abstract::routerShutdown(Yaf_Request_Abstract $request, Yaf_Re
 
 ```php
 <?php
-class UserInitPlugin extends Yaf_Plugin_Abstract {
+class UserInitPlugin extends Yaf_Plugin_Abstract {
 
-    public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-        $controller = $request->getControllerName();
+    public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+        $controller = $request->getControllerName();
 
-        /**
-         * Использовать контроллер доступа не нужно для API
-         */
-        if (in_array(strtolower($controller), array(
-            'api',
-        ))) {
-            return TRUE;
-        }
+        /**
+         * Использовать контроллер доступа не нужно для API
+         */
+        if (in_array(strtolower($controller), array(
+            'api',
+        ))) {
+            return TRUE;
+        }
 
-        if (Yaf_Session::getInstance()->has("login")) {
-            return TRUE;
-        }
+        if (Yaf_Session::getInstance()->has("login")) {
+            return TRUE;
+        }
 
-        /* Ошибка проверки доступа, необходимо войти */
-        $response->setRedirect("http://yourdomain.com/login/");
-        return FALSE;
-    }
+        /* Ошибка проверки доступа, необходимо войти */
+        $response->setRedirect("http://yourdomain.com/login/");
+        return FALSE;
+    }
 }
 ?>
 ```

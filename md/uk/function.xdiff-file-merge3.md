@@ -15,7 +15,7 @@ xdifffilemerge3 - Об'єднання трьох файлів в один
 ### Опис
 
 ```methodsynopsis
-xdiff_file_merge3(    string $old_file,    string $new_file1,    string $new_file2,    string $dest): mixed
+xdiff_file_merge3(    string $old_file,    string $new_file1,    string $new_file2,    string $dest): mixed
 ```
 
 Об'єднує три файли в один і зберігає результат у `dest`. Файл `old_file` є оригінальним файлом, тоді як `new_file1` і `new_file2` його модифікованими версіями.
@@ -50,14 +50,14 @@ xdiff_file_merge3(    string $old_file,    string $new_file1,    str
 
 ```php
 <?php
-$old_version = 'original_script.php';
-$fix1 = 'script_with_fix1.php';
-$fix2 = 'script_with_fix2.php';
+$old_version = 'original_script.php';
+$fix1 = 'script_with_fix1.php';
+$fix2 = 'script_with_fix2.php';
 
-$errors = xdiff_file_merge3($old_version, $fix1, $fix2, 'fixed_script.php');
-if (is_string($errors)) {
-    echo "Отклонены:\n";
-    echo $errors;
+$errors = xdiff_file_merge3($old_version, $fix1, $fix2, 'fixed_script.php');
+if (is_string($errors)) {
+    echo "Отклонены:\n";
+    echo $errors;
 }
 ?>
 ```

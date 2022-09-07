@@ -40,8 +40,8 @@ dechex(int $num): string
 
 ```php
 <?php
-echo dechex(10) . "\n";
-echo dechex(47);
+echo dechex(10) . "\n";
+echo dechex(47);
 ?>
 ```
 
@@ -56,11 +56,11 @@ a
 
 ```php
 <?php
-// Вывод подразумевает 32-битную платформу.
-// Обратите внимание, что вывод одинаков для всех этих значений.
-echo dechex(-1)."\n";
-echo dechex(PHP_INT_MAX * 2 + 1)."\n";
-echo dechex(pow(2, 32) - 1)."\n";
+// Вывод подразумевает 32-битную платформу.
+// Обратите внимание, что вывод одинаков для всех этих значений.
+echo dechex(-1)."\n";
+echo dechex(PHP_INT_MAX * 2 + 1)."\n";
+echo dechex(pow(2, 32) - 1)."\n";
 ?>
 ```
 

@@ -38,10 +38,10 @@ escapeshellcmd(string $command): string
 
 ```php
 <?php
-// Мы намеренно допускаем здесь произвольное количество аргументов.
-$command = './configure '.$_POST['configure_options'];
+// Мы намеренно допускаем здесь произвольное количество аргументов.
+$command = './configure '.$_POST['configure_options'];
 
-$escaped_command = escapeshellcmd($command);
+$escaped_command = escapeshellcmd($command);
 
 system($escaped_command);
 ?>
@@ -57,7 +57,7 @@ system($escaped_command);
 
 ```php
 <?php
-$cmd = preg_replace('`(?<!^) `', '^ ', escapeshellcmd($cmd));
+$cmd = preg_replace('`(?<!^) `', '^ ', escapeshellcmd($cmd));
 ```
 
 ### Дивіться також

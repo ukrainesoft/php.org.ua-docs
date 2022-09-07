@@ -50,43 +50,43 @@ json_last_error(): int
 
 ```php
 <?php
-// Верная json-строка
-$json[] = '{"Organization": "PHP Documentation Team"}';
+// Верная json-строка
+$json[] = '{"Organization": "PHP Documentation Team"}';
 
-// Неверная json-строка, которая вызовет синтаксическую ошибку,
-// здесь в качестве кавычек мы используем ' вместо "
-$json[] = "{'Organization': 'PHP Documentation Team'}";
+// Неверная json-строка, которая вызовет синтаксическую ошибку,
+// здесь в качестве кавычек мы используем ' вместо "
+$json[] = "{'Organization': 'PHP Documentation Team'}";
 
 
-foreach ($json as $string) {
-    echo 'Декодируем: ' . $string;
-    json_decode($string);
+foreach ($json as $string) {
+    echo 'Декодируем: ' . $string;
+    json_decode($string);
 
-    switch (json_last_error()) {
-        case JSON_ERROR_NONE:
-            echo ' - Ошибок нет';
-        break;
-        case JSON_ERROR_DEPTH:
-            echo ' - Достигнута максимальная глубина стека';
-        break;
-        case JSON_ERROR_STATE_MISMATCH:
-            echo ' - Некорректные разряды или несоответствие режимов';
-        break;
-        case JSON_ERROR_CTRL_CHAR:
-            echo ' - Некорректный управляющий символ';
-        break;
-        case JSON_ERROR_SYNTAX:
-            echo ' - Синтаксическая ошибка, некорректный JSON';
-        break;
-        case JSON_ERROR_UTF8:
-            echo ' - Некорректные символы UTF-8, возможно неверно закодирован';
-        break;
-        default:
-            echo ' - Неизвестная ошибка';
-        break;
-    }
+    switch (json_last_error()) {
+        case JSON_ERROR_NONE:
+            echo ' - Ошибок нет';
+        break;
+        case JSON_ERROR_DEPTH:
+            echo ' - Достигнута максимальная глубина стека';
+        break;
+        case JSON_ERROR_STATE_MISMATCH:
+            echo ' - Некорректные разряды или несоответствие режимов';
+        break;
+        case JSON_ERROR_CTRL_CHAR:
+            echo ' - Некорректный управляющий символ';
+        break;
+        case JSON_ERROR_SYNTAX:
+            echo ' - Синтаксическая ошибка, некорректный JSON';
+        break;
+        case JSON_ERROR_UTF8:
+            echo ' - Некорректные символы UTF-8, возможно неверно закодирован';
+        break;
+        default:
+            echo ' - Неизвестная ошибка';
+        break;
+    }
 
-    echo PHP_EOL;
+    echo PHP_EOL;
 }
 ?>
 ```
@@ -102,13 +102,13 @@ foreach ($json as $string) {
 
 ```php
 <?php
-// Некорректная последовательность UTF8
-$text = "\xB1\x31";
+// Некорректная последовательность UTF8
+$text = "\xB1\x31";
 
-$json  = json_encode($text);
-$error = json_last_error();
+$json  = json_encode($text);
+$error = json_last_error();
 
-var_dump($json, $error === JSON_ERROR_UTF8);
+var_dump($json, $error === JSON_ERROR_UTF8);
 ?>
 ```
 
@@ -123,14 +123,14 @@ bool(true)
 
 ```php
 <?php
-// Некорректная последовательность UTF8, вызывающая JSON_ERROR_UTF8
+// Некорректная последовательность UTF8, вызывающая JSON_ERROR_UTF8
 json_encode("\xB1\x31");
 
-// Не вызовет ошибки JSON
-json_encode('okay', JSON_THROW_ON_ERROR);
+// Не вызовет ошибки JSON
+json_encode('okay', JSON_THROW_ON_ERROR);
 
-// Глобальное состояние не будет изменено json_encode()
-var_dump(json_last_error() === JSON_ERROR_UTF8);
+// Глобальное состояние не будет изменено json_encode()
+var_dump(json_last_error() === JSON_ERROR_UTF8);
 ?>
 ```
 

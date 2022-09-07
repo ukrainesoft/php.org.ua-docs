@@ -42,25 +42,25 @@ imageistruecolor(GdImage $image): bool
 
 ```php
 <?php
-// $im - изображение
+// $im - изображение
 
-// Проверка, является ли изображение полноцветным
+// Проверка, является ли изображение полноцветным
 if(!imageistruecolor($im))
 {
-    // Создание truecolor-изображения
-    $tc = imagecreatetruecolor(imagesx($im), imagesy($im));
+    // Создание truecolor-изображения
+    $tc = imagecreatetruecolor(imagesx($im), imagesy($im));
 
-    // копирование из точки
-    imagecopy($tc, $im, 0, 0, 0, 0, imagesx($im), imagesy($im));
-    imagedestroy($im);
+    // копирование из точки
+    imagecopy($tc, $im, 0, 0, 0, 0, imagesx($im), imagesy($im));
+    imagedestroy($im);
 
-    $im = $tc;
-    $tc = NULL;
+    $im = $tc;
+    $tc = NULL;
 
-    // или используйте imagepalettetotruecolor()
+    // или используйте imagepalettetotruecolor()
 }
 
-// Continue working with image instance
+// Continue working with image instance
 ?>
 ```
 

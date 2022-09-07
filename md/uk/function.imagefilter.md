@@ -85,17 +85,17 @@ imagefilter(GdImage $image, int $filter, array|int|float|bool ...$args): bool
 
 ```php
 <?php
-$im = imagecreatefrompng('dave.png');
+$im = imagecreatefrompng('dave.png');
 
-if($im && imagefilter($im, IMG_FILTER_GRAYSCALE))
+if($im && imagefilter($im, IMG_FILTER_GRAYSCALE))
 {
-    echo 'Изображение преобразовано к градациям серого.';
+    echo 'Изображение преобразовано к градациям серого.';
 
-    imagepng($im, 'dave.png');
+    imagepng($im, 'dave.png');
 }
 else
 {
-    echo 'Преобразование не удалось.';
+    echo 'Преобразование не удалось.';
 }
 
 imagedestroy($im);
@@ -106,18 +106,18 @@ imagedestroy($im);
 
 ```php
 <?php
-$im = imagecreatefrompng('sean.png');
+$im = imagecreatefrompng('sean.png');
 
-if($im && imagefilter($im, IMG_FILTER_BRIGHTNESS, 20))
+if($im && imagefilter($im, IMG_FILTER_BRIGHTNESS, 20))
 {
-    echo 'Яркость изображения изменена.';
+    echo 'Яркость изображения изменена.';
 
-    imagepng($im, 'sean.png');
-    imagedestroy($im);
+    imagepng($im, 'sean.png');
+    imagedestroy($im);
 }
 else
 {
-    echo 'Изменить яркость не удалось.';
+    echo 'Изменить яркость не удалось.';
 }
 ?>
 ```
@@ -126,19 +126,19 @@ else
 
 ```php
 <?php
-$im = imagecreatefrompng('philip.png');
+$im = imagecreatefrompng('philip.png');
 
-/* R, G, B, so 0, 255, 0 is green */
-if($im && imagefilter($im, IMG_FILTER_COLORIZE, 0, 255, 0))
+/* R, G, B, so 0, 255, 0 is green */
+if($im && imagefilter($im, IMG_FILTER_COLORIZE, 0, 255, 0))
 {
-    echo 'Изображение преобразовано к оттенкам зеленого.';
+    echo 'Изображение преобразовано к оттенкам зеленого.';
 
-    imagepng($im, 'philip.png');
-    imagedestroy($im);
+    imagepng($im, 'philip.png');
+    imagedestroy($im);
 }
 else
 {
-    echo 'Преобразование не удалось.';
+    echo 'Преобразование не удалось.';
 }
 ?>
 ```
@@ -147,42 +147,42 @@ else
 
 ```php
 <?php
-// Определим нашу функцию, которую можно использовать в PHP
-// без imagefilter()
-function negate($im)
+// Определим нашу функцию, которую можно использовать в PHP
+// без imagefilter()
+function negate($im)
 {
-    if(function_exists('imagefilter'))
-    {
-        return imagefilter($im, IMG_FILTER_NEGATE);
-    }
+    if(function_exists('imagefilter'))
+    {
+        return imagefilter($im, IMG_FILTER_NEGATE);
+    }
 
-    for($x = 0; $x < imagesx($im); ++$x)
-    {
-        for($y = 0; $y < imagesy($im); ++$y)
-        {
-            $index = imagecolorat($im, $x, $y);
-            $rgb = imagecolorsforindex($index);
-            $color = imagecolorallocate($im, 255 - $rgb['red'], 255 - $rgb['green'], 255 - $rgb['blue']);
+    for($x = 0; $x < imagesx($im); ++$x)
+    {
+        for($y = 0; $y < imagesy($im); ++$y)
+        {
+            $index = imagecolorat($im, $x, $y);
+            $rgb = imagecolorsforindex($index);
+            $color = imagecolorallocate($im, 255 - $rgb['red'], 255 - $rgb['green'], 255 - $rgb['blue']);
 
-            imagesetpixel($im, $x, $y, $color);
-        }
-    }
+            imagesetpixel($im, $x, $y, $color);
+        }
+    }
 
-    return(true);
+    return(true);
 }
 
-$im = imagecreatefromjpeg('kalle.jpg');
+$im = imagecreatefromjpeg('kalle.jpg');
 
-if($im && negate($im))
+if($im && negate($im))
 {
-    echo 'Изображение инвертировано успешно.';
+    echo 'Изображение инвертировано успешно.';
 
-    imagejpeg($im, 'kalle.jpg', 100);
-    imagedestroy($im);
+    imagejpeg($im, 'kalle.jpg', 100);
+    imagedestroy($im);
 }
 else
 {
-    echo 'Инвертировать изображение не удалось.';
+    echo 'Инвертировать изображение не удалось.';
 }
 ?>
 ```
@@ -191,26 +191,26 @@ else
 
 ```php
 <?php
-// загрузка PHP логотипа, нам нужно 2 штуки
-// для сравнения
-$logo1 = imagecreatefrompng('./php.png');
-$logo2 = imagecreatefrompng('./php.png');
+// загрузка PHP логотипа, нам нужно 2 штуки
+// для сравнения
+$logo1 = imagecreatefrompng('./php.png');
+$logo2 = imagecreatefrompng('./php.png');
 
-// подопытный экземпляр
-$output = imagecreatetruecolor(imagesx($logo1) * 2, imagesy($logo1));
+// подопытный экземпляр
+$output = imagecreatetruecolor(imagesx($logo1) * 2, imagesy($logo1));
 
-// Применение пикселирования к каждому изображению с размером блока в 3 пиксела
-imagefilter($logo1, IMG_FILTER_PIXELATE, 3);
-imagefilter($logo2, IMG_FILTER_PIXELATE, 3, true);
+// Применение пикселирования к каждому изображению с размером блока в 3 пиксела
+imagefilter($logo1, IMG_FILTER_PIXELATE, 3);
+imagefilter($logo2, IMG_FILTER_PIXELATE, 3, true);
 
-// Совмещение различий в выходном изображении
-imagecopy($output, $logo1, 0, 0, 0, 0, imagesx($logo1) - 1, imagesy($logo1) - 1);
-imagecopy($output, $logo2, imagesx($logo2), 0, 0, 0, imagesx($logo2) - 1, imagesy($logo2) - 1);
+// Совмещение различий в выходном изображении
+imagecopy($output, $logo1, 0, 0, 0, 0, imagesx($logo1) - 1, imagesy($logo1) - 1);
+imagecopy($output, $logo2, imagesx($logo2), 0, 0, 0, imagesx($logo2) - 1, imagesy($logo2) - 1);
 imagedestroy($logo1);
 imagedestroy($logo2);
 
-// Вывод различий
-header('Content-Type: image/png');
+// Вывод различий
+header('Content-Type: image/png');
 imagepng($output);
 imagedestroy($output);
 ?>
@@ -224,14 +224,14 @@ imagedestroy($output);
 
 ```php
 <?php
-// Загрузка изображения
-$logo = imagecreatefrompng('./php.png');
+// Загрузка изображения
+$logo = imagecreatefrompng('./php.png');
 
-// Применение очень мягкого эффекта рассеивания к изображению
-imagefilter($logo, IMG_FILTER_SCATTER, 3, 5);
+// Применение очень мягкого эффекта рассеивания к изображению
+imagefilter($logo, IMG_FILTER_SCATTER, 3, 5);
 
-// Вывов изображения с эффектом рассеивания
-header('Content-Type: image/png');
+// Вывов изображения с эффектом рассеивания
+header('Content-Type: image/png');
 imagepng($logo);
 imagedestroy($logo);
 ?>

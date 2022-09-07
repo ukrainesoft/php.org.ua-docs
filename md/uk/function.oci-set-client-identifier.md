@@ -47,19 +47,19 @@ oci_set_client_identifier(resource $connection, string $client_id): bool
 ```php
 <?php
 
-// Найдём логин пользователя
+// Найдём логин пользователя
 session_start();
-$un = my_validate_session($_SESSION['username']);
-$c = oci_connect('myschema', 'welcome', 'localhost/XE');
+$un = my_validate_session($_SESSION['username']);
+$c = oci_connect('myschema', 'welcome', 'localhost/XE');
 
-// Сообщим его базе данных
-oci_set_client_identifier($c, $un);
+// Сообщим его базе данных
+oci_set_client_identifier($c, $un);
 
-// Следующий запрос к БД заодно установит идентификатор
-$s = oci_parse($c, 'select mydata from mytable');
+// Следующий запрос к БД заодно установит идентификатор
+$s = oci_parse($c, 'select mydata from mytable');
 oci_execute($s);
 
-// ...
+// ...
 
 ?>
 ```

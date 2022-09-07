@@ -37,12 +37,12 @@ fdatasync(resource $stream): bool
 ```php
 <?php
 
-$file = 'test.txt';
+$file = 'test.txt';
 
-$stream = fopen($file, 'w');
-fwrite($stream, 'тестовые данные');
-fwrite($stream, "\r\n");
-fwrite($stream, 'дополнительные данные');
+$stream = fopen($file, 'w');
+fwrite($stream, 'тестовые данные');
+fwrite($stream, "\r\n");
+fwrite($stream, 'дополнительные данные');
 
 fdatasync($stream);
 fclose($stream);

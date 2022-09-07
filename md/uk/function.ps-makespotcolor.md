@@ -40,25 +40,25 @@ ps_makespotcolor(resource $psdoc, string $name, int $reserved = 0): int
 
 ```php
 <?php
-$ps = ps_new();
-if (!ps_open_file($ps, "spotcolor.ps")) {
-  print "Не удаётся открыть файл PostScript\n";
-  exit;
+$ps = ps_new();
+if (!ps_open_file($ps, "spotcolor.ps")) {
+  print "Не удаётся открыть файл PostScript\n";
+  exit;
 }
 
-ps_set_info($ps, "Creator", "spotcolor.php");
-ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример плашечного цвета");
+ps_set_info($ps, "Creator", "spotcolor.php");
+ps_set_info($ps, "Author", "Уве Штайнманн");
+ps_set_info($ps, "Title", "Пример плашечного цвета");
 
-ps_begin_page($ps, 596, 842);
-ps_setcolor($ps, "fill", "cmyk", 0.37, 0.0, 0.34, 0.34);
-$spotcolor = ps_makespotcolor($ps, "PANTONE 5565 C", 0);
-ps_setcolor($ps, "fill", "spot", $spotcolor, 0.5, 0.0, 0.0);
-ps_moveto($ps, 100, 100);
-ps_lineto($ps, 100, 200);
-ps_lineto($ps, 200, 200);
-ps_lineto($ps, 200, 100);
-ps_lineto($ps, 100, 100);
+ps_begin_page($ps, 596, 842);
+ps_setcolor($ps, "fill", "cmyk", 0.37, 0.0, 0.34, 0.34);
+$spotcolor = ps_makespotcolor($ps, "PANTONE 5565 C", 0);
+ps_setcolor($ps, "fill", "spot", $spotcolor, 0.5, 0.0, 0.0);
+ps_moveto($ps, 100, 100);
+ps_lineto($ps, 100, 200);
+ps_lineto($ps, 200, 200);
+ps_lineto($ps, 200, 100);
+ps_lineto($ps, 100, 100);
 ps_fill($ps);
 ps_end_page($ps);
 

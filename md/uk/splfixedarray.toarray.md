@@ -34,9 +34,9 @@ public SplFixedArray::toArray(): array
 
 ```php
 <?php
-$fa = new SplFixedArray(3);
-$fa[0] = 0;
-$fa[2] = 2;
+$fa = new SplFixedArray(3);
+$fa[0] = 0;
+$fa[2] = 2;
 var_dump($fa->toArray());
 ?>
 ```

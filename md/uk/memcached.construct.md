@@ -30,14 +30,14 @@ public **Memcached::construct**(string `$persistent_id`
 
 ```php
 <?php
-/* Создаёт обычный экземпляр класса */
-$m = new Memcached();
-echo get_class($m);
+/* Создаёт обычный экземпляр класса */
+$m = new Memcached();
+echo get_class($m);
 
-/* Создаёт устойчивый экземпляр класса */
-$m2 = new Memcached('story_pool');
-$m3 = new Memcached('story_pool');
+/* Создаёт устойчивый экземпляр класса */
+$m2 = new Memcached('story_pool');
+$m3 = new Memcached('story_pool');
 
-/* Теперь объекты $m2 и $m3 используют общее соединение */
+/* Теперь объекты $m2 и $m3 используют общее соединение */
 ?>
 ```

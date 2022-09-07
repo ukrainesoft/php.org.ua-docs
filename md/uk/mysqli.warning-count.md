@@ -50,31 +50,31 @@ mysqli_warning_count(mysqli $mysql): int
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$mysqli->query("CREATE TABLE myCity LIKE City");
+$mysqli->query("CREATE TABLE myCity LIKE City");
 
-/* знаменитый город в Уэльсе */
-$query = "INSERT INTO myCity (CountryCode, Name) VALUES('GBR',
-        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";
+/* знаменитый город в Уэльсе */
+$query = "INSERT INTO myCity (CountryCode, Name) VALUES('GBR',
+        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";
 
 $mysqli->query($query);
 
-if ($mysqli->warning_count) {
-    if ($result = $mysqli->query("SHOW WARNINGS")) {
-        $row = $result->fetch_row();
-        printf("%s (%d): %s\n", $row[0], $row[1], $row[2]);
-        $result->close();
-    }
+if ($mysqli->warning_count) {
+    if ($result = $mysqli->query("SHOW WARNINGS")) {
+        $row = $result->fetch_row();
+        printf("%s (%d): %s\n", $row[0], $row[1], $row[2]);
+        $result->close();
+    }
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -83,31 +83,31 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-mysqli_query($link, "CREATE TABLE myCity LIKE City");
+mysqli_query($link, "CREATE TABLE myCity LIKE City");
 
-/* знаменитый город в Уэльсе */
-$query = "INSERT INTO myCity (CountryCode, Name) VALUES('GBR',
-        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";
+/* знаменитый город в Уэльсе */
+$query = "INSERT INTO myCity (CountryCode, Name) VALUES('GBR',
+        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";
 
-mysqli_query($link, $query);
+mysqli_query($link, $query);
 
-if (mysqli_warning_count($link)) {
-    if ($result = mysqli_query($link, "SHOW WARNINGS")) {
-        $row = mysqli_fetch_row($result);
-        printf("%s (%d): %s\n", $row[0], $row[1], $row[2]);
-        mysqli_free_result($result);
-    }
+if (mysqli_warning_count($link)) {
+    if ($result = mysqli_query($link, "SHOW WARNINGS")) {
+        $row = mysqli_fetch_row($result);
+        printf("%s (%d): %s\n", $row[0], $row[1], $row[2]);
+        mysqli_free_result($result);
+    }
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

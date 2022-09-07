@@ -15,7 +15,7 @@ imagepng — Виведення PNG зображення до браузера �
 ### Опис
 
 ```methodsynopsis
-imagepng(    GdImage $image,    resource|string|null $file = null,    int $quality = -1,    int $filters = -1): bool
+imagepng(    GdImage $image,    resource|string|null $file = null,    int $quality = -1,    int $filters = -1): bool
 ```
 
 Виводить або зберігає PNG зображення `image`
@@ -36,7 +36,7 @@ imagepng(    GdImage $image,    resource|string|null $file = null,   
 
 `quality`
 
-Ступінь стиснення: від 0 (немає стиснення) до 9. За замовчуванням (`-1`) використовується значення за промовчанням стиснення zlib. Детальніше читайте в [» руководстве по zlib](http://www.zlib.net/manual.md)
+Ступінь стиснення: від 0 (немає стиснення) до 9. За замовчуванням (`-1`) використовується значення за промовчанням стиснення zlib. Детальніше читайте в [» руководстве по zlib](http://www.zlib.net/manual.md)
 
 `filters`
 
@@ -64,9 +64,9 @@ imagepng(    GdImage $image,    resource|string|null $file = null,   
 
 ```php
 <?php
-$im = imagecreatefrompng("test.png");
+$im = imagecreatefrompng("test.png");
 
-header('Content-Type: image/png');
+header('Content-Type: image/png');
 
 imagepng($im);
 imagedestroy($im);

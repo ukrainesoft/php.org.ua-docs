@@ -54,32 +54,32 @@ fwrite(resource $stream, string $data, ?int $length = null): int|false
 
 ```php
 <?php
-$filename = 'test.txt';
-$somecontent = "Добавить это к файлу\n";
+$filename = 'test.txt';
+$somecontent = "Добавить это к файлу\n";
 
-// Вначале давайте убедимся, что файл существует и доступен для записи.
-if (is_writable($filename)) {
+// Вначале давайте убедимся, что файл существует и доступен для записи.
+if (is_writable($filename)) {
 
-    // В нашем примере мы открываем $filename в режиме "записи в конец".
-    // Таким образом, смещение установлено в конец файла и
-    // наш $somecontent допишется в конец при использовании fwrite().
-    if (!$fp = fopen($filename, 'a')) {
-         echo "Не могу открыть файл ($filename)";
-         exit;
-    }
+    // В нашем примере мы открываем $filename в режиме "записи в конец".
+    // Таким образом, смещение установлено в конец файла и
+    // наш $somecontent допишется в конец при использовании fwrite().
+    if (!$fp = fopen($filename, 'a')) {
+         echo "Не могу открыть файл ($filename)";
+         exit;
+    }
 
-    // Записываем $somecontent в наш открытый файл.
-    if (fwrite($fp, $somecontent) === FALSE) {
-        echo "Не могу произвести запись в файл ($filename)";
-        exit;
-    }
+    // Записываем $somecontent в наш открытый файл.
+    if (fwrite($fp, $somecontent) === FALSE) {
+        echo "Не могу произвести запись в файл ($filename)";
+        exit;
+    }
 
-    echo "Ура! Записали ($somecontent) в файл ($filename)";
+    echo "Ура! Записали ($somecontent) в файл ($filename)";
 
-    fclose($fp);
+    fclose($fp);
 
-} else {
-    echo "Файл $filename недоступен для записи";
+} else {
+    echo "Файл $filename недоступен для записи";
 }
 ?>
 ```
@@ -92,14 +92,14 @@ if (is_writable($filename)) {
 > 
 > ```php
 > <?php
-> function fwrite_stream($fp, $string) {
->     for ($written = 0; $written < strlen($string); $written += $fwrite) {
->         $fwrite = fwrite($fp, substr($string, $written));
->         if ($fwrite === false) {
->             return $written;
->         }
->     }
->     return $written;
+> function fwrite_stream($fp, $string) {
+>     for ($written = 0; $written < strlen($string); $written += $fwrite) {
+>         $fwrite = fwrite($fp, substr($string, $written));
+>         if ($fwrite === false) {
+>             return $written;
+>         }
+>     }
+>     return $written;
 > }
 > ?>
 > ```
@@ -118,12 +118,12 @@ if (is_writable($filename)) {
 > 
 > ```php
 > <?php
-> $fp = fopen('data.txt', 'w');
-> fwrite($fp, '1');
-> fwrite($fp, '23');
+> $fp = fopen('data.txt', 'w');
+> fwrite($fp, '1');
+> fwrite($fp, '23');
 > fclose($fp);
 > 
-> // содержимое 'data.txt' теперь 123, а не 23!
+> // содержимое 'data.txt' теперь 123, а не 23!
 > ?>
 > ```
 

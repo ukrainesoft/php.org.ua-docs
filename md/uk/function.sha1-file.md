@@ -18,7 +18,7 @@ sha1file — Повертає SHA1-хеш файлу
 sha1_file(string $filename, bool $binary = false): string|false
 ```
 
-Обчислює SHA1-хеш файлу, ім'я якого задано аргументом `filename`, використовуючи алгоритм [» US Secure Hash Algorithm 1](http://www.faqs.org/rfcs/rfc3174) і повертає цей хеш. Хеш – 40-символьне шістнадцяткове число.
+Обчислює SHA1-хеш файлу, ім'я якого задано аргументом `filename`, використовуючи алгоритм [» US Secure Hash Algorithm 1](http://www.faqs.org/rfcs/rfc3174) і повертає цей хеш. Хеш – 40-символьне шістнадцяткове число.
 
 ### Список параметрів
 
@@ -40,14 +40,14 @@ sha1_file(string $filename, bool $binary = false): string|false
 
 ```php
 <?php
-foreach(glob('/home/Kalle/myproject/*.php') as $ent)
+foreach(glob('/home/Kalle/myproject/*.php') as $ent)
 {
-    if(is_dir($ent))
-    {
-        continue;
-    }
+    if(is_dir($ent))
+    {
+        continue;
+    }
 
-    echo $ent . ' (SHA1: ' . sha1_file($ent) . ')', PHP_EOL;
+    echo $ent . ' (SHA1: ' . sha1_file($ent) . ')', PHP_EOL;
 }
 ?>
 ```

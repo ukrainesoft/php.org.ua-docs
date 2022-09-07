@@ -41,17 +41,17 @@ cubrid_lob2_import(resource $lob_identifier, string $file_name): bool
 ```php
 <?php
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
 
-cubrid_execute($conn,"DROP TABLE if exists test_lob");
-cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
+cubrid_execute($conn,"DROP TABLE if exists test_lob");
+cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
 
-$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");
-cubrid_bind($req, 1, 1);
+$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");
+cubrid_bind($req, 1, 1);
 
-$lob = cubrid_lob2_new($conn, "clob");
-cubrid_lob2_import($lob, "doc_1.txt");
-cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // или cubrid_lob2_bind($req, 2, $lob);
+$lob = cubrid_lob2_new($conn, "clob");
+cubrid_lob2_import($lob, "doc_1.txt");
+cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // или cubrid_lob2_bind($req, 2, $lob);
 
 cubrid_execute($req);
 

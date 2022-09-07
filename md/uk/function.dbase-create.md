@@ -60,18 +60,18 @@ dbase_create(string $path, array $fields, int $type = DBASE_TYPE_DBASE): resourc
 ```php
 <?php
 
-// база данных "definition"
-$def = array(
-  array("date",     "D"),
-  array("name",     "C",  50),
-  array("age",      "N",   3, 0),
-  array("email",    "C", 128),
-  array("ismember", "L")
+// база данных "definition"
+$def = array(
+  array("date",     "D"),
+  array("name",     "C",  50),
+  array("age",      "N",   3, 0),
+  array("email",    "C", 128),
+  array("ismember", "L")
 );
 
-// создаём
-if (!dbase_create('/tmp/test.dbf', $def)) {
-  echo "Ошибка, не получается создать базу данных\n";
+// создаём
+if (!dbase_create('/tmp/test.dbf', $def)) {
+  echo "Ошибка, не получается создать базу данных\n";
 }
 
 ?>

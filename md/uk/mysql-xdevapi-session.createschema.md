@@ -36,18 +36,18 @@ public mysql_xdevapi\Session::createSchema(string $schema_name): mysql_xdevapi\S
 
 ```php
 <?php
-$uri  = 'mysqlx://happyuser:password@127.0.0.1:33060/';
-$sess = mysql_xdevapi\getSession($uri);
+$uri  = 'mysqlx://happyuser:password@127.0.0.1:33060/';
+$sess = mysql_xdevapi\getSession($uri);
 
-try {
+try {
 
-    if ($schema = $sess->createSchema('fruit')) {
-        echo "Инфо: Я создал схему с именем 'fruit'\n";
-    }
+    if ($schema = $sess->createSchema('fruit')) {
+        echo "Инфо: Я создал схему с именем 'fruit'\n";
+    }
 
-} catch (Exception $e) {
+} catch (Exception $e) {
 
-   echo $e->getMessage();
+   echo $e->getMessage();
 
 }
 ?>

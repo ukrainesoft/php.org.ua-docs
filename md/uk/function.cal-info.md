@@ -43,7 +43,7 @@ cal_info(int $calendar = -1): array
 
 ```php
 <?php
-$info = cal_info(0);
+$info = cal_info(0);
 print_r($info);
 ?>
 ```

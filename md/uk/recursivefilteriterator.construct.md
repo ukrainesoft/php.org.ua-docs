@@ -30,21 +30,21 @@ public **RecursiveFilterIterator::construct**[RecursiveIterator](class.recursive
 
 ```php
 <?php
-class TestsOnlyFilter extends RecursiveFilterIterator {
-    public function accept() {
-        // текущий элемент пройдёт фильтр, если имеет дочерние элементы или
-        // его значение начинается со строки "test"
-        return $this->hasChildren() || (strpos($this->current(), "test") !== FALSE);
-    }
+class TestsOnlyFilter extends RecursiveFilterIterator {
+    public function accept() {
+        // текущий элемент пройдёт фильтр, если имеет дочерние элементы или
+        // его значение начинается со строки "test"
+        return $this->hasChildren() || (strpos($this->current(), "test") !== FALSE);
+    }
 }
 
-$array    = array("test1", array("taste2", "test3", "test4"), "test5");
-$iterator = new RecursiveArrayIterator($array);
-$filter   = new TestsOnlyFilter($iterator);
+$array    = array("test1", array("taste2", "test3", "test4"), "test5");
+$iterator = new RecursiveArrayIterator($array);
+$filter   = new TestsOnlyFilter($iterator);
 
-foreach(new RecursiveIteratorIterator($filter) as $key => $value)
+foreach(new RecursiveIteratorIterator($filter) as $key => $value)
 {
-    echo $value . "\n";
+    echo $value . "\n";
 }
 ?>
 ```
@@ -62,31 +62,31 @@ test5
 
 ```php
 <?php
-class StartsWithFilter extends RecursiveFilterIterator {
+class StartsWithFilter extends RecursiveFilterIterator {
 
-    protected $word;
+    protected $word;
 
-    public function __construct(RecursiveIterator $rit, $word) {
-        $this->word = $word;
-        parent::__construct($rit);
-    }
+    public function __construct(RecursiveIterator $rit, $word) {
+        $this->word = $word;
+        parent::__construct($rit);
+    }
 
-    public function accept() {
-        return $this->hasChildren() OR strpos($this->current(), $this->word) === 0;
-    }
+    public function accept() {
+        return $this->hasChildren() OR strpos($this->current(), $this->word) === 0;
+    }
 
-    public function getChildren() {
-        return new self($this->getInnerIterator()->getChildren(), $this->word);
-    }
+    public function getChildren() {
+        return new self($this->getInnerIterator()->getChildren(), $this->word);
+    }
 }
 
-$array    = array("test1", array("taste2", "test3", "test4"), "test5");
-$iterator = new RecursiveArrayIterator($array);
-$filter   = new StartsWithFilter($iterator, "test");
+$array    = array("test1", array("taste2", "test3", "test4"), "test5");
+$iterator = new RecursiveArrayIterator($array);
+$filter   = new StartsWithFilter($iterator, "test");
 
-foreach(new RecursiveIteratorIterator($filter) as $key => $value)
+foreach(new RecursiveIteratorIterator($filter) as $key => $value)
 {
-    echo $value . "\n";
+    echo $value . "\n";
 }
 ?>
 ```

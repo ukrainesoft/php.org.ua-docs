@@ -30,9 +30,9 @@ public **SplFileInfo::construct**(string `$filename`
 
 ```php
 <?php
-$info = new SplFileInfo('example.php');
-if ($info->isFile()) {
-    echo $info->getRealPath();
+$info = new SplFileInfo('example.php');
+if ($info->isFile()) {
+    echo $info->getRealPath();
 }
 ?>
 ```

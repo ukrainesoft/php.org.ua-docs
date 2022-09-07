@@ -16,7 +16,7 @@ Zookeeper::create — Створює синхронно вузол.
 
 ```methodsynopsis
 public
-   Zookeeper::create(    string $path,    string $value,    array $acls,    int $flags = null): string
+   Zookeeper::create(    string $path,    string $value,    array $acls,    int $flags = null): string
 ```
 
 Метод створить вузол у ZooKeeper. Вузол може бути створений тільки в тому випадку, якщо він ще не існує. Прапори створення впливають створення вузлів. Якщо встановлено прапор ZOOEPHEMERAL, вузол автоматично видаляється, якщо сеанс клієнта завершується. Якщо встановлено прапор ZOOSEQUENCE, до імені шляху додається унікальний порядковий номер, що монотонно збільшується.
@@ -59,20 +59,20 @@ public
 
 ```php
 <?php
-$zookeeper = new Zookeeper('locahost:2181');
-$aclArray = array(
-  array(
-    'perms'  => Zookeeper::PERM_ALL,
-    'scheme' => 'world',
-    'id'     => 'anyone',
-  )
+$zookeeper = new Zookeeper('locahost:2181');
+$aclArray = array(
+  array(
+    'perms'  => Zookeeper::PERM_ALL,
+    'scheme' => 'world',
+    'id'     => 'anyone',
+  )
 );
-$path = '/path/to/newnode';
-$realPath = $zookeeper->create($path, null, $aclArray);
-if ($realPath)
-  echo $realPath;
+$path = '/path/to/newnode';
+$realPath = $zookeeper->create($path, null, $aclArray);
+if ($realPath)
+  echo $realPath;
 else
-  echo 'Ошибка';
+  echo 'Ошибка';
 ?>
 ```
 

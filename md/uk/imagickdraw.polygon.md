@@ -40,32 +40,32 @@ public ImagickDraw::polygon(array $coordinates): bool
 
 ```php
 <?php
-function polygon($strokeColor, $fillColor, $backgroundColor) {
+function polygon($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setStrokeWidth(4);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setStrokeWidth(4);
 
-    $draw->setFillColor($fillColor);
+    $draw->setFillColor($fillColor);
 
-    $points = [
-        ['x' => 40 * 5, 'y' => 10 * 5],
-        ['x' => 20 * 5, 'y' => 20 * 5],
-        ['x' => 70 * 5, 'y' => 50 * 5],
-        ['x' => 60 * 5, 'y' => 15 * 5],
-    ];
+    $points = [
+        ['x' => 40 * 5, 'y' => 10 * 5],
+        ['x' => 20 * 5, 'y' => 20 * 5],
+        ['x' => 70 * 5, 'y' => 50 * 5],
+        ['x' => 60 * 5, 'y' => 15 * 5],
+    ];
 
-    $draw->polygon($points);
+    $draw->polygon($points);
 
-    $image = new \Imagick();
-    $image->newImage(500, 300, $backgroundColor);
-    $image->setImageFormat("png");
-    $image->drawImage($draw);
+    $image = new \Imagick();
+    $image->newImage(500, 300, $backgroundColor);
+    $image->setImageFormat("png");
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

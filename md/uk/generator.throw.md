@@ -38,19 +38,19 @@ public Generator::throw(Throwable $exception): mixed
 
 ```php
 <?php
-function gen() {
-    echo "Foo\n";
-    try {
-        yield;
-    } catch (Exception $e) {
-        echo "Exception: {$e->getMessage()}\n";
-    }
-    echo "Bar\n";
+function gen() {
+    echo "Foo\n";
+    try {
+        yield;
+    } catch (Exception $e) {
+        echo "Exception: {$e->getMessage()}\n";
+    }
+    echo "Bar\n";
 }
 
-$gen = gen();
+$gen = gen();
 $gen->rewind();
-$gen->throw(new Exception('Test'));
+$gen->throw(new Exception('Test'));
 ?>
 ```
 

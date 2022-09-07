@@ -47,15 +47,15 @@ oci_set_action(resource $connection, string $action): bool
 ```php
 <?php
 
-$c = oci_connect('hr', 'welcome', 'localhost/XE');
+$c = oci_connect('hr', 'welcome', 'localhost/XE');
 
-// Запись действия
-oci_set_action($c, 'Friend Lookup');
+// Запись действия
+oci_set_action($c, 'Friend Lookup');
 
-// Код, осуществляющий запрос к БД, например выборка:
-$s = oci_parse($c, 'select * from dual');
+// Код, осуществляющий запрос к БД, например выборка:
+$s = oci_parse($c, 'select * from dual');
 oci_execute($s);
-oci_fetch_all($s, $res);
+oci_fetch_all($s, $res);
 
 sleep(30);
 

@@ -36,12 +36,12 @@ getprotobyname(string $protocol): int|false
 
 ```php
 <?php
-$protocol = 'tcp';
-$get_prot = getprotobyname($protocol);
-if ($get_prot === FALSE) {
-    echo 'Протокол не найден';
-} else {
-    echo 'Протокол #' . $get_prot;
+$protocol = 'tcp';
+$get_prot = getprotobyname($protocol);
+if ($get_prot === FALSE) {
+    echo 'Протокол не найден';
+} else {
+    echo 'Протокол #' . $get_prot;
 }
 ?>
 ```

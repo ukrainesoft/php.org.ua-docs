@@ -45,32 +45,32 @@ forward_static_call_array(callable $callback, array $args): mixed
 ```php
 <?php
 
-class A
+class A
 {
-    const NAME = 'A';
-    public static function test() {
-        $args = func_get_args();
-        echo static::NAME, " ".join(',', $args)." \n";
-    }
+    const NAME = 'A';
+    public static function test() {
+        $args = func_get_args();
+        echo static::NAME, " ".join(',', $args)." \n";
+    }
 }
 
-class B extends A
+class B extends A
 {
-    const NAME = 'B';
+    const NAME = 'B';
 
-    public static function test() {
-        echo self::NAME, "\n";
-        forward_static_call_array(array('A', 'test'), array('more', 'args'));
-        forward_static_call_array( 'test', array('other', 'args'));
-    }
+    public static function test() {
+        echo self::NAME, "\n";
+        forward_static_call_array(array('A', 'test'), array('more', 'args'));
+        forward_static_call_array( 'test', array('other', 'args'));
+    }
 }
 
 B::test('foo');
 
-function test() {
-        $args = func_get_args();
-        echo "C ".join(',', $args)." \n";
-    }
+function test() {
+        $args = func_get_args();
+        echo "C ".join(',', $args)." \n";
+    }
 
 ?>
 ```

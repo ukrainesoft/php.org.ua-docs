@@ -15,7 +15,7 @@ imagecreatefromgd2part — Створення нового зображення 
 ### Опис
 
 ```methodsynopsis
-imagecreatefromgd2part(    string $filename,    int $x,    int $y,    int $width,    int $height): GdImage|false
+imagecreatefromgd2part(    string $filename,    int $x,    int $y,    int $width,    int $height): GdImage|false
 ```
 
 Створення нового зображення на основі GD2 файлу або URL.
@@ -62,20 +62,20 @@ y-координата точки вихідного зображення.
 
 ```php
 <?php
-// Для этого примера нам сначала потребуется узнать размер изображения
-$image = getimagesize('./test.gd2');
+// Для этого примера нам сначала потребуется узнать размер изображения
+$image = getimagesize('./test.gd2');
 
-// Создание изображения
-$im = imagecreatefromgd2part('./test.gd2', 4, 4, ($image[0] / 2) - 6, ($image[1] / 2) - 6);
+// Создание изображения
+$im = imagecreatefromgd2part('./test.gd2', 4, 4, ($image[0] / 2) - 6, ($image[1] / 2) - 6);
 
-// Добавим рельеф на изображение
+// Добавим рельеф на изображение
 if(function_exists('imagefilter'))
 {
-    imagefilter($im, IMG_FILTER_EMBOSS);
+    imagefilter($im, IMG_FILTER_EMBOSS);
 }
 
-// сохранение изображения
-imagegd2($im, './test_emboss.gd2');
+// сохранение изображения
+imagegd2($im, './test_emboss.gd2');
 imagedestroy($im);
 ?>
 ```

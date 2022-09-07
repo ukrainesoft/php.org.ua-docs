@@ -35,7 +35,7 @@ public SeasLog::__destruct()
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

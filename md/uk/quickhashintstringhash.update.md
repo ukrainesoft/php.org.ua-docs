@@ -40,17 +40,17 @@ public QuickHashIntStringHash::update(int $key, string $value): bool
 
 ```php
 <?php
-$hash->add( 161803398, "--" );
-$hash->add( 314159265, "множество" );
+$hash->add( 161803398, "--" );
+$hash->add( 314159265, "множество" );
 
-echo $hash->get( 161803398 ), "\n";
-echo $hash->get( 314159265 ), "\n";
+echo $hash->get( 161803398 ), "\n";
+echo $hash->get( 314159265 ), "\n";
 
-var_dump( $hash->update( 314159265, "множество плюс один" ) );
-var_dump( $hash->update( 314159999, "множество плюс один" ) );
+var_dump( $hash->update( 314159265, "множество плюс один" ) );
+var_dump( $hash->update( 314159999, "множество плюс один" ) );
 
-echo $hash->get( 161803398 ), "\n";
-echo $hash->get( 314159265 ), "\n";
+echo $hash->get( 161803398 ), "\n";
+echo $hash->get( 314159265 ), "\n";
 ?>
 ```
 

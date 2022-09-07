@@ -33,7 +33,7 @@ final public MongoDB\BSON\MinKey::__construct()
 ```php
 <?php
 
-var_dump(new MongoDB\BSON\MinKey());
+var_dump(new MongoDB\BSON\MinKey());
 
 ?>
 ```
@@ -47,4 +47,4 @@ object(MongoDB\BSON\MinKey)#1 (0) {
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

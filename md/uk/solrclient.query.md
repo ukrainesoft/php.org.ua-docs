@@ -43,17 +43,17 @@ public SolrClient::query(SolrParams $query): SolrQueryResponse
 ```php
 <?php
 
-$options = array
+$options = array
 (
-    'hostname' => 'localhost',
-    'login'    => 'username',
-    'password' => 'password',
-    'port'     => '8983',
+    'hostname' => 'localhost',
+    'login'    => 'username',
+    'password' => 'password',
+    'port'     => '8983',
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery();
+$query = new SolrQuery();
 
 $query->setQuery('lucene');
 
@@ -63,9 +63,9 @@ $query->setRows(50);
 
 $query->addField('cat')->addField('features')->addField('id')->addField('timestamp');
 
-$query_response = $client->query($query);
+$query_response = $client->query($query);
 
-$response = $query_response->getResponse();
+$response = $query_response->getResponse();
 
 print_r($response);
 

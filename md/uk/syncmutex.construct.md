@@ -44,16 +44,16 @@ public SyncMutex::__construct(string $name = ?)
 
 ```php
 <?php
-$mutex = new SyncMutex("UniqueName");
+$mutex = new SyncMutex("UniqueName");
 
-if (!$mutex->lock(3000))
+if (!$mutex->lock(3000))
 {
-    echo "Невозможно создать мьютеккс.";
+    echo "Невозможно создать мьютеккс.";
 
-    exit();
+    exit();
 }
 
-/* ... */
+/* ... */
 
 $mutex->unlock();
 ?>
@@ -63,11 +63,11 @@ $mutex->unlock();
 
 ```php
 <?php
-$mutex = new SyncMutex();
+$mutex = new SyncMutex();
 
 $mutex->lock();
 
-/* ... */
+/* ... */
 
 $mutex->unlock();
 ?>

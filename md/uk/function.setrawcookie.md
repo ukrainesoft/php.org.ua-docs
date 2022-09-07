@@ -15,7 +15,7 @@ setrawcookie — Надсилає cookie без URL-кодування знач�
 ### Опис
 
 ```methodsynopsis
-setrawcookie(    string $name,    string $value = ?,    int $expires_or_options = 0,    string $path = ?,    string $domain = ?,    bool $secure = false,    bool $httponly = false): bool
+setrawcookie(    string $name,    string $value = ?,    int $expires_or_options = 0,    string $path = ?,    string $domain = ?,    bool $secure = false,    bool $httponly = false): bool
 ```
 
 Альтернативна сигнатура доступна з PHP 7.3.0 (іменовані параметри не підтримуються):

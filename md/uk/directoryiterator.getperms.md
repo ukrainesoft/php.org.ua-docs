@@ -34,12 +34,12 @@ public DirectoryIterator::getPerms(): int
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-foreach ($iterator as $fileinfo) {
-    if (!$fileinfo->isDot()) {
-        $octal_perms = substr(sprintf('%o', $fileinfo->getPerms()), -4);
-        echo $fileinfo->getFilename() . " " . $octal_perms . "\n";
-    }
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if (!$fileinfo->isDot()) {
+        $octal_perms = substr(sprintf('%o', $fileinfo->getPerms()), -4);
+        echo $fileinfo->getFilename() . " " . $octal_perms . "\n";
+    }
 }
 ?>
 ```

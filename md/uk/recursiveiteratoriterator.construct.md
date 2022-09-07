@@ -42,32 +42,32 @@ public **RecursiveIteratorIterator::construct**[Traversable](class.traversable.m
 
 ```php
 <?php
-$array = array(
-    array(
-        array(
-            array(
-                'leaf-0-0-0-0',
-                'leaf-0-0-0-1'
-            ),
-            'leaf-0-0-0'
-        ),
-        array(
-            array(
-                'leaf-0-1-0-0',
-                'leaf-0-1-0-1'
-            ),
-            'leaf-0-1-0'
-        ),
-        'leaf-0-0'
-    )
+$array = array(
+    array(
+        array(
+            array(
+                'leaf-0-0-0-0',
+                'leaf-0-0-0-1'
+            ),
+            'leaf-0-0-0'
+        ),
+        array(
+            array(
+                'leaf-0-1-0-0',
+                'leaf-0-1-0-1'
+            ),
+            'leaf-0-1-0'
+        ),
+        'leaf-0-0'
+    )
 );
 
-$iterator = new RecursiveIteratorIterator(
-    new RecursiveArrayIterator($array),
-    $mode
+$iterator = new RecursiveIteratorIterator(
+    new RecursiveArrayIterator($array),
+    $mode
 );
-foreach ($iterator as $key => $leaf) {
-    echo "$key => $leaf", PHP_EOL;
+foreach ($iterator as $key => $leaf) {
+    echo "$key => $leaf", PHP_EOL;
 }
 ?>
 ```

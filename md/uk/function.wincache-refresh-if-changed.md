@@ -38,10 +38,10 @@ WinCache виконує регулярні перевірки закешован
 
 ```php
 <?php
-$filename = 'C:\inetpub\wwwroot\config.php';
-$handle = fopen($filename, 'w+');
-if ($handle === FALSE) die('Failed to open file '.$filename.' for writing');
-fwrite($handle, '<?php $setting=something; ?>');
+$filename = 'C:\inetpub\wwwroot\config.php';
+$handle = fopen($filename, 'w+');
+if ($handle === FALSE) die('Failed to open file '.$filename.' for writing');
+fwrite($handle, '<?php $setting=something; ?>');
 fclose($handle);
 wincache_refresh_if_changed(array($filename));
 ?>

@@ -44,14 +44,14 @@ natsort(array &$array): bool
 
 ```php
 <?php
-$array1 = $array2 = array("img12.png", "img10.png", "img2.png", "img1.png");
+$array1 = $array2 = array("img12.png", "img10.png", "img2.png", "img1.png");
 
 asort($array1);
-echo "Обычная сортировка\n";
+echo "Обычная сортировка\n";
 print_r($array1);
 
 natsort($array2);
-echo "\nСортировка natural order\n";
+echo "\nСортировка natural order\n";
 print_r($array2);
 ?>
 ```
@@ -78,20 +78,20 @@ Array
 )
 ```
 
-Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
+Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 **Приклад #2 Приклади використання різних трюків з **нацорт()****
 
 ```php
 <?php
-echo "Отрицательные числа\n";
-$negative = array('-5','3','-2','0','-1000','9','1');
+echo "Отрицательные числа\n";
+$negative = array('-5','3','-2','0','-1000','9','1');
 print_r($negative);
 natsort($negative);
 print_r($negative);
 
-echo "Отбивка нулями\n";
-$zeros = array('09', '8', '10', '009', '011', '0');
+echo "Отбивка нулями\n";
+$zeros = array('09', '8', '10', '009', '011', '0');
 print_r($zeros);
 natsort($zeros);
 print_r($zeros);

@@ -31,7 +31,7 @@ private **mysqlxdevapiExecutionStatus::construct**
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

@@ -55,21 +55,21 @@ string `$reverse`
 
 ```php
 <?php
-   /**
-    * Добавить маршрут регулярного выражения в стек маршрута Yaf_Router Yaf_Router
-    */
-    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
-        new Yaf_Route_Regex(
-           "#^/product/([^/]+)/([^/])+#", // совпадение с URI запроса, начинающегося с "/product"
-           array(
-               'controller' => "product",  // маршрут на контроллер product,
-           ),
-           array(
-              1 => "name",   // теперь вы можете вызвать $request->getParam("name")
-              2 => "id",     // для получения первого совпадения в шаблоне.
-           )
-        )
-    );
+   /**
+    * Добавить маршрут регулярного выражения в стек маршрута Yaf_Router Yaf_Router
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
+        new Yaf_Route_Regex(
+           "#^/product/([^/]+)/([^/])+#", // совпадение с URI запроса, начинающегося с "/product"
+           array(
+               'controller' => "product",  // маршрут на контроллер product,
+           ),
+           array(
+              1 => "name",   // теперь вы можете вызвать $request->getParam("name")
+              2 => "id",     // для получения первого совпадения в шаблоне.
+           )
+        )
+    );
 ?>
 ```
 
@@ -77,21 +77,21 @@ string `$reverse`
 
 ```php
 <?php
-   /**
-    * Использовать результат совпадения в качестве имени MVC
-    */
-    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
-        new Yaf_Route_Regex(
-           "#^/product/([^/]+)/([^/])+#i", // совпадение с URI запроса, начинающегося с "/product"
-           array(
-              'controller' => ":name", // маршрут на :name, которому соответствует $1 в результате совпадения как имя контроллера
-           ),
-           array(
-              1 => "name",   // теперь вы можете вызвать $request->getParam("name")
-              2 => "id",     // для получения первого совпадения в шаблоне.
-           )
-        )
-    );
+   /**
+    * Использовать результат совпадения в качестве имени MVC
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
+        new Yaf_Route_Regex(
+           "#^/product/([^/]+)/([^/])+#i", // совпадение с URI запроса, начинающегося с "/product"
+           array(
+              'controller' => ":name", // маршрут на :name, которому соответствует $1 в результате совпадения как имя контроллера
+           ),
+           array(
+              1 => "name",   // теперь вы можете вызвать $request->getParam("name")
+              2 => "id",     // для получения первого совпадения в шаблоне.
+           )
+        )
+    );
 ?>
 ```
 
@@ -99,21 +99,21 @@ string `$reverse`
 
 ```php
 <?php
-   /**
-    * Использовать результат совпадения в качестве имени MVC
-    */
-    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
-        new Yaf_Route_Regex(
-           "#^/product/(?<name>[^/]+)/([^/])+#i", //match request uri leading "/product"
-           array(
-           'controller' => ":name", // маршрут на :name,
-                                    // который называется именем группы совпадения 'name' в результате совпадения как имя контроллера
-           ),
-           array(
-              2 => "id",     // для получения первого совпадения в шаблоне.
-           )
-        )
-    );
+   /**
+    * Использовать результат совпадения в качестве имени MVC
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
+        new Yaf_Route_Regex(
+           "#^/product/(?<name>[^/]+)/([^/])+#i", //match request uri leading "/product"
+           array(
+           'controller' => ":name", // маршрут на :name,
+                                    // который называется именем группы совпадения 'name' в результате совпадения как имя контроллера
+           ),
+           array(
+              2 => "id",     // для получения первого совпадения в шаблоне.
+           )
+        )
+    );
 ?>
 ```
 
@@ -121,24 +121,24 @@ string `$reverse`
 
 ```php
 <?php
-   /**
-    * Добавить маршрут регулярного выражения в стек маршрута Yaf_Router, вызвав addconfig
-    */
-    $config = array(
-        "name" => array(
-           "type"  => "regex",          // маршрут Yaf_Route_Regex
-           "match" => "#(.*)#",         // совпадение с произвольным запросом URI
-           "route" => array(
-               'controller' => "product",  // маршрут на контроллер product,
-               'action'     => "dummy",    // маршрут на действие dummy
-           ),
-           "map" => array(
-              1 => "uri",   // теперь вы можете вызвать $request->getParam("uri")
-           ),
-        ),
-    );
-    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
-        new Yaf_Config_Simple($config));
+   /**
+    * Добавить маршрут регулярного выражения в стек маршрута Yaf_Router, вызвав addconfig
+    */
+    $config = array(
+        "name" => array(
+           "type"  => "regex",          // маршрут Yaf_Route_Regex
+           "match" => "#(.*)#",         // совпадение с произвольным запросом URI
+           "route" => array(
+               'controller' => "product",  // маршрут на контроллер product,
+               'action'     => "dummy",    // маршрут на действие dummy
+           ),
+           "map" => array(
+              1 => "uri",   // теперь вы можете вызвать $request->getParam("uri")
+           ),
+        ),
+    );
+    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
+        new Yaf_Config_Simple($config));
 ?>
 ```
 

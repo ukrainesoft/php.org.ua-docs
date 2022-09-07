@@ -54,20 +54,20 @@ debug_backtrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJECT, int $limit = 0): 
 
 ```php
 <?php
-// файл /tmp/a.php
+// файл /tmp/a.php
 
-function a_test($str)
+function a_test($str)
 {
-    echo "\nПривет, $str";
-    var_dump(debug_backtrace());
+    echo "\nПривет, $str";
+    var_dump(debug_backtrace());
 }
 
 a_test('друг');
 ?>
 
 <?php
-// файл /tmp/b.php
-include_once '/tmp/a.php';
+// файл /tmp/b.php
+include_once '/tmp/a.php';
 ?>
 ```
 

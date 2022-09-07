@@ -15,7 +15,7 @@ db2tableprivileges — Повертає набір результатів, у я
 ### Опис
 
 ```methodsynopsis
-db2_table_privileges(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table_name = ?): resource
+db2_table_privileges(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table_name = ?): resource
 ```
 
 Повертає набір результатів, у якому перераховані таблиці та пов'язані з ними права доступу до бази даних.

@@ -15,7 +15,7 @@ title: пгcopyfrom
 ### Опис
 
 ```methodsynopsis
-pg_copy_from(    PgSql\Connection $connection,    string $table_name,    array $rows,    string $separator = "\t",    string $null_as = "\\\\N"): bool
+pg_copy_from(    PgSql\Connection $connection,    string $table_name,    array $rows,    string $separator = "\t",    string $null_as = "\\\\N"): bool
 ```
 
 **пгcopyfrom()** вставляє записи в таблицю з масиву `rows`. У ході виконання викликає SQL-команду `COPY FROM` для вставлення записів.
@@ -58,13 +58,13 @@ pg_copy_from(    PgSql\Connection $connection,    string $table_name, �
 
 ```php
 <?php
-   $db = pg_connect("dbname=publisher") or die("Не удалось подключиться");
+   $db = pg_connect("dbname=publisher") or die("Не удалось подключиться");
 
-   $rows = pg_copy_to($db, $table_name);
+   $rows = pg_copy_to($db, $table_name);
 
-   pg_query($db, "DELETE FROM $table_name");
+   pg_query($db, "DELETE FROM $table_name");
 
-   pg_copy_from($db, $table_name, $rows);
+   pg_copy_from($db, $table_name, $rows);
 ?>
 ```
 

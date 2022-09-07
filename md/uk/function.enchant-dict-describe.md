@@ -45,12 +45,12 @@ enchant_dict_describe(EnchantDictionary $dictionary): array
 
 ```php
 <?php
-$tag = 'en_US';
-$broker = enchant_broker_init();
-if (enchant_broker_dict_exists($broker,$tag)) {
-    $dict = enchant_broker_request_dict($r, $tag);
-    $dict_details = enchant_dict_describe($dict);
-    print_r($dict_details);
+$tag = 'en_US';
+$broker = enchant_broker_init();
+if (enchant_broker_dict_exists($broker,$tag)) {
+    $dict = enchant_broker_request_dict($r, $tag);
+    $dict_details = enchant_dict_describe($dict);
+    print_r($dict_details);
 }
 ?>
 ```

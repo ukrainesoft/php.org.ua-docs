@@ -41,7 +41,7 @@ sqlsrv_field_metadata(resource $stmt): mixed
 | Scale | Масштаб для типів масштабованих типів даних, **`null`** для інших типів. |
 | Nullable | Перелік, що вказує, чи стовпець допускає значення NULL, неприпустиме значення NULL або невідоме. |
 
-Для отримання додаткової інформації дивіться [» sqlsrvfieldmetadata](http://msdn.microsoft.com/en-us/library/cc296197.aspx) у документації Microsoft SQLSRV.
+Для отримання додаткової інформації дивіться [» sqlsrvfieldmetadata](http://msdn.microsoft.com/en-us/library/cc296197.aspx) у документації Microsoft SQLSRV.
 
 ### Приклади
 
@@ -49,21 +49,21 @@ sqlsrv_field_metadata(resource $stmt): mixed
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"AdventureWorks", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-   die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"AdventureWorks", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+   die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "SELECT * FROM Table_1";
-$stmt = sqlsrv_prepare( $conn, $sql );
+$sql = "SELECT * FROM Table_1";
+$stmt = sqlsrv_prepare( $conn, $sql );
 
-foreach( sqlsrv_field_metadata( $stmt ) as $fieldMetadata ) {
-    foreach( $fieldMetadata as $name => $value) {
-       echo "$name: $value<br />";
-    }
-      echo "<br />";
+foreach( sqlsrv_field_metadata( $stmt ) as $fieldMetadata ) {
+    foreach( $fieldMetadata as $name => $value) {
+       echo "$name: $value<br />";
+    }
+      echo "<br />";
 }
 ?>
 ```

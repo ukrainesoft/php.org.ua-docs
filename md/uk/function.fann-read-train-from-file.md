@@ -40,9 +40,9 @@ numtraindata numinput numoutput вхідні дані, розділені про
 
 ```php
 <?php
-$train_data = fann_read_train_from_file("xor.data");
-if ($train_data) {
-    // Сделайте что-нибудь с $train_data для функции XOR
+$train_data = fann_read_train_from_file("xor.data");
+if ($train_data) {
+    // Сделайте что-нибудь с $train_data для функции XOR
 }
 ?>
 ```

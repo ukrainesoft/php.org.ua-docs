@@ -50,9 +50,9 @@ bzwrite(resource $bz, string $data, ?int $length = null): int|false
 
 ```php
 <?php
-$str = "uncompressed data";
-$bz = bzopen("/tmp/foo.bz2", "w");
-bzwrite($bz, $str, strlen($str));
+$str = "uncompressed data";
+$bz = bzopen("/tmp/foo.bz2", "w");
+bzwrite($bz, $str, strlen($str));
 bzclose($bz);
 ?>
 ```

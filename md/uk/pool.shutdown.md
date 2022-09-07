@@ -34,19 +34,19 @@ public Pool::shutdown(): void
 
 ```php
 <?php
-class Task extends Threaded
+class Task extends Threaded
 {
-    public function run()
-    {
-        usleep(500000);
-    }
+    public function run()
+    {
+        usleep(500000);
+    }
 }
 
-$pool = new Pool(4);
+$pool = new Pool(4);
 
-for ($i = 0; $i < 10; ++$i) {
-    $pool->submit(new Task());
+for ($i = 0; $i < 10; ++$i) {
+    $pool->submit(new Task());
 }
 
-$pool->shutdown(); // пока все отправленные задачи не завершат выполнение
+$pool->shutdown(); // пока все отправленные задачи не завершат выполнение
 ```

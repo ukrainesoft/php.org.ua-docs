@@ -38,25 +38,25 @@ cubrid_ping(resource $conn_identifier = ?): bool
 <?php
 set_time_limit(0);
 
-$conn = cubrid_connect('localhost', 33000, 'demodb');
+$conn = cubrid_connect('localhost', 33000, 'demodb');
 
-/* Предположим, что это ну очень длинный запрос */
-$sql = "select * from athlete";
-$result = cubrid_query($sql);
-if (!$result) {
-    echo 'Запрос #1 завершился с ошибкой, выходим.';
-    exit;
+/* Предположим, что это ну очень длинный запрос */
+$sql = "select * from athlete";
+$result = cubrid_query($sql);
+if (!$result) {
+    echo 'Запрос #1 завершился с ошибкой, выходим.';
+    exit;
 }
 
-/* Проверяем, живо ли ещё соединение и пересоздаем его, если нет */
-if (!cubrid_ping($conn)) {
-    echo 'Потеряно соединение, выходим после запроса #1';
-    exit;
+/* Проверяем, живо ли ещё соединение и пересоздаем его, если нет */
+if (!cubrid_ping($conn)) {
+    echo 'Потеряно соединение, выходим после запроса #1';
+    exit;
 }
 cubrid_free_result($result);
 
-/* Так так, соединение работает. Тогда ещё один запрос! */
-$sql2 = "select * from code";
-$result2 = cubrid_query($sql2);
+/* Так так, соединение работает. Тогда ещё один запрос! */
+$sql2 = "select * from code";
+$result2 = cubrid_query($sql2);
 ?>
 ```

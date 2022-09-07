@@ -56,7 +56,7 @@ URI ресурс для виведення.
 
 ```php
 <?php
-$out =new XMLWriter();
+$out =new XMLWriter();
 $out->openURI('php://output');
 ?>
 ```

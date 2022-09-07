@@ -34,11 +34,11 @@ public Imagick::blueShiftImage(float $factor = 1.5): bool
 
 ```php
 <?php
-function blueShiftImage($imagePath, $blueShift) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->blueShiftImage($blueShift);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function blueShiftImage($imagePath, $blueShift) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->blueShiftImage($blueShift);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

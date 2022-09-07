@@ -43,7 +43,7 @@ ob_end_clean(): bool
 ```php
 <?php
 ob_start();
-echo 'Текст, который не отобразится.';
+echo 'Текст, который не отобразится.';
 ob_end_clean();
 ?>
 ```

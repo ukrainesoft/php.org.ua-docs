@@ -48,13 +48,13 @@ uopz_get_property(object $instance, string $property): mixed
 
 ```php
 <?php
-class Foo {
-    private static $staticBar = 10;
-    private $bar = 100;
+class Foo {
+    private static $staticBar = 10;
+    private $bar = 100;
 }
-$foo = new Foo;
-var_dump(uopz_get_property('Foo', 'staticBar'));
-var_dump(uopz_get_property($foo, 'bar'));
+$foo = new Foo;
+var_dump(uopz_get_property('Foo', 'staticBar'));
+var_dump(uopz_get_property($foo, 'bar'));
 ?>
 ```
 

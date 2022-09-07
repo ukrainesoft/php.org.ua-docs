@@ -47,10 +47,10 @@ grapheme_strstr(string $haystack, string $needle, bool $beforeNeedle = false): s
 ```php
 <?php
 
-$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
-$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
+$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
+$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
 
-print urlencode(grapheme_stristr( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_a_ring_nfd, $char_o_diaeresis_nfd));
+print urlencode(grapheme_stristr( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_a_ring_nfd, $char_o_diaeresis_nfd));
 
 ?>
 ```
@@ -68,4 +68,4 @@ o%CC%88a%CC%8A
 -   [graphemestrpos()](function.grapheme-strpos.md) - знаходить позицію (в одиницях графеми) першого входження рядка
 -   [graphemestrripos()](function.grapheme-strripos.md) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
 -   [graphemestrrpos()](function.grapheme-strrpos.md) - знаходить позицію (в одиницях графеми) останнього входження рядка
--   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

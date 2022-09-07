@@ -40,12 +40,12 @@ public Ds\Vector::find(mixed $value): mixed
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", 1, true]);
+$vector = new \Ds\Vector(["a", 1, true]);
 
-var_dump($vector->find("a")); // 0
-var_dump($vector->find("b")); // false
-var_dump($vector->find("1")); // false
-var_dump($vector->find(1));   // 1
+var_dump($vector->find("a")); // 0
+var_dump($vector->find("b")); // false
+var_dump($vector->find("1")); // false
+var_dump($vector->find(1));   // 1
 ?>
 ```
 

@@ -15,7 +15,7 @@ Imagick::getImageRegion — Витягує область зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::getImageRegion(    int $width,    int $height,    int $x,    int $y): Imagick
+public Imagick::getImageRegion(    int $width,    int $height,    int $x,    int $y): Imagick
 ```
 
 Витягує область зображення та повертає її у вигляді нового об'єкта Imagick.

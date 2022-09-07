@@ -53,10 +53,10 @@ oci_error(?resource $connection_or_statement = null): array|false
 
 ```php
 <?php
-$conn = oci_connect("hr", "welcome", "localhost/XE");
-if (!$conn) {
-    $e = oci_error();   // Для обработки ошибок oci_connect
-    trigger_error(htmlentities($e['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "welcome", "localhost/XE");
+if (!$conn) {
+    $e = oci_error();   // Для обработки ошибок oci_connect
+    trigger_error(htmlentities($e['message']), E_USER_ERROR);
 }
 ?>
 ```
@@ -65,10 +65,10 @@ if (!$conn) {
 
 ```php
 <?php
-$stid = oci_parse($conn, "select ' from dual");  // пропущенные кавычки
-if (!$stid) {
-    $e = oci_error($conn);  // Для обработки ошибок oci_parse
-    trigger_error(htmlentities($e['message']), E_USER_ERROR);
+$stid = oci_parse($conn, "select ' from dual");  // пропущенные кавычки
+if (!$stid) {
+    $e = oci_error($conn);  // Для обработки ошибок oci_parse
+    trigger_error(htmlentities($e['message']), E_USER_ERROR);
 }
 ?>
 ```
@@ -77,15 +77,15 @@ if (!$stid) {
 
 ```php
 <?php
-$stid = oci_parse($conn, "select does_not_exist from dual");
-$r = oci_execute($stid);
-if (!$r) {
-    $e = oci_error($stid);  // Для обработки ошибок oci_execute
-    print htmlentities($e['message']);
-    print "\n<pre>\n";
-    print htmlentities($e['sqltext']);
-    printf("\n%".($e['offset']+1)."s", "^");
-    print  "\n</pre>\n";
+$stid = oci_parse($conn, "select does_not_exist from dual");
+$r = oci_execute($stid);
+if (!$r) {
+    $e = oci_error($stid);  // Для обработки ошибок oci_execute
+    print htmlentities($e['message']);
+    print "\n<pre>\n";
+    print htmlentities($e['sqltext']);
+    printf("\n%".($e['offset']+1)."s", "^");
+    print  "\n</pre>\n";
 }
 ?>
 ```

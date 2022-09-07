@@ -46,7 +46,7 @@ locale_get_script(string $locale): ?string
 
 ```php
 <?php
-echo locale_get_script('sr-Cyrl');
+echo locale_get_script('sr-Cyrl');
 ?>
 ```
 
@@ -54,7 +54,7 @@ echo locale_get_script('sr-Cyrl');
 
 ```php
 <?php
-echo Locale::getScript('sr-Cyrl');
+echo Locale::getScript('sr-Cyrl');
 ?>
 ```
 

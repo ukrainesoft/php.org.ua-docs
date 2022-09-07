@@ -46,7 +46,7 @@ PDOMYSQL за умовчанням використовує емульовану
 $ ./configure --with-pdo-mysql --with-mysql-sock=/var/mysql/mysql.sock
 ```
 
-Підтримка SSL вмикається, використовуючи відповідну [константу PDOMySQL](ref.pdo-mysql.md#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функції mysqlsslset() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.md). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.md)
+Підтримка SSL вмикається, використовуючи відповідну [константу PDOMySQL](ref.pdo-mysql.md#pdo-mysql.constants), яка еквівалентна виклику [» API MySQL-функції mysqlsslset() в C](http://dev.mysql.com/doc/mysql/en/mysql-ssl-set.md). До того ж, SSL не може бути включений за допомогою **PDO::setAttribute**тому, що з'єднання вже існує. Дивіться документацію MySQL про [» підключення до MySQL з SSL](https://dev.mysql.com/doc/en/using-encrypted-connections.md)
 
 ## Обумовлені константи
 
@@ -60,11 +60,11 @@ $ ./configure --with-pdo-mysql --with-mysql-sock=/var/mysql/mysql.sock
 
 ```php
 <?php
-if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
-    $stmt = $db->prepare('select * from foo',
-        array(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true));
-} else {
-    die("приложение работает только с mysql; Следует использовать \$stmt->fetchAll() вместо этого");
+if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
+    $stmt = $db->prepare('select * from foo',
+        array(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true));
+} else {
+    die("приложение работает только с mysql; Следует использовать \$stmt->fetchAll() вместо этого");
 }
 ?>
 ```

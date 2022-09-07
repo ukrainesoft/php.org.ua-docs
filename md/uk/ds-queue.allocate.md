@@ -48,7 +48,7 @@ public Ds\Queue::allocate(int $capacity): void
 
 ```php
 <?php
-$queue = new \Ds\Queue();
+$queue = new \Ds\Queue();
 var_dump($queue->capacity());
 
 $queue->allocate(100);

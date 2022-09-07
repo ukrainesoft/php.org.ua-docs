@@ -10,7 +10,7 @@ title: Функції COM
 
 ## Дивіться також
 
-Для отримання подальшої інформації про COM прочитайте [» Спецификацию COM](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal). Ви можете знайти додаткову інформацію у нашому FAQ [PHP и COM](faq.com.md). Якщо ви хочете використовувати програму MS Office на стороні сервера, необхідно прочитати подану тут інформацію: [» Использование MS Office на стороне сервера](http://support.microsoft.com/kb/257757)
+Для отримання подальшої інформації про COM прочитайте [» Спецификацию COM](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal). Ви можете знайти додаткову інформацію у нашому FAQ [PHP и COM](faq.com.md). Якщо ви хочете використовувати програму MS Office на стороні сервера, необхідно прочитати подану тут інформацію: [» Использование MS Office на стороне сервера](http://support.microsoft.com/kb/257757)
 
 ## Зміст
 

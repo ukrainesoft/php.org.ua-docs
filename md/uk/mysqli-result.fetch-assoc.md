@@ -55,16 +55,16 @@ mysqli_fetch_assoc(mysqli_result $result): array|null|false
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
+$query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
 
-$result = $mysqli->query($query);
+$result = $mysqli->query($query);
 
-/* извлечение ассоциативного Масива */
-while ($row = $result->fetch_assoc()) {
-    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+/* извлечение ассоциативного Масива */
+while ($row = $result->fetch_assoc()) {
+    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 }
 ```
 
@@ -73,16 +73,16 @@ while ($row = $result->fetch_assoc()) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
+$query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
 
-$result = mysqli_query($mysqli, $query);
+$result = mysqli_query($mysqli, $query);
 
-/* извлечение ассоциативного Масива */
-while ($row = mysqli_fetch_assoc($result)) {
-    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+/* извлечение ассоциативного Масива */
+while ($row = mysqli_fetch_assoc($result)) {
+    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 }
 ```
 
@@ -103,23 +103,23 @@ Santa Clara (USA)
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = 'SELECT Name, CountryCode FROM City ORDER BY ID DESC';
+$query = 'SELECT Name, CountryCode FROM City ORDER BY ID DESC';
 
-// Используем итераторы
-$result = $mysqli->query($query);
-foreach ($result as $row) {
-    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+// Используем итераторы
+$result = $mysqli->query($query);
+foreach ($result as $row) {
+    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 }
 
-echo "\n==================\n";
+echo "\n==================\n";
 
-// Не используем итераторы
-$result = $mysqli->query($query);
-while ($row = $result->fetch_assoc()) {
-    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+// Не используем итераторы
+$result = $mysqli->query($query);
+while ($row = $result->fetch_assoc()) {
+    printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 }
 ```
 

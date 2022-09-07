@@ -28,11 +28,11 @@ title: Клас SwooleAsync
     /* Методы */
     
    public static dnsLookup(string $hostname, callable $callback): void
-public static read(    string $filename,    callable $callback,    int $chunk_size = ?,    int $offset = ?): bool
+public static read(    string $filename,    callable $callback,    int $chunk_size = ?,    int $offset = ?): bool
 public static readFile(string $filename, callable $callback): void
 public static set(array $settings): void
-public static write(    string $filename,    string $content,    int $offset = ?,    callable $callback = ?): void
-public static writeFile(    string $filename,    string $content,    callable $callback = ?,    string $flags = ?): void
+public static write(    string $filename,    string $content,    int $offset = ?,    callable $callback = ?): void
+public static writeFile(    string $filename,    string $content,    callable $callback = ?,    string $flags = ?): void
 
    }
 ```

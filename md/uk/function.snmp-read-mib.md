@@ -39,10 +39,10 @@ snmp_read_mib(string $filename): bool
 ```php
 <?php
 
-print_r( snmprealwalk('localhost', 'public', '.1.3.6.1.2.1.2.3.4.5') );
+print_r( snmprealwalk('localhost', 'public', '.1.3.6.1.2.1.2.3.4.5') );
 
 snmp_read_mib('./FOO-BAR-MIB.txt');
-print_r( snmprealwalk('localhost', 'public', 'FOO-BAR-MIB::someTable') );
+print_r( snmprealwalk('localhost', 'public', 'FOO-BAR-MIB::someTable') );
 ?>
 ```
 

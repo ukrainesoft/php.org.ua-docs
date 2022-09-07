@@ -15,7 +15,7 @@ streamfilterprepend — Прикріплює фільтр до потоку
 ### Опис
 
 ```methodsynopsis
-stream_filter_prepend(    resource $stream,    string $filtername,    int $read_write = ?,    mixed $params = ?): resource
+stream_filter_prepend(    resource $stream,    string $filtername,    int $read_write = ?,    mixed $params = ?): resource
 ```
 
 Додає `filtername` до списку фільтрів, прикріплених до стелі `stream`

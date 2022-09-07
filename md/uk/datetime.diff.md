@@ -66,10 +66,10 @@ date_diff(DateTimeInterface $baseObject, DateTimeInterface $targetObject, bool $
 
 ```php
 <?php
-$origin = new DateTimeImmutable('2009-10-11');
-$target = new DateTimeImmutable('2009-10-13');
-$interval = $origin->diff($target);
-echo $interval->format('%R%a дней');
+$origin = new DateTimeImmutable('2009-10-11');
+$target = new DateTimeImmutable('2009-10-13');
+$interval = $origin->diff($target);
+echo $interval->format('%R%a дней');
 ?>
 ```
 
@@ -77,10 +77,10 @@ echo $interval->format('%R%a дней');
 
 ```php
 <?php
-$origin = date_create('2009-10-11');
-$target = date_create('2009-10-13');
-$interval = date_diff($origin, $target);
-echo $interval->format('%R%a дней');
+$origin = date_create('2009-10-11');
+$target = date_create('2009-10-13');
+$interval = date_diff($origin, $target);
+echo $interval->format('%R%a дней');
 ?>
 ```
 
@@ -98,12 +98,12 @@ echo $interval->format('%R%a дней');
 
 ```php
 <?php
-$date1 = new DateTime("now");
-$date2 = new DateTime("tomorrow");
+$date1 = new DateTime("now");
+$date2 = new DateTime("tomorrow");
 
-var_dump($date1 == $date2);
-var_dump($date1 < $date2);
-var_dump($date1 > $date2);
+var_dump($date1 == $date2);
+var_dump($date1 < $date2);
+var_dump($date1 > $date2);
 ?>
 ```
 

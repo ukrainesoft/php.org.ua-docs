@@ -48,38 +48,38 @@ public SoapServer::setPersistence(int $mode): void
 
 ```php
 <?php
- class MyFirstPersistentSoapServer {
-     private $resource; // (Такие как PDO, mysqli и т.д.)
-     public $myvar1;
-     public $myvar2;
+ class MyFirstPersistentSoapServer {
+     private $resource; // (Такие как PDO, mysqli и т.д.)
+     public $myvar1;
+     public $myvar2;
 
-     public function __construct() {
-         $this->__wakeup(); // Вызываем __wakeup для пересоздания $resource
-     }
+     public function __construct() {
+         $this->__wakeup(); // Вызываем __wakeup для пересоздания $resource
+     }
 
-     public function __wakeup() {
-         $this->resource = CodeToStartOurResourceUp();
-     }
+     public function __wakeup() {
+         $this->resource = CodeToStartOurResourceUp();
+     }
 
-     public function __sleep() {
-         // Не сохраняем $resource здесь.
-         // Ошибка в этом методе приведёт к тому, что при последующей десериализации
-         // мы не сможем восстановить состояние объекта.
-         return array('myvar1','myvar2');
-     }
- }
+     public function __sleep() {
+         // Не сохраняем $resource здесь.
+         // Ошибка в этом методе приведёт к тому, что при последующей десериализации
+         // мы не сможем восстановить состояние объекта.
+         return array('myvar1','myvar2');
+     }
+ }
 
- try {
-     session_start();
-     $server = new SoapServer(null, array('uri' => $_SERVER['REQUEST_URI']));
-     $server->setClass('MyFirstPersistentSoapServer');
-     // setPersistence НЕОБХОДИМО вызвать после setClass, поскольку setClass
-     // принудительно устанавливает SESSION_PERSISTENCE_REQUEST.
-     $server->setPersistence(SOAP_PERSISTENCE_SESSION);
-     $server->handle();
- } catch(SoapFault $e) {
-     error_log("ОШИБКА SOAP: ". $e->getMessage());
- }
+ try {
+     session_start();
+     $server = new SoapServer(null, array('uri' => $_SERVER['REQUEST_URI']));
+     $server->setClass('MyFirstPersistentSoapServer');
+     // setPersistence НЕОБХОДИМО вызвать после setClass, поскольку setClass
+     // принудительно устанавливает SESSION_PERSISTENCE_REQUEST.
+     $server->setPersistence(SOAP_PERSISTENCE_SESSION);
+     $server->handle();
+ } catch(SoapFault $e) {
+     error_log("ОШИБКА SOAP: ". $e->getMessage());
+ }
 ?>
 ```
 

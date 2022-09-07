@@ -36,27 +36,27 @@ radius_get_vendor_attr(string $data): array
 
 ```php
 <?php
-while ($resa = radius_get_attr($res)) {
+while ($resa = radius_get_attr($res)) {
 
-    if (!is_array($resa)) {
-        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
-        exit;
-    }
+    if (!is_array($resa)) {
+        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
 
-    $attr = $resa['attr'];
-    $data = $resa['data'];
-    printf("Получен атрибут:%d %d байт %s\n", $attr, strlen($data), bin2hex($data));
-    if ($attr == RADIUS_VENDOR_SPECIFIC) {
+    $attr = $resa['attr'];
+    $data = $resa['data'];
+    printf("Получен атрибут:%d %d байт %s\n", $attr, strlen($data), bin2hex($data));
+    if ($attr == RADIUS_VENDOR_SPECIFIC) {
 
-        $resv = radius_get_vendor_attr($data);
-        if (is_array($resv)) {
-            $vendor = $resv['vendor'];
-            $attrv = $resv['attr'];
-            $datav = $resv['data'];
-            printf("Получен атрибут поставщика:%d %d байт %s\n", $attrv, strlen($datav), bin2hex($datav));
-        }
+        $resv = radius_get_vendor_attr($data);
+        if (is_array($resv)) {
+            $vendor = $resv['vendor'];
+            $attrv = $resv['attr'];
+            $datav = $resv['data'];
+            printf("Получен атрибут поставщика:%d %d байт %s\n", $attrv, strlen($datav), bin2hex($datav));
+        }
 
-    }
+    }
 }
 ?>
 ```

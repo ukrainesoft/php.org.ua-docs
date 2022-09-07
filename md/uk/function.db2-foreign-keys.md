@@ -15,7 +15,7 @@ db2foreignkeys — Повертає набір результатів, в яко
 ### Опис
 
 ```methodsynopsis
-db2_foreign_keys(    resource $connection,    string $qualifier,    string $schema,    string $table-name): resource
+db2_foreign_keys(    resource $connection,    string $qualifier,    string $schema,    string $table-name): resource
 ```
 
 Повертає набір результатів, де перелічені зовнішні ключі таблиці.

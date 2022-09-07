@@ -44,7 +44,7 @@ popen(string $command, string $mode): resource|false
 
 ```php
 <?php
-$handle = popen("/bin/ls", "r");
+$handle = popen("/bin/ls", "r");
 ?>
 ```
 
@@ -56,11 +56,11 @@ $handle = popen("/bin/ls", "r");
 <?php
 error_reporting(E_ALL);
 
-/* Добавляем перенаправление, чтобы прочитать stderr. */
-$handle = popen('/path/to/executable 2>&1', 'r');
-echo "'$handle'; " . gettype($handle) . "\n";
-$read = fread($handle, 2096);
-echo $read;
+/* Добавляем перенаправление, чтобы прочитать stderr. */
+$handle = popen('/path/to/executable 2>&1', 'r');
+echo "'$handle'; " . gettype($handle) . "\n";
+$read = fread($handle, 2096);
+echo $read;
 pclose($handle);
 ?>
 ```

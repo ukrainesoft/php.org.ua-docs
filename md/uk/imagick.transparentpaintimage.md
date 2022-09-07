@@ -15,7 +15,7 @@ Imagick::transparentPaintImage — Малює пікселі прозорими
 ### Опис
 
 ```methodsynopsis
-public Imagick::transparentPaintImage(    mixed $target,    float $alpha,    float $fuzz,    bool $invert): bool
+public Imagick::transparentPaintImage(    mixed $target,    float $alpha,    float $fuzz,    bool $invert): bool
 ```
 
 Малює пікселі, що відповідають цільовому кольору, прозорим. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.
@@ -48,21 +48,21 @@ public Imagick::transparentPaintImage(    mixed $target,    float $alpha
 
 ```php
 <?php
-function transparentPaintImage($color, $alpha, $fuzz) {
-    $imagick = new \Imagick(realpath("images/BlueScreen.jpg"));
+function transparentPaintImage($color, $alpha, $fuzz) {
+    $imagick = new \Imagick(realpath("images/BlueScreen.jpg"));
 
-    //Должен быть в формате, который поддерживает прозрачность
-    $imagick->setimageformat('png');
+    //Должен быть в формате, который поддерживает прозрачность
+    $imagick->setimageformat('png');
 
-    $imagick->transparentPaintImage(
-        $color, $alpha, $fuzz * \Imagick::getQuantum(), false
-    );
+    $imagick->transparentPaintImage(
+        $color, $alpha, $fuzz * \Imagick::getQuantum(), false
+    );
 
-    //Не требуется, но помогает убирать оставленные пиксели
-    $imagick->despeckleimage();
+    //Не требуется, но помогает убирать оставленные пиксели
+    $imagick->despeckleimage();
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

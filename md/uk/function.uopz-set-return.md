@@ -19,7 +19,7 @@ uopz_set_return(string $function, mixed $value, bool $execute = false): bool
 ```
 
 ```methodsynopsis
-uopz_set_return(    string $class,    string $function,    mixed $value,    bool $execute = false): bool
+uopz_set_return(    string $class,    string $function,    mixed $value,    bool $execute = false): bool
 ```
 
 Встановити значення, що повертається для `function` на `value`. Якщо `value` замикання та встановлений `execute`, замикання буде виконуватися замість вихідної функції. Можна викликати вихідну функцію із замикання.
@@ -56,8 +56,8 @@ True у разі успішного виконання, false у противн�
 
 ```php
 <?php
-uopz_set_return("strlen", 42);
-echo strlen("Banana");
+uopz_set_return("strlen", 42);
+echo strlen("Banana");
 ?>
 ```
 
@@ -71,8 +71,8 @@ echo strlen("Banana");
 
 ```php
 <?php
-uopz_set_return("strlen", function($str) { return strlen($str) * 2; }, true );
-echo strlen("Banana");
+uopz_set_return("strlen", function($str) { return strlen($str) * 2; }, true );
+echo strlen("Banana");
 ?>
 ```
 
@@ -86,13 +86,13 @@ echo strlen("Banana");
 
 ```php
 <?php
-class My {
-    public static function strlen($arg) {
-        return strlen($arg);
-    }
+class My {
+    public static function strlen($arg) {
+        return strlen($arg);
+    }
 }
-uopz_set_return(My::class, "strlen", function($str) { return strlen($str) * 2; }, true );
-echo My::strlen("Banana");
+uopz_set_return(My::class, "strlen", function($str) { return strlen($str) * 2; }, true );
+echo My::strlen("Banana");
 ?>
 ```
 

@@ -15,7 +15,7 @@ Gmagick::resizeimage — Масштабування зображення
 ### Опис
 
 ```methodsynopsis
-public Gmagick::resizeimage(    int $width,    int $height,    int $filter,    float $blur,    bool $fit = false): Gmagick
+public Gmagick::resizeimage(    int $width,    int $height,    int $filter,    float $blur,    bool $fit = false): Gmagick
 ```
 
 Масштабує зображення до бажаних розмірів за допомогою фільтра.

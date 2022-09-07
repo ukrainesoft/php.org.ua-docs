@@ -40,13 +40,13 @@ ibase_name_result(resource $result, string $name): bool
 
 ```php
 <?php
-$result = ibase_query("SELECT field1,field2 FROM table FOR UPDATE");
-ibase_name_result($result, "my_cursor");
+$result = ibase_query("SELECT field1,field2 FROM table FOR UPDATE");
+ibase_name_result($result, "my_cursor");
 
-$updateqry = ibase_prepare("UPDATE table SET field2 = ? WHERE CURRENT OF my_cursor");
+$updateqry = ibase_prepare("UPDATE table SET field2 = ? WHERE CURRENT OF my_cursor");
 
-for ($i = 0; ibase_fetch_row($result); ++$i) {
-    ibase_execute($updateqry, $i);
+for ($i = 0; ibase_fetch_row($result); ++$i) {
+    ibase_execute($updateqry, $i);
 }
 ?>
 ```

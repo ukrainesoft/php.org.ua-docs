@@ -43,54 +43,54 @@ public SolrInputDocument::addChildDocument(SolrInputDocument $child): void
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
-    'path'     => SOLR_SERVER_STORE_PATH,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
+    'path'     => SOLR_SERVER_STORE_PATH,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$product = new SolrInputDocument();
+$product = new SolrInputDocument();
 
-$product->addField('id', 'P-BLACK');
-$product->addField('cat', 'tshirt');
-$product->addField('cat', 'polo');
-$product->addField('content_type', 'product');
+$product->addField('id', 'P-BLACK');
+$product->addField('cat', 'tshirt');
+$product->addField('cat', 'polo');
+$product->addField('content_type', 'product');
 
-$small = new SolrInputDocument();
-$small->addField('id', 'TS-BLK-S');
-$small->addField('content_type', 'sku');
-$small->addField('size', 'S');
-$small->addField('inventory', 100);
+$small = new SolrInputDocument();
+$small->addField('id', 'TS-BLK-S');
+$small->addField('content_type', 'sku');
+$small->addField('size', 'S');
+$small->addField('inventory', 100);
 
-$medium = new SolrInputDocument();
-$medium->addField('id', 'TS-BLK-M');
-$medium->addField('content_type', 'sku');
-$medium->addField('size', 'M');
-$medium->addField('inventory', 200);
+$medium = new SolrInputDocument();
+$medium->addField('id', 'TS-BLK-M');
+$medium->addField('content_type', 'sku');
+$medium->addField('size', 'M');
+$medium->addField('inventory', 200);
 
-$large = new SolrInputDocument();
-$large->addField('id', 'TS-BLK-L');
-$large->addField('content_type', 'sku');
-$large->addField('size', 'L');
-$large->addField('inventory', 300);
+$large = new SolrInputDocument();
+$large->addField('id', 'TS-BLK-L');
+$large->addField('content_type', 'sku');
+$large->addField('size', 'L');
+$large->addField('inventory', 300);
 
-// добавить дочерние документы
+// добавить дочерние документы
 $product->addChildDocument($small);
 $product->addChildDocument($medium);
 $product->addChildDocument($large);
 
-// добавить блок документа продукта в индекс
-$updateResponse = $client->addDocument(
-        $product,
-        true, // перезаписать, если документ существует
-        10000 // зафиксировать в течение 10 секунд
+// добавить блок документа продукта в индекс
+$updateResponse = $client->addDocument(
+        $product,
+        true, // перезаписать, если документ существует
+        10000 // зафиксировать в течение 10 секунд
 );
 
 print_r($updateResponse->getResponse());

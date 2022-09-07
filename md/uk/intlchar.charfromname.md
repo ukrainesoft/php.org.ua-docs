@@ -50,10 +50,10 @@ public static IntlChar::charFromName(string $name, int $type = IntlChar::UNICODE
 
 ```php
 <?php
-var_dump(IntlChar::charFromName("LATIN CAPITAL LETTER A"));
+var_dump(IntlChar::charFromName("LATIN CAPITAL LETTER A"));
 var_dump(IntlChar::charFromName("SNOWMAN"));
-var_dump(IntlChar::charFromName("RECYCLING SYMBOL FOR TYPE-1 PLASTICS"));
-var_dump(IntlChar::charFromName("A RANDOM STRING WHICH DOESN'T CORRESPOND TO ANY UNICODE CHARACTER"));
+var_dump(IntlChar::charFromName("RECYCLING SYMBOL FOR TYPE-1 PLASTICS"));
+var_dump(IntlChar::charFromName("A RANDOM STRING WHICH DOESN'T CORRESPOND TO ANY UNICODE CHARACTER"));
 ?>
 ```
 

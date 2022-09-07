@@ -15,7 +15,7 @@ eioread — Читає дані з файлу, починаючи із зада�
 ### Опис
 
 ```methodsynopsis
-eio_read(    mixed $fd,    int $length,    int $offset,    int $pri,    callable $callback,    mixed $data = NULL): resource
+eio_read(    mixed $fd,    int $length,    int $offset,    int $pri,    callable $callback,    mixed $data = NULL): resource
 ```
 
 **eioread()** зчитує `length` байт із файлу з описувачем `fd`, починаючи з байта `offset`. Прочитані дані передаються через параметр `result` у функцію `callback`
@@ -43,7 +43,7 @@ eio_read(    mixed $fd,    int $length,    int $offset,    int $
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -72,43 +72,43 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-// Открываем временный файл и пишем в него какие-либо данные
-$temp_filename = "eio-temp-file.tmp";
-$fp = fopen($temp_filename, "w");
-fwrite($fp, "1234567890");
+// Открываем временный файл и пишем в него какие-либо данные
+$temp_filename = "eio-temp-file.tmp";
+$fp = fopen($temp_filename, "w");
+fwrite($fp, "1234567890");
 fclose($fp);
 
-/* Вызывается, когда eio_read() завершает работу */
-function my_read_cb($data, $result) {
-    global $temp_filename;
+/* Вызывается, когда eio_read() завершает работу */
+function my_read_cb($data, $result) {
+    global $temp_filename;
 
- // Выводим прочитанные данные
-    var_dump($result);
+ // Выводим прочитанные данные
+    var_dump($result);
 
- // закрываем файл
-    eio_close($data);
-    eio_event_loop();
+ // закрываем файл
+    eio_close($data);
+    eio_event_loop();
 
- // Удаляем временный файл
-    @unlink($temp_filename);
+ // Удаляем временный файл
+    @unlink($temp_filename);
 }
 
-/* Вызывается, когда eio_open() завершает работу */
-function my_file_opened_callback($data, $result) {
- // $result должен содержать файловый описатель
-    if ($result > 0) {
-  // Прочитаем 5 байт, начиная с третьего
-        eio_read($result, 5, 2, EIO_PRI_DEFAULT, "my_read_cb", $result);
-        eio_event_loop();
-    } else {
-  // eio_open() завершила работу отказом
-        unlink($data);
-    }
+/* Вызывается, когда eio_open() завершает работу */
+function my_file_opened_callback($data, $result) {
+ // $result должен содержать файловый описатель
+    if ($result > 0) {
+  // Прочитаем 5 байт, начиная с третьего
+        eio_read($result, 5, 2, EIO_PRI_DEFAULT, "my_read_cb", $result);
+        eio_event_loop();
+    } else {
+  // eio_open() завершила работу отказом
+        unlink($data);
+    }
 }
 
-// открываем файл для чтения и записи
-eio_open($temp_filename, EIO_O_RDWR, NULL,
-    EIO_PRI_DEFAULT, "my_file_opened_callback", $temp_filename);
+// открываем файл для чтения и записи
+eio_open($temp_filename, EIO_O_RDWR, NULL,
+    EIO_PRI_DEFAULT, "my_file_opened_callback", $temp_filename);
 eio_event_loop();
 ?>
 ```

@@ -155,7 +155,7 @@ const
     
    public __construct(IntlTimeZone $tz = ?, string $locale = ?)
 public __construct(int $timeZoneOrYear, int $localeOrMonth, int $dayOfMonth)
-public __construct(    int $timeZoneOrYear,    int $localeOrMonth,    int $dayOfMonth,    int $hour,    int $minute,    int $second = ?)
+public __construct(    int $timeZoneOrYear,    int $localeOrMonth,    int $dayOfMonth,    int $hour,    int $minute,    int $second = ?)
 
     public getGregorianChange(): float
 public isLeapYear(int $year): bool
@@ -200,7 +200,7 @@ public IntlCalendar::isSet(int $field): bool
 public IntlCalendar::isWeekend(?float $timestamp = null): bool
 public IntlCalendar::roll(int $field, int|bool $value): bool
 public IntlCalendar::set(int $field, int $value): bool
-public IntlCalendar::set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
+public IntlCalendar::set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
 public IntlCalendar::setFirstDayOfWeek(int $dayOfWeek): bool
 public IntlCalendar::setLenient(bool $lenient): bool
 public IntlCalendar::setMinimalDaysInFirstWeek(int $days): bool

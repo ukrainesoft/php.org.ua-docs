@@ -15,7 +15,7 @@ imagecolorclosest — Отримання індексу кольору найб�
 ### Опис
 
 ```methodsynopsis
-imagecolorclosest(    GdImage $image,    int $red,    int $green,    int $blue): int
+imagecolorclosest(    GdImage $image,    int $red,    int $green,    int $blue): int
 ```
 
 Повертає індекс кольору на панелі зображення, "найближчого" до заданого значення RGB.
@@ -60,27 +60,27 @@ imagecolorclosest(    GdImage $image,    int $red,    int $green, �
 
 ```php
 <?php
-// Создание изображения и преобразование его в палитровое
-$im = imagecreatefrompng('figures/imagecolorclosest.png');
-imagetruecolortopalette($im, false, 255);
+// Создание изображения и преобразование его в палитровое
+$im = imagecreatefrompng('figures/imagecolorclosest.png');
+imagetruecolortopalette($im, false, 255);
 
-// Цвета для поиска (RGB)
-$colors = array(
-    array(254, 145, 154),
-    array(153, 145, 188),
-    array(153, 90, 145),
-    array(255, 137, 92)
+// Цвета для поиска (RGB)
+$colors = array(
+    array(254, 145, 154),
+    array(153, 145, 188),
+    array(153, 90, 145),
+    array(255, 137, 92)
 );
 
-// Проход по каждому цвету и поиск ближайшего к нему в палитре.
-// Возврат номера по порядку, RGB искомого цвета и найденное RGB соответствие
-foreach($colors as $id => $rgb)
+// Проход по каждому цвету и поиск ближайшего к нему в палитре.
+// Возврат номера по порядку, RGB искомого цвета и найденное RGB соответствие
+foreach($colors as $id => $rgb)
 {
-    $result = imagecolorclosest($im, $rgb[0], $rgb[1], $rgb[2]);
-    $result = imagecolorsforindex($im, $result);
-    $result = "({$result['red']}, {$result['green']}, {$result['blue']})";
+    $result = imagecolorclosest($im, $rgb[0], $rgb[1], $rgb[2]);
+    $result = imagecolorsforindex($im, $result);
+    $result = "({$result['red']}, {$result['green']}, {$result['blue']})";
 
-    echo "#$id: Поиск ($rgb[0], $rgb[1], $rgb[2]); Ближайшее сходство: $result.\n";
+    echo "#$id: Поиск ($rgb[0], $rgb[1], $rgb[2]); Ближайшее сходство: $result.\n";
 }
 
 imagedestroy($im);

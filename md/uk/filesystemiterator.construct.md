@@ -50,9 +50,9 @@ public **FilesystemIterator::construct**(string `$directory`, int `$flags` = Fil
 
 ```php
 <?php
-$it = new FilesystemIterator(dirname(__FILE__));
-foreach ($it as $fileinfo) {
-    echo $fileinfo->getFilename() . "\n";
+$it = new FilesystemIterator(dirname(__FILE__));
+foreach ($it as $fileinfo) {
+    echo $fileinfo->getFilename() . "\n";
 }
 ?>
 ```

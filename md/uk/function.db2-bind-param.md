@@ -15,7 +15,7 @@ db2bindparam — Зв'язує змінну PHP із параметром SQL-в
 ### Опис
 
 ```methodsynopsis
-db2_bind_param(    resource $stmt,    int $parameter_number,    string $variable_name,    int $parameter_type = ?,    int $data_type = 0,    int $precision = -1,    int $scale = 0): bool
+db2_bind_param(    resource $stmt,    int $parameter_number,    string $variable_name,    int $parameter_type = ?,    int $data_type = 0,    int $precision = -1,    int $scale = 0): bool
 ```
 
 Зв'язує змінну PHP з параметром SQL-вираження у виразному ресурсі, що повертається [db2prepare()](function.db2-prepare.md). Ця функція дає більший контроль над типом параметра, типом даних, точністю та масштабом для параметра, ніж проста передача змінної як частини необов'язкового вхідного масиву [db2execute()](function.db2-execute.md)
@@ -63,24 +63,24 @@ SQL-вираз у цьому прикладі використовує два в
 ```php
 <?php
 
-$sql = 'SELECT name, breed, weight FROM animals
-    WHERE weight > ? AND weight < ?';
-$conn = db2_connect($database, $user, $password);
-$stmt = db2_prepare($conn, $sql);
+$sql = 'SELECT name, breed, weight FROM animals
+    WHERE weight > ? AND weight < ?';
+$conn = db2_connect($database, $user, $password);
+$stmt = db2_prepare($conn, $sql);
 
-// Можно объявить переменную перед вызовом db2_bind_param()
-$lower_limit = 1;
+// Можно объявить переменную перед вызовом db2_bind_param()
+$lower_limit = 1;
 
-db2_bind_param($stmt, 1, "lower_limit", DB2_PARAM_IN);
-db2_bind_param($stmt, 2, "upper_limit", DB2_PARAM_IN);
+db2_bind_param($stmt, 1, "lower_limit", DB2_PARAM_IN);
+db2_bind_param($stmt, 2, "upper_limit", DB2_PARAM_IN);
 
-// Также можно объявить переменную после вызова db2_bind_param()
-$upper_limit = 15.0;
+// Также можно объявить переменную после вызова db2_bind_param()
+$upper_limit = 15.0;
 
-if (db2_execute($stmt)) {
-    while ($row = db2_fetch_array($stmt)) {
-        print "{$row[0]}, {$row[1]}, {$row[2]}\n";
-    }
+if (db2_execute($stmt)) {
+    while ($row = db2_fetch_array($stmt)) {
+        print "{$row[0]}, {$row[1]}, {$row[2]}\n";
+    }
 }
 ?>
 ```
@@ -109,29 +109,29 @@ Peaches, dog, 12.3
 ```php
 <?php
 
-$sql = 'CALL match_animal(?, ?, ?)';
-$conn = db2_connect($database, $user, $password);
-$stmt = db2_prepare($conn, $sql);
+$sql = 'CALL match_animal(?, ?, ?)';
+$conn = db2_connect($database, $user, $password);
+$stmt = db2_prepare($conn, $sql);
 
-$name = "Peaches";
-$second_name = "Rickety Ride";
-$weight = 0;
+$name = "Peaches";
+$second_name = "Rickety Ride";
+$weight = 0;
 
-db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);
-db2_bind_param($stmt, 2, "second_name", DB2_PARAM_INOUT);
-db2_bind_param($stmt, 3, "weight", DB2_PARAM_OUT);
+db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);
+db2_bind_param($stmt, 2, "second_name", DB2_PARAM_INOUT);
+db2_bind_param($stmt, 3, "weight", DB2_PARAM_OUT);
 
-print "Values of bound parameters _before_ CALL:\n";
-print "  1: {$name} 2: {$second_name} 3: {$weight}\n\n";
+print "Values of bound parameters _before_ CALL:\n";
+print "  1: {$name} 2: {$second_name} 3: {$weight}\n\n";
 
-if (db2_execute($stmt)) {
-    print "Values of bound parameters _after_ CALL:\n";
-    print "  1: {$name} 2: {$second_name} 3: {$weight}\n\n";
+if (db2_execute($stmt)) {
+    print "Values of bound parameters _after_ CALL:\n";
+    print "  1: {$name} 2: {$second_name} 3: {$weight}\n\n";
 
-    print "Results:\n";
-    while ($row = db2_fetch_array($stmt)) {
-        print "  {$row[0]}, {$row[1]}, {$row[2]}\n";
-    }
+    print "Results:\n";
+    while ($row = db2_fetch_array($stmt)) {
+        print "  {$row[0]}, {$row[1]}, {$row[2]}\n";
+    }
 }
 ?>
 ```
@@ -157,11 +157,11 @@ Results:
 
 ```php
 <?php
-$stmt = db2_prepare($conn, "INSERT INTO animal_pictures(picture) VALUES (?)");
+$stmt = db2_prepare($conn, "INSERT INTO animal_pictures(picture) VALUES (?)");
 
-$picture = "/opt/albums/spook/grooming.jpg";
-$rc = db2_bind_param($stmt, 1, "picture", DB2_PARAM_FILE);
-$rc = db2_execute($stmt);
+$picture = "/opt/albums/spook/grooming.jpg";
+$rc = db2_bind_param($stmt, 1, "picture", DB2_PARAM_FILE);
+$rc = db2_execute($stmt);
 ?>
 ```
 

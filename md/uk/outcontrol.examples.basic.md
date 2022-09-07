@@ -14,9 +14,9 @@ title: Базове використання
 <?php
 
 ob_start();
-echo "Привет\n";
+echo "Привет\n";
 
-setcookie("cookiename", "cookiedata");
+setcookie("cookiename", "cookiedata");
 
 ob_end_flush();
 

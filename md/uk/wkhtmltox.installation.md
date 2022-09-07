@@ -8,7 +8,7 @@ title: Встановлення
 ---
 ## Встановлення
 
-Вихідний код цього модуля та двійкові файли для Windows доступні [» github](https://github.com/krakjoe/wkhtmltox)
+Вихідний код цього модуля та двійкові файли для Windows доступні [» github](https://github.com/krakjoe/wkhtmltox)
 
 Отримання вихідного коду та складання модуля:
 

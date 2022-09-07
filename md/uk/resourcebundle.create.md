@@ -60,8 +60,8 @@ public **ResourceBundle::construct**(?string `$locale`, ?string `$bundle`, bool 
 
 ```php
 <?php
-$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
-echo $r['teststring'];
+$r = resourcebundle_create( 'es', "/usr/share/data/myapp");
+echo $r['teststring'];
 ?>
 ```
 
@@ -69,8 +69,8 @@ echo $r['teststring'];
 
 ```php
 <?php
-$r = ResourceBundle::create( 'es', "/usr/share/data/myapp");
-echo $r['teststring'];
+$r = ResourceBundle::create( 'es', "/usr/share/data/myapp");
+echo $r['teststring'];
 ?>
 ```
 

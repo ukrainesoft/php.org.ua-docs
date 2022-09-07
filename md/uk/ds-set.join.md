@@ -36,7 +36,7 @@ public Ds\Set::join(string $glue = ?): string
 
 ```php
 <?php
-$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);
+$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);
 
 var_dump($set->join("|"));
 ?>
@@ -52,7 +52,7 @@ string(11) "a|b|c|1|2|3"
 
 ```php
 <?php
-$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);
+$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);
 
 var_dump($set->join());
 ?>

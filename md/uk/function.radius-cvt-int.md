@@ -36,23 +36,23 @@ radius_cvt_int(string $data): int
 
 ```php
 <?php
-while ($resa = radius_get_attr($res)) {
+while ($resa = radius_get_attr($res)) {
 
-    if (!is_array($resa)) {
-        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
-        exit;
-    }
+    if (!is_array($resa)) {
+        printf ("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
 
-    $attr = $resa['attr'];
-    $data = $resa['data'];
+    $attr = $resa['attr'];
+    $data = $resa['data'];
 
-    switch ($attr) {
+    switch ($attr) {
 
-    case RADIUS_FRAMED_MTU:
-        $mtu = radius_cvt_int($data);
-        echo "Максимальная единица передачи: $mtu<br>\n";
-        break;
-    }
+    case RADIUS_FRAMED_MTU:
+        $mtu = radius_cvt_int($data);
+        echo "Максимальная единица передачи: $mtu<br>\n";
+        break;
+    }
 }
 ?>
 ```

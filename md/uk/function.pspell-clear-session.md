@@ -42,12 +42,12 @@ pspell_clear_session(PSpell\Dictionary $dictionary): bool
 
 ```php
 <?php
-$pspell_config = pspell_config_create("en");
-pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
-$pspell = pspell_new_config($pspell_config);
+$pspell_config = pspell_config_create("en");
+pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
+$pspell = pspell_new_config($pspell_config);
 
-pspell_add_to_personal($pspell, "Vlad");
+pspell_add_to_personal($pspell, "Vlad");
 pspell_clear_session($pspell);
-pspell_save_wordlist($pspell);    //Слово "Vlad" не будет сохранено
+pspell_save_wordlist($pspell);    //Слово "Vlad" не будет сохранено
 ?>
 ```

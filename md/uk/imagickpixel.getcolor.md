@@ -45,20 +45,20 @@ public ImagickPixel::getColor(int $normalized = 0): array
 ```php
 <?php
 
-// Создание ImagickPixel со стандартным цветом 'brown'
-$color = new ImagickPixel('brown');
+// Создание ImagickPixel со стандартным цветом 'brown'
+$color = new ImagickPixel('brown');
 
-// настройка цвета с альфа каналом 25%
-$color->setColorValue(Imagick::COLOR_ALPHA, 64 / 256.0);
+// настройка цвета с альфа каналом 25%
+$color->setColorValue(Imagick::COLOR_ALPHA, 64 / 256.0);
 
-$colorInfo = $color->getColor();
+$colorInfo = $color->getColor();
 
-echo "Стандартные значения" . PHP_EOL;
+echo "Стандартные значения" . PHP_EOL;
 print_r($colorInfo);
 
-$colorInfo = $color->getColor(1);
+$colorInfo = $color->getColor(1);
 
-echo "Нормализованные значения:" . PHP_EOL;
+echo "Нормализованные значения:" . PHP_EOL;
 print_r($colorInfo);
 
 ?>

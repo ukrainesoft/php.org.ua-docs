@@ -15,7 +15,7 @@ openalbufferdata — Завантаження буфера з даними
 ### Опис
 
 ```methodsynopsis
-openal_buffer_data(    resource $buffer,    int $format,    string $data,    int $freq): bool
+openal_buffer_data(    resource $buffer,    int $format,    string $data,    int $freq): bool
 ```
 
 ### Список параметрів

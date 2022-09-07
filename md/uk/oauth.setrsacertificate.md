@@ -46,7 +46,7 @@ public OAuth::setRSACertificate(string $cert): mixed
 
 ```php
 <?php
-$consume = new OAuth('1234', '', OAUTH_SIG_METHOD_RSASHA1);
+$consume = new OAuth('1234', '', OAUTH_SIG_METHOD_RSASHA1);
 
 $consume->setRSACertificate(file_get_contents('test.pem'));
 ?>

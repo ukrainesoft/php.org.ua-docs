@@ -22,7 +22,7 @@ array_push(array &$array, mixed ...$values): int
 
 ```php
 <?php
-$array[] = $var;
+$array[] = $var;
 ?>
 ```
 
@@ -58,8 +58,8 @@ $array[] = $var;
 
 ```php
 <?php
-$stack = array("orange", "banana");
-array_push($stack, "apple", "raspberry");
+$stack = array("orange", "banana");
+array_push($stack, "apple", "raspberry");
 print_r($stack);
 ?>
 ```

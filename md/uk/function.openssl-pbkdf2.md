@@ -15,7 +15,7 @@ opensslpbkdf2 — Генерує рядки PKCS5 v2 PBKDF2
 ### Опис
 
 ```methodsynopsis
-openssl_pbkdf2(    string $password,    string $salt,    int $key_length,    int $iterations,    string $digest_algo = "sha1"): string|false
+openssl_pbkdf2(    string $password,    string $salt,    int $key_length,    int $iterations,    string $digest_algo = "sha1"): string|false
 ```
 
 **opensslpbkdf2()** обчислює PBKDF2 (Password-Based Key Derivation Function 2), функцію деривації ключа, визначену в PKCS5 v2.
@@ -36,7 +36,7 @@ PBKDF2 рекомендує використовувати криптограф�
 
 `iterations`
 
-Кількість ітерацій . [» NIST рекомендует как минимум 10,000](https://pages.nist.gov/800-63-3/sp800-63b.md#sec5)
+Кількість ітерацій . [» NIST рекомендует как минимум 10,000](https://pages.nist.gov/800-63-3/sp800-63b.md#sec5)
 
 `digest_algo`
 
@@ -52,13 +52,13 @@ PBKDF2 рекомендує використовувати криптограф�
 
 ```php
 <?php
-$password = 'yOuR-pAs5w0rd-hERe';
-$salt = openssl_random_pseudo_bytes(12);
-$keyLength = 40;
-$iterations = 10000;
-$generated_key = openssl_pbkdf2($password, $salt, $keyLength, $iterations, 'sha256');
-echo bin2hex($generated_key)."\n";
-echo base64_encode($generated_key)."\n";
+$password = 'yOuR-pAs5w0rd-hERe';
+$salt = openssl_random_pseudo_bytes(12);
+$keyLength = 40;
+$iterations = 10000;
+$generated_key = openssl_pbkdf2($password, $salt, $keyLength, $iterations, 'sha256');
+echo bin2hex($generated_key)."\n";
+echo base64_encode($generated_key)."\n";
 ?>
 ```
 

@@ -46,38 +46,38 @@ datefmt_is_lenient(IntlDateFormatter $formatter): bool
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'dd/mm/yyyy'
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'dd/mm/yyyy'
 );
-echo 'Снисходительность средства форматирования: ';
-if ($fmt->isLenient()) {
-    echo 'Да';
-} else {
-    echo 'Нет';
+echo 'Снисходительность средства форматирования: ';
+if ($fmt->isLenient()) {
+    echo 'Да';
+} else {
+    echo 'Нет';
 }
-datefmt_parse($fmt, '35/13/1971');
-echo "\n Попытка выполнить синтаксический анализ '35/13/1971'.\nРезультат: " . datefmt_parse($fmt, '35/13/1971');
-if (intl_get_error_code() != 0) {
-    echo "\nОшибка: " . intl_get_error_message();
-    echo "\nКод ошибки: " . intl_get_error_code();
+datefmt_parse($fmt, '35/13/1971');
+echo "\n Попытка выполнить синтаксический анализ '35/13/1971'.\nРезультат: " . datefmt_parse($fmt, '35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nОшибка: " . intl_get_error_message();
+    echo "\nКод ошибки: " . intl_get_error_code();
 }
 datefmt_set_lenient($fmt,false);
-echo 'Теперь снисходительность средства форматирования: ';
-if ($fmt->isLenient()) {
-    echo 'Да';
-} else {
-    echo 'Нет';
+echo 'Теперь снисходительность средства форматирования: ';
+if ($fmt->isLenient()) {
+    echo 'Да';
+} else {
+    echo 'Нет';
 }
-datefmt_parse($fmt, '35/13/1971');
-echo "\n Попытка выполнить синтаксический анализ '35/13/1971'.\nРезультат: " . datefmt_parse($fmt, '35/13/1971');
-if (intl_get_error_code() != 0) {
-    echo "\nОшибка: " . intl_get_error_message();
-    echo "\nКод ошибки: " . intl_get_error_code();
+datefmt_parse($fmt, '35/13/1971');
+echo "\n Попытка выполнить синтаксический анализ '35/13/1971'.\nРезультат: " . datefmt_parse($fmt, '35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nОшибка: " . intl_get_error_message();
+    echo "\nКод ошибки: " . intl_get_error_code();
 }
 
 ?>
@@ -87,39 +87,39 @@ if (intl_get_error_code() != 0) {
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    "dd/mm/yyyy"
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    "dd/mm/yyyy"
 );
-echo "Снисходительность средства форматирования: ";
-if ($fmt->isLenient()) {
-    echo 'Да';
-} else {
-    echo 'Нет';
+echo "Снисходительность средства форматирования: ";
+if ($fmt->isLenient()) {
+    echo 'Да';
+} else {
+    echo 'Нет';
 }
 $fmt->parse('35/13/1971');
-echo "\n Попытка выполнить синтаксический анализ '35/13/1971'.\nРезультат: " . $fmt->parse('35/13/1971');
-if (intl_get_error_code() != 0){
-    echo "\nОшибка: " . intl_get_error_message();
-    echo "\nКод ошибки: " . intl_get_error_code();
+echo "\n Попытка выполнить синтаксический анализ '35/13/1971'.\nРезультат: " . $fmt->parse('35/13/1971');
+if (intl_get_error_code() != 0){
+    echo "\nОшибка: " . intl_get_error_message();
+    echo "\nКод ошибки: " . intl_get_error_code();
 }
 
 $fmt->setLenient(FALSE);
-echo 'Теперь снисходительность средства форматирования: ';
-if ($fmt->isLenient()) {
-    echo 'Да';
-} else {
-    echo 'Нет';
+echo 'Теперь снисходительность средства форматирования: ';
+if ($fmt->isLenient()) {
+    echo 'Да';
+} else {
+    echo 'Нет';
 }
 $fmt->parse('35/13/1971');
-echo "\n Попытка выполнить синтаксический анализ '35/13/1971'.\nРезультат: " . $fmt->parse('35/13/1971');
-if (intl_get_error_code() != 0) {
-    echo "\nОшибка: " . intl_get_error_message();
-    echo "\nКод ошибки: " . intl_get_error_code();
+echo "\n Попытка выполнить синтаксический анализ '35/13/1971'.\nРезультат: " . $fmt->parse('35/13/1971');
+if (intl_get_error_code() != 0) {
+    echo "\nОшибка: " . intl_get_error_message();
+    echo "\nКод ошибки: " . intl_get_error_code();
 }
 
 ?>

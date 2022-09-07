@@ -40,15 +40,15 @@ public ZipArchive::getStreamName(string $name, int $flags = 0): resource|false
 
 ```php
 <?php
-$contents = '';
-$z = new ZipArchive();
-if ($z->open('test.zip')) {
-    $fp = $z->getStreamName('test', ZipArchive::FL_UNCHANGED);
-    if(!$fp) die($z->getStatusString());
+$contents = '';
+$z = new ZipArchive();
+if ($z->open('test.zip')) {
+    $fp = $z->getStreamName('test', ZipArchive::FL_UNCHANGED);
+    if(!$fp) die($z->getStatusString());
 
-    echo stream_get_contents($fp);
+    echo stream_get_contents($fp);
 
-    fclose($fp);
+    fclose($fp);
 }
 ?>
 ```

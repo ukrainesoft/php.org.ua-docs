@@ -15,7 +15,7 @@ tradercdlinvertedhammer - Свічкова модель "Перевернути�
 ### Опис
 
 ```methodsynopsis
-trader_cdlinvertedhammer(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlinvertedhammer(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

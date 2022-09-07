@@ -51,12 +51,12 @@ string `$actor`
 
 ```php
 <?php
-$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
-                                     'uri'      => "http://test-uri/"));
-$client->__soapCall("echoVoid", null, null,
-                new SoapHeader('http://soapinterop.org/echoheader/',
-                               'echoMeStringRequest',
-                               'hello world'));
+$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
+                                     'uri'      => "http://test-uri/"));
+$client->__soapCall("echoVoid", null, null,
+                new SoapHeader('http://soapinterop.org/echoheader/',
+                               'echoMeStringRequest',
+                               'hello world'));
 ?>
 ```
 

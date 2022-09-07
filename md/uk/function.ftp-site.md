@@ -48,18 +48,18 @@ ftp_site(FTP\Connection $ftp, string $command): bool
 
 ```php
 <?php
-// Соединение с FTP-сервером
-$ftp = ftp_connect('ftp.example.com');
-if (!$conn) die('Не удалось подключиться к ftp.example.com');
+// Соединение с FTP-сервером
+$ftp = ftp_connect('ftp.example.com');
+if (!$conn) die('Не удалось подключиться к ftp.example.com');
 
-// Вход под именем "user" с паролем "pass"
-if (!ftp_login($ftp, 'user', 'pass')) die('Не удалось войти на ftp.example.com');
+// Вход под именем "user" с паролем "pass"
+if (!ftp_login($ftp, 'user', 'pass')) die('Не удалось войти на ftp.example.com');
 
-// Отправка "SITE CHMOD 0600 /home/user/privatefile" FTP-серверу
-if (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {
-   echo "Команда выполнена.\n";
-} else {
-   die('Команда не выполнена.');
+// Отправка "SITE CHMOD 0600 /home/user/privatefile" FTP-серверу
+if (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {
+   echo "Команда выполнена.\n";
+} else {
+   die('Команда не выполнена.');
 }
 ?>
 ```

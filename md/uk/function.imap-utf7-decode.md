@@ -26,7 +26,7 @@ imap_utf7_decode(string $string): string|false
 
 `string`
 
-Текст у модифікованому кодуванні UTF-7, як визначено в [» RFC 2060](http://www.faqs.org/rfcs/rfc2060), Розділ 5.1.3.
+Текст у модифікованому кодуванні UTF-7, як визначено в [» RFC 2060](http://www.faqs.org/rfcs/rfc2060), Розділ 5.1.3.
 
 ### Значення, що повертаються
 

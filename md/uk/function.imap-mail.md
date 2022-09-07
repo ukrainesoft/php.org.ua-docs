@@ -15,12 +15,12 @@ imapmail — Надіслати email
 ### Опис
 
 ```methodsynopsis
-imap_mail(    string $to,    string $subject,    string $message,    ?string $additional_headers = null,    ?string $cc = null,    ?string $bcc = null,    ?string $return_path = null): bool
+imap_mail(    string $to,    string $subject,    string $message,    ?string $additional_headers = null,    ?string $cc = null,    ?string $bcc = null,    ?string $return_path = null): bool
 ```
 
 Ця функція дозволяє надсилати повідомлення з коректною обробкою одержувачів Cc та Bcc.
 
-Параметри `to` `cc` і `bcc` - рядки, які будуть розібрані відповідно до [» RFC822](http://www.faqs.org/rfcs/rfc822)
+Параметри `to` `cc` і `bcc` - рядки, які будуть розібрані відповідно до [» RFC822](http://www.faqs.org/rfcs/rfc822)
 
 ### Список параметрів
 

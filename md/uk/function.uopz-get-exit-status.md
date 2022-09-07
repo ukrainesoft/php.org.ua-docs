@@ -35,7 +35,7 @@ uopz_get_exit_status(): mixed
 ```php
 <?php
 exit(123);
-echo uopz_get_exit_status();?>
+echo uopz_get_exit_status();?>
 ```
 
 Результат виконання цього прикладу:

@@ -42,13 +42,13 @@ Callback - функція збирача, яка повертає логічне
 
 ```php
 <?php
-$pool = new Pool(4);
+$pool = new Pool(4);
 
-for ($i = 0; $i < 15; ++$i) {
-    $pool->submit(new class extends Threaded {});
+for ($i = 0; $i < 15; ++$i) {
+    $pool->submit(new class extends Threaded {});
 }
 
-while ($pool->collect()); // до тех пор, пока все задачи не закончат выполнение
+while ($pool->collect()); // до тех пор, пока все задачи не закончат выполнение
 
 $pool->shutdown();
 ```

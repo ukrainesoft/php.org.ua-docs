@@ -49,12 +49,12 @@ strrchr(string $haystack, string $needle): string|false
 
 ```php
 <?php
-// получить последнюю директорию из $PATH
-$dir = substr(strrchr($PATH, ":"), 1);
+// получить последнюю директорию из $PATH
+$dir = substr(strrchr($PATH, ":"), 1);
 
-// получить все после последнего перевода строки
-$text = "Line 1\nLine 2\nLine 3";
-$last = substr(strrchr($text, 10), 1 );
+// получить все после последнего перевода строки
+$text = "Line 1\nLine 2\nLine 3";
+$last = substr(strrchr($text, 10), 1 );
 ?>
 ```
 

@@ -63,18 +63,18 @@ imap_status(IMAP\Connection $imap, string $mailbox, int $flags): stdClass|false
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.com}", "username", "password", OP_HALFOPEN)
-      or die("не удалось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.com}", "username", "password", OP_HALFOPEN)
+      or die("не удалось подключиться: " . imap_last_error());
 
-$status = imap_status($mbox, "{imap.example.org}INBOX", SA_ALL);
-if ($status) {
-  echo "Сообщения:   " . $status->messages    . "<br />\n";
-  echo "Последние:     " . $status->recent      . "<br />\n";
-  echo "Непросмотренные:     " . $status->unseen      . "<br />\n";
-  echo "UIDnext:    " . $status->uidnext     . "<br />\n";
-  echo "UIDvalidity:" . $status->uidvalidity . "<br />\n";
-} else {
-  echo "imap_status failed: " . imap_last_error() . "\n";
+$status = imap_status($mbox, "{imap.example.org}INBOX", SA_ALL);
+if ($status) {
+  echo "Сообщения:   " . $status->messages    . "<br />\n";
+  echo "Последние:     " . $status->recent      . "<br />\n";
+  echo "Непросмотренные:     " . $status->unseen      . "<br />\n";
+  echo "UIDnext:    " . $status->uidnext     . "<br />\n";
+  echo "UIDvalidity:" . $status->uidvalidity . "<br />\n";
+} else {
+  echo "imap_status failed: " . imap_last_error() . "\n";
 }
 
 imap_close($mbox);

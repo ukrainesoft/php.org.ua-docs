@@ -48,12 +48,12 @@ in_array(mixed $needle, array $haystack, bool $strict = false): bool
 
 ```php
 <?php
-$os = array("Mac", "NT", "Irix", "Linux");
-if (in_array("Irix", $os)) {
-    echo "Нашёл Irix";
+$os = array("Mac", "NT", "Irix", "Linux");
+if (in_array("Irix", $os)) {
+    echo "Нашёл Irix";
 }
-if (in_array("mac", $os)) {
-    echo "Нашёл mac";
+if (in_array("mac", $os)) {
+    echo "Нашёл mac";
 }
 ?>
 ```
@@ -68,14 +68,14 @@ if (in_array("mac", $os)) {
 
 ```php
 <?php
-$a = array('1.10', 12.4, 1.13);
+$a = array('1.10', 12.4, 1.13);
 
-if (in_array('12.4', $a, true)) {
-    echo "'12.4' найдено со строгой проверкой\n";
+if (in_array('12.4', $a, true)) {
+    echo "'12.4' найдено со строгой проверкой\n";
 }
 
-if (in_array(1.13, $a, true)) {
-    echo "1.13 найдено со строгой проверкой\n";
+if (in_array(1.13, $a, true)) {
+    echo "1.13 найдено со строгой проверкой\n";
 }
 ?>
 ```
@@ -90,18 +90,18 @@ if (in_array(1.13, $a, true)) {
 
 ```php
 <?php
-$a = array(array('p', 'h'), array('p', 'r'), 'o');
+$a = array(array('p', 'h'), array('p', 'r'), 'o');
 
-if (in_array(array('p', 'h'), $a)) {
-    echo "'ph' найдено\n";
+if (in_array(array('p', 'h'), $a)) {
+    echo "'ph' найдено\n";
 }
 
-if (in_array(array('f', 'i'), $a)) {
-    echo "'fi' найдено\n";
+if (in_array(array('f', 'i'), $a)) {
+    echo "'fi' найдено\n";
 }
 
-if (in_array('o', $a)) {
-    echo "'o' найдено\n";
+if (in_array('o', $a)) {
+    echo "'o' найдено\n";
 }
 ?>
 ```

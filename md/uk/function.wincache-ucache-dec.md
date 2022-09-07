@@ -44,8 +44,8 @@ wincache_ucache_dec(string $key, int $dec_by = 1, bool &$success = ?): mixed
 
 ```php
 <?php
-wincache_ucache_set('counter', 1);
-var_dump(wincache_ucache_dec('counter', 2923, $success));
+wincache_ucache_set('counter', 1);
+var_dump(wincache_ucache_dec('counter', 2923, $success));
 var_dump($success);
 ?>
 ```

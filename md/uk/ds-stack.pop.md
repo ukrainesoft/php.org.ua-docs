@@ -38,7 +38,7 @@ public Ds\Stack::pop(): mixed
 
 ```php
 <?php
-$stack = new \Ds\Stack();
+$stack = new \Ds\Stack();
 
 $stack->push("a");
 $stack->push("b");

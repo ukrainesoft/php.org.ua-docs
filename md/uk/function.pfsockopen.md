@@ -15,7 +15,7 @@ pfsockopen — Відкриває постійне з'єднання з інте
 ### Опис
 
 ```methodsynopsis
-pfsockopen(    string $hostname,    int $port = -1,    int &$error_code = null,    string &$error_message = null,    ?float $timeout = null): resource|false
+pfsockopen(    string $hostname,    int $port = -1,    int &$error_code = null,    string &$error_message = null,    ?float $timeout = null): resource|false
 ```
 
 Ця функція є повним аналогом функції [fsockopen()](function.fsockopen.md) з тією різницею, що з'єднання не закривається після завершення роботи скрипта. Це версія функції [fsockopen()](function.fsockopen.md) із можливістю постійного підключення.

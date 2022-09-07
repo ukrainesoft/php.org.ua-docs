@@ -51,54 +51,54 @@ public write(string $id, string $data): bool
 
 ```php
 <?php
-class MySessionHandler implements SessionHandlerInterface
+class MySessionHandler implements SessionHandlerInterface
 {
-    private $savePath;
-    public function open($savePath, $sessionName): bool
-    {
-        $this->savePath = $savePath;
-        if (!is_dir($this->savePath)) {
-            mkdir($this->savePath, 0777);
-        }
-        return true;
-    }
-    public function close(): bool
-    {
-        return true;
-    }
-    #[ReturnTypeWillChange]
-    public function read($id)
-    {
-        return (string)@file_get_contents("$this->savePath/sess_$id");
-    }
-    public function write($id, $data): bool
-    {
-        return file_put_contents("$this->savePath/sess_$id", $data) === false ? false : true;
-    }
-    public function destroy($id): bool
-    {
-        $file = "$this->savePath/sess_$id";
-        if (file_exists($file)) {
-            unlink($file);
-        }
-        return true;
-    }
-    #[ReturnTypeWillChange]
-    public function gc($maxlifetime)
-    {
-        foreach (glob("$this->savePath/sess_*") as $file) {
-            if (filemtime($file) + $maxlifetime < time() && file_exists($file)) {
-                unlink($file);
-            }
-        }
-        return true;
-    }
+    private $savePath;
+    public function open($savePath, $sessionName): bool
+    {
+        $this->savePath = $savePath;
+        if (!is_dir($this->savePath)) {
+            mkdir($this->savePath, 0777);
+        }
+        return true;
+    }
+    public function close(): bool
+    {
+        return true;
+    }
+    #[ReturnTypeWillChange]
+    public function read($id)
+    {
+        return (string)@file_get_contents("$this->savePath/sess_$id");
+    }
+    public function write($id, $data): bool
+    {
+        return file_put_contents("$this->savePath/sess_$id", $data) === false ? false : true;
+    }
+    public function destroy($id): bool
+    {
+        $file = "$this->savePath/sess_$id";
+        if (file_exists($file)) {
+            unlink($file);
+        }
+        return true;
+    }
+    #[ReturnTypeWillChange]
+    public function gc($maxlifetime)
+    {
+        foreach (glob("$this->savePath/sess_*") as $file) {
+            if (filemtime($file) + $maxlifetime < time() && file_exists($file)) {
+                unlink($file);
+            }
+        }
+        return true;
+    }
 }
-$handler = new MySessionHandler();
-session_set_save_handler($handler, true);
+$handler = new MySessionHandler();
+session_set_save_handler($handler, true);
 session_start();
 
-// продолжаем работать с переменными сессии, устанавливая или читая их значение из $_SESSION
+// продолжаем работать с переменными сессии, устанавливая или читая их значение из $_SESSION
 ```
 
 ## Зміст

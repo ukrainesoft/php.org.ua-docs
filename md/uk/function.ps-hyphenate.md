@@ -42,14 +42,14 @@ ps_hyphenate(resource $psdoc, string $text): array|false
 
 ```php
 <?php
-$word = "Koordinatensystem";
-$psdoc = ps_new();
-ps_set_parameter($psdoc, "hyphendict", "hyph_de.dic");
-$hyphens = ps_hyphenate($psdoc, $word);
-for($i=0; $i<strlen($word); $i++) {
-  echo $word[$i];
-  if(in_array($i, $hyphens))
-    echo "-";
+$word = "Koordinatensystem";
+$psdoc = ps_new();
+ps_set_parameter($psdoc, "hyphendict", "hyph_de.dic");
+$hyphens = ps_hyphenate($psdoc, $word);
+for($i=0; $i<strlen($word); $i++) {
+  echo $word[$i];
+  if(in_array($i, $hyphens))
+    echo "-";
 }
 ps_delete($psdoc);
 ?>

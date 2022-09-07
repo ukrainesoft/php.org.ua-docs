@@ -36,7 +36,7 @@ public DirectoryIterator::getOwner(): int
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
+$iterator = new DirectoryIterator(dirname(__FILE__));
 print_r(posix_getpwuid($iterator->getOwner()));
 ?>
 ```

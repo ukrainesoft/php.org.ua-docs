@@ -44,7 +44,7 @@ uopz_undefine(string $class, string $constant): bool
 
 ```php
 <?php
-define("MY", true);
+define("MY", true);
 
 uopz_undefine("MY");
 

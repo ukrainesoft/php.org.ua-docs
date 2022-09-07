@@ -36,9 +36,9 @@ gethostbyname(string $hostname): string
 
 ```php
 <?php
-$ip = gethostbyname('www.example.com');
+$ip = gethostbyname('www.example.com');
 
-echo $ip;
+echo $ip;
 ?>
 ```
 

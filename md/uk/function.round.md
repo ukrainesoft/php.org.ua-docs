@@ -64,13 +64,13 @@ round(int|float $num, int $precision = 0, int $mode = PHP_ROUND_HALF_UP): float
 var_dump(round(3.4));
 var_dump(round(3.5));
 var_dump(round(3.6));
-var_dump(round(3.6, 0));
-var_dump(round(5.045, 2));
-var_dump(round(5.055, 2));
-var_dump(round(345, -2));
-var_dump(round(345, -3));
-var_dump(round(678, -2));
-var_dump(round(678, -3));
+var_dump(round(3.6, 0));
+var_dump(round(5.045, 2));
+var_dump(round(5.055, 2));
+var_dump(round(345, -2));
+var_dump(round(345, -3));
+var_dump(round(678, -2));
+var_dump(round(678, -3));
 ?>
 ```
 
@@ -93,15 +93,15 @@ float(1000)
 
 ```php
 <?php
-$number = 135.79;
+$number = 135.79;
 
-var_dump(round($number, 3));
-var_dump(round($number, 2));
-var_dump(round($number, 1));
-var_dump(round($number, 0));
-var_dump(round($number, -1));
-var_dump(round($number, -2));
-var_dump(round($number, -3));
+var_dump(round($number, 3));
+var_dump(round($number, 2));
+var_dump(round($number, 1));
+var_dump(round($number, 0));
+var_dump(round($number, -1));
+var_dump(round($number, -2));
+var_dump(round($number, -3));
 ?>
 ```
 
@@ -121,18 +121,18 @@ float(0)
 
 ```php
 <?php
-echo 'Режимы округления с 9.5' . PHP_EOL;
-var_dump(round(9.5, 0, PHP_ROUND_HALF_UP));
-var_dump(round(9.5, 0, PHP_ROUND_HALF_DOWN));
-var_dump(round(9.5, 0, PHP_ROUND_HALF_EVEN));
-var_dump(round(9.5, 0, PHP_ROUND_HALF_ODD));
+echo 'Режимы округления с 9.5' . PHP_EOL;
+var_dump(round(9.5, 0, PHP_ROUND_HALF_UP));
+var_dump(round(9.5, 0, PHP_ROUND_HALF_DOWN));
+var_dump(round(9.5, 0, PHP_ROUND_HALF_EVEN));
+var_dump(round(9.5, 0, PHP_ROUND_HALF_ODD));
 
-echo PHP_EOL;
-echo 'Режимы округления с 8.5' . PHP_EOL;
-var_dump(round(8.5, 0, PHP_ROUND_HALF_UP));
-var_dump(round(8.5, 0, PHP_ROUND_HALF_DOWN));
-var_dump(round(8.5, 0, PHP_ROUND_HALF_EVEN));
-var_dump(round(8.5, 0, PHP_ROUND_HALF_ODD));
+echo PHP_EOL;
+echo 'Режимы округления с 8.5' . PHP_EOL;
+var_dump(round(8.5, 0, PHP_ROUND_HALF_UP));
+var_dump(round(8.5, 0, PHP_ROUND_HALF_DOWN));
+var_dump(round(8.5, 0, PHP_ROUND_HALF_EVEN));
+var_dump(round(8.5, 0, PHP_ROUND_HALF_ODD));
 ?>
 ```
 
@@ -156,24 +156,24 @@ float(9)
 
 ```php
 <?php
-echo 'Использование PHP_ROUND_HALF_UP с точностью до 1 знака' . PHP_EOL;
-var_dump(round( 1.55, 1, PHP_ROUND_HALF_UP));
-var_dump(round(-1.55, 1, PHP_ROUND_HALF_UP));
+echo 'Использование PHP_ROUND_HALF_UP с точностью до 1 знака' . PHP_EOL;
+var_dump(round( 1.55, 1, PHP_ROUND_HALF_UP));
+var_dump(round(-1.55, 1, PHP_ROUND_HALF_UP));
 
-echo PHP_EOL;
-echo 'Использование PHP_ROUND_HALF_DOWN с точностью до 1 знака' . PHP_EOL;
-var_dump(round( 1.55, 1, PHP_ROUND_HALF_DOWN));
-var_dump(round(-1.55, 1, PHP_ROUND_HALF_DOWN));
+echo PHP_EOL;
+echo 'Использование PHP_ROUND_HALF_DOWN с точностью до 1 знака' . PHP_EOL;
+var_dump(round( 1.55, 1, PHP_ROUND_HALF_DOWN));
+var_dump(round(-1.55, 1, PHP_ROUND_HALF_DOWN));
 
-echo PHP_EOL;
-echo 'Использование PHP_ROUND_HALF_EVEN с точностью до 1 знака' . PHP_EOL;
-var_dump(round( 1.55, 1, PHP_ROUND_HALF_EVEN));
-var_dump(round(-1.55, 1, PHP_ROUND_HALF_EVEN));
+echo PHP_EOL;
+echo 'Использование PHP_ROUND_HALF_EVEN с точностью до 1 знака' . PHP_EOL;
+var_dump(round( 1.55, 1, PHP_ROUND_HALF_EVEN));
+var_dump(round(-1.55, 1, PHP_ROUND_HALF_EVEN));
 
-echo PHP_EOL;
-echo 'Использование PHP_ROUND_HALF_ODD с точностью до 1 знака' . PHP_EOL;
-var_dump(round( 1.55, 1, PHP_ROUND_HALF_ODD));
-var_dump(round(-1.55, 1, PHP_ROUND_HALF_ODD));
+echo PHP_EOL;
+echo 'Использование PHP_ROUND_HALF_ODD с точностью до 1 знака' . PHP_EOL;
+var_dump(round( 1.55, 1, PHP_ROUND_HALF_ODD));
+var_dump(round(-1.55, 1, PHP_ROUND_HALF_ODD));
 ?>
 ```
 

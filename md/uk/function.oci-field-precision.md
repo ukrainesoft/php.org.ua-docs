@@ -43,30 +43,30 @@ oci_field_precision(resource $statement, string|int $column): int|false
 ```php
 <?php
 
-// Создайте таблицу:
-//   CREATE TABLE mytab (c1 NUMBER, c2 FLOAT, c3 NUMBER(4), c4 NUMBER(5,3));
+// Создайте таблицу:
+//   CREATE TABLE mytab (c1 NUMBER, c2 FLOAT, c3 NUMBER(4), c4 NUMBER(5,3));
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-if (!$conn) {
-    $m = oci_error();
-    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, "SELECT * FROM mytab");
-oci_execute($stid, OCI_DESCRIBE_ONLY); // используйте OCI_DESCRIBE_ONLY, если не получаете данных
+$stid = oci_parse($conn, "SELECT * FROM mytab");
+oci_execute($stid, OCI_DESCRIBE_ONLY); // используйте OCI_DESCRIBE_ONLY, если не получаете данных
 
-$ncols = oci_num_fields($stid);
-for ($i = 1; $i <= $ncols; $i++) {
-    echo oci_field_name($stid, $i) . " "
-        . oci_field_precision($stid, $i) . " "
-        . oci_field_scale($stid, $i) . "<br>\n";
+$ncols = oci_num_fields($stid);
+for ($i = 1; $i <= $ncols; $i++) {
+    echo oci_field_name($stid, $i) . " "
+        . oci_field_precision($stid, $i) . " "
+        . oci_field_scale($stid, $i) . "<br>\n";
 }
 
-// Выведет:
-//   C1    0 -127
-//   C2  126 -127
-//   C3    4    0
-//   C4    5    3
+// Выведет:
+//   C1    0 -127
+//   C2  126 -127
+//   C3    4    0
+//   C4    5    3
 
 oci_free_statement($stid);
 oci_close($conn);

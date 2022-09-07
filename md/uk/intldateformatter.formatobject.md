@@ -40,7 +40,7 @@ datefmt_format_object(IntlCalendar|DateTimeInterface $datetime, array|int|string
 
 `format`
 
-Як відформатувати дату/час. Можливо або масив (array) з двома елементами (спочатку стиль дати, потім стиль часу, може бути одна з констант: **`IntlDateFormatter::NONE`** **`IntlDateFormatter::SHORT`** **`IntlDateFormatter::MEDIUM`** **`IntlDateFormatter::LONG`** **`IntlDateFormatter::FULL`**), ціле число (int) зі значенням однієї з цих констант (у цьому випадку воно буде використовуватися як для часу, так і для дати) або рядок (string) у форматі, описаному в [» документации ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax). Якщо вказано значення **`null`**, використовуватиметься стиль за замовчуванням.
+Як відформатувати дату/час. Можливо або масив (array) з двома елементами (спочатку стиль дати, потім стиль часу, може бути одна з констант: **`IntlDateFormatter::NONE`** **`IntlDateFormatter::SHORT`** **`IntlDateFormatter::MEDIUM`** **`IntlDateFormatter::LONG`** **`IntlDateFormatter::FULL`**), ціле число (int) зі значенням однієї з цих констант (у цьому випадку воно буде використовуватися як для часу, так і для дати) або рядок (string) у форматі, описаному в [» документации ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax). Якщо вказано значення **`null`**, використовуватиметься стиль за замовчуванням.
 
 `locale`
 
@@ -56,36 +56,36 @@ datefmt_format_object(IntlCalendar|DateTimeInterface $datetime, array|int|string
 
 ```php
 <?php
-/* часовой пояс по умолчанию не имеет значения; часовой пояс взят из объекта */
-ini_set('date.timezone', 'UTC');
-/* языковой стандарт по умолчанию берётся из этой настройки ini */
-ini_set('intl.default_locale', 'fr_FR');
+/* часовой пояс по умолчанию не имеет значения; часовой пояс взят из объекта */
+ini_set('date.timezone', 'UTC');
+/* языковой стандарт по умолчанию берётся из этой настройки ini */
+ini_set('intl.default_locale', 'fr_FR');
 
-$cal = IntlCalendar::fromDateTime("2013-06-06 17:05:06 Europe/Dublin");
-echo "По умолчанию:\n\t",
-        IntlDateFormatter::formatObject($cal),
-        "\n";
+$cal = IntlCalendar::fromDateTime("2013-06-06 17:05:06 Europe/Dublin");
+echo "По умолчанию:\n\t",
+        IntlDateFormatter::formatObject($cal),
+        "\n";
 
-echo "Полная запись: \$format (full):\n\t",
-        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL),
-        "\n";
+echo "Полная запись: \$format (full):\n\t",
+        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL),
+        "\n";
 
-echo "Масив: \$format (none, full):\n\t",
-        IntlDateFormatter::formatObject($cal, array(
-                IntlDateFormatter::NONE,
-                IntlDateFormatter::FULL)),
-        "\n";
+echo "Масив: \$format (none, full):\n\t",
+        IntlDateFormatter::formatObject($cal, array(
+                IntlDateFormatter::NONE,
+                IntlDateFormatter::FULL)),
+        "\n";
 
-echo "Строка: \$format (d 'of' MMMM y):\n\t",
-        IntlDateFormatter::formatObject($cal, "d 'of' MMMM y", 'en_US'),
-        "\n";
+echo "Строка: \$format (d 'of' MMMM y):\n\t",
+        IntlDateFormatter::formatObject($cal, "d 'of' MMMM y", 'en_US'),
+        "\n";
 
-echo "Объект DateTime:\n\t",
-        IntlDateFormatter::formatObject(
-                new DateTime("2013-09-09 09:09:09 Europe/Madrid"),
-                IntlDateFormatter::FULL,
-                'es_ES'),
-        "\n";
+echo "Объект DateTime:\n\t",
+        IntlDateFormatter::formatObject(
+                new DateTime("2013-09-09 09:09:09 Europe/Madrid"),
+                IntlDateFormatter::FULL,
+                'es_ES'),
+        "\n";
 ```
 
 Результат виконання цього прикладу:

@@ -19,7 +19,7 @@ finfofile -- finfo::file — Повертає інформацію про фай
 Процедурний стиль
 
 ```methodsynopsis
-finfo_file(    finfo $finfo,    string $filename,    int $flags = FILEINFO_NONE,    ?resource $context = null): string|false
+finfo_file(    finfo $finfo,    string $filename,    int $flags = FILEINFO_NONE,    ?resource $context = null): string|false
 ```
 
 Об'єктно-орієнтований стиль
@@ -65,9 +65,9 @@ public finfo::file(string $filename, int $flags = FILEINFO_NONE, ?resource $cont
 
 ```php
 <?php
-$finfo = finfo_open(FILEINFO_MIME_TYPE); // возвращает mime-тип
-foreach (glob("*") as $filename) {
-    echo finfo_file($finfo, $filename) . "\n";
+$finfo = finfo_open(FILEINFO_MIME_TYPE); // возвращает mime-тип
+foreach (glob("*") as $filename) {
+    echo finfo_file($finfo, $filename) . "\n";
 }
 finfo_close($finfo);
 ?>

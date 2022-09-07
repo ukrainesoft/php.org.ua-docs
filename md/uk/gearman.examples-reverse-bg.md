@@ -15,22 +15,22 @@ title: 'Базовий клієнт та обробник Gearman, фонови�
 ```php
 <?php
 
-# создание объекта
-$gmclient= new GearmanClient();
+# создание объекта
+$gmclient= new GearmanClient();
 
-# указание сервера по умолчанию (localhost)
+# указание сервера по умолчанию (localhost)
 $gmclient->addServer();
 
-# выполнение в фоновом режиме
-$job_handle = $gmclient->doBackground("reverse", "this is a test");
+# выполнение в фоновом режиме
+$job_handle = $gmclient->doBackground("reverse", "this is a test");
 
-if ($gmclient->returnCode() != GEARMAN_SUCCESS)
+if ($gmclient->returnCode() != GEARMAN_SUCCESS)
 {
-  echo "bad return code\n";
-  exit;
+  echo "bad return code\n";
+  exit;
 }
 
-echo "done!\n";
+echo "done!\n";
 
 ?>
 ```
@@ -38,56 +38,56 @@ echo "done!\n";
 ```php
 <?php
 
-echo "Starting\n";
+echo "Starting\n";
 
-# Создание обработчика.
-$gmworker= new GearmanWorker();
+# Создание обработчика.
+$gmworker= new GearmanWorker();
 
-# Указание сервера по умолчанию (localhost).
+# Указание сервера по умолчанию (localhost).
 $gmworker->addServer();
 
-# Регистрация функции "reverse" на сервере. Изменение функции обработчика на
-# "reverse_fn_fast" для более быстрой обработки без вывода.
-$gmworker->addFunction("reverse", "reverse_fn");
+# Регистрация функции "reverse" на сервере. Изменение функции обработчика на
+# "reverse_fn_fast" для более быстрой обработки без вывода.
+$gmworker->addFunction("reverse", "reverse_fn");
 
-print "Waiting for job...\n";
+print "Waiting for job...\n";
 while($gmworker->work())
 {
-  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
-  {
-    echo "return_code: " . $gmworker->returnCode() . "\n";
-    break;
-  }
+  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
+  {
+    echo "return_code: " . $gmworker->returnCode() . "\n";
+    break;
+  }
 }
 
-function reverse_fn($job)
+function reverse_fn($job)
 {
-  echo "Received job: " . $job->handle() . "\n";
+  echo "Received job: " . $job->handle() . "\n";
 
-  $workload = $job->workload();
-  $workload_size = $job->workloadSize();
+  $workload = $job->workload();
+  $workload_size = $job->workloadSize();
 
-  echo "Workload: $workload ($workload_size)\n";
+  echo "Workload: $workload ($workload_size)\n";
 
-  # Этот цикл не является необходимым, но показывает как выполняется работа
-  for ($x= 0; $x < $workload_size; $x++)
-  {
-    echo "Sending status: " . ($x + 1) . "/$workload_size complete\n";
-    $job->sendStatus($x, $workload_size);
-    sleep(1);
-  }
+  # Этот цикл не является необходимым, но показывает как выполняется работа
+  for ($x= 0; $x < $workload_size; $x++)
+  {
+    echo "Sending status: " . ($x + 1) . "/$workload_size complete\n";
+    $job->sendStatus($x, $workload_size);
+    sleep(1);
+  }
 
-  $result= strrev($workload);
-  echo "Result: $result\n";
+  $result= strrev($workload);
+  echo "Result: $result\n";
 
-  # Возвращаем, когда необходимо отправить результат обратно клиенту.
-  return $result;
+  # Возвращаем, когда необходимо отправить результат обратно клиенту.
+  return $result;
 }
 
-# Гораздо более простая и менее подробная версия вышеприведённой функции выглядит так:
-function reverse_fn_fast($job)
+# Гораздо более простая и менее подробная версия вышеприведённой функции выглядит так:
+function reverse_fn_fast($job)
 {
-  return strrev($job->workload());
+  return strrev($job->workload());
 }
 
 ?>

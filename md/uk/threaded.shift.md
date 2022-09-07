@@ -34,10 +34,10 @@ public Threaded::shift(): mixed
 
 ```php
 <?php
-$safe = new Threaded();
+$safe = new Threaded();
 
-while (count($safe) < 10)
-    $safe[] = count($safe);
+while (count($safe) < 10)
+    $safe[] = count($safe);
 
 var_dump($safe->shift());
 ?>

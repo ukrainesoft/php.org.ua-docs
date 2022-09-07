@@ -40,11 +40,11 @@ mcrypt_list_modes(string $lib_dir = ini_get("mcrypt.modes_dir")): array
 
 ```php
 <?php
-    $modes = mcrypt_list_modes();
+    $modes = mcrypt_list_modes();
 
-    foreach ($modes as $mode) {
-        echo "$mode <br />\n";
-    }
+    foreach ($modes as $mode) {
+        echo "$mode <br />\n";
+    }
 ?>
 ```
 

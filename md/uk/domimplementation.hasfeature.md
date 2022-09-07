@@ -20,7 +20,7 @@ public DOMImplementation::hasFeature(string $feature, string $version): bool
 
 Перевіряє, чи реалізує специфічну можливість `feature` реалізація DOM.
 
-Ви можете знайти список усіх можливостей у розділі [» Согласование](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/introduction.md#ID-Conformance) стандарту DOM.
+Ви можете знайти список усіх можливостей у розділі [» Согласование](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/introduction.md#ID-Conformance) стандарту DOM.
 
 ### Список параметрів
 
@@ -47,29 +47,29 @@ public DOMImplementation::hasFeature(string $feature, string $version): bool
 ```php
 <?php
 
-$features = array(
-  'Core'           => 'Core module',
-  'XML'            => 'XML module',
-  'HTML'           => 'HTML module',
-  'Views'          => 'Views module',
-  'Stylesheets'    => 'Style Sheets module',
-  'CSS'            => 'CSS module',
-  'CSS2'           => 'CSS2 module',
-  'Events'         => 'Events module',
-  'UIEvents'       => 'User interface Events module',
-  'MouseEvents'    => 'Mouse Events module',
-  'MutationEvents' => 'Mutation Events module',
-  'HTMLEvents'     => 'HTML Events module',
-  'Range'          => 'Range module',
-  'Traversal'      => 'Traversal module'
+$features = array(
+  'Core'           => 'Core module',
+  'XML'            => 'XML module',
+  'HTML'           => 'HTML module',
+  'Views'          => 'Views module',
+  'Stylesheets'    => 'Style Sheets module',
+  'CSS'            => 'CSS module',
+  'CSS2'           => 'CSS2 module',
+  'Events'         => 'Events module',
+  'UIEvents'       => 'User interface Events module',
+  'MouseEvents'    => 'Mouse Events module',
+  'MutationEvents' => 'Mutation Events module',
+  'HTMLEvents'     => 'HTML Events module',
+  'Range'          => 'Range module',
+  'Traversal'      => 'Traversal module'
 );
 
-foreach ($features as $key => $name) {
-  if (DOMImplementation::hasFeature($key, '2.0')) {
-    echo "Реализует возможность $name\n";
-  } else {
-    echo "Возможность $name отсутствует\n";
-  }
+foreach ($features as $key => $name) {
+  if (DOMImplementation::hasFeature($key, '2.0')) {
+    echo "Реализует возможность $name\n";
+  } else {
+    echo "Возможность $name отсутствует\n";
+  }
 }
 
 ?>

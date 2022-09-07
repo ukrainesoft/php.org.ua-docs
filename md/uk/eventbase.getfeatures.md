@@ -35,19 +35,19 @@ public
 
 ```php
 <?php
-// Avoiding "select" method
-$cfg = new EventConfig();
-if ($cfg->avoidMethod("select")) {
-    echo "Метод 'select' будет игнорироваться\n";
+// Avoiding "select" method
+$cfg = new EventConfig();
+if ($cfg->avoidMethod("select")) {
+    echo "Метод 'select' будет игнорироваться\n";
 }
 
-$base = new EventBase($cfg);
+$base = new EventBase($cfg);
 
-echo "Характеристики:\n";
-$features = $base->getFeatures();
-($features & EventConfig::FEATURE_ET) and print("ET - edge-triggered IO\n");
-($features & EventConfig::FEATURE_O1) and print("O1 - O(1) operation for adding/deletting events\n");
-($features & EventConfig::FEATURE_FDS) and print("FDS - arbitrary file descriptor types, and not just sockets\n");
+echo "Характеристики:\n";
+$features = $base->getFeatures();
+($features & EventConfig::FEATURE_ET) and print("ET - edge-triggered IO\n");
+($features & EventConfig::FEATURE_O1) and print("O1 - O(1) operation for adding/deletting events\n");
+($features & EventConfig::FEATURE_FDS) and print("FDS - arbitrary file descriptor types, and not just sockets\n");
 ?>
 ```
 

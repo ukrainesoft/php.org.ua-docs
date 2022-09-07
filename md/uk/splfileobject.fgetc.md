@@ -38,9 +38,9 @@ public SplFileObject::fgetc(): string|false
 
 ```php
 <?php
-$file = new SplFileObject('file.txt');
-while (false !== ($char = $file->fgetc())) {
-    echo "$char\n";
+$file = new SplFileObject('file.txt');
+while (false !== ($char = $file->fgetc())) {
+    echo "$char\n";
 }
 ?>
 ```

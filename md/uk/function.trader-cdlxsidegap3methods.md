@@ -15,7 +15,7 @@ tradercdlxsidegap3methods - Верх/вниз - три методи
 ### Опис
 
 ```methodsynopsis
-trader_cdlxsidegap3methods(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlxsidegap3methods(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

@@ -43,13 +43,13 @@ dbase_close(resource $database): bool
 ```php
 <?php
 
-// открыть БД в режиме чтения
-$db = dbase_open('/tmp/test.dbf', 0);
+// открыть БД в режиме чтения
+$db = dbase_open('/tmp/test.dbf', 0);
 
-if ($db) {
-  // получить некоторые данные
+if ($db) {
+  // получить некоторые данные
 
-  dbase_close($db);
+  dbase_close($db);
 }
 
 ?>

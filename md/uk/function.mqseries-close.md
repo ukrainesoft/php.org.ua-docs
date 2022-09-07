@@ -15,7 +15,7 @@ mqseriesclose — MQSeries MQCLOSE
 ### Опис
 
 ```methodsynopsis
-mqseries_close(    resource $hconn,    resource $hobj,    int $options,    resource &$compCode,    resource &$reason): void
+mqseries_close(    resource $hconn,    resource $hobj,    int $options,    resource &$compCode,    resource &$reason): void
 ```
 
 Функція **mqseriesclose()** (MQCLOSE) припиняє доступ до об'єкта і є зворотною функцією [mqseriesopen()](function.mqseries-open.md) (MQOPEN).
@@ -54,10 +54,10 @@ Completion code.
 
 ```php
 <?php
-    mqseries_close($conn, $obj, MQSERIES_MQCO_NONE, $comp_code, $reason);
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("close CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-    }
+    mqseries_close($conn, $obj, MQSERIES_MQCO_NONE, $comp_code, $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("close CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+    }
 ?>
 ```
 

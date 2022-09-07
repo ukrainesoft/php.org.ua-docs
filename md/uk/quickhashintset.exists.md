@@ -36,26 +36,26 @@ public QuickHashIntSet::exists(int $key): bool
 
 ```php
 <?php
-// создание 200000 элементов
-$array = range( 0, 199999 );
-$existingEntries = array_rand( array_flip( $array ), 180000 );
-$testForEntries = array_rand( array_flip( $array ), 1000 );
-$foundCount = 0;
+// создание 200000 элементов
+$array = range( 0, 199999 );
+$existingEntries = array_rand( array_flip( $array ), 180000 );
+$testForEntries = array_rand( array_flip( $array ), 1000 );
+$foundCount = 0;
 
-echo "Создание набора: ", microtime( true ), "\n";
-$set = new QuickHashIntSet( 100000 );
-echo "Добавление элементов: ", microtime( true ), "\n";
-foreach( $existingEntries as $key )
+echo "Создание набора: ", microtime( true ), "\n";
+$set = new QuickHashIntSet( 100000 );
+echo "Добавление элементов: ", microtime( true ), "\n";
+foreach( $existingEntries as $key )
 {
-     $set->add( $key );
+     $set->add( $key );
 }
 
-echo "Выполнение 1000 тестов: ", microtime( true ), "\n";
-foreach( $testForEntries as $key )
+echo "Выполнение 1000 тестов: ", microtime( true ), "\n";
+foreach( $testForEntries as $key )
 {
-     $foundCount += $set->exists( $key );
+     $foundCount += $set->exists( $key );
 }
-echo "Готово, $foundCount найдено: ", microtime( true ), "\n";
+echo "Готово, $foundCount найдено: ", microtime( true ), "\n";
 ?>
 ```
 

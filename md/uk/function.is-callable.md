@@ -44,42 +44,42 @@ is_callable(mixed $value, bool $syntax_only = false, string &$callable_name = nu
 
 ```php
 <?php
-//  Как проверить переменную, чтобы узнать, может ли она быть вызвана
-//  как функция.
+//  Как проверить переменную, чтобы узнать, может ли она быть вызвана
+//  как функция.
 
 //
-//  Простая переменная, содержащая имя функции
+//  Простая переменная, содержащая имя функции
 //
 
-function someFunction()
+function someFunction()
 {
 }
 
-$functionVariable = 'someFunction';
+$functionVariable = 'someFunction';
 
-var_dump(is_callable($functionVariable, false, $callable_name));  // bool(true)
+var_dump(is_callable($functionVariable, false, $callable_name));  // bool(true)
 
-echo $callable_name, "\n";  // someFunction
+echo $callable_name, "\n";  // someFunction
 
 //
-//  Масив, содержащий метод класса
+//  Масив, содержащий метод класса
 //
 
-class someClass {
+class someClass {
 
-  function someMethod()
-  {
-  }
+  function someMethod()
+  {
+  }
 
 }
 
-$anObject = new someClass();
+$anObject = new someClass();
 
-$methodVariable = array($anObject, 'someMethod');
+$methodVariable = array($anObject, 'someMethod');
 
-var_dump(is_callable($methodVariable, true, $callable_name));  //  bool(true)
+var_dump(is_callable($methodVariable, true, $callable_name));  //  bool(true)
 
-echo $callable_name, "\n";  //  someClass::someMethod
+echo $callable_name, "\n";  //  someClass::someMethod
 
 ?>
 ```
@@ -91,15 +91,15 @@ echo $callable_name, "\n";  //  someClass::someMethod
 ```php
 <?php
 
-class Foo
+class Foo
 {
-    public function __construct() {}
-    public function foo() {}
+    public function __construct() {}
+    public function foo() {}
 }
 
 var_dump(
-    is_callable(array('Foo', '__construct')),
-    is_callable(array('Foo', 'foo'))
+    is_callable(array('Foo', '__construct')),
+    is_callable(array('Foo', 'foo'))
 );
 ```
 

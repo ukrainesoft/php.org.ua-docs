@@ -36,25 +36,25 @@ public ReflectionClass::hasMethod(string $name): bool
 
 ```php
 <?php
-Class C {
-    public function publicFoo() {
-        return true;
-    }
+Class C {
+    public function publicFoo() {
+        return true;
+    }
 
-    protected function protectedFoo() {
-        return true;
-    }
+    protected function protectedFoo() {
+        return true;
+    }
 
-    private function privateFoo() {
-        return true;
-    }
+    private function privateFoo() {
+        return true;
+    }
 
-    static function staticFoo() {
-        return true;
-    }
+    static function staticFoo() {
+        return true;
+    }
 }
 
-$rc = new ReflectionClass("C");
+$rc = new ReflectionClass("C");
 
 var_dump($rc->hasMethod('publicFoo'));
 
@@ -64,10 +64,10 @@ var_dump($rc->hasMethod('privateFoo'));
 
 var_dump($rc->hasMethod('staticFoo'));
 
-// C не имеет метода bar
+// C не имеет метода bar
 var_dump($rc->hasMethod('bar'));
 
-// Имена методов регистронезависимые
+// Имена методов регистронезависимые
 var_dump($rc->hasMethod('PUBLICfOO'));
 ?>
 ```

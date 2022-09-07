@@ -38,7 +38,7 @@ generic
     ./configure --with-pdo-odbc=ibm-db2,/opt/IBM/db2/V8.1/
     ```
     
-    Для збирання PDOODBC для ibm-db2 потрібно попередньо встановити файли заголовків пакета розробника програм DB2. Заголовні файли пакета розробника додатків DB2 можна встановити як за допомогою інсталяційного пакета сервера DB2, так і у складі окремого клієнта "DB2 Application Development Client", доступного для завантаження з [» сайта поддержки](https://www.ibm.com/developerworks/downloads/im/db2express/index.md) IBM developerWorks.
+    Для збирання PDOODBC для ibm-db2 потрібно попередньо встановити файли заголовків пакета розробника програм DB2. Заголовні файли пакета розробника додатків DB2 можна встановити як за допомогою інсталяційного пакета сервера DB2, так і у складі окремого клієнта "DB2 Application Development Client", доступного для завантаження з [» сайта поддержки](https://www.ibm.com/developerworks/downloads/im/db2express/index.md) IBM developerWorks.
     
     Якщо ви не вкажете директорію установки бібліотек та заголовних файлів DB2, **configure** буде шукати їх у /home/db2inst1/sqllib.
     

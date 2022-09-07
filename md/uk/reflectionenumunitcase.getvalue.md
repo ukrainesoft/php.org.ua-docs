@@ -34,17 +34,17 @@ public ReflectionEnumUnitCase::getValue(): UnitEnum
 
 ```php
 <?php
-enum Suit
+enum Suit
 {
-    case Hearts;
-    case Diamonds;
-    case Clubs;
-    case Spades;
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
 }
 
-$rEnum = new ReflectionEnum(Suit::class);
+$rEnum = new ReflectionEnum(Suit::class);
 
-$rCase = $rEnum->getCase('Diamonds');
+$rCase = $rEnum->getCase('Diamonds');
 
 var_dump($rCase->getValue());
 ?>

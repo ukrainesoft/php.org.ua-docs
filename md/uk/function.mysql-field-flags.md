@@ -49,15 +49,15 @@ mysql_field_flags(resource $result, int $field_offset): string|false
 
 ```php
 <?php
-$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
-if (!$result) {
-    echo 'Ошибка в запросе: ' . mysql_error();
-    exit;
+$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$result) {
+    echo 'Ошибка в запросе: ' . mysql_error();
+    exit;
 }
-$flags = mysql_field_flags($result, 0);
+$flags = mysql_field_flags($result, 0);
 
-echo $flags;
-print_r(explode(' ', $flags));
+echo $flags;
+print_r(explode(' ', $flags));
 ?>
 ```
 

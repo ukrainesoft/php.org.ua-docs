@@ -15,7 +15,7 @@ eiorealpath - Отримує абсолютний приведений до ка
 ### Опис
 
 ```methodsynopsis
-eio_realpath(    string $path,    int $pri,    callable $callback,    string $data = NULL): resource
+eio_realpath(    string $path,    int $pri,    callable $callback,    string $data = NULL): resource
 ```
 
 **eiorealpath()** повертає абсолютний шлях через аргумент `result` функції `callback`
@@ -42,11 +42,11 @@ eio_realpath(    string $path,    int $pri,    callable $callback, 
 <?php
 var_dump(getcwd());
 
-function my_realpath_allback($data, $result) {
-    var_dump($result);
+function my_realpath_allback($data, $result) {
+    var_dump($result);
 }
 
-eio_realpath("../", EIO_PRI_DEFAULT, "my_realpath_allback");
+eio_realpath("../", EIO_PRI_DEFAULT, "my_realpath_allback");
 eio_event_loop();
 ?>
 ```

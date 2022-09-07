@@ -15,7 +15,7 @@ ssh2sftpmkdir — Створити директорію
 ### Опис
 
 ```methodsynopsis
-ssh2_sftp_mkdir(    resource $sftp,    string $dirname,    int $mode = 0777,    bool $recursive = false): bool
+ssh2_sftp_mkdir(    resource $sftp,    string $dirname,    int $mode = 0777,    bool $recursive = false): bool
 ```
 
 Створює директорію на сервері із заданими в `mode` правами доступу.
@@ -50,12 +50,12 @@ ssh2_sftp_mkdir(    resource $sftp,    string $dirname,    int $mode
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
-$sftp = ssh2_sftp($connection);
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
 
-ssh2_sftp_mkdir($sftp, '/home/username/newdir');
-/* Или так:  mkdir("ssh2.sftp://$sftp/home/username/newdir"); */
+ssh2_sftp_mkdir($sftp, '/home/username/newdir');
+/* Или так:  mkdir("ssh2.sftp://$sftp/home/username/newdir"); */
 ?>
 ```
 

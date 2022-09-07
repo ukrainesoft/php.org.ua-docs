@@ -15,7 +15,7 @@ imapfetchbody — Витягти конкретну секцію тіла пов
 ### Опис
 
 ```methodsynopsis
-imap_fetchbody(    IMAP\Connection $imap,    int $message_num,    string $section,    int $flags = 0): string|false
+imap_fetchbody(    IMAP\Connection $imap,    int $message_num,    string $section,    int $flags = 0): string|false
 ```
 
 Витягує конкретну секцію тіла повідомлення. Секції повідомлення у цій функції не декодуються.

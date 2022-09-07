@@ -24,9 +24,9 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 `filter` (array | об'єкт)
 
-[» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
+[» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.md) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.md) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `queryOptions`
 
@@ -51,7 +51,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 | | collation | array | об'єкт |
 
-[» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"` також обов'язково. Опис полів дивіться у розділі [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document)
+[» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"` також обов'язково. Опис полів дивіться у розділі [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document)
 
 Якщо порівняння не задано явно, але в колекції визначено зіставлення за умовчанням, буде використано воно. Якщо немає ні того, то MongoDB буде використовувати просте бінарне порівняння рядків.
 
@@ -77,7 +77,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Повернення до застарілого модифікатора `"$explain"`якщо він не вказаний.
 
-Ця опція не підтримується командою find в MongoDB 3.2+ і враховуватиметься лише при використанні застарілої версії проводового протоколу (тобто OPQUERY). Команда [» explain](https://www.mongodb.com/docs/manual/reference/command/explain/) має використовуватися на MongoDB 3.0+.
+Ця опція не підтримується командою find в MongoDB 3.2+ і враховуватиметься лише при використанні застарілої версії проводового протоколу (тобто OPQUERY). Команда [» explain](https://www.mongodb.com/docs/manual/reference/command/explain/) має використовуватися на MongoDB 3.0+.
 
 | | hint | string | array | об'єкт |
 
@@ -129,7 +129,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Повернення до застарілого модифікатора `"$min"`якщо він не вказаний.
 
-| | modifiers | array | [» Метаоператори](https://www.mongodb.com/docs/manual/reference/operator/query-modifier/), що змінюють виведення чи поведінку запиту. Використання цих операторів не рекомендується на користь іменованих опцій. | | noCursorTimeout | bool | Забороняє серверу синхронізувати незайняті курсори після періоду бездіяльності (10 хвилин). | | oplogReplay | bool |
+| | modifiers | array | [» Метаоператори](https://www.mongodb.com/docs/manual/reference/operator/query-modifier/), що змінюють виведення чи поведінку запиту. Використання цих операторів не рекомендується на користь іменованих опцій. | | noCursorTimeout | bool | Забороняє серверу синхронізувати незайняті курсори після періоду бездіяльності (10 хвилин). | | oplogReplay | bool |
 
 Внутрішнє використання для реплік наборів. Щоб використовувати oplogReplay, ви повинні включити до фільтра наступну умову:
 
@@ -139,7 +139,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 | | проектування | array | об'єкт |
 
-[» Специфікація проекції](https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/) для визначення полів, які необхідно включити до документів, що повертаються.
+[» Специфікація проекції](https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/) для визначення полів, які необхідно включити до документів, що повертаються.
 
 Якщо ви використовуєте [функцию ODM](mongodb.persistence.deserialization.md) для десеріалізації документів як їх вихідний клас PHP, переконайтеся, що ви включили поле pclass у проекцію. Це необхідно для роботи десеріалізації, і без неї драйвер поверне (за умовчанням) об'єкт **stdClass**
 
@@ -210,7 +210,7 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 Перейменовано параметр `"partial"` в `"allowPartialResults"`. Для зворотної сумісності, `"partial"` все одно буде прочитаний, якщо `"allowPartialResults"` не вказано.
 
-Видалено застарілий параметр `"secondaryOk"`. Для запитів, які використовують застарілий дротовий протокол OPQUERY, драйвер встановить біт `secondaryOk` при необхідності відповідно до [» Специфікацією вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
+Видалено застарілий параметр `"secondaryOk"`. Для запитів, які використовують застарілий дротовий протокол OPQUERY, драйвер встановить біт `secondaryOk` при необхідності відповідно до [» Специфікацією вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
 
 | | PECL mongodb 1.1.0 Доданий параметр `"readConcern"`.
 
@@ -220,34 +220,34 @@ final public MongoDB\Driver\Query::__construct(array|object $filter, ?array $que
 
 ```php
 <?php
-/* Выберите только документы, автором которых является "bjori" с не менее 100 просмотров */
-$filter = [
-    'author' => 'bjori',
-    'views' => [
-        '$gte' => 100,
-    ],
+/* Выберите только документы, автором которых является "bjori" с не менее 100 просмотров */
+$filter = [
+    'author' => 'bjori',
+    'views' => [
+        '$gte' => 100,
+    ],
 ];
 
-$options = [
-    /* Вернуть только следующие поля в соответствующих документах */
-    'projection' => [
-        'title' => 1,
-        'article' => 1,
-    ],
-    /* Вернуть документы в порядке убывания просмотров */
-    'sort' => [
-        'views' => -1
-    ],
+$options = [
+    /* Вернуть только следующие поля в соответствующих документах */
+    'projection' => [
+        'title' => 1,
+        'article' => 1,
+    ],
+    /* Вернуть документы в порядке убывания просмотров */
+    'sort' => [
+        'views' => -1
+    ],
 ];
 
-$query = new MongoDB\Driver\Query($filter, $options);
+$query = new MongoDB\Driver\Query($filter, $options);
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
-$readPreference = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
-$cursor = $manager->executeQuery('databaseName.collectionName', $query, $readPreference);
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$readPreference = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
+$cursor = $manager->executeQuery('databaseName.collectionName', $query, $readPreference);
 
-foreach($cursor as $document) {
-    var_dump($document);
+foreach($cursor as $document) {
+    var_dump($document);
 }
 
 ?>

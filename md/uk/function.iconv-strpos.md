@@ -15,7 +15,7 @@ iconvstrpos — Повертає позицію першого входженн�
 ### Опис
 
 ```methodsynopsis
-iconv_strpos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
+iconv_strpos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
 ```
 
 Повертає позицію першого входження підрядка `needle` у рядку `haystack`

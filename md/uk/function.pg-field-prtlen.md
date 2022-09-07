@@ -58,18 +58,18 @@ pg_field_prtlen(PgSql\Result $result, mixed $field_name_or_number): int
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
 
-  $res = pg_query($dbconn, "select * from authors where author = 'Orwell'");
-  $i = pg_num_fields($res);
-  for ($j = 0; $j < $i; $j++) {
-      echo "column $j\n";
-      $fieldname = pg_field_name($res, $j);
-      echo "fieldname: $fieldname\n";
-      echo "printed length: " . pg_field_prtlen($res, $fieldname) . " characters\n";
-      echo "storage length: " . pg_field_size($res, $j) . " bytes\n";
-      echo "field type: " . pg_field_type($res, $j) . " \n\n";
-  }
+  $res = pg_query($dbconn, "select * from authors where author = 'Orwell'");
+  $i = pg_num_fields($res);
+  for ($j = 0; $j < $i; $j++) {
+      echo "column $j\n";
+      $fieldname = pg_field_name($res, $j);
+      echo "fieldname: $fieldname\n";
+      echo "printed length: " . pg_field_prtlen($res, $fieldname) . " characters\n";
+      echo "storage length: " . pg_field_size($res, $j) . " bytes\n";
+      echo "field type: " . pg_field_type($res, $j) . " \n\n";
+  }
 ?>
 ```
 

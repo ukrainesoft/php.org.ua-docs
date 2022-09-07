@@ -59,19 +59,19 @@ callback(string $class_name): void
 ```php
 <?php
 
-// function __autoload($class) {
-//     include 'classes/' . $class . '.class.php';
-// }
+// function __autoload($class) {
+//     include 'classes/' . $class . '.class.php';
+// }
 
-function my_autoloader($class) {
-    include 'classes/' . $class . '.class.php';
+function my_autoloader($class) {
+    include 'classes/' . $class . '.class.php';
 }
 
 spl_autoload_register('my_autoloader');
 
-// Можно использовать анонимные функции
-spl_autoload_register(function ($class) {
-    include 'classes/' . $class . '.class.php';
+// Можно использовать анонимные функции
+spl_autoload_register(function ($class) {
+    include 'classes/' . $class . '.class.php';
 });
 
 ?>
@@ -82,17 +82,17 @@ spl_autoload_register(function ($class) {
 ```php
 <?php
 
-namespace Foobar;
+namespace Foobar;
 
-class Foo {
-    static public function test($name) {
-        print '[['. $name .']]';
-    }
+class Foo {
+    static public function test($name) {
+        print '[['. $name .']]';
+    }
 }
 
-spl_autoload_register(__NAMESPACE__ .'\Foo::test');
+spl_autoload_register(__NAMESPACE__ .'\Foo::test');
 
-new InexistentClass;
+new InexistentClass;
 
 ?>
 ```

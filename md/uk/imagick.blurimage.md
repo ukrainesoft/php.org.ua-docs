@@ -51,12 +51,12 @@ public Imagick::blurImage(float $radius, float $sigma, int $channel = ?): bool
 ```php
 <?php
 
-header('Content-type: image/jpeg');
+header('Content-type: image/jpeg');
 
-$image = new Imagick('test.jpg');
+$image = new Imagick('test.jpg');
 
 $image->blurImage(5,3);
-echo $image;
+echo $image;
 
 ?>
 ```

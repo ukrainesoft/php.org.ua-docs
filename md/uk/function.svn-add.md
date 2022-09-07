@@ -66,4 +66,4 @@ svn_add('foobar.txt');
 
 ### Дивіться також
 
--   [» SVN-документация по команде svn add](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.add.md)
+-   [» SVN-документация по команде svn add](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.add.md)

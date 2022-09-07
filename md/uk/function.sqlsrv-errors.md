@@ -44,26 +44,26 @@ sqlsrv_errors(int $errorsOrWarnings = ?): mixed
 
 ```php
 <?php
-$serverName = "serverName/sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName/sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-/* Настройка запроса для выборки недопустимого имени столбца. */
-$sql = "SELECT BadColumnName FROM Table_1";
+/* Настройка запроса для выборки недопустимого имени столбца. */
+$sql = "SELECT BadColumnName FROM Table_1";
 
-/* Выполнение запроса завершится ошибкой из-за неправильного имени столбца. */
-$stmt = sqlsrv_query( $conn, $sql );
-if( $stmt === false ) {
-    if( ($errors = sqlsrv_errors() ) != null) {
-        foreach( $errors as $error ) {
-            echo "SQLSTATE: ".$error[ 'SQLSTATE']."<br />";
-            echo "Код: ".$error[ 'code']."<br />";
-            echo "Сообщение: ".$error[ 'message']."<br />";
-        }
-    }
+/* Выполнение запроса завершится ошибкой из-за неправильного имени столбца. */
+$stmt = sqlsrv_query( $conn, $sql );
+if( $stmt === false ) {
+    if( ($errors = sqlsrv_errors() ) != null) {
+        foreach( $errors as $error ) {
+            echo "SQLSTATE: ".$error[ 'SQLSTATE']."<br />";
+            echo "Код: ".$error[ 'code']."<br />";
+            echo "Сообщение: ".$error[ 'message']."<br />";
+        }
+    }
 }
 ?>
 ```

@@ -33,18 +33,18 @@ public Generator::getReturn(): mixed
 ```php
 <?php
 
-$gen = (function() {
-    yield 1;
-    yield 2;
+$gen = (function() {
+    yield 1;
+    yield 2;
 
-    return 3;
+    return 3;
 })();
 
-foreach ($gen as $val) {
-    echo $val, PHP_EOL;
+foreach ($gen as $val) {
+    echo $val, PHP_EOL;
 }
 
-echo $gen->getReturn(), PHP_EOL;
+echo $gen->getReturn(), PHP_EOL;
 ```
 
 Результат виконання цього прикладу:

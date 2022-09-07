@@ -15,7 +15,7 @@ substrcompare — Бінарно-безпечне порівняння 2 ряд�
 ### Опис
 
 ```methodsynopsis
-substr_compare(    string $haystack,    string $needle,    int $offset,    ?int $length = null,    bool $case_insensitive = false): int
+substr_compare(    string $haystack,    string $needle,    int $offset,    ?int $length = null,    bool $case_insensitive = false): int
 ```
 
 **substrcompare()** порівнює рядок `haystack` (починаючи з позиції `offset`) з рядком `needle`. У порівнянні беруть участь максимум `length` символів.
@@ -59,13 +59,13 @@ substr_compare(    string $haystack,    string $needle,    int $offs
 
 ```php
 <?php
-echo substr_compare("abcde", "bc", 1, 2); // 0
-echo substr_compare("abcde", "de", -2, 2); // 0
-echo substr_compare("abcde", "bcg", 1, 2); // 0
-echo substr_compare("abcde", "BC", 1, 2, true); // 0
-echo substr_compare("abcde", "bc", 1, 3); // 1
-echo substr_compare("abcde", "cd", 1, 2); // -1
-echo substr_compare("abcde", "abc", 5, 1); // предупреждение
+echo substr_compare("abcde", "bc", 1, 2); // 0
+echo substr_compare("abcde", "de", -2, 2); // 0
+echo substr_compare("abcde", "bcg", 1, 2); // 0
+echo substr_compare("abcde", "BC", 1, 2, true); // 0
+echo substr_compare("abcde", "bc", 1, 3); // 1
+echo substr_compare("abcde", "cd", 1, 2); // -1
+echo substr_compare("abcde", "abc", 5, 1); // предупреждение
 ?>
 ```
 

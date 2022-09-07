@@ -46,14 +46,14 @@ pg_transaction_status(PgSql\Connection $connection): int
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Подключиться не удалось");
-  $stat = pg_transaction_status($dbconn);
-  if ($stat === PGSQL_TRANSACTION_UNKNOWN) {
-      echo 'Соединение не удалось';
-  } else if ($stat === PGSQL_TRANSACTION_IDLE) {
-      echo 'Соединение свободно и простаивает';
-  } else {
-      echo 'Соединение в режиме транзакции';
-  }
+  $dbconn = pg_connect("dbname=publisher") or die("Подключиться не удалось");
+  $stat = pg_transaction_status($dbconn);
+  if ($stat === PGSQL_TRANSACTION_UNKNOWN) {
+      echo 'Соединение не удалось';
+  } else if ($stat === PGSQL_TRANSACTION_IDLE) {
+      echo 'Соединение свободно и простаивает';
+  } else {
+      echo 'Соединение в режиме транзакции';
+  }
 ?>
 ```

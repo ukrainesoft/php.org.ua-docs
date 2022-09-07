@@ -40,19 +40,19 @@ uopz_unset_mock(string $class): void
 
 ```php
 <?php
-class A {
-    public static function who() {
-        echo "A";
-    }
+class A {
+    public static function who() {
+        echo "A";
+    }
 }
 
-class mockA {
-    public static function who() {
-        echo "mockA";
-    }
+class mockA {
+    public static function who() {
+        echo "mockA";
+    }
 }
 
-uopz_set_mock(A::class, mockA::class);
+uopz_set_mock(A::class, mockA::class);
 uopz_unset_mock(A::class);
 A::who();
 ?>

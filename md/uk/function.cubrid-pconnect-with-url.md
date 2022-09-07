@@ -98,21 +98,21 @@ cubrid_pconnect_with_url(string $conn_url, string $userid = ?, string $passwd = 
 
 ```php
 <?php
-$conn_url = "CUBRID:127.0.0.1:33000:demodb:dba::";
-$con = cubrid_pconnect_with_url ($conn_url);
+$conn_url = "CUBRID:127.0.0.1:33000:demodb:dba::";
+$con = cubrid_pconnect_with_url ($conn_url);
 
-if ($con) {
-   echo "соединение успешно выполнено";
-   cubrid_execute($con, "create table person(id int,name char(16))");
-   $req =cubrid_execute($con, "insert into person values(1,'James')");
+if ($con) {
+   echo "соединение успешно выполнено";
+   cubrid_execute($con, "create table person(id int,name char(16))");
+   $req =cubrid_execute($con, "insert into person values(1,'James')");
 
-   if ($req) {
-      cubrid_close_request ($req);
-      cubrid_commit ($con);
-   } else {
-      cubrid_rollback ($con);
-   }
-   cubrid_disconnect ($con);
+   if ($req) {
+      cubrid_close_request ($req);
+      cubrid_commit ($con);
+   } else {
+      cubrid_rollback ($con);
+   }
+   cubrid_disconnect ($con);
 }
 ?>
 ```
@@ -121,20 +121,20 @@ if ($con) {
 
 ```php
 <?php
-$conn_url = "CUBRID:127.0.0.1:33000:demodb:dba::?althost=10.34.63.132:33088&rctime=100";
-$con = cubrid_pconnect_with_url ($conn_url);
+$conn_url = "CUBRID:127.0.0.1:33000:demodb:dba::?althost=10.34.63.132:33088&rctime=100";
+$con = cubrid_pconnect_with_url ($conn_url);
 
-if ($con) {
-   echo "соединение успешно выполнено";
-   $req =cubrid_execute($con, "insert into person values(1,'James')");
+if ($con) {
+   echo "соединение успешно выполнено";
+   $req =cubrid_execute($con, "insert into person values(1,'James')");
 
-   if ($req) {
-      cubrid_close_request ($req);
-      cubrid_commit ($con);
-   } else {
-      cubrid_rollback ($con);
-   }
-   cubrid_disconnect ($con);
+   if ($req) {
+      cubrid_close_request ($req);
+      cubrid_commit ($con);
+   } else {
+      cubrid_rollback ($con);
+   }
+   cubrid_disconnect ($con);
 }
 ?>
 ```

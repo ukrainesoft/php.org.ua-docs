@@ -36,16 +36,16 @@ public Imagick::smushImages(bool $stack, int $offset): Imagick
 
 ```php
 <?php
-function smushImages($imagePath, $imagePath2) {
+function smushImages($imagePath, $imagePath2) {
 
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick2 = new \Imagick(realpath($imagePath2));
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick2 = new \Imagick(realpath($imagePath2));
 
-    $imagick->addimage($imagick2);
-    $smushed = $imagick->smushImages(false, 50);
-    $smushed->setImageFormat('jpg');
-    header("Content-Type: image/jpg");
-    echo $smushed->getImageBlob();
+    $imagick->addimage($imagick2);
+    $smushed = $imagick->smushImages(false, 50);
+    $smushed->setImageFormat('jpg');
+    header("Content-Type: image/jpg");
+    echo $smushed->getImageBlob();
 }
 
 ?>

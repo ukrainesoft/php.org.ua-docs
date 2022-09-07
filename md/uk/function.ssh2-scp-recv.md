@@ -44,10 +44,10 @@ ssh2_scp_recv(resource $session, string $remote_file, string $local_file): bool
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
 
-ssh2_scp_recv($connection, '/remote/filename', '/local/filename');
+ssh2_scp_recv($connection, '/remote/filename', '/local/filename');
 ?>
 ```
 

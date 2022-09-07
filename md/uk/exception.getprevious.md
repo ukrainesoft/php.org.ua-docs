@@ -36,23 +36,23 @@ final public Exception::getPrevious(): ?Throwable
 
 ```php
 <?php
-class MyCustomException extends Exception {}
+class MyCustomException extends Exception {}
 
-function doStuff() {
-    try {
-        throw new InvalidArgumentException("Ты делаешь это неправильно!", 112);
-    } catch(Exception $e) {
-        throw new MyCustomException("Что-то случилось", 911, $e);
-    }
+function doStuff() {
+    try {
+        throw new InvalidArgumentException("Ты делаешь это неправильно!", 112);
+    } catch(Exception $e) {
+        throw new MyCustomException("Что-то случилось", 911, $e);
+    }
 }
 
 
-try {
-    doStuff();
-} catch(Exception $e) {
-    do {
-        printf("%s:%d %s (%d) [%s]\n", $e->getFile(), $e->getLine(), $e->getMessage(), $e->getCode(), get_class($e));
-    } while($e = $e->getPrevious());
+try {
+    doStuff();
+} catch(Exception $e) {
+    do {
+        printf("%s:%d %s (%d) [%s]\n", $e->getFile(), $e->getLine(), $e->getMessage(), $e->getCode(), get_class($e));
+    } while($e = $e->getPrevious());
 }
 ?>
 ```

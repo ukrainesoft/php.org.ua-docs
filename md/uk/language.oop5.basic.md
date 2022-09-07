@@ -20,15 +20,15 @@ title: Основи
 
 ```php
 <?php
-class SimpleClass
+class SimpleClass
 {
-    // объявление свойства
-    public $var = 'значение по умолчанию';
+    // объявление свойства
+    public $var = 'значение по умолчанию';
 
-    // объявление метода
-    public function displayVar() {
-        echo $this->var;
-    }
+    // объявление метода
+    public function displayVar() {
+        echo $this->var;
+    }
 }
 ?>
 ```
@@ -43,34 +43,34 @@ class SimpleClass
 
 ```php
 <?php
-class A
+class A
 {
-    function foo()
-    {
-        if (isset($this)) {
-            echo '$this определена (';
-            echo get_class($this);
-            echo ")\n";
-        } else {
-            echo "\$this не определена.\n";
-        }
-    }
+    function foo()
+    {
+        if (isset($this)) {
+            echo '$this определена (';
+            echo get_class($this);
+            echo ")\n";
+        } else {
+            echo "\$this не определена.\n";
+        }
+    }
 }
 
-class B
+class B
 {
-    function bar()
-    {
-        A::foo();
-    }
+    function bar()
+    {
+        A::foo();
+    }
 }
 
-$a = new A();
+$a = new A();
 $a->foo();
 
 A::foo();
 
-$b = new B();
+$b = new B();
 $b->bar();
 
 B::bar();
@@ -119,11 +119,11 @@ Stack trace:
 
 ```php
 <?php
-$instance = new SimpleClass();
+$instance = new SimpleClass();
 
-// Это же можно сделать с помощью переменной:
-$className = 'SimpleClass';
-$instance = new $className(); // new SimpleClass()
+// Это же можно сделать с помощью переменной:
+$className = 'SimpleClass';
+$instance = new $className(); // new SimpleClass()
 ?>
 ```
 
@@ -136,20 +136,20 @@ $instance = new $className(); // new SimpleClass()
 ```php
 <?php
 
-class ClassA extends \stdClass {}
-class ClassB extends \stdClass {}
-class ClassC extends ClassB {}
-class ClassD extends ClassA {}
+class ClassA extends \stdClass {}
+class ClassB extends \stdClass {}
+class ClassC extends ClassB {}
+class ClassD extends ClassA {}
 
-function getSomeClass(): string
+function getSomeClass(): string
 {
-    return 'ClassA';
+    return 'ClassA';
 }
 
-var_dump(new (getSomeClass()));
-var_dump(new ('Class' . 'B'));
-var_dump(new ('Class' . 'C'));
-var_dump(new (ClassD::class));
+var_dump(new (getSomeClass()));
+var_dump(new ('Class' . 'B'));
+var_dump(new ('Class' . 'C'));
+var_dump(new (ClassD::class));
 ?>
 ```
 
@@ -175,14 +175,14 @@ object(ClassD)#1 (0) {
 ```php
 <?php
 
-$instance = new SimpleClass();
+$instance = new SimpleClass();
 
-$assigned   =  $instance;
-$reference  =& $instance;
+$assigned   =  $instance;
+$reference  =& $instance;
 
-$instance->var = '$assigned будет иметь это значение';
+$instance->var = '$assigned будет иметь это значение';
 
-$instance = null; // $instance и $reference становятся null
+$instance = null; // $instance и $reference становятся null
 
 var_dump($instance);
 var_dump($reference);
@@ -207,26 +207,26 @@ object(SimpleClass)#1 (1) {
 
 ```php
 <?php
-class Test
+class Test
 {
-    static public function getNew()
-    {
-        return new static;
-    }
+    static public function getNew()
+    {
+        return new static;
+    }
 }
 
-class Child extends Test
+class Child extends Test
 {}
 
-$obj1 = new Test();
-$obj2 = new $obj1;
-var_dump($obj1 !== $obj2);
+$obj1 = new Test();
+$obj2 = new $obj1;
+var_dump($obj1 !== $obj2);
 
-$obj3 = Test::getNew();
-var_dump($obj3 instanceof Test);
+$obj3 = Test::getNew();
+var_dump($obj3 instanceof Test);
 
-$obj4 = Child::getNew();
-var_dump($obj4 instanceof Child);
+$obj4 = Child::getNew();
+var_dump($obj4 instanceof Child);
 ?>
 ```
 
@@ -244,7 +244,7 @@ bool(true)
 
 ```php
 <?php
-echo (new DateTime())->format('Y');
+echo (new DateTime())->format('Y');
 ?>
 ```
 
@@ -264,17 +264,17 @@ echo (new DateTime())->format('Y');
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    public $bar = 'свойство';
+    public $bar = 'свойство';
 
-    public function bar() {
-        return 'метод';
-    }
+    public function bar() {
+        return 'метод';
+    }
 }
 
-$obj = new Foo();
-echo $obj->bar, PHP_EOL, $obj->bar(), PHP_EOL;
+$obj = new Foo();
+echo $obj->bar, PHP_EOL, $obj->bar(), PHP_EOL;
 ```
 
 Результат виконання цього прикладу:
@@ -290,20 +290,20 @@ echo $obj->bar, PHP_EOL, $obj->bar(), PHP_EOL;
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    public $bar;
+    public $bar;
 
-    public function __construct() {
-        $this->bar = function() {
-            return 42;
-        };
-    }
+    public function __construct() {
+        $this->bar = function() {
+            return 42;
+        };
+    }
 }
 
-$obj = new Foo();
+$obj = new Foo();
 
-echo ($obj->bar)(), PHP_EOL;
+echo ($obj->bar)(), PHP_EOL;
 ```
 
 Результат виконання цього прикладу:
@@ -324,17 +324,17 @@ echo ($obj->bar)(), PHP_EOL;
 
 ```php
 <?php
-class ExtendClass extends SimpleClass
+class ExtendClass extends SimpleClass
 {
-    // Переопределение метода родителя
-    function displayVar()
-    {
-        echo "Расширенный класс\n";
-        parent::displayVar();
-    }
+    // Переопределение метода родителя
+    function displayVar()
+    {
+        echo "Расширенный класс\n";
+        parent::displayVar();
+    }
 }
 
-$extended = new ExtendClass();
+$extended = new ExtendClass();
 $extended->displayVar();
 ?>
 ```
@@ -355,32 +355,32 @@ $extended->displayVar();
 ```php
 <?php
 
-class Base
+class Base
 {
-    public function foo(int $a) {
-        echo "Допустимо\n";
-    }
+    public function foo(int $a) {
+        echo "Допустимо\n";
+    }
 }
 
-class Extend1 extends Base
+class Extend1 extends Base
 {
-    function foo(int $a = 5)
-    {
-        parent::foo($a);
-    }
+    function foo(int $a = 5)
+    {
+        parent::foo($a);
+    }
 }
 
-class Extend2 extends Base
+class Extend2 extends Base
 {
-    function foo(int $a, $b = 5)
-    {
-        parent::foo($a);
-    }
+    function foo(int $a, $b = 5)
+    {
+        parent::foo($a);
+    }
 }
 
-$extended1 = new Extend1();
+$extended1 = new Extend1();
 $extended1->foo();
-$extended2 = new Extend2();
+$extended2 = new Extend2();
 $extended2->foo(1);
 ```
 
@@ -398,19 +398,19 @@ $extended2->foo(1);
 ```php
 <?php
 
-class Base
+class Base
 {
-    public function foo(int $a = 5) {
-        echo "Допустимо\n";
-    }
+    public function foo(int $a = 5) {
+        echo "Допустимо\n";
+    }
 }
 
-class Extend extends Base
+class Extend extends Base
 {
-    function foo()
-    {
-        parent::foo(1);
-    }
+    function foo()
+    {
+        parent::foo(1);
+    }
 }
 ```
 
@@ -425,19 +425,19 @@ Fatal error: Declaration of Extend::foo() must be compatible with Base::foo(int 
 ```php
 <?php
 
-class Base
+class Base
 {
-    public function foo(int $a = 5) {
-        echo "Допустимо\n";
-    }
+    public function foo(int $a = 5) {
+        echo "Допустимо\n";
+    }
 }
 
-class Extend extends Base
+class Extend extends Base
 {
-    function foo(int $a)
-    {
-        parent::foo($a);
-    }
+    function foo(int $a)
+    {
+        parent::foo($a);
+    }
 }
 ```
 
@@ -456,18 +456,18 @@ Fatal error: Declaration of Extend::foo(int $a) must be compatible with Base::fo
 ```php
 <?php
 
-class A {
-    public function test($foo, $bar) {}
+class A {
+    public function test($foo, $bar) {}
 }
 
-class B extends A {
-    public function test($a, $b) {}
+class B extends A {
+    public function test($a, $b) {}
 }
 
-$obj = new B;
+$obj = new B;
 
-// Передача параметров согласно контракту A::test()
-$obj->test(foo: "foo", bar: "bar"); // ОШИБКА!
+// Передача параметров согласно контракту A::test()
+$obj->test(foo: "foo", bar: "bar"); // ОШИБКА!
 ```
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -487,11 +487,11 @@ Stack trace:
 
 ```php
 <?php
-namespace NS {
-    class ClassName {
-    }
+namespace NS {
+    class ClassName {
+    }
 
-    echo ClassName::class;
+    echo ClassName::class;
 }
 ?>
 ```
@@ -510,7 +510,7 @@ NS\ClassName
 > 
 > ```php
 > <?php
-> print Does\Not\Exist::class;
+> print Does\Not\Exist::class;
 > ?>
 > ```
 > 
@@ -526,12 +526,12 @@ NS\ClassName
 
 ```php
 <?php
-namespace NS {
-    class ClassName {
-    }
+namespace NS {
+    class ClassName {
+    }
 }
-$c = new ClassName();
-print $c::class;
+$c = new ClassName();
+print $c::class;
 ?>
 ```
 
@@ -552,19 +552,19 @@ NS\ClassName
 ```php
 <?php
 
-// Начиная с PHP 8.0.0, эта строка:
-$result = $repository?->getUser(5)?->name;
+// Начиная с PHP 8.0.0, эта строка:
+$result = $repository?->getUser(5)?->name;
 
-// Эквивалентна следующему блоку кода:
-if (is_null($repository)) {
-    $result = null;
-} else {
-    $user = $repository->getUser(5);
-    if (is_null($user)) {
-        $result = null;
-    } else {
-        $result = $user->name;
-    }
+// Эквивалентна следующему блоку кода:
+if (is_null($repository)) {
+    $result = null;
+} else {
+    $user = $repository->getUser(5);
+    if (is_null($user)) {
+        $result = null;
+    } else {
+        $result = $user->name;
+    }
 }
 ?>
 ```

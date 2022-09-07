@@ -15,7 +15,7 @@ Phar::webPhar — Надсилає запит із браузера у внут�
 ### Опис
 
 ```methodsynopsis
-final public static Phar::webPhar(    ?string $alias = null,    ?string $index = null,    ?string $fileNotFoundScript = null,    array $mimeTypes = [],    ?callable $rewrite = null): void
+final public static Phar::webPhar(    ?string $alias = null,    ?string $index = null,    ?string $fileNotFoundScript = null,    array $mimeTypes = [],    ?callable $rewrite = null): void
 ```
 
 **Phar::webPhar()** служить [Phar::mapPhar()](phar.mapphar.md) для веб-архівів phar. Метод аналізує [SERVER\['REQUESTURI'\]](reserved.variables.server.md) і надсилає запит із браузера у внутрішній файл у phar-архіві. Він імітує веб-сервер, надсилає запити до потрібного файлу, відображає правильні заголовки та аналізує файли PHP у міру потреби. У поєднанні з [Phar::mungServer()](phar.mungserver.md) і [Phar::interceptFileFuncs()](phar.interceptfilefuncs.md), будь-який веб-додаток можна використовувати без змін із phar-архіву.
@@ -42,47 +42,47 @@ final public static Phar::webPhar(    ?string $alias = null,    ?string 
 
 ```php
 <?php
-$mimes = array(
-    'phps' => Phar::PHPS, // передаётся в highlight_file()
-    'c' => 'text/plain',
-    'cc' => 'text/plain',
-    'cpp' => 'text/plain',
-    'c++' => 'text/plain',
-    'dtd' => 'text/plain',
-    'h' => 'text/plain',
-    'log' => 'text/plain',
-    'rng' => 'text/plain',
-    'txt' => 'text/plain',
-    'xsd' => 'text/plain',
-    'php' => Phar::PHP, // разбирается как PHP
-    'inc' => Phar::PHP, // разбирается как PHP
-    'avi' => 'video/avi',
-    'bmp' => 'image/bmp',
-    'css' => 'text/css',
-    'gif' => 'image/gif',
-    'htm' => 'text/html',
-    'html' => 'text/html',
-    'htmls' => 'text/html',
-    'ico' => 'image/x-ico',
-    'jpe' => 'image/jpeg',
-    'jpg' => 'image/jpeg',
-    'jpeg' => 'image/jpeg',
-    'js' => 'application/x-javascript',
-    'midi' => 'audio/midi',
-    'mid' => 'audio/midi',
-    'mod' => 'audio/mod',
-    'mov' => 'movie/quicktime',
-    'mp3' => 'audio/mp3',
-    'mpg' => 'video/mpeg',
-    'mpeg' => 'video/mpeg',
-    'pdf' => 'application/pdf',
-    'png' => 'image/png',
-    'swf' => 'application/shockwave-flash',
-    'tif' => 'image/tiff',
-    'tiff' => 'image/tiff',
-    'wav' => 'audio/wav',
-    'xbm' => 'image/xbm',
-    'xml' => 'text/xml',
+$mimes = array(
+    'phps' => Phar::PHPS, // передаётся в highlight_file()
+    'c' => 'text/plain',
+    'cc' => 'text/plain',
+    'cpp' => 'text/plain',
+    'c++' => 'text/plain',
+    'dtd' => 'text/plain',
+    'h' => 'text/plain',
+    'log' => 'text/plain',
+    'rng' => 'text/plain',
+    'txt' => 'text/plain',
+    'xsd' => 'text/plain',
+    'php' => Phar::PHP, // разбирается как PHP
+    'inc' => Phar::PHP, // разбирается как PHP
+    'avi' => 'video/avi',
+    'bmp' => 'image/bmp',
+    'css' => 'text/css',
+    'gif' => 'image/gif',
+    'htm' => 'text/html',
+    'html' => 'text/html',
+    'htmls' => 'text/html',
+    'ico' => 'image/x-ico',
+    'jpe' => 'image/jpeg',
+    'jpg' => 'image/jpeg',
+    'jpeg' => 'image/jpeg',
+    'js' => 'application/x-javascript',
+    'midi' => 'audio/midi',
+    'mid' => 'audio/midi',
+    'mod' => 'audio/mod',
+    'mov' => 'movie/quicktime',
+    'mp3' => 'audio/mp3',
+    'mpg' => 'video/mpeg',
+    'mpeg' => 'video/mpeg',
+    'pdf' => 'application/pdf',
+    'png' => 'image/png',
+    'swf' => 'application/shockwave-flash',
+    'tif' => 'image/tiff',
+    'tiff' => 'image/tiff',
+    'wav' => 'audio/wav',
+    'xbm' => 'image/xbm',
+    'xml' => 'text/xml',
 );
 ?>
 ```
@@ -117,16 +117,16 @@ $mimes = array(
 
 ```php
 <?php
-// создаём архив:
-try {
-    $phar = new Phar('myphar.phar');
-    $phar['index.php'] = '<?php echo "Hello World"; ?>';
-    $phar['index.phps'] = '<?php echo "Hello World"; ?>';
-    $phar->setStub('<?php
+// создаём архив:
+try {
+    $phar = new Phar('myphar.phar');
+    $phar['index.php'] = '<?php echo "Hello World"; ?>';
+    $phar['index.phps'] = '<?php echo "Hello World"; ?>';
+    $phar->setStub('<?php
 Phar::webPhar();
-__HALT_COMPILER(); ?>');
-} catch (Exception $e) {
-    // обработка ошибок
+__HALT_COMPILER(); ?>');
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

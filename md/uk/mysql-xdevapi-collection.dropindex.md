@@ -38,27 +38,27 @@ public mysql_xdevapi\Collection::dropIndex(string $index_name): bool
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema = $session->getSchema("addressbook");
-$create = $schema->createCollection("people");
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
 
-// ...
+// ...
 
-$collection = $schema->getCollection("people");
+$collection = $schema->getCollection("people");
 
 $collection->createIndex(
-  'myindex',
-  '{"fields": [{"field": "$.name", "type": "TEXT(25)", "required": true}], "unique": false}'
+  'myindex',
+  '{"fields": [{"field": "$.name", "type": "TEXT(25)", "required": true}], "unique": false}'
 );
 
-// ...
+// ...
 
-if ($collection->dropIndex('myindex')) {
-    echo "Индекс с названием 'myindex' был найден и удалён.";
+if ($collection->dropIndex('myindex')) {
+    echo "Индекс с названием 'myindex' был найден и удалён.";
 }
 ?>
 ```

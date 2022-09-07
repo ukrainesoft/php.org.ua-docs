@@ -35,11 +35,11 @@ public ReflectionFunctionAbstract::hasReturnType(): bool
 ```php
 <?php
 
-function to_int($param) : int {
-    return (int) $param;
+function to_int($param) : int {
+    return (int) $param;
 }
 
-$reflection1 = new ReflectionFunction('to_int');
+$reflection1 = new ReflectionFunction('to_int');
 var_dump($reflection1->hasReturnType());
 ```
 
@@ -54,7 +54,7 @@ bool(true)
 ```php
 <?php
 
-$reflection2 = new ReflectionFunction('array_merge');
+$reflection2 = new ReflectionFunction('array_merge');
 
 var_dump($reflection2->hasReturnType());
 ```

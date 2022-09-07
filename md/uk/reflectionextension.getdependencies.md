@@ -34,7 +34,7 @@ public ReflectionExtension::getDependencies(): array
 
 ```php
 <?php
-$dom = new ReflectionExtension('dom');
+$dom = new ReflectionExtension('dom');
 
 print_r($dom->getDependencies());
 ?>

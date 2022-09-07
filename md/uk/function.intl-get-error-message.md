@@ -34,8 +34,8 @@ intl_get_error_message(): string
 
 ```php
 <?php
-if( Collator::getAvailableLocales() === false ) {
-    show_error( intl_get_error_message() );
+if( Collator::getAvailableLocales() === false ) {
+    show_error( intl_get_error_message() );
 }
 ?>
 ```

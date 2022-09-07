@@ -12,8 +12,8 @@ title: Область видимості змінної
 
 ```php
 <?php
-$a = 1;
-include 'b.inc';
+$a = 1;
+include 'b.inc';
 ?>
 ```
 
@@ -21,11 +21,11 @@ include 'b.inc';
 
 ```php
 <?php
-$a = 1; /* глобальная область видимости */
+$a = 1; /* глобальная область видимости */
 
-function test()
+function test()
 {
-    echo $a; /* ссылка на переменную в локальной области видимости */
+    echo $a; /* ссылка на переменную в локальной области видимости */
 }
 
 test();
@@ -42,18 +42,18 @@ test();
 
 ```php
 <?php
-$a = 1;
-$b = 2;
+$a = 1;
+$b = 2;
 
-function Sum()
+function Sum()
 {
-    global $a, $b;
+    global $a, $b;
 
-    $b = $a + $b;
+    $b = $a + $b;
 }
 
 Sum();
-echo $b;
+echo $b;
 ?>
 ```
 
@@ -65,16 +65,16 @@ echo $b;
 
 ```php
 <?php
-$a = 1;
-$b = 2;
+$a = 1;
+$b = 2;
 
-function Sum()
+function Sum()
 {
-    $GLOBALS['b'] = $GLOBALS['a'] + $GLOBALS['b'];
+    $GLOBALS['b'] = $GLOBALS['a'] + $GLOBALS['b'];
 }
 
 Sum();
-echo $b;
+echo $b;
 ?>
 ```
 
@@ -84,9 +84,9 @@ echo $b;
 
 ```php
 <?php
-function test_superglobal()
+function test_superglobal()
 {
-    echo $_POST['name'];
+    echo $_POST['name'];
 }
 ?>
 ```
@@ -103,11 +103,11 @@ function test_superglobal()
 
 ```php
 <?php
-function test()
+function test()
 {
-    $a = 0;
-    echo $a;
-    $a++;
+    $a = 0;
+    echo $a;
+    $a++;
 }
 ?>
 ```
@@ -118,11 +118,11 @@ function test()
 
 ```php
 <?php
-function test()
+function test()
 {
-    static $a = 0;
-    echo $a;
-    $a++;
+    static $a = 0;
+    echo $a;
+    $a++;
 }
 ?>
 ```
@@ -135,16 +135,16 @@ function test()
 
 ```php
 <?php
-function test()
+function test()
 {
-    static $count = 0;
+    static $count = 0;
 
-    $count++;
-    echo $count;
-    if ($count < 10) {
-        test();
-    }
-    $count--;
+    $count++;
+    echo $count;
+    if ($count < 10) {
+        test();
+    }
+    $count--;
 }
 ?>
 ```
@@ -155,13 +155,13 @@ function test()
 
 ```php
 <?php
-function foo() {
-    static $int = 0;          // верно
-    static $int = 1+2;        // верно
-    static $int = sqrt(121);  // неверно (поскольку это функция)
+function foo() {
+    static $int = 0;          // верно
+    static $int = 1+2;        // верно
+    static $int = sqrt(121);  // неверно (поскольку это функция)
 
-    $int++;
-    echo $int;
+    $int++;
+    echo $int;
 }
 ?>
 ```
@@ -172,18 +172,18 @@ function foo() {
 
 ```php
 <?php
-class Foo {
-    public static function counter() {
-        static $counter = 0;
-        $counter++;
-        return $counter;
-    }
+class Foo {
+    public static function counter() {
+        static $counter = 0;
+        $counter++;
+        return $counter;
+    }
 }
-class Bar extends Foo {}
-var_dump(Foo::counter()); // int(1)
-var_dump(Foo::counter()); // int(2)
-var_dump(Bar::counter()); // int(3), до PHP 8.1.0 int(1)
-var_dump(Bar::counter()); // int(4), до PHP 8.1.0 int(2)
+class Bar extends Foo {}
+var_dump(Foo::counter()); // int(1)
+var_dump(Foo::counter()); // int(2)
+var_dump(Bar::counter()); // int(3), до PHP 8.1.0 int(1)
+var_dump(Bar::counter()); // int(4), до PHP 8.1.0 int(2)
 ?>
 ```
 
@@ -197,16 +197,16 @@ PHP використовує модифікатори змінних [static](la
 
 ```php
 <?php
-function test_global_ref() {
-    global $obj;
-    $new = new stdclass;
-    $obj = &$new;
+function test_global_ref() {
+    global $obj;
+    $new = new stdclass;
+    $obj = &$new;
 }
 
-function test_global_noref() {
-    global $obj;
-    $new = new stdclass;
-    $obj = $new;
+function test_global_noref() {
+    global $obj;
+    $new = new stdclass;
+    $obj = $new;
 }
 
 test_global_ref();
@@ -228,47 +228,47 @@ object(stdClass)#1 (0) {
 
 ```php
 <?php
-function &get_instance_ref() {
-    static $obj;
+function &get_instance_ref() {
+    static $obj;
 
-    echo 'Статический объект: ';
-    var_dump($obj);
-    if (!isset($obj)) {
-        $new = new stdclass;
-        // Присвоить ссылку статической переменной
-        $obj = &$new;
-    }
-    if (!isset($obj->property)) {
-        $obj->property = 1;
-    } else {
-        $obj->property++;
-    }
-    return $obj;
+    echo 'Статический объект: ';
+    var_dump($obj);
+    if (!isset($obj)) {
+        $new = new stdclass;
+        // Присвоить ссылку статической переменной
+        $obj = &$new;
+    }
+    if (!isset($obj->property)) {
+        $obj->property = 1;
+    } else {
+        $obj->property++;
+    }
+    return $obj;
 }
 
-function &get_instance_noref() {
-    static $obj;
+function &get_instance_noref() {
+    static $obj;
 
-    echo 'Статический объект: ';
-    var_dump($obj);
-    if (!isset($obj)) {
-        $new = new stdclass;
-        // Присвоить объект статической переменной
-        $obj = $new;
-    }
-    if (!isset($obj->property)) {
-        $obj->property = 1;
-    } else {
-        $obj->property++;
-    }
-    return $obj;
+    echo 'Статический объект: ';
+    var_dump($obj);
+    if (!isset($obj)) {
+        $new = new stdclass;
+        // Присвоить объект статической переменной
+        $obj = $new;
+    }
+    if (!isset($obj->property)) {
+        $obj->property = 1;
+    } else {
+        $obj->property++;
+    }
+    return $obj;
 }
 
-$obj1 = get_instance_ref();
-$still_obj1 = get_instance_ref();
-echo "\n";
-$obj2 = get_instance_noref();
-$still_obj2 = get_instance_noref();
+$obj1 = get_instance_ref();
+$still_obj1 = get_instance_ref();
+echo "\n";
+$obj2 = get_instance_noref();
+$still_obj2 = get_instance_noref();
 ?>
 ```
 

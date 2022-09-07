@@ -12,7 +12,7 @@ title: Клас SoapServer
 
 ## Вступ
 
-Клас SoapServer є сервером для протоколів [» SOAP 1.1](http://www.w3.org/TR/soap11/) і [» SOAP 1.2](http://www.w3.org/TR/soap12/). Його можна використовувати з описом служби WSDL або без нього.
+Клас SoapServer є сервером для протоколів [» SOAP 1.1](http://www.w3.org/TR/soap11/) і [» SOAP 1.2](http://www.w3.org/TR/soap12/). Його можна використовувати з описом служби WSDL або без нього.
 
 ## Огляд класів
 
@@ -44,7 +44,7 @@ title: Клас SoapServer
 
     public addFunction(array|string|int $functions): void
 public addSoapHeader(SoapHeader $header): void
-public fault(    string $code,    string $string,    string $actor = "",    mixed $details = null,    string $name = ""): void
+public fault(    string $code,    string $string,    string $actor = "",    mixed $details = null,    string $name = ""): void
 public getFunctions(): array
 public handle(?string $request = null): void
 public setClass(string $class, mixed ...$args): void

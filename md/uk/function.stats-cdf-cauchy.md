@@ -15,7 +15,7 @@ statscdfcauchy — Обчислює один із параметрів розп�
 ### Опис
 
 ```methodsynopsis
-stats_cdf_cauchy(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_cauchy(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
 Повертає кумулятивну функцію розподілу Коші, обернену їй або один із своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`

@@ -71,8 +71,8 @@ MIB визначає тип ідентифікатора кожного об'є�
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private");
-  $session->set('SNMPv2-MIB::sysContact.0', 's', "Nobody");
+  $session = new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private");
+  $session->set('SNMPv2-MIB::sysContact.0', 's', "Nobody");
 ?>
 ```
 
@@ -80,10 +80,10 @@ MIB визначає тип ідентифікатора кожного об'є�
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private");
-  $session->set(array('SNMPv2-MIB::sysContact.0', 'SNMPv2-MIB::sysLocation.0'), array('s', 's'), array("Nobody", "Nowhere"));
-// или
-  $session->set(array('SNMPv2-MIB::sysContact.0', 'SNMPv2-MIB::sysLocation.0'), 's', array("Nobody", "Nowhere"));
+  $session = new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private");
+  $session->set(array('SNMPv2-MIB::sysContact.0', 'SNMPv2-MIB::sysLocation.0'), array('s', 's'), array("Nobody", "Nowhere"));
+// или
+  $session->set(array('SNMPv2-MIB::sysContact.0', 'SNMPv2-MIB::sysLocation.0'), 's', array("Nobody", "Nowhere"));
 ?>
 ```
 
@@ -91,10 +91,10 @@ MIB визначає тип ідентифікатора кожного об'є�
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private");
-  $session->set('FOO-MIB::bar.42', 'b', '0 1 2 3 4');
-// или
-  $session->set('FOO-MIB::bar.42', 'x', 'F0');
+  $session = new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private");
+  $session->set('FOO-MIB::bar.42', 'b', '0 1 2 3 4');
+// или
+  $session->set('FOO-MIB::bar.42', 'x', 'F0');
 ?>
 ```
 

@@ -15,7 +15,7 @@ Imagick::chopImage — Видаляє область зображення та �
 ### Опис
 
 ```methodsynopsis
-public Imagick::chopImage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::chopImage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Видалення вибраної області з реструктуризацією зображення.
@@ -54,22 +54,22 @@ public Imagick::chopImage(    int $width,    int $height,    int $x,
 
 ```php
 <?php
-/* Создаём объекты */
-$image = new Imagick();
-$pixel = new ImagickPixel( 'gray' );
+/* Создаём объекты */
+$image = new Imagick();
+$pixel = new ImagickPixel( 'gray' );
 
-/* Новое изображение */
-$image->newImage(400, 200, $pixel);
+/* Новое изображение */
+$image->newImage(400, 200, $pixel);
 
-/* Обрезка изображения */
-$image->chopImage(200, 200, 0, 0);
+/* Обрезка изображения */
+$image->chopImage(200, 200, 0, 0);
 
-/* Установка формата изображения */
+/* Установка формата изображения */
 $image->setImageFormat('png');
 
-/* Вывод изображения с заголовками */
-header('Content-type: image/png');
-echo $image;
+/* Вывод изображения с заголовками */
+header('Content-type: image/png');
+echo $image;
 
 ?>
 ```

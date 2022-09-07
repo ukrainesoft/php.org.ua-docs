@@ -34,18 +34,18 @@ public ArrayIterator::rewind(): void
 
 ```php
 <?php
-$arrayobject = new ArrayObject();
+$arrayobject = new ArrayObject();
 
-$arrayobject[] = 'ноль';
-$arrayobject[] = 'один';
-$arrayobject[] = 'два';
+$arrayobject[] = 'ноль';
+$arrayobject[] = 'один';
+$arrayobject[] = 'два';
 
-$iterator = $arrayobject->getIterator();
+$iterator = $arrayobject->getIterator();
 
 $iterator->next();
-echo $iterator->key(); //1
+echo $iterator->key(); //1
 
-$iterator->rewind(); // перемещает указатель в начало Масива
-echo $iterator->key(); //0
+$iterator->rewind(); // перемещает указатель в начало Масива
+echo $iterator->key(); //0
 ?>
 ```

@@ -44,7 +44,7 @@ yaz_es(
 
 `args`
 
-Масив з Extended Service та параметрами для конкретних пакетів. Параметри ідентичні тим, що пропонуються у C API ZOOM C. Дивіться ZOOM [» Extended Services](http://www.indexdata.dk/yaz/doc/zoom.tkl)
+Масив з Extended Service та параметрами для конкретних пакетів. Параметри ідентичні тим, що пропонуються у C API ZOOM C. Дивіться ZOOM [» Extended Services](http://www.indexdata.dk/yaz/doc/zoom.tkl)
 
 ### Значення, що повертаються
 
@@ -56,15 +56,15 @@ yaz_es(
 
 ```php
 <?php
-$con = yaz_connect("myhost/database");
-$args = array (
-    "record" => "<gils><title>some title</title></gils>",
-    "syntax" => "xml",
-    "action" => "specialUpdate"
+$con = yaz_connect("myhost/database");
+$args = array (
+    "record" => "<gils><title>some title</title></gils>",
+    "syntax" => "xml",
+    "action" => "specialUpdate"
 );
-yaz_es($con, "update", $args);
+yaz_es($con, "update", $args);
 yaz_wait();
-$result = yaz_es_result($id);
+$result = yaz_es_result($id);
 ?>
 ```
 

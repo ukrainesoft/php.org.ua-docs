@@ -15,7 +15,7 @@ opensslcmssign — Підписує файл
 ### Опис
 
 ```methodsynopsis
-openssl_cms_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = 0,    int $encoding = OPENSSL_ENCODING_SMIME,    ?string $untrusted_certificates_filename = null): bool
+openssl_cms_sign(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    ?array $headers,    int $flags = 0,    int $encoding = OPENSSL_ENCODING_SMIME,    ?string $untrusted_certificates_filename = null): bool
 ```
 
 Підписує файл сертифікатом X.509 та ключем.
@@ -64,6 +64,6 @@ openssl_cms_sign(    string $input_filename,    string $output_filename,
 
 ```php
 <?php
-openssl_cms_sign('input.txt', 'output.txt', 'file://cert.pem', 'file://privkey.pem', null, OPENSSL_CMS_BINARY, OPENSSL_ENCODING_DER, 'chain.pem');
+openssl_cms_sign('input.txt', 'output.txt', 'file://cert.pem', 'file://privkey.pem', null, OPENSSL_CMS_BINARY, OPENSSL_ENCODING_DER, 'chain.pem');
 ?>
 ```

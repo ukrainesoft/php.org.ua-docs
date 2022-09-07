@@ -31,9 +31,9 @@ title: Клас IntlDateFormatter
 
     /* Методы */
     
-   public __construct(    ?string $locale,    int $dateType = IntlDateFormatter::FULL,    int $timeType = IntlDateFormatter::FULL,    IntlTimeZone|DateTimeZone|string|null $timezone = null,    IntlCalendar|int|null $calendar = null,    ?string $pattern = null)
+   public __construct(    ?string $locale,    int $dateType = IntlDateFormatter::FULL,    int $timeType = IntlDateFormatter::FULL,    IntlTimeZone|DateTimeZone|string|null $timezone = null,    IntlCalendar|int|null $calendar = null,    ?string $pattern = null)
 
-    public static create(    ?string $locale,    int $dateType = IntlDateFormatter::FULL,    int $timeType = IntlDateFormatter::FULL,    IntlTimeZone|DateTimeZone|string|null $timezone = null,    IntlCalendar|int|null $calendar = null,    ?string $pattern = null): ?IntlDateFormatter
+    public static create(    ?string $locale,    int $dateType = IntlDateFormatter::FULL,    int $timeType = IntlDateFormatter::FULL,    IntlTimeZone|DateTimeZone|string|null $timezone = null,    IntlCalendar|int|null $calendar = null,    ?string $pattern = null): ?IntlDateFormatter
 public format(IntlCalendar|DateTimeInterface|array|string|int|float $datetime): string|false
 public static formatObject(IntlCalendar|DateTimeInterface $datetime, array|int|string|null $format = null, ?string $locale = null): string|false
 public getCalendar(): int|false
@@ -59,9 +59,9 @@ public setTimeZone(IntlTimeZone|DateTimeZone|string|null $timezone): ?bool
 
 ## Дивіться також
 
--   [» Форматирование дат ICU](http://www.icu-project.org/apiref/icu4c/udat_8h.md#details)
+-   [» Форматирование дат ICU](http://www.icu-project.org/apiref/icu4c/udat_8h.md#details)
     
--   [» Формати дат ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax)
+-   [» Формати дат ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax)
     
 
 ## Обумовлені константи

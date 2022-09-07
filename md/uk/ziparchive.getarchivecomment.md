@@ -36,14 +36,14 @@ public ZipArchive::getArchiveComment(int $flags = 0): string|false
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test_with_comment.zip');
-if ($res === TRUE) {
-    var_dump($zip->getArchiveComment());
-    /* Или используя свойство */
-    var_dump($zip->comment);
-} else {
-    echo 'Ошибка с кодом:' . $res;
+$zip = new ZipArchive;
+$res = $zip->open('test_with_comment.zip');
+if ($res === TRUE) {
+    var_dump($zip->getArchiveComment());
+    /* Или используя свойство */
+    var_dump($zip->comment);
+} else {
+    echo 'Ошибка с кодом:' . $res;
 }
 ?>
 ```

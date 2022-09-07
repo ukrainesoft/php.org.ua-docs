@@ -15,7 +15,7 @@ tradercdl3outside — Три зовнішні дні вгору і три зов
 ### Опис
 
 ```methodsynopsis
-trader_cdl3outside(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3outside(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

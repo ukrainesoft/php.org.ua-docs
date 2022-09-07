@@ -15,7 +15,7 @@ ImagickDraw::pathCurveToAbsolute — Малює кубічну криву Без
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pathCurveToAbsolute(    float $x1,    float $y1,    float $x2,    float $y2,    float $x,    float $y): bool
+public ImagickDraw::pathCurveToAbsolute(    float $x1,    float $y1,    float $x2,    float $y2,    float $x,    float $y): bool
 ```
 
 **Увага**

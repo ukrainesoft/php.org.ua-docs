@@ -40,15 +40,15 @@ public PharFileInfo::compress(int $compression): bool
 
 ```php
 <?php
-try {
-    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
-    $p['myfile.txt'] = 'hi';
-    $file = $p['myfile.txt'];
-    var_dump($file->isCompressed(Phar::BZ2));
-    $p['myfile.txt']->compress(Phar::BZ2);
-    var_dump($file->isCompressed(Phar::BZ2));
-} catch (Exception $e) {
-    echo 'Операции создания/изменения на my.phar завершились ошибкой: ', $e;
+try {
+    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
+    $p['myfile.txt'] = 'hi';
+    $file = $p['myfile.txt'];
+    var_dump($file->isCompressed(Phar::BZ2));
+    $p['myfile.txt']->compress(Phar::BZ2);
+    var_dump($file->isCompressed(Phar::BZ2));
+} catch (Exception $e) {
+    echo 'Операции создания/изменения на my.phar завершились ошибкой: ', $e;
 }
 ?>
 ```

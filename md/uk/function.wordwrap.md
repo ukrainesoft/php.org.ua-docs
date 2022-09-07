@@ -15,7 +15,7 @@ wordwrap — Перенесення рядка за вказаною кільк�
 ### Опис
 
 ```methodsynopsis
-wordwrap(    string $string,    int $width = 75,    string $break = "\n",    bool $cut_long_words = false): string
+wordwrap(    string $string,    int $width = 75,    string $break = "\n",    bool $cut_long_words = false): string
 ```
 
 Переносить рядок за вказаною кількістю символів.
@@ -48,10 +48,10 @@ wordwrap(    string $string,    int $width = 75,    string $break = 
 
 ```php
 <?php
-$text = "The quick brown fox jumped over the lazy dog.";
-$newtext = wordwrap($text, 20, "<br />\n");
+$text = "The quick brown fox jumped over the lazy dog.";
+$newtext = wordwrap($text, 20, "<br />\n");
 
-echo $newtext;
+echo $newtext;
 ?>
 ```
 
@@ -67,10 +67,10 @@ dog.
 
 ```php
 <?php
-$text = "A very long woooooooooooord.";
-$newtext = wordwrap($text, 8, "\n", true);
+$text = "A very long woooooooooooord.";
+$newtext = wordwrap($text, 8, "\n", true);
 
-echo "$newtext\n";
+echo "$newtext\n";
 ?>
 ```
 
@@ -87,10 +87,10 @@ ooooord.
 
 ```php
 <?php
-$text = "A very long woooooooooooooooooord. and something";
-$newtext = wordwrap($text, 8, "\n", false);
+$text = "A very long woooooooooooooooooord. and something";
+$newtext = wordwrap($text, 8, "\n", false);
 
-echo "$newtext\n";
+echo "$newtext\n";
 ?>
 ```
 

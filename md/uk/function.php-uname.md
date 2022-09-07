@@ -45,24 +45,24 @@ php_uname(string $mode = "a"): string
 
 ```php
 <?php
-echo php_uname();
-echo PHP_OS;
+echo php_uname();
+echo PHP_OS;
 
-/* Разные варианты:
-Linux localhost 2.4.21-0.13mdk #1 Fri Mar 14 15:08:06 EST 2003 i686
+/* Разные варианты:
+Linux localhost 2.4.21-0.13mdk #1 Fri Mar 14 15:08:06 EST 2003 i686
 Linux
 
-FreeBSD localhost 3.2-RELEASE #15: Mon Dec 17 08:46:02 GMT 2001
+FreeBSD localhost 3.2-RELEASE #15: Mon Dec 17 08:46:02 GMT 2001
 FreeBSD
 
-Windows NT XN1 5.1 build 2600
+Windows NT XN1 5.1 build 2600
 WINNT
 */
 
-if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-    echo 'Сервер работает под управлением Windows!';
-} else {
-    echo 'Сервер работает под управлением ОС, отличной от Windows!';
+if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+    echo 'Сервер работает под управлением Windows!';
+} else {
+    echo 'Сервер работает под управлением ОС, отличной от Windows!';
 }
 
 ?>
@@ -74,15 +74,15 @@ if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
 
 ```php
 <?php
-// *nix
-echo DIRECTORY_SEPARATOR; // /
-echo PHP_SHLIB_SUFFIX;    // so
-echo PATH_SEPARATOR;      // :
+// *nix
+echo DIRECTORY_SEPARATOR; // /
+echo PHP_SHLIB_SUFFIX;    // so
+echo PATH_SEPARATOR;      // :
 
-// Win*
-echo DIRECTORY_SEPARATOR; // \
-echo PHP_SHLIB_SUFFIX;    // dll
-echo PATH_SEPARATOR;      // ;
+// Win*
+echo DIRECTORY_SEPARATOR; // \
+echo PHP_SHLIB_SUFFIX;    // dll
+echo PATH_SEPARATOR;      // ;
 ?>
 ```
 

@@ -15,7 +15,7 @@ SwooleHttpResponse::rawcookie — Встановлює необроблені co
 ### Опис
 
 ```methodsynopsis
-public Swoole\Http\Response::rawcookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): ReturnType
+public Swoole\Http\Response::rawcookie(    string $name,    string $value = ?,    string $expires = ?,    string $path = ?,    string $domain = ?,    string $secure = ?,    string $httponly = ?): ReturnType
 ```
 
 ### Список параметрів

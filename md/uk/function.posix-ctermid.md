@@ -36,7 +36,7 @@ posix_ctermid(): string|false
 
 ```php
 <?php
-echo "I am running from ".posix_ctermid();
+echo "I am running from ".posix_ctermid();
 ?>
 ```
 

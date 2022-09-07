@@ -46,7 +46,7 @@ final public static Phar::mungServer(array $variables): void
 
 ```php
 <?php
-// пример загрузчика
+// пример загрузчика
 Phar::mungServer(array('REQUEST_URI'));
 Phar::webPhar();
 __HALT_COMPILER();

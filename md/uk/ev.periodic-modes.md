@@ -18,8 +18,8 @@ title: Режими роботи періодичних спостерігачі
     
     ```php
     <?php
-    $hourly = EvPeriodic(0, 3600, NULL, function () {
-      echo "один раз в час\n";
+    $hourly = EvPeriodic(0, 3600, NULL, function () {
+      echo "один раз в час\n";
     });
     ?>
     ```
@@ -40,14 +40,14 @@ title: Режими роботи періодичних спостерігачі
     
     ```php
     <?php
-    // Срабатывать каждые 10.5 секунд
+    // Срабатывать каждые 10.5 секунд
     
-    function reschedule_cb ($watcher, $now) {
-       return $now + (10.5. - fmod($now, 10.5));
+    function reschedule_cb ($watcher, $now) {
+       return $now + (10.5. - fmod($now, 10.5));
     }
     
-    $w = new EvPeriodic(0., 0., "reschedule_cb", function ($w, $revents) {
-       echo time(), PHP_EOL;
+    $w = new EvPeriodic(0., 0., "reschedule_cb", function ($w, $revents) {
+       echo time(), PHP_EOL;
     });
     
     Ev::run();

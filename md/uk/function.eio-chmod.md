@@ -15,7 +15,7 @@ eiochmod — Змінює права доступу до файлу/директ
 ### Опис
 
 ```methodsynopsis
-eio_chmod(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_chmod(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiochmod()** змінює права доступу до файлу/директорії. Нові права доступу вказуються у параметрі `mode`
@@ -43,7 +43,7 @@ eio_chmod(    string $path,    int $mode,    int $pri = EIO_PRI_DEFA
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

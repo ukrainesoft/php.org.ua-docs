@@ -36,7 +36,7 @@ hrtime(bool $as_number = false): array|int|float|false
 
 ```php
 <?php
-echo hrtime(true), PHP_EOL;
+echo hrtime(true), PHP_EOL;
 print_r(hrtime());
 ?>
 ```

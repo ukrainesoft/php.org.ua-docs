@@ -44,26 +44,26 @@ ibase_blob_import(resource $file_handle): string
 
 ```php
 <?php
-$dbh = ibase_connect($host, $username, $password);
-$filename = '/tmp/bar';
+$dbh = ibase_connect($host, $username, $password);
+$filename = '/tmp/bar';
 
-$fd = fopen($filename, 'r');
-if ($fd) {
+$fd = fopen($filename, 'r');
+if ($fd) {
 
-    $blob = ibase_blob_import($dbh, $fd);
-    fclose($fd);
+    $blob = ibase_blob_import($dbh, $fd);
+    fclose($fd);
 
-    if (!is_string($blob)) {
-        // импорт не удался
-    } else {
-        $query = "INSERT INTO foo (name, data) VALUES ('$filename', ?)";
-        $prepared = ibase_prepare($dbh, $query);
-        if (!ibase_execute($prepared, $blob)) {
-            // запись не удалась
-        }
-    }
-} else {
-    // невозможно открыть файл данных
+    if (!is_string($blob)) {
+        // импорт не удался
+    } else {
+        $query = "INSERT INTO foo (name, data) VALUES ('$filename', ?)";
+        $prepared = ibase_prepare($dbh, $query);
+        if (!ibase_execute($prepared, $blob)) {
+            // запись не удалась
+        }
+    }
+} else {
+    // невозможно открыть файл данных
 }
 ?>
 ```

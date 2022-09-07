@@ -48,15 +48,15 @@ pg_lo_close(PgSql\Lob $lob): bool
 
 ```php
 <?php
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $oid = pg_lo_create($database);
-   echo "$oid\n";
-   $handle = pg_lo_open($database, $oid, "w");
-   echo "$handle\n";
-   pg_lo_write($handle, "large object data");
-   pg_lo_close($handle);
-   pg_query($database, "commit");
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $oid = pg_lo_create($database);
+   echo "$oid\n";
+   $handle = pg_lo_open($database, $oid, "w");
+   echo "$handle\n";
+   pg_lo_write($handle, "large object data");
+   pg_lo_close($handle);
+   pg_query($database, "commit");
 ?>
 ```
 

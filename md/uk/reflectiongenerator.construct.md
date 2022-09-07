@@ -31,19 +31,19 @@ public **ReflectionGenerator::construct**[Generator](class.generator.md) `$gener
 ```php
 <?php
 
-function gen()
+function gen()
 {
-    yield 1;
+    yield 1;
 }
 
-$gen = gen();
+$gen = gen();
 
-$reflectionGen = new ReflectionGenerator($gen);
+$reflectionGen = new ReflectionGenerator($gen);
 
-echo <<< output
+echo <<< output
 {$reflectionGen->getFunction()->name}
-Строка: {$reflectionGen->getExecutingLine()}
-Файл: {$reflectionGen->getExecutingFile()}
+Строка: {$reflectionGen->getExecutingLine()}
+Файл: {$reflectionGen->getExecutingFile()}
 output;
 ```
 

@@ -44,39 +44,39 @@ is_subclass_of(mixed $object_or_class, string $class, bool $allow_string = true)
 
 ```php
 <?php
-// объявляем класс
-class WidgetFactory
+// объявляем класс
+class WidgetFactory
 {
-  var $oink = 'moo';
+  var $oink = 'moo';
 }
 
-// объявляем наследника
-class WidgetFactory_Child extends WidgetFactory
+// объявляем наследника
+class WidgetFactory_Child extends WidgetFactory
 {
-  var $oink = 'oink';
+  var $oink = 'oink';
 }
 
-// создаём новый объект
-$WF = new WidgetFactory();
-$WFC = new WidgetFactory_Child();
+// создаём новый объект
+$WF = new WidgetFactory();
+$WFC = new WidgetFactory_Child();
 
-if (is_subclass_of($WFC, 'WidgetFactory')) {
-  echo "да, \$WFC наследует WidgetFactory\n";
-} else {
-  echo "нет, \$WFC не наследует WidgetFactory\n";
+if (is_subclass_of($WFC, 'WidgetFactory')) {
+  echo "да, \$WFC наследует WidgetFactory\n";
+} else {
+  echo "нет, \$WFC не наследует WidgetFactory\n";
 }
 
 
-if (is_subclass_of($WF, 'WidgetFactory')) {
-  echo "да, \$WF наследует WidgetFactory\n";
-} else {
-  echo "нет, \$WF не наследует WidgetFactory\n";
+if (is_subclass_of($WF, 'WidgetFactory')) {
+  echo "да, \$WF наследует WidgetFactory\n";
+} else {
+  echo "нет, \$WF не наследует WidgetFactory\n";
 }
 
-if (is_subclass_of('WidgetFactory_Child', 'WidgetFactory')) {
-  echo "да, WidgetFactory_Child наследует WidgetFactory\n";
-} else {
-  echo "нет, WidgetFactory_Child не наследует WidgetFactory\n";
+if (is_subclass_of('WidgetFactory_Child', 'WidgetFactory')) {
+  echo "да, WidgetFactory_Child наследует WidgetFactory\n";
+} else {
+  echo "нет, WidgetFactory_Child не наследует WidgetFactory\n";
 }
 ?>
 ```
@@ -93,38 +93,38 @@ if (is_subclass_of('WidgetFactory_Child', 'WidgetFactory')) {
 
 ```php
 <?php
-// Определяем интерфейс
-interface MyInterface
+// Определяем интерфейс
+interface MyInterface
 {
-  public function MyFunction();
+  public function MyFunction();
 }
 
-// Определяем класс с реализацией интерфейса
-class MyClass implements MyInterface
+// Определяем класс с реализацией интерфейса
+class MyClass implements MyInterface
 {
-  public function MyFunction()
-  {
-    return "MyClass реализует MyInterface!";
-  }
+  public function MyFunction()
+  {
+    return "MyClass реализует MyInterface!";
+  }
 }
 
-// Создаём объект
-$my_object = new MyClass;
+// Создаём объект
+$my_object = new MyClass;
 
-// Код ниже работает с PHP 5.3.7
+// Код ниже работает с PHP 5.3.7
 
-// Проверка с помощью экземпляра объекта
-if (is_subclass_of($my_object, 'MyInterface')) {
-  echo "Да, \$my_object является подклассом MyInterface\n";
-} else {
-  echo "Нет, \$my_object не является подклассом MyInterface\n";
+// Проверка с помощью экземпляра объекта
+if (is_subclass_of($my_object, 'MyInterface')) {
+  echo "Да, \$my_object является подклассом MyInterface\n";
+} else {
+  echo "Нет, \$my_object не является подклассом MyInterface\n";
 }
 
-// Проверка с помощью имени класса в виде строки
-if (is_subclass_of('MyClass', 'MyInterface')) {
-  echo "Да, MyClass является подклассом MyInterface\n";
-} else {
-  echo "Нет, MyClass не является подклассом MyInterface\n";
+// Проверка с помощью имени класса в виде строки
+if (is_subclass_of('MyClass', 'MyInterface')) {
+  echo "Да, MyClass является подклассом MyInterface\n";
+} else {
+  echo "Нет, MyClass не является подклассом MyInterface\n";
 }
 ?>
 ```

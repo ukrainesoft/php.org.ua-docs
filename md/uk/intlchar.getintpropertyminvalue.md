@@ -39,7 +39,7 @@ public static IntlChar::getIntPropertyMinValue(int $property): int
 var_dump(IntlChar::getIntPropertyMinValue(IntlChar::PROPERTY_BIDI_CLASS));
 var_dump(IntlChar::getIntPropertyMinValue(IntlChar::PROPERTY_SCRIPT));
 var_dump(IntlChar::getIntPropertyMinValue(IntlChar::PROPERTY_IDEOGRAPHIC));
-var_dump(IntlChar::getIntPropertyMinValue(999999999)); // Some made-up value
+var_dump(IntlChar::getIntPropertyMinValue(999999999)); // Some made-up value
 ?>
 ```
 

@@ -52,7 +52,7 @@ title: Клас SoapHeader
 
     /* Методы */
     
-   __construct(    string $namespace,    string $name,    mixed $data = ?,    bool $mustunderstand = ?,    string $actor = ?)
+   __construct(    string $namespace,    string $name,    mixed $data = ?,    bool $mustunderstand = ?,    string $actor = ?)
 
    }
 ```

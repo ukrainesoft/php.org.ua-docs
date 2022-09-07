@@ -19,36 +19,36 @@ title: Приклади
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-// Подготовка выражения
-$stid = oci_parse($conn, 'SELECT * FROM departments');
-if (!$stid) {
-    $e = oci_error($conn);
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+// Подготовка выражения
+$stid = oci_parse($conn, 'SELECT * FROM departments');
+if (!$stid) {
+    $e = oci_error($conn);
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-// Выполним логику запроса
-$r = oci_execute($stid);
-if (!$r) {
-    $e = oci_error($stid);
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+// Выполним логику запроса
+$r = oci_execute($stid);
+if (!$r) {
+    $e = oci_error($stid);
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-// Получим результат запроса
-print "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-    print "<tr>\n";
-    foreach ($row as $item) {
-        print "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
-    }
-    print "</tr>\n";
+// Получим результат запроса
+print "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    print "<tr>\n";
+    foreach ($row as $item) {
+        print "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    print "</tr>\n";
 }
-print "</table>\n";
+print "</table>\n";
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -63,27 +63,27 @@ oci_close($conn);
 ```php
 <?php
 
-// Создайте таблицу перед выполнением:
-//   CREATE TABLE MYTABLE (mid NUMBER, myd VARCHAR2(20));
+// Создайте таблицу перед выполнением:
+//   CREATE TABLE MYTABLE (mid NUMBER, myd VARCHAR2(20));
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'INSERT INTO MYTABLE (mid, myd) VALUES(:myid, :mydata)');
+$stid = oci_parse($conn, 'INSERT INTO MYTABLE (mid, myd) VALUES(:myid, :mydata)');
 
-$id = 60;
-$data = 'Some data';
+$id = 60;
+$data = 'Some data';
 
-oci_bind_by_name($stid, ':myid', $id);
-oci_bind_by_name($stid, ':mydata', $data);
+oci_bind_by_name($stid, ':myid', $id);
+oci_bind_by_name($stid, ':mydata', $data);
 
-$r = oci_execute($stid);  // выполнение и фиксация
+$r = oci_execute($stid);  // выполнение и фиксация
 
-if ($r) {
-    print "Была вставлена одна строка";
+if ($r) {
+    print "Была вставлена одна строка";
 }
 
 oci_free_statement($stid);
@@ -99,27 +99,27 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-if (!$conn) {
-    $m = oci_error();
-    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
 }
 
-$sql = 'SELECT last_name FROM employees WHERE department_id = :didbv ORDER BY last_name';
-$stid = oci_parse($conn, $sql);
-$didbv = 60;
-oci_bind_by_name($stid, ':didbv', $didbv);
+$sql = 'SELECT last_name FROM employees WHERE department_id = :didbv ORDER BY last_name';
+$stid = oci_parse($conn, $sql);
+$didbv = 60;
+oci_bind_by_name($stid, ':didbv', $didbv);
 oci_execute($stid);
-while (($row = oci_fetch_array($stid, OCI_ASSOC)) != false) {
-    echo $row['LAST_NAME'] ."<br>\n";
+while (($row = oci_fetch_array($stid, OCI_ASSOC)) != false) {
+    echo $row['LAST_NAME'] ."<br>\n";
 }
 
-// Выведет
-//    Austin
-//    Ernst
-//    Hunold
-//    Lorentz
-//    Pataballa
+// Выведет
+//    Austin
+//    Ernst
+//    Hunold
+//    Lorentz
+//    Pataballa
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -134,45 +134,45 @@ oci_close($conn);
 ```php
 <?php
 
-// Создайте таблицу перед выполнением:
-//     CREATE TABLE MYTABLE (mykey NUMBER, myclob CLOB);
+// Создайте таблицу перед выполнением:
+//     CREATE TABLE MYTABLE (mykey NUMBER, myclob CLOB);
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$mykey = 12343;  // произвольный ключ для данного примера;
+$mykey = 12343;  // произвольный ключ для данного примера;
 
-$sql = "INSERT INTO mytable (mykey, myclob)
-        VALUES (:mykey, EMPTY_CLOB())
-        RETURNING myclob INTO :myclob";
+$sql = "INSERT INTO mytable (mykey, myclob)
+        VALUES (:mykey, EMPTY_CLOB())
+        RETURNING myclob INTO :myclob";
 
-$stid = oci_parse($conn, $sql);
-$clob = oci_new_descriptor($conn, OCI_D_LOB);
-oci_bind_by_name($stid, ":mykey", $mykey, 5);
-oci_bind_by_name($stid, ":myclob", $clob, -1, OCI_B_CLOB);
-oci_execute($stid, OCI_NO_AUTO_COMMIT); // используйте OCI_DEFAULT для PHP <= 5.3.1
-$clob->save("A very long string");
+$stid = oci_parse($conn, $sql);
+$clob = oci_new_descriptor($conn, OCI_D_LOB);
+oci_bind_by_name($stid, ":mykey", $mykey, 5);
+oci_bind_by_name($stid, ":myclob", $clob, -1, OCI_B_CLOB);
+oci_execute($stid, OCI_NO_AUTO_COMMIT); // используйте OCI_DEFAULT для PHP <= 5.3.1
+$clob->save("A very long string");
 
 oci_commit($conn);
 
-// Получение CLOB данных
+// Получение CLOB данных
 
-$query = 'SELECT myclob FROM mytable WHERE mykey = :mykey';
+$query = 'SELECT myclob FROM mytable WHERE mykey = :mykey';
 
-$stid = oci_parse ($conn, $query);
-oci_bind_by_name($stid, ":mykey", $mykey, 5);
+$stid = oci_parse ($conn, $query);
+oci_bind_by_name($stid, ":mykey", $mykey, 5);
 oci_execute($stid);
 
-print '<table border="1">';
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_LOBS)) {
-    print '<tr><td>'.$row['MYCLOB'].'</td></tr>';
-    // В цикле, очищение больших переменных перед повторным получением данных, уменьшает пиковое потребление памяти PHP
-    unset($row);
+print '<table border="1">';
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_LOBS)) {
+    print '<tr><td>'.$row['MYCLOB'].'</td></tr>';
+    // В цикле, очищение больших переменных перед повторным получением данных, уменьшает пиковое потребление памяти PHP
+    unset($row);
 }
-print '</table>';
+print '</table>';
 
 ?>
 ```
@@ -185,31 +185,31 @@ print '</table>';
 <?php
 
 /*
-  До выполнения PHP-скрипта сойздайте хранимую процедуру в
-  SQL*Plus или SQL Developer:
+  До выполнения PHP-скрипта сойздайте хранимую процедуру в
+  SQL*Plus или SQL Developer:
 
-  CREATE OR REPLACE FUNCTION myfunc(p IN NUMBER) RETURN NUMBER AS
-  BEGIN
-      RETURN p * 3;
-  END;
+  CREATE OR REPLACE FUNCTION myfunc(p IN NUMBER) RETURN NUMBER AS
+  BEGIN
+      RETURN p * 3;
+  END;
 
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$p = 8;
+$p = 8;
 
-$stid = oci_parse($conn, 'begin :r := myfunc(:p); end;');
-oci_bind_by_name($stid, ':p', $p);
-oci_bind_by_name($stid, ':r', $r, 40);
+$stid = oci_parse($conn, 'begin :r := myfunc(:p); end;');
+oci_bind_by_name($stid, ':p', $p);
+oci_bind_by_name($stid, ':r', $r, 40);
 
 oci_execute($stid);
 
-print "$r\n";   // выведет 24
+print "$r\n";   // выведет 24
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -225,31 +225,31 @@ oci_close($conn);
 <?php
 
 /*
-  До выполнения PHP-скрипта сойздайте хранимую процедуру в
-  SQL*Plus или SQL Developer:
+  До выполнения PHP-скрипта сойздайте хранимую процедуру в
+  SQL*Plus или SQL Developer:
 
-  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS
-  BEGIN
-      p2 := p1 * 2;
-  END;
+  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS
+  BEGIN
+      p2 := p1 * 2;
+  END;
 
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$p1 = 8;
+$p1 = 8;
 
-$stid = oci_parse($conn, 'begin myproc(:p1, :p2); end;');
-oci_bind_by_name($stid, ':p1', $p1);
-oci_bind_by_name($stid, ':p2', $p2, 40);
+$stid = oci_parse($conn, 'begin myproc(:p1, :p2); end;');
+oci_bind_by_name($stid, ':p1', $p1);
+oci_bind_by_name($stid, ':p2', $p2, 40);
 
 oci_execute($stid);
 
-print "$p2\n";   // выведет 16
+print "$p2\n";   // выведет 16
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -264,39 +264,39 @@ oci_close($conn);
 ```php
 <?php
 /*
-  Создайте PL/SQL хранимую процедуру:
+  Создайте PL/SQL хранимую процедуру:
 
-  CREATE OR REPLACE FUNCTION myfunc(p1 IN NUMBER) RETURN SYS_REFCURSOR AS
-      rc SYS_REFCURSOR;
-  BEGIN
-      OPEN rc FOR SELECT city FROM locations WHERE ROWNUM < p1;
-      RETURN rc;
-  END;
+  CREATE OR REPLACE FUNCTION myfunc(p1 IN NUMBER) RETURN SYS_REFCURSOR AS
+      rc SYS_REFCURSOR;
+  BEGIN
+      OPEN rc FOR SELECT city FROM locations WHERE ROWNUM < p1;
+      RETURN rc;
+  END;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, 'SELECT myfunc(5) AS mfrc FROM dual');
+$stid = oci_parse($conn, 'SELECT myfunc(5) AS mfrc FROM dual');
 oci_execute($stid);
 
-echo "<table border='1'>\n";
-while (($row = oci_fetch_array($stid, OCI_ASSOC))) {
-    echo "<tr>\n";
-    $rc = $row['MFRC'];
-    oci_execute($rc);  // возвращает значение поля из запроса в виде указателя
-    while (($rc_row = oci_fetch_array($rc, OCI_ASSOC))) {
-        echo "    <td>" . $rc_row['CITY'] . "</td>\n";
-    }
-    oci_free_statement($rc);
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while (($row = oci_fetch_array($stid, OCI_ASSOC))) {
+    echo "<tr>\n";
+    $rc = $row['MFRC'];
+    oci_execute($rc);  // возвращает значение поля из запроса в виде указателя
+    while (($rc_row = oci_fetch_array($rc, OCI_ASSOC))) {
+        echo "    <td>" . $rc_row['CITY'] . "</td>\n";
+    }
+    oci_free_statement($rc);
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
-// Выведет:
-//   Beijing
-//   Bern
-//   Bombay
-//   Geneva
+// Выведет:
+//   Beijing
+//   Bern
+//   Bombay
+//   Geneva
 
 oci_free_statement($stid);
 oci_close($conn);

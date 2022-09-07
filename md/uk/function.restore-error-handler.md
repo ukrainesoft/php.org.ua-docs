@@ -36,14 +36,14 @@ restore_error_handler(): bool
 
 ```php
 <?php
-function unserialize_handler($errno, $errstr)
+function unserialize_handler($errno, $errstr)
 {
-    echo "Сериализуемое значение недопустимо.\n";
+    echo "Сериализуемое значение недопустимо.\n";
 }
 
-$serialized = 'foo';
+$serialized = 'foo';
 set_error_handler('unserialize_handler');
-$original = unserialize($serialized);
+$original = unserialize($serialized);
 restore_error_handler();
 ?>
 ```

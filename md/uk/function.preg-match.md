@@ -15,7 +15,7 @@ pregmatch — Виконує перевірку на відповідність 
 ### Опис
 
 ```methodsynopsis
-preg_match(    string $pattern,    string $subject,    array &$matches = null,    int $flags = 0,    int $offset = 0): int|false
+preg_match(    string $pattern,    string $subject,    array &$matches = null,    int $flags = 0,    int $offset = 0): int|false
 ```
 
 Шукає у заданому тексті `subject` збіги з шаблоном `pattern`
@@ -44,7 +44,7 @@ preg_match(    string $pattern,    string $subject,    array &$match
 
 ```php
 <?php
-preg_match('/(foo)(bar)(baz)/', 'foobarbaz', $matches, PREG_OFFSET_CAPTURE);
+preg_match('/(foo)(bar)(baz)/', 'foobarbaz', $matches, PREG_OFFSET_CAPTURE);
 print_r($matches);
 ?>
 ```
@@ -87,9 +87,9 @@ Array
 
 ```php
 <?php
-preg_match('/(a)(b)*(c)/', 'ac', $matches);
+preg_match('/(a)(b)*(c)/', 'ac', $matches);
 var_dump($matches);
-preg_match('/(a)(b)*(c)/', 'ac', $matches, PREG_UNMATCHED_AS_NULL);
+preg_match('/(a)(b)*(c)/', 'ac', $matches, PREG_UNMATCHED_AS_NULL);
 var_dump($matches);
 ?>
 ```
@@ -129,9 +129,9 @@ array(4) {
 > 
 > ```php
 > <?php
-> $subject = "abcdef";
-> $pattern = '/^def/';
-> preg_match($pattern, $subject, $matches, PREG_OFFSET_CAPTURE, 3);
+> $subject = "abcdef";
+> $pattern = '/^def/';
+> preg_match($pattern, $subject, $matches, PREG_OFFSET_CAPTURE, 3);
 > print_r($matches);
 > ?>
 > ```
@@ -148,9 +148,9 @@ array(4) {
 > 
 > ```php
 > <?php
-> $subject = "abcdef";
-> $pattern = '/^def/';
-> preg_match($pattern, substr($subject,3), $matches, PREG_OFFSET_CAPTURE);
+> $subject = "abcdef";
+> $pattern = '/^def/';
+> preg_match($pattern, substr($subject,3), $matches, PREG_OFFSET_CAPTURE);
 > print_r($matches);
 > ?>
 > ```
@@ -195,12 +195,12 @@ array(4) {
 
 ```php
 <?php
-// Символ "i" после закрывающего ограничителя шаблона означает
-// регистронезависимый поиск.
-if (preg_match("/php/i", "PHP is the web scripting language of choice.")) {
-    echo "Вхождение найдено.";
-} else {
-    echo "Вхождение не найдено.";
+// Символ "i" после закрывающего ограничителя шаблона означает
+// регистронезависимый поиск.
+if (preg_match("/php/i", "PHP is the web scripting language of choice.")) {
+    echo "Вхождение найдено.";
+} else {
+    echo "Вхождение не найдено.";
 }
 ?>
 ```
@@ -209,19 +209,19 @@ if (preg_match("/php/i", "PHP is the web scripting language of choice."
 
 ```php
 <?php
-/* Специальная последовательность \b в шаблоне означает границу слова,
-   следовательно, только изолированное вхождение слова 'web' будет
-   соответствовать маске, в отличие от "webbing" или "cobweb" */
-if (preg_match("/\bweb\b/i", "PHP is the web scripting language of choice.")) {
-    echo "Вхождение найдено.";
-} else {
-    echo "Вхождение не найдено.";
+/* Специальная последовательность \b в шаблоне означает границу слова,
+   следовательно, только изолированное вхождение слова 'web' будет
+   соответствовать маске, в отличие от "webbing" или "cobweb" */
+if (preg_match("/\bweb\b/i", "PHP is the web scripting language of choice.")) {
+    echo "Вхождение найдено.";
+} else {
+    echo "Вхождение не найдено.";
 }
 
-if (preg_match("/\bweb\b/i", "PHP is the website scripting language of choice.")) {
-    echo "Вхождение найдено.";
-} else {
-    echo "Вхождение не найдено.";
+if (preg_match("/\bweb\b/i", "PHP is the website scripting language of choice.")) {
+    echo "Вхождение найдено.";
+} else {
+    echo "Вхождение не найдено.";
 }
 ?>
 ```
@@ -230,14 +230,14 @@ if (preg_match("/\bweb\b/i", "PHP is the website scripting language of 
 
 ```php
 <?php
-// Извлекаем имя хоста из URL
+// Извлекаем имя хоста из URL
 preg_match('@^(?:http://)?([^/]+)@i',
-    "http://www.php.net/index.html", $matches);
-$host = $matches[1];
+    "http://www.php.net/index.html", $matches);
+$host = $matches[1];
 
-// извлекаем две последние части имени хоста
-preg_match('/[^.]+\.[^.]+$/', $host, $matches);
-echo "доменное имя: {$matches[0]}\n";
+// извлекаем две последние части имени хоста
+preg_match('/[^.]+\.[^.]+$/', $host, $matches);
+echo "доменное имя: {$matches[0]}\n";
 ?>
 ```
 
@@ -252,12 +252,12 @@ echo "доменное имя: {$matches[0]}\n";
 ```php
 <?php
 
-$str = 'foobar: 2008';
+$str = 'foobar: 2008';
 
-preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
+preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);
 
-/* Альтернативный вариант */
-// preg_match('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);
+/* Альтернативный вариант */
+// preg_match('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);
 
 print_r($matches);
 

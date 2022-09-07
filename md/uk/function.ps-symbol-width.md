@@ -15,7 +15,7 @@ title: псsymbolwidth
 ### Опис
 
 ```methodsynopsis
-ps_symbol_width(    resource $psdoc,    int $ord,    int $fontid = 0,    float $size = 0.0): float
+ps_symbol_width(    resource $psdoc,    int $ord,    int $fontid = 0,    float $size = 0.0): float
 ```
 
 Обчислює ширину гліфа в точках, якщо він був виведений із заданим шрифтом та розміром шрифту. Функції потрібен файл метрик шрифтів Adobe для розрахунку точної ширини.

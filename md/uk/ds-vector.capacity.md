@@ -34,13 +34,13 @@ public Ds\Vector::capacity(): int
 
 ```php
 <?php
-$vector = new \Ds\Vector();
+$vector = new \Ds\Vector();
 var_dump($vector->capacity());
 
-$vector->push(...range(1, 50));
+$vector->push(...range(1, 50));
 var_dump($vector->capacity());
 
-$vector[] = "a";
+$vector[] = "a";
 var_dump($vector->capacity());
 ?>
 ```

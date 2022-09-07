@@ -34,7 +34,7 @@ public ReflectionFunctionAbstract::isDeprecated(): bool
 
 ```php
 <?php
-$rf = new ReflectionFunction('ereg');
+$rf = new ReflectionFunction('ereg');
 var_dump($rf->isDeprecated());
 ?>
 ```

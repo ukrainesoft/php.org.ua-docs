@@ -46,17 +46,17 @@ imagealphablending(GdImage $image, bool $enable): bool
 
 ```php
 <?php
-// Создание изображения
-$im = imagecreatetruecolor(100, 100);
+// Создание изображения
+$im = imagecreatetruecolor(100, 100);
 
-// Включение режима сопряжения цветов
-imagealphablending($im, true);
+// Включение режима сопряжения цветов
+imagealphablending($im, true);
 
-// Рисуем прямоугольник
-imagefilledrectangle($im, 30, 30, 70, 70, imagecolorallocate($im, 255, 0, 0));
+// Рисуем прямоугольник
+imagefilledrectangle($im, 30, 30, 70, 70, imagecolorallocate($im, 255, 0, 0));
 
-// Вывод
-header('Content-Type: image/png');
+// Вывод
+header('Content-Type: image/png');
 
 imagepng($im);
 imagedestroy($im);

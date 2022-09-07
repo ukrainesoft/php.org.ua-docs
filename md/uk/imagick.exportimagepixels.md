@@ -15,7 +15,7 @@ Imagick::exportImagePixels — Експортує пікселі зображе�
 ### Опис
 
 ```methodsynopsis
-public Imagick::exportImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $STORAGE): array
+public Imagick::exportImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $STORAGE): array
 ```
 
 Експортує пікселі зображення до масиву. Параметр map визначає порядок експортованих пікселів. Розмір повертається масиву - `width * height * strlen(map)`. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.7 або старшим.
@@ -63,16 +63,16 @@ public Imagick::exportImagePixels(    int $x,    int $y,    int $wid
 ```php
 <?php
 
-/* Создание нового объекта */
-$im = new Imagick();
+/* Создание нового объекта */
+$im = new Imagick();
 
-/* Создание нового изображения */
-$im->newPseudoImage(0, 0, "magick:rose");
+/* Создание нового изображения */
+$im->newPseudoImage(0, 0, "magick:rose");
 
-/* Экспорт пикселей изображения */
-$pixels = $im->exportImagePixels(10, 10, 2, 2, "RGB", Imagick::PIXEL_CHAR);
+/* Экспорт пикселей изображения */
+$pixels = $im->exportImagePixels(10, 10, 2, 2, "RGB", Imagick::PIXEL_CHAR);
 
-/* Вывод */
+/* Вывод */
 var_dump($pixels);
 ?>
 ```

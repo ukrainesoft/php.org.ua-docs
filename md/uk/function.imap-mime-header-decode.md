@@ -18,7 +18,7 @@ imapmimeheaderdecode — Декодувати елементи заголовк�
 imap_mime_header_decode(string $string): array|false
 ```
 
-Декодує MIME-розширення заголовка, що не є текстом ASCII (див. [» RFC2047](http://www.faqs.org/rfcs/rfc2047)
+Декодує MIME-розширення заголовка, що не є текстом ASCII (див. [» RFC2047](http://www.faqs.org/rfcs/rfc2047)
 
 ### Список параметрів
 
@@ -40,12 +40,12 @@ MIME-текст
 
 ```php
 <?php
-$text = "=?ISO-8859-1?Q?Keld_J=F8rn_Simonsen?= <keld@example.com>";
+$text = "=?ISO-8859-1?Q?Keld_J=F8rn_Simonsen?= <keld@example.com>";
 
-$elements = imap_mime_header_decode($text);
-for ($i=0; $i<count($elements); $i++) {
-    echo "Charset: {$elements[$i]->charset}\n";
-    echo "Text: {$elements[$i]->text}\n\n";
+$elements = imap_mime_header_decode($text);
+for ($i=0; $i<count($elements); $i++) {
+    echo "Charset: {$elements[$i]->charset}\n";
+    echo "Text: {$elements[$i]->text}\n\n";
 }
 ?>
 ```

@@ -38,10 +38,10 @@ public Yaf_View_Simple::__set(string $name, mixed $value): void
 
 ```php
 <?php
-class IndexController extends Yaf_Controller_Abstract {
-    public function indexAction() {
-        $this->getView()->foo = "bar"; // то же, что и assign("foo", "bar");
-    }
+class IndexController extends Yaf_Controller_Abstract {
+    public function indexAction() {
+        $this->getView()->foo = "bar"; // то же, что и assign("foo", "bar");
+    }
 }
 ?>
 ```

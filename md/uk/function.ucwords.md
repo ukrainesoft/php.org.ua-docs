@@ -42,12 +42,12 @@ ucwords(string $string, string $separators = " \t\r\n\f\v"): string
 
 ```php
 <?php
-$foo = 'hello world!';
-$foo = ucwords($foo);             // Hello World!
+$foo = 'hello world!';
+$foo = ucwords($foo);             // Hello World!
 
-$bar = 'HELLO WORLD!';
-$bar = ucwords($bar);             // HELLO WORLD!
-$bar = ucwords(strtolower($bar)); // Hello World!
+$bar = 'HELLO WORLD!';
+$bar = ucwords($bar);             // HELLO WORLD!
+$bar = ucwords(strtolower($bar)); // Hello World!
 ?>
 ```
 
@@ -55,10 +55,10 @@ $bar = ucwords(strtolower($bar)); // Hello World!
 
 ```php
 <?php
-$foo = 'hello|world!';
-$bar = ucwords($foo);             // Hello|world!
+$foo = 'hello|world!';
+$bar = ucwords($foo);             // Hello|world!
 
-$baz = ucwords($foo, "|");        // Hello|World!
+$baz = ucwords($foo, "|");        // Hello|World!
 ?>
 ```
 
@@ -66,10 +66,10 @@ $baz = ucwords($foo, "|");        // Hello|World!
 
 ```php
 <?php
-$foo = "mike o'hara";
-$bar = ucwords($foo);                 // Mike O'hara
+$foo = "mike o'hara";
+$bar = ucwords($foo);                 // Mike O'hara
 
-$baz = ucwords($foo, " \t\r\n\f\v'"); // Mike O'Hara
+$baz = ucwords($foo, " \t\r\n\f\v'"); // Mike O'Hara
 ?>
 ```
 

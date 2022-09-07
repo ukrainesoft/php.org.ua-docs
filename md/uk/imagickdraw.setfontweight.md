@@ -36,36 +36,36 @@ public ImagickDraw::setFontWeight(int $font_weight): bool
 
 ```php
 <?php
-function setFontWeight($fillColor, $strokeColor, $backgroundColor) {
+function setFontWeight($fillColor, $strokeColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
 
-    $draw->setStrokeWidth(1);
+    $draw->setStrokeWidth(1);
 
-    $draw->setFontSize(36);
+    $draw->setFontSize(36);
 
-    $draw->setFontWeight(100);
-    $draw->annotation(50, 50, "Lorem Ipsum!");
+    $draw->setFontWeight(100);
+    $draw->annotation(50, 50, "Lorem Ipsum!");
 
-    $draw->setFontWeight(200);
-    $draw->annotation(50, 100, "Lorem Ipsum!");
+    $draw->setFontWeight(200);
+    $draw->annotation(50, 100, "Lorem Ipsum!");
 
-    $draw->setFontWeight(400);
-    $draw->annotation(50, 150, "Lorem Ipsum!");
+    $draw->setFontWeight(400);
+    $draw->annotation(50, 150, "Lorem Ipsum!");
 
-    $draw->setFontWeight(800);
-    $draw->annotation(50, 200, "Lorem Ipsum!");
+    $draw->setFontWeight(800);
+    $draw->annotation(50, 200, "Lorem Ipsum!");
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

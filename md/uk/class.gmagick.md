@@ -30,21 +30,21 @@ title: Клас Gmagick
 
     public addimage(Gmagick $source): Gmagick
 public addnoiseimage(int $noise_type): Gmagick
-public annotateimage(    GmagickDraw $GmagickDraw,    float $x,    float $y,    float $angle,    string $text): Gmagick
+public annotateimage(    GmagickDraw $GmagickDraw,    float $x,    float $y,    float $angle,    string $text): Gmagick
 public blurimage(float $radius, float $sigma, int $channel = ?): Gmagick
 public borderimage(GmagickPixel $color, int $width, int $height): Gmagick
 public charcoalimage(float $radius, float $sigma): Gmagick
-public chopimage(    int $width,    int $height,    int $x,    int $y): Gmagick
+public chopimage(    int $width,    int $height,    int $x,    int $y): Gmagick
 public clear(): Gmagick
 public commentimage(string $comment): Gmagick
-public compositeimage(    Gmagick $source,    int $COMPOSE,    int $x,    int $y): Gmagick
-public cropimage(    
+public compositeimage(    Gmagick $source,    int $COMPOSE,    int $x,    int $y): Gmagick
+public cropimage(    
     int
      $width
-   ,    
+   ,    
     int
      $height
-   ,    int $x,    int $y): Gmagick
+   ,    int $x,    int $y): Gmagick
 public cropthumbnailimage(int $width, int $height): Gmagick
 public current(): Gmagick
 public cyclecolormapimage(int $displace): Gmagick
@@ -58,7 +58,7 @@ public enhanceimage(): Gmagick
 public equalizeimage(): Gmagick
 public flipimage(): Gmagick
 public flopimage(): Gmagick
-public frameimage(    GmagickPixel $color,    int $width,    int $height,    int $inner_bevel,    int $outer_bevel): Gmagick
+public frameimage(    GmagickPixel $color,    int $width,    int $height,    int $inner_bevel,    int $outer_bevel): Gmagick
 public gammaimage(float $gamma): Gmagick
 public getcopyright(): string
 public getfilename(): string
@@ -104,14 +104,14 @@ public hasnextimage(): mixed
 public haspreviousimage(): mixed
 public implodeimage(float $radius): mixed
 public labelimage(string $label): mixed
-public levelimage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Gmagick::CHANNEL_DEFAULT): mixed
+public levelimage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Gmagick::CHANNEL_DEFAULT): mixed
 public magnifyimage(): mixed
 public mapimage(gmagick $gmagick, bool $dither): Gmagick
 public medianfilterimage(float $radius): void
 public minifyimage(): Gmagick
 public modulateimage(float $brightness, float $saturation, float $hue): Gmagick
 public motionblurimage(float $radius, float $sigma, float $angle): Gmagick
-public newimage(    int $width,    int $height,    string $background,    string $format = ?): Gmagick
+public newimage(    int $width,    int $height,    string $background,    string $format = ?): Gmagick
 public nextimage(): bool
 public normalizeimage(int $channel = ?): Gmagick
 public oilpaintimage(
@@ -120,13 +120,13 @@ public oilpaintimage(
     ): Gmagick
 public previousimage(): bool
 public profileimage(string $name, string $profile): Gmagick
-public quantizeimage(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
-public quantizeimages(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
+public quantizeimage(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
+public quantizeimages(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
 public queryfontmetrics(GmagickDraw $draw, string $text): array
 public queryfonts(string $pattern = "*"): array
 public queryformats(string $pattern = "*"): array
 public radialblurimage(float $angle, int $channel = Gmagick::CHANNEL_DEFAULT): Gmagick
-public raiseimage(    int $width,    int $height,    int $x,    int $y,    bool $raise): Gmagick
+public raiseimage(    int $width,    int $height,    int $x,    int $y,    bool $raise): Gmagick
 public read(string $filename): Gmagick
 public readimage(string $filename): Gmagick
 public readimageblob(string $imageContents, string $filename = ?): Gmagick
@@ -134,8 +134,8 @@ public readimagefile(resource $fp, string $filename = ?): Gmagick
 public reducenoiseimage(float $radius): Gmagick
 public removeimage(): Gmagick
 public removeimageprofile(string $name): string
-public resampleimage(    float $xResolution,    float $yResolution,    int $filter,    float $blur): Gmagick
-public resizeimage(    int $width,    int $height,    int $filter,    float $blur,    bool $fit = false): Gmagick
+public resampleimage(    float $xResolution,    float $yResolution,    int $filter,    float $blur): Gmagick
+public resizeimage(    int $width,    int $height,    int $filter,    float $blur,    bool $fit = false): Gmagick
 public rollimage(int $x, int $y): Gmagick
 public rotateimage(mixed $color, float $degrees): Gmagick
 public scaleimage(int $width, int $height, bool $fit = false): Gmagick

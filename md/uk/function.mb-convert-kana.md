@@ -72,11 +72,11 @@ mb_convert_kana(string $string, string $mode = "KV", ?string $encoding = null): 
 
 ```php
 <?php
-/* Преобразование всех символов "kana" в "zen-kaku" "kata-kana" */
-$str = mb_convert_kana($str, "KVC");
+/* Преобразование всех символов "kana" в "zen-kaku" "kata-kana" */
+$str = mb_convert_kana($str, "KVC");
 
-/* Преобразование "han-kaku" "kata-kana" в "zen-kaku" "kata-kana"
-   и "zen-kaku" буквенно-цифровых символов в "han-kaku" */
-$str = mb_convert_kana($str, "KVa");
+/* Преобразование "han-kaku" "kata-kana" в "zen-kaku" "kata-kana"
+   и "zen-kaku" буквенно-цифровых символов в "han-kaku" */
+$str = mb_convert_kana($str, "KVa");
 ?>
 ```

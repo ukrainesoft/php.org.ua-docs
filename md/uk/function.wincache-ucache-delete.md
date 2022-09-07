@@ -38,7 +38,7 @@ wincache_ucache_delete(mixed $key): bool
 
 ```php
 <?php
-wincache_ucache_set('foo', 'bar');
+wincache_ucache_set('foo', 'bar');
 var_dump(wincache_ucache_delete('foo'));
 var_dump(wincache_ucache_exists('foo'));
 ?>
@@ -55,9 +55,9 @@ bool(false)
 
 ```php
 <?php
-$array1 = array('green' => '5', 'blue' => '6', 'yellow' => '7', 'cyan' => '8');
+$array1 = array('green' => '5', 'blue' => '6', 'yellow' => '7', 'cyan' => '8');
 wincache_ucache_set($array1);
-$array2 = array('green', 'blue', 'yellow', 'cyan');
+$array2 = array('green', 'blue', 'yellow', 'cyan');
 var_dump(wincache_ucache_delete($array2));
 ?>
 ```
@@ -75,9 +75,9 @@ array(4) { [0]=> string(5) "green"
 
 ```php
 <?php
-$array1 = array('green' => '5', 'blue' => '6', 'yellow' => '7', 'cyan' => '8');
+$array1 = array('green' => '5', 'blue' => '6', 'yellow' => '7', 'cyan' => '8');
 wincache_ucache_set($array1);
-$array2 = array('orange', 'red', 'yellow', 'cyan');
+$array2 = array('orange', 'red', 'yellow', 'cyan');
 var_dump(wincache_ucache_delete($array2));
 ?>
 ```

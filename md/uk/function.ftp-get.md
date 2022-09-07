@@ -15,7 +15,7 @@ ftpget — Завантажує файл із FTP-сервера
 ### Опис
 
 ```methodsynopsis
-ftp_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
+ftp_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
 ```
 
 **ftpget()** завантажує видалений файл з сервера FTP і зберігає його локально.
@@ -60,24 +60,24 @@ ftp_get(    FTP\Connection $ftp,    string $local_filename,    strin
 ```php
 <?php
 
-// объявление переменных
-$local_file = 'local.zip';
-$server_file = 'server.zip';
+// объявление переменных
+$local_file = 'local.zip';
+$server_file = 'server.zip';
 
-// установка соединения
-$conn_id = ftp_connect($ftp_server);
+// установка соединения
+$conn_id = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($conn_id, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($conn_id, $ftp_user_name, $ftp_user_pass);
 
-// попытка скачать $server_file и сохранить в $local_file
-if (ftp_get($conn_id, $local_file, $server_file, FTP_BINARY)) {
-    echo "Произведена запись в $local_file\n";
-} else {
-    echo "Не удалось завершить операцию\n";
+// попытка скачать $server_file и сохранить в $local_file
+if (ftp_get($conn_id, $local_file, $server_file, FTP_BINARY)) {
+    echo "Произведена запись в $local_file\n";
+} else {
+    echo "Не удалось завершить операцию\n";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($conn_id);
 
 ?>

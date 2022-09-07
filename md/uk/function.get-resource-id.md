@@ -39,11 +39,11 @@ get_resource_id(resource $resource): int
 ```php
 <?php
 
-$handle = fopen("php://stdout", "w");
+$handle = fopen("php://stdout", "w");
 
-echo (int) $handle . "\n";
+echo (int) $handle . "\n";
 
-echo get_resource_id($handle);
+echo get_resource_id($handle);
 
 ?>
 ```

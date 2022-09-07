@@ -34,7 +34,7 @@ svn_client_version(): string
 
 ```php
 <?php
-echo svn_client_version();
+echo svn_client_version();
 ?>
 ```
 

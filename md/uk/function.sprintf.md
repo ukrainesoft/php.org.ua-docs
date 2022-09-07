@@ -117,11 +117,11 @@ sprintf(string $format, mixed ...$values): string
 
 ```php
 <?php
-$num = 5;
-$location = 'tree';
+$num = 5;
+$location = 'tree';
 
-$format = 'There are %d monkeys in the %s';
-echo sprintf($format, $num, $location);
+$format = 'There are %d monkeys in the %s';
+echo sprintf($format, $num, $location);
 ?>
 ```
 
@@ -135,8 +135,8 @@ There are 5 monkeys in the tree
 
 ```php
 <?php
-$format = 'The %s contains %d monkeys';
-echo sprintf($format, $num, $location);
+$format = 'The %s contains %d monkeys';
+echo sprintf($format, $num, $location);
 ?>
 ```
 
@@ -144,8 +144,8 @@ echo sprintf($format, $num, $location);
 
 ```php
 <?php
-$format = 'The %2$s contains %1$d monkeys';
-echo sprintf($format, $num, $location);
+$format = 'The %2$s contains %1$d monkeys';
+echo sprintf($format, $num, $location);
 ?>
 ```
 
@@ -153,9 +153,9 @@ echo sprintf($format, $num, $location);
 
 ```php
 <?php
-$format = 'The %2$s contains %1$d monkeys.
-           That\'s a nice %2$s full of %1$d monkeys.';
-echo sprintf($format, $num, $location);
+$format = 'The %2$s contains %1$d monkeys.
+           That\'s a nice %2$s full of %1$d monkeys.';
+echo sprintf($format, $num, $location);
 ?>
 ```
 
@@ -165,8 +165,8 @@ echo sprintf($format, $num, $location);
 
 ```php
 <?php
-echo sprintf("%'.9d\n", 123);
-echo sprintf("%'.09d\n", 123);
+echo sprintf("%'.9d\n", 123);
+echo sprintf("%'.09d\n", 123);
 ?>
 ```
 
@@ -181,8 +181,8 @@ echo sprintf("%'.09d\n", 123);
 
 ```php
 <?php
-$format = 'The %2$s contains %1$04d monkeys';
-echo sprintf($format, $num, $location);
+$format = 'The %2$s contains %1$04d monkeys';
+echo sprintf($format, $num, $location);
 ?>
 ```
 
@@ -196,7 +196,7 @@ The tree contains 0005 monkeys
 
 ```php
 <?php
-$isodate = sprintf("%04d-%02d-%02d", $year, $month, $day);
+$isodate = sprintf("%04d-%02d-%02d", $year, $month, $day);
 ?>
 ```
 
@@ -204,13 +204,13 @@ $isodate = sprintf("%04d-%02d-%02d", $year, $month, $day);
 
 ```php
 <?php
-$money1 = 68.75;
-$money2 = 54.35;
-$money = $money1 + $money2;
-echo $money;
-echo "\n";
-$formatted = sprintf("%01.2f", $money);
-echo $formatted;
+$money1 = 68.75;
+$money2 = 54.35;
+$money = $money1 + $money2;
+echo $money;
+echo "\n";
+$formatted = sprintf("%01.2f", $money);
+echo $formatted;
 ?>
 ```
 
@@ -225,9 +225,9 @@ echo $formatted;
 
 ```php
 <?php
-$number = 362525200;
+$number = 362525200;
 
-echo sprintf("%.3e", $number);
+echo sprintf("%.3e", $number);
 ?>
 ```
 

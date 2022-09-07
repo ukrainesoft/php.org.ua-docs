@@ -36,12 +36,12 @@ public QuickHashIntSet::delete(int $key): bool
 
 ```php
 <?php
-$set = new QuickHashIntSet( 1024 );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
-var_dump( $set->delete( 4 ) );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->delete( 4 ) );
+$set = new QuickHashIntSet( 1024 );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
+var_dump( $set->delete( 4 ) );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->delete( 4 ) );
 ?>
 ```
 

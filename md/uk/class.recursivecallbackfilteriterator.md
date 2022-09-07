@@ -71,15 +71,15 @@ Callback-функція може приймати до трьох аргумен
 <?php
 
 /**
- * Callback-функция для RecursiveCallbackFilterIterator
- *
- * @param $current   Значение текущего элемента
- * @param $key       Ключ текущего элемента
- * @param $iterator  Итератор, который фильтруется
- * @return boolean   TRUE для приёма текущего элемента или FALSE - в ином случае.
- */
-function my_callback($current, $key, $iterator) {
-    // Здесь ваш код фильтрации
+ * Callback-функция для RecursiveCallbackFilterIterator
+ *
+ * @param $current   Значение текущего элемента
+ * @param $key       Ключ текущего элемента
+ * @param $iterator  Итератор, который фильтруется
+ * @return boolean   TRUE для приёма текущего элемента или FALSE - в ином случае.
+ */
+function my_callback($current, $key, $iterator) {
+    // Здесь ваш код фильтрации
 }
 
 ?>
@@ -92,23 +92,23 @@ function my_callback($current, $key, $iterator) {
 ```php
 <?php
 
-$dir = new RecursiveDirectoryIterator(__DIR__);
+$dir = new RecursiveDirectoryIterator(__DIR__);
 
-// Фильтр больших файлов ( > 100MB)
-$files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {
-    // Разрешить рекурсию
-    if ($iterator->hasChildren()) {
-        return TRUE;
-    }
-    // Проверка больших файлов
-    if ($current->isFile() && $current->getSize() > 104857600) {
-        return TRUE;
-    }
-    return FALSE;
+// Фильтр больших файлов ( > 100MB)
+$files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {
+    // Разрешить рекурсию
+    if ($iterator->hasChildren()) {
+        return TRUE;
+    }
+    // Проверка больших файлов
+    if ($current->isFile() && $current->getSize() > 104857600) {
+        return TRUE;
+    }
+    return FALSE;
 });
 
-foreach (new RecursiveIteratorIterator($files) as $file) {
-    echo $file->getPathname() . PHP_EOL;
+foreach (new RecursiveIteratorIterator($files) as $file) {
+    echo $file->getPathname() . PHP_EOL;
 }
 
 ?>

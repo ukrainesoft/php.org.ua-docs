@@ -26,7 +26,7 @@ string [$mysqlistmt->sqlstate](mysqli-stmt.sqlstate.md)
 mysqli_stmt_sqlstate(mysqli_stmt $statement): string
 ```
 
-Повертає рядок, що містить код SQLSTATE, помилки, викликаної в результаті виконання останньої операції над запитом, яка може завершуватися успішно або неуспішно. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Значення цього коду визначено у стандарті ANSI SQL, а також у ODBC. Повний список можливих кодів можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
+Повертає рядок, що містить код SQLSTATE, помилки, викликаної в результаті виконання останньої операції над запитом, яка може завершуватися успішно або неуспішно. Цей код складається з п'яти символів . `'00000'` означає відсутність помилок. Значення цього коду визначено у стандарті ANSI SQL, а також у ODBC. Повний список можливих кодів можна переглянути на сторінці [» http://dev.mysql.com/doc/mysql/en/error-handling.html](http://dev.mysql.com/doc/mysql/en/error-handling.md)
 
 ### Список параметрів
 
@@ -44,35 +44,35 @@ mysqli_stmt_sqlstate(mysqli_stmt $statement): string
 
 ```php
 <?php
-/* Открываем соединение */
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+/* Открываем соединение */
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* Проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* Проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$mysqli->query("CREATE TABLE myCountry LIKE Country");
-$mysqli->query("INSERT INTO myCountry SELECT * FROM Country");
+$mysqli->query("CREATE TABLE myCountry LIKE Country");
+$mysqli->query("INSERT INTO myCountry SELECT * FROM Country");
 
 
-$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
-if ($stmt = $mysqli->prepare($query)) {
+$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
+if ($stmt = $mysqli->prepare($query)) {
 
-    /* удаляем таблицу */
-    $mysqli->query("DROP TABLE myCountry");
+    /* удаляем таблицу */
+    $mysqli->query("DROP TABLE myCountry");
 
-    /* выполняем запрос */
-    $stmt->execute();
+    /* выполняем запрос */
+    $stmt->execute();
 
-    printf("Ошибка: %s.\n", $stmt->sqlstate);
+    printf("Ошибка: %s.\n", $stmt->sqlstate);
 
-    /* закрываем запрос */
-    $stmt->close();
+    /* закрываем запрос */
+    $stmt->close();
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -81,35 +81,35 @@ $mysqli->close();
 
 ```php
 <?php
-/* Открываем соединение */
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+/* Открываем соединение */
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* Проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* Проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-mysqli_query($link, "CREATE TABLE myCountry LIKE Country");
-mysqli_query($link, "INSERT INTO myCountry SELECT * FROM Country");
+mysqli_query($link, "CREATE TABLE myCountry LIKE Country");
+mysqli_query($link, "INSERT INTO myCountry SELECT * FROM Country");
 
 
-$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
-if ($stmt = mysqli_prepare($link, $query)) {
+$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
+if ($stmt = mysqli_prepare($link, $query)) {
 
-    /* удаляем таблицу */
-    mysqli_query($link, "DROP TABLE myCountry");
+    /* удаляем таблицу */
+    mysqli_query($link, "DROP TABLE myCountry");
 
-    /* выполняем запрос */
-    mysqli_stmt_execute($stmt);
+    /* выполняем запрос */
+    mysqli_stmt_execute($stmt);
 
-    printf("Ошибка: %s.\n", mysqli_stmt_sqlstate($stmt));
+    printf("Ошибка: %s.\n", mysqli_stmt_sqlstate($stmt));
 
-    /* закрываем запрос */
-    mysqli_stmt_close($stmt);
+    /* закрываем запрос */
+    mysqli_stmt_close($stmt);
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

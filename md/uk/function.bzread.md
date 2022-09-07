@@ -43,17 +43,17 @@ bzread(resource $bz, int $length = 1024): string|false
 ```php
 <?php
 
-$file = "/tmp/foo.bz2";
-$bz = bzopen($file, "r") or die("Невозможно открыть $file");
+$file = "/tmp/foo.bz2";
+$bz = bzopen($file, "r") or die("Невозможно открыть $file");
 
-$decompressed_file = '';
-while (!feof($bz)) {
-  $decompressed_file .= bzread($bz, 4096);
+$decompressed_file = '';
+while (!feof($bz)) {
+  $decompressed_file .= bzread($bz, 4096);
 }
 bzclose($bz);
 
-echo "Содержимое $file: <br />\n";
-echo $decompressed_file;
+echo "Содержимое $file: <br />\n";
+echo $decompressed_file;
 
 ?>
 ```

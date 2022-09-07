@@ -15,7 +15,7 @@ strpad — Доповнює рядок іншим рядком до задано
 ### Опис
 
 ```methodsynopsis
-str_pad(    string $string,    int $length,    string $pad_string = " ",    int $pad_type = STR_PAD_RIGHT): string
+str_pad(    string $string,    int $length,    string $pad_string = " ",    int $pad_type = STR_PAD_RIGHT): string
 ```
 
 Ця функція повертає рядок `string`, доповнену ліворуч, праворуч або з обох боків до заданої довжини. Якщо необов'язковий аргумент `pad_string` не передано, то `string` буде доповнено пробілами, інакше він буде доповнений символами з `pad_string` до потрібної довжини.
@@ -50,11 +50,11 @@ str_pad(    string $string,    int $length,    string $pad_string = 
 
 ```php
 <?php
-$input = "Alien";
-echo str_pad($input, 10);                      // выводит "Alien     "
-echo str_pad($input, 10, "-=", STR_PAD_LEFT);  // выводит "-=-=-Alien"
-echo str_pad($input, 10, "_", STR_PAD_BOTH);   // выводит "__Alien___"
-echo str_pad($input,  6, "___");               // выводит "Alien_"
-echo str_pad($input,  3, "*");                 // выводит "Alien"
+$input = "Alien";
+echo str_pad($input, 10);                      // выводит "Alien     "
+echo str_pad($input, 10, "-=", STR_PAD_LEFT);  // выводит "-=-=-Alien"
+echo str_pad($input, 10, "_", STR_PAD_BOTH);   // выводит "__Alien___"
+echo str_pad($input,  6, "___");               // выводит "Alien_"
+echo str_pad($input,  3, "*");                 // выводит "Alien"
 ?>
 ```

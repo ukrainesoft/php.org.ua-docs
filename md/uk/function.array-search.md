@@ -54,10 +54,10 @@ array_search(mixed $needle, array $haystack, bool $strict = false): int|string|f
 
 ```php
 <?php
-$array = array(0 => 'blue', 1 => 'red', 2 => 'green', 3 => 'red');
+$array = array(0 => 'blue', 1 => 'red', 2 => 'green', 3 => 'red');
 
-$key = array_search('green', $array); // $key = 2;
-$key = array_search('red', $array);   // $key = 1;
+$key = array_search('green', $array); // $key = 2;
+$key = array_search('red', $array);   // $key = 1;
 ?>
 ```
 

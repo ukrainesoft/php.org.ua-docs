@@ -34,14 +34,14 @@ public static DateTimeImmutable::getLastErrors(): array|false
 
 ```php
 <?php
-try {
-    $date = new DateTimeImmutable('asdfasdf');
-} catch (Exception $e) {
-    // Только в целях демонстрации...
-    print_r(DateTimeImmutable::getLastErrors());
+try {
+    $date = new DateTimeImmutable('asdfasdf');
+} catch (Exception $e) {
+    // Только в целях демонстрации...
+    print_r(DateTimeImmutable::getLastErrors());
 
-    // в объектно-ориентированном стиле лучше делать так:
-    // echo $e->getMessage();
+    // в объектно-ориентированном стиле лучше делать так:
+    // echo $e->getMessage();
 }
 ?>
 ```

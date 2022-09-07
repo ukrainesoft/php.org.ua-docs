@@ -35,12 +35,12 @@ public ImagickPixel::getColorAsString(): string
 ```php
 <?php
 
-// Создание ImagickPixel со стандартным цветом 'brown'
-$color = new ImagickPixel('brown');
+// Создание ImagickPixel со стандартным цветом 'brown'
+$color = new ImagickPixel('brown');
 
-$color->setColorValue(Imagick::COLOR_ALPHA, 64 / 256.0);
+$color->setColorValue(Imagick::COLOR_ALPHA, 64 / 256.0);
 
-$colorInfo = $color->getColorAsString();
+$colorInfo = $color->getColorAsString();
 
 print_r($colorInfo);
 ?>

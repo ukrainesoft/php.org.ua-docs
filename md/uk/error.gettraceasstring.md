@@ -34,14 +34,14 @@ final public Error::getTraceAsString(): string
 
 ```php
 <?php
-function test() {
-    throw new Error;
+function test() {
+    throw new Error;
 }
 
-try {
-    test();
-} catch(Error $e) {
-    echo $e->getTraceAsString();
+try {
+    test();
+} catch(Error $e) {
+    echo $e->getTraceAsString();
 }
 ?>
 ```

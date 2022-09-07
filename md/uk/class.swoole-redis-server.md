@@ -63,7 +63,7 @@ title: Клас SwooleRedisServer
     /* Методы */
     
    public static format(string $type, string $value = ?): ReturnType
-public setHandler(    string $command,    string $callback,    string $number_of_string_param = ?,    string $type_of_array_param = ?): ReturnType
+public setHandler(    string $command,    string $callback,    string $number_of_string_param = ?,    string $type_of_array_param = ?): ReturnType
 public start(): ReturnType
 
 
@@ -97,7 +97,7 @@ public Swoole\Server::resume(int $fd): void
 public Swoole\Server::send(int $fd, string $data, int $reactor_id = ?): bool
 public Swoole\Server::sendfile(int $fd, string $filename, int $offset = ?): bool
 public Swoole\Server::sendMessage(int $worker_id, string $data): bool
-public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
+public Swoole\Server::sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
 public Swoole\Server::sendwait(int $fd, string $data): bool
 public Swoole\Server::set(array $settings): ReturnType
 public Swoole\Server::shutdown(): void

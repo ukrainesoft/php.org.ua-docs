@@ -34,7 +34,7 @@ public Worker::isShutdown(): bool
 
 ```php
 <?php
-$worker = new Worker();
+$worker = new Worker();
 $worker->start();
 
 var_dump($worker->isShutdown());

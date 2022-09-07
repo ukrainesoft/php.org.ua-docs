@@ -48,9 +48,9 @@ gmp_div_r(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_R
 
 ```php
 <?php
-     $div = gmp_div_r("105", "20");
-     echo gmp_strval($div) . "\n";
-     ?>
+     $div = gmp_div_r("105", "20");
+     echo gmp_strval($div) . "\n";
+     ?>
 ```
 
 Результат виконання цього прикладу:

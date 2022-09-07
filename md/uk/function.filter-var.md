@@ -36,39 +36,39 @@ filter_var(mixed $value, int $filter = FILTER_DEFAULT, array|int $options = 0): 
 
 ```php
 <?php
-// используйте этот формат для фильтров с дополнительными параметрами
-$options = array(
-    'options' => array(
-        'default' => 3, // значение, возвращаемое, если фильтрация завершилась неудачей
-        // другие параметры
-        'min_range' => 0
-    ),
-    'flags' => FILTER_FLAG_ALLOW_OCTAL,
+// используйте этот формат для фильтров с дополнительными параметрами
+$options = array(
+    'options' => array(
+        'default' => 3, // значение, возвращаемое, если фильтрация завершилась неудачей
+        // другие параметры
+        'min_range' => 0
+    ),
+    'flags' => FILTER_FLAG_ALLOW_OCTAL,
 );
-$var = filter_var('0755', FILTER_VALIDATE_INT, $options);
+$var = filter_var('0755', FILTER_VALIDATE_INT, $options);
 
-// для фильтров, который принимает только флаги, вы можете передать их непосредственно
-$var = filter_var('oops', FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_FAILURE);
+// для фильтров, который принимает только флаги, вы можете передать их непосредственно
+$var = filter_var('oops', FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_FAILURE);
 
-// для фильтров, который принимает только флаги, вы также можете передать их как Масив
-$var = filter_var('oops', FILTER_VALIDATE_BOOLEAN,
-                  array('flags' => FILTER_NULL_ON_FAILURE));
+// для фильтров, который принимает только флаги, вы также можете передать их как Масив
+$var = filter_var('oops', FILTER_VALIDATE_BOOLEAN,
+                  array('flags' => FILTER_NULL_ON_FAILURE));
 
-// callback-функция фильтра валидации
-function foo($value)
+// callback-функция фильтра валидации
+function foo($value)
 {
-    // Ожидаемый формат: Фамилия, Имена
-    if (strpos($value, ", ") === false) return false;
-    list($surname, $givennames) = explode(", ", $value, 2);
-    $empty = (empty($surname) || empty($givennames));
-    $notstrings = (!is_string($surname) || !is_string($givennames));
-    if ($empty || $notstrings) {
-        return false;
-    } else {
-        return $value;
-    }
+    // Ожидаемый формат: Фамилия, Имена
+    if (strpos($value, ", ") === false) return false;
+    list($surname, $givennames) = explode(", ", $value, 2);
+    $empty = (empty($surname) || empty($givennames));
+    $notstrings = (!is_string($surname) || !is_string($givennames));
+    if ($empty || $notstrings) {
+        return false;
+    } else {
+        return $value;
+    }
 }
-$var = filter_var('Doe, Jane Sue', FILTER_CALLBACK, array('options' => 'foo'));
+$var = filter_var('Doe, Jane Sue', FILTER_CALLBACK, array('options' => 'foo'));
 ?>
 ```
 
@@ -82,8 +82,8 @@ $var = filter_var('Doe, Jane Sue', FILTER_CALLBACK, array('options' => '
 
 ```php
 <?php
-var_dump(filter_var('bob@example.com', FILTER_VALIDATE_EMAIL));
-var_dump(filter_var('http://example.com', FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED));
+var_dump(filter_var('bob@example.com', FILTER_VALIDATE_EMAIL));
+var_dump(filter_var('http://example.com', FILTER_VALIDATE_URL, FILTER_FLAG_PATH_REQUIRED));
 ?>
 ```
 

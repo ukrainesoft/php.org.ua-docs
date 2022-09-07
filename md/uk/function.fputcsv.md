@@ -15,7 +15,7 @@ fputcsv — Форматує рядок у вигляді CSV і записує 
 ### Опис
 
 ```methodsynopsis
-fputcsv(    resource $stream,    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
+fputcsv(    resource $stream,    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
 ```
 
 **fputcsv()** форматує рядок (переданий у вигляді масиву `fields`) у вигляді CSV і записує її (закінчуючи перекладом рядка) у вказаний файл `stream`
@@ -68,16 +68,16 @@ fputcsv(    resource $stream,    array $fields,    string $separator
 ```php
 <?php
 
-$list = array (
-    array('aaa', 'bbb', 'ccc', 'dddd'),
-    array('123', '456', '789'),
-    array('"aaa"', '"bbb"')
+$list = array (
+    array('aaa', 'bbb', 'ccc', 'dddd'),
+    array('123', '456', '789'),
+    array('"aaa"', '"bbb"')
 );
 
-$fp = fopen('file.csv', 'w');
+$fp = fopen('file.csv', 'w');
 
-foreach ($list as $fields) {
-    fputcsv($fp, $fields);
+foreach ($list as $fields) {
+    fputcsv($fp, $fields);
 }
 
 fclose($fp);

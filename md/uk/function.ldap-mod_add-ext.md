@@ -15,7 +15,7 @@ ldapmodaddext — Додати значення атрибуту до поточ
 ### Опис
 
 ```methodsynopsis
-ldap_mod_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
+ldap_mod_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
 ```
 
 Робить те саме, що й [ldapmodadd()](function.ldap-mod-add.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)

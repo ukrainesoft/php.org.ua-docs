@@ -60,9 +60,9 @@ pg_parameter_status(PgSql\Connection $connection = ?, string $param_name): strin
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с сервером");
+  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с сервером");
 
-  echo "Кодировка сервера: ", pg_parameter_status($dbconn, "server_encoding");
+  echo "Кодировка сервера: ", pg_parameter_status($dbconn, "server_encoding");
 ?>
 ```
 

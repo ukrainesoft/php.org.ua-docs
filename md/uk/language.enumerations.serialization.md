@@ -12,10 +12,10 @@ title: Серіалізація
 
 ```php
 <?php
-Suit::Hearts === unserialize(serialize(Suit::Hearts));
+Suit::Hearts === unserialize(serialize(Suit::Hearts));
 
-print serialize(Suit::Hearts);
-// E:11:"Suit:Hearts";
+print serialize(Suit::Hearts);
+// E:11:"Suit:Hearts";
 ?>
 ```
 
@@ -27,25 +27,25 @@ print serialize(Suit::Hearts);
 
 ```php
 <?php
-enum Foo {
-    case Bar;
+enum Foo {
+    case Bar;
 }
 
-enum Baz: int {
-    case Beep = 5;
+enum Baz: int {
+    case Beep = 5;
 }
 
 print_r(Foo::Bar);
 print_r(Baz::Beep);
 
-/* Выводит
+/* Выводит
 
-Foo Enum (
-    [name] => Bar
+Foo Enum (
+    [name] => Bar
 )
-Baz Enum:int {
-    [name] => Beep
-    [value] => 5
+Baz Enum:int {
+    [name] => Beep
+    [value] => 5
 }
 */
 ?>

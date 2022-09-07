@@ -33,4 +33,4 @@ final public MongoDB\Driver\Exception\RuntimeException::hasErrorLabel(string $er
 ### Дивіться також
 
 -   [MongoDBDriverSession::commitTransaction()](mongodb-driver-session.committransaction.md) - Фіксує транзакцію
--   [» Документация MongoDB по транзакциям](https://www.mongodb.com/docs/manual/core/transactions/)
+-   [» Документация MongoDB по транзакциям](https://www.mongodb.com/docs/manual/core/transactions/)

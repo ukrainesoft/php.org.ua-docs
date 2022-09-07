@@ -36,12 +36,12 @@ public SplObjectStorage::contains(object $object): bool
 
 ```php
 <?php
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new StdClass;
+$o2 = new StdClass;
 
-$s = new SplObjectStorage();
+$s = new SplObjectStorage();
 
-$s[$o1] = "hello";
+$s[$o1] = "hello";
 var_dump($s->contains($o1));
 var_dump($s->contains($o2));
 ?>

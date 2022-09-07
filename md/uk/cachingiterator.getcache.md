@@ -42,8 +42,8 @@ public CachingIterator::getCache(): array
 
 ```php
 <?php
-$iterator = new ArrayIterator(array(1, 2, 3));
-$cache    = new CachingIterator($iterator, CachingIterator::FULL_CACHE);
+$iterator = new ArrayIterator(array(1, 2, 3));
+$cache    = new CachingIterator($iterator, CachingIterator::FULL_CACHE);
 
 $cache->next();
 $cache->next();

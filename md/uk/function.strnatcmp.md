@@ -40,12 +40,12 @@ strnatcmp(string $string1, string $string2): int
 
 ```php
 <?php
-$arr1 = $arr2 = array("img12.png", "img10.png", "img2.png", "img1.png");
-echo "Стандартный алгоритм сравнения\n";
-usort($arr1, "strcmp");
+$arr1 = $arr2 = array("img12.png", "img10.png", "img2.png", "img1.png");
+echo "Стандартный алгоритм сравнения\n";
+usort($arr1, "strcmp");
 print_r($arr1);
-echo "\nАлгоритм \"natural order\"\n";
-usort($arr2, "strnatcmp");
+echo "\nАлгоритм \"natural order\"\n";
+usort($arr2, "strnatcmp");
 print_r($arr2);
 ?>
 ```
@@ -72,7 +72,7 @@ Array
 )
 ```
 
-Для отримання додаткової інформації дивіться [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
+Для отримання додаткової інформації дивіться [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 ### Дивіться також
 

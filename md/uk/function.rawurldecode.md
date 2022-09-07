@@ -37,7 +37,7 @@ URL, який має бути декодований.
 ```php
 <?php
 
-echo rawurldecode('foo%20bar%40baz'); // foo bar@baz
+echo rawurldecode('foo%20bar%40baz'); // foo bar@baz
 
 ?>
 ```
@@ -53,4 +53,4 @@ echo rawurldecode('foo%20bar%40baz'); // foo bar@baz
 -   [rawurlencode()](function.rawurlencode.md) - URL-кодування рядка згідно з RFC 3986
 -   [urldecode()](function.urldecode.md) - Декодування URL-кодованого рядка
 -   [urlencode()](function.urlencode.md) - URL-кодування рядка
--   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

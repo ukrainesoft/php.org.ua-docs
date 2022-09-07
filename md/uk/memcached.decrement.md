@@ -15,7 +15,7 @@ Memcached::decrement — Зменшує числове значення запи
 ### Опис
 
 ```methodsynopsis
-public Memcached::decrement(    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
+public Memcached::decrement(    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
 ```
 
 **Memcached::decrement()** зменшує числове значення запису на величину, вказану в `offset`. Якщо значення запису не є числовим, буде повернено помилку. Якщо функція зменшить значення запису менше нуля, буде встановлено нульове значення . **Memcached::decrement()** встановить запису значення параметра `initial_value` якщо переданого ключа немає.
@@ -48,21 +48,21 @@ public Memcached::decrement(    string $key,    int $offset = 1,    
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$m->set('counter', 5);
-$n = $m->decrement('counter');
+$m->set('counter', 5);
+$n = $m->decrement('counter');
 var_dump($n);
 
-$n = $m->decrement('counter', 10);
+$n = $m->decrement('counter', 10);
 var_dump($n);
 
 var_dump($m->get('counter'));
 
-$m->set('counter', 'abc');
-$n = $m->increment('counter');
-// Завершится неудачей т.к. значение записи не является числовым
+$m->set('counter', 'abc');
+$n = $m->increment('counter');
+// Завершится неудачей т.к. значение записи не является числовым
 var_dump($n);
 ?>
 ```

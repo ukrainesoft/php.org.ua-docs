@@ -37,7 +37,7 @@ final public MongoDB\Driver\Command::__construct(array|object $document, ?array 
 | Опция | Тип | Описание |
 | --- | --- | --- |
 | maxAwaitTimeMS | int |  |
-| Позитивне ціле число, яке визначає обмеження часу в мілісекундах, на яке сервер може блокувати операцію getMore, якщо дані відсутні. Ця опція може використовуватися лише спільно з командами, що повертають хвостові курсори. (наприклад [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams/) |  |  |
+| Позитивне ціле число, яке визначає обмеження часу в мілісекундах, на яке сервер може блокувати операцію getMore, якщо дані відсутні. Ця опція може використовуватися лише спільно з командами, що повертають хвостові курсори. (наприклад [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams/) |  |  |
 
 ### Помилки
 
@@ -57,15 +57,15 @@ final public MongoDB\Driver\Command::__construct(array|object $document, ?array 
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
-$command = new MongoDB\Driver\Command(array("buildinfo" => 1));
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$command = new MongoDB\Driver\Command(array("buildinfo" => 1));
 
-try {
-    $cursor = $manager->executeCommand("admin", $command);
-    $response = $cursor->toArray()[0];
-} catch(MongoDB\Driver\Exception $e) {
-    echo $e->getMessage(), "\n";
-    exit;
+try {
+    $cursor = $manager->executeCommand("admin", $command);
+    $response = $cursor->toArray()[0];
+} catch(MongoDB\Driver\Exception $e) {
+    echo $e->getMessage(), "\n";
+    exit;
 }
 var_dump($response);
 
@@ -121,21 +121,21 @@ array(13) {
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
-$command = new MongoDB\Driver\Command(
-    array(
-        "distinct" => "beer",
-        "key" => "beer_name",
-        "maxTimeMS" => 10,
-    )
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$command = new MongoDB\Driver\Command(
+    array(
+        "distinct" => "beer",
+        "key" => "beer_name",
+        "maxTimeMS" => 10,
+    )
 );
 
-try {
-    $cursor = $manager->executeCommand("beerdb", $command);
-    $response = $cursor->toArray()[0];
-} catch(MongoDB\Driver\Exception\Exception $e) {
-    echo $e->getMessage(), "\n";
-    exit;
+try {
+    $cursor = $manager->executeCommand("beerdb", $command);
+    $response = $cursor->toArray()[0];
+} catch(MongoDB\Driver\Exception\Exception $e) {
+    echo $e->getMessage(), "\n";
+    exit;
 }
 var_dump($response);
 

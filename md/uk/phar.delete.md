@@ -44,13 +44,13 @@ public Phar::delete(string $localName): bool
 
 ```php
 <?php
-try {
-    $phar = new Phar('myphar.phar');
-    $phar->delete('удали/меня.php');
-    // это эквивалентно следующему:
-    unlink('phar://myphar.phar/удали/меня.php');
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $phar = new Phar('myphar.phar');
+    $phar->delete('удали/меня.php');
+    // это эквивалентно следующему:
+    unlink('phar://myphar.phar/удали/меня.php');
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

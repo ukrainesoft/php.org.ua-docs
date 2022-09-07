@@ -34,8 +34,8 @@ public mysql_xdevapi\Session::getSchemas(): array
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$schemas  = $session->getSchemas();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$schemas  = $session->getSchemas();
 
 print_r($schemas);
 ```

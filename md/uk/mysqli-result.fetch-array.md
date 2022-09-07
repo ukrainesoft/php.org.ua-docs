@@ -63,23 +63,23 @@ mysqli_fetch_array(mysqli_result $result, int $mode = MYSQLI_BOTH): array|null|f
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3";
-$result = $mysqli->query($query);
+$query = "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3";
+$result = $mysqli->query($query);
 
-/* числовой Масив */
-$row = $result->fetch_array(MYSQLI_NUM);
-printf("%s (%s)\n", $row[0], $row[1]);
+/* числовой Масив */
+$row = $result->fetch_array(MYSQLI_NUM);
+printf("%s (%s)\n", $row[0], $row[1]);
 
-/* ассоциативный Масив */
-$row = $result->fetch_array(MYSQLI_ASSOC);
-printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+/* ассоциативный Масив */
+$row = $result->fetch_array(MYSQLI_ASSOC);
+printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 
-/* ассоциативный и числовой Масиви */
-$row = $result->fetch_array(MYSQLI_BOTH);
-printf("%s (%s)\n", $row[0], $row["CountryCode"]);
+/* ассоциативный и числовой Масиви */
+$row = $result->fetch_array(MYSQLI_BOTH);
+printf("%s (%s)\n", $row[0], $row["CountryCode"]);
 ```
 
 Процедурний стиль
@@ -87,23 +87,23 @@ printf("%s (%s)\n", $row[0], $row["CountryCode"]);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER by ID LIMIT 3";
-$result = mysqli_query($mysqli, $query);
+$query = "SELECT Name, CountryCode FROM City ORDER by ID LIMIT 3";
+$result = mysqli_query($mysqli, $query);
 
-/* числовой Масив */
-$row = mysqli_fetch_array($result, MYSQLI_NUM);
-printf("%s (%s)\n", $row[0], $row[1]);
+/* числовой Масив */
+$row = mysqli_fetch_array($result, MYSQLI_NUM);
+printf("%s (%s)\n", $row[0], $row[1]);
 
-/* ассоциативный Масив */
-$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+/* ассоциативный Масив */
+$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+printf("%s (%s)\n", $row["Name"], $row["CountryCode"]);
 
-/* ассоциативный и числовой Масиви */
-$row = mysqli_fetch_array($result, MYSQLI_BOTH);
-printf("%s (%s)\n", $row[0], $row["CountryCode"]);
+/* ассоциативный и числовой Масиви */
+$row = mysqli_fetch_array($result, MYSQLI_BOTH);
+printf("%s (%s)\n", $row[0], $row["CountryCode"]);
 ```
 
 Результат виконання даних прикладів:

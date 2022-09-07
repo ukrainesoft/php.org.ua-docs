@@ -34,11 +34,11 @@ public SQLite3::changes(): int
 
 ```php
 <?php
-$db = new SQLite3('mysqlitedb.db');
+$db = new SQLite3('mysqlitedb.db');
 
-$query = $db->exec('UPDATE counter SET views=0 WHERE page="test"');
-if ($query) {
-    echo 'Количество изменённых строк: ', $db->changes();
+$query = $db->exec('UPDATE counter SET views=0 WHERE page="test"');
+if ($query) {
+    echo 'Количество изменённых строк: ', $db->changes();
 }
 ?>
 ```

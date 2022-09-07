@@ -14,7 +14,7 @@ title: Підключення та керування підключеннями
 
 ```php
 <?php
-$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
+$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
 ?>
 ```
 
@@ -24,15 +24,15 @@ $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
 
 ```php
 <?php
-try {
-    $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
-    foreach($dbh->query('SELECT * from FOO') as $row) {
-        print_r($row);
-    }
-    $dbh = null;
-} catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
+try {
+    $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
+    foreach($dbh->query('SELECT * from FOO') as $row) {
+        print_r($row);
+    }
+    $dbh = null;
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
 }
 ?>
 ```
@@ -49,13 +49,13 @@ try {
 
 ```php
 <?php
-$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
-// здесь мы каким-то образом используем соединение
-$sth = $dbh->query('SELECT * FROM foo');
+$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
+// здесь мы каким-то образом используем соединение
+$sth = $dbh->query('SELECT * FROM foo');
 
-// соединение больше не нужно, закрываем
-$sth = null;
-$dbh = null;
+// соединение больше не нужно, закрываем
+$sth = null;
+$dbh = null;
 ?>
 ```
 
@@ -65,8 +65,8 @@ $dbh = null;
 
 ```php
 <?php
-$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass, array(
-    PDO::ATTR_PERSISTENT => true
+$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass, array(
+    PDO::ATTR_PERSISTENT => true
 ));
 ?>
 ```

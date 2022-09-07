@@ -16,9 +16,9 @@ title: match
 
 ```php
 <?php
-$return_value = match (subject_expression) {
-    single_conditional_expression => return_expression,
-    conditional_expression1, conditional_expression2 => return_expression,
+$return_value = match (subject_expression) {
+    single_conditional_expression => return_expression,
+    conditional_expression1, conditional_expression2 => return_expression,
 };
 ?>
 ```
@@ -27,11 +27,11 @@ $return_value = match (subject_expression) {
 
 ```php
 <?php
-$food = 'cake';
-$return_value = match ($food) {
-    'apple' => 'На столе лежит яблоко',
-    'banana' => 'На столе лежит банан',
-    'cake' => 'На столе стоит торт',
+$food = 'cake';
+$return_value = match ($food) {
+    'apple' => 'На столе лежит яблоко',
+    'banana' => 'На столе лежит банан',
+    'cake' => 'На столе стоит торт',
 };
 var_dump($return_value);
 ?>
@@ -58,11 +58,11 @@ string(35) "На столе стоит торт"
 
 ```php
 <?php
-$result = match ($x) {
-    foo() => ...,
-    $this->bar() => ..., // $this->bar() не будет выполнен, если foo() === $x
-    $this->baz => beep(), // beep() будет выполнен только если $x === $this->baz
-    // etc.
+$result = match ($x) {
+    foo() => ...,
+    $this->bar() => ..., // $this->bar() не будет выполнен, если foo() === $x
+    $this->baz => beep(), // beep() будет выполнен только если $x === $this->baz
+    // etc.
 };
 ?>
 ```
@@ -71,13 +71,13 @@ $result = match ($x) {
 
 ```php
 <?php
-$result = match ($x) {
-    // Множественное условие:
-    $a, $b, $c => 5,
-    // Аналогично трём одиночным:
-    $a => 5,
-    $b => 5,
-    $c => 5,
+$result = match ($x) {
+    // Множественное условие:
+    $a, $b, $c => 5,
+    // Аналогично трём одиночным:
+    $a => 5,
+    $b => 5,
+    $c => 5,
 };
 ?>
 ```
@@ -86,10 +86,10 @@ $result = match ($x) {
 
 ```php
 <?php
-$expressionResult = match ($condition) {
-    1, 2 => foo(),
-    3, 4 => bar(),
-    default => baz(),
+$expressionResult = match ($condition) {
+    1, 2 => foo(),
+    3, 4 => bar(),
+    default => baz(),
 };
 ?>
 ```
@@ -102,15 +102,15 @@ $expressionResult = match ($condition) {
 
 ```php
 <?php
-$condition = 5;
+$condition = 5;
 
-try {
-    match ($condition) {
-        1, 2 => foo(),
-        3, 4 => bar(),
-    };
-} catch (\UnhandledMatchError $e) {
-    var_dump($e);
+try {
+    match ($condition) {
+        1, 2 => foo(),
+        3, 4 => bar(),
+    };
+} catch (\UnhandledMatchError $e) {
+    var_dump($e);
 }
 ?>
 ```
@@ -146,13 +146,13 @@ object(UnhandledMatchError)#1 (7) {
 ```php
 <?php
 
-$age = 23;
+$age = 23;
 
-$result = match (true) {
-    $age >= 65 => 'пожилой',
-    $age >= 25 => 'взрослый',
-    $age >= 18 => 'совершеннолетний',
-    default => 'ребёнок',
+$result = match (true) {
+    $age >= 65 => 'пожилой',
+    $age >= 25 => 'взрослый',
+    $age >= 18 => 'совершеннолетний',
+    default => 'ребёнок',
 };
 
 var_dump($result);
@@ -170,12 +170,12 @@ string(11) "совершеннолетний"
 ```php
 <?php
 
-$text = 'Bienvenue chez nous';
+$text = 'Bienvenue chez nous';
 
-$result = match (true) {
-    str_contains($text, 'Welcome') || str_contains($text, 'Hello') => 'en',
-    str_contains($text, 'Bienvenue') || str_contains($text, 'Bonjour') => 'fr',
-    // ...
+$result = match (true) {
+    str_contains($text, 'Welcome') || str_contains($text, 'Hello') => 'en',
+    str_contains($text, 'Bienvenue') || str_contains($text, 'Bonjour') => 'fr',
+    // ...
 };
 
 var_dump($result);

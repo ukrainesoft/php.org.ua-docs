@@ -51,11 +51,11 @@ bcsub(string $num1, string $num2, ?int $scale = null): string
 ```php
 <?php
 
-$a = '1.234';
-$b = '5';
+$a = '1.234';
+$b = '5';
 
-echo bcsub($a, $b);     // -3
-echo bcsub($a, $b, 4);  // -3.7660
+echo bcsub($a, $b);     // -3
+echo bcsub($a, $b, 4);  // -3.7660
 
 ?>
 ```

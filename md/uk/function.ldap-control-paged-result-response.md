@@ -19,7 +19,7 @@ ldapcontrolpagedresultresponse — Отримати вказівник на по
 ### Опис
 
 ```methodsynopsis
-ldap_control_paged_result_response(    resource $link,    resource $result,    string &$cookie = ?,    int &$estimated = ?): bool
+ldap_control_paged_result_response(    resource $link,    resource $result,    string &$cookie = ?,    int &$estimated = ?): bool
 ```
 
 Отримати вказівник на поточну сторінку результуючого набору LDAP.
@@ -54,4 +54,4 @@ ldap_control_paged_result_response(    resource $link,    resource $resu
 ### Дивіться також
 
 -   [ldapcontrolpagedresult()](function.ldap-control-paged-result.md) - Надіслати серверу LDAP дані для використання посторінкового отримання результату
--   [» RFC2696 : Керуючий модуль LDAP для простих маніпуляцій результатом, що посторінково повертається](http://www.faqs.org/rfcs/rfc2696)
+-   [» RFC2696 : Керуючий модуль LDAP для простих маніпуляцій результатом, що посторінково повертається](http://www.faqs.org/rfcs/rfc2696)

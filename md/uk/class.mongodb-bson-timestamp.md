@@ -12,7 +12,7 @@ title: Клас MongoDBBSONTimestamp
 
 ## Вступ
 
-Уявляє [» метку времени BSON](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps). Значення складається з 4-байтової мітки часу (тобто секунди з початку епохи) та 4-байтового збільшення.
+Уявляє [» метку времени BSON](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps). Значення складається з 4-байтової мітки часу (тобто секунди з початку епохи) та 4-байтового збільшення.
 
 > **Зауваження**: Це внутрішній тип MongoDB, що використовується для реплікації та поділу. Він не призначений для загального зберігання дат (замість нього слід використовувати [MongoDBBSONUTCDateTime](class.mongodb-bson-utcdatetime.md)
 

@@ -46,13 +46,13 @@ public DateTimeImmutable::setISODate(int $year, int $week, int $dayOfWeek = 1): 
 
 ```php
 <?php
-$date = new DateTimeImmutable();
+$date = new DateTimeImmutable();
 
-$date->setISODate(2008, 2);
-echo $date->format('Y-m-d') . "\n";
+$date->setISODate(2008, 2);
+echo $date->format('Y-m-d') . "\n";
 
-$date->setISODate(2008, 2, 7);
-echo $date->format('Y-m-d') . "\n";
+$date->setISODate(2008, 2, 7);
+echo $date->format('Y-m-d') . "\n";
 ?>
 ```
 
@@ -60,13 +60,13 @@ echo $date->format('Y-m-d') . "\n";
 
 ```php
 <?php
-$date = date_create();
+$date = date_create();
 
-date_isodate_set($date, 2008, 2);
-echo date_format($date, 'Y-m-d') . "\n";
+date_isodate_set($date, 2008, 2);
+echo date_format($date, 'Y-m-d') . "\n";
 
-date_isodate_set($date, 2008, 2, 7);
-echo date_format($date, 'Y-m-d') . "\n";
+date_isodate_set($date, 2008, 2, 7);
+echo date_format($date, 'Y-m-d') . "\n";
 ?>
 ```
 
@@ -81,16 +81,16 @@ echo date_format($date, 'Y-m-d') . "\n";
 
 ```php
 <?php
-$date = new DateTimeImmutable();
+$date = new DateTimeImmutable();
 
-$newDate = $date->setISODate(2008, 2, 7);
-echo $newDate->format('Y-m-d') . "\n";
+$newDate = $date->setISODate(2008, 2, 7);
+echo $newDate->format('Y-m-d') . "\n";
 
-$newDate = $date->setISODate(2008, 2, 8);
-echo $newDate->format('Y-m-d') . "\n";
+$newDate = $date->setISODate(2008, 2, 8);
+echo $newDate->format('Y-m-d') . "\n";
 
-$newDate = $date->setISODate(2008, 53, 7);
-echo $newDate->format('Y-m-d') . "\n";
+$newDate = $date->setISODate(2008, 53, 7);
+echo $newDate->format('Y-m-d') . "\n";
 ?>
 ```
 
@@ -106,9 +106,9 @@ echo $newDate->format('Y-m-d') . "\n";
 
 ```php
 <?php
-$date = new DateTimeImmutable();
-$newDate = $date->setISODate(2008, 14);
-echo $newDate->format('n');
+$date = new DateTimeImmutable();
+$newDate = $date->setISODate(2008, 14);
+echo $newDate->format('n');
 ?>
 ```
 

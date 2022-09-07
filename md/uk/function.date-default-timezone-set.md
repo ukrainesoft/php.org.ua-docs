@@ -40,12 +40,12 @@ date_default_timezone_set(string $timezoneId): bool
 <?php
 date_default_timezone_set('America/Los_Angeles');
 
-$script_tz = date_default_timezone_get();
+$script_tz = date_default_timezone_get();
 
-if (strcmp($script_tz, ini_get('date.timezone'))){
-    echo 'Часовой пояс скрипта отличается от заданного в INI-файле.';
-} else {
-    echo 'Часовой пояс скрипта и настройки INI-файла совпадают.';
+if (strcmp($script_tz, ini_get('date.timezone'))){
+    echo 'Часовой пояс скрипта отличается от заданного в INI-файле.';
+} else {
+    echo 'Часовой пояс скрипта и настройки INI-файла совпадают.';
 }
 ?>
 ```

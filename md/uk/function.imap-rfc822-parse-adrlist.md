@@ -18,7 +18,7 @@ imaprfc822parseadrlist — Розбір адресного рядка
 imap_rfc822_parse_adrlist(string $string, string $default_hostname): array
 ```
 
-Розбирає адресний рядок відповідно до [» RFC2822](http://www.faqs.org/rfcs/rfc2822) для кожної адреси.
+Розбирає адресний рядок відповідно до [» RFC2822](http://www.faqs.org/rfcs/rfc2822) для кожної адреси.
 
 ### Список параметрів
 
@@ -46,18 +46,18 @@ imap_rfc822_parse_adrlist(string $string, string $default_hostname): array
 ```php
 <?php
 
-$address_string = "Joe Doe <doe@example.com>, postmaster@example.com, root";
-$address_array  = imap_rfc822_parse_adrlist($address_string, "example.com");
-if (!is_array($address_array) || count($address_array) < 1) {
-    die("something is wrong\n");
+$address_string = "Joe Doe <doe@example.com>, postmaster@example.com, root";
+$address_array  = imap_rfc822_parse_adrlist($address_string, "example.com");
+if (!is_array($address_array) || count($address_array) < 1) {
+    die("something is wrong\n");
 }
 
-foreach ($address_array as $id => $val) {
-    echo "# $id\n";
-    echo "  mailbox : " . $val->mailbox . "\n";
-    echo "  host    : " . $val->host . "\n";
-    echo "  personal: " . $val->personal . "\n";
-    echo "  adl     : " . $val->adl . "\n";
+foreach ($address_array as $id => $val) {
+    echo "# $id\n";
+    echo "  mailbox : " . $val->mailbox . "\n";
+    echo "  host    : " . $val->host . "\n";
+    echo "  personal: " . $val->personal . "\n";
+    echo "  adl     : " . $val->adl . "\n";
 }
 ?>
 ```

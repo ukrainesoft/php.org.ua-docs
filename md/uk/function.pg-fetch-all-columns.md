@@ -48,20 +48,20 @@ pg_fetch_all_columns(PgSql\Result $result, int $field = 0): array
 
 ```php
 <?php
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-$result = pg_query($conn, "SELECT title, name, address FROM authors");
-if (!$result) {
-  echo "Произошла ошибка.\n";
-  exit;
+$result = pg_query($conn, "SELECT title, name, address FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-// Получить Масив имён всех авторов
-$arr = pg_fetch_all_columns($result, 1);
+// Получить Масив имён всех авторов
+$arr = pg_fetch_all_columns($result, 1);
 
 var_dump($arr);
 

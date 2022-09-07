@@ -15,7 +15,7 @@ title: псsetbordercolor
 ### Опис
 
 ```methodsynopsis
-ps_set_border_color(    resource $psdoc,    float $red,    float $green,    float $blue): bool
+ps_set_border_color(    resource $psdoc,    float $red,    float $green,    float $blue): bool
 ```
 
 Посилання, додані за допомогою однієї з функцій [псaddweblink()](function.ps-add-weblink.md) [псaddpdflink()](function.ps-add-pdflink.md) і т.д., будуть відображатися із закругленим прямокутником, коли документ PostScript перетворюється на PDF і переглядається у програмі перегляду PDF. Цей прямокутник не відображається у документі PostScript. Функція встановлює колір межі прямокутника.

@@ -56,7 +56,7 @@ public resume(int $fd): void
 public send(int $fd, string $data, int $reactor_id = ?): bool
 public sendfile(int $fd, string $filename, int $offset = ?): bool
 public sendMessage(int $worker_id, string $data): bool
-public sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
+public sendto(    string $ip,    int $port,    string $data,    string $server_socket = ?): bool
 public sendwait(int $fd, string $data): bool
 public set(array $settings): ReturnType
 public shutdown(): void

@@ -40,7 +40,7 @@ cli_get_process_title(): ?string
 
 ```php
 <?php
-echo "Заголовок процесса: " . cli_get_process_title() . "\n";
+echo "Заголовок процесса: " . cli_get_process_title() . "\n";
 ?>
 ```
 

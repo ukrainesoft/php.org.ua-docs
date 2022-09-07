@@ -34,12 +34,12 @@ public Ds\PriorityQueue::isEmpty(): bool
 
 ```php
 <?php
-$a = new \Ds\PriorityQueue();
-$b = new \Ds\PriorityQueue();
+$a = new \Ds\PriorityQueue();
+$b = new \Ds\PriorityQueue();
 
-$a->push("a",  5);
-$a->push("b", 15);
-$a->push("c", 10);
+$a->push("a",  5);
+$a->push("b", 15);
+$a->push("c", 10);
 
 var_dump($a->isEmpty());
 var_dump($b->isEmpty());

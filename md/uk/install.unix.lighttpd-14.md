@@ -10,7 +10,7 @@ title: Встановлення PHP на Lighttpd 1.4 на Unix-системах
 
 Цей розділ містить інформацію про встановлення PHP на Unix-системи з сервером Lighttpd 1.4.
 
-Прочитайте, будь ласка, інструкції зі встановлення Lighttpd в [» документации по Lighttpd](http://trac.lighttpd.net/trac/) перед встановленням PHP.
+Прочитайте, будь ласка, інструкції зі встановлення Lighttpd в [» документации по Lighttpd](http://trac.lighttpd.net/trac/) перед встановленням PHP.
 
 FastCGI - інтерфейс для зв'язку PHP і Lighttpd. FastCGI доступний за замовчуванням у php-cgi.
 

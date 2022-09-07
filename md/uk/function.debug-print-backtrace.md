@@ -42,18 +42,18 @@ debug_print_backtrace(int $options = 0, int $limit = 0): void
 
 ```php
 <?php
-// файл include.php
+// файл include.php
 
-function a() {
-    b();
+function a() {
+    b();
 }
 
-function b() {
-    c();
+function b() {
+    c();
 }
 
-function c(){
-    debug_print_backtrace();
+function c(){
+    debug_print_backtrace();
 }
 
 a();
@@ -63,9 +63,9 @@ a();
 
 ```php
 <?php
-// файл test.php
-// этот файл нужно запустить
-include 'include.php';
+// файл test.php
+// этот файл нужно запустить
+include 'include.php';
 ?>
 ```
 

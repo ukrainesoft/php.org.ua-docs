@@ -44,11 +44,11 @@ public Imagick::negateImage(bool $gray, int $channel = Imagick::CHANNEL_DEFAULT)
 
 ```php
 <?php
-function negateImage($imagePath, $grayOnly, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->negateImage($grayOnly, $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function negateImage($imagePath, $grayOnly, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->negateImage($grayOnly, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

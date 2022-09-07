@@ -41,8 +41,8 @@ sodium_crypto_core_ristretto255_is_valid_point(string $s): bool
 ```php
 <?php
 
-$foo = sodium_crypto_core_ristretto255_scalar_random();
-$bar = sodium_crypto_scalarmult_ristretto255_base($foo);
+$foo = sodium_crypto_core_ristretto255_scalar_random();
+$bar = sodium_crypto_scalarmult_ristretto255_base($foo);
 
 var_dump(sodium_crypto_core_ristretto255_is_valid_point($bar));
 ?>

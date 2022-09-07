@@ -37,7 +37,7 @@ public mysql_xdevapi\ColumnResult::getSchemaName(): string
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

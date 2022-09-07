@@ -41,19 +41,19 @@ ftp_pwd(FTP\Connection $ftp): string|false
 ```php
 <?php
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// смена текущей директории на public_html
-ftp_chdir($ftp, 'public_html');
+// смена текущей директории на public_html
+ftp_chdir($ftp, 'public_html');
 
-// вывод имени текущей директории
-echo ftp_pwd($ftp); // /public_html
+// вывод имени текущей директории
+echo ftp_pwd($ftp); // /public_html
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 ?>
 ```

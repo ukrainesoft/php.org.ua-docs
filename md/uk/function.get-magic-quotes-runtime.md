@@ -44,11 +44,11 @@ get_magic_quotes_runtime(): bool
 
 ```php
 <?php
-// Проверка, работает ли magic_quotes_runtime
-if (get_magic_quotes_runtime())
+// Проверка, работает ли magic_quotes_runtime
+if (get_magic_quotes_runtime())
 {
-    // отключение
-    set_magic_quotes_runtime(false);
+    // отключение
+    set_magic_quotes_runtime(false);
 }
 ?>
 ```

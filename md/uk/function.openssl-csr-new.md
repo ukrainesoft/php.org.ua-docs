@@ -15,7 +15,7 @@ opensslcsrnew — Генерує CSR
 ### Опис
 
 ```methodsynopsis
-openssl_csr_new(    array $distinguished_names,    OpenSSLAsymmetricKey &$private_key,    ?array $options = null,    ?array $extra_attributes = null): OpenSSLCertificateSigningRequest|false
+openssl_csr_new(    array $distinguished_names,    OpenSSLAsymmetricKey &$private_key,    ?array $options = null,    ?array $extra_attributes = null): OpenSSLCertificateSigningRequest|false
 ```
 
 **opensslcsrnew()** створює новий запит на підпис сертифіката (Certificate Signing Request або CSR) ґрунтуючись на інформації, зазначеній у параметрі `distinguished_names`
@@ -72,40 +72,40 @@ openssl_csr_new(    array $distinguished_names,    OpenSSLAsymmetricKey 
 
 ```php
 <?php
-// для сервера сертификации SSL, commonName является доменным именем
-// для сертификатов S/MIME, commonName является владельцем расположения адреса email
-// и поля идентификации относятся к владельцу домена или электронной почты,
-// подлежащим защите
-$dn = array(
-    "countryName" => "GB",
-    "stateOrProvinceName" => "Somerset",
-    "localityName" => "Glastonbury",
-    "organizationName" => "The Brain Room Limited",
-    "organizationalUnitName" => "PHP Documentation Team",
-    "commonName" => "Wez Furlong",
-    "emailAddress" => "wez@example.com"
+// для сервера сертификации SSL, commonName является доменным именем
+// для сертификатов S/MIME, commonName является владельцем расположения адреса email
+// и поля идентификации относятся к владельцу домена или электронной почты,
+// подлежащим защите
+$dn = array(
+    "countryName" => "GB",
+    "stateOrProvinceName" => "Somerset",
+    "localityName" => "Glastonbury",
+    "organizationName" => "The Brain Room Limited",
+    "organizationalUnitName" => "PHP Documentation Team",
+    "commonName" => "Wez Furlong",
+    "emailAddress" => "wez@example.com"
 );
 
-// Создание пары закрытый/открытый ключ
-$privkey = openssl_pkey_new(array(
-    "private_key_bits" => 2048,
-    "private_key_type" => OPENSSL_KEYTYPE_RSA,
+// Создание пары закрытый/открытый ключ
+$privkey = openssl_pkey_new(array(
+    "private_key_bits" => 2048,
+    "private_key_type" => OPENSSL_KEYTYPE_RSA,
 ));
 
-// Создание CSR
-$csr = openssl_csr_new($dn, $privkey, array('digest_alg' => 'sha256'));
+// Создание CSR
+$csr = openssl_csr_new($dn, $privkey, array('digest_alg' => 'sha256'));
 
-// Создание самоподписанного сертификата со сроком жизни 365 дней
-$x509 = openssl_csr_sign($csr, null, $privkey, $days=365, array('digest_alg' => 'sha256'));
+// Создание самоподписанного сертификата со сроком жизни 365 дней
+$x509 = openssl_csr_sign($csr, null, $privkey, $days=365, array('digest_alg' => 'sha256'));
 
-// Сохранение закрытого ключа, CSR и самоподписанного сертификата
-openssl_csr_export($csr, $csrout) and var_dump($csrout);
-openssl_x509_export($x509, $certout) and var_dump($certout);
-openssl_pkey_export($privkey, $pkeyout, "mypassword") and var_dump($pkeyout);
+// Сохранение закрытого ключа, CSR и самоподписанного сертификата
+openssl_csr_export($csr, $csrout) and var_dump($csrout);
+openssl_x509_export($x509, $certout) and var_dump($certout);
+openssl_pkey_export($privkey, $pkeyout, "mypassword") and var_dump($pkeyout);
 
-// Покажем возникшие ошибки, если они были
-while (($e = openssl_error_string()) !== false) {
-    echo $e . "\n";
+// Покажем возникшие ошибки, если они были
+while (($e = openssl_error_string()) !== false) {
+    echo $e . "\n";
 }
 ?>
 ```
@@ -114,23 +114,23 @@ while (($e = openssl_error_string()) !== false) {
 
 ```php
 <?php
-$subject = array(
-    "commonName" => "docs.php.net",
+$subject = array(
+    "commonName" => "docs.php.net",
 );
 
-// Создание пары закрытый/открытый ключ
-$private_key = openssl_pkey_new(array(
-    "private_key_type" => OPENSSL_KEYTYPE_EC,
-    "curve_name" => 'prime256v1',
+// Создание пары закрытый/открытый ключ
+$private_key = openssl_pkey_new(array(
+    "private_key_type" => OPENSSL_KEYTYPE_EC,
+    "curve_name" => 'prime256v1',
 ));
 
-// Создание CSR
-$csr = openssl_csr_new($subject, $private_key, array('digest_alg' => 'sha384'));
+// Создание CSR
+$csr = openssl_csr_new($subject, $private_key, array('digest_alg' => 'sha384'));
 
-// Создание самоподписанного EC сертификата
-$x509 = openssl_csr_sign($csr, null, $private_key, $days=365, array('digest_alg' => 'sha384'));
-openssl_x509_export_to_file($x509, 'ecc-cert.pem');
-openssl_pkey_export_to_file($private_key, 'ecc-private.key');
+// Создание самоподписанного EC сертификата
+$x509 = openssl_csr_sign($csr, null, $private_key, $days=365, array('digest_alg' => 'sha384'));
+openssl_x509_export_to_file($x509, 'ecc-cert.pem');
+openssl_pkey_export_to_file($private_key, 'ecc-private.key');
 ?>
 ```
 

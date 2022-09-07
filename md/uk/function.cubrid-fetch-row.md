@@ -42,15 +42,15 @@ cubrid_fetch_row(resource $result, int $type = ?): array
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$req = cubrid_execute($conn, "SELECT name,area,seats,address FROM stadium WHERE nation_code='GRE' AND seats > 10000");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$req = cubrid_execute($conn, "SELECT name,area,seats,address FROM stadium WHERE nation_code='GRE' AND seats > 10000");
 
-printf("%-40s %-10s %-6s %-20s\n", "наименование", "площадь", "мест", "адрес");
-while ($row = cubrid_fetch_row($req)) {
-    printf("%-40s %-10s %-6s %-20s\n", $row[0], $row[1], $row[2], $row[3]);
+printf("%-40s %-10s %-6s %-20s\n", "наименование", "площадь", "мест", "адрес");
+while ($row = cubrid_fetch_row($req)) {
+    printf("%-40s %-10s %-6s %-20s\n", $row[0], $row[1], $row[2], $row[3]);
 }
 
-// В случае работы с LOB используйте cubrid_fetch_row($req, CUBRID_LOB)
+// В случае работы с LOB используйте cubrid_fetch_row($req, CUBRID_LOB)
 
 cubrid_close_request($req);
 

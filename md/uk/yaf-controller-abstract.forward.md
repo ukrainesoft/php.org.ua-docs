@@ -23,7 +23,7 @@ public Yaf_Controller_Abstract::forward(string $controller, string $action, arra
 ```
 
 ```methodsynopsis
-public Yaf_Controller_Abstract::forward(    string $module,    string $controller,    string $action,    array $paramters = ?): bool
+public Yaf_Controller_Abstract::forward(    string $module,    string $controller,    string $action,    array $paramters = ?): bool
 ```
 
 Перенаправляє поточний процес виконання на іншу дію.
@@ -60,22 +60,22 @@ public Yaf_Controller_Abstract::forward(    string $module,    string $c
 
 ```php
 <?php
-class IndexController extends Yaf_Controller_Abstract
+class IndexController extends Yaf_Controller_Abstract
 {
-    public function indexAction(){
-         $logined = $_SESSION["login"];
-         if (!$logined) {
-             $this->forward("login", array("from" => "Index")); // вперёд к действию login
-             return FALSE;  // это важно, это закончить текущий рабочий поток
-                            // и сказать Yaf не делать авторендеринг
-         }
+    public function indexAction(){
+         $logined = $_SESSION["login"];
+         if (!$logined) {
+             $this->forward("login", array("from" => "Index")); // вперёд к действию login
+             return FALSE;  // это важно, это закончить текущий рабочий поток
+                            // и сказать Yaf не делать авторендеринг
+         }
 
-         // other processes
-    }
+         // other processes
+    }
 
-    public function loginAction() {
-         echo "Вход, перенаправлено с действия ", $this->_request->getParam("from");
-    }
+    public function loginAction() {
+         echo "Вход, перенаправлено с действия ", $this->_request->getParam("from");
+    }
 }
 ?>
 ```

@@ -41,21 +41,21 @@ public RarEntry::getName(): string
 ```php
 <?php
 
-// этот пример работает, даже если страница не в кодировке UTF-8
-// для перекодирования в UTF-8 вызывается mb_convert_encoding
+// этот пример работает, даже если страница не в кодировке UTF-8
+// для перекодирования в UTF-8 вызывается mb_convert_encoding
 
-$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
 
-$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
 
-echo "Имя элемента: " . mb_convert_encoding(
-    htmlentities(
-        $entry->getName(),
-        ENT_COMPAT,
-        "UTF-8"
-    ),
-    "HTML-ENTITIES",
-    "UTF-8"
+echo "Имя элемента: " . mb_convert_encoding(
+    htmlentities(
+        $entry->getName(),
+        ENT_COMPAT,
+        "UTF-8"
+    ),
+    "HTML-ENTITIES",
+    "UTF-8"
 );
 
 ?>

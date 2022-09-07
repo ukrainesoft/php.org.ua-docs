@@ -42,8 +42,8 @@ gnupg_addsignkey(resource $identifier, string $fingerprint, string $passphrase =
 
 ```php
 <?php
-$res = gnupg_init();
-gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
+$res = gnupg_init();
+gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
 ?>
 ```
 
@@ -51,7 +51,7 @@ gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
 ?>
 ```

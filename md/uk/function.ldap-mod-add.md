@@ -15,7 +15,7 @@ ldapmodadd — Додати значення атрибуту до поточн�
 ### Опис
 
 ```methodsynopsis
-ldap_mod_add(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
+ldap_mod_add(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
 ```
 
 Додає один або більше атрибутів до зазначеного `dn`. Щоб додати повноцінний новий об'єкт, використовуйте [ldapadd()](function.ldap-add.md)

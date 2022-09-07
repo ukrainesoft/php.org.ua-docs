@@ -36,10 +36,10 @@ public DOMDocument::validate(): bool
 
 ```php
 <?php
-$dom = new DOMDocument;
+$dom = new DOMDocument;
 $dom->load('book.xml');
-if ($dom->validate()) {
-    echo "Документ является действительным!\n";
+if ($dom->validate()) {
+    echo "Документ является действительным!\n";
 }
 ?>
 ```
@@ -48,8 +48,8 @@ if ($dom->validate()) {
 
 ```php
 <?php
-$dom = new DOMDocument;
-$dom->validateOnParse = true;
+$dom = new DOMDocument;
+$dom->validateOnParse = true;
 $dom->load('book.xml');
 ?>
 ```

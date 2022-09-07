@@ -76,9 +76,9 @@ mysqli_get_charset(mysqli $mysql): ?object
 
 ```php
 <?php
-  $db = mysqli_init();
-  $db->real_connect("localhost","root","","test");
-  var_dump($db->get_charset());
+  $db = mysqli_init();
+  $db->real_connect("localhost","root","","test");
+  var_dump($db->get_charset());
 ?>
 ```
 
@@ -86,9 +86,9 @@ mysqli_get_charset(mysqli $mysql): ?object
 
 ```php
 <?php
-  $db = mysqli_init();
-  mysqli_real_connect($db, "localhost","root","","test");
-  var_dump(mysqli_get_charset($db));
+  $db = mysqli_init();
+  mysqli_real_connect($db, "localhost","root","","test");
+  var_dump(mysqli_get_charset($db));
 ?>
 ```
 

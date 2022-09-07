@@ -52,12 +52,12 @@ Memcache::getExtendedStats(string $type = ?, int $slabid = ?, int $limit = 100):
 
 ```php
 <?php
-    $memcache_obj = new Memcache;
-    $memcache_obj->addServer('memcache_host', 11211);
-    $memcache_obj->addServer('failed_host', 11211);
+    $memcache_obj = new Memcache;
+    $memcache_obj->addServer('memcache_host', 11211);
+    $memcache_obj->addServer('failed_host', 11211);
 
-    $stats = $memcache_obj->getExtendedStats();
-    print_r($stats);
+    $stats = $memcache_obj->getExtendedStats();
+    print_r($stats);
 ?>
 ```
 

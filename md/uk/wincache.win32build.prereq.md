@@ -14,6 +14,6 @@ title: Пререквізити
 2.  Оточення збірки PHP
 3.  Вихідний код WinCache
 
-Перші два пункти повністю покриваються статтею керівництва [» сборка PHP под Windows](https://wiki.php.net/internals/windows/stepbystepbuild)
+Перші два пункти повністю покриваються статтею керівництва [» сборка PHP под Windows](https://wiki.php.net/internals/windows/stepbystepbuild)
 
 Отримання вихідного коду WinCache описано у розділі [Завантаження PECL-модулів](install.pecl.downloads.md)

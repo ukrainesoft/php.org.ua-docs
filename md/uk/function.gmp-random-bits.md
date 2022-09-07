@@ -38,11 +38,11 @@ gmp_random_bits(int $bits): GMP
 
 ```php
 <?php
-$rand1 = gmp_random_bits(3); // случайное число от 0 до 7
-$rand2 = gmp_random_bits(5); // случайное число от 0 до 31
+$rand1 = gmp_random_bits(3); // случайное число от 0 до 7
+$rand2 = gmp_random_bits(5); // случайное число от 0 до 31
 
-echo gmp_strval($rand1) . "\n";
-echo gmp_strval($rand2) . "\n";
+echo gmp_strval($rand1) . "\n";
+echo gmp_strval($rand2) . "\n";
 ?>
 ```
 

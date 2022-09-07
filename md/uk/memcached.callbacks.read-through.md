@@ -14,18 +14,18 @@ title: Функції зворотного виклику наскрізного
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$profile_info = $m->get('user:'.$user_id, 'user_info_cb');
+$profile_info = $m->get('user:'.$user_id, 'user_info_cb');
 
-function user_info_cb($memc, $key, &$value)
+function user_info_cb($memc, $key, &$value)
 {
-    $user_id = substr($key, 5);
-    /* ищем необходимые данные в БД */
-    /* ... */
-    $value = $profile_info;
-    return true;
+    $user_id = substr($key, 5);
+    /* ищем необходимые данные в БД */
+    /* ... */
+    $value = $profile_info;
+    return true;
 }
 ?>
 ```

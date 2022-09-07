@@ -42,19 +42,19 @@ public ZMQContext::__construct(int $io_threads = 1, bool $is_persistent = true)
 
 ```php
 <?php
-/* Создаём новый контекст */
-$context = new ZMQContext();
+/* Создаём новый контекст */
+$context = new ZMQContext();
 
-/* Создаём новый сокет */
-$socket = $context->getSocket(ZMQ::SOCKET_REQ, 'my sock');
+/* Создаём новый сокет */
+$socket = $context->getSocket(ZMQ::SOCKET_REQ, 'my sock');
 
-/* Соединяемся с сокетом */
+/* Соединяемся с сокетом */
 $socket->connect("tcp://example.com:1234");
 
-/* Посылаем запрос */
-$socket->send("Hello there");
+/* Посылаем запрос */
+$socket->send("Hello there");
 
-/* Получаем ответ */
-$message = $socket->recv();
+/* Получаем ответ */
+$message = $socket->recv();
 ?>
 ```

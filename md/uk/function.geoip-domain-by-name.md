@@ -40,10 +40,10 @@ geoip_domain_by_name(string $hostname): string
 
 ```php
 <?php
-$domain = geoip_domain_by_name('61.106.139.1');
+$domain = geoip_domain_by_name('61.106.139.1');
 
-if ($domain) {
-    echo 'Домен: '. $domain;
+if ($domain) {
+    echo 'Домен: '. $domain;
 }
 
 ?>

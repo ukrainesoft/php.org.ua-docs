@@ -34,7 +34,7 @@ public SplFileObject::getMaxLineLen(): int
 
 ```php
 <?php
-$file = new SplFileObject("file.txt");
+$file = new SplFileObject("file.txt");
 var_dump($file->getMaxLineLen());
 
 $file->setMaxLineLen(20);

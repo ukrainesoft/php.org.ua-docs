@@ -51,26 +51,26 @@ imageantialias(GdImage $image, bool $enable): bool
 
 ```php
 <?php
-// Создание двух изображений
-$aa = imagecreatetruecolor(400, 100);
-$normal = imagecreatetruecolor(200, 100);
+// Создание двух изображений
+$aa = imagecreatetruecolor(400, 100);
+$normal = imagecreatetruecolor(200, 100);
 
-// Включение сглаживания для одного из них
-imageantialias($aa, true);
+// Включение сглаживания для одного из них
+imageantialias($aa, true);
 
-// Задание цветов
-$red = imagecolorallocate($normal, 255, 0, 0);
-$red_aa = imagecolorallocate($aa, 255, 0, 0);
+// Задание цветов
+$red = imagecolorallocate($normal, 255, 0, 0);
+$red_aa = imagecolorallocate($aa, 255, 0, 0);
 
-// Рисование линий
-imageline($normal, 0, 0, 200, 100, $red);
-imageline($aa, 0, 0, 200, 100, $red_aa);
+// Рисование линий
+imageline($normal, 0, 0, 200, 100, $red);
+imageline($aa, 0, 0, 200, 100, $red_aa);
 
-// Размещение изображений рядом для сравнения (АА: слева, Обычное: справа)
-imagecopymerge($aa, $normal, 200, 0, 0, 0, 200, 100, 100);
+// Размещение изображений рядом для сравнения (АА: слева, Обычное: справа)
+imagecopymerge($aa, $normal, 200, 0, 0, 0, 200, 100, 100);
 
-// Вывод результата
-header('Content-type: image/png');
+// Вывод результата
+header('Content-type: image/png');
 
 imagepng($aa);
 imagedestroy($aa);

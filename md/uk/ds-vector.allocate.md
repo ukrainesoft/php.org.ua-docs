@@ -40,7 +40,7 @@ public Ds\Vector::allocate(int $capacity): void
 
 ```php
 <?php
-$vector = new \Ds\Vector();
+$vector = new \Ds\Vector();
 var_dump($vector->capacity());
 
 $vector->allocate(100);

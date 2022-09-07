@@ -42,8 +42,8 @@ public static IntlChar::enumCharTypes(callable $callback): void
 
 ```php
 <?php
-IntlChar::enumCharTypes(function($start, $end, $type) {
-    printf("U+%04x through U+%04x are in category %d\n", $start, $end, $type);
+IntlChar::enumCharTypes(function($start, $end, $type) {
+    printf("U+%04x through U+%04x are in category %d\n", $start, $end, $type);
 });
 ?>
 ```

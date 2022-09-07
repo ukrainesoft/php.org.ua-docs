@@ -48,16 +48,16 @@ HTTP код помилки.
 
 ```php
 <?php
-function _http_400($req) {
-    $req->sendError(400);
+function _http_400($req) {
+    $req->sendError(400);
 }
 
-$base = new EventBase();
-$http = new EventHttp($base);
+$base = new EventBase();
+$http = new EventHttp($base);
 
-$http->setCallback("/err400", "_http_400");
+$http->setCallback("/err400", "_http_400");
 
-$http->bind("0.0.0.0", 8010);
+$http->bind("0.0.0.0", 8010);
 $base->loop();
 ?>
 ```

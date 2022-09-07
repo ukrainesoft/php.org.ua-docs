@@ -59,26 +59,26 @@ PostgreSQL автоматично конвертує дані з кодуван�
 ```php
 <?php
 
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-// Установка кодировки в UNICODE. Данные будут автоматически
-// преобразованы из кодировки в базе данных к клиентской.
-pg_set_client_encoding($conn, "UNICODE");
+// Установка кодировки в UNICODE. Данные будут автоматически
+// преобразованы из кодировки в базе данных к клиентской.
+pg_set_client_encoding($conn, "UNICODE");
 
-$result = pg_query($conn, "SELECT author, email FROM authors");
-if (!$result) {
-  echo "Произошла ошибка.\n";
-  exit;
+$result = pg_query($conn, "SELECT author, email FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-// Выводим UTF-8 данные
-while ($row = pg_fetch_row($result)) {
-  echo "Author: $row[0]  E-mail: $row[1]";
-  echo "<br />\n";
+// Выводим UTF-8 данные
+while ($row = pg_fetch_row($result)) {
+  echo "Author: $row[0]  E-mail: $row[1]";
+  echo "<br />\n";
 }
 
 ?>

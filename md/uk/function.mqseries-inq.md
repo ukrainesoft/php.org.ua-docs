@@ -15,7 +15,7 @@ mqseriesinq — MQSeries MQINQ
 ### Опис
 
 ```methodsynopsis
-mqseries_inq(    resource $hconn,    resource $hobj,    int $selectorCount,    array $selectors,    int $intAttrCount,    resource &$intAttr,    int $charAttrLength,    resource &$charAttr,    resource &$compCode,    resource &$reason): void
+mqseries_inq(    resource $hconn,    resource $hobj,    int $selectorCount,    array $selectors,    int $intAttrCount,    resource &$intAttr,    int $charAttrLength,    resource &$charAttr,    resource &$compCode,    resource &$reason): void
 ```
 
 Функція **mqseriesinq()** (MQINQ) повертає масив цілих чисел та набір рядків, що містять атрибути об'єкта.
@@ -76,16 +76,16 @@ mqseries_inq(    resource $hconn,    resource $hobj,    int $selecto
 
 ```php
 <?php
-    $int_attr = array();
-    $char_attr = "";
+    $int_attr = array();
+    $char_attr = "";
 
-    mqseries_inq($conn, $obj, 1, array(MQSERIES_MQCA_Q_MGR_NAME), 0, $int_attr, 48, $char_attr, $comp_code, $reason);
+    mqseries_inq($conn, $obj, 1, array(MQSERIES_MQCA_Q_MGR_NAME), 0, $int_attr, 48, $char_attr, $comp_code, $reason);
 
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("INQ CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-    } else {
-        echo "INQ QManager name result ".$char_attr."<br>\n";
-    }
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("INQ CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+    } else {
+        echo "INQ QManager name result ".$char_attr."<br>\n";
+    }
 ?>
 ```
 

@@ -15,7 +15,7 @@ imagestring — Малювання рядка тексту горизонтал�
 ### Опис
 
 ```methodsynopsis
-imagestring(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $string,    int $color): bool
+imagestring(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $string,    int $color): bool
 ```
 
 Малює текст `string` на заданих координатах.
@@ -63,18 +63,18 @@ y-координата верхнього лівого кута.
 
 ```php
 <?php
-// Создание изображения 100*30
-$im = imagecreate(100, 30);
+// Создание изображения 100*30
+$im = imagecreate(100, 30);
 
-// Белый фон, синий текст
-$bg = imagecolorallocate($im, 255, 255, 255);
-$textcolor = imagecolorallocate($im, 0, 0, 255);
+// Белый фон, синий текст
+$bg = imagecolorallocate($im, 255, 255, 255);
+$textcolor = imagecolorallocate($im, 0, 0, 255);
 
-// Надпись в левом верхнем углу
-imagestring($im, 5, 0, 0, 'Hello world!', $textcolor);
+// Надпись в левом верхнем углу
+imagestring($im, 5, 0, 0, 'Hello world!', $textcolor);
 
-// Вывод изображения
-header('Content-type: image/png');
+// Вывод изображения
+header('Content-type: image/png');
 
 imagepng($im);
 imagedestroy($im);

@@ -36,12 +36,12 @@ gmp_abs(GMP|int|string $num): GMP
 
 ```php
 <?php
-     $abs1 = gmp_abs("274982683358");
-     $abs2 = gmp_abs("-274982683358");
+     $abs1 = gmp_abs("274982683358");
+     $abs2 = gmp_abs("-274982683358");
 
-     echo gmp_strval($abs1) . "\n";
-     echo gmp_strval($abs2) . "\n";
-     ?>
+     echo gmp_strval($abs1) . "\n";
+     echo gmp_strval($abs2) . "\n";
+     ?>
 ```
 
 Результат виконання цього прикладу:

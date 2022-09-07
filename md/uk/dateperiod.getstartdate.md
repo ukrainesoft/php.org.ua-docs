@@ -38,9 +38,9 @@ public DatePeriod::getStartDate(): DateTimeInterface
 
 ```php
 <?php
-$period = new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');
-$start = $period->getStartDate();
-echo $start->format(DateTime::ISO8601);
+$period = new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');
+$start = $period->getStartDate();
+echo $start->format(DateTime::ISO8601);
 ?>
 ```
 

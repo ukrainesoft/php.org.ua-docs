@@ -40,7 +40,7 @@ $phperrormsg є змінною, що містить текст останньо�
 ```php
 <?php
 @strpos();
-echo $php_errormsg;
+echo $php_errormsg;
 ?>
 ```
 

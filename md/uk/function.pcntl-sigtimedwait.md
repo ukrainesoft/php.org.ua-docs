@@ -15,7 +15,7 @@ pcntlsigtimedwait — Очікує сигнали протягом задано�
 ### Опис
 
 ```methodsynopsis
-pcntl_sigtimedwait(    array $signals,    array &$info = [],    int $seconds = 0,    int $nanoseconds = 0): int|false
+pcntl_sigtimedwait(    array $signals,    array &$info = [],    int $seconds = 0,    int $nanoseconds = 0): int|false
 ```
 
 Функція **pcntlsigtimedwait()** поводиться так само як і функція [pcntlsigwaitinfo()](function.pcntl-sigwaitinfo.md) за винятком того, що приймає два додаткові аргументи, `seconds` і `nanoseconds`, які встановлюють верхню межу часу, що скрипт може простоювати.

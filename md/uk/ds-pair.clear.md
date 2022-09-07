@@ -34,7 +34,7 @@ public Ds\Pair::clear(): void
 
 ```php
 <?php
-$pair = new \Ds\Pair("a", 1);
+$pair = new \Ds\Pair("a", 1);
 print_r($pair);
 
 $pair->clear();

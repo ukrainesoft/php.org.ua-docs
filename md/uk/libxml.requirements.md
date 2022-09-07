@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Цей модуль вимагає роботи [» libxml](http://www.xmlsoft.org/) >= 2.6.0.
+Цей модуль вимагає роботи [» libxml](http://www.xmlsoft.org/) >= 2.6.0.

@@ -34,7 +34,7 @@ public Ds\PriorityQueue::capacity(): int
 
 ```php
 <?php
-$queue = new \Ds\PriorityQueue();
+$queue = new \Ds\PriorityQueue();
 var_dump($queue->capacity());
 ?>
 ```

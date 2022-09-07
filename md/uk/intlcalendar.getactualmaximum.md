@@ -50,13 +50,13 @@ intlcal_get_actual_maximum(IntlCalendar $calendar, int $field): int|false
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('date.timezone', 'Europe/Lisbon');
 
-$cal = IntlCalendar::fromDateTime('2013-02-15');
-var_dump($cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH)); //28
+$cal = IntlCalendar::fromDateTime('2013-02-15');
+var_dump($cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH)); //28
 
-$cal->add(IntlCalendar::FIELD_EXTENDED_YEAR, -1);
-var_dump($cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH)); //29
+$cal->add(IntlCalendar::FIELD_EXTENDED_YEAR, -1);
+var_dump($cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH)); //29
 ```
 
 Результат виконання цього прикладу:

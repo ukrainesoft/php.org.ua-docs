@@ -45,13 +45,13 @@ mysql_num_rows(resource $result): int|false
 ```php
 <?php
 
-$link = mysql_connect("localhost", "mysql_user", "mysql_password");
-mysql_select_db("database", $link);
+$link = mysql_connect("localhost", "mysql_user", "mysql_password");
+mysql_select_db("database", $link);
 
-$result = mysql_query("SELECT * FROM table1", $link);
-$num_rows = mysql_num_rows($result);
+$result = mysql_query("SELECT * FROM table1", $link);
+$num_rows = mysql_num_rows($result);
 
-echo "Получено $num_rows рядов\n";
+echo "Получено $num_rows рядов\n";
 
 ?>
 ```

@@ -44,10 +44,10 @@ gnupg_decryptverify(resource $identifier, string $text, string &$plaintext): arr
 
 ```php
 <?php
-$plaintext = "";
-$res = gnupg_init();
-gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
-$info = gnupg_decryptverify($res, $text, $plaintext);
+$plaintext = "";
+$res = gnupg_init();
+gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
+$info = gnupg_decryptverify($res, $text, $plaintext);
 print_r($info);
 ?>
 ```
@@ -56,10 +56,10 @@ print_r($info);
 
 ```php
 <?php
-$plaintext = "";
-$gpg = new gnupg();
+$plaintext = "";
+$gpg = new gnupg();
 $gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
-$info = $gpg->decryptverify($text,$plaintext);
+$info = $gpg->decryptverify($text,$plaintext);
 print_r($info);
 ?>
 ```

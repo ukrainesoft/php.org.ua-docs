@@ -36,26 +36,26 @@ sqlsrv_rows_affected(resource $stmt): int|false
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "UPDATE Table_1 SET data = ? WHERE id = ?";
+$sql = "UPDATE Table_1 SET data = ? WHERE id = ?";
 
-$params = array("updated data", 1);
+$params = array("updated data", 1);
 
-$stmt = sqlsrv_query( $conn, $sql, $params);
+$stmt = sqlsrv_query( $conn, $sql, $params);
 
-$rows_affected = sqlsrv_rows_affected( $stmt);
-if( $rows_affected === false) {
-     die( print_r( sqlsrv_errors(), true));
-} elseif( $rows_affected == -1) {
-      echo "Нет доступной информации.<br />";
-} else {
-      echo $rows_affected." строк было обновлено.<br />";
+$rows_affected = sqlsrv_rows_affected( $stmt);
+if( $rows_affected === false) {
+     die( print_r( sqlsrv_errors(), true));
+} elseif( $rows_affected == -1) {
+      echo "Нет доступной информации.<br />";
+} else {
+      echo $rows_affected." строк было обновлено.<br />";
 }
 ?>
 ```

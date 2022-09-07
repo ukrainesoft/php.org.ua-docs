@@ -42,7 +42,7 @@ shmop_size(Shmop $shmop): int
 
 ```php
 <?php
-$shm_size = shmop_size($shm_id);
+$shm_size = shmop_size($shm_id);
 ?>
 ```
 

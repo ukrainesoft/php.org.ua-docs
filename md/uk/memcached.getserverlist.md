@@ -34,10 +34,10 @@ public Memcached::getServerList(): array
 
 ```php
 <?php
-$m = new Memcached();
+$m = new Memcached();
 $m->addServers(array(
-    array('mem1.domain.com', 11211, 20),
-    array('mem2.domain.com', 11311, 80),
+    array('mem1.domain.com', 11211, 20),
+    array('mem2.domain.com', 11311, 80),
 ));
 var_dump($m->getServerList());
 ?>

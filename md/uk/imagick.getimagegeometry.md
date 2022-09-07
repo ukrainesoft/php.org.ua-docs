@@ -38,8 +38,8 @@ public Imagick::getImageGeometry(): array
 
 ```php
 <?php
-$imagick = new Imagick();
-$imagick->newImage(100, 200, "black");
+$imagick = new Imagick();
+$imagick->newImage(100, 200, "black");
 print_r($imagick->getImageGeometry());
 ?>
 ```

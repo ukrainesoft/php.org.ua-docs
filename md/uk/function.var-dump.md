@@ -46,7 +46,7 @@ var_dump(mixed $value, mixed ...$values): void
 
 ```php
 <?php
-$a = array(1, 2, array("a", "b", "c"));
+$a = array(1, 2, array("a", "b", "c"));
 var_dump($a);
 ?>
 ```
@@ -74,9 +74,9 @@ array(3) {
 ```php
 <?php
 
-$b = 3.1;
-$c = true;
-var_dump($b, $c);
+$b = 3.1;
+$c = true;
+var_dump($b, $c);
 
 ?>
 ```

@@ -43,14 +43,14 @@ mysql_error(resource $link_identifier = NULL): string
 
 ```php
 <?php
-$link = mysql_connect("localhost", "mysql_user", "mysql_password");
+$link = mysql_connect("localhost", "mysql_user", "mysql_password");
 
-mysql_select_db("nonexistentdb", $link);
-echo mysql_errno($link) . ": " . mysql_error($link). "\n";
+mysql_select_db("nonexistentdb", $link);
+echo mysql_errno($link) . ": " . mysql_error($link). "\n";
 
-mysql_select_db("kossu", $link);
-mysql_query("SELECT * FROM nonexistenttable", $link);
-echo mysql_errno($link) . ": " . mysql_error($link) . "\n";
+mysql_select_db("kossu", $link);
+mysql_query("SELECT * FROM nonexistenttable", $link);
+echo mysql_errno($link) . ": " . mysql_error($link) . "\n";
 ?>
 ```
 
@@ -64,4 +64,4 @@ echo mysql_errno($link) . ": " . mysql_error($link) . "\n";
 ### Дивіться також
 
 -   [mysqlerrno()](function.mysql-errno.md) - Повертає чисельний код помилки виконання останньої операції з MySQL
--   [» Коди помилок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.md)
+-   [» Коди помилок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.md)

@@ -44,19 +44,19 @@ ldap_errno(LDAP\Connection $ldap): int
 
 ```php
 <?php
-// Этот пример содержит ошибку, которую мы поймаем
-$ld = ldap_connect("localhost");
-$bind = ldap_bind($ld);
-// синтаксическая ошибка в выражении фильтра (errno 87),
-// должно быть "objectclass=*" для того, чтобы это работало.
-$res =  @ldap_search($ld, "o=Myorg, c=DE", "objectclass");
-if (!$res) {
-    echo "LDAP-Errno: " . ldap_errno($ld) . "<br />\n";
-    echo "LDAP-Error: " . ldap_error($ld) . "<br />\n";
-    die("Argh!<br />\n");
+// Этот пример содержит ошибку, которую мы поймаем
+$ld = ldap_connect("localhost");
+$bind = ldap_bind($ld);
+// синтаксическая ошибка в выражении фильтра (errno 87),
+// должно быть "objectclass=*" для того, чтобы это работало.
+$res =  @ldap_search($ld, "o=Myorg, c=DE", "objectclass");
+if (!$res) {
+    echo "LDAP-Errno: " . ldap_errno($ld) . "<br />\n";
+    echo "LDAP-Error: " . ldap_error($ld) . "<br />\n";
+    die("Argh!<br />\n");
 }
-$info = ldap_get_entries($ld, $res);
-echo $info["count"] . " подходящих записей.<br />\n";
+$info = ldap_get_entries($ld, $res);
+echo $info["count"] . " подходящих записей.<br />\n";
 ?>
 ```
 

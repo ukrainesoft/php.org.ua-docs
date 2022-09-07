@@ -34,8 +34,8 @@ public PhpToken::__toString(): string
 
 ```php
 <?php
-$token = new PhpToken(T_ECHO, 'echo');
-echo $token;
+$token = new PhpToken(T_ECHO, 'echo');
+echo $token;
 ```
 
 Результат виконання даних прикладів:

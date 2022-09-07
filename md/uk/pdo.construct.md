@@ -72,12 +72,12 @@ options
 
 ```php
 <?php
-/* Подключение к базе данных MySQL с помощью вызова драйвера */
-$dsn = 'mysql:dbname=testdb;host=127.0.0.1';
-$user = 'dbuser';
-$password = 'dbpass';
+/* Подключение к базе данных MySQL с помощью вызова драйвера */
+$dsn = 'mysql:dbname=testdb;host=127.0.0.1';
+$user = 'dbuser';
+$password = 'dbpass';
 
-$dbh = new PDO($dsn, $user, $password);
+$dbh = new PDO($dsn, $user, $password);
 
 ?>
 ```
@@ -94,12 +94,12 @@ PHP-скрипт може створити підключення до бази 
 
 ```php
 <?php
-/* Подключение к базе данных ODBC с помощью вызова драйвера */
-$dsn = 'uri:file:///usr/local/dbconnect';
-$user = '';
-$password = '';
+/* Подключение к базе данных ODBC с помощью вызова драйвера */
+$dsn = 'uri:file:///usr/local/dbconnect';
+$user = '';
+$password = '';
 
-$dbh = new PDO($dsn, $user, $password);
+$dbh = new PDO($dsn, $user, $password);
 
 ?>
 ```
@@ -112,12 +112,12 @@ PDOpdo.dsn.mydb="mysql:dbname=testdb;host=localhost"
 
 ```php
 <?php
-/* Подключение к базе данных ODBC, используя псевдоним */
-$dsn = 'mydb';
-$user = '';
-$password = '';
+/* Подключение к базе данных ODBC, используя псевдоним */
+$dsn = 'mydb';
+$user = '';
+$password = '';
 
-$dbh = new PDO($dsn, $user, $password);
+$dbh = new PDO($dsn, $user, $password);
 
 ?>
 ```

@@ -47,29 +47,29 @@ Memcache::get(array $keys, array &$flags = ?): array
 ```php
 <?php
 
-/* процедурное API */
-$memcache_obj = memcache_connect('memcache_host', 11211);
-$var = memcache_get($memcache_obj, 'some_key');
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
+$var = memcache_get($memcache_obj, 'some_key');
 
-/* объектно-ориентированное API */
-$memcache_obj = new Memcache;
-$memcache_obj->connect('memcache_host', 11211);
-$var = $memcache_obj->get('some_key');
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
+$var = $memcache_obj->get('some_key');
 
 /*
-Также в качестве параметра вы можете использовать Масив ключей.
-Если элемент не будет найден, то в результирующий Масив просто не будет
-включён этот ключ.
+Также в качестве параметра вы можете использовать Масив ключей.
+Если элемент не будет найден, то в результирующий Масив просто не будет
+включён этот ключ.
 */
 
-/* процедурное API */
-$memcache_obj = memcache_connect('memcache_host', 11211);
-$var = memcache_get($memcache_obj, Array('some_key', 'another_key'));
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
+$var = memcache_get($memcache_obj, Array('some_key', 'another_key'));
 
-/* объектно-ориентированное API */
-$memcache_obj = new Memcache;
-$memcache_obj->connect('memcache_host', 11211);
-$var = $memcache_obj->get(Array('some_key', 'second_key'));
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
+$var = $memcache_obj->get(Array('some_key', 'second_key'));
 
 ?>
 ```

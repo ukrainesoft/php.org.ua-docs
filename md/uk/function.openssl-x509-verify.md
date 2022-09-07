@@ -49,34 +49,34 @@ string - ключ у форматі PEM, такого вигляду: : "-----BE
 
 ```php
 <?php
-$hostname = "news.php.net";
-$ssloptions = array(
-    "capture_peer_cert" => true,
-    "capture_peer_cert_chain" => true,
-    "allow_self_signed"=> false,
-    "CN_match" => $hostname,
-    "verify_peer" => true,
-    "SNI_enabled" => true,
-    "SNI_server_name" => $hostname,
+$hostname = "news.php.net";
+$ssloptions = array(
+    "capture_peer_cert" => true,
+    "capture_peer_cert_chain" => true,
+    "allow_self_signed"=> false,
+    "CN_match" => $hostname,
+    "verify_peer" => true,
+    "SNI_enabled" => true,
+    "SNI_server_name" => $hostname,
 );
 
-$ctx = stream_context_create( array("ssl" => $ssloptions) );
-$result = stream_socket_client("ssl://$hostname:443", $errno, $errstr, 30, STREAM_CLIENT_CONNECT, $ctx);
-$cont = stream_context_get_params($result);
-$x509 = $cont["options"]["ssl"]["peer_certificate"];
-$certparsed = openssl_x509_parse($x509);
+$ctx = stream_context_create( array("ssl" => $ssloptions) );
+$result = stream_socket_client("ssl://$hostname:443", $errno, $errstr, 30, STREAM_CLIENT_CONNECT, $ctx);
+$cont = stream_context_get_params($result);
+$x509 = $cont["options"]["ssl"]["peer_certificate"];
+$certparsed = openssl_x509_parse($x509);
 
-foreach($cont["options"]["ssl"]["peer_certificate_chain"] as $chaincert)
+foreach($cont["options"]["ssl"]["peer_certificate_chain"] as $chaincert)
 {
-    $chainparsed = openssl_x509_parse($chaincert);
-    $chain_public_key = openssl_get_publickey($chaincert);
-    $r = openssl_x509_verify($x509, $chain_public_key);
-    if ($r==1)
-    {
-        echo $certparsed['subject']['CN'];
-        echo " was digitally signed by ";
-        echo $chainparsed['subject']['CN']."\n";
-    }
+    $chainparsed = openssl_x509_parse($chaincert);
+    $chain_public_key = openssl_get_publickey($chaincert);
+    $r = openssl_x509_verify($x509, $chain_public_key);
+    if ($r==1)
+    {
+        echo $certparsed['subject']['CN'];
+        echo " was digitally signed by ";
+        echo $chainparsed['subject']['CN']."\n";
+    }
 }
 ?>
 ```

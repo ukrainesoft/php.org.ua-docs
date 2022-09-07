@@ -36,13 +36,13 @@ public ZipArchive::deleteIndex(int $index): bool
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test.zip') === TRUE) {
-    $zip->deleteIndex(2);
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    $zip->deleteIndex(2);
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

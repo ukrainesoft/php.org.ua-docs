@@ -40,9 +40,9 @@ array Порядковий масив з наступною інформаціє
 
 ```php
 <?php
-$svnurl = 'http://svn.example.org/svnroot/foo/trunk/index.php';
+$svnurl = 'http://svn.example.org/svnroot/foo/trunk/index.php';
 
-print_r( svn_blame($svnurl) );
+print_r( svn_blame($svnurl) );
 
 ?>
 ```

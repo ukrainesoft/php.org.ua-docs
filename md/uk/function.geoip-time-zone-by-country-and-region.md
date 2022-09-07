@@ -22,7 +22,7 @@ geoip_time_zone_by_country_and_region(string $country_code, string $region_code 
 
 У США код регіону відповідає дволітерному скороченню кожного штату. У Канаді код регіону відповідає дволітерному скороченню провінції або територіальний код, який відповідає канадській пошті.
 
-Для решти світу, для представлення регіонів GeoIP використовує коди FIPS 10-4. Ви можете переглянути [» http://www.maxmind.com/app/fips10](http://www.maxmind.com/app/fips10_4) для отримання повного переліку FIPS 10-4 кодів.
+Для решти світу, для представлення регіонів GeoIP використовує коди FIPS 10-4. Ви можете переглянути [» http://www.maxmind.com/app/fips10](http://www.maxmind.com/app/fips10_4) для отримання повного переліку FIPS 10-4 кодів.
 
 Ця функція завжди доступна під час використання бібліотеки GeoIP версії 1.4.1 або новішої. Дані беруться безпосередньо з бібліотеки GeoIP, а не з будь-якої бази даних.
 
@@ -48,9 +48,9 @@ geoip_time_zone_by_country_and_region(string $country_code, string $region_code 
 
 ```php
 <?php
-$timezone = geoip_time_zone_by_country_and_region('CA', 'QC');
-if ($timezone) {
-    echo 'Часовой пояс для CA/QC: ' . $timezone;
+$timezone = geoip_time_zone_by_country_and_region('CA', 'QC');
+if ($timezone) {
+    echo 'Часовой пояс для CA/QC: ' . $timezone;
 }
 ?>
 ```
@@ -67,9 +67,9 @@ if ($timezone) {
 
 ```php
 <?php
-$timezone = geoip_time_zone_by_country_and_region('JP', '01');
-if ($timezone) {
-    echo 'Часовой пояс для JP/01: ' . $timezone;
+$timezone = geoip_time_zone_by_country_and_region('JP', '01');
+if ($timezone) {
+    echo 'Часовой пояс для JP/01: ' . $timezone;
 }
 ?>
 ```

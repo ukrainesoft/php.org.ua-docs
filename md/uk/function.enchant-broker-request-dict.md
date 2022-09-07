@@ -49,10 +49,10 @@ enchant_broker_request_dict(EnchantBroker $broker, string $tag): EnchantDictiona
 
 ```php
 <?php
-$tag = 'en_US';
-$broker = enchant_broker_init();
-if (enchant_broker_dict_exists($broker,$tag)) {
-    $dict = enchant_broker_request_dict($r, $tag);
+$tag = 'en_US';
+$broker = enchant_broker_init();
+if (enchant_broker_dict_exists($broker,$tag)) {
+    $dict = enchant_broker_request_dict($r, $tag);
 }
 ?>
 ```

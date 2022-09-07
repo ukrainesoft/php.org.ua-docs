@@ -37,42 +37,42 @@ public GearmanWorker::setTimeout(int $timeout): bool
 ```php
 <?php
 
-echo "Запуск\n";
+echo "Запуск\n";
 
-# создаём объект обработчика.
-$gmworker= new GearmanWorker();
+# создаём объект обработчика.
+$gmworker= new GearmanWorker();
 
-# добавляем сервер по умолчанию (localhost).
+# добавляем сервер по умолчанию (localhost).
 $gmworker->addServer();
 
-# регистрируем функцию "reverse" на сервере
-$gmworker->addFunction("reverse", "reverse_fn");
+# регистрируем функцию "reverse" на сервере
+$gmworker->addFunction("reverse", "reverse_fn");
 
-# устанавливаем время ожидания 5 секунд
+# устанавливаем время ожидания 5 секунд
 $gmworker->setTimeout(5000);
 
-echo "Ожидание задания...\n";
-while(@$gmworker->work() || $gmworker->returnCode() == GEARMAN_TIMEOUT)
+echo "Ожидание задания...\n";
+while(@$gmworker->work() || $gmworker->returnCode() == GEARMAN_TIMEOUT)
 {
-  if ($gmworker->returnCode() == GEARMAN_TIMEOUT)
-  {
-    # Обычно хотелось бы сделать что-то полезное здесь ...
-    echo "Время вышло. Ожидание следующего задания...\n";
-    continue;
-  }
+  if ($gmworker->returnCode() == GEARMAN_TIMEOUT)
+  {
+    # Обычно хотелось бы сделать что-то полезное здесь ...
+    echo "Время вышло. Ожидание следующего задания...\n";
+    continue;
+  }
 
-  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
-  {
-    echo "Код возврата: " . $gmworker->returnCode() . "\n";
-    break;
-  }
+  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
+  {
+    echo "Код возврата: " . $gmworker->returnCode() . "\n";
+    break;
+  }
 }
 
-echo "Готово\n";
+echo "Готово\n";
 
-function reverse_fn($job)
+function reverse_fn($job)
 {
-  return strrev($job->workload());
+  return strrev($job->workload());
 }
 
 ?>

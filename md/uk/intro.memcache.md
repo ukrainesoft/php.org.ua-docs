@@ -12,4 +12,4 @@ title: Вступ
 
 Модуль Memcache також надає дескриптор [сессий](ref.session.md) `memcache`
 
-Більше інформації про memcached ви зможете знайти на [» http://www.memcached.org/](http://www.memcached.org/)
+Більше інформації про memcached ви зможете знайти на [» http://www.memcached.org/](http://www.memcached.org/)

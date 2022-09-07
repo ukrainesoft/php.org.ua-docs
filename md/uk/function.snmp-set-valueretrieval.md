@@ -34,37 +34,37 @@ snmp_set_valueretrieval(int $method): bool
 
 ```php
 <?php
- snmp_set_valueretrieval(SNMP_VALUE_LIBRARY);
- $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
- // $ret = "STRING: lo"
+ snmp_set_valueretrieval(SNMP_VALUE_LIBRARY);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // $ret = "STRING: lo"
 
- snmp_set_valueretrieval(SNMP_VALUE_PLAIN);
- $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
- // $ret = "lo";
+ snmp_set_valueretrieval(SNMP_VALUE_PLAIN);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // $ret = "lo";
 
- snmp_set_valueretrieval(SNMP_VALUE_OBJECT);
- $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
- // stdClass Object
- // (
- //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
- //   [value] => lo
- // )
+ snmp_set_valueretrieval(SNMP_VALUE_OBJECT);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // stdClass Object
+ // (
+ //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
+ //   [value] => lo
+ // )
 
- snmp_set_valueretrieval(SNMP_VALUE_OBJECT | SNMP_VALUE_PLAIN);
- $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
- // stdClass Object
- // (
- //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
- //   [value] => lo
- // )
+ snmp_set_valueretrieval(SNMP_VALUE_OBJECT | SNMP_VALUE_PLAIN);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // stdClass Object
+ // (
+ //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
+ //   [value] => lo
+ // )
 
- snmp_set_valueretrieval(SNMP_VALUE_OBJECT | SNMP_VALUE_LIBRARY);
- $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
- // stdClass Object
- // (
- //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
- //   [value] => STRING: lo
- // )
+ snmp_set_valueretrieval(SNMP_VALUE_OBJECT | SNMP_VALUE_LIBRARY);
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ // stdClass Object
+ // (
+ //   [type] => 4        <-- SNMP_OCTET_STR, смотрите константы
+ //   [value] => STRING: lo
+ // )
 
 ?>
 ```

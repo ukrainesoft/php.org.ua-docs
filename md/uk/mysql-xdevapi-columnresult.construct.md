@@ -28,31 +28,31 @@ private **mysqlxdevapiColumnResult::construct**
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS nonsense")->execute();
-$session->sql("CREATE DATABASE nonsense")->execute();
-$session->sql("CREATE TABLE nonsense.numbers (hello int, world float unsigned)")->execute();
-$session->sql("INSERT INTO  nonsense.numbers values (42, 42)")->execute();
+$session->sql("DROP DATABASE IF EXISTS nonsense")->execute();
+$session->sql("CREATE DATABASE nonsense")->execute();
+$session->sql("CREATE TABLE nonsense.numbers (hello int, world float unsigned)")->execute();
+$session->sql("INSERT INTO  nonsense.numbers values (42, 42)")->execute();
 
-$schema = $session->getSchema("nonsense");
-$table  = $schema->getTable("numbers");
+$schema = $session->getSchema("nonsense");
+$table  = $schema->getTable("numbers");
 
-$result1 = $table->select('hello','world')->execute();
+$result1 = $table->select('hello','world')->execute();
 
-// Возвращает Масив объектов ColumnResult
-$columns = $result1->getColumns();
+// Возвращает Масив объектов ColumnResult
+$columns = $result1->getColumns();
 
-foreach ($columns as $column) {
-    echo "\nМетка столбца " , $column->getColumnLabel();
-    echo " является типом "       , $column->getType();
-    echo " и ", ($column->isNumberSigned() === 0) ? "Неподписан." : "Подписан.";
+foreach ($columns as $column) {
+    echo "\nМетка столбца " , $column->getColumnLabel();
+    echo " является типом "       , $column->getType();
+    echo " и ", ($column->isNumberSigned() === 0) ? "Неподписан." : "Подписан.";
 }
 
-// Альтернативный вариант
-$result2 = $session->sql("SELECT * FROM nonsense.numbers")->execute();
+// Альтернативный вариант
+$result2 = $session->sql("SELECT * FROM nonsense.numbers")->execute();
 
-// Возвращает Масив объектов FieldMetadata
+// Возвращает Масив объектов FieldMetadata
 print_r($result2->getColumns());
 ```
 

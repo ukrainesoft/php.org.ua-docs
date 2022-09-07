@@ -24,13 +24,13 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 
 `filter` (array | об'єкт)
 
-[» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
+[» Предикат запроса](https://www.mongodb.com/docs/manual/tutorial/query-documents/). Порожній предикат збігатиметься з усіма елементами колекції.
 
-> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.md) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+> **Зауваження**: При обчисленні критеріїв запиту, MongoDB порівнює типи та значення відповідно до власних [» правилами порівняння типів BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/), відмінних від правил [сравнения](types.comparisons.md) і [приведения типов](language.types.type-juggling.md) PHP. Коли використовується спеціальний тип BSON, критерій запиту має відповідати [классу BSON](book.bson.md) (тобто використовувати [MongoDBBSONObjectId](class.mongodb-bson-objectid.md) для вибірки по [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
 
 `newObj` (array | об'єкт)
 
-Документ, що містить оператори оновлення (наприклад, `$set`), що замінює документ (наприклад, *тільки* вирази `field:value`) або [» конвейер агрегации](https://www.mongodb.com/docs/manual/reference/command/update/#update-with-an-aggregation-pipeline)
+Документ, що містить оператори оновлення (наприклад, `$set`), що замінює документ (наприклад, *тільки* вирази `field:value`) або [» конвейер агрегации](https://www.mongodb.com/docs/manual/reference/command/update/#update-with-an-aggregation-pipeline)
 
 `updateOptions`
 
@@ -39,13 +39,13 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 | Опция | Тип | Описание | Значение по умолчанию |
 | --- | --- | --- | --- |
 | arrayFilters | array |  |  |
-| Масив документів фільтрів, який визначає, які елементи масиву будуть змінені для операції поновлення в полі масиву. Дивіться [» Вказуйте array Filters для операцій оновлення Масиву](https://www.mongodb.com/docs/manual/reference/command/update/#update-command-arrayfilters) у посібнику MongoDB для отримання додаткової інформації. |  |  |  |
+| Масив документів фільтрів, який визначає, які елементи масиву будуть змінені для операції поновлення в полі масиву. Дивіться [» Вказуйте array Filters для операцій оновлення Масиву](https://www.mongodb.com/docs/manual/reference/command/update/#update-command-arrayfilters) у посібнику MongoDB для отримання додаткової інформації. |  |  |  |
 
 Опція доступна з MongoDB 3.6+ і призведе до виключення під час виконання, якщо вона вказана для старої версії сервера.
 
 | | collation | array | об'єкт |
 
-[» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"` також обов'язково. Опис полів дивіться у розділі [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document)
+[» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/) дозволяє користувачам вказувати специфічні для конкретної мови правила для порівняння рядків, такі як реакцію на регістр літер та надрядкові знаки. Якщо поставлено зіставлення, то поле `"locale"` також обов'язково. Опис полів дивіться у розділі [» Сопоставление](https://www.mongodb.com/docs/upcoming/reference/collation/#collation-document)
 
 Якщо порівняння не задано явно, але в колекції визначено зіставлення за умовчанням, буде використано воно. Якщо немає ні того, то MongoDB буде використовувати просте бінарне порівняння рядків.
 
@@ -84,15 +84,15 @@ public MongoDB\Driver\BulkWrite::update(array|object $filter, array|object $newO
 ```php
 <?php
 
-$bulk = new MongoDB\Driver\BulkWrite;
+$bulk = new MongoDB\Driver\BulkWrite;
 $bulk->update(
-    ['x' => 2],
-    ['$set' => ['y' => 3]],
-    ['multi' => false, 'upsert' => false]
+    ['x' => 2],
+    ['$set' => ['y' => 3]],
+    ['multi' => false, 'upsert' => false]
 );
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
-$result = $manager->executeBulkWrite('db.collection', $bulk);
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$result = $manager->executeBulkWrite('db.collection', $bulk);
 
 ?>
 ```

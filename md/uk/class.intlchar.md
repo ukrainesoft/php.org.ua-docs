@@ -2447,7 +2447,7 @@ public static charName(int|string $codepoint, int $type = IntlChar::UNICODE_CHAR
 public static charType(int|string $codepoint): ?int
 public static chr(int|string $codepoint): ?string
 public static digit(int|string $codepoint, int $base = 10): int|false|null
-public static enumCharNames(    int|string $start,    int|string $end,    callable $callback,    int $type = IntlChar::UNICODE_CHAR_NAME): ?bool
+public static enumCharNames(    int|string $start,    int|string $end,    callable $callback,    int $type = IntlChar::UNICODE_CHAR_NAME): ?bool
 public static enumCharTypes(callable $callback): void
 public static foldCase(int|string $codepoint, int $options = IntlChar::FOLD_CASE_DEFAULT): int|string|null
 public static forDigit(int $digit, int $base = 10): int

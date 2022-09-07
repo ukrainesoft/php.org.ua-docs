@@ -44,7 +44,7 @@ odbc_fetch_into(resource $statement, array &$array, int $row = 0): int|false
 
 ```php
 <?php
-$rc = odbc_fetch_into($res_id, $my_array);
+$rc = odbc_fetch_into($res_id, $my_array);
 ?>
 ```
 
@@ -52,6 +52,6 @@ $rc = odbc_fetch_into($res_id, $my_array);
 
 ```php
 <?php
-$rc = odbc_fetch_into($res_id, $my_array, 2);
+$rc = odbc_fetch_into($res_id, $my_array, 2);
 ?>
 ```

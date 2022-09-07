@@ -42,19 +42,19 @@ cubrid_real_escape_string(string $unescaped_string, resource $conn_identifier = 
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-$unescaped_str = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~';
-$escaped_str = cubrid_real_escape_string($unescaped_str);
+$unescaped_str = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~';
+$escaped_str = cubrid_real_escape_string($unescaped_str);
 
-$len = strlen($unescaped_str);
+$len = strlen($unescaped_str);
 
-@cubrid_execute($conn, "DROP TABLE cubrid_test");
-cubrid_execute($conn, "CREATE TABLE cubrid_test (t char($len))");
-cubrid_execute($conn, "INSERT INTO cubrid_test (t) VALUES('$escaped_str')");
+@cubrid_execute($conn, "DROP TABLE cubrid_test");
+cubrid_execute($conn, "CREATE TABLE cubrid_test (t char($len))");
+cubrid_execute($conn, "INSERT INTO cubrid_test (t) VALUES('$escaped_str')");
 
-$req = cubrid_execute($conn, "SELECT * FROM cubrid_test");
-$row = cubrid_fetch_assoc($req);
+$req = cubrid_execute($conn, "SELECT * FROM cubrid_test");
+$row = cubrid_fetch_assoc($req);
 
 var_dump($row);
 

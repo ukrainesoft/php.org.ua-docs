@@ -34,7 +34,7 @@ public Ds\Set::diff(Ds\Set $set): Ds\Set
 
 ### Дивіться також
 
--   [» Різниця множин](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Вікіпедія
+-   [» Різниця множин](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Вікіпедія
 
 ### Приклади
 
@@ -42,8 +42,8 @@ public Ds\Set::diff(Ds\Set $set): Ds\Set
 
 ```php
 <?php
-$a = new \Ds\Set([1, 2, 3]);
-$b = new \Ds\Set([3, 4, 5]);
+$a = new \Ds\Set([1, 2, 3]);
+$b = new \Ds\Set([3, 4, 5]);
 
 var_dump($a->diff($b));
 ?>

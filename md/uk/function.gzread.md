@@ -46,10 +46,10 @@ gzread(resource $stream, int $length): string|false
 
 ```php
 <?php
-// поместить содержимое gz-файла в строку
-$filename = "/usr/local/something.txt.gz";
-$zd = gzopen($filename, "r");
-$contents = gzread($zd, 10000);
+// поместить содержимое gz-файла в строку
+$filename = "/usr/local/something.txt.gz";
+$zd = gzopen($filename, "r");
+$contents = gzread($zd, 10000);
 gzclose($zd);
 ?>
 ```

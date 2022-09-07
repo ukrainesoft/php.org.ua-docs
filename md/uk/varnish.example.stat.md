@@ -15,13 +15,13 @@ title: Просте використання VarnishStat
 ```php
 <?php
 
-$vs = new VarnishStat;
+$vs = new VarnishStat;
 
-try {
-    $data = $vs->getSnapshot();
-} catch (VarnishException $e) {
-    echo $e->getMessage();
-    exit(3);
+try {
+    $data = $vs->getSnapshot();
+} catch (VarnishException $e) {
+    echo $e->getMessage();
+    exit(3);
 }
 
 exit(0);

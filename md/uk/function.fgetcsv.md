@@ -15,7 +15,7 @@ fgetcsv — Читає рядок із файлу та проводить роз
 ### Опис
 
 ```methodsynopsis
-fgetcsv(    resource $stream,    ?int $length = null,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\"): array|false
+fgetcsv(    resource $stream,    ?int $length = null,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\"): array|false
 ```
 
 Ця функція схожа на функцію [fgets()](function.fgets.md), з тією різницею, що вона здійснює аналіз рядка на наявність записів у форматі CSV і повертає знайдені поля як масив.
@@ -73,17 +73,17 @@ fgetcsv(    resource $stream,    ?int $length = null,    string $sep
 
 ```php
 <?php
-$row = 1;
-if (($handle = fopen("test.csv", "r")) !== FALSE) {
-    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-        $num = count($data);
-        echo "<p> $num полей в строке $row: <br /></p>\n";
-        $row++;
-        for ($c=0; $c < $num; $c++) {
-            echo $data[$c] . "<br />\n";
-        }
-    }
-    fclose($handle);
+$row = 1;
+if (($handle = fopen("test.csv", "r")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+        $num = count($data);
+        echo "<p> $num полей в строке $row: <br /></p>\n";
+        $row++;
+        for ($c=0; $c < $num; $c++) {
+            echo $data[$c] . "<br />\n";
+        }
+    }
+    fclose($handle);
 }
 ?>
 ```

@@ -15,7 +15,7 @@ tradercdlshootingstar — Падаюча зірка
 ### Опис
 
 ```methodsynopsis
-trader_cdlshootingstar(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlshootingstar(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

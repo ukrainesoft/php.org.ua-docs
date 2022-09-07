@@ -40,10 +40,10 @@ public Ds\Deque::unshift(mixed $values = ?): void
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 
 $deque->unshift("a");
-$deque->unshift("b", "c");
+$deque->unshift("b", "c");
 
 print_r($deque);
 ?>

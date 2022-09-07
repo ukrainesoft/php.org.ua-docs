@@ -40,12 +40,12 @@ ssh2_sftp_readlink(resource $sftp, string $link): string
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
-$sftp = ssh2_sftp($connection);
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
 
-$target = ssh2_sftp_readlink($sftp, '/tmp/mysql.sock');
-/* $target теперь такой (например): '/var/run/mysql.sock' */
+$target = ssh2_sftp_readlink($sftp, '/tmp/mysql.sock');
+/* $target теперь такой (например): '/var/run/mysql.sock' */
 ?>
 ```
 

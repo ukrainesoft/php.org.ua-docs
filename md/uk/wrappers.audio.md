@@ -17,7 +17,7 @@ ogg:// - Аудіопотоки
 ogg:// (PECL)
 
 > **Зауваження** **Ця обгортка недоступна за умовчанням**  
-> Для того щоб використовувати обгортку ogg:// ви повинні встановити модуль [» OGG/Vorbis](https://pecl.php.net/package/oggvorbis) доступний у [» PECL](https://pecl.php.net/)
+> Для того щоб використовувати обгортку ogg:// ви повинні встановити модуль [» OGG/Vorbis](https://pecl.php.net/package/oggvorbis) доступний у [» PECL](https://pecl.php.net/)
 
 ### Використання
 

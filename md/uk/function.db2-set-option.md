@@ -178,36 +178,36 @@ db2_set_option(resource $resource, array $options, int $type): bool
 
 ```php
 <?php
-/* Параметры соединения с базой данных */
-$database = 'SAMPLE';
-$hostname = 'localhost';
-$port = 50000;
-$protocol = 'TCPIP';
-$username = 'db2inst1';
-$password = 'ibmdb2';
+/* Параметры соединения с базой данных */
+$database = 'SAMPLE';
+$hostname = 'localhost';
+$port = 50000;
+$protocol = 'TCPIP';
+$username = 'db2inst1';
+$password = 'ibmdb2';
 
-/* Строка соединения */
-$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
-$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
-$conn_string .= "UID=$username;PWD=$password;";
+/* Строка соединения */
+$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
+$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
+$conn_string .= "UID=$username;PWD=$password;";
 
-/* Получаем ресурс соединения */
-$conn = db2_connect($conn_string, '', '');
+/* Получаем ресурс соединения */
+$conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
-$options = array('autocommit' => DB2_AUTOCOMMIT_ON);
+/* Создаём ассоциативный Масив опций */
+$options = array('autocommit' => DB2_AUTOCOMMIT_ON);
 
-/* Вызываем функцию */
-$result = db2_set_option($conn, $options, 1);
+/* Вызываем функцию */
+$result = db2_set_option($conn, $options, 1);
 
-/* Проверяем, все ли опции установились */
+/* Проверяем, все ли опции установились */
 if($result)
 {
-  echo 'Options Set Successfully';
+  echo 'Options Set Successfully';
 }
 else
 {
-  echo 'Could Not Set Options';
+  echo 'Could Not Set Options';
 }
 ?>
 ```
@@ -222,39 +222,39 @@ Options Set Successfully
 
 ```php
 <?php
-/* Параметры соединения с базой данных */
-$database = 'SAMPLE';
-$hostname = 'localhost';
-$port = 50000;
-$protocol = 'TCPIP';
-$username = 'db2inst1';
-$password = 'ibmdb2';
+/* Параметры соединения с базой данных */
+$database = 'SAMPLE';
+$hostname = 'localhost';
+$port = 50000;
+$protocol = 'TCPIP';
+$username = 'db2inst1';
+$password = 'ibmdb2';
 
-/* Строка соединения */
-$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
-$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
-$conn_string .= "UID=$username;PWD=$password;";
+/* Строка соединения */
+$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
+$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
+$conn_string .= "UID=$username;PWD=$password;";
 
-/* Получаем ресурс соединения */
-$conn = db2_connect($conn_string, '', '');
+/* Получаем ресурс соединения */
+$conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
-$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
-                    'binmode' => DB2_PASSTHRU,
-              'db2_attr_case' => DB2_CASE_UPPER,
-                     'cursor' => DB2_SCROLLABLE);
+/* Создаём ассоциативный Масив опций */
+$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
+                    'binmode' => DB2_PASSTHRU,
+              'db2_attr_case' => DB2_CASE_UPPER,
+                     'cursor' => DB2_SCROLLABLE);
 
-/* Вызываем функцию */
-$result = db2_set_option($conn, $options, 1);
+/* Вызываем функцию */
+$result = db2_set_option($conn, $options, 1);
 
-/* Проверяем, все ли опции установились */
+/* Проверяем, все ли опции установились */
 if($result)
 {
-  echo 'Options Set Successfully';
+  echo 'Options Set Successfully';
 }
 else
 {
-  echo 'Could Not Set Options';
+  echo 'Could Not Set Options';
 }
 ?>
 ```
@@ -269,39 +269,39 @@ Options Set Successfully
 
 ```php
 <?php
-/* Параметры соединения с базой данных */
-$database = 'SAMPLE';
-$hostname = 'localhost';
-$port = 50000;
-$protocol = 'TCPIP';
-$username = 'db2inst1';
-$password = 'ibmdb2';
+/* Параметры соединения с базой данных */
+$database = 'SAMPLE';
+$hostname = 'localhost';
+$port = 50000;
+$protocol = 'TCPIP';
+$username = 'db2inst1';
+$password = 'ibmdb2';
 
-/* Строка соединения */
-$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
-$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
-$conn_string .= "UID=$username;PWD=$password;";
+/* Строка соединения */
+$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
+$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
+$conn_string .= "UID=$username;PWD=$password;";
 
-/* Получаем ресурс соединения */
-$conn = db2_connect($conn_string, '', '');
+/* Получаем ресурс соединения */
+$conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
-$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
-             'MY_INVALID_KEY' => DB2_PASSTHRU,
-              'db2_attr_case' => DB2_CASE_UPPER,
-                     'cursor' => DB2_SCROLLABLE);
+/* Создаём ассоциативный Масив опций */
+$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
+             'MY_INVALID_KEY' => DB2_PASSTHRU,
+              'db2_attr_case' => DB2_CASE_UPPER,
+                     'cursor' => DB2_SCROLLABLE);
 
-/* Вызываем функцию */
-$result = db2_set_option($conn, $options, 1);
+/* Вызываем функцию */
+$result = db2_set_option($conn, $options, 1);
 
-/* Проверяем, все ли опции установились */
+/* Проверяем, все ли опции установились */
 if($result)
 {
-  echo 'Options Set Successfully';
+  echo 'Options Set Successfully';
 }
 else
 {
-  echo 'Could Not Set Options';
+  echo 'Could Not Set Options';
 }
 ?>
 ```
@@ -316,39 +316,39 @@ Could Not Set Options
 
 ```php
 <?php
-/* Параметры соединения с базой данных */
-$database = 'SAMPLE';
-$hostname = 'localhost';
-$port = 50000;
-$protocol = 'TCPIP';
-$username = 'db2inst1';
-$password = 'ibmdb2';
+/* Параметры соединения с базой данных */
+$database = 'SAMPLE';
+$hostname = 'localhost';
+$port = 50000;
+$protocol = 'TCPIP';
+$username = 'db2inst1';
+$password = 'ibmdb2';
 
-/* Строка соединения */
-$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
-$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
-$conn_string .= "UID=$username;PWD=$password;";
+/* Строка соединения */
+$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
+$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
+$conn_string .= "UID=$username;PWD=$password;";
 
-/* Получаем ресурс соединения */
-$conn = db2_connect($conn_string, '', '');
+/* Получаем ресурс соединения */
+$conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
-$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
-                    'binmode' => 'INVALID_VALUE',
-              'db2_attr_case' => DB2_CASE_UPPER,
-                     'cursor' => DB2_SCROLLABLE);
+/* Создаём ассоциативный Масив опций */
+$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
+                    'binmode' => 'INVALID_VALUE',
+              'db2_attr_case' => DB2_CASE_UPPER,
+                     'cursor' => DB2_SCROLLABLE);
 
-/* Вызываем функцию */
-$result = db2_set_option($conn, $options, 1);
+/* Вызываем функцию */
+$result = db2_set_option($conn, $options, 1);
 
-/* Проверяем, все ли опции установились */
+/* Проверяем, все ли опции установились */
 if($result)
 {
-  echo 'Options Set Successfully';
+  echo 'Options Set Successfully';
 }
 else
 {
-  echo 'Could Not Set Options';
+  echo 'Could Not Set Options';
 }
 ?>
 ```
@@ -363,39 +363,39 @@ Could Not Set Options
 
 ```php
 <?php
-/* Параметры соединения с базой данных */
-$database = 'SAMPLE';
-$hostname = 'localhost';
-$port = 50000;
-$protocol = 'TCPIP';
-$username = 'db2inst1';
-$password = 'ibmdb2';
+/* Параметры соединения с базой данных */
+$database = 'SAMPLE';
+$hostname = 'localhost';
+$port = 50000;
+$protocol = 'TCPIP';
+$username = 'db2inst1';
+$password = 'ibmdb2';
 
-/* Строка соединения */
-$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
-$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
-$conn_string .= "UID=$username;PWD=$password;";
+/* Строка соединения */
+$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
+$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
+$conn_string .= "UID=$username;PWD=$password;";
 
-/* Получаем ресурс соединения */
-$conn = db2_connect($conn_string, '', '');
+/* Получаем ресурс соединения */
+$conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
-$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
-                    'binmode' => DB2_PASSTHRU,
-              'db2_attr_case' => DB2_CASE_UPPER,
-                     'cursor' => DB2_SCROLLABLE);
+/* Создаём ассоциативный Масив опций */
+$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
+                    'binmode' => DB2_PASSTHRU,
+              'db2_attr_case' => DB2_CASE_UPPER,
+                     'cursor' => DB2_SCROLLABLE);
 
-/* Вызываем функцию */
-$result = db2_set_option($conn, $options, 2);
+/* Вызываем функцию */
+$result = db2_set_option($conn, $options, 2);
 
-/* Проверяем, все ли опции установились */
+/* Проверяем, все ли опции установились */
 if($result)
 {
-  echo 'Options Set Successfully';
+  echo 'Options Set Successfully';
 }
 else
 {
-  echo 'Could Not Set Options';
+  echo 'Could Not Set Options';
 }
 ?>
 ```
@@ -410,41 +410,41 @@ Could Not Set Options
 
 ```php
 <?php
-/* Параметры соединения с базой данных */
-$database = 'SAMPLE';
-$hostname = 'localhost';
-$port = 50000;
-$protocol = 'TCPIP';
-$username = 'db2inst1';
-$password = 'ibmdb2';
+/* Параметры соединения с базой данных */
+$database = 'SAMPLE';
+$hostname = 'localhost';
+$port = 50000;
+$protocol = 'TCPIP';
+$username = 'db2inst1';
+$password = 'ibmdb2';
 
-/* Строка соединения */
-$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
-$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
-$conn_string .= "UID=$username;PWD=$password;";
+/* Строка соединения */
+$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
+$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
+$conn_string .= "UID=$username;PWD=$password;";
 
-/* Получаем ресурс соединения */
-$conn = db2_connect($conn_string, '', '');
+/* Получаем ресурс соединения */
+$conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
-$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
-                    'binmode' => DB2_PASSTHRU,
-              'db2_attr_case' => DB2_CASE_UPPER,
-                     'cursor' => DB2_SCROLLABLE);
+/* Создаём ассоциативный Масив опций */
+$options = array('autocommit' => DB2_AUTOCOMMIT_OFF,
+                    'binmode' => DB2_PASSTHRU,
+              'db2_attr_case' => DB2_CASE_UPPER,
+                     'cursor' => DB2_SCROLLABLE);
 
-$stmt = db2_prepare($conn, 'SELECT * FROM EMPLOYEE');
+$stmt = db2_prepare($conn, 'SELECT * FROM EMPLOYEE');
 
-/* Вызываем функцию */
-$result = db2_set_option($stmt, $options, 1);
+/* Вызываем функцию */
+$result = db2_set_option($stmt, $options, 1);
 
-/* Проверяем, все ли опции установились */
+/* Проверяем, все ли опции установились */
 if($result)
 {
-  echo 'Options Set Successfully';
+  echo 'Options Set Successfully';
 }
 else
 {
-  echo 'Could Not Set Options';
+  echo 'Could Not Set Options';
 }
 ?>
 ```
@@ -459,36 +459,36 @@ Could Not Set Options
 
 ```php
 <?php
-/* Параметры соединения с базой данных */
-$database = 'SAMPLE';
-$hostname = 'localhost';
-$port = 50000;
-$protocol = 'TCPIP';
-$username = 'db2inst1';
-$password = 'ibmdb2';
+/* Параметры соединения с базой данных */
+$database = 'SAMPLE';
+$hostname = 'localhost';
+$port = 50000;
+$protocol = 'TCPIP';
+$username = 'db2inst1';
+$password = 'ibmdb2';
 
-/* Строка соединения */
-$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
-$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
-$conn_string .= "UID=$username;PWD=$password;";
+/* Строка соединения */
+$conn_string = "DRIVER={IBM DB2 ODBC DRIVER};DATABASE=$database;";
+$conn_string .= "HOSTNAME=$hostname;PORT=$port;PROTOCOL=$protocol;";
+$conn_string .= "UID=$username;PWD=$password;";
 
-/* Получаем ресурс соединения */
-$conn = db2_connect($conn_string, '', '');
+/* Получаем ресурс соединения */
+$conn = db2_connect($conn_string, '', '');
 
-/* Создаём ассоциативный Масив опций */
-$options = array('db2_attr_case' => DB2_CASE_LOWER,
-                        'cursor' => DB2_SCROLLABLE);
+/* Создаём ассоциативный Масив опций */
+$options = array('db2_attr_case' => DB2_CASE_LOWER,
+                        'cursor' => DB2_SCROLLABLE);
 
-$stmt = db2_prepare($conn, 'SELECT * FROM EMPLOYEE WHERE EMPNO = ? OR EMPNO = ?');
+$stmt = db2_prepare($conn, 'SELECT * FROM EMPLOYEE WHERE EMPNO = ? OR EMPNO = ?');
 
-/* Вызываем функцию */
-$option_result = db2_set_option($stmt, $options, 2);
-$result = db2_execute($stmt, array('000130', '000140'));
+/* Вызываем функцию */
+$option_result = db2_set_option($stmt, $options, 2);
+$result = db2_execute($stmt, array('000130', '000140'));
 
-/* Получаем строку 2 перед строкой 1. Перематываемый курсор! */
-print_r(db2_fetch_assoc($stmt, 2));
-print '<br /><br />';
-print_r(db2_fetch_assoc($stmt, 1));
+/* Получаем строку 2 перед строкой 1. Перематываемый курсор! */
+print_r(db2_fetch_assoc($stmt, 2));
+print '<br /><br />';
+print_r(db2_fetch_assoc($stmt, 1));
 
 ?>
 ```
@@ -537,17 +537,17 @@ Array
 
 ```php
 <?php
-  $conn = db2_connect("", "", "", array("i5_lib"=>"nobody"));
-  $stmt = db2_prepare($conn, 'select * from names where first = ?');
-  $name = "first2";
-  db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);
-  $options = array("i5_fetch_only"=>DB2_I5_FETCH_ON);
-  db2_set_option($stmt,$options,0);
-  if (db2_execute($stmt)) {
-    while ($row = db2_fetch_array($stmt)) {
-      echo "{$row[0]} {$row[1]}";
-    }
-  }
+  $conn = db2_connect("", "", "", array("i5_lib"=>"nobody"));
+  $stmt = db2_prepare($conn, 'select * from names where first = ?');
+  $name = "first2";
+  db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);
+  $options = array("i5_fetch_only"=>DB2_I5_FETCH_ON);
+  db2_set_option($stmt,$options,0);
+  if (db2_execute($stmt)) {
+    while ($row = db2_fetch_array($stmt)) {
+      echo "{$row[0]} {$row[1]}";
+    }
+  }
 ?>
 ```
 

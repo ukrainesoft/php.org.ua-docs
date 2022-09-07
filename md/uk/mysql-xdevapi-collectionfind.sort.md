@@ -36,27 +36,27 @@ public mysql_xdevapi\CollectionFind::sort(string $sort_expr): mysql_xdevapi\Coll
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema = $session->getSchema("addressbook");
-$create = $schema->createCollection("people");
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
 $create
-  ->add('{"name": "Alfred", "age": 18, "job": "Butler"}')
-  ->execute();
+  ->add('{"name": "Alfred", "age": 18, "job": "Butler"}')
+  ->execute();
 $create
-  ->add('{"name": "Reginald", "age": 42, "job": "Butler"}')
-  ->execute();
+  ->add('{"name": "Reginald", "age": 42, "job": "Butler"}')
+  ->execute();
 
-// ...
+// ...
 
-$collection = $schema->getCollection("people");
+$collection = $schema->getCollection("people");
 
-$result = $collection
-  ->find()
-  ->sort('job desc', 'age asc')
-  ->execute();
+$result = $collection
+  ->find()
+  ->sort('job desc', 'age asc')
+  ->execute();
 
 var_dump($result->fetchAll());
 ?>

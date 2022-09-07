@@ -44,25 +44,25 @@ intlcal_get_minimal_days_in_first_week(IntlCalendar $calendar): int|false
 
 ```php
 <?php
-ini_set('date.timezone', 'UTC');
-ini_set('intl.default_locale', 'en_US');
+ini_set('date.timezone', 'UTC');
+ini_set('intl.default_locale', 'en_US');
 
-$cal = new IntlGregorianCalendar(2013, 0 /* Январь */, 2);
-var_dump(IntlDateFormatter::formatObject($cal, 'cccc')); // Среда
+$cal = new IntlGregorianCalendar(2013, 0 /* Январь */, 2);
+var_dump(IntlDateFormatter::formatObject($cal, 'cccc')); // Среда
 
-var_dump($cal->getMinimalDaysInFirstWeek(), // 1
-$cal->getFirstDayofWeek()); // 1 (Воскресенье)
+var_dump($cal->getMinimalDaysInFirstWeek(), // 1
+$cal->getFirstDayofWeek()); // 1 (Воскресенье)
 
-// Первая неделя 2013 года
-var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y"));
+// Первая неделя 2013 года
+var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y"));
 
 $cal->setMinimalDaysInFirstWeek(4);
-// Всё ещё первая неделя 2013 года (в 1-й неделе 5 дней в новом году)
-var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y"));
+// Всё ещё первая неделя 2013 года (в 1-й неделе 5 дней в новом году)
+var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y"));
 
 $cal->setMinimalDaysInFirstWeek(6);
-// 53 неделя 2012 года
-var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y"));
+// 53 неделя 2012 года
+var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y"));
 ```
 
 Результат виконання цього прикладу:

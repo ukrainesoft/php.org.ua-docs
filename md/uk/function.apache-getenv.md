@@ -42,8 +42,8 @@ apache_getenv(string $variable, bool $walk_to_top = false): string|false
 
 ```php
 <?php
-$ret = apache_getenv("SERVER_ADDR");
-echo $ret;
+$ret = apache_getenv("SERVER_ADDR");
+echo $ret;
 ?>
 ```
 

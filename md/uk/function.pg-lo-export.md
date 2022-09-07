@@ -60,14 +60,14 @@ OID великий об'єкт у базі даних.
 
 ```php
 <?php
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $oid = pg_lo_create($database);
-   $handle = pg_lo_open($database, $oid, "w");
-   pg_lo_write($handle, "large object data");
-   pg_lo_close($handle);
-   pg_lo_export($database, $oid, '/tmp/lob.dat');
-   pg_query($database, "commit");
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $oid = pg_lo_create($database);
+   $handle = pg_lo_open($database, $oid, "w");
+   pg_lo_write($handle, "large object data");
+   pg_lo_close($handle);
+   pg_lo_export($database, $oid, '/tmp/lob.dat');
+   pg_query($database, "commit");
 ?>
 ```
 

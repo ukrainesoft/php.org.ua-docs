@@ -87,7 +87,7 @@ pack(string $format, mixed ...$values): string
 
 ```php
 <?php
-$binarydata = pack("nvc*", 0x1234, 0x5678, 65, 66);
+$binarydata = pack("nvc*", 0x1234, 0x5678, 65, 66);
 ?>
 ```
 

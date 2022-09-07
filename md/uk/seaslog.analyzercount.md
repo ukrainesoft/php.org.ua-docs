@@ -45,16 +45,16 @@ SeasLog набуває значення лічильника grep -ai '{level}' 
 ```php
 <?php
 
-$countResult1 = SeasLog::analyzerCount();
+$countResult1 = SeasLog::analyzerCount();
 
-//с `level`
-$countResult2 = SeasLog::analyzerCount(SEASLOG_DEBUG);
+//с `level`
+$countResult2 = SeasLog::analyzerCount(SEASLOG_DEBUG);
 
-//с `level` и `log_path`
-$countResult3 = SeasLog::analyzerCount(SEASLOG_ERROR,date('Ymd',time()));
+//с `level` и `log_path`
+$countResult3 = SeasLog::analyzerCount(SEASLOG_ERROR,date('Ymd',time()));
 
-//с `level` и `key_word`
-$countResult4 = SeasLog::analyzerCount(SEASLOG_DEBUG,NULL,'accessToken');
+//с `level` и `key_word`
+$countResult4 = SeasLog::analyzerCount(SEASLOG_DEBUG,NULL,'accessToken');
 
 var_dump($countResult1,$countResult2,$countResult3,$countResult4);
 

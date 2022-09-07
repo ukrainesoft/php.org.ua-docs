@@ -46,16 +46,16 @@ tidy_get_status(tidy $tidy): int
 
 ```php
 <?php
-$html = '<p>параграф</i>';
-$tidy = new tidy();
+$html = '<p>параграф</i>';
+$tidy = new tidy();
 $tidy->parseString($html);
 
-$tidy2 = new tidy();
-$html2 = '<bogus>тест</bogus>';
+$tidy2 = new tidy();
+$html2 = '<bogus>тест</bogus>';
 $tidy2->parseString($html2);
 
-echo $tidy->getStatus(); //1
+echo $tidy->getStatus(); //1
 
-echo $tidy2->getStatus(); //2
+echo $tidy2->getStatus(); //2
 ?>
 ```

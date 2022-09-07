@@ -53,13 +53,13 @@ pg_last_notice(PgSql\Connection $connection, int $mode = PGSQL_NOTICE_LAST): arr
 
 ```php
 <?php
-  $pgsql_conn = pg_connect("dbname=mark host=localhost");
+  $pgsql_conn = pg_connect("dbname=mark host=localhost");
 
-  $res = pg_query("CREATE TABLE test (id SERIAL)");
+  $res = pg_query("CREATE TABLE test (id SERIAL)");
 
-  $notice = pg_last_notice($pgsql_conn);
+  $notice = pg_last_notice($pgsql_conn);
 
-  echo $notice;
+  echo $notice;
 ?>
 ```
 

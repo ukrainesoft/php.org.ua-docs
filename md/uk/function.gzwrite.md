@@ -51,9 +51,9 @@ gzwrite(resource $stream, string $data, ?int $length = null): int|false
 
 ```php
 <?php
-$string = 'Какие-то данные для сжатия';
-$gz = gzopen('somefile.gz','w9');
-gzwrite($gz, $string);
+$string = 'Какие-то данные для сжатия';
+$gz = gzopen('somefile.gz','w9');
+gzwrite($gz, $string);
 gzclose($gz);
 ?>
 ```

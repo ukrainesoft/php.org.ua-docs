@@ -46,10 +46,10 @@ mb_ord(string $string, ?string $encoding = null): int|false
 
 ```php
 <?php
-var_dump(mb_ord("A", "UTF-8"));
-var_dump(mb_ord("🐘", "UTF-8"));
-var_dump(mb_ord("\x80", "ISO-8859-1"));
-var_dump(mb_ord("\x80", "Windows-1252"));
+var_dump(mb_ord("A", "UTF-8"));
+var_dump(mb_ord("🐘", "UTF-8"));
+var_dump(mb_ord("\x80", "ISO-8859-1"));
+var_dump(mb_ord("\x80", "Windows-1252"));
 ?>
 ```
 

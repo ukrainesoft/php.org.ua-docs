@@ -23,7 +23,7 @@ imagefilledpolygon(GdImage $image, array $points, int $color): bool
 Альтернативний синтаксис (оголошений застарілим із PHP 8.1.0)
 
 ```methodsynopsis
-imagefilledpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
+imagefilledpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
 ```
 
 **imagefilledpolygon()** створює зафарбований багатокутник у заданому зображенні `image`
@@ -65,31 +65,31 @@ imagefilledpolygon(    GdImage $image,    array $points,    int $num
 
 ```php
 <?php
-// задание Масива точек для многоугольника
-$values = array(
-            40,  50,  // Point 1 (x, y)
-            20,  240, // Point 2 (x, y)
-            60,  60,  // Point 3 (x, y)
-            240, 20,  // Point 4 (x, y)
-            50,  40,  // Point 5 (x, y)
-            10,  10   // Point 6 (x, y)
-            );
+// задание Масива точек для многоугольника
+$values = array(
+            40,  50,  // Point 1 (x, y)
+            20,  240, // Point 2 (x, y)
+            60,  60,  // Point 3 (x, y)
+            240, 20,  // Point 4 (x, y)
+            50,  40,  // Point 5 (x, y)
+            10,  10   // Point 6 (x, y)
+            );
 
-// создание изображения
-$image = imagecreatetruecolor(250, 250);
+// создание изображения
+$image = imagecreatetruecolor(250, 250);
 
-// определение цветов
-$bg   = imagecolorallocate($image, 0, 0, 0);
-$blue = imagecolorallocate($image, 0, 0, 255);
+// определение цветов
+$bg   = imagecolorallocate($image, 0, 0, 0);
+$blue = imagecolorallocate($image, 0, 0, 255);
 
-// заливка фона
-imagefilledrectangle($image, 0, 0, 249, 249, $bg);
+// заливка фона
+imagefilledrectangle($image, 0, 0, 249, 249, $bg);
 
-// рисование многоугольника
-imagefilledpolygon($image, $values, 6, $blue);
+// рисование многоугольника
+imagefilledpolygon($image, $values, 6, $blue);
 
-// вывод изображения
-header('Content-type: image/png');
+// вывод изображения
+header('Content-type: image/png');
 imagepng($image);
 imagedestroy($image);
 ?>

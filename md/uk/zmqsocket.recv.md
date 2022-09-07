@@ -43,37 +43,37 @@ public ZMQSocket::recv(int $mode = 0): string
 ```php
 <?php
 
-/* Создаём новый объект очереди. Необходим сервер на другой стороне. */
-$queue = new ZMQSocket(new ZMQContext(), ZMQ::SOCKET_REQ);
+/* Создаём новый объект очереди. Необходим сервер на другой стороне. */
+$queue = new ZMQSocket(new ZMQContext(), ZMQ::SOCKET_REQ);
 $queue->connect("tcp://127.0.0.1:5555");
 
-/* Привязываем сокет 1 к очереди, отправляем и получаем */
-$retries = 5;
-$sending = true;
+/* Привязываем сокет 1 к очереди, отправляем и получаем */
+$retries = 5;
+$sending = true;
 
-/* Запускаем цикл */
-do {
-    try {
-        /* Пытаемся отправить/получить */
-        if ($sending) {
-            echo "Отправляем сообщение\n";
-            $queue->send("Я сообщение!", ZMQ::MODE_DONTWAIT);
-            $sending = false;
-        } else {
-            echo "Получен ответ: " . $queue->recv(ZMQ::MODE_DONTWAIT) . "\n";
-            break;
-        }
-    } catch (ZMQSocketException $e) {
-        /* EAGAIN означает, что операция заблокирована, повторяем */
-        if ($e->getCode() === ZMQ::ERR_EAGAIN) {
-            echo " - Получили EAGAIN, повторяем ($retries)\n";
-        } else {
-            die(" - Ошибка: " . $e->getMessage());
-        }
-    }
-    /* Немножко ждём */
-    usleep(5);
-} while (--$retries);
+/* Запускаем цикл */
+do {
+    try {
+        /* Пытаемся отправить/получить */
+        if ($sending) {
+            echo "Отправляем сообщение\n";
+            $queue->send("Я сообщение!", ZMQ::MODE_DONTWAIT);
+            $sending = false;
+        } else {
+            echo "Получен ответ: " . $queue->recv(ZMQ::MODE_DONTWAIT) . "\n";
+            break;
+        }
+    } catch (ZMQSocketException $e) {
+        /* EAGAIN означает, что операция заблокирована, повторяем */
+        if ($e->getCode() === ZMQ::ERR_EAGAIN) {
+            echo " - Получили EAGAIN, повторяем ($retries)\n";
+        } else {
+            die(" - Ошибка: " . $e->getMessage());
+        }
+    }
+    /* Немножко ждём */
+    usleep(5);
+} while (--$retries);
 ?>
 ```
 

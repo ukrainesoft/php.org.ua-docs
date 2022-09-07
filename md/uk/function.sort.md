@@ -60,10 +60,10 @@ sort(array &$array, int $flags = SORT_REGULAR): bool
 ```php
 <?php
 
-$fruits = array("lemon", "orange", "banana", "apple");
+$fruits = array("lemon", "orange", "banana", "apple");
 sort($fruits);
-foreach ($fruits as $key => $val) {
-    echo "fruits[" . $key . "] = " . $val . "\n";
+foreach ($fruits as $key => $val) {
+    echo "fruits[" . $key . "] = " . $val . "\n";
 }
 
 ?>
@@ -85,12 +85,12 @@ fruits[3] = orange
 ```php
 <?php
 
-$fruits = array(
-    "Orange1", "orange2", "Orange3", "orange20"
+$fruits = array(
+    "Orange1", "orange2", "Orange3", "orange20"
 );
-sort($fruits, SORT_NATURAL | SORT_FLAG_CASE);
-foreach ($fruits as $key => $val) {
-    echo "fruits[" . $key . "] = " . $val . "\n";
+sort($fruits, SORT_NATURAL | SORT_FLAG_CASE);
+foreach ($fruits as $key => $val) {
+    echo "fruits[" . $key . "] = " . $val . "\n";
 }
 
 ?>
@@ -109,7 +109,7 @@ fruits[3] = orange20
 
 ### Примітки
 
-> **Зауваження**: Як і більшість функцій сортування в PHP, **sort()** використовує реалізацію алгоритму [» швидкого сортування](http://en.wikipedia.org/wiki/Quicksort). Основний елемент вибирається із середини сортованої частини, досягаючи таким чином оптимального часу для вже відсортованих масивів. Слід пам'ятати, що це є деталлю реалізації і слід її покладатися.
+> **Зауваження**: Як і більшість функцій сортування в PHP, **sort()** використовує реалізацію алгоритму [» швидкого сортування](http://en.wikipedia.org/wiki/Quicksort). Основний елемент вибирається із середини сортованої частини, досягаючи таким чином оптимального часу для вже відсортованих масивів. Слід пам'ятати, що це є деталлю реалізації і слід її покладатися.
 
 **Увага**
 

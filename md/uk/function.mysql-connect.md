@@ -22,7 +22,7 @@ mysqlconnect — Відкриває з'єднання з сервером MySQL
 ### Опис
 
 ```methodsynopsis
-mysql_connect(    string $server = ini_get("mysql.default_host"),    string $username = ini_get("mysql.default_user"),    string $password = ini_get("mysql.default_password"),    bool $new_link = false,    int $client_flags = 0): resource|false
+mysql_connect(    string $server = ini_get("mysql.default_host"),    string $username = ini_get("mysql.default_user"),    string $password = ini_get("mysql.default_password"),    bool $new_link = false,    int $client_flags = 0): resource|false
 ```
 
 Відкриває нове з'єднання з MySQL сервером або використовує вже існуюче.
@@ -61,11 +61,11 @@ mysql_connect(    string $server = ini_get("mysql.default_host"),    str
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-echo 'Успешно соединились';
+echo 'Успешно соединились';
 mysql_close($link);
 ?>
 ```
@@ -74,20 +74,20 @@ mysql_close($link);
 
 ```php
 <?php
-// соединяемся с example.com на порту 3307
-$link = mysql_connect('example.com:3307', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+// соединяемся с example.com на порту 3307
+$link = mysql_connect('example.com:3307', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-echo 'Успешно соединились';
+echo 'Успешно соединились';
 mysql_close($link);
 
-// соединяемся с localhost на порту 3307
-$link = mysql_connect('127.0.0.1:3307', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+// соединяемся с localhost на порту 3307
+$link = mysql_connect('127.0.0.1:3307', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-echo 'Успешно соединились';
+echo 'Успешно соединились';
 mysql_close($link);
 ?>
 ```
@@ -96,23 +96,23 @@ mysql_close($link);
 
 ```php
 <?php
-// соединяемся к localhost по сокету, т.е. /tmp/mysql.sock
+// соединяемся к localhost по сокету, т.е. /tmp/mysql.sock
 
-// вариант 1: не указываем localhost
-$link = mysql_connect(':/tmp/mysql', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+// вариант 1: не указываем localhost
+$link = mysql_connect(':/tmp/mysql', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-echo 'Успешно соединились';
+echo 'Успешно соединились';
 mysql_close($link);
 
 
-// вариант 2: указываем localhost
-$link = mysql_connect('localhost:/tmp/mysql.sock', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+// вариант 2: указываем localhost
+$link = mysql_connect('localhost:/tmp/mysql.sock', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-echo 'Успешно соединились';
+echo 'Успешно соединились';
 mysql_close($link);
 ?>
 ```

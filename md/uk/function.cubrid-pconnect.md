@@ -15,7 +15,7 @@ cubridpconnect — Відкриває постійне з'єднання із с
 ### Опис
 
 ```methodsynopsis
-cubrid_pconnect(    string $host,    int $port,    string $dbname,    string $userid = ?,    string $passwd = ?): resource
+cubrid_pconnect(    string $host,    int $port,    string $dbname,    string $userid = ?,    string $passwd = ?): resource
 ```
 
 Встановлює постійне з'єднання із сервером CUBRID.
@@ -60,35 +60,35 @@ cubrid_pconnect(    string $host,    int $port,    string $dbname, 
 
 ```php
 <?php
-printf("%-30s %s\n", "Версия PHP CUBRID:", cubrid_version());
+printf("%-30s %s\n", "Версия PHP CUBRID:", cubrid_version());
 
 printf("\n");
 
-$conn = cubrid_pconnect("localhost", 33000, "demodb", "dba");
+$conn = cubrid_pconnect("localhost", 33000, "demodb", "dba");
 
-if (!$conn) {
-    die('Ошибка соединения ('. cubrid_error_code() .')' . cubrid_error_msg());
+if (!$conn) {
+    die('Ошибка соединения ('. cubrid_error_code() .')' . cubrid_error_msg());
 }
 
-$db_params = cubrid_get_db_parameter($conn);
+$db_params = cubrid_get_db_parameter($conn);
 
-while (list($param_name, $param_value) = each($db_params)) {
-    printf("%-30s %s\n", $param_name, $param_value);
+while (list($param_name, $param_value) = each($db_params)) {
+    printf("%-30s %s\n", $param_name, $param_value);
 }
 
 printf("\n");
 
-$server_info = cubrid_get_server_info($conn);
-$client_info = cubrid_get_client_info();
+$server_info = cubrid_get_server_info($conn);
+$client_info = cubrid_get_client_info();
 
-printf("%-30s %s\n", "Информация о сервере:", $server_info);
-printf("%-30s %s\n", "Информация о клиенте:", $client_info);
+printf("%-30s %s\n", "Информация о сервере:", $server_info);
+printf("%-30s %s\n", "Информация о клиенте:", $client_info);
 
 printf("\n");
 
-$charset = cubrid_get_charset($conn);
+$charset = cubrid_get_charset($conn);
 
-printf("%-30s %s\n", "Кодировка CUBRID:", $charset);
+printf("%-30s %s\n", "Кодировка CUBRID:", $charset);
 
 cubrid_disconnect($conn);
 ?>

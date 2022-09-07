@@ -40,18 +40,18 @@ public PharData::addFromString(string $localName, string $contents): void
 
 ```php
 <?php
-try {
-    $a = new PharData('/path/to/my.tar');
+try {
+    $a = new PharData('/path/to/my.tar');
 
-    $a->addFromString('path/to/file.txt', 'my simple file');
-    $b = $a['path/to/file.txt']->getContent();
+    $a->addFromString('path/to/file.txt', 'my simple file');
+    $b = $a['path/to/file.txt']->getContent();
 
-    // Для добавления содержимого через потоковую обёртку для больших файлов, используйте offsetSet()
-    $c = fopen('/path/to/hugefile.bin');
-    $a['largefile.bin'] = $c;
-    fclose($c);
-} catch (Exception $e) {
-    // обработка ошибок
+    // Для добавления содержимого через потоковую обёртку для больших файлов, используйте offsetSet()
+    $c = fopen('/path/to/hugefile.bin');
+    $a['largefile.bin'] = $c;
+    fclose($c);
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

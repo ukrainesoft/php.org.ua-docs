@@ -46,11 +46,11 @@ imagecreatefromxbm(string $filename): GdImage|false
 
 ```php
 <?php
-// загрузка xbm файла
-$xbm = imagecreatefromxbm('./example.xbm');
+// загрузка xbm файла
+$xbm = imagecreatefromxbm('./example.xbm');
 
-// Преобразование в png файл
-imagepng($xbm, './example.png');
+// Преобразование в png файл
+imagepng($xbm, './example.png');
 imagedestroy($xbm);
 ?>
 ```

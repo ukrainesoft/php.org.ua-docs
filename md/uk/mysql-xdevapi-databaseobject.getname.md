@@ -39,7 +39,7 @@ abstract public mysql_xdevapi\DatabaseObject::getName(): string
 ```php
 <?php
 
-$dbObjName = $dbObj->getName();
+$dbObjName = $dbObj->getName();
 
 ?>
 ```

@@ -15,7 +15,7 @@ eiosendfile — Переміщує дані між файлами
 ### Опис
 
 ```methodsynopsis
-eio_sendfile(    mixed $out_fd,    mixed $in_fd,    int $offset,    int $length,    int $pri = ?,    callable $callback = ?,    string $data = ?): resource
+eio_sendfile(    mixed $out_fd,    mixed $in_fd,    int $offset,    int $length,    int $pri = ?,    callable $callback = ?,    string $data = ?): resource
 ```
 
 **eiosendfile()** копіює дані з одного файлу до іншого. Дивіться додатковий опис `SENDFILE(2)`
@@ -47,7 +47,7 @@ eio_sendfile(    mixed $out_fd,    mixed $in_fd,    int $offset,  
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

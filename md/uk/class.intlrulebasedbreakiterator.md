@@ -14,7 +14,7 @@ title: Клас IntlRuleBasedBreakIterator
 
 Підклас [IntlBreakIterator](class.intlbreakiterator.md), який реалізує ітератор переривань ICU, чия поведінка задано набором правил. Це найчастіше використовуваний тип ітератора переривань.
 
-Правила описані у розділі [» Руководство пользователя по анализу границ ICU](http://userguide.icu-project.org/boundaryanalysis#TOC-RBBI-Rules)
+Правила описані у розділі [» Руководство пользователя по анализу границ ICU](http://userguide.icu-project.org/boundaryanalysis#TOC-RBBI-Rules)
 
 ## Огляд класів
 

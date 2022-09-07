@@ -34,20 +34,20 @@ public **PharFileInfo::construct**(string `$filename`
 
 ```php
 <?php
-try {
-    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
-    $p['testfile.txt'] = "hi\nthere\ndude";
-    $file = $p['testfile.txt'];
-    foreach ($file as $line => $text) {
-        echo "номер строки $line: $text";
-    }
-    // так то же работает
-    $file = new PharFileInfo('phar:///path/to/my.phar/testfile.txt');
-    foreach ($file as $line => $text) {
-        echo "номер строки $line: $text";
-    }
-} catch (Exception $e) {
-    echo 'Операции Phar завершились ошибкой;
+try {
+    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
+    $p['testfile.txt'] = "hi\nthere\ndude";
+    $file = $p['testfile.txt'];
+    foreach ($file as $line => $text) {
+        echo "номер строки $line: $text";
+    }
+    // так то же работает
+    $file = new PharFileInfo('phar:///path/to/my.phar/testfile.txt');
+    foreach ($file as $line => $text) {
+        echo "номер строки $line: $text";
+    }
+} catch (Exception $e) {
+    echo 'Операции Phar завершились ошибкой;
 }
 ?>
 ```

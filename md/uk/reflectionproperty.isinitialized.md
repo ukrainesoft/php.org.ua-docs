@@ -46,15 +46,15 @@ public ReflectionProperty::isInitialized(?object $object = null): bool
 
 ```php
 <?php
-class User
+class User
 {
-    public string $name;
+    public string $name;
 }
 
-$rp = new ReflectionProperty('User', 'name');
-$user = new User;
+$rp = new ReflectionProperty('User', 'name');
+$user = new User;
 var_dump($rp->isInitialized($user));
-$user->name = 'Nikita';
+$user->name = 'Nikita';
 var_dump($rp->isInitialized($user));
 ?>
 ```

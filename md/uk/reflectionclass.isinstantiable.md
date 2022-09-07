@@ -34,47 +34,47 @@ public ReflectionClass::isInstantiable(): bool
 
 ```php
 <?php
-class C { }
+class C { }
 
-interface iface {
-    function f1();
+interface iface {
+    function f1();
 }
 
-class ifaceImpl implements iface {
-    function f1() {}
+class ifaceImpl implements iface {
+    function f1() {}
 }
 
-abstract class abstractClass {
-    function f1() { }
-    abstract function f2();
+abstract class abstractClass {
+    function f1() { }
+    abstract function f2();
 }
 
-class D extends abstractClass {
-    function f2() { }
+class D extends abstractClass {
+    function f2() { }
 }
 
-trait T {
-    function f1() {}
+trait T {
+    function f1() {}
 }
 
-class privateConstructor {
-    private function __construct() { }
+class privateConstructor {
+    private function __construct() { }
 }
 
-$classes = array(
-    "C",
-    "iface",
-    "ifaceImpl",
-    "abstractClass",
-    "D",
-    "T",
-    "privateConstructor",
+$classes = array(
+    "C",
+    "iface",
+    "ifaceImpl",
+    "abstractClass",
+    "D",
+    "T",
+    "privateConstructor",
 );
 
-foreach($classes  as $class ) {
-    $reflectionClass = new ReflectionClass($class);
-    echo "Можно ли создать экземпляр класса $class?  ";
-    var_dump($reflectionClass->isInstantiable());
+foreach($classes  as $class ) {
+    $reflectionClass = new ReflectionClass($class);
+    echo "Можно ли создать экземпляр класса $class?  ";
+    var_dump($reflectionClass->isInstantiable());
 }
 
 ?>

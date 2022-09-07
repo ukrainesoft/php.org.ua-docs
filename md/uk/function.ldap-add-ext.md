@@ -15,7 +15,7 @@ ldapaddext — Додати записи до каталогу LDAP
 ### Опис
 
 ```methodsynopsis
-ldap_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
+ldap_add_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
 ```
 
 Робить те саме, що й [ldapadd()](function.ldap-add.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)

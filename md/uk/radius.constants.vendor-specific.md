@@ -10,7 +10,7 @@ title: Атрибути RADIUS специфічні для різних виро
 
 **`RADIUS_VENDOR_MICROSOFT`** (int)
 
-Атрибути Microsoft ([» RFC 2548](http://www.faqs.org/rfcs/rfc2548)
+Атрибути Microsoft ([» RFC 2548](http://www.faqs.org/rfcs/rfc2548)
 
 -   **`RADIUS_MICROSOFT_MS_CHAP_RESPONSE`**
 -   **`RADIUS_MICROSOFT_MS_CHAP_ERROR`**

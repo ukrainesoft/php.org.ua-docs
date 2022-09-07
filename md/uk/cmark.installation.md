@@ -8,9 +8,9 @@ title: Встановлення
 ---
 ## Встановлення
 
-Релізи модуля CommonMark розміщуються в PECL, а джерело - на [» github](https://github.com/krakjoe/cmark), найпростіший шлях для встановлення - за допомогою PECL: [» https://pecl.php.net/package/cmark](https://pecl.php.net/package/cmark)
+Релізи модуля CommonMark розміщуються в PECL, а джерело - на [» github](https://github.com/krakjoe/cmark), найпростіший шлях для встановлення - за допомогою PECL: [» https://pecl.php.net/package/cmark](https://pecl.php.net/package/cmark)
 
-Користувачі Windows можуть завантажити готові двійкові файли релізів із веб-сайту [» PECL](https://windows.php.net/downloads/pecl/releases/cmark)
+Користувачі Windows можуть завантажити готові двійкові файли релізів із веб-сайту [» PECL](https://windows.php.net/downloads/pecl/releases/cmark)
 
 **Застереження**
 

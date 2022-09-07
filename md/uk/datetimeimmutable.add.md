@@ -38,9 +38,9 @@ public DateTimeImmutable::add(DateInterval $interval): DateTimeImmutable
 
 ```php
 <?php
-$date = new DateTimeImmutable('2000-01-01');
-$newDate = $date->add(new DateInterval('P10D'));
-echo $newDate->format('Y-m-d') . "\n";
+$date = new DateTimeImmutable('2000-01-01');
+$newDate = $date->add(new DateInterval('P10D'));
+echo $newDate->format('Y-m-d') . "\n";
 ?>
 ```
 
@@ -48,13 +48,13 @@ echo $newDate->format('Y-m-d') . "\n";
 
 ```php
 <?php
-$date = new DateTimeImmutable('2000-01-01');
-$newDate = $date->add(new DateInterval('PT10H30S'));
-echo $newDate->format('Y-m-d H:i:s') . "\n";
+$date = new DateTimeImmutable('2000-01-01');
+$newDate = $date->add(new DateInterval('PT10H30S'));
+echo $newDate->format('Y-m-d H:i:s') . "\n";
 
-$date = new DateTimeImmutable('2000-01-01');
-$newDate = $date->add(new DateInterval('P7Y5M4DT4H3M2S'));
-echo $newDate->format('Y-m-d H:i:s') . "\n";
+$date = new DateTimeImmutable('2000-01-01');
+$newDate = $date->add(new DateInterval('P7Y5M4DT4H3M2S'));
+echo $newDate->format('Y-m-d H:i:s') . "\n";
 ?>
 ```
 
@@ -69,14 +69,14 @@ echo $newDate->format('Y-m-d H:i:s') . "\n";
 
 ```php
 <?php
-$date = new DateTimeImmutable('2000-12-31');
-$interval = new DateInterval('P1M');
+$date = new DateTimeImmutable('2000-12-31');
+$interval = new DateInterval('P1M');
 
-$newDate1 = $date->add($interval);
-echo $newDate1->format('Y-m-d') . "\n";
+$newDate1 = $date->add($interval);
+echo $newDate1->format('Y-m-d') . "\n";
 
-$newDate2 = $newDate1->add($interval);
-echo $newDate2->format('Y-m-d') . "\n";
+$newDate2 = $newDate1->add($interval);
+echo $newDate2->format('Y-m-d') . "\n";
 ?>
 ```
 

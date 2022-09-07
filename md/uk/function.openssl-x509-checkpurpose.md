@@ -15,7 +15,7 @@ opensslx509checkpurpose — Перевіряє, чи можна використ
 ### Опис
 
 ```methodsynopsis
-openssl_x509_checkpurpose(    OpenSSLCertificate|string $certificate,    int $purpose,    array $ca_info = [],    ?string $untrusted_certificates_file = null): bool|int
+openssl_x509_checkpurpose(    OpenSSLCertificate|string $certificate,    int $purpose,    array $ca_info = [],    ?string $untrusted_certificates_file = null): bool|int
 ```
 
 **opensslx509checkpurpose()** перевіряє сертифікат, щоб дізнатися, чи він може використовуватися із заданою метою `purpose`

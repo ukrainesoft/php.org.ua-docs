@@ -17,19 +17,19 @@ EvLoop::child — Створює об'єкт EvChild, пов'язаний із �
 ```methodsynopsis
 final
    public
-   EvLoop::child(    
+   EvLoop::child(    
     string
      $pid
-   ,    
+   ,    
     string
      $trace
-   ,    
+   ,    
     string
      $callback
-   ,    
+   ,    
     string
      $data
-    = ?,    
+    = ?,    
     string
      $priority
     = ?): EvChild

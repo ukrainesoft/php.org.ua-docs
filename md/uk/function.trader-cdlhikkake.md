@@ -15,7 +15,7 @@ tradercdlhikkake - Свічкова модель "Крюк"
 ### Опис
 
 ```methodsynopsis
-trader_cdlhikkake(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhikkake(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

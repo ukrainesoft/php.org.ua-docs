@@ -46,9 +46,9 @@ callback(mixed $value): mixed
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 
-print_r($deque->map(function($value) { return $value * 2; }));
+print_r($deque->map(function($value) { return $value * 2; }));
 print_r($deque);
 ?>
 ```

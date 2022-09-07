@@ -36,13 +36,13 @@ tidy_warning_count(tidy $tidy): int
 
 ```php
 <?php
-$html = '<p>тест</i>
+$html = '<p>тест</i>
 <bogustag>фикция</bogustag>';
 
-$tidy = tidy_parse_string($html);
+$tidy = tidy_parse_string($html);
 
-echo tidy_error_count($tidy) . "\n"; //1
-echo tidy_warning_count($tidy) . "\n"; //5
+echo tidy_error_count($tidy) . "\n"; //1
+echo tidy_warning_count($tidy) . "\n"; //5
 ?>
 ```
 

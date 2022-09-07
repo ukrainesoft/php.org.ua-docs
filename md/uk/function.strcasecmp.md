@@ -40,10 +40,10 @@ strcasecmp(string $string1, string $string2): int
 
 ```php
 <?php
-$var1 = "Hello";
-$var2 = "hello";
-if (strcasecmp($var1, $var2) == 0) {
-    echo '$var1 равно $var2 при сравнении без учёта регистра';
+$var1 = "Hello";
+$var2 = "hello";
+if (strcasecmp($var1, $var2) == 0) {
+    echo '$var1 равно $var2 при сравнении без учёта регистра';
 }
 ?>
 ```

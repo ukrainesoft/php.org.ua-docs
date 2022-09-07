@@ -24,7 +24,7 @@ xml_set_notation_decl_handler(XMLParser $parser, callable $handler): bool
 
 name systemId publicId?>
 
-Дивіться [» розділ 4.7 специфікації XML 1.0](http://www.w3.org/TR/1998/REC-xml-19980210#Notations) для більш повного опису позначень (нотацій).
+Дивіться [» розділ 4.7 специфікації XML 1.0](http://www.w3.org/TR/1998/REC-xml-19980210#Notations) для більш повного опису позначень (нотацій).
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ name systemId publicId?>
 Функція з ім'ям `handler` має приймати п'ять аргументів:
 
 ```methodsynopsis
-handler(    XMLParser $parser,    string $notation_name,    string $base,    string $system_id,    string $public_id)
+handler(    XMLParser $parser,    string $notation_name,    string $base,    string $system_id,    string $public_id)
 ```
 
 `parser`

@@ -36,7 +36,7 @@ abstract public Ds\Sequence::join(string $glue = ?): string
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);
+$sequence = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);
 
 var_dump($sequence->join("|"));
 ?>
@@ -52,7 +52,7 @@ string(11) "a|b|c|1|2|3"
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);
+$sequence = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);
 
 var_dump($sequence->join());
 ?>

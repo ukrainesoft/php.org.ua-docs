@@ -40,16 +40,16 @@ public QuickHashIntHash::set(int $key, int $value): bool
 
 ```php
 <?php
-$hash = new QuickHashIntHash( 1024 );
+$hash = new QuickHashIntHash( 1024 );
 
-echo "Set->Add\n";
-var_dump( $hash->get( 46692 ) );
-var_dump( $hash->set( 46692, 16091 ) );
-var_dump( $hash->get( 46692 ) );
+echo "Set->Add\n";
+var_dump( $hash->get( 46692 ) );
+var_dump( $hash->set( 46692, 16091 ) );
+var_dump( $hash->get( 46692 ) );
 
-echo "Set->Update\n";
-var_dump( $hash->set( 46692, 29906 ) );
-var_dump( $hash->get( 46692 ) );
+echo "Set->Update\n";
+var_dump( $hash->set( 46692, 29906 ) );
+var_dump( $hash->get( 46692 ) );
 ?>
 ```
 

@@ -13,18 +13,18 @@ title: Базове використання
 ```php
 <?php
 
-$id = dba_open("/tmp/test.db", "n", "db2");
+$id = dba_open("/tmp/test.db", "n", "db2");
 
-if (!$id) {
-    echo "dba_open failed\n";
-    exit;
+if (!$id) {
+    echo "dba_open failed\n";
+    exit;
 }
 
-dba_replace("key", "This is an example!", $id);
+dba_replace("key", "This is an example!", $id);
 
-if (dba_exists("key", $id)) {
-    echo dba_fetch("key", $id);
-    dba_delete("key", $id);
+if (dba_exists("key", $id)) {
+    echo dba_fetch("key", $id);
+    dba_delete("key", $id);
 }
 
 dba_close($id);
@@ -42,19 +42,19 @@ DBA є бінарно безпечним і не має будь-яких дов
 ```php
 <?php
 
-// ...open database...
+// ...open database...
 
-$key = dba_firstkey($id);
+$key = dba_firstkey($id);
 
-while ($key !== false) {
-    if (true) {          // запоминаем ключ для выполнения некоторых действий далее
-        $handle_later[] = $key;
-    }
-    $key = dba_nextkey($id);
+while ($key !== false) {
+    if (true) {          // запоминаем ключ для выполнения некоторых действий далее
+        $handle_later[] = $key;
+    }
+    $key = dba_nextkey($id);
 }
 
-foreach ($handle_later as $val) {
-    dba_delete($val, $id);
+foreach ($handle_later as $val) {
+    dba_delete($val, $id);
 }
 
 ?>

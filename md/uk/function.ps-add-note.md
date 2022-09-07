@@ -15,7 +15,7 @@ title: псaddnote
 ### Опис
 
 ```methodsynopsis
-ps_add_note(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $contents,    string $title,    string $icon,    int $open): bool
+ps_add_note(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $contents,    string $title,    string $icon,    int $open): bool
 ```
 
 Додає примітку до певного місця на сторінці. Примітки нагадують маленькі прямокутні аркуші з текстом, які можна розмістити в будь-якому місці сторінки. Вони показані у згорнутому чи розгорнутому вигляді. У згорнутому вигляді зазначений значок використовується як заповнювач.

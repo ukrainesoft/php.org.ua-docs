@@ -26,15 +26,15 @@ unset(mixed $var, mixed ...$vars): void
 
 ```php
 <?php
-function destroy_foo()
+function destroy_foo()
 {
-    global $foo;
-    unset($foo);
+    global $foo;
+    unset($foo);
 }
 
-$foo = 'bar';
+$foo = 'bar';
 destroy_foo();
-echo $foo;
+echo $foo;
 ?>
 ```
 
@@ -48,12 +48,12 @@ bar
 
 ```php
 <?php
-function foo()
+function foo()
 {
-    unset($GLOBALS['bar']);
+    unset($GLOBALS['bar']);
 }
 
-$bar = "something";
+$bar = "something";
 foo();
 ?>
 ```
@@ -62,17 +62,17 @@ foo();
 
 ```php
 <?php
-function foo(&$bar)
+function foo(&$bar)
 {
-    unset($bar);
-    $bar = "blah";
+    unset($bar);
+    $bar = "blah";
 }
 
-$bar = 'something';
-echo "$bar\n";
+$bar = 'something';
+echo "$bar\n";
 
 foo($bar);
-echo "$bar\n";
+echo "$bar\n";
 ?>
 ```
 
@@ -87,14 +87,14 @@ something
 
 ```php
 <?php
-function foo()
+function foo()
 {
-    static $bar;
-    $bar++;
-    echo "До удаления: $bar, ";
-    unset($bar);
-    $bar = 23;
-    echo "После удаления: $bar\n";
+    static $bar;
+    $bar++;
+    echo "До удаления: $bar, ";
+    unset($bar);
+    $bar = 23;
+    echo "После удаления: $bar\n";
 }
 
 foo();
@@ -131,14 +131,14 @@ foo();
 
 ```php
 <?php
-// удаляем одну переменную
+// удаляем одну переменную
 unset($foo);
 
-// удаляем один элемент Масива
+// удаляем один элемент Масива
 unset($bar['quux']);
 
-// удаляем несколько переменных
-unset($foo1, $foo2, $foo3);
+// удаляем несколько переменных
+unset($foo1, $foo2, $foo3);
 ?>
 ```
 
@@ -148,9 +148,9 @@ unset($foo1, $foo2, $foo3);
 
 ```php
 <?php
-$name = 'Felipe';
+$name = 'Felipe';
 
-var_dump((unset) $name);
+var_dump((unset) $name);
 var_dump($name);
 ?>
 ```

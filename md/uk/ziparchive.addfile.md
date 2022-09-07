@@ -15,7 +15,7 @@ ZipArchive::addFile — Додає до ZIP-архіву файл за вказ�
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::addFile(    string $filepath,    string $entryname = "",    int $start = 0,    int $length = 0,    int $flags = ZipArchive::FL_OVERWRITE): bool
+public ZipArchive::addFile(    string $filepath,    string $entryname = "",    int $start = 0,    int $length = 0,    int $flags = ZipArchive::FL_OVERWRITE): bool
 ```
 
 Додає до ZIP-архіву файл по зазначеному шляху.
@@ -62,13 +62,13 @@ public ZipArchive::addFile(    string $filepath,    string $entryname = 
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test.zip') === TRUE) {
-    $zip->addFile('/path/to/index.txt', 'newname.txt');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    $zip->addFile('/path/to/index.txt', 'newname.txt');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

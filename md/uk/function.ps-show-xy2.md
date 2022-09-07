@@ -15,7 +15,7 @@ title: псshowxy2
 ### Опис
 
 ```methodsynopsis
-ps_show_xy2(    resource $psdoc,    string $text,    int $len,    float $xcoor,    float $ycoor): bool
+ps_show_xy2(    resource $psdoc,    string $text,    int $len,    float $xcoor,    float $ycoor): bool
 ```
 
 **Увага**

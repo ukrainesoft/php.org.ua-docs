@@ -15,7 +15,7 @@ GearmanClient::addTaskLow — Додати низькопріоритетне з
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::addTaskLow(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public GearmanClient::addTaskLow(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
 ```
 
 Додає низькопріоритетне завдання для паралельної роботи з іншими завданнями. Викличте цей метод для всіх завдань, які працюватимуть паралельно, а потім викличте [GearmanClient::runTasks()](gearmanclient.runtasks.md) для виконання робіт. Завдання з низьким пріоритетом будуть вибрані з черги після завдань із нормальним або високим пріоритетом.
@@ -51,30 +51,30 @@ public GearmanClient::addTaskLow(    string $function_name,    string $w
 ```php
 <?php
 
-# создание клиента
-$gmc= new GearmanClient();
+# создание клиента
+$gmc= new GearmanClient();
 
-# добавление сервера задач по умолчанию
+# добавление сервера задач по умолчанию
 $gmc->addServer();
 
-# установка функции обратного вызова по завершению задачи
+# установка функции обратного вызова по завершению задачи
 $gmc->setCompleteCallback("reverse_complete");
 
-# добавление задач, одна из которых с низким приоритетом
-$task= $gmc->addTask("reverse", "Hello World!", null, "1");
-$task= $gmc->addTaskLow("reverse", "!dlroW olleH", null, "2");
-$task= $gmc->addTask("reverse", "Hello World!", null, "3");
+# добавление задач, одна из которых с низким приоритетом
+$task= $gmc->addTask("reverse", "Hello World!", null, "1");
+$task= $gmc->addTaskLow("reverse", "!dlroW olleH", null, "2");
+$task= $gmc->addTask("reverse", "Hello World!", null, "3");
 
-if (! $gmc->runTasks())
+if (! $gmc->runTasks())
 {
-    echo "Ошибка " . $gmc->error() . "\n";
-    exit;
+    echo "Ошибка " . $gmc->error() . "\n";
+    exit;
 }
-echo "Готово\n";
+echo "Готово\n";
 
-function reverse_complete($task)
+function reverse_complete($task)
 {
-    echo "Выполнено: " . $task->unique() . ", " . $task->data() . "\n";
+    echo "Выполнено: " . $task->unique() . ", " . $task->data() . "\n";
 }
 
 ?>

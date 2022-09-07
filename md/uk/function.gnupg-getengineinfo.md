@@ -34,7 +34,7 @@ gnupg_getengineinfo(resource $identifier): array
 
 ```php
 <?php
-$res = gnupg_init();
+$res = gnupg_init();
 print_r(gnupg_getengineinfo($res));
 ?>
 ```
@@ -56,7 +56,7 @@ array(3) {
 
 ```php
 <?php
-$gpg = new gnupg(["file_name" => "/usr/bin/gpg2", "home_dir" => "/var/www/.gnupg"]);
+$gpg = new gnupg(["file_name" => "/usr/bin/gpg2", "home_dir" => "/var/www/.gnupg"]);
 print_r($gpg->getengineinfo());
 ?>
 ```

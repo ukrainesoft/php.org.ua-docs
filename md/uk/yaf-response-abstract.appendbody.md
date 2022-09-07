@@ -44,11 +44,11 @@ bool
 
 ```php
 <?php
-$response = new Yaf_Response_Http();
+$response = new Yaf_Response_Http();
 
-$response->setBody("Привет")->prependBody(", Мир");
+$response->setBody("Привет")->prependBody(", Мир");
 
-echo $response;
+echo $response;
 ?>
 ```
 

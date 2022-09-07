@@ -50,25 +50,25 @@ datefmt_get_locale(IntlDateFormatter $formatter, int $type = ULOC_ACTUAL_LOCALE)
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Языковой стандарт средства форматирования : ' . datefmt_get_locale($fmt);
-echo 'Первый отформатированный вывод ' . datefmt_format($fmt, 0);
+echo 'Языковой стандарт средства форматирования : ' . datefmt_get_locale($fmt);
+echo 'Первый отформатированный вывод ' . datefmt_format($fmt, 0);
 
-$fmt = datefmt_create(
-    'de-DE',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'de-DE',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Языковой стандарт средства форматирования : ' . datefmt_get_locale($fmt);
-echo 'Второй отформатированный вывод ' . datefmt_format($fmt, 0);
+echo 'Языковой стандарт средства форматирования : ' . datefmt_get_locale($fmt);
+echo 'Второй отформатированный вывод ' . datefmt_format($fmt, 0);
 
 ?>
 ```
@@ -77,25 +77,25 @@ echo 'Второй отформатированный вывод ' . datef
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Языковой стандарт средства форматирования : ' . $fmt->getLocale();
-echo 'Первый отформатированный вывод ' . $fmt->format(0);
+echo 'Языковой стандарт средства форматирования : ' . $fmt->getLocale();
+echo 'Первый отформатированный вывод ' . $fmt->format(0);
 
-$fmt = new IntlDateFormatter(
-    'de-DE',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'de-DE',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Языковой стандарт средства форматирования : ' . $fmt->getLocale();
-echo 'Второй отформатированный вывод ' . $fmt->format(0);
+echo 'Языковой стандарт средства форматирования : ' . $fmt->getLocale();
+echo 'Второй отформатированный вывод ' . $fmt->format(0);
 
 ?>
 ```

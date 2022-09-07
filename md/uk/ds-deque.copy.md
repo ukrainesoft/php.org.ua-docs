@@ -34,8 +34,8 @@ public Ds\Deque::copy(): Ds\Deque
 
 ```php
 <?php
-$a = new \Ds\Deque([1, 2, 3]);
-$b = $a->copy();
+$a = new \Ds\Deque([1, 2, 3]);
+$b = $a->copy();
 
 $b->push(4);
 

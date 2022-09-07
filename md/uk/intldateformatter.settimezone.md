@@ -59,21 +59,21 @@ datefmt_set_timezone(IntlDateFormatter $formatter, IntlTimeZone|DateTimeZone|str
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Amsterdam');
+ini_set('date.timezone', 'Europe/Amsterdam');
 
-$formatter = IntlDateFormatter::create(NULL, NULL, NULL, "UTC");
+$formatter = IntlDateFormatter::create(NULL, NULL, NULL, "UTC");
 
 $formatter->setTimeZone(NULL);
-echo "NULL\n    ", $formatter->getTimeZone()->getId(), "\n";
+echo "NULL\n    ", $formatter->getTimeZone()->getId(), "\n";
 
 $formatter->setTimeZone(IntlTimeZone::createTimeZone('Europe/Lisbon'));
-echo "IntlTimeZone\n    ", $formatter->getTimeZone()->getId(), "\n";
+echo "IntlTimeZone\n    ", $formatter->getTimeZone()->getId(), "\n";
 
-$formatter->setTimeZone(new DateTimeZone('Europe/Paris'));
-echo "DateTimeZone\n    ", $formatter->getTimeZone()->getId(), "\n";
+$formatter->setTimeZone(new DateTimeZone('Europe/Paris'));
+echo "DateTimeZone\n    ", $formatter->getTimeZone()->getId(), "\n";
 
 $formatter->setTimeZone('Europe/Rome');
-echo "String\n    ", $formatter->getTimeZone()->getId(), "\n";
+echo "String\n    ", $formatter->getTimeZone()->getId(), "\n";
 
 $formatter->setTimeZone('GMT+00:30');
 print_r($formatter->getTimeZone());

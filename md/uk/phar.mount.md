@@ -48,8 +48,8 @@ final public static Phar::mount(string $pharPath, string $externalPath): void
 
 ```php
 <?php
-$configuration = simplexml_load_string(file_get_contents(
-    Phar::running(false) . '/config.xml'));
+$configuration = simplexml_load_string(file_get_contents(
+    Phar::running(false) . '/config.xml'));
 ?>
 ```
 
@@ -57,11 +57,11 @@ $configuration = simplexml_load_string(file_get_contents(
 
 ```php
 <?php
-// для начала настроим ассоциацию между абстрактным config.xml
-// и конкретным файлом на диске
-Phar::mount('phar://config.xml', '/home/example/config.xml');
-// а теперь запускаем приложение
-include '/path/to/archive.phar';
+// для начала настроим ассоциацию между абстрактным config.xml
+// и конкретным файлом на диске
+Phar::mount('phar://config.xml', '/home/example/config.xml');
+// а теперь запускаем приложение
+include '/path/to/archive.phar';
 ?>
 ```
 
@@ -69,19 +69,19 @@ include '/path/to/archive.phar';
 
 ```php
 <?php
-// для начала настроим связь между абстрактным config.xml
-// и конкретным файлом на диске
-if (defined('EXTERNAL_CONFIG')) {
-    Phar::mount('config.xml', EXTERNAL_CONFIG);
-    if (file_exists(__DIR__ . '/extra_config.xml')) {
-        Phar::mount('extra.xml', __DIR__ . '/extra_config.xml');
-    }
-} else {
-    Phar::mount('config.xml', 'phar://' . __FILE__ . '/default_config.xml');
-    Phar::mount('extra.xml', 'phar://' . __FILE__ . '/default_extra.xml');
+// для начала настроим связь между абстрактным config.xml
+// и конкретным файлом на диске
+if (defined('EXTERNAL_CONFIG')) {
+    Phar::mount('config.xml', EXTERNAL_CONFIG);
+    if (file_exists(__DIR__ . '/extra_config.xml')) {
+        Phar::mount('extra.xml', __DIR__ . '/extra_config.xml');
+    }
+} else {
+    Phar::mount('config.xml', 'phar://' . __FILE__ . '/default_config.xml');
+    Phar::mount('extra.xml', 'phar://' . __FILE__ . '/default_extra.xml');
 }
-// а теперь запускаем приложение
-include 'phar://' . __FILE__ . '/index.php';
+// а теперь запускаем приложение
+include 'phar://' . __FILE__ . '/index.php';
 __HALT_COMPILER();
 ?>
 ```
@@ -90,8 +90,8 @@ __HALT_COMPILER();
 
 ```php
 <?php
-define('EXTERNAL_CONFIG', '/home/example/config.xml');
-// а теперь запускаем приложение
-include '/path/to/archive.phar';
+define('EXTERNAL_CONFIG', '/home/example/config.xml');
+// а теперь запускаем приложение
+include '/path/to/archive.phar';
 ?>
 ```

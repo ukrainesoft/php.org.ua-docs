@@ -34,15 +34,15 @@ public SyncSharedMemory::first(): bool
 
 ```php
 <?php
-$mem = new SyncSharedMemory("AppReportName", 1024);
-if ($mem->first())
+$mem = new SyncSharedMemory("AppReportName", 1024);
+if ($mem->first())
 {
-    // Do first time initialization work here.
+    // Do first time initialization work here.
 }
 
 var_dump($mem->first());
 
-$mem2 = new SyncSharedMemory("AppReportName", 1024);
+$mem2 = new SyncSharedMemory("AppReportName", 1024);
 
 var_dump($mem2->first());
 ?>

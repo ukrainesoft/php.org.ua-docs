@@ -46,14 +46,14 @@ zookeeper_dispatch(): void
 
 ```php
 <?php
-$client = new Zookeeper();
+$client = new Zookeeper();
 $client->connect('localhost:2181');
-$client->get('/zookeeper', function() {
-    echo "Была вызвана callback-функция".PHP_EOL;
+$client->get('/zookeeper', function() {
+    echo "Была вызвана callback-функция".PHP_EOL;
 });
-while(true) {
-    sleep(1);
-    zookeeper_dispatch();
+while(true) {
+    sleep(1);
+    zookeeper_dispatch();
 }
 ?>
 ```
@@ -66,13 +66,13 @@ while(true) {
 <?php
 declare(ticks=1);
 
-$client = new Zookeeper();
+$client = new Zookeeper();
 $client->connect('localhost:2181');
-$client->get('/zookeeper', function() {
-    echo "Была вызвана callback-функция".PHP_EOL;
+$client->get('/zookeeper', function() {
+    echo "Была вызвана callback-функция".PHP_EOL;
 });
-while(true) {
-    sleep(1);
+while(true) {
+    sleep(1);
 }
 ?>
 ```

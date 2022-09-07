@@ -15,12 +15,12 @@ imapsearch — Отримати повідомлення, які відпові�
 ### Опис
 
 ```methodsynopsis
-imap_search(    IMAP\Connection $imap,    string $criteria,    int $flags = SE_FREE,    string $charset = ""): array|false
+imap_search(    IMAP\Connection $imap,    string $criteria,    int $flags = SE_FREE,    string $charset = ""): array|false
 ```
 
 Ця функція здійснює пошук у поточній поштовій скриньці, відкритій у потоці IMAP.
 
-Наприклад, щоб знайти всі невідповідні повідомлення надіслані від мами (Mom), потрібно буде використовувати "UNANSWERED FROM mom". Пошук реєстронезалежний. Наведений список критеріїв вилучено із вихідних кодів UW c-client і може бути неповним або не зовсім точним (додатково дивіться [» RFC1176](http://www.faqs.org/rfcs/rfc1176), секція "tag SEARCH searchcriteria").
+Наприклад, щоб знайти всі невідповідні повідомлення надіслані від мами (Mom), потрібно буде використовувати "UNANSWERED FROM mom". Пошук реєстронезалежний. Наведений список критеріїв вилучено із вихідних кодів UW c-client і може бути неповним або не зовсім точним (додатково дивіться [» RFC1176](http://www.faqs.org/rfcs/rfc1176), секція "tag SEARCH searchcriteria").
 
 ### Список параметрів
 
@@ -83,11 +83,11 @@ imap_search(    IMAP\Connection $imap,    string $criteria,    int $
 
 ```php
 <?php
-$imap   = imap_open('{imap.example.com:993/imap/ssl}INBOX', 'foo@example.com', 'pass123', OP_READONLY);
+$imap   = imap_open('{imap.example.com:993/imap/ssl}INBOX', 'foo@example.com', 'pass123', OP_READONLY);
 
-$some   = imap_search($imap, 'SUBJECT "HOWTO be Awesome" SINCE "8 August 2008"', SE_UID);
-$msgnos = imap_search($imap, 'ALL');
-$uids   = imap_search($imap, 'ALL', SE_UID);
+$some   = imap_search($imap, 'SUBJECT "HOWTO be Awesome" SINCE "8 August 2008"', SE_UID);
+$msgnos = imap_search($imap, 'ALL');
+$uids   = imap_search($imap, 'ALL', SE_UID);
 
 print_r($some);
 print_r($msgnos);

@@ -124,45 +124,45 @@ public
      $addr
    ): bool
 public
-   connectHost(    
+   connectHost(    
     EventDnsBase
      $dns_base
-   ,    
+   ,    
     string
      $hostname
-   ,    
+   ,    
     int
      $port
-   ,    
+   ,    
     int
      $family
      = EventUtil::AF_UNSPEC
    ): bool
 public
-   __construct(    
+   __construct(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $socket
      = null
-   ,    
+   ,    
     int
      $options
      = 0
-   ,    
+   ,    
     callable
      $readcb
      = null
-   ,    
+   ,    
     callable
      $writecb
      = null
-   ,    
+   ,    
     callable
      $eventcb
      = null
-   ,    
+   ,    
     mixed
      $arg
      = null
@@ -208,16 +208,16 @@ public
      $buf
    ): bool
 public
-   setCallbacks(    
+   setCallbacks(    
     callable
      $readcb
-   ,    
+   ,    
     callable
      $writecb
-   ,    
+   ,    
     callable
      $eventcb
-   ,    
+   ,    
     mixed
      $arg
     = ?): void
@@ -249,19 +249,19 @@ public
    sslError(): string
 public
    static
-   sslFilter(    
+   sslFilter(    
     EventBase
      $base
-   ,    
+   ,    
     EventBufferEvent
      $underlying
-   ,    
+   ,    
     EventSslContext
      $ctx
-   ,    
+   ,    
     int
      $state
-   ,    
+   ,    
     int
      $options
      = 0
@@ -278,19 +278,19 @@ public
    sslRenegotiate(): void
 public
    static
-   sslSocket(    
+   sslSocket(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $socket
-   ,    
+   ,    
     EventSslContext
      $ctx
-   ,    
+   ,    
     int
      $state
-   ,    
+   ,    
     int
      $options
     = ?): EventBufferEvent
@@ -360,7 +360,7 @@ output
 
 **`EventBufferEvent::OPT_DEFER_CALLBACKS`**
 
-Коли прапор встановлено, bufferevent відкладає всі функції зворотного виклику. Дивіться [» Швидке, переносне, неблокуюче мережне програмування з Libevent та відкладеними функціями зворотного виклику (Deferred callbacks)](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.md#_deferred_callbacks)
+Коли прапор встановлено, bufferevent відкладає всі функції зворотного виклику. Дивіться [» Швидке, переносне, неблокуюче мережне програмування з Libevent та відкладеними функціями зворотного виклику (Deferred callbacks)](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.md#_deferred_callbacks)
 
 **`EventBufferEvent::OPT_UNLOCK_CALLBACKS`**
 

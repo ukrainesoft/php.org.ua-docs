@@ -38,7 +38,7 @@ public Ds\Pair::toArray(): array
 
 ```php
 <?php
-$pair = new \Ds\Pair("a", 1);
+$pair = new \Ds\Pair("a", 1);
 
 var_dump($pair->toArray());
 ?>

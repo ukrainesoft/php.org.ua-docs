@@ -40,8 +40,8 @@ gnupg_import(resource $identifier, string $keydata): array
 
 ```php
 <?php
-$res = gnupg_init();
-$info = gnupg_import($res,$keydata);
+$res = gnupg_init();
+$info = gnupg_import($res,$keydata);
 print_r($info);
 ?>
 ```
@@ -50,8 +50,8 @@ print_r($info);
 
 ```php
 <?php
-$gpg = new gnupg();
-$info = $gpg->import($keydata);
+$gpg = new gnupg();
+$info = $gpg->import($keydata);
 print_r($info);
 ?>
 ```

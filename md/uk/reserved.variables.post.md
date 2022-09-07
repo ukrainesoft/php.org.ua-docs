@@ -22,7 +22,7 @@ POST — Змінні HTTP POST
 
 ```php
 <?php
-echo 'Привет ' . htmlspecialchars($_POST["name"]) . '!';
+echo 'Привет ' . htmlspecialchars($_POST["name"]) . '!';
 ?>
 ```
 

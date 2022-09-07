@@ -36,13 +36,13 @@ public Threaded::extend(string $class): bool
 
 ```php
 <?php
-class My {}
+class My {}
 
 Threaded::extend(My::class);
 
-$my = new My();
+$my = new My();
 
-var_dump($my instanceof Threaded);
+var_dump($my instanceof Threaded);
 ?>
 ```
 

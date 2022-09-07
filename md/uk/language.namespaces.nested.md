@@ -16,11 +16,11 @@ title: Визначення підпросторів імен
 
 ```php
 <?php
-namespace MyProject\Sub\Level;
+namespace MyProject\Sub\Level;
 
-const CONNECT_OK = 1;
-class Connection { /* ... */ }
-function connect() { /* ... */  }
+const CONNECT_OK = 1;
+class Connection { /* ... */ }
+function connect() { /* ... */  }
 
 ?>
 ```

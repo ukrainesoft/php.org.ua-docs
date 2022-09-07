@@ -15,7 +15,7 @@ statscdfnoncentralt — Обчислює один із параметрів не
 ### Опис
 
 ```methodsynopsis
-stats_cdf_noncentral_t(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_noncentral_t(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
 Повертає кумулятивну функцію розподілу, обернену до неї або один із параметрів нецентрального розподілу Стьюдента. Тип значення, що повертається і параметри (`par1` `par2` і `par3`) визначаються параметром `which`

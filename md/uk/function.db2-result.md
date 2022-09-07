@@ -42,13 +42,13 @@ db2_result(resource $stmt, mixed $column): mixed
 
 ```php
 <?php
-$sql = 'SELECT name, breed FROM animals WHERE weight < ?';
-$stmt = db2_prepare($conn, $sql);
-db2_execute($stmt, array(10));
-while (db2_fetch_row($stmt)) {
-    $name = db2_result($stmt, 0);
-    $breed = db2_result($stmt, 'BREED');
-    print "$name $breed";
+$sql = 'SELECT name, breed FROM animals WHERE weight < ?';
+$stmt = db2_prepare($conn, $sql);
+db2_execute($stmt, array(10));
+while (db2_fetch_row($stmt)) {
+    $name = db2_result($stmt, 0);
+    $breed = db2_result($stmt, 'BREED');
+    print "$name $breed";
 }
 ?>
 ```

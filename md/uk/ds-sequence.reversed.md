@@ -38,7 +38,7 @@ abstract public Ds\Sequence::reversed(): Ds\Sequence
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c"]);
+$sequence = new \Ds\Vector(["a", "b", "c"]);
 
 print_r($sequence->reversed());
 print_r($sequence);

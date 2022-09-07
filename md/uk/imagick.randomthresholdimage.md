@@ -44,16 +44,16 @@ public Imagick::randomThresholdImage(float $low, float $high, int $channel = Ima
 
 ```php
 <?php
-function randomThresholdimage($imagePath, $lowThreshold, $highThreshold, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
+function randomThresholdimage($imagePath, $lowThreshold, $highThreshold, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $imagick->randomThresholdimage(
-        $lowThreshold * \Imagick::getQuantum(),
-        $highThreshold * \Imagick::getQuantum(),
-        $channel
-    );
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    $imagick->randomThresholdimage(
+        $lowThreshold * \Imagick::getQuantum(),
+        $highThreshold * \Imagick::getQuantum(),
+        $channel
+    );
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

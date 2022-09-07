@@ -36,9 +36,9 @@ final public MongoDB\BSON\ObjectId::__construct(?string $id = null)
 ```php
 <?php
 
-var_dump(new MongoDB\BSON\ObjectId());
+var_dump(new MongoDB\BSON\ObjectId());
 
-var_dump(new MongoDB\BSON\ObjectId('000000000000000000000001'));
+var_dump(new MongoDB\BSON\ObjectId('000000000000000000000001'));
 
 ?>
 ```
@@ -58,5 +58,5 @@ object(MongoDB\BSON\ObjectId)#1 (1) {
 
 ### Дивіться також
 
--   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
--   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

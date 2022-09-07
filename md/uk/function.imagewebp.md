@@ -54,16 +54,16 @@ imagewebp(GdImage $image, resource|string|null $file = null, int $quality = -1):
 
 ```php
 <?php
-// Создать пустое изображение и добавить текст
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
+// Создать пустое изображение и добавить текст
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
 
-imagestring($im, 1, 5, 5,  'WebP with PHP', $text_color);
+imagestring($im, 1, 5, 5,  'WebP with PHP', $text_color);
 
-// Сохранить изображение
-imagewebp($im, 'php.webp');
+// Сохранить изображение
+imagewebp($im, 'php.webp');
 
-// Освободить память
+// Освободить память
 imagedestroy($im);
 ?>
 ```

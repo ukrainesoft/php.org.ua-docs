@@ -35,29 +35,29 @@ public RarEntry::getHostOs(): int
 ```php
 <?php
 
-$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
 
-$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
 
-switch ($entry->getHostOs()) {
-    case RarEntry::HOST_MSDOS:
-        echo "MS-DOS\n";
-        break;
-    case RarEntry::HOST_OS2:
-        echo "OS2\n";
-        break;
-    case RarEntry::HOST_WIN32:
-        echo "Win32\n";
-        break;
-    case RarEntry::HOST_MACOS:
-        echo "MacOS\n";
-        break;
-    case RarEntry::HOST_UNIX:
-        echo "Unix/Linux\n";
-        break;
-    case RarEntry::HOST_BEOS:
-        echo "BeOS\n";
-        break;
+switch ($entry->getHostOs()) {
+    case RarEntry::HOST_MSDOS:
+        echo "MS-DOS\n";
+        break;
+    case RarEntry::HOST_OS2:
+        echo "OS2\n";
+        break;
+    case RarEntry::HOST_WIN32:
+        echo "Win32\n";
+        break;
+    case RarEntry::HOST_MACOS:
+        echo "MacOS\n";
+        break;
+    case RarEntry::HOST_UNIX:
+        echo "Unix/Linux\n";
+        break;
+    case RarEntry::HOST_BEOS:
+        echo "BeOS\n";
+        break;
 }
 
 ?>
@@ -68,29 +68,29 @@ switch ($entry->getHostOs()) {
 ```php
 <?php
 
-$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
 
-$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
 
-switch ($entry->getHostOs()) {
-    case RAR_HOST_MSDOS:
-        echo "MS-DOS\n";
-        break;
-    case RAR_HOST_OS2:
-        echo "OS2\n";
-        break;
-    case RAR_HOST_WIN32:
-        echo "Win32\n";
-        break;
-    case RAR_HOST_MACOS:
-        echo "MacOS\n";
-        break;
-    case RAR_HOST_UNIX:
-        echo "Unix/Linux\n";
-        break;
-    case RAR_HOST_BEOS:
-        echo "BeOS\n";
-        break;
+switch ($entry->getHostOs()) {
+    case RAR_HOST_MSDOS:
+        echo "MS-DOS\n";
+        break;
+    case RAR_HOST_OS2:
+        echo "OS2\n";
+        break;
+    case RAR_HOST_WIN32:
+        echo "Win32\n";
+        break;
+    case RAR_HOST_MACOS:
+        echo "MacOS\n";
+        break;
+    case RAR_HOST_UNIX:
+        echo "Unix/Linux\n";
+        break;
+    case RAR_HOST_BEOS:
+        echo "BeOS\n";
+        break;
 }
 
 ?>

@@ -53,9 +53,9 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 ```php
 <?php
-  $email = 'USER@EXAMPLE.com';
-  echo stristr($email, 'e'); // выводит ER@EXAMPLE.com
-  echo stristr($email, 'e', true); // выводит US
+  $email = 'USER@EXAMPLE.com';
+  echo stristr($email, 'e'); // выводит ER@EXAMPLE.com
+  echo stristr($email, 'e', true); // выводит US
 ?>
 ```
 
@@ -63,11 +63,11 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 ```php
 <?php
-  $string = 'Hello World!';
-  if(stristr($string, 'earth') === FALSE) {
-    echo '"earth" не найдена в строке';
-  }
-// выводит: "earth" не найдена в строке
+  $string = 'Hello World!';
+  if(stristr($string, 'earth') === FALSE) {
+    echo '"earth" не найдена в строке';
+  }
+// выводит: "earth" не найдена в строке
 ?>
 ```
 
@@ -75,9 +75,9 @@ stristr(string $haystack, string $needle, bool $before_needle = false): string|f
 
 ```php
 <?php
-  $string = 'APPLE';
-  echo stristr($string, 97); // 97 = a в нижнем регистре
-// выводит: APPLE
+  $string = 'APPLE';
+  echo stristr($string, 97); // 97 = a в нижнем регистре
+// выводит: APPLE
 ?>
 ```
 

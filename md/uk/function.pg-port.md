@@ -47,13 +47,13 @@ pg_port(?PgSql\Connection $connection = null): string
 
 ```php
 <?php
-$pgsql_conn = pg_connect("dbname=mark host=localhost");
+$pgsql_conn = pg_connect("dbname=mark host=localhost");
 
-if ($pgsql_conn) {
-   print "Успешно соединено с портом : " . pg_port($pgsql_conn) . "<br/>\n";
-} else {
-   print pg_last_error($pgsql_conn);
-   exit;
+if ($pgsql_conn) {
+   print "Успешно соединено с портом : " . pg_port($pgsql_conn) . "<br/>\n";
+} else {
+   print pg_last_error($pgsql_conn);
+   exit;
 }
 ?>
 ```

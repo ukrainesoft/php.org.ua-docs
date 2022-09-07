@@ -15,7 +15,7 @@ imagefilledrectangle — Малювання зафарбованого прям�
 ### Опис
 
 ```methodsynopsis
-imagefilledrectangle(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2,    int $color): bool
+imagefilledrectangle(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2,    int $color): bool
 ```
 
 Створює прямокутник, зафарбований кольором. `color` у заданому зображенні `image`. Початкова точка 1, кінцева 2. 0,0 - верхній лівий кут зображення.
@@ -62,15 +62,15 @@ y-координата точки 2.
 
 ```php
 <?php
-// Создание изображения 55x30
-$im = imagecreatetruecolor(55, 30);
-$white = imagecolorallocate($im, 255, 255, 255);
+// Создание изображения 55x30
+$im = imagecreatetruecolor(55, 30);
+$white = imagecolorallocate($im, 255, 255, 255);
 
-// Рисование прямоугольника
-imagefilledrectangle($im, 4, 4, 50, 25, $white);
+// Рисование прямоугольника
+imagefilledrectangle($im, 4, 4, 50, 25, $white);
 
-// Сохранение изображения
-imagepng($im, './imagefilledrectangle.png');
+// Сохранение изображения
+imagepng($im, './imagefilledrectangle.png');
 imagedestroy($im);
 ?>
 ```

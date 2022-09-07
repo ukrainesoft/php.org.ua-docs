@@ -52,7 +52,7 @@ symbol apblockalarms: referenced symbol not found
 
 \-enable-shared=max --enable-rule=SHAREDCORE
 
-Для більш детальної інформації читайте файл INSTALL у директорії верхнього рівня або [»  страницу руководства Apache по DSO](http://httpd.apache.org/docs/current/dso.md)
+Для більш детальної інформації читайте файл INSTALL у директорії верхнього рівня або [»  страницу руководства Apache по DSO](http://httpd.apache.org/docs/current/dso.md)
 
 **Коли я запускаю configure, він каже, що не може знайти файли include або бібліотеку для GD, gdbm або іншого пакета!**
 
@@ -70,7 +70,7 @@ env CPPFLAGS=-I/path/to/include LDFLAGS=-L/path/to/library ./configure
 
 **При компіляції файлу language-parser.tab.c мені видаються помилки, які говорять `yytname undeclared`**
 
-Вам потрібно оновити вашу версію Bison. Останню версію можна знайти на [» http://www.gnu.org/software/bison/bison.html](http://www.gnu.org/software/bison/bison.md)
+Вам потрібно оновити вашу версію Bison. Останню версію можна знайти на [» http://www.gnu.org/software/bison/bison.html](http://www.gnu.org/software/bison/bison.md)
 
 **Коли я запускаю **make**, схоже, він виконується нормально, але на кінцевому лінківці скаржиться, що не може знайти деякі файли.**
 
@@ -179,7 +179,7 @@ $ gcc -E test.c >/dev/null
 Або дивіться файл config.nice у дереві вихідних записів вашої поточної PHP установки, або, якщо це недоступно, просто виконайте скрипт:
 
 ```php
-<?php phpinfo(); ?>
+<?php phpinfo(); ?>
 ```
 
 На початку виводу буде рядок **./configure**, яка була використана для збирання поточного PHP.
@@ -190,4 +190,4 @@ $ gcc -E test.c >/dev/null
 
 **При компіляції PHP я, здається, отримую випадкові помилки, наприклад, вона зависає. Я використовую Solaris якщо це має значення.**
 
-Використання не утиліт GNU під час компіляції PHP може викликати проблеми. Щоб бути впевненим, що компіляція PHP буде працювати, використовуйте утиліти GNU. Наприклад, у Solaris, використання SunOS BSD-сумісної або Solaris версії `sed` не працюватиме, а GNU або Sun POSIX (xpg4) версії `sed` буде. Посилання: [» GNU sed](http://www.gnu.org/software/sed/sed.md) [» GNU flex](http://www.gnu.org/software/flex/flex.md), and [» GNU bison](http://www.gnu.org/software/bison/bison.md)
+Використання не утиліт GNU під час компіляції PHP може викликати проблеми. Щоб бути впевненим, що компіляція PHP буде працювати, використовуйте утиліти GNU. Наприклад, у Solaris, використання SunOS BSD-сумісної або Solaris версії `sed` не працюватиме, а GNU або Sun POSIX (xpg4) версії `sed` буде. Посилання: [» GNU sed](http://www.gnu.org/software/sed/sed.md) [» GNU flex](http://www.gnu.org/software/flex/flex.md), and [» GNU bison](http://www.gnu.org/software/bison/bison.md)

@@ -34,10 +34,10 @@ public Ds\Deque::capacity(): int
 
 ```php
 <?php
-$deque = new \Ds\Deque();
+$deque = new \Ds\Deque();
 var_dump($deque->capacity());
 
-$deque->push(...range(1, 50));
+$deque->push(...range(1, 50));
 var_dump($deque->capacity());
 ?>
 ```

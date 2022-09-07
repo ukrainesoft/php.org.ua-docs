@@ -34,17 +34,17 @@ public ArrayIterator::current(): mixed
 
 ```php
 <?php
-$array = array('1' => 'one',
-               '2' => 'two',
-               '3' => 'three');
+$array = array('1' => 'one',
+               '2' => 'two',
+               '3' => 'three');
 
-$arrayobject = new ArrayObject($array);
+$arrayobject = new ArrayObject($array);
 
-for($iterator = $arrayobject->getIterator();
-    $iterator->valid();
-    $iterator->next()) {
+for($iterator = $arrayobject->getIterator();
+    $iterator->valid();
+    $iterator->next()) {
 
-    echo $iterator->key() . ' => ' . $iterator->current() . "\n";
+    echo $iterator->key() . ' => ' . $iterator->current() . "\n";
 }
 ?>
 ```

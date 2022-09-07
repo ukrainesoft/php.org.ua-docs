@@ -36,10 +36,10 @@ sodium_crypto_kx_keypair(): string
 
 ```php
 <?php
-$keypair = sodium_crypto_kx_keypair();
-$secret = sodium_crypto_kx_secretkey($keypair);
-$public = sodium_crypto_kx_publickey($keypair);
-printf("секретный ключ: %s\nоткрытый ключ: %s", sodium_bin2hex($secret), sodium_bin2hex($public));
+$keypair = sodium_crypto_kx_keypair();
+$secret = sodium_crypto_kx_secretkey($keypair);
+$public = sodium_crypto_kx_publickey($keypair);
+printf("секретный ключ: %s\nоткрытый ключ: %s", sodium_bin2hex($secret), sodium_bin2hex($public));
 ?>
 ```
 

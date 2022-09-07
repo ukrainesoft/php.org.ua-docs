@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Модуль використовує бібліотеку [» zlib](http://www.zlib.net/), написану Jean-loup Gailly та Mark Adler. Потрібна версія zlib >= 1.2.0.4.
+Модуль використовує бібліотеку [» zlib](http://www.zlib.net/), написану Jean-loup Gailly та Mark Adler. Потрібна версія zlib >= 1.2.0.4.

@@ -36,14 +36,14 @@ is_array(mixed $value): bool
 
 ```php
 <?php
-$yes = array('это', 'Масив');
+$yes = array('это', 'Масив');
 
-echo is_array($yes) ? 'Масив' : 'Не Масив';
-echo "\n";
+echo is_array($yes) ? 'Масив' : 'Не Масив';
+echo "\n";
 
-$no = 'это строка';
+$no = 'это строка';
 
-echo is_array($no) ? 'Масив' : 'Не Масив';
+echo is_array($no) ? 'Масив' : 'Не Масив';
 ?>
 ```
 

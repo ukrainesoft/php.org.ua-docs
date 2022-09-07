@@ -50,14 +50,14 @@ imagegammacorrect(GdImage $image, float $input_gamma, float $output_gamma): bool
 
 ```php
 <?php
-// Создание изображения
-$im = imagecreatefromgif('php.gif');
+// Создание изображения
+$im = imagecreatefromgif('php.gif');
 
-// Корректировка гаммы, на выходе 1.537
-imagegammacorrect($im, 1.0, 1.537);
+// Корректировка гаммы, на выходе 1.537
+imagegammacorrect($im, 1.0, 1.537);
 
-// Сохранение изображения и освобождение памяти
-imagegif($im, './php_gamma_corrected.gif');
+// Сохранение изображения и освобождение памяти
+imagegif($im, './php_gamma_corrected.gif');
 imagedestroy($im);
 ?>
 ```

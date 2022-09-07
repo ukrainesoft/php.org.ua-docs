@@ -24,15 +24,15 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ```php
 <?php
-// Только PHP 5. В PHP 7 может вызвать фатальную ошибку.
-function handler(Exception $e) { ... }
+// Только PHP 5. В PHP 7 может вызвать фатальную ошибку.
+function handler(Exception $e) { ... }
 set_exception_handler('handler');
 
-// Будет работать PHP 5 и 7.
-function handler($e) { ... }
+// Будет работать PHP 5 и 7.
+function handler($e) { ... }
 
-// Только PHP 7.
-function handler(Throwable $e) { ... }
+// Только PHP 7.
+function handler(Throwable $e) { ... }
 ?>
 ```
 
@@ -85,12 +85,12 @@ PHP 7 використовує абстрактне синтаксичне де�
 
 ```php
 <?php
-function f() {
-    // Корректно только в PHP 5.
-    global $$foo->bar;
+function f() {
+    // Корректно только в PHP 5.
+    global $$foo->bar;
 
-    // Корректно в PHP 5 и 7.
-    global ${$foo->bar};
+    // Корректно в PHP 5 и 7.
+    global ${$foo->bar};
 }
 ?>
 ```
@@ -103,7 +103,7 @@ function f() {
 
 ```php
 <?php
-list($a[], $a[], $a[]) = [1, 2, 3];
+list($a[], $a[], $a[]) = [1, 2, 3];
 var_dump($a);
 ?>
 ```
@@ -142,9 +142,9 @@ array(3) {
 
 ```php
 <?php
-list() = $a;
-list(,,) = $a;
-list($x, list(), $y) = $a;
+list() = $a;
+list(,,) = $a;
+list($x, list(), $y) = $a;
 ?>
 ```
 
@@ -158,9 +158,9 @@ list($x, list(), $y) = $a;
 
 ```php
 <?php
-$array = [];
-$array["a"] =& $array["b"];
-$array["b"] = 1;
+$array = [];
+$array["a"] =& $array["b"];
+$array["b"] = 1;
 var_dump($array);
 ?>
 ```
@@ -193,17 +193,17 @@ array(2) {
 
 ```php
 <?php
-function getArray() {
-    return [1, 2, 3];
+function getArray() {
+    return [1, 2, 3];
 }
 
-function squareArray(array &$a) {
-    foreach ($a as &$v) {
-        $v **= 2;
-    }
+function squareArray(array &$a) {
+    foreach ($a as &$v) {
+        $v **= 2;
+    }
 }
 
-// Выведет предупреждение в PHP 7.
+// Выведет предупреждение в PHP 7.
 squareArray((getArray()));
 ?>
 ```
@@ -224,9 +224,9 @@ Notice: Only variables should be passed by reference in /tmp/test.php on line 13
 
 ```php
 <?php
-$array = [0, 1, 2];
-foreach ($array as &$val) {
-    var_dump(current($array));
+$array = [0, 1, 2];
+foreach ($array as &$val) {
+    var_dump(current($array));
 }
 ?>
 ```
@@ -257,10 +257,10 @@ int(0)
 
 ```php
 <?php
-$array = [0];
-foreach ($array as &$val) {
-    var_dump($val);
-    $array[1] = 1;
+$array = [0];
+foreach ($array as &$val) {
+    var_dump($val);
+    $array[1] = 1;
 }
 ?>
 ```
@@ -294,7 +294,7 @@ int(1)
 
 ```php
 <?php
-var_dump(1 >> -1);
+var_dump(1 >> -1);
 ?>
 ```
 
@@ -362,10 +362,10 @@ PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in %s line %d
 
 ```php
 <?php
-var_dump("0x123" == "291");
+var_dump("0x123" == "291");
 var_dump(is_numeric("0x123"));
-var_dump("0xe" + "0x1");
-var_dump(substr("foo", "0x1"));
+var_dump("0xe" + "0x1");
+var_dump(substr("foo", "0x1"));
 ?>
 ```
 
@@ -393,12 +393,12 @@ string(3) "foo"
 
 ```php
 <?php
-$str = "0xffff";
-$int = filter_var($str, FILTER_VALIDATE_INT, FILTER_FLAG_ALLOW_HEX);
-if (false === $int) {
-    throw new Exception("Некорректное целое число!");
+$str = "0xffff";
+$int = filter_var($str, FILTER_VALIDATE_INT, FILTER_FLAG_ALLOW_HEX);
+if (false === $int) {
+    throw new Exception("Некорректное целое число!");
 }
-var_dump($int); // int(65535)
+var_dump($int); // int(65535)
 ?>
 ```
 
@@ -486,8 +486,8 @@ var_dump($int); // int(65535)
 
 ```php
 <?php
-class C {}
-$c =& new C;
+class C {}
+$c =& new C;
 ?>
 ```
 
@@ -540,16 +540,16 @@ Parse error: syntax error, unexpected 'new' (T_NEW) in /tmp/test.php on line 3
 
 ```php
 <?php
-class A {
-    public function test() { var_dump($this); }
+class A {
+    public function test() { var_dump($this); }
 }
 
-// Обратите вимание: НЕ расширяет класс A
-class B {
-    public function callNonStaticMethodOfA() { A::test(); }
+// Обратите вимание: НЕ расширяет класс A
+class B {
+    public function callNonStaticMethodOfA() { A::test(); }
 }
 
-(new B)->callNonStaticMethodOfA();
+(new B)->callNonStaticMethodOfA();
 ?>
 ```
 
@@ -576,17 +576,17 @@ NULL
 
 ```php
 <?php
-echo yield -1;
-// Ранее интерпретировалось так
-echo (yield) - 1;
-// А теперь так
-echo yield (-1);
+echo yield -1;
+// Ранее интерпретировалось так
+echo (yield) - 1;
+// А теперь так
+echo yield (-1);
 
-yield $foo or die;
-// Ранее интерпретировалось так
-yield ($foo or die);
-// А теперь так
-(yield $foo) or die;
+yield $foo or die;
+// Ранее интерпретировалось так
+yield ($foo or die);
+// А теперь так
+(yield $foo) or die;
 ?>
 ```
 
@@ -598,8 +598,8 @@ yield ($foo or die);
 
 ```php
 <?php
-function foo($a, $b, $unused, $unused) {
-    //
+function foo($a, $b, $unused, $unused) {
+    //
 }
 ?>
 ```
@@ -610,9 +610,9 @@ function foo($a, $b, $unused, $unused) {
 
 ```php
 <?php
-function foo($x) {
-    $x++;
-    var_dump(func_get_arg(0));
+function foo($x) {
+    $x++;
+    var_dump(func_get_arg(0));
 }
 foo(1);?>
 ```
@@ -635,11 +635,11 @@ foo(1);?>
 
 ```php
 <?php
-switch (1) {
-    default:
-    break;
-    default:
-    break;
+switch (1) {
+    default:
+    break;
+    default:
+    break;
 }
 ?>
 ```

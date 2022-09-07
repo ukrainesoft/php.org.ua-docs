@@ -37,29 +37,29 @@ get_class_vars(string $class): array
 ```php
 <?php
 
-class myclass {
+class myclass {
 
-    var $var1; // переменная не имеет начального значения...
-    var $var2 = "xyz";
-    var $var3 = 100;
-    private $var4;
+    var $var1; // переменная не имеет начального значения...
+    var $var2 = "xyz";
+    var $var3 = 100;
+    private $var4;
 
-    // конструктор
-    function __construct() {
-        // изменим значения некоторых свойств
-        $this->var1 = "foo";
-        $this->var2 = "bar";
-        return true;
-    }
+    // конструктор
+    function __construct() {
+        // изменим значения некоторых свойств
+        $this->var1 = "foo";
+        $this->var2 = "bar";
+        return true;
+    }
 
 }
 
-$my_class = new myclass();
+$my_class = new myclass();
 
-$class_vars = get_class_vars(get_class($my_class));
+$class_vars = get_class_vars(get_class($my_class));
 
-foreach ($class_vars as $name => $value) {
-    echo "$name : $value\n";
+foreach ($class_vars as $name => $value) {
+    echo "$name : $value\n";
 }
 
 ?>
@@ -77,25 +77,25 @@ var3 : 100
 
 ```php
 <?php
-function format($array)
+function format($array)
 {
-    return implode('|', array_keys($array)) . "\r\n";
+    return implode('|', array_keys($array)) . "\r\n";
 }
 
-class TestCase
+class TestCase
 {
-    public $a    = 1;
-    protected $b = 2;
-    private $c   = 3;
+    public $a    = 1;
+    protected $b = 2;
+    private $c   = 3;
 
-    public static function expose()
-    {
-        echo format(get_class_vars(__CLASS__));
-    }
+    public static function expose()
+    {
+        echo format(get_class_vars(__CLASS__));
+    }
 }
 
 TestCase::expose();
-echo format(get_class_vars('TestCase'));
+echo format(get_class_vars('TestCase'));
 ?>
 ```
 

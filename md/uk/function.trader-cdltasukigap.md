@@ -15,7 +15,7 @@ tradercdltasukigap — Розрив Тасукі
 ### Опис
 
 ```methodsynopsis
-trader_cdltasukigap(    array $open,    array $high,    array $low,    array $close): array
+trader_cdltasukigap(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

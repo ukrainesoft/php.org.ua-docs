@@ -18,7 +18,7 @@ MongoDBDriverServer::getLatency — Повертає затримку серве
 final public MongoDB\Driver\Server::getLatency(): ?integer
 ```
 
-Повертає затримку сервера у мілісекундах. Виміряне клієнтом [» время прохождения](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#round-trip-time) команди `hello`
+Повертає затримку сервера у мілісекундах. Виміряне клієнтом [» время прохождения](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#round-trip-time) команди `hello`
 
 ### Список параметрів
 
@@ -45,10 +45,10 @@ final public MongoDB\Driver\Server::getLatency(): ?integer
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
-$server = $manager->selectServer($rp);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
+$server = $manager->selectServer($rp);
 
 var_dump($server->getLatency());
 
@@ -65,4 +65,4 @@ int(592)
 
 -   [MongoDBDriverServer::getInfo()](mongodb-driver-server.getinfo.md) - Повертає масив інформації, що описує сервер
 -   [MongoDBDriverServerDescription::getRoundTripTime()](mongodb-driver-serverdescription.getroundtriptime.md) - Повертає час обходу сервера у мілісекундах
--   [» Спецификация обнаружения и мониторинга сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
+-   [» Спецификация обнаружения и мониторинга сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)

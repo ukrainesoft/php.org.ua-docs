@@ -15,7 +15,7 @@ fopen — Відкриває файл або URL
 ### Опис
 
 ```methodsynopsis
-fopen(    string $filename,    string $mode,    bool $use_include_path = false,    ?resource $context = null): resource|false
+fopen(    string $filename,    string $mode,    bool $use_include_path = false,    ?resource $context = null): resource|false
 ```
 
 **fopen()** закріплює іменований ресурс, вказаний у аргументі `filename`за потоком.
@@ -38,7 +38,7 @@ fopen(    string $filename,    string $mode,    bool $use_include_pa
 
 ```php
 <?php
-$handle = fopen("c:\\folder\\resource.txt", "r");
+$handle = fopen("c:\\folder\\resource.txt", "r");
 ?>
 ```
 
@@ -108,10 +108,10 @@ $handle = fopen("c:\\folder\\resource.txt", "r");
 
 ```php
 <?php
-$handle = fopen("/home/rasmus/file.txt", "r");
-$handle = fopen("/home/rasmus/file.gif", "wb");
-$handle = fopen("http://www.example.com/", "r");
-$handle = fopen("ftp://user:password@example.com/somefile.txt", "w");
+$handle = fopen("/home/rasmus/file.txt", "r");
+$handle = fopen("/home/rasmus/file.gif", "wb");
+$handle = fopen("http://www.example.com/", "r");
+$handle = fopen("ftp://user:password@example.com/somefile.txt", "w");
 ?>
 ```
 

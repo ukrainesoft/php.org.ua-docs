@@ -50,48 +50,48 @@ imap_createmailbox(IMAP\Connection $imap, string $mailbox): bool
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)
-     or die("не получилось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)
+     or die("не получилось подключиться: " . imap_last_error());
 
-$name1 = "phpnewbox";
-$name2 = imap_utf7_encode("phpnewböx"); // phpnewb&w7Y-x
+$name1 = "phpnewbox";
+$name2 = imap_utf7_encode("phpnewböx"); // phpnewb&w7Y-x
 
-$newname = $name1;
+$newname = $name1;
 
-echo "Новым именем будет '$name1'<br />\n";
+echo "Новым именем будет '$name1'<br />\n";
 
-// теперь создадим новый ящик "phptestbox" в вашем входящем каталоге,
-// проверим его статус и удалим, чтобы вернуть ваш каталог к первоначальному
-// состоянию
+// теперь создадим новый ящик "phptestbox" в вашем входящем каталоге,
+// проверим его статус и удалим, чтобы вернуть ваш каталог к первоначальному
+// состоянию
 
-if (@imap_createmailbox($mbox, imap_utf7_encode("{imap.example.org}INBOX.$newname"))) {
-    $status = @imap_status($mbox, "{imap.example.org}INBOX.$newname", SA_ALL);
-    if ($status) {
-        echo "ваш новый почтовый ящик называется '$name1' и имеет следующий статус:<br />\n";
-        echo "Сообщений:           " . $status->messages    . "<br />\n";
-        echo "Новых:                 " . $status->recent      . "<br />\n";
-        echo "Непрочитанных:     " . $status->unseen      . "<br />\n";
-        echo "Следующий UID:    " . $status->uidnext     . "<br />\n";
-        echo "Корректность UID:" . $status->uidvalidity . "<br />\n";
+if (@imap_createmailbox($mbox, imap_utf7_encode("{imap.example.org}INBOX.$newname"))) {
+    $status = @imap_status($mbox, "{imap.example.org}INBOX.$newname", SA_ALL);
+    if ($status) {
+        echo "ваш новый почтовый ящик называется '$name1' и имеет следующий статус:<br />\n";
+        echo "Сообщений:           " . $status->messages    . "<br />\n";
+        echo "Новых:                 " . $status->recent      . "<br />\n";
+        echo "Непрочитанных:     " . $status->unseen      . "<br />\n";
+        echo "Следующий UID:    " . $status->uidnext     . "<br />\n";
+        echo "Корректность UID:" . $status->uidvalidity . "<br />\n";
 
-        if (imap_renamemailbox($mbox, "{imap.example.org}INBOX.$newname", "{imap.example.org}INBOX.$name2")) {
-            echo "переименуем новый ящик из '$name1' в '$name2'<br />\n";
-            $newname = $name2;
-        } else {
-            echo "вызов imap_renamemailbox для нового ящика завершился ошибкой: " . imap_last_error() . "<br />\n";
-        }
-    } else {
-        echo "вызов imap_status для нового ящика завершился ошибкой: " . imap_last_error() . "<br />\n";
-    }
+        if (imap_renamemailbox($mbox, "{imap.example.org}INBOX.$newname", "{imap.example.org}INBOX.$name2")) {
+            echo "переименуем новый ящик из '$name1' в '$name2'<br />\n";
+            $newname = $name2;
+        } else {
+            echo "вызов imap_renamemailbox для нового ящика завершился ошибкой: " . imap_last_error() . "<br />\n";
+        }
+    } else {
+        echo "вызов imap_status для нового ящика завершился ошибкой: " . imap_last_error() . "<br />\n";
+    }
 
-    if (@imap_deletemailbox($mbox, "{imap.example.org}INBOX.$newname")) {
-        echo "новый почтовый ящик удалён для восстановления первоначального состояния<br />\n";
-    } else {
-        echo "вызов imap_deletemailbox на новом почтовом ящике завершился ошибкой: " . implode("<br />\n", imap_errors()) . "<br />\n";
-    }
+    if (@imap_deletemailbox($mbox, "{imap.example.org}INBOX.$newname")) {
+        echo "новый почтовый ящик удалён для восстановления первоначального состояния<br />\n";
+    } else {
+        echo "вызов imap_deletemailbox на новом почтовом ящике завершился ошибкой: " . implode("<br />\n", imap_errors()) . "<br />\n";
+    }
 
-} else {
-    echo "невозможно создать новый почтовый ящик: " . implode("<br />\n", imap_errors()) . "<br />\n";
+} else {
+    echo "невозможно создать новый почтовый ящик: " . implode("<br />\n", imap_errors()) . "<br />\n";
 }
 
 imap_close($mbox);

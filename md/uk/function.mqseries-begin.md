@@ -15,7 +15,7 @@ mqseriesbegin — MQseries MQBEGIN
 ### Опис
 
 ```methodsynopsis
-mqseries_begin(    resource $hconn,    array $beginOptions,    resource &$compCode,    resource &$reason): void
+mqseries_begin(    resource $hconn,    array $beginOptions,    resource &$compCode,    resource &$reason): void
 ```
 
 Функція **mqseriesbegin()** (MQBEGIN) відкриває транзакцію, координує роботу менеджера черг та може використовувати зовнішні ресурси менеджера.
@@ -48,17 +48,17 @@ mqseries_begin(    resource $hconn,    array $beginOptions,    resou
 
 ```php
 <?php
-    $mqbo = array();
-    mqseries_begin( $conn,
-                    $mqbo,
-                    $comp_code,
-                    $reason);
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        /* код причины 2121 - предупреждающий. Смотри документацию MQSeries.*/
-        if ($reason !== 2121) {
-            printf("CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-        }
-    }
+    $mqbo = array();
+    mqseries_begin( $conn,
+                    $mqbo,
+                    $comp_code,
+                    $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        /* код причины 2121 - предупреждающий. Смотри документацию MQSeries.*/
+        if ($reason !== 2121) {
+            printf("CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+        }
+    }
 ?>
 ```
 

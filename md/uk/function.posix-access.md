@@ -45,15 +45,15 @@ posix_access(string $filename, int $flags = 0): bool
 ```php
 <?php
 
-$file = 'some_file';
+$file = 'some_file';
 
-if (posix_access($file, POSIX_R_OK | POSIX_W_OK)) {
-    echo 'Файл доступен на чтение и запись!';
+if (posix_access($file, POSIX_R_OK | POSIX_W_OK)) {
+    echo 'Файл доступен на чтение и запись!';
 
-} else {
-    $error = posix_get_last_error();
+} else {
+    $error = posix_get_last_error();
 
-    echo "Error $error: " . posix_strerror($error);
+    echo "Error $error: " . posix_strerror($error);
 }
 
 ?>

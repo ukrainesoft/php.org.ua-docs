@@ -15,7 +15,7 @@ Imagick::floodFillPaintImage — Змінює значення кольору б
 ### Опис
 
 ```methodsynopsis
-public Imagick::floodFillPaintImage(    mixed $fill,    float $fuzz,    mixed $target,    int $x,    int $y,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::floodFillPaintImage(    mixed $fill,    float $fuzz,    mixed $target,    int $x,    int $y,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Змінює значення кольору будь-якого пікселя, що відповідає цільовому та є найближчим сусідом. Даний метод – заміна застарілому [Imagick::paintFloodFillImage()](imagick.paintfloodfillimage.md). Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.
@@ -61,33 +61,33 @@ public Imagick::floodFillPaintImage(    mixed $fill,    float $fuzz,  
 ```php
 <?php
 
-/* Создание нового объекта Imagick */
-$im = new Imagick();
+/* Создание нового объекта Imagick */
+$im = new Imagick();
 
-/* Создание красных, зеленых и синих изображения */
-$im->newImage(100, 50, "red");
-$im->newImage(100, 50, "green");
-$im->newImage(100, 50, "blue");
+/* Создание красных, зеленых и синих изображения */
+$im->newImage(100, 50, "red");
+$im->newImage(100, 50, "green");
+$im->newImage(100, 50, "blue");
 
-/* Сложение изображений в одно*/
+/* Сложение изображений в одно*/
 $im->resetIterator();
-$combined = $im->appendImages(true);
+$combined = $im->appendImages(true);
 
-/* Сохранение промежуточного изображения для сравнения */
+/* Сохранение промежуточного изображения для сравнения */
 $combined->writeImage("floodfillpaint_intermediate.png");
 
-/* Целевой пиксель для рисования */
-$x = 1;
-$y = 1;
+/* Целевой пиксель для рисования */
+$x = 1;
+$y = 1;
 
-/* Получение цвета, которым рисуем */
-$target = $combined->getImagePixelColor($x, $y);
+/* Получение цвета, которым рисуем */
+$target = $combined->getImagePixelColor($x, $y);
 
-/* Закрашивание пикселя в позиции 1,1 черным и всех соседних пикселей,
-   соответствующих целевому цвету */
-$combined->floodfillPaintImage("black", 1, $target, $x, $y, false);
+/* Закрашивание пикселя в позиции 1,1 черным и всех соседних пикселей,
+   соответствующих целевому цвету */
+$combined->floodfillPaintImage("black", 1, $target, $x, $y, false);
 
-/* Сохранение результата */
+/* Сохранение результата */
 $combined->writeImage("floodfillpaint_result.png");
 ?>
 ```

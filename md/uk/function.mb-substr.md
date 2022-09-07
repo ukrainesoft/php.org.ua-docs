@@ -15,7 +15,7 @@ title: мбsubstr
 ### Опис
 
 ```methodsynopsis
-mb_substr(    string $string,    int $start,    ?int $length = null,    ?string $encoding = null): string
+mb_substr(    string $string,    int $start,    ?int $length = null,    ?string $encoding = null): string
 ```
 
 Коректно виконує [substr()](function.substr.md) для багатобайтових кодувань, враховуючи кількість символів. Позиція відраховується від початку `string`. Позиція першого символу – 0, другого – 1 тощо.

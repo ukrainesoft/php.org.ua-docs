@@ -35,24 +35,24 @@ PHP пропонує безліч [зумовлених змінних](language
 
 ```php
 <?php
-$empty = $post = array();
-foreach ($_POST as $varname => $varvalue) {
-    if (empty($varvalue)) {
-        $empty[$varname] = $varvalue;
-    } else {
-        $post[$varname] = $varvalue;
-    }
+$empty = $post = array();
+foreach ($_POST as $varname => $varvalue) {
+    if (empty($varvalue)) {
+        $empty[$varname] = $varvalue;
+    } else {
+        $post[$varname] = $varvalue;
+    }
 }
 
-print "<pre>";
-if (empty($empty)) {
-    print "В POST не было пустых значений, вот что там было:\n";
-    var_dump($post);
-} else {
-    print "Пришло " . count($empty) . " пустых значений\n";
-    print "Всего отправлено:\n"; var_dump($post);
-    print "Пустых:\n"; var_dump($empty);
-    exit;
+print "<pre>";
+if (empty($empty)) {
+    print "В POST не было пустых значений, вот что там было:\n";
+    var_dump($post);
+} else {
+    print "Пришло " . count($empty) . " пустых значений\n";
+    print "Всего отправлено:\n"; var_dump($post);
+    print "Пустых:\n"; var_dump($empty);
+    exit;
 }
 ?>
 ```
@@ -65,12 +65,12 @@ if (empty($empty)) {
 
 ```php
 <?php
-function myfunc($argument)
+function myfunc($argument)
 {
-    echo $argument + 10;
+    echo $argument + 10;
 }
-$variable = 10;
-echo "myfunc($variable) = " . myfunc($variable);
+$variable = 10;
+echo "myfunc($variable) = " . myfunc($variable);
 ?>
 ```
 
@@ -82,8 +82,8 @@ echo "myfunc($variable) = " . myfunc($variable);
 
 ```php
 <pre>
-<?php echo "Это должно быть на первой строке."; ?>
-<?php echo "А это должно быть на следующей строке."; ?>
+<?php echo "Это должно быть на первой строке."; ?>
+<?php echo "А это должно быть на следующей строке."; ?>
 </pre>
 ```
 
@@ -101,9 +101,9 @@ echo "myfunc($variable) = " . myfunc($variable);
 
 ```php
 <?php
-$headers = getallheaders();
-foreach ($headers as $name => $content) {
-    echo "headers[$name] = $content<br />\n";
+$headers = getallheaders();
+foreach ($headers as $name => $content) {
+    echo "headers[$name] = $content<br />\n";
 }
 ?>
 ```
@@ -112,7 +112,7 @@ foreach ($headers as $name => $content) {
 
 **Коли я намагаюся використати аутентифікацію з IIS, я отримую 'No Input file specified'.**
 
-Це нестача моделі безпеки IIS. Проблема загальна для всіх програм CGI, що виконуються під IIS. Щоб уникнути проблеми, створіть простий HTML файл (необроблений PHP) як вхідну сторінку в автентифікованій директорії. Потім використовуйте тег META для перенаправлення на PHP сторінку або помістіть посилання, що вказує на PHP сторінку. Після цього PHP розпізнає автентифікацію правильно. Це не повинно вплинути на інші веб-сервери NT. Для додаткової інформації дивіться: [» http://support.microsoft.com/kb/q160422/](http://support.microsoft.com/kb/q160422/) та розділ керівництва [HTTP Аутентифікація](features.http-auth.md)
+Це нестача моделі безпеки IIS. Проблема загальна для всіх програм CGI, що виконуються під IIS. Щоб уникнути проблеми, створіть простий HTML файл (необроблений PHP) як вхідну сторінку в автентифікованій директорії. Потім використовуйте тег META для перенаправлення на PHP сторінку або помістіть посилання, що вказує на PHP сторінку. Після цього PHP розпізнає автентифікацію правильно. Це не повинно вплинути на інші веб-сервери NT. Для додаткової інформації дивіться: [» http://support.microsoft.com/kb/q160422/](http://support.microsoft.com/kb/q160422/) та розділ керівництва [HTTP Аутентифікація](features.http-auth.md)
 
 **Windows: Я не маю доступу до файлів, що поділяються з іншим комп'ютером, за IIS.**
 
@@ -132,7 +132,7 @@ foreach ($headers as $name => $content) {
 
 **Як я можу генерувати PDF-файли без використання платних або комерційних бібліотек, як PDFLib? Я б хотів щось безкоштовне і не потребує зовнішніх бібліотек PDF.**
 
-Є кілька альтернатив, написаних на PHP, таких як [» FPDF](http://www.fpdf.org/) і [» TCPDF](http://www.tcpdf.org/)
+Є кілька альтернатив, написаних на PHP, таких як [» FPDF](http://www.fpdf.org/) і [» TCPDF](http://www.tcpdf.org/)
 
 **Декілька PHP директив можуть приймати скорочення для байтових значень на відміну від тільки int байтових значень. Якими є всі доступні скорочення?**
 

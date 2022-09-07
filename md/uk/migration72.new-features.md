@@ -15,12 +15,12 @@ title: Нові можливості
 ```php
 <?php
 
-function test(object $obj) : object
+function test(object $obj) : object
 {
-    return new SplQueue();
+    return new SplQueue();
 }
 
-test(new StdClass());
+test(new StdClass());
 ```
 
 ### Завантаження модуля на ім'я
@@ -34,14 +34,14 @@ test(new StdClass());
 ```php
 <?php
 
-abstract class A
+abstract class A
 {
-    abstract function test(string $s);
+    abstract function test(string $s);
 }
-abstract class B extends A
+abstract class B extends A
 {
-    // переопределён - всё ещё сохраняя контравариантность для параметров и ковариантность для возвращаемых значений
-    abstract function test($s) : int;
+    // переопределён - всё ещё сохраняя контравариантность для параметров и ковариантность для возвращаемых значений
+    abstract function test($s) : int;
 }
 ```
 
@@ -73,7 +73,7 @@ abstract class B extends A
 ```php
 <?php
 
-$db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
+$db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
 ```
 
 ### Додаткова налагоджувальна інформація при емуляції запитів, що готуються [PDO](book.pdo.md)
@@ -110,14 +110,14 @@ $db->quote('über', PDO::PARAM_STR | PDO::PARAM_STR_NATL);
 ```php
 <?php
 
-interface A
+interface A
 {
-    public function Test(array $input);
+    public function Test(array $input);
 }
 
-class B implements A
+class B implements A
 {
-    public function Test($input){} // тип параметра не указан $input
+    public function Test($input){} // тип параметра не указан $input
 }
 ```
 
@@ -128,10 +128,10 @@ class B implements A
 ```php
 <?php
 
-use Foo\Bar\{
-    Foo,
-    Bar,
-    Baz,
+use Foo\Bar\{
+    Foo,
+    Bar,
+    Baz,
 };
 ```
 

@@ -16,12 +16,12 @@ title: Метадані
 
 ```php
 <?php
-$mysqli = new mysqli("example.com", "user", "password", "database");
-if ($mysqli->connect_errno) {
-    echo "Не удалось подключиться к MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+$mysqli = new mysqli("example.com", "user", "password", "database");
+if ($mysqli->connect_errno) {
+    echo "Не удалось подключиться к MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
-$res = $mysqli->query("SELECT 1 AS _one, 'Hello' AS _two FROM DUAL");
+$res = $mysqli->query("SELECT 1 AS _one, 'Hello' AS _two FROM DUAL");
 var_dump($res->fetch_fields());
 ?>
 ```
@@ -100,12 +100,12 @@ array(2) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("example.com", "user", "password", "database");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("example.com", "user", "password", "database");
 
-$stmt = $mysqli->prepare("SELECT 1 AS _one, 'Hello' AS _two FROM DUAL");
+$stmt = $mysqli->prepare("SELECT 1 AS _one, 'Hello' AS _two FROM DUAL");
 $stmt->execute();
-$result = $stmt->result_metadata();
+$result = $stmt->result_metadata();
 var_dump($result->fetch_fields());
 ```
 

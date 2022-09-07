@@ -32,16 +32,16 @@ public Yaf_Dispatcher::registerPlugin(Yaf_Plugin_Abstract $plugin): Yaf_Dispatch
 
 ```php
 <?php
-class Bootstrap extends Yaf_Bootstrap_Abstract {
-  public function _initPlugin(Yaf_Dispatcher $dispatcher) {
-    /**
-    * Yaf ожидает скрипты плагинов в [application.directory] .  "/plugins"
-    * для этого случая будет:
-    * [application.directory] . "/plugins/" . "User" . [application.ext]
-    */
-    $user = new UserPlugin();
-    $dispatcher->registerPlugin($user);
-  }
+class Bootstrap extends Yaf_Bootstrap_Abstract {
+  public function _initPlugin(Yaf_Dispatcher $dispatcher) {
+    /**
+    * Yaf ожидает скрипты плагинов в [application.directory] .  "/plugins"
+    * для этого случая будет:
+    * [application.directory] . "/plugins/" . "User" . [application.ext]
+    */
+    $user = new UserPlugin();
+    $dispatcher->registerPlugin($user);
+  }
 }
 ?>
 ```

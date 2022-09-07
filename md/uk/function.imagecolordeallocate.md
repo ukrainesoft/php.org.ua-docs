@@ -46,8 +46,8 @@ imagecolordeallocate(GdImage $image, int $color): bool
 
 ```php
 <?php
-$white = imagecolorallocate($im, 255, 255, 255);
-imagecolordeallocate($im, $white);
+$white = imagecolorallocate($im, 255, 255, 255);
+imagecolordeallocate($im, $white);
 ?>
 ```
 

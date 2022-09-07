@@ -44,7 +44,7 @@ msgfmt_create(string $locale, string $pattern): ?MessageFormatter
 
 `pattern`
 
-Рядок (string) шаблон для вставлення аргументів. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
+Рядок (string) шаблон для вставлення аргументів. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
 
 ### Значення, що повертаються
 
@@ -60,10 +60,10 @@ msgfmt_create(string $locale, string $pattern): ?MessageFormatter
 
 ```php
 <?php
-$fmt = msgfmt_create("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");
-echo msgfmt_format($fmt, array(4560, 123, 4560/123));
-$fmt = msgfmt_create("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum");
-echo msgfmt_format($fmt, array(4560, 123, 4560/123));
+$fmt = msgfmt_create("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");
+echo msgfmt_format($fmt, array(4560, 123, 4560/123));
+$fmt = msgfmt_create("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum");
+echo msgfmt_format($fmt, array(4560, 123, 4560/123));
 ?>
 ```
 
@@ -71,10 +71,10 @@ echo msgfmt_format($fmt, array(4560, 123, 4560/123));
 
 ```php
 <?php
-$fmt = new MessageFormatter("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");
-echo $fmt->format(array(4560, 123, 4560/123));
-$fmt = new MessageFormatter("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum");
-echo $fmt->format(array(4560, 123, 4560/123));
+$fmt = new MessageFormatter("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");
+echo $fmt->format(array(4560, 123, 4560/123));
+$fmt = new MessageFormatter("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,number} Affen pro Baum");
+echo $fmt->format(array(4560, 123, 4560/123));
 ?>
 ```
 

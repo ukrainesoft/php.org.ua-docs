@@ -15,7 +15,7 @@ streamsocketclient — Відкрити з'єднання з інтернет-с
 ### Опис
 
 ```methodsynopsis
-stream_socket_client(    string $address,    int &$error_code = null,    string &$error_message = null,    ?float $timeout = null,    int $flags = STREAM_CLIENT_CONNECT,    ?resource $context = null): resource|false
+stream_socket_client(    string $address,    int &$error_code = null,    string &$error_message = null,    ?float $timeout = null,    int $flags = STREAM_CLIENT_CONNECT,    ?resource $context = null): resource|false
 ```
 
 Починає з'єднання потоку або датаграми з віддаленим сокетом, зазначеним параметром `address`. Тип сокету, що створюється, визначається по транспорту, вказаному з використанням стандартного форматування URL: `transport://target`. Для інтернет-сокетів, (AFINET) таких, як TCP та UDP, частина `target` параметра `address` повинна складатися з імені хоста або IP-адреси, за яким слідує двокрапка та номер порту. Для доменних сокетів Unix, частина `target` має вказувати на файл сокета у файловій системі.
@@ -76,15 +76,15 @@ stream_socket_client(    string $address,    int &$error_code = null, �
 
 ```php
 <?php
-$fp = stream_socket_client("tcp://www.example.com:80", $errno, $errstr, 30);
-if (!$fp) {
-    echo "$errstr ($errno)<br />\n";
-} else {
-    fwrite($fp, "GET / HTTP/1.0\r\nHost: www.example.com\r\nAccept: */*\r\n\r\n");
-    while (!feof($fp)) {
-        echo fgets($fp, 1024);
-    }
-    fclose($fp);
+$fp = stream_socket_client("tcp://www.example.com:80", $errno, $errstr, 30);
+if (!$fp) {
+    echo "$errstr ($errno)<br />\n";
+} else {
+    fwrite($fp, "GET / HTTP/1.0\r\nHost: www.example.com\r\nAccept: */*\r\n\r\n");
+    while (!feof($fp)) {
+        echo fgets($fp, 1024);
+    }
+    fclose($fp);
 }
 ?>
 ```
@@ -95,13 +95,13 @@ if (!$fp) {
 
 ```php
 <?php
-$fp = stream_socket_client("udp://127.0.0.1:13", $errno, $errstr);
-if (!$fp) {
-    echo "ОШИБКА: $errno - $errstr<br />\n";
-} else {
-    fwrite($fp, "\n");
-    echo fread($fp, 26);
-    fclose($fp);
+$fp = stream_socket_client("udp://127.0.0.1:13", $errno, $errstr);
+if (!$fp) {
+    echo "ОШИБКА: $errno - $errstr<br />\n";
+} else {
+    fwrite($fp, "\n");
+    echo fread($fp, 26);
+    fclose($fp);
 }
 ?>
 ```

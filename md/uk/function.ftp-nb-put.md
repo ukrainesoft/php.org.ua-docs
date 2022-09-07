@@ -15,7 +15,7 @@ ftpнбput — Завантажує файл на сервер FTP в асинх
 ### Опис
 
 ```methodsynopsis
-ftp_nb_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_filename,    int $mode = FTP_BINARY,    int $offset = 0): int|false
+ftp_nb_put(    FTP\Connection $ftp,    string $remote_filename,    string $local_filename,    int $mode = FTP_BINARY,    int $offset = 0): int|false
 ```
 
 **ftpнбput()** завантажує локальний файл на сервер FTP.
@@ -62,19 +62,19 @@ ftp_nb_put(    FTP\Connection $ftp,    string $remote_filename,    s
 ```php
 <?php
 
-// Начало загрузки
-$ret = ftp_nb_put($ftp, "test.remote", "test.local", FTP_BINARY);
-while ($ret == FTP_MOREDATA) {
+// Начало загрузки
+$ret = ftp_nb_put($ftp, "test.remote", "test.local", FTP_BINARY);
+while ($ret == FTP_MOREDATA) {
 
-   // Производим какие-то действия ...
-   echo ".";
+   // Производим какие-то действия ...
+   echo ".";
 
-   // Продолжение загрузки ...
-   $ret = ftp_nb_continue($ftp);
+   // Продолжение загрузки ...
+   $ret = ftp_nb_continue($ftp);
 }
-if ($ret != FTP_FINISHED) {
-   echo "При загрузке файла произошла ошибка...";
-   exit(1);
+if ($ret != FTP_FINISHED) {
+   echo "При загрузке файла произошла ошибка...";
+   exit(1);
 }
 ?>
 ```
@@ -84,23 +84,23 @@ if ($ret != FTP_FINISHED) {
 ```php
 <?php
 
-// Начало загрузки
-$ret = ftp_nb_put($ftp, "test.remote", "test.local",
-                      FTP_BINARY, ftp_size("test.remote"));
-// ИЛИ: $ret = ftp_nb_put($ftp, "test.remote", "test.local",
-//                           FTP_BINARY, FTP_AUTORESUME);
+// Начало загрузки
+$ret = ftp_nb_put($ftp, "test.remote", "test.local",
+                      FTP_BINARY, ftp_size("test.remote"));
+// ИЛИ: $ret = ftp_nb_put($ftp, "test.remote", "test.local",
+//                           FTP_BINARY, FTP_AUTORESUME);
 
-while ($ret == FTP_MOREDATA) {
+while ($ret == FTP_MOREDATA) {
 
-   // Производим какие-то действия ...
-   echo ".";
+   // Производим какие-то действия ...
+   echo ".";
 
-   // Продолжение загрузки ...
-   $ret = ftp_nb_continue($ftp);
+   // Продолжение загрузки ...
+   $ret = ftp_nb_continue($ftp);
 }
-if ($ret != FTP_FINISHED) {
-   echo "При загрузке файла произошла ошибка...";
-   exit(1);
+if ($ret != FTP_FINISHED) {
+   echo "При загрузке файла произошла ошибка...";
+   exit(1);
 }
 ?>
 ```

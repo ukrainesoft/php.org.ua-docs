@@ -37,7 +37,7 @@ posix_get_last_error(): int
 ```php
 <?php
 posix_kill(999459,SIGKILL);
-echo 'Your error returned was '.posix_get_last_error(); //Your error was ___
+echo 'Your error returned was '.posix_get_last_error(); //Your error was ___
 ?>
 ```
 

@@ -42,8 +42,8 @@ Callback-функція має повертати нове значення, я�
 
 ```php
 <?php
-$sequence = new \Ds\Sequence([1, 2, 3]);
-$sequence->apply(function($value) { return $value * 2; });
+$sequence = new \Ds\Sequence([1, 2, 3]);
+$sequence->apply(function($value) { return $value * 2; });
 
 print_r($sequence);
 ?>

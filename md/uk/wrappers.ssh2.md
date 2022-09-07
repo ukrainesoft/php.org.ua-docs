@@ -15,7 +15,7 @@ ssh2:// - Secure Shell 2
 ssh2.shell:// ssh2.exec:// ssh2.tunnel:// ssh2.sftp:// ssh2.scp:// (PECL)
 
 > **Зауваження** **Ця обгортка не включена за замовчуванням**  
-> Для того щоб використовувати обгортки ssh2.:// вам необхідно встановити модуль [» SSH2](https://pecl.php.net/package/ssh2), доступний у репозиторії [» PECL](https://pecl.php.net/)
+> Для того щоб використовувати обгортки ssh2.:// вам необхідно встановити модуль [» SSH2](https://pecl.php.net/package/ssh2), доступний у репозиторії [» PECL](https://pecl.php.net/)
 
 Крім отримання традиційних даних для входу до URI, обгортки ssh2 також повторно використовувати відкриті з'єднання, передаючи ресурс з'єднання в хост-частину URL.
 
@@ -67,10 +67,10 @@ ssh2.shell:// ssh2.exec:// ssh2.tunnel:// ssh2.sftp:// ssh2.scp:// (PECL)
 
 ```php
 <?php
-$session = ssh2_connect('example.com', 22);
-ssh2_auth_pubkey_file($session, 'username', '/home/username/.ssh/id_rsa.pub',
-                                            '/home/username/.ssh/id_rsa', 'secret');
-$stream = fopen("ssh2.tunnel://$session/remote.example.com:1234", 'r');
+$session = ssh2_connect('example.com', 22);
+ssh2_auth_pubkey_file($session, 'username', '/home/username/.ssh/id_rsa.pub',
+                                            '/home/username/.ssh/id_rsa', 'secret');
+$stream = fopen("ssh2.tunnel://$session/remote.example.com:1234", 'r');
 ?>
 ```
 
@@ -80,12 +80,12 @@ $stream = fopen("ssh2.tunnel://$session/remote.example.com:1234", 'r');
 
 ```php
 <?php
-$session = ssh2_connect('example.com', 22);
-ssh2_auth_pubkey_file($session, 'username', '/home/username/.ssh/id_rsa.pub',
-                                            '/home/username/.ssh/id_rsa', 'secret');
-$connection_string = "ssh2.sftp://$session/";
+$session = ssh2_connect('example.com', 22);
+ssh2_auth_pubkey_file($session, 'username', '/home/username/.ssh/id_rsa.pub',
+                                            '/home/username/.ssh/id_rsa', 'secret');
+$connection_string = "ssh2.sftp://$session/";
 unset($session);
-$stream = fopen($connection_string . "path/to/file", 'r');
+$stream = fopen($connection_string . "path/to/file", 'r');
 ?>
 ```
 

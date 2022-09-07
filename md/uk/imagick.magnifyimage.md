@@ -38,11 +38,11 @@ public Imagick::magnifyImage(): bool
 
 ```php
 <?php
-function magnifyImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->magnifyImage();
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function magnifyImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->magnifyImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -15,7 +15,7 @@ tradersarext - Параболічний SAR - розширений
 ### Опис
 
 ```methodsynopsis
-trader_sarext(    array $high,    array $low,    float $startValue = ?,    float $offsetOnReverse = ?,    float $accelerationInitLong = ?,    float $accelerationLong = ?,    float $accelerationMaxLong = ?,    float $accelerationInitShort = ?,    float $accelerationShort = ?,    float $accelerationMaxShort = ?): array
+trader_sarext(    array $high,    array $low,    float $startValue = ?,    float $offsetOnReverse = ?,    float $accelerationInitLong = ?,    float $accelerationLong = ?,    float $accelerationMaxLong = ?,    float $accelerationInitShort = ?,    float $accelerationShort = ?,    float $accelerationMaxShort = ?): array
 ```
 
 ### Список параметрів

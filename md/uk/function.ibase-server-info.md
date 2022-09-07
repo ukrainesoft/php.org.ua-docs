@@ -38,30 +38,30 @@ ibase_server_info(resource $service_handle, int $action): string
 
 ```php
 <?php
-    // Присоединение к удаленному серверу Firebird
-    if (($service = ibase_service_attach('10.1.1.254/3050', 'sysdba', 'masterkey')) != FALSE) {
+    // Присоединение к удаленному серверу Firebird
+    if (($service = ibase_service_attach('10.1.1.254/3050', 'sysdba', 'masterkey')) != FALSE) {
 
-        // Присоединение прошло успешно.
+        // Присоединение прошло успешно.
 
-        // Вывод информации
-        echo "Версия сервера: " . ibase_server_info($service, IBASE_SVC_SERVER_VERSION) . "\n";
-        echo "Реализация сервера: " . ibase_server_info($service, IBASE_SVC_IMPLEMENTATION) . "\n";
-        echo "Пользователи сервера: " . print_r(ibase_server_info($service, IBASE_SVC_GET_USERS), true) . "\n";
-        echo "Директория сервера: " . ibase_server_info($service, IBASE_SVC_GET_ENV) . "\n";
-        echo "Путь блокировки сервера: " . ibase_server_info($service, IBASE_SVC_GET_ENV_LOCK) . "\n";
-        echo "Путь к библиотекам сервера: " . ibase_server_info($service, IBASE_SVC_GET_ENV_MSG) . "\n";
-        echo "Путь пользователя базы данных: " . ibase_server_info($service, IBASE_SVC_USER_DBPATH) . "\n";
-        echo "Установленные соединения: " . print_r(ibase_server_info($service, IBASE_SVC_SVR_DB_INFO),true) . "\n";
+        // Вывод информации
+        echo "Версия сервера: " . ibase_server_info($service, IBASE_SVC_SERVER_VERSION) . "\n";
+        echo "Реализация сервера: " . ibase_server_info($service, IBASE_SVC_IMPLEMENTATION) . "\n";
+        echo "Пользователи сервера: " . print_r(ibase_server_info($service, IBASE_SVC_GET_USERS), true) . "\n";
+        echo "Директория сервера: " . ibase_server_info($service, IBASE_SVC_GET_ENV) . "\n";
+        echo "Путь блокировки сервера: " . ibase_server_info($service, IBASE_SVC_GET_ENV_LOCK) . "\n";
+        echo "Путь к библиотекам сервера: " . ibase_server_info($service, IBASE_SVC_GET_ENV_MSG) . "\n";
+        echo "Путь пользователя базы данных: " . ibase_server_info($service, IBASE_SVC_USER_DBPATH) . "\n";
+        echo "Установленные соединения: " . print_r(ibase_server_info($service, IBASE_SVC_SVR_DB_INFO),true) . "\n";
 
-        // Отсоединение от сервера (отключение)
-        ibase_service_detach($service);
+        // Отсоединение от сервера (отключение)
+        ibase_service_detach($service);
 
-    }
-    else {
-        // Вывод сообщения в случае возникновения ошибки
-        $conn_error = ibase_errmsg();
-        die($conn_error);
-    }
+    }
+    else {
+        // Вывод сообщения в случае возникновения ошибки
+        $conn_error = ibase_errmsg();
+        die($conn_error);
+    }
 ?>
 ```
 

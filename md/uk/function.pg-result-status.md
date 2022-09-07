@@ -47,20 +47,20 @@ pg_result_status(PgSql\Result $result, int $mode = PGSQL_STATUS_LONG): string|in
 ```php
 <?php
 
-// Подключаемся к базе данных
-$conn = pg_pconnect("dbname=publisher");
+// Подключаемся к базе данных
+$conn = pg_pconnect("dbname=publisher");
 
-// Выполняем команду COPY
-$result = pg_query($conn, "COPY authors FROM STDIN;");
+// Выполняем команду COPY
+$result = pg_query($conn, "COPY authors FROM STDIN;");
 
-// Получаем состояние результата запроса
-$status = pg_result_status($result);
+// Получаем состояние результата запроса
+$status = pg_result_status($result);
 
-// Разбираем полученные данные
-if ($status == PGSQL_COPY_IN)
-   echo "Copy began.";
+// Разбираем полученные данные
+if ($status == PGSQL_COPY_IN)
+   echo "Copy began.";
 else
-   echo "Copy failed.";
+   echo "Copy failed.";
 
 ?>
 ```

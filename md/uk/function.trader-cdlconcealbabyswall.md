@@ -15,7 +15,7 @@ tradercdlconcealbabyswall — Ластівка, що ховається.
 ### Опис
 
 ```methodsynopsis
-trader_cdlconcealbabyswall(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlconcealbabyswall(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

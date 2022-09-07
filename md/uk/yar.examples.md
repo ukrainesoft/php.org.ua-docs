@@ -13,44 +13,44 @@ title: Приклади
 ```php
 <?php
 
-/* Предположим, что это страница может быть доступна по http://example.com/operator.php */
+/* Предположим, что это страница может быть доступна по http://example.com/operator.php */
 
-class Operator {
+class Operator {
 
-    /**
-     * Складываем два операнда
-     * @param interge
-     * @return interge
-     */
-    public function add($a, $b) {
-        return $this->_add($a, $b);
-    }
+    /**
+     * Складываем два операнда
+     * @param interge
+     * @return interge
+     */
+    public function add($a, $b) {
+        return $this->_add($a, $b);
+    }
 
-    /**
-     * Вычитаем
-     */
-    public function sub($a, $b) {
-        return $a - $b;
-    }
+    /**
+     * Вычитаем
+     */
+    public function sub($a, $b) {
+        return $a - $b;
+    }
 
-    /**
-     * Умножаем
-     */
-    public function mul($a, $b) {
-        return $a * $b;
-    }
+    /**
+     * Умножаем
+     */
+    public function mul($a, $b) {
+        return $a * $b;
+    }
 
-    /**
-     * Защищённый метод
-     * @param interge
-     * @return interge
-     */
-    protected function _add($a, $b) {
-        return $a + $b;
-    }
+    /**
+     * Защищённый метод
+     * @param interge
+     * @return interge
+     */
+    protected function _add($a, $b) {
+        return $a + $b;
+    }
 }
 
-$server = new Yar_Server(new Operator());
+$server = new Yar_Server(new Operator());
 $server->handle();
 ?>
 ```
@@ -65,17 +65,17 @@ $server->handle();
 
 ```php
 <?php
-$client = new yar_client("http://example.com/operator.php");
+$client = new yar_client("http://example.com/operator.php");
 
-/* вызываем напрямую */
-var_dump($client->add(1, 2));
+/* вызываем напрямую */
+var_dump($client->add(1, 2));
 
-/* вызываем через метод call */
-var_dump($client->call("add", array(3, 2)));
+/* вызываем через метод call */
+var_dump($client->call("add", array(3, 2)));
 
 
-/* невозможно вызвать __add */
-var_dump($client->_add(1, 2));
+/* невозможно вызвать __add */
+var_dump($client->_add(1, 2));
 ?>
 ```
 
@@ -91,16 +91,16 @@ PHP Fatal error:  Uncaught exception 'Yar_Server_Exception' with message 'call t
 
 ```php
 <?php
-function callback($ret, $callinfo) {
-    echo $callinfo['method'] , " result: ", $ret , "\n";
+function callback($ret, $callinfo) {
+    echo $callinfo['method'] , " result: ", $ret , "\n";
 }
 
-/* регистрируем асинхронные вызовы к удалённым сервисам */
-Yar_Concurrent_Client::call("http://example.com/operator.php", "add", array(1, 2), "callback");
-Yar_Concurrent_Client::call("http://example.com/operator.php", "sub", array(2, 1), "callback");
-Yar_Concurrent_Client::call("http://example.com/operator.php", "mul", array(2, 2), "callback");
+/* регистрируем асинхронные вызовы к удалённым сервисам */
+Yar_Concurrent_Client::call("http://example.com/operator.php", "add", array(1, 2), "callback");
+Yar_Concurrent_Client::call("http://example.com/operator.php", "sub", array(2, 1), "callback");
+Yar_Concurrent_Client::call("http://example.com/operator.php", "mul", array(2, 2), "callback");
 
-/* посылаем все запросы и ждём ответа */
+/* посылаем все запросы и ждём ответа */
 Yar_Concurrent_Client::loop();
 ?>
 ```

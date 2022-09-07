@@ -48,11 +48,11 @@ gmp_div_qr(GMP|int|string $num1, GMP|int|string $num2, int $rounding_mode = GMP_
 
 ```php
 <?php
-     $a = gmp_init("0x41682179fbf5");
-     $res = gmp_div_qr($a, "0xDEFE75");
-     printf("Результат: q - %s, r - %s",
-     gmp_strval($res[0]), gmp_strval($res[1]));
-     ?>
+     $a = gmp_init("0x41682179fbf5");
+     $res = gmp_div_qr($a, "0xDEFE75");
+     printf("Результат: q - %s, r - %s",
+     gmp_strval($res[0]), gmp_strval($res[1]));
+     ?>
 ```
 
 ### Дивіться також

@@ -45,13 +45,13 @@ stream_socket_shutdown(resource $stream, int $mode): bool
 ```php
 <?php
 
-$server = stream_socket_server('tcp://127.0.0.1:1337');
-$client = stream_socket_client('tcp://127.0.0.1:1337');
+$server = stream_socket_server('tcp://127.0.0.1:1337');
+$client = stream_socket_client('tcp://127.0.0.1:1337');
 
-var_dump(fputs($client, "привет"));
+var_dump(fputs($client, "привет"));
 
-stream_socket_shutdown($client, STREAM_SHUT_WR);
-var_dump(fputs($client, "привет")); // не работает сейчас
+stream_socket_shutdown($client, STREAM_SHUT_WR);
+var_dump(fputs($client, "привет")); // не работает сейчас
 
 ?>
 ```

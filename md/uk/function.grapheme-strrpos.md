@@ -46,10 +46,10 @@ grapheme_strrpos(string $haystack, string $needle, int $offset = 0): int|false
 
 ```php
 <?php
-$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
-$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
+$char_a_ring_nfd = "a\xCC\x8A";  // 'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"
+$char_o_diaeresis_nfd = "o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"
 
-print grapheme_strrpos( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_o_diaeresis_nfd, $char_o_diaeresis_nfd);
+print grapheme_strrpos( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_o_diaeresis_nfd, $char_o_diaeresis_nfd);
 ?>
 ```
 
@@ -66,4 +66,4 @@ print grapheme_strrpos( $char_a_ring_nfd . $char_o_diaeresis_nfd . $char_o
 -   [graphemestrpos()](function.grapheme-strpos.md) - знаходить позицію (в одиницях графеми) першого входження рядка
 -   [graphemestrripos()](function.grapheme-strripos.md) - Знаходить позицію (в одиницях графеми) останнього входження рядка без урахування регістру
 -   [graphemestrstr()](function.grapheme-strstr.md) - Повертає частину рядка haystack від першої появи needle до кінця haystack
--   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+-   [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

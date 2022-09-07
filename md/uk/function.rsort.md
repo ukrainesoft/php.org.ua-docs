@@ -59,10 +59,10 @@ rsort(array &$array, int $flags = SORT_REGULAR): bool
 
 ```php
 <?php
-$fruits = array("lemon", "orange", "banana", "apple");
+$fruits = array("lemon", "orange", "banana", "apple");
 rsort($fruits);
-foreach ($fruits as $key => $val) {
-    echo "$key = $val\n";
+foreach ($fruits as $key => $val) {
+    echo "$key = $val\n";
 }
 ?>
 ```

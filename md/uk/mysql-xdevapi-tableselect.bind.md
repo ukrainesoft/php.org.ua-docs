@@ -36,17 +36,17 @@ public mysql_xdevapi\TableSelect::bind(array $placeholder_values): mysql_xdevapi
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
-$result = $table->select('name','age')
-  ->where('name like :name and age > :age')
-  ->bind(['name' => 'John', 'age' => 42])
-  ->execute();
+$result = $table->select('name','age')
+  ->where('name like :name and age > :age')
+  ->bind(['name' => 'John', 'age' => 42])
+  ->execute();
 
-$row = $result->fetchAll();
+$row = $result->fetchAll();
 print_r($row);
 ?>
 ```

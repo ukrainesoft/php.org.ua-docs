@@ -15,7 +15,7 @@ db2tables — Повертає набір результатів, у якому 
 ### Опис
 
 ```methodsynopsis
-db2_tables(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table-name = ?,    string $table-type = ?): resource
+db2_tables(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table-name = ?,    string $table-type = ?): resource
 ```
 
 Повертає набір результатів, у якому перелічені таблиці та пов'язані метадані у базі даних.

@@ -58,15 +58,15 @@ pg_field_is_null(PgSql\Result $result, mixed $field): int
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die ("Не удалось соединиться с базой");
-  $res = pg_query($dbconn, "select * from authors where author = 'Orwell'");
-  if ($res) {
-      if (pg_field_is_null($res, 0, "year") == 1) {
-          echo "Значение поля year null.\n";
-      }
-      if (pg_field_is_null($res, 0, "year") == 0) {
-          echo "Значение поля year не null.\n";
-    }
- }
+  $dbconn = pg_connect("dbname=publisher") or die ("Не удалось соединиться с базой");
+  $res = pg_query($dbconn, "select * from authors where author = 'Orwell'");
+  if ($res) {
+      if (pg_field_is_null($res, 0, "year") == 1) {
+          echo "Значение поля year null.\n";
+      }
+      if (pg_field_is_null($res, 0, "year") == 0) {
+          echo "Значение поля year не null.\n";
+    }
+ }
 ?>
 ```

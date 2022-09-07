@@ -25,7 +25,7 @@ public XMLWriter::startDocument(?string $version = "1.0", ?string $encoding = nu
 Процедурний стиль
 
 ```methodsynopsis
-xmlwriter_start_document(    XMLWriter $writer,    ?string $version = "1.0",    ?string $encoding = null,    ?string $standalone = null): bool
+xmlwriter_start_document(    XMLWriter $writer,    ?string $version = "1.0",    ?string $encoding = null,    ?string $standalone = null): bool
 ```
 
 Починає документ.

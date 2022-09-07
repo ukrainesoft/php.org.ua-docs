@@ -51,24 +51,24 @@ constant(string $name): mixed
 ```php
 <?php
 
-define("MAXSIZE", 100);
+define("MAXSIZE", 100);
 
-echo MAXSIZE;
-echo constant("MAXSIZE"); // результат аналогичен предыдущему выводу
+echo MAXSIZE;
+echo constant("MAXSIZE"); // результат аналогичен предыдущему выводу
 
 
-interface bar {
-    const test = 'foobar!';
+interface bar {
+    const test = 'foobar!';
 }
 
-class foo {
-    const test = 'foobar!';
+class foo {
+    const test = 'foobar!';
 }
 
-$const = 'test';
+$const = 'test';
 
-var_dump(constant('bar::'. $const)); // string(7) "foobar!"
-var_dump(constant('foo::'. $const)); // string(7) "foobar!"
+var_dump(constant('bar::'. $const)); // string(7) "foobar!"
+var_dump(constant('foo::'. $const)); // string(7) "foobar!"
 
 ?>
 ```

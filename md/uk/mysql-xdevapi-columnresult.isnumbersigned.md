@@ -39,7 +39,7 @@ public mysql_xdevapi\ColumnResult::isNumberSigned(): int
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

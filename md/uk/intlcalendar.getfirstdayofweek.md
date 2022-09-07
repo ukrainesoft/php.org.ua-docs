@@ -44,17 +44,17 @@ intlcal_get_first_day_of_week(IntlCalendar $calendar): int|false
 
 ```php
 <?php
-ini_set('date.timezone', 'UTC');
+ini_set('date.timezone', 'UTC');
 
-$cal1 = IntlCalendar::createInstance(NULL, 'es_ES');
-var_dump($cal1->getFirstDayOfWeek()); // Понедельник
-$cal1->set(2013, 1 /* Февраль */, 3); // Воскресенье
-var_dump($cal1->get(IntlCalendar::FIELD_WEEK_OF_YEAR)); // 5
+$cal1 = IntlCalendar::createInstance(NULL, 'es_ES');
+var_dump($cal1->getFirstDayOfWeek()); // Понедельник
+$cal1->set(2013, 1 /* Февраль */, 3); // Воскресенье
+var_dump($cal1->get(IntlCalendar::FIELD_WEEK_OF_YEAR)); // 5
 
-$cal2 = IntlCalendar::createInstance(NULL, 'en_US');
-var_dump($cal2->getFirstDayOfWeek()); // Воскресенье
-$cal2->set(2013, 1 /* Февраль */, 3); // Воскресенье
-var_dump($cal2->get(IntlCalendar::FIELD_WEEK_OF_YEAR)); // 6
+$cal2 = IntlCalendar::createInstance(NULL, 'en_US');
+var_dump($cal2->getFirstDayOfWeek()); // Воскресенье
+$cal2->set(2013, 1 /* Февраль */, 3); // Воскресенье
+var_dump($cal2->get(IntlCalendar::FIELD_WEEK_OF_YEAR)); // 6
 ```
 
 Результат виконання цього прикладу:

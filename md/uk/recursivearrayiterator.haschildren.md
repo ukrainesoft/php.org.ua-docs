@@ -34,23 +34,23 @@ public RecursiveArrayIterator::hasChildren(): bool
 
 ```php
 <?php
-$fruits = array("a" => "lemon", "b" => "orange", array("a" => "apple", "p" => "pear"));
+$fruits = array("a" => "lemon", "b" => "orange", array("a" => "apple", "p" => "pear"));
 
-$iterator = new RecursiveArrayIterator($fruits);
+$iterator = new RecursiveArrayIterator($fruits);
 
-while ($iterator->valid()) {
+while ($iterator->valid()) {
 
-    // проверим, есть ли дочерние элементы
-    if ($iterator->hasChildren()) {
-        // выведем информацию о дочерних элементах
-        foreach ($iterator->getChildren() as $key => $value) {
-            echo $key . ' : ' . $value . "\n";
-        }
-    } else {
-        echo "Дочерних элементов нет.\n";
-    }
+    // проверим, есть ли дочерние элементы
+    if ($iterator->hasChildren()) {
+        // выведем информацию о дочерних элементах
+        foreach ($iterator->getChildren() as $key => $value) {
+            echo $key . ' : ' . $value . "\n";
+        }
+    } else {
+        echo "Дочерних элементов нет.\n";
+    }
 
-    $iterator->next();
+    $iterator->next();
 }
 ?>
 ```

@@ -44,13 +44,13 @@ public ReflectionParameter::getClass(): ?ReflectionClass
 
 ```php
 <?php
-function foo(Exception $a) { }
+function foo(Exception $a) { }
 
-$functionReflection = new ReflectionFunction('foo');
-$parameters = $functionReflection->getParameters();
-$aParameter = $parameters[0];
+$functionReflection = new ReflectionFunction('foo');
+$parameters = $functionReflection->getParameters();
+$aParameter = $parameters[0];
 
-echo $aParameter->getClass()->name;
+echo $aParameter->getClass()->name;
 ?>
 ```
 

@@ -15,7 +15,7 @@ title: мбstripos
 ### Опис
 
 ```methodsynopsis
-mb_stripos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
+mb_stripos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
 ```
 
 **мбstripos()** повертає позицію першого входження рядка `needle` у рядку `haystack`. На відміну від [мбstrpos()](function.mb-strpos.md) **мбstripos()** не чутлива до регістру символів. Якщо рядок `needle` не знайдено, функція поверне **`false`**

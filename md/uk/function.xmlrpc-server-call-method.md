@@ -15,7 +15,7 @@ xmlrpcservercallmethod — Розбирає XML-запити та методи, 
 ### Опис
 
 ```methodsynopsis
-xmlrpc_server_call_method(    resource $server,    string $xml,    mixed $user_data,    array $output_options = ?): string
+xmlrpc_server_call_method(    resource $server,    string $xml,    mixed $user_data,    array $output_options = ?): string
 ```
 
 **Увага**

@@ -48,19 +48,19 @@ imagesavealpha(GdImage $image, bool $enable): bool
 
 ```php
 <?php
-// Загрузка png изображения с альфа каналом
-$png = imagecreatefrompng('./alphachannel_example.png');
+// Загрузка png изображения с альфа каналом
+$png = imagecreatefrompng('./alphachannel_example.png');
 
-// Выключение альфа-смешения
-imagealphablending($png, false);
+// Выключение альфа-смешения
+imagealphablending($png, false);
 
-// Какие-то операции
+// Какие-то операции
 
-// Установка альфа-флага
-imagesavealpha($png, true);
+// Установка альфа-флага
+imagesavealpha($png, true);
 
-// Вывод изображения и очистка памяти
-header('Content-Type: image/png');
+// Вывод изображения и очистка памяти
+header('Content-Type: image/png');
 
 imagepng($png);
 imagedestroy($png);

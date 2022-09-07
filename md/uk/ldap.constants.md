@@ -166,55 +166,55 @@ title: Обумовлені константи
 
 **`LDAP_EXOP_START_TLS`** (int)
 
-Константа розширеної операції - Start TLS ([» RFC 4511](http://www.faqs.org/rfcs/rfc4511)
+Константа розширеної операції - Start TLS ([» RFC 4511](http://www.faqs.org/rfcs/rfc4511)
 
 **`LDAP_EXOP_MODIFY_PASSWD`** (string)
 
-Константа розширеної операції - Modify password ([» RFC 3062](http://www.faqs.org/rfcs/rfc3062)
+Константа розширеної операції - Modify password ([» RFC 3062](http://www.faqs.org/rfcs/rfc3062)
 
 **`LDAP_EXOP_REFRESH`** (string)
 
-Константа розширеної операції - Refresh ([» RFC 2589](http://www.faqs.org/rfcs/rfc2589)
+Константа розширеної операції - Refresh ([» RFC 2589](http://www.faqs.org/rfcs/rfc2589)
 
 **`LDAP_EXOP_WHO_AM_I`** (string)
 
-Константа розширеної операції - WHOAMI ([» RFC 4532](http://www.faqs.org/rfcs/rfc4532)
+Константа розширеної операції - WHOAMI ([» RFC 4532](http://www.faqs.org/rfcs/rfc4532)
 
 **`LDAP_EXOP_TURN`** (string)
 
-Константа розширеної операції - Turn ([» RFC 4531](http://www.faqs.org/rfcs/rfc4531)
+Константа розширеної операції - Turn ([» RFC 4531](http://www.faqs.org/rfcs/rfc4531)
 
 **`LDAP_CONTROL_MANAGEDSAIT`** (string)
 
-Керуюча константа - управління DSA IT ([» RFC 3296](http://www.faqs.org/rfcs/rfc3296)). Доступно з PHP 7.3.0.
+Керуюча константа - управління DSA IT ([» RFC 3296](http://www.faqs.org/rfcs/rfc3296)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_PROXY_AUTHZ`** (string)
 
-Керуюча константа - проксі-авторизація ([» RFC 4370](http://www.faqs.org/rfcs/rfc4730)). Доступно з PHP 7.3.0.
+Керуюча константа - проксі-авторизація ([» RFC 4370](http://www.faqs.org/rfcs/rfc4730)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_SUBENTRIES`** (string)
 
-Керуюча константа - підрозділи ([» RFC 3672](http://www.faqs.org/rfcs/rfc3672)). Доступно з PHP 7.3.0.
+Керуюча константа - підрозділи ([» RFC 3672](http://www.faqs.org/rfcs/rfc3672)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_VALUESRETURNFILTER`** (string)
 
-Керуюча константа - фільтрація значень, що повертаються ([» RFC 3876](http://www.faqs.org/rfcs/rfc3876)). Доступно з PHP 7.3.0.
+Керуюча константа - фільтрація значень, що повертаються ([» RFC 3876](http://www.faqs.org/rfcs/rfc3876)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_ASSERT`** (string)
 
-Керуюча константа - контроль тверджень ([» RFC 4528](http://www.faqs.org/rfcs/rfc45282)). Доступно з PHP 7.3.0.
+Керуюча константа - контроль тверджень ([» RFC 4528](http://www.faqs.org/rfcs/rfc45282)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_PRE_READ`** (string)
 
-Керуюча константа - повернення початкового значення ([» RFC 4527](http://www.faqs.org/rfcs/rfc4527)). Доступно з PHP 7.3.0.
+Керуюча константа - повернення початкового значення ([» RFC 4527](http://www.faqs.org/rfcs/rfc4527)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_POST_READ`** (string)
 
-Керуюча константа - повернення підсумкового значення ([» RFC 4527](http://www.faqs.org/rfcs/rfc4527)). Доступно з PHP 7.3.0.
+Керуюча константа - повернення підсумкового значення ([» RFC 4527](http://www.faqs.org/rfcs/rfc4527)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_SORTREQUEST`** (string)
 
-Керуюча константа - запит сортування ([» RFC 2891](http://www.faqs.org/rfcs/rfc2891)). Доступно з PHP 7.3.0.
+Керуюча константа - запит сортування ([» RFC 2891](http://www.faqs.org/rfcs/rfc2891)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_SORTRESPONSE`** (string)
 
@@ -222,31 +222,31 @@ title: Обумовлені константи
 
 **`LDAP_CONTROL_PAGEDRESULTS`** (string)
 
-Керуюча константа - пагінація результату ([» RFC 2696](http://www.faqs.org/rfcs/rfc2696)). Доступно з PHP 7.3.0.
+Керуюча константа - пагінація результату ([» RFC 2696](http://www.faqs.org/rfcs/rfc2696)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_AUTHZID_REQUEST`** (string)
 
-Керуюча константа - запит ідентифікації авторизації ([» RFC 3829](http://www.faqs.org/rfcs/rfc3829)). Доступно з PHP 7.3.0.
+Керуюча константа - запит ідентифікації авторизації ([» RFC 3829](http://www.faqs.org/rfcs/rfc3829)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_AUTHZID_RESPONSE`** (string)
 
-Керуюча константа - відповідь на запит ідентифікації авторизації ([» RFC 3829](http://www.faqs.org/rfcs/rfc3829)). Доступно з PHP 7.3.0.
+Керуюча константа - відповідь на запит ідентифікації авторизації ([» RFC 3829](http://www.faqs.org/rfcs/rfc3829)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_SYNC`** (string)
 
-Керуюча константа - операція синхронізації контенту ([» RFC 4533](http://www.faqs.org/rfcs/rfc4533)). Доступно з PHP 7.3.0.
+Керуюча константа - операція синхронізації контенту ([» RFC 4533](http://www.faqs.org/rfcs/rfc4533)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_SYNC_STATE`** (string)
 
-Керуюча константа - стан операції синхронізації контенту ([» RFC 4533](http://www.faqs.org/rfcs/rfc4533)). Доступно з PHP 7.3.0.
+Керуюча константа - стан операції синхронізації контенту ([» RFC 4533](http://www.faqs.org/rfcs/rfc4533)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_SYNC_DONE`** (string)
 
-Керуюча константа - операція синхронізації контенту завершена ([» RFC 4533](http://www.faqs.org/rfcs/rfc4533)). Доступно з PHP 7.3.0.
+Керуюча константа - операція синхронізації контенту завершена ([» RFC 4533](http://www.faqs.org/rfcs/rfc4533)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_DONTUSECOPY`** (string)
 
-Керуюча константа - не використовувати копію ([» RFC 6171](http://www.faqs.org/rfcs/rfc6171)). Доступно з PHP 7.3.0.
+Керуюча константа - не використовувати копію ([» RFC 6171](http://www.faqs.org/rfcs/rfc6171)). Доступно з PHP 7.3.0.
 
 **`LDAP_CONTROL_PASSWORDPOLICYREQUEST`** (string)
 

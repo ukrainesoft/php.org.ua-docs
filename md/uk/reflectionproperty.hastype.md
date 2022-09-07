@@ -34,12 +34,12 @@ public ReflectionProperty::hasType(): bool
 
 ```php
 <?php
-class User
+class User
 {
-    public string $name;
+    public string $name;
 }
 
-$rp = new ReflectionProperty('User', 'name');
+$rp = new ReflectionProperty('User', 'name');
 var_dump($rp->hasType());
 ?>
 ```

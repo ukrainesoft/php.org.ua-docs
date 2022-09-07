@@ -15,59 +15,59 @@ title: 'Базові клієнт та обробник Gearman, відправ�
 ```php
 <?php
 
-# создание клиента gearman
-$gmc= new GearmanClient();
+# создание клиента gearman
+$gmc= new GearmanClient();
 
-# указание сервера по умолчанию (localhost)
+# указание сервера по умолчанию (localhost)
 $gmc->addServer();
 
-# регистрация функций обратного вызова
+# регистрация функций обратного вызова
 $gmc->setCreatedCallback("reverse_created");
 $gmc->setDataCallback("reverse_data");
 $gmc->setStatusCallback("reverse_status");
 $gmc->setCompleteCallback("reverse_complete");
 $gmc->setFailCallback("reverse_fail");
 
-# указание неких произвольных данных
-$data['foo'] = 'bar';
+# указание неких произвольных данных
+$data['foo'] = 'bar';
 
-# добавление двух заданий
-$task= $gmc->addTask("reverse", "foo", $data);
-$task2= $gmc->addTaskLow("reverse", "bar", NULL);
+# добавление двух заданий
+$task= $gmc->addTask("reverse", "foo", $data);
+$task2= $gmc->addTaskLow("reverse", "bar", NULL);
 
-# выполнение заданий параллельно (использование двух обработчиков)
-if (! $gmc->runTasks())
+# выполнение заданий параллельно (использование двух обработчиков)
+if (! $gmc->runTasks())
 {
-    echo "ERROR " . $gmc->error() . "\n";
-    exit;
+    echo "ERROR " . $gmc->error() . "\n";
+    exit;
 }
 
-echo "DONE\n";
+echo "DONE\n";
 
-function reverse_created($task)
+function reverse_created($task)
 {
-    echo "CREATED: " . $task->jobHandle() . "\n";
+    echo "CREATED: " . $task->jobHandle() . "\n";
 }
 
-function reverse_status($task)
+function reverse_status($task)
 {
-    echo "STATUS: " . $task->jobHandle() . " - " . $task->taskNumerator() .
-         "/" . $task->taskDenominator() . "\n";
+    echo "STATUS: " . $task->jobHandle() . " - " . $task->taskNumerator() .
+         "/" . $task->taskDenominator() . "\n";
 }
 
-function reverse_complete($task)
+function reverse_complete($task)
 {
-    echo "COMPLETE: " . $task->jobHandle() . ", " . $task->data() . "\n";
+    echo "COMPLETE: " . $task->jobHandle() . ", " . $task->data() . "\n";
 }
 
-function reverse_fail($task)
+function reverse_fail($task)
 {
-    echo "FAILED: " . $task->jobHandle() . "\n";
+    echo "FAILED: " . $task->jobHandle() . "\n";
 }
 
-function reverse_data($task)
+function reverse_data($task)
 {
-    echo "DATA: " . $task->data() . "\n";
+    echo "DATA: " . $task->data() . "\n";
 }
 
 ?>
@@ -76,57 +76,57 @@ function reverse_data($task)
 ```php
 <?php
 
-echo "Starting\n";
+echo "Starting\n";
 
-# Создание обработчика.
-$gmworker= new GearmanWorker();
+# Создание обработчика.
+$gmworker= new GearmanWorker();
 
-# Указание сервера по умолчанию  (localhost).
+# Указание сервера по умолчанию  (localhost).
 $gmworker->addServer();
 
-# Регистрация функции "reverse" на сервере. Изменение функции обработчика на
-# "reverse_fn_fast" для более быстрой обработки без вывода.
-$gmworker->addFunction("reverse", "reverse_fn");
+# Регистрация функции "reverse" на сервере. Изменение функции обработчика на
+# "reverse_fn_fast" для более быстрой обработки без вывода.
+$gmworker->addFunction("reverse", "reverse_fn");
 
-print "Waiting for job...\n";
+print "Waiting for job...\n";
 while($gmworker->work())
 {
-  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
-  {
-    echo "return_code: " . $gmworker->returnCode() . "\n";
-    break;
-  }
+  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
+  {
+    echo "return_code: " . $gmworker->returnCode() . "\n";
+    break;
+  }
 }
 
-function reverse_fn($job)
+function reverse_fn($job)
 {
-  echo "Received job: " . $job->handle() . "\n";
+  echo "Received job: " . $job->handle() . "\n";
 
-  $workload = $job->workload();
-  $workload_size = $job->workloadSize();
+  $workload = $job->workload();
+  $workload_size = $job->workloadSize();
 
-  echo "Workload: $workload ($workload_size)\n";
+  echo "Workload: $workload ($workload_size)\n";
 
-  # Этот цикл не является необходимым, но показывает как выполняется работа
-  for ($x= 0; $x < $workload_size; $x++)
-  {
-    echo "Sending status: " . ($x + 1) . "/$workload_size complete\n";
-    $job->sendStatus($x+1, $workload_size);
-    $job->sendData(substr($workload, $x, 1));
-    sleep(1);
-  }
+  # Этот цикл не является необходимым, но показывает как выполняется работа
+  for ($x= 0; $x < $workload_size; $x++)
+  {
+    echo "Sending status: " . ($x + 1) . "/$workload_size complete\n";
+    $job->sendStatus($x+1, $workload_size);
+    $job->sendData(substr($workload, $x, 1));
+    sleep(1);
+  }
 
-  $result= strrev($workload);
-  echo "Result: $result\n";
+  $result= strrev($workload);
+  echo "Result: $result\n";
 
-  # Возвращаем, когда необходимо отправить результат обратно клиенту.
-  return $result;
+  # Возвращаем, когда необходимо отправить результат обратно клиенту.
+  return $result;
 }
 
-# Гораздо более простая и менее подробная версия вышеприведённой функции выглядит так:
-function reverse_fn_fast($job)
+# Гораздо более простая и менее подробная версия вышеприведённой функции выглядит так:
+function reverse_fn_fast($job)
 {
-  return strrev($job->workload());
+  return strrev($job->workload());
 }
 
 ?>

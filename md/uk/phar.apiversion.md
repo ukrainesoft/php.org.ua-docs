@@ -32,7 +32,7 @@ final public static Phar::apiVersion(): string
 
 ```php
 <?php
-echo Phar::apiVersion();
+echo Phar::apiVersion();
 ?>
 ```
 

@@ -36,12 +36,12 @@ disk_total_space(string $directory): float|false
 
 ```php
 <?php
-// $df содержит общий размер диска "/" в байтах
-$ds = disk_total_space("/");
+// $df содержит общий размер диска "/" в байтах
+$ds = disk_total_space("/");
 
-// В Windows:
-$ds = disk_total_space("C:");
-$ds = disk_total_space("D:");
+// В Windows:
+$ds = disk_total_space("C:");
+$ds = disk_total_space("D:");
 ?>
 ```
 

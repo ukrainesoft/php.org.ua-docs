@@ -40,11 +40,11 @@ uopz_implement(string $class, string $interface): bool
 
 ```php
 <?php
-interface myInterface {}
+interface myInterface {}
 
-class myClass {}
+class myClass {}
 
-uopz_implement(myClass::class, myInterface::class);
+uopz_implement(myClass::class, myInterface::class);
 
 var_dump(class_implements(myClass::class));
 ?>

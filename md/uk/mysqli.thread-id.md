@@ -52,27 +52,27 @@ mysqli_thread_id(mysqli $mysql): int
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* определяем наш id процесса */
-$thread_id = $mysqli->thread_id;
+/* определяем наш id процесса */
+$thread_id = $mysqli->thread_id;
 
-/* убиваем соединение */
+/* убиваем соединение */
 $mysqli->kill($thread_id);
 
-/* тут должна произойти ошибка */
-if (!$mysqli->query("CREATE TABLE myCity LIKE City")) {
-    printf("Ошибка: %s\n", $mysqli->error);
-    exit;
+/* тут должна произойти ошибка */
+if (!$mysqli->query("CREATE TABLE myCity LIKE City")) {
+    printf("Ошибка: %s\n", $mysqli->error);
+    exit;
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -81,27 +81,27 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* определяем наш id процесса */
-$thread_id = mysqli_thread_id($link);
+/* определяем наш id процесса */
+$thread_id = mysqli_thread_id($link);
 
-/* убиваем соединение */
-mysqli_kill($link, $thread_id);
+/* убиваем соединение */
+mysqli_kill($link, $thread_id);
 
-/* тут должна произойти ошибка */
-if (!mysqli_query($link, "CREATE TABLE myCity LIKE City")) {
-    printf("Ошибка: %s\n", mysqli_error($link));
-    exit;
+/* тут должна произойти ошибка */
+if (!mysqli_query($link, "CREATE TABLE myCity LIKE City")) {
+    printf("Ошибка: %s\n", mysqli_error($link));
+    exit;
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

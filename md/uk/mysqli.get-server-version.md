@@ -48,18 +48,18 @@ mysqli_get_server_version(mysqli $mysql): int
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password");
+$mysqli = new mysqli("localhost", "my_user", "my_password");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Соединение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Соединение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* выводим версию сервера */
-printf("Версия сервера: %d\n", $mysqli->server_version);
+/* выводим версию сервера */
+printf("Версия сервера: %d\n", $mysqli->server_version);
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -68,18 +68,18 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password");
+$link = mysqli_connect("localhost", "my_user", "my_password");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Соединение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Соединение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* выводим версию сервера */
-printf("Версия сервера: %d\n", mysqli_get_server_version($link));
+/* выводим версию сервера */
+printf("Версия сервера: %d\n", mysqli_get_server_version($link));
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

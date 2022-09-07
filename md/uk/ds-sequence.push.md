@@ -36,12 +36,12 @@ abstract public Ds\Sequence::push(mixed ...$values): void
 
 ```php
 <?php
-$sequence = new \Ds\Vector();
+$sequence = new \Ds\Vector();
 
 $sequence->push("a");
 $sequence->push("b");
-$sequence->push("c", "d");
-$sequence->push(...["e", "f"]);
+$sequence->push("c", "d");
+$sequence->push(...["e", "f"]);
 
 print_r($sequence);
 ?>

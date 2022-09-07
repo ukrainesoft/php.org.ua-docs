@@ -15,7 +15,7 @@ SoapClient::doRequest — Виконує запит SOAP
 ### Опис
 
 ```methodsynopsis
-public SoapClient::__doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
+public SoapClient::__doRequest(    string $request,    string $location,    string $action,    int $version,    bool $oneWay = false): ?string
 ```
 
 Виконує SOAP-запит поверх HTTP.
@@ -60,30 +60,30 @@ URL для запиту.
 
 ```php
 <?php
-function Add($x,$y) {
-  return $x+$y;
+function Add($x,$y) {
+  return $x+$y;
 }
 
-class LocalSoapClient extends SoapClient {
+class LocalSoapClient extends SoapClient {
 
-  function __construct($wsdl, $options) {
-    parent::__construct($wsdl, $options);
-    $this->server = new SoapServer($wsdl, $options);
-    $this->server->addFunction('Add');
-  }
+  function __construct($wsdl, $options) {
+    parent::__construct($wsdl, $options);
+    $this->server = new SoapServer($wsdl, $options);
+    $this->server->addFunction('Add');
+  }
 
-  function __doRequest($request, $location, $action, $version, $one_way = 0) {
-    ob_start();
-    $this->server->handle($request);
-    $response = ob_get_contents();
-    ob_end_clean();
-    return $response;
-  }
+  function __doRequest($request, $location, $action, $version, $one_way = 0) {
+    ob_start();
+    $this->server->handle($request);
+    $response = ob_get_contents();
+    ob_end_clean();
+    return $response;
+  }
 
 }
 
-$x = new LocalSoapClient(NULL,array('location'=>'test://',
-                                   'uri'=>'http://testuri.org'));
+$x = new LocalSoapClient(NULL,array('location'=>'test://',
+                                   'uri'=>'http://testuri.org'));
 var_dump($x->Add(3,4));
 ?>
 ```

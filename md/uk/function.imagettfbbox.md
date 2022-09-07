@@ -15,7 +15,7 @@ imagettfbbox — Отримання параметрів рамки, що обр
 ### Опис
 
 ```methodsynopsis
-imagettfbbox(    float $size,    float $angle,    string $font_filename,    string $string,    array $options = []): array|false
+imagettfbbox(    float $size,    float $angle,    string $font_filename,    string $string,    array $options = []): array|false
 ```
 
 Ця функція розраховує та повертає параметри рамки навколо тексту TrueType у пікселах.
@@ -46,11 +46,11 @@ imagettfbbox(    float $size,    float $angle,    string $font_filen
 
 ```php
 <?php
-// Установка переменной окружения для GD
-putenv('GDFONTPATH=' . realpath('.'));
+// Установка переменной окружения для GD
+putenv('GDFONTPATH=' . realpath('.'));
 
-// Имя шрифта для использования (обратите внимание, что расширение .ttf не указывается)
-$font = 'SomeFont';
+// Имя шрифта для использования (обратите внимание, что расширение .ttf не указывается)
+$font = 'SomeFont';
 ?>
 ```
 
@@ -91,39 +91,39 @@ $font = 'SomeFont';
 
 ```php
 <?php
-// создание изображения 300x150
-$im = imagecreatetruecolor(300, 150);
-$black = imagecolorallocate($im, 0, 0, 0);
-$white = imagecolorallocate($im, 255, 255, 255);
+// создание изображения 300x150
+$im = imagecreatetruecolor(300, 150);
+$black = imagecolorallocate($im, 0, 0, 0);
+$white = imagecolorallocate($im, 255, 255, 255);
 
-// Белый фон
-imagefilledrectangle($im, 0, 0, 299, 299, $white);
+// Белый фон
+imagefilledrectangle($im, 0, 0, 299, 299, $white);
 
-// Путь к файлу шрифта
-$font = './arial.ttf';
+// Путь к файлу шрифта
+$font = './arial.ttf';
 
-// создаём рамку для текста
-$bbox = imagettfbbox(10, 45, $font, 'Powered by PHP ' . phpversion());
+// создаём рамку для текста
+$bbox = imagettfbbox(10, 45, $font, 'Powered by PHP ' . phpversion());
 
-// наши координаты X и Y
-$x = $bbox[0] + (imagesx($im) / 2) - ($bbox[4] / 2) - 25;
-$y = $bbox[1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;
+// наши координаты X и Y
+$x = $bbox[0] + (imagesx($im) / 2) - ($bbox[4] / 2) - 25;
+$y = $bbox[1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;
 
-// Пишем текст
-imagettftext($im, 10, 45, $x, $y, $black, $font, 'Powered by PHP ' . phpversion());
+// Пишем текст
+imagettftext($im, 10, 45, $x, $y, $black, $font, 'Powered by PHP ' . phpversion());
 
-// создаём другую рамку для другого текста
-$bbox = imagettfbbox(10, 45, $font, 'and Zend Engine ' . zend_version());
+// создаём другую рамку для другого текста
+$bbox = imagettfbbox(10, 45, $font, 'and Zend Engine ' . zend_version());
 
-// задаём координаты так, чтобы текст шёл сразу за первой надписью
-$x = $bbox[0] + (imagesx($im) / 2) - ($bbox[4] / 2) + 10;
-$y = $bbox[1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;
+// задаём координаты так, чтобы текст шёл сразу за первой надписью
+$x = $bbox[0] + (imagesx($im) / 2) - ($bbox[4] / 2) + 10;
+$y = $bbox[1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;
 
-// Пишем вторую надпись
-imagettftext($im, 10, 45, $x, $y, $black, $font, 'and Zend Engine ' . zend_version());
+// Пишем вторую надпись
+imagettftext($im, 10, 45, $x, $y, $black, $font, 'and Zend Engine ' . zend_version());
 
-// Вывод в броузер
-header('Content-Type: image/png');
+// Вывод в броузер
+header('Content-Type: image/png');
 
 imagepng($im);
 imagedestroy($im);

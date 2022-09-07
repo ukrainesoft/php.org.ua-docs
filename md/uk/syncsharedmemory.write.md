@@ -48,18 +48,18 @@ public SyncSharedMemory::write(string $string = ?, int $start = 0)
 
 ```php
 <?php
-// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.
-// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.
-$mem = new SyncSharedMemory("AppReportName", 1024);
-if ($mem->first())
+// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.
+// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.
+$mem = new SyncSharedMemory("AppReportName", 1024);
+if ($mem->first())
 {
-    // Здесь можно выполнить первоначальную инициализацию.
+    // Здесь можно выполнить первоначальную инициализацию.
 }
 
-$result = $mem->write("report.txt");
+$result = $mem->write("report.txt");
 var_dump($result);
 
-$result = $mem->write("report.txt", -3);
+$result = $mem->write("report.txt", -3);
 var_dump($result);
 ?>
 ```

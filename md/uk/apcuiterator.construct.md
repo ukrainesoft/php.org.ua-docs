@@ -46,9 +46,9 @@ int `$list` = APCLISTACTIVE
 
 ```php
 <?php
-foreach (new APCUIterator('/^counter\./') as $counter) {
-    echo "$counter[key]: $counter[value]\n";
-    apc_dec($counter['key'], $counter['value']);
+foreach (new APCUIterator('/^counter\./') as $counter) {
+    echo "$counter[key]: $counter[value]\n";
+    apc_dec($counter['key'], $counter['value']);
 }
 ?>
 ```

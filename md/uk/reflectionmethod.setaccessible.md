@@ -38,20 +38,20 @@ public ReflectionMethod::setAccessible(bool $accessible): void
 
 ```php
 <?php
-class MyClass
+class MyClass
 {
-    private function foo()
-    {
-        return 'bar';
-    }
+    private function foo()
+    {
+        return 'bar';
+    }
 }
 
-$method = new ReflectionMethod("MyClass", "foo");
+$method = new ReflectionMethod("MyClass", "foo");
 $method->setAccessible(true);
 
-$obj = new MyClass();
-echo $method->invoke($obj);
-echo $obj->foo();
+$obj = new MyClass();
+echo $method->invoke($obj);
+echo $obj->foo();
 ?>
 ```
 

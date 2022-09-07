@@ -59,9 +59,9 @@ SQL-запит
 
 ```php
 <?php
-$result = mysql_query('SELECT * WHERE 1 = 1');
-if (!$result) {
-    die('Неверный запрос: ' . mysql_error());
+$result = mysql_query('SELECT * WHERE 1 = 1');
+if (!$result) {
+    die('Неверный запрос: ' . mysql_error());
 }
 
 ?>
@@ -73,42 +73,42 @@ if (!$result) {
 
 ```php
 <?php
-// Эти данные, к примеру, могли быть получены от пользователя
-$firstname = 'fred';
-$lastname  = 'fox';
+// Эти данные, к примеру, могли быть получены от пользователя
+$firstname = 'fred';
+$lastname  = 'fox';
 
-// Формируем запрос
-// Это лучший способ выполнить SQL-запрос
-// Ещё примеры можно найти в документации mysql_real_escape_string()
-$query = sprintf("SELECT firstname, lastname, address, age FROM friends
-    WHERE firstname='%s' AND lastname='%s'",
-    mysql_real_escape_string($firstname),
-    mysql_real_escape_string($lastname));
+// Формируем запрос
+// Это лучший способ выполнить SQL-запрос
+// Ещё примеры можно найти в документации mysql_real_escape_string()
+$query = sprintf("SELECT firstname, lastname, address, age FROM friends
+    WHERE firstname='%s' AND lastname='%s'",
+    mysql_real_escape_string($firstname),
+    mysql_real_escape_string($lastname));
 
-// Выполняем запрос
-$result = mysql_query($query);
+// Выполняем запрос
+$result = mysql_query($query);
 
-// Проверяем результат
-// Это показывает реальный запрос, посланный к MySQL, а также ошибку. Удобно при отладке.
-if (!$result) {
-    $message  = 'Неверный запрос: ' . mysql_error() . "\n";
-    $message .= 'Запрос целиком: ' . $query;
-    die($message);
+// Проверяем результат
+// Это показывает реальный запрос, посланный к MySQL, а также ошибку. Удобно при отладке.
+if (!$result) {
+    $message  = 'Неверный запрос: ' . mysql_error() . "\n";
+    $message .= 'Запрос целиком: ' . $query;
+    die($message);
 }
 
-// Используем результат
-// Попытка напечатать $result не выведет информацию, которая в нем хранится
-// Необходимо использовать какую-либо mysql-функцию, работающую с результатом запроса
-// Смотрите также mysql_result(), mysql_fetch_array(), mysql_fetch_row() и т.п.
-while ($row = mysql_fetch_assoc($result)) {
-    echo $row['firstname'];
-    echo $row['lastname'];
-    echo $row['address'];
-    echo $row['age'];
+// Используем результат
+// Попытка напечатать $result не выведет информацию, которая в нем хранится
+// Необходимо использовать какую-либо mysql-функцию, работающую с результатом запроса
+// Смотрите также mysql_result(), mysql_fetch_array(), mysql_fetch_row() и т.п.
+while ($row = mysql_fetch_assoc($result)) {
+    echo $row['firstname'];
+    echo $row['lastname'];
+    echo $row['address'];
+    echo $row['age'];
 }
 
-// Освобождаем ресурсы, ассоциированные с результатом
-// Это делается автоматически в конце скрипта
+// Освобождаем ресурсы, ассоциированные с результатом
+// Это делается автоматически в конце скрипта
 mysql_free_result($result);
 ?>
 ```

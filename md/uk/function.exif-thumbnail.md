@@ -15,7 +15,7 @@ exifthumbnail — Отримує вбудоване зображення.
 ### Опис
 
 ```methodsynopsis
-exif_thumbnail(    resource|string $file,    int &$width = null,    int &$height = null,    int &$image_type = null): string|false
+exif_thumbnail(    resource|string $file,    int &$width = null,    int &$height = null,    int &$image_type = null): string|false
 ```
 
 **exifthumbnail()** зчитує вбудоване прев'ю зображення.
@@ -58,15 +58,15 @@ exif_thumbnail(    resource|string $file,    int &$width = null,    
 
 ```php
 <?php
-$image = exif_thumbnail('/path/to/image.jpg', $width, $height, $type);
+$image = exif_thumbnail('/path/to/image.jpg', $width, $height, $type);
 
-if ($image!==false) {
-    header('Content-type: ' .image_type_to_mime_type($type));
-    echo $image;
-    exit;
-} else {
-    // нет доступного превью, здесь можно обработать ошибку
-    echo 'Нет доступного эскиза';
+if ($image!==false) {
+    header('Content-type: ' .image_type_to_mime_type($type));
+    echo $image;
+    exit;
+} else {
+    // нет доступного превью, здесь можно обработать ошибку
+    echo 'Нет доступного эскиза';
 }
 ?>
 ```

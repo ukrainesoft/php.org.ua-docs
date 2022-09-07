@@ -15,7 +15,7 @@ title: пгupdate
 ### Опис
 
 ```methodsynopsis
-pg_update(    PgSql\Connection $connection,    string $table_name,    array $values,    array $conditions,    int $flags = PGSQL_DML_EXEC): string|bool
+pg_update(    PgSql\Connection $connection,    string $table_name,    array $values,    array $conditions,    int $flags = PGSQL_DML_EXEC): string|bool
 ```
 
 **пгupdate()** замінює записи у таблиці, що задовольняють умовам `conditions` даними `values`
@@ -64,18 +64,18 @@ pg_update(    PgSql\Connection $connection,    string $table_name,   
 
 ```php
 <?php
-  $db = pg_connect('dbname=foo');
-  $data = array('field1'=>'AA', 'field2'=>'BB');
+  $db = pg_connect('dbname=foo');
+  $data = array('field1'=>'AA', 'field2'=>'BB');
 
-  // Это безопасно в некоторой степени, поскольку все значения экранируются.
-  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
-  // ни с через экранирование, ни с помощью подготовленного запроса.
-  $res = pg_update($db, 'post_log', $_POST, $data);
-  if ($res) {
-      echo "Данные обновлены: $res\n";
-  } else {
-      echo "Должно быть переданы неверные данные\n";
-  }
+  // Это безопасно в некоторой степени, поскольку все значения экранируются.
+  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
+  // ни с через экранирование, ни с помощью подготовленного запроса.
+  $res = pg_update($db, 'post_log', $_POST, $data);
+  if ($res) {
+      echo "Данные обновлены: $res\n";
+  } else {
+      echo "Должно быть переданы неверные данные\n";
+  }
 ?>
 ```
 

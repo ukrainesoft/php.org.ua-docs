@@ -37,13 +37,13 @@ final public MongoDB\Driver\WriteConcern::getJournal(): ?bool
 ```php
 <?php
 
-$wc = new MongoDB\Driver\WriteConcern(1);
+$wc = new MongoDB\Driver\WriteConcern(1);
 var_dump($wc->getJournal());
 
-$wc = new MongoDB\Driver\WriteConcern(1, 0, true);
+$wc = new MongoDB\Driver\WriteConcern(1, 0, true);
 var_dump($wc->getJournal());
 
-$wc = new MongoDB\Driver\WriteConcern(1, 0, false);
+$wc = new MongoDB\Driver\WriteConcern(1, 0, false);
 var_dump($wc->getJournal());
 
 ?>
@@ -59,4 +59,4 @@ bool(false)
 
 ### Дивіться також
 
--   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

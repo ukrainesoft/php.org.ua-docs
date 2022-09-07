@@ -38,26 +38,26 @@ public mysql_xdevapi\Collection::find(string $search_condition = ?): mysql_xdeva
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-$collection->add('{"name": "Альфред",     "age": 18, "job": "Дворецкий"}')->execute();
-$collection->add('{"name": "Боб",        "age": 19, "job": "Пловец"}')->execute();
-$collection->add('{"name": "Фред",       "age": 20, "job": "Строитель"}')->execute();
-$collection->add('{"name": "Уилма",      "age": 21, "job": "Учитель"}')->execute();
-$collection->add('{"name": "Джон",       "age": 22, "job": "Учитель"}')->execute();
+$collection->add('{"name": "Альфред",     "age": 18, "job": "Дворецкий"}')->execute();
+$collection->add('{"name": "Боб",        "age": 19, "job": "Пловец"}')->execute();
+$collection->add('{"name": "Фред",       "age": 20, "job": "Строитель"}')->execute();
+$collection->add('{"name": "Уилма",      "age": 21, "job": "Учитель"}')->execute();
+$collection->add('{"name": "Джон",       "age": 22, "job": "Учитель"}')->execute();
 
-$find   = $collection->find('job LIKE :job AND age > :age');
-$result = $find
-  ->bind(['job' => 'Учитель', 'age' => 20])
-  ->sort('age DESC')
-  ->limit(2)
-  ->execute();
+$find   = $collection->find('job LIKE :job AND age > :age');
+$result = $find
+  ->bind(['job' => 'Учитель', 'age' => 20])
+  ->sort('age DESC')
+  ->limit(2)
+  ->execute();
 
 print_r($result->fetchAll());
 ?>

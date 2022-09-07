@@ -43,28 +43,28 @@ public DOMDocument::registerNodeClass(string $baseClass, ?string $extendedClass)
 ```php
 <?php
 
-class myElement extends DOMElement {
-   function appendElement($name) {
-      return $this->appendChild(new myElement($name));
-   }
+class myElement extends DOMElement {
+   function appendElement($name) {
+      return $this->appendChild(new myElement($name));
+   }
 }
 
-class myDocument extends DOMDocument {
-   function setRoot($name) {
-      return $this->appendChild(new myElement($name));
-   }
+class myDocument extends DOMDocument {
+   function setRoot($name) {
+      return $this->appendChild(new myElement($name));
+   }
 }
 
-$doc = new myDocument();
-$doc->registerNodeClass('DOMElement', 'myElement');
+$doc = new myDocument();
+$doc->registerNodeClass('DOMElement', 'myElement');
 
-// С этих пор добавление одного элемента к другому
-// требует всего одного вызова метода!
-$root = $doc->setRoot('root');
-$child = $root->appendElement('child');
-$child->setAttribute('foo', 'bar');
+// С этих пор добавление одного элемента к другому
+// требует всего одного вызова метода!
+$root = $doc->setRoot('root');
+$child = $root->appendElement('child');
+$child->setAttribute('foo', 'bar');
 
-echo $doc->saveXML();
+echo $doc->saveXML();
 
 ?>
 ```
@@ -80,21 +80,21 @@ echo $doc->saveXML();
 
 ```php
 <?php
-class myElement extends DOMElement {
-    public function __toString() {
-        return $this->nodeValue;
-    }
+class myElement extends DOMElement {
+    public function __toString() {
+        return $this->nodeValue;
+    }
 }
 
-$doc = new DOMDocument;
-$doc->loadXML("<root><element><child>text in child</child></element></root>");
-$doc->registerNodeClass("DOMElement", "myElement");
+$doc = new DOMDocument;
+$doc->loadXML("<root><element><child>text in child</child></element></root>");
+$doc->registerNodeClass("DOMElement", "myElement");
 
-$element = $doc->getElementsByTagName("child")->item(0);
+$element = $doc->getElementsByTagName("child")->item(0);
 var_dump(get_class($element));
 
-// Воспользуемся __toString методом..
-echo $element;
+// Воспользуемся __toString методом..
+echo $element;
 ?>
 ```
 
@@ -111,38 +111,38 @@ text in child
 
 ```php
 <?php
-class MyDOMDocument extends DOMDocument {
+class MyDOMDocument extends DOMDocument {
 }
 
-class MyOtherDOMDocument extends DOMDocument {
+class MyOtherDOMDocument extends DOMDocument {
 }
 
-// Создаём MyDOMDocument с некоторым XML-содержимым
-$doc = new MyDOMDocument;
-$doc->loadXML("<root><element><child>text in child</child></element></root>");
+// Создаём MyDOMDocument с некоторым XML-содержимым
+$doc = new MyDOMDocument;
+$doc->loadXML("<root><element><child>text in child</child></element></root>");
 
-$child = $doc->getElementsByTagName("child")->item(0);
+$child = $doc->getElementsByTagName("child")->item(0);
 
-// Текущий владелец узла - MyDOMDocument
+// Текущий владелец узла - MyDOMDocument
 var_dump(get_class($child->ownerDocument));
 
-// Уничтожаем MyDOMDocument
+// Уничтожаем MyDOMDocument
 unset($doc);
 
-// И создаём новый экземпляр DOMDocument
+// И создаём новый экземпляр DOMDocument
 var_dump(get_class($child->ownerDocument));
 
-// Импортируем узел из MyDOMDocument
-$newdoc = new MyOtherDOMDocument;
-$child = $newdoc->importNode($child);
+// Импортируем узел из MyDOMDocument
+$newdoc = new MyOtherDOMDocument;
+$child = $newdoc->importNode($child);
 
-// Регистрируем пользовательский DOMDocument
-$newdoc->registerNodeClass("DOMDocument", "MyOtherDOMDocument");
+// Регистрируем пользовательский DOMDocument
+$newdoc->registerNodeClass("DOMDocument", "MyOtherDOMDocument");
 
 var_dump(get_class($child->ownerDocument));
 unset($doc);
 
-// Новый владелец узла изменился на MyOtherDOMDocument
+// Новый владелец узла изменился на MyOtherDOMDocument
 var_dump(get_class($child->ownerDocument));
 ?>
 ```
@@ -164,21 +164,21 @@ string(18) "MyOtherDOMDocument"
 
 ```php
 <?php
-class MyDOMElement extends DOMElement
+class MyDOMElement extends DOMElement
 {
-    public $myProp = 'значение по умолчанию';
+    public $myProp = 'значение по умолчанию';
 }
 
-$doc = new DOMDocument();
-$doc->registerNodeClass('DOMElement', 'MyDOMElement');
+$doc = new DOMDocument();
+$doc->registerNodeClass('DOMElement', 'MyDOMElement');
 
-$node = $doc->createElement('a');
-$node->myProp = 'изменённое значение';
+$node = $doc->createElement('a');
+$node->myProp = 'изменённое значение';
 $doc->appendChild($node);
 
-echo $doc->childNodes[0]->myProp, PHP_EOL;
+echo $doc->childNodes[0]->myProp, PHP_EOL;
 unset($node);
-echo $doc->childNodes[0]->myProp, PHP_EOL;
+echo $doc->childNodes[0]->myProp, PHP_EOL;
 ?>
 ```
 

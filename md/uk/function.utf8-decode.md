@@ -51,20 +51,20 @@ utf8_decode(string $string): string
 
 ```php
 <?php
-// Преобразование строки 'Zoë' из UTF-8 в ISO 8859-1
-$utf8_string = "\x5A\x6F\xC3\xAB";
-$iso8859_1_string = utf8_decode($utf8_string);
-echo bin2hex($iso8859_1_string), "\n";
+// Преобразование строки 'Zoë' из UTF-8 в ISO 8859-1
+$utf8_string = "\x5A\x6F\xC3\xAB";
+$iso8859_1_string = utf8_decode($utf8_string);
+echo bin2hex($iso8859_1_string), "\n";
 
-// Неправильные последовательности UTF-8 заменяются на '?'
-$invalid_utf8_string = "\xC3";
-$iso8859_1_string = utf8_decode($invalid_utf8_string);
+// Неправильные последовательности UTF-8 заменяются на '?'
+$invalid_utf8_string = "\xC3";
+$iso8859_1_string = utf8_decode($invalid_utf8_string);
 var_dump($iso8859_1_string);
 
-// Символы, не существующие в ISO 8859-1, такие как
-// '€' (Знак евро) также заменяются на '?'
-$utf8_string = "\xE2\x82\xAC";
-$iso8859_1_string = utf8_decode($utf8_string);
+// Символы, не существующие в ISO 8859-1, такие как
+// '€' (Знак евро) также заменяются на '?'
+$utf8_string = "\xE2\x82\xAC";
+$iso8859_1_string = utf8_decode($utf8_string);
 var_dump($iso8859_1_string);
 ?>
 ```

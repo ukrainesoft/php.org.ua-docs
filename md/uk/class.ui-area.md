@@ -60,7 +60,7 @@ title: Area
 
     /* Методы */
     
-   protected onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
+   protected onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
 protected onKey(string $key, int $ext, int $flags)
 protected onMouse(UI\Point $areaPoint, UI\Size $areaSize, int $flags)
 public redraw()

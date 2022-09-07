@@ -41,59 +41,59 @@ public SolrClient::setResponseWriter(string $responseWriter): void
 ```php
 <?php
 
-// Это мой собственный класс для объектов
-class SolrClass
+// Это мой собственный класс для объектов
+class SolrClass
 {
-   public $_properties = array();
+   public $_properties = array();
 
-   public function __get($property_name) {
+   public function __get($property_name) {
 
-      if (property_exists($this, $property_name)) {
+      if (property_exists($this, $property_name)) {
 
-          return $this->$property_name;
+          return $this->$property_name;
 
-      } else if (isset($_properties[$property_name])) {
+      } else if (isset($_properties[$property_name])) {
 
-          return $_properties[$property_name];
-      }
+          return $_properties[$property_name];
+      }
 
-      return null;
-   }
+      return null;
+   }
 }
 
-$options = array
+$options = array
 (
-  'hostname' => 'localhost',
-  'port' => 8983,
-  'path' => '/solr/core1'
+  'hostname' => 'localhost',
+  'port' => 8983,
+  'path' => '/solr/core1'
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
 $client->setResponseWriter("json");
 
-//$response = $client->ping();
+//$response = $client->ping();
 
-$query = new SolrQuery();
+$query = new SolrQuery();
 
 $query->setQuery("*:*");
 
-$query->set("objectClassName", "SolrClass");
+$query->set("objectClassName", "SolrClass");
 
-$query->set("objectPropertiesStorageMode", 1); // 0 для независимых объектов, 1 для совмещённых
+$query->set("objectPropertiesStorageMode", 1); // 0 для независимых объектов, 1 для совмещённых
 
 try
 {
 
-$response = $client->query($query);
+$response = $client->query($query);
 
-$resp = $response->getResponse();
+$resp = $response->getResponse();
 
 print_r($response);
 
 print_r($resp);
 
-} catch (Exception $e) {
+} catch (Exception $e) {
 
 print_r($e);
 

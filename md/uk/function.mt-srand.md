@@ -54,14 +54,14 @@ mt_srand(int $seed = 0, int $mode = MT_RAND_MT19937): void
 
 ```php
 <?php
-// инициализация текущими микросекундами
-function make_seed()
+// инициализация текущими микросекундами
+function make_seed()
 {
-  list($usec, $sec) = explode(' ', microtime());
-  return $sec + $usec * 1000000;
+  list($usec, $sec) = explode(' ', microtime());
+  return $sec + $usec * 1000000;
 }
 mt_srand(make_seed());
-$randval = mt_rand();
+$randval = mt_rand();
 ?>
 ```
 

@@ -15,7 +15,7 @@ streamsocketsendto — Надсилає повідомлення до сокет
 ### Опис
 
 ```methodsynopsis
-stream_socket_sendto(    resource $socket,    string $data,    int $flags = 0,    string $address = ""): int|false
+stream_socket_sendto(    resource $socket,    string $data,    int $flags = 0,    string $address = ""): int|false
 ```
 
 Надсилає зазначені дані `data` через сокет `socket`
@@ -52,16 +52,16 @@ stream_socket_sendto(    resource $socket,    string $data,    int $
 
 ```php
 <?php
-/* Открыть сокет на 1234-м порту на localhost */
-$socket = stream_socket_client('tcp://127.0.0.1:1234');
+/* Открыть сокет на 1234-м порту на localhost */
+$socket = stream_socket_client('tcp://127.0.0.1:1234');
 
-/* Отправить обычные данные через обычные каналы. */
-fwrite($socket, "Передача обычных данных.");
+/* Отправить обычные данные через обычные каналы. */
+fwrite($socket, "Передача обычных данных.");
 
-/* Отправляем внеполосные данные. */
-stream_socket_sendto($socket, "Внеполосные данные.", STREAM_OOB);
+/* Отправляем внеполосные данные. */
+stream_socket_sendto($socket, "Внеполосные данные.", STREAM_OOB);
 
-/* Закрыть сокет */
+/* Закрыть сокет */
 fclose($socket);
 ?>
 ```

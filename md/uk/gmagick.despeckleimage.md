@@ -38,7 +38,7 @@ public Gmagick::despeckleimage(): Gmagick
 
 ```php
 <?php
-/* ... */
+/* ... */
 ?>
 ```
 

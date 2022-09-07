@@ -49,14 +49,14 @@ public DOMDocument::createElement(string $localName, string $value = ""): DOMEle
 ```php
 <?php
 
-$dom = new DOMDocument('1.0', 'utf-8');
+$dom = new DOMDocument('1.0', 'utf-8');
 
-$element = $dom->createElement('test', 'Это корневой элемент!');
+$element = $dom->createElement('test', 'Это корневой элемент!');
 
-// Вставляем новый элемент как корень (потомок документа)
+// Вставляем новый элемент как корень (потомок документа)
 $dom->appendChild($element);
 
-echo $dom->saveXML();
+echo $dom->saveXML();
 ?>
 ```
 
@@ -71,10 +71,10 @@ echo $dom->saveXML();
 
 ```php
 <?php
-$dom = new DOMDocument('1.0', 'utf-8');
-$element = $dom->createElement('foo', 'я & ты');
+$dom = new DOMDocument('1.0', 'utf-8');
+$element = $dom->createElement('foo', 'я & ты');
 $dom->appendChild($element);
-echo $dom->saveXML();
+echo $dom->saveXML();
 ?>
 ```
 

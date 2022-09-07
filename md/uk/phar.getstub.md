@@ -22,7 +22,7 @@ Phar-архіви містять початкове завантаження а�
 
 ```php
 <?php
-include 'myphar.phar';
+include 'myphar.phar';
 ?>
 ```
 
@@ -50,18 +50,18 @@ php myphar.phar
 
 ```php
 <?php
-$p = new Phar('/path/to/my.phar', 0, 'my.phar');
-echo $p->getStub();
-echo "==NEXT==\n";
+$p = new Phar('/path/to/my.phar', 0, 'my.phar');
+echo $p->getStub();
+echo "==NEXT==\n";
 $p->setStub("<?php
-function __autoload($class)
+function __autoload($class)
 {
-    include 'phar://' . str_replace('_', '/', $class);
+    include 'phar://' . str_replace('_', '/', $class);
 }
 Phar::mapPhar('myphar.phar');
-include 'phar://myphar.phar/startup.php';
-__HALT_COMPILER(); ?>");
-echo $p->getStub();
+include 'phar://myphar.phar/startup.php';
+__HALT_COMPILER(); ?>");
+echo $p->getStub();
 ?>
 ```
 

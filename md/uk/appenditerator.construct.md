@@ -28,15 +28,15 @@ public **AppendIterator::construct**
 
 ```php
 <?php
-$pizzas   = new ArrayIterator(array('Margarita', 'Siciliana', 'Hawaii'));
-$toppings = new ArrayIterator(array('Cheese', 'Anchovies', 'Olives', 'Pineapple', 'Ham'));
+$pizzas   = new ArrayIterator(array('Margarita', 'Siciliana', 'Hawaii'));
+$toppings = new ArrayIterator(array('Cheese', 'Anchovies', 'Olives', 'Pineapple', 'Ham'));
 
-$appendIterator = new AppendIterator;
+$appendIterator = new AppendIterator;
 $appendIterator->append($pizzas);
 $appendIterator->append($toppings);
 
-foreach ($appendIterator as $key => $item) {
-    echo $key . ' => ' . $item . PHP_EOL;
+foreach ($appendIterator as $key => $item) {
+    echo $key . ' => ' . $item . PHP_EOL;
 }
 ?>
 ```
@@ -58,22 +58,22 @@ foreach ($appendIterator as $key => $item) {
 
 ```php
 <?php
-$pizzas   = new ArrayIterator(array('Margarita', 'Siciliana', 'Hawaii'));
-$toppings = new ArrayIterator(array('Cheese', 'Anchovies', 'Olives', 'Pineapple', 'Ham'));
+$pizzas   = new ArrayIterator(array('Margarita', 'Siciliana', 'Hawaii'));
+$toppings = new ArrayIterator(array('Cheese', 'Anchovies', 'Olives', 'Pineapple', 'Ham'));
 
-$appendIterator = new AppendIterator;
+$appendIterator = new AppendIterator;
 $appendIterator->append($pizzas);
 $appendIterator->append($toppings);
 
-while ($appendIterator->valid()) {
-    printf(
-        '%s => %s => %s%s',
-        $appendIterator->getIteratorIndex(),
-        $appendIterator->key(),
-        $appendIterator->current(),
-        PHP_EOL
-    );
-    $appendIterator->next();
+while ($appendIterator->valid()) {
+    printf(
+        '%s => %s => %s%s',
+        $appendIterator->getIteratorIndex(),
+        $appendIterator->key(),
+        $appendIterator->current(),
+        PHP_EOL
+    );
+    $appendIterator->next();
 }
 ?>
 ```

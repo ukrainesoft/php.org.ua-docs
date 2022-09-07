@@ -44,8 +44,8 @@ each(array|object &$array): array
 
 ```php
 <?php
-$foo = array("bob", "fred", "jussi", "jouni", "egon", "marliese");
-$bar = each($foo);
+$foo = array("bob", "fred", "jussi", "jouni", "egon", "marliese");
+$bar = each($foo);
 print_r($bar);
 ?>
 ```
@@ -64,8 +64,8 @@ Array
 
 ```php
 <?php
-$foo = array("Robert" => "Bob", "Seppo" => "Sepi");
-$bar = each($foo);
+$foo = array("Robert" => "Bob", "Seppo" => "Sepi");
+$bar = each($foo);
 print_r($bar);
 ?>
 ```
@@ -88,11 +88,11 @@ Array
 
 ```php
 <?php
-$fruit = array('a' => 'apple', 'b' => 'banana', 'c' => 'cranberry');
+$fruit = array('a' => 'apple', 'b' => 'banana', 'c' => 'cranberry');
 
 reset($fruit);
-while (list($key, $val) = each($fruit)) {
-    echo "$key => $val\n";
+while (list($key, $val) = each($fruit)) {
+    echo "$key => $val\n";
 }
 ?>
 ```

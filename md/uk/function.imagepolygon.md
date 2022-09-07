@@ -23,7 +23,7 @@ imagepolygon(GdImage $image, array $points, int $color): bool
 Альтернативний синтаксис (оголошений застарілим із PHP 8.1.0)
 
 ```methodsynopsis
-imagepolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
+imagepolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
 ```
 
 **imagepolygon()** створює багатокутник у зображенні `image`
@@ -67,23 +67,23 @@ imagepolygon(    GdImage $image,    array $points,    int $num_point
 
 ```php
 <?php
-// Создание пустого изображения
-$image = imagecreatetruecolor(400, 300);
+// Создание пустого изображения
+$image = imagecreatetruecolor(400, 300);
 
-// Создание цвета полигона
-$col_poly = imagecolorallocate($image, 255, 255, 255);
+// Создание цвета полигона
+$col_poly = imagecolorallocate($image, 255, 255, 255);
 
-// Рисование многоугольника
-imagepolygon($image, array(
-        0,   0,
-        100, 200,
-        300, 200
-    ),
-    3,
-    $col_poly);
+// Рисование многоугольника
+imagepolygon($image, array(
+        0,   0,
+        100, 200,
+        300, 200
+    ),
+    3,
+    $col_poly);
 
-// Вывод картинки в броузер
-header('Content-type: image/png');
+// Вывод картинки в броузер
+header('Content-type: image/png');
 
 imagepng($image);
 imagedestroy($image);

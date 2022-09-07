@@ -44,7 +44,7 @@ public Ds\Deque::allocate(int $capacity): void
 
 ```php
 <?php
-$deque = new \Ds\Deque();
+$deque = new \Ds\Deque();
 var_dump($deque->capacity());
 
 $deque->allocate(100);

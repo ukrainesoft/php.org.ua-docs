@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Модулі потрібна бібліотека [» ssdeep](http://ssdeep.sourceforge.net)
+Модулі потрібна бібліотека [» ssdeep](http://ssdeep.sourceforge.net)

@@ -41,13 +41,13 @@ strpbrk(string $string, string $characters): string|false
 ```php
 <?php
 
-$text = 'This is a Simple text.';
+$text = 'This is a Simple text.';
 
-// Этот код выдаст "is is a Simple text.", т.к. символ 'i' встретится раньше
-echo strpbrk($text, 'mi');
+// Этот код выдаст "is is a Simple text.", т.к. символ 'i' встретится раньше
+echo strpbrk($text, 'mi');
 
-// Этот код выдаст "Simple text.", т.к. символы чувствительны к регистру
-echo strpbrk($text, 'S');
+// Этот код выдаст "Simple text.", т.к. символы чувствительны к регистру
+echo strpbrk($text, 'S');
 ?>
 ```
 

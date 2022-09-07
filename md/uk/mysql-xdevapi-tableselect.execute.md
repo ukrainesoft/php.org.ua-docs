@@ -34,18 +34,18 @@ public mysql_xdevapi\TableSelect::execute(): mysql_xdevapi\RowResult
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
-$result = $table->select('name','age')
-  ->where('name like :name and age > :age')
-  ->bind(['name' => 'John', 'age' => 42])
-  ->orderBy('age desc')
-  ->execute();
+$result = $table->select('name','age')
+  ->where('name like :name and age > :age')
+  ->bind(['name' => 'John', 'age' => 42])
+  ->orderBy('age desc')
+  ->execute();
 
-$row = $result->fetchAll();
+$row = $result->fetchAll();
 ?>
 ```
 

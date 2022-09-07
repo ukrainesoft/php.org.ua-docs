@@ -41,7 +41,7 @@ geoip_db_filename(int $database): string
 ```php
 <?php
 
-print geoip_db_filename(GEOIP_COUNTRY_EDITION);
+print geoip_db_filename(GEOIP_COUNTRY_EDITION);
 
 ?>
 ```

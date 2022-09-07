@@ -34,7 +34,7 @@ gnupg_clearsignkeys(resource $identifier): bool
 
 ```php
 <?php
-$res = gnupg_init();
+$res = gnupg_init();
 gnupg_clearsignkeys($res);
 ?>
 ```
@@ -43,7 +43,7 @@ gnupg_clearsignkeys($res);
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->clearsignkeys();
 ?>
 ```

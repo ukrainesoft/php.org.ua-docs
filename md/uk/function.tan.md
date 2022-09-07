@@ -37,7 +37,7 @@ tan(float $num): float
 ```php
 <?php
 
-echo tan(M_PI_4); // 1
+echo tan(M_PI_4); // 1
 
 ?>
 ```

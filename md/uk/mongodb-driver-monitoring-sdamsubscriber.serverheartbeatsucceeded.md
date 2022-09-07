@@ -18,7 +18,7 @@ MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatSucceeded — Метод �
 abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatSucceeded(MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent $event): void
 ```
 
-Якщо передплатник був зареєстрований, драйвер викличе цей метод, у разі успішного виконання heartbeat сервера (тобто команди [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/), викликаної через [» мониторинг сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
+Якщо передплатник був зареєстрований, драйвер викличе цей метод, у разі успішного виконання heartbeat сервера (тобто команди [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/), викликаної через [» мониторинг сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
 
 ### Список параметрів
 

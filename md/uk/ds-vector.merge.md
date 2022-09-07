@@ -40,9 +40,9 @@ public Ds\Vector::merge(mixed $values): Ds\Vector
 
 ```php
 <?php
-$vector = new \Ds\Vector([1, 2, 3]);
+$vector = new \Ds\Vector([1, 2, 3]);
 
-var_dump($vector->merge([4, 5, 6]));
+var_dump($vector->merge([4, 5, 6]));
 var_dump($vector);
 ?>
 ```

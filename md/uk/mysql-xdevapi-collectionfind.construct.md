@@ -30,24 +30,24 @@ private **mysqlxdevapiCollectionFind::construct**
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema = $session->getSchema("addressbook");
-$create = $schema->createCollection("people");
-$result = $create
-  ->add('{"name": "Alfred", "age": 18, "job": "Butler"}')
-  ->execute();
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
+$result = $create
+  ->add('{"name": "Alfred", "age": 18, "job": "Butler"}')
+  ->execute();
 
-// ...
+// ...
 
-$collection = $schema->getCollection("people");
+$collection = $schema->getCollection("people");
 
-$result = $collection
-  ->find('job like :job and age > :age')
-  ->bind(['job' => 'Butler', 'age' => 16])
-  ->execute();
+$result = $collection
+  ->find('job like :job and age > :age')
+  ->bind(['job' => 'Butler', 'age' => 16])
+  ->execute();
 
 var_dump($result->fetchAll());
 ?>

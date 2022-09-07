@@ -41,22 +41,22 @@ public Imagick::appendImages(bool $stack): Imagick
 ```php
 <?php
 
-/* Создаём новый объект imagick */
-$im = new Imagick();
+/* Создаём новый объект imagick */
+$im = new Imagick();
 
-/* создаём красное, зелёное и синее изображения */
-$im->newImage(100, 50, "red");
-$im->newImage(100, 50, "green");
-$im->newImage(100, 50, "blue");
+/* создаём красное, зелёное и синее изображения */
+$im->newImage(100, 50, "red");
+$im->newImage(100, 50, "green");
+$im->newImage(100, 50, "blue");
 
-/* Соединяем все изображения в одно */
+/* Соединяем все изображения в одно */
 $im->resetIterator();
-$combined = $im->appendImages(true);
+$combined = $im->appendImages(true);
 
-/* Выводим изображение */
+/* Выводим изображение */
 $combined->setImageFormat("png");
-header("Content-Type: image/png");
-echo $combined;
+header("Content-Type: image/png");
+echo $combined;
 ?>
 ```
 

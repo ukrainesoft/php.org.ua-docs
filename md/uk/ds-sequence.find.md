@@ -40,12 +40,12 @@ abstract public Ds\Sequence::find(mixed $value): mixed
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", 1, true]);
+$sequence = new \Ds\Vector(["a", 1, true]);
 
-var_dump($sequence->find("a")); // 0
-var_dump($sequence->find("b")); // false
-var_dump($sequence->find("1")); // false
-var_dump($sequence->find(1));   // 1
+var_dump($sequence->find("a")); // 0
+var_dump($sequence->find("b")); // false
+var_dump($sequence->find("1")); // false
+var_dump($sequence->find(1));   // 1
 ?>
 ```
 

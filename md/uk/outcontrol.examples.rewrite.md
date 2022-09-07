@@ -14,24 +14,24 @@ title: Використання перезапису виводу
 
 ```php
 <?php
-// Этот код работает с PHP 7.1.0, 7.0.10, 5.6.25 и выше.
+// Этот код работает с PHP 7.1.0, 7.0.10, 5.6.25 и выше.
 
-// HTTP_HOST - целевой хост по умолчанию. Зададим сами, чтобы код примера заработал.
-$_SERVER['HTTP_HOST'] = 'php.net';
+// HTTP_HOST - целевой хост по умолчанию. Зададим сами, чтобы код примера заработал.
+$_SERVER['HTTP_HOST'] = 'php.net';
 
-// Перезаписыватель вывода перезаписывает только "form". Добавим a=href.
-// Теги должны указываться как tag_name=url_attr, то есть img=src,iframe=src
-// Между настройками пробелы недопустимы.
-// Тег "form" - специальный тег, в который добавляется скрытый "input"
+// Перезаписыватель вывода перезаписывает только "form". Добавим a=href.
+// Теги должны указываться как tag_name=url_attr, то есть img=src,iframe=src
+// Между настройками пробелы недопустимы.
+// Тег "form" - специальный тег, в который добавляется скрытый "input"
 ini_set('url_rewriter.tags','a=href,form=');
 var_dump(ini_get('url_rewriter.tags'));
 
-// Это добавлено в URL и "form"
-output_add_rewrite_var('test', 'value');
+// Это добавлено в URL и "form"
+output_add_rewrite_var('test', 'value');
 ?>
-<a href="//php.net/index.php?bug=1234">bug1234</a>
-<form action="https://php.net/?bug=1234&edit=1" action="post">
- <input type="text" name="title" />
+<a href="//php.net/index.php?bug=1234">bug1234</a>
+<form action="https://php.net/?bug=1234&edit=1" action="post">
+ <input type="text" name="title" />
 </form>
 ```
 

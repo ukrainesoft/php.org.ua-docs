@@ -38,20 +38,20 @@ public Yaf_View_Simple::assignRef(string $name, mixed &$value): bool
 
 ```php
 <?php
-class IndexController extends Yaf_Controller_Abstract {
-    public function indexAction() {
-        $value = "bar";
-        $this->getView()->assign("foo", $value);
+class IndexController extends Yaf_Controller_Abstract {
+    public function indexAction() {
+        $value = "bar";
+        $this->getView()->assign("foo", $value);
 
-        /* обратите внимание, что до Yaf 2.1.4 была ошибка,
-         * которая делает следующий вывод "bar";
-         */
-        $dummy = $this->getView()->render("index/index.phtml");
-        echo $value;
+        /* обратите внимание, что до Yaf 2.1.4 была ошибка,
+         * которая делает следующий вывод "bar";
+         */
+        $dummy = $this->getView()->render("index/index.phtml");
+        echo $value;
 
-        // предотвратить авто-рендеринг
-        Yaf_Dispatcher::getInstance()->autoRender(FALSE);
-    }
+        // предотвратить авто-рендеринг
+        Yaf_Dispatcher::getInstance()->autoRender(FALSE);
+    }
 }
 ?>
 ```
@@ -60,9 +60,9 @@ class IndexController extends Yaf_Controller_Abstract {
 
 ```php
 <html>
- <head>
-  <title><?php echo $foo;  $foo = "changed"; ?></title>
- </head>
+ <head>
+  <title><?php echo $foo;  $foo = "changed"; ?></title>
+ </head>
 <body>
 </body>
 </html>

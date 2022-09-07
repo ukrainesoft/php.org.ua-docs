@@ -37,7 +37,7 @@ public GearmanWorker::addServers(string $servers = 127.0.0.1:4730): bool
 ```php
 <?php
 
-$worker= new GearmanWorker();
+$worker= new GearmanWorker();
 $worker->addServers("10.0.0.1,10.0.0.2:7003");
 
 ?>

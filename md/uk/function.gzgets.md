@@ -46,10 +46,10 @@ gzgets(resource $stream, ?int $length = null): string|false
 
 ```php
 <?php
-$handle = gzopen('somefile.gz', 'r');
-while (!gzeof($handle)) {
-   $buffer = gzgets($handle, 4096);
-   echo $buffer;
+$handle = gzopen('somefile.gz', 'r');
+while (!gzeof($handle)) {
+   $buffer = gzgets($handle, 4096);
+   echo $buffer;
 }
 gzclose($handle);
 ?>

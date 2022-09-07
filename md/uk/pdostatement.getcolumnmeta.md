@@ -57,8 +57,8 @@ public PDOStatement::getColumnMeta(int $column): array|false
 
 ```php
 <?php
-$select = $DB->query('SELECT COUNT(*) FROM fruit');
-$meta = $select->getColumnMeta(0);
+$select = $DB->query('SELECT COUNT(*) FROM fruit');
+$meta = $select->getColumnMeta(0);
 var_dump($meta);
 ?>
 ```

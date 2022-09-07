@@ -16,16 +16,16 @@ title: Застаріла функціональність
 
 ```php
 <?php
-1 ? 2 : 3 ? 4 : 5;   // устарело
-(1 ? 2 : 3) ? 4 : 5; // хорошо
-1 ? 2 : (3 ? 4 : 5); // хорошо
+1 ? 2 : 3 ? 4 : 5;   // устарело
+(1 ? 2 : 3) ? 4 : 5; // хорошо
+1 ? 2 : (3 ? 4 : 5); // хорошо
 ?>
 ```
 
 Дужки *not* потрібні при вкладенні в середній операнд, оскільки це завжди однозначно і не залежить від асоціативності:
 
 ```php
-1 ? 2 ? 3 : 4 : 5 // хорошо
+1 ? 2 ? 3 : 4 : 5 // хорошо
 ```
 
 #### Звернення до індексу масиву та рядки через фігурні дужки
@@ -112,11 +112,11 @@ title: Застаріла функціональність
 
 ```php
 <?php
-// Вместо ReflectionClass::export(Foo::class, false) используйте:
-echo new ReflectionClass(Foo::class), "\n";
+// Вместо ReflectionClass::export(Foo::class, false) используйте:
+echo new ReflectionClass(Foo::class), "\n";
 
-// Вместо $str = ReflectionClass::export(Foo::class, true) используйте:
-$str = (string) new ReflectionClass(Foo::class);
+// Вместо $str = ReflectionClass::export(Foo::class, true) используйте:
+$str = (string) new ReflectionClass(Foo::class);
 ?>
 ```
 

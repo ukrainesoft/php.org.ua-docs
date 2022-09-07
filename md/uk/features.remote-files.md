@@ -16,18 +16,18 @@ title: Робота з віддаленими файлами
 
 ```php
 <?php
-$file = fopen ("http://www.example.com/", "r");
-if (!$file) {
-    echo "<p>Невозможно открыть удалённый файл.\n";
-    exit;
+$file = fopen ("http://www.example.com/", "r");
+if (!$file) {
+    echo "<p>Невозможно открыть удалённый файл.\n";
+    exit;
 }
-while (!feof ($file)) {
-    $line = fgets ($file, 1024);
-    /* Сработает, только если заголовок и сопутствующие теги расположены в одной строке */
-    if (preg_match ("@\<title\>(.*)\</title\>@i", $line, $out)) {
-        $title = $out[1];
-        break;
-    }
+while (!feof ($file)) {
+    $line = fgets ($file, 1024);
+    /* Сработает, только если заголовок и сопутствующие теги расположены в одной строке */
+    if (preg_match ("@\<title\>(.*)\</title\>@i", $line, $out)) {
+        $title = $out[1];
+        break;
+    }
 }
 fclose($file);
 ?>
@@ -41,14 +41,14 @@ fclose($file);
 
 ```php
 <?php
-$file = fopen ("ftp://ftp.example.com/incoming/outputfile", "w");
-if (!$file) {
-    echo "<p>Невозможно перезаписать удалённый файл.\n";
-    exit;
+$file = fopen ("ftp://ftp.example.com/incoming/outputfile", "w");
+if (!$file) {
+    echo "<p>Невозможно перезаписать удалённый файл.\n";
+    exit;
 }
-/* Запись данных. */
-fwrite ($file, $_SERVER['HTTP_USER_AGENT'] . "\n");
-fclose ($file);
+/* Запись данных. */
+fwrite ($file, $_SERVER['HTTP_USER_AGENT'] . "\n");
+fclose ($file);
 ?>
 ```
 

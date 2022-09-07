@@ -41,11 +41,11 @@ snmp_set_quick_print(bool $enable): bool
 ```php
 <?php
 snmp_set_quick_print(0);
-$a = snmpget("127.0.0.1", "public", ".1.3.6.1.2.1.2.2.1.9.1");
-echo "$a\n";
+$a = snmpget("127.0.0.1", "public", ".1.3.6.1.2.1.2.2.1.9.1");
+echo "$a\n";
 snmp_set_quick_print(1);
-$a = snmpget("127.0.0.1", "public", ".1.3.6.1.2.1.2.2.1.9.1");
-echo "$a\n";
+$a = snmpget("127.0.0.1", "public", ".1.3.6.1.2.1.2.2.1.9.1");
+echo "$a\n";
 ?>
 ```
 

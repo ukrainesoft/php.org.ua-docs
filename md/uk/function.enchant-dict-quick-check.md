@@ -50,13 +50,13 @@ enchant_dict_quick_check(EnchantDictionary $dictionary, string $word, array &$su
 
 ```php
 <?php
-$tag = 'en_US';
-$r = enchant_broker_init();
+$tag = 'en_US';
+$r = enchant_broker_init();
 
-if (enchant_broker_dict_exists($r,$tag)) {
-    $d = enchant_broker_request_dict($r, $tag);
-    enchant_dict_quick_check($d, 'soong', $suggs);
-    print_r($suggs);
+if (enchant_broker_dict_exists($r,$tag)) {
+    $d = enchant_broker_request_dict($r, $tag);
+    enchant_dict_quick_check($d, 'soong', $suggs);
+    print_r($suggs);
 }
 ?>
 ```

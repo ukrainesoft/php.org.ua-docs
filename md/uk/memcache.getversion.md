@@ -35,14 +35,14 @@ Memcache::getVersion(): string|false
 ```php
 <?php
 
-/* объектно-ориентированное API */
-$memcache = new Memcache;
-$memcache->connect('memcache_host', 11211);
-echo $memcache->getVersion();
+/* объектно-ориентированное API */
+$memcache = new Memcache;
+$memcache->connect('memcache_host', 11211);
+echo $memcache->getVersion();
 
-/* процедурное API */
-$memcache = memcache_connect('memcache_host', 11211);
-echo memcache_get_version($memcache);
+/* процедурное API */
+$memcache = memcache_connect('memcache_host', 11211);
+echo memcache_get_version($memcache);
 
 ?>
 ```

@@ -36,11 +36,11 @@ token_name(int $id): string
 
 ```php
 <?php
-// 260 - значение для лексемы T_EVAL
-echo token_name(260);        // -> "T_EVAL"
+// 260 - значение для лексемы T_EVAL
+echo token_name(260);        // -> "T_EVAL"
 
-// Константа лексемы сопоставима с его собственным именем
-echo token_name(T_FUNCTION); // -> "T_FUNCTION"
+// Константа лексемы сопоставима с его собственным именем
+echo token_name(T_FUNCTION); // -> "T_FUNCTION"
 ?>
 ```
 

@@ -15,7 +15,7 @@ ssh2authpubkeyfile — Аутентифікація з відкритим клю
 ### Опис
 
 ```methodsynopsis
-ssh2_auth_pubkey_file(    resource $session,    string $username,    string $pubkeyfile,    string $privkeyfile,    string $passphrase = ?): bool
+ssh2_auth_pubkey_file(    resource $session,    string $username,    string $pubkeyfile,    string $privkeyfile,    string $passphrase = ?): bool
 ```
 
 Аутентифікація з відкритим ключем, збереженим у файлі.
@@ -50,14 +50,14 @@ ssh-rsa AAAAB3NzaC1yc2EAAA....NX6sqSnHA8= rsa-key-20121110
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22, array('hostkey'=>'ssh-rsa'));
+$connection = ssh2_connect('shell.example.com', 22, array('hostkey'=>'ssh-rsa'));
 
-if (ssh2_auth_pubkey_file($connection, 'username',
-                          '/home/username/.ssh/id_rsa.pub',
-                          '/home/username/.ssh/id_rsa', 'secret')) {
-  echo "Успешная аутентификация с открытым ключом\n";
-} else {
-  die('Неудачная аутентификация с открытым ключом');
+if (ssh2_auth_pubkey_file($connection, 'username',
+                          '/home/username/.ssh/id_rsa.pub',
+                          '/home/username/.ssh/id_rsa', 'secret')) {
+  echo "Успешная аутентификация с открытым ключом\n";
+} else {
+  die('Неудачная аутентификация с открытым ключом');
 }
 ?>
 ```

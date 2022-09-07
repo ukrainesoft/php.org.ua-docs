@@ -44,13 +44,13 @@ array_replace_recursive(array $array, array ...$replacements): array
 
 ```php
 <?php
-$base = array('citrus' => array( "orange") , 'berries' => array("blackberry", "raspberry"), );
-$replacements = array('citrus' => array('pineapple'), 'berries' => array('blueberry'));
+$base = array('citrus' => array( "orange") , 'berries' => array("blackberry", "raspberry"), );
+$replacements = array('citrus' => array('pineapple'), 'berries' => array('blueberry'));
 
-$basket = array_replace_recursive($base, $replacements);
+$basket = array_replace_recursive($base, $replacements);
 print_r($basket);
 
-$basket = array_replace($base, $replacements);
+$basket = array_replace($base, $replacements);
 print_r($basket);
 ?>
 ```
@@ -91,11 +91,11 @@ Array
 
 ```php
 <?php
-$base = array('citrus' => array("orange") , 'berries' => array("blackberry", "raspberry"), 'others' => 'banana' );
-$replacements = array('citrus' => 'pineapple', 'berries' => array('blueberry'), 'others' => array('litchis'));
-$replacements2 = array('citrus' => array('pineapple'), 'berries' => array('blueberry'), 'others' => 'litchis');
+$base = array('citrus' => array("orange") , 'berries' => array("blackberry", "raspberry"), 'others' => 'banana' );
+$replacements = array('citrus' => 'pineapple', 'berries' => array('blueberry'), 'others' => array('litchis'));
+$replacements2 = array('citrus' => array('pineapple'), 'berries' => array('blueberry'), 'others' => 'litchis');
 
-$basket = array_replace_recursive($base, $replacements, $replacements2);
+$basket = array_replace_recursive($base, $replacements, $replacements2);
 print_r($basket);
 
 ?>

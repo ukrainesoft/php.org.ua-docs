@@ -38,7 +38,7 @@ abstract public Ds\Sequence::sum(): int|float
 
 ```php
 <?php
-$sequence = new \Ds\Vector([1, 2, 3]);
+$sequence = new \Ds\Vector([1, 2, 3]);
 var_dump($sequence->sum());
 ?>
 ```
@@ -53,7 +53,7 @@ int(6)
 
 ```php
 <?php
-$sequence = new \Ds\Vector([1, 2.5, 3]);
+$sequence = new \Ds\Vector([1, 2.5, 3]);
 var_dump($sequence->sum());
 ?>
 ```

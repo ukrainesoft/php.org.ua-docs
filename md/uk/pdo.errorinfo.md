@@ -44,11 +44,11 @@ public PDO::errorInfo(): array
 
 ```php
 <?php
-/* Спровоцируем синтаксическую ошибку SQL */
-$stmt = $dbh->prepare('bogus sql');
-if (!$stmt) {
-    echo "\nPDO::errorInfo():\n";
-    print_r($dbh->errorInfo());
+/* Спровоцируем синтаксическую ошибку SQL */
+$stmt = $dbh->prepare('bogus sql');
+if (!$stmt) {
+    echo "\nPDO::errorInfo():\n";
+    print_r($dbh->errorInfo());
 }
 ?>
 ```

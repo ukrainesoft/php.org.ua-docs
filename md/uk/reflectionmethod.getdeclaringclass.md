@@ -34,15 +34,15 @@ public ReflectionMethod::getDeclaringClass(): ReflectionClass
 
 ```php
 <?php
-class HelloWorld {
+class HelloWorld {
 
-    protected function sayHelloTo($name) {
-        return 'Привет, ' . $name;
-    }
+    protected function sayHelloTo($name) {
+        return 'Привет, ' . $name;
+    }
 
 }
 
-$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');
+$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');
 var_dump($reflectionMethod->getDeclaringClass());
 ?>
 ```

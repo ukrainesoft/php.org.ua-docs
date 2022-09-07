@@ -34,13 +34,13 @@ public SplFileInfo::isExecutable(): bool
 
 ```php
 <?php
-$info = new SplFileInfo('/usr/bin/php');
+$info = new SplFileInfo('/usr/bin/php');
 var_dump($info->isExecutable());
 
-$info = new SplFileInfo('/usr/bin');
+$info = new SplFileInfo('/usr/bin');
 var_dump($info->isExecutable());
 
-$info = new SplFileInfo('foo');
+$info = new SplFileInfo('foo');
 var_dump($info->isExecutable());
 ?>
 ```

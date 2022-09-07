@@ -14,7 +14,7 @@ title: 'Зміни, що ламають зворотну сумісність'
 
 ```php
 <?php
-function test($param){}
+function test($param){}
 test();
 ```
 
@@ -40,9 +40,9 @@ Fatal error: Uncaught ArgumentCountError: Too few arguments to function test(), 
 
 ```php
 <?php
-(function () {
-    $func = 'func_num_args';
-    $func();
+(function () {
+    $func = 'func_num_args';
+    $func();
 })();
 ```
 
@@ -99,8 +99,8 @@ Warning: Cannot call func_num_args() dynamically in %s on line %d
 
 ```php
 <?php
-$a = '';
-$a[10] = 'foo';
+$a = '';
+$a[10] = 'foo';
 var_dump($a);
 ?>
 ```
@@ -135,9 +135,9 @@ string(11) "          f"
 
 ```php
 <?php
-$array = [];
-$array["a"] =& $array["b"];
-$array["b"] = 1;
+$array = [];
+$array["a"] =& $array["b"];
+$array["b"] = 1;
 var_dump($array);
 ?>
 ```
@@ -186,7 +186,7 @@ array(2) {
 
 ```php
 <?php
-new DateTime() == new DateTime();
+new DateTime() == new DateTime();
 ?>
 ```
 
@@ -234,9 +234,9 @@ new DateTime() == new DateTime();
 
 ```php
 <?php
-$f = function () use ($_SERVER) {};
-$f = function () use ($this) {};
-$f = function ($param) use ($param) {};
+$f = function () use ($_SERVER) {};
+$f = function () use ($this) {};
+$f = function ($param) use ($param) {};
 ```
 
 ### Змінено тип параметра long2ip()
@@ -251,7 +251,7 @@ INI-налаштування `serialize_precision` визначає точніс
 
 ```php
 <?php
-var_dump(json_decode(json_encode(['' => 1])));
+var_dump(json_decode(json_encode(['' => 1])));
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

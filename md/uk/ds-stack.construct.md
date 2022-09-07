@@ -30,10 +30,10 @@ public **ДсStack::construct**[mixed](language.types.declarations.md#language.t
 
 ```php
 <?php
-$stack = new \Ds\Stack();
+$stack = new \Ds\Stack();
 print_r($stack);
 
-$stack = new \Ds\Stack([1, 2, 3]);
+$stack = new \Ds\Stack([1, 2, 3]);
 print_r($stack);
 ?>
 ```

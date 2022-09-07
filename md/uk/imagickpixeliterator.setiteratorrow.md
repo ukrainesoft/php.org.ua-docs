@@ -38,26 +38,26 @@ public ImagickPixelIterator::setIteratorRow(int $row): bool
 
 ```php
 <?php
-function setIteratorRow($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imageIterator = $imagick->getPixelRegionIterator(200, 100, 200, 200);
+function setIteratorRow($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imageIterator = $imagick->getPixelRegionIterator(200, 100, 200, 200);
 
-    for ($x = 0; $x < 20; $x++) {
-        $imageIterator->setIteratorRow($x * 5);
-        $pixels = $imageIterator->getCurrentIteratorRow();
-        /* Походим по пикселям в строке (столбцы) */
-        foreach ($pixels as $pixel) {
-            /** @var $pixel \ImagickPixel */
-            /* Красим каждый второй пиксель черным*/
-            $pixel->setColor("rgba(0, 0, 0, 0)");
-        }
+    for ($x = 0; $x < 20; $x++) {
+        $imageIterator->setIteratorRow($x * 5);
+        $pixels = $imageIterator->getCurrentIteratorRow();
+        /* Походим по пикселям в строке (столбцы) */
+        foreach ($pixels as $pixel) {
+            /** @var $pixel \ImagickPixel */
+            /* Красим каждый второй пиксель черным*/
+            $pixel->setColor("rgba(0, 0, 0, 0)");
+        }
 
-        /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
-        $imageIterator->syncIterator();
-    }
+        /* Синхронизируем итератор. Это необходимо для делать на каждой итерации */
+        $imageIterator->syncIterator();
+    }
 
-    header("Content-Type: image/jpg");
-    echo $imagick;
+    header("Content-Type: image/jpg");
+    echo $imagick;
 }
 
 ?>

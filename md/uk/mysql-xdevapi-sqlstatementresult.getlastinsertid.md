@@ -37,7 +37,7 @@ public mysql_xdevapi\SqlStatementResult::getLastInsertId(): String
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

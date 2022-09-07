@@ -34,11 +34,11 @@ public Imagick::transposeImage(): bool
 
 ```php
 <?php
-function transposeImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->transposeImage();
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function transposeImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->transposeImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

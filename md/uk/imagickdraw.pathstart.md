@@ -34,47 +34,47 @@ public ImagickDraw::pathStart(): bool
 
 ```php
 <?php
-function pathStart($strokeColor, $fillColor, $backgroundColor) {
+function pathStart($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
 
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
 
-    $draw->pathStart();
-    $draw->pathMoveToAbsolute(50, 50);
-    $draw->pathLineToAbsolute(100, 50);
-    $draw->pathLineToRelative(0, 50);
-    $draw->pathLineToHorizontalRelative(-50);
-    $draw->pathFinish();
+    $draw->pathStart();
+    $draw->pathMoveToAbsolute(50, 50);
+    $draw->pathLineToAbsolute(100, 50);
+    $draw->pathLineToRelative(0, 50);
+    $draw->pathLineToHorizontalRelative(-50);
+    $draw->pathFinish();
 
-    $draw->pathStart();
-    $draw->pathMoveToAbsolute(50, 50);
-    $draw->pathMoveToRelative(300, 0);
-    $draw->pathLineToRelative(50, 0);
-    $draw->pathLineToVerticalRelative(50);
-    $draw->pathLineToHorizontalAbsolute(350);
-    $draw->pathclose();
-    $draw->pathFinish();
+    $draw->pathStart();
+    $draw->pathMoveToAbsolute(50, 50);
+    $draw->pathMoveToRelative(300, 0);
+    $draw->pathLineToRelative(50, 0);
+    $draw->pathLineToVerticalRelative(50);
+    $draw->pathLineToHorizontalAbsolute(350);
+    $draw->pathclose();
+    $draw->pathFinish();
 
-    $draw->pathStart();
-    $draw->pathMoveToAbsolute(50, 300);
-    $draw->pathCurveToAbsolute(50, 300, 100, 200, 300, 300);
-    $draw->pathLineToVerticalAbsolute(350);
-    $draw->pathFinish();
+    $draw->pathStart();
+    $draw->pathMoveToAbsolute(50, 300);
+    $draw->pathCurveToAbsolute(50, 300, 100, 200, 300, 300);
+    $draw->pathLineToVerticalAbsolute(350);
+    $draw->pathFinish();
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

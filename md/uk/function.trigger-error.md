@@ -44,8 +44,8 @@ trigger_error(string $message, int $error_level = E_USER_NOTICE): bool
 
 ```php
 <?php
-if ($divisor == 0) {
-    trigger_error("Не могу поделить на ноль", E_USER_ERROR);
+if ($divisor == 0) {
+    trigger_error("Не могу поделить на ноль", E_USER_ERROR);
 }
 ?>
 ```

@@ -37,44 +37,44 @@ public GearmanClient::doStatus(): array
 ```php
 <?php
 
-echo "Запуск\n";
+echo "Запуск\n";
 
-# Создаём объект клиента.
-$gmclient= new GearmanClient();
+# Создаём объект клиента.
+$gmclient= new GearmanClient();
 
-# Добавляем сервер по умолчанию (localhost).
+# Добавляем сервер по умолчанию (localhost).
 $gmclient->addServer();
 
-echo "Отправка задание\n";
+echo "Отправка задание\n";
 
-# Отправляем задание перевернуть строку
+# Отправляем задание перевернуть строку
 do
 {
-  $result = $gmclient->doNormal("reverse", "Hello!");
+  $result = $gmclient->doNormal("reverse", "Hello!");
 
-  # Проверяем, есть ли ошибки или готовые данные.
-  switch($gmclient->returnCode())
-  {
-    case GEARMAN_WORK_DATA:
-      break;
-    case GEARMAN_WORK_STATUS:
-      # получить статус выполнения задания
-      list($numerator, $denominator)= $gmclient->doStatus();
-      echo "Статус: $numerator/$denominator завершено\n";
-      break;
-    case GEARMAN_WORK_FAIL:
-      echo "Ошибка\n";
-      exit;
-    case GEARMAN_SUCCESS:
-      break;
-    default:
-      echo "Код возврата: " . $gmclient->returnCode() . "\n";
-      exit;
-  }
+  # Проверяем, есть ли ошибки или готовые данные.
+  switch($gmclient->returnCode())
+  {
+    case GEARMAN_WORK_DATA:
+      break;
+    case GEARMAN_WORK_STATUS:
+      # получить статус выполнения задания
+      list($numerator, $denominator)= $gmclient->doStatus();
+      echo "Статус: $numerator/$denominator завершено\n";
+      break;
+    case GEARMAN_WORK_FAIL:
+      echo "Ошибка\n";
+      exit;
+    case GEARMAN_SUCCESS:
+      break;
+    default:
+      echo "Код возврата: " . $gmclient->returnCode() . "\n";
+      exit;
+  }
 }
-while($gmclient->returnCode() != GEARMAN_SUCCESS);
+while($gmclient->returnCode() != GEARMAN_SUCCESS);
 
-echo "Успешно: $result\n";
+echo "Успешно: $result\n";
 
 ?>
 ```

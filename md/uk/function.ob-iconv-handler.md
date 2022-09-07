@@ -36,9 +36,9 @@ ob_iconv_handler(string $contents, int $status): string
 
 ```php
 <?php
-iconv_set_encoding("internal_encoding", "UTF-8");
-iconv_set_encoding("output_encoding", "ISO-8859-1");
-ob_start("ob_iconv_handler"); // запуск буферизации вывода
+iconv_set_encoding("internal_encoding", "UTF-8");
+iconv_set_encoding("output_encoding", "ISO-8859-1");
+ob_start("ob_iconv_handler"); // запуск буферизации вывода
 ?>
 ```
 

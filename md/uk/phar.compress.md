@@ -58,12 +58,12 @@ public Phar::compress(int $compression, ?string $extension = null): ?Phar
 
 ```php
 <?php
-$p = new Phar('/путь/к/my.phar', 0, 'my.phar');
-$p['myfile.txt'] = 'привет';
-$p['myfile2.txt'] = 'привет';
-$p1 = $p->compress(Phar::GZ); // копирует в /путь/к/my.phar.gz
-$p2 = $p->compress(Phar::BZ2); // копирует в /путь/к/my.phar.bz2
-$p3 = $p2->compress(Phar::NONE); // исключение: /путь/к/my.phar уже существует
+$p = new Phar('/путь/к/my.phar', 0, 'my.phar');
+$p['myfile.txt'] = 'привет';
+$p['myfile2.txt'] = 'привет';
+$p1 = $p->compress(Phar::GZ); // копирует в /путь/к/my.phar.gz
+$p2 = $p->compress(Phar::BZ2); // копирует в /путь/к/my.phar.bz2
+$p3 = $p2->compress(Phar::NONE); // исключение: /путь/к/my.phar уже существует
 ?>
 ```
 

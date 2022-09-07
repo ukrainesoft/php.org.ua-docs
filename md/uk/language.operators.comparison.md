@@ -33,18 +33,18 @@ title: Оператори порівняння
 
 ```php
 <?php
-var_dump(0 == "a");
-var_dump("1" == "01");
-var_dump("10" == "1e1");
-var_dump(100 == "1e2");
+var_dump(0 == "a");
+var_dump("1" == "01");
+var_dump("10" == "1e1");
+var_dump(100 == "1e2");
 
-switch ("a") {
-case 0:
-    echo "0";
-    break;
-case "a":
-    echo "a";
-    break;
+switch ("a") {
+case 0:
+    echo "0";
+    break;
+case "a":
+    echo "a";
+    break;
 }
 ?>
 ```
@@ -71,48 +71,48 @@ a
 
 ```php
 <?php
-// Целые числа
-echo 1 <=> 1; // 0
-echo 1 <=> 2; // -1
-echo 2 <=> 1; // 1
+// Целые числа
+echo 1 <=> 1; // 0
+echo 1 <=> 2; // -1
+echo 2 <=> 1; // 1
 
-// Числа с плавающей точкой
-echo 1.5 <=> 1.5; // 0
-echo 1.5 <=> 2.5; // -1
-echo 2.5 <=> 1.5; // 1
+// Числа с плавающей точкой
+echo 1.5 <=> 1.5; // 0
+echo 1.5 <=> 2.5; // -1
+echo 2.5 <=> 1.5; // 1
 
-// Строки
-echo "a" <=> "a"; // 0
-echo "a" <=> "b"; // -1
-echo "b" <=> "a"; // 1
+// Строки
+echo "a" <=> "a"; // 0
+echo "a" <=> "b"; // -1
+echo "b" <=> "a"; // 1
 
-echo "a" <=> "aa"; // -1
-echo "zz" <=> "aa"; // 1
+echo "a" <=> "aa"; // -1
+echo "zz" <=> "aa"; // 1
 
-// Масиви
-echo [] <=> []; // 0
-echo [1, 2, 3] <=> [1, 2, 3]; // 0
-echo [1, 2, 3] <=> []; // 1
-echo [1, 2, 3] <=> [1, 2, 1]; // 1
-echo [1, 2, 3] <=> [1, 2, 4]; // -1
+// Масиви
+echo [] <=> []; // 0
+echo [1, 2, 3] <=> [1, 2, 3]; // 0
+echo [1, 2, 3] <=> []; // 1
+echo [1, 2, 3] <=> [1, 2, 1]; // 1
+echo [1, 2, 3] <=> [1, 2, 4]; // -1
 
-// Объекты
-$a = (object) ["a" => "b"];
-$b = (object) ["a" => "b"];
-echo $a <=> $b; // 0
+// Объекты
+$a = (object) ["a" => "b"];
+$b = (object) ["a" => "b"];
+echo $a <=> $b; // 0
 
-$a = (object) ["a" => "b"];
-$b = (object) ["a" => "c"];
-echo $a <=> $b; // -1
+$a = (object) ["a" => "b"];
+$b = (object) ["a" => "c"];
+echo $a <=> $b; // -1
 
-$a = (object) ["a" => "c"];
-$b = (object) ["a" => "b"];
-echo $a <=> $b; // 1
+$a = (object) ["a" => "c"];
+$b = (object) ["a" => "b"];
+echo $a <=> $b; // 1
 
-// сравниваются не только значения; ключи также должны совпадать
-$a = (object) ["a" => "b"];
-$b = (object) ["b" => "b"];
-echo $a <=> $b; // 1
+// сравниваются не только значения; ключи также должны совпадать
+$a = (object) ["a" => "b"];
+$b = (object) ["b" => "b"];
+echo $a <=> $b; // 1
 
 ?>
 ```
@@ -135,12 +135,12 @@ echo $a <=> $b; // 1
 
 ```php
 <?php
-// Логические значения и null всегда сравниваются как логические
-var_dump(1 == TRUE);  // TRUE - то же, что и (bool)1 == TRUE
-var_dump(0 == FALSE); // TRUE - то же, что и (bool)0 == FALSE
-var_dump(100 < TRUE); // FALSE - то же, что и (bool)100 < TRUE
-var_dump(-10 < FALSE);// FALSE - то же, что и (bool)-10 < FALSE
-var_dump(min(-100, -10, NULL, 10, 100)); // NULL - (bool)NULL < (bool)-100 это FALSE < TRUE
+// Логические значения и null всегда сравниваются как логические
+var_dump(1 == TRUE);  // TRUE - то же, что и (bool)1 == TRUE
+var_dump(0 == FALSE); // TRUE - то же, что и (bool)0 == FALSE
+var_dump(100 < TRUE); // FALSE - то же, что и (bool)100 < TRUE
+var_dump(-10 < FALSE);// FALSE - то же, что и (bool)-10 < FALSE
+var_dump(min(-100, -10, NULL, 10, 100)); // NULL - (bool)NULL < (bool)-100 это FALSE < TRUE
 ?>
 ```
 
@@ -148,24 +148,24 @@ var_dump(min(-100, -10, NULL, 10, 100)); // NULL - (bool)NULL < (bool)
 
 ```php
 <?php
-// Масиви сравниваются таким образом с помощью стандартных операторов сравнения, а также оператора spaceship.
-function standard_array_compare($op1, $op2)
+// Масиви сравниваются таким образом с помощью стандартных операторов сравнения, а также оператора spaceship.
+function standard_array_compare($op1, $op2)
 {
-    if (count($op1) < count($op2)) {
-        return -1; // $op1 < $op2
-    } elseif (count($op1) > count($op2)) {
-        return 1; // $op1 > $op2
-    }
-    foreach ($op1 as $key => $val) {
-        if (!array_key_exists($key, $op2)) {
-            return 1;
-        } elseif ($val < $op2[$key]) {
-            return -1;
-        } elseif ($val > $op2[$key]) {
-            return 1;
-        }
-    }
-    return 0; // $op1 == $op2
+    if (count($op1) < count($op2)) {
+        return -1; // $op1 < $op2
+    } elseif (count($op1) > count($op2)) {
+        return 1; // $op1 > $op2
+    }
+    foreach ($op1 as $key => $val) {
+        if (!array_key_exists($key, $op2)) {
+            return 1;
+        } elseif ($val < $op2[$key]) {
+            return -1;
+        } elseif ($val > $op2[$key]) {
+            return 1;
+        }
+    }
+    return 0; // $op1 == $op2
 }
 ?>
 ```
@@ -199,14 +199,14 @@ function standard_array_compare($op1, $op2)
 
 ```php
 <?php
-// Пример использования тернарного оператора
-$action = (empty($_POST['action'])) ? 'default' : $_POST['action'];
+// Пример использования тернарного оператора
+$action = (empty($_POST['action'])) ? 'default' : $_POST['action'];
 
-// Приведённый выше код аналогичен следующему блоку с использованием if/else
-if (empty($_POST['action'])) {
-    $action = 'default';
-} else {
-    $action = $_POST['action'];
+// Приведённый выше код аналогичен следующему блоку с использованием if/else
+if (empty($_POST['action'])) {
+    $action = 'default';
+} else {
+    $action = $_POST['action'];
 }
 ?>
 ```
@@ -225,18 +225,18 @@ if (empty($_POST['action'])) {
 > 
 > ```php
 > <?php
-> // на первый взгляд, следующий код должен вывести 'true'
-> echo (true ? 'true' : false ? 't' : 'f');
+> // на первый взгляд, следующий код должен вывести 'true'
+> echo (true ? 'true' : false ? 't' : 'f');
 > 
-> // однако, он выводит 't' до PHP 8.0.0
-> // это потому, что тернарные выражения левоассоциативны
+> // однако, он выводит 't' до PHP 8.0.0
+> // это потому, что тернарные выражения левоассоциативны
 > 
-> // это намного более очевидная версия вышеприведённого кода
-> echo ((true ? 'true' : false) ? 't' : 'f');
+> // это намного более очевидная версия вышеприведённого кода
+> echo ((true ? 'true' : false) ? 't' : 'f');
 > 
-> // здесь видно, что первое выражение вычисляется в 'true', которое
-> // в свою очередь вычисляется в (bool)true, таким образом возвращая истинную ветвь
-> // второго тернарного выражения.
+> // здесь видно, что первое выражение вычисляется в 'true', которое
+> // в свою очередь вычисляется в (bool)true, таким образом возвращая истинную ветвь
+> // второго тернарного выражения.
 > ?>
 > ```
 
@@ -248,9 +248,9 @@ if (empty($_POST['action'])) {
 > 
 > ```php
 > <?php
-> echo 0 ?: 1 ?: 2 ?: 3, PHP_EOL; //1
-> echo 0 ?: 0 ?: 2 ?: 3, PHP_EOL; //2
-> echo 0 ?: 0 ?: 0 ?: 3, PHP_EOL; //3
+> echo 0 ?: 1 ?: 2 ?: 3, PHP_EOL; //1
+> echo 0 ?: 0 ?: 2 ?: 3, PHP_EOL; //2
+> echo 0 ?: 0 ?: 0 ?: 3, PHP_EOL; //3
 > ?>
 > ```
 
@@ -262,14 +262,14 @@ if (empty($_POST['action'])) {
 
 ```php
 <?php
-// Пример использования оператора
-$action = $_POST['action'] ?? 'default';
+// Пример использования оператора
+$action = $_POST['action'] ?? 'default';
 
-// Пример выше аналогичен следующему коду
-if (isset($_POST['action'])) {
-    $action = $_POST['action'];
-} else {
-    $action = 'default';
+// Пример выше аналогичен следующему коду
+if (isset($_POST['action'])) {
+    $action = $_POST['action'];
+} else {
+    $action = 'default';
 }
 ?>
 ```
@@ -286,10 +286,10 @@ if (isset($_POST['action'])) {
 > 
 > ```php
 > <?php
-> // Вызывает предупреждение о том, что $name не определено.
-> print 'Mr. ' . $name ?? 'Anonymous';
-> // Выведет "Mr. Anonymous"
-> print 'Mr. ' . ($name ?? 'Anonymous');
+> // Вызывает предупреждение о том, что $name не определено.
+> print 'Mr. ' . $name ?? 'Anonymous';
+> // Выведет "Mr. Anonymous"
+> print 'Mr. ' . ($name ?? 'Anonymous');
 > ?>
 > ```
 
@@ -302,12 +302,12 @@ if (isset($_POST['action'])) {
 > ```php
 > <?php
 > 
-> $foo = null;
-> $bar = null;
-> $baz = 1;
-> $qux = 2;
+> $foo = null;
+> $bar = null;
+> $baz = 1;
+> $qux = 2;
 > 
-> echo $foo ?? $bar ?? $baz ?? $qux; // выведет 1
+> echo $foo ?? $bar ?? $baz ?? $qux; // выведет 1
 > 
 > ?>
 > ```

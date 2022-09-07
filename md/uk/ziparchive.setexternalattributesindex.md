@@ -15,7 +15,7 @@ ZipArchive::setExternalAttributesIndex — Встановити зовнішні
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::setExternalAttributesIndex(    int $index,    int $opsys,    int $attr,    int $flags = 0): bool
+public ZipArchive::setExternalAttributesIndex(    int $index,    int $opsys,    int $attr,    int $flags = 0): bool
 ```
 
 Встановлює зовнішні атрибути запису, заданого його індексом.

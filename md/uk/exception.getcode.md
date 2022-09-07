@@ -34,10 +34,10 @@ final public Exception::getCode(): int
 
 ```php
 <?php
-try {
-    throw new Exception("Какое-нибудь сообщение об ошибке", 30);
-} catch(Exception $e) {
-    echo "Код исключения: " . $e->getCode();
+try {
+    throw new Exception("Какое-нибудь сообщение об ошибке", 30);
+} catch(Exception $e) {
+    echo "Код исключения: " . $e->getCode();
 }
 ?>
 ```

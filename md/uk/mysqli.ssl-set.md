@@ -19,13 +19,13 @@ mysqli::sslset - mysqlisslset — Використовується для вст
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public mysqli::ssl_set(    ?string $key,    ?string $certificate,    ?string $ca_certificate,    ?string $ca_path,    ?string $cipher_algos): bool
+public mysqli::ssl_set(    ?string $key,    ?string $certificate,    ?string $ca_certificate,    ?string $ca_path,    ?string $cipher_algos): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_ssl_set(    mysqli $mysql,    ?string $key,    ?string $certificate,    ?string $ca_certificate,    ?string $ca_path,    ?string $cipher_algos): bool
+mysqli_ssl_set(    mysqli $mysql,    ?string $key,    ?string $certificate,    ?string $ca_certificate,    ?string $ca_path,    ?string $cipher_algos): bool
 ```
 
 Використовується для встановлення безпечних з'єднань за допомогою SSL. Функцію необхідно викликати до дзвінка [mysqlirealconnect()](mysqli.real-connect.md). Для роботи функції потрібно включити підтримку OpenSSL, інакше функція робити нічого не буде.

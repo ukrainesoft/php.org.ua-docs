@@ -34,11 +34,11 @@ public XMLReader::isValid(): bool
 
 ```php
 <?php
-$xml = XMLReader::open('test.xml');
+$xml = XMLReader::open('test.xml');
 
-// Для работы метода обязательно должна быть включена
-// валидация парсера.
-$xml->setParserProperty(XMLReader::VALIDATE, true);
+// Для работы метода обязательно должна быть включена
+// валидация парсера.
+$xml->setParserProperty(XMLReader::VALIDATE, true);
 
 var_dump($xml->isValid());
 ?>

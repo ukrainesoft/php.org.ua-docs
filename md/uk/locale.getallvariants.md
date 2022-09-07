@@ -48,8 +48,8 @@ locale_get_all_variants(string $locale): ?array
 
 ```php
 <?php
-$arr = locale_get_all_variants('sl_IT_NEDIS_ROJAZ_1901');
-var_export( $arr );
+$arr = locale_get_all_variants('sl_IT_NEDIS_ROJAZ_1901');
+var_export( $arr );
 ?>
 ```
 
@@ -57,8 +57,8 @@ var_export( $arr );
 
 ```php
 <?php
- $arr = Locale::getAllVariants('sl_IT_NEDIS_ROJAZ_1901');
- var_export( $arr );
+ $arr = Locale::getAllVariants('sl_IT_NEDIS_ROJAZ_1901');
+ var_export( $arr );
 ?>
 ```
 

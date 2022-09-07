@@ -45,7 +45,7 @@ gettimeofday(bool $as_float = false): array|float
 <?php
 print_r(gettimeofday());
 
-echo gettimeofday(true);
+echo gettimeofday(true);
 ?>
 ```
 

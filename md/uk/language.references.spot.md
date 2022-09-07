@@ -16,7 +16,7 @@ title: Неявне використання механізму посилань
 
 ```php
 <?php
-$var =& $GLOBALS["var"];
+$var =& $GLOBALS["var"];
 ?>
 ```
 

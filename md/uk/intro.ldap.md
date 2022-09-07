@@ -30,11 +30,11 @@ cn=John Smith,ou=Accounts,o=My Company,c=US
 
 Багато інформації про LDAP можна знайти на
 
--   [» Mozilla](https://wiki.mozilla.org/Directory)
+-   [» Mozilla](https://wiki.mozilla.org/Directory)
     
--   [» OpenLDAP Project](http://www.openldap.org/)
+-   [» OpenLDAP Project](http://www.openldap.org/)
     
 -   Internet Engineering Taskforce RFCs з [](http://www.faqs.org/rfcs/rfcrfc4510)по[](http://www.faqs.org/rfcs/rfcrfc4519)
     
 
-Netscape SDK містить корисне [» Руководство программиста](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide) у форматі HTML.
+Netscape SDK містить корисне [» Руководство программиста](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide) у форматі HTML.

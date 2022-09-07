@@ -50,13 +50,13 @@ register_shutdown_function(callable $callback, mixed ...$args): ?bool
 
 ```php
 <?php
-function shutdown()
+function shutdown()
 {
-    // Это наша завершающая функция,
-    // здесь мы можем выполнить все последние операции
-    // перед тем как скрипт полностью завершится.
+    // Это наша завершающая функция,
+    // здесь мы можем выполнить все последние операции
+    // перед тем как скрипт полностью завершится.
 
-    echo 'Скрипт успешно завершился', PHP_EOL;
+    echo 'Скрипт успешно завершился', PHP_EOL;
 }
 
 register_shutdown_function('shutdown');

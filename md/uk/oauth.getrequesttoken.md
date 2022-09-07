@@ -51,16 +51,16 @@ HTTP-метод, наприклад `GET` або `POST`
 
 ```php
 <?php
-try {
-    $oauth = new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET);
-    $request_token_info = $oauth->getRequestToken("https://example.com/oauth/request_token");
-    if(!empty($request_token_info)) {
-        print_r($request_token_info);
-    } else {
-        print "Не удалось получить токен доступа, ответ был: " . $oauth->getLastResponse();
-    }
-} catch(OAuthException $E) {
-    echo "Ответ: ". $E->lastResponse . "\n";
+try {
+    $oauth = new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET);
+    $request_token_info = $oauth->getRequestToken("https://example.com/oauth/request_token");
+    if(!empty($request_token_info)) {
+        print_r($request_token_info);
+    } else {
+        print "Не удалось получить токен доступа, ответ был: " . $oauth->getLastResponse();
+    }
+} catch(OAuthException $E) {
+    echo "Ответ: ". $E->lastResponse . "\n";
 }
 ?>
 ```

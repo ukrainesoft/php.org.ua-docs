@@ -45,16 +45,16 @@ ftp_nlist(FTP\Connection $ftp, string $directory): array|false
 ```php
 <?php
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// получить содержимое текущей директории
-$contents = ftp_nlist($v, ".");
+// получить содержимое текущей директории
+$contents = ftp_nlist($v, ".");
 
-// вывод $contents
+// вывод $contents
 var_dump($contents);
 
 ?>

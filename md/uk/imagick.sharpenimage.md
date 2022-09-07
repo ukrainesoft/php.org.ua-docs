@@ -38,11 +38,11 @@ public Imagick::sharpenImage(float $radius, float $sigma, int $channel = Imagick
 
 ```php
 <?php
-function sharpenImage($imagePath, $radius, $sigma, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->sharpenimage($radius, $sigma, $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function sharpenImage($imagePath, $radius, $sigma, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->sharpenimage($radius, $sigma, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

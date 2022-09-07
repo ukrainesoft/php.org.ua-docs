@@ -36,17 +36,17 @@ public mysql_xdevapi\Schema::getCollection(string $name): mysql_xdevapi\Collecti
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS food")->execute();
-$session->sql("CREATE DATABASE food")->execute();
+$session->sql("DROP DATABASE IF EXISTS food")->execute();
+$session->sql("CREATE DATABASE food")->execute();
 
-$schema = $session->getSchema("food");
+$schema = $session->getSchema("food");
 $schema->createCollection("trees");
 
-// ...
+// ...
 
-$trees = $schema->getCollection("trees");
+$trees = $schema->getCollection("trees");
 
 var_dump($trees);
 ```

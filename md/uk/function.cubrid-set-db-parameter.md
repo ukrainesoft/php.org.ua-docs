@@ -51,15 +51,15 @@ CUBRID з'єднання. Якщо ідентифікатор з'єднання 
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
 
-$params = cubrid_get_db_parameter($conn);
+$params = cubrid_get_db_parameter($conn);
 var_dump($params);
 
-cubrid_set_autocommit($conn, CUBRID_AUTOCOMMIT_TRUE);
-cubrid_set_db_parameter($conn, CUBRID_PARAM_ISOLATION_LEVEL, 2);
+cubrid_set_autocommit($conn, CUBRID_AUTOCOMMIT_TRUE);
+cubrid_set_db_parameter($conn, CUBRID_PARAM_ISOLATION_LEVEL, 2);
 
-$params_new = cubrid_get_db_parameter($conn);
+$params_new = cubrid_get_db_parameter($conn);
 var_dump($params_new);
 
 cubrid_disconnect($conn);

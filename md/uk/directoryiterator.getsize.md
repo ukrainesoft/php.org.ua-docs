@@ -34,11 +34,11 @@ public DirectoryIterator::getSize(): int
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-foreach ($iterator as $fileinfo) {
-    if ($fileinfo->isFile()) {
-        echo $fileinfo->getFilename() . " " . $fileinfo->getSize() . "\n";
-    }
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getFilename() . " " . $fileinfo->getSize() . "\n";
+    }
 }
 ?>
 ```

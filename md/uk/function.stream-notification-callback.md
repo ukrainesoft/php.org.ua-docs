@@ -15,7 +15,7 @@ streamnotificationcallback - Callback-функція для параметра �
 ### Опис
 
 ```methodsynopsis
-stream_notification_callback(    int $notification_code,    int $severity,    string $message,    int $message_code,    int $bytes_transferred,    int $bytes_max): void
+stream_notification_callback(    int $notification_code,    int $severity,    string $message,    int $message_code,    int $bytes_transferred,    int $bytes_max): void
 ```
 
 Callback-функція типу [callable](language.types.callable.md), що використовується [параметром контекста notification](context.params.md#context.params.notification), що викликається під час події.
@@ -62,45 +62,45 @@ Callback-функція типу [callable](language.types.callable.md), що в
 
 ```php
 <?php
-function stream_notification_callback($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max) {
+function stream_notification_callback($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max) {
 
-    switch($notification_code) {
-        case STREAM_NOTIFY_RESOLVE:
-        case STREAM_NOTIFY_AUTH_REQUIRED:
-        case STREAM_NOTIFY_COMPLETED:
-        case STREAM_NOTIFY_FAILURE:
-        case STREAM_NOTIFY_AUTH_RESULT:
-            var_dump($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max);
-            /* Игнорируем */
-            break;
+    switch($notification_code) {
+        case STREAM_NOTIFY_RESOLVE:
+        case STREAM_NOTIFY_AUTH_REQUIRED:
+        case STREAM_NOTIFY_COMPLETED:
+        case STREAM_NOTIFY_FAILURE:
+        case STREAM_NOTIFY_AUTH_RESULT:
+            var_dump($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max);
+            /* Игнорируем */
+            break;
 
-        case STREAM_NOTIFY_REDIRECTED:
-            echo "Перенаправлены на: ", $message;
-            break;
+        case STREAM_NOTIFY_REDIRECTED:
+            echo "Перенаправлены на: ", $message;
+            break;
 
-        case STREAM_NOTIFY_CONNECT:
-            echo "Подсоединились...";
-            break;
+        case STREAM_NOTIFY_CONNECT:
+            echo "Подсоединились...";
+            break;
 
-        case STREAM_NOTIFY_FILE_SIZE_IS:
-            echo "Получили размер файла: ", $bytes_max;
-            break;
+        case STREAM_NOTIFY_FILE_SIZE_IS:
+            echo "Получили размер файла: ", $bytes_max;
+            break;
 
-        case STREAM_NOTIFY_MIME_TYPE_IS:
-            echo "Получили mime-тип файла: ", $message;
-            break;
+        case STREAM_NOTIFY_MIME_TYPE_IS:
+            echo "Получили mime-тип файла: ", $message;
+            break;
 
-        case STREAM_NOTIFY_PROGRESS:
-            echo "Пошёл прогресс, пока загружено ", $bytes_transferred, " байт";
-            break;
-    }
-    echo "\n";
+        case STREAM_NOTIFY_PROGRESS:
+            echo "Пошёл прогресс, пока загружено ", $bytes_transferred, " байт";
+            break;
+    }
+    echo "\n";
 }
 
-$ctx = stream_context_create();
-stream_context_set_params($ctx, array("notification" => "stream_notification_callback"));
+$ctx = stream_context_create();
+stream_context_set_params($ctx, array("notification" => "stream_notification_callback"));
 
-file_get_contents("http://php.net/contact", false, $ctx);
+file_get_contents("http://php.net/contact", false, $ctx);
 ?>
 ```
 
@@ -132,67 +132,67 @@ file_get_contents("http://php.net/contact", false, $ctx);
 
 ```php
 <?php
-function usage($argv) {
-    echo "Использование:\n";
-    printf("\tphp %s <http://example.com/file> <localfile>\n", $argv[0]);
-    exit(1);
+function usage($argv) {
+    echo "Использование:\n";
+    printf("\tphp %s <http://example.com/file> <localfile>\n", $argv[0]);
+    exit(1);
 }
 
-function stream_notification_callback($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max) {
-    static $filesize = null;
+function stream_notification_callback($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max) {
+    static $filesize = null;
 
-    switch($notification_code) {
-    case STREAM_NOTIFY_RESOLVE:
-    case STREAM_NOTIFY_AUTH_REQUIRED:
-    case STREAM_NOTIFY_COMPLETED:
-    case STREAM_NOTIFY_FAILURE:
-    case STREAM_NOTIFY_AUTH_RESULT:
-        /* Игнорируем */
-        break;
+    switch($notification_code) {
+    case STREAM_NOTIFY_RESOLVE:
+    case STREAM_NOTIFY_AUTH_REQUIRED:
+    case STREAM_NOTIFY_COMPLETED:
+    case STREAM_NOTIFY_FAILURE:
+    case STREAM_NOTIFY_AUTH_RESULT:
+        /* Игнорируем */
+        break;
 
-    case STREAM_NOTIFY_REDIRECTED:
-        echo "Перенаправлены на: ", $message, "\n";
-        break;
+    case STREAM_NOTIFY_REDIRECTED:
+        echo "Перенаправлены на: ", $message, "\n";
+        break;
 
-    case STREAM_NOTIFY_CONNECT:
-        echo "Подсоединились...\n";
-        break;
+    case STREAM_NOTIFY_CONNECT:
+        echo "Подсоединились...\n";
+        break;
 
-    case STREAM_NOTIFY_FILE_SIZE_IS:
-        $filesize = $bytes_max;
-        echo "Размер файла: ", $filesize, "\n";
-        break;
+    case STREAM_NOTIFY_FILE_SIZE_IS:
+        $filesize = $bytes_max;
+        echo "Размер файла: ", $filesize, "\n";
+        break;
 
-    case STREAM_NOTIFY_MIME_TYPE_IS:
-        echo "Mime-тип файла: ", $message, "\n";
-        break;
+    case STREAM_NOTIFY_MIME_TYPE_IS:
+        echo "Mime-тип файла: ", $message, "\n";
+        break;
 
-    case STREAM_NOTIFY_PROGRESS:
-        if ($bytes_transferred > 0) {
-            if (!isset($filesize)) {
-                printf("\rНеизвестный размер файла.. Закачано %2d Кб..", $bytes_transferred/1024);
-            } else {
-                $length = (int)(($bytes_transferred/$filesize)*100);
-                printf("\r[%-100s] %d%% (%2d/%2d kb)", str_repeat("=", $length). ">", $length, ($bytes_transferred/1024), $filesize/1024);
-            }
-        }
-        break;
-    }
+    case STREAM_NOTIFY_PROGRESS:
+        if ($bytes_transferred > 0) {
+            if (!isset($filesize)) {
+                printf("\rНеизвестный размер файла.. Закачано %2d Кб..", $bytes_transferred/1024);
+            } else {
+                $length = (int)(($bytes_transferred/$filesize)*100);
+                printf("\r[%-100s] %d%% (%2d/%2d kb)", str_repeat("=", $length). ">", $length, ($bytes_transferred/1024), $filesize/1024);
+            }
+        }
+        break;
+    }
 }
 
-isset($argv[1], $argv[2]) or usage($argv);
+isset($argv[1], $argv[2]) or usage($argv);
 
-$ctx = stream_context_create();
-stream_context_set_params($ctx, array("notification" => "stream_notification_callback"));
+$ctx = stream_context_create();
+stream_context_set_params($ctx, array("notification" => "stream_notification_callback"));
 
-$fp = fopen($argv[1], "r", false, $ctx);
-if (is_resource($fp) && file_put_contents($argv[2], $fp)) {
-    echo "\nГотово!\n";
-    exit(0);
+$fp = fopen($argv[1], "r", false, $ctx);
+if (is_resource($fp) && file_put_contents($argv[2], $fp)) {
+    echo "\nГотово!\n";
+    exit(0);
 }
 
-$err = error_get_last();
-echo "\nОшшшшибкка..\n", $err["message"], "\n";
+$err = error_get_last();
+echo "\nОшшшшибкка..\n", $err["message"], "\n";
 exit(1);
 ?>
 ```

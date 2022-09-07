@@ -30,7 +30,7 @@ imap_check(IMAP\Connection $imap): stdClass|false
 
 Повертає об'єкт із такими властивостями:
 
--   **`Date`** - поточний системний час у відповідному форматі [» RFC2822](http://www.faqs.org/rfcs/rfc2822)
+-   **`Date`** - поточний системний час у відповідному форматі [» RFC2822](http://www.faqs.org/rfcs/rfc2822)
 -   **`Driver`** - протокол, який використовується для доступу до поштової скриньки: POP3, IMAP, NNTP
 -   **`Mailbox`** - ім'я поштової скриньки
 -   **`Nmsgs`** - кількість повідомлень
@@ -51,7 +51,7 @@ imap_check(IMAP\Connection $imap): stdClass|false
 ```php
 <?php
 
-$imap = imap_check($imap_stream);
+$imap = imap_check($imap_stream);
 var_dump($imap);
 
 ?>

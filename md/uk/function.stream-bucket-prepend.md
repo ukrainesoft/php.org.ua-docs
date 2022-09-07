@@ -41,20 +41,20 @@ stream_bucket_prepend(resource $brigade, object $bucket): void
 ```php
 <?php
 
-class foo extends php_user_filter {
-  protected $calls = 0;
-  public function filter($in, $out, &$consumed, $closing) {
-    while ($bucket = stream_bucket_make_writeable($in)) {
-      $consumed += $bucket->datalen;
-      if ($this->calls++ == 2) {
-        // Это ведро снова появится перед любым другим ведром.
-        stream_bucket_prepend($in, $bucket);
-      }
-    }
-    return PSFS_FEED_ME;
-  }
+class foo extends php_user_filter {
+  protected $calls = 0;
+  public function filter($in, $out, &$consumed, $closing) {
+    while ($bucket = stream_bucket_make_writeable($in)) {
+      $consumed += $bucket->datalen;
+      if ($this->calls++ == 2) {
+        // Это ведро снова появится перед любым другим ведром.
+        stream_bucket_prepend($in, $bucket);
+      }
+    }
+    return PSFS_FEED_ME;
+  }
 }
-stream_filter_register('test', 'foo');
-print  file_get_contents('php://filter/read=test/resource=foo');
+stream_filter_register('test', 'foo');
+print  file_get_contents('php://filter/read=test/resource=foo');
 ?>
 ```

@@ -28,7 +28,7 @@ private **mysqlxdevapiSession::construct**
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 $session->close();
 ?>
 ```

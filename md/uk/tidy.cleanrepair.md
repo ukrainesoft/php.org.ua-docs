@@ -46,12 +46,12 @@ tidy_clean_repair(tidy $tidy): bool
 
 ```php
 <?php
-$html = '<p>тест</I>';
+$html = '<p>тест</I>';
 
-$tidy = tidy_parse_string($html);
+$tidy = tidy_parse_string($html);
 $tidy->cleanRepair();
 
-echo $tidy;
+echo $tidy;
 ?>
 ```
 

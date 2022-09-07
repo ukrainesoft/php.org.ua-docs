@@ -40,20 +40,20 @@ cubrid_data_seek(resource $result, int $row_number): bool
 
 ```php
 <?php
-$conn = cubrid_connect("127.0.0.1", 33000, "demodb");
+$conn = cubrid_connect("127.0.0.1", 33000, "demodb");
 
-$req = cubrid_execute($conn, "SELECT * FROM code");
-cubrid_data_seek($req, 0);
+$req = cubrid_execute($conn, "SELECT * FROM code");
+cubrid_data_seek($req, 0);
 
-$result = cubrid_fetch_row($req);
+$result = cubrid_fetch_row($req);
 var_dump($result);
 
-cubrid_data_seek($req, 2);
-$result = cubrid_fetch_row($req);
+cubrid_data_seek($req, 2);
+$result = cubrid_fetch_row($req);
 var_dump($result);
 
-cubrid_data_seek($req, 4);
-$result = cubrid_fetch_row($req);
+cubrid_data_seek($req, 4);
+$result = cubrid_fetch_row($req);
 var_dump($result);
 
 cubrid_close_request($req);

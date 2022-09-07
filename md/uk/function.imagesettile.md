@@ -52,20 +52,20 @@ imagesettile(GdImage $image, GdImage $tile): bool
 
 ```php
 <?php
-// Загрузка внешнего изображения
-$zend = imagecreatefromgif('./zend.gif');
+// Загрузка внешнего изображения
+$zend = imagecreatefromgif('./zend.gif');
 
-// Создание изображения 200x200
-$im = imagecreatetruecolor(200, 200);
+// Создание изображения 200x200
+$im = imagecreatetruecolor(200, 200);
 
-// Установка мозаичного элемента
-imagesettile($im, $zend);
+// Установка мозаичного элемента
+imagesettile($im, $zend);
 
-// Заливка
-imagefilledrectangle($im, 0, 0, 199, 199, IMG_COLOR_TILED);
+// Заливка
+imagefilledrectangle($im, 0, 0, 199, 199, IMG_COLOR_TILED);
 
-// Вывод картинки в броузер
-header('Content-Type: image/png');
+// Вывод картинки в броузер
+header('Content-Type: image/png');
 
 imagepng($im);
 imagedestroy($im);

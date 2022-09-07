@@ -19,13 +19,13 @@ mysqli::realconnect -- mysqlirealconnect — Встановлює з'єднан�
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public mysqli::real_connect(    string $host = ?,    string $username = ?,    string $passwd = ?,    string $dbname = ?,    int $port = ?,    string $socket = ?,    int $flags = ?): bool
+public mysqli::real_connect(    string $host = ?,    string $username = ?,    string $passwd = ?,    string $dbname = ?,    int $port = ?,    string $socket = ?,    int $flags = ?): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_real_connect(    mysqli $link,    string $host = ?,    string $username = ?,    string $passwd = ?,    string $dbname = ?,    int $port = ?,    string $socket = ?,    int $flags = ?): bool
+mysqli_real_connect(    mysqli $link,    string $host = ?,    string $username = ?,    string $passwd = ?,    string $dbname = ?,    int $port = ?,    string $socket = ?,    int $flags = ?): bool
 ```
 
 Встановлює з'єднання із СУБД MySQL.
@@ -105,25 +105,25 @@ mysqli_real_connect(    mysqli $link,    string $host = ?,    string
 ```php
 <?php
 
-$mysqli = mysqli_init();
-if (!$mysqli) {
-    die('mysqli_init завершилась провалом');
+$mysqli = mysqli_init();
+if (!$mysqli) {
+    die('mysqli_init завершилась провалом');
 }
 
-if (!$mysqli->options(MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {
-    die('Установка MYSQLI_INIT_COMMAND завершилась провалом');
+if (!$mysqli->options(MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {
+    die('Установка MYSQLI_INIT_COMMAND завершилась провалом');
 }
 
-if (!$mysqli->options(MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {
-    die('Установка MYSQLI_OPT_CONNECT_TIMEOUT завершилась провалом');
+if (!$mysqli->options(MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {
+    die('Установка MYSQLI_OPT_CONNECT_TIMEOUT завершилась провалом');
 }
 
-if (!$mysqli->real_connect('localhost', 'my_user', 'my_password', 'my_db')) {
-    die('Ошибка подключения (' . mysqli_connect_errno() . ') '
-            . mysqli_connect_error());
+if (!$mysqli->real_connect('localhost', 'my_user', 'my_password', 'my_db')) {
+    die('Ошибка подключения (' . mysqli_connect_errno() . ') '
+            . mysqli_connect_error());
 }
 
-echo 'Выполнено... ' . $mysqli->host_info . "\n";
+echo 'Выполнено... ' . $mysqli->host_info . "\n";
 
 $mysqli->close();
 ?>
@@ -134,28 +134,28 @@ $mysqli->close();
 ```php
 <?php
 
-class foo_mysqli extends mysqli {
-    public function __construct($host, $user, $pass, $db) {
-        parent::init();
+class foo_mysqli extends mysqli {
+    public function __construct($host, $user, $pass, $db) {
+        parent::init();
 
-        if (!parent::options(MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {
-            die('Установка MYSQLI_INIT_COMMAND завершилась провалом');
-        }
+        if (!parent::options(MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {
+            die('Установка MYSQLI_INIT_COMMAND завершилась провалом');
+        }
 
-        if (!parent::options(MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {
-            die('Установка MYSQLI_OPT_CONNECT_TIMEOUT завершилась провалом');
-        }
+        if (!parent::options(MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {
+            die('Установка MYSQLI_OPT_CONNECT_TIMEOUT завершилась провалом');
+        }
 
-        if (!parent::real_connect($host, $user, $pass, $db)) {
-            die('Ошибка подключения (' . mysqli_connect_errno() . ') '
-                    . mysqli_connect_error());
-        }
-    }
+        if (!parent::real_connect($host, $user, $pass, $db)) {
+            die('Ошибка подключения (' . mysqli_connect_errno() . ') '
+                    . mysqli_connect_error());
+        }
+    }
 }
 
-$db = new foo_mysqli('localhost', 'my_user', 'my_password', 'my_db');
+$db = new foo_mysqli('localhost', 'my_user', 'my_password', 'my_db');
 
-echo 'Выполнено... ' . $db->host_info . "\n";
+echo 'Выполнено... ' . $db->host_info . "\n";
 
 $db->close();
 ?>
@@ -166,25 +166,25 @@ $db->close();
 ```php
 <?php
 
-$link = mysqli_init();
-if (!$link) {
-    die('mysqli_init завершилась провалом');
+$link = mysqli_init();
+if (!$link) {
+    die('mysqli_init завершилась провалом');
 }
 
-if (!mysqli_options($link, MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {
-    die('Установка MYSQLI_INIT_COMMAND завершилась провалом');
+if (!mysqli_options($link, MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {
+    die('Установка MYSQLI_INIT_COMMAND завершилась провалом');
 }
 
-if (!mysqli_options($link, MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {
-    die('Установка MYSQLI_OPT_CONNECT_TIMEOUT завершилась провалом');
+if (!mysqli_options($link, MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {
+    die('Установка MYSQLI_OPT_CONNECT_TIMEOUT завершилась провалом');
 }
 
-if (!mysqli_real_connect($link, 'localhost', 'my_user', 'my_password', 'my_db')) {
-    die('Ошибка подключения (' . mysqli_connect_errno() . ') '
-            . mysqli_connect_error());
+if (!mysqli_real_connect($link, 'localhost', 'my_user', 'my_password', 'my_db')) {
+    die('Ошибка подключения (' . mysqli_connect_errno() . ') '
+            . mysqli_connect_error());
 }
 
-echo 'Выполнено... ' . mysqli_get_host_info($link) . "\n";
+echo 'Выполнено... ' . mysqli_get_host_info($link) . "\n";
 
 mysqli_close($link);
 ?>

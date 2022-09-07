@@ -15,7 +15,7 @@ ImagickDraw::pathEllipticArcRelative — Малює еліптичну дугу
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pathEllipticArcRelative(    float $rx,    float $ry,    float $x_axis_rotation,    bool $large_arc_flag,    bool $sweep_flag,    float $x,    float $y): bool
+public ImagickDraw::pathEllipticArcRelative(    float $rx,    float $ry,    float $x_axis_rotation,    bool $large_arc_flag,    bool $sweep_flag,    float $x,    float $y): bool
 ```
 
 **Увага**

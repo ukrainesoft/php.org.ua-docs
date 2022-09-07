@@ -37,12 +37,12 @@ tidy_get_output(tidy $tidy): string
 ```php
 <?php
 
-$html = '<p>параграф</i>';
-$tidy = tidy_parse_string($html);
+$html = '<p>параграф</i>';
+$tidy = tidy_parse_string($html);
 
 $tidy->cleanRepair();
 
-echo tidy_get_output($tidy);
+echo tidy_get_output($tidy);
 ?>
 ```
 

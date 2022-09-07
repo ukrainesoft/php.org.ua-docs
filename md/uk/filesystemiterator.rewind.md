@@ -34,15 +34,15 @@ public FilesystemIterator::rewind(): void
 
 ```php
 <?php
-$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);
+$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);
 
-echo $iterator->key() . "\n";
+echo $iterator->key() . "\n";
 
 $iterator->next();
-echo $iterator->key() . "\n";
+echo $iterator->key() . "\n";
 
 $iterator->rewind();
-echo $iterator->key() . "\n";
+echo $iterator->key() . "\n";
 ?>
 ```
 

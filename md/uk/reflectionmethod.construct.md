@@ -46,59 +46,59 @@ public **ReflectionMethod::construct**(string `$classMethod`
 
 ```php
 <?php
-class Counter
+class Counter
 {
-    private static $c = 0;
+    private static $c = 0;
 
-    /**
-     * Счётчик
-     *
-     * @final
-     * @static
-     * @access  public
-     * @return  int
-     */
-    final public static function increment()
-    {
-        return ++self::$c;
-    }
+    /**
+     * Счётчик
+     *
+     * @final
+     * @static
+     * @access  public
+     * @return  int
+     */
+    final public static function increment()
+    {
+        return ++self::$c;
+    }
 }
 
-// Создание экземпляра класса ReflectionMethod
-$method = new ReflectionMethod('Counter', 'increment');
+// Создание экземпляра класса ReflectionMethod
+$method = new ReflectionMethod('Counter', 'increment');
 
-// Вывод основной информации
+// Вывод основной информации
 printf(
-    "===> %s%s%s%s%s%s%s метод '%s' (%s)\n" .
-    "     объявлен в %s\n" .
-    "     строки с %d по %d\n" .
-    "     имеет модификаторы %d[%s]\n",
-        $method->isInternal() ? 'внутренний' : 'определённый пользователем',
-        $method->isAbstract() ? ' абстрактный' : '',
-        $method->isFinal() ? ' окончательный' : '',
-        $method->isPublic() ? ' общедоступный' : '',
-        $method->isPrivate() ? ' закрытый' : '',
-        $method->isProtected() ? ' защищённый' : '',
-        $method->isStatic() ? ' статический' : '',
-        $method->getName(),
-        $method->isConstructor() ? 'конструктор' : 'обычный метод',
-        $method->getFileName(),
-        $method->getStartLine(),
-        $method->getEndline(),
-        $method->getModifiers(),
-        implode(' ', Reflection::getModifierNames($method->getModifiers()))
+    "===> %s%s%s%s%s%s%s метод '%s' (%s)\n" .
+    "     объявлен в %s\n" .
+    "     строки с %d по %d\n" .
+    "     имеет модификаторы %d[%s]\n",
+        $method->isInternal() ? 'внутренний' : 'определённый пользователем',
+        $method->isAbstract() ? ' абстрактный' : '',
+        $method->isFinal() ? ' окончательный' : '',
+        $method->isPublic() ? ' общедоступный' : '',
+        $method->isPrivate() ? ' закрытый' : '',
+        $method->isProtected() ? ' защищённый' : '',
+        $method->isStatic() ? ' статический' : '',
+        $method->getName(),
+        $method->isConstructor() ? 'конструктор' : 'обычный метод',
+        $method->getFileName(),
+        $method->getStartLine(),
+        $method->getEndline(),
+        $method->getModifiers(),
+        implode(' ', Reflection::getModifierNames($method->getModifiers()))
 );
 
-// Вывод doc-комментария
-printf("---> Комментарий:\n %s\n", var_export($method->getDocComment(), true));
+// Вывод doc-комментария
+printf("---> Комментарий:\n %s\n", var_export($method->getDocComment(), true));
 
-// Вывод статических переменных, если есть
-if ($statics= $method->getStaticVariables()) {
-    printf("---> Статические переменные: %s\n", var_export($statics, true));
+// Вывод статических переменных, если есть
+if ($statics= $method->getStaticVariables()) {
+    printf("---> Статические переменные: %s\n", var_export($statics, true));
 }
 
-// Вызов метода
-printf("---> Результат вызова метода: ");
+// Вызов метода
+printf("---> Результат вызова метода: ");
 var_dump($method->invoke(NULL));
 ?>
 ```

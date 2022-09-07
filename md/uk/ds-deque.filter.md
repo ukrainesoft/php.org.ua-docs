@@ -42,10 +42,10 @@ callback(mixed $value): bool
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3, 4, 5]);
+$deque = new \Ds\Deque([1, 2, 3, 4, 5]);
 
-var_dump($deque->filter(function($value) {
-    return $value % 2 == 0;
+var_dump($deque->filter(function($value) {
+    return $value % 2 == 0;
 }));
 ?>
 ```
@@ -65,7 +65,7 @@ object(Ds\Deque)#3 (2) {
 
 ```php
 <?php
-$deque = new \Ds\Deque([0, 1, 'a', true, false]);
+$deque = new \Ds\Deque([0, 1, 'a', true, false]);
 
 var_dump($deque->filter());
 ?>

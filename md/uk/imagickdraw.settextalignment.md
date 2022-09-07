@@ -40,28 +40,28 @@ public ImagickDraw::setTextAlignment(int $alignment): bool
 
 ```php
 <?php
-function setTextAlignment($strokeColor, $fillColor, $backgroundColor) {
-    $draw = new \ImagickDraw();
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(1);
-    $draw->setFontSize(36);
+function setTextAlignment($strokeColor, $fillColor, $backgroundColor) {
+    $draw = new \ImagickDraw();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(1);
+    $draw->setFontSize(36);
 
-    $draw->setTextAlignment(\Imagick::ALIGN_LEFT);
-    $draw->annotation(250, 75, "Lorem Ipsum!");
-    $draw->setTextAlignment(\Imagick::ALIGN_CENTER);
-    $draw->annotation(250, 150, "Lorem Ipsum!");
-    $draw->setTextAlignment(\Imagick::ALIGN_RIGHT);
-    $draw->annotation(250, 225, "Lorem Ipsum!");
-    $draw->line(250, 0, 250, 500);
+    $draw->setTextAlignment(\Imagick::ALIGN_LEFT);
+    $draw->annotation(250, 75, "Lorem Ipsum!");
+    $draw->setTextAlignment(\Imagick::ALIGN_CENTER);
+    $draw->annotation(250, 150, "Lorem Ipsum!");
+    $draw->setTextAlignment(\Imagick::ALIGN_RIGHT);
+    $draw->annotation(250, 225, "Lorem Ipsum!");
+    $draw->line(250, 0, 250, 500);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

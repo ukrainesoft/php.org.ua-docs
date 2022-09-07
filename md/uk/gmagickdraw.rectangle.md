@@ -15,7 +15,7 @@ GmagickDraw::rectangle — Малює прямокутник.
 ### Опис
 
 ```methodsynopsis
-public GmagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): GmagickDraw
+public GmagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): GmagickDraw
 ```
 
 Малює прямокутник по двох координатах за допомогою поточних параметрів обведення, ширини обведення та заливки.

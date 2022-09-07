@@ -15,7 +15,7 @@ SwooleAsync::writeFile — Опис
 ### Опис
 
 ```methodsynopsis
-public static Swoole\Async::writeFile(    string $filename,    string $content,    callable $callback = ?,    string $flags = ?): void
+public static Swoole\Async::writeFile(    string $filename,    string $content,    callable $callback = ?,    string $flags = ?): void
 ```
 
 **Увага**

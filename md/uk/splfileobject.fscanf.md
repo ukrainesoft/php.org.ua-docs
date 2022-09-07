@@ -50,10 +50,10 @@ public SplFileObject::fscanf(string $format, mixed &...$vars): array|int|null
 
 ```php
 <?php
-$file = new SplFileObject("misc.txt");
-while ($userinfo = $file->fscanf("%s %s %s")) {
-    list ($name, $profession, $countrycode) = $userinfo;
-    // Работаем с $name $profession $countrycode
+$file = new SplFileObject("misc.txt");
+while ($userinfo = $file->fscanf("%s %s %s")) {
+    list ($name, $profession, $countrycode) = $userinfo;
+    // Работаем с $name $profession $countrycode
 }
 ?>
 ```

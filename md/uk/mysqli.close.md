@@ -51,16 +51,16 @@ mysqli_close(mysqli $mysql): bool
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$result = $mysqli->query("SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
+$result = $mysqli->query("SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
 
-/* Закройте соединение, как только оно становится ненужным */
+/* Закройте соединение, как только оно становится ненужным */
 $mysqli->close();
 
-foreach ($result as $row) {
-    /* Обработка данных, полученных из базы данных */
+foreach ($result as $row) {
+    /* Обработка данных, полученных из базы данных */
 }
 ```
 
@@ -69,16 +69,16 @@ foreach ($result as $row) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$result = mysqli_query($mysqli, "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
+$result = mysqli_query($mysqli, "SELECT Name, CountryCode FROM City ORDER BY ID LIMIT 3");
 
-/* Закройте соединение, как только оно становится ненужным */
+/* Закройте соединение, как только оно становится ненужным */
 mysqli_close($mysqli);
 
-foreach ($result as $row) {
-    /* Обработка данных, полученных из базы данных */
+foreach ($result as $row) {
+    /* Обработка данных, полученных из базы данных */
 }
 ```
 

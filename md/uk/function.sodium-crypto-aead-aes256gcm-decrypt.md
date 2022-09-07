@@ -15,7 +15,7 @@ sodiumcryptoaeadaes256gcmdecrypt — Перевірка та розшифрув�
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_aes256gcm_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
+sodium_crypto_aead_aes256gcm_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
 ```
 
 Перевіряє та розшифровує повідомлення за допомогою AES-256-GCM Доступно, лише якщо [sodiumcryptoaeadaes256gcmісavailable()](function.sodium-crypto-aead-aes256gcm-is-available.md) повертає **`true`**

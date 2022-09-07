@@ -40,17 +40,17 @@ mb_encoding_aliases(string $encoding): array
 
 ```php
 <?php
-$encoding        = 'ASCII';
-$known_encodings = mb_list_encodings();
+$encoding        = 'ASCII';
+$known_encodings = mb_list_encodings();
 
-if (in_array($encoding, $known_encodings)) {
+if (in_array($encoding, $known_encodings)) {
 
-    $aliases = mb_encoding_aliases($encoding);
-    print_r($aliases);
+    $aliases = mb_encoding_aliases($encoding);
+    print_r($aliases);
 
-} else {
+} else {
 
-    echo "Неизвестная кодировка ($encoding).\n";
+    echo "Неизвестная кодировка ($encoding).\n";
 
 }
 ?>

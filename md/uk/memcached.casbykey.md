@@ -15,7 +15,7 @@ Memcached::casByKey — Порівнює та встановлює значен�
 ### Опис
 
 ```methodsynopsis
-public Memcached::casByKey(    float $cas_token,    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
+public Memcached::casByKey(    float $cas_token,    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
 ```
 
 **Memcached::casByKey()** працює аналогічно методу [Memcached::cas()](memcached.cas.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та установки `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.

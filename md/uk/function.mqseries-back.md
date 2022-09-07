@@ -48,11 +48,11 @@ Using **mqseriesback()** працює тільки спільно з [mqseriesbe
 
 ```php
 <?php
-    mqseries_back($conn, $comp_code, $reason);
+    mqseries_back($conn, $comp_code, $reason);
 
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-    }
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+    }
 ?>
 ```
 

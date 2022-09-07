@@ -36,13 +36,13 @@ public Memcached::setOptions(array $options): bool
 
 ```php
 <?php
-$m = new Memcached();
-var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);
+$m = new Memcached();
+var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);
 
-$m->setOptions(array(Memcached::OPT_HASH => Memcached::HASH_MURMUR, Memcached::OPT_PREFIX_KEY => "widgets"));
+$m->setOptions(array(Memcached::OPT_HASH => Memcached::HASH_MURMUR, Memcached::OPT_PREFIX_KEY => "widgets"));
 
-var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);
-echo "Prefix key is now: ", $m->getOption(Memcached::OPT_PREFIX_KEY), "\n";
+var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);
+echo "Prefix key is now: ", $m->getOption(Memcached::OPT_PREFIX_KEY), "\n";
 ?>
 ```
 

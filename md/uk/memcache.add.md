@@ -15,7 +15,7 @@ Memcache::add — Додати елемент із зазначеним ключ
 ### Опис
 
 ```methodsynopsis
-Memcache::add(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
+Memcache::add(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
 ```
 
 **Memcache::add()** записує елемент `var` із зазначеним ключем `key` тільки якщо цей ключ ще не існує на сервері. Також можна використовувати функцію **memcacheadd()**
@@ -49,13 +49,13 @@ Memcache::add(    string $key,    mixed $var,    int $flag = ?,  �
 ```php
 <?php
 
-$memcache_obj = memcache_connect("localhost", 11211);
+$memcache_obj = memcache_connect("localhost", 11211);
 
-/* процедурное API */
-memcache_add($memcache_obj, 'var_key', 'test variable', false, 30);
+/* процедурное API */
+memcache_add($memcache_obj, 'var_key', 'test variable', false, 30);
 
-/* объектно-ориентированное API */
-$memcache_obj->add('var_key', 'test variable', false, 30);
+/* объектно-ориентированное API */
+$memcache_obj->add('var_key', 'test variable', false, 30);
 
 ?>
 ```

@@ -15,7 +15,7 @@ snmp2getnext — Отримує об'єкт SNMP, який слідує за ц�
 ### Опис
 
 ```methodsynopsis
-snmp2_getnext(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmp2_getnext(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
 Функція **snmp2getnext()** використовується для читання значення об'єкта SNMP, який слідує за вказаним `object_id`
@@ -52,7 +52,7 @@ Read-спільнота.
 
 ```php
 <?php
-$nameOfSecondInterface = snmp2_get_next('localhost', 'public', 'IF-MIB::ifName.1');
+$nameOfSecondInterface = snmp2_get_next('localhost', 'public', 'IF-MIB::ifName.1');
 ?>
 ```
 

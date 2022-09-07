@@ -12,7 +12,7 @@ title: Клас MongoDBDriverExceptionExecutionTimeoutException
 
 ## Вступ
 
-Викидається, коли запит або команда не завершується протягом певного періоду часу (наприклад, [» maxTimeMS](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
+Викидається, коли запит або команда не завершується протягом певного періоду часу (наприклад, [» maxTimeMS](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
 
 ## Огляд класів
 

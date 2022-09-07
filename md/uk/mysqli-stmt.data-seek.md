@@ -52,40 +52,40 @@ mysqli_stmt_data_seek(mysqli_stmt $statement, int $offset): void
 
 ```php
 <?php
-/* открываем соединение */
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+/* открываем соединение */
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY Name";
-if ($stmt = $mysqli->prepare($query)) {
+$query = "SELECT Name, CountryCode FROM City ORDER BY Name";
+if ($stmt = $mysqli->prepare($query)) {
 
-    /* выполняем запрос */
-    $stmt->execute();
+    /* выполняем запрос */
+    $stmt->execute();
 
-    /* привязываем переменные к результату запроса */
-    $stmt->bind_result($name, $code);
+    /* привязываем переменные к результату запроса */
+    $stmt->bind_result($name, $code);
 
-    /* помещаем результаты запроса в переменные */
-    $stmt->store_result();
+    /* помещаем результаты запроса в переменные */
+    $stmt->store_result();
 
-    /* переходим к строке 400 результирующей таблицы */
-    $stmt->data_seek(399);
+    /* переходим к строке 400 результирующей таблицы */
+    $stmt->data_seek(399);
 
-    /* извлекаем данные */
-    $stmt->fetch();
+    /* извлекаем данные */
+    $stmt->fetch();
 
-    printf ("Город: %s  Код страны: %s\n", $name, $code);
+    printf ("Город: %s  Код страны: %s\n", $name, $code);
 
-    /* закрываем запрос */
-    $stmt->close();
+    /* закрываем запрос */
+    $stmt->close();
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -94,40 +94,40 @@ $mysqli->close();
 
 ```php
 <?php
-/* открываем соединение */
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+/* открываем соединение */
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY Name";
-if ($stmt = mysqli_prepare($link, $query)) {
+$query = "SELECT Name, CountryCode FROM City ORDER BY Name";
+if ($stmt = mysqli_prepare($link, $query)) {
 
-    /* выполняем запрос */
-    mysqli_stmt_execute($stmt);
+    /* выполняем запрос */
+    mysqli_stmt_execute($stmt);
 
-    /* привязываем переменные к результату запроса */
-    mysqli_stmt_bind_result($stmt, $name, $code);
+    /* привязываем переменные к результату запроса */
+    mysqli_stmt_bind_result($stmt, $name, $code);
 
-    /* помещаем результаты запроса в переменные */
-    mysqli_stmt_store_result($stmt);
+    /* помещаем результаты запроса в переменные */
+    mysqli_stmt_store_result($stmt);
 
-    /* переходим к строке 400 результирующей таблицы */
-    mysqli_stmt_data_seek($stmt, 399);
+    /* переходим к строке 400 результирующей таблицы */
+    mysqli_stmt_data_seek($stmt, 399);
 
-    /* извлекаем данные */
-    mysqli_stmt_fetch($stmt);
+    /* извлекаем данные */
+    mysqli_stmt_fetch($stmt);
 
-    printf ("Город: %s  Код страны: %s\n", $name, $code);
+    printf ("Город: %s  Код страны: %s\n", $name, $code);
 
-    /* закрываем запрос */
-    mysqli_stmt_close($stmt);
+    /* закрываем запрос */
+    mysqli_stmt_close($stmt);
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

@@ -23,7 +23,7 @@ public PDO::query(string $query, ?int $fetchMode = PDO::FETCH_COLUMN, int $colno
 ```
 
 ```methodsynopsis
-public PDO::query(    string $query,    ?int $fetchMode = PDO::FETCH_CLASS,    string $classname,    array $constructorArgs): PDOStatement|false
+public PDO::query(    string $query,    ?int $fetchMode = PDO::FETCH_CLASS,    string $classname,    array $constructorArgs): PDOStatement|false
 ```
 
 ```methodsynopsis
@@ -64,11 +64,11 @@ SQL-запит для підготовки та виконання.
 
 ```php
 <?php
-$sql = 'SELECT name, color, calories FROM fruit ORDER BY name';
-foreach ($conn->query($sql) as $row) {
-    print $row['name'] . "\t";
-    print $row['color'] . "\t";
-    print $row['calories'] . "\n";
+$sql = 'SELECT name, color, calories FROM fruit ORDER BY name';
+foreach ($conn->query($sql) as $row) {
+    print $row['name'] . "\t";
+    print $row['color'] . "\t";
+    print $row['calories'] . "\n";
 }
 ?>
 ```

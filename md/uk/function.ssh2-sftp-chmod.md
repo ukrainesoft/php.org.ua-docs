@@ -44,11 +44,11 @@ ssh2_sftp_chmod(resource $sftp, string $filename, int $mode): bool
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
-$sftp = ssh2_sftp($connection);
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
+$sftp = ssh2_sftp($connection);
 
-ssh2_sftp_chmod($sftp, '/somedir/somefile', 0755);
+ssh2_sftp_chmod($sftp, '/somedir/somefile', 0755);
 ?>
 ```
 

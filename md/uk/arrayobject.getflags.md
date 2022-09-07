@@ -34,20 +34,20 @@ public ArrayObject::getFlags(): int
 
 ```php
 <?php
-// Масив с количеством фруктов
-$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
+// Масив с количеством фруктов
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
-$fruitsArrayObject = new ArrayObject($fruits);
+$fruitsArrayObject = new ArrayObject($fruits);
 
-// Получение текущих флагов
-$flags = $fruitsArrayObject->getFlags();
+// Получение текущих флагов
+$flags = $fruitsArrayObject->getFlags();
 var_dump($flags);
 
-// Установка новых флагов
+// Установка новых флагов
 $fruitsArrayObject->setFlags(ArrayObject::ARRAY_AS_PROPS);
 
-// Получение новых флагов
-$flags = $fruitsArrayObject->getFlags();
+// Получение новых флагов
+$flags = $fruitsArrayObject->getFlags();
 var_dump($flags);
 ?>
 ```

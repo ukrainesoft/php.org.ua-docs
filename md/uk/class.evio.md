@@ -60,19 +60,19 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?)
@@ -80,20 +80,20 @@ public
     final
    public
    static
-   createStopped(    
+   createStopped(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

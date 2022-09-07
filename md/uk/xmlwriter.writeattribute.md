@@ -62,16 +62,16 @@ xmlwriter_write_attribute(XMLWriter $writer, string $name, string $value): bool
 
 ```php
 <?php
-$xml = new XMLWriter();
+$xml = new XMLWriter();
 $xml->openMemory();
 
 $xml->startElement('element');
-$xml->writeAttribute('attr1', '0');
-$xml->writeElement('subelem', '0');
-var_dump($xml->writeAttribute('attr2', '0'));
+$xml->writeAttribute('attr1', '0');
+$xml->writeElement('subelem', '0');
+var_dump($xml->writeAttribute('attr2', '0'));
 $xml->endElement();
 
-echo $xml->flush();
+echo $xml->flush();
 ?>
 ```
 

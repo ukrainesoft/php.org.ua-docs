@@ -17,20 +17,20 @@ title: Коментарі
 ```php
 <?php
 
-$subject = 'test';
+$subject = 'test';
 
-/* (?# можно использовать для добавления комментариев без включения PCRE_EXTENDED */
-$match = preg_match('/te(?# this is a comment)st/', $subject);
+/* (?# можно использовать для добавления комментариев без включения PCRE_EXTENDED */
+$match = preg_match('/te(?# this is a comment)st/', $subject);
 var_dump($match);
 
-/* Пробелы и # рассматриваются как часть шаблона, если не включён PCRE_EXTENDED. */
-$match = preg_match('/te   #~~~~
-st/', $subject);
+/* Пробелы и # рассматриваются как часть шаблона, если не включён PCRE_EXTENDED. */
+$match = preg_match('/te   #~~~~
+st/', $subject);
 var_dump($match);
 
-/* Когда PCRE_EXTENDED включён, все пробелы и всё, что следует за неэкранированным # в той же строке, игнорируется. */
-$match = preg_match('/te    #~~~~
-st/x', $subject);
+/* Когда PCRE_EXTENDED включён, все пробелы и всё, что следует за неэкранированным # в той же строке, игнорируется. */
+$match = preg_match('/te    #~~~~
+st/x', $subject);
 var_dump($match);
 ```
 

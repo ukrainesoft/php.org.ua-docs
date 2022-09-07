@@ -46,8 +46,8 @@ public get(): ?object
 
 ```php
 <?php
-$obj = new stdClass;
-$weakref = WeakReference::create($obj);
+$obj = new stdClass;
+$weakref = WeakReference::create($obj);
 var_dump($weakref->get());
 unset($obj);
 var_dump($weakref->get());

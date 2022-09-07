@@ -54,13 +54,13 @@ public Phar::setDefaultStub(?string $index = null, ?string $webIndex = null): bo
 
 ```php
 <?php
-try {
-    $phar = new Phar('myphar.phar');
-    $phar->setDefaultStub('cli.php', 'web/index.php');
-    // это аналогично такому коду:
-    // $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $phar = new Phar('myphar.phar');
+    $phar->setDefaultStub('cli.php', 'web/index.php');
+    // это аналогично такому коду:
+    // $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

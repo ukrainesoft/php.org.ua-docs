@@ -15,7 +15,7 @@ swooleeventset - Оновити callback-функції події сокету
 ### Опис
 
 ```methodsynopsis
-swoole_event_set(    int $fd,    callable $read_callback = ?,    callable $write_callback = ?,    int $events = 0): bool
+swoole_event_set(    int $fd,    callable $read_callback = ?,    callable $write_callback = ?,    int $events = 0): bool
 ```
 
 ### Список параметрів

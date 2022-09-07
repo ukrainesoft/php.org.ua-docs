@@ -56,26 +56,26 @@ Server API Версія 1.
 ```php
 <?php
 
-use MongoDB\Driver\Manager;
-use MongoDB\Driver\ServerApi;
+use MongoDB\Driver\Manager;
+use MongoDB\Driver\ServerApi;
 
-$v1 = new ServerApi(ServerApi::v1);
-$manager = new Manager('mongodb://localhost:27017', [], ['serverApi' => $v1]);
+$v1 = new ServerApi(ServerApi::v1);
+$manager = new Manager('mongodb://localhost:27017', [], ['serverApi' => $v1]);
 
-$command = new MongoDB\Driver\Command(['buildInfo' => 1]);
+$command = new MongoDB\Driver\Command(['buildInfo' => 1]);
 
-try {
-    $cursor = $manager->executeCommand('admin', $command);
-} catch(MongoDB\Driver\Exception $e) {
-    echo $e->getMessage(), "\n";
-    exit;
+try {
+    $cursor = $manager->executeCommand('admin', $command);
+} catch(MongoDB\Driver\Exception $e) {
+    echo $e->getMessage(), "\n";
+    exit;
 }
 
-/* Команда buildInfo возвращает единственный документ результата, поэтому нам нужно получить доступ
- * к первому результату в курсоре. */
-$buildInfo = $cursor->toArray()[0];
+/* Команда buildInfo возвращает единственный документ результата, поэтому нам нужно получить доступ
+ * к первому результату в курсоре. */
+$buildInfo = $cursor->toArray()[0];
 
-echo $buildInfo->version, "\n";
+echo $buildInfo->version, "\n";
 
 ?>
 ```
@@ -93,26 +93,26 @@ echo $buildInfo->version, "\n";
 ```php
 <?php
 
-use MongoDB\Driver\Manager;
-use MongoDB\Driver\ServerApi;
+use MongoDB\Driver\Manager;
+use MongoDB\Driver\ServerApi;
 
-$v1 = new ServerApi(ServerApi::v1, true);
-$manager = new Manager('mongodb://localhost:27017', [], ['serverApi' => $v1]);
+$v1 = new ServerApi(ServerApi::v1, true);
+$manager = new Manager('mongodb://localhost:27017', [], ['serverApi' => $v1]);
 
-$command = new MongoDB\Driver\Command(['buildInfo' => 1]);
+$command = new MongoDB\Driver\Command(['buildInfo' => 1]);
 
-try {
-    $cursor = $manager->executeCommand('admin', $command);
-} catch(MongoDB\Driver\Exception $e) {
-    echo $e->getMessage(), "\n";
-    exit;
+try {
+    $cursor = $manager->executeCommand('admin', $command);
+} catch(MongoDB\Driver\Exception $e) {
+    echo $e->getMessage(), "\n";
+    exit;
 }
 
-/* Команда buildInfo возвращает единственный документ результата, поэтому нам нужно получить доступ
- * к первому результату в курсоре. */
-$buildInfo = $cursor->toArray()[0];
+/* Команда buildInfo возвращает единственный документ результата, поэтому нам нужно получить доступ
+ * к первому результату в курсоре. */
+$buildInfo = $cursor->toArray()[0];
 
-echo $buildInfo->version, "\n";
+echo $buildInfo->version, "\n";
 
 ?>
 ```

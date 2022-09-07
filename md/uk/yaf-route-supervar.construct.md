@@ -32,13 +32,13 @@ public **YafRouteSupervar::construct**(string `$supervar_name`
 
 ```php
 <?php
-   /**
-    * Добавление маршрута supervar в стек маршрутов Yaf_Router
-    */
-    Yaf_Dispatcher::getInstance()->getRouter()->addRoute(
-        "name",
-        new Yaf_Route_Supervar("r")
-    );
+   /**
+    * Добавление маршрута supervar в стек маршрутов Yaf_Router
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute(
+        "name",
+        new Yaf_Route_Supervar("r")
+    );
 ?>
 ```
 

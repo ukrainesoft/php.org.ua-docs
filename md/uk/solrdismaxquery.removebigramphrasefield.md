@@ -37,17 +37,17 @@ public SolrDisMaxQuery::removeBigramPhraseField(string $field): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery = new SolrDisMaxQuery("lucene");
 $dismaxQuery
-    ->addBigramPhraseField('cat', 2, 5.1)
-    ->addBigramPhraseField('feature', 4.5)
+    ->addBigramPhraseField('cat', 2, 5.1)
+    ->addBigramPhraseField('feature', 4.5)
 ;
-echo $dismaxQuery.PHP_EOL;
+echo $dismaxQuery.PHP_EOL;
 
-// удалить cat из pf2
+// удалить cat из pf2
 $dismaxQuery
-    ->removeBigramPhraseField('cat');
-echo $dismaxQuery.PHP_EOL;
+    ->removeBigramPhraseField('cat');
+echo $dismaxQuery.PHP_EOL;
 
 ?>
 ```

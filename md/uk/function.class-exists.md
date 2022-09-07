@@ -40,9 +40,9 @@ class_exists(string $class, bool $autoload = true): bool
 
 ```php
 <?php
-// Проверяем существование класса перед его использованием
-if (class_exists('MyClass')) {
-    $myclass = new MyClass();
+// Проверяем существование класса перед его использованием
+if (class_exists('MyClass')) {
+    $myclass = new MyClass();
 }
 
 ?>
@@ -52,17 +52,17 @@ if (class_exists('MyClass')) {
 
 ```php
 <?php
-spl_autoload_register(function ($class_name) {
-    include $class_name . '.php';
+spl_autoload_register(function ($class_name) {
+    include $class_name . '.php';
 
-    // Проверяем необходимость подключения указанного класса
-    if (!class_exists($class_name, false)) {
-        throw new LogicException("Unable to load class: $class_name");
-    }
+    // Проверяем необходимость подключения указанного класса
+    if (!class_exists($class_name, false)) {
+        throw new LogicException("Unable to load class: $class_name");
+    }
 });
 
-if (class_exists(MyClass::class)) {
-    $myclass = new MyClass();
+if (class_exists(MyClass::class)) {
+    $myclass = new MyClass();
 }
 
 ?>

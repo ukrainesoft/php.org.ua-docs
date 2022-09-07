@@ -15,7 +15,7 @@ tradercdlrickshawman — Довгоногій дожі
 ### Опис
 
 ```methodsynopsis
-trader_cdlrickshawman(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlrickshawman(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

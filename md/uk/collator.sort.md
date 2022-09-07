@@ -65,12 +65,12 @@ Array of strings to sort.
 
 ```php
 <?php
-$coll = collator_create( 'en_US' );
-$arr  = array( 'at', 'às', 'as' );
+$coll = collator_create( 'en_US' );
+$arr  = array( 'at', 'às', 'as' );
 
-var_export( $arr );
-collator_sort( $coll, $arr );
-var_export( $arr );
+var_export( $arr );
+collator_sort( $coll, $arr );
+var_export( $arr );
 ?>
 ```
 

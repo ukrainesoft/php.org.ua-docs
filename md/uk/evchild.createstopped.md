@@ -18,19 +18,19 @@ EvChild::createStopped — Створює зупинений екземпляр 
 final
    public
    static
-   EvChild::createStopped(    
+   EvChild::createStopped(    
     int
      $pid
-   ,    
+   ,    
     bool
      $trace
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?): object

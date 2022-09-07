@@ -15,7 +15,7 @@ opensslprivatedecrypt — Розшифровує дані за допомого�
 ### Опис
 
 ```methodsynopsis
-openssl_private_decrypt(    string $data,    string &$decrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
+openssl_private_decrypt(    string $data,    string &$decrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
 ```
 
 **opensslprivatedecrypt()** розшифровує дані `data`, які раніше були зашифровані за допомогою [opensslpublicencrypt()](function.openssl-public-encrypt.md) і зберігає результат у `decrypted_data`

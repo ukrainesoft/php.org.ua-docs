@@ -15,7 +15,7 @@ imagecropauto — Обрізає зображення автоматично з�
 ### Опис
 
 ```methodsynopsis
-imagecropauto(    GdImage $image,    int $mode = IMG_CROP_DEFAULT,    float $threshold = 0.5,    int $color = -1): GdImage|false
+imagecropauto(    GdImage $image,    int $mode = IMG_CROP_DEFAULT,    float $threshold = 0.5,    int $color = -1): GdImage|false
 ```
 
 Автоматично обрізає зображення відповідно до заданого `mode`
@@ -89,10 +89,10 @@ imagecropauto(    GdImage $image,    int $mode = IMG_CROP_DEFAULT,   
 
 ```php
 <?php
-$cropped = imagecropauto($im, IMG_CROP_DEFAULT);
-if ($cropped !== false) { // в случае возврата нового объекта изображения
-    imagedestroy($im);    // мы уничтожаем исходное изображение
-    $im = $cropped;       // и назначаем обрезанное изображение в $im
+$cropped = imagecropauto($im, IMG_CROP_DEFAULT);
+if ($cropped !== false) { // в случае возврата нового объекта изображения
+    imagedestroy($im);    // мы уничтожаем исходное изображение
+    $im = $cropped;       // и назначаем обрезанное изображение в $im
 }
 ?>
 ```

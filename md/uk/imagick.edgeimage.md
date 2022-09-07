@@ -40,11 +40,11 @@ public Imagick::edgeImage(float $radius): bool
 
 ```php
 <?php
-function edgeImage($imagePath, $radius) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->edgeImage($radius);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function edgeImage($imagePath, $radius) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->edgeImage($radius);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

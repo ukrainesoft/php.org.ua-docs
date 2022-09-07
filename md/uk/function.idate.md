@@ -77,12 +77,12 @@ idate(string $format, ?int $timestamp = null): int|false
 
 ```php
 <?php
-$timestamp = strtotime('1st January 2004'); //1072915200
+$timestamp = strtotime('1st January 2004'); //1072915200
 
-// это выведет год в 2-х знаковом представлении
-// поскольку первая цифра "0", будет выведено
-// только "4"
-echo idate('y', $timestamp);
+// это выведет год в 2-х знаковом представлении
+// поскольку первая цифра "0", будет выведено
+// только "4"
+echo idate('y', $timestamp);
 ?>
 ```
 

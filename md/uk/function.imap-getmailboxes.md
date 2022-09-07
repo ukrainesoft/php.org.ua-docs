@@ -73,19 +73,19 @@ imap_getmailboxes(IMAP\Connection $imap, string $reference, string $pattern): ar
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)
-      or die("не удалось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)
+      or die("не удалось подключиться: " . imap_last_error());
 
-$list = imap_getmailboxes($mbox, "{imap.example.org}", "*");
-if (is_array($list)) {
-    foreach ($list as $key => $val) {
-        echo "($key) ";
-        echo imap_utf7_decode($val->name) . ",";
-        echo "'" . $val->delimiter . "',";
-        echo $val->attributes . "<br />\n";
-    }
-} else {
-    echo "вызов imap_getmailboxes завершился с ошибкой: " . imap_last_error() . "\n";
+$list = imap_getmailboxes($mbox, "{imap.example.org}", "*");
+if (is_array($list)) {
+    foreach ($list as $key => $val) {
+        echo "($key) ";
+        echo imap_utf7_decode($val->name) . ",";
+        echo "'" . $val->delimiter . "',";
+        echo $val->attributes . "<br />\n";
+    }
+} else {
+    echo "вызов imap_getmailboxes завершился с ошибкой: " . imap_last_error() . "\n";
 }
 
 imap_close($mbox);

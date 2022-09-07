@@ -20,7 +20,7 @@ pg_trace(string $filename, string $mode = "w", ?PgSql\Connection $connection = n
 
 **пгtrace()** включає трасування з'єднання з PostgreSQL сервером у зовнішній файл. Щоб розуміти вміст таких файлів, необхідно добре розумітися на внутрішньому пристрої клієнт-серверної взаємодії.
 
-Для тих, хто не володіє подібними навичками, трасування все ж таки може виявитися корисним для пошуку помилок при відправці запитів на сервер. Наприклад, можна виконати команду **grep '^To backend' trace.log** та подивитися, які запити реально надіслані на сервер. Додаткову інформацію можна отримати з [» документации PostgreSQL](http://www.postgresql.org/docs/current/interactive/)
+Для тих, хто не володіє подібними навичками, трасування все ж таки може виявитися корисним для пошуку помилок при відправці запитів на сервер. Наприклад, можна виконати команду **grep '^To backend' trace.log** та подивитися, які запити реально надіслані на сервер. Додаткову інформацію можна отримати з [» документации PostgreSQL](http://www.postgresql.org/docs/current/interactive/)
 
 ### Список параметрів
 
@@ -57,16 +57,16 @@ pg_trace(string $filename, string $mode = "w", ?PgSql\Connection $connection = n
 
 ```php
 <?php
-$pgsql_conn = pg_connect("dbname=mark host=localhost");
+$pgsql_conn = pg_connect("dbname=mark host=localhost");
 
-if ($pgsql_conn) {
-   pg_trace('/tmp/trace.log', 'w', $pgsql_conn);
-   pg_query("SELECT 1");
-   pg_untrace($pgsql_conn);
-   // Теперь /tmp/trace.log будет хранить информацию о взаимодействии с сервером
-} else {
-   print pg_last_error($pgsql_conn);
-   exit;
+if ($pgsql_conn) {
+   pg_trace('/tmp/trace.log', 'w', $pgsql_conn);
+   pg_query("SELECT 1");
+   pg_untrace($pgsql_conn);
+   // Теперь /tmp/trace.log будет хранить информацию о взаимодействии с сервером
+} else {
+   print pg_last_error($pgsql_conn);
+   exit;
 }
 ?>
 ```

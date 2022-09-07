@@ -54,7 +54,7 @@ public static IntlChar::digit(int|string $codepoint, int $base = 10): int|false|
 var_dump(IntlChar::digit("0"));
 var_dump(IntlChar::digit("3"));
 var_dump(IntlChar::digit("A"));
-var_dump(IntlChar::digit("A", 16));
+var_dump(IntlChar::digit("A", 16));
 ?>
 ```
 

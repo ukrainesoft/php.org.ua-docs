@@ -15,7 +15,7 @@ DOMNode::C14N — Канонізувати вузли в рядок
 ### Опис
 
 ```methodsynopsis
-public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
 ```
 
 Канонізувати вузли в рядок

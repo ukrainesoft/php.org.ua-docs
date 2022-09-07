@@ -41,24 +41,24 @@ public Yaf_Route_Simple::assemble(array $info, array $query = ?): string
 ```php
 <?php
 
-$router = new Yaf_Router();
+$router = new Yaf_Router();
 
-$route  = new Yaf_Route_Simple('m', 'c', 'a');
+$route  = new Yaf_Route_Simple('m', 'c', 'a');
 
-$router->addRoute("simple", $route);
+$router->addRoute("simple", $route);
 
 var_dump($router->getRoute('simple')->assemble(
-            array(
-                ':a' => 'yafaction',
-                'tkey' => 'tval',
-                ':c' => 'yafcontroller',
-                ':m' => 'yafmodule'
-                ),
-            array(
-                'tkey1' => 'tval1',
-                'tkey2' => 'tval2'
-                )
-            ));
+            array(
+                ':a' => 'yafaction',
+                'tkey' => 'tval',
+                ':c' => 'yafcontroller',
+                ':m' => 'yafmodule'
+                ),
+            array(
+                'tkey1' => 'tval1',
+                'tkey2' => 'tval2'
+                )
+            ));
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

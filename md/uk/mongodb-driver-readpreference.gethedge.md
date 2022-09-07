@@ -32,4 +32,4 @@ final public MongoDB\Driver\ReadPreference::getHedge(): ?object
 
 ### Дивіться також
 
--   [» документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

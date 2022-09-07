@@ -15,7 +15,7 @@ ImagickDraw::rectangle — Малює прямокутник
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): bool
+public ImagickDraw::rectangle(    float $x1,    float $y1,    float $x2,    float $y2): bool
 ```
 
 **Увага**
@@ -52,25 +52,25 @@ public ImagickDraw::rectangle(    float $x1,    float $y1,    float 
 
 ```php
 <?php
-function rectangle($strokeColor, $fillColor, $backgroundColor) {
-    $draw = new \ImagickDraw();
-    $strokeColor = new \ImagickPixel($strokeColor);
-    $fillColor = new \ImagickPixel($fillColor);
+function rectangle($strokeColor, $fillColor, $backgroundColor) {
+    $draw = new \ImagickDraw();
+    $strokeColor = new \ImagickPixel($strokeColor);
+    $fillColor = new \ImagickPixel($fillColor);
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeWidth(2);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeWidth(2);
 
-    $draw->rectangle(200, 200, 300, 300);
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $draw->rectangle(200, 200, 300, 300);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

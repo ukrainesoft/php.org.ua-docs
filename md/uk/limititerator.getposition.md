@@ -34,17 +34,17 @@ public LimitIterator::getPosition(): int
 
 ```php
 <?php
-$fruits = array(
-    'a' => 'apple',
-    'b' => 'banana',
-    'c' => 'cherry',
-    'd' => 'damson',
-    'e' => 'elderberry'
+$fruits = array(
+    'a' => 'apple',
+    'b' => 'banana',
+    'c' => 'cherry',
+    'd' => 'damson',
+    'e' => 'elderberry'
 );
-$array_it = new ArrayIterator($fruits);
-$limit_it = new LimitIterator($array_it, 2, 3);
-foreach ($limit_it as $item) {
-    echo $limit_it->getPosition() . ' ' . $item . "\n";
+$array_it = new ArrayIterator($fruits);
+$limit_it = new LimitIterator($array_it, 2, 3);
+foreach ($limit_it as $item) {
+    echo $limit_it->getPosition() . ' ' . $item . "\n";
 }
 ?>
 ```

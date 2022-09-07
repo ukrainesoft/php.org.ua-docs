@@ -16,10 +16,10 @@ title: do-while
 
 ```php
 <?php
-$i = 0;
-do {
-    echo $i;
-} while ($i > 0);
+$i = 0;
+do {
+    echo $i;
+} while ($i > 0);
 ?>
 ```
 
@@ -29,20 +29,20 @@ do {
 
 ```php
 <?php
-do {
-    if ($i < 5) {
-        echo "i ещё недостаточно велико";
-        break;
-    }
-    $i *= $factor;
-    if ($i < $minimum_limit) {
-        break;
-    }
-   echo "значение i уже подходит";
+do {
+    if ($i < 5) {
+        echo "i ещё недостаточно велико";
+        break;
+    }
+    $i *= $factor;
+    if ($i < $minimum_limit) {
+        break;
+    }
+   echo "значение i уже подходит";
 
-    /* обработка i */
+    /* обработка i */
 
-} while (0);
+} while (0);
 ?>
 ```
 

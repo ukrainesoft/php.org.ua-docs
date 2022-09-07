@@ -47,12 +47,12 @@ mysqli_connect_errno(): int
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
-/* @ используется для подавления предупреждений */
-$mysqli = @new mysqli('localhost', 'fake_user', 'wrong_password', 'does_not_exist');
+/* @ используется для подавления предупреждений */
+$mysqli = @new mysqli('localhost', 'fake_user', 'wrong_password', 'does_not_exist');
 
-if ($mysqli->connect_errno) {
-    /* Используйте предпочитаемый вами метод регистрации ошибок */
-    error_log('Ошибка соединения: ' . $mysqli->connect_errno);
+if ($mysqli->connect_errno) {
+    /* Используйте предпочитаемый вами метод регистрации ошибок */
+    error_log('Ошибка соединения: ' . $mysqli->connect_errno);
 }
 ?>
 ```
@@ -64,12 +64,12 @@ if ($mysqli->connect_errno) {
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
-/* @ is used to suppress warnings */
-$link = @mysqli_connect('localhost', 'fake_user', 'wrong_password', 'does_not_exist');
+/* @ is used to suppress warnings */
+$link = @mysqli_connect('localhost', 'fake_user', 'wrong_password', 'does_not_exist');
 
-if (!$link) {
-    /* Используйте предпочитаемый вами метод регистрации ошибок */
-    error_log('Ошибка соединения: ' . mysqli_connect_errno());
+if (!$link) {
+    /* Используйте предпочитаемый вами метод регистрации ошибок */
+    error_log('Ошибка соединения: ' . mysqli_connect_errno());
 }
 ?>
 ```

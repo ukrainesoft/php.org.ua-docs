@@ -40,10 +40,10 @@ title: Клас YafLoader
 
 ```php
 <?php
-class Bootstrap extends Yaf_Bootstrap_Abstract{
-     public function _initLoader($dispatcher) {
-          Yaf_Loader::getInstance()->registerLocalNameSpace(array("Foo", "Bar"));
-     }
+class Bootstrap extends Yaf_Bootstrap_Abstract{
+     public function _initLoader($dispatcher) {
+          Yaf_Loader::getInstance()->registerLocalNameSpace(array("Foo", "Bar"));
+     }
 ?>
 ```
 

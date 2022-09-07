@@ -52,15 +52,15 @@ pg_send_query_params(PgSql\Connection $connection, string $query, array $params)
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось подключиться");
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось подключиться");
 
-  // Использование параметров. Стоит заметить, что нет необходимости
-  // заключать в кавычки и экранировать параметр.
-  pg_send_query_params($dbconn, 'select count(*) from authors where city = $1', array('Perth'));
+  // Использование параметров. Стоит заметить, что нет необходимости
+  // заключать в кавычки и экранировать параметр.
+  pg_send_query_params($dbconn, 'select count(*) from authors where city = $1', array('Perth'));
 
-  // В сравнении с pg_send_query
-  $str = pg_escape_string('Perth');
-  pg_send_query($dbconn, "select count(*) from authors where city = '${str}'");
+  // В сравнении с pg_send_query
+  $str = pg_escape_string('Perth');
+  pg_send_query($dbconn, "select count(*) from authors where city = '${str}'");
 ?>
 ```
 

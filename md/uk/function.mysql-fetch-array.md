@@ -53,14 +53,14 @@ SELECT table1.field AS foo, table2.field AS bar FROM table1, table2
 
 ```php
 <?php
-mysql_connect("localhost", "mysql_user", "mysql_password") or
-    die("Ошибка соединения: " . mysql_error());
+mysql_connect("localhost", "mysql_user", "mysql_password") or
+    die("Ошибка соединения: " . mysql_error());
 mysql_select_db("mydb");
 
-$result = mysql_query("SELECT id, name FROM mytable");
+$result = mysql_query("SELECT id, name FROM mytable");
 
-while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
-    printf("ID: %s  Имя: %s", $row[0], $row[1]);
+while ($row = mysql_fetch_array($result, MYSQL_NUM)) {
+    printf("ID: %s  Имя: %s", $row[0], $row[1]);
 }
 
 mysql_free_result($result);
@@ -71,14 +71,14 @@ mysql_free_result($result);
 
 ```php
 <?php
-mysql_connect("localhost", "mysql_user", "mysql_password") or
-    die("Ошибка соединения: " . mysql_error());
+mysql_connect("localhost", "mysql_user", "mysql_password") or
+    die("Ошибка соединения: " . mysql_error());
 mysql_select_db("mydb");
 
-$result = mysql_query("SELECT id, name FROM mytable");
+$result = mysql_query("SELECT id, name FROM mytable");
 
-while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
-    printf("ID: %s  Имя: %s", $row["id"], $row["name"]);
+while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+    printf("ID: %s  Имя: %s", $row["id"], $row["name"]);
 }
 
 mysql_free_result($result);
@@ -89,14 +89,14 @@ mysql_free_result($result);
 
 ```php
 <?php
-mysql_connect("localhost", "mysql_user", "mysql_password") or
-    die("Ошибка соединения: " . mysql_error());
+mysql_connect("localhost", "mysql_user", "mysql_password") or
+    die("Ошибка соединения: " . mysql_error());
 mysql_select_db("mydb");
 
-$result = mysql_query("SELECT id, name FROM mytable");
+$result = mysql_query("SELECT id, name FROM mytable");
 
-while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
-    printf ("ID: %s  Имя: %s", $row[0], $row["name"]);
+while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
+    printf ("ID: %s  Имя: %s", $row[0], $row["name"]);
 }
 
 mysql_free_result($result);

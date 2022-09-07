@@ -19,13 +19,13 @@ IntlTimeZone::getOffset -- intltzgetoffset — Отримати необробл
 Об'єктно-орієнтований стиль (метод):
 
 ```methodsynopsis
-public IntlTimeZone::getOffset(    float $timestamp,    bool $local,    int &$rawOffset,    int &$dstOffset): bool
+public IntlTimeZone::getOffset(    float $timestamp,    bool $local,    int &$rawOffset,    int &$dstOffset): bool
 ```
 
 Процедурний стиль:
 
 ```methodsynopsis
-intltz_get_offset(    IntlTimeZone $timezone,    float $timestamp,    bool $local,    int &$rawOffset,    int &$dstOffset): bool
+intltz_get_offset(    IntlTimeZone $timezone,    float $timestamp,    bool $local,    int &$rawOffset,    int &$dstOffset): bool
 ```
 
 **Увага**

@@ -36,20 +36,20 @@ uopz_get_mock(string $class): mixed
 
 ```php
 <?php
-class A {
-    public static function who() {
-        echo "A";
-    }
+class A {
+    public static function who() {
+        echo "A";
+    }
 }
 
-class mockA {
-    public static function who() {
-        echo "mockA";
-    }
+class mockA {
+    public static function who() {
+        echo "mockA";
+    }
 }
 
-uopz_set_mock(A::class, mockA::class);
-echo uopz_get_mock(A::class);
+uopz_set_mock(A::class, mockA::class);
+echo uopz_get_mock(A::class);
 ?>
 ```
 

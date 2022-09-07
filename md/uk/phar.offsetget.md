@@ -42,14 +42,14 @@ public Phar::offsetGet(string $localName): SplFileInfo
 
 ```php
 <?php
-$p = new Phar(dirname(__FILE__) . '/myphar.phar', 0, 'myphar.phar');
-$p['exists.txt'] = "file exists\n";
-try {
-    // автоматический вызов offsetGet()
-    echo $p['exists.txt'];
-    echo $p['doesnotexist.txt'];
-} catch (BadMethodCallException $e) {
-    echo $e;
+$p = new Phar(dirname(__FILE__) . '/myphar.phar', 0, 'myphar.phar');
+$p['exists.txt'] = "file exists\n";
+try {
+    // автоматический вызов offsetGet()
+    echo $p['exists.txt'];
+    echo $p['doesnotexist.txt'];
+} catch (BadMethodCallException $e) {
+    echo $e;
 }
 ?>
 ```

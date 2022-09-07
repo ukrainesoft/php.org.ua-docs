@@ -55,20 +55,20 @@ syslog(int $priority, string $message): bool
 
 ```php
 <?php
-// открыть syslog, включить в сообщение ID процесса, также отправить
-// сообщение, и использовать определённый пользователем
-// механизм журналирования
-openlog("myScriptLog", LOG_PID | LOG_PERROR, LOG_LOCAL0);
+// открыть syslog, включить в сообщение ID процесса, также отправить
+// сообщение, и использовать определённый пользователем
+// механизм журналирования
+openlog("myScriptLog", LOG_PID | LOG_PERROR, LOG_LOCAL0);
 
-// некий код
+// некий код
 
-if (authorized_client()) {
-    // что-нибудь сделать
-} else {
-    // неавторизованный клиент!
-    // отправить сообщение журнала о попытке
-    $access = date("Y/m/d H:i:s");
-    syslog(LOG_WARNING, "Неавторизованный клиент: $access {$_SERVER['REMOTE_ADDR']} ({$_SERVER['HTTP_USER_AGENT']})");
+if (authorized_client()) {
+    // что-нибудь сделать
+} else {
+    // неавторизованный клиент!
+    // отправить сообщение журнала о попытке
+    $access = date("Y/m/d H:i:s");
+    syslog(LOG_WARNING, "Неавторизованный клиент: $access {$_SERVER['REMOTE_ADDR']} ({$_SERVER['HTTP_USER_AGENT']})");
 }
 
 closelog();

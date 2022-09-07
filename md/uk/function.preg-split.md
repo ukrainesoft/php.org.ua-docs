@@ -15,7 +15,7 @@ pregsplit — Розбиває рядок за регулярним виразо
 ### Опис
 
 ```methodsynopsis
-preg_split(    string $pattern,    string $subject,    int $limit = -1,    int $flags = 0): array|false
+preg_split(    string $pattern,    string $subject,    int $limit = -1,    int $flags = 0): array|false
 ```
 
 Розбиває рядок за регулярним виразом.
@@ -64,9 +64,9 @@ preg_split(    string $pattern,    string $subject,    int $limit = 
 
 ```php
 <?php
-// разбиваем строку по произвольному числу запятых и пробельных символов,
-// которые включают в себя  " ", \r, \t, \n и \f
-$keywords = preg_split("/[\s,]+/", "hypertext language, programming");
+// разбиваем строку по произвольному числу запятых и пробельных символов,
+// которые включают в себя  " ", \r, \t, \n и \f
+$keywords = preg_split("/[\s,]+/", "hypertext language, programming");
 print_r($keywords);
 ?>
 ```
@@ -86,8 +86,8 @@ Array
 
 ```php
 <?php
-$str = 'string';
-$chars = preg_split('//', $str, -1, PREG_SPLIT_NO_EMPTY);
+$str = 'string';
+$chars = preg_split('//', $str, -1, PREG_SPLIT_NO_EMPTY);
 print_r($chars);
 ?>
 ```
@@ -110,8 +110,8 @@ Array
 
 ```php
 <?php
-$str = 'hypertext language programming';
-$chars = preg_split('/ /', $str, -1, PREG_SPLIT_OFFSET_CAPTURE);
+$str = 'hypertext language programming';
+$chars = preg_split('/ /', $str, -1, PREG_SPLIT_OFFSET_CAPTURE);
 print_r($chars);
 ?>
 ```

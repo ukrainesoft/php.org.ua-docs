@@ -52,10 +52,10 @@ imageresolution(GdImage $image, ?int $resolution_x = null, ?int $resolution_y = 
 
 ```php
 <?php
-$im = imagecreatetruecolor(100, 100);
-imageresolution($im, 200);
+$im = imagecreatetruecolor(100, 100);
+imageresolution($im, 200);
 print_r(imageresolution($im));
-imageresolution($im, 300, 72);
+imageresolution($im, 300, 72);
 print_r(imageresolution($im));
 ?>
 ```

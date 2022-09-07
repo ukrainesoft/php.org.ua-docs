@@ -36,13 +36,13 @@ gmp_sqrt(GMP|int|string $num): GMP
 
 ```php
 <?php
-$sqrt1 = gmp_sqrt("9");
-$sqrt2 = gmp_sqrt("7");
-$sqrt3 = gmp_sqrt("1524157875019052100");
+$sqrt1 = gmp_sqrt("9");
+$sqrt2 = gmp_sqrt("7");
+$sqrt3 = gmp_sqrt("1524157875019052100");
 
-echo gmp_strval($sqrt1) . "\n";
-echo gmp_strval($sqrt2) . "\n";
-echo gmp_strval($sqrt3) . "\n";
+echo gmp_strval($sqrt1) . "\n";
+echo gmp_strval($sqrt2) . "\n";
+echo gmp_strval($sqrt3) . "\n";
 ?>
 ```
 

@@ -37,10 +37,10 @@ final public MongoDB\Driver\ReadConcern::bsonSerialize(): object
 ```php
 <?php
 
-$rc = new MongoDB\Driver\ReadConcern;
+$rc = new MongoDB\Driver\ReadConcern;
 var_dump($rc->bsonSerialize());
 
-echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rc));
+echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rc));
 
 ?>
 ```
@@ -59,10 +59,10 @@ object(stdClass)#2 (0) {
 ```php
 <?php
 
-$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);
+$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);
 var_dump($rc->bsonSerialize());
 
-echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rc));
+echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rc));
 
 ?>
 ```
@@ -81,4 +81,4 @@ object(stdClass)#2 (1) {
 ### Дивіться також
 
 -   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)

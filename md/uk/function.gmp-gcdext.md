@@ -20,7 +20,7 @@ gmp_gcdext(GMP|int|string $num1, GMP|int|string $num2): array
 
 Обчислює величини g, s та t, у вираженні `a*s + b*t = g = gcd(a,b)`, де gcd – найбільший спільний дільник. Повертає масив, значення якого відповідають значенням величин g, s та t.
 
-Ця функція може використовуватися для вирішення рівнянь Діофантових з двома змінними. Це такі рівняння, які мають лише цілочисельні рішення та мають вигляд: `a*x + b*y = c`. За додатковою інформацією звертайтесь на [» сторінку "Діофантове рівняння" в MathWorld](http://mathworld.wolfram.com/DiophantineEquation.md)
+Ця функція може використовуватися для вирішення рівнянь Діофантових з двома змінними. Це такі рівняння, які мають лише цілочисельні рішення та мають вигляд: `a*x + b*y = c`. За додатковою інформацією звертайтесь на [» сторінку "Діофантове рівняння" в MathWorld](http://mathworld.wolfram.com/DiophantineEquation.md)
 
 ### Список параметрів
 
@@ -42,25 +42,25 @@ gmp_gcdext(GMP|int|string $num1, GMP|int|string $num2): array
 
 ```php
 <?php
-// Решение уравнения a*s + b*t = g
-// где a = 12, b = 21, g = gcd(12, 21) = 3
-$a = gmp_init(12);
-$b = gmp_init(21);
-$g = gmp_gcd($a, $b);
-$r = gmp_gcdext($a, $b);
+// Решение уравнения a*s + b*t = g
+// где a = 12, b = 21, g = gcd(12, 21) = 3
+$a = gmp_init(12);
+$b = gmp_init(21);
+$g = gmp_gcd($a, $b);
+$r = gmp_gcdext($a, $b);
 
-$check_gcd = (gmp_strval($g) == gmp_strval($r['g']));
-$eq_res = gmp_add(gmp_mul($a, $r['s']), gmp_mul($b, $r['t']));
-$check_res = (gmp_strval($g) == gmp_strval($eq_res));
+$check_gcd = (gmp_strval($g) == gmp_strval($r['g']));
+$eq_res = gmp_add(gmp_mul($a, $r['s']), gmp_mul($b, $r['t']));
+$check_res = (gmp_strval($g) == gmp_strval($eq_res));
 
-if ($check_gcd && $check_res) {
-    $fmt = "Solution: %d*%d + %d*%d = %d\n";
-    printf($fmt, gmp_strval($a), gmp_strval($r['s']), gmp_strval($b),
-    gmp_strval($r['t']), gmp_strval($r['g']));
-} else {
-    echo "Ошибка во время решения уравнения\n";
+if ($check_gcd && $check_res) {
+    $fmt = "Solution: %d*%d + %d*%d = %d\n";
+    printf($fmt, gmp_strval($a), gmp_strval($r['s']), gmp_strval($b),
+    gmp_strval($r['t']), gmp_strval($r['g']));
+} else {
+    echo "Ошибка во время решения уравнения\n";
 }
 
-// вывод: Решение: 12*2 + 21*-1 = 3
+// вывод: Решение: 12*2 + 21*-1 = 3
 ?>
 ```

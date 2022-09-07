@@ -36,14 +36,14 @@ public ZipArchive::deleteName(string $name): bool
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test1.zip') === TRUE) {
-    $zip->deleteName('testfromfile.php');
-    $zip->deleteName('testDir/');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test1.zip') === TRUE) {
+    $zip->deleteName('testfromfile.php');
+    $zip->deleteName('testDir/');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

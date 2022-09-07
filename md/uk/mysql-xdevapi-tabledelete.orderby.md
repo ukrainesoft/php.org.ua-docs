@@ -36,17 +36,17 @@ public mysql_xdevapi\TableDelete::orderby(string $orderby_expr): mysql_xdevapi\T
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
 $table->delete()
-  ->where("age = :age")
-  ->bind(['age' => 42])
-  ->orderby("name DESC")
-  ->limit(1)
-  ->execute();
+  ->where("age = :age")
+  ->bind(['age' => 42])
+  ->orderby("name DESC")
+  ->limit(1)
+  ->execute();
 
 ?>
 ```

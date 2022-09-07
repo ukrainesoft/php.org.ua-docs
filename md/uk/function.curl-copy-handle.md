@@ -43,20 +43,20 @@ curl_copy_handle(CurlHandle $handle): CurlHandle|false
 
 ```php
 <?php
-// создание нового ресурса cURL
-$ch = curl_init();
+// создание нового ресурса cURL
+$ch = curl_init();
 
-// установка URL и других соответствующих параметров
-curl_setopt($ch, CURLOPT_URL, 'http://www.example.com/');
-curl_setopt($ch, CURLOPT_HEADER, 0);
+// установка URL и других соответствующих параметров
+curl_setopt($ch, CURLOPT_URL, 'http://www.example.com/');
+curl_setopt($ch, CURLOPT_HEADER, 0);
 
-// копирование дескриптора
-$ch2 = curl_copy_handle($ch);
+// копирование дескриптора
+$ch2 = curl_copy_handle($ch);
 
-// загрузка URL (http://www.example.com/) и её передача в браузер
+// загрузка URL (http://www.example.com/) и её передача в браузер
 curl_exec($ch2);
 
-// закрытие ресурсов cURL и освобождение системных ресурсов
+// закрытие ресурсов cURL и освобождение системных ресурсов
 curl_close($ch2);
 curl_close($ch);
 ?>

@@ -15,7 +15,7 @@ tradercdlharami — Паттерн Харамі
 ### Опис
 
 ```methodsynopsis
-trader_cdlharami(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlharami(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

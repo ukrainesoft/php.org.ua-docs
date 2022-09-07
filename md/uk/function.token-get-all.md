@@ -44,12 +44,12 @@ token_get_all(string $code, int $flags = 0): array
 
 ```php
 <?php
-$tokens = token_get_all('<?php echo; ?>');
+$tokens = token_get_all('<?php echo; ?>');
 
-foreach ($tokens as $token) {
-    if (is_array($token)) {
-        echo "Строка {$token[2]}: ", token_name($token[0]), " ('{$token[1]}')", PHP_EOL;
-    }
+foreach ($tokens as $token) {
+    if (is_array($token)) {
+        echo "Строка {$token[2]}: ", token_name($token[0]), " ('{$token[1]}')", PHP_EOL;
+    }
 }
 ?>
 ```
@@ -67,12 +67,12 @@ foreach ($tokens as $token) {
 
 ```php
 <?php
-$tokens = token_get_all('/* комментарий */');
+$tokens = token_get_all('/* комментарий */');
 
-foreach ($tokens as $token) {
-    if (is_array($token)) {
-        echo "Строка {$token[2]}: ", token_name($token[0]), " ('{$token[1]}')", PHP_EOL;
-    }
+foreach ($tokens as $token) {
+    if (is_array($token)) {
+        echo "Строка {$token[2]}: ", token_name($token[0]), " ('{$token[1]}')", PHP_EOL;
+    }
 }
 ?>
 ```
@@ -90,21 +90,21 @@ foreach ($tokens as $token) {
 ```php
 <?php
 
-$source = <<<'code'
+$source = <<<'code'
 <?php
 
-class A
+class A
 {
-    const PUBLIC = 1;
+    const PUBLIC = 1;
 }
 code;
 
-$tokens = token_get_all($source, TOKEN_PARSE);
+$tokens = token_get_all($source, TOKEN_PARSE);
 
-foreach ($tokens as $token) {
-    if (is_array($token)) {
-        echo token_name($token[0]) , PHP_EOL;
-    }
+foreach ($tokens as $token) {
+    if (is_array($token)) {
+        echo token_name($token[0]) , PHP_EOL;
+    }
 }
 ?>
 ```

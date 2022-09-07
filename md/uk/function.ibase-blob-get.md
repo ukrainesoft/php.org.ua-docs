@@ -44,11 +44,11 @@ BLOB-об'єкт, відкритий за допомогою [ibaseblobopen()](f
 
 ```php
 <?php
-$result    = ibase_query("SELECT blob_value FROM table");
-$data      = ibase_fetch_object($result);
-$blob_data = ibase_blob_info($data->BLOB_VALUE);
-$blob_hndl = ibase_blob_open($data->BLOB_VALUE);
-echo         ibase_blob_get($blob_hndl, $blob_data[0]);
+$result    = ibase_query("SELECT blob_value FROM table");
+$data      = ibase_fetch_object($result);
+$blob_data = ibase_blob_info($data->BLOB_VALUE);
+$blob_hndl = ibase_blob_open($data->BLOB_VALUE);
+echo         ibase_blob_get($blob_hndl, $blob_data[0]);
 ?>
 ```
 

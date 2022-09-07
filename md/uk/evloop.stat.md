@@ -17,20 +17,20 @@ EvLoop::stat — Створює об'єкт спостерігача EvStat, п�
 ```methodsynopsis
 final
    public
-   EvLoop::stat(    
+   EvLoop::stat(    
     string
      $path
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

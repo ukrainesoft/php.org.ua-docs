@@ -42,7 +42,7 @@ imagefontwidth(GdFont|int $font): int
 
 ```php
 <?php
-echo 'Ширина шрифта: ' . imagefontwidth(4);
+echo 'Ширина шрифта: ' . imagefontwidth(4);
 ?>
 ```
 
@@ -56,10 +56,10 @@ Font width: 8
 
 ```php
 <?php
-// загрузка .gdf шрифта
-$font = imageloadfont('anonymous.gdf');
+// загрузка .gdf шрифта
+$font = imageloadfont('anonymous.gdf');
 
-echo 'Ширина шрифта: ' . imagefontwidth($font);
+echo 'Ширина шрифта: ' . imagefontwidth($font);
 ?>
 ```
 

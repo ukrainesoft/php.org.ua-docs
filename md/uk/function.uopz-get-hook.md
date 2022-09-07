@@ -44,10 +44,10 @@ uopz_get_hook(string $class, string $function): Closure
 
 ```php
 <?php
-function foo() {
-    echo 'foo';
+function foo() {
+    echo 'foo';
 }
-uopz_set_hook('foo', function () {echo 'bar';});
+uopz_set_hook('foo', function () {echo 'bar';});
 var_dump(uopz_get_hook('foo'));
 ?>
 ```

@@ -44,12 +44,12 @@ final public static OAuthProvider::generateToken(int $size, bool $strong = false
 
 ```php
 <?php
-$p = new OAuthProvider();
+$p = new OAuthProvider();
 
-$t = $p->generateToken(4);
+$t = $p->generateToken(4);
 
-echo strlen($t),  PHP_EOL;
-echo bin2hex($t), PHP_EOL;
+echo strlen($t),  PHP_EOL;
+echo bin2hex($t), PHP_EOL;
 
 ?>
 ```

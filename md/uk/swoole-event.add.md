@@ -15,7 +15,7 @@ SwooleEvent::add - Додає нові callback-функції сокету в E
 ### Опис
 
 ```methodsynopsis
-public static Swoole\Event::add(    int $fd,    callable $read_callback,    callable $write_callback = ?,    string $events = ?): bool
+public static Swoole\Event::add(    int $fd,    callable $read_callback,    callable $write_callback = ?,    string $events = ?): bool
 ```
 
 ### Список параметрів

@@ -15,7 +15,7 @@ Memcached::setByKey — Зберігає запис на вказаному се
 ### Опис
 
 ```methodsynopsis
-public Memcached::setByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
+public Memcached::setByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
 ```
 
 **Memcached::setByKey()** працює аналогічно [Memcached::set()](memcached.set.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.
@@ -48,12 +48,12 @@ public Memcached::setByKey(    string $server_key,    string $key,   
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-/* Хранение блоков IP адресов на определённом сервере */
-$m->setByKey('api-cache', 'block-ip:169.254.253.252', 1);
-$m->setByKey('api-cache', 'block-ip:169.127.127.202', 1);
+/* Хранение блоков IP адресов на определённом сервере */
+$m->setByKey('api-cache', 'block-ip:169.254.253.252', 1);
+$m->setByKey('api-cache', 'block-ip:169.127.127.202', 1);
 ?>
 ```
 

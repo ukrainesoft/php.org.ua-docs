@@ -40,13 +40,13 @@ public SQLite3::enableExceptions(bool $enable = false): bool
 
 ```php
 <?php
-$sqlite = new SQLite3(':memory:');
-try {
-    $sqlite->exec('create table foo');
-    $sqlite->enableExceptions(true);
-    $sqlite->exec('create table bar');
-} catch (Exception $e) {
-    echo 'Поймано исключение: ' . $e->getMessage();
+$sqlite = new SQLite3(':memory:');
+try {
+    $sqlite->exec('create table foo');
+    $sqlite->enableExceptions(true);
+    $sqlite->exec('create table bar');
+} catch (Exception $e) {
+    echo 'Поймано исключение: ' . $e->getMessage();
 }
 ?>
 ```

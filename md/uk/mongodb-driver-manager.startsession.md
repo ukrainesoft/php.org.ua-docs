@@ -33,7 +33,7 @@ final public MongoDB\Driver\Manager::startSession(?array $options = null): Mongo
 | causalConsistency | bool |  |  |
 | Налаштовує причинну узгодженість у сеансі. Якщо **`true`**, кожна операція у сеансі буде причинно упорядкована після попередньої операції читання чи запису. Встановіть на **`false`**, щоб вимкнути причинну узгодженість. |  |  |  |
 
-Дивіться [» Причинную согласованность](https://www.mongodb.com/docs/manual/core/read-isolation-consistency-recency/#causal-consistency) у посібнику MongoDB для отримання додаткової інформації.
+Дивіться [» Причинную согласованность](https://www.mongodb.com/docs/manual/core/read-isolation-consistency-recency/#causal-consistency) у посібнику MongoDB для отримання додаткової інформації.
 
 **`true`** | | defaultTransactionOptions | array |
 
@@ -70,7 +70,7 @@ final public MongoDB\Driver\Manager::startSession(?array $options = null): Mongo
 
 Для читання моментальних знімків потрібно MongoDB 5.0+, і їх не можна використовувати з причинно-узгодженим зв'язком, транзакціями чи операціями запису. Якщо `"snapshot"` дорівнює **`true`** `"causalConsistency"` за замовчуванням буде **`false`**
 
-Дивіться [» гарантію читання "snapshot"](https://www.mongodb.com/docs/manual/reference/read-concern-snapshot/#read-concern-and-atclustertime) у посібнику MongoDB для отримання додаткової інформації.
+Дивіться [» гарантію читання "snapshot"](https://www.mongodb.com/docs/manual/reference/read-concern-snapshot/#read-concern-and-atclustertime) у посібнику MongoDB для отримання додаткової інформації.
 
 **`false`**
 
@@ -102,4 +102,4 @@ final public MongoDB\Driver\Manager::startSession(?array $options = null): Mongo
 ### Дивіться також
 
 -   [MongoDBDriverSession](class.mongodb-driver-session.md)
--   [» Причинна узгодженість](https://www.mongodb.com/docs/manual/core/read-isolation-consistency-recency/#causal-consistency) у посібнику MongoDB
+-   [» Причинна узгодженість](https://www.mongodb.com/docs/manual/core/read-isolation-consistency-recency/#causal-consistency) у посібнику MongoDB

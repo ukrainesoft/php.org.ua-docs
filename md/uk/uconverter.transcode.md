@@ -15,7 +15,7 @@ UConverter::transcode — Перетворює рядок з одного код
 ### Опис
 
 ```methodsynopsis
-public static UConverter::transcode(    string $str,    string $toEncoding,    string $fromEncoding,    ?array $options = null): string|false
+public static UConverter::transcode(    string $str,    string $toEncoding,    string $fromEncoding,    ?array $options = null): string|false
 ```
 
 Перетворює рядок `str` з кодування `fromEncoding` в `toEncoding`
@@ -50,12 +50,12 @@ public static UConverter::transcode(    string $str,    string $toEncodi
 
 ```php
 <?php
-$utf8_string = "\x5A\x6F\xC3\xAB"; // 'Zoë' в UTF-8
-$utf16_string = UConverter::transcode($utf8_string, 'UTF-16BE', 'UTF-8');
-echo bin2hex($utf16_string), "\n";
+$utf8_string = "\x5A\x6F\xC3\xAB"; // 'Zoë' в UTF-8
+$utf16_string = UConverter::transcode($utf8_string, 'UTF-16BE', 'UTF-8');
+echo bin2hex($utf16_string), "\n";
 
-$new_utf8_string = UConverter::transcode($utf16_string, 'UTF-8', 'UTF-16BE');
-echo bin2hex($new_utf8_string), "\n";
+$new_utf8_string = UConverter::transcode($utf16_string, 'UTF-8', 'UTF-16BE');
+echo bin2hex($new_utf8_string), "\n";
 ?>
 ```
 
@@ -72,9 +72,9 @@ echo bin2hex($new_utf8_string), "\n";
 
 ```php
 <?php
-$invalid_utf8_string = "\xC3"; // неполная многобайтовая последовательность UTF-8
-$utf16_string = UConverter::transcode($invalid_utf8_string, 'UTF-16BE', 'UTF-8');
-echo bin2hex($utf16_string), "\n";
+$invalid_utf8_string = "\xC3"; // неполная многобайтовая последовательность UTF-8
+$utf16_string = UConverter::transcode($invalid_utf8_string, 'UTF-16BE', 'UTF-8');
+echo bin2hex($utf16_string), "\n";
 ?>
 ```
 
@@ -90,24 +90,24 @@ fffd
 
 ```php
 <?php
-$utf8_string = "\xE2\x82\xAC"; // € (Знак евро) не существует в ISO 8859-1
+$utf8_string = "\xE2\x82\xAC"; // € (Знак евро) не существует в ISO 8859-1
 
-// Замена по умолчанию в ISO 8859-1 - "\x1A" (Заменитель)
-$iso8859_1_string = UConverter::transcode($utf8_string, 'ISO-8859-1', 'UTF-8');
-echo bin2hex($iso8859_1_string), "\n";
+// Замена по умолчанию в ISO 8859-1 - "\x1A" (Заменитель)
+$iso8859_1_string = UConverter::transcode($utf8_string, 'ISO-8859-1', 'UTF-8');
+echo bin2hex($iso8859_1_string), "\n";
 
-// Использование в качестве заменителя символа '?' ("\x3F").
-$iso8859_1_string = UConverter::transcode(
-    $utf8_string, 'ISO-8859-1', 'UTF-8', ['to_subst' => '?']
+// Использование в качестве заменителя символа '?' ("\x3F").
+$iso8859_1_string = UConverter::transcode(
+    $utf8_string, 'ISO-8859-1', 'UTF-8', ['to_subst' => '?']
 );
-echo bin2hex($iso8859_1_string), "\n";
+echo bin2hex($iso8859_1_string), "\n";
 
-// Поскольку ISO 8859-1 не может отобразить U+FFFD, недействительная входная строка также заменяется на to_subst
-$invalid_utf8_string = "\xC3"; // неполная многобайтовая последовательность UTF-8
-$iso8859_1_string = UConverter::transcode(
-    $invalid_utf8_string, 'ISO-8859-1', 'UTF-8', ['to_subst' => '?']
+// Поскольку ISO 8859-1 не может отобразить U+FFFD, недействительная входная строка также заменяется на to_subst
+$invalid_utf8_string = "\xC3"; // неполная многобайтовая последовательность UTF-8
+$iso8859_1_string = UConverter::transcode(
+    $invalid_utf8_string, 'ISO-8859-1', 'UTF-8', ['to_subst' => '?']
 );
-echo bin2hex($iso8859_1_string), "\n";
+echo bin2hex($iso8859_1_string), "\n";
 ?>
 ```
 

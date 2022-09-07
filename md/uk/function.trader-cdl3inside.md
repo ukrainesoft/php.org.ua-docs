@@ -15,7 +15,7 @@ tradercdl3inside - Три дні зсередини вгору і три дні 
 ### Опис
 
 ```methodsynopsis
-trader_cdl3inside(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3inside(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

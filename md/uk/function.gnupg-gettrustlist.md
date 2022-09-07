@@ -38,8 +38,8 @@ gnupg_gettrustlist(resource $identifier, string $pattern): array
 
 ```php
 <?php
-$res = gnupg_init();
-$items = gnupg_gettrustlist($res);
+$res = gnupg_init();
+$items = gnupg_gettrustlist($res);
 print_r($items);
 ?>
 ```
@@ -48,8 +48,8 @@ print_r($items);
 
 ```php
 <?php
-$gpg = new gnupg();
-$items = $gpg->gettrustlist();
+$gpg = new gnupg();
+$items = $gpg->gettrustlist();
 print_r($items);
 ?>
 ```

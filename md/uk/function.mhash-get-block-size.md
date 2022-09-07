@@ -47,7 +47,7 @@ mhash_get_block_size(int $algo): int|false
 ```php
 <?php
 
-echo mhash_get_block_size(MHASH_MD5); // 16
+echo mhash_get_block_size(MHASH_MD5); // 16
 
 ?>
 ```

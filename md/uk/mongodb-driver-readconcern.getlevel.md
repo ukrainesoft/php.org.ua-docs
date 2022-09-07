@@ -37,13 +37,13 @@ final public MongoDB\Driver\ReadConcern::getLevel(): ?string
 ```php
 <?php
 
-$rc = new MongoDB\Driver\ReadConcern();
+$rc = new MongoDB\Driver\ReadConcern();
 var_dump($rc->getLevel());
 
-$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);
+$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);
 var_dump($rc->getLevel());
 
-$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);
+$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);
 var_dump($rc->getLevel());
 
 ?>
@@ -59,4 +59,4 @@ string(8) "majority"
 
 ### Дивіться також
 
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)

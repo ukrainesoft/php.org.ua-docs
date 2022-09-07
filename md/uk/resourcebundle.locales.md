@@ -46,8 +46,8 @@ resourcebundle_locales(string $bundle): array|false
 
 ```php
 <?php
-$bundle = "/user/share/data/myapp";
-echo join(PHP_EOL, resourcebundle_locales($bundle));
+$bundle = "/user/share/data/myapp";
+echo join(PHP_EOL, resourcebundle_locales($bundle));
 ?>
 ```
 
@@ -62,9 +62,9 @@ root
 
 ```php
 <?php
-$bundle = "/usr/share/data/myapp";
-$r = new ResourceBundle( 'es', $bundle);
-echo join("\n", $r->getLocales($bundle));
+$bundle = "/usr/share/data/myapp";
+$r = new ResourceBundle( 'es', $bundle);
+echo join("\n", $r->getLocales($bundle));
 ?>
 ```
 

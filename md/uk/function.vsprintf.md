@@ -115,7 +115,7 @@ vsprintf(string $format, array $values): string
 
 ```php
 <?php
-print vsprintf("%04d-%02d-%02d", explode('-', '1988-8-1'));
+print vsprintf("%04d-%02d-%02d", explode('-', '1988-8-1'));
 ?>
 ```
 

@@ -50,14 +50,14 @@ imageinterlace(GdImage $image, ?bool $enable = null): bool
 
 ```php
 <?php
-// Создание нового изображения
-$im = imagecreatefromgif('php.gif');
+// Создание нового изображения
+$im = imagecreatefromgif('php.gif');
 
-// Включение интерлейсинга
-imageinterlace($im, true);
+// Включение интерлейсинга
+imageinterlace($im, true);
 
-// Сохранение изображения
-imagegif($im, './php_interlaced.gif');
+// Сохранение изображения
+imagegif($im, './php_interlaced.gif');
 imagedestroy($im);
 ?>
 ```

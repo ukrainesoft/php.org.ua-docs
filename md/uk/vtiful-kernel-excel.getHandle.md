@@ -34,15 +34,15 @@ public Vtiful\Kernel\Excel::getHandle()
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$fileObject  = new \Vtiful\Kernel\Excel($config);
+$fileObject  = new \Vtiful\Kernel\Excel($config);
 
-$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
-    ->header(['name', 'age']);
+$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
+    ->header(['name', 'age']);
 
-$handle = $file->getHandle();
+$handle = $file->getHandle();
 ?>
 ```

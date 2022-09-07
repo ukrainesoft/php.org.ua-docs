@@ -36,22 +36,22 @@ public mysql_xdevapi\TableSelect::offset(int $position): mysql_xdevapi\TableSele
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
-$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
-$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 42)")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 42)")->execute();
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
-$result = $table->select('name', 'age')
-  ->limit(1)
-  ->offset(1)
-  ->execute();
+$result = $table->select('name', 'age')
+  ->limit(1)
+  ->offset(1)
+  ->execute();
 
-$row = $result->fetchAll();
+$row = $result->fetchAll();
 print_r($row);
 ?>
 ```

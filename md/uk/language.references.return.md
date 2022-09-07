@@ -12,18 +12,18 @@ title: Повернення за посиланням
 
 ```php
 <?php
-class foo {
-    public $value = 42;
+class foo {
+    public $value = 42;
 
-    public function &getValue() {
-        return $this->value;
-    }
+    public function &getValue() {
+        return $this->value;
+    }
 }
 
-$obj = new foo;
-$myValue = &$obj->getValue(); // $myValue указывает на $obj->value, равное 42.
-$obj->value = 2;
-echo $myValue;                // отобразит новое значение $obj->value, то есть 2.
+$obj = new foo;
+$myValue = &$obj->getValue(); // $myValue указывает на $obj->value, равное 42.
+$obj->value = 2;
+echo $myValue;                // отобразит новое значение $obj->value, то есть 2.
 ?>
 ```
 
@@ -37,12 +37,12 @@ echo $myValue;                // отобразит ново�
 
 ```php
 <?php
-function &collector() {
-  static $collection = array();
-  return $collection;
+function &collector() {
+  static $collection = array();
+  return $collection;
 }
-$collection = &collector();
-$collection[] = 'foo';
+$collection = &collector();
+$collection[] = 'foo';
 ?>
 ```
 
@@ -50,11 +50,11 @@ $collection[] = 'foo';
 
 ```php
 <?php
-function &collector() {
-  static $collection = array();
-  return $collection;
+function &collector() {
+  static $collection = array();
+  return $collection;
 }
-array_push(collector(), 'foo');
+array_push(collector(), 'foo');
 ?>
 ```
 

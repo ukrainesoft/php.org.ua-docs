@@ -36,9 +36,9 @@ public Ds\Vector::rotate(int $rotations): void
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", "b", "c", "d"]);
+$vector = new \Ds\Vector(["a", "b", "c", "d"]);
 
-$vector->rotate(1); // Аналогично $a = $vector->shift(); $vector->push($a);
+$vector->rotate(1); // Аналогично $a = $vector->shift(); $vector->push($a);
 print_r($vector);
 
 $vector->rotate(2);

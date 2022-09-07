@@ -34,7 +34,7 @@ get_current_user(): string
 
 ```php
 <?php
-echo 'Текущий владелец скрипта: ' . get_current_user();
+echo 'Текущий владелец скрипта: ' . get_current_user();
 ?>
 ```
 

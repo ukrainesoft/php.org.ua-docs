@@ -34,8 +34,8 @@ public ReflectionClass::getExtensionName(): string|false
 
 ```php
 <?php
-$class = new ReflectionClass('ReflectionClass');
-$extension = $class->getExtensionName();
+$class = new ReflectionClass('ReflectionClass');
+$extension = $class->getExtensionName();
 var_dump($extension);
 ?>
 ```

@@ -38,9 +38,9 @@ xdiff_string_bdiff_size(string $patch): int
 
 ```php
 <?php
-$binary_patch = file_get_contents('file.bdiff');
-$length = xdiff_string_bdiff_size($binary_patch);
-echo "Результирующий файл будет занимать $length байт";
+$binary_patch = file_get_contents('file.bdiff');
+$length = xdiff_string_bdiff_size($binary_patch);
+echo "Результирующий файл будет занимать $length байт";
 ?>
 ```
 

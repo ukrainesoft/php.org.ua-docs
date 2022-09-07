@@ -64,7 +64,7 @@ PHP поставлявся разом з macOS, починаючи з macOS X (1
     Функція [phpinfo()](function.phpinfo.md) відображає інформацію про PHP. Створіть у DocumentRoot скрипт з таким кодом:
     
     ```php
-    <?php phpinfo(); ?>
+    <?php phpinfo(); ?>
     ```
     
 8.  Перезапустіть Apache і запитайте через браузер створений файл.

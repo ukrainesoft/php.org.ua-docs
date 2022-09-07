@@ -113,11 +113,11 @@ vfprintf(resource $stream, string $format, array $values): int
 
 ```php
 <?php
-if (!($fp = fopen('date.txt', 'w')))
-    return;
+if (!($fp = fopen('date.txt', 'w')))
+    return;
 
-vfprintf($fp, "%04d-%02d-%02d", array($year, $month, $day));
-// запишет дату в формате ISO в date.txt
+vfprintf($fp, "%04d-%02d-%02d", array($year, $month, $day));
+// запишет дату в формате ISO в date.txt
 ?>
 ```
 

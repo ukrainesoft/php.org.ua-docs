@@ -34,10 +34,10 @@ final public Exception::getLine(): int
 
 ```php
 <?php
-try {
-    throw new Exception("Какое-нибудь сообщение об ошибке");
-} catch(Exception $e) {
-    echo "Исключение было создано на строке: " . $e->getLine();
+try {
+    throw new Exception("Какое-нибудь сообщение об ошибке");
+} catch(Exception $e) {
+    echo "Исключение было создано на строке: " . $e->getLine();
 }
 ?>
 ```

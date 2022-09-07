@@ -32,12 +32,12 @@ public PDOStatement::errorCode(): ?string
 
 ```php
 <?php
-/* Спровоцируем ошибку -- таблицы BONES не существует */
-$err = $dbh->prepare('SELECT skull FROM bones');
+/* Спровоцируем ошибку -- таблицы BONES не существует */
+$err = $dbh->prepare('SELECT skull FROM bones');
 $err->execute();
 
-echo "\nPDOStatement::errorCode(): ";
-print $err->errorCode();
+echo "\nPDOStatement::errorCode(): ";
+print $err->errorCode();
 ?>
 ```
 

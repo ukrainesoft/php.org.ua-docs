@@ -15,7 +15,7 @@ Imagick::resampleImage — Перетворює зображення до баж
 ### Опис
 
 ```methodsynopsis
-public Imagick::resampleImage(    float $x_resolution,    float $y_resolution,    int $filter,    float $blur): bool
+public Imagick::resampleImage(    float $x_resolution,    float $y_resolution,    int $filter,    float $blur): bool
 ```
 
 Перетворює зображення до бажаного дозволу.
@@ -40,12 +40,12 @@ public Imagick::resampleImage(    float $x_resolution,    float $y_resol
 
 ```php
 <?php
-function resampleImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
+function resampleImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $imagick->resampleImage(200, 200, \Imagick::FILTER_LANCZOS, 1);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    $imagick->resampleImage(200, 200, \Imagick::FILTER_LANCZOS, 1);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

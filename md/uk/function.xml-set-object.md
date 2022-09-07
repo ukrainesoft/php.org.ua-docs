@@ -46,49 +46,49 @@ xml_set_object(XMLParser $parser, object $object): bool
 
 ```php
 <?php
-class XMLParser
+class XMLParser
 {
-    private $parser;
+    private $parser;
 
-    function __construct()
-    {
-        $this->parser = xml_parser_create();
+    function __construct()
+    {
+        $this->parser = xml_parser_create();
 
-        xml_set_object($this->parser, $this);
-        xml_set_element_handler($this->parser, "tag_open", "tag_close");
-        xml_set_character_data_handler($this->parser, "cdata");
-    }
+        xml_set_object($this->parser, $this);
+        xml_set_element_handler($this->parser, "tag_open", "tag_close");
+        xml_set_character_data_handler($this->parser, "cdata");
+    }
 
-    function __destruct()
-    {
-        xml_parser_free($this->parser);
-        unset($this->parser);
-    }
+    function __destruct()
+    {
+        xml_parser_free($this->parser);
+        unset($this->parser);
+    }
 
-    function parse($data)
-    {
-        xml_parse($this->parser, $data);
-    }
+    function parse($data)
+    {
+        xml_parse($this->parser, $data);
+    }
 
-    function tag_open($parser, $tag, $attributes)
-    {
-        var_dump($tag, $attributes);
-    }
+    function tag_open($parser, $tag, $attributes)
+    {
+        var_dump($tag, $attributes);
+    }
 
-    function cdata($parser, $cdata)
-    {
-        var_dump($cdata);
-    }
+    function cdata($parser, $cdata)
+    {
+        var_dump($cdata);
+    }
 
-    function tag_close($parser, $tag)
-    {
-        var_dump($tag);
-    }
+    function tag_close($parser, $tag)
+    {
+        var_dump($tag);
+    }
 
-} // окончание определения класса xml
+} // окончание определения класса xml
 
-$xml_parser = new XMLParser();
-$xml_parser->parse("<A ID='hallo'>PHP</A>");
+$xml_parser = new XMLParser();
+$xml_parser->parse("<A ID='hallo'>PHP</A>");
 ?>
 ```
 

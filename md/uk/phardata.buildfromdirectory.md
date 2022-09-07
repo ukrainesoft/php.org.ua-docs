@@ -50,13 +50,13 @@ public PharData::buildFromDirectory(string $directory, string $pattern = ""): ar
 
 ```php
 <?php
-$phar = new PharData('project.tar');
-// добавим все файлы в проект
-$phar->buildFromDirectory(dirname(__FILE__) . '/project');
+$phar = new PharData('project.tar');
+// добавим все файлы в проект
+$phar->buildFromDirectory(dirname(__FILE__) . '/project');
 
-$phar2 = new PharData('project2.zip');
-// добавим в проект только .php файлы
-$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');
+$phar2 = new PharData('project2.zip');
+// добавим в проект только .php файлы
+$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');
 ?>
 ```
 

@@ -42,42 +42,42 @@ imagepalettetotruecolor(GdImage $image): bool
 
 ```php
 <?php
-// Для обратной совместимости
+// Для обратной совместимости
 if(!function_exists('imagepalettetotruecolor'))
 {
-    function imagepalettetotruecolor(&$src)
-    {
-        if(imageistruecolor($src))
-        {
-            return(true);
-        }
+    function imagepalettetotruecolor(&$src)
+    {
+        if(imageistruecolor($src))
+        {
+            return(true);
+        }
 
-        $dst = imagecreatetruecolor(imagesx($src), imagesy($src));
+        $dst = imagecreatetruecolor(imagesx($src), imagesy($src));
 
-        imagecopy($dst, $src, 0, 0, 0, 0, imagesx($src), imagesy($src));
-        imagedestroy($src);
+        imagecopy($dst, $src, 0, 0, 0, 0, imagesx($src), imagesy($src));
+        imagedestroy($src);
 
-        $src = $dst;
+        $src = $dst;
 
-        return(true);
-    }
+        return(true);
+    }
 }
 
-// Анонимная функция-помощник
-$typeof = function() use($im)
+// Анонимная функция-помощник
+$typeof = function() use($im)
 {
-    echo 'typeof($im) = ' . (imageistruecolor($im) ? 'true color' : 'palette'), PHP_EOL;
+    echo 'typeof($im) = ' . (imageistruecolor($im) ? 'true color' : 'palette'), PHP_EOL;
 };
 
-// Создание изображения на основе палитры
-$im = imagecreate(100, 100);
+// Создание изображения на основе палитры
+$im = imagecreate(100, 100);
 $typeof();
 
-// Преобразовать в настоящий цвет
+// Преобразовать в настоящий цвет
 imagepalettetotruecolor($im);
 $typeof();
 
-// Освободить память
+// Освободить память
 imagedestroy($im);
 ?>
 ```

@@ -34,9 +34,9 @@ public SplFileObject::current(): string|array|false
 
 ```php
 <?php
-$file = new SplFileObject(__FILE__);
-foreach ($file as $k => $line) {
-   echo ($file->key() + 1) . ': ' . $file->current();
+$file = new SplFileObject(__FILE__);
+foreach ($file as $k => $line) {
+   echo ($file->key() + 1) . ': ' . $file->current();
 }
 ?>
 ```

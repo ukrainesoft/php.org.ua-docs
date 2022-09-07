@@ -36,26 +36,26 @@ public PDOStatement::nextRowset(): bool
 
 ```php
 <?php
-$sql = 'CALL multiple_rowsets()';
-$stmt = $conn->query($sql);
-$i = 1;
-do {
-    $rowset = $stmt->fetchAll(PDO::FETCH_NUM);
-    if ($rowset) {
-        printResultSet($rowset, $i);
-    }
-    $i++;
-} while ($stmt->nextRowset());
+$sql = 'CALL multiple_rowsets()';
+$stmt = $conn->query($sql);
+$i = 1;
+do {
+    $rowset = $stmt->fetchAll(PDO::FETCH_NUM);
+    if ($rowset) {
+        printResultSet($rowset, $i);
+    }
+    $i++;
+} while ($stmt->nextRowset());
 
-function printResultSet(&$rowset, $i) {
-    print "Результирующий набор $i:\n";
-    foreach ($rowset as $row) {
-        foreach ($row as $col) {
-            print $col . "\t";
-        }
-        print "\n";
-    }
-    print "\n";
+function printResultSet(&$rowset, $i) {
+    print "Результирующий набор $i:\n";
+    foreach ($rowset as $row) {
+        foreach ($row as $col) {
+            print $col . "\t";
+        }
+        print "\n";
+    }
+    print "\n";
 }
 ?>
 ```

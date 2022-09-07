@@ -15,7 +15,7 @@ imapsavebody — Зберегти частину тіла повідомленн
 ### Опис
 
 ```methodsynopsis
-imap_savebody(    IMAP\Connection $imap,    resource|string|int $file,    int $message_num,    string $section = "",    int $flags = 0): bool
+imap_savebody(    IMAP\Connection $imap,    resource|string|int $file,    int $message_num,    string $section = "",    int $flags = 0): bool
 ```
 
 Записує частину тіла повідомлення у файл.

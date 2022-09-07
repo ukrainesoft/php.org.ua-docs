@@ -15,7 +15,7 @@ Imagick::segmentImage — Сегментує зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_threshold,    float $smooth_threshold,    bool $verbose = false): bool
+public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_threshold,    float $smooth_threshold,    bool $verbose = false): bool
 ```
 
 Аналізує зображення та визначає схожі об'єкти. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.5 або старшим.
@@ -46,14 +46,14 @@ public Imagick::segmentImage(    int $COLORSPACE,    float $cluster_thre
 
 ```php
 <?php
-function segmentImage($imagePath, $colorSpace, $clusterThreshold, $smoothThreshold) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->segmentImage($colorSpace, $clusterThreshold, $smoothThreshold);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function segmentImage($imagePath, $colorSpace, $clusterThreshold, $smoothThreshold) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->segmentImage($colorSpace, $clusterThreshold, $smoothThreshold);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
-segmentImage($imagePath, \Imagick::COLORSPACE_RGB, 5, 5);
+segmentImage($imagePath, \Imagick::COLORSPACE_RGB, 5, 5);
 
 ?>
 ```

@@ -36,14 +36,14 @@ public Imagick::setOption(string $key, string $value): bool
 
 ```php
 <?php
-    function renderJPG($extent) {
-        $imagePath = $this->control->getImagePath();
-        $imagick = new \Imagick(realpath($imagePath));
-        $imagick->setImageFormat('jpg');
-        $imagick->setOption('jpeg:extent', $extent);
-        header("Content-Type: image/jpg");
-        echo $imagick->getImageBlob();
-    }
+    function renderJPG($extent) {
+        $imagePath = $this->control->getImagePath();
+        $imagick = new \Imagick(realpath($imagePath));
+        $imagick->setImageFormat('jpg');
+        $imagick->setOption('jpeg:extent', $extent);
+        header("Content-Type: image/jpg");
+        echo $imagick->getImageBlob();
+    }
 
 ?>
 ```
@@ -52,17 +52,17 @@ public Imagick::setOption(string $key, string $value): bool
 
 ```php
 <?php
-    function renderPNG($imagePath, $format) {
+    function renderPNG($imagePath, $format) {
 
-        $imagick = new \Imagick(realpath($imagePath));
-        $imagick->setImageFormat('png');
-        $imagick->setOption('png:format', $format);
-        header("Content-Type: image/png");
-        echo $imagick->getImageBlob();
-    }
+        $imagick = new \Imagick(realpath($imagePath));
+        $imagick->setImageFormat('png');
+        $imagick->setOption('png:format', $format);
+        header("Content-Type: image/png");
+        echo $imagick->getImageBlob();
+    }
 
-    //Сохранение в виде 64bit PNG.
-    renderPNG($imagePath, 'png64');
+    //Сохранение в виде 64bit PNG.
+    renderPNG($imagePath, 'png64');
 
 ?>
 ```
@@ -71,24 +71,24 @@ public Imagick::setOption(string $key, string $value): bool
 
 ```php
 <?php
-    function renderCustomBitDepthPNG() {
-        $imagePath = $this->control->getImagePath();
-        $imagick = new \Imagick(realpath($imagePath));
-        $imagick->setImageFormat('png');
+    function renderCustomBitDepthPNG() {
+        $imagePath = $this->control->getImagePath();
+        $imagick = new \Imagick(realpath($imagePath));
+        $imagick->setImageFormat('png');
 
-        $imagick->setOption('png:bit-depth', '16');
-        $imagick->setOption('png:color-type', 6);
-        header("Content-Type: image/png");
-        $crash = true;
-        if ($crash) {
-            echo $imagick->getImageBlob();
-        }
-        else {
-            $tempFilename = tempnam('./', 'imagick');
-            $imagick->writeimage(realpath($tempFilename));
-            echo file_get_contents($tempFilename);
-        }
-    }
+        $imagick->setOption('png:bit-depth', '16');
+        $imagick->setOption('png:color-type', 6);
+        header("Content-Type: image/png");
+        $crash = true;
+        if ($crash) {
+            echo $imagick->getImageBlob();
+        }
+        else {
+            $tempFilename = tempnam('./', 'imagick');
+            $imagick->writeimage(realpath($tempFilename));
+            echo file_get_contents($tempFilename);
+        }
+    }
 
 ?>
 ```

@@ -40,8 +40,8 @@ mime_content_type(resource|string $filename): string|false
 
 ```php
 <?php
-echo mime_content_type('php.gif') . "\n";
-echo mime_content_type('test.php');
+echo mime_content_type('php.gif') . "\n";
+echo mime_content_type('test.php');
 ?>
 ```
 

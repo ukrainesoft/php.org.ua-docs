@@ -37,19 +37,19 @@ final public MongoDB\Driver\ReadPreference::getModeString(): string
 ```php
 <?php
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::PRIMARY);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::PRIMARY);
 var_dump($rp->getModeString());
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::PRIMARY_PREFERRED);
 var_dump($rp->getModeString());
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::SECONDARY);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::SECONDARY);
 var_dump($rp->getModeString());
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::SECONDARY_PREFERRED);
 var_dump($rp->getModeString());
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::NEAREST);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::NEAREST);
 var_dump($rp->getModeString());
 
 ?>
@@ -68,4 +68,4 @@ string(7) "nearest"
 ### Дивіться також
 
 -   [MongoDBDriverReadPreference::getMode()](mongodb-driver-readpreference.getmode.md) - Повертає параметр "mode" ReadPreference
--   [» Документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» Документация по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

@@ -38,18 +38,18 @@ public **Pool::construct**(int `$size`, string `$class` = ?, array `$ctor`
 
 ```php
 <?php
-class MyWorker extends Worker {
+class MyWorker extends Worker {
 
-    public function __construct(Something $something) {
-        $this->something = $something;
-    }
+    public function __construct(Something $something) {
+        $this->something = $something;
+    }
 
-    public function run() {
-        /** ... **/
-    }
+    public function run() {
+        /** ... **/
+    }
 }
 
-$pool = new Pool(8, \MyWorker::class, [new Something()]);
+$pool = new Pool(8, \MyWorker::class, [new Something()]);
 
 var_dump($pool);
 ?>

@@ -15,7 +15,7 @@ db2procedures — Повертає набір результатів, в яко�
 ### Опис
 
 ```methodsynopsis
-db2_procedures(    resource $connection,    string $qualifier,    string $schema,    string $procedure): resource
+db2_procedures(    resource $connection,    string $qualifier,    string $schema,    string $procedure): resource
 ```
 
 Повертає набір результатів, в якому перераховані процедури, що зберігаються, зареєстровані в базі даних.

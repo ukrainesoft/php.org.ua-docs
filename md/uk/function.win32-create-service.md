@@ -185,11 +185,11 @@ win32_create_service(array $details, string $machine = ?): void
 
 ```php
 <?php
-$x = win32_create_service(array(
-    'service'     => 'dummyphp',                                           // название сервиса
-    'display'     => 'sample dummy PHP service',                           // краткое описание
-    'description' => 'This is a dummy Windows service created using PHP.', // полное описание
-    'params'      => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров
+$x = win32_create_service(array(
+    'service'     => 'dummyphp',                                           // название сервиса
+    'display'     => 'sample dummy PHP service',                           // краткое описание
+    'description' => 'This is a dummy Windows service created using PHP.', // полное описание
+    'params'      => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров
 ));
 debug_zval_dump($x);
 ?>
@@ -201,12 +201,12 @@ debug_zval_dump($x);
 
 ```php
 <?php
-$x = win32_create_service(array(
-    'service'      => 'dummyphp',                                           // название сервиса
-    'display'      => 'sample dummy PHP service',                           // краткое описание
-    'description'  => 'This is a dummy Windows service created using PHP.', // полное описание
-    'params'       => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров
-    'dependencies' => array("Netman"),                                      // список зависимостей
+$x = win32_create_service(array(
+    'service'      => 'dummyphp',                                           // название сервиса
+    'display'      => 'sample dummy PHP service',                           // краткое описание
+    'description'  => 'This is a dummy Windows service created using PHP.', // полное описание
+    'params'       => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров
+    'dependencies' => array("Netman"),                                      // список зависимостей
 ));
 debug_zval_dump($x);
 ?>
@@ -218,19 +218,19 @@ debug_zval_dump($x);
 
 ```php
 <?php
-$x = win32_create_service(array(
-    'service'               => 'dummyphp',                                           // название сервиса
-    'display'               => 'sample dummy PHP service',                           // краткое описание
-    'description'           => 'This is a dummy Windows service created using PHP.', // полное описание
-    'params'                => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров
-    'recovery_delay'        => 120000,                                               // Действие восстановления выполняется через 2 минуты.
-    'recovery_action_1'     => WIN32_SC_ACTION_RESTART,                              // При первом сбое перезапускается служба.
-    'recovery_action_2'     => WIN32_SC_ACTION_RUN_COMMAND,                          // При втором сбое выполняется команда
-    'recovery_action_3'     => WIN32_SC_ACTION_NONE,                                 // При последующих сбоях ничего не делать
-    'recovery_reset_period' => 86400,                                                // Сбросить счётчик ошибок через 1 день
-    'recovery_enabled'      => true,                                                 // Включить параметр восстановления
-    'recovery_reboot_msg'   => null,                                                 // Не определяйте сообщение о перезагрузке, здесь оно не нужно
-    'recovery_command'      => "c:\clean-service.bat",                               // Когда действие - WIN32_SC_ACTION_RUN_COMMAND, выполняется эта команда
+$x = win32_create_service(array(
+    'service'               => 'dummyphp',                                           // название сервиса
+    'display'               => 'sample dummy PHP service',                           // краткое описание
+    'description'           => 'This is a dummy Windows service created using PHP.', // полное описание
+    'params'                => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров
+    'recovery_delay'        => 120000,                                               // Действие восстановления выполняется через 2 минуты.
+    'recovery_action_1'     => WIN32_SC_ACTION_RESTART,                              // При первом сбое перезапускается служба.
+    'recovery_action_2'     => WIN32_SC_ACTION_RUN_COMMAND,                          // При втором сбое выполняется команда
+    'recovery_action_3'     => WIN32_SC_ACTION_NONE,                                 // При последующих сбоях ничего не делать
+    'recovery_reset_period' => 86400,                                                // Сбросить счётчик ошибок через 1 день
+    'recovery_enabled'      => true,                                                 // Включить параметр восстановления
+    'recovery_reboot_msg'   => null,                                                 // Не определяйте сообщение о перезагрузке, здесь оно не нужно
+    'recovery_command'      => "c:\clean-service.bat",                               // Когда действие - WIN32_SC_ACTION_RUN_COMMAND, выполняется эта команда
 ));
 debug_zval_dump($x);
 ?>

@@ -15,7 +15,7 @@ ImagickPixelIterator::newPixelRegionIterator — Повертає новий і�
 ### Опис
 
 ```methodsynopsis
-public ImagickPixelIterator::newPixelRegionIterator(    Imagick $wand,    int $x,    int $y,    int $columns,    int $rows): bool
+public ImagickPixelIterator::newPixelRegionIterator(    Imagick $wand,    int $x,    int $y,    int $columns,    int $rows): bool
 ```
 
 **Увага**

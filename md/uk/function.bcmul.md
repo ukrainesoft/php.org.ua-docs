@@ -51,8 +51,8 @@ bcmul(string $num1, string $num2, ?int $scale = null): string
 
 ```php
 <?php
-echo bcmul('1.34747474747', '35', 3); // 47.161
-echo bcmul('2', '4'); // 8
+echo bcmul('1.34747474747', '35', 3); // 47.161
+echo bcmul('2', '4'); // 8
 ?>
 ```
 
@@ -66,7 +66,7 @@ echo bcmul('2', '4'); // 8
 > 
 > ```php
 > <?php
-> echo bcmul('5', '2', 2);     // напечатает "10", а не "10.00"
+> echo bcmul('5', '2', 2);     // напечатает "10", а не "10.00"
 > ?>
 > ```
 

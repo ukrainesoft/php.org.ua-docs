@@ -15,7 +15,7 @@ GearmanClient::addTask — Додати завдання, яке буде вик
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::addTask(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public GearmanClient::addTask(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
 ```
 
 Додає завдання для паралельної роботи з іншими завданнями. Викличте цей метод для всіх завдань, які працюватимуть паралельно, а потім викличте [GearmanClient::runTasks()](gearmanclient.runtasks.md) для виконання робіт. Зверніть увагу, що має бути достатня кількість обробників для одночасного виконання всіх завдань.
@@ -49,27 +49,27 @@ public GearmanClient::addTask(    string $function_name,    string $work
 ```php
 <?php
 
-# Создаём нашего клиента
-$gmclient= new GearmanClient();
+# Создаём нашего клиента
+$gmclient= new GearmanClient();
 
-# Добавляем сервер задач по умолчанию
+# Добавляем сервер задач по умолчанию
 $gmclient->addServer();
 
-# Устанавливаем функцию, которая будет вызвана по завершению работы
+# Устанавливаем функцию, которая будет вызвана по завершению работы
 $gmclient->setCompleteCallback("complete");
 
-# Добавляем задачу для выполнения функции reverse, переворачивающей строку "Hello World!"
-$gmclient->addTask("reverse", "Hello World!", null, "1");
+# Добавляем задачу для выполнения функции reverse, переворачивающей строку "Hello World!"
+$gmclient->addTask("reverse", "Hello World!", null, "1");
 
-# Добавляем другую задачу, для выполнения функции reverse, переворачивающей строку "!dlroW olleH"
-$gmclient->addTask("reverse", "!dlroW olleH", null, "2");
+# Добавляем другую задачу, для выполнения функции reverse, переворачивающей строку "!dlroW olleH"
+$gmclient->addTask("reverse", "!dlroW olleH", null, "2");
 
-# Выполняем задачи
+# Выполняем задачи
 $gmclient->runTasks();
 
-function complete($task)
+function complete($task)
 {
-  print "Выполнено: " . $task->unique() . ", " . $task->data() . "\n";
+  print "Выполнено: " . $task->unique() . ", " . $task->data() . "\n";
 }
 
 ?>
@@ -87,27 +87,27 @@ function complete($task)
 ```php
 <?php
 
-$client = new GearmanClient();
+$client = new GearmanClient();
 $client->addServer();
 
-# Устанавливаем функцию, которая будет вызвана по завершению работы
+# Устанавливаем функцию, которая будет вызвана по завершению работы
 $client->setCompleteCallback("reverse_complete");
 
-# Добавим несколько задач и местоположение результатов
-$results = array();
-$client->addTask("reverse", "Hello World!", $results, "t1");
-$client->addTask("reverse", "!dlroW olleH", $results, "t2");
+# Добавим несколько задач и местоположение результатов
+$results = array();
+$client->addTask("reverse", "Hello World!", $results, "t1");
+$client->addTask("reverse", "!dlroW olleH", $results, "t2");
 
 $client->runTasks();
 
-# Результаты должны быть заполнены из callback-функций
-foreach ($results as $id => $result)
-   echo $id . ": " . $result['handle'] . ", " . $result['data'] . "\n";
+# Результаты должны быть заполнены из callback-функций
+foreach ($results as $id => $result)
+   echo $id . ": " . $result['handle'] . ", " . $result['data'] . "\n";
 
 
-function reverse_complete($task, $results)
+function reverse_complete($task, $results)
 {
-   $results[$task->unique()] = array("handle"=>$task->jobHandle(), "data"=>$task->data());
+   $results[$task->unique()] = array("handle"=>$task->jobHandle(), "data"=>$task->data());
 }
 
 ?>

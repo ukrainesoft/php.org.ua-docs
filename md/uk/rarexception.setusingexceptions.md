@@ -42,13 +42,13 @@ public static RarException::setUsingExceptions(bool $using_exceptions): void
 ```php
 <?php
 var_dump(RarException::isUsingExceptions());
-$arch = RarArchive::open("does_not_exist.rar");
+$arch = RarArchive::open("does_not_exist.rar");
 var_dump($arch);
 
 RarException::setUsingExceptions(true);
 var_dump(RarException::isUsingExceptions());
-$arch = RarArchive::open("does_not_exist.rar");
-var_dump($arch); //not reached
+$arch = RarArchive::open("does_not_exist.rar");
+var_dump($arch); //not reached
 ?>
 ```
 

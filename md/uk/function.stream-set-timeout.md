@@ -46,23 +46,23 @@ stream_set_timeout(resource $stream, int $seconds, int $microseconds = 0): bool
 
 ```php
 <?php
-$fp = fsockopen("www.example.com", 80);
-if (!$fp) {
-    echo "Невозможно открыть сокет\n";
-} else {
+$fp = fsockopen("www.example.com", 80);
+if (!$fp) {
+    echo "Невозможно открыть сокет\n";
+} else {
 
-    fwrite($fp, "GET / HTTP/1.0\r\n\r\n");
-    stream_set_timeout($fp, 2);
-    $res = fread($fp, 2000);
+    fwrite($fp, "GET / HTTP/1.0\r\n\r\n");
+    stream_set_timeout($fp, 2);
+    $res = fread($fp, 2000);
 
-    $info = stream_get_meta_data($fp);
-    fclose($fp);
+    $info = stream_get_meta_data($fp);
+    fclose($fp);
 
-    if ($info['timed_out']) {
-        echo 'Истекло время соединения!';
-    } else {
-        echo $res;
-    }
+    if ($info['timed_out']) {
+        echo 'Истекло время соединения!';
+    } else {
+        echo $res;
+    }
 
 }
 ?>

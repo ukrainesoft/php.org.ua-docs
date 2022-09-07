@@ -38,11 +38,11 @@ public Imagick::modulateImage(float $brightness, float $saturation, float $hue):
 
 ```php
 <?php
-function modulateImage($imagePath, $hue, $brightness, $saturation) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->modulateImage($brightness, $saturation, $hue);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function modulateImage($imagePath, $hue, $brightness, $saturation) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->modulateImage($brightness, $saturation, $hue);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

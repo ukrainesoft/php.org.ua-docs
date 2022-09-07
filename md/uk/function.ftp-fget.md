@@ -15,7 +15,7 @@ ftpfget — Завантажує файл із FTP-сервера і збері�
 ### Опис
 
 ```methodsynopsis
-ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
+ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): bool
 ```
 
 **ftpfget()** завантажує файл `remote_filename` з FTP-сервера та записує його в переданий файловий дескриптор.
@@ -60,27 +60,27 @@ ftp_fget(    FTP\Connection $ftp,    resource $stream,    string $re
 ```php
 <?php
 
-// путь к удалённому файлу
-$remote_file = 'somefile.txt';
-$local_file = 'localfile.txt';
+// путь к удалённому файлу
+$remote_file = 'somefile.txt';
+$local_file = 'localfile.txt';
 
-// открываем файл для записи
-$handle = fopen($local_file, 'w');
+// открываем файл для записи
+$handle = fopen($local_file, 'w');
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// пытаемся скачать файл и сохранить его в $handle
-if (ftp_fget($ftp, $handle, $remote_file, FTP_ASCII, 0)) {
- echo "Произведена запись в $local_file\n";
-} else {
- echo "При скачивании $remote_file в $local_file произошла проблема\n";
+// пытаемся скачать файл и сохранить его в $handle
+if (ftp_fget($ftp, $handle, $remote_file, FTP_ASCII, 0)) {
+ echo "Произведена запись в $local_file\n";
+} else {
+ echo "При скачивании $remote_file в $local_file произошла проблема\n";
 }
 
-// закрытие соединения и локального файла
+// закрытие соединения и локального файла
 ftp_close($ftp);
 fclose($handle);
 ?>

@@ -36,9 +36,9 @@ public FilesystemIterator::current(): string|SplFileInfo|FilesystemIterator
 
 ```php
 <?php
-$iterator = new FilesystemIterator(__DIR__, FilesystemIterator::CURRENT_AS_PATHNAME);
-foreach ($iterator as $fileinfo) {
-    echo $iterator->current() . "\n";
+$iterator = new FilesystemIterator(__DIR__, FilesystemIterator::CURRENT_AS_PATHNAME);
+foreach ($iterator as $fileinfo) {
+    echo $iterator->current() . "\n";
 }
 ?>
 ```

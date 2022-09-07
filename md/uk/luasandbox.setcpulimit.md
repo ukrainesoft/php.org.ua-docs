@@ -47,14 +47,14 @@ public LuaSandbox::setCPULimit(float|bool $limit): void
 ```php
 <?php
 
-// создание нового LuaSandbox
-$sandbox = new LuaSandbox();
+// создание нового LuaSandbox
+$sandbox = new LuaSandbox();
 
-// установка лимита
-$sandbox->setCPULimit( 2 );
+// установка лимита
+$sandbox->setCPULimit( 2 );
 
-// запуск кода Lua
-$sandbox->loadString( 'while true do end' )->call();
+// запуск кода Lua
+$sandbox->loadString( 'while true do end' )->call();
 
 ?>
 ```

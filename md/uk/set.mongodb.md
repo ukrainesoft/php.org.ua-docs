@@ -8,9 +8,9 @@ title: Драйвер MongoDB
 ---
 # Драйвер MongoDB
 
-Цей модуль розроблено на основі бібліотек [» libmongoc](https://github.com/mongodb/mongo-c-driver) і [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson). Він надає мінімальне API для ключового функціоналу драйвера: [команди](class.mongodb-driver-command.md) [запити](class.mongodb-driver-query.md) [записи](class.mongodb-driver-bulkwrite.md) [управление соединением](class.mongodb-driver-manager.md) і [сериализация BSON](book.bson.md)
+Цей модуль розроблено на основі бібліотек [» libmongoc](https://github.com/mongodb/mongo-c-driver) і [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson). Він надає мінімальне API для ключового функціоналу драйвера: [команди](class.mongodb-driver-command.md) [запити](class.mongodb-driver-query.md) [записи](class.mongodb-driver-bulkwrite.md) [управление соединением](class.mongodb-driver-manager.md) і [сериализация BSON](book.bson.md)
 
-Саморобні бібліотеки PHP, що вимагають цей модуль, можуть надавати високорівневі API, такі як: збирачі запитів, методи-помічники для індивідуальних команд та GridFS. Розробники додатків повинні розглянути питання щодо використання цього модуля спільно з [» библиотекой MongoDB PHP](https://github.com/mongodb/mongo-php-library), яка реалізує такі ж високорівневі драйвери API MongoDB, як і для інших мов. Подібний поділ завдань дозволяє цьому драйверу сконцентруватися на головних завданнях, що стоять перед ним – підвищення продуктивності.
+Саморобні бібліотеки PHP, що вимагають цей модуль, можуть надавати високорівневі API, такі як: збирачі запитів, методи-помічники для індивідуальних команд та GridFS. Розробники додатків повинні розглянути питання щодо використання цього модуля спільно з [» библиотекой MongoDB PHP](https://github.com/mongodb/mongo-php-library), яка реалізує такі ж високорівневі драйвери API MongoDB, як і для інших мов. Подібний поділ завдань дозволяє цьому драйверу сконцентруватися на головних завданнях, що стоять перед ним – підвищення продуктивності.
 
 -   [Встановлення та налаштування](mongodb.setup.md)
     -   [Вимоги](mongodb.requirements.md)

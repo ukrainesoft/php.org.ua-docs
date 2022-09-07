@@ -74,17 +74,17 @@ file(string $filename, int $flags = 0, ?resource $context = null): array|false
 
 ```php
 <?php
-// Получает содержимое файла в виде Масива. В данном примере мы используем
-// обращение по протоколу HTTP для получения HTML-кода с удалённого сервера.
-$lines = file('http://www.example.com/');
+// Получает содержимое файла в виде Масива. В данном примере мы используем
+// обращение по протоколу HTTP для получения HTML-кода с удалённого сервера.
+$lines = file('http://www.example.com/');
 
-// Осуществим проход Масива и выведем содержимое в виде HTML-кода вместе с номерами строк.
-foreach ($lines as $line_num => $line) {
-    echo "Строка #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />\n";
+// Осуществим проход Масива и выведем содержимое в виде HTML-кода вместе с номерами строк.
+foreach ($lines as $line_num => $line) {
+    echo "Строка #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />\n";
 }
 
-// Используем необязательный параметр flags
-$trimmed = file('somefile.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+// Используем необязательный параметр flags
+$trimmed = file('somefile.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 ?>
 ```
 

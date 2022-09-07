@@ -132,8 +132,8 @@ public
     /* Наследуемые методы */
     
    public DOMNode::appendChild(DOMNode $node): DOMNode|false
-public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
-public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
 public DOMNode::cloneNode(bool $deep = false): DOMNode|false
 public DOMNode::getLineNo(): int
 public DOMNode::getNodePath(): ?string

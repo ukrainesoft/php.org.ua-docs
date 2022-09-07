@@ -39,10 +39,10 @@ final public MongoDB\Driver\Server::getPort(): int
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
-$server = $manager->selectServer($rp);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
+$server = $manager->selectServer($rp);
 
 var_dump($server->getPort());
 

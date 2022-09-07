@@ -54,22 +54,22 @@ uniqid(string $prefix = "", bool $more_entropy = false): string
 
 ```php
 <?php
-/* Уникальный id, например: 4b3403665fea6 */
-printf("uniqid(): %s\r\n", uniqid());
+/* Уникальный id, например: 4b3403665fea6 */
+printf("uniqid(): %s\r\n", uniqid());
 
-/* Префикс к уникальному id можно добавить одним
- * из следующих способов:
- *
- * $uniqid = $prefix . uniqid();
- * $uniqid = uniqid($prefix);
- */
-printf("uniqid('php_'): %s\r\n", uniqid('php_'));
+/* Префикс к уникальному id можно добавить одним
+ * из следующих способов:
+ *
+ * $uniqid = $prefix . uniqid();
+ * $uniqid = uniqid($prefix);
+ */
+printf("uniqid('php_'): %s\r\n", uniqid('php_'));
 
-/* Также можно активировать параметр большей энтропии, который
- * требуется на некоторых системах, таких как Cygwin. Таким образом
- * функция uniqid() сгенерирует значение: 4b340550242239.64159797
- */
-printf("uniqid('', true): %s\r\n", uniqid('', true));
+/* Также можно активировать параметр большей энтропии, который
+ * требуется на некоторых системах, таких как Cygwin. Таким образом
+ * функция uniqid() сгенерирует значение: 4b340550242239.64159797
+ */
+printf("uniqid('', true): %s\r\n", uniqid('', true));
 ?>
 ```
 

@@ -15,7 +15,7 @@ ibaseconnect — Відкриває з'єднання з базою даних
 ### Опис
 
 ```methodsynopsis
-ibase_connect(    string $database = ?,    string $username = ?,    string $password = ?,    string $charset = ?,    int $buffers = ?,    int $dialect = ?,    string $role = ?,    int $sync = ?): resource
+ibase_connect(    string $database = ?,    string $username = ?,    string $password = ?,    string $charset = ?,    int $buffers = ?,    int $dialect = ?,    string $role = ?,    int $sync = ?): resource
 ```
 
 Встановлює з'єднання із сервером Firebird/InterBase.
@@ -68,13 +68,13 @@ ibase_connect(    string $database = ?,    string $username = ?,    
 
 ```php
 <?php
-$host = 'localhost:/path/to/your.gdb';
+$host = 'localhost:/path/to/your.gdb';
 
-$dbh = ibase_connect($host, $username, $password);
-$stmt = 'SELECT * FROM tblname';
-$sth = ibase_query($dbh, $stmt);
-while ($row = ibase_fetch_object($sth)) {
-    echo $row->email, "\n";
+$dbh = ibase_connect($host, $username, $password);
+$stmt = 'SELECT * FROM tblname';
+$sth = ibase_query($dbh, $stmt);
+while ($row = ibase_fetch_object($sth)) {
+    echo $row->email, "\n";
 }
 ibase_free_result($sth);
 ibase_close($dbh);

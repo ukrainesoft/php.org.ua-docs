@@ -14,11 +14,11 @@ title: Функції для роботи з багатобайтовими ря
 
 -   Матеріали по Юнікоду
     
-    [» http://www.unicode.org/](http://www.unicode.org/)
+    [» http://www.unicode.org/](http://www.unicode.org/)
     
 -   Інформація про символи японського/корейського/китайського кодувань
     
-    [» https://resources.oreilly.com/examples/9781565922242/blob/master/doc/cjk.inf](https://resources.oreilly.com/examples/9781565922242/blob/master/doc/cjk.inf)
+    [» https://resources.oreilly.com/examples/9781565922242/blob/master/doc/cjk.inf](https://resources.oreilly.com/examples/9781565922242/blob/master/doc/cjk.inf)
     
 
 ## Зміст

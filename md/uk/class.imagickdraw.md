@@ -20,17 +20,17 @@ title: 'Клас ImagickDraw'
     
    public affine(array $affine): bool
 public annotation(float $x, float $y, string $text): bool
-public arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): bool
+public arc(    float $sx,    float $sy,    float $ex,    float $ey,    float $sd,    float $ed): bool
 public bezier(array $coordinates): bool
-public circle(    float $ox,    float $oy,    float $px,    float $py): bool
+public circle(    float $ox,    float $oy,    float $px,    float $py): bool
 public clear(): bool
 public clone(): ImagickDraw
 public color(float $x, float $y, int $paintMethod): bool
 public comment(string $comment): bool
-public composite(    int $compose,    float $x,    float $y,    float $width,    float $height,    Imagick $compositeWand): bool
+public composite(    int $compose,    float $x,    float $y,    float $width,    float $height,    Imagick $compositeWand): bool
 public __construct()
 public destroy(): bool
-public ellipse(    float $ox,    float $oy,    float $rx,    float $ry,    float $start,    float $end): bool
+public ellipse(    float $ox,    float $oy,    float $rx,    float $ry,    float $start,    float $end): bool
 public getClipPath(): string
 public getClipRule(): int
 public getClipUnits(): int
@@ -62,19 +62,19 @@ public getTextInterwordSpacing(): float
 public getTextKerning(): float
 public getTextUnderColor(): ImagickPixel
 public getVectorGraphics(): string
-public line(    float $sx,    float $sy,    float $ex,    float $ey): bool
+public line(    float $sx,    float $sy,    float $ex,    float $ey): bool
 public matte(float $x, float $y, int $paintMethod): bool
 public pathClose(): bool
-public pathCurveToAbsolute(    float $x1,    float $y1,    float $x2,    float $y2,    float $x,    float $y): bool
-public pathCurveToQuadraticBezierAbsolute(    float $x1,    float $y1,    float $x,    float $y): bool
-public pathCurveToQuadraticBezierRelative(    float $x1,    float $y1,    float $x,    float $y): bool
+public pathCurveToAbsolute(    float $x1,    float $y1,    float $x2,    float $y2,    float $x,    float $y): bool
+public pathCurveToQuadraticBezierAbsolute(    float $x1,    float $y1,    float $x,    float $y): bool
+public pathCurveToQuadraticBezierRelative(    float $x1,    float $y1,    float $x,    float $y): bool
 public pathCurveToQuadraticBezierSmoothAbsolute(float $x, float $y): bool
 public pathCurveToQuadraticBezierSmoothRelative(float $x, float $y): bool
-public pathCurveToRelative(    float $x1,    float $y1,    float $x2,    float $y2,    float $x,    float $y): bool
-public pathCurveToSmoothAbsolute(    float $x2,    float $y2,    float $x,    float $y): bool
-public pathCurveToSmoothRelative(    float $x2,    float $y2,    float $x,    float $y): bool
-public pathEllipticArcAbsolute(    float $rx,    float $ry,    float $x_axis_rotation,    bool $large_arc_flag,    bool $sweep_flag,    float $x,    float $y): bool
-public pathEllipticArcRelative(    float $rx,    float $ry,    float $x_axis_rotation,    bool $large_arc_flag,    bool $sweep_flag,    float $x,    float $y): bool
+public pathCurveToRelative(    float $x1,    float $y1,    float $x2,    float $y2,    float $x,    float $y): bool
+public pathCurveToSmoothAbsolute(    float $x2,    float $y2,    float $x,    float $y): bool
+public pathCurveToSmoothRelative(    float $x2,    float $y2,    float $x,    float $y): bool
+public pathEllipticArcAbsolute(    float $rx,    float $ry,    float $x_axis_rotation,    bool $large_arc_flag,    bool $sweep_flag,    float $x,    float $y): bool
+public pathEllipticArcRelative(    float $rx,    float $ry,    float $x_axis_rotation,    bool $large_arc_flag,    bool $sweep_flag,    float $x,    float $y): bool
 public pathFinish(): bool
 public pathLineToAbsolute(float $x, float $y): bool
 public pathLineToHorizontalAbsolute(float $x): bool
@@ -95,12 +95,12 @@ public popPattern(): bool
 public push(): bool
 public pushClipPath(string $clip_mask_id): bool
 public pushDefs(): bool
-public pushPattern(    string $pattern_id,    float $x,    float $y,    float $width,    float $height): bool
-public rectangle(    float $x1,    float $y1,    float $x2,    float $y2): bool
+public pushPattern(    string $pattern_id,    float $x,    float $y,    float $width,    float $height): bool
+public rectangle(    float $x1,    float $y1,    float $x2,    float $y2): bool
 public render(): bool
 public resetVectorGraphics(): bool
 public rotate(float $degrees): bool
-public roundRectangle(    float $x1,    float $y1,    float $x2,    float $y2,    float $rx,    float $ry): bool
+public roundRectangle(    float $x1,    float $y1,    float $x2,    float $y2,    float $rx,    float $ry): bool
 public scale(float $x, float $y): bool
 public setClipPath(string $clip_mask): bool
 public setClipRule(int $fill_rule): bool
@@ -138,7 +138,7 @@ public setTextInterwordSpacing(float $spacing): bool
 public setTextKerning(float $kerning): bool
 public setTextUnderColor(ImagickPixel $under_color): bool
 public setVectorGraphics(string $xml): bool
-public setViewbox(    int $x1,    int $y1,    int $x2,    int $y2): bool
+public setViewbox(    int $x1,    int $y1,    int $x2,    int $y2): bool
 public skewX(float $degrees): bool
 public skewY(float $degrees): bool
 public translate(float $x, float $y): bool

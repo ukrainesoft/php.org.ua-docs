@@ -36,19 +36,19 @@ abstract public Ds\Sequence::contains(mixed ...$values): bool
 
 ```php
 <?php
-$sequence = new \Ds\Vector(['a', 'b', 'c', 1, 2, 3]);
+$sequence = new \Ds\Vector(['a', 'b', 'c', 1, 2, 3]);
 
-var_dump($sequence->contains('a'));                // true
-var_dump($sequence->contains('a', 'b'));           // true
-var_dump($sequence->contains('c', 'd'));           // false
+var_dump($sequence->contains('a'));                // true
+var_dump($sequence->contains('a', 'b'));           // true
+var_dump($sequence->contains('c', 'd'));           // false
 
-var_dump($sequence->contains(...['c', 'b', 'a'])); // true
+var_dump($sequence->contains(...['c', 'b', 'a'])); // true
 
-// Всегда строгая проверка
-var_dump($sequence->contains(1));                  // true
-var_dump($sequence->contains('1'));                // false
+// Всегда строгая проверка
+var_dump($sequence->contains(1));                  // true
+var_dump($sequence->contains('1'));                // false
 
-var_dump($sequece->contains(...[]));               // true
+var_dump($sequece->contains(...[]));               // true
 ?>
 ```
 

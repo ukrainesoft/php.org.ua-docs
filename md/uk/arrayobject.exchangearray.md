@@ -36,15 +36,15 @@ public ArrayObject::exchangeArray(array|object $array): array
 
 ```php
 <?php
-// Масив с количеством фруктов
-$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
-// Масив мест в Европе
-$locations = array('Amsterdam', 'Paris', 'London');
+// Масив с количеством фруктов
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
+// Масив мест в Европе
+$locations = array('Amsterdam', 'Paris', 'London');
 
-$fruitsArrayObject = new ArrayObject($fruits);
+$fruitsArrayObject = new ArrayObject($fruits);
 
-// Сейчас заменим фрукты на места
-$old = $fruitsArrayObject->exchangeArray($locations);
+// Сейчас заменим фрукты на места
+$old = $fruitsArrayObject->exchangeArray($locations);
 print_r($old);
 print_r($fruitsArrayObject);
 

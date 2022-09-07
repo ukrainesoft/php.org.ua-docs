@@ -48,7 +48,7 @@ yaz_record(resource $id, int $pos, string $type): string
 
 `xml`
 
-Запис повертається як рядок XML, якщо це можливо. У цьому режимі всі MARC-записи перетворюються на формат [» MARCXML](http://www.loc.gov/standards/marcxml/). Записи XML та SUTRS повертаються у їхньому рідному форматі. GRS-1 не підтримується.
+Запис повертається як рядок XML, якщо це можливо. У цьому режимі всі MARC-записи перетворюються на формат [» MARCXML](http://www.loc.gov/standards/marcxml/). Записи XML та SUTRS повертаються у їхньому рідному форматі. GRS-1 не підтримується.
 
 Цей формат схожий `string`, за винятком того, що MARC-записи перетворюються на MARCXML.
 
@@ -99,7 +99,7 @@ MARC-запис повертається у форматі ISO 2709, XML та SU
 ```php
 <?php
 
-$ar = yaz_record($id, $p, "array");
+$ar = yaz_record($id, $p, "array");
 print_r($ar);
 
 ?>
@@ -137,7 +137,7 @@ Array
 
 ```php
 <?php
-$rec = yaz_record($id, $p, "xml; charset=marc-8,utf-8");
+$rec = yaz_record($id, $p, "xml; charset=marc-8,utf-8");
 ?>
 ```
 
@@ -146,13 +146,13 @@ $rec = yaz_record($id, $p, "xml; charset=marc-8,utf-8");
 ```php
 <?php
 
-$xslfile = 'display.xsl';
-$processor = xslt_create();
-$parms = array('/_xml' => $rec);
-$res = xslt_process($processor, 'arg:/_xml', $xslfile, NULL, $parms);
+$xslfile = 'display.xsl';
+$processor = xslt_create();
+$parms = array('/_xml' => $rec);
+$res = xslt_process($processor, 'arg:/_xml', $xslfile, NULL, $parms);
 xslt_free($processor);
-$res = preg_replace("'</?html[^>]*>'", '', $res);
-echo $res;
+$res = preg_replace("'</?html[^>]*>'", '', $res);
+echo $res;
 
 ?>
 ```

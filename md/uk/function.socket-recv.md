@@ -15,7 +15,7 @@ socketrecv — Отримує дані з приєднаного сокету
 ### Опис
 
 ```methodsynopsis
-socket_recv(    Socket $socket,    ?string &$data,    int $length,    int $flags): int|false
+socket_recv(    Socket $socket,    ?string &$data,    int $length,    int $flags): int|false
 ```
 
 Функція **socketrecv()** отримує `length` байт даних у буфер `data` із сокету `socket`. функція **socketrecv()** може бути використана для отримання даних із приєднаних сокетів. Додатково, один або більше прапорів можуть бути вказані для зміни поведінки функції.
@@ -69,50 +69,50 @@ socket_recv(    Socket $socket,    ?string &$data,    int $length, 
 <?php
 error_reporting(E_ALL);
 
-echo "<h2>Соединение TCP/IP</h2>\n";
+echo "<h2>Соединение TCP/IP</h2>\n";
 
-/* Получить порт сервиса WWW. */
-$service_port = getservbyname('www', 'tcp');
+/* Получить порт сервиса WWW. */
+$service_port = getservbyname('www', 'tcp');
 
-/* Получить IP-адрес целевого хоста. */
-$address = gethostbyname('www.example.com');
+/* Получить IP-адрес целевого хоста. */
+$address = gethostbyname('www.example.com');
 
-/* Создать сокет TCP/IP. */
-$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
-if ($socket === false) {
-    echo "Не удалось выполнить функцию socket_create(): причина: " . socket_strerror(socket_last_error()) . "\n";
-} else {
-    echo "OK.\n";
+/* Создать сокет TCP/IP. */
+$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+if ($socket === false) {
+    echo "Не удалось выполнить функцию socket_create(): причина: " . socket_strerror(socket_last_error()) . "\n";
+} else {
+    echo "OK.\n";
 }
 
-echo "Попытка соединиться с хостом '$address' по порту '$service_port'...";
-$result = socket_connect($socket, $address, $service_port);
-if ($result === false) {
-    echo "Не получилось выполнить функцию socket_connect().\nПричина: ($result) " . socket_strerror(socket_last_error($socket)) . "\n";
-} else {
-    echo "OK.\n";
+echo "Попытка соединиться с хостом '$address' по порту '$service_port'...";
+$result = socket_connect($socket, $address, $service_port);
+if ($result === false) {
+    echo "Не получилось выполнить функцию socket_connect().\nПричина: ($result) " . socket_strerror(socket_last_error($socket)) . "\n";
+} else {
+    echo "OK.\n";
 }
 
-$in = "HEAD / HTTP/1.1\r\n";
-$in .= "Host: www.example.com\r\n";
-$in .= "Connection: Close\r\n\r\n";
-$out = '';
+$in = "HEAD / HTTP/1.1\r\n";
+$in .= "Host: www.example.com\r\n";
+$in .= "Connection: Close\r\n\r\n";
+$out = '';
 
-echo "Отправка запроса HTTP HEAD...";
-socket_write($socket, $in, strlen($in));
-echo "OK.\n";
+echo "Отправка запроса HTTP HEAD...";
+socket_write($socket, $in, strlen($in));
+echo "OK.\n";
 
-echo "Получение ответа:\n\n";
-$buf = 'Это мой буфер.';
-if (false !== ($bytes = socket_recv($socket, $buf, 2048, MSG_WAITALL))) {
-    echo "Прочитано $bytes байта из функции socket_recv(). Закрываем сокет...";
-} else {
-    echo "Не получилось выполнить socket_recv(); причина: " . socket_strerror(socket_last_error($socket)) . "\n";
+echo "Получение ответа:\n\n";
+$buf = 'Это мой буфер.';
+if (false !== ($bytes = socket_recv($socket, $buf, 2048, MSG_WAITALL))) {
+    echo "Прочитано $bytes байта из функции socket_recv(). Закрываем сокет...";
+} else {
+    echo "Не получилось выполнить socket_recv(); причина: " . socket_strerror(socket_last_error($socket)) . "\n";
 }
 socket_close($socket);
 
-echo $buf . "\n";
-echo "OK.\n\n";
+echo $buf . "\n";
+echo "OK.\n\n";
 ?>
 ```
 

@@ -38,7 +38,7 @@ public Ds\Set::last(): mixed
 
 ```php
 <?php
-$set = new \Ds\Set([1, 2, 3]);
+$set = new \Ds\Set([1, 2, 3]);
 var_dump($set->last());
 ?>
 ```

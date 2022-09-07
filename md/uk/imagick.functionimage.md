@@ -20,7 +20,7 @@ public Imagick::functionImage(int $function, array $arguments, int $channel = Im
 
 Застосовує арифметичний, реляційний або логічний вираз до псевдозображення.
 
-Дивіться також [» ImageMagick v6 Examples - Image Transformations — Function, Multi-Argument Evaluate](http://www.imagemagick.org/Usage/transform/#function)
+Дивіться також [» ImageMagick v6 Examples - Image Transformations — Function, Multi-Argument Evaluate](http://www.imagemagick.org/Usage/transform/#function)
 
 Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.9 або старшим.
 
@@ -48,14 +48,14 @@ public Imagick::functionImage(int $function, array $arguments, int $channel = Im
 
 ```php
 <?php
-$imagick = new Imagick();
-$imagick->newPseudoImage(200, 200, 'gradient:black-white');
-$arguments = array(3, -90);
-$imagick->functionImage(Imagick::FUNCTION_SINUSOID, $arguments);
+$imagick = new Imagick();
+$imagick->newPseudoImage(200, 200, 'gradient:black-white');
+$arguments = array(3, -90);
+$imagick->functionImage(Imagick::FUNCTION_SINUSOID, $arguments);
 
-header("Content-Type: image/png");
+header("Content-Type: image/png");
 $imagick->setImageFormat("png");
-echo $imagick->getImageBlob();
+echo $imagick->getImageBlob();
 ?>
 ```
 
@@ -67,14 +67,14 @@ echo $imagick->getImageBlob();
 
 ```php
 <?php
-$imagick = new Imagick();
-$imagick->newPseudoImage(200, 200, 'gradient:black-white');
-$arguments = array(4, -4, 1);
-$imagick->functionImage(Imagick::FUNCTION_POLYNOMIAL, $arguments);
+$imagick = new Imagick();
+$imagick->newPseudoImage(200, 200, 'gradient:black-white');
+$arguments = array(4, -4, 1);
+$imagick->functionImage(Imagick::FUNCTION_POLYNOMIAL, $arguments);
 
-header("Content-Type: image/png");
+header("Content-Type: image/png");
 $imagick->setimageformat("png");
-echo $imagick->getImageBlob();
+echo $imagick->getImageBlob();
 ?>
 ```
 
@@ -86,20 +86,20 @@ echo $imagick->getImageBlob();
 
 ```php
 <?php
-$imagick1 = new Imagick();
-$imagick1->newPseudoImage(200, 200, 'gradient:black-white');
-$arguments = array(9, -90);
-$imagick1->functionImage(Imagick::FUNCTION_SINUSOID, $arguments);
+$imagick1 = new Imagick();
+$imagick1->newPseudoImage(200, 200, 'gradient:black-white');
+$arguments = array(9, -90);
+$imagick1->functionImage(Imagick::FUNCTION_SINUSOID, $arguments);
 
-$imagick2 = new Imagick();
-$imagick2->newPseudoImage(200, 200, 'gradient:black-white');
-$arguments = array(0.5, 0);
-$imagick2->functionImage(Imagick::FUNCTION_SINUSOID, $arguments);
-$imagick1->compositeimage($imagick2, Imagick::COMPOSITE_MULTIPLY, 0, 0);
+$imagick2 = new Imagick();
+$imagick2->newPseudoImage(200, 200, 'gradient:black-white');
+$arguments = array(0.5, 0);
+$imagick2->functionImage(Imagick::FUNCTION_SINUSOID, $arguments);
+$imagick1->compositeimage($imagick2, Imagick::COMPOSITE_MULTIPLY, 0, 0);
 
-header("Content-Type: image/png");
+header("Content-Type: image/png");
 $imagick1->setImageFormat("png");
-echo $imagick1->getImageBlob();
+echo $imagick1->getImageBlob();
 ?>
 ```
 

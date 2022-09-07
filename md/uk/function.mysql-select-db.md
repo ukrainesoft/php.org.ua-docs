@@ -48,15 +48,15 @@ mysql_select_db(string $database_name, resource $link_identifier = NULL): bool
 ```php
 <?php
 
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Не удалось соединиться : ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Не удалось соединиться : ' . mysql_error());
 }
 
-// выбираем foo в качестве текущей базы данных
-$db_selected = mysql_select_db('foo', $link);
-if (!$db_selected) {
-    die ('Не удалось выбрать базу foo: ' . mysql_error());
+// выбираем foo в качестве текущей базы данных
+$db_selected = mysql_select_db('foo', $link);
+if (!$db_selected) {
+    die ('Не удалось выбрать базу foo: ' . mysql_error());
 }
 ?>
 ```

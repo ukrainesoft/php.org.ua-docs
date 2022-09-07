@@ -37,26 +37,26 @@ tidy_access_count(tidy $tidy): int
 ```php
 <?php
 
-$html ='<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+$html ='<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <html><head><title>Title</title></head>
 <body>
 
-<p><img src="img.png"></p>
+<p><img src="img.png"></p>
 
 </body></html>';
 
 
-// выбирается уровень проверки доступности: 1, 2 или 3
-$config = array('accessibility-check' => 3);
+// выбирается уровень проверки доступности: 1, 2 или 3
+$config = array('accessibility-check' => 3);
 
-$tidy = new tidy();
-$tidy->parseString($html, $config);
+$tidy = new tidy();
+$tidy->parseString($html, $config);
 $tidy->cleanRepair();
 
-/* Нельзя забывать про этот вызов! */
+/* Нельзя забывать про этот вызов! */
 $tidy->diagnose();
 
-echo tidy_access_count($tidy); //5
+echo tidy_access_count($tidy); //5
 
 ?>
 ```

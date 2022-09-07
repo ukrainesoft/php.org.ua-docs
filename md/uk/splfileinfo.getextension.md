@@ -35,13 +35,13 @@ public SplFileInfo::getExtension(): string
 ```php
 <?php
 
-$info = new SplFileInfo('foo.txt');
+$info = new SplFileInfo('foo.txt');
 var_dump($info->getExtension());
 
-$info = new SplFileInfo('photo.jpg');
+$info = new SplFileInfo('photo.jpg');
 var_dump($info->getExtension());
 
-$info = new SplFileInfo('something.tar.gz');
+$info = new SplFileInfo('something.tar.gz');
 var_dump($info->getExtension());
 
 ?>
@@ -63,7 +63,7 @@ string(2) "gz"
 > 
 > ```php
 > <?php
-> $extension = pathinfo($info->getFilename(), PATHINFO_EXTENSION);
+> $extension = pathinfo($info->getFilename(), PATHINFO_EXTENSION);
 > ?>
 > ```
 

@@ -47,29 +47,29 @@ isset(mixed $var, mixed ...$vars): bool
 ```php
 <?php
 
-$var = '';
+$var = '';
 
-// Проверка вернёт TRUE, поэтому текст будет напечатан.
-if (isset($var)) {
-    echo "Эта переменная определена, поэтому меня и напечатали.";
+// Проверка вернёт TRUE, поэтому текст будет напечатан.
+if (isset($var)) {
+    echo "Эта переменная определена, поэтому меня и напечатали.";
 }
 
-// В следующем примере мы используем var_dump для вывода
-// значения, возвращаемого isset().
+// В следующем примере мы используем var_dump для вывода
+// значения, возвращаемого isset().
 
-$a = "test";
-$b = "anothertest";
+$a = "test";
+$b = "anothertest";
 
-var_dump(isset($a));     // TRUE
-var_dump(isset($a, $b)); // TRUE
+var_dump(isset($a));     // TRUE
+var_dump(isset($a, $b)); // TRUE
 
-unset ($a);
+unset ($a);
 
-var_dump(isset($a));     // FALSE
-var_dump(isset($a, $b)); // FALSE
+var_dump(isset($a));     // FALSE
+var_dump(isset($a, $b)); // FALSE
 
-$foo = NULL;
-var_dump(isset($foo));   // FALSE
+$foo = NULL;
+var_dump(isset($foo));   // FALSE
 
 ?>
 ```
@@ -79,20 +79,20 @@ var_dump(isset($foo));   // FALSE
 ```php
 <?php
 
-$a = array ('test' => 1, 'hello' => NULL, 'pie' => array('a' => 'apple'));
+$a = array ('test' => 1, 'hello' => NULL, 'pie' => array('a' => 'apple'));
 
-var_dump(isset($a['test']));            // TRUE
-var_dump(isset($a['foo']));             // FALSE
-var_dump(isset($a['hello']));           // FALSE
+var_dump(isset($a['test']));            // TRUE
+var_dump(isset($a['foo']));             // FALSE
+var_dump(isset($a['hello']));           // FALSE
 
-// Элемент с ключом 'hello' равен NULL, поэтому он считается неопределённым
-// Если вы хотите проверить существование ключей со значением NULL, попробуйте так:
-var_dump(array_key_exists('hello', $a)); // TRUE
+// Элемент с ключом 'hello' равен NULL, поэтому он считается неопределённым
+// Если вы хотите проверить существование ключей со значением NULL, попробуйте так:
+var_dump(array_key_exists('hello', $a)); // TRUE
 
-// Проверка вложенных элементов Масива
-var_dump(isset($a['pie']['a']));        // TRUE
-var_dump(isset($a['pie']['b']));        // FALSE
-var_dump(isset($a['cake']['a']['b']));  // FALSE
+// Проверка вложенных элементов Масива
+var_dump(isset($a['pie']['a']));        // TRUE
+var_dump(isset($a['pie']['b']));        // FALSE
+var_dump(isset($a['cake']['a']['b']));  // FALSE
 
 ?>
 ```
@@ -101,13 +101,13 @@ var_dump(isset($a['cake']['a']['b']));  // FALSE
 
 ```php
 <?php
-$expected_array_got_string = 'somestring';
+$expected_array_got_string = 'somestring';
 var_dump(isset($expected_array_got_string['some_key']));
 var_dump(isset($expected_array_got_string[0]));
 var_dump(isset($expected_array_got_string['0']));
 var_dump(isset($expected_array_got_string[0.5]));
 var_dump(isset($expected_array_got_string['0.5']));
-var_dump(isset($expected_array_got_string['0 Mostel']));
+var_dump(isset($expected_array_got_string['0 Mostel']));
 ?>
 ```
 

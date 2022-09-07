@@ -15,7 +15,7 @@ cubridschema — Отримує запитану інформацію про с�
 ### Опис
 
 ```methodsynopsis
-cubrid_schema(    resource $conn_identifier,    int $schema_type,    string $class_name = ?,    string $attr_name = ?): array
+cubrid_schema(    resource $conn_identifier,    int $schema_type,    string $class_name = ?,    string $attr_name = ?): array
 ```
 
 Функція **cubridschema()** використовується для отримання запитаної інформації про схему бази даних. Ви повинні вказати `class_name`, якщо ви хочете отримати інформацію про певний клас, `attr_name`, якщо ви хочете отримати інформацію про певний атрибут (може використовуватися тільки з **`CUBRID_SCH_ATTR_PRIVILEGE`**
@@ -118,18 +118,18 @@ cubrid_schema(    resource $conn_identifier,    int $schema_type,   �
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
 
-printf("\n--- Первичный ключ ---\n");
-$pk = cubrid_schema($conn, CUBRID_SCH_PRIMARY_KEY, "game");
+printf("\n--- Первичный ключ ---\n");
+$pk = cubrid_schema($conn, CUBRID_SCH_PRIMARY_KEY, "game");
 var_dump($pk);
 
-printf("\n--- Внешние ключи ---\n");
-$fk = cubrid_schema($conn, CUBRID_SCH_IMPORTED_KEYS, "game");
+printf("\n--- Внешние ключи ---\n");
+$fk = cubrid_schema($conn, CUBRID_SCH_IMPORTED_KEYS, "game");
 var_dump($fk);
 
-printf("\n--- Атрибут столбца ---\n");
-$attr = cubrid_schema($conn, CUBRID_SCH_ATTRIBUTE, "stadium", "area");
+printf("\n--- Атрибут столбца ---\n");
+$attr = cubrid_schema($conn, CUBRID_SCH_ATTRIBUTE, "stadium", "area");
 var_dump($attr);
 
 cubrid_disconnect($conn);

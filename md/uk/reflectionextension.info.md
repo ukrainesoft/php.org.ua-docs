@@ -34,7 +34,7 @@ public ReflectionExtension::info(): void
 
 ```php
 <?php
-$ext = new ReflectionExtension('mysqli');
+$ext = new ReflectionExtension('mysqli');
 $ext->info();
 ?>
 ```

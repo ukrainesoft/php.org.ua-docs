@@ -46,21 +46,21 @@ public Phar::compressFiles(int $compression): void
 
 ```php
 <?php
-$p = new Phar('/путь/к/my.phar', 0, 'my.phar');
-$p['myfile.txt'] = 'привет';
-$p['myfile2.txt'] = 'привет';
-foreach ($p as $file) {
-    var_dump($file->getFileName());
-    var_dump($file->isCompressed());
-    var_dump($file->isCompressed(Phar::BZ2));
-    var_dump($file->isCompressed(Phar::GZ));
+$p = new Phar('/путь/к/my.phar', 0, 'my.phar');
+$p['myfile.txt'] = 'привет';
+$p['myfile2.txt'] = 'привет';
+foreach ($p as $file) {
+    var_dump($file->getFileName());
+    var_dump($file->isCompressed());
+    var_dump($file->isCompressed(Phar::BZ2));
+    var_dump($file->isCompressed(Phar::GZ));
 }
 $p->compressFiles(Phar::GZ);
-foreach ($p as $file) {
-    var_dump($file->getFileName());
-    var_dump($file->isCompressed());
-    var_dump($file->isCompressed(Phar::BZ2));
-    var_dump($file->isCompressed(Phar::GZ));
+foreach ($p as $file) {
+    var_dump($file->getFileName());
+    var_dump($file->isCompressed());
+    var_dump($file->isCompressed(Phar::BZ2));
+    var_dump($file->isCompressed(Phar::GZ));
 }
 ?>
 ```

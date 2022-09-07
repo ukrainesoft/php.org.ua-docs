@@ -36,7 +36,7 @@ iterator_count(Traversable $iterator): int
 
 ```php
 <?php
-$iterator = new ArrayIterator(array('recipe'=>'pancakes', 'egg', 'milk', 'flour'));
+$iterator = new ArrayIterator(array('recipe'=>'pancakes', 'egg', 'milk', 'flour'));
 var_dump(iterator_count($iterator));
 ?>
 ```
@@ -51,7 +51,7 @@ int(4)
 
 ```php
 <?php
-$iterator = new ArrayIterator(['one', 'two', 'three']);
+$iterator = new ArrayIterator(['one', 'two', 'three']);
 var_dump($iterator->current());
 var_dump(iterator_count($iterator));
 var_dump($iterator->current());
@@ -70,9 +70,9 @@ NULL
 
 ```php
 <?php
-$iterator = new ArrayIterator(['one', 'two', 'three']);
-foreach ($iterator as $key => $value) {
-    echo "$key: $value (", iterator_count($iterator), ")\n";
+$iterator = new ArrayIterator(['one', 'two', 'three']);
+foreach ($iterator as $key => $value) {
+    echo "$key: $value (", iterator_count($iterator), ")\n";
 }?>
 ```
 

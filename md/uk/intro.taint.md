@@ -16,17 +16,17 @@ Taint - модуль, використовуваний визначення ко
 
 ```php
 <?php
-$a = trim($_GET['a']);
+$a = trim($_GET['a']);
 
-$file_name = '/tmp' .  $a;
-$output    = "Welcome, {$a} !!!";
-$var       = "output";
-$sql       = "Select *  from " . $a;
-$sql      .= "ooxx";
+$file_name = '/tmp' .  $a;
+$output    = "Welcome, {$a} !!!";
+$var       = "output";
+$sql       = "Select *  from " . $a;
+$sql      .= "ooxx";
 
-echo $output;
+echo $output;
 
-print $$var;
+print $$var;
 
 include($file_name);
 

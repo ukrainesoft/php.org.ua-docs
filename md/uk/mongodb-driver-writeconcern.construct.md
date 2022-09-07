@@ -75,15 +75,15 @@ final public MongoDB\Driver\WriteConcern::__construct(string|int $w, ?int $wtime
 ```php
 <?php
 
-/* Запрос подтверждения записи от большинства узлов набора реплик */
-$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 500);
+/* Запрос подтверждения записи от большинства узлов набора реплик */
+$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 500);
 
-/* Запрос подтверждения записи от узла, настроенного с тегом "MultipleDC" */
-$wc = new MongoDB\Driver\WriteConcern("MultipleDC", 500);
+/* Запрос подтверждения записи от узла, настроенного с тегом "MultipleDC" */
+$wc = new MongoDB\Driver\WriteConcern("MultipleDC", 500);
 
 ?>
 ```
 
 ### Дивіться також
 
--   [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

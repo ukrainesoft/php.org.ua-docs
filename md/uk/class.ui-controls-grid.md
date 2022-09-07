@@ -73,7 +73,7 @@ title: Елемент управління "Сітка" (розміщення)
 
     /* Методы */
     
-   public append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
+   public append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
 public isPadded(): bool
 public setPadded(bool $padding)
 

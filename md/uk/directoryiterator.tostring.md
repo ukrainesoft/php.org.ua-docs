@@ -37,9 +37,9 @@ public
 
 ```php
 <?php
-$dir = new DirectoryIterator(dirname(__FILE__));
-foreach ($dir as $fileinfo) {
-    echo $fileinfo;
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    echo $fileinfo;
 }
 ?>
 ```

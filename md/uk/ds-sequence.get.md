@@ -40,7 +40,7 @@ abstract public Ds\Sequence::get(int $index): mixed
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c"]);
+$sequence = new \Ds\Vector(["a", "b", "c"]);
 
 var_dump($sequence->get(0));
 var_dump($sequence->get(1));
@@ -60,7 +60,7 @@ string(1) "c"
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c"]);
+$sequence = new \Ds\Vector(["a", "b", "c"]);
 
 var_dump($sequence[0]);
 var_dump($sequence[1]);

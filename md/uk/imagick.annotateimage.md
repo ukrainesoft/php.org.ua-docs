@@ -15,7 +15,7 @@ Imagick::annotateImage — Додає текстовий коментар до �
 ### Опис
 
 ```methodsynopsis
-public Imagick::annotateImage(    ImagickDraw $draw_settings,    float $x,    float $y,    float $angle,    string $text): bool
+public Imagick::annotateImage(    ImagickDraw $draw_settings,    float $x,    float $y,    float $angle,    string $text): bool
 ```
 
 Додає текстовий коментар до зображення.
@@ -54,30 +54,30 @@ public Imagick::annotateImage(    ImagickDraw $draw_settings,    float $
 
 ```php
 <?php
-/* Создаём объекты */
-$image = new Imagick();
-$draw = new ImagickDraw();
-$pixel = new ImagickPixel( 'gray' );
+/* Создаём объекты */
+$image = new Imagick();
+$draw = new ImagickDraw();
+$pixel = new ImagickPixel( 'gray' );
 
-/* Новое изображение */
-$image->newImage(800, 75, $pixel);
+/* Новое изображение */
+$image->newImage(800, 75, $pixel);
 
-/* Чёрный текст */
+/* Чёрный текст */
 $draw->setFillColor('black');
 
-/* Настройки шрифта */
+/* Настройки шрифта */
 $draw->setFont('Bookman-DemiItalic');
-$draw->setFontSize( 30 );
+$draw->setFontSize( 30 );
 
-/* Создаём текст */
-$image->annotateImage($draw, 10, 45, 0, 'The quick brown fox jumps over the lazy dog');
+/* Создаём текст */
+$image->annotateImage($draw, 10, 45, 0, 'The quick brown fox jumps over the lazy dog');
 
-/* Устанавливаем формат изображения */
+/* Устанавливаем формат изображения */
 $image->setImageFormat('png');
 
-/* Выводим изображение с заголовками */
-header('Content-type: image/png');
-echo $image;
+/* Выводим изображение с заголовками */
+header('Content-type: image/png');
+echo $image;
 
 ?>
 ```

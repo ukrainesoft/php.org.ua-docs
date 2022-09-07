@@ -15,7 +15,7 @@ traderadosc - Осцилятор Чайкіна
 ### Опис
 
 ```methodsynopsis
-trader_adosc(    array $high,    array $low,    array $close,    array $volume,    int $fastPeriod = ?,    int $slowPeriod = ?): array
+trader_adosc(    array $high,    array $low,    array $close,    array $volume,    int $fastPeriod = ?,    int $slowPeriod = ?): array
 ```
 
 ### Список параметрів

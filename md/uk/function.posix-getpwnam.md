@@ -49,7 +49,7 @@ posix_getpwnam(string $username): array|false
 ```php
 <?php
 
-$userinfo = posix_getpwnam("tom");
+$userinfo = posix_getpwnam("tom");
 
 print_r($userinfo);
 ?>

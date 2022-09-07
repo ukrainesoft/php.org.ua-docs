@@ -38,7 +38,7 @@ msgfmt_set_pattern(MessageFormatter $formatter, string $pattern): bool
 
 `pattern`
 
-Рядок (string) шаблону для використання у цьому засобі форматування повідомлення. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
+Рядок (string) шаблону для використання у цьому засобі форматування повідомлення. У шаблоні використовується "дружній до апострофів" синтаксис; докладніше дивіться у розділі [» Quoting/Escaping](https://unicode-org.github.io/icu/userguide/format_parse/messages/#quotingescaping)
 
 ### Значення, що повертаються
 
@@ -50,13 +50,13 @@ msgfmt_set_pattern(MessageFormatter $formatter, string $pattern): bool
 
 ```php
 <?php
-$fmt = msgfmt_create( "en_US", "{0, number} monkeys on {1, number} trees" );
-echo "Default pattern: '" . msgfmt_get_pattern( $fmt ) . "'\n";
-echo "Formatting result: " . msgfmt_format( $fmt, array(123, 456) ) . "\n";
+$fmt = msgfmt_create( "en_US", "{0, number} monkeys on {1, number} trees" );
+echo "Default pattern: '" . msgfmt_get_pattern( $fmt ) . "'\n";
+echo "Formatting result: " . msgfmt_format( $fmt, array(123, 456) ) . "\n";
 
-msgfmt_set_pattern( $fmt, "{0, number} trees hosting {1, number} monkeys" );
-echo "New pattern: '" . msgfmt_get_pattern( $fmt ) . "'\n";
-echo "Formatted number: " . msgfmt_format( $fmt, array(123, 456) ) . "\n";
+msgfmt_set_pattern( $fmt, "{0, number} trees hosting {1, number} monkeys" );
+echo "New pattern: '" . msgfmt_get_pattern( $fmt ) . "'\n";
+echo "Formatted number: " . msgfmt_format( $fmt, array(123, 456) ) . "\n";
 ?>
 ```
 
@@ -64,13 +64,13 @@ echo "Formatted number: " . msgfmt_format( $fmt, array(123, 456) ) . 
 
 ```php
 <?php
-$fmt = new MessageFormatter( "en_US", "{0, number} monkeys on {1, number} trees" );
-echo "Default pattern: '" . $fmt->getPattern() . "'\n";
-echo "Formatting result: " . $fmt->format(array(123, 456)) . "\n";
+$fmt = new MessageFormatter( "en_US", "{0, number} monkeys on {1, number} trees" );
+echo "Default pattern: '" . $fmt->getPattern() . "'\n";
+echo "Formatting result: " . $fmt->format(array(123, 456)) . "\n";
 
-$fmt->setPattern("{0, number} trees hosting {1, number} monkeys" );
-echo "New pattern: '" . $fmt->getPattern() . "'\n";
-echo "Formatted number: " . $fmt->format(array(123, 456)) . "\n";
+$fmt->setPattern("{0, number} trees hosting {1, number} monkeys" );
+echo "New pattern: '" . $fmt->getPattern() . "'\n";
+echo "Formatted number: " . $fmt->format(array(123, 456)) . "\n";
 ?>
 ```
 

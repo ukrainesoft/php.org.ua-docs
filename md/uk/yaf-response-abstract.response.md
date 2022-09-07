@@ -32,9 +32,9 @@ public Yaf_Response_Abstract::response(): void
 
 ```php
 <?php
-$response = new Yaf_Response_Http();
+$response = new Yaf_Response_Http();
 
-$response->setBody("Привет")->setBody(", Мир", "footer");
+$response->setBody("Привет")->setBody(", Мир", "footer");
 
 $response->response();
 ?>

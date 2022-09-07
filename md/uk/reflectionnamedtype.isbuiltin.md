@@ -34,12 +34,12 @@ public ReflectionNamedType::isBuiltin(): bool
 
 ```php
 <?php
-class SomeClass {}
+class SomeClass {}
 
-function someFunction(string $param, SomeClass $param2, StdClass $param3) {}
+function someFunction(string $param, SomeClass $param2, StdClass $param3) {}
 
-$reflectionFunc = new ReflectionFunction('someFunction');
-$reflectionParams = $reflectionFunc->getParameters();
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParams = $reflectionFunc->getParameters();
 
 var_dump($reflectionParams[0]->getType()->isBuiltin());
 var_dump($reflectionParams[1]->getType()->isBuiltin());

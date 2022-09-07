@@ -41,12 +41,12 @@ sodium_crypto_core_ristretto255_scalar_negate(string $s): string
 ```php
 <?php
 
-$foo = sodium_crypto_core_ristretto255_scalar_random();
+$foo = sodium_crypto_core_ristretto255_scalar_random();
 
-$negate = sodium_crypto_core_ristretto255_scalar_negate($foo);
-$reNegate = sodium_crypto_core_ristretto255_scalar_negate($negate);
+$negate = sodium_crypto_core_ristretto255_scalar_negate($foo);
+$reNegate = sodium_crypto_core_ristretto255_scalar_negate($negate);
 
-var_dump(hash_equals($foo, $reNegate));
+var_dump(hash_equals($foo, $reNegate));
 ?>
 ```
 

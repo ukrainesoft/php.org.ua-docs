@@ -71,8 +71,8 @@ title: Нові можливості
 ```php
 <?php
 mb_strtoupper("Straße");
-// Выведет STRAßE в PHP 7.2
-// Выведет STRASSE в PHP 7.3
+// Выведет STRAßE в PHP 7.2
+// Выведет STRASSE в PHP 7.3
 ?>
 ```
 
@@ -115,8 +115,8 @@ mb_strtoupper("Straße");
 
 ```php
 <?php
-mb_ereg('(?<word>\w+)', '国', $matches);
-// => [0 => "国", 1 => "国", "word" => "国"];
+mb_ereg('(?<word>\w+)', '国', $matches);
+// => [0 => "国", 1 => "国", "word" => "国"];
 ?>
 ```
 
@@ -124,8 +124,8 @@ mb_ereg('(?<word>\w+)', '国', $matches);
 
 ```php
 <?php
-mb_ereg_replace('\s*(?<word>\w+)\s*', "_\k<word>_\k'word'_", ' foo ');
-// => "_foo_foo_"
+mb_ereg_replace('\s*(?<word>\w+)\s*', "_\k<word>_\k'word'_", ' foo ');
+// => "_foo_foo_"
 ?>
 ```
 

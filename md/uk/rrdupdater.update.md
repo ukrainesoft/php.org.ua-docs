@@ -46,9 +46,9 @@ public RRDUpdater::update(array $values, string $time
 
 ```php
 <?php
-$updator = new RRDUpdater("speed.rrd");
-//обновляет источник данных "speed" значением "12411"
-//для времени заданного временной меткой timestamp "920807700"
-$updator->update(array("speed" => "12411"), "920807700");
+$updator = new RRDUpdater("speed.rrd");
+//обновляет источник данных "speed" значением "12411"
+//для времени заданного временной меткой timestamp "920807700"
+$updator->update(array("speed" => "12411"), "920807700");
 ?>
 ```

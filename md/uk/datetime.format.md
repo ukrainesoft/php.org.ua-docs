@@ -102,7 +102,7 @@ date_format(DateTimeInterface $object, string $format): string
 | `Z` | Зміщення часового поясу за секунди. Для часових поясів, розташованих на захід від UTC, повертаються негативні числа, а для розташованих на схід від UTC - позитивні. | від `-43200` до `50400` |
 | *Повна дата/час* |  |  |
 | `c` | Дата у форматі стандарту ISO 8601 | 2004-02-12T15:19:21+00:00 |
-| `r` | Дата у форматі [» RFC 222](http://www.faqs.org/rfcs/rfc2822)[» RFC 5322](http://www.faqs.org/rfcs/rfc5322) | Наприклад: `Thu, 21 Dec 2000 16:01:07 +0200` |
+| `r` | Дата у форматі [» RFC 222](http://www.faqs.org/rfcs/rfc2822)[» RFC 5322](http://www.faqs.org/rfcs/rfc5322) | Наприклад: `Thu, 21 Dec 2000 16:01:07 +0200` |
 | `U` | Кількість секунд, що минули з початку Епохи Unix (1 січня 1970 00:00:00 GMT) | Дивіться також [time()](function.time.md) |
 
 Будь-які інші символи, зустрінуті в рядку-шаблоні, будуть виведені в результуючий рядок без змін . `Z` завжди повертає `0` при використанні [gmdate()](function.gmdate.md)
@@ -131,8 +131,8 @@ date_format(DateTimeInterface $object, string $format): string
 
 ```php
 <?php
-$date = new DateTime('2000-01-01');
-echo $date->format('Y-m-d H:i:s');
+$date = new DateTime('2000-01-01');
+echo $date->format('Y-m-d H:i:s');
 ?>
 ```
 
@@ -140,8 +140,8 @@ echo $date->format('Y-m-d H:i:s');
 
 ```php
 <?php
-$date = date_create('2000-01-01');
-echo date_format($date, 'Y-m-d H:i:s');
+$date = date_create('2000-01-01');
+echo date_format($date, 'Y-m-d H:i:s');
 ?>
 ```
 

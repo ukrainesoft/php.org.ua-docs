@@ -15,7 +15,7 @@ tradercdlonneck - Паттерн "У лінії шиї"
 ### Опис
 
 ```methodsynopsis
-trader_cdlonneck(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlonneck(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

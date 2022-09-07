@@ -53,27 +53,27 @@ public DOMImplementation::createDocumentType(string $qualifiedName, string $publ
 ```php
 <?php
 
-// Создаёт экземпляр класса DOMImplementation
-$imp = new DOMImplementation;
+// Создаёт экземпляр класса DOMImplementation
+$imp = new DOMImplementation;
 
-// Создаёт экземпляр класса DOMDocumentType
-$dtd = $imp->createDocumentType('graph', '', 'graph.dtd');
+// Создаёт экземпляр класса DOMDocumentType
+$dtd = $imp->createDocumentType('graph', '', 'graph.dtd');
 
-// Создаёт объект DOMDocument
-$dom = $imp->createDocument("", "", $dtd);
+// Создаёт объект DOMDocument
+$dom = $imp->createDocument("", "", $dtd);
 
-// Установка других параметров
-$dom->encoding = 'UTF-8';
-$dom->standalone = false;
+// Установка других параметров
+$dom->encoding = 'UTF-8';
+$dom->standalone = false;
 
-// Создание пустого элемента
-$element = $dom->createElement('graph');
+// Создание пустого элемента
+$element = $dom->createElement('graph');
 
-// Добавление элемента
+// Добавление элемента
 $dom->appendChild($element);
 
-// Получение и печать документа
-echo $dom->saveXML();
+// Получение и печать документа
+echo $dom->saveXML();
 
 ?>
 ```

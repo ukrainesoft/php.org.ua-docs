@@ -35,16 +35,16 @@ public
 
 ```php
 <?php
-// Игнорируем метод "select"
-$cfg = new EventConfig();
-if ($cfg->avoidMethod("select")) {
-    echo "Метод 'select' будет игнорироваться\n";
+// Игнорируем метод "select"
+$cfg = new EventConfig();
+if ($cfg->avoidMethod("select")) {
+    echo "Метод 'select' будет игнорироваться\n";
 }
 
-// Создаём event_base, связанный с этим конфигом
-$base = new EventBase($cfg);
+// Создаём event_base, связанный с этим конфигом
+$base = new EventBase($cfg);
 
-/* Теперь $base настроен на игнорирование метода select (бэкенд) */
+/* Теперь $base настроен на игнорирование метода select (бэкенд) */
 ?>
 ```
 

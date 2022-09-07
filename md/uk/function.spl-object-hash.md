@@ -36,8 +36,8 @@ spl_object_hash(object $object): string
 
 ```php
 <?php
-$id = spl_object_hash($object);
-$storage[$id] = $object;
+$id = spl_object_hash($object);
+$storage[$id] = $object;
 ?>
 ```
 

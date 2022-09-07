@@ -40,13 +40,13 @@ field name
 
 ```php
 <?php
-$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery = new SolrDisMaxQuery("lucene");
 $dismaxQuery
-    ->addPhraseField('cat', 3, 1)
-    ->addPhraseField('third', 4, 2)
-    ->addPhraseField('source', 55)
+    ->addPhraseField('cat', 3, 1)
+    ->addPhraseField('third', 4, 2)
+    ->addPhraseField('source', 55)
 ;
-echo $dismaxQuery;
+echo $dismaxQuery;
 ?>
 ```
 

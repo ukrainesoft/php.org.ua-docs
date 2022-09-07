@@ -40,10 +40,10 @@ db2_close(resource $connection): bool
 
 ```php
 <?php
-$conn = db2_connect('SAMPLE', 'db2inst1', 'ibmdb2');
-$rc = db2_close($conn);
-if ($rc) {
-    echo "Соединение закрыто.";
+$conn = db2_connect('SAMPLE', 'db2inst1', 'ibmdb2');
+$rc = db2_close($conn);
+if ($rc) {
+    echo "Соединение закрыто.";
 }
 ?>
 ```

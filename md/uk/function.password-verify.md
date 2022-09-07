@@ -44,13 +44,13 @@ password_verify(string $password, string $hash): bool
 
 ```php
 <?php
-// Смотрите пример использования password_hash(), для понимания откуда это взялось.
-$hash = '$2y$07$BCryptRequires22Chrcte/VlQH0piJtjXl.0t1XkA8pw9dMXTpOq';
+// Смотрите пример использования password_hash(), для понимания откуда это взялось.
+$hash = '$2y$07$BCryptRequires22Chrcte/VlQH0piJtjXl.0t1XkA8pw9dMXTpOq';
 
-if (password_verify('rasmuslerdorf', $hash)) {
-    echo 'Пароль правильный!';
-} else {
-    echo 'Пароль неправильный.';
+if (password_verify('rasmuslerdorf', $hash)) {
+    echo 'Пароль правильный!';
+} else {
+    echo 'Пароль неправильный.';
 }
 ?>
 ```
@@ -64,5 +64,5 @@ if (password_verify('rasmuslerdorf', $hash)) {
 ### Дивіться також
 
 -   [passwordhash()](function.password-hash.md) - Створює хеш пароля
--   [» користувацька реалізація](https://github.com/ircmaxell/password_compat)
+-   [» користувацька реалізація](https://github.com/ircmaxell/password_compat)
 -   [sodiumcryptopwhashstrverify()](function.sodium-crypto-pwhash-str-verify.md) - Перевіряє, що пароль відповідає хешу

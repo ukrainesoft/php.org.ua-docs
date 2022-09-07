@@ -66,7 +66,7 @@ final public encrypt(mixed $value, ?array $options = null): MongoDB\BSON\Binary
 
 **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC`**
 
-Визначає алгоритм для [» детермінованого шифрування](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#deterministic-encryption)який підходить для запитів.
+Визначає алгоритм для [» детермінованого шифрування](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#deterministic-encryption)який підходить для запитів.
 
 **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM`**
 
@@ -86,7 +86,7 @@ final public encrypt(mixed $value, ?array $options = null): MongoDB\BSON\Binary
 
 Визначає тип запиту рівності, який використовується у поєднанні з **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**
 
-> **Зауваження**: Queryable Encryption знаходиться в стадії публічного перегляду і доступний для ознайомлювальних цілей. Його поки що не рекомендується використовувати для розгортань у продакшені, оскільки можуть бути внесені зміни. Додаткову інформацію дивіться у блозі [» Queryable Encryption Preview](https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/)
+> **Зауваження**: Queryable Encryption знаходиться в стадії публічного перегляду і доступний для ознайомлювальних цілей. Його поки що не рекомендується використовувати для розгортань у продакшені, оскільки можуть бути внесені зміни. Додаткову інформацію дивіться у блозі [» Queryable Encryption Preview](https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/)
 
 ## список змін
 

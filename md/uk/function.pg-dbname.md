@@ -47,9 +47,9 @@ pg_dbname(?PgSql\Connection $connection = null): string
 
 ```php
 <?php
-  error_reporting(E_ALL);
+  error_reporting(E_ALL);
 
-  pg_connect("host=localhost port=5432 dbname=mary");
-  echo pg_dbname(); // mary
+  pg_connect("host=localhost port=5432 dbname=mary");
+  echo pg_dbname(); // mary
 ?>
 ```

@@ -15,7 +15,7 @@ tradercdlbelthold - Захоплення за пояс
 ### Опис
 
 ```methodsynopsis
-trader_cdlbelthold(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlbelthold(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

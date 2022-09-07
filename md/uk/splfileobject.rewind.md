@@ -38,16 +38,16 @@ public SplFileObject::rewind(): void
 
 ```php
 <?php
-$file = new SplFileObject("misc.txt");
+$file = new SplFileObject("misc.txt");
 
-// Проход по всему файлу
-foreach ($file as $line) { }
+// Проход по всему файлу
+foreach ($file as $line) { }
 
-// Перемотка на первую строку
+// Перемотка на первую строку
 $file->rewind();
 
-// Вывод первой строки
-echo $file->current();
+// Вывод первой строки
+echo $file->current();
 ?>
 ```
 

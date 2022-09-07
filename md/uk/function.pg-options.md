@@ -47,8 +47,8 @@ pg_options(?PgSql\Connection $connection = null): string
 
 ```php
 <?php
-   $pgsql_conn = pg_connect("dbname=mark host=localhost");
-   echo pg_options($pgsql_conn);
+   $pgsql_conn = pg_connect("dbname=mark host=localhost");
+   echo pg_options($pgsql_conn);
 ?>
 ```
 

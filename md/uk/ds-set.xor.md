@@ -34,7 +34,7 @@ public Ds\Set::xor(Ds\Set $set): Ds\Set
 
 ### Також дивіться
 
--   [» Симетрична різниця](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
+-   [» Симетрична різниця](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
 
 ### Приклади
 
@@ -42,8 +42,8 @@ public Ds\Set::xor(Ds\Set $set): Ds\Set
 
 ```php
 <?php
-$a = new \Ds\Set([1, 2, 3]);
-$b = new \Ds\Set([3, 4, 5]);
+$a = new \Ds\Set([1, 2, 3]);
+$b = new \Ds\Set([3, 4, 5]);
 
 var_dump($a->xor($b));
 ?>

@@ -34,7 +34,7 @@ public Ds\Map::diff(Ds\Map $map): Ds\Map
 
 ### Дивись також
 
--   [» Різниця масивів](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Wikipedia
+-   [» Різниця масивів](https://en.wikipedia.org/wiki/Complement_(set_theory)) на Wikipedia
 
 ### Приклади
 
@@ -42,8 +42,8 @@ public Ds\Map::diff(Ds\Map $map): Ds\Map
 
 ```php
 <?php
-$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
-$b = new \Ds\Map(["b" => 4, "c" => 5, "d" => 6]);
+$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$b = new \Ds\Map(["b" => 4, "c" => 5, "d" => 6]);
 
 var_dump($a->diff($b));
 ?>

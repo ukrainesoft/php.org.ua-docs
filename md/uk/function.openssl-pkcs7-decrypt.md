@@ -15,7 +15,7 @@ opensslpkcs7decrypt — Розшифрувати повідомлення, за�
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs7_decrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string|null $private_key = null): bool
+openssl_pkcs7_decrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|string $certificate,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string|null $private_key = null): bool
 ```
 
 Розшифровує повідомлення, зашифроване S/MIME, що міститься у файлі `input_filename`, з використанням сертифіката `certificate` та відповідного закритого ключа `private_key`
@@ -48,14 +48,14 @@ openssl_pkcs7_decrypt(    string $input_filename,    string $output_file
 
 ```php
 <?php
-// $cert и $key содержат пару с личным сертификатом и закрытым ключом
-$infilename = "encrypted.msg";  // в этом файле зашифрованное сообщение
-$outfilename = "decrypted.msg"; // убедитесь, что у вас есть права на запись
+// $cert и $key содержат пару с личным сертификатом и закрытым ключом
+$infilename = "encrypted.msg";  // в этом файле зашифрованное сообщение
+$outfilename = "decrypted.msg"; // убедитесь, что у вас есть права на запись
 
-if (openssl_pkcs7_decrypt($infilename, $outfilename, $cert, $key)) {
-    echo "расшифровано!";
-} else {
-    echo "возникла ошибка при расшифровке!";
+if (openssl_pkcs7_decrypt($infilename, $outfilename, $cert, $key)) {
+    echo "расшифровано!";
+} else {
+    echo "возникла ошибка при расшифровке!";
 }
 ?>
 ```

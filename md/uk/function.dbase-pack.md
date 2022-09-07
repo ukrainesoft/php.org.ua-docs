@@ -43,16 +43,16 @@ dbase_pack(resource $database): bool
 ```php
 <?php
 
-// открываем в режиме чтения и записи
-$db = dbase_open('/tmp/test.dbf', 2);
+// открываем в режиме чтения и записи
+$db = dbase_open('/tmp/test.dbf', 2);
 
-if ($db) {
-  $record_numbers = dbase_numrecords($db);
-  for ($i = 1; $i <= $record_numbers; $i++) {
-      dbase_delete_record($db, $i);
-  }
-  // стираем базу
-  dbase_pack($db);
+if ($db) {
+  $record_numbers = dbase_numrecords($db);
+  for ($i = 1; $i <= $record_numbers; $i++) {
+      dbase_delete_record($db, $i);
+  }
+  // стираем базу
+  dbase_pack($db);
 }
 
 ?>

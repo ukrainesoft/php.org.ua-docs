@@ -36,9 +36,9 @@ array_key_first(array $array): int|string|null
 
 ```php
 <?php
-$array = ['a' => 1, 'b' => 2, 'c' => 3];
+$array = ['a' => 1, 'b' => 2, 'c' => 3];
 
-$firstKey = array_key_first($array);
+$firstKey = array_key_first($array);
 
 var_dump($firstKey);
 ?>
@@ -58,13 +58,13 @@ string(1) "a"
 
 ```php
 <?php
-if (!function_exists('array_key_first')) {
-    function array_key_first(array $arr) {
-        foreach($arr as $key => $unused) {
-            return $key;
-        }
-        return NULL;
-    }
+if (!function_exists('array_key_first')) {
+    function array_key_first(array $arr) {
+        foreach($arr as $key => $unused) {
+            return $key;
+        }
+        return NULL;
+    }
 }
 ?>
 ```

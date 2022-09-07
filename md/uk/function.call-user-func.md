@@ -39,23 +39,23 @@ call_user_func(callable $callback, mixed ...$args): mixed
 > ```php
 > <?php
 > error_reporting(E_ALL);
-> function increment(&$var)
+> function increment(&$var)
 > {
->     $var++;
+>     $var++;
 > }
 > 
-> $a = 0;
-> call_user_func('increment', $a);
-> echo $a."\n";
+> $a = 0;
+> call_user_func('increment', $a);
+> echo $a."\n";
 > 
-> // Вместо этого можно использовать этот способ
-> call_user_func_array('increment', array(&$a));
-> echo $a."\n";
+> // Вместо этого можно использовать этот способ
+> call_user_func_array('increment', array(&$a));
+> echo $a."\n";
 > 
-> // Также можно использовать функцию в качестве переменной
-> $increment = 'increment';
+> // Также можно использовать функцию в качестве переменной
+> $increment = 'increment';
 > $increment($a);
-> echo $a."\n";
+> echo $a."\n";
 > ?>
 > ```
 > 
@@ -78,12 +78,12 @@ call_user_func(callable $callback, mixed ...$args): mixed
 
 ```php
 <?php
-function barber($type)
+function barber($type)
 {
-    echo "Вы хотели стрижку $type, без проблем\n";
+    echo "Вы хотели стрижку $type, без проблем\n";
 }
-call_user_func('barber', "под горшок");
-call_user_func('barber', "наголо");
+call_user_func('barber', "под горшок");
+call_user_func('barber', "наголо");
 ?>
 ```
 
@@ -99,16 +99,16 @@ call_user_func('barber', "наголо");
 ```php
 <?php
 
-namespace Foobar;
+namespace Foobar;
 
-class Foo {
-    static public function test() {
-        print "Привет, мир!\n";
-    }
+class Foo {
+    static public function test() {
+        print "Привет, мир!\n";
+    }
 }
 
-call_user_func(__NAMESPACE__ .'\Foo::test');
-call_user_func(array(__NAMESPACE__ .'\Foo', 'test'));
+call_user_func(__NAMESPACE__ .'\Foo::test');
+call_user_func(array(__NAMESPACE__ .'\Foo', 'test'));
 
 ?>
 ```
@@ -125,21 +125,21 @@ call_user_func(array(__NAMESPACE__ .'\Foo', 'test'));
 ```php
 <?php
 
-class myclass {
-    static function say_hello()
-    {
-        echo "Привет!\n";
-    }
+class myclass {
+    static function say_hello()
+    {
+        echo "Привет!\n";
+    }
 }
 
-$classname = "myclass";
+$classname = "myclass";
 
-call_user_func(array($classname, 'say_hello'));
-call_user_func($classname .'::say_hello');
+call_user_func(array($classname, 'say_hello'));
+call_user_func($classname .'::say_hello');
 
-$myobject = new myclass();
+$myobject = new myclass();
 
-call_user_func(array($myobject, 'say_hello'));
+call_user_func(array($myobject, 'say_hello'));
 
 ?>
 ```
@@ -156,7 +156,7 @@ call_user_func(array($myobject, 'say_hello'));
 
 ```php
 <?php
-call_user_func(function($arg) { print "[$arg]\n"; }, 'test');
+call_user_func(function($arg) { print "[$arg]\n"; }, 'test');
 ?>
 ```
 

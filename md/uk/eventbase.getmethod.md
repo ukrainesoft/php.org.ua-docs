@@ -33,14 +33,14 @@ public
 
 ```php
 <?php
-$cfg = new EventConfig();
-if ($cfg->avoidMethod("select")) {
-    echo "Метод 'select' будет игнорироваться\n";
+$cfg = new EventConfig();
+if ($cfg->avoidMethod("select")) {
+    echo "Метод 'select' будет игнорироваться\n";
 }
 
-// Создаём базу событий, с конфигурацией
-$base = new EventBase($cfg);
-echo "Используемый метод события: ", $base->getMethod(), PHP_EOL;
+// Создаём базу событий, с конфигурацией
+$base = new EventBase($cfg);
+echo "Используемый метод события: ", $base->getMethod(), PHP_EOL;
 
 ?>
 ```

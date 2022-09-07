@@ -55,19 +55,19 @@ datefmt_localtime(IntlDateFormatter $formatter, string $string, int &$offset = n
 ```php
 <?php
 
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-$arr = datefmt_localtime($fmt, 'Wednesday, December 31, 1969 4:00:00 PM PT', 0);
-echo 'Преобразованный вывод: ';
-if ($arr) {
-    foreach ($arr as $key => $value) {
-        echo "$key : $value , ";
-    }
+$arr = datefmt_localtime($fmt, 'Wednesday, December 31, 1969 4:00:00 PM PT', 0);
+echo 'Преобразованный вывод: ';
+if ($arr) {
+    foreach ($arr as $key => $value) {
+        echo "$key : $value , ";
+    }
 }
 
 ?>
@@ -77,19 +77,19 @@ if ($arr) {
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-$arr = $fmt->localtime('Wednesday, December 31, 1969 4:00:00 PM PT', 0);
-echo 'Преобразованный вывод: ';
-if ($arr) {
-    foreach ($arr as $key => $value) {
-        echo "$key : $value , ";
-    }
+$arr = $fmt->localtime('Wednesday, December 31, 1969 4:00:00 PM PT', 0);
+echo 'Преобразованный вывод: ';
+if ($arr) {
+    foreach ($arr as $key => $value) {
+        echo "$key : $value , ";
+    }
 }
 
 ?>

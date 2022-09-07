@@ -44,22 +44,22 @@ public Imagick::filter(ImagickKernel $ImagickKernel, int $channel = Imagick::CHA
 
 ```php
 <?php
-function filter($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $matrix = [
-        [-1, 0, -1],
-        [0,  5,  0],
-        [-1, 0, -1],
-    ];
+function filter($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $matrix = [
+        [-1, 0, -1],
+        [0,  5,  0],
+        [-1, 0, -1],
+    ];
 
-    $kernel = \ImagickKernel::fromMatrix($matrix);
-    $strength = 0.5;
-    $kernel->scale($strength, \Imagick::NORMALIZE_KERNEL_VALUE);
-    $kernel->addUnityKernel(1 - $strength);
+    $kernel = \ImagickKernel::fromMatrix($matrix);
+    $strength = 0.5;
+    $kernel->scale($strength, \Imagick::NORMALIZE_KERNEL_VALUE);
+    $kernel->addUnityKernel(1 - $strength);
 
-    $imagick->filter($kernel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    $imagick->filter($kernel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

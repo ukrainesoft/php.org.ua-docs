@@ -36,12 +36,12 @@ public SyncEvent::wait(int $wait = -1): bool
 
 ```php
 <?php
-// В веб-приложении:
-$event = new SyncEvent("GetAppReport");
+// В веб-приложении:
+$event = new SyncEvent("GetAppReport");
 $event->fire();
 
-// В задании cron:
-$event = new SyncEvent("GetAppReport");
+// В задании cron:
+$event = new SyncEvent("GetAppReport");
 $event->wait();
 ?>
 ```

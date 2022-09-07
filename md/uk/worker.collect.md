@@ -36,21 +36,21 @@ public Worker::collect(Callable $collector = ?): int
 
 ```php
 <?php
-$worker = new Worker();
+$worker = new Worker();
 
-echo "Сейчас на стеке {$worker->collect()} задач, которые нужно собрать\n";
+echo "Сейчас на стеке {$worker->collect()} задач, которые нужно собрать\n";
 
-for ($i = 0; $i < 15; ++$i) {
-    $worker->stack(new class extends Threaded {});
+for ($i = 0; $i < 15; ++$i) {
+    $worker->stack(new class extends Threaded {});
 }
 
-echo "На стеке {$worker->collect()} задач, которые нужно собрать\n";
+echo "На стеке {$worker->collect()} задач, которые нужно собрать\n";
 
 $worker->start();
 
-while ($worker->collect()); // ждём, пока все задачи не завершат исполнение
+while ($worker->collect()); // ждём, пока все задачи не завершат исполнение
 
-echo "Теперь на стеке {$worker->collect()} задач, ждущих, когда их соберут\n";
+echo "Теперь на стеке {$worker->collect()} задач, ждущих, когда их соберут\n";
 
 $worker->shutdown();
 ```

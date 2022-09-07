@@ -50,7 +50,7 @@ rename(string $from, string $to, ?resource $context = null): bool
 
 ```php
 <?php
-rename("/tmp/tmp_file.txt", "/home/user/login/docs/my_file.txt");
+rename("/tmp/tmp_file.txt", "/home/user/login/docs/my_file.txt");
 ?>
 ```
 

@@ -57,12 +57,12 @@ ID вікна HWND.
 
 ```php
 <?php
-$browser = new COM("InternetExplorer.Application");
-$handle = $browser->HWND;
-$browser->Visible = true;
-$im = imagegrabwindow($handle);
+$browser = new COM("InternetExplorer.Application");
+$handle = $browser->HWND;
+$browser->Visible = true;
+$im = imagegrabwindow($handle);
 $browser->Quit();
-imagepng($im, "iesnap.png");
+imagepng($im, "iesnap.png");
 imagedestroy($im);
 ?>
 ```
@@ -71,18 +71,18 @@ imagedestroy($im);
 
 ```php
 <?php
-$browser = new COM("InternetExplorer.Application");
-$handle = $browser->HWND;
-$browser->Visible = true;
+$browser = new COM("InternetExplorer.Application");
+$handle = $browser->HWND;
+$browser->Visible = true;
 $browser->Navigate("http://www.libgd.org");
 
-/* ещё работает? */
-while ($browser->Busy) {
-    com_message_pump(4000);
+/* ещё работает? */
+while ($browser->Busy) {
+    com_message_pump(4000);
 }
-$im = imagegrabwindow($handle, 0);
+$im = imagegrabwindow($handle, 0);
 $browser->Quit();
-imagepng($im, "iesnap.png");
+imagepng($im, "iesnap.png");
 imagedestroy($im);
 ?>
 ```

@@ -42,14 +42,14 @@ getimagesizefromstring(string $string, array &$image_info = null): array|false
 
 ```php
 <?php
-$img = '/path/to/test.png';
+$img = '/path/to/test.png';
 
-// Открыть как файл
-$size_info1 = getimagesize($img);
+// Открыть как файл
+$size_info1 = getimagesize($img);
 
-// Открыть как строку
-$data       = file_get_contents($img);
-$size_info2 = getimagesizefromstring($data);
+// Открыть как строку
+$data       = file_get_contents($img);
+$size_info2 = getimagesizefromstring($data);
 ?>
 ```
 

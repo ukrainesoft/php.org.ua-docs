@@ -94,28 +94,28 @@ cubrid_fetch_field(resource $result, int $field_offset = 0): object
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$req = cubrid_execute($conn, "SELECT event_code,athlete_code,nation_code,game_date FROM game WHERE host_year=1988 and event_code=20001;");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$req = cubrid_execute($conn, "SELECT event_code,athlete_code,nation_code,game_date FROM game WHERE host_year=1988 and event_code=20001;");
 
 var_dump(cubrid_fetch_row($req));
 
-cubrid_field_seek($req, 1);
-$field = cubrid_fetch_field($req);
+cubrid_field_seek($req, 1);
+$field = cubrid_fetch_field($req);
 
-printf("\n--- Field Properties ---\n");
-printf("%-30s %s\n", "имя столбца:", $field->name);
-printf("%-30s %s\n", "имя таблицы:", $field->table);
-printf("%-30s \"%s\"\n", "значение столбца по умолчанию:", $field->def);
-printf("%-30s %d\n", "максимальная длина столбца:", $field->max_length);
-printf("%-30s %d\n", "не может быть NULL:", $field->not_null);
-printf("%-30s %d\n", "является первичным ключом:", $field->primary_key);
-printf("%-30s %d\n", "является уникальным ключом:", $field->unique_key);
-printf("%-30s %d\n", "является неуникальным ключом:", $field->multiple_key);
-printf("%-30s %d\n", "содержит числовое значение:", $field->numeric);
-printf("%-30s %d\n", "содержит BLOB:", $field->blob);
-printf("%-30s %s\n", "тип столбца:", $field->type);
-printf("%-30s %d\n", "беззнаковый тип:", $field->unsigned);
-printf("%-30s %d\n", "дополняется нулями:", $field->zerofill);
+printf("\n--- Field Properties ---\n");
+printf("%-30s %s\n", "имя столбца:", $field->name);
+printf("%-30s %s\n", "имя таблицы:", $field->table);
+printf("%-30s \"%s\"\n", "значение столбца по умолчанию:", $field->def);
+printf("%-30s %d\n", "максимальная длина столбца:", $field->max_length);
+printf("%-30s %d\n", "не может быть NULL:", $field->not_null);
+printf("%-30s %d\n", "является первичным ключом:", $field->primary_key);
+printf("%-30s %d\n", "является уникальным ключом:", $field->unique_key);
+printf("%-30s %d\n", "является неуникальным ключом:", $field->multiple_key);
+printf("%-30s %d\n", "содержит числовое значение:", $field->numeric);
+printf("%-30s %d\n", "содержит BLOB:", $field->blob);
+printf("%-30s %s\n", "тип столбца:", $field->type);
+printf("%-30s %d\n", "беззнаковый тип:", $field->unsigned);
+printf("%-30s %d\n", "дополняется нулями:", $field->zerofill);
 
 cubrid_close_request($req);
 

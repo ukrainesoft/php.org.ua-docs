@@ -15,7 +15,7 @@ title: псshading
 ### Опис
 
 ```methodsynopsis
-ps_shading(    resource $psdoc,    string $type,    float $x0,    float $y0,    float $x1,    float $y1,    float $c1,    float $c2,    float $c3,    float $c4,    string $optlist): int|false
+ps_shading(    resource $psdoc,    string $type,    float $x0,    float $y0,    float $x1,    float $y1,    float $c1,    float $c2,    float $c3,    float $c4,    string $optlist): int|false
 ```
 
 Створює затінення, яке можна використовувати функцією [псshfill()](function.ps-shfill.md) або [псshadingpattern()](function.ps-shading-pattern.md)

@@ -15,7 +15,7 @@ imagecopy — Копіювання частини зображення
 ### Опис
 
 ```methodsynopsis
-imagecopy(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $src_width,    int $src_height): bool
+imagecopy(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $src_width,    int $src_height): bool
 ```
 
 Копіює частину `src_image` в `dst_image`починаючи з координат x, y `src_x` `src_y` із шириною `src_width` та заввишки `src_h`. Скопійована частина міститься на координати `dst_x` і `dst_y`
@@ -70,15 +70,15 @@ y-координата вихідного зображення.
 
 ```php
 <?php
-// Создание изображений
-$src = imagecreatefromgif('php.gif');
-$dest = imagecreatetruecolor(80, 40);
+// Создание изображений
+$src = imagecreatefromgif('php.gif');
+$dest = imagecreatetruecolor(80, 40);
 
-// Копирование
-imagecopy($dest, $src, 0, 0, 20, 13, 80, 40);
+// Копирование
+imagecopy($dest, $src, 0, 0, 20, 13, 80, 40);
 
-// Вывод и освобождение памяти
-header('Content-Type: image/gif');
+// Вывод и освобождение памяти
+header('Content-Type: image/gif');
 imagegif($dest);
 
 imagedestroy($dest);

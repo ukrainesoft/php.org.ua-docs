@@ -18,7 +18,7 @@ MongoDBDriverServer::isSecondary — Перевіряє, чи є сервер д
 final public MongoDB\Driver\Server::isSecondary(): bool
 ```
 
-Повертає, чи є цей сервер [» другорядним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-secondary) набір реплік.
+Повертає, чи є цей сервер [» другорядним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-secondary) набір реплік.
 
 ### Список параметрів
 

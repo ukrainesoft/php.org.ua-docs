@@ -15,7 +15,7 @@ sqlsrvquery — Підготовка та виконання запиту
 ### Опис
 
 ```methodsynopsis
-sqlsrv_query(    resource $conn,    string $sql,    array $params = ?,    array $options = ?): mixed
+sqlsrv_query(    resource $conn,    string $sql,    array $params = ?,    array $options = ?): mixed
 ```
 
 Підготовляє та виконує запит.
@@ -59,7 +59,7 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = 
 | --- | --- | --- |
 | QueryTimeout | Позитивне ціле значення. | Встановлює час очікування в секундах. За замовчуванням драйвер чекатиме на результати нескінченно. |
 | SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`** | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **`true`**. Для отримання додаткової інформації дивіться [sqlsrvsendstreamdata()](function.sqlsrv-send-stream-data.md) |
-| Scrollable | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV. |
+| Scrollable | SQLSRVCURSORFORWARD, SQLSRVCURSORSTATIC, SQLSRVCURSORDYNAMIC, або SQLSRVCURSORKEYSET | Дивіться [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV. |
 
 ### Значення, що повертаються
 
@@ -71,19 +71,19 @@ sqlsrv_query(    resource $conn,    string $sql,    array $params = 
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "INSERT INTO Table_1 (id, data) VALUES (?, ?)";
-$params = array(1, "some data");
+$sql = "INSERT INTO Table_1 (id, data) VALUES (?, ?)";
+$params = array(1, "some data");
 
-$stmt = sqlsrv_query( $conn, $sql, $params);
-if( $stmt === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$stmt = sqlsrv_query( $conn, $sql, $params);
+if( $stmt === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 ?>
 ```

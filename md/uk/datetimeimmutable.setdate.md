@@ -50,9 +50,9 @@ public DateTimeImmutable::setDate(int $year, int $month, int $day): DateTimeImmu
 
 ```php
 <?php
-$date = new DateTimeImmutable();
-$newDate = $date->setDate(2001, 2, 3);
-echo $newDate->format('Y-m-d');
+$date = new DateTimeImmutable();
+$newDate = $date->setDate(2001, 2, 3);
+echo $newDate->format('Y-m-d');
 ?>
 ```
 
@@ -66,16 +66,16 @@ echo $newDate->format('Y-m-d');
 
 ```php
 <?php
-$date = new DateTimeImmutable();
+$date = new DateTimeImmutable();
 
-$newDate = $date->setDate(2001, 2, 28);
-echo $newDate->format('Y-m-d') . "\n";
+$newDate = $date->setDate(2001, 2, 28);
+echo $newDate->format('Y-m-d') . "\n";
 
-$newDate = $date->setDate(2001, 2, 29);
-echo $newDate->format('Y-m-d') . "\n";
+$newDate = $date->setDate(2001, 2, 29);
+echo $newDate->format('Y-m-d') . "\n";
 
-$newDate = $date->setDate(2001, 14, 3);
-echo $newDate->format('Y-m-d') . "\n";
+$newDate = $date->setDate(2001, 14, 3);
+echo $newDate->format('Y-m-d') . "\n";
 ?>
 ```
 

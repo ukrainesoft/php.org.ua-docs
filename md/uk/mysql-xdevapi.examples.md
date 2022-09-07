@@ -14,13 +14,13 @@ title: Приклади
 
 ```php
 <?php
-try {
-    $session = mysql_xdevapi\getSession("mysqlx://user:password@host");
-} catch(Exception $e) {
-    die("Не удалось установить соединение: " . $e->getMessage());
+try {
+    $session = mysql_xdevapi\getSession("mysqlx://user:password@host");
+} catch(Exception $e) {
+    die("Не удалось установить соединение: " . $e->getMessage());
 }
 
-// ... используйте $session
+// ... используйте $session
 ?>
 ```
 
@@ -30,8 +30,8 @@ try {
 
 ```php
 <?php
-$schema = $session->createSchema("test");
-$collection = $schema->createCollection("example");
+$schema = $session->createSchema("test");
+$collection = $schema->createCollection("example");
 ?>
 ```
 
@@ -43,23 +43,23 @@ $collection = $schema->createCollection("example");
 
 ```php
 <?php
-$marco = [
-  "name" => "Marco",
-  "age"  => 19,
-  "job"  => "Programmer"
+$marco = [
+  "name" => "Marco",
+  "age"  => 19,
+  "job"  => "Programmer"
 ];
-$mike = [
-  "name" => "Mike",
-  "age"  => 39,
-  "job"  => "Manager"
+$mike = [
+  "name" => "Mike",
+  "age"  => 39,
+  "job"  => "Manager"
 ];
 
-$schema = $session->getSchema("test");
-$collection = $schema->getCollection("example");
+$schema = $session->getSchema("test");
+$collection = $schema->getCollection("example");
 
-$collection->add($marco, $mike)->execute();
+$collection->add($marco, $mike)->execute();
 
-var_dump($collection->find("name = 'Mike'")->execute()->fetchOne());
+var_dump($collection->find("name = 'Mike'")->execute()->fetchOne());
 ?>
 ```
 
@@ -88,9 +88,9 @@ array(4) {
 
 ```php
 <?php
-$result = $collection->find()->execute();
-foreach ($result as $doc) {
-  echo "${doc["name"]} is a ${doc["job"]}.\n";
+$result = $collection->find()->execute();
+foreach ($result as $doc) {
+  echo "${doc["name"]} is a ${doc["job"]}.\n";
 }
 ?>
 ```

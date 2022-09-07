@@ -42,14 +42,14 @@ cubrid_field_name(resource $result, int $field_offset): string
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND nation_code='AUS' AND medal='G'");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND nation_code='AUS' AND medal='G'");
 
-$col_num = cubrid_num_cols($result);
+$col_num = cubrid_num_cols($result);
 
-printf("%-30s %s\n", "Наименование поля", "Флаги поля");
-for($i = 0; $i < $col_num; $i++) {
-    printf("%-30s %s\n", cubrid_field_name($result, $i), cubrid_field_flags($result, $i));
+printf("%-30s %s\n", "Наименование поля", "Флаги поля");
+for($i = 0; $i < $col_num; $i++) {
+    printf("%-30s %s\n", cubrid_field_name($result, $i), cubrid_field_flags($result, $i));
 }
 
 cubrid_disconnect($conn);

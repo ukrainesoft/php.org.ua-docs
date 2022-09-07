@@ -20,9 +20,9 @@ title: Застаріла функціональність
 
 ```php
 <?php
-var_dump(str_contains("foobar", null));
-// Deprecated: Passing null to parameter #2 ($needle) of type string
-//             is deprecated
+var_dump(str_contains("foobar", null));
+// Deprecated: Passing null to parameter #2 ($needle) of type string
+//             is deprecated
 ?>
 ```
 
@@ -32,9 +32,9 @@ var_dump(str_contains("foobar", null));
 
 ```php
 <?php
-$a = [];
-$a[15.5]; // устарело, поскольку значение ключа теряет компонент 0.5
-$a[15.0]; // работает, так как 15.0 == 15
+$a = [];
+$a[15.5]; // устарело, поскольку значение ключа теряет компонент 0.5
+$a[15.0]; // работает, так как 15.0 == 15
 ?>
 ```
 
@@ -50,7 +50,7 @@ $a[15.0]; // работает, так как 15.0 == 15
 
 ```php
 <?php
-function &test(): void {}
+function &test(): void {}
 ?>
 ```
 
@@ -62,8 +62,8 @@ function &test(): void {}
 
 ```php
 <?php
-$arr = false;
-$arr[] = 2;   // устарело
+$arr = false;
+$arr[] = 2;   // устарело
 ?>
 ```
 
@@ -73,12 +73,12 @@ $arr[] = 2;   // устарело
 > 
 > ```php
 > <?php
-> // Из неопределённого значения
-> $arr[] = 'какое-то значение';
-> $arr['doesNotExist'][] = 2;
-> // Из null
-> $arr = null;
-> $arr[] = 2;
+> // Из неопределённого значения
+> $arr[] = 'какое-то значение';
+> $arr['doesNotExist'][] = 2;
+> // Из null
+> $arr = null;
+> $arr[] = 2;
 > ?>
 > ```
 

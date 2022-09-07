@@ -15,7 +15,7 @@ ZMQSocket::construct - Конструктор класу ZMQSocket
 ### Опис
 
 ```methodsynopsis
-public ZMQSocket::__construct(    ZMQContext $context,    int $type,    string $persistent_id = null,    callable $on_new_socket = null)
+public ZMQSocket::__construct(    ZMQContext $context,    int $type,    string $persistent_id = null,    callable $on_new_socket = null)
 ```
 
 Створює екземпляр класу ZMQSocket. Параметр `persistent_id` може бути використаний для встановлення постійного з'єднання. Постійний сокет буде виділено з постійного контексту і залишатиметься активним протягом кількох запитів. Отримати той самий сокет для багатьох запитів можна за допомогою параметра `persistent_id`. Функція, задана в `on_new_socket` викликається лише за створенні нової структури сокету.
@@ -56,25 +56,25 @@ callback(ZMQSocket $socket, string $persistent_id = null)
 <?php
 
 /*
-  Здесь используется постоянный сокет, поэтому функция будет вызвана лишь
-  при первом обращении к скрипту.
+  Здесь используется постоянный сокет, поэтому функция будет вызвана лишь
+  при первом обращении к скрипту.
 */
-function on_new_socket_cb(ZMQSocket $socket, $persistent_id = null)
+function on_new_socket_cb(ZMQSocket $socket, $persistent_id = null)
 {
-    if ($persistent_id === 'server') {
-        $socket->bind("tcp://localhost:12122");
-    } else {
-        $socket->connect("tcp://localhost:12122");
-    }
+    if ($persistent_id === 'server') {
+        $socket->bind("tcp://localhost:12122");
+    } else {
+        $socket->connect("tcp://localhost:12122");
+    }
 }
 
-/* Создать новый контекст */
-$context = new ZMQContext();
+/* Создать новый контекст */
+$context = new ZMQContext();
 
-/* Создать сокет */
-$socket = $context->getSocket(ZMQ::SOCKET_REP, 'server', 'on_new_socket_cb');
+/* Создать сокет */
+$socket = $context->getSocket(ZMQ::SOCKET_REP, 'server', 'on_new_socket_cb');
 
-$message = $socket->recv();
-echo "Получено сообщение: {$message}\n";
+$message = $socket->recv();
+echo "Получено сообщение: {$message}\n";
 ?>
 ```

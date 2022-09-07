@@ -15,7 +15,7 @@ Gmagick::quantizeimage — Аналізує кольори еталонного 
 ### Опис
 
 ```methodsynopsis
-public Gmagick::quantizeimage(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
+public Gmagick::quantizeimage(    int $numColors,    int $colorspace,    int $treeDepth,    bool $dither,    bool $measureError): Gmagick
 ```
 
 Аналізує кольори в еталонному зображенні та вибирає фіксовану кількість кольорів для представлення зображення. Метою алгоритму є мінімізація різниці у кольорі між вхідним та вихідним зображенням при мінімізації часу обробки.

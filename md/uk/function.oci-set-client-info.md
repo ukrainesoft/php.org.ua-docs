@@ -47,15 +47,15 @@ oci_set_client_info(resource $connection, string $client_info): bool
 ```php
 <?php
 
-$c = oci_connect('hr', 'welcome', 'localhost/XE');
+$c = oci_connect('hr', 'welcome', 'localhost/XE');
 
-// Запись информации о клиенте
-oci_set_client_info($c, 'My Application Version 2');
+// Запись информации о клиенте
+oci_set_client_info($c, 'My Application Version 2');
 
-// Код, осуществляющий запрос к БД, например выборка:
-$s = oci_parse($c, 'select * from dual');
+// Код, осуществляющий запрос к БД, например выборка:
+$s = oci_parse($c, 'select * from dual');
 oci_execute($s);
-oci_fetch_all($s, $res);
+oci_fetch_all($s, $res);
 
 sleep(30);
 

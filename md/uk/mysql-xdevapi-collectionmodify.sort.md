@@ -41,7 +41,7 @@ public mysql_xdevapi\CollectionModify::sort(string $sort_expr): mysql_xdevapi\Co
 ```php
 <?php
 
-$res = $coll->modify('true')->sort('name desc', 'age asc')->limit(4)->set('Married', 'NO')->execute();
+$res = $coll->modify('true')->sort('name desc', 'age asc')->limit(4)->set('Married', 'NO')->execute();
 
 ?>
 ```

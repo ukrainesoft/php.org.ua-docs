@@ -12,7 +12,7 @@ title: Змінні змінних
 
 ```php
 <?php
-$a = 'hello';
+$a = 'hello';
 ?>
 ```
 
@@ -20,7 +20,7 @@ $a = 'hello';
 
 ```php
 <?php
-$$a = 'world';
+$$a = 'world';
 ?>
 ```
 
@@ -28,7 +28,7 @@ $$a = 'world';
 
 ```php
 <?php
-echo "$a ${$a}";
+echo "$a ${$a}";
 ?>
 ```
 
@@ -36,7 +36,7 @@ echo "$a ${$a}";
 
 ```php
 <?php
-echo "$a $hello";
+echo "$a $hello";
 ?>
 ```
 
@@ -52,24 +52,24 @@ echo "$a $hello";
 
 ```php
 <?php
-class foo {
-    var $bar = 'I am bar.';
-    var $arr = array('I am A.', 'I am B.', 'I am C.');
-    var $r   = 'I am r.';
+class foo {
+    var $bar = 'I am bar.';
+    var $arr = array('I am A.', 'I am B.', 'I am C.');
+    var $r   = 'I am r.';
 }
 
-$foo = new foo();
-$bar = 'bar';
-$baz = array('foo', 'bar', 'baz', 'quux');
-echo $foo->$bar . "\n";
-echo $foo->{$baz[1]} . "\n";
+$foo = new foo();
+$bar = 'bar';
+$baz = array('foo', 'bar', 'baz', 'quux');
+echo $foo->$bar . "\n";
+echo $foo->{$baz[1]} . "\n";
 
-$start = 'b';
-$end   = 'ar';
-echo $foo->{$start . $end} . "\n";
+$start = 'b';
+$end   = 'ar';
+echo $foo->{$start . $end} . "\n";
 
-$arr = 'arr';
-echo $foo->{$arr[1]} . "\n";
+$arr = 'arr';
+echo $foo->{$arr[1]} . "\n";
 
 ?>
 ```

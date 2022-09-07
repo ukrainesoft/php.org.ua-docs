@@ -36,11 +36,11 @@ is_nan(float $num): bool
 
 ```php
 <?php
-// Недопустимое вычисление, возвращает
-// значение "не число" (NaN)
-$nan = acos(8);
+// Недопустимое вычисление, возвращает
+// значение "не число" (NaN)
+$nan = acos(8);
 
-var_dump($nan, is_nan($nan));
+var_dump($nan, is_nan($nan));
 ?>
 ```
 

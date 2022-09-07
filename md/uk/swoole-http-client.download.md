@@ -15,7 +15,7 @@ SwooleHttpClient::download — Завантажує файл із віддале
 ### Опис
 
 ```methodsynopsis
-public Swoole\Http\Client::download(    string $path,    string $file,    callable $callback,    int $offset = ?): void
+public Swoole\Http\Client::download(    string $path,    string $file,    callable $callback,    int $offset = ?): void
 ```
 
 ### Список параметрів

@@ -15,7 +15,7 @@ title: 'ОЙArea::onDraw'
 ### Опис
 
 ```methodsynopsis
-protected UI\Area::onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
+protected UI\Area::onDraw(    UI\Draw\Pen $pen,    UI\Size $areaSize,    UI\Point $clipPoint,    UI\Size $clipSize)
 ```
 
 Викликається, коли ця область вимагає перемальовки

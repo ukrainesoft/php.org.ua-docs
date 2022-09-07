@@ -36,24 +36,24 @@ public Imagick::affineTransformImage(ImagickDraw $matrix): bool
 
 ```php
 <?php
-function affineTransformImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $draw = new \ImagickDraw();
+function affineTransformImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $draw = new \ImagickDraw();
 
-    $angle = deg2rad(40);
+    $angle = deg2rad(40);
 
-    $affineRotate = array(
-        "sx" => cos($angle), "sy" => cos($angle),
-        "rx" => sin($angle), "ry" => -sin($angle),
-        "tx" => 0, "ty" => 0,
-    );
+    $affineRotate = array(
+        "sx" => cos($angle), "sy" => cos($angle),
+        "rx" => sin($angle), "ry" => -sin($angle),
+        "tx" => 0, "ty" => 0,
+    );
 
-    $draw->affine($affineRotate);
+    $draw->affine($affineRotate);
 
-    $imagick->affineTransformImage($draw);
+    $imagick->affineTransformImage($draw);
 
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

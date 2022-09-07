@@ -12,7 +12,7 @@ title: Інтерфейс MongoDBDriverMonitoringSDAMSubscriber
 
 ## Вступ
 
-Класи можуть реалізувати цей інтерфейс для реєстрації передплатника подій, який отримує повідомлення про різні події SDAM. Додаткову інформацію дивіться у посібнику з [» Обнаружению и мониторингу серверов](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst) і [» Мониторингу SDAM](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring-monitoring.rst)
+Класи можуть реалізувати цей інтерфейс для реєстрації передплатника подій, який отримує повідомлення про різні події SDAM. Додаткову інформацію дивіться у посібнику з [» Обнаружению и мониторингу серверов](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst) і [» Мониторингу SDAM](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring-monitoring.rst)
 
 ## Огляд інтерфейсів
 

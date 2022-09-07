@@ -50,31 +50,31 @@ PHP намагатиметься використовувати тип дисп�
 
 ```php
 <?php
-class IEEventSinker {
-    var $terminated = false;
+class IEEventSinker {
+    var $terminated = false;
 
-   function ProgressChange($progress, $progressmax) {
-      echo "Прогресс загрузки: $progress / $progressmax\n";
-    }
+   function ProgressChange($progress, $progressmax) {
+      echo "Прогресс загрузки: $progress / $progressmax\n";
+    }
 
-    function DocumentComplete(&$dom, $url) {
-      echo "Загрузка $url завершена\n";
-    }
+    function DocumentComplete(&$dom, $url) {
+      echo "Загрузка $url завершена\n";
+    }
 
-    function OnQuit() {
-      echo "Quit!\n";
-      $this->terminated = true;
-    }
+    function OnQuit() {
+      echo "Quit!\n";
+      $this->terminated = true;
+    }
 }
-$ie = new COM("InternetExplorer.Application");
-$sink = new IEEventSinker();
-com_event_sink($ie, $sink, "DWebBrowserEvents2");
-$ie->Visible = true;
+$ie = new COM("InternetExplorer.Application");
+$sink = new IEEventSinker();
+com_event_sink($ie, $sink, "DWebBrowserEvents2");
+$ie->Visible = true;
 $ie->Navigate("http://www.example.org");
-while(!$sink->terminated) {
-  com_message_pump(4000);
+while(!$sink->terminated) {
+  com_message_pump(4000);
 }
-$ie = null;
+$ie = null;
 ?>
 ```
 

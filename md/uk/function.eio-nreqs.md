@@ -34,17 +34,17 @@ eio_nreqs(): int
 
 ```php
 <?php
-function res_cb($data, $result) {
-    var_dump($data);
-    var_dump($result);
+function res_cb($data, $result) {
+    var_dump($data);
+    var_dump($result);
 }
 
-eio_nop(EIO_PRI_DEFAULT, "res_cb", "1");
-eio_nop(EIO_PRI_DEFAULT, "res_cb", "2");
-eio_nop(EIO_PRI_DEFAULT, "res_cb", "3");
+eio_nop(EIO_PRI_DEFAULT, "res_cb", "1");
+eio_nop(EIO_PRI_DEFAULT, "res_cb", "2");
+eio_nop(EIO_PRI_DEFAULT, "res_cb", "3");
 
-while (eio_nreqs()) {
-    eio_poll();
+while (eio_nreqs()) {
+    eio_poll();
 }
 ?>
 ```

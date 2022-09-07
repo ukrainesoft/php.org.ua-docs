@@ -38,7 +38,7 @@ str_shuffle(string $string): string
 
 | Версия | Описание |
 | --- | --- |
-|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
 
 ### Приклади
 
@@ -46,11 +46,11 @@ str_shuffle(string $string): string
 
 ```php
 <?php
-$str = 'abcdef';
-$shuffled = str_shuffle($str);
+$str = 'abcdef';
+$shuffled = str_shuffle($str);
 
-// выведет что-то вроде этого: bfdaec
-echo $shuffled;
+// выведет что-то вроде этого: bfdaec
+echo $shuffled;
 ?>
 ```
 

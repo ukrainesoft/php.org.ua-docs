@@ -36,19 +36,19 @@ sqlsrv_close(resource $conn): bool
 
 ```php
 <?php
-$serverName = "serverName\sqlexpres";
-$connOptions = array("UID"=>"username", "PWD"=>"password", "Database"=>"dbname");
-$conn = sqlsrv_connect( $serverName, $connOptions );
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpres";
+$connOptions = array("UID"=>"username", "PWD"=>"password", "Database"=>"dbname");
+$conn = sqlsrv_connect( $serverName, $connOptions );
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
 //-------------------------------------
-// Выполнение операций с базой данных.
+// Выполнение операций с базой данных.
 //-------------------------------------
 
-// Закрытие соединения.
-sqlsrv_close( $conn );
+// Закрытие соединения.
+sqlsrv_close( $conn );
 ?>
 ```
 

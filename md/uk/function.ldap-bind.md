@@ -49,25 +49,25 @@ ldap_bind(LDAP\Connection $ldap, ?string $dn = null, ?string $password = null): 
 ```php
 <?php
 
-// используется ldap-привязка
-$ldaprdn  = 'uname';     // ldap rdn или dn
-$ldappass = 'password';  // ассоциированный пароль
+// используется ldap-привязка
+$ldaprdn  = 'uname';     // ldap rdn или dn
+$ldappass = 'password';  // ассоциированный пароль
 
-// соединение с сервером
-$ldapconn = ldap_connect("ldap://ldap.example.com")
-    or die("Не могу соединиться с сервером LDAP.");
+// соединение с сервером
+$ldapconn = ldap_connect("ldap://ldap.example.com")
+    or die("Не могу соединиться с сервером LDAP.");
 
-if ($ldapconn) {
+if ($ldapconn) {
 
-    // привязка к ldap-серверу
-    $ldapbind = ldap_bind($ldapconn, $ldaprdn, $ldappass);
+    // привязка к ldap-серверу
+    $ldapbind = ldap_bind($ldapconn, $ldaprdn, $ldappass);
 
-    // проверка привязки
-    if ($ldapbind) {
-        echo "LDAP-привязка успешна...";
-    } else {
-        echo "LDAP-привязка не удалась...";
-    }
+    // проверка привязки
+    if ($ldapbind) {
+        echo "LDAP-привязка успешна...";
+    } else {
+        echo "LDAP-привязка не удалась...";
+    }
 
 }
 
@@ -79,22 +79,22 @@ if ($ldapconn) {
 ```php
 <?php
 
-//анонимное использование ldap-привязки
+//анонимное использование ldap-привязки
 
-// соединение с сервером ldap
-$ldapconn = ldap_connect("ldap://ldap.example.com")
-    or die("Не могу соединиться с сервером LDAP.");
+// соединение с сервером ldap
+$ldapconn = ldap_connect("ldap://ldap.example.com")
+    or die("Не могу соединиться с сервером LDAP.");
 
-if ($ldapconn) {
+if ($ldapconn) {
 
-    // анонимная привязка
-    $ldapbind = ldap_bind($ldapconn);
+    // анонимная привязка
+    $ldapbind = ldap_bind($ldapconn);
 
-    if ($ldapbind) {
-        echo "Анонимная привязка LDAP прошла успешно...";
-    } else {
-        echo "Анонимная привязка LDAP не удалась...";
-    }
+    if ($ldapbind) {
+        echo "Анонимная привязка LDAP прошла успешно...";
+    } else {
+        echo "Анонимная привязка LDAP не удалась...";
+    }
 
 }
 

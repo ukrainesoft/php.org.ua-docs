@@ -113,12 +113,12 @@ fprintf(resource $stream, string $format, mixed ...$values): int
 
 ```php
 <?php
-if (!($fp = fopen('date.txt', 'w'))) {
-    return;
+if (!($fp = fopen('date.txt', 'w'))) {
+    return;
 }
 
-fprintf($fp, "%04d-%02d-%02d", $year, $month, $day);
-// запишет форматированную ISO-дату в файл date.txt
+fprintf($fp, "%04d-%02d-%02d", $year, $month, $day);
+// запишет форматированную ISO-дату в файл date.txt
 ?>
 ```
 
@@ -126,19 +126,19 @@ fprintf($fp, "%04d-%02d-%02d", $year, $month, $day);
 
 ```php
 <?php
-if (!($fp = fopen('currency.txt', 'w'))) {
-    return;
+if (!($fp = fopen('currency.txt', 'w'))) {
+    return;
 }
 
-$money1 = 68.75;
-$money2 = 54.35;
-$money = $money1 + $money2;
-// echo $money выведет "123.1";
-$len = fprintf($fp, '%01.2f', $money);
-// строка "123.10" записана в файл currency.txt
+$money1 = 68.75;
+$money2 = 54.35;
+$money = $money1 + $money2;
+// echo $money выведет "123.1";
+$len = fprintf($fp, '%01.2f', $money);
+// строка "123.10" записана в файл currency.txt
 
-echo "записано $len байт в файл currency.txt";
-// используйте возвращаемое из fprintf значение для определения количества записанных байт
+echo "записано $len байт в файл currency.txt";
+// используйте возвращаемое из fprintf значение для определения количества записанных байт
 ?>
 ```
 

@@ -15,7 +15,7 @@ Imagick::frameImage — Додає імітацію тривимірного к�
 ### Опис
 
 ```methodsynopsis
-public Imagick::frameImage(    mixed $matte_color,    int $width,    int $height,    int $inner_bevel,    int $outer_bevel): bool
+public Imagick::frameImage(    mixed $matte_color,    int $width,    int $height,    int $inner_bevel,    int $outer_bevel): bool
 ```
 
 Додає імітацію тривимірної межі навколо зображення. Ширина та висота визначають ширину межі вертикальної та горизонтальної сторін рамки. Внутрішній та зовнішній скоси вказують ширину внутрішньої та зовнішньої тіні рамки.
@@ -62,21 +62,21 @@ public Imagick::frameImage(    mixed $matte_color,    int $width,   �
 
 ```php
 <?php
-function frameImage($imagePath, $color, $width, $height, $innerBevel, $outerBevel) {
-    $imagick = new \Imagick(realpath($imagePath));
+function frameImage($imagePath, $color, $width, $height, $innerBevel, $outerBevel) {
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $width = $width + $innerBevel + $outerBevel;
-    $height = $height + $innerBevel + $outerBevel;
+    $width = $width + $innerBevel + $outerBevel;
+    $height = $height + $innerBevel + $outerBevel;
 
-    $imagick->frameimage(
-        $color,
-        $width,
-        $height,
-        $innerBevel,
-        $outerBevel
-    );
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    $imagick->frameimage(
+        $color,
+        $width,
+        $height,
+        $innerBevel,
+        $outerBevel
+    );
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

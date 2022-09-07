@@ -40,12 +40,12 @@ public Vtiful\Kernel\Excel::fileName(string $fileName, string $sheetName = ?)
 
 ```php
 <?php
-$config = [
-  'path' => '/home/viest'
+$config = [
+  'path' => '/home/viest'
 ];
 
-$fileObject = new \Vtiful\Kernel\Excel($config);
+$fileObject = new \Vtiful\Kernel\Excel($config);
 
-$file = $instance->fileName('tutorial.xlsx', 'sheet');
+$file = $instance->fileName('tutorial.xlsx', 'sheet');
 ?>
 ```

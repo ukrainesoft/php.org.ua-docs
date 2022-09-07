@@ -22,7 +22,7 @@ title: Зміни OpenSSL у PHP 5.6.x
 
 ### Оновлено шифри за замовчуванням
 
-Список стандартних шифрів, що використовуються PHP, був оновлений на більш безпечний відповідно до [»  рекомендациями по шифрам от Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite), з двома додатковими винятками: анонімні шифри Діффі-Хеллмана та RC4.
+Список стандартних шифрів, що використовуються PHP, був оновлений на більш безпечний відповідно до [»  рекомендациями по шифрам от Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite), з двома додатковими винятками: анонімні шифри Діффі-Хеллмана та RC4.
 
 Цей список доступний через нову константу **`OPENSSL_DEFAULT_STREAM_CIPHERS`**, і може бути перевизначений (як і в попередніх версіях PHP) установкою опцією контексту [`ciphers`](context.ssl.md#context.ssl.ciphers)
 
@@ -40,12 +40,12 @@ title: Зміни OpenSSL у PHP 5.6.x
 
 ```php
 <?php
-$ctx = stream_context_create(['ssl' => [
-    'capture_session_meta' => TRUE
+$ctx = stream_context_create(['ssl' => [
+    'capture_session_meta' => TRUE
 ]]);
 
-$html = file_get_contents('https://google.com/', FALSE, $ctx);
-$meta = stream_context_get_options($ctx)['ssl']['session_meta'];
+$html = file_get_contents('https://google.com/', FALSE, $ctx);
+$meta = stream_context_get_options($ctx)['ssl']['session_meta'];
 var_dump($meta);
 ?>
 ```
@@ -107,25 +107,25 @@ openssl dhparam -out /path/to/my/certs/dh-2048.pem 2048
 ```php
 <?php
 
-// Требуется TLS 1.0 или выше для использования file_get_contents():
-$ctx = stream_context_create([
-    'ssl' => [
-        'crypto_method' => STREAM_CRYPTO_METHOD_TLS_CLIENT,
-    ],
+// Требуется TLS 1.0 или выше для использования file_get_contents():
+$ctx = stream_context_create([
+    'ssl' => [
+        'crypto_method' => STREAM_CRYPTO_METHOD_TLS_CLIENT,
+    ],
 ]);
-$html = file_get_contents('https://google.com/', false, $ctx);
+$html = file_get_contents('https://google.com/', false, $ctx);
 
-// Требуется TLS 1.1 или 1.2:
-$ctx = stream_context_create([
-    'ssl' => [
-        'crypto_method' => STREAM_CRYPTO_METHOD_TLSv1_1_CLIENT |
-                           STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT,
-    ],
+// Требуется TLS 1.1 или 1.2:
+$ctx = stream_context_create([
+    'ssl' => [
+        'crypto_method' => STREAM_CRYPTO_METHOD_TLSv1_1_CLIENT |
+                           STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT,
+    ],
 ]);
-$html = file_get_contents('https://google.com/', false, $ctx);
+$html = file_get_contents('https://google.com/', false, $ctx);
 
-// Соединяемся с использованием транспорта потокового сокета tlsv1.2://
-$sock = stream_socket_client('tlsv1.2://google.com:443/');
+// Соединяемся с использованием транспорта потокового сокета tlsv1.2://
+$sock = stream_socket_client('tlsv1.2://google.com:443/');
 
 ?>
 ```
@@ -173,10 +173,10 @@ array(8) {
 
 ```php
 <?php
-$pkey = openssl_pkey_new();
-openssl_pkey_export($pkey, 'secret passphrase');
+$pkey = openssl_pkey_new();
+openssl_pkey_export($pkey, 'secret passphrase');
 
-$spkac = openssl_spki_new($pkey, 'challenge string');
+$spkac = openssl_spki_new($pkey, 'challenge string');
 ?>
 ```
 
@@ -192,10 +192,10 @@ SPKAC=MIIBXjCByDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3L0IfUijj7+A8CPC8EmhcdNoe5
 
 ```php
 <?php
-$pkey = openssl_pkey_new();
-openssl_pkey_export($pkey, 'secret passphrase');
+$pkey = openssl_pkey_new();
+openssl_pkey_export($pkey, 'secret passphrase');
 
-$spkac = openssl_spki_new($pkey, 'challenge string');
+$spkac = openssl_spki_new($pkey, 'challenge string');
 var_dump(openssl_spki_verify($spkac));
 ?>
 ```
@@ -206,12 +206,12 @@ var_dump(openssl_spki_verify($spkac));
 
 ```php
 <?php
-$pkey = openssl_pkey_new();
-openssl_pkey_export($pkey, 'secret passphrase');
+$pkey = openssl_pkey_new();
+openssl_pkey_export($pkey, 'secret passphrase');
 
-$spkac = openssl_spki_new($pkey, 'challenge string');
-$challenge = openssl_spki_export_challenge($spkac);
-echo $challenge;
+$spkac = openssl_spki_new($pkey, 'challenge string');
+$challenge = openssl_spki_export_challenge($spkac);
+echo $challenge;
 ?>
 ```
 
@@ -227,11 +227,11 @@ challenge string
 
 ```php
 <?php
-$pkey = openssl_pkey_new();
-openssl_pkey_export($pkey, 'secret passphrase');
+$pkey = openssl_pkey_new();
+openssl_pkey_export($pkey, 'secret passphrase');
 
-$spkac = openssl_spki_new($pkey, 'challenge string');
-echo openssl_spki_export($spkac);
+$spkac = openssl_spki_new($pkey, 'challenge string');
+echo openssl_spki_export($spkac);
 ?>
 ```
 

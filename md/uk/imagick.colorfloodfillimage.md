@@ -19,7 +19,7 @@ Imagick::colorFloodfillImage — Змінює значення кольору б
 ### Опис
 
 ```methodsynopsis
-public Imagick::colorFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
+public Imagick::colorFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
 ```
 
 Змінює значення кольору будь-якого пікселя, що відповідає цільовому та є найближчим сусідом.

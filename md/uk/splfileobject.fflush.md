@@ -34,7 +34,7 @@ public SplFileObject::fflush(): bool
 
 ```php
 <?php
-$file = new SplFileObject('misc.txt', 'r+');
+$file = new SplFileObject('misc.txt', 'r+');
 $file->rewind();
 $file->fwrite("Foo");
 $file->fflush();

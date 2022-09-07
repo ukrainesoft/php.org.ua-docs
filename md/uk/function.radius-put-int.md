@@ -15,7 +15,7 @@ radiusputint — Приєднує цілісний атрибут
 ### Опис
 
 ```methodsynopsis
-radius_put_int(    resource $radius_handle,    int $type,    int $value,    int $options = 0,    int $tag = ?): bool
+radius_put_int(    resource $radius_handle,    int $type,    int $value,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує цілий атрибут до поточного запиту RADIUS.
@@ -62,9 +62,9 @@ radius_put_int(    resource $radius_handle,    int $type,    int $va
 
 ```php
 <?php
-if (!radius_put_int($res, RAD_FRAMED_PROTOCOL, RAD_PPP)) {
-   echo 'Ошибка Radius:' . radius_strerror($res). "\n<br />";
-   exit;
+if (!radius_put_int($res, RAD_FRAMED_PROTOCOL, RAD_PPP)) {
+   echo 'Ошибка Radius:' . radius_strerror($res). "\n<br />";
+   exit;
 }
 ?>
 ```

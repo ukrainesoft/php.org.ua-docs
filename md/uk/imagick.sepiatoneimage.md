@@ -38,11 +38,11 @@ public Imagick::sepiaToneImage(float $threshold): bool
 
 ```php
 <?php
-function sepiaToneImage($imagePath, $sepia) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->sepiaToneImage($sepia);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function sepiaToneImage($imagePath, $sepia) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->sepiaToneImage($sepia);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -24,13 +24,13 @@ title: Буферизовані та небуферизовані запити
 
 ```php
 <?php
-$mysqli  = new mysqli("localhost", "my_user", "my_password", "world");
-$uresult = $mysqli->query("SELECT Name FROM City", MYSQLI_USE_RESULT);
+$mysqli  = new mysqli("localhost", "my_user", "my_password", "world");
+$uresult = $mysqli->query("SELECT Name FROM City", MYSQLI_USE_RESULT);
 
-if ($uresult) {
-   while ($row = $uresult->fetch_assoc()) {
-       echo $row['Name'] . PHP_EOL;
-   }
+if ($uresult) {
+   while ($row = $uresult->fetch_assoc()) {
+       echo $row['Name'] . PHP_EOL;
+   }
 }
 ?>
 ```
@@ -39,14 +39,14 @@ if ($uresult) {
 
 ```php
 <?php
-$pdo = new PDO("mysql:host=localhost;dbname=world", 'my_user', 'my_pass');
-$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
+$pdo = new PDO("mysql:host=localhost;dbname=world", 'my_user', 'my_pass');
+$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
 
-$uresult = $pdo->query("SELECT Name FROM City");
-if ($uresult) {
-   while ($row = $uresult->fetch(PDO::FETCH_ASSOC)) {
-       echo $row['Name'] . PHP_EOL;
-   }
+$uresult = $pdo->query("SELECT Name FROM City");
+if ($uresult) {
+   while ($row = $uresult->fetch(PDO::FETCH_ASSOC)) {
+       echo $row['Name'] . PHP_EOL;
+   }
 }
 ?>
 ```

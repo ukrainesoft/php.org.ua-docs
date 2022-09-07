@@ -36,7 +36,7 @@ public SQLite3::loadExtension(string $name): bool
 
 ```php
 <?php
-$db = new SQLite3('mysqlitedb.db');
+$db = new SQLite3('mysqlitedb.db');
 $db->loadExtension('libagg.so');
 ?>
 ```

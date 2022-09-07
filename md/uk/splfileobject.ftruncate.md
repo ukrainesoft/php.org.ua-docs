@@ -42,16 +42,16 @@ public SplFileObject::ftruncate(int $size): bool
 
 ```php
 <?php
-// Создать файл, содержащий "Hello World!"
-$file = new SplFileObject("/tmp/ftruncate", "w+");
-$file->fwrite("Hello World!");
+// Создать файл, содержащий "Hello World!"
+$file = new SplFileObject("/tmp/ftruncate", "w+");
+$file->fwrite("Hello World!");
 
-// Обрезать до 5 байт
+// Обрезать до 5 байт
 $file->ftruncate(5);
 
-// Перемотка к началу файла и чтение данные
+// Перемотка к началу файла и чтение данные
 $file->rewind();
-echo $file->fgets();
+echo $file->fgets();
 ?>
 ```
 

@@ -12,12 +12,12 @@ title: Основи перерахувань
 
 ```php
 <?php
-enum Suit
+enum Suit
 {
-    case Hearts;
-    case Diamonds;
-    case Clubs;
-    case Spades;
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
 }
 ?>
 ```
@@ -26,15 +26,15 @@ enum Suit
 
 ```php
 <?php
-function pick_a_card(Suit $suit) { ... }
+function pick_a_card(Suit $suit) { ... }
 
-$val = Suit::Diamonds;
+$val = Suit::Diamonds;
 
-// OK
+// OK
 pick_a_card($val);
-// OK
+// OK
 pick_a_card(Suit::Clubs);
-// TypeError: pick_a_card(): Argument #1 ($suit) must be of type Suit, string given
+// TypeError: pick_a_card(): Argument #1 ($suit) must be of type Suit, string given
 pick_a_card('Spades');
 ?>
 ```
@@ -47,12 +47,12 @@ pick_a_card('Spades');
 
 ```php
 <?php
-$a = Suit::Spades;
-$b = Suit::Spades;
+$a = Suit::Spades;
+$b = Suit::Spades;
 
-$a === $b; // true
+$a === $b; // true
 
-$a instanceof Suit;  // true
+$a instanceof Suit;  // true
 ?>
 ```
 
@@ -66,7 +66,7 @@ $a instanceof Suit;  // true
 
 ```php
 <?php
-print Suit::Spades->name;
-// prints "Spades"
+print Suit::Spades->name;
+// prints "Spades"
 ?>
 ```

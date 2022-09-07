@@ -43,10 +43,10 @@ imagesx(GdImage $image): int
 ```php
 <?php
 
-// создание изображения 300*200
-$img = imagecreatetruecolor(300, 200);
+// создание изображения 300*200
+$img = imagecreatetruecolor(300, 200);
 
-echo imagesx($img); // 300
+echo imagesx($img); // 300
 
 ?>
 ```

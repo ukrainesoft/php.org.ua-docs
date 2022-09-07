@@ -34,16 +34,16 @@ public DirectoryIterator::valid(): bool
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
+$iterator = new DirectoryIterator(dirname(__FILE__));
 
-// Цикл до конца итератора
-while($iterator->valid()) {
-    $iterator->next();
+// Цикл до конца итератора
+while($iterator->valid()) {
+    $iterator->next();
 }
 
-$iterator->valid(); // FALSE
+$iterator->valid(); // FALSE
 $iterator->rewind();
-$iterator->valid(); // TRUE
+$iterator->valid(); // TRUE
 
 ?>
 ```

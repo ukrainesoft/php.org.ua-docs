@@ -44,10 +44,10 @@ link(string $target, string $link): bool
 
 ```php
 <?php
-$target = 'source.ext'; // Это уже существующий файл
-$link = 'newfile.ext'; // Это файл, который вы хотите привязать к первому
+$target = 'source.ext'; // Это уже существующий файл
+$link = 'newfile.ext'; // Это файл, который вы хотите привязать к первому
 
-link($target, $link);
+link($target, $link);
 ?>
 ```
 

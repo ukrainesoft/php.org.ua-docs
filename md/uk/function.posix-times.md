@@ -43,7 +43,7 @@ posix_times(): array|false
 ```php
 <?php
 
-$times = posix_times();
+$times = posix_times();
 
 print_r($times);
 ?>

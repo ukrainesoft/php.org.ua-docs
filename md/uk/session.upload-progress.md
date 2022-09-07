@@ -14,7 +14,7 @@ PHP може відслідковувати прогрес завантажен�
 
 ```php
 <?php
-$key = ini_get("session.upload_progress.prefix") . $_POST[ini_get("session.upload_progress.name")];
+$key = ini_get("session.upload_progress.prefix") . $_POST[ini_get("session.upload_progress.name")];
 var_dump($_SESSION[$key]);
 ?>
 ```
@@ -33,33 +33,33 @@ var_dump($_SESSION[$key]);
 
 ```php
 <?php
-$_SESSION["upload_progress_123"] = array(
- "start_time" => 1234567890,   // Время начала запроса
- "content_length" => 57343257, // Длина содержимого POST
- "bytes_processed" => 453489,  // Количество полученных и обработанных байт
- "done" => false,              // true при завершении обработки POST, успешно или нет
- "files" => array(
-  0 => array(
-   "field_name" => "file1",       // Имя поля <input/>
-   // Следующие 3 элемента аналогичны соответствующим элементам Масива $_FILES
-   "name" => "foo.avi",
-   "tmp_name" => "/tmp/phpxxxxxx",
-   "error" => 0,
-   "done" => true,                // True, если обработчик POST закончил обработку данного файла
-   "start_time" => 1234567890,    // Время начала обработки этого файла
-   "bytes_processed" => 57343250, // Число полученных и обработанных байт этого файла
-  ),
-  // И ещё один файл, загрузка которого ещё не закончена в том же запросе
-  1 => array(
-   "field_name" => "file2",
-   "name" => "bar.avi",
-   "tmp_name" => NULL,
-   "error" => 0,
-   "done" => false,
-   "start_time" => 1234567899,
-   "bytes_processed" => 54554,
-  ),
- )
+$_SESSION["upload_progress_123"] = array(
+ "start_time" => 1234567890,   // Время начала запроса
+ "content_length" => 57343257, // Длина содержимого POST
+ "bytes_processed" => 453489,  // Количество полученных и обработанных байт
+ "done" => false,              // true при завершении обработки POST, успешно или нет
+ "files" => array(
+  0 => array(
+   "field_name" => "file1",       // Имя поля <input/>
+   // Следующие 3 элемента аналогичны соответствующим элементам Масива $_FILES
+   "name" => "foo.avi",
+   "tmp_name" => "/tmp/phpxxxxxx",
+   "error" => 0,
+   "done" => true,                // True, если обработчик POST закончил обработку данного файла
+   "start_time" => 1234567890,    // Время начала обработки этого файла
+   "bytes_processed" => 57343250, // Число полученных и обработанных байт этого файла
+  ),
+  // И ещё один файл, загрузка которого ещё не закончена в том же запросе
+  1 => array(
+   "field_name" => "file2",
+   "name" => "bar.avi",
+   "tmp_name" => NULL,
+   "error" => 0,
+   "done" => false,
+   "start_time" => 1234567899,
+   "bytes_processed" => 54554,
+  ),
+ )
 );
 ```
 

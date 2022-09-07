@@ -16,19 +16,19 @@ Event::set — Переконфігурувати подію
 
 ```methodsynopsis
 public
-   Event::set(    
+   Event::set(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $fd
-   ,    
+   ,    
     int
      $what
-    = ?,    
+    = ?,    
     callable
      $cb
-    = ?,    
+    = ?,    
     mixed
      $arg
     = ?): bool

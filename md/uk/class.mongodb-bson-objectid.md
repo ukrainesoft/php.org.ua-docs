@@ -12,7 +12,7 @@ title: Клас MongoDBBSONObjectId
 
 ## Вступ
 
-Тип BSON для [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid). Значення складається з 12 байтів, де перші чотири байти є міткою часу, що відбиває створення ObjectId. Зокрема, значення складається з:
+Тип BSON для [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid). Значення складається з 12 байтів, де перші чотири байти є міткою часу, що відбиває створення ObjectId. Зокрема, значення складається з:
 
 -   4-байтове значення, що становить секунди з початку епохи Unix,
 -   5-байтове випадкове число, унікальне для машини та процесу, та

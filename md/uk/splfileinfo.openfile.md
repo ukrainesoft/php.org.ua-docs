@@ -54,13 +54,13 @@ public SplFileInfo::openFile(string $mode = "r", bool $useIncludePath = false, ?
 
 ```php
 <?php
-$fileinfo = new SplFileInfo('/tmp/foo.txt');
+$fileinfo = new SplFileInfo('/tmp/foo.txt');
 
-if ($fileinfo->isWritable()) {
+if ($fileinfo->isWritable()) {
 
-    $fileobj = $fileinfo->openFile('a');
+    $fileobj = $fileinfo->openFile('a');
 
-    $fileobj->fwrite("образец текста");
+    $fileobj->fwrite("образец текста");
 }
 ?>
 ```

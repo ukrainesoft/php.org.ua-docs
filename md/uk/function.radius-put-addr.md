@@ -15,7 +15,7 @@ radiusputaddr — Приєднує атрибут IP-адреси
 ### Опис
 
 ```methodsynopsis
-radius_put_addr(    resource $radius_handle,    int $type,    string $addr,    int $options = 0,    int $tag = ?): bool
+radius_put_addr(    resource $radius_handle,    int $type,    string $addr,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує атрибут IP-адреси до запиту RADIUS.

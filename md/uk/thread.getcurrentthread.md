@@ -34,12 +34,12 @@ public static Thread::getCurrentThread(): Thread
 
 ```php
 <?php
-class My extends Thread {
-    public function run() {
-        var_dump(Thread::getCurrentThread());
-    }
+class My extends Thread {
+    public function run() {
+        var_dump(Thread::getCurrentThread());
+    }
 }
-$my = new My();
+$my = new My();
 $my->start();
 ?>
 ```

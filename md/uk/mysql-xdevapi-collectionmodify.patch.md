@@ -41,7 +41,7 @@ public mysql_xdevapi\CollectionModify::patch(string $document): mysql_xdevapi\Co
 ```php
 <?php
 
-$res = $coll->modify('"Programmatore" IN job')->patch('{"Hobby" : "Programmare"}')->execute();
+$res = $coll->modify('"Programmatore" IN job')->patch('{"Hobby" : "Programmare"}')->execute();
 
 ?>
 ```

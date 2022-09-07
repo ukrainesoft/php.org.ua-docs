@@ -42,9 +42,9 @@ gzuncompress(string $data, int $max_length = 0): string|false
 
 ```php
 <?php
-$compressed   = gzcompress('Сожми меня', 9);
-$uncompressed = gzuncompress($compressed);
-echo $uncompressed;
+$compressed   = gzcompress('Сожми меня', 9);
+$uncompressed = gzuncompress($compressed);
+echo $uncompressed;
 ?>
 ```
 

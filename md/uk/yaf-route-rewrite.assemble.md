@@ -35,29 +35,29 @@ public Yaf_Route_Rewrite::assemble(array $info, array $query = ?): string
 **Приклад #1 Приклад використання **YafRouteRewrite::assemble()****
 
 ```php
-router = new Yaf_Router();
+router = new Yaf_Router();
 
-$route  = new Yaf_Route_Rewrite(
-                "/product/:name/:id/*",
-                array(
-                        'controller' => "product",
-                ),
-                array()
+$route  = new Yaf_Route_Rewrite(
+                "/product/:name/:id/*",
+                array(
+                        'controller' => "product",
+                ),
+                array()
 );
 
-$router->addRoute("rewrite", $route);
+$router->addRoute("rewrite", $route);
 
 var_dump($router->getRoute('rewrite')->assemble(
-                        array(
-                                ':name' => 'foo',
-                                ':id' => 'bar',
-                                ':tmpkey1' => 'tmpval1'
-                        ),
-                        array(
-                                'tkey1' => 'tval1',
-                                'tkey2' => 'tval2'
-                             )
-                        )
+                        array(
+                                ':name' => 'foo',
+                                ':id' => 'bar',
+                                ':tmpkey1' => 'tmpval1'
+                        ),
+                        array(
+                                'tkey1' => 'tval1',
+                                'tkey2' => 'tval2'
+                             )
+                        )
 );
 ```
 

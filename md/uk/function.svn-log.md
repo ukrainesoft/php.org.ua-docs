@@ -15,7 +15,7 @@ svnlog — Повертає коментарі до правок у репози
 ### Опис
 
 ```methodsynopsis
-svn_log(    string $repos_url,    int $start_revision = ?,    int $end_revision = ?,    int $limit = 0,    int $flags = SVN_DISCOVER_CHANGED_PATHS | SVN_STOP_ON_COPY): array
+svn_log(    string $repos_url,    int $start_revision = ?,    int $end_revision = ?,    int $limit = 0,    int $flags = SVN_DISCOVER_CHANGED_PATHS | SVN_STOP_ON_COPY): array
 ```
 
 **svnlog()** повертає повну історію змін конкретного елемента репозиторію, розташованого за URL `repos_url`, або історію правок у конкретному діапазоні, якщо вказано параметр `start_revision`. Ця функція еквівалентна команді SVN **`svn log --verbose -r $start_revision $repos_url`**
@@ -52,7 +52,7 @@ URL-адреса репозиторію для отримання історії
 > 
 > Висновок завжди представлений як пронумерований масив, що містить масиви, крім випадків відсутності або єдиного екземпляра ревізій.
 
-Значення action є підмножиною [» перших літер станів SVN](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.md), де можливі значення - це:
+Значення action є підмножиною [» перших літер станів SVN](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.md), де можливі значення - це:
 
 **Дії**
 
@@ -71,7 +71,7 @@ URL-адреса репозиторію для отримання історії
 
 ```php
 <?php
-print_r( svn_log('http://www.example.com/', 23) );
+print_r( svn_log('http://www.example.com/', 23) );
 ?>
 ```
 
@@ -106,4 +106,4 @@ Array
 
 ### Дивіться також
 
--   [»  SVN-документация по команде svn log](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.log.md)
+-   [»  SVN-документация по команде svn log](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.log.md)

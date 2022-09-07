@@ -17,26 +17,26 @@ title: Приклади
 ```php
 <?php
 
-class Vegetable {
-    public $edible;
+class Vegetable {
+    public $edible;
 
-    public $color;
+    public $color;
 
-    public function __construct($edible, $color = "green")
-    {
-        $this->edible = $edible;
-        $this->color = $color;
-    }
+    public function __construct($edible, $color = "green")
+    {
+        $this->edible = $edible;
+        $this->color = $color;
+    }
 
-    public function isEdible()
-    {
-        return $this->edible;
-    }
+    public function isEdible()
+    {
+        return $this->edible;
+    }
 
-    public function getColor()
-    {
-        return $this->color;
-    }
+    public function getColor()
+    {
+        return $this->color;
+    }
 }
 
 ?>
@@ -47,23 +47,23 @@ class Vegetable {
 ```php
 <?php
 
-class Spinach extends Vegetable {
-    public $cooked = false;
+class Spinach extends Vegetable {
+    public $cooked = false;
 
-    public function __construct()
-    {
-        parent::__construct(true, "green");
-    }
+    public function __construct()
+    {
+        parent::__construct(true, "green");
+    }
 
-    public function cook()
-    {
-        $this->cooked = true;
-    }
+    public function cook()
+    {
+        $this->cooked = true;
+    }
 
-    public function isCooked()
-    {
-        return $this->cooked;
-    }
+    public function isCooked()
+    {
+        return $this->cooked;
+    }
 }
 
 ?>
@@ -76,54 +76,54 @@ class Spinach extends Vegetable {
 ```php
 <?php
 
-// зарегистрировать автозагрузчик для загрузки классов
+// зарегистрировать автозагрузчик для загрузки классов
 spl_autoload_register();
 
-function printProperties($obj)
+function printProperties($obj)
 {
-    foreach (get_object_vars($obj) as $prop => $val) {
-        echo "\t$prop = $val\n";
-    }
+    foreach (get_object_vars($obj) as $prop => $val) {
+        echo "\t$prop = $val\n";
+    }
 }
 
-function printMethods($obj)
+function printMethods($obj)
 {
-    $arr = get_class_methods(get_class($obj));
-    foreach ($arr as $method) {
-        echo "\tфункция $method()\n";
-    }
+    $arr = get_class_methods(get_class($obj));
+    foreach ($arr as $method) {
+        echo "\tфункция $method()\n";
+    }
 }
 
-function objectBelongsTo($obj, $class)
+function objectBelongsTo($obj, $class)
 {
-    if (is_subclass_of($obj, $class)) {
-        echo "Объект принадлежит к классу " . get_class($obj);
-        echo ", подкласс $class\n";
-    } else {
-        echo "Объект не принадлежит к подклассу $class\n";
-    }
+    if (is_subclass_of($obj, $class)) {
+        echo "Объект принадлежит к классу " . get_class($obj);
+        echo ", подкласс $class\n";
+    } else {
+        echo "Объект не принадлежит к подклассу $class\n";
+    }
 }
 
-// создание 2 объектов
-$veggie = new Vegetable(true, "blue");
-$leafy = new Spinach();
+// создание 2 объектов
+$veggie = new Vegetable(true, "blue");
+$leafy = new Spinach();
 
-// вывод информации об объектах
-echo "вегетарианский: CLASS " . get_class($veggie) . "\n";
-echo "листовой: CLASS " . get_class($leafy);
-echo ", PARENT " . get_parent_class($leafy) . "\n";
+// вывод информации об объектах
+echo "вегетарианский: CLASS " . get_class($veggie) . "\n";
+echo "листовой: CLASS " . get_class($leafy);
+echo ", PARENT " . get_parent_class($leafy) . "\n";
 
-// показать вегетарианские свойства
-echo "\nвегетарианский: Свойства\n";
+// показать вегетарианские свойства
+echo "\nвегетарианский: Свойства\n";
 printProperties($veggie);
 
-// и листовые методы
-echo "\nleafy: Методы\n";
+// и листовые методы
+echo "\nleafy: Методы\n";
 printMethods($leafy);
 
-echo "\nПроисхождение:\n";
-objectBelongsTo($leafy, Spinach::class);
-objectBelongsTo($leafy, Vegetable::class);
+echo "\nПроисхождение:\n";
+objectBelongsTo($leafy, Spinach::class);
+objectBelongsTo($leafy, Vegetable::class);
 
 ?>
 ```

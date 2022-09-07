@@ -43,7 +43,7 @@ imap_timeout(int $timeout_type, int $timeout = -1): int|bool
 ```php
 <?php
 
-echo "Текущее время ожидания чтения " . imap_timeout(IMAP_READTIMEOUT) . "\n";
+echo "Текущее время ожидания чтения " . imap_timeout(IMAP_READTIMEOUT) . "\n";
 
 ?>
 ```

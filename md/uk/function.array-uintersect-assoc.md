@@ -50,10 +50,10 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-$array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
+$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
+$array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
 
-print_r(array_uintersect_assoc($array1, $array2, "strcasecmp"));
+print_r(array_uintersect_assoc($array1, $array2, "strcasecmp"));
 ?>
 ```
 

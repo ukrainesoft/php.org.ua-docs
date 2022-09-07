@@ -31,7 +31,7 @@ private **mysqlxdevapiSqlStatement::construct**
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

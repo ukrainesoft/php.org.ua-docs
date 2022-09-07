@@ -36,38 +36,38 @@ odbc_next_result(resource $statement): bool
 
 ```php
 <?php
-$r_Connection = odbc_connect($dsn, $username, $password);
+$r_Connection = odbc_connect($dsn, $username, $password);
 
-$s_SQL = <<<END_SQL
-SELECT 'A'
-SELECT 'B'
-SELECT 'C'
+$s_SQL = <<<END_SQL
+SELECT 'A'
+SELECT 'B'
+SELECT 'C'
 END_SQL;
 
-$r_Results = odbc_exec($r_Connection, $s_SQL);
+$r_Results = odbc_exec($r_Connection, $s_SQL);
 
-$a_Row1 = odbc_fetch_array($r_Results);
-$a_Row2 = odbc_fetch_array($r_Results);
-echo "Вывод первого результирующего набора ";
-var_dump($a_Row1, $a_Row2);
+$a_Row1 = odbc_fetch_array($r_Results);
+$a_Row2 = odbc_fetch_array($r_Results);
+echo "Вывод первого результирующего набора ";
+var_dump($a_Row1, $a_Row2);
 
-echo "Получение второго результирующего набора ";
+echo "Получение второго результирующего набора ";
 var_dump(odbc_next_result($r_Results));
 
-$a_Row1 = odbc_fetch_array($r_Results);
-$a_Row2 = odbc_fetch_array($r_Results);
-echo "Вывод второго результирующего набора ";
-var_dump($a_Row1, $a_Row2);
+$a_Row1 = odbc_fetch_array($r_Results);
+$a_Row2 = odbc_fetch_array($r_Results);
+echo "Вывод второго результирующего набора ";
+var_dump($a_Row1, $a_Row2);
 
-echo "Получение третьего результирующего набора ";
+echo "Получение третьего результирующего набора ";
 var_dump(odbc_next_result($r_Results));
 
-$a_Row1 = odbc_fetch_array($r_Results);
-$a_Row2 = odbc_fetch_array($r_Results);
-echo "Вывод третьего результирующего набора ";
-var_dump($a_Row1, $a_Row2);
+$a_Row1 = odbc_fetch_array($r_Results);
+$a_Row2 = odbc_fetch_array($r_Results);
+echo "Вывод третьего результирующего набора ";
+var_dump($a_Row1, $a_Row2);
 
-echo "Попытка получения четвёртого результирующего набора ";
+echo "Попытка получения четвёртого результирующего набора ";
 var_dump(odbc_next_result($r_Results));
 ?>
 ```

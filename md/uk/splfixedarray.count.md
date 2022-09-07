@@ -34,9 +34,9 @@ public SplFixedArray::count(): int
 
 ```php
 <?php
-$array = new SplFixedArray(5);
-echo $array->count() . "\n";
-echo count($array) . "\n";
+$array = new SplFixedArray(5);
+echo $array->count() . "\n";
+echo count($array) . "\n";
 ?>
 ```
 

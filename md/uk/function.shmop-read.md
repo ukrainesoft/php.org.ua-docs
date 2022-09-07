@@ -50,7 +50,7 @@ shmop_read(Shmop $shmop, int $offset, int $size): string
 
 ```php
 <?php
-$shm_data = shmop_read($shm_id, 0, 50);
+$shm_data = shmop_read($shm_id, 0, 50);
 ?>
 ```
 

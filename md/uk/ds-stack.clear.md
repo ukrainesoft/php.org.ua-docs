@@ -34,7 +34,7 @@ public Ds\Stack::clear(): void
 
 ```php
 <?php
-$stack = new \Ds\Stack([1, 2, 3]);
+$stack = new \Ds\Stack([1, 2, 3]);
 print_r($stack);
 
 $stack->clear();

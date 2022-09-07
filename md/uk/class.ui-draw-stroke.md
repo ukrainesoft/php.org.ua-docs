@@ -29,7 +29,7 @@ title: Малювання обведення
 
     /* Конструктор */
     
-   public __construct(    int $cap = UI\Draw\Line\Cap::Flat,    int $join = UI\Draw\Line\Join::Miter,    float $thickness = 1,    float $miterLimit = 10)
+   public __construct(    int $cap = UI\Draw\Line\Cap::Flat,    int $join = UI\Draw\Line\Join::Miter,    float $thickness = 1,    float $miterLimit = 10)
 
 
     /* Методы */

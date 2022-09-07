@@ -43,17 +43,17 @@ public Imagick::commentImage(string $comment): bool
 ```php
 <?php
 
-/* Создать новый объект Imagick */
-$im = new imagick();
+/* Создать новый объект Imagick */
+$im = new imagick();
 
-/* Создать пустое изображение */
-$im->newImage(100, 100, new ImagickPixel("red"));
+/* Создать пустое изображение */
+$im->newImage(100, 100, new ImagickPixel("red"));
 
-/* Добавить комментарий к изображению */
-$im->commentImage("Привет, Мир!");
+/* Добавить комментарий к изображению */
+$im->commentImage("Привет, Мир!");
 
-/* Показать комментарий */
-echo $im->getImageProperty("comment");
+/* Показать комментарий */
+echo $im->getImageProperty("comment");
 
 ?>
 ```

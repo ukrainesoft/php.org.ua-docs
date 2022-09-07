@@ -67,11 +67,11 @@ int `$pregFlags`
 
 ```php
 <?php
-$arrayIterator = new ArrayIterator(array('test 1', 'another test', 'test 123'));
-$regexIterator = new RegexIterator($arrayIterator, '/^test/');
+$arrayIterator = new ArrayIterator(array('test 1', 'another test', 'test 123'));
+$regexIterator = new RegexIterator($arrayIterator, '/^test/');
 
-foreach ($regexIterator as $value) {
-    echo $value . "\n";
+foreach ($regexIterator as $value) {
+    echo $value . "\n";
 }
 ?>
 ```

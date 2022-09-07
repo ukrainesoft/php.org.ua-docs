@@ -15,7 +15,7 @@ ibasepconnect — Відкриває постійне з'єднання з ба�
 ### Опис
 
 ```methodsynopsis
-ibase_pconnect(    string $database = ?,    string $username = ?,    string $password = ?,    string $charset = ?,    int $buffers = ?,    int $dialect = ?,    string $role = ?,    int $sync = ?): resource
+ibase_pconnect(    string $database = ?,    string $username = ?,    string $password = ?,    string $charset = ?,    int $buffers = ?,    int $dialect = ?,    string $role = ?,    int $sync = ?): resource
 ```
 
 Відкриває постійне з'єднання із базою даних InterBase.

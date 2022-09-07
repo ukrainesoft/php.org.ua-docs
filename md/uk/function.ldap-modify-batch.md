@@ -15,7 +15,7 @@ ldapmodifybatch — Формування та запуск пакетної зм
 ### Опис
 
 ```methodsynopsis
-ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array $modifications_info,    ?array $controls = null): bool
+ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array $modifications_info,    ?array $controls = null): bool
 ```
 
 Модифікує існуючий запис у каталозі LDAP. Допустимо детальний опис модифікації.
@@ -76,15 +76,15 @@ ldap_modify_batch(    LDAP\Connection $ldap,    string $dn,    array
 
 ```php
 <?php
-$dn = "cn=John Smith,ou=Wizards,dc=example,dc=com";
-$modifs = [
-    [
-        "attrib"  => "telephoneNumber",
-        "modtype" => LDAP_MODIFY_BATCH_ADD,
-        "values"  => ["+1 555 555 1717"],
-    ],
+$dn = "cn=John Smith,ou=Wizards,dc=example,dc=com";
+$modifs = [
+    [
+        "attrib"  => "telephoneNumber",
+        "modtype" => LDAP_MODIFY_BATCH_ADD,
+        "values"  => ["+1 555 555 1717"],
+    ],
 ];
-ldap_modify_batch($connection, $dn, $modifs);
+ldap_modify_batch($connection, $dn, $modifs);
 ?>
 ```
 
@@ -92,21 +92,21 @@ ldap_modify_batch($connection, $dn, $modifs);
 
 ```php
 <?php
-$dn = "cn=John Smith,ou=Wizards,dc=example,dc=com";
-$modifs = [
-    [
-        "attrib"  => "sn",
-        "modtype" => LDAP_MODIFY_BATCH_REPLACE,
-        "values"  => ["Smith-Jones"],
-    ],
-    [
-        "attrib"  => "givenName",
-        "modtype" => LDAP_MODIFY_BATCH_REPLACE,
-        "values"  => ["Jack"],
-    ],
+$dn = "cn=John Smith,ou=Wizards,dc=example,dc=com";
+$modifs = [
+    [
+        "attrib"  => "sn",
+        "modtype" => LDAP_MODIFY_BATCH_REPLACE,
+        "values"  => ["Smith-Jones"],
+    ],
+    [
+        "attrib"  => "givenName",
+        "modtype" => LDAP_MODIFY_BATCH_REPLACE,
+        "values"  => ["Jack"],
+    ],
 ];
-ldap_modify_batch($connection, $dn, $modifs);
-ldap_rename($connection, $dn, "cn=Jack Smith-Jones", NULL, TRUE);
+ldap_modify_batch($connection, $dn, $modifs);
+ldap_rename($connection, $dn, "cn=Jack Smith-Jones", NULL, TRUE);
 ?>
 ```
 
@@ -114,18 +114,18 @@ ldap_rename($connection, $dn, "cn=Jack Smith-Jones", NULL, TRUE);
 
 ```php
 <?php
-$dn = "cn=Jack Smith-Jones,ou=Wizards,dc=example,dc=com";
-$modifs = [
-    [
-        "attrib"  => "mail",
-        "modtype" => LDAP_MODIFY_BATCH_ADD,
-        "values"  => [
-            "jack.smith@example.com",
-            "jack.smith-jones@example.com",
-        ],
-    ],
+$dn = "cn=Jack Smith-Jones,ou=Wizards,dc=example,dc=com";
+$modifs = [
+    [
+        "attrib"  => "mail",
+        "modtype" => LDAP_MODIFY_BATCH_ADD,
+        "values"  => [
+            "jack.smith@example.com",
+            "jack.smith-jones@example.com",
+        ],
+    ],
 ];
-ldap_modify_batch($connection, $dn, $modifs);
+ldap_modify_batch($connection, $dn, $modifs);
 ?>
 ```
 
@@ -133,20 +133,20 @@ ldap_modify_batch($connection, $dn, $modifs);
 
 ```php
 <?php
-$dn = "cn=Jack Smith-Jones,ou=Wizards,dc=example,dc=com";
-$modifs = [
-    [
-        "attrib"  => "userPassword",
-        "modtype" => LDAP_MODIFY_BATCH_REMOVE,
-        "values"  => ["Tr0ub4dor&3"],
-    ],
-    [
-        "attrib"  => "userPassword",
-        "modtype" => LDAP_MODIFY_BATCH_ADD,
-        "values"  => ["correct horse battery staple"],
-    ],
+$dn = "cn=Jack Smith-Jones,ou=Wizards,dc=example,dc=com";
+$modifs = [
+    [
+        "attrib"  => "userPassword",
+        "modtype" => LDAP_MODIFY_BATCH_REMOVE,
+        "values"  => ["Tr0ub4dor&3"],
+    ],
+    [
+        "attrib"  => "userPassword",
+        "modtype" => LDAP_MODIFY_BATCH_ADD,
+        "values"  => ["correct horse battery staple"],
+    ],
 ];
-ldap_modify_batch($connection, $dn, $modifs);
+ldap_modify_batch($connection, $dn, $modifs);
 ?>
 ```
 
@@ -154,23 +154,23 @@ ldap_modify_batch($connection, $dn, $modifs);
 
 ```php
 <?php
-function adifyPw($pw)
+function adifyPw($pw)
 {
-    return iconv("UTF-8", "UTF-16LE", '"' . $pw . '"');
+    return iconv("UTF-8", "UTF-16LE", '"' . $pw . '"');
 }
 
-$dn = "cn=Jack Smith-Jones,ou=Wizards,dc=ad,dc=example,dc=com";
-$modifs = [
-    [
-        "attrib"  => "unicodePwd",
-        "modtype" => LDAP_MODIFY_BATCH_REMOVE,
-        "values"  => [adifyPw("Tr0ub4dor&3")],
-    ],
-    [
-        "attrib"  => "unicodePwd",
-        "modtype" => LDAP_MODIFY_BATCH_ADD,
-        "values"  => [adifyPw("correct horse battery staple")],
-    ],
+$dn = "cn=Jack Smith-Jones,ou=Wizards,dc=ad,dc=example,dc=com";
+$modifs = [
+    [
+        "attrib"  => "unicodePwd",
+        "modtype" => LDAP_MODIFY_BATCH_REMOVE,
+        "values"  => [adifyPw("Tr0ub4dor&3")],
+    ],
+    [
+        "attrib"  => "unicodePwd",
+        "modtype" => LDAP_MODIFY_BATCH_ADD,
+        "values"  => [adifyPw("correct horse battery staple")],
+    ],
 ];
-ldap_modify_batch($connection, $dn, $modifs);
+ldap_modify_batch($connection, $dn, $modifs);
 ```

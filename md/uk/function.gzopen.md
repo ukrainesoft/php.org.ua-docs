@@ -48,7 +48,7 @@ gzopen(string $filename, string $mode, int $use_include_path = 0): resource|fals
 
 ```php
 <?php
-$fp = gzopen("/tmp/file.gz", "r");
+$fp = gzopen("/tmp/file.gz", "r");
 ?>
 ```
 

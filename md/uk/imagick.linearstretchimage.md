@@ -40,13 +40,13 @@ public Imagick::linearStretchImage(float $blackPoint, float $whitePoint): bool
 
 ```php
 <?php
-function linearStretchImage($imagePath, $blackThreshold, $whiteThreshold) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $pixels = $imagick->getImageWidth() * $imagick->getImageHeight();
-    $imagick->linearStretchImage($blackThreshold * $pixels, $whiteThreshold * $pixels);
+function linearStretchImage($imagePath, $blackThreshold, $whiteThreshold) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $pixels = $imagick->getImageWidth() * $imagick->getImageHeight();
+    $imagick->linearStretchImage($blackThreshold * $pixels, $whiteThreshold * $pixels);
 
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

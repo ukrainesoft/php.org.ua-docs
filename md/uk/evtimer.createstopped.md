@@ -18,20 +18,20 @@ EvTimer::createStopped — Створює зупинений спостеріг�
 final
    public
    static
-   EvTimer::createStopped(    
+   EvTimer::createStopped(    
     float
      $after
-   ,    
+   ,    
     float
      $repeat
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -72,21 +72,21 @@ final
 
 ```php
 <?php
-$timer = EvTimer::createStopped(0., 1.02, function ($w) {
-    $w->stop();
+$timer = EvTimer::createStopped(0., 1.02, function ($w) {
+    $w->stop();
 
-    $stat = $w->data;
+    $stat = $w->data;
 
-    // 1 секунда после последнего изменения файла
-    printf("Текущий размер: %ld\n", $stat->attr()['size']);
+    // 1 секунда после последнего изменения файла
+    printf("Текущий размер: %ld\n", $stat->attr()['size']);
 });
 
-$stat = new EvStat("/var/log/messages", 0., function () use ($timer) {
-    // Сброс таймера наблюдателя
-    $timer->again();
+$stat = new EvStat("/var/log/messages", 0., function () use ($timer) {
+    // Сброс таймера наблюдателя
+    $timer->again();
 });
 
-$timer->data = $stat;
+$timer->data = $stat;
 
 Ev::run();
 ?>

@@ -15,10 +15,10 @@ title: мбstrimwidth
 ### Опис
 
 ```methodsynopsis
-mb_strimwidth(    string $string,    int $start,    int $width,    string $trim_marker = "",    ?string $encoding = null): string
+mb_strimwidth(    string $string,    int $start,    int $width,    string $trim_marker = "",    ?string $encoding = null): string
 ```
 
-Обрізає рядок (string) `string` до довжини `width` символів, де символи половинної ширини вважаються як `1`, а символи повної ширини вважаються як `2`. Дивіться [» http://www.unicode.org/reports/tr11/](http://www.unicode.org/reports/tr11/) для отримання детальної інформації про широту символів Східної Азії.
+Обрізає рядок (string) `string` до довжини `width` символів, де символи половинної ширини вважаються як `1`, а символи повної ширини вважаються як `2`. Дивіться [» http://www.unicode.org/reports/tr11/](http://www.unicode.org/reports/tr11/) для отримання детальної інформації про широту символів Східної Азії.
 
 ### Список параметрів
 
@@ -59,8 +59,8 @@ mb_strimwidth(    string $string,    int $start,    int $width,  �
 
 ```php
 <?php
-echo mb_strimwidth("Hello World", 0, 10, "...");
-// Выведет "Hello W..."
+echo mb_strimwidth("Hello World", 0, 10, "...");
+// Выведет "Hello W..."
 ?>
 ```
 

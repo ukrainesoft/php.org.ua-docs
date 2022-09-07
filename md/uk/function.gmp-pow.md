@@ -42,12 +42,12 @@ gmp_pow(GMP|int|string $num, int $exponent): GMP
 
 ```php
 <?php
-$pow1 = gmp_pow("2", 31);
-echo gmp_strval($pow1) . "\n";
-$pow2 = gmp_pow("0", 0);
-echo gmp_strval($pow2) . "\n";
-$pow3 = gmp_pow("2", -1); // Отрицательный показатель степени вызовет предупреждение
-echo gmp_strval($pow3) . "\n";
+$pow1 = gmp_pow("2", 31);
+echo gmp_strval($pow1) . "\n";
+$pow2 = gmp_pow("0", 0);
+echo gmp_strval($pow2) . "\n";
+$pow3 = gmp_pow("2", -1); // Отрицательный показатель степени вызовет предупреждение
+echo gmp_strval($pow3) . "\n";
 ?>
 ```
 

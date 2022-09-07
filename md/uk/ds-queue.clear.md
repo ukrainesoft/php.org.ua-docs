@@ -34,7 +34,7 @@ public Ds\Queue::clear(): void
 
 ```php
 <?php
-$queue = new \Ds\Queue([1, 2, 3]);
+$queue = new \Ds\Queue([1, 2, 3]);
 print_r($queue);
 
 $queue->clear();

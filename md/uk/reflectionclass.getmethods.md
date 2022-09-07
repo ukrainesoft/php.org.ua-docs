@@ -46,14 +46,14 @@ public ReflectionClass::getMethods(?int $filter = null): array
 
 ```php
 <?php
-class Apple {
-    public function firstMethod() { }
-    final protected function secondMethod() { }
-    private static function thirdMethod() { }
+class Apple {
+    public function firstMethod() { }
+    final protected function secondMethod() { }
+    private static function thirdMethod() { }
 }
 
-$class = new ReflectionClass('Apple');
-$methods = $class->getMethods();
+$class = new ReflectionClass('Apple');
+$methods = $class->getMethods();
 var_dump($methods);
 ?>
 ```
@@ -90,14 +90,14 @@ array(3) {
 
 ```php
 <?php
-class Apple {
-    public function firstMethod() { }
-    final protected function secondMethod() { }
-    private static function thirdMethod() { }
+class Apple {
+    public function firstMethod() { }
+    final protected function secondMethod() { }
+    private static function thirdMethod() { }
 }
 
-$class = new ReflectionClass('Apple');
-$methods = $class->getMethods(ReflectionMethod::IS_STATIC | ReflectionMethod::IS_FINAL);
+$class = new ReflectionClass('Apple');
+$methods = $class->getMethods(ReflectionMethod::IS_STATIC | ReflectionMethod::IS_FINAL);
 var_dump($methods);
 ?>
 ```

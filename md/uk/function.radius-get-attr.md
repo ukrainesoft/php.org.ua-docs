@@ -36,16 +36,16 @@ radius_get_attr(resource $radius_handle): mixed
 
 ```php
 <?php
-while ($resa = radius_get_attr($res)) {
+while ($resa = radius_get_attr($res)) {
 
-    if (!is_array($resa)) {
-        printf("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
-        exit;
-    }
+    if (!is_array($resa)) {
+        printf("Ошибка при получении атрибута: %s\n",  radius_strerror($res));
+        exit;
+    }
 
-    $attr = $resa['attr'];
-    $data = $resa['data'];
-    printf("Получен атрибут: %d %d байт %s\n", $attr, strlen($data), bin2hex($data));
+    $attr = $resa['attr'];
+    $data = $resa['data'];
+    printf("Получен атрибут: %d %d байт %s\n", $attr, strlen($data), bin2hex($data));
 }
 ?>
 ```

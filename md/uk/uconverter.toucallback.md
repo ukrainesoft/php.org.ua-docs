@@ -15,7 +15,7 @@ UConverter::toUCallback — Callback-функція за промовчання�
 ### Опис
 
 ```methodsynopsis
-public UConverter::toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
+public UConverter::toUCallback(    int $reason,    string $source,    string $codeUnits,    int &$error): string|int|array|null
 ```
 
 **Увага**

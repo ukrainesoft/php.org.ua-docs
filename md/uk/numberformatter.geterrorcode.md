@@ -46,10 +46,10 @@ numfmt_get_error_code(NumberFormatter $formatter): int
 
 ```php
 <?php
-$fmt  = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-$data = numfmt_format($fmt, 1234567.891234567890000);
-if(intl_is_failure(numfmt_get_error_code($fmt))) {
-    report_error("Formatter error");
+$fmt  = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+$data = numfmt_format($fmt, 1234567.891234567890000);
+if(intl_is_failure(numfmt_get_error_code($fmt))) {
+    report_error("Formatter error");
 }
 ?>
 ```
@@ -58,10 +58,10 @@ if(intl_is_failure(numfmt_get_error_code($fmt))) {
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
 $fmt->format(1234567.891234567890000);
-if(intl_is_failure($fmt->getErrorCode())) {
-    report_error("Formatter error");
+if(intl_is_failure($fmt->getErrorCode())) {
+    report_error("Formatter error");
 }
 ?>
 ```

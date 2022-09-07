@@ -29,7 +29,7 @@ title: Клас SeasLog
     
    public static alert(string $message, array $content = ?, string $logger = ?): bool
 public static analyzerCount(string $level, string $log_path = ?, string $key_word = ?): mixed
-public static analyzerDetail(    string $level,    string $log_path = ?,    string $key_word = ?,    int $start = ?,    int $limit = ?,    int $order = ?): mixed
+public static analyzerDetail(    string $level,    string $log_path = ?,    string $key_word = ?,    int $start = ?,    int $limit = ?,    int $order = ?): mixed
 public static closeLoggerStream(int $model, string $logger): bool
 public static critical(string $message, array $content = ?, string $logger = ?): bool
 public static debug(string $message, array $content = ?, string $logger = ?): bool
@@ -45,7 +45,7 @@ public static getLastLogger(): string
 public static getRequestID(): string
 public static getRequestVariable(int $key): bool
 public static info(string $message, array $content = ?, string $logger = ?): bool
-public static log(    string $level,    string $message = ?,    array $content = ?,    string $logger = ?): bool
+public static log(    string $level,    string $message = ?,    array $content = ?,    string $logger = ?): bool
 public static notice(string $message, array $content = ?, string $logger = ?): bool
 public static setBasePath(string $base_path): bool
 public static setDatetimeFormat(string $format): bool

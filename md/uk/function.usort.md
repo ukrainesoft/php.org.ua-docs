@@ -56,20 +56,20 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-function cmp($a, $b)
+function cmp($a, $b)
 {
-    if ($a == $b) {
-        return 0;
-    }
-    return ($a < $b) ? -1 : 1;
+    if ($a == $b) {
+        return 0;
+    }
+    return ($a < $b) ? -1 : 1;
 }
 
-$a = array(3, 2, 5, 6, 1);
+$a = array(3, 2, 5, 6, 1);
 
-usort($a, "cmp");
+usort($a, "cmp");
 
-foreach ($a as $key => $value) {
-    echo "$key: $value\n";
+foreach ($a as $key => $value) {
+    echo "$key: $value\n";
 }
 ?>
 ```
@@ -88,17 +88,17 @@ foreach ($a as $key => $value) {
 
 ```php
 <?php
-function cmp($a, $b)
+function cmp($a, $b)
 {
-    return $a <=> $b;
+    return $a <=> $b;
 }
 
-$a = array(3, 2, 5, 6, 1);
+$a = array(3, 2, 5, 6, 1);
 
-usort($a, "cmp");
+usort($a, "cmp");
 
-foreach ($a as $key => $value) {
-    echo "$key: $value\n";
+foreach ($a as $key => $value) {
+    echo "$key: $value\n";
 }
 ?>
 ```
@@ -111,19 +111,19 @@ foreach ($a as $key => $value) {
 
 ```php
 <?php
-function cmp($a, $b)
+function cmp($a, $b)
 {
-    return strcmp($a["fruit"], $b["fruit"]);
+    return strcmp($a["fruit"], $b["fruit"]);
 }
 
-$fruits[0]["fruit"] = "lemons";
-$fruits[1]["fruit"] = "apples";
-$fruits[2]["fruit"] = "grapes";
+$fruits[0]["fruit"] = "lemons";
+$fruits[1]["fruit"] = "apples";
+$fruits[2]["fruit"] = "grapes";
 
-usort($fruits, "cmp");
+usort($fruits, "cmp");
 
-foreach ($fruits as $key => $value) {
-    echo "\$fruits[$key]: " . $value["fruit"] . "\n";
+foreach ($fruits as $key => $value) {
+    echo "\$fruits[$key]: " . $value["fruit"] . "\n";
 }
 ?>
 ```
@@ -142,29 +142,29 @@ $fruits[2]: lemons
 
 ```php
 <?php
-class TestObj {
-    private string $name;
+class TestObj {
+    private string $name;
 
-    function __construct($name)
-    {
-        $this->name = $name;
-    }
+    function __construct($name)
+    {
+        $this->name = $name;
+    }
 
-    /* This is the static comparing function: */
-    static function cmp_obj($a, $b)
-    {
-        return strtolower($a->name) <=> strtolower($b->name);
-    }
+    /* This is the static comparing function: */
+    static function cmp_obj($a, $b)
+    {
+        return strtolower($a->name) <=> strtolower($b->name);
+    }
 }
 
-$a[] = new TestObj("c");
-$a[] = new TestObj("b");
-$a[] = new TestObj("d");
+$a[] = new TestObj("c");
+$a[] = new TestObj("b");
+$a[] = new TestObj("d");
 
-usort($a, [TestObj::class, "cmp_obj"]);
+usort($a, [TestObj::class, "cmp_obj"]);
 
-foreach ($a as $item) {
-    echo $item->name . "\n";
+foreach ($a as $item) {
+    echo $item->name . "\n";
 }
 ?>
 ```
@@ -181,20 +181,20 @@ d
 
 ```php
 <?php
-$array[0] = array('key_a' => 'z', 'key_b' => 'c');
-$array[1] = array('key_a' => 'x', 'key_b' => 'b');
-$array[2] = array('key_a' => 'y', 'key_b' => 'a');
+$array[0] = array('key_a' => 'z', 'key_b' => 'c');
+$array[1] = array('key_a' => 'x', 'key_b' => 'b');
+$array[2] = array('key_a' => 'y', 'key_b' => 'a');
 
-function build_sorter($key) {
-    return function ($a, $b) use ($key) {
-        return strnatcmp($a[$key], $b[$key]);
-    };
+function build_sorter($key) {
+    return function ($a, $b) use ($key) {
+        return strnatcmp($a[$key], $b[$key]);
+    };
 }
 
-usort($array, build_sorter('key_b'));
+usort($array, build_sorter('key_b'));
 
-foreach ($array as $item) {
-    echo $item['key_a'] . ', ' . $item['key_b'] . "\n";
+foreach ($array as $item) {
+    echo $item['key_a'] . ', ' . $item['key_b'] . "\n";
 }
 ?>
 ```
@@ -213,18 +213,18 @@ z, c
 
 ```php
 <?php
-$people[0] = ['first' => 'Adam', 'last' => 'West'];
-$people[1] = ['first' => 'Alec', 'last' => 'Baldwin'];
-$people[2] = ['first' => 'Adam', 'last' => 'Baldwin'];
+$people[0] = ['first' => 'Adam', 'last' => 'West'];
+$people[1] = ['first' => 'Alec', 'last' => 'Baldwin'];
+$people[2] = ['first' => 'Adam', 'last' => 'Baldwin'];
 
-function sorter(array $a, array $b) {
-    return [$a['last'], $a['first']] <=> [$b['last'], $b['first']];
+function sorter(array $a, array $b) {
+    return [$a['last'], $a['first']] <=> [$b['last'], $b['first']];
 }
 
-usort($people, 'sorter');
+usort($people, 'sorter');
 
-foreach ($people as $person) {
-    print $person['last'] . ', ' . $person['first'] . PHP_EOL;
+foreach ($people as $person) {
+    print $person['last'] . ', ' . $person['first'] . PHP_EOL;
 }
 ?>
 ```

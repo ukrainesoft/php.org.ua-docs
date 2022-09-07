@@ -46,7 +46,7 @@ intlcal_get_error_message(IntlCalendar $calendar): string|false
 
 ```php
 <?php
-$cal = IntlCalendar::createInstance('UTC', 'en_US');
+$cal = IntlCalendar::createInstance('UTC', 'en_US');
 var_dump($cal->getErrorMessage());
 
 $cal->getWeekendTransition(IntlCalendar::DOW_WEDNESDAY);

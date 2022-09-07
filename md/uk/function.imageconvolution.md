@@ -15,7 +15,7 @@ imageconvolution — Накладення матриці 3х3, що викрив
 ### Опис
 
 ```methodsynopsis
-imageconvolution(    GdImage $image,    array $matrix,    float $divisor,    float $offset): bool
+imageconvolution(    GdImage $image,    array $matrix,    float $divisor,    float $offset): bool
 ```
 
 Накладає матрицю, що викривляє, на зображення, використовуючи заданий коефіцієнт і зсув.
@@ -54,13 +54,13 @@ imageconvolution(    GdImage $image,    array $matrix,    float $div
 
 ```php
 <?php
-$image = imagecreatefromgif('http://www.php.net/images/php.gif');
+$image = imagecreatefromgif('http://www.php.net/images/php.gif');
 
-$emboss = array(array(2, 0, 0), array(0, -1, 0), array(0, 0, -1));
-imageconvolution($image, $emboss, 1, 127);
+$emboss = array(array(2, 0, 0), array(0, -1, 0), array(0, 0, -1));
+imageconvolution($image, $emboss, 1, 127);
 
-header('Content-Type: image/png');
-imagepng($image, null, 9);
+header('Content-Type: image/png');
+imagepng($image, null, 9);
 ?>
 ```
 
@@ -72,18 +72,18 @@ imagepng($image, null, 9);
 
 ```php
 <?php
-$image = imagecreatetruecolor(180,40);
+$image = imagecreatetruecolor(180,40);
 
-// Пишет текст и применяет размытие к изображению
-imagestring($image, 5, 10, 8, 'Gaussian Blur Text', 0x00ff00);
-$gaussian = array(array(1.0, 2.0, 1.0), array(2.0, 4.0, 2.0), array(1.0, 2.0, 1.0));
-imageconvolution($image, $gaussian, 16, 0);
+// Пишет текст и применяет размытие к изображению
+imagestring($image, 5, 10, 8, 'Gaussian Blur Text', 0x00ff00);
+$gaussian = array(array(1.0, 2.0, 1.0), array(2.0, 4.0, 2.0), array(1.0, 2.0, 1.0));
+imageconvolution($image, $gaussian, 16, 0);
 
-// Переписывает текст для сравнения
-imagestring($image, 5, 10, 18, 'Gaussian Blur Text', 0x00ff00);
+// Переписывает текст для сравнения
+imagestring($image, 5, 10, 18, 'Gaussian Blur Text', 0x00ff00);
 
-header('Content-Type: image/png');
-imagepng($image, null, 9);
+header('Content-Type: image/png');
+imagepng($image, null, 9);
 ?>
 ```
 

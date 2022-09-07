@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Для модуля потрібно [» libsodium](https://libsodium.org/)
+Для модуля потрібно [» libsodium](https://libsodium.org/)

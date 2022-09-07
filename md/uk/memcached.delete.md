@@ -40,8 +40,8 @@ public Memcached::delete(string $key, int $time = 0): bool
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
 $m->delete('key1');
 ?>

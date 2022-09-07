@@ -47,16 +47,16 @@ ftp_close(FTP\Connection $ftp): bool
 ```php
 <?php
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// вывод текущей директории
-echo ftp_pwd($ftp); // /
+// вывод текущей директории
+echo ftp_pwd($ftp); // /
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 ?>
 ```

@@ -15,7 +15,7 @@ tradercdlstalledpattern - Гальмування
 ### Опис
 
 ```methodsynopsis
-trader_cdlstalledpattern(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlstalledpattern(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

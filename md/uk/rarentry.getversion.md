@@ -35,11 +35,11 @@ public RarEntry::getVersion(): int
 ```php
 <?php
 
-$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
 
-$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
 
-echo "Версия Rar, необходимая для распаковки: " . $entry->getVersion();
+echo "Версия Rar, необходимая для распаковки: " . $entry->getVersion();
 
 ?>
 ```

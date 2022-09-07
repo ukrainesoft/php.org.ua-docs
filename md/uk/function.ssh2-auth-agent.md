@@ -42,12 +42,12 @@ ssh2_auth_agent(resource $session, string $username): bool
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
+$connection = ssh2_connect('shell.example.com', 22);
 
-if (ssh2_auth_agent($connection, 'username')) {
-  echo "Успешная аутентификация !\n";
-} else {
-  die('Неудачная аутентификация...');
+if (ssh2_auth_agent($connection, 'username')) {
+  echo "Успешная аутентификация !\n";
+} else {
+  die('Неудачная аутентификация...');
 }
 ?>
 ```

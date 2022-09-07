@@ -15,7 +15,7 @@ ImagickDraw::setViewbox — Встановлює загальний розмір
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::setViewbox(    int $x1,    int $y1,    int $x2,    int $y2): bool
+public ImagickDraw::setViewbox(    int $x1,    int $y1,    int $x2,    int $y2): bool
 ```
 
 **Увага**
@@ -52,36 +52,36 @@ public ImagickDraw::setViewbox(    int $x1,    int $y1,    int $x2,�
 
 ```php
 <?php
-function setViewBox($strokeColor, $fillColor, $backgroundColor) {
+function setViewBox($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
 
-    /*
+    /*
 
-    Устанавливает общий размер холста, который будет записан с векторными данными рисунка. Обычно для этого используется размер изображения холста. Когда векторные данные сохраняются в форматах SVG или MVG, окно просмотра используется для указания размера изображения холста, на котором средство просмотра будет отображать векторные данные.
+    Устанавливает общий размер холста, который будет записан с векторными данными рисунка. Обычно для этого используется размер изображения холста. Когда векторные данные сохраняются в форматах SVG или MVG, окно просмотра используется для указания размера изображения холста, на котором средство просмотра будет отображать векторные данные.
 
-     */
+     */
 
-    $draw->circle(250, 250, 250, 0);
-    $draw->setviewbox(0, 0, 200, 200);
-    $draw->circle(125, 250, 250, 250);
-    $draw->translate(250, 125);
-    $draw->circle(0, 0, 125, 0);
+    $draw->circle(250, 250, 250, 0);
+    $draw->setviewbox(0, 0, 200, 200);
+    $draw->circle(125, 250, 250, 250);
+    $draw->translate(250, 125);
+    $draw->circle(0, 0, 125, 0);
 
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

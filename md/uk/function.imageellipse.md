@@ -15,7 +15,7 @@ imageellipse - Малювання еліпса
 ### Опис
 
 ```methodsynopsis
-imageellipse(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $color): bool
+imageellipse(    GdImage $image,    int $center_x,    int $center_y,    int $width,    int $height,    int $color): bool
 ```
 
 Малює еліпс із центром у заданих координатах.
@@ -63,23 +63,23 @@ y-координат центру.
 ```php
 <?php
 
-// Создание пустого изображения.
-$image = imagecreatetruecolor(400, 300);
+// Создание пустого изображения.
+$image = imagecreatetruecolor(400, 300);
 
-// Выбор цвета фона.
-$bg = imagecolorallocate($image, 0, 0, 0);
+// Выбор цвета фона.
+$bg = imagecolorallocate($image, 0, 0, 0);
 
-// Закрашивание фона выбранным цветом.
-imagefill($image, 0, 0, $bg);
+// Закрашивание фона выбранным цветом.
+imagefill($image, 0, 0, $bg);
 
-// Выбор цвета эллипса.
-$col_ellipse = imagecolorallocate($image, 255, 255, 255);
+// Выбор цвета эллипса.
+$col_ellipse = imagecolorallocate($image, 255, 255, 255);
 
-// Рисование эллипса.
-imageellipse($image, 200, 150, 300, 200, $col_ellipse);
+// Рисование эллипса.
+imageellipse($image, 200, 150, 300, 200, $col_ellipse);
 
-// Вывод изображения.
-header("Content-type: image/png");
+// Вывод изображения.
+header("Content-type: image/png");
 imagepng($image);
 
 ?>

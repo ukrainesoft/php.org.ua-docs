@@ -20,7 +20,7 @@ gzcompress(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_DEFLATE)
 
 Ця функція стискає рядок, використовуючи формат даних `ZLIB`
 
-Детальніше про алгоритм стиснення ZLIB дивіться документ "[» Формат стиснення ZLIB. Специфікація версії 3.3](http://www.faqs.org/rfcs/rfc1950)(RFC 1950).
+Детальніше про алгоритм стиснення ZLIB дивіться документ "[» Формат стиснення ZLIB. Специфікація версії 3.3](http://www.faqs.org/rfcs/rfc1950)(RFC 1950).
 
 > **Зауваження**
 > 
@@ -52,8 +52,8 @@ gzcompress(string $data, int $level = -1, int $encoding = ZLIB_ENCODING_DEFLATE)
 
 ```php
 <?php
-$compressed = gzcompress('Сожми меня', 9);
-echo $compressed;
+$compressed = gzcompress('Сожми меня', 9);
+echo $compressed;
 ?>
 ```
 

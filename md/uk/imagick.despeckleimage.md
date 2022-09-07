@@ -38,11 +38,11 @@ public Imagick::despeckleImage(): bool
 
 ```php
 <?php
-function despeckleImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->despeckleImage();
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function despeckleImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->despeckleImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

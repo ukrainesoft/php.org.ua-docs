@@ -15,7 +15,7 @@ streamWrapper::streamopen — Відкриває файл або URL
 ### Опис
 
 ```methodsynopsis
-public streamWrapper::stream_open(    string $path,    string $mode,    int $options,    ?string &$opened_path): bool
+public streamWrapper::stream_open(    string $path,    string $mode,    int $options,    ?string &$opened_path): bool
 ```
 
 Цей метод викликається відразу після ініціалізації обгортки (наприклад, [fopen()](function.fopen.md) і [filegetcontents()](function.file-get-contents.md)

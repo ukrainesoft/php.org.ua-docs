@@ -12,47 +12,47 @@ title: Приклади
 
 ```php
 <?php
-// Создаём и запускаем таймер на 2 секунды
-$w1 = new EvTimer(2, 0, function () {
-    echo "2 секунды прошло\n";
+// Создаём и запускаем таймер на 2 секунды
+$w1 = new EvTimer(2, 0, function () {
+    echo "2 секунды прошло\n";
 });
 
-// Создаём и запускаем таймер, который сработает через 2 секунды, после чего будет срабатывать
-// раз в секунду, пока вы его вручную не остановите
-$w2 = new EvTimer(2, 1, function ($w) {
-    echo "вызывается раз в секунду, первое срабатывание через 2 секунды\n";
-    echo "итерация = ", Ev::iteration(), PHP_EOL;
+// Создаём и запускаем таймер, который сработает через 2 секунды, после чего будет срабатывать
+// раз в секунду, пока вы его вручную не остановите
+$w2 = new EvTimer(2, 1, function ($w) {
+    echo "вызывается раз в секунду, первое срабатывание через 2 секунды\n";
+    echo "итерация = ", Ev::iteration(), PHP_EOL;
 
-    // Останавливаем наблюдателя через 5 итераций
-    Ev::iteration() == 5 and $w->stop();
-    // Остановливаем наблюдателя, если следующий вызов приведёт к десятой (или больше) итерации
-    Ev::iteration() >= 10 and $w->stop();
+    // Останавливаем наблюдателя через 5 итераций
+    Ev::iteration() == 5 and $w->stop();
+    // Остановливаем наблюдателя, если следующий вызов приведёт к десятой (или больше) итерации
+    Ev::iteration() >= 10 and $w->stop();
 });
 
-// Создаём остановленный таймер. Он будет неактивен, пока мы его не запустим
-$w_stopped = EvTimer::createStopped(10, 5, function($w) {
-    echo "Callback-функция таймера, созданного остановленным\n";
+// Создаём остановленный таймер. Он будет неактивен, пока мы его не запустим
+$w_stopped = EvTimer::createStopped(10, 5, function($w) {
+    echo "Callback-функция таймера, созданного остановленным\n";
 
-    // Останавливаем наблюдателя через 2 итерации
-    Ev::iteration() >= 2 and $w->stop();
+    // Останавливаем наблюдателя через 2 итерации
+    Ev::iteration() >= 2 and $w->stop();
 });
 
-// Запускаем событийный цикл, пока работает хотя бы один наблюдатель или пока не вызван Ev::stop()
+// Запускаем событийный цикл, пока работает хотя бы один наблюдатель или пока не вызван Ev::stop()
 Ev::run();
 
-// Запускаем и смотрим, как он работает
+// Запускаем и смотрим, как он работает
 $w_stopped->start();
-echo "Запускаем одну итерацию\n";
+echo "Запускаем одну итерацию\n";
 Ev::run(Ev::RUN_ONCE);
 
-echo "Перезапускаем второго наблюдателя и пытаемся отловить те же события, но не блокируем\n";
+echo "Перезапускаем второго наблюдателя и пытаемся отловить те же события, но не блокируем\n";
 $w2->again();
 Ev::run(Ev::RUN_NOWAIT);
 
-$w = new EvTimer(10, 0, function() {});
-echo "Запускаем блокирующий цикл\n";
+$w = new EvTimer(10, 0, function() {});
+echo "Запускаем блокирующий цикл\n";
 Ev::run();
-echo "END\n";
+echo "END\n";
 ?>
 ```
 
@@ -87,8 +87,8 @@ END
 
 ```php
 <?php
-$w = new EvPeriodic(0., 10.5, NULL, function ($w, $revents) {
-    echo time(), PHP_EOL;
+$w = new EvPeriodic(0., 10.5, NULL, function ($w, $revents) {
+    echo time(), PHP_EOL;
 });
 
 Ev::run();
@@ -99,14 +99,14 @@ Ev::run();
 
 ```php
 <?php
-// Срабатывает раз в 10.5 секунд
+// Срабатывает раз в 10.5 секунд
 
-function reschedule_cb ($watcher, $now) {
-    return $now + (10.5. - fmod($now, 10.5));
+function reschedule_cb ($watcher, $now) {
+    return $now + (10.5. - fmod($now, 10.5));
 }
 
-$w = new EvPeriodic(0., 0., "reschedule_cb", function ($w, $revents) {
-    echo time(), PHP_EOL;
+$w = new EvPeriodic(0., 0., "reschedule_cb", function ($w, $revents) {
+    echo time(), PHP_EOL;
 });
 
 Ev::run();
@@ -117,9 +117,9 @@ Ev::run();
 
 ```php
 <?php
-// Срабатывает раз в 10.5 секунд начиная с текущего момента
-$w = new EvPeriodic(fmod(Ev::now(), 10.5), 10.5, NULL, function ($w, $revents) {
-    echo time(), PHP_EOL;
+// Срабатывает раз в 10.5 секунд начиная с текущего момента
+$w = new EvPeriodic(fmod(Ev::now(), 10.5), 10.5, NULL, function ($w, $revents) {
+    echo time(), PHP_EOL;
 });
 
 Ev::run();
@@ -130,9 +130,9 @@ Ev::run();
 
 ```php
 <?php
-// Ждём, пока STDIN не станет читаемым
-$w = new EvIo(STDIN, Ev::READ, function ($watcher, $revents) {
-    echo "STDIN is readable\n";
+// Ждём, пока STDIN не станет читаемым
+$w = new EvIo(STDIN, Ev::READ, function ($watcher, $revents) {
+    echo "STDIN is readable\n";
 });
 
 Ev::run(Ev::RUN_ONCE);
@@ -143,81 +143,81 @@ Ev::run(Ev::RUN_ONCE);
 
 ```php
 <?php
-/* Используем асинхронный ввод/вывод для доступа к сокету */
+/* Используем асинхронный ввод/вывод для доступа к сокету */
 
-// Модуль `sockets' продолжит логировать предупреждения
-// для EINPROGRESS, EAGAIN/EWOULDBLOCK etc.
+// Модуль `sockets' продолжит логировать предупреждения
+// для EINPROGRESS, EAGAIN/EWOULDBLOCK etc.
 error_reporting(E_ERROR);
 
-$e_nonblocking = array (/*EAGAIN или EWOULDBLOCK*/11, /*EINPROGRESS*/115);
+$e_nonblocking = array (/*EAGAIN или EWOULDBLOCK*/11, /*EINPROGRESS*/115);
 
-// Получаем порт для сервиса WWW
-$service_port = getservbyname('www', 'tcp');
+// Получаем порт для сервиса WWW
+$service_port = getservbyname('www', 'tcp');
 
-// Получаем IP-адрес целевого хоста
-$address = gethostbyname('google.co.uk');
+// Получаем IP-адрес целевого хоста
+$address = gethostbyname('google.co.uk');
 
-// Создаём сокет TCP/IP
-$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
-if ($socket === FALSE) {
-    echo "Ошибка при вызове socket_create(): причина: "
-        .socket_strerror(socket_last_error()) . "\n";
+// Создаём сокет TCP/IP
+$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+if ($socket === FALSE) {
+    echo "Ошибка при вызове socket_create(): причина: "
+        .socket_strerror(socket_last_error()) . "\n";
 }
 
-// Устанавливаем флаг O_NONBLOCK
+// Устанавливаем флаг O_NONBLOCK
 socket_set_nonblock($socket);
 
-// Прерываем по превышению времени ожидания
-$timeout_watcher = new EvTimer(10.0, 0., function () use ($socket) {
-    socket_close($socket);
-    Ev::stop(Ev::BREAK_ALL);
+// Прерываем по превышению времени ожидания
+$timeout_watcher = new EvTimer(10.0, 0., function () use ($socket) {
+    socket_close($socket);
+    Ev::stop(Ev::BREAK_ALL);
 });
 
-// Посылаем запрос HEAD когда сокет доступен для записи
-$write_watcher = new EvIo($socket, Ev::WRITE, function ($w)
-    use ($socket, $timeout_watcher, $e_nonblocking)
+// Посылаем запрос HEAD когда сокет доступен для записи
+$write_watcher = new EvIo($socket, Ev::WRITE, function ($w)
+    use ($socket, $timeout_watcher, $e_nonblocking)
 {
-    // Останавливаем наблюдателя $timeout_watcher
-    $timeout_watcher->stop();
-    // Останавливаем наблюдателя $write_watcher
-    $w->stop();
+    // Останавливаем наблюдателя $timeout_watcher
+    $timeout_watcher->stop();
+    // Останавливаем наблюдателя $write_watcher
+    $w->stop();
 
-    $in = "HEAD / HTTP/1.1\r\n";
-    $in .= "Host: google.co.uk\r\n";
-    $in .= "Connection: Close\r\n\r\n";
+    $in = "HEAD / HTTP/1.1\r\n";
+    $in .= "Host: google.co.uk\r\n";
+    $in .= "Connection: Close\r\n\r\n";
 
-    if (!socket_write($socket, $in, strlen($in))) {
-        trigger_error("Ошибка записи $in в сокет", E_USER_ERROR);
-    }
+    if (!socket_write($socket, $in, strlen($in))) {
+        trigger_error("Ошибка записи $in в сокет", E_USER_ERROR);
+    }
 
-    $read_watcher = new EvIo($socket, Ev::READ, function ($w, $re)
-        use ($socket, $e_nonblocking)
-    {
-        // Сокет доступен для чтения. Читаем 20 байт в неблокирующем режиме
-        $ret = socket_recv($socket, $out, 20, MSG_DONTWAIT);
+    $read_watcher = new EvIo($socket, Ev::READ, function ($w, $re)
+        use ($socket, $e_nonblocking)
+    {
+        // Сокет доступен для чтения. Читаем 20 байт в неблокирующем режиме
+        $ret = socket_recv($socket, $out, 20, MSG_DONTWAIT);
 
-        if ($ret) {
-            echo $out;
-        } elseif ($ret === 0) {
-            // Все прочтено
-            $w->stop();
-            socket_close($socket);
-            return;
-        }
+        if ($ret) {
+            echo $out;
+        } elseif ($ret === 0) {
+            // Все прочтено
+            $w->stop();
+            socket_close($socket);
+            return;
+        }
 
-        // Ловим EINPROGRESS, EAGAIN или EWOULDBLOCK
-        if (in_array(socket_last_error(), $e_nonblocking)) {
-            return;
-        }
+        // Ловим EINPROGRESS, EAGAIN или EWOULDBLOCK
+        if (in_array(socket_last_error(), $e_nonblocking)) {
+            return;
+        }
 
-        $w->stop();
-        socket_close($socket);
-    });
+        $w->stop();
+        socket_close($socket);
+    });
 
-    Ev::run();
+    Ev::run();
 });
 
-$result = socket_connect($socket, $address, $service_port);
+$result = socket_connect($socket, $address, $service_port);
 
 Ev::run();
 ?>
@@ -244,30 +244,30 @@ Connection: close
 ```php
 <?php
 /*
-* Пытаемся получить встраиваемый цикл и встроить его в событийный цикл по умолчанию.
-* Если это невозможно - используем цикл по умолчанию. Цикл по умолчанию
-* хранится в $loop_hi, а встраиваемый в $loop_lo (который будет равен $loop_hi в случае
-* если мы не будем использовать встраиваемый цикл).
+* Пытаемся получить встраиваемый цикл и встроить его в событийный цикл по умолчанию.
+* Если это невозможно - используем цикл по умолчанию. Цикл по умолчанию
+* хранится в $loop_hi, а встраиваемый в $loop_lo (который будет равен $loop_hi в случае
+* если мы не будем использовать встраиваемый цикл).
 *
-* Пример взят из
-* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
+* Пример взят из
+* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
-$loop_hi = EvLoop::defaultLoop();
-$loop_lo = NULL;
-$embed   = NULL;
+$loop_hi = EvLoop::defaultLoop();
+$loop_lo = NULL;
+$embed   = NULL;
 
 /*
-* Смотрим, есть ли возможность получить работающий
-* (Значение 0 означает автоопределение)
+* Смотрим, есть ли возможность получить работающий
+* (Значение 0 означает автоопределение)
 */
-$loop_lo = Ev::embeddableBackends() & Ev::recommendedBackends()
-    ? new EvLoop(Ev::embeddableBackends() & Ev::recommendedBackends())
-    : 0;
+$loop_lo = Ev::embeddableBackends() & Ev::recommendedBackends()
+    ? new EvLoop(Ev::embeddableBackends() & Ev::recommendedBackends())
+    : 0;
 
-if ($loop_lo) {
-    $embed = new EvEmbed($loop_lo, function () {});
-} else {
-    $loop_lo = $loop_hi;
+if ($loop_lo) {
+    $embed = new EvEmbed($loop_lo, function () {});
+} else {
+    $loop_lo = $loop_hi;
 }
 ?>
 ```
@@ -277,29 +277,29 @@ if ($loop_lo) {
 ```php
 <?php
 /*
-* Проверяем, что бэкенд kqueue доступен, но не рекомендован, и создаём его для
-* работы с сокетами (которые обычно работают с любой реализацией kqueue).
-* Сохраняем событийный цикл kqueue/socket-only в loop_socket. (Можно опционально
-* использовать флаг EVFLAG_NOENV)
+* Проверяем, что бэкенд kqueue доступен, но не рекомендован, и создаём его для
+* работы с сокетами (которые обычно работают с любой реализацией kqueue).
+* Сохраняем событийный цикл kqueue/socket-only в loop_socket. (Можно опционально
+* использовать флаг EVFLAG_NOENV)
 *
-* Пример взят из
-* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
+* Пример взят из
+* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
-$loop        = EvLoop::defaultLoop();
-$socket_loop = NULL;
-$embed       = NULL;
+$loop        = EvLoop::defaultLoop();
+$socket_loop = NULL;
+$embed       = NULL;
 
-if (Ev::supportedBackends() & ~Ev::recommendedBackends() & Ev::BACKEND_KQUEUE) {
-    if (($socket_loop = new EvLoop(Ev::BACKEND_KQUEUE))) {
-        $embed = new EvEmbed($loop);
-    }
+if (Ev::supportedBackends() & ~Ev::recommendedBackends() & Ev::BACKEND_KQUEUE) {
+    if (($socket_loop = new EvLoop(Ev::BACKEND_KQUEUE))) {
+        $embed = new EvEmbed($loop);
+    }
 }
 
-if (!$socket_loop) {
-    $socket_loop = $loop;
+if (!$socket_loop) {
+    $socket_loop = $loop;
 }
 
-// теперь используем $socket_loop для всех сокетов, а $loop для всего остального
+// теперь используем $socket_loop для всех сокетов, а $loop для всего остального
 ?>
 ```
 
@@ -307,9 +307,9 @@ if (!$socket_loop) {
 
 ```php
 <?php
-$w = new EvSignal(SIGTERM, function ($watcher) {
-    echo "Получен сигнал SIGTERM\n";
-    $watcher->stop();
+$w = new EvSignal(SIGTERM, function ($watcher) {
+    echo "Получен сигнал SIGTERM\n";
+    $watcher->stop();
 });
 
 Ev::run();
@@ -320,20 +320,20 @@ Ev::run();
 
 ```php
 <?php
-// Используем интервал опроса в 10 секунд
-$w = new EvStat("/var/log/messages", 8, function ($w) {
-    echo "/var/log/messages изменён\n";
+// Используем интервал опроса в 10 секунд
+$w = new EvStat("/var/log/messages", 8, function ($w) {
+    echo "/var/log/messages изменён\n";
 
-    $attr = $w->attr();
+    $attr = $w->attr();
 
-    if ($attr['nlink']) {
-        printf("Текущий размер: %ld\n", $attr['size']);
-        printf("Текущее значение atime: %ld\n", $attr['atime']);
-        printf("Текущее значение mtime: %ld\n", $attr['mtime']);
-    } else {
-        fprintf(STDERR, "файл `messages` отсутствует!");
-        $w->stop();
-    }
+    if ($attr['nlink']) {
+        printf("Текущий размер: %ld\n", $attr['size']);
+        printf("Текущее значение atime: %ld\n", $attr['atime']);
+        printf("Текущее значение mtime: %ld\n", $attr['mtime']);
+    } else {
+        fprintf(STDERR, "файл `messages` отсутствует!");
+        $w->stop();
+    }
 });
 
 Ev::run();
@@ -344,21 +344,21 @@ Ev::run();
 
 ```php
 <?php
-$timer = EvTimer::createStopped(0., 1.02, function ($w) {
-    $w->stop();
+$timer = EvTimer::createStopped(0., 1.02, function ($w) {
+    $w->stop();
 
-    $stat = $w->data;
+    $stat = $w->data;
 
-    // 1 секунду после последнего изменения файла
-    printf("Текущий размер: %ld\n", $stat->attr()['size']);
+    // 1 секунду после последнего изменения файла
+    printf("Текущий размер: %ld\n", $stat->attr()['size']);
 });
 
-$stat = new EvStat("/var/log/messages", 0., function () use ($timer) {
-    // Сбрасываем наблюдателя $timer
-    $timer->again();
+$stat = new EvStat("/var/log/messages", 0., function () use ($timer) {
+    // Сбрасываем наблюдателя $timer
+    $timer->again();
 });
 
-$timer->data = $stat;
+$timer->data = $stat;
 
 Ev::run();
 ?>
@@ -368,24 +368,24 @@ Ev::run();
 
 ```php
 <?php
-$pid = pcntl_fork();
+$pid = pcntl_fork();
 
-if ($pid == -1) {
-    fprintf(STDERR, "pcntl_fork failed\n");
-} elseif ($pid) {
-    $w = new EvChild($pid, FALSE, function ($w, $revents) {
-        $w->stop();
+if ($pid == -1) {
+    fprintf(STDERR, "pcntl_fork failed\n");
+} elseif ($pid) {
+    $w = new EvChild($pid, FALSE, function ($w, $revents) {
+        $w->stop();
 
-        printf("Процесс %d вышел с кодом %d\n", $w->rpid, $w->rstatus);
-    });
+        printf("Процесс %d вышел с кодом %d\n", $w->rpid, $w->rstatus);
+    });
 
-    Ev::run();
+    Ev::run();
 
-    // Защита от зомби процессов
-    pcntl_wait($status);
-} else {
-    // Порождённый потомок
-    exit(2);
+    // Защита от зомби процессов
+    pcntl_wait($status);
+} else {
+    // Порождённый потомок
+    exit(2);
 }
 ?>
 ```

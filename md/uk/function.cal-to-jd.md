@@ -15,7 +15,7 @@ calтоjd - Перетворює задану дату на юліанську
 ### Опис
 
 ```methodsynopsis
-cal_to_jd(    int $calendar,    int $month,    int $day,    int $year): int
+cal_to_jd(    int $calendar,    int $month,    int $day,    int $year): int
 ```
 
 **calтоjd()** розраховує кількість днів у юліанському календарі для дати у зазначеному календарі `calendar`. Список календарів, що підтримуються `calendar` **`CAL_GREGORIAN`** **`CAL_JULIAN`** **`CAL_JEWISH`** і **`CAL_FRENCH`**

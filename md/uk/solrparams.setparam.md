@@ -41,9 +41,9 @@ public SolrParams::setParam(string $name, string $value): SolrParams
 ```php
 <?php
 
-$param = new SolrParams();
+$param = new SolrParams();
 
-$param->setParam('q', 'solr')->setParam('rows', 2);
+$param->setParam('q', 'solr')->setParam('rows', 2);
 
 ?>
 ```

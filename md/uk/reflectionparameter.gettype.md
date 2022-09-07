@@ -36,15 +36,15 @@ public ReflectionParameter::getType(): ?ReflectionType
 
 ```php
 <?php
-function someFunction(int $param, $param2) {}
+function someFunction(int $param, $param2) {}
 
-$reflectionFunc = new ReflectionFunction('someFunction');
-$reflectionParams = $reflectionFunc->getParameters();
-$reflectionType1 = $reflectionParams[0]->getType();
-$reflectionType2 = $reflectionParams[1]->getType();
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParams = $reflectionFunc->getParameters();
+$reflectionType1 = $reflectionParams[0]->getType();
+$reflectionType2 = $reflectionParams[1]->getType();
 
-assert($reflectionType1 instanceof ReflectionNamedType);
-echo $reflectionType1->getName(), PHP_EOL;
+assert($reflectionType1 instanceof ReflectionNamedType);
+echo $reflectionType1->getName(), PHP_EOL;
 var_dump($reflectionType2);
 ?>
 ```
@@ -60,14 +60,14 @@ NULL
 
 ```php
 <?php
-function someFunction(int $param, $param2) {}
+function someFunction(int $param, $param2) {}
 
-$reflectionFunc = new ReflectionFunction('someFunction');
-$reflectionParams = $reflectionFunc->getParameters();
-$reflectionType1 = $reflectionParams[0]->getType();
-$reflectionType2 = $reflectionParams[1]->getType();
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParams = $reflectionFunc->getParameters();
+$reflectionType1 = $reflectionParams[0]->getType();
+$reflectionType2 = $reflectionParams[1]->getType();
 
-echo $reflectionType1, PHP_EOL;
+echo $reflectionType1, PHP_EOL;
 var_dump($reflectionType2);
 ?>
 ```
@@ -85,15 +85,15 @@ NULL
 
 ```php
 <?php
-function getAllTypes(ReflectionParameter $reflectionParameter): array
+function getAllTypes(ReflectionParameter $reflectionParameter): array
 {
-    $reflectionType = $reflectionParameter->getType();
+    $reflectionType = $reflectionParameter->getType();
 
-    if (!$reflectionType) return [];
+    if (!$reflectionType) return [];
 
-    return $reflectionType instanceof ReflectionUnionType
-        ? $reflectionType->getTypes()
-        : [$reflectionType];
+    return $reflectionType instanceof ReflectionUnionType
+        ? $reflectionType->getTypes()
+        : [$reflectionType];
 }
 ?>
 ```

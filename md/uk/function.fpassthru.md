@@ -41,15 +41,15 @@ fpassthru(resource $stream): int
 ```php
 <?php
 
-// открываем файл в бинарном режиме
-$name = './img/ok.png';
-$fp = fopen($name, 'rb');
+// открываем файл в бинарном режиме
+$name = './img/ok.png';
+$fp = fopen($name, 'rb');
 
-// отправляем нужные заголовки
-header("Content-Type: image/png");
-header("Content-Length: " . filesize($name));
+// отправляем нужные заголовки
+header("Content-Type: image/png");
+header("Content-Length: " . filesize($name));
 
-// сбрасываем картинку и останавливаем выполнение скрипта
+// сбрасываем картинку и останавливаем выполнение скрипта
 fpassthru($fp);
 exit;
 

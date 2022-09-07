@@ -46,8 +46,8 @@ numfmt_get_error_message(NumberFormatter $formatter): string
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-$data = numfmt_format($fmt, 1234567.891234567890000);
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+$data = numfmt_format($fmt, 1234567.891234567890000);
 var_dump(numfmt_get_error_message($fmt));
 ?>
 ```
@@ -56,7 +56,7 @@ var_dump(numfmt_get_error_message($fmt));
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
 $fmt->format(1234567.891234567890000);
 var_dump(numfmt_get_error_message($fmt));
 ?>

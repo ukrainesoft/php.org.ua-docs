@@ -34,18 +34,18 @@ public mysql_xdevapi\Result::getWarnings(): array
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("CREATE DATABASE foo")->execute();
-$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
+$session->sql("CREATE DATABASE foo")->execute();
+$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
 
-$schema = $session->getSchema("foo");
-$table  = $schema->getTable("test_table");
+$schema = $session->getSchema("foo");
+$table  = $schema->getTable("test_table");
 
 $table->insert(['x'])->values([1])->values([2])->execute();
 
-$res = $table->select(['x/0 as bad_x'])->execute();
-$warnings = $res->getWarnings();
+$res = $table->select(['x/0 as bad_x'])->execute();
+$warnings = $res->getWarnings();
 
 print_r($warnings);
 ?>

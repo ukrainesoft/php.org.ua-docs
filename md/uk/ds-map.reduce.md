@@ -54,21 +54,21 @@ callback(mixed $carry, mixed $key, mixed $value): mixed
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 
-$callback = function($carry, $key, $value) {
-    return $carry * $value;
+$callback = function($carry, $key, $value) {
+    return $carry * $value;
 };
 
-var_dump($map->reduce($callback, 5));
+var_dump($map->reduce($callback, 5));
 
-// Итерации:
+// Итерации:
 //
-// $carry = $initial = 5
+// $carry = $initial = 5
 //
-// $carry = $carry * 1 =  5
-// $carry = $carry * 2 = 10
-// $carry = $carry * 3 = 30
+// $carry = $carry * 1 =  5
+// $carry = $carry * 2 = 10
+// $carry = $carry * 3 = 30
 ?>
 ```
 
@@ -82,19 +82,19 @@ int(30)
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 
-var_dump($map->reduce(function($carry, $key, $value) {
-    return $carry + $value + 5;
+var_dump($map->reduce(function($carry, $key, $value) {
+    return $carry + $value + 5;
 }));
 
-// Итерации:
+// Итерации:
 //
-// $carry = $initial = null
+// $carry = $initial = null
 //
-// $carry = $carry + 1 + 5 =  6
-// $carry = $carry + 2 + 5 = 13
-// $carry = $carry + 3 + 5 = 21
+// $carry = $carry + 1 + 5 =  6
+// $carry = $carry + 2 + 5 = 13
+// $carry = $carry + 3 + 5 = 21
 ?>
 ```
 

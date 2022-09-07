@@ -50,7 +50,7 @@ title: Клас PhpToken
 
     /* Методы */
     
-   final public __construct(    int $id,    string $text,    int $line = -1,    int $pos = -1)
+   final public __construct(    int $id,    string $text,    int $line = -1,    int $pos = -1)
 
     public getTokenName(): ?string
 public is(int|string|array $kind): bool

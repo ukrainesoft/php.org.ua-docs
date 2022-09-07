@@ -55,8 +55,8 @@ fnmatch(string $pattern, string $filename, int $flags = 0): bool
 
 ```php
 <?php
-if (fnmatch("*gr[ae]y", $color)) {
-  echo "какая-то форма серого цвета ...";
+if (fnmatch("*gr[ae]y", $color)) {
+  echo "какая-то форма серого цвета ...";
 }
 ?>
 ```

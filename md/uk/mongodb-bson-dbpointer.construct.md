@@ -26,4 +26,4 @@ final private MongoDB\BSON\DBPointer::__construct()
 
 ### Дивіться також
 
--   [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)

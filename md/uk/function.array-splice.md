@@ -15,7 +15,7 @@ arraysplice — Видаляє частину масиву і замінює ї�
 ### Опис
 
 ```methodsynopsis
-array_splice(    array &$array,    int $offset,    ?int $length = null,    mixed $replacement = []): array
+array_splice(    array &$array,    int $offset,    ?int $length = null,    mixed $replacement = []): array
 ```
 
 Видаляє `length` елементів, розташованих на відстані `offset` з масиву `array`, та замінює їх елементами масиву `replacement`, якщо він передано як параметр.
@@ -80,20 +80,20 @@ array_splice(    array &$array,    int $offset,    ?int $length = nu
 
 ```php
 <?php
-$input = array("red", "green", "blue", "yellow");
-array_splice($input, 2);
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, 2);
 var_dump($input);
 
-$input = array("red", "green", "blue", "yellow");
-array_splice($input, 1, -1);
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, 1, -1);
 var_dump($input);
 
-$input = array("red", "green", "blue", "yellow");
-array_splice($input, 1, count($input), "orange");
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, 1, count($input), "orange");
 var_dump($input);
 
-$input = array("red", "green", "blue", "yellow");
-array_splice($input, -1, 1, array("black", "maroon"));
+$input = array("red", "green", "blue", "yellow");
+array_splice($input, -1, 1, array("black", "maroon"));
 var_dump($input);
 ?>
 ```
@@ -140,29 +140,29 @@ array(5) {
 ```php
 <?php
 
-// добавить два элемента в $input
-array_push($input, $x, $y);
-array_splice($input, count($input), 0, array($x, $y));
+// добавить два элемента в $input
+array_push($input, $x, $y);
+array_splice($input, count($input), 0, array($x, $y));
 
 
-// удалить последний элемент из $input
+// удалить последний элемент из $input
 array_pop($input);
-array_splice($input, -1);
+array_splice($input, -1);
 
 
-// удалить первый элемент из $input
+// удалить первый элемент из $input
 array_shift($input);
-array_splice($input, 0, 1);
+array_splice($input, 0, 1);
 
 
-// добавить элемент в начало $input
-array_unshift($input, $x, $y);
-array_splice($input, 0, 0, array($x, $y));
+// добавить элемент в начало $input
+array_unshift($input, $x, $y);
+array_splice($input, 0, 0, array($x, $y));
 
 
-// заменить в $input элемент с индексом $x на значение $y
-$input[$x] = $y; // для Масивов, где ключ равен смещению
-array_splice($input, $x, 1, $y);
+// заменить в $input элемент с индексом $x на значение $y
+$input[$x] = $y; // для Масивов, где ключ равен смещению
+array_splice($input, $x, 1, $y);
 ?>
 ```
 

@@ -43,11 +43,11 @@ imap_ping(IMAP\Connection $imap): bool
 ```php
 <?php
 
-$imap = imap_open("{imap.example.org}", "mailadmin", "password");
+$imap = imap_open("{imap.example.org}", "mailadmin", "password");
 
-// после некоторого ожидания
-if (!imap_ping($imap)) {
-    // производим переподключение
+// после некоторого ожидания
+if (!imap_ping($imap)) {
+    // производим переподключение
 }
 
 ?>

@@ -15,7 +15,7 @@ yamlemitfile — Відправляє YAML-подання значення фа�
 ### Опис
 
 ```methodsynopsis
-yaml_emit_file(    string $filename,    mixed $data,    int $encoding = YAML_ANY_ENCODING,    int $linebreak = YAML_ANY_BREAK,    array $callbacks = null): bool
+yaml_emit_file(    string $filename,    mixed $data,    int $encoding = YAML_ANY_ENCODING,    int $linebreak = YAML_ANY_BREAK,    array $callbacks = null): bool
 ```
 
 Генерує YAML-подання з даних `data` і відправляє в `filename`

@@ -51,12 +51,12 @@ public Imagick::adaptiveBlurImage(float $radius, float $sigma, int $channel = Im
 ```php
 <?php
 
-header('Content-type: image/jpeg');
+header('Content-type: image/jpeg');
 
-$image = new Imagick('test.jpg');
+$image = new Imagick('test.jpg');
 
 $image->adaptiveBlurImage(5,3);
-echo $image;
+echo $image;
 
 ?>
 ```

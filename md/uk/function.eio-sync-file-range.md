@@ -15,7 +15,7 @@ eiosyncfilerange — Синхронізує сегмент файлу із да�
 ### Опис
 
 ```methodsynopsis
-eio_sync_file_range(    mixed $fd,    int $offset,    int $nbytes,    int $flags,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_sync_file_range(    mixed $fd,    int $offset,    int $nbytes,    int $flags,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiosyncfilerange()** здійснює необхідні перевірки та дії при синхронізації відкритого файлу `fd` з дисковою підсистемою.
@@ -47,7 +47,7 @@ eio_sync_file_range(    mixed $fd,    int $offset,    int $nbytes, 
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

@@ -44,18 +44,18 @@ public Imagick::setImageArtifact(string $artifact, string $value): bool
 
 ```php
 <?php
-function setImageArtifact() {
+function setImageArtifact() {
 
-    $src1 = new \Imagick(realpath("./images/artifact/source1.png"));
-    $src2 = new \Imagick(realpath("./images/artifact/source2.png"));
+    $src1 = new \Imagick(realpath("./images/artifact/source1.png"));
+    $src2 = new \Imagick(realpath("./images/artifact/source2.png"));
 
-    $src2->setImageVirtualPixelMethod(\Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
-    $src2->setImageArtifact('compose:args', "1,0,-0.5,0.5");
-    $src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0);
+    $src2->setImageVirtualPixelMethod(\Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
+    $src2->setImageArtifact('compose:args', "1,0,-0.5,0.5");
+    $src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0);
 
-    $src1->setImageFormat('png');
-    header("Content-Type: image/png");
-    echo $src1->getImagesBlob();
+    $src1->setImageFormat('png');
+    header("Content-Type: image/png");
+    echo $src1->getImagesBlob();
 }
 
 ?>

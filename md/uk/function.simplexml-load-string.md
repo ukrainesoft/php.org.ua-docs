@@ -15,7 +15,7 @@ simplexmlloadstring — Інтерпретує рядок з XML в об'єкт
 ### Опис
 
 ```methodsynopsis
-simplexml_load_string(    string $data,    ?string $class_name = SimpleXMLElement::class,    int $options = 0,    string $namespace_or_prefix = "",    bool $is_prefix = false): SimpleXMLElement|false
+simplexml_load_string(    string $data,    ?string $class_name = SimpleXMLElement::class,    int $options = 0,    string $namespace_or_prefix = "",    bool $is_prefix = false): SimpleXMLElement|false
 ```
 
 Отримує правильно сформований XML-рядок і повертає його як об'єкт.
@@ -64,19 +64,19 @@ simplexml_load_string(    string $data,    ?string $class_name = SimpleX
 
 ```php
 <?php
-$string = <<<XML
-<?xml version='1.0'?>
+$string = <<<XML
+<?xml version='1.0'?>
 <document>
- <title>Что 40?</title>
- <from>Джо</from>
- <to>Джейн</to>
- <body>
-  Я знаю, что это - ответ. В чем заключается вопрос?
- </body>
+ <title>Что 40?</title>
+ <from>Джо</from>
+ <to>Джейн</to>
+ <body>
+  Я знаю, что это - ответ. В чем заключается вопрос?
+ </body>
 </document>
 XML;
 
-$xml = simplexml_load_string($string);
+$xml = simplexml_load_string($string);
 
 print_r($xml);
 ?>

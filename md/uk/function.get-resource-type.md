@@ -39,9 +39,9 @@ get_resource_type(resource $resource): string
 ```php
 <?php
 
-// Начиная с версии PHP 8.0.0, следующий код больше не работает. Функция curl_init теперь возвращает объект CurlHandle.
-$c = curl_init();
-echo get_resource_type($c) . "\n";
+// Начиная с версии PHP 8.0.0, следующий код больше не работает. Функция curl_init теперь возвращает объект CurlHandle.
+$c = curl_init();
+echo get_resource_type($c) . "\n";
 ?>
 ```
 

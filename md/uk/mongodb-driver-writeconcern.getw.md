@@ -37,10 +37,10 @@ final public MongoDB\Driver\WriteConcern::getW(): string|int|null
 ```php
 <?php
 
-$wc = new MongoDB\Driver\WriteConcern(1);
+$wc = new MongoDB\Driver\WriteConcern(1);
 var_dump($wc->getW());
 
-$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY);
+$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY);
 var_dump($wc->getW());
 
 ?>
@@ -55,4 +55,4 @@ string(8) "majority"
 
 ### Дивіться також
 
--   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

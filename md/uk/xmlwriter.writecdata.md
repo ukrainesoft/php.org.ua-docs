@@ -56,23 +56,23 @@ xmlwriter_write_cdata(XMLWriter $writer, string $content): bool
 
 ```php
 <?php
-// настроить документ
-$xml = new XmlWriter();
+// настроить документ
+$xml = new XmlWriter();
 $xml->openMemory();
 $xml->setIndent(true);
-$xml->startDocument('1.0', 'UTF-8');
+$xml->startDocument('1.0', 'UTF-8');
 $xml->startElement('mydoc');
 $xml->startElement('myele');
 
-// вывод CData
+// вывод CData
 $xml->startElement('mycdataelement');
-$xml->writeCData("текст для включения как CData");
+$xml->writeCData("текст для включения как CData");
 $xml->endElement();
 
-// завершить документ и вывести
+// завершить документ и вывести
 $xml->endElement();
 $xml->endElement();
-echo $xml->outputMemory(true);
+echo $xml->outputMemory(true);
 ?>
 ```
 

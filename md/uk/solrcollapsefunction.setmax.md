@@ -35,11 +35,11 @@ public SolrCollapseFunction::setMax(string $max): SolrCollapseFunction
 ```php
 <?php
 
-$func = new SolrCollapseFunction('field_name');
+$func = new SolrCollapseFunction('field_name');
 
 $func->setMax('sum(cscore(),field(some_field))');
 
-$query = new SolrQuery('*:*');
+$query = new SolrQuery('*:*');
 
 $query->collapse($func);
 

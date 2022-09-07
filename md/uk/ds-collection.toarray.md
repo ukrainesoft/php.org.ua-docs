@@ -38,7 +38,7 @@ abstract public Ds\Collection::toArray(): array
 
 ```php
 <?php
-$collection = new \Ds\Vector([1, 2, 3]);
+$collection = new \Ds\Vector([1, 2, 3]);
 
 var_dump($collection->toArray());
 ?>

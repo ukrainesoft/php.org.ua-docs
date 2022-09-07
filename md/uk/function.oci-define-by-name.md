@@ -15,7 +15,7 @@ ocidefineбname — Порівняє змінну PHP стовпцю резул�
 ### Опис
 
 ```methodsynopsis
-oci_define_by_name(    resource $statement,    string $column,    mixed &$var,    int $type = 0): bool
+oci_define_by_name(    resource $statement,    string $column,    mixed &$var,    int $type = 0): bool
 ```
 
 Зіставляє змінну PHP стовпцю результату запиту, отриманого за допомогою [ocifetch()](function.oci-fetch.md)
@@ -55,29 +55,29 @@ oci_define_by_name(    resource $statement,    string $column,    mi
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
-$stid = oci_parse($conn, $sql);
+$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
+$stid = oci_parse($conn, $sql);
 
-// Переменные ДОЛЖНЫ быть определены перед запуском
-oci_define_by_name($stid, 'LOCATION_ID', $locid);
-oci_define_by_name($stid, 'CITY', $city);
+// Переменные ДОЛЖНЫ быть определены перед запуском
+oci_define_by_name($stid, 'LOCATION_ID', $locid);
+oci_define_by_name($stid, 'CITY', $city);
 
 oci_execute($stid);
 
-//  Каждый результат запроса помещает в заранее определённую переменную следующую строку данных
-while (oci_fetch($stid)) {
-    echo "ID местоположения $locid - $city<br>\n";
+//  Каждый результат запроса помещает в заранее определённую переменную следующую строку данных
+while (oci_fetch($stid)) {
+    echo "ID местоположения $locid - $city<br>\n";
 }
 
-// Выведет:
-//   ID местоположения 1000 - Roma
-//   ID местоположения 1100 - Venice
+// Выведет:
+//   ID местоположения 1000 - Roma
+//   ID местоположения 1100 - Venice
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -91,34 +91,34 @@ oci_close($conn);
 <?php
 
 /*
-  До запуска, создаётся таблица со столбцом, имеющим регистрозависимое имя
-    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(30));
-    INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee');
-    COMMIT;
+  До запуска, создаётся таблица со столбцом, имеющим регистрозависимое имя
+    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(30));
+    INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee');
+    COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM mytab');
+$stid = oci_parse($conn, 'SELECT * FROM mytab');
 
-// Используется верхний регистр для регистронезависимых имён столбцов
-oci_define_by_name($stid, 'ID', $id);
+// Используется верхний регистр для регистронезависимых имён столбцов
+oci_define_by_name($stid, 'ID', $id);
 
-// Используется точное написание для регистрозависимых имён столбцов
-oci_define_by_name($stid, 'MyDescription', $mydesc);
+// Используется точное написание для регистрозависимых имён столбцов
+oci_define_by_name($stid, 'MyDescription', $mydesc);
 
 oci_execute($stid);
 
-while (oci_fetch($stid)) {
-    echo "Идентификатор $id - $mydesc<br>\n";
+while (oci_fetch($stid)) {
+    echo "Идентификатор $id - $mydesc<br>\n";
 }
 
-// Выведет:
-//   Идентификатор 1 - Iced Coffee
+// Выведет:
+//   Идентификатор 1 - Iced Coffee
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -132,34 +132,34 @@ oci_close($conn);
 <?php
 
 /*
-  Перед запуском создаются таблицы:
-    CREATE TABLE mytab (id NUMBER, fruit CLOB);
-    INSERT INTO mytab (id, fruit) values (1, 'apple');
-    INSERT INTO mytab (id, fruit) values (2, 'orange');
-    COMMIT;
+  Перед запуском создаются таблицы:
+    CREATE TABLE mytab (id NUMBER, fruit CLOB);
+    INSERT INTO mytab (id, fruit) values (1, 'apple');
+    INSERT INTO mytab (id, fruit) values (2, 'orange');
+    COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM mytab');
+$stid = oci_parse($conn, 'SELECT * FROM mytab');
 
-// Переменные ДОЛЖНЫ быть определены перед запуском
-oci_define_by_name($stid, 'ID', $id);
-oci_define_by_name($stid, 'FRUIT', $fruit);  // $fruit станет дескриптором LOB
+// Переменные ДОЛЖНЫ быть определены перед запуском
+oci_define_by_name($stid, 'ID', $id);
+oci_define_by_name($stid, 'FRUIT', $fruit);  // $fruit станет дескриптором LOB
 
 oci_execute($stid);
 
-while (oci_fetch($stid)) {
-    echo $id . " - " . $fruit->load(100) . "<br>\n";
+while (oci_fetch($stid)) {
+    echo $id . " - " . $fruit->load(100) . "<br>\n";
 }
 
-// Выведет:
-//   1 - apple
-//   2 - orange
+// Выведет:
+//   1 - apple
+//   2 - orange
 
 $fruit->free();
 oci_free_statement($stid);
@@ -174,36 +174,36 @@ oci_close($conn);
 <?php
 
 /*
-  Перед запуском создаётся таблица:
-    CREATE TABLE mytab (id NUMBER, fruit CLOB);
-    INSERT INTO mytab (id, fruit) values (1, 'apple');
-    INSERT INTO mytab (id, fruit) values (2, 'orange');
-    COMMIT;
+  Перед запуском создаётся таблица:
+    CREATE TABLE mytab (id NUMBER, fruit CLOB);
+    INSERT INTO mytab (id, fruit) values (1, 'apple');
+    INSERT INTO mytab (id, fruit) values (2, 'orange');
+    COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM mytab');
+$stid = oci_parse($conn, 'SELECT * FROM mytab');
 
-// Переменные ДОЛЖНЫ быть определены перед запуском
-oci_define_by_name($stid, 'ID', $id);
+// Переменные ДОЛЖНЫ быть определены перед запуском
+oci_define_by_name($stid, 'ID', $id);
 
-$fruit = oci_new_descriptor($conn, OCI_D_LOB);
-oci_define_by_name($stid, 'FRUIT', $fruit, OCI_D_CLOB);
+$fruit = oci_new_descriptor($conn, OCI_D_LOB);
+oci_define_by_name($stid, 'FRUIT', $fruit, OCI_D_CLOB);
 
 oci_execute($stid);
 
-while (oci_fetch($stid)) {
-    echo $id . " - " . $fruit->load(100) . "<br>\n";
+while (oci_fetch($stid)) {
+    echo $id . " - " . $fruit->load(100) . "<br>\n";
 }
 
-// Выведет:
-//   1 - apple
-//   2 - orange
+// Выведет:
+//   1 - apple
+//   2 - orange
 
 $fruit->free();
 oci_free_statement($stid);

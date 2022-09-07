@@ -38,12 +38,12 @@ public QuickHashIntStringHash::delete(int $key): bool
 
 ```php
 <?php
-$hash = new QuickHashIntStringHash( 1024 );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->add( 4, "five" ) );
-var_dump( $hash->delete( 4 ) );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->delete( 4 ) );
+$hash = new QuickHashIntStringHash( 1024 );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->add( 4, "five" ) );
+var_dump( $hash->delete( 4 ) );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->delete( 4 ) );
 ?>
 ```
 

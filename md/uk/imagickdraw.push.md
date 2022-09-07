@@ -34,28 +34,28 @@ public ImagickDraw::push(): bool
 
 ```php
 <?php
-function push($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor) {
+function push($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor) {
 
-    $draw = new \ImagickDraw();
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillModifiedColor);
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
-    $draw->push();
-    $draw->translate(50, 50);
-    $draw->rectangle(200, 200, 300, 300);
-    $draw->pop();
-    $draw->setFillColor($fillColor);
-    $draw->rectangle(200, 200, 300, 300);
+    $draw = new \ImagickDraw();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillModifiedColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
+    $draw->push();
+    $draw->translate(50, 50);
+    $draw->rectangle(200, 200, 300, 300);
+    $draw->pop();
+    $draw->setFillColor($fillColor);
+    $draw->rectangle(200, 200, 300, 300);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

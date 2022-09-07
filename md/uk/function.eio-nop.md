@@ -31,7 +31,7 @@ eio_nop(int $pri = EIO_PRI_DEFAULT, callable $callback = NULL, mixed $data = NUL
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

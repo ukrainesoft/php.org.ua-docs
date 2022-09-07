@@ -34,7 +34,7 @@ public Ds\Map::values(): Ds\Sequence
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 var_dump($map->values());
 ?>
 ```

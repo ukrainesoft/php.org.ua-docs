@@ -36,23 +36,23 @@ gettext(string $message): string
 
 ```php
 <?php
-// Устанавливаем русский язык
+// Устанавливаем русский язык
 putenv('LC_ALL=ru_RU');
-setlocale(LC_ALL, 'ru_RU');
+setlocale(LC_ALL, 'ru_RU');
 
-// Указываем путь к таблицам переводов
-bindtextdomain("myPHPApp", "./locale");
+// Указываем путь к таблицам переводов
+bindtextdomain("myPHPApp", "./locale");
 
-// Выбираем домен
+// Выбираем домен
 textdomain("myPHPApp");
 
-// Теперь поиск переводов будет идти в ./locale/ru_RU/LC_MESSAGES/myPHPApp.mo
+// Теперь поиск переводов будет идти в ./locale/ru_RU/LC_MESSAGES/myPHPApp.mo
 
-// Выводим тестовое сообщение
-echo gettext("Welcome to My PHP Application");
+// Выводим тестовое сообщение
+echo gettext("Welcome to My PHP Application");
 
-// Или с использованием псевдонима _()
-echo _("Have a nice day");
+// Или с использованием псевдонима _()
+echo _("Have a nice day");
 ?>
 ```
 

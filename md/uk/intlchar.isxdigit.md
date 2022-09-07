@@ -62,7 +62,7 @@ bool(false)
 > 
 > ```php
 > <?php
-> $isASCIIHexadecimal = IntlChar::ord($codepoint) <= 0x7F && IntlChar::isxdigit($codepoint);
+> $isASCIIHexadecimal = IntlChar::ord($codepoint) <= 0x7F && IntlChar::isxdigit($codepoint);
 > ?>
 > ```
 

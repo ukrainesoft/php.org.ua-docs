@@ -48,29 +48,29 @@ intlcal_set_first_day_of_week(IntlCalendar $calendar, int $dayOfWeek): bool
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'es_ES');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'es_ES');
 
-$cal = IntlCalendar::createInstance();
-$cal->set(2013, 5 /* Июнь */, 30); // Воскресенье
+$cal = IntlCalendar::createInstance();
+$cal->set(2013, 5 /* Июнь */, 30); // Воскресенье
 
-var_dump($cal->getFirstDayOfWeek()); // 2 (Понедельник)
+var_dump($cal->getFirstDayOfWeek()); // 2 (Понедельник)
 
-echo IntlDateFormatter::formatObject($cal, <<<EOD
-'местный день недели: 'cc'
-неделя месяца    : 'W'
-неделя года     : 'ww
+echo IntlDateFormatter::formatObject($cal, <<<EOD
+'местный день недели: 'cc'
+неделя месяца    : 'W'
+неделя года     : 'ww
 EOD
-), "\n";
+), "\n";
 
 $cal->setFirstDayOfWeek(IntlCalendar::DOW_SUNDAY);
 
-echo IntlDateFormatter::formatObject($cal, <<<EOD
-'местный день недели: 'cc'
-неделя месяца    : 'W'
-неделя года     : 'ww
+echo IntlDateFormatter::formatObject($cal, <<<EOD
+'местный день недели: 'cc'
+неделя месяца    : 'W'
+неделя года     : 'ww
 EOD
-), "\n";
+), "\n";
 ```
 
 Результат виконання цього прикладу:

@@ -36,19 +36,19 @@ cubrid_close_request(resource $req_identifier): bool
 
 ```php
 <?php
-$con = cubrid_connect ("localhost", 33000, "demodb", "dba", "");
-if ($con) {
-   echo "connected successfully";
-   $req = cubrid_execute ( $con, "select * from members",
-                           CUBRID_INCLUDE_OID | CUBRID_ASYNC);
-   if ($req) {
-      while ( list ($id, $name) = cubrid_fetch ($req) ){
-         echo $id;
-         echo $name;
-      }
-      cubrid_close_request($req); // or you can use cubrid_close_prepare($req)
-   }
-   cubrid_disconnect($con);
+$con = cubrid_connect ("localhost", 33000, "demodb", "dba", "");
+if ($con) {
+   echo "connected successfully";
+   $req = cubrid_execute ( $con, "select * from members",
+                           CUBRID_INCLUDE_OID | CUBRID_ASYNC);
+   if ($req) {
+      while ( list ($id, $name) = cubrid_fetch ($req) ){
+         echo $id;
+         echo $name;
+      }
+      cubrid_close_request($req); // or you can use cubrid_close_prepare($req)
+   }
+   cubrid_disconnect($con);
 }
 ?>
 ```

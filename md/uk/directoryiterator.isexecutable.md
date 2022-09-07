@@ -36,11 +36,11 @@ public DirectoryIterator::isExecutable(): bool
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-foreach ($iterator as $fileinfo) {
-    if ($fileinfo->isExecutable()) {
-        echo $fileinfo->getFilename() . "\n";
-    }
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isExecutable()) {
+        echo $fileinfo->getFilename() . "\n";
+    }
 }
 ?>
 ```

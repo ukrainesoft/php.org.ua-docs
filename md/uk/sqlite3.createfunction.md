@@ -15,7 +15,7 @@ SQLite3::createFunction — Реєструє функцію PHP для вико�
 ### Опис
 
 ```methodsynopsis
-public SQLite3::createFunction(    string $name,    callable $callback,    int $argCount = -1,    int $flags = 0): bool
+public SQLite3::createFunction(    string $name,    callable $callback,    int $argCount = -1,    int $flags = 0): bool
 ```
 
 Реєструє функцію PHP або функцію користувача для використання в якості скалярної функції SQL для використання в SQL-виразах.
@@ -68,14 +68,14 @@ callback(mixed $value, mixed ...$values): mixed
 
 ```php
 <?php
-function my_udf_md5($string) {
-    return md5($string);
+function my_udf_md5($string) {
+    return md5($string);
 }
 
-$db = new SQLite3('mysqlitedb.db');
-$db->createFunction('my_udf_md5', 'my_udf_md5');
+$db = new SQLite3('mysqlitedb.db');
+$db->createFunction('my_udf_md5', 'my_udf_md5');
 
-var_dump($db->querySingle('SELECT my_udf_md5("test")'));
+var_dump($db->querySingle('SELECT my_udf_md5("test")'));
 ?>
 ```
 

@@ -15,7 +15,7 @@ Memcached::incrementByKey — Збільшує числове значення �
 ### Опис
 
 ```methodsynopsis
-public Memcached::incrementByKey(    string $server_key,    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
+public Memcached::incrementByKey(    string $server_key,    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
 ```
 
 **Memcached::incrementByKey()** збільшує числове значення запису на величину, вказану у параметрі `offset`. Якщо значення запису не є числовим, то повернеться помилка . **Memcached::incrementByKey()** встановить запису значення параметра `initial_value` якщо переданого ключа немає.

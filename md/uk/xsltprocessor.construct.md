@@ -29,15 +29,15 @@ XSLTProcessor::construct — Створює новий екземпляр кла
 ```php
 <?php
 
-$xsldoc = new DOMDocument();
+$xsldoc = new DOMDocument();
 $xsldoc->load($xsl_filename);
 
-$xmldoc = new DOMDocument();
+$xmldoc = new DOMDocument();
 $xmldoc->load($xml_filename);
 
-$xsl = new XSLTProcessor();
+$xsl = new XSLTProcessor();
 $xsl->importStyleSheet($xsldoc);
-echo $xsl->transformToXML($xmldoc);
+echo $xsl->transformToXML($xmldoc);
 
 ?>
 ```

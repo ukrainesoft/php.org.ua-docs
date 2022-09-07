@@ -15,7 +15,7 @@ Memcache::replace — Замінити значення наявного еле�
 ### Опис
 
 ```methodsynopsis
-Memcache::replace(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
+Memcache::replace(    string $key,    mixed $var,    int $flag = ?,    int $expire = ?): bool
 ```
 
 **Memcache::replace()** використовується для заміни значення існуючого елемента з цим ключем `key`. Якщо елемент з таким ключем не знайдено, **Memcache::replace()** повертає **`false`**. В інших випадках **Memcache::replace()** працює аналогічно [Memcache::set()](memcache.set.md). Ви також можете використати функцію **memcachereplace()**
@@ -49,13 +49,13 @@ Memcache::replace(    string $key,    mixed $var,    int $flag = ?,�
 ```php
 <?php
 
-$memcache_obj = memcache_connect('memcache_host', 11211);
+$memcache_obj = memcache_connect('memcache_host', 11211);
 
-/* процедурное API */
-memcache_replace($memcache_obj, "test_key", "some variable", false, 30);
+/* процедурное API */
+memcache_replace($memcache_obj, "test_key", "some variable", false, 30);
 
-/* объектно-ориентированное API */
-$memcache_obj->replace("test_key", "some variable", false, 30);
+/* объектно-ориентированное API */
+$memcache_obj->replace("test_key", "some variable", false, 30);
 
 ?>
 ```

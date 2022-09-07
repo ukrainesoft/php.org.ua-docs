@@ -34,8 +34,8 @@ public Ds\Deque::isEmpty(): bool
 
 ```php
 <?php
-$a = new \Ds\Deque([1, 2, 3]);
-$b = new \Ds\Deque();
+$a = new \Ds\Deque([1, 2, 3]);
+$b = new \Ds\Deque();
 
 var_dump($a->isEmpty());
 var_dump($b->isEmpty());

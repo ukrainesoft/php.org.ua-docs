@@ -24,7 +24,7 @@ xml_set_unparsed_entity_decl_handler(XMLParser $parser, callable $handler): bool
 
 name publicId systemId} NDATA notationName
 
-Дивіться [» розділ 4.2.2 XML 1.0 специфікації](http://www.w3.org/TR/1998/REC-xml-19980210#sec-external-ent)щоб отримати точне визначення позначень зовнішніх сутностей.
+Дивіться [» розділ 4.2.2 XML 1.0 специфікації](http://www.w3.org/TR/1998/REC-xml-19980210#sec-external-ent)щоб отримати точне визначення позначень зовнішніх сутностей.
 
 ### Список параметрів
 
@@ -39,7 +39,7 @@ name publicId systemId} NDATA notationName
 Функція з ім'ям `handler` має приймати шість аргументів:
 
 ```methodsynopsis
-handler(    XMLParser $parser,    string $entity_name,    string $base,    string $system_id,    string $public_id,    string $notation_name)
+handler(    XMLParser $parser,    string $entity_name,    string $base,    string $system_id,    string $public_id,    string $notation_name)
 ```
 
 `parser`

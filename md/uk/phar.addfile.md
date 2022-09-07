@@ -50,20 +50,20 @@ public Phar::addFile(string $filename, ?string $localName = null): void
 
 ```php
 <?php
-try {
-    $a = new Phar('/путь/к/phar.phar');
+try {
+    $a = new Phar('/путь/к/phar.phar');
 
-    $a->addFile('/полный/путь/к/файлу');
-    // показывает, как хранится этот файл
-    $b = $a['полный/путь/к/файлу']->getContent();
+    $a->addFile('/полный/путь/к/файлу');
+    // показывает, как хранится этот файл
+    $b = $a['полный/путь/к/файлу']->getContent();
 
-    $a->addFile('/полный/путь/к/файлу', 'моя_папка/file.txt');
-    $c = $a['моя_папка/file.txt']->getContent();
+    $a->addFile('/полный/путь/к/файлу', 'моя_папка/file.txt');
+    $c = $a['моя_папка/file.txt']->getContent();
 
-    // показывает использоваие URL
-    $a->addFile('http://www.example.com', 'example.html');
-} catch (Exception $e) {
-    // обработка ошибок
+    // показывает использоваие URL
+    $a->addFile('http://www.example.com', 'example.html');
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

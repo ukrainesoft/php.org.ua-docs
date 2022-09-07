@@ -14,7 +14,7 @@ PDOINFORMIX DSN — З'єднання з базою даних Informix
 
 ### Опис
 
-Рядок з'єднання (Data Source Name, DSN) PDOINFORMIX базується на рядку Informix ODBC DSN. Подробиці конфігурації Informix ODBC DSN читайте на сайті [» Informix Dynamic Server Information Center](http://publib.boulder.ibm.com/infocenter/idshelp/v10/index.jsp). Основні елементи PDOINFORMIX DSN:
+Рядок з'єднання (Data Source Name, DSN) PDOINFORMIX базується на рядку Informix ODBC DSN. Подробиці конфігурації Informix ODBC DSN читайте на сайті [» Informix Dynamic Server Information Center](http://publib.boulder.ibm.com/infocenter/idshelp/v10/index.jsp). Основні елементи PDOINFORMIX DSN:
 
 Префікс DSN
 

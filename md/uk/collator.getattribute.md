@@ -50,11 +50,11 @@ collator_get_attribute(Collator $object, int $attribute): int|false
 
 ```php
 <?php
-$coll = collator_create( 'en_CA' );
-$val = collator_get_attribute( $coll, Collator::NUMERIC_COLLATION );
-if( $val === false )
+$coll = collator_create( 'en_CA' );
+$val = collator_get_attribute( $coll, Collator::NUMERIC_COLLATION );
+if( $val === false )
 {
-    // Обработка ошибки
+    // Обработка ошибки
 }
 ?>
 ```

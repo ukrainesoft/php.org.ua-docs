@@ -42,11 +42,11 @@ lchgrp(string $filename, string|int $group): bool
 
 ```php
 <?php
-$target = 'output.php';
-$link = 'output.html';
-symlink($target, $link);
+$target = 'output.php';
+$link = 'output.html';
+symlink($target, $link);
 
-lchgrp($link, 8);
+lchgrp($link, 8);
 ?>
 ```
 

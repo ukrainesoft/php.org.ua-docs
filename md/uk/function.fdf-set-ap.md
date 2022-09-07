@@ -15,7 +15,7 @@ fdfsetap — Встановлює зовнішній вигляд поля
 ### Опис
 
 ```methodsynopsis
-fdf_set_ap(    resource $fdf_document,    string $field_name,    int $face,    string $filename,    int $page_number): bool
+fdf_set_ap(    resource $fdf_document,    string $field_name,    int $face,    string $filename,    int $page_number): bool
 ```
 
 Встановлює зовнішній вигляд поля (тобто значення ключа `/AP`

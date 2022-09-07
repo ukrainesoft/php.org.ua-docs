@@ -43,16 +43,16 @@ ftp_nb_continue(FTP\Connection $ftp): int
 ```php
 <?php
 
-// Начало скачивания
-$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY);
-while ($ret == FTP_MOREDATA) {
+// Начало скачивания
+$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY);
+while ($ret == FTP_MOREDATA) {
 
-   // Продолжение скачивания  ...
-   $ret = ftp_nb_continue($ftp);
+   // Продолжение скачивания  ...
+   $ret = ftp_nb_continue($ftp);
 }
-if ($ret != FTP_FINISHED) {
-   echo "При скачивании файла произошла ошибка...";
-   exit(1);
+if ($ret != FTP_FINISHED) {
+   echo "При скачивании файла произошла ошибка...";
+   exit(1);
 }
 ?>
 ```

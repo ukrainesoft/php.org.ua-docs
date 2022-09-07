@@ -14,11 +14,11 @@ title: 'Проблеми безпеки, пов''язані з нульовим 
 
 ```php
 <?php
-$file = $_GET['file']; // "../../etc/passwd\0"
-if (file_exists('/home/wwwrun/'.$file.'.php')) {
-    // file_exists возвратит true, т.к. /home/wwwrun/../../etc/passwd существует
-    include '/home/wwwrun/'.$file.'.php';
-    // будет подключён файл /etc/passwd
+$file = $_GET['file']; // "../../etc/passwd\0"
+if (file_exists('/home/wwwrun/'.$file.'.php')) {
+    // file_exists возвратит true, т.к. /home/wwwrun/../../etc/passwd существует
+    include '/home/wwwrun/'.$file.'.php';
+    // будет подключён файл /etc/passwd
 }
 ?>
 ```
@@ -29,17 +29,17 @@ if (file_exists('/home/wwwrun/'.$file.'.php')) {
 
 ```php
 <?php
-$file = $_GET['file'];
+$file = $_GET['file'];
 
-// Белый список возможных значений
-switch ($file) {
-    case 'main':
-    case 'foo':
-    case 'bar':
-        include '/home/wwwrun/include/'.$file.'.php';
-        break;
-    default:
-        include '/home/wwwrun/include/main.php';
+// Белый список возможных значений
+switch ($file) {
+    case 'main':
+    case 'foo':
+    case 'bar':
+        include '/home/wwwrun/include/'.$file.'.php';
+        break;
+    default:
+        include '/home/wwwrun/include/main.php';
 }
 ?>
 ```

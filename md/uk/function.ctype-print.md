@@ -44,13 +44,13 @@ ctype_print(mixed $text): bool
 
 ```php
 <?php
-$strings = array('string1' => "asdf\n\r\t", 'string2' => 'arf12', 'string3' => 'LKA#@%.54');
-foreach ($strings as $name => $testcase) {
-    if (ctype_print($testcase)) {
-        echo "Строка '$name' состоит только из печатных символов.\n";
-    } else {
-        echo "Строка '$name' не состоит только из печатных символов.\n";
-    }
+$strings = array('string1' => "asdf\n\r\t", 'string2' => 'arf12', 'string3' => 'LKA#@%.54');
+foreach ($strings as $name => $testcase) {
+    if (ctype_print($testcase)) {
+        echo "Строка '$name' состоит только из печатных символов.\n";
+    } else {
+        echo "Строка '$name' не состоит только из печатных символов.\n";
+    }
 }
 ?>
 ```

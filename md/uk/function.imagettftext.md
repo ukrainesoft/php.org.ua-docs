@@ -15,7 +15,7 @@ imagettftext — Малювання тексту на зображенні шр�
 ### Опис
 
 ```methodsynopsis
-imagettftext(    GdImage $image,    float $size,    float $angle,    int $x,    int $y,    int $color,    string $font_filename,    string $text,    array $options = []): array|false
+imagettftext(    GdImage $image,    float $size,    float $angle,    int $x,    int $y,    int $color,    string $font_filename,    string $text,    array $options = []): array|false
 ```
 
 Завдає текст `text` поверх зображення за допомогою TrueType шрифт.
@@ -62,11 +62,11 @@ y-координата. Це позиція базової лінії шрифт
 
 ```php
 <?php
-// Установка переменной окружения для GD
-putenv('GDFONTPATH=' . realpath('.'));
+// Установка переменной окружения для GD
+putenv('GDFONTPATH=' . realpath('.'));
 
-// Имя шрифта для использования (обратите внимание, что расширение .ttf не указывается)
-$font = 'SomeFont';
+// Имя шрифта для использования (обратите внимание, что расширение .ttf не указывается)
+$font = 'SomeFont';
 ?>
 ```
 
@@ -102,28 +102,28 @@ $font = 'SomeFont';
 
 ```php
 <?php
-// Тип содержимого
-header('Content-Type: image/png');
+// Тип содержимого
+header('Content-Type: image/png');
 
-// Создание изображения
-$im = imagecreatetruecolor(400, 30);
+// Создание изображения
+$im = imagecreatetruecolor(400, 30);
 
-// Создание цветов
-$white = imagecolorallocate($im, 255, 255, 255);
-$grey = imagecolorallocate($im, 128, 128, 128);
-$black = imagecolorallocate($im, 0, 0, 0);
-imagefilledrectangle($im, 0, 0, 399, 29, $white);
+// Создание цветов
+$white = imagecolorallocate($im, 255, 255, 255);
+$grey = imagecolorallocate($im, 128, 128, 128);
+$black = imagecolorallocate($im, 0, 0, 0);
+imagefilledrectangle($im, 0, 0, 399, 29, $white);
 
-// Текст надписи
-$text = 'Тест...';
-// Замена пути к шрифту на пользовательский
-$font = 'arial.ttf';
+// Текст надписи
+$text = 'Тест...';
+// Замена пути к шрифту на пользовательский
+$font = 'arial.ttf';
 
-// Тень
-imagettftext($im, 20, 0, 11, 21, $grey, $font, $text);
+// Тень
+imagettftext($im, 20, 0, 11, 21, $grey, $font, $text);
 
-// Текст
-imagettftext($im, 20, 0, 10, 20, $black, $font, $text);
+// Текст
+imagettftext($im, 20, 0, 10, 20, $black, $font, $text);
 
 imagepng($im);
 imagedestroy($im);

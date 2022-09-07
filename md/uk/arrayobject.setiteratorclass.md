@@ -36,17 +36,17 @@ public ArrayObject::setIteratorClass(string $iteratorClass): void
 
 ```php
 <?php
-// Пользовательский ArrayIterator (включает в себя ArrayIterator)
-class MyArrayIterator extends ArrayIterator {
-    // пользовательская реализация
+// Пользовательский ArrayIterator (включает в себя ArrayIterator)
+class MyArrayIterator extends ArrayIterator {
+    // пользовательская реализация
 }
 
-// Масив с количеством фруктов
-$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
+// Масив с количеством фруктов
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
-$fruitsArrayObject = new ArrayObject($fruits);
+$fruitsArrayObject = new ArrayObject($fruits);
 
-// Устанавливает новое имя класса итератора
+// Устанавливает новое имя класса итератора
 $fruitsArrayObject->setIteratorClass('MyArrayIterator');
 print_r($fruitsArrayObject->getIterator());
 

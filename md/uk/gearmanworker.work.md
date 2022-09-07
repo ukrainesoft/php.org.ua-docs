@@ -35,21 +35,21 @@ public GearmanWorker::work(): bool
 ```php
 <?php
 
-# создаём обработчик
-$worker = new GearmanWorker();
+# создаём обработчик
+$worker = new GearmanWorker();
 
-# добавляем сервер заданий по умолчанию (localhost)
+# добавляем сервер заданий по умолчанию (localhost)
 $worker->addServer();
 
-# добавляем callback-функцию
-$worker->addFunction("reverse", "my_reverse_function");
+# добавляем callback-функцию
+$worker->addFunction("reverse", "my_reverse_function");
 
-# запускаем обработчик, ожидающий заданий от сервера
-while ($worker->work());
+# запускаем обработчик, ожидающий заданий от сервера
+while ($worker->work());
 
-function my_reverse_function($job)
+function my_reverse_function($job)
 {
-  return strrev($job->workload());
+  return strrev($job->workload());
 }
 
 ?>

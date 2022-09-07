@@ -38,7 +38,7 @@ public mysql_xdevapi\Session::dropSchema(string $schema_name): bool
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 $session->dropSchema("addressbook");
 
 $session->close();

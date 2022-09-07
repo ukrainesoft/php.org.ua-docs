@@ -44,16 +44,16 @@ datefmt_get_calendar(IntlDateFormatter $formatter): int|false
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Тип календаря средства форматирования : ' . datefmt_get_calendar($fmt);
-datefmt_set_calendar($fmt, IntlDateFormatter::TRADITIONAL);
-echo 'Теперь тип календаря средства форматирования : ' . datefmt_get_calendar($fmt);
+echo 'Тип календаря средства форматирования : ' . datefmt_get_calendar($fmt);
+datefmt_set_calendar($fmt, IntlDateFormatter::TRADITIONAL);
+echo 'Теперь тип календаря средства форматирования : ' . datefmt_get_calendar($fmt);
 ?>
 ```
 
@@ -61,16 +61,16 @@ echo 'Теперь тип календаря средства формат�
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Тип календаря средства форматирования : ' . $fmt->getCalendar();
+echo 'Тип календаря средства форматирования : ' . $fmt->getCalendar();
 $fmt->setCalendar(IntlDateFormatter::TRADITIONAL);
-echo 'Теперь тип календаря средства форматирования : ' . $fmt->getCalendar();
+echo 'Теперь тип календаря средства форматирования : ' . $fmt->getCalendar();
 
 ?>
 ```

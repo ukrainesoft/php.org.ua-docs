@@ -15,7 +15,7 @@ Imagick::unsharpMaskImage — Різкість зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::unsharpMaskImage(    float $radius,    float $sigma,    float $amount,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::unsharpMaskImage(    float $radius,    float $sigma,    float $amount,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Різкість зображення. Ми згортаємо зображення за допомогою гаусівського оператора заданого радіусу та стандартного відхилення (сигма). Для отримання розумних результатів радіус має бути більшим за сигму. Вкажіть радіус 0, щоб Imagick::UnsharpMaskImage() поставив відповідний радіус автоматично.
@@ -46,11 +46,11 @@ public Imagick::unsharpMaskImage(    float $radius,    float $sigma,  
 
 ```php
 <?php
-function unsharpMaskImage($imagePath, $radius, $sigma, $amount, $unsharpThreshold) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->unsharpMaskImage($radius, $sigma, $amount, $unsharpThreshold);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function unsharpMaskImage($imagePath, $radius, $sigma, $amount, $unsharpThreshold) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->unsharpMaskImage($radius, $sigma, $amount, $unsharpThreshold);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

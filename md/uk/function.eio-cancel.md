@@ -35,7 +35,7 @@ eio_cancel(resource $req): void
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -64,20 +64,20 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
- /* Вызывается при завершении eio_nop() */
- function my_nop_cb($data, $result) {
-  echo "my_nop ", $data, "\n";
- }
+ /* Вызывается при завершении eio_nop() */
+ function my_nop_cb($data, $result) {
+  echo "my_nop ", $data, "\n";
+ }
 
-// Этот вызов eio_nop() будет отменён
-$req = eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "1");
+// Этот вызов eio_nop() будет отменён
+$req = eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "1");
 var_dump($req);
 eio_cancel($req);
 
-// Этот eio_nop() будет выполнен
-eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "2");
+// Этот eio_nop() будет выполнен
+eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "2");
 
-// Выполнение запросов
+// Выполнение запросов
 eio_event_loop();
 ?>
 ```

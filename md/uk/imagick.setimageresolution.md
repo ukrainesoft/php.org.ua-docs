@@ -40,12 +40,12 @@ public Imagick::setImageResolution(float $x_resolution, float $y_resolution): bo
 
 ```php
 <?php
-function setImageResolution($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->setImageResolution(50, 50);
+function setImageResolution($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setImageResolution(50, 50);
 
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

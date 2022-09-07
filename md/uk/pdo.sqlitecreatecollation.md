@@ -48,19 +48,19 @@ collation(string $string1, string $string2): int
 
 ```php
 <?php
-$db = new PDO('sqlite::memory:');
-$db->exec("CREATE TABLE test (col1 string)");
-$db->exec("INSERT INTO test VALUES ('a1')");
-$db->exec("INSERT INTO test VALUES ('a10')");
-$db->exec("INSERT INTO test VALUES ('a2')");
+$db = new PDO('sqlite::memory:');
+$db->exec("CREATE TABLE test (col1 string)");
+$db->exec("INSERT INTO test VALUES ('a1')");
+$db->exec("INSERT INTO test VALUES ('a10')");
+$db->exec("INSERT INTO test VALUES ('a2')");
 
-$db->sqliteCreateCollation('NATURAL_CMP', 'strnatcmp');
-foreach ($db->query("SELECT col1 FROM test ORDER BY col1") as $row) {
-  echo $row['col1'] . "\n";
+$db->sqliteCreateCollation('NATURAL_CMP', 'strnatcmp');
+foreach ($db->query("SELECT col1 FROM test ORDER BY col1") as $row) {
+  echo $row['col1'] . "\n";
 }
-echo "\n";
-foreach ($db->query("SELECT col1 FROM test ORDER BY col1 COLLATE NATURAL_CMP") as $row) {
-  echo $row['col1'] . "\n";
+echo "\n";
+foreach ($db->query("SELECT col1 FROM test ORDER BY col1 COLLATE NATURAL_CMP") as $row) {
+  echo $row['col1'] . "\n";
 }
 ?>
 ```

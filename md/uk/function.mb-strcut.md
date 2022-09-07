@@ -15,7 +15,7 @@ title: мбstrcut
 ### Опис
 
 ```methodsynopsis
-mb_strcut(    string $string,    int $start,    ?int $length = null,    ?string $encoding = null): string
+mb_strcut(    string $string,    int $start,    ?int $length = null,    ?string $encoding = null): string
 ```
 
 **мбstrcut()** вирізає підрядок з рядка також, як [мбsubstr()](function.mb-substr.md)але оперує байтами замість символів. Якщо початок частини, що вирізається, потрапляє між байтами одного символу, функція виріже підрядок, починаючи з першого байта цього символу. Це суттєва відмінність від [substr()](function.substr.md), яка просто виріже підрядок, починаючи з середини символу, і порушить тим самим послідовність байт у рядку.

@@ -16,9 +16,9 @@ PHP підтримує передачу аргументів за значенн
 
 ```php
 <?php
-function takes_array($input)
+function takes_array($input)
 {
-    echo "$input[0] + $input[1] = ", $input[0]+$input[1];
+    echo "$input[0] + $input[1] = ", $input[0]+$input[1];
 }
 ?>
 ```
@@ -29,15 +29,15 @@ function takes_array($input)
 
 ```php
 <?php
-function takes_many_args(
-    $first_arg,
-    $second_arg,
-    $a_very_long_argument_name,
-    $arg_with_default = 5,
-    $again = 'a default string', // Эта завершающая запятая допустима только начиная с  8.0.0.
+function takes_many_args(
+    $first_arg,
+    $second_arg,
+    $a_very_long_argument_name,
+    $arg_with_default = 5,
+    $again = 'a default string', // Эта завершающая запятая допустима только начиная с  8.0.0.
 )
 {
-    // ...
+    // ...
 }
 ?>
 ```
@@ -52,13 +52,13 @@ function takes_many_args(
 
 ```php
 <?php
-function add_some_extra(&$string)
+function add_some_extra(&$string)
 {
-    $string .= 'и кое-что ещё.';
+    $string .= 'и кое-что ещё.';
 }
-$str = 'Это строка, ';
+$str = 'Это строка, ';
 add_some_extra($str);
-echo $str;    // выведет 'Это строка, и кое-что ещё.'
+echo $str;    // выведет 'Это строка, и кое-что ещё.'
 ?>
 ```
 
@@ -72,13 +72,13 @@ echo $str;    // выведет 'Это строка, и кое-что
 
 ```php
 <?php
-function makecoffee($type = "капучино")
+function makecoffee($type = "капучино")
 {
-    return "Готовим чашку $type.\n";
+    return "Готовим чашку $type.\n";
 }
-echo makecoffee();
-echo makecoffee(null);
-echo makecoffee("эспрессо");
+echo makecoffee();
+echo makecoffee(null);
+echo makecoffee("эспрессо");
 ?>
 ```
 
@@ -96,13 +96,13 @@ echo makecoffee("эспрессо");
 
 ```php
 <?php
-function makecoffee($types = array("капучино"), $coffeeMaker = NULL)
+function makecoffee($types = array("капучино"), $coffeeMaker = NULL)
 {
-    $device = is_null($coffeeMaker) ? "вручную" : $coffeeMaker;
-    return "Готовлю чашку ".join(", ", $types)." $device.\n";
+    $device = is_null($coffeeMaker) ? "вручную" : $coffeeMaker;
+    return "Готовлю чашку ".join(", ", $types)." $device.\n";
 }
-echo makecoffee();
-echo makecoffee(array("капучино", "лавацца"), "в чайнике");
+echo makecoffee();
+echo makecoffee(array("капучино", "лавацца"), "в чайнике");
 ?>
 ```
 
@@ -110,22 +110,22 @@ echo makecoffee(array("капучино", "лавацца"), "в чайни�
 
 ```php
 <?php
-class DefaultCoffeeMaker {
-    public function brew() {
-        return 'Приготовление кофе.';
-    }
+class DefaultCoffeeMaker {
+    public function brew() {
+        return 'Приготовление кофе.';
+    }
 }
-class FancyCoffeeMaker {
-    public function brew() {
-        return 'Приготовление прекрасного кофе специально для вас.';
-    }
+class FancyCoffeeMaker {
+    public function brew() {
+        return 'Приготовление прекрасного кофе специально для вас.';
+    }
 }
-function makecoffee($coffeeMaker = new DefaultCoffeeMaker)
+function makecoffee($coffeeMaker = new DefaultCoffeeMaker)
 {
-    return $coffeeMaker->brew();
+    return $coffeeMaker->brew();
 }
-echo makecoffee();
-echo makecoffee(new FancyCoffeeMaker);
+echo makecoffee();
+echo makecoffee(new FancyCoffeeMaker);
 ?>
 ```
 
@@ -137,12 +137,12 @@ echo makecoffee(new FancyCoffeeMaker);
 
 ```php
 <?php
-function makeyogurt($container = "миску", $flavour)
+function makeyogurt($container = "миску", $flavour)
 {
-    return "Делаем $container с $flavour йогуртом.\n";
+    return "Делаем $container с $flavour йогуртом.\n";
 }
 
-echo makeyogurt("малиновым"); // "малиновым" - это $container, не $flavour
+echo makeyogurt("малиновым"); // "малиновым" - это $container, не $flavour
 ?>
 ```
 
@@ -159,12 +159,12 @@ to function makeyogurt(), 1 passed in example.php on line 42
 
 ```php
 <?php
-function makeyogurt($flavour, $container = "миску")
+function makeyogurt($flavour, $container = "миску")
 {
-    return "Делаем $container с $flavour йогуртом.\n";
+    return "Делаем $container с $flavour йогуртом.\n";
 }
 
-echo makeyogurt("малиновым"); // "малиновым" - это $flavour
+echo makeyogurt("малиновым"); // "малиновым" - это $flavour
 ?>
 ```
 
@@ -180,11 +180,11 @@ echo makeyogurt("малиновым"); // "малиновым" - это $f
 
 ```php
 <?php
-function makeyogurt($container = "миску", $flavour = "малиновым", $style = "греческим")
+function makeyogurt($container = "миску", $flavour = "малиновым", $style = "греческим")
 {
-    return "Делаем $container с $flavour $style йогуртом.\n";
+    return "Делаем $container с $flavour $style йогуртом.\n";
 }
-echo makeyogurt(style: "натуральным");
+echo makeyogurt(style: "натуральным");
 ?>
 ```
 
@@ -200,10 +200,10 @@ echo makeyogurt(style: "натуральным");
 
 ```php
 <?php
-function foo($a = [], $b) {} // По умолчанию не используется; устарел, начиная с версии PHP 8.0.0
-function foo($a, $b) {}      // Функционально эквивалентны, без уведомления об устаревании
-function bar(A $a = null, $b) {} // Все еще разрешено; $a является обязательным, но допускающим значение null
-function bar(?A $a, $b) {}       // Рекомендуется
+function foo($a = [], $b) {} // По умолчанию не используется; устарел, начиная с версии PHP 8.0.0
+function foo($a, $b) {}      // Функционально эквивалентны, без уведомления об устаревании
+function bar(A $a = null, $b) {} // Все еще разрешено; $a является обязательным, но допускающим значение null
+function bar(?A $a, $b) {}       // Рекомендуется
 ?>
 ```
 
@@ -223,15 +223,15 @@ PHP підтримує списки аргументів змінної довж
 
 ```php
 <?php
-function sum(...$numbers) {
-    $acc = 0;
-    foreach ($numbers as $n) {
-        $acc += $n;
-    }
-    return $acc;
+function sum(...$numbers) {
+    $acc = 0;
+    foreach ($numbers as $n) {
+        $acc += $n;
+    }
+    return $acc;
 }
 
-echo sum(1, 2, 3, 4);
+echo sum(1, 2, 3, 4);
 ?>
 ```
 
@@ -247,14 +247,14 @@ echo sum(1, 2, 3, 4);
 
 ```php
 <?php
-function add($a, $b) {
-    return $a + $b;
+function add($a, $b) {
+    return $a + $b;
 }
 
-echo add(...[1, 2])."\n";
+echo add(...[1, 2])."\n";
 
-$a = [1, 2];
-echo add(...$a);
+$a = [1, 2];
+echo add(...$a);
 ?>
 ```
 
@@ -273,20 +273,20 @@ echo add(...$a);
 
 ```php
 <?php
-function total_intervals($unit, DateInterval ...$intervals) {
-    $time = 0;
-    foreach ($intervals as $interval) {
-        $time += $interval->$unit;
-    }
-    return $time;
+function total_intervals($unit, DateInterval ...$intervals) {
+    $time = 0;
+    foreach ($intervals as $interval) {
+        $time += $interval->$unit;
+    }
+    return $time;
 }
 
-$a = new DateInterval('P1D');
-$b = new DateInterval('P2D');
-echo total_intervals('d', $a, $b).' days';
+$a = new DateInterval('P1D');
+$b = new DateInterval('P2D');
+echo total_intervals('d', $a, $b).' days';
 
-// Это не сработает, т.к. null не является объектом DateInterval.
-echo total_intervals('d', null);
+// Это не сработает, т.к. null не является объектом DateInterval.
+echo total_intervals('d', null);
 ?>
 ```
 
@@ -309,15 +309,15 @@ Catchable fatal error: Argument 2 passed to total_intervals() must be an instanc
 
 ```php
 <?php
-function sum() {
-    $acc = 0;
-    foreach (func_get_args() as $n) {
-        $acc += $n;
-    }
-    return $acc;
+function sum() {
+    $acc = 0;
+    foreach (func_get_args() as $n) {
+        $acc += $n;
+    }
+    return $acc;
 }
 
-echo sum(1, 2, 3, 4);
+echo sum(1, 2, 3, 4);
 ?>
 ```
 
@@ -337,11 +337,11 @@ echo sum(1, 2, 3, 4);
 
 ```php
 <?php
-myFunction(paramName: $value);
-array_foobar(array: $value);
+myFunction(paramName: $value);
+array_foobar(array: $value);
 
-// НЕ поддерживается.
-function_name($variableStoringParamName: $value);
+// НЕ поддерживается.
+function_name($variableStoringParamName: $value);
 ?>
 ```
 
@@ -349,11 +349,11 @@ function_name($variableStoringParamName: $value);
 
 ```php
 <?php
-// Использование позиционных аргументов:
-array_fill(0, 100, 50);
+// Использование позиционных аргументов:
+array_fill(0, 100, 50);
 
-// Использование именованных аргументов:
-array_fill(start_index: 0, count: 100, value: 50);
+// Использование именованных аргументов:
+array_fill(start_index: 0, count: 100, value: 50);
 ?>
 ```
 
@@ -363,7 +363,7 @@ array_fill(start_index: 0, count: 100, value: 50);
 
 ```php
 <?php
-array_fill(value: 50, count: 100, start_index: 0);
+array_fill(value: 50, count: 100, start_index: 0);
 ?>
 ```
 
@@ -373,9 +373,9 @@ array_fill(value: 50, count: 100, start_index: 0);
 
 ```php
 <?php
-htmlspecialchars($string, double_encode: false);
-// То же самое
-htmlspecialchars($string, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, 'UTF-8', false);
+htmlspecialchars($string, double_encode: false);
+// То же самое
+htmlspecialchars($string, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, 'UTF-8', false);
 ?>
 ```
 
@@ -385,12 +385,12 @@ htmlspecialchars($string, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, 'UTF-
 
 ```php
 <?php
-function foo($param) { ... }
+function foo($param) { ... }
 
-foo(param: 1, param: 2);
-// Error: Named parameter $param overwrites previous argument
-foo(1, param: 2);
-// Error: Named parameter $param overwrites previous argument
+foo(param: 1, param: 2);
+// Error: Named parameter $param overwrites previous argument
+foo(1, param: 2);
+// Error: Named parameter $param overwrites previous argument
 ?>
 ```
 
@@ -400,11 +400,11 @@ foo(1, param: 2);
 
 ```php
 <?php
-function foo($a, $b, $c = 3, $d = 4) {
-  return $a + $b + $c + $d;
+function foo($a, $b, $c = 3, $d = 4) {
+  return $a + $b + $c + $d;
 }
-var_dump(foo(...[1, 2], d: 40)); // 46
-var_dump(foo(...['b' => 2, 'a' => 1], d: 40)); // 46
-var_dump(foo(...[1, 2], b: 20)); // Фатальная ошибка. Именованный аргумент $b переопределяет предыдущий аргумент
+var_dump(foo(...[1, 2], d: 40)); // 46
+var_dump(foo(...['b' => 2, 'a' => 1], d: 40)); // 46
+var_dump(foo(...[1, 2], b: 20)); // Фатальная ошибка. Именованный аргумент $b переопределяет предыдущий аргумент
 ?>
 ```

@@ -15,7 +15,7 @@ title: мбstrripos
 ### Опис
 
 ```methodsynopsis
-mb_strripos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
+mb_strripos(    string $haystack,    string $needle,    int $offset = 0,    ?string $encoding = null): int|false
 ```
 
 **мбstrripos()** виконує безпечну з погляду багатобайтних кодувань операцію [strripos()](function.strripos.md), ґрунтуючись на кількості символів. Позиція рядка `needle` розраховується з початку рядка `haystack`. Позиція першого символу 0. Другого символу 1. На відміну від [мбstrrpos()](function.mb-strrpos.md) **мбstrripos()** не чутлива до регістру.

@@ -15,7 +15,7 @@ arrayslice - Вибирає зріз масиву
 ### Опис
 
 ```methodsynopsis
-array_slice(    array $array,    int $offset,    ?int $length = null,    bool $preserve_keys = false): array
+array_slice(    array $array,    int $offset,    ?int $length = null,    bool $preserve_keys = false): array
 ```
 
 **arrayslice()** повертає послідовність елементів масиву `array`, визначену параметрами `offset` і `length`
@@ -62,15 +62,15 @@ array_slice(    array $array,    int $offset,    ?int $length = null
 
 ```php
 <?php
-$input = array("a", "b", "c", "d", "e");
+$input = array("a", "b", "c", "d", "e");
 
-$output = array_slice($input, 2);      // возвращает "c", "d" и "e"
-$output = array_slice($input, -2, 1);  // возвращает "d"
-$output = array_slice($input, 0, 3);   // возвращает "a", "b" и "c"
+$output = array_slice($input, 2);      // возвращает "c", "d" и "e"
+$output = array_slice($input, -2, 1);  // возвращает "d"
+$output = array_slice($input, 0, 3);   // возвращает "a", "b" и "c"
 
-// обратите внимание на различия в индексах Масивов
-print_r(array_slice($input, 2, -1));
-print_r(array_slice($input, 2, -1, true));
+// обратите внимание на различия в индексах Масивов
+print_r(array_slice($input, 2, -1));
+print_r(array_slice($input, 2, -1, true));
 ?>
 ```
 
@@ -93,8 +93,8 @@ Array
 
 ```php
 <?php
-$input = array(1 => "a", "b", "c", "d", "e");
-print_r(array_slice($input, 1, 2));
+$input = array(1 => "a", "b", "c", "d", "e");
+print_r(array_slice($input, 1, 2));
 ?>
 ```
 
@@ -112,9 +112,9 @@ Array
 
 ```php
 <?php
-$ar = array('a'=>'apple', 'b'=>'banana', '42'=>'pear', 'd'=>'orange');
-print_r(array_slice($ar, 0, 3));
-print_r(array_slice($ar, 0, 3, true));
+$ar = array('a'=>'apple', 'b'=>'banana', '42'=>'pear', 'd'=>'orange');
+print_r(array_slice($ar, 0, 3));
+print_r(array_slice($ar, 0, 3, true));
 ?>
 ```
 

@@ -21,18 +21,18 @@ title: 'Підготовлені запити та процедури, що зб
 
 ```php
 <?php
-$stmt = $dbh->prepare("INSERT INTO REGISTRY (name, value) VALUES (:name, :value)");
-$stmt->bindParam(':name', $name);
-$stmt->bindParam(':value', $value);
+$stmt = $dbh->prepare("INSERT INTO REGISTRY (name, value) VALUES (:name, :value)");
+$stmt->bindParam(':name', $name);
+$stmt->bindParam(':value', $value);
 
-// вставим одну строку
-$name = 'one';
-$value = 1;
+// вставим одну строку
+$name = 'one';
+$value = 1;
 $stmt->execute();
 
-// теперь другую строку с другими значениями
-$name = 'two';
-$value = 2;
+// теперь другую строку с другими значениями
+$name = 'two';
+$value = 2;
 $stmt->execute();
 ?>
 ```
@@ -43,18 +43,18 @@ $stmt->execute();
 
 ```php
 <?php
-$stmt = $dbh->prepare("INSERT INTO REGISTRY (name, value) VALUES (?, ?)");
-$stmt->bindParam(1, $name);
-$stmt->bindParam(2, $value);
+$stmt = $dbh->prepare("INSERT INTO REGISTRY (name, value) VALUES (?, ?)");
+$stmt->bindParam(1, $name);
+$stmt->bindParam(2, $value);
 
-// вставим одну строку
-$name = 'one';
-$value = 1;
+// вставим одну строку
+$name = 'one';
+$value = 1;
 $stmt->execute();
 
-// теперь другую строку с другими значениями
-$name = 'two';
-$value = 2;
+// теперь другую строку с другими значениями
+$name = 'two';
+$value = 2;
 $stmt->execute();
 ?>
 ```
@@ -65,10 +65,10 @@ $stmt->execute();
 
 ```php
 <?php
-$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name = ?");
+$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name = ?");
 $stmt->execute([$_GET['name']]);
-foreach ($stmt as $row) {
-  print_r($row);
+foreach ($stmt as $row) {
+  print_r($row);
 }
 ?>
 ```
@@ -79,13 +79,13 @@ foreach ($stmt as $row) {
 
 ```php
 <?php
-$stmt = $dbh->prepare("CALL sp_returns_string(?)");
-$stmt->bindParam(1, $return_value, PDO::PARAM_STR, 4000);
+$stmt = $dbh->prepare("CALL sp_returns_string(?)");
+$stmt->bindParam(1, $return_value, PDO::PARAM_STR, 4000);
 
-// вызов хранимой процедуры
+// вызов хранимой процедуры
 $stmt->execute();
 
-print "процедура вернула $return_value\n";
+print "процедура вернула $return_value\n";
 ?>
 ```
 
@@ -95,14 +95,14 @@ print "процедура вернула $return_value\n";
 
 ```php
 <?php
-$stmt = $dbh->prepare("CALL sp_takes_string_returns_string(?)");
-$value = 'привет';
-$stmt->bindParam(1, $value, PDO::PARAM_STR|PDO::PARAM_INPUT_OUTPUT, 4000);
+$stmt = $dbh->prepare("CALL sp_takes_string_returns_string(?)");
+$value = 'привет';
+$stmt->bindParam(1, $value, PDO::PARAM_STR|PDO::PARAM_INPUT_OUTPUT, 4000);
 
-// вызов хранимой процедуры
+// вызов хранимой процедуры
 $stmt->execute();
 
-print "процедура вернула $value\n";
+print "процедура вернула $value\n";
 ?>
 ```
 
@@ -110,11 +110,11 @@ print "процедура вернула $value\n";
 
 ```php
 <?php
-$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name LIKE '%?%'");
+$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name LIKE '%?%'");
 $stmt->execute([$_GET['name']]);
 
-// псевдопеременная может использоваться только в виде отдельного значения
-$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name LIKE ?");
+// псевдопеременная может использоваться только в виде отдельного значения
+$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name LIKE ?");
 $stmt->execute(["%$_GET[name]%"]);
 ?>
 ```

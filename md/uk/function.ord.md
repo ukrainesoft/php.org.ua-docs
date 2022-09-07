@@ -40,9 +40,9 @@ ord(string $character): int
 
 ```php
 <?php
-$str = "\n";
-if (ord($str) == 10) {
-    echo "Первый символ \$str - перевод строки.\n";
+$str = "\n";
+if (ord($str) == 10) {
+    echo "Первый символ \$str - перевод строки.\n";
 }
 ?>
 ```
@@ -52,10 +52,10 @@ if (ord($str) == 10) {
 ```php
 <?php
 declare(encoding='UTF-8');
-$str = "🐘";
-for ( $pos=0; $pos < strlen($str); $pos ++ ) {
- $byte = substr($str, $pos);
- echo 'Байт ' . $pos . ' строки $str равен ' . ord($byte) . PHP_EOL;
+$str = "🐘";
+for ( $pos=0; $pos < strlen($str); $pos ++ ) {
+ $byte = substr($str, $pos);
+ echo 'Байт ' . $pos . ' строки $str равен ' . ord($byte) . PHP_EOL;
 }
 ?>
 ```
@@ -70,6 +70,6 @@ for ( $pos=0; $pos < strlen($str); $pos ++ ) {
 ### Дивіться також
 
 -   [chr()](function.chr.md) - Генерує односимвольний рядок за заданим числом
--   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
+-   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
 -   [мбord()](function.mb-ord.md) - Отримує кодову точку символу Unicode
 -   [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode

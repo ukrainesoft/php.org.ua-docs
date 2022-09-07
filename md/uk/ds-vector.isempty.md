@@ -34,8 +34,8 @@ public Ds\Vector::isEmpty(): bool
 
 ```php
 <?php
-$a = new \Ds\Vector([1, 2, 3]);
-$b = new \Ds\Vector();
+$a = new \Ds\Vector([1, 2, 3]);
+$b = new \Ds\Vector();
 
 var_dump($a->isEmpty());
 var_dump($b->isEmpty());

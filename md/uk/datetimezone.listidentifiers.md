@@ -57,9 +57,9 @@ timezone_identifiers_list(int $timezoneGroup = DateTimeZone::ALL, ?string $count
 
 ```php
 <?php
-$timezone_identifiers = DateTimeZone::listIdentifiers();
-for ($i=0; $i < 5; $i++) {
-    echo "$timezone_identifiers[$i]\n";
+$timezone_identifiers = DateTimeZone::listIdentifiers();
+for ($i=0; $i < 5; $i++) {
+    echo "$timezone_identifiers[$i]\n";
 }
 ?>
 ```
@@ -78,9 +78,9 @@ Africa/Asmara
 
 ```php
 <?php
-$timezone_identifiers = DateTimeZone::listIdentifiers( DateTimeZone::ASIA );
-for ($i=0; $i < 5; $i++) {
-    echo "$timezone_identifiers[$i]\n";
+$timezone_identifiers = DateTimeZone::listIdentifiers( DateTimeZone::ASIA );
+for ($i=0; $i < 5; $i++) {
+    echo "$timezone_identifiers[$i]\n";
 }
 ?>
 ```
@@ -99,8 +99,8 @@ Asia/Aqtau
 
 ```php
 <?php
-$timezone_identifiers = DateTimeZone::listIdentifiers( DateTimeZone::ASIA | DateTimeZone::PACIFIC );
-echo join( ', ', $timezone_identifiers );
+$timezone_identifiers = DateTimeZone::listIdentifiers( DateTimeZone::ASIA | DateTimeZone::PACIFIC );
+echo join( ', ', $timezone_identifiers );
 ?>
 ```
 
@@ -139,9 +139,9 @@ Pacific/Tarawa, Pacific/Tongatapu, Pacific/Wake, Pacific/Wallis
 
 ```php
 <?php
-$timezone_identifiers = DateTimeZone::listIdentifiers( DateTimeZone::PER_COUNTRY, "UA" );
-foreach( $timezone_identifiers as $identifier ) {
-    echo "$identifier\n";
+$timezone_identifiers = DateTimeZone::listIdentifiers( DateTimeZone::PER_COUNTRY, "UA" );
+foreach( $timezone_identifiers as $identifier ) {
+    echo "$identifier\n";
 }
 ?>
 ```

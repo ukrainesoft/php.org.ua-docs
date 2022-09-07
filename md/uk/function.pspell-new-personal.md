@@ -15,12 +15,12 @@ pspellnewpersonal — Завантажує новий словник із пер
 ### Опис
 
 ```methodsynopsis
-pspell_new_personal(    string $filename,    string $language,    string $spelling = "",    string $jargon = "",    string $encoding = "",    int $mode = 0): PSpell\Dictionary|false
+pspell_new_personal(    string $filename,    string $language,    string $spelling = "",    string $jargon = "",    string $encoding = "",    int $mode = 0): PSpell\Dictionary|false
 ```
 
 **pspellnewpersonal()** відкриває новий словник із персональним списком слів. Список слів може бути модифікований та збережений функцією [pspellsavewordlist()](function.pspell-save-wordlist.md), якщо знадобиться. Однак пари, що заміщають, не зберігаються. Для збереження заміщувальної пари ви повинні створити конфігурацію, використовуючи [pspellconfigcreate()](function.pspell-config-create.md)встановити файл персонального списку слів функцією [pspellconfigpersonal()](function.pspell-config-personal.md), встановити файл для заміну пар функцією [pspellconfigrepl()](function.pspell-config-repl.md), і відкрити новий словник за допомогою [pspellnewconfig()](function.pspell-new-config.md)
 
-Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
+Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
 
 ### Список параметрів
 
@@ -71,7 +71,7 @@ Mode - це бітова маска, сконструйована з перел�
 
 ```php
 <?php
-$pspell = pspell_new_personal ("/var/dictionaries/custom.pws",
-        "en", "", "", "", PSPELL_FAST|PSPELL_RUN_TOGETHER);
+$pspell = pspell_new_personal ("/var/dictionaries/custom.pws",
+        "en", "", "", "", PSPELL_FAST|PSPELL_RUN_TOGETHER);
 ?>
 ```

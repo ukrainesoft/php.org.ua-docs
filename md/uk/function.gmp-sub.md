@@ -44,8 +44,8 @@ gmp_sub(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ```php
 <?php
-$sub = gmp_sub("281474976710656", "4294967296"); // 2^48 - 2^32
-echo gmp_strval($sub) . "\n";
+$sub = gmp_sub("281474976710656", "4294967296"); // 2^48 - 2^32
+echo gmp_strval($sub) . "\n";
 ?>
 ```
 

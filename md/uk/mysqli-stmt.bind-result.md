@@ -71,19 +71,19 @@ mysqli_stmt_bind_result(mysqli_stmt $statement, mixed &$var, mixed &...$vars): b
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* подготовка запроса */
-$stmt = $mysqli->prepare("SELECT Code, Name FROM Country ORDER BY Name LIMIT 5");
+/* подготовка запроса */
+$stmt = $mysqli->prepare("SELECT Code, Name FROM Country ORDER BY Name LIMIT 5");
 $stmt->execute();
 
-/* привязка переменных к подготовленному запросу */
-$stmt->bind_result($col1, $col2);
+/* привязка переменных к подготовленному запросу */
+$stmt->bind_result($col1, $col2);
 
-/* получение значений */
-while ($stmt->fetch()) {
-    printf("%s %s\n", $col1, $col2);
+/* получение значений */
+while ($stmt->fetch()) {
+    printf("%s %s\n", $col1, $col2);
 }
 ```
 
@@ -92,19 +92,19 @@ while ($stmt->fetch()) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* подготовка запроса */
-$stmt = mysqli_prepare($link, "SELECT Code, Name FROM Country ORDER BY Name LIMIT 5");
+/* подготовка запроса */
+$stmt = mysqli_prepare($link, "SELECT Code, Name FROM Country ORDER BY Name LIMIT 5");
 mysqli_stmt_execute($stmt);
 
-/* привязка переменных к подготовленному запросу */
-mysqli_stmt_bind_result($stmt, $col1, $col2);
+/* привязка переменных к подготовленному запросу */
+mysqli_stmt_bind_result($stmt, $col1, $col2);
 
-/* получение значений */
-while (mysqli_stmt_fetch($stmt)) {
-    printf("%s %s\n", $col1, $col2);
+/* получение значений */
+while (mysqli_stmt_fetch($stmt)) {
+    printf("%s %s\n", $col1, $col2);
 }
 ```
 

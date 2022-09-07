@@ -38,7 +38,7 @@ public Ds\Deque::pop(): mixed
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 
 var_dump($deque->pop());
 var_dump($deque->pop());

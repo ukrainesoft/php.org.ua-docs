@@ -40,11 +40,11 @@ public Imagick::rollImage(int $x, int $y): bool
 
 ```php
 <?php
-function rollImage($imagePath, $rollX, $rollY) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->rollimage($rollX, $rollY);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function rollImage($imagePath, $rollX, $rollY) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->rollimage($rollX, $rollY);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

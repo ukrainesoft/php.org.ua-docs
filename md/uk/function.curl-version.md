@@ -55,23 +55,23 @@ curl_version(): array|false
 
 ```php
 <?php
-// Получаем Масив с информацией о версии curl
-$version = curl_version();
+// Получаем Масив с информацией о версии curl
+$version = curl_version();
 
-// Это битовые поля, которые можно использовать
-// для проверки возможностей сборки curl
-$bitfields = Array(
-            'CURL_VERSION_IPV6',
-            'CURL_VERSION_KERBEROS4',
-            'CURL_VERSION_SSL',
-            'CURL_VERSION_LIBZ'
-            );
+// Это битовые поля, которые можно использовать
+// для проверки возможностей сборки curl
+$bitfields = Array(
+            'CURL_VERSION_IPV6',
+            'CURL_VERSION_KERBEROS4',
+            'CURL_VERSION_SSL',
+            'CURL_VERSION_LIBZ'
+            );
 
 
-foreach($bitfields as $feature)
+foreach($bitfields as $feature)
 {
-    echo $feature . ($version['features'] & constant($feature) ? ' есть' : ' нет');
-    echo PHP_EOL;
+    echo $feature . ($version['features'] & constant($feature) ? ' есть' : ' нет');
+    echo PHP_EOL;
 }
 ?>
 ```

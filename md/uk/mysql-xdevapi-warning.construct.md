@@ -31,7 +31,7 @@ private **mysqlxdevapiWarning::construct**
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

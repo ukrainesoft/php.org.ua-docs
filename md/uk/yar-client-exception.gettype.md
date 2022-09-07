@@ -33,7 +33,7 @@ public Yar_Client_Exception::getType(): string
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

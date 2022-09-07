@@ -25,7 +25,7 @@ public XMLWriter::startElementNs(?string $prefix, string $name, ?string $namespa
 Процедурний стиль
 
 ```methodsynopsis
-xmlwriter_start_element_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace): bool
+xmlwriter_start_element_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace): bool
 ```
 
 Починає елемент простору імен.

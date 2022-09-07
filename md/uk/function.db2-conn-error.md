@@ -42,9 +42,9 @@ db2_conn_error(resource $connection = ?): string
 
 ```php
 <?php
-$conn = db2_connect('badname', 'baduser', 'badpassword');
-if (!$conn) {
-    print "SQLSTATE value: " . db2_conn_error();
+$conn = db2_connect('badname', 'baduser', 'badpassword');
+if (!$conn) {
+    print "SQLSTATE value: " . db2_conn_error();
 }
 ?>
 ```

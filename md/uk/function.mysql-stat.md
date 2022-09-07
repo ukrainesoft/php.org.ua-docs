@@ -43,8 +43,8 @@ mysql_stat(resource $link_identifier = NULL): string
 
 ```php
 <?php
-$link   = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-$status = explode('  ', mysql_stat($link));
+$link   = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$status = explode('  ', mysql_stat($link));
 print_r($status);
 ?>
 ```
@@ -69,10 +69,10 @@ Array
 
 ```php
 <?php
-$link   = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-$result = mysql_query('SHOW STATUS', $link);
-while ($row = mysql_fetch_assoc($result)) {
-    echo $row['Variable_name'] . ' = ' . $row['Value'] . "\n";
+$link   = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$result = mysql_query('SHOW STATUS', $link);
+while ($row = mysql_fetch_assoc($result)) {
+    echo $row['Variable_name'] . ' = ' . $row['Value'] . "\n";
 }
 ?>
 ```

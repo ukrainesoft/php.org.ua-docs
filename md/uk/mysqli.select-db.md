@@ -57,21 +57,21 @@ mysqli_select_db(mysqli $mysql, string $database): bool
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
 
-/* получаем имя текущей базы данных по умолчанию */
-$result = $mysqli->query("SELECT DATABASE()");
-$row = $result->fetch_row();
-printf("База данных по умолчанию: %s.\n", $row[0]);
+/* получаем имя текущей базы данных по умолчанию */
+$result = $mysqli->query("SELECT DATABASE()");
+$row = $result->fetch_row();
+printf("База данных по умолчанию: %s.\n", $row[0]);
 
-/* изменяем базу данных по умолчанию на "world" */
+/* изменяем базу данных по умолчанию на "world" */
 $mysqli->select_db("world");
 
-/* получаем имя текущей базы данных по умолчанию */
-$result = $mysqli->query("SELECT DATABASE()");
-$row = $result->fetch_row();
-printf("База данных по умолчанию: %s.\n", $row[0]);
+/* получаем имя текущей базы данных по умолчанию */
+$result = $mysqli->query("SELECT DATABASE()");
+$row = $result->fetch_row();
+printf("База данных по умолчанию: %s.\n", $row[0]);
 ```
 
 Процедурний стиль
@@ -79,21 +79,21 @@ printf("База данных по умолчанию: %s.\n", $row[0]);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "test");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "test");
 
-/* получаем имя текущей базы данных по умолчанию */
-$result = mysqli_query($link, "SELECT DATABASE()");
-$row = mysqli_fetch_row($result);
-printf("База данных по умолчанию: %s.\n", $row[0]);
+/* получаем имя текущей базы данных по умолчанию */
+$result = mysqli_query($link, "SELECT DATABASE()");
+$row = mysqli_fetch_row($result);
+printf("База данных по умолчанию: %s.\n", $row[0]);
 
-/* изменяем базу данных по умолчанию на "world" */
-mysqli_select_db($link, "world");
+/* изменяем базу данных по умолчанию на "world" */
+mysqli_select_db($link, "world");
 
-/* получаем имя текущей базы данных по умолчанию */
-$result = mysqli_query($link, "SELECT DATABASE()");
-$row = mysqli_fetch_row($result);
-printf("База данных по умолчанию: %s.\n", $row[0]);
+/* получаем имя текущей базы данных по умолчанию */
+$result = mysqli_query($link, "SELECT DATABASE()");
+$row = mysqli_fetch_row($result);
+printf("База данных по умолчанию: %s.\n", $row[0]);
 ```
 
 Результат виконання даних прикладів:

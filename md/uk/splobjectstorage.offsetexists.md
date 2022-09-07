@@ -40,14 +40,14 @@ public SplObjectStorage::offsetExists(object $object): bool
 
 ```php
 <?php
-$s = new SplObjectStorage;
-$o1 = new StdClass;
-$o2 = new StdClass;
+$s = new SplObjectStorage;
+$o1 = new StdClass;
+$o2 = new StdClass;
 
 $s->attach($o1);
 
-var_dump($s->offsetExists($o1)); // аналогично isset($s[$o1])
-var_dump($s->offsetExists($o2)); // аналогично isset($s[$o2])
+var_dump($s->offsetExists($o1)); // аналогично isset($s[$o1])
+var_dump($s->offsetExists($o2)); // аналогично isset($s[$o2])
 ?>
 ```
 

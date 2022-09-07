@@ -18,7 +18,7 @@ Session::generateUUID — Отримує новий UUID
 public mysql_xdevapi\Session::generateUUID(): string
 ```
 
-Генерує універсальний унікальний ідентифікатор (UUID), згенерований відповідно до [» RFC 4122](http://www.faqs.org/rfcs/rfc4122)
+Генерує універсальний унікальний ідентифікатор (UUID), згенерований відповідно до [» RFC 4122](http://www.faqs.org/rfcs/rfc4122)
 
 ### Список параметрів
 
@@ -34,9 +34,9 @@ UUID; рядок завдовжки 32 символи.
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$uuid = $session->generateUuid();
+$uuid = $session->generateUuid();
 
 var_dump($uuid);
 ```

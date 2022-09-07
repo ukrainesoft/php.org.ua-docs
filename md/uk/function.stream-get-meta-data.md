@@ -61,13 +61,13 @@ stream_get_meta_data(resource $stream): array
 
 ```php
 <?php
-$url = 'http://www.example.com/';
+$url = 'http://www.example.com/';
 
-if (!$fp = fopen($url, 'r')) {
-    trigger_error("Невозможно открыть URL ($url)", E_USER_ERROR);
+if (!$fp = fopen($url, 'r')) {
+    trigger_error("Невозможно открыть URL ($url)", E_USER_ERROR);
 }
 
-$meta = stream_get_meta_data($fp);
+$meta = stream_get_meta_data($fp);
 
 var_dump($meta);
 
@@ -133,24 +133,24 @@ array(10) {
 
 ```php
 <?php
-$streamContext = stream_context_create(
-    [
-        'ssl' => [
-            'capture_peer_cert' => true,
-            'capture_peer_cert_chain' => true,
-            'disable_compression' => true,
-        ],
-    ]
+$streamContext = stream_context_create(
+    [
+        'ssl' => [
+            'capture_peer_cert' => true,
+            'capture_peer_cert_chain' => true,
+            'disable_compression' => true,
+        ],
+    ]
 );
-$client = stream_socket_client(
-    'ssl://www.example.com:443',
-    $errorNumber,
-    $errorDescription,
-    40,
-    STREAM_CLIENT_CONNECT,
-    $streamContext
+$client = stream_socket_client(
+    'ssl://www.example.com:443',
+    $errorNumber,
+    $errorDescription,
+    40,
+    STREAM_CLIENT_CONNECT,
+    $streamContext
 );
-$meta = stream_get_meta_data($client);
+$meta = stream_get_meta_data($client);
 var_dump($meta);
 ?>
 ```

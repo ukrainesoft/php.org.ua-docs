@@ -44,11 +44,11 @@ public Imagick::medianFilterImage(float $radius): bool
 
 ```php
 <?php
-function medianFilterImage($radius, $imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    @$imagick->medianFilterImage($radius);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function medianFilterImage($radius, $imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    @$imagick->medianFilterImage($radius);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

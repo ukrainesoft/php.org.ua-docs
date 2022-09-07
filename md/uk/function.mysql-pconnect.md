@@ -22,7 +22,7 @@ mysqlpconnect — Встановлює постійне з'єднання з с�
 ### Опис
 
 ```methodsynopsis
-mysql_pconnect(    string $server = ini_get("mysql.default_host"),    string $username = ini_get("mysql.default_user"),    string $password = ini_get("mysql.default_password"),    int $client_flags = 0): resource
+mysql_pconnect(    string $server = ini_get("mysql.default_host"),    string $username = ini_get("mysql.default_user"),    string $password = ini_get("mysql.default_password"),    int $client_flags = 0): resource
 ```
 
 Встановлює постійне з'єднання із сервером MySQL.

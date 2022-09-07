@@ -34,7 +34,7 @@ iconv_mime_decode(string $string, int $mode = 0, ?string $encoding = null): stri
 
 | Значение | Константа | Описание |
 | --- | --- | --- |
-|  | ICONVMIMEDECODESTRICT | Якщо задано, заголовок декодується у повній відповідності до стандарту [» RFC2047](http://www.faqs.org/rfcs/rfc2047). Ця опція відключена за замовчуванням, оскільки існує безліч поштових програм, які не дотримуються специфікацій та формують некоректні з погляду стандарту `MIME`заголовки. |
+|  | ICONVMIMEDECODESTRICT | Якщо задано, заголовок декодується у повній відповідності до стандарту [» RFC2047](http://www.faqs.org/rfcs/rfc2047). Ця опція відключена за замовчуванням, оскільки існує безліч поштових програм, які не дотримуються специфікацій та формують некоректні з погляду стандарту `MIME`заголовки. |
 |  | ICONVMIMEDECODECONTINUEВІНERROR | Якщо поставлено, [iconvmimedecodeheaders()](function.iconv-mime-decode-headers.md) намагатиметься пропускати граматичні помилки та продовжувати обробку заголовка. |
 
 `encoding`
@@ -57,9 +57,9 @@ iconv_mime_decode(string $string, int $mode = 0, ?string $encoding = null): stri
 
 ```php
 <?php
-// Выдаст в результате "Subject: Prüfung Prüfung"
-echo iconv_mime_decode("Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=",
-                       0, "ISO-8859-1");
+// Выдаст в результате "Subject: Prüfung Prüfung"
+echo iconv_mime_decode("Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=",
+                       0, "ISO-8859-1");
 ?>
 ```
 

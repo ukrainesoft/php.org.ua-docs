@@ -42,28 +42,28 @@ public mysql_xdevapi\Collection::replaceOne(string $id, string $doc): mysql_xdev
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-$result = $collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
+$result = $collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
 
-// Обычно _id известен другими способами,
-// но для этого примера давайте извлечём сгенерированный идентификатор и используем его
-$ids       = $result->getGeneratedIds();
-$alfred_id = $ids[0];
+// Обычно _id известен другими способами,
+// но для этого примера давайте извлечём сгенерированный идентификатор и используем его
+$ids       = $result->getGeneratedIds();
+$alfred_id = $ids[0];
 
-// ...
+// ...
 
-$alfred = $collection->getOne($alfred_id);
-$alfred['age'] = 81;
-$alfred['job'] = 'Guru';
+$alfred = $collection->getOne($alfred_id);
+$alfred['age'] = 81;
+$alfred['job'] = 'Guru';
 
-$collection->replaceOne($alfred_id, $alfred);
+$collection->replaceOne($alfred_id, $alfred);
 
 ?>
 ```

@@ -18,7 +18,7 @@ MongoDBDriverServerDescription::getRoundTripTime — Повертає час о�
 final public MongoDB\Driver\ServerDescription::getRoundTripTime(): ?int
 ```
 
-Повертає час обходу сервера у мілісекундах. Це вимір тривалості команди [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/)
+Повертає час обходу сервера у мілісекундах. Це вимір тривалості команди [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/)
 
 ### Список параметрів
 

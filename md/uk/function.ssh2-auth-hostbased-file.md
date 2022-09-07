@@ -15,7 +15,7 @@ ssh2authhostbasedfile — Аутентифікація за допомогою �
 ### Опис
 
 ```methodsynopsis
-ssh2_auth_hostbased_file(    resource $session,    string $username,    string $hostname,    string $pubkeyfile,    string $privkeyfile,    string $passphrase = ?,    string $local_username = ?): bool
+ssh2_auth_hostbased_file(    resource $session,    string $username,    string $hostname,    string $pubkeyfile,    string $privkeyfile,    string $passphrase = ?,    string $local_username = ?): bool
 ```
 
 Аутентифікація за допомогою відкритого ключа хоста, збереженого у файлі.
@@ -52,15 +52,15 @@ ssh2_auth_hostbased_file(    resource $session,    string $username,  
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22, array('hostkey'=>'ssh-rsa'));
+$connection = ssh2_connect('shell.example.com', 22, array('hostkey'=>'ssh-rsa'));
 
-if (ssh2_auth_hostbased_file($connection, 'remoteusername', 'myhost.example.com',
-                             '/usr/local/etc/hostkey_rsa.pub',
-                             '/usr/local/etc/hostkey_rsa', 'secret',
-                             'localusername')) {
-  echo "Успешная Hostbased-аутентификация по открытому ключу\n";
-} else {
-  die('Неудачная Hostbased-аутентификация по открытому ключу');
+if (ssh2_auth_hostbased_file($connection, 'remoteusername', 'myhost.example.com',
+                             '/usr/local/etc/hostkey_rsa.pub',
+                             '/usr/local/etc/hostkey_rsa', 'secret',
+                             'localusername')) {
+  echo "Успешная Hostbased-аутентификация по открытому ключу\n";
+} else {
+  die('Неудачная Hostbased-аутентификация по открытому ключу');
 }
 ?>
 ```

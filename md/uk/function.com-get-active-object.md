@@ -48,4 +48,4 @@ com_get_active_object(string $prog_id, ?int $codepage = null): variant
 
 **Увага**
 
-Використання **comgetactiveobject()** у контексті веб-сервера - це не найрозумніша ідея. Більшість програм COM/OLE спроектовано так, що не можуть працювати одночасно з кількома користувачами, навіть (або особливо) Microsoft Office. Більше корисної інформації читайте у [» Considerations for Server-Side Automation of Office](http://support.microsoft.com/kb/257757)
+Використання **comgetactiveobject()** у контексті веб-сервера - це не найрозумніша ідея. Більшість програм COM/OLE спроектовано так, що не можуть працювати одночасно з кількома користувачами, навіть (або особливо) Microsoft Office. Більше корисної інформації читайте у [» Considerations for Server-Side Automation of Office](http://support.microsoft.com/kb/257757)

@@ -50,9 +50,9 @@ public DOMDocument::load(string $filename, int $options = 0): DOMDocument|bool
 
 ```php
 <?php
-$doc = new DOMDocument();
+$doc = new DOMDocument();
 $doc->load('book.xml');
-echo $doc->saveXML();
+echo $doc->saveXML();
 ?>
 ```
 

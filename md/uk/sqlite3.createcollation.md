@@ -49,25 +49,25 @@ collation(mixed $value1, mixed $value2): int
 ```php
 <?php
 
-$db = new SQLite3(":memory:");
-$db->exec("CREATE TABLE test (col1 string)");
-$db->exec("INSERT INTO test VALUES ('a1')");
-$db->exec("INSERT INTO test VALUES ('a10')");
-$db->exec("INSERT INTO test VALUES ('a2')");
+$db = new SQLite3(":memory:");
+$db->exec("CREATE TABLE test (col1 string)");
+$db->exec("INSERT INTO test VALUES ('a1')");
+$db->exec("INSERT INTO test VALUES ('a10')");
+$db->exec("INSERT INTO test VALUES ('a2')");
 
-$db->createCollation('NATURAL_CMP', 'strnatcmp');
+$db->createCollation('NATURAL_CMP', 'strnatcmp');
 
-$defaultSort = $db->query("SELECT col1 FROM test ORDER BY col1");
-$naturalSort = $db->query("SELECT col1 FROM test ORDER BY col1 COLLATE NATURAL_CMP");
+$defaultSort = $db->query("SELECT col1 FROM test ORDER BY col1");
+$naturalSort = $db->query("SELECT col1 FROM test ORDER BY col1 COLLATE NATURAL_CMP");
 
-echo "сортировка по умолчанию:\n";
-while ($row = $defaultSort->fetchArray()){
-    echo $row['col1'], "\n";
+echo "сортировка по умолчанию:\n";
+while ($row = $defaultSort->fetchArray()){
+    echo $row['col1'], "\n";
 }
 
-echo "\nсортировка natural order:\n";
-while ($row = $naturalSort->fetchArray()){
-    echo $row['col1'], "\n";
+echo "\nсортировка natural order:\n";
+while ($row = $naturalSort->fetchArray()){
+    echo $row['col1'], "\n";
 }
 
 $db->close();
@@ -91,4 +91,4 @@ a10
 
 ### Дивіться також
 
--   Документація зі зіставлення SQLite: [» http://sqlite.org/datatype3.md#collation](http://sqlite.org/datatype3.md#collation)
+-   Документація зі зіставлення SQLite: [» http://sqlite.org/datatype3.md#collation](http://sqlite.org/datatype3.md#collation)

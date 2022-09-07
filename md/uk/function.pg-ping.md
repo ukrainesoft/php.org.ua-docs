@@ -47,14 +47,14 @@ pg_ping(?PgSql\Connection $connection = null): bool
 
 ```php
 <?php
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-if (!pg_ping($conn))
-  die("Соединение нарушено\n");
+if (!pg_ping($conn))
+  die("Соединение нарушено\n");
 ?>
 ```
 

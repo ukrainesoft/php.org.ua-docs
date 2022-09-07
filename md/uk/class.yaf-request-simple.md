@@ -47,7 +47,7 @@ title: Клас YafRequestSimple
 
     /* Методы */
     
-   public __construct(    string $method = ?,    string $module = ?,    string $controller = ?,    string $action = ?,    array $params = ?)
+   public __construct(    string $method = ?,    string $module = ?,    string $controller = ?,    string $action = ?,    array $params = ?)
 
     public get(): void
 public getCookie(): void

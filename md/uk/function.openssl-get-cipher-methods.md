@@ -38,20 +38,20 @@ openssl_get_cipher_methods(bool $aliases = false): array
 
 ```php
 <?php
-$ciphers             = openssl_get_cipher_methods();
-$ciphers_and_aliases = openssl_get_cipher_methods(true);
-$cipher_aliases      = array_diff($ciphers_and_aliases, $ciphers);
+$ciphers             = openssl_get_cipher_methods();
+$ciphers_and_aliases = openssl_get_cipher_methods(true);
+$cipher_aliases      = array_diff($ciphers_and_aliases, $ciphers);
 
-//Режим ECB следует избегать
-$ciphers = array_filter( $ciphers, function($n) { return stripos($n,"ecb")===FALSE; } );
+//Режим ECB следует избегать
+$ciphers = array_filter( $ciphers, function($n) { return stripos($n,"ecb")===FALSE; } );
 
-//По крайней мере, в начале августа 2016 года следующие методы объявлены слабыми:
-$ciphers = array_filter( $ciphers, function($c) { return stripos($c,"des")===FALSE; } );
-$ciphers = array_filter( $ciphers, function($c) { return stripos($c,"rc2")===FALSE; } );
-$ciphers = array_filter( $ciphers, function($c) { return stripos($c,"rc4")===FALSE; } );
-$ciphers = array_filter( $ciphers, function($c) { return stripos($c,"md5")===FALSE; } );
-$cipher_aliases = array_filter($cipher_aliases,function($c) { return stripos($c,"des")===FALSE; } );
-$cipher_aliases = array_filter($cipher_aliases,function($c) { return stripos($c,"rc2")===FALSE; } );
+//По крайней мере, в начале августа 2016 года следующие методы объявлены слабыми:
+$ciphers = array_filter( $ciphers, function($c) { return stripos($c,"des")===FALSE; } );
+$ciphers = array_filter( $ciphers, function($c) { return stripos($c,"rc2")===FALSE; } );
+$ciphers = array_filter( $ciphers, function($c) { return stripos($c,"rc4")===FALSE; } );
+$ciphers = array_filter( $ciphers, function($c) { return stripos($c,"md5")===FALSE; } );
+$cipher_aliases = array_filter($cipher_aliases,function($c) { return stripos($c,"des")===FALSE; } );
+$cipher_aliases = array_filter($cipher_aliases,function($c) { return stripos($c,"rc2")===FALSE; } );
 
 print_r($ciphers);
 print_r($cipher_aliases);

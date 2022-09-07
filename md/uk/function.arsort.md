@@ -59,10 +59,10 @@ arsort(array &$array, int $flags = SORT_REGULAR): bool
 
 ```php
 <?php
-$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
+$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");
 arsort($fruits);
-foreach ($fruits as $key => $val) {
-    echo "$key = $val\n";
+foreach ($fruits as $key => $val) {
+    echo "$key = $val\n";
 }
 ?>
 ```

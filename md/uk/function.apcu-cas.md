@@ -44,19 +44,19 @@ apcu_cas(string $key, int $old, int $new): bool
 
 ```php
 <?php
-apcu_store('foobar', 2);
-echo '$foobar = 2', PHP_EOL;
-echo '$foobar == 1 ? 2 : 1 = ', (apcu_cas('foobar', 1, 2) ? 'ok' : 'fail'), PHP_EOL;
-echo '$foobar == 2 ? 1 : 2 = ', (apcu_cas('foobar', 2, 1) ? 'ok' : 'fail'), PHP_EOL;
+apcu_store('foobar', 2);
+echo '$foobar = 2', PHP_EOL;
+echo '$foobar == 1 ? 2 : 1 = ', (apcu_cas('foobar', 1, 2) ? 'ok' : 'fail'), PHP_EOL;
+echo '$foobar == 2 ? 1 : 2 = ', (apcu_cas('foobar', 2, 1) ? 'ok' : 'fail'), PHP_EOL;
 
-echo '$foobar = ', apcu_fetch('foobar'), PHP_EOL;
+echo '$foobar = ', apcu_fetch('foobar'), PHP_EOL;
 
-echo '$f__bar == 1 ? 2 : 1 = ', (apcu_cas('f__bar', 1, 2) ? 'ok' : 'fail'), PHP_EOL;
+echo '$f__bar == 1 ? 2 : 1 = ', (apcu_cas('f__bar', 1, 2) ? 'ok' : 'fail'), PHP_EOL;
 
-apcu_store('perfection', 'xyz');
-echo '$perfection == 2 ? 1 : 2 = ', (apcu_cas('perfection', 2, 1) ? 'ok' : 'epic fail'), PHP_EOL;
+apcu_store('perfection', 'xyz');
+echo '$perfection == 2 ? 1 : 2 = ', (apcu_cas('perfection', 2, 1) ? 'ok' : 'epic fail'), PHP_EOL;
 
-echo '$foobar = ', apcu_fetch('foobar'), PHP_EOL;
+echo '$foobar = ', apcu_fetch('foobar'), PHP_EOL;
 ?>
 ```
 

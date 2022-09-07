@@ -51,12 +51,12 @@ ibase_query(resource $link_identifier = ?, string $query, int $bind_args = ?): r
 ```php
 <?php
 
-$host = 'localhost:/path/to/your.gdb';
+$host = 'localhost:/path/to/your.gdb';
 
-$dbh = ibase_connect($host, $username, $password);
-$stmt = 'SELECT * FROM tblname';
+$dbh = ibase_connect($host, $username, $password);
+$stmt = 'SELECT * FROM tblname';
 
-$sth = ibase_query($dbh, $stmt) or die(ibase_errmsg());
+$sth = ibase_query($dbh, $stmt) or die(ibase_errmsg());
 
 ?>
 ```

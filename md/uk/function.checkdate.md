@@ -44,8 +44,8 @@ checkdate(int $month, int $day, int $year): bool
 
 ```php
 <?php
-var_dump(checkdate(12, 31, 2000));
-var_dump(checkdate(2, 29, 2001));
+var_dump(checkdate(12, 31, 2000));
+var_dump(checkdate(2, 29, 2001));
 ?>
 ```
 

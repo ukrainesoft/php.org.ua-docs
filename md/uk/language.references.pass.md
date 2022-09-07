@@ -12,13 +12,13 @@ title: Передача за посиланням
 
 ```php
 <?php
-function foo(&$var) {
-    $var++;
+function foo(&$var) {
+    $var++;
 }
 
-$a = 5;
+$a = 5;
 foo($a);
-// $a здесь равно 6
+// $a здесь равно 6
 ?>
 ```
 
@@ -32,12 +32,12 @@ foo($a);
     
     ```php
     <?php
-    function foo(&$var) {
-        $var++;
+    function foo(&$var) {
+        $var++;
     }
-    function &bar() {
-        $a = 5;
-        return $a;
+    function &bar() {
+        $a = 5;
+        return $a;
     }
     foo(bar());
     ?>
@@ -50,23 +50,23 @@ foo($a);
 
 ```php
 <?php
-function foo(&$var) {
-    $var++;
+function foo(&$var) {
+    $var++;
 }
-function bar() { // Операция & отсутствует
-    $a = 5;
-    return $a;
+function bar() { // Операция & отсутствует
+    $a = 5;
+    return $a;
 }
-foo(bar()); // Вызывает предупреждение
+foo(bar()); // Вызывает предупреждение
 
-foo($a = 5); // Выражение, а не переменная
-foo(5); // Константа, а не переменная
+foo($a = 5); // Выражение, а не переменная
+foo(5); // Константа, а не переменная
 
-class Foobar
+class Foobar
 {
 }
 
-foo(new Foobar()) // Вызывает уведомление с PHP 7.0.7
-                  // Notice: Only variables should be passed by reference
+foo(new Foobar()) // Вызывает уведомление с PHP 7.0.7
+                  // Notice: Only variables should be passed by reference
 ?>
 ```

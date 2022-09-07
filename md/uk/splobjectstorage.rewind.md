@@ -34,23 +34,23 @@ public SplObjectStorage::rewind(): void
 
 ```php
 <?php
-$s = new SplObjectStorage();
+$s = new SplObjectStorage();
 
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new StdClass;
+$o2 = new StdClass;
 
-$s->attach($o1, "d1");
-$s->attach($o2, "d2");
+$s->attach($o1, "d1");
+$s->attach($o2, "d2");
 
 $s->rewind();
-while($s->valid()) {
-    $index  = $s->key();
-    $object = $s->current(); // аналогично current($s)
-    $data   = $s->getInfo();
+while($s->valid()) {
+    $index  = $s->key();
+    $object = $s->current(); // аналогично current($s)
+    $data   = $s->getInfo();
 
-    var_dump($object);
-    var_dump($data);
-    $s->next();
+    var_dump($object);
+    var_dump($data);
+    $s->next();
 }
 ?>
 ```

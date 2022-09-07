@@ -46,18 +46,18 @@ mysqli_get_proto_info(mysqli $mysql): int
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password");
+$mysqli = new mysqli("localhost", "my_user", "my_password");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Подключение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* Вывести версию протокола */
-printf("Версия протокола: %d\n", $mysqli->protocol_version);
+/* Вывести версию протокола */
+printf("Версия протокола: %d\n", $mysqli->protocol_version);
 
-/* Закрыть соединение */
+/* Закрыть соединение */
 $mysqli->close();
 ?>
 ```
@@ -66,18 +66,18 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password");
+$link = mysqli_connect("localhost", "my_user", "my_password");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Подключение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* Вывести версию протокола */
-printf("Версия протокола: %d\n", mysqli_get_proto_info($link));
+/* Вывести версию протокола */
+printf("Версия протокола: %d\n", mysqli_get_proto_info($link));
 
-/* Закрыть соединение */
+/* Закрыть соединение */
 mysqli_close($link);
 ?>
 ```

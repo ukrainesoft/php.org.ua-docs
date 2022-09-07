@@ -46,10 +46,10 @@ enchant_broker_dict_exists(EnchantBroker $broker, string $tag): bool
 
 ```php
 <?php
-$tag = 'en_US';
-$r = enchant_broker_init();
-if (enchant_broker_dict_exists($r,$tag)) {
-    echo $tag . " словарь найден.\n";
+$tag = 'en_US';
+$r = enchant_broker_init();
+if (enchant_broker_dict_exists($r,$tag)) {
+    echo $tag . " словарь найден.\n";
 }
 ?>
 ```

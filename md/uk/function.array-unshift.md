@@ -50,8 +50,8 @@ array_unshift(array &$array, mixed ...$values): int
 
 ```php
 <?php
-$queue = array("orange", "banana");
-array_unshift($queue, "apple", "raspberry");
+$queue = array("orange", "banana");
+array_unshift($queue, "apple", "raspberry");
 print_r($queue);
 ?>
 ```

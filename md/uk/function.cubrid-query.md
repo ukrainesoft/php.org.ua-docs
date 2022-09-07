@@ -52,11 +52,11 @@ SQL-запит
 
 ```php
 <?php
-$conn = cubrid_connect('localhost', 33000, 'demodb');
+$conn = cubrid_connect('localhost', 33000, 'demodb');
 
-$result = cubrid_query('SELECT * WHERE 1=1');
-if (!$result) {
-    die('Некорректный запрос: ' . cubrid_error());
+$result = cubrid_query('SELECT * WHERE 1=1');
+if (!$result) {
+    die('Некорректный запрос: ' . cubrid_error());
 }
 
 ?>
@@ -68,47 +68,47 @@ if (!$result) {
 
 ```php
 <?php
-// Какие нибудь значения
-$firstname = 'fred';
-$lastname  = 'fox';
+// Какие нибудь значения
+$firstname = 'fred';
+$lastname  = 'fox';
 
-$conn = cubrid_connect('localhost', 33000, 'demodb');
+$conn = cubrid_connect('localhost', 33000, 'demodb');
 
-cubrid_execute($conn,"DROP TABLE if exists friends");
-cubrid_execute($conn,"create table friends(firstname varchar,lastname varchar,address char(24),age int)");
-cubrid_execute($conn,"insert into friends values('fred','fox','home-1','20')");
-cubrid_execute($conn,"insert into friends values('blue','cat','home-2','21')");
-// Сформулируем запрос
-// Это лучший путь для выполнения запроса
-// Другие примеры смотрите cubrid_real_escape_string()
-$query = sprintf("SELECT firstname, lastname, address, age FROM friends WHERE firstname='%s' AND lastname='%s'",
+cubrid_execute($conn,"DROP TABLE if exists friends");
+cubrid_execute($conn,"create table friends(firstname varchar,lastname varchar,address char(24),age int)");
+cubrid_execute($conn,"insert into friends values('fred','fox','home-1','20')");
+cubrid_execute($conn,"insert into friends values('blue','cat','home-2','21')");
+// Сформулируем запрос
+// Это лучший путь для выполнения запроса
+// Другие примеры смотрите cubrid_real_escape_string()
+$query = sprintf("SELECT firstname, lastname, address, age FROM friends WHERE firstname='%s' AND lastname='%s'",
 cubrid_real_escape_string($firstname),
 cubrid_real_escape_string($lastname));
 
-// Выполняем запрос
-$result = cubrid_query($query);
+// Выполняем запрос
+$result = cubrid_query($query);
 
-// Проверяем результат
-// Показывает сам запрос и ошибку. полезно при отладке.
-if (!$result) {
-    $message  = 'Некорректный запрос: ' . cubrid_error() . "\n";
-    $message .= 'Всего запросов: ' . $query;
-    die($message);
+// Проверяем результат
+// Показывает сам запрос и ошибку. полезно при отладке.
+if (!$result) {
+    $message  = 'Некорректный запрос: ' . cubrid_error() . "\n";
+    $message .= 'Всего запросов: ' . $query;
+    die($message);
 }
 
-// Используем результат
-// Попытка распечатать $result не позволит получить доступ к информации в ресурсе
-// Должна быть использована одна из функций cubrid
-// Смотрите cubrid_result(), cubrid_fetch_array(), cubrid_fetch_row() и т.д.
-while ($row = cubrid_fetch_assoc($result)) {
-    echo $row['firstname'];
-    echo $row['lastname'];
-    echo $row['address'];
-    echo $row['age'];
+// Используем результат
+// Попытка распечатать $result не позволит получить доступ к информации в ресурсе
+// Должна быть использована одна из функций cubrid
+// Смотрите cubrid_result(), cubrid_fetch_array(), cubrid_fetch_row() и т.д.
+while ($row = cubrid_fetch_assoc($result)) {
+    echo $row['firstname'];
+    echo $row['lastname'];
+    echo $row['address'];
+    echo $row['age'];
 }
 
-// Освобождаем ресурсы. В принципе можно и не делать, так как
-// они будут автоматически освобождены после завершения работы скрипта
+// Освобождаем ресурсы. В принципе можно и не делать, так как
+// они будут автоматически освобождены после завершения работы скрипта
 cubrid_free_result($result);
 ?>
 ```

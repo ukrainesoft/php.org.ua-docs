@@ -39,42 +39,42 @@ public LuaSandbox::pauseUsageTimer(): bool
 ```php
 <?php
 
-// создание нового LuaSandbox и установка лимита процессора
-$sandbox = new LuaSandbox();
-$sandbox->setCPULimit( 1 );
+// создание нового LuaSandbox и установка лимита процессора
+$sandbox = new LuaSandbox();
+$sandbox->setCPULimit( 1 );
 
-function doWait( $t ) {
-    $end = microtime( true ) + $t;
-    while ( microtime( true ) < $end ) {
-        // waste CPU cycles
-    }
+function doWait( $t ) {
+    $end = microtime( true ) + $t;
+    while ( microtime( true ) < $end ) {
+        // waste CPU cycles
+    }
 }
 
-// регистрация новой callback-функции PHP
-$sandbox->registerLibrary( 'php', [
-    'test' => function () use ( $sandbox ) {
-        $sandbox->pauseUsageTimer();
-        doWait( 5 );
+// регистрация новой callback-функции PHP
+$sandbox->registerLibrary( 'php', [
+    'test' => function () use ( $sandbox ) {
+        $sandbox->pauseUsageTimer();
+        doWait( 5 );
 
-        $sandbox->unpauseUsageTimer();
-        doWait( 0.1 );
-    },
-    'test2' => function () use ( $sandbox ) {
-        $sandbox->pauseUsageTimer();
-        $sandbox->unpauseUsageTimer();
-        doWait( 1.1 );
-    }
-] );
+        $sandbox->unpauseUsageTimer();
+        doWait( 0.1 );
+    },
+    'test2' => function () use ( $sandbox ) {
+        $sandbox->pauseUsageTimer();
+        $sandbox->unpauseUsageTimer();
+        doWait( 1.1 );
+    }
+] );
 
-echo "Это не должно истекать...\n";
-$sandbox->loadString( 'php.test()' )->call();
+echo "Это не должно истекать...\n";
+$sandbox->loadString( 'php.test()' )->call();
 
-echo "Это должно истекать.\n";
-try {
-    $sandbox->loadString( 'php.test2()' )->call();
-    echo "Это не так?\n";
-} catch ( LuaSandboxTimeoutError $ex ) {
-    echo "Это так! " . $ex->getMessage() . "\n";
+echo "Это должно истекать.\n";
+try {
+    $sandbox->loadString( 'php.test2()' )->call();
+    echo "Это не так?\n";
+} catch ( LuaSandboxTimeoutError $ex ) {
+    echo "Это так! " . $ex->getMessage() . "\n";
 }
 
 ?>

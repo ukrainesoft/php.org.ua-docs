@@ -15,7 +15,7 @@ Imagick::compositeImage — Накладає одне зображення на 
 ### Опис
 
 ```methodsynopsis
-public Imagick::compositeImage(    Imagick $composite_object,    int $composite,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::compositeImage(    Imagick $composite_object,    int $composite,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Накладає одне зображення на інше із зазначеним усуненням. Будь-які додаткові аргументи, необхідні для алгоритму накладання, слід передавати в setImageArtifact з 'compose:args' як перший параметр і дані як другий параметр.
@@ -55,15 +55,15 @@ public Imagick::compositeImage(    Imagick $composite_object,    int $co
 ```php
 <?php
 
-// Эквивалентно запуску команды
-// convert src1.png src2.png -compose mathematics -define compose:args="1,0,-0.5,0.5" -composite output.png
+// Эквивалентно запуску команды
+// convert src1.png src2.png -compose mathematics -define compose:args="1,0,-0.5,0.5" -composite output.png
 
-$src1 = new \Imagick("./src1.png");
-$src2 = new \Imagick("./src2.png");
+$src1 = new \Imagick("./src1.png");
+$src2 = new \Imagick("./src2.png");
 
 $src1->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
-$src1->setImageArtifact('compose:args', "1,0,-0.5,0.5");
-$src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0);
+$src1->setImageArtifact('compose:args', "1,0,-0.5,0.5");
+$src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0);
 $src1->writeImage("./output.png");
 
 ?>

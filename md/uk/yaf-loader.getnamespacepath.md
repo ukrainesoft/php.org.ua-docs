@@ -36,11 +36,11 @@ string шлях, якщо простір імен не зареєстрован�
 
 ```php
 <?php
-$loader = Yaf_Loader::getInstance("/var/application/lib");
-$loader->registerNamespace("\Vendor\PHP", "/var/lib/php");
+$loader = Yaf_Loader::getInstance("/var/application/lib");
+$loader->registerNamespace("\Vendor\PHP", "/var/lib/php");
 
-$loader->getNamespacePath("\Vendor\PHP"); // '/var/lib/php'
-$loader->getNamespacePath("\Vendor\JSP"); // '/var/application/lib'
+$loader->getNamespacePath("\Vendor\PHP"); // '/var/lib/php'
+$loader->getNamespacePath("\Vendor\JSP"); // '/var/application/lib'
 
 ?>
 ```

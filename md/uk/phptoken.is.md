@@ -36,26 +36,26 @@ public PhpToken::is(int|string|array $kind): bool
 
 ```php
 <?php
-$token = new PhpToken(T_ECHO, 'echo');
-var_dump($token->is(T_ECHO));        // -> bool(true)
-var_dump($token->is('echo'));        // -> bool(true)
-var_dump($token->is(T_FOREACH));     // -> bool(false)
-var_dump($token->is('foreach'));     // -> bool(false)
+$token = new PhpToken(T_ECHO, 'echo');
+var_dump($token->is(T_ECHO));        // -> bool(true)
+var_dump($token->is('echo'));        // -> bool(true)
+var_dump($token->is(T_FOREACH));     // -> bool(false)
+var_dump($token->is('foreach'));     // -> bool(false)
 ```
 
 **Приклад #2 Використання з масивом**
 
 ```php
 <?php
-function isClassType(PhpToken $token): bool {
-    return $token->is([T_CLASS, T_INTERFACE, T_TRAIT]);
+function isClassType(PhpToken $token): bool {
+    return $token->is([T_CLASS, T_INTERFACE, T_TRAIT]);
 }
 
-$interface = new PhpToken(T_INTERFACE, 'interface');
-var_dump(isClassType($interface));   // -> bool(true)
+$interface = new PhpToken(T_INTERFACE, 'interface');
+var_dump(isClassType($interface));   // -> bool(true)
 
-$function = new PhpToken(T_FUNCTION, 'function');
-var_dump(isClassType($function));    // -> bool(false)
+$function = new PhpToken(T_FUNCTION, 'function');
+var_dump(isClassType($function));    // -> bool(false)
 ```
 
 ### Дивіться також

@@ -44,12 +44,12 @@ uopz_unset_hook(string $class, string $function): bool
 
 ```php
 <?php
-function foo() {
-    echo 'foo';
+function foo() {
+    echo 'foo';
 }
-uopz_set_hook('foo', function () {echo 'bar';});
+uopz_set_hook('foo', function () {echo 'bar';});
 foo();
-echo PHP_EOL;
+echo PHP_EOL;
 uopz_unset_hook('foo');
 foo();
 ?>

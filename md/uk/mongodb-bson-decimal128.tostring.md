@@ -33,9 +33,9 @@ final public MongoDB\BSON\Decimal128::__toString(): string
 ```php
 <?php
 
-var_dump((string) new MongoDB\BSON\Decimal128(1234.5678));
-var_dump((string) new MongoDB\BSON\Decimal128(NAN));
-var_dump((string) new MongoDB\BSON\Decimal128(INF));
+var_dump((string) new MongoDB\BSON\Decimal128(1234.5678));
+var_dump((string) new MongoDB\BSON\Decimal128(NAN));
+var_dump((string) new MongoDB\BSON\Decimal128(INF));
 
 ?>
 ```
@@ -50,5 +50,5 @@ string(8) "Infinity"
 
 ### Дивіться також
 
--   [» Формат з плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Формат з плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

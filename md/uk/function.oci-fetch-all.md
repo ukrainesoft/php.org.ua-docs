@@ -15,7 +15,7 @@ ocifetchall — Вибирає всі рядки з результату зап�
 ### Опис
 
 ```methodsynopsis
-oci_fetch_all(    resource $statement,    array &$output,    int $offset = 0,    int $limit = -1,    int $flags = OCI_FETCHSTATEMENT_BY_COLUMN | OCI_ASSOC): int
+oci_fetch_all(    resource $statement,    array &$output,    int $offset = 0,    int $limit = -1,    int $flags = OCI_FETCHSTATEMENT_BY_COLUMN | OCI_ASSOC): int
 ```
 
 Вибирає всі рядки з результату запиту двомірний масив. За промовчанням повертає всі рядки.
@@ -81,49 +81,49 @@ LOB стовпці повертаються як рядки, для яких п�
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM < 3');
+$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM < 3');
 oci_execute($stid);
 
-$nrows = oci_fetch_all($stid, $res);
+$nrows = oci_fetch_all($stid, $res);
 
-echo "$nrows строк получено<br>\n";
+echo "$nrows строк получено<br>\n";
 var_dump($res);
 
-// Вывод var_dump:
-//    2 строк получено
-//    array(2) {
-//      ["POSTAL_CODE"]=>
-//      array(2) {
-//        [0]=>
-//        string(6) "00989x"
-//        [1]=>
-//        string(6) "10934x"
-//      }
-//      ["CITY"]=>
-//      array(2) {
-//        [0]=>
-//        string(4) "Roma"
-//        [1]=>
-//        string(6) "Venice"
-//      }
-//    }
+// Вывод var_dump:
+//    2 строк получено
+//    array(2) {
+//      ["POSTAL_CODE"]=>
+//      array(2) {
+//        [0]=>
+//        string(6) "00989x"
+//        [1]=>
+//        string(6) "10934x"
+//      }
+//      ["CITY"]=>
+//      array(2) {
+//        [0]=>
+//        string(4) "Roma"
+//        [1]=>
+//        string(6) "Venice"
+//      }
+//    }
 
-// Форматирование результатов
-echo "<table border='1'>\n";
-foreach ($res as $col) {
-    echo "<tr>\n";
-    foreach ($col as $item) {
-        echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "")."</td>\n";
-    }
-    echo "</tr>\n";
+// Форматирование результатов
+echo "<table border='1'>\n";
+foreach ($res as $col) {
+    echo "<tr>\n";
+    foreach ($col as $item) {
+        echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "")."</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -136,38 +136,38 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM < 3');
+$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM < 3');
 oci_execute($stid);
 
-$nrows = oci_fetch_all($stid, $res, null, null, OCI_FETCHSTATEMENT_BY_ROW);
+$nrows = oci_fetch_all($stid, $res, null, null, OCI_FETCHSTATEMENT_BY_ROW);
 
-echo "$nrows строк получено<br>\n";
+echo "$nrows строк получено<br>\n";
 var_dump($res);
 
-// Выведет:
-//    2 строк получено
-//    array(2) {
-//      [0]=>
-//      array(2) {
-//        ["POSTAL_CODE"]=>
-//        string(6) "00989x"
-//        ["CITY"]=>
-//        string(4) "Roma"
-//      }
-//      [1]=>
-//      array(2) {
-//        ["POSTAL_CODE"]=>
-//        string(6) "10934x"
-//        ["CITY"]=>
-//        string(6) "Venice"
-//      }
-//    }
+// Выведет:
+//    2 строк получено
+//    array(2) {
+//      [0]=>
+//      array(2) {
+//        ["POSTAL_CODE"]=>
+//        string(6) "00989x"
+//        ["CITY"]=>
+//        string(4) "Roma"
+//      }
+//      [1]=>
+//      array(2) {
+//        ["POSTAL_CODE"]=>
+//        string(6) "10934x"
+//        ["CITY"]=>
+//        string(6) "Venice"
+//      }
+//    }
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -180,38 +180,38 @@ oci_close($conn);
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM < 3');
+$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM < 3');
 oci_execute($stid);
 
-$nrows = oci_fetch_all($stid, $res, null, null, OCI_FETCHSTATEMENT_BY_ROW + OCI_NUM);
+$nrows = oci_fetch_all($stid, $res, null, null, OCI_FETCHSTATEMENT_BY_ROW + OCI_NUM);
 
-echo "$nrows строк получено<br>\n";
+echo "$nrows строк получено<br>\n";
 var_dump($res);
 
-// Выведет:
-//    2 строк получено
-//    array(2) {
-//      [0]=>
-//      array(2) {
-//        [0]=>
-//        string(6) "00989x"
-//        [1]=>
-//        string(4) "Roma"
-//      }
-//      [1]=>
-//      array(2) {
-//        [0]=>
-//        string(6) "10934x"
-//        [1]=>
-//        string(6) "Venice"
-//      }
-//    }
+// Выведет:
+//    2 строк получено
+//    array(2) {
+//      [0]=>
+//      array(2) {
+//        [0]=>
+//        string(6) "00989x"
+//        [1]=>
+//        string(4) "Roma"
+//      }
+//      [1]=>
+//      array(2) {
+//        [0]=>
+//        string(6) "10934x"
+//        [1]=>
+//        string(6) "Venice"
+//      }
+//    }
 
 oci_free_statement($stid);
 oci_close($conn);

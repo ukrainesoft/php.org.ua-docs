@@ -15,7 +15,7 @@ Gmagick::levelimage — Регулює рівні зображення
 ### Опис
 
 ```methodsynopsis
-public Gmagick::levelimage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Gmagick::CHANNEL_DEFAULT): mixed
+public Gmagick::levelimage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Gmagick::CHANNEL_DEFAULT): mixed
 ```
 
 Регулює рівні зображення, масштабуючи кольори, що потрапляють між зазначеними білими та чорними точками, до доступного квантового діапазону. Надані параметри є чорними, середніми і білими точками. Чорна точка вказує на темний колір зображення. Кольори темніші за крапку чорного встановлюються на нуль. Середня точка визначає гамма-корекцію, що застосовується до зображення. Біла точка визначає найсвітліший колір зображення. Кольори яскравіші за крапку білого встановлюються на максимальне квантове значення.

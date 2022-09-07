@@ -15,7 +15,7 @@ title: мбencodemimeheader
 ### Опис
 
 ```methodsynopsis
-mb_encode_mimeheader(    string $string,    ?string $charset = null,    ?string $transfer_encoding = null,    string $newline = "\r\n",    int $indent = 0): string
+mb_encode_mimeheader(    string $string,    ?string $charset = null,    ?string $transfer_encoding = null,    string $newline = "\r\n",    int $indent = 0): string
 ```
 
 Кодує рядок (`string`) (string) за схемою кодування MIME-заголовка.
@@ -36,7 +36,7 @@ mb_encode_mimeheader(    string $string,    ?string $charset = null,  
 
 `newline`
 
-`newline` задає мітку EOL (кінець рядка, end-of-line), за допомогою якої **мбencodemimeheader()** здійснює завершення рядків ("line-folding" - термін [» RFC](http://www.faqs.org/rfcs/rfc2822), що означає розділення рядків, довжина яких перевищує задане значення. Значення довжини зараз жорстко задано як 74 символи). За замовчуванням `"\r\n"` (CRLF).
+`newline` задає мітку EOL (кінець рядка, end-of-line), за допомогою якої **мбencodemimeheader()** здійснює завершення рядків ("line-folding" - термін [» RFC](http://www.faqs.org/rfcs/rfc2822), що означає розділення рядків, довжина яких перевищує задане значення. Значення довжини зараз жорстко задано як 74 символи). За замовчуванням `"\r\n"` (CRLF).
 
 `indent`
 
@@ -58,11 +58,11 @@ mb_encode_mimeheader(    string $string,    ?string $charset = null,  
 
 ```php
 <?php
-$name = "太郎"; // kanji
-$mbox = "kru";
-$doma = "gtinn.mon";
-$addr = '"' . addcslashes(mb_encode_mimeheader($name, "UTF-7", "Q"), '"') . '" <' . $mbox . "@" . $doma . ">";
-echo $addr;
+$name = "太郎"; // kanji
+$mbox = "kru";
+$doma = "gtinn.mon";
+$addr = '"' . addcslashes(mb_encode_mimeheader($name, "UTF-7", "Q"), '"') . '" <' . $mbox . "@" . $doma . ">";
+echo $addr;
 ?>
 ```
 

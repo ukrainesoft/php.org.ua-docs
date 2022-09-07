@@ -30,11 +30,11 @@ public **ДсQueue::construct**[mixed](language.types.declarations.md#language.t
 
 ```php
 <?php
-$queue = new \Ds\Queue();
+$queue = new \Ds\Queue();
 var_dump($queue);
 
 
-$queue = new \Ds\Queue([1, 2, 3]);
+$queue = new \Ds\Queue([1, 2, 3]);
 var_dump($queue);
 ?>
 ```

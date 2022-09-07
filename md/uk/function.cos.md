@@ -37,7 +37,7 @@ cos(float $num): float
 ```php
 <?php
 
-echo cos(M_PI); // -1
+echo cos(M_PI); // -1
 
 ?>
 ```

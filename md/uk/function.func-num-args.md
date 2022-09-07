@@ -41,12 +41,12 @@ func_num_args(): int
 ```php
 <?php
 
-function foo()
+function foo()
 {
-    echo "Количество аргументов: ", func_num_args(), PHP_EOL;
+    echo "Количество аргументов: ", func_num_args(), PHP_EOL;
 }
 
-foo(1, 2, 3);
+foo(1, 2, 3);
 ?>
 ```
 

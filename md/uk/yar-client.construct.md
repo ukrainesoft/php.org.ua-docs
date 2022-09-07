@@ -36,7 +36,7 @@ URL сервера Yar.
 
 ```php
 <?php
-$client = new Yar_Client("http://host/api/");
+$client = new Yar_Client("http://host/api/");
 ?>
 ```
 

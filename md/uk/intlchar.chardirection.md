@@ -18,7 +18,7 @@ IntlChar::charDirection — Отримати категорію напряму �
 public static IntlChar::charDirection(int|string $codepoint): ?int
 ```
 
-Повертає категорію направлення листа для символу, що використовується в [» Двунаправленном алгоритме Unicode (UAX #9)](http://www.unicode.org/reports/tr9/)
+Повертає категорію направлення листа для символу, що використовується в [» Двунаправленном алгоритме Unicode (UAX #9)](http://www.unicode.org/reports/tr9/)
 
 > **Зауваження**
 > 
@@ -67,10 +67,10 @@ public static IntlChar::charDirection(int|string $codepoint): ?int
 
 ```php
 <?php
-var_dump(IntlChar::charDirection("A") === IntlChar::CHAR_DIRECTION_LEFT_TO_RIGHT);
-var_dump(IntlChar::charDirection("\u{05E9}") === IntlChar::CHAR_DIRECTION_RIGHT_TO_LEFT);
-var_dump(IntlChar::charDirection("+") === IntlChar::CHAR_DIRECTION_EUROPEAN_NUMBER_SEPARATOR);
-var_dump(IntlChar::charDirection(".") === IntlChar::CHAR_DIRECTION_COMMON_NUMBER_SEPARATOR);
+var_dump(IntlChar::charDirection("A") === IntlChar::CHAR_DIRECTION_LEFT_TO_RIGHT);
+var_dump(IntlChar::charDirection("\u{05E9}") === IntlChar::CHAR_DIRECTION_RIGHT_TO_LEFT);
+var_dump(IntlChar::charDirection("+") === IntlChar::CHAR_DIRECTION_EUROPEAN_NUMBER_SEPARATOR);
+var_dump(IntlChar::charDirection(".") === IntlChar::CHAR_DIRECTION_COMMON_NUMBER_SEPARATOR);
 ?>
 ```
 

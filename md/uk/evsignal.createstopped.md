@@ -18,17 +18,17 @@ EvSignal::createStopped — Create stopped EvSignal watcher object
 final
    public
    static
-   EvSignal::createStopped(    
+   EvSignal::createStopped(    
     int
      $signum
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

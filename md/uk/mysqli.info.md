@@ -60,21 +60,21 @@ mysqli_info(mysqli $mysql): ?string
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$mysqli->query("CREATE TEMPORARY TABLE t1 LIKE City");
+$mysqli->query("CREATE TEMPORARY TABLE t1 LIKE City");
 
-/* INSERT INTO ... SELECT */
-$mysqli->query("INSERT INTO t1 SELECT * FROM City ORDER BY ID LIMIT 150");
-printf("%s\n", $mysqli->info);
+/* INSERT INTO ... SELECT */
+$mysqli->query("INSERT INTO t1 SELECT * FROM City ORDER BY ID LIMIT 150");
+printf("%s\n", $mysqli->info);
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -83,21 +83,21 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-mysqli_query($link, "CREATE TEMPORARY TABLE t1 LIKE City");
+mysqli_query($link, "CREATE TEMPORARY TABLE t1 LIKE City");
 
-/* INSERT INTO ... SELECT */
-mysqli_query($link, "INSERT INTO t1 SELECT * FROM City ORDER BY ID LIMIT 150");
-printf("%s\n", mysqli_info($link));
+/* INSERT INTO ... SELECT */
+mysqli_query($link, "INSERT INTO t1 SELECT * FROM City ORDER BY ID LIMIT 150");
+printf("%s\n", mysqli_info($link));
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

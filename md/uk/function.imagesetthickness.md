@@ -46,22 +46,22 @@ imagesetthickness(GdImage $image, int $thickness): bool
 
 ```php
 <?php
-// Создание изображения 200x100
-$im = imagecreatetruecolor(200, 100);
-$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
-$black = imagecolorallocate($im, 0x00, 0x00, 0x00);
+// Создание изображения 200x100
+$im = imagecreatetruecolor(200, 100);
+$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
+$black = imagecolorallocate($im, 0x00, 0x00, 0x00);
 
-// Установка белого фона
-imagefilledrectangle($im, 0, 0, 299, 99, $white);
+// Установка белого фона
+imagefilledrectangle($im, 0, 0, 299, 99, $white);
 
-// Установка толщины линий 5 пикселов
-imagesetthickness($im, 5);
+// Установка толщины линий 5 пикселов
+imagesetthickness($im, 5);
 
-// Рисование прямоугольника
-imagerectangle($im, 14, 14, 185, 85, $black);
+// Рисование прямоугольника
+imagerectangle($im, 14, 14, 185, 85, $black);
 
-// Вывод изображения в броузер
-header('Content-Type: image/png');
+// Вывод изображения в броузер
+header('Content-Type: image/png');
 
 imagepng($im);
 imagedestroy($im);

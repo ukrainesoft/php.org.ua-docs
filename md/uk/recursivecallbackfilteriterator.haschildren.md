@@ -35,19 +35,19 @@ public RecursiveCallbackFilterIterator::hasChildren(): bool
 ```php
 <?php
 
-$dir = new RecursiveDirectoryIterator(__DIR__);
+$dir = new RecursiveDirectoryIterator(__DIR__);
 
-// Рекурсивный обход XML файлов
-$files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {
-    // просматривать директории
-    if ($iterator->hasChildren()) {
-        return TRUE;
-    }
-    // отбор XML файлов
-    if (!strcasecmp($current->getExtension(), 'xml')) {
-        return TRUE;
-    }
-    return FALSE;
+// Рекурсивный обход XML файлов
+$files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {
+    // просматривать директории
+    if ($iterator->hasChildren()) {
+        return TRUE;
+    }
+    // отбор XML файлов
+    if (!strcasecmp($current->getExtension(), 'xml')) {
+        return TRUE;
+    }
+    return FALSE;
 });
 
 ?>

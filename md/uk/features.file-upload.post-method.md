@@ -66,20 +66,20 @@ Mime-тип файлу, якщо браузер надав таку інформ
 
 ```php
 <?php
-$uploaddir = '/var/www/uploads/';
-$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
+$uploaddir = '/var/www/uploads/';
+$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 
-echo '<pre>';
-if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
-    echo "Файл корректен и был успешно загружен.\n";
-} else {
-    echo "Возможная атака с помощью файловой загрузки!\n";
+echo '<pre>';
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
+    echo "Файл корректен и был успешно загружен.\n";
+} else {
+    echo "Возможная атака с помощью файловой загрузки!\n";
 }
 
-echo 'Некоторая отладочная информация:';
+echo 'Некоторая отладочная информация:';
 print_r($_FILES);
 
-print "</pre>";
+print "</pre>";
 
 ?>
 ```
@@ -98,14 +98,14 @@ PHP підтримує [можливість передачі масиву з HT
 
 ```php
 <?php
-foreach ($_FILES["pictures"]["error"] as $key => $error) {
-    if ($error == UPLOAD_ERR_OK) {
-        $tmp_name = $_FILES["pictures"]["tmp_name"][$key];
-        // basename() может спасти от атак на файловую систему;
-        // может понадобиться дополнительная проверка/очистка имени файла
-        $name = basename($_FILES["pictures"]["name"][$key]);
-        move_uploaded_file($tmp_name, "data/$name");
-    }
+foreach ($_FILES["pictures"]["error"] as $key => $error) {
+    if ($error == UPLOAD_ERR_OK) {
+        $tmp_name = $_FILES["pictures"]["tmp_name"][$key];
+        // basename() может спасти от атак на файловую систему;
+        // может понадобиться дополнительная проверка/очистка имени файла
+        $name = basename($_FILES["pictures"]["name"][$key]);
+        move_uploaded_file($tmp_name, "data/$name");
+    }
 }
 ?>
 ```

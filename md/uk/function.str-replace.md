@@ -15,7 +15,7 @@ strreplace — Замінює всі входження рядка пошуку 
 ### Опис
 
 ```methodsynopsis
-str_replace(    array|string $search,    array|string $replace,    string|array $subject,    int &$count = null): string|array
+str_replace(    array|string $search,    array|string $replace,    string|array $subject,    int &$count = null): string|array
 ```
 
 Ця функція повертає рядок або масив, в якому всі входження `search` в `subject` замінені на `replace`
@@ -56,23 +56,23 @@ str_replace(    array|string $search,    array|string $replace,    s
 
 ```php
 <?php
-// присваивает <body text='black'>
-$bodytag = str_replace("%body%", "black", "<body text='%body%'>");
+// присваивает <body text='black'>
+$bodytag = str_replace("%body%", "black", "<body text='%body%'>");
 
-// присваивает: Hll Wrld f PHP
-$vowels = array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");
-$onlyconsonants = str_replace($vowels, "", "Hello World of PHP");
+// присваивает: Hll Wrld f PHP
+$vowels = array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");
+$onlyconsonants = str_replace($vowels, "", "Hello World of PHP");
 
-// присваивает: You should eat pizza, beer, and ice cream every day
-$phrase  = "You should eat fruits, vegetables, and fiber every day.";
-$healthy = array("fruits", "vegetables", "fiber");
-$yummy   = array("pizza", "beer", "ice cream");
+// присваивает: You should eat pizza, beer, and ice cream every day
+$phrase  = "You should eat fruits, vegetables, and fiber every day.";
+$healthy = array("fruits", "vegetables", "fiber");
+$yummy   = array("pizza", "beer", "ice cream");
 
-$newphrase = str_replace($healthy, $yummy, $phrase);
+$newphrase = str_replace($healthy, $yummy, $phrase);
 
-// присваивает: 2
-$str = str_replace("ll", "", "good golly miss molly!", $count);
-echo $count;
+// присваивает: 2
+$str = str_replace("ll", "", "good golly miss molly!", $count);
+echo $count;
 ?>
 ```
 
@@ -80,27 +80,27 @@ echo $count;
 
 ```php
 <?php
-// Порядок замены
-$str     = "Строка 1\nСтрока 2\rСтрока 3\r\nСтрока 4\n";
-$order   = array("\r\n", "\n", "\r");
-$replace = '<br />';
+// Порядок замены
+$str     = "Строка 1\nСтрока 2\rСтрока 3\r\nСтрока 4\n";
+$order   = array("\r\n", "\n", "\r");
+$replace = '<br />';
 
-// Обрабатывает сначала \r\n для избежания их повторной замены.
-echo $newstr = str_replace($order, $replace, $str);
+// Обрабатывает сначала \r\n для избежания их повторной замены.
+echo $newstr = str_replace($order, $replace, $str);
 
-// Выводит F, т.к. A заменяется на B, затем B на C, и так далее...
-// В итоге E будет заменено F, так как замена происходит слева направо.
-$search  = array('A', 'B', 'C', 'D', 'E');
-$replace = array('B', 'C', 'D', 'E', 'F');
-$subject = 'A';
-echo str_replace($search, $replace, $subject);
+// Выводит F, т.к. A заменяется на B, затем B на C, и так далее...
+// В итоге E будет заменено F, так как замена происходит слева направо.
+$search  = array('A', 'B', 'C', 'D', 'E');
+$replace = array('B', 'C', 'D', 'E', 'F');
+$subject = 'A';
+echo str_replace($search, $replace, $subject);
 
-// Выводит: яблорехкорех орех (по вышеуказанной причине)
-$letters = array('я', 'о');
-$fruit   = array('яблоко', 'орех');
-$text    = 'я о';
-$output  = str_replace($letters, $fruit, $text);
-echo $output;
+// Выводит: яблорехкорех орех (по вышеуказанной причине)
+$letters = array('я', 'о');
+$fruit   = array('яблоко', 'орех');
+$text    = 'я о';
+$output  = str_replace($letters, $fruit, $text);
+echo $output;
 ?>
 ```
 

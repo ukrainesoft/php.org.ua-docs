@@ -126,8 +126,8 @@ public DOMCharacterData::replaceData(int $offset, int $count, string $data): boo
 public DOMCharacterData::substringData(int $offset, int $count): string|false
 
     public DOMNode::appendChild(DOMNode $node): DOMNode|false
-public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
-public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public DOMNode::C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
 public DOMNode::cloneNode(bool $deep = false): DOMNode|false
 public DOMNode::getLineNo(): int
 public DOMNode::getNodePath(): ?string
@@ -148,7 +148,7 @@ public DOMNode::replaceChild(DOMNode $node, DOMNode $child): DOMNode|false
 
 ## Дивіться також
 
--   [» Спецификация W3C комментариев](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1728279322)
+-   [» Спецификация W3C комментариев](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1728279322)
 
 ## Зміст
 

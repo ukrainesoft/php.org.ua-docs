@@ -56,47 +56,47 @@ title: Інтерфейси об'єктів
 ```php
 <?php
 
-// Объявим интерфейс 'Template'
-interface Template
+// Объявим интерфейс 'Template'
+interface Template
 {
-    public function setVariable($name, $var);
-    public function getHtml($template);
+    public function setVariable($name, $var);
+    public function getHtml($template);
 }
 
-// Реализация интерфейса
-// Это будет работать
-class WorkingTemplate implements Template
+// Реализация интерфейса
+// Это будет работать
+class WorkingTemplate implements Template
 {
-    private $vars = [];
+    private $vars = [];
 
-    public function setVariable($name, $var)
-    {
-        $this->vars[$name] = $var;
-    }
+    public function setVariable($name, $var)
+    {
+        $this->vars[$name] = $var;
+    }
 
-    public function getHtml($template)
-    {
-        foreach($this->vars as $name => $value) {
-            $template = str_replace('{' . $name . '}', $value, $template);
-        }
+    public function getHtml($template)
+    {
+        foreach($this->vars as $name => $value) {
+            $template = str_replace('{' . $name . '}', $value, $template);
+        }
 
-        return $template;
-    }
+        return $template;
+    }
 }
 
-// Это не будет работать
-// Fatal error: Class BadTemplate contains 1 abstract methods
-// and must therefore be declared abstract (Template::getHtml)
-// (Фатальная ошибка: Класс BadTemplate содержит 1 абстрактный метод
-// и поэтому должен быть объявлен абстрактным (Template::getHtml))
-class BadTemplate implements Template
+// Это не будет работать
+// Fatal error: Class BadTemplate contains 1 abstract methods
+// and must therefore be declared abstract (Template::getHtml)
+// (Фатальная ошибка: Класс BadTemplate содержит 1 абстрактный метод
+// и поэтому должен быть объявлен абстрактным (Template::getHtml))
+class BadTemplate implements Template
 {
-    private $vars = [];
+    private $vars = [];
 
-    public function setVariable($name, $var)
-    {
-        $this->vars[$name] = $var;
-    }
+    public function setVariable($name, $var)
+    {
+        $this->vars[$name] = $var;
+    }
 }
 ?>
 ```
@@ -105,38 +105,38 @@ class BadTemplate implements Template
 
 ```php
 <?php
-interface A
+interface A
 {
-    public function foo();
+    public function foo();
 }
 
-interface B extends A
+interface B extends A
 {
-    public function baz(Baz $baz);
+    public function baz(Baz $baz);
 }
 
-// Это сработает
-class C implements B
+// Это сработает
+class C implements B
 {
-    public function foo()
-    {
-    }
+    public function foo()
+    {
+    }
 
-    public function baz(Baz $baz)
-    {
-    }
+    public function baz(Baz $baz)
+    {
+    }
 }
 
-// Это не сработает и выдаст фатальную ошибку
-class D implements B
+// Это не сработает и выдаст фатальную ошибку
+class D implements B
 {
-    public function foo()
-    {
-    }
+    public function foo()
+    {
+    }
 
-    public function baz(Foo $foo)
-    {
-    }
+    public function baz(Foo $foo)
+    {
+    }
 }
 ?>
 ```
@@ -145,34 +145,34 @@ class D implements B
 
 ```php
 <?php
-interface A
+interface A
 {
-    public function foo();
+    public function foo();
 }
 
-interface B
+interface B
 {
-    public function bar();
+    public function bar();
 }
 
-interface C extends A, B
+interface C extends A, B
 {
-    public function baz();
+    public function baz();
 }
 
-class D implements C
+class D implements C
 {
-    public function foo()
-    {
-    }
+    public function foo()
+    {
+    }
 
-    public function bar()
-    {
-    }
+    public function bar()
+    {
+    }
 
-    public function baz()
-    {
-    }
+    public function baz()
+    {
+    }
 }
 ?>
 ```
@@ -181,24 +181,24 @@ class D implements C
 
 ```php
 <?php
-interface A
+interface A
 {
-    const B = 'Константа интерфейса';
+    const B = 'Константа интерфейса';
 }
 
-// Выведет: Константа интерфейса
-echo A::B;
+// Выведет: Константа интерфейса
+echo A::B;
 
 
-class B implements A
+class B implements A
 {
-    const B = 'Константа класса';
+    const B = 'Константа класса';
 }
 
-// Выведет: Константа класса
-// До PHP 8.1.0 этот код не будет работать,
-// потому что было нельзя переопределять константы.
-echo B::B;
+// Выведет: Константа класса
+// До PHP 8.1.0 этот код не будет работать,
+// потому что было нельзя переопределять константы.
+echo B::B;
 ?>
 ```
 
@@ -206,29 +206,29 @@ echo B::B;
 
 ```php
 <?php
-interface A
+interface A
 {
-    public function foo(string $s): string;
+    public function foo(string $s): string;
 
-    public function bar(int $i): int;
+    public function bar(int $i): int;
 }
 
-// Абстрактный класс может реализовывать только часть интерфейса.
-// Классы, расширяющие абстрактный класс, должны реализовать все остальные.
-abstract class B implements A
+// Абстрактный класс может реализовывать только часть интерфейса.
+// Классы, расширяющие абстрактный класс, должны реализовать все остальные.
+abstract class B implements A
 {
-    public function foo(string $s): string
-    {
-        return $s . PHP_EOL;
-    }
+    public function foo(string $s): string
+    {
+        return $s . PHP_EOL;
+    }
 }
 
-class C extends B
+class C extends B
 {
-    public function bar(int $i): int
-    {
-        return $i * 2;
-    }
+    public function bar(int $i): int
+    {
+        return $i * 2;
+    }
 }
 ?>
 ```
@@ -238,25 +238,25 @@ class C extends B
 ```php
 <?php
 
-class One
+class One
 {
-    /* ... */
+    /* ... */
 }
 
-interface Usable
+interface Usable
 {
-    /* ... */
+    /* ... */
 }
 
-interface Updatable
+interface Updatable
 {
-    /* ... */
+    /* ... */
 }
 
-// Порядок ключевых слов здесь важен. "extends" должно быть первым.
-class Two extends One implements Usable, Updatable
+// Порядок ключевых слов здесь важен. "extends" должно быть первым.
+class Two extends One implements Usable, Updatable
 {
-    /* ... */
+    /* ... */
 }
 ?>
 ```

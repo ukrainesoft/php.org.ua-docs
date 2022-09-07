@@ -34,10 +34,10 @@ public SplFileInfo::isReadable(): bool
 
 ```php
 <?php
-$info = new SplFileInfo(__FILE__);
+$info = new SplFileInfo(__FILE__);
 var_dump($info->isReadable());
 
-$info = new SplFileInfo('foo');
+$info = new SplFileInfo('foo');
 var_dump($info->isReadable());
 ?>
 ```

@@ -23,12 +23,12 @@ title: Стрілочні функції
 ```php
 <?php
 
-$y = 1;
+$y = 1;
 
-$fn1 = fn($x) => $x + $y;
-// эквивалентно использованию $y по значению:
-$fn2 = function ($x) use ($y) {
-    return $x + $y;
+$fn1 = fn($x) => $x + $y;
+// эквивалентно использованию $y по значению:
+$fn2 = function ($x) use ($y) {
+    return $x + $y;
 };
 
 var_export($fn1(3));
@@ -48,9 +48,9 @@ var_export($fn1(3));
 ```php
 <?php
 
-$z = 1;
-$fn = fn($x) => fn($y) => $x * $y + $z;
-// Выведет 51
+$z = 1;
+$fn = fn($x) => fn($y) => $x * $y + $z;
+// Выведет 51
 var_export($fn(5)(10));
 ?>
 ```
@@ -62,12 +62,12 @@ var_export($fn(5)(10));
 ```php
 <?php
 
-fn(array $x) => $x;
-static fn(): int => $x;
-fn($x = 42) => $x;
-fn(&$x) => $x;
-fn&($x) => $x;
-fn($x, ...$rest) => $rest;
+fn(array $x) => $x;
+static fn(): int => $x;
+fn($x = 42) => $x;
+fn(&$x) => $x;
+fn&($x) => $x;
+fn($x, ...$rest) => $rest;
 
 ?>
 ```
@@ -79,10 +79,10 @@ fn($x, ...$rest) => $rest;
 ```php
 <?php
 
-$x = 1;
-$fn = fn() => $x++; // Ничего не изменит
+$x = 1;
+$fn = fn() => $x++; // Ничего не изменит
 $fn();
-var_export($x);  // Выведет 1
+var_export($x);  // Выведет 1
 
 ?>
 ```

@@ -40,7 +40,7 @@ recode_string(string $request, string $string): string
 
 ```php
 <?php
-echo recode_string("us..flat", "The following character has a diacritical mark: á");
+echo recode_string("us..flat", "The following character has a diacritical mark: á");
 ?>
 ```
 

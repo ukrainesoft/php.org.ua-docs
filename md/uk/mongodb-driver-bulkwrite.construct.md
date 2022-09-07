@@ -65,56 +65,56 @@ public MongoDB\Driver\BulkWrite::__construct(?array $options = null)
 ```php
 <?php
 
-$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);
+$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);
 $bulk->delete([]);
-$bulk->insert(['_id' => 1, 'x' => 1]);
-$bulk->insert(['_id' => 2, 'x' => 2]);
+$bulk->insert(['_id' => 1, 'x' => 1]);
+$bulk->insert(['_id' => 2, 'x' => 2]);
 $bulk->update(
-    ['x' => 2],
-    ['$set' => ['x' => 1]],
-    ['limit' => 1, 'upsert' => false]
+    ['x' => 2],
+    ['$set' => ['x' => 1]],
+    ['limit' => 1, 'upsert' => false]
 );
-$bulk->delete(['x' => 1], ['limit' => 1]);
+$bulk->delete(['x' => 1], ['limit' => 1]);
 $bulk->update(
-    ['_id' => 3],
-    ['$set' => ['x' => 3]],
-    ['limit' => 1, 'upsert' => true]
+    ['_id' => 3],
+    ['$set' => ['x' => 3]],
+    ['limit' => 1, 'upsert' => true]
 );
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
-$writeConcern = new MongoDB\Driver\WriteConcern(1);
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$writeConcern = new MongoDB\Driver\WriteConcern(1);
 
-try {
-    $result = $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
-} catch (MongoDB\Driver\Exception\BulkWriteException $e) {
-    $result = $e->getWriteResult();
+try {
+    $result = $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
+} catch (MongoDB\Driver\Exception\BulkWriteException $e) {
+    $result = $e->getWriteResult();
 
-    // Проверяем обеспечение гарантии записи
-    if ($writeConcernError = $result->getWriteConcernError()) {
-        printf("%s (%d): %s\n",
-            $writeConcernError->getMessage(),
-            $writeConcernError->getCode(),
-            var_export($writeConcernError->getInfo(), true)
-        );
-    }
+    // Проверяем обеспечение гарантии записи
+    if ($writeConcernError = $result->getWriteConcernError()) {
+        printf("%s (%d): %s\n",
+            $writeConcernError->getMessage(),
+            $writeConcernError->getCode(),
+            var_export($writeConcernError->getInfo(), true)
+        );
+    }
 
-    // Проверяем, если какие-либо операции записи не были выполнены
-    foreach ($result->getWriteErrors() as $writeError) {
-        printf("Operation#%d: %s (%d)\n",
-            $writeError->getIndex(),
-            $writeError->getMessage(),
-            $writeError->getCode()
-        );
-    }
-} catch (MongoDB\Driver\Exception\Exception $e) {
-    printf("Другая ошибка: %s\n", $e->getMessage());
-    exit;
+    // Проверяем, если какие-либо операции записи не были выполнены
+    foreach ($result->getWriteErrors() as $writeError) {
+        printf("Operation#%d: %s (%d)\n",
+            $writeError->getIndex(),
+            $writeError->getMessage(),
+            $writeError->getCode()
+        );
+    }
+} catch (MongoDB\Driver\Exception\Exception $e) {
+    printf("Другая ошибка: %s\n", $e->getMessage());
+    exit;
 }
 
-printf("Добавлено %d документ(ов)\n", $result->getInsertedCount());
-printf("Обновлено  %d документ(ов)\n", $result->getModifiedCount());
-printf("Слито %d документ(ов)\n", $result->getUpsertedCount());
-printf("Удалено  %d документ(ов)\n", $result->getDeletedCount());
+printf("Добавлено %d документ(ов)\n", $result->getInsertedCount());
+printf("Обновлено  %d документ(ов)\n", $result->getModifiedCount());
+printf("Слито %d документ(ов)\n", $result->getUpsertedCount());
+printf("Удалено  %d документ(ов)\n", $result->getDeletedCount());
 
 ?>
 ```

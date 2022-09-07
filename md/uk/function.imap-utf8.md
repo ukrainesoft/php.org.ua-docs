@@ -24,7 +24,7 @@ imap_utf8(string $mime_encoded_text): string
 
 `mime_encoded_text`
 
-MIME-кодований рядок. Метод кодування MIME та специфікація UTF-8 описані в [» RFC2047](http://www.faqs.org/rfcs/rfc2047) і [» RFC2044](http://www.faqs.org/rfcs/rfc2044) відповідно.
+MIME-кодований рядок. Метод кодування MIME та специфікація UTF-8 описані в [» RFC2047](http://www.faqs.org/rfcs/rfc2047) і [» RFC2044](http://www.faqs.org/rfcs/rfc2044) відповідно.
 
 ### Значення, що повертаються
 
@@ -36,7 +36,7 @@ MIME-кодований рядок. Метод кодування MIME та сп
 
 ```php
 <?php
-echo imap_utf8("Johannes =?ISO-8859-1?Q?Schl=FCter?=");
+echo imap_utf8("Johannes =?ISO-8859-1?Q?Schl=FCter?=");
 ?>
 ```
 

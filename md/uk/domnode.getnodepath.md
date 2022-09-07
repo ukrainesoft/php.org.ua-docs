@@ -34,25 +34,25 @@ public DOMNode::getNodePath(): ?string
 
 ```php
 <?php
-// Создание объекта DOMDocument
-$dom = new DOMDocument;
+// Создание объекта DOMDocument
+$dom = new DOMDocument;
 
-// Загрузка XML
+// Загрузка XML
 $dom->loadXML('
 <fruits>
- <apples>
-  <apple>braeburn</apple>
-  <apple>granny smith</apple>
- </apples>
- <pears>
-  <pear>conference</pear>
- </pears>
+ <apples>
+  <apple>braeburn</apple>
+  <apple>granny smith</apple>
+ </apples>
+ <pears>
+  <pear>conference</pear>
+ </pears>
 </fruits>
 ');
 
-// Вывод XPath для каждого элемента
-foreach ($dom->getElementsByTagName('*') as $node) {
-    echo $node->getNodePath() . "\n";
+// Вывод XPath для каждого элемента
+foreach ($dom->getElementsByTagName('*') as $node) {
+    echo $node->getNodePath() . "\n";
 }
 ?>
 ```

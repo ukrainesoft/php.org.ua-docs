@@ -19,12 +19,12 @@ mhashkeygens2k - Генерація ключа
 ### Опис
 
 ```methodsynopsis
-mhash_keygen_s2k(    int $algo,    string $password,    string $salt,    int $length): string|false
+mhash_keygen_s2k(    int $algo,    string $password,    string $salt,    int $length): string|false
 ```
 
 Генерує ключ відповідно до заданого `algo` та вказаним паролем `password`
 
-Використовується алгоритм S2K із сіллю, як описано у документі OpenPGP ([» RFC 2440](http://www.faqs.org/rfcs/rfc2440)
+Використовується алгоритм S2K із сіллю, як описано у документі OpenPGP ([» RFC 2440](http://www.faqs.org/rfcs/rfc2440)
 
 Пам'ятайте, що паролі користувача не є підходящими ключами для криптографічних алгоритмів, оскільки зазвичай вони як мінімум набираються на клавіатурі. Такі паролі використовують лише 6-7 біт (або менше) на символ. Так що такі паролі рекомендується попередньо перетворювати (наприклад цією функцією).
 

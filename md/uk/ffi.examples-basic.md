@@ -18,12 +18,12 @@ title: Прості приклади використання FFI
 
 ```php
 <?php
-// создаём объект FFI, загружаем libc и экспортируем функцию printf()
-$ffi = FFI::cdef(
-    "int printf(const char *format, ...);", // это стандартная декларация C
-    "libc.so.6");
-// вызываем printf()
-$ffi->printf("Привет, %s!\n", "мир");
+// создаём объект FFI, загружаем libc и экспортируем функцию printf()
+$ffi = FFI::cdef(
+    "int printf(const char *format, ...);", // это стандартная декларация C
+    "libc.so.6");
+// вызываем printf()
+$ffi->printf("Привет, %s!\n", "мир");
 ?>
 ```
 
@@ -41,31 +41,31 @@ $ffi->printf("Привет, %s!\n", "мир");
 
 ```php
 <?php
-// создаём привязку gettimeofday()
-$ffi = FFI::cdef("
-    typedef unsigned int time_t;
-    typedef unsigned int suseconds_t;
+// создаём привязку gettimeofday()
+$ffi = FFI::cdef("
+    typedef unsigned int time_t;
+    typedef unsigned int suseconds_t;
 
-    struct timeval {
-        time_t      tv_sec;
-        suseconds_t tv_usec;
-    };
+    struct timeval {
+        time_t      tv_sec;
+        suseconds_t tv_usec;
+    };
 
-    struct timezone {
-        int tz_minuteswest;
-        int tz_dsttime;
-    };
+    struct timezone {
+        int tz_minuteswest;
+        int tz_dsttime;
+    };
 
-    int gettimeofday(struct timeval *tv, struct timezone *tz);
-", "libc.so.6");
-// создаём структуры данных C
-$tv = $ffi->new("struct timeval");
-$tz = $ffi->new("struct timezone");
-// вызываем gettimeofday()
-var_dump($ffi->gettimeofday(FFI::addr($tv), FFI::addr($tz)));
-// получаем доступ к полю структуры данных C
+    int gettimeofday(struct timeval *tv, struct timezone *tz);
+", "libc.so.6");
+// создаём структуры данных C
+$tv = $ffi->new("struct timeval");
+$tz = $ffi->new("struct timezone");
+// вызываем gettimeofday()
+var_dump($ffi->gettimeofday(FFI::addr($tv), FFI::addr($tz)));
+// получаем доступ к полю структуры данных C
 var_dump($tv->tv_sec);
-// печатаем всю структуру данных
+// печатаем всю структуру данных
 var_dump($tz);
 ?>
 ```
@@ -87,11 +87,11 @@ object(FFI\CData:struct timezone)#3 (2) {
 
 ```php
 <?php
-// создаём объект FFI, загружаем libc и экспортируем переменную errno
-$ffi = FFI::cdef(
-    "int errno;", // это стандартная декларация C
-    "libc.so.6");
-// печатаем errno
+// создаём объект FFI, загружаем libc и экспортируем переменную errno
+$ffi = FFI::cdef(
+    "int errno;", // это стандартная декларация C
+    "libc.so.6");
+// печатаем errno
 var_dump($ffi->errno);
 ?>
 ```
@@ -106,16 +106,16 @@ int(0)
 
 ```php
 <?php
-// создаём переменную C типа int
-$x = FFI::new("int");
+// создаём переменную C типа int
+$x = FFI::new("int");
 var_dump($x->cdata);
 
-// простое присваивание
-$x->cdata = 5;
+// простое присваивание
+$x->cdata = 5;
 var_dump($x->cdata);
 
-// не простое присвоение
-$x->cdata += 2;
+// не простое присвоение
+$x->cdata += 2;
 var_dump($x->cdata);
 ?>
 ```
@@ -132,16 +132,16 @@ int(7)
 
 ```php
 <?php
-// создаём структуру данных
-$a = FFI::new("long[1024]");
-// работаем с ней как с обычным Масивом PHP
-for ($i = 0; $i < count($a); $i++) {
-    $a[$i] = $i;
+// создаём структуру данных
+$a = FFI::new("long[1024]");
+// работаем с ней как с обычным Масивом PHP
+for ($i = 0; $i < count($a); $i++) {
+    $a[$i] = $i;
 }
 var_dump($a[25]);
-$sum = 0;
-foreach ($a as $n) {
-    $sum += $n;
+$sum = 0;
+foreach ($a as $n) {
+    $sum += $n;
 }
 var_dump($sum);
 var_dump(count($a));
@@ -162,12 +162,12 @@ int(8192)
 
 ```php
 <?php
-$a = FFI::cdef('typedef enum _zend_ffi_symbol_kind {
-    ZEND_FFI_SYM_TYPE,
-    ZEND_FFI_SYM_CONST = 2,
-    ZEND_FFI_SYM_VAR,
-    ZEND_FFI_SYM_FUNC
-} zend_ffi_symbol_kind;
+$a = FFI::cdef('typedef enum _zend_ffi_symbol_kind {
+    ZEND_FFI_SYM_TYPE,
+    ZEND_FFI_SYM_CONST = 2,
+    ZEND_FFI_SYM_VAR,
+    ZEND_FFI_SYM_FUNC
+} zend_ffi_symbol_kind;
 ');
 var_dump($a->ZEND_FFI_SYM_TYPE);
 var_dump($a->ZEND_FFI_SYM_CONST);

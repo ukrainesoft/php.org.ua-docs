@@ -41,40 +41,40 @@ public Yaf_Route_Supervar::assemble(array $info, array $query = ?): string
 ```php
 <?php
 
-$router = new Yaf_Router();
+$router = new Yaf_Router();
 
-$route  = new Yaf_Route_Supervar('r');
+$route  = new Yaf_Route_Supervar('r');
 
-$router->addRoute("supervar", $route);
+$router->addRoute("supervar", $route);
 
 var_dump($router->getRoute('supervar')->assemble(
-        array(
-              ':a' => 'yafaction',
-              'tkey' => 'tval',
-              ':c' => 'yafcontroller',
-              ':m' => 'yafmodule'
-        ),
-        array(
-              'tkey1' => 'tval1',
-              'tkey2' => 'tval2'
-        )
+        array(
+              ':a' => 'yafaction',
+              'tkey' => 'tval',
+              ':c' => 'yafcontroller',
+              ':m' => 'yafmodule'
+        ),
+        array(
+              'tkey1' => 'tval1',
+              'tkey2' => 'tval2'
+        )
 ));
 
-try {
+try {
 var_dump($router->getRoute('supervar')->assemble(
-        array(
-              ':a' => 'yafaction',
-              'tkey' => 'tval',
-              ':m' => 'yafmodule'
-        ),
-        array(
-              'tkey1' => 'tval1',
-              'tkey2' => 'tval2',
-              1 => array(),
-        )
+        array(
+              ':a' => 'yafaction',
+              'tkey' => 'tval',
+              ':m' => 'yafmodule'
+        ),
+        array(
+              'tkey1' => 'tval1',
+              'tkey2' => 'tval2',
+              1 => array(),
+        )
 ));
-} catch (Exception $e) {
-    var_dump($e->getMessage());
+} catch (Exception $e) {
+    var_dump($e->getMessage());
 }
 ```
 

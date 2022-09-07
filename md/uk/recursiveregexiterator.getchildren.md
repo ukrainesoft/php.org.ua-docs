@@ -38,23 +38,23 @@ public RecursiveRegexIterator::getChildren(): RecursiveRegexIterator
 
 ```php
 <?php
-$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));
-$rRegexIterator = new RecursiveRegexIterator($rArrayIterator, '/^test/',
-    RecursiveRegexIterator::ALL_MATCHES);
+$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));
+$rRegexIterator = new RecursiveRegexIterator($rArrayIterator, '/^test/',
+    RecursiveRegexIterator::ALL_MATCHES);
 
-foreach ($rRegexIterator as $key1 => $value1) {
+foreach ($rRegexIterator as $key1 => $value1) {
 
-    if ($rRegexIterator->hasChildren()) {
+    if ($rRegexIterator->hasChildren()) {
 
-        // выведем все дочерние элементы
-        echo "Дочерние элементы: ";
-        foreach ($rRegexIterator->getChildren() as $key => $value) {
-            echo $value . " ";
-        }
-        echo "\n";
-    } else {
-        echo "Нет дочерних элементов\n";
-    }
+        // выведем все дочерние элементы
+        echo "Дочерние элементы: ";
+        foreach ($rRegexIterator->getChildren() as $key => $value) {
+            echo $value . " ";
+        }
+        echo "\n";
+    } else {
+        echo "Нет дочерних элементов\n";
+    }
 
 }
 ?>

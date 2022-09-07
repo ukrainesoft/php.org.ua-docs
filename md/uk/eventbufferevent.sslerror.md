@@ -39,19 +39,19 @@ public
 
 ```php
 <?php
-// Эта callbac-функция вызывается, когда какое-либо событие происходит в приёмнике событий,
-// например, соединение закрыто или произошла ошибка
-function ssl_event_cb($bev, $events, $ctx) {
-    if ($events & EventBufferEvent::ERROR) {
-        // Извлекаем ошибки из стека ошибок SSL
-        while ($err = $bev->sslError()) {
-            fprintf(STDERR, "Bufferevent error %s.\n", $err);
-        }
-    }
+// Эта callbac-функция вызывается, когда какое-либо событие происходит в приёмнике событий,
+// например, соединение закрыто или произошла ошибка
+function ssl_event_cb($bev, $events, $ctx) {
+    if ($events & EventBufferEvent::ERROR) {
+        // Извлекаем ошибки из стека ошибок SSL
+        while ($err = $bev->sslError()) {
+            fprintf(STDERR, "Bufferevent error %s.\n", $err);
+        }
+    }
 
-    if ($events & (EventBufferEvent::EOF | EventBufferEvent::ERROR)) {
-        $bev->free();
-    }
+    if ($events & (EventBufferEvent::EOF | EventBufferEvent::ERROR)) {
+        $bev->free();
+    }
 }
 ?>
 ```

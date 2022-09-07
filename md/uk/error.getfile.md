@@ -34,10 +34,10 @@ final public Error::getFile(): string
 
 ```php
 <?php
-try {
-    throw new Error;
-} catch(Error $e) {
-    echo $e->getFile();
+try {
+    throw new Error;
+} catch(Error $e) {
+    echo $e->getFile();
 }
 ?>
 ```

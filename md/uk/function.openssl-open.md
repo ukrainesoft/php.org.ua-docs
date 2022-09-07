@@ -15,7 +15,7 @@ opensslopen — Відкрити запечатані дані
 ### Опис
 
 ```methodsynopsis
-openssl_open(    string $data,    string &$output,    string $encrypted_key,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $cipher_algo,    ?string $iv = null): bool
+openssl_open(    string $data,    string &$output,    string $encrypted_key,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $cipher_algo,    ?string $iv = null): bool
 ```
 
 **opensslopen()** відкриває (дешифрує) `data`, використовуючи секретний ключ, пов'язаний з ідентифікатором `private_key` і ключ обгортки `encrypted_key`, і заповнює `output` розшифрованими даними. Ключ обгортки створюється під час запечатування даних і може використовуватися тільки з одним секретним ключем. Докладніше можна прочитати на сторінці опису функції [opensslseal()](function.openssl-seal.md)
@@ -61,23 +61,23 @@ openssl_open(    string $data,    string &$output,    string $encryp
 
 ```php
 <?php
-// Предположим, что $sealed и $env_key содержат закрытые данные и
-// ключ обёртки соответственно
+// Предположим, что $sealed и $env_key содержат закрытые данные и
+// ключ обёртки соответственно
 
-// Извлекаем секретный ключ из файла
-$fp = fopen("/src/openssl-0.9.6/demos/sign/key.pem", "r");
-$priv_key = fread($fp, 8192);
+// Извлекаем секретный ключ из файла
+$fp = fopen("/src/openssl-0.9.6/demos/sign/key.pem", "r");
+$priv_key = fread($fp, 8192);
 fclose($fp);
-$pkeyid = openssl_get_privatekey($priv_key);
+$pkeyid = openssl_get_privatekey($priv_key);
 
-// расшмфровываем данные и складываем их в $open
-if (openssl_open($sealed, $open, $env_key, $pkeyid)) {
-    echo "Расшифрованные данные: ", $open;
-} else {
-    echo "Что-то пошло не так :(";
+// расшмфровываем данные и складываем их в $open
+if (openssl_open($sealed, $open, $env_key, $pkeyid)) {
+    echo "Расшифрованные данные: ", $open;
+} else {
+    echo "Что-то пошло не так :(";
 }
 
-// Высвобождаем ресурс приватнного ключа
+// Высвобождаем ресурс приватнного ключа
 openssl_free_key($pkeyid);
 ?>
 ```

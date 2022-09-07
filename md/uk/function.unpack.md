@@ -59,8 +59,8 @@ unpack(string $format, string $string, int $offset = 0): array|false
 
 ```php
 <?php
-$binarydata = "\x04\x00\xa0\x00";
-$array = unpack("cchars/nint", $binarydata);
+$binarydata = "\x04\x00\xa0\x00";
+$array = unpack("cchars/nint", $binarydata);
 print_r($array);
 ?>
 ```
@@ -79,8 +79,8 @@ Array
 
 ```php
 <?php
-$binarydata = "\x04\x00\xa0\x00";
-$array = unpack("c2chars/nint", $binarydata);
+$binarydata = "\x04\x00\xa0\x00";
+$array = unpack("c2chars/nint", $binarydata);
 print_r($array);
 ?>
 ```
@@ -110,8 +110,8 @@ PHP зберігає цілі значення зі знаком (signed). Як�
 
 ```php
 <?php
-$binarydata = "\x32\x42\x00\xa0";
-$array = unpack("c2/n", $binarydata);
+$binarydata = "\x32\x42\x00\xa0";
+$array = unpack("c2/n", $binarydata);
 var_dump($array);
 ?>
 ```

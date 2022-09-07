@@ -42,10 +42,10 @@ public SeekableIterator::seek(int $offset): void
 
 ```php
 <?php
-$array = array("яблоко", "банан", "вишня", "чернослив", "ягода бузины");
-$iterator = new ArrayIterator($array);
+$array = array("яблоко", "банан", "вишня", "чернослив", "ягода бузины");
+$iterator = new ArrayIterator($array);
 $iterator->seek(3);
-echo $iterator->current();
+echo $iterator->current();
 ?>
 ```
 

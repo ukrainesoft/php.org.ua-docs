@@ -10,7 +10,7 @@ title: Вступ
 
 Пакет базується на бібліотеці libradius (Remote Authentication Dial In User Service) з FreeBSD. Він дозволяє проводити облік та автентифікацію клієнтів шляхом запитів до віддалених мережевих сервісів.
 
-Цей модуль PECL додає повну підтримку Radius Authentication ([» RFC 2865](http://www.faqs.org/rfcs/rfc2865)) та Radius Accounting ([» RFC 2866](http://www.faqs.org/rfcs/rfc2866)). Цей пакет доступний для Unix (тестувався у FreeBSD та Linux) та для Windows.
+Цей модуль PECL додає повну підтримку Radius Authentication ([» RFC 2865](http://www.faqs.org/rfcs/rfc2865)) та Radius Accounting ([» RFC 2866](http://www.faqs.org/rfcs/rfc2866)). Цей пакет доступний для Unix (тестувався у FreeBSD та Linux) та для Windows.
 
 > **Зауваження**
 > 

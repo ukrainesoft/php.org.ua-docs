@@ -40,10 +40,10 @@ gnupg_decrypt(resource $identifier, string $text): string
 
 ```php
 <?php
-$res = gnupg_init();
-gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
-$plain = gnupg_decrypt($res,$encrypted_text);
-echo $plain;
+$res = gnupg_init();
+gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
+$plain = gnupg_decrypt($res,$encrypted_text);
+echo $plain;
 ?>
 ```
 
@@ -51,9 +51,9 @@ echo $plain;
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
-$plain = $gpg->decrypt($encrypted_text);
-echo $plain;
+$plain = $gpg->decrypt($encrypted_text);
+echo $plain;
 ?>
 ```

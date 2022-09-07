@@ -42,73 +42,73 @@ public streamWrapper::dir_readdir(): string
 
 ```php
 <?php
-class streamWrapper {
-    protected $fp;
+class streamWrapper {
+    protected $fp;
 
-    public function dir_opendir($path, $options) {
-        $url = parse_url($path);
+    public function dir_opendir($path, $options) {
+        $url = parse_url($path);
 
-        $path = $url["host"] . $url["path"];
+        $path = $url["host"] . $url["path"];
 
-        if (!is_readable($path)) {
-            trigger_error("Не могу прочитать $path ", E_USER_NOTICE);
-            return false;
-        }
-        if (!is_file($path)) {
-            trigger_error("$path не является файлом", E_USER_NOTICE);
-            return false;
-        }
+        if (!is_readable($path)) {
+            trigger_error("Не могу прочитать $path ", E_USER_NOTICE);
+            return false;
+        }
+        if (!is_file($path)) {
+            trigger_error("$path не является файлом", E_USER_NOTICE);
+            return false;
+        }
 
-        $this->fp = fopen($path, "rb");
-        return true;
-    }
+        $this->fp = fopen($path, "rb");
+        return true;
+    }
 
-    public function dir_readdir() {
-        // Извлечение заголовка
-        $header      = fread($this->fp, 512);
-        $data = unpack("a100filename/a8mode/a8uid/a8gid/a12size/a12mtime/a8checksum/a1filetype/a100link/a100linkedfile", $header);
+    public function dir_readdir() {
+        // Извлечение заголовка
+        $header      = fread($this->fp, 512);
+        $data = unpack("a100filename/a8mode/a8uid/a8gid/a12size/a12mtime/a8checksum/a1filetype/a100link/a100linkedfile", $header);
 
-        // Убираем лишние пробелы в имени файла и его размере
-        $filename    = trim($data["filename"]);
+        // Убираем лишние пробелы в имени файла и его размере
+        $filename    = trim($data["filename"]);
 
-        // Нет файла? Значит мы дошли до конца архива
-        if (!$filename) {
-            return false;
-        }
+        // Нет файла? Значит мы дошли до конца архива
+        if (!$filename) {
+            return false;
+        }
 
-        $octal_bytes = trim($data["size"]);
-        // Размер файла определён в восьмеричной системе
-        $bytes       = octdec($octal_bytes);
+        $octal_bytes = trim($data["size"]);
+        // Размер файла определён в восьмеричной системе
+        $bytes       = octdec($octal_bytes);
 
-        // tar округляет размеры файлов, чтобы они были
-        // кратными 512 байтам (с заполнением нулями)
-        $rest        = $bytes % 512;
-        if ($rest > 0) {
-            $bytes      += 512 - $rest;
-        }
+        // tar округляет размеры файлов, чтобы они были
+        // кратными 512 байтам (с заполнением нулями)
+        $rest        = $bytes % 512;
+        if ($rest > 0) {
+            $bytes      += 512 - $rest;
+        }
 
-        // Перемещаемся внутри файла
-        fseek($this->fp, $bytes, SEEK_CUR);
+        // Перемещаемся внутри файла
+        fseek($this->fp, $bytes, SEEK_CUR);
 
-        return $filename;
-    }
+        return $filename;
+    }
 
-    public function dir_closedir() {
-        return fclose($this->fp);
-    }
+    public function dir_closedir() {
+        return fclose($this->fp);
+    }
 
-    public function dir_rewinddir() {
-        return fseek($this->fp, 0, SEEK_SET);
-    }
+    public function dir_rewinddir() {
+        return fseek($this->fp, 0, SEEK_SET);
+    }
 }
 
-stream_wrapper_register("tar", "streamWrapper");
-$handle = opendir("tar://example.tar");
-while (false !== ($file = readdir($handle))) {
-    var_dump($file);
+stream_wrapper_register("tar", "streamWrapper");
+$handle = opendir("tar://example.tar");
+while (false !== ($file = readdir($handle))) {
+    var_dump($file);
 }
 
-echo "Перемотка в начало..\n";
+echo "Перемотка в начало..\n";
 rewind($handle);
 var_dump(readdir($handle));
 

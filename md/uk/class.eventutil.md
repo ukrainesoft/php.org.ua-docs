@@ -164,16 +164,16 @@ public
     = ?): bool
 public
    static
-   setSocketOption(    
+   setSocketOption(    
     mixed
      $socket
-   ,    
+   ,    
     int
      $level
-   ,    
+   ,    
     int
      $optname
-   ,    
+   ,    
     mixed
      $optval
    ): bool

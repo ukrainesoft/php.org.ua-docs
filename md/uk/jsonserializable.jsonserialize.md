@@ -34,18 +34,18 @@ public JsonSerializable::jsonSerialize(): mixed
 
 ```php
 <?php
-class ArrayValue implements JsonSerializable {
-    public function __construct(array $array) {
-        $this->array = $array;
-    }
+class ArrayValue implements JsonSerializable {
+    public function __construct(array $array) {
+        $this->array = $array;
+    }
 
-    public function jsonSerialize() {
-        return $this->array;
-    }
+    public function jsonSerialize() {
+        return $this->array;
+    }
 }
 
-$array = [1, 2, 3];
-echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
+$array = [1, 2, 3];
+echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 ?>
 ```
 
@@ -63,18 +63,18 @@ echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 
 ```php
 <?php
-class ArrayValue implements JsonSerializable {
-    public function __construct(array $array) {
-        $this->array = $array;
-    }
+class ArrayValue implements JsonSerializable {
+    public function __construct(array $array) {
+        $this->array = $array;
+    }
 
-    public function jsonSerialize() {
-        return $this->array;
-    }
+    public function jsonSerialize() {
+        return $this->array;
+    }
 }
 
-$array = ['foo' => 'bar', 'quux' => 'baz'];
-echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
+$array = ['foo' => 'bar', 'quux' => 'baz'];
+echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 ?>
 ```
 
@@ -91,17 +91,17 @@ echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);
 
 ```php
 <?php
-class IntegerValue implements JsonSerializable {
-    public function __construct($number) {
-        $this->number = (integer) $number;
-    }
+class IntegerValue implements JsonSerializable {
+    public function __construct($number) {
+        $this->number = (integer) $number;
+    }
 
-    public function jsonSerialize() {
-        return $this->number;
-    }
+    public function jsonSerialize() {
+        return $this->number;
+    }
 }
 
-echo json_encode(new IntegerValue(1), JSON_PRETTY_PRINT);
+echo json_encode(new IntegerValue(1), JSON_PRETTY_PRINT);
 ?>
 ```
 
@@ -115,17 +115,17 @@ echo json_encode(new IntegerValue(1), JSON_PRETTY_PRINT);
 
 ```php
 <?php
-class StringValue implements JsonSerializable {
-    public function __construct($string) {
-        $this->string = (string) $string;
-    }
+class StringValue implements JsonSerializable {
+    public function __construct($string) {
+        $this->string = (string) $string;
+    }
 
-    public function jsonSerialize() {
-        return $this->string;
-    }
+    public function jsonSerialize() {
+        return $this->string;
+    }
 }
 
-echo json_encode(new StringValue('Hello!'), JSON_PRETTY_PRINT);
+echo json_encode(new StringValue('Hello!'), JSON_PRETTY_PRINT);
 ?>
 ```
 

@@ -38,11 +38,11 @@ public DateTimeImmutable::setTimezone(DateTimeZone $timezone): DateTimeImmutable
 
 ```php
 <?php
-$date = new DateTimeImmutable('2000-01-01', new DateTimeZone('Pacific/Nauru'));
-echo $date->format('Y-m-d H:i:sP') . "\n";
+$date = new DateTimeImmutable('2000-01-01', new DateTimeZone('Pacific/Nauru'));
+echo $date->format('Y-m-d H:i:sP') . "\n";
 
-$newDate = $date->setTimezone(new DateTimeZone('Pacific/Chatham'));
-echo $newDate->format('Y-m-d H:i:sP') . "\n";
+$newDate = $date->setTimezone(new DateTimeZone('Pacific/Chatham'));
+echo $newDate->format('Y-m-d H:i:sP') . "\n";
 ?>
 ```
 

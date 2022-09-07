@@ -35,7 +35,7 @@ public mysql_xdevapi\ColumnResult::getColumnName(): string
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

@@ -15,7 +15,7 @@ dbapopen — Встановити постійний екземпляр бази
 ### Опис
 
 ```methodsynopsis
-dba_popen(    string $path,    string $mode,    string $handler = ?,    mixed ...$args): resource|false
+dba_popen(    string $path,    string $mode,    string $handler = ?,    mixed ...$args): resource|false
 ```
 
 [dbaopen()](function.dba-open.md) встановлює постійний екземпляр бази даних шляхом `path` в режимі `mode`, використовуючи обробник `handler`

@@ -82,4 +82,4 @@ local: { // 96-байтовий головний ключ, який викори
 ### Дивіться також
 
 -   [MongoDBDriverClientEncryption::construct()](mongodb-driver-clientencryption.construct.md) - Створює новий об'єкт ClientEncryption
--   Сторінка в посібнику з MongoDB: [» Явное (ручное) шифрование на уровне поля на стороне клиента](https://www.mongodb.com/docs/manual/core/security-explicit-client-side-encryption/)
+-   Сторінка в посібнику з MongoDB: [» Явное (ручное) шифрование на уровне поля на стороне клиента](https://www.mongodb.com/docs/manual/core/security-explicit-client-side-encryption/)

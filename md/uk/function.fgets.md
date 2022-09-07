@@ -42,15 +42,15 @@ fgets(resource $stream, ?int $length = null): string|false
 
 ```php
 <?php
-$fp = @fopen("/tmp/inputfile.txt", "r");
-if ($fp) {
-    while (($buffer = fgets($fp, 4096)) !== false) {
-        echo $buffer;
-    }
-    if (!feof($fp)) {
-        echo "Ошибка: fgets() неожиданно потерпел неудачу\n";
-    }
-    fclose($fp);
+$fp = @fopen("/tmp/inputfile.txt", "r");
+if ($fp) {
+    while (($buffer = fgets($fp, 4096)) !== false) {
+        echo $buffer;
+    }
+    if (!feof($fp)) {
+        echo "Ошибка: fgets() неожиданно потерпел неудачу\n";
+    }
+    fclose($fp);
 }
 ?>
 ```

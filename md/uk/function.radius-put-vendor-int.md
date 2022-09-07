@@ -15,7 +15,7 @@ radiusputvendorint — Приєднує цілий атрибут, що зале
 ### Опис
 
 ```methodsynopsis
-radius_put_vendor_int(    resource $radius_handle,    int $vendor,    int $type,    int $value,    int $options = 0,    int $tag = ?): bool
+radius_put_vendor_int(    resource $radius_handle,    int $vendor,    int $type,    int $value,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує до поточного запиту RADIUS цілий атрибут, що залежить від постачальника.

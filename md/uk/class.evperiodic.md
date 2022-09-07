@@ -58,23 +58,23 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     float
      $offset
-   ,    
+   ,    
     string
      $interval
-   ,    
+   ,    
     callable
      $reschedule_cb
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -87,23 +87,23 @@ public
 final
    public
    static
-   createStopped(    
+   createStopped(    
     float
      $offset
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $reschedule_cb
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

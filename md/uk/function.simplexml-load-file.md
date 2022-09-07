@@ -15,7 +15,7 @@ simplexmlloadfile — Інтерпретує файл XML в об'єкт
 ### Опис
 
 ```methodsynopsis
-simplexml_load_file(    string $filename,    ?string $class_name = SimpleXMLElement::class,    int $options = 0,    string $namespace_or_prefix = "",    bool $is_prefix = false): SimpleXMLElement|false
+simplexml_load_file(    string $filename,    ?string $class_name = SimpleXMLElement::class,    int $options = 0,    string $namespace_or_prefix = "",    bool $is_prefix = false): SimpleXMLElement|false
 ```
 
 Перетворює правильно сформований XML-документ у вказаному файлі на об'єкт.
@@ -64,15 +64,15 @@ simplexml_load_file(    string $filename,    ?string $class_name = Simpl
 
 ```php
 <?php
-// Файл test.xml содержит XML-документ с корневым элементом
-// и по меньшей мере элемент /[root]/title.
+// Файл test.xml содержит XML-документ с корневым элементом
+// и по меньшей мере элемент /[root]/title.
 
-if (file_exists('test.xml')) {
-    $xml = simplexml_load_file('test.xml');
+if (file_exists('test.xml')) {
+    $xml = simplexml_load_file('test.xml');
 
-    print_r($xml);
-} else {
-    exit('Не удалось открыть файл test.xml.');
+    print_r($xml);
+} else {
+    exit('Не удалось открыть файл test.xml.');
 }
 ?>
 ```

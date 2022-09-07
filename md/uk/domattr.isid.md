@@ -37,16 +37,16 @@ public DOMAttr::isId(): bool
 ```php
 <?php
 
-$doc = new DomDocument;
+$doc = new DomDocument;
 
-// Необходимо проверить документ на действительность перед тем как ссылаться по идентификатору
-$doc->validateOnParse = true;
+// Необходимо проверить документ на действительность перед тем как ссылаться по идентификатору
+$doc->validateOnParse = true;
 $doc->Load('book.xml');
 
-// Получаем атрибут элемента с именем идентификатора chapter
-$attr = $doc->getElementsByTagName('chapter')->item(0)->getAttributeNode('id');
+// Получаем атрибут элемента с именем идентификатора chapter
+$attr = $doc->getElementsByTagName('chapter')->item(0)->getAttributeNode('id');
 
-var_dump($attr->isId()); // bool(true)
+var_dump($attr->isId()); // bool(true)
 
 ?>
 ```

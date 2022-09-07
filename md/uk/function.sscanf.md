@@ -56,12 +56,12 @@ sscanf(string $string, string $format, mixed &...$vars): array|int|null
 
 ```php
 <?php
-// получаем серийный номер
-list($serial) = sscanf("SN/2350001", "SN/%d");
-// и дату изготовления
-$mandate = "January 01 2000";
-list($month, $day, $year) = sscanf($mandate, "%s %d %d");
-echo "Узел $serial был изготовлен: $year-" . substr($month, 0, 3) . "-$day\n";
+// получаем серийный номер
+list($serial) = sscanf("SN/2350001", "SN/%d");
+// и дату изготовления
+$mandate = "January 01 2000";
+list($month, $day, $year) = sscanf($mandate, "%s %d %d");
+echo "Узел $serial был изготовлен: $year-" . substr($month, 0, 3) . "-$day\n";
 ?>
 ```
 
@@ -71,12 +71,12 @@ echo "Узел $serial был изготовлен: $year-" . substr($mon
 
 ```php
 <?php
-// получить имя автора и сформировать запись в формате DocBook
-$auth = "24\tLewis Carroll";
-$n = sscanf($auth, "%d\t%s %s", $id, $first, $last);
-echo "<author id='$id'>
-    <firstname>$first</firstname>
-    <surname>$last</surname>
+// получить имя автора и сформировать запись в формате DocBook
+$auth = "24\tLewis Carroll";
+$n = sscanf($auth, "%d\t%s %s", $id, $first, $last);
+echo "<author id='$id'>
+    <firstname>$first</firstname>
+    <surname>$last</surname>
 </author>\n";
 ?>
 ```

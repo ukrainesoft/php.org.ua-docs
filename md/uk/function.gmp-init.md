@@ -42,8 +42,8 @@ gmp_init(int|string $num, int $base = 0): GMP
 
 ```php
 <?php
-$a = gmp_init(123456);
-$b = gmp_init("0xFFFFDEBACDFEDF7200");
+$a = gmp_init(123456);
+$b = gmp_init("0xFFFFDEBACDFEDF7200");
 ?>
 ```
 

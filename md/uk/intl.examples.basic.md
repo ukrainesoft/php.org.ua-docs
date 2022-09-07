@@ -18,8 +18,8 @@ title: Основи використання модуля
 
 ```php
 <?php
-$coll  = collator_create('en_US');
-$result = collator_compare($coll, "string#1", "string#2");
+$coll  = collator_create('en_US');
+$result = collator_compare($coll, "string#1", "string#2");
 ?>
 ```
 
@@ -27,11 +27,11 @@ $result = collator_compare($coll, "string#1", "string#2");
 
 ```php
 <?php
-$coll = new Collator('en_US');
-$al   = $coll->getLocale(Locale::ACTUAL_LOCALE);
-echo "Текущая локаль: $al\n";
+$coll = new Collator('en_US');
+$al   = $coll->getLocale(Locale::ACTUAL_LOCALE);
+echo "Текущая локаль: $al\n";
 
-$formatter = new NumberFormatter('en_US', NumberFormatter::DECIMAL);
-echo $formatter->format(1234567);
+$formatter = new NumberFormatter('en_US', NumberFormatter::DECIMAL);
+echo $formatter->format(1234567);
 ?>
 ```

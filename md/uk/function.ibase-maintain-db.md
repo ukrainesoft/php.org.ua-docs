@@ -15,7 +15,7 @@ ibasemaintaindb — Виконує команду обслуговування �
 ### Опис
 
 ```methodsynopsis
-ibase_maintain_db(    resource $service_handle,    string $db,    int $action,    int $argument = 0): bool
+ibase_maintain_db(    resource $service_handle,    string $db,    int $action,    int $argument = 0): bool
 ```
 
 **Увага**

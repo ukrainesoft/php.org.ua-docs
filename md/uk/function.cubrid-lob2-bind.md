@@ -15,7 +15,7 @@ cubridlob2bind — Зв'язує об'єкт LOB або рядок у вигля
 ### Опис
 
 ```methodsynopsis
-cubrid_lob2_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
+cubrid_lob2_bind(    resource $req_identifier,    int $bind_index,    mixed $bind_value,    string $bind_value_type = ?): bool
 ```
 
 Функція **cubridlob2bind()** використовується для прив'язки даних BLOB/CLOB до відповідної псевдозмінної оператора SQL, який був переданий в [cubridprepare()](function.cubrid-prepare.md). Якщо параметр `bind_value_type` не вказано, за промовчанням буде використовуватися рядок "BLOB". Але якщо раніше використовувалась функція [cubridlob2new()](function.cubrid-lob2-new.md) `bind_value_type` буде відповідати параметру `type` в [cubridlob2new()](function.cubrid-lob2-new.md) за замовчуванням.
@@ -48,25 +48,25 @@ cubrid_lob2_bind(    resource $req_identifier,    int $bind_index,   
 
 ```php
 <?php
-// Таблица: test_lob (id INT, contents CLOB)
+// Таблица: test_lob (id INT, contents CLOB)
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
 
-cubrid_execute($conn,"DROP TABLE if exists test_lob");
-cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
+cubrid_execute($conn,"DROP TABLE if exists test_lob");
+cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
 
-$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");
+$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");
 
-cubrid_bind($req,1, 3);
+cubrid_bind($req,1, 3);
 
-$lob = cubrid_lob2_new($conn, 'CLOB');
-cubrid_lob2_bind($req, 2, $lob);
+$lob = cubrid_lob2_new($conn, 'CLOB');
+cubrid_lob2_bind($req, 2, $lob);
 
 cubrid_execute($req);
 
-cubrid_bind($req, 1, 4);
+cubrid_bind($req, 1, 4);
 
-cubrid_lob2_bind($req, 2, 'CUBRID LOB2 TEST', 'CLOB');
+cubrid_lob2_bind($req, 2, 'CUBRID LOB2 TEST', 'CLOB');
 
 cubrid_execute($req);
 

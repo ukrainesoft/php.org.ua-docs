@@ -40,11 +40,11 @@ public ReflectionClass::getStaticPropertyValue(string $name, mixed &$def_value =
 
 ```php
 <?php
-class Apple {
-    public static $color = 'Red';
+class Apple {
+    public static $color = 'Red';
 }
 
-$class = new ReflectionClass('Apple');
+$class = new ReflectionClass('Apple');
 var_dump($class->getStaticPropertyValue('color'));
 ?>
 ```

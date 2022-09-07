@@ -45,11 +45,11 @@ mysql_close(resource $link_identifier = NULL): bool
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-echo 'Успешно соединились';
+echo 'Успешно соединились';
 mysql_close($link);
 ?>
 ```

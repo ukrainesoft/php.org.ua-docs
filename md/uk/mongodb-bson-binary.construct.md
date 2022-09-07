@@ -52,7 +52,7 @@ final public MongoDB\BSON\Binary::__construct(string $data, int $type)
 ```php
 <?php
 
-$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);
+$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);
 var_dump($binary);
 
 ?>
@@ -71,4 +71,4 @@ object(MongoDB\BSON\Binary)#1 (2) {
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

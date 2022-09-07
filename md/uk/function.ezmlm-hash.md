@@ -41,10 +41,10 @@ ezmlm_hash(string $addr): int
 ```php
 <?php
 
-$user = "joecool@example.com";
-$hash = ezmlm_hash($user);
-$query = sprintf("INSERT INTO sample VALUES (%s, '%s')", $hash, $user);
-$db->query($query); // используя интерфейс PHPLIB db
+$user = "joecool@example.com";
+$hash = ezmlm_hash($user);
+$query = sprintf("INSERT INTO sample VALUES (%s, '%s')", $hash, $user);
+$db->query($query); // используя интерфейс PHPLIB db
 
 ?>
 ```

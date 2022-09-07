@@ -18,7 +18,7 @@ MongoDBBSONtoRelaxedExtendedJSON — Повертає Relaxed Extended JSON по
 MongoDB\BSON\toRelaxedExtendedJSON(string $bson): string
 ```
 
-Перетворює рядок BSON на її подання [» Relaxed Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example). Розслаблений формат надає перевагу використанню примітивів типу JSON за рахунок точності типів і найбільше підходить для отримання вихідних даних, які можуть бути легко використані веб-API та людьми.
+Перетворює рядок BSON на її подання [» Relaxed Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example). Розслаблений формат надає перевагу використанню примітивів типу JSON за рахунок точності типів і найбільше підходить для отримання вихідних даних, які можуть бути легко використані веб-API та людьми.
 
 ### Список параметрів
 
@@ -32,7 +32,7 @@ MongoDB\BSON\toRelaxedExtendedJSON(string $bson): string
 
 ### Помилки
 
--   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
+-   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ### Приклади
 
@@ -41,33 +41,33 @@ MongoDB\BSON\toRelaxedExtendedJSON(string $bson): string
 ```php
 <?php
 
-$documents = [
-    [ 'null' => null ],
-    [ 'boolean' => true ],
-    [ 'string' => 'foo' ],
-    [ 'int32' => 123 ],
-    [ 'int64' => 4294967295 ],
-    [ 'double' => 1.0, ],
-    [ 'nan' => NAN ],
-    [ 'pos_inf' => INF ],
-    [ 'neg_inf' => -INF ],
-    [ 'array' => [ 'foo', 'bar' ]],
-    [ 'document' => [ 'foo' => 'bar' ]],
-    [ 'oid' => new MongoDB\BSON\ObjectId('56315a7c6118fd1b920270b1') ],
-    [ 'dec128' => new MongoDB\BSON\Decimal128('1234.5678') ],
-    [ 'binary' => new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC) ],
-    [ 'date' => new MongoDB\BSON\UTCDateTime(1445990400000) ],
-    [ 'timestamp' => new MongoDB\BSON\Timestamp(1234, 5678) ],
-    [ 'regex' => new MongoDB\BSON\Regex('pattern', 'i') ],
-    [ 'code' => new MongoDB\BSON\Javascript('function() { return 1; }') ],
-    [ 'code_ws' => new MongoDB\BSON\Javascript('function() { return a; }', ['a' => 1]) ],
-    [ 'minkey' => new MongoDB\BSON\MinKey ],
-    [ 'maxkey' => new MongoDB\BSON\MaxKey ],
+$documents = [
+    [ 'null' => null ],
+    [ 'boolean' => true ],
+    [ 'string' => 'foo' ],
+    [ 'int32' => 123 ],
+    [ 'int64' => 4294967295 ],
+    [ 'double' => 1.0, ],
+    [ 'nan' => NAN ],
+    [ 'pos_inf' => INF ],
+    [ 'neg_inf' => -INF ],
+    [ 'array' => [ 'foo', 'bar' ]],
+    [ 'document' => [ 'foo' => 'bar' ]],
+    [ 'oid' => new MongoDB\BSON\ObjectId('56315a7c6118fd1b920270b1') ],
+    [ 'dec128' => new MongoDB\BSON\Decimal128('1234.5678') ],
+    [ 'binary' => new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC) ],
+    [ 'date' => new MongoDB\BSON\UTCDateTime(1445990400000) ],
+    [ 'timestamp' => new MongoDB\BSON\Timestamp(1234, 5678) ],
+    [ 'regex' => new MongoDB\BSON\Regex('pattern', 'i') ],
+    [ 'code' => new MongoDB\BSON\Javascript('function() { return 1; }') ],
+    [ 'code_ws' => new MongoDB\BSON\Javascript('function() { return a; }', ['a' => 1]) ],
+    [ 'minkey' => new MongoDB\BSON\MinKey ],
+    [ 'maxkey' => new MongoDB\BSON\MaxKey ],
 ];
 
-foreach ($documents as $document) {
-    $bson = MongoDB\BSON\fromPHP($document);
-    echo MongoDB\BSON\toRelaxedExtendedJSON($bson), "\n";
+foreach ($documents as $document) {
+    $bson = MongoDB\BSON\fromPHP($document);
+    echo MongoDB\BSON\toRelaxedExtendedJSON($bson), "\n";
 }
 
 ?>
@@ -103,5 +103,5 @@ foreach ($documents as $document) {
 
 -   [MongoDBBSONfromJSON()](function.mongodb.bson-fromjson.md) - Повертає подання BSON значення JSON
 -   [MongoDBBSONtoCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) - Повертає Canonical Extended JSON подання для значення BSON
--   [» Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
--   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

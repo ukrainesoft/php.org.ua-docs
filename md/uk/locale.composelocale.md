@@ -52,16 +52,16 @@ locale_compose(array $subtags): string|false
 
 ```php
 <?php
-$arr = array(
-    'language'=>'en',
-    'script'  =>'Hans',
-    'region'  =>'CN',
-    'variant2'=>'rozaj',
-    'variant1'=>'nedis',
-    'private1'=>'prv1',
-    'private2'=>'prv2',
+$arr = array(
+    'language'=>'en',
+    'script'  =>'Hans',
+    'region'  =>'CN',
+    'variant2'=>'rozaj',
+    'variant1'=>'nedis',
+    'private1'=>'prv1',
+    'private2'=>'prv2',
 );
-echo locale_compose($arr);
+echo locale_compose($arr);
 ?>
 ```
 
@@ -69,16 +69,16 @@ echo locale_compose($arr);
 
 ```php
 <?php
-$arr = array(
-    'language'=>'en' ,
-    'script'  =>'Hans',
-    'region'  =>'CN',
-    'variant2'=>'rozaj',
-    'variant1'=>'nedis',
-    'private1'=>'prv1',
-    'private2'=>'prv2',
+$arr = array(
+    'language'=>'en' ,
+    'script'  =>'Hans',
+    'region'  =>'CN',
+    'variant2'=>'rozaj',
+    'variant1'=>'nedis',
+    'private1'=>'prv1',
+    'private2'=>'prv2',
 );
-echo Locale::composeLocale($arr);
+echo Locale::composeLocale($arr);
 ?>
 ```
 
@@ -94,24 +94,24 @@ Locale: en_Hans_CN_nedis_rozaj_x_prv1_prv2
 
 ```php
 <?php
-$arr = array(
-    'language' => 'en',
-    'script'   => 'Hans',
-    'region'   => 'CN',
-    'extlang3' => 'd',
-    'extlang2' => 'c',
-    'extlang1' => 'b',
-    'extlang0' => 'a',
+$arr = array(
+    'language' => 'en',
+    'script'   => 'Hans',
+    'region'   => 'CN',
+    'extlang3' => 'd',
+    'extlang2' => 'c',
+    'extlang1' => 'b',
+    'extlang0' => 'a',
 );
-echo locale_compose($arr), PHP_EOL;
+echo locale_compose($arr), PHP_EOL;
 
-$arr = array(
-    'language' => 'en',
-    'script'   => 'Hans',
-    'region'   => 'CN',
-    'extlang'  => ['a', 'b', 'c', 'd'],
+$arr = array(
+    'language' => 'en',
+    'script'   => 'Hans',
+    'region'   => 'CN',
+    'extlang'  => ['a', 'b', 'c', 'd'],
 );
-echo locale_compose($arr), PHP_EOL;
+echo locale_compose($arr), PHP_EOL;
 ?>
 ```
 

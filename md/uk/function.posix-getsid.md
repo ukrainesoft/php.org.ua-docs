@@ -36,8 +36,8 @@ posix_getsid(int $process_id): int|false
 
 ```php
 <?php
-$pid = posix_getpid();
-echo posix_getsid($pid); //8805
+$pid = posix_getpid();
+echo posix_getsid($pid); //8805
 ?>
 ```
 

@@ -15,7 +15,7 @@ traderwillr - Відсотковий діапазон Вільямса
 ### Опис
 
 ```methodsynopsis
-trader_willr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_willr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

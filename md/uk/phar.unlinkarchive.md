@@ -40,18 +40,18 @@ final public static Phar::unlinkArchive(string $filename): bool
 
 ```php
 <?php
-// простое использование
+// простое использование
 Phar::unlinkArchive('/path/to/my.phar');
 
-// более частый вариант использования:
-$p = new Phar('my.phar');
-$fp = fopen('phar://my.phar/file.txt', 'r');
-// создаётся 'my.phar.gz'
-$gp = $p->compress(Phar::GZ);
-// удаляются все ссылки на архив
+// более частый вариант использования:
+$p = new Phar('my.phar');
+$fp = fopen('phar://my.phar/file.txt', 'r');
+// создаётся 'my.phar.gz'
+$gp = $p->compress(Phar::GZ);
+// удаляются все ссылки на архив
 unset($p);
 fclose($fp);
-// удаляются все следы существования
+// удаляются все следы существования
 Phar::unlinkArchive('my.phar');
 ?>
 ```

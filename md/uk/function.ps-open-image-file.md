@@ -15,7 +15,7 @@ title: псopenimagefile
 ### Опис
 
 ```methodsynopsis
-ps_open_image_file(    resource $psdoc,    string $type,    string $filename,    string $stringparam = ?,    int $intparam = 0): int
+ps_open_image_file(    resource $psdoc,    string $type,    string $filename,    string $stringparam = ?,    int $intparam = 0): int
 ```
 
 Завантажує зображення для подальшого використання.

@@ -38,31 +38,31 @@ final
 ```php
 <?php
 /*
-* Попытаемся получить встраиваемый событийный цикл и встроить его в
-* событийный цикл по умолчанию.
-* Если это невозможно - используем цикл по умолчанию.
-* Цикл по умолчанию хранится в $loop_hi, а встраиваемый в $loop_lo
-* (который равен $loop_hi в случае, если нельзя использовать встраиваемый цикл).
+* Попытаемся получить встраиваемый событийный цикл и встроить его в
+* событийный цикл по умолчанию.
+* Если это невозможно - используем цикл по умолчанию.
+* Цикл по умолчанию хранится в $loop_hi, а встраиваемый в $loop_lo
+* (который равен $loop_hi в случае, если нельзя использовать встраиваемый цикл).
 *
-* Пример взят с сайта
-* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
+* Пример взят с сайта
+* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
 */
-$loop_hi = EvLoop::defaultLoop();
-$loop_lo = NULL;
-$embed   = NULL;
+$loop_hi = EvLoop::defaultLoop();
+$loop_lo = NULL;
+$embed   = NULL;
 
 /*
-* Смотрим, есть ли хотя бы один подходящий бэкенд
-* (флаг 0 означает автоопределение)
+* Смотрим, есть ли хотя бы один подходящий бэкенд
+* (флаг 0 означает автоопределение)
 */
-$loop_lo = Ev::embeddableBackends() & Ev::recommendedBackends()
- ? new EvLoop(Ev::embeddableBackends() & Ev::recommendedBackends())
- : 0;
+$loop_lo = Ev::embeddableBackends() & Ev::recommendedBackends()
+ ? new EvLoop(Ev::embeddableBackends() & Ev::recommendedBackends())
+ : 0;
 
-if ($loop_lo) {
- $embed = new EvEmbed($loop_lo, function () {});
-} else {
- $loop_lo = $loop_hi;
+if ($loop_lo) {
+ $embed = new EvEmbed($loop_lo, function () {});
+} else {
+ $loop_lo = $loop_hi;
 }
 ?>
 ```

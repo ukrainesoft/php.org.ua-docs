@@ -48,30 +48,30 @@ oci_fetch_object(resource $statement, int $mode = OCI_ASSOC | OCI_RETURN_NULLS):
 <?php
 
 /*
-  Перед запуском создайте таблицу:
-    CREATE TABLE mytab (id NUMBER, description VARCHAR2(30));
-    INSERT INTO mytab (id, description) values (1, 'Fish and Chips');
-    COMMIT;
+  Перед запуском создайте таблицу:
+    CREATE TABLE mytab (id NUMBER, description VARCHAR2(30));
+    INSERT INTO mytab (id, description) values (1, 'Fish and Chips');
+    COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
+$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
 oci_execute($stid);
 
-while (($row = oci_fetch_object($stid)) != false) {
-    // Используйте имена атрибутов в верхнем регистре для каждого столбца Oracle
-    echo $row->ID . "<br>\n";
-    echo $row->DESCRIPTION . "<br>\n";
+while (($row = oci_fetch_object($stid)) != false) {
+    // Используйте имена атрибутов в верхнем регистре для каждого столбца Oracle
+    echo $row->ID . "<br>\n";
+    echo $row->DESCRIPTION . "<br>\n";
 }
 
-// Выведет:
-//    1
-//    Fish and Chips
+// Выведет:
+//    1
+//    Fish and Chips
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -85,31 +85,31 @@ oci_close($conn);
 <?php
 
 /*
-Перед запуском создайте таблицу с именем столбца в различных регистрах:
-    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(30));
-    INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee');
-    COMMIT;
+Перед запуском создайте таблицу с именем столбца в различных регистрах:
+    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(30));
+    INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee');
+    COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT id, "MyDescription" FROM mytab');
+$stid = oci_parse($conn, 'SELECT id, "MyDescription" FROM mytab');
 oci_execute($stid);
 
-while (($row = oci_fetch_object($stid)) != false) {
-    // Использование имён атрибутов в верхнем регистре для каждого столбца Oracle
-    echo $row->ID . "<br>\n";
-    // Использование точного написания для имени столбца с различными регистрами
-    echo $row->MyDescription . "<br>\n";
+while (($row = oci_fetch_object($stid)) != false) {
+    // Использование имён атрибутов в верхнем регистре для каждого столбца Oracle
+    echo $row->ID . "<br>\n";
+    // Использование точного написания для имени столбца с различными регистрами
+    echo $row->MyDescription . "<br>\n";
 }
 
-// Выведет:
-//    1
-//    Iced Coffee
+// Выведет:
+//    1
+//    Iced Coffee
 
 oci_free_statement($stid);
 oci_close($conn);
@@ -123,30 +123,30 @@ oci_close($conn);
 <?php
 
 /*
-  Перед запуском создайте таблицу
-    CREATE TABLE mytab (id NUMBER, description CLOB);
-    INSERT INTO mytab (id, description) values (1, 'A very long string');
-    COMMIT;
+  Перед запуском создайте таблицу
+    CREATE TABLE mytab (id NUMBER, description CLOB);
+    INSERT INTO mytab (id, description) values (1, 'A very long string');
+    COMMIT;
 */
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
+$stid = oci_parse($conn, 'SELECT id, description FROM mytab');
 oci_execute($stid);
 
-while (($row = oci_fetch_object($stid)) != false) {
-    echo $row->ID . "<br>\n";
-    // Таким образом будет выведено первые 11 байт из DESCRIPTION
-    echo $row->DESCRIPTION->read(11) . "<br>\n";
+while (($row = oci_fetch_object($stid)) != false) {
+    echo $row->ID . "<br>\n";
+    // Таким образом будет выведено первые 11 байт из DESCRIPTION
+    echo $row->DESCRIPTION->read(11) . "<br>\n";
 }
 
-// Выведет:
-//    1
-//    A very long
+// Выведет:
+//    1
+//    A very long
 
 oci_free_statement($stid);
 oci_close($conn);

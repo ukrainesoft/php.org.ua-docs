@@ -41,8 +41,8 @@ bzopen(string|resource $file, string $mode): resource|false
 ```php
 <?php
 
-$file = "/tmp/foo.bz2";
-$bz = bzopen($file, "r") or die("Не могу открыть $file для чтения");
+$file = "/tmp/foo.bz2";
+$bz = bzopen($file, "r") or die("Не могу открыть $file для чтения");
 
 bzclose($bz);
 

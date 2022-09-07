@@ -48,13 +48,13 @@ pg_lo_read_all(PgSql\Lob $lob): int
 
 ```php
 <?php
-   header('Content-type: image/jpeg');
-   $image_oid = 189762345;
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $handle = pg_lo_open($database, $image_oid, "r");
-   pg_lo_read_all($handle);
-   pg_query($database, "commit");
+   header('Content-type: image/jpeg');
+   $image_oid = 189762345;
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $image_oid, "r");
+   pg_lo_read_all($handle);
+   pg_query($database, "commit");
 ?>
 ```
 

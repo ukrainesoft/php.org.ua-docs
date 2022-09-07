@@ -57,7 +57,7 @@ public static getKeywords(string $locale): array|false|null
 public static getPrimaryLanguage(string $locale): ?string
 public static getRegion(string $locale): ?string
 public static getScript(string $locale): ?string
-public static lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
+public static lookup(    array $languageTag,    string $locale,    bool $canonicalize = false,    ?string $defaultLocale = null): ?string
 public static parseLocale(string $locale): ?array
 public static setDefault(string $locale): bool
 
@@ -112,12 +112,12 @@ public static setDefault(string $locale): bool
 
 ## Дивіться також
 
--   [» RFC 4646 - мітки для ідентифікаторів мов](http://www.faqs.org/rfcs/rfc4646)
--   [» RFC 4647 - перевірка мовних міток](http://www.faqs.org/rfcs/rfc4647)
--   [» Проект Unicode CLDR: Стандартний репозиторій даних локалей](http://www.unicode.org/cldr/)
--   [» Регістр мовних міток IANA](http://www.iana.org/assignments/language-subtag-registry)
--   [» Руководство пользователя ICU - Локаль](https://unicode-org.github.io/icu/userguide/locale/)
--   [» ICU api локалі](http://www.icu-project.org/apiref/icu4c/uloc_8h.md#details)
+-   [» RFC 4646 - мітки для ідентифікаторів мов](http://www.faqs.org/rfcs/rfc4646)
+-   [» RFC 4647 - перевірка мовних міток](http://www.faqs.org/rfcs/rfc4647)
+-   [» Проект Unicode CLDR: Стандартний репозиторій даних локалей](http://www.unicode.org/cldr/)
+-   [» Регістр мовних міток IANA](http://www.iana.org/assignments/language-subtag-registry)
+-   [» Руководство пользователя ICU - Локаль](https://unicode-org.github.io/icu/userguide/locale/)
+-   [» ICU api локалі](http://www.icu-project.org/apiref/icu4c/uloc_8h.md#details)
 
 ## Зміст
 

@@ -19,13 +19,13 @@ DateTime::setTime -- datetimeset - Встановлює час
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public DateTime::setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
+public DateTime::setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-date_time_set(    DateTime $object,    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
+date_time_set(    DateTime $object,    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTime
 ```
 
 Встановлює поточне значення часу об'єкта DateTime на нове значення.

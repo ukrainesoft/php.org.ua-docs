@@ -47,29 +47,29 @@ URI простір імен. Спеціальне значення `*` відп�
 ```php
 <?php
 
-$xml = <<<EOD
-<?xml version="1.0" ?>
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>Books of the other guy..</title>
+$xml = <<<EOD
+<?xml version="1.0" ?>
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Books of the other guy..</title>
 <para>
- <xi:include href="book.xml">
-  <xi:fallback>
-   <error>xinclude: book.xml not found</error>
-  </xi:fallback>
- </xi:include>
- <include>
-  This is another namespace
- </include>
+ <xi:include href="book.xml">
+  <xi:fallback>
+   <error>xinclude: book.xml not found</error>
+  </xi:fallback>
+ </xi:include>
+ <include>
+  This is another namespace
+ </include>
 </para>
 </chapter>
 EOD;
-$dom = new DOMDocument;
+$dom = new DOMDocument;
 
-// загрузить XML-строку, определённую выше
+// загрузить XML-строку, определённую выше
 $dom->loadXML($xml);
 
-foreach ($dom->getElementsByTagNameNS('http://www.w3.org/2001/XInclude', '*') as $element) {
-    echo 'локальное имя: ', $element->localName, ', префикс: ', $element->prefix, "\n";
+foreach ($dom->getElementsByTagNameNS('http://www.w3.org/2001/XInclude', '*') as $element) {
+    echo 'локальное имя: ', $element->localName, ', префикс: ', $element->prefix, "\n";
 }
 ?>
 ```

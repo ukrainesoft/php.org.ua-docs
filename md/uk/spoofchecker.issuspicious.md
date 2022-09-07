@@ -40,10 +40,10 @@ public Spoofchecker::isSuspicious(string $string, int &$errorCode = null): bool
 
 ```php
 <?php
-$checker = new Spoofchecker();
+$checker = new Spoofchecker();
 
-$checker->isSuspicious('google.com'); // false: только символы ASCII
+$checker->isSuspicious('google.com'); // false: только символы ASCII
 
-$checker->isSuspicious('Рaypal.com'); // true
-// Первая буква из кириллического набора, а не обычная латинская "P"
+$checker->isSuspicious('Рaypal.com'); // true
+// Первая буква из кириллического набора, а не обычная латинская "P"
 ```

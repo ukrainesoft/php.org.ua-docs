@@ -41,9 +41,9 @@ final public MongoDB\BSON\ObjectId::getTimestamp(): int
 ```php
 <?php
 
-var_dump((new MongoDB\BSON\ObjectId())->getTimestamp());
+var_dump((new MongoDB\BSON\ObjectId())->getTimestamp());
 
-var_dump((new MongoDB\BSON\ObjectId('0000002a0000000000000000'))->getTimestamp());
+var_dump((new MongoDB\BSON\ObjectId('0000002a0000000000000000'))->getTimestamp());
 
 ?>
 ```
@@ -57,5 +57,5 @@ integer(42)
 
 ### Дивіться також
 
--   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
--   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Справка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+-   [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

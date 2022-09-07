@@ -33,8 +33,8 @@ final public MongoDB\BSON\Timestamp::__toString(): string
 ```php
 <?php
 
-$timestamp = new MongoDB\BSON\Timestamp(1234, 5678);
-var_dump((string) $timestamp);
+$timestamp = new MongoDB\BSON\Timestamp(1234, 5678);
+var_dump((string) $timestamp);
 
 ?>
 ```
@@ -47,4 +47,4 @@ string(11) "[1234:5678]"
 
 ### Дивіться також
 
--   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

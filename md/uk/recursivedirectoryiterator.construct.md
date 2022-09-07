@@ -47,20 +47,20 @@ public **RecursiveDirectoryIterator::construct**(string `$directory`, int `$flag
 ```php
 <?php
 
-$directory = '/tmp';
+$directory = '/tmp';
 
-$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
+$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
 
 $it->rewind();
-while($it->valid()) {
+while($it->valid()) {
 
-    if (!$it->isDot()) {
-        echo 'Имя файла: ' . $it->getSubPathName() . "\n";
-        echo 'Поддиректория: ' . $it->getSubPath() . "\n";
-        echo 'Ключ: ' . $it->key() . "\n\n";
-    }
+    if (!$it->isDot()) {
+        echo 'Имя файла: ' . $it->getSubPathName() . "\n";
+        echo 'Поддиректория: ' . $it->getSubPath() . "\n";
+        echo 'Ключ: ' . $it->key() . "\n\n";
+    }
 
-    $it->next();
+    $it->next();
 }
 
 ?>

@@ -34,7 +34,7 @@ timezone_abbreviations_list(): array
 
 > **Зауваження**
 > 
-> Дані для функції попередньо компілюються з міркувань продуктивності та не оновлюються при використанні новішої версії [» timezonedb](https://pecl.php.net/package/timezonedb)
+> Дані для функції попередньо компілюються з міркувань продуктивності та не оновлюються при використанні новішої версії [» timezonedb](https://pecl.php.net/package/timezonedb)
 
 ### Список параметрів
 
@@ -50,7 +50,7 @@ timezone_abbreviations_list(): array
 
 ```php
 <?php
-$timezone_abbreviations = DateTimeZone::listAbbreviations();
+$timezone_abbreviations = DateTimeZone::listAbbreviations();
 print_r($timezone_abbreviations["acst"]);
 ?>
 ```

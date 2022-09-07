@@ -46,9 +46,9 @@ public SplFileObject::fwrite(string $data, int $length = 0): int|false
 
 ```php
 <?php
-$file = new SplFileObject("fwrite.txt", "w");
-$written = $file->fwrite("12345");
-echo "В файл записано $written байт";
+$file = new SplFileObject("fwrite.txt", "w");
+$written = $file->fwrite("12345");
+echo "В файл записано $written байт";
 ?>
 ```
 

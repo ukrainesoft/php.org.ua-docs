@@ -40,14 +40,14 @@ rewind(resource $stream): bool
 
 ```php
 <?php
-$handle = fopen('output.txt', 'r+');
+$handle = fopen('output.txt', 'r+');
 
-fwrite($handle, 'Ужасно длинное предложение.');
+fwrite($handle, 'Ужасно длинное предложение.');
 rewind($handle);
-fwrite($handle, 'Оп');
+fwrite($handle, 'Оп');
 rewind($handle);
 
-echo fread($handle, filesize('output.txt'));
+echo fread($handle, filesize('output.txt'));
 
 fclose($handle);
 ?>

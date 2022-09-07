@@ -37,7 +37,7 @@ rad2deg(float $num): float
 ```php
 <?php
 
-echo rad2deg(M_PI_4); // 45
+echo rad2deg(M_PI_4); // 45
 
 ?>
 ```

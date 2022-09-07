@@ -37,14 +37,14 @@ public SplFileObject::fpassthru(): int
 ```php
 <?php
 
-// Открыть файл в режиме чтения двоичных данных
-$file = new SplFileObject("./img/ok.png", "rb");
+// Открыть файл в режиме чтения двоичных данных
+$file = new SplFileObject("./img/ok.png", "rb");
 
-// Отправить правильные заголовки
-header("Content-Type: image/png");
-header("Content-Length: " . $file->getSize());
+// Отправить правильные заголовки
+header("Content-Type: image/png");
+header("Content-Length: " . $file->getSize());
 
-// Вывести изображение и завершить работу скрипта
+// Вывести изображение и завершить работу скрипта
 $file->fpassthru();
 exit;
 

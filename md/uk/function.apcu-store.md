@@ -54,8 +54,8 @@ apcu_store(array $values, mixed $unused = NULL, int $ttl = 0): array
 
 ```php
 <?php
-$bar = 'BAR';
-apcu_store('foo', $bar);
+$bar = 'BAR';
+apcu_store('foo', $bar);
 var_dump(apcu_fetch('foo'));
 ?>
 ```

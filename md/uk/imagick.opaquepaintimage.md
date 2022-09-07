@@ -15,7 +15,7 @@ Imagick::opaquePaintImage — Змінює значення кольору бу�
 ### Опис
 
 ```methodsynopsis
-public Imagick::opaquePaintImage(    mixed $target,    mixed $fill,    float $fuzz,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::opaquePaintImage(    mixed $target,    mixed $fill,    float $fuzz,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Змінює будь-який піксель, який відповідає кольору, на колір, визначений заливкою. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.8 або старшим.

@@ -40,12 +40,12 @@ public PharData::offsetUnset(string $localName): void
 
 ```php
 <?php
-$p = new PharData('/path/to/my.zip');
-try {
-    // удаление file.txt из my.zip путём вызова offsetUnset
-    unset($p['file.txt']);
-} catch (Exception $e) {
-    echo 'Не удалось удалить file.txt: ', $e;
+$p = new PharData('/path/to/my.zip');
+try {
+    // удаление file.txt из my.zip путём вызова offsetUnset
+    unset($p['file.txt']);
+} catch (Exception $e) {
+    echo 'Не удалось удалить file.txt: ', $e;
 }
 ?>
 ```

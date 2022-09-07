@@ -15,7 +15,7 @@ numberformat — Форматує число з розділенням груп
 ### Опис
 
 ```methodsynopsis
-number_format(    float $num,    int $decimals = 0,    ?string $decimal_separator = ".",    ?string $thousands_separator = ","): string
+number_format(    float $num,    int $decimals = 0,    ?string $decimal_separator = ".",    ?string $thousands_separator = ","): string
 ```
 
 Форматує число згрупованими тисячами та, можливо, десятковими цифрами.
@@ -58,21 +58,21 @@ number_format(    float $num,    int $decimals = 0,    ?string $deci
 ```php
 <?php
 
-$number = 1234.56;
+$number = 1234.56;
 
-// английский формат (по умолчанию)
-$english_format_number = number_format($number);
-// 1,235
+// английский формат (по умолчанию)
+$english_format_number = number_format($number);
+// 1,235
 
-// французский формат
-$nombre_format_francais = number_format($number, 2, ',', ' ');
-// 1 234,56
+// французский формат
+$nombre_format_francais = number_format($number, 2, ',', ' ');
+// 1 234,56
 
-$number = 1234.5678;
+$number = 1234.5678;
 
-// английский формат без разделителей групп
-$english_format_number = number_format($number, 2, '.', '');
-// 1234.57
+// английский формат без разделителей групп
+$english_format_number = number_format($number, 2, '.', '');
+// 1234.57
 
 ?>
 ```

@@ -44,10 +44,10 @@ True у разі успішного виконання
 
 ```php
 <?php
-uopz_set_return("strlen", 42);
-$len = strlen("Banana");
+uopz_set_return("strlen", 42);
+$len = strlen("Banana");
 uopz_unset_return("strlen");
-echo $len + strlen("Banana");
+echo $len + strlen("Banana");
 ?>
 ```
 

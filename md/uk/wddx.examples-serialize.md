@@ -14,7 +14,7 @@ title: Приклади wddx
 
 ```php
 <?php
-echo wddx_serialize_value("PHP to WDDX packet example", "PHP packet");
+echo wddx_serialize_value("PHP to WDDX packet example", "PHP packet");
 ?>
 ```
 
@@ -29,16 +29,16 @@ echo wddx_serialize_value("PHP to WDDX packet example", "PHP packet");
 
 ```php
 <?php
-$pi = 3.1415926;
-$packet_id = wddx_packet_start("PHP");
-wddx_add_vars($packet_id, "pi");
+$pi = 3.1415926;
+$packet_id = wddx_packet_start("PHP");
+wddx_add_vars($packet_id, "pi");
 
-/* Предпожим, что $cities была заполнена из базы данных */
-$cities = array("Austin", "Novato", "Seattle");
-wddx_add_vars($packet_id, "cities");
+/* Предпожим, что $cities была заполнена из базы данных */
+$cities = array("Austin", "Novato", "Seattle");
+wddx_add_vars($packet_id, "cities");
 
-$packet = wddx_packet_end($packet_id);
-echo $packet;
+$packet = wddx_packet_end($packet_id);
+echo $packet;
 ?>
 ```
 

@@ -54,8 +54,8 @@ base_convert(string $num, int $from_base, int $to_base): string
 
 ```php
 <?php
-$hexadecimal = 'a37334';
-echo base_convert($hexadecimal, 16, 2);
+$hexadecimal = 'a37334';
+echo base_convert($hexadecimal, 16, 2);
 ?>
 ```
 

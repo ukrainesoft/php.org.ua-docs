@@ -15,7 +15,7 @@ streamselect — Запускає еквівалент системного ви
 ### Опис
 
 ```methodsynopsis
-stream_select(    ?array &$read,    ?array &$write,    ?array &$except,    ?int $seconds,    ?int $microseconds = null): int|false
+stream_select(    ?array &$read,    ?array &$write,    ?array &$except,    ?int $seconds,    ?int $microseconds = null): int|false
 ```
 
 Функція **streamselect()** отримує масиви потоків і чекає зміни їхнього статусу. Її робота еквівалентна роботі функції [socketselect()](function.socket-select.md), За винятком того, що вона працює з потоками.
@@ -74,14 +74,14 @@ stream_select(    ?array &$read,    ?array &$write,    ?array &$exce
 
 ```php
 <?php
-/* Подготовить Масив для чтения */
-$read   = array($stream1, $stream2);
-$write  = NULL;
-$except = NULL;
-if (false === ($num_changed_streams = stream_select($read, $write, $except, 0))) {
-    /* Обработка ошибок */
-} elseif ($num_changed_streams > 0) {
-    /* Как минимум на одном из потоков произошло что-то интересное */
+/* Подготовить Масив для чтения */
+$read   = array($stream1, $stream2);
+$write  = NULL;
+$except = NULL;
+if (false === ($num_changed_streams = stream_select($read, $write, $except, 0))) {
+    /* Обработка ошибок */
+} elseif ($num_changed_streams > 0) {
+    /* Как минимум на одном из потоков произошло что-то интересное */
 }
 ?>
 ```
@@ -94,8 +94,8 @@ if (false === ($num_changed_streams = stream_select($read, $write, $excep
 > 
 > ```php
 > <?php
-> $e = NULL;
-> stream_select($r, $w, $e, 0);
+> $e = NULL;
+> stream_select($r, $w, $e, 0);
 > ?>
 > ```
 
@@ -105,9 +105,9 @@ if (false === ($num_changed_streams = stream_select($read, $write, $excep
 > 
 > ```php
 > <?php
-> $e = NULL;
-> if (false === stream_select($r, $w, $e, 0)) {
->     echo "Произошла ошибка при вызове stream_select()\n";
+> $e = NULL;
+> if (false === stream_select($r, $w, $e, 0)) {
+>     echo "Произошла ошибка при вызове stream_select()\n";
 > }
 > ?>
 > ```

@@ -34,7 +34,7 @@ public **ReflectionClass::construct**(object | string `$objectOrClass`
 
 ```php
 <?php
-Reflection::export(new ReflectionClass('Exception'));
+Reflection::export(new ReflectionClass('Exception'));
 ?>
 ```
 

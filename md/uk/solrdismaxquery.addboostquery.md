@@ -39,12 +39,12 @@ public SolrDisMaxQuery::addBoostQuery(string $field, string $value, string $boos
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery = new SolrDisMaxQuery("lucene");
 $dismaxQuery
-    ->addBoostQuery('cat', 'clothing', 2)
-    ->addBoostQuery('cat', 'electronics', 5.1)
+    ->addBoostQuery('cat', 'clothing', 2)
+    ->addBoostQuery('cat', 'electronics', 5.1)
 ;
-echo $dismaxQuery.PHP_EOL;
+echo $dismaxQuery.PHP_EOL;
 ?>
 ```
 

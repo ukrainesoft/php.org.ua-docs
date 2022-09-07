@@ -40,15 +40,15 @@ public Phar::getMetadata(array $unserializeOptions = []): mixed
 
 ```php
 <?php
-// Убедимся, что архив не существует
+// Убедимся, что архив не существует
 @unlink('brandnewphar.phar');
-try {
-    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
-    $p['file.php'] = '<?php echo "hello";';
-    $p->setMetadata(array('bootstrap' => 'file.php'));
-    var_dump($p->getMetadata());
-} catch (Exception $e) {
-    echo 'Не удалось изменить phar:', $e;
+try {
+    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+    $p['file.php'] = '<?php echo "hello";';
+    $p->setMetadata(array('bootstrap' => 'file.php'));
+    var_dump($p->getMetadata());
+} catch (Exception $e) {
+    echo 'Не удалось изменить phar:', $e;
 }
 ?>
 ```

@@ -43,7 +43,7 @@ public static IntlChar::isIDIgnorable(int|string $codepoint): ?bool
 ```php
 <?php
 var_dump(IntlChar::isIDIgnorable("A"));
-var_dump(IntlChar::isIDIgnorable(" "));
+var_dump(IntlChar::isIDIgnorable(" "));
 var_dump(IntlChar::isIDIgnorable("\u{007F}"));
 ?>
 ```

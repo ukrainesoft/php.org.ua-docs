@@ -15,7 +15,7 @@ eiostatvfs — Повертає статистику файлової систе
 ### Опис
 
 ```methodsynopsis
-eio_statvfs(    string $path,    int $pri,    callable $callback,    mixed $data = ?): resource
+eio_statvfs(    string $path,    int $pri,    callable $callback,    mixed $data = ?): resource
 ```
 
 **eiostatvfs()** повертає статистику файлової системи до параметра `result` функції `callback`
@@ -35,7 +35,7 @@ eio_statvfs(    string $path,    int $pri,    callable $callback, �
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -64,17 +64,17 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-$tmp_filename = '/tmp/eio-file.tmp';
+$tmp_filename = '/tmp/eio-file.tmp';
 touch($tmp_filename);
 
-function my_statvfs_callback($data, $result) {
-    var_dump($data);
-    var_dump($result);
+function my_statvfs_callback($data, $result) {
+    var_dump($data);
+    var_dump($result);
 
- @unlink($data);
+ @unlink($data);
 }
 
-eio_statvfs($tmp_filename, EIO_PRI_DEFAULT, "my_statvfs_callback", $tmp_filename);
+eio_statvfs($tmp_filename, EIO_PRI_DEFAULT, "my_statvfs_callback", $tmp_filename);
 eio_event_loop();
 ?>
 ```

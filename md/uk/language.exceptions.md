@@ -52,8 +52,8 @@ title: Винятки
 > 
 > ```php
 > <?php
-> function exceptions_error_handler($severity, $message, $filename, $lineno) {
->     throw new ErrorException($message, 0, $severity, $filename, $lineno);
+> function exceptions_error_handler($severity, $message, $filename, $lineno) {
+>     throw new ErrorException($message, 0, $severity, $filename, $lineno);
 > }
 > 
 > set_error_handler('exceptions_error_handler');
@@ -70,22 +70,22 @@ title: Винятки
 
 ```php
 <?php
-function inverse($x) {
-    if (!$x) {
-        throw new Exception('Деление на ноль.');
-    }
-    return 1/$x;
+function inverse($x) {
+    if (!$x) {
+        throw new Exception('Деление на ноль.');
+    }
+    return 1/$x;
 }
 
-try {
-    echo inverse(5) . "\n";
-    echo inverse(0) . "\n";
-} catch (Exception $e) {
-    echo 'Выброшено исключение: ',  $e->getMessage(), "\n";
+try {
+    echo inverse(5) . "\n";
+    echo inverse(0) . "\n";
+} catch (Exception $e) {
+    echo 'Выброшено исключение: ',  $e->getMessage(), "\n";
 }
 
-// Продолжение выполнения
-echo "Привет, мир\n";
+// Продолжение выполнения
+echo "Привет, мир\n";
 ?>
 ```
 
@@ -101,31 +101,31 @@ echo "Привет, мир\n";
 
 ```php
 <?php
-function inverse($x) {
-    if (!$x) {
-        throw new Exception('Деление на ноль.');
-    }
-    return 1/$x;
+function inverse($x) {
+    if (!$x) {
+        throw new Exception('Деление на ноль.');
+    }
+    return 1/$x;
 }
 
-try {
-    echo inverse(5) . "\n";
-} catch (Exception $e) {
-    echo 'Поймано исключение: ',  $e->getMessage(), "\n";
-} finally {
-    echo "Первый блок finally.\n";
+try {
+    echo inverse(5) . "\n";
+} catch (Exception $e) {
+    echo 'Поймано исключение: ',  $e->getMessage(), "\n";
+} finally {
+    echo "Первый блок finally.\n";
 }
 
-try {
-    echo inverse(0) . "\n";
-} catch (Exception $e) {
-    echo 'Поймано исключение: ',  $e->getMessage(), "\n";
-} finally {
-    echo "Второй блок finally.\n";
+try {
+    echo inverse(0) . "\n";
+} catch (Exception $e) {
+    echo 'Поймано исключение: ',  $e->getMessage(), "\n";
+} finally {
+    echo "Второй блок finally.\n";
 }
 
-// Продолжение нормального выполнения
-echo "Привет, мир\n";
+// Продолжение нормального выполнения
+echo "Привет, мир\n";
 ?>
 ```
 
@@ -144,17 +144,17 @@ echo "Привет, мир\n";
 ```php
 <?php
 
-function test() {
-    try {
-        throw new Exception('foo');
-    } catch (Exception $e) {
-        return 'catch';
-    } finally {
-        return 'finally';
-    }
+function test() {
+    try {
+        throw new Exception('foo');
+    } catch (Exception $e) {
+        return 'catch';
+    } finally {
+        return 'finally';
+    }
 }
 
-echo test();
+echo test();
 ?>
 ```
 
@@ -169,24 +169,24 @@ finally
 ```php
 <?php
 
-class MyException extends Exception { }
+class MyException extends Exception { }
 
-class Test {
-    public function testing() {
-        try {
-            try {
-                throw new MyException('foo!');
-            } catch (MyException $e) {
-                // повторный выброс исключения
-                throw $e;
-            }
-        } catch (Exception $e) {
-            var_dump($e->getMessage());
-        }
-    }
+class Test {
+    public function testing() {
+        try {
+            try {
+                throw new MyException('foo!');
+            } catch (MyException $e) {
+                // повторный выброс исключения
+                throw $e;
+            }
+        } catch (Exception $e) {
+            var_dump($e->getMessage());
+        }
+    }
 }
 
-$foo = new Test;
+$foo = new Test;
 $foo->testing();
 
 ?>
@@ -203,21 +203,21 @@ string(4) "foo!"
 ```php
 <?php
 
-class MyException extends Exception { }
+class MyException extends Exception { }
 
-class MyOtherException extends Exception { }
+class MyOtherException extends Exception { }
 
-class Test {
-    public function testing() {
-        try {
-            throw new MyException();
-        } catch (MyException | MyOtherException $e) {
-            var_dump(get_class($e));
-        }
-    }
+class Test {
+    public function testing() {
+        try {
+            throw new MyException();
+        } catch (MyException | MyOtherException $e) {
+            var_dump(get_class($e));
+        }
+    }
 }
 
-$foo = new Test;
+$foo = new Test;
 $foo->testing();
 
 ?>
@@ -236,16 +236,16 @@ string(11) "MyException"
 ```php
 <?php
 
-class SpecificException extends Exception {}
+class SpecificException extends Exception {}
 
-function test() {
-    throw new SpecificException('Ой!');
+function test() {
+    throw new SpecificException('Ой!');
 }
 
-try {
-    test();
-} catch (SpecificException) {
-    print "Было поймано исключение SpecificException, но нам безразлично, что у него внутри.";
+try {
+    test();
+} catch (SpecificException) {
+    print "Было поймано исключение SpecificException, но нам безразлично, что у него внутри.";
 }
 ?>
 ```
@@ -257,16 +257,16 @@ try {
 ```php
 <?php
 
-class SpecificException extends Exception {}
+class SpecificException extends Exception {}
 
-function test() {
-    do_something_risky() or throw new Exception('Всё сломалось');
+function test() {
+    do_something_risky() or throw new Exception('Всё сломалось');
 }
 
-try {
-    test();
-} catch (Exception $e) {
-    print $e->getMessage();
+try {
+    test();
+} catch (Exception $e) {
+    print $e->getMessage();
 }
 ?>
 ```

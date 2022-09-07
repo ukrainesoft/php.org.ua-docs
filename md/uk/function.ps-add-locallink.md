@@ -15,7 +15,7 @@ title: псaddlocallink
 ### Опис
 
 ```methodsynopsis
-ps_add_locallink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    int $page,    string $dest): bool
+ps_add_locallink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    int $page,    string $dest): bool
 ```
 
 Додає гіперпосилання у заданому місці, що вказує на сторінку того самого документа. Натискання на посилання призведе до переходу на цю сторінку. Номер першої сторінки документа – 1.

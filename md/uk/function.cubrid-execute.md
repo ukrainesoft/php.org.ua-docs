@@ -67,22 +67,22 @@ SQL для виконання.
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-$result = cubrid_execute($conn, "SELECT code FROM event WHERE name='100m Butterfly' and gender='M'", CUBRID_ASYNC);
-$row = cubrid_fetch_array($result, CUBRID_ASSOC);
-$event_code = $row["code"];
+$result = cubrid_execute($conn, "SELECT code FROM event WHERE name='100m Butterfly' and gender='M'", CUBRID_ASYNC);
+$row = cubrid_fetch_array($result, CUBRID_ASSOC);
+$event_code = $row["code"];
 
 cubrid_close_request($result);
 
-$history_req = cubrid_prepare($conn, "SELECT * FROM history WHERE event_code=?");
-cubrid_bind($history_req, 1, $event_code, "number");
+$history_req = cubrid_prepare($conn, "SELECT * FROM history WHERE event_code=?");
+cubrid_bind($history_req, 1, $event_code, "number");
 cubrid_execute($history_req);
 
-printf("%-20s %-9s %-10s %-5s\n", "athlete", "host_year", "score", "unit");
-while ($row = cubrid_fetch_array($history_req, CUBRID_ASSOC)) {
-    printf("%-20s %-9s %-10s %-5s\n",
-        $row["athlete"], $row["host_year"], $row["score"], $row["unit"]);
+printf("%-20s %-9s %-10s %-5s\n", "athlete", "host_year", "score", "unit");
+while ($row = cubrid_fetch_array($history_req, CUBRID_ASSOC)) {
+    printf("%-20s %-9s %-10s %-5s\n",
+        $row["athlete"], $row["host_year"], $row["score"], $row["unit"]);
 }
 
 cubrid_close_request($history_req);

@@ -43,10 +43,10 @@ filesize(string $filename): int|false
 ```php
 <?php
 
-// Пример вывода: Размер файла somefile.txt: 1024 байтов
+// Пример вывода: Размер файла somefile.txt: 1024 байтов
 
-$filename = 'somefile.txt';
-echo 'Размер файла ' . $filename . ': ' . filesize($filename) . ' байтов';
+$filename = 'somefile.txt';
+echo 'Размер файла ' . $filename . ': ' . filesize($filename) . ' байтов';
 
 ?>
 ```

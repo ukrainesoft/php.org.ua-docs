@@ -37,10 +37,10 @@ public SolrDisMaxQuery::setPhraseSlop(string $slop): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery = new SolrDisMaxQuery('lucene');
 
 $dismaxQuery->setPhraseSlop(4);
-echo $dismaxQuery.PHP_EOL;
+echo $dismaxQuery.PHP_EOL;
 
 ?>
 ```

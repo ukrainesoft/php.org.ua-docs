@@ -59,18 +59,18 @@ public Threaded::wait(int $timeout = ?): bool
 ```php
 <?php
 
-class Task extends Threaded
+class Task extends Threaded
 {
-    public function __construct()
-    {
-        $this->data = new Threaded();
+    public function __construct()
+    {
+        $this->data = new Threaded();
 
-        // попытка переопределить Threaded-свойство Threaded-класса (ошибка)
-        $this->data = new StdClass();
-    }
+        // попытка переопределить Threaded-свойство Threaded-класса (ошибка)
+        $this->data = new StdClass();
+    }
 }
 
-var_dump((new Task())->data);
+var_dump((new Task())->data);
 ```
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -84,18 +84,18 @@ RuntimeException: Threaded members previously set to Threaded objects are immuta
 ```php
 <?php
 
-class Task extends Volatile
+class Task extends Volatile
 {
-    public function __construct()
-    {
-        $this->data = new Threaded();
+    public function __construct()
+    {
+        $this->data = new Threaded();
 
-        // попытка переопределить Threaded-свойство Volatile-класса (корректно)
-        $this->data = new StdClass();
-    }
+        // попытка переопределить Threaded-свойство Volatile-класса (корректно)
+        $this->data = new StdClass();
+    }
 }
 
-var_dump((new Task())->data);
+var_dump((new Task())->data);
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

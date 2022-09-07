@@ -46,19 +46,19 @@ mysqli_error(mysqli $mysql): string
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* Проверить соединение */
-if ($mysqli->connect_errno) {
-    printf("Соединение не удалось: %s\n", $mysqli->connect_error);
-    exit();
+/* Проверить соединение */
+if ($mysqli->connect_errno) {
+    printf("Соединение не удалось: %s\n", $mysqli->connect_error);
+    exit();
 }
 
-if (!$mysqli->query("SET a=1")) {
-    printf("Сообщение ошибки: %s\n", $mysqli->error);
+if (!$mysqli->query("SET a=1")) {
+    printf("Сообщение ошибки: %s\n", $mysqli->error);
 }
 
-/* Закрыть соединение */
+/* Закрыть соединение */
 $mysqli->close();
 ?>
 ```
@@ -67,19 +67,19 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Соединение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Соединение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-if (!mysqli_query($link, "SET a=1")) {
-    printf("Сообщение ошибки: %s\n", mysqli_error($link));
+if (!mysqli_query($link, "SET a=1")) {
+    printf("Сообщение ошибки: %s\n", mysqli_error($link));
 }
 
-/* Закрыть соединение */
+/* Закрыть соединение */
 mysqli_close($link);
 ?>
 ```

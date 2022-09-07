@@ -15,7 +15,7 @@ PDO::pgsqlCopyFromFile — Скопіюйте дані з файлу до таб
 ### Опис
 
 ```methodsynopsis
-public PDO::pgsqlCopyFromFile(    string $table_name,    string $filename,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): bool
+public PDO::pgsqlCopyFromFile(    string $table_name,    string $filename,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): bool
 ```
 
 Копіює рядки з файлу `filename` до таблиці `table_name` використовуючи роздільник полів `delimiter` та список полів `fields`

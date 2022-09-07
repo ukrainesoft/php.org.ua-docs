@@ -72,12 +72,12 @@ Expires: Thu, 19 Nov 1981 08:52:00 GMT Cache-Control: no-store, no-cache, must-r
 ```php
 <?php
 
-/* установить режим кеширования на 'private' */
+/* установить режим кеширования на 'private' */
 
 session_cache_limiter('private');
-$cache_limiter = session_cache_limiter();
+$cache_limiter = session_cache_limiter();
 
-echo "Режим кеширования установлен в $cache_limiter<br />";
+echo "Режим кеширования установлен в $cache_limiter<br />";
 ?>
 ```
 

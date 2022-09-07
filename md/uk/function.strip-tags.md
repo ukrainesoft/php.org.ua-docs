@@ -41,7 +41,7 @@ strip_tags(string $string, array|string|null $allowed_tags = null): string
 > 
 > ```php
 > <?php
-> strip_tags($input, '<br>');
+> strip_tags($input, '<br>');
 > ?>
 > ```
 
@@ -62,15 +62,15 @@ strip_tags(string $string, array|string|null $allowed_tags = null): string
 
 ```php
 <?php
-$text = '<p>Параграф.</p><!-- Комментарий --> <a href="#fragment">Ещё текст</a>';
-echo strip_tags($text);
-echo "\n";
+$text = '<p>Параграф.</p><!-- Комментарий --> <a href="#fragment">Ещё текст</a>';
+echo strip_tags($text);
+echo "\n";
 
-// Разрешаем <p> и <a>
-echo strip_tags($text, '<p><a>');
+// Разрешаем <p> и <a>
+echo strip_tags($text, '<p><a>');
 
-// Начиная с PHP 7.4.0, строка выше может быть записана как:
-// echo strip_tags($text, ['p', 'a']);
+// Начиная с PHP 7.4.0, строка выше может быть записана как:
+// echo strip_tags($text, ['p', 'a']);
 ?>
 ```
 

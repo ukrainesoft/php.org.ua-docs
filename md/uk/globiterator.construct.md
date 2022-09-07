@@ -46,18 +46,18 @@ public **GlobIterator::construct**(string `$pattern`, int `$flags` = FilesystemI
 
 ```php
 <?php
-$iterator = new GlobIterator('*.dll', FilesystemIterator::KEY_AS_FILENAME);
+$iterator = new GlobIterator('*.dll', FilesystemIterator::KEY_AS_FILENAME);
 
-if (!$iterator->count()) {
-    echo 'Нет совпадений';
-} else {
-    $n = 0;
+if (!$iterator->count()) {
+    echo 'Нет совпадений';
+} else {
+    $n = 0;
 
-    printf("Найдено элементов: %d \r\n", $iterator->count());
+    printf("Найдено элементов: %d \r\n", $iterator->count());
 
-    foreach ($iterator as $item) {
-        printf("[%d] %s\r\n", ++$n, $iterator->key());
-    }
+    foreach ($iterator as $item) {
+        printf("[%d] %s\r\n", ++$n, $iterator->key());
+    }
 }
 ?>
 ```

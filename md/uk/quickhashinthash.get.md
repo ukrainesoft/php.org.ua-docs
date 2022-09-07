@@ -36,14 +36,14 @@ public QuickHashIntHash::get(int $key): int
 
 ```php
 <?php
-$hash = new QuickHashIntHash( 8 );
-var_dump( $hash->get( 1 ) );
+$hash = new QuickHashIntHash( 8 );
+var_dump( $hash->get( 1 ) );
 
-var_dump( $hash->add( 2 ) );
-var_dump( $hash->get( 2 ) );
+var_dump( $hash->add( 2 ) );
+var_dump( $hash->get( 2 ) );
 
-var_dump( $hash->add( 3, 5 ) );
-var_dump( $hash->get( 3 ) );
+var_dump( $hash->add( 3, 5 ) );
+var_dump( $hash->get( 3 ) );
 ?>
 ```
 

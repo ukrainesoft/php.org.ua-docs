@@ -40,27 +40,27 @@ public Imagick::setCompressionQuality(int $quality): bool
 
 ```php
 <?php
-function setCompressionQuality($imagePath, $quality) {
+function setCompressionQuality($imagePath, $quality) {
 
-    $backgroundImagick = new \Imagick(realpath($imagePath));
-    $imagick = new \Imagick();
-    $imagick->setCompressionQuality($quality);
-    $imagick->newPseudoImage(
-        $backgroundImagick->getImageWidth(),
-        $backgroundImagick->getImageHeight(),
-        'canvas:white'
-    );
+    $backgroundImagick = new \Imagick(realpath($imagePath));
+    $imagick = new \Imagick();
+    $imagick->setCompressionQuality($quality);
+    $imagick->newPseudoImage(
+        $backgroundImagick->getImageWidth(),
+        $backgroundImagick->getImageHeight(),
+        'canvas:white'
+    );
 
-    $imagick->compositeImage(
-        $backgroundImagick,
-        \Imagick::COMPOSITE_ATOP,
-        0,
-        0
-    );
+    $imagick->compositeImage(
+        $backgroundImagick,
+        \Imagick::COMPOSITE_ATOP,
+        0,
+        0
+    );
 
-    $imagick->setFormat("jpg");
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    $imagick->setFormat("jpg");
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

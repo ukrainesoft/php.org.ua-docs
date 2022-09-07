@@ -35,14 +35,14 @@ public Generator::key(): mixed
 ```php
 <?php
 
-function Gen()
+function Gen()
 {
-    yield 'key' => 'value';
+    yield 'key' => 'value';
 }
 
-$gen = Gen();
+$gen = Gen();
 
-echo "{$gen->key()} => {$gen->current()}";
+echo "{$gen->key()} => {$gen->current()}";
 ```
 
 Результат виконання цього прикладу:

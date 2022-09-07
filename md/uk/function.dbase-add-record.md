@@ -51,17 +51,17 @@ dbase_add_record(resource $database, array $data): bool
 ```php
 <?php
 
-// открыть БД в режиме чтения и записи
-$db = dbase_open('/tmp/test.dbf', 2);
+// открыть БД в режиме чтения и записи
+$db = dbase_open('/tmp/test.dbf', 2);
 
-if ($db) {
-  dbase_add_record($db, array(
-      date('Ymd'),
-      'Maxim Topolov',
-      '23',
-      'max@example.com',
-      'T'));
-  dbase_close($db);
+if ($db) {
+  dbase_add_record($db, array(
+      date('Ymd'),
+      'Maxim Topolov',
+      '23',
+      'max@example.com',
+      'T'));
+  dbase_close($db);
 }
 
 ?>

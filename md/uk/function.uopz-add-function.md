@@ -19,7 +19,7 @@ uopz_add_function(string $function, Closure $handler, int &$flags = ZEND_ACC_PUB
 ```
 
 ```methodsynopsis
-uopz_add_function(    string $class,    string $function,    Closure $handler,    int &$flags = ZEND_ACC_PUBLIC,    int &$all = true): bool
+uopz_add_function(    string $class,    string $function,    Closure $handler,    int &$flags = ZEND_ACC_PUBLIC,    int &$all = true): bool
 ```
 
 Додає неіснуючу функцію чи метод.
@@ -60,7 +60,7 @@ uopz_add_function(    string $class,    string $function,    Closure
 
 ```php
 <?php
-uopz_add_function('foo', function () {echo 'bar';});
+uopz_add_function('foo', function () {echo 'bar';});
 foo();
 ?>
 ```

@@ -47,8 +47,8 @@ bindtextdomain(string $domain, ?string $directory): string|false
 ```php
 <?php
 
-$domain = 'myapp';
-echo bindtextdomain($domain, '/usr/share/myapp/locale');
+$domain = 'myapp';
+echo bindtextdomain($domain, '/usr/share/myapp/locale');
 
 ?>
 ```

@@ -70,16 +70,16 @@ imap_fetch_overview(IMAP\Connection $imap, string $sequence, int $flags = 0): ar
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password")
-     or die("не удалось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password")
+     or die("не удалось подключиться: " . imap_last_error());
 
-$MC = imap_check($mbox);
+$MC = imap_check($mbox);
 
-// Получим обзор всех писем в INBOX
-$result = imap_fetch_overview($mbox,"1:{$MC->Nmsgs}",0);
-foreach ($result as $overview) {
-    echo "#{$overview->msgno} ({$overview->date}) - From: {$overview->from}
-    {$overview->subject}\n";
+// Получим обзор всех писем в INBOX
+$result = imap_fetch_overview($mbox,"1:{$MC->Nmsgs}",0);
+foreach ($result as $overview) {
+    echo "#{$overview->msgno} ({$overview->date}) - From: {$overview->from}
+    {$overview->subject}\n";
 }
 imap_close($mbox);
 ?>

@@ -38,16 +38,16 @@ public mysql_xdevapi\SqlStatementResult::fetchOne(): array
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS dbtest")->execute();
-$session->sql("CREATE DATABASE dbtest")->execute();
-$session->sql("CREATE TABLE dbtest.workers(name text, age int, job text)")->execute();
-$session->sql("INSERT INTO dbtest.workers values ('John', 42, 'bricklayer'), ('Sam', 33, 'carpenter')")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS dbtest")->execute();
+$session->sql("CREATE DATABASE dbtest")->execute();
+$session->sql("CREATE TABLE dbtest.workers(name text, age int, job text)")->execute();
+$session->sql("INSERT INTO dbtest.workers values ('John', 42, 'bricklayer'), ('Sam', 33, 'carpenter')")->execute();
 
-$schema = $session->getSchema("dbtest");
-$table  = $schema->getTable("workers");
+$schema = $session->getSchema("dbtest");
+$table  = $schema->getTable("workers");
 
-$rows = $session->sql("SELECT * FROM dbtest.workers")->execute()->fetchOne();
+$rows = $session->sql("SELECT * FROM dbtest.workers")->execute()->fetchOne();
 
 print_r($rows);
 ?>

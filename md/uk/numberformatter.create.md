@@ -44,7 +44,7 @@ public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$
 
 `style`
 
-Стиль форматування, одна з констант [стилю форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`** або **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details) або [» документации ICU RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details)відповідно.
+Стиль форматування, одна з констант [стилю форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle). Якщо передано **`NumberFormatter::PATTERN_DECIMAL`** або **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з використанням даного шаблону, який повинен відповідати синтаксису, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details) або [» документации ICU RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details)відповідно.
 
 `pattern`
 
@@ -66,10 +66,10 @@ public **NumberFormatter::construct**(string `$locale`, int `$style`, ?string `$
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-echo numfmt_format($fmt, 1234567.891234567890000)."\n";
-$fmt = numfmt_create( 'it', NumberFormatter::SPELLOUT );
-echo numfmt_format($fmt, 1142)."\n";
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+$fmt = numfmt_create( 'it', NumberFormatter::SPELLOUT );
+echo numfmt_format($fmt, 1142)."\n";
 ?>
 ```
 
@@ -77,10 +77,10 @@ echo numfmt_format($fmt, 1142)."\n";
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
-echo $fmt->format(1234567.891234567890000)."\n";
-$fmt = new NumberFormatter( 'it', NumberFormatter::SPELLOUT );
-echo $fmt->format(1142)."\n";
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+echo $fmt->format(1234567.891234567890000)."\n";
+$fmt = new NumberFormatter( 'it', NumberFormatter::SPELLOUT );
+echo $fmt->format(1142)."\n";
 ?>
 ```
 

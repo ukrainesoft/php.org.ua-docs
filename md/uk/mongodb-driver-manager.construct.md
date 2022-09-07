@@ -20,7 +20,7 @@ final public MongoDB\Driver\Manager::__construct(?string $uri = null, ?array $ur
 
 Створює новий об'єкт [MongoDBDriverManager](class.mongodb-driver-manager.md) із переданими параметрами.
 
-> **Зауваження**: В [» спецификации по обнаружению и мониторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#single-threaded-client-construction), цей конструктор не виконує введення-виведення. З'єднання ініціалізуватимуться на вимогу, коли виконується перша операція.
+> **Зауваження**: В [» спецификации по обнаружению и мониторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#single-threaded-client-construction), цей конструктор не виконує введення-виведення. З'єднання ініціалізуватимуться на вимогу, коли виконується перша операція.
 
 > **Зауваження**: Під час передачі будь-яких URI-опцій, пов'язаних з SSL або TLS, через рядок підключення або параметр `uriOptions`драйвер неявно включає TLS при з'єднаннях. Щоб запобігти цьому, або явно вимкніть опцію `tls`, або не передавайте TLS-опцій.
 
@@ -30,19 +30,19 @@ final public MongoDB\Driver\Manager::__construct(?string $uri = null, ?array $ur
 
 `uri`
 
-URI-адреса підключення [» mongodb://](https://www.mongodb.com/docs/manual/reference/connection-string/)
+URI-адреса підключення [» mongodb://](https://www.mongodb.com/docs/manual/reference/connection-string/)
 
 mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?options
 
-Докладніше про параметри, що підтримуються URI, дивіться розділ [» Параметри рядка підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connections-connection-options) у посібнику MongoDB . [» Параметри пулу підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connection-pool-options) не підтримуються, т.к. PHP-драйвер не продає пули підключень.
+Докладніше про параметри, що підтримуються URI, дивіться розділ [» Параметри рядка підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connections-connection-options) у посібнику MongoDB . [» Параметри пулу підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connection-pool-options) не підтримуються, т.к. PHP-драйвер не продає пули підключень.
 
-`uri` - це URL, тому будь-які спеціальні символи в його компонентах повинні бути закодовані відповідно [» RFC 3986](http://www.faqs.org/rfcs/rfc3986). Це особливо актуально для імені користувача та пароля, які часто можуть містити спеціальні символи, такі як `@` `:`, або `%`. При підключенні через доменний сокет Unix шлях сокету може містити спеціальні символи, наприклад сліші, які необхідно закодувати. Функція [rawurlencode()](function.rawurlencode.md) може використовуватися для кодування складових частин URI-адреси.
+`uri` - це URL, тому будь-які спеціальні символи в його компонентах повинні бути закодовані відповідно [» RFC 3986](http://www.faqs.org/rfcs/rfc3986). Це особливо актуально для імені користувача та пароля, які часто можуть містити спеціальні символи, такі як `@` `:`, або `%`. При підключенні через доменний сокет Unix шлях сокету може містити спеціальні символи, наприклад сліші, які необхідно закодувати. Функція [rawurlencode()](function.rawurlencode.md) може використовуватися для кодування складових частин URI-адреси.
 
 Компонент `defaultAuthDb` може використовуватися для визначення імені бази даних, пов'язаної з обліковими даними користувача; однак параметр URI `authSource` матиме пріоритет, якщо він зазначений. Якщо не `defaultAuthDb`ні `authSource` не вказано, база даних `admin` буде використовуватися за замовчуванням. Компонент `defaultAuthDb` немає сенсу за відсутності облікових даних користувача.
 
 `uriOptions`
 
-Додаткові [» параметри рядка підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connections-connection-options), які будуть перезаписувати будь-які параметри з тим самим ім'ям у параметрі `uri`
+Додаткові [» параметри рядка підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connections-connection-options), які будуть перезаписувати будь-які параметри з тим самим ім'ям у параметрі `uri`
 
 **uriOptions**
 
@@ -55,11 +55,11 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | authMechanism | string |
 
-Механізм аутентифікації, який MongoDB використовуватиме для аутентифікації з'єднання. Щоб переглянути додаткові відомості та список підтримуваних значень, див. [» Параметри аутентифікації](https://www.mongodb.com/docs/manual/reference/connection-string/#urioption.authMechanism) у посібнику MongoDB.
+Механізм аутентифікації, який MongoDB використовуватиме для аутентифікації з'єднання. Щоб переглянути додаткові відомості та список підтримуваних значень, див. [» Параметри аутентифікації](https://www.mongodb.com/docs/manual/reference/connection-string/#urioption.authMechanism) у посібнику MongoDB.
 
 | | authMechanismProperties | array |
 
-Властивості обраного механізму аутентифікації. Щоб переглянути додаткові відомості та список підтримуваних значень, див. [» Специфікація аутентифікації драйвера](https://github.com/mongodb/specifications/blob/master/source/auth/auth.rst#auth-related-options)
+Властивості обраного механізму аутентифікації. Щоб переглянути додаткові відомості та список підтримуваних значень, див. [» Специфікація аутентифікації драйвера](https://github.com/mongodb/specifications/blob/master/source/auth/auth.rst#auth-related-options)
 
 > **Зауваження**: Якщо не вказано у рядку URI-адреси, ця опція подається у вигляді масиву пар ключ-значення. Ключі та значення в цьому масиві мають бути рядками.
 
@@ -77,7 +77,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | Compressors | string |
 
-Той, хто має пріоритет, список розділених комами компресорів, які клієнт хоче використовувати. Повідомлення стиснуті лише в тому випадку, якщо клієнт та сервер спільно використовують будь-які компресори, а компресор, який використовується в кожному напрямку, залежатиме від індивідуальної конфігурації сервера чи драйвера. Дивіться [» Специфікація компрессії драйвера](https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst#compressors) для отримання додаткової інформації.
+Той, хто має пріоритет, список розділених комами компресорів, які клієнт хоче використовувати. Повідомлення стиснуті лише в тому випадку, якщо клієнт та сервер спільно використовують будь-які компресори, а компресор, який використовується в кожному напрямку, залежатиме від індивідуальної конфігурації сервера чи драйвера. Дивіться [» Специфікація компрессії драйвера](https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst#compressors) для отримання додаткової інформації.
 
 | | connectTimeoutMS | int |
 
@@ -89,7 +89,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | gssapiServiceName | string |
 
-Встановлює ім'я Kerberos при підключенні до керберизованих екземплярів MongoDB. Це значення має співпадати з ім'ям служби, встановленим в примірниках MongoDB (тобто з параметром сервер, [» saslServiceName](https://www.mongodb.com/docs/manual/reference/parameters/#param.saslServiceName) ). За замовчуванням використовується `"mongodb"`
+Встановлює ім'я Kerberos при підключенні до керберизованих екземплярів MongoDB. Це значення має співпадати з ім'ям служби, встановленим в примірниках MongoDB (тобто з параметром сервер, [» saslServiceName](https://www.mongodb.com/docs/manual/reference/parameters/#param.saslServiceName) ). За замовчуванням використовується `"mongodb"`
 
 Цей параметр є застарілим псевдонімом для якості `"SERVICE_NAME"` параметра URI `"authMechanismProperties"`
 
@@ -97,7 +97,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 Задає інтервал у мілісекундах між перевірками драйвера топології MongoDB, що відраховуються з кінця попередньої перевірки до початку наступної. За замовчуванням – 60 000 мілісекунд.
 
-Згідно [» Спецификации по обнаружению и мониторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#heartbeatfrequencyms), це значення не може бути менше 500 мілісекунд.
+Згідно [» Спецификации по обнаружению и мониторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#heartbeatfrequencyms), це значення не може бути менше 500 мілісекунд.
 
 | | journal | bool |
 
@@ -135,13 +135,13 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 Вказує, чи має драйвер автоматично повторювати певні операції читання, які не виконуються через тимчасові мережеві помилки або вибори набору реплік. Потрібен MongoDB 3.6+. За замовчуванням **`true`**
 
-Дивіться [» Спецификацию по Retryable Reads](https://github.com/mongodb/specifications/blob/master/source/retryable-reads/retryable-reads.rst) для отримання додаткової інформації.
+Дивіться [» Спецификацию по Retryable Reads](https://github.com/mongodb/specifications/blob/master/source/retryable-reads/retryable-reads.rst) для отримання додаткової інформації.
 
 | | retryWrites | bool |
 
 Вказує, чи повинен драйвер автоматично повторювати певні операції запису, які не виконуються через тимчасові мережеві помилки або вибір набору реплік. Потрібен MongoDB 3.6+. За замовчуванням **`true`**
 
-Дивіться [» Retryable Writes](https://www.mongodb.com/docs/manual/core/retryable-writes/) у посібнику MongoDB для отримання додаткової інформації.
+Дивіться [» Retryable Writes](https://www.mongodb.com/docs/manual/core/retryable-writes/) у посібнику MongoDB для отримання додаткової інформації.
 
 | | safe | bool |
 
@@ -197,7 +197,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 **Увага**
 
-Вимкнення перевірки сертифіката створює вразливість. Дозвіл неприпустимих імен хоста може призвести до атаки типу [» "человек посередине" (man-in-the-middle)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+Вимкнення перевірки сертифіката створює вразливість. Дозвіл неприпустимих імен хоста може призвести до атаки типу [» "человек посередине" (man-in-the-middle)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 
 | | tlsCAFile | string |
 
@@ -225,7 +225,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 **Увага**
 
-Вимкнення перевірки сертифіката створює вразливість. Дозвіл неприпустимих імен хоста може призвести до атаки типу [» "человек посередине" (man-in-the-middle)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+Вимкнення перевірки сертифіката створює вразливість. Дозвіл неприпустимих імен хоста може призвести до атаки типу [» "человек посередине" (man-in-the-middle)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 
 | | username | string | Ім'я користувача для автентифікації. Ця опція є корисною, якщо ім'я користувача містить спеціальні символи, які в іншому випадку повинні бути закодовані в URL для URI-адреси підключення. | | w | int | string |
 
@@ -239,7 +239,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 | | zlibCompressionLevel | int |
 
-Вказує рівень стиснення для використання zlib. Ця опція нічого не робить, якщо `zlib` не включений до URL опції `"compressors"`. Дивіться [» Специфікація компрессії драйвера](https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst#zlibcompressionlevel) для отримання додаткової інформації.
+Вказує рівень стиснення для використання zlib. Ця опція нічого не робить, якщо `zlib` не включений до URL опції `"compressors"`. Дивіться [» Специфікація компрессії драйвера](https://github.com/mongodb/specifications/blob/master/source/compression/OP_COMPRESSED.rst#zlibcompressionlevel) для отримання додаткової інформації.
 
 `driverOptions`
 
@@ -250,7 +250,7 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 | allowinvalidhostname | bool |  |
 | Відключає перевірку імені хоста, якщо **`true`**. За замовчуванням - **`false`** |  |  |
 
-Дозвіл неприпустимих імен хоста може призвести до атаки типу [» "человек посередине" (man-in-the-middle)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
+Дозвіл неприпустимих імен хоста може призвести до атаки типу [» "человек посередине" (man-in-the-middle)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
 
 Цей параметр є застарілим псевдонімом для URI `"tlsAllowInvalidHostnames"`
 
@@ -260,9 +260,9 @@ mongodb://username:password@host1:port1,host2:port2,hostN:portNdefaultAuthDb?opt
 
 > **Зауваження**
 > 
-> Автоматичне шифрування – це функція тільки для Enterprise версії, яка застосовується лише до операцій над колекцією. Автоматичне шифрування не підтримується для операцій над базою даних або поданням, а операції, які не обходяться, призведуть до помилки (див. [» libmongocrypt: Список дозволів на автоматичне шифрування](https://github.com/mongodb/specifications/blob/master/source/client-side-encryption/client-side-encryption.rst#libmongocrypt-auto-encryption-allow-list)). Щоб обійти автоматичне шифрування для всіх операцій, установіть `bypassAutoEncryption` на значення **`true`**
+> Автоматичне шифрування – це функція тільки для Enterprise версії, яка застосовується лише до операцій над колекцією. Автоматичне шифрування не підтримується для операцій над базою даних або поданням, а операції, які не обходяться, призведуть до помилки (див. [» libmongocrypt: Список дозволів на автоматичне шифрування](https://github.com/mongodb/specifications/blob/master/source/client-side-encryption/client-side-encryption.rst#libmongocrypt-auto-encryption-allow-list)). Щоб обійти автоматичне шифрування для всіх операцій, установіть `bypassAutoEncryption` на значення **`true`**
 > 
-> Автоматичне шифрування вимагає, щоб у автентифікованого користувача був привілей [» listCollections](https://www.mongodb.com/docs/manual/reference/command/listCollections/#required-access)
+> Автоматичне шифрування вимагає, щоб у автентифікованого користувача був привілей [» listCollections](https://www.mongodb.com/docs/manual/reference/command/listCollections/#required-access)
 > 
 > Явне шифрування/дешифрування та автоматичне розшифрування – це функція Community версії. Драйвер все ще може автоматично розшифровувати, якщо у опції `bypassAutoEncryption` встановлено значення **`true`**
 
@@ -305,7 +305,7 @@ local: { // 96-байтовий головний ключ, який викори
 
 | | schemaMap | array | об'єкт |
 
-Карта просторів імен колекції у локальну схему JSON. Використовується для налаштування автоматичного шифрування. Додаткову інформацію дивіться у [» Правила автоматичного шифрування](https://www.mongodb.com/docs/manual/reference/security-client-side-automatic-json-schema/) в посібнику з MongoDB. Помилкою є вказівка ​​колекції як у `schemaMap`, так і в `encryptedFieldsMap`
+Карта просторів імен колекції у локальну схему JSON. Використовується для налаштування автоматичного шифрування. Додаткову інформацію дивіться у [» Правила автоматичного шифрування](https://www.mongodb.com/docs/manual/reference/security-client-side-automatic-json-schema/) в посібнику з MongoDB. Помилкою є вказівка ​​колекції як у `schemaMap`, так і в `encryptedFieldsMap`
 
 > **Зауваження**: Додавання `schemaMap` забезпечує більшу безпеку, ніж використання схем JSON, отриманих із сервера. Це захищає від шкідливого сервера, що рекламує помилкову схему JSON, яка може змусити клієнта надсилати незашифровані дані, які мають бути зашифровані.
 
@@ -313,15 +313,15 @@ local: { // 96-байтовий головний ключ, який викори
 
 | | bypassAutoEncryption | bool | Якщо **`true`** `mongocryptd` не з'являтиметься автоматично. Використовується для вимкнення автоматичного шифрування. За замовчуванням **`false`**. | | bypassQueryAnalysis | bool | Якщо **`true`**, автоматичний аналіз вихідних команд буде вимкнено та `mongocryptd` не з'являтиметься автоматично. Це дозволяє використовувати явне шифрування для запиту індексованих полів без необхідності використання ліцензованої корпоративної бібліотеки `crypt_shared` або процесу `mongocryptd`. За замовчуванням встановлено значення **`false`**
 
-> **Зауваження**: Queryable Encryption знаходиться в стадії публічного перегляду і доступний для ознайомлювальних цілей. Його поки що не рекомендується використовувати для розгортань у продакшені, оскільки можуть бути внесені зміни. Додаткову інформацію дивіться у блозі [» Queryable Encryption Preview](https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/)
+> **Зауваження**: Queryable Encryption знаходиться в стадії публічного перегляду і доступний для ознайомлювальних цілей. Його поки що не рекомендується використовувати для розгортань у продакшені, оскільки можуть бути внесені зміни. Додаткову інформацію дивіться у блозі [» Queryable Encryption Preview](https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/)
 
 | | encryptedFieldsMap | array | об'єкт |
 
-Карта просторів імен колекції у документі `encryptedFields`. Використовується для налаштування шифрування із можливістю запиту. Дивіться [» Шифрування полів та можливість запитів](https://www.mongodb.com/docs/v6.0/core/queryable-encryption/fundamentals/encrypt-and-query/) у посібнику MongoDB для отримання додаткової інформації. Помилкою є вказівка ​​колекції як у `encryptedFieldsMap`, так і в `schemaMap`
+Карта просторів імен колекції у документі `encryptedFields`. Використовується для налаштування шифрування із можливістю запиту. Дивіться [» Шифрування полів та можливість запитів](https://www.mongodb.com/docs/v6.0/core/queryable-encryption/fundamentals/encrypt-and-query/) у посібнику MongoDB для отримання додаткової інформації. Помилкою є вказівка ​​колекції як у `encryptedFieldsMap`, так і в `schemaMap`
 
 > **Зауваження**: Вказівка `encryptedFieldsMap` забезпечує більшу безпеку, ніж покладатися на зашифровані поля `encryptedFields`отримані від сервера. Це захищає від зловмисного сервера, що рекламує помилкові `encryptedFields`
 
-> **Зауваження**: Queryable Encryption знаходиться в стадії публічного перегляду і доступний для ознайомлювальних цілей. Його поки що не рекомендується використовувати для розгортань у продакшені, оскільки можуть бути внесені зміни. Додаткову інформацію дивіться у блозі [» Queryable Encryption Preview](https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/)
+> **Зауваження**: Queryable Encryption знаходиться в стадії публічного перегляду і доступний для ознайомлювальних цілей. Його поки що не рекомендується використовувати для розгортань у продакшені, оскільки можуть бути внесені зміни. Додаткову інформацію дивіться у блозі [» Queryable Encryption Preview](https://www.mongodb.com/blog/post/mongodb-releases-queryable-encryption-preview/)
 
 | | extraOptions | array |
 
@@ -334,9 +334,9 @@ local: { // 96-байтовий головний ключ, який викори
 -   `cryptSharedLibPath` (string): Абсолютний шлях до бібліотеки загального доступу `crypt_shared`. За замовчуванням - порожній рядок та використовує системні шляхи.
 -   `cryptSharedLibRequired` (bool): Якщо **`true`**, вимагає, щоб драйвер завантажував `crypt_shared`. За замовчуванням **`false`**
 
-Дивіться [» Руководство по шифрованию на стороне клиента](https://github.com/mongodb/specifications/blob/master/source/client-side-encryption/client-side-encryption.rst#extraoptions)отримати більше інформації.
+Дивіться [» Руководство по шифрованию на стороне клиента](https://github.com/mongodb/specifications/blob/master/source/client-side-encryption/client-side-encryption.rst#extraoptions)отримати більше інформації.
 
-> **Зауваження**: Автоматичне шифрування – це лише корпоративна функція, яка застосовується лише до операцій над колекцією. Автоматичне шифрування не підтримується для операцій з базою даних або поданням, операції, які не вдасться обійти, призведуть до помилки. Щоб обійти автоматичне шифрування для всіх операцій, установіть `bypassAutoEncryption=true` в `autoEncryption`. Для отримання додаткової інформації про дозволені операції дивіться [» Руководство по шифрованию на стороне клиента](https://github.com/mongodb/specifications/blob/master/source/client-side-encryption/client-side-encryption.rst#libmongocrypt-auto-encryption-whitelist)
+> **Зауваження**: Автоматичне шифрування – це лише корпоративна функція, яка застосовується лише до операцій над колекцією. Автоматичне шифрування не підтримується для операцій з базою даних або поданням, операції, які не вдасться обійти, призведуть до помилки. Щоб обійти автоматичне шифрування для всіх операцій, установіть `bypassAutoEncryption=true` в `autoEncryption`. Для отримання додаткової інформації про дозволені операції дивіться [» Руководство по шифрованию на стороне клиента](https://github.com/mongodb/specifications/blob/master/source/client-side-encryption/client-side-encryption.rst#libmongocrypt-auto-encryption-whitelist)
 
 | | cadir | string |
 
@@ -483,7 +483,7 @@ API потоків PHP більше не використовується для
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://example.com:27017");
+$manager = new MongoDB\Driver\Manager("mongodb://example.com:27017");
 
 ?>
 ```
@@ -493,7 +493,7 @@ $manager = new MongoDB\Driver\Manager("mongodb://example.com:27017");
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://" . rawurlencode("/tmp/mongodb-27017.sock"));
+$manager = new MongoDB\Driver\Manager("mongodb://" . rawurlencode("/tmp/mongodb-27017.sock"));
 
 ?>
 ```
@@ -503,7 +503,7 @@ $manager = new MongoDB\Driver\Manager("mongodb://" . rawurlencode("/tmp/mon
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");
+$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");
 
 ?>
 ```
@@ -513,7 +513,7 @@ $manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://mongos1.example.com,mongos2.example.com/");
+$manager = new MongoDB\Driver\Manager("mongodb://mongos1.example.com,mongos2.example.com/");
 
 ?>
 ```
@@ -523,7 +523,7 @@ $manager = new MongoDB\Driver\Manager("mongodb://mongos1.example.com,mongos2.
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://myusername:mypassword@example.com/?authSource=databaseName");
+$manager = new MongoDB\Driver\Manager("mongodb://myusername:mypassword@example.com/?authSource=databaseName");
 
 ?>
 ```
@@ -533,7 +533,7 @@ $manager = new MongoDB\Driver\Manager("mongodb://myusername:mypassword@exampl
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://myusername:mypassword@example.com/?authSource=databaseName");
+$manager = new MongoDB\Driver\Manager("mongodb://myusername:mypassword@example.com/?authSource=databaseName");
 
 ?>
 ```
@@ -543,12 +543,12 @@ $manager = new MongoDB\Driver\Manager("mongodb://myusername:mypassword@exampl
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager(
-    "mongodb://example.com/?ssl=true&authMechanism=MONGODB-X509",
-    [],
-    [
-        "pem_file" => "/path/to/client.pem",
-    ]
+$manager = new MongoDB\Driver\Manager(
+    "mongodb://example.com/?ssl=true&authMechanism=MONGODB-X509",
+    [],
+    [
+        "pem_file" => "/path/to/client.pem",
+    ]
 );
 ?>
 ```
@@ -556,4 +556,4 @@ $manager = new MongoDB\Driver\Manager(
 ### Дивіться також
 
 -   [Обработка подключения и сохранение](mongodb.connection-handling.md)
--   [» Формат строки соединения MongoDB](https://www.mongodb.com/docs/manual/reference/connection-string/)
+-   [» Формат строки соединения MongoDB](https://www.mongodb.com/docs/manual/reference/connection-string/)

@@ -38,7 +38,7 @@ public SoapClient::__getTypes(): ?array
 
 ```php
 <?php
-$client = new SoapClient('http://soap.amazon.com/schemas3/AmazonWebServices.wsdl');
+$client = new SoapClient('http://soap.amazon.com/schemas3/AmazonWebServices.wsdl');
 var_dump($client->__getTypes());
 ?>
 ```

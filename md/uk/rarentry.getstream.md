@@ -49,26 +49,26 @@ public RarEntry::getStream(string $password = ?): resource|false
 ```php
 <?php
 
-$rar_file = rar_open('example.rar');
-if ($rar_file === false)
-    die("Не удалось открыть Rar архив");
+$rar_file = rar_open('example.rar');
+if ($rar_file === false)
+    die("Не удалось открыть Rar архив");
 
-$entry = rar_entry_get($rar_file, 'Dir/file.txt');
-if ($entry === false)
-    die("Не удалось найти такую запись");
+$entry = rar_entry_get($rar_file, 'Dir/file.txt');
+if ($entry === false)
+    die("Не удалось найти такую запись");
 
-$stream = $entry->getStream();
-if ($stream === false)
-    die("Не удалось получить поток.");
+$stream = $entry->getStream();
+if ($stream === false)
+    die("Не удалось получить поток.");
 
-rar_close($rar_file); //поток не зависит от файла
+rar_close($rar_file); //поток не зависит от файла
 
-while (!feof($stream)) {
-    $buff = fread($stream, 8192);
-    if ($buff !== false)
-        echo $buff;
-    else
-        break; //ошибка fread
+while (!feof($stream)) {
+    $buff = fread($stream, 8192);
+    if ($buff !== false)
+        echo $buff;
+    else
+        break; //ошибка fread
 }
 
 fclose($stream);

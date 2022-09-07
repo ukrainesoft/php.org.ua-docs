@@ -53,25 +53,25 @@ public XSLTProcessor::setParameter(string $namespace, array $options): bool
 ```php
 <?php
 
-$collections = array(
-    'Marc Rutkowski' => 'marc',
-    'Olivier Parmentier' => 'olivier'
+$collections = array(
+    'Marc Rutkowski' => 'marc',
+    'Olivier Parmentier' => 'olivier'
 );
 
-$xsl = new DOMDocument;
+$xsl = new DOMDocument;
 $xsl->load('collection.xsl');
 
-// Настройка преобразования
-$proc = new XSLTProcessor;
-$proc->importStyleSheet($xsl); // добавление стилей xsl
+// Настройка преобразования
+$proc = new XSLTProcessor;
+$proc->importStyleSheet($xsl); // добавление стилей xsl
 
-foreach ($collections as $name => $file) {
-    // Load the XML source
-    $xml = new DOMDocument;
-    $xml->load('collection_' . $file . '.xml');
+foreach ($collections as $name => $file) {
+    // Load the XML source
+    $xml = new DOMDocument;
+    $xml->load('collection_' . $file . '.xml');
 
-    $proc->setParameter('', 'owner', $name);
-    $proc->transformToURI($xml, 'file:///tmp/' . $file . '.html');
+    $proc->setParameter('', 'owner', $name);
+    $proc->transformToURI($xml, 'file:///tmp/' . $file . '.html');
 }
 
 ?>

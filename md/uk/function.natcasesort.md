@@ -46,14 +46,14 @@ natcasesort(array &$array): bool
 
 ```php
 <?php
-$array1 = $array2 = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');
+$array1 = $array2 = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');
 
 sort($array1);
-echo "Обычная сортировка\n";
+echo "Обычная сортировка\n";
 print_r($array1);
 
 natcasesort($array2);
-echo "\nNatural order сортировка (без учёта регистра)\n";
+echo "\nNatural order сортировка (без учёта регистра)\n";
 print_r($array2);
 ?>
 ```
@@ -84,7 +84,7 @@ Array
 )
 ```
 
-Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
+Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 ### Дивіться також
 

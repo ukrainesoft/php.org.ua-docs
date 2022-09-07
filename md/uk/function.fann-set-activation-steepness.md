@@ -15,7 +15,7 @@ fannsetactivationsteepness — Встановлює крутизну актив�
 ### Опис
 
 ```methodsynopsis
-fann_set_activation_steepness(    resource $ann,    float $activation_steepness,    int $layer,    int $neuron): bool
+fann_set_activation_steepness(    resource $ann,    float $activation_steepness,    int $layer,    int $neuron): bool
 ```
 
 Встановіть крутість активації для нейрона номер `neuron` у шарі номер `layer`, Вважаючи вхідний шар як шар 0.

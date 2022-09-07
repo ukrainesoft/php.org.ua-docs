@@ -34,11 +34,11 @@ index.php єдина точка входу в додаток, всі запит�
 
 ```php
 <?php
-define("APPLICATION_PATH",  dirname(__FILE__));
+define("APPLICATION_PATH",  dirname(__FILE__));
 
-$app  = new Yaf_Application(APPLICATION_PATH . "/conf/application.ini");
-$app->bootstrap() //Выполнение методов, опрделенных в Bootstrap.php
- ->run();
+$app  = new Yaf_Application(APPLICATION_PATH . "/conf/application.ini");
+$app->bootstrap() //Выполнение методов, опрделенных в Bootstrap.php
+ ->run();
 ?>
 ```
 
@@ -80,13 +80,13 @@ yaf;APPLICATIONPATH має бути визначена в index.php application.
 
 ```php
 <?php
-class IndexController extends Yaf_Controller_Abstract {
-   /* действие по умолчанию */
-   public function indexAction() {
-       $this->_view->word = "hello world";
-       //или
-       // $this->getView()->word = "hello world";
-   }
+class IndexController extends Yaf_Controller_Abstract {
+   /* действие по умолчанию */
+   public function indexAction() {
+       $this->_view->word = "hello world";
+       //или
+       // $this->getView()->word = "hello world";
+   }
 }
 ?>
 ```
@@ -95,12 +95,12 @@ class IndexController extends Yaf_Controller_Abstract {
 
 ```php
 <html>
- <head>
-   <title>Hello World</title>
- </head>
- <body>
-   <?php echo $word;?>
- </body>
+ <head>
+   <title>Hello World</title>
+ </head>
+ <body>
+   <?php echo $word;?>
+ </body>
 </html>
 ```
 

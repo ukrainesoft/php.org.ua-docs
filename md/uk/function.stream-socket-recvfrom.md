@@ -15,7 +15,7 @@ streamsocketrecvfrom — Отримує дані із сокету, підклю
 ### Опис
 
 ```methodsynopsis
-stream_socket_recvfrom(    resource $socket,    int $length,    int $flags = 0,    ?string &$address = null): string|false
+stream_socket_recvfrom(    resource $socket,    int $length,    int $flags = 0,    ?string &$address = null): string|false
 ```
 
 **streamsocketrecvfrom()** приймає дані з віддаленого сокету розміром до `length` байт.
@@ -50,22 +50,22 @@ stream_socket_recvfrom(    resource $socket,    int $length,    int 
 
 ```php
 <?php
-/* Открывает серверный сокет на 1234-м порту на localhost */
-$server = stream_socket_server('tcp://127.0.0.1:1234');
+/* Открывает серверный сокет на 1234-м порту на localhost */
+$server = stream_socket_server('tcp://127.0.0.1:1234');
 
-/* Принимает соединение */
-$socket = stream_socket_accept($server);
+/* Принимает соединение */
+$socket = stream_socket_accept($server);
 
-/* Получает пакет (обычный размер MTU 1500) OOB-данных */
-echo "Получены данные OOB (Out-Of-Band): '" . stream_socket_recvfrom($socket, 1500, STREAM_OOB) . "'\n";
+/* Получает пакет (обычный размер MTU 1500) OOB-данных */
+echo "Получены данные OOB (Out-Of-Band): '" . stream_socket_recvfrom($socket, 1500, STREAM_OOB) . "'\n";
 
-/* Получить обычные данные, но не расходовать их. */
-echo "Данные: '" . stream_socket_recvfrom($socket, 1500, STREAM_PEEK) . "'\n";
+/* Получить обычные данные, но не расходовать их. */
+echo "Данные: '" . stream_socket_recvfrom($socket, 1500, STREAM_PEEK) . "'\n";
 
-/* Получить тот же самый пакет снова, но в этот раз удалить его из буфера данных. */
-echo "Данные: '" . stream_socket_recvfrom($socket, 1500) . "'\n";
+/* Получить тот же самый пакет снова, но в этот раз удалить его из буфера данных. */
+echo "Данные: '" . stream_socket_recvfrom($socket, 1500) . "'\n";
 
-/* Закрыть сокет */
+/* Закрыть сокет */
 fclose($socket);
 fclose($server);
 ?>

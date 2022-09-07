@@ -38,17 +38,17 @@ public Countable::count(): int
 
 ```php
 <?php
-class myCounter implements Countable {
-    private $count = 0;
-    public function count() {
-        return ++$this->count;
-    }
+class myCounter implements Countable {
+    private $count = 0;
+    public function count() {
+        return ++$this->count;
+    }
 }
 
-$counter = new myCounter;
+$counter = new myCounter;
 
-for($i=0; $i<10; ++$i) {
-    echo "Я посчитан " . count($counter) . " раз\n";
+for($i=0; $i<10; ++$i) {
+    echo "Я посчитан " . count($counter) . " раз\n";
 }
 ?>
 ```

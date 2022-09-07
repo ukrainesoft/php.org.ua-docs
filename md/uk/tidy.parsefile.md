@@ -19,13 +19,13 @@ tidy::parseFile -- tidyparsefile — Розбір розмітки у файлі
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public tidy::parseFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): bool
+public tidy::parseFile(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-tidy_parse_file(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): tidy|false
+tidy_parse_file(    string $filename,    array|string|null $config = null,    ?string $encoding = null,    bool $useIncludePath = false): tidy|false
 ```
 
 Розбір одержаного файлу.
@@ -40,7 +40,7 @@ tidy_parse_file(    string $filename,    array|string|null $config = nul
 
 Налаштування `config` можуть бути задані у вигляді масиву чи рядка. Якщо заданий рядок, він інтерпретується як ім'я файлу конфігурації, інакше, параметр інтерпретується як самі настройки.
 
-Інформацію про кожен параметр можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
+Інформацію про кожен параметр можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
 
 `encoding`
 
@@ -66,14 +66,14 @@ tidy_parse_file(    string $filename,    array|string|null $config = nul
 
 ```php
 <?php
-$tidy = new tidy();
+$tidy = new tidy();
 $tidy->parseFile('file.html');
 
 $tidy->cleanRepair();
 
-if(!empty($tidy->errorBuffer)) {
-    echo "Возникли следующие ошибки или предупреждения:\n";
-    echo $tidy->errorBuffer;
+if(!empty($tidy->errorBuffer)) {
+    echo "Возникли следующие ошибки или предупреждения:\n";
+    echo $tidy->errorBuffer;
 }
 ?>
 ```

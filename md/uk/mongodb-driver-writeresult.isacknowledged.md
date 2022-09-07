@@ -39,12 +39,12 @@ final public MongoDB\Driver\WriteResult::isAcknowledged(): bool
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager;
+$manager = new MongoDB\Driver\Manager;
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
 
-$result = $manager->executeBulkWrite('db.collection', $bulk);
+$result = $manager->executeBulkWrite('db.collection', $bulk);
 
 var_dump($result->isAcknowledged());
 
@@ -62,12 +62,12 @@ bool(true)
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager;
+$manager = new MongoDB\Driver\Manager;
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
 
-$result = $manager->executeBulkWrite('db.collection', $bulk, new MongoDB\Driver\WriteConcern(0));
+$result = $manager->executeBulkWrite('db.collection', $bulk, new MongoDB\Driver\WriteConcern(0));
 
 var_dump($result->isAcknowledged());
 
@@ -83,4 +83,4 @@ bool(false)
 ### Дивіться також
 
 -   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
--   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

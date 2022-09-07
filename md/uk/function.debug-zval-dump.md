@@ -40,9 +40,9 @@ debug_zval_dump(mixed $value, mixed ...$values): void
 
 ```php
 <?php
-$var1 = 'Hello';
-$var1 .= ' World';
-$var2 = $var1;
+$var1 = 'Hello';
+$var1 .= ' World';
+$var2 = $var1;
 
 debug_zval_dump($var1);
 ?>
@@ -69,11 +69,11 @@ string(11) "Hello World" refcount(3)
 > 
 > ```php
 > <?php
-> $var1 = 'Hello';
-> $var1 .= ' World';
-> // Укажите три переменные как ссылки на одно и то же значение
-> $var2 =& $var1;
-> $var3 =& $var1;
+> $var1 = 'Hello';
+> $var1 .= ' World';
+> // Укажите три переменные как ссылки на одно и то же значение
+> $var2 =& $var1;
+> $var3 =& $var1;
 > 
 > debug_zval_dump($var1);
 > ?>
@@ -94,4 +94,4 @@ string(11) "Hello World" refcount(3)
 -   [vardump()](function.var-dump.md) - Виводить інформацію про змінну
 -   [debugbacktrace()](function.debug-backtrace.md) - Виводить стек викликів функцій у масив
 -   "[Посилання. Роз'яснення](language.references.md)"
--   "[» Посилання. Роз'яснення (від Derick Rethans)](http://derickrethans.nl/php_references_article.php)"
+-   "[» Посилання. Роз'яснення (від Derick Rethans)](http://derickrethans.nl/php_references_article.php)"

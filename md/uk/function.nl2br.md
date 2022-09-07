@@ -40,7 +40,7 @@ nl2br(string $string, bool $use_xhtml = true): string
 
 ```php
 <?php
-echo nl2br("foo - это вам не\n bar");
+echo nl2br("foo - это вам не\n bar");
 ?>
 ```
 
@@ -55,7 +55,7 @@ foo - это вам не<br />
 
 ```php
 <?php
-echo nl2br("Привет!\r\nЭтой мой HTML-документ", false);
+echo nl2br("Привет!\r\nЭтой мой HTML-документ", false);
 ?>
 ```
 
@@ -70,8 +70,8 @@ echo nl2br("Привет!\r\nЭтой мой HTML-документ", false);
 
 ```php
 <?php
-$string = "This\r\nis\n\ra\nstring\r";
-echo nl2br($string);
+$string = "This\r\nis\n\ra\nstring\r";
+echo nl2br($string);
 ?>
 ```
 

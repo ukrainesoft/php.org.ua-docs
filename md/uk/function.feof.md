@@ -40,20 +40,20 @@ feof(resource $stream): bool
 
 ```php
 <?php
-function safe_feof($fp, &$start = NULL) {
- $start = microtime(true);
+function safe_feof($fp, &$start = NULL) {
+ $start = microtime(true);
 
- return feof($fp);
+ return feof($fp);
 }
 
-/* Предположим, что $fp был ранее открыт с помощью fsockopen() */
+/* Предположим, что $fp был ранее открыт с помощью fsockopen() */
 
-$start = NULL;
-$timeout = ini_get('default_socket_timeout');
+$start = NULL;
+$timeout = ini_get('default_socket_timeout');
 
-while(!safe_feof($fp, $start) && (microtime(true) - $start) < $timeout)
+while(!safe_feof($fp, $start) && (microtime(true) - $start) < $timeout)
 {
- /* Обработка */
+ /* Обработка */
 }
 ?>
 ```
@@ -66,11 +66,11 @@ while(!safe_feof($fp, $start) && (microtime(true) - $start) < $timeout)
 
 ```php
 <?php
-// если файл не может быть прочтён или не существует, fopen вернёт FALSE
-$file = @fopen("no_such_file", "r");
+// если файл не может быть прочтён или не существует, fopen вернёт FALSE
+$file = @fopen("no_such_file", "r");
 
-// FALSE от fopen вызовет предупреждение и следующий цикл станет бесконечным
-while (!feof($file)) {
+// FALSE от fopen вызовет предупреждение и следующий цикл станет бесконечным
+while (!feof($file)) {
 }
 
 fclose($file);

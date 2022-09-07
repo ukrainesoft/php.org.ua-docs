@@ -15,7 +15,7 @@ tradercdlhammer — Молот
 ### Опис
 
 ```methodsynopsis
-trader_cdlhammer(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhammer(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

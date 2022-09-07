@@ -45,23 +45,23 @@ public ImagickPixel::setHSL(float $hue, float $saturation, float $luminosity): b
 ```php
 <?php
 
-//Создание почти чистого красного цвета
-$color = new ImagickPixel('rgb(90%, 10%, 10%)');
+//Создание почти чистого красного цвета
+$color = new ImagickPixel('rgb(90%, 10%, 10%)');
 
-//Получение значений HSL
-$colorInfo = $color->getHSL();
+//Получение значений HSL
+$colorInfo = $color->getHSL();
 
-//Поворачиваем оттенок на 180 градусов
-$newHue = $colorInfo['hue'] + 0.5;
-if ($newHue > 1) {
-    $newHue = $newHue - 1;
+//Поворачиваем оттенок на 180 градусов
+$newHue = $colorInfo['hue'] + 0.5;
+if ($newHue > 1) {
+    $newHue = $newHue - 1;
 }
 
-//Устанавливаем ImagickPixel в новый цвет
-$colorInfo = $color->setHSL($newHue, $colorInfo['saturation'], $colorInfo['luminosity']);
+//Устанавливаем ImagickPixel в новый цвет
+$colorInfo = $color->setHSL($newHue, $colorInfo['saturation'], $colorInfo['luminosity']);
 
-//Проверяем, что новый цвет является голубым/зелёным
-$colorInfo = $color->getcolor();
+//Проверяем, что новый цвет является голубым/зелёным
+$colorInfo = $color->getcolor();
 print_r($colorInfo);
 
 ?>

@@ -34,20 +34,20 @@ public SplFileObject::getFlags(): int
 
 ```php
 <?php
-$file = new SplFileObject(__FILE__, "r");
+$file = new SplFileObject(__FILE__, "r");
 
-if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {
-    echo "Пропускать пустые строки\n";
-} else {
-    echo "Не пропускать пустые строки\n";
+if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {
+    echo "Пропускать пустые строки\n";
+} else {
+    echo "Не пропускать пустые строки\n";
 }
 
 $file->setFlags(SplFileObject::SKIP_EMPTY);
 
-if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {
-    echo "Пропускать пустые строки\n";
-} else {
-    echo "Не пропускать пустые строки\n";
+if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {
+    echo "Пропускать пустые строки\n";
+} else {
+    echo "Не пропускать пустые строки\n";
 }
 ?>
 ```

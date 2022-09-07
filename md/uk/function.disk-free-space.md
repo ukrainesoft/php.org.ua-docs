@@ -40,12 +40,12 @@ disk_free_space(string $directory): float|false
 
 ```php
 <?php
-// $df содержит размер свободного места в каталоге "/"
-$df = disk_free_space("/");
+// $df содержит размер свободного места в каталоге "/"
+$df = disk_free_space("/");
 
-// В Windows:
-$df_c = disk_free_space("C:");
-$df_d = disk_free_space("D:");
+// В Windows:
+$df_c = disk_free_space("C:");
+$df_d = disk_free_space("D:");
 ?>
 ```
 

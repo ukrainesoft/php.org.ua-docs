@@ -42,8 +42,8 @@ gmp_mod(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ```php
 <?php
-$mod = gmp_mod("8", "3");
-echo gmp_strval($mod) . "\n";
+$mod = gmp_mod("8", "3");
+echo gmp_strval($mod) . "\n";
 ?>
 ```
 

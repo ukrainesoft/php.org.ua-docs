@@ -15,7 +15,7 @@ imagecharup — Малювання символу вертикально
 ### Опис
 
 ```methodsynopsis
-imagecharup(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $char,    int $color): bool
+imagecharup(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $char,    int $color): bool
 ```
 
 Малює символ `char` вертикально на заданих координатах зображення `image`
@@ -64,17 +64,17 @@ y-координата початку малювання.
 ```php
 <?php
 
-$im = imagecreate(100, 100);
+$im = imagecreate(100, 100);
 
-$string = 'Надо учитывать, что первый символ в строке — N';
+$string = 'Надо учитывать, что первый символ в строке — N';
 
-$bg = imagecolorallocate($im, 255, 255, 255);
-$black = imagecolorallocate($im, 0, 0, 0);
+$bg = imagecolorallocate($im, 255, 255, 255);
+$black = imagecolorallocate($im, 0, 0, 0);
 
-// печатает чёрный символ "Z" на белом фоне
-imagecharup($im, 3, 10, 10, $string, $black);
+// печатает чёрный символ "Z" на белом фоне
+imagecharup($im, 3, 10, 10, $string, $black);
 
-header('Content-type: image/png');
+header('Content-type: image/png');
 imagepng($im);
 
 ?>

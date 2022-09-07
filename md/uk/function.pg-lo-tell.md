@@ -44,16 +44,16 @@ pg_lo_tell(PgSql\Lob $lob): int
 
 ```php
 <?php
-   $doc_oid = 189762345;
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $handle = pg_lo_open($database, $doc_oid, "r");
-   // Пропустить первые 50000 байт
-   pg_lo_seek($handle, 50000, PGSQL_SEEK_SET);
-   // Проверим, на сколько мы отступили
-   $offset = pg_lo_tell($handle);
-   echo "Текущее положение внутреннего указателя: $offset";
-   pg_query($database, "commit");
+   $doc_oid = 189762345;
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $doc_oid, "r");
+   // Пропустить первые 50000 байт
+   pg_lo_seek($handle, 50000, PGSQL_SEEK_SET);
+   // Проверим, на сколько мы отступили
+   $offset = pg_lo_tell($handle);
+   echo "Текущее положение внутреннего указателя: $offset";
+   pg_query($database, "commit");
 ?>
 ```
 

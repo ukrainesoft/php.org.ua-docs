@@ -40,16 +40,16 @@ hash_copy(HashContext $context): HashContext
 
 ```php
 <?php
-$context = hash_init("md5");
-hash_update($context, "data");
+$context = hash_init("md5");
+hash_update($context, "data");
 
-/* копия контекста для дальнейшего использования */
-$copy_context = hash_copy($context);
+/* копия контекста для дальнейшего использования */
+$copy_context = hash_copy($context);
 
-echo hash_final($context), "\n";
+echo hash_final($context), "\n";
 
-hash_update($copy_context, "data");
-echo hash_final($copy_context), "\n";
+hash_update($copy_context, "data");
+echo hash_final($copy_context), "\n";
 ?>
 ```
 

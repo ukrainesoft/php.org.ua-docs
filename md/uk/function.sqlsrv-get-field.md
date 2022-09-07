@@ -46,33 +46,33 @@ sqlsrv_get_field(resource $stmt, int $fieldIndex, int $getAsType = ?): mixed
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "SELECT Name, Comment
-        FROM Table_1
-        WHERE ReviewID=1";
-$stmt = sqlsrv_query( $conn, $sql);
-if( $stmt === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$sql = "SELECT Name, Comment
+        FROM Table_1
+        WHERE ReviewID=1";
+$stmt = sqlsrv_query( $conn, $sql);
+if( $stmt === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-// Сделайте первую (и в данном случае единственную) строку набора результатов доступной для чтения.
-if( sqlsrv_fetch( $stmt ) === false) {
-     die( print_r( sqlsrv_errors(), true));
+// Сделайте первую (и в данном случае единственную) строку набора результатов доступной для чтения.
+if( sqlsrv_fetch( $stmt ) === false) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-// Получите поля строки. Индексы полей начинаются с 0 и должны извлекаться по порядку.
-// Получение полей строки по имени не поддерживается sqlsrv_get_field.
-$name = sqlsrv_get_field( $stmt, 0);
-echo "$name: ";
+// Получите поля строки. Индексы полей начинаются с 0 и должны извлекаться по порядку.
+// Получение полей строки по имени не поддерживается sqlsrv_get_field.
+$name = sqlsrv_get_field( $stmt, 0);
+echo "$name: ";
 
-$comment = sqlsrv_get_field( $stmt, 1);
-echo $comment;
+$comment = sqlsrv_get_field( $stmt, 1);
+echo $comment;
 ?>
 ```
 

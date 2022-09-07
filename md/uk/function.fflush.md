@@ -36,13 +36,13 @@ fflush(resource $stream): bool
 
 ```php
 <?php
-$filename = 'bar.txt';
+$filename = 'bar.txt';
 
-$file = fopen($filename, 'r+');
+$file = fopen($filename, 'r+');
 rewind($file);
-fwrite($file, 'Foo');
+fwrite($file, 'Foo');
 fflush($file);
-ftruncate($file, ftell($file));
+ftruncate($file, ftell($file));
 fclose($file);
 ?>
 ```

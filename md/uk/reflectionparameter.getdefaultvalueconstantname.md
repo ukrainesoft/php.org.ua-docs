@@ -40,19 +40,19 @@ public ReflectionParameter::getDefaultValueConstantName(): ?string
 
 ```php
 <?php
-function foo($test, $bar = PHP_INT_MIN)
+function foo($test, $bar = PHP_INT_MIN)
 {
-    echo $test . $bar;
+    echo $test . $bar;
 }
 
-$function = new ReflectionFunction('foo');
+$function = new ReflectionFunction('foo');
 
-foreach ($function->getParameters() as $param) {
-    echo 'Имя: ' . $param->getName() . PHP_EOL;
-    if ($param->isOptional()) {
-        echo 'Значение по умолчанию: ' . $param->getDefaultValueConstantName() . PHP_EOL;
-    }
-    echo PHP_EOL;
+foreach ($function->getParameters() as $param) {
+    echo 'Имя: ' . $param->getName() . PHP_EOL;
+    if ($param->isOptional()) {
+        echo 'Значение по умолчанию: ' . $param->getDefaultValueConstantName() . PHP_EOL;
+    }
+    echo PHP_EOL;
 }
 ?>
 ```

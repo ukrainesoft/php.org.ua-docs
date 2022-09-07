@@ -15,7 +15,7 @@ radiusputvendoraddr — Приєднує атрибут IP-адреси до к�
 ### Опис
 
 ```methodsynopsis
-radius_put_vendor_addr(    resource $radius_handle,    int $vendor,    int $type,    string $addr): bool
+radius_put_vendor_addr(    resource $radius_handle,    int $vendor,    int $type,    string $addr): bool
 ```
 
 Приєднує атрибут постачальника IP-адреси до поточного запиту RADIUS.

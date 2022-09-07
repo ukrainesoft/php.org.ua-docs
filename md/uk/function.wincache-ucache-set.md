@@ -58,11 +58,11 @@ wincache_ucache_set(array $values, mixed $unused = NULL, int $ttl = 0): bool
 
 ```php
 <?php
-$bar = 'BAR';
-var_dump(wincache_ucache_set('foo', $bar));
+$bar = 'BAR';
+var_dump(wincache_ucache_set('foo', $bar));
 var_dump(wincache_ucache_get('foo'));
-$bar1 = 'BAR1';
-var_dump(wincache_ucache_set('foo', $bar1));
+$bar1 = 'BAR1';
+var_dump(wincache_ucache_set('foo', $bar1));
 var_dump(wincache_ucache_get('foo'));
 ?>
 ```
@@ -80,7 +80,7 @@ string(3) "BAR1"
 
 ```php
 <?php
-$colors_array = array('green' => '5', 'Blue' => '6', 'yellow' => '7', 'cyan' => '8');
+$colors_array = array('green' => '5', 'Blue' => '6', 'yellow' => '7', 'cyan' => '8');
 var_dump(wincache_ucache_set($colors_array));
 var_dump(wincache_ucache_set($colors_array));
 var_dump(wincache_ucache_get('Blue'));

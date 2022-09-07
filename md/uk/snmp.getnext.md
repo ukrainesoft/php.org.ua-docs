@@ -44,11 +44,11 @@ public SNMP::getnext(array|string $objectId): mixed
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
-  $nsysdescr = $session->getnext("sysDescr.0");
-  echo "$nsysdescr\n";
-  $nsysdescr = $session->getnext(array("sysDescr.0"));
-  print_r($nsysdescr);
+  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
+  $nsysdescr = $session->getnext("sysDescr.0");
+  echo "$nsysdescr\n";
+  $nsysdescr = $session->getnext(array("sysDescr.0"));
+  print_r($nsysdescr);
 ?>
 ```
 
@@ -66,10 +66,10 @@ Array
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
-  $results = $session->getnext(array("sysDescr.0", "sysName.0"));
-  print_r($results);
-  $session->close();
+  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
+  $results = $session->getnext(array("sysDescr.0", "sysName.0"));
+  print_r($results);
+  $session->close();
 ?>
 ```
 

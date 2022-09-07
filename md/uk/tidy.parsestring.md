@@ -40,7 +40,7 @@ tidy_parse_string(string $string, array|string|null $config = null, ?string $enc
 
 Налаштування `config` можуть бути задані у вигляді масиву чи рядка. Якщо заданий рядок, він інтерпретується як ім'я файлу конфігурації, інакше, параметр інтерпретується як самі настройки.
 
-Інформацію про кожен параметр можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
+Інформацію про кожен параметр можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
 
 `encoding`
 
@@ -66,25 +66,25 @@ ob_start();
 ?>
 
 <html>
-  <head>
-   <title>тест</title>
-  </head>
-  <body>
-   <p>ошибка<br>другая линия</i>
-  </body>
+  <head>
+   <title>тест</title>
+  </head>
+  <body>
+   <p>ошибка<br>другая линия</i>
+  </body>
 </html>
 
 <?php
 
-$buffer = ob_get_clean();
-$config = array('indent' => TRUE,
-                'output-xhtml' => TRUE,
-                'wrap' => 200);
+$buffer = ob_get_clean();
+$config = array('indent' => TRUE,
+                'output-xhtml' => TRUE,
+                'wrap' => 200);
 
-$tidy = tidy_parse_string($buffer, $config, 'UTF8');
+$tidy = tidy_parse_string($buffer, $config, 'UTF8');
 
 $tidy->cleanRepair();
-echo $tidy;
+echo $tidy;
 ?>
 ```
 

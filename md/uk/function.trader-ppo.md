@@ -15,7 +15,7 @@ traderppo — Процентний ціновий осцилятор
 ### Опис
 
 ```methodsynopsis
-trader_ppo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $mAType = ?): array
+trader_ppo(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $mAType = ?): array
 ```
 
 ### Список параметрів

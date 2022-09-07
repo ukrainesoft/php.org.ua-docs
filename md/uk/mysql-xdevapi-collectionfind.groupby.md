@@ -37,10 +37,10 @@ public mysql_xdevapi\CollectionFind::groupBy(string $sort_expr): mysql_xdevapi\C
 ```php
 <?php
 
-//Предполагая, что $coll является корректным объектом Collection
+//Предполагая, что $coll является корректным объектом Collection
 
-//Извлекает все документы из коллекции и группирует результаты по полю 'name'
-$res = $coll->find()->groupBy('name')->execute();
+//Извлекает все документы из коллекции и группирует результаты по полю 'name'
+$res = $coll->find()->groupBy('name')->execute();
 
 ?>
 ```

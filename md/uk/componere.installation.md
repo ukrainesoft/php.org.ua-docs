@@ -8,4 +8,4 @@ title: Встановлення
 ---
 ## Встановлення
 
-Вихідний код Componere та випуски доступні на [» github](https://github.com/krakjoe/componere)
+Вихідний код Componere та випуски доступні на [» github](https://github.com/krakjoe/componere)

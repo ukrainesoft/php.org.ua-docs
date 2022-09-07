@@ -15,7 +15,7 @@ SwooleAsync::read — Асинхронне читання файлового п�
 ### Опис
 
 ```methodsynopsis
-public static Swoole\Async::read(    string $filename,    callable $callback,    int $chunk_size = ?,    int $offset = ?): bool
+public static Swoole\Async::read(    string $filename,    callable $callback,    int $chunk_size = ?,    int $offset = ?): bool
 ```
 
 ### Список параметрів

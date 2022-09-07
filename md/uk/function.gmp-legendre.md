@@ -18,7 +18,7 @@ gmplegendre - Символ Лежандра
 gmp_legendre(GMP|int|string $num1, GMP|int|string $num2): int
 ```
 
-Обчислює [»  символ Лежандра](http://primes.utm.edu/glossary/page.php?sort=LegendreSymbol) чисел `num1` і `num2`. . `num2` має бути непарним та позитивним.
+Обчислює [»  символ Лежандра](http://primes.utm.edu/glossary/page.php?sort=LegendreSymbol) чисел `num1` і `num2`. . `num2` має бути непарним та позитивним.
 
 ### Список параметрів
 
@@ -42,8 +42,8 @@ gmp_legendre(GMP|int|string $num1, GMP|int|string $num2): int
 
 ```php
 <?php
-echo gmp_legendre("1", "3") . "\n";
-echo gmp_legendre("2", "3") . "\n";
+echo gmp_legendre("1", "3") . "\n";
+echo gmp_legendre("2", "3") . "\n";
 ?>
 ```
 

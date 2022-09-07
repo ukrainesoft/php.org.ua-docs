@@ -43,24 +43,24 @@ public LuaSandbox::registerLibrary(string $libname, array $functions): void
 ```php
 <?php
 
-// создание нового LuaSandbox
-$sandbox = new LuaSandbox();
+// создание нового LuaSandbox
+$sandbox = new LuaSandbox();
 
-// регистрация некоторых функций в среде Lua
+// регистрация некоторых функций в среде Lua
 
-function frobnosticate( $v ) {
-    return [ $v + 42 ];
+function frobnosticate( $v ) {
+    return [ $v + 42 ];
 }
 
-$sandbox->registerLibrary( 'php', [
-    'frobnosticate' => 'frobnosticate',
-    'output' => function ( $string ) {
-        echo "$string\n";
-    },
-    'error' => function () {
-        throw new LuaSandboxRuntimeError( "Что-то пошло не так" );
-    }
-] );
+$sandbox->registerLibrary( 'php', [
+    'frobnosticate' => 'frobnosticate',
+    'output' => function ( $string ) {
+        echo "$string\n";
+    },
+    'error' => function () {
+        throw new LuaSandboxRuntimeError( "Что-то пошло не так" );
+    }
+] );
 
 ?>
 ```

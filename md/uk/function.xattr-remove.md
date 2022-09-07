@@ -46,11 +46,11 @@ xattr_remove(string $filename, string $name, int $flags = 0): bool
 
 ```php
 <?php
-$file = 'some_file';
-$attributes = xattr_list($file);
+$file = 'some_file';
+$attributes = xattr_list($file);
 
-foreach ($attributes as $attr_name) {
-    xattr_remove($file, $attr_name);
+foreach ($attributes as $attr_name) {
+    xattr_remove($file, $attr_name);
 }
 ?>
 ```

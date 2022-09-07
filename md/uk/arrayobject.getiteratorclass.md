@@ -34,25 +34,25 @@ public ArrayObject::getIteratorClass(): string
 
 ```php
 <?php
-// Пользовательский ArrayIterator (включает в себя ArrayIterator)
-class MyArrayIterator extends ArrayIterator {
-    // пользовательская реализация
+// Пользовательский ArrayIterator (включает в себя ArrayIterator)
+class MyArrayIterator extends ArrayIterator {
+    // пользовательская реализация
 }
 
-// Масив доступных фруктов
-$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
+// Масив доступных фруктов
+$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);
 
-$fruitsArrayObject = new ArrayObject($fruits);
+$fruitsArrayObject = new ArrayObject($fruits);
 
-// Получить текущее имя класса итератора
-$className = $fruitsArrayObject->getIteratorClass();
+// Получить текущее имя класса итератора
+$className = $fruitsArrayObject->getIteratorClass();
 var_dump($className);
 
-// Установить новое имя класса итератора
+// Установить новое имя класса итератора
 $fruitsArrayObject->setIteratorClass('MyArrayIterator');
 
-// Получить новое имя класса итератора
-$className = $fruitsArrayObject->getIteratorClass();
+// Получить новое имя класса итератора
+$className = $fruitsArrayObject->getIteratorClass();
 var_dump($className);
 ?>
 ```

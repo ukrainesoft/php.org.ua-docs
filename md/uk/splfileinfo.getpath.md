@@ -34,11 +34,11 @@ public SplFileInfo::getPath(): string
 
 ```php
 <?php
-$info = new SplFileInfo('/usr/bin/php');
+$info = new SplFileInfo('/usr/bin/php');
 var_dump($info->getPath());
 
 
-$info = new SplFileInfo('/usr/');
+$info = new SplFileInfo('/usr/');
 var_dump($info->getPath());?>
 ```
 

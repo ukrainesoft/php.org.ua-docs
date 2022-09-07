@@ -19,7 +19,7 @@ public Parle\RLexer::push(string $regex, int $id): void
 ```
 
 ```methodsynopsis
-public Parle\RLexer::push(    string $state,    string $regex,    int $id,    string $newState): void
+public Parle\RLexer::push(    string $state,    string $regex,    int $id,    string $newState): void
 ```
 
 ```methodsynopsis

@@ -34,21 +34,21 @@ public SimpleXMLIterator::getChildren(): SimpleXMLIterator
 
 ```php
 <?php
-$xml = <<<XML
+$xml = <<<XML
 <books>
-    <book>
-        <title>Основы PHP</title>
-        <author>Джим Смит</author>
-    </book>
-    <book>Основы XML</book>
+    <book>
+        <title>Основы PHP</title>
+        <author>Джим Смит</author>
+    </book>
+    <book>Основы XML</book>
 </books>
 XML;
 
-$xmlIterator = new SimpleXMLIterator($xml);
-for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
-    foreach($xmlIterator->getChildren() as $name => $data) {
-    echo "$name: '$data' из класса " . get_class($data) . "\n";
-    }
+$xmlIterator = new SimpleXMLIterator($xml);
+for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
+    foreach($xmlIterator->getChildren() as $name => $data) {
+    echo "$name: '$data' из класса " . get_class($data) . "\n";
+    }
 }
 ?>
 ```

@@ -15,7 +15,7 @@ tradernatr - Нормалізований середній істинний ді
 ### Опис
 
 ```methodsynopsis
-trader_natr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_natr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

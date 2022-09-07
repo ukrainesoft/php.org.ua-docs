@@ -15,7 +15,7 @@ statscdfnoncentralf — Обчислює один із параметрів не
 ### Опис
 
 ```methodsynopsis
-stats_cdf_noncentral_f(    float $par1,    float $par2,    float $par3,    float $par4,    int $which): float
+stats_cdf_noncentral_f(    float $par1,    float $par2,    float $par3,    float $par4,    int $which): float
 ```
 
 Повертає кумулятивну функцію нецентрального розподілу Фішера, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` `par3`, і `par4`) визначаються параметром `which`

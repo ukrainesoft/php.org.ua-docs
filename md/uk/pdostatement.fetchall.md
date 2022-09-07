@@ -75,12 +75,12 @@ public PDOStatement::fetchAll(int $mode = PDO::FETCH_FUNC, callable $callback): 
 
 ```php
 <?php
-$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
 $sth->execute();
 
-/* Извлечение всех оставшихся строк результирующего набора */
-print("Извлечение всех оставшихся строк результирующего набора:\n");
-$result = $sth->fetchAll();
+/* Извлечение всех оставшихся строк результирующего набора */
+print("Извлечение всех оставшихся строк результирующего набора:\n");
+$result = $sth->fetchAll();
 print_r($result);
 ?>
 ```
@@ -123,11 +123,11 @@ Array
 
 ```php
 <?php
-$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
 $sth->execute();
 
-/* Извлечение всех значений первого столбца */
-$result = $sth->fetchAll(PDO::FETCH_COLUMN, 0);
+/* Извлечение всех значений первого столбца */
+$result = $sth->fetchAll(PDO::FETCH_COLUMN, 0);
 var_dump($result);
 ?>
 ```
@@ -152,14 +152,14 @@ Array(3)
 
 ```php
 <?php
-$insert = $dbh->prepare("INSERT INTO fruit(name, colour) VALUES (?, ?)");
-$insert->execute(array('apple', 'green'));
-$insert->execute(array('pear', 'yellow'));
+$insert = $dbh->prepare("INSERT INTO fruit(name, colour) VALUES (?, ?)");
+$insert->execute(array('apple', 'green'));
+$insert->execute(array('pear', 'yellow'));
 
-$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
 $sth->execute();
 
-/* Группируем записи по значениям первого столбца */
+/* Группируем записи по значениям первого столбца */
 var_dump($sth->fetchAll(PDO::FETCH_COLUMN|PDO::FETCH_GROUP));
 ?>
 ```
@@ -196,15 +196,15 @@ array(3) {
 
 ```php
 <?php
-class fruit {
-    public $name;
-    public $colour;
+class fruit {
+    public $name;
+    public $colour;
 }
 
-$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
 $sth->execute();
 
-$result = $sth->fetchAll(PDO::FETCH_CLASS, "fruit");
+$result = $sth->fetchAll(PDO::FETCH_CLASS, "fruit");
 var_dump($result);
 ?>
 ```
@@ -257,14 +257,14 @@ array(3) {
 
 ```php
 <?php
-function fruit($name, $colour) {
-    return "{$name}: {$colour}";
+function fruit($name, $colour) {
+    return "{$name}: {$colour}";
 }
 
-$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
 $sth->execute();
 
-$result = $sth->fetchAll(PDO::FETCH_FUNC, "fruit");
+$result = $sth->fetchAll(PDO::FETCH_FUNC, "fruit");
 var_dump($result);
 ?>
 ```

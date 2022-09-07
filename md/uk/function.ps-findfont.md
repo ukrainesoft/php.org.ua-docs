@@ -15,7 +15,7 @@ title: псfindfont
 ### Опис
 
 ```methodsynopsis
-ps_findfont(    resource $psdoc,    string $fontname,    string $encoding,    bool $embed = false): int
+ps_findfont(    resource $psdoc,    string $fontname,    string $encoding,    bool $embed = false): int
 ```
 
 Завантажує шрифт для подальшого використання. Перед виведенням тексту із завантаженим шрифтом він має бути встановлений за допомогою [псsetfont()](function.ps-setfont.md). Функція потребує файлу метрики шрифту Adobe, щоб обчислити простір, що використовується символами. Шрифт, завантажений на сторінку, буде доступний лише на цій сторінці. Шрифти, які будуть використовуватись у всьому документі, повинні бути завантажені до першого виклику [псbeginpage()](function.ps-begin-page.md). Виклик **псfindfont()** між сторінками зробить шрифт доступним для всіх наступних сторінок.

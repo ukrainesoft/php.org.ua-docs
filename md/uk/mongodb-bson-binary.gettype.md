@@ -37,7 +37,7 @@ final public MongoDB\BSON\Binary::getType(): int
 ```php
 <?php
 
-$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);
+$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);
 var_dump($binary->getType());
 
 ?>
@@ -51,4 +51,4 @@ int(0)
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

@@ -42,8 +42,8 @@ odbc_result(resource $statement, string|int $field): string|bool|null
 
 ```php
 <?php
-$item_3   = odbc_result($Query_ID, 3);
-$item_val = odbc_result($Query_ID, "val");
+$item_3   = odbc_result($Query_ID, 3);
+$item_val = odbc_result($Query_ID, "val");
 ?>
 ```
 

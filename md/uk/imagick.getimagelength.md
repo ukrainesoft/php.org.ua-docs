@@ -36,7 +36,7 @@ public Imagick::getImageLength(): int
 
 ```php
 <?php
-$image = new Imagick('test.jpg');
-echo $image->getImageLength() . ' байт';
+$image = new Imagick('test.jpg');
+echo $image->getImageLength() . ' байт';
 ?>
 ```

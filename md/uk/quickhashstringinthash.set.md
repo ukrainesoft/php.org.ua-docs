@@ -40,16 +40,16 @@ public QuickHashStringIntHash::set(string $key, int $value): int
 
 ```php
 <?php
-$hash = new QuickHashStringIntHash( 1024 );
+$hash = new QuickHashStringIntHash( 1024 );
 
-echo "Set->Add\n";
-var_dump( $hash->get( "сорок шесть тысяч шестьсот девяносто два" ) );
-var_dump( $hash->set( "сорок шесть тысяч шестьсот девяносто два", 16091 ) );
-var_dump( $hash->get( "сорок шесть тысяч шестьсот девяносто два" ) );
+echo "Set->Add\n";
+var_dump( $hash->get( "сорок шесть тысяч шестьсот девяносто два" ) );
+var_dump( $hash->set( "сорок шесть тысяч шестьсот девяносто два", 16091 ) );
+var_dump( $hash->get( "сорок шесть тысяч шестьсот девяносто два" ) );
 
-echo "Set->Update\n";
-var_dump( $hash->set( "сорок шесть тысяч шестьсот девяносто два", 29906 ) );
-var_dump( $hash->get( "сорок шесть тысяч шестьсот девяносто два" ) );
+echo "Set->Update\n";
+var_dump( $hash->set( "сорок шесть тысяч шестьсот девяносто два", 29906 ) );
+var_dump( $hash->get( "сорок шесть тысяч шестьсот девяносто два" ) );
 ?>
 ```
 

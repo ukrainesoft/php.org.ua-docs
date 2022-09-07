@@ -40,18 +40,18 @@ public
 
 ```php
 <?php
-$cfg = new EventConfig();
+$cfg = new EventConfig();
 
-// Создаём event_base, связанный с конфигом $cfg
-$base = new EventBase($cfg);
+// Создаём event_base, связанный с конфигом $cfg
+$base = new EventBase($cfg);
 
-// Запрашиваем свойство FDS
-if ($cfg->requireFeatures(EventConfig::FEATURE_FDS)) {
-    echo "Свойство FDS запрошено\n";
+// Запрашиваем свойство FDS
+if ($cfg->requireFeatures(EventConfig::FEATURE_FDS)) {
+    echo "Свойство FDS запрошено\n";
 
-    $base = new EventBase($cfg);
-    ($base->getFeatures() & EventConfig::FEATURE_FDS)
-        and print("FDS - произвольные типы дескрипторов файлов, а не только сокеты\n");
+    $base = new EventBase($cfg);
+    ($base->getFeatures() & EventConfig::FEATURE_FDS)
+        and print("FDS - произвольные типы дескрипторов файлов, а не только сокеты\n");
 }
 ?>
 ```

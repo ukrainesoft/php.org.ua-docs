@@ -15,7 +15,7 @@ tradercdlhighwave - Свічкова модель "Висока хвиля"
 ### Опис
 
 ```methodsynopsis
-trader_cdlhighwave(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhighwave(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

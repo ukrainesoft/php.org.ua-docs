@@ -38,10 +38,10 @@ offsetExists() запускається щоразу, коли викликає�
 
 ```php
 <?php
-$p = new Phar(dirname(__FILE__) . '/my.phar', 0, 'my.phar');
-$p['firstfile.txt'] = 'первый файл';
-$p['secondfile.txt'] = 'второй файл';
-// в следующих строках offsetExists() вызывается косвенно
+$p = new Phar(dirname(__FILE__) . '/my.phar', 0, 'my.phar');
+$p['firstfile.txt'] = 'первый файл';
+$p['secondfile.txt'] = 'второй файл';
+// в следующих строках offsetExists() вызывается косвенно
 var_dump(isset($p['firstfile.txt']));
 var_dump(isset($p['nothere.txt']));
 ?>

@@ -34,21 +34,21 @@ public FilterIterator::accept(): bool
 
 ```php
 <?php
-// Этот итератор фильтрует все значения с длиной менее 10 символов
-class LengthFilterIterator extends FilterIterator {
+// Этот итератор фильтрует все значения с длиной менее 10 символов
+class LengthFilterIterator extends FilterIterator {
 
-    public function accept() {
-        // Допускает строки с длиной 10 символов и более
-        return strlen(parent::current()) >= 10;
-    }
+    public function accept() {
+        // Допускает строки с длиной 10 символов и более
+        return strlen(parent::current()) >= 10;
+    }
 
 }
 
-$arrayIterator = new ArrayIterator(array('тест1', 'больше 10 символов'));
-$lengthFilter = new LengthFilterIterator($arrayIterator);
+$arrayIterator = new ArrayIterator(array('тест1', 'больше 10 символов'));
+$lengthFilter = new LengthFilterIterator($arrayIterator);
 
-foreach ($lengthFilter as $value) {
-    echo $value . "\n";
+foreach ($lengthFilter as $value) {
+    echo $value . "\n";
 }
 ?>
 ```

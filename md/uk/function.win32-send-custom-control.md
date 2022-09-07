@@ -18,7 +18,7 @@ win32sendcustomcontrol — Надсилає елемент керування, �
 win32_send_custom_control(string $servicename, int $control, string $machine = ?): void
 ```
 
-Дивіться [» функцию Microsoft ControlService](https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/nf-winsvc-controlservice) для отримання додаткових відомостей.
+Дивіться [» функцию Microsoft ControlService](https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/nf-winsvc-controlservice) для отримання додаткових відомостей.
 
 ### Список параметрів
 

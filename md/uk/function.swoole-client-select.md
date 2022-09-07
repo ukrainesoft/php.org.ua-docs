@@ -15,7 +15,7 @@ swooleclientselect — Отримати опис файлу, готового д
 ### Опис
 
 ```methodsynopsis
-swoole_client_select(    array &$read_array,    array &$write_array,    array &$error_array,    float $timeout = 0.5): int
+swoole_client_select(    array &$read_array,    array &$write_array,    array &$error_array,    float $timeout = 0.5): int
 ```
 
 ### Список параметрів

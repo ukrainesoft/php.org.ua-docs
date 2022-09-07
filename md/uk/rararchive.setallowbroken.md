@@ -48,13 +48,13 @@ rar_allow_broken_set(RarArchive $rarfile, bool $allow_broken): bool
 
 ```php
 <?php
-function retnull() { return null; }
-$file = dirname(__FILE__) . "/multi_broken.part1.rar";
-/* третий аргумент подавляет сообщение "volume not found" */
-$a = RarArchive::open($file, null, 'retnull');
+function retnull() { return null; }
+$file = dirname(__FILE__) . "/multi_broken.part1.rar";
+/* третий аргумент подавляет сообщение "volume not found" */
+$a = RarArchive::open($file, null, 'retnull');
 $a->setAllowBroken(true);
-foreach ($a->getEntries() as $e) {
-    echo "$e\n";
+foreach ($a->getEntries() as $e) {
+    echo "$e\n";
 }
 var_dump(count($a));
 ?>
@@ -71,13 +71,13 @@ int(1)
 
 ```php
 <?php
-function retnull() { return null; }
-$file = dirname(__FILE__) . "/multi_broken.part1.rar";
-/* третий аргумент подавляет сообщение "volume not found" */
-$a = rar_open($file, null, 'retnull');
-rar_allow_broken_set($a, true);
-foreach (rar_list($a) as $e) {
-    echo "$e\n";
+function retnull() { return null; }
+$file = dirname(__FILE__) . "/multi_broken.part1.rar";
+/* третий аргумент подавляет сообщение "volume not found" */
+$a = rar_open($file, null, 'retnull');
+rar_allow_broken_set($a, true);
+foreach (rar_list($a) as $e) {
+    echo "$e\n";
 }
 var_dump(count($a));
 ?>

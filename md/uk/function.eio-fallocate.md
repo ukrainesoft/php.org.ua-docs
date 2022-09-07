@@ -15,7 +15,7 @@ eiofallocate — Дозволяє безпосередньо керувати р
 ### Опис
 
 ```methodsynopsis
-eio_fallocate(    mixed $fd,    int $mode,    int $offset,    int $length,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_fallocate(    mixed $fd,    int $mode,    int $offset,    int $length,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiofallocate()** дозволяє безпосередньо керувати розміром дискового простору для файлу. Дескриптор файлу вказується у параметрі `fd`, Розмір визначається діапазоном в байтах, починаючи від зсуву `offset` і до `length`
@@ -51,7 +51,7 @@ eio_fallocate(    mixed $fd,    int $mode,    int $offset,    in
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

@@ -47,7 +47,7 @@ locale_set_default(string $locale): bool
 ```php
 <?php
 locale_set_default('de-DE');
-echo locale_get_default();
+echo locale_get_default();
 ?>
 ```
 
@@ -56,7 +56,7 @@ echo locale_get_default();
 ```php
 <?php
 Locale::setDefault('de-DE');
-echo Locale::getDefault();
+echo Locale::getDefault();
 ?>
 ```
 

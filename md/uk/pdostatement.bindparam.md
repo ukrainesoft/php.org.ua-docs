@@ -15,7 +15,7 @@ PDOStatement::bindParam — Прив'язує параметр запиту до
 ### Опис
 
 ```methodsynopsis
-public PDOStatement::bindParam(    string|int $param,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
+public PDOStatement::bindParam(    string|int $param,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
 ```
 
 Зв'язує змінну PHP з іменованим або неіменованим параметром SQL-запиту, що готується. На відміну від [PDOStatement::bindValue()](pdostatement.bindvalue.md), змінна прив'язується за посиланням та її значення обчислюватиметься під час виклику [PDOStatement::execute()](pdostatement.execute.md)
@@ -52,15 +52,15 @@ public PDOStatement::bindParam(    string|int $param,    mixed &$var, �
 
 ```php
 <?php
-/* Выполнение запроса с привязкой PHP-переменных */
-$calories = 150;
-$colour = 'red';
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < :calories AND colour = :colour');
-$sth->bindParam('calories', $calories, PDO::PARAM_INT);
-/* Имена также могут начинаться с двоеточия ":" (необязательно) */
-$sth->bindParam(':colour', $colour, PDO::PARAM_STR);
+/* Выполнение запроса с привязкой PHP-переменных */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < :calories AND colour = :colour');
+$sth->bindParam('calories', $calories, PDO::PARAM_INT);
+/* Имена также могут начинаться с двоеточия ":" (необязательно) */
+$sth->bindParam(':colour', $colour, PDO::PARAM_STR);
 $sth->execute();
 ?>
 ```
@@ -69,14 +69,14 @@ $sth->execute();
 
 ```php
 <?php
-/* Выполнение запроса с привязкой PHP-переменных */
-$calories = 150;
-$colour = 'red';
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < ? AND colour = ?');
-$sth->bindParam(1, $calories, PDO::PARAM_INT);
-$sth->bindParam(2, $colour, PDO::PARAM_STR);
+/* Выполнение запроса с привязкой PHP-переменных */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < ? AND colour = ?');
+$sth->bindParam(1, $calories, PDO::PARAM_INT);
+$sth->bindParam(2, $colour, PDO::PARAM_STR);
 $sth->execute();
 ?>
 ```
@@ -85,12 +85,12 @@ $sth->execute();
 
 ```php
 <?php
-/* Вызов хранимой процедуры с INOUT-параметром */
-$colour = 'red';
-$sth = $dbh->prepare('CALL puree_fruit(?)');
-$sth->bindParam(1, $colour, PDO::PARAM_STR|PDO::PARAM_INPUT_OUTPUT, 12);
+/* Вызов хранимой процедуры с INOUT-параметром */
+$colour = 'red';
+$sth = $dbh->prepare('CALL puree_fruit(?)');
+$sth->bindParam(1, $colour, PDO::PARAM_STR|PDO::PARAM_INPUT_OUTPUT, 12);
 $sth->execute();
-print("После приготовления фруктового пюра, цвет - $colour");
+print("После приготовления фруктового пюра, цвет - $colour");
 ?>
 ```
 

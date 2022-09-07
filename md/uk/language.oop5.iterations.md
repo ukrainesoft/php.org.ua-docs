@@ -14,29 +14,29 @@ PHP надає такий спосіб оголошення об'єктів, я�
 
 ```php
 <?php
-class MyClass
+class MyClass
 {
-    public $var1 = 'значение 1';
-    public $var2 = 'значение 2';
-    public $var3 = 'значение 3';
+    public $var1 = 'значение 1';
+    public $var2 = 'значение 2';
+    public $var3 = 'значение 3';
 
-    protected $protected = 'защищённая переменная';
-    private   $private   = 'закрытая переменная';
+    protected $protected = 'защищённая переменная';
+    private   $private   = 'закрытая переменная';
 
-    function iterateVisible() {
-       echo "MyClass::iterateVisible:\n";
-       foreach ($this as $key => $value) {
-           print "$key => $value\n";
-       }
-    }
+    function iterateVisible() {
+       echo "MyClass::iterateVisible:\n";
+       foreach ($this as $key => $value) {
+           print "$key => $value\n";
+       }
+    }
 }
 
-$class = new MyClass();
+$class = new MyClass();
 
-foreach($class as $key => $value) {
-    print "$key => $value\n";
+foreach($class as $key => $value) {
+    print "$key => $value\n";
 }
-echo "\n";
+echo "\n";
 
 
 $class->iterateVisible();

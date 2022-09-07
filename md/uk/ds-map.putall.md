@@ -40,12 +40,12 @@ public Ds\Map::putAll(mixed $pairs): void
 
 ```php
 <?php
-$map = new \Ds\Map();
+$map = new \Ds\Map();
 
 $map->putAll([
-    "a" => 1,
-    "b" => 2,
-    "c" => 3,
+    "a" => 1,
+    "b" => 2,
+    "c" => 3,
 ]);
 
 print_r($map);

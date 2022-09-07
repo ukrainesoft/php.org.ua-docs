@@ -38,24 +38,24 @@ public mysql_xdevapi\Schema::existsInDatabase(): bool
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS food")->execute();
-$session->sql("CREATE DATABASE food")->execute();
-$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
+$session->sql("DROP DATABASE IF EXISTS food")->execute();
+$session->sql("CREATE DATABASE food")->execute();
+$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
 
-$schema = $session->getSchema("food");
+$schema = $session->getSchema("food");
 $schema->createCollection("trees");
 
-// ...
+// ...
 
-$trees = $schema->getCollection("trees");
+$trees = $schema->getCollection("trees");
 
-// ...
+// ...
 
-// Эта коллекция всё ещё находится в базе данных (схеме)?
-if ($trees->existsInDatabase()) {
-    echo "Да, коллекция 'trees' всё ещё существует.";
+// Эта коллекция всё ещё находится в базе данных (схеме)?
+if ($trees->existsInDatabase()) {
+    echo "Да, коллекция 'trees' всё ещё существует.";
 }
 ```
 

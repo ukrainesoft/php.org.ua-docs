@@ -86,16 +86,16 @@ bucket lists:
 
 ```php
 <?php
-$file = dirname( __FILE__ ) . "/simple.hash.string";
-$hash = QuickHashStringIntHash::loadFromFile(
-    $file,
-    QuickHashStringIntHash::DO_NOT_USE_ZEND_ALLOC
+$file = dirname( __FILE__ ) . "/simple.hash.string";
+$hash = QuickHashStringIntHash::loadFromFile(
+    $file,
+    QuickHashStringIntHash::DO_NOT_USE_ZEND_ALLOC
 );
-foreach( range( 0, 0x0f ) as $key )
+foreach( range( 0, 0x0f ) as $key )
 {
-    $i = 48712 + $key * 1631;
-    $k = base_convert( $i, 10, 36 );
-    echo $k, ' => ', $hash->get( $k ), "\n";
+    $i = 48712 + $key * 1631;
+    $k = base_convert( $i, 10, 36 );
+    echo $k, ' => ', $hash->get( $k ), "\n";
 }
 ?>
 ```

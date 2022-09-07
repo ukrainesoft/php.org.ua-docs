@@ -19,13 +19,13 @@ XMLWriter::writeElementNs -- xmlwriterwriteelementns — Записати пов
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public XMLWriter::writeElementNs(    ?string $prefix,    string $name,    ?string $namespace,    ?string $content = null): bool
+public XMLWriter::writeElementNs(    ?string $prefix,    string $name,    ?string $namespace,    ?string $content = null): bool
 ```
 
 Процедурний стиль
 
 ```methodsynopsis
-xmlwriter_write_element_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace,    ?string $content = null): bool
+xmlwriter_write_element_ns(    XMLWriter $writer,    ?string $prefix,    string $name,    ?string $namespace,    ?string $content = null): bool
 ```
 
 Записує повний простір імен тега елемента.

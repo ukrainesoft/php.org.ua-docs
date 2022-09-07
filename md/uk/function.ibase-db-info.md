@@ -15,7 +15,7 @@ ibaseдбinfo — Запитує статистику бази даних
 ### Опис
 
 ```methodsynopsis
-ibase_db_info(    resource $service_handle,    string $db,    int $action,    int $argument = 0): string
+ibase_db_info(    resource $service_handle,    string $db,    int $action,    int $argument = 0): string
 ```
 
 **Увага**

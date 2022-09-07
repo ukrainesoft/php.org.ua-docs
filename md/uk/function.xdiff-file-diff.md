@@ -15,7 +15,7 @@ xdifffilediff — Створити уніфікований патч із пор
 ### Опис
 
 ```methodsynopsis
-xdiff_file_diff(    string $old_file,    string $new_file,    string $dest,    int $context = 3,    bool $minimal = false): bool
+xdiff_file_diff(    string $old_file,    string $new_file,    string $dest,    int $context = 3,    bool $minimal = false): bool
 ```
 
 Створює уніфікований патч, що містить відмінності двох файлів `old_file` і `new_file` та зберігає його у файл `dest`. Результат людиночитаний. Необов'язковий параметр `context` вказує, скільки рядків контексту має бути додано навколо кожного зміненого рядка. Завдання параметра `minimal` рівним **`true`** приведе до створення максимально короткого патчу, що може тривати багато часу.
@@ -54,10 +54,10 @@ xdiff_file_diff(    string $old_file,    string $new_file,    string
 
 ```php
 <?php
-$old_version = 'my_script.php';
-$new_version = 'my_new_script.php';
+$old_version = 'my_script.php';
+$new_version = 'my_new_script.php';
 
-xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);
+xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);
 ?>
 ```
 

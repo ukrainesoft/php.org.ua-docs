@@ -49,22 +49,22 @@ imap_mailboxmsginfo(IMAP\Connection $imap): stdClass
 ```php
 <?php
 
-$mbox = imap_open("{imap.example.org}INBOX", "username", "password")
-      or die("не удалось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.org}INBOX", "username", "password")
+      or die("не удалось подключиться: " . imap_last_error());
 
-$check = imap_mailboxmsginfo($mbox);
+$check = imap_mailboxmsginfo($mbox);
 
-if ($check) {
-    echo "Date: "     . $check->Date    . "<br />\n" ;
-    echo "Driver: "   . $check->Driver  . "<br />\n" ;
-    echo "Mailbox: "  . $check->Mailbox . "<br />\n" ;
-    echo "Messages: " . $check->Nmsgs   . "<br />\n" ;
-    echo "Recent: "   . $check->Recent  . "<br />\n" ;
-    echo "Unread: "   . $check->Unread  . "<br />\n" ;
-    echo "Deleted: "  . $check->Deleted . "<br />\n" ;
-    echo "Size: "     . $check->Size    . "<br />\n" ;
-} else {
-    echo "Вызов imap_mailboxmsginfo() завершился с ошибкой: " . imap_last_error() . "<br />\n";
+if ($check) {
+    echo "Date: "     . $check->Date    . "<br />\n" ;
+    echo "Driver: "   . $check->Driver  . "<br />\n" ;
+    echo "Mailbox: "  . $check->Mailbox . "<br />\n" ;
+    echo "Messages: " . $check->Nmsgs   . "<br />\n" ;
+    echo "Recent: "   . $check->Recent  . "<br />\n" ;
+    echo "Unread: "   . $check->Unread  . "<br />\n" ;
+    echo "Deleted: "  . $check->Deleted . "<br />\n" ;
+    echo "Size: "     . $check->Size    . "<br />\n" ;
+} else {
+    echo "Вызов imap_mailboxmsginfo() завершился с ошибкой: " . imap_last_error() . "<br />\n";
 }
 
 imap_close($mbox);

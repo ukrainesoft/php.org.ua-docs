@@ -15,7 +15,7 @@ ldapbindext — Прив'язати до директорії LDAP
 ### Опис
 
 ```methodsynopsis
-ldap_bind_ext(    LDAP\Connection $ldap,    ?string $dn = null,    ?string $password = null,    ?array $controls = null): LDAP\Result|false
+ldap_bind_ext(    LDAP\Connection $ldap,    ?string $dn = null,    ?string $password = null,    ?array $controls = null): LDAP\Result|false
 ```
 
 Робить те саме, що й [ldapbind()](function.ldap-bind.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)

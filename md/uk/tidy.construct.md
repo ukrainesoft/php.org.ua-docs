@@ -32,7 +32,7 @@ bool `$useIncludePath` **`false`**
 
 Налаштування `config` можуть бути задані у вигляді масиву чи рядка. Якщо заданий рядок, це інтерпретується як ім'я файлу конфігурації, інакше, параметр інтерпретується як самі настройки.
 
-Опис кожного параметра можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
+Опис кожного параметра можна знайти тут: [» http://api.html-tidy.org/#quick-reference](http://api.html-tidy.org/#quick-reference)
 
 `encoding`
 
@@ -55,28 +55,28 @@ bool `$useIncludePath` **`false`**
 ```php
 <?php
 
-$html = <<< HTML
+$html = <<< HTML
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head><title>title</title></head>
 <body>
-<p>параграф <bt />
+<p>параграф <bt />
 текст</p>
 </body></html>
 
 HTML;
 
-$tidy = new tidy();
+$tidy = new tidy();
 $tidy->ParseString($html);
 
 $tidy->cleanRepair();
 
-if ($tidy->errorBuffer) {
-    echo "Были обнаружены следующие ошибки:\n";
-    echo $tidy->errorBuffer;
+if ($tidy->errorBuffer) {
+    echo "Были обнаружены следующие ошибки:\n";
+    echo $tidy->errorBuffer;
 }
 
 ?>

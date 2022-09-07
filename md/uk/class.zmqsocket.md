@@ -29,7 +29,7 @@ title: Клас ZMQSocket
     
    public bind(string $dsn, bool $force = false): ZMQSocket
 public connect(string $dsn, bool $force = false): ZMQSocket
-public __construct(    ZMQContext $context,    int $type,    string $persistent_id = null,    callable $on_new_socket = null)
+public __construct(    ZMQContext $context,    int $type,    string $persistent_id = null,    callable $on_new_socket = null)
 public disconnect(string $dsn): ZMQSocket
 public getEndpoints(): array
 public getPersistentId(): string

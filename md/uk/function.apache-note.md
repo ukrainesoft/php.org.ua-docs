@@ -49,12 +49,12 @@ apache_note(string $note_name, ?string $note_value = null): string|false
 ```php
 <?php
 
-apache_note('name', 'Fredrik Ekengren');
+apache_note('name', 'Fredrik Ekengren');
 
-// Вызов perl-скрипта
+// Вызов perl-скрипта
 virtual("/perl/some_script.pl");
 
-$result = apache_note("resultdata");
+$result = apache_note("resultdata");
 ?>
 ```
 
@@ -75,7 +75,7 @@ $r->notes('resultdata', $result);
 ```php
 <?php
 
-apache_note('sessionID', session_id());
+apache_note('sessionID', session_id());
 
 ?>
 ```

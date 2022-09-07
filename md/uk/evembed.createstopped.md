@@ -18,16 +18,16 @@ EvEmbed::createStopped — Створює зупинений об'єкт спо�
 final
    public
    static
-   EvEmbed::createStopped(    
+   EvEmbed::createStopped(    
     object
      $other
-   ,    
+   ,    
     callable
      $callback
-    = ?,    
+    = ?,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?): void

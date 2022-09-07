@@ -43,16 +43,16 @@ public Imagick::getImageProperties(string $pattern = "*", bool $include_values =
 ```php
 <?php
 
-/* Создание объекта */
-$im = new imagick("/path/to/example.jpg");
+/* Создание объекта */
+$im = new imagick("/path/to/example.jpg");
 
-/* Получение EXIF-информации */
-$exifArray = $im->getImageProperties("exif:*");
+/* Получение EXIF-информации */
+$exifArray = $im->getImageProperties("exif:*");
 
-/* Цикл по EXIF-свойствам */
-foreach ($exifArray as $name => $property)
+/* Цикл по EXIF-свойствам */
+foreach ($exifArray as $name => $property)
 {
-    echo "{$name} => {$property}<br />\n";
+    echo "{$name} => {$property}<br />\n";
 }
 
 ?>

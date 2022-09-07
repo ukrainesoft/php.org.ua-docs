@@ -22,14 +22,14 @@ PHP є одним із важливих моментів у питанні бе�
 
 ```php
 <?php
-// Удаление файла из домашней директории пользователя
-$username = $_POST['user_submitted_name'];
-$userfile = $_POST['user_submitted_filename'];
-$homedir  = "/home/$username";
+// Удаление файла из домашней директории пользователя
+$username = $_POST['user_submitted_name'];
+$userfile = $_POST['user_submitted_filename'];
+$homedir  = "/home/$username";
 
 unlink("$homedir/$userfile");
 
-echo "Файл был удалён!";
+echo "Файл был удалён!";
 ?>
 ```
 
@@ -39,15 +39,15 @@ echo "Файл был удалён!";
 
 ```php
 <?php
-// Удаление любого файла, доступного из PHP-скрипта.
-// В случае, если PHP работает с правами пользователя root:
-$username = $_POST['user_submitted_name']; // "../etc"
-$userfile = $_POST['user_submitted_filename']; // "passwd"
-$homedir  = "/home/$username"; // "/home/../etc"
+// Удаление любого файла, доступного из PHP-скрипта.
+// В случае, если PHP работает с правами пользователя root:
+$username = $_POST['user_submitted_name']; // "../etc"
+$userfile = $_POST['user_submitted_filename']; // "passwd"
+$homedir  = "/home/$username"; // "/home/../etc"
 
-unlink("$homedir/$userfile"); // "/home/../etc/passwd"
+unlink("$homedir/$userfile"); // "/home/../etc/passwd"
 
-echo "Файл был удалён!";
+echo "Файл был удалён!";
 ?>
 ```
 
@@ -62,24 +62,24 @@ echo "Файл был удалён!";
 
 ```php
 <?php
-// Удаление любого файла, к которому имеет доступ пользователь,
-// под которым запущен PHP.
-$username = $_SERVER['REMOTE_USER']; // использование авторизации
-$userfile = basename($_POST['user_submitted_filename']);
-$homedir  = "/home/$username";
+// Удаление любого файла, к которому имеет доступ пользователь,
+// под которым запущен PHP.
+$username = $_SERVER['REMOTE_USER']; // использование авторизации
+$userfile = basename($_POST['user_submitted_filename']);
+$homedir  = "/home/$username";
 
-$filepath = "$homedir/$userfile";
+$filepath = "$homedir/$userfile";
 
-if (file_exists($filepath) && unlink($filepath)) {
-    $logstring = "$filepath удалён\n";
-} else {
-    $logstring = "Не удалось удалить $filepath\n";
+if (file_exists($filepath) && unlink($filepath)) {
+    $logstring = "$filepath удалён\n";
+} else {
+    $logstring = "Не удалось удалить $filepath\n";
 }
-$fp = fopen("/home/logging/filedelete.log", "a");
-fwrite($fp, $logstring);
+$fp = fopen("/home/logging/filedelete.log", "a");
+fwrite($fp, $logstring);
 fclose($fp);
 
-echo htmlentities($logstring, ENT_QUOTES);
+echo htmlentities($logstring, ENT_QUOTES);
 
 ?>
 ```
@@ -90,14 +90,14 @@ echo htmlentities($logstring, ENT_QUOTES);
 
 ```php
 <?php
-$username     = $_SERVER['REMOTE_USER']; // использование авторизации
-$userfile     = $_POST['user_submitted_filename'];
-$homedir      = "/home/$username";
+$username     = $_SERVER['REMOTE_USER']; // использование авторизации
+$userfile     = $_POST['user_submitted_filename'];
+$homedir      = "/home/$username";
 
-$filepath     = "$homedir/$userfile";
+$filepath     = "$homedir/$userfile";
 
-if (!ctype_alnum($username) || !preg_match('/^(?:[a-z0-9_-]|\.(?!\.))+$/iD', $userfile)) {
-    die("Неправильное имя пользователя или файл");
+if (!ctype_alnum($username) || !preg_match('/^(?:[a-z0-9_-]|\.(?!\.))+$/iD', $userfile)) {
+    die("Неправильное имя пользователя или файл");
 }
 
 //etc...

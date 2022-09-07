@@ -15,7 +15,7 @@ DOMNode::C14NFile — Канонізувати вузли у файл
 ### Опис
 
 ```methodsynopsis
-public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public DOMNode::C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
 ```
 
 Канонізувати вузли у файл.

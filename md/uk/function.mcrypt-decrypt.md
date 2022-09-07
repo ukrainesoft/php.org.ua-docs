@@ -19,7 +19,7 @@ mcryptdecrypt — Розшифровує дані із заданими пара
 ### Опис
 
 ```methodsynopsis
-mcrypt_decrypt(    string $cipher,    string $key,    string $data,    string $mode,    string $iv = ?): string|false
+mcrypt_decrypt(    string $cipher,    string $key,    string $data,    string $mode,    string $iv = ?): string|false
 ```
 
 Розшифровує `data` та повертає отримане значення.

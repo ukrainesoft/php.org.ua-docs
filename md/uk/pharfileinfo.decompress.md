@@ -38,16 +38,16 @@ public PharFileInfo::decompress(): bool
 
 ```php
 <?php
-try {
-    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
-    $p['myfile.txt'] = 'hi';
-    $file = $p['myfile.txt'];
-    $file->compress(Phar::GZ);
-    var_dump($file->isCompressed());
-    $p['myfile.txt']->decompress();
-    var_dump($file->isCompressed());
-} catch (Exception $e) {
-    echo 'Не удалось создать/изменить my.phar: ', $e;
+try {
+    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
+    $p['myfile.txt'] = 'hi';
+    $file = $p['myfile.txt'];
+    $file->compress(Phar::GZ);
+    var_dump($file->isCompressed());
+    $p['myfile.txt']->decompress();
+    var_dump($file->isCompressed());
+} catch (Exception $e) {
+    echo 'Не удалось создать/изменить my.phar: ', $e;
 }
 ?>
 ```

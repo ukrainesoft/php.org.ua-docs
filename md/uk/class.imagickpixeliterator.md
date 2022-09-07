@@ -26,7 +26,7 @@ public getIteratorRow(): int
 public getNextIteratorRow(): array
 public getPreviousIteratorRow(): array
 public newPixelIterator(Imagick $wand): bool
-public newPixelRegionIterator(    Imagick $wand,    int $x,    int $y,    int $columns,    int $rows): bool
+public newPixelRegionIterator(    Imagick $wand,    int $x,    int $y,    int $columns,    int $rows): bool
 public resetIterator(): bool
 public setIteratorFirstRow(): bool
 public setIteratorLastRow(): bool

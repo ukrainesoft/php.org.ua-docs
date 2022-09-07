@@ -56,24 +56,24 @@ mysql_list_tables(string $database, resource $link_identifier = NULL): resource|
 
 ```php
 <?php
-$dbname = 'mysql_dbname';
+$dbname = 'mysql_dbname';
 
-if (!mysql_connect('mysql_host', 'mysql_user', 'mysql_password')) {
-    echo 'Ошибка подключения к mysql';
-    exit;
+if (!mysql_connect('mysql_host', 'mysql_user', 'mysql_password')) {
+    echo 'Ошибка подключения к mysql';
+    exit;
 }
 
-$sql = "SHOW TABLES FROM $dbname";
-$result = mysql_query($sql);
+$sql = "SHOW TABLES FROM $dbname";
+$result = mysql_query($sql);
 
-if (!$result) {
-    echo "Ошибка базы, не удалось получить список таблиц\n";
-    echo 'Ошибка MySQL: ' . mysql_error();
-    exit;
+if (!$result) {
+    echo "Ошибка базы, не удалось получить список таблиц\n";
+    echo 'Ошибка MySQL: ' . mysql_error();
+    exit;
 }
 
-while ($row = mysql_fetch_row($result)) {
-    echo "Таблица: {$row[0]}\n";
+while ($row = mysql_fetch_row($result)) {
+    echo "Таблица: {$row[0]}\n";
 }
 
 mysql_free_result($result);

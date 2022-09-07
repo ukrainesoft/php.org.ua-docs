@@ -15,7 +15,7 @@ imapsetacl — Встановлення ACL для заданої поштово
 ### Опис
 
 ```methodsynopsis
-imap_setacl(    IMAP\Connection $imap,    string $mailbox,    string $user_id,    string $rights): bool
+imap_setacl(    IMAP\Connection $imap,    string $mailbox,    string $user_id,    string $rights): bool
 ```
 
 Встановлює ACL для заданої поштової скриньки.

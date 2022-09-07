@@ -23,7 +23,7 @@ imageopenpolygon(GdImage $image, array $points, int $color): bool
 Альтернативний синтаксис (починаючи з PHP 8.0.0)
 
 ```methodsynopsis
-imageopenpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
+imageopenpolygon(    GdImage $image,    array $points,    int $num_points,    int $color): bool
 ```
 
 **imageopenpolygon()** малює відкритий полігон на заданому зображенні (`image`). На відміну від [imagepolygon()](function.imagepolygon.md), лінія між останньою та першою точкою не малюється.
@@ -67,23 +67,23 @@ imageopenpolygon(    GdImage $image,    array $points,    int $num_p
 
 ```php
 <?php
-// Создать пустое изображение
-$image = imagecreatetruecolor(400, 300);
+// Создать пустое изображение
+$image = imagecreatetruecolor(400, 300);
 
-// Выделение цвета для полигона
-$col_poly = imagecolorallocate($image, 255, 255, 255);
+// Выделение цвета для полигона
+$col_poly = imagecolorallocate($image, 255, 255, 255);
 
-// Нарисовать полигон
-imageopenpolygon($image, array(
-        0,   0,
-        100, 200,
-        300, 200
-    ),
-    3,
-    $col_poly);
+// Нарисовать полигон
+imageopenpolygon($image, array(
+        0,   0,
+        100, 200,
+        300, 200
+    ),
+    3,
+    $col_poly);
 
-// Вывод изображения в браузер
-header('Content-type: image/png');
+// Вывод изображения в браузер
+header('Content-type: image/png');
 
 imagepng($image);
 imagedestroy($image);

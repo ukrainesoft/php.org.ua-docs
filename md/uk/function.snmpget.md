@@ -15,7 +15,7 @@ snmpget — Отримує об'єкт SNMP
 ### Опис
 
 ```methodsynopsis
-snmpget(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmpget(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
 Функція **snmpget()** використовується для читання значення об'єкта SNMP, вказаного в `object_id`
@@ -52,7 +52,7 @@ Read-спільнота.
 
 ```php
 <?php
-$syscontact = snmpget("127.0.0.1", "public", "system.SysContact.0");
+$syscontact = snmpget("127.0.0.1", "public", "system.SysContact.0");
 ?>
 ```
 

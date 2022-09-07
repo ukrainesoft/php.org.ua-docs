@@ -40,30 +40,30 @@ public ImagickDraw::setStrokeColor(ImagickPixel $stroke_pixel): bool
 
 ```php
 <?php
-function setStrokeColor($strokeColor, $fillColor, $backgroundColor) {
+function setStrokeColor($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
 
-    $draw->setStrokeWidth(5);
+    $draw->setStrokeWidth(5);
 
-    $draw->line(100, 100, 400, 145);
-    $draw->rectangle(100, 200, 225, 350);
+    $draw->line(100, 100, 400, 145);
+    $draw->rectangle(100, 200, 225, 350);
 
-    $draw->setStrokeOpacity(0.1);
-    $draw->line(100, 120, 400, 165);
-    $draw->rectangle(275, 200, 400, 350);
+    $draw->setStrokeOpacity(0.1);
+    $draw->line(100, 120, 400, 165);
+    $draw->rectangle(275, 200, 400, 350);
 
-    $image = new \Imagick();
-    $image->newImage(500, 400, $backgroundColor);
-    $image->setImageFormat("png");
+    $image = new \Imagick();
+    $image->newImage(500, 400, $backgroundColor);
+    $image->setImageFormat("png");
 
-    $image->drawImage($draw);
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

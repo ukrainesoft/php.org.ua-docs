@@ -69,20 +69,20 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    // Замените это
-    function my_error_handler($err_no, $err_msg, $filename, $linenum) {
-        if (error_reporting() == 0) {
-            return false;
-        }
-        // ...
+    // Замените это
+    function my_error_handler($err_no, $err_msg, $filename, $linenum) {
+        if (error_reporting() == 0) {
+            return false;
+        }
+        // ...
     }
     
-    // На это
-    function my_error_handler($err_no, $err_msg, $filename, $linenum) {
-        if (!(error_reporting() & $err_no)) {
-            return false;
-        }
-        // ...
+    // На это
+    function my_error_handler($err_no, $err_msg, $filename, $linenum) {
+        if (!(error_reporting() & $err_no)) {
+            return false;
+        }
+        // ...
     }
     ?>
     ```
@@ -97,11 +97,11 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    echo "Сумма: " . $a + $b;
-    // ранее интерпретировалось как:
-    echo ("Сумма: " . $a) + $b;
-    // сейчас интерпретируется как:
-    echo "Сумма:" . ($a + $b);
+    echo "Сумма: " . $a + $b;
+    // ранее интерпретировалось как:
+    echo ("Сумма: " . $a) + $b;
+    // сейчас интерпретируется как:
+    echo "Сумма:" . ($a + $b);
     ?>
     ```
     
@@ -109,12 +109,12 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    // Замените этот код:
-    function test(int $arg = CONST_RESOLVING_TO_NULL) {}
-    // На этот:
-    function test(?int $arg = CONST_RESOLVING_TO_NULL) {}
-    // На этот (альтернативный вариант):
-    function test(int $arg = null) {}
+    // Замените этот код:
+    function test(int $arg = CONST_RESOLVING_TO_NULL) {}
+    // На этот:
+    function test(?int $arg = CONST_RESOLVING_TO_NULL) {}
+    // На этот (альтернативный вариант):
+    function test(int $arg = null) {}
     ?>
     ```
     
@@ -153,12 +153,12 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    new class extends ParentClass {};
-    // -> ParentClass@anonymous
-    new class implements FirstInterface, SecondInterface {};
-    // -> FirstInterface@anonymous
-    new class {};
-    // -> class@anonymous
+    new class extends ParentClass {};
+    // -> ParentClass@anonymous
+    new class implements FirstInterface, SecondInterface {};
+    // -> FirstInterface@anonymous
+    new class {};
+    // -> class@anonymous
     ?>
     ```
     
@@ -168,11 +168,11 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    class X {
-        use T1, T2 {
-            func as otherFunc;
-        }
-        function func() {}
+    class X {
+        use T1, T2 {
+            func as otherFunc;
+        }
+        function func() {}
     }
     ?>
     ```
@@ -183,15 +183,15 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    trait MyTrait {
-        abstract private function neededByTrait(): string;
+    trait MyTrait {
+        abstract private function neededByTrait(): string;
     }
     
-    class MyClass {
-        use MyTrait;
+    class MyClass {
+        use MyTrait;
     
-        // Ошибка из-за несоответствия типа возвращаемого значения.
-        private function neededByTrait(): int { return 42; }
+        // Ошибка из-за несоответствия типа возвращаемого значения.
+        private function neededByTrait(): int { return 42; }
     }
     ?>
     ```
@@ -206,9 +206,9 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    setlocale(LC_ALL, "de_DE");
-    // Ранее:  3,14
-    // Теперь: 3.14
+    setlocale(LC_ALL, "de_DE");
+    // Ранее:  3,14
+    // Теперь: 3.14
     ?>
     ```
     
@@ -218,10 +218,10 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    // Вместо:
+    // Вместо:
     $array{0};
     $array{"key"};
-    // Используйте:
+    // Используйте:
     $array[0];
     $array["key"];
     ?>
@@ -610,8 +610,8 @@ title: 'Зміни, що ламають зворотну сумісність'
     
     ```php
     <?php
-    $ctx = stream_context_create(['http' => ['protocol_version' => '1.0']]);
-    echo file_get_contents('http://example.org', false, $ctx);
+    $ctx = stream_context_create(['http' => ['protocol_version' => '1.0']]);
+    echo file_get_contents('http://example.org', false, $ctx);
     ?>
     ```
     

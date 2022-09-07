@@ -44,7 +44,7 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-$set = new \Ds\Set([4, 5, 1, 3, 2]);
+$set = new \Ds\Set([4, 5, 1, 3, 2]);
 
 print_r($set->sorted());
 ?>
@@ -67,10 +67,10 @@ Ds\Set Object
 
 ```php
 <?php
-$set = new \Ds\Set([4, 5, 1, 3, 2]);
+$set = new \Ds\Set([4, 5, 1, 3, 2]);
 
-$sorted = $set->sorted(function($a, $b) {
-    return $b <=> $a;
+$sorted = $set->sorted(function($a, $b) {
+    return $b <=> $a;
 });
 
 print_r($sorted);

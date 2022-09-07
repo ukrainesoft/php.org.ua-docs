@@ -40,24 +40,24 @@ public ImagickDraw::setTextDecoration(int $decoration): bool
 
 ```php
 <?php
-function setTextDecoration($strokeColor, $fillColor, $backgroundColor, $textDecoration) {
+function setTextDecoration($strokeColor, $fillColor, $backgroundColor, $textDecoration) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
-    $draw->setTextDecoration($textDecoration);
-    $draw->annotation(50, 75, "Lorem Ipsum!");
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
+    $draw->setTextDecoration($textDecoration);
+    $draw->annotation(50, 75, "Lorem Ipsum!");
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 200, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 200, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

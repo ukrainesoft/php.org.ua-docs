@@ -35,10 +35,10 @@ public ReflectionIntersectionType::getTypes(): array
 ```php
 <?php
 
-function someFunction(Iterator&Countable $value) {}
+function someFunction(Iterator&Countable $value) {}
 
-$reflectionFunc = new ReflectionFunction('someFunction');
-$reflectionParam = $reflectionFunc->getParameters()[0];
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParam = $reflectionFunc->getParameters()[0];
 
 var_dump($reflectionParam->getType()->getTypes());
 ?>

@@ -36,11 +36,11 @@ public Imagick::thresholdImage(float $threshold, int $channel = Imagick::CHANNEL
 
 ```php
 <?php
-function thresholdimage($imagePath, $threshold, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->thresholdimage($threshold * \Imagick::getQuantum(), $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function thresholdimage($imagePath, $threshold, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->thresholdimage($threshold * \Imagick::getQuantum(), $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -27,7 +27,7 @@ array `$headers`
 Процедурний стиль:
 
 ```methodsynopsis
-stomp_connect(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?): resource
+stomp_connect(    string $broker = ini_get("stomp.default_broker_uri"),    string $username = ?,    string $password = ?,    array $headers = ?): resource
 ```
 
 Відкриває з'єднання до Stomp-сумісного брокера повідомлень (Message Broker).
@@ -69,14 +69,14 @@ URI брокера
 ```php
 <?php
 
-/* подключение */
-try {
-    $stomp = new Stomp('tcp://localhost:61613');
-} catch(StompException $e) {
-    die('Ошибка соединения: ' . $e->getMessage());
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
 }
 
-/* закрытие соединения */
+/* закрытие соединения */
 unset($stomp);
 
 ?>
@@ -87,15 +87,15 @@ unset($stomp);
 ```php
 <?php
 
-/* подключение */
-$link = stomp_connect('ssl://localhost:61612');
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
 
-/* проверка соединения */
-if (!$link) {
-    die('Ошибка соединения: ' . stomp_connect_error());
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
 }
 
-/* Закрытие соединения */
+/* Закрытие соединения */
 stomp_close($link);
 
 ?>

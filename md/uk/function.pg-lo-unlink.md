@@ -56,12 +56,12 @@ OID великий об'єкт у базі даних.
 
 ```php
 <?php
-   // OID удаляемого объекта
-   $doc_oid = 189762345;
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   pg_lo_unlink($database, $doc_oid);
-   pg_query($database, "commit");
+   // OID удаляемого объекта
+   $doc_oid = 189762345;
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   pg_lo_unlink($database, $doc_oid);
+   pg_query($database, "commit");
 ?>
 ```
 

@@ -66,21 +66,21 @@ pg_query(PgSql\Connection $connection = ?, string $query): PgSql\Result|false
 ```php
 <?php
 
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-$result = pg_query($conn, "SELECT author, email FROM authors");
-if (!$result) {
-  echo "Произошла ошибка.\n";
-  exit;
+$result = pg_query($conn, "SELECT author, email FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-while ($row = pg_fetch_row($result)) {
-  echo "Автор: $row[0]  E-mail: $row[1]";
-  echo "<br />\n";
+while ($row = pg_fetch_row($result)) {
+  echo "Автор: $row[0]  E-mail: $row[1]";
+  echo "<br />\n";
 }
 
 ?>
@@ -91,15 +91,15 @@ while ($row = pg_fetch_row($result)) {
 ```php
 <?php
 
-$conn = pg_pconnect("dbname=publisher");
+$conn = pg_pconnect("dbname=publisher");
 
-// эти выражения будут исполнены в одной транзакции
+// эти выражения будут исполнены в одной транзакции
 
-$query = "UPDATE authors SET author=UPPER(author) WHERE id=1;";
-$query .= "UPDATE authors SET author=LOWER(author) WHERE id=2;";
-$query .= "UPDATE authors SET author=NULL WHERE id=3;";
+$query = "UPDATE authors SET author=UPPER(author) WHERE id=1;";
+$query .= "UPDATE authors SET author=LOWER(author) WHERE id=2;";
+$query .= "UPDATE authors SET author=NULL WHERE id=3;";
 
-pg_query($conn, $query);
+pg_query($conn, $query);
 
 ?>
 ```

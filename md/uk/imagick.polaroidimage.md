@@ -42,15 +42,15 @@ public Imagick::polaroidImage(ImagickDraw $properties, float $angle): bool
 
 ```php
 <?php
-/* Создание объекта */
-$image = new Imagick('source.png');
+/* Создание объекта */
+$image = new Imagick('source.png');
 
-/* Установка непрозрачности */
-$image->polaroidImage(new ImagickDraw(), 25);
+/* Установка непрозрачности */
+$image->polaroidImage(new ImagickDraw(), 25);
 
-/* Вывод изображения */
-header('Content-type: image/png');
-echo $image;
+/* Вывод изображения */
+header('Content-type: image/png');
+echo $image;
 
 ?>
 ```

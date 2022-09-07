@@ -55,16 +55,16 @@ stomp_set_read_timeout(resource $link, int $seconds, int $microseconds = ?): voi
 ```php
 <?php
 
-/* подключение */
-try {
-    $stomp = new Stomp('tcp://localhost:61613');
-} catch(StompException $e) {
-    die('Ошибка соединения: ' . $e->getMessage());
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
 }
 
 $stomp->setReadTimeout(10);
 
-/* закрытие подключения */
+/* закрытие подключения */
 unset($stomp);
 
 ?>
@@ -75,17 +75,17 @@ unset($stomp);
 ```php
 <?php
 
-/* подключение */
-$link = stomp_connect('ssl://localhost:61612');
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
 
-/* проверка соединения */
-if (!$link) {
-    die('Ошибка подключения: ' . stomp_connect_error());
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка подключения: ' . stomp_connect_error());
 }
 
-stomp_set_read_timeout($link, 10);
+stomp_set_read_timeout($link, 10);
 
-/* закрытие подключения */
+/* закрытие подключения */
 stomp_close($link);
 
 ?>

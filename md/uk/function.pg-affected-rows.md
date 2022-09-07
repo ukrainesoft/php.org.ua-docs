@@ -48,11 +48,11 @@ pg_affected_rows(PgSql\Result $result): int
 
 ```php
 <?php
-$result = pg_query($conn, "INSERT INTO authors VALUES ('Orwell', 2002, 'Animal Farm')");
+$result = pg_query($conn, "INSERT INTO authors VALUES ('Orwell', 2002, 'Animal Farm')");
 
-$cmdtuples = pg_affected_rows($result);
+$cmdtuples = pg_affected_rows($result);
 
-echo $cmdtuples . " кортежей затронуто.\n";
+echo $cmdtuples . " кортежей затронуто.\n";
 ?>
 ```
 

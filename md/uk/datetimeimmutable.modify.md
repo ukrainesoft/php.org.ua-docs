@@ -38,9 +38,9 @@ public DateTimeImmutable::modify(string $modifier): DateTimeImmutable|false
 
 ```php
 <?php
-$date = new DateTimeImmutable('2006-12-12');
-$newDate = $date->modify('+1 day');
-echo $newDate->format('Y-m-d');
+$date = new DateTimeImmutable('2006-12-12');
+$newDate = $date->modify('+1 day');
+echo $newDate->format('Y-m-d');
 ?>
 ```
 
@@ -54,13 +54,13 @@ echo $newDate->format('Y-m-d');
 
 ```php
 <?php
-$date = new DateTimeImmutable('2000-12-31');
+$date = new DateTimeImmutable('2000-12-31');
 
-$newDate1 = $date->modify('+1 month');
-echo $newDate1->format('Y-m-d') . "\n";
+$newDate1 = $date->modify('+1 month');
+echo $newDate1->format('Y-m-d') . "\n";
 
-$newDate2 = $newDate1->modify('+1 month');
-echo $newDate2->format('Y-m-d') . "\n";
+$newDate2 = $newDate1->modify('+1 month');
+echo $newDate2->format('Y-m-d') . "\n";
 ?>
 ```
 

@@ -38,8 +38,8 @@ title: Клас PDOStatement
 
     /* Методы */
     
-   public bindColumn(    string|int $column,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
-public bindParam(    string|int $param,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
+   public bindColumn(    string|int $column,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
+public bindParam(    string|int $param,    mixed &$var,    int $type = PDO::PARAM_STR,    int $maxLength = 0,    mixed $driverOptions = null): bool
 public bindValue(string|int $param, mixed $value, int $type = PDO::PARAM_STR): bool
 public closeCursor(): bool
 public columnCount(): int

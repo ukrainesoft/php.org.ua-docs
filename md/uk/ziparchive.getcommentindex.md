@@ -40,12 +40,12 @@ public ZipArchive::getCommentIndex(int $index, int $flags = 0): string|false
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test1.zip');
-if ($res === TRUE) {
-    var_dump($zip->getCommentIndex(1));
-} else {
-    echo 'Ошибка с кодом:' . $res;
+$zip = new ZipArchive;
+$res = $zip->open('test1.zip');
+if ($res === TRUE) {
+    var_dump($zip->getCommentIndex(1));
+} else {
+    echo 'Ошибка с кодом:' . $res;
 }
 ?>
 ```

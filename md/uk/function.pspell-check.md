@@ -46,12 +46,12 @@ pspell_check(PSpell\Dictionary $dictionary, string $word): bool
 
 ```php
 <?php
-$pspell = pspell_new("en");
+$pspell = pspell_new("en");
 
-if (pspell_check($pspell, "testt")) {
-    echo "Это верное написание";
-} else {
-    echo "К сожалению, неправильное написание";
+if (pspell_check($pspell, "testt")) {
+    echo "Это верное написание";
+} else {
+    echo "К сожалению, неправильное написание";
 }
 ?>
 ```

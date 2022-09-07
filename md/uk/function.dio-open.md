@@ -66,7 +66,7 @@ dio_open(string $filename, int $flags, int $mode = 0): resource
 ```php
 <?php
 
-$fd = dio_open('/dev/ttyS0', O_RDWR | O_NOCTTY | O_NONBLOCK);
+$fd = dio_open('/dev/ttyS0', O_RDWR | O_NOCTTY | O_NONBLOCK);
 
 dio_close($fd);
 ?>

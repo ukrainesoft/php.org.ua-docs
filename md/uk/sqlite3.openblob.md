@@ -15,7 +15,7 @@ SQLite3::openBlob — Відкриває ресурс потоку для чит
 ### Опис
 
 ```methodsynopsis
-public SQLite3::openBlob(    string $table,    string $column,    int $rowid,    string $database = "main",    int $flags = SQLITE3_OPEN_READONLY): resource|false
+public SQLite3::openBlob(    string $table,    string $column,    int $rowid,    string $database = "main",    int $flags = SQLITE3_OPEN_READONLY): resource|false
 ```
 
 Відкриває потоковий ресурс для читання або запису BLOB, який буде обраний:
@@ -62,12 +62,12 @@ SELECT `column` FROM `database``table` WHERE rowid = `rowid`
 
 ```php
 <?php
-$conn = new SQLite3(':memory:');
-$conn->exec('CREATE TABLE test (text text)');
-$conn->exec("INSERT INTO test VALUES ('Lorem ipsum')");
-$stream = $conn->openBlob('test', 'text', 1);
-echo stream_get_contents($stream);
-fclose($stream); // обязательно, иначе на следующей строке произойдёт ошибка
+$conn = new SQLite3(':memory:');
+$conn->exec('CREATE TABLE test (text text)');
+$conn->exec("INSERT INTO test VALUES ('Lorem ipsum')");
+$stream = $conn->openBlob('test', 'text', 1);
+echo stream_get_contents($stream);
+fclose($stream); // обязательно, иначе на следующей строке произойдёт ошибка
 $conn->close();
 ?>
 ```
@@ -82,15 +82,15 @@ Lorem ipsum
 
 ```php
 <?php
-$conn = new SQLite3(':memory:');
-$conn->exec('CREATE TABLE test (text text)');
-$conn->exec("INSERT INTO test VALUES (zeroblob(36))");
-$stream = $conn->openBlob('test', 'text', 1, 'main', SQLITE3_OPEN_READWRITE);
-for ($i = 0; $i < 3; $i++) {
-    fwrite($stream,  "Lorem ipsum\n");
+$conn = new SQLite3(':memory:');
+$conn->exec('CREATE TABLE test (text text)');
+$conn->exec("INSERT INTO test VALUES (zeroblob(36))");
+$stream = $conn->openBlob('test', 'text', 1, 'main', SQLITE3_OPEN_READWRITE);
+for ($i = 0; $i < 3; $i++) {
+    fwrite($stream,  "Lorem ipsum\n");
 }
 fclose($stream);
-echo $conn->querySingle("SELECT text FROM test");
+echo $conn->querySingle("SELECT text FROM test");
 $conn->close();
 ?>
 ```

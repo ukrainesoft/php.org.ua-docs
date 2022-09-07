@@ -15,7 +15,7 @@ opensslpkeyexportтоfile — Записує у файл ключ у форма�
 ### Опис
 
 ```methodsynopsis
-openssl_pkey_export_to_file(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $key,    string $output_filename,    ?string $passphrase = null,    ?array $options = null): bool
+openssl_pkey_export_to_file(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $key,    string $output_filename,    ?string $passphrase = null,    ?array $options = null): bool
 ```
 
 **opensslpkeyexportтоfile()** записує `key` у форматі PEM у файл `output_filename`

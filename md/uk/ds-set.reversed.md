@@ -38,7 +38,7 @@ public Ds\Set::reversed(): Ds\Set
 
 ```php
 <?php
-$set = new \Ds\Set(["a", "b", "c"]);
+$set = new \Ds\Set(["a", "b", "c"]);
 
 print_r($set->reversed());
 print_r($set);

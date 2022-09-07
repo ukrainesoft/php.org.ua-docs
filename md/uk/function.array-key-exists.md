@@ -44,9 +44,9 @@ array_key_exists(string|int $key, array $array): bool
 
 ```php
 <?php
-$search_array = array('first' => 1, 'second' => 4);
-if (array_key_exists('first', $search_array)) {
-    echo "Масив содержит элемент 'first'.";
+$search_array = array('first' => 1, 'second' => 4);
+if (array_key_exists('first', $search_array)) {
+    echo "Масив содержит элемент 'first'.";
 }
 ?>
 ```
@@ -57,13 +57,13 @@ if (array_key_exists('first', $search_array)) {
 
 ```php
 <?php
-$search_array = array('first' => null, 'second' => 4);
+$search_array = array('first' => null, 'second' => 4);
 
-// возвращает false
+// возвращает false
 isset($search_array['first']);
 
-// возвращает true
-array_key_exists('first', $search_array);
+// возвращает true
+array_key_exists('first', $search_array);
 ?>
 ```
 

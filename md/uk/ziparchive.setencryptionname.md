@@ -52,15 +52,15 @@ public ZipArchive::setEncryptionName(string $name, int $method, ?string $passwor
 
 ```php
 <?php
-$zip = new ZipArchive();
-if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
-    $zip->setPassword('secret');
-    $zip->addFile('text.txt');
-    $zip->setEncryptionName('text.txt', ZipArchive::EM_AES_256);
-    $zip->close();
-    echo "готово\n";
-} else {
-    echo "ошибка\n";
+$zip = new ZipArchive();
+if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
+    $zip->setPassword('secret');
+    $zip->addFile('text.txt');
+    $zip->setEncryptionName('text.txt', ZipArchive::EM_AES_256);
+    $zip->close();
+    echo "готово\n";
+} else {
+    echo "ошибка\n";
 }
 ?>
 ```

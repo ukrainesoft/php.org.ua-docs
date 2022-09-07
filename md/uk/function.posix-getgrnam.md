@@ -46,7 +46,7 @@ posix_getgrnam(string $name): array|false
 ```php
 <?php
 
-$groupinfo = posix_getgrnam("toons");
+$groupinfo = posix_getgrnam("toons");
 
 print_r($groupinfo);
 ?>

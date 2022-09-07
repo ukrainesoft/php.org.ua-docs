@@ -16,25 +16,25 @@ Callback-функції як об'єкти першого класу предс�
 
 ```php
 <?php
-class Foo {
-   public function method() {}
-   public static function staticmethod() {}
-   public function __invoke() {}
+class Foo {
+   public function method() {}
+   public static function staticmethod() {}
+   public function __invoke() {}
 }
-$obj = new Foo();
-$classStr = 'Foo';
-$methodStr = 'method';
-$staticmethodStr = 'staticmethod';
-$f1 = strlen(...);
-$f2 = $obj(...);  // вызываемый объект
-$f3 = $obj->method(...);
-$f4 = $obj->$methodStr(...);
-$f5 = Foo::staticmethod(...);
-$f6 = $classStr::$staticmethodStr(...);
-// традиционная callback-функция с использованием строки, Масива
-$f7 = 'strlen'(...);
-$f8 = [$obj, 'method'](...);
-$f9 = [Foo::class, 'staticmethod'](...);
+$obj = new Foo();
+$classStr = 'Foo';
+$methodStr = 'method';
+$staticmethodStr = 'staticmethod';
+$f1 = strlen(...);
+$f2 = $obj(...);  // вызываемый объект
+$f3 = $obj->method(...);
+$f4 = $obj->$methodStr(...);
+$f5 = Foo::staticmethod(...);
+$f6 = $classStr::$staticmethodStr(...);
+// традиционная callback-функция с использованием строки, Масива
+$f7 = 'strlen'(...);
+$f8 = [$obj, 'method'](...);
+$f9 = [Foo::class, 'staticmethod'](...);
 ?>
 ```
 
@@ -48,31 +48,31 @@ $f9 = [Foo::class, 'staticmethod'](...);
 
 ```php
 <?php
-class Foo {
-    public function getPrivateMethod() {
-        return [$this, 'privateMethod'];
-    }
-    private function privateMethod() {
-        echo __METHOD__, "\n";
-    }
+class Foo {
+    public function getPrivateMethod() {
+        return [$this, 'privateMethod'];
+    }
+    private function privateMethod() {
+        echo __METHOD__, "\n";
+    }
 }
-$foo = new Foo;
-$privateMethod = $foo->getPrivateMethod();
+$foo = new Foo;
+$privateMethod = $foo->getPrivateMethod();
 $privateMethod();
-// Fatal error: Call to private method Foo::privateMethod() from global scope
-// Это потому, что вызов выполняется вне Foo, и с этого момента будет проверяться видимость.
-class Foo1 {
-    public function getPrivateMethod() {
-        // Использует область, в которой получена callback-функция.
-        return $this->privateMethod(...); // идентично Closure::fromCallable([$this, 'privateMethod']);
-    }
-    private function privateMethod() {
-        echo __METHOD__, "\n";
-    }
+// Fatal error: Call to private method Foo::privateMethod() from global scope
+// Это потому, что вызов выполняется вне Foo, и с этого момента будет проверяться видимость.
+class Foo1 {
+    public function getPrivateMethod() {
+        // Использует область, в которой получена callback-функция.
+        return $this->privateMethod(...); // идентично Closure::fromCallable([$this, 'privateMethod']);
+    }
+    private function privateMethod() {
+        echo __METHOD__, "\n";
+    }
 }
-$foo1 = new Foo1;
-$privateMethod = $foo1->getPrivateMethod();
-$privateMethod();  // Foo1::privateMethod
+$foo1 = new Foo1;
+$privateMethod = $foo1->getPrivateMethod();
+$privateMethod();  // Foo1::privateMethod
 ?>
 ```
 

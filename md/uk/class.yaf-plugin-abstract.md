@@ -24,54 +24,54 @@ title: Клас YafPluginAbstract
 
 ```php
 <?php
-   /* Класс bootstrap должен быть определён как ./application/Bootstrap.php */
-   class Bootstrap extends Yaf_Bootstrap_Abstract {
-        public function _initPlugin(Yaf_Dispatcher $dispatcher) {
-            /* регистрируем плагин */
-            $dispatcher->registerPlugin(new TestPlugin());
-        }
-   }
+   /* Класс bootstrap должен быть определён как ./application/Bootstrap.php */
+   class Bootstrap extends Yaf_Bootstrap_Abstract {
+        public function _initPlugin(Yaf_Dispatcher $dispatcher) {
+            /* регистрируем плагин */
+            $dispatcher->registerPlugin(new TestPlugin());
+        }
+   }
 
-   /* класс плагина должен лежать в ./application/plugins/ */
-   class TestPlugin extends Yaf_Plugin_Abstract {
-        public function routerStartup(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-            /* перед тем, как приступит к работе маршрутизатор,
-                пользователь может сам поработать с перезаписью URL */
-            var_dump("routerStartup");
-        }
-        public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-            /* Маршрутизатор отработал, следовательно можно перейти к проверке логина */
-            var_dump("routerShutdown");
-        }
-        public function dispatchLoopStartup(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-            var_dump("dispatchLoopStartup");
-        }
-        public function preDispatch(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-            var_dump("preDispatch");
-        }
-        public function postDispatch(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-            var_dump("postDispatch");
-        }
-        public function dispatchLoopShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
-            /* последняя возможность для пользователя что-то сделать */
-            var_dump("dispatchLoopShutdown");
-        }
-   }
+   /* класс плагина должен лежать в ./application/plugins/ */
+   class TestPlugin extends Yaf_Plugin_Abstract {
+        public function routerStartup(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+            /* перед тем, как приступит к работе маршрутизатор,
+                пользователь может сам поработать с перезаписью URL */
+            var_dump("routerStartup");
+        }
+        public function routerShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+            /* Маршрутизатор отработал, следовательно можно перейти к проверке логина */
+            var_dump("routerShutdown");
+        }
+        public function dispatchLoopStartup(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+            var_dump("dispatchLoopStartup");
+        }
+        public function preDispatch(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+            var_dump("preDispatch");
+        }
+        public function postDispatch(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+            var_dump("postDispatch");
+        }
+        public function dispatchLoopShutdown(Yaf_Request_Abstract $request, Yaf_Response_Abstract $response) {
+            /* последняя возможность для пользователя что-то сделать */
+            var_dump("dispatchLoopShutdown");
+        }
+   }
 
-   Class IndexController extends Yaf_Controller_Abstract {
-        public function indexAction() {
-            return FALSE; //предотвращаем рендеринг
-        }
-   }
+   Class IndexController extends Yaf_Controller_Abstract {
+        public function indexAction() {
+            return FALSE; //предотвращаем рендеринг
+        }
+   }
 
-   $config = array(
-       "application" => array(
-           "directory" => dirname(__FILE__) . "/application/",
-       ),
-   );
+   $config = array(
+       "application" => array(
+           "directory" => dirname(__FILE__) . "/application/",
+       ),
+   );
 
-   $app = new Yaf_Application($config);
-   $app->bootstrap()->run();
+   $app = new Yaf_Application($config);
+   $app->bootstrap()->run();
 ?>
 ```
 

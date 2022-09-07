@@ -40,13 +40,13 @@ wincache_unlock(string $key): bool
 
 ```php
 <?php
-$fp = fopen("/tmp/lock.txt", "r+");
-if (wincache_lock(“lock_txt_lock”)) { // получить эксклюзивную блокировку
-    ftruncate($fp, 0); // обрезать файл
-    fwrite($fp, "Напишите что-нибудь здесь\n");
-    wincache_unlock(“lock_txt_lock”); // снять блокировку
-} else {
-    echo "Не удалось получить блокировку!";
+$fp = fopen("/tmp/lock.txt", "r+");
+if (wincache_lock(“lock_txt_lock”)) { // получить эксклюзивную блокировку
+    ftruncate($fp, 0); // обрезать файл
+    fwrite($fp, "Напишите что-нибудь здесь\n");
+    wincache_unlock(“lock_txt_lock”); // снять блокировку
+} else {
+    echo "Не удалось получить блокировку!";
 }
 fclose($fp);
 ?>

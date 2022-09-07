@@ -34,7 +34,7 @@ gc_enabled(): bool
 
 ```php
 <?php
-if(gc_enabled()) gc_collect_cycles();
+if(gc_enabled()) gc_collect_cycles();
 ?>
 ```
 

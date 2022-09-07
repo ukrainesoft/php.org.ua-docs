@@ -55,12 +55,12 @@ public **SQLite3::construct**(string `$filename`, int `$flags` = SQLITE3OPENREAD
 
 ```php
 <?php
-$db = new SQLite3('mysqlitedb.db');
+$db = new SQLite3('mysqlitedb.db');
 
-$db->exec('CREATE TABLE foo (bar TEXT)');
-$db->exec("INSERT INTO foo (bar) VALUES ('This is a test')");
+$db->exec('CREATE TABLE foo (bar TEXT)');
+$db->exec("INSERT INTO foo (bar) VALUES ('This is a test')");
 
-$result = $db->query('SELECT bar FROM foo');
+$result = $db->query('SELECT bar FROM foo');
 var_dump($result->fetchArray());
 ?>
 ```

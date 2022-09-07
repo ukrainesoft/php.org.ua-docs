@@ -15,7 +15,7 @@ ImagickDraw::line — Малює лінію
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::line(    float $sx,    float $sy,    float $ex,    float $ey): bool
+public ImagickDraw::line(    float $sx,    float $sy,    float $ex,    float $ey): bool
 ```
 
 **Увага**
@@ -52,26 +52,26 @@ public ImagickDraw::line(    float $sx,    float $sy,    float $ex,�
 
 ```php
 <?php
-function line($strokeColor, $fillColor, $backgroundColor) {
+function line($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
 
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
 
-    $draw->line(125, 70, 100, 50);
-    $draw->line(350, 170, 100, 150);
+    $draw->line(125, 70, 100, 50);
+    $draw->line(350, 170, 100, 150);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

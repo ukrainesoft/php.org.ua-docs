@@ -45,27 +45,27 @@ error_reporting(?int $error_level = null): int
 ```php
 <?php
 
-// Выключение протоколирования ошибок
+// Выключение протоколирования ошибок
 error_reporting(0);
 
-// Включать в отчёт простые описания ошибок
-error_reporting(E_ERROR | E_WARNING | E_PARSE);
+// Включать в отчёт простые описания ошибок
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
-// Включать в отчёт E_NOTICE сообщения (добавятся сообщения о
-// непроинициализированных переменных или ошибках в именах переменных)
-error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+// Включать в отчёт E_NOTICE сообщения (добавятся сообщения о
+// непроинициализированных переменных или ошибках в именах переменных)
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
-// Добавлять сообщения обо всех ошибках, кроме E_NOTICE
-error_reporting(E_ALL & ~E_NOTICE);
+// Добавлять сообщения обо всех ошибках, кроме E_NOTICE
+error_reporting(E_ALL & ~E_NOTICE);
 
-// Добавлять в отчёт все ошибки PHP
+// Добавлять в отчёт все ошибки PHP
 error_reporting(E_ALL);
 
-// Добавлять в отчёт все ошибки PHP
+// Добавлять в отчёт все ошибки PHP
 error_reporting(-1);
 
-// То же, что и error_reporting(E_ALL);
-ini_set('error_reporting', E_ALL);
+// То же, что и error_reporting(E_ALL);
+ini_set('error_reporting', E_ALL);
 
 ?>
 ```

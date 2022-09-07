@@ -22,32 +22,32 @@ PHP дозволяє оголошувати методи-конструктор�
 
 ```php
 <?php
-class BaseClass {
-   function __construct() {
-       print "Конструктор класса BaseClass\n";
-   }
+class BaseClass {
+   function __construct() {
+       print "Конструктор класса BaseClass\n";
+   }
 }
 
-class SubClass extends BaseClass {
-   function __construct() {
-       parent::__construct();
-       print "Конструктор класса SubClass\n";
-   }
+class SubClass extends BaseClass {
+   function __construct() {
+       parent::__construct();
+       print "Конструктор класса SubClass\n";
+   }
 }
 
-class OtherSubClass extends BaseClass {
-    // наследует конструктор BaseClass
+class OtherSubClass extends BaseClass {
+    // наследует конструктор BaseClass
 }
 
-// Конструктор класса BaseClass
-$obj = new BaseClass();
+// Конструктор класса BaseClass
+$obj = new BaseClass();
 
-// Конструктор класса BaseClass
-// Конструктор класса SubClass
-$obj = new SubClass();
+// Конструктор класса BaseClass
+// Конструктор класса SubClass
+$obj = new SubClass();
 
-// Конструктор класса BaseClass
-$obj = new OtherSubClass();
+// Конструктор класса BaseClass
+$obj = new OtherSubClass();
 ?>
 ```
 
@@ -59,22 +59,22 @@ $obj = new OtherSubClass();
 
 ```php
 <?php
-class Point {
-    protected int $x;
-    protected int $y;
+class Point {
+    protected int $x;
+    protected int $y;
 
-    public function __construct(int $x, int $y = 0) {
-        $this->x = $x;
-        $this->y = $y;
-    }
+    public function __construct(int $x, int $y = 0) {
+        $this->x = $x;
+        $this->y = $y;
+    }
 }
 
-// Передаём оба параметра.
-$p1 = new Point(4, 5);
-// Передаём только обязательные параметры. Для $y используется значеие по умолчанию 0.
-$p2 = new Point(4);
-// Вызываем с именованными параметрами (начиная с PHP 8.0):
-$p3 = new Point(y: 5, x: 4);
+// Передаём оба параметра.
+$p1 = new Point(4, 5);
+// Передаём только обязательные параметры. Для $y используется значеие по умолчанию 0.
+$p2 = new Point(4);
+// Вызываем с именованными параметрами (начиная с PHP 8.0):
+$p3 = new Point(y: 5, x: 4);
 ?>
 ```
 
@@ -96,9 +96,9 @@ $p3 = new Point(y: 5, x: 4);
 
 ```php
 <?php
-class Point {
-    public function __construct(protected int $x, protected int $y = 0) {
-    }
+class Point {
+    public function __construct(protected int $x, protected int $y = 0) {
+    }
 }
 ```
 
@@ -126,25 +126,25 @@ class Point {
 
 ```php
 <?php
-// Всё допустимо:
-static $x = new Foo;
-const C = new Foo;
+// Всё допустимо:
+static $x = new Foo;
+const C = new Foo;
 
-function test($param = new Foo) {}
+function test($param = new Foo) {}
 
-#[AnAttribute(new Foo)]
-class Test {
-    public function __construct(
-        public $prop = new Foo,
-    ) {}
+#[AnAttribute(new Foo)]
+class Test {
+    public function __construct(
+        public $prop = new Foo,
+    ) {}
 }
-// Всё не допустимо (ошибка во времени компиляции):
-function test(
-    $a = new (CLASS_NAME_CONSTANT)(), // динамическое имя класса
-    $b = new class {}, // анонимний класс
-    $c = new A(...[]), // распаковка аргументов
-    $d = new B($abc), // неподдерживаемое постоянное выражение
-) {}
+// Всё не допустимо (ошибка во времени компиляции):
+function test(
+    $a = new (CLASS_NAME_CONSTANT)(), // динамическое имя класса
+    $b = new class {}, // анонимний класс
+    $c = new A(...[]), // распаковка аргументов
+    $d = new B($abc), // неподдерживаемое постоянное выражение
+) {}
 ?>
 ```
 
@@ -156,39 +156,39 @@ PHP підтримує лише один конструктор для клас�
 
 ```php
 <?php
-class Product {
+class Product {
 
-    private ?int $id;
-    private ?string $name;
+    private ?int $id;
+    private ?string $name;
 
-    private function __construct(?int $id = null, ?string $name = null) {
-        $this->id = $id;
-        $this->name = $name;
-    }
+    private function __construct(?int $id = null, ?string $name = null) {
+        $this->id = $id;
+        $this->name = $name;
+    }
 
-    public static function fromBasicData(int $id, string $name): static {
-        $new = new static($id, $name);
-        return $new;
-    }
+    public static function fromBasicData(int $id, string $name): static {
+        $new = new static($id, $name);
+        return $new;
+    }
 
-    public static function fromJson(string $json): static {
-        $data = json_decode($json);
-        return new static($data['id'], $data['name']);
-    }
+    public static function fromJson(string $json): static {
+        $data = json_decode($json);
+        return new static($data['id'], $data['name']);
+    }
 
-    public static function fromXml(string $xml): static {
-        // Пользовательская логика.
-        $data = convert_xml_to_array($xml);
-        $new = new static();
-        $new->id = $data['id'];
-        $new->name = $data['name'];
-        return $new;
-    }
+    public static function fromXml(string $xml): static {
+        // Пользовательская логика.
+        $data = convert_xml_to_array($xml);
+        $new = new static();
+        $new->id = $data['id'];
+        $new->name = $data['name'];
+        return $new;
+    }
 }
 
-$p1 = Product::fromBasicData(5, 'Widget');
-$p2 = Product::fromJson($some_json_string);
-$p3 = Product::fromXml($some_xml_string);
+$p1 = Product::fromBasicData(5, 'Widget');
+$p2 = Product::fromJson($some_json_string);
+$p3 = Product::fromXml($some_xml_string);
 ```
 
 Конструктор можна зробити прихованим або захищеним для запобігання прямому виклику. У такому разі об'єкт класу можна буде створити лише за допомогою статичних методів. Так як це методи того ж класу, вони мають доступ до всіх його прихованих методів, навіть якщо вони належать до різних екземплярів класу. Прихований конструктор є опціональним і може бути присутнім або відсутнім за потребою.
@@ -213,18 +213,18 @@ PHP надає концепцію деструктора, аналогічну �
 
 ```php
 <?php
-class MyDestructableClass
+class MyDestructableClass
 {
-   function __construct() {
-       print "Конструктор\n";
-   }
+   function __construct() {
+       print "Конструктор\n";
+   }
 
-   function __destruct() {
-       print "Уничтожается " . __CLASS__  . "\n";
-   }
+   function __destruct() {
+       print "Уничтожается " . __CLASS__  . "\n";
+   }
 }
 
-$obj = new MyDestructableClass();
+$obj = new MyDestructableClass();
 ```
 
 Як і у випадку з конструкторами, деструктори, оголошені у батьківському класі, не викликатимуться автоматично. Для виклику деструктора батьківського класу потрібно викликати **parent::destruct()** у тілі деструктора дочірнього класу. Подібно до конструкторів, дочірній клас може успадкувати деструктор з батьківського класу, якщо він не визначений у ньому.

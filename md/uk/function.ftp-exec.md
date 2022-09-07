@@ -46,23 +46,23 @@ ftp_exec(FTP\Connection $ftp, string $command): bool
 
 ```php
 <?php
-// инициализация переменных
-$command = 'ls -al >files.txt';
+// инициализация переменных
+$command = 'ls -al >files.txt';
 
-// устанавливаем соединение
-$ftp = ftp_connect($ftp_server);
+// устанавливаем соединение
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// выполняем команду
-if (ftp_exec($ftp, $command)) {
-    echo "Команда $command выполнена успешно\n";
-} else {
-    echo "Не удалось выполнить $command\n";
+// выполняем команду
+if (ftp_exec($ftp, $command)) {
+    echo "Команда $command выполнена успешно\n";
+} else {
+    echo "Не удалось выполнить $command\n";
 }
 
-// закрываем соединение
+// закрываем соединение
 ftp_close($ftp);
 
 ?>

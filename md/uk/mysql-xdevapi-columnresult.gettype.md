@@ -35,7 +35,7 @@ public mysql_xdevapi\ColumnResult::getType(): int
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

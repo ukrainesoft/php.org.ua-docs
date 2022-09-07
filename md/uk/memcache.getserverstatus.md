@@ -45,14 +45,14 @@ Memcache::getServerStatus(string $host, int $port = 11211): int
 ```php
 <?php
 
-/* объектно-ориентированное API */
-$memcache = new Memcache;
-$memcache->addServer('memcache_host', 11211);
-echo $memcache->getServerStatus('memcache_host', 11211);
+/* объектно-ориентированное API */
+$memcache = new Memcache;
+$memcache->addServer('memcache_host', 11211);
+echo $memcache->getServerStatus('memcache_host', 11211);
 
-/* процедурное API */
-$memcache = memcache_connect('memcache_host', 11211);
-echo memcache_get_server_status($memcache, 'memcache_host', 11211);
+/* процедурное API */
+$memcache = memcache_connect('memcache_host', 11211);
+echo memcache_get_server_status($memcache, 'memcache_host', 11211);
 
 ?>
 ```

@@ -34,7 +34,7 @@ abstract public Ds\Collection::clear(): void
 
 ```php
 <?php
-$collection = new \Ds\Vector([1, 2, 3]);
+$collection = new \Ds\Vector([1, 2, 3]);
 print_r($collection);
 
 $collection->clear();

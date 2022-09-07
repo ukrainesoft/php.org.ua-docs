@@ -36,14 +36,14 @@ cubrid_error(resource $connection = ?): string
 
 ```php
 <?php
-$con = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
-$req = cubrid_execute($con, "select id, name from person");
-if ($req) {
-    while (list ($id, $name) = cubrid_fetch($req))
-    echo $id, $name;
-} else {
-    echo "Код ошибки: ", cubrid_errno($con);
-    echo "Текст ошибки: ", cubrid_error($con);
+$con = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
+$req = cubrid_execute($con, "select id, name from person");
+if ($req) {
+    while (list ($id, $name) = cubrid_fetch($req))
+    echo $id, $name;
+} else {
+    echo "Код ошибки: ", cubrid_errno($con);
+    echo "Текст ошибки: ", cubrid_error($con);
 }
 ?>
 ```

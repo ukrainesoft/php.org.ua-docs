@@ -34,12 +34,12 @@ public RecursiveRegexIterator::hasChildren(): bool
 
 ```php
 <?php
-$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));
-$rRegexIterator = new RecursiveRegexIterator($rArrayIterator, '/^test/',
-    RecursiveRegexIterator::ALL_MATCHES);
+$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));
+$rRegexIterator = new RecursiveRegexIterator($rArrayIterator, '/^test/',
+    RecursiveRegexIterator::ALL_MATCHES);
 
-foreach ($rRegexIterator as $value) {
-    var_dump($rRegexIterator->hasChildren());
+foreach ($rRegexIterator as $value) {
+    var_dump($rRegexIterator->hasChildren());
 }
 ?>
 ```

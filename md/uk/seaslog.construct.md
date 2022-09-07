@@ -31,7 +31,7 @@ public **SeasLog::construct**
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

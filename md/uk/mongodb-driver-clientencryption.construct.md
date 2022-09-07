@@ -67,4 +67,4 @@ local: { // 96-байтовий головний ключ, який викори
 ### Дивіться також
 
 -   [MongoDBDriverManager::createClientEncryption()](mongodb-driver-manager.createclientencryption.md) - Створення нового об'єкта ClientEncryption
--   [» Явное (ручное) шифрование уровня полей на стороне клиента](https://www.mongodb.com/docs/manual/core/security-explicit-client-side-encryption/) у посібнику з MongoDB
+-   [» Явное (ручное) шифрование уровня полей на стороне клиента](https://www.mongodb.com/docs/manual/core/security-explicit-client-side-encryption/) у посібнику з MongoDB

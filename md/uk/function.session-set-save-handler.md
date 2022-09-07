@@ -15,7 +15,7 @@ sessionsetsavehandler - Встановлює користувальницькі 
 ### Опис
 
 ```methodsynopsis
-session_set_save_handler(    callable $open,    callable $close,    callable $read,    callable $write,    callable $destroy,    callable $gc,    callable $create_sid = ?,    callable $validate_sid = ?,    callable $update_timestamp = ?): bool
+session_set_save_handler(    callable $open,    callable $close,    callable $read,    callable $write,    callable $destroy,    callable $gc,    callable $create_sid = ?,    callable $validate_sid = ?,    callable $update_timestamp = ?): bool
 ```
 
 Також можна зареєструвати наступний прототип:
@@ -156,16 +156,16 @@ Callback-функція виконується під час сесії . `key` 
 
 ```php
 <?php
-class MySessionHandler implements SessionHandlerInterface
+class MySessionHandler implements SessionHandlerInterface
 {
-    // здесь реализация интерфейса
+    // здесь реализация интерфейса
 }
 
-$handler = new MySessionHandler();
-session_set_save_handler($handler, true);
+$handler = new MySessionHandler();
+session_set_save_handler($handler, true);
 session_start();
 
-// устанавливаем и получаем значения по ключу из $_SESSION
+// устанавливаем и получаем значения по ключу из $_SESSION
 ```
 
 ### Примітки
@@ -186,4 +186,4 @@ session_start();
 -   Директива [session.serializehandler](session.configuration.md#ini.session.serialize-handler)
 -   [registershutdownfunction()](function.register-shutdown-function.md) - Реєструє функцію, яка виконається після завершення роботи скрипту
 -   [sessionregistershutdown()](function.session-register-shutdown.md) - функція завершення сесії
--   Зверніться до [» savehandler.inc](https://github.com/php/php-src/blob/master/ext/session/tests/save_handler.inc) для повного набору рекомендацій щодо реалізації
+-   Зверніться до [» savehandler.inc](https://github.com/php/php-src/blob/master/ext/session/tests/save_handler.inc) для повного набору рекомендацій щодо реалізації

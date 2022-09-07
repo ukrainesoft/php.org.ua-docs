@@ -40,11 +40,11 @@ public QuickHashIntHash::update(int $key, int $value): bool
 
 ```php
 <?php
-$hash = new QuickHashIntHash( 1024 );
+$hash = new QuickHashIntHash( 1024 );
 
-var_dump( $hash->add( 141421, 173205 ) );
-var_dump( $hash->update( 141421, 223606 ) );
-var_dump( $hash->get( 141421 ) );
+var_dump( $hash->add( 141421, 173205 ) );
+var_dump( $hash->update( 141421, 223606 ) );
+var_dump( $hash->get( 141421 ) );
 ?>
 ```
 

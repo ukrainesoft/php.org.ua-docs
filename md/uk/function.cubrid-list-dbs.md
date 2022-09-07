@@ -38,9 +38,9 @@ CUBRID connection.
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-$db_list = cubrid_list_dbs($conn);
+$db_list = cubrid_list_dbs($conn);
 var_dump($db_list);
 
 cubrid_disconnect($conn);

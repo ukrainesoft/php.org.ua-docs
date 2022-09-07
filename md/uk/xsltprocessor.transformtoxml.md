@@ -37,18 +37,18 @@ public XSLTProcessor::transformToXml(object $document): string|null|false
 ```php
 <?php
 
-// Загрузка источника XML
-$xml = new DOMDocument;
+// Загрузка источника XML
+$xml = new DOMDocument;
 $xml->load('collection.xml');
 
-$xsl = new DOMDocument;
+$xsl = new DOMDocument;
 $xsl->load('collection.xsl');
 
-// Настройка преобразования
-$proc = new XSLTProcessor;
-$proc->importStyleSheet($xsl); // добавление стилей xsl
+// Настройка преобразования
+$proc = new XSLTProcessor;
+$proc->importStyleSheet($xsl); // добавление стилей xsl
 
-echo $proc->transformToXML($xml);
+echo $proc->transformToXML($xml);
 
 ?>
 ```

@@ -41,13 +41,13 @@ public Imagick::setImageIterations(int $iterations): bool
 ```php
 <?php
 
-$imagick = new Imagick(realpath("Test.gif"));
+$imagick = new Imagick(realpath("Test.gif"));
 
-$imagick = $imagick->coalesceImages();
+$imagick = $imagick->coalesceImages();
 $imagick->setImageIterations(1);
-$imagick = $imagick->deconstructImages();
+$imagick = $imagick->deconstructImages();
 
-$imagick->writeImages('/path/to/save/OnceOnly.gif', true);
+$imagick->writeImages('/path/to/save/OnceOnly.gif', true);
 
 ?>
 ```

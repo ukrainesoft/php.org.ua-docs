@@ -15,7 +15,7 @@ tradercdleveningdojistar — Вечірня дожі-зірка
 ### Опис
 
 ```methodsynopsis
-trader_cdleveningdojistar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdleveningdojistar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

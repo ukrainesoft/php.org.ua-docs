@@ -42,7 +42,7 @@ GMP число для конвертації.
 
 ```php
 <?php
-$a = gmp_init("0x41682179fbf5");
-printf("Десятичное: %s, 36-ричное: %s", gmp_strval($a), gmp_strval($a,36));
+$a = gmp_init("0x41682179fbf5");
+printf("Десятичное: %s, 36-ричное: %s", gmp_strval($a), gmp_strval($a,36));
 ?>
 ```

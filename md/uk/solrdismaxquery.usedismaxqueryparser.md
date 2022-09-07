@@ -35,9 +35,9 @@ public SolrDisMaxQuery::useDisMaxQueryParser(): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery();
+$dismaxQuery = new SolrDisMaxQuery();
 $dismaxQuery->useDisMaxQueryParser();
-echo $dismaxQuery;
+echo $dismaxQuery;
 ?>
 ```
 

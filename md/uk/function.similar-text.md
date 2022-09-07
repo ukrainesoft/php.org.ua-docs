@@ -52,10 +52,10 @@ similar_text(string $string1, string $string2, float &$percent = null): int
 
 ```php
 <?php
-$sim = similar_text('bafoobar', 'barfoo', $perc);
-echo "сходство: $sim ($perc %)\n";
-$sim = similar_text('barfoo', 'bafoobar', $perc);
-echo "сходство: $sim ($perc %)\n";
+$sim = similar_text('bafoobar', 'barfoo', $perc);
+echo "сходство: $sim ($perc %)\n";
+$sim = similar_text('barfoo', 'bafoobar', $perc);
+echo "сходство: $sim ($perc %)\n";
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

@@ -40,4 +40,4 @@ Seaslog відповідає всім цим вимогам.
 -   Підтримує диференційовані запити за допомогою RequestId
 -   Підтримує налаштування шаблонів журналу
 
-Детальніше у [» документации SeasLog](https://seasx.github.io/SeasLog/) на GitHub.
+Детальніше у [» документации SeasLog](https://seasx.github.io/SeasLog/) на GitHub.

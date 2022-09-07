@@ -40,11 +40,11 @@ public Yaf_View_Simple::assign(string $name, mixed $value = ?): bool
 
 ```php
 <?php
-class IndexController extends Yaf_Controller_Abstract {
-    public function indexAction() {
-        $this->getView()->assign("foo", "bar");
-        $this->_view->assign( array( "key" => "value", "name" => "value"));
-    }
+class IndexController extends Yaf_Controller_Abstract {
+    public function indexAction() {
+        $this->getView()->assign("foo", "bar");
+        $this->_view->assign( array( "key" => "value", "name" => "value"));
+    }
 }
 ?>
 ```
@@ -53,16 +53,16 @@ class IndexController extends Yaf_Controller_Abstract {
 
 ```php
 <html>
- <head>
-  <title><?php echo $foo; ?></title>
- </head>
+ <head>
+  <title><?php echo $foo; ?></title>
+ </head>
 <body>
-  <?php
+  <?php
 
-  foreach ($this->_tpl_vars as $name => $value) {
-    echo $$name; // или echo $this->_tpl_vars[$name];
-  }
-  ?>
+  foreach ($this->_tpl_vars as $name => $value) {
+    echo $$name; // или echo $this->_tpl_vars[$name];
+  }
+  ?>
 </body>
 </html>
 ```

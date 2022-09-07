@@ -15,7 +15,7 @@ snmpv3getnext — Отримує об'єкт SNMP, який слідує за в
 ### Опис
 
 ```methodsynopsis
-snmp3_getnext(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
+snmp3_getnext(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): mixed
 ```
 
 Функція **snmpv3getnext()** використовується для читання значення об'єкта SNMP, який слідує за вказаним `object_id`
@@ -78,7 +78,7 @@ snmp3_getnext(    string $hostname,    string $security_name,    str
 
 ```php
 <?php
-$nameOfSecondInterface = snmp3_getnext('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName.1');
+$nameOfSecondInterface = snmp3_getnext('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName.1');
 ?>
 ```
 

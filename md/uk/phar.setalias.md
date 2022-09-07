@@ -42,11 +42,11 @@ public Phar::setAlias(string $alias): bool
 
 ```php
 <?php
-try {
-    $phar = new Phar('myphar.phar');
-    $phar->setAlias('myp.phar');
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $phar = new Phar('myphar.phar');
+    $phar->setAlias('myp.phar');
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

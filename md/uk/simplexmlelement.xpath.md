@@ -36,32 +36,32 @@ public SimpleXMLElement::xpath(string $expression): array|null|false
 
 ```php
 <?php
-$string = <<<XML
+$string = <<<XML
 <a>
- <b>
-  <c>текст</c>
-  <c>вещь</c>
- </b>
- <d>
-  <c>код</c>
- </d>
+ <b>
+  <c>текст</c>
+  <c>вещь</c>
+ </b>
+ <d>
+  <c>код</c>
+ </d>
 </a>
 XML;
 
-$xml = new SimpleXMLElement($string);
+$xml = new SimpleXMLElement($string);
 
-/* Поиск <a><b><c> */
-$result = $xml->xpath('/a/b/c');
+/* Поиск <a><b><c> */
+$result = $xml->xpath('/a/b/c');
 
-foreach ($result as $node) {
-    echo '/a/b/c: ',$node,"\n";
+foreach ($result as $node) {
+    echo '/a/b/c: ',$node,"\n";
 }
 
-/* Относительные пути также работают... */
-$result = $xml->xpath('b/c');
+/* Относительные пути также работают... */
+$result = $xml->xpath('b/c');
 
-foreach ($result as $node) {
-    echo 'b/c: ',$node,"\n";
+foreach ($result as $node) {
+    echo 'b/c: ',$node,"\n";
 }
 ?>
 ```

@@ -16,47 +16,47 @@ PHP підтримує визначення абстрактних класів 
 
 ```php
 <?php
-abstract class AbstractClass
+abstract class AbstractClass
 {
-    // Данные методы должны быть определены в дочернем классе
-    abstract protected function getValue();
-    abstract protected function prefixValue($prefix);
+    // Данные методы должны быть определены в дочернем классе
+    abstract protected function getValue();
+    abstract protected function prefixValue($prefix);
 
-    // Общий метод
-    public function printOut() {
-        print $this->getValue() . "\n";
-    }
+    // Общий метод
+    public function printOut() {
+        print $this->getValue() . "\n";
+    }
 }
 
-class ConcreteClass1 extends AbstractClass
+class ConcreteClass1 extends AbstractClass
 {
-    protected function getValue() {
-        return "ConcreteClass1";
-    }
+    protected function getValue() {
+        return "ConcreteClass1";
+    }
 
-    public function prefixValue($prefix) {
-        return "{$prefix}ConcreteClass1";
-    }
+    public function prefixValue($prefix) {
+        return "{$prefix}ConcreteClass1";
+    }
 }
 
-class ConcreteClass2 extends AbstractClass
+class ConcreteClass2 extends AbstractClass
 {
-    public function getValue() {
-        return "ConcreteClass2";
-    }
+    public function getValue() {
+        return "ConcreteClass2";
+    }
 
-    public function prefixValue($prefix) {
-        return "{$prefix}ConcreteClass2";
-    }
+    public function prefixValue($prefix) {
+        return "{$prefix}ConcreteClass2";
+    }
 }
 
-$class1 = new ConcreteClass1;
+$class1 = new ConcreteClass1;
 $class1->printOut();
-echo $class1->prefixValue('FOO_') ."\n";
+echo $class1->prefixValue('FOO_') ."\n";
 
-$class2 = new ConcreteClass2;
+$class2 = new ConcreteClass2;
 $class2->printOut();
-echo $class2->prefixValue('FOO_') ."\n";
+echo $class2->prefixValue('FOO_') ."\n";
 ?>
 ```
 
@@ -73,32 +73,32 @@ FOO_ConcreteClass2
 
 ```php
 <?php
-abstract class AbstractClass
+abstract class AbstractClass
 {
-    // Наш абстрактный метод требует только определить необходимые аргументы
-    abstract protected function prefixName($name);
+    // Наш абстрактный метод требует только определить необходимые аргументы
+    abstract protected function prefixName($name);
 
 }
 
-class ConcreteClass extends AbstractClass
+class ConcreteClass extends AbstractClass
 {
 
-    // Наш дочерний класс может определить необязательные аргументы, не указанные в объявлении родительского метода
-    public function prefixName($name, $separator = ".") {
-        if ($name == "Pacman") {
-            $prefix = "Mr";
-        } elseif ($name == "Pacwoman") {
-            $prefix = "Mrs";
-        } else {
-            $prefix = "";
-        }
-        return "{$prefix}{$separator} {$name}";
-    }
+    // Наш дочерний класс может определить необязательные аргументы, не указанные в объявлении родительского метода
+    public function prefixName($name, $separator = ".") {
+        if ($name == "Pacman") {
+            $prefix = "Mr";
+        } elseif ($name == "Pacwoman") {
+            $prefix = "Mrs";
+        } else {
+            $prefix = "";
+        }
+        return "{$prefix}{$separator} {$name}";
+    }
 }
 
-$class = new ConcreteClass;
-echo $class->prefixName("Pacman"), "\n";
-echo $class->prefixName("Pacwoman"), "\n";
+$class = new ConcreteClass;
+echo $class->prefixName("Pacman"), "\n";
+echo $class->prefixName("Pacwoman"), "\n";
 ?>
 ```
 

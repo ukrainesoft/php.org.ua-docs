@@ -44,18 +44,18 @@ public Phar::addFromString(string $localName, string $contents): void
 
 ```php
 <?php
-try {
-    $a = new Phar('/путь/к/phar.phar');
+try {
+    $a = new Phar('/путь/к/phar.phar');
 
-    $a->addFromString('путь/к/file.txt', 'мой простой файл');
-    $b = $a['путь/к/file.txt']->getContent();
+    $a->addFromString('путь/к/file.txt', 'мой простой файл');
+    $b = $a['путь/к/file.txt']->getContent();
 
-    // для добавления содержимого из дескриптора потока для больших файлов используйте offsetSet()
-    $c = fopen('/путь/к/hugefile.bin');
-    $a['largefile.bin'] = $c;
-    fclose($c);
-} catch (Exception $e) {
-    // обработка ошибок
+    // для добавления содержимого из дескриптора потока для больших файлов используйте offsetSet()
+    $c = fopen('/путь/к/hugefile.bin');
+    $a['largefile.bin'] = $c;
+    fclose($c);
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

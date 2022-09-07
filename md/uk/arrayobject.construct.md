@@ -38,11 +38,11 @@ public **ArrayObject::construct**(array | об'єкт `$array` , int `$flags` = 
 
 ```php
 <?php
-$array = array('1' => 'one',
-               '2' => 'two',
-               '3' => 'three');
+$array = array('1' => 'one',
+               '2' => 'two',
+               '3' => 'three');
 
-$arrayobject = new ArrayObject($array);
+$arrayobject = new ArrayObject($array);
 
 var_dump($arrayobject);
 ?>

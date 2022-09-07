@@ -43,15 +43,15 @@ ftp_systype(FTP\Connection $ftp): string|false
 ```php
 <?php
 
-// установка соединения
-$ftp = ftp_connect('ftp.example.com');
-ftp_login($ftp, 'user', 'password');
+// установка соединения
+$ftp = ftp_connect('ftp.example.com');
+ftp_login($ftp, 'user', 'password');
 
-// получение типа системы
-if ($type = ftp_systype($ftp)) {
-    echo "example.com использует $type\n";
-} else {
-    echo "Не удалось определить тип системы";
+// получение типа системы
+if ($type = ftp_systype($ftp)) {
+    echo "example.com использует $type\n";
+} else {
+    echo "Не удалось определить тип системы";
 }
 
 ?>

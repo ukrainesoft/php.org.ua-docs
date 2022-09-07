@@ -41,15 +41,15 @@ public SoapClient::__setSoapHeaders(SoapHeader|array|null $headers = null): bool
 ```php
 <?php
 
-$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
-                                     'uri'      => "http://test-uri/"));
-$header = new SoapHeader('http://soapinterop.org/echoheader/',
-                            'echoMeStringRequest',
-                            'hello world');
+$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
+                                     'uri'      => "http://test-uri/"));
+$header = new SoapHeader('http://soapinterop.org/echoheader/',
+                            'echoMeStringRequest',
+                            'hello world');
 
 $client->__setSoapHeaders($header);
 
-$client->__soapCall("echoVoid", null);
+$client->__soapCall("echoVoid", null);
 ?>
 ```
 
@@ -58,20 +58,20 @@ $client->__soapCall("echoVoid", null);
 ```php
 <?php
 
-$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
-                                     'uri'      => "http://test-uri/"));
-$headers = array();
+$client = new SoapClient(null, array('location' => "http://localhost/soap.php",
+                                     'uri'      => "http://test-uri/"));
+$headers = array();
 
-$headers[] = new SoapHeader('http://soapinterop.org/echoheader/',
-                            'echoMeStringRequest',
-                            'hello world');
+$headers[] = new SoapHeader('http://soapinterop.org/echoheader/',
+                            'echoMeStringRequest',
+                            'hello world');
 
-$headers[] = new SoapHeader('http://soapinterop.org/echoheader/',
-                            'echoMeStringRequest',
-                            'hello world again');
+$headers[] = new SoapHeader('http://soapinterop.org/echoheader/',
+                            'echoMeStringRequest',
+                            'hello world again');
 
 $client->__setSoapHeaders($headers);
 
-$client->__soapCall("echoVoid", null);
+$client->__soapCall("echoVoid", null);
 ?>
 ```

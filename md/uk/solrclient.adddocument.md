@@ -59,25 +59,25 @@ $allowDups = false так само, як і $overwrite = true
 ```php
 <?php
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$doc = new SolrInputDocument();
+$doc = new SolrInputDocument();
 
-$doc->addField('id', 334455);
-$doc->addField('cat', 'Software');
-$doc->addField('cat', 'Lucene');
+$doc->addField('id', 334455);
+$doc->addField('cat', 'Software');
+$doc->addField('cat', 'Lucene');
 
-$updateResponse = $client->addDocument($doc);
+$updateResponse = $client->addDocument($doc);
 
-// вам нужно будет зафиксировать изменения, которые будут записаны, если вы не использовали $commitWithin
+// вам нужно будет зафиксировать изменения, которые будут записаны, если вы не использовали $commitWithin
 $client->commit();
 
 print_r($updateResponse->getResponse());
@@ -104,24 +104,24 @@ SolrObject Object
 ```php
 <?php
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$doc = new SolrInputDocument();
+$doc = new SolrInputDocument();
 
-$doc->addField('id', 334455);
-$doc->addField('cat', 'Software');
-$doc->addField('cat', 'Lucene');
+$doc->addField('id', 334455);
+$doc->addField('cat', 'Software');
+$doc->addField('cat', 'Lucene');
 
-// Нет необходимости вызывать commit(), потому что передаётся $commitWithin, поэтому Solr Server будет автоматически фиксировать в течение 10 секунд
-$updateResponse = $client->addDocument($doc, false, 10000);
+// Нет необходимости вызывать commit(), потому что передаётся $commitWithin, поэтому Solr Server будет автоматически фиксировать в течение 10 секунд
+$updateResponse = $client->addDocument($doc, false, 10000);
 
 print_r($updateResponse->getResponse());
 

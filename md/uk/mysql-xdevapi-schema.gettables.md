@@ -36,19 +36,19 @@ public mysql_xdevapi\Schema::getTables(): array
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
-$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
 
-$session->sql("CREATE TABLE addressbook.cities(name text, population int)")->execute();
-$session->sql("INSERT INTO addressbook.names values ('Portland', 639863), ('Seattle', 704352)")->execute();
+$session->sql("CREATE TABLE addressbook.cities(name text, population int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('Portland', 639863), ('Seattle', 704352)")->execute();
 
-$schema = $session->getSchema("addressbook");
-$tables = $schema->getTables();
+$schema = $session->getSchema("addressbook");
+$tables = $schema->getTables();
 
 var_dump($tables);
 ?>

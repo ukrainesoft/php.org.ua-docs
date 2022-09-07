@@ -38,12 +38,12 @@ public PDOStatement::errorInfo(): array
 
 ```php
 <?php
-/* Спровоцируем ошибку -- таблицы BONES не существует */
-$sth = $dbh->prepare('SELECT skull FROM bones');
+/* Спровоцируем ошибку -- таблицы BONES не существует */
+$sth = $dbh->prepare('SELECT skull FROM bones');
 $sth->execute();
 
-echo "\nPDOStatement::errorInfo():\n";
-$arr = $sth->errorInfo();
+echo "\nPDOStatement::errorInfo():\n";
+$arr = $sth->errorInfo();
 print_r($arr);
 ?>
 ```

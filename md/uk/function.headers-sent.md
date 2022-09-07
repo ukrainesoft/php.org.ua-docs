@@ -43,26 +43,26 @@ headers_sent(string &$filename = null, int &$line = null): bool
 ```php
 <?php
 
-// Если не было отправлено ни одного заголовка, то отправить один
-if (!headers_sent()) {
-    header('Location: http://www.example.com/');
-    exit;
+// Если не было отправлено ни одного заголовка, то отправить один
+if (!headers_sent()) {
+    header('Location: http://www.example.com/');
+    exit;
 }
 
-// Пример использования необязательных параметров file и line.
-// Необходимо отметить, что $filename и $linenum передаются для дальнейшего использования.
-// Не присваивайте им значения заранее.
-if (!headers_sent($filename, $linenum)) {
-    header('Location: http://www.example.com/');
-    exit;
+// Пример использования необязательных параметров file и line.
+// Необходимо отметить, что $filename и $linenum передаются для дальнейшего использования.
+// Не присваивайте им значения заранее.
+if (!headers_sent($filename, $linenum)) {
+    header('Location: http://www.example.com/');
+    exit;
 
-// Скорее всего, ошибка будет происходит здесь.
-} else {
+// Скорее всего, ошибка будет происходит здесь.
+} else {
 
-    echo "Заголовки уже были отправлены в $filename в строке $linenum\n" .
-          "Невозможно перенаправить, пожалуйста, передите по этой <a " .
-          "href=\"http://www.example.com\">ссылке</a>\n";
-    exit;
+    echo "Заголовки уже были отправлены в $filename в строке $linenum\n" .
+          "Невозможно перенаправить, пожалуйста, передите по этой <a " .
+          "href=\"http://www.example.com\">ссылке</a>\n";
+    exit;
 }
 
 ?>

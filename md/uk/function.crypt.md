@@ -75,15 +75,15 @@ crypt(string $string, string $salt): string
 
 ```php
 <?php
-// соль будет сгенерирована автоматически; не рекомендуется
-$hashed_password = crypt('mypassword');
+// соль будет сгенерирована автоматически; не рекомендуется
+$hashed_password = crypt('mypassword');
 
-/* Для проверки пароля в качестве параметра salt следует передавать результат работы
-   crypt() целиком во избежание проблем при использовании различных
-   алгоритмов (как уже было отмечено выше, стандартный DES-алгоритм
-   использует 2-символьную соль, а MD5 - 12-символьную. */
-if (hash_equals($hashed_password, crypt($user_input, $hashed_password))) {
-   echo "Пароль верен!";
+/* Для проверки пароля в качестве параметра salt следует передавать результат работы
+   crypt() целиком во избежание проблем при использовании различных
+   алгоритмов (как уже было отмечено выше, стандартный DES-алгоритм
+   использует 2-символьную соль, а MD5 - 12-символьную. */
+if (hash_equals($hashed_password, crypt($user_input, $hashed_password))) {
+   echo "Пароль верен!";
 }
 ?>
 ```
@@ -92,11 +92,11 @@ if (hash_equals($hashed_password, crypt($user_input, $hashed_password))) {
 
 ```php
 <?php
-// пароль
-$password = 'mypassword';
+// пароль
+$password = 'mypassword';
 
-// получение хеша, соль генерируется автоматически; не рекомендуется
-$hash = crypt($password);
+// получение хеша, соль генерируется автоматически; не рекомендуется
+$hash = crypt($password);
 ?>
 ```
 
@@ -104,27 +104,27 @@ $hash = crypt($password);
 
 ```php
 <?php
-/* Приведённая соль является только примером. Не используйте эту же соль в вашем коде.
-   Вы должны сгенерировать уникальную и правильную соль для каждого пароля.
+/* Приведённая соль является только примером. Не используйте эту же соль в вашем коде.
+   Вы должны сгенерировать уникальную и правильную соль для каждого пароля.
 */
-echo 'Стандартный DES: ',
-    crypt('rasmuslerdorf', 'rl'),
-    "\n";
-echo 'Расширенный DES: ',
-    crypt('rasmuslerdorf', '_J9..rasm'),
-    "\n";
-echo 'MD5:          ',
-    crypt('rasmuslerdorf', '$1$rasmusle$'),
-    "\n";
-echo 'Blowfish:     ',
-    crypt('rasmuslerdorf', '$2a$07$usesomesillystringforsalt$'),
-    "\n";
-echo 'SHA-256:      ',
-    crypt('rasmuslerdorf', '$5$rounds=5000$usesomesillystringforsalt$'),
-    "\n";
-echo 'SHA-512:      ',
-    crypt('rasmuslerdorf', '$6$rounds=5000$usesomesillystringforsalt$'),
-    "\n";
+echo 'Стандартный DES: ',
+    crypt('rasmuslerdorf', 'rl'),
+    "\n";
+echo 'Расширенный DES: ',
+    crypt('rasmuslerdorf', '_J9..rasm'),
+    "\n";
+echo 'MD5:          ',
+    crypt('rasmuslerdorf', '$1$rasmusle$'),
+    "\n";
+echo 'Blowfish:     ',
+    crypt('rasmuslerdorf', '$2a$07$usesomesillystringforsalt$'),
+    "\n";
+echo 'SHA-256:      ',
+    crypt('rasmuslerdorf', '$5$rounds=5000$usesomesillystringforsalt$'),
+    "\n";
+echo 'SHA-512:      ',
+    crypt('rasmuslerdorf', '$6$rounds=5000$usesomesillystringforsalt$'),
+    "\n";
 ?>
 ```
 

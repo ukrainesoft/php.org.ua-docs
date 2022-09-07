@@ -40,12 +40,12 @@ fgetc(resource $stream): string|false
 
 ```php
 <?php
-$fp = fopen('somefile.txt', 'r');
-if (!$fp) {
-    echo 'Ошибка при открытии файла somefile.txt';
+$fp = fopen('somefile.txt', 'r');
+if (!$fp) {
+    echo 'Ошибка при открытии файла somefile.txt';
 }
-while (false !== ($char = fgetc($fp))) {
-    echo "$char\n";
+while (false !== ($char = fgetc($fp))) {
+    echo "$char\n";
 }
 ?>
 ```

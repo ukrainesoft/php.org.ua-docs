@@ -16,14 +16,14 @@ title: Великі об'єкти (LOB)
 
 ```php
 <?php
-$db = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2');
-$stmt = $db->prepare("select contenttype, imagedata from images where id=?");
+$db = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2');
+$stmt = $db->prepare("select contenttype, imagedata from images where id=?");
 $stmt->execute(array($_GET['id']));
-$stmt->bindColumn(1, $type, PDO::PARAM_STR, 256);
-$stmt->bindColumn(2, $lob, PDO::PARAM_LOB);
+$stmt->bindColumn(1, $type, PDO::PARAM_STR, 256);
+$stmt->bindColumn(2, $lob, PDO::PARAM_LOB);
 $stmt->fetch(PDO::FETCH_BOUND);
 
-header("Content-Type: $type");
+header("Content-Type: $type");
 fpassthru($lob);
 ?>
 ```
@@ -34,17 +34,17 @@ fpassthru($lob);
 
 ```php
 <?php
-$db = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2');
-$stmt = $db->prepare("insert into images (id, contenttype, imagedata) values (?, ?, ?)");
-$id = get_new_id(); // какая-то функция для выделения нового ID
+$db = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2');
+$stmt = $db->prepare("insert into images (id, contenttype, imagedata) values (?, ?, ?)");
+$id = get_new_id(); // какая-то функция для выделения нового ID
 
-// предположим, что мы находимся на странице загрузки файлов на удалённый сервер
+// предположим, что мы находимся на странице загрузки файлов на удалённый сервер
 
-$fp = fopen($_FILES['file']['tmp_name'], 'rb');
+$fp = fopen($_FILES['file']['tmp_name'], 'rb');
 
-$stmt->bindParam(1, $id);
-$stmt->bindParam(2, $_FILES['file']['type']);
-$stmt->bindParam(3, $fp, PDO::PARAM_LOB);
+$stmt->bindParam(1, $id);
+$stmt->bindParam(2, $_FILES['file']['type']);
+$stmt->bindParam(3, $fp, PDO::PARAM_LOB);
 
 $db->beginTransaction();
 $stmt->execute();
@@ -58,18 +58,18 @@ $db->commit();
 
 ```php
 <?php
-$db = new PDO('oci:', 'scott', 'tiger');
-$stmt = $db->prepare("insert into images (id, contenttype, imagedata) " .
-"VALUES (?, ?, EMPTY_BLOB()) RETURNING imagedata INTO ?");
-$id = get_new_id(); // какая-то функция для выделения ID
+$db = new PDO('oci:', 'scott', 'tiger');
+$stmt = $db->prepare("insert into images (id, contenttype, imagedata) " .
+"VALUES (?, ?, EMPTY_BLOB()) RETURNING imagedata INTO ?");
+$id = get_new_id(); // какая-то функция для выделения ID
 
-// предположим, что мы находимся на странице загрузки файлов на удалённый сервер
+// предположим, что мы находимся на странице загрузки файлов на удалённый сервер
 
-$fp = fopen($_FILES['file']['tmp_name'], 'rb');
+$fp = fopen($_FILES['file']['tmp_name'], 'rb');
 
-$stmt->bindParam(1, $id);
-$stmt->bindParam(2, $_FILES['file']['type']);
-$stmt->bindParam(3, $fp, PDO::PARAM_LOB);
+$stmt->bindParam(1, $id);
+$stmt->bindParam(2, $_FILES['file']['type']);
+$stmt->bindParam(3, $fp, PDO::PARAM_LOB);
 
 $db->beginTransaction();
 $stmt->execute();

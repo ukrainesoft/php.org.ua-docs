@@ -71,16 +71,16 @@ mysqli_fetch_object(mysqli_result $result, string $class = "stdClass", array $co
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
+$query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
 
-$result = $mysqli->query($query);
+$result = $mysqli->query($query);
 
-/* получение Масива объектов */
-while ($obj = $result->fetch_object()) {
-    printf("%s (%s)\n", $obj->Name, $obj->CountryCode);
+/* получение Масива объектов */
+while ($obj = $result->fetch_object()) {
+    printf("%s (%s)\n", $obj->Name, $obj->CountryCode);
 }
 ```
 
@@ -89,16 +89,16 @@ while ($obj = $result->fetch_object()) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
+$query = "SELECT Name, CountryCode FROM City ORDER BY ID DESC";
 
-$result = mysqli_query($link, $query);
+$result = mysqli_query($link, $query);
 
-/* получение ассоциативного Масива */
-while ($obj = mysqli_fetch_object($result)) {
-    printf("%s (%s)\n", $obj->Name, $obj->CountryCode);
+/* получение ассоциативного Масива */
+while ($obj = mysqli_fetch_object($result)) {
+    printf("%s (%s)\n", $obj->Name, $obj->CountryCode);
 }
 ```
 

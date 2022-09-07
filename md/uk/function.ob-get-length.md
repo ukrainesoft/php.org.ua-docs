@@ -37,17 +37,17 @@ ob_get_length(): int|false
 
 ob_start();
 
-echo "Привет ";
+echo "Привет ";
 
-$len1 = ob_get_length();
+$len1 = ob_get_length();
 
-echo "Мир";
+echo "Мир";
 
-$len2 = ob_get_length();
+$len2 = ob_get_length();
 
 ob_end_clean();
 
-echo $len1 . ", " . $len2;
+echo $len1 . ", " . $len2;
 ?>
 ```
 

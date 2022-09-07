@@ -15,7 +15,7 @@ odbcpconnect — Відкриває постійне з'єднання з баз
 ### Опис
 
 ```methodsynopsis
-odbc_pconnect(    string $dsn,    string $user,    string $password,    int $cursor_option = SQL_CUR_USE_DRIVER): resource|false
+odbc_pconnect(    string $dsn,    string $user,    string $password,    int $cursor_option = SQL_CUR_USE_DRIVER): resource|false
 ```
 
 Відкриває постійне з'єднання з базою даних.

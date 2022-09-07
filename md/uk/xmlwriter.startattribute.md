@@ -56,9 +56,9 @@ xmlwriter_start_attribute(XMLWriter $writer, string $name): bool
 
 ```php
 <?php
-$writer = new XMLWriter;
+$writer = new XMLWriter;
 $writer->openURI('php://output');
-$writer->startDocument('1.0', 'UTF-8');
+$writer->startDocument('1.0', 'UTF-8');
 $writer->startElement('element');
 $writer->startAttribute('attribute');
 $writer->text('value');

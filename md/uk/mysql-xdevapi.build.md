@@ -26,6 +26,6 @@ title: Складання / Компіляція з вихідного коду
     
     Примітка до bison на Windows: ми настійно рекомендуємо, щоб bison, що поставляється з вибраним PHP SDK, використовував ще одну помилку, схожу на "zend"globalsmacros.h(39): error C2375: 'zendparse': redefinition; different linkage Zend/zendlanguageparser.h(214): примітка: note: see declaration of 'zendparse'". Крім того, пакетні сценарії Windows PHP SDK можуть перезаписувати оточення.
     
--   Примітки для Windows: Щоб підготувати оточення, перегляньте офіційну документацію зі збирання Windows для [» поточного SDK](https://wiki.php.net/internals/windows/stepbystepbuild_sdk_2)
+-   Примітки для Windows: Щоб підготувати оточення, перегляньте офіційну документацію зі збирання Windows для [» поточного SDK](https://wiki.php.net/internals/windows/stepbystepbuild_sdk_2)
     
     Ми рекомендуємо використовувати зворотну косу рису '' замість косої межі '/' для всіх шляхів.

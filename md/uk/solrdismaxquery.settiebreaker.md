@@ -37,10 +37,10 @@ public SolrDisMaxQuery::setTieBreaker(string $tieBreaker): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery();
+$dismaxQuery = new SolrDisMaxQuery();
 $dismaxQuery->setTieBreaker(0.1);
 
-echo $dismaxQuery;
+echo $dismaxQuery;
 ?>
 ```
 

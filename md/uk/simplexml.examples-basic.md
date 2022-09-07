@@ -14,32 +14,32 @@ title: Базове використання SimpleXML
 
 ```php
 <?php
-$xmlstr = <<<XML
-<?xml version='1.0' standalone='yes'?>
+$xmlstr = <<<XML
+<?xml version='1.0' standalone='yes'?>
 <movies>
- <movie>
-  <title>PHP: Появление Парсера</title>
-  <characters>
-   <character>
-    <name>Ms. Coder</name>
-    <actor>Onlivia Actora</actor>
-   </character>
-   <character>
-    <name>Mr. Coder</name>
-    <actor>El Act&#211;r</actor>
-   </character>
-  </characters>
-  <plot>
-   Таким образом, это язык. Это всё равно язык программирования. Или
-   это скриптовый язык? Все раскрывается в этом документальном фильме,
-   похожем на фильм ужасов.
-  </plot>
-  <great-lines>
-   <line>PHP решает все мои проблемы в вебе</line>
-  </great-lines>
-  <rating type="thumbs">7</rating>
-  <rating type="stars">5</rating>
- </movie>
+ <movie>
+  <title>PHP: Появление Парсера</title>
+  <characters>
+   <character>
+    <name>Ms. Coder</name>
+    <actor>Onlivia Actora</actor>
+   </character>
+   <character>
+    <name>Mr. Coder</name>
+    <actor>El Act&#211;r</actor>
+   </character>
+  </characters>
+  <plot>
+   Таким образом, это язык. Это всё равно язык программирования. Или
+   это скриптовый язык? Все раскрывается в этом документальном фильме,
+   похожем на фильм ужасов.
+  </plot>
+  <great-lines>
+   <line>PHP решает все мои проблемы в вебе</line>
+  </great-lines>
+  <rating type="thumbs">7</rating>
+  <rating type="stars">5</rating>
+ </movie>
 </movies>
 XML;
 ?>
@@ -51,11 +51,11 @@ SimpleXML користуватися дуже просто! Спробуйте �
 
 ```php
 <?php
-include 'example.php';
+include 'example.php';
 
-$movies = new SimpleXMLElement($xmlstr);
+$movies = new SimpleXMLElement($xmlstr);
 
-echo $movies->movie[0]->plot;
+echo $movies->movie[0]->plot;
 ?>
 ```
 
@@ -73,11 +73,11 @@ echo $movies->movie[0]->plot;
 
 ```php
 <?php
-include 'example.php';
+include 'example.php';
 
-$movies = new SimpleXMLElement($xmlstr);
+$movies = new SimpleXMLElement($xmlstr);
 
-echo $movies->movie->{'great-lines'}->line;
+echo $movies->movie->{'great-lines'}->line;
 ?>
 ```
 
@@ -93,13 +93,13 @@ PHP решает все мои проблемы в вебе
 
 ```php
 <?php
-include 'example.php';
+include 'example.php';
 
-$movies = new SimpleXMLElement($xmlstr);
+$movies = new SimpleXMLElement($xmlstr);
 
-/* Для каждого узла <character>, мы отдельно выведем имя <name>. */
-foreach ($movies->movie->characters->character as $character) {
-   echo $character->name, ' играет ', $character->actor, PHP_EOL;
+/* Для каждого узла <character>, мы отдельно выведем имя <name>. */
+foreach ($movies->movie->characters->character as $character) {
+   echo $character->name, ' играет ', $character->actor, PHP_EOL;
 }
 
 ?>
@@ -122,21 +122,21 @@ Mr. Coder играет El ActÓr
 
 ```php
 <?php
-include 'example.php';
+include 'example.php';
 
-$movies = new SimpleXMLElement($xmlstr);
+$movies = new SimpleXMLElement($xmlstr);
 
-/* Доступ к узлу <rating> первого фильма.
- * Так же выведем шкалу оценок. */
-foreach ($movies->movie[0]->rating as $rating) {
-    switch((string) $rating['type']) { // Получение атрибутов элемента по индексу
-    case 'thumbs':
-        echo $rating, ' thumbs up';
-        break;
-    case 'stars':
-        echo $rating, ' stars';
-        break;
-    }
+/* Доступ к узлу <rating> первого фильма.
+ * Так же выведем шкалу оценок. */
+foreach ($movies->movie[0]->rating as $rating) {
+    switch((string) $rating['type']) { // Получение атрибутов элемента по индексу
+    case 'thumbs':
+        echo $rating, ' thumbs up';
+        break;
+    case 'stars':
+        echo $rating, ' stars';
+        break;
+    }
 }
 ?>
 ```
@@ -153,15 +153,15 @@ foreach ($movies->movie[0]->rating as $rating) {
 
 ```php
 <?php
-include 'example.php';
+include 'example.php';
 
-$movies = new SimpleXMLElement($xmlstr);
+$movies = new SimpleXMLElement($xmlstr);
 
-if ((string) $movies->movie->title == 'PHP: Появление Парсера') {
-    print 'Мой любимый фильм.';
+if ((string) $movies->movie->title == 'PHP: Появление Парсера') {
+    print 'Мой любимый фильм.';
 }
 
-echo htmlentities((string) $movies->movie->title);
+echo htmlentities((string) $movies->movie->title);
 ?>
 ```
 
@@ -177,11 +177,11 @@ echo htmlentities((string) $movies->movie->title);
 
 ```php
 <?php
-include 'example.php';
+include 'example.php';
 
-$movies1 = new SimpleXMLElement($xmlstr);
-$movies2 = new SimpleXMLElement($xmlstr);
-var_dump($movies1 == $movies2); // false
+$movies1 = new SimpleXMLElement($xmlstr);
+$movies2 = new SimpleXMLElement($xmlstr);
+var_dump($movies1 == $movies2); // false
 ?>
 ```
 
@@ -197,12 +197,12 @@ SimpleXML включає вбудовану підтримку XPath. Пошук
 
 ```php
 <?php
-include 'example.php';
+include 'example.php';
 
-$movies = new SimpleXMLElement($xmlstr);
+$movies = new SimpleXMLElement($xmlstr);
 
-foreach ($movies->xpath('//character') as $character) {
-    echo $character->name, ' играет ', $character->actor, PHP_EOL;
+foreach ($movies->xpath('//character') as $character) {
+    echo $character->name, ' играет ', $character->actor, PHP_EOL;
 }
 ?>
 ```
@@ -222,12 +222,12 @@ Mr. Coder играет by El ActÓr
 
 ```php
 <?php
-include 'example.php';
-$movies = new SimpleXMLElement($xmlstr);
+include 'example.php';
+$movies = new SimpleXMLElement($xmlstr);
 
-$movies->movie[0]->characters->character[0]->name = 'Miss Coder';
+$movies->movie[0]->characters->character[0]->name = 'Miss Coder';
 
-echo $movies->asXML();
+echo $movies->asXML();
 ?>
 ```
 
@@ -268,17 +268,17 @@ SimpleXML має можливість легко додавати дочірні
 
 ```php
 <?php
-include 'example.php';
-$movies = new SimpleXMLElement($xmlstr);
+include 'example.php';
+$movies = new SimpleXMLElement($xmlstr);
 
-$character = $movies->movie[0]->characters->addChild('character');
-$character->addChild('name', 'Mr. Parser');
-$character->addChild('actor', 'John Doe');
+$character = $movies->movie[0]->characters->addChild('character');
+$character->addChild('name', 'Mr. Parser');
+$character->addChild('actor', 'John Doe');
 
-$rating = $movies->movie[0]->addChild('rating', 'PG');
-$rating->addAttribute('type', 'mpaa');
+$rating = $movies->movie[0]->addChild('rating', 'PG');
+$rating->addAttribute('type', 'mpaa');
 
-echo $movies->asXML();
+echo $movies->asXML();
 ?>
 ```
 
@@ -319,16 +319,16 @@ PHP може перетворювати XML-вузли з SimpleXML у форм�
 
 ```php
 <?php
-$dom = new DOMDocument;
+$dom = new DOMDocument;
 $dom->loadXML('<books><book><title>чепуха</title></book></books>');
-if (!$dom) {
-    echo 'Ошибка при разборе документа';
-    exit;
+if (!$dom) {
+    echo 'Ошибка при разборе документа';
+    exit;
 }
 
-$books = simplexml_import_dom($dom);
+$books = simplexml_import_dom($dom);
 
-echo $books->book[0]->title;
+echo $books->book[0]->title;
 ?>
 ```
 

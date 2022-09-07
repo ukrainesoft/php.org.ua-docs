@@ -35,40 +35,40 @@ public tidyNode::hasSiblings(): bool
 ```php
 <?php
 
-$html = <<< HTML
+$html = <<< HTML
 <html><head>
-<?php echo '<title>заголовок</title>'; ?>
+<?php echo '<title>заголовок</title>'; ?>
 <#
-  /* JSTE код */
-  alert('Привет Мир');
+  /* JSTE код */
+  alert('Привет Мир');
 #>
 </head>
 <body>
 
 <?php
-  // PHP-код
-  echo 'привет мир!';
+  // PHP-код
+  echo 'привет мир!';
 ?>
 
 <%
-  /* ASP код */
-  response.write("Привет Мир!")
+  /* ASP код */
+  response.write("Привет Мир!")
 %>
 
-<!-- Комментарии -->
-Привет Мир
+<!-- Комментарии -->
+Привет Мир
 </body></html>
-За пределами HTML кода
+За пределами HTML кода
 HTML;
 
 
-$tidy = tidy_parse_string($html);
-$num = 0;
+$tidy = tidy_parse_string($html);
+$num = 0;
 
-// тег html
+// тег html
 var_dump($tidy->html()->hasSiblings());
 
-// тег head
+// тег head
 var_dump($tidy->html()->child[0]->hasSiblings());
 
 ?>

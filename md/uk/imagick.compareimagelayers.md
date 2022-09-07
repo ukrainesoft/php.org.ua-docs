@@ -42,13 +42,13 @@ public Imagick::compareImageLayers(int $method): Imagick
 
 ```php
 <?php
-/* создание новый объект imagick */
-$im = new Imagick("test.gif");
+/* создание новый объект imagick */
+$im = new Imagick("test.gif");
 
-/* оптимизирование слои изображения */
-$result = $im->compareImageLayers(imagick::LAYERMETHOD_COALESCE);
+/* оптимизирование слои изображения */
+$result = $im->compareImageLayers(imagick::LAYERMETHOD_COALESCE);
 
-/* работа с $result */
+/* работа с $result */
 ?>
 ```
 

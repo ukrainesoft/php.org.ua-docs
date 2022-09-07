@@ -42,12 +42,12 @@ openssl_spki_export(string $spki): string|false
 
 ```php
 <?php
-$pkey = openssl_pkey_new('secret password');
-$spkac = openssl_spki_new($pkey, 'challenge string');
-$pubKey = openssl_spki_export(preg_replace('/SPKAC=/', '', $spkac));
+$pkey = openssl_pkey_new('secret password');
+$spkac = openssl_spki_new($pkey, 'challenge string');
+$pubKey = openssl_spki_export(preg_replace('/SPKAC=/', '', $spkac));
 
-if ($pubKey) {
-    echo $pubKey;
+if ($pubKey) {
+    echo $pubKey;
 }
 ?>
 ```
@@ -58,14 +58,14 @@ if ($pubKey) {
 
 ```php
 <?php
-$spkac = openssl_spki_export(preg_replace('/SPKAC=/', '', $_POST['spkac']));
-if ($spkac != NULL) {
-    echo $spkac;
-} else {
-    echo "Не удалось извлечь открытый ключ";
+$spkac = openssl_spki_export(preg_replace('/SPKAC=/', '', $_POST['spkac']));
+if ($spkac != NULL) {
+    echo $spkac;
+} else {
+    echo "Не удалось извлечь открытый ключ";
 }
 ?>
-<keygen name="spkac" challenge="challenge string" keytype="RSA">
+<keygen name="spkac" challenge="challenge string" keytype="RSA">
 ```
 
 ### Дивіться також

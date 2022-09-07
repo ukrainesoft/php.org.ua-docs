@@ -16,9 +16,9 @@ title: Нові можливості
 
 ```php
 <?php
-class User {
-    public int $id;
-    public string $name;
+class User {
+    public int $id;
+    public string $name;
 }
 ?>
 ```
@@ -31,9 +31,9 @@ class User {
 
 ```php
 <?php
-$factor = 10;
-$nums = array_map(fn($n) => $n * $factor, [1, 2, 3, 4]);
-// $nums = array(10, 20, 30, 40);
+$factor = 10;
+$nums = array_map(fn($n) => $n * $factor, [1, 2, 3, 4]);
+// $nums = array(10, 20, 30, 40);
 ?>
 ```
 
@@ -43,14 +43,14 @@ $nums = array_map(fn($n) => $n * $factor, [1, 2, 3, 4]);
 
 ```php
 <?php
-class A {}
-class B extends A {}
+class A {}
+class B extends A {}
 
-class Producer {
-    public function method(): A {}
+class Producer {
+    public function method(): A {}
 }
-class ChildProducer extends Producer {
-    public function method(): B {}
+class ChildProducer extends Producer {
+    public function method(): B {}
 }
 ?>
 ```
@@ -61,10 +61,10 @@ class ChildProducer extends Producer {
 
 ```php
 <?php
-$array['key'] ??= computeDefault();
-// примерно то же самое
-if (!isset($array['key'])) {
-    $array['key'] = computeDefault();
+$array['key'] ??= computeDefault();
+// примерно то же самое
+if (!isset($array['key'])) {
+    $array['key'] = computeDefault();
 }
 ?>
 ```
@@ -73,9 +73,9 @@ if (!isset($array['key'])) {
 
 ```php
 <?php
-$parts = ['apple', 'pear'];
-$fruits = ['banana', 'orange', ...$parts, 'watermelon'];
-// ['banana', 'orange', 'apple', 'pear', 'watermelon'];
+$parts = ['apple', 'pear'];
+$fruits = ['banana', 'orange', ...$parts, 'watermelon'];
+// ['banana', 'orange', 'apple', 'pear', 'watermelon'];
 ?>
 ```
 
@@ -85,10 +85,10 @@ $fruits = ['banana', 'orange', ...$parts, 'watermelon'];
 
 ```php
 <?php
-6.674_083e-11; // число с плавающей точкой
-299_792_458;   // десятичное число
-0xCAFE_F00D;   // шестнадцатеричное число
-0b0101_1111;   // двоичное число
+6.674_083e-11; // число с плавающей точкой
+299_792_458;   // десятичное число
+0xCAFE_F00D;   // шестнадцатеричное число
+0b0101_1111;   // двоичное число
 ?>
 ```
 
@@ -166,11 +166,11 @@ FFI - новий модуль, який пропонує простий спос
 
 ```php
 <?php
-// Возвращает Масив, содержащий все необходимое состояние объекта.
-public function __serialize(): array;
+// Возвращает Масив, содержащий все необходимое состояние объекта.
+public function __serialize(): array;
 
-// Восстанавливает состояние объекта из указанного Масива данных.
-public function __unserialize(array $data): void;
+// Восстанавливает состояние объекта из указанного Масива данных.
+public function __unserialize(array $data): void;
 ?>
 ```
 
@@ -186,7 +186,7 @@ public function __unserialize(array $data): void;
 
 ```php
 <?php
-proc_open(['php', '-r', 'echo "Привет, мир\n";'], $descriptors, $pipes);
+proc_open(['php', '-r', 'echo "Привет, мир\n";'], $descriptors, $pipes);
 ?>
 ```
 
@@ -194,10 +194,10 @@ proc_open(['php', '-r', 'echo "Привет, мир\n";'], $descriptors, $
 
 ```php
 <?php
-// То же самое, что и 2>&1 в командной оболочке
-proc_open($cmd, [1 => ['pipe', 'w'], 2 => ['redirect', 1]], $pipes);
-// То же самое, что и 2>/dev/null или 2>nul в командной оболочке
-proc_open($cmd, [1 => ['pipe', 'w'], 2 => ['null']], $pipes);
+// То же самое, что и 2>&1 в командной оболочке
+proc_open($cmd, [1 => ['pipe', 'w'], 2 => ['redirect', 1]], $pipes);
+// То же самое, что и 2>/dev/null или 2>nul в командной оболочке
+proc_open($cmd, [1 => ['pipe', 'w'], 2 => ['null']], $pipes);
 ?>
 ```
 

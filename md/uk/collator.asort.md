@@ -65,17 +65,17 @@ collator_asort(Collator $object, array &$array, int $flags = Collator::SORT_REGU
 
 ```php
 <?php
-$coll = collator_create( 'en_US' );
-$arr = array(
-     'a' => '100',
-     'b' => '50',
-     'c' => '7'
+$coll = collator_create( 'en_US' );
+$arr = array(
+     'a' => '100',
+     'b' => '50',
+     'c' => '7'
 );
-collator_asort( $coll, $arr, Collator::SORT_NUMERIC );
-var_export( $arr );
+collator_asort( $coll, $arr, Collator::SORT_NUMERIC );
+var_export( $arr );
 
-collator_asort( $coll, $arr, Collator::SORT_STRING );
-var_export( $arr );
+collator_asort( $coll, $arr, Collator::SORT_STRING );
+var_export( $arr );
 ?>
 ```
 

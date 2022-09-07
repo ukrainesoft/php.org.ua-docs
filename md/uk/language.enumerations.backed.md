@@ -15,12 +15,12 @@ title: Типізовані перерахування
 ```php
 <?php
 
-enum Suit: string
+enum Suit: string
 {
-    case Hearts = 'H';
-    case Diamonds = 'D';
-    case Clubs = 'C';
-    case Spades = 'S';
+    case Hearts = 'H';
+    case Diamonds = 'D';
+    case Clubs = 'C';
+    case Spades = 'S';
 }
 ?>
 ```
@@ -35,8 +35,8 @@ enum Suit: string
 
 ```php
 <?php
-print Suit::Clubs->value;
-// Выведет "C"
+print Suit::Clubs->value;
+// Выведет "C"
 ?>
 ```
 
@@ -44,9 +44,9 @@ print Suit::Clubs->value;
 
 ```php
 <?php
-$suit = Suit::Clubs;
-$ref = &$suit->value;
-// Error: Cannot acquire reference to property Suit::$value
+$suit = Suit::Clubs;
+$ref = &$suit->value;
+// Error: Cannot acquire reference to property Suit::$value
 ?>
 ```
 
@@ -59,18 +59,18 @@ $ref = &$suit->value;
 
 ```php
 <?php
-$record = get_stuff_from_database($id);
-print $record['suit'];
+$record = get_stuff_from_database($id);
+print $record['suit'];
 
-$suit =  Suit::from($record['suit']);
+$suit =  Suit::from($record['suit']);
 
-// Недопустимые данные выдают ошибку ValueError: "X" не является допустимым скалярным значением для перечисления "Suit"
-print $suit->value;
+// Недопустимые данные выдают ошибку ValueError: "X" не является допустимым скалярным значением для перечисления "Suit"
+print $suit->value;
 
-$suit = Suit::tryFrom('A') ?? Suit::Spades;
+$suit = Suit::tryFrom('A') ?? Suit::Spades;
 
-// Недопустимые данные возвращают значение null, поэтому вместо этого используется Suit::Spades.
-print $suit->value;
+// Недопустимые данные возвращают значение null, поэтому вместо этого используется Suit::Spades.
+print $suit->value;
 ?>
 ```
 

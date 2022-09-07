@@ -40,11 +40,11 @@ public Imagick::setImageCompressionQuality(int $quality): bool
 
 ```php
 <?php
-function setImageCompressionQuality($imagePath, $quality) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->setImageCompressionQuality($quality);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function setImageCompressionQuality($imagePath, $quality) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setImageCompressionQuality($quality);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

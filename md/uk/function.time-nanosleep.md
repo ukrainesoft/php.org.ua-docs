@@ -47,28 +47,28 @@ time_nanosleep(int $seconds, int $nanoseconds): array|bool
 
 ```php
 <?php
-// Внимание! Если будет возвращён Масив, то такая функция не сработает, как ожидалось
-if (time_nanosleep(0, 500000000)) {
-    echo "Задержка на полсекунды.\n";
+// Внимание! Если будет возвращён Масив, то такая функция не сработает, как ожидалось
+if (time_nanosleep(0, 500000000)) {
+    echo "Задержка на полсекунды.\n";
 }
 
-// Так лучше:
-if (time_nanosleep(0, 500000000) === true) {
-    echo "Задержка на полсекунды.\n";
+// Так лучше:
+if (time_nanosleep(0, 500000000) === true) {
+    echo "Задержка на полсекунды.\n";
 }
 
-// А так лучше всего:
-$nano = time_nanosleep(2, 100000);
+// А так лучше всего:
+$nano = time_nanosleep(2, 100000);
 
-if ($nano === true) {
-    echo "Задержка на 2 секунды, 100 микросекунд.\n";
-} elseif ($nano === false) {
-    echo "Задержка не удалась.\n";
-} elseif (is_array($nano)) {
-    $seconds = $nano['seconds'];
-    $nanoseconds = $nano['nanoseconds'];
-    echo "Прервано сигналом.\n";
-    echo "Осталось: $seconds секунд, $nanoseconds наносекунд.";
+if ($nano === true) {
+    echo "Задержка на 2 секунды, 100 микросекунд.\n";
+} elseif ($nano === false) {
+    echo "Задержка не удалась.\n";
+} elseif (is_array($nano)) {
+    $seconds = $nano['seconds'];
+    $nanoseconds = $nano['nanoseconds'];
+    echo "Прервано сигналом.\n";
+    echo "Осталось: $seconds секунд, $nanoseconds наносекунд.";
 }
 ?>
 ```

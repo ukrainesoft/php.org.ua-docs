@@ -44,27 +44,27 @@ public ImagickDraw::translate(float $x, float $y): bool
 
 ```php
 <?php
-function translate($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor,
-                   $startX, $startY, $endX, $endY, $translateX, $translateY) {
+function translate($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor,
+                   $startX, $startY, $endX, $endY, $translateX, $translateY) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->rectangle($startX, $startY, $endX, $endY);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->rectangle($startX, $startY, $endX, $endY);
 
-    $draw->setFillColor($fillModifiedColor);
-    $draw->translate($translateX, $translateY);
-    $draw->rectangle($startX, $startY, $endX, $endY);
+    $draw->setFillColor($fillModifiedColor);
+    $draw->translate($translateX, $translateY);
+    $draw->rectangle($startX, $startY, $endX, $endY);
 
-    $image = new \Imagick();
-    $image->newImage(500, 500, $backgroundColor);
-    $image->setImageFormat("png");
+    $image = new \Imagick();
+    $image->newImage(500, 500, $backgroundColor);
+    $image->setImageFormat("png");
 
-    $image->drawImage($draw);
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

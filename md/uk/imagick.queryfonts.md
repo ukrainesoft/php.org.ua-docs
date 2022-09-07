@@ -40,16 +40,16 @@ public static Imagick::queryFonts(string $pattern = "*"): array
 
 ```php
 <?php
-        $output = '';
-        $output .= "Шрифты, соответствующие 'Helvetica*':<br/>";
+        $output = '';
+        $output .= "Шрифты, соответствующие 'Helvetica*':<br/>";
 
-        $fontList = \Imagick::queryFonts("Helvetica*");
+        $fontList = \Imagick::queryFonts("Helvetica*");
 
-        foreach ($fontList as $fontName) {
-            $output .= '<li>'. $fontName."</li>";
-        }
+        foreach ($fontList as $fontName) {
+            $output .= '<li>'. $fontName."</li>";
+        }
 
-        return $output;
+        return $output;
 
 ?>
 ```

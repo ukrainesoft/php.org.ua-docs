@@ -42,8 +42,8 @@ Callback-функція має повертати нове значення, я�
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
-$deque->apply(function($value) { return $value * 2; });
+$deque = new \Ds\Deque([1, 2, 3]);
+$deque->apply(function($value) { return $value * 2; });
 
 print_r($deque);
 ?>

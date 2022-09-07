@@ -38,10 +38,10 @@ ssh2_tunnel(resource $session, string $host, int $port): resource
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_pubkey_file($connection, 'username', 'id_dsa.pub', 'id_dsa');
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_pubkey_file($connection, 'username', 'id_dsa.pub', 'id_dsa');
 
-$tunnel = ssh2_tunnel($connection, '10.0.0.101', 12345);
+$tunnel = ssh2_tunnel($connection, '10.0.0.101', 12345);
 ?>
 ```
 

@@ -15,7 +15,7 @@ semget — Отримання ідентифікатора семафору
 ### Опис
 
 ```methodsynopsis
-sem_get(    int $key,    int $max_acquire = 1,    int $permissions = 0666,    bool $auto_release = true): SysvSemaphore|false
+sem_get(    int $key,    int $max_acquire = 1,    int $permissions = 0666,    bool $auto_release = true): SysvSemaphore|false
 ```
 
 **semget()** повертає ідентифікатор, який може бути використаний для доступу до семафору System V за заданим значенням `key`

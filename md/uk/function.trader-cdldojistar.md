@@ -15,7 +15,7 @@ tradercdldojistar — Дожі-зірка
 ### Опис
 
 ```methodsynopsis
-trader_cdldojistar(    array $open,    array $high,    array $low,    array $close): array
+trader_cdldojistar(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

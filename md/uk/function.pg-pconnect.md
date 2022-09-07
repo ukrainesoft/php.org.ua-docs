@@ -54,18 +54,18 @@ pg_pconnect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 ```php
 <?php
-$dbconn = pg_pconnect("dbname=mary");
-//подключиться к базе "mary"
+$dbconn = pg_pconnect("dbname=mary");
+//подключиться к базе "mary"
 
-$dbconn2 = pg_pconnect("host=localhost port=5432 dbname=mary");
-// подключиться к базе "mary" на хосте "localhost", порт "5432"
+$dbconn2 = pg_pconnect("host=localhost port=5432 dbname=mary");
+// подключиться к базе "mary" на хосте "localhost", порт "5432"
 
-$dbconn3 = pg_pconnect("host=sheep port=5432 dbname=mary user=lamb password=foo");
-//подключиться к базе "mary" на хосте "sheep", используя имя пользователя и пароль
+$dbconn3 = pg_pconnect("host=sheep port=5432 dbname=mary user=lamb password=foo");
+//подключиться к базе "mary" на хосте "sheep", используя имя пользователя и пароль
 
-$conn_string = "host=sheep port=5432 dbname=test user=lamb password=bar";
-$dbconn4 = pg_pconnect($conn_string);
-//подключиться к базе "test" на хосте "sheep", используя имя пользователя и пароль
+$conn_string = "host=sheep port=5432 dbname=test user=lamb password=bar";
+$dbconn4 = pg_pconnect($conn_string);
+//подключиться к базе "test" на хосте "sheep", используя имя пользователя и пароль
 ?>
 ```
 

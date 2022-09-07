@@ -15,7 +15,7 @@ setcookie — Надсилає cookie
 ### Опис
 
 ```methodsynopsis
-setcookie(    string $name,    string $value = "",    int $expires_or_options = 0,    string $path = "",    string $domain = "",    bool $secure = false,    bool $httponly = false): bool
+setcookie(    string $name,    string $value = "",    int $expires_or_options = 0,    string $path = "",    string $domain = "",    bool $secure = false,    bool $httponly = false): bool
 ```
 
 Альтернативна сигнатура доступна з PHP 7.3.0 (іменовані параметри не підтримуються):
@@ -30,7 +30,7 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ### Список параметрів
 
-[» RFC 6265](http://www.faqs.org/rfcs/rfc6265) дає конкретні вказівки, як потрібно інтерпретувати кожен із параметрів **setcookie()**
+[» RFC 6265](http://www.faqs.org/rfcs/rfc6265) дає конкретні вказівки, як потрібно інтерпретувати кожен із параметрів **setcookie()**
 
 `name`
 
@@ -56,7 +56,7 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 (Під)домен, якому доступні cookie. Завдання піддомену (наприклад, `'www.example.com'`) зробить cookie доступними в ньому та у всіх його піддоменах (наприклад, w2.[www.example.com](http://www.example.com)). Для того, щоб зробити cookie доступними для всього домену (включно з піддоменами), потрібно просто вказати ім'я домену (тобто `'example.com'`
 
-Старі браузери, що йдуть застарілому документу [» RFC 2109](http://www.faqs.org/rfcs/rfc2109), можуть вимагати `.` перед доменом, щоб умикалися всі піддомени.
+Старі браузери, що йдуть застарілому документу [» RFC 2109](http://www.faqs.org/rfcs/rfc2109), можуть вимагати `.` перед доменом, щоб умикалися всі піддомени.
 
 `secure`
 
@@ -88,11 +88,11 @@ setcookie(string $name, string $value = "", array $options = []): bool
 
 ```php
 <?php
-$value = 'что-то откуда-то';
+$value = 'что-то откуда-то';
 
-setcookie("TestCookie", $value);
-setcookie("TestCookie", $value, time()+3600);  /* срок действия 1 час */
-setcookie("TestCookie", $value, time()+3600, "/~rasmus/", "example.com", 1);
+setcookie("TestCookie", $value);
+setcookie("TestCookie", $value, time()+3600);  /* срок действия 1 час */
+setcookie("TestCookie", $value, time()+3600, "/~rasmus/", "example.com", 1);
 ?>
 ```
 
@@ -100,10 +100,10 @@ setcookie("TestCookie", $value, time()+3600, "/~rasmus/", "example.com", 1)
 
 ```php
 <?php
-// Вывести одно конкретное значение cookie
-echo $_COOKIE["TestCookie"];
+// Вывести одно конкретное значение cookie
+echo $_COOKIE["TestCookie"];
 
-// В целях тестирования и отладки может пригодиться вывод всех cookie
+// В целях тестирования и отладки может пригодиться вывод всех cookie
 print_r($_COOKIE);
 ?>
 ```
@@ -114,9 +114,9 @@ print_r($_COOKIE);
 
 ```php
 <?php
-// установка даты истечения срока действия на час назад
-setcookie("TestCookie", "", time() - 3600);
-setcookie("TestCookie", "", time() - 3600, "/~rasmus/", "example.com", 1);
+// установка даты истечения срока действия на час назад
+setcookie("TestCookie", "", time() - 3600);
+setcookie("TestCookie", "", time() - 3600, "/~rasmus/", "example.com", 1);
 ?>
 ```
 
@@ -126,18 +126,18 @@ setcookie("TestCookie", "", time() - 3600, "/~rasmus/", "example.com", 1)
 
 ```php
 <?php
-// отправка cookie
-setcookie("cookie[three]", "cookiethree");
-setcookie("cookie[two]", "cookietwo");
-setcookie("cookie[one]", "cookieone");
+// отправка cookie
+setcookie("cookie[three]", "cookiethree");
+setcookie("cookie[two]", "cookietwo");
+setcookie("cookie[one]", "cookieone");
 
-// после перезагрузки страницы, выведем cookie
-if (isset($_COOKIE['cookie'])) {
-    foreach ($_COOKIE['cookie'] as $name => $value) {
-        $name = htmlspecialchars($name);
-        $value = htmlspecialchars($value);
-        echo "$name : $value <br />\n";
-    }
+// после перезагрузки страницы, выведем cookie
+if (isset($_COOKIE['cookie'])) {
+    foreach ($_COOKIE['cookie'] as $name => $value) {
+        $name = htmlspecialchars($name);
+        $value = htmlspecialchars($value);
+        echo "$name : $value <br />\n";
+    }
 }
 ?>
 ```
@@ -172,5 +172,5 @@ one : cookieone
 -   [header()](function.header.md) - Надсилання HTTP-заголовка
 -   [setrawcookie()](function.setrawcookie.md) - Надсилає cookie без URL-кодування значення
 -   [раздел cookies](features.cookies.md)
--   [» RFC 6265](http://www.faqs.org/rfcs/rfc6265)
--   [» RFC 2109](http://www.faqs.org/rfcs/rfc2109)
+-   [» RFC 6265](http://www.faqs.org/rfcs/rfc6265)
+-   [» RFC 2109](http://www.faqs.org/rfcs/rfc2109)

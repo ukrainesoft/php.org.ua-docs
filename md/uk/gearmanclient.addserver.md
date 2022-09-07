@@ -41,12 +41,12 @@ public GearmanClient::addServer(string $host = 127.0.0.1, int $port = 4730): boo
 ```php
 <?php
 
-# Создаём клиентский объект
-$gmclient= new GearmanClient();
+# Создаём клиентский объект
+$gmclient= new GearmanClient();
 
-# Добавляем два сервера задач, первый из них работает по умолчанию на порту 4730
+# Добавляем два сервера задач, первый из них работает по умолчанию на порту 4730
 $gmclient->addServer("10.0.0.1");
-$gmclient->addServer("10.0.0.2", 7003);
+$gmclient->addServer("10.0.0.2", 7003);
 
 ?>
 ```

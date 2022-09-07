@@ -15,7 +15,7 @@ traderadx - Середній індекс спрямованого руху
 ### Опис
 
 ```methodsynopsis
-trader_adx(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_adx(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

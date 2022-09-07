@@ -40,13 +40,13 @@ public SplFileInfo::getBasename(string $suffix = ""): string
 
 ```php
 <?php
-$info = new SplFileInfo('file.txt');
+$info = new SplFileInfo('file.txt');
 var_dump($info->getBasename());
 
-$info = new SplFileInfo('/path/to/file.txt');
+$info = new SplFileInfo('/path/to/file.txt');
 var_dump($info->getBasename());
 
-$info = new SplFileInfo('/path/to/file.txt');
+$info = new SplFileInfo('/path/to/file.txt');
 var_dump($info->getBasename('.txt'));
 ?>
 ```

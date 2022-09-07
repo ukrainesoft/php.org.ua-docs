@@ -15,7 +15,7 @@ sodiumcryptoaeadxchacha20poly1305ietfencrypt — (Переважно) Шифру
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_xchacha20poly1305_ietf_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
+sodium_crypto_aead_xchacha20poly1305_ietf_encrypt(    string $message,    string $additional_data,    string $nonce,    string $key): string
 ```
 
 Шифрує, а потім перевіряє справжність за допомогою XChaCha20-Poly1305 (варіант eXtended-nonce).

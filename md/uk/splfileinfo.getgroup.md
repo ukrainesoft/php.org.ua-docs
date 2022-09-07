@@ -38,7 +38,7 @@ public SplFileInfo::getGroup(): int|false
 
 ```php
 <?php
-$info = new SplFileInfo(__FILE__);
+$info = new SplFileInfo(__FILE__);
 print_r(posix_getgrgid($info->getGroup()));
 ?>
 ```

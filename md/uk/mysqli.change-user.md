@@ -25,7 +25,7 @@ public mysqli::change_user(string $username, string $password, ?string $database
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_change_user(    mysqli $mysql,    string $username,    string $password,    ?string $database): bool
+mysqli_change_user(    mysqli $mysql,    string $username,    string $password,    ?string $database): bool
 ```
 
 Змінює користувача, від імені якого здійснено підключення до бази даних, та встановлює поточну базу даних
@@ -65,36 +65,36 @@ mysqli_change_user(    mysqli $mysql,    string $username,    string
 ```php
 <?php
 
-/* создаём подключение к базе данных test */
-$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
+/* создаём подключение к базе данных test */
+$mysqli = new mysqli("localhost", "my_user", "my_password", "test");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Подключение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* устанавливаем переменную a */
-$mysqli->query("SET @a:=1");
+/* устанавливаем переменную a */
+$mysqli->query("SET @a:=1");
 
-/* все сбрасываем и выбираем новую базу данных */
-$mysqli->change_user("my_user", "my_password", "world");
+/* все сбрасываем и выбираем новую базу данных */
+$mysqli->change_user("my_user", "my_password", "world");
 
-if ($result = $mysqli->query("SELECT DATABASE()")) {
-    $row = $result->fetch_row();
-    printf("База данных по умолчанию: %s\n", $row[0]);
-    $result->close();
+if ($result = $mysqli->query("SELECT DATABASE()")) {
+    $row = $result->fetch_row();
+    printf("База данных по умолчанию: %s\n", $row[0]);
+    $result->close();
 }
 
-if ($result = $mysqli->query("SELECT @a")) {
-    $row = $result->fetch_row();
-    if ($row[0] === NULL) {
-        printf("Значение переменной - NULL\n");
-    }
-    $result->close();
+if ($result = $mysqli->query("SELECT @a")) {
+    $row = $result->fetch_row();
+    if ($row[0] === NULL) {
+        printf("Значение переменной - NULL\n");
+    }
+    $result->close();
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -103,36 +103,36 @@ $mysqli->close();
 
 ```php
 <?php
-/* создаём подключение к базе данных test */
-$link = mysqli_connect("localhost", "my_user", "my_password", "test");
+/* создаём подключение к базе данных test */
+$link = mysqli_connect("localhost", "my_user", "my_password", "test");
 
-/* проверяем соединение */
-if (!$link) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (!$link) {
+    printf("Подключение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* устанавливаем переменную a */
-mysqli_query($link, "SET @a:=1");
+/* устанавливаем переменную a */
+mysqli_query($link, "SET @a:=1");
 
-/* все сбрасываем и выбираем новую базу данных */
-mysqli_change_user($link, "my_user", "my_password", "world");
+/* все сбрасываем и выбираем новую базу данных */
+mysqli_change_user($link, "my_user", "my_password", "world");
 
-if ($result = mysqli_query($link, "SELECT DATABASE()")) {
-    $row = mysqli_fetch_row($result);
-    printf("База данных по умолчанию: %s\n", $row[0]);
-    mysqli_free_result($result);
+if ($result = mysqli_query($link, "SELECT DATABASE()")) {
+    $row = mysqli_fetch_row($result);
+    printf("База данных по умолчанию: %s\n", $row[0]);
+    mysqli_free_result($result);
 }
 
-if ($result = mysqli_query($link, "SELECT @a")) {
-    $row = mysqli_fetch_row($result);
-    if ($row[0] === NULL) {
-        printf("Значение переменной - NULL\n");
-    }
-    mysqli_free_result($result);
+if ($result = mysqli_query($link, "SELECT @a")) {
+    $row = mysqli_fetch_row($result);
+    if ($row[0] === NULL) {
+        printf("Значение переменной - NULL\n");
+    }
+    mysqli_free_result($result);
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

@@ -57,19 +57,19 @@ SQL-запит, який необов'язково містить один аб�
 
 ```php
 <?php
-$animals = array(
-    array(0, 'cat', 'Pook', 3.2),
-    array(1, 'dog', 'Peaches', 12.3),
-    array(2, 'horse', 'Smarty', 350.0),
+$animals = array(
+    array(0, 'cat', 'Pook', 3.2),
+    array(1, 'dog', 'Peaches', 12.3),
+    array(2, 'horse', 'Smarty', 350.0),
 );
 
-$insert = 'INSERT INTO animals (id, breed, name, weight)
-    VALUES (?, ?, ?, ?)';
-$stmt = db2_prepare($conn, $insert);
-if ($stmt) {
-    foreach ($animals as $animal) {
-        $result = db2_execute($stmt, $animal);
-    }
+$insert = 'INSERT INTO animals (id, breed, name, weight)
+    VALUES (?, ?, ?, ?)';
+$stmt = db2_prepare($conn, $insert);
+if ($stmt) {
+    foreach ($animals as $animal) {
+        $result = db2_execute($stmt, $animal);
+    }
 }
 ?>
 ```

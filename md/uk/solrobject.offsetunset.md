@@ -36,7 +36,7 @@ public SolrObject::offsetUnset(string $property_name): void
 
 ```php
 <?php
-/* ... */
+/* ... */
 ?>
 ```
 

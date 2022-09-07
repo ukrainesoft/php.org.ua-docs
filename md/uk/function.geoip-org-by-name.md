@@ -40,9 +40,9 @@ geoip_org_by_name(string $hostname): string
 
 ```php
 <?php
-$org = geoip_org_by_name('www.example.com');
-if ($org) {
-    echo 'Владелец данного адреса: ' . $org;
+$org = geoip_org_by_name('www.example.com');
+if ($org) {
+    echo 'Владелец данного адреса: ' . $org;
 }
 ?>
 ```

@@ -34,6 +34,6 @@ posix_getppid(): int
 
 ```php
 <?php
-echo posix_getppid(); //8259
+echo posix_getppid(); //8259
 ?>
 ```

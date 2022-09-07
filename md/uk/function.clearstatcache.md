@@ -48,24 +48,24 @@ clearstatcache(bool $clear_realpath_cache = false, string $filename = ""): void
 
 ```php
 <?php
-$file = 'output_log.txt';
+$file = 'output_log.txt';
 
-function get_owner($file)
+function get_owner($file)
 {
-    $stat = stat($file);
-    $user = posix_getpwuid($stat['uid']);
-    return $user['name'];
+    $stat = stat($file);
+    $user = posix_getpwuid($stat['uid']);
+    return $user['name'];
 }
 
-$format = "UID @ %s: %s\n";
+$format = "UID @ %s: %s\n";
 
-printf($format, date('r'), get_owner($file));
+printf($format, date('r'), get_owner($file));
 
-chown($file, 'ross');
-printf($format, date('r'), get_owner($file));
+chown($file, 'ross');
+printf($format, date('r'), get_owner($file));
 
 clearstatcache();
-printf($format, date('r'), get_owner($file));
+printf($format, date('r'), get_owner($file));
 ?>
 ```
 

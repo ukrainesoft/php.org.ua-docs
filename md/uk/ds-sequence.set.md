@@ -44,9 +44,9 @@ abstract public Ds\Sequence::set(int $index, mixed $value): void
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c"]);
+$sequence = new \Ds\Vector(["a", "b", "c"]);
 
-$sequence->set(1, "_");
+$sequence->set(1, "_");
 print_r($sequence);
 ?>
 ```
@@ -66,9 +66,9 @@ Ds\Vector Object
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c"]);
+$sequence = new \Ds\Vector(["a", "b", "c"]);
 
-$sequence[1] = "_";
+$sequence[1] = "_";
 print_r($sequence);
 ?>
 ```

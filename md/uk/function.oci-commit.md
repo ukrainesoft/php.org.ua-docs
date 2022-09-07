@@ -41,33 +41,33 @@ oci_commit(resource $connection): bool
 ```php
 <?php
 
-// Вставка в несколько таблиц, откат изменений в случае возникновения ошибки
+// Вставка в несколько таблиц, откат изменений в случае возникновения ошибки
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, "INSERT INTO mysalary (id, name) VALUES (1, 'Chris')");
+$stid = oci_parse($conn, "INSERT INTO mysalary (id, name) VALUES (1, 'Chris')");
 
-// Флаг OCI_NO_AUTO_COMMIT сообщает Oracle не фиксировать запрос INSERT при его поступлении
-// Для PHP <= 5.3.1 используйте OCI_DEFAULT, эти два флага эквивалентны
-$r = oci_execute($stid, OCI_NO_AUTO_COMMIT);
-if (!$r) {
-    $e = oci_error($stid);
-    trigger_error(htmlentities($e['message']), E_USER_ERROR);
+// Флаг OCI_NO_AUTO_COMMIT сообщает Oracle не фиксировать запрос INSERT при его поступлении
+// Для PHP <= 5.3.1 используйте OCI_DEFAULT, эти два флага эквивалентны
+$r = oci_execute($stid, OCI_NO_AUTO_COMMIT);
+if (!$r) {
+    $e = oci_error($stid);
+    trigger_error(htmlentities($e['message']), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'INSERT INTO myschedule (startday) VALUES (12)');
-$r = oci_execute($stid, OCI_NO_AUTO_COMMIT);
-if (!$r) {
-    $e = oci_error($stid);
-    oci_rollback($conn);  // откат изменений из обоих таблиц
-    trigger_error(htmlentities($e['message']), E_USER_ERROR);
+$stid = oci_parse($conn, 'INSERT INTO myschedule (startday) VALUES (12)');
+$r = oci_execute($stid, OCI_NO_AUTO_COMMIT);
+if (!$r) {
+    $e = oci_error($stid);
+    oci_rollback($conn);  // откат изменений из обоих таблиц
+    trigger_error(htmlentities($e['message']), E_USER_ERROR);
 }
 
-// Фиксация изменений в обоих таблицах
-$r = oci_commit($conn);
-if (!$r) {
-    $e = oci_error($conn);
-    trigger_error(htmlentities($e['message']), E_USER_ERROR);
+// Фиксация изменений в обоих таблицах
+$r = oci_commit($conn);
+if (!$r) {
+    $e = oci_error($conn);
+    trigger_error(htmlentities($e['message']), E_USER_ERROR);
 }
 
 ?>

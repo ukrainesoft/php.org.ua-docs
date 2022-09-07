@@ -48,8 +48,8 @@ shell_exec(string $command): string|false|null
 
 ```php
 <?php
-$output = shell_exec('ls -lart');
-echo "<pre>$output</pre>";
+$output = shell_exec('ls -lart');
+echo "<pre>$output</pre>";
 ?>
 ```
 

@@ -48,16 +48,16 @@ intlcal_is_equivalent_to(IntlCalendar $calendar, IntlCalendar $other): bool
 
 ```php
 <?php
-$cal1 = IntlCalendar::createInstance('Europe/Lisbon', 'pt_PT');
-$cal2 = IntlCalendar::createInstance('Europe/Lisbon', 'es_ES');
+$cal1 = IntlCalendar::createInstance('Europe/Lisbon', 'pt_PT');
+$cal2 = IntlCalendar::createInstance('Europe/Lisbon', 'es_ES');
 $cal2->clear();
 
-var_dump($cal1->isEquivalentTo($cal2)); // true
+var_dump($cal1->isEquivalentTo($cal2)); // true
 
-$cal3 = IntlCalendar::createInstance('Europe/Lisbon', 'en_US');
-var_dump($cal1->isEquivalentTo($cal3)); // false
-var_dump($cal1->getFirstDayOfWeek(),    // 2 (Понедельник)
-$cal3->getFirstDayOfWeek());            // 1 (Воскресенье)
+$cal3 = IntlCalendar::createInstance('Europe/Lisbon', 'en_US');
+var_dump($cal1->isEquivalentTo($cal3)); // false
+var_dump($cal1->getFirstDayOfWeek(),    // 2 (Понедельник)
+$cal3->getFirstDayOfWeek());            // 1 (Воскресенье)
 ```
 
 Результат виконання цього прикладу:

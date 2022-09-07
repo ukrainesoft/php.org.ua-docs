@@ -44,16 +44,16 @@ array_pad(array $array, int $length, mixed $value): array
 
 ```php
 <?php
-$input = array(12, 10, 9);
+$input = array(12, 10, 9);
 
-$result = array_pad($input, 5, 0);
-// результат: array(12, 10, 9, 0, 0)
+$result = array_pad($input, 5, 0);
+// результат: array(12, 10, 9, 0, 0)
 
-$result = array_pad($input, -7, -1);
-// результат: array(-1, -1, -1, -1, 12, 10, 9)
+$result = array_pad($input, -7, -1);
+// результат: array(-1, -1, -1, -1, 12, 10, 9)
 
-$result = array_pad($input, 2, "noop");
-// операция не произведена
+$result = array_pad($input, 2, "noop");
+// операция не произведена
 ```
 
 ### Дивіться також

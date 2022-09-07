@@ -46,11 +46,11 @@ Phar::loadPhar можна використовувати будь-де, тоді
 
 ```php
 <?php
-try {
-    Phar::loadPhar('/path/to/phar.phar', 'my.phar');
-    echo file_get_contents('phar://my.phar/file.txt');
-} catch (PharException $e) {
-    echo $e;
+try {
+    Phar::loadPhar('/path/to/phar.phar', 'my.phar');
+    echo file_get_contents('phar://my.phar/file.txt');
+} catch (PharException $e) {
+    echo $e;
 }
 ?>
 ```

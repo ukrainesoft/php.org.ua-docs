@@ -46,14 +46,14 @@ pspell_suggest(PSpell\Dictionary $dictionary, string $word): array|false
 
 ```php
 <?php
-$pspell = pspell_new("en");
+$pspell = pspell_new("en");
 
-if (!pspell_check($pspell, "testt")) {
-    $suggestions = pspell_suggest($pspell, "testt");
+if (!pspell_check($pspell, "testt")) {
+    $suggestions = pspell_suggest($pspell, "testt");
 
-    foreach ($suggestions as $suggestion) {
-        echo "Возможный вариант исправления: $suggestion<br />";
-    }
+    foreach ($suggestions as $suggestion) {
+        echo "Возможный вариант исправления: $suggestion<br />";
+    }
 }
 ?>
 ```

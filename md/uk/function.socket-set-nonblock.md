@@ -44,7 +44,7 @@ socket_set_nonblock(Socket $socket): bool
 
 ```php
 <?php
-$socket = socket_create_listen(1223);
+$socket = socket_create_listen(1223);
 socket_set_nonblock($socket);
 
 socket_accept($socket);

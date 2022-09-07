@@ -15,7 +15,7 @@ sodiumcryptoaeadxchacha20poly1305ietfdecrypt — (Переважно) Перев
 ### Опис
 
 ```methodsynopsis
-sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
+sodium_crypto_aead_xchacha20poly1305_ietf_decrypt(    string $ciphertext,    string $additional_data,    string $nonce,    string $key): string|false
 ```
 
 (Переважно) Перевіряє, потім розшифровує за допомогою XChaCha20-Poly1305

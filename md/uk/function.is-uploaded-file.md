@@ -41,13 +41,13 @@ is_uploaded_file(string $filename): bool
 ```php
 <?php
 
-if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
-   echo "Файл ". $_FILES['userfile']['name'] ." успешно загружен.\n";
-   echo "Отображаем содержимое\n";
-   readfile($_FILES['userfile']['tmp_name']);
-} else {
-   echo "Возможная атака с участием загрузки файла: ";
-   echo "файл '". $_FILES['userfile']['tmp_name'] . "'.";
+if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
+   echo "Файл ". $_FILES['userfile']['name'] ." успешно загружен.\n";
+   echo "Отображаем содержимое\n";
+   readfile($_FILES['userfile']['tmp_name']);
+} else {
+   echo "Возможная атака с участием загрузки файла: ";
+   echo "файл '". $_FILES['userfile']['tmp_name'] . "'.";
 }
 
 ?>

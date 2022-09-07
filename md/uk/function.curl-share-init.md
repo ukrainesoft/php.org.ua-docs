@@ -42,29 +42,29 @@ curl_share_init(): CurlShareHandle
 
 ```php
 <?php
-// Создаём разделяемый обработчик и настраиваем его на обмен куками
-$sh = curl_share_init();
-curl_share_setopt($sh, CURLSHOPT_SHARE, CURL_LOCK_DATA_COOKIE);
+// Создаём разделяемый обработчик и настраиваем его на обмен куками
+$sh = curl_share_init();
+curl_share_setopt($sh, CURLSHOPT_SHARE, CURL_LOCK_DATA_COOKIE);
 
-// Инициализируем первый обработчик cURL и связываем его с разделяемым
-$ch1 = curl_init("http://example.com/");
-curl_setopt($ch1, CURLOPT_SHARE, $sh);
+// Инициализируем первый обработчик cURL и связываем его с разделяемым
+$ch1 = curl_init("http://example.com/");
+curl_setopt($ch1, CURLOPT_SHARE, $sh);
 
-// Запускаем первый запрос
+// Запускаем первый запрос
 curl_exec($ch1);
 
-// Инициализируем второй обработчик cURL и связываем его с разделяемым
-$ch2 = curl_init("http://php.net/");
-curl_setopt($ch2, CURLOPT_SHARE, $sh);
+// Инициализируем второй обработчик cURL и связываем его с разделяемым
+$ch2 = curl_init("http://php.net/");
+curl_setopt($ch2, CURLOPT_SHARE, $sh);
 
-// Запускаем второй обработчик.
-//  Ему будут доступны все куки от первого обработчика $ch1
+// Запускаем второй обработчик.
+//  Ему будут доступны все куки от первого обработчика $ch1
 curl_exec($ch2);
 
-// Закрываем разделяемый обработчик
+// Закрываем разделяемый обработчик
 curl_share_close($sh);
 
-// Закрываем оба обычных обработчика
+// Закрываем оба обычных обработчика
 curl_close($ch1);
 curl_close($ch2);
 ?>

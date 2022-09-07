@@ -36,10 +36,10 @@ gmp_neg(GMP|int|string $num): GMP
 
 ```php
 <?php
-$neg1 = gmp_neg("1");
-echo gmp_strval($neg1) . "\n";
-$neg2 = gmp_neg("-1");
-echo gmp_strval($neg2) . "\n";
+$neg1 = gmp_neg("1");
+echo gmp_strval($neg1) . "\n";
+$neg2 = gmp_neg("-1");
+echo gmp_strval($neg2) . "\n";
 ?>
 ```
 

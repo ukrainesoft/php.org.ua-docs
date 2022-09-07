@@ -36,18 +36,18 @@ public SplObjectStorage::setInfo(mixed $info): void
 
 ```php
 <?php
-$s = new SplObjectStorage();
+$s = new SplObjectStorage();
 
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new StdClass;
+$o2 = new StdClass;
 
-$s->attach($o1, "d1");
-$s->attach($o2, "d2");
+$s->attach($o1, "d1");
+$s->attach($o2, "d2");
 
 $s->rewind();
-while($s->valid()) {
-    $s->setInfo("new");
-    $s->next();
+while($s->valid()) {
+    $s->setInfo("new");
+    $s->next();
 }
 var_dump($s[$o1]);
 var_dump($s[$o2]);

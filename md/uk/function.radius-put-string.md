@@ -15,7 +15,7 @@ radiusputstring — Приєднує рядковий атрибут
 ### Опис
 
 ```methodsynopsis
-radius_put_string(    resource $radius_handle,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
+radius_put_string(    resource $radius_handle,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує строковий атрибут до поточного запиту RADIUS. В загальному, [radiusputattr()](function.radius-put-attr.md) - корисніша функція для приєднання рядкових атрибутів, оскільки вона бінарно безпечна.
@@ -62,9 +62,9 @@ radius_put_string(    resource $radius_handle,    int $type,    stri
 
 ```php
 <?php
-if (!radius_put_string($res, RADIUS_USER_NAME, 'billy')) {
-    echo 'Ошибка Radius:' . radius_strerror($res). "\n<br />";
-    exit;
+if (!radius_put_string($res, RADIUS_USER_NAME, 'billy')) {
+    echo 'Ошибка Radius:' . radius_strerror($res). "\n<br />";
+    exit;
 }
 ?>
 ```

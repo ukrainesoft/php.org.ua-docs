@@ -36,11 +36,11 @@ public SyncMutex::unlock(bool $all = false): bool
 
 ```php
 <?php
-$mutex = new SyncMutex("UniqueName");
+$mutex = new SyncMutex("UniqueName");
 
 $mutex->lock();
 
-/* ... */
+/* ... */
 
 $mutex->unlock();
 ?>

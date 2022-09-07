@@ -15,7 +15,7 @@ fanncreatesparse — Створює стандартну нейронну мер
 ### Опис
 
 ```methodsynopsis
-fann_create_sparse(    float $connection_rate,    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
+fann_create_sparse(    float $connection_rate,    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
 ```
 
 Створює стандартну нейронну мережу зворотного поширення, яка повністю підключена.

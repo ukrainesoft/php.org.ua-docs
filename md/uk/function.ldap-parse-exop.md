@@ -15,7 +15,7 @@ ldapparseexop — Розбір результуючого об'єкта вико
 ### Опис
 
 ```methodsynopsis
-ldap_parse_exop(    LDAP\Connection $ldap,    LDAP\Result $result,    string &$response_data = null,    string &$response_oid = null): bool
+ldap_parse_exop(    LDAP\Connection $ldap,    LDAP\Result $result,    string &$response_data = null,    string &$response_oid = null): bool
 ```
 
 Розбирає `result`отриманий після виконання розширеної операції LDAP

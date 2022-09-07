@@ -15,7 +15,7 @@ eioutime — Змінює дату та час останньої модифік
 ### Опис
 
 ```methodsynopsis
-eio_utime(    string $path,    float $atime,    float $mtime,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_utime(    string $path,    float $atime,    float $mtime,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 ### Список параметрів
@@ -41,7 +41,7 @@ eio_utime(    string $path,    float $atime,    float $mtime,   �
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

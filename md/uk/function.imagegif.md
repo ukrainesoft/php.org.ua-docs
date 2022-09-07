@@ -52,17 +52,17 @@ imagegif(GdImage $image, resource|string|null $file = null): bool
 
 ```php
 <?php
-// Создание изображения
-$im = imagecreatetruecolor(100, 100);
+// Создание изображения
+$im = imagecreatetruecolor(100, 100);
 
-// Создание белого фона
-imagefilledrectangle($im, 0, 0, 99, 99, 0xFFFFFF);
+// Создание белого фона
+imagefilledrectangle($im, 0, 0, 99, 99, 0xFFFFFF);
 
-// Рисование текста на изображении
-imagestring($im, 3, 40, 20, 'GD библиотека', 0xFFBA00);
+// Рисование текста на изображении
+imagestring($im, 3, 40, 20, 'GD библиотека', 0xFFBA00);
 
-// Вывод изображения в броузер
-header('Content-Type: image/gif');
+// Вывод изображения в броузер
+header('Content-Type: image/gif');
 
 imagegif($im);
 imagedestroy($im);
@@ -74,17 +74,17 @@ imagedestroy($im);
 ```php
 <?php
 
-// Загрузка PNG
-$png = imagecreatefrompng('./php.png');
+// Загрузка PNG
+$png = imagecreatefrompng('./php.png');
 
-// Сохранение как GIF
-imagegif($png, './php.gif');
+// Сохранение как GIF
+imagegif($png, './php.gif');
 
-// Освобождение памяти
+// Освобождение памяти
 imagedestroy($png);
 
-// готово
-echo 'Преобразование PNG в GIF успешно завершено!';
+// готово
+echo 'Преобразование PNG в GIF успешно завершено!';
 ?>
 ```
 
@@ -96,52 +96,52 @@ echo 'Преобразование PNG в GIF успешно заверш�
 > 
 > ```php
 > <?php
-> // Создание нового изображения
-> $im = imagecreatetruecolor(100, 100);
+> // Создание нового изображения
+> $im = imagecreatetruecolor(100, 100);
 > 
-> // Какие-либо операции с изображением
+> // Какие-либо операции с изображением
 > 
-> // Обработка вывода
+> // Обработка вывода
 > if(function_exists('imagegif'))
 > {
->     // для GIF
->     header('Content-Type: image/gif');
+>     // для GIF
+>     header('Content-Type: image/gif');
 > 
->     imagegif($im);
+>     imagegif($im);
 > }
 > elseif(function_exists('imagejpeg'))
 > {
->     // для JPEG
->     header('Content-Type: image/jpeg');
+>     // для JPEG
+>     header('Content-Type: image/jpeg');
 > 
->     imagejpeg($im, NULL, 100);
+>     imagejpeg($im, NULL, 100);
 > }
 > elseif(function_exists('imagepng'))
 > {
->     // для PNG
->     header('Content-Type: image/png');
+>     // для PNG
+>     header('Content-Type: image/png');
 > 
->     imagepng($im);
+>     imagepng($im);
 > }
 > elseif(function_exists('imagewbmp'))
 > {
->     // для WBMP
->     header('Content-Type: image/vnd.wap.wbmp');
+>     // для WBMP
+>     header('Content-Type: image/vnd.wap.wbmp');
 > 
->     imagewbmp($im);
+>     imagewbmp($im);
 > }
 > else
 > {
->     imagedestroy($im);
+>     imagedestroy($im);
 > 
->     die('В этом PHP сервере нет поддержки изображений');
+>     die('В этом PHP сервере нет поддержки изображений');
 > }
 > 
-> // Если не поддерживается ни один из форматов
-> // освободим память
+> // Если не поддерживается ни один из форматов
+> // освободим память
 > if($im)
 > {
->     imagedestroy($im);
+>     imagedestroy($im);
 > }
 > ?>
 > ```
@@ -152,14 +152,14 @@ echo 'Преобразование PNG в GIF успешно заверш�
 > 
 > ```php
 > <?php
-> if(imagetypes() & IMG_GIF)
+> if(imagetypes() & IMG_GIF)
 > {
->     header('Content-Type: image/gif');
->     imagegif($im);
+>     header('Content-Type: image/gif');
+>     imagegif($im);
 > }
-> elseif(imagetypes() & IMG_JPG)
+> elseif(imagetypes() & IMG_JPG)
 > {
->     /* ... и т.д. */
+>     /* ... и т.д. */
 > }
 > ?>
 > ```

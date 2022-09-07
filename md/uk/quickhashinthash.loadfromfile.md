@@ -67,17 +67,17 @@ key/value 2 (key = 3, value = 9)
 
 ```php
 <?php
-$file = dirname( __FILE__ ) . "/simple.hash";
-$hash = QuickHashIntHash::loadFromFile(
-    $file,
-    QuickHashIntHash::DO_NOT_USE_ZEND_ALLOC
+$file = dirname( __FILE__ ) . "/simple.hash";
+$hash = QuickHashIntHash::loadFromFile(
+    $file,
+    QuickHashIntHash::DO_NOT_USE_ZEND_ALLOC
 );
-foreach( range( 0, 0x0f ) as $key )
+foreach( range( 0, 0x0f ) as $key )
 {
-    printf( "Ключ %3d (%2x) %s\n",
-        $key, $key,
-        $hash->exists( $key ) ? 'установлен' : 'не установлен'
-    );
+    printf( "Ключ %3d (%2x) %s\n",
+        $key, $key,
+        $hash->exists( $key ) ? 'установлен' : 'не установлен'
+    );
 }
 ?>
 ```

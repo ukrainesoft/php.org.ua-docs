@@ -19,7 +19,7 @@ Imagick::paintOpaqueImage — Змінює будь-який піксель, щ�
 ### Опис
 
 ```methodsynopsis
-public Imagick::paintOpaqueImage(    mixed $target,    mixed $fill,    float $fuzz,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::paintOpaqueImage(    mixed $target,    mixed $fill,    float $fuzz,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Змінює будь-який піксель, який відповідає кольору, на колір, визначений заливкою.

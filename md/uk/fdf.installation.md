@@ -8,7 +8,7 @@ title: Встановлення
 ---
 ## Встановлення
 
-Цей модуль не підтримується і вважається померлим. Однак його вихідний код все ще доступний у PECL SVN ось тут: [» https://svn.php.net/viewvc/pecl/fdf](https://svn.php.net/viewvc/pecl/fdf)
+Цей модуль не підтримується і вважається померлим. Однак його вихідний код все ще доступний у PECL SVN ось тут: [» https://svn.php.net/viewvc/pecl/fdf](https://svn.php.net/viewvc/pecl/fdf)
 
 Модуль більше не постачається у складі PHP.
 

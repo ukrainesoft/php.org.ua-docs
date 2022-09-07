@@ -41,7 +41,7 @@ public mysql_xdevapi\CollectionModify::skip(int $position): mysql_xdevapi\Collec
 ```php
 <?php
 
-$coll->modify('age > :age')->sort('age desc')->unset(['age'])->bind(['age' => 20])->limit(4)->skip(1)->execute();
+$coll->modify('age > :age')->sort('age desc')->unset(['age'])->bind(['age' => 20])->limit(4)->skip(1)->execute();
 
 ?>
 ```

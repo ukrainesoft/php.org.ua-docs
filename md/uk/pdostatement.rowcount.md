@@ -42,14 +42,14 @@ public PDOStatement::rowCount(): int
 
 ```php
 <?php
-/* Удалим все строки из таблицы FRUIT */
-$del = $dbh->prepare('DELETE FROM fruit');
+/* Удалим все строки из таблицы FRUIT */
+$del = $dbh->prepare('DELETE FROM fruit');
 $del->execute();
 
-/* Выведем число удалённых строк */
-print("Количество удалённых строк:\n");
-$count = $del->rowCount();
-print("Удалено $count строк.\n");
+/* Выведем число удалённых строк */
+print("Количество удалённых строк:\n");
+$count = $del->rowCount();
+print("Удалено $count строк.\n");
 ?>
 ```
 
@@ -66,11 +66,11 @@ print("Удалено $count строк.\n");
 
 ```php
 <?php
-$sql = "SELECT COUNT(*) FROM fruit WHERE calories > 100";
-$res = $conn->query($sql);
-$count = $res->fetchColumn();
+$sql = "SELECT COUNT(*) FROM fruit WHERE calories > 100";
+$res = $conn->query($sql);
+$count = $res->fetchColumn();
 
-print "Совпадающих записей: " .  $count;
+print "Совпадающих записей: " .  $count;
 ?>
 ```
 

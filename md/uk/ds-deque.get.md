@@ -40,7 +40,7 @@ public Ds\Deque::get(int $index): mixed
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c"]);
+$deque = new \Ds\Deque(["a", "b", "c"]);
 
 var_dump($deque->get(0));
 var_dump($deque->get(1));
@@ -60,7 +60,7 @@ string(1) "c"
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c"]);
+$deque = new \Ds\Deque(["a", "b", "c"]);
 
 var_dump($deque[0]);
 var_dump($deque[1]);

@@ -50,9 +50,9 @@ pspell_config_mode(PSpell\Config $config, int $mode): bool
 
 ```php
 <?php
-$pspell_config = pspell_config_create("en");
-pspell_config_mode($pspell_config, PSPELL_FAST);
-$pspell = pspell_new_config($pspell_config);
-pspell_check($pspell, "thecat");
+$pspell_config = pspell_config_create("en");
+pspell_config_mode($pspell_config, PSPELL_FAST);
+$pspell = pspell_new_config($pspell_config);
+pspell_check($pspell, "thecat");
 ?>
 ```

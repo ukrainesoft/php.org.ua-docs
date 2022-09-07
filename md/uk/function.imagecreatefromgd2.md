@@ -46,18 +46,18 @@ imagecreatefromgd2(string $filename): GdImage|false
 
 ```php
 <?php
-// загрузка gd2 изображения
-$im = imagecreatefromgd2('./test.gd2');
+// загрузка gd2 изображения
+$im = imagecreatefromgd2('./test.gd2');
 
-// применение эффекта к изображению, этот код
-// инвертирует цвета
+// применение эффекта к изображению, этот код
+// инвертирует цвета
 if(function_exists('imagefilter'))
 {
-    imagefilter($im, IMG_FILTER_NEGATE);
+    imagefilter($im, IMG_FILTER_NEGATE);
 }
 
-// сохранение изображения
-imagegd2($im, './test_updated.gd2');
+// сохранение изображения
+imagegd2($im, './test_updated.gd2');
 imagedestroy($im);
 ?>
 ```

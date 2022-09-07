@@ -36,14 +36,14 @@ public Memcached::getServerByKey(string $server_key): array
 
 ```php
 <?php
-$m = new Memcached();
+$m = new Memcached();
 $m->addServers(array(
-    array('mem1.domain.com', 11211, 40),
-    array('mem2.domain.com', 11211, 40),
-    array('mem3.domain.com', 11211, 20),
+    array('mem1.domain.com', 11211, 40),
+    array('mem2.domain.com', 11211, 40),
+    array('mem3.domain.com', 11211, 20),
 ));
 
-$m->setOption(Memcached::OPT_LIBKETAMA_COMPATIBLE, true);
+$m->setOption(Memcached::OPT_LIBKETAMA_COMPATIBLE, true);
 
 var_dump($m->getServerByKey('user'));
 var_dump($m->getServerByKey('log'));

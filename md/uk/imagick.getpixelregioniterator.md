@@ -15,7 +15,7 @@ Imagick::getPixelRegionIterator — Повертає об'єкт ImagickPixelIte
 ### Опис
 
 ```methodsynopsis
-public Imagick::getPixelRegionIterator(    int $x,    int $y,    int $columns,    int $rows): ImagickPixelIterator
+public Imagick::getPixelRegionIterator(    int $x,    int $y,    int $columns,    int $rows): ImagickPixelIterator
 ```
 
 Повертає об'єкт ImagickPixelIterator для секції зображення.
@@ -54,15 +54,15 @@ public Imagick::getPixelRegionIterator(    int $x,    int $y,    int
 
 ```php
 <?php
-$im = new Imagick(realpath("./testImage.png"));
-$areaIterator = $im->getPixelRegionIterator(0, 0, 10, 10);
+$im = new Imagick(realpath("./testImage.png"));
+$areaIterator = $im->getPixelRegionIterator(0, 0, 10, 10);
 
-foreach ($areaIterator as $rowIterator) {
-    foreach ($rowIterator as $pixel) {
-        // Красит каждый пиксель черным
-        $pixel->setColor("rgba(0, 0, 0, 0)");
-    }
-    $areaIterator->syncIterator();
+foreach ($areaIterator as $rowIterator) {
+    foreach ($rowIterator as $pixel) {
+        // Красит каждый пиксель черным
+        $pixel->setColor("rgba(0, 0, 0, 0)");
+    }
+    $areaIterator->syncIterator();
 }
 $im->writeImage("./output.png");
 ?>

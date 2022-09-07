@@ -40,10 +40,10 @@ runkit7_zval_inspect(string $value): array
 ```php
 <?php
 
-$var = new DateTime();
+$var = new DateTime();
 var_dump(runkit7_zval_inspect($var));
 
-$var = 1;
+$var = 1;
 var_dump(runkit7_zval_inspect($var));
 ?>
 ```
@@ -73,4 +73,4 @@ array(2) {
 ### Дивіться також
 
 -   [Пояснення посилань](language.references.md)
--   [» Пояснення посилань (Дерік Ретанс)](http://derickrethans.nl/php_references_article.php)
+-   [» Пояснення посилань (Дерік Ретанс)](http://derickrethans.nl/php_references_article.php)

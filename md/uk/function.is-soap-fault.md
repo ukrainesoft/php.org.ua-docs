@@ -38,10 +38,10 @@ is_soap_fault(mixed $object): bool
 
 ```php
 <?php
-$client = new SoapClient("some.wsdl", array('exceptions' => 0));
-$result = $client->SomeFunction();
-if (is_soap_fault($result)) {
-    trigger_error("Ошибка SOAP: (faultcode: {$result->faultcode}, faultstring: {$result->faultstring})", E_USER_ERROR);
+$client = new SoapClient("some.wsdl", array('exceptions' => 0));
+$result = $client->SomeFunction();
+if (is_soap_fault($result)) {
+    trigger_error("Ошибка SOAP: (faultcode: {$result->faultcode}, faultstring: {$result->faultstring})", E_USER_ERROR);
 }
 ?>
 ```
@@ -50,11 +50,11 @@ if (is_soap_fault($result)) {
 
 ```php
 <?php
-try {
-    $client = new SoapClient("some.wsdl");
-    $result = $client->SomeFunction(/* ... */);
-} catch (SoapFault $fault) {
-    trigger_error("Ошибка SOAP: (faultcode: {$fault->faultcode}, faultstring: {$fault->faultstring})", E_USER_ERROR);
+try {
+    $client = new SoapClient("some.wsdl");
+    $result = $client->SomeFunction(/* ... */);
+} catch (SoapFault $fault) {
+    trigger_error("Ошибка SOAP: (faultcode: {$fault->faultcode}, faultstring: {$fault->faultstring})", E_USER_ERROR);
 }
 ?>
 ```

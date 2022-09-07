@@ -15,7 +15,7 @@ title: псaddweblink
 ### Опис
 
 ```methodsynopsis
-ps_add_weblink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $url): bool
+ps_add_weblink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $url): bool
 ```
 
 Додає гіперпосилання у вказаному місці, яке вказує на веб-сторінку. Вихідна позиція гіперпосилання є прямокутником з нижнім лівим кутом в (`llx` `lly`) та його правим верхнім кутом в (`urx` `ury`). У прямокутника за промовчанням є тонка синя рамка.

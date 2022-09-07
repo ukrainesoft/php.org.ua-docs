@@ -15,7 +15,7 @@ tradercdlspinningtop — Вовчок
 ### Опис
 
 ```methodsynopsis
-trader_cdlspinningtop(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlspinningtop(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

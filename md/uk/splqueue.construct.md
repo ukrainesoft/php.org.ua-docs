@@ -32,14 +32,14 @@ public **SplQueue::construct**
 
 ```php
 <?php
-$q = new SplQueue();
+$q = new SplQueue();
 
-$q[] = 1;
-$q[] = 2;
-$q[] = 3;
+$q[] = 1;
+$q[] = 2;
+$q[] = 3;
 
-foreach ($q as $elem)  {
- echo $elem."\n";
+foreach ($q as $elem)  {
+ echo $elem."\n";
 }
 ?>
 ```
@@ -56,18 +56,18 @@ foreach ($q as $elem)  {
 
 ```php
 <?php
-$q = new SplQueue();
+$q = new SplQueue();
 $q->setIteratorMode(SplQueue::IT_MODE_DELETE);
 
-// ... поставить несколько задач в очередь ...
+// ... поставить несколько задач в очередь ...
 
-// обработать их
-foreach ($q as $task) {
-    // ... обработать $task ...
+// обработать их
+foreach ($q as $task) {
+    // ... обработать $task ...
 
-    // добавить новые задачи в очередь
-    $q[] = $newTask;
-    // ...
+    // добавить новые задачи в очередь
+    $q[] = $newTask;
+    // ...
 }
 ?>
 ```

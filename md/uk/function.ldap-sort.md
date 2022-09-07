@@ -58,17 +58,17 @@ ldap_sort(resource $link, resource $result, string $sortfilter): bool
 
 ```php
 <?php
-     // $ds - активный дескриптор соединения (смотрите ldap_connect)
+     // $ds - активный дескриптор соединения (смотрите ldap_connect)
 
-     $dn        = 'ou=example,dc=org';
-     $filter    = '(|(sn=Doe*)(givenname=John*))';
-     $justthese = array('ou', 'sn', 'givenname', 'mail');
+     $dn        = 'ou=example,dc=org';
+     $filter    = '(|(sn=Doe*)(givenname=John*))';
+     $justthese = array('ou', 'sn', 'givenname', 'mail');
 
-     $sr = ldap_search($ds, $dn, $filter, $justthese);
+     $sr = ldap_search($ds, $dn, $filter, $justthese);
 
-     // Сортировка
-     ldap_sort($ds, $sr, 'sn');
+     // Сортировка
+     ldap_sort($ds, $sr, 'sn');
 
-     // Получение данных
-     $info = ldap_get_entries($ds, $sr);
+     // Получение данных
+     $info = ldap_get_entries($ds, $sr);
 ```

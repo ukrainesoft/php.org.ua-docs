@@ -15,7 +15,7 @@ ocinewconnect — Встановлює нове з'єднання із серв�
 ### Опис
 
 ```methodsynopsis
-oci_new_connect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
+oci_new_connect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
 ```
 
 Створює нове з'єднання з сервером Oracle та здійснює вхід.
@@ -34,7 +34,7 @@ oci_new_connect(    string $username,    string $password,    ?strin
 
 `connection_string`
 
-Містить `экземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
+Містить `экземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
 
 Якщо не вказано окремо або **`null`**, PHP використовує змінні оточення, такі як **`TWO_TASK`** (на Linux) або **`LOCAL`** (на Windows) та **`ORACLE_SID`** для визначення `экземпляра Oracle` для з'єднання.
 
@@ -79,43 +79,43 @@ oci_new_connect(    string $username,    string $password,    ?strin
 ```php
 <?php
 
-// создайте таблицу mytab (mycol number);
+// создайте таблицу mytab (mycol number);
 
-function query($name, $c)
+function query($name, $c)
 {
-    echo "Выполнение $name\n";
-    $s = oci_parse($c, "select * from mytab");
-    oci_execute($s, OCI_NO_AUTO_COMMIT);
-    $row = oci_fetch_array($s, OCI_ASSOC);
-    if (!$row) {
-        echo "Нет данных\n";
-    } else {
-        do {
-            foreach ($row as $item)
-                echo $item . " ";
-            echo "\n";
-        } while (($row = oci_fetch_array($s, OCI_ASSOC)) != false);
-    }
+    echo "Выполнение $name\n";
+    $s = oci_parse($c, "select * from mytab");
+    oci_execute($s, OCI_NO_AUTO_COMMIT);
+    $row = oci_fetch_array($s, OCI_ASSOC);
+    if (!$row) {
+        echo "Нет данных\n";
+    } else {
+        do {
+            foreach ($row as $item)
+                echo $item . " ";
+            echo "\n";
+        } while (($row = oci_fetch_array($s, OCI_ASSOC)) != false);
+    }
 }
 
-$c1 = oci_connect("hr", "welcome", "localhost/orcl");
-$c2 = oci_new_connect("hr", "welcome", "localhost/orcl");
+$c1 = oci_connect("hr", "welcome", "localhost/orcl");
+$c2 = oci_new_connect("hr", "welcome", "localhost/orcl");
 
-$s = oci_parse($c1, "insert into mytab values(1234)");
-oci_execute($s, OCI_NO_AUTO_COMMIT);
+$s = oci_parse($c1, "insert into mytab values(1234)");
+oci_execute($s, OCI_NO_AUTO_COMMIT);
 
-query("основного соединения", $c1);
-query("нового соединения", $c2);
+query("основного соединения", $c1);
+query("нового соединения", $c2);
 oci_commit($c1);
-query("нового соединения после commit", $c2);
+query("нового соединения после commit", $c2);
 
-// Выведет:
-//   Выполнение основного соединения
-//   1234
-//   Выполнение нового соединения
-//   Нет данных
-//   Выполнение нового соединения после commit
-//   1234
+// Выведет:
+//   Выполнение основного соединения
+//   1234
+//   Выполнение нового соединения
+//   Нет данных
+//   Выполнение нового соединения после commit
+//   1234
 
 ?>
 ```

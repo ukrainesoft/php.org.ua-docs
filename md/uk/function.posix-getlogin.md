@@ -34,7 +34,7 @@ posix_getlogin(): string|false
 
 ```php
 <?php
-echo posix_getlogin(); //apache
+echo posix_getlogin(); //apache
 ?>
 ```
 

@@ -48,13 +48,13 @@ public Ds\Vector::insert(int $index, mixed ...$values): void
 
 ```php
 <?php
-$vector = new \Ds\Vector();
+$vector = new \Ds\Vector();
 
-$vector->insert(0, "e");             // [e]
-$vector->insert(1, "f");             // [e, f]
-$vector->insert(2, "g");             // [e, f, g]
-$vector->insert(0, "a", "b");        // [a, b, e, f, g]
-$vector->insert(2, ...["c", "d"]);   // [a, b, c, d, e, f, g]
+$vector->insert(0, "e");             // [e]
+$vector->insert(1, "f");             // [e, f]
+$vector->insert(2, "g");             // [e, f, g]
+$vector->insert(0, "a", "b");        // [a, b, e, f, g]
+$vector->insert(2, ...["c", "d"]);   // [a, b, c, d, e, f, g]
 
 var_dump($vector);
 ?>

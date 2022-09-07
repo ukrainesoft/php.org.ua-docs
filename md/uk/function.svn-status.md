@@ -100,11 +100,11 @@ schedule
 
 ```php
 <?php
-if (!defined('svn_wc_schedule_normal')) {
-    define('svn_wc_schedule_normal',  0); // никаких изменений
-    define('svn_wc_schedule_add',     1); // элемент будет добавлен
-    define('svn_wc_schedule_delete',  2); // элемент будет удалён
-    define('svn_wc_schedule_replace', 3); // элемент будет удалён и добавлен
+if (!defined('svn_wc_schedule_normal')) {
+    define('svn_wc_schedule_normal',  0); // никаких изменений
+    define('svn_wc_schedule_add',     1); // элемент будет добавлен
+    define('svn_wc_schedule_delete',  2); // элемент будет удалён
+    define('svn_wc_schedule_replace', 3); // элемент будет удалён и добавлен
 }
 ?>
 ```
@@ -188,4 +188,4 @@ Array (
 
 -   [svnupdate()](function.svn-update.md) - Оновлює робочу копію
 -   [svnlog()](function.svn-log.md) - Повертає коментарі до правок у репозиторії
--   [» SVN-документация по svn status](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.md)
+-   [» SVN-документация по svn status](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.status.md)

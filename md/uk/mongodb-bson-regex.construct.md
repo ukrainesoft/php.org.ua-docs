@@ -28,7 +28,7 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 
 `flags` (string)
 
-[» Прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options). Символи у цьому аргументі будуть відсортовані за абеткою.
+[» Прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options). Символи у цьому аргументі будуть відсортовані за абеткою.
 
 ### Помилки
 
@@ -53,7 +53,7 @@ final public MongoDB\BSON\Regex::__construct(string $pattern, string $flags = ""
 ```php
 <?php
 
-$regex = new MongoDB\BSON\Regex('^foo', 'i');
+$regex = new MongoDB\BSON\Regex('^foo', 'i');
 var_dump($regex);
 
 ?>
@@ -72,5 +72,5 @@ object(MongoDB\BSON\Regex)#1 (2) {
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
--   [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

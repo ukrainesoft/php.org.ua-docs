@@ -38,7 +38,7 @@ checkdnsrr(string $hostname, string $type = "MX"): bool
 
 > **Зауваження**
 > 
-> Для сумісності з попередніми версіями PHP під Windows, де не було реалізації цієї функції, використовуйте клас [» PEAR](https://pear.php.net/) [» NetDNS](https://pear.php.net/package/Net_DNS)
+> Для сумісності з попередніми версіями PHP під Windows, де не було реалізації цієї функції, використовуйте клас [» PEAR](https://pear.php.net/) [» NetDNS](https://pear.php.net/package/Net_DNS)
 
 ### Дивіться також
 

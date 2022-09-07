@@ -13,10 +13,10 @@ title: Приклади
 ```php
 <?php
 win32_create_service(array(
-    'service'     => 'dummyphp',                                           # tимя службы
-    'display'     => 'sample dummy PHP service',                           # короткое описание
-    'description' => 'This is a dummy Windows service created using PHP.', # длинное описание
-    'params'      => '"' . __FILE__ . '"  run',                            # путь к скрипту и параметрам
+    'service'     => 'dummyphp',                                           # tимя службы
+    'display'     => 'sample dummy PHP service',                           # короткое описание
+    'description' => 'This is a dummy Windows service created using PHP.', # длинное описание
+    'params'      => '"' . __FILE__ . '"  run',                            # путь к скрипту и параметрам
 ));
 ?>
 ```
@@ -33,13 +33,13 @@ win32_delete_service('dummyphp');
 
 ```php
 <?php
-if ($argv[1] == 'run') {
-  win32_start_service_ctrl_dispatcher('dummyphp');
+if ($argv[1] == 'run') {
+  win32_start_service_ctrl_dispatcher('dummyphp');
 
-  while (WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {
-    # тут творим свои дела.
-    # пытаемся сотворить их быстрее, чем за 30 секунд.
-  }
+  while (WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {
+    # тут творим свои дела.
+    # пытаемся сотворить их быстрее, чем за 30 секунд.
+  }
 }
 ?>
 ```

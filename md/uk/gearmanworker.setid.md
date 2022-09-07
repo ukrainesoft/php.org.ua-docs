@@ -38,7 +38,7 @@ public GearmanWorker::setId(string $id): bool
 
 ```php
 <?php
-$worker= new GearmanWorker();
+$worker= new GearmanWorker();
 $worker->setId('test');
 ?>
 ```

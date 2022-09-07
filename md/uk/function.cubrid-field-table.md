@@ -44,15 +44,15 @@ cubrid_field_table(resource $result, int $field_offset): string
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$result = cubrid_execute($conn, "SELECT * FROM code");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$result = cubrid_execute($conn, "SELECT * FROM code");
 
-$col_num = cubrid_num_cols($result);
+$col_num = cubrid_num_cols($result);
 
-printf("%-15s %-15s %s\n", "Таблица поля", "Наименовение поля", "Тип поля");
-for($i = 0; $i < $col_num; $i++) {
-    printf("%-15s %-15s %s\n",
-        cubrid_field_table($result, $i), cubrid_field_name($result, $i), cubrid_field_type($result, $i));
+printf("%-15s %-15s %s\n", "Таблица поля", "Наименовение поля", "Тип поля");
+for($i = 0; $i < $col_num; $i++) {
+    printf("%-15s %-15s %s\n",
+        cubrid_field_table($result, $i), cubrid_field_name($result, $i), cubrid_field_type($result, $i));
 }
 
 cubrid_disconnect($conn);

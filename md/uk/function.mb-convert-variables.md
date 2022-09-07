@@ -15,7 +15,7 @@ title: мбconvertvariables
 ### Опис
 
 ```methodsynopsis
-mb_convert_variables(    string $to_encoding,    array|string $from_encoding,    mixed &$var,    mixed &...$vars): string|false
+mb_convert_variables(    string $to_encoding,    array|string $from_encoding,    mixed &$var,    mixed &...$vars): string|false
 ```
 
 Конвертує символи в змінних `var` і `vars` з кодування `from_encoding` у кодування `to_encoding`
@@ -50,8 +50,8 @@ mb_convert_variables(    string $to_encoding,    array|string $from_enco
 
 ```php
 <?php
-/* Преобразование переменных $post1, $post2 во внутреннюю кодировку скрипта */
-$interenc = mb_internal_encoding();
-$inputenc = mb_convert_variables($interenc, "ASCII,UTF-8,SJIS-win", $post1, $post2);
+/* Преобразование переменных $post1, $post2 во внутреннюю кодировку скрипта */
+$interenc = mb_internal_encoding();
+$inputenc = mb_convert_variables($interenc, "ASCII,UTF-8,SJIS-win", $post1, $post2);
 ?>
 ```

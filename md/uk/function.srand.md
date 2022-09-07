@@ -46,14 +46,14 @@ srand(int $seed = 0, int $mode = MT_RAND_MT19937): void
 
 ```php
 <?php
-// рандомизировать микросекундами
-function make_seed()
+// рандомизировать микросекундами
+function make_seed()
 {
-    list($usec, $sec) = explode(' ', microtime());
-    return $sec + $usec * 1000000;
+    list($usec, $sec) = explode(' ', microtime());
+    return $sec + $usec * 1000000;
 }
 srand(make_seed());
-$randval = rand();
+$randval = rand();
 ?>
 ```
 

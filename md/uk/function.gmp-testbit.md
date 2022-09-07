@@ -44,10 +44,10 @@ gmp_testbit(GMP|int|string $num, int $index): bool
 
 ```php
 <?php
-$n = gmp_init("1000000");
-var_dump(gmp_testbit($n, 1));
-gmp_setbit($n, 1);
-var_dump(gmp_testbit($n, 1));
+$n = gmp_init("1000000");
+var_dump(gmp_testbit($n, 1));
+gmp_setbit($n, 1);
+var_dump(gmp_testbit($n, 1));
 ?>
 ```
 

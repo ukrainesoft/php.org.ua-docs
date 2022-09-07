@@ -30,10 +30,10 @@ public **ДсSet::construct**[mixed](language.types.declarations.md#language.typ
 
 ```php
 <?php
-$set = new \Ds\Set();
+$set = new \Ds\Set();
 var_dump($set);
 
-$set = new \Ds\Set([1, 2, 3]);
+$set = new \Ds\Set([1, 2, 3]);
 var_dump($set);
 ?>
 ```

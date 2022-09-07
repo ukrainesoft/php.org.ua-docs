@@ -48,16 +48,16 @@ Phar::mapPhar слід використовувати лише всередин�
 
 ```php
 <?php
-function __autoload($class)
+function __autoload($class)
 {
-    include 'phar://me.phar/' . str_replace('_', '/', $class) . '.php';
+    include 'phar://me.phar/' . str_replace('_', '/', $class) . '.php';
 }
-try {
-    Phar::mapPhar('me.phar');
-    include 'phar://me.phar/startup.php';
-} catch (PharException $e) {
-    echo $e->getMessage();
-    die('Cannot initialize Phar');
+try {
+    Phar::mapPhar('me.phar');
+    include 'phar://me.phar/startup.php';
+} catch (PharException $e) {
+    echo $e->getMessage();
+    die('Cannot initialize Phar');
 }
 __HALT_COMPILER();
 ```

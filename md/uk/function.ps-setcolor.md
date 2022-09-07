@@ -15,7 +15,7 @@ title: псsetcolor
 ### Опис
 
 ```methodsynopsis
-ps_setcolor(    resource $psdoc,    string $type,    string $colorspace,    float $c1,    float $c2,    float $c3,    float $c4): bool
+ps_setcolor(    resource $psdoc,    string $type,    string $colorspace,    float $c1,    float $c2,    float $c3,    float $c4): bool
 ```
 
 Встановлює колір для малювання, заливки або того й іншого.

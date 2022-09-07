@@ -15,7 +15,7 @@ snmprealwalk — Повертає всі об'єкти, включаючи їх�
 ### Опис
 
 ```methodsynopsis
-snmprealwalk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmprealwalk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
 Функція **snmprealwalk()** використовується для обходу об'єктів SNMP, починаючи з `object_id` і повертає як їх значення, а й їх ідентифікатори об'єктів.
@@ -52,7 +52,7 @@ Read-спільнота.
 
 ```php
 <?php
- print_r(snmprealwalk("localhost", "public", "IF-MIB::ifName"));
+ print_r(snmprealwalk("localhost", "public", "IF-MIB::ifName"));
 ?>
 ```
 

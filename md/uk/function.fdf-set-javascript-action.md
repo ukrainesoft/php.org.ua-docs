@@ -15,7 +15,7 @@ fdfsetjavascriptaction — Встановлює дію javascript для пол�
 ### Опис
 
 ```methodsynopsis
-fdf_set_javascript_action(    resource $fdf_document,    string $fieldname,    int $trigger,    string $script): bool
+fdf_set_javascript_action(    resource $fdf_document,    string $fieldname,    int $trigger,    string $script): bool
 ```
 
 Встановлює дію JavaScript для заданого поля

@@ -44,12 +44,12 @@ public ReflectionType::__toString(): string
 
 ```php
 <?php
-function someFunction(string $param) {}
+function someFunction(string $param) {}
 
-$reflectionFunc = new ReflectionFunction('someFunction');
-$reflectionParam = $reflectionFunc->getParameters()[0];
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParam = $reflectionFunc->getParameters()[0];
 
-echo $reflectionParam->getType();
+echo $reflectionParam->getType();
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

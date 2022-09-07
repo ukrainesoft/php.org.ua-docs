@@ -34,15 +34,15 @@ public ReflectionProperty::isDefault(): bool
 
 ```php
 <?php
-class Foo {
-    public $bar;
+class Foo {
+    public $bar;
 }
 
-$o = new Foo();
-$o->bar = 42;
-$o->baz = 42;
+$o = new Foo();
+$o->bar = 42;
+$o->baz = 42;
 
-$ro = new ReflectionObject($o);
+$ro = new ReflectionObject($o);
 var_dump($ro->getProperty('bar')->isDefault());
 var_dump($ro->getProperty('baz')->isDefault());
 ?>

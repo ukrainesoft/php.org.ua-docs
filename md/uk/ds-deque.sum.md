@@ -38,7 +38,7 @@ public Ds\Deque::sum(): int|float
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 var_dump($deque->sum());
 ?>
 ```
@@ -53,7 +53,7 @@ int(6)
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2.5, 3]);
+$deque = new \Ds\Deque([1, 2.5, 3]);
 var_dump($deque->sum());
 ?>
 ```

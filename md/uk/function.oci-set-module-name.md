@@ -47,15 +47,15 @@ oci_set_module_name(resource $connection, string $name): bool
 ```php
 <?php
 
-$c = oci_connect('hr', 'welcome', 'localhost/XE');
+$c = oci_connect('hr', 'welcome', 'localhost/XE');
 
-// Запись модуля
-oci_set_module_name($c, 'Home Page');
+// Запись модуля
+oci_set_module_name($c, 'Home Page');
 
-// Код, осуществляющий запрос к БД, например выборка:
-$s = oci_parse($c, 'select * from dual');
+// Код, осуществляющий запрос к БД, например выборка:
+$s = oci_parse($c, 'select * from dual');
 oci_execute($s);
-oci_fetch_all($s, $res);
+oci_fetch_all($s, $res);
 
 sleep(30);
 ?>

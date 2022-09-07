@@ -52,17 +52,17 @@ intlcal_roll(IntlCalendar $calendar, int $field, int|bool $value): bool
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'pt_PT');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'pt_PT');
 
-$cal = new IntlGregorianCalendar(2013, 5 /* Июнь */, 30);
+$cal = new IntlGregorianCalendar(2013, 5 /* Июнь */, 30);
 
-$cal->add(IntlCalendar::FIELD_DAY_OF_MONTH, 1);
-var_dump(IntlDateFormatter::formatObject($cal)); // "01/07/2013, 00:00:00"
+$cal->add(IntlCalendar::FIELD_DAY_OF_MONTH, 1);
+var_dump(IntlDateFormatter::formatObject($cal)); // "01/07/2013, 00:00:00"
 
-$cal->set(2013, 5 /* Июнь */, 30);
-$cal->roll(IntlCalendar::FIELD_DAY_OF_MONTH, true); // свернуть так же, как скатиться +1
-var_dump(IntlDateFormatter::formatObject($cal)); // "01/06/2013, 00:00:00"
+$cal->set(2013, 5 /* Июнь */, 30);
+$cal->roll(IntlCalendar::FIELD_DAY_OF_MONTH, true); // свернуть так же, как скатиться +1
+var_dump(IntlDateFormatter::formatObject($cal)); // "01/06/2013, 00:00:00"
 ```
 
 Результат виконання цього прикладу:

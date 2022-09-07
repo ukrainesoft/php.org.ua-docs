@@ -44,23 +44,23 @@ fdf_set_file(resource $fdf_document, string $url, string $target_frame = ?): boo
 
 ```php
 <?php
-  /* Установка типа содержимого для Adobe FDF */
-  fdf_header();
+  /* Установка типа содержимого для Adobe FDF */
+  fdf_header();
 
-  /* Создание нового fdf */
-  $fdf = fdf_create();
+  /* Создание нового fdf */
+  $fdf = fdf_create();
 
-  /* Установка значения "bar" в поле "foo" */
-  fdf_set_value($fdf, "foo", "bar");
+  /* Установка значения "bar" в поле "foo" */
+  fdf_set_value($fdf, "foo", "bar");
 
-  /* сообщение клиенту, что нужно отображать данные FDF, используя "fdf_form.pdf" */
-  fdf_set_file($fdf, "http://www.example.com/fdf_form.pdf");
+  /* сообщение клиенту, что нужно отображать данные FDF, используя "fdf_form.pdf" */
+  fdf_set_file($fdf, "http://www.example.com/fdf_form.pdf");
 
-  /* вывод fdf */
-  fdf_save($fdf);
+  /* вывод fdf */
+  fdf_save($fdf);
 
-  /* закрытие */
-  fdf_close($fdf);
+  /* закрытие */
+  fdf_close($fdf);
 ?>
 ```
 

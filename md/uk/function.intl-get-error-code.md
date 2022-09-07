@@ -34,9 +34,9 @@ intl_get_error_code(): int
 
 ```php
 <?php
-$coll = collator_create( '<bad_param>' );
-if( !$coll ) {
-    handle_error( intl_get_error_code() );
+$coll = collator_create( '<bad_param>' );
+if( !$coll ) {
+    handle_error( intl_get_error_code() );
 }
 ?>
 ```

@@ -44,15 +44,15 @@ public PDO::pgsqlLOBOpen(string $oid, string $mode = "rb"): resource|false
 
 ```php
 <?php
-$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);
-$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $db->beginTransaction();
-$stmt = $db->prepare("select oid from BLOBS where ident = ?");
+$stmt = $db->prepare("select oid from BLOBS where ident = ?");
 $stmt->execute(array($some_id));
-$stmt->bindColumn('oid', $oid, PDO::PARAM_STR);
+$stmt->bindColumn('oid', $oid, PDO::PARAM_STR);
 $stmt->fetch(PDO::FETCH_BOUND);
-$stream = $db->pgsqlLOBOpen($oid, 'r');
-header("Content-type: application/octet-stream");
+$stream = $db->pgsqlLOBOpen($oid, 'r');
+header("Content-type: application/octet-stream");
 fpassthru($stream);
 ?>
 ```

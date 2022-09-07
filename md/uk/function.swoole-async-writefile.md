@@ -15,7 +15,7 @@ swooleasyncwritefile — Асинхронний запис даних у фай�
 ### Опис
 
 ```methodsynopsis
-swoole_async_writefile(    string $filename,    string $content,    callable $callback = ?,    int $flags = 0): bool
+swoole_async_writefile(    string $filename,    string $content,    callable $callback = ?,    int $flags = 0): bool
 ```
 
 ### Список параметрів

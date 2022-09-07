@@ -43,17 +43,17 @@ openssl_pkcs7_read(string $data, array &$certificates): bool
 ```php
 <?php
 
-$file = 'certs.p7b';
+$file = 'certs.p7b';
 
-$f = file_get_contents($file);
-$p7 = array();
-$r = openssl_pkcs7_read($f, $p7);
+$f = file_get_contents($file);
+$p7 = array();
+$r = openssl_pkcs7_read($f, $p7);
 
-if ($r === false) {
-    printf("ОШИБКА: %s не является корректным файлом p7b".PHP_EOL, $file);
-        for($e = openssl_error_string(), $i = 0; $e; $e = openssl_error_string(), $i++)
-            printf("SSL l%d: %s".PHP_EOL, $i, $e);
-    exit(1);
+if ($r === false) {
+    printf("ОШИБКА: %s не является корректным файлом p7b".PHP_EOL, $file);
+        for($e = openssl_error_string(), $i = 0; $e; $e = openssl_error_string(), $i++)
+            printf("SSL l%d: %s".PHP_EOL, $i, $e);
+    exit(1);
 }
 
 print_r($p7);

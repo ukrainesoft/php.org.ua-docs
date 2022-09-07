@@ -46,25 +46,25 @@ datefmt_get_timetype(IntlDateFormatter $formatter): int|false
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Тип времени средства форматирования : ' . datefmt_get_timetype($fmt);
-echo 'Первый отформатированный вывод ' . datefmt_format($fmt, 0);
+echo 'Тип времени средства форматирования : ' . datefmt_get_timetype($fmt);
+echo 'Первый отформатированный вывод ' . datefmt_format($fmt, 0);
 
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::SHORT,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::SHORT,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Теперь тип времени средства форматирования : ' . datefmt_get_timetype($fmt);
-echo 'Второй отформатированный вывод ' . datefmt_format($fmt, 0);
+echo 'Теперь тип времени средства форматирования : ' . datefmt_get_timetype($fmt);
+echo 'Второй отформатированный вывод ' . datefmt_format($fmt, 0);
 
 ?>
 ```
@@ -73,25 +73,25 @@ echo 'Второй отформатированный вывод ' . datef
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Тип времени средства форматирования : ' . $fmt->getTimeType();
-echo 'Первый отформатированный вывод ' . $fmt->format(0);
+echo 'Тип времени средства форматирования : ' . $fmt->getTimeType();
+echo 'Первый отформатированный вывод ' . $fmt->format(0);
 
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::SHORT,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::SHORT,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Теперь тип времени средства форматирования : ' . $fmt->getTimeType();
-echo 'Второй отформатированный вывод ' . $fmt->format(0);
+echo 'Теперь тип времени средства форматирования : ' . $fmt->getTimeType();
+echo 'Второй отформатированный вывод ' . $fmt->format(0);
 
 ?>
 ```

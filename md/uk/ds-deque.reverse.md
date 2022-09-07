@@ -34,7 +34,7 @@ public Ds\Deque::reverse(): void
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c"]);
+$deque = new \Ds\Deque(["a", "b", "c"]);
 $deque->reverse();
 
 print_r($deque);

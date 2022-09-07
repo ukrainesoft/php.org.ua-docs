@@ -24,7 +24,7 @@ public **ДсPriorityQueue::construct**
 
 ```php
 <?php
-$queue = new \Ds\PriorityQueue();
+$queue = new \Ds\PriorityQueue();
 var_dump($queue);
 ?>
 ```

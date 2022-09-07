@@ -30,10 +30,10 @@ public **ДсDeque::construct**[mixed](language.types.declarations.md#language.t
 
 ```php
 <?php
-$deque = new \Ds\Deque();
+$deque = new \Ds\Deque();
 var_dump($deque);
 
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 var_dump($deque);
 ?>
 ```

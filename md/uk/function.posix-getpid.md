@@ -34,7 +34,7 @@ posix_getpid(): int
 
 ```php
 <?php
-echo posix_getpid(); //8805
+echo posix_getpid(); //8805
 ?>
 ```
 

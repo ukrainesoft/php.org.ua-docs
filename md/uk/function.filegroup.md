@@ -40,7 +40,7 @@ filegroup(string $filename): int|false
 
 ```php
 <?php
-$filename = 'index.php';
+$filename = 'index.php';
 print_r(posix_getgrgid(filegroup($filename)));
 ?>
 ```

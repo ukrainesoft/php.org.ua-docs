@@ -15,7 +15,7 @@ Gmagick::compositeimage — Накладає одне зображення на 
 ### Опис
 
 ```methodsynopsis
-public Gmagick::compositeimage(    Gmagick $source,    int $COMPOSE,    int $x,    int $y): Gmagick
+public Gmagick::compositeimage(    Gmagick $source,    int $COMPOSE,    int $x,    int $y): Gmagick
 ```
 
 Накладає одне зображення на інше із зазначеним усуненням.

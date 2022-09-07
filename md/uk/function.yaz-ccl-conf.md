@@ -34,7 +34,7 @@ yaz_ccl_conf(resource $id, array $config): void
 
 Відображення – це послідовність пар атрибут-тип, атрибут-значення. Атрибут-тип та атрибут-значення розділені знаком рівності (`=`). Кожна пара відокремлюється пробілом.
 
-Додаткову інформацію можна знайти на сторінці [» CCL](http://www.indexdata.dk/yaz/doc/tools.tkl#CCL)
+Додаткову інформацію можна знайти на сторінці [» CCL](http://www.indexdata.dk/yaz/doc/tools.tkl#CCL)
 
 ### Значення, що повертаються
 
@@ -48,12 +48,12 @@ yaz_ccl_conf(resource $id, array $config): void
 
 ```php
 <?php
-$fields = array(
-  "ti" => "1=4",
-  "au"   => "1=1",
-  "isbn" => "1=7"
+$fields = array(
+  "ti" => "1=4",
+  "au"   => "1=1",
+  "isbn" => "1=7"
 );
-yaz_ccl_conf($id, $fields);
+yaz_ccl_conf($id, $fields);
 ?>
 ```
 

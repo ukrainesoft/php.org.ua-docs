@@ -40,17 +40,17 @@ public SplObjectStorage::offsetGet(object $object): mixed
 
 ```php
 <?php
-$s = new SplObjectStorage;
+$s = new SplObjectStorage;
 
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new StdClass;
+$o2 = new StdClass;
 
-$s[$o1] = "hello";
+$s[$o1] = "hello";
 $s->attach($o2);
 
 
-var_dump($s->offsetGet($o1)); //  $s[$o1]
-var_dump($s->offsetGet($o2)); //  $s[$o2]
+var_dump($s->offsetGet($o1)); //  $s[$o1]
+var_dump($s->offsetGet($o2)); //  $s[$o2]
 ?>
 ```
 

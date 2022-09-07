@@ -54,10 +54,10 @@ public Phar::decompress(?string $extension = null): ?Phar
 
 ```php
 <?php
-$p = new Phar('/путь/к/my.phar', 0, 'my.phar.gz');
-$p['myfile.txt'] = 'привет';
-$p['myfile2.txt'] = 'привет';
-$p3 = $p2->decompress(); // создаст /путь/к/my.phar
+$p = new Phar('/путь/к/my.phar', 0, 'my.phar.gz');
+$p['myfile.txt'] = 'привет';
+$p['myfile2.txt'] = 'привет';
+$p3 = $p2->decompress(); // создаст /путь/к/my.phar
 ?>
 ```
 

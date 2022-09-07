@@ -15,7 +15,7 @@ ftpнбfput — Завантажує попередньо відкритий ф�
 ### Опис
 
 ```methodsynopsis
-ftp_nb_fput(    FTP\Connection $ftp,    string $remote_filename,    resource $stream,    int $mode = FTP_BINARY,    int $offset = 0): int
+ftp_nb_fput(    FTP\Connection $ftp,    string $remote_filename,    resource $stream,    int $mode = FTP_BINARY,    int $offset = 0): int
 ```
 
 **ftpнбfput()** закачує дані з дескриптора файлу до віддаленого файлу на FTP-сервері.
@@ -62,27 +62,27 @@ ftp_nb_fput(    FTP\Connection $ftp,    string $remote_filename,    
 ```php
 <?php
 
-$file = 'index.php';
+$file = 'index.php';
 
-$fp = fopen($file, 'r');
+$fp = fopen($file, 'r');
 
-$ftp = ftp_connect($ftp_server);
+$ftp = ftp_connect($ftp_server);
 
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// Начало загрузки
-$ret = ftp_nb_fput($ftp, $file, $fp, FTP_BINARY);
-while ($ret == FTP_MOREDATA) {
+// Начало загрузки
+$ret = ftp_nb_fput($ftp, $file, $fp, FTP_BINARY);
+while ($ret == FTP_MOREDATA) {
 
-   // производим какие-то действия ...
-   echo ".";
+   // производим какие-то действия ...
+   echo ".";
 
-   // продолжение загрузки ...
-   $ret = ftp_nb_continue($ftp);
+   // продолжение загрузки ...
+   $ret = ftp_nb_continue($ftp);
 }
-if ($ret != FTP_FINISHED) {
-   echo "При загрузке файла произошла ошибка...";
-   exit(1);
+if ($ret != FTP_FINISHED) {
+   echo "При загрузке файла произошла ошибка...";
+   exit(1);
 }
 
 fclose($fp);

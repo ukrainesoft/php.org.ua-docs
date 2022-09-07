@@ -37,17 +37,17 @@ final public MongoDB\Driver\WriteResult::getWriteConcernError(): ?MongoDB\Driver
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");
+$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
 
-$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);
+$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);
 
-try {
-    $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
-} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
-    var_dump($e->getWriteResult()->getWriteConcernError());
+try {
+    $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
+} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
+    var_dump($e->getWriteResult()->getWriteConcernError());
 }
 
 ?>
@@ -72,4 +72,4 @@ object(MongoDB\Driver\WriteConcernError)#6 (3) {
 ### Дивіться також
 
 -   [MongoDBDriverWriteConcern](class.mongodb-driver-writeconcern.md)
--   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

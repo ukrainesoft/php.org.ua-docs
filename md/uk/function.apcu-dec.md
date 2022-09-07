@@ -15,7 +15,7 @@ apcudec — Зменшити збережене число
 ### Опис
 
 ```methodsynopsis
-apcu_dec(    string $key,    int $step = 1,    bool &$success = ?,    int $ttl = 0): int|false
+apcu_dec(    string $key,    int $step = 1,    bool &$success = ?,    int $ttl = 0): int|false
 ```
 
 Зменшує збережене число.
@@ -48,23 +48,23 @@ TTL(час життя), що використовується, якщо опер
 
 ```php
 <?php
-echo "Сделаем что-то без ошибки", PHP_EOL;
+echo "Сделаем что-то без ошибки", PHP_EOL;
 
-apcu_store('anumber', 42);
+apcu_store('anumber', 42);
 
-echo apcu_fetch('anumber'), PHP_EOL;
+echo apcu_fetch('anumber'), PHP_EOL;
 
-echo apcu_dec('anumber'), PHP_EOL;
-echo apcu_dec('anumber', 10), PHP_EOL;
-echo apcu_dec('anumber', 10, $success), PHP_EOL;
+echo apcu_dec('anumber'), PHP_EOL;
+echo apcu_dec('anumber', 10), PHP_EOL;
+echo apcu_dec('anumber', 10, $success), PHP_EOL;
 
 var_dump($success);
 
-echo "А теперь с ошибкой", PHP_EOL, PHP_EOL;
+echo "А теперь с ошибкой", PHP_EOL, PHP_EOL;
 
-apcu_store('astring', 'foo');
+apcu_store('astring', 'foo');
 
-$ret = apcu_dec('astring', 1, $fail);
+$ret = apcu_dec('astring', 1, $fail);
 
 var_dump($ret);
 var_dump($fail);

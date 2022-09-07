@@ -60,17 +60,17 @@ explode(string $separator, string $string, int $limit = PHP_INT_MAX): array
 
 ```php
 <?php
-// Пример 1
-$pizza  = "кусок1 кусок2 кусок3 кусок4 кусок5 кусок6";
-$pieces = explode(" ", $pizza);
-echo $pieces[0]; // кусок1
-echo $pieces[1]; // кусок2
+// Пример 1
+$pizza  = "кусок1 кусок2 кусок3 кусок4 кусок5 кусок6";
+$pieces = explode(" ", $pizza);
+echo $pieces[0]; // кусок1
+echo $pieces[1]; // кусок2
 
-// Пример 2
-$data = "foo:*:1023:1000::/home/foo:/bin/sh";
-list($user, $pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $data);
-echo $user; // foo
-echo $pass; // *
+// Пример 2
+$data = "foo:*:1023:1000::/home/foo:/bin/sh";
+list($user, $pass, $uid, $gid, $gecos, $home, $shell) = explode(":", $data);
+echo $user; // foo
+echo $pass; // *
 
 ?>
 ```
@@ -80,15 +80,15 @@ echo $pass; // *
 ```php
 <?php
 /*
-   Строка, которая не содержит разделителя, будет
-   просто возвращать Масив с одним значением оригинальной строки.
+   Строка, которая не содержит разделителя, будет
+   просто возвращать Масив с одним значением оригинальной строки.
 */
-$input1 = "hello";
-$input2 = "hello,there";
-$input3 = ',';
-var_dump( explode( ',', $input1 ) );
-var_dump( explode( ',', $input2 ) );
-var_dump( explode( ',', $input3 ) );
+$input1 = "hello";
+$input2 = "hello,there";
+$input3 = ',';
+var_dump( explode( ',', $input1 ) );
+var_dump( explode( ',', $input2 ) );
+var_dump( explode( ',', $input3 ) );
 
 ?>
 ```
@@ -116,13 +116,13 @@ array(2)
 
 ```php
 <?php
-$str = 'один|два|три|четыре';
+$str = 'один|два|три|четыре';
 
-// положительный лимит
-print_r(explode('|', $str, 2));
+// положительный лимит
+print_r(explode('|', $str, 2));
 
-// отрицательный лимит
-print_r(explode('|', $str, -1));
+// отрицательный лимит
+print_r(explode('|', $str, -1));
 ?>
 ```
 

@@ -15,7 +15,7 @@ ocipconnect — Встановлює постійне з'єднання із с�
 ### Опис
 
 ```methodsynopsis
-oci_pconnect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
+oci_pconnect(    string $username,    string $password,    ?string $connection_string = null,    string $encoding = "",    int $session_mode = OCI_DEFAULT): resource|false
 ```
 
 Створює постійне з'єднання з сервером Oracle та виконує аутентифікацію.
@@ -34,7 +34,7 @@ oci_pconnect(    string $username,    string $password,    ?string $
 
 `connection_string`
 
-Містить `экземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
+Містить `экземпляр Oracle` для підключення. Це може бути [» Easy Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1), або Connect Name з файлу tnsnames.ora, або ім'я локального екземпляра Oracle.
 
 Якщо не вказано окремо або **`null`**, PHP використовує змінні оточення, такі як **`TWO_TASK`** (на Linux) або **`LOCAL`** (на Windows) та **`ORACLE_SID`** для визначення `экземпляра Oracle` для з'єднання.
 
@@ -71,25 +71,25 @@ oci_pconnect(    string $username,    string $password,    ?string $
 ```php
 <?php
 
-// Подключение к XE сервису (т.е. базе данных) на локальной машине
-$conn = oci_pconnect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+// Подключение к XE сервису (т.е. базе данных) на локальной машине
+$conn = oci_pconnect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM employees');
+$stid = oci_parse($conn, 'SELECT * FROM employees');
 oci_execute($stid);
 
-echo "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
-    }
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "") . "</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 ?>
 ```

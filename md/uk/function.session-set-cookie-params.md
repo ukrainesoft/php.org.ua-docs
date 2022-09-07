@@ -15,7 +15,7 @@ sessionsetcookieparams — Встановлює параметри сесійн�
 ### Опис
 
 ```methodsynopsis
-session_set_cookie_params(    int $lifetime_or_options,    ?string $path = null,    ?string $domain = null,    ?bool $secure = null,    ?bool $httponly = null): bool
+session_set_cookie_params(    int $lifetime_or_options,    ?string $path = null,    ?string $domain = null,    ?bool $secure = null,    ?bool $httponly = null): bool
 ```
 
 Альтернативна сигнатура доступна з PHP 7.3.0:

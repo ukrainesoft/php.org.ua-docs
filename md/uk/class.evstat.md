@@ -60,20 +60,20 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     string
      $path
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -84,20 +84,20 @@ public
 final
    public
    static
-   createStopped(    
+   createStopped(    
     string
      $path
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

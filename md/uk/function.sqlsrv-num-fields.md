@@ -36,27 +36,27 @@ sqlsrv_num_fields(resource $stmt): mixed
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-   die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+   die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "SELECT * FROM Table_1";
-$stmt = sqlsrv_query($conn, $sql);
-if( $stmt === false) {
-   die( print_r( sqlsrv_errors(), true));
+$sql = "SELECT * FROM Table_1";
+$stmt = sqlsrv_query($conn, $sql);
+if( $stmt === false) {
+   die( print_r( sqlsrv_errors(), true));
 }
 
-$numFields = sqlsrv_num_fields( $stmt );
+$numFields = sqlsrv_num_fields( $stmt );
 
-while( sqlsrv_fetch( $stmt )) {
-   // Пройдитесь по полям каждой строки.
-   for($i = 0; $i < $numFields; $i++) {
-      echo sqlsrv_get_field($stmt, $i)." ";
-   }
-   echo "<br />";
+while( sqlsrv_fetch( $stmt )) {
+   // Пройдитесь по полям каждой строки.
+   for($i = 0; $i < $numFields; $i++) {
+      echo sqlsrv_get_field($stmt, $i)." ";
+   }
+   echo "<br />";
 }
 ?>
 ```

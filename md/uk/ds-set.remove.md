@@ -36,11 +36,11 @@ public Ds\Set::remove(mixed ...$values): void
 
 ```php
 <?php
-$set = new \Ds\Set([1, 2, 3, 4, 5]);
+$set = new \Ds\Set([1, 2, 3, 4, 5]);
 
-$set->remove(1);            // Удалить 1
-$set->remove(1, 2);         // Невозможно найти 1, но удалить 2
-$set->remove(...[3, 4]);    // Удалить 3 и 4
+$set->remove(1);            // Удалить 1
+$set->remove(1, 2);         // Невозможно найти 1, но удалить 2
+$set->remove(...[3, 4]);    // Удалить 3 и 4
 
 var_dump($set);
 ?>

@@ -811,17 +811,17 @@ $array = array( 7,
 // это то же самое, что и array(0 => 7, 1 => 8, ...)
 
 $switching = array(         10, // ключ = 0
-                    5    =>  6,
-                    3    =>  7,
-                    'a'  =>  4,
-                            11, // ключ = 6 (максимальным числовым индексом было 5)
-                    '8'  =>  2, // ключ = 8 (число!)
-                    '02' => 77, // ключ = '02'
-                    0    => 12  // значение 10 будет перезаписано на 12
-                  );
+                    5    =>  6,
+                    3    =>  7,
+                    'a'  =>  4,
+                            11, // ключ = 6 (максимальным числовым индексом было 5)
+                    '8'  =>  2, // ключ = 8 (число!)
+                    '02' => 77, // ключ = '02'
+                    0    => 12  // значение 10 будет перезаписано на 12
+                  );
 
-// пустой Масив
-$empty = array();
+// пустой Масив
+$empty = array();
 ?>
 ```
 
@@ -829,10 +829,10 @@ $empty = array();
 
 ```php
 <?php
-$colors = array('red', 'blue', 'green', 'yellow');
+$colors = array('red', 'blue', 'green', 'yellow');
 
-foreach ($colors as $color) {
-    echo "Вам нравится $color?\n";
+foreach ($colors as $color) {
+    echo "Вам нравится $color?\n";
 }
 
 ?>
@@ -853,11 +853,11 @@ foreach ($colors as $color) {
 
 ```php
 <?php
-foreach ($colors as &$color) {
-    $color = strtoupper($color);
+foreach ($colors as &$color) {
+    $color = strtoupper($color);
 }
-unset($color); /* это нужно для того, чтобы последующие записи в
-$color не меняли последний элемент Масива */
+unset($color); /* это нужно для того, чтобы последующие записи в
+$color не меняли последний элемент Масива */
 
 print_r($colors);
 ?>
@@ -881,7 +881,7 @@ Array
 
 ```php
 <?php
-$firstquarter  = array(1 => 'Январь', 'Февраль', 'Март');
+$firstquarter  = array(1 => 'Январь', 'Февраль', 'Март');
 print_r($firstquarter);
 ?>
 ```
@@ -901,10 +901,10 @@ Array
 
 ```php
 <?php
-// заполняем Масив всеми элементами из директории
-$handle = opendir('.');
-while (false !== ($file = readdir($handle))) {
-    $files[] = $file;
+// заполняем Масив всеми элементами из директории
+$handle = opendir('.');
+while (false !== ($file = readdir($handle))) {
+    $files[] = $file;
 }
 closedir($handle);
 ?>
@@ -927,30 +927,30 @@ print_r($files);
 
 ```php
 <?php
-$fruits = array ( "fruits"  => array ( "a" => "апельсин",
-                                       "b" => "банан",
-                                       "c" => "яблоко"
-                                     ),
-                  "numbers"   => array ( 1,
-                                       2,
-                                       3,
-                                       4,
-                                       5,
-                                       6
-                                     ),
-                  "holes"   => array (      "первая",
-                                       5 => "вторая",
-                                            "третья"
-                                     )
-                );
+$fruits = array ( "fruits"  => array ( "a" => "апельсин",
+                                       "b" => "банан",
+                                       "c" => "яблоко"
+                                     ),
+                  "numbers"   => array ( 1,
+                                       2,
+                                       3,
+                                       4,
+                                       5,
+                                       6
+                                     ),
+                  "holes"   => array (      "первая",
+                                       5 => "вторая",
+                                            "третья"
+                                     )
+                );
 
-// Несколько примеров доступа к значениям предыдущего Масива
-echo $fruits["holes"][5];    // напечатает "вторая"
-echo $fruits["fruits"]["a"]; // напечатает "апельсин"
-unset($fruits["holes"][0]);  // удалит "первая"
+// Несколько примеров доступа к значениям предыдущего Масива
+echo $fruits["holes"][5];    // напечатает "вторая"
+echo $fruits["fruits"]["a"]; // напечатает "апельсин"
+unset($fruits["holes"][0]);  // удалит "первая"
 
-// Создаст новый многомерный Масив
-$juices["apple"]["green"] = "good";
+// Создаст новый многомерный Масив
+$juices["apple"]["green"] = "good";
 ?>
 ```
 
@@ -958,12 +958,12 @@ $juices["apple"]["green"] = "good";
 
 ```php
 <?php
-$arr1 = array(2, 3);
-$arr2 = $arr1;
-$arr2[] = 4; // $arr2 изменился,
-             // $arr1 всё ещё array(2, 3)
+$arr1 = array(2, 3);
+$arr2 = $arr1;
+$arr2[] = 4; // $arr2 изменился,
+             // $arr1 всё ещё array(2, 3)
 
-$arr3 = &$arr1;
-$arr3[] = 4; // теперь $arr1 и $arr3 одинаковы
+$arr3 = &$arr1;
+$arr3[] = 4; // теперь $arr1 и $arr3 одинаковы
 ?>
 ```

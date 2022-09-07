@@ -34,8 +34,8 @@ public Ds\Queue::isEmpty(): bool
 
 ```php
 <?php
-$a = new \Ds\Queue([1, 2, 3]);
-$b = new \Ds\Queue();
+$a = new \Ds\Queue([1, 2, 3]);
+$b = new \Ds\Queue();
 
 var_dump($a->isEmpty());
 var_dump($b->isEmpty());

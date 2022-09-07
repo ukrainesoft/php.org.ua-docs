@@ -34,8 +34,8 @@ apache_get_version(): string|false
 
 ```php
 <?php
-$version = apache_get_version();
-echo "$version\n";
+$version = apache_get_version();
+echo "$version\n";
 ?>
 ```
 

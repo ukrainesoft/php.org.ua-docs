@@ -37,19 +37,19 @@ bool
 ```php
 <?php
 
-$config = array(
-    'application' => array(
-        'directory' => dirname(__FILE__),
-    ),
+$config = array(
+    'application' => array(
+        'directory' => dirname(__FILE__),
+    ),
 );
-$app = new Yaf_Application($config);
+$app = new Yaf_Application($config);
 
 $app->getDispatcher()->throwException(true);
 
-try {
-    $app->run();
-} catch (Yaf_Exception $e) {
-    var_dump($e->getMessage());
+try {
+    $app->run();
+} catch (Yaf_Exception $e) {
+    var_dump($e->getMessage());
 }
 ?>
 ```
@@ -65,12 +65,12 @@ string(59) "Could not find controller script /tmp/controllers/Index.php"
 ```php
 <?php
 
-$config = array(
-    'application' => array(
-        'directory' => dirname(__FILE__),
-    ),
+$config = array(
+    'application' => array(
+        'directory' => dirname(__FILE__),
+    ),
 );
-$app = new Yaf_Application($config);
+$app = new Yaf_Application($config);
 
 $app->getDispatcher()->throwException(false);
 

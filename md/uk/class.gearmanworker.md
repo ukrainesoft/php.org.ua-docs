@@ -27,7 +27,7 @@ title: Клас GearmanWorker
 
     /* Методы */
     
-   public addFunction(    string $function_name,    callable $function,    mixed &$context = ?,    int $timeout = ?): bool
+   public addFunction(    string $function_name,    callable $function,    mixed &$context = ?,    int $timeout = ?): bool
 public addOptions(int $option): bool
 public addServer(string $host = 127.0.0.1, int $port = 4730): bool
 public addServers(string $servers = 127.0.0.1:4730): bool

@@ -40,18 +40,18 @@ memory_get_usage(bool $real_usage = false): int
 
 ```php
 <?php
-// Это просто пример, цифры ниже будут
-// отличаться в зависимости от вашей системы
+// Это просто пример, цифры ниже будут
+// отличаться в зависимости от вашей системы
 
-echo memory_get_usage() . "\n"; // 36640
+echo memory_get_usage() . "\n"; // 36640
 
-$a = str_repeat("Hello", 4242);
+$a = str_repeat("Hello", 4242);
 
-echo memory_get_usage() . "\n"; // 57960
+echo memory_get_usage() . "\n"; // 57960
 
 unset($a);
 
-echo memory_get_usage() . "\n"; // 36744
+echo memory_get_usage() . "\n"; // 36744
 
 ?>
 ```

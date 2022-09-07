@@ -51,24 +51,24 @@ ftp_size(FTP\Connection $ftp, string $filename): int
 ```php
 <?php
 
-$file = 'somefile.txt';
+$file = 'somefile.txt';
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// получение размера файла $file
-$res = ftp_size($ftp, $file);
+// получение размера файла $file
+$res = ftp_size($ftp, $file);
 
-if ($res != -1) {
-    echo "Размер файла $file: $res байт";
-} else {
-    echo "Не удалось определить размер файла $file";
+if ($res != -1) {
+    echo "Размер файла $file: $res байт";
+} else {
+    echo "Не удалось определить размер файла $file";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 
 ?>

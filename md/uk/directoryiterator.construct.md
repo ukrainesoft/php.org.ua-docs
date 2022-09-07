@@ -44,11 +44,11 @@ public **DirectoryIterator::construct**(string `$directory`
 
 ```php
 <?php
-$dir = new DirectoryIterator(dirname(__FILE__));
-foreach ($dir as $fileinfo) {
-    if (!$fileinfo->isDot()) {
-        var_dump($fileinfo->getFilename());
-    }
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    if (!$fileinfo->isDot()) {
+        var_dump($fileinfo->getFilename());
+    }
 }
 ?>
 ```

@@ -47,16 +47,16 @@ stomp_get_session_id(resource $link): string|false
 ```php
 <?php
 
-/* подключение */
-try {
-    $stomp = new Stomp('tcp://localhost:61613');
-} catch(StompException $e) {
-    die('Ошибка соединения: ' . $e->getMessage());
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
 }
 
 var_dump($stomp->getSessionId());
 
-/* закрытие подключения */
+/* закрытие подключения */
 unset($stomp);
 
 ?>
@@ -73,17 +73,17 @@ string(35) "ID:php.net-52873-1257291895530-4:14"
 ```php
 <?php
 
-/* подключение */
-$link = stomp_connect('ssl://localhost:61612');
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
 
-/* проверка соединения */
-if (!$link) {
-    die('Ошибка соединения: ' . stomp_connect_error());
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
 }
 
 var_dump(stomp_get_session_id($link));
 
-/* закрытие подключения */
+/* закрытие подключения */
 stomp_close($link);
 
 ?>

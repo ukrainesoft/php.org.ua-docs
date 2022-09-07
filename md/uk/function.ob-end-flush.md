@@ -44,7 +44,7 @@ ob_end_flush(): bool
 
 ```php
 <?php
-  while (@ob_end_flush());
+  while (@ob_end_flush());
 ?>
 ```
 

@@ -45,15 +45,15 @@ mysql_fetch_row(resource $result): array
 
 ```php
 <?php
-$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
-if (!$result) {
-    echo 'Ошибка запроса: ' . mysql_error();
-    exit;
+$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$result) {
+    echo 'Ошибка запроса: ' . mysql_error();
+    exit;
 }
-$row = mysql_fetch_row($result);
+$row = mysql_fetch_row($result);
 
-echo $row[0]; // 42
-echo $row[1]; // email
+echo $row[0]; // 42
+echo $row[1]; // email
 ?>
 ```
 

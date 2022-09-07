@@ -34,7 +34,7 @@ posix_getuid(): int
 
 ```php
 <?php
-echo posix_getuid(); //10000
+echo posix_getuid(); //10000
 ?>
 ```
 

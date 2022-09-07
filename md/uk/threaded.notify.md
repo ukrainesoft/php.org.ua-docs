@@ -34,22 +34,22 @@ public Threaded::notify(): bool
 
 ```php
 <?php
-class My extends Thread {
-    public function run() {
-        /** заставить этот поток ждать **/
-        $this->synchronized(function($thread){
-            if (!$thread->done)
-                $thread->wait();
-        }, $this);
-    }
+class My extends Thread {
+    public function run() {
+        /** заставить этот поток ждать **/
+        $this->synchronized(function($thread){
+            if (!$thread->done)
+                $thread->wait();
+        }, $this);
+    }
 }
-$my = new My();
+$my = new My();
 $my->start();
-/** отправить уведомление ожидающему потоку **/
+/** отправить уведомление ожидающему потоку **/
 $my->synchronized(function($thread){
-    $thread->done = true;
-    $thread->notify();
-}, $my);
+    $thread->done = true;
+    $thread->notify();
+}, $my);
 var_dump($my->join());
 ?>
 ```

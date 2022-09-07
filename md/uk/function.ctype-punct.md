@@ -44,13 +44,13 @@ ctype_punct(mixed $text): bool
 
 ```php
 <?php
-$strings = array('ABasdk!@!$#', '!@ # $', '*&$()');
-foreach ($strings as $testcase) {
-    if (ctype_punct($testcase)) {
-        echo "Строка $testcase состоит только из знаков пунктуации.\n";
-    } else {
-        echo "Строка $testcase не состоит только из знаков пунктуации.\n";
-    }
+$strings = array('ABasdk!@!$#', '!@ # $', '*&$()');
+foreach ($strings as $testcase) {
+    if (ctype_punct($testcase)) {
+        echo "Строка $testcase состоит только из знаков пунктуации.\n";
+    } else {
+        echo "Строка $testcase не состоит только из знаков пунктуации.\n";
+    }
 }
 ?>
 ```

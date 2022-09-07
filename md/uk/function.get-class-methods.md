@@ -43,32 +43,32 @@ get_class_methods(object|string $object_or_class): array
 ```php
 <?php
 
-class myclass {
-    // конструктор
-    function __construct()
-    {
-        return(true);
-    }
+class myclass {
+    // конструктор
+    function __construct()
+    {
+        return(true);
+    }
 
-    // метод 1
-    function myfunc1()
-    {
-        return(true);
-    }
+    // метод 1
+    function myfunc1()
+    {
+        return(true);
+    }
 
-    // метод 2
-    function myfunc2()
-    {
-        return(true);
-    }
+    // метод 2
+    function myfunc2()
+    {
+        return(true);
+    }
 }
 
-$class_methods = get_class_methods('myclass');
-// или
-$class_methods = get_class_methods(new myclass());
+$class_methods = get_class_methods('myclass');
+// или
+$class_methods = get_class_methods(new myclass());
 
-foreach ($class_methods as $method_name) {
-    echo "$method_name\n";
+foreach ($class_methods as $method_name) {
+    echo "$method_name\n";
 }
 
 ?>

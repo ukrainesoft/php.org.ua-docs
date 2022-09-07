@@ -34,16 +34,16 @@ public SoapServer::getFunctions(): array
 
 ```php
 <?php
-$server = new SoapServer(NULL, array("uri" => "http://test-uri"));
+$server = new SoapServer(NULL, array("uri" => "http://test-uri"));
 $server->addFunction(SOAP_FUNCTIONS_ALL);
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $server->handle();
-} else {
-  echo "Этот сервер SOAP может обрабатывать следующие функции: ";
-  $functions = $server->getFunctions();
-  foreach($functions as $func) {
-    echo $func . "\n";
-  }
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $server->handle();
+} else {
+  echo "Этот сервер SOAP может обрабатывать следующие функции: ";
+  $functions = $server->getFunctions();
+  foreach($functions as $func) {
+    echo $func . "\n";
+  }
 }
 ?>
 ```

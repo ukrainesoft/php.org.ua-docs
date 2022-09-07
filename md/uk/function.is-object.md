@@ -42,22 +42,22 @@ is_object(mixed $value): bool
 
 ```php
 <?php
-// Объявляем простую функцию, которая возвращает
-// Масив из нашего объекта
-function get_students($obj)
+// Объявляем простую функцию, которая возвращает
+// Масив из нашего объекта
+function get_students($obj)
 {
-    if (!is_object($obj)) {
-        return false;
-    }
+    if (!is_object($obj)) {
+        return false;
+    }
 
-    return $obj->students;
+    return $obj->students;
 }
 
-// Создаём новый экземпляр класса
-// и заполняем некоторыми значениями
+// Создаём новый экземпляр класса
+// и заполняем некоторыми значениями
 
-$obj = new stdClass();
-$obj->students = array('Kalle', 'Ross', 'Felipe');
+$obj = new stdClass();
+$obj->students = array('Kalle', 'Ross', 'Felipe');
 
 var_dump(get_students(null));
 var_dump(get_students($obj));

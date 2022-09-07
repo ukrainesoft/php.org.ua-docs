@@ -34,13 +34,13 @@ public mysql_xdevapi\Schema::dropCollection(string $collection_name): bool
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS food")->execute();
-$session->sql("CREATE DATABASE food")->execute();
-$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
+$session->sql("DROP DATABASE IF EXISTS food")->execute();
+$session->sql("CREATE DATABASE food")->execute();
+$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();
 
-$schema = $session->getSchema("food");
+$schema = $session->getSchema("food");
 
 $schema->createCollection("trees");
 $schema->dropCollection("trees");

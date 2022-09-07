@@ -15,7 +15,7 @@ odbccolumn privileges — Перераховує стовпці та пов'яз
 ### Опис
 
 ```methodsynopsis
-odbc_columnprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table,    string $column): resource|false
+odbc_columnprivileges(    resource $odbc,    ?string $catalog,    string $schema,    string $table,    string $column): resource|false
 ```
 
 Перелічує стовпці та пов'язані привілеї даної таблиці.
@@ -67,11 +67,11 @@ odbc_columnprivileges(    resource $odbc,    ?string $catalog,    st
 
 ```php
 <?php
-$conn = odbc_connect($dsn, $user, $pass);
-$privileges = odbc_columnprivileges($conn, 'TutorialDB', 'dbo', 'test', 'id');
-while (($row = odbc_fetch_array($privileges))) {
-    print_r($row);
-    break; // последующие строки опущены для краткости
+$conn = odbc_connect($dsn, $user, $pass);
+$privileges = odbc_columnprivileges($conn, 'TutorialDB', 'dbo', 'test', 'id');
+while (($row = odbc_fetch_array($privileges))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
 }
 ?>
 ```

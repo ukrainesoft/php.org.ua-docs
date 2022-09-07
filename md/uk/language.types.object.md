@@ -14,15 +14,15 @@ title: Об'єкти
 
 ```php
 <?php
-class foo
+class foo
 {
-    function do_foo()
-    {
-        echo "Код foo.";
-    }
+    function do_foo()
+    {
+        echo "Код foo.";
+    }
 }
 
-$bar = new foo;
+$bar = new foo;
 $bar->do_foo();
 ?>
 ```
@@ -35,9 +35,9 @@ $bar->do_foo();
 
 ```php
 <?php
-$obj = (object) array('1' => 'foo');
-var_dump(isset($obj->{'1'})); // выводит 'bool(true)', начиная с PHP 7.2.0; 'bool(false)' ранее
-var_dump(key($obj)); // выводит 'string(1) "1"', начиная с PHP 7.2.0; 'int(1)' ранее
+$obj = (object) array('1' => 'foo');
+var_dump(isset($obj->{'1'})); // выводит 'bool(true)', начиная с PHP 7.2.0; 'bool(false)' ранее
+var_dump(key($obj)); // выводит 'string(1) "1"', начиная с PHP 7.2.0; 'int(1)' ранее
 ?>
 ```
 
@@ -45,7 +45,7 @@ var_dump(key($obj)); // выводит 'string(1) "1"', начиная с�
 
 ```php
 <?php
-$obj = (object) 'привет';
-echo $obj->scalar;  // выведет 'привет'
+$obj = (object) 'привет';
+echo $obj->scalar;  // выведет 'привет'
 ?>
 ```

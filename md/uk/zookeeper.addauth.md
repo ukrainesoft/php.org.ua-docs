@@ -55,17 +55,17 @@ public
 
 ```php
 <?php
-$zookeeper = new Zookeeper('locahost:2181');
-$path = '/path/to/node';
-$value = 'nodevalue';
-$zookeeper->set($path, $value);
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/path/to/node';
+$value = 'nodevalue';
+$zookeeper->set($path, $value);
 
-$zookeeper->addAuth('digest', 'user0:passwd0');
-$r = $zookeeper->get($path);
-if ($r)
-  echo $r;
+$zookeeper->addAuth('digest', 'user0:passwd0');
+$r = $zookeeper->get($path);
+if ($r)
+  echo $r;
 else
-  echo 'Ошибка';
+  echo 'Ошибка';
 ?>
 ```
 

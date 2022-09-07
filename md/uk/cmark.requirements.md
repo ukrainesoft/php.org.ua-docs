@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Для модуля CommonMark потрібна посилальна реалізація (C) [» cmark](https://github.com/commonmark/cmark)
+Для модуля CommonMark потрібна посилальна реалізація (C) [» cmark](https://github.com/commonmark/cmark)

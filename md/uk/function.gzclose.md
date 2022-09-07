@@ -36,8 +36,8 @@ gzclose(resource $stream): bool
 
 ```php
 <?php
-$gz = gzopen('somefile.gz','w9');
-gzputs ($gz, 'Добавлено в файл somefile.gz');
+$gz = gzopen('somefile.gz','w9');
+gzputs ($gz, 'Добавлено в файл somefile.gz');
 gzclose($gz);
 ?>
 ```

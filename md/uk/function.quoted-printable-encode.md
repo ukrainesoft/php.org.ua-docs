@@ -18,7 +18,7 @@ quotedprintableencode — Перетворює 8-бітовий рядок за 
 quoted_printable_encode(string $string): string
 ```
 
-Повертає рядок, закодований у формат quoted-printable відповідно до розділу 6.7 [» RFC2045](http://www.faqs.org/rfcs/rfc2045)
+Повертає рядок, закодований у формат quoted-printable відповідно до розділу 6.7 [» RFC2045](http://www.faqs.org/rfcs/rfc2045)
 
 Ця функція подібна до функції [imap8bit()](function.imap-8bit.md), крім того, що не вимагає для своєї роботи модуля IMAP.
 
@@ -39,7 +39,7 @@ quoted_printable_encode(string $string): string
 ```php
 <?php
 
-$encoded = quoted_printable_encode('Möchten Sie ein paar Äpfel?');
+$encoded = quoted_printable_encode('Möchten Sie ein paar Äpfel?');
 
 var_dump($encoded);
 var_dump(quoted_printable_decode($encoded));

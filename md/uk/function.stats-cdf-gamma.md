@@ -15,7 +15,7 @@ statscdfgamma — Обчислює один із параметрів Гамма
 ### Опис
 
 ```methodsynopsis
-stats_cdf_gamma(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_gamma(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
 Повертає кумулятивну функцію Гамма-розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`

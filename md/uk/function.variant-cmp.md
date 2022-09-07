@@ -15,7 +15,7 @@ variantcmp — Порівняти два варіанти
 ### Опис
 
 ```methodsynopsis
-variant_cmp(    mixed $left,    mixed $right,    int $locale_id = LOCALE_SYSTEM_DEFAULT,    int $flags = 0): int
+variant_cmp(    mixed $left,    mixed $right,    int $locale_id = LOCALE_SYSTEM_DEFAULT,    int $flags = 0): int
 ```
 
 Порівнює `left` з `right`

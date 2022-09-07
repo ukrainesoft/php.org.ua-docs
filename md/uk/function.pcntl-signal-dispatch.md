@@ -34,18 +34,18 @@ pcntl_signal_dispatch(): bool
 
 ```php
 <?php
-echo "Установка обработчика сигнала SIGHUP...\n";
-pcntl_signal(SIGHUP,  function($signo) {
-     echo "Вызван обработчик сигнала SIGHUP\n";
+echo "Установка обработчика сигнала SIGHUP...\n";
+pcntl_signal(SIGHUP,  function($signo) {
+     echo "Вызван обработчик сигнала SIGHUP\n";
 });
 
-echo "Посылаем сигнал SIGHUP самому себе...\n";
-posix_kill(posix_getpid(), SIGHUP);
+echo "Посылаем сигнал SIGHUP самому себе...\n";
+posix_kill(posix_getpid(), SIGHUP);
 
-echo "Отравка всех сигналов...\n";
+echo "Отравка всех сигналов...\n";
 pcntl_signal_dispatch();
 
-echo "Завершено.\n";
+echo "Завершено.\n";
 
 ?>
 ```

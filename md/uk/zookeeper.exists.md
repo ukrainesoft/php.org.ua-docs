@@ -49,13 +49,13 @@ public
 
 ```php
 <?php
-$zookeeper = new Zookeeper('locahost:2181');
-$path = '/path/to/node';
-$r = $zookeeper->exists($path);
-if ($r)
-  echo 'Существет';
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/path/to/node';
+$r = $zookeeper->exists($path);
+if ($r)
+  echo 'Существет';
 else
-  echo 'Не определено или ошибка';
+  echo 'Не определено или ошибка';
 ?>
 ```
 

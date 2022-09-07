@@ -42,15 +42,15 @@ public Imagick::trimImage(float $fuzz): bool
 
 ```php
 <?php
-/* Создайте объект и прочитайте изображение в */
-$im = new Imagick("image.jpg");
+/* Создайте объект и прочитайте изображение в */
+$im = new Imagick("image.jpg");
 
-/* Обрежьте изображение. */
+/* Обрежьте изображение. */
 $im->trimImage(0);
 
-/* Выведите изображение */
-header("Content-Type: image/" . $im->getImageFormat());
-echo $im;
+/* Выведите изображение */
+header("Content-Type: image/" . $im->getImageFormat());
+echo $im;
 ?>
 ```
 

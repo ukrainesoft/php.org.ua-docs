@@ -23,7 +23,7 @@ uopz_function(string $function, Closure $handler, int $modifiers = ?): void
 ```
 
 ```methodsynopsis
-uopz_function(    string $class,    string $function,    Closure $handler,    int $modifiers = ?): void
+uopz_function(    string $class,    string $function,    Closure $handler,    int $modifiers = ?): void
 ```
 
 Створює функцію під час виконання
@@ -54,10 +54,10 @@ uopz_function(    string $class,    string $function,    Closure $ha
 
 ```php
 <?php
-uopz_function("my_strlen", function($arg) {
-    return strlen($arg);
+uopz_function("my_strlen", function($arg) {
+    return strlen($arg);
 });
-echo my_strlen("Привет, Мир");
+echo my_strlen("Привет, Мир");
 ?>
 ```
 
@@ -71,13 +71,13 @@ echo my_strlen("Привет, Мир");
 
 ```php
 <?php
-class My {}
+class My {}
 
-uopz_function(My::class, "strlen", function($arg) {
-    return strlen($arg);
-}, ZEND_ACC_STATIC);
+uopz_function(My::class, "strlen", function($arg) {
+    return strlen($arg);
+}, ZEND_ACC_STATIC);
 
-echo My::strlen("Привет, Мир");
+echo My::strlen("Привет, Мир");
 ?>
 ```
 

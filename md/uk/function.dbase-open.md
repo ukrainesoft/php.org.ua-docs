@@ -57,13 +57,13 @@ dbase_open(string $path, int $mode): resource|false
 ```php
 <?php
 
-// открытие в режиме чтения
-$db = dbase_open('/tmp/test.dbf', 0);
+// открытие в режиме чтения
+$db = dbase_open('/tmp/test.dbf', 0);
 
-if ($db) {
-  // чтение некотрых данных
+if ($db) {
+  // чтение некотрых данных
 
-  dbase_close($db);
+  dbase_close($db);
 }
 
 ?>

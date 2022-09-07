@@ -40,8 +40,8 @@ base64_decode(string $string, bool $strict = false): string|false
 
 ```php
 <?php
-$str = '0K3RgtC+INC30LDQutC+0LTQuNGA0L7QstCw0L3QvdCw0Y8g0YHRgtGA0L7QutCw';
-echo base64_decode($str);
+$str = '0K3RgtC+INC30LDQutC+0LTQuNGA0L7QstCw0L3QvdCw0Y8g0YHRgtGA0L7QutCw';
+echo base64_decode($str);
 ?>
 ```
 
@@ -54,4 +54,4 @@ echo base64_decode($str);
 ### Дивіться також
 
 -   [base64encode()](function.base64-encode.md) - Кодує дані у формат MIME base64
--   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8
+-   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8

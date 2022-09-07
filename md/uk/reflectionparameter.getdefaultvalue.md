@@ -40,19 +40,19 @@ public ReflectionParameter::getDefaultValue(): mixed
 
 ```php
 <?php
-function foo($test, $bar = 'baz')
+function foo($test, $bar = 'baz')
 {
-    echo $test . $bar;
+    echo $test . $bar;
 }
 
-$function = new ReflectionFunction('foo');
+$function = new ReflectionFunction('foo');
 
-foreach ($function->getParameters() as $param) {
-    echo 'Имя: ' . $param->getName() . PHP_EOL;
-    if ($param->isOptional()) {
-        echo 'Значение по умолчанию: ' . $param->getDefaultValue() . PHP_EOL;
-    }
-    echo PHP_EOL;
+foreach ($function->getParameters() as $param) {
+    echo 'Имя: ' . $param->getName() . PHP_EOL;
+    if ($param->isOptional()) {
+        echo 'Значение по умолчанию: ' . $param->getDefaultValue() . PHP_EOL;
+    }
+    echo PHP_EOL;
 }
 ?>
 ```

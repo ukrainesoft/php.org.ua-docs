@@ -15,7 +15,7 @@ Imagick::resizeImage — Масштабування зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::resizeImage(    int $columns,    int $rows,    int $filter,    float $blur,    bool $bestfit = false,    bool $legacy = false): bool
+public Imagick::resizeImage(    int $columns,    int $rows,    int $filter,    float $blur,    bool $bestfit = false,    bool $legacy = false): bool
 ```
 
 Масштабує зображення до бажаних розмірів за допомогою [filter](imagick.constants.md#imagick.constants.filters)
@@ -60,35 +60,35 @@ public Imagick::resizeImage(    int $columns,    int $rows,    int $
 
 ```php
 <?php
-function resizeImage($imagePath, $width, $height, $filterType, $blur, $bestFit, $cropZoom) {
-    //Коэффициент размытия, где значение >  1 делает изображение более размытым, а значение < 1 - более резким.
-    $imagick = new \Imagick(realpath($imagePath));
+function resizeImage($imagePath, $width, $height, $filterType, $blur, $bestFit, $cropZoom) {
+    //Коэффициент размытия, где значение >  1 делает изображение более размытым, а значение < 1 - более резким.
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $imagick->resizeImage($width, $height, $filterType, $blur, $bestFit);
+    $imagick->resizeImage($width, $height, $filterType, $blur, $bestFit);
 
-    $cropWidth = $imagick->getImageWidth();
-    $cropHeight = $imagick->getImageHeight();
+    $cropWidth = $imagick->getImageWidth();
+    $cropHeight = $imagick->getImageHeight();
 
-    if ($cropZoom) {
-        $newWidth = $cropWidth / 2;
-        $newHeight = $cropHeight / 2;
+    if ($cropZoom) {
+        $newWidth = $cropWidth / 2;
+        $newHeight = $cropHeight / 2;
 
-        $imagick->cropimage(
-            $newWidth,
-            $newHeight,
-            ($cropWidth - $newWidth) / 2,
-            ($cropHeight - $newHeight) / 2
-        );
+        $imagick->cropimage(
+            $newWidth,
+            $newHeight,
+            ($cropWidth - $newWidth) / 2,
+            ($cropHeight - $newHeight) / 2
+        );
 
-        $imagick->scaleimage(
-            $imagick->getImageWidth() * 4,
-            $imagick->getImageHeight() * 4
-        );
-    }
+        $imagick->scaleimage(
+            $imagick->getImageWidth() * 4,
+            $imagick->getImageHeight() * 4
+        );
+    }
 
 
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

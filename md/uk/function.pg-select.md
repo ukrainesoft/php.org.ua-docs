@@ -15,7 +15,7 @@ title: пгselect
 ### Опис
 
 ```methodsynopsis
-pg_select(    PgSql\Connection $connection,    string $table_name,    array $conditions,    int $flags = PGSQL_DML_EXEC,    int $mode = PGSQL_ASSOC): array|string|false
+pg_select(    PgSql\Connection $connection,    string $table_name,    array $conditions,    int $flags = PGSQL_DML_EXEC,    int $mode = PGSQL_ASSOC): array|string|false
 ```
 
 **пгselect()** вибирає записи з бази даних, які відповідають умовам `field=>value`, заданим у масиві `conditions`
@@ -61,17 +61,17 @@ pg_select(    PgSql\Connection $connection,    string $table_name,   
 
 ```php
 <?php
-  $db = pg_connect('dbname=foo');
-  // Это безопасно в некоторой степени, поскольку все значения экранируются.
-  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
-  // ни с через экранирование, ни с помощью подготовленного запроса.
-  $rec = pg_select($db, 'post_log', $_POST);
-  if ($rec) {
-      echo "Records selected\n";
-      var_dump($rec);
-  } else {
-      echo "Должно быть переданы неверные данные\n";
-  }
+  $db = pg_connect('dbname=foo');
+  // Это безопасно в некоторой степени, поскольку все значения экранируются.
+  // Однако PostgreSQL поддерживает JSON/Масив. Для этих значений это не безопасно
+  // ни с через экранирование, ни с помощью подготовленного запроса.
+  $rec = pg_select($db, 'post_log', $_POST);
+  if ($rec) {
+      echo "Records selected\n";
+      var_dump($rec);
+  } else {
+      echo "Должно быть переданы неверные данные\n";
+  }
 ?>
 ```
 

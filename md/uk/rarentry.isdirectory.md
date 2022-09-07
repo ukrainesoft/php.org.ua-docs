@@ -35,10 +35,10 @@ public RarEntry::isDirectory(): bool
 ```php
 <?php
 //...
-//Откроем файл, получим запись и сохраним в переменной $e...
+//Откроем файл, получим запись и сохраним в переменной $e...
 //...
 
-$isDirectory = (bool) ((($e->getHostOs() == RAR_HOST_WIN32) && ($e->getAttr() & 0x10)) ||
-    (($e->getHostOs() == RAR_HOST_UNIX) && (($e->getAttr() & 0xf000) == 0x4000)));
+$isDirectory = (bool) ((($e->getHostOs() == RAR_HOST_WIN32) && ($e->getAttr() & 0x10)) ||
+    (($e->getHostOs() == RAR_HOST_UNIX) && (($e->getAttr() & 0xf000) == 0x4000)));
 ?>
 ```

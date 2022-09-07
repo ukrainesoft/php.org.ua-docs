@@ -14,9 +14,9 @@ title: Різні питання
 
 **Як поводитися зі стислими bz2 посібниками під Windows?**
 
-Якщо у вас немає архіватора для роботи з файлами bz2, то [» скачайте](https://www.sourceware.org/bzip2/) утиліту для командного рядка від Redhat (будь ласка, шукайте подробиці нижче).
+Якщо у вас немає архіватора для роботи з файлами bz2, то [» скачайте](https://www.sourceware.org/bzip2/) утиліту для командного рядка від Redhat (будь ласка, шукайте подробиці нижче).
 
-Якщо ви не бажаєте використовувати утиліту командного рядка, ви можете спробувати безкоштовні кошти, такі як [» Stuffit Expander](http://www.stuffit.com/) [» UltimateZip](http://www.ultimatezip.com/) [» 7-Zip](http://www.7-zip.org/) або [» Quick Zip](http://www.quickzip.org/). Якщо у вас є такі утиліти як [» WinRAR](http://www.rarlab.com/) або [» Power Archiver](http://www.powerarchiver.com/), то за допомогою їх можна легко розпакувати файли bz2. Якщо ви користуєтеся Total Commander (колишній Windows Commander), модуль bz2, що підключається, для цієї програми доступний безкоштовно з сайту [» Total Commander](http://www.ghisler.com/)
+Якщо ви не бажаєте використовувати утиліту командного рядка, ви можете спробувати безкоштовні кошти, такі як [» Stuffit Expander](http://www.stuffit.com/) [» UltimateZip](http://www.ultimatezip.com/) [» 7-Zip](http://www.7-zip.org/) або [» Quick Zip](http://www.quickzip.org/). Якщо у вас є такі утиліти як [» WinRAR](http://www.rarlab.com/) або [» Power Archiver](http://www.powerarchiver.com/), то за допомогою їх можна легко розпакувати файли bz2. Якщо ви користуєтеся Total Commander (колишній Windows Commander), модуль bz2, що підключається, для цієї програми доступний безкоштовно з сайту [» Total Commander](http://www.ghisler.com/)
 
 Утиліта командного рядка bzip2 від Redhat:
 
@@ -28,4 +28,4 @@ title: Різні питання
 -   перейдіть в директорію (команда cd), куди ви зберегли завантажений phpmanuallang.x.bz2
 -   викличте bzip2 -d phpmanuallang.x.bz2 для вилучення phpmanuallang.x до тієї ж директорії
 
-У випадку, якщо ви завантажили phpmanuallang.tar.bz2, що містить безліч html файлів, процедура така сама. Єдина відмінність полягає в тому, що ви отримали файл phpmanuallang.tar. Відомо, що формат tar обробляється більшістю поширених архіваторів під Windows, наприклад, такими як [» WinZip](http://www.winzip.com/)
+У випадку, якщо ви завантажили phpmanuallang.tar.bz2, що містить безліч html файлів, процедура така сама. Єдина відмінність полягає в тому, що ви отримали файл phpmanuallang.tar. Відомо, що формат tar обробляється більшістю поширених архіваторів під Windows, наприклад, такими як [» WinZip](http://www.winzip.com/)

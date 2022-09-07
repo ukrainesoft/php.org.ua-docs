@@ -40,9 +40,9 @@ geoip_isp_by_name(string $hostname): string
 
 ```php
 <?php
-$isp = geoip_isp_by_name('www.example.com');
-if ($isp) {
-    echo 'Этот IP-адрес управляется провайдером: ' . $isp;
+$isp = geoip_isp_by_name('www.example.com');
+if ($isp) {
+    echo 'Этот IP-адрес управляется провайдером: ' . $isp;
 }
 ?>
 ```

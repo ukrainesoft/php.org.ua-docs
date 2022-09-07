@@ -18,7 +18,7 @@ imapbinary — Конвертує 8-бітний рядок у рядок base64
 imap_binary(string $string): string|false
 ```
 
-Конвертує 8-бітний рядок у рядок base64 відповідно до [» RFC2045](http://www.faqs.org/rfcs/rfc2045), секція 6.8.
+Конвертує 8-бітний рядок у рядок base64 відповідно до [» RFC2045](http://www.faqs.org/rfcs/rfc2045), секція 6.8.
 
 ### Список параметрів
 

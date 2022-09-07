@@ -15,7 +15,7 @@ Imagick::statisticImage — Опис
 ### Опис
 
 ```methodsynopsis
-public Imagick::statisticImage(    int $type,    int $width,    int $height,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::statisticImage(    int $type,    int $width,    int $height,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Замінює кожен піксель відповідною статистикою з околиці зазначеної ширини та висоти.
@@ -40,21 +40,21 @@ public Imagick::statisticImage(    int $type,    int $width,    int 
 
 ```php
 <?php
-function statisticImage($imagePath, $statisticType, $width, $height, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
+function statisticImage($imagePath, $statisticType, $width, $height, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $imagick->statisticImage(
-        $statisticType,
-        $width,
-        $height,
-        $channel
-    );
+    $imagick->statisticImage(
+        $statisticType,
+        $width,
+        $height,
+        $channel
+    );
 
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
-statisticImage($imagePath, \Imagick::STATISTIC_MEDIAN, 5, 5, \Imagick::CHANNEL_DEFAULT);
+statisticImage($imagePath, \Imagick::STATISTIC_MEDIAN, 5, 5, \Imagick::CHANNEL_DEFAULT);
 
 ?>
 ```

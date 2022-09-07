@@ -16,10 +16,10 @@ title: Анонімні функції
 
 ```php
 <?php
-echo preg_replace_callback('~-([a-z])~', function ($match) {
-    return strtoupper($match[1]);
-}, 'hello-world');
-// выведет helloWorld
+echo preg_replace_callback('~-([a-z])~', function ($match) {
+    return strtoupper($match[1]);
+}, 'hello-world');
+// выведет helloWorld
 ?>
 ```
 
@@ -29,9 +29,9 @@ echo preg_replace_callback('~-([a-z])~', function ($match) {
 
 ```php
 <?php
-$greet = function($name)
+$greet = function($name)
 {
-    printf("Привет, %s\r\n", $name);
+    printf("Привет, %s\r\n", $name);
 };
 
 $greet('Мир');
@@ -45,48 +45,48 @@ $greet('PHP');
 
 ```php
 <?php
-$message = 'привет';
+$message = 'привет';
 
-// Без "use"
-$example = function () {
-    var_dump($message);
+// Без "use"
+$example = function () {
+    var_dump($message);
 };
 $example();
 
-// Наследуем $message
-$example = function () use ($message) {
-    var_dump($message);
+// Наследуем $message
+$example = function () use ($message) {
+    var_dump($message);
 };
 $example();
 
-// Значение унаследованной переменной задано там, где функция определена,
-// но не там, где вызвана
-$message = 'мир';
+// Значение унаследованной переменной задано там, где функция определена,
+// но не там, где вызвана
+$message = 'мир';
 $example();
 
-// Сбросим message
-$message = 'привет';
+// Сбросим message
+$message = 'привет';
 
-// Наследование по ссылке
-$example = function () use (&$message) {
-    var_dump($message);
+// Наследование по ссылке
+$example = function () use (&$message) {
+    var_dump($message);
 };
 $example();
 
-// Изменённое в родительской области видимости значение
-// остаётся тем же внутри вызова функции
-$message = 'мир';
-echo $example();
+// Изменённое в родительской области видимости значение
+// остаётся тем же внутри вызова функции
+$message = 'мир';
+echo $example();
 
-// Замыкания могут принимать обычные аргументы
-$example = function ($arg) use ($message) {
-    var_dump($arg . ', ' . $message);
+// Замыкания могут принимать обычные аргументы
+$example = function ($arg) use ($message) {
+    var_dump($arg . ', ' . $message);
 };
 $example("привет");
 
-// Объявление типа возвращаемого значения идет после конструкции use
-$example = function () use ($message): string {
-    return "привет $message";
+// Объявление типа возвращаемого значения идет после конструкции use
+$example = function () use ($message): string {
+    return "привет $message";
 };
 var_dump($example());
 ?>
@@ -113,56 +113,56 @@ string(11) "привет мир"
 
 ```php
 <?php
-// Базовая корзина покупок, содержащая список добавленных
-// продуктов и количество каждого продукта. Включает метод,
-// вычисляющий общую цену элементов корзины с помощью
-// callback-замыкания.
-class Cart
+// Базовая корзина покупок, содержащая список добавленных
+// продуктов и количество каждого продукта. Включает метод,
+// вычисляющий общую цену элементов корзины с помощью
+// callback-замыкания.
+class Cart
 {
-    const PRICE_BUTTER  = 1.00;
-    const PRICE_MILK    = 3.00;
-    const PRICE_EGGS    = 6.95;
+    const PRICE_BUTTER  = 1.00;
+    const PRICE_MILK    = 3.00;
+    const PRICE_EGGS    = 6.95;
 
-    protected $products = array();
+    protected $products = array();
 
-    public function add($product, $quantity)
-    {
-        $this->products[$product] = $quantity;
-    }
+    public function add($product, $quantity)
+    {
+        $this->products[$product] = $quantity;
+    }
 
-    public function getQuantity($product)
-    {
-        return isset($this->products[$product]) ? $this->products[$product] :
-               FALSE;
-    }
+    public function getQuantity($product)
+    {
+        return isset($this->products[$product]) ? $this->products[$product] :
+               FALSE;
+    }
 
-    public function getTotal($tax)
-    {
-        $total = 0.00;
+    public function getTotal($tax)
+    {
+        $total = 0.00;
 
-        $callback =
-            function ($quantity, $product) use ($tax, &$total)
-            {
-                $pricePerItem = constant(__CLASS__ . "::PRICE_" .
-                    strtoupper($product));
-                $total += ($pricePerItem * $quantity) * ($tax + 1.0);
-            };
+        $callback =
+            function ($quantity, $product) use ($tax, &$total)
+            {
+                $pricePerItem = constant(__CLASS__ . "::PRICE_" .
+                    strtoupper($product));
+                $total += ($pricePerItem * $quantity) * ($tax + 1.0);
+            };
 
-        array_walk($this->products, $callback);
-        return round($total, 2);
-    }
+        array_walk($this->products, $callback);
+        return round($total, 2);
+    }
 }
 
-$my_cart = new Cart;
+$my_cart = new Cart;
 
-// Добавляем несколько элементов в корзину
-$my_cart->add('butter', 1);
-$my_cart->add('milk', 3);
-$my_cart->add('eggs', 6);
+// Добавляем несколько элементов в корзину
+$my_cart->add('butter', 1);
+$my_cart->add('milk', 3);
+$my_cart->add('eggs', 6);
 
-// Выводим общую сумму с 5% налогом на продажу.
-print $my_cart->getTotal(0.05) . "\n";
-// Результатом будет 54.29
+// Выводим общую сумму с 5% налогом на продажу.
+print $my_cart->getTotal(0.05) . "\n";
+// Результатом будет 54.29
 ?>
 ```
 
@@ -171,18 +171,18 @@ print $my_cart->getTotal(0.05) . "\n";
 ```php
 <?php
 
-class Test
+class Test
 {
-    public function testing()
-    {
-        return function() {
-            var_dump($this);
-        };
-    }
+    public function testing()
+    {
+        return function() {
+            var_dump($this);
+        };
+    }
 }
 
-$object = new Test;
-$function = $object->testing();
+$object = new Test;
+$function = $object->testing();
 $function();
 
 ?>
@@ -206,17 +206,17 @@ object(Test)#1 (0) {
 ```php
 <?php
 
-class Foo
+class Foo
 {
-    function __construct()
-    {
-        $func = static function() {
-            var_dump($this);
-        };
-        $func();
-    }
+    function __construct()
+    {
+        $func = static function() {
+            var_dump($this);
+        };
+        $func();
+    }
 };
-new Foo();
+new Foo();
 
 ?>
 ```
@@ -233,10 +233,10 @@ NULL
 ```php
 <?php
 
-$func = static function() {
-    // тело функции
+$func = static function() {
+    // тело функции
 };
-$func = $func->bindTo(new StdClass);
+$func = $func->bindTo(new StdClass);
 $func();
 
 ?>

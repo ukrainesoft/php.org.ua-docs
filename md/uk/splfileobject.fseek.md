@@ -46,13 +46,13 @@ public SplFileObject::fseek(int $offset, int $whence = SEEK_SET): int
 
 ```php
 <?php
-$file = new SplFileObject("somefile.txt");
+$file = new SplFileObject("somefile.txt");
 
-// Чтение первой строки
-$data = $file->fgets();
+// Чтение первой строки
+$data = $file->fgets();
 
-// Перемещаемся снова в начало файла
-// То же, что и $file->rewind();
+// Перемещаемся снова в начало файла
+// То же, что и $file->rewind();
 $file->fseek(0);
 ?>
 ```

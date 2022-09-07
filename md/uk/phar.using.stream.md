@@ -14,10 +14,10 @@ title: 'Використання Phar-архівів: обгортка пото�
 
 ```php
 <?php
-$context = stream_context_create(array('phar' =>
-                                    array('compress' => Phar::GZ)),
-                                    array('metadata' => array('user' => 'cellog')));
-file_put_contents('phar://my.phar/somefile.php', 0, $context);
+$context = stream_context_create(array('phar' =>
+                                    array('compress' => Phar::GZ)),
+                                    array('metadata' => array('user' => 'cellog')));
+file_put_contents('phar://my.phar/somefile.php', 0, $context);
 ?>
 ```
 

@@ -44,11 +44,11 @@ odbc_prepare(resource $odbc, string $query): resource|false
 
 ```php
 <?php
-$a = 1;
-$b = 2;
-$c = 3;
-$stmt    = odbc_prepare($conn, 'CALL myproc(?,?,?)');
-$success = odbc_execute($stmt, array($a, $b, $c));
+$a = 1;
+$b = 2;
+$c = 3;
+$stmt    = odbc_prepare($conn, 'CALL myproc(?,?,?)');
+$success = odbc_execute($stmt, array($a, $b, $c));
 ?>
 ```
 

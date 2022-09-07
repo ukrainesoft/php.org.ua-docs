@@ -81,7 +81,7 @@ public dump(): void
 public getToken(): Parle\Token
 public insertMacro(string $name, string $regex): void
 public push(string $regex, int $id): void
-public push(    string $state,    string $regex,    int $id,    string $newState): void
+public push(    string $state,    string $regex,    int $id,    string $newState): void
 public push(string $state, string $regex, string $newState): void
 public pushState(string $state): int
 public reset(int $pos): void

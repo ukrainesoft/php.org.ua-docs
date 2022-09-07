@@ -36,9 +36,9 @@ gzeof(resource $stream): bool
 
 ```php
 <?php
-$gz = gzopen('somefile.gz', 'r');
-while (!gzeof($gz)) {
-  echo gzgetc($gz);
+$gz = gzopen('somefile.gz', 'r');
+while (!gzeof($gz)) {
+  echo gzgetc($gz);
 }
 gzclose($gz);
 ?>

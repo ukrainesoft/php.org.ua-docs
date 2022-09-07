@@ -17,19 +17,19 @@ EvLoop::defaultLoop — Повертає або створює цикл поді
 ```methodsynopsis
 public
    static
-   EvLoop::defaultLoop(    
+   EvLoop::defaultLoop(    
     int
      $flags
      = Ev::FLAG_AUTO
-   ,    
+   ,    
     mixed
      $data
      = NULL
-   ,    
+   ,    
     float
      $io_interval
      = 0.
-   ,    
+   ,    
     float
      $timeout_interval
      = 0.

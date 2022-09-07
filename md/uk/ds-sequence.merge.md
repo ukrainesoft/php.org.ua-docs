@@ -40,9 +40,9 @@ abstract public Ds\Sequence::merge(mixed $values): Ds\Sequence
 
 ```php
 <?php
-$sequence = new \Ds\Vector([1, 2, 3]);
+$sequence = new \Ds\Vector([1, 2, 3]);
 
-var_dump($sequence->merge([4, 5, 6]));
+var_dump($sequence->merge([4, 5, 6]));
 var_dump($sequence);
 ?>
 ```

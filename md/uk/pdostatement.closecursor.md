@@ -26,12 +26,12 @@ public PDOStatement::closeCursor(): bool
 
 ```php
 <?php
-do {
-    while ($stmt->fetch())
-        ;
-    if (!$stmt->nextRowset())
-        break;
-} while (true);
+do {
+    while ($stmt->fetch())
+        ;
+    if (!$stmt->nextRowset())
+        break;
+} while (true);
 ?>
 ```
 
@@ -51,22 +51,22 @@ do {
 
 ```php
 <?php
-/* Создание объекта PDOStatement */
-$stmt = $dbh->prepare('SELECT foo FROM bar');
+/* Создание объекта PDOStatement */
+$stmt = $dbh->prepare('SELECT foo FROM bar');
 
-/* Создание другого объекта PDOStatement */
-$otherStmt = $dbh->prepare('SELECT foobaz FROM foobar');
+/* Создание другого объекта PDOStatement */
+$otherStmt = $dbh->prepare('SELECT foobaz FROM foobar');
 
-/* Выполнение первого запроса */
+/* Выполнение первого запроса */
 $stmt->execute();
 
-/* Выборка только первой строки результирующего набора первого запроса */
+/* Выборка только первой строки результирующего набора первого запроса */
 $stmt->fetch();
 
-/* Следующий вызов closeCursor() может быть обязательным для некоторых драйверов */
+/* Следующий вызов closeCursor() может быть обязательным для некоторых драйверов */
 $stmt->closeCursor();
 
-/* теперь можно запускать второй запрос */
+/* теперь можно запускать второй запрос */
 $otherStmt->execute();
 ?>
 ```

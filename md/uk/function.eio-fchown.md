@@ -15,7 +15,7 @@ eiofchown — Змінює власника файлу
 ### Опис
 
 ```methodsynopsis
-eio_fchown(    mixed $fd,    int $uid,    int $gid = -1,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_fchown(    mixed $fd,    int $uid,    int $gid = -1,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiofchown()** змінює власника файлу, дескриптор якого вказаний у `fd`
@@ -43,7 +43,7 @@ eio_fchown(    mixed $fd,    int $uid,    int $gid = -1,    int 
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

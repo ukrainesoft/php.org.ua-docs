@@ -12,7 +12,7 @@ title: Клас MongoDBDriverExceptionRuntimeException
 
 ## Вступ
 
-Викидається, коли драйвер виявляє помилку під час виконання (наприклад, внутрішня помилка з [» libmongoc](https://github.com/mongodb/mongo-c-driver)
+Викидається, коли драйвер виявляє помилку під час виконання (наприклад, внутрішня помилка з [» libmongoc](https://github.com/mongodb/mongo-c-driver)
 
 ## Огляд класів
 

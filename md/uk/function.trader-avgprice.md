@@ -15,7 +15,7 @@ traderavgprice — Середня ціна
 ### Опис
 
 ```methodsynopsis
-trader_avgprice(    array $open,    array $high,    array $low,    array $close): array
+trader_avgprice(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

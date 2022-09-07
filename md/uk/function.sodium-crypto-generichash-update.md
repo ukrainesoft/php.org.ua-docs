@@ -40,15 +40,15 @@ sodium_crypto_generichash_update(string &$state, string $message): bool
 
 ```php
 <?php
-$messages = [random_bytes(32), random_bytes(32), random_bytes(16)];
-$state = sodium_crypto_generichash_init();
-foreach ($messages as $message) {
-    sodium_crypto_generichash_update($state, $message);
+$messages = [random_bytes(32), random_bytes(32), random_bytes(16)];
+$state = sodium_crypto_generichash_init();
+foreach ($messages as $message) {
+    sodium_crypto_generichash_update($state, $message);
 }
-$final = sodium_crypto_generichash_final($state);
+$final = sodium_crypto_generichash_final($state);
 var_dump(sodium_bin2hex($final));
 
-$allAtOnce = sodium_crypto_generichash(implode('', $messages));
+$allAtOnce = sodium_crypto_generichash(implode('', $messages));
 var_dump(sodium_bin2hex($allAtOnce));
 ?>
 ```

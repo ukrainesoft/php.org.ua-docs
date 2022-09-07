@@ -35,10 +35,10 @@ public **DOMAttr::construct**(string `$name`, string `$value` = "")
 ```php
 <?php
 
-$dom = new DOMDocument('1.0', 'iso-8859-1');
-$element = $dom->appendChild(new DOMElement('root'));
-$attr = $element->setAttributeNode(new DOMAttr('attr', 'attrvalue'));
-echo $dom->saveXML();
+$dom = new DOMDocument('1.0', 'iso-8859-1');
+$element = $dom->appendChild(new DOMElement('root'));
+$attr = $element->setAttributeNode(new DOMAttr('attr', 'attrvalue'));
+echo $dom->saveXML();
 
 ?>
 ```

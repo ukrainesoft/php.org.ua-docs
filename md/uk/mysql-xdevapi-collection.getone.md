@@ -38,22 +38,22 @@ id документа в колекції.
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-$result = $collection->add('{"name": "Alfred", "age": 42, "job": "Butler"}')->execute();
+$result = $collection->add('{"name": "Alfred", "age": 42, "job": "Butler"}')->execute();
 
-// Уникальный _id (по умолчанию и рекомендуется) генерируется MySQL Server
-// Возвращает сгенерированные _id; в этом примере только одна запись, поэтому $ids[0]
-$ids        = $result->getGeneratedIds();
-$alfreds_id = $ids[0];
+// Уникальный _id (по умолчанию и рекомендуется) генерируется MySQL Server
+// Возвращает сгенерированные _id; в этом примере только одна запись, поэтому $ids[0]
+$ids        = $result->getGeneratedIds();
+$alfreds_id = $ids[0];
 
-// ...
+// ...
 
 print_r($alfreds_id);
 print_r($collection->getOne($alfreds_id));

@@ -15,7 +15,7 @@ imagestringup — Малювання рядка тексту вертикаль�
 ### Опис
 
 ```methodsynopsis
-imagestringup(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $string,    int $color): bool
+imagestringup(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $string,    int $color): bool
 ```
 
 Малює текст `string` вертикально на заданих координатах.
@@ -63,15 +63,15 @@ y-координата нижнього лівого кута.
 
 ```php
 <?php
-// Создание изображения 100*100
-$im = imagecreatetruecolor(100, 100);
+// Создание изображения 100*100
+$im = imagecreatetruecolor(100, 100);
 
-// Надпись
-$textcolor = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
-imagestringup($im, 3, 40, 80, 'gd library', $textcolor);
+// Надпись
+$textcolor = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);
+imagestringup($im, 3, 40, 80, 'gd library', $textcolor);
 
-// Сохранение изображения
-imagepng($im, './stringup.png');
+// Сохранение изображения
+imagepng($im, './stringup.png');
 imagedestroy($im);
 ?>
 ```

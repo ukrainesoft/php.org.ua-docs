@@ -51,22 +51,22 @@ ftp_mkdir(FTP\Connection $ftp, string $directory): string|false
 ```php
 <?php
 
-$dir = 'www';
+$dir = 'www';
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// попытка создания директории $dir
-if (ftp_mkdir($ftp, $dir)) {
- echo "Создана директория $dir\n";
-} else {
- echo "Не удалось создать директорию $dir\n";
+// попытка создания директории $dir
+if (ftp_mkdir($ftp, $dir)) {
+ echo "Создана директория $dir\n";
+} else {
+ echo "Не удалось создать директорию $dir\n";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 ?>
 ```

@@ -42,13 +42,13 @@ pg_connection_reset(PgSql\Connection $connection): bool
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться");
-  $dbconn2 = pg_connection_reset($dbconn);
-  if ($dbconn2) {
-      echo "Успешный сброс\n";
-  } else {
-      echo "Неудачный сброс\n";
-  }
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться");
+  $dbconn2 = pg_connection_reset($dbconn);
+  if ($dbconn2) {
+      echo "Успешный сброс\n";
+  } else {
+      echo "Неудачный сброс\n";
+  }
 ?>
 ```
 

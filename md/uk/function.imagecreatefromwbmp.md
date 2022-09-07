@@ -48,31 +48,31 @@ imagecreatefromwbmp(string $filename): GdImage|false
 
 ```php
 <?php
-function LoadWBMP($imgname)
+function LoadWBMP($imgname)
 {
-    /* Пытаемся открыть */
-    $im = @imagecreatefromwbmp($imgname);
+    /* Пытаемся открыть */
+    $im = @imagecreatefromwbmp($imgname);
 
-    /* Если не удалось */
-    if(!$im)
-    {
-        /* Создаём пустое изображение */
-        $im  = imagecreatetruecolor(150, 30);
-        $bgc = imagecolorallocate($im, 255, 255, 255);
-        $tc  = imagecolorallocate($im, 0, 0, 0);
+    /* Если не удалось */
+    if(!$im)
+    {
+        /* Создаём пустое изображение */
+        $im  = imagecreatetruecolor(150, 30);
+        $bgc = imagecolorallocate($im, 255, 255, 255);
+        $tc  = imagecolorallocate($im, 0, 0, 0);
 
-        imagefilledrectangle($im, 0, 0, 150, 30, $bgc);
+        imagefilledrectangle($im, 0, 0, 150, 30, $bgc);
 
-        /* Выводим сообщение об ошибке */
-        imagestring($im, 1, 5, 5, 'Ошибка загрузки ' . $imgname, $tc);
-    }
+        /* Выводим сообщение об ошибке */
+        imagestring($im, 1, 5, 5, 'Ошибка загрузки ' . $imgname, $tc);
+    }
 
-    return $im;
+    return $im;
 }
 
-header('Content-Type: image/vnd.wap.wbmp');
+header('Content-Type: image/vnd.wap.wbmp');
 
-$img = LoadWBMP('bogus.image');
+$img = LoadWBMP('bogus.image');
 
 imagewbmp($img);
 imagedestroy($img);

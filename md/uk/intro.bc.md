@@ -18,12 +18,12 @@ title: Вступ
 
 ```php
 <?php
-$num1 = 0; // (string) 0 => '0'
-$num2 = -0.000005; // (string) -0.000005 => '-5.05E-6'
-echo bcadd($num1, $num2, 6); // => '0.000000'
+$num1 = 0; // (string) 0 => '0'
+$num2 = -0.000005; // (string) -0.000005 => '-5.05E-6'
+echo bcadd($num1, $num2, 6); // => '0.000000'
 
-setlocale(LC_NUMERIC, 'de_DE'); // десятичная запятая вместо точки
-$num2 = 1.2; // (string) 1.2 => '1,2'
-echo bcsub($num1, $num2, 1); // => '0.0'
+setlocale(LC_NUMERIC, 'de_DE'); // десятичная запятая вместо точки
+$num2 = 1.2; // (string) 1.2 => '1,2'
+echo bcsub($num1, $num2, 1); // => '0.0'
 ?>
 ```

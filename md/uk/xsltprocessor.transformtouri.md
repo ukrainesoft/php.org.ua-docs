@@ -41,18 +41,18 @@ public XSLTProcessor::transformToURI(DOMDocument $doc, string $uri): int
 ```php
 <?php
 
-// Загрузка источника XML
-$xml = new DOMDocument;
+// Загрузка источника XML
+$xml = new DOMDocument;
 $xml->load('collection.xml');
 
-$xsl = new DOMDocument;
+$xsl = new DOMDocument;
 $xsl->load('collection.xsl');
 
-// Настройка преобразования
-$proc = new XSLTProcessor;
-$proc->importStyleSheet($xsl); // добавление стилей xsl
+// Настройка преобразования
+$proc = new XSLTProcessor;
+$proc->importStyleSheet($xsl); // добавление стилей xsl
 
-$proc->transformToURI($xml, 'file:///tmp/out.html');
+$proc->transformToURI($xml, 'file:///tmp/out.html');
 
 ?>
 ```

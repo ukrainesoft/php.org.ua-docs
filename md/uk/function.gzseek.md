@@ -51,9 +51,9 @@ gzseek(resource $stream, int $offset, int $whence = SEEK_SET): int
 
 ```php
 <?php
-$gz = gzopen('somefile.gz', 'r');
+$gz = gzopen('somefile.gz', 'r');
 gzseek($gz,2);
-echo gzgetc($gz);
+echo gzgetc($gz);
 gzclose($gz);
 ?>
 ```

@@ -59,10 +59,10 @@ rand(int $min, int $max): int
 
 ```php
 <?php
-echo rand() . "\n";
-echo rand() . "\n";
+echo rand() . "\n";
+echo rand() . "\n";
 
-echo rand(5, 15);
+echo rand(5, 15);
 ?>
 ```
 

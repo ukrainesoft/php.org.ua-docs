@@ -36,10 +36,10 @@ gmp_popcount(GMP|int|string $num): int
 
 ```php
 <?php
-$pop1 = gmp_init("10000101", 2); // 3 1's
-echo gmp_popcount($pop1) . "\n";
-$pop2 = gmp_init("11111110", 2); // 7 1's
-echo gmp_popcount($pop2) . "\n";
+$pop1 = gmp_init("10000101", 2); // 3 1's
+echo gmp_popcount($pop1) . "\n";
+$pop2 = gmp_init("11111110", 2); // 7 1's
+echo gmp_popcount($pop2) . "\n";
 ?>
 ```
 

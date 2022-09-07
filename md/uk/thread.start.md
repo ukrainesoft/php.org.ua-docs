@@ -36,12 +36,12 @@ public Thread::start(int $options = ?): bool
 
 ```php
 <?php
-class My extends Thread {
-    public function run() {
-        /** ... **/
-    }
+class My extends Thread {
+    public function run() {
+        /** ... **/
+    }
 }
-$my = new My();
+$my = new My();
 var_dump($my->start());
 ?>
 ```

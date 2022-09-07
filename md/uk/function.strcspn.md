@@ -15,7 +15,7 @@ strcspn — Повертає довжину ділянки на початку �
 ### Опис
 
 ```methodsynopsis
-strcspn(    string $string,    string $characters,    int $offset = 0,    ?int $length = null): int
+strcspn(    string $string,    string $characters,    int $offset = 0,    ?int $length = null): int
 ```
 
 Повертає довжину ділянки на початку рядка `string`, Котрий *не містить* жодного символу з рядка `characters`
@@ -68,12 +68,12 @@ strcspn(    string $string,    string $characters,    int $offset = 
 
 ```php
 <?php
-$a = strcspn('abcd',  'apple');
-$b = strcspn('abcd',  'banana');
-$c = strcspn('hello', 'l');
-$d = strcspn('hello', 'world');
-$e = strcspn('abcdhelloabcd', 'abcd', -9);
-$f = strcspn('abcdhelloabcd', 'abcd', -9, -5);
+$a = strcspn('abcd',  'apple');
+$b = strcspn('abcd',  'banana');
+$c = strcspn('hello', 'l');
+$d = strcspn('hello', 'world');
+$e = strcspn('abcdhelloabcd', 'abcd', -9);
+$f = strcspn('abcdhelloabcd', 'abcd', -9, -5);
 
 var_dump($a);
 var_dump($b);

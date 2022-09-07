@@ -39,7 +39,7 @@ public static IntlChar::ord(int|string $character): ?int
 ```php
 <?php
 var_dump(IntlChar::ord("A"));
-var_dump(IntlChar::ord(" "));
+var_dump(IntlChar::ord(" "));
 var_dump(IntlChar::ord("\u{2603}"));
 ?>
 ```

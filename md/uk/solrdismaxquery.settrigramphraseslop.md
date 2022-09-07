@@ -37,9 +37,9 @@ public SolrDisMaxQuery::setTrigramPhraseSlop(string $slop): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery = new SolrDisMaxQuery('lucene');
 $dismaxQuery->setTrigramPhraseSlop(2);
-echo $dismaxQuery.PHP_EOL;
+echo $dismaxQuery.PHP_EOL;
 
 ?>
 ```

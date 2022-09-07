@@ -15,18 +15,18 @@ PHP (рекурсивний акронім словосполучення `PHP: 
 **Приклад #1 Приклад програмування на PHP**
 
 ```php
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Пример</title>
-    </head>
-    <body>
+    <head>
+        <title>Пример</title>
+    </head>
+    <body>
 
-        <?php
-        echo "Привет, я - скрипт PHP!";
-        ?>
+        <?php
+        echo "Привет, я - скрипт PHP!";
+        ?>
 
-    </body>
+    </body>
 </html>
 ```
 

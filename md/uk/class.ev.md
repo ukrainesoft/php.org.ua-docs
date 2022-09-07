@@ -275,11 +275,11 @@ final
 
 **`Ev::FLAG_NOINOTIFY`**
 
-Якщо цей прапор вказано, то `libev` не намагатиметься використовувати API `inotify` для своїх спостерігачів [» evstat](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_stat_code_did_the_file_attri) Прапор може бути корисним для збереження файлових дескрипторів inotify, інакше кожен цикл, що використовує спостерігачів `ev_stat`, споживатиме один дескриптор `inotify`
+Якщо цей прапор вказано, то `libev` не намагатиметься використовувати API `inotify` для своїх спостерігачів [» evstat](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_stat_code_did_the_file_attri) Прапор може бути корисним для збереження файлових дескрипторів inotify, інакше кожен цикл, що використовує спостерігачів `ev_stat`, споживатиме один дескриптор `inotify`
 
 **`Ev::FLAG_SIGNALFD`**
 
-Якщо прапор вказано, то `libev` намагатиметься використовувати API `signalfd` для своїх спостерігачів [» evsignal](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_signal_code_signal_me_when_a) (і [» evchild](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_child_code_watch_out_for_pro)). API передає сигнали синхронно, що робить його швидшим і, можливо, дозволить отримати дані з черги сигналів, а також дозволяє спростити обробку сигналів за допомогою потоків, оскільки сигнали коректно блокуються в потоках . `Signalfd` не використовується за замовчуванням.
+Якщо прапор вказано, то `libev` намагатиметься використовувати API `signalfd` для своїх спостерігачів [» evsignal](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_signal_code_signal_me_when_a) (і [» evchild](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_child_code_watch_out_for_pro)). API передає сигнали синхронно, що робить його швидшим і, можливо, дозволить отримати дані з черги сигналів, а також дозволяє спростити обробку сигналів за допомогою потоків, оскільки сигнали коректно блокуються в потоках . `Signalfd` не використовується за замовчуванням.
 
 **`Ev::FLAG_NOSIGMASK`**
 
@@ -373,7 +373,7 @@ final
 
 **`Ev::ERROR`**
 
-Відбулася невідома помилка і спостерігача буде зупинено. Може статися через некоректний запуск спостерігача, тому що `libev` вичерпав ліміт по пам'яті, через закритий дескриптор файлу або з якоїсь ще причини . `Libev` вважає, що ці помилки програми. Також читайте розділ [» АНАТОМИЯ НАБЛЮДАТЕЛЕЙ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#ANATOMY_OF_A_WATCHER_CONTENT)
+Відбулася невідома помилка і спостерігача буде зупинено. Може статися через некоректний запуск спостерігача, тому що `libev` вичерпав ліміт по пам'яті, через закритий дескриптор файлу або з якоїсь ще причини . `Libev` вважає, що ці помилки програми. Також читайте розділ [» АНАТОМИЯ НАБЛЮДАТЕЛЕЙ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#ANATOMY_OF_A_WATCHER_CONTENT)
 
 Прапори бекенда:
 
@@ -411,7 +411,7 @@ final
 
 > **Зауваження**
 > 
-> Для циклу за замовчуванням, під час фази ініціалізації модуля `Ev`, реєструється виклик [» evloopfork](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS_CO) за допомогою `pthread_atfork` (якщо такий є).
+> Для циклу за замовчуванням, під час фази ініціалізації модуля `Ev`, реєструється виклик [» evloopfork](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS_CO) за допомогою `pthread_atfork` (якщо такий є).
 
 > **Зауваження**
 > 

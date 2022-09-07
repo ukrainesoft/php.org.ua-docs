@@ -18,20 +18,20 @@ EvStat::createStopped — Створює зупинений об'єкт спос
 final
    public
    static
-   EvStat::createStopped(    
+   EvStat::createStopped(    
     string
      $path
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

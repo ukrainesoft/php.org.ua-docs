@@ -50,15 +50,15 @@ pg_field_table(PgSql\Result $result, int $field, bool $oid_only = false): string
 
 ```php
 <?php
-$dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
+$dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
 
-$res = pg_query($dbconn, "SELECT bar FROM foo");
+$res = pg_query($dbconn, "SELECT bar FROM foo");
 
-echo pg_field_table($res, 0);
-echo pg_field_table($res, 0, true);
+echo pg_field_table($res, 0);
+echo pg_field_table($res, 0, true);
 
-$res = pg_query($dbconn, "SELECT version()");
-var_dump(pg_field_table($res, 0));
+$res = pg_query($dbconn, "SELECT version()");
+var_dump(pg_field_table($res, 0));
 ?>
 ```
 

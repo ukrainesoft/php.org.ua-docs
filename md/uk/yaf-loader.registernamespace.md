@@ -44,16 +44,16 @@ bool
 
 ```php
 <?php
-$loader = Yaf_Loader::getInstance();
-$loader->registerNamespace("\Vendor\PHP", "/var/lib/php");
+$loader = Yaf_Loader::getInstance();
+$loader->registerNamespace("\Vendor\PHP", "/var/lib/php");
 $loader->registerNamespace(array(
-     "\Vendor\ASP" => "/var/lib/asp",
-     "\Vendor\JSP" => "/usr/lib/vendor/",
+     "\Vendor\ASP" => "/var/lib/asp",
+     "\Vendor\JSP" => "/usr/lib/vendor/",
 ));
 
-$loader->autoload("\Vendor\PHP\Dummy");   //load '/var/lib/php/Dummy.php'
-$loader->autoload("\Vendor\PHP\Foo_Bar"); //load '/var/lib/php/Foo/Bar.php'
-$loader->autoload("\Vendor\JSP\Dummy");   //load '/usr/lib/vendor/Dummy.php'
+$loader->autoload("\Vendor\PHP\Dummy");   //load '/var/lib/php/Dummy.php'
+$loader->autoload("\Vendor\PHP\Foo_Bar"); //load '/var/lib/php/Foo/Bar.php'
+$loader->autoload("\Vendor\JSP\Dummy");   //load '/usr/lib/vendor/Dummy.php'
 
 ?>
 ```

@@ -38,15 +38,15 @@ public RegexIterator::setPregFlags(int $pregFlags): void
 
 ```php
 <?php
-$test = array ('test 1', 'another test', 'test 123');
+$test = array ('test 1', 'another test', 'test 123');
 
-$arrayIterator = new ArrayIterator($test);
-$regexIterator = new RegexIterator($arrayIterator, '/^test/', RegexIterator::GET_MATCH);
+$arrayIterator = new ArrayIterator($test);
+$regexIterator = new RegexIterator($arrayIterator, '/^test/', RegexIterator::GET_MATCH);
 
 $regexIterator->setPregFlags(PREG_OFFSET_CAPTURE);
 
-foreach ($regexIterator as $key => $value) {
-    var_dump($value);
+foreach ($regexIterator as $key => $value) {
+    var_dump($value);
 }
 ?>
 ```

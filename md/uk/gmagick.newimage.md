@@ -15,7 +15,7 @@ Gmagick::newimage — Створює нове зображення
 ### Опис
 
 ```methodsynopsis
-public Gmagick::newimage(    int $width,    int $height,    string $background,    string $format = ?): Gmagick
+public Gmagick::newimage(    int $width,    int $height,    string $background,    string $format = ?): Gmagick
 ```
 
 Створює нове зображення із зазначеним фоновим кольором.

@@ -34,16 +34,16 @@ public mysql_xdevapi\Schema::getCollections(): array
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema  = $session->getSchema("addressbook");
-$collect = $schema->createCollection("people");
-$collect->add('{"name": "Fred",  "age": 21, "job": "Construction"}')->execute();
-$collect->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
+$schema  = $session->getSchema("addressbook");
+$collect = $schema->createCollection("people");
+$collect->add('{"name": "Fred",  "age": 21, "job": "Construction"}')->execute();
+$collect->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
 
-$collections = $schema->getCollections();
+$collections = $schema->getCollections();
 var_dump($collections);
 ?>
 ```

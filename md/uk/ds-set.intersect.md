@@ -34,7 +34,7 @@ public Ds\Set::intersect(Ds\Set $set): Ds\Set
 
 ### Також дивіться
 
--   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
+-   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
 
 ### Приклади
 
@@ -42,8 +42,8 @@ public Ds\Set::intersect(Ds\Set $set): Ds\Set
 
 ```php
 <?php
-$a = new \Ds\Set([1, 2, 3]);
-$b = new \Ds\Set([3, 4, 5]);
+$a = new \Ds\Set([1, 2, 3]);
+$b = new \Ds\Set([3, 4, 5]);
 
 var_dump($a->intersect($b));
 ?>

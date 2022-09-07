@@ -90,13 +90,13 @@ true false
 
 ```php
 <?php
-$out = fopen('php://stdout','w');
-fwrite($out, 'Just forgot a lettr.');
-// Переместить курсор на две позиции назад
-fwrite($out, "\033[2D");
-// Вставляет один пробел, сдвигая существующий текст вправо -> Просто забыли букву.
-fwrite($out, "\033[1@");
-fwrite($out, 'e');
+$out = fopen('php://stdout','w');
+fwrite($out, 'Just forgot a lettr.');
+// Переместить курсор на две позиции назад
+fwrite($out, "\033[2D");
+// Вставляет один пробел, сдвигая существующий текст вправо -> Просто забыли букву.
+fwrite($out, "\033[1@");
+fwrite($out, 'e');
 ?>
 ```
 

@@ -38,14 +38,14 @@ fdf_open(string $filename): resource
 
 ```php
 <?php
-// Сохранение данных FDF во временный файл
-$fdffp = fopen("test.fdf", "w");
-fwrite($fdffp, $HTTP_FDF_DATA, strlen($HTTP_FDF_DATA));
+// Сохранение данных FDF во временный файл
+$fdffp = fopen("test.fdf", "w");
+fwrite($fdffp, $HTTP_FDF_DATA, strlen($HTTP_FDF_DATA));
 fclose($fdffp);
 
-// Открытие временного файла и получение данных
-$fdf = fdf_open("test.fdf");
-/* ... */
+// Открытие временного файла и получение данных
+$fdf = fdf_open("test.fdf");
+/* ... */
 fdf_close($fdf);
 ?>
 ```

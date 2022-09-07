@@ -15,7 +15,7 @@ tradercdlgravestonedoji — Дожі-надгробки
 ### Опис
 
 ```methodsynopsis
-trader_cdlgravestonedoji(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlgravestonedoji(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

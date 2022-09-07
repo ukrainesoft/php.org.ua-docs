@@ -15,7 +15,7 @@ title: псshowзі
 ### Опис
 
 ```methodsynopsis
-ps_show_xy(    resource $psdoc,    string $text,    float $x,    float $y): bool
+ps_show_xy(    resource $psdoc,    string $text,    float $x,    float $y): bool
 ```
 
 Виводить текст у заданій текстовій позиції.

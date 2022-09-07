@@ -12,14 +12,14 @@ title: Приклади
 
 ```php
 <?php
-  $basePath1 = SeasLog::getBasePath();
+  $basePath1 = SeasLog::getBasePath();
 
-  SeasLog::setBasePath('/log/base_test');
-  $basePath2 = SeasLog::getBasePath();
+  SeasLog::setBasePath('/log/base_test');
+  $basePath2 = SeasLog::getBasePath();
 
-  var_dump($basePath1,$basePath2);
+  var_dump($basePath1,$basePath2);
 
-  ?>
+  ?>
 ```
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -33,10 +33,10 @@ string(12) "/var/log/www"
 
 ```php
 <?php
-$lastLogger1 = SeasLog::getLastLogger();
+$lastLogger1 = SeasLog::getLastLogger();
 
 SeasLog::setLogger('testModule/app1');
-$lastLogger2 = SeasLog::getLastLogger();
+$lastLogger2 = SeasLog::getLastLogger();
 
 var_dump($lastLogger1,$lastLogger2);
 
@@ -54,15 +54,15 @@ string(15) "testModule/app1"
 
 ```php
 <?php
-SeasLog::log(SEASLOG_ERROR,'тестовая ошибка, сделанная ::log');
-SeasLog::debug('отладка {userName}',array('{userName}' => 'neeke'));
-SeasLog::info('запись информационного сообщения в журнал');
-SeasLog::notice('запись предупреждения в журнал');
-SeasLog::warning('сайт {website} не работает, пожалуйста, выполните {action} как можно скорее!',array('{website}' => 'github.com','{action}' => 'rboot'));
-SeasLog::error('запись ошибки в журнал');
-SeasLog::critical('произошло что-то критичное');
-SeasLog::alert('да, это сообщение {messageName}',array('{messageName}' => 'alertMSG'));
-SeasLog::emergency('Только что полностью выгорел соседний дом! {note}',array('{note}' => 'Это шутка'));
+SeasLog::log(SEASLOG_ERROR,'тестовая ошибка, сделанная ::log');
+SeasLog::debug('отладка {userName}',array('{userName}' => 'neeke'));
+SeasLog::info('запись информационного сообщения в журнал');
+SeasLog::notice('запись предупреждения в журнал');
+SeasLog::warning('сайт {website} не работает, пожалуйста, выполните {action} как можно скорее!',array('{website}' => 'github.com','{action}' => 'rboot'));
+SeasLog::error('запись ошибки в журнал');
+SeasLog::critical('произошло что-то критичное');
+SeasLog::alert('да, это сообщение {messageName}',array('{messageName}' => 'alertMSG'));
+SeasLog::emergency('Только что полностью выгорел соседний дом! {note}',array('{note}' => 'Это шутка'));
 ?>
 ```
 
@@ -100,9 +100,9 @@ The log style finally formatted such as:
 
 ```php
 <?php
-$countResult1 = SeasLog::analyzerCount();
-$countResult2 = SeasLog::analyzerCount(SEASLOG_WARNING);
-$countResult3 = SeasLog::analyzerCount(SEASLOG_ERROR,date('Ymd',time()));
+$countResult1 = SeasLog::analyzerCount();
+$countResult2 = SeasLog::analyzerCount(SEASLOG_WARNING);
+$countResult3 = SeasLog::analyzerCount(SEASLOG_ERROR,date('Ymd',time()));
 
 var_dump($countResult1,$countResult2,$countResult3);
 
@@ -140,7 +140,7 @@ int(1)
 
 ```php
 <?php
-$detailErrorArray = SeasLog::analyzerDetail(SEASLOG_ERROR);
+$detailErrorArray = SeasLog::analyzerDetail(SEASLOG_ERROR);
 var_dump($detailErrorArray);
 
 var_dump(SeasLog::analyzerDetail(SEASLOG_ERROR,date('Ymd',time())));

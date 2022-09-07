@@ -38,10 +38,10 @@ public Lua::assign(string $name, string $value): mixed
 
 ```php
 <?php
-$lua = new Lua();
-$lua->assign("php_var", array(1=>1, 2, 3)); // индексы таблицы lua начинаются с 1
+$lua = new Lua();
+$lua->assign("php_var", array(1=>1, 2, 3)); // индексы таблицы lua начинаются с 1
 $lua->eval(<<<CODE
-    print(php_var);
+    print(php_var);
 CODE
 );
 ?>

@@ -44,11 +44,11 @@ jdtojewish(int $julian_day, bool $hebrew = false, int $flags = 0): string
 
 ```php
 <?php
-$jd = gregoriantojd(10, 8, 2002);
-echo jdtojewish($jd, true), PHP_EOL,
-     jdtojewish($jd, true, CAL_JEWISH_ADD_GERESHAYIM), PHP_EOL,
-     jdtojewish($jd, true, CAL_JEWISH_ADD_ALAFIM), PHP_EOL,
-     jdtojewish($jd, true,CAL_JEWISH_ADD_ALAFIM_GERESH), PHP_EOL;
+$jd = gregoriantojd(10, 8, 2002);
+echo jdtojewish($jd, true), PHP_EOL,
+     jdtojewish($jd, true, CAL_JEWISH_ADD_GERESHAYIM), PHP_EOL,
+     jdtojewish($jd, true, CAL_JEWISH_ADD_ALAFIM), PHP_EOL,
+     jdtojewish($jd, true,CAL_JEWISH_ADD_ALAFIM_GERESH), PHP_EOL;
 ?>
 ```
 

@@ -14,10 +14,10 @@ title: 'Функціональність, оголошена застаріло�
 
 ```php
 <?php
-class foo {
-    function foo() {
-        echo 'Я конструктор!';
-    }
+class foo {
+    function foo() {
+        echo 'Я конструктор!';
+    }
 }
 ?>
 ```
@@ -34,10 +34,10 @@ Deprecated: Methods with the same name as their class will not be constructors i
 
 ```php
 <?php
-class foo {
-    function bar() {
-        echo 'Я не статический!';
-    }
+class foo {
+    function bar() {
+        echo 'Я не статический!';
+    }
 }
 
 foo::bar();

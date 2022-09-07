@@ -54,9 +54,9 @@ array_chunk(array $array, int $length, bool $preserve_keys = false): array
 
 ```php
 <?php
-$input_array = array('a', 'b', 'c', 'd', 'e');
-print_r(array_chunk($input_array, 2));
-print_r(array_chunk($input_array, 2, true));
+$input_array = array('a', 'b', 'c', 'd', 'e');
+print_r(array_chunk($input_array, 2));
+print_r(array_chunk($input_array, 2, true));
 ?>
 ```
 

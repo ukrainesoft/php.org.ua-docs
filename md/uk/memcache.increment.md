@@ -47,16 +47,16 @@ Memcache::increment(string $key, int $value = 1): int|false
 ```php
 <?php
 
-/* процедурное API */
-$memcache_obj = memcache_connect('memcache_host', 11211);
-/* инкрементировать счётчик на 2 */
-$current_value = memcache_increment($memcache_obj, 'counter', 2);
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
+/* инкрементировать счётчик на 2 */
+$current_value = memcache_increment($memcache_obj, 'counter', 2);
 
-/* объектно-ориентированное API */
-$memcache_obj = new Memcache;
-$memcache_obj->connect('memcache_host', 11211);
-/* инкрементировать счётчик на 3 */
-$current_value = $memcache_obj->increment('counter', 3);
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
+/* инкрементировать счётчик на 3 */
+$current_value = $memcache_obj->increment('counter', 3);
 
 ?>
 ```

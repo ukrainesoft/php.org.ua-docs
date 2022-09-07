@@ -28,7 +28,7 @@ sqlsrv_connect(string $serverName, array $connectionInfo = ?): resource
 
 `connectionInfo`
 
-Асоціативний масив, який визначає параметри підключення до сервера. Якщо значення для ключів UID і PWD не вказано, буде зроблено спробу підключення за допомогою автентифікації Windows. Повний список підтримуваних ключів дивіться у розділі [» Параметри підключення SQLSRV](http://msdn.microsoft.com/en-us/library/ff628167.aspx)
+Асоціативний масив, який визначає параметри підключення до сервера. Якщо значення для ключів UID і PWD не вказано, буде зроблено спробу підключення за допомогою автентифікації Windows. Повний список підтримуваних ключів дивіться у розділі [» Параметри підключення SQLSRV](http://msdn.microsoft.com/en-us/library/ff628167.aspx)
 
 ### Значення, що повертаються
 
@@ -40,18 +40,18 @@ sqlsrv_connect(string $serverName, array $connectionInfo = ?): resource
 
 ```php
 <?php
-$serverName = "serverName\\sqlexpress"; //serverName\instanceName
+$serverName = "serverName\\sqlexpress"; //serverName\instanceName
 
-// Поскольку UID и PWD не указаны в Масиве $connectionInfo,
-// будет предпринята попытка подключения с использованием проверки подлинности Windows.
-$connectionInfo = array( "Database"=>"dbName");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
+// Поскольку UID и PWD не указаны в Масиве $connectionInfo,
+// будет предпринята попытка подключения с использованием проверки подлинности Windows.
+$connectionInfo = array( "Database"=>"dbName");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
 
-if( $conn ) {
-     echo "Соединение установлено.<br />";
+if( $conn ) {
+     echo "Соединение установлено.<br />";
 }else{
-     echo "Соединение не установлено.<br />";
-     die( print_r( sqlsrv_errors(), true));
+     echo "Соединение не установлено.<br />";
+     die( print_r( sqlsrv_errors(), true));
 }
 ?>
 ```
@@ -60,15 +60,15 @@ if( $conn ) {
 
 ```php
 <?php
-$serverName = "serverName\\sqlexpress"; //serverName\instanceName
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
+$serverName = "serverName\\sqlexpress"; //serverName\instanceName
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
 
-if( $conn ) {
-     echo "Соединение установлено.<br />";
+if( $conn ) {
+     echo "Соединение установлено.<br />";
 }else{
-     echo "Соединение не установлено.<br />";
-     die( print_r( sqlsrv_errors(), true));
+     echo "Соединение не установлено.<br />";
+     die( print_r( sqlsrv_errors(), true));
 }
 ?>
 ```
@@ -77,22 +77,22 @@ if( $conn ) {
 
 ```php
 <?php
-$serverName = "serverName\\sqlexpress, 1542"; //serverName\instanceName, portNumber (по умолчанию 1433)
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
+$serverName = "serverName\\sqlexpress, 1542"; //serverName\instanceName, portNumber (по умолчанию 1433)
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
 
-if( $conn ) {
-     echo "Соединение установлено.<br />";
+if( $conn ) {
+     echo "Соединение установлено.<br />";
 }else{
-     echo "Соединение не установлено.<br />";
-     die( print_r( sqlsrv_errors(), true));
+     echo "Соединение не установлено.<br />";
+     die( print_r( sqlsrv_errors(), true));
 }
 ?>
 ```
 
 ### Примітки
 
-За замовчуванням **sqlsrvconnect()** використовує пул сполук підвищення продуктивності з'єднання. Щоб вимкнути пул з'єднань (тобто примусово встановлювати нове з'єднання під час кожного виклику), встановіть для параметра "ConnectionPooling" у масиві $connectionOptions значення 0 (або **`false`**). Для отримання додаткової інформації дивіться розділ [» Пул соединений SQLSRV](http://msdn.microsoft.com/en-us/library/cc644930.aspx)
+За замовчуванням **sqlsrvconnect()** використовує пул сполук підвищення продуктивності з'єднання. Щоб вимкнути пул з'єднань (тобто примусово встановлювати нове з'єднання під час кожного виклику), встановіть для параметра "ConnectionPooling" у масиві $connectionOptions значення 0 (або **`false`**). Для отримання додаткової інформації дивіться розділ [» Пул соединений SQLSRV](http://msdn.microsoft.com/en-us/library/cc644930.aspx)
 
 Модуль SQLSRV не має спеціальної функції для зміни бази даних після підключення. Цільова база даних вказується в масиві $connectionOptions, який передається в sqlsrvconnect. Щоб змінити базу даних під час відкритого з'єднання, виконайте наступний запит "USE dbName" (наприклад, sqlsrvquery($conn, "USE dbName")).
 

@@ -44,7 +44,7 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-$map = new \Ds\Map(["b" => 2, "c" => 3, "a" => 1]);
+$map = new \Ds\Map(["b" => 2, "c" => 3, "a" => 1]);
 
 print_r($map->ksorted());
 ?>
@@ -81,11 +81,11 @@ Ds\Map Object
 
 ```php
 <?php
-$map = new \Ds\Map([1 => "x", 2 => "y", 0 => "z"]);
+$map = new \Ds\Map([1 => "x", 2 => "y", 0 => "z"]);
 
-// Обратный порядок
-$sorted = $map->ksorted(function($a, $b) {
-    return $b <=> $a;
+// Обратный порядок
+$sorted = $map->ksorted(function($a, $b) {
+    return $b <=> $a;
 });
 
 print_r($sorted);

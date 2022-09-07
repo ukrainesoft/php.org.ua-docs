@@ -55,61 +55,61 @@ mysqli_autocommit(mysqli $mysql, bool $enable): bool
 ```php
 <?php
 
-/* Указать mysqli выбрасывать исключение в случае возникновения ошибки */
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+/* Указать mysqli выбрасывать исключение в случае возникновения ошибки */
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* Движок таблиц должен поддерживать транзакции */
-$mysqli->query("CREATE TABLE IF NOT EXISTS language (
-    Code text NOT NULL,
-    Speakers int(11) NOT NULL
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
+/* Движок таблиц должен поддерживать транзакции */
+$mysqli->query("CREATE TABLE IF NOT EXISTS language (
+    Code text NOT NULL,
+    Speakers int(11) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
 
-/* Отключить автоматическую фиксацию */
+/* Отключить автоматическую фиксацию */
 $mysqli->autocommit(false);
 
-$result = $mysqli->query("SELECT @@autocommit");
-$row = $result->fetch_row();
-printf("Автоматическая фиксация: %s\n", $row[0]);
+$result = $mysqli->query("SELECT @@autocommit");
+$row = $result->fetch_row();
+printf("Автоматическая фиксация: %s\n", $row[0]);
 
-try {
-    /* Подготовить выражение для добавления */
-    $stmt = $mysqli->prepare('INSERT INTO language(Code, Speakers) VALUES (?,?)');
-    $stmt->bind_param('ss', $language_code, $native_speakers);
+try {
+    /* Подготовить выражение для добавления */
+    $stmt = $mysqli->prepare('INSERT INTO language(Code, Speakers) VALUES (?,?)');
+    $stmt->bind_param('ss', $language_code, $native_speakers);
 
-    /* Добавление каких-то значений */
-    $language_code = 'DE';
-    $native_speakers = 50_123_456;
-    $stmt->execute();
-    $language_code = 'FR';
-    $native_speakers = 40_546_321;
-    $stmt->execute();
+    /* Добавление каких-то значений */
+    $language_code = 'DE';
+    $native_speakers = 50_123_456;
+    $stmt->execute();
+    $language_code = 'FR';
+    $native_speakers = 40_546_321;
+    $stmt->execute();
 
-    /* Зафиксируйте данные в базе данных. Это не устанавливает autocommit=true */
-    $mysqli->commit();
-    print "Зафиксировано 2 строки в базе данных\n";
+    /* Зафиксируйте данные в базе данных. Это не устанавливает autocommit=true */
+    $mysqli->commit();
+    print "Зафиксировано 2 строки в базе данных\n";
 
-    $result = $mysqli->query("SELECT @@autocommit");
-    $row = $result->fetch_row();
-    printf("Автоматическая фиксация: %s\n", $row[0]);
+    $result = $mysqli->query("SELECT @@autocommit");
+    $row = $result->fetch_row();
+    printf("Автоматическая фиксация: %s\n", $row[0]);
 
-    /* Попробуйте вставить больше значений */
-    $language_code = 'PL';
-    $native_speakers = 30_555_444;
-    $stmt->execute();
-    $language_code = 'DK';
-    $native_speakers = 5_222_444;
-    $stmt->execute();
+    /* Попробуйте вставить больше значений */
+    $language_code = 'PL';
+    $native_speakers = 30_555_444;
+    $stmt->execute();
+    $language_code = 'DK';
+    $native_speakers = 5_222_444;
+    $stmt->execute();
 
-    /* Установка autocommit=true вызовет фиксацию */
-    $mysqli->autocommit(true);
+    /* Установка autocommit=true вызовет фиксацию */
+    $mysqli->autocommit(true);
 
-    print "Зафиксировано 2 строки в базе данных\n";
-} catch (mysqli_sql_exception $exception) {
-    $mysqli->rollback();
+    print "Зафиксировано 2 строки в базе данных\n";
+} catch (mysqli_sql_exception $exception) {
+    $mysqli->rollback();
 
-    throw $exception;
+    throw $exception;
 }
 ```
 
@@ -118,61 +118,61 @@ try {
 ```php
 <?php
 
-/* Указать mysqli выбрасывать исключение в случае возникновения ошибки */
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+/* Указать mysqli выбрасывать исключение в случае возникновения ошибки */
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* Движок таблиц должен поддерживать транзакции */
-mysqli_query($mysqli, "CREATE TABLE IF NOT EXISTS language (
-    Code text NOT NULL,
-    Speakers int(11) NOT NULL
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
+/* Движок таблиц должен поддерживать транзакции */
+mysqli_query($mysqli, "CREATE TABLE IF NOT EXISTS language (
+    Code text NOT NULL,
+    Speakers int(11) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
 
-/* Отключить автоматическую фиксацию */
-mysqli_autocommit($mysqli, false);
+/* Отключить автоматическую фиксацию */
+mysqli_autocommit($mysqli, false);
 
-$result = mysqli_query($mysqli, "SELECT @@autocommit");
-$row = mysqli_fetch_row($result);
-printf("Автоматическая фиксация: %s\n", $row[0]);
+$result = mysqli_query($mysqli, "SELECT @@autocommit");
+$row = mysqli_fetch_row($result);
+printf("Автоматическая фиксация: %s\n", $row[0]);
 
-try {
-    /* Подготовить выражение для добавления */
-    $stmt = mysqli_prepare($mysqli, 'INSERT INTO language(Code, Speakers) VALUES (?,?)');
-    mysqli_stmt_bind_param($stmt, 'ss', $language_code, $native_speakers);
+try {
+    /* Подготовить выражение для добавления */
+    $stmt = mysqli_prepare($mysqli, 'INSERT INTO language(Code, Speakers) VALUES (?,?)');
+    mysqli_stmt_bind_param($stmt, 'ss', $language_code, $native_speakers);
 
-    /* Добавление каких-то значений */
-    $language_code = 'DE';
-    $native_speakers = 50_123_456;
-    mysqli_stmt_execute($stmt);
-    $language_code = 'FR';
-    $native_speakers = 40_546_321;
-    mysqli_stmt_execute($stmt);
+    /* Добавление каких-то значений */
+    $language_code = 'DE';
+    $native_speakers = 50_123_456;
+    mysqli_stmt_execute($stmt);
+    $language_code = 'FR';
+    $native_speakers = 40_546_321;
+    mysqli_stmt_execute($stmt);
 
-    /* Зафиксируйте данные в базе данных. Это не устанавливает autocommit=true */
-    mysqli_commit($mysqli);
-    print "Зафиксировано 2 строки в базе данных\n";
+    /* Зафиксируйте данные в базе данных. Это не устанавливает autocommit=true */
+    mysqli_commit($mysqli);
+    print "Зафиксировано 2 строки в базе данных\n";
 
-    $result = mysqli_query($mysqli, "SELECT @@autocommit");
-    $row = mysqli_fetch_row($result);
-    printf("Автоматическая фиксация: %s\n", $row[0]);
+    $result = mysqli_query($mysqli, "SELECT @@autocommit");
+    $row = mysqli_fetch_row($result);
+    printf("Автоматическая фиксация: %s\n", $row[0]);
 
-    /* Попробуйте вставить больше значений */
-    $language_code = 'PL';
-    $native_speakers = 30_555_444;
-    mysqli_stmt_execute($stmt);
-    $language_code = 'DK';
-    $native_speakers = 5_222_444;
-    mysqli_stmt_execute($stmt);
+    /* Попробуйте вставить больше значений */
+    $language_code = 'PL';
+    $native_speakers = 30_555_444;
+    mysqli_stmt_execute($stmt);
+    $language_code = 'DK';
+    $native_speakers = 5_222_444;
+    mysqli_stmt_execute($stmt);
 
-    /* Установка autocommit=true вызовет фиксацию */
-    mysqli_autocommit($mysqli, true);
+    /* Установка autocommit=true вызовет фиксацию */
+    mysqli_autocommit($mysqli, true);
 
-    print "Зафиксировано 2 строки в базе данных\n";
-} catch (mysqli_sql_exception $exception) {
-    mysqli_rollback($mysqli);
+    print "Зафиксировано 2 строки в базе данных\n";
+} catch (mysqli_sql_exception $exception) {
+    mysqli_rollback($mysqli);
 
-    throw $exception;
+    throw $exception;
 }
 ```
 

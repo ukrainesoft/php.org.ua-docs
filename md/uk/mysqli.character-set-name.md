@@ -49,15 +49,15 @@ mysqli_character_set_name(mysqli $mysql): string
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* Установка кодировки по умолчанию */
+/* Установка кодировки по умолчанию */
 $mysqli->set_charset('utf8mb4');
 
-/* Вывод текущей кодировки */
-$charset = $mysqli->character_set_name();
-printf("Текущая кодировка - %s\n", $charset);
+/* Вывод текущей кодировки */
+$charset = $mysqli->character_set_name();
+printf("Текущая кодировка - %s\n", $charset);
 ?>
 ```
 
@@ -66,15 +66,15 @@ printf("Текущая кодировка - %s\n", $charset);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* Установка кодировки по умолчанию */
-mysqli_set_charset($mysqli, 'utf8mb4');
+/* Установка кодировки по умолчанию */
+mysqli_set_charset($mysqli, 'utf8mb4');
 
-/* Вывод текущей кодировки */
-$charset = mysqli_character_set_name($mysqli);
-printf("Текущая кодировка - %s\n", $charset);
+/* Вывод текущей кодировки */
+$charset = mysqli_character_set_name($mysqli);
+printf("Текущая кодировка - %s\n", $charset);
 ```
 
 Результат виконання даних прикладів:

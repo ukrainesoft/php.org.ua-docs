@@ -38,7 +38,7 @@ public Ds\Vector::reversed(): Ds\Vector
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", "b", "c"]);
+$vector = new \Ds\Vector(["a", "b", "c"]);
 
 print_r($vector->reversed());
 print_r($vector);

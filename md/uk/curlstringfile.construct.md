@@ -38,25 +38,25 @@ MIME-тип файлу (за замовчуванням `application/octet-strea
 
 ```php
 <?php
-/* http://example.com/upload.php:
+/* http://example.com/upload.php:
 <?php
 var_dump($_FILES);
 var_dump(file_get_contents($_FILES['test_string']['tmp_name']));
 ?>
 */
 
-// Создание дескриптора cURL
-$ch = curl_init('http://example.com/upload.php');
+// Создание дескриптора cURL
+$ch = curl_init('http://example.com/upload.php');
 
-// Создание объекта CURLStringFile
-$cstringfile = new CURLStringFile('тестовое содержимое для загрузки','test.txt','text/plain');
+// Создание объекта CURLStringFile
+$cstringfile = new CURLStringFile('тестовое содержимое для загрузки','test.txt','text/plain');
 
-// Назначение данных для POST-запроса
-$data = array('test_string' => $cstringfile);
-curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+// Назначение данных для POST-запроса
+$data = array('test_string' => $cstringfile);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
-// Выполнение дескриптора
+// Выполнение дескриптора
 curl_exec($ch);
 ?>
 ```

@@ -41,18 +41,18 @@ abstract public MongoDB\BSON\Unserializable::bsonUnserialize(array $data): void
 ```php
 <?php
 
-class MyDocument implements MongoDB\BSON\Unserializable
+class MyDocument implements MongoDB\BSON\Unserializable
 {
-    private $data = [];
+    private $data = [];
 
-    function bsonUnserialize(array $data): void
-    {
-        $this->data = $data;
-    }
+    function bsonUnserialize(array $data): void
+    {
+        $this->data = $data;
+    }
 }
 
-$bson = MongoDB\BSON\fromJSON('{ "foo": "bar" }');
-$value = MongoDB\BSON\toPHP($bson, ['root' => 'MyDocument']);
+$bson = MongoDB\BSON\fromJSON('{ "foo": "bar" }');
+$value = MongoDB\BSON\toPHP($bson, ['root' => 'MyDocument']);
 var_dump($value);
 
 ?>

@@ -13,7 +13,7 @@ title: Список значень
 ```php
 <?php
 Suit::cases();
-// Produces: [Suit::Hearts, Suit::Diamonds, Suit::Clubs, Suit::Spades]
+// Produces: [Suit::Hearts, Suit::Diamonds, Suit::Clubs, Suit::Spades]
 ?>
 ```
 

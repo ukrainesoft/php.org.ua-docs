@@ -37,10 +37,10 @@ final public MongoDB\Driver\ReadPreference::bsonSerialize(): object
 ```php
 <?php
 
-$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
+$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);
 var_dump($rp->bsonSerialize());
 
-echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
+echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
 
 ?>
 ```
@@ -61,17 +61,17 @@ object(stdClass)#2 (1) {
 ```php
 <?php
 
-$rp = new MongoDB\Driver\ReadPreference(
-    MongoDB\Driver\ReadPreference::RP_SECONDARY,
-    [
-        ['dc' => 'ny'],
-        ['dc' => 'sf', 'use' => 'reporting'],
-        []
-    ]
+$rp = new MongoDB\Driver\ReadPreference(
+    MongoDB\Driver\ReadPreference::RP_SECONDARY,
+    [
+        ['dc' => 'ny'],
+        ['dc' => 'sf', 'use' => 'reporting'],
+        []
+    ]
 );
 var_dump($rp->bsonSerialize());
 
-echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
+echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
 
 ?>
 ```
@@ -110,14 +110,14 @@ object(stdClass)#2 (2) {
 ```php
 <?php
 
-$rp = new MongoDB\Driver\ReadPreference(
-    MongoDB\Driver\ReadPreference::RP_SECONDARY,
-    null,
-    ['maxStalenessSeconds' => 120]
+$rp = new MongoDB\Driver\ReadPreference(
+    MongoDB\Driver\ReadPreference::RP_SECONDARY,
+    null,
+    ['maxStalenessSeconds' => 120]
 );
 var_dump($rp->bsonSerialize());
 
-echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
+echo "\n", MongoDB\BSON\toJSON(MongoDB\BSON\fromPHP($rp));
 
 ?>
 ```
@@ -138,4 +138,4 @@ object(stdClass)#2 (2) {
 ### Дивіться також
 
 -   [MongoDBBSONSerializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) - Надає масив або документ для серіалізації у BSON
--   [» Справочная информация по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» Справочная информация по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)

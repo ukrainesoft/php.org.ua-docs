@@ -36,9 +36,9 @@ public SplObjectStorage::count(int $mode = COUNT_NORMAL): int
 
 ```php
 <?php
-$s = new SplObjectStorage();
-$o1 = new StdClass;
-$o2 = new StdClass;
+$s = new SplObjectStorage();
+$o1 = new StdClass;
+$o2 = new StdClass;
 
 $s->attach($o1);
 $s->attach($o2);

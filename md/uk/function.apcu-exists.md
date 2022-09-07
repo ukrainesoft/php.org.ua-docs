@@ -36,29 +36,29 @@ apcu_exists(mixed $keys): mixed
 
 ```php
 <?php
-$fruit  = 'apple';
-$veggie = 'carrot';
+$fruit  = 'apple';
+$veggie = 'carrot';
 
-apcu_store('foo', $fruit);
-apcu_store('bar', $veggie);
+apcu_store('foo', $fruit);
+apcu_store('bar', $veggie);
 
-if (apcu_exists('foo')) {
-    echo "Foo с: ";
-    echo apcu_fetch('foo');
-} else {
-    echo "Foo не существует";
+if (apcu_exists('foo')) {
+    echo "Foo с: ";
+    echo apcu_fetch('foo');
+} else {
+    echo "Foo не существует";
 }
 
-echo PHP_EOL;
-if (apcu_exists('baz')) {
-    echo "Baz не существует.";
-} else {
-    echo "Baz не существует";
+echo PHP_EOL;
+if (apcu_exists('baz')) {
+    echo "Baz не существует.";
+} else {
+    echo "Baz не существует";
 }
 
-echo PHP_EOL;
+echo PHP_EOL;
 
-$ret = apcu_exists(array('foo', 'donotexist', 'bar'));
+$ret = apcu_exists(array('foo', 'donotexist', 'bar'));
 var_dump($ret);
 
 ?>

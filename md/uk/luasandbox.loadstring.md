@@ -43,18 +43,18 @@ public LuaSandbox::loadString(string $code, string $chunkName = ''): LuaSandboxF
 ```php
 <?php
 
-// создание нового LuaSandbox
-$sandbox = new LuaSandbox();
+// создание нового LuaSandbox
+$sandbox = new LuaSandbox();
 
-// Загрузка кода
-$function = $sandbox->loadString(
+// Загрузка кода
+$function = $sandbox->loadString(
 <<<CODE
-    return "Привет, мир!"
+    return "Привет, мир!"
 CODE
 );
 
-// Выполнение загруженного кода
-var_dump( $function->call() );
+// Выполнение загруженного кода
+var_dump( $function->call() );
 
 ?>
 ```

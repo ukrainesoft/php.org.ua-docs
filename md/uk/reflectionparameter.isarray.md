@@ -42,17 +42,17 @@ public ReflectionParameter::isArray(): bool
 
 ```php
 <?php
-function declaresArray(ReflectionParameter $reflectionParameter): bool
+function declaresArray(ReflectionParameter $reflectionParameter): bool
 {
-    $reflectionType = $reflectionParameter->getType();
+    $reflectionType = $reflectionParameter->getType();
 
-    if (!$reflectionType) return false;
+    if (!$reflectionType) return false;
 
-    $types = $reflectionType instanceof ReflectionUnionType
-        ? $reflectionType->getTypes()
-        : [$reflectionType];
+    $types = $reflectionType instanceof ReflectionUnionType
+        ? $reflectionType->getTypes()
+        : [$reflectionType];
 
-   return in_array('array', array_map(fn(ReflectionNamedType $t) => $t->getName(), $types));
+   return in_array('array', array_map(fn(ReflectionNamedType $t) => $t->getName(), $types));
 }
 ?>
 ```

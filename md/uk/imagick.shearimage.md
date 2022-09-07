@@ -50,11 +50,11 @@ public Imagick::shearImage(mixed $background, float $x_shear, float $y_shear): b
 
 ```php
 <?php
-function shearImage($imagePath, $color, $shearX, $shearY) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->shearimage($color, $shearX, $shearY);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function shearImage($imagePath, $color, $shearX, $shearY) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->shearimage($color, $shearX, $shearY);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

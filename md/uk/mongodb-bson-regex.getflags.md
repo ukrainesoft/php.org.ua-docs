@@ -37,7 +37,7 @@ final public MongoDB\BSON\Regex::getFlags(): string
 ```php
 <?php
 
-$regex = new MongoDB\BSON\Regex('regex', 'i');
+$regex = new MongoDB\BSON\Regex('regex', 'i');
 var_dump($regex->getFlags());
 
 ?>
@@ -51,5 +51,5 @@ string(1) "i"
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
--   [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

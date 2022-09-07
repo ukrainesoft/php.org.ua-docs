@@ -48,28 +48,28 @@ trim(string $string, string $characters = " \n\r\t\v\x00"): string
 ```php
 <?php
 
-$text   = "\t\tThese are a few words :) ...  ";
-$binary = "\x09Example string\x0A";
-$hello  = "Hello World";
-var_dump($text, $binary, $hello);
+$text   = "\t\tThese are a few words :) ...  ";
+$binary = "\x09Example string\x0A";
+$hello  = "Hello World";
+var_dump($text, $binary, $hello);
 
-print "\n";
+print "\n";
 
-$trimmed = trim($text);
+$trimmed = trim($text);
 var_dump($trimmed);
 
-$trimmed = trim($text, " \t.");
+$trimmed = trim($text, " \t.");
 var_dump($trimmed);
 
-$trimmed = trim($hello, "Hdle");
+$trimmed = trim($hello, "Hdle");
 var_dump($trimmed);
 
-$trimmed = trim($hello, 'HdWr');
+$trimmed = trim($hello, 'HdWr');
 var_dump($trimmed);
 
-// удаляем управляющие ASCII-символы с начала и конца $binary
-// (от 0 до 31 включительно)
-$clean = trim($binary, "\x00..\x1F");
+// удаляем управляющие ASCII-символы с начала и конца $binary
+// (от 0 до 31 включительно)
+$clean = trim($binary, "\x00..\x1F");
 var_dump($clean);
 
 ?>
@@ -94,15 +94,15 @@ string(14) "Example string"
 
 ```php
 <?php
-function trim_value(&$value)
+function trim_value(&$value)
 {
-    $value = trim($value);
+    $value = trim($value);
 }
 
-$fruit = array('apple','banana ', ' cranberry ');
+$fruit = array('apple','banana ', ' cranberry ');
 var_dump($fruit);
 
-array_walk($fruit, 'trim_value');
+array_walk($fruit, 'trim_value');
 var_dump($fruit);
 
 ?>

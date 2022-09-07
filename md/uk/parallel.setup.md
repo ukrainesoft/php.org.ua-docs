@@ -20,9 +20,9 @@ parallel слід збирати скрізь, де є робочий загол
 
 ### Встановлення
 
-Випуски parallel розміщуються на PECL, а вихідний код - на [» GitHub](https://github.com/krakjoe/parallel), Найпростіший спосіб встановлення - це звичайний маршрут PECL: [» https://pecl.php.net/package/parallel](https://pecl.php.net/package/parallel)
+Випуски parallel розміщуються на PECL, а вихідний код - на [» GitHub](https://github.com/krakjoe/parallel), Найпростіший спосіб встановлення - це звичайний маршрут PECL: [» https://pecl.php.net/package/parallel](https://pecl.php.net/package/parallel)
 
-Користувачі Windows можуть завантажити готові двійкові файли випуску із сайту [» PECL](https://windows.php.net/downloads/pecl/releases/parallel)
+Користувачі Windows можуть завантажити готові двійкові файли випуску із сайту [» PECL](https://windows.php.net/downloads/pecl/releases/parallel)
 
 **Застереження**
 

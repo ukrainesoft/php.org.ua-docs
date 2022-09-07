@@ -38,14 +38,14 @@ public Yaf_Response_Abstract::getBody(string $key = ?): mixed
 
 ```php
 <?php
-$response = new Yaf_Response_Http();
+$response = new Yaf_Response_Http();
 
-$response->setBody("Привет")->setBody(", Мир", "footer");
+$response->setBody("Привет")->setBody(", Мир", "footer");
 
-var_dump($response->getBody()); //по умолчанию
-var_dump($response->getBody(Yaf_Response_Abstract::DEFAULT_BODY)); //так же, как и выше
+var_dump($response->getBody()); //по умолчанию
+var_dump($response->getBody(Yaf_Response_Abstract::DEFAULT_BODY)); //так же, как и выше
 var_dump($response->getBody("footer"));
-var_dump($response->getBody(NULL)); //получить все
+var_dump($response->getBody(NULL)); //получить все
 ?>
 ```
 

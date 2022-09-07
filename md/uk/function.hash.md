@@ -15,7 +15,7 @@ hash - Генерує хеш-код (підпис повідомлення)
 ### Опис
 
 ```methodsynopsis
-hash(    string $algo,    string $data,    bool $binary = false,    array $options = []): string
+hash(    string $algo,    string $data,    bool $binary = false,    array $options = []): string
 ```
 
 ### Список параметрів
@@ -53,7 +53,7 @@ hash(    string $algo,    string $data,    bool $binary = false,  
 
 ```php
 <?php
-echo hash('ripemd160', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
+echo hash('ripemd160', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
 ?>
 ```
 

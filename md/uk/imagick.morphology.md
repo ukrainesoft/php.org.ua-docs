@@ -15,7 +15,7 @@ Imagick::morphology — Опис
 ### Опис
 
 ```methodsynopsis
-public Imagick::morphology(    int $morphologyMethod,    int $iterations,    ImagickKernel $ImagickKernel,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::morphology(    int $morphologyMethod,    int $iterations,    ImagickKernel $ImagickKernel,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Застосовує зображення ядро, надане користувачем, відповідно до заданого методу морфології.
@@ -44,11 +44,11 @@ public Imagick::morphology(    int $morphologyMethod,    int $iterations
 
 ```php
 <?php
-$imagick = $this->getCharacter();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_GAUSSIAN, "5,1");
-$imagick->morphology(\Imagick::MORPHOLOGY_CONVOLVE, 2, $kernel);
-header("Content-Type: image/png");
-echo $imagick->getImageBlob();
+$imagick = $this->getCharacter();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_GAUSSIAN, "5,1");
+$imagick->morphology(\Imagick::MORPHOLOGY_CONVOLVE, 2, $kernel);
+header("Content-Type: image/png");
+echo $imagick->getImageBlob();
 
 ?>
 ```
@@ -57,15 +57,15 @@ echo $imagick->getImageBlob();
 
 ```php
 <?php
-// Верхний левый пиксель должен быть чёрным.
-// Нижний правый пиксель должен быть белым
-// На остальное нам всё равно.
+// Верхний левый пиксель должен быть чёрным.
+// Нижний правый пиксель должен быть белым
+// На остальное нам всё равно.
 
-$imagick = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromMatrix(self::$correlateMatrix, [2, 2]);
-$imagick->morphology(\Imagick::MORPHOLOGY_CORRELATE, 1, $kernel);
-header("Content-Type: image/png");
-echo $imagick->getImageBlob();
+$imagick = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromMatrix(self::$correlateMatrix, [2, 2]);
+$imagick->morphology(\Imagick::MORPHOLOGY_CORRELATE, 1, $kernel);
+header("Content-Type: image/png");
+echo $imagick->getImageBlob();
 
 ?>
 ```
@@ -74,11 +74,11 @@ echo $imagick->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
-$canvas->morphology(\Imagick::MORPHOLOGY_ERODE, 2, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
+$canvas->morphology(\Imagick::MORPHOLOGY_ERODE, 2, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -87,11 +87,11 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacter();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "1");
-$canvas->morphology(\Imagick::MORPHOLOGY_ERODE_INTENSITY, 2, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacter();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "1");
+$canvas->morphology(\Imagick::MORPHOLOGY_ERODE_INTENSITY, 2, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -100,11 +100,11 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
-$canvas->morphology(\Imagick::MORPHOLOGY_DILATE, 4, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
+$canvas->morphology(\Imagick::MORPHOLOGY_DILATE, 4, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -113,11 +113,11 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacter();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "1");
-$canvas->morphology(\Imagick::MORPHOLOGY_DILATE_INTENSITY, 4, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacter();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "1");
+$canvas->morphology(\Imagick::MORPHOLOGY_DILATE_INTENSITY, 4, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -126,12 +126,12 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_CHEBYSHEV, "3");
-$canvas->morphology(\Imagick::MORPHOLOGY_DISTANCE, 3, $kernel);
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_CHEBYSHEV, "3");
+$canvas->morphology(\Imagick::MORPHOLOGY_DISTANCE, 3, $kernel);
 $canvas->autoLevelImage();
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -140,12 +140,12 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_MANHATTAN, "5");
-$canvas->morphology(\Imagick::MORPHOLOGY_DISTANCE, 3, $kernel);
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_MANHATTAN, "5");
+$canvas->morphology(\Imagick::MORPHOLOGY_DISTANCE, 3, $kernel);
 $canvas->autoLevelImage();
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -154,12 +154,12 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGONAL, "5");
-$canvas->morphology(\Imagick::MORPHOLOGY_DISTANCE, 3, $kernel);
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGONAL, "5");
+$canvas->morphology(\Imagick::MORPHOLOGY_DISTANCE, 3, $kernel);
 $canvas->autoLevelImage();
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -168,12 +168,12 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_EUCLIDEAN, "4");
-$canvas->morphology(\Imagick::MORPHOLOGY_DISTANCE, 3, $kernel);
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_EUCLIDEAN, "4");
+$canvas->morphology(\Imagick::MORPHOLOGY_DISTANCE, 3, $kernel);
 $canvas->autoLevelImage();
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -182,11 +182,11 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
-$canvas->morphology(\Imagick::MORPHOLOGY_EDGE, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
+$canvas->morphology(\Imagick::MORPHOLOGY_EDGE, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -195,13 +195,13 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-// В результате вы увидите, что "Open" сглаживает контур, округляя все острые точки, и удаляет все части, которые меньше используемой формы.
-// Он также отключит или откроет любые тонкие мосты.
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
-$canvas->morphology(\Imagick::MORPHOLOGY_OPEN, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+// В результате вы увидите, что "Open" сглаживает контур, округляя все острые точки, и удаляет все части, которые меньше используемой формы.
+// Он также отключит или откроет любые тонкие мосты.
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
+$canvas->morphology(\Imagick::MORPHOLOGY_OPEN, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -210,14 +210,14 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-// В результате вы увидите, что "Open" сглаживает контур, округляя все острые точки, и удаляет все части, которые меньше используемой формы.
-// Он также отключит или откроет любые тонкие мосты.
+// В результате вы увидите, что "Open" сглаживает контур, округляя все острые точки, и удаляет все части, которые меньше используемой формы.
+// Он также отключит или откроет любые тонкие мосты.
 
-$canvas = $this->getCharacter();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
-$canvas->morphology(\Imagick::MORPHOLOGY_OPEN_INTENSITY, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacter();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
+$canvas->morphology(\Imagick::MORPHOLOGY_OPEN_INTENSITY, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -226,13 +226,13 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-// Основное использование метода "Close" - уменьшить или удалить любые дыры или пробелы в размере Структурного элемента ядра.
-// Это "близкие" части фона примерно такого размера.
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
-$canvas->morphology(\Imagick::MORPHOLOGY_CLOSE, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+// Основное использование метода "Close" - уменьшить или удалить любые дыры или пробелы в размере Структурного элемента ядра.
+// Это "близкие" части фона примерно такого размера.
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
+$canvas->morphology(\Imagick::MORPHOLOGY_CLOSE, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -241,13 +241,13 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-// Основное использование метода "Close" - уменьшить или удалить любые дыры или пробелы в размере Структурного элемента ядра.
-// Это "близкие" части фона примерно такого размера.
-$canvas = $this->getCharacter();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
-$canvas->morphology(\Imagick::MORPHOLOGY_CLOSE_INTENSITY, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+// Основное использование метода "Close" - уменьшить или удалить любые дыры или пробелы в размере Структурного элемента ядра.
+// Это "близкие" части фона примерно такого размера.
+$canvas = $this->getCharacter();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "6");
+$canvas->morphology(\Imagick::MORPHOLOGY_CLOSE_INTENSITY, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -256,11 +256,11 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
-$canvas->morphology(\Imagick::MORPHOLOGY_SMOOTH, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
+$canvas->morphology(\Imagick::MORPHOLOGY_SMOOTH, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -269,11 +269,11 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
-$canvas->morphology(\Imagick::MORPHOLOGY_EDGE_IN, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
+$canvas->morphology(\Imagick::MORPHOLOGY_EDGE_IN, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -282,11 +282,11 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
-$canvas->morphology(\Imagick::MORPHOLOGY_EDGE_OUT, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_OCTAGON, "3");
+$canvas->morphology(\Imagick::MORPHOLOGY_EDGE_OUT, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -295,11 +295,11 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "5");
-$canvas->morphology(\Imagick::MORPHOLOGY_TOP_HAT, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "5");
+$canvas->morphology(\Imagick::MORPHOLOGY_TOP_HAT, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -309,11 +309,11 @@ echo $canvas->getImageBlob();
 ```php
 <?php
 
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "5");
-$canvas->morphology(\Imagick::MORPHOLOGY_BOTTOM_HAT, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "5");
+$canvas->morphology(\Imagick::MORPHOLOGY_BOTTOM_HAT, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -322,16 +322,16 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-// Находит все пиксели с 3 пикселями правого края
-$matrix = [[1, false, false, 0]];
-$kernel = \ImagickKernel::fromMatrix(
-    $matrix,
-    [0, 0]
+$canvas = $this->getCharacterOutline();
+// Находит все пиксели с 3 пикселями правого края
+$matrix = [[1, false, false, 0]];
+$kernel = \ImagickKernel::fromMatrix(
+    $matrix,
+    [0, 0]
 );
-$canvas->morphology(\Imagick::MORPHOLOGY_HIT_AND_MISS, 1, $kernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas->morphology(\Imagick::MORPHOLOGY_HIT_AND_MISS, 1, $kernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -340,14 +340,14 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$leftEdgeKernel = \ImagickKernel::fromMatrix([[0, 1]], [1, 0]);
-$rightEdgeKernel = \ImagickKernel::fromMatrix([[1, 0]], [0, 0]);
+$canvas = $this->getCharacterOutline();
+$leftEdgeKernel = \ImagickKernel::fromMatrix([[0, 1]], [1, 0]);
+$rightEdgeKernel = \ImagickKernel::fromMatrix([[1, 0]], [0, 0]);
 $leftEdgeKernel->addKernel($rightEdgeKernel);
 
-$canvas->morphology(\Imagick::MORPHOLOGY_THINNING, 3, $leftEdgeKernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas->morphology(\Imagick::MORPHOLOGY_THINNING, 3, $leftEdgeKernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -356,14 +356,14 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$leftEdgeKernel = \ImagickKernel::fromMatrix([[0, 1]], [1, 0]);
-$rightEdgeKernel = \ImagickKernel::fromMatrix([[1, 0]], [0, 0]);
+$canvas = $this->getCharacterOutline();
+$leftEdgeKernel = \ImagickKernel::fromMatrix([[0, 1]], [1, 0]);
+$rightEdgeKernel = \ImagickKernel::fromMatrix([[1, 0]], [0, 0]);
 $leftEdgeKernel->addKernel($rightEdgeKernel);
 
-$canvas->morphology(\Imagick::MORPHOLOGY_THICKEN, 3, $leftEdgeKernel);
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+$canvas->morphology(\Imagick::MORPHOLOGY_THICKEN, 3, $leftEdgeKernel);
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -372,18 +372,18 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$diamondKernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DIAMOND, "1");
-$convexKernel =  \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_CONVEX_HULL, "");
+$canvas = $this->getCharacterOutline();
+$diamondKernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DIAMOND, "1");
+$convexKernel =  \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_CONVEX_HULL, "");
 
-// Утолщённая морфология не справляется с небольшими зазорами.
-// Закрываем их близкой морфологией.
-$canvas->morphology(\Imagick::MORPHOLOGY_CLOSE, 1, $diamondKernel);
-$canvas->morphology(\Imagick::MORPHOLOGY_THICKEN, -1, $convexKernel);
-$canvas->morphology(\Imagick::MORPHOLOGY_CLOSE, 1, $diamondKernel);
+// Утолщённая морфология не справляется с небольшими зазорами.
+// Закрываем их близкой морфологией.
+$canvas->morphology(\Imagick::MORPHOLOGY_CLOSE, 1, $diamondKernel);
+$canvas->morphology(\Imagick::MORPHOLOGY_THICKEN, -1, $convexKernel);
+$canvas->morphology(\Imagick::MORPHOLOGY_CLOSE, 1, $diamondKernel);
 
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -392,12 +392,12 @@ echo $canvas->getImageBlob();
 
 ```php
 <?php
-$canvas = $this->getCharacterOutline();
-$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "2");
-$canvas->morphology(\Imagick::MORPHOLOGY_ITERATIVE, 3, $kernel);
+$canvas = $this->getCharacterOutline();
+$kernel = \ImagickKernel::fromBuiltIn(\Imagick::KERNEL_DISK, "2");
+$canvas->morphology(\Imagick::MORPHOLOGY_ITERATIVE, 3, $kernel);
 $canvas->autoLevelImage();
-header("Content-Type: image/png");
-echo $canvas->getImageBlob();
+header("Content-Type: image/png");
+echo $canvas->getImageBlob();
 
 ?>
 ```
@@ -407,34 +407,34 @@ echo $canvas->getImageBlob();
 ```php
 <?php
 
-function getCharacterOutline() {
-    $imagick = new \Imagick(realpath("./images/character.png"));
-    $character = new \Imagick();
-    $character->newPseudoImage(
-        $imagick->getImageWidth(),
-        $imagick->getImageHeight(),
-        "canvas:white"
-    );
-    $canvas = new \Imagick();
-    $canvas->newPseudoImage(
-        $imagick->getImageWidth(),
-        $imagick->getImageHeight(),
-        "canvas:black"
-    );
+function getCharacterOutline() {
+    $imagick = new \Imagick(realpath("./images/character.png"));
+    $character = new \Imagick();
+    $character->newPseudoImage(
+        $imagick->getImageWidth(),
+        $imagick->getImageHeight(),
+        "canvas:white"
+    );
+    $canvas = new \Imagick();
+    $canvas->newPseudoImage(
+        $imagick->getImageWidth(),
+        $imagick->getImageHeight(),
+        "canvas:black"
+    );
 
-    $character->compositeimage(
-        $imagick,
-        \Imagick::COMPOSITE_COPYOPACITY,
-        0, 0
-    );
-    $canvas->compositeimage(
-        $character,
-        \Imagick::COMPOSITE_ATOP,
-        0, 0
-    );
-    $canvas->setFormat('png');
+    $character->compositeimage(
+        $imagick,
+        \Imagick::COMPOSITE_COPYOPACITY,
+        0, 0
+    );
+    $canvas->compositeimage(
+        $character,
+        \Imagick::COMPOSITE_ATOP,
+        0, 0
+    );
+    $canvas->setFormat('png');
 
-    return $canvas;
+    return $canvas;
 }
 ?>
 ```

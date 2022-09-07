@@ -34,20 +34,20 @@ public mysql_xdevapi\Table::isView(): bool
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
-$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
-$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
-if ($table->isView()) {
-    echo "Это представление.";
-} else {
-    echo "Это не представление.";
+if ($table->isView()) {
+    echo "Это представление.";
+} else {
+    echo "Это не представление.";
 }
 ?>
 ```

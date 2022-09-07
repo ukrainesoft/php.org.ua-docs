@@ -66,7 +66,7 @@ title: Опції контексту SSL
 
 `ciphers` string
 
-Встановлює перелік доступних алгоритмів шифрування. Формат цього рядка описаний у розділі [» шифри(1)](https://www.openssl.org/docs/manmaster/man1/ciphers.md#CIPHER-LIST-FORMAT)
+Встановлює перелік доступних алгоритмів шифрування. Формат цього рядка описаний у розділі [» шифри(1)](https://www.openssl.org/docs/manmaster/man1/ciphers.md#CIPHER-LIST-FORMAT)
 
 За замовчуванням набуває значення `DEFAULT`
 
@@ -96,7 +96,7 @@ title: Опції контексту SSL
 
 `security_level` int
 
-Встановлює рівень безпеки. Якщо не вказано, використовується стандартний рівень безпеки, вказаний у бібліотеці. Рівні безпеки описані в [» SSLCTXgetsecuritylevel(3)](https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_get_security_level.md)
+Встановлює рівень безпеки. Якщо не вказано, використовується стандартний рівень безпеки, вказаний у бібліотеці. Рівні безпеки описані в [» SSLCTXgetsecuritylevel(3)](https://www.openssl.org/docs/man1.1.1/man3/SSL_CTX_get_security_level.md)
 
 Доступна з PHP 7.2.0 та OpenSSL 1.1.0.
 

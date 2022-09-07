@@ -33,10 +33,10 @@ chr(int $codepoint): string
 Значення за межею діапазону (0..255) мають бути побітово складені (побітове І) з 255, що відповідає такому алгоритму:
 
 ```php
-while ($bytevalue < 0) {
-    $bytevalue += 256;
+while ($bytevalue < 0) {
+    $bytevalue += 256;
 }
-$bytevalue %= 256;
+$bytevalue %= 256;
 ```
 
 ### Значення, що повертаються
@@ -55,14 +55,14 @@ $bytevalue %= 256;
 
 ```php
 <?php
-// Предполагается, что строка будет использовака как ASCII или ASCII-совместимая
+// Предполагается, что строка будет использовака как ASCII или ASCII-совместимая
 
-$str = "Эта строка заканчивается на escape: ";
-$str .= chr(27); /* добавляет символ escape в конец $str */
+$str = "Эта строка заканчивается на escape: ";
+$str .= chr(27); /* добавляет символ escape в конец $str */
 
-/* Но обычно лучше использовать такую конструкцию */
+/* Но обычно лучше использовать такую конструкцию */
 
-$str = sprintf("Эта строка заканчивается на escape: %c", 27);
+$str = sprintf("Эта строка заканчивается на escape: %c", 27);
 ?>
 ```
 
@@ -70,7 +70,7 @@ $str = sprintf("Эта строка заканчивается на escape
 
 ```php
 <?php
-echo chr(-159), chr(833), PHP_EOL;
+echo chr(-159), chr(833), PHP_EOL;
 ?>
 ```
 
@@ -84,8 +84,8 @@ aA
 
 ```php
 <?php
-$str = chr(240) . chr(159) . chr(144) . chr(152);
-echo $str;
+$str = chr(240) . chr(159) . chr(144) . chr(152);
+echo $str;
 ?>
 ```
 
@@ -95,6 +95,6 @@ echo $str;
 
 -   Опис формату `%c` функції [sprintf()](function.sprintf.md)
 -   [ord()](function.ord.md)
--   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
+-   [» Таблица ASCII-кодов](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
 -   [мбchr()](function.mb-chr.md)
 -   [IntlChar::chr()](intlchar.chr.md)

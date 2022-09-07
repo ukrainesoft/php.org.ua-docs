@@ -40,7 +40,7 @@ mcrypt_list_algorithms(string $lib_dir = ini_get("mcrypt.algorithms_dir")): arra
 
 ```php
 <?php
-$algorithms = mcrypt_list_algorithms();
+$algorithms = mcrypt_list_algorithms();
 print_r($algorithms);
 ?>
 ```

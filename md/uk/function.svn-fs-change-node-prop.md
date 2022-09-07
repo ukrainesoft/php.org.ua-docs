@@ -15,7 +15,7 @@ svnфсchangenodeprop — Повертає **`true`**, якщо операція
 ### Опис
 
 ```methodsynopsis
-svn_fs_change_node_prop(    resource $root,    string $path,    string $name,    string $value): bool
+svn_fs_change_node_prop(    resource $root,    string $path,    string $name,    string $value): bool
 ```
 
 **Увага**

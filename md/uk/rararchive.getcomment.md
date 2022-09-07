@@ -54,8 +54,8 @@ rar_comment_get(RarArchive $rarfile): string
 
 ```php
 <?php
-$rar_arch = RarArchive::open('commented.rar');
-echo $rar_arch->getComment();
+$rar_arch = RarArchive::open('commented.rar');
+echo $rar_arch->getComment();
 ?>
 ```
 
@@ -69,7 +69,7 @@ This is the comment of the file commented.rar.
 
 ```php
 <?php
-$rar_arch = rar_open('commented.rar');
-echo rar_comment_get($rar_arch);
+$rar_arch = rar_open('commented.rar');
+echo rar_comment_get($rar_arch);
 ?>
 ```

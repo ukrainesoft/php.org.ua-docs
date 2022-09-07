@@ -46,10 +46,10 @@ xattr_get(string $filename, string $name, int $flags = 0): string
 
 ```php
 <?php
-$file = '/usr/local/sbin/some_binary';
-$signature = xattr_get($file, 'Root signature', XATTR_ROOT);
+$file = '/usr/local/sbin/some_binary';
+$signature = xattr_get($file, 'Root signature', XATTR_ROOT);
 
-/* ... check if $signature is valid ... */
+/* ... check if $signature is valid ... */
 
 ?>
 ```

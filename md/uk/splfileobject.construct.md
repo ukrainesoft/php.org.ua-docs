@@ -58,9 +58,9 @@ bool `$useIncludePath` **`false`**
 
 ```php
 <?php
-$file = new SplFileObject(__FILE__);
-foreach ($file as $line_num => $line) {
-    echo "Строка $line_num: $line";
+$file = new SplFileObject(__FILE__);
+foreach ($file as $line_num => $line) {
+    echo "Строка $line_num: $line";
 }
 ?>
 ```

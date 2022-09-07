@@ -44,7 +44,7 @@ public Ds\Map::allocate(int $capacity): void
 
 ```php
 <?php
-$map = new \Ds\Map();
+$map = new \Ds\Map();
 var_dump($map->capacity());
 
 $map->allocate(100);

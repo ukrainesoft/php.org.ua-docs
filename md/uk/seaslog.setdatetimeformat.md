@@ -41,7 +41,7 @@ public static SeasLog::setDatetimeFormat(string $format): bool
 ```php
 <?php
 
-var_dump(SeasLog::setDateTimeFormat('Ymd His'));
+var_dump(SeasLog::setDateTimeFormat('Ymd His'));
 
 ?>
 ```

@@ -34,8 +34,8 @@ public SimpleXMLElement::__toString(): string
 
 ```php
 <?php
-$xml = new SimpleXMLElement('<a>1 <b>2 </b>3</a>');
-echo $xml;
+$xml = new SimpleXMLElement('<a>1 <b>2 </b>3</a>');
+echo $xml;
 ?>
 ```
 

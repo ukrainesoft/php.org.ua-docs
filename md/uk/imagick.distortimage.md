@@ -54,40 +54,40 @@ public Imagick::distortImage(int $method, array $arguments, bool $bestfit): bool
 
 ```php
 <?php
-/* Создание нового объекта */
-$im = new Imagick();
+/* Создание нового объекта */
+$im = new Imagick();
 
-/* Создание нового узора в виде шахматной доски */
-$im->newPseudoImage(100, 100, "pattern:checkerboard");
+/* Создание нового узора в виде шахматной доски */
+$im->newPseudoImage(100, 100, "pattern:checkerboard");
 
-/* Установка формата изображения на png */
+/* Установка формата изображения на png */
 $im->setImageFormat('png');
 
-/* Заполнение новых видимых областей прозрачным цветом */
+/* Заполнение новых видимых областей прозрачным цветом */
 $im->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);
 
-/* Активация матовости */
+/* Активация матовости */
 $im->setImageMatte(true);
 
-/* Контрольные точки для искажения */
-$controlPoints = array( 10, 10,
-                        10, 5,
+/* Контрольные точки для искажения */
+$controlPoints = array( 10, 10,
+                        10, 5,
 
-                        10, $im->getImageHeight() - 20,
-                        10, $im->getImageHeight() - 5,
+                        10, $im->getImageHeight() - 20,
+                        10, $im->getImageHeight() - 5,
 
-                        $im->getImageWidth() - 10, 10,
-                        $im->getImageWidth() - 10, 20,
+                        $im->getImageWidth() - 10, 10,
+                        $im->getImageWidth() - 10, 20,
 
-                        $im->getImageWidth() - 10, $im->getImageHeight() - 10,
-                        $im->getImageWidth() - 10, $im->getImageHeight() - 30);
+                        $im->getImageWidth() - 10, $im->getImageHeight() - 10,
+                        $im->getImageWidth() - 10, $im->getImageHeight() - 30);
 
-/* Выполнение искажения */
-$im->distortImage(Imagick::DISTORTION_PERSPECTIVE, $controlPoints, true);
+/* Выполнение искажения */
+$im->distortImage(Imagick::DISTORTION_PERSPECTIVE, $controlPoints, true);
 
-/* Вывод изображения */
-header("Content-Type: image/png");
-echo $im;
+/* Вывод изображения */
+header("Content-Type: image/png");
+echo $im;
 ?>
 ```
 

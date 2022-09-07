@@ -40,17 +40,17 @@ public SplFileObject::fgetss(string $allowable_tags = ?): string
 
 ```php
 <?php
-$str = <<<EOD
+$str = <<<EOD
 <html><body>
- <p>Добро пожаловать! Сегодня <?php echo(date('jS')); ?> <?= date('F'); ?>.</p>
+ <p>Добро пожаловать! Сегодня <?php echo(date('jS')); ?> <?= date('F'); ?>.</p>
 </body></html>
-Текст вне блока HTML.
+Текст вне блока HTML.
 EOD;
-file_put_contents("sample.php", $str);
+file_put_contents("sample.php", $str);
 
-$file = new SplFileObject("sample.php");
-while (!$file->eof()) {
-    echo $file->fgetss();
+$file = new SplFileObject("sample.php");
+while (!$file->eof()) {
+    echo $file->fgetss();
 }
 ?>
 ```

@@ -36,14 +36,14 @@ tidy_error_count(tidy $tidy): int
 
 ```php
 <?php
-$html = '<p>test</i>
+$html = '<p>test</i>
 <bogustag>bogus</bogustag>';
 
-$tidy = tidy_parse_string($html);
+$tidy = tidy_parse_string($html);
 
-echo tidy_error_count($tidy) . "\n"; //1
+echo tidy_error_count($tidy) . "\n"; //1
 
-echo $tidy->errorBuffer;
+echo $tidy->errorBuffer;
 ?>
 ```
 

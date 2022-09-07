@@ -46,7 +46,7 @@ public static SeasLog::closeLoggerStream(int $model, string $logger): bool
 
 var_dump(SeasLog::closeLoggerStream());
 var_dump(SeasLog::closeLoggerStream(SEASLOG_CLOSE_LOGGER_STREAM_MOD_ALL));
-var_dump(SeasLog::closeLoggerStream(SEASLOG_CLOSE_LOGGER_STREAM_MOD_ASSIGN, 'logger_name'));
+var_dump(SeasLog::closeLoggerStream(SEASLOG_CLOSE_LOGGER_STREAM_MOD_ASSIGN, 'logger_name'));
 
 ?>
 ```

@@ -37,10 +37,10 @@ final public MongoDB\BSON\Javascript::getScope(): ?object
 ```php
 <?php
 
-$js = new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');
+$js = new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');
 var_dump($js->getScope());
 
-$js = new MongoDB\BSON\Javascript('function foo() { return foo; }', ['foo' => 42]);
+$js = new MongoDB\BSON\Javascript('function foo() { return foo; }', ['foo' => 42]);
 var_dump($js->getScope());
 
 ?>
@@ -58,4 +58,4 @@ object(stdClass)#1 (1) {
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

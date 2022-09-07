@@ -42,38 +42,38 @@ readline_callback_handler_install(string $prompt, callable $callback): bool
 
 ```php
 <?php
-function rl_callback($ret)
+function rl_callback($ret)
 {
-    global $c, $prompting;
+    global $c, $prompting;
 
-    echo "Вы ввели: $ret\n";
-    $c++;
+    echo "Вы ввели: $ret\n";
+    $c++;
 
-    if ($c > 10) {
-        $prompting = false;
-        readline_callback_handler_remove();
-    } else {
-        readline_callback_handler_install("[$c] Поговори со мной: ", 'rl_callback');
-    }
+    if ($c > 10) {
+        $prompting = false;
+        readline_callback_handler_remove();
+    } else {
+        readline_callback_handler_install("[$c] Поговори со мной: ", 'rl_callback');
+    }
 }
 
-$c = 1;
-$prompting = true;
+$c = 1;
+$prompting = true;
 
-readline_callback_handler_install("[$c] Введите что-нибудь: ", 'rl_callback');
+readline_callback_handler_install("[$c] Введите что-нибудь: ", 'rl_callback');
 
-while ($prompting) {
-    $w = NULL;
-    $e = NULL;
-    $n = stream_select($r = array(STDIN), $w, $e, null);
-    if ($n && in_array(STDIN, $r)) {
-        // читаем символ и вызываем callback-функцию,
-        // если введён символ новой строки
-        readline_callback_read_char();
-    }
+while ($prompting) {
+    $w = NULL;
+    $e = NULL;
+    $n = stream_select($r = array(STDIN), $w, $e, null);
+    if ($n && in_array(STDIN, $r)) {
+        // читаем символ и вызываем callback-функцию,
+        // если введён символ новой строки
+        readline_callback_read_char();
+    }
 }
 
-echo "Ввод отключён. Спасибо за внимание.\n";
+echo "Ввод отключён. Спасибо за внимание.\n";
 ?>
 ```
 

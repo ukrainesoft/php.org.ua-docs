@@ -38,7 +38,7 @@ datefmt_set_pattern(IntlDateFormatter $formatter, string $pattern): bool
 
 `pattern`
 
-Новий рядок шаблон для використання. Можливі шаблони можна переглянути на [» https://unicode-org.github.io/icu/userguide/formatparse/datetime/](https://unicode-org.github.io/icu/userguide/format_parse/datetime/)
+Новий рядок шаблон для використання. Можливі шаблони можна переглянути на [» https://unicode-org.github.io/icu/userguide/formatparse/datetime/](https://unicode-org.github.io/icu/userguide/format_parse/datetime/)
 
 ### Значення, що повертаються
 
@@ -50,18 +50,18 @@ datefmt_set_pattern(IntlDateFormatter $formatter, string $pattern): bool
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'MM/dd/yyyy'
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'MM/dd/yyyy'
 );
-echo 'Шаблон средства форматирования : ', datefmt_get_pattern($fmt), PHP_EOL;
-echo 'Первый отформатированный вывод : ', datefmt_format($fmt, 0), PHP_EOL;
-datefmt_set_pattern($fmt, 'yyyyMMdd hh:mm:ss z');
-echo 'Теперь шаблон средства форматирования : ', datefmt_get_pattern($fmt), PHP_EOL;
-echo 'Второй отформатированный вывод : ', datefmt_format($fmt, 0), PHP_EOL;
+echo 'Шаблон средства форматирования : ', datefmt_get_pattern($fmt), PHP_EOL;
+echo 'Первый отформатированный вывод : ', datefmt_format($fmt, 0), PHP_EOL;
+datefmt_set_pattern($fmt, 'yyyyMMdd hh:mm:ss z');
+echo 'Теперь шаблон средства форматирования : ', datefmt_get_pattern($fmt), PHP_EOL;
+echo 'Второй отформатированный вывод : ', datefmt_format($fmt, 0), PHP_EOL;
 ?>
 ```
 
@@ -69,18 +69,18 @@ echo 'Второй отформатированный вывод : ', date
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'MM/dd/yyyy'
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'MM/dd/yyyy'
 );
-echo 'Шаблон средства форматирования : ', $fmt->getPattern(), PHP_EOL;
-echo 'Первый отформатированный вывод : ', $fmt->format(0), PHP_EOL;
-$fmt->setPattern('yyyyMMdd hh:mm:ss z');
-echo 'Теперь шаблон средства форматирования : ', $fmt->getPattern(), PHP_EOL;
-echo 'Второй отформатированный вывод : ', $fmt->format(0), PHP_EOL;
+echo 'Шаблон средства форматирования : ', $fmt->getPattern(), PHP_EOL;
+echo 'Первый отформатированный вывод : ', $fmt->format(0), PHP_EOL;
+$fmt->setPattern('yyyyMMdd hh:mm:ss z');
+echo 'Теперь шаблон средства форматирования : ', $fmt->getPattern(), PHP_EOL;
+echo 'Второй отформатированный вывод : ', $fmt->format(0), PHP_EOL;
 ?>
 ```
 

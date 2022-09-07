@@ -38,8 +38,8 @@ gnupg_listsignatures(resource $identifier, string $keyid): array
 
 ```php
 <?php
-$res = gnupg_init();
-$signatures = gnupg_listsignatures($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+$res = gnupg_init();
+$signatures = gnupg_listsignatures($res, "8660281B6051D071D94B5B230549F9DC851566DC");
 print_r($signatures);
 ?>
 ```
@@ -48,8 +48,8 @@ print_r($signatures);
 
 ```php
 <?php
-$gpg = new gnupg();
-$signatures = $gpg->listsignatures("8660281B6051D071D94B5B230549F9DC851566DC");
+$gpg = new gnupg();
+$signatures = $gpg->listsignatures("8660281B6051D071D94B5B230549F9DC851566DC");
 print_r($signatures);
 ?>
 ```

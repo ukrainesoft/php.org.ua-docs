@@ -15,7 +15,7 @@ PDO::pgsqlCopyToFile — Вивантаження таблиці у файл
 ### Опис
 
 ```methodsynopsis
-public PDO::pgsqlCopyToFile(    string $table_name,    string $filename,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): bool
+public PDO::pgsqlCopyToFile(    string $table_name,    string $filename,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): bool
 ```
 
 Вивантажує дані у файл `filename` використовуючи роздільник полів `delimiter` та список полів `fields`

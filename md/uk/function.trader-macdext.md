@@ -15,7 +15,7 @@ tradermacdext - MACD з керованим типом MA
 ### Опис
 
 ```methodsynopsis
-trader_macdext(    array $real,    int $fastPeriod = ?,    int $fastMAType = ?,    int $slowPeriod = ?,    int $slowMAType = ?,    int $signalPeriod = ?,    int $signalMAType = ?): array
+trader_macdext(    array $real,    int $fastPeriod = ?,    int $fastMAType = ?,    int $slowPeriod = ?,    int $slowMAType = ?,    int $signalPeriod = ?,    int $signalMAType = ?): array
 ```
 
 ### Список параметрів

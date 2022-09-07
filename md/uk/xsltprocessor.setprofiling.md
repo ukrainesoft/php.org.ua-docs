@@ -36,19 +36,19 @@ public XSLTProcessor::setProfiling(?string $filename): bool
 
 ```php
 <?php
-// Загрузка исходного XML
-$xml = new DOMDocument;
+// Загрузка исходного XML
+$xml = new DOMDocument;
 $xml->load('collection.xml');
 
-$xsl = new DOMDocument;
+$xsl = new DOMDocument;
 $xsl->load('collection.xsl');
 
-// Настройка преобразования
-$proc = new XSLTProcessor;
+// Настройка преобразования
+$proc = new XSLTProcessor;
 $proc->setProfiling('profiling.txt');
-$proc->importStyleSheet($xsl); // добавление стилей xsl
+$proc->importStyleSheet($xsl); // добавление стилей xsl
 
-echo trim($proc->transformToDoc($xml)->firstChild->wholeText);
+echo trim($proc->transformToDoc($xml)->firstChild->wholeText);
 ?>
 ```
 

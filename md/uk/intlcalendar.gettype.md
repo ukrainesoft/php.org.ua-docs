@@ -44,13 +44,13 @@ intlcal_get_type(IntlCalendar $calendar): string
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'en_US');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'en_US');
 
-$cal = IntlCalendar::createInstance(NULL, '@calendar=ethiopic-amete-alem');
+$cal = IntlCalendar::createInstance(NULL, '@calendar=ethiopic-amete-alem');
 var_dump($cal->getType());
 
-$cal = new IntlGregorianCalendar();
+$cal = new IntlGregorianCalendar();
 var_dump($cal->getType());
 ```
 

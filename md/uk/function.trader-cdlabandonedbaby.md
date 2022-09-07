@@ -15,7 +15,7 @@ tradercdlabandonedbaby — Покинута дитина
 ### Опис
 
 ```methodsynopsis
-trader_cdlabandonedbaby(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdlabandonedbaby(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

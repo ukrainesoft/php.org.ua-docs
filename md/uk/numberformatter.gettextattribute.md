@@ -50,12 +50,12 @@ numfmt_get_text_attribute(NumberFormatter $formatter, int $attribute): string|fa
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-echo "Prefix: ".numfmt_get_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX)."\n";
-echo numfmt_format($fmt, -1234567.891234567890000)."\n";
-numfmt_set_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX, "MINUS");
-echo "Prefix: ".numfmt_get_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX)."\n";
-echo numfmt_format($fmt, -1234567.891234567890000)."\n";
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+echo "Prefix: ".numfmt_get_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX)."\n";
+echo numfmt_format($fmt, -1234567.891234567890000)."\n";
+numfmt_set_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX, "MINUS");
+echo "Prefix: ".numfmt_get_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX)."\n";
+echo numfmt_format($fmt, -1234567.891234567890000)."\n";
 ?>
 ```
 
@@ -63,12 +63,12 @@ echo numfmt_format($fmt, -1234567.891234567890000)."\n";
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
-echo "Префикс: ".$fmt->getTextAttribute(NumberFormatter::NEGATIVE_PREFIX)."\n";
-echo $fmt->format(-1234567.891234567890000)."\n";
-$fmt->setTextAttribute(NumberFormatter::NEGATIVE_PREFIX, "MINUS");
-echo "Префикс: ".$fmt->getTextAttribute(NumberFormatter::NEGATIVE_PREFIX)."\n";
-echo $fmt->format(-1234567.891234567890000)."\n";
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+echo "Префикс: ".$fmt->getTextAttribute(NumberFormatter::NEGATIVE_PREFIX)."\n";
+echo $fmt->format(-1234567.891234567890000)."\n";
+$fmt->setTextAttribute(NumberFormatter::NEGATIVE_PREFIX, "MINUS");
+echo "Префикс: ".$fmt->getTextAttribute(NumberFormatter::NEGATIVE_PREFIX)."\n";
+echo $fmt->format(-1234567.891234567890000)."\n";
 ?>
 ```
 

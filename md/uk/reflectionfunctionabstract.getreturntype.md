@@ -35,12 +35,12 @@ public ReflectionFunctionAbstract::getReturnType(): ?ReflectionType
 ```php
 <?php
 
-function to_int($param) : int {
-    return (int) $param;
+function to_int($param) : int {
+    return (int) $param;
 }
 
-$reflection1 = new ReflectionFunction('to_int');
-echo $reflection1->getReturnType();
+$reflection1 = new ReflectionFunction('to_int');
+echo $reflection1->getReturnType();
 ```
 
 Результат виконання цього прикладу:
@@ -54,7 +54,7 @@ int
 ```php
 <?php
 
-$reflection2 = new ReflectionFunction('array_merge');
+$reflection2 = new ReflectionFunction('array_merge');
 
 var_dump($reflection2->getReturnType());
 ```

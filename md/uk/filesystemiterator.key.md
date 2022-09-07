@@ -34,9 +34,9 @@ public FilesystemIterator::key(): string
 
 ```php
 <?php
-$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);
-foreach ($iterator as $fileinfo) {
-    echo $iterator->key() . "\n";
+$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);
+foreach ($iterator as $fileinfo) {
+    echo $iterator->key() . "\n";
 }
 ?>
 ```

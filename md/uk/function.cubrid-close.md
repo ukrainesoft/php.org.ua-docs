@@ -38,17 +38,17 @@ cubrid_close(resource $conn_identifier = ?): bool
 
 ```php
 <?php
-$con = cubrid_connect ("localhost", 33000, "demodb");
-if ($con) {
-   echo "подключение успешно выполнено";
-   $req = cubrid_execute ( $con, "insert into person values(1,'James')");
-   if ($req) {
-      cubrid_close_request ($req);
-      cubrid_commit ($con);
-   } else {
-      cubrid_rollback ($con);
-   }
-   cubrid_close ($con);
+$con = cubrid_connect ("localhost", 33000, "demodb");
+if ($con) {
+   echo "подключение успешно выполнено";
+   $req = cubrid_execute ( $con, "insert into person values(1,'James')");
+   if ($req) {
+      cubrid_close_request ($req);
+      cubrid_commit ($con);
+   } else {
+      cubrid_rollback ($con);
+   }
+   cubrid_close ($con);
 }
 ?>
 ```

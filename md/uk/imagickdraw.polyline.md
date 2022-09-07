@@ -40,31 +40,31 @@ public ImagickDraw::polyline(array $coordinates): bool
 
 ```php
 <?php
-function polyline($strokeColor, $fillColor, $backgroundColor) {
-    $draw = new \ImagickDraw();
+function polyline($strokeColor, $fillColor, $backgroundColor) {
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
 
-    $draw->setStrokeWidth(5);
+    $draw->setStrokeWidth(5);
 
-    $points = [
-        ['x' => 40 * 5, 'y' => 10 * 5],
-        ['x' => 20 * 5, 'y' => 20 * 5],
-        ['x' => 70 * 5, 'y' => 50 * 5],
-        ['x' => 60 * 5, 'y' => 15 * 5]
-    ];
+    $points = [
+        ['x' => 40 * 5, 'y' => 10 * 5],
+        ['x' => 20 * 5, 'y' => 20 * 5],
+        ['x' => 70 * 5, 'y' => 50 * 5],
+        ['x' => 60 * 5, 'y' => 15 * 5]
+    ];
 
-    $draw->polyline($points);
+    $draw->polyline($points);
 
-    $image = new \Imagick();
-    $image->newImage(500, 300, $backgroundColor);
-    $image->setImageFormat("png");
-    $image->drawImage($draw);
+    $image = new \Imagick();
+    $image->newImage(500, 300, $backgroundColor);
+    $image->setImageFormat("png");
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

@@ -48,20 +48,20 @@ imap_get_quotaroot(IMAP\Connection $imap, string $mailbox): array|false
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org}", "kalowsky", "password", OP_HALFOPEN)
-      or die("не удалось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.org}", "kalowsky", "password", OP_HALFOPEN)
+      or die("не удалось подключиться: " . imap_last_error());
 
-$quota = imap_get_quotaroot($mbox, "INBOX");
-if (is_array($quota)) {
-   $storage = $quota['STORAGE'];
-   echo "Уровень использования STORAGE: " .  $storage['usage'];
-   echo "Максимальный размер STORAGE: " .  $storage['limit'];
+$quota = imap_get_quotaroot($mbox, "INBOX");
+if (is_array($quota)) {
+   $storage = $quota['STORAGE'];
+   echo "Уровень использования STORAGE: " .  $storage['usage'];
+   echo "Максимальный размер STORAGE: " .  $storage['limit'];
 
-   $message = $quota['MESSAGE'];
-   echo "Уровень использования MESSAGE: " .  $message['usage'];
-   echo "Максимальный размер MESSAGE: " .  $message['limit'];
+   $message = $quota['MESSAGE'];
+   echo "Уровень использования MESSAGE: " .  $message['usage'];
+   echo "Максимальный размер MESSAGE: " .  $message['limit'];
 
-   /* ...  */
+   /* ...  */
 
 }
 

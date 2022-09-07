@@ -19,7 +19,7 @@ datesunrise — Повертає час світанку для заданого
 ### Опис
 
 ```methodsynopsis
-date_sunrise(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STRING,    ?float $latitude = null,    ?float $longitude = null,    ?float $zenith = null,    ?float $utcOffset = null): string|int|float|false
+date_sunrise(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STRING,    ?float $latitude = null,    ?float $longitude = null,    ?float $zenith = null,    ?float $utcOffset = null): string|int|float|false
 ```
 
 **datesunrise()** повертає час світанку для певних днів (заданого аргументом `timestamp`) та місця розташування.
@@ -87,14 +87,14 @@ date_sunrise(    int $timestamp,    int $returnFormat = SUNFUNCS_RET_STR
 ```php
 <?php
 
-/* расчёт времени восхода солнца в Лиссабоне, Португалия
-Latitude: 38.4 North
-Longitude: 9 West
-Zenith ~= 90
-offset: +1 GMT
+/* расчёт времени восхода солнца в Лиссабоне, Португалия
+Latitude: 38.4 North
+Longitude: 9 West
+Zenith ~= 90
+offset: +1 GMT
 */
 
-echo date("D M d Y"). ', время восхода солнца : ' .date_sunrise(time(), SUNFUNCS_RET_STRING, 38.4, -9, 90, 1);
+echo date("D M d Y"). ', время восхода солнца : ' .date_sunrise(time(), SUNFUNCS_RET_STRING, 38.4, -9, 90, 1);
 
 ?>
 ```
@@ -109,8 +109,8 @@ Mon Dec 20 2004, время восхода солнца : 08:54
 
 ```php
 <?php
-$solstice = strtotime('2017-12-21');
-var_dump(date_sunrise($solstice, SUNFUNCS_RET_STRING, 69.245833, -53.537222));
+$solstice = strtotime('2017-12-21');
+var_dump(date_sunrise($solstice, SUNFUNCS_RET_STRING, 69.245833, -53.537222));
 ?>
 ```
 

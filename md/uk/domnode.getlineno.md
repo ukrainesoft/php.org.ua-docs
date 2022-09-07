@@ -34,22 +34,22 @@ public DOMNode::getLineNo(): int
 
 ```php
 <?php
-// Определение необходимого для примера XML
-$xml = <<<XML
-<?xml version="1.0" encoding="utf-8"?>
+// Определение необходимого для примера XML
+$xml = <<<XML
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-    <node />
+    <node />
 </root>
 XML;
 
-// Создание нового экземпляра DOMDocument
-$dom = new DOMDocument;
+// Создание нового экземпляра DOMDocument
+$dom = new DOMDocument;
 
-// Загрузка XML
+// Загрузка XML
 $dom->loadXML($xml);
 
-// Вывод номер строки, в которой определён элемент 'node'
-printf('Тег <node> определён в строке %d', $dom->getElementsByTagName('node')->item(0)->getLineNo());
+// Вывод номер строки, в которой определён элемент 'node'
+printf('Тег <node> определён в строке %d', $dom->getElementsByTagName('node')->item(0)->getLineNo());
 ?>
 ```
 

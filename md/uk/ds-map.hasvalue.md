@@ -36,10 +36,10 @@ public Ds\Map::hasValue(mixed $value): bool
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 
-var_dump($map->hasValue(1)); // true
-var_dump($map->hasValue(4)); // false
+var_dump($map->hasValue(1)); // true
+var_dump($map->hasValue(4)); // false
 ?>
 ```
 

@@ -15,7 +15,7 @@ hashinit - Ініціалізація інкрементального конт�
 ### Опис
 
 ```methodsynopsis
-hash_init(    string $algo,    int $flags = 0,    string $key = "",    array $options = []): HashContext
+hash_init(    string $algo,    int $flags = 0,    string $key = "",    array $options = []): HashContext
 ```
 
 ### Список параметрів
@@ -54,10 +54,10 @@ hash_init(    string $algo,    int $flags = 0,    string $key = "",�
 
 ```php
 <?php
-$ctx = hash_init('md5');
-hash_update($ctx, 'Наглый коричневый лисёнок ');
-hash_update($ctx, 'прыгает вокруг ленивой собаки.');
-echo hash_final($ctx);
+$ctx = hash_init('md5');
+hash_update($ctx, 'Наглый коричневый лисёнок ');
+hash_update($ctx, 'прыгает вокруг ленивой собаки.');
+echo hash_final($ctx);
 ?>
 ```
 

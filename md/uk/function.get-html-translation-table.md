@@ -91,7 +91,7 @@ get_html_translation_table(int $table = HTML_SPECIALCHARS, int $flags = ENT_QUOT
 
 ```php
 <?php
-var_dump(get_html_translation_table(HTML_ENTITIES, ENT_QUOTES | ENT_HTML5));
+var_dump(get_html_translation_table(HTML_ENTITIES, ENT_QUOTES | ENT_HTML5));
 ?>
 ```
 

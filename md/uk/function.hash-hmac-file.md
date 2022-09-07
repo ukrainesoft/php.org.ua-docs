@@ -15,7 +15,7 @@ hashhmacfile — Генерація хеш-коду на основі ключа
 ### Опис
 
 ```methodsynopsis
-hash_hmac_file(    string $algo,    string $filename,    string $key,    bool $binary = false): string|false
+hash_hmac_file(    string $algo,    string $filename,    string $key,    bool $binary = false): string|false
 ```
 
 ### Список параметрів
@@ -52,10 +52,10 @@ URL розташування файлу для хешування; Підтри�
 
 ```php
 <?php
-/* Создаём файл, чтобы вычислить его хеш */
-file_put_contents('example.txt', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
+/* Создаём файл, чтобы вычислить его хеш */
+file_put_contents('example.txt', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
 
-echo hash_hmac_file('md5', 'example.txt', 'secret');
+echo hash_hmac_file('md5', 'example.txt', 'secret');
 ?>
 ```
 

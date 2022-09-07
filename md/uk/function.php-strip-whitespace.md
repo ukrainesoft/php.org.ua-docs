@@ -40,14 +40,14 @@ php_strip_whitespace(string $filename): string
 
 ```php
 <?php
-// PHP комментарий
+// PHP комментарий
 
 /*
- * Другой PHP комментарий
- */
+ * Другой PHP комментарий
+ */
 
-echo        php_strip_whitespace(__FILE__);
-// Символы новой строки считаются пробелами, и также удаляются:
+echo        php_strip_whitespace(__FILE__);
+// Символы новой строки считаются пробелами, и также удаляются:
 do_nothing();
 ?>
 ```

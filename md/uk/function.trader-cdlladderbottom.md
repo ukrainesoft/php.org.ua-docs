@@ -15,7 +15,7 @@ tradercdlladderbottom - Свічкова модель "Ступінчасте д
 ### Опис
 
 ```methodsynopsis
-trader_cdlladderbottom(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlladderbottom(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

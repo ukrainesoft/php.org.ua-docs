@@ -40,20 +40,20 @@ public Threaded::synchronized(Closure $block, mixed ...$args): mixed
 
 ```php
 <?php
-class My extends Thread {
-    public function run() {
-        $this->synchronized(function($thread){
-            if (!$thread->done)
-                $thread->wait();
-        }, $this);
-    }
+class My extends Thread {
+    public function run() {
+        $this->synchronized(function($thread){
+            if (!$thread->done)
+                $thread->wait();
+        }, $this);
+    }
 }
-$my = new My();
+$my = new My();
 $my->start();
 $my->synchronized(function($thread){
-    $thread->done = true;
-    $thread->notify();
-}, $my);
+    $thread->done = true;
+    $thread->notify();
+}, $my);
 var_dump($my->join());
 ?>
 ```

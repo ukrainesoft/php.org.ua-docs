@@ -15,7 +15,7 @@ Memcached::replaceByKey — Замінює існуючий запис із за
 ### Опис
 
 ```methodsynopsis
-public Memcached::replaceByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
+public Memcached::replaceByKey(    string $server_key,    string $key,    mixed $value,    int $expiration = ?): bool
 ```
 
 **Memcached::replaceByKey()** працює аналогічно [Memcached::replace()](memcached.replace.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер. Це корисно, коли необхідно тримати кілька пов'язаних значень на конкретному сервері.

@@ -58,21 +58,21 @@ uopz_flags(string $class, string $function, int $flags = PHP_INT_MAX): int
 
 ```php
 <?php
-class Test {
-    public function method() {
-        return __CLASS__;
-    }
+class Test {
+    public function method() {
+        return __CLASS__;
+    }
 }
 
-$flags = uopz_flags("Test", "method");
+$flags = uopz_flags("Test", "method");
 
-var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_PRIVATE));
-var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_STATIC));
+var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_PRIVATE));
+var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_STATIC));
 
-var_dump(uopz_flags("Test", "method", $flags|ZEND_ACC_STATIC|ZEND_ACC_PRIVATE));
+var_dump(uopz_flags("Test", "method", $flags|ZEND_ACC_STATIC|ZEND_ACC_PRIVATE));
 
-var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_PRIVATE));
-var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_STATIC));
+var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_PRIVATE));
+var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_STATIC));
 ?>
 ```
 
@@ -90,13 +90,13 @@ bool(true)
 
 ```php
 <?php
-final class MyClass
+final class MyClass
 {
 }
 
-$flags = uopz_flags(MyClass::class, '');
-uopz_flags(MyClass::class, '', $flags & ~ZEND_ACC_FINAL);
-var_dump((new ReflectionClass(MyClass::class))->isFinal());
+$flags = uopz_flags(MyClass::class, '');
+uopz_flags(MyClass::class, '', $flags & ~ZEND_ACC_FINAL);
+var_dump((new ReflectionClass(MyClass::class))->isFinal());
 ?>
 ```
 

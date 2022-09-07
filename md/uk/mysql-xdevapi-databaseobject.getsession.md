@@ -39,7 +39,7 @@ abstract public mysql_xdevapi\DatabaseObject::getSession(): mysql_xdevapi\Sessio
 ```php
 <?php
 
-$session = $dbObj->getSession();
+$session = $dbObj->getSession();
 
 ?>
 ```

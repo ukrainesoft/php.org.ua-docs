@@ -46,10 +46,10 @@ mqseries_cmit(resource $hconn, resource &$compCode, resource &$reason): void
 
 ```php
 <?php
-    mqseries_cmit($conn, $comp_code, $reason);
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("cmit CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-    }
+    mqseries_cmit($conn, $comp_code, $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("cmit CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+    }
 ?>
 ```
 

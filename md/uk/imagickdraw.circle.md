@@ -15,7 +15,7 @@ ImagickDraw::circle — Малює коло
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::circle(    float $ox,    float $oy,    float $px,    float $py): bool
+public ImagickDraw::circle(    float $ox,    float $oy,    float $px,    float $py): bool
 ```
 
 **Увага**
@@ -52,30 +52,30 @@ public ImagickDraw::circle(    float $ox,    float $oy,    float $px
 
 ```php
 <?php
-function circle($strokeColor, $fillColor, $backgroundColor, $originX, $originY, $endX, $endY) {
+function circle($strokeColor, $fillColor, $backgroundColor, $originX, $originY, $endX, $endY) {
 
-    //Создание объекта ImagickDraw для рисования.
-    $draw = new \ImagickDraw();
+    //Создание объекта ImagickDraw для рисования.
+    $draw = new \ImagickDraw();
 
-    $strokeColor = new \ImagickPixel($strokeColor);
-    $fillColor = new \ImagickPixel($fillColor);
+    $strokeColor = new \ImagickPixel($strokeColor);
+    $fillColor = new \ImagickPixel($fillColor);
 
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
 
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
 
-    $draw->circle($originX, $originY, $endX, $endY);
+    $draw->circle($originX, $originY, $endX, $endY);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

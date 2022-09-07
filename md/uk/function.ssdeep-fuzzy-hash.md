@@ -18,7 +18,7 @@ ssdeepfuzzyhash — Створює нечіткий хеш із рядка
 ssdeep_fuzzy_hash(string $to_hash): string
 ```
 
-**ssdeepfuzzyhash()** обчислює хеш рядки `to_hash`, використовуючи [»  контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) і повертає його.
+**ssdeepfuzzyhash()** обчислює хеш рядки `to_hash`, використовуючи [»  контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) і повертає його.
 
 ### Список параметрів
 

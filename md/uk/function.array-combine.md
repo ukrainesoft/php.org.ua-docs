@@ -50,9 +50,9 @@ array_combine(array $keys, array $values): array
 
 ```php
 <?php
-$a = array('green', 'red', 'yellow');
-$b = array('avocado', 'apple', 'banana');
-$c = array_combine($a, $b);
+$a = array('green', 'red', 'yellow');
+$b = array('avocado', 'apple', 'banana');
+$c = array_combine($a, $b);
 
 print_r($c);
 ?>

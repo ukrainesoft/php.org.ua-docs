@@ -34,19 +34,19 @@ public mysql_xdevapi\Result::getAffectedItemsCount(): int
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema = $session->getSchema("addressbook");
-$create = $schema->createCollection("people");
+$schema = $session->getSchema("addressbook");
+$create = $schema->createCollection("people");
 
-$collection = $schema->getCollection("people");
+$collection = $schema->getCollection("people");
 
-$result = $collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
+$result = $collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();
 
-var_dump( $res->getAffectedItemsCount() );
+var_dump( $res->getAffectedItemsCount() );
 ?>
 ```
 

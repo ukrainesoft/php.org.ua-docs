@@ -38,27 +38,27 @@ public Phar::startBuffering(): void
 
 ```php
 <?php
-// удалим на всякий случай
+// удалим на всякий случай
 @unlink('brandnewphar.phar');
-try {
-    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
-} catch (Exception $e) {
-    echo 'не могу создать phar:', $e;
+try {
+    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+} catch (Exception $e) {
+    echo 'не могу создать phar:', $e;
 }
-echo 'В новом phar содержится ' . $p->count() . " записей\n";
+echo 'В новом phar содержится ' . $p->count() . " записей\n";
 $p->startBuffering();
-$p['file.txt'] = 'hi';
-$p['file2.txt'] = 'there';
+$p['file.txt'] = 'hi';
+$p['file2.txt'] = 'there';
 $p['file2.txt']->setCompressedGZ();
-$p['file3.txt'] = 'babyface';
+$p['file3.txt'] = 'babyface';
 $p['file3.txt']->setMetadata(42);
 $p->setStub("<?php
-function __autoload($class)
+function __autoload($class)
 {
-    include 'phar://myphar.phar/' . str_replace('_', '/', $class) . '.php';
+    include 'phar://myphar.phar/' . str_replace('_', '/', $class) . '.php';
 }
 Phar::mapPhar('myphar.phar');
-include 'phar://myphar.phar/startup.php';
+include 'phar://myphar.phar/startup.php';
 __HALT_COMPILER();");
 $p->stopBuffering();
 ?>

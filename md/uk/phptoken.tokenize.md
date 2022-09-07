@@ -42,10 +42,10 @@ public static PhpToken::tokenize(string $code, int $flags = 0): array
 
 ```php
 <?php
-$tokens = PhpToken::tokenize('<?php echo; ?>');
+$tokens = PhpToken::tokenize('<?php echo; ?>');
 
-foreach ($tokens as $token) {
-    echo "Line {$token->line}: {$token->getTokenName()} ('{$token->text}')", PHP_EOL;
+foreach ($tokens as $token) {
+    echo "Line {$token->line}: {$token->getTokenName()} ('{$token->text}')", PHP_EOL;
 }
 ```
 
@@ -64,14 +64,14 @@ Line 1: T_CLOSE_TAG ('?>')
 ```php
 <?php
 
-class MyPhpToken extends PhpToken {
-    public function getUpperText() {
-        return strtoupper($this->text);
-    }
+class MyPhpToken extends PhpToken {
+    public function getUpperText() {
+        return strtoupper($this->text);
+    }
 }
 
-$tokens = MyPhpToken::tokenize('<?php echo; ?>');
-echo "'{$tokens[0]->getUpperText()}'";
+$tokens = MyPhpToken::tokenize('<?php echo; ?>');
+echo "'{$tokens[0]->getUpperText()}'";
 ```
 
 Результат виконання даних прикладів:

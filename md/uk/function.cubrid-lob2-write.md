@@ -40,19 +40,19 @@ cubrid_lob2_write(resource $lob_identifier, string $buf): bool
 
 ```php
 <?php
-// test_lob (id INT, contents CLOB)
+// test_lob (id INT, contents CLOB)
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
 
-cubrid_execute($conn,"DROP TABLE if exists test_lob");
-cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
+cubrid_execute($conn,"DROP TABLE if exists test_lob");
+cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
 
-$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES(2, ?)");
+$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES(2, ?)");
 
-$lob = cubrid_lob2_new($conn, 'CLOB');
-$len = cubrid_lob2_write($lob, "Hello world");
+$lob = cubrid_lob2_new($conn, 'CLOB');
+$len = cubrid_lob2_write($lob, "Hello world");
 
-cubrid_lob2_bind($req, 1, $lob);
+cubrid_lob2_bind($req, 1, $lob);
 cubrid_execute($req);
 
 cubrid_disconnect($conn);
@@ -63,32 +63,32 @@ cubrid_disconnect($conn);
 
 ```php
 <?php
-// test_lob (id INT, contents CLOB)
+// test_lob (id INT, contents CLOB)
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
 
-cubrid_execute($conn,"DROP TABLE if exists test_lob");
-cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
+cubrid_execute($conn,"DROP TABLE if exists test_lob");
+cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
 
-$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES(1, ?)");
-$lob1 = cubrid_lob2_new($conn, 'CLOB');
-$len = cubrid_lob2_write($lob1, "cubrid php driver");
-cubrid_lob2_bind($req, 1, $lob1);
+$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES(1, ?)");
+$lob1 = cubrid_lob2_new($conn, 'CLOB');
+$len = cubrid_lob2_write($lob1, "cubrid php driver");
+cubrid_lob2_bind($req, 1, $lob1);
 cubrid_execute($req);
 
-$req = cubrid_execute($conn, "select * from test_lob");
+$req = cubrid_execute($conn, "select * from test_lob");
 
-$row = cubrid_fetch_row($req, CUBRID_LOB);
-$lob2 = $row[1];
-cubrid_lob2_seek($lob2, 0, CUBRID_CURSOR_LAST);
+$row = cubrid_fetch_row($req, CUBRID_LOB);
+$lob2 = $row[1];
+cubrid_lob2_seek($lob2, 0, CUBRID_CURSOR_LAST);
 
-$pos = cubrid_lob2_tell($lob2);
-print "позиция перед записью: $pos\n";
+$pos = cubrid_lob2_tell($lob2);
+print "позиция перед записью: $pos\n";
 
-cubrid_lob2_write($lob2, "Hello world");
+cubrid_lob2_write($lob2, "Hello world");
 
-$pos = cubrid_lob2_tell($lob2);
-print "позиция после записи: $pos\n";
+$pos = cubrid_lob2_tell($lob2);
+print "позиция после записи: $pos\n";
 
 cubrid_disconnect($conn);
 ?>

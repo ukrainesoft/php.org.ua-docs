@@ -34,21 +34,21 @@ eio_event_loop(): bool
 
 ```php
 <?php
-$temp_filename = "eio-temp-file.tmp";
+$temp_filename = "eio-temp-file.tmp";
 touch($temp_filename);
 
-/* Вызывается после выполнения eio_chmod() */
-function my_chmod_callback($data, $result) {
-    global $temp_filename;
+/* Вызывается после выполнения eio_chmod() */
+function my_chmod_callback($data, $result) {
+    global $temp_filename;
 
-    if ($result == 0 && !is_readable($temp_filename) && is_writable($temp_filename)) {
-        echo "eio_chmod_ok";
-    }
+    if ($result == 0 && !is_readable($temp_filename) && is_writable($temp_filename)) {
+        echo "eio_chmod_ok";
+    }
 
-    @unlink($temp_filename);
+    @unlink($temp_filename);
 }
 
-eio_chmod($temp_filename, 0200, EIO_PRI_DEFAULT, "my_chmod_callback");
+eio_chmod($temp_filename, 0200, EIO_PRI_DEFAULT, "my_chmod_callback");
 eio_event_loop();
 ?>
 ```

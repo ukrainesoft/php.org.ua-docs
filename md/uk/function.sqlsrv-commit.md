@@ -18,7 +18,7 @@ sqlsrvcommit - Фіксує транзакцію, розпочату за доп
 sqlsrv_commit(resource $conn): bool
 ```
 
-Фіксує транзакцію, розпочату за допомогою [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). З'єднання повертається в режим автоматичної фіксації після дзвінка **sqlsrvcommit()**. Підтверджена транзакція включає всі оператори, які були виконані після виклику [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання SQL-операторів, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
+Фіксує транзакцію, розпочату за допомогою [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). З'єднання повертається в режим автоматичної фіксації після дзвінка **sqlsrvcommit()**. Підтверджена транзакція включає всі оператори, які були виконані після виклику [sqlsrvbegintransaction()](function.sqlsrv-begin-transaction.md). Явні транзакції повинні запускатися та фіксуватися або відкочуватися з використанням цих функцій замість виконання SQL-операторів, які запускають та фіксують/відкочують транзакції. Для отримання додаткової інформації дивіться [» Транзакції SQLSRV](http://msdn.microsoft.com/en-us/library/cc296206.aspx)
 
 ### Список параметрів
 
@@ -38,42 +38,42 @@ sqlsrv_commit(resource $conn): bool
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-    die( print_r( sqlsrv_errors(), true ));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+    die( print_r( sqlsrv_errors(), true ));
 }
 
-/* Начало транзакции. */
-if ( sqlsrv_begin_transaction( $conn ) === false ) {
-     die( print_r( sqlsrv_errors(), true ));
+/* Начало транзакции. */
+if ( sqlsrv_begin_transaction( $conn ) === false ) {
+     die( print_r( sqlsrv_errors(), true ));
 }
 
-/* Инициализация значения параметров. */
-$orderId = 1; $qty = 10; $productId = 100;
+/* Инициализация значения параметров. */
+$orderId = 1; $qty = 10; $productId = 100;
 
-/* Настройка и выполнение первого запроса. */
-$sql1 = "INSERT INTO OrdersTable (ID, Quantity, ProductID)
-         VALUES (?, ?, ?)";
-$params1 = array( $orderId, $qty, $productId );
-$stmt1 = sqlsrv_query( $conn, $sql1, $params1 );
+/* Настройка и выполнение первого запроса. */
+$sql1 = "INSERT INTO OrdersTable (ID, Quantity, ProductID)
+         VALUES (?, ?, ?)";
+$params1 = array( $orderId, $qty, $productId );
+$stmt1 = sqlsrv_query( $conn, $sql1, $params1 );
 
-/* Настройка и выполнение второго запроса. */
-$sql2 = "UPDATE InventoryTable
-         SET Quantity = (Quantity - ?)
-         WHERE ProductID = ?";
-$params2 = array($qty, $productId);
-$stmt2 = sqlsrv_query( $conn, $sql2, $params2 );
+/* Настройка и выполнение второго запроса. */
+$sql2 = "UPDATE InventoryTable
+         SET Quantity = (Quantity - ?)
+         WHERE ProductID = ?";
+$params2 = array($qty, $productId);
+$stmt2 = sqlsrv_query( $conn, $sql2, $params2 );
 
-/* Если оба запроса были успешными, зафиксируйте транзакцию. */
-/* В противном случае откатите транзакцию */
-if( $stmt1 && $stmt2 ) {
-     sqlsrv_commit( $conn );
-     echo "Транзакция зафиксирована.<br />";
-} else {
-     sqlsrv_rollback( $conn );
-     echo "Транзакция откачена.<br />";
+/* Если оба запроса были успешными, зафиксируйте транзакцию. */
+/* В противном случае откатите транзакцию */
+if( $stmt1 && $stmt2 ) {
+     sqlsrv_commit( $conn );
+     echo "Транзакция зафиксирована.<br />";
+} else {
+     sqlsrv_rollback( $conn );
+     echo "Транзакция откачена.<br />";
 }
 ?>
 ```

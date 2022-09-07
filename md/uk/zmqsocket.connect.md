@@ -46,27 +46,27 @@ public ZMQSocket::connect(string $dsn, bool $force = false): ZMQSocket
 
 ```php
 <?php
-/* Адрес сервера */
-$dsn = "tcp://127.0.0.1:5555";
+/* Адрес сервера */
+$dsn = "tcp://127.0.0.1:5555";
 
-/* Создать сокет */
-$socket = new ZMQSocket(new ZMQContext(), ZMQ::SOCKET_REQ, 'my socket');
+/* Создать сокет */
+$socket = new ZMQSocket(new ZMQContext(), ZMQ::SOCKET_REQ, 'my socket');
 
-/* Получить список подключённых конечных точек */
-$endpoints = $socket->getEndpoints();
+/* Получить список подключённых конечных точек */
+$endpoints = $socket->getEndpoints();
 
-/* Проверить, подключён ли сокет */
-if (!in_array($dsn, $endpoints['connect'])) {
-    echo "<p>Подключение к $dsn</p>";
-    $socket->connect($dsn);
-} else {
-    echo "<p>Уже подключён к $dsn</p>";
+/* Проверить, подключён ли сокет */
+if (!in_array($dsn, $endpoints['connect'])) {
+    echo "<p>Подключение к $dsn</p>";
+    $socket->connect($dsn);
+} else {
+    echo "<p>Уже подключён к $dsn</p>";
 }
 
-/* Послать и получить данные */
+/* Послать и получить данные */
 $socket->send("Привет!");
-$message = $socket->recv();
+$message = $socket->recv();
 
-echo "<p>Сервер ответил: {$message}</p>";
+echo "<p>Сервер ответил: {$message}</p>";
 ?>
 ```

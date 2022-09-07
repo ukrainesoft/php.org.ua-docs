@@ -43,24 +43,24 @@ public ReflectionGenerator::getTrace(int $options = DEBUG_BACKTRACE_PROVIDE_OBJE
 
 ```php
 <?php
-function foo() {
-    yield 1;
+function foo() {
+    yield 1;
 }
 
-function bar()
+function bar()
 {
-    yield from foo();
+    yield from foo();
 }
 
-function baz()
+function baz()
 {
-    yield from bar();
+    yield from bar();
 }
 
-$gen = baz();
-$gen->valid(); // запускаем генератор
+$gen = baz();
+$gen->valid(); // запускаем генератор
 
-var_dump((new ReflectionGenerator($gen))->getTrace());
+var_dump((new ReflectionGenerator($gen))->getTrace());
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

@@ -15,7 +15,7 @@ hashhkdf — Формування ключа HKDF для заданих вхід
 ### Опис
 
 ```methodsynopsis
-hash_hkdf(    string $algo,    string $key,    int $length = 0,    string $info = "",    string $salt = ""): string
+hash_hkdf(    string $algo,    string $key,    int $length = 0,    string $info = "",    string $salt = ""): string
 ```
 
 ### Список параметрів
@@ -62,15 +62,15 @@ hash_hkdf(    string $algo,    string $key,    int $length = 0,  �
 
 ```php
 <?php
-// Генерируем случайный ключ и соль для усиления процесса формирования.
-$inputKey = random_bytes(32);
-$salt = random_bytes(16);
+// Генерируем случайный ключ и соль для усиления процесса формирования.
+$inputKey = random_bytes(32);
+$salt = random_bytes(16);
 
-// Формируем пару разных ключей, используя одни и те же входные данные.
-$encryptionKey = hash_hkdf('sha256', $inputKey, 32, 'aes-256-encryption', $salt);
-$authenticationKey = hash_hkdf('sha256', $inputKey, 32, 'sha-256-authentication', $salt);
+// Формируем пару разных ключей, используя одни и те же входные данные.
+$encryptionKey = hash_hkdf('sha256', $inputKey, 32, 'aes-256-encryption', $salt);
+$authenticationKey = hash_hkdf('sha256', $inputKey, 32, 'sha-256-authentication', $salt);
 
-var_dump($encryptionKey !== $authenticationKey); // bool(true)
+var_dump($encryptionKey !== $authenticationKey); // bool(true)
 ?>
 ```
 
@@ -79,5 +79,5 @@ var_dump($encryptionKey !== $authenticationKey); // bool(true)
 ### Дивіться також
 
 -   [hashpbkdf2()](function.hash-pbkdf2.md) - Формування ключа PBKDF2 для заданих вхідних даних
--   [» RFC 5869](http://www.faqs.org/rfcs/rfc5869)
--   [» користувацька реалізація](https://github.com/narfbg/hash_hkdf_compat)
+-   [» RFC 5869](http://www.faqs.org/rfcs/rfc5869)
+-   [» користувацька реалізація](https://github.com/narfbg/hash_hkdf_compat)

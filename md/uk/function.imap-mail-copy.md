@@ -15,7 +15,7 @@ imapmailcopy — Скопіювати повідомлення до вказан
 ### Опис
 
 ```methodsynopsis
-imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,    string $mailbox,    int $flags = 0): bool
+imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,    string $mailbox,    int $flags = 0): bool
 ```
 
 Копіює задані в `message_nums` листи у вказану поштову скриньку.
@@ -28,7 +28,7 @@ imap_mail_copy(    IMAP\Connection $imap,    string $message_nums,   
 
 `message_nums`
 
-`message_nums` - це діапазон, а не просто номери повідомлень (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
+`message_nums` - це діапазон, а не просто номери повідомлень (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
 
 `mailbox`
 

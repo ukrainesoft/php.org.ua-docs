@@ -43,27 +43,27 @@ oci_field_type_raw(resource $statement, string|int $column): int|false
 ```php
 <?php
 
-// Создать таблицу:
-//   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1), clob_col CLOB, date_col DATE);
+// Создать таблицу:
+//   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1), clob_col CLOB, date_col DATE);
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-if (!$conn) {
-    $m = oci_error();
-    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'select * from mytab');
-oci_execute($stid, OCI_DESCRIBE_ONLY);  // используйте OCI_DESCRIBE_ONLY, если не получаете данных
-$n = oci_num_fields($stid);
-for ($i = 1; $i <= $n; ++$i) {
-    echo oci_field_name($stid, $i) . " - исходный тип: " . oci_field_type_raw($stid, $i) . "<br>\n";
+$stid = oci_parse($conn, 'select * from mytab');
+oci_execute($stid, OCI_DESCRIBE_ONLY);  // используйте OCI_DESCRIBE_ONLY, если не получаете данных
+$n = oci_num_fields($stid);
+for ($i = 1; $i <= $n; ++$i) {
+    echo oci_field_name($stid, $i) . " - исходный тип: " . oci_field_type_raw($stid, $i) . "<br>\n";
 }
 
-// Выведет:
-//    NUMBER_COL - исходный тип: 2
-//    VARCHAR2_COL - исходный тип: 1
-//    CLOB_COL - исходный тип: 112
-//    DATE_COL - исходный тип: 12
+// Выведет:
+//    NUMBER_COL - исходный тип: 2
+//    VARCHAR2_COL - исходный тип: 1
+//    CLOB_COL - исходный тип: 112
+//    DATE_COL - исходный тип: 12
 
 oci_free_statement($stid);
 oci_close($conn);

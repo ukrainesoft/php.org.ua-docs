@@ -22,7 +22,7 @@ PDOODBC DSN — З'єднання з базами даних ODBC або DB2
 
 DSN
 
-Ім'я бази даних зазначено в каталозі менеджера драйверів ODBC або в каталозі DB2. Також ви можете вказати повний рядок з'єднання ODBC, як описано тут [» http://www.connectionstrings.com/](http://www.connectionstrings.com/)
+Ім'я бази даних зазначено в каталозі менеджера драйверів ODBC або в каталозі DB2. Також ви можете вказати повний рядок з'єднання ODBC, як описано тут [» http://www.connectionstrings.com/](http://www.connectionstrings.com/)
 
 `UID`
 

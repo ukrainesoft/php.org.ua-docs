@@ -34,24 +34,24 @@ public ReflectionEnum::isBacked(): bool
 
 ```php
 <?php
-enum Suit
+enum Suit
 {
-    case Hearts;
-    case Diamonds;
-    case Clubs;
-    case Spades;
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
 }
 
-enum BackedSuit: string
+enum BackedSuit: string
 {
-    case Hearts = 'H';
-    case Diamonds = 'D';
-    case Clubs = 'C';
-    case Spades = 'S';
+    case Hearts = 'H';
+    case Diamonds = 'D';
+    case Clubs = 'C';
+    case Spades = 'S';
 }
 
-var_dump((new ReflectionEnum(Suit::class))->isBacked());
-var_dump((new ReflectionEnum(BackedSuit::class))->isBacked());
+var_dump((new ReflectionEnum(Suit::class))->isBacked());
+var_dump((new ReflectionEnum(BackedSuit::class))->isBacked());
 ?>
 ```
 

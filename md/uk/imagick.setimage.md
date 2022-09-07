@@ -42,16 +42,16 @@ public Imagick::setImage(Imagick $replace): bool
 
 ```php
 <?php
-/* Создание объектов */
-$image = new Imagick('source.jpg');
-$replace = new Imagick('replace.jpg');
+/* Создание объектов */
+$image = new Imagick('source.jpg');
+$replace = new Imagick('replace.jpg');
 
-/* source.jpg заменяется на replace.jpg */
+/* source.jpg заменяется на replace.jpg */
 $image->setImage($replace);
 
-/* Вывод изображения */
-header('Content-type: image/jpeg');
-echo $image;
+/* Вывод изображения */
+header('Content-type: image/jpeg');
+echo $image;
 
 ?>
 ```

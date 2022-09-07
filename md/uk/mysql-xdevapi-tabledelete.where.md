@@ -36,16 +36,16 @@ public mysql_xdevapi\TableDelete::where(string $where_expr): mysql_xdevapi\Table
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
 $table->delete()
-  ->where("id = :id")
-  ->bind(['id' => 42])
-  ->limit(1)
-  ->execute();
+  ->where("id = :id")
+  ->bind(['id' => 42])
+  ->limit(1)
+  ->execute();
 
 ?>
 ```

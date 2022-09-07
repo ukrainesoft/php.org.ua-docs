@@ -41,19 +41,19 @@ class_parents(object|string $object_or_class, bool $autoload = true): array|fals
 ```php
 <?php
 
-class foo { }
-class bar extends foo {}
+class foo { }
+class bar extends foo {}
 
-print_r(class_parents(new bar));
+print_r(class_parents(new bar));
 
-// можно передавать имя класса вместо объекта
+// можно передавать имя класса вместо объекта
 print_r(class_parents('bar'));
 
 
 spl_autoload_register();
 
-// использование автозагрузки для загрузки ещё незагруженного класса 'not_loaded'
-print_r(class_parents('not_loaded', true));
+// использование автозагрузки для загрузки ещё незагруженного класса 'not_loaded'
+print_r(class_parents('not_loaded', true));
 
 ?>
 ```

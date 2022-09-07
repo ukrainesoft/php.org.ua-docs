@@ -45,21 +45,21 @@ pg_get_result(PgSql\Connection $connection): PgSql\Result|false
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с сервером");
+  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с сервером");
 
-  if (!pg_connection_busy($dbconn)) {
-      pg_send_query($dbconn, "select * from authors; select count(*) from authors;");
-  }
+  if (!pg_connection_busy($dbconn)) {
+      pg_send_query($dbconn, "select * from authors; select count(*) from authors;");
+  }
 
-  $res1 = pg_get_result($dbconn);
-  echo "Первый вызов pg_get_result(): $res1\n";
-  $rows1 = pg_num_rows($res1);
-  echo "$res1 имеет $rows1 записей\n\n";
+  $res1 = pg_get_result($dbconn);
+  echo "Первый вызов pg_get_result(): $res1\n";
+  $rows1 = pg_num_rows($res1);
+  echo "$res1 имеет $rows1 записей\n\n";
 
-  $res2 = pg_get_result($dbconn);
-  echo "Второй вызов pg_get_result(): $res2\n";
-  $rows2 = pg_num_rows($res2);
-  echo "$res2 имеет $rows2 записей\n";
+  $res2 = pg_get_result($dbconn);
+  echo "Второй вызов pg_get_result(): $res2\n";
+  $rows2 = pg_num_rows($res2);
+  echo "$res2 имеет $rows2 записей\n";
 ?>
 ```
 

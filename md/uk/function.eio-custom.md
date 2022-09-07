@@ -15,7 +15,7 @@ eiocustom — Виконує запит користувача як будь-я�
 ### Опис
 
 ```methodsynopsis
-eio_custom(    callable $execute,    int $pri,    callable $callback,    mixed $data = NULL): resource
+eio_custom(    callable $execute,    int $pri,    callable $callback,    mixed $data = NULL): resource
 ```
 
 **eiocustom()** виконує функцію користувача, визначену в параметрі `execute` як будь-який інший виклик запитів *eio*
@@ -47,7 +47,7 @@ void callback(mixed data, mixed result);
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -76,28 +76,28 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-/* Пользовательская callback-функция */
-function my_custom_callback($data, $result) {
-    var_dump($data);
-    var_dump(count($result));
-    var_dump($result['data_modified']);
-    var_dump($result['result']);
+/* Пользовательская callback-функция */
+function my_custom_callback($data, $result) {
+    var_dump($data);
+    var_dump(count($result));
+    var_dump($result['data_modified']);
+    var_dump($result['result']);
 }
 
-/* Пользовательский запрос */
-function my_custom($data) {
-    var_dump($data);
+/* Пользовательский запрос */
+function my_custom($data) {
+    var_dump($data);
 
-    $result  = array(
-        'result'        => 1001,
-        'data_modified' => "my custom data",
-    );
+    $result  = array(
+        'result'        => 1001,
+        'data_modified' => "my custom data",
+    );
 
-    return $result;
+    return $result;
 }
 
-$data = "my_custom_data";
-$req = eio_custom("my_custom", EIO_PRI_DEFAULT, "my_custom_callback", $data);
+$data = "my_custom_data";
+$req = eio_custom("my_custom", EIO_PRI_DEFAULT, "my_custom_callback", $data);
 var_dump($req);
 eio_event_loop();
 ?>

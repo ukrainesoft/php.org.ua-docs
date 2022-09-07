@@ -36,9 +36,9 @@ public DatePeriod::getDateInterval(): DateInterval
 
 ```php
 <?php
-$period = new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');
-$interval = $period->getDateInterval();
-echo $interval->format('%d day');
+$period = new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');
+$interval = $period->getDateInterval();
+echo $interval->format('%d day');
 ?>
 ```
 

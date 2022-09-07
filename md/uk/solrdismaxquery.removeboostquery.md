@@ -37,16 +37,16 @@ public SolrDisMaxQuery::removeBoostQuery(string $field): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery = new SolrDisMaxQuery("lucene");
 $dismaxQuery
-    ->addBoostQuery('cat', 'electronics', 5.1)
-    ->addBoostQuery('cat', 'hard drive')
+    ->addBoostQuery('cat', 'electronics', 5.1)
+    ->addBoostQuery('cat', 'hard drive')
 ;
-echo $dismaxQuery.PHP_EOL;
-// теперь удалите часть запроса с полем 'cat'
+echo $dismaxQuery.PHP_EOL;
+// теперь удалите часть запроса с полем 'cat'
 $dismaxQuery
 ->removeBoostQuery('cat');
-echo $dismaxQuery . PHP_EOL;
+echo $dismaxQuery . PHP_EOL;
 
 ?>
 ```

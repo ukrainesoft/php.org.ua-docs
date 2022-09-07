@@ -34,25 +34,25 @@ public AppendIterator::key(): scalar
 
 ```php
 <?php
-$array_a = new ArrayIterator(array('a' => 'aardwolf', 'b' => 'bear', 'c' => 'capybara'));
-$array_b = new ArrayIterator(array('apple', 'orange', 'lemon'));
+$array_a = new ArrayIterator(array('a' => 'aardwolf', 'b' => 'bear', 'c' => 'capybara'));
+$array_b = new ArrayIterator(array('apple', 'orange', 'lemon'));
 
-$iterator = new AppendIterator;
+$iterator = new AppendIterator;
 $iterator->append($array_a);
 $iterator->append($array_b);
 
-// Ручная итерация
+// Ручная итерация
 $iterator->rewind();
-while ($iterator->valid()) {
-    echo $iterator->key() . ' ' . $iterator->current() . PHP_EOL;
-    $iterator->next();
+while ($iterator->valid()) {
+    echo $iterator->key() . ' ' . $iterator->current() . PHP_EOL;
+    $iterator->next();
 }
 
-echo PHP_EOL;
+echo PHP_EOL;
 
-// С конструкцией foreach
-foreach ($iterator as $key => $current) {
-    echo $key . ' ' . $current . PHP_EOL;
+// С конструкцией foreach
+foreach ($iterator as $key => $current) {
+    echo $key . ' ' . $current . PHP_EOL;
 }
 ?>
 ```

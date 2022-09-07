@@ -17,17 +17,17 @@ EvLoop::signal — Створює об'єкт спостерігача EvSignal,
 ```methodsynopsis
 final
    public
-   EvLoop::signal(    
+   EvLoop::signal(    
     int
      $signum
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

@@ -63,15 +63,15 @@ pcntl_sigwaitinfo(array $signals, array &$info = []): int|false
 
 ```php
 <?php
-echo "Блокировка сигнала SIGHUP\n";
-pcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));
+echo "Блокировка сигнала SIGHUP\n";
+pcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));
 
-echo "Отправка сигнала SIGHUP самому себе\n";
-posix_kill(posix_getpid(), SIGHUP);
+echo "Отправка сигнала SIGHUP самому себе\n";
+posix_kill(posix_getpid(), SIGHUP);
 
-echo "Ожидание сигналов\n";
-$info = array();
-pcntl_sigwaitinfo(array(SIGHUP), $info);
+echo "Ожидание сигналов\n";
+$info = array();
+pcntl_sigwaitinfo(array(SIGHUP), $info);
 ?>
 ```
 

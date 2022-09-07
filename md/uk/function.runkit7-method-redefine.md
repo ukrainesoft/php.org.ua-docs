@@ -15,11 +15,11 @@ runkit7методredefine - Динамічно змінює код задано�
 ### Опис
 
 ```methodsynopsis
-runkit7_method_redefine(    string $class_name,    string $method_name,    string $argument_list,    string $code,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_method_redefine(    string $class_name,    string $method_name,    string $argument_list,    string $code,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ```methodsynopsis
-runkit7_method_redefine(    string $class_name,    string $method_name,    Closure $closure,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_method_redefine(    string $class_name,    string $method_name,    Closure $closure,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ### Список параметрів
@@ -70,29 +70,29 @@ runkit7_method_redefine(    string $class_name,    string $method_name,�
 
 ```php
 <?php
-class Example {
-    function foo() {
-        return "foo!\n";
-    }
+class Example {
+    function foo() {
+        return "foo!\n";
+    }
 }
 
-// создание объекта Example
-$e = new Example();
+// создание объекта Example
+$e = new Example();
 
-// вывод Example::foo() (до переопределения)
-echo "До: " . $e->foo();
+// вывод Example::foo() (до переопределения)
+echo "До: " . $e->foo();
 
-// Переопределение метода 'foo'
+// Переопределение метода 'foo'
 runkit7_method_redefine(
-    'Example',
-    'foo',
-    '',
-    'return "bar!\n";',
-    RUNKIT7_ACC_PUBLIC
+    'Example',
+    'foo',
+    '',
+    'return "bar!\n";',
+    RUNKIT7_ACC_PUBLIC
 );
 
-// вывод Example::foo() (после переопределения)
-echo "После: " . $e->foo();
+// вывод Example::foo() (после переопределения)
+echo "После: " . $e->foo();
 ?>
 ```
 

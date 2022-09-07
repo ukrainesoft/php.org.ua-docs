@@ -45,21 +45,21 @@ public mysql_xdevapi\CollectionFind::lockExclusive(int $lock_waiting_option = ?)
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
 $session->startTransaction();
 
-$result = $collection
-  ->find("age > 50")
-  ->lockExclusive()
-  ->execute();
+$result = $collection
+  ->find("age > 50")
+  ->lockExclusive()
+  ->execute();
 
-// ... выполняем операцию с объектом
+// ... выполняем операцию с объектом
 
-// Завершаем транзакцию и разблокируем документ
+// Завершаем транзакцию и разблокируем документ
 $session->commit();
 ?>
 ```

@@ -15,7 +15,7 @@ radiusaddserver — Додає сервер
 ### Опис
 
 ```methodsynopsis
-radius_add_server(    resource $radius_handle,    string $hostname,    int $port,    string $secret,    int $timeout,    int $max_tries): bool
+radius_add_server(    resource $radius_handle,    string $hostname,    int $port,    string $secret,    int $timeout,    int $max_tries): bool
 ```
 
 **radiusaddserver()** може викликатися кілька разів і може використовуватися разом з [radiusconfig()](function.radius-config.md). Можна вказати не більше 10 серверів. Коли задано кілька серверів, вони перевіряються циклічно, доки не буде отримано дійсну відповідь або доки не буде досягнуто межі `max_tries` для кожного сервера.
@@ -54,9 +54,9 @@ radius_add_server(    resource $radius_handle,    string $hostname,  �
 
 ```php
 <?php
-if (!radius_add_server($res, 'radius.example.com', 1812, 'testing123', 3, 3)) {
-    echo 'RadiusError:' . radius_strerror($res). "\n<br>";
-    exit;
+if (!radius_add_server($res, 'radius.example.com', 1812, 'testing123', 3, 3)) {
+    echo 'RadiusError:' . radius_strerror($res). "\n<br>";
+    exit;
 }
 ?>
 ```

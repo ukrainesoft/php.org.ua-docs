@@ -60,34 +60,34 @@ mysqli_stmt_fetch(mysqli_stmt $statement): ?bool
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Попытка соединения не удалась: %s\n", mysqli_connect_error());
-    exit();
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Попытка соединения не удалась: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5";
+$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5";
 
-if ($stmt = $mysqli->prepare($query)) {
+if ($stmt = $mysqli->prepare($query)) {
 
-    /* Запустить выражение */
-    $stmt->execute();
+    /* Запустить выражение */
+    $stmt->execute();
 
-    /* Определить переменные для результата */
-    $stmt->bind_result($name, $code);
+    /* Определить переменные для результата */
+    $stmt->bind_result($name, $code);
 
-    /* Выбрать значения */
-    while ($stmt->fetch()) {
-        printf ("%s (%s)\n", $name, $code);
-    }
+    /* Выбрать значения */
+    while ($stmt->fetch()) {
+        printf ("%s (%s)\n", $name, $code);
+    }
 
-    /* Завершить запрос */
-    $stmt->close();
+    /* Завершить запрос */
+    $stmt->close();
 }
 
-/* Закрыть соединение */
+/* Закрыть соединение */
 $mysqli->close();
 ?>
 ```
@@ -96,34 +96,34 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* Проверить соединение */
-if (mysqli_connect_errno()) {
-    printf("Попытка соединения не удалась: %s\n", mysqli_connect_error());
-    exit();
+/* Проверить соединение */
+if (mysqli_connect_errno()) {
+    printf("Попытка соединения не удалась: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5";
+$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5";
 
-if ($stmt = mysqli_prepare($link, $query)) {
+if ($stmt = mysqli_prepare($link, $query)) {
 
-    /* Запустить запрос */
-    mysqli_stmt_execute($stmt);
+    /* Запустить запрос */
+    mysqli_stmt_execute($stmt);
 
-    /* Определить переменные для результата */
-    mysqli_stmt_bind_result($stmt, $name, $code);
+    /* Определить переменные для результата */
+    mysqli_stmt_bind_result($stmt, $name, $code);
 
-    /* Выбрать значения */
-    while (mysqli_stmt_fetch($stmt)) {
-        printf ("%s (%s)\n", $name, $code);
-    }
+    /* Выбрать значения */
+    while (mysqli_stmt_fetch($stmt)) {
+        printf ("%s (%s)\n", $name, $code);
+    }
 
-    /* Завершить запрос */
-    mysqli_stmt_close($stmt);
+    /* Завершить запрос */
+    mysqli_stmt_close($stmt);
 }
 
-/* Закрыть соединение */
+/* Закрыть соединение */
 mysqli_close($link);
 ?>
 ```

@@ -38,7 +38,7 @@ abstract public Ds\Sequence::shift(): mixed
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c"]);
+$sequence = new \Ds\Vector(["a", "b", "c"]);
 
 var_dump($sequence->shift());
 var_dump($sequence->shift());

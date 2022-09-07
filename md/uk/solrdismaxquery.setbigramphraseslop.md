@@ -37,10 +37,10 @@ public SolrDisMaxQuery::setBigramPhraseSlop(string $slop): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery = new SolrDisMaxQuery('lucene');
 
 $dismaxQuery->setBigramPhraseSlop(5);
-echo $dismaxQuery.PHP_EOL;
+echo $dismaxQuery.PHP_EOL;
 
 ?>
 ```

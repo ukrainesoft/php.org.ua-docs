@@ -65,7 +65,7 @@ private
 
     /* Методы */
     
-   public __construct(    string $message = "",    int $code = 0,    int $severity = E_ERROR,    ?string $filename = null,    ?int $line = null,    ?Throwable $previous = null)
+   public __construct(    string $message = "",    int $code = 0,    int $severity = E_ERROR,    ?string $filename = null,    ?int $line = null,    ?Throwable $previous = null)
 
     final public getSeverity(): int
 
@@ -96,16 +96,16 @@ severity
 
 ```php
 <?php
-function exception_error_handler($severity, $message, $file, $line) {
-    if (!(error_reporting() & $severity)) {
-        // Этот код ошибки не входит в error_reporting
-        return;
-    }
-    throw new ErrorException($message, 0, $severity, $file, $line);
+function exception_error_handler($severity, $message, $file, $line) {
+    if (!(error_reporting() & $severity)) {
+        // Этот код ошибки не входит в error_reporting
+        return;
+    }
+    throw new ErrorException($message, 0, $severity, $file, $line);
 }
 set_error_handler("exception_error_handler");
 
-/* вызываем исключение */
+/* вызываем исключение */
 strpos();
 ?>
 ```

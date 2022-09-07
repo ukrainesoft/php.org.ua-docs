@@ -15,11 +15,11 @@ runkit7методadd — Динамічно додає новий метод у 
 ### Опис
 
 ```methodsynopsis
-runkit7_method_add(    string $class_name,    string $method_name,    string $argument_list,    string $code,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_method_add(    string $class_name,    string $method_name,    string $argument_list,    string $code,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ```methodsynopsis
-runkit7_method_add(    string $class_name,    string $method_name,    Closure $closure,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_method_add(    string $class_name,    string $method_name,    Closure $closure,    int $flags = RUNKIT7_ACC_PUBLIC,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ### Список параметрів
@@ -70,26 +70,26 @@ runkit7_method_add(    string $class_name,    string $method_name,   
 
 ```php
 <?php
-class Example {
-    function foo() {
-        echo "foo!\n";
-    }
+class Example {
+    function foo() {
+        echo "foo!\n";
+    }
 }
 
-// создание объекта Example
-$e = new Example();
+// создание объекта Example
+$e = new Example();
 
-// добавление нового общедоступного метода
+// добавление нового общедоступного метода
 runkit7_method_add(
-    'Example',
-    'add',
-    '$num1, $num2',
-    'return $num1 + $num2;',
-    RUNKIT7_ACC_PUBLIC
+    'Example',
+    'add',
+    '$num1, $num2',
+    'return $num1 + $num2;',
+    RUNKIT7_ACC_PUBLIC
 );
 
-// добавление 12 + 4
-echo $e->add(12, 4);
+// добавление 12 + 4
+echo $e->add(12, 4);
 ?>
 ```
 

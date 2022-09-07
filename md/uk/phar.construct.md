@@ -40,17 +40,17 @@ public **Phar::construct**(string `$filename`, int `$flags` = FilesystemIterator
 
 ```php
 <?php
-try {
-    $p = new Phar('/путь/к/my.phar', FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::KEY_AS_FILENAME,
-                  'my.phar');
-} catch (UnexpectedValueException $e) {
-    die('Не удалось открыть my.phar');
-} catch (BadMethodCallException $e) {
-    echo 'Технически это не может произойти';
+try {
+    $p = new Phar('/путь/к/my.phar', FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::KEY_AS_FILENAME,
+                  'my.phar');
+} catch (UnexpectedValueException $e) {
+    die('Не удалось открыть my.phar');
+} catch (BadMethodCallException $e) {
+    echo 'Технически это не может произойти';
 }
-// это теперь работает
-echo file_get_contents('phar://my.phar/example.txt');
-// и работает так же, как если бы мы ввели
-echo file_get_contents('phar:///путь/к/my.phar/example.txt');
+// это теперь работает
+echo file_get_contents('phar://my.phar/example.txt');
+// и работает так же, как если бы мы ввели
+echo file_get_contents('phar:///путь/к/my.phar/example.txt');
 ?>
 ```

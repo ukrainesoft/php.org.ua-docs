@@ -22,7 +22,7 @@ public static IntlChar::hasBinaryProperty(int|string $codepoint, int $property):
 
 Unicode, особливо у версії 3.2, визначає значно більше властивостей, ніж у оригінальному наборі UnicodeData.txt.
 
-API властивостей служить для відображення властивостей Unicode, як визначено в базі даних символів Unicode (Unicode Character Database або UCD) та технічних звітах Unicode (Unicode Technical Reports або UTR). Більш детальний опис доступний на чайі [» http://www.unicode.org/ucd/](http://www.unicode.org/ucd/). Імена властивостей Unicode дивіться у файлі UCD PropertyAliases.txt.
+API властивостей служить для відображення властивостей Unicode, як визначено в базі даних символів Unicode (Unicode Character Database або UCD) та технічних звітах Unicode (Unicode Technical Reports або UTR). Більш детальний опис доступний на чайі [» http://www.unicode.org/ucd/](http://www.unicode.org/ucd/). Імена властивостей Unicode дивіться у файлі UCD PropertyAliases.txt.
 
 ### Список параметрів
 
@@ -44,12 +44,12 @@ API властивостей служить для відображення вл
 
 ```php
 <?php
-var_dump(IntlChar::hasBinaryProperty("A", IntlChar::PROPERTY_ALPHABETIC));
-var_dump(IntlChar::hasBinaryProperty("A", IntlChar::PROPERTY_CASE_SENSITIVE));
-var_dump(IntlChar::hasBinaryProperty("A", IntlChar::PROPERTY_BIDI_MIRRORED));
-var_dump(IntlChar::hasBinaryProperty("[", IntlChar::PROPERTY_ALPHABETIC));
-var_dump(IntlChar::hasBinaryProperty("[", IntlChar::PROPERTY_CASE_SENSITIVE));
-var_dump(IntlChar::hasBinaryProperty("[", IntlChar::PROPERTY_BIDI_MIRRORED));
+var_dump(IntlChar::hasBinaryProperty("A", IntlChar::PROPERTY_ALPHABETIC));
+var_dump(IntlChar::hasBinaryProperty("A", IntlChar::PROPERTY_CASE_SENSITIVE));
+var_dump(IntlChar::hasBinaryProperty("A", IntlChar::PROPERTY_BIDI_MIRRORED));
+var_dump(IntlChar::hasBinaryProperty("[", IntlChar::PROPERTY_ALPHABETIC));
+var_dump(IntlChar::hasBinaryProperty("[", IntlChar::PROPERTY_CASE_SENSITIVE));
+var_dump(IntlChar::hasBinaryProperty("[", IntlChar::PROPERTY_BIDI_MIRRORED));
 ?>
 ```
 

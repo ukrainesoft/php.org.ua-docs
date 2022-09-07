@@ -55,7 +55,7 @@ mcrypt_get_block_size(string $cipher, string $mode): int|false
 ```php
 <?php
 
-echo mcrypt_get_block_size('tripledes', 'ecb'); // 8
+echo mcrypt_get_block_size('tripledes', 'ecb'); // 8
 
 ?>
 ```

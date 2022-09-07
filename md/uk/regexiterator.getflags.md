@@ -35,16 +35,16 @@ public RegexIterator::getFlags(): int
 ```php
 <?php
 
-$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
+$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
 
-$arrayIterator = new ArrayIterator($test);
-$regexIterator = new RegexIterator($arrayIterator, '/^test/');
+$arrayIterator = new ArrayIterator($test);
+$regexIterator = new RegexIterator($arrayIterator, '/^test/');
 $regexIterator->setFlags(RegexIterator::USE_KEY);
 
-if ($regexIterator->getFlags() & RegexIterator::USE_KEY) {
-    echo 'Фильтрация на основе ключей Масива.';
-} else {
-    echo 'Фильтрация на основе значений Масива.';
+if ($regexIterator->getFlags() & RegexIterator::USE_KEY) {
+    echo 'Фильтрация на основе ключей Масива.';
+} else {
+    echo 'Фильтрация на основе значений Масива.';
 }
 ?>
 ```

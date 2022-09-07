@@ -18,50 +18,50 @@ title: Порівняння об'єктів
 
 ```php
 <?php
-function bool2str($bool)
+function bool2str($bool)
 {
-    return (string) $bool;
+    return (string) $bool;
 }
 
-function compareObjects(&$o1, &$o2)
+function compareObjects(&$o1, &$o2)
 {
-    echo 'o1 == o2 : ' . bool2str($o1 == $o2) . "\n";
-    echo 'o1 != o2 : ' . bool2str($o1 != $o2) . "\n";
-    echo 'o1 === o2 : ' . bool2str($o1 === $o2) . "\n";
-    echo 'o1 !== o2 : ' . bool2str($o1 !== $o2) . "\n";
+    echo 'o1 == o2 : ' . bool2str($o1 == $o2) . "\n";
+    echo 'o1 != o2 : ' . bool2str($o1 != $o2) . "\n";
+    echo 'o1 === o2 : ' . bool2str($o1 === $o2) . "\n";
+    echo 'o1 !== o2 : ' . bool2str($o1 !== $o2) . "\n";
 }
 
-class Flag
+class Flag
 {
-    public $flag;
+    public $flag;
 
-    function __construct($flag = true) {
-        $this->flag = $flag;
-    }
+    function __construct($flag = true) {
+        $this->flag = $flag;
+    }
 }
 
-class OtherFlag
+class OtherFlag
 {
-    public $flag;
+    public $flag;
 
-    function __construct($flag = true) {
-        $this->flag = $flag;
-    }
+    function __construct($flag = true) {
+        $this->flag = $flag;
+    }
 }
 
-$o = new Flag();
-$p = new Flag();
-$q = $o;
-$r = new OtherFlag();
+$o = new Flag();
+$p = new Flag();
+$q = $o;
+$r = new OtherFlag();
 
-echo "Два экземпляра одного и того же класса\n";
-compareObjects($o, $p);
+echo "Два экземпляра одного и того же класса\n";
+compareObjects($o, $p);
 
-echo "\nДве ссылки на один и тот же экземпляр\n";
-compareObjects($o, $q);
+echo "\nДве ссылки на один и тот же экземпляр\n";
+compareObjects($o, $q);
 
-echo "\nЭкземпляры двух разных классов\n";
-compareObjects($o, $r);
+echo "\nЭкземпляры двух разных классов\n";
+compareObjects($o, $r);
 ?>
 ```
 

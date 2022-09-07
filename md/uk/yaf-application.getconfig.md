@@ -32,14 +32,14 @@ public Yaf_Application::getConfig(): Yaf_Config_Abstract
 
 ```php
 <?php
-$config = array(
-    "application" => array(
-        "directory" => realpath(dirname(__FILE__)) . "/application",
-    ),
+$config = array(
+    "application" => array(
+        "directory" => realpath(dirname(__FILE__)) . "/application",
+    ),
 );
 
-/** Yaf_Application */
-$application = new Yaf_Application($config);
+/** Yaf_Application */
+$application = new Yaf_Application($config);
 print_r($application->getConfig());
 ?>
 ```

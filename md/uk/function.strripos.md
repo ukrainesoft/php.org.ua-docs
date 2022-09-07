@@ -67,16 +67,16 @@ strripos(string $haystack, string $needle, int $offset = 0): int|false
 
 ```php
 <?php
-$haystack = 'ababcd';
-$needle   = 'aB';
+$haystack = 'ababcd';
+$needle   = 'aB';
 
-$pos      = strripos($haystack, $needle);
+$pos      = strripos($haystack, $needle);
 
-if ($pos === false) {
-    echo "К сожалению, ($needle) не найдена в ($haystack)";
-} else {
-    echo "Поздравляем!\n";
-    echo "Последнее вхождение ($needle) найдено в ($haystack) в позиции ($pos)";
+if ($pos === false) {
+    echo "К сожалению, ($needle) не найдена в ($haystack)";
+} else {
+    echo "Поздравляем!\n";
+    echo "Последнее вхождение ($needle) найдено в ($haystack) в позиции ($pos)";
 }
 ?>
 ```

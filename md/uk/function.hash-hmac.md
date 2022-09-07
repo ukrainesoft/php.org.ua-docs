@@ -15,7 +15,7 @@ hashhmac — Генерація хеш-коду на основі ключа, в
 ### Опис
 
 ```methodsynopsis
-hash_hmac(    string $algo,    string $data,    string $key,    bool $binary = false): string
+hash_hmac(    string $algo,    string $data,    string $key,    bool $binary = false): string
 ```
 
 ### Список параметрів
@@ -53,7 +53,7 @@ hash_hmac(    string $algo,    string $data,    string $key,    
 
 ```php
 <?php
-echo hash_hmac('ripemd160', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.', 'secret');
+echo hash_hmac('ripemd160', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.', 'secret');
 ?>
 ```
 

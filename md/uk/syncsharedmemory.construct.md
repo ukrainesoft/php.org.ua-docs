@@ -52,15 +52,15 @@ public SyncSharedMemory::__construct(string $name, int $size)
 
 ```php
 <?php
-// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.
-// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.
-$mem = new SyncSharedMemory("AppReportName", 1024);
-if ($mem->first())
+// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.
+// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.
+$mem = new SyncSharedMemory("AppReportName", 1024);
+if ($mem->first())
 {
-    // Выполните здесь первоначальную инициализацию.
+    // Выполните здесь первоначальную инициализацию.
 }
 
-$result = $mem->write(json_encode(array("name" => "my_report.txt")));
+$result = $mem->write(json_encode(array("name" => "my_report.txt")));
 ?>
 ```
 

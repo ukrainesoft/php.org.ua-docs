@@ -15,7 +15,7 @@ db2columns — Повертає результуючий набір, що пер
 ### Опис
 
 ```methodsynopsis
-db2_columns(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table-name = ?,    string $column-name = ?): resource
+db2_columns(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table-name = ?,    string $column-name = ?): resource
 ```
 
 Відображає результат набору повідомлень columns і associated metadata for table.

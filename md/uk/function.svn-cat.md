@@ -42,7 +42,7 @@ svn_cat(string $repos_url, int $revision_no = ?): string
 
 ```php
 <?php
-$contents = svn_cat('http://www.example.com/svnroot/calc/gui.c', 28)
+$contents = svn_cat('http://www.example.com/svnroot/calc/gui.c', 28)
 ?>
 ```
 
@@ -55,4 +55,4 @@ $contents = svn_cat('http://www.example.com/svnroot/calc/gui.c', 28)
 ### Дивіться також
 
 -   **svnlist()**
--   [» SVN-документация по svn cat](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cat.md)
+-   [» SVN-документация по svn cat](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cat.md)

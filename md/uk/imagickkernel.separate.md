@@ -35,56 +35,56 @@ public ImagickKernel::separate(): array
 
 
 
-    function renderKernelTable($matrix) {
+    function renderKernelTable($matrix) {
 
-        $output = "<table class='infoTable'>";
-        foreach ($matrix as $row) {
-            $output .= "<tr>";
-            foreach ($row as $cell) {
-                $output .= "<td style='text-align:left'>";
-                if ($cell === false) {
-                    $output .= "false";
-                }
-                else {
-                    $output .= round($cell, 3);
-                }
-                $output .= "</td>";
-            }
-            $output .= "</tr>";
-        }
+        $output = "<table class='infoTable'>";
+        foreach ($matrix as $row) {
+            $output .= "<tr>";
+            foreach ($row as $cell) {
+                $output .= "<td style='text-align:left'>";
+                if ($cell === false) {
+                    $output .= "false";
+                }
+                else {
+                    $output .= round($cell, 3);
+                }
+                $output .= "</td>";
+            }
+            $output .= "</tr>";
+        }
 
-        $output .= "</table>";
+        $output .= "</table>";
 
-        return $output;
-    }
+        return $output;
+    }
 
 
-    $matrix = [
-        [-1, 0, -1],
-        [ 0, 4,  0],
-        [-1, 0, -1],
-    ];
+    $matrix = [
+        [-1, 0, -1],
+        [ 0, 4,  0],
+        [-1, 0, -1],
+    ];
 
-    $kernel = \ImagickKernel::fromMatrix($matrix);
-    $kernel->scale(4, \Imagick::NORMALIZE_KERNEL_VALUE);
-    $diamondKernel = \ImagickKernel::fromBuiltIn(
-        \Imagick::KERNEL_DIAMOND,
-        "2"
-    );
+    $kernel = \ImagickKernel::fromMatrix($matrix);
+    $kernel->scale(4, \Imagick::NORMALIZE_KERNEL_VALUE);
+    $diamondKernel = \ImagickKernel::fromBuiltIn(
+        \Imagick::KERNEL_DIAMOND,
+        "2"
+    );
 
-    $kernel->addKernel($diamondKernel);
+    $kernel->addKernel($diamondKernel);
 
-    $kernelList = $kernel->separate();
+    $kernelList = $kernel->separate();
 
-    $output = '';
-    $count = 0;
-    foreach ($kernelList as $kernel) {
-        $output .= "<br/>Ядро $count<br/>";
-        $output .= renderKernelTable($kernel->getMatrix());
-        $count++;
-    }
+    $output = '';
+    $count = 0;
+    foreach ($kernelList as $kernel) {
+        $output .= "<br/>Ядро $count<br/>";
+        $output .= renderKernelTable($kernel->getMatrix());
+        $count++;
+    }
 
-    return $output;
+    return $output;
 
 ?>
 ```

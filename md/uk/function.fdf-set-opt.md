@@ -15,7 +15,7 @@ fdfsetopt — Встановлює параметри поля
 ### Опис
 
 ```methodsynopsis
-fdf_set_opt(    resource $fdf_document,    string $fieldname,    int $element,    string $str1,    string $str2): bool
+fdf_set_opt(    resource $fdf_document,    string $fieldname,    int $element,    string $str1,    string $str2): bool
 ```
 
 Встановлює параметри заданого поля.

@@ -40,11 +40,11 @@ is_readable(string $filename): bool
 
 ```php
 <?php
-$filename = 'test.txt';
-if (is_readable($filename)) {
-    echo 'Файл доступен для чтения';
-} else {
-    echo 'Файл недоступен для чтения';
+$filename = 'test.txt';
+if (is_readable($filename)) {
+    echo 'Файл доступен для чтения';
+} else {
+    echo 'Файл недоступен для чтения';
 }
 ?>
 ```

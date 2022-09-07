@@ -34,29 +34,29 @@ public ReflectionMethod::getModifiers(): int
 
 ```php
 <?php
-class Testing
+class Testing
 {
-    final public static function foo()
-    {
-        return;
-    }
-    public function bar()
-    {
-        return;
-    }
+    final public static function foo()
+    {
+        return;
+    }
+    public function bar()
+    {
+        return;
+    }
 }
 
-$foo = new ReflectionMethod('Testing', 'foo');
+$foo = new ReflectionMethod('Testing', 'foo');
 
-echo "Модификаторы метода foo():\n";
-echo $foo->getModifiers() . "\n";
-echo implode(' ', Reflection::getModifierNames($foo->getModifiers())) . "\n";
+echo "Модификаторы метода foo():\n";
+echo $foo->getModifiers() . "\n";
+echo implode(' ', Reflection::getModifierNames($foo->getModifiers())) . "\n";
 
-$bar = new ReflectionMethod('Testing', 'bar');
+$bar = new ReflectionMethod('Testing', 'bar');
 
-echo "Модификаторы метода bar():\n";
-echo $bar->getModifiers() . "\n";
-echo implode(' ', Reflection::getModifierNames($bar->getModifiers()));
+echo "Модификаторы метода bar():\n";
+echo $bar->getModifiers() . "\n";
+echo implode(' ', Reflection::getModifierNames($bar->getModifiers()));
 ?>
 ```
 

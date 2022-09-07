@@ -86,9 +86,9 @@ date_sun_info(int $timestamp, float $latitude, float $longitude): array
 
 ```php
 <?php
-$sun_info = date_sun_info(strtotime("2006-12-12"), 31.7667, 35.2333);
-foreach ($sun_info as $key => $val) {
-    echo "$key: " . date("H:i:s", $val) . "\n";
+$sun_info = date_sun_info(strtotime("2006-12-12"), 31.7667, 35.2333);
+foreach ($sun_info as $key => $val) {
+    echo "$key: " . date("H:i:s", $val) . "\n";
 }
 ?>
 ```
@@ -111,7 +111,7 @@ astronomical_twilight_end: 17:12:00
 
 ```php
 <?php
-var_dump(date_sun_info(strtotime("2017-12-21"), 90, 0));
+var_dump(date_sun_info(strtotime("2017-12-21"), 90, 0));
 ?>
 ```
 
@@ -144,7 +144,7 @@ array(9) {
 
 ```php
 <?php
-var_dump(date_sun_info(strtotime("2017-06-21"), 90, 0));
+var_dump(date_sun_info(strtotime("2017-06-21"), 90, 0));
 ?>
 ```
 

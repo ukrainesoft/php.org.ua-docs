@@ -48,21 +48,21 @@ intlcal_get(IntlCalendar $calendar, int $field): int|false
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'en_US');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'en_US');
 
-$class = new ReflectionClass('IntlCalendar');
-$fields = array();
-foreach ($class->getConstants() as $name => $val) {
-    if (strpos($name, 'FIELD_') !== 0 || $val > 22)
-        continue;
-    $fields[$val] = $name;
+$class = new ReflectionClass('IntlCalendar');
+$fields = array();
+foreach ($class->getConstants() as $name => $val) {
+    if (strpos($name, 'FIELD_') !== 0 || $val > 22)
+        continue;
+    $fields[$val] = $name;
 }
 
-$cal = IntlCalendar::createInstance(); // current time
+$cal = IntlCalendar::createInstance(); // current time
 var_dump(IntlDateFormatter::formatObject($cal));
-foreach ($fields as $val => $name) {
-    echo "$val ($name)", "\n    ", $cal->get($val), "\n";
+foreach ($fields as $val => $name) {
+    echo "$val ($name)", "\n    ", $cal->get($val), "\n";
 }
 ```
 

@@ -39,18 +39,18 @@ restore_include_path(): void
 ```php
 <?php
 
-echo get_include_path();  // .:/usr/local/lib/php
+echo get_include_path();  // .:/usr/local/lib/php
 
 set_include_path('/inc');
 
-echo get_include_path();  // /inc
+echo get_include_path();  // /inc
 
 restore_include_path();
 
-// или так
+// или так
 ini_restore('include_path');
 
-echo get_include_path();  // .:/usr/local/lib/php
+echo get_include_path();  // .:/usr/local/lib/php
 
 ?>
 ```

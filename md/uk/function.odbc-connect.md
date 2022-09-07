@@ -15,7 +15,7 @@ odbcconnect — З'єднує з джерелом даних
 ### Опис
 
 ```methodsynopsis
-odbc_connect(    string $dsn,    string $user,    string $password,    int $cursor_option = SQL_CUR_USE_DRIVER): resource|false
+odbc_connect(    string $dsn,    string $user,    string $password,    int $cursor_option = SQL_CUR_USE_DRIVER): resource|false
 ```
 
 Ідентифікатор з'єднання, який повертається цією функцією, необхідний для інших ODBC-функцій. Ви можете тримати одночасно відкритими кілька з'єднань.
@@ -56,17 +56,17 @@ Database Source Name (DSN) для з'єднання. В якості альте�
 
 ```php
 <?php
-// Microsoft SQL Server используя SQL Native Client 10.0 ODBC Driver - позволяет соединяться
-// с SQL 7, 2000, 2005 и 2008
-$connection = odbc_connect("Driver={SQL Server Native Client 10.0};Server=$server;Database=$database;", $user, $password);
+// Microsoft SQL Server используя SQL Native Client 10.0 ODBC Driver - позволяет соединяться
+// с SQL 7, 2000, 2005 и 2008
+$connection = odbc_connect("Driver={SQL Server Native Client 10.0};Server=$server;Database=$database;", $user, $password);
 
-// Microsoft Access
-$connection = odbc_connect("Driver={Microsoft Access Driver (*.mdb)};Dbq=$mdbFilename", $user, $password);
+// Microsoft Access
+$connection = odbc_connect("Driver={Microsoft Access Driver (*.mdb)};Dbq=$mdbFilename", $user, $password);
 
-// Microsoft Excel
-$excelFile = realpath('C:/ExcelData.xls');
-$excelDir = dirname($excelFile);
-$connection = odbc_connect("Driver={Microsoft Excel Driver (*.xls)};DriverId=790;Dbq=$excelFile;DefaultDir=$excelDir" , '', '');
+// Microsoft Excel
+$excelFile = realpath('C:/ExcelData.xls');
+$excelDir = dirname($excelFile);
+$connection = odbc_connect("Driver={Microsoft Excel Driver (*.xls)};DriverId=790;Dbq=$excelFile;DefaultDir=$excelDir" , '', '');
 ?>
 ```
 

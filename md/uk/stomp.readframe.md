@@ -59,20 +59,20 @@ stomp_read_frame(resource $link): array
 ```php
 <?php
 
-/* подключение */
-try {
-    $stomp = new Stomp('tcp://localhost:61613');
-} catch(StompException $e) {
-    die('Ошибка соединения: ' . $e->getMessage());
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
 }
 
-/* подписка на сообщения из очереди 'foo' */
+/* подписка на сообщения из очереди 'foo' */
 $stomp->subscribe('/queue/foo');
 
-/* чтение фрейма */
+/* чтение фрейма */
 var_dump($stomp->readFrame());
 
-/* закрытие подключения */
+/* закрытие подключения */
 unset($stomp);
 
 ?>
@@ -107,21 +107,21 @@ object(StompFrame)#2 (3) {
 ```php
 <?php
 
-/* подключение */
-$link = stomp_connect('ssl://localhost:61612');
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
 
-/* проверка соединения */
-if (!$link) {
-    die('Ошибка соединения: ' . stomp_connect_error());
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
 }
 
-/* подписка на сообщения из очереди 'foo' */
-stomp_subscribe($link, '/queue/foo');
+/* подписка на сообщения из очереди 'foo' */
+stomp_subscribe($link, '/queue/foo');
 
-/* чтение фрейма */
-$frame = stomp_read_frame($link);
+/* чтение фрейма */
+$frame = stomp_read_frame($link);
 
-/* закрытие подключения */
+/* закрытие подключения */
 stomp_close($link);
 
 ?>

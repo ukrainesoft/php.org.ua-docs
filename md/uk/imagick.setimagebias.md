@@ -42,23 +42,23 @@ public Imagick::setImageBias(float $bias): bool
 
 ```php
 <?php
-//требуется ImageMagick версии 6.9.0-1, чтобы оказывать влияние на convolveImage
-function setImageBias($bias) {
-    $imagick = new \Imagick(realpath("images/stack.jpg"));
+//требуется ImageMagick версии 6.9.0-1, чтобы оказывать влияние на convolveImage
+function setImageBias($bias) {
+    $imagick = new \Imagick(realpath("images/stack.jpg"));
 
-    $xKernel = array(
-        -0.70, 0, 0.70,
-        -0.70, 0, 0.70,
-        -0.70, 0, 0.70
-    );
+    $xKernel = array(
+        -0.70, 0, 0.70,
+        -0.70, 0, 0.70,
+        -0.70, 0, 0.70
+    );
 
-    $imagick->setImageBias($bias * \Imagick::getQuantum());
-    $imagick->convolveImage($xKernel, \Imagick::CHANNEL_ALL);
+    $imagick->setImageBias($bias * \Imagick::getQuantum());
+    $imagick->convolveImage($xKernel, \Imagick::CHANNEL_ALL);
 
-    $imagick->setImageFormat('png');
+    $imagick->setImageFormat('png');
 
-    header('Content-type: image/png');
-    echo $imagick->getImageBlob();
+    header('Content-type: image/png');
+    echo $imagick->getImageBlob();
 }
 
 ?>

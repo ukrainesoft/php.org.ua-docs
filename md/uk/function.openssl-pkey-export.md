@@ -15,7 +15,7 @@ opensslpkeyexport — Отримує рядок із ключем у форма�
 ### Опис
 
 ```methodsynopsis
-openssl_pkey_export(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $key,    string &$output,    ?string $passphrase = null,    ?array $options = null): bool
+openssl_pkey_export(    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $key,    string &$output,    ?string $passphrase = null,    ?array $options = null): bool
 ```
 
 **opensslpkeyexport()** експортує `key` у вигляді рядка у форматі PEM і зберігає його в `output` (Передається за посиланням).

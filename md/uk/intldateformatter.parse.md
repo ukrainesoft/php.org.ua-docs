@@ -54,20 +54,20 @@ datefmt_parse(IntlDateFormatter $formatter, string $string, int &$offset = null)
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Первый преобразованный вывод: ' . $fmt->parse('Wednesday, December 20, 1989 4:00:00 PM PT');
-$fmt = new IntlDateFormatter(
-    'de-DE',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+echo 'Первый преобразованный вывод: ' . $fmt->parse('Wednesday, December 20, 1989 4:00:00 PM PT');
+$fmt = new IntlDateFormatter(
+    'de-DE',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
 ?>
 ```
@@ -76,22 +76,22 @@ $fmt = new IntlDateFormatter(
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Первый преобразованный вывод: ' . datefmt_parse($fmt, 'Wednesday, December 20, 1989 4:00:00 PM PT');
-$fmt = datefmt_create(
-    'de-DE',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+echo 'Первый преобразованный вывод: ' . datefmt_parse($fmt, 'Wednesday, December 20, 1989 4:00:00 PM PT');
+$fmt = datefmt_create(
+    'de-DE',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Второй преобразованный вывод: ' . datefmt_parse($fmt, 'Mittwoch, 20. Dezember 1989 16:00 Uhr GMT-08:00');
+echo 'Второй преобразованный вывод: ' . datefmt_parse($fmt, 'Mittwoch, 20. Dezember 1989 16:00 Uhr GMT-08:00');
 ?
 ```
 

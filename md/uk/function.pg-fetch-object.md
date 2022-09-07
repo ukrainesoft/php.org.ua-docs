@@ -15,7 +15,7 @@ title: пгfetchobject
 ### Опис
 
 ```methodsynopsis
-pg_fetch_object(    PgSql\Result $result,    ?int $row = null,    string $class = "stdClass",    array $constructor_args = []): object|false
+pg_fetch_object(    PgSql\Result $result,    ?int $row = null,    string $class = "stdClass",    array $constructor_args = []): object|false
 ```
 
 **пгfetchobject()** повертає об'єкт, властивості якого відповідають іменам полів вибірки. Також функція може створити екземпляр конкретного класу та передати параметри його конструктору.
@@ -61,21 +61,21 @@ pg_fetch_object(    PgSql\Result $result,    ?int $row = null,    st
 ```php
 <?php
 
-$database = "store";
+$database = "store";
 
-$db_conn = pg_connect("host=localhost port=5432 dbname=$database");
-if (!$db_conn) {
-  echo "Невозможно соединиться с базой postgres $database\n";
-  exit;
+$db_conn = pg_connect("host=localhost port=5432 dbname=$database");
+if (!$db_conn) {
+  echo "Невозможно соединиться с базой postgres $database\n";
+  exit;
 }
 
-$qu = pg_query($db_conn, "SELECT * FROM books ORDER BY author");
+$qu = pg_query($db_conn, "SELECT * FROM books ORDER BY author");
 
 
-while ($data = pg_fetch_object($qu)) {
-  echo $data->author . " (";
-  echo $data->year . "): ";
-  echo $data->title . "<br />";
+while ($data = pg_fetch_object($qu)) {
+  echo $data->author . " (";
+  echo $data->year . "): ";
+  echo $data->title . "<br />";
 }
 
 pg_free_result($qu);

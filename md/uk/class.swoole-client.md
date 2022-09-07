@@ -61,7 +61,7 @@ title: Клас SwooleClient
     /* Методы */
     
    public close(bool $force = ?): bool
-public connect(    string $host,    int $port = ?,    int $timeout = ?,    int $flag = ?): bool
+public connect(    string $host,    int $port = ?,    int $timeout = ?,    int $flag = ?): bool
 public __destruct(): void
 public getpeername(): array
 public getsockname(): array

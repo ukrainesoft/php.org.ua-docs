@@ -36,10 +36,10 @@ snmp_set_enum_print(bool $enable): bool
 
 ```php
 <?php
- snmp_set_enum_print(0);
- echo snmpget('localhost', 'public', 'IF-MIB::ifOperStatus.3') . "\n";
- snmp_set_enum_print(1);
- echo snmpget('localhost', 'public', 'IF-MIB::ifOperStatus.3') . "\n";
+ snmp_set_enum_print(0);
+ echo snmpget('localhost', 'public', 'IF-MIB::ifOperStatus.3') . "\n";
+ snmp_set_enum_print(1);
+ echo snmpget('localhost', 'public', 'IF-MIB::ifOperStatus.3') . "\n";
 ?>
 ```
 

@@ -16,18 +16,18 @@ Yaf автоматично об'єднає параметри програми �
 
 ```php
 <?php
-    $configs = array(
-            "application" => array(
-                "directory" => dirname(__FILE__),
-                "dispatcher" => array(
-                      "catchException" => 0,
-                    ),
-                "view" => array(
-                       "ext" => "phtml",
-                    ),
-                ),
-           );
-    $app = new Yaf_Application($config);
+    $configs = array(
+            "application" => array(
+                "directory" => dirname(__FILE__),
+                "dispatcher" => array(
+                      "catchException" => 0,
+                    ),
+                "view" => array(
+                       "ext" => "phtml",
+                    ),
+                ),
+           );
+    $app = new Yaf_Application($config);
 ?>
 ```
 

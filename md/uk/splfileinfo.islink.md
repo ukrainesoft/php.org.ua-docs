@@ -34,9 +34,9 @@ public SplFileInfo::isLink(): bool
 
 ```php
 <?php
-$info = new SplFileInfo('/path/to/symlink');
-if ($info->isLink()) {
-    echo 'Реальный путь: '.$info->getRealPath();
+$info = new SplFileInfo('/path/to/symlink');
+if ($info->isLink()) {
+    echo 'Реальный путь: '.$info->getRealPath();
 }
 ?>
 ```

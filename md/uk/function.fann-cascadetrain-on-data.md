@@ -15,7 +15,7 @@ fanncascadetrainвінdata — Навчання по всьому набору �
 ### Опис
 
 ```methodsynopsis
-fann_cascadetrain_on_data(    resource $ann,    resource $data,    int $max_neurons,    int $neurons_between_reports,    float $desired_error): bool
+fann_cascadetrain_on_data(    resource $ann,    resource $data,    int $max_neurons,    int $neurons_between_reports,    float $desired_error): bool
 ```
 
 Фракція каскадного виведення є числом від 0 до 1 і визначає, наскільки сильно має змінитися значення [fanngetMSE()](function.fann-get-mse.md) в [fanngetcascadeoutputstagnationepochs()](function.fann-get-cascade-output-stagnation-epochs.md) під час навчання вихідних з'єднань, щоб навчання не стагнувало. Якщо навчання стагнувало, навчання вихідних з'єднань буде завершено і будуть підготовлені нові кандидати.

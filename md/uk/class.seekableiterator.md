@@ -50,65 +50,65 @@ public Iterator::valid(): bool
 
 ```php
 <?php
-class MySeekableIterator implements SeekableIterator {
+class MySeekableIterator implements SeekableIterator {
 
-    private $position;
+    private $position;
 
-    private $array = array(
-        "первый элемент",
-        "второй элемент",
-        "третий элемент",
-        "четвёртый элемент"
-    );
+    private $array = array(
+        "первый элемент",
+        "второй элемент",
+        "третий элемент",
+        "четвёртый элемент"
+    );
 
-    /* Метод, требуемый для интерфейса SeekableIterator */
+    /* Метод, требуемый для интерфейса SeekableIterator */
 
-    public function seek($position) {
-      if (!isset($this->array[$position])) {
-          throw new OutOfBoundsException("недействительная позиция ($position)");
-      }
+    public function seek($position) {
+      if (!isset($this->array[$position])) {
+          throw new OutOfBoundsException("недействительная позиция ($position)");
+      }
 
-      $this->position = $position;
-    }
+      $this->position = $position;
+    }
 
-    /*  Методы, требуемые для интерфейса Iterator */
+    /*  Методы, требуемые для интерфейса Iterator */
 
-    public function rewind() {
-        $this->position = 0;
-    }
+    public function rewind() {
+        $this->position = 0;
+    }
 
-    public function current() {
-        return $this->array[$this->position];
-    }
+    public function current() {
+        return $this->array[$this->position];
+    }
 
-    public function key() {
-        return $this->position;
-    }
+    public function key() {
+        return $this->position;
+    }
 
-    public function next() {
-        ++$this->position;
-    }
+    public function next() {
+        ++$this->position;
+    }
 
-    public function valid() {
-        return isset($this->array[$this->position]);
-    }
+    public function valid() {
+        return isset($this->array[$this->position]);
+    }
 }
 
-try {
+try {
 
-    $it = new MySeekableIterator;
-    echo $it->current(), "\n";
+    $it = new MySeekableIterator;
+    echo $it->current(), "\n";
 
-    $it->seek(2);
-    echo $it->current(), "\n";
+    $it->seek(2);
+    echo $it->current(), "\n";
 
-    $it->seek(1);
-    echo $it->current(), "\n";
+    $it->seek(1);
+    echo $it->current(), "\n";
 
-    $it->seek(10);
+    $it->seek(10);
 
-} catch (OutOfBoundsException $e) {
-    echo $e->getMessage();
+} catch (OutOfBoundsException $e) {
+    echo $e->getMessage();
 }
 ?>
 ```

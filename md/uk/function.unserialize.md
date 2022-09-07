@@ -70,23 +70,23 @@ unserialize(string $data, array $options = []): mixed
 
 ```php
 <?php
-// Мы используем функцию unserialize() для загрузки сессионных данных в Масив
-// $session_data из строки, извлекаемой из базы данных.
-// Данный пример дополняет пример, описывающий использование serialize().
+// Мы используем функцию unserialize() для загрузки сессионных данных в Масив
+// $session_data из строки, извлекаемой из базы данных.
+// Данный пример дополняет пример, описывающий использование serialize().
 
-$conn = odbc_connect("webdb", "php", "chicken");
-$stmt = odbc_prepare($conn, "SELECT data FROM sessions WHERE id = ?");
-$sqldata = array($_SERVER['PHP_AUTH_USER']);
-if (!odbc_execute($stmt, $sqldata) || !odbc_fetch_into($stmt, $tmp)) {
-    // если процедура извлечения данных не удалась, то инициализируем пустой Масив
-    $session_data = array();
-} else {
-    // сейчас у нас должны быть сериализованные данные в $tmp[0].
-    $session_data = unserialize($tmp[0]);
-    if (!is_array($session_data)) {
-        // что-то пошло не так, инициализируем пустой Масив
-        $session_data = array();
-    }
+$conn = odbc_connect("webdb", "php", "chicken");
+$stmt = odbc_prepare($conn, "SELECT data FROM sessions WHERE id = ?");
+$sqldata = array($_SERVER['PHP_AUTH_USER']);
+if (!odbc_execute($stmt, $sqldata) || !odbc_fetch_into($stmt, $tmp)) {
+    // если процедура извлечения данных не удалась, то инициализируем пустой Масив
+    $session_data = array();
+} else {
+    // сейчас у нас должны быть сериализованные данные в $tmp[0].
+    $session_data = unserialize($tmp[0]);
+    if (!is_array($session_data)) {
+        // что-то пошло не так, инициализируем пустой Масив
+        $session_data = array();
+    }
 }
 ?>
 ```
@@ -97,12 +97,12 @@ if (!odbc_execute($stmt, $sqldata) || !odbc_fetch_into($stmt, $tmp)) {
 <?php
 $serialized_object='O:1:"a":1:{s:5:"value";s:3:"100";}';
 
-ini_set('unserialize_callback_func', 'mycallback'); // определяем свою callback-функцию
+ini_set('unserialize_callback_func', 'mycallback'); // определяем свою callback-функцию
 
-function mycallback($classname)
+function mycallback($classname)
 {
-    // просто подключаете файл, содержащий определение класса
-    // $classname указывает, для какого класса требуется определение
+    // просто подключаете файл, содержащий определение класса
+    // $classname указывает, для какого класса требуется определение
 }
 ?>
 ```

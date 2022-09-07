@@ -44,10 +44,10 @@ uopz_extend(string $class, string $parent): bool
 
 ```php
 <?php
-class A {}
-class B {}
+class A {}
+class B {}
 
-uopz_extend(A::class, B::class);
+uopz_extend(A::class, B::class);
 
 var_dump(class_parents(A::class));
 ?>

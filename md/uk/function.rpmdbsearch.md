@@ -15,7 +15,7 @@ rpmdbsearch — Пошук RPM-пакетів
 ### Опис
 
 ```methodsynopsis
-rpmdbsearch(    string $pattern,    int $rpmtag = RPMTAG_NAME,    int $rpmmire = -1,    bool $full = false): array
+rpmdbsearch(    string $pattern,    int $rpmtag = RPMTAG_NAME,    int $rpmmire = -1,    bool $full = false): array
 ```
 
 Пошук пакетів у системній базі даних RPM.
@@ -48,7 +48,7 @@ rpmdbsearch(    string $pattern,    int $rpmtag = RPMTAG_NAME,    in
 
 ```php
 <?php
-$info = rpmdbsearch("/usr/bin/php", RPMTAG_INSTFILENAMES);
+$info = rpmdbsearch("/usr/bin/php", RPMTAG_INSTFILENAMES);
 print_r($info);
 ?>
 ```

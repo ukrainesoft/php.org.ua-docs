@@ -37,7 +37,7 @@ public mysql_xdevapi\SqlStatementResult::getWarnings(): array
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

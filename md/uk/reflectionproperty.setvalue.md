@@ -48,26 +48,26 @@ public ReflectionProperty::setValue(mixed $value): void
 
 ```php
 <?php
-class Foo {
-    public static $staticProperty;
+class Foo {
+    public static $staticProperty;
 
-    public $property;
-    protected $privateProperty;
+    public $property;
+    protected $privateProperty;
 }
 
-$reflectionClass = new ReflectionClass('Foo');
+$reflectionClass = new ReflectionClass('Foo');
 
 $reflectionClass->getProperty('staticProperty')->setValue('foo');
 var_dump(Foo::$staticProperty);
 
-$foo = new Foo;
+$foo = new Foo;
 
-$reflectionClass->getProperty('property')->setValue($foo, 'bar');
+$reflectionClass->getProperty('property')->setValue($foo, 'bar');
 var_dump($foo->property);
 
-$reflectionProperty = $reflectionClass->getProperty('privateProperty');
+$reflectionProperty = $reflectionClass->getProperty('privateProperty');
 $reflectionProperty->setAccessible(true);
-$reflectionProperty->setValue($foo, 'foobar');
+$reflectionProperty->setValue($foo, 'foobar');
 var_dump($reflectionProperty->getValue($foo));
 ?>
 ```

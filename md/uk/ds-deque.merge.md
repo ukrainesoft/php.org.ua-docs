@@ -40,9 +40,9 @@ public Ds\Deque::merge(mixed $values): Ds\Deque
 
 ```php
 <?php
-$deque = new \Ds\Deque([1, 2, 3]);
+$deque = new \Ds\Deque([1, 2, 3]);
 
-var_dump($deque->merge([4, 5, 6]));
+var_dump($deque->merge([4, 5, 6]));
 var_dump($deque);
 ?>
 ```

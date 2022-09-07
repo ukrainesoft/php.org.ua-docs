@@ -15,7 +15,7 @@ imagechar — Малювання символу по горизонталі
 ### Опис
 
 ```methodsynopsis
-imagechar(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $char,    int $color): bool
+imagechar(    GdImage $image,    GdFont|int $font,    int $x,    int $y,    string $char,    int $color): bool
 ```
 
 **imagechar()** малює перший символ аргументу `char` на зображенні з ідентифікатором `image` на координатах `x``y` (координати відраховуються з лівого верхнього кута) кольором `color`
@@ -64,17 +64,17 @@ y-координата початку малювання.
 ```php
 <?php
 
-$im = imagecreate(100, 100);
+$im = imagecreate(100, 100);
 
-$string = 'PHP';
+$string = 'PHP';
 
-$bg = imagecolorallocate($im, 255, 255, 255);
-$black = imagecolorallocate($im, 0, 0, 0);
+$bg = imagecolorallocate($im, 255, 255, 255);
+$black = imagecolorallocate($im, 0, 0, 0);
 
-// печатает чёрный символ "P" в левом верхнем углу
-imagechar($im, 1, 0, 0, $string, $black);
+// печатает чёрный символ "P" в левом верхнем углу
+imagechar($im, 1, 0, 0, $string, $black);
 
-header('Content-type: image/png');
+header('Content-type: image/png');
 imagepng($im);
 
 ?>

@@ -15,7 +15,7 @@ SwooleAsync::write — Асинхронно записує дані у файл�
 ### Опис
 
 ```methodsynopsis
-public static Swoole\Async::write(    string $filename,    string $content,    int $offset = ?,    callable $callback = ?): void
+public static Swoole\Async::write(    string $filename,    string $content,    int $offset = ?,    callable $callback = ?): void
 ```
 
 ### Список параметрів

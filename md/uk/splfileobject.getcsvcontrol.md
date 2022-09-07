@@ -41,7 +41,7 @@ public SplFileObject::getCsvControl(): array
 
 ```php
 <?php
-$file = new SplFileObject("data.txt");
+$file = new SplFileObject("data.txt");
 print_r($file->getCsvControl());
 ?>
 ```

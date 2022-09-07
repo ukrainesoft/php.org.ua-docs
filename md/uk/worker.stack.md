@@ -36,8 +36,8 @@ public Worker::stack(Threaded &$work): int
 
 ```php
 <?php
-$worker = new Worker();
-$work = new class extends Threaded {};
+$worker = new Worker();
+$work = new class extends Threaded {};
 
 var_dump($worker->stack($work));
 ```

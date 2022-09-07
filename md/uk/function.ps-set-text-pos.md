@@ -46,24 +46,24 @@ ps_set_text_pos(resource $psdoc, float $x, float $y): bool
 
 ```php
 <?php
-$ps = ps_new();
-if (!ps_open_file($ps, "text.ps")) {
-  print "Не удается открыть файл PostScript\n";
-  exit;
+$ps = ps_new();
+if (!ps_open_file($ps, "text.ps")) {
+  print "Не удается открыть файл PostScript\n";
+  exit;
 }
 
-ps_set_info($ps, "Creator", "rectangle.php");
-ps_set_info($ps, "Author", "Уве Штайнманн");
-ps_set_info($ps, "Title", "Пример размещения текста");
+ps_set_info($ps, "Creator", "rectangle.php");
+ps_set_info($ps, "Author", "Уве Штайнманн");
+ps_set_info($ps, "Title", "Пример размещения текста");
 
-ps_begin_page($ps, 596, 842);
-$psfont = ps_findfont($ps, "Helvetica", "", 0);
-ps_setfont($ps, $psfont, 8.0);
-ps_show_xy($ps, "Some text at (100, 100)", 100, 100);
+ps_begin_page($ps, 596, 842);
+$psfont = ps_findfont($ps, "Helvetica", "", 0);
+ps_setfont($ps, $psfont, 8.0);
+ps_show_xy($ps, "Some text at (100, 100)", 100, 100);
 
-ps_set_value($ps, "textx", 100);
-ps_set_value($ps, "texty", 120);
-ps_show($ps, "Some text at (100, 120)");
+ps_set_value($ps, "textx", 100);
+ps_set_value($ps, "texty", 120);
+ps_show($ps, "Some text at (100, 120)");
 ps_end_page($ps);
 
 ps_delete($ps);

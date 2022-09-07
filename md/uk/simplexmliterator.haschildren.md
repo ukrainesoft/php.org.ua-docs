@@ -34,21 +34,21 @@ public SimpleXMLIterator::hasChildren(): bool
 
 ```php
 <?php
-$xml = <<<XML
+$xml = <<<XML
 <books>
-    <book>
-        <title>Основы PHP</title>
-        <author>Джим Смит</author>
-    </book>
-    <book>Основы XML</book>
+    <book>
+        <title>Основы PHP</title>
+        <author>Джим Смит</author>
+    </book>
+    <book>Основы XML</book>
 </books>
 XML;
 
-$xmlIterator = new SimpleXMLIterator( $xml );
-for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
-    if($xmlIterator->hasChildren()) {
-        var_dump($xmlIterator->current());
-    }
+$xmlIterator = new SimpleXMLIterator( $xml );
+for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
+    if($xmlIterator->hasChildren()) {
+        var_dump($xmlIterator->current());
+    }
 }
 ?>
 ```

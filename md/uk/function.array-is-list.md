@@ -37,21 +37,21 @@ array_is_list(array $array): bool
 ```php
 <?php
 
-array_is_list([]); // true
-array_is_list(['apple', 2, 3]); // true
-array_is_list([0 => 'apple', 'orange']); // true
+array_is_list([]); // true
+array_is_list(['apple', 2, 3]); // true
+array_is_list([0 => 'apple', 'orange']); // true
 
-// Масив начинается не с 0
-array_is_list([1 => 'apple', 'orange']); // false
+// Масив начинается не с 0
+array_is_list([1 => 'apple', 'orange']); // false
 
-// Ключи Масива не по порядку
-array_is_list([1 => 'apple', 0 => 'orange']); // false
+// Ключи Масива не по порядку
+array_is_list([1 => 'apple', 0 => 'orange']); // false
 
-// Ключи Масива не являются целыми числами
-array_is_list([0 => 'apple', 'foo' => 'bar']); // false
+// Ключи Масива не являются целыми числами
+array_is_list([0 => 'apple', 'foo' => 'bar']); // false
 
-// Непоследовательные ключи
-array_is_list([0 => 'apple', 2 => 'bar']); // false
+// Непоследовательные ключи
+array_is_list([0 => 'apple', 2 => 'bar']); // false
 ?>
 ```
 

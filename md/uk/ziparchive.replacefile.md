@@ -15,7 +15,7 @@ ZipArchive::replaceFile — Замінює файл у ZIP-архіві вказ
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::replaceFile(    string $filepath,    int $index,    int $start = 0,    int $length = 0,    int $flags = 0): bool
+public ZipArchive::replaceFile(    string $filepath,    int $index,    int $start = 0,    int $length = 0,    int $flags = 0): bool
 ```
 
 Замінює файл у ZIP-архіві вказаним шляхом.
@@ -56,13 +56,13 @@ public ZipArchive::replaceFile(    string $filepath,    int $index,  �
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test.zip') === TRUE) {
-    $zip->replaceFile('/path/to/index.txt', 1);
-    $zip->close();
-    echo 'Ок';
-} else {
-    echo 'Ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    $zip->replaceFile('/path/to/index.txt', 1);
+    $zip->close();
+    echo 'Ок';
+} else {
+    echo 'Ошибка';
 }
 ?>
 ```

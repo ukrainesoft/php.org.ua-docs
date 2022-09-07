@@ -20,14 +20,14 @@ title: 'Оператор роздільної здатності видимос�
 
 ```php
 <?php
-class MyClass {
-    const CONST_VALUE = 'Значение константы';
+class MyClass {
+    const CONST_VALUE = 'Значение константы';
 }
 
-$classname = 'MyClass';
-echo $classname::CONST_VALUE;
+$classname = 'MyClass';
+echo $classname::CONST_VALUE;
 
-echo MyClass::CONST_VALUE;
+echo MyClass::CONST_VALUE;
 ?>
 ```
 
@@ -37,17 +37,17 @@ echo MyClass::CONST_VALUE;
 
 ```php
 <?php
-class OtherClass extends MyClass
+class OtherClass extends MyClass
 {
-    public static $my_static = 'статическая переменная';
+    public static $my_static = 'статическая переменная';
 
-    public static function doubleColon() {
-        echo parent::CONST_VALUE . "\n";
-        echo self::$my_static . "\n";
-    }
+    public static function doubleColon() {
+        echo parent::CONST_VALUE . "\n";
+        echo self::$my_static . "\n";
+    }
 }
 
-$classname = 'OtherClass';
+$classname = 'OtherClass';
 $classname::doubleColon();
 
 OtherClass::doubleColon();
@@ -60,25 +60,25 @@ OtherClass::doubleColon();
 
 ```php
 <?php
-class MyClass
+class MyClass
 {
-    protected function myFunc() {
-        echo "MyClass::myFunc()\n";
-    }
+    protected function myFunc() {
+        echo "MyClass::myFunc()\n";
+    }
 }
 
-class OtherClass extends MyClass
+class OtherClass extends MyClass
 {
-    // Переопределить родительское определение
-    public function myFunc()
-    {
-        // Но всё ещё вызываем родительскую функцию
-        parent::myFunc();
-        echo "OtherClass::myFunc()\n";
-    }
+    // Переопределить родительское определение
+    public function myFunc()
+    {
+        // Но всё ещё вызываем родительскую функцию
+        parent::myFunc();
+        echo "OtherClass::myFunc()\n";
+    }
 }
 
-$class = new OtherClass();
+$class = new OtherClass();
 $class->myFunc();
 ?>
 ```

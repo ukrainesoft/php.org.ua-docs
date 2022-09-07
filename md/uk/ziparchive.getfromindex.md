@@ -49,12 +49,12 @@ public ZipArchive::getFromIndex(int $index, int $len = 0, int $flags = 0): strin
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test.zip') === TRUE) {
-    echo $zip->getFromIndex(2);
-    $zip->close();
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    echo $zip->getFromIndex(2);
+    $zip->close();
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

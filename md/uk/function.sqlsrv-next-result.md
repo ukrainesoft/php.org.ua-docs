@@ -38,27 +38,27 @@ sqlsrv_next_result(resource $stmt): mixed
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array("Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array("Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
 
-$query = "INSERT INTO Table_1 (id, data) VALUES (?,?); SELECT * FROM TABLE_1;";
-$params = array(1, "some data");
-$stmt = sqlsrv_query($conn, $query, $params);
+$query = "INSERT INTO Table_1 (id, data) VALUES (?,?); SELECT * FROM TABLE_1;";
+$params = array(1, "some data");
+$stmt = sqlsrv_query($conn, $query, $params);
 
-// Использовать первый результат (строки, затронутые INSERT) без вызова sqlsrv_next_result.
-echo "Затронуто строк: ".sqlsrv_rows_affected($stmt)."<br />";
+// Использовать первый результат (строки, затронутые INSERT) без вызова sqlsrv_next_result.
+echo "Затронуто строк: ".sqlsrv_rows_affected($stmt)."<br />";
 
-// Переход к следующему результату и отображение результатов.
-$next_result = sqlsrv_next_result($stmt);
-if( $next_result ) {
-   while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC)){
-      echo $row['id'].": ".$row['data']."<br />";
-   }
-} elseif( is_null($next_result)) {
-     echo "Больше строк нет.<br />";
-} else {
-     die(print_r(sqlsrv_errors(), true));
+// Переход к следующему результату и отображение результатов.
+$next_result = sqlsrv_next_result($stmt);
+if( $next_result ) {
+   while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC)){
+      echo $row['id'].": ".$row['data']."<br />";
+   }
+} elseif( is_null($next_result)) {
+     echo "Больше строк нет.<br />";
+} else {
+     die(print_r(sqlsrv_errors(), true));
 }
 ?>
 ```

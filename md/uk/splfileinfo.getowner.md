@@ -38,7 +38,7 @@ public SplFileInfo::getOwner(): int|false
 
 ```php
 <?php
-$info = new SplFileInfo('file.txt');
+$info = new SplFileInfo('file.txt');
 print_r(posix_getpwuid($info->getOwner()));
 ?>
 ```

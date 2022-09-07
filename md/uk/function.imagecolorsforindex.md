@@ -48,18 +48,18 @@ imagecolorsforindex(GdImage $image, int $color): array
 ```php
 <?php
 
-// открываем изображение
-$im = imagecreatefrompng('nexen.png');
+// открываем изображение
+$im = imagecreatefrompng('nexen.png');
 
-// получаем цвет
-$start_x = 40;
-$start_y = 50;
-$color_index = imagecolorat($im, $start_x, $start_y);
+// получаем цвет
+$start_x = 40;
+$start_y = 50;
+$color_index = imagecolorat($im, $start_x, $start_y);
 
-// делаем его удобочитаемым
-$color_tran = imagecolorsforindex($im, $color_index);
+// делаем его удобочитаемым
+$color_tran = imagecolorsforindex($im, $color_index);
 
-// что здесь ?
+// что здесь ?
 print_r($color_tran);
 
 ?>

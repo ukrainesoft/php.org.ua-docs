@@ -48,11 +48,11 @@ public SNMP::get(array|string $objectId, bool $preserveKeys = false): mixed
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
-  $sysdescr = $session->get("sysDescr.0");
-  echo "$sysdescr\n";
-  $sysdescr = $session->get(array("sysDescr.0"));
-  print_r($sysdescr);
+  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
+  $sysdescr = $session->get("sysDescr.0");
+  echo "$sysdescr\n";
+  $sysdescr = $session->get(array("sysDescr.0"));
+  print_r($sysdescr);
 ?>
 ```
 
@@ -69,10 +69,10 @@ Array
 **Приклад #2 Множинні об'єкти SNMP**
 
 ```php
-$session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
-  $results = $session->get(array("sysDescr.0", "sysName.0"));
-  print_r($results);
-  $session->close();
+$session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
+  $results = $session->get(array("sysDescr.0", "sysName.0"));
+  print_r($results);
+  $session->close();
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

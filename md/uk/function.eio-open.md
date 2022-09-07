@@ -15,7 +15,7 @@ eioopen — Відкриває файл
 ### Опис
 
 ```methodsynopsis
-eio_open(    string $path,    int $flags,    int $mode,    int $pri,    callable $callback,    mixed $data = NULL): resource
+eio_open(    string $path,    int $flags,    int $mode,    int $pri,    callable $callback,    mixed $data = NULL): resource
 ```
 
 **eioopen()** відкриває файл по заданому шляху `path` у режимі доступу `mode`
@@ -36,7 +36,7 @@ eio_open(    string $path,    int $flags,    int $mode,    int $
 
 `mode`
 
-Комбінація з однієї або кількох констант *EIOЗІ* (через побітове АБО). Сенс констант той самий, що й у відповідних їм констант *ЗІ*, визначених у заголовному файлі С [» sys/stat.h](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.md). Параметр обов'язковий, якщо створюється новий файл. В іншому випадку параметр ігнорується.
+Комбінація з однієї або кількох констант *EIOЗІ* (через побітове АБО). Сенс констант той самий, що й у відповідних їм констант *ЗІ*, визначених у заголовному файлі С [» sys/stat.h](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/sys_stat.h.md). Параметр обов'язковий, якщо створюється новий файл. В іншому випадку параметр ігнорується.
 
 `pri`
 
@@ -47,7 +47,7 @@ eio_open(    string $path,    int $flags,    int $mode,    int $
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -76,31 +76,31 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-$temp_filename = "eio-temp-file.tmp";
+$temp_filename = "eio-temp-file.tmp";
 
-/* Будет вызываться после завершения работы eio_close() */
-function my_close_cb($data, $result) {
- // Ноль указывает на успех операции
-    var_dump($result == 0);
- @unlink($data);
+/* Будет вызываться после завершения работы eio_close() */
+function my_close_cb($data, $result) {
+ // Ноль указывает на успех операции
+    var_dump($result == 0);
+ @unlink($data);
 }
 
-/* Будет вызываться после завершения работы eio_open() */
-function my_file_opened_callback($data, $result) {
- // $result должен содержать дескриптор файла
-    var_dump($result > 0);
+/* Будет вызываться после завершения работы eio_open() */
+function my_file_opened_callback($data, $result) {
+ // $result должен содержать дескриптор файла
+    var_dump($result > 0);
 
-    if ($result > 0) {
-  // закрываем файл
-        eio_close($result, EIO_PRI_DEFAULT, "my_close_cb", $data);
-        eio_event_loop();
-    }
+    if ($result > 0) {
+  // закрываем файл
+        eio_close($result, EIO_PRI_DEFAULT, "my_close_cb", $data);
+        eio_event_loop();
+    }
 }
 
-// создаём файл для чтения и записи
-// запрещаем группе и другим пользователям делать что-либо с файлом
-eio_open($temp_filename, EIO_O_CREAT | EIO_O_RDWR, EIO_S_IRUSR | EIO_S_IWUSR,
-  EIO_PRI_DEFAULT, "my_file_opened_callback", $temp_filename);
+// создаём файл для чтения и записи
+// запрещаем группе и другим пользователям делать что-либо с файлом
+eio_open($temp_filename, EIO_O_CREAT | EIO_O_RDWR, EIO_S_IRUSR | EIO_S_IWUSR,
+  EIO_PRI_DEFAULT, "my_file_opened_callback", $temp_filename);
 eio_event_loop();
 ?>
 ```

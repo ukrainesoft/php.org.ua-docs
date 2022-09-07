@@ -22,19 +22,19 @@ PHP реалізує функцію, звану пізніше статичне 
 
 ```php
 <?php
-class A {
-    public static function who() {
-        echo __CLASS__;
-    }
-    public static function test() {
-        self::who();
-    }
+class A {
+    public static function who() {
+        echo __CLASS__;
+    }
+    public static function test() {
+        self::who();
+    }
 }
 
-class B extends A {
-    public static function who() {
-        echo __CLASS__;
-    }
+class B extends A {
+    public static function who() {
+        echo __CLASS__;
+    }
 }
 
 B::test();
@@ -55,19 +55,19 @@ A
 
 ```php
 <?php
-class A {
-    public static function who() {
-        echo __CLASS__;
-    }
-    public static function test() {
-        static::who(); // Здесь действует позднее статическое связывание
-    }
+class A {
+    public static function who() {
+        echo __CLASS__;
+    }
+    public static function test() {
+        static::who(); // Здесь действует позднее статическое связывание
+    }
 }
 
-class B extends A {
-    public static function who() {
-        echo __CLASS__;
-    }
+class B extends A {
+    public static function who() {
+        echo __CLASS__;
+    }
 }
 
 B::test();
@@ -88,31 +88,31 @@ B
 
 ```php
 <?php
-class A {
-    private function foo() {
-        echo "success!\n";
-    }
-    public function test() {
-        $this->foo();
-        static::foo();
-    }
+class A {
+    private function foo() {
+        echo "success!\n";
+    }
+    public function test() {
+        $this->foo();
+        static::foo();
+    }
 }
 
-class B extends A {
-   /* foo() будет скопирован в В, следовательно его область действия по прежнему А,
-      и вызов будет успешным */
+class B extends A {
+   /* foo() будет скопирован в В, следовательно его область действия по прежнему А,
+      и вызов будет успешным */
 }
 
-class C extends A {
-    private function foo() {
-        /* исходный метод заменён; область действия нового метода - С */
-    }
+class C extends A {
+    private function foo() {
+        /* исходный метод заменён; область действия нового метода - С */
+    }
 }
 
-$b = new B();
+$b = new B();
 $b->test();
-$c = new C();
-$c->test();   // потерпит ошибку
+$c = new C();
+$c->test();   // потерпит ошибку
 ?>
 ```
 
@@ -135,31 +135,31 @@ Fatal error:  Call to private method C::foo() from context 'A' in /tmp/test.php 
 > 
 > ```php
 > <?php
-> class A {
->     public static function foo() {
->         static::who();
->     }
+> class A {
+>     public static function foo() {
+>         static::who();
+>     }
 > 
->     public static function who() {
->         echo __CLASS__."\n";
->     }
+>     public static function who() {
+>         echo __CLASS__."\n";
+>     }
 > }
 > 
-> class B extends A {
->     public static function test() {
->         A::foo();
->         parent::foo();
->         self::foo();
->     }
+> class B extends A {
+>     public static function test() {
+>         A::foo();
+>         parent::foo();
+>         self::foo();
+>     }
 > 
->     public static function who() {
->         echo __CLASS__."\n";
->     }
+>     public static function who() {
+>         echo __CLASS__."\n";
+>     }
 > }
-> class C extends B {
->     public static function who() {
->         echo __CLASS__."\n";
->     }
+> class C extends B {
+>     public static function who() {
+>         echo __CLASS__."\n";
+>     }
 > }
 > 
 > C::test();

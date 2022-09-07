@@ -73,21 +73,21 @@ public SQLite3Stmt::bindParam(string|int $param, mixed &$var, int $type = SQLITE
 
 ```php
 <?php
-$db = new SQLite3(':memory:');
-$db->exec("CREATE TABLE foo (bar TEXT)");
+$db = new SQLite3(':memory:');
+$db->exec("CREATE TABLE foo (bar TEXT)");
 
-$stmt = $db->prepare("INSERT INTO foo VALUES (:bar)");
-$stmt->bindParam(':bar', $bar, SQLITE3_TEXT);
+$stmt = $db->prepare("INSERT INTO foo VALUES (:bar)");
+$stmt->bindParam(':bar', $bar, SQLITE3_TEXT);
 
-$bar = 'baz';
+$bar = 'baz';
 $stmt->execute();
 
-$bar = 42;
+$bar = 42;
 $stmt->execute();
 
-$res = $db->query("SELECT * FROM foo");
-while (($row = $res->fetchArray(SQLITE3_ASSOC))) {
-    var_dump($row);
+$res = $db->query("SELECT * FROM foo");
+while (($row = $res->fetchArray(SQLITE3_ASSOC))) {
+    var_dump($row);
 }
 ?>
 ```

@@ -37,7 +37,7 @@ public SolrCollapseFunction::setHint(string $hint): SolrCollapseFunction
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

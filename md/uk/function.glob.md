@@ -61,8 +61,8 @@ glob(string $pattern, int $flags = 0): array|false
 
 ```php
 <?php
-foreach (glob("*.txt") as $filename) {
-    echo "$filename размер " . filesize($filename) . "\n";
+foreach (glob("*.txt") as $filename) {
+    echo "$filename размер " . filesize($filename) . "\n";
 }
 ?>
 ```

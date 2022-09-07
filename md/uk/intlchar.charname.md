@@ -49,7 +49,7 @@ public static IntlChar::charName(int|string $codepoint, int $type = IntlChar::UN
 ```php
 <?php
 var_dump(IntlChar::charName("."));
-var_dump(IntlChar::charName(".", IntlChar::UNICODE_CHAR_NAME));
+var_dump(IntlChar::charName(".", IntlChar::UNICODE_CHAR_NAME));
 var_dump(IntlChar::charName("\u{2603}"));
 var_dump(IntlChar::charName("\u{0000}"));
 ?>

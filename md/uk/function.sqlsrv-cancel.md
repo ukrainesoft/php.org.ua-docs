@@ -36,40 +36,40 @@ sqlsrv_cancel(resource $stmt): bool
 
 ```php
 <?php
-$serverName = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
-$conn = sqlsrv_connect( $serverName, $connectionInfo);
-if( $conn === false ) {
-     die( print_r( sqlsrv_errors(), true));
+$serverName = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$sql = "SELECT Sales FROM Table_1";
+$sql = "SELECT Sales FROM Table_1";
 
-$stmt = sqlsrv_prepare( $conn, $sql);
+$stmt = sqlsrv_prepare( $conn, $sql);
 
-if( $stmt === false ) {
-     die( print_r( sqlsrv_errors(), true));
+if( $stmt === false ) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-if( sqlsrv_execute( $stmt ) === false) {
-     die( print_r( sqlsrv_errors(), true));
+if( sqlsrv_execute( $stmt ) === false) {
+     die( print_r( sqlsrv_errors(), true));
 }
 
-$salesTotal = 0;
-$count = 0;
+$salesTotal = 0;
+$count = 0;
 
-while( ($row = sqlsrv_fetch_array( $stmt)) && $salesTotal <=100000)
+while( ($row = sqlsrv_fetch_array( $stmt)) && $salesTotal <=100000)
 {
-     $qty = $row[0];
-     $price = $row[1];
-     $salesTotal += ( $price * $qty);
-     $count++;
+     $qty = $row[0];
+     $price = $row[1];
+     $salesTotal += ( $price * $qty);
+     $count++;
 }
 
-echo "$count продаж составили первый $$salesTotal выручки.<br />";
+echo "$count продаж составили первый $$salesTotal выручки.<br />";
 
-// Отменить ожидающие результаты. Оператор можно использовать повторно.
-sqlsrv_cancel( $stmt);
+// Отменить ожидающие результаты. Оператор можно использовать повторно.
+sqlsrv_cancel( $stmt);
 ?>
 ```
 

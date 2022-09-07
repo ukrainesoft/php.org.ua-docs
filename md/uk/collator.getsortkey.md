@@ -54,12 +54,12 @@ collator_get_sort_key(Collator $object, string $string): string|false
 
 ```php
 <?php
-$s1 = 'Hello';
+$s1 = 'Hello';
 
-$coll = collator_create('en_US');
-$res  = collator_get_sort_key($coll, $s1);
+$coll = collator_create('en_US');
+$res  = collator_get_sort_key($coll, $s1);
 
-echo bin2hex($res);
+echo bin2hex($res);
 ?>
 ```
 

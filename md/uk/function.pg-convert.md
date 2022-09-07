@@ -15,7 +15,7 @@ title: пгconvert
 ### Опис
 
 ```methodsynopsis
-pg_convert(    PgSql\Connection $connection,    string $table_name,    array $values,    int $flags = 0): array|false
+pg_convert(    PgSql\Connection $connection,    string $table_name,    array $values,    int $flags = 0): array|false
 ```
 
 **пгconvert()** перевіряє та перетворює значення з `values` у прийнятні для SQL-сервера. Необхідно, щоб існувала таблиця `table_name`, а кількість колонок у ній має бути не меншою, ніж значень у масиві `values`. Імена колонок у таблиці `table_name` повинні збігатися з ключами масиву `values`Типи даних значень масиву також повинні збігатися з типами даних відповідних колонок. У разі успішної конвертації функція повертає масив перетворених значень, інакше повертає **`false`**
@@ -58,15 +58,15 @@ pg_convert(    PgSql\Connection $connection,    string $table_name,  �
 
 ```php
 <?php
-  $dbconn = pg_connect('dbname=foo');
+  $dbconn = pg_connect('dbname=foo');
 
-  $tmp = array(
-      'author' => 'Joe Thackery',
-      'year' => 2005,
-      'title' => 'My Life, by Joe Thackery'
-  );
+  $tmp = array(
+      'author' => 'Joe Thackery',
+      'year' => 2005,
+      'title' => 'My Life, by Joe Thackery'
+  );
 
-  $vals = pg_convert($dbconn, 'authors', $tmp);
+  $vals = pg_convert($dbconn, 'authors', $tmp);
 ?>
 ```
 

@@ -51,25 +51,25 @@ mysqli_stmt_affected_rows(mysqli_stmt $statement): int|string
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* создание временной таблицы */
-$mysqli->query("CREATE TEMPORARY TABLE myCountry LIKE Country");
+/* создание временной таблицы */
+$mysqli->query("CREATE TEMPORARY TABLE myCountry LIKE Country");
 
-$query = "INSERT INTO myCountry SELECT * FROM Country WHERE Code LIKE ?";
+$query = "INSERT INTO myCountry SELECT * FROM Country WHERE Code LIKE ?";
 
-/* подготовка выражения */
-$stmt = $mysqli->prepare($query);
+/* подготовка выражения */
+$stmt = $mysqli->prepare($query);
 
-/* связывание переменных */
-$code = 'A%';
-$stmt->bind_param("s", $code);
+/* связывание переменных */
+$code = 'A%';
+$stmt->bind_param("s", $code);
 
-/* выполнение выражения */
+/* выполнение выражения */
 $stmt->execute();
 
-printf("Добавлено строк: %d\n", $stmt->affected_rows);
+printf("Добавлено строк: %d\n", $stmt->affected_rows);
 ?>
 ```
 
@@ -78,25 +78,25 @@ printf("Добавлено строк: %d\n", $stmt->affected_rows);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* создание временной таблицы */
-mysqli_query($link, "CREATE TEMPORARY TABLE myCountry LIKE Country");
+/* создание временной таблицы */
+mysqli_query($link, "CREATE TEMPORARY TABLE myCountry LIKE Country");
 
-$query = "INSERT INTO myCountry SELECT * FROM Country WHERE Code LIKE ?";
+$query = "INSERT INTO myCountry SELECT * FROM Country WHERE Code LIKE ?";
 
-/* подготовка выражения */
-$stmt = mysqli_prepare($link, $query);
+/* подготовка выражения */
+$stmt = mysqli_prepare($link, $query);
 
-/* связывание переменных */
-$code = 'A%';
-mysqli_stmt_bind_param($stmt, "s", $code);
+/* связывание переменных */
+$code = 'A%';
+mysqli_stmt_bind_param($stmt, "s", $code);
 
-/* выполнение выражения */
+/* выполнение выражения */
 mysqli_stmt_execute($stmt);
 
-printf("Добавлено строк: %d\n", mysqli_stmt_affected_rows($stmt));
+printf("Добавлено строк: %d\n", mysqli_stmt_affected_rows($stmt));
 ?>
 ```
 

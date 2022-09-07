@@ -20,7 +20,7 @@ ip2long(string $ip): int|false
 
 Функція **ip2long()** перетворює IPv4-адресу мережі Інтернет зі стандартного формату (рядок з точками) на ціле число.
 
-Функція **ip2long()** також працюватиме з неповними IP-адресами. Дивіться [» http://publibn.boulder.ibm.com/doclink/enUS/adoclib/libs/commtrf2/inetaddr.htm](http://publibn.boulder.ibm.com/doc_link/en_US/a_doc_lib/libs/commtrf2/inet_addr.htm) для більш детальної інформації.
+Функція **ip2long()** також працюватиме з неповними IP-адресами. Дивіться [» http://publibn.boulder.ibm.com/doclink/enUS/adoclib/libs/commtrf2/inetaddr.htm](http://publibn.boulder.ibm.com/doc_link/en_US/a_doc_lib/libs/commtrf2/inet_addr.htm) для більш детальної інформації.
 
 ### Список параметрів
 
@@ -38,10 +38,10 @@ ip2long(string $ip): int|false
 
 ```php
 <?php
-$ip = gethostbyname('www.example.com');
-$out = "Следующие URL эквивалентны:<br />\n";
-$out .= 'http://www.example.com/, http://' . $ip . '/, и http://' . sprintf("%u", ip2long($ip)) . "/<br />\n";
-echo $out;
+$ip = gethostbyname('www.example.com');
+$out = "Следующие URL эквивалентны:<br />\n";
+$out .= 'http://www.example.com/, http://' . $ip . '/, и http://' . sprintf("%u", ip2long($ip)) . "/<br />\n";
+echo $out;
 ?>
 ```
 
@@ -51,15 +51,15 @@ echo $out;
 
 ```php
 <?php
-$ip   = gethostbyname('www.example.com');
-$long = ip2long($ip);
+$ip   = gethostbyname('www.example.com');
+$long = ip2long($ip);
 
-if ($long == -1 || $long === FALSE) {
-    echo 'Неверный IP-адрес, попробуйте ещё раз';
-} else {
-    echo $ip   . "\n";            // 192.0.34.166
-    echo $long . "\n";            // -1073732954
-    printf("%u\n", ip2long($ip)); // 3221234342
+if ($long == -1 || $long === FALSE) {
+    echo 'Неверный IP-адрес, попробуйте ещё раз';
+} else {
+    echo $ip   . "\n";            // 192.0.34.166
+    echo $long . "\n";            // -1073732954
+    printf("%u\n", ip2long($ip)); // 3221234342
 }
 ?>
 ```

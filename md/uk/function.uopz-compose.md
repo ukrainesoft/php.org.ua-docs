@@ -19,7 +19,7 @@ uopzcompose — Скласти клас
 ### Опис
 
 ```methodsynopsis
-uopz_compose(    string $name,    array $classes,    array $methods = ?,    array $properties = ?,    int $flags = ?): void
+uopz_compose(    string $name,    array $classes,    array $methods = ?,    array $properties = ?,    int $flags = ?): void
 ```
 
 Створює клас заданого імені, який реалізує, успадковує чи використовує всі надані класи
@@ -54,25 +54,25 @@ uopz_compose(    string $name,    array $classes,    array $methods 
 
 ```php
 <?php
-class myClass {}
-trait myTrait {}
-interface myInterface {}
+class myClass {}
+trait myTrait {}
+interface myInterface {}
 
 uopz_compose(
-    Composed::class, [
-        myClass::class,
-        myTrait::class,
-        myInterface::class
-    ], [
-    "__construct" => function() {
-        /* ... */
-    }
+    Composed::class, [
+        myClass::class,
+        myTrait::class,
+        myInterface::class
+    ], [
+    "__construct" => function() {
+        /* ... */
+    }
 ]);
 
 var_dump(
- class_uses(Composed::class),
- class_parents(Composed::class),
- class_implements(Composed::class));
+ class_uses(Composed::class),
+ class_parents(Composed::class),
+ class_implements(Composed::class));
 ?>
 ```
 

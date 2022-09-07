@@ -35,7 +35,7 @@ public Gender\Gender::country(int $country): array|false
 **Приклад #1 Приклад використання **GenderGender::country()****
 
 ```php
-$gender = new Gender\Gender;
+$gender = new Gender\Gender;
 var_dump($gender->country(Gender\Gender::BRITAIN));
 ```
 

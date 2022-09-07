@@ -49,16 +49,16 @@ public DOMNode::removeChild(DOMNode $child): DOMNode|false
 ```php
 <?php
 
-$doc = new DOMDocument;
+$doc = new DOMDocument;
 $doc->load('book.xml');
 
-$book = $doc->documentElement;
+$book = $doc->documentElement;
 
-// находим главу (chapter) и удалям из книги (book)
-$chapter = $book->getElementsByTagName('chapter')->item(0);
-$oldchapter = $book->removeChild($chapter);
+// находим главу (chapter) и удалям из книги (book)
+$chapter = $book->getElementsByTagName('chapter')->item(0);
+$oldchapter = $book->removeChild($chapter);
 
-echo $doc->saveXML();
+echo $doc->saveXML();
 ?>
 ```
 

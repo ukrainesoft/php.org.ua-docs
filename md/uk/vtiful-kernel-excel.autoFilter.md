@@ -36,16 +36,16 @@ public Vtiful\Kernel\Excel::autoFilter(string $scope)
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$fileObject  = new \Vtiful\Kernel\Excel($config);
+$fileObject  = new \Vtiful\Kernel\Excel($config);
 
-$file = $excel->fileName('test.xlsx')
-        ->header(['name', 'age'])
-        ->data($data)
-        ->autoFilter('A1:B11')  // автофильтр
-        ->output();
+$file = $excel->fileName('test.xlsx')
+        ->header(['name', 'age'])
+        ->data($data)
+        ->autoFilter('A1:B11')  // автофильтр
+        ->output();
 ?>
 ```

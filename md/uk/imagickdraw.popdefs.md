@@ -34,30 +34,30 @@ public ImagickDraw::popDefs(): bool
 
 ```php
 <?php
-function popDefs($strokeColor, $fillColor, $backgroundColor) {
+function popDefs($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setstrokeOpacity(1);
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
-    $draw->pushDefs();
-    $draw->setStrokeColor('white');
-    $draw->rectangle(50, 50, 200, 200);
-    $draw->popDefs();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setstrokeOpacity(1);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
+    $draw->pushDefs();
+    $draw->setStrokeColor('white');
+    $draw->rectangle(50, 50, 200, 200);
+    $draw->popDefs();
 
-    $draw->rectangle(300, 50, 450, 200);
+    $draw->rectangle(300, 50, 450, 200);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

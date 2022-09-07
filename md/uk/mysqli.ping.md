@@ -52,22 +52,22 @@ mysqli_ping(mysqli $mysql): bool
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if ($mysqli->connect_errno) {
-    printf("Не удалось подключиться: %s\n", $mysqli->connect_error);
-    exit();
+/* проверка соединения */
+if ($mysqli->connect_errno) {
+    printf("Не удалось подключиться: %s\n", $mysqli->connect_error);
+    exit();
 }
 
-/* проверим, жив ли сервер */
-if ($mysqli->ping()) {
-    printf ("Соединение в порядке!\n");
-} else {
-    printf ("Ошибка: %s\n", $mysqli->error);
+/* проверим, жив ли сервер */
+if ($mysqli->ping()) {
+    printf ("Соединение в порядке!\n");
+} else {
+    printf ("Ошибка: %s\n", $mysqli->error);
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -76,22 +76,22 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* проверим, жив ли сервер */
-if (mysqli_ping($link)) {
-    printf ("Соединение в порядке!\n");
-} else {
-    printf ("Ошибка: %s\n", mysqli_error($link));
+/* проверим, жив ли сервер */
+if (mysqli_ping($link)) {
+    printf ("Соединение в порядке!\n");
+} else {
+    printf ("Ошибка: %s\n", mysqli_error($link));
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

@@ -36,11 +36,11 @@ fdf_save_string(resource $fdf_document): string
 
 ```php
 <?php
-$fdf = fdf_create();
-fdf_set_value($fdf, "foo", "bar");
-$str = fdf_save_string($fdf);
+$fdf = fdf_create();
+fdf_set_value($fdf, "foo", "bar");
+$str = fdf_save_string($fdf);
 fdf_close($fdf);
-echo $str;
+echo $str;
 ?>
 ```
 

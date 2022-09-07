@@ -15,7 +15,7 @@ tradercdlclosingmarubozu — Закриття марубозу
 ### Опис
 
 ```methodsynopsis
-trader_cdlclosingmarubozu(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlclosingmarubozu(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

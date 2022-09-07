@@ -15,7 +15,7 @@ RarEntry::extract — Витягує елемент з архіву
 ### Опис
 
 ```methodsynopsis
-public RarEntry::extract(    string $dir,    string $filepath = "",    string $password = NULL,    bool $extended_data = false): bool
+public RarEntry::extract(    string $dir,    string $filepath = "",    string $password = NULL,    bool $extended_data = false): bool
 ```
 
 **RarEntry::extract()** витягує вміст елемента. При цьому створюється новий файл у зазначеній директорії `dir` з ім'ям, що збігається з ім'ям елемента, якщо тільки не заданий другий аргумент. Дивіться нижче.
@@ -60,12 +60,12 @@ public RarEntry::extract(    string $dir,    string $filepath = "",  �
 ```php
 <?php
 
-$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
+$rar_file = rar_open('example.rar') or die("Не удалось открыть Rar архив");
 
-$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
+$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалось найти такую запись");
 
-$entry->extract('/dir/to'); // создание /dir/to/Dir/file.txt
-$entry->extract(false, '/dir/to/new_name.txt'); // создание /dir/to/new_name.txt
+$entry->extract('/dir/to'); // создание /dir/to/Dir/file.txt
+$entry->extract(false, '/dir/to/new_name.txt'); // создание /dir/to/new_name.txt
 
 ?>
 ```
@@ -75,16 +75,16 @@ $entry->extract(false, '/dir/to/new_name.txt'); // создание /dir/to/
 ```php
 <?php
 
-/* Пример от Erik Jenssen aka erix */
+/* Пример от Erik Jenssen aka erix */
 
-$filename = "foobar.rar";
-$filepath = "/home/foo/bar/";
+$filename = "foobar.rar";
+$filepath = "/home/foo/bar/";
 
-$rar_file = rar_open($filepath.$filename);
-$list = rar_list($rar_file);
-foreach($list as $file) {
-    $entry = rar_entry_get($rar_file, $file);
-    $entry->extract("."); // извлечь в текущий каталог
+$rar_file = rar_open($filepath.$filename);
+$list = rar_list($rar_file);
+foreach($list as $file) {
+    $entry = rar_entry_get($rar_file, $file);
+    $entry->extract("."); // извлечь в текущий каталог
 }
 rar_close($rar_file);
 

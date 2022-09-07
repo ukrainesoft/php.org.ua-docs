@@ -47,14 +47,14 @@ Memcache::connect(string $host, int $port = ?, int $timeout = ?): bool
 ```php
 <?php
 
-/* процедурное API */
+/* процедурное API */
 
-$memcache_obj = memcache_connect('memcache_host', 11211);
+$memcache_obj = memcache_connect('memcache_host', 11211);
 
-/* объектно-ориентированное API */
+/* объектно-ориентированное API */
 
-$memcache = new Memcache;
-$memcache->connect('memcache_host', 11211);
+$memcache = new Memcache;
+$memcache->connect('memcache_host', 11211);
 
 ?>
 ```

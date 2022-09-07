@@ -38,9 +38,9 @@ substr(string $string, int $offset, ?int $length = null): string
 
 ```php
 <?php
-$rest = substr("abcdef", -1);    // возвращает "f"
-$rest = substr("abcdef", -2);    // возвращает "ef"
-$rest = substr("abcdef", -3, 1); // возвращает "d"
+$rest = substr("abcdef", -1);    // возвращает "f"
+$rest = substr("abcdef", -2);    // возвращает "ef"
+$rest = substr("abcdef", -3, 1); // возвращает "d"
 ?>
 ```
 
@@ -58,10 +58,10 @@ $rest = substr("abcdef", -3, 1); // возвращает "d"
 
 ```php
 <?php
-$rest = substr("abcdef", 0, -1);  // возвращает "abcde"
-$rest = substr("abcdef", 2, -1);  // возвращает "cde"
-$rest = substr("abcdef", 4, -4);  // возвращает ""; до PHP 8.0.0 возвращалось false
-$rest = substr("abcdef", -3, -1); // возвращает "de"
+$rest = substr("abcdef", 0, -1);  // возвращает "abcde"
+$rest = substr("abcdef", 2, -1);  // возвращает "cde"
+$rest = substr("abcdef", 4, -4);  // возвращает ""; до PHP 8.0.0 возвращалось false
+$rest = substr("abcdef", -3, -1); // возвращает "de"
 ?>
 ```
 
@@ -82,19 +82,19 @@ $rest = substr("abcdef", -3, -1); // возвращает "de"
 
 ```php
 <?php
-echo substr('abcdef', 1);     // bcdef
-echo substr("abcdef", 1, null); // bcdef; до PHP 8.0.0 возвращалась пустая строка
-echo substr('abcdef', 1, 3);  // bcd
-echo substr('abcdef', 0, 4);  // abcd
-echo substr('abcdef', 0, 8);  // abcdef
-echo substr('abcdef', -1, 1); // f
+echo substr('abcdef', 1);     // bcdef
+echo substr("abcdef", 1, null); // bcdef; до PHP 8.0.0 возвращалась пустая строка
+echo substr('abcdef', 1, 3);  // bcd
+echo substr('abcdef', 0, 4);  // abcd
+echo substr('abcdef', 0, 8);  // abcdef
+echo substr('abcdef', -1, 1); // f
 
-// Получить доступ к отдельному символу в строке
-// можно также с помощью квадратных скобок
-$string = 'abcdef';
-echo $string[0];                 // a
-echo $string[3];                 // d
-echo $string[strlen($string)-1]; // f
+// Получить доступ к отдельному символу в строке
+// можно также с помощью квадратных скобок
+$string = 'abcdef';
+echo $string[0];                 // a
+echo $string[3];                 // d
+echo $string[strlen($string)-1]; // f
 
 ?>
 ```
@@ -103,19 +103,19 @@ echo $string[strlen($string)-1]; // f
 
 ```php
 <?php
-class apple {
-    public function __toString() {
-        return "green";
-    }
+class apple {
+    public function __toString() {
+        return "green";
+    }
 }
 
-echo "1) ".var_export(substr("pear", 0, 2), true).PHP_EOL;
-echo "2) ".var_export(substr(54321, 0, 2), true).PHP_EOL;
-echo "3) ".var_export(substr(new apple(), 0, 2), true).PHP_EOL;
-echo "4) ".var_export(substr(true, 0, 1), true).PHP_EOL;
-echo "5) ".var_export(substr(false, 0, 1), true).PHP_EOL;
-echo "6) ".var_export(substr("", 0, 1), true).PHP_EOL;
-echo "7) ".var_export(substr(1.2e3, 0, 4), true).PHP_EOL;
+echo "1) ".var_export(substr("pear", 0, 2), true).PHP_EOL;
+echo "2) ".var_export(substr(54321, 0, 2), true).PHP_EOL;
+echo "3) ".var_export(substr(new apple(), 0, 2), true).PHP_EOL;
+echo "4) ".var_export(substr(true, 0, 1), true).PHP_EOL;
+echo "5) ".var_export(substr(false, 0, 1), true).PHP_EOL;
+echo "6) ".var_export(substr("", 0, 1), true).PHP_EOL;
+echo "7) ".var_export(substr(1.2e3, 0, 4), true).PHP_EOL;
 ?>
 ```
 
@@ -137,7 +137,7 @@ echo "7) ".var_export(substr(1.2e3, 0, 4), true).PHP_EOL;
 
 ```php
 <?php
-var_dump(substr('a', 2));
+var_dump(substr('a', 2));
 ?>
 ```
 

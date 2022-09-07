@@ -43,22 +43,22 @@ public Imagick::setImageDelay(int $delay): bool
 ```php
 <?php
 
-// Измените анимированный GIF, чтобы его кадры воспроизводились с переменной скоростью,
-// варьируясь от показа в течение 50 мс до 0 мс,
-// что приведёт к пропуску фрейма в большинстве браузеров.
-$imagick = new Imagick(realpath("Test.gif"));
-$imagick = $imagick->coalesceImages();
+// Измените анимированный GIF, чтобы его кадры воспроизводились с переменной скоростью,
+// варьируясь от показа в течение 50 мс до 0 мс,
+// что приведёт к пропуску фрейма в большинстве браузеров.
+$imagick = new Imagick(realpath("Test.gif"));
+$imagick = $imagick->coalesceImages();
 
-$frameCount = 0;
+$frameCount = 0;
 
-foreach ($imagick as $frame) {
-    $imagick->setImageDelay((($frameCount % 11) * 5));
-    $frameCount++;
+foreach ($imagick as $frame) {
+    $imagick->setImageDelay((($frameCount % 11) * 5));
+    $frameCount++;
 }
 
-$imagick = $imagick->deconstructImages();
+$imagick = $imagick->deconstructImages();
 
-$imagick->writeImages("/path/to/save/output.gif", true);
+$imagick->writeImages("/path/to/save/output.gif", true);
 
 ?>
 ```

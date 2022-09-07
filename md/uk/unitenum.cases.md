@@ -36,12 +36,12 @@ public static UnitEnum::cases(): array
 
 ```php
 <?php
-enum Suit
+enum Suit
 {
-    case Hearts;
-    case Diamonds;
-    case Clubs;
-    case Spades;
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
 }
 
 var_dump(Suit::cases());

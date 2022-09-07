@@ -40,9 +40,9 @@ public Ds\Set::merge(mixed $values): Ds\Set
 
 ```php
 <?php
-$set = new \Ds\Set([1, 2, 3]);
+$set = new \Ds\Set([1, 2, 3]);
 
-var_dump($set->merge([3, 4, 5]));
+var_dump($set->merge([3, 4, 5]));
 var_dump($set);
 ?>
 ```

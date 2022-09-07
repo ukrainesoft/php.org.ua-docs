@@ -36,8 +36,8 @@ spl_object_id(object $object): int
 
 ```php
 <?php
-$id = spl_object_id($object);
-$storage[$id] = $object;
+$id = spl_object_id($object);
+$storage[$id] = $object;
 ?>
 ```
 

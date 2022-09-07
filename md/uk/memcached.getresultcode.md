@@ -34,12 +34,12 @@ public Memcached::getResultCode(): int
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$m->add('foo', 'bar');
-if ($m->getResultCode() == Memcached::RES_NOTSTORED) {
-    /* ... */
+$m->add('foo', 'bar');
+if ($m->getResultCode() == Memcached::RES_NOTSTORED) {
+    /* ... */
 }
 ?>
 ```

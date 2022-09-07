@@ -35,47 +35,47 @@ public GearmanWorker::wait(): bool
 ```php
 <?php
 
-echo "Запуск\n";
+echo "Запуск\n";
 
-# создание объекта обработчика
-$worker= new GearmanWorker();
+# создание объекта обработчика
+$worker= new GearmanWorker();
 
-# включение неблокирующего режима
+# включение неблокирующего режима
 $worker->addOptions(GEARMAN_WORKER_NON_BLOCKING);
 
-# добавление сервера по умолчанию (localhost на порту 4730)
+# добавление сервера по умолчанию (localhost на порту 4730)
 $worker->addServer();
 
-# добавление callback-функции
-$worker->addFunction('reverse', 'reverse_fn');
+# добавление callback-функции
+$worker->addFunction('reverse', 'reverse_fn');
 
-# попробуем получить задание
-while (@$worker->work() ||
-       $worker->returnCode() == GEARMAN_IO_WAIT ||
-       $worker->returnCode() == GEARMAN_NO_JOBS)
+# попробуем получить задание
+while (@$worker->work() ||
+       $worker->returnCode() == GEARMAN_IO_WAIT ||
+       $worker->returnCode() == GEARMAN_NO_JOBS)
 {
-  if ($worker->returnCode() == GEARMAN_SUCCESS)
-    continue;
+  if ($worker->returnCode() == GEARMAN_SUCCESS)
+    continue;
 
-  echo "Ожидание следующего задания...\n";
-  if (!@$worker->wait())
-  {
-    if ($worker->returnCode() == GEARMAN_NO_ACTIVE_FDS)
-    {
-      # мы не подключены ни к одному из серверов, подождём немного
-      # и попробуем переподключиться
-      sleep(5);
-      continue;
-    }
-    break;
-  }
+  echo "Ожидание следующего задания...\n";
+  if (!@$worker->wait())
+  {
+    if ($worker->returnCode() == GEARMAN_NO_ACTIVE_FDS)
+    {
+      # мы не подключены ни к одному из серверов, подождём немного
+      # и попробуем переподключиться
+      sleep(5);
+      continue;
+    }
+    break;
+  }
 }
 
-echo "Ошибка в обработчике: " . $worker->error() . "\n";
+echo "Ошибка в обработчике: " . $worker->error() . "\n";
 
-function reverse_fn($job)
+function reverse_fn($job)
 {
-  return strrev($job->workload());
+  return strrev($job->workload());
 }
 
 

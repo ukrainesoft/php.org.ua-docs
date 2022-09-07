@@ -49,10 +49,10 @@ geoip_netspeedcell_by_name(string $hostname): string
 
 ```php
 <?php
-$netspeed = geoip_netspeedcell_by_name('www.example.com');
+$netspeed = geoip_netspeedcell_by_name('www.example.com');
 
-if ($netspeed) {
-    echo 'Тип соединения: '. $netspeed;
+if ($netspeed) {
+    echo 'Тип соединения: '. $netspeed;
 }
 ?>
 ```

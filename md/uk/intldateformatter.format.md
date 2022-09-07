@@ -59,43 +59,43 @@ datefmt_format(IntlDateFormatter $formatter, IntlCalendar|DateTimeInterface|arra
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Первый форматированный вывод: ' . datefmt_format($fmt, 0);
+echo 'Первый форматированный вывод: ' . datefmt_format($fmt, 0);
 
-$fmt = datefmt_create(
-    'de-DE',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'de-DE',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Второй форматированный вывод: ' . datefmt_format($fmt, 0);
+echo 'Второй форматированный вывод: ' . datefmt_format($fmt, 0);
 
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'MM/dd/yyyy'
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'MM/dd/yyyy'
 );
-echo 'Первый форматированный вывод с шаблоном: ' . datefmt_format($fmt, 0);
+echo 'Первый форматированный вывод с шаблоном: ' . datefmt_format($fmt, 0);
 
-$fmt = datefmt_create(
-    'de-DE',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'MM/dd/yyyy'
+$fmt = datefmt_create(
+    'de-DE',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'MM/dd/yyyy'
 );
-echo "Второй форматированный вывод с шаблоном: " . datefmt_format($fmt, 0);
+echo "Второй форматированный вывод с шаблоном: " . datefmt_format($fmt, 0);
 ?>
 ```
 
@@ -103,43 +103,43 @@ echo "Второй форматированный вывод с шабло�
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Первый форматированный вывод: ' . $fmt->format(0);
+echo 'Первый форматированный вывод: ' . $fmt->format(0);
 
-$fmt = new IntlDateFormatter(
-    'de-DE',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'de-DE',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Второй форматированный вывод: ' . $fmt->format(0);
+echo 'Второй форматированный вывод: ' . $fmt->format(0);
 
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'MM/dd/yyyy'
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'MM/dd/yyyy'
 );
-echo 'Первый форматированный вывод с шаблоном: ' . $fmt->format(0);
+echo 'Первый форматированный вывод с шаблоном: ' . $fmt->format(0);
 
-$fmt = new IntlDateFormatter(
-    'de-DE',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN,
-    'MM/dd/yyyy'
+$fmt = new IntlDateFormatter(
+    'de-DE',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN,
+    'MM/dd/yyyy'
 );
-echo 'Второй форматированный вывод с шаблоном: ' . $fmt->format(0);
+echo 'Второй форматированный вывод с шаблоном: ' . $fmt->format(0);
 ?>
 ```
 
@@ -156,30 +156,30 @@ echo 'Второй форматированный вывод с шабло�
 
 ```php
 <?php
-$tz = reset(iterator_to_array(IntlTimeZone::createEnumeration('FR')));
-$formatter = IntlDateFormatter::create(
-    'fr_FR',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    $tz,
-    IntlDateFormatter::GREGORIAN
+$tz = reset(iterator_to_array(IntlTimeZone::createEnumeration('FR')));
+$formatter = IntlDateFormatter::create(
+    'fr_FR',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    $tz,
+    IntlDateFormatter::GREGORIAN
 );
 
-$cal = IntlCalendar::createInstance($tz, '@calendar=islamic-civil');
-$cal->set(IntlCalendar::FIELD_MONTH, 8); //9-й месяц, Рамадан
-$cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 1); //Первый день
+$cal = IntlCalendar::createInstance($tz, '@calendar=islamic-civil');
+$cal->set(IntlCalendar::FIELD_MONTH, 8); //9-й месяц, Рамадан
+$cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 1); //Первый день
 $cal->clear(IntlCalendar::FIELD_HOUR_OF_DAY);
 $cal->clear(IntlCalendar::FIELD_MINUTE);
 $cal->clear(IntlCalendar::FIELD_SECOND);
 $cal->clear(IntlCalendar::FIELD_MILLISECOND);
 
-echo "В этом исламском году Рамадан начался/начнётся:\n\t",
-        $formatter->format($cal), "\n";
+echo "В этом исламском году Рамадан начался/начнётся:\n\t",
+        $formatter->format($cal), "\n";
 
-//Это часовой пояс используемого средства форматирования:
+//Это часовой пояс используемого средства форматирования:
 $formatter->setTimeZone('Asia/Tokyo');
-echo "После изменения часового пояса:\n\t",
-        $formatter->format($cal), "\n";
+echo "После изменения часового пояса:\n\t",
+        $formatter->format($cal), "\n";
 ```
 
 Результат виконання цього прикладу:

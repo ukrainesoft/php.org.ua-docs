@@ -38,11 +38,11 @@ public Imagick::flopImage(): bool
 
 ```php
 <?php
-function flopImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->flopImage();
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function flopImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->flopImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

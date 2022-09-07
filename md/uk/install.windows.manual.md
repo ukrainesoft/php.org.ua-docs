@@ -12,7 +12,7 @@ title: Самостійне встановлення PHP у Windows
 
 #### IIS
 
-IIS є вбудованим у Windows. Використовуйте Server Manager для додавання ролі IIS на сервері Windows. Переконайтеся, що функцію CGI увімкнено. На робочому столі Windows використовуйте панель "Встановлення та видалення програм" для додавання IIS. У документації Microsoft є [» детальні інструкції](https://docs.microsoft.com/en-us/previous-versions/ms181052(v=vs.80)). Для настільних веб-застосунків та веб-розробки можна також використовувати IIS/Express або робочий стіл PHP.
+IIS є вбудованим у Windows. Використовуйте Server Manager для додавання ролі IIS на сервері Windows. Переконайтеся, що функцію CGI увімкнено. На робочому столі Windows використовуйте панель "Встановлення та видалення програм" для додавання IIS. У документації Microsoft є [» детальні інструкції](https://docs.microsoft.com/en-us/previous-versions/ms181052(v=vs.80)). Для настільних веб-застосунків та веб-розробки можна також використовувати IIS/Express або робочий стіл PHP.
 
 **Приклад #1 Командний рядок для налаштування IIS та PHP**
 
@@ -47,7 +47,7 @@ REM Configure FastCGI Variables
 
 ### Виберіть збірку
 
-Завантажте PHP-релізи з [» http://windows.php.net/download/](http://windows.php.net/download/). Усі зборки оптимізовані (PGO), а випуски QA та GA ретельно протестовані.
+Завантажте PHP-релізи з [» http://windows.php.net/download/](http://windows.php.net/download/). Усі зборки оптимізовані (PGO), а випуски QA та GA ретельно протестовані.
 
 Є 4 типи збірок PHP:
 

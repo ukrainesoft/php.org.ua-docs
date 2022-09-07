@@ -34,10 +34,10 @@ public SplFileInfo::isDir(): bool
 
 ```php
 <?php
-$d = new SplFileInfo(dirname(__FILE__));
+$d = new SplFileInfo(dirname(__FILE__));
 var_dump($d->isDir());
 
-$d = new SplFileInfo(__FILE__);
+$d = new SplFileInfo(__FILE__);
 var_dump($d->isDir());
 ?>
 ```

@@ -55,23 +55,23 @@ stomp_commit(resource $link, string $transaction_id, array $headers = ?): bool
 ```php
 <?php
 
-/* подключение */
-try {
-    $stomp = new Stomp('tcp://localhost:61613');
-} catch(StompException $e) {
-    die('Ошибка соединения: ' . $e->getMessage());
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
 }
 
-/* Начало транзакции */
+/* Начало транзакции */
 $stomp->begin('t1');
 
-/* отправка сообщения в очередь */
-$stomp->send('/queue/foo', 'bar', array('transaction' => 't1'));
+/* отправка сообщения в очередь */
+$stomp->send('/queue/foo', 'bar', array('transaction' => 't1'));
 
-/* выполнение транзакции */
+/* выполнение транзакции */
 $stomp->commit('t1');
 
-/* закрытие подключения */
+/* закрытие подключения */
 unset($stomp);
 
 ?>
@@ -82,24 +82,24 @@ unset($stomp);
 ```php
 <?php
 
-/* подключение */
-$link = stomp_connect('tcp://localhost:61613');
+/* подключение */
+$link = stomp_connect('tcp://localhost:61613');
 
-/* проверка подключения */
-if (!$link) {
-    die('Ошибка соединения: ' . stomp_connect_error());
+/* проверка подключения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
 }
 
-/* Начало транзакции */
-stomp_begin($link, 't1');
+/* Начало транзакции */
+stomp_begin($link, 't1');
 
-/* Отправка сообщения в очередь 'foo' */
-stomp_send($link, '/queue/foo', 'bar', array('transaction' => 't1'));
+/* Отправка сообщения в очередь 'foo' */
+stomp_send($link, '/queue/foo', 'bar', array('transaction' => 't1'));
 
-/* Выполнение транзакции */
-stomp_commit($link, 't1');
+/* Выполнение транзакции */
+stomp_commit($link, 't1');
 
-/* Закрытие изменения */
+/* Закрытие изменения */
 stomp_close($link);
 
 ?>

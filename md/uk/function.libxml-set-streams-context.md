@@ -37,17 +37,17 @@ libxml_set_streams_context(resource $context): void
 ```php
 <?php
 
-$opts = array(
-    'http' => array(
-        'user_agent' => 'PHP libxml agent',
-    )
+$opts = array(
+    'http' => array(
+        'user_agent' => 'PHP libxml agent',
+    )
 );
 
-$context = stream_context_create($opts);
+$context = stream_context_create($opts);
 libxml_set_streams_context($context);
 
-// загрузить файл через HTTP
-$doc = DOMDocument::load('http://www.example.com/file.xml');
+// загрузить файл через HTTP
+$doc = DOMDocument::load('http://www.example.com/file.xml');
 
 ?>
 ```

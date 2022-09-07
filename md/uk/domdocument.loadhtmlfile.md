@@ -48,9 +48,9 @@ public DOMDocument::loadHTMLFile(string $filename, int $options = 0): DOMDocumen
 
 ```php
 <?php
-$doc = new DOMDocument();
+$doc = new DOMDocument();
 $doc->loadHTMLFile("filename.html");
-echo $doc->saveHTML();
+echo $doc->saveHTML();
 ?>
 ```
 

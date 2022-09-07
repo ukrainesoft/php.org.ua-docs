@@ -64,7 +64,7 @@ const
 
     /* Методы */
     
-   public __construct(    RecursiveIterator $iterator,    string $pattern,    int $mode = RecursiveRegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
+   public __construct(    RecursiveIterator $iterator,    string $pattern,    int $mode = RecursiveRegexIterator::MATCH,    int $flags = 0,    int $pregFlags = 0)
 
     public getChildren(): RecursiveRegexIterator
 public hasChildren(): bool

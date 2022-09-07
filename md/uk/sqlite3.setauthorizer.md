@@ -80,7 +80,7 @@ Callback-авторизатор не повинен робити нічого, �
 
 Зверніть увагу, що авторизатор викликається тільки тоді, коли вираз готується, а не тоді, коли воно виконується.
 
-Більш детальну інформацію можна знайти у [» Документации SQLite3](http://sqlite.org/c3ref/set_authorizer.md)
+Більш детальну інформацію можна знайти у [» Документации SQLite3](http://sqlite.org/c3ref/set_authorizer.md)
 
 ### Список параметрів
 
@@ -106,27 +106,27 @@ Callback-авторизатор не повинен робити нічого, �
 
 ```php
 <?php
-$db = new SQLite3('data.sqlite');
-$db->exec('CREATE TABLE users (id, name, password);');
-$db->exec('INSERT INTO users VALUES (1, \'Pauline\', \'Snails4eva\');');
+$db = new SQLite3('data.sqlite');
+$db->exec('CREATE TABLE users (id, name, password);');
+$db->exec('INSERT INTO users VALUES (1, \'Pauline\', \'Snails4eva\');');
 
-$allowed_columns = ['id', 'name'];
+$allowed_columns = ['id', 'name'];
 
-$db->setAuthorizer(function (int $action, ...$args) use ($allowed_columns) {
-    if ($action === SQLite3::READ) {
-        list($table, $column) = $args;
+$db->setAuthorizer(function (int $action, ...$args) use ($allowed_columns) {
+    if ($action === SQLite3::READ) {
+        list($table, $column) = $args;
 
-        if ($table === 'users' && in_array($column, $allowed_columns) {
-            return SQLite3::OK;
-        }
+        if ($table === 'users' && in_array($column, $allowed_columns) {
+            return SQLite3::OK;
+        }
 
-        return SQLite3::IGNORE;
-    }
+        return SQLite3::IGNORE;
+    }
 
-    return SQLite3::DENY;
+    return SQLite3::DENY;
 });
 
-print_r($db->querySingle('SELECT * FROM users WHERE id = 1;'));
+print_r($db->querySingle('SELECT * FROM users WHERE id = 1;'));
 ```
 
 Результат виконання цього прикладу:

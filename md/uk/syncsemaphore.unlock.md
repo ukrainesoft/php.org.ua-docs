@@ -36,16 +36,16 @@ public SyncSemaphore::unlock(int &$prevcount = ?): bool
 
 ```php
 <?php
-$semaphore = new SyncSemaphore("LimitedResource_2clients", 2);
+$semaphore = new SyncSemaphore("LimitedResource_2clients", 2);
 
-if (!$semaphore->lock(3000))
+if (!$semaphore->lock(3000))
 {
-    echo "Невозможно заблокировать семафор.";
+    echo "Невозможно заблокировать семафор.";
 
-    exit();
+    exit();
 }
 
-/* ... */
+/* ... */
 
 $semaphore->unlock();
 ?>

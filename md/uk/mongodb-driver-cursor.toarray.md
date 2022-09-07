@@ -39,16 +39,16 @@ final public MongoDB\Driver\Cursor::toArray(): array
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
-$bulk->insert(['x' => 2]);
-$bulk->insert(['x' => 3]);
-$manager->executeBulkWrite('db.collection', $bulk);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+$bulk->insert(['x' => 2]);
+$bulk->insert(['x' => 3]);
+$manager->executeBulkWrite('db.collection', $bulk);
 
-$query = new MongoDB\Driver\Query([]);
-$cursor = $manager->executeQuery('db.collection', $query);
+$query = new MongoDB\Driver\Query([]);
+$cursor = $manager->executeQuery('db.collection', $query);
 
 var_dump($cursor->toArray());
 

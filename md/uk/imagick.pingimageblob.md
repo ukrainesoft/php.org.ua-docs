@@ -38,17 +38,17 @@ public Imagick::pingImageBlob(string $image): bool
 
 ```php
 <?php
-/* чтение содержимого изображения */
-$image = file_get_contents("test.jpg");
+/* чтение содержимого изображения */
+$image = file_get_contents("test.jpg");
 
-/* создание нового объекта imagick */
-$im = new Imagick();
+/* создание нового объекта imagick */
+$im = new Imagick();
 
-/* передача строки объекту imagick */
+/* передача строки объекту imagick */
 $im->pingImageBlob($image);
 
-/* вывод ширины и высоты изображения */
-echo $im->getImageWidth() . 'x' . $im->getImageHeight();
+/* вывод ширины и высоты изображения */
+echo $im->getImageWidth() . 'x' . $im->getImageHeight();
 ?>
 ```
 

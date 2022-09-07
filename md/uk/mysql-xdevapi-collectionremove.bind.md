@@ -43,7 +43,7 @@ public mysql_xdevapi\CollectionRemove::bind(array $placeholder_values): mysql_xd
 ```php
 <?php
 
-$res = $coll->remove('age > :age_from and age < :age_to')->bind(['age_from' => 20, 'age_to' => 50])->limit(7)->execute();
+$res = $coll->remove('age > :age_from and age < :age_to')->bind(['age_from' => 20, 'age_to' => 50])->limit(7)->execute();
 
 ?>
 ```

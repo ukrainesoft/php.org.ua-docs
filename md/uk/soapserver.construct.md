@@ -45,22 +45,22 @@ public **SoapServer::construct**(?string `$wsdl`, array `$options`
 ```php
 <?php
 
-$server = new SoapServer("some.wsdl");
+$server = new SoapServer("some.wsdl");
 
-$server = new SoapServer("some.wsdl", array('soap_version' => SOAP_1_2));
+$server = new SoapServer("some.wsdl", array('soap_version' => SOAP_1_2));
 
-$server = new SoapServer("some.wsdl", array('actor' => "http://example.org/ts-tests/C"));
+$server = new SoapServer("some.wsdl", array('actor' => "http://example.org/ts-tests/C"));
 
-$server = new SoapServer("some.wsdl", array('encoding'=>'ISO-8859-1'));
+$server = new SoapServer("some.wsdl", array('encoding'=>'ISO-8859-1'));
 
-$server = new SoapServer(null, array('uri' => "http://test-uri/"));
+$server = new SoapServer(null, array('uri' => "http://test-uri/"));
 
-class MyBook {
-    public $title;
-    public $author;
+class MyBook {
+    public $title;
+    public $author;
 }
 
-$server = new SoapServer("books.wsdl", array('classmap' => array('book' => "MyBook")));
+$server = new SoapServer("books.wsdl", array('classmap' => array('book' => "MyBook")));
 
 ?>
 ```

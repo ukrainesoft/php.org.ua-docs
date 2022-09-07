@@ -26,16 +26,16 @@ title: Синтаксис генераторів
 
 ```php
 <?php
-function gen_one_to_three() {
-    for ($i = 1; $i <= 3; $i++) {
-        // Обратите внимание, что $i сохраняет своё значение между вызовами.
-        yield $i;
-    }
+function gen_one_to_three() {
+    for ($i = 1; $i <= 3; $i++) {
+        // Обратите внимание, что $i сохраняет своё значение между вызовами.
+        yield $i;
+    }
 }
 
-$generator = gen_one_to_three();
-foreach ($generator as $value) {
-    echo "$value\n";
+$generator = gen_one_to_three();
+foreach ($generator as $value) {
+    echo "$value\n";
 }
 ?>
 ```
@@ -66,27 +66,27 @@ PHP підтримує асоціативні масиви, і генерато�
 
 ```php
 <?php
-/* $input содержит пары ключ/значение разделённые точкой с запятой */
+/* $input содержит пары ключ/значение разделённые точкой с запятой */
 
-$input = <<<'EOF'
-1;PHP;Любит знаки доллара
-2;Python;Любит пробелы
-3;Ruby;Любит блоки
+$input = <<<'EOF'
+1;PHP;Любит знаки доллара
+2;Python;Любит пробелы
+3;Ruby;Любит блоки
 EOF;
 
-function input_parser($input) {
-    foreach (explode("\n", $input) as $line) {
-        $fields = explode(';', $line);
-        $id = array_shift($fields);
+function input_parser($input) {
+    foreach (explode("\n", $input) as $line) {
+        $fields = explode(';', $line);
+        $id = array_shift($fields);
 
-        yield $id => $fields;
-    }
+        yield $id => $fields;
+    }
 }
 
-foreach (input_parser($input) as $id => $fields) {
-    echo "$id:\n";
-    echo "    $fields[0]\n";
-    echo "    $fields[1]\n";
+foreach (input_parser($input) as $id => $fields) {
+    echo "$id:\n";
+    echo "    $fields[0]\n";
+    echo "    $fields[1]\n";
 }
 ?>
 ```
@@ -110,7 +110,7 @@ foreach (input_parser($input) as $id => $fields) {
 Також як і для одиночних значень, отримання пар ключ/значення у виразах вимагає обертання їх у дужки:
 
 ```php
-$data = (yield $key => $value);
+$data = (yield $key => $value);
 ```
 
 #### Отримання NULL
@@ -121,10 +121,10 @@ $data = (yield $key => $value);
 
 ```php
 <?php
-function gen_three_nulls() {
-    foreach (range(1, 3) as $i) {
-        yield;
-    }
+function gen_three_nulls() {
+    foreach (range(1, 3) as $i) {
+        yield;
+    }
 }
 
 var_dump(iterator_to_array(gen_three_nulls()));
@@ -152,19 +152,19 @@ array(3) {
 
 ```php
 <?php
-function &gen_reference() {
-    $value = 3;
+function &gen_reference() {
+    $value = 3;
 
-    while ($value > 0) {
-        yield $value;
-    }
+    while ($value > 0) {
+        yield $value;
+    }
 }
 
-/* Обратите внимание, что мы можем изменять $number в цикле, и
- * так как генератор возвращает ссылку, $value
- * в gen_reference() также изменится. */
-foreach (gen_reference() as &$number) {
-    echo (--$number).'... ';
+/* Обратите внимание, что мы можем изменять $number в цикле, и
+ * так как генератор возвращает ссылку, $value
+ * в gen_reference() также изменится. */
+foreach (gen_reference() as &$number) {
+    echo (--$number).'... ';
 }
 ?>
 ```
@@ -193,17 +193,17 @@ foreach (gen_reference() as &$number) {
 
 ```php
 <?php
-function inner() {
-    yield 1; // ключ 0
-    yield 2; // ключ 1
-    yield 3; // ключ 2
+function inner() {
+    yield 1; // ключ 0
+    yield 2; // ключ 1
+    yield 3; // ключ 2
 }
-function gen() {
-    yield 0; // ключ 0
-    yield from inner(); // ключи 0-2
-    yield 4; // ключ 1
+function gen() {
+    yield 0; // ключ 0
+    yield from inner(); // ключи 0-2
+    yield 4; // ключ 1
 }
-// Задайте false вторым параметром для получения Масива [0, 1, 2, 3, 4]
+// Задайте false вторым параметром для получения Масива [0, 1, 2, 3, 4]
 var_dump(iterator_to_array(gen()));
 ?>
 ```
@@ -225,27 +225,27 @@ array(3) {
 
 ```php
 <?php
-function count_to_ten() {
-    yield 1;
-    yield 2;
-    yield from [3, 4];
-    yield from new ArrayIterator([5, 6]);
-    yield from seven_eight();
-    yield 9;
-    yield 10;
+function count_to_ten() {
+    yield 1;
+    yield 2;
+    yield from [3, 4];
+    yield from new ArrayIterator([5, 6]);
+    yield from seven_eight();
+    yield 9;
+    yield 10;
 }
 
-function seven_eight() {
-    yield 7;
-    yield from eight();
+function seven_eight() {
+    yield 7;
+    yield from eight();
 }
 
-function eight() {
-    yield 8;
+function eight() {
+    yield 8;
 }
 
-foreach (count_to_ten() as $num) {
-    echo "$num ";
+foreach (count_to_ten() as $num) {
+    echo "$num ";
 }
 ?>
 ```
@@ -260,34 +260,34 @@ foreach (count_to_ten() as $num) {
 
 ```php
 <?php
-function count_to_ten() {
-    yield 1;
-    yield 2;
-    yield from [3, 4];
-    yield from new ArrayIterator([5, 6]);
-    yield from seven_eight();
-    return yield from nine_ten();
+function count_to_ten() {
+    yield 1;
+    yield 2;
+    yield from [3, 4];
+    yield from new ArrayIterator([5, 6]);
+    yield from seven_eight();
+    return yield from nine_ten();
 }
 
-function seven_eight() {
-    yield 7;
-    yield from eight();
+function seven_eight() {
+    yield 7;
+    yield from eight();
 }
 
-function eight() {
-    yield 8;
+function eight() {
+    yield 8;
 }
 
-function nine_ten() {
-    yield 9;
-    return 10;
+function nine_ten() {
+    yield 9;
+    return 10;
 }
 
-$gen = count_to_ten();
-foreach ($gen as $num) {
-    echo "$num ";
+$gen = count_to_ten();
+foreach ($gen as $num) {
+    echo "$num ";
 }
-echo $gen->getReturn();
+echo $gen->getReturn();
 ?>
 ```
 

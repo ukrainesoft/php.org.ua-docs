@@ -41,13 +41,13 @@ public
 public
    connect(string $host, callable $watcher_cb = null, int $recv_timeout = 10000): void
 public
-   create(    string $path,    string $value,    array $acls,    int $flags = null): string
+   create(    string $path,    string $value,    array $acls,    int $flags = null): string
 public
    delete(string $path, int $version = -1): bool
 public
    exists(string $path, callable $watcher_cb = null): array
 public
-   get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
+   get(    string $path,    callable $watcher_cb = null,    array &$stat = null,    int $max_size = 0): string
 public
    getAcl(string $path): array
 public
@@ -63,7 +63,7 @@ public
 public
    isRecoverable(): bool
 public
-   set(    string $path,    string $value,    int $version = -1,    array &$stat = null): bool
+   set(    string $path,    string $value,    int $version = -1,    array &$stat = null): bool
 public
    setAcl(string $path, int $version, array $acl): bool
 public

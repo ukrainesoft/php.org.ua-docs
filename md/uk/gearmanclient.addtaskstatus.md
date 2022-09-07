@@ -43,37 +43,37 @@ public GearmanClient::addTaskStatus(string $job_handle, string &$context = ?): G
 ```php
 <?php
 
-/* создание клиентского объекта */
-$gmclient= new GearmanClient();
+/* создание клиентского объекта */
+$gmclient= new GearmanClient();
 
-/* добавление сервера задач по умолчанию */
+/* добавление сервера задач по умолчанию */
 $gmclient->addServer();
 
-/* запуск некоторых фоновых задач и сохранение дескрипторов */
-$handles = array();
-$handles[0] = $gmclient->doBackground("reverse", "Hello World!");
-$handles[1] = $gmclient->doBackground("reverse", "!dlroW olleH");
+/* запуск некоторых фоновых задач и сохранение дескрипторов */
+$handles = array();
+$handles[0] = $gmclient->doBackground("reverse", "Hello World!");
+$handles[1] = $gmclient->doBackground("reverse", "!dlroW olleH");
 
 $gmclient->setStatusCallback("reverse_status");
 
-/* Опрос сервера с целью определения, когда завершатся фоновые задачи; */
-/* лучшим методом может быть установка callback-функций на события */
+/* Опрос сервера с целью определения, когда завершатся фоновые задачи; */
+/* лучшим методом может быть установка callback-функций на события */
 do
 {
-   /* используем контекстные переменные для отслеживания за тем, сколько задач выполнилось */
-   $done = 0;
-   $gmclient->addTaskStatus($handles[0], &$done);
-   $gmclient->addTaskStatus($handles[1], &$done);
-   $gmclient->runTasks();
-   echo "Выполнено: $done\n";
-   sleep(1);
+   /* используем контекстные переменные для отслеживания за тем, сколько задач выполнилось */
+   $done = 0;
+   $gmclient->addTaskStatus($handles[0], &$done);
+   $gmclient->addTaskStatus($handles[1], &$done);
+   $gmclient->runTasks();
+   echo "Выполнено: $done\n";
+   sleep(1);
 }
-while ($done != 2);
+while ($done != 2);
 
-function reverse_status($task, $done)
+function reverse_status($task, $done)
 {
-   if (!$task->isKnown())
-      $done++;
+   if (!$task->isKnown())
+      $done++;
 }
 
 ?>

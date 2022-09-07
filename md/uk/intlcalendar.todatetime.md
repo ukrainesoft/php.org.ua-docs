@@ -44,12 +44,12 @@ intlcal_to_date_time(IntlCalendar $calendar): DateTime|false
 
 ```php
 <?php
-ini_set('date.timezone', 'UTC');
-ini_set('intl.default_locale', 'pt_PT');
+ini_set('date.timezone', 'UTC');
+ini_set('intl.default_locale', 'pt_PT');
 
-$cal = IntlCalendar::createInstance('Europe/Lisbon'); //current time
+$cal = IntlCalendar::createInstance('Europe/Lisbon'); //current time
 
-$dt = $cal->toDateTime();
+$dt = $cal->toDateTime();
 print_r($dt);
 ```
 

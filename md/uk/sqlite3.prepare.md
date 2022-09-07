@@ -37,15 +37,15 @@ SQL запит на підготовку.
 ```php
 <?php
 unlink('mysqlitedb.db');
-$db = new SQLite3('mysqlitedb.db');
+$db = new SQLite3('mysqlitedb.db');
 
-$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');
-$db->exec("INSERT INTO foo (id, bar) VALUES (1, 'Тестовое значение')");
+$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');
+$db->exec("INSERT INTO foo (id, bar) VALUES (1, 'Тестовое значение')");
 
-$stmt = $db->prepare('SELECT bar FROM foo WHERE id=:id');
-$stmt->bindValue(':id', 1, SQLITE3_INTEGER);
+$stmt = $db->prepare('SELECT bar FROM foo WHERE id=:id');
+$stmt->bindValue(':id', 1, SQLITE3_INTEGER);
 
-$result = $stmt->execute();
+$result = $stmt->execute();
 var_dump($result->fetchArray());
 ?>
 ```

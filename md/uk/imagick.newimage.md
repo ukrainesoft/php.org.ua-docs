@@ -15,7 +15,7 @@ Imagick::newImage — Створює нове зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::newImage(    int $cols,    int $rows,    mixed $background,    string $format = ?): bool
+public Imagick::newImage(    int $cols,    int $rows,    mixed $background,    string $format = ?): bool
 ```
 
 Створює нове зображення і пов'язує значення ImagickPixel як колір тла
@@ -61,12 +61,12 @@ public Imagick::newImage(    int $cols,    int $rows,    mixed $back
 ```php
 <?php
 
-$image = new Imagick();
-$image->newImage(100, 100, new ImagickPixel('red'));
+$image = new Imagick();
+$image->newImage(100, 100, new ImagickPixel('red'));
 $image->setImageFormat('png');
 
-header('Content-type: image/png');
-echo $image;
+header('Content-type: image/png');
+echo $image;
 
 ?>
 ```

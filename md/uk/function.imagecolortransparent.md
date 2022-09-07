@@ -47,19 +47,19 @@ imagecolortransparent(GdImage $image, ?int $color = null): int
 
 ```php
 <?php
-// Создадим изображение размером 55x30
-$im = imagecreatetruecolor(55, 30);
-$red = imagecolorallocate($im, 255, 0, 0);
-$black = imagecolorallocate($im, 0, 0, 0);
+// Создадим изображение размером 55x30
+$im = imagecreatetruecolor(55, 30);
+$red = imagecolorallocate($im, 255, 0, 0);
+$black = imagecolorallocate($im, 0, 0, 0);
 
-// Сделаем фон прозрачным
-imagecolortransparent($im, $black);
+// Сделаем фон прозрачным
+imagecolortransparent($im, $black);
 
-// Нарисуем красный прямоугольник
-imagefilledrectangle($im, 4, 4, 50, 25, $red);
+// Нарисуем красный прямоугольник
+imagefilledrectangle($im, 4, 4, 50, 25, $red);
 
-// Сохраним изображение
-imagepng($im, './imagecolortransparent.png');
+// Сохраним изображение
+imagepng($im, './imagecolortransparent.png');
 imagedestroy($im);
 ?>
 ```

@@ -15,7 +15,7 @@ tradermfi - Індекс грошових потоків
 ### Опис
 
 ```methodsynopsis
-trader_mfi(    array $high,    array $low,    array $close,    array $volume,    int $timePeriod = ?): array
+trader_mfi(    array $high,    array $low,    array $close,    array $volume,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

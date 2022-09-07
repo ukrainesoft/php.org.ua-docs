@@ -16,14 +16,14 @@ title: API підтримка транзакцій
 
 ```php
 <?php
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("example.com", "user", "password", "database");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("example.com", "user", "password", "database");
 
-/* Рекомендуется управлять настройками транзакций средствами API */
+/* Рекомендуется управлять настройками транзакций средствами API */
 $mysqli->autocommit(false);
 
-/* Не будет распознаваться и учитываться плагинами репликации и балансировки нагрузки */
-$mysqli->query('SET AUTOCOMMIT = 0');
+/* Не будет распознаваться и учитываться плагинами репликации и балансировки нагрузки */
+$mysqli->query('SET AUTOCOMMIT = 0');
 ```
 
 Додаткові служби сервера, такі як плагіни реплікації та балансування навантаження, можуть відстежувати виклики API-функцій. Плагін реплікації може повідомляти балансувальнику навантаження про запущену транзакцію, якщо ця транзакція обслуговується API-функціями. Сервер не зможе розподіляти навантаження між репліками бази, якщо зміна режиму автофіксації (`autocommit`), фіксація та відкат транзакцій здійснюються SQL-запитами.
@@ -32,14 +32,14 @@ $mysqli->query('SET AUTOCOMMIT = 0');
 
 ```php
 <?php
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("example.com", "user", "password", "database");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("example.com", "user", "password", "database");
 $mysqli->autocommit(false);
 
-$mysqli->query("INSERT INTO test(id) VALUES (1)");
+$mysqli->query("INSERT INTO test(id) VALUES (1)");
 $mysqli->rollback();
 
-$mysqli->query("INSERT INTO test(id) VALUES (2)");
+$mysqli->query("INSERT INTO test(id) VALUES (2)");
 $mysqli->commit();
 ```
 

@@ -15,7 +15,7 @@ imapclearflagfull — Зняти з повідомлення встановле�
 ### Опис
 
 ```methodsynopsis
-imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): bool
+imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): bool
 ```
 
 Ця функція повідомляє сховище, що необхідно зняти заданий прапор `flag` для зазначеної послідовності повідомлень `sequence`
@@ -32,7 +32,7 @@ imap_clearflag_full(    IMAP\Connection $imap,    string $sequence,  �
 
 `flag`
 
-Прапори, які можна видалити:Seen", "Answered", "Flagged", "Deleted" та "Draft" (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
+Прапори, які можна видалити:Seen", "Answered", "Flagged", "Deleted" та "Draft" (як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
 
 `options`
 

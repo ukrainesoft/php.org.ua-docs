@@ -46,18 +46,18 @@ mysqli_get_host_info(mysqli $mysql): string
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Подключение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* вывод информации о хосте */
-printf("Информация о хосте: %s\n", $mysqli->host_info);
+/* вывод информации о хосте */
+printf("Информация о хосте: %s\n", $mysqli->host_info);
 
-/* закрытие соединения */
+/* закрытие соединения */
 $mysqli->close();
 ?>
 ```
@@ -66,18 +66,18 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Подключение не удалось: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Подключение не удалось: %s\n", mysqli_connect_error());
+    exit();
 }
 
-/* вывод информации о хосте */
-printf("Информация о хосте: %s\n", mysqli_get_host_info($link));
+/* вывод информации о хосте */
+printf("Информация о хосте: %s\n", mysqli_get_host_info($link));
 
-/* закрытие соединения */
+/* закрытие соединения */
 mysqli_close($link);
 ?>
 ```

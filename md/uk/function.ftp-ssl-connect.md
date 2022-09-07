@@ -59,20 +59,20 @@ ftp_ssl_connect(string $hostname, int $port = 21, int $timeout = 90): FTP\Connec
 ```php
 <?php
 
-// установка ssl-соединения
-$ftp = ftp_ssl_connect($ftp_server);
+// установка ssl-соединения
+$ftp = ftp_ssl_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-if (!$login_result) {
-    // В этом случае PHP уже выбросил сообщение уровня E_WARNING
-    die("can't login");
+if (!$login_result) {
+    // В этом случае PHP уже выбросил сообщение уровня E_WARNING
+    die("can't login");
 }
 
-echo ftp_pwd($ftp); // /
+echo ftp_pwd($ftp); // /
 
-// закрытие ssl-соединения
+// закрытие ssl-соединения
 ftp_close($ftp);
 ?>
 ```

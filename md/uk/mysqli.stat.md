@@ -48,15 +48,15 @@ mysqli_stat(mysqli $mysql): string|false
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-printf ("Состояние системы: %s\n", $mysqli->stat());
+printf ("Состояние системы: %s\n", $mysqli->stat());
 
 $mysqli->close();
 ?>
@@ -66,15 +66,15 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-printf("Состояние системы: %s\n", mysqli_stat($link));
+printf("Состояние системы: %s\n", mysqli_stat($link));
 
 mysqli_close($link);
 ?>

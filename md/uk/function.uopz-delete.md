@@ -44,7 +44,7 @@ uopz_delete(string $class, string $function): void
 <?php
 uopz_delete("strlen");
 
-echo strlen("Hello World");
+echo strlen("Hello World");
 ?>
 ```
 
@@ -58,15 +58,15 @@ PHP Fatal error: Call to undefined function strlen() in /path/to/script.php on l
 
 ```php
 <?php
-class My {
-    public static function strlen($arg) {
-        return strlen($arg);
-    }
+class My {
+    public static function strlen($arg) {
+        return strlen($arg);
+    }
 }
 
-uopz_delete(My::class, "strlen");
+uopz_delete(My::class, "strlen");
 
-echo My::strlen("Hello World");
+echo My::strlen("Hello World");
 ?>
 ```
 

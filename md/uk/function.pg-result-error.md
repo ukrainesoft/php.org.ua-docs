@@ -46,14 +46,14 @@ pg_result_error(PgSql\Result $result): string|false
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Could not connect");
+  $dbconn = pg_connect("dbname=publisher") or die("Could not connect");
 
-  if (!pg_connection_busy($dbconn)) {
-      pg_send_query($dbconn, "select * from doesnotexist;");
-  }
+  if (!pg_connection_busy($dbconn)) {
+      pg_send_query($dbconn, "select * from doesnotexist;");
+  }
 
-  $res1 = pg_get_result($dbconn);
-  echo pg_result_error($res1);
+  $res1 = pg_get_result($dbconn);
+  echo pg_result_error($res1);
 ?>
 ```
 

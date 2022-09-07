@@ -50,12 +50,12 @@ iconv(string $from_encoding, string $to_encoding, string $string): string|false
 
 ```php
 <?php
-$text = "Это символ евро - '€'.";
+$text = "Это символ евро - '€'.";
 
-echo 'Исходная строка        : ', $text, PHP_EOL;
-echo 'С добавлением TRANSLIT : ', iconv("UTF-8", "ISO-8859-1//TRANSLIT", $text), PHP_EOL;
-echo 'С добавлением IGNORE   : ', iconv("UTF-8", "ISO-8859-1//IGNORE", $text), PHP_EOL;
-echo 'Обычное преобразование : ', iconv("UTF-8", "ISO-8859-1", $text), PHP_EOL;
+echo 'Исходная строка        : ', $text, PHP_EOL;
+echo 'С добавлением TRANSLIT : ', iconv("UTF-8", "ISO-8859-1//TRANSLIT", $text), PHP_EOL;
+echo 'С добавлением IGNORE   : ', iconv("UTF-8", "ISO-8859-1//IGNORE", $text), PHP_EOL;
+echo 'Обычное преобразование : ', iconv("UTF-8", "ISO-8859-1", $text), PHP_EOL;
 
 ?>
 ```

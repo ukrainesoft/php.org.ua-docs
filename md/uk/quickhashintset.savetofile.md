@@ -36,12 +36,12 @@ public QuickHashIntSet::saveToFile(string $filename): void
 
 ```php
 <?php
-$set = new QuickHashIntSet( 1024 );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
+$set = new QuickHashIntSet( 1024 );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
 
-$set->saveToFile( '/tmp/test.set' );
+$set->saveToFile( '/tmp/test.set' );
 ?>
 ```

@@ -34,17 +34,17 @@ public PhpToken::getTokenName(): ?string
 
 ```php
 <?php
-// стандартный токен
-$token = new PhpToken(T_ECHO, 'echo');
-var_dump($token->getTokenName());   // -> string(6) "T_ECHO"
+// стандартный токен
+$token = new PhpToken(T_ECHO, 'echo');
+var_dump($token->getTokenName());   // -> string(6) "T_ECHO"
 
-// односимвольный токен
-$token = new PhpToken(ord(';'), ';');
-var_dump($token->getTokenName());   // -> string(1) ";"
+// односимвольный токен
+$token = new PhpToken(ord(';'), ';');
+var_dump($token->getTokenName());   // -> string(1) ";"
 
-// неизвестный токен
-$token = new PhpToken(10000 , "\0");
-var_dump($token->getTokenName());   // -> NULL
+// неизвестный токен
+$token = new PhpToken(10000 , "\0");
+var_dump($token->getTokenName());   // -> NULL
 ```
 
 ### Дивіться також

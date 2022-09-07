@@ -55,34 +55,34 @@ stomp_ack(resource $link, mixed $msg, array $headers = ?): bool
 ```php
 <?php
 
-$queue  = '/queue/foo';
-$msg    = 'bar';
+$queue  = '/queue/foo';
+$msg    = 'bar';
 
-/* подключение */
-try {
-    $stomp = new Stomp('tcp://localhost:61613');
-} catch(StompException $e) {
-    die('Ошибка соединения: ' . $e->getMessage());
+/* подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка соединения: ' . $e->getMessage());
 }
 
-/* отправка сообщения в очередь 'foo' */
-$stomp->send($queue, $msg);
+/* отправка сообщения в очередь 'foo' */
+$stomp->send($queue, $msg);
 
-/* подписка на сообщения из очереди 'foo' */
+/* подписка на сообщения из очереди 'foo' */
 $stomp->subscribe($queue);
 
-/* чтение фрейма */
-$frame = $stomp->readFrame();
+/* чтение фрейма */
+$frame = $stomp->readFrame();
 
-if ($frame->body === $msg) {
-    /* подтверждение получения фрейма */
-    $stomp->ack($frame);
+if ($frame->body === $msg) {
+    /* подтверждение получения фрейма */
+    $stomp->ack($frame);
 }
 
-/* отмена подписки к очереди */
+/* отмена подписки к очереди */
 $stomp->unsubscribe($queue);
 
-/* закрытие подключения */
+/* закрытие подключения */
 unset($stomp);
 
 ?>
@@ -93,41 +93,41 @@ unset($stomp);
 ```php
 <?php
 
-$queue  = '/queue/foo';
-$msg    = 'bar';
+$queue  = '/queue/foo';
+$msg    = 'bar';
 
-/* подключение */
-$link = stomp_connect('ssl://localhost:61612');
+/* подключение */
+$link = stomp_connect('ssl://localhost:61612');
 
-/* проверка соединения */
-if (!$link) {
-    die('Ошибка соединения: ' . stomp_connect_error());
+/* проверка соединения */
+if (!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
 }
 
-/* начало транзакции */
-stomp_begin($link, 't1');
+/* начало транзакции */
+stomp_begin($link, 't1');
 
-/* отправка сообщения в очередь  'foo' */
-stomp_send($link, $queue, $msg, array('transaction' => 't1'));
+/* отправка сообщения в очередь  'foo' */
+stomp_send($link, $queue, $msg, array('transaction' => 't1'));
 
-/* подтверждение транзакции */
-stomp_commit($link, 't1');
+/* подтверждение транзакции */
+stomp_commit($link, 't1');
 
-/* подписка на сообщения из очереди 'foo' */
-stomp_subscribe($link, $queue);
+/* подписка на сообщения из очереди 'foo' */
+stomp_subscribe($link, $queue);
 
-/* чтение фрейма */
-$frame = stomp_read_frame($link);
+/* чтение фрейма */
+$frame = stomp_read_frame($link);
 
-if ($frame['body'] === $msg) {
-    /* подтверждение получения фрейма */
-    stomp_ack($link, $frame['headers']['message-id']);
+if ($frame['body'] === $msg) {
+    /* подтверждение получения фрейма */
+    stomp_ack($link, $frame['headers']['message-id']);
 }
 
-/* отмена подписки к очереди */
-stomp_unsubscribe($link, $queue);
+/* отмена подписки к очереди */
+stomp_unsubscribe($link, $queue);
 
-/* закрытие подключения */
+/* закрытие подключения */
 stomp_close($link);
 
 ?>

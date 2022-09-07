@@ -8,7 +8,7 @@ title: Вимоги
 ---
 ## Вимоги
 
-Вихідні та двійкові релізи libwkhtmltox розповсюджуються за адресою [» wkhtmltopdf.org](http://wkhtmltopdf.org)
+Вихідні та двійкові релізи libwkhtmltox розповсюджуються за адресою [» wkhtmltopdf.org](http://wkhtmltopdf.org)
 
 **Застереження**
 

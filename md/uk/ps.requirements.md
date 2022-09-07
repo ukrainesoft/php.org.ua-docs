@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Потрібна бібліотека pslib версії 0.1.12 або вищою. Бібліотеку pslib можна завантажити тут: [» http://pslib.sourceforge.net/](http://pslib.sourceforge.net/)
+Потрібна бібліотека pslib версії 0.1.12 або вищою. Бібліотеку pslib можна завантажити тут: [» http://pslib.sourceforge.net/](http://pslib.sourceforge.net/)

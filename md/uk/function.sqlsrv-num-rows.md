@@ -18,13 +18,13 @@ sqlsrvnumrows — Отримує кількість рядків у наборі
 sqlsrv_num_rows(resource $stmt): mixed
 ```
 
-Витягує кількість рядків у наборі результатів. Функція вимагає, щоб ресурс оператора було створено за допомогою статичного курсору або курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.md) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
+Витягує кількість рядків у наборі результатів. Функція вимагає, щоб ресурс оператора було створено за допомогою статичного курсору або курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.md) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
 
 ### Список параметрів
 
 `stmt`
 
-Оператор, для якого повертається кількість рядків. Ресурс оператора має бути створений за допомогою статичного курсору чи курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.md) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
+Оператор, для якого повертається кількість рядків. Ресурс оператора має бути створений за допомогою статичного курсору чи курсору набору ключів. Для отримання додаткової інформації дивіться опис функцій [sqlsrvquery()](function.sqlsrv-query.md) [sqlsrvprepare()](function.sqlsrv-prepare.md) або [» Вказівка ​​типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.
 
 ### Значення, що повертаються
 
@@ -36,21 +36,21 @@ sqlsrv_num_rows(resource $stmt): mixed
 
 ```php
 <?php
-$server = "serverName\sqlexpress";
-$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
-$conn = sqlsrv_connect( $server, $connectionInfo );
+$server = "serverName\sqlexpress";
+$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );
+$conn = sqlsrv_connect( $server, $connectionInfo );
 
-$sql = "SELECT * FROM Table_1";
-$params = array();
-$options =  array( "Scrollable" => SQLSRV_CURSOR_KEYSET );
-$stmt = sqlsrv_query( $conn, $sql , $params, $options );
+$sql = "SELECT * FROM Table_1";
+$params = array();
+$options =  array( "Scrollable" => SQLSRV_CURSOR_KEYSET );
+$stmt = sqlsrv_query( $conn, $sql , $params, $options );
 
-$row_count = sqlsrv_num_rows( $stmt );
+$row_count = sqlsrv_num_rows( $stmt );
 
-if ($row_count === false)
-   echo "Ошибка при получении количества строк.";
+if ($row_count === false)
+   echo "Ошибка при получении количества строк.";
 else
-   echo $row_count;
+   echo $row_count;
 ?>
 ```
 

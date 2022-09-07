@@ -50,13 +50,13 @@ public Imagick::colorizeImage(mixed $colorize, mixed $opacity, bool $legacy = fa
 
 ```php
 <?php
-function colorizeImage($imagePath, $color, $opacity) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $opacity = $opacity / 255.0;
-    $opacityColor = new \ImagickPixel("rgba(0, 0, 0, $opacity)");
-    $imagick->colorizeImage($color, $opacityColor);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function colorizeImage($imagePath, $color, $opacity) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $opacity = $opacity / 255.0;
+    $opacityColor = new \ImagickPixel("rgba(0, 0, 0, $opacity)");
+    $imagick->colorizeImage($color, $opacityColor);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

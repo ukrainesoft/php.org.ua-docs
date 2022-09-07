@@ -40,23 +40,23 @@ public ImagickDraw::rotate(float $degrees): bool
 
 ```php
 <?php
-function rotate($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor) {
-    $draw = new \ImagickDraw();
-    $draw->setStrokeColor($strokeColor);
-    $draw->setStrokeOpacity(1);
-    $draw->setFillColor($fillColor);
-    $draw->rectangle(200, 200, 300, 300);
-    $draw->setFillColor($fillModifiedColor);
-    $draw->rotate(15);
-    $draw->rectangle(200, 200, 300, 300);
+function rotate($strokeColor, $fillColor, $backgroundColor, $fillModifiedColor) {
+    $draw = new \ImagickDraw();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setFillColor($fillColor);
+    $draw->rectangle(200, 200, 300, 300);
+    $draw->setFillColor($fillModifiedColor);
+    $draw->rotate(15);
+    $draw->rectangle(200, 200, 300, 300);
 
-    $image = new \Imagick();
-    $image->newImage(500, 500, $backgroundColor);
-    $image->setImageFormat("png");
-    $image->drawImage($draw);
+    $image = new \Imagick();
+    $image->newImage(500, 500, $backgroundColor);
+    $image->setImageFormat("png");
+    $image->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    header("Content-Type: image/png");
+    echo $image->getImageBlob();
 }
 
 ?>

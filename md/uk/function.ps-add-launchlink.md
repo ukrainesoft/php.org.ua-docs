@@ -15,7 +15,7 @@ title: псaddlaunchlink
 ### Опис
 
 ```methodsynopsis
-ps_add_launchlink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $filename): bool
+ps_add_launchlink(    resource $psdoc,    float $llx,    float $lly,    float $urx,    float $ury,    string $filename): bool
 ```
 
 Поміщає гіперпосилання у задану позицію, яка вказує на файлову програму, яка запускається під час натискання. Вихідна позиція гіперпосилання - це прямокутник з нижнім лівим кутом позиції (llx, lly) і верхнім правим кутом позиції (urx, ury). У прямокутника за промовчанням тонка синя рамка.

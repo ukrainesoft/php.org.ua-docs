@@ -15,7 +15,7 @@ opensslcmsencrypt — Зашифровує CMS-повідомлення
 ### Опис
 
 ```methodsynopsis
-openssl_cms_encrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|array|string $certificate,    ?array $headers,    int $flags = 0,    int $encoding = OPENSSL_ENCODING_SMIME,    int $cipher_algo = OPENSSL_CIPHER_AES_128_CBC): bool
+openssl_cms_encrypt(    string $input_filename,    string $output_filename,    OpenSSLCertificate|array|string $certificate,    ?array $headers,    int $flags = 0,    int $encoding = OPENSSL_ENCODING_SMIME,    int $cipher_algo = OPENSSL_CIPHER_AES_128_CBC): bool
 ```
 
 Шифрує вміст одного або кількох одержувачів на основі переданих йому сертифікатів.

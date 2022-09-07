@@ -15,7 +15,7 @@ socketrecvfrom — Отримує дані із сокету, незалежно
 ### Опис
 
 ```methodsynopsis
-socket_recvfrom(    Socket $socket,    string &$data,    int $length,    int $flags,    string &$address,    int &$port = null): int|false
+socket_recvfrom(    Socket $socket,    string &$data,    int $length,    int $flags,    string &$address,    int &$port = null): int|false
 ```
 
 Функція **socketrecvfrom()** отримує `length` байт даних у `data` з адреси `address` на порту `port` (якщо сокет не типу **`AF_UNIX`**) використовуючи сокет `socket`. Функція **socketrecvfrom()** може бути використана для отримання даних як з підключених, так і з не підключених сокетів. Додатково один або більше прапорів можуть бути вказані для того, щоб змінити поведінку функції.
@@ -76,14 +76,14 @@ socket_recvfrom(    Socket $socket,    string &$data,    int $length
 ```php
 <?php
 
-$socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
-socket_bind($socket, '127.0.0.1', 1223);
+$socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
+socket_bind($socket, '127.0.0.1', 1223);
 
-$from = '';
-$port = 0;
-socket_recvfrom($socket, $buf, 12, 0, $from, $port);
+$from = '';
+$port = 0;
+socket_recvfrom($socket, $buf, 12, 0, $from, $port);
 
-echo "Получено $buf с удалённого адреса $from и удалённого порта $port" . PHP_EOL;
+echo "Получено $buf с удалённого адреса $from и удалённого порта $port" . PHP_EOL;
 ?>
 ```
 

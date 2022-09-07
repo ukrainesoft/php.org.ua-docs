@@ -34,131 +34,131 @@ public Yaf_Dispatcher::setView(Yaf_View_Interface $view): Yaf_Dispatcher
 
 ```php
 <?php
-require "/path/to/smarty/Smarty.class.php";
+require "/path/to/smarty/Smarty.class.php";
 
-class Smarty_Adapter implements Yaf_View_Interface
+class Smarty_Adapter implements Yaf_View_Interface
 {
-    /**
-     * Smarty object
-     * @var Smarty
-     */
-    public $_smarty;
+    /**
+     * Smarty object
+     * @var Smarty
+     */
+    public $_smarty;
 
-    /**
-     * Конструктор
-     *
-     * @param string $tmplPath
-     * @param array $extraParams
-     * @return void
-     */
-    public function __construct($tmplPath = null, $extraParams = array()) {
-        $this->_smarty = new Smarty;
+    /**
+     * Конструктор
+     *
+     * @param string $tmplPath
+     * @param array $extraParams
+     * @return void
+     */
+    public function __construct($tmplPath = null, $extraParams = array()) {
+        $this->_smarty = new Smarty;
 
-        if (null !== $tmplPath) {
-            $this->setScriptPath($tmplPath);
-        }
+        if (null !== $tmplPath) {
+            $this->setScriptPath($tmplPath);
+        }
 
-        foreach ($extraParams as $key => $value) {
-            $this->_smarty->$key = $value;
-        }
-    }
+        foreach ($extraParams as $key => $value) {
+            $this->_smarty->$key = $value;
+        }
+    }
 
-    /**
-     * Задайте путь к шаблонам
-     *
-     * @param string $path Каталог, который нужно задать в качестве пути.
-     * @return void
-     */
-    public function setScriptPath($path)
-    {
-        if (is_readable($path)) {
-            $this->_smarty->template_dir = $path;
-            return;
-        }
+    /**
+     * Задайте путь к шаблонам
+     *
+     * @param string $path Каталог, который нужно задать в качестве пути.
+     * @return void
+     */
+    public function setScriptPath($path)
+    {
+        if (is_readable($path)) {
+            $this->_smarty->template_dir = $path;
+            return;
+        }
 
-        throw new Exception('Invalid path provided');
-    }
+        throw new Exception('Invalid path provided');
+    }
 
-    /**
-     * Назначьте переменную шаблону
-     *
-     * @param string $key Имя переменной
-     * @param mixed $val Значение переменной.
-     * @return void
-     */
-    public function __set($key, $val)
-    {
-        $this->_smarty->assign($key, $val);
-    }
+    /**
+     * Назначьте переменную шаблону
+     *
+     * @param string $key Имя переменной
+     * @param mixed $val Значение переменной.
+     * @return void
+     */
+    public function __set($key, $val)
+    {
+        $this->_smarty->assign($key, $val);
+    }
 
-    /**
-     * Разрешает тестирование с empty() и isset()
-     *
-     * @param string $key
-     * @return boolean
-     */
-    public function __isset($key)
-    {
-        return (null !== $this->_smarty->get_template_vars($key));
-    }
+    /**
+     * Разрешает тестирование с empty() и isset()
+     *
+     * @param string $key
+     * @return boolean
+     */
+    public function __isset($key)
+    {
+        return (null !== $this->_smarty->get_template_vars($key));
+    }
 
-    /**
-     * Разрешает unset() для свойств объекта
-     *
-     * @param string $key
-     * @return void
-     */
-    public function __unset($key)
-    {
-        $this->_smarty->clear_assign($key);
-    }
+    /**
+     * Разрешает unset() для свойств объекта
+     *
+     * @param string $key
+     * @return void
+     */
+    public function __unset($key)
+    {
+        $this->_smarty->clear_assign($key);
+    }
 
-    /**
-     * Назначьте переменные шаблону
-     *
-     * Позволяет установить конкретный ключ для указанного значения
-     * ИЛИ передать Масив пар ключ => значение для массовой установки.
-     *
-     * @see __set()
-     * @param string|array $spec Стратегия присваивания (ключ или Масив пар ключ => значение)
-     * @param mixed $value (Optional) При присвоении именованной переменной используйте её как значение.
-     * @return void
-     */
-    public function assign($spec, $value = null) {
-        if (is_array($spec)) {
-            $this->_smarty->assign($spec);
-            return;
-        }
+    /**
+     * Назначьте переменные шаблону
+     *
+     * Позволяет установить конкретный ключ для указанного значения
+     * ИЛИ передать Масив пар ключ => значение для массовой установки.
+     *
+     * @see __set()
+     * @param string|array $spec Стратегия присваивания (ключ или Масив пар ключ => значение)
+     * @param mixed $value (Optional) При присвоении именованной переменной используйте её как значение.
+     * @return void
+     */
+    public function assign($spec, $value = null) {
+        if (is_array($spec)) {
+            $this->_smarty->assign($spec);
+            return;
+        }
 
-        $this->_smarty->assign($spec, $value);
-    }
+        $this->_smarty->assign($spec, $value);
+    }
 
-    /**
-     * Очистить все присвоенные переменные
-     *
-     * Очищает все переменные, назначенные Yaf_View, либо через
-     * {@link assign()} или перезагрузку свойства
-     * ({@link __get()}/{@link __set()}).
-     *
-     * @return void
-     */
-    public function clearVars() {
-        $this->_smarty->clear_all_assign();
-    }
+    /**
+     * Очистить все присвоенные переменные
+     *
+     * Очищает все переменные, назначенные Yaf_View, либо через
+     * {@link assign()} или перезагрузку свойства
+     * ({@link __get()}/{@link __set()}).
+     *
+     * @return void
+     */
+    public function clearVars() {
+        $this->_smarty->clear_all_assign();
+    }
 
-    /**
-     * Обрабатывает шаблон и возвращает результат.
-     *
-     * @param string $name Шаблон для обработки.
-     * @return string Вывод.
-     */
-    public function render($name, $value = NULL) {
-        return $this->_smarty->fetch($name);
-    }
+    /**
+     * Обрабатывает шаблон и возвращает результат.
+     *
+     * @param string $name Шаблон для обработки.
+     * @return string Вывод.
+     */
+    public function render($name, $value = NULL) {
+        return $this->_smarty->fetch($name);
+    }
 
-    public function display($name, $value = NULL) {
-        echo $this->_smarty->fetch($name);
-    }
+    public function display($name, $value = NULL) {
+        echo $this->_smarty->fetch($name);
+    }
 
 }
 ?>
@@ -168,33 +168,33 @@ class Smarty_Adapter implements Yaf_View_Interface
 
 ```php
 <?php
-class Bootstrap extends Yaf_Bootstrap_Abstract {
+class Bootstrap extends Yaf_Bootstrap_Abstract {
 
-    /**
-     * конфигурация для smarty в конфигурации:
-     *
-     * smarty.left_delimiter   = "{{"
-     * smarty.right_delimiter  = "}}"
-     * smarty.template_dir     = APPLICATION_PATH "/views/scripts/"
-     * smarty.compile_dir      = APPLICATION_PATH "/views/templates_c/"
-     * smarty.cache_dir        = APPLICATION_PATH "/views/templates_d/"
-     *
-     */
-    public function _initConfig() {
-        $config = Yaf_Application::app()->getConfig();
-        Yaf_Registry::set("config", $config);
-    }
+    /**
+     * конфигурация для smarty в конфигурации:
+     *
+     * smarty.left_delimiter   = "{{"
+     * smarty.right_delimiter  = "}}"
+     * smarty.template_dir     = APPLICATION_PATH "/views/scripts/"
+     * smarty.compile_dir      = APPLICATION_PATH "/views/templates_c/"
+     * smarty.cache_dir        = APPLICATION_PATH "/views/templates_d/"
+     *
+     */
+    public function _initConfig() {
+        $config = Yaf_Application::app()->getConfig();
+        Yaf_Registry::set("config", $config);
+    }
 
-    public function _initLocalName() {
-        /** мы помещаем класс Smarty_Adapter в каталог локальной библиотеки */
-        Yaf_Loader::getInstance()->registerLocalNamespace('Smarty');
-    }
+    public function _initLocalName() {
+        /** мы помещаем класс Smarty_Adapter в каталог локальной библиотеки */
+        Yaf_Loader::getInstance()->registerLocalNamespace('Smarty');
+    }
 
-    public function _initSmarty(Yaf_Dispatcher $dispatcher) {
-        $smarty = new Smarty_Adapter(null, Yaf_Registry::get("config")->get("smarty"));
-        $dispatcher->setView($smarty);
-        /* теперь механизм отображения Smarty стал механизмом отображения по умолчанию для Yaf */
-    }
+    public function _initSmarty(Yaf_Dispatcher $dispatcher) {
+        $smarty = new Smarty_Adapter(null, Yaf_Registry::get("config")->get("smarty"));
+        $dispatcher->setView($smarty);
+        /* теперь механизм отображения Smarty стал механизмом отображения по умолчанию для Yaf */
+    }
 }
 ?>
 ```

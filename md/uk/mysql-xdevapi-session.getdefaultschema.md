@@ -34,11 +34,11 @@ public mysql_xdevapi\Session::getDefaultSchema(): string
 
 ```php
 <?php
-$uri = "mysqlx://testuser:testpasswd@localhost:33160/testx?ssl-mode=disabled";
-$session = mysql_xdevapi\getSession($uri);
+$uri = "mysqlx://testuser:testpasswd@localhost:33160/testx?ssl-mode=disabled";
+$session = mysql_xdevapi\getSession($uri);
 
-$schema = $session->getDefaultSchema();
-echo $schema;
+$schema = $session->getDefaultSchema();
+echo $schema;
 ?>
 ```
 

@@ -44,8 +44,8 @@ uopz_get_return(string $class, string $function): mixed
 
 ```php
 <?php
-uopz_set_return("strlen", 42);
-echo uopz_get_return("strlen");
+uopz_set_return("strlen", 42);
+echo uopz_get_return("strlen");
 ?>
 ```
 

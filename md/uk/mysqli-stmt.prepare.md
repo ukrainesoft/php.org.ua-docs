@@ -74,28 +74,28 @@ mysqli_stmt_prepare(mysqli_stmt $statement, string $query): bool
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$city = "Amersfoort";
+$city = "Amersfoort";
 
-/* Создаём подготовленное утверждение */
-$stmt = $mysqli->stmt_init();
-$stmt->prepare("SELECT District FROM City WHERE Name=?");
+/* Создаём подготовленное утверждение */
+$stmt = $mysqli->stmt_init();
+$stmt->prepare("SELECT District FROM City WHERE Name=?");
 
-/* Связываем переменные с метками */
-$stmt->bind_param("s", $city);
+/* Связываем переменные с метками */
+$stmt->bind_param("s", $city);
 
-/* Выполняем запрос */
+/* Выполняем запрос */
 $stmt->execute();
 
-/* Связываем переменные результата */
+/* Связываем переменные результата */
 $stmt->bind_result($district);
 
-/* Получаем значение */
+/* Получаем значение */
 $stmt->fetch();
 
-printf("%s находится в районе %s\n", $city, $district);
+printf("%s находится в районе %s\n", $city, $district);
 ```
 
 Процедурний стиль
@@ -103,28 +103,28 @@ printf("%s находится в районе %s\n", $city, $district);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$city = "Amersfoort";
+$city = "Amersfoort";
 
-/* Создаём подготовленное утверждение */
-$stmt = mysqli_stmt_init($link);
-mysqli_stmt_prepare($stmt, "SELECT District FROM City WHERE Name=?");
+/* Создаём подготовленное утверждение */
+$stmt = mysqli_stmt_init($link);
+mysqli_stmt_prepare($stmt, "SELECT District FROM City WHERE Name=?");
 
-/* Связываем переменные с метками */
-mysqli_stmt_bind_param($stmt, "s", $city);
+/* Связываем переменные с метками */
+mysqli_stmt_bind_param($stmt, "s", $city);
 
-/* Выполняем запрос */
+/* Выполняем запрос */
 mysqli_stmt_execute($stmt);
 
-/* Связываем переменные результата */
-mysqli_stmt_bind_result($stmt, $district);
+/* Связываем переменные результата */
+mysqli_stmt_bind_result($stmt, $district);
 
-/* Получаем значение */
+/* Получаем значение */
 mysqli_stmt_fetch($stmt);
 
-printf("%s находится в районе %s\n", $city, $district);
+printf("%s находится в районе %s\n", $city, $district);
 ```
 
 Результат виконання даних прикладів:

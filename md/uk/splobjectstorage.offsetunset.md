@@ -40,11 +40,11 @@ public SplObjectStorage::offsetUnset(object $object): void
 
 ```php
 <?php
-$o = new StdClass;
-$s = new SplObjectStorage();
+$o = new StdClass;
+$s = new SplObjectStorage();
 $s->attach($o);
 var_dump(count($s));
-$s->offsetUnset($o); // аналогично unset($s[$o])
+$s->offsetUnset($o); // аналогично unset($s[$o])
 var_dump(count($s));
 ?>
 ```

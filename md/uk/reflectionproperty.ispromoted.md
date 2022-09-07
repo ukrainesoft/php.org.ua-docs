@@ -34,16 +34,16 @@ public ReflectionProperty::isPromoted(): bool
 
 ```php
 <?php
-class Foo {
-    public $baz;
+class Foo {
+    public $baz;
 
-    public function __construct(public $bar) {}
+    public function __construct(public $bar) {}
 }
 
-$o = new Foo(42);
-$o->baz = 42;
+$o = new Foo(42);
+$o->baz = 42;
 
-$ro = new ReflectionObject($o);
+$ro = new ReflectionObject($o);
 var_dump($ro->getProperty('bar')->isPromoted());
 var_dump($ro->getProperty('baz')->isPromoted());
 ?>

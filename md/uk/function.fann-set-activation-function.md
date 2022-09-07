@@ -15,7 +15,7 @@ fannsetactivationfunction — Встановлює функцію активац
 ### Опис
 
 ```methodsynopsis
-fann_set_activation_function(    resource $ann,    int $activation_function,    int $layer,    int $neuron): bool
+fann_set_activation_function(    resource $ann,    int $activation_function,    int $layer,    int $neuron): bool
 ```
 
 Встановіть функцію активації для нейрона номер `neuron` у шарі номер `layer`, Вважаючи вхідний шар як шар 0.

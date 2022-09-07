@@ -15,7 +15,7 @@ tradercdlmathold — Фігура Підстилка
 ### Опис
 
 ```methodsynopsis
-trader_cdlmathold(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdlmathold(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

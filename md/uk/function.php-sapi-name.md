@@ -38,11 +38,11 @@ php_sapi_name(): string|false
 
 ```php
 <?php
-$sapi_type = php_sapi_name();
-if (substr($sapi_type, 0, 3) == 'cgi') {
-    echo "Вы используете CGI PHP\n";
-} else {
-    echo "Вы используете не CGI PHP\n";
+$sapi_type = php_sapi_name();
+if (substr($sapi_type, 0, 3) == 'cgi') {
+    echo "Вы используете CGI PHP\n";
+} else {
+    echo "Вы используете не CGI PHP\n";
 }
 ?>
 ```

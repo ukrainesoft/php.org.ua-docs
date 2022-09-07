@@ -15,7 +15,7 @@ iconvsubstr — Отримання частини рядка
 ### Опис
 
 ```methodsynopsis
-iconv_substr(    string $string,    int $offset,    ?int $length = null,    ?string $encoding = null): string|false
+iconv_substr(    string $string,    int $offset,    ?int $length = null,    ?string $encoding = null): string|false
 ```
 
 Отримує частину рядка `string`, визначену параметрами `offset` і `length`

@@ -35,14 +35,14 @@ public ReflectionFunctionAbstract::getClosureUsedVariables(): array
 ```php
 <?php
 
-$one = 1;
-$two = 2;
+$one = 1;
+$two = 2;
 
-$function = function() use ($one, $two) {
-    static $three = 3;
+$function = function() use ($one, $two) {
+    static $three = 3;
 };
 
-$reflector = new ReflectionFunction($function);
+$reflector = new ReflectionFunction($function);
 
 var_dump($reflector->getClosureUsedVariables());
 ?>

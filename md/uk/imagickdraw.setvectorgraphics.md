@@ -40,33 +40,33 @@ XML, що містить векторну графіку.
 
 ```php
 <?php
-function setVectorGraphics() {
-    //Создание объекта для рисования с каким-нибудь рисунком в нём.
-    $draw = new \ImagickDraw();
-    $draw->setFillColor("red");
-    $draw->circle(20, 20, 50, 50);
-    $draw->setFillColor("blue");
-    $draw->circle(50, 70, 50, 50);
-    $draw->rectangle(50, 120, 80, 150);
+function setVectorGraphics() {
+    //Создание объекта для рисования с каким-нибудь рисунком в нём.
+    $draw = new \ImagickDraw();
+    $draw->setFillColor("red");
+    $draw->circle(20, 20, 50, 50);
+    $draw->setFillColor("blue");
+    $draw->circle(50, 70, 50, 50);
+    $draw->rectangle(50, 120, 80, 150);
 
-    //Получение рисунка в виде строки
-    $SVG = $draw->getVectorGraphics();
+    //Получение рисунка в виде строки
+    $SVG = $draw->getVectorGraphics();
 
-    //$svg - строка, и её можно сохранить везде, где строка может быть сохранена
+    //$svg - строка, и её можно сохранить везде, где строка может быть сохранена
 
-    //Использование сохранённого рисунка для создания нового объекта для рисования
-    $draw2 = new \ImagickDraw();
-    //По-видимому, в тексте SVG отсутствует корневой элемент.
-    $draw2->setVectorGraphics("<root>".$SVG."</root>");
+    //Использование сохранённого рисунка для создания нового объекта для рисования
+    $draw2 = new \ImagickDraw();
+    //По-видимому, в тексте SVG отсутствует корневой элемент.
+    $draw2->setVectorGraphics("<root>".$SVG."</root>");
 
-    $imagick = new \Imagick();
-    $imagick->newImage(200, 200, 'white');
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(200, 200, 'white');
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw2);
+    $imagick->drawImage($draw2);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

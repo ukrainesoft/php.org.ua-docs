@@ -44,9 +44,9 @@ zlib_encode(string $data, int $encoding, int $level = -1): string|false
 
 ```php
 <?php
-$str = 'hello world';
-$enc = zlib_encode($str, ZLIB_ENCODING_DEFLATE);
-echo bin2hex($enc);
+$str = 'hello world';
+$enc = zlib_encode($str, ZLIB_ENCODING_DEFLATE);
+echo bin2hex($enc);
 ?>
 ```
 

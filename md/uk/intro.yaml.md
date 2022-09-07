@@ -8,4 +8,4 @@ title: Вступ
 ---
 # Вступ
 
-Модуль реалізує стандарт серіалізації даних [» YAML Ain't Markup Language (YAML)](http://www.yaml.org/). Для обробки даних використовується [» библиотека LibYAML](http://pyyaml.org/wiki/LibYAML)
+Модуль реалізує стандарт серіалізації даних [» YAML Ain't Markup Language (YAML)](http://www.yaml.org/). Для обробки даних використовується [» библиотека LibYAML](http://pyyaml.org/wiki/LibYAML)

@@ -41,7 +41,7 @@ public mysql_xdevapi\CollectionModify::unset(array $fields): mysql_xdevapi\Colle
 ```php
 <?php
 
-$res = $coll->modify('job like :job_name')->unset(["age", "name"])->bind(['job_name' => 'Plumber'])->execute();
+$res = $coll->modify('job like :job_name')->unset(["age", "name"])->bind(['job_name' => 'Plumber'])->execute();
 
 ?>
 ```

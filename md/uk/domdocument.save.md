@@ -41,20 +41,20 @@ public DOMDocument::save(string $filename, int $options = 0): int|false
 ```php
 <?php
 
-$doc = new DOMDocument('1.0');
-// мы хотим красивый вывод
-$doc->formatOutput = true;
+$doc = new DOMDocument('1.0');
+// мы хотим красивый вывод
+$doc->formatOutput = true;
 
-$root = $doc->createElement('book');
-$root = $doc->appendChild($root);
+$root = $doc->createElement('book');
+$root = $doc->appendChild($root);
 
-$title = $doc->createElement('title');
-$title = $root->appendChild($title);
+$title = $doc->createElement('title');
+$title = $root->appendChild($title);
 
-$text = $doc->createTextNode('This is the title');
-$text = $title->appendChild($text);
+$text = $doc->createTextNode('This is the title');
+$text = $title->appendChild($text);
 
-echo 'Записано: ' . $doc->save("/tmp/test.xml") . ' байт'; // Записано: 72 байт
+echo 'Записано: ' . $doc->save("/tmp/test.xml") . ' байт'; // Записано: 72 байт
 
 ?>
 ```

@@ -52,14 +52,14 @@ public ZipArchive::addFromString(string $name, string $content, int $flags = Zip
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip', ZipArchive::CREATE);
-if ($res === TRUE) {
-    $zip->addFromString('test.txt', 'здесь следует содержимое файла');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+$res = $zip->open('test.zip', ZipArchive::CREATE);
+if ($res === TRUE) {
+    $zip->addFromString('test.txt', 'здесь следует содержимое файла');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```
@@ -68,13 +68,13 @@ if ($res === TRUE) {
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test.zip') === TRUE) {
-    $zip->addFromString('dir/test.txt', 'здесь следует содержимое файла');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    $zip->addFromString('dir/test.txt', 'здесь следует содержимое файла');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

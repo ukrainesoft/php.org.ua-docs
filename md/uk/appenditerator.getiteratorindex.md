@@ -34,15 +34,15 @@ public AppendIterator::getIteratorIndex(): ?int
 
 ```php
 <?php
-$array_a = new ArrayIterator(array('a' => 'aardwolf', 'b' => 'bear', 'c' => 'capybara'));
-$array_b = new ArrayIterator(array('apple', 'orange', 'lemon'));
+$array_a = new ArrayIterator(array('a' => 'aardwolf', 'b' => 'bear', 'c' => 'capybara'));
+$array_b = new ArrayIterator(array('apple', 'orange', 'lemon'));
 
-$iterator = new AppendIterator;
+$iterator = new AppendIterator;
 $iterator->append($array_a);
 $iterator->append($array_b);
 
-foreach ($iterator as $key => $current) {
-    echo $iterator->getIteratorIndex() . '  ' . $key . ' ' . $current . PHP_EOL;
+foreach ($iterator as $key => $current) {
+    echo $iterator->getIteratorIndex() . '  ' . $key . ' ' . $current . PHP_EOL;
 }
 ?>
 ```

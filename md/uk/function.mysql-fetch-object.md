@@ -51,12 +51,12 @@ mysql_fetch_object(resource $result, string $class_name = ?, array $params = ?):
 
 ```php
 <?php
-mysql_connect("hostname", "user", "password");
+mysql_connect("hostname", "user", "password");
 mysql_select_db("mydb");
-$result = mysql_query("select * from mytable");
-while ($row = mysql_fetch_object($result)) {
-    echo $row->user_id;
-    echo $row->fullname;
+$result = mysql_query("select * from mytable");
+while ($row = mysql_fetch_object($result)) {
+    echo $row->user_id;
+    echo $row->fullname;
 }
 mysql_free_result($result);
 ?>
@@ -66,15 +66,15 @@ mysql_free_result($result);
 
 ```php
 <?php
-class foo {
-    public $name;
+class foo {
+    public $name;
 }
 
-mysql_connect("hostname", "user", "password");
+mysql_connect("hostname", "user", "password");
 mysql_select_db("mydb");
 
-$result = mysql_query("select name from mytable limit 1");
-$obj = mysql_fetch_object($result, 'foo');
+$result = mysql_query("select name from mytable limit 1");
+$obj = mysql_fetch_object($result, 'foo');
 var_dump($obj);
 ?>
 ```

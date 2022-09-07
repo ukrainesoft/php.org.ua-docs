@@ -52,12 +52,12 @@ public update(array|object $filter, array|object $newObj, ?array $updateOptions 
 ```php
 <?php
 
-$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);
-$bulk->insert(['_id' => 1, 'x' => 1]);
-$bulk->insert(['_id' => 2, 'x' => 2]);
-$bulk->update(['x' => 2], ['$set' => ['x' => 1]]);
-$bulk->insert(['_id' => 3, 'x' => 3]);
-$bulk->delete(['x' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);
+$bulk->insert(['_id' => 1, 'x' => 1]);
+$bulk->insert(['_id' => 2, 'x' => 2]);
+$bulk->update(['x' => 2], ['$set' => ['x' => 1]]);
+$bulk->insert(['_id' => 3, 'x' => 3]);
+$bulk->delete(['x' => 1]);
 
 ?>
 ```
@@ -69,50 +69,50 @@ $bulk->delete(['x' => 1]);
 ```php
 <?php
 
-$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);
+$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);
 $bulk->delete([]);
-$bulk->insert(['_id' => 1]);
-$bulk->insert(['_id' => 2]);
-$bulk->insert(['_id' => 3, 'hello' => 'world']);
-$bulk->update(['_id' => 3], ['$set' => ['hello' => 'earth']]);
-$bulk->insert(['_id' => 4, 'hello' => 'pluto']);
-$bulk->update(['_id' => 4], ['$set' => ['hello' => 'moon']]);
-$bulk->insert(['_id' => 3]);
-$bulk->insert(['_id' => 4]);
-$bulk->insert(['_id' => 5]);
+$bulk->insert(['_id' => 1]);
+$bulk->insert(['_id' => 2]);
+$bulk->insert(['_id' => 3, 'hello' => 'world']);
+$bulk->update(['_id' => 3], ['$set' => ['hello' => 'earth']]);
+$bulk->insert(['_id' => 4, 'hello' => 'pluto']);
+$bulk->update(['_id' => 4], ['$set' => ['hello' => 'moon']]);
+$bulk->insert(['_id' => 3]);
+$bulk->insert(['_id' => 4]);
+$bulk->insert(['_id' => 5]);
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
-$writeConcern = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 1000);
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$writeConcern = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 1000);
 
-try {
-    $result = $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
-} catch (MongoDB\Driver\Exception\BulkWriteException $e) {
-    $result = $e->getWriteResult();
+try {
+    $result = $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
+} catch (MongoDB\Driver\Exception\BulkWriteException $e) {
+    $result = $e->getWriteResult();
 
-    // Убедиться, что гарантия записи не может быть выполнена
-    if ($writeConcernError = $result->getWriteConcernError()) {
-        printf("%s (%d): %s\n",
-            $writeConcernError->getMessage(),
-            $writeConcernError->getCode(),
-            var_export($writeConcernError->getInfo(), true)
-        );
-    }
+    // Убедиться, что гарантия записи не может быть выполнена
+    if ($writeConcernError = $result->getWriteConcernError()) {
+        printf("%s (%d): %s\n",
+            $writeConcernError->getMessage(),
+            $writeConcernError->getCode(),
+            var_export($writeConcernError->getInfo(), true)
+        );
+    }
 
-    // Проверить, не выполнялись ли какие-либо операции записи
-    foreach ($result->getWriteErrors() as $writeError) {
-        printf("Operation#%d: %s (%d)\n",
-            $writeError->getIndex(),
-            $writeError->getMessage(),
-            $writeError->getCode()
-        );
-    }
-} catch (MongoDB\Driver\Exception\Exception $e) {
-    printf("Другая ошибка: %s\n", $e->getMessage());
-    exit;
+    // Проверить, не выполнялись ли какие-либо операции записи
+    foreach ($result->getWriteErrors() as $writeError) {
+        printf("Operation#%d: %s (%d)\n",
+            $writeError->getIndex(),
+            $writeError->getMessage(),
+            $writeError->getCode()
+        );
+    }
+} catch (MongoDB\Driver\Exception\Exception $e) {
+    printf("Другая ошибка: %s\n", $e->getMessage());
+    exit;
 }
 
-printf("Добавлено %d документ(ов)\n", $result->getInsertedCount());
-printf("Обновлено %d документ(ов)\n", $result->getModifiedCount());
+printf("Добавлено %d документ(ов)\n", $result->getInsertedCount());
+printf("Обновлено %d документ(ов)\n", $result->getModifiedCount());
 
 ?>
 ```
@@ -141,8 +141,8 @@ Updated  2 document(s)
 ```php
 <?php
 
-$bulk = new MongoDB\Driver\BulkWrite(['ordered' => false]);
-/* ... */
+$bulk = new MongoDB\Driver\BulkWrite(['ordered' => false]);
+/* ... */
 
 ?>
 ```

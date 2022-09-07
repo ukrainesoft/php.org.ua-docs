@@ -54,19 +54,19 @@ imageflip(GdImage $image, int $mode): bool
 
 ```php
 <?php
-// Файл
-$filename = 'phplogo.png';
+// Файл
+$filename = 'phplogo.png';
 
-// Тип данных
-header('Content-type: image/png');
+// Тип данных
+header('Content-type: image/png');
 
-// Загрузка
-$im = imagecreatefrompng($filename);
+// Загрузка
+$im = imagecreatefrompng($filename);
 
-// Переворачиваем по вертикали
-imageflip($im, IMG_FLIP_VERTICAL);
+// Переворачиваем по вертикали
+imageflip($im, IMG_FLIP_VERTICAL);
 
-// Вывод
+// Вывод
 imagejpeg($im);
 imagedestroy($im);
 ?>
@@ -82,19 +82,19 @@ imagedestroy($im);
 
 ```php
 <?php
-// Файл
-$filename = 'phplogo.png';
+// Файл
+$filename = 'phplogo.png';
 
-// Тип данных
-header('Content-type: image/png');
+// Тип данных
+header('Content-type: image/png');
 
-// Загрузка
-$im = imagecreatefrompng($filename);
+// Загрузка
+$im = imagecreatefrompng($filename);
 
-// Переворачиваем по горизонтали
-imageflip($im, IMG_FLIP_HORIZONTAL);
+// Переворачиваем по горизонтали
+imageflip($im, IMG_FLIP_HORIZONTAL);
 
-// Вывод
+// Вывод
 imagejpeg($im);
 imagedestroy($im);
 ?>

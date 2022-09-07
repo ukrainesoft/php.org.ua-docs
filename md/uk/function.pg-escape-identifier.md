@@ -54,14 +54,14 @@ pg_escape_identifier(PgSql\Connection $connection = ?, string $data): string
 
 ```php
 <?php
-  // Установить соединение с базой данных
-  $dbconn = pg_connect('dbname=foo');
+  // Установить соединение с базой данных
+  $dbconn = pg_connect('dbname=foo');
 
-  // Экранировать данные имени таблицы
-  $escaped = pg_escape_identifier($table_name);
+  // Экранировать данные имени таблицы
+  $escaped = pg_escape_identifier($table_name);
 
-  // Выбрать строки из $table_name
-  pg_query("SELECT * FROM {$escaped};");
+  // Выбрать строки из $table_name
+  pg_query("SELECT * FROM {$escaped};");
 ?>
 ```
 

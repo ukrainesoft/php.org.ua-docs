@@ -36,10 +36,10 @@ public Memcached::flush(int $delay = 0): bool
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-/* Очищает все записи через 10 секунд */
+/* Очищает все записи через 10 секунд */
 $m->flush(10);
 ?>
 ```

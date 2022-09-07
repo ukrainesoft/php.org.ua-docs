@@ -36,9 +36,9 @@ IPv4- або IPv6-адреса, що читається.
 
 ```php
 <?php
-$in_addr = inet_pton('127.0.0.1');
+$in_addr = inet_pton('127.0.0.1');
 
-$in6_addr = inet_pton('::1');
+$in6_addr = inet_pton('::1');
 ?>
 ```
 

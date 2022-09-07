@@ -61,17 +61,17 @@ mb_convert_encoding(array|string $string, string $to_encoding, array|string|null
 
 ```php
 <?php
-/* Преобразует строку в кодировку SJIS */
-$str = mb_convert_encoding($str, "SJIS");
+/* Преобразует строку в кодировку SJIS */
+$str = mb_convert_encoding($str, "SJIS");
 
-/* Преобразует из EUC-JP в UTF-7 */
-$str = mb_convert_encoding($str, "UTF-7", "EUC-JP");
+/* Преобразует из EUC-JP в UTF-7 */
+$str = mb_convert_encoding($str, "UTF-7", "EUC-JP");
 
-/* Автоматически определяется кодировка среди JIS, eucjp-win, sjis-win, затем преобразуется в UCS-2LE */
-$str = mb_convert_encoding($str, "UCS-2LE", "JIS, eucjp-win, sjis-win");
+/* Автоматически определяется кодировка среди JIS, eucjp-win, sjis-win, затем преобразуется в UCS-2LE */
+$str = mb_convert_encoding($str, "UCS-2LE", "JIS, eucjp-win, sjis-win");
 
-/* Если mbstring.language равен "Japanese", "auto" используется для обозначения "ASCII,JIS,UTF-8,EUC-JP,SJIS" */
-$str = mb_convert_encoding($str, "EUC-JP", "auto");
+/* Если mbstring.language равен "Japanese", "auto" используется для обозначения "ASCII,JIS,UTF-8,EUC-JP,SJIS" */
+$str = mb_convert_encoding($str, "EUC-JP", "auto");
 ?>
 ```
 

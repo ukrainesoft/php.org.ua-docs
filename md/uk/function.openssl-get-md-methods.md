@@ -38,9 +38,9 @@ openssl_get_md_methods(bool $aliases = false): array
 
 ```php
 <?php
-$digests             = openssl_get_md_methods();
-$digests_and_aliases = openssl_get_md_methods(true);
-$digest_aliases      = array_diff($digests_and_aliases, $digests);
+$digests             = openssl_get_md_methods();
+$digests_and_aliases = openssl_get_md_methods(true);
+$digest_aliases      = array_diff($digests_and_aliases, $digests);
 
 print_r($digests);
 

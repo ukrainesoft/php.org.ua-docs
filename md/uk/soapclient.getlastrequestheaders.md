@@ -38,9 +38,9 @@ public SoapClient::__getLastRequestHeaders(): ?string
 
 ```php
 <?php
-$client = SoapClient("some.wsdl", array('trace' => 1));
-$result = $client->SomeFunction();
-echo "ЗАГОЛОВКИ ЗАПРОСА:\n" . $client->__getLastRequestHeaders() . "\n";
+$client = SoapClient("some.wsdl", array('trace' => 1));
+$result = $client->SomeFunction();
+echo "ЗАГОЛОВКИ ЗАПРОСА:\n" . $client->__getLastRequestHeaders() . "\n";
 ?>
 ```
 

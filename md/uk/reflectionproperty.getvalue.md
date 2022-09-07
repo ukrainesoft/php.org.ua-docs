@@ -46,21 +46,21 @@ public ReflectionProperty::getValue(?object $object = null): mixed
 
 ```php
 <?php
-class Foo {
-    public static $staticProperty = 'foobar';
+class Foo {
+    public static $staticProperty = 'foobar';
 
-    public $property = 'barfoo';
-    protected $privateProperty = 'foofoo';
+    public $property = 'barfoo';
+    protected $privateProperty = 'foofoo';
 }
 
-$reflectionClass = new ReflectionClass('Foo');
+$reflectionClass = new ReflectionClass('Foo');
 
 var_dump($reflectionClass->getProperty('staticProperty')->getValue());
-var_dump($reflectionClass->getProperty('property')->getValue(new Foo));
+var_dump($reflectionClass->getProperty('property')->getValue(new Foo));
 
-$reflectionProperty = $reflectionClass->getProperty('privateProperty');
+$reflectionProperty = $reflectionClass->getProperty('privateProperty');
 $reflectionProperty->setAccessible(true);
-var_dump($reflectionProperty->getValue(new Foo));
+var_dump($reflectionProperty->getValue(new Foo));
 ?>
 ```
 

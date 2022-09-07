@@ -23,11 +23,11 @@ declare (directive)
 
 ```php
 <?php
-// Правильно:
+// Правильно:
 declare(ticks=1);
 
-// Недопустимо:
-const TICK_VALUE = 1;
+// Недопустимо:
+const TICK_VALUE = 1;
 declare(ticks=TICK_VALUE);
 ?>
 ```
@@ -38,16 +38,16 @@ declare(ticks=TICK_VALUE);
 
 ```php
 <?php
-// это то же самое:
+// это то же самое:
 
-// можно так:
-declare(ticks=1) {
-    // прочие действия
+// можно так:
+declare(ticks=1) {
+    // прочие действия
 }
 
-// или так:
+// или так:
 declare(ticks=1);
-// прочие действия
+// прочие действия
 ?>
 ```
 
@@ -66,19 +66,19 @@ declare(ticks=1);
 
 declare(ticks=1);
 
-// Функция, исполняемая при каждом тике
-function tick_handler()
+// Функция, исполняемая при каждом тике
+function tick_handler()
 {
-    echo "Вызывается tick_handler()\n";
+    echo "Вызывается tick_handler()\n";
 }
 
-register_tick_function('tick_handler'); // вызывает событие тика
+register_tick_function('tick_handler'); // вызывает событие тика
 
-$a = 1; // вызывает событие тика
+$a = 1; // вызывает событие тика
 
-if ($a > 0) {
-    $a += 2; // вызывает событие тика
-    print($a); // вызывает событие тика
+if ($a > 0) {
+    $a += 2; // вызывает событие тика
+    print($a); // вызывает событие тика
 }
 
 ?>
@@ -95,7 +95,7 @@ if ($a > 0) {
 ```php
 <?php
 declare(encoding='ISO-8859-1');
-// прочий код
+// прочий код
 ?>
 ```
 

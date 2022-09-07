@@ -33,15 +33,15 @@ PDO стандартизовано для роботи з рядковими к�
 
 ```php
 <?php
-$dsn = 'mysql:dbname=testdb;host=127.0.0.1';
-$user = 'dbuser';
-$password = 'dbpass';
+$dsn = 'mysql:dbname=testdb;host=127.0.0.1';
+$user = 'dbuser';
+$password = 'dbpass';
 
-try {
-    $dbh = new PDO($dsn, $user, $password);
-    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    echo 'Подключение не удалось: ' . $e->getMessage();
+try {
+    $dbh = new PDO($dsn, $user, $password);
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo 'Подключение не удалось: ' . $e->getMessage();
 }
 
 ?>
@@ -55,23 +55,23 @@ try {
 
 ```php
 <?php
-$dsn = 'mysql:dbname=test;host=127.0.0.1';
-$user = 'googleguy';
-$password = 'googleguy';
+$dsn = 'mysql:dbname=test;host=127.0.0.1';
+$user = 'googleguy';
+$password = 'googleguy';
 
 /*
-    По-прежнему оберните конструктор в блок try/catch, так как, даже при установке ERRMODE в WARNING,
-    PDO::__construct всегда будет бросать исключение PDOException, если соединение оборвалось.
+    По-прежнему оберните конструктор в блок try/catch, так как, даже при установке ERRMODE в WARNING,
+    PDO::__construct всегда будет бросать исключение PDOException, если соединение оборвалось.
 */
-try {
-    $dbh = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
-} catch (PDOException $e) {
-    echo 'Соединение оборвалось: ' . $e->getMessage();
-    exit;
+try {
+    $dbh = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
+} catch (PDOException $e) {
+    echo 'Соединение оборвалось: ' . $e->getMessage();
+    exit;
 }
 
-// Следующий запрос приводит к ошибке уровня E_WARNING вместо исключения (когда таблица не существует)
-$dbh->query("SELECT wrongcolumn FROM wrongtable");
+// Следующий запрос приводит к ошибке уровня E_WARNING вместо исключения (когда таблица не существует)
+$dbh->query("SELECT wrongcolumn FROM wrongtable");
 ?>
 ```
 

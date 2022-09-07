@@ -54,15 +54,15 @@ mysql_list_fields(string $database_name, string $table_name, resource $link_iden
 
 ```php
 <?php
-$result = mysql_query("SHOW COLUMNS FROM sometable");
-if (!$result) {
-    echo 'Ошибка при выполнении запроса: ' . mysql_error();
-    exit;
+$result = mysql_query("SHOW COLUMNS FROM sometable");
+if (!$result) {
+    echo 'Ошибка при выполнении запроса: ' . mysql_error();
+    exit;
 }
-if (mysql_num_rows($result) > 0) {
-    while ($row = mysql_fetch_assoc($result)) {
-        print_r($row);
-    }
+if (mysql_num_rows($result) > 0) {
+    while ($row = mysql_fetch_assoc($result)) {
+        print_r($row);
+    }
 }
 ?>
 ```

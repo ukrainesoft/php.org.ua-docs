@@ -42,27 +42,27 @@ public static DateInterval::createFromDateString(string $datetime): DateInterval
 
 ```php
 <?php
-// Интервалы в каждом примере эквивалентны.
-$i = new DateInterval('P1D');
-$i = DateInterval::createFromDateString('1 day');
+// Интервалы в каждом примере эквивалентны.
+$i = new DateInterval('P1D');
+$i = DateInterval::createFromDateString('1 day');
 
-$i = new DateInterval('P2W');
-$i = DateInterval::createFromDateString('2 weeks');
+$i = new DateInterval('P2W');
+$i = DateInterval::createFromDateString('2 weeks');
 
-$i = new DateInterval('P3M');
-$i = DateInterval::createFromDateString('3 months');
+$i = new DateInterval('P3M');
+$i = DateInterval::createFromDateString('3 months');
 
-$i = new DateInterval('P4Y');
-$i = DateInterval::createFromDateString('4 years');
+$i = new DateInterval('P4Y');
+$i = DateInterval::createFromDateString('4 years');
 
-$i = new DateInterval('P1Y1D');
-$i = DateInterval::createFromDateString('1 year + 1 day');
+$i = new DateInterval('P1Y1D');
+$i = DateInterval::createFromDateString('1 year + 1 day');
 
-$i = new DateInterval('P1DT12H');
-$i = DateInterval::createFromDateString('1 day + 12 hours');
+$i = new DateInterval('P1DT12H');
+$i = DateInterval::createFromDateString('1 day + 12 hours');
 
-$i = new DateInterval('PT3600S');
-$i = DateInterval::createFromDateString('3600 seconds');
+$i = new DateInterval('PT3600S');
+$i = DateInterval::createFromDateString('3600 seconds');
 ?>
 ```
 
@@ -70,10 +70,10 @@ $i = DateInterval::createFromDateString('3600 seconds');
 
 ```php
 <?php
-$i = DateInterval::createFromDateString('last day of next month');
+$i = DateInterval::createFromDateString('last day of next month');
 var_dump($i);
 
-$i = DateInterval::createFromDateString('last weekday');
+$i = DateInterval::createFromDateString('last weekday');
 var_dump($i);
 ```
 

@@ -40,14 +40,14 @@ public Imagick::optimizeImageLayers(): bool
 
 ```php
 <?php
-/* создание нового объекта imagick */
-$im = new Imagick("test.gif");
+/* создание нового объекта imagick */
+$im = new Imagick("test.gif");
 
-/* оптимизация слоёв изображения */
+/* оптимизация слоёв изображения */
 $im->optimizeImageLayers();
 
-/* запись изображения обратно */
-$im->writeImages("test_optimized.gif", true);
+/* запись изображения обратно */
+$im->writeImages("test_optimized.gif", true);
 ?>
 ```
 

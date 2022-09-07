@@ -97,18 +97,18 @@ actions
 
 ```php
 <?php
-class IndexController extends Yaf_Controller_Abstract {
-    protected $actions = array(
-        /** теперь dummyAction определяется в отдельном файле */
-        "dummy" => "actions/Dummy_action.php",
-    );
+class IndexController extends Yaf_Controller_Abstract {
+    protected $actions = array(
+        /** теперь dummyAction определяется в отдельном файле */
+        "dummy" => "actions/Dummy_action.php",
+    );
 
-    /* у метода действия могут быть аргументы */
-    public function indexAction($name, $id) {
-       /* $name и $id небезопасные необработанные данные */
-       assert($name == $this->getRequest()->getParam("name"));
-       assert($id   == $this->_request->getParam("id"));
-    }
+    /* у метода действия могут быть аргументы */
+    public function indexAction($name, $id) {
+       /* $name и $id небезопасные необработанные данные */
+       assert($name == $this->getRequest()->getParam("name"));
+       assert($id   == $this->_request->getParam("id"));
+    }
 }
 ?>
 ```
@@ -117,10 +117,10 @@ class IndexController extends Yaf_Controller_Abstract {
 
 ```php
 <?php
-class DummyAction extends Yaf_Action_Abstract {
-    /* класс действия должен определить этот метод как точку входа */
-    public function execute() {
-    }
+class DummyAction extends Yaf_Action_Abstract {
+    /* класс действия должен определить этот метод как точку входа */
+    public function execute() {
+    }
 }
 ?>
 ```

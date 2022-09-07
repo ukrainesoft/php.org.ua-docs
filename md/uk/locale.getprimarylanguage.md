@@ -48,7 +48,7 @@ locale_get_primary_language(string $locale): ?string
 
 ```php
 <?php
-echo locale_get_primary_language('zh-Hant');
+echo locale_get_primary_language('zh-Hant');
 ?>
 ```
 
@@ -56,7 +56,7 @@ echo locale_get_primary_language('zh-Hant');
 
 ```php
 <?php
-echo Locale::getPrimaryLanguage('zh-Hant');
+echo Locale::getPrimaryLanguage('zh-Hant');
 ?>
 ```
 

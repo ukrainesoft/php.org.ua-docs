@@ -40,14 +40,14 @@ xmlrpc_get_type(mixed $value): string
 
 ```php
 <?php
-echo xmlrpc_get_type(null) . "\n"; // base64
-echo xmlrpc_get_type(false) . "\n"; // boolean
-echo xmlrpc_get_type(1) . "\n"; // int
-echo xmlrpc_get_type(1.0) . "\n"; // double
-echo xmlrpc_get_type("") . "\n"; // string
-echo xmlrpc_get_type(array()) . "\n"; // array
-echo xmlrpc_get_type(new stdClass) . "\n"; // array
-echo xmlrpc_get_type(STDIN) . "\n"; // int
+echo xmlrpc_get_type(null) . "\n"; // base64
+echo xmlrpc_get_type(false) . "\n"; // boolean
+echo xmlrpc_get_type(1) . "\n"; // int
+echo xmlrpc_get_type(1.0) . "\n"; // double
+echo xmlrpc_get_type("") . "\n"; // string
+echo xmlrpc_get_type(array()) . "\n"; // array
+echo xmlrpc_get_type(new stdClass) . "\n"; // array
+echo xmlrpc_get_type(STDIN) . "\n"; // int
 ?>
 ```
 

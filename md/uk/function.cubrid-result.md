@@ -46,17 +46,17 @@ cubrid_result(resource $result, int $row, mixed $field = 0): string
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-$req = cubrid_execute($conn, "SELECT * FROM code");
+$req = cubrid_execute($conn, "SELECT * FROM code");
 
-$result = cubrid_result($req, 0);
+$result = cubrid_result($req, 0);
 var_dump($result);
 
-$result = cubrid_result($req, 0, 1);
+$result = cubrid_result($req, 0, 1);
 var_dump($result);
 
-$result = cubrid_result($req, 5, "f_name");
+$result = cubrid_result($req, 5, "f_name");
 var_dump($result);
 
 cubrid_close_request($req);

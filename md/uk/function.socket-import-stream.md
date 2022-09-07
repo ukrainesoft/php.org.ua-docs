@@ -42,8 +42,8 @@ socket_import_stream(resource $stream): Socket|false
 
 ```php
 <?php
-$stream = stream_socket_server("udp://0.0.0.0:58380", $errno, $errstr, STREAM_SERVER_BIND);
-$sock   = socket_import_stream($stream);
+$stream = stream_socket_server("udp://0.0.0.0:58380", $errno, $errstr, STREAM_SERVER_BIND);
+$sock   = socket_import_stream($stream);
 ?>
 ```
 

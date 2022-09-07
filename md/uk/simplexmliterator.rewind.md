@@ -34,7 +34,7 @@ public SimpleXMLIterator::rewind(): void
 
 ```php
 <?php
-$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
+$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
 $xmlIterator->rewind();
 
 var_dump($xmlIterator->current());

@@ -45,18 +45,18 @@ final public MongoDB\Driver\Cursor::setTypeMap(array $typemap): void
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$id = $bulk->insert(['x' => 1]);
-$manager->executeBulkWrite('db.collection', $bulk);
+$bulk = new MongoDB\Driver\BulkWrite;
+$id = $bulk->insert(['x' => 1]);
+$manager->executeBulkWrite('db.collection', $bulk);
 
-$query = new MongoDB\Driver\Query(['_id' => $id]);
-$cursor = $manager->executeQuery('db.collection', $query);
-$cursor->setTypeMap(['root' => 'array']);
+$query = new MongoDB\Driver\Query(['_id' => $id]);
+$cursor = $manager->executeQuery('db.collection', $query);
+$cursor->setTypeMap(['root' => 'array']);
 
-foreach ($cursor as $document) {
-    var_dump($document);
+foreach ($cursor as $document) {
+    var_dump($document);
 }
 
 ?>

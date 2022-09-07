@@ -36,57 +36,57 @@ public Imagick::forwardFourierTransformimage(bool $magnitude): bool
 
 ```php
 <?php
-//Служебная функция для forwardTransformImage
-function createMask() {
-    $draw = new \ImagickDraw();
+//Служебная функция для forwardTransformImage
+function createMask() {
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeOpacity(0);
-    $draw->setStrokeColor('rgb(255, 255, 255)');
-    $draw->setFillColor('rgb(255, 255, 255)');
+    $draw->setStrokeOpacity(0);
+    $draw->setStrokeColor('rgb(255, 255, 255)');
+    $draw->setFillColor('rgb(255, 255, 255)');
 
-    //Рисование круга на оси Y с центром в точках
-    //x, y, который касается начала координат
-    $draw->circle(250, 250, 220, 250);
+    //Рисование круга на оси Y с центром в точках
+    //x, y, который касается начала координат
+    $draw->circle(250, 250, 220, 250);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(512, 512, "black");
-    $imagick->drawImage($draw);
-    $imagick->gaussianBlurImage(20, 20);
-    $imagick->autoLevelImage();
+    $imagick = new \Imagick();
+    $imagick->newImage(512, 512, "black");
+    $imagick->drawImage($draw);
+    $imagick->gaussianBlurImage(20, 20);
+    $imagick->autoLevelImage();
 
-    return $imagick;
+    return $imagick;
 }
 
 
-function forwardFourierTransformImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->resizeimage(512, 512, \Imagick::FILTER_LANCZOS, 1);
+function forwardFourierTransformImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->resizeimage(512, 512, \Imagick::FILTER_LANCZOS, 1);
 
-    $mask = createMask();
-    $imagick->forwardFourierTransformImage(true);
+    $mask = createMask();
+    $imagick->forwardFourierTransformImage(true);
 
-    @$imagick->setimageindex(0);
-    $magnitude = $imagick->getimage();
+    @$imagick->setimageindex(0);
+    $magnitude = $imagick->getimage();
 
-    @$imagick->setimageindex(1);
-    $imagickPhase = $imagick->getimage();
+    @$imagick->setimageindex(1);
+    $imagickPhase = $imagick->getimage();
 
-    if (true) {
-        $imagickPhase->compositeImage($mask, \Imagick::COMPOSITE_MULTIPLY, 0, 0);
-    }
+    if (true) {
+        $imagickPhase->compositeImage($mask, \Imagick::COMPOSITE_MULTIPLY, 0, 0);
+    }
 
-    if (false) {
-        $output = clone $imagickPhase;
-        $output->setimageformat('png');
-        header("Content-Type: image/png");
-        echo $output->getImageBlob();
-    }
+    if (false) {
+        $output = clone $imagickPhase;
+        $output->setimageformat('png');
+        header("Content-Type: image/png");
+        echo $output->getImageBlob();
+    }
 
-    $magnitude->inverseFourierTransformImage($imagickPhase, true);
+    $magnitude->inverseFourierTransformImage($imagickPhase, true);
 
-    $magnitude->setimageformat('png');
-    header("Content-Type: image/png");
-    echo $magnitude->getImageBlob();
+    $magnitude->setimageformat('png');
+    header("Content-Type: image/png");
+    echo $magnitude->getImageBlob();
 }
 
 ?>

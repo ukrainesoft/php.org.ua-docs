@@ -16,7 +16,7 @@ title: Типи атрибутів RADIUS
 
 **`RADIUS_USER_PASSWORD`** (int)
 
-Атрибут User-Password. Має бути типу string і містити пароль користувача. Атрибут можна встановити функцією [radiusputattr()](function.radius-put-attr.md). Це значення буде обфусковано при передачі згідно [» секції 5.2 RFC 2865](http://www.faqs.org/rfcs/rfc2865)
+Атрибут User-Password. Має бути типу string і містити пароль користувача. Атрибут можна встановити функцією [radiusputattr()](function.radius-put-attr.md). Це значення буде обфусковано при передачі згідно [» секції 5.2 RFC 2865](http://www.faqs.org/rfcs/rfc2865)
 
 **`RADIUS_CHAP_PASSWORD`** (int)
 
@@ -26,28 +26,28 @@ title: Типи атрибутів RADIUS
 
 ```php
 <?php
-// Для начала создадим обработчик аутентификации и запрос.
-$radh = radius_auth_open();
-radius_add_server($radh, $server, $port, $secret, 3, 3);
-radius_create_request($radh, RADIUS_ACCESS_REQUEST);
+// Для начала создадим обработчик аутентификации и запрос.
+$radh = radius_auth_open();
+radius_add_server($radh, $server, $port, $secret, 3, 3);
+radius_create_request($radh, RADIUS_ACCESS_REQUEST);
 
-// Считая, что $password содержит пароль в незашифрованном виде, мы делаем:
+// Считая, что $password содержит пароль в незашифрованном виде, мы делаем:
 
-// Создаём проверочное значение.
-$challenge = mt_rand();
+// Создаём проверочное значение.
+$challenge = mt_rand();
 
-// Задаём идентификатор CHAP.
-$ident = 1;
+// Задаём идентификатор CHAP.
+$ident = 1;
 
-// Добавляем атрибут Chap-Password.
-$cp = md5(pack('Ca*', $ident, $password.$challenge), true);
-radius_put_attr($radh, RADIUS_CHAP_PASSWORD, pack('C', $ident).$cp);
+// Добавляем атрибут Chap-Password.
+$cp = md5(pack('Ca*', $ident, $password.$challenge), true);
+radius_put_attr($radh, RADIUS_CHAP_PASSWORD, pack('C', $ident).$cp);
 
-// Добавляем атрибут Chap-Challenge.
-radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
+// Добавляем атрибут Chap-Challenge.
+radius_put_attr($radh, RADIUS_CHAP_CHALLENGE, $challenge);
 
-/* Теперь можно добавлять прочие необходимые аттриубты
- * и вызывать radius_send_request(). */
+/* Теперь можно добавлять прочие необходимые аттриубты
+ * и вызывать radius_send_request(). */
 ?>
 ```
 

@@ -32,27 +32,27 @@ public ImagickKernel::addKernel(ImagickKernel $ImagickKernel): void
 
 ```php
 <?php
-function addKernel($imagePath) {
-    $matrix1 = [
-        [-1, -1, -1],
-        [ 0,  0,  0],
-        [ 1,  1,  1],
-    ];
+function addKernel($imagePath) {
+    $matrix1 = [
+        [-1, -1, -1],
+        [ 0,  0,  0],
+        [ 1,  1,  1],
+    ];
 
-    $matrix2 = [
-        [-1,  0,  1],
-        [-1,  0,  1],
-        [-1,  0,  1],
-    ];
+    $matrix2 = [
+        [-1,  0,  1],
+        [-1,  0,  1],
+        [-1,  0,  1],
+    ];
 
-    $kernel1 = ImagickKernel::fromMatrix($matrix1);
-    $kernel2 = ImagickKernel::fromMatrix($matrix2);
-    $kernel1->addKernel($kernel2);
+    $kernel1 = ImagickKernel::fromMatrix($matrix1);
+    $kernel2 = ImagickKernel::fromMatrix($matrix2);
+    $kernel1->addKernel($kernel2);
 
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->filter($kernel1);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->filter($kernel1);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 
 }
 

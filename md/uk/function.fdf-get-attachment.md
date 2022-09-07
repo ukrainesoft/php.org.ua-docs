@@ -50,8 +50,8 @@ fdf_get_attachment(resource $fdf_document, string $fieldname, string $savepath):
 
 ```php
 <?php
-  $fdf = fdf_open_string($HTTP_FDF_DATA);
-  $data = fdf_get_attachment($fdf, "filename", "/tmpdir");
-  echo "Загруженный файл хранится в $data[path]";
+  $fdf = fdf_open_string($HTTP_FDF_DATA);
+  $data = fdf_get_attachment($fdf, "filename", "/tmpdir");
+  echo "Загруженный файл хранится в $data[path]";
 ?>
 ```

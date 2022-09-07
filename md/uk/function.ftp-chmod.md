@@ -50,22 +50,22 @@ ftp_chmod(FTP\Connection $ftp, int $permissions, string $filename): int|false
 
 ```php
 <?php
-$file = 'public_html/index.php';
+$file = 'public_html/index.php';
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// попытка изменить права доступа к файлу $file на 644
-if (ftp_chmod($ftp, 0644, $file) !== false) {
- echo "Права доступа к файлу $file успешно изменены на 644\n";
-} else {
- echo "Не удалось изменить права доступа к файлу $file\n";
+// попытка изменить права доступа к файлу $file на 644
+if (ftp_chmod($ftp, 0644, $file) !== false) {
+ echo "Права доступа к файлу $file успешно изменены на 644\n";
+} else {
+ echo "Не удалось изменить права доступа к файлу $file\n";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 ?>
 ```

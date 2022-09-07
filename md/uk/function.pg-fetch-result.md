@@ -60,13 +60,13 @@ pg_fetch_result(PgSql\Result $result, mixed $field): string|false|null
 
 ```php
 <?php
-$db = pg_connect("dbname=users user=me") || die();
+$db = pg_connect("dbname=users user=me") || die();
 
-$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");
+$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");
 
-$val = pg_fetch_result($res, 1, 0);
+$val = pg_fetch_result($res, 1, 0);
 
-echo "Первое поле во второй строчке результата это: ", $val, "\n";
+echo "Первое поле во второй строчке результата это: ", $val, "\n";
 ?>
 ```
 

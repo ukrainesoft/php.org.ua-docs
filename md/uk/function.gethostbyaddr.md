@@ -36,9 +36,9 @@ IP-адреса хоста
 
 ```php
 <?php
-$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 
-echo $hostname;
+echo $hostname;
 ?>
 ```
 

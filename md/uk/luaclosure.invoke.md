@@ -34,11 +34,11 @@ public LuaClosure::__invoke(mixed ...$args): void
 
 ```php
 <?php
-$lua = new Lua();
-$closure = $lua->eval(<<<CODE
-    return (function ()
-        print("hello world")
-    end)
+$lua = new Lua();
+$closure = $lua->eval(<<<CODE
+    return (function ()
+        print("hello world")
+    end)
 CODE
 );
 

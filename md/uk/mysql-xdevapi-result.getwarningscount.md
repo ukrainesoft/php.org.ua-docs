@@ -34,20 +34,20 @@ public mysql_xdevapi\Result::getWarningsCount(): int
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS foo")->execute();
-$session->sql("CREATE DATABASE foo")->execute();
-$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
+$session->sql("DROP DATABASE IF EXISTS foo")->execute();
+$session->sql("CREATE DATABASE foo")->execute();
+$session->sql("CREATE TABLE foo.test_table(x int)")->execute();
 
-$schema = $session->getSchema("foo");
-$table  = $schema->getTable("test_table");
+$schema = $session->getSchema("foo");
+$table  = $schema->getTable("test_table");
 
 $table->insert(['x'])->values([1])->values([2])->execute();
 
-$res = $table->select(['x/0 as bad_x'])->execute();
+$res = $table->select(['x/0 as bad_x'])->execute();
 
-echo $res->getWarningsCount();
+echo $res->getWarningsCount();
 ?>
 ```
 

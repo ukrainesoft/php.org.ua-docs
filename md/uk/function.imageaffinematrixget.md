@@ -42,7 +42,7 @@ imageaffinematrixget(int $type, array|float $options): array|false
 
 ```php
 <?php
-$matrix = imageaffinematrixget(IMG_AFFINE_TRANSLATE, array('x' => 2, 'y' => 3));
+$matrix = imageaffinematrixget(IMG_AFFINE_TRANSLATE, array('x' => 2, 'y' => 3));
 print_r($matrix);
 ?>
 ```

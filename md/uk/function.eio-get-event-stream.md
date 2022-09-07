@@ -34,42 +34,42 @@ eio_get_event_stream(): mixed
 
 ```php
 <?php
-function my_eio_poll($fd, $events, $arg) {
-    /* Некоторые действия с libevent могут быть здесь */
-    if (eio_nreqs()) {
-        eio_poll();
-    }
-    /* .. и здесь */
+function my_eio_poll($fd, $events, $arg) {
+    /* Некоторые действия с libevent могут быть здесь */
+    if (eio_nreqs()) {
+        eio_poll();
+    }
+    /* .. и здесь */
 }
 
-function my_res_cb($d, $r) {
-    var_dump($r); var_dump($d);
+function my_res_cb($d, $r) {
+    var_dump($r); var_dump($d);
 }
 
-$base = event_base_new();
-$event = event_new();
+$base = event_base_new();
+$event = event_new();
 
-$fd = eio_get_event_stream();
+$fd = eio_get_event_stream();
 var_dump($fd);
 
-eio_nop(EIO_PRI_DEFAULT, "my_res_cb", "nop data");
-eio_mkdir("/tmp/abc-eio-temp", 0750, EIO_PRI_DEFAULT, "my_res_cb", "mkdir data");
-/* Прочие eio_* запросы  ... */
+eio_nop(EIO_PRI_DEFAULT, "my_res_cb", "nop data");
+eio_mkdir("/tmp/abc-eio-temp", 0750, EIO_PRI_DEFAULT, "my_res_cb", "mkdir data");
+/* Прочие eio_* запросы  ... */
 
 
-// Установка флагов события
-event_set($event, $fd, EV_READ /*| EV_PERSIST*/, "my_eio_poll", array($event, $base));
+// Установка флагов события
+event_set($event, $fd, EV_READ /*| EV_PERSIST*/, "my_eio_poll", array($event, $base));
 
-// Установка основы события
-event_base_set($event, $base);
+// Установка основы события
+event_base_set($event, $base);
 
-// Включение события
+// Включение события
 event_add($event);
 
-// Запуск цикла обработки
+// Запуск цикла обработки
 event_base_loop($base);
 
-/* То же самое доступно через интерфейс буфера libevent */
+/* То же самое доступно через интерфейс буфера libevent */
 ?>
 ```
 

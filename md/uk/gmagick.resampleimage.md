@@ -15,7 +15,7 @@ Gmagick::resampleimage — Змінює роздільну здатність з
 ### Опис
 
 ```methodsynopsis
-public Gmagick::resampleimage(    float $xResolution,    float $yResolution,    int $filter,    float $blur): Gmagick
+public Gmagick::resampleimage(    float $xResolution,    float $yResolution,    int $filter,    float $blur): Gmagick
 ```
 
 Змінює роздільну здатність зображення до бажаного.

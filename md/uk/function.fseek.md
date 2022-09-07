@@ -53,14 +53,14 @@ fseek(resource $stream, int $offset, int $whence = SEEK_SET): int
 ```php
 <?php
 
-$fp = fopen('somefile.txt', 'r');
+$fp = fopen('somefile.txt', 'r');
 
-// читаем немного данных
-$data = fgets($fp, 4096);
+// читаем немного данных
+$data = fgets($fp, 4096);
 
-// перемещаемся назад к началу файла
-// то же самое, что и rewind($fp);
-fseek($fp, 0);
+// перемещаемся назад к началу файла
+// то же самое, что и rewind($fp);
+fseek($fp, 0);
 
 ?>
 ```

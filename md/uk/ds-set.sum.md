@@ -38,7 +38,7 @@ public Ds\Set::sum(): int|float
 
 ```php
 <?php
-$set = new \Ds\Set([1, 2, 3]);
+$set = new \Ds\Set([1, 2, 3]);
 var_dump($set->sum());
 ?>
 ```
@@ -53,7 +53,7 @@ int(6)
 
 ```php
 <?php
-$set = new \Ds\Set([1, 2.5, 3]);
+$set = new \Ds\Set([1, 2.5, 3]);
 var_dump($set->sum());
 ?>
 ```

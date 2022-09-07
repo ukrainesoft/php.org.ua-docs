@@ -46,9 +46,9 @@ public Imagick::transformImage(string $crop, string $geometry): Imagick
 
 ```php
 <?php
-$image = new Imagick();
-$image->newImage(300, 200, "black");
-$new_image = $image->transformImage("100x100", "100x100");
+$image = new Imagick();
+$image->newImage(300, 200, "black");
+$new_image = $image->transformImage("100x100", "100x100");
 $new_image->writeImage('test_out.jpg');
 ?>
 ```

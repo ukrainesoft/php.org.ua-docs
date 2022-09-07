@@ -34,12 +34,12 @@ public ReflectionFunction::__toString(): string
 
 ```php
 <?php
-function title($title, $name)
+function title($title, $name)
 {
-    return sprintf("%s. %s\r\n", $title, $name);
+    return sprintf("%s. %s\r\n", $title, $name);
 }
 
-echo new ReflectionFunction('title');
+echo new ReflectionFunction('title');
 ?>
 ```
 

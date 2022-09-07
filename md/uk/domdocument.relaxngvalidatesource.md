@@ -18,7 +18,7 @@ DOMDocument::relaxNGValidateSource — Перевіряє документ за 
 public DOMDocument::relaxNGValidateSource(string $source): bool
 ```
 
-Застосовує перевірку [» relaxNG](http://www.relaxng.org/) документа на відповідність заданому джерелу RNG.
+Застосовує перевірку [» relaxNG](http://www.relaxng.org/) документа на відповідність заданому джерелу RNG.
 
 ### Список параметрів
 

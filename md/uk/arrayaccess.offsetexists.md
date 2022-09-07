@@ -46,39 +46,39 @@ public ArrayAccess::offsetExists(mixed $offset): bool
 
 ```php
 <?php
-class obj implements ArrayAccess {
-    public function offsetSet($offset, $value): void {
-        var_dump(__METHOD__);
-    }
+class obj implements ArrayAccess {
+    public function offsetSet($offset, $value): void {
+        var_dump(__METHOD__);
+    }
 
-    public function offsetExists($var): bool {
-        var_dump(__METHOD__);
-        if ($var == "foobar") {
-            return true;
-        }
-        return false;
-    }
+    public function offsetExists($var): bool {
+        var_dump(__METHOD__);
+        if ($var == "foobar") {
+            return true;
+        }
+        return false;
+    }
 
-    public function offsetUnset($var): void {
-        var_dump(__METHOD__);
-    }
+    public function offsetUnset($var): void {
+        var_dump(__METHOD__);
+    }
 
-    #[ReturnTypeWillChange]
-    public function offsetGet($var) {
-        var_dump(__METHOD__);
-        return "value";
-    }
+    #[ReturnTypeWillChange]
+    public function offsetGet($var) {
+        var_dump(__METHOD__);
+        return "value";
+    }
 }
 
-$obj = new obj;
+$obj = new obj;
 
-echo "Выполняется obj::offsetExists()\n";
+echo "Выполняется obj::offsetExists()\n";
 var_dump(isset($obj["foobar"]));
 
-echo "\nВыполняется obj::offsetExists() и obj::offsetGet()\n";
+echo "\nВыполняется obj::offsetExists() и obj::offsetGet()\n";
 var_dump(empty($obj["foobar"]));
 
-echo "\nВыполняется obj::offsetExists(), но *не* obj:offsetGet(), поскольку нечего возвращать\n";
+echo "\nВыполняется obj::offsetExists(), но *не* obj:offsetGet(), поскольку нечего возвращать\n";
 var_dump(empty($obj["foobaz"]));
 ?>
 ```

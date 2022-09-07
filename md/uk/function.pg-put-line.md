@@ -62,13 +62,13 @@ pg_put_line(PgSql\Connection $connection = ?, string $data): bool
 
 ```php
 <?php
-  $conn = pg_pconnect("dbname=foo");
-  pg_query($conn, "create table bar (a int4, b char(16), d float8)");
-  pg_query($conn, "copy bar from stdin");
-  pg_put_line($conn, "3\thello world\t4.5\n");
-  pg_put_line($conn, "4\tgoodbye world\t7.11\n");
-  pg_put_line($conn, "\\.\n");
-  pg_end_copy($conn);
+  $conn = pg_pconnect("dbname=foo");
+  pg_query($conn, "create table bar (a int4, b char(16), d float8)");
+  pg_query($conn, "copy bar from stdin");
+  pg_put_line($conn, "3\thello world\t4.5\n");
+  pg_put_line($conn, "4\tgoodbye world\t7.11\n");
+  pg_put_line($conn, "\\.\n");
+  pg_end_copy($conn);
 ?>
 ```
 

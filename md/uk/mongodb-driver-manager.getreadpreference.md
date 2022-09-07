@@ -39,10 +39,10 @@ final public MongoDB\Driver\Manager::getReadPreference(): MongoDB\Driver\ReadPre
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
 var_dump($manager->getReadPreference());
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017/?readPreference=secondaryPreferred&readPreferenceTags=dc:ny,rack:1&readPreferenceTags=dc:ny&readPreferenceTags=');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017/?readPreference=secondaryPreferred&readPreferenceTags=dc:ny,rack:1&readPreferenceTags=dc:ny&readPreferenceTags=');
 var_dump($manager->getReadPreference());
 
 ?>

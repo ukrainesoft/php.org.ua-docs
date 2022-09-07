@@ -36,11 +36,11 @@ strlen(string $string): int
 
 ```php
 <?php
-$str = 'abcdef';
-echo strlen($str); // 6
+$str = 'abcdef';
+echo strlen($str); // 6
 
-$str = ' ab cd ';
-echo strlen($str); // 7
+$str = ' ab cd ';
+echo strlen($str); // 7
 ?>
 ```
 

@@ -40,11 +40,11 @@ public Imagick::charcoalImage(float $radius, float $sigma): bool
 
 ```php
 <?php
-function charcoalImage($imagePath, $radius, $sigma) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->charcoalImage($radius, $sigma);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function charcoalImage($imagePath, $radius, $sigma) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->charcoalImage($radius, $sigma);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

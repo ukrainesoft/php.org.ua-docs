@@ -42,14 +42,14 @@ public Yaf_Loader::registerLocalNamespace(mixed $prefix): void
 
 ```php
 <?php
-$loader = Yaf_Loader::getInstance('/local/library/', '/global/library');
+$loader = Yaf_Loader::getInstance('/local/library/', '/global/library');
 $loader->registerLocalNamespace("Baidu");
-$loader->registerLocalNamespace(array("Sina", "Weibo"));
+$loader->registerLocalNamespace(array("Sina", "Weibo"));
 
-$loader->autoload("Baidu_Name"); // будет искать в '/local/library/'
-$loader->autoload("Sina");       // будет искать в '/local/library/'
-$loader->autoload("Global_Name");// будет искать в '/global/library/'
-$loader->autoload("Foo_Bar");    // будет искать в '/global/library/'
+$loader->autoload("Baidu_Name"); // будет искать в '/local/library/'
+$loader->autoload("Sina");       // будет искать в '/local/library/'
+$loader->autoload("Global_Name");// будет искать в '/global/library/'
+$loader->autoload("Foo_Bar");    // будет искать в '/global/library/'
 
 ?>
 ```

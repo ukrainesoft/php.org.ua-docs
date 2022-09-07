@@ -61,9 +61,9 @@ realpath(string $path): string|false
 ```php
 <?php
 chdir('/var/www/');
-echo realpath('./../../etc/passwd') . PHP_EOL;
+echo realpath('./../../etc/passwd') . PHP_EOL;
 
-echo realpath('/tmp/') . PHP_EOL;
+echo realpath('/tmp/') . PHP_EOL;
 ?>
 ```
 
@@ -80,9 +80,9 @@ echo realpath('/tmp/') . PHP_EOL;
 
 ```php
 <?php
-echo realpath('/windows/system32'), PHP_EOL;
+echo realpath('/windows/system32'), PHP_EOL;
 
-echo realpath('C:\Program Files\\'), PHP_EOL;
+echo realpath('C:\Program Files\\'), PHP_EOL;
 ?>
 ```
 

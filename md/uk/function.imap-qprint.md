@@ -18,7 +18,7 @@ imapqprint — Перетворити рядок з формату "quoted-print
 imap_qprint(string $string): string|false
 ```
 
-Перетворює рядок з формату "quoted-printable" на 8-бітовий рядок відповідно до [» RFC2045](http://www.faqs.org/rfcs/rfc2045)секція 6.7.
+Перетворює рядок з формату "quoted-printable" на 8-бітовий рядок відповідно до [» RFC2045](http://www.faqs.org/rfcs/rfc2045)секція 6.7.
 
 ### Список параметрів
 

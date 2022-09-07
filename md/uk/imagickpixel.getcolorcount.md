@@ -38,11 +38,11 @@ ImagickPixel::getColorCount може працювати тільки з об'є�
 
 ```php
 <?php
-    $imagick = new \Imagick();
-    $imagick->newPseudoImage(640, 480, "magick:logo");
-    $histogramElements = $imagick->getImageHistogram();
-    $lastColor = array_pop($histogramElements);
-    echo "Last pixel color count is: ".$lastColor->getColorCount();
+    $imagick = new \Imagick();
+    $imagick->newPseudoImage(640, 480, "magick:logo");
+    $histogramElements = $imagick->getImageHistogram();
+    $lastColor = array_pop($histogramElements);
+    echo "Last pixel color count is: ".$lastColor->getColorCount();
 ?>
 ```
 

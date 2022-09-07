@@ -41,19 +41,19 @@ class_implements(object|string $object_or_class, bool $autoload = true): array|f
 ```php
 <?php
 
-interface foo { }
-class bar implements foo {}
+interface foo { }
+class bar implements foo {}
 
-print_r(class_implements(new bar));
+print_r(class_implements(new bar));
 
-// можно передавать имя класса вместо объекта
+// можно передавать имя класса вместо объекта
 print_r(class_implements('bar'));
 
 
 spl_autoload_register();
 
-// использование автозагрузки для загрузки ещё незагруженного класса 'not_loaded'
-print_r(class_implements('not_loaded', true));
+// использование автозагрузки для загрузки ещё незагруженного класса 'not_loaded'
+print_r(class_implements('not_loaded', true));
 
 ?>
 ```

@@ -15,7 +15,7 @@ mqseriesconn - MQSeries MQCONN
 ### Опис
 
 ```methodsynopsis
-mqseries_conn(    string $qManagerName,    resource &$hconn,    resource &$compCode,    resource &$reason): void
+mqseries_conn(    string $qManagerName,    resource &$hconn,    resource &$compCode,    resource &$reason): void
 ```
 
 Функція **mqseriesconn()** (MQCONN) відкриває з'єднання з менеджером черг. Вона повертає обробник з'єднання, який використовується всіма іншими функціями модуля.
@@ -52,11 +52,11 @@ mqseries_conn(    string $qManagerName,    resource &$hconn,    reso
 
 ```php
 <?php
-    mqseries_conn('WMQ1', $conn, $comp_code, $reason);
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("conn CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-        exit;
-    }
+    mqseries_conn('WMQ1', $conn, $comp_code, $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("conn CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+        exit;
+    }
 ?>
 ```
 

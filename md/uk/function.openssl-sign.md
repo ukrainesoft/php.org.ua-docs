@@ -15,7 +15,7 @@ opensslsign — Генерація підпису
 ### Опис
 
 ```methodsynopsis
-openssl_sign(    string $data,    string &$signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): bool
+openssl_sign(    string $data,    string &$signature,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string|int $algorithm = OPENSSL_ALGO_SHA1): bool
 ```
 
 **opensslsign()** обчислює підпис даних `data` шляхом генерації криптографічного цифрового зліпка з використанням секретного ключа `private_key`. Зверніть увагу, що дані не шифруються.
@@ -58,15 +58,15 @@ openssl_sign(    string $data,    string &$signature,    OpenSSLAsym
 
 ```php
 <?php
-// $data содержит данные для генерации подписи
+// $data содержит данные для генерации подписи
 
-// Извлекаем секретный ключ из файла и подготавливаем
-$pkeyid = openssl_pkey_get_private("file://src/openssl-0.9.6/demos/sign/key.pem");
+// Извлекаем секретный ключ из файла и подготавливаем
+$pkeyid = openssl_pkey_get_private("file://src/openssl-0.9.6/demos/sign/key.pem");
 
-// Вычисляем подпись
-openssl_sign($data, $signature, $pkeyid);
+// Вычисляем подпись
+openssl_sign($data, $signature, $pkeyid);
 
-// Высвобождаем ресурс ключа
+// Высвобождаем ресурс ключа
 openssl_free_key($pkeyid);
 ?>
 ```
@@ -75,29 +75,29 @@ openssl_free_key($pkeyid);
 
 ```php
 <?php
-//Данные для генерации сигнатуры
-$data = 'my data';
+//Данные для генерации сигнатуры
+$data = 'my data';
 
-//Создаём новую пару открытый/закрытый ключ
-$new_key_pair = openssl_pkey_new(array(
-    "private_key_bits" => 2048,
-    "private_key_type" => OPENSSL_KEYTYPE_RSA,
+//Создаём новую пару открытый/закрытый ключ
+$new_key_pair = openssl_pkey_new(array(
+    "private_key_bits" => 2048,
+    "private_key_type" => OPENSSL_KEYTYPE_RSA,
 ));
-openssl_pkey_export($new_key_pair, $private_key_pem);
+openssl_pkey_export($new_key_pair, $private_key_pem);
 
-$details = openssl_pkey_get_details($new_key_pair);
-$public_key_pem = $details['key'];
+$details = openssl_pkey_get_details($new_key_pair);
+$public_key_pem = $details['key'];
 
-//Вычисляем подпись
-openssl_sign($data, $signature, $private_key_pem, OPENSSL_ALGO_SHA256);
+//Вычисляем подпись
+openssl_sign($data, $signature, $private_key_pem, OPENSSL_ALGO_SHA256);
 
 //Сохраняем
-file_put_contents('private_key.pem', $private_key_pem);
-file_put_contents('public_key.pem', $public_key_pem);
-file_put_contents('signature.dat', $signature);
+file_put_contents('private_key.pem', $private_key_pem);
+file_put_contents('public_key.pem', $public_key_pem);
+file_put_contents('signature.dat', $signature);
 
-//Сверяем подпись
-$r = openssl_verify($data, $signature, $public_key_pem, "sha256WithRSAEncryption");
+//Сверяем подпись
+$r = openssl_verify($data, $signature, $public_key_pem, "sha256WithRSAEncryption");
 var_dump($r);
 ?>
 ```

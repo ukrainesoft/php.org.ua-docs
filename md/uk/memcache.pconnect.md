@@ -45,12 +45,12 @@ Memcache::pconnect(string $host, int $port = ?, int $timeout = ?): mixed
 ```php
 <?php
 
-/* процедурное API */
-$memcache_obj = memcache_pconnect('memcache_host', 11211);
+/* процедурное API */
+$memcache_obj = memcache_pconnect('memcache_host', 11211);
 
-/* объектно-ориентированное API */
-$memcache_obj = new Memcache;
-$memcache_obj->pconnect('memcache_host', 11211);
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->pconnect('memcache_host', 11211);
 
 ?>
 ```

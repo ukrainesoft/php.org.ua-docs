@@ -12,13 +12,13 @@ title: Використання пакетів
 
 Найшвидший спосіб встановити PHP на macOS - за допомогою homebrew:
 
-1.  Встановіть homebrew, дотримуючись інструкцій на [» brew.sh](https://brew.sh/)
+1.  Встановіть homebrew, дотримуючись інструкцій на [» brew.sh](https://brew.sh/)
     
 2.  brew install php
     
 
 Наступні альтернативні ресурси також пропонують прості в установці пакети та попередньо скомпіловані двійкові файли для PHP у Mac OS:
 
--   MacPorts: [» http://www.macports.org/](http://www.macports.org/)
--   Liip: [» http://php-osx.liip.ch/](http://php-osx.liip.ch/) (PHP 5.3 - PHP 7.3; застаріло)
--   Fink: [» http://www.finkproject.org/](http://www.finkproject.org/)
+-   MacPorts: [» http://www.macports.org/](http://www.macports.org/)
+-   Liip: [» http://php-osx.liip.ch/](http://php-osx.liip.ch/) (PHP 5.3 - PHP 7.3; застаріло)
+-   Fink: [» http://www.finkproject.org/](http://www.finkproject.org/)

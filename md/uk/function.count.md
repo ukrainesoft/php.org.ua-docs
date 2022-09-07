@@ -51,14 +51,14 @@ count(Countable|array $value, int $mode = COUNT_NORMAL): int
 
 ```php
 <?php
-$a[0] = 1;
-$a[1] = 3;
-$a[2] = 5;
+$a[0] = 1;
+$a[1] = 3;
+$a[2] = 5;
 var_dump(count($a));
 
-$b[0]  = 7;
-$b[5]  = 9;
-$b[10] = 11;
+$b[0]  = 7;
+$b[5]  = 9;
+$b[10] = 11;
 var_dump(count($b));
 ?>
 ```
@@ -74,9 +74,9 @@ int(3)
 
 ```php
 <?php
-$b[0]  = 7;
-$b[5]  = 9;
-$b[10] = 11;
+$b[0]  = 7;
+$b[5]  = 9;
+$b[10] = 11;
 var_dump(count($b));
 
 var_dump(count(null));
@@ -117,13 +117,13 @@ Fatal error: Uncaught TypeError: count(): Argument #1 ($var) must be of type Cou
 
 ```php
 <?php
-$food = array('fruits' => array('orange', 'banana', 'apple'),
-              'veggie' => array('carrot', 'collard', 'pea'));
+$food = array('fruits' => array('orange', 'banana', 'apple'),
+              'veggie' => array('carrot', 'collard', 'pea'));
 
-// рекурсивный подсчёт
-var_dump(count($food, COUNT_RECURSIVE));
+// рекурсивный подсчёт
+var_dump(count($food, COUNT_RECURSIVE));
 
-// обычный подсчёт
+// обычный подсчёт
 var_dump(count($food));
 
 ?>
@@ -140,19 +140,19 @@ int(2)
 
 ```php
 <?php
-class CountOfMethods implements Countable
+class CountOfMethods implements Countable
 {
-    private function someMethod()
-    {
-    }
+    private function someMethod()
+    {
+    }
 
-    public function count(): int
-    {
-        return count(get_class_methods($this));
-    }
+    public function count(): int
+    {
+        return count(get_class_methods($this));
+    }
 }
 
-$obj = new CountOfMethods();
+$obj = new CountOfMethods();
 var_dump(count($obj));
 ?>
 ```

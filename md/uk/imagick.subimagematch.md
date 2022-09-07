@@ -38,19 +38,19 @@ public Imagick::subImageMatch(Imagick $Imagick, array &$offset = ?, float &$simi
 
 ```php
 <?php
-function subImageMatch($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick2 = clone $imagick;
-    $imagick2->cropimage(40, 40, 250, 110);
-    $imagick2->vignetteimage(0, 1, 3, 3);
+function subImageMatch($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick2 = clone $imagick;
+    $imagick2->cropimage(40, 40, 250, 110);
+    $imagick2->vignetteimage(0, 1, 3, 3);
 
-    $similarity = null;
-    $bestMatch = null;
-    $comparison = $imagick->subImageMatch($imagick2, $bestMatch, $similarity);
+    $similarity = null;
+    $bestMatch = null;
+    $comparison = $imagick->subImageMatch($imagick2, $bestMatch, $similarity);
 
-    $comparison->setImageFormat('png');
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    $comparison->setImageFormat('png');
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

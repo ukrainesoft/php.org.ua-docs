@@ -37,24 +37,24 @@ oci_num_rows(resource $statement): int|false
 ```php
 <?php
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-if (!$conn) {
-    $m = oci_error();
-    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, "create table emp2 as select * from employees");
+$stid = oci_parse($conn, "create table emp2 as select * from employees");
 oci_execute($stid);
-echo oci_num_rows($stid) . " строк вставлено.<br />\n";
+echo oci_num_rows($stid) . " строк вставлено.<br />\n";
 oci_free_statement($stid);
 
-$stid = oci_parse($conn, "delete from emp2");
-oci_execute($stid, OCI_DEFAULT);
-echo oci_num_rows($stid) . " строк удалено.<br />\n";
+$stid = oci_parse($conn, "delete from emp2");
+oci_execute($stid, OCI_DEFAULT);
+echo oci_num_rows($stid) . " строк удалено.<br />\n";
 oci_commit($conn);
 oci_free_statement($stid);
 
-$stid = oci_parse($conn, "drop table emp2");
+$stid = oci_parse($conn, "drop table emp2");
 oci_execute($stid);
 oci_free_statement($stid);
 

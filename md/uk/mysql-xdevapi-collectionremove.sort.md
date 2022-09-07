@@ -41,7 +41,7 @@ public mysql_xdevapi\CollectionRemove::sort(string $sort_expr): mysql_xdevapi\Co
 ```php
 <?php
 
-$res = $coll->remove('true')->sort('age desc')->limit(2)->execute();
+$res = $coll->remove('true')->sort('age desc')->limit(2)->execute();
 
 ?>
 ```

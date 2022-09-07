@@ -40,21 +40,21 @@ public Threaded::merge(mixed $from, bool $overwrite = ?): bool
 
 ```php
 <?php
-$array = [];
+$array = [];
 
-while (count($array) < 10)
-    $array[] = count($array);
+while (count($array) < 10)
+    $array[] = count($array);
 
-$stdClass = new stdClass();
-$stdClass->foo = "foo";
-$stdClass->bar = "bar";
-$stdClass->baz = "baz";
+$stdClass = new stdClass();
+$stdClass->foo = "foo";
+$stdClass->bar = "bar";
+$stdClass->baz = "baz";
 
-$safe = new Threaded();
+$safe = new Threaded();
 $safe->merge($array);
 
-$safe->foo = "bar";
-$safe->merge($stdClass, false);
+$safe->foo = "bar";
+$safe->merge($stdClass, false);
 
 var_dump($safe);
 ?>

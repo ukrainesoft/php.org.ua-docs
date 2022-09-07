@@ -38,8 +38,8 @@ public SQLite3::exec(string $query): bool
 
 ```php
 <?php
-$db = new SQLite3('mysqlitedb.db');
+$db = new SQLite3('mysqlitedb.db');
 
-$db->exec('CREATE TABLE bar (bar TEXT)');
+$db->exec('CREATE TABLE bar (bar TEXT)');
 ?>
 ```

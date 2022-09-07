@@ -15,7 +15,7 @@ opensslpkcs7verify — Перевірити підпис повідомленн�
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?string $signers_certificates_filename = null,    array $ca_info = [],    ?string $untrusted_certificates_filename = null,    ?string $content = null,    ?string $output_filename = null): bool|int
+openssl_pkcs7_verify(    string $input_filename,    int $flags,    ?string $signers_certificates_filename = null,    array $ca_info = [],    ?string $untrusted_certificates_filename = null,    ?string $content = null,    ?string $output_filename = null): bool|int
 ```
 
 **opensslpkcs7verify()** читає S/MIME повідомлення з файлу та перевіряє його підпис.

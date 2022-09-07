@@ -41,9 +41,9 @@ public ImagickPixel::setColorValue(int $color, float $value): bool
 ```php
 <?php
 
-$color  = new \ImagickPixel('firebrick');
+$color  = new \ImagickPixel('firebrick');
 
-$color->setColorValue(Imagick::COLOR_ALPHA, 0.5);
+$color->setColorValue(Imagick::COLOR_ALPHA, 0.5);
 
 print_r($color->getcolor(true));
 ?>

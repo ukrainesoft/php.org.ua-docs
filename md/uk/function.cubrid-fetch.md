@@ -51,16 +51,16 @@ cubrid_fetch(resource $result, int $type = CUBRID_BOTH): mixed
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$req = cubrid_execute($conn, "SELECT * FROM stadium WHERE nation_code='GRE' AND seats > 10000");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$req = cubrid_execute($conn, "SELECT * FROM stadium WHERE nation_code='GRE' AND seats > 10000");
 
-printf("%-40s %-10s %-6s %-20s\n", "name", "area", "seats", "address");
-while ($row = cubrid_fetch($req)) {
-    printf("%-40s %-10s %-6s %-20s\n",
-        $row["name"], $row["area"], $row["seats"], $row["address"]);
+printf("%-40s %-10s %-6s %-20s\n", "name", "area", "seats", "address");
+while ($row = cubrid_fetch($req)) {
+    printf("%-40s %-10s %-6s %-20s\n",
+        $row["name"], $row["area"], $row["seats"], $row["address"]);
 }
 
-// для управления LOB-объектом, можно использовать cubrid_fetch($req, CUBRID_LOB)
+// для управления LOB-объектом, можно использовать cubrid_fetch($req, CUBRID_LOB)
 
 cubrid_close_request($req);
 

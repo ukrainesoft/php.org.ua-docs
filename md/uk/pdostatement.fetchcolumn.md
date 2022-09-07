@@ -44,16 +44,16 @@ public PDOStatement::fetchColumn(int $column = 0): mixed
 
 ```php
 <?php
-$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
 $sth->execute();
 
-print("Получение значения первого столбца первой строки:\n");
-$result = $sth->fetchColumn();
-print("name = $result\n");
+print("Получение значения первого столбца первой строки:\n");
+$result = $sth->fetchColumn();
+print("name = $result\n");
 
-print("Получение значения второго столбца второй строки:\n");
-$result = $sth->fetchColumn(1);
-print("colour = $result\n");
+print("Получение значения второго столбца второй строки:\n");
+$result = $sth->fetchColumn(1);
+print("colour = $result\n");
 ?>
 ```
 

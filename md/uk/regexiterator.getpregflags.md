@@ -35,16 +35,16 @@ public RegexIterator::getPregFlags(): int
 ```php
 <?php
 
-$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
+$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');
 
-$arrayIterator = new ArrayIterator($test);
-$regexIterator = new RegexIterator($arrayIterator, '/\s/', RegexIterator::SPLIT);
-$regexIterator->setPregFlags(PREG_SPLIT_NO_EMPTY | PREG_SPLIT_OFFSET_CAPTURE);
+$arrayIterator = new ArrayIterator($test);
+$regexIterator = new RegexIterator($arrayIterator, '/\s/', RegexIterator::SPLIT);
+$regexIterator->setPregFlags(PREG_SPLIT_NO_EMPTY | PREG_SPLIT_OFFSET_CAPTURE);
 
-if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {
-    echo 'Не принимать во внимание пустые участки';
-} else {
-    echo 'Рассматривать пустые участки';
+if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {
+    echo 'Не принимать во внимание пустые участки';
+} else {
+    echo 'Рассматривать пустые участки';
 }
 
 ?>

@@ -56,12 +56,12 @@ string `$string`
 
 ```php
 <?php
-function test($x)
+function test($x)
 {
-    return new SoapFault("Server", "Сообщение об ошибке");
+    return new SoapFault("Server", "Сообщение об ошибке");
 }
 
-$server = new SoapServer(null, array('uri' => "http://test-uri/"));
+$server = new SoapServer(null, array('uri' => "http://test-uri/"));
 $server->addFunction("test");
 $server->handle();
 ?>
@@ -73,12 +73,12 @@ $server->handle();
 
 ```php
 <?php
-function test($x)
+function test($x)
 {
-    throw new SoapFault("Server", "Some error message");
+    throw new SoapFault("Server", "Some error message");
 }
 
-$server = new SoapServer(null, array('uri' => "http://test-uri/"));
+$server = new SoapServer(null, array('uri' => "http://test-uri/"));
 $server->addFunction("test");
 $server->handle();
 ?>

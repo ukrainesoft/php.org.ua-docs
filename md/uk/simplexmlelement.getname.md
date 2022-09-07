@@ -38,14 +38,14 @@ public SimpleXMLElement::getName(): string
 
 ```php
 <?php
-include 'example.php';
-$sxe = new SimpleXMLElement($xmlstr);
+include 'example.php';
+$sxe = new SimpleXMLElement($xmlstr);
 
-echo $sxe->getName() . "\n";
+echo $sxe->getName() . "\n";
 
-foreach ($sxe->children() as $child)
+foreach ($sxe->children() as $child)
 {
-    echo $child->getName() . "\n";
+    echo $child->getName() . "\n";
 }
 
 ?>

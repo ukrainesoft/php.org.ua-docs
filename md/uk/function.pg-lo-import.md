@@ -60,10 +60,10 @@ OID створеного великого об'єкта або **`false`** у р
 
 ```php
 <?php
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $oid = pg_lo_import($database, '/tmp/lob.dat');
-   pg_query($database, "commit");
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $oid = pg_lo_import($database, '/tmp/lob.dat');
+   pg_query($database, "commit");
 ?>
 ```
 

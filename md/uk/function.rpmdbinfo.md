@@ -41,7 +41,7 @@ rpmdbinfo(string $nevr, bool $full = false): array
 ```php
 <?php
 rpmaddtag(RPMTAG_INSTALLTIME);
-$info = rpmdbinfo("php-pecl-rpminfo");
+$info = rpmdbinfo("php-pecl-rpminfo");
 print_r($info);
 ?>
 ```

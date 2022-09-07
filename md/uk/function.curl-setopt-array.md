@@ -46,20 +46,20 @@ curl_setopt_array(CurlHandle $handle, array $options): bool
 
 ```php
 <?php
-// создание нового ресурса cURL
-$ch = curl_init();
+// создание нового ресурса cURL
+$ch = curl_init();
 
-// установка URL и других соответствующих параметров
-$options = array(CURLOPT_URL => 'http://www.example.com/',
-                 CURLOPT_HEADER => false
-                );
+// установка URL и других соответствующих параметров
+$options = array(CURLOPT_URL => 'http://www.example.com/',
+                 CURLOPT_HEADER => false
+                );
 
-curl_setopt_array($ch, $options);
+curl_setopt_array($ch, $options);
 
-// загрузка URL и её выдача в браузер
+// загрузка URL и её выдача в браузер
 curl_exec($ch);
 
-// закрытие ресурса cURL и освобождение системных ресурсов
+// закрытие ресурса cURL и освобождение системных ресурсов
 curl_close($ch);
 ?>
 ```

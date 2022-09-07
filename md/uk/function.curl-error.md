@@ -42,20 +42,20 @@ curl_error(CurlHandle $handle): string
 
 ```php
 <?php
-// Создаём дескриптор curl к несуществующему адресу
-$ch = curl_init('http://404.php.net/');
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+// Создаём дескриптор curl к несуществующему адресу
+$ch = curl_init('http://404.php.net/');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-if(curl_exec($ch) === false)
+if(curl_exec($ch) === false)
 {
-    echo 'Ошибка curl: ' . curl_error($ch);
+    echo 'Ошибка curl: ' . curl_error($ch);
 }
 else
 {
-    echo 'Операция завершена без каких-либо ошибок';
+    echo 'Операция завершена без каких-либо ошибок';
 }
 
-// Закрываем дескриптор
+// Закрываем дескриптор
 curl_close($ch);
 ?>
 ```
@@ -63,4 +63,4 @@ curl_close($ch);
 ### Дивіться також
 
 -   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки
--   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+-   [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

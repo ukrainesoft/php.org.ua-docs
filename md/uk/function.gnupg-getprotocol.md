@@ -34,8 +34,8 @@ gnupg_getprotocol(resource $identifier): int
 
 ```php
 <?php
-$res = gnupg_init();
-echo gnupg_getprotocol($res);
+$res = gnupg_init();
+echo gnupg_getprotocol($res);
 ?>
 ```
 
@@ -43,7 +43,7 @@ echo gnupg_getprotocol($res);
 
 ```php
 <?php
-$gpg = new gnupg();
-echo $gpg->getprotocol();
+$gpg = new gnupg();
+echo $gpg->getprotocol();
 ?>
 ```

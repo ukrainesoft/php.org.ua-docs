@@ -54,5 +54,5 @@ mysql_set_charset(string $charset, resource $link_identifier = NULL): bool
 ### Дивіться також
 
 -   [Налаштування коду символів у MySQL](mysqlinfo.concepts.charset.md)
--   [» Список підтримуваних MySQL кодувань](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)
+-   [» Список підтримуваних MySQL кодувань](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)
 -   [mysqlclientencoding()](function.mysql-client-encoding.md) - Повертає кодування з'єднання

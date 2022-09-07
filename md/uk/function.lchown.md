@@ -42,11 +42,11 @@ lchown(string $filename, string|int $user): bool
 
 ```php
 <?php
-$target = 'output.php';
-$link = 'output.html';
-symlink($target, $link);
+$target = 'output.php';
+$link = 'output.html';
+symlink($target, $link);
 
-lchown($link, 8);
+lchown($link, 8);
 ?>
 ```
 

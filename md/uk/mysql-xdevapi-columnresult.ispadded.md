@@ -37,7 +37,7 @@ public mysql_xdevapi\ColumnResult::isPadded(): int
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

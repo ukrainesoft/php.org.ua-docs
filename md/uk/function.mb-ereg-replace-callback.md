@@ -15,7 +15,7 @@ title: мбeregreplacecallback
 ### Опис
 
 ```methodsynopsis
-mb_ereg_replace_callback(    string $pattern,    callable $callback,    string $string,    ?string $options = null): string|false|null
+mb_ereg_replace_callback(    string $pattern,    callable $callback,    string $string,    ?string $options = null): string|false|null
 ```
 
 Перевіряє рядок `string` на збіг із шаблоном `pattern`потім замінює знайдений текст результатом функції `callback`
@@ -61,22 +61,22 @@ mb_ereg_replace_callback(    string $pattern,    callable $callback,  
 
 ```php
 <?php
-// этот текст использовался в 2002
-// мы хотим обновить для использования его в 2003
-$text = "День смеха - 04/01/2002\n";
-$text.= "Последнее Рождество было 12/24/2001\n";
-// callback-функция
-function next_year($matches)
+// этот текст использовался в 2002
+// мы хотим обновить для использования его в 2003
+$text = "День смеха - 04/01/2002\n";
+$text.= "Последнее Рождество было 12/24/2001\n";
+// callback-функция
+function next_year($matches)
 {
-  // как обычно: в $matches[0] будет полное совпадение
-  // $matches[1] - совпадение для первого маски,
-  // заключённой в '(...)' и т.д.
-  return $matches[1].($matches[2]+1);
+  // как обычно: в $matches[0] будет полное совпадение
+  // $matches[1] - совпадение для первого маски,
+  // заключённой в '(...)' и т.д.
+  return $matches[1].($matches[2]+1);
 }
-echo mb_ereg_replace_callback(
-            "(\d{2}/\d{2}/)(\d{4})",
-            "next_year",
-            $text);
+echo mb_ereg_replace_callback(
+            "(\d{2}/\d{2}/)(\d{4})",
+            "next_year",
+            $text);
 
 ?>
 ```
@@ -92,17 +92,17 @@ echo mb_ereg_replace_callback(
 
 ```php
 <?php
-// этот текст использовался в 2002
-// мы хотим обновить для использования его в 2003
-$text = "День смеха - 04/01/2002\n";
-$text.= "Последнее Рождество было 12/24/2001\n";
+// этот текст использовался в 2002
+// мы хотим обновить для использования его в 2003
+$text = "День смеха - 04/01/2002\n";
+$text.= "Последнее Рождество было 12/24/2001\n";
 
-echo mb_ereg_replace_callback(
-            "(\d{2}/\d{2}/)(\d{4})",
-            function ($matches) {
-               return $matches[1].($matches[2]+1);
-            },
-            $text);
+echo mb_ereg_replace_callback(
+            "(\d{2}/\d{2}/)(\d{4})",
+            function ($matches) {
+               return $matches[1].($matches[2]+1);
+            },
+            $text);
 ?>
 ```
 

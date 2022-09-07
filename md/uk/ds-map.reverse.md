@@ -34,7 +34,7 @@ public Ds\Map::reverse(): void
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 $map->reverse();
 
 print_r($map);

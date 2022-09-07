@@ -46,9 +46,9 @@ callback(mixed $value): mixed
 
 ```php
 <?php
-$vector = new \Ds\Vector([1, 2, 3]);
+$vector = new \Ds\Vector([1, 2, 3]);
 
-print_r($vector->map(function($value) { return $value * 2; }));
+print_r($vector->map(function($value) { return $value * 2; }));
 print_r($vector);
 ?>
 ```

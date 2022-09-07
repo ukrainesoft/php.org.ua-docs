@@ -48,14 +48,14 @@ pg_lo_truncate(PgSql\Lob $lob, int $size): bool
 
 ```php
 <?php
-   $doc_oid = 189762345;
-   $database = pg_connect("dbname=jacarta");
-   pg_query($database, "begin");
-   $handle = pg_lo_open($database, $doc_oid, "r");
-   // Обрезать до 0
-   pg_lo_truncate($handle, 0);
-   pg_query($database, "commit");
-   echo $data;
+   $doc_oid = 189762345;
+   $database = pg_connect("dbname=jacarta");
+   pg_query($database, "begin");
+   $handle = pg_lo_open($database, $doc_oid, "r");
+   // Обрезать до 0
+   pg_lo_truncate($handle, 0);
+   pg_query($database, "commit");
+   echo $data;
 ?>
 ```
 

@@ -47,11 +47,11 @@ public Memcached::setOption(int $option, mixed $value): bool
 
 ```php
 <?php
-$m = new Memcached();
-var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);
-$m->setOption(Memcached::OPT_HASH, Memcached::HASH_MURMUR);
-$m->setOption(Memcached::OPT_PREFIX_KEY, "widgets");
-echo "Prefix key is now: ", $m->getOption(Memcached::OPT_PREFIX_KEY), "\n";
+$m = new Memcached();
+var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);
+$m->setOption(Memcached::OPT_HASH, Memcached::HASH_MURMUR);
+$m->setOption(Memcached::OPT_PREFIX_KEY, "widgets");
+echo "Prefix key is now: ", $m->getOption(Memcached::OPT_PREFIX_KEY), "\n";
 ?>
 ```
 

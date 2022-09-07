@@ -40,7 +40,7 @@ phpinfo(int $flags = INFO_ALL): bool
 | INFOMODULES |  | Завантажені модулі та їх налаштування. Дивіться також [getloadedextensions()](function.get-loaded-extensions.md) |
 | INFOENVIRONMENT |  | Інформація про змінні оточення, яка також доступна в [ENV](reserved.variables.environment.md) |
 | INFOVARIABLES |  | Виводить все [зумовлені змінні](language.variables.predefined.md) з EGPCS (Environment, GET, POST, Cookie, Server). |
-| INFOLICENSE |  | Інформація про ліцензію PHP. Дивіться також [» license FAQ](https://www.php.net/license/) |
+| INFOLICENSE |  | Інформація про ліцензію PHP. Дивіться також [» license FAQ](https://www.php.net/license/) |
 | INFOALL |  | Виводить все наведене вище. |
 
 ### Значення, що повертаються
@@ -54,11 +54,11 @@ phpinfo(int $flags = INFO_ALL): bool
 ```php
 <?php
 
-// Показывать всю информацию, по умолчанию INFO_ALL
+// Показывать всю информацию, по умолчанию INFO_ALL
 phpinfo();
 
-// Показывать информацию только о загруженных модулях.
-// phpinfo(8) выдаёт тот же результат.
+// Показывать информацию только о загруженных модулях.
+// phpinfo(8) выдаёт тот же результат.
 phpinfo(INFO_MODULES);
 
 ?>

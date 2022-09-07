@@ -40,11 +40,11 @@ odbc_data_source(resource $odbc, int $fetch_type): array|false
 
 ```php
 <?php
-$conn = odbc_connect('dsn', 'user', 'pass');
-$dsn_info = odbc_data_source($conn, SQL_FETCH_FIRST);
-while ($dsn_info) {
-    print_r($dsn_info);
-    $dsn_info = odbc_data_source($conn, SQL_FETCH_NEXT);
+$conn = odbc_connect('dsn', 'user', 'pass');
+$dsn_info = odbc_data_source($conn, SQL_FETCH_FIRST);
+while ($dsn_info) {
+    print_r($dsn_info);
+    $dsn_info = odbc_data_source($conn, SQL_FETCH_NEXT);
 }
 ?>
 ```

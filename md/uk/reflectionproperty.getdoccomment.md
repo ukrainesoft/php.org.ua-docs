@@ -34,15 +34,15 @@ Doc-коментар, якщо він існує, інакше **`false`**
 
 ```php
 <?php
-class Str
+class Str
 {
-    /**
-     * @var int  Длина строки
-     */
-    public $length = 5;
+    /**
+     * @var int  Длина строки
+     */
+    public $length = 5;
 }
 
-$prop = new ReflectionProperty('Str', 'length');
+$prop = new ReflectionProperty('Str', 'length');
 
 var_dump($prop->getDocComment());
 
@@ -63,14 +63,14 @@ string(52) "/**
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    /** @var string */
-    public $a, $b;
+    /** @var string */
+    public $a, $b;
 }
-$class = new \ReflectionClass('Foo');
-foreach ($class->getProperties() as $property) {
-    echo $property->getName() . ': ' . var_export($property->getDocComment(), true) . PHP_EOL;
+$class = new \ReflectionClass('Foo');
+foreach ($class->getProperties() as $property) {
+    echo $property->getName() . ': ' . var_export($property->getDocComment(), true) . PHP_EOL;
 }
 ?>
 ```

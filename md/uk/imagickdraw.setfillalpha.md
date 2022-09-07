@@ -40,25 +40,25 @@ public ImagickDraw::setFillAlpha(float $opacity): bool
 
 ```php
 <?php
-function setFillAlpha($strokeColor, $fillColor, $backgroundColor) {
+function setFillAlpha($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeWidth(2);
-    $draw->rectangle(100, 200, 200, 300);
-    @$draw->setFillAlpha(0.4);
-    $draw->rectangle(300, 200, 400, 300);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeWidth(2);
+    $draw->rectangle(100, 200, 200, 300);
+    @$draw->setFillAlpha(0.4);
+    $draw->rectangle(300, 200, 400, 300);
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

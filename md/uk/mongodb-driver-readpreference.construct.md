@@ -60,7 +60,7 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 | Опция | Тип | Описание |
 | --- | --- | --- |
 | hedge | object | array |
-| Вказує, чи використовувати [» хеджовані читання](https://www.mongodb.com/docs/manual/core/sharded-cluster-query-router/#mongos-hedged-reads), що підтримуються MongoDB 4.4+ для закритих запитів. |  |  |
+| Вказує, чи використовувати [» хеджовані читання](https://www.mongodb.com/docs/manual/core/sharded-cluster-query-router/#mongos-hedged-reads), що підтримуються MongoDB 4.4+ для закритих запитів. |  |  |
 
 Хеджовані читання з сервера доступні для всіх неосновних переваг читання та включаються за умовчанням під час використання режиму `"nearest"`. Цей параметр дозволяє явно дозволити читання з хеджування на сервері для неосновних переваг читання, вказавши `['enabled' => true]`, або явно відключивши серверне читання з хеджуванням для переваг читання `"nearest"`, вказавши `['enabled' => false]`
 
@@ -100,17 +100,17 @@ final public MongoDB\Driver\ReadPreference::__construct(string|int $mode, ?array
 ```php
 <?php
 
-/* Предпочитать вторичный узел, но в случае отказа отступить к первичному. */
-var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED));
+/* Предпочитать вторичный узел, но в случае отказа отступить к первичному. */
+var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED));
 
-/* Предпочитать узел в Нью-Йоркском центре обработки данных с минимальной задержкой. */
-var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_NEAREST, [['dc' => 'ny']]));
+/* Предпочитать узел в Нью-Йоркском центре обработки данных с минимальной задержкой. */
+var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_NEAREST, [['dc' => 'ny']]));
 
-/* Требуется дополнительный узел, чья задержка репликации находится в пределах двух минут от основного */
-var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, ['maxStalenessSeconds' => 120]));
+/* Требуется дополнительный узел, чья задержка репликации находится в пределах двух минут от основного */
+var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, ['maxStalenessSeconds' => 120]));
 
-/* Явно включить хеджирование чтения на сервере */
-var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, ['hedge' => ['enabled' => true]]));
+/* Явно включить хеджирование чтения на сервере */
+var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, ['hedge' => ['enabled' => true]]));
 
 ?>
 ```
@@ -153,4 +153,4 @@ object(MongoDB\Driver\ReadPreference)#1 (2) {
 
 ### Дивіться також
 
--   [» Руководство по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» Руководство по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)

@@ -15,7 +15,7 @@ opensslencrypt - Шифрує дані
 ### Опис
 
 ```methodsynopsis
-openssl_encrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    string &$tag = null,    string $aad = "",    int $tag_length = 16): string|false
+openssl_encrypt(    string $data,    string $cipher_algo,    string $passphrase,    int $options = 0,    string $iv = "",    string &$tag = null,    string $aad = "",    int $tag_length = 16): string|false
 ```
 
 Шифрує дані із заданим шифром і ключем і повертає необроблений рядок або рядок, закодований у base64
@@ -76,18 +76,18 @@ openssl_encrypt(    string $data,    string $cipher_algo,    string 
 
 ```php
 <?php
-// $key должен быть сгенерирован заранее криптографически безопасным образом
-// например, с помощью openssl_random_pseudo_bytes
-$plaintext = "данные для шифрования";
-$cipher = "aes-128-gcm";
-if (in_array($cipher, openssl_get_cipher_methods()))
+// $key должен быть сгенерирован заранее криптографически безопасным образом
+// например, с помощью openssl_random_pseudo_bytes
+$plaintext = "данные для шифрования";
+$cipher = "aes-128-gcm";
+if (in_array($cipher, openssl_get_cipher_methods()))
 {
-    $ivlen = openssl_cipher_iv_length($cipher);
-    $iv = openssl_random_pseudo_bytes($ivlen);
-    $ciphertext = openssl_encrypt($plaintext, $cipher, $key, $options=0, $iv, $tag);
-    // сохраняем $cipher, $iv и $tag для дальнейшей расшифровки
-    $original_plaintext = openssl_decrypt($ciphertext, $cipher, $key, $options=0, $iv, $tag);
-    echo $original_plaintext."\n";
+    $ivlen = openssl_cipher_iv_length($cipher);
+    $iv = openssl_random_pseudo_bytes($ivlen);
+    $ciphertext = openssl_encrypt($plaintext, $cipher, $key, $options=0, $iv, $tag);
+    // сохраняем $cipher, $iv и $tag для дальнейшей расшифровки
+    $original_plaintext = openssl_decrypt($ciphertext, $cipher, $key, $options=0, $iv, $tag);
+    echo $original_plaintext."\n";
 }
 ?>
 ```
@@ -96,26 +96,26 @@ if (in_array($cipher, openssl_get_cipher_methods()))
 
 ```php
 <?php
-// $key должен быть сгенерирован заранее криптографически безопасным образом
-// например, с помощью openssl_random_pseudo_bytes
-$plaintext = "данные для шифрования";
-$ivlen = openssl_cipher_iv_length($cipher="AES-128-CBC");
-$iv = openssl_random_pseudo_bytes($ivlen);
-$ciphertext_raw = openssl_encrypt($plaintext, $cipher, $key, $options=OPENSSL_RAW_DATA, $iv);
-$hmac = hash_hmac('sha256', $ciphertext_raw, $key, $as_binary=true);
-$ciphertext = base64_encode( $iv.$hmac.$ciphertext_raw );
+// $key должен быть сгенерирован заранее криптографически безопасным образом
+// например, с помощью openssl_random_pseudo_bytes
+$plaintext = "данные для шифрования";
+$ivlen = openssl_cipher_iv_length($cipher="AES-128-CBC");
+$iv = openssl_random_pseudo_bytes($ivlen);
+$ciphertext_raw = openssl_encrypt($plaintext, $cipher, $key, $options=OPENSSL_RAW_DATA, $iv);
+$hmac = hash_hmac('sha256', $ciphertext_raw, $key, $as_binary=true);
+$ciphertext = base64_encode( $iv.$hmac.$ciphertext_raw );
 
-// расшифровка....
-$c = base64_decode($ciphertext);
-$ivlen = openssl_cipher_iv_length($cipher="AES-128-CBC");
-$iv = substr($c, 0, $ivlen);
-$hmac = substr($c, $ivlen, $sha2len=32);
-$ciphertext_raw = substr($c, $ivlen+$sha2len);
-$original_plaintext = openssl_decrypt($ciphertext_raw, $cipher, $key, $options=OPENSSL_RAW_DATA, $iv);
-$calcmac = hash_hmac('sha256', $ciphertext_raw, $key, $as_binary=true);
-if (hash_equals($hmac, $calcmac))// сравнение, не подверженное атаке по времени
+// расшифровка....
+$c = base64_decode($ciphertext);
+$ivlen = openssl_cipher_iv_length($cipher="AES-128-CBC");
+$iv = substr($c, 0, $ivlen);
+$hmac = substr($c, $ivlen, $sha2len=32);
+$ciphertext_raw = substr($c, $ivlen+$sha2len);
+$original_plaintext = openssl_decrypt($ciphertext_raw, $cipher, $key, $options=OPENSSL_RAW_DATA, $iv);
+$calcmac = hash_hmac('sha256', $ciphertext_raw, $key, $as_binary=true);
+if (hash_equals($hmac, $calcmac))// сравнение, не подверженное атаке по времени
 {
-    echo $original_plaintext."\n";
+    echo $original_plaintext."\n";
 }
 ?>
 ```

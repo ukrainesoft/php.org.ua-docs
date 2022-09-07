@@ -68,12 +68,12 @@ strptime(string $timestamp, string $format): array|false
 
 ```php
 <?php
-$format = '%d/%m/%Y %H:%M:%S';
-$strf = strftime($format);
+$format = '%d/%m/%Y %H:%M:%S';
+$strf = strftime($format);
 
-echo "$strf\n";
+echo "$strf\n";
 
-print_r(strptime($strf, $format));
+print_r(strptime($strf, $format));
 ?>
 ```
 
@@ -106,7 +106,7 @@ Array
 
 > **Зауваження**
 > 
-> `"tm_sec"` включає кілька секунд високосного року (на даний момент до 2-х на рік). Для отримання додаткової інформації про високосні секунди читайте [» статью на википедии](http://en.wikipedia.org/wiki/Leap_second)
+> `"tm_sec"` включає кілька секунд високосного року (на даний момент до 2-х на рік). Для отримання додаткової інформації про високосні секунди читайте [» статью на википедии](http://en.wikipedia.org/wiki/Leap_second)
 
 ### Дивіться також
 

@@ -34,27 +34,27 @@ public SimpleXMLElement::count(): int
 
 ```php
 <?php
-$xml = <<<EOF
+$xml = <<<EOF
 <people>
- <person name="Человек 1">
-  <child/>
-  <child/>
-  <child/>
- </person>
- <person name="Человек 2">
-  <child/>
-  <child/>
-  <child/>
-  <child/>
-  <child/>
- </person>
+ <person name="Человек 1">
+  <child/>
+  <child/>
+  <child/>
+ </person>
+ <person name="Человек 2">
+  <child/>
+  <child/>
+  <child/>
+  <child/>
+  <child/>
+ </person>
 </people>
 EOF;
 
-$elem = new SimpleXMLElement($xml);
+$elem = new SimpleXMLElement($xml);
 
-foreach ($elem as $person) {
-    printf("%s имеет %d детей.\n", $person['name'], $person->count());
+foreach ($elem as $person) {
+    printf("%s имеет %d детей.\n", $person['name'], $person->count());
 }
 ?>
 ```

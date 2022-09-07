@@ -42,7 +42,7 @@ getimagesize(string $filename, array &$image_info = null): array|false
 
 `image_info`
 
-Цей необов'язковий аргумент дозволяє отримати деякі розширені відомості з файлу зображення. На даний момент можна отримати різні JPG APP маркери у вигляді асоціативного масиву. Деякі програми використовують ці маркери для вбудовування тексту у зображення. Найчастіше вбудовують [» IPTC](http://www.iptc.org/) відомості в APP13 маркер. Для перетворення двійкових даних APP13 маркера на щось легкочитане можна скористатися функцією [iptcparse()](function.iptcparse.md)
+Цей необов'язковий аргумент дозволяє отримати деякі розширені відомості з файлу зображення. На даний момент можна отримати різні JPG APP маркери у вигляді асоціативного масиву. Деякі програми використовують ці маркери для вбудовування тексту у зображення. Найчастіше вбудовують [» IPTC](http://www.iptc.org/) відомості в APP13 маркер. Для перетворення двійкових даних APP13 маркера на щось легкочитане можна скористатися функцією [iptcparse()](function.iptcparse.md)
 
 > **Зауваження**
 > 
@@ -68,14 +68,14 @@ getimagesize(string $filename, array &$image_info = null): array|false
 
 ```php
 <?php
-$size = getimagesize($filename);
-$fp = fopen($filename, "rb");
-if ($size && $fp) {
-    header("Content-type: {$size['mime']}");
-    fpassthru($fp);
-    exit;
-} else {
-    // ошибка
+$size = getimagesize($filename);
+$fp = fopen($filename, "rb");
+if ($size && $fp) {
+    header("Content-type: {$size['mime']}");
+    fpassthru($fp);
+    exit;
+} else {
+    // ошибка
 }
 ?>
 ```
@@ -104,8 +104,8 @@ if ($size && $fp) {
 
 ```php
 <?php
-list($width, $height, $type, $attr) = getimagesize("img/flag.jpg");
-echo "<img src=\"img/flag.jpg\" $attr alt=\"пример getimagesize()\" />";
+list($width, $height, $type, $attr) = getimagesize("img/flag.jpg");
+echo "<img src=\"img/flag.jpg\" $attr alt=\"пример getimagesize()\" />";
 ?>
 ```
 
@@ -113,10 +113,10 @@ echo "<img src=\"img/flag.jpg\" $attr alt=\"пример getimagesize()\" 
 
 ```php
 <?php
-$size = getimagesize("http://www.example.com/gifs/logo.gif");
+$size = getimagesize("http://www.example.com/gifs/logo.gif");
 
-// если в имени файла есть пробелы, учтите это должным образом
-$size = getimagesize("http://www.example.com/gifs/lo%20go.gif");
+// если в имени файла есть пробелы, учтите это должным образом
+$size = getimagesize("http://www.example.com/gifs/lo%20go.gif");
 
 ?>
 ```
@@ -125,10 +125,10 @@ $size = getimagesize("http://www.example.com/gifs/lo%20go.gif");
 
 ```php
 <?php
-$size = getimagesize("testimg.jpg", $info);
-if (isset($info["APP13"])) {
-    $iptc = iptcparse($info["APP13"]);
-    var_dump($iptc);
+$size = getimagesize("testimg.jpg", $info);
+if (isset($info["APP13"])) {
+    $iptc = iptcparse($info["APP13"]);
+    var_dump($iptc);
 }
 ?>
 ```

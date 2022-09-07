@@ -58,15 +58,15 @@ public startElementNs(?string $prefix, string $name, ?string $namespace): bool
 public startPi(string $target): bool
 public text(string $content): bool
 public writeAttribute(string $name, string $value): bool
-public writeAttributeNs(    ?string $prefix,    string $name,    ?string $namespace,    string $value): bool
+public writeAttributeNs(    ?string $prefix,    string $name,    ?string $namespace,    string $value): bool
 public writeCdata(string $content): bool
 public writeComment(string $content): bool
-public writeDtd(    string $name,    ?string $publicId = null,    ?string $systemId = null,    ?string $content = null): bool
+public writeDtd(    string $name,    ?string $publicId = null,    ?string $systemId = null,    ?string $content = null): bool
 public writeDtdAttlist(string $name, string $content): bool
 public writeDtdElement(string $name, string $content): bool
-public writeDtdEntity(    string $name,    string $content,    bool $isParam = false,    ?string $publicId = null,    ?string $systemId = null,    ?string $notationData = null): bool
+public writeDtdEntity(    string $name,    string $content,    bool $isParam = false,    ?string $publicId = null,    ?string $systemId = null,    ?string $notationData = null): bool
 public writeElement(string $name, ?string $content = null): bool
-public writeElementNs(    ?string $prefix,    string $name,    ?string $namespace,    ?string $content = null): bool
+public writeElementNs(    ?string $prefix,    string $name,    ?string $namespace,    ?string $content = null): bool
 public writePi(string $target, string $content): bool
 public writeRaw(string $content): bool
 

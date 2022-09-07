@@ -36,10 +36,10 @@ public QuickHashStringIntHash::saveToFile(string $filename): void
 
 ```php
 <?php
-$hash = new QuickHashStringIntHash( 1024 );
-var_dump( $hash->add( "сорок три", 42 ) );
-var_dump( $hash->add( "пятьдесят два", 52 ) );
+$hash = new QuickHashStringIntHash( 1024 );
+var_dump( $hash->add( "сорок три", 42 ) );
+var_dump( $hash->add( "пятьдесят два", 52 ) );
 
-$hash->saveToFile( '/tmp/test.hash.string' );
+$hash->saveToFile( '/tmp/test.hash.string' );
 ?>
 ```

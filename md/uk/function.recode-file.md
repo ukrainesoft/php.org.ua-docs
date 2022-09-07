@@ -44,9 +44,9 @@ recode_file(string $request, resource $input, resource $output): bool
 
 ```php
 <?php
-$input = fopen('input.txt', 'r');
-$output = fopen('output.txt', 'w');
-recode_file("us..flat", $input, $output);
+$input = fopen('input.txt', 'r');
+$output = fopen('output.txt', 'w');
+recode_file("us..flat", $input, $output);
 ?>
 ```
 

@@ -15,7 +15,7 @@ radiusputvendorattr — Приєднує бінарний атрибут, що �
 ### Опис
 
 ```methodsynopsis
-radius_put_vendor_attr(    resource $radius_handle,    int $vendor,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
+radius_put_vendor_attr(    resource $radius_handle,    int $vendor,    int $type,    string $value,    int $options = 0,    int $tag = ?): bool
 ```
 
 Приєднує до поточного запиту RADIUS бінарний атрибут, що залежить від постачальника.
@@ -66,9 +66,9 @@ ID виробника (Vendor).
 
 ```php
 <?php
-if (!radius_put_vendor_attr($res, RADIUS_VENDOR_MICROSOFT, RAD_MICROSOFT_MS_CHAP_CHALLENGE, $challenge)) {
-    echo 'Ошибка Radius:' . radius_strerror($res). "\n<br />";
-    exit;
+if (!radius_put_vendor_attr($res, RADIUS_VENDOR_MICROSOFT, RAD_MICROSOFT_MS_CHAP_CHALLENGE, $challenge)) {
+    echo 'Ошибка Radius:' . radius_strerror($res). "\n<br />";
+    exit;
 }
 ?>
 ```

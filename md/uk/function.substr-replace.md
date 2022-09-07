@@ -15,7 +15,7 @@ substrreplace — Замінює частину рядка
 ### Опис
 
 ```methodsynopsis
-substr_replace(    array|string $string,    array|string $replace,    array|int $offset,    array|int|null $length = null): string|array
+substr_replace(    array|string $string,    array|string $replace,    array|int $offset,    array|int|null $length = null): string|array
 ```
 
 **substrreplace()** замінює частину рядка `string`, що починається із символу з порядковим номером `offset` та (необов'язковою) довжиною `length`, рядком `replace` та повертає результат.
@@ -58,22 +58,22 @@ substr_replace(    array|string $string,    array|string $replace,   
 
 ```php
 <?php
-$var = 'ABCDEFGH:/MNRPQR/';
-echo "Оригинал: $var<hr />\n";
+$var = 'ABCDEFGH:/MNRPQR/';
+echo "Оригинал: $var<hr />\n";
 
-/* Обе следующих строки заменяют всю строку $var на 'bob'. */
-echo substr_replace($var, 'bob', 0) . "<br />\n";
-echo substr_replace($var, 'bob', 0, strlen($var)) . "<br />\n";
+/* Обе следующих строки заменяют всю строку $var на 'bob'. */
+echo substr_replace($var, 'bob', 0) . "<br />\n";
+echo substr_replace($var, 'bob', 0, strlen($var)) . "<br />\n";
 
-/* Вставляет 'bob' в начало $var. */
-echo substr_replace($var, 'bob', 0, 0) . "<br />\n";
+/* Вставляет 'bob' в начало $var. */
+echo substr_replace($var, 'bob', 0, 0) . "<br />\n";
 
-/* Обе следующих строки заменяют 'MNRPQR' в $var на 'bob'. */
-echo substr_replace($var, 'bob', 10, -1) . "<br />\n";
-echo substr_replace($var, 'bob', -7, -1) . "<br />\n";
+/* Обе следующих строки заменяют 'MNRPQR' в $var на 'bob'. */
+echo substr_replace($var, 'bob', 10, -1) . "<br />\n";
+echo substr_replace($var, 'bob', -7, -1) . "<br />\n";
 
-/* Удаляет 'MNRPQR' из $var. */
-echo substr_replace($var, '', 10, -1) . "<br />\n";
+/* Удаляет 'MNRPQR' из $var. */
+echo substr_replace($var, '', 10, -1) . "<br />\n";
 ?>
 ```
 
@@ -81,18 +81,18 @@ echo substr_replace($var, '', 10, -1) . "<br />\n";
 
 ```php
 <?php
-$input = array('A: XXX', 'B: XXX', 'C: XXX');
+$input = array('A: XXX', 'B: XXX', 'C: XXX');
 
-// Простой случай: заменяем XXX на YYY в каждой строке.
-echo implode('; ', substr_replace($input, 'YYY', 3, 3))."\n";
+// Простой случай: заменяем XXX на YYY в каждой строке.
+echo implode('; ', substr_replace($input, 'YYY', 3, 3))."\n";
 
-// Более сложный случай с уникальными заменами.
-$replace = array('AAA', 'BBB', 'CCC');
-echo implode('; ', substr_replace($input, $replace, 3, 3))."\n";
+// Более сложный случай с уникальными заменами.
+$replace = array('AAA', 'BBB', 'CCC');
+echo implode('; ', substr_replace($input, $replace, 3, 3))."\n";
 
-// Замены с разными количествами символов.
-$length = array(1, 2, 3);
-echo implode('; ', substr_replace($input, $replace, 3, $length))."\n";
+// Замены с разными количествами символов.
+$length = array(1, 2, 3);
+echo implode('; ', substr_replace($input, $replace, 3, $length))."\n";
 ?>
 ```
 

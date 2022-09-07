@@ -46,19 +46,19 @@ mysqli_error_list(mysqli $mysql): array
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "nobody", "");
+$mysqli = new mysqli("localhost", "nobody", "");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-if (!$mysqli->query("SET a=1")) {
-    print_r($mysqli->error_list);
+if (!$mysqli->query("SET a=1")) {
+    print_r($mysqli->error_list);
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -67,19 +67,19 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-if (!mysqli_query($link, "SET a=1")) {
-    print_r(mysqli_error_list($link));
+if (!mysqli_query($link, "SET a=1")) {
+    print_r(mysqli_error_list($link));
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

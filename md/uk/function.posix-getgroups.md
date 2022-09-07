@@ -35,7 +35,7 @@ posix_getgroups(): array|false
 ```php
 <?php
 
-$groups = posix_getgroups();
+$groups = posix_getgroups();
 
 print_r($groups);
 ?>

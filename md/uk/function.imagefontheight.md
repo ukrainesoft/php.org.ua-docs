@@ -42,7 +42,7 @@ imagefontheight(GdFont|int $font): int
 
 ```php
 <?php
-echo 'Font height: ' . imagefontheight(4);
+echo 'Font height: ' . imagefontheight(4);
 ?>
 ```
 
@@ -56,10 +56,10 @@ Font height: 16
 
 ```php
 <?php
-// загрузка .gdf шрифта
-$font = imageloadfont('anonymous.gdf');
+// загрузка .gdf шрифта
+$font = imageloadfont('anonymous.gdf');
 
-echo 'Высота шрифта: ' . imagefontheight($font);
+echo 'Высота шрифта: ' . imagefontheight($font);
 ?>
 ```
 

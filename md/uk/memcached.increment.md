@@ -15,7 +15,7 @@ Memcached::increment — Збільшує числове значення зап
 ### Опис
 
 ```methodsynopsis
-public Memcached::increment(    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
+public Memcached::increment(    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
 ```
 
 **Memcached::increment()** збільшує числове значення запису на величину, вказану у параметрі `offset`. Якщо запис містить не числове значення, повернеться помилка. Метод **Memcached::increment()** встановить запису значення, передане в `initial_value`, якщо запису із зазначеним ключем не існує.
@@ -48,17 +48,17 @@ public Memcached::increment(    string $key,    int $offset = 1,    
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$m->set('counter', 0);
+$m->set('counter', 0);
 $m->increment('counter');
-$n = $m->increment('counter', 10);
+$n = $m->increment('counter', 10);
 var_dump($n);
 
-$m->set('counter', 'abc');
-$n = $m->increment('counter');
-// Завершится неудачей т.к. значение записи не является числовым
+$m->set('counter', 'abc');
+$n = $m->increment('counter');
+// Завершится неудачей т.к. значение записи не является числовым
 var_dump($n);
 ?>
 ```

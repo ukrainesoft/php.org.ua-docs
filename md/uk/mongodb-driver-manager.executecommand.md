@@ -86,19 +86,19 @@ final public MongoDB\Driver\Manager::executeCommand(string $db, MongoDB\Driver\C
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
-$command = new MongoDB\Driver\Command(['ping' => 1]);
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$command = new MongoDB\Driver\Command(['ping' => 1]);
 
-try {
-    $cursor = $manager->executeCommand('admin', $command);
-} catch(MongoDB\Driver\Exception $e) {
-    echo $e->getMessage(), "\n";
-    exit;
+try {
+    $cursor = $manager->executeCommand('admin', $command);
+} catch(MongoDB\Driver\Exception $e) {
+    echo $e->getMessage(), "\n";
+    exit;
 }
 
-/* Команда ping возвращает одиночный результат, поэтому мы должны получить доступ к
- * первому результату в курсор. */
-$response = $cursor->toArray()[0];
+/* Команда ping возвращает одиночный результат, поэтому мы должны получить доступ к
+ * первому результату в курсор. */
+$response = $cursor->toArray()[0];
 
 var_dump($response);
 
@@ -119,28 +119,28 @@ array(1) {
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1, 'y' => 'foo']);
-$bulk->insert(['x' => 2, 'y' => 'bar']);
-$bulk->insert(['x' => 3, 'y' => 'bar']);
-$manager->executeBulkWrite('db.collection', $bulk);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1, 'y' => 'foo']);
+$bulk->insert(['x' => 2, 'y' => 'bar']);
+$bulk->insert(['x' => 3, 'y' => 'bar']);
+$manager->executeBulkWrite('db.collection', $bulk);
 
-$command = new MongoDB\Driver\Command([
-    'aggregate' => 'collection',
-    'pipeline' => [
-        ['$group' => ['_id' => '$y', 'sum' => ['$sum' => '$x']]],
-    ],
-    'cursor' => new stdClass,
+$command = new MongoDB\Driver\Command([
+    'aggregate' => 'collection',
+    'pipeline' => [
+        ['$group' => ['_id' => '$y', 'sum' => ['$sum' => '$x']]],
+    ],
+    'cursor' => new stdClass,
 ]);
-$cursor = $manager->executeCommand('db', $command);
+$cursor = $manager->executeCommand('db', $command);
 
-/* Команда aggragete опционально может вернуть результаты в курсоре вместо
- * одиночного документа. В таком случае мы можем перебирать на курсоре для
- * непосредственного доступа к результатам. */
-foreach ($cursor as $document) {
-    var_dump($document);
+/* Команда aggragete опционально может вернуть результаты в курсоре вместо
+ * одиночного документа. В таком случае мы можем перебирать на курсоре для
+ * непосредственного доступа к результатам. */
+foreach ($cursor as $document) {
+    var_dump($document);
 }
 
 ?>
@@ -165,20 +165,20 @@ object(stdClass)#7 (2) {
 
 **Приклад #3 Обмеження часу виконання запиту**
 
-Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.md) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
+Опція `"maxTimeMS"` класу [MongoDBDriverQuery](class.mongodb-driver-query.md) може використовуватись для обмеження часу виконання запиту. Зауважте, що цей термін застосовується на стороні сервера і не враховує затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems) у посібнику MongoDB для отримання додаткової інформації.
 
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');
 
-$command = new MongoDB\Driver\Command([
-    'count' => 'collection',
-    'query' => ['x' => ['$gt' => 1]],
-    'maxTimeMS' => 1000,
+$command = new MongoDB\Driver\Command([
+    'count' => 'collection',
+    'query' => ['x' => ['$gt' => 1]],
+    'maxTimeMS' => 1000,
 ]);
 
-$cursor = $manager->executeCommand('db', $command);
+$cursor = $manager->executeCommand('db', $command);
 
 var_dump($cursor->toArray()[0]);
 

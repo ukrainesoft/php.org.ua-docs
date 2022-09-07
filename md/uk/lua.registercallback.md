@@ -38,10 +38,10 @@ public Lua::registerCallback(string $name, callable $function): mixed
 
 ```php
 <?php
-$lua = new Lua();
-$lua->registerCallback("echo", "var_dump");
+$lua = new Lua();
+$lua->registerCallback("echo", "var_dump");
 $lua->eval(<<<CODE
-    echo({1, 2, 3});
+    echo({1, 2, 3});
 CODE
 );
 ?>

@@ -52,15 +52,15 @@ timezone_open(string $timezone): DateTimeZone|false
 
 ```php
 <?php
-$d = new DateTimeImmutable("2022-06-02 15:44:48 UTC");
+$d = new DateTimeImmutable("2022-06-02 15:44:48 UTC");
 
-$timezones = [ 'Europe/London', 'GMT+04:45', '-06:00', 'CEST' ];
+$timezones = [ 'Europe/London', 'GMT+04:45', '-06:00', 'CEST' ];
 
-foreach ($timezones as $tz) {
-    $tzo = new DateTimeZone($tz);
+foreach ($timezones as $tz) {
+    $tzo = new DateTimeZone($tz);
 
-    $local = $d->setTimezone($tzo);
-    echo $local->format(DateTimeInterface::RFC2822 . ' — e'), "\n";
+    $local = $d->setTimezone($tzo);
+    echo $local->format(DateTimeInterface::RFC2822 . ' — e'), "\n";
 }
 ?>
 ```
@@ -76,15 +76,15 @@ Thu, 02 Jun 2022 17:44:48 +0200 - CEST
 
 ```php
 <?php
-// Обработка ошибок с помощью перехвата исключений
-$timezones = array('Europe/London', 'Mars/Phobos', 'Jupiter/Europa');
+// Обработка ошибок с помощью перехвата исключений
+$timezones = array('Europe/London', 'Mars/Phobos', 'Jupiter/Europa');
 
-foreach ($timezones as $tz) {
-    try {
-        $mars = new DateTimeZone($tz);
-    } catch(Exception $e) {
-        echo $e->getMessage() . '<br />';
-    }
+foreach ($timezones as $tz) {
+    try {
+        $mars = new DateTimeZone($tz);
+    } catch(Exception $e) {
+        echo $e->getMessage() . '<br />';
+    }
 }
 ?>
 ```

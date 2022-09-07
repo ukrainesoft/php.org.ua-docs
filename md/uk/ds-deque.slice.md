@@ -42,22 +42,22 @@ public Ds\Deque::slice(int $index, int $length = ?): Ds\Deque
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c", "d", "e"]);
+$deque = new \Ds\Deque(["a", "b", "c", "d", "e"]);
 
-// Slice from 2 onwards
+// Slice from 2 onwards
 print_r($deque->slice(2));
 
-// Slice from 1, for a length of 3
-print_r($deque->slice(1, 3));
+// Slice from 1, for a length of 3
+print_r($deque->slice(1, 3));
 
-// Slice from 1 onwards
+// Slice from 1 onwards
 print_r($deque->slice(1));
 
-// Slice from 2 from the end onwards
+// Slice from 2 from the end onwards
 print_r($deque->slice(-2));
 
-// Slice from 1 to 1 from the end
-print_r($deque->slice(1, -1));
+// Slice from 1 to 1 from the end
+print_r($deque->slice(1, -1));
 ?>
 ```
 

@@ -55,14 +55,14 @@ oci_statement_type(resource $statement): string|false
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, 'DELETE FROM departments WHERE department_id = 130;');
-if (oci_statement_type($stid) == "DELETE") {
-    trigger_error('Вы не имеете прав для удаления записей из таблицы', E_USER_ERROR);
+$stid = oci_parse($conn, 'DELETE FROM departments WHERE department_id = 130;');
+if (oci_statement_type($stid) == "DELETE") {
+    trigger_error('Вы не имеете прав для удаления записей из таблицы', E_USER_ERROR);
 }
-else {
-    oci_execute($stid);  // удалить запись
+else {
+    oci_execute($stid);  // удалить запись
 }
 
 oci_free_statement($stid);

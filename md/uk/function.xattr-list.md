@@ -42,18 +42,18 @@ xattr_list(string $filename, int $flags = 0): array
 
 ```php
 <?php
-$file = 'some_file';
-$root_attributes = xattr_list($file, XATTR_ROOT);
-$user_attributes = xattr_list($file);
+$file = 'some_file';
+$root_attributes = xattr_list($file, XATTR_ROOT);
+$user_attributes = xattr_list($file);
 
-echo "Root-атрибуты: \n";
-foreach ($root_attributes as $attr_name) {
-    printf("%s\n", $attr_name);
+echo "Root-атрибуты: \n";
+foreach ($root_attributes as $attr_name) {
+    printf("%s\n", $attr_name);
 }
 
-echo "\n Пользовательские атрибуты: \n";
-foreach ($attributes as $attr_name) {
-    printf("%s\n", $attr_name);
+echo "\n Пользовательские атрибуты: \n";
+foreach ($attributes as $attr_name) {
+    printf("%s\n", $attr_name);
 }
 
 ?>

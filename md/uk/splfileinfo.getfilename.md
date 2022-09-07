@@ -34,16 +34,16 @@ public SplFileInfo::getFilename(): string
 
 ```php
 <?php
-$info = new SplFileInfo('foo.txt');
+$info = new SplFileInfo('foo.txt');
 var_dump($info->getFilename());
 
-$info = new SplFileInfo('/path/to/foo.txt');
+$info = new SplFileInfo('/path/to/foo.txt');
 var_dump($info->getFilename());
 
-$info = new SplFileInfo('http://www.php.net/');
+$info = new SplFileInfo('http://www.php.net/');
 var_dump($info->getFilename());
 
-$info = new SplFileInfo('http://www.php.net/svn.php');
+$info = new SplFileInfo('http://www.php.net/svn.php');
 var_dump($info->getFilename());
 ?>
 ```

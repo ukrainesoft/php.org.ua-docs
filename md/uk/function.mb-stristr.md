@@ -15,7 +15,7 @@ title: мбstristr
 ### Опис
 
 ```methodsynopsis
-mb_stristr(    string $haystack,    string $needle,    bool $before_needle = false,    ?string $encoding = null): string|false
+mb_stristr(    string $haystack,    string $needle,    bool $before_needle = false,    ?string $encoding = null): string|false
 ```
 
 **мбstristr()** знаходить перше входження підрядка `needle` в `haystack` і повертає частину `haystack`. На відміну від [мбstrstr()](function.mb-strstr.md) **мбstristr()** не враховує регістр. Якщо `needle` не знайдено, повертається **`false`**

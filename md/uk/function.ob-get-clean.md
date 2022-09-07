@@ -41,10 +41,10 @@ ob_get_clean(): string|false
 
 ob_start();
 
-echo "Привет мир";
+echo "Привет мир";
 
-$out = ob_get_clean();
-$out = strtolower($out);
+$out = ob_get_clean();
+$out = strtolower($out);
 
 var_dump($out);
 ?>

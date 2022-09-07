@@ -44,14 +44,14 @@ public Ds\Set::add(mixed ...$values): void
 
 ```php
 <?php
-$set = new \Ds\Set();
+$set = new \Ds\Set();
 
 $set->add(1);
 $set->add(1);
 $set->add(2);
 $set->add(3);
 
-// Производится строгое сравнение, поэтому "1" не приведётся к int(1)
+// Производится строгое сравнение, поэтому "1" не приведётся к int(1)
 $set->add("1");
 $set->add(true);
 
@@ -80,47 +80,47 @@ object(Ds\Set)#1 (5) {
 
 ```php
 <?php
-class HashableObject implements \Ds\Hashable
+class HashableObject implements \Ds\Hashable
 {
-    /**
-     * Произвольное значение для использования в качестве значения хеша.
-     * Не определяет равенство.
-     */
-    private $value;
+    /**
+     * Произвольное значение для использования в качестве значения хеша.
+     * Не определяет равенство.
+     */
+    private $value;
 
-    public function __construct($value)
-    {
-        $this->value = $value;
-    }
+    public function __construct($value)
+    {
+        $this->value = $value;
+    }
 
-    public function hash()
-    {
-        return $this->value;
-    }
+    public function hash()
+    {
+        return $this->value;
+    }
 
-    public function equals($obj): bool
-    {
-        return $this->value === $obj->value;
-    }
+    public function equals($obj): bool
+    {
+        return $this->value === $obj->value;
+    }
 }
 
-$set = new \Ds\Set();
+$set = new \Ds\Set();
 
-$obj = new \ArrayIterator([]);
+$obj = new \ArrayIterator([]);
 
-// При добавлении одного и того же экземпляря несколько раз, добавится только первый.
+// При добавлении одного и того же экземпляря несколько раз, добавится только первый.
 $set->add($obj);
 $set->add($obj);
 
-// При добавлении нескольких экземпляров одного и того же объекта, они все добавятся.
-$set->add(new \stdClass());
-$set->add(new \stdClass());
+// При добавлении нескольких экземпляров одного и того же объекта, они все добавятся.
+$set->add(new \stdClass());
+$set->add(new \stdClass());
 
-// При добавлении объектов с одинаковым хешем несколько раз, добавится только первый.
-$set->add(new \HashableObject(1));
-$set->add(new \HashableObject(1));
-$set->add(new \HashableObject(2));
-$set->add(new \HashableObject(2));
+// При добавлении объектов с одинаковым хешем несколько раз, добавится только первый.
+$set->add(new \HashableObject(1));
+$set->add(new \HashableObject(1));
+$set->add(new \HashableObject(2));
+$set->add(new \HashableObject(2));
 
 var_dump($set);
 ?>

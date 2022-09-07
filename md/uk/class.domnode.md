@@ -106,8 +106,8 @@ title: Клас DOMNode
     /* Методы */
     
    public appendChild(DOMNode $node): DOMNode|false
-public C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
-public C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
+public C14N(    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): string|false
+public C14NFile(    string $uri,    bool $exclusive = false,    bool $withComments = false,    ?array $xpath = null,    ?array $nsPrefixes = null): int|false
 public cloneNode(bool $deep = false): DOMNode|false
 public getLineNo(): int
 public getNodePath(): ?string
@@ -206,7 +206,7 @@ textContent
 
 ## Дивіться також
 
--   [» Специфікація W3C елемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1950641247)
+-   [» Специфікація W3C елемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1950641247)
 
 ## Зміст
 

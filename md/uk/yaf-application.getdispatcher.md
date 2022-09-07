@@ -30,14 +30,14 @@ public Yaf_Application::getDispatcher(): Yaf_Dispatcher
 
 ```php
 <?php
-$config = array(
-    "application" => array(
-        "directory" => realpath(dirname(__FILE__)) . "/application",
-    ),
+$config = array(
+    "application" => array(
+        "directory" => realpath(dirname(__FILE__)) . "/application",
+    ),
 );
 
-/** Yaf_Application */
-$application = new Yaf_Application($config);
+/** Yaf_Application */
+$application = new Yaf_Application($config);
 print_r($application->getDispatcher());
 ?>
 ```

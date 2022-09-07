@@ -15,7 +15,7 @@ imapfetchmime — Вийняти MIME-заголовки для конкретн
 ### Опис
 
 ```methodsynopsis
-imap_fetchmime(    IMAP\Connection $imap,    int $message_num,    string $section,    int $flags = 0): string|false
+imap_fetchmime(    IMAP\Connection $imap,    int $message_num,    string $section,    int $flags = 0): string|false
 ```
 
 Витягує MIME-заголовки для конкретного розділу повідомлення.

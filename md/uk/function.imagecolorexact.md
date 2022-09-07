@@ -15,7 +15,7 @@ imagecolorexact — Отримання індексу заданого коль�
 ### Опис
 
 ```methodsynopsis
-imagecolorexact(    GdImage $image,    int $red,    int $green,    int $blue): int
+imagecolorexact(    GdImage $image,    int $red,    int $green,    int $blue): int
 ```
 
 Повертає індекс для заданого кольору на панелі зображення.
@@ -56,18 +56,18 @@ imagecolorexact(    GdImage $image,    int $red,    int $green,  �
 
 ```php
 <?php
-// создание изображения
-$im = imagecreatefrompng('./gdlogo.png');
+// создание изображения
+$im = imagecreatefrompng('./gdlogo.png');
 
-$colors   = Array();
-$colors[] = imagecolorexact($im, 255, 0, 0);
-$colors[] = imagecolorexact($im, 0, 0, 0);
-$colors[] = imagecolorexact($im, 255, 255, 255);
-$colors[] = imagecolorexact($im, 100, 255, 52);
+$colors   = Array();
+$colors[] = imagecolorexact($im, 255, 0, 0);
+$colors[] = imagecolorexact($im, 0, 0, 0);
+$colors[] = imagecolorexact($im, 255, 255, 255);
+$colors[] = imagecolorexact($im, 100, 255, 52);
 
 print_r($colors);
 
-// освобождение памяти
+// освобождение памяти
 imagedestroy($im);
 ?>
 ```

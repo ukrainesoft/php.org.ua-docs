@@ -39,11 +39,11 @@ public SplFileInfo::getType(): string|false
 ```php
 <?php
 
-$info = new SplFileInfo(__FILE__);
-echo $info->getType().PHP_EOL;
+$info = new SplFileInfo(__FILE__);
+echo $info->getType().PHP_EOL;
 
-$info = new SplFileInfo(dirname(__FILE__));
-echo $info->getType();
+$info = new SplFileInfo(dirname(__FILE__));
+echo $info->getType();
 
 ?>
 ```

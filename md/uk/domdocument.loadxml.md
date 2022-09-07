@@ -46,9 +46,9 @@ public DOMDocument::loadXML(string $source, int $options = 0): DOMDocument|bool
 
 ```php
 <?php
-$doc = new DOMDocument();
+$doc = new DOMDocument();
 $doc->loadXML('<root><node/></root>');
-echo $doc->saveXML();
+echo $doc->saveXML();
 ?>
 ```
 
@@ -56,9 +56,9 @@ echo $doc->saveXML();
 
 ```php
 <?php
-// Вызывает ошибку E_DEPRECATED
-$doc = DOMDocument::loadXML('<root><node/></root>');
-echo $doc->saveXML();
+// Вызывает ошибку E_DEPRECATED
+$doc = DOMDocument::loadXML('<root><node/></root>');
+echo $doc->saveXML();
 ?>
 ```
 

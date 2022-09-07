@@ -22,14 +22,14 @@ title: 'Клас Imagick'
    public __construct(mixed $files = ?)
 
     public adaptiveBlurImage(float $radius, float $sigma, int $channel = Imagick::CHANNEL_DEFAULT): bool
-public adaptiveResizeImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
+public adaptiveResizeImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
 public adaptiveSharpenImage(float $radius, float $sigma, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public adaptiveThresholdImage(int $width, int $height, int $offset): bool
 public addImage(Imagick $source): bool
 public addNoiseImage(int $noise_type, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public affineTransformImage(ImagickDraw $matrix): bool
 public animateImages(string $x_server): bool
-public annotateImage(    ImagickDraw $draw_settings,    float $x,    float $y,    float $angle,    string $text): bool
+public annotateImage(    ImagickDraw $draw_settings,    float $x,    float $y,    float $angle,    string $text): bool
 public appendImages(bool $stack): Imagick
 public autoLevelImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
 public averageImages(): Imagick
@@ -39,7 +39,7 @@ public blurImage(float $radius, float $sigma, int $channel = ?): bool
 public borderImage(mixed $bordercolor, int $width, int $height): bool
 public brightnessContrastImage(float $brightness, float $contrast, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public charcoalImage(float $radius, float $sigma): bool
-public chopImage(    int $width,    int $height,    int $x,    int $y): bool
+public chopImage(    int $width,    int $height,    int $x,    int $y): bool
 public clampImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
 public clear(): bool
 public clipImage(): bool
@@ -48,7 +48,7 @@ public clipPathImage(string $pathname, bool $inside): bool
 public clone(): Imagick
 public clutImage(Imagick $lookup_table, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public coalesceImages(): Imagick
-public colorFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
+public colorFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
 public colorizeImage(mixed $colorize, mixed $opacity, bool $legacy = false): bool
 public colorMatrixImage(array $color_matrix = Imagick::CHANNEL_DEFAULT): bool
 public combineImages(int $channelType): Imagick
@@ -56,12 +56,12 @@ public commentImage(string $comment): bool
 public compareImageChannels(Imagick $image, int $channelType, int $metricType): array
 public compareImageLayers(int $method): Imagick
 public compareImages(Imagick $compare, int $metric): array
-public compositeImage(    Imagick $composite_object,    int $composite,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public compositeImage(    Imagick $composite_object,    int $composite,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public contrastImage(bool $sharpen): bool
 public contrastStretchImage(float $black_point, float $white_point, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public convolveImage(array $kernel, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public count(int $mode = 0): int
-public cropImage(    int $width,    int $height,    int $x,    int $y): bool
+public cropImage(    int $width,    int $height,    int $x,    int $y): bool
 public cropThumbnailImage(int $width, int $height, bool $legacy = false): bool
 public current(): Imagick
 public cycleColormapImage(int $displace): bool
@@ -82,15 +82,15 @@ public encipherImage(string $passphrase): bool
 public enhanceImage(): bool
 public equalizeImage(): bool
 public evaluateImage(int $op, float $constant, int $channel = Imagick::CHANNEL_DEFAULT): bool
-public exportImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $STORAGE): array
-public extentImage(    int $width,    int $height,    int $x,    int $y): bool
+public exportImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $STORAGE): array
+public extentImage(    int $width,    int $height,    int $x,    int $y): bool
 public filter(ImagickKernel $ImagickKernel, int $channel = Imagick::CHANNEL_UNDEFINED): bool
 public flattenImages(): Imagick
 public flipImage(): bool
-public floodFillPaintImage(    mixed $fill,    float $fuzz,    mixed $target,    int $x,    int $y,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public floodFillPaintImage(    mixed $fill,    float $fuzz,    mixed $target,    int $x,    int $y,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public flopImage(): bool
 public forwardFourierTransformimage(bool $magnitude): bool
-public frameImage(    mixed $matte_color,    int $width,    int $height,    int $inner_bevel,    int $outer_bevel): bool
+public frameImage(    mixed $matte_color,    int $width,    int $height,    int $inner_bevel,    int $outer_bevel): bool
 public functionImage(int $function, array $arguments, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public fxImage(string $expression, int $channel = Imagick::CHANNEL_DEFAULT): Imagick
 public gammaImage(float $gamma, int $channel = Imagick::CHANNEL_DEFAULT): bool
@@ -156,7 +156,7 @@ public getImageProfiles(string $pattern = "*", bool $include_values = true): arr
 public getImageProperties(string $pattern = "*", bool $include_values = true): array
 public getImageProperty(string $name): string
 public getImageRedPrimary(): array
-public getImageRegion(    int $width,    int $height,    int $x,    int $y): Imagick
+public getImageRegion(    int $width,    int $height,    int $x,    int $y): Imagick
 public getImageRenderingIntent(): int
 public getImageResolution(): array
 public getImagesBlob(): string
@@ -177,7 +177,7 @@ public getOption(string $key): string
 public static getPackageName(): string
 public getPage(): array
 public getPixelIterator(): ImagickPixelIterator
-public getPixelRegionIterator(    int $x,    int $y,    int $columns,    int $rows): ImagickPixelIterator
+public getPixelRegionIterator(    int $x,    int $y,    int $columns,    int $rows): ImagickPixelIterator
 public getPointSize(): float
 public static getQuantum(): int
 public static getQuantumDepth(): array
@@ -196,36 +196,36 @@ public hasPreviousImage(): bool
 public identifyFormat(string $embedText): string|false
 public identifyImage(bool $appendRawOutput = false): array
 public implodeImage(float $radius): bool
-public importImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $storage,    array $pixels): bool
+public importImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $storage,    array $pixels): bool
 public inverseFourierTransformImage(Imagick $complement, bool $magnitude): bool
 public labelImage(string $label): bool
-public levelImage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public levelImage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public linearStretchImage(float $blackPoint, float $whitePoint): bool
-public liquidRescaleImage(    int $width,    int $height,    float $delta_x,    float $rigidity): bool
+public liquidRescaleImage(    int $width,    int $height,    float $delta_x,    float $rigidity): bool
 public static listRegistry(): array
 public magnifyImage(): bool
 public mapImage(Imagick $map, bool $dither): bool
-public matteFloodfillImage(    float $alpha,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
+public matteFloodfillImage(    float $alpha,    float $fuzz,    mixed $bordercolor,    int $x,    int $y): bool
 public medianFilterImage(float $radius): bool
 public mergeImageLayers(int $layer_method): Imagick
 public minifyImage(): bool
 public modulateImage(float $brightness, float $saturation, float $hue): bool
-public montageImage(    ImagickDraw $draw,    string $tile_geometry,    string $thumbnail_geometry,    int $mode,    string $frame): Imagick
+public montageImage(    ImagickDraw $draw,    string $tile_geometry,    string $thumbnail_geometry,    int $mode,    string $frame): Imagick
 public morphImages(int $number_frames): Imagick
-public morphology(    int $morphologyMethod,    int $iterations,    ImagickKernel $ImagickKernel,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public morphology(    int $morphologyMethod,    int $iterations,    ImagickKernel $ImagickKernel,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public mosaicImages(): Imagick
-public motionBlurImage(    float $radius,    float $sigma,    float $angle,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public motionBlurImage(    float $radius,    float $sigma,    float $angle,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public negateImage(bool $gray, int $channel = Imagick::CHANNEL_DEFAULT): bool
-public newImage(    int $cols,    int $rows,    mixed $background,    string $format = ?): bool
+public newImage(    int $cols,    int $rows,    mixed $background,    string $format = ?): bool
 public newPseudoImage(int $columns, int $rows, string $pseudoString): bool
 public nextImage(): bool
 public normalizeImage(int $channel = Imagick::CHANNEL_DEFAULT): bool
 public oilPaintImage(float $radius): bool
-public opaquePaintImage(    mixed $target,    mixed $fill,    float $fuzz,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public opaquePaintImage(    mixed $target,    mixed $fill,    float $fuzz,    bool $invert,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public optimizeImageLayers(): bool
 public orderedPosterizeImage(string $threshold_map, int $channel = Imagick::CHANNEL_DEFAULT): bool
-public paintFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
-public paintOpaqueImage(    mixed $target,    mixed $fill,    float $fuzz,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public paintFloodfillImage(    mixed $fill,    float $fuzz,    mixed $bordercolor,    int $x,    int $y,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public paintOpaqueImage(    mixed $target,    mixed $fill,    float $fuzz,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public paintTransparentImage(mixed $target, float $alpha, float $fuzz): bool
 public pingImage(string $filename): bool
 public pingImageBlob(string $image): bool
@@ -235,13 +235,13 @@ public posterizeImage(int $levels, bool $dither): bool
 public previewImages(int $preview): bool
 public previousImage(): bool
 public profileImage(string $name, string $profile): bool
-public quantizeImage(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
-public quantizeImages(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
+public quantizeImage(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
+public quantizeImages(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
 public queryFontMetrics(ImagickDraw $properties, string $text, bool $multiline = ?): array
 public static queryFonts(string $pattern = "*"): array
 public static queryFormats(string $pattern = "*"): array
 public radialBlurImage(float $angle, int $channel = Imagick::CHANNEL_DEFAULT): bool
-public raiseImage(    int $width,    int $height,    int $x,    int $y,    bool $raise): bool
+public raiseImage(    int $width,    int $height,    int $x,    int $y,    bool $raise): bool
 public randomThresholdImage(float $low, float $high, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public readImage(string $filename): bool
 public readImageBlob(string $image, string $filename = ?): bool
@@ -253,17 +253,17 @@ public remapImage(Imagick $replacement, int $DITHER): bool
 public removeImage(): bool
 public removeImageProfile(string $name): string
 public render(): bool
-public resampleImage(    float $x_resolution,    float $y_resolution,    int $filter,    float $blur): bool
+public resampleImage(    float $x_resolution,    float $y_resolution,    int $filter,    float $blur): bool
 public resetImagePage(string $page): bool
-public resizeImage(    int $columns,    int $rows,    int $filter,    float $blur,    bool $bestfit = false,    bool $legacy = false): bool
+public resizeImage(    int $columns,    int $rows,    int $filter,    float $blur,    bool $bestfit = false,    bool $legacy = false): bool
 public rollImage(int $x, int $y): bool
 public rotateImage(mixed $background, float $degrees): bool
 public rotationalBlurImage(float $angle, int $channel = Imagick::CHANNEL_DEFAULT): bool
-public roundCorners(    float $x_rounding,    float $y_rounding,    float $stroke_width = 10,    float $displace = 5,    float $size_correction = -6): bool
+public roundCorners(    float $x_rounding,    float $y_rounding,    float $stroke_width = 10,    float $displace = 5,    float $size_correction = -6): bool
 public sampleImage(int $columns, int $rows): bool
-public scaleImage(    int $cols,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
-public segmentImage(    int $COLORSPACE,    float $cluster_threshold,    float $smooth_threshold,    bool $verbose = false): bool
-public selectiveBlurImage(    float $radius,    float $sigma,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public scaleImage(    int $cols,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
+public segmentImage(    int $COLORSPACE,    float $cluster_threshold,    float $smooth_threshold,    bool $verbose = false): bool
+public selectiveBlurImage(    float $radius,    float $sigma,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public separateImageChannel(int $channel): bool
 public sepiaToneImage(float $threshold): bool
 public setBackgroundColor(mixed $background): bool
@@ -308,7 +308,7 @@ public setImageMatte(bool $matte): bool
 public setImageMatteColor(mixed $matte): bool
 public setImageOpacity(float $opacity): bool
 public setImageOrientation(int $orientation): bool
-public setImagePage(    int $width,    int $height,    int $x,    int $y): bool
+public setImagePage(    int $width,    int $height,    int $x,    int $y): bool
 public setImageProfile(string $name, string $profile): bool
 public setImageProperty(string $name, string $value): bool
 public setImageRedPrimary(float $x, float $y): bool
@@ -324,7 +324,7 @@ public setInterlaceScheme(int $interlace_scheme): bool
 public setIteratorIndex(int $index): bool
 public setLastIterator(): bool
 public setOption(string $key, string $value): bool
-public setPage(    int $width,    int $height,    int $x,    int $y): bool
+public setPage(    int $width,    int $height,    int $x,    int $y): bool
 public setPointSize(float $point_size): bool
 public setProgressMonitor(callable $callback): bool
 public static setRegistry(string $key, string $value): bool
@@ -335,18 +335,18 @@ public setSize(int $columns, int $rows): bool
 public setSizeOffset(int $columns, int $rows, int $offset): bool
 public setType(int $image_type): bool
 public shadeImage(bool $gray, float $azimuth, float $elevation): bool
-public shadowImage(    float $opacity,    float $sigma,    int $x,    int $y): bool
+public shadowImage(    float $opacity,    float $sigma,    int $x,    int $y): bool
 public sharpenImage(float $radius, float $sigma, int $channel = Imagick::CHANNEL_DEFAULT): bool
 public shaveImage(int $columns, int $rows): bool
 public shearImage(mixed $background, float $x_shear, float $y_shear): bool
-public sigmoidalContrastImage(    bool $sharpen,    float $alpha,    float $beta,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public sigmoidalContrastImage(    bool $sharpen,    float $alpha,    float $beta,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public sketchImage(float $radius, float $sigma, float $angle): bool
 public smushImages(bool $stack, int $offset): Imagick
 public solarizeImage(int $threshold): bool
 public sparseColorImage(int $SPARSE_METHOD, array $arguments, int $channel = Imagick::CHANNEL_DEFAULT): bool
-public spliceImage(    int $width,    int $height,    int $x,    int $y): bool
+public spliceImage(    int $width,    int $height,    int $x,    int $y): bool
 public spreadImage(float $radius): bool
-public statisticImage(    int $type,    int $width,    int $height,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public statisticImage(    int $type,    int $width,    int $height,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public steganoImage(Imagick $watermark_wand, int $offset): Imagick
 public stereoImage(Imagick $offset_wand): bool
 public stripImage(): bool
@@ -354,19 +354,19 @@ public subImageMatch(Imagick $Imagick, array &$offset = ?, float &$similarity = 
 swirlImage(float $degrees): bool
 textureImage(Imagick $texture_wand): Imagick
 public thresholdImage(float $threshold, int $channel = Imagick::CHANNEL_DEFAULT): bool
-public thumbnailImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $fill = false,    bool $legacy = false): bool
+public thumbnailImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $fill = false,    bool $legacy = false): bool
 public tintImage(mixed $tint, mixed $opacity, bool $legacy = false): bool
 public __toString(): string
 public transformImage(string $crop, string $geometry): Imagick
 public transformImageColorspace(int $colorspace): bool
-public transparentPaintImage(    mixed $target,    float $alpha,    float $fuzz,    bool $invert): bool
+public transparentPaintImage(    mixed $target,    float $alpha,    float $fuzz,    bool $invert): bool
 public transposeImage(): bool
 public transverseImage(): bool
 public trimImage(float $fuzz): bool
 public uniqueImageColors(): bool
-public unsharpMaskImage(    float $radius,    float $sigma,    float $amount,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public unsharpMaskImage(    float $radius,    float $sigma,    float $amount,    float $threshold,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 public valid(): bool
-public vignetteImage(    float $blackPoint,    float $whitePoint,    int $x,    int $y): bool
+public vignetteImage(    float $blackPoint,    float $whitePoint,    int $x,    int $y): bool
 public waveImage(float $amplitude, float $length): bool
 public whiteThresholdImage(mixed $threshold): bool
 public writeImage(string $filename = NULL): bool

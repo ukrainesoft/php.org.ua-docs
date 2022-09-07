@@ -39,8 +39,8 @@ public static SeasLog::flushBuffer(): bool
 ```php
 <?php
 
-SeasLog::info('info log');
-SeasLog::debug('debug log');
+SeasLog::info('info log');
+SeasLog::debug('debug log');
 var_dump(SeasLog::getBuffer());
 var_dump(SeasLog::flushBuffer());
 var_dump(SeasLog::getBuffer());

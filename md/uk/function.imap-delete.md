@@ -51,21 +51,21 @@ imap_delete(IMAP\Connection $imap, string $message_nums, int $flags = 0): bool
 ```php
 <?php
 
-$mbox = imap_open("{imap.example.org}INBOX", "username", "password")
-    or die("Не удалось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.org}INBOX", "username", "password")
+    or die("Не удалось подключиться: " . imap_last_error());
 
-$check = imap_mailboxmsginfo($mbox);
-echo "Сообщения до отметки для удаления: " . $check->Nmsgs . "<br />\n";
+$check = imap_mailboxmsginfo($mbox);
+echo "Сообщения до отметки для удаления: " . $check->Nmsgs . "<br />\n";
 
-imap_delete($mbox, 1);
+imap_delete($mbox, 1);
 
-$check = imap_mailboxmsginfo($mbox);
-echo "Сообщения после отметки для удаления: " . $check->Nmsgs . "<br />\n";
+$check = imap_mailboxmsginfo($mbox);
+echo "Сообщения после отметки для удаления: " . $check->Nmsgs . "<br />\n";
 
 imap_expunge($mbox);
 
-$check = imap_mailboxmsginfo($mbox);
-echo "Сообщения после удаления: " . $check->Nmsgs . "<br />\n";
+$check = imap_mailboxmsginfo($mbox);
+echo "Сообщения после удаления: " . $check->Nmsgs . "<br />\n";
 
 imap_close($mbox);
 ?>

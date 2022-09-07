@@ -16,29 +16,29 @@ PHP підтримує концепцію змінних функцій. Це о
 
 ```php
 <?php
-function foo() {
-    echo "В foo()<br />\n";
+function foo() {
+    echo "В foo()<br />\n";
 }
 
-function bar($arg = '')
+function bar($arg = '')
 {
-    echo "В bar(); аргумент был '$arg'.<br />\n";
+    echo "В bar(); аргумент был '$arg'.<br />\n";
 }
 
-// Функция-обёртка для echo
-function echoit($string)
+// Функция-обёртка для echo
+function echoit($string)
 {
-    echo $string;
+    echo $string;
 }
 
-$func = 'foo';
-$func();        // Вызывает функцию foo()
+$func = 'foo';
+$func();        // Вызывает функцию foo()
 
-$func = 'bar';
-$func('test');  // Вызывает функцию bar()
+$func = 'bar';
+$func('test');  // Вызывает функцию bar()
 
-$func = 'echoit';
-$func('test');  // Вызывает функцию echoit()
+$func = 'echoit';
+$func('test');  // Вызывает функцию echoit()
 ?>
 ```
 
@@ -48,23 +48,23 @@ $func('test');  // Вызывает функцию echoit()
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    function Variable()
-    {
-        $name = 'Bar';
-        $this->$name(); // Вызываем метод Bar()
-    }
+    function Variable()
+    {
+        $name = 'Bar';
+        $this->$name(); // Вызываем метод Bar()
+    }
 
-    function Bar()
-    {
-        echo "Это Bar";
-    }
+    function Bar()
+    {
+        echo "Это Bar";
+    }
 }
 
-$foo = new Foo();
-$funcname = "Variable";
-$foo->$funcname();  // Обращаемся к $foo->Variable()
+$foo = new Foo();
+$funcname = "Variable";
+$foo->$funcname();  // Обращаемся к $foo->Variable()
 
 ?>
 ```
@@ -75,18 +75,18 @@ $foo->$funcname();  // Обращаемся к $foo->Variable()
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    static $variable = 'статическое свойство';
-    static function Variable()
-    {
-        echo 'Вызов метода Variable';
-    }
+    static $variable = 'статическое свойство';
+    static function Variable()
+    {
+        echo 'Вызов метода Variable';
+    }
 }
 
-echo Foo::$variable; // Это выведет 'статическое свойство'. Переменная $variable будет разрешена в этой области видимости.
-$variable = "Variable";
-Foo::$variable();  // Это вызовет $foo->Variable(), прочитав $variable из этой области видимости.
+echo Foo::$variable; // Это выведет 'статическое свойство'. Переменная $variable будет разрешена в этой области видимости.
+$variable = "Variable";
+Foo::$variable();  // Это вызовет $foo->Variable(), прочитав $variable из этой области видимости.
 
 ?>
 ```
@@ -95,24 +95,24 @@ Foo::$variable();  // Это вызовет $foo->Variable(), прочит
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    static function bar()
-    {
-        echo "bar\n";
-    }
-    function baz()
-    {
-        echo "baz\n";
-    }
+    static function bar()
+    {
+        echo "bar\n";
+    }
+    function baz()
+    {
+        echo "baz\n";
+    }
 }
 
-$func = array("Foo", "bar");
-$func(); // выведет "bar"
-$func = array(new Foo, "baz");
-$func(); // выведет "baz"
-$func = "Foo::bar";
-$func(); // выведет "bar"
+$func = array("Foo", "bar");
+$func(); // выведет "bar"
+$func = array(new Foo, "baz");
+$func(); // выведет "baz"
+$func = "Foo::bar";
+$func(); // выведет "bar"
 ?>
 ```
 

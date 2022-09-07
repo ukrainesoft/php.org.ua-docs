@@ -32,9 +32,9 @@ final public **YafViewSimple::construct**(string `$template_dir`, array `$option
 
 ```php
 <?php
-   define ("TEMPLATE_DIRECTORY", APPLICATOIN_PATH . '/views');
-   $view = new Yaf_View_Simple(TEMPLATE_DIRECTORY, array(
-                           'short_tag' => false //не позволяет использовать короткие теги в шаблоне
-   ));
+   define ("TEMPLATE_DIRECTORY", APPLICATOIN_PATH . '/views');
+   $view = new Yaf_View_Simple(TEMPLATE_DIRECTORY, array(
+                           'short_tag' => false //не позволяет использовать короткие теги в шаблоне
+   ));
 ?>
 ```

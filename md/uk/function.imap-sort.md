@@ -15,7 +15,7 @@ imapsort — Отримати та відсортувати повідомлен
 ### Опис
 
 ```methodsynopsis
-imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reverse,    int $flags = 0,    ?string $search_criteria = null,    ?string $charset = null): array|false
+imap_sort(    IMAP\Connection $imap,    int $criteria,    bool $reverse,    int $flags = 0,    ?string $search_criteria = null,    ?string $charset = null): array|false
 ```
 
 Отримує та сортує номери повідомлень відповідно до заданих параметрів.

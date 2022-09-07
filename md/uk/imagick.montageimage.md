@@ -15,7 +15,7 @@ Imagick::montageImage — Створює складне зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::montageImage(    ImagickDraw $draw,    string $tile_geometry,    string $thumbnail_geometry,    int $mode,    string $frame): Imagick
+public Imagick::montageImage(    ImagickDraw $draw,    string $tile_geometry,    string $thumbnail_geometry,    int $mode,    string $frame): Imagick
 ```
 
 Створює складне зображення шляхом поєднання кількох окремих зображень. Зображення розміщуються на складовому зображенні мозаїкою, ім'я зображення може відображатися відразу під окремою плиткою.

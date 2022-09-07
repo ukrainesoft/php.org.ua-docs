@@ -52,16 +52,16 @@ pg_last_oid(PgSql\Result $result): string|int|false
 
 ```php
 <?php
-  // Подключение к базе данных
-  pg_connect("dbname=mark host=localhost");
+  // Подключение к базе данных
+  pg_connect("dbname=mark host=localhost");
 
-  // Создание тестовой таблицы
-  pg_query("CREATE TABLE test (a INTEGER) WITH OIDS");
+  // Создание тестовой таблицы
+  pg_query("CREATE TABLE test (a INTEGER) WITH OIDS");
 
-  // Вставка данных в таблицу
-  $res = pg_query("INSERT INTO test VALUES (1)");
+  // Вставка данных в таблицу
+  $res = pg_query("INSERT INTO test VALUES (1)");
 
-  $oid = pg_last_oid($res);
+  $oid = pg_last_oid($res);
 ?>
 ```
 

@@ -16,7 +16,7 @@ Zookeeper::set — Встановлює дані, пов'язані з вузл�
 
 ```methodsynopsis
 public
-   Zookeeper::set(    string $path,    string $value,    int $version = -1,    array &$stat = null): bool
+   Zookeeper::set(    string $path,    string $value,    int $version = -1,    array &$stat = null): bool
 ```
 
 ### Список параметрів
@@ -57,14 +57,14 @@ public
 
 ```php
 <?php
-$zookeeper = new Zookeeper('locahost:2181');
-$path = '/path/to/node';
-$value = 'nodevalue';
-$r = $zookeeper->set($path, $value);
-if ($r)
-  echo 'Значение сохранено';
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/path/to/node';
+$value = 'nodevalue';
+$r = $zookeeper->set($path, $value);
+if ($r)
+  echo 'Значение сохранено';
 else
-  echo 'Ошибкак';
+  echo 'Ошибкак';
 ?>
 ```
 

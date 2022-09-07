@@ -48,14 +48,14 @@ intlcal_get_least_maximum(IntlCalendar $calendar, int $field): int|false
 
 ```php
 <?php
-ini_set('date.timezone', 'UTC');
-ini_set('intl.default_locale', 'it_IT');
+ini_set('date.timezone', 'UTC');
+ini_set('intl.default_locale', 'it_IT');
 
-$cal = new IntlGregorianCalendar(2013, 3 /* April */, 6);
+$cal = new IntlGregorianCalendar(2013, 3 /* April */, 6);
 var_dump(
-    $cal->getLeastMaximum(IntlCalendar::FIELD_DAY_OF_MONTH),  // 28
-    $cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH), // 30
-    $cal->getMaximum(IntlCalendar::FIELD_DAY_OF_MONTH)        // 31
+    $cal->getLeastMaximum(IntlCalendar::FIELD_DAY_OF_MONTH),  // 28
+    $cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH), // 30
+    $cal->getMaximum(IntlCalendar::FIELD_DAY_OF_MONTH)        // 31
 );
 ```
 

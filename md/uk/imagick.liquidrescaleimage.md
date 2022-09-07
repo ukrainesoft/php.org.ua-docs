@@ -15,7 +15,7 @@ Imagick::liquidRescaleImage — Анімує зображення або зоб�
 ### Опис
 
 ```methodsynopsis
-public Imagick::liquidRescaleImage(    int $width,    int $height,    float $delta_x,    float $rigidity): bool
+public Imagick::liquidRescaleImage(    int $width,    int $height,    float $delta_x,    float $rigidity): bool
 ```
 
 Масштабує зображення за допомогою методу liquid rescaling. Він є реалізацією техніки seam carving. Щоб метод працював належним чином, ImageMagick має бути скомпільований за допомогою liblqr. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.3.9 або старшим.

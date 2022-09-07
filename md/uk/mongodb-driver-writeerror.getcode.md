@@ -37,16 +37,16 @@ final public MongoDB\Driver\WriteError::getCode(): int
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager;
+$manager = new MongoDB\Driver\Manager;
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['_id' => 1]);
-$bulk->insert(['_id' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['_id' => 1]);
+$bulk->insert(['_id' => 1]);
 
-try {
-    $manager->executeBulkWrite('db.collection', $bulk);
-} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
-    var_dump($e->getWriteResult()->getWriteErrors()[0]->getCode());
+try {
+    $manager->executeBulkWrite('db.collection', $bulk);
+} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
+    var_dump($e->getWriteResult()->getWriteErrors()[0]->getCode());
 }
 
 ?>

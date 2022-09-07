@@ -35,14 +35,14 @@ doc-блок коментарів, якщо він існує, інакше **`f
 ```php
 <?php
 /**
-* Тестовый класс
+* Тестовый класс
 *
-* @param  foo bar
-* @return baz
+* @param  foo bar
+* @return baz
 */
-class TestClass { }
+class TestClass { }
 
-$rc = new ReflectionClass('TestClass');
+$rc = new ReflectionClass('TestClass');
 var_dump($rc->getDocComment());
 ?>
 ```

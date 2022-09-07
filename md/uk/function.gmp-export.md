@@ -50,8 +50,8 @@ GMP-число для експорту
 
 ```php
 <?php
-$number = gmp_init(16705);
-echo gmp_export($number) . "\n";
+$number = gmp_init(16705);
+echo gmp_export($number) . "\n";
 ?>
 ```
 

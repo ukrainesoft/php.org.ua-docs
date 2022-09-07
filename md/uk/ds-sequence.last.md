@@ -38,7 +38,7 @@ abstract public Ds\Sequence::last(): mixed
 
 ```php
 <?php
-$sequence = new \Ds\Vector([1, 2, 3]);
+$sequence = new \Ds\Vector([1, 2, 3]);
 var_dump($sequence->last());
 ?>
 ```

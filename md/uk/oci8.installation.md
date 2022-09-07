@@ -18,7 +18,7 @@ title: Встановлення
 
 ## Установка OCI8 із PECL
 
-Модуль OCI8 може бути включений до поточної установки PHP як автоматично, так і вручну за допомогою [» PECL](https://pecl.php.net/package/oci8)
+Модуль OCI8 може бути включений до поточної установки PHP як автоматично, так і вручну за допомогою [» PECL](https://pecl.php.net/package/oci8)
 
 -   Якщо комп'ютер знаходиться за фаєрволом, встановіть проксі для PEAR, наприклад:
     
@@ -56,7 +56,7 @@ title: Встановлення
 
 ## Установка OCI8 із PECL за допомогою phpize
 
-Якщо з якихось причин немає можливості скористатися командою `pecl`, можна самостійно завантажити пакет із сайту [» PECL](https://pecl.php.net/package/oci8). Наприклад, oci8-3.0.0.tgz.
+Якщо з якихось причин немає можливості скористатися командою `pecl`, можна самостійно завантажити пакет із сайту [» PECL](https://pecl.php.net/package/oci8). Наприклад, oci8-3.0.0.tgz.
 
 -   Розархівуйте пакет:
     
@@ -110,7 +110,7 @@ title: Встановлення
 
 Зберіть OCI8 за допомогою однієї з наведених нижче опцій.
 
--   При використанні безкоштовних бібліотек [»  Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md)
+-   При використанні безкоштовних бібліотек [»  Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md)
     
     ```
     ./configure --with-oci8=shared,instantclient,/путь/к/instant/client/lib
@@ -166,7 +166,7 @@ extension=oci8.so
 
 ## Встановлення OCI8 у Windows
 
-Модуль OCI8 можна додати до PHP за допомогою бібліотек з репозиторію [» PECL](https://pecl.php.net/package/oci8) або з директорії `ext`, що міститься у вашій інсталяції PHP.
+Модуль OCI8 можна додати до PHP за допомогою бібліотек з репозиторію [» PECL](https://pecl.php.net/package/oci8) або з директорії `ext`, що міститься у вашій інсталяції PHP.
 
 Для бібліотек Oracle 12*з* (і вище), розкоментуйте відповідний рядок у php.ini: `extension=php_oci8_12c.dll` `extension=php_oci8_11g.dll` або `extension=php_oci8.dll`. Одночасно можна використовувати лише одну з цих бібліотек. Нові бібліотеки можуть містити більш сучасний функціонал. Склад доступних бібліотек може змінюватись в залежності від версії PHP. Впевніться, що [extensiondir](ini.core.md#ini.extension-dir) вказує на директорію, що містить бібліотеки модулів PHP.
 

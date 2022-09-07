@@ -42,19 +42,19 @@ public ReflectionClass::getReflectionConstants(?int $filter = null): array
 
 ```php
 <?php
-class Foo {
-    public    const FOO  = 1;
-    protected const BAR  = 2;
-    private   const BAZ  = 3;
+class Foo {
+    public    const FOO  = 1;
+    protected const BAR  = 2;
+    private   const BAZ  = 3;
 }
 
-$foo = new Foo();
+$foo = new Foo();
 
-$reflect = new ReflectionClass($foo);
-$consts  = $reflect->getReflectionConstants();
+$reflect = new ReflectionClass($foo);
+$consts  = $reflect->getReflectionConstants();
 
-foreach ($consts as $const) {
-    print $const->getName() . "\n";
+foreach ($consts as $const) {
+    print $const->getName() . "\n";
 }
 
 var_dump($consts);

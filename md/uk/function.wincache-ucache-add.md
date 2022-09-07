@@ -58,9 +58,9 @@ wincache_ucache_add(array $values, mixed $unused = NULL, int $ttl = 0): bool
 
 ```php
 <?php
-$bar = 'BAR';
-var_dump(wincache_ucache_add('foo', $bar));
-var_dump(wincache_ucache_add('foo', $bar));
+$bar = 'BAR';
+var_dump(wincache_ucache_add('foo', $bar));
+var_dump(wincache_ucache_add('foo', $bar));
 var_dump(wincache_ucache_get('foo'));
 ?>
 ```
@@ -77,7 +77,7 @@ string(3) "BAR"
 
 ```php
 <?php
-$colors_array = array('green' => '5', 'Blue' => '6', 'yellow' => '7', 'cyan' => '8');
+$colors_array = array('green' => '5', 'Blue' => '6', 'yellow' => '7', 'cyan' => '8');
 var_dump(wincache_ucache_add($colors_array));
 var_dump(wincache_ucache_add($colors_array));
 var_dump(wincache_ucache_get('Blue'));

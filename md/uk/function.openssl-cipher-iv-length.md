@@ -40,10 +40,10 @@ openssl_cipher_iv_length(string $cipher_algo): int|false
 
 ```php
 <?php
-$method = 'AES-128-CBC';
-$ivlen = openssl_cipher_iv_length($method);
+$method = 'AES-128-CBC';
+$ivlen = openssl_cipher_iv_length($method);
 
-echo $ivlen;
+echo $ivlen;
 ?>
 ```
 

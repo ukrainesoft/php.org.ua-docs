@@ -15,7 +15,7 @@ snmpv3walk — Отримує всі об'єкти SNMP із агента
 ### Опис
 
 ```methodsynopsis
-snmp3_walk(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmp3_walk(    string $hostname,    string $security_name,    string $security_level,    string $auth_protocol,    string $auth_passphrase,    string $privacy_protocol,    string $privacy_passphrase,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
 Функція **snmpv3walk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
@@ -82,7 +82,7 @@ snmp3_walk(    string $hostname,    string $security_name,    string
 
 ```php
 <?php
-$ret = snmp3_walk('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName');
+$ret = snmp3_walk('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName');
 var_export($ret);
 ?>
 ```

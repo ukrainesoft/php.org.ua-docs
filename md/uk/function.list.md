@@ -52,23 +52,23 @@ list(mixed $var, mixed ...$vars = ?): array
 ```php
 <?php
 
-$info = array('кофе', 'коричневый', 'кофеин');
+$info = array('кофе', 'коричневый', 'кофеин');
 
-// Составить список всех переменных
-list($drink, $color, $power) = $info;
-echo "$drink - $color, а $power делает его особенным.\n";
+// Составить список всех переменных
+list($drink, $color, $power) = $info;
+echo "$drink - $color, а $power делает его особенным.\n";
 
-// Составить список только некоторых из них
-list($drink, , $power) = $info;
-echo "В $drink есть $power.\n";
+// Составить список только некоторых из них
+list($drink, , $power) = $info;
+echo "В $drink есть $power.\n";
 
-// Или пропустить все, кроме третьей
-list( , , $power) = $info;
-echo "Мне нужен $power!\n";
+// Или пропустить все, кроме третьей
+list( , , $power) = $info;
+echo "Мне нужен $power!\n";
 
-// list() не работает со строками
-list($bar) = "abcde";
-var_dump($bar); // NULL
+// list() не работает со строками
+list($bar) = "abcde";
+var_dump($bar); // NULL
 ?>
 ```
 
@@ -76,9 +76,9 @@ var_dump($bar); // NULL
 
 ```php
 <?php
-$result = $pdo->query("SELECT id, name FROM employees");
-while (list($id, $name) = $result->fetch(PDO::FETCH_NUM)) {
-    echo "id: $id, name: $name\n";
+$result = $pdo->query("SELECT id, name FROM employees");
+while (list($id, $name) = $result->fetch(PDO::FETCH_NUM)) {
+    echo "id: $id, name: $name\n";
 }
 ?>
 ```
@@ -88,9 +88,9 @@ while (list($id, $name) = $result->fetch(PDO::FETCH_NUM)) {
 ```php
 <?php
 
-list($a, list($b, $c)) = array(1, array(2, 3));
+list($a, list($b, $c)) = array(1, array(2, 3));
 
-var_dump($a, $b, $c);
+var_dump($a, $b, $c);
 
 ?>
 ```
@@ -107,10 +107,10 @@ int(3)
 
 ```php
 <?php
-$foo = array(2 => 'a', 'foo' => 'b', 0 => 'c');
-$foo[1] = 'd';
-list($x, $y, $z) = $foo;
-var_dump($foo, $x, $y, $z);
+$foo = array(2 => 'a', 'foo' => 'b', 0 => 'c');
+$foo[1] = 'd';
+list($x, $y, $z) = $foo;
+var_dump($foo, $x, $y, $z);
 ```
 
 Виробляє такий висновок (зверніть увагу, на порядок, в якому елементи були перераховані в синтаксисі **list()** і порядок виведення):
@@ -137,16 +137,16 @@ string(1) "a"
 
 ```php
 <?php
-$data = [
-    ["id" => 1, "name" => 'Tom'],
-    ["id" => 2, "name" => 'Fred'],
+$data = [
+    ["id" => 1, "name" => 'Tom'],
+    ["id" => 2, "name" => 'Fred'],
 ];
-foreach ($data as ["id" => $id, "name" => $name]) {
-    echo "id: $id, name: $name\n";
+foreach ($data as ["id" => $id, "name" => $name]) {
+    echo "id: $id, name: $name\n";
 }
-echo PHP_EOL;
-list(1 => $second, 3 => $fourth) = [1, 2, 3, 4];
-echo "$second, $fourth\n";
+echo PHP_EOL;
+list(1 => $second, 3 => $fourth) = [1, 2, 3, 4];
+echo "$second, $fourth\n";
 ```
 
 Результат виконання цього прикладу:

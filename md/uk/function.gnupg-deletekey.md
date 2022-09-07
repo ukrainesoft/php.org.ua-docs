@@ -42,8 +42,8 @@ gnupg_deletekey(resource $identifier, string $key, bool $allow_secret): bool
 
 ```php
 <?php
-$res = gnupg_init();
-gnupg_deletekey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+$res = gnupg_init();
+gnupg_deletekey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
 ?>
 ```
 
@@ -51,7 +51,7 @@ gnupg_deletekey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->deletekey("8660281B6051D071D94B5B230549F9DC851566DC");
 ?>
 ```

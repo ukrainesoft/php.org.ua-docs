@@ -38,7 +38,7 @@ public Ds\Vector::sum(): int|float
 
 ```php
 <?php
-$vector = new \Ds\Vector([1, 2, 3]);
+$vector = new \Ds\Vector([1, 2, 3]);
 var_dump($vector->sum());
 ?>
 ```
@@ -53,7 +53,7 @@ int(6)
 
 ```php
 <?php
-$vector = new \Ds\Vector([1, 2.5, 3]);
+$vector = new \Ds\Vector([1, 2.5, 3]);
 var_dump($vector->sum());
 ?>
 ```

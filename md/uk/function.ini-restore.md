@@ -36,15 +36,15 @@ ini_restore(string $option): void
 
 ```php
 <?php
-$setting = 'html_errors';
+$setting = 'html_errors';
 
-echo 'Текущее значение настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;
+echo 'Текущее значение настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;
 
-ini_set($setting, ini_get($setting) ? 0 : 1);
-echo 'Новое значение настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;
+ini_set($setting, ini_get($setting) ? 0 : 1);
+echo 'Новое значение настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;
 
 ini_restore($setting);
-echo 'Исходное значение настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;
+echo 'Исходное значение настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;
 ?>
 ```
 

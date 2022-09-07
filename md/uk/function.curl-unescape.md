@@ -46,22 +46,22 @@ curl_unescape(CurlHandle $handle, string $string): string|false
 
 ```php
 <?php
-// Создаём обработчик curl
-$ch = curl_init('http://example.com/redirect.php');
+// Создаём обработчик curl
+$ch = curl_init('http://example.com/redirect.php');
 
-// Посылаем HTTP-запрос
-curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+// Посылаем HTTP-запрос
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 curl_exec($ch);
 
-// Получаем последний использованный URL
-$effective_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
-// например "http://example.com/show_location.php?loc=M%C3%BCnchen"
+// Получаем последний использованный URL
+$effective_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+// например "http://example.com/show_location.php?loc=M%C3%BCnchen"
 
-// Декодируем
-$effective_url_decoded = curl_unescape($ch, $effective_url);
-// "http://example.com/show_location.php?loc=München"
+// Декодируем
+$effective_url_decoded = curl_unescape($ch, $effective_url);
+// "http://example.com/show_location.php?loc=München"
 
-// Закрываем обработчик
+// Закрываем обработчик
 curl_close($ch);
 ?>
 ```

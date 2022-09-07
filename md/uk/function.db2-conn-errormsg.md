@@ -40,9 +40,9 @@ db2_conn_errormsg(resource $connection = ?): string
 
 ```php
 <?php
-$conn = db2_connect('badname', 'baduser', 'badpassword');
-if (!$conn) {
-    print db2_conn_errormsg();
+$conn = db2_connect('badname', 'baduser', 'badpassword');
+if (!$conn) {
+    print db2_conn_errormsg();
 }
 ?>
 ```

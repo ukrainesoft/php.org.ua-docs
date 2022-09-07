@@ -44,7 +44,7 @@ gzpassthru(resource $stream): int
 
 ```php
 <?php
-$fp = gzopen('file.gz', 'r');
+$fp = gzopen('file.gz', 'r');
 gzpassthru($fp);
 gzclose($fp);
 ?>

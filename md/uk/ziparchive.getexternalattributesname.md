@@ -15,7 +15,7 @@ ZipArchive::getExternalAttributesName — Вийняти зовнішні атр
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::getExternalAttributesName(    string $name,    int &$opsys,    int &$attr,    int $flags = 0): bool
+public ZipArchive::getExternalAttributesName(    string $name,    int &$opsys,    int &$attr,    int $flags = 0): bool
 ```
 
 Витягує зовнішні атрибути запису на її ім'я.

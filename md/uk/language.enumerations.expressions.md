@@ -14,29 +14,29 @@ title: Значення перерахування у постійних вир�
 
 ```php
 <?php
-// Это полностью законное определение перечисления.
-enum Direction implements ArrayAccess
+// Это полностью законное определение перечисления.
+enum Direction implements ArrayAccess
 {
-    case Up;
-    case Down;
+    case Up;
+    case Down;
 
-    public function offsetGet($val) { ... }
-    public function offsetExists($val) { ... }
-    public function offsetSet($val) { throw new Exception(); }
-    public function offsetUnset($val) { throw new Exception(); }
+    public function offsetGet($val) { ... }
+    public function offsetExists($val) { ... }
+    public function offsetSet($val) { throw new Exception(); }
+    public function offsetUnset($val) { throw new Exception(); }
 }
 
-class Foo
+class Foo
 {
-    // Это разрешено.
-    const Bar = Direction::Down;
+    // Это разрешено.
+    const Bar = Direction::Down;
 
-    // Это запрещено, так как не может быть детерминированным.
-    const Bar = Direction::Up['short'];
-    // Fatal error: Cannot use [] on enums in constant expression
+    // Это запрещено, так как не может быть детерминированным.
+    const Bar = Direction::Up['short'];
+    // Fatal error: Cannot use [] on enums in constant expression
 }
 
-// Это совершенно законно, потому что это не постоянное выражение.
-$x = Direction::Up['short'];
+// Это совершенно законно, потому что это не постоянное выражение.
+$x = Direction::Up['short'];
 ?>
 ```

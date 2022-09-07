@@ -15,7 +15,7 @@ eioreaddir - Читає вміст директорії
 ### Опис
 
 ```methodsynopsis
-eio_readdir(    string $path,    int $flags,    int $pri,    callable $callback,    string $data = NULL): resource
+eio_readdir(    string $path,    int $flags,    int $pri,    callable $callback,    string $data = NULL): resource
 ```
 
 Читає вміст директорії (за допомогою системних викликів `opendir` `readdir` і `closedir`) і або повертає імена файлів, або передає масив як аргумент `result` у функцію `callback`. Поведінка методу залежить від значення параметра `flags`
@@ -39,7 +39,7 @@ eio_readdir(    string $path,    int $flags,    int $pri,    cal
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -146,16 +146,16 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-/* Вызывается, когда отработает eio_readdir() */
-function my_readdir_callback($data, $result) {
-    echo "Вызвана функция ", __FUNCTION__, "\n";
-    echo "данные: "; var_dump($data);
-    echo "результат: "; var_dump($result);
-    echo "\n";
+/* Вызывается, когда отработает eio_readdir() */
+function my_readdir_callback($data, $result) {
+    echo "Вызвана функция ", __FUNCTION__, "\n";
+    echo "данные: "; var_dump($data);
+    echo "результат: "; var_dump($result);
+    echo "\n";
 }
 
-eio_readdir("/var/spool/news", EIO_READDIR_STAT_ORDER | EIO_READDIR_DIRS_FIRST,
-  EIO_PRI_DEFAULT, "my_readdir_callback");
+eio_readdir("/var/spool/news", EIO_READDIR_STAT_ORDER | EIO_READDIR_DIRS_FIRST,
+  EIO_PRI_DEFAULT, "my_readdir_callback");
 eio_event_loop();
 ?>
 ```

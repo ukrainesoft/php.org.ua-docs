@@ -67,32 +67,32 @@ public PDOStatement::fetch(int $mode = PDO::FETCH_DEFAULT, int $cursorOrientatio
 
 ```php
 <?php
-$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
 $sth->execute();
 
-/* Примеры различных режимов работы PDOStatement::fetch */
-print("PDO::FETCH_ASSOC: ");
-print("Возвращаем следующую строку в виде Масива, индексированного именами столбцов\n");
-$result = $sth->fetch(PDO::FETCH_ASSOC);
+/* Примеры различных режимов работы PDOStatement::fetch */
+print("PDO::FETCH_ASSOC: ");
+print("Возвращаем следующую строку в виде Масива, индексированного именами столбцов\n");
+$result = $sth->fetch(PDO::FETCH_ASSOC);
 print_r($result);
 print("\n");
 
-print("PDO::FETCH_BOTH: ");
-print("Возвращаем следующую строку в виде Масива, индексированного как именами столбцов, так и их номерами\n");
-$result = $sth->fetch(PDO::FETCH_BOTH);
+print("PDO::FETCH_BOTH: ");
+print("Возвращаем следующую строку в виде Масива, индексированного как именами столбцов, так и их номерами\n");
+$result = $sth->fetch(PDO::FETCH_BOTH);
 print_r($result);
 print("\n");
 
-print("PDO::FETCH_LAZY: ");
-print("Возвращаем следующую строку в виде анонимного объекта со свойствами, соответствующими столбцам\n");
-$result = $sth->fetch(PDO::FETCH_LAZY);
+print("PDO::FETCH_LAZY: ");
+print("Возвращаем следующую строку в виде анонимного объекта со свойствами, соответствующими столбцам\n");
+$result = $sth->fetch(PDO::FETCH_LAZY);
 print_r($result);
 print("\n");
 
-print("PDO::FETCH_OBJ: ");
-print("Возвращаем следующую строку в виде анонимного объекта со свойствами, соответствующими столбцам\n");
-$result = $sth->fetch(PDO::FETCH_OBJ);
-print $result->name;
+print("PDO::FETCH_OBJ: ");
+print("Возвращаем следующую строку в виде анонимного объекта со свойствами, соответствующими столбцам\n");
+$result = $sth->fetch(PDO::FETCH_OBJ);
+print $result->name;
 print("\n");
 ?>
 ```
@@ -131,30 +131,30 @@ kiwi
 
 ```php
 <?php
-function readDataForwards($dbh) {
-    $sql = 'SELECT hand, won, bet FROM mynumbers ORDER BY BET';
-    $stmt = $dbh->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
-    $stmt->execute();
-    while ($row = $stmt->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_NEXT)) {
-        $data = $row[0] . "\t" . $row[1] . "\t" . $row[2] . "\n";
-        print $data;
-    }
+function readDataForwards($dbh) {
+    $sql = 'SELECT hand, won, bet FROM mynumbers ORDER BY BET';
+    $stmt = $dbh->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
+    $stmt->execute();
+    while ($row = $stmt->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_NEXT)) {
+        $data = $row[0] . "\t" . $row[1] . "\t" . $row[2] . "\n";
+        print $data;
+    }
 }
-function readDataBackwards($dbh) {
-    $sql = 'SELECT hand, won, bet FROM mynumbers ORDER BY bet';
-    $stmt = $dbh->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
-    $stmt->execute();
-    $row = $stmt->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_LAST);
-    do {
-        $data = $row[0] . "\t" . $row[1] . "\t" . $row[2] . "\n";
-        print $data;
-    } while ($row = $stmt->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_PRIOR));
+function readDataBackwards($dbh) {
+    $sql = 'SELECT hand, won, bet FROM mynumbers ORDER BY bet';
+    $stmt = $dbh->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL));
+    $stmt->execute();
+    $row = $stmt->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_LAST);
+    do {
+        $data = $row[0] . "\t" . $row[1] . "\t" . $row[2] . "\n";
+        print $data;
+    } while ($row = $stmt->fetch(PDO::FETCH_NUM, PDO::FETCH_ORI_PRIOR));
 }
 
-print "Читаем в прямой последовательности:\n";
+print "Читаем в прямой последовательности:\n";
 readDataForwards($conn);
 
-print "Читаем в обратной последовательности:\n";
+print "Читаем в обратной последовательности:\n";
 readDataBackwards($conn);
 ?>
 ```
@@ -179,31 +179,31 @@ readDataBackwards($conn);
 
 ```php
 <?php
-class Person
+class Person
 {
-    private $name;
+    private $name;
 
-    public function __construct()
-    {
-        $this->tell();
-    }
+    public function __construct()
+    {
+        $this->tell();
+    }
 
-    public function tell()
-    {
-        if (isset($this->name)) {
-            echo "Я {$this->name}.\n";
-        } else {
-            echo "У меня ещё нет имени.\n";
-        }
-    }
+    public function tell()
+    {
+        if (isset($this->name)) {
+            echo "Я {$this->name}.\n";
+        } else {
+            echo "У меня ещё нет имени.\n";
+        }
+    }
 }
 
-$sth = $dbh->query("SELECT * FROM people");
-$sth->setFetchMode(PDO::FETCH_CLASS, 'Person');
-$person = $sth->fetch();
+$sth = $dbh->query("SELECT * FROM people");
+$sth->setFetchMode(PDO::FETCH_CLASS, 'Person');
+$person = $sth->fetch();
 $person->tell();
-$sth->setFetchMode(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE, 'Person');
-$person = $sth->fetch();
+$sth->setFetchMode(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE, 'Person');
+$person = $sth->fetch();
 $person->tell();
 ?>
 ```

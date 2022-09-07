@@ -35,18 +35,18 @@ Memcache::close(): bool
 ```php
 <?php
 
-/* процедурное API */
-$memcache_obj = memcache_connect('memcache_host', 11211);
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
 /*
-сделать что-нибудь здесь...
+сделать что-нибудь здесь...
 */
 memcache_close($memcache_obj);
 
-/* объектно-ориентированное API */
-$memcache_obj = new Memcache;
-$memcache_obj->connect('memcache_host', 11211);
+/* объектно-ориентированное API */
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
 /*
-сделать что-нибудь здесь...
+сделать что-нибудь здесь...
 */
 $memcache_obj->close();
 

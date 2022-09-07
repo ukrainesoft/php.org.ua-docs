@@ -37,20 +37,20 @@ cubrid_get_query_timeout(resource $req_identifier): int
 ```php
 <?php
 
-$host = "localhost";
-$port = 33000;
-$db = "demodb";
+$host = "localhost";
+$port = 33000;
+$db = "demodb";
 
-$conn =
+$conn =
 cubrid_connect_with_url("CUBRID:$host:$port:$db:::?login_timeout=50000&query_timeout=5000&disconnect_on_query_timeout=yes");
 
-$req = cubrid_prepare($conn, "SELECT * FROM code");
+$req = cubrid_prepare($conn, "SELECT * FROM code");
 
-$timeout = cubrid_get_query_timeout($req);
+$timeout = cubrid_get_query_timeout($req);
 var_dump($timeout);
 
-cubrid_set_query_timeout($req, 1000);
-$timeout = cubrid_get_query_timeout($req);
+cubrid_set_query_timeout($req, 1000);
+$timeout = cubrid_get_query_timeout($req);
 var_dump($timeout);
 
 cubrid_close($conn);

@@ -38,22 +38,22 @@ public RecursiveArrayIterator::getChildren(): ?RecursiveArrayIterator
 
 ```php
 <?php
-$fruits = array("a" => "lemon", "b" => "orange", array("a" => "apple", "p" => "pear"));
+$fruits = array("a" => "lemon", "b" => "orange", array("a" => "apple", "p" => "pear"));
 
-$iterator = new RecursiveArrayIterator($fruits);
+$iterator = new RecursiveArrayIterator($fruits);
 
-while ($iterator->valid()) {
+while ($iterator->valid()) {
 
-    if ($iterator->hasChildren()) {
-        // выводим информацию о всех дочерних элементах
-        foreach ($iterator->getChildren() as $key => $value) {
-            echo $key . ' : ' . $value . "\n";
-        }
-    } else {
-        echo "Дочерних элементов не обнаружено.\n";
-    }
+    if ($iterator->hasChildren()) {
+        // выводим информацию о всех дочерних элементах
+        foreach ($iterator->getChildren() as $key => $value) {
+            echo $key . ' : ' . $value . "\n";
+        }
+    } else {
+        echo "Дочерних элементов не обнаружено.\n";
+    }
 
-    $iterator->next();
+    $iterator->next();
 }
 ?>
 ```

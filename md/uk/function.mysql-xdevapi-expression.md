@@ -34,10 +34,10 @@ mysql_xdevapi\expression(string $expression): object
 
 ```php
 <?php
-$expression = mysql_xdevapi\Expression("[age,job]");
+$expression = mysql_xdevapi\Expression("[age,job]");
 
-$res  = $coll->find("age > 30")->fields($expression)->limit(3)->execute();
-$data = $res->fetchAll();
+$res  = $coll->find("age > 30")->fields($expression)->limit(3)->execute();
+$data = $res->fetchAll();
 
 print_r($data);
 ?>

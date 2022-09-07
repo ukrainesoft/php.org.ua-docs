@@ -36,16 +36,16 @@ Request identifier.
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
-$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND nation_code='AUS' AND medal='G'");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND nation_code='AUS' AND medal='G'");
 
-$column_names = cubrid_column_names($result);
-$column_types = cubrid_column_types($result);
+$column_names = cubrid_column_names($result);
+$column_types = cubrid_column_types($result);
 
-printf("%-30s %-30s %-15s\n", "Column Names", "Column Types", "Column Maxlen");
-for($i = 0, $size = count($column_names); $i < $size; $i++) {
-    $column_len = cubrid_field_len($result, $i);
-    printf("%-30s %-30s %-15s\n", $column_names[$i], $column_types[$i], $column_len);
+printf("%-30s %-30s %-15s\n", "Column Names", "Column Types", "Column Maxlen");
+for($i = 0, $size = count($column_names); $i < $size; $i++) {
+    $column_len = cubrid_field_len($result, $i);
+    printf("%-30s %-30s %-15s\n", $column_names[$i], $column_types[$i], $column_len);
 }
 
 cubrid_disconnect($conn);

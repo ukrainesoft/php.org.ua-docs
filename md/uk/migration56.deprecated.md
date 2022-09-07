@@ -16,15 +16,15 @@ title: 'Функціонал, оголошений застарілим у PHP 5
 
 ```php
 <?php
-class A {
-    function f() { echo get_class($this); }
+class A {
+    function f() { echo get_class($this); }
 }
 
-class B {
-    function f() { A::f(); }
+class B {
+    function f() { A::f(); }
 }
 
-(new B)->f();
+(new B)->f();
 ?>
 ```
 

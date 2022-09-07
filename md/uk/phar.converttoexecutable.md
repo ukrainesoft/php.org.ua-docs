@@ -66,16 +66,16 @@ public Phar::convertToExecutable(?int $format = null, ?int $compression = null, 
 
 ```php
 <?php
-try {
-    $tarphar = new Phar('myphar.phar.tar');
-    // конвертировать архив в формат phar
-    // обратите внимание, что myphar.phar.tar *не* будет удалён
-    $phar = $tarphar->convertToExecutable(Phar::PHAR); // будет создан myphar.phar
-    $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));
-    // будет создан myphar.phar.tgz
-    $compressed = $phar->convertToExecutable(Phar::TAR, Phar::GZ, '.phar.tgz');
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $tarphar = new Phar('myphar.phar.tar');
+    // конвертировать архив в формат phar
+    // обратите внимание, что myphar.phar.tar *не* будет удалён
+    $phar = $tarphar->convertToExecutable(Phar::PHAR); // будет создан myphar.phar
+    $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));
+    // будет создан myphar.phar.tgz
+    $compressed = $phar->convertToExecutable(Phar::TAR, Phar::GZ, '.phar.tgz');
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

@@ -44,7 +44,7 @@ mcrypt_module_self_test(string $algorithm, string $lib_dir = ?): bool
 
 ```php
 <?php
-var_dump(mcrypt_module_self_test(MCRYPT_RIJNDAEL_128)) . "\n";
+var_dump(mcrypt_module_self_test(MCRYPT_RIJNDAEL_128)) . "\n";
 var_dump(mcrypt_module_self_test(MCRYPT_BOGUS_CYPHER));
 ?>
 ```

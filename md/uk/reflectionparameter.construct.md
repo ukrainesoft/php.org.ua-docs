@@ -34,30 +34,30 @@ public **ReflectionParameter::construct**(string|array|object `$function`, int|s
 
 ```php
 <?php
-function foo($a, $b, $c) { }
-function bar(Exception $a, &$b, $c) { }
-function baz(ReflectionFunction $a, $b = 1, $c = null) { }
-function abc() { }
+function foo($a, $b, $c) { }
+function bar(Exception $a, &$b, $c) { }
+function baz(ReflectionFunction $a, $b = 1, $c = null) { }
+function abc() { }
 
-$reflect = new ReflectionFunction('foo');
+$reflect = new ReflectionFunction('foo');
 
-echo $reflect;
+echo $reflect;
 
-foreach ($reflect->getParameters() as $i => $param) {
-    printf(
-        "-- Аргумент #%d: %s {\n".
-        "   Класс: %s\n".
-        "   Допускает значения NULL: %s\n".
-        "   Передаётся по ссылке: %s\n".
-        "   Необязательный?: %s\n".
-        "}\n",
-        $i, // можно использовать $param->getPosition()
-        $param->getName(),
-        var_export($param->getClass(), 1),
-        var_export($param->allowsNull(), 1),
-        var_export($param->isPassedByReference(), 1),
-        $param->isOptional() ? 'да' : 'нет'
-    );
+foreach ($reflect->getParameters() as $i => $param) {
+    printf(
+        "-- Аргумент #%d: %s {\n".
+        "   Класс: %s\n".
+        "   Допускает значения NULL: %s\n".
+        "   Передаётся по ссылке: %s\n".
+        "   Необязательный?: %s\n".
+        "}\n",
+        $i, // можно использовать $param->getPosition()
+        $param->getName(),
+        var_export($param->getClass(), 1),
+        var_export($param->allowsNull(), 1),
+        var_export($param->isPassedByReference(), 1),
+        $param->isOptional() ? 'да' : 'нет'
+    );
 }
 ?>
 ```

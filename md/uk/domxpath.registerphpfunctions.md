@@ -44,25 +44,25 @@ PHP Basics Jim Smith Jane Smith PHP Secrets Jenny Smythe XML basics Joe Black
 
 ```php
 <?php
-$doc = new DOMDocument;
+$doc = new DOMDocument;
 $doc->load('book.xml');
 
-$xpath = new DOMXPath($doc);
+$xpath = new DOMXPath($doc);
 
-// Регистрация PHP: пространство имён (обязательно)
-$xpath->registerNamespace("php", "http://php.net/xpath");
+// Регистрация PHP: пространство имён (обязательно)
+$xpath->registerNamespace("php", "http://php.net/xpath");
 
-// Регистрация функций PHP (без ограничений)
+// Регистрация функций PHP (без ограничений)
 $xpath->registerPHPFunctions();
 
-// Вызов функции substr для названия книги
-$nodes = $xpath->query('//book[php:functionString("substr", title, 0, 3) = "PHP"]');
+// Вызов функции substr для названия книги
+$nodes = $xpath->query('//book[php:functionString("substr", title, 0, 3) = "PHP"]');
 
-echo "Найдены {$nodes->length} книги, начинающиеся с 'PHP':\n";
-foreach ($nodes as $node) {
-    $title  = $node->getElementsByTagName("title")->item(0)->nodeValue;
-    $author = $node->getElementsByTagName("author")->item(0)->nodeValue;
-    echo "$title автора $author\n";
+echo "Найдены {$nodes->length} книги, начинающиеся с 'PHP':\n";
+foreach ($nodes as $node) {
+    $title  = $node->getElementsByTagName("title")->item(0)->nodeValue;
+    $author = $node->getElementsByTagName("author")->item(0)->nodeValue;
+    echo "$title автора $author\n";
 }
 
 ?>
@@ -80,27 +80,27 @@ PHP Secrets автора Jenny Smythe
 
 ```php
 <?php
-$doc = new DOMDocument;
+$doc = new DOMDocument;
 $doc->load('book.xml');
 
-$xpath = new DOMXPath($doc);
+$xpath = new DOMXPath($doc);
 
-// Регистрация PHP: пространство имён (обязательно)
-$xpath->registerNamespace("php", "http://php.net/xpath");
+// Регистрация PHP: пространство имён (обязательно)
+$xpath->registerNamespace("php", "http://php.net/xpath");
 
-// Регистрация PHP-функций (только has_multiple)
+// Регистрация PHP-функций (только has_multiple)
 $xpath->registerPHPFunctions("has_multiple");
 
-function has_multiple($nodes) {
-    // Возвращает true, если более одного автора
-    return count($nodes) > 1;
+function has_multiple($nodes) {
+    // Возвращает true, если более одного автора
+    return count($nodes) > 1;
 }
-// Фильтр книг с двумя и более авторами
-$books = $xpath->query('//book[php:function("has_multiple", author)]');
+// Фильтр книг с двумя и более авторами
+$books = $xpath->query('//book[php:function("has_multiple", author)]');
 
-echo "Книги с двумя и более авторами:\n";
-foreach ($books as $book) {
-    echo $book->getElementsByTagName("title")->item(0)->nodeValue . "\n";
+echo "Книги с двумя и более авторами:\n";
+foreach ($books as $book) {
+    echo $book->getElementsByTagName("title")->item(0)->nodeValue . "\n";
 }
 
 ?>

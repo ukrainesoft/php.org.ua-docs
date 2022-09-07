@@ -15,7 +15,7 @@ Imagick::thumbnailImage — Змінює розмір зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::thumbnailImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $fill = false,    bool $legacy = false): bool
+public Imagick::thumbnailImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $fill = false,    bool $legacy = false): bool
 ```
 
 Змінює розмір зображення до заданих розмірів та видаляє всі пов'язані профілі. Мета полягає в тому, щоб створювати мініатюри зображень, які підходять для відображення в Інтернеті. Якщо в якості третього параметра встановлено значення \*\*`true`\*\*тоді параметри стовпців і рядків використовуються як максимальні для кожної сторони. Обидві сторони будуть зменшені до тих пір, поки вони не стануть рівними або меншими, ніж параметр, вказаний для сторони.
@@ -50,12 +50,12 @@ public Imagick::thumbnailImage(    int $columns,    int $rows,    bo
 
 ```php
 <?php
-function thumbnailImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->setbackgroundcolor('rgb(64, 64, 64)');
-    $imagick->thumbnailImage(100, 100, true, true);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function thumbnailImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setbackgroundcolor('rgb(64, 64, 64)');
+    $imagick->thumbnailImage(100, 100, true, true);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -377,10 +377,10 @@ The international currency symbol.
 
 ## Дивіться також
 
--   [»  ICU formatting documentation](https://unicode-org.github.io/icu/userguide/format_parse/)
--   [» ICU. Форматування чисел](https://unicode-org.github.io/icu/userguide/format_parse/numbers/)
--   [» ICU. Форматування десяткових дробів](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
--   [»  ICU. Форматирование на основе правил](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details)
+-   [»  ICU formatting documentation](https://unicode-org.github.io/icu/userguide/format_parse/)
+-   [» ICU. Форматування чисел](https://unicode-org.github.io/icu/userguide/format_parse/numbers/)
+-   [» ICU. Форматування десяткових дробів](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
+-   [»  ICU. Форматирование на основе правил](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details)
 
 ## Зміст
 

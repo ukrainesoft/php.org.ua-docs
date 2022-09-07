@@ -15,7 +15,7 @@ Imagick::quantizeImage — Аналізує кольори еталонного 
 ### Опис
 
 ```methodsynopsis
-public Imagick::quantizeImage(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
+public Imagick::quantizeImage(    int $numberColors,    int $colorspace,    int $treedepth,    bool $dither,    bool $measureError): bool
 ```
 
 ### Список параметрів
@@ -44,12 +44,12 @@ public Imagick::quantizeImage(    int $numberColors,    int $colorspace,
 
 ```php
 <?php
-function quantizeImage($imagePath, $numberColors, $colorSpace, $treeDepth, $dither) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->quantizeImage($numberColors, $colorSpace, $treeDepth, $dither, false);
-    $imagick->setImageFormat('png');
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+function quantizeImage($imagePath, $numberColors, $colorSpace, $treeDepth, $dither) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->quantizeImage($numberColors, $colorSpace, $treeDepth, $dither, false);
+    $imagick->setImageFormat('png');
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

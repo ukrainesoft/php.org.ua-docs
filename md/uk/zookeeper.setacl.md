@@ -53,22 +53,22 @@ ACL, який потрібно встановити.
 
 ```php
 <?php
-$zookeeper = new Zookeeper('locahost:2181');
-$aclArray = array(
-  array(
-    'perms'  => Zookeeper::PERM_ALL,
-    'scheme' => 'world',
-    'id'     => 'anyone',
-  )
+$zookeeper = new Zookeeper('locahost:2181');
+$aclArray = array(
+  array(
+    'perms'  => Zookeeper::PERM_ALL,
+    'scheme' => 'world',
+    'id'     => 'anyone',
+  )
 );
-$path = '/path/to/newnode';
-$zookeeper->setAcl($path, $aclArray);
+$path = '/path/to/newnode';
+$zookeeper->setAcl($path, $aclArray);
 
-$r = $zookeeper->getAcl($path);
-if ($r)
-  var_dump($r);
+$r = $zookeeper->getAcl($path);
+if ($r)
+  var_dump($r);
 else
-  echo 'Ошибка';
+  echo 'Ошибка';
 ?>
 ```
 

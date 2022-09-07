@@ -27,11 +27,11 @@ title: Клас SwooleEvent
 
     /* Методы */
     
-   public static add(    int $fd,    callable $read_callback,    callable $write_callback = ?,    string $events = ?): bool
+   public static add(    int $fd,    callable $read_callback,    callable $write_callback = ?,    string $events = ?): bool
 public static defer(mixed $callback): void
 public static del(string $fd): bool
 public static exit(): void
-public static set(    int $fd,    string $read_callback = ?,    string $write_callback = ?,    string $events = ?): bool
+public static set(    int $fd,    string $read_callback = ?,    string $write_callback = ?,    string $events = ?): bool
 public static wait(): void
 public static write(string $fd, string $data): void
 

@@ -39,7 +39,7 @@ time(): int
 ```php
 <?php
 
-echo 'Сейчас: '. time();
+echo 'Сейчас: '. time();
 ?>
 ```
 

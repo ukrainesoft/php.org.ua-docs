@@ -48,25 +48,25 @@ cubrid_affected_rows(resource $req_identifier = ?): int
 
 ```php
 <?php
-$conn = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
-cubrid_execute($conn, "DROP TABLE IF EXISTS cubrid_test");
-cubrid_execute($conn, "CREATE TABLE cubrid_test (d varchar)");
-$sql_stmt = "INSERT INTO cubrid_test(d) VALUES('php-test')";
-$req = cubrid_prepare($conn, $sql_stmt);
+$conn = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
+cubrid_execute($conn, "DROP TABLE IF EXISTS cubrid_test");
+cubrid_execute($conn, "CREATE TABLE cubrid_test (d varchar)");
+$sql_stmt = "INSERT INTO cubrid_test(d) VALUES('php-test')";
+$req = cubrid_prepare($conn, $sql_stmt);
 
-for ($i = 0; $i < 10; $i++) {
-    cubrid_execute($req);
+for ($i = 0; $i < 10; $i++) {
+    cubrid_execute($req);
 }
 cubrid_commit($conn);
 
-$req = cubrid_execute($conn, "DELETE FROM cubrid_test WHERE d='php-test'", CUBRID_ASYNC);
+$req = cubrid_execute($conn, "DELETE FROM cubrid_test WHERE d='php-test'", CUBRID_ASYNC);
 var_dump(cubrid_affected_rows());
 var_dump(cubrid_affected_rows($conn));
 var_dump(cubrid_affected_rows($req));
 
 cubrid_disconnect($conn);
 
-print "done!";
+print "done!";
 ?>
 ```
 

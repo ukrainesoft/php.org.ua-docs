@@ -45,15 +45,15 @@ mysqli_num_fields(mysqli_result $result): int
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$result = $mysqli->query("SELECT Name, CountryCode, District, Population FROM City ORDER BY ID LIMIT 1");
+$result = $mysqli->query("SELECT Name, CountryCode, District, Population FROM City ORDER BY ID LIMIT 1");
 
-/* Получение количества полей в наборе результатов */
-$field_cnt = $result->field_count;
+/* Получение количества полей в наборе результатов */
+$field_cnt = $result->field_count;
 
-printf("Получено %d полей.\n", $field_cnt);
+printf("Получено %d полей.\n", $field_cnt);
 ```
 
 **Приклад #2 Процедурний стиль**
@@ -61,15 +61,15 @@ printf("Получено %d полей.\n", $field_cnt);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$result = mysqli_query($link, "SELECT Name, CountryCode, District, Population FROM City ORDER BY ID LIMIT 1");
+$result = mysqli_query($link, "SELECT Name, CountryCode, District, Population FROM City ORDER BY ID LIMIT 1");
 
-/* Получение количества полей в наборе результатов */
-$field_cnt = mysqli_num_fields($result);
+/* Получение количества полей в наборе результатов */
+$field_cnt = mysqli_num_fields($result);
 
-printf("Получено %d полей.\n", $field_cnt);
+printf("Получено %d полей.\n", $field_cnt);
 ```
 
 Результат виконання даних прикладів:

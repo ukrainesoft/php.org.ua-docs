@@ -40,12 +40,12 @@ socket_strerror(int $error_code): string
 
 ```php
 <?php
-if (false == ($socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP))) {
-   echo "socket_create() не выполнена: причина: " . socket_strerror(socket_last_error()) . "\n";
+if (false == ($socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP))) {
+   echo "socket_create() не выполнена: причина: " . socket_strerror(socket_last_error()) . "\n";
 }
 
-if (false == (@socket_bind($socket, '127.0.0.1', 80))) {
-   echo "socket_bind() не выполнена: причина: " . socket_strerror(socket_last_error($socket)) . "\n";
+if (false == (@socket_bind($socket, '127.0.0.1', 80))) {
+   echo "socket_bind() не выполнена: причина: " . socket_strerror(socket_last_error($socket)) . "\n";
 }
 ?>
 ```

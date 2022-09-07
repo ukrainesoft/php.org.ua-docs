@@ -38,7 +38,7 @@ public Ds\Queue::pop(): mixed
 
 ```php
 <?php
-$queue = new \Ds\Queue();
+$queue = new \Ds\Queue();
 
 $queue->push("a");
 $queue->push("b");

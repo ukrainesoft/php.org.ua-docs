@@ -44,13 +44,13 @@ title: Шлях малювання
 
     /* Методы */
     public addRectangle(UI\Point $point, UI\Size $size)
-public arcTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
-public bezierTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public arcTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public bezierTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 public closeFigure()
 public end()
-public lineTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public lineTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 public newFigure(UI\Point $point)
-public newFigureWithArc(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public newFigureWithArc(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 
    }
 ```

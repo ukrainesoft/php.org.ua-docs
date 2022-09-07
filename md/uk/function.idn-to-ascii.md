@@ -17,7 +17,7 @@ idnтоascii — Перетворити доменне ім'я на формат
 Процедурний стиль
 
 ```methodsynopsis
-idn_to_ascii(    string $domain,    int $flags = IDNA_DEFAULT,    int $variant = INTL_IDNA_VARIANT_UTS46,    array &$idna_info = null): string|false
+idn_to_ascii(    string $domain,    int $flags = IDNA_DEFAULT,    int $variant = INTL_IDNA_VARIANT_UTS46,    array &$idna_info = null): string|false
 ```
 
 Ця функція перетворює доменне ім'я з Unicode на IDNA ASCII.
@@ -58,7 +58,7 @@ idn_to_ascii(    string $domain,    int $flags = IDNA_DEFAULT,    in
 ```php
 <?php
 
-echo idn_to_ascii('täst.de');
+echo idn_to_ascii('täst.de');
 
 ?>
 ```

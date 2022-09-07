@@ -40,28 +40,28 @@ public ImagickDraw::setFontStyle(int $style): bool
 
 ```php
 <?php
-function setFontStyle($fillColor, $strokeColor, $backgroundColor) {
-    $draw = new \ImagickDraw();
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(1);
-    $draw->setFontSize(36);
-    $draw->setFontStyle(\Imagick::STYLE_NORMAL);
-    $draw->annotation(50, 50, "Lorem Ipsum!");
+function setFontStyle($fillColor, $strokeColor, $backgroundColor) {
+    $draw = new \ImagickDraw();
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(1);
+    $draw->setFontSize(36);
+    $draw->setFontStyle(\Imagick::STYLE_NORMAL);
+    $draw->annotation(50, 50, "Lorem Ipsum!");
 
-    $draw->setFontStyle(\Imagick::STYLE_ITALIC);
-    $draw->annotation(50, 100, "Lorem Ipsum!");
+    $draw->setFontStyle(\Imagick::STYLE_ITALIC);
+    $draw->annotation(50, 100, "Lorem Ipsum!");
 
-    $draw->setFontStyle(\Imagick::STYLE_OBLIQUE);
-    $draw->annotation(50, 150, "Lorem Ipsum!");
+    $draw->setFontStyle(\Imagick::STYLE_OBLIQUE);
+    $draw->annotation(50, 150, "Lorem Ipsum!");
 
-    $imagick = new \Imagick();
-    $imagick->newImage(350, 300, $backgroundColor);
-    $imagick->setImageFormat("png");
-    $imagick->drawImage($draw);
+    $imagick = new \Imagick();
+    $imagick->newImage(350, 300, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

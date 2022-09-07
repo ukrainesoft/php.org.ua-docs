@@ -34,10 +34,10 @@ stomp_connect_error(): string
 
 ```php
 <?php
-$link = stomp_connect('http://localhost:61613');
+$link = stomp_connect('http://localhost:61613');
 
-if(!$link) {
-    die('Ошибка соединения: ' . stomp_connect_error());
+if(!$link) {
+    die('Ошибка соединения: ' . stomp_connect_error());
 }
 ?>
 ```

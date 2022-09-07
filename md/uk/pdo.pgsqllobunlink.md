@@ -40,11 +40,11 @@ public PDO::pgsqlLOBUnlink(string $oid): bool
 
 ```php
 <?php
-$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);
-$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $db->beginTransaction();
 $db->pgsqlLOBUnlink($oid);
-$stmt = $db->prepare("DELETE FROM BLOBS where ident = ?");
+$stmt = $db->prepare("DELETE FROM BLOBS where ident = ?");
 $stmt->execute(array($some_id));
 $db->commit();
 ?>

@@ -34,8 +34,8 @@ public ReflectionClass::__toString(): string
 
 ```php
 <?php
-$reflectionClass = new ReflectionClass('Exception');
-echo $reflectionClass->__toString();
+$reflectionClass = new ReflectionClass('Exception');
+echo $reflectionClass->__toString();
 ?>
 ```
 

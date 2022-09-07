@@ -17,20 +17,20 @@ EvLoop::timer — Створює об'єкт спостерігача EvTimer, �
 ```methodsynopsis
 final
    public
-   EvLoop::timer(    
+   EvLoop::timer(    
     float
      $after
-   ,    
+   ,    
     float
      $repeat
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

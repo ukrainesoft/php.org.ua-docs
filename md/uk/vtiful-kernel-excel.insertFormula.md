@@ -44,22 +44,22 @@ public Vtiful\Kernel\Excel::insertFormula(int $row, int $column, string $formula
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$excel = new \Vtiful\Kernel\Excel($config);
+$excel = new \Vtiful\Kernel\Excel($config);
 
-$file = $excel->fileName("free.xlsx")
-    ->header(['name', 'money']);
+$file = $excel->fileName("free.xlsx")
+    ->header(['name', 'money']);
 
-for($index = 1; $index < 10; $index++) {
-    $file->insertText($index, 0, 'viest');
-    $file->insertText($index, 1, 10);
+for($index = 1; $index < 10; $index++) {
+    $file->insertText($index, 0, 'viest');
+    $file->insertText($index, 1, 10);
 }
 
-$file->insertText(12, 0, "Total");
-$file->insertFormula(12, 1, '=SUM(B2:B11)'); // вставить формулу
+$file->insertText(12, 0, "Total");
+$file->insertFormula(12, 1, '=SUM(B2:B11)'); // вставить формулу
 
 $file->output();
 ```

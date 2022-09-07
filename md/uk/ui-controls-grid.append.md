@@ -15,7 +15,7 @@ title: 'ОЙControlsGrid::append'
 ### Опис
 
 ```methodsynopsis
-public UI\Controls\Grid::append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
+public UI\Controls\Grid::append(    UI\Control $control,    int $left,    int $top,    int $xspan,    int $yspan,    bool $hexpand,    int $halign,    bool $vexpand,    int $valign)
 ```
 
 **Увага**

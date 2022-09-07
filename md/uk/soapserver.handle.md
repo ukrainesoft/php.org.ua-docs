@@ -42,12 +42,12 @@ SOAP-запит. Якщо аргумент не заданий, передбач
 
 ```php
 <?php
-function test($x)
+function test($x)
 {
-    return $x;
+    return $x;
 }
 
-$server = new SoapServer(null, array('uri' => "http://test-uri/"));
+$server = new SoapServer(null, array('uri' => "http://test-uri/"));
 $server->addFunction("test");
 $server->handle();
 ?>

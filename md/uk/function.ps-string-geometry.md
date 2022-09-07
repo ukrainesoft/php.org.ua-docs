@@ -15,7 +15,7 @@ title: псstringgeometry
 ### Опис
 
 ```methodsynopsis
-ps_string_geometry(    resource $psdoc,    string $text,    int $fontid = 0,    float $size = 0.0): array
+ps_string_geometry(    resource $psdoc,    string $text,    int $fontid = 0,    float $size = 0.0): array
 ```
 
 Функція схожа на [псstringwidth()](function.ps-stringwidth.md), але повертає масив розмірів, що містить ширину, верхню та нижню межу тексту.

@@ -48,26 +48,26 @@ ltrim(string $string, string $characters = " \n\r\t\v\x00"): string
 ```php
 <?php
 
-$text = "\t\tThese are a few words :) ...  ";
-$binary = "\x09Example string\x0A";
-$hello  = "Hello World";
-var_dump($text, $binary, $hello);
+$text = "\t\tThese are a few words :) ...  ";
+$binary = "\x09Example string\x0A";
+$hello  = "Hello World";
+var_dump($text, $binary, $hello);
 
-print "\n";
+print "\n";
 
 
-$trimmed = ltrim($text);
+$trimmed = ltrim($text);
 var_dump($trimmed);
 
-$trimmed = ltrim($text, " \t.");
+$trimmed = ltrim($text, " \t.");
 var_dump($trimmed);
 
-$trimmed = ltrim($hello, "Hdle");
+$trimmed = ltrim($hello, "Hdle");
 var_dump($trimmed);
 
-// удаляем управляющие ASCII-символы с начала $binary
-// (от 0 до 31 включительно)
-$clean = ltrim($binary, "\x00..\x1F");
+// удаляем управляющие ASCII-символы с начала $binary
+// (от 0 до 31 включительно)
+$clean = ltrim($binary, "\x00..\x1F");
 var_dump($clean);
 
 ?>

@@ -15,7 +15,7 @@ ldaprenameext — Модифікувати назву запису
 ### Опис
 
 ```methodsynopsis
-ldap_rename_ext(    LDAP\Connection $ldap,    string $dn,    string $new_rdn,    string $new_parent,    bool $delete_old_rdn,    ?array $controls = null): LDAP\Result|false
+ldap_rename_ext(    LDAP\Connection $ldap,    string $dn,    string $new_rdn,    string $new_parent,    bool $delete_old_rdn,    ?array $controls = null): LDAP\Result|false
 ```
 
 Робить те саме, що й [ldaprename()](function.ldap-rename.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)

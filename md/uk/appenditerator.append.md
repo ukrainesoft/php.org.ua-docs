@@ -36,15 +36,15 @@ public AppendIterator::append(Iterator $iterator): void
 
 ```php
 <?php
-$array_a = new ArrayIterator(array('a', 'b', 'c'));
-$array_b = new ArrayIterator(array('d', 'e', 'f'));
+$array_a = new ArrayIterator(array('a', 'b', 'c'));
+$array_b = new ArrayIterator(array('d', 'e', 'f'));
 
-$iterator = new AppendIterator;
+$iterator = new AppendIterator;
 $iterator->append($array_a);
 $iterator->append($array_b);
 
-foreach ($iterator as $current) {
-    echo $current;
+foreach ($iterator as $current) {
+    echo $current;
 }
 ?>
 ```

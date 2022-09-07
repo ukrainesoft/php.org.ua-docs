@@ -16,30 +16,30 @@ EventBufferEvent::construct — Створює об'єкт EventBufferEvent
 
 ```methodsynopsis
 public
-   EventBufferEvent::__construct(    
+   EventBufferEvent::__construct(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $socket
      = null
-   ,    
+   ,    
     int
      $options
      = 0
-   ,    
+   ,    
     callable
      $readcb
      = null
-   ,    
+   ,    
     callable
      $writecb
      = null
-   ,    
+   ,    
     callable
      $eventcb
      = null
-   ,    
+   ,    
     mixed
      $arg
      = null

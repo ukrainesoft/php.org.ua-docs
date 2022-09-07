@@ -41,19 +41,19 @@ class_uses(object|string $object_or_class, bool $autoload = true): array|false
 ```php
 <?php
 
-trait foo { }
-class bar {
-  use foo;
+trait foo { }
+class bar {
+  use foo;
 }
 
-print_r(class_uses(new bar));
+print_r(class_uses(new bar));
 
 print_r(class_uses('bar'));
 
 spl_autoload_register();
 
-// использование автозагрузки для загрузки ещё незагруженного класса 'not_loaded'
-print_r(class_uses('not_loaded', true));
+// использование автозагрузки для загрузки ещё незагруженного класса 'not_loaded'
+print_r(class_uses('not_loaded', true));
 
 ?>
 ```

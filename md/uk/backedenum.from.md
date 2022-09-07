@@ -38,19 +38,19 @@ public static BackedEnum::from(int|string $value): static
 
 ```php
 <?php
-enum Suit: string
+enum Suit: string
 {
-    case Hearts = 'H';
-    case Diamonds = 'D';
-    case Clubs = 'C';
-    case Spades = 'S';
+    case Hearts = 'H';
+    case Diamonds = 'D';
+    case Clubs = 'C';
+    case Spades = 'S';
 }
 
-$h = Suit::from('H');
+$h = Suit::from('H');
 
 var_dump($h);
 
-$b = Suit::from('B');
+$b = Suit::from('B');
 ?>
 ```
 

@@ -15,7 +15,7 @@ arrayuintersectuassoc - Обчислює перетин масивів з дод
 ### Опис
 
 ```methodsynopsis
-array_uintersect_uassoc(    array $array1,    array ...$arrays,    callable $value_compare_func,    callable $key_compare_func): array
+array_uintersect_uassoc(    array $array1,    array ...$arrays,    callable $value_compare_func,    callable $key_compare_func): array
 ```
 
 Обчислює перетин масивів з додатковою перевіркою індексу, використовуючи для порівняння ключів та значень різні callback-функції. Тобто значення порівнюються однією callback-функцією, а індекси іншою.
@@ -52,10 +52,10 @@ Callback-функція порівняння ключів.
 
 ```php
 <?php
-$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
-$array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
+$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");
+$array2 = array("a" => "GREEN", "B" => "brown", "yellow", "red");
 
-print_r(array_uintersect_uassoc($array1, $array2, "strcasecmp", "strcasecmp"));
+print_r(array_uintersect_uassoc($array1, $array2, "strcasecmp", "strcasecmp"));
 ?>
 ```
 

@@ -14,13 +14,13 @@ title: Константи перерахувань
 
 ```php
 <?php
-enum Size
+enum Size
 {
-    case Small;
-    case Medium;
-    case Large;
+    case Small;
+    case Medium;
+    case Large;
 
-    public const Huge = self::Large;
+    public const Huge = self::Large;
 }
 ?>
 ```

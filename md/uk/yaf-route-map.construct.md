@@ -32,11 +32,11 @@ public **YafRouteMap::construct**(string `$controller_prefer` **`false`**, strin
 
 ```php
 <?php
-   /**
-    * Добавить карту маршрута в стек маршрутов Yaf_Router
-    */
-    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
-        new Yaf_Route_Map());
+   /**
+    * Добавить карту маршрута в стек маршрутов Yaf_Router
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
+        new Yaf_Route_Map());
 ?>
 ```
 
@@ -55,11 +55,11 @@ array(
 
 ```php
 <?php
-   /**
-    * Добавить карту маршрута в стек маршрутов Yaf_Router
-    */
-    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
-        new Yaf_Route_Map(true, "_"));
+   /**
+    * Добавить карту маршрута в стек маршрутов Yaf_Router
+    */
+    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",
+        new Yaf_Route_Map(true, "_"));
 ?>
 ```
 
@@ -85,18 +85,18 @@ array(
 
 ```php
 <?php
-   /**
-    * Добавьте карту маршрута в стек маршрутов Yaf_Router, вызвав addconfig
-    */
-    $config = array(
-        "name" => array(
-           "type"  => "map",         //маршрут Yaf_Route_Map
-           "controllerPrefer" => FALSE,
-           "delimiter"        => "#!",
-           ),
-    );
-    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
-        new Yaf_Config_Simple($config));
+   /**
+    * Добавьте карту маршрута в стек маршрутов Yaf_Router, вызвав addconfig
+    */
+    $config = array(
+        "name" => array(
+           "type"  => "map",         //маршрут Yaf_Route_Map
+           "controllerPrefer" => FALSE,
+           "delimiter"        => "#!",
+           ),
+    );
+    Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
+        new Yaf_Config_Simple($config));
 ?>
 ```
 

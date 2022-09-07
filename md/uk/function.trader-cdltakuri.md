@@ -15,7 +15,7 @@ tradercdltakuri - Такурі (Стрекоза Доджі з дуже довг
 ### Опис
 
 ```methodsynopsis
-trader_cdltakuri(    array $open,    array $high,    array $low,    array $close): array
+trader_cdltakuri(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

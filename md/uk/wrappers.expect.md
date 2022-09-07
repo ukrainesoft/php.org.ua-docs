@@ -15,7 +15,7 @@ expect:// - Потоки для взаємодії з процесами
 Потоки, відкриті за допомогою обгортки expect://, надають доступ до процесів stdio, stdout та stderr через PTY.
 
 > **Зауваження** **Ця обгортка вимкнена за умовчанням**  
-> Для того щоб використовувати обгортку expect://, необхідно встановити модуль [» Expect](https://pecl.php.net/package/expect), доступний у [» PECL](https://pecl.php.net/)
+> Для того щоб використовувати обгортку expect://, необхідно встановити модуль [» Expect](https://pecl.php.net/package/expect), доступний у [» PECL](https://pecl.php.net/)
 
 expect:// (PECL)
 

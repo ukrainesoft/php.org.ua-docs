@@ -15,7 +15,7 @@ tradermacd — Змінна середня збіжність/дивергенц
 ### Опис
 
 ```methodsynopsis
-trader_macd(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $signalPeriod = ?): array
+trader_macd(    array $real,    int $fastPeriod = ?,    int $slowPeriod = ?,    int $signalPeriod = ?): array
 ```
 
 ### Список параметрів

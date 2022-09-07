@@ -46,16 +46,16 @@ public ZipArchive::addEmptyDir(string $dirname, int $flags = 0): bool
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test.zip') === TRUE) {
-    if($zip->addEmptyDir('newDirectory')) {
-        echo 'Создана новая директория';
-    } else {
-        echo 'Невозможно создать директорию';
-    }
-    $zip->close();
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test.zip') === TRUE) {
+    if($zip->addEmptyDir('newDirectory')) {
+        echo 'Создана новая директория';
+    } else {
+        echo 'Невозможно создать директорию';
+    }
+    $zip->close();
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

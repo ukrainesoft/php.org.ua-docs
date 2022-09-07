@@ -34,7 +34,7 @@ shuffle(array &$array): bool
 
 | Версия | Описание |
 | --- | --- |
-|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихря Мерсена.](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
 
 ### Приклади
 
@@ -42,10 +42,10 @@ shuffle(array &$array): bool
 
 ```php
 <?php
-$numbers = range(1, 20);
+$numbers = range(1, 20);
 shuffle($numbers);
-foreach ($numbers as $number) {
-    echo "$number ";
+foreach ($numbers as $number) {
+    echo "$number ";
 }
 ?>
 ```

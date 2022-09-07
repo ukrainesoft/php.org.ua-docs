@@ -51,9 +51,9 @@ easter_days(?int $year = null, int $mode = CAL_EASTER_DEFAULT): int
 ```php
 <?php
 
-echo easter_days(1999);        // 14, т.e. April 4
-echo easter_days(1492);        // 32, т.e. April 22
-echo easter_days(1913);        //  2, т.e. March 23
+echo easter_days(1999);        // 14, т.e. April 4
+echo easter_days(1492);        // 32, т.e. April 22
+echo easter_days(1913);        //  2, т.e. March 23
 
 ?>
 ```

@@ -8,7 +8,7 @@ title: Вимоги
 ---
 ## Вимоги
 
-За наявності GDбібліотеки (доступна за адресою [» http://www.libgd.org/](http://www.libgd.org/)), Ви можете створювати та змінювати зображення.
+За наявності GDбібліотеки (доступна за адресою [» http://www.libgd.org/](http://www.libgd.org/)), Ви можете створювати та змінювати зображення.
 
 Формати зображень, з якими можна працювати, залежать від версії встановленої GD, а також від інших бібліотек, до яких GD може звертатися для отримання доступу до тих чи інших форматів.
 
@@ -21,8 +21,8 @@ title: Вимоги
 | Формат изображения | Необходимая библиотека | Замечания |
 | --- | --- | --- |
 | `gif` |  |  |
-| `jpeg` | [» http://www.ijg.org/](http://www.ijg.org/) | При збиранні бібліотеки jpeg (перед збиранням PHP) необхідно увімкнути налаштування **\-enable-shared** на етапі конфігурування. Якщо цього не зробити, на етапі конфігурування збірки PHP буде видана помилка \`libjpeg.(a |
-| `png` | [» http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.md) |  |
-| `xpm` | [» http://www.ibiblio.org/pub/Linux/libs/X/!INDEX.html](http://www.ibiblio.org/pub/Linux/libs/X/!INDEX.md) | Якщо в системі встановлено оточення X-Environment, бібліотека вже доступна. |
+| `jpeg` | [» http://www.ijg.org/](http://www.ijg.org/) | При збиранні бібліотеки jpeg (перед збиранням PHP) необхідно увімкнути налаштування **\-enable-shared** на етапі конфігурування. Якщо цього не зробити, на етапі конфігурування збірки PHP буде видана помилка \`libjpeg.(a |
+| `png` | [» http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.md) |  |
+| `xpm` | [» http://www.ibiblio.org/pub/Linux/libs/X/!INDEX.html](http://www.ibiblio.org/pub/Linux/libs/X/!INDEX.md) | Якщо в системі встановлено оточення X-Environment, бібліотека вже доступна. |
 
-Можна розширити функціональність GD для роботи з різними шрифтами. Підтримується бібліотека [» FreeType 2](http://www.freetype.org/)
+Можна розширити функціональність GD для роботи з різними шрифтами. Підтримується бібліотека [» FreeType 2](http://www.freetype.org/)

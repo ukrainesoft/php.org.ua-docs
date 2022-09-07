@@ -15,7 +15,7 @@ GearmanWorker::addFunction — Реєстрація та додавання call
 ### Опис
 
 ```methodsynopsis
-public GearmanWorker::addFunction(    string $function_name,    callable $function,    mixed &$context = ?,    int $timeout = ?): bool
+public GearmanWorker::addFunction(    string $function_name,    callable $function,    mixed &$context = ?,    int $timeout = ?): bool
 ```
 
 Реєструє ім'я функції на сервері завдань і додає посилання на цю функцію зворотного дзвінка. Необов'язково можна задати додаткові дані контексту, які використовуватимуться під час виклику callback-функції та час очікування.
@@ -49,25 +49,25 @@ Callback-функція, яка буде викликатись, коли сер
 ```php
 <?php
 
-# получаем обработчик gearman
-$worker= new GearmanWorker();
+# получаем обработчик gearman
+$worker= new GearmanWorker();
 
-# добавляем сервер по умолчанию (localhost)
+# добавляем сервер по умолчанию (localhost)
 $worker->addServer();
 
-# определяем переменную, в которой будут храниться данные приложения
-$count= 0;
+# определяем переменную, в которой будут храниться данные приложения
+$count= 0;
 
-# добавляем функцию "reverse"
-$worker->addFunction("reverse", "reverse_cb", $count);
+# добавляем функцию "reverse"
+$worker->addFunction("reverse", "reverse_cb", $count);
 
-# запускаем обработчик
-while ($worker->work());
+# запускаем обработчик
+while ($worker->work());
 
-function reverse_cb($job, &$count)
+function reverse_cb($job, &$count)
 {
-  $count++;
-  return "$count: " . strrev($job->workload());
+  $count++;
+  return "$count: " . strrev($job->workload());
 }
 
 ?>

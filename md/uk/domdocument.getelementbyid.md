@@ -47,13 +47,13 @@ public DOMDocument::getElementById(string $elementId): ?DOMElement
 ```php
 <?php
 
-$doc = new DomDocument;
+$doc = new DomDocument;
 
-// Нужно проверить документ перед тем как ссылаться по идентификатору
-$doc->validateOnParse = true;
+// Нужно проверить документ перед тем как ссылаться по идентификатору
+$doc->validateOnParse = true;
 $doc->Load('book.xml');
 
-echo "Элемент с идентификатором 'php-basics': " . $doc->getElementById('php-basics')->tagName . "\n";
+echo "Элемент с идентификатором 'php-basics': " . $doc->getElementById('php-basics')->tagName . "\n";
 
 ?>
 ```

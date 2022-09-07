@@ -36,11 +36,11 @@ public DirectoryIterator::getMTime(): int
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-foreach ($iterator as $fileinfo) {
-    if ($fileinfo->isFile()) {
-        echo $fileinfo->getFilename() . " " . $fileinfo->getMTime() . "\n";
-    }
+$iterator = new DirectoryIterator(dirname(__FILE__));
+foreach ($iterator as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getFilename() . " " . $fileinfo->getMTime() . "\n";
+    }
 }
 ?>
 ```

@@ -49,12 +49,12 @@ pg_version(?PgSql\Connection $connection = null): array
 
 ```php
 <?php
-  $dbconn = pg_connect("host=localhost port=5432 dbname=mary")
-     or die("Could not connect");
+  $dbconn = pg_connect("host=localhost port=5432 dbname=mary")
+     or die("Could not connect");
 
-  $v = pg_version($dbconn);
+  $v = pg_version($dbconn);
 
-  echo $v['client'];
+  echo $v['client'];
 ?>
 ```
 

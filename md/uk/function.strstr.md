@@ -59,12 +59,12 @@ strstr(string $haystack, string $needle, bool $before_needle = false): string|fa
 
 ```php
 <?php
-$email  = 'name@example.com';
-$domain = strstr($email, '@');
-echo $domain; // выводит @example.com
+$email  = 'name@example.com';
+$domain = strstr($email, '@');
+echo $domain; // выводит @example.com
 
-$user = strstr($email, '@', true);
-echo $user; // выводит name
+$user = strstr($email, '@', true);
+echo $user; // выводит name
 ?>
 ```
 

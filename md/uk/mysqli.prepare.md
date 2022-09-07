@@ -63,27 +63,27 @@ mysqli_prepare(mysqli $mysql, string $query): mysqli_stmt|false
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$city = "Amersfoort";
+$city = "Amersfoort";
 
-/* создание подготавливаемого запроса */
-$stmt = $mysqli->prepare("SELECT District FROM City WHERE Name=?");
+/* создание подготавливаемого запроса */
+$stmt = $mysqli->prepare("SELECT District FROM City WHERE Name=?");
 
-/* связывание параметров с метками */
-$stmt->bind_param("s", $city);
+/* связывание параметров с метками */
+$stmt->bind_param("s", $city);
 
-/* выполнение запроса */
+/* выполнение запроса */
 $stmt->execute();
 
-/* связывание переменных с результатами запроса */
+/* связывание переменных с результатами запроса */
 $stmt->bind_result($district);
 
-/* получение значения */
+/* получение значения */
 $stmt->fetch();
 
-printf("%s находится в округе %s\n", $city, $district);
+printf("%s находится в округе %s\n", $city, $district);
 ```
 
 Процедурний стиль
@@ -91,27 +91,27 @@ printf("%s находится в округе %s\n", $city, $district);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$city = "Amersfoort";
+$city = "Amersfoort";
 
-/* создание подготавливаемого запроса */
-$stmt = mysqli_prepare($link, "SELECT District FROM City WHERE Name=?");
+/* создание подготавливаемого запроса */
+$stmt = mysqli_prepare($link, "SELECT District FROM City WHERE Name=?");
 
-/* связывание параметров с метками */
-mysqli_stmt_bind_param($stmt, "s", $city);
+/* связывание параметров с метками */
+mysqli_stmt_bind_param($stmt, "s", $city);
 
-/* выполнение запроса */
+/* выполнение запроса */
 mysqli_stmt_execute($stmt);
 
-/* связывание переменных с результатами запроса */
-mysqli_stmt_bind_result($stmt, $district);
+/* связывание переменных с результатами запроса */
+mysqli_stmt_bind_result($stmt, $district);
 
-/* получение значения */
+/* получение значения */
 mysqli_stmt_fetch($stmt);
 
-printf("%s находится в округе %s\n", $city, $district);
+printf("%s находится в округе %s\n", $city, $district);
 ?>
 ```
 

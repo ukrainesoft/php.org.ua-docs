@@ -15,7 +15,7 @@ db2pconnect — Повертає постійне з'єднання з базо�
 ### Опис
 
 ```methodsynopsis
-db2_pconnect(    string $database,    string $username,    string $password,    array $options = ?): resource
+db2_pconnect(    string $database,    string $username,    string $password,    array $options = ?): resource
 ```
 
 Повертає постійне з'єднання з базою даних IBM DB2 Universal Database, IBM Cloudscape або Apache Derby.
@@ -223,25 +223,25 @@ db2 каталог tcpip node loopback remote server db2 catalog database ас a
 
 ```php
 <?php
-$database = 'SAMPLE';
-$user = 'db2inst1';
-$password = 'ibmdb2';
+$database = 'SAMPLE';
+$user = 'db2inst1';
+$password = 'ibmdb2';
 
-$pconn = db2_pconnect($database, $user, $password);
+$pconn = db2_pconnect($database, $user, $password);
 
-if ($pconn) {
-    echo "Постоянное соединение успешно установлено.";
+if ($pconn) {
+    echo "Постоянное соединение успешно установлено.";
 }
-else {
-    echo "Постоянное соединение завершилось ошибкой.";
+else {
+    echo "Постоянное соединение завершилось ошибкой.";
 }
 
-$pconn2 = db2_pconnect($database, $user, $password);
-if ($pconn) {
-    echo "Второе постоянное соединение успешно установлено.";
+$pconn2 = db2_pconnect($database, $user, $password);
+if ($pconn) {
+    echo "Второе постоянное соединение успешно установлено.";
 }
-else {
-    echo "Второе постоянное соединение завершилось ошибкой";
+else {
+    echo "Второе постоянное соединение завершилось ошибкой";
 }
 ?>
 ```
@@ -260,45 +260,45 @@ else {
 ```php
 <?php
 
-$database = "SAMPLE";
-$hostname = "localhost";
-$port = 50000;
-$authID = "db2inst1";
-$auth_pass = "ibmdb2";
+$database = "SAMPLE";
+$hostname = "localhost";
+$port = 50000;
+$authID = "db2inst1";
+$auth_pass = "ibmdb2";
 
-$tc_user = "tcuser";
-$tc_pass = "tcpassword";
+$tc_user = "tcuser";
+$tc_pass = "tcpassword";
 
-$dsn = "DATABASE=$database;HOSTNAME=$hostname;PORT=$port;
-  PROTOCOL=TCPIP;UID=$authID;PWD=$auth_pass;";
-$options = array ("trustedcontext" => DB2_TRUSTED_CONTEXT_ENABLE);
+$dsn = "DATABASE=$database;HOSTNAME=$hostname;PORT=$port;
+  PROTOCOL=TCPIP;UID=$authID;PWD=$auth_pass;";
+$options = array ("trustedcontext" => DB2_TRUSTED_CONTEXT_ENABLE);
 
-$tc_conn = db2_pconnect($dsn, "", "", $options);
-if($tc_conn) {
-    echo "Явное доверенное соединение успешно установлено.\n";
+$tc_conn = db2_pconnect($dsn, "", "", $options);
+if($tc_conn) {
+    echo "Явное доверенное соединение успешно установлено.\n";
 
-    if(db2_get_option($tc_conn, "trustedcontext")) {
-        $userBefore = db2_get_option($tc_conn, "trusted_user");
+    if(db2_get_option($tc_conn, "trustedcontext")) {
+        $userBefore = db2_get_option($tc_conn, "trusted_user");
 
-        // Поработайте как пользователь 1.
+        // Поработайте как пользователь 1.
 
-        // Переход на доверенного пользователя.Switching to trusted user.
-        $parameters = array("trusted_user" => $tc_user,
-          "trusted_password" => $tcuser_pass);
-        $res = db2_set_option ($tc_conn, $parameters, 1);
+        // Переход на доверенного пользователя.Switching to trusted user.
+        $parameters = array("trusted_user" => $tc_user,
+          "trusted_password" => $tcuser_pass);
+        $res = db2_set_option ($tc_conn, $parameters, 1);
 
-        $userAfter = db2_get_option($tc_conn, "trusted_user");
-        // Сделайте больше в качестве доверенного пользователя.
+        $userAfter = db2_get_option($tc_conn, "trusted_user");
+        // Сделайте больше в качестве доверенного пользователя.
 
-        if($userBefore != $userAfter) {
-            echo "Пользователь был переключён." . "\n";
-        }
-    }
+        if($userBefore != $userAfter) {
+            echo "Пользователь был переключён." . "\n";
+        }
+    }
 
-    db2_close($tc_conn);
+    db2_close($tc_conn);
 }
-else {
-    echo "Явное доверенное соединение завершилось ошибкой.\n";
+else {
+    echo "Явное доверенное соединение завершилось ошибкой.\n";
 }
 ?>
 ```

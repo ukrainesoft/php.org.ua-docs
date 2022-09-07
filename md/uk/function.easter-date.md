@@ -53,9 +53,9 @@ easter_date(?int $year = null, int $mode = CAL_EASTER_DEFAULT): int
 ```php
 <?php
 
-echo date("M-d-Y", easter_date(1999));        // Apr-04-1999
-echo date("M-d-Y", easter_date(2000));        // Apr-23-2000
-echo date("M-d-Y", easter_date(2001));        // Apr-15-2001
+echo date("M-d-Y", easter_date(1999));        // Apr-04-1999
+echo date("M-d-Y", easter_date(2000));        // Apr-23-2000
+echo date("M-d-Y", easter_date(2001));        // Apr-15-2001
 
 ?>
 ```
@@ -70,17 +70,17 @@ echo date("M-d-Y", easter_date(2001));        // Apr-15-2001
 > 
 > ```php
 > <?php
-> function get_easter_datetime($year) {
->     $base = new DateTime("$year-03-21");
->     $days = easter_days($year);
+> function get_easter_datetime($year) {
+>     $base = new DateTime("$year-03-21");
+>     $days = easter_days($year);
 > 
->     return $base->add(new DateInterval("P{$days}D"));
+>     return $base->add(new DateInterval("P{$days}D"));
 > }
 > 
-> foreach (range(2012, 2015) as $year) {
->     printf("Пасха в %d году приходится на %s\n",
->            $year,
->            get_easter_datetime($year)->format('F j'));
+> foreach (range(2012, 2015) as $year) {
+>     printf("Пасха в %d году приходится на %s\n",
+>            $year,
+>            get_easter_datetime($year)->format('F j'));
 > }
 > ?>
 > ```

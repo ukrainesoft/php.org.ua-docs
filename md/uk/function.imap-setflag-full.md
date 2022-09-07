@@ -15,7 +15,7 @@ imapsetflagfull — Встановити прапорці на повідомл�
 ### Опис
 
 ```methodsynopsis
-imap_setflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): bool
+imap_setflag_full(    IMAP\Connection $imap,    string $sequence,    string $flag,    int $options = 0): bool
 ```
 
 Повідомляє сервер, що треба додати прапор `flag` до набору прапорів, заданих у `sequence` повідомлень.
@@ -32,7 +32,7 @@ imap_setflag_full(    IMAP\Connection $imap,    string $sequence,   �
 
 `flag`
 
-Прапори, які можна встановити: `\Seen` `\Answered` `\Flagged` `\Deleted` і `\Draft`, як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
+Прапори, які можна встановити: `\Seen` `\Answered` `\Flagged` `\Deleted` і `\Draft`, як визначено в [» RFC2060](http://www.faqs.org/rfcs/rfc2060)
 
 `options`
 
@@ -56,13 +56,13 @@ imap_setflag_full(    IMAP\Connection $imap,    string $sequence,   �
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org:143}", "username", "password")
-     or die("не удалось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.org:143}", "username", "password")
+     or die("не удалось подключиться: " . imap_last_error());
 
-$status = imap_setflag_full($mbox, "2,5", "\\Seen \\Flagged");
+$status = imap_setflag_full($mbox, "2,5", "\\Seen \\Flagged");
 
-echo gettype($status) . "\n";
-echo $status . "\n";
+echo gettype($status) . "\n";
+echo $status . "\n";
 
 imap_close($mbox);
 ?>

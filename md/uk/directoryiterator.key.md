@@ -40,11 +40,11 @@ public DirectoryIterator::key(): mixed
 
 ```php
 <?php
-$dir = new DirectoryIterator(dirname(__FILE__));
-foreach ($dir as $fileinfo) {
-    if (!$fileinfo->isDot()) {
-        echo $fileinfo->key() . " => " . $fileinfo->getFilename() . "\n";
-    }
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    if (!$fileinfo->isDot()) {
+        echo $fileinfo->key() . " => " . $fileinfo->getFilename() . "\n";
+    }
 }
 ?>
 ```

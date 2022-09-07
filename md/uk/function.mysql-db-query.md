@@ -54,27 +54,27 @@ mysql_db_query(string $database, string $query, resource $link_identifier = NULL
 ```php
 <?php
 
-if (!$link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')) {
-    echo 'Не удалось подключиться к mysql';
-    exit;
+if (!$link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')) {
+    echo 'Не удалось подключиться к mysql';
+    exit;
 }
 
-if (!mysql_select_db('mysql_dbname', $link)) {
-    echo 'Не удалось выбрать базу данных';
-    exit;
+if (!mysql_select_db('mysql_dbname', $link)) {
+    echo 'Не удалось выбрать базу данных';
+    exit;
 }
 
-$sql    = 'SELECT foo FROM bar WHERE id = 42';
-$result = mysql_query($sql, $link);
+$sql    = 'SELECT foo FROM bar WHERE id = 42';
+$result = mysql_query($sql, $link);
 
-if (!$result) {
-    echo "Ошибка DB, запрос не удался\n";
-    echo 'MySQL Error: ' . mysql_error();
-    exit;
+if (!$result) {
+    echo "Ошибка DB, запрос не удался\n";
+    echo 'MySQL Error: ' . mysql_error();
+    exit;
 }
 
-while ($row = mysql_fetch_assoc($result)) {
-    echo $row['foo'];
+while ($row = mysql_fetch_assoc($result)) {
+    echo $row['foo'];
 }
 
 mysql_free_result($result);

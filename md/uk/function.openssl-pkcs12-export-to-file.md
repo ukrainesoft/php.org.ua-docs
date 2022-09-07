@@ -15,7 +15,7 @@ opensslpkcs12exportтоfile — Експортує сумісний з PKCS#12 �
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs12_export_to_file(    OpenSSLCertificate|string $certificate,    string $output_filename,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $passphrase,    array $options = []): bool
+openssl_pkcs12_export_to_file(    OpenSSLCertificate|string $certificate,    string $output_filename,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $passphrase,    array $options = []): bool
 ```
 
 **opensslpkcs12exportтоfile()** зберігає `certificate` у файл `output_filename` у форматі PKCS#12.

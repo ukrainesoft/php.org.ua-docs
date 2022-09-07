@@ -46,21 +46,21 @@ imagecreatefromxpm(string $filename): GdImage|false
 
 ```php
 <?php
-// Проверка наличия XPM поддержки
-if(!(imagetypes() & IMG_XPM))
+// Проверка наличия XPM поддержки
+if(!(imagetypes() & IMG_XPM))
 {
-    die('Поддержка xpm не найдена!');
+    die('Поддержка xpm не найдена!');
 }
 
-// Создание изображения
-$xpm = imagecreatefromxpm('./example.xpm');
+// Создание изображения
+$xpm = imagecreatefromxpm('./example.xpm');
 
-// Различные операции с изображением
+// Различные операции с изображением
 
-// PHP не поддерживает запись xpm изображений
-// поэтому мы сохраним изображение, как
-// jpeg файл со 100% качеством
-imagejpeg($xpm, './example.jpg', 100);
+// PHP не поддерживает запись xpm изображений
+// поэтому мы сохраним изображение, как
+// jpeg файл со 100% качеством
+imagejpeg($xpm, './example.jpg', 100);
 imagedestroy($xpm);
 ?>
 ```

@@ -15,7 +15,7 @@ httpbuildquery — Генерує URL-кодований рядок запиту
 ### Опис
 
 ```methodsynopsis
-http_build_query(    array|object $data,    string $numeric_prefix = "",    ?string $arg_separator = null,    int $encoding_type = PHP_QUERY_RFC1738): string
+http_build_query(    array|object $data,    string $numeric_prefix = "",    ?string $arg_separator = null,    int $encoding_type = PHP_QUERY_RFC1738): string
 ```
 
 Генерує URL-кодований рядок запиту наданого асоціативного (або індексованого) масиву.
@@ -44,9 +44,9 @@ http_build_query(    array|object $data,    string $numeric_prefix = "",
 
 За замовчуванням **`PHP_QUERY_RFC1738`**
 
-Якщо `encoding_type` дорівнює **`PHP_QUERY_RFC1738`**, тоді кодування здійснюється за [» RFC 1738](http://www.faqs.org/rfcs/rfc1738) та типу контенту `application/x-www-form-urlencoded`, що передбачає, що пробіли кодуються як символи "плюс" (`+`
+Якщо `encoding_type` дорівнює **`PHP_QUERY_RFC1738`**, тоді кодування здійснюється за [» RFC 1738](http://www.faqs.org/rfcs/rfc1738) та типу контенту `application/x-www-form-urlencoded`, що передбачає, що пробіли кодуються як символи "плюс" (`+`
 
-Якщо `enc_type` дорівнює **`PHP_QUERY_RFC3986`**, тоді кодування здійснюється відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), а пробіли будуть закодовані у відсотках (`%20`
+Якщо `enc_type` дорівнює **`PHP_QUERY_RFC3986`**, тоді кодування здійснюється відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), а пробіли будуть закодовані у відсотках (`%20`
 
 ### Значення, що повертаються
 
@@ -58,16 +58,16 @@ http_build_query(    array|object $data,    string $numeric_prefix = "",
 
 ```php
 <?php
-$data = array(
-    'foo' => 'bar',
-    'baz' => 'boom',
-    'cow' => 'milk',
-    'null' => null,
-    'php' => 'hypertext processor'
+$data = array(
+    'foo' => 'bar',
+    'baz' => 'boom',
+    'cow' => 'milk',
+    'null' => null,
+    'php' => 'hypertext processor'
 );
 
-echo http_build_query($data) . "\n";
-echo http_build_query($data, '', '&amp;');
+echo http_build_query($data) . "\n";
+echo http_build_query($data, '', '&amp;');
 
 ?>
 ```
@@ -83,10 +83,10 @@ foo=bar&amp;baz=boom&amp;cow=milk&amp;php=hypertext+processor
 
 ```php
 <?php
-$data = array('foo', 'bar', 'baz', null, 'boom', 'cow' => 'milk', 'php' => 'hypertext processor');
+$data = array('foo', 'bar', 'baz', null, 'boom', 'cow' => 'milk', 'php' => 'hypertext processor');
 
-echo http_build_query($data) . "\n";
-echo http_build_query($data, 'myvar_');
+echo http_build_query($data) . "\n";
+echo http_build_query($data, 'myvar_');
 ?>
 ```
 
@@ -101,22 +101,22 @@ myvar_0=foo&myvar_1=bar&myvar_2=baz&myvar_4=boom&cow=milk&php=hypertext+processo
 
 ```php
 <?php
-$data = array(
-    'user' => array(
-        'name' => 'Bob Smith',
-        'age'  => 47,
-        'sex'  => 'M',
-        'dob'  => '5/12/1956'
-    ),
-    'pastimes' => array('golf', 'opera', 'poker', 'rap'),
-    'children' => array(
-        'bobby' => array('age'=>12, 'sex'=>'M'),
-        'sally' => array('age'=>8, 'sex'=>'F')
-    ),
-    'CEO'
+$data = array(
+    'user' => array(
+        'name' => 'Bob Smith',
+        'age'  => 47,
+        'sex'  => 'M',
+        'dob'  => '5/12/1956'
+    ),
+    'pastimes' => array('golf', 'opera', 'poker', 'rap'),
+    'children' => array(
+        'bobby' => array('age'=>12, 'sex'=>'M'),
+        'sally' => array('age'=>8, 'sex'=>'F')
+    ),
+    'CEO'
 );
 
-echo http_build_query($data, 'flags_');
+echo http_build_query($data, 'flags_');
 ?>
 ```
 
@@ -138,30 +138,30 @@ children%5Bsally%5D%5Bsex%5D=F&flags_0=CEO
 
 ```php
 <?php
-class parentClass {
-    public    $pub      = 'publicParent';
-    protected $prot     = 'protectedParent';
-    private   $priv     = 'privateParent';
-    public    $pub_bar  = null;
-    protected $prot_bar = null;
-    private   $priv_bar = null;
+class parentClass {
+    public    $pub      = 'publicParent';
+    protected $prot     = 'protectedParent';
+    private   $priv     = 'privateParent';
+    public    $pub_bar  = null;
+    protected $prot_bar = null;
+    private   $priv_bar = null;
 
-    public function __construct(){
-        $this->pub_bar  = new childClass();
-        $this->prot_bar = new childClass();
-        $this->priv_bar = new childClass();
-    }
+    public function __construct(){
+        $this->pub_bar  = new childClass();
+        $this->prot_bar = new childClass();
+        $this->priv_bar = new childClass();
+    }
 }
 
-class childClass {
-    public    $pub  = 'publicChild';
-    protected $prot = 'protectedChild';
-    private   $priv = 'privateChild';
+class childClass {
+    public    $pub  = 'publicChild';
+    protected $prot = 'protectedChild';
+    private   $priv = 'privateChild';
 }
 
-$parent = new parentClass();
+$parent = new parentClass();
 
-echo http_build_query($parent);
+echo http_build_query($parent);
 ?>
 ```
 

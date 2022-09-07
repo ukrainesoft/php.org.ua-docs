@@ -16,11 +16,11 @@ PDOSQLSRV - це драйвер, що реалізує інтерфейс [PHP D
 
 Модуль PDOSQLSRV включається додаванням відповідного файлу DLL в директорію модулів вашої встановленої копії PHP і відповідного запису файл php.ini. Завантажена копія модуля PDOSQLSRV включає вісім файлів драйверів, чотири з них для підтримки PDO.
 
-Найчастіше використовувана версія драйвера доступна тут: [» Загрузка SQLSRV](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx). Вихідний код драйвера розміщено в [» публічній репозиторії](https://github.com/microsoft/msphpsql)
+Найчастіше використовувана версія драйвера доступна тут: [» Загрузка SQLSRV](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx). Вихідний код драйвера розміщено в [» публічній репозиторії](https://github.com/microsoft/msphpsql)
 
-За детальною інформацією про системні вимоги зверніться до розділу [» Системні вимоги SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx)
+За детальною інформацією про системні вимоги зверніться до розділу [» Системні вимоги SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx)
 
-Модуль PDOSQLSRV може використовуватися з PHP лише у Windows. Для Linux використовуйте [ODBC](ref.pdo-odbc.md) і [» Microsoft's SQL Server ODBC Driver для Linux](http://www.microsoft.com/download/en/details.aspx?id=28160)
+Модуль PDOSQLSRV може використовуватися з PHP лише у Windows. Для Linux використовуйте [ODBC](ref.pdo-odbc.md) і [» Microsoft's SQL Server ODBC Driver для Linux](http://www.microsoft.com/download/en/details.aspx?id=28160)
 
 ## Обумовлені константи
 
@@ -68,7 +68,7 @@ PDOSQLSRV - це драйвер, що реалізує інтерфейс [PHP D
 
 **`PDO::SQLSRV_ATTR_DIRECT_QUERY`** (int)
 
-Показує, що запит має бути негайно виконаний, без підготовки виразу. Константа може бути передана функції PDO::setAttribute і PDO::prepare. За подробицями зверніться до розділу документації [» Негайне виконання виразів та виконання підготовлених виразів](http://msdn.microsoft.com/en-us/library/ff754356.aspx)
+Показує, що запит має бути негайно виконаний, без підготовки виразу. Константа може бути передана функції PDO::setAttribute і PDO::prepare. За подробицями зверніться до розділу документації [» Негайне виконання виразів та виконання підготовлених виразів](http://msdn.microsoft.com/en-us/library/ff754356.aspx)
 
 ## Зміст
 

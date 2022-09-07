@@ -14,10 +14,10 @@ title: else
 
 ```php
 <?php
-if ($a > $b) {
-  echo "a больше, чем b";
-} else {
-  echo "a НЕ больше, чем b";
+if ($a > $b) {
+  echo "a больше, чем b";
+} else {
+  echo "a НЕ больше, чем b";
 }
 ?>
 ```
@@ -30,13 +30,13 @@ if ($a > $b) {
 > 
 > ```php
 > <?php
-> $a = false;
-> $b = true;
-> if ($a)
->     if ($b)
->         echo "b";
+> $a = false;
+> $b = true;
+> if ($a)
+>     if ($b)
+>         echo "b";
 > else
->     echo "c";
+>     echo "c";
 > ?>
 > ```
 > 

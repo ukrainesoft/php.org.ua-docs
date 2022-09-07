@@ -40,25 +40,25 @@ public ImagickDraw::setTextUnderColor(ImagickPixel $under_color): bool
 
 ```php
 <?php
-function setTextUnderColor($strokeColor, $fillColor, $backgroundColor, $textUnderColor) {
-    $draw = new \ImagickDraw();
+function setTextUnderColor($strokeColor, $fillColor, $backgroundColor, $textUnderColor) {
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
-    $draw->annotation(50, 75, "Lorem Ipsum!");
-    $draw->setTextUnderColor($textUnderColor);
-    $draw->annotation(50, 175, "Lorem Ipsum!");
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
+    $draw->annotation(50, 75, "Lorem Ipsum!");
+    $draw->setTextUnderColor($textUnderColor);
+    $draw->annotation(50, 175, "Lorem Ipsum!");
 
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -46,13 +46,13 @@ intlcal_from_date_time(DateTime|string $datetime, ?string $locale = null): ?Intl
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('date.timezone', 'Europe/Lisbon');
 
-// то же, что и IntlCalendar::fromDateTime(new DateTime(...))
-$cal1 = IntlCalendar::fromDateTime('2013-02-28 00:01:02 Europe/Berlin');
+// то же, что и IntlCalendar::fromDateTime(new DateTime(...))
+$cal1 = IntlCalendar::fromDateTime('2013-02-28 00:01:02 Europe/Berlin');
 
-// Обратите внимание, что часовой пояс - Europe/Berlin, а не Europe/Lisbon по умолчанию
-echo IntlDateFormatter::formatObject($cal1, 'yyyy MMMM d HH:mm:ss VVVV', 'de_DE'), "\n";
+// Обратите внимание, что часовой пояс - Europe/Berlin, а не Europe/Lisbon по умолчанию
+echo IntlDateFormatter::formatObject($cal1, 'yyyy MMMM d HH:mm:ss VVVV', 'de_DE'), "\n";
 ```
 
 Результат виконання цього прикладу:

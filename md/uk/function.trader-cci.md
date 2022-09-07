@@ -15,7 +15,7 @@ tradercci - Індекс товарного каналу
 ### Опис
 
 ```methodsynopsis
-trader_cci(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_cci(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

@@ -39,12 +39,12 @@ recip(rord(myfield),1,2,3)^1.5
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery = new SolrDisMaxQuery('lucene');
 
-$boostRecentDocsFunction = "recip(ms(NOW,mydatefield),3.16e-11,1,1)";
+$boostRecentDocsFunction = "recip(ms(NOW,mydatefield),3.16e-11,1,1)";
 $dismaxQuery->setBoostFunction($boostRecentDocsFunction);
 
-echo $dismaxQuery.PHP_EOL;
+echo $dismaxQuery.PHP_EOL;
 
 ?>
 ```

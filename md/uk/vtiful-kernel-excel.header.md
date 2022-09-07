@@ -36,13 +36,13 @@ public Vtiful\Kernel\Excel::header(array $headerData)
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$fileObject  = new \Vtiful\Kernel\Excel($config);
+$fileObject  = new \Vtiful\Kernel\Excel($config);
 
-$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
-    ->header(['name', 'age']);
+$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
+    ->header(['name', 'age']);
 ?>
 ```

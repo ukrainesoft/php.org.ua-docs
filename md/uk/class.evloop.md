@@ -61,18 +61,18 @@ title: Клас EvLoop
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     int
      $flags
-    = ?,    
+    = ?,    
     mixed
      $data
      = NULL
-   ,    
+   ,    
     float
      $io_interval
      = 0.0
-   ,    
+   ,    
     float
      $timeout_interval
      = 0.0
@@ -94,53 +94,53 @@ final
     = ?): EvCheck
 final
    public
-   child(    
+   child(    
     string
      $pid
-   ,    
+   ,    
     string
      $trace
-   ,    
+   ,    
     string
      $callback
-   ,    
+   ,    
     string
      $data
-    = ?,    
+    = ?,    
     string
      $priority
     = ?): EvChild
 public
    static
-   defaultLoop(    
+   defaultLoop(    
     int
      $flags
      = Ev::FLAG_AUTO
-   ,    
+   ,    
     mixed
      $data
      = NULL
-   ,    
+   ,    
     float
      $io_interval
      = 0.
-   ,    
+   ,    
     float
      $timeout_interval
      = 0.
    ): EvLoop
 final
    public
-   embed(    
+   embed(    
     string
      $other
-   ,    
+   ,    
     string
      $callback
-    = ?,    
+    = ?,    
     string
      $data
-    = ?,    
+    = ?,    
     string
      $priority
     = ?): EvEmbed
@@ -176,20 +176,20 @@ public
    invokePending(): void
 final
    public
-   io(    
+   io(    
     mixed
      $fd
-   ,    
+   ,    
     int
      $events
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -202,20 +202,20 @@ public
    nowUpdate(): void
 final
    public
-   periodic(    
+   periodic(    
     float
      $offset
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -244,37 +244,37 @@ public
    ): void
 final
    public
-   signal(    
+   signal(    
     int
      $signum
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
    ): EvSignal
 final
    public
-   stat(    
+   stat(    
     string
      $path
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -288,20 +288,20 @@ public
    suspend(): void
 final
    public
-   timer(    
+   timer(    
     float
      $after
-   ,    
+   ,    
     float
      $repeat
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -338,11 +338,11 @@ pending
 
 Вищі значення iointerval дозволяють *libev* витрачати більше часу для збору подій [EvIo](class.evio.md), що дозволить обробити більше подій за одну ітерацію, заплативши за це збільшеними затримками. Час очікування (і [EvPeriodic](class.evperiodic.md) і [EvTimer](class.evtimer.md)) не буде порушено. Налаштування в ненульове значення додати додатковий виклик `sleep()` більшість ітерацій циклу. Час сну гарантує, що *libev* не передаватиме події [EvIo](class.evio.md) частіше, ніж один раз за цей період, у середньому. Для більшості програм хорошим значенням iointerval буде значення близько **`0.1`**, цього достатньо більшості інтерактивних серверів (не для ігор). Зазвичай ви не помітите жодної різниці, якщо встановите його менше **`0.01`**, так як це значення буде близько до мінімального інтервалу обчислюваного часу для більшості систем.
 
-Також читайте [» ФУНКЦІЇ УПРАВЛІННЯ ПОДІЙНИМИ ЦИКЛАМИ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)
+Також читайте [» ФУНКЦІЇ УПРАВЛІННЯ ПОДІЙНИМИ ЦИКЛАМИ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)
 
 timeoutinterval
 
-Вищі значення timeoutinterval дозволять *libev* витрачати більше часу для збору перевищеного часу очікування рахунок збільшення затримок/джиттеров/неточностей (функція зворотного виклику спостерігача буде викликана пізніше). Спостерігачі [EvIo](class.evio.md) не будуть порушені. Збільшення цього значення не викличе перевитрати ресурсів у *libev*. Також читайте [» ФУНКЦІЇ УПРАВЛІННЯ ПОДІЙНИМИ ЦИКЛАМИ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)
+Вищі значення timeoutinterval дозволять *libev* витрачати більше часу для збору перевищеного часу очікування рахунок збільшення затримок/джиттеров/неточностей (функція зворотного виклику спостерігача буде викликана пізніше). Спостерігачі [EvIo](class.evio.md) не будуть порушені. Збільшення цього значення не викличе перевитрати ресурсів у *libev*. Також читайте [» ФУНКЦІЇ УПРАВЛІННЯ ПОДІЙНИМИ ЦИКЛАМИ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)
 
 depth
 

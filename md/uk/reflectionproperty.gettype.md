@@ -34,13 +34,13 @@ public ReflectionProperty::getType(): ?ReflectionType
 
 ```php
 <?php
-class User
+class User
 {
-    public string $name;
+    public string $name;
 }
 
-$rp = new ReflectionProperty('User', 'name');
-echo $rp->getType()->getName();
+$rp = new ReflectionProperty('User', 'name');
+echo $rp->getType()->getName();
 ?>
 ```
 

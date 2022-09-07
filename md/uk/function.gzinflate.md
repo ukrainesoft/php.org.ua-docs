@@ -42,9 +42,9 @@ gzinflate(string $data, int $max_length = 0): string|false
 
 ```php
 <?php
-$compressed   = gzdeflate('Сожми меня', 9);
-$uncompressed = gzinflate($compressed);
-echo $uncompressed;
+$compressed   = gzdeflate('Сожми меня', 9);
+$uncompressed = gzinflate($compressed);
+echo $uncompressed;
 ?>
 ```
 

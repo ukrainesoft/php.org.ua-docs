@@ -15,7 +15,7 @@ GearmanClient::addTaskBackground — Додати фонове завдання 
 ### Опис
 
 ```methodsynopsis
-public GearmanClient::addTaskBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public GearmanClient::addTaskBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
 ```
 
 Додає фонове завдання для паралельної роботи з іншими завданнями. Викличте цей метод для всіх завдань, які працюватимуть паралельно, а потім викличте [GearmanClient::runTasks()](gearmanclient.runtasks.md) для виконання робіт.
@@ -51,41 +51,41 @@ public GearmanClient::addTaskBackground(    string $function_name,    st
 ```php
 <?php
 
-# Клиентский скрипт
+# Клиентский скрипт
 
-# Создание нашего клиента
-$gmc= new GearmanClient();
+# Создание нашего клиента
+$gmc= new GearmanClient();
 
-# Добавление сервера задач по умолчанию
+# Добавление сервера задач по умолчанию
 $gmc->addServer();
 
-# Установка нескольких callback-функций. Таким образом, мы сможем отслеживать выполнение
+# Установка нескольких callback-функций. Таким образом, мы сможем отслеживать выполнение
 $gmc->setCompleteCallback("reverse_complete");
 $gmc->setStatusCallback("reverse_status");
 
-# Добавление задачи для функции reverse
-$task= $gmc->addTask("reverse", "Hello World!", null, "1");
+# Добавление задачи для функции reverse
+$task= $gmc->addTask("reverse", "Hello World!", null, "1");
 
-# Добавление другой задачи, но она предназначена для запуска в фоновом режиме
-$task= $gmc->addTaskBackground("reverse", "!dlroW olleH", null, "2");
+# Добавление другой задачи, но она предназначена для запуска в фоновом режиме
+$task= $gmc->addTaskBackground("reverse", "!dlroW olleH", null, "2");
 
-if (! $gmc->runTasks())
+if (! $gmc->runTasks())
 {
-    echo "Ошибка " . $gmc->error() . "\n";
-    exit;
+    echo "Ошибка " . $gmc->error() . "\n";
+    exit;
 }
 
-echo "Выполнено\n";
+echo "Выполнено\n";
 
-function reverse_status($task)
+function reverse_status($task)
 {
-    echo "Статус: " . $task->unique() . ", " . $task->jobHandle() . " - " . $task->taskNumerator() .
-         "/" . $task->taskDenominator() . "\n";
+    echo "Статус: " . $task->unique() . ", " . $task->jobHandle() . " - " . $task->taskNumerator() .
+         "/" . $task->taskDenominator() . "\n";
 }
 
-function reverse_complete($task)
+function reverse_complete($task)
 {
-    echo "Завершено: " . $task->unique() . ", " . $task->data() . "\n";
+    echo "Завершено: " . $task->unique() . ", " . $task->data() . "\n";
 }
 
 ?>
@@ -94,52 +94,52 @@ function reverse_complete($task)
 ```php
 <?php
 
-# Скрипт обработчика
+# Скрипт обработчика
 
-echo "Начало\n";
+echo "Начало\n";
 
-# Создаём наш объект обработчика
-$gmworker= new GearmanWorker();
+# Создаём наш объект обработчика
+$gmworker= new GearmanWorker();
 
-# Добавление сервера задач по умолчанию (localhost).
+# Добавление сервера задач по умолчанию (localhost).
 $gmworker->addServer();
 
-# Регистрируем функцию reverse на сервере
-$gmworker->addFunction("reverse", "reverse_fn");
+# Регистрируем функцию reverse на сервере
+$gmworker->addFunction("reverse", "reverse_fn");
 
-print "Ожидание задачи...\n";
+print "Ожидание задачи...\n";
 while($gmworker->work())
 {
-  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
-  {
-    echo "код возврата: " . $gmworker->returnCode() . "\n";
-    break;
-  }
+  if ($gmworker->returnCode() != GEARMAN_SUCCESS)
+  {
+    echo "код возврата: " . $gmworker->returnCode() . "\n";
+    break;
+  }
 }
 
-function reverse_fn($job)
+function reverse_fn($job)
 {
-  echo "Полученная задача: " . $job->handle() . "\n";
+  echo "Полученная задача: " . $job->handle() . "\n";
 
-  $workload = $job->workload();
-  $workload_size = $job->workloadSize();
+  $workload = $job->workload();
+  $workload_size = $job->workloadSize();
 
-  echo "Рабочая нагрузка: $workload ($workload_size)\n";
+  echo "Рабочая нагрузка: $workload ($workload_size)\n";
 
-  # В этом цикле для отображения статуса нет необходимости. Просто для демонстрации, как это работает
-  for ($x= 0; $x < $workload_size; $x++)
-  {
-    echo "Отправка статуса: " . ($x + 1) . "/$workload_size выполнено\n";
-    $job->sendStatus($x+1, $workload_size);
-    $job->sendData(substr($workload, $x, 1));
-    sleep(1);
-  }
+  # В этом цикле для отображения статуса нет необходимости. Просто для демонстрации, как это работает
+  for ($x= 0; $x < $workload_size; $x++)
+  {
+    echo "Отправка статуса: " . ($x + 1) . "/$workload_size выполнено\n";
+    $job->sendStatus($x+1, $workload_size);
+    $job->sendData(substr($workload, $x, 1));
+    sleep(1);
+  }
 
-  $result= strrev($workload);
-  echo "Результат: $result\n";
+  $result= strrev($workload);
+  echo "Результат: $result\n";
 
-  # Возвращаем то, что мы хотим вернуть клиенту
-  return $result;
+  # Возвращаем то, что мы хотим вернуть клиенту
+  return $result;
 }
 
 ?>

@@ -60,15 +60,15 @@ imagexbm(GdImage $image, ?string $filename, ?int $foreground_color = null): bool
 
 ```php
 <?php
-// Создание пустого изображения и добавление текста
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
+// Создание пустого изображения и добавление текста
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
 
-// Сохранение изображения
-imagexbm($im, 'simpletext.xbm');
+// Сохранение изображения
+imagexbm($im, 'simpletext.xbm');
 
-// Освобождение памяти
+// Освобождение памяти
 imagedestroy($im);
 ?>
 ```
@@ -77,18 +77,18 @@ imagedestroy($im);
 
 ```php
 <?php
-// Создание пустого изображения и добавление текста
-$im = imagecreatetruecolor(120, 20);
-$text_color = imagecolorallocate($im, 233, 14, 91);
-imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
+// Создание пустого изображения и добавление текста
+$im = imagecreatetruecolor(120, 20);
+$text_color = imagecolorallocate($im, 233, 14, 91);
+imagestring($im, 1, 5, 5,  'Простая текстовая строка', $text_color);
 
-// Изменение цвета
-$foreground_color = imagecolorallocate($im, 255, 0, 0);
+// Изменение цвета
+$foreground_color = imagecolorallocate($im, 255, 0, 0);
 
-// Сохранение изображения
-imagexbm($im, NULL, $foreground_color);
+// Сохранение изображения
+imagexbm($im, NULL, $foreground_color);
 
-// Освобождение памяти
+// Освобождение памяти
 imagedestroy($im);
 ?>
 ```

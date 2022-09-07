@@ -15,7 +15,7 @@ eioseek — Переміщує файловий покажчик файлу `fd`
 ### Опис
 
 ```methodsynopsis
-eio_seek(    mixed $fd,    int $offset,    int $whence,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_seek(    mixed $fd,    int $offset,    int $whence,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eioseek()** змінює усунення файлового покажчика, пов'язаного з потоком, ресурсом сокету або файловим дескриптором `fd` на значення `offset`. При цьому поточна позиція файлового покажчика обчислюватиметься відповідно до значення директиви `whence` наступним чином:
@@ -47,7 +47,7 @@ eio_seek(    mixed $fd,    int $offset,    int $whence,    int $
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

@@ -70,17 +70,17 @@ offset
 
 ```php
 <?php
-// Путь к файлу БД
-$db_path = "/tmp/test.dbf";
+// Путь к файлу БД
+$db_path = "/tmp/test.dbf";
 
-// Открываем файл БД
-$dbh = dbase_open($db_path, 0)
-  or die("Ошибка! Не получается открыть файл '$db_path'.");
+// Открываем файл БД
+$dbh = dbase_open($db_path, 0)
+  or die("Ошибка! Не получается открыть файл '$db_path'.");
 
-// Получаем информацию о столбцах
-$column_info = dbase_get_header_info($dbh);
+// Получаем информацию о столбцах
+$column_info = dbase_get_header_info($dbh);
 
-// Отображение информации
+// Отображение информации
 print_r($column_info);
 ?>
 ```

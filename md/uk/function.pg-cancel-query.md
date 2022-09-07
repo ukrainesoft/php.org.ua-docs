@@ -42,20 +42,20 @@ pg_cancel_query(PgSql\Connection $connection): bool
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться");
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться");
 
-  if (!pg_connection_busy($dbconn)) {
-      pg_send_query($dbconn, "select * from authors; select count(*) from authors;");
-  }
+  if (!pg_connection_busy($dbconn)) {
+      pg_send_query($dbconn, "select * from authors; select count(*) from authors;");
+  }
 
-  $res1 = pg_get_result($dbconn);
-  echo "Первый запрос к pg_get_result(): $res1\n";
-  $rows1 = pg_num_rows($res1);
-  echo "$res1 получил $rows1 записей\n\n";
+  $res1 = pg_get_result($dbconn);
+  echo "Первый запрос к pg_get_result(): $res1\n";
+  $rows1 = pg_num_rows($res1);
+  echo "$res1 получил $rows1 записей\n\n";
 
-  // Остановка выполняющегося в данный момент запроса.
-  // Последует второй запрос, если, конечно, он ещё выполняется.
-  pg_cancel_query($dbconn);
+  // Остановка выполняющегося в данный момент запроса.
+  // Последует второй запрос, если, конечно, он ещё выполняется.
+  pg_cancel_query($dbconn);
 ?>
 ```
 

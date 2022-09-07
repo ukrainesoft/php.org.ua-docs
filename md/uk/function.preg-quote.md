@@ -55,9 +55,9 @@ preg_quote(string $str, ?string $delimiter = null): string
 
 ```php
 <?php
-$keywords = '$40 за g3/400';
-$keywords = preg_quote($keywords, '/');
-echo $keywords; // возвращает \$40 за g3\/400
+$keywords = '$40 за g3/400';
+$keywords = preg_quote($keywords, '/');
+echo $keywords; // возвращает \$40 за g3\/400
 ?>
 ```
 
@@ -65,14 +65,14 @@ echo $keywords; // возвращает \$40 за g3\/400
 
 ```php
 <?php
-// В данном примере preg_quote($word) используется, чтобы
-// избежать трактовки символа '*' как спец. символа.
+// В данном примере preg_quote($word) используется, чтобы
+// избежать трактовки символа '*' как спец. символа.
 
-$textbody = "Эту книгу *очень* тяжело найти.";
-$word = "*очень*";
-$textbody = preg_replace ("/" . preg_quote($word, '/') . "/",
-                          "<i>" . $word . "</i>",
-                          $textbody);
+$textbody = "Эту книгу *очень* тяжело найти.";
+$word = "*очень*";
+$textbody = preg_replace ("/" . preg_quote($word, '/') . "/",
+                          "<i>" . $word . "</i>",
+                          $textbody);
 ?>
 ```
 

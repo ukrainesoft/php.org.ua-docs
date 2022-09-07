@@ -34,7 +34,7 @@ public static RarException::isUsingExceptions(): bool
 
 ```php
 <?php
-//По умолчанию исключения не используются
+//По умолчанию исключения не используются
 var_dump(RarException::isUsingExceptions());
 ?>
 ```

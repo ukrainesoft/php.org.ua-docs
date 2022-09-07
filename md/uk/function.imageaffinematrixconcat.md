@@ -40,9 +40,9 @@ imageaffinematrixconcat(array $matrix1, array $matrix2): array|false
 
 ```php
 <?php
-$m1 = imageaffinematrixget(IMG_AFFINE_TRANSLATE, array('x' => 2, 'y' => 3));
-$m2 = imageaffinematrixget(IMG_AFFINE_SCALE, array('x' => 4, 'y' => 5));
-$matrix = imageaffinematrixconcat($m1, $m2);
+$m1 = imageaffinematrixget(IMG_AFFINE_TRANSLATE, array('x' => 2, 'y' => 3));
+$m2 = imageaffinematrixget(IMG_AFFINE_SCALE, array('x' => 4, 'y' => 5));
+$matrix = imageaffinematrixconcat($m1, $m2);
 print_r($matrix);
 ?>
 ```

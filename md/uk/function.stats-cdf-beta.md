@@ -15,7 +15,7 @@ statscdfbeta — Обчислює будь-який параметр Бета-р
 ### Опис
 
 ```methodsynopsis
-stats_cdf_beta(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_beta(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
 Повертає кумулятивну функцію бета-розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`

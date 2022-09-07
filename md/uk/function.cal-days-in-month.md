@@ -44,7 +44,7 @@ cal_days_in_month(int $calendar, int $month, int $year): int
 
 ```php
 <?php
-$number = cal_days_in_month(CAL_GREGORIAN, 8, 2003); // 31
-echo "Всего {$number} дней в Августе 2003 года";
+$number = cal_days_in_month(CAL_GREGORIAN, 8, 2003); // 31
+echo "Всего {$number} дней в Августе 2003 года";
 ?>
 ```

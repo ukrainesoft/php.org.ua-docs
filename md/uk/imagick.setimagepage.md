@@ -15,7 +15,7 @@ Imagick::setImagePage — Встановлює геометрію сторінк
 ### Опис
 
 ```methodsynopsis
-public Imagick::setImagePage(    int $width,    int $height,    int $x,    int $y): bool
+public Imagick::setImagePage(    int $width,    int $height,    int $x,    int $y): bool
 ```
 
 Встановлює геометрію сторінки зображення.

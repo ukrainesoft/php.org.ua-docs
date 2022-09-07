@@ -36,9 +36,9 @@ xhprof_disable(): array
 <?php
 xhprof_enable();
 
-$foo = strlen("foo bar");
+$foo = strlen("foo bar");
 
-$xhprof_data = xhprof_disable();
+$xhprof_data = xhprof_disable();
 
 print_r($xhprof_data);
 ?>

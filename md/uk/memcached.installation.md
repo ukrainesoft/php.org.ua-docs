@@ -8,7 +8,7 @@ title: Встановлення
 ---
 ## Встановлення
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/memcached](https://pecl.php.net/package/memcached)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/memcached](https://pecl.php.net/package/memcached)
 
 Якщо libmemcached встановлена ​​в нестандартній директорії, використовуйте опцію **\-with-libmemcached-dir=DIR**, де DIR - це директорія, куди встановлено libmemcached. Ця директорія має містити файл include/libmemcached/memcached.h.
 

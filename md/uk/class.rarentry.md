@@ -196,7 +196,7 @@ title: 'Клас RarEntry'
 
     /* Методы */
     
-   public extract(    string $dir,    string $filepath = "",    string $password = NULL,    bool $extended_data = false): bool
+   public extract(    string $dir,    string $filepath = "",    string $password = NULL,    bool $extended_data = false): bool
 public getAttr(): int
 public getCrc(): string
 public getFileTime(): string

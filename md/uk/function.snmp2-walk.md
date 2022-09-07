@@ -15,7 +15,7 @@ snmp2walk — Отримує всі об'єкти SNMP із агента
 ### Опис
 
 ```methodsynopsis
-snmp2_walk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
+snmp2_walk(    string $hostname,    string $community,    array|string $object_id,    int $timeout = -1,    int $retries = -1): array|false
 ```
 
 Функція **snmp2walk()** використовується для читання всіх значень агента SNMP, зазначеного в `hostname`
@@ -54,10 +54,10 @@ Read-спільнота.
 
 ```php
 <?php
-$a = snmp2_walk("127.0.0.1", "public", "");
+$a = snmp2_walk("127.0.0.1", "public", "");
 
-foreach ($a as $val) {
-    echo "$val\n";
+foreach ($a as $val) {
+    echo "$val\n";
 }
 
 ?>

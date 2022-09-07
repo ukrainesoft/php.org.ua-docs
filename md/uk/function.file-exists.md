@@ -52,12 +52,12 @@ file_exists(string $filename): bool
 
 ```php
 <?php
-$filename = '/path/to/foo.txt';
+$filename = '/path/to/foo.txt';
 
-if (file_exists($filename)) {
-    echo "Файл $filename существует";
-} else {
-    echo "Файл $filename не существует";
+if (file_exists($filename)) {
+    echo "Файл $filename существует";
+} else {
+    echo "Файл $filename не существует";
 }
 ?>
 ```

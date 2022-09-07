@@ -18,7 +18,7 @@ MongoDBDriverMonitoringSDAMSubscriber::serverHeartbeatFailed — Метод сп
 abstract public MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed(MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent $event): void
 ```
 
-Якщо передплатник був зареєстрований, драйвер викличе цей метод, у разі виникнення помилки на heartbeat сервера (тобто команди [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/), викликаної через [» мониторинг сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
+Якщо передплатник був зареєстрований, драйвер викличе цей метод, у разі виникнення помилки на heartbeat сервера (тобто команди [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/), викликаної через [» мониторинг сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
 
 ### Список параметрів
 

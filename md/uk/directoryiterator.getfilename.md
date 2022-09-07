@@ -36,9 +36,9 @@ public DirectoryIterator::getFilename(): string
 
 ```php
 <?php
-$dir = new DirectoryIterator(dirname(__FILE__));
-foreach ($dir as $fileinfo) {
-    echo $fileinfo->getFilename() . "\n";
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    echo $fileinfo->getFilename() . "\n";
 }
 ?>
 ```

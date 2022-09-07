@@ -40,27 +40,27 @@ public mysql_xdevapi\CollectionModify::arrayAppend(string $collection_field, str
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-$result = $collection
-  ->add(
-  '{"name":   "Bernie",
-    "traits": ["Friend", "Brother", "Human"]}')
-  ->execute();
+$result = $collection
+  ->add(
+  '{"name":   "Bernie",
+    "traits": ["Friend", "Brother", "Human"]}')
+  ->execute();
 
 $collection
-  ->modify("name in ('Bernie', 'Jane')")
-  ->arrayAppend('traits', 'Happy')
-  ->execute();
+  ->modify("name in ('Bernie', 'Jane')")
+  ->arrayAppend('traits', 'Happy')
+  ->execute();
 
-$result = $collection
-  ->find()
-  ->execute();
+$result = $collection
+  ->find()
+  ->execute();
 
 print_r($result->fetchAll());
 ?>

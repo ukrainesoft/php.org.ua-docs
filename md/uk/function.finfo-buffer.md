@@ -19,7 +19,7 @@ finfobuffer -- finfo::buffer — Повертає інформацію про р
 Процедурний стиль
 
 ```methodsynopsis
-finfo_buffer(    finfo $finfo,    string $string,    int $flags = FILEINFO_NONE,    ?resource $context = null): string|false
+finfo_buffer(    finfo $finfo,    string $string,    int $flags = FILEINFO_NONE,    ?resource $context = null): string|false
 ```
 
 Об'єктно-орієнтований стиль
@@ -63,8 +63,8 @@ public finfo::buffer(string $string, int $flags = FILEINFO_NONE, ?resource $cont
 
 ```php
 <?php
-$finfo = new finfo(FILEINFO_MIME);
-echo $finfo->buffer($_POST["script"]) . "\n";
+$finfo = new finfo(FILEINFO_MIME);
+echo $finfo->buffer($_POST["script"]) . "\n";
 ?>
 ```
 

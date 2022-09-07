@@ -52,15 +52,15 @@ output_add_rewrite_var(string $name, string $value): bool
 
 ```php
 <?php
-output_add_rewrite_var('var', 'value');
+output_add_rewrite_var('var', 'value');
 
-// несколько ссылок
-echo '<a href="file.php">ссылка</a>
-<a href="http://example.com">ссылка2</a>';
+// несколько ссылок
+echo '<a href="file.php">ссылка</a>
+<a href="http://example.com">ссылка2</a>';
 
-// форма
-echo '<form action="script.php" method="post">
-<input type="text" name="var2" />
+// форма
+echo '<form action="script.php" method="post">
+<input type="text" name="var2" />
 </form>';
 
 print_r(ob_list_handlers());

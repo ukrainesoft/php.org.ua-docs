@@ -43,10 +43,10 @@ final public MongoDB\Driver\WriteConcern::getWtimeout(): int
 ```php
 <?php
 
-$wc = new MongoDB\Driver\WriteConcern(1);
+$wc = new MongoDB\Driver\WriteConcern(1);
 var_dump($wc->getWtimeout());
 
-$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 3000);
+$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 3000);
 var_dump($wc->getWtimeout());
 
 ?>
@@ -61,4 +61,4 @@ int(3000)
 
 ### Дивіться також
 
--   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Руководство по гарантии записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

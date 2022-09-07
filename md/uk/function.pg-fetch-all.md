@@ -50,19 +50,19 @@ pg_fetch_all(PgSql\Result $result, int $mode = PGSQL_ASSOC): array
 
 ```php
 <?php
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-    echo "Произошла ошибка.\n";
-    exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+    echo "Произошла ошибка.\n";
+    exit;
 }
 
-$result = pg_query($conn, "SELECT * FROM authors");
-if (!$result) {
-    echo "Произошла ошибка.\n";
-    exit;
+$result = pg_query($conn, "SELECT * FROM authors");
+if (!$result) {
+    echo "Произошла ошибка.\n";
+    exit;
 }
 
-$arr = pg_fetch_all($result);
+$arr = pg_fetch_all($result);
 
 print_r($arr);
 

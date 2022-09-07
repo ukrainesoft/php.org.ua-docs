@@ -58,20 +58,20 @@ public
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     float
      $after
-   ,    
+   ,    
     float
      $repeat
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0
@@ -82,20 +82,20 @@ public
 final
    public
    static
-   createStopped(    
+   createStopped(    
     float
      $after
-   ,    
+   ,    
     float
      $repeat
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

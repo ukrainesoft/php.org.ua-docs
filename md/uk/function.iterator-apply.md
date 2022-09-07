@@ -46,13 +46,13 @@ iterator_apply(Traversable $iterator, callable $callback, ?array $args = null): 
 
 ```php
 <?php
-function print_caps(Iterator $iterator) {
-    echo strtoupper($iterator->current()) . "\n";
-    return TRUE;
+function print_caps(Iterator $iterator) {
+    echo strtoupper($iterator->current()) . "\n";
+    return TRUE;
 }
 
-$it = new ArrayIterator(array("Apples", "Bananas", "Cherries"));
-iterator_apply($it, "print_caps", array($it));
+$it = new ArrayIterator(array("Apples", "Bananas", "Cherries"));
+iterator_apply($it, "print_caps", array($it));
 ?>
 ```
 

@@ -54,12 +54,12 @@ public PharData::compress(int $compression, ?string $extension = null): ?PharDat
 
 ```php
 <?php
-$p = new PharData('/path/to/my.tar');
-$p['myfile.txt'] = 'hi';
-$p['myfile2.txt'] = 'hi';
-$p1 = $p->compress(Phar::GZ); // copies to /path/to/my.tar.gz
-$p2 = $p->compress(Phar::BZ2); // copies to /path/to/my.tar.bz2
-$p3 = $p2->compress(Phar::NONE); // exception: /path/to/my.tar already exists
+$p = new PharData('/path/to/my.tar');
+$p['myfile.txt'] = 'hi';
+$p['myfile2.txt'] = 'hi';
+$p1 = $p->compress(Phar::GZ); // copies to /path/to/my.tar.gz
+$p2 = $p->compress(Phar::BZ2); // copies to /path/to/my.tar.bz2
+$p3 = $p2->compress(Phar::NONE); // exception: /path/to/my.tar already exists
 ?>
 ```
 

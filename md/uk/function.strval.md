@@ -40,16 +40,16 @@ strval(mixed $value): string
 
 ```php
 <?php
-class StrValTest
+class StrValTest
 {
-    public function __toString()
-    {
-        return __CLASS__;
-    }
+    public function __toString()
+    {
+        return __CLASS__;
+    }
 }
 
-// Выводит 'StrValTest'
-echo strval(new StrValTest);
+// Выводит 'StrValTest'
+echo strval(new StrValTest);
 ?>
 ```
 

@@ -15,7 +15,7 @@ Gmagick::chopimage — Видаляє область зображення та �
 ### Опис
 
 ```methodsynopsis
-public Gmagick::chopimage(    int $width,    int $height,    int $x,    int $y): Gmagick
+public Gmagick::chopimage(    int $width,    int $height,    int $x,    int $y): Gmagick
 ```
 
 Видаляє область зображення та плескає його так, щоб зайняти віддалену область.

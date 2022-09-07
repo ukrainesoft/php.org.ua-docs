@@ -34,7 +34,7 @@ public Ds\Map::capacity(): int
 
 ```php
 <?php
-$map = new \Ds\Map();
+$map = new \Ds\Map();
 var_dump($map->capacity());
 ?>
 ```

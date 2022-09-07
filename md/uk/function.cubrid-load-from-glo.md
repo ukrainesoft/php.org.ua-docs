@@ -46,14 +46,14 @@ Oid екземпляра glo з якого ви хочете прочитати 
 
 ```php
 <?php
-$req = cubrid_execute ($con, "select image from person where id=1");
-if ($req) {
-   list ($oid) = cubrid_fetch($req);
-   cubrid_close_request($req);
-   $res = cubrid_load_from_glo ($con, $oid, "output.jpg");
-   if ($res) {
-      echo "Картинка была изменена";
-   }
+$req = cubrid_execute ($con, "select image from person where id=1");
+if ($req) {
+   list ($oid) = cubrid_fetch($req);
+   cubrid_close_request($req);
+   $res = cubrid_load_from_glo ($con, $oid, "output.jpg");
+   if ($res) {
+      echo "Картинка была изменена";
+   }
 }
 ?>
 ```

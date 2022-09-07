@@ -38,16 +38,16 @@ public Imagick::setFont(string $font): bool
 
 ```php
 <?php
-/* Создание нового объекта Imagick */
-$im = new Imagick();
+/* Создание нового объекта Imagick */
+$im = new Imagick();
 
-/* Установка шрифта для объекта */
+/* Установка шрифта для объекта */
 $im->setFont("example.ttf");
 
-/* Создание нового заголовка */
-$im->newPseudoImage(100, 100, "caption:Hello");
+/* Создание нового заголовка */
+$im->newPseudoImage(100, 100, "caption:Hello");
 
-/* Работа с изображением */
+/* Работа с изображением */
 ?>
 ```
 

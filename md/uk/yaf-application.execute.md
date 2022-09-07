@@ -38,18 +38,18 @@ Callback-функція
 
 ```php
 <?php
-function main($argc, $argv) {
+function main($argc, $argv) {
 }
 
-$config = array(
-    "application" => array(
-        "directory" => realpath(dirname(__FILE__)) . "/application",
-    ),
+$config = array(
+    "application" => array(
+        "directory" => realpath(dirname(__FILE__)) . "/application",
+    ),
 );
 
-/** Yaf_Application */
-$application = new Yaf_Application($config);
-$application->execute("main", $argc,  $argv);
+/** Yaf_Application */
+$application = new Yaf_Application($config);
+$application->execute("main", $argc,  $argv);
 ?>
 ```
 

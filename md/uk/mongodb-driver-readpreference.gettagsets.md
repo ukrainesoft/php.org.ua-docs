@@ -37,25 +37,25 @@ final public MongoDB\Driver\ReadPreference::getTagSets(): array
 ```php
 <?php
 
-$mode = MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED;
+$mode = MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED;
 
-/* Как и null, так и пустой Масив, обозначают, что не будут установлены теги для предпочтения. */
-$rp = new MongoDB\Driver\ReadPreference($mode, null);
+/* Как и null, так и пустой Масив, обозначают, что не будут установлены теги для предпочтения. */
+$rp = new MongoDB\Driver\ReadPreference($mode, null);
 var_dump($rp->getTagSets());
 
-$rp = new MongoDB\Driver\ReadPreference($mode, []);
+$rp = new MongoDB\Driver\ReadPreference($mode, []);
 var_dump($rp->getTagSets());
 
-/* Выбрать узел в Нью-Йорке, но вернуться к любому доступному резервному узлу. */
-$rp = new MongoDB\Driver\ReadPreference($mode, [['dc' => 'ny']]);
+/* Выбрать узел в Нью-Йорке, но вернуться к любому доступному резервному узлу. */
+$rp = new MongoDB\Driver\ReadPreference($mode, [['dc' => 'ny']]);
 var_dump($rp->getTagSets());
 
-/* Выбрать узел в Нью-Йорке, за которым следует узел в Сан-Франциско,
-   который помечен для использования для отчётов, и, наконец, вернуться к любому доступному резервному узлу. */
-$rp = new MongoDB\Driver\ReadPreference($mode, [
-  ['dc' => 'ny'],
-  ['dc' => 'sf', 'use' => 'reporting'],
-  [],
+/* Выбрать узел в Нью-Йорке, за которым следует узел в Сан-Франциско,
+   который помечен для использования для отчётов, и, наконец, вернуться к любому доступному резервному узлу. */
+$rp = new MongoDB\Driver\ReadPreference($mode, [
+  ['dc' => 'ny'],
+  ['dc' => 'sf', 'use' => 'reporting'],
+  [],
 ]);
 var_dump($rp->getTagSets());
 
@@ -100,4 +100,4 @@ array(3) {
 
 ### Дивіться також
 
--   [» Справочная информация по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)
+-   [» Справочная информация по предпочтению чтения](https://www.mongodb.com/docs/manual/core/read-preference/)

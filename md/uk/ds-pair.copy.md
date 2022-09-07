@@ -32,10 +32,10 @@ public Ds\Pair::copy(): Ds\Pair
 
 ```php
 <?php
-$a = new \Ds\Pair("a", 1);
-$b = $a->copy();
+$a = new \Ds\Pair("a", 1);
+$b = $a->copy();
 
-$a->key = "x";
+$a->key = "x";
 
 print_r($a);
 print_r($b);

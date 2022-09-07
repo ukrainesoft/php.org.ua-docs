@@ -40,7 +40,7 @@ public Ds\Set::get(int $index): mixed
 
 ```php
 <?php
-$set = new \Ds\Set(["a", "b", "c"]);
+$set = new \Ds\Set(["a", "b", "c"]);
 
 var_dump($set->get(0));
 var_dump($set->get(1));
@@ -60,7 +60,7 @@ string(1) "c"
 
 ```php
 <?php
-$set = new \Ds\Set(["a", "b", "c"]);
+$set = new \Ds\Set(["a", "b", "c"]);
 
 var_dump($set[0]);
 var_dump($set[1]);

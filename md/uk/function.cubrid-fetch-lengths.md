@@ -42,13 +42,13 @@ cubrid_fetch_lengths(resource $result): array
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND nation_code='AUS' AND medal='G'");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND nation_code='AUS' AND medal='G'");
 
-$row = cubrid_fetch_row($result);
+$row = cubrid_fetch_row($result);
 print_r($row);
 
-$lens = cubrid_fetch_lengths($result);
+$lens = cubrid_fetch_lengths($result);
 print_r($lens);
 
 cubrid_disconnect($conn);

@@ -44,12 +44,12 @@ public Memcached::prepend(string $key, string $value): bool
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
-$m->setOption(Memcached::OPT_COMPRESSION, false);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
+$m->setOption(Memcached::OPT_COMPRESSION, false);
 
-$m->set('foo', 'abc');
-$m->prepend('foo', 'def');
+$m->set('foo', 'abc');
+$m->prepend('foo', 'def');
 var_dump($m->get('foo'));
 ?>
 ```

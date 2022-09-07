@@ -37,12 +37,12 @@ public ReflectionClass::getConstant(string $name): mixed
 ```php
 <?php
 
-class Example {
-    const C1 = false;
-    const C2 = 'I am a constant';
+class Example {
+    const C1 = false;
+    const C2 = 'I am a constant';
 }
 
-$reflection = new ReflectionClass('Example');
+$reflection = new ReflectionClass('Example');
 
 var_dump($reflection->getConstant('C1'));
 var_dump($reflection->getConstant('C2'));

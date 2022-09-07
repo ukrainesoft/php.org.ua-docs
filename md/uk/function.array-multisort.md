@@ -15,7 +15,7 @@ arraymultisort — Сортує кілька масивів або багато�
 ### Опис
 
 ```methodsynopsis
-array_multisort(    array &$array1,    mixed $array1_sort_order = SORT_ASC,    mixed $array1_sort_flags = SORT_REGULAR,    mixed ...$rest): bool
+array_multisort(    array &$array1,    mixed $array1_sort_order = SORT_ASC,    mixed $array1_sort_flags = SORT_REGULAR,    mixed ...$rest): bool
 ```
 
 Функція **arraymultisort()** може бути використана для сортування відразу декількох масивів або одного багатовимірного масиву відповідно до однієї або кількох розмірів.
@@ -71,9 +71,9 @@ array_multisort(    array &$array1,    mixed $array1_sort_order = SORT_A
 
 ```php
 <?php
-$ar1 = array(10, 100, 100, 0);
-$ar2 = array(1, 3, 2, 4);
-array_multisort($ar1, $ar2);
+$ar1 = array(10, 100, 100, 0);
+$ar2 = array(1, 3, 2, 4);
+array_multisort($ar1, $ar2);
 
 var_dump($ar1);
 var_dump($ar2);
@@ -101,12 +101,12 @@ array(4) {
 
 ```php
 <?php
-$ar = array(
-       array("10", 11, 100, 100, "a"),
-       array(   1,  2, "2",   3,   1)
-      );
-array_multisort($ar[0], SORT_ASC, SORT_STRING,
-                $ar[1], SORT_NUMERIC, SORT_DESC);
+$ar = array(
+       array("10", 11, 100, 100, "a"),
+       array(   1,  2, "2",   3,   1)
+      );
+array_multisort($ar[0], SORT_ASC, SORT_STRING,
+                $ar[1], SORT_NUMERIC, SORT_DESC);
 var_dump($ar);
 ?>
 ```
@@ -154,12 +154,12 @@ volume | edition
 
 ```php
 <?php
-$data[] = array('volume' => 67, 'edition' => 2);
-$data[] = array('volume' => 86, 'edition' => 1);
-$data[] = array('volume' => 85, 'edition' => 6);
-$data[] = array('volume' => 98, 'edition' => 2);
-$data[] = array('volume' => 86, 'edition' => 6);
-$data[] = array('volume' => 67, 'edition' => 7);
+$data[] = array('volume' => 67, 'edition' => 2);
+$data[] = array('volume' => 86, 'edition' => 1);
+$data[] = array('volume' => 85, 'edition' => 6);
+$data[] = array('volume' => 98, 'edition' => 2);
+$data[] = array('volume' => 86, 'edition' => 6);
+$data[] = array('volume' => 67, 'edition' => 7);
 ?>
 ```
 
@@ -169,19 +169,19 @@ $data[] = array('volume' => 67, 'edition' => 7);
 
 ```php
 <?php
-// Получение списка столбцов
-foreach ($data as $key => $row) {
-    $volume[$key]  = $row['volume'];
-    $edition[$key] = $row['edition'];
+// Получение списка столбцов
+foreach ($data as $key => $row) {
+    $volume[$key]  = $row['volume'];
+    $edition[$key] = $row['edition'];
 }
 
-// Вы можете использовать array_column() вместо вышеуказанного кода
-$volume  = array_column($data, 'volume');
-$edition = array_column($data, 'edition');
+// Вы можете использовать array_column() вместо вышеуказанного кода
+$volume  = array_column($data, 'volume');
+$edition = array_column($data, 'edition');
 
-// Сортируем данные по volume по убыванию и по edition по возрастанию
-// Добавляем $data в качестве последнего параметра, для сортировки по общему ключу
-array_multisort($volume, SORT_DESC, $edition, SORT_ASC, $data);
+// Сортируем данные по volume по убыванию и по edition по возрастанию
+// Добавляем $data в качестве последнего параметра, для сортировки по общему ключу
+array_multisort($volume, SORT_DESC, $edition, SORT_ASC, $data);
 ?>
 ```
 
@@ -206,10 +206,10 @@ volume | edition
 
 ```php
 <?php
-$array = array('Alpha', 'atomic', 'Beta', 'bank');
-$array_lowercase = array_map('strtolower', $array);
+$array = array('Alpha', 'atomic', 'Beta', 'bank');
+$array_lowercase = array_map('strtolower', $array);
 
-array_multisort($array_lowercase, SORT_ASC, SORT_STRING, $array);
+array_multisort($array_lowercase, SORT_ASC, SORT_STRING, $array);
 
 print_r($array);
 ?>

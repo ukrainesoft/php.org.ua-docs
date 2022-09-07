@@ -36,17 +36,17 @@ public PharFileInfo::chmod(int $perms): void
 
 ```php
 <?php
-// удалим, на всякий случай
+// удалим, на всякий случай
 @unlink('brandnewphar.phar');
-try {
-    $p = new Phar('brandnewphar.phar', 0, 'brandnewphar.phar');
-    $p['file.sh'] = '#!/usr/local/lib/php
-    <?php echo "привет"; ?>';
-    // установим бит исполнрения
-    $p['file.sh']->chmod(0555);
-    var_dump($p['file.sh']->isExecutable());
-} catch (Exception $e) {
-    echo 'Не удалось создать/изменить phar: ', $e;
+try {
+    $p = new Phar('brandnewphar.phar', 0, 'brandnewphar.phar');
+    $p['file.sh'] = '#!/usr/local/lib/php
+    <?php echo "привет"; ?>';
+    // установим бит исполнрения
+    $p['file.sh']->chmod(0555);
+    var_dump($p['file.sh']->isExecutable());
+} catch (Exception $e) {
+    echo 'Не удалось создать/изменить phar: ', $e;
 }
 ?>
 ```

@@ -46,11 +46,11 @@ public
 
 ```php
 <?php
-$r = Zookeeper::setDebugLevel(Zookeeper::LOG_LEVEL_WARN);
-if ($r)
-  echo 'Успешно';
+$r = Zookeeper::setDebugLevel(Zookeeper::LOG_LEVEL_WARN);
+if ($r)
+  echo 'Успешно';
 else
-  echo 'Ошибка';
+  echo 'Ошибка';
 ?>
 ?>
 ```

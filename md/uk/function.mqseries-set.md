@@ -15,7 +15,7 @@ mqseriesset — MQSeries MQSET
 ### Опис
 
 ```methodsynopsis
-mqseries_set(    resource $hConn,    resource $hObj,    int $selectorCount,    array $selectors,    int $intAttrCount,    array $intAttrs,    int $charAttrLength,    array $charAttrs,    resource &$compCode,    resource &$reason): void
+mqseries_set(    resource $hConn,    resource $hObj,    int $selectorCount,    array $selectors,    int $intAttrCount,    array $intAttrs,    int $charAttrLength,    array $charAttrs,    resource &$compCode,    resource &$reason): void
 ```
 
 Функція **mqseriesset()** (MQSET) використовується для зміни атрибутів черги.

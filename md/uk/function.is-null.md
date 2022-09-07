@@ -39,8 +39,8 @@ is_null(mixed $value): bool
 
 error_reporting(E_ALL);
 
-$foo = NULL;
-var_dump(is_null($inexistent), is_null($foo));
+$foo = NULL;
+var_dump(is_null($inexistent), is_null($foo));
 
 ?>
 ```

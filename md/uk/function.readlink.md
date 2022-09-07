@@ -39,8 +39,8 @@ readlink(string $path): string|false
 ```php
 <?php
 
-// выведет что-то вроде /boot/vmlinux-2.4.20-xfs
-echo readlink('/vmlinuz');
+// выведет что-то вроде /boot/vmlinux-2.4.20-xfs
+echo readlink('/vmlinuz');
 
 ?>
 ```

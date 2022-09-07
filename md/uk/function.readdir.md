@@ -49,21 +49,21 @@ readdir(?resource $dir_handle = null): string|false
 ```php
 <?php
 
-if ($handle = opendir('/path/to/files')) {
-    echo "Дескриптор каталога: $handle\n";
-    echo "Элементы:\n";
+if ($handle = opendir('/path/to/files')) {
+    echo "Дескриптор каталога: $handle\n";
+    echo "Элементы:\n";
 
-    /* Именно такой способ чтения элементов каталога является правильным. */
-    while (false !== ($entry = readdir($handle))) {
-        echo "$entry\n";
-    }
+    /* Именно такой способ чтения элементов каталога является правильным. */
+    while (false !== ($entry = readdir($handle))) {
+        echo "$entry\n";
+    }
 
-    /* Это НЕВЕРНЫЙ способ обхода каталога. */
-    while ($entry = readdir($handle)) {
-        echo "$entry\n";
-    }
+    /* Это НЕВЕРНЫЙ способ обхода каталога. */
+    while ($entry = readdir($handle)) {
+        echo "$entry\n";
+    }
 
-    closedir($handle);
+    closedir($handle);
 }
 ?>
 ```
@@ -72,13 +72,13 @@ if ($handle = opendir('/path/to/files')) {
 
 ```php
 <?php
-if ($handle = opendir('.')) {
-    while (false !== ($entry = readdir($handle))) {
-        if ($entry != "." && $entry != "..") {
-            echo "$entry\n";
-        }
-    }
-    closedir($handle);
+if ($handle = opendir('.')) {
+    while (false !== ($entry = readdir($handle))) {
+        if ($entry != "." && $entry != "..") {
+            echo "$entry\n";
+        }
+    }
+    closedir($handle);
 }
 ?>
 ```

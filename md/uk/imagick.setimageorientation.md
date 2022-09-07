@@ -36,12 +36,12 @@ public Imagick::setImageOrientation(int $orientation): bool
 
 ```php
 <?php
-// Кажется, ничего не делает
-function setImageOrientation($imagePath, $orientationType) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->setImageOrientation($orientationType);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+// Кажется, ничего не делает
+function setImageOrientation($imagePath, $orientationType) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->setImageOrientation($orientationType);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

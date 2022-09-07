@@ -40,10 +40,10 @@ array(mixed ...$values): array
 
 ```php
 <?php
-$fruits = array (
-    "fruits"  => array("a" => "orange", "b" => "banana", "c" => "apple"),
-    "numbers" => array(1, 2, 3, 4, 5, 6),
-    "holes"   => array("first", 5 => "second", "third")
+$fruits = array (
+    "fruits"  => array("a" => "orange", "b" => "banana", "c" => "apple"),
+    "numbers" => array(1, 2, 3, 4, 5, 6),
+    "holes"   => array("first", 5 => "second", "third")
 );
 ?>
 ```
@@ -52,7 +52,7 @@ $fruits = array (
 
 ```php
 <?php
-$array = array(1, 1, 1, 1,  1, 8 => 1,  4 => 1, 19, 3 => 13);
+$array = array(1, 1, 1, 1,  1, 8 => 1,  4 => 1, 19, 3 => 13);
 print_r($array);
 ?>
 ```
@@ -80,7 +80,7 @@ Array
 
 ```php
 <?php
-$firstquarter = array(1 => 'January', 'February', 'March');
+$firstquarter = array(1 => 'January', 'February', 'March');
 print_r($firstquarter);
 ?>
 ```
@@ -103,8 +103,8 @@ Array
 ```php
 <?php
 
-$foo = array('bar' => 'baz');
-echo "Hello {$foo['bar']}!"; // Hello baz!
+$foo = array('bar' => 'baz');
+echo "Hello {$foo['bar']}!"; // Hello baz!
 
 ?>
 ```

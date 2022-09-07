@@ -43,8 +43,8 @@ filetype(string $filename): string|false
 ```php
 <?php
 
-echo filetype('/etc/passwd');  // file
-echo filetype('/etc/');        // dir
+echo filetype('/etc/passwd');  // file
+echo filetype('/etc/');        // dir
 
 ?>
 ```

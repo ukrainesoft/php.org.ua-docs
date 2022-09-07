@@ -44,9 +44,9 @@ geoip_db_get_all_info(): array
 
 ```php
 <?php
-$infos = geoip_db_get_all_info();
-if (is_array($infos)) {
-    var_dump($infos);
+$infos = geoip_db_get_all_info();
+if (is_array($infos)) {
+    var_dump($infos);
 }
 ?>
 ```
@@ -85,9 +85,9 @@ array(11) {
 
 ```php
 <?php
-$infos = geoip_db_get_all_info();
-if ($infos[GEOIP_COUNTRY_EDITION]['available']) {
-    echo $infos[GEOIP_COUNTRY_EDITION]['description'];
+$infos = geoip_db_get_all_info();
+if ($infos[GEOIP_COUNTRY_EDITION]['available']) {
+    echo $infos[GEOIP_COUNTRY_EDITION]['description'];
 }
 ?>
 ```

@@ -48,9 +48,9 @@ public static IntlChar::forDigit(int $digit, int $base = 10): int
 <?php
 var_dump(IntlChar::forDigit(0));
 var_dump(IntlChar::forDigit(3));
-var_dump(IntlChar::forDigit(3, 10));
+var_dump(IntlChar::forDigit(3, 10));
 var_dump(IntlChar::forDigit(10));
-var_dump(IntlChar::forDigit(10, 16));
+var_dump(IntlChar::forDigit(10, 16));
 ?>
 ```
 

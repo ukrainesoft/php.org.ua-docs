@@ -42,22 +42,22 @@ public Ds\Vector::slice(int $index, int $length = ?): Ds\Vector
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", "b", "c", "d", "e"]);
+$vector = new \Ds\Vector(["a", "b", "c", "d", "e"]);
 
-// Slice from 2 onwards
+// Slice from 2 onwards
 print_r($vector->slice(2));
 
-// Slice from 1, for a length of 3
-print_r($vector->slice(1, 3));
+// Slice from 1, for a length of 3
+print_r($vector->slice(1, 3));
 
-// Slice from 1 onwards
+// Slice from 1 onwards
 print_r($vector->slice(1));
 
-// Slice from 2 from the end onwards
+// Slice from 2 from the end onwards
 print_r($vector->slice(-2));
 
-// Slice from 1 to 1 from the end
-print_r($vector->slice(1, -1));
+// Slice from 1 to 1 from the end
+print_r($vector->slice(1, -1));
 ?>
 ```
 

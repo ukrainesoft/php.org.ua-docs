@@ -15,7 +15,7 @@ imagecolorresolve — Отримує ідентифікатор конкретн
 ### Опис
 
 ```methodsynopsis
-imagecolorresolve(    GdImage $image,    int $red,    int $green,    int $blue): int
+imagecolorresolve(    GdImage $image,    int $red,    int $green,    int $blue): int
 ```
 
 Ця функція обов'язково поверне ідентифікатор кольору для вибраного кольору, або найближчу можливу альтернативу.
@@ -56,15 +56,15 @@ imagecolorresolve(    GdImage $image,    int $red,    int $green, �
 
 ```php
 <?php
-// загрузить изображение
-$im = imagecreatefromgif('phplogo.gif');
+// загрузить изображение
+$im = imagecreatefromgif('phplogo.gif');
 
-// получить ближайшие цвета на изображении
-$colors = array();
-$colors[] = imagecolorresolve($im, 255, 255, 255);
-$colors[] = imagecolorresolve($im, 0, 0, 200);
+// получить ближайшие цвета на изображении
+$colors = array();
+$colors[] = imagecolorresolve($im, 255, 255, 255);
+$colors[] = imagecolorresolve($im, 0, 0, 200);
 
-// вывод
+// вывод
 print_r($colors);
 
 imagedestroy($im);

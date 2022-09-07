@@ -38,12 +38,12 @@ public DirectoryIterator::getBasename(string $suffix = ""): string
 
 ```php
 <?php
-$dir = new DirectoryIterator(dirname(__FILE__));
-foreach ($dir as $fileinfo) {
-    if ($fileinfo->isFile()) {
-        echo $fileinfo->getBasename() . "\n";
-        echo $fileinfo->getBasename('.jpg') . "\n";
-    }
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    if ($fileinfo->isFile()) {
+        echo $fileinfo->getBasename() . "\n";
+        echo $fileinfo->getBasename('.jpg') . "\n";
+    }
 }
 ?>
 ```

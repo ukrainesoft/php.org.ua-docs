@@ -37,9 +37,9 @@ is_resource(mixed $value): bool
 ```php
 <?php
 
-$handle = fopen("php://stdout", "w");
-if (is_resource($handle)) {
-    echo '$handle - это ресурс';
+$handle = fopen("php://stdout", "w");
+if (is_resource($handle)) {
+    echo '$handle - это ресурс';
 }
 ?>
 ```

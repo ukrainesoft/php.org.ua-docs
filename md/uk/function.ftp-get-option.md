@@ -48,8 +48,8 @@ ftp_get_option(FTP\Connection $ftp, int $option): int|bool
 
 ```php
 <?php
-// Получаем время ожидания соединения
-$timeout = ftp_get_option($ftp, FTP_TIMEOUT_SEC);
+// Получаем время ожидания соединения
+$timeout = ftp_get_option($ftp, FTP_TIMEOUT_SEC);
 ?>
 ```
 

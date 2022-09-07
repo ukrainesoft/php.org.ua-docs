@@ -38,7 +38,7 @@ numfmt_set_pattern(NumberFormatter $formatter, string $pattern): bool
 
 `pattern`
 
-Шаблон у синтаксисі, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
+Шаблон у синтаксисі, описаному в [» документации ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
 
 ### Значення, що повертаються
 
@@ -50,12 +50,12 @@ numfmt_set_pattern(NumberFormatter $formatter, string $pattern): bool
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-echo "Шаблон: ".numfmt_get_pattern($fmt)."\n";
-echo numfmt_format($fmt, 1234567.891234567890000)."\n";
-numfmt_set_pattern($fmt, "#0.# kg");
-echo "Шаблон: ".numfmt_get_pattern($fmt)."\n";
-echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+echo "Шаблон: ".numfmt_get_pattern($fmt)."\n";
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+numfmt_set_pattern($fmt, "#0.# kg");
+echo "Шаблон: ".numfmt_get_pattern($fmt)."\n";
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
 ?>
 ```
 
@@ -63,12 +63,12 @@ echo numfmt_format($fmt, 1234567.891234567890000)."\n";
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
-echo "Шаблон: ".$fmt->getPattern()."\n";
-echo $fmt->format(1234567.891234567890000)."\n";
-$fmt->setPattern("#0.# kg");
-echo "Шаблон: ".$fmt->getPattern()."\n";
-echo $fmt->format(1234567.891234567890000)."\n";
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+echo "Шаблон: ".$fmt->getPattern()."\n";
+echo $fmt->format(1234567.891234567890000)."\n";
+$fmt->setPattern("#0.# kg");
+echo "Шаблон: ".$fmt->getPattern()."\n";
+echo $fmt->format(1234567.891234567890000)."\n";
 ?>
 ```
 

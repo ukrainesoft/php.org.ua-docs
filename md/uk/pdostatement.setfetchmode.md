@@ -64,10 +64,10 @@ public PDOStatement::setFetchMode(int $mode = PDO::FETCH_INTO, object $object): 
 
 ```php
 <?php
-$stmt = $dbh->query('SELECT name, colour, calories FROM fruit');
+$stmt = $dbh->query('SELECT name, colour, calories FROM fruit');
 $stmt->setFetchMode(PDO::FETCH_NUM);
-foreach ($stmt as $row) {
-    print $row[0] . "\t" . $row[1] . "\t" . $row[2] . "\n";
+foreach ($stmt as $row) {
+    print $row[0] . "\t" . $row[1] . "\t" . $row[2] . "\n";
 }
 ```
 

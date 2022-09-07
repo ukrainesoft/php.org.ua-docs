@@ -56,21 +56,21 @@ pg_connect(string $connection_string, int $flags = 0): PgSql\Connection|false
 
 ```php
 <?php
-$dbconn = pg_connect("dbname=mary");
-//подключиться к базе "mary"
+$dbconn = pg_connect("dbname=mary");
+//подключиться к базе "mary"
 
-$dbconn2 = pg_connect("host=localhost port=5432 dbname=mary");
-//подключиться к базе "mary" на хосте "localhost", порт "5432"
+$dbconn2 = pg_connect("host=localhost port=5432 dbname=mary");
+//подключиться к базе "mary" на хосте "localhost", порт "5432"
 
-$dbconn3 = pg_connect("host=sheep port=5432 dbname=mary user=lamb password=foo");
-//подключиться к базе "mary" на хосте "sheep", используя имя пользователя и пароль
+$dbconn3 = pg_connect("host=sheep port=5432 dbname=mary user=lamb password=foo");
+//подключиться к базе "mary" на хосте "sheep", используя имя пользователя и пароль
 
-$conn_string = "host=sheep port=5432 dbname=test user=lamb password=bar";
-$dbconn4 = pg_connect($conn_string);
-//подключиться к базе "test" на хосте "sheep", используя имя пользователя и пароль
+$conn_string = "host=sheep port=5432 dbname=test user=lamb password=bar";
+$dbconn4 = pg_connect($conn_string);
+//подключиться к базе "test" на хосте "sheep", используя имя пользователя и пароль
 
-$dbconn5 = pg_connect("host=localhost options='--client_encoding=UTF8'");
-//подключиться к базе на хосте "localhost" и передать параметр командной строки, задающий кодировку UTF-8
+$dbconn5 = pg_connect("host=localhost options='--client_encoding=UTF8'");
+//подключиться к базе на хосте "localhost" и передать параметр командной строки, задающий кодировку UTF-8
 ?>
 ```
 

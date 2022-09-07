@@ -59,33 +59,33 @@ pg_fetch_array(PgSql\Result $result, ?int $row = null, int $mode = PGSQL_BOTH): 
 ```php
 <?php
 
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-$result = pg_query($conn, "SELECT author, email FROM authors");
-if (!$result) {
-  echo "Произошла ошибка.\n";
-  exit;
+$result = pg_query($conn, "SELECT author, email FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-$arr = pg_fetch_array($result, 0, PGSQL_NUM);
-echo $arr[0] . " <- Row 1 Author\n";
-echo $arr[1] . " <- Row 1 E-mail\n";
+$arr = pg_fetch_array($result, 0, PGSQL_NUM);
+echo $arr[0] . " <- Row 1 Author\n";
+echo $arr[1] . " <- Row 1 E-mail\n";
 
-// Параметр row необязателен,
-// для передечи result_type вместо row можно передать NULL.
-// Успешные вызовы pg_fetch_array вернут следующий ряд.
+// Параметр row необязателен,
+// для передечи result_type вместо row можно передать NULL.
+// Успешные вызовы pg_fetch_array вернут следующий ряд.
 
-$arr = pg_fetch_array($result, NULL, PGSQL_ASSOC);
-echo $arr["author"] . " <- Row 2 Author\n";
-echo $arr["email"] . " <- Row 2 E-mail\n";
+$arr = pg_fetch_array($result, NULL, PGSQL_ASSOC);
+echo $arr["author"] . " <- Row 2 Author\n";
+echo $arr["email"] . " <- Row 2 E-mail\n";
 
-$arr = pg_fetch_array($result);
-echo $arr["author"] . " <- Row 3 Author\n";
-echo $arr[1] . " <- Row 3 E-mail\n";
+$arr = pg_fetch_array($result);
+echo $arr["author"] . " <- Row 3 Author\n";
+echo $arr[1] . " <- Row 3 E-mail\n";
 
 ?>
 ```

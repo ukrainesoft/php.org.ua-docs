@@ -39,12 +39,12 @@ public SolrQuery::addGroupSortField(string $field, int $order = ?): SolrQuery
 ```php
 <?php
 
-$solrQuery = new SolrQuery('*:*');
+$solrQuery = new SolrQuery('*:*');
 $solrQuery
-    ->setGroup(true)
-    ->addGroupSortField('price', SolrQuery::ORDER_ASC);
+    ->setGroup(true)
+    ->addGroupSortField('price', SolrQuery::ORDER_ASC);
 
-echo $solrQuery;
+echo $solrQuery;
 ?>
 ```
 

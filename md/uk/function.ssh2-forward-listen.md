@@ -15,7 +15,7 @@ ssh2forwardlisten — Зв'язує порт на віддаленому сер�
 ### Опис
 
 ```methodsynopsis
-ssh2_forward_listen(    resource $session,    int $port,    string $host = ?,    int $max_connections = 16): resource|false
+ssh2_forward_listen(    resource $session,    int $port,    string $host = ?,    int $max_connections = 16): resource|false
 ```
 
 Зв'язує порт на віддаленому сервері та прослуховує з'єднання.

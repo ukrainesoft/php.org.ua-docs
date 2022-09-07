@@ -40,8 +40,8 @@ rmdir(string $directory, ?resource $context = null): bool
 
 ```php
 <?php
-if (!is_dir('examples')) {
-    mkdir('examples');
+if (!is_dir('examples')) {
+    mkdir('examples');
 }
 
 rmdir('examples');

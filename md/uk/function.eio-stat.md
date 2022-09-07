@@ -15,7 +15,7 @@ eiostat — Повертає статус файлу
 ### Опис
 
 ```methodsynopsis
-eio_stat(    string $path,    int $pri,    callable $callback,    mixed $data = NULL): resource
+eio_stat(    string $path,    int $pri,    callable $callback,    mixed $data = NULL): resource
 ```
 
 **eioстати()** повертає інформацію про стан файлу в `result` аргумент функції `callback`
@@ -35,7 +35,7 @@ eio_stat(    string $path,    int $pri,    callable $callback,   
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -64,24 +64,24 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-$tmp_filename = "eio-file.tmp";
+$tmp_filename = "eio-file.tmp";
 touch($tmp_filename);
 
-function my_res_cb($data, $result) {
-    var_dump($data);
-    var_dump($result);
+function my_res_cb($data, $result) {
+    var_dump($data);
+    var_dump($result);
 }
 
-function my_open_cb($data, $result) {
-    eio_close($result);
-    eio_event_loop();
+function my_open_cb($data, $result) {
+    eio_close($result);
+    eio_event_loop();
 
-    @unlink($data);
+    @unlink($data);
 }
 
-eio_stat($tmp_filename, EIO_PRI_DEFAULT, "my_res_cb", "eio_stat");
-eio_open($tmp_filename, EIO_O_RDONLY, NULL,
- EIO_PRI_DEFAULT, "my_open_cb", $tmp_filename);
+eio_stat($tmp_filename, EIO_PRI_DEFAULT, "my_res_cb", "eio_stat");
+eio_open($tmp_filename, EIO_O_RDONLY, NULL,
+ EIO_PRI_DEFAULT, "my_open_cb", $tmp_filename);
 eio_event_loop();
 ?>
 ```

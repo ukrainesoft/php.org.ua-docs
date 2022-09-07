@@ -15,7 +15,7 @@ traderbop - Баланс сил
 ### Опис
 
 ```methodsynopsis
-trader_bop(    array $open,    array $high,    array $low,    array $close): array
+trader_bop(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

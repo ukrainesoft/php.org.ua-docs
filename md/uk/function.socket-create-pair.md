@@ -15,7 +15,7 @@ socketcreatepair - Створює пару нерозрізнених сокет
 ### Опис
 
 ```methodsynopsis
-socket_create_pair(    int $domain,    int $type,    int $protocol,    array &$pair): bool
+socket_create_pair(    int $domain,    int $type,    int $protocol,    array &$pair): bool
 ```
 
 **socketcreatepair()** створює два сполучених і нерозрізняються сокети, і зберігає їх у масиві `pair`. Ця функція зазвичай використовується IPC (міжпроцесної взаємодії).
@@ -56,25 +56,25 @@ socket_create_pair(    int $domain,    int $type,    int $protocol,�
 
 ```php
 <?php
-$sockets = array();
+$sockets = array();
 
-/* На Windows нам нужно использовать AF_INET */
-$domain = (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN' ? AF_INET : AF_UNIX);
+/* На Windows нам нужно использовать AF_INET */
+$domain = (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN' ? AF_INET : AF_UNIX);
 
-/* Создаём пару сокетов */
-if (socket_create_pair($domain, SOCK_STREAM, 0, $sockets) === false) {
-    echo "Не получилось выполнить socket_create_pair. Причина: ".socket_strerror(socket_last_error());
+/* Создаём пару сокетов */
+if (socket_create_pair($domain, SOCK_STREAM, 0, $sockets) === false) {
+    echo "Не получилось выполнить socket_create_pair. Причина: ".socket_strerror(socket_last_error());
 }
-/* Отправляем и получаем данные */
-if (socket_write($sockets[0], "ABCdef123\n", strlen("ABCdef123\n")) === false) {
-    echo "Не получилось выполнить socket_write(). Причина: ".socket_strerror(socket_last_error($sockets[0]));
+/* Отправляем и получаем данные */
+if (socket_write($sockets[0], "ABCdef123\n", strlen("ABCdef123\n")) === false) {
+    echo "Не получилось выполнить socket_write(). Причина: ".socket_strerror(socket_last_error($sockets[0]));
 }
-if (($data = socket_read($sockets[1], strlen("ABCdef123\n"), PHP_BINARY_READ)) === false) {
-    echo "Не получилось выполнить socket_read(). Причина: ".socket_strerror(socket_last_error($sockets[1]));
+if (($data = socket_read($sockets[1], strlen("ABCdef123\n"), PHP_BINARY_READ)) === false) {
+    echo "Не получилось выполнить socket_read(). Причина: ".socket_strerror(socket_last_error($sockets[1]));
 }
 var_dump($data);
 
-/* Закрываем сокеты */
+/* Закрываем сокеты */
 socket_close($sockets[0]);
 socket_close($sockets[1]);
 ?>
@@ -84,36 +84,36 @@ socket_close($sockets[1]);
 
 ```php
 <?php
-$ary = array();
-$strone = 'Сообщение от родительского процесса.';
-$strtwo = 'Сообщение от дочернего процесса.';
+$ary = array();
+$strone = 'Сообщение от родительского процесса.';
+$strtwo = 'Сообщение от дочернего процесса.';
 
-if (socket_create_pair(AF_UNIX, SOCK_STREAM, 0, $ary) === false) {
-    echo "Не получилось выполнить socket_create_pair(). Причина: ".socket_strerror(socket_last_error());
+if (socket_create_pair(AF_UNIX, SOCK_STREAM, 0, $ary) === false) {
+    echo "Не получилось выполнить socket_create_pair(). Причина: ".socket_strerror(socket_last_error());
 }
-$pid = pcntl_fork();
-if ($pid == -1) {
-    echo 'Не могу создать новый процесс.';
-} elseif ($pid) {
-    /*родительский процесс*/
-    socket_close($ary[0]);
-    if (socket_write($ary[1], $strone, strlen($strone)) === false) {
-        echo "Не получилось выполнить socket_write(). Причина: ".socket_strerror(socket_last_error($ary[1]));
-    }
-    if (socket_read($ary[1], strlen($strtwo), PHP_BINARY_READ) == $strtwo) {
-        echo "Получено $strtwo\n";
-    }
-    socket_close($ary[1]);
-} else {
-    /*дочерний процесс*/
-    socket_close($ary[1]);
-    if (socket_write($ary[0], $strtwo, strlen($strtwo)) === false) {
-        echo "Не получилось выполнить socket_write(). Причина: ".socket_strerror(socket_last_error($ary[0]));
-    }
-    if (socket_read($ary[0], strlen($strone), PHP_BINARY_READ) == $strone) {
-        echo "Получено $strone\n";
-    }
-    socket_close($ary[0]);
+$pid = pcntl_fork();
+if ($pid == -1) {
+    echo 'Не могу создать новый процесс.';
+} elseif ($pid) {
+    /*родительский процесс*/
+    socket_close($ary[0]);
+    if (socket_write($ary[1], $strone, strlen($strone)) === false) {
+        echo "Не получилось выполнить socket_write(). Причина: ".socket_strerror(socket_last_error($ary[1]));
+    }
+    if (socket_read($ary[1], strlen($strtwo), PHP_BINARY_READ) == $strtwo) {
+        echo "Получено $strtwo\n";
+    }
+    socket_close($ary[1]);
+} else {
+    /*дочерний процесс*/
+    socket_close($ary[1]);
+    if (socket_write($ary[0], $strtwo, strlen($strtwo)) === false) {
+        echo "Не получилось выполнить socket_write(). Причина: ".socket_strerror(socket_last_error($ary[0]));
+    }
+    if (socket_read($ary[0], strlen($strone), PHP_BINARY_READ) == $strone) {
+        echo "Получено $strone\n";
+    }
+    socket_close($ary[0]);
 }
 ?>
 ```

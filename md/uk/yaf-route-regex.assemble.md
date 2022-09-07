@@ -37,33 +37,33 @@ public Yaf_Route_Regex::assemble(array $info, array $query = ?): ?string
 ```php
 <?php
 
-$router = new Yaf_Router();
+$router = new Yaf_Router();
 
-$route  = new Yaf_Route_Regex(
-            "#^/product/([^/]+)/([^/])+#",
-            array(
-                'controller' => "product",  //маршрут на контроллер product,
-                ),
-            array(),
-            array(),
-            '/:m/:c/:a'
-        );
+$route  = new Yaf_Route_Regex(
+            "#^/product/([^/]+)/([^/])+#",
+            array(
+                'controller' => "product",  //маршрут на контроллер product,
+                ),
+            array(),
+            array(),
+            '/:m/:c/:a'
+        );
 
-$router->addRoute("regex", $route);
+$router->addRoute("regex", $route);
 
 var_dump($router->getRoute('regex')->assemble(
-            array(
-                ':m' => 'module',
-                ':c' => 'controller',
-                ':a' => 'action'
-                ),
-            array(
-                'tkey1' => 'tval1',
-                'tkey2' =>
-                'tval2'
-                )
-            )
-        );
+            array(
+                ':m' => 'module',
+                ':c' => 'controller',
+                ':a' => 'action'
+                ),
+            array(
+                'tkey1' => 'tval1',
+                'tkey2' =>
+                'tval2'
+                )
+            )
+        );
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

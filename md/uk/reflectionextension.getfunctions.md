@@ -34,7 +34,7 @@ public ReflectionExtension::getFunctions(): array
 
 ```php
 <?php
-$dom = new ReflectionExtension('SimpleXML');
+$dom = new ReflectionExtension('SimpleXML');
 
 print_r($dom->getFunctions());
 ?>

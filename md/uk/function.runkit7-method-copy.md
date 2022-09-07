@@ -15,7 +15,7 @@ runkit7методcopy — Копіює метод з одного класу д�
 ### Опис
 
 ```methodsynopsis
-runkit7_method_copy(    string $destination_class,    string $destination_method_name,    string $source_class,    string $source_method_name = ?): bool
+runkit7_method_copy(    string $destination_class,    string $destination_method_name,    string $source_class,    string $source_method_name = ?): bool
 ```
 
 ### Список параметрів
@@ -44,21 +44,21 @@ runkit7_method_copy(    string $destination_class,    string $destinatio
 
 ```php
 <?php
-class Foo {
-    function example() {
-        return "foo!\n";
-    }
+class Foo {
+    function example() {
+        return "foo!\n";
+    }
 }
 
-class Bar {
-    // изначально никаких методов
+class Bar {
+    // изначально никаких методов
 }
 
-// копирование метода example() из класса Foo в класс Bar как baz()
-runkit7_method_copy('Bar', 'baz', 'Foo', 'example');
+// копирование метода example() из класса Foo в класс Bar как baz()
+runkit7_method_copy('Bar', 'baz', 'Foo', 'example');
 
-// функция вывода скопирована
-echo Bar::baz();
+// функция вывода скопирована
+echo Bar::baz();
 ?>
 ```
 

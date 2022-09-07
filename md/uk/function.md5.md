@@ -22,7 +22,7 @@ md5 - Повертає MD5-хеш рядки
 md5(string $string, bool $binary = false): string
 ```
 
-Обчислює MD5-хеш рядки `string`, використовуючи [» алгоритм MD5 RSA Data Security, Inc.](http://www.faqs.org/rfcs/rfc1321) і повертає цей хеш.
+Обчислює MD5-хеш рядки `string`, використовуючи [» алгоритм MD5 RSA Data Security, Inc.](http://www.faqs.org/rfcs/rfc1321) і повертає цей хеш.
 
 ### Список параметрів
 
@@ -44,10 +44,10 @@ md5(string $string, bool $binary = false): string
 
 ```php
 <?php
-$str = 'яблоко';
+$str = 'яблоко';
 
-if (md5($str) === '1afa148eb41f2e7103f21410bf48346c') {
-    echo "Вам зелёное или красное яблоко?";
+if (md5($str) === '1afa148eb41f2e7103f21410bf48346c') {
+    echo "Вам зелёное или красное яблоко?";
 }
 ?>
 ```

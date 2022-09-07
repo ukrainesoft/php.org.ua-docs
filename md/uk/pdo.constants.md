@@ -170,8 +170,8 @@ title: Обумовлені константи
 
 ```php
 <?php
-if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
-  echo "Работаем с mysql; делаем что-то специфичное для mysql\n";
+if ($db->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
+  echo "Работаем с mysql; делаем что-то специфичное для mysql\n";
 }
 ?>
 ```

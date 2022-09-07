@@ -42,14 +42,14 @@ handler(Throwable $ex): void
 
 ```php
 <?php
-function exception_handler(Throwable $exception) {
-  echo "Неперехваченное исключение: " , $exception->getMessage(), "\n";
+function exception_handler(Throwable $exception) {
+  echo "Неперехваченное исключение: " , $exception->getMessage(), "\n";
 }
 
 set_exception_handler('exception_handler');
 
-throw new Exception('Неперехваченное исключение');
-echo "Не выполнено\n";
+throw new Exception('Неперехваченное исключение');
+echo "Не выполнено\n";
 ?>
 ```
 

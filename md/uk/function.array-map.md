@@ -54,13 +54,13 @@ array_map(?callable $callback, array $array, array ...$arrays): array
 
 ```php
 <?php
-function cube($n)
+function cube($n)
 {
-    return ($n * $n * $n);
+    return ($n * $n * $n);
 }
 
-$a = [1, 2, 3, 4, 5];
-$b = array_map('cube', $a);
+$a = [1, 2, 3, 4, 5];
+$b = array_map('cube', $a);
 print_r($b);
 ?>
 ```
@@ -82,15 +82,15 @@ Array
 
 ```php
 <?php
-$func = function(int $value): int {
-    return $value * 2;
+$func = function(int $value): int {
+    return $value * 2;
 };
 
-print_r(array_map($func, range(1, 5)));
+print_r(array_map($func, range(1, 5)));
 
-// Или с PHP 7.4.0:
+// Или с PHP 7.4.0:
 
-print_r(array_map(fn($value): int => $value * 2, range(1, 5)));
+print_r(array_map(fn($value): int => $value * 2, range(1, 5)));
 
 ?>
 ```
@@ -110,23 +110,23 @@ Array
 
 ```php
 <?php
-function show_Spanish(int $n, string $m): string
+function show_Spanish(int $n, string $m): string
 {
-    return "Число {$n} по-испански - {$m}";
+    return "Число {$n} по-испански - {$m}";
 }
 
-function map_Spanish(int $n, string $m): array
+function map_Spanish(int $n, string $m): array
 {
-    return [$n => $m];
+    return [$n => $m];
 }
 
-$a = [1, 2, 3, 4, 5];
-$b = ['uno', 'dos', 'tres', 'cuatro', 'cinco'];
+$a = [1, 2, 3, 4, 5];
+$b = ['uno', 'dos', 'tres', 'cuatro', 'cinco'];
 
-$c = array_map('show_Spanish', $a, $b);
+$c = array_map('show_Spanish', $a, $b);
 print_r($c);
 
-$d = array_map('map_Spanish', $a , $b);
+$d = array_map('map_Spanish', $a , $b);
 print_r($d);
 ?>
 ```
@@ -183,11 +183,11 @@ Array
 
 ```php
 <?php
-$a = [1, 2, 3, 4, 5];
-$b = ['one', 'two', 'three', 'four', 'five'];
-$c = ['uno', 'dos', 'tres', 'cuatro', 'cinco'];
+$a = [1, 2, 3, 4, 5];
+$b = ['one', 'two', 'three', 'four', 'five'];
+$c = ['uno', 'dos', 'tres', 'cuatro', 'cinco'];
 
-$d = array_map(null, $a, $b, $c);
+$d = array_map(null, $a, $b, $c);
 print_r($d);
 ?>
 ```
@@ -239,8 +239,8 @@ Array
 
 ```php
 <?php
-$array = [1, 2, 3];
-var_dump(array_map(null, $array));
+$array = [1, 2, 3];
+var_dump(array_map(null, $array));
 ?>
 ```
 
@@ -261,17 +261,17 @@ array(3) {
 
 ```php
 <?php
-$arr = ['stringkey' => 'value'];
-function cb1($a) {
-    return [$a];
+$arr = ['stringkey' => 'value'];
+function cb1($a) {
+    return [$a];
 }
-function cb2($a, $b) {
-    return [$a, $b];
+function cb2($a, $b) {
+    return [$a, $b];
 }
-var_dump(array_map('cb1', $arr));
-var_dump(array_map('cb2', $arr, $arr));
-var_dump(array_map(null,  $arr));
-var_dump(array_map(null, $arr, $arr));
+var_dump(array_map('cb1', $arr));
+var_dump(array_map('cb2', $arr, $arr));
+var_dump(array_map(null,  $arr));
+var_dump(array_map(null, $arr, $arr));
 ?>
 ```
 
@@ -315,16 +315,16 @@ array(1) {
 
 ```php
 <?php
-$arr = [
-    'v1' => 'Первый выпуск',
-    'v2' => 'Второй выпуск',
-    'v3' => 'Третий выпуск',
+$arr = [
+    'v1' => 'Первый выпуск',
+    'v2' => 'Второй выпуск',
+    'v3' => 'Третий выпуск',
 ];
 
-// Примечание: До версии 7.4.0 вместо этого используйте более длинный синтаксис для анонимных функций.
-$callback = fn(string $k, string $v): string => "$k - это $v";
+// Примечание: До версии 7.4.0 вместо этого используйте более длинный синтаксис для анонимных функций.
+$callback = fn(string $k, string $v): string => "$k - это $v";
 
-$result = array_map($callback, array_keys($arr), array_values($arr));
+$result = array_map($callback, array_keys($arr), array_values($arr));
 
 var_dump($result);
 ?>

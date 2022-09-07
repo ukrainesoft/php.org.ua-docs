@@ -50,17 +50,17 @@ openssl_csr_export_to_file(OpenSSLCertificateSigningRequest|string $csr, string 
 
 ```php
 <?php
-$subject = array(
-    "commonName" => "example.com",
+$subject = array(
+    "commonName" => "example.com",
 );
-$private_key = openssl_pkey_new(array(
-    "private_key_bits" => 2048,
-    "private_key_type" => OPENSSL_KEYTYPE_RSA,
+$private_key = openssl_pkey_new(array(
+    "private_key_bits" => 2048,
+    "private_key_type" => OPENSSL_KEYTYPE_RSA,
 ));
-$csr = openssl_csr_new($subject, $private_key, array('digest_alg' => 'sha384') );
-openssl_pkey_export_to_file($private_key, 'example-priv.key');
-// Наряду с объектом, CSR содержит открытый ключ, соответствующий секретному ключу
-openssl_csr_export_to_file($csr, 'example-csr.pem');
+$csr = openssl_csr_new($subject, $private_key, array('digest_alg' => 'sha384') );
+openssl_pkey_export_to_file($private_key, 'example-priv.key');
+// Наряду с объектом, CSR содержит открытый ключ, соответствующий секретному ключу
+openssl_csr_export_to_file($csr, 'example-csr.pem');
 ?>
 ```
 

@@ -44,22 +44,22 @@ public Phar::decompressFiles(): bool
 
 ```php
 <?php
-$p = new Phar('/путь/к/my.phar', 0, 'my.phar');
-$p['myfile.txt'] = 'привет';
-$p['myfile2.txt'] = 'привет';
+$p = new Phar('/путь/к/my.phar', 0, 'my.phar');
+$p['myfile.txt'] = 'привет';
+$p['myfile2.txt'] = 'привет';
 $p->compressFiles(Phar::GZ);
-foreach ($p as $file) {
-    var_dump($file->getFileName());
-    var_dump($file->isCompressed());
-    var_dump($file->isCompressed(Phar::BZ2));
-    var_dump($file->isCompressed(Phar::GZ));
+foreach ($p as $file) {
+    var_dump($file->getFileName());
+    var_dump($file->isCompressed());
+    var_dump($file->isCompressed(Phar::BZ2));
+    var_dump($file->isCompressed(Phar::GZ));
 }
 $p->decompressFiles();
-foreach ($p as $file) {
-    var_dump($file->getFileName());
-    var_dump($file->isCompressed());
-    var_dump($file->isCompressed(Phar::BZ2));
-    var_dump($file->isCompressed(Phar::GZ));
+foreach ($p as $file) {
+    var_dump($file->getFileName());
+    var_dump($file->isCompressed());
+    var_dump($file->isCompressed(Phar::BZ2));
+    var_dump($file->isCompressed(Phar::GZ));
 }
 ?>
 ```

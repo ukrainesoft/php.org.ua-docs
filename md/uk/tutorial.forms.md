@@ -21,8 +21,8 @@ title: Робота з формами
 **Приклад #2 Виводимо дані форми**
 
 ```php
-Здравствуйте, <?php echo htmlspecialchars($_POST['name']); ?>.
-Вам <?php echo (int)$_POST['age']; ?> лет.
+Здравствуйте, <?php echo htmlspecialchars($_POST['name']); ?>.
+Вам <?php echo (int)$_POST['age']; ?> лет.
 ```
 
 Приклад виведення цієї програми:

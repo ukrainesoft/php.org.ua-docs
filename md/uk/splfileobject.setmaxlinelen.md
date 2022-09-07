@@ -40,10 +40,10 @@ public SplFileObject::setMaxLineLen(int $maxLength): void
 
 ```php
 <?php
-$file = new SplFileObject("lipsum.txt");
+$file = new SplFileObject("lipsum.txt");
 $file->setMaxLineLen(20);
-foreach ($file as $line) {
-    echo $line . "\n";
+foreach ($file as $line) {
+    echo $line . "\n";
 }
 ?>
 ```

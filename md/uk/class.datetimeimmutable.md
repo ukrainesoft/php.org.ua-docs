@@ -90,7 +90,7 @@ public modify(string $modifier): DateTimeImmutable|false
 public static __set_state(array $array): DateTimeImmutable
 public setDate(int $year, int $month, int $day): DateTimeImmutable
 public setISODate(int $year, int $week, int $dayOfWeek = 1): DateTimeImmutable
-public setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTimeImmutable
+public setTime(    int $hour,    int $minute,    int $second = 0,    int $microsecond = 0): DateTimeImmutable
 public setTimestamp(int $timestamp): DateTimeImmutable
 public setTimezone(DateTimeZone $timezone): DateTimeImmutable
 public sub(DateInterval $interval): DateTimeImmutable

@@ -38,7 +38,7 @@ escapeshellarg(string $arg): string
 
 ```php
 <?php
-system('ls '.escapeshellarg($dir));
+system('ls '.escapeshellarg($dir));
 ?>
 ```
 

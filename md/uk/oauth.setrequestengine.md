@@ -44,7 +44,7 @@ public OAuth::setRequestEngine(int $reqengine): void
 
 ```php
 <?php
-$consumer = new OAuth();
+$consumer = new OAuth();
 
 $consumer->setRequestEngine(OAUTH_REQENGINE_STREAMS);
 ?>

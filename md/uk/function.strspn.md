@@ -15,7 +15,7 @@ strspn — Повертає довжину ділянки на початку р
 ### Опис
 
 ```methodsynopsis
-strspn(    string $string,    string $characters,    int $offset = 0,    ?int $length = null): int
+strspn(    string $string,    string $characters,    int $offset = 0,    ?int $length = null): int
 ```
 
 Повертає довжину ділянки від початку рядка `string`, що містить *тільки* символи з `characters`
@@ -26,7 +26,7 @@ strspn(    string $string,    string $characters,    int $offset = 0
 
 ```php
 <?php
-$var = strspn("42 - ответ на 128 вопрос.", "1234567890");
+$var = strspn("42 - ответ на 128 вопрос.", "1234567890");
 ?>
 ```
 
@@ -78,14 +78,14 @@ $var = strspn("42 - ответ на 128 вопрос.", "1234567890");
 
 ```php
 <?php
-// subject не начинается ни из какого символа из mask
-var_dump(strspn("foo", "o"));
+// subject не начинается ни из какого символа из mask
+var_dump(strspn("foo", "o"));
 
-// проверить два символа из subject, начиная с позиции 1
-var_dump(strspn("foo", "o", 1, 2));
+// проверить два символа из subject, начиная с позиции 1
+var_dump(strspn("foo", "o", 1, 2));
 
-// проверить один символ из subject, начиная с позиции 1
-var_dump(strspn("foo", "o", 1, 1));
+// проверить один символ из subject, начиная с позиции 1
+var_dump(strspn("foo", "o", 1, 1));
 ?>
 ```
 

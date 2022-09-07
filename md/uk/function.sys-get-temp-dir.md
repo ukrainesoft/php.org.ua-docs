@@ -34,11 +34,11 @@ sys_get_temp_dir(): string
 
 ```php
 <?php
-// Создание временного файла в директории
-// временных файлов, используя sys_get_temp_dir()
-$temp_file = tempnam(sys_get_temp_dir(), 'Tux');
+// Создание временного файла в директории
+// временных файлов, используя sys_get_temp_dir()
+$temp_file = tempnam(sys_get_temp_dir(), 'Tux');
 
-echo $temp_file;
+echo $temp_file;
 ?>
 ```
 

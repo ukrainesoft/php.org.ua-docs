@@ -42,15 +42,15 @@ cubrid_lob_get(resource $conn_identifier, string $sql): array
 
 ```php
 <?php
-$conn = cubrid_connect ("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect ("localhost", 33000, "demodb", "dba");
 
-cubrid_execute($conn,"DROP TABLE if exists doc");
-cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");
-cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");
+cubrid_execute($conn,"DROP TABLE if exists doc");
+cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");
+cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");
 
-$lobs = cubrid_lob_get($conn, "SELECT doc_content FROM doc WHERE id=5");
-echo "Размер документа: ".cubrid_lob_size($lobs[0])." байтов";
-cubrid_lob_export($conn, $lobs[0], "doc_5.txt");
+$lobs = cubrid_lob_get($conn, "SELECT doc_content FROM doc WHERE id=5");
+echo "Размер документа: ".cubrid_lob_size($lobs[0])." байтов";
+cubrid_lob_export($conn, $lobs[0], "doc_5.txt");
 cubrid_lob_close($lobs);
 cubrid_disconnect($conn);
 ?>

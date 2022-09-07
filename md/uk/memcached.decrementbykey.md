@@ -15,7 +15,7 @@ Memcached::decrementByKey — Зменшує числове значення з�
 ### Опис
 
 ```methodsynopsis
-public Memcached::decrementByKey(    string $server_key,    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
+public Memcached::decrementByKey(    string $server_key,    string $key,    int $offset = 1,    int $initial_value = 0,    int $expiry = 0): int|false
 ```
 
 **Memcached::decrementByKey()** зменшує числове значення запису на величину задану в `offset`. Якщо значення запису не є числовим, буде повернено помилку. Якщо функція зменшить значення запису менше нуля, буде встановлено нульове значення . **Memcached::decrementByKey()** встановить запису значення параметра `initial_value` якщо переданого ключа немає.

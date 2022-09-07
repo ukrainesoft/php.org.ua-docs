@@ -15,7 +15,7 @@ imapheaderinfo — Прочитати заголовок повідомленн�
 ### Опис
 
 ```methodsynopsis
-imap_headerinfo(    IMAP\Connection $imap,    int $message_num,    int $from_length = 0,    int $subject_length = 0): stdClass|false
+imap_headerinfo(    IMAP\Connection $imap,    int $message_num,    int $from_length = 0,    int $subject_length = 0): stdClass|false
 ```
 
 Витягує інформацію про повідомлення з його заголовка.

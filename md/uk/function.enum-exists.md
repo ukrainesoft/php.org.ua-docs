@@ -40,9 +40,9 @@ enum_exists(string $enum, bool $autoload = true): bool
 
 ```php
 <?php
-// Убедитесь, что перечисление существует, прежде чем пытаться его использовать
-if (enum_exists(Suit::class)) {
-    $myclass = Suit::Hearts;
+// Убедитесь, что перечисление существует, прежде чем пытаться его использовать
+if (enum_exists(Suit::class)) {
+    $myclass = Suit::Hearts;
 }
 ?>
 ```

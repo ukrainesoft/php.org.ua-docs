@@ -28,4 +28,4 @@ final public MongoDB\BSON\Undefined::__toString(): string
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

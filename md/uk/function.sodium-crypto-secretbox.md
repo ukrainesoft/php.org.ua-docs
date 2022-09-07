@@ -50,16 +50,16 @@ sodium_crypto_secretbox(string $message, string $nonce, string $key): string
 
 ```php
 <?php
-// $key должен храниться в секрете.
-$key = sodium_crypto_secretbox_keygen();
-// Не используйте $nonce повторно с тем же ключом
-$nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);
-$plaintext = "message to be encrypted";
-$ciphertext = sodium_crypto_secretbox($plaintext, $nonce, $key);
+// $key должен храниться в секрете.
+$key = sodium_crypto_secretbox_keygen();
+// Не используйте $nonce повторно с тем же ключом
+$nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);
+$plaintext = "message to be encrypted";
+$ciphertext = sodium_crypto_secretbox($plaintext, $nonce, $key);
 
 var_dump(bin2hex($ciphertext));
-// Для расшифровки $ciphertext требуются те же имя и ключ.
-var_dump(sodium_crypto_secretbox_open($ciphertext, $nonce, $key));
+// Для расшифровки $ciphertext требуются те же имя и ключ.
+var_dump(sodium_crypto_secretbox_open($ciphertext, $nonce, $key));
 ?>
 ```
 

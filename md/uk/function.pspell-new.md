@@ -15,12 +15,12 @@ pspellnew — Завантажує новий словник
 ### Опис
 
 ```methodsynopsis
-pspell_new(    string $language,    string $spelling = "",    string $jargon = "",    string $encoding = "",    int $mode = 0): PSpell\Dictionary|false
+pspell_new(    string $language,    string $spelling = "",    string $jargon = "",    string $encoding = "",    int $mode = 0): PSpell\Dictionary|false
 ```
 
 **pspellnew()** відкриває новий словник та повертає екземпляр [PSpellDictionary](class.pspell-dictionary.md) для використання в інших функціях pspell.
 
-Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
+Більш детальну інформацію та приклади можна знайти у посібнику з pspell на сайті:[» http://aspell.net/](http://aspell.net/)
 
 ### Список параметрів
 
@@ -67,7 +67,7 @@ Mode - це бітова маска, сконструйована з перел�
 
 ```php
 <?php
-$pspell = pspell_new("en", "", "", "",
-                           (PSPELL_FAST|PSPELL_RUN_TOGETHER));
+$pspell = pspell_new("en", "", "", "",
+                           (PSPELL_FAST|PSPELL_RUN_TOGETHER));
 ?>
 ```

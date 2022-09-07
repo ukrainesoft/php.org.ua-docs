@@ -50,10 +50,10 @@ public Memcached::get(string $key, callable $cache_cb = ?, int $flags = ?): mixe
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$m->set('foo', 100);
+$m->set('foo', 100);
 var_dump($m->get('foo'));
 ?>
 ```
@@ -68,17 +68,17 @@ int(100)
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-if (!($ip = $m->get('ip_block'))) {
-    if ($m->getResultCode() == Memcached::RES_NOTFOUND) {
-        $ip = array();
-        $m->set('ip_block', $ip);
-    } else {
-        /* log error */
-        /* ...       */
-    }
+if (!($ip = $m->get('ip_block'))) {
+    if ($m->getResultCode() == Memcached::RES_NOTFOUND) {
+        $ip = array();
+        $m->set('ip_block', $ip);
+    } else {
+        /* log error */
+        /* ...       */
+    }
 }
 ?>
 ```

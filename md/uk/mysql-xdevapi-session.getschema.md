@@ -36,8 +36,8 @@ public mysql_xdevapi\Session::getSchema(string $schema_name): mysql_xdevapi\Sche
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$schema  = $session->getSchema("addressbook");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$schema  = $session->getSchema("addressbook");
 
 print_r($schema);
 ```

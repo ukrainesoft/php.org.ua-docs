@@ -15,7 +15,7 @@ title: мбeregireplace
 ### Опис
 
 ```methodsynopsis
-mb_eregi_replace(    string $pattern,    string $replacement,    string $string,    ?string $options = null): string|false|null
+mb_eregi_replace(    string $pattern,    string $replacement,    string $string,    ?string $options = null): string|false|null
 ```
 
 Сканує рядок `string` для пошуку збігів з `pattern`, потім замінює текст, що збігся на `replacement`

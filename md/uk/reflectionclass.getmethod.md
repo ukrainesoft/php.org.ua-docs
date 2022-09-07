@@ -40,8 +40,8 @@ public ReflectionClass::getMethod(string $name): ReflectionMethod
 
 ```php
 <?php
-$class = new ReflectionClass('ReflectionClass');
-$method = $class->getMethod('getMethod');
+$class = new ReflectionClass('ReflectionClass');
+$method = $class->getMethod('getMethod');
 var_dump($method);
 ?>
 ```

@@ -41,7 +41,7 @@ mysql_get_client_info(): string
 
 ```php
 <?php
-printf("Версия клиентской библиотеки MySQL: %s\n", mysql_get_client_info());
+printf("Версия клиентской библиотеки MySQL: %s\n", mysql_get_client_info());
 ?>
 ```
 

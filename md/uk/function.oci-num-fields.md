@@ -37,26 +37,26 @@ oci_num_fields(resource $statement): int
 ```php
 <?php
 
-// Создате таблицу:
-//   CREATE TABLE mytab (id NUMBER, quantity NUMBER);
+// Создате таблицу:
+//   CREATE TABLE mytab (id NUMBER, quantity NUMBER);
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-if (!$conn) {
-    $m = oci_error();
-    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, "SELECT * FROM mytab");
-oci_execute($stid, OCI_DESCRIBE_ONLY); // используйте OCI_DESCRIBE_ONLY, если не получаете данных
+$stid = oci_parse($conn, "SELECT * FROM mytab");
+oci_execute($stid, OCI_DESCRIBE_ONLY); // используйте OCI_DESCRIBE_ONLY, если не получаете данных
 
-$ncols = oci_num_fields($stid);
-for ($i = 1; $i <= $ncols; $i++) {
-    echo oci_field_name($stid, $i) . " " . oci_field_type($stid, $i) . "<br>\n";
+$ncols = oci_num_fields($stid);
+for ($i = 1; $i <= $ncols; $i++) {
+    echo oci_field_name($stid, $i) . " " . oci_field_type($stid, $i) . "<br>\n";
 }
 
-// Выведет:
-//    ID NUMBER
-//    QUANTITY NUMBER
+// Выведет:
+//    ID NUMBER
+//    QUANTITY NUMBER
 
 oci_free_statement($stid);
 oci_close($conn);

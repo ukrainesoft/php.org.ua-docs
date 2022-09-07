@@ -34,7 +34,7 @@ public ReflectionExtension::getINIEntries(): array
 
 ```php
 <?php
-$ext = new ReflectionExtension('mysql');
+$ext = new ReflectionExtension('mysql');
 
 print_r($ext->getINIEntries());
 ?>

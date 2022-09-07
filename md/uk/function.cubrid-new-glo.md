@@ -46,15 +46,15 @@ Oid створеного екземпляра у разі успішного в�
 
 ```php
 <?php
-$oid = cubrid_new_glo ($con, "glo", "input.jpg");
-if ($oid){
-   // тип "image" – "object"
-   $req = cubrid_execute ($con, "insert into person(image) values($oid)");
-   if ($req) {
-      echo "картинка была обновлена";
-      cubrid_close_request ($req);
-      cubrid_commit($con);
-   }
+$oid = cubrid_new_glo ($con, "glo", "input.jpg");
+if ($oid){
+   // тип "image" – "object"
+   $req = cubrid_execute ($con, "insert into person(image) values($oid)");
+   if ($req) {
+      echo "картинка была обновлена";
+      cubrid_close_request ($req);
+      cubrid_commit($con);
+   }
 }
 ?>
 ```

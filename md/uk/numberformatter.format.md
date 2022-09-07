@@ -54,10 +54,10 @@ numfmt_format(NumberFormatter $formatter, int|float $num, int $type = NumberForm
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-$data = numfmt_format($fmt, 1234567.891234567890000);
-if(intl_is_failure(numfmt_format($fmt))) {
-    report_error("Formatter error");
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+$data = numfmt_format($fmt, 1234567.891234567890000);
+if(intl_is_failure(numfmt_format($fmt))) {
+    report_error("Formatter error");
 }
 ?>
 ```
@@ -66,10 +66,10 @@ if(intl_is_failure(numfmt_format($fmt))) {
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
 $fmt->format(1234567.891234567890000);
-if(intl_is_failure($fmt->getErrorCode())) {
-    report_error("Formatter error");
+if(intl_is_failure($fmt->getErrorCode())) {
+    report_error("Formatter error");
 }
 ?>
 ```

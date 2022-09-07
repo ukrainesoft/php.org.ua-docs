@@ -49,13 +49,13 @@ public
 
 ```php
 <?php
-$zookeeper = new Zookeeper('locahost:2181');
-$path = '/path/to/node';
-$r = $zookeeper->delete($path);
-if ($r)
-  echo 'Успешное выполнение';
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/path/to/node';
+$r = $zookeeper->delete($path);
+if ($r)
+  echo 'Успешное выполнение';
 else
-  echo 'Ошибка';
+  echo 'Ошибка';
 ?>
 ```
 

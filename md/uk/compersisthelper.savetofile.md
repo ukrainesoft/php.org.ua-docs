@@ -44,9 +44,9 @@ public COMPersistHelper::SaveToFile(?string $filename, bool $remember = true): b
 
 ```php
 <?php
-$word = new COM('Word.Application');
-$doc = $word->Documents->Add();
-$ph = new COMPersistHelper($doc);
+$word = new COM('Word.Application');
+$doc = $word->Documents->Add();
+$ph = new COMPersistHelper($doc);
 $ph->SaveToFile('C:\\Users\\cmb\\Documents\\my.docx');
 $word->Quit();
 ?>

@@ -34,19 +34,19 @@ public ImagickPixel::getColorValueQuantum(int $color): int|float
 
 ```php
 <?php
-        $color = new \ImagickPixel('rgb(128, 5, 255)');
-        $colorRed = $color->getColorValueQuantum(\Imagick::COLOR_RED);
-        $colorGreen = $color->getColorValueQuantum(\Imagick::COLOR_GREEN);
-        $colorBlue = $color->getColorValueQuantum(\Imagick::COLOR_BLUE);
-        $colorAlpha = $color->getColorValueQuantum(\Imagick::COLOR_ALPHA);
+        $color = new \ImagickPixel('rgb(128, 5, 255)');
+        $colorRed = $color->getColorValueQuantum(\Imagick::COLOR_RED);
+        $colorGreen = $color->getColorValueQuantum(\Imagick::COLOR_GREEN);
+        $colorBlue = $color->getColorValueQuantum(\Imagick::COLOR_BLUE);
+        $colorAlpha = $color->getColorValueQuantum(\Imagick::COLOR_ALPHA);
 
-        printf(
-            "Красный: %s Зелёный: %s  Синий %s Альфа: %s",
-            $colorRed,
-            $colorGreen,
-            $colorBlue,
-            $colorAlpha
-        );
+        printf(
+            "Красный: %s Зелёный: %s  Синий %s Альфа: %s",
+            $colorRed,
+            $colorGreen,
+            $colorBlue,
+            $colorAlpha
+        );
 
 ?>
 ```

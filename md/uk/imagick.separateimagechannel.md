@@ -40,14 +40,14 @@ public Imagick::separateImageChannel(int $channel): bool
 
 ```php
 <?php
-function separateImageChannel($imagePath, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->separateimagechannel($channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function separateImageChannel($imagePath, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->separateimagechannel($channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
-separateImageChannel($imagePath, \Imagick::CHANNEL_GREEN);
+separateImageChannel($imagePath, \Imagick::CHANNEL_GREEN);
 
 ?>
 ```

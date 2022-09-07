@@ -15,7 +15,7 @@ traderadxr - Середній рейтинг індексу спрямовано
 ### Опис
 
 ```methodsynopsis
-trader_adxr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_adxr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

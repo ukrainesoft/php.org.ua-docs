@@ -12,15 +12,15 @@ title: Функції IMAP
 
 Цей документ не може вдаватися до деталей усіх питань, порушених представленими функціями. Додаткова інформація представлена ​​в документації клієнтської бібліотеки (docs/internal.txt) та в наступних документах RFC:
 
--   [» RFC2821](http://www.faqs.org/rfcs/rfc2821) `Simple Mail Transfer Protocol` (SMTP).
--   [» RFC2822](http://www.faqs.org/rfcs/rfc2822) `Standard for ARPA internet text messages`
--   [» RFC2060](http://www.faqs.org/rfcs/rfc2060) `Internet Message Access Protocol` (IMAP) Version 4rev1.
--   [» RFC1939](http://www.faqs.org/rfcs/rfc1939) `Post Office Protocol Version 3` (POP3).
--   [» RFC977](http://www.faqs.org/rfcs/rfc977) `Network News Transfer Protocol` (NNTP).
--   [» RFC2076](http://www.faqs.org/rfcs/rfc2076) `Common Internet Message Headers`
--   [» RFC2045](http://www.faqs.org/rfcs/rfc2045) [» RFC2046](http://www.faqs.org/rfcs/rfc2046) [» RFC2047](http://www.faqs.org/rfcs/rfc2047) [» RFC2048](http://www.faqs.org/rfcs/rfc2048) & [» RFC2049](http://www.faqs.org/rfcs/rfc2049) `Multipurpose Internet Mail Extensions` (MIME).
+-   [» RFC2821](http://www.faqs.org/rfcs/rfc2821) `Simple Mail Transfer Protocol` (SMTP).
+-   [» RFC2822](http://www.faqs.org/rfcs/rfc2822) `Standard for ARPA internet text messages`
+-   [» RFC2060](http://www.faqs.org/rfcs/rfc2060) `Internet Message Access Protocol` (IMAP) Version 4rev1.
+-   [» RFC1939](http://www.faqs.org/rfcs/rfc1939) `Post Office Protocol Version 3` (POP3).
+-   [» RFC977](http://www.faqs.org/rfcs/rfc977) `Network News Transfer Protocol` (NNTP).
+-   [» RFC2076](http://www.faqs.org/rfcs/rfc2076) `Common Internet Message Headers`
+-   [» RFC2045](http://www.faqs.org/rfcs/rfc2045) [» RFC2046](http://www.faqs.org/rfcs/rfc2046) [» RFC2047](http://www.faqs.org/rfcs/rfc2047) [» RFC2048](http://www.faqs.org/rfcs/rfc2048) & [» RFC2049](http://www.faqs.org/rfcs/rfc2049) `Multipurpose Internet Mail Extensions` (MIME).
 
-Детальний опис також доступний у книгах [`Programming Internet Email`](http://www.oreilly.com/catalog/progintemail/noframes.md) Девіда Вуда (David Wood) та [» Managing IMAP](http://oreilly.com/catalog/9780596000127/) авторів Діани Маллет (Dianna Mullet) та Кевіна Маллет (Kevin Mullet).
+Детальний опис також доступний у книгах [`Programming Internet Email`](http://www.oreilly.com/catalog/progintemail/noframes.md) Девіда Вуда (David Wood) та [» Managing IMAP](http://oreilly.com/catalog/9780596000127/) авторів Діани Маллет (Dianna Mullet) та Кевіна Маллет (Kevin Mullet).
 
 ## Зміст
 

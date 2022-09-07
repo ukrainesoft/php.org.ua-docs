@@ -39,7 +39,7 @@ title: Клас YarConcurrentClient
 
     /* Методы */
     
-   public static call(    string $uri,    string $method,    array $parameters = ?,    callable $callback = ?,    callable $error_callback = ?,    array $options = ?): int
+   public static call(    string $uri,    string $method,    array $parameters = ?,    callable $callback = ?,    callable $error_callback = ?,    array $options = ?): int
 public static loop(callable $callback = ?, callable $error_callback = ?): bool
 public static reset(): bool
 

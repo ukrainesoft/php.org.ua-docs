@@ -44,8 +44,8 @@ collator_get_strength(Collator $object): int
 
 ```php
 <?php
-$coll     = collator_create( 'en_US' );
-$strength = collator_get_strength( $coll );
+$coll     = collator_create( 'en_US' );
+$strength = collator_get_strength( $coll );
 ?>
 ```
 

@@ -66,8 +66,8 @@ title: Клас DatePeriod
 
     /* Методы */
     
-   public __construct(    DateTimeInterface $start,    DateInterval $interval,    int $recurrences,    int $options = 0)
-public __construct(    DateTimeInterface $start,    DateInterval $interval,    DateTimeInterface $end,    int $options = 0)
+   public __construct(    DateTimeInterface $start,    DateInterval $interval,    int $recurrences,    int $options = 0)
+public __construct(    DateTimeInterface $start,    DateInterval $interval,    DateTimeInterface $end,    int $options = 0)
 public __construct(string $isostr, int $options = 0)
 
     public getDateInterval(): DateInterval

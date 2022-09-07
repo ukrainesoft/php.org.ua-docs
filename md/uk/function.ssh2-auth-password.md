@@ -44,12 +44,12 @@ ssh2_auth_password(resource $session, string $username, string $password): bool
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
+$connection = ssh2_connect('shell.example.com', 22);
 
-if (ssh2_auth_password($connection, 'username', 'secret')) {
-  echo "Успешная аутентификация!\n";
-} else {
-  die('Неудачная аутентификация...');
+if (ssh2_auth_password($connection, 'username', 'secret')) {
+  echo "Успешная аутентификация!\n";
+} else {
+  die('Неудачная аутентификация...');
 }
 ?>
 ```

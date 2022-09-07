@@ -40,15 +40,15 @@ public Memcached::setMulti(array $items, int $expiration = ?): bool
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$items = array(
-    'key1' => 'value1',
-    'key2' => 'value2',
-    'key3' => 'value3'
+$items = array(
+    'key1' => 'value1',
+    'key2' => 'value2',
+    'key3' => 'value3'
 );
-$m->setMulti($items, time() + 300);
+$m->setMulti($items, time() + 300);
 ?>
 ```
 

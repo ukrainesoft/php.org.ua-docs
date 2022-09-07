@@ -18,7 +18,7 @@ iptcparse — Розбір двійкових даних IPTC на окремі 
 iptcparse(string $iptc_block): array|false
 ```
 
-Розбирає [» IPTC](http://www.iptc.org/) дані окремі теги.
+Розбирає [» IPTC](http://www.iptc.org/) дані окремі теги.
 
 ### Список параметрів
 
@@ -36,11 +36,11 @@ iptcparse(string $iptc_block): array|false
 
 ```php
 <?php
-$size = getimagesize('./test.jpg', $info);
+$size = getimagesize('./test.jpg', $info);
 if(isset($info['APP13']))
 {
-    $iptc = iptcparse($info['APP13']);
-    var_dump($iptc);
+    $iptc = iptcparse($info['APP13']);
+    var_dump($iptc);
 }
 ?>
 ```

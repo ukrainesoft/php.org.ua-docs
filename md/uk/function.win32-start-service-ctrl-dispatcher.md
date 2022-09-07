@@ -66,20 +66,20 @@ win32_start_service_ctrl_dispatcher(string $name, bool $gracefulMode = true): vo
 
 ```php
 <?php
-if (!win32_start_service_ctrl_dispatcher('dummyphp')) {
+if (!win32_start_service_ctrl_dispatcher('dummyphp')) {
 
-  die("Я, вероятно, не запущен в диспетчере служб");
+  die("Я, вероятно, не запущен в диспетчере служб");
 }
 
 win32_set_service_status(WIN32_SERVICE_START_PENDING);
 
-// Некий длительный процесс для обработки и запуска службы.
+// Некий длительный процесс для обработки и запуска службы.
 
 win32_set_service_status(WIN32_SERVICE_RUNNING);
 
-while (WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {
-  # здесь производятся какие-то действия, не занимающие больше чем 30 секунд
-  # перед соответствующим переходом в цикл.
+while (WIN32_SERVICE_CONTROL_STOP != win32_get_last_control_message()) {
+  # здесь производятся какие-то действия, не занимающие больше чем 30 секунд
+  # перед соответствующим переходом в цикл.
 }
 ?>
 ```

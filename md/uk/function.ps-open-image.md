@@ -15,7 +15,7 @@ title: псopenimage
 ### Опис
 
 ```methodsynopsis
-ps_open_image(    resource $psdoc,    string $type,    string $source,    string $data,    int $lenght,    int $width,    int $height,    int $components,    int $bpc,    string $params): int
+ps_open_image(    resource $psdoc,    string $type,    string $source,    string $data,    int $lenght,    int $width,    int $height,    int $components,    int $bpc,    string $params): int
 ```
 
 Зчитує зображення, яке вже є у пам'яті. Параметр `source` в даний час не використовується і передбачається, що це `memory`. Дані зображення є послідовністю пікселів, що починається у верхньому лівому куті і закінчується в правому нижньому кутку. Кожен піксель складається з компонентів кольору (`components`) і у кожного компонента є біти `bpc`

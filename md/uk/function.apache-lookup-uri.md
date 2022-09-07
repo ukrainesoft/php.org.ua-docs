@@ -62,11 +62,11 @@ apache_lookup_uri(string $filename): object|false
 
 ```php
 <?php
-$info = apache_lookup_uri('index.php?var=value');
+$info = apache_lookup_uri('index.php?var=value');
 print_r($info);
 
-if (file_exists($info->filename)) {
-    echo 'file exists!';
+if (file_exists($info->filename)) {
+    echo 'file exists!';
 }
 ?>
 ```

@@ -34,13 +34,13 @@ public PharFileInfo::getPharFlags(): int
 
 ```php
 <?php
-try {
-    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
-    $p['myfile.txt'] = 'hi';
-    $file = $p['myfile.txt'];
-    var_dump($file->getPharFlags());
-} catch (Exception $e) {
-    echo 'Не удалось создать/изменить my.phar: ', $e;
+try {
+    $p = new Phar('/path/to/my.phar', 0, 'my.phar');
+    $p['myfile.txt'] = 'hi';
+    $file = $p['myfile.txt'];
+    var_dump($file->getPharFlags());
+} catch (Exception $e) {
+    echo 'Не удалось создать/изменить my.phar: ', $e;
 }
 ?>
 ```

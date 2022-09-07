@@ -62,12 +62,12 @@ public valid(): bool
 
 ```php
 <?php
-// Набор объектов
-$s = new SplObjectStorage();
+// Набор объектов
+$s = new SplObjectStorage();
 
-$o1 = new StdClass;
-$o2 = new StdClass;
-$o3 = new StdClass;
+$o1 = new StdClass;
+$o2 = new StdClass;
+$o3 = new StdClass;
 
 $s->attach($o1);
 $s->attach($o2);
@@ -99,18 +99,18 @@ bool(false)
 
 ```php
 <?php
-// Как отображение объектов к данным
-$s = new SplObjectStorage();
+// Как отображение объектов к данным
+$s = new SplObjectStorage();
 
-$o1 = new StdClass;
-$o2 = new StdClass;
-$o3 = new StdClass;
+$o1 = new StdClass;
+$o2 = new StdClass;
+$o3 = new StdClass;
 
-$s[$o1] = "данные для объекта 1";
-$s[$o2] = array(1,2,3);
+$s[$o1] = "данные для объекта 1";
+$s[$o2] = array(1,2,3);
 
-if (isset($s[$o2])) {
-    var_dump($s[$o2]);
+if (isset($s[$o2])) {
+    var_dump($s[$o2]);
 }
 ?>
 ```

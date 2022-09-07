@@ -41,16 +41,16 @@ chown(string $filename, string|int $user): bool
 ```php
 <?php
 
-// Используемое имя файла и имя пользователя
-$file_name= "foo.php";
-$path = "/home/sites/php.net/public_html/sandbox/" . $file_name ;
-$user_name = "root";
+// Используемое имя файла и имя пользователя
+$file_name= "foo.php";
+$path = "/home/sites/php.net/public_html/sandbox/" . $file_name ;
+$user_name = "root";
 
-// Устанавливаем пользователя
-chown($path, $user_name);
+// Устанавливаем пользователя
+chown($path, $user_name);
 
-// Проверяем результат
-$stat = stat($path);
+// Проверяем результат
+$stat = stat($path);
 print_r(posix_getpwuid($stat['uid']));
 
 ?>

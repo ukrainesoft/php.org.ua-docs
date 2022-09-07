@@ -39,14 +39,14 @@ public LuaSandbox::setMemoryLimit(int $limit): void
 ```php
 <?php
 
-// Создание нового объекта LuaSandbox
-$sandbox = new LuaSandbox();
+// Создание нового объекта LuaSandbox
+$sandbox = new LuaSandbox();
 
-// Установка предела памяти
-$sandbox->setMemoryLimit( 50 * 1024 * 1024 );
+// Установка предела памяти
+$sandbox->setMemoryLimit( 50 * 1024 * 1024 );
 
-// Запуск кода Lua
-$sandbox->loadString( 'local x = "x"; while true do x = x .. x; end' )->call();
+// Запуск кода Lua
+$sandbox->loadString( 'local x = "x"; while true do x = x .. x; end' )->call();
 
 ?>
 ```

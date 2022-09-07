@@ -15,7 +15,7 @@ fanntrainвінfile — Навчання на повному наборі дан
 ### Опис
 
 ```methodsynopsis
-fann_train_on_file(    resource $ann,    string $filename,    int $max_epochs,    int $epochs_between_reports,    float $desired_error): bool
+fann_train_on_file(    resource $ann,    string $filename,    int $max_epochs,    int $epochs_between_reports,    float $desired_error): bool
 ```
 
 Навчання на повному наборі даних, прочитаному із файлу, на часовому інтервалі.

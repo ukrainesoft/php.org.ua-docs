@@ -15,7 +15,7 @@ tradercdlhikkakemod — Модифікована модель свічка "Кр
 ### Опис
 
 ```methodsynopsis
-trader_cdlhikkakemod(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhikkakemod(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

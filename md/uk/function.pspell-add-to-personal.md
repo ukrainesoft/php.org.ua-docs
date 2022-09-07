@@ -46,11 +46,11 @@ pspell_add_to_personal(PSpell\Dictionary $dictionary, string $word): bool
 
 ```php
 <?php
-$pspell_config = pspell_config_create("en");
-pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
-$pspell = pspell_new_config($pspell_config);
+$pspell_config = pspell_config_create("en");
+pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");
+$pspell = pspell_new_config($pspell_config);
 
-pspell_add_to_personal($pspell, "Vlad");
+pspell_add_to_personal($pspell, "Vlad");
 pspell_save_wordlist($pspell);
 ?>
 ```

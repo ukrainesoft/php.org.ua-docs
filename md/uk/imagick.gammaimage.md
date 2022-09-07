@@ -44,11 +44,11 @@ public Imagick::gammaImage(float $gamma, int $channel = Imagick::CHANNEL_DEFAULT
 
 ```php
 <?php
-function gammaImage($imagePath, $gamma, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->gammaImage($gamma, $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function gammaImage($imagePath, $gamma, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->gammaImage($gamma, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

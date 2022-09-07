@@ -15,7 +15,7 @@ Gmagick::frameimage — Додає змодельований тривимірн
 ### Опис
 
 ```methodsynopsis
-public Gmagick::frameimage(    GmagickPixel $color,    int $width,    int $height,    int $inner_bevel,    int $outer_bevel): Gmagick
+public Gmagick::frameimage(    GmagickPixel $color,    int $width,    int $height,    int $inner_bevel,    int $outer_bevel): Gmagick
 ```
 
 Додає змодельовану тривимірну рамку навколо зображення. Ширина та висота визначають ширину межі вертикальної та горизонтальної сторін рамки. Внутрішній та зовнішній скоси вказують ширину внутрішньої та зовнішньої тіней рамки.

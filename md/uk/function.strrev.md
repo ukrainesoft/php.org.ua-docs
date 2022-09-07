@@ -36,6 +36,6 @@ strrev(string $string): string
 
 ```php
 <?php
-echo strrev("Hello world!"); // выводит "!dlrow olleH"
+echo strrev("Hello world!"); // выводит "!dlrow olleH"
 ?>
 ```

@@ -40,28 +40,28 @@ public mysql_xdevapi\CollectionModify::replace(string $collection_field, string 
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-$result = $collection
-  ->add(
-  '{"name":   "Bernie",
-    "traits": ["Friend", "Brother", "Human"]}')
-  ->execute();
+$result = $collection
+  ->add(
+  '{"name":   "Bernie",
+    "traits": ["Friend", "Brother", "Human"]}')
+  ->execute();
 
 $collection
-  ->modify("name = :name")
-  ->bind(['name' => 'Bernie'])
-  ->replace("name", "Bern")
-  ->execute();
+  ->modify("name = :name")
+  ->bind(['name' => 'Bernie'])
+  ->replace("name", "Bern")
+  ->execute();
 
-$result = $collection
-  ->find()
-  ->execute();
+$result = $collection
+  ->find()
+  ->execute();
 
 print_r($result->fetchAll());
 ?>

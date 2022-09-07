@@ -48,9 +48,9 @@ pcntl_sigprocmask(int $mode, array $signals, array &$old_signals = null): bool
 
 ```php
 <?php
-pcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));
-$oldset = array();
-pcntl_sigprocmask(SIG_UNBLOCK, array(SIGHUP), $oldset);
+pcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));
+$oldset = array();
+pcntl_sigprocmask(SIG_UNBLOCK, array(SIGHUP), $oldset);
 ?>
 ```
 

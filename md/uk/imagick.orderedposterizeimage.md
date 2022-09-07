@@ -48,18 +48,18 @@ public Imagick::orderedPosterizeImage(string $threshold_map, int $channel = Imag
 
 ```php
 <?php
-function orderedPosterizeImage($imagePath, $orderedPosterizeType) {
-    $imagick = new \Imagick(realpath($imagePath));
+function orderedPosterizeImage($imagePath, $orderedPosterizeType) {
+    $imagick = new \Imagick(realpath($imagePath));
 
-    $imagick->orderedPosterizeImage($orderedPosterizeType);
-    $imagick->setImageFormat('png');
+    $imagick->orderedPosterizeImage($orderedPosterizeType);
+    $imagick->setImageFormat('png');
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
-//orderedPosterizeImage($imagePath, 'o4x4,3,3');
-//orderedPosterizeImage($imagePath, 'o8x8,6,6');
-orderedPosterizeImage($imagePath, 'h8x8a');
+//orderedPosterizeImage($imagePath, 'o4x4,3,3');
+//orderedPosterizeImage($imagePath, 'o8x8,6,6');
+orderedPosterizeImage($imagePath, 'h8x8a');
 ?>
 ```

@@ -15,7 +15,7 @@ SwooleClient::connect — Підключається до віддаленого
 ### Опис
 
 ```methodsynopsis
-public Swoole\Client::connect(    string $host,    int $port = ?,    int $timeout = ?,    int $flag = ?): bool
+public Swoole\Client::connect(    string $host,    int $port = ?,    int $timeout = ?,    int $flag = ?): bool
 ```
 
 ### Список параметрів

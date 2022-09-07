@@ -46,22 +46,22 @@ ftp_delete(FTP\Connection $ftp, string $filename): bool
 
 ```php
 <?php
-$file = 'public_html/old.txt';
+$file = 'public_html/old.txt';
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// вход с именем пользователя и паролем
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// вход с именем пользователя и паролем
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// попытка удалить файл
-if (ftp_delete($ftp, $file)) {
- echo "Файл $file удалён\n";
-} else {
- echo "Не удалось удалить $file\n";
+// попытка удалить файл
+if (ftp_delete($ftp, $file)) {
+ echo "Файл $file удалён\n";
+} else {
+ echo "Не удалось удалить $file\n";
 }
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 ?>
 ```

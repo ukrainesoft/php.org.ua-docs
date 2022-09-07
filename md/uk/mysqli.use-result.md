@@ -52,35 +52,35 @@ mysqli_use_result(mysqli $mysql): mysqli_result|false
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query  = "SELECT CURRENT_USER();";
-$query .= "SELECT Name FROM City ORDER BY ID LIMIT 20, 5";
+$query  = "SELECT CURRENT_USER();";
+$query .= "SELECT Name FROM City ORDER BY ID LIMIT 20, 5";
 
-/* выполняем мультизапрос */
-if ($mysqli->multi_query($query)) {
-    do {
-        /* получаем первый результирующий набор */
-        if ($result = $mysqli->use_result()) {
-            while ($row = $result->fetch_row()) {
-                printf("%s\n", $row[0]);
-            }
-            $result->close();
-        }
-        /* печатаем разделитель */
-        if ($mysqli->more_results()) {
-            printf("-----------------\n");
-        }
-    } while ($mysqli->next_result());
+/* выполняем мультизапрос */
+if ($mysqli->multi_query($query)) {
+    do {
+        /* получаем первый результирующий набор */
+        if ($result = $mysqli->use_result()) {
+            while ($row = $result->fetch_row()) {
+                printf("%s\n", $row[0]);
+            }
+            $result->close();
+        }
+        /* печатаем разделитель */
+        if ($mysqli->more_results()) {
+            printf("-----------------\n");
+        }
+    } while ($mysqli->next_result());
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -89,35 +89,35 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка соединения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка соединения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query  = "SELECT CURRENT_USER();";
-$query .= "SELECT Name FROM City ORDER BY ID LIMIT 20, 5";
+$query  = "SELECT CURRENT_USER();";
+$query .= "SELECT Name FROM City ORDER BY ID LIMIT 20, 5";
 
-/* выполняем мультизапрос */
-if (mysqli_multi_query($link, $query)) {
-    do {
-        /* получаем первый результирующий набор */
-        if ($result = mysqli_use_result($link)) {
-            while ($row = mysqli_fetch_row($result)) {
-                printf("%s\n", $row[0]);
-            }
-            mysqli_free_result($result);
-        }
-        /* печатаем разделитель */
-        if (mysqli_more_results($link)) {
-            printf("-----------------\n");
-        }
-    } while (mysqli_next_result($link));
+/* выполняем мультизапрос */
+if (mysqli_multi_query($link, $query)) {
+    do {
+        /* получаем первый результирующий набор */
+        if ($result = mysqli_use_result($link)) {
+            while ($row = mysqli_fetch_row($result)) {
+                printf("%s\n", $row[0]);
+            }
+            mysqli_free_result($result);
+        }
+        /* печатаем разделитель */
+        if (mysqli_more_results($link)) {
+            printf("-----------------\n");
+        }
+    } while (mysqli_next_result($link));
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

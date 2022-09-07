@@ -38,15 +38,15 @@ public **SplTempFileObject::construct**(int `$maxMemory`
 
 ```php
 <?php
-$temp = new SplTempFileObject();
-$temp->fwrite("Первая строка\n");
-$temp->fwrite("А это вторая.\n");
-echo "Во временный файл записано " . $temp->ftell() . " байт.\n\n";
+$temp = new SplTempFileObject();
+$temp->fwrite("Первая строка\n");
+$temp->fwrite("А это вторая.\n");
+echo "Во временный файл записано " . $temp->ftell() . " байт.\n\n";
 
-// Перемотка в начало и чтение того, что было записано
+// Перемотка в начало и чтение того, что было записано
 $temp->rewind();
-foreach ($temp as $line) {
-    echo $line;
+foreach ($temp as $line) {
+    echo $line;
 }
 ?>
 ```

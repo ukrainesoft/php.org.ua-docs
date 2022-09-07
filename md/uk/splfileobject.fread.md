@@ -36,10 +36,10 @@ public SplFileObject::fread(int $length): string|false
 
 ```php
 <?php
-// Чтение контента файла в строку
-$filename = "/usr/local/something.txt";
-$file = new SplFileObject($filename, "r");
-$contents = $file->fread($file->getSize());
+// Чтение контента файла в строку
+$filename = "/usr/local/something.txt";
+$file = new SplFileObject($filename, "r");
+$contents = $file->fread($file->getSize());
 ?>
 ```
 

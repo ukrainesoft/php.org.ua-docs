@@ -58,10 +58,10 @@ fscanf(resource $stream, string $format, mixed &...$vars): array|int|false|null
 
 ```php
 <?php
-$handle = fopen("users.txt", "r");
-while ($userinfo = fscanf($handle, "%s\t%s\t%s\n")) {
-    list ($name, $profession, $countrycode) = $userinfo;
-    //... совершаем какие-либо действия над значениями
+$handle = fopen("users.txt", "r");
+while ($userinfo = fscanf($handle, "%s\t%s\t%s\n")) {
+    list ($name, $profession, $countrycode) = $userinfo;
+    //... совершаем какие-либо действия над значениями
 }
 fclose($handle);
 ?>

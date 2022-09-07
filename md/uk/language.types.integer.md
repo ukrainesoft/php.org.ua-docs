@@ -28,12 +28,12 @@ int - це число з множини ℤ = {..., -2, -1, 0, 1, 2, ...}.
 
 ```php
 <?php
-$a = 1234; // десятичное число
-$a = 0123; // восьмеричное число (эквивалентно 83 в десятичной системе)
-$a = 0o123; // восьмеричное число (начиная с PHP 8.1.0)
-$a = 0x1A; // шестнадцатеричное число (эквивалентно 26 в десятичной системе)
-$a = 0b11111111; // двоичное число (эквивалентно 255 в десятичной системе)
-$a = 1_234_567; // десятичное число (с PHP 7.4.0)
+$a = 1234; // десятичное число
+$a = 0123; // восьмеричное число (эквивалентно 83 в десятичной системе)
+$a = 0o123; // восьмеричное число (начиная с PHP 8.1.0)
+$a = 0x1A; // шестнадцатеричное число (эквивалентно 26 в десятичной системе)
+$a = 0b11111111; // двоичное число (эквивалентно 255 в десятичной системе)
+$a = 1_234_567; // десятичное число (с PHP 7.4.0)
 ?>
 ```
 
@@ -65,15 +65,15 @@ $a = 1_234_567; // десятичное число (с PHP 7.4.0)
 
 ```php
 <?php
-$large_number = 2147483647;
-var_dump($large_number);                     // int(2147483647)
+$large_number = 2147483647;
+var_dump($large_number);                     // int(2147483647)
 
-$large_number = 2147483648;
-var_dump($large_number);                     // float(2147483648)
+$large_number = 2147483648;
+var_dump($large_number);                     // float(2147483648)
 
-$million = 1000000;
-$large_number =  50000 * $million;
-var_dump($large_number);                     // float(50000000000)
+$million = 1000000;
+$large_number =  50000 * $million;
+var_dump($large_number);                     // float(50000000000)
 ?>
 ```
 
@@ -81,15 +81,15 @@ var_dump($large_number);                     // float(5000
 
 ```php
 <?php
-$large_number = 9223372036854775807;
-var_dump($large_number);                     // int(9223372036854775807)
+$large_number = 9223372036854775807;
+var_dump($large_number);                     // int(9223372036854775807)
 
-$large_number = 9223372036854775808;
-var_dump($large_number);                     // float(9.2233720368548E+18)
+$large_number = 9223372036854775808;
+var_dump($large_number);                     // float(9.2233720368548E+18)
 
-$million = 1000000;
-$large_number =  50000000000000 * $million;
-var_dump($large_number);                     // float(5.0E+19)
+$million = 1000000;
+$large_number =  50000000000000 * $million;
+var_dump($large_number);                     // float(5.0E+19)
 ?>
 ```
 
@@ -97,9 +97,9 @@ var_dump($large_number);                     // float(5.0E
 
 ```php
 <?php
-var_dump(25/7);         // float(3.5714285714286)
-var_dump((int) (25/7)); // int(3)
-var_dump(round(25/7));  // float(4)
+var_dump(25/7);         // float(3.5714285714286)
+var_dump((int) (25/7)); // int(3)
+var_dump(round(25/7));  // float(4)
 ?>
 ```
 
@@ -122,16 +122,16 @@ var_dump(round(25/7));  // float(4)
 ```php
 <?php
 
-function foo($value): int {
-  return $value;
+function foo($value): int {
+  return $value;
 }
 
-var_dump(foo(8.1)); // "Deprecated: Implicit conversion from float 8.1 to int loses precision" начиная с PHP 8.1.0
-var_dump(foo(8.1)); // 8 до PHP 8.1.0
-var_dump(foo(8.0)); // 8 в обоих случаях
+var_dump(foo(8.1)); // "Deprecated: Implicit conversion from float 8.1 to int loses precision" начиная с PHP 8.1.0
+var_dump(foo(8.1)); // 8 до PHP 8.1.0
+var_dump(foo(8.0)); // 8 в обоих случаях
 
-var_dump((int)8.1); // 8 в обоих случаях
-var_dump(intval(8.1)); // 8 в обоих случаях
+var_dump((int)8.1); // 8 в обоих случаях
+var_dump(intval(8.1)); // 8 в обоих случаях
 ?>
 ```
 
@@ -147,7 +147,7 @@ var_dump(intval(8.1)); // 8 в обоих случаях
 
 ```php
 <?php
-echo (int) ( (0.1+0.7) * 10 ); // выводит 7!
+echo (int) ( (0.1+0.7) * 10 ); // выводит 7!
 ?>
 ```
 

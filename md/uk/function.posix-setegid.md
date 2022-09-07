@@ -38,10 +38,10 @@ posix_setegid(int $group_id): bool
 
 ```php
 <?php
-echo 'My real group id is '.posix_getgid(); //20
+echo 'My real group id is '.posix_getgid(); //20
 posix_setegid(40);
-echo 'My real group id is '.posix_getgid(); //20
-echo 'My effective group id is '.posix_getegid(); //40
+echo 'My real group id is '.posix_getgid(); //20
+echo 'My effective group id is '.posix_getegid(); //40
 ?>
 ```
 

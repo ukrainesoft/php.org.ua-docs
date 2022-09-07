@@ -42,9 +42,9 @@ openssl_spki_export_challenge(string $spki): string|false
 
 ```php
 <?php
-$pkey = openssl_pkey_new('secret password');
-$spkac = openssl_spki_new($pkey, 'challenge string');
-$challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $spkac));
+$pkey = openssl_pkey_new('secret password');
+$spkac = openssl_spki_new($pkey, 'challenge string');
+$challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $spkac));
 ?>
 ```
 
@@ -54,9 +54,9 @@ $challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $spk
 
 ```php
 <?php
-$challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $_POST['spkac']));
+$challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $_POST['spkac']));
 ?>
-<keygen name="spkac" challenge="challenge string" keytype="RSA">
+<keygen name="spkac" challenge="challenge string" keytype="RSA">
 ```
 
 ### Дивіться також

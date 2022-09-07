@@ -19,9 +19,9 @@ title: SQL-ін'єкції
 ```php
 <?php
 
-$offset = $argv[0]; // внимание, нет проверки вводимых данных!
-$query  = "SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET $offset;";
-$result = pg_query($conn, $query);
+$offset = $argv[0]; // внимание, нет проверки вводимых данных!
+$query  = "SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET $offset;";
+$result = pg_query($conn, $query);
 
 ?>
 ```
@@ -43,9 +43,9 @@ $result = pg_query($conn, $query);
 ```php
 <?php
 
-$query  = "SELECT id, name, inserted, size FROM products
-           WHERE size = '$size'";
-$result = odbc_exec($conn, $query);
+$query  = "SELECT id, name, inserted, size FROM products
+           WHERE size = '$size'";
+$result = odbc_exec($conn, $query);
 
 ?>
 ```
@@ -62,7 +62,7 @@ $result = odbc_exec($conn, $query);
 
 ```php
 <?php
-$query = "UPDATE usertable SET pwd='$pwd' WHERE uid='$uid';";
+$query = "UPDATE usertable SET pwd='$pwd' WHERE uid='$uid';";
 ?>
 ```
 
@@ -71,11 +71,11 @@ $query = "UPDATE usertable SET pwd='$pwd' WHERE uid='$uid';";
 ```php
 <?php
 
-// $uid: ' or uid like '%admin%
-$query = "UPDATE usertable SET pwd='...' WHERE uid='' or uid like '%admin%';";
+// $uid: ' or uid like '%admin%
+$query = "UPDATE usertable SET pwd='...' WHERE uid='' or uid like '%admin%';";
 
-// $pwd: hehehe', trusted=100, admin='yes
-$query = "UPDATE usertable SET pwd='hehehe', trusted=100, admin='yes' WHERE
+// $pwd: hehehe', trusted=100, admin='yes
+$query = "UPDATE usertable SET pwd='hehehe', trusted=100, admin='yes' WHERE
 ...;";
 
 ?>
@@ -88,8 +88,8 @@ $query = "UPDATE usertable SET pwd='hehehe', trusted=100, admin='yes' WH
 ```php
 <?php
 
-$query  = "SELECT * FROM products WHERE id LIKE '%$prod%'";
-$result = mssql_query($query);
+$query  = "SELECT * FROM products WHERE id LIKE '%$prod%'";
+$result = mssql_query($query);
 
 ?>
 ```
@@ -99,10 +99,10 @@ $result = mssql_query($query);
 ```php
 <?php
 
-$query  = "SELECT * FROM products
-           WHERE id LIKE '%a%'
-           exec master..xp_cmdshell 'net user test testpass /ADD' --%'";
-$result = mssql_query($query);
+$query  = "SELECT * FROM products
+           WHERE id LIKE '%a%'
+           exec master..xp_cmdshell 'net user test testpass /ADD' --%'";
+$result = mssql_query($query);
 
 ?>
 ```
@@ -115,7 +115,7 @@ MSSQL сервер виконує SQL-команди в пакетному ре�
 
 ![Робочий приклад проблем, викликаних SQL-ін'єкцією](images/fa7c5b5f326e3c4a6cc9db19e7edbaf0-xkcd-bobby-tables.png)
 
-Авторство зображення належить [» xkcd](http://xkcd.com/327)
+Авторство зображення належить [» xkcd](http://xkcd.com/327)
 
 ### Способи захисту
 
@@ -136,12 +136,12 @@ MSSQL сервер виконує SQL-команди в пакетному ре�
     ```php
     <?php
     
-    settype($offset, 'integer');
-    $query = "SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET $offset;";
+    settype($offset, 'integer');
+    $query = "SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET $offset;";
     
-    // обратите внимание на формат %d, использование %s было бы бессмысленно
-    $query = sprintf("SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET %d;",
-                     $offset);
+    // обратите внимание на формат %d, использование %s было бы бессмысленно
+    $query = sprintf("SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET %d;",
+                     $offset);
     
     ?>
     ```

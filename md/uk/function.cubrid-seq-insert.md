@@ -15,7 +15,7 @@ cubridseqinsert — Вставляє елемент у стовпець типу
 ### Опис
 
 ```methodsynopsis
-cubrid_seq_insert(    resource $conn_identifier,    string $oid,    string $attr_name,    int $index,    string $seq_element): bool
+cubrid_seq_insert(    resource $conn_identifier,    string $oid,    string $attr_name,    int $index,    string $seq_element): bool
 ```
 
 Функція **cubridcolinsert()** використовується для вставлення елемента в атрибут типу послідовності у запрошеному місці.
@@ -52,23 +52,23 @@ OID екземпляра, з яким ви хочете працювати.
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
 
-@cubrid_execute($conn, "DROP TABLE foo");
-cubrid_execute($conn, "CREATE TABLE foo(a int AUTO_INCREMENT, b set(int), c sequence(int), d char(10))");
-cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3}, {11,22,33,333}, 'a')");
+@cubrid_execute($conn, "DROP TABLE foo");
+cubrid_execute($conn, "CREATE TABLE foo(a int AUTO_INCREMENT, b set(int), c sequence(int), d char(10))");
+cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3}, {11,22,33,333}, 'a')");
 
-$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
+$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
 
-cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
-$oid = cubrid_current_oid($req);
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
+$oid = cubrid_current_oid($req);
 
-$attr = cubrid_col_get($conn, $oid, "c");
+$attr = cubrid_col_get($conn, $oid, "c");
 var_dump($attr);
 
-cubrid_seq_insert($conn, $oid, "c", 5, "44");
+cubrid_seq_insert($conn, $oid, "c", 5, "44");
 
-$attr = cubrid_col_get($conn, $oid, "c");
+$attr = cubrid_col_get($conn, $oid, "c");
 var_dump($attr);
 
 cubrid_close_request($req);

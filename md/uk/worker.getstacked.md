@@ -34,13 +34,13 @@ public Worker::getStacked(): int
 
 ```php
 <?php
-$worker = new Worker();
+$worker = new Worker();
 
-for ($i = 0; $i < 5; ++$i) {
-    $worker->stack(new class extends Threaded {});
+for ($i = 0; $i < 5; ++$i) {
+    $worker->stack(new class extends Threaded {});
 }
 
-echo "There are {$worker->getStacked()} stacked tasks\n";
+echo "There are {$worker->getStacked()} stacked tasks\n";
 ```
 
 Результат виконання цього прикладу:

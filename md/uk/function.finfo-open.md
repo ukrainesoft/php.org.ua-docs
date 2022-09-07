@@ -57,11 +57,11 @@ public [finfo::construct](finfo.construct.md)(int `$flags` **`FILEINFO_NONE`**, 
 
 ```php
 <?php
-$finfo = new finfo(FILEINFO_MIME, "/usr/share/misc/magic"); // возвращает mime-тип а-ля mimetype расширения
+$finfo = new finfo(FILEINFO_MIME, "/usr/share/misc/magic"); // возвращает mime-тип а-ля mimetype расширения
 
-/* получить mime-type для указанного файла */
-$filename = "/usr/local/something.txt";
-echo $finfo->file($filename);
+/* получить mime-type для указанного файла */
+$filename = "/usr/local/something.txt";
+echo $finfo->file($filename);
 
 ?>
 ```
@@ -70,18 +70,18 @@ echo $finfo->file($filename);
 
 ```php
 <?php
-$finfo = finfo_open(FILEINFO_MIME, "/usr/share/misc/magic"); // возвращает mime-тип а-ля mimetype расширения
+$finfo = finfo_open(FILEINFO_MIME, "/usr/share/misc/magic"); // возвращает mime-тип а-ля mimetype расширения
 
-if (!$finfo) {
-    echo "Открытие базы данных fileinfo не удалось";
-    exit();
+if (!$finfo) {
+    echo "Открытие базы данных fileinfo не удалось";
+    exit();
 }
 
-/* получить mime-type для указанного файла */
-$filename = "/usr/local/something.txt";
-echo finfo_file($finfo, $filename);
+/* получить mime-type для указанного файла */
+$filename = "/usr/local/something.txt";
+echo finfo_file($finfo, $filename);
 
-/* закрыть соединение */
+/* закрыть соединение */
 finfo_close($finfo);
 ?>
 ```

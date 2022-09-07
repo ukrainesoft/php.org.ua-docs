@@ -89,14 +89,14 @@ public ZipArchive::open(string $filename, int $flags = 0): bool|int
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip');
-if ($res === TRUE) {
-    echo 'готово';
-    $zip->extractTo('test');
-    $zip->close();
-} else {
-    echo 'ошибка с кодом:' . $res;
+$zip = new ZipArchive;
+$res = $zip->open('test.zip');
+if ($res === TRUE) {
+    echo 'готово';
+    $zip->extractTo('test');
+    $zip->close();
+} else {
+    echo 'ошибка с кодом:' . $res;
 }
 ?>
 ```
@@ -105,15 +105,15 @@ if ($res === TRUE) {
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip', ZipArchive::CREATE);
-if ($res === TRUE) {
-    $zip->addFromString('test.txt', 'содержимое файла');
-    $zip->addFile('data.txt', 'entryname.txt');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+$res = $zip->open('test.zip', ZipArchive::CREATE);
+if ($res === TRUE) {
+    $zip->addFromString('test.txt', 'содержимое файла');
+    $zip->addFile('data.txt', 'entryname.txt');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```
@@ -122,15 +122,15 @@ if ($res === TRUE) {
 
 ```php
 <?php
-$name = tempnam(sys_get_temp_dir(), "FOO");
-$zip = new ZipArchive;
-$res = $zip->open($name, ZipArchive::OVERWRITE); /* усечение, поскольку пустой файл недопустим */
-if ($res === TRUE) {
-    $zip->addFile('data.txt', 'entryname.txt');
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$name = tempnam(sys_get_temp_dir(), "FOO");
+$zip = new ZipArchive;
+$res = $zip->open($name, ZipArchive::OVERWRITE); /* усечение, поскольку пустой файл недопустим */
+if ($res === TRUE) {
+    $zip->addFile('data.txt', 'entryname.txt');
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

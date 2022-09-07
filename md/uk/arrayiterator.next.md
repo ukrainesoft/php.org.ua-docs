@@ -34,17 +34,17 @@ public ArrayIterator::next(): void
 
 ```php
 <?php
-$arrayobject = new ArrayObject();
+$arrayobject = new ArrayObject();
 
-$arrayobject[] = 'zero';
-$arrayobject[] = 'one';
+$arrayobject[] = 'zero';
+$arrayobject[] = 'one';
 
-$iterator = $arrayobject->getIterator();
+$iterator = $arrayobject->getIterator();
 
-while($iterator->valid()) {
-    echo $iterator->key() . ' => ' . $iterator->current() . "\n";
+while($iterator->valid()) {
+    echo $iterator->key() . ' => ' . $iterator->current() . "\n";
 
-    $iterator->next();
+    $iterator->next();
 }
 ?>
 ```

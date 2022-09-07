@@ -37,16 +37,16 @@ final public MongoDB\Driver\WriteResult::getDeletedCount(): ?int
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager;
+$manager = new MongoDB\Driver\Manager;
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
-$bulk->update(['x' => 1], ['$set' => ['y' => 3]]);
-$bulk->update(['x' => 2], ['$set' => ['y' => 1]], ['upsert' => true]);
-$bulk->update(['x' => 3], ['$set' => ['y' => 2]], ['upsert' => true]);
-$bulk->delete(['x' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+$bulk->update(['x' => 1], ['$set' => ['y' => 3]]);
+$bulk->update(['x' => 2], ['$set' => ['y' => 1]], ['upsert' => true]);
+$bulk->update(['x' => 3], ['$set' => ['y' => 2]], ['upsert' => true]);
+$bulk->delete(['x' => 1]);
 
-$result = $manager->executeBulkWrite('db.collection', $bulk);
+$result = $manager->executeBulkWrite('db.collection', $bulk);
 
 var_dump($result->getDeletedCount());
 

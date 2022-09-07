@@ -41,9 +41,9 @@ sodium_crypto_core_ristretto255_from_hash(string $s): string
 ```php
 <?php
 
-$hashes = sodium_hex2bin(
-    '5d1be09e3d0c82fc538112490e35701979d99e06ca3e2b5b54bffe8b4dc772c1' .
-    '4d98b696a1bbfb5ca32c436cc61c16563790306c79eaca7705668b47dffe5bb6'
+$hashes = sodium_hex2bin(
+    '5d1be09e3d0c82fc538112490e35701979d99e06ca3e2b5b54bffe8b4dc772c1' .
+    '4d98b696a1bbfb5ca32c436cc61c16563790306c79eaca7705668b47dffe5bb6'
 );
 var_dump(sodium_bin2hex(sodium_crypto_core_ristretto255_from_hash($hashes)));
 ?>

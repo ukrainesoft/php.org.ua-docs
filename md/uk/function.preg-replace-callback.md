@@ -15,7 +15,7 @@ pregreplacecallback — Виконує пошук за регулярним ви
 ### Опис
 
 ```methodsynopsis
-preg_replace_callback(    string|array $pattern,    callable $callback,    string|array $subject,    int $limit = -1,    int &$count = null,    int $flags = 0): string|array|null
+preg_replace_callback(    string|array $pattern,    callable $callback,    string|array $subject,    int $limit = -1,    int &$count = null,    int $flags = 0): string|array|null
 ```
 
 Поведінка цієї функції багато в чому нагадує [pregreplace()](function.preg-replace.md), за винятком того, що замість параметра `replacement` необхідно вказувати `callback`функцію.
@@ -40,19 +40,19 @@ handler(array $matches): string
 
 ```php
 <?php
-/* фильтр, подобный тому, что используется в системах Unix
- * для преобразования заглавных букв в начале параграфа в строчные */
-$fp = fopen("php://stdin", "r") or die("не удалось прочесть stdin");
-while (!feof($fp)) {
-    $line = fgets($fp);
-    $line = preg_replace_callback(
-        '|<p>\s*\w|',
-        function ($matches) {
-            return strtolower($matches[0]);
-        },
-        $line
-    );
-    echo $line;
+/* фильтр, подобный тому, что используется в системах Unix
+ * для преобразования заглавных букв в начале параграфа в строчные */
+$fp = fopen("php://stdin", "r") or die("не удалось прочесть stdin");
+while (!feof($fp)) {
+    $line = fgets($fp);
+    $line = preg_replace_callback(
+        '|<p>\s*\w|',
+        function ($matches) {
+            return strtolower($matches[0]);
+        },
+        $line
+    );
+    echo $line;
 }
 fclose($fp);
 ?>
@@ -96,22 +96,22 @@ fclose($fp);
 
 ```php
 <?php
-// Этот текст был использован в 2002 году
-// мы хотим обновить даты к 2003 году
-$text = "День смеха был 01/04/2002\n";
-$text.= "Последнее Рождество было 24/12/2001\n";
-// callback-функция
-function next_year($matches)
+// Этот текст был использован в 2002 году
+// мы хотим обновить даты к 2003 году
+$text = "День смеха был 01/04/2002\n";
+$text.= "Последнее Рождество было 24/12/2001\n";
+// callback-функция
+function next_year($matches)
 {
-  // как обычно: $matches[0] -  полное вхождение шаблона
-  // $matches[1] - вхождение первой подмаски,
-  // заключённой в круглые скобки и так далее...
-  return $matches[1].($matches[2]+1);
+  // как обычно: $matches[0] -  полное вхождение шаблона
+  // $matches[1] - вхождение первой подмаски,
+  // заключённой в круглые скобки и так далее...
+  return $matches[1].($matches[2]+1);
 }
-echo preg_replace_callback(
-            "|(\d{2}/\d{2}/)(\d{4})|",
-            "next_year",
-            $text);
+echo preg_replace_callback(
+            "|(\d{2}/\d{2}/)(\d{4})|",
+            "next_year",
+            $text);
 
 ?>
 ```
@@ -127,23 +127,23 @@ echo preg_replace_callback(
 
 ```php
 <?php
-$input = "верх [indent] глубже [indent] ещё глубже [/indent] глубже [/indent] верх";
+$input = "верх [indent] глубже [indent] ещё глубже [/indent] глубже [/indent] верх";
 
-function parseTagsRecursive($input)
+function parseTagsRecursive($input)
 {
 
-    $regex = '#\[indent]((?:[^[]|\[(?!/?indent])|(?R))+)\[/indent]#';
+    $regex = '#\[indent]((?:[^[]|\[(?!/?indent])|(?R))+)\[/indent]#';
 
-    if (is_array($input)) {
-        $input = '<div style="margin-left: 10px">'.$input[1].'</div>';
-    }
+    if (is_array($input)) {
+        $input = '<div style="margin-left: 10px">'.$input[1].'</div>';
+    }
 
-    return preg_replace_callback($regex, 'parseTagsRecursive', $input);
+    return preg_replace_callback($regex, 'parseTagsRecursive', $input);
 }
 
-$output = parseTagsRecursive($input);
+$output = parseTagsRecursive($input);
 
-echo $output;
+echo $output;
 ?>
 ```
 

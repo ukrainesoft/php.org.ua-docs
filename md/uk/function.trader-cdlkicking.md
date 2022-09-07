@@ -15,7 +15,7 @@ tradercdlkicking - Свічкова модель "Високий стрибок"
 ### Опис
 
 ```methodsynopsis
-trader_cdlkicking(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlkicking(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

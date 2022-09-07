@@ -41,12 +41,12 @@ ftell(resource $stream): int|false
 ```php
 <?php
 
-// открываем файл и читаем немного данных
-$fp = fopen("/etc/passwd", "r");
-$data = fgets($fp, 12);
+// открываем файл и читаем немного данных
+$fp = fopen("/etc/passwd", "r");
+$data = fgets($fp, 12);
 
-// где же мы ?
-echo ftell($fp); // 11
+// где же мы ?
+echo ftell($fp); // 11
 
 fclose($fp);
 

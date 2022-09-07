@@ -17,9 +17,9 @@ title: 'Функціонал, оголошений застарілим у PHP 7
 
 var_dump(NONEXISTENT);
 
-/* Вывод:
-Warning: Use of undefined constant NONEXISTENT - assumed 'NONEXISTENT' (this will throw an Error in a future version of PHP) in %s on line %d
-string(11) "NONEXISTENT"
+/* Вывод:
+Warning: Use of undefined constant NONEXISTENT - assumed 'NONEXISTENT' (this will throw an Error in a future version of PHP) in %s on line %d
+string(11) "NONEXISTENT"
 */
 ```
 

@@ -46,9 +46,9 @@ collator_get_error_message(Collator $object): string|false
 
 ```php
 <?php
-$coll = collator_create( 'lt' );
-if( collator_compare( $coll, 'y', 'k' ) === false ) {
-    echo collator_get_error_message( $coll );
+$coll = collator_create( 'lt' );
+if( collator_compare( $coll, 'y', 'k' ) === false ) {
+    echo collator_get_error_message( $coll );
 }
 ?>
 ```

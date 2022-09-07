@@ -12,7 +12,7 @@ title: Клас dotnet
 
 ## Вступ
 
-Клас dotnet дозволяє створювати об'єкти зі збірок .Net, викликати їх методи та використовувати їх властивості, якщо клас, методи та властивості [» видимі для COM](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.comvisibleattribute)
+Клас dotnet дозволяє створювати об'єкти зі збірок .Net, викликати їх методи та використовувати їх властивості, якщо клас, методи та властивості [» видимі для COM](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.comvisibleattribute)
 
 Ні створення екземплярів статичних класів, ні виклик статичних методів не підтримуються. Створення екземплярів універсальних класів, таких як `System.Collections.Generic.List`, також не підтримується.
 
@@ -64,10 +64,10 @@ title: Клас dotnet
 
 ```php
 <?php
-$stack = new dotnet("mscorlib", "System.Collections.Stack");
+$stack = new dotnet("mscorlib", "System.Collections.Stack");
 $stack->Push(".Net");
-$stack->Push("Привет ");
-echo $stack->Pop() . $stack->Pop();
+$stack->Push("Привет ");
+echo $stack->Pop() . $stack->Pop();
 ?>
 ```
 

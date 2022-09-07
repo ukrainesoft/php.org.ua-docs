@@ -15,7 +15,7 @@ traderultosc - Остаточний, граничний осцилятор
 ### Опис
 
 ```methodsynopsis
-trader_ultosc(    array $high,    array $low,    array $close,    int $timePeriod1 = ?,    int $timePeriod2 = ?,    int $timePeriod3 = ?): array
+trader_ultosc(    array $high,    array $low,    array $close,    int $timePeriod1 = ?,    int $timePeriod2 = ?,    int $timePeriod3 = ?): array
 ```
 
 ### Список параметрів

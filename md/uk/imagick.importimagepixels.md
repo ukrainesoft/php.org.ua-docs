@@ -15,7 +15,7 @@ Imagick::importImagePixels — Імпортує пікселі зображен�
 ### Опис
 
 ```methodsynopsis
-public Imagick::importImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $storage,    array $pixels): bool
+public Imagick::importImagePixels(    int $x,    int $y,    int $width,    int $height,    string $map,    int $storage,    array $pixels): bool
 ```
 
 Імпортує пікселі з масиву до зображення . `map` зазвичай "RGB". Цей метод накладає такі обмеження на параметри: кількість пікселів у масиві має відповідати `width` з `height` кількість пікселів. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.4.5 або старшим.
@@ -65,32 +65,32 @@ public Imagick::importImagePixels(    int $x,    int $y,    int $wid
 ```php
 <?php
 
-/* Создание Масива пикселей. 2000 пикселей на цветную полосу */
-$count = 2000 * 3;
+/* Создание Масива пикселей. 2000 пикселей на цветную полосу */
+$count = 2000 * 3;
 
-$pixels =
-   array_merge(array_pad(array(), $count, 0),
-               array_pad(array(), $count, 255),
-               array_pad(array(), $count, 0),
-               array_pad(array(), $count, 255),
-               array_pad(array(), $count, 0));
+$pixels =
+   array_merge(array_pad(array(), $count, 0),
+               array_pad(array(), $count, 255),
+               array_pad(array(), $count, 0),
+               array_pad(array(), $count, 255),
+               array_pad(array(), $count, 0));
 
-/* Ширина и высота. Площадь - это количество пикселей, разделённое на три.
-Три происходит от "RGB", три значения на пиксель. */
-$width = $height = pow((count($pixels) / 3), 0.5);
+/* Ширина и высота. Площадь - это количество пикселей, разделённое на три.
+Три происходит от "RGB", три значения на пиксель. */
+$width = $height = pow((count($pixels) / 3), 0.5);
 
-/* Создание пустого изображения */
-$im = new Imagick();
-$im->newImage($width, $height, 'gray');
+/* Создание пустого изображения */
+$im = new Imagick();
+$im->newImage($width, $height, 'gray');
 
-/* Импорт пикселей в изображение.
-   width * height * strlen("RGB") должно соответствовать count($pixels) */
-$im->importImagePixels(0, 0, $width, $height, "RGB", Imagick::PIXEL_CHAR, $pixels);
+/* Импорт пикселей в изображение.
+   width * height * strlen("RGB") должно соответствовать count($pixels) */
+$im->importImagePixels(0, 0, $width, $height, "RGB", Imagick::PIXEL_CHAR, $pixels);
 
-/* Вывод изображения */
+/* Вывод изображения */
 $im->setImageFormat('jpg');
-header("Content-Type: image/jpg");
-echo $im;
+header("Content-Type: image/jpg");
+echo $im;
 
 ?>
 ```

@@ -38,33 +38,33 @@ db2_next_result(resource $stmt): resource
 
 ```php
 <?php
-$conn = db2_connect($database, $user, $password);
+$conn = db2_connect($database, $user, $password);
 
-if ($conn) {
-  $stmt = db2_exec($conn, 'CALL multiResults()');
+if ($conn) {
+  $stmt = db2_exec($conn, 'CALL multiResults()');
 
-  print "Получение первого набора результатов\n";
-  while ($row = db2_fetch_array($stmt)) {
-    var_dump($row);
-  }
+  print "Получение первого набора результатов\n";
+  while ($row = db2_fetch_array($stmt)) {
+    var_dump($row);
+  }
 
-  print "\nПолучение второго набора результатов\n";
-  $res = db2_next_result($stmt);
-  if ($res) {
-    while ($row = db2_fetch_array($res)) {
-      var_dump($row);
-    }
-  }
+  print "\nПолучение второго набора результатов\n";
+  $res = db2_next_result($stmt);
+  if ($res) {
+    while ($row = db2_fetch_array($res)) {
+      var_dump($row);
+    }
+  }
 
-  print "\nПолучение третьего набора результатов\n";
-  $res2 = db2_next_result($stmt);
-  if ($res2) {
-    while ($row = db2_fetch_array($res2)) {
-      var_dump($row);
-    }
-  }
+  print "\nПолучение третьего набора результатов\n";
+  $res2 = db2_next_result($stmt);
+  if ($res2) {
+    while ($row = db2_fetch_array($res2)) {
+      var_dump($row);
+    }
+  }
 
-  db2_close($conn);
+  db2_close($conn);
 }
 ?>
 ```

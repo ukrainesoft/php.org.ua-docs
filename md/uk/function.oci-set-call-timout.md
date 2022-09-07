@@ -51,8 +51,8 @@ oci_set_call_timeout(resource $connection, int $timeout): bool
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-oci_set_call_timeout($conn, 5000);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+oci_set_call_timeout($conn, 5000);
 
 ?>
 ```

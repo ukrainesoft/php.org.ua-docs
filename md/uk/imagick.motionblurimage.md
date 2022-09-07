@@ -15,7 +15,7 @@ Imagick::motionBlurImage — Імітує розмиття в русі
 ### Опис
 
 ```methodsynopsis
-public Imagick::motionBlurImage(    float $radius,    float $sigma,    float $angle,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::motionBlurImage(    float $radius,    float $sigma,    float $angle,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Імітує розмиття у русі. Згортає зображення за допомогою гаусівського оператора заданого радіусу та стандартного відхилення (сигма). Для отримання розумних результатів радіус має бути більшим за сигму. Використовуйте радіус 0, і MotionBlurImage() вибере відповідний радіус самостійно. Кут задає кут розмиття руху.
@@ -48,11 +48,11 @@ public Imagick::motionBlurImage(    float $radius,    float $sigma,  �
 
 ```php
 <?php
-function motionBlurImage($imagePath, $radius, $sigma, $angle, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->motionBlurImage($radius, $sigma, $angle, $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function motionBlurImage($imagePath, $radius, $sigma, $angle, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->motionBlurImage($radius, $sigma, $angle, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 ?>
 ```

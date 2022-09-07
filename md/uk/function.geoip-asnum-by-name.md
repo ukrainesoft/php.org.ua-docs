@@ -38,10 +38,10 @@ geoip_asnum_by_name(string $hostname): string
 
 ```php
 <?php
-$asn = geoip_asnum_by_name('www.example.com');
+$asn = geoip_asnum_by_name('www.example.com');
 
-if ($asn) {
-    echo 'ASN равен: '. $asn;
+if ($asn) {
+    echo 'ASN равен: '. $asn;
 }
 ?>
 ```

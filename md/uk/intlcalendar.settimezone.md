@@ -57,21 +57,21 @@ intlcal_set_time_zone(IntlCalendar $calendar, IntlTimeZone|DateTimeZone|string|n
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'es_ES');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'es_ES');
 
-$cal = new IntlGregorianCalendar(2013, 5 /* May */, 1, 12, 0, 0);
+$cal = new IntlGregorianCalendar(2013, 5 /* May */, 1, 12, 0, 0);
 
-echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
-echo "(instant {$cal->getTime()})\n";
+echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
+echo "(instant {$cal->getTime()})\n";
 
 $cal->setTimeZone(IntlTimeZone::getGMT());
-echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
-echo "(instant {$cal->getTime()})\n";
+echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
+echo "(instant {$cal->getTime()})\n";
 
 $cal->setTimeZone('GMT+03:33');
-echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
-echo "(instant {$cal->getTime()})\n";
+echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
+echo "(instant {$cal->getTime()})\n";
 ```
 
 Результат виконання цього прикладу:

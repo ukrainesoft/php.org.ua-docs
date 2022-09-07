@@ -15,7 +15,7 @@ tradercdlmorningdojistar — Ранкова зірка дожі
 ### Опис
 
 ```methodsynopsis
-trader_cdlmorningdojistar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
+trader_cdlmorningdojistar(    array $open,    array $high,    array $low,    array $close,    float $penetration = ?): array
 ```
 
 ### Список параметрів

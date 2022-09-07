@@ -34,11 +34,11 @@ public Imagick::transverseImage(): bool
 
 ```php
 <?php
-function transverseImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->transverseImage();
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function transverseImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->transverseImage();
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

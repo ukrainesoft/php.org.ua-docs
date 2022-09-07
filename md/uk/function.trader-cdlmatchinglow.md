@@ -15,7 +15,7 @@ tradercdlmatchinglow - Свічкова модель "Збіг за нижнім
 ### Опис
 
 ```methodsynopsis
-trader_cdlmatchinglow(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlmatchinglow(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

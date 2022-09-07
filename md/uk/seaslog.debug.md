@@ -49,13 +49,13 @@ logger, укладений у третій параметр, буде викор
 ```php
 <?php
 
-var_dump(SeasLog::debug('log message'));
+var_dump(SeasLog::debug('log message'));
 
-//с content
-var_dump(SeasLog::debug('log message from {NAME}',array('NAME' => 'neeke')));
+//с content
+var_dump(SeasLog::debug('log message from {NAME}',array('NAME' => 'neeke')));
 
-//с временным logger
-var_dump(SeasLog::debug('log message from {NAME}',array('NAME' => 'neeke'),'tmp_logger'));
+//с временным logger
+var_dump(SeasLog::debug('log message from {NAME}',array('NAME' => 'neeke'),'tmp_logger'));
 
 var_dump(SeasLog::getBuffer());
 

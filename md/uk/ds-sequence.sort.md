@@ -44,7 +44,7 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);
+$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);
 $sequence->sort();
 
 print_r($sequence);
@@ -68,10 +68,10 @@ Ds\Vector Object
 
 ```php
 <?php
-$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);
+$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);
 
-$sequence->sort(function($a, $b) {
-    return $b <=> $a;
+$sequence->sort(function($a, $b) {
+    return $b <=> $a;
 });
 
 print_r($sequence);

@@ -39,7 +39,7 @@ linkinfo(string $path): int|false
 ```php
 <?php
 
-echo linkinfo('/vmlinuz'); // 835
+echo linkinfo('/vmlinuz'); // 835
 
 ?>
 ```

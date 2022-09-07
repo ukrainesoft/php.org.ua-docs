@@ -39,13 +39,13 @@ sodium_crypto_core_ristretto255_random(): string
 ```php
 <?php
 
-$foo = sodium_crypto_core_ristretto255_random();
-$bar = sodium_crypto_core_ristretto255_random();
+$foo = sodium_crypto_core_ristretto255_random();
+$bar = sodium_crypto_core_ristretto255_random();
 
-$value = sodium_crypto_core_ristretto255_add($foo, $bar);
-$value = sodium_crypto_core_ristretto255_sub($value, $bar);
+$value = sodium_crypto_core_ristretto255_add($foo, $bar);
+$value = sodium_crypto_core_ristretto255_sub($value, $bar);
 
-var_dump(hash_equals($foo, $value));
+var_dump(hash_equals($foo, $value));
 ?>
 ```
 

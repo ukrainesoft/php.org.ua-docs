@@ -47,19 +47,19 @@ ftp_rmdir(FTP\Connection $ftp, string $directory): bool
 ```php
 <?php
 
-$dir = 'www/';
+$dir = 'www/';
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// попытка удаления директории $dir
-if (ftp_rmdir($ftp, $dir)) {
-    echo "Директория $dir удалена\n";
-} else {
-    echo "Не удалось удалить директорию $dir\n";
+// попытка удаления директории $dir
+if (ftp_rmdir($ftp, $dir)) {
+    echo "Директория $dir удалена\n";
+} else {
+    echo "Не удалось удалить директорию $dir\n";
 }
 
 ftp_close($ftp);

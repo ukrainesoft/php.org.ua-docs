@@ -56,10 +56,10 @@ ctype
 
 ```php
 <?php
-if (!extension_loaded('gd')) {
-    if (!dl('gd.so')) {
-        exit;
-    }
+if (!extension_loaded('gd')) {
+    if (!dl('gd.so')) {
+        exit;
+    }
 }
 ?>
 ```

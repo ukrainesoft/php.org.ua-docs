@@ -34,9 +34,9 @@ public GlobIterator::count(): int
 
 ```php
 <?php
-$iterator = new GlobIterator('*.xml');
+$iterator = new GlobIterator('*.xml');
 
-printf("Найдено элементов: %d \r\n", $iterator->count());
+printf("Найдено элементов: %d \r\n", $iterator->count());
 ?>
 ```
 

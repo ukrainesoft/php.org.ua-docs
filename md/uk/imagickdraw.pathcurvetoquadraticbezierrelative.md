@@ -15,7 +15,7 @@ ImagickDraw::pathCurveToQuadraticBezierRelative — Малює квадрати�
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pathCurveToQuadraticBezierRelative(    float $x1,    float $y1,    float $x,    float $y): bool
+public ImagickDraw::pathCurveToQuadraticBezierRelative(    float $x1,    float $y1,    float $x,    float $y): bool
 ```
 
 **Увага**

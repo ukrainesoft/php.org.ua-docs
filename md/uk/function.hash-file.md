@@ -15,7 +15,7 @@ hashfile — Генерація хеш-значення, використову�
 ### Опис
 
 ```methodsynopsis
-hash_file(    string $algo,    string $filename,    bool $binary = false,    array $options = []): string|false
+hash_file(    string $algo,    string $filename,    bool $binary = false,    array $options = []): string|false
 ```
 
 ### Список параметрів
@@ -52,10 +52,10 @@ hash_file(    string $algo,    string $filename,    bool $binary = f
 
 ```php
 <?php
-/* Создаём файл, чтобы вычислить его хеш */
-file_put_contents('example.txt', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
+/* Создаём файл, чтобы вычислить его хеш */
+file_put_contents('example.txt', 'Наглый коричневый лисёнок прыгает вокруг ленивой собаки.');
 
-echo hash_file('md5', 'example.txt');
+echo hash_file('md5', 'example.txt');
 ?>
 ```
 

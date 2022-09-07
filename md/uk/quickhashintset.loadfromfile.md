@@ -44,17 +44,17 @@ public static QuickHashIntSet::loadFromFile(string $filename, int $size = ?, int
 
 ```php
 <?php
-$file = dirname( __FILE__ ) . "/simple.set";
-$set = QuickHashIntSet::loadFromFile(
-    $file,
-    QuickHashIntSet::DO_NOT_USE_ZEND_ALLOC
+$file = dirname( __FILE__ ) . "/simple.set";
+$set = QuickHashIntSet::loadFromFile(
+    $file,
+    QuickHashIntSet::DO_NOT_USE_ZEND_ALLOC
 );
-foreach( range( 0, 0x0f ) as $key )
+foreach( range( 0, 0x0f ) as $key )
 {
-    printf( "Ключ %3d (%2x) %s\n",
-        $key, $key,
-        $set->exists( $key ) ? 'установлен' : 'не установлен'
-    );
+    printf( "Ключ %3d (%2x) %s\n",
+        $key, $key,
+        $set->exists( $key ) ? 'установлен' : 'не установлен'
+    );
 }
 ?>
 ```

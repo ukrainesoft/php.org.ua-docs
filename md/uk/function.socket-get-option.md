@@ -66,12 +66,12 @@ socket_get_option(Socket $socket, int $level, int $option): array|int|false
 
 ```php
 <?php
-$socket = socket_create_listen(1223);
+$socket = socket_create_listen(1223);
 
-$linger = array('l_linger' => 1, 'l_onoff' => 1);
-socket_set_option($socket, SOL_SOCKET, SO_LINGER, $linger);
+$linger = array('l_linger' => 1, 'l_onoff' => 1);
+socket_set_option($socket, SOL_SOCKET, SO_LINGER, $linger);
 
-var_dump(socket_get_option($socket, SOL_SOCKET, SO_REUSEADDR));
+var_dump(socket_get_option($socket, SOL_SOCKET, SO_REUSEADDR));
 ?>
 ```
 

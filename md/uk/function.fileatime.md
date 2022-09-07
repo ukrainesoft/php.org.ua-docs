@@ -41,11 +41,11 @@ fileatime(string $filename): int|false
 ```php
 <?php
 
-// Пример вывода: В последний раз обращение к файлу somefile.txt было произведено: December 29 2002 22:16:23.
+// Пример вывода: В последний раз обращение к файлу somefile.txt было произведено: December 29 2002 22:16:23.
 
-$filename = 'somefile.txt';
-if (file_exists($filename)) {
-    echo "В последний раз обращение к файлу $filename было произведено: " . date("F d Y H:i:s.", fileatime($filename));
+$filename = 'somefile.txt';
+if (file_exists($filename)) {
+    echo "В последний раз обращение к файлу $filename было произведено: " . date("F d Y H:i:s.", fileatime($filename));
 }
 
 ?>

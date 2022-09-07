@@ -38,7 +38,7 @@ abstract public Ds\Sequence::pop(): mixed
 
 ```php
 <?php
-$sequence = new \Ds\Vector([1, 2, 3]);
+$sequence = new \Ds\Vector([1, 2, 3]);
 
 var_dump($sequence->pop());
 var_dump($sequence->pop());

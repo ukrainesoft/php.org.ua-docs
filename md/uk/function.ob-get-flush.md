@@ -38,12 +38,12 @@ ob_get_flush(): string|false
 
 ```php
 <?php
-//Используется output_buffering=On
+//Используется output_buffering=On
 print_r(ob_list_handlers());
 
-//сохранить буфер в файл
-$buffer = ob_get_flush();
-file_put_contents('buffer.txt', $buffer);
+//сохранить буфер в файл
+$buffer = ob_get_flush();
+file_put_contents('buffer.txt', $buffer);
 
 print_r(ob_list_handlers());
 ?>

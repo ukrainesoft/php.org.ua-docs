@@ -15,7 +15,7 @@ pregfilter — Здійснює пошук та заміну за регуляр
 ### Опис
 
 ```methodsynopsis
-preg_filter(    string|array $pattern,    string|array $replacement,    string|array $subject,    int $limit = -1,    int &$count = null): string|array|null
+preg_filter(    string|array $pattern,    string|array $replacement,    string|array $subject,    int $limit = -1,    int &$count = null): string|array|null
 ```
 
 Функція **pregfilter()** ідентична функції [pregreplace()](function.preg-replace.md) крім того, що повертає ті значення (можливо, перетворені), у яких знайдено збіг. Докладніше про роботу функції читайте у документації до [pregreplace()](function.preg-replace.md)
@@ -40,15 +40,15 @@ preg_filter(    string|array $pattern,    string|array $replacement,  
 
 ```php
 <?php
-$subject = array('1', 'а', '2', 'б', '3', 'А', 'Б', '4');
-$pattern = array('/\d/', '/[а-я]/', '/[1а]/');
-$replace = array('А:$0', 'Б:$0', 'В:$0');
+$subject = array('1', 'а', '2', 'б', '3', 'А', 'Б', '4');
+$pattern = array('/\d/', '/[а-я]/', '/[1а]/');
+$replace = array('А:$0', 'Б:$0', 'В:$0');
 
-echo "preg_filter возвращает\n";
-print_r(preg_filter($pattern, $replace, $subject));
+echo "preg_filter возвращает\n";
+print_r(preg_filter($pattern, $replace, $subject));
 
-echo "preg_replace возвращает\n";
-print_r(preg_replace($pattern, $replace, $subject));
+echo "preg_replace возвращает\n";
+print_r(preg_replace($pattern, $replace, $subject));
 ?>
 ```
 

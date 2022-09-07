@@ -15,7 +15,7 @@ ldapsaslbind — Прив'язати до LDAP директорії за доп�
 ### Опис
 
 ```methodsynopsis
-ldap_sasl_bind(    LDAP\Connection $ldap,    ?string $dn = null,    ?string $password = null,    ?string $mech = null,    ?string $realm = null,    ?string $authc_id = null,    ?string $authz_id = null,    ?string $props = null): bool
+ldap_sasl_bind(    LDAP\Connection $ldap,    ?string $dn = null,    ?string $password = null,    ?string $mech = null,    ?string $realm = null,    ?string $authc_id = null,    ?string $authz_id = null,    ?string $props = null): bool
 ```
 
 **Увага**

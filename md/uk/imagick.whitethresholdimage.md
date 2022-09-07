@@ -40,11 +40,11 @@ public Imagick::whiteThresholdImage(mixed $threshold): bool
 
 ```php
 <?php
-function whiteThresholdImage($imagePath, $color) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->whiteThresholdImage($color);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function whiteThresholdImage($imagePath, $color) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->whiteThresholdImage($color);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

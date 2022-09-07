@@ -51,12 +51,12 @@ public ZipArchive::getFromName(string $name, int $len = 0, int $flags = 0): stri
 
 ```php
 <?php
-$zip = new ZipArchive;
-if ($zip->open('test1.zip') === TRUE) {
-    echo $zip->getFromName('testfromfile.php');
-    $zip->close();
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+if ($zip->open('test1.zip') === TRUE) {
+    echo $zip->getFromName('testfromfile.php');
+    $zip->close();
+} else {
+    echo 'ошибка';
 }
 ?>
 ```
@@ -65,11 +65,11 @@ if ($zip->open('test1.zip') === TRUE) {
 
 ```php
 <?php
-$z = new ZipArchive();
-if ($z->open(dirname(__FILE__) . '/test_im.zip')) {
-    $im_string = $z->getFromName("pear_item.gif");
-    $im = imagecreatefromstring($im_string);
-    imagepng($im, 'b.png');
+$z = new ZipArchive();
+if ($z->open(dirname(__FILE__) . '/test_im.zip')) {
+    $im_string = $z->getFromName("pear_item.gif");
+    $im = imagecreatefromstring($im_string);
+    imagepng($im, 'b.png');
 }
 ?>
 ```

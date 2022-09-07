@@ -34,10 +34,10 @@ publicQuickHashIntSet::getSize(): int
 
 ```php
 <?php
-$set = new QuickHashIntSet( 8 );
-var_dump( $set->add( 2 ) );
-var_dump( $set->add( 3 ) );
-var_dump( $set->getSize() );
+$set = new QuickHashIntSet( 8 );
+var_dump( $set->add( 2 ) );
+var_dump( $set->add( 3 ) );
+var_dump( $set->getSize() );
 ?>
 ```
 

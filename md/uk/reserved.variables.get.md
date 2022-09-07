@@ -22,7 +22,7 @@ GET — Змінні HTTP GET
 
 ```php
 <?php
-echo 'Привет, ' . htmlspecialchars($_GET["name"]) . '!';
+echo 'Привет, ' . htmlspecialchars($_GET["name"]) . '!';
 ?>
 ```
 

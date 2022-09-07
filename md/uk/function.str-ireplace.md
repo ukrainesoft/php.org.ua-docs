@@ -15,7 +15,7 @@ strireplace - Реєстронезалежний варіант функції [
 ### Опис
 
 ```methodsynopsis
-str_ireplace(    array|string $search,    array|string $replace,    string|array $subject,    int &$count = null): string|array
+str_ireplace(    array|string $search,    array|string $replace,    string|array $subject,    int &$count = null): string|array
 ```
 
 Ця функція повертає рядок або масив, в якому всі входження `search` в `subject` замінені на `replace` (без урахування регістру символів). Якщо не потрібні складні правила пошуку/заміни, використання цієї функції краще [pregreplace()](function.preg-replace.md) з модифікатором `i`
@@ -54,8 +54,8 @@ str_ireplace(    array|string $search,    array|string $replace,    
 
 ```php
 <?php
-$bodytag = str_ireplace("%body%", "black", "<body text=%BODY%>");
-echo $bodytag; // <body text=black>
+$bodytag = str_ireplace("%body%", "black", "<body text=%BODY%>");
+echo $bodytag; // <body text=black>
 ?>
 ```
 

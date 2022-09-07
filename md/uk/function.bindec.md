@@ -50,10 +50,10 @@ bindec(string $binary_string): int|float
 
 ```php
 <?php
-echo bindec('110011') . "\n";
-echo bindec('000110011') . "\n";
+echo bindec('110011') . "\n";
+echo bindec('000110011') . "\n";
 
-echo bindec('111');
+echo bindec('111');
 ?>
 ```
 
@@ -70,42 +70,42 @@ echo bindec('111');
 ```php
 <?php
 /*
- * Смысл этого примера можно найти в выводе скрипта,
- * а не в коде PHP.
- */
+ * Смысл этого примера можно найти в выводе скрипта,
+ * а не в коде PHP.
+ */
 
-$magnitude_lower = pow(2, (PHP_INT_SIZE * 8) - 2);
-p($magnitude_lower - 1);
-p($magnitude_lower, 'Видите резкую смену значений? Смотрите в следующий раз...');
+$magnitude_lower = pow(2, (PHP_INT_SIZE * 8) - 2);
+p($magnitude_lower - 1);
+p($magnitude_lower, 'Видите резкую смену значений? Смотрите в следующий раз...');
 
-p(PHP_INT_MAX, 'PHP_INT_MAX');
-p(~PHP_INT_MAX, 'интерпретируется как увеличенное на единицу значение PHP_INT_MAX');
+p(PHP_INT_MAX, 'PHP_INT_MAX');
+p(~PHP_INT_MAX, 'интерпретируется как увеличенное на единицу значение PHP_INT_MAX');
 
-if (PHP_INT_SIZE == 4) {
-    $note = 'интерпретируется как самое большое целое без знака (unsigned integer)';
-} else {
-    $note = 'интерпретируется как самое большое целое без знака (unsigned integer)
-              (18446744073709551615), но искажается из-за недостаточной точности float';
+if (PHP_INT_SIZE == 4) {
+    $note = 'интерпретируется как самое большое целое без знака (unsigned integer)';
+} else {
+    $note = 'интерпретируется как самое большое целое без знака (unsigned integer)
+              (18446744073709551615), но искажается из-за недостаточной точности float';
 }
-p(-1, $note);
+p(-1, $note);
 
 
-function p($input, $note = '') {
-    echo "input:        $input\n";
+function p($input, $note = '') {
+    echo "input:        $input\n";
 
-    $format = '%0' . (PHP_INT_SIZE * 8) . 'b';
-    $bin = sprintf($format, $input);
-    echo "binary:       $bin\n";
+    $format = '%0' . (PHP_INT_SIZE * 8) . 'b';
+    $bin = sprintf($format, $input);
+    echo "binary:       $bin\n";
 
-    ini_set('precision', 20);  // Для надёжности на 64-битных системах.
-    $dec = bindec($bin);
-    echo 'bindec():     ' . $dec . "\n";
+    ini_set('precision', 20);  // Для надёжности на 64-битных системах.
+    $dec = bindec($bin);
+    echo 'bindec():     ' . $dec . "\n";
 
-    if ($note) {
-        echo "NOTE:         $note\n";
-    }
+    if ($note) {
+        echo "NOTE:         $note\n";
+    }
 
-    echo "\n";
+    echo "\n";
 }
 ?>
 ```

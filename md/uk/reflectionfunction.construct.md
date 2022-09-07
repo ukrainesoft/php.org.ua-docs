@@ -35,55 +35,55 @@ public **ReflectionFunction::construct**[Closure](class.closure.md)|string `$fun
 ```php
 <?php
 /**
- * Простой счётчик
- *
- * @return    int
- */
-function counter1()
+ * Простой счётчик
+ *
+ * @return    int
+ */
+function counter1()
 {
-    static $c = 0;
-    return ++$c;
+    static $c = 0;
+    return ++$c;
 }
 
 /**
- * Другой счётчик
- *
- * @return    int
- */
-$counter2 = function()
+ * Другой счётчик
+ *
+ * @return    int
+ */
+$counter2 = function()
 {
-    static $d = 0;
-    return ++$d;
+    static $d = 0;
+    return ++$d;
 
 };
 
-function dumpReflectionFunction($func)
+function dumpReflectionFunction($func)
 {
-    // Вывод основной информации
-    printf(
-        "\n\n===> %s функция '%s'\n".
-        "     объявлена в %s\n".
-        "     строки с %d по %d\n",
-        $func->isInternal() ? 'internal' : 'user-defined',
-        $func->getName(),
-        $func->getFileName(),
-        $func->getStartLine(),
-        $func->getEndline()
-    );
+    // Вывод основной информации
+    printf(
+        "\n\n===> %s функция '%s'\n".
+        "     объявлена в %s\n".
+        "     строки с %d по %d\n",
+        $func->isInternal() ? 'internal' : 'user-defined',
+        $func->getName(),
+        $func->getFileName(),
+        $func->getStartLine(),
+        $func->getEndline()
+    );
 
-    // Печать документации
-    printf("---> Документация:\n %s\n", var_export($func->getDocComment(), 1));
+    // Печать документации
+    printf("---> Документация:\n %s\n", var_export($func->getDocComment(), 1));
 
-    // Вывод статических переменных
-    if ($statics = $func->getStaticVariables())
-    {
-        printf("---> Статические переменные: %s\n", var_export($statics, 1));
-    }
+    // Вывод статических переменных
+    if ($statics = $func->getStaticVariables())
+    {
+        printf("---> Статические переменные: %s\n", var_export($statics, 1));
+    }
 }
 
-// Создание объекта класса ReflectionFunction
-dumpReflectionFunction(new ReflectionFunction('counter1'));
-dumpReflectionFunction(new ReflectionFunction($counter2));
+// Создание объекта класса ReflectionFunction
+dumpReflectionFunction(new ReflectionFunction('counter1'));
+dumpReflectionFunction(new ReflectionFunction($counter2));
 ?>
 ```
 

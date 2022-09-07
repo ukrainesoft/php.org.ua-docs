@@ -58,17 +58,17 @@ xmlwriter_set_indent(XMLWriter $writer, bool $enable): bool
 
 ```php
 <?php
-$writer = new XMLWriter();
+$writer = new XMLWriter();
 $writer->openMemory();
 $writer->setIndent(2);
 $writer->startDocument();
 $writer->startElement('p');
 $writer->text('до');
-$writer->writeElement('a', 'элемента');
+$writer->writeElement('a', 'элемента');
 $writer->text('после');
 $writer->endElement();
 $writer->endDocument();
-echo $writer->outputMemory();
+echo $writer->outputMemory();
 ?>
 ```
 

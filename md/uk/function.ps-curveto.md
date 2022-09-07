@@ -15,7 +15,7 @@ title: псcurveto
 ### Опис
 
 ```methodsynopsis
-ps_curveto(    resource $psdoc,    float $x1,    float $y1,    float $x2,    float $y2,    float $x3,    float $y3): bool
+ps_curveto(    resource $psdoc,    float $x1,    float $y1,    float $x2,    float $y2,    float $x3,    float $y3): bool
 ```
 
 Додає відрізок кубічної кривої Безьє, описаний трьома заданими контрольними точками, до поточного шляху. points to the current path.

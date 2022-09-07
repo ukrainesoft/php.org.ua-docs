@@ -54,13 +54,13 @@ compact(array|string $var_name, array|string ...$var_names): array
 
 ```php
 <?php
-$city  = "San Francisco";
-$state = "CA";
-$event = "SIGGRAPH";
+$city  = "San Francisco";
+$state = "CA";
+$event = "SIGGRAPH";
 
-$location_vars = array("city", "state");
+$location_vars = array("city", "state");
 
-$result = compact("event", $location_vars);
+$result = compact("event", $location_vars);
 print_r($result);
 ?>
 ```

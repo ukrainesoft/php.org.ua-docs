@@ -32,12 +32,12 @@ snmp_get_valueretrieval(): int
 
 ```php
 <?php
- $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
- if (snmp_get_valueretrieval() & SNMP_VALUE_OBJECT) {
-   echo $ret->value;
- } else {
-   echo $ret;
- }
+ $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1');
+ if (snmp_get_valueretrieval() & SNMP_VALUE_OBJECT) {
+   echo $ret->value;
+ } else {
+   echo $ret;
+ }
 ?>
 ```
 

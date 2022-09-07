@@ -56,16 +56,16 @@ imap_list(IMAP\Connection $imap, string $reference, string $pattern): array|fals
 
 ```php
 <?php
-$mbox = imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)
-      or die("не удалось подключиться: " . imap_last_error());
+$mbox = imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)
+      or die("не удалось подключиться: " . imap_last_error());
 
-$list = imap_list($mbox, "{imap.example.org}", "*");
-if (is_array($list)) {
-    foreach ($list as $val) {
-        echo imap_utf7_decode($val) . "\n";
-    }
-} else {
-    echo "вызов imap_list завершился с ошибкой: " . imap_last_error() . "\n";
+$list = imap_list($mbox, "{imap.example.org}", "*");
+if (is_array($list)) {
+    foreach ($list as $val) {
+        echo imap_utf7_decode($val) . "\n";
+    }
+} else {
+    echo "вызов imap_list завершился с ошибкой: " . imap_last_error() . "\n";
 }
 
 imap_close($mbox);

@@ -34,9 +34,9 @@ public mysql_xdevapi\Session::getServerVersion(): int
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$version = $session->getServerVersion();
+$version = $session->getServerVersion();
 
 var_dump($version);
 ```

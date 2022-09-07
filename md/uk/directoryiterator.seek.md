@@ -38,12 +38,12 @@ public DirectoryIterator::seek(int $offset): void
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
+$iterator = new DirectoryIterator(dirname(__FILE__));
 $iterator->seek(3);
-if ($iterator->valid()) {
-    echo $iterator->getFilename();
-} else {
-    echo 'Нет третьего элемента в директории';
+if ($iterator->valid()) {
+    echo $iterator->getFilename();
+} else {
+    echo 'Нет третьего элемента в директории';
 }
 ?>
 ```

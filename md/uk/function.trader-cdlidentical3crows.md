@@ -15,7 +15,7 @@ tradercdlidentical3crows — Свічкова модель "Три однако�
 ### Опис
 
 ```methodsynopsis
-trader_cdlidentical3crows(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlidentical3crows(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

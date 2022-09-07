@@ -15,7 +15,7 @@ ftpнбget — Завантажує файл із FTP-сервера в асин
 ### Опис
 
 ```methodsynopsis
-ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): int
+ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    string $remote_filename,    int $mode = FTP_BINARY,    int $offset = 0): int
 ```
 
 **ftpнбget()** завантажує віддалений файл з FTP-сервера та зберігає його у локальний файл.
@@ -62,19 +62,19 @@ ftp_nb_get(    FTP\Connection $ftp,    string $local_filename,    st
 ```php
 <?php
 
-// Начало скачивания
-$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY);
-while ($ret == FTP_MOREDATA) {
+// Начало скачивания
+$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY);
+while ($ret == FTP_MOREDATA) {
 
-   // Производим какие-то действия ...
-   echo ".";
+   // Производим какие-то действия ...
+   echo ".";
 
-   // Продолжение скачивания ...
-   $ret = ftp_nb_continue($ftp);
+   // Продолжение скачивания ...
+   $ret = ftp_nb_continue($ftp);
 }
-if ($ret != FTP_FINISHED) {
-   echo "При скачивании файла произошла ошибка...";
-   exit(1);
+if ($ret != FTP_FINISHED) {
+   echo "При скачивании файла произошла ошибка...";
+   exit(1);
 }
 ?>
 ```
@@ -84,22 +84,22 @@ if ($ret != FTP_FINISHED) {
 ```php
 <?php
 
-// Начало скачивания
-$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY,
-                      filesize("test"));
-// ИЛИ: $ret = ftp_nb_get($ftp, "test", "README",
-//                           FTP_BINARY, FTP_AUTORESUME);
-while ($ret == FTP_MOREDATA) {
+// Начало скачивания
+$ret = ftp_nb_get($ftp, "test", "README", FTP_BINARY,
+                      filesize("test"));
+// ИЛИ: $ret = ftp_nb_get($ftp, "test", "README",
+//                           FTP_BINARY, FTP_AUTORESUME);
+while ($ret == FTP_MOREDATA) {
 
-   // Производим какие-то действия ...
-   echo ".";
+   // Производим какие-то действия ...
+   echo ".";
 
-   // Продолжение скачивания ...
-   $ret = ftp_nb_continue($ftp);
+   // Продолжение скачивания ...
+   $ret = ftp_nb_continue($ftp);
 }
-if ($ret != FTP_FINISHED) {
-   echo "При скачивании файла произошла ошибка...";
-   exit(1);
+if ($ret != FTP_FINISHED) {
+   echo "При скачивании файла произошла ошибка...";
+   exit(1);
 }
 ?>
 ```
@@ -109,17 +109,17 @@ if ($ret != FTP_FINISHED) {
 ```php
 <?php
 
-// Запрет FTP_AUTOSEEK
-ftp_set_option($ftp, FTP_AUTOSEEK, false);
+// Запрет FTP_AUTOSEEK
+ftp_set_option($ftp, FTP_AUTOSEEK, false);
 
-// Начало скачивания
-$ret = ftp_nb_get($ftp, "newfile", "README", FTP_BINARY, 100);
-while ($ret == FTP_MOREDATA) {
+// Начало скачивания
+$ret = ftp_nb_get($ftp, "newfile", "README", FTP_BINARY, 100);
+while ($ret == FTP_MOREDATA) {
 
-   /* ... */
+   /* ... */
 
-   // Продолжение скачивания ...
-   $ret = ftp_nb_continue($ftp);
+   // Продолжение скачивания ...
+   $ret = ftp_nb_continue($ftp);
 }
 ?>
 ```

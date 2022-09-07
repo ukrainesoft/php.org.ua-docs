@@ -46,20 +46,20 @@ datefmt_get_error_message(IntlDateFormatter $formatter): string
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-$str = datefmt_format($fmt);
-if (!$str) {
-    printf(
-        "ОШИБКА: %s (%d)\n",
-        datefmt_get_error_message($fmt),
-        datefmt_get_error_code($fmt)
-    );
+$str = datefmt_format($fmt);
+if (!$str) {
+    printf(
+        "ОШИБКА: %s (%d)\n",
+        datefmt_get_error_message($fmt),
+        datefmt_get_error_code($fmt)
+    );
 }
 ?>
 ```
@@ -68,20 +68,20 @@ if (!$str) {
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-$str = $fmt->format();
-if(!$str) {
-    printf(
-        "ОШИБКА: %s (%d)\n",
-        $fmt->getErrorMessage(),
-        $fmt->getErrorCode()
-    );
+$str = $fmt->format();
+if(!$str) {
+    printf(
+        "ОШИБКА: %s (%d)\n",
+        $fmt->getErrorMessage(),
+        $fmt->getErrorCode()
+    );
 }
 
 ?>

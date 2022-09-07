@@ -49,29 +49,29 @@ get_parent_class(object|string $object_or_class = ?): string|false
 ```php
 <?php
 
-class Dad {
-    function __construct()
-    {
-    // реализация какой-нибудь логики
-    }
+class Dad {
+    function __construct()
+    {
+    // реализация какой-нибудь логики
+    }
 }
 
-class Child extends Dad {
-    function __construct()
-    {
-        echo "I'm " , get_parent_class($this) , "'s son\n";
-    }
+class Child extends Dad {
+    function __construct()
+    {
+        echo "I'm " , get_parent_class($this) , "'s son\n";
+    }
 }
 
-class Child2 extends Dad {
-    function __construct()
-    {
-        echo "I'm " , get_parent_class('child2') , "'s son too\n";
-    }
+class Child2 extends Dad {
+    function __construct()
+    {
+        echo "I'm " , get_parent_class('child2') , "'s son too\n";
+    }
 }
 
-$foo = new child();
-$bar = new child2();
+$foo = new child();
+$bar = new child2();
 
 ?>
 ```

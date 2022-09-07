@@ -14,17 +14,17 @@ PHP надає різні API для доступу до MySQL. Нижче по�
 
 ```php
 <?php
-// mysqli
-$mysqli = new mysqli("example.com", "user", "password", "database");
-$result = $mysqli->query("SELECT 'Привет, дорогой пользователь MySQL!' AS _message FROM DUAL");
-$row = $result->fetch_assoc();
-echo htmlentities($row['_message']);
+// mysqli
+$mysqli = new mysqli("example.com", "user", "password", "database");
+$result = $mysqli->query("SELECT 'Привет, дорогой пользователь MySQL!' AS _message FROM DUAL");
+$row = $result->fetch_assoc();
+echo htmlentities($row['_message']);
 
-// PDO
-$pdo = new PDO('mysql:host=example.com;dbname=database', 'user', 'password');
-$statement = $pdo->query("SELECT 'Привет, дорогой пользователь MySQL!' AS _message FROM DUAL");
-$row = $statement->fetch(PDO::FETCH_ASSOC);
-echo htmlentities($row['_message']);
+// PDO
+$pdo = new PDO('mysql:host=example.com;dbname=database', 'user', 'password');
+$statement = $pdo->query("SELECT 'Привет, дорогой пользователь MySQL!' AS _message FROM DUAL");
+$row = $statement->fetch(PDO::FETCH_ASSOC);
+echo htmlentities($row['_message']);
 ?>
 ```
 

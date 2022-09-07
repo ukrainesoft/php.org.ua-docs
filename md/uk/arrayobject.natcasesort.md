@@ -40,17 +40,17 @@ public ArrayObject::natcasesort(): bool
 
 ```php
 <?php
-$array = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');
+$array = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');
 
-$arr1 = new ArrayObject($array);
-$arr2 = clone $arr1;
+$arr1 = new ArrayObject($array);
+$arr2 = clone $arr1;
 
 $arr1->asort();
-echo "Стандартная сортировка\n";
+echo "Стандартная сортировка\n";
 print_r($arr1);
 
 $arr2->natcasesort();
-echo "\nСортировка в естественном порядке (без учёта регистра)\n";
+echo "\nСортировка в естественном порядке (без учёта регистра)\n";
 print_r($arr2);
 ?>
 ```
@@ -81,7 +81,7 @@ ArrayObject Object
 )
 ```
 
-Для більш детальної інформації дивіться сторінку Мартіна Пула (Martin Pool) [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
+Для більш детальної інформації дивіться сторінку Мартіна Пула (Martin Pool) [» Natural Order String Comparison](https://github.com/sourcefrog/natsort)
 
 ### Дивіться також
 

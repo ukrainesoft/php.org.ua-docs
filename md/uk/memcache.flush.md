@@ -35,15 +35,15 @@ Memcache::flush(): bool
 ```php
 <?php
 
-/* процедурное API */
-$memcache_obj = memcache_connect('memcache_host', 11211);
+/* процедурное API */
+$memcache_obj = memcache_connect('memcache_host', 11211);
 
 memcache_flush($memcache_obj);
 
-/* объектно-ориентированное API */
+/* объектно-ориентированное API */
 
-$memcache_obj = new Memcache;
-$memcache_obj->connect('memcache_host', 11211);
+$memcache_obj = new Memcache;
+$memcache_obj->connect('memcache_host', 11211);
 
 $memcache_obj->flush();
 

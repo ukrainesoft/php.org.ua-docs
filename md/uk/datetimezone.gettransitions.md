@@ -64,9 +64,9 @@ timezone_transitions_get(DateTimeZone $object, int $timestampBegin = PHP_INT_MIN
 
 ```php
 <?php
-$timezone = new DateTimeZone("Europe/London");
-$transitions = $timezone->getTransitions();
-print_r(array_slice($transitions, 0, 3));
+$timezone = new DateTimeZone("Europe/London");
+$transitions = $timezone->getTransitions();
+print_r(array_slice($transitions, 0, 3));
 ?>
 ```
 
@@ -109,9 +109,9 @@ Array
 
 ```php
 <?php
-$timezone = new DateTimeZone("Europe/London");
-$transitions = $timezone->getTransitions(time());
-print_r(array_slice($transitions, 0, 3));
+$timezone = new DateTimeZone("Europe/London");
+$transitions = $timezone->getTransitions(time());
+print_r(array_slice($transitions, 0, 3));
 ?>
 ```
 

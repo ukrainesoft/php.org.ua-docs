@@ -15,7 +15,7 @@ tradercdlengulfing - Модель поглинання
 ### Опис
 
 ```methodsynopsis
-trader_cdlengulfing(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlengulfing(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

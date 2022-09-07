@@ -46,18 +46,18 @@ public Imagick::tintImage(mixed $tint, mixed $opacity, bool $legacy = false): bo
 
 ```php
 <?php
-function tintImage($r, $g, $b, $a) {
-    $a = $a / 100;
+function tintImage($r, $g, $b, $a) {
+    $a = $a / 100;
 
-    $imagick = new \Imagick();
-    $imagick->newPseudoImage(400, 400, 'gradient:black-white');
+    $imagick = new \Imagick();
+    $imagick->newPseudoImage(400, 400, 'gradient:black-white');
 
-    $tint = new \ImagickPixel("rgb($r, $g, $b)");
-    $opacity = new \ImagickPixel("rgb(128, 128, 128, $a)");
-    $imagick->tintImage($tint, $opacity);
-    $imagick->setImageFormat('png');
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    $tint = new \ImagickPixel("rgb($r, $g, $b)");
+    $opacity = new \ImagickPixel("rgb(128, 128, 128, $a)");
+    $imagick->tintImage($tint, $opacity);
+    $imagick->setImageFormat('png');
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

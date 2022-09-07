@@ -33,7 +33,7 @@ final public MongoDB\BSON\MaxKey::__construct()
 ```php
 <?php
 
-var_dump(new MongoDB\BSON\MaxKey());
+var_dump(new MongoDB\BSON\MaxKey());
 
 ?>
 ```
@@ -47,4 +47,4 @@ object(MongoDB\BSON\MaxKey)#1 (0) {
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

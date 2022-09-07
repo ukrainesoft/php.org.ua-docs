@@ -18,41 +18,41 @@ title: Читання атрибутів за допомогою Reflection API
 <?php
 
 #[Attribute]
-class MyAttribute
+class MyAttribute
 {
-    public $value;
+    public $value;
 
-    public function __construct($value)
-    {
-        $this->value = $value;
-    }
+    public function __construct($value)
+    {
+        $this->value = $value;
+    }
 }
 
-#[MyAttribute(value: 1234)]
-class Thing
+#[MyAttribute(value: 1234)]
+class Thing
 {
 }
 
-function dumpAttributeData($reflection) {
-    $attributes = $reflection->getAttributes();
+function dumpAttributeData($reflection) {
+    $attributes = $reflection->getAttributes();
 
-    foreach ($attributes as $attribute) {
-       var_dump($attribute->getName());
-       var_dump($attribute->getArguments());
-       var_dump($attribute->newInstance());
-    }
+    foreach ($attributes as $attribute) {
+       var_dump($attribute->getName());
+       var_dump($attribute->getArguments());
+       var_dump($attribute->newInstance());
+    }
 }
 
-dumpAttributeData(new ReflectionClass(Thing::class));
+dumpAttributeData(new ReflectionClass(Thing::class));
 /*
-string(11) "MyAttribute"
-array(1) {
-  ["value"]=>
-  int(1234)
+string(11) "MyAttribute"
+array(1) {
+  ["value"]=>
+  int(1234)
 }
-object(MyAttribute)#3 (1) {
-  ["value"]=>
-  int(1234)
+object(MyAttribute)#3 (1) {
+  ["value"]=>
+  int(1234)
 }
 */
 ```
@@ -64,15 +64,15 @@ object(MyAttribute)#3 (1) {
 ```php
 <?php
 
-function dumpMyAttributeData($reflection) {
-    $attributes = $reflection->getAttributes(MyAttribute::class);
+function dumpMyAttributeData($reflection) {
+    $attributes = $reflection->getAttributes(MyAttribute::class);
 
-    foreach ($attributes as $attribute) {
-       var_dump($attribute->getName());
-       var_dump($attribute->getArguments());
-       var_dump($attribute->newInstance());
-    }
+    foreach ($attributes as $attribute) {
+       var_dump($attribute->getName());
+       var_dump($attribute->getArguments());
+       var_dump($attribute->newInstance());
+    }
 }
 
-dumpMyAttributeData(new ReflectionClass(Thing::class));
+dumpMyAttributeData(new ReflectionClass(Thing::class));
 ```

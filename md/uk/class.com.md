@@ -35,7 +35,7 @@ title: Клас com
 
     /* Методы */
     
-   public __construct(    string $module_name,    array|string|null $server_name = null,    int $codepage = CP_ACP,    string $typelib = "")
+   public __construct(    string $module_name,    array|string|null $server_name = null,    int $codepage = CP_ACP,    string $typelib = "")
 
    }
 ```
@@ -52,25 +52,25 @@ PHP автоматично визначає методи, які звертаю�
 
 ```php
 <?php
-// запускаем word
-$word = new com("word.application") or die("Невозможно создать экземпляр Word");
-echo "Загружен Word, версия {$word->Version}\n";
+// запускаем word
+$word = new com("word.application") or die("Невозможно создать экземпляр Word");
+echo "Загружен Word, версия {$word->Version}\n";
 
-//делаем его активным окном
-$word->Visible = 1;
+//делаем его активным окном
+$word->Visible = 1;
 
-//открываем пустой документ
+//открываем пустой документ
 $word->Documents->Add();
 
-//Что то с ним делаем
-$word->Selection->TypeText("Это проверка...");
-$word->Documents[1]->SaveAs("Бесполезный тест.doc");
+//Что то с ним делаем
+$word->Selection->TypeText("Это проверка...");
+$word->Documents[1]->SaveAs("Бесполезный тест.doc");
 
-//закрываем word
+//закрываем word
 $word->Quit();
 
-//высвобождаем ресурсы объекта
-$word = null;
+//высвобождаем ресурсы объекта
+$word = null;
 ?>
 ```
 
@@ -79,34 +79,34 @@ $word = null;
 ```php
 <?php
 
-$conn = new com("ADODB.Connection") or die("Cannot start ADO");
-$conn->Open("Provider=SQLOLEDB; Data Source=localhost;
-Initial Catalog=database; User ID=user; Password=password");
+$conn = new com("ADODB.Connection") or die("Cannot start ADO");
+$conn->Open("Provider=SQLOLEDB; Data Source=localhost;
+Initial Catalog=database; User ID=user; Password=password");
 
-$rs = $conn->Execute("SELECT * FROM sometable");    // Набор записей
+$rs = $conn->Execute("SELECT * FROM sometable");    // Набор записей
 
-$num_columns = $rs->Fields->Count();
-echo $num_columns . "\n";
+$num_columns = $rs->Fields->Count();
+echo $num_columns . "\n";
 
-for ($i=0; $i < $num_columns; $i++) {
-    $fld[$i] = $rs->Fields($i);
+for ($i=0; $i < $num_columns; $i++) {
+    $fld[$i] = $rs->Fields($i);
 }
 
-$rowcount = 0;
-while (!$rs->EOF) {
-    for ($i=0; $i < $num_columns; $i++) {
-        echo $fld[$i]->value . "\t";
-    }
-    echo "\n";
-    $rowcount++;            // увеличиваем счётчик строк
-    $rs->MoveNext();
+$rowcount = 0;
+while (!$rs->EOF) {
+    for ($i=0; $i < $num_columns; $i++) {
+        echo $fld[$i]->value . "\t";
+    }
+    echo "\n";
+    $rowcount++;            // увеличиваем счётчик строк
+    $rs->MoveNext();
 }
 
 $rs->Close();
 $conn->Close();
 
-$rs = null;
-$conn = null;
+$rs = null;
+$conn = null;
 
 ?>
 ```

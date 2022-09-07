@@ -38,13 +38,13 @@ gmp_sqrtrem(GMP|int|string $num): array
 
 ```php
 <?php
-list($sqrt1, $sqrt1rem) = gmp_sqrtrem("9");
-list($sqrt2, $sqrt2rem) = gmp_sqrtrem("7");
-list($sqrt3, $sqrt3rem) = gmp_sqrtrem("1048576");
+list($sqrt1, $sqrt1rem) = gmp_sqrtrem("9");
+list($sqrt2, $sqrt2rem) = gmp_sqrtrem("7");
+list($sqrt3, $sqrt3rem) = gmp_sqrtrem("1048576");
 
-echo gmp_strval($sqrt1) . ", " . gmp_strval($sqrt1rem) . "\n";
-echo gmp_strval($sqrt2) . ", " . gmp_strval($sqrt2rem) . "\n";
-echo gmp_strval($sqrt3) . ", " . gmp_strval($sqrt3rem) . "\n";
+echo gmp_strval($sqrt1) . ", " . gmp_strval($sqrt1rem) . "\n";
+echo gmp_strval($sqrt2) . ", " . gmp_strval($sqrt2rem) . "\n";
+echo gmp_strval($sqrt3) . ", " . gmp_strval($sqrt3rem) . "\n";
 ?>
 ```
 

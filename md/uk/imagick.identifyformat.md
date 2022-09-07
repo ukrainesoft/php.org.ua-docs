@@ -36,9 +36,9 @@ public Imagick::identifyFormat(string $embedText): string|false
 
 ```php
 <?php
-        $output = "Вывод 'Поле обрезки: %@ количество уникальных цветов: %k': <br/>";
-        $imagick = new \Imagick(realpath("./images/artifact/mask.png"));
-        $output .= $imagick->identifyFormat("Поле обрезки: %@ количество уникальных цветов: %k");
+        $output = "Вывод 'Поле обрезки: %@ количество уникальных цветов: %k': <br/>";
+        $imagick = new \Imagick(realpath("./images/artifact/mask.png"));
+        $output .= $imagick->identifyFormat("Поле обрезки: %@ количество уникальных цветов: %k");
 
 ?>
 ```

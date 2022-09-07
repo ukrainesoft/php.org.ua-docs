@@ -36,17 +36,17 @@ apcu_delete(mixed $key): mixed
 
 ```php
 <?php
-$bar = 'BAR';
-apcu_store('foo', $bar);
+$bar = 'BAR';
+apcu_store('foo', $bar);
 
-//Удаляем одну запись.
+//Удаляем одну запись.
 apcu_delete('foo');
 
-// Удаляем несколько записей.
-apcu_delete(['foo', 'bar', 'baz']);
+// Удаляем несколько записей.
+apcu_delete(['foo', 'bar', 'baz']);
 
-// Используем итератор с регулярным выражением.
-apcu_delete(new APCUIterator('#^myprefix_#'));
+// Используем итератор с регулярным выражением.
+apcu_delete(new APCUIterator('#^myprefix_#'));
 ?>
 ```
 

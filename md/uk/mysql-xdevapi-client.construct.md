@@ -28,12 +28,12 @@ private **mysqlxdevapiClient::construct**
 
 ```php
 <?php
-$pooling_options = '{
-  "enabled": true,
-    "maxSize": 10,
-    "maxIdleTime": 3600,
-    "queueTimeOut": 1000
+$pooling_options = '{
+  "enabled": true,
+    "maxSize": 10,
+    "maxIdleTime": 3600,
+    "queueTimeOut": 1000
 }';
-$client = mysql_xdevapi\getClient($connection_uri, $pooling_options);
-$session = $client->getSession();
+$client = mysql_xdevapi\getClient($connection_uri, $pooling_options);
+$session = $client->getSession();
 ```

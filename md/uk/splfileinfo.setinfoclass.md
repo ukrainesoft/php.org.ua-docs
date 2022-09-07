@@ -36,11 +36,11 @@ public SplFileInfo::setInfoClass(string $class = SplFileInfo::class): void
 
 ```php
 <?php
-// Определить класс, который расширяет SplFileInfo
-class MyFoo extends SplFileInfo {}
+// Определить класс, который расширяет SplFileInfo
+class MyFoo extends SplFileInfo {}
 
-$info = new SplFileInfo('foo');
-// Установить имя класса для использования
+$info = new SplFileInfo('foo');
+// Установить имя класса для использования
 $info->setInfoClass('MyFoo');
 var_dump($info->getFileInfo());
 ?>

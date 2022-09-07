@@ -15,7 +15,7 @@ ocibindarrayбname - Зв'язує PHP масив з масивом Oracle PL/SQ
 ### Опис
 
 ```methodsynopsis
-oci_bind_array_by_name(    resource $statement,    string $param,    array &$var,    int $max_array_length,    int $max_item_length = -1,    int $type = SQLT_AFC): bool
+oci_bind_array_by_name(    resource $statement,    string $param,    array &$var,    int $max_array_length,    int $max_item_length = -1,    int $type = SQLT_AFC): bool
 ```
 
 Пов'язує PHP масив `var` з вказівником Oracle `param` на масив Oracle PL/SQL. Напрямок, введення або висновок, для якого використовуватиметься масив, буде визначатися під час виконання.
@@ -78,52 +78,52 @@ oci_bind_array_by_name(    resource $statement,    string $param,   �
 ```php
 <?php
 
-$conn = oci_connect("hr", "hrpwd", "localhost/XE");
-if (!$conn) {
-    $m = oci_error();
-    trigger_error(htmlentities($m['message']), E_USER_ERROR);
+$conn = oci_connect("hr", "hrpwd", "localhost/XE");
+if (!$conn) {
+    $m = oci_error();
+    trigger_error(htmlentities($m['message']), E_USER_ERROR);
 }
 
-$create = "CREATE TABLE bind_example(name VARCHAR(20))";
-$stid = oci_parse($conn, $create);
+$create = "CREATE TABLE bind_example(name VARCHAR(20))";
+$stid = oci_parse($conn, $create);
 oci_execute($stid);
 
-$create_pkg = "
-CREATE OR REPLACE PACKAGE ARRAYBINDPKG1 AS
-  TYPE ARRTYPE IS TABLE OF VARCHAR(20) INDEX BY BINARY_INTEGER;
-  PROCEDURE iobind(c1 IN OUT ARRTYPE);
-END ARRAYBINDPKG1;";
-$stid = oci_parse($conn, $create_pkg);
+$create_pkg = "
+CREATE OR REPLACE PACKAGE ARRAYBINDPKG1 AS
+  TYPE ARRTYPE IS TABLE OF VARCHAR(20) INDEX BY BINARY_INTEGER;
+  PROCEDURE iobind(c1 IN OUT ARRTYPE);
+END ARRAYBINDPKG1;";
+$stid = oci_parse($conn, $create_pkg);
 oci_execute($stid);
 
-$create_pkg_body = "
-CREATE OR REPLACE PACKAGE BODY ARRAYBINDPKG1 AS
-  CURSOR CUR IS SELECT name FROM bind_example;
-  PROCEDURE iobind(c1 IN OUT ARRTYPE) IS
-    BEGIN
-    -- Bulk Insert
-    FORALL i IN INDICES OF c1
-      INSERT INTO bind_example VALUES (c1(i));
+$create_pkg_body = "
+CREATE OR REPLACE PACKAGE BODY ARRAYBINDPKG1 AS
+  CURSOR CUR IS SELECT name FROM bind_example;
+  PROCEDURE iobind(c1 IN OUT ARRTYPE) IS
+    BEGIN
+    -- Bulk Insert
+    FORALL i IN INDICES OF c1
+      INSERT INTO bind_example VALUES (c1(i));
 
-    -- Fetch and reverse
-    IF NOT CUR%ISOPEN THEN
-      OPEN CUR;
-    END IF;
-    FOR i IN REVERSE 1..5 LOOP
-      FETCH CUR INTO c1(i);
-      IF CUR%NOTFOUND THEN
-        CLOSE CUR;
-        EXIT;
-      END IF;
-    END LOOP;
-  END iobind;
-END ARRAYBINDPKG1;";
-$stid = oci_parse($conn, $create_pkg_body);
+    -- Fetch and reverse
+    IF NOT CUR%ISOPEN THEN
+      OPEN CUR;
+    END IF;
+    FOR i IN REVERSE 1..5 LOOP
+      FETCH CUR INTO c1(i);
+      IF CUR%NOTFOUND THEN
+        CLOSE CUR;
+        EXIT;
+      END IF;
+    END LOOP;
+  END iobind;
+END ARRAYBINDPKG1;";
+$stid = oci_parse($conn, $create_pkg_body);
 oci_execute($stid);
 
-$stid = oci_parse($conn, "BEGIN arraybindpkg1.iobind(:c1); END;");
-$array = array("one", "two", "three", "four", "five");
-oci_bind_array_by_name($stid, ":c1", $array, 5, -1, SQLT_CHR);
+$stid = oci_parse($conn, "BEGIN arraybindpkg1.iobind(:c1); END;");
+$array = array("one", "two", "three", "four", "five");
+oci_bind_array_by_name($stid, ":c1", $array, 5, -1, SQLT_CHR);
 oci_execute($stid);
 
 var_dump($array);

@@ -24,7 +24,7 @@ curl_strerror(int $error_code): ?string
 
 `error_code`
 
-Одна з констант [» кодов ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+Одна з констант [» кодов ошибок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
 
 ### Значення, що повертаються
 
@@ -36,19 +36,19 @@ curl_strerror(int $error_code): ?string
 
 ```php
 <?php
-// Создаём обработчик curl с некорректным указанием протокола в URL
-$ch = curl_init("htp://example.com/");
+// Создаём обработчик curl с некорректным указанием протокола в URL
+$ch = curl_init("htp://example.com/");
 
-// Посылаем запрос
+// Посылаем запрос
 curl_exec($ch);
 
-// Проверяем на ошибки и выводим их описание
-if($errno = curl_errno($ch)) {
-    $error_message = curl_strerror($errno);
-    echo "cURL error ({$errno}):\n {$error_message}";
+// Проверяем на ошибки и выводим их описание
+if($errno = curl_errno($ch)) {
+    $error_message = curl_strerror($errno);
+    echo "cURL error ({$errno}):\n {$error_message}";
 }
 
-// Закрываем обработчик
+// Закрываем обработчик
 curl_close($ch);
 ?>
 ```
@@ -64,4 +64,4 @@ cURL error (1):
 
 -   [curlerrno()](function.curl-errno.md) - Повертає код останньої помилки
 -   [curlerror()](function.curl-error.md) - Повертає рядок із описом останньої помилки поточного сеансу
--   [» Коди помилок Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+-   [» Коди помилок Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

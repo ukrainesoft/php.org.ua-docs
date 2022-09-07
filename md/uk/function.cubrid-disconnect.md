@@ -36,26 +36,26 @@ cubrid_disconnect(resource $conn_identifier = ?): bool
 
 ```php
 <?php
-$con = cubrid_connect ("localhost", 33000, "demodb");
-if ($con) {
-   echo "connected successfully";
+$con = cubrid_connect ("localhost", 33000, "demodb");
+if ($con) {
+   echo "connected successfully";
 
-   $req = cubrid_execute( $con, "create table person(id int,name char(10))");
-   if ($req) {
-      cubrid_close_request($req);
-      cubrid_commit($con);
-   } else {
-      cubrid_rollback($con);
-   }
+   $req = cubrid_execute( $con, "create table person(id int,name char(10))");
+   if ($req) {
+      cubrid_close_request($req);
+      cubrid_commit($con);
+   } else {
+      cubrid_rollback($con);
+   }
 
-   $req = cubrid_execute( $con, "insert into person values(1,'James')");
-   if ($req) {
-      cubrid_close_request($req);
-      cubrid_commit($con);
-   } else {
-      cubrid_rollback($con);
-   }
-   cubrid_disconnect($con);
+   $req = cubrid_execute( $con, "insert into person values(1,'James')");
+   if ($req) {
+      cubrid_close_request($req);
+      cubrid_commit($con);
+   } else {
+      cubrid_rollback($con);
+   }
+   cubrid_disconnect($con);
 }
 ?>
 ```

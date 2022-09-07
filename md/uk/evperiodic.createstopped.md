@@ -18,23 +18,23 @@ EvPeriodic::createStopped — Створює зупинений спостері
 final
    public
    static
-   EvPeriodic::createStopped(    
+   EvPeriodic::createStopped(    
     float
      $offset
-   ,    
+   ,    
     float
      $interval
-   ,    
+   ,    
     callable
      $reschedule_cb
-   ,    
+   ,    
     callable
      $callback
-   ,    
+   ,    
     mixed
      $data
      = null
-   ,    
+   ,    
     int
      $priority
      = 0

@@ -41,8 +41,8 @@ abstract public mysql_xdevapi\CrudOperationLimitable::limit(int $rows): mysql_xd
 ```php
 <?php
 
-$res = $coll->find()->fields(['name as n','age as a','job as j'])->groupBy('j')->limit(11)->execute();
-$res = $table->update()->set('age',69)->where('age > 15 and age < 22')->limit(4)->orderby(['age asc','name desc'])->execute();
+$res = $coll->find()->fields(['name as n','age as a','job as j'])->groupBy('j')->limit(11)->execute();
+$res = $table->update()->set('age',69)->where('age > 15 and age < 22')->limit(4)->orderby(['age asc','name desc'])->execute();
 
 ?>
 ```

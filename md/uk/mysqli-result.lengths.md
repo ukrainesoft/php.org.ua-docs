@@ -46,28 +46,28 @@ mysqli_fetch_lengths(mysqli_result $result): array|false
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверка подключения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка подключения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT * from Country ORDER BY Code LIMIT 1";
+$query = "SELECT * from Country ORDER BY Code LIMIT 1";
 
-if ($result = $mysqli->query($query)) {
+if ($result = $mysqli->query($query)) {
 
-    $row = $result->fetch_row();
+    $row = $result->fetch_row();
 
-    /* выведем длины полей */
-    foreach ($result->lengths as $i => $val) {
-        printf("Поле %2d имеет длину %2d\n", $i+1, $val);
-    }
-    $result->close();
+    /* выведем длины полей */
+    foreach ($result->lengths as $i => $val) {
+        printf("Поле %2d имеет длину %2d\n", $i+1, $val);
+    }
+    $result->close();
 }
 
-/* закрываем подключение */
+/* закрываем подключение */
 $mysqli->close();
 ?>
 ```
@@ -76,28 +76,28 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверка подключения */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверка подключения */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$query = "SELECT * from Country ORDER BY Code LIMIT 1";
+$query = "SELECT * from Country ORDER BY Code LIMIT 1";
 
-if ($result = mysqli_query($link, $query)) {
+if ($result = mysqli_query($link, $query)) {
 
-    $row = mysqli_fetch_row($result);
+    $row = mysqli_fetch_row($result);
 
-    /* выведем длины полей */
-    foreach (mysqli_fetch_lengths($result) as $i => $val) {
-        printf("Поле %2d имеет длину %2d\n", $i+1, $val);
-    }
-    mysqli_free_result($result);
+    /* выведем длины полей */
+    foreach (mysqli_fetch_lengths($result) as $i => $val) {
+        printf("Поле %2d имеет длину %2d\n", $i+1, $val);
+    }
+    mysqli_free_result($result);
 }
 
-/* закрываем подключение */
+/* закрываем подключение */
 mysqli_close($link);
 ?>
 ```

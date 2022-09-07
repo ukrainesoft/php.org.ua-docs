@@ -36,8 +36,8 @@ public DirectoryIterator::getInode(): int
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-echo $iterator->getInode();
+$iterator = new DirectoryIterator(dirname(__FILE__));
+echo $iterator->getInode();
 ?>
 ```
 

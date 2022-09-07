@@ -46,15 +46,15 @@ public Imagick::adaptiveSharpenImage(float $radius, float $sigma, int $channel =
 
 ```php
 <?php
-try {
-    $image = new Imagick('image.png');
-    $image->adaptiveSharpenImage(2,1);
-} catch(ImagickException $e) {
-    echo 'Ошибка: ' , $e->getMessage();
-    die();
+try {
+    $image = new Imagick('image.png');
+    $image->adaptiveSharpenImage(2,1);
+} catch(ImagickException $e) {
+    echo 'Ошибка: ' , $e->getMessage();
+    die();
 }
-header('Content-type: image/png');
-echo $image;
+header('Content-type: image/png');
+echo $image;
 ?>
 ```
 

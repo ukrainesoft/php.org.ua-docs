@@ -34,12 +34,12 @@ public ReflectionClass::getEndLine(): int|false
 
 ```php
 <?php
-// Тестовый класс
-class TestClass { }
+// Тестовый класс
+class TestClass { }
 
-$rc = new ReflectionClass('TestClass');
+$rc = new ReflectionClass('TestClass');
 
-echo $rc->getEndLine();
+echo $rc->getEndLine();
 ?>
 ```
 

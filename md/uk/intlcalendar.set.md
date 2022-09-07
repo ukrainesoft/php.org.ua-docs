@@ -21,7 +21,7 @@ public IntlCalendar::set(int $field, int $value): bool
 ```
 
 ```methodsynopsis
-public IntlCalendar::set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
+public IntlCalendar::set(    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
 ```
 
 Процедурний стиль
@@ -31,7 +31,7 @@ intlcal_set(IntlCalendar $cal, int $field, int $value): bool
 ```
 
 ```methodsynopsis
-intlcal_set(    IntlCalendar $cal,    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
+intlcal_set(    IntlCalendar $cal,    int $year,    int $month,    int $dayOfMonth = NULL,    int $hour = NULL,    int $minute = NULL,    int $second = NULL): bool
 ```
 
 Встановлює або конкретне поле задане значення, або встановлює відразу кілька загальних полів. Діапазон допустимих значень залежить від того, чи використовує календар [мягкий режим](intlcalendar.setlenient.md)
@@ -88,20 +88,20 @@ intlcal_set(    IntlCalendar $cal,    int $year,    int $month,  �
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'pt_PT');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'pt_PT');
 
-// Вызовы, сделанные позже, приоритетнее
-$cal = new IntlGregorianCalendar(2013, 6 /* Июль */, 1);
-$cal->set(IntlCalendar::FIELD_YEAR, 2012);
-$cal->set(IntlCalendar::FIELD_EXTENDED_YEAR, 2011);
+// Вызовы, сделанные позже, приоритетнее
+$cal = new IntlGregorianCalendar(2013, 6 /* Июль */, 1);
+$cal->set(IntlCalendar::FIELD_YEAR, 2012);
+$cal->set(IntlCalendar::FIELD_EXTENDED_YEAR, 2011);
 var_dump(IntlDateFormatter::formatObject($cal));
 
-$cal = new IntlGregorianCalendar(2013, 6 /* Июль */, 1);
-$cal->set(IntlCalendar::FIELD_YEAR, 2012);
-$cal->set(IntlCalendar::FIELD_EXTENDED_YEAR, 2011);
-// Время еще не пересчитано. Если мы очистим EXTENDED_YEAR,
-// будет использован предыдущий год.
+$cal = new IntlGregorianCalendar(2013, 6 /* Июль */, 1);
+$cal->set(IntlCalendar::FIELD_YEAR, 2012);
+$cal->set(IntlCalendar::FIELD_EXTENDED_YEAR, 2011);
+// Время еще не пересчитано. Если мы очистим EXTENDED_YEAR,
+// будет использован предыдущий год.
 $cal->clear(IntlCalendar::FIELD_EXTENDED_YEAR);
 var_dump(IntlDateFormatter::formatObject($cal));
 ```

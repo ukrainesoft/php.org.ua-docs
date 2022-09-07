@@ -40,33 +40,33 @@ public ImagickDraw::setClipUnits(int $clip_units): bool
 
 ```php
 <?php
-function setClipUnits($strokeColor, $fillColor, $backgroundColor) {
+function setClipUnits($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeWidth(2);
-    $clipPathName = 'testClipPath';
-    $draw->setClipUnits(\Imagick::RESOLUTION_PIXELSPERINCH);
-    $draw->pushClipPath($clipPathName);
-    $draw->rectangle(0, 0, 250, 250);
-    $draw->popClipPath();
-    $draw->setClipPath($clipPathName);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeWidth(2);
+    $clipPathName = 'testClipPath';
+    $draw->setClipUnits(\Imagick::RESOLUTION_PIXELSPERINCH);
+    $draw->pushClipPath($clipPathName);
+    $draw->rectangle(0, 0, 250, 250);
+    $draw->popClipPath();
+    $draw->setClipPath($clipPathName);
 
-    //RESOLUTION_PIXELSPERINCH
-    //RESOLUTION_PIXELSPERCENTIMETER
+    //RESOLUTION_PIXELSPERINCH
+    //RESOLUTION_PIXELSPERCENTIMETER
 
-    $draw->rectangle(200, 200, 300, 300);
-    $imagick = new \Imagick();
-    $imagick->newImage(500, 500, $backgroundColor);
-    $imagick->setImageFormat("png");
+    $draw->rectangle(200, 200, 300, 300);
+    $imagick = new \Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    $imagick->drawImage($draw);
+    $imagick->drawImage($draw);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

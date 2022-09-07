@@ -35,12 +35,12 @@ public RRDGraph::setOptions(array $options): void
 ```php
 <?php
 $graphObj->setOptions(array(
-    "--start" => "920804400",
-    "--end" => 920808000,
-    "--vertical-label" => "m/s",
-    "DEF:myspeed=$rrdFile:speed:AVERAGE",
-    "CDEF:realspeed=myspeed,1000,*",
-    "LINE2:realspeed#FF0000"
+    "--start" => "920804400",
+    "--end" => 920808000,
+    "--vertical-label" => "m/s",
+    "DEF:myspeed=$rrdFile:speed:AVERAGE",
+    "CDEF:realspeed=myspeed,1000,*",
+    "LINE2:realspeed#FF0000"
 ));
 ?>
 ```
@@ -50,15 +50,15 @@ $graphObj->setOptions(array(
 ```php
 <?php
 $graphObj->setOptions(array(
-    "--start" => "920804400",
-    "--end" => 920808000,
-    "--vertical-label" => "m/s",
-    "--color=BACK#00000000",
-    "--color=GRID#00000000",
-    "--color=MGRID#00000000",
-    "DEF:myspeed=$rrdFile:speed:AVERAGE",
-    "CDEF:realspeed=myspeed,1000,*",
-    "LINE2:realspeed#FF0000"
+    "--start" => "920804400",
+    "--end" => 920808000,
+    "--vertical-label" => "m/s",
+    "--color=BACK#00000000",
+    "--color=GRID#00000000",
+    "--color=MGRID#00000000",
+    "DEF:myspeed=$rrdFile:speed:AVERAGE",
+    "CDEF:realspeed=myspeed,1000,*",
+    "LINE2:realspeed#FF0000"
 ));
 ?>
 ```
@@ -68,9 +68,9 @@ $graphObj->setOptions(array(
 ```php
 <?php
 $graphObj->setOptions(array(
-    "--color" => "BACK#00000000",
-    "--color" => "GRID#00000000",
-    "--color" => "MGRID#00000000"
+    "--color" => "BACK#00000000",
+    "--color" => "GRID#00000000",
+    "--color" => "MGRID#00000000"
 ));
 ?>
 ```
@@ -80,7 +80,7 @@ $graphObj->setOptions(array(
 ```php
 <?php
 $graphObj->setOptions(array(
-    "--color" => "MGRID#00000000"
+    "--color" => "MGRID#00000000"
 ));
 ?>
 ```

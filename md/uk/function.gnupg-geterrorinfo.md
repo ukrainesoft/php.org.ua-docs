@@ -34,8 +34,8 @@ gnupg_geterrorinfo(resource $identifier): array
 
 ```php
 <?php
-$res = gnupg_init();
-// вызывается без ошибок
+$res = gnupg_init();
+// вызывается без ошибок
 print_r(gnupg_geterrorinfo($res));
 ?>
 ```
@@ -59,10 +59,10 @@ array(4) {
 
 ```php
 <?php
-$gpg = new gnupg();
-// вызов с ошибкой
+$gpg = new gnupg();
+// вызов с ошибкой
 $gpg->decrypt('abc');
-// должна отобразиться информация об ошибке
+// должна отобразиться информация об ошибке
 print_r($gpg->geterrorinfo());
 ?>
 ```

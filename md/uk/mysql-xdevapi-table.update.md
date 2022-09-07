@@ -34,16 +34,16 @@ public mysql_xdevapi\Table::update(): mysql_xdevapi\TableUpdate
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
-$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
-$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("CREATE TABLE addressbook.names(name text, age int)")->execute();
+$session->sql("INSERT INTO addressbook.names values ('John', 42), ('Sam', 33)")->execute();
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
-$table->update()->set('age',34)->where('name = "Sam"')->limit(1)->execute();
+$table->update()->set('age',34)->where('name = "Sam"')->limit(1)->execute();
 ?>
 ```

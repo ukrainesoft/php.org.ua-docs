@@ -15,7 +15,7 @@ odbcstatistics — Отримує статистику про таблицю
 ### Опис
 
 ```methodsynopsis
-odbc_statistics(    resource $odbc,    ?string $catalog,    string $schema,    string $table,    int $unique,    int $accuracy): resource|false
+odbc_statistics(    resource $odbc,    ?string $catalog,    string $schema,    string $table,    int $unique,    int $accuracy): resource|false
 ```
 
 Отримує статистику про таблицю та її індекси.
@@ -76,11 +76,11 @@ odbc_statistics(    resource $odbc,    ?string $catalog,    string $
 
 ```php
 <?php
-$conn = odbc_connect($dsn, $user, $pass);
-$statistics = odbc_statistics($conn, 'TutorialDB', 'dbo', 'TEST', SQL_INDEX_UNIQUE, SQL_QUICK);
-while (($row = odbc_fetch_array($statistics))) {
-    print_r($row);
-    break; // последующие строки опущены для краткости
+$conn = odbc_connect($dsn, $user, $pass);
+$statistics = odbc_statistics($conn, 'TutorialDB', 'dbo', 'TEST', SQL_INDEX_UNIQUE, SQL_QUICK);
+while (($row = odbc_fetch_array($statistics))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
 }
 ?>
 ```

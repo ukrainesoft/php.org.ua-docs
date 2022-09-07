@@ -39,10 +39,10 @@ public Yar_Client::__call(string $method, array $parameters): void
 ```php
 <?php
 
-$client = new Yar_Client("http://host/api/");
+$client = new Yar_Client("http://host/api/");
 
-/* вызов удалённого сервиса */
-$result = $client->some_method("parameter");
+/* вызов удалённого сервиса */
+$result = $client->some_method("parameter");
 ?>
 ```
 

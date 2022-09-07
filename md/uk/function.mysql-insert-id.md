@@ -43,14 +43,14 @@ mysql_insert_id(resource $link_identifier = NULL): int
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
 mysql_select_db('mydb');
 
-mysql_query("INSERT INTO mytable (product) values ('kossu')");
-printf("Идентификатор последней вставленной записи %d\n", mysql_insert_id());
+mysql_query("INSERT INTO mytable (product) values ('kossu')");
+printf("Идентификатор последней вставленной записи %d\n", mysql_insert_id());
 ?>
 ```
 

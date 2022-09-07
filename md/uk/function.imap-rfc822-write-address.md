@@ -18,7 +18,7 @@ imaprfc822writeaddress — Отримати коректно сформован�
 imap_rfc822_write_address(string $mailbox, string $hostname, string $personal): string|false
 ```
 
-Повертає поштову адресу сформовану відповідно до [» RFC2822](http://www.faqs.org/rfcs/rfc2822)
+Повертає поштову адресу сформовану відповідно до [» RFC2822](http://www.faqs.org/rfcs/rfc2822)
 
 ### Список параметрів
 
@@ -40,7 +40,7 @@ imap_rfc822_write_address(string $mailbox, string $hostname, string $personal): 
 
 ### Значення, що повертаються
 
-Повертає рядок містить поштову адресу у сформовану відповідно до [» RFC2822](http://www.faqs.org/rfcs/rfc2822) або **`false`** у разі виникнення помилки.
+Повертає рядок містить поштову адресу у сформовану відповідно до [» RFC2822](http://www.faqs.org/rfcs/rfc2822) або **`false`** у разі виникнення помилки.
 
 ### Приклади
 
@@ -48,7 +48,7 @@ imap_rfc822_write_address(string $mailbox, string $hostname, string $personal): 
 
 ```php
 <?php
-echo imap_rfc822_write_address("hartmut", "example.com", "Hartmut Holzgraefe");
+echo imap_rfc822_write_address("hartmut", "example.com", "Hartmut Holzgraefe");
 ?>
 ```
 

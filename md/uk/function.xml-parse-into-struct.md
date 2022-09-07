@@ -15,7 +15,7 @@ xmlparseintostruct - Розбір XML-даних та приміщення в м
 ### Опис
 
 ```methodsynopsis
-xml_parse_into_struct(    XMLParser $parser,    string $data,    array &$values,    array &$index = null): int
+xml_parse_into_struct(    XMLParser $parser,    string $data,    array &$values,    array &$index = null): int
 ```
 
 Ця функція розбирає XML-рядок і поміщає дані у 2 масиви. Масив `index` містить покажчики на розміщення значень у масиві `values`. Аргументи, що задають масиви, повинні передаватися на функцію за посиланням.
@@ -56,13 +56,13 @@ xml_parse_into_struct(    XMLParser $parser,    string $data,    arr
 
 ```php
 <?php
-$simple = "<para><note>простое примечание</note></para>";
-$p = xml_parser_create();
-xml_parse_into_struct($p, $simple, $vals, $index);
+$simple = "<para><note>простое примечание</note></para>";
+$p = xml_parser_create();
+xml_parse_into_struct($p, $simple, $vals, $index);
 xml_parser_free($p);
-echo "Масив index\n";
+echo "Масив index\n";
 print_r($index);
-echo "\nМасив vals\n";
+echo "\nМасив vals\n";
 print_r($vals);
 ?>
 ```
@@ -127,57 +127,57 @@ Alanine ala `A` hydrophobic Lysine lys `K` charged
 ```php
 <?php
 
-class AminoAcid {
-    var $name;   // название аминокислоты
-    var $symbol; // трёхбуквенное обозначение
-    var $code;   // однобуквенный код
-    var $type;   // гидрофобная, заряженная, нейтральная
+class AminoAcid {
+    var $name;   // название аминокислоты
+    var $symbol; // трёхбуквенное обозначение
+    var $code;   // однобуквенный код
+    var $type;   // гидрофобная, заряженная, нейтральная
 
-    function __construct ($aa)
-    {
-        foreach ($aa as $k=>$v)
-            $this->$k = $aa[$k];
-    }
+    function __construct ($aa)
+    {
+        foreach ($aa as $k=>$v)
+            $this->$k = $aa[$k];
+    }
 }
 
-function readDatabase($filename)
+function readDatabase($filename)
 {
-    // чтение XML-базы данных аминокислот
-    $data = file_get_contents($filename);
-    $parser = xml_parser_create();
-    xml_parser_set_option($parser, XML_OPTION_CASE_FOLDING, 0);
-    xml_parser_set_option($parser, XML_OPTION_SKIP_WHITE, 1);
-    xml_parse_into_struct($parser, $data, $values, $tags);
-    xml_parser_free($parser);
+    // чтение XML-базы данных аминокислот
+    $data = file_get_contents($filename);
+    $parser = xml_parser_create();
+    xml_parser_set_option($parser, XML_OPTION_CASE_FOLDING, 0);
+    xml_parser_set_option($parser, XML_OPTION_SKIP_WHITE, 1);
+    xml_parse_into_struct($parser, $data, $values, $tags);
+    xml_parser_free($parser);
 
-    // проход через структуры
-    foreach ($tags as $key=>$val) {
-        if ($key == "molecule") {
-            $molranges = $val;
-            // каждая смежная пара значений Масивов является верхней и
-            // нижней границей определения молекулы
-            for ($i=0; $i < count($molranges); $i+=2) {
-                $offset = $molranges[$i] + 1;
-                $len = $molranges[$i + 1] - $offset;
-                $tdb[] = parseMol(array_slice($values, $offset, $len));
-            }
-        } else {
-            continue;
-        }
-    }
-    return $tdb;
+    // проход через структуры
+    foreach ($tags as $key=>$val) {
+        if ($key == "molecule") {
+            $molranges = $val;
+            // каждая смежная пара значений Масивов является верхней и
+            // нижней границей определения молекулы
+            for ($i=0; $i < count($molranges); $i+=2) {
+                $offset = $molranges[$i] + 1;
+                $len = $molranges[$i + 1] - $offset;
+                $tdb[] = parseMol(array_slice($values, $offset, $len));
+            }
+        } else {
+            continue;
+        }
+    }
+    return $tdb;
 }
 
-function parseMol($mvalues)
+function parseMol($mvalues)
 {
-    for ($i=0; $i < count($mvalues); $i++) {
-        $mol[$mvalues[$i]["tag"]] = $mvalues[$i]["value"];
-    }
-    return new AminoAcid($mol);
+    for ($i=0; $i < count($mvalues); $i++) {
+        $mol[$mvalues[$i]["tag"]] = $mvalues[$i]["value"];
+    }
+    return new AminoAcid($mol);
 }
 
-$db = readDatabase("moldb.xml");
-echo "** База данных аминокислот:\n";
+$db = readDatabase("moldb.xml");
+echo "** База данных аминокислот:\n";
 print_r($db);
 
 ?>

@@ -60,16 +60,16 @@ datefmt_set_calendar(IntlDateFormatter $formatter, IntlCalendar|int|null $calend
 
 ```php
 <?php
-$fmt = datefmt_create(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = datefmt_create(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Тип календаря средства форматирования : ' . datefmt_get_calendar($fmt);
-datefmt_set_calendar($fmt, IntlDateFormatter::TRADITIONAL);
-echo 'Теперь тип календаря : ' . datefmt_get_calendar($fmt);
+echo 'Тип календаря средства форматирования : ' . datefmt_get_calendar($fmt);
+datefmt_set_calendar($fmt, IntlDateFormatter::TRADITIONAL);
+echo 'Теперь тип календаря : ' . datefmt_get_calendar($fmt);
 ?>
 ```
 
@@ -77,16 +77,16 @@ echo 'Теперь тип календаря : ' . datefmt_get_calendar($
 
 ```php
 <?php
-$fmt = new IntlDateFormatter(
-    'en_US',
-    IntlDateFormatter::FULL,
-    IntlDateFormatter::FULL,
-    'America/Los_Angeles',
-    IntlDateFormatter::GREGORIAN
+$fmt = new IntlDateFormatter(
+    'en_US',
+    IntlDateFormatter::FULL,
+    IntlDateFormatter::FULL,
+    'America/Los_Angeles',
+    IntlDateFormatter::GREGORIAN
 );
-echo 'Тип календаря средства форматирования : ' . $fmt->getCalendar();
+echo 'Тип календаря средства форматирования : ' . $fmt->getCalendar();
 $fmt->setCalendar(IntlDateFormatter::TRADITIONAL);
-echo 'Теперь тип календаря : ' . $fmt->getCalendar();
+echo 'Теперь тип календаря : ' . $fmt->getCalendar();
 ?>
 ```
 
@@ -101,16 +101,16 @@ echo 'Теперь тип календаря : ' . $fmt->getCalendar();
 
 ```php
 <?php
-$time = strtotime("2013-03-03 00:00:00 UTC");
-$formatter = IntlDateFormatter::create("en_US", NULL, NULL, "Europe/Amsterdam");
+$time = strtotime("2013-03-03 00:00:00 UTC");
+$formatter = IntlDateFormatter::create("en_US", NULL, NULL, "Europe/Amsterdam");
 
-echo "До: ", $formatter->format($time), "\n";
+echo "До: ", $formatter->format($time), "\n";
 
-/* обратите внимание, что языковой стандарт календаря не используется! */
+/* обратите внимание, что языковой стандарт календаря не используется! */
 $formatter->setCalendar(IntlCalendar::createInstance(
-               "America/New_York", "pt_PT@calendar=islamic"));
+               "America/New_York", "pt_PT@calendar=islamic"));
 
-echo "После:  ", $formatter->format($time), "\n";
+echo "После:  ", $formatter->format($time), "\n";
 ```
 
 Результат виконання цього прикладу:

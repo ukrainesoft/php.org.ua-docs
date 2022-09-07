@@ -50,20 +50,20 @@ dio_seek(resource $fd, int $pos, int $whence = SEEK_SET): int
 ```php
 <?php
 
-$fd = dio_open('/dev/ttyS0', O_RDWR);
+$fd = dio_open('/dev/ttyS0', O_RDWR);
 
-dio_seek($fd, 10, SEEK_SET);
-// Текущая позиция - 10 байт от начала
+dio_seek($fd, 10, SEEK_SET);
+// Текущая позиция - 10 байт от начала
 
-dio_seek($fd, -2, SEEK_CUR);
-// Текущая позиция - 8 байт от начала
+dio_seek($fd, -2, SEEK_CUR);
+// Текущая позиция - 8 байт от начала
 
-dio_seek($fd, -5, SEEK_END);
-// Текущая позиция - 5 байт от конца
+dio_seek($fd, -5, SEEK_END);
+// Текущая позиция - 5 байт от конца
 
-dio_seek($fd, 10, SEEK_END);
-// Текущая позиция - 10 байт дальше конца файла
-// 10 байт от конца файла до текущей позиции заполнены нулями
+dio_seek($fd, 10, SEEK_END);
+// Текущая позиция - 10 байт дальше конца файла
+// 10 байт от конца файла до текущей позиции заполнены нулями
 
 dio_close($fd);
 ?>

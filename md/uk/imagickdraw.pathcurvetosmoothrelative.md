@@ -15,7 +15,7 @@ ImagickDraw::pathCurveToSmoothRelative — Малює кубічну криву 
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pathCurveToSmoothRelative(    float $x2,    float $y2,    float $x,    float $y): bool
+public ImagickDraw::pathCurveToSmoothRelative(    float $x2,    float $y2,    float $x,    float $y): bool
 ```
 
 **Увага**

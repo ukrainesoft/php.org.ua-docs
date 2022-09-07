@@ -44,10 +44,10 @@ public Imagick::clone(): Imagick
 
 ```php
 <?php
-// Клонирование объекта Imagick в imagick 2.x и 3.0:
-$newImage = $image->clone();
+// Клонирование объекта Imagick в imagick 2.x и 3.0:
+$newImage = $image->clone();
 
-// Клонирование объекта Imagick с версии 3.1.0:
-$newImage = clone $image;
+// Клонирование объекта Imagick с версии 3.1.0:
+$newImage = clone $image;
 ?>
 ```

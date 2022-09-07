@@ -31,7 +31,7 @@ public **mysqlxdevapiExpression::construct**(string `$expression`
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

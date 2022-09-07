@@ -15,7 +15,7 @@ ssh2scpsend — Надсилання файлу через SCP
 ### Опис
 
 ```methodsynopsis
-ssh2_scp_send(    resource $session,    string $local_file,    string $remote_file,    int $create_mode = 0644): bool
+ssh2_scp_send(    resource $session,    string $local_file,    string $remote_file,    int $create_mode = 0644): bool
 ```
 
 Копіювання файлу з клієнта на сервер за допомогою протоколу SCP.
@@ -48,10 +48,10 @@ ssh2_scp_send(    resource $session,    string $local_file,    strin
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
 
-ssh2_scp_send($connection, '/local/filename', '/remote/filename', 0644);
+ssh2_scp_send($connection, '/local/filename', '/remote/filename', 0644);
 ?>
 ```
 

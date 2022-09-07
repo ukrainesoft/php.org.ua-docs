@@ -42,20 +42,20 @@ mysql_list_dbs(resource $link_identifier = NULL): resource
 
 ```php
 <?php
-// Без использования mysql_list_dbs()
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-$res = mysql_query("SHOW DATABASES");
+// Без использования mysql_list_dbs()
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$res = mysql_query("SHOW DATABASES");
 
-while ($row = mysql_fetch_assoc($res)) {
-    echo $row['Database'] . "\n";
+while ($row = mysql_fetch_assoc($res)) {
+    echo $row['Database'] . "\n";
 }
 
-// Устарело, начиная с PHP 5.4.0
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-$db_list = mysql_list_dbs($link);
+// Устарело, начиная с PHP 5.4.0
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$db_list = mysql_list_dbs($link);
 
-while ($row = mysql_fetch_object($db_list)) {
-     echo $row->Database . "\n";
+while ($row = mysql_fetch_object($db_list)) {
+     echo $row->Database . "\n";
 }
 ?>
 ```

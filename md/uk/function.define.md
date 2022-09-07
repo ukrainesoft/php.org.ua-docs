@@ -68,21 +68,21 @@ define(string $constant_name, mixed $value, bool $case_insensitive = false): boo
 
 ```php
 <?php
-define("CONSTANT", "Hello world.");
-echo CONSTANT; // выводит "Hello world."
-echo Constant; // выводит "Constant" и выдаёт уведомление.
+define("CONSTANT", "Hello world.");
+echo CONSTANT; // выводит "Hello world."
+echo Constant; // выводит "Constant" и выдаёт уведомление.
 
-define("GREETING", "Hello you.", true);
-echo GREETING; // выводит "Hello you."
-echo Greeting; // выводит "Hello you."
+define("GREETING", "Hello you.", true);
+echo GREETING; // выводит "Hello you."
+echo Greeting; // выводит "Hello you."
 
-// Начиная с PHP 7
-define('ANIMALS', array(
-    'собака',
-    'кошка',
-    'птица'
+// Начиная с PHP 7
+define('ANIMALS', array(
+    'собака',
+    'кошка',
+    'птица'
 ));
-echo ANIMALS[1]; // выводит "кошка"
+echo ANIMALS[1]; // выводит "кошка"
 
 ?>
 ```
@@ -94,7 +94,7 @@ echo ANIMALS[1]; // выводит "кошка"
 ```php
 <?php
 var_dump(defined('__LINE__'));
-var_dump(define('__LINE__', 'test'));
+var_dump(define('__LINE__', 'test'));
 var_dump(constant('__LINE__'));
 var_dump(__LINE__);
 ?>

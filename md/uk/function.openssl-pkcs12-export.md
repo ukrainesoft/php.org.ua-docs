@@ -15,7 +15,7 @@ opensslpkcs12export — Експортує сумісний із PKCS#12 фай�
 ### Опис
 
 ```methodsynopsis
-openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    string &$output,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $passphrase,    array $options = []): bool
+openssl_pkcs12_export(    OpenSSLCertificate|string $certificate,    string &$output,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $private_key,    string $passphrase,    array $options = []): bool
 ```
 
 **opensslpkcs12export()** зберігає `x509` у змінну `out` у форматі PKCS#12.

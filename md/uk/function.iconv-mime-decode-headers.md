@@ -34,7 +34,7 @@ iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = nu
 
 | Значение | Константа | Описание |
 | --- | --- | --- |
-|  | ICONVMIMEDECODESTRICT | Строго дотримуватися стандартів, визначених у [» RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки `MIME` |
+|  | ICONVMIMEDECODESTRICT | Строго дотримуватися стандартів, визначених у [» RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки `MIME` |
 |  | ICONVMIMEDECODECONTINUEВІНERROR | Якщо встановлено, **iconvmimedecodeheaders()** намагатиметься ігнорувати будь-які помилки і продовжувати обробку поточного заголовка. |
 
 `encoding`
@@ -59,20 +59,20 @@ iconv_mime_decode_headers(string $headers, int $mode = 0, ?string $encoding = nu
 
 ```php
 <?php
-$headers_string = <<<EOF
-Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=
-To: example@example.com
-Date: Thu, 1 Jan 1970 00:00:00 +0000
-Message-Id: <example@example.com>
-Received: from localhost (localhost [127.0.0.1]) by localhost
-    with SMTP id example for <example@example.com>;
-    Thu, 1 Jan 1970 00:00:00 +0000 (UTC)
-    (envelope-from example-return-0000-example=example.com@example.com)
-Received: (qmail 0 invoked by uid 65534); 1 Thu 2003 00:00:00 +0000
+$headers_string = <<<EOF
+Subject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=
+To: example@example.com
+Date: Thu, 1 Jan 1970 00:00:00 +0000
+Message-Id: <example@example.com>
+Received: from localhost (localhost [127.0.0.1]) by localhost
+    with SMTP id example for <example@example.com>;
+    Thu, 1 Jan 1970 00:00:00 +0000 (UTC)
+    (envelope-from example-return-0000-example=example.com@example.com)
+Received: (qmail 0 invoked by uid 65534); 1 Thu 2003 00:00:00 +0000
 
 EOF;
 
-$headers =  iconv_mime_decode_headers($headers_string, 0, "ISO-8859-1");
+$headers =  iconv_mime_decode_headers($headers_string, 0, "ISO-8859-1");
 print_r($headers);
 ?>
 ```

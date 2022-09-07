@@ -44,22 +44,22 @@ public PharData::decompressFiles(): bool
 
 ```php
 <?php
-$p = new PharData('/path/to/my.zip');
-$p['myfile.txt'] = 'hi';
-$p['myfile2.txt'] = 'hi';
+$p = new PharData('/path/to/my.zip');
+$p['myfile.txt'] = 'hi';
+$p['myfile2.txt'] = 'hi';
 $p->compressFiles(Phar::GZ);
-foreach ($p as $file) {
-    var_dump($file->getFileName());
-    var_dump($file->isCompressed());
-    var_dump($file->isCompressed(Phar::BZ2));
-    var_dump($file->isCompressed(Phar::GZ));
+foreach ($p as $file) {
+    var_dump($file->getFileName());
+    var_dump($file->isCompressed());
+    var_dump($file->isCompressed(Phar::BZ2));
+    var_dump($file->isCompressed(Phar::GZ));
 }
 $p->decompressFiles();
-foreach ($p as $file) {
-    var_dump($file->getFileName());
-    var_dump($file->isCompressed());
-    var_dump($file->isCompressed(Phar::BZ2));
-    var_dump($file->isCompressed(Phar::GZ));
+foreach ($p as $file) {
+    var_dump($file->getFileName());
+    var_dump($file->isCompressed());
+    var_dump($file->isCompressed(Phar::BZ2));
+    var_dump($file->isCompressed(Phar::GZ));
 }
 ?>
 ```

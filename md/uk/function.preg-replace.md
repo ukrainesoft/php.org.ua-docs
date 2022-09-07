@@ -15,7 +15,7 @@ pregreplace — Здійснює пошук та заміну за регуля�
 ### Опис
 
 ```methodsynopsis
-preg_replace(    string|array $pattern,    string|array $replacement,    string|array $subject,    int $limit = -1,    int &$count = null): string|array|null
+preg_replace(    string|array $pattern,    string|array $replacement,    string|array $subject,    int $limit = -1,    int &$count = null): string|array|null
 ```
 
 Виконує пошук збігів у рядку `subject` із шаблоном `pattern` і замінює їх на `replacement`
@@ -72,10 +72,10 @@ preg_replace(    string|array $pattern,    string|array $replacement, �
 
 ```php
 <?php
-$string = 'April 15, 2003';
-$pattern = '/(\w+) (\d+), (\d+)/i';
-$replacement = '${1}1,$3';
-echo preg_replace($pattern, $replacement, $string);
+$string = 'April 15, 2003';
+$pattern = '/(\w+) (\d+), (\d+)/i';
+$replacement = '${1}1,$3';
+echo preg_replace($pattern, $replacement, $string);
 ?>
 ```
 
@@ -89,16 +89,16 @@ April1,2003
 
 ```php
 <?php
-$string = 'The quick brown fox jumps over the lazy dog.';
-$patterns = array();
-$patterns[0] = '/quick/';
-$patterns[1] = '/brown/';
-$patterns[2] = '/fox/';
-$replacements = array();
-$replacements[2] = 'bear';
-$replacements[1] = 'black';
-$replacements[0] = 'slow';
-echo preg_replace($patterns, $replacements, $string);
+$string = 'The quick brown fox jumps over the lazy dog.';
+$patterns = array();
+$patterns[0] = '/quick/';
+$patterns[1] = '/brown/';
+$patterns[2] = '/fox/';
+$replacements = array();
+$replacements[2] = 'bear';
+$replacements[1] = 'black';
+$replacements[0] = 'slow';
+echo preg_replace($patterns, $replacements, $string);
 ?>
 ```
 
@@ -114,7 +114,7 @@ The bear black slow jumps over the lazy dog.
 <?php
 ksort($patterns);
 ksort($replacements);
-echo preg_replace($patterns, $replacements, $string);
+echo preg_replace($patterns, $replacements, $string);
 ?>
 ```
 
@@ -128,10 +128,10 @@ The slow black bear jumps over the lazy dog.
 
 ```php
 <?php
-$patterns = array ('/(19|20)(\d{2})-(\d{1,2})-(\d{1,2})/',
-                   '/^\s*{(\w+)}\s*=/');
-$replace = array ('\3/\4/\1\2', '$\1 =');
-echo preg_replace($patterns, $replace, '{startDate} = 1999-5-27');
+$patterns = array ('/(19|20)(\d{2})-(\d{1,2})-(\d{1,2})/',
+                   '/^\s*{(\w+)}\s*=/');
+$replace = array ('\3/\4/\1\2', '$\1 =');
+echo preg_replace($patterns, $replace, '{startDate} = 1999-5-27');
 ?>
 ```
 
@@ -147,10 +147,10 @@ $startDate = 5/27/1999
 
 ```php
 <?php
-$str = 'foo   o';
-$str = preg_replace('/\s\s+/', ' ', $str);
-// Это теперь будет 'foo o'
-echo $str;
+$str = 'foo   o';
+$str = preg_replace('/\s\s+/', ' ', $str);
+// Это теперь будет 'foo o'
+echo $str;
 ?>
 ```
 
@@ -158,10 +158,10 @@ echo $str;
 
 ```php
 <?php
-$count = 0;
+$count = 0;
 
-echo preg_replace(array('/\d/', '/\s/'), '*', 'xp 4 to', -1 , $count);
-echo $count; //3
+echo preg_replace(array('/\d/', '/\s/'), '*', 'xp 4 to', -1 , $count);
+echo $count; //3
 ?>
 ```
 
@@ -184,10 +184,10 @@ xp***to
 > 
 > ```php
 > <?php
-> $p = array('/a/', '/b/', '/c/');
-> $r = array('b', 'c', 'd');
-> print_r(preg_replace($p, $r, 'a'));
-> // prints d
+> $p = array('/a/', '/b/', '/c/');
+> $r = array('b', 'c', 'd');
+> print_r(preg_replace($p, $r, 'a'));
+> // prints d
 > ?>
 > ```
 

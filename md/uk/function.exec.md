@@ -48,12 +48,12 @@ exec(string $command, array &$output = null, int &$result_code = null): string|f
 
 ```php
 <?php
-// выводит имя пользователя, от имени которого запущен процесс php/httpd
-// (применимо к системам с командой "whoami" в системном пути)
+// выводит имя пользователя, от имени которого запущен процесс php/httpd
+// (применимо к системам с командой "whoami" в системном пути)
 $output=null;
 $retval=null;
-exec('whoami', $output, $retval);
-echo "Вернёт статус $retval и значение:\n";
+exec('whoami', $output, $retval);
+echo "Вернёт статус $retval и значение:\n";
 print_r($output);
 ?>
 ```

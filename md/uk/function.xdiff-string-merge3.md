@@ -15,7 +15,7 @@ xdiffstringmerge3 — Об'єднати три рядки в один
 ### Опис
 
 ```methodsynopsis
-xdiff_string_merge3(    string $old_data,    string $new_data1,    string $new_data2,    string &$error = ?): mixed
+xdiff_string_merge3(    string $old_data,    string $new_data1,    string $new_data2,    string &$error = ?): mixed
 ```
 
 Поєднує три рядки в один і повертає результат. У параметрі `old_data` задається оригінальний рядок, а в `new_data1` і `new_data2` - Її модифіковані версії. Опціональний параметр `error` використовується для збереження помилок у процесі об'єднання.

@@ -42,11 +42,11 @@ phpversion(?string $extension = null): string|false
 
 ```php
 <?php
-// Выводит строку типа 'Текущая версия PHP: 4.1.1'
-echo 'Текущая версия PHP: ' . phpversion();
+// Выводит строку типа 'Текущая версия PHP: 4.1.1'
+echo 'Текущая версия PHP: ' . phpversion();
 
-// Выводит строку типа '2.0' или ничего, если модуль не включён
-echo phpversion('tidy');
+// Выводит строку типа '2.0' или ничего, если модуль не включён
+echo phpversion('tidy');
 ?>
 ```
 
@@ -54,33 +54,33 @@ echo phpversion('tidy');
 
 ```php
 <?php
-// PHP_VERSION_ID доступна в версиях PHP 5.2.7 и выше. Если
-// наша версия ниже, можно её сэмулировать
-if (!defined('PHP_VERSION_ID')) {
-    $version = explode('.', PHP_VERSION);
+// PHP_VERSION_ID доступна в версиях PHP 5.2.7 и выше. Если
+// наша версия ниже, можно её сэмулировать
+if (!defined('PHP_VERSION_ID')) {
+    $version = explode('.', PHP_VERSION);
 
-    define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));
+    define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));
 }
 
-// PHP_VERSION_ID определена как число. Чем больше число, тем новее
-// PHP. Эта константа задаётся по той же схеме, что приведена выше:
+// PHP_VERSION_ID определена как число. Чем больше число, тем новее
+// PHP. Эта константа задаётся по той же схеме, что приведена выше:
 //
-// $version_id = $major_version * 10000 + $minor_version * 100 + $release_version;
+// $version_id = $major_version * 10000 + $minor_version * 100 + $release_version;
 //
-// Теперь с PHP_VERSION_ID можно проверять, какая функциональность есть в
-// текущей версии PHP. Не обязательно пользоваться version_compare()
-// каждый раз, когда требуется проверить, поддерживает ли PHP нужную
-// нам функцию.
+// Теперь с PHP_VERSION_ID можно проверять, какая функциональность есть в
+// текущей версии PHP. Не обязательно пользоваться version_compare()
+// каждый раз, когда требуется проверить, поддерживает ли PHP нужную
+// нам функцию.
 //
-// Например, мы можем задать значения констант PHP_VERSION_*,
-// которые недоступны в версиях ранее 5.2.7
+// Например, мы можем задать значения констант PHP_VERSION_*,
+// которые недоступны в версиях ранее 5.2.7
 
-if (PHP_VERSION_ID < 50207) {
-    define('PHP_MAJOR_VERSION',   $version[0]);
-    define('PHP_MINOR_VERSION',   $version[1]);
-    define('PHP_RELEASE_VERSION', $version[2]);
+if (PHP_VERSION_ID < 50207) {
+    define('PHP_MAJOR_VERSION',   $version[0]);
+    define('PHP_MINOR_VERSION',   $version[1]);
+    define('PHP_RELEASE_VERSION', $version[2]);
 
-    // и так далее ...
+    // и так далее ...
 }
 ?>
 ```

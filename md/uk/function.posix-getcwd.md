@@ -36,7 +36,7 @@ posix_getcwd(): string|false
 
 ```php
 <?php
-echo 'My current working directory is '.posix_getcwd();
+echo 'My current working directory is '.posix_getcwd();
 ?>
 ```
 

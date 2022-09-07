@@ -47,13 +47,13 @@ public ZipArchive::statName(string $name, int $flags = 0): array|false
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip');
-if ($res === TRUE) {
-    print_r($zip->statName('foobar/baz'));
-    $zip->close();
-} else {
-    echo 'Ошибка с кодом:' . $res;
+$zip = new ZipArchive;
+$res = $zip->open('test.zip');
+if ($res === TRUE) {
+    print_r($zip->statName('foobar/baz'));
+    $zip->close();
+} else {
+    echo 'Ошибка с кодом:' . $res;
 }
 ?>
 ```

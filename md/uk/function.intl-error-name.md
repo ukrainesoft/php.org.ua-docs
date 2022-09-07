@@ -36,10 +36,10 @@ intl_error_name(int $errorCode): string
 
 ```php
 <?php
-$coll     = collator_create( 'en_RU' );
-$err_code = collator_get_error_code( $coll );
+$coll     = collator_create( 'en_RU' );
+$err_code = collator_get_error_code( $coll );
 
-printf( "Символическое имя для %d - %s\n.", $err_code, intl_error_name( $err_code ) );
+printf( "Символическое имя для %d - %s\n.", $err_code, intl_error_name( $err_code ) );
 ?>
 ```
 

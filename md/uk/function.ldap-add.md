@@ -15,7 +15,7 @@ ldapadd — Додати запис до LDAP директорії
 ### Опис
 
 ```methodsynopsis
-ldap_add(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
+ldap_add(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
 ```
 
 Додає запис до LDAP-директорії.
@@ -36,9 +36,9 @@ ldap_add(    LDAP\Connection $ldap,    string $dn,    array $entry,�
 
 ```php
 <?php
-$entry["attribute1"] = "value";
-$entry["attribute2"][0] = "value1";
-$entry["attribute2"][1] = "value2";
+$entry["attribute1"] = "value";
+$entry["attribute2"][0] = "value1";
+$entry["attribute2"][1] = "value2";
 ?>
 ```
 
@@ -64,23 +64,23 @@ $entry["attribute2"][1] = "value2";
 
 ```php
 <?php
-$ds = ldap_connect("localhost");  // предположим, что сервер LDAP находится тут
+$ds = ldap_connect("localhost");  // предположим, что сервер LDAP находится тут
 
-if ($ds) {
-    // привязка к соответствующему dn для возможности обновления
-    $r = ldap_bind($ds, "cn=root, o=My Company, c=US", "secret");
+if ($ds) {
+    // привязка к соответствующему dn для возможности обновления
+    $r = ldap_bind($ds, "cn=root, o=My Company, c=US", "secret");
 
-    // подготовить данные
-    $info["cn"] = "John Jones";
-    $info["sn"] = "Jones";
-    $info["objectclass"] = "person";
+    // подготовить данные
+    $info["cn"] = "John Jones";
+    $info["sn"] = "Jones";
+    $info["objectclass"] = "person";
 
-    // добавить данные
-    $r = ldap_add($ds, "cn=John Jones, o=My Company, c=US", $info);
+    // добавить данные
+    $r = ldap_add($ds, "cn=John Jones, o=My Company, c=US", $info);
 
-    ldap_close($ds);
-} else {
-    echo "Невозможно соединиться с сервером LDAP";
+    ldap_close($ds);
+} else {
+    echo "Невозможно соединиться с сервером LDAP";
 }
 ?>
 ```

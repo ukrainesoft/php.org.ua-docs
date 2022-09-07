@@ -15,7 +15,7 @@ GmagickDraw::line — Малює лінію
 ### Опис
 
 ```methodsynopsis
-public GmagickDraw::line(    float $sx,    float $sy,    float $ex,    float $ey): GmagickDraw
+public GmagickDraw::line(    float $sx,    float $sy,    float $ex,    float $ey): GmagickDraw
 ```
 
 Малює лінію на зображенні, використовуючи поточний колір обведення, прозорість і ширину.

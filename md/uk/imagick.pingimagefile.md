@@ -42,13 +42,13 @@ public Imagick::pingImageFile(resource $filehandle, string $fileName = ?): bool
 
 ```php
 <?php
-/* Открытие удалённой локации с помощью fopen */
-$fp = fopen("http://example.com/test.jpg");
+/* Открытие удалённой локации с помощью fopen */
+$fp = fopen("http://example.com/test.jpg");
 
-/* Создание нового объекта Imagick */
-$im = new Imagick();
+/* Создание нового объекта Imagick */
+$im = new Imagick();
 
-/* Передача дескриптора объекту Imagick */
+/* Передача дескриптора объекту Imagick */
 $im->pingImageFile($fp);
 ?>
 ```

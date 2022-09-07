@@ -48,17 +48,17 @@ public RegexIterator::setMode(int $mode): void
 
 ```php
 <?php
-$test = array ('str1' => 'test 1', 'test str2' => 'another test', 'str3' => 'test 123');
+$test = array ('str1' => 'test 1', 'test str2' => 'another test', 'str3' => 'test 123');
 
-$arrayIterator = new ArrayIterator($test);
-// Отбор всех элементов, которые начинаются со слова 'test ', за которым идут числа
-$regexIterator = new RegexIterator($arrayIterator, '/^test (\d+)/');
-// Режим работы: Замена совпавших строк
+$arrayIterator = new ArrayIterator($test);
+// Отбор всех элементов, которые начинаются со слова 'test ', за которым идут числа
+$regexIterator = new RegexIterator($arrayIterator, '/^test (\d+)/');
+// Режим работы: Замена совпавших строк
 $regexIterator->setMode(RegexIterator::GET_MATCH);
 
-foreach ($regexIterator as $key => $value) {
-    // вывод совпавших чисел
-    echo $key . ' => ' . $value[1] . PHP_EOL;
+foreach ($regexIterator as $key => $value) {
+    // вывод совпавших чисел
+    echo $key . ' => ' . $value[1] . PHP_EOL;
 }
 ?>
 ```

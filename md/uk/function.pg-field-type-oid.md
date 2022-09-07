@@ -52,12 +52,12 @@ OID базового типу значень поля.
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с базой");
+  $dbconn = pg_connect("dbname=publisher") or die("Невозможно соединиться с базой");
 
-  // Допустим, 'title' имеет тип varchar
-  $res = pg_query($dbconn, "select title from authors where author = 'Orwell'");
+  // Допустим, 'title' имеет тип varchar
+  $res = pg_query($dbconn, "select title from authors where author = 'Orwell'");
 
-  echo "Title field type OID: ", pg_field_type_oid($res, 0);
+  echo "Title field type OID: ", pg_field_type_oid($res, 0);
 ?>
 ```
 

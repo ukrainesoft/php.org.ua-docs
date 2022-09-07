@@ -44,25 +44,25 @@ OID екземпляра, існування якого потрібно пер�
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-$sql = <<<EOD
-SELECT host_year, medal, game_date
-FROM game
-WHERE athlete_code IN
-    (SELECT code FROM athlete WHERE name='Thorpe Ian');
+$sql = <<<EOD
+SELECT host_year, medal, game_date
+FROM game
+WHERE athlete_code IN
+    (SELECT code FROM athlete WHERE name='Thorpe Ian');
 EOD;
 
-$req = cubrid_execute($conn, $sql, CUBRID_INCLUDE_OID);
-$oid = cubrid_current_oid($req);
+$req = cubrid_execute($conn, $sql, CUBRID_INCLUDE_OID);
+$oid = cubrid_current_oid($req);
 
-$res = cubrid_is_instance ($conn, $oid);
-if ($res == 1) {
-    echo "Экземпляр, на который указывает $oid, существует.\n";
-} else if ($res == 0){
-    echo "Экземпляр, на который указывает $oid, не существует.\n";
-} else {
-    echo "Ошибка\n";
+$res = cubrid_is_instance ($conn, $oid);
+if ($res == 1) {
+    echo "Экземпляр, на который указывает $oid, существует.\n";
+} else if ($res == 0){
+    echo "Экземпляр, на который указывает $oid, не существует.\n";
+} else {
+    echo "Ошибка\n";
 }
 
 cubrid_disconnect($conn);

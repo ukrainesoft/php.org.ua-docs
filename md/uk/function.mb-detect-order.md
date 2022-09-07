@@ -56,17 +56,17 @@ mb_detect_order(array|string|null $encoding = null): array|bool
 
 ```php
 <?php
-/* Установка порядка определения в виде упорядоченного списка */
+/* Установка порядка определения в виде упорядоченного списка */
 mb_detect_order("eucjp-win,sjis-win,UTF-8");
 
-/* Установка списка кодировок в виде Масива */
-$ary[] = "ASCII";
-$ary[] = "JIS";
-$ary[] = "EUC-JP";
+/* Установка списка кодировок в виде Масива */
+$ary[] = "ASCII";
+$ary[] = "JIS";
+$ary[] = "EUC-JP";
 mb_detect_order($ary);
 
-/* Вывод текущего списка кодировок */
-echo implode(", ", mb_detect_order());
+/* Вывод текущего списка кодировок */
+echo implode(", ", mb_detect_order());
 ?>
 ```
 

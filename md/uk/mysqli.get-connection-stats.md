@@ -50,7 +50,7 @@ mysqli_get_connection_stats(mysqli $mysql): array
 
 ```php
 <?php
-$link = mysqli_connect();
+$link = mysqli_connect();
 print_r(mysqli_get_connection_stats($link));
 ?>
 ```

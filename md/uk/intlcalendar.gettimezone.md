@@ -44,16 +44,16 @@ intlcal_get_time_zone(IntlCalendar $calendar): IntlTimeZone|false
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'en_US');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'en_US');
 
-$cal = IntlCalendar::createInstance();
+$cal = IntlCalendar::createInstance();
 print_r($cal->getTimeZone());
 
 $cal->setTimeZone('UTC');
 print_r($cal->getTimeZone());
 
-$cal = IntlCalendar::fromDateTime('2012-01-01 00:00:00 GMT+03:33');
+$cal = IntlCalendar::fromDateTime('2012-01-01 00:00:00 GMT+03:33');
 print_r($cal->getTimeZone());
 ```
 

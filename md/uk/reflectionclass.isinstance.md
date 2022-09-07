@@ -36,21 +36,21 @@ public ReflectionClass::isInstance(object $object): bool
 
 ```php
 <?php
-// Пример использования
-$class = new ReflectionClass('Foo');
+// Пример использования
+$class = new ReflectionClass('Foo');
 
-if ($class->isInstance($arg)) {
-    echo "Yes";
+if ($class->isInstance($arg)) {
+    echo "Yes";
 }
 
-// Аналогично этому
-if ($arg instanceof Foo) {
-    echo "Yes";
+// Аналогично этому
+if ($arg instanceof Foo) {
+    echo "Yes";
 }
 
-// Аналогично этому
-if (is_a($arg, 'Foo')) {
-    echo "Yes";
+// Аналогично этому
+if (is_a($arg, 'Foo')) {
+    echo "Yes";
 }
 ?>
 ```

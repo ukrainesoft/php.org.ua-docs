@@ -46,20 +46,20 @@ cubrid_move_cursor(resource $req_identifier, int $offset, int $origin = CUBRID_C
 
 ```php
 <?php
-$conn = cubrid_connect("127.0.0.1", 33000, "demodb", "dba");
+$conn = cubrid_connect("127.0.0.1", 33000, "demodb", "dba");
 
-$req = cubrid_execute($conn, "SELECT * FROM code");
-cubrid_move_cursor($req, 1, CUBRID_CURSOR_LAST);
+$req = cubrid_execute($conn, "SELECT * FROM code");
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_LAST);
 
-$result = cubrid_fetch_row($req);
+$result = cubrid_fetch_row($req);
 var_dump($result);
 
-cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
-$result = cubrid_fetch_row($req);
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
+$result = cubrid_fetch_row($req);
 var_dump($result);
 
-cubrid_move_cursor($req, 1, CUBRID_CURSOR_CURRENT);
-$result = cubrid_fetch_row($req);
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_CURRENT);
+$result = cubrid_fetch_row($req);
 var_dump($result);
 
 cubrid_close_request($req);

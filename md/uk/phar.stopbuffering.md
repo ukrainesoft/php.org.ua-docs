@@ -42,17 +42,17 @@ public Phar::stopBuffering(): void
 
 ```php
 <?php
-$p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
-$p['file1.txt'] = 'hi';
+$p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+$p['file1.txt'] = 'hi';
 $p->startBuffering();
 var_dump($p->getStub());
 $p->setStub("<?php
-function __autoload(\$class)
+function __autoload(\$class)
 {
-    include 'phar://brandnewphar.phar/' . str_replace('_', '/', \$class) . '.php';
+    include 'phar://brandnewphar.phar/' . str_replace('_', '/', \$class) . '.php';
 }
 Phar::mapPhar('brandnewphar.phar');
-include 'phar://brandnewphar.phar/startup.php';
+include 'phar://brandnewphar.phar/startup.php';
 __HALT_COMPILER();");
 $p->stopBuffering();
 var_dump($p->getStub());

@@ -15,7 +15,7 @@ filegetcontents — Читає вміст файлу в рядок
 ### Опис
 
 ```methodsynopsis
-file_get_contents(    string $filename,    bool $use_include_path = false,    ?resource $context = null,    int $offset = 0,    ?int $length = null): string|false
+file_get_contents(    string $filename,    bool $use_include_path = false,    ?resource $context = null,    int $offset = 0,    ?int $length = null): string|false
 ```
 
 Ця функція схожа на функцію [file()](function.file.md) з тією лише різницею, що **filegetcontents()** повертає вміст файлу в рядку, починаючи з вказаного усунення `offset` і до `length` байт. У разі невдачі, **filegetcontents()** поверне **`false`**
@@ -79,8 +79,8 @@ file_get_contents(    string $filename,    bool $use_include_path = fals
 
 ```php
 <?php
-$homepage = file_get_contents('http://www.example.com/');
-echo $homepage;
+$homepage = file_get_contents('http://www.example.com/');
+echo $homepage;
 ?>
 ```
 
@@ -88,10 +88,10 @@ echo $homepage;
 
 ```php
 <?php
-// Если включены строгие типы, то есть объявлено (strict_types=1);
-$file = file_get_contents('./people.txt', true);
-// Иначе
-$file = file_get_contents('./people.txt', FILE_USE_INCLUDE_PATH);
+// Если включены строгие типы, то есть объявлено (strict_types=1);
+$file = file_get_contents('./people.txt', true);
+// Иначе
+$file = file_get_contents('./people.txt', FILE_USE_INCLUDE_PATH);
 ?>
 ```
 
@@ -99,8 +99,8 @@ $file = file_get_contents('./people.txt', FILE_USE_INCLUDE_PATH);
 
 ```php
 <?php
-// Читаем 14 символов, начиная с 21 символа
-$section = file_get_contents('./people.txt', FALSE, NULL, 20, 14);
+// Читаем 14 символов, начиная с 21 символа
+$section = file_get_contents('./people.txt', FALSE, NULL, 20, 14);
 var_dump($section);
 ?>
 ```
@@ -115,19 +115,19 @@ string(14) "lle Bjori Ro"
 
 ```php
 <?php
-// Создаём поток
-$opts = array(
-  'http'=>array(
-    'method'=>"GET",
-    'header'=>"Accept-language: en\r\n" .
-              "Cookie: foo=bar\r\n"
-  )
+// Создаём поток
+$opts = array(
+  'http'=>array(
+    'method'=>"GET",
+    'header'=>"Accept-language: en\r\n" .
+              "Cookie: foo=bar\r\n"
+  )
 );
 
-$context = stream_context_create($opts);
+$context = stream_context_create($opts);
 
-// Открываем файл с помощью установленных выше HTTP-заголовков
-$file = file_get_contents('http://www.example.com/', false, $context);
+// Открываем файл с помощью установленных выше HTTP-заголовков
+$file = file_get_contents('http://www.example.com/', false, $context);
 ?>
 ```
 

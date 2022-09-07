@@ -15,7 +15,7 @@ opensslseal — Задрукувати (зашифрувати) дані
 ### Опис
 
 ```methodsynopsis
-openssl_seal(    string $data,    string &$sealed_data,    array &$encrypted_keys,    array $public_key,    string $cipher_algo,    string &$iv = null): int|false
+openssl_seal(    string $data,    string &$sealed_data,    array &$encrypted_keys,    array $public_key,    string $cipher_algo,    string &$iv = null): int|false
 ```
 
 **opensslseal()** запечатує (шифрує) `data`, використовуючи метод `cipher_algo` із згенерованим випадково секретним ключем. Ключ буде зашифрований кожним відкритим ключем, вказаним у масиві `public_key`, і кожен зашифрований ключ буде поміщений у `encrypted_keys`. Тобто ви можете надіслати запечатані дані відразу кільком одержувачам. Кожен отримувач повинен отримати як запечатані дані, так і зашифрований відповідним відкритим ключем ключ для їхнього відкриття.
@@ -68,34 +68,34 @@ openssl_seal(    string $data,    string &$sealed_data,    array &$e
 
 ```php
 <?php
-// $data содержит данные для запечатывания
+// $data содержит данные для запечатывания
 
-// извлекаем открытые ключи получателей и подготавливаем их
-$fp = fopen("/src/openssl-0.9.6/demos/maurice/cert.pem", "r");
-$cert = fread($fp, 8192);
+// извлекаем открытые ключи получателей и подготавливаем их
+$fp = fopen("/src/openssl-0.9.6/demos/maurice/cert.pem", "r");
+$cert = fread($fp, 8192);
 fclose($fp);
-$pk1 = openssl_get_publickey($cert);
-// повторяем для второго получателя
-$fp = fopen("/src/openssl-0.9.6/demos/sign/cert.pem", "r");
-$cert = fread($fp, 8192);
+$pk1 = openssl_get_publickey($cert);
+// повторяем для второго получателя
+$fp = fopen("/src/openssl-0.9.6/demos/sign/cert.pem", "r");
+$cert = fread($fp, 8192);
 fclose($fp);
-$pk2 = openssl_get_publickey($cert);
+$pk2 = openssl_get_publickey($cert);
 
-// задаём метод
-$method = 'AES256';
+// задаём метод
+$method = 'AES256';
 
-// генерируем IV
-$ivLength = openssl_cipher_iv_length( $method );
-$iv = openssl_random_pseudo_bytes( $ivLength, $strong );
-if (! $strong) {
- error_log('Инициализирующий вектор может быть не крипографически сильным!');
+// генерируем IV
+$ivLength = openssl_cipher_iv_length( $method );
+$iv = openssl_random_pseudo_bytes( $ivLength, $strong );
+if (! $strong) {
+ error_log('Инициализирующий вектор может быть не крипографически сильным!');
 }
 
-// запечатываем сообщение, только владельцы $pk1 и $pk2 смогут его распечатать,
-// используя ключи $ekeys[0] и $ekeys[1] соответственно.
-openssl_seal($data, $sealed, $ekeys, array($pk1, $pk2), $method, $iv);
+// запечатываем сообщение, только владельцы $pk1 и $pk2 смогут его распечатать,
+// используя ключи $ekeys[0] и $ekeys[1] соответственно.
+openssl_seal($data, $sealed, $ekeys, array($pk1, $pk2), $method, $iv);
 
-// освобождаем ресурсы ключей
+// освобождаем ресурсы ключей
 openssl_free_key($pk1);
 openssl_free_key($pk2);
 ?>

@@ -15,7 +15,7 @@ ssh2publickeyadd — Додає авторизований відкритий к
 ### Опис
 
 ```methodsynopsis
-ssh2_publickey_add(    resource $pkey,    string $algoname,    string $blob,    bool $overwrite = false,    array $attributes = ?): bool
+ssh2_publickey_add(    resource $pkey,    string $algoname,    string $blob,    bool $overwrite = false,    array $attributes = ?): bool
 ```
 
 > **Зауваження**: Підсистема відкритих ключів використовується для керування відкритими ключами на сервері, на якому клієнт *вже* пройшов авторизацію. Для авторизації за допомогою відкритого ключа на віддаленій системі, використовуйте натомість функцію [ssh2authpubkeyfile()](function.ssh2-auth-pubkey-file.md)
@@ -52,17 +52,17 @@ ssh2_publickey_add(    resource $pkey,    string $algoname,    strin
 
 ```php
 <?php
-$ssh2 = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($ssh2, 'jdoe', 'password');
-$pkey = ssh2_publickey_init($ssh2);
+$ssh2 = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($ssh2, 'jdoe', 'password');
+$pkey = ssh2_publickey_init($ssh2);
 
-$keyblob = base64_decode('
+$keyblob = base64_decode('
 AAAAB3NzaC1yc2EAAAABIwAAAIEA5HVt6VqSGd5PTrLRdjNONxXH1tVFGn0
 Bd26BF0aCP9qyJRlvdJ3j4WBeX4ZmrveGrjMgkseSYc4xZ26sDHwfL351xj
 zaLpipu\BGRrw17mWVBhuCExo476ri5tQFzbTc54VEHYckxQ16CjSTibI5X
 69GmnYC9PNqEYq/1TP+HF10=');
 
-ssh2_publickey_add($pkey, 'ssh-rsa', $keyblob, false, array('comment'=>"John's Key"));
+ssh2_publickey_add($pkey, 'ssh-rsa', $keyblob, false, array('comment'=>"John's Key"));
 ?>
 ```
 

@@ -45,9 +45,9 @@ exit(int $status): void
 ```php
 <?php
 
-$filename = '/path/to/data-file';
-$file = fopen($filename, 'r')
-    or exit("Невозможно открыть файл ($filename)");
+$filename = '/path/to/data-file';
+$file = fopen($filename, 'r')
+    or exit("Невозможно открыть файл ($filename)");
 
 ?>
 ```
@@ -57,14 +57,14 @@ $file = fopen($filename, 'r')
 ```php
 <?php
 
-//обычный выход из программы
+//обычный выход из программы
 exit;
 exit();
 exit(0);
 
-//выход с кодом ошибки
+//выход с кодом ошибки
 exit(1);
-exit(0376); //восьмеричный
+exit(0376); //восьмеричный
 
 ?>
 ```
@@ -73,24 +73,24 @@ exit(0376); //восьмеричный
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    public function __destruct()
-    {
-        echo 'Деинициализировать: ' . __METHOD__ . '()' . PHP_EOL;
-    }
+    public function __destruct()
+    {
+        echo 'Деинициализировать: ' . __METHOD__ . '()' . PHP_EOL;
+    }
 }
 
-function shutdown()
+function shutdown()
 {
-    echo 'Завершить: ' . __FUNCTION__ . '()' . PHP_EOL;
+    echo 'Завершить: ' . __FUNCTION__ . '()' . PHP_EOL;
 }
 
-$foo = new Foo();
+$foo = new Foo();
 register_shutdown_function('shutdown');
 
 exit();
-echo 'Эта строка не будет выведена.';
+echo 'Эта строка не будет выведена.';
 ?>
 ```
 

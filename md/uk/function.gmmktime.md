@@ -15,7 +15,7 @@ gmmktime — Повертає локальну мітку часу Unix для �
 ### Опис
 
 ```methodsynopsis
-gmmktime(    int $hour,    ?int $minute = null,    ?int $second = null,    ?int $month = null,    ?int $day = null,    ?int $year = null): int|false
+gmmktime(    int $hour,    ?int $minute = null,    ?int $second = null,    ?int $month = null,    ?int $day = null,    ?int $year = null): int|false
 ```
 
 Ця функція ідентична функції [mktime()](function.mktime.md), за винятком того, що аргументи є часом за Грінвічем (GMT) . **gmmktime()** всередині використовує [mktime()](function.mktime.md), тому можуть бути використані лише ті дати місцевого часу, які коректно надаються в цьому часовому поясі.
@@ -67,8 +67,8 @@ gmmktime(    int $hour,    ?int $minute = null,    ?int $second = nu
 
 ```php
 <?php
-// Выводит: July 1, 2000 is on a Saturday
-echo "July 1, 2000 is on a " . date("l", gmmktime(0, 0, 0, 7, 1, 2000));
+// Выводит: July 1, 2000 is on a Saturday
+echo "July 1, 2000 is on a " . date("l", gmmktime(0, 0, 0, 7, 1, 2000));
 ?>
 ```
 

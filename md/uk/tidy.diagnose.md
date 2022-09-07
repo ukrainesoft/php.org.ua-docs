@@ -47,21 +47,21 @@ tidy_diagnose(tidy $tidy): bool
 ```php
 <?php
 
-$html = <<< HTML
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+$html = <<< HTML
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <p>параграф</p>
 HTML;
 
-$tidy = tidy_parse_string($html);
+$tidy = tidy_parse_string($html);
 $tidy->cleanRepair();
 
-// обратите внимание на разницу между двумя выводами
-echo $tidy->errorBuffer . "\n";
+// обратите внимание на разницу между двумя выводами
+echo $tidy->errorBuffer . "\n";
 
 $tidy->diagnose();
-echo $tidy->errorBuffer;
+echo $tidy->errorBuffer;
 
 ?>
 ```

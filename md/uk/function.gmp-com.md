@@ -36,8 +36,8 @@ gmp_com(GMP|int|string $num): GMP
 
 ```php
 <?php
-$com = gmp_com("1234");
-echo gmp_strval($com) . "\n";
+$com = gmp_com("1234");
+echo gmp_strval($com) . "\n";
 ?>
 ```
 

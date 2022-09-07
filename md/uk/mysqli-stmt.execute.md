@@ -61,36 +61,36 @@ mysqli_stmt_execute(mysqli_stmt $statement, ?array $params = null): bool
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$mysqli->query("CREATE TEMPORARY TABLE myCity LIKE City");
+$mysqli->query("CREATE TEMPORARY TABLE myCity LIKE City");
 
-/* Подготавливаем утверждение на вставку строк */
-$stmt = $mysqli->prepare("INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)");
+/* Подготавливаем утверждение на вставку строк */
+$stmt = $mysqli->prepare("INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)");
 
-/* Связываем переменные с метками */
-$stmt->bind_param("sss", $val1, $val2, $val3);
+/* Связываем переменные с метками */
+$stmt->bind_param("sss", $val1, $val2, $val3);
 
-$val1 = 'Stuttgart';
-$val2 = 'DEU';
-$val3 = 'Baden-Wuerttemberg';
+$val1 = 'Stuttgart';
+$val2 = 'DEU';
+$val3 = 'Baden-Wuerttemberg';
 
-/* Выполняем утверждение */
+/* Выполняем утверждение */
 $stmt->execute();
 
-$val1 = 'Bordeaux';
-$val2 = 'FRA';
-$val3 = 'Aquitaine';
+$val1 = 'Bordeaux';
+$val2 = 'FRA';
+$val3 = 'Aquitaine';
 
-/* Выполняем утверждение */
+/* Выполняем утверждение */
 $stmt->execute();
 
-/* Получаем все строки из myCity */
-$query = "SELECT Name, CountryCode, District FROM myCity";
-$result = $mysqli->query($query);
-while ($row = $result->fetch_row()) {
-    printf("%s (%s,%s)\n", $row[0], $row[1], $row[2]);
+/* Получаем все строки из myCity */
+$query = "SELECT Name, CountryCode, District FROM myCity";
+$result = $mysqli->query($query);
+while ($row = $result->fetch_row()) {
+    printf("%s (%s,%s)\n", $row[0], $row[1], $row[2]);
 }
 ```
 
@@ -99,36 +99,36 @@ while ($row = $result->fetch_row()) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-mysqli_query($link, "CREATE TEMPORARY TABLE myCity LIKE City");
+mysqli_query($link, "CREATE TEMPORARY TABLE myCity LIKE City");
 
-/* Подготавливаем утверждение на вставку строк */
-$stmt = mysqli_prepare($link, "INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)");
+/* Подготавливаем утверждение на вставку строк */
+$stmt = mysqli_prepare($link, "INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)");
 
-/* Связываем переменные с метками */
-mysqli_stmt_bind_param($stmt, "sss", $val1, $val2, $val3);
+/* Связываем переменные с метками */
+mysqli_stmt_bind_param($stmt, "sss", $val1, $val2, $val3);
 
-$val1 = 'Stuttgart';
-$val2 = 'DEU';
-$val3 = 'Baden-Wuerttemberg';
+$val1 = 'Stuttgart';
+$val2 = 'DEU';
+$val3 = 'Baden-Wuerttemberg';
 
-/* Выполняем утверждение */
+/* Выполняем утверждение */
 mysqli_stmt_execute($stmt);
 
-$val1 = 'Bordeaux';
-$val2 = 'FRA';
-$val3 = 'Aquitaine';
+$val1 = 'Bordeaux';
+$val2 = 'FRA';
+$val3 = 'Aquitaine';
 
-/* Выполняем утверждение */
+/* Выполняем утверждение */
 mysqli_stmt_execute($stmt);
 
-/* Получаем все строки из myCity */
-$query = "SELECT Name, CountryCode, District FROM myCity";
-$result = mysqli_query($link, $query);
-while ($row = mysqli_fetch_row($result)) {
-    printf("%s (%s,%s)\n", $row[0], $row[1], $row[2]);
+/* Получаем все строки из myCity */
+$query = "SELECT Name, CountryCode, District FROM myCity";
+$result = mysqli_query($link, $query);
+while ($row = mysqli_fetch_row($result)) {
+    printf("%s (%s,%s)\n", $row[0], $row[1], $row[2]);
 }
 ```
 
@@ -146,22 +146,22 @@ Bordeaux (FRA,Aquitaine)
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');
 
-$mysqli->query('CREATE TEMPORARY TABLE myCity LIKE City');
+$mysqli->query('CREATE TEMPORARY TABLE myCity LIKE City');
 
-/* Подготавливаем утверждение на вставку строк */
-$stmt = $mysqli->prepare('INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)');
+/* Подготавливаем утверждение на вставку строк */
+$stmt = $mysqli->prepare('INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)');
 
-/* Выполняем утверждение */
-$stmt->execute(['Stuttgart', 'DEU', 'Baden-Wuerttemberg']);
+/* Выполняем утверждение */
+$stmt->execute(['Stuttgart', 'DEU', 'Baden-Wuerttemberg']);
 
-/* Получаем все строки из myCity */
-$query = 'SELECT Name, CountryCode, District FROM myCity';
-$result = $mysqli->query($query);
-while ($row = $result->fetch_row()) {
-    printf("%s (%s,%s)\n", $row[0], $row[1], $row[2]);
+/* Получаем все строки из myCity */
+$query = 'SELECT Name, CountryCode, District FROM myCity';
+$result = $mysqli->query($query);
+while ($row = $result->fetch_row()) {
+    printf("%s (%s,%s)\n", $row[0], $row[1], $row[2]);
 }
 ```
 
@@ -170,22 +170,22 @@ while ($row = $result->fetch_row()) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect('localhost', 'my_user', 'my_password', 'world');
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect('localhost', 'my_user', 'my_password', 'world');
 
-mysqli_query($link, 'CREATE TEMPORARY TABLE myCity LIKE City');
+mysqli_query($link, 'CREATE TEMPORARY TABLE myCity LIKE City');
 
-/* Подготавливаем утверждение на вставку строк */
-$stmt = mysqli_prepare($link, 'INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)');
+/* Подготавливаем утверждение на вставку строк */
+$stmt = mysqli_prepare($link, 'INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)');
 
-/* Выполняем утверждение */
-mysqli_stmt_execute($stmt, ['Stuttgart', 'DEU', 'Baden-Wuerttemberg']);
+/* Выполняем утверждение */
+mysqli_stmt_execute($stmt, ['Stuttgart', 'DEU', 'Baden-Wuerttemberg']);
 
-/* Получаем все строки из myCity */
-$query = 'SELECT Name, CountryCode, District FROM myCity';
-$result = mysqli_query($link, $query);
-while ($row = mysqli_fetch_row($result)) {
-    printf("%s (%s,%s)\n", $row[0], $row[1], $row[2]);
+/* Получаем все строки из myCity */
+$query = 'SELECT Name, CountryCode, District FROM myCity';
+$result = mysqli_query($link, $query);
+while ($row = mysqli_fetch_row($result)) {
+    printf("%s (%s,%s)\n", $row[0], $row[1], $row[2]);
 }
 ```
 

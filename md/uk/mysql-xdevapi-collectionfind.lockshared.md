@@ -49,21 +49,21 @@ public mysql_xdevapi\CollectionFind::lockShared(int $lock_waiting_option = ?): m
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
 $session->startTransaction();
 
-$result = $collection
-  ->find("age > 50")
-  ->lockShared()
-  ->execute();
+$result = $collection
+  ->find("age > 50")
+  ->lockShared()
+  ->execute();
 
-// ... читаем объект в режиме совместного использования
+// ... читаем объект в режиме совместного использования
 
-// Завершаем транзакцию и разблокируем документ
+// Завершаем транзакцию и разблокируем документ
 $session->commit();
 ?>
 ```

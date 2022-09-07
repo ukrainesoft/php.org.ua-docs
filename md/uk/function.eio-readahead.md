@@ -15,7 +15,7 @@ eioreadahead — Поміщає дані з файлу до кешу сторі�
 ### Опис
 
 ```methodsynopsis
-eio_readahead(    mixed $fd,    int $offset,    int $length,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_readahead(    mixed $fd,    int $offset,    int $length,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eioreadahead()** заповнює кеш сторінки даними із файлу. Таким чином, подальші звернення до цього файлу не впливатимуть на роботу дискової підсистеми. Детальнішу інформацію можна отримати на сторінці посібника `READAHEAD(2)`
@@ -43,7 +43,7 @@ eio_readahead(    mixed $fd,    int $offset,    int $length,    
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`

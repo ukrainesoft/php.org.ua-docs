@@ -43,8 +43,8 @@ public DateInterval::format(string $format): string
 ```php
 <?php
 
-$interval = new DateInterval('P2Y4DT6H8M');
-echo $interval->format('%d days');
+$interval = new DateInterval('P2Y4DT6H8M');
+echo $interval->format('%d days');
 
 ?>
 ```
@@ -60,8 +60,8 @@ echo $interval->format('%d days');
 ```php
 <?php
 
-$interval = new DateInterval('P32D');
-echo $interval->format('%d days');
+$interval = new DateInterval('P32D');
+echo $interval->format('%d days');
 
 ?>
 ```
@@ -77,15 +77,15 @@ echo $interval->format('%d days');
 ```php
 <?php
 
-$january = new DateTime('2010-01-01');
-$february = new DateTime('2010-02-01');
-$interval = $february->diff($january);
+$january = new DateTime('2010-01-01');
+$february = new DateTime('2010-02-01');
+$interval = $february->diff($january);
 
-// %a выведет общее количество дней.
-echo $interval->format('%a total days')."\n";
+// %a выведет общее количество дней.
+echo $interval->format('%a total days')."\n";
 
-// В то время как %d выведет только число дней, не покрытых месяцем
-echo $interval->format('%m month, %d days');
+// В то время как %d выведет только число дней, не покрытых месяцем
+echo $interval->format('%m month, %d days');
 
 ?>
 ```

@@ -40,15 +40,15 @@ public OAuthProvider::timestampNonceHandler(callable $callback_function): void
 
 ```php
 <?php
-function timestampNonceChecker($provider) {
+function timestampNonceChecker($provider) {
 
-    if ($provider->nonce === 'bad') {
-        return OAUTH_BAD_NONCE;
-    } elseif ($provider->timestamp == '0') {
-        return OAUTH_BAD_TIMESTAMP;
-    }
+    if ($provider->nonce === 'bad') {
+        return OAUTH_BAD_NONCE;
+    } elseif ($provider->timestamp == '0') {
+        return OAUTH_BAD_TIMESTAMP;
+    }
 
-    return OAUTH_OK;
+    return OAUTH_OK;
 }
 ?>
 ```

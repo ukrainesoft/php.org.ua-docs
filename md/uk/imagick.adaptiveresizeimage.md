@@ -15,7 +15,7 @@ Imagick::adaptiveResizeImage — Адаптивна зміна розміру з
 ### Опис
 
 ```methodsynopsis
-public Imagick::adaptiveResizeImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
+public Imagick::adaptiveResizeImage(    int $columns,    int $rows,    bool $bestfit = false,    bool $legacy = false): bool
 ```
 
 Адаптивна зміна розміру зображення з даними тріангуляції. Дозволяє уникнути розмиття через різку зміну кольору. Найчастіше використовується зменшення зображень трохи менше " розміру для web " ; виходить погано, коли повнорозмірне зображення адаптивно змінюється мініатюру. Цей метод доступний, якщо Imagick був скомпільований з версією ImageMagick 6.2.9 або старшим.
@@ -59,12 +59,12 @@ public Imagick::adaptiveResizeImage(    int $columns,    int $rows,  �
 
 ```php
 <?php
-header('Content-type: image/jpeg');
+header('Content-type: image/jpeg');
 
-$image = new Imagick('image.jpg');
+$image = new Imagick('image.jpg');
 $image->adaptiveResizeImage(1024,768);
 
-echo $image;
+echo $image;
 ?>
 ```
 

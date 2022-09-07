@@ -15,7 +15,7 @@ tradercdl3linestrike - Потрійний удар
 ### Опис
 
 ```methodsynopsis
-trader_cdl3linestrike(    array $open,    array $high,    array $low,    array $close): array
+trader_cdl3linestrike(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

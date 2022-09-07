@@ -17,16 +17,16 @@ EventUtil::setSocketOption — Встановити опції сокету
 ```methodsynopsis
 public
    static
-   EventUtil::setSocketOption(    
+   EventUtil::setSocketOption(    
     mixed
      $socket
-   ,    
+   ,    
     int
      $level
-   ,    
+   ,    
     int
      $optname
-   ,    
+   ,    
     mixed
      $optval
    ): bool

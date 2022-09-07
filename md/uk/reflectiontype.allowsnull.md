@@ -34,10 +34,10 @@ public ReflectionType::allowsNull(): bool
 
 ```php
 <?php
-function someFunction(string $param, StdClass $param2 = null) {}
+function someFunction(string $param, StdClass $param2 = null) {}
 
-$reflectionFunc = new ReflectionFunction('someFunction');
-$reflectionParams = $reflectionFunc->getParameters();
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParams = $reflectionFunc->getParameters();
 
 var_dump($reflectionParams[0]->getType()->allowsNull());
 var_dump($reflectionParams[1]->getType()->allowsNull());

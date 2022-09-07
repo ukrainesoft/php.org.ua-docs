@@ -56,13 +56,13 @@ openssl_spki_new(OpenSSLAsymmetricKey $private_key, string $challenge, int $dige
 
 ```php
 <?php
-$pkey = openssl_pkey_new('secret password');
-$spkac = openssl_spki_new($pkey, 'testing');
+$pkey = openssl_pkey_new('secret password');
+$spkac = openssl_spki_new($pkey, 'testing');
 
-if ($spkac !== NULL) {
-    echo $spkac;
-} else {
-    echo "Генерация SPKAC не удалась";
+if ($spkac !== NULL) {
+    echo $spkac;
+} else {
+    echo "Генерация SPKAC не удалась";
 }
 ?>
 ```

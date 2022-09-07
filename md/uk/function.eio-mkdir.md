@@ -15,7 +15,7 @@ eiomkdir - Створення директорії
 ### Опис
 
 ```methodsynopsis
-eio_mkdir(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_mkdir(    string $path,    int $mode,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiomkdir()** створює директорію із заданим режимом доступу `mode`
@@ -39,7 +39,7 @@ eio_mkdir(    string $path,    int $mode,    int $pri = EIO_PRI_DEFA
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -68,23 +68,23 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-$temp_dirname = "eio-temp-dir";
+$temp_dirname = "eio-temp-dir";
 
-/* Вызывается, когда eio_mkdir() завершит работу */
-function my_mkdir_callback($data, $result) {
- if ($result == 0 && is_dir($temp_dirname)
-   && !is_readable($temp_dirname)
-   && is_writable($temp_dirname)) {
-  echo "eio_mkdir_ok";
- }
+/* Вызывается, когда eio_mkdir() завершит работу */
+function my_mkdir_callback($data, $result) {
+ if ($result == 0 && is_dir($temp_dirname)
+   && !is_readable($temp_dirname)
+   && is_writable($temp_dirname)) {
+  echo "eio_mkdir_ok";
+ }
 
- // Удаляем директорию
-    if (file_exists($data))
-        rmdir($temp_dirname);
+ // Удаляем директорию
+    if (file_exists($data))
+        rmdir($temp_dirname);
 }
 
-// Создаём директорию с режимом доступа 0300
-eio_mkdir($temp_dirname, 0300, EIO_PRI_DEFAULT, "my_mkdir_callback", $temp_dirname);
+// Создаём директорию с режимом доступа 0300
+eio_mkdir($temp_dirname, 0300, EIO_PRI_DEFAULT, "my_mkdir_callback", $temp_dirname);
 eio_event_loop();
 ?>
 ```

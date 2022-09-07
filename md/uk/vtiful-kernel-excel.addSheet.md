@@ -36,25 +36,25 @@ public Vtiful\Kernel\Excel::addSheet(string $sheetName)
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$fileObject  = new \Vtiful\Kernel\Excel($config);
+$fileObject  = new \Vtiful\Kernel\Excel($config);
 
-$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
-    ->header(['name', 'age'])
-    ->data([
-        ['viest', 23],
-        ['wjx', 23]
-    ]);
+$file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
+    ->header(['name', 'age'])
+    ->data([
+        ['viest', 23],
+        ['wjx', 23]
+    ]);
 
 $file->addSheet('sheet_two')
-    ->header(['name', 'age'])
-    ->data([
-        ['james', 33],
-        ['king', 33]
-    ]);
+    ->header(['name', 'age'])
+    ->data([
+        ['james', 33],
+        ['king', 33]
+    ]);
 
 $file->output();
 ?>

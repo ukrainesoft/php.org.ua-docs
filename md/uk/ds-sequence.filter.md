@@ -42,10 +42,10 @@ callback(mixed $value): bool
 
 ```php
 <?php
-$sequence = new \Ds\Vector([1, 2, 3, 4, 5]);
+$sequence = new \Ds\Vector([1, 2, 3, 4, 5]);
 
-var_dump($sequence->filter(function($value) {
-    return $value % 2 == 0;
+var_dump($sequence->filter(function($value) {
+    return $value % 2 == 0;
 }));
 ?>
 ```
@@ -65,7 +65,7 @@ object(Ds\Vector)#3 (2) {
 
 ```php
 <?php
-$sequence = new \Ds\Vector([0, 1, 'a', true, false]);
+$sequence = new \Ds\Vector([0, 1, 'a', true, false]);
 
 var_dump($sequence->filter());
 ?>

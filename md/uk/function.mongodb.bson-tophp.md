@@ -41,7 +41,7 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 ### Помилки
 
 -   Видає [MongoDBDriverExceptionInvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)якщо клас у карті типів не може бути створений або не реалізує [MongoDBBSONUnserializable](class.mongodb-bson-unserializable.md)
--   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
+-   Виняток [MongoDBDriverExceptionUnexpectedValueException](class.mongodb-driver-exception-unexpectedvalueexception.md) викидається, якщо вхідні дані не є одним документом BSON. Можливі причини включають, але не обмежені некоректним BSON, зайвими даними або несподіваною помилкою [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 
 ### список змін
 
@@ -65,8 +65,8 @@ MongoDB\BSON\toPHP(string $bson, array $typeMap = array()): array|object
 ```php
 <?php
 
-$bson = hex2bin('0e00000010666f6f000100000000');
-$value = MongoDB\BSON\toPHP($bson);
+$bson = hex2bin('0e00000010666f6f000100000000');
+$value = MongoDB\BSON\toPHP($bson);
 var_dump($value);
 
 ?>
@@ -84,5 +84,5 @@ object(stdClass)#1 (1) {
 ### Дивіться також
 
 -   [MongoDBBSONfromPHP()](function.mongodb.bson-fromphp.md) - Повертає представлення BSON значення PHP
--   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
 -   [Постійні дані](mongodb.persistence.md)

@@ -25,7 +25,7 @@ public DateTime::setISODate(int $year, int $week, int $dayOfWeek = 1): DateTime
 Процедурний стиль
 
 ```methodsynopsis
-date_isodate_set(    DateTime $object,    int $year,    int $week,    int $dayOfWeek = 1): DateTime
+date_isodate_set(    DateTime $object,    int $year,    int $week,    int $dayOfWeek = 1): DateTime
 ```
 
 Встановлення дати відповідно до стандарту ISO 8601, в якому використання тижнів та зміщення днями переважніше вказівки дати.

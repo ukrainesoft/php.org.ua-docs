@@ -42,16 +42,16 @@ pg_unescape_bytea(string $string): string
 
 ```php
 <?php
-  // Подключение к базе данных
-  $dbconn = pg_connect('dbname=foo');
+  // Подключение к базе данных
+  $dbconn = pg_connect('dbname=foo');
 
-  // Получение bytea данных
-  $res = pg_query("SELECT data FROM gallery WHERE name='Pine trees'");
-  $raw = pg_fetch_result($res, 'data');
+  // Получение bytea данных
+  $res = pg_query("SELECT data FROM gallery WHERE name='Pine trees'");
+  $raw = pg_fetch_result($res, 'data');
 
-  // Преобразование в двоичный формат и отправка в броузер
-  header('Content-type: image/jpeg');
-  echo pg_unescape_bytea($raw);
+  // Преобразование в двоичный формат и отправка в броузер
+  header('Content-type: image/jpeg');
+  echo pg_unescape_bytea($raw);
 ?>
 ```
 

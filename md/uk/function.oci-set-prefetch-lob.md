@@ -47,21 +47,21 @@ oci_set_prefetch_lob(resource $statement, int $prefetch_lob_size): bool
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
 
-$stid = oci_parse($conn, 'SELECT myclob FROM mytable');
-oci_set_prefetch_lob($stid, 100000);  // Установка значения перед вызовом oci_execute()
+$stid = oci_parse($conn, 'SELECT myclob FROM mytable');
+oci_set_prefetch_lob($stid, 100000);  // Установка значения перед вызовом oci_execute()
 oci_execute($stid);
 
-echo "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS+OCI_RETURN_LOBS)) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;")."</td>\n";
-    }
-    echo "</tr>\n";
+echo "<table border='1'>\n";
+while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS+OCI_RETURN_LOBS)) {
+    echo "<tr>\n";
+    foreach ($row as $item) {
+        echo "    <td>".($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;")."</td>\n";
+    }
+    echo "</tr>\n";
 }
-echo "</table>\n";
+echo "</table>\n";
 
 oci_free_statement($stid);
 oci_close($conn);

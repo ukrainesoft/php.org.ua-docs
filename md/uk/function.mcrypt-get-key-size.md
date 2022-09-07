@@ -52,7 +52,7 @@ mcrypt_get_key_size(string $cipher, string $mode): int|false
 
 ```php
 <?php
-    echo mcrypt_get_key_size('tripledes', 'ecb');
+    echo mcrypt_get_key_size('tripledes', 'ecb');
 ?>
 ```
 

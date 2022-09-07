@@ -44,13 +44,13 @@ public Imagick::haldClutImage(Imagick $clut, int $channel = Imagick::CHANNEL_DEF
 
 ```php
 <?php
-function haldClutImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagickPalette = new \Imagick(realpath("images/hald/hald_8.png"));
-    $imagickPalette->sepiatoneImage(55);
-    $imagick->haldClutImage($imagickPalette);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function haldClutImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagickPalette = new \Imagick(realpath("images/hald/hald_8.png"));
+    $imagickPalette->sepiatoneImage(55);
+    $imagick->haldClutImage($imagickPalette);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

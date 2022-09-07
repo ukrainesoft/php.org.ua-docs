@@ -19,7 +19,7 @@ rar:// - RAR
 Якщо символ решітки та частина імені запису не увімкнена, буде відображено корінь архіву. Це відрізняється від звичайних директорій тим, що результуючий потік не міститиме таку інформацію, як час модифікації, оскільки коренева директорія не зберігається як окремий запис в архіві. Використання обгортки з [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md) вимагає, щоб символ решітки був включений до URL, коли відбувається доступ до кореня, так щоб URL нащадків міг бути сконструйований правильно.
 
 > **Зауваження** **Ця обгортка не включена за замовчуванням**  
-> Для того щоб використовувати обгортку rar://, вам необхідно встановити модуль [» rar](https://pecl.php.net/package/rar), доступний з репозиторію [» PECL](https://pecl.php.net/)
+> Для того щоб використовувати обгортку rar://, вам необхідно встановити модуль [» rar](https://pecl.php.net/package/rar), доступний з репозиторію [» PECL](https://pecl.php.net/)
 
 rar:// Доступно з PECL rar 3.0.0
 
@@ -60,20 +60,20 @@ rar:// Доступно з PECL rar 3.0.0
 ```php
 <?php
 
-class MyRecDirIt extends RecursiveDirectoryIterator {
-    function current() {
-        return rawurldecode($this->getSubPathName()) .
-            (is_dir(parent::current())?" [DIR]":"");
-    }
+class MyRecDirIt extends RecursiveDirectoryIterator {
+    function current() {
+        return rawurldecode($this->getSubPathName()) .
+            (is_dir(parent::current())?" [DIR]":"");
+    }
 }
 
-$f = "rar://" . rawurlencode(dirname(__FILE__)) .
-    DIRECTORY_SEPARATOR . 'dirs_and_extra_headers.rar#';
+$f = "rar://" . rawurlencode(dirname(__FILE__)) .
+    DIRECTORY_SEPARATOR . 'dirs_and_extra_headers.rar#';
 
-$it = new RecursiveTreeIterator(new MyRecDirIt($f));
+$it = new RecursiveTreeIterator(new MyRecDirIt($f));
 
-foreach ($it as $s) {
-    echo $s, "\n";
+foreach ($it as $s) {
+    echo $s, "\n";
 }
 ?>
 ```
@@ -100,21 +100,21 @@ foreach ($it as $s) {
 
 ```php
 <?php
-$stream = fopen("rar://" .
-    rawurlencode(dirname(__FILE__)) . DIRECTORY_SEPARATOR .
-    'encrypted_headers.rar' . '#encfile1.txt', "r", false,
-    stream_context_create(
-        array(
-            'rar' =>
-                array(
-                    'open_password' => 'samplepassword'
-                )
-            )
-        )
-    );
+$stream = fopen("rar://" .
+    rawurlencode(dirname(__FILE__)) . DIRECTORY_SEPARATOR .
+    'encrypted_headers.rar' . '#encfile1.txt', "r", false,
+    stream_context_create(
+        array(
+            'rar' =>
+                array(
+                    'open_password' => 'samplepassword'
+                )
+            )
+        )
+    );
 var_dump(stream_get_contents($stream));
-/* дата создания и дата последнего доступа включается опционально в WinRAR, поэтому у
- * большинства файлов их нет */
+/* дата создания и дата последнего доступа включается опционально в WinRAR, поэтому у
+ * большинства файлов их нет */
 var_dump(fstat($stream));
 ?>
 ```

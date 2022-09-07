@@ -30,22 +30,22 @@ public Yaf_Application::clearLastError(): Yaf_Application
 
 ```php
 <?php
-function error_handler($errno, $errstr, $errfile, $errline) {
-   Yaf_Application::app()->clearLastError();
-   var_dump(Yaf_Application::app()->getLastErrorNo());
+function error_handler($errno, $errstr, $errfile, $errline) {
+   Yaf_Application::app()->clearLastError();
+   var_dump(Yaf_Application::app()->getLastErrorNo());
 }
 
-$config = array(
- "application" => array(
-   "directory" => "/tmp/notexists",
-     "dispatcher" => array(
-       "throwException" => 0, //вызывать ошибку вместо исключения
-      ),
-  ),
+$config = array(
+ "application" => array(
+   "directory" => "/tmp/notexists",
+     "dispatcher" => array(
+       "throwException" => 0, //вызывать ошибку вместо исключения
+      ),
+  ),
 );
 
-$app = new Yaf_Application($config);
-$app->getDispatcher()->setErrorHandler("error_handler", E_RECOVERABLE_ERROR);
+$app = new Yaf_Application($config);
+$app->getDispatcher()->setErrorHandler("error_handler", E_RECOVERABLE_ERROR);
 $app->run();
 ?>
 ```

@@ -15,7 +15,7 @@ ldapmodreplaceext — Замінити значення атрибута на н
 ### Опис
 
 ```methodsynopsis
-ldap_mod_replace_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
+ldap_mod_replace_ext(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): LDAP\Result|false
 ```
 
 Робить те саме, що й [ldapmodreplace()](function.ldap-mod-replace.md), але повертає екземпляр [LDAPResult](class.ldap-result.md) для розбору за допомогою [ldapparseresult()](function.ldap-parse-result.md)

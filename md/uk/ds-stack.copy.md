@@ -34,10 +34,10 @@ public Ds\Stack::copy(): Ds\Stack
 
 ```php
 <?php
-$a = new \Ds\Stack([1, 2, 3]);
-$b = $a->copy();
+$a = new \Ds\Stack([1, 2, 3]);
+$b = $a->copy();
 
-// Изменение копии не отражается на оригинале
+// Изменение копии не отражается на оригинале
 $b->push(4);
 
 print_r($a);

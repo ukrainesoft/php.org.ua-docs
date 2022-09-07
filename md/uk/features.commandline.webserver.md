@@ -89,11 +89,11 @@ Press Ctrl-C to quit
 
 ```php
 <?php
-// router.php
-if (preg_match('/\.(?:png|jpg|jpeg|gif)$/', $_SERVER["REQUEST_URI"])) {
-    return false;    // сервер возвращает файлы напрямую.
-} else {
-    echo "<p>Добро пожаловать в PHP</p>";
+// router.php
+if (preg_match('/\.(?:png|jpg|jpeg|gif)$/', $_SERVER["REQUEST_URI"])) {
+    return false;    // сервер возвращает файлы напрямую.
+} else {
+    echo "<p>Добро пожаловать в PHP</p>";
 }
 ?>
 ```
@@ -110,11 +110,11 @@ $ php -S localhost:8000 router.php
 
 ```php
 <?php
-// router.php
-if (php_sapi_name() == 'cli-server') {
-    /* Маршрутизация с заданными правилами и возврат false */
+// router.php
+if (php_sapi_name() == 'cli-server') {
+    /* Маршрутизация с заданными правилами и возврат false */
 }
-/* продолжение с обычными операциями index.php */
+/* продолжение с обычными операциями index.php */
 ?>
 ```
 
@@ -126,14 +126,14 @@ $ php -S localhost:8000 router.php
 
 ```php
 <?php
-// router.php
-$path = pathinfo($_SERVER["SCRIPT_FILENAME"]);
-if ($path["extension"] == "el") {
-    header("Content-Type: text/x-script.elisp");
-    readfile($_SERVER["SCRIPT_FILENAME"]);
+// router.php
+$path = pathinfo($_SERVER["SCRIPT_FILENAME"]);
+if ($path["extension"] == "el") {
+    header("Content-Type: text/x-script.elisp");
+    readfile($_SERVER["SCRIPT_FILENAME"]);
 }
-else {
-    return FALSE;
+else {
+    return FALSE;
 }
 ?>
 ```

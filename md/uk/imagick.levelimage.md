@@ -15,7 +15,7 @@ Imagick::levelImage — Регулює рівні зображення
 ### Опис
 
 ```methodsynopsis
-public Imagick::levelImage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Imagick::CHANNEL_DEFAULT): bool
+public Imagick::levelImage(    float $blackPoint,    float $gamma,    float $whitePoint,    int $channel = Imagick::CHANNEL_DEFAULT): bool
 ```
 
 Регулює рівні зображення, масштабуючи кольори, що потрапляють між зазначеними білими та чорними точками, до доступного квантового діапазону. Надані параметри є чорними, середніми і білими точками. Чорна точка визначає темний колір зображення. Кольори темніші за крапку чорного встановлюються на нуль. Середня точка визначає гамма-корекцію, що застосовується до зображення. Біла точка визначає найсвітліший колір зображення. Для кольорів яскравіше крапки білого встановлюється максимальне квантове значення.
@@ -52,16 +52,16 @@ public Imagick::levelImage(    float $blackPoint,    float $gamma,   
 
 ```php
 <?php
-function levelImage($blackPoint, $gamma, $whitePoint) {
-    $imagick = new \Imagick();
-    $imagick->newPseudoimage(500, 500, 'gradient:black-white');
+function levelImage($blackPoint, $gamma, $whitePoint) {
+    $imagick = new \Imagick();
+    $imagick->newPseudoimage(500, 500, 'gradient:black-white');
 
-    $imagick->setFormat('png');
-    $quantum = $imagick->getQuantum();
-    $imagick->levelImage($blackPoint / 100 , $gamma, $quantum * $whitePoint / 100);
+    $imagick->setFormat('png');
+    $quantum = $imagick->getQuantum();
+    $imagick->levelImage($blackPoint / 100 , $gamma, $quantum * $whitePoint / 100);
 
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

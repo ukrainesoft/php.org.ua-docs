@@ -47,19 +47,19 @@ public DOMXPath::evaluate(string $expression, ?DOMNode $contextNode = null, bool
 ```php
 <?php
 
-$doc = new DOMDocument;
+$doc = new DOMDocument;
 
 $doc->load('book.xml');
 
-$xpath = new DOMXPath($doc);
+$xpath = new DOMXPath($doc);
 
-$tbody = $doc->getElementsByTagName('tbody')->item(0);
+$tbody = $doc->getElementsByTagName('tbody')->item(0);
 
-// запрос относительно узла tbody
-$query = 'count(row/entry[. = "en"])';
+// запрос относительно узла tbody
+$query = 'count(row/entry[. = "en"])';
 
-$entries = $xpath->evaluate($query, $tbody);
-echo "Есть $entries английские книги\n";
+$entries = $xpath->evaluate($query, $tbody);
+echo "Есть $entries английские книги\n";
 
 ?>
 ```

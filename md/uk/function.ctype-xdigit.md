@@ -44,13 +44,13 @@ ctype_xdigit(mixed $text): bool
 
 ```php
 <?php
-$strings = array('AB10BC99', 'AR1012', 'ab12bc99');
-foreach ($strings as $testcase) {
-    if (ctype_xdigit($testcase)) {
-        echo "Строка $testcase состоит из шестнадцатеричных цифр.\n";
-    } else {
-        echo "Строка $testcase состоит не только из шестнадцатеричных цифр.\n";
-    }
+$strings = array('AB10BC99', 'AR1012', 'ab12bc99');
+foreach ($strings as $testcase) {
+    if (ctype_xdigit($testcase)) {
+        echo "Строка $testcase состоит из шестнадцатеричных цифр.\n";
+    } else {
+        echo "Строка $testcase состоит не только из шестнадцатеричных цифр.\n";
+    }
 }
 ?>
 ```

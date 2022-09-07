@@ -38,15 +38,15 @@ public PharFileInfo::getMetadata(array $unserializeOptions = []): mixed
 
 ```php
 <?php
-// удалим, на всякий случай
+// удалим, на всякий случай
 @unlink('brandnewphar.phar');
-try {
-    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
-    $p['file.txt'] = 'hello';
-    $p['file.txt']->setMetadata(array('user' => 'bill', 'mime-type' => 'text/plain'));
-    var_dump($p['file.txt']->getMetadata());
-} catch (Exception $e) {
-    echo 'Не удалось создать/изменить brandnewphar.phar: ', $e;
+try {
+    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');
+    $p['file.txt'] = 'hello';
+    $p['file.txt']->setMetadata(array('user' => 'bill', 'mime-type' => 'text/plain'));
+    var_dump($p['file.txt']->getMetadata());
+} catch (Exception $e) {
+    echo 'Не удалось создать/изменить brandnewphar.phar: ', $e;
 }
 ?>
 ```

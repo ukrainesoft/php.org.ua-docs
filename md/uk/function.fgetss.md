@@ -50,21 +50,21 @@ fgetss(resource $handle, int $length = ?, string $allowable_tags = ?): string
 
 ```php
 <?php
-$str = <<<EOD
+$str = <<<EOD
 <html><body>
- <p>Добро пожаловать! Сегодня <?php echo(date('jS F')); ?>.</p>
+ <p>Добро пожаловать! Сегодня <?php echo(date('jS F')); ?>.</p>
 </body></html>
-Текст вне HTML-блока.
+Текст вне HTML-блока.
 EOD;
-file_put_contents('sample.php', $str);
+file_put_contents('sample.php', $str);
 
-$handle = @fopen("sample.php", "r");
-if ($handle) {
-    while (!feof($handle)) {
-        $buffer = fgetss($handle, 4096);
-        echo $buffer;
-    }
-    fclose($handle);
+$handle = @fopen("sample.php", "r");
+if ($handle) {
+    while (!feof($handle)) {
+        $buffer = fgetss($handle, 4096);
+        echo $buffer;
+    }
+    fclose($handle);
 }
 ?>
 ```

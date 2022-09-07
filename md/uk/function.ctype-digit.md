@@ -44,13 +44,13 @@ ctype_digit(mixed $text): bool
 
 ```php
 <?php
-$strings = array('1820.20', '10002', 'wsl!12');
-foreach ($strings as $testcase) {
-    if (ctype_digit($testcase)) {
-        echo "Строка $testcase состоит только из цифр.\n";
-    } else {
-        echo "Строка $testcase не состоит только из цифр.\n";
-    }
+$strings = array('1820.20', '10002', 'wsl!12');
+foreach ($strings as $testcase) {
+    if (ctype_digit($testcase)) {
+        echo "Строка $testcase состоит только из цифр.\n";
+    } else {
+        echo "Строка $testcase не состоит только из цифр.\n";
+    }
 }
 ?>
 ```
@@ -68,14 +68,14 @@ foreach ($strings as $testcase) {
 ```php
 <?php
 
-$numeric_string = '42';
-$integer        = 42;
+$numeric_string = '42';
+$integer        = 42;
 
-ctype_digit($numeric_string);  // true
-ctype_digit($integer);         // false (ASCII 42 - это символ *)
+ctype_digit($numeric_string);  // true
+ctype_digit($integer);         // false (ASCII 42 - это символ *)
 
-is_numeric($numeric_string);   // true
-is_numeric($integer);          // true
+is_numeric($numeric_string);   // true
+is_numeric($integer);          // true
 ?>
 ```
 

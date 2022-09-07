@@ -54,12 +54,12 @@ numfmt_set_attribute(NumberFormatter $formatter, int $attribute, int|float $valu
 
 ```php
 <?php
-$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
-echo "Цифр: ".numfmt_get_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGITS)."\n";
-echo numfmt_format($fmt, 1234567.891234567890000)."\n";
-numfmt_set_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGITS, 2);
-echo "Цифр: ".numfmt_get_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGITS)."\n";
-echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );
+echo "Цифр: ".numfmt_get_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGITS)."\n";
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
+numfmt_set_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGITS, 2);
+echo "Цифр: ".numfmt_get_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGITS)."\n";
+echo numfmt_format($fmt, 1234567.891234567890000)."\n";
 ?>
 ```
 
@@ -67,12 +67,12 @@ echo numfmt_format($fmt, 1234567.891234567890000)."\n";
 
 ```php
 <?php
-$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
-echo "Цифр: ".$fmt->getAttribute(NumberFormatter::MAX_FRACTION_DIGITS)."\n";
-echo $fmt->format(1234567.891234567890000)."\n";
-$fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 2);
-echo "Цифр: ".$fmt->getAttribute(NumberFormatter::MAX_FRACTION_DIGITS)."\n";
-echo $fmt->format(1234567.891234567890000)."\n";
+$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );
+echo "Цифр: ".$fmt->getAttribute(NumberFormatter::MAX_FRACTION_DIGITS)."\n";
+echo $fmt->format(1234567.891234567890000)."\n";
+$fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 2);
+echo "Цифр: ".$fmt->getAttribute(NumberFormatter::MAX_FRACTION_DIGITS)."\n";
+echo $fmt->format(1234567.891234567890000)."\n";
 ?>
 ```
 

@@ -15,7 +15,7 @@ tradercdldoji — Дожі
 ### Опис
 
 ```methodsynopsis
-trader_cdldoji(    array $open,    array $high,    array $low,    array $close): array
+trader_cdldoji(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

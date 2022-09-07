@@ -45,15 +45,15 @@ public
 
 ```php
 <?php
-$zk = new Zookeeper();
+$zk = new Zookeeper();
 $zk->connect('localhost:2181');
-$zk->addAuth('digest', 'timandes:timandes');
-$zkConfig = $zk->getConfig();
-$r = $zkConfig->get();
-if ($r)
-  echo $r;
+$zk->addAuth('digest', 'timandes:timandes');
+$zkConfig = $zk->getConfig();
+$r = $zkConfig->get();
+if ($r)
+  echo $r;
 else
-  echo 'Ошибка';
+  echo 'Ошибка';
 ?>
 ```
 

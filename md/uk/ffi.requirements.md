@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Для роботи модуля необхідно встановити бібліотеку [» libffi](https://sourceware.org/libffi/)
+Для роботи модуля необхідно встановити бібліотеку [» libffi](https://sourceware.org/libffi/)

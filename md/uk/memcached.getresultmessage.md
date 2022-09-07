@@ -34,12 +34,12 @@ public Memcached::getResultMessage(): string
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$m->add('foo', 'bar'); // первое добавление успешно выполнится
-$m->add('foo', 'bar');
-echo $m->getResultMessage(),"\n";
+$m->add('foo', 'bar'); // первое добавление успешно выполнится
+$m->add('foo', 'bar');
+echo $m->getResultMessage(),"\n";
 ?>
 ```
 

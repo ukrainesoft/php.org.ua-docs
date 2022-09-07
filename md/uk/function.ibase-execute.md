@@ -45,18 +45,18 @@ ibase_execute(resource $query, mixed ...$values): resource
 ```php
 <?php
 
-$dbh = ibase_connect($host, $username, $password);
+$dbh = ibase_connect($host, $username, $password);
 
-$updates = array(
-    1 => 'Eric',
-    5 => 'Filip',
-    7 => 'Larry'
+$updates = array(
+    1 => 'Eric',
+    5 => 'Filip',
+    7 => 'Larry'
 );
 
-$query = ibase_prepare($dbh, "UPDATE FOO SET BAR = ? WHERE BAZ = ?");
+$query = ibase_prepare($dbh, "UPDATE FOO SET BAR = ? WHERE BAZ = ?");
 
-foreach ($updates as $baz => $bar) {
-    ibase_execute($query, $bar, $baz);
+foreach ($updates as $baz => $bar) {
+    ibase_execute($query, $bar, $baz);
 }
 
 ?>

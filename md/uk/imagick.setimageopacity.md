@@ -42,15 +42,15 @@ public Imagick::setImageOpacity(float $opacity): bool
 
 ```php
 <?php
-/* Создание объекта */
-$image = new Imagick('source.png');
+/* Создание объекта */
+$image = new Imagick('source.png');
 
-/* Установка непрозрачности */
+/* Установка непрозрачности */
 $image->setImageOpacity(0.7);
 
-/* Вывод изображения */
-header('Content-type: image/png');
-echo $image;
+/* Вывод изображения */
+header('Content-type: image/png');
+echo $image;
 
 ?>
 ```

@@ -15,7 +15,7 @@ svnфсcontentschanged - Повертає **`true`**, якщо вміст від
 ### Опис
 
 ```methodsynopsis
-svn_fs_contents_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
+svn_fs_contents_changed(    resource $root1,    string $path1,    resource $root2,    string $path2): bool
 ```
 
 **Увага**

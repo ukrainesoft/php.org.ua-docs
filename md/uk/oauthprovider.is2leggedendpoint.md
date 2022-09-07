@@ -39,7 +39,7 @@ public OAuthProvider::is2LeggedEndpoint(mixed $params_array): void
 ```php
 <?php
 
-$provider = new OAuthProvider();
+$provider = new OAuthProvider();
 
 $provider->is2LeggedEndpoint(true);
 

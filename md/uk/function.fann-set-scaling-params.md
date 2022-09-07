@@ -15,7 +15,7 @@ fannsetscalingparams — Розраховує вхідні та вихідні �
 ### Опис
 
 ```methodsynopsis
-fann_set_scaling_params(    resource $ann,    resource $train_data,    float $new_input_min,    float $new_input_max,    float $new_output_min,    float $new_output_max): bool
+fann_set_scaling_params(    resource $ann,    resource $train_data,    float $new_input_min,    float $new_input_max,    float $new_output_min,    float $new_output_max): bool
 ```
 
 Розраховує вхідні та вихідні параметри масштабування для майбутнього використання на основі даних навчання.

@@ -15,7 +15,7 @@ odbcsetoption — Регулює налаштування ODBC
 ### Опис
 
 ```methodsynopsis
-odbc_setoption(    resource $odbc,    int $which,    int $option,    int $value): bool
+odbc_setoption(    resource $odbc,    int $which,    int $option,    int $value): bool
 ```
 
 Функція дозволяє налаштувати параметри ODBC для конкретного з'єднання або результату запиту. Вона використовується для того, щоб допомогти знайти вирішення проблем у специфічних драйверах ODBC. Слід використовувати цю функцію лише програмістам ODBC, які розуміють, який ефект мають різні параметри. Щоб пояснити різні параметри та значення, які можна використовувати, знадобиться гарний довідковий посібник з ODBC. Різні версії драйверів підтримують різні параметри.
@@ -50,18 +50,18 @@ odbc_setoption(    resource $odbc,    int $which,    int $option, �
 
 ```php
 <?php
-// 1. Опция 102 SQLSetConnectOption() - SQL_AUTOCOMMIT.
-//    Значение 1 SQL_AUTOCOMMIT - SQL_AUTOCOMMIT_ON.
-//    Этот пример имеет тот же эффект, что и
-//    odbc_autocommit($conn, true);
+// 1. Опция 102 SQLSetConnectOption() - SQL_AUTOCOMMIT.
+//    Значение 1 SQL_AUTOCOMMIT - SQL_AUTOCOMMIT_ON.
+//    Этот пример имеет тот же эффект, что и
+//    odbc_autocommit($conn, true);
 
-odbc_setoption($conn, 1, 102, 1);
+odbc_setoption($conn, 1, 102, 1);
 
-// 2. Опция 0 SQLSetStmtOption() - SQL_QUERY_TIMEOUT.
-//    Данный пример устанавливает время ожидания запроса, равное 30 секундам.
+// 2. Опция 0 SQLSetStmtOption() - SQL_QUERY_TIMEOUT.
+//    Данный пример устанавливает время ожидания запроса, равное 30 секундам.
 
-$result = odbc_prepare($conn, $sql);
-odbc_setoption($result, 2, 0, 30);
+$result = odbc_prepare($conn, $sql);
+odbc_setoption($result, 2, 0, 30);
 odbc_execute($result);
 ?>
 ```

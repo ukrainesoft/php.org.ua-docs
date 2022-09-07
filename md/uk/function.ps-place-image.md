@@ -15,7 +15,7 @@ title: псplaceimage
 ### Опис
 
 ```methodsynopsis
-ps_place_image(    resource $psdoc,    int $imageid,    float $x,    float $y,    float $scale): bool
+ps_place_image(    resource $psdoc,    int $imageid,    float $x,    float $y,    float $scale): bool
 ```
 
 Поміщає раніше завантажене зображення на сторінку. Зображення можна масштабувати. Якщо зображення теж необхідно повернути, потрібно буде спочатку повернути систему координат за допомогою [псrotate()](function.ps-rotate.md)

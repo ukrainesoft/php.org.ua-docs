@@ -46,14 +46,14 @@ public Memcached::set(string $key, mixed $value, int $expiration = ?): bool
 
 ```php
 <?php
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$m->set('int', 99);
-$m->set('string', 'a simple string');
-$m->set('array', array(11, 12));
-/* время хранения записи с ключом 'object' установлено в 5 минут */
-$m->set('object', new stdclass, time() + 300);
+$m->set('int', 99);
+$m->set('string', 'a simple string');
+$m->set('array', array(11, 12));
+/* время хранения записи с ключом 'object' установлено в 5 минут */
+$m->set('object', new stdclass, time() + 300);
 
 
 var_dump($m->get('int'));

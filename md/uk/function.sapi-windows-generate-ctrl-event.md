@@ -42,16 +42,16 @@ sapi_windows_generate_ctrl_event(int $event, int $pid = 0): bool
 
 ```php
 <?php
-// Пересылка событий CTRL+BREAK дочернему процессу
+// Пересылка событий CTRL+BREAK дочернему процессу
 sapi_windows_set_ctrl_handler('sapi_windows_generate_ctrl_event');
 
-// Создаём дочерний процесс
-$cmd = ['php', '-r', 'while (true) { echo "Я всё ещё жив!\n"; sleep(1); }'];
-$descspec = array(['pipe', 'r'], ['pipe', 'w'], ['pipe', 'w']);
-$options = ['create_process_group' => true];
-$proc = proc_open($cmd, $descspec, $pipes, null, null, $options);
-while (true) {
-    echo fgets($pipes[1]);
+// Создаём дочерний процесс
+$cmd = ['php', '-r', 'while (true) { echo "Я всё ещё жив!\n"; sleep(1); }'];
+$descspec = array(['pipe', 'r'], ['pipe', 'w'], ['pipe', 'w']);
+$options = ['create_process_group' => true];
+$proc = proc_open($cmd, $descspec, $pipes, null, null, $options);
+while (true) {
+    echo fgets($pipes[1]);
 }
 ?>
 ```

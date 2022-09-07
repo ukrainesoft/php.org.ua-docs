@@ -15,7 +15,7 @@ Memcached::getByKey — Отримує запис із певного серве
 ### Опис
 
 ```methodsynopsis
-public Memcached::getByKey(    string $server_key,    string $key,    callable $cache_cb = ?,    int $flags = ?): mixed
+public Memcached::getByKey(    string $server_key,    string $key,    callable $cache_cb = ?,    int $flags = ?): mixed
 ```
 
 **Memcached::getByKey()** працює аналогічно [Memcached::get()](memcached.get.md), за винятком того, що довільний `server_key` може бути використаний для визначення сервера та встановлення значення з ключем `key` на конкретний сервер.

@@ -44,21 +44,21 @@ intlcal_is_lenient(IntlCalendar $calendar): bool
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'pt_PT');
-ini_set('intl.use_exceptions', '1');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'pt_PT');
+ini_set('intl.use_exceptions', '1');
 
-$cal = new IntlGregorianCalendar(2013, 6 /* Июль */, 1);
-var_dump(IntlDateFormatter::formatObject($cal), // 01/07/2013, 00:00:00
-$cal->isLenient()); // true
+$cal = new IntlGregorianCalendar(2013, 6 /* Июль */, 1);
+var_dump(IntlDateFormatter::formatObject($cal), // 01/07/2013, 00:00:00
+$cal->isLenient()); // true
 
-$cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 33);
-var_dump(IntlDateFormatter::formatObject($cal)); // 02/08/2013, 00:00:00
+$cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 33);
+var_dump(IntlDateFormatter::formatObject($cal)); // 02/08/2013, 00:00:00
 
 $cal->setLenient(false);
-var_dump($cal->isLenient()); // false
-$cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 33);
-var_dump(IntlDateFormatter::formatObject($cal)); // ошибка
+var_dump($cal->isLenient()); // false
+$cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 33);
+var_dump(IntlDateFormatter::formatObject($cal)); // ошибка
 ```
 
 Результат виконання цього прикладу:

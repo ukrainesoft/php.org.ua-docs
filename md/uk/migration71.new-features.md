@@ -15,23 +15,23 @@ title: Нові можливості
 ```php
 <?php
 
-function testReturn(): ?string
+function testReturn(): ?string
 {
-    return 'elePHPant';
+    return 'elePHPant';
 }
 
 var_dump(testReturn());
 
-function testReturn(): ?string
+function testReturn(): ?string
 {
-    return null;
+    return null;
 }
 
 var_dump(testReturn());
 
-function test(?string $name)
+function test(?string $name)
 {
-    var_dump($name);
+    var_dump($name);
 }
 
 test('elePHPant');
@@ -55,20 +55,20 @@ Uncaught Error: Too few arguments to function test(), 0 passed in...
 
 ```php
 <?php
-function swap(&$left, &$right): void
+function swap(&$left, &$right): void
 {
-    if ($left === $right) {
-        return;
-    }
+    if ($left === $right) {
+        return;
+    }
 
-    $tmp = $left;
-    $left = $right;
-    $right = $tmp;
+    $tmp = $left;
+    $left = $right;
+    $right = $tmp;
 }
 
-$a = 1;
-$b = 2;
-var_dump(swap($a, $b), $a, $b);
+$a = 1;
+$b = 2;
+var_dump(swap($a, $b), $a, $b);
 ```
 
 Результат виконання цього прикладу:
@@ -87,25 +87,25 @@ int(1)
 
 ```php
 <?php
-$data = [
-    [1, 'Tom'],
-    [2, 'Fred'],
+$data = [
+    [1, 'Tom'],
+    [2, 'Fred'],
 ];
 
-// используя list()
-list($id1, $name1) = $data[0];
+// используя list()
+list($id1, $name1) = $data[0];
 
-// используя []
-[$id1, $name1] = $data[0];
+// используя []
+[$id1, $name1] = $data[0];
 
-// используя list()
-foreach ($data as list($id, $name)) {
-    // код, содержащий $id и $name
+// используя list()
+foreach ($data as list($id, $name)) {
+    // код, содержащий $id и $name
 }
 
-// используя []
-foreach ($data as [$id, $name]) {
-    // код, содержащий $id и $name
+// используя []
+foreach ($data as [$id, $name]) {
+    // код, содержащий $id и $name
 }
 ```
 
@@ -115,12 +115,12 @@ foreach ($data as [$id, $name]) {
 
 ```php
 <?php
-class ConstDemo
+class ConstDemo
 {
-    const PUBLIC_CONST_A = 1;
-    public const PUBLIC_CONST_B = 2;
-    protected const PROTECTED_CONST = 3;
-    private const PRIVATE_CONST = 4;
+    const PUBLIC_CONST_A = 1;
+    public const PUBLIC_CONST_B = 2;
+    protected const PROTECTED_CONST = 3;
+    private const PRIVATE_CONST = 4;
 }
 ```
 
@@ -130,11 +130,11 @@ class ConstDemo
 
 ```php
 <?php
-function iterator(iterable $iter)
+function iterator(iterable $iter)
 {
-    foreach ($iter as $val) {
-        //
-    }
+    foreach ($iter as $val) {
+        //
+    }
 }
 ```
 
@@ -144,10 +144,10 @@ function iterator(iterable $iter)
 
 ```php
 <?php
-try {
-    // Какой то код
-} catch (FirstException | SecondException $e) {
-    // Обрабатываем оба исключения
+try {
+    // Какой то код
+} catch (FirstException | SecondException $e) {
+    // Обрабатываем оба исключения
 }
 ```
 
@@ -157,25 +157,25 @@ try {
 
 ```php
 <?php
-$data = [
-    ["id" => 1, "name" => 'Tom'],
-    ["id" => 2, "name" => 'Fred'],
+$data = [
+    ["id" => 1, "name" => 'Tom'],
+    ["id" => 2, "name" => 'Fred'],
 ];
 
-// стиль list()
-list("id" => $id1, "name" => $name1) = $data[0];
+// стиль list()
+list("id" => $id1, "name" => $name1) = $data[0];
 
-// стиль []
-["id" => $id1, "name" => $name1] = $data[0];
+// стиль []
+["id" => $id1, "name" => $name1] = $data[0];
 
-// стиль list()
-foreach ($data as list("id" => $id, "name" => $name)) {
-    // logic here with $id and $name
+// стиль list()
+foreach ($data as list("id" => $id, "name" => $name)) {
+    // logic here with $id and $name
 }
 
-// стиль []
-foreach ($data as ["id" => $id, "name" => $name]) {
-    // logic here with $id and $name
+// стиль []
+foreach ($data as ["id" => $id, "name" => $name]) {
+    // logic here with $id and $name
 }
 ```
 
@@ -186,7 +186,7 @@ foreach ($data as ["id" => $id, "name" => $name]) {
 ```php
 <?php
 var_dump("abcdef"[-2]);
-var_dump(strpos("aabbcc", "b", -3));
+var_dump(strpos("aabbcc", "b", -3));
 ```
 
 Результат виконання цього прикладу:
@@ -200,8 +200,8 @@ int(3)
 
 ```php
 <?php
-$string = 'bar';
-echo "Последний символ '$string' - '$string[-1]'.\n";
+$string = 'bar';
+echo "Последний символ '$string' - '$string[-1]'.\n";
 ?>
 ```
 
@@ -221,20 +221,20 @@ echo "Последний символ '$string' - '$string[-1]'.\n";
 
 ```php
 <?php
-class Test
+class Test
 {
-    public function exposeFunction()
-    {
-        return Closure::fromCallable([$this, 'privateFunction']);
-    }
+    public function exposeFunction()
+    {
+        return Closure::fromCallable([$this, 'privateFunction']);
+    }
 
-    private function privateFunction($param)
-    {
-        var_dump($param);
-    }
+    private function privateFunction($param)
+    {
+        var_dump($param);
+    }
 }
 
-$privFunc = (new Test)->exposeFunction();
+$privFunc = (new Test)->exposeFunction();
 $privFunc('значение');
 ```
 
@@ -250,13 +250,13 @@ string(16) "значение"
 
 ```php
 <?php
-pcntl_async_signals(true); // включает асинхронные сигналы
+pcntl_async_signals(true); // включает асинхронные сигналы
 
-pcntl_signal(SIGHUP,  function($sig) {
-    echo "SIGHUP\n";
+pcntl_signal(SIGHUP,  function($sig) {
+    echo "SIGHUP\n";
 });
 
-posix_kill(posix_getpid(), SIGHUP);
+posix_kill(posix_getpid(), SIGHUP);
 ```
 
 Результат виконання цього прикладу:

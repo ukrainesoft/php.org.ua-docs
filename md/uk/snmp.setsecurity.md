@@ -15,7 +15,7 @@ SNMP::setSecurity — Налаштовує пов'язані з безпекою
 ### Опис
 
 ```methodsynopsis
-public SNMP::setSecurity(    string $securityLevel,    string $authProtocol = "",    string $authPassphrase = "",    string $privacyProtocol = "",    string $privacyPassphrase = "",    string $contextName = "",    string $contextEngineId = ""): bool
+public SNMP::setSecurity(    string $securityLevel,    string $authProtocol = "",    string $authPassphrase = "",    string $privacyProtocol = "",    string $privacyPassphrase = "",    string $contextName = "",    string $contextEngineId = ""): bool
 ```
 
 setSecurity налаштовує пов'язані з безпекою параметри сесії, що використовуються у протоколі SNMP версії 3
@@ -60,8 +60,8 @@ setSecurity налаштовує пов'язані з безпекою пара�
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_3, $hostname, $rwuser, $timeout, $retries);
-  $session->setSecurity('authPriv', 'MD5', $auth_pass, 'AES', $priv_pass, '', 'aeeeff');
+  $session = new SNMP(SNMP::VERSION_3, $hostname, $rwuser, $timeout, $retries);
+  $session->setSecurity('authPriv', 'MD5', $auth_pass, 'AES', $priv_pass, '', 'aeeeff');
 ?>
 ```
 

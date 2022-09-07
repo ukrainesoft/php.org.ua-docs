@@ -60,22 +60,22 @@ Mime-тип файлу.
 
 ```php
 <?php
-/* http://example.com/upload.php:
-<?php var_dump($_FILES); ?>
+/* http://example.com/upload.php:
+<?php var_dump($_FILES); ?>
 */
 
-// Создаём дескриптор cURL
-$ch = curl_init('http://example.com/upload.php');
+// Создаём дескриптор cURL
+$ch = curl_init('http://example.com/upload.php');
 
-// Создаём объект CURLFile
-$cfile = new CURLFile('cats.jpg','image/jpeg','test_name');
+// Создаём объект CURLFile
+$cfile = new CURLFile('cats.jpg','image/jpeg','test_name');
 
-// Устанавливаем данные для POST
-$data = array('test_file' => $cfile);
-curl_setopt($ch, CURLOPT_POST,1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+// Устанавливаем данные для POST
+$data = array('test_file' => $cfile);
+curl_setopt($ch, CURLOPT_POST,1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
-// Запускаем дескриптор на выполнение
+// Запускаем дескриптор на выполнение
 curl_exec($ch);
 ?>
 ```
@@ -84,22 +84,22 @@ curl_exec($ch);
 
 ```php
 <?php
-/* http://example.com/upload.php:
-<?php var_dump($_FILES); ?>
+/* http://example.com/upload.php:
+<?php var_dump($_FILES); ?>
 */
 
-// Создаём дескриптор cURL
-$ch = curl_init('http://example.com/upload.php');
+// Создаём дескриптор cURL
+$ch = curl_init('http://example.com/upload.php');
 
-// Создаём объект CURLFile
-$cfile = curl_file_create('cats.jpg','image/jpeg','test_name');
+// Создаём объект CURLFile
+$cfile = curl_file_create('cats.jpg','image/jpeg','test_name');
 
-// Устанавливаем данные для POST
-$data = array('test_file' => $cfile);
-curl_setopt($ch, CURLOPT_POST,1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+// Устанавливаем данные для POST
+$data = array('test_file' => $cfile);
+curl_setopt($ch, CURLOPT_POST,1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
-// Запускаем дескриптор на выполнение
+// Запускаем дескриптор на выполнение
 curl_exec($ch);
 ?>
 ```
@@ -130,17 +130,17 @@ array(1) {
 
 ```php
 <?php
-$request = curl_init('http://www.example.com/upload.php');
-curl_setopt($request, CURLOPT_POST, true);
-curl_setopt($request, CURLOPT_SAFE_UPLOAD, true);
-curl_setopt($request, CURLOPT_POSTFIELDS, [
-    'blob[0]' => new CURLFile(realpath('first-file.jpg'), 'image/jpeg'),
-    'blob[1]' => new CURLFile(realpath('second-file.txt'), 'text/plain'),
-    'blob[2]' => new CURLFile(realpath('third-file.exe'), 'application/octet-stream'),
+$request = curl_init('http://www.example.com/upload.php');
+curl_setopt($request, CURLOPT_POST, true);
+curl_setopt($request, CURLOPT_SAFE_UPLOAD, true);
+curl_setopt($request, CURLOPT_POSTFIELDS, [
+    'blob[0]' => new CURLFile(realpath('first-file.jpg'), 'image/jpeg'),
+    'blob[1]' => new CURLFile(realpath('second-file.txt'), 'text/plain'),
+    'blob[2]' => new CURLFile(realpath('third-file.exe'), 'application/octet-stream'),
 ]);
-curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
 
-echo curl_exec($request);
+echo curl_exec($request);
 
 var_dump(curl_getinfo($request));
 
@@ -151,18 +151,18 @@ curl_close($request);
 
 ```php
 <?php
-// procedural
-$request = curl_init('http://www.example.com/upload.php');
-curl_setopt($request, CURLOPT_POST, true);
-curl_setopt($request, CURLOPT_SAFE_UPLOAD, true);
-curl_setopt($request, CURLOPT_POSTFIELDS, [
-    'blob[0]' => curl_file_create(realpath('first-file.jpg'), 'image/jpeg'),
-    'blob[1]' => curl_file_create(realpath('second-file.txt'), 'text/plain'),
-    'blob[2]' => curl_file_create(realpath('third-file.exe'), 'application/octet-stream'),
+// procedural
+$request = curl_init('http://www.example.com/upload.php');
+curl_setopt($request, CURLOPT_POST, true);
+curl_setopt($request, CURLOPT_SAFE_UPLOAD, true);
+curl_setopt($request, CURLOPT_POSTFIELDS, [
+    'blob[0]' => curl_file_create(realpath('first-file.jpg'), 'image/jpeg'),
+    'blob[1]' => curl_file_create(realpath('second-file.txt'), 'text/plain'),
+    'blob[2]' => curl_file_create(realpath('third-file.exe'), 'application/octet-stream'),
 ]);
-curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
 
-echo curl_exec($request);
+echo curl_exec($request);
 
 var_dump(curl_getinfo($request));
 

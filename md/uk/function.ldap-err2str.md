@@ -36,9 +36,9 @@ ldap_err2str(int $errno): string
 
 ```php
 <?php
-  for ($i=0; $i<100; $i++) {
-    printf("Ошибка $i: %s<br />\n", ldap_err2str($i));
-  }
+  for ($i=0; $i<100; $i++) {
+    printf("Ошибка $i: %s<br />\n", ldap_err2str($i));
+  }
 ?>
 ```
 

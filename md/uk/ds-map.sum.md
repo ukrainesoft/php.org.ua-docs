@@ -38,7 +38,7 @@ public Ds\Map::sum(): int|float
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 var_dump($map->sum());
 ?>
 ```
@@ -53,7 +53,7 @@ int(6)
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2.5, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2.5, "c" => 3]);
 var_dump($map->sum());
 ?>
 ```

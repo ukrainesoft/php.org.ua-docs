@@ -40,9 +40,9 @@ public ArrayObject::append(mixed $value): void
 
 ```php
 <?php
-$arrayobj = new ArrayObject(array('first','second','third'));
+$arrayobj = new ArrayObject(array('first','second','third'));
 $arrayobj->append('fourth');
-$arrayobj->append(array('five', 'six'));
+$arrayobj->append(array('five', 'six'));
 var_dump($arrayobj);
 ?>
 ```

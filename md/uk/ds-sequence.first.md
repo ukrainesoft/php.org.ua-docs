@@ -38,7 +38,7 @@ abstract public Ds\Sequence::first(): mixed
 
 ```php
 <?php
-$sequence = new \Ds\Vector([1, 2, 3]);
+$sequence = new \Ds\Vector([1, 2, 3]);
 var_dump($sequence->first());
 ?>
 ```

@@ -51,19 +51,19 @@ mysql_affected_rows(resource $link_identifier = NULL): int
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
 mysql_select_db('mydb');
 
-/* здесь функция вернёт корректное число удалённых записей */
-mysql_query('DELETE FROM mytable WHERE id < 10');
-printf("Удалено записей: %d\n", mysql_affected_rows());
+/* здесь функция вернёт корректное число удалённых записей */
+mysql_query('DELETE FROM mytable WHERE id < 10');
+printf("Удалено записей: %d\n", mysql_affected_rows());
 
-/* если WHERE всегда возвращает false, то функция возвращает 0 */
-mysql_query('DELETE FROM mytable WHERE 0');
-printf("Удалено записей: %d\n", mysql_affected_rows());
+/* если WHERE всегда возвращает false, то функция возвращает 0 */
+mysql_query('DELETE FROM mytable WHERE 0');
+printf("Удалено записей: %d\n", mysql_affected_rows());
 ?>
 ```
 
@@ -78,15 +78,15 @@ printf("Удалено записей: %d\n", mysql_affected_rows());
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
 mysql_select_db('mydb');
 
-/* Обновляем ряды */
-mysql_query("UPDATE mytable SET used=1 WHERE id < 10");
-printf ("Обновлено записей: %d\n", mysql_affected_rows());
+/* Обновляем ряды */
+mysql_query("UPDATE mytable SET used=1 WHERE id < 10");
+printf ("Обновлено записей: %d\n", mysql_affected_rows());
 mysql_query("COMMIT");
 ?>
 ```

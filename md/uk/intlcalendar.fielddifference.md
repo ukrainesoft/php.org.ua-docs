@@ -56,28 +56,28 @@ intlcal_field_difference(IntlCalendar $calendar, float $timestamp, int $field): 
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'fr_FR');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'fr_FR');
 
-$cal1 = IntlCalendar::fromDateTime('2012-02-29 09:00:11');
-$cal2 = IntlCalendar::fromDateTime('2013-03-01 09:19:29');
-$time = $cal2->getTime();
+$cal1 = IntlCalendar::fromDateTime('2012-02-29 09:00:11');
+$cal2 = IntlCalendar::fromDateTime('2013-03-01 09:19:29');
+$time = $cal2->getTime();
 
-echo "Время до: ", IntlDateFormatter::formatObject($cal1), "\n";
+echo "Время до: ", IntlDateFormatter::formatObject($cal1), "\n";
 
 printf(
-    "Разница во времени: %d год(лет), %d месяц(ев), "
-  . "%d день(дней), %d час(ов) и %d минуту(минут)\n",
-    $cal1->fieldDifference($time, IntlCalendar::FIELD_YEAR),
-    $cal1->fieldDifference($time, IntlCalendar::FIELD_MONTH),
-    $cal1->fieldDifference($time, IntlCalendar::FIELD_DAY_OF_MONTH),
-    $cal1->fieldDifference($time, IntlCalendar::FIELD_HOUR_OF_DAY),
-    $cal1->fieldDifference($time, IntlCalendar::FIELD_MINUTE)
+    "Разница во времени: %d год(лет), %d месяц(ев), "
+  . "%d день(дней), %d час(ов) и %d минуту(минут)\n",
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_YEAR),
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_MONTH),
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_DAY_OF_MONTH),
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_HOUR_OF_DAY),
+    $cal1->fieldDifference($time, IntlCalendar::FIELD_MINUTE)
 );
 
-// теперь оно было продвинуто к целевому времени, за исключением секунд,
-// для которых мы не измеряли разницу
-echo "Время после: ", IntlDateFormatter::formatObject($cal1), "\n";
+// теперь оно было продвинуто к целевому времени, за исключением секунд,
+// для которых мы не измеряли разницу
+echo "Время после: ", IntlDateFormatter::formatObject($cal1), "\n";
 ```
 
 Результат виконання цього прикладу:

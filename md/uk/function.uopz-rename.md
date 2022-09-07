@@ -54,9 +54,9 @@ uopz_rename(string $class, string $function, string $rename): void
 
 ```php
 <?php
-uopz_rename("strlen", "original_strlen");
+uopz_rename("strlen", "original_strlen");
 
-echo original_strlen("Hello World");
+echo original_strlen("Hello World");
 ?>
 ```
 
@@ -70,15 +70,15 @@ echo original_strlen("Hello World");
 
 ```php
 <?php
-class My {
-    public function strlen($arg) {
-        return strlen($arg);
-    }
+class My {
+    public function strlen($arg) {
+        return strlen($arg);
+    }
 }
 
-uopz_rename(My::class, "strlen", "original_strlen");
+uopz_rename(My::class, "strlen", "original_strlen");
 
-echo My::original_strlen("Hello World");
+echo My::original_strlen("Hello World");
 ?>
 ```
 

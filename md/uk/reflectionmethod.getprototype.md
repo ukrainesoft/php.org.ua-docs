@@ -38,22 +38,22 @@ public ReflectionMethod::getPrototype(): ReflectionMethod
 
 ```php
 <?php
-class Hello {
+class Hello {
 
-    public function sayHelloTo($name) {
-        return 'Привет, ' . $name;
-    }
-
-}
-class HelloWorld extends Hello {
-
-    public function sayHelloTo($name) {
-        return 'Привет, мир: ' . $name;
-    }
+    public function sayHelloTo($name) {
+        return 'Привет, ' . $name;
+    }
 
 }
+class HelloWorld extends Hello {
 
-$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');
+    public function sayHelloTo($name) {
+        return 'Привет, мир: ' . $name;
+    }
+
+}
+
+$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');
 var_dump($reflectionMethod->getPrototype());
 ?>
 ```

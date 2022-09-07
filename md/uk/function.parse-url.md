@@ -72,17 +72,17 @@ http://example.com/foo?# → query = "",   fragment = ""
 
 ```php
 <?php
-$url = 'http://username:password@hostname:9090/path?arg=value#anchor';
+$url = 'http://username:password@hostname:9090/path?arg=value#anchor';
 
 var_dump(parse_url($url));
-var_dump(parse_url($url, PHP_URL_SCHEME));
-var_dump(parse_url($url, PHP_URL_USER));
-var_dump(parse_url($url, PHP_URL_PASS));
-var_dump(parse_url($url, PHP_URL_HOST));
-var_dump(parse_url($url, PHP_URL_PORT));
-var_dump(parse_url($url, PHP_URL_PATH));
-var_dump(parse_url($url, PHP_URL_QUERY));
-var_dump(parse_url($url, PHP_URL_FRAGMENT));
+var_dump(parse_url($url, PHP_URL_SCHEME));
+var_dump(parse_url($url, PHP_URL_USER));
+var_dump(parse_url($url, PHP_URL_PASS));
+var_dump(parse_url($url, PHP_URL_HOST));
+var_dump(parse_url($url, PHP_URL_PORT));
+var_dump(parse_url($url, PHP_URL_PATH));
+var_dump(parse_url($url, PHP_URL_QUERY));
+var_dump(parse_url($url, PHP_URL_FRAGMENT));
 ?>
 ```
 
@@ -121,9 +121,9 @@ string(6) "anchor"
 
 ```php
 <?php
-$url = '//www.example.com/path?googleguy=googley';
+$url = '//www.example.com/path?googleguy=googley';
 
-// До 5.4.7 в path выводилось "//www.example.com/path"
+// До 5.4.7 в path выводилось "//www.example.com/path"
 var_dump(parse_url($url));
 ?>
 ```
@@ -158,4 +158,4 @@ array(3) {
 -   [httpbuildquery()](function.http-build-query.md) - Генерує URL-кодований рядок запиту
 -   [dirname()](function.dirname.md) - Повертає ім'я батьківського каталогу із зазначеного шляху
 -   [basename()](function.basename.md) - Повертає останній компонент імені із зазначеного шляху
--   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)
+-   [» RFC 3986](http://www.faqs.org/rfcs/rfc3986)

@@ -34,7 +34,7 @@ public Ds\Map::xor(Ds\Map $map): Ds\Map
 
 ### Також дивіться
 
--   [» Симетрична різниця](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
+-   [» Симетрична різниця](https://en.wikipedia.org/wiki/Symmetric_difference) в Вікіпедія
 
 ### Приклади
 
@@ -42,8 +42,8 @@ public Ds\Map::xor(Ds\Map $map): Ds\Map
 
 ```php
 <?php
-$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
-$b = new \Ds\Map(["b" => 4, "c" => 5, "d" => 6]);
+$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$b = new \Ds\Map(["b" => 4, "c" => 5, "d" => 6]);
 
 print_r($a->xor($b));
 ?>

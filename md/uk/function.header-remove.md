@@ -44,8 +44,8 @@ header_remove(?string $name = null): void
 
 ```php
 <?php
-header("X-Foo: Bar");
-header("X-Bar: Baz");
+header("X-Foo: Bar");
+header("X-Bar: Baz");
 header_remove("X-Foo");
 ?>
 ```
@@ -60,8 +60,8 @@ X-Bar: Baz
 
 ```php
 <?php
-header("X-Foo: Bar");
-header("X-Bar: Baz");
+header("X-Foo: Bar");
+header("X-Bar: Baz");
 header_remove();
 ?>
 ```

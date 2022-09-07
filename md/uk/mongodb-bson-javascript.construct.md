@@ -47,10 +47,10 @@ final public MongoDB\BSON\Javascript::__construct(string $code, array|object|nul
 ```php
 <?php
 
-$code = new MongoDB\BSON\Javascript('function() { return 1; }');
+$code = new MongoDB\BSON\Javascript('function() { return 1; }');
 var_dump($code);
 
-$codews = new MongoDB\BSON\Javascript('function() { return foo; }', ['foo' => 'bar']);
+$codews = new MongoDB\BSON\Javascript('function() { return foo; }', ['foo' => 'bar']);
 var_dump($codews);
 
 ?>
@@ -79,4 +79,4 @@ object(MongoDB\BSON\Javascript)#2 (2) {
 
 ### Дивіться також
 
--   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+-   [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

@@ -16,10 +16,10 @@ title: Арифметика дати/часу
 
 ```php
 <?php
-$dt = new DateTimeImmutable("2015-11-01 00:00:00", new DateTimeZone("America/New_York"));
-echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
-$dt = $dt->add(new DateInterval("PT3H"));
-echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+$dt = new DateTimeImmutable("2015-11-01 00:00:00", new DateTimeZone("America/New_York"));
+echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+$dt = $dt->add(new DateInterval("PT3H"));
+echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 ?>
 ```
 
@@ -36,10 +36,10 @@ echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 
 ```php
 <?php
-$dt = new DateTimeImmutable("2015-11-01 00:00:00", new DateTimeZone("America/New_York"));
-echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
-$dt = $dt->modify("+24 hours");
-echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+$dt = new DateTimeImmutable("2015-11-01 00:00:00", new DateTimeZone("America/New_York"));
+echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+$dt = $dt->modify("+24 hours");
+echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 ?>
 ```
 
@@ -56,17 +56,17 @@ echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 
 ```php
 <?php
-echo "Обычный год:\n"; // В феврале 28 дней
-$dt = new DateTimeImmutable("2015-01-31 00:00:00", new DateTimeZone("America/New_York"));
-echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
-$dt = $dt->modify("+1 month");
-echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+echo "Обычный год:\n"; // В феврале 28 дней
+$dt = new DateTimeImmutable("2015-01-31 00:00:00", new DateTimeZone("America/New_York"));
+echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+$dt = $dt->modify("+1 month");
+echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 
-echo "Високосный год:\n"; // В феврале 29 дней
-$dt = new DateTimeImmutable("2016-01-31 00:00:00", new DateTimeZone("America/New_York"));
-echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
-$dt = $dt->modify("+1 month");
-echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+echo "Високосный год:\n"; // В феврале 29 дней
+$dt = new DateTimeImmutable("2016-01-31 00:00:00", new DateTimeZone("America/New_York"));
+echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+$dt = $dt->modify("+1 month");
+echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 ?>
 ```
 
@@ -85,17 +85,17 @@ echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 
 ```php
 <?php
-echo "Обычный год:\n"; // Февраль содержит 28 дней
-$dt = new DateTimeImmutable("2015-01-31 00:00:00", new DateTimeZone("America/New_York"));
-echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
-$dt = $dt->modify("last day of next month");
-echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+echo "Обычный год:\n"; // Февраль содержит 28 дней
+$dt = new DateTimeImmutable("2015-01-31 00:00:00", new DateTimeZone("America/New_York"));
+echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+$dt = $dt->modify("last day of next month");
+echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 
-echo "Високосный год:\n"; // Февраль содержит 29 дней
-$dt = new DateTimeImmutable("2016-01-31 00:00:00", new DateTimeZone("America/New_York"));
-echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
-$dt = $dt->modify("last day of next month");
-echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+echo "Високосный год:\n"; // Февраль содержит 29 дней
+$dt = new DateTimeImmutable("2016-01-31 00:00:00", new DateTimeZone("America/New_York"));
+echo "Начало: ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
+$dt = $dt->modify("last day of next month");
+echo "Конец:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;
 ?>
 ```
 

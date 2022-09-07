@@ -43,12 +43,12 @@ get_defined_functions(bool $exclude_disabled = true): array
 
 ```php
 <?php
-function myrow($id, $data)
+function myrow($id, $data)
 {
-    return "<tr><th>$id</th><td>$data</td></tr>\n";
+    return "<tr><th>$id</th><td>$data</td></tr>\n";
 }
 
-$arr = get_defined_functions();
+$arr = get_defined_functions();
 
 print_r($arr);
 ?>

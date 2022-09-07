@@ -15,7 +15,7 @@ imagecolorclosesthwb — Отримання індексу кольору, що 
 ### Опис
 
 ```methodsynopsis
-imagecolorclosesthwb(    GdImage $image,    int $red,    int $green,    int $blue): int
+imagecolorclosesthwb(    GdImage $image,    int $red,    int $green,    int $blue): int
 ```
 
 Отримання індексу кольору, що має значення тону, білизни та затемнення найбільш близькі до заданого кольору.
@@ -54,9 +54,9 @@ imagecolorclosesthwb(    GdImage $image,    int $red,    int $green,
 
 ```php
 <?php
-$im = imagecreatefromgif('php.gif');
+$im = imagecreatefromgif('php.gif');
 
-echo 'HWB: ' . imagecolorclosesthwb($im, 116, 115, 152);
+echo 'HWB: ' . imagecolorclosesthwb($im, 116, 115, 152);
 
 imagedestroy($im);
 ?>

@@ -54,10 +54,10 @@ dirname(string $path, int $levels = 1): string
 
 ```php
 <?php
-dirname('.');    // Вернёт '.'.
-dirname('/');    // Вернёт `\` в Windows и '/' в *nix системах.
-dirname('\\');   // Вернёт `\` в Windows и '.' в *nix системах.
-dirname('C:\\'); // Вернёт 'C:\' в Windows и '.' в *nix системах.
+dirname('.');    // Вернёт '.'.
+dirname('/');    // Вернёт `\` в Windows и '/' в *nix системах.
+dirname('\\');   // Вернёт `\` в Windows и '.' в *nix системах.
+dirname('C:\\'); // Вернёт 'C:\' в Windows и '.' в *nix системах.
 ?>
 ```
 
@@ -73,11 +73,11 @@ dirname('C:\\'); // Вернёт 'C:\' в Windows и '.' в *nix си�
 
 ```php
 <?php
-echo dirname("/etc/passwd") . PHP_EOL;
-echo dirname("/etc/") . PHP_EOL;
-echo dirname(".") . PHP_EOL;
-echo dirname("C:\\") . PHP_EOL;
-echo dirname("/usr/local/lib", 2);.
+echo dirname("/etc/passwd") . PHP_EOL;
+echo dirname("/etc/") . PHP_EOL;
+echo dirname(".") . PHP_EOL;
+echo dirname("C:\\") . PHP_EOL;
+echo dirname("/usr/local/lib", 2);.
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

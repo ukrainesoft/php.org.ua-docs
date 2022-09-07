@@ -37,18 +37,18 @@ public ImagickPixel::getColorValue(int $color): float
 ```php
 <?php
 
-$color = new ImagickPixel('rgba(90%, 20%, 20%, 0.75)');
+$color = new ImagickPixel('rgba(90%, 20%, 20%, 0.75)');
 
-echo "Значение альфа канала ".$color->getColorValue(Imagick::COLOR_ALPHA).PHP_EOL;
-echo "".PHP_EOL;
-echo "Значение красного канала ".$color->getColorValue(Imagick::COLOR_RED).PHP_EOL;
-echo "Значение зелёного канала ".$color->getColorValue(Imagick::COLOR_GREEN).PHP_EOL;
-echo "Значение синего канала ".$color->getColorValue(Imagick::COLOR_BLUE).PHP_EOL;
-echo "".PHP_EOL;
-echo "Значение голубого канала ".$color->getColorValue(Imagick::COLOR_CYAN).PHP_EOL;
-echo "Значение пурпурного канала ".$color->getColorValue(Imagick::COLOR_MAGENTA).PHP_EOL;
-echo "Значение жёлтого канала ".$color->getColorValue(Imagick::COLOR_YELLOW).PHP_EOL;
-echo "Значение чёрного канала ".$color->getColorValue(Imagick::COLOR_BLACK).PHP_EOL;
+echo "Значение альфа канала ".$color->getColorValue(Imagick::COLOR_ALPHA).PHP_EOL;
+echo "".PHP_EOL;
+echo "Значение красного канала ".$color->getColorValue(Imagick::COLOR_RED).PHP_EOL;
+echo "Значение зелёного канала ".$color->getColorValue(Imagick::COLOR_GREEN).PHP_EOL;
+echo "Значение синего канала ".$color->getColorValue(Imagick::COLOR_BLUE).PHP_EOL;
+echo "".PHP_EOL;
+echo "Значение голубого канала ".$color->getColorValue(Imagick::COLOR_CYAN).PHP_EOL;
+echo "Значение пурпурного канала ".$color->getColorValue(Imagick::COLOR_MAGENTA).PHP_EOL;
+echo "Значение жёлтого канала ".$color->getColorValue(Imagick::COLOR_YELLOW).PHP_EOL;
+echo "Значение чёрного канала ".$color->getColorValue(Imagick::COLOR_BLACK).PHP_EOL;
 
 ?>
 ```

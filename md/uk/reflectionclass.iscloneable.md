@@ -34,19 +34,19 @@ public ReflectionClass::isCloneable(): bool
 
 ```php
 <?php
-class NotCloneable {
-    public $var1;
+class NotCloneable {
+    public $var1;
 
-    private function __clone() {
-    }
+    private function __clone() {
+    }
 }
 
-class Cloneable {
-    public $var1;
+class Cloneable {
+    public $var1;
 }
 
-$notCloneable = new ReflectionClass('NotCloneable');
-$cloneable = new ReflectionClass('Cloneable');
+$notCloneable = new ReflectionClass('NotCloneable');
+$cloneable = new ReflectionClass('Cloneable');
 
 var_dump($notCloneable->isCloneable());
 var_dump($cloneable->isCloneable());

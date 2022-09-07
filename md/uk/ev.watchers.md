@@ -12,9 +12,9 @@ title: Спостерігачі
 
 ```php
 <?php
-// Ждём, пока STDIN не станет доступным для чтения
-$w = new EvIo(STDIN, Ev::READ, function ($watcher, $revents) {
- echo "STDIN можно считать\n";
+// Ждём, пока STDIN не станет доступным для чтения
+$w = new EvIo(STDIN, Ev::READ, function ($watcher, $revents) {
+ echo "STDIN можно считать\n";
 });
 Ev::run(Ev::RUN_ONCE);
 ?>

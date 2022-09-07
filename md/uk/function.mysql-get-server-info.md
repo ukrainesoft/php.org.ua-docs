@@ -43,11 +43,11 @@ mysql_get_server_info(resource $link_identifier = NULL): string|false
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-printf("Версия сервера MySQL: %s\n", mysql_get_server_info());
+printf("Версия сервера MySQL: %s\n", mysql_get_server_info());
 ?>
 ```
 

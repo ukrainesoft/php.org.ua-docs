@@ -34,11 +34,11 @@ public ReflectionClass::isAnonymous(): bool
 
 ```php
 <?php
-class TestClass {}
-$anonClass = new class {};
+class TestClass {}
+$anonClass = new class {};
 
-$normalClass = new ReflectionClass('TestClass');
-$anonClass  = new ReflectionClass($anonClass);
+$normalClass = new ReflectionClass('TestClass');
+$anonClass  = new ReflectionClass($anonClass);
 
 var_dump($normalClass->isAnonymous());
 var_dump($anonClass->isAnonymous());

@@ -22,7 +22,7 @@ sha1 - Повертає SHA1-хеш рядки
 sha1(string $string, bool $binary = false): string
 ```
 
-Повертає SHA1-хеш рядки `string`, обчислений за алгоритмом [» US Secure Hash Algorithm 1](http://www.faqs.org/rfcs/rfc3174)
+Повертає SHA1-хеш рядки `string`, обчислений за алгоритмом [» US Secure Hash Algorithm 1](http://www.faqs.org/rfcs/rfc3174)
 
 ### Список параметрів
 
@@ -44,10 +44,10 @@ sha1(string $string, bool $binary = false): string
 
 ```php
 <?php
-$str = 'яблоко';
+$str = 'яблоко';
 
-if (sha1($str) === '88b184adea10bf987b15257a5d6c5cb94eba69d3') {
-    echo "Желаете зелёное или красное яблоко?";
+if (sha1($str) === '88b184adea10bf987b15257a5d6c5cb94eba69d3') {
+    echo "Желаете зелёное или красное яблоко?";
 }
 ?>
 ```

@@ -45,18 +45,18 @@ libxml_use_internal_errors(?bool $use_errors = null): bool
 ```php
 <?php
 
-// включение обработки ошибок пользователем
+// включение обработки ошибок пользователем
 var_dump(libxml_use_internal_errors(true));
 
-// загрузка документа
-$doc = new DOMDocument;
+// загрузка документа
+$doc = new DOMDocument;
 
-if (!$doc->load('file.xml')) {
-    foreach (libxml_get_errors() as $error) {
-        // обработка ошибок здесь
-    }
+if (!$doc->load('file.xml')) {
+    foreach (libxml_get_errors() as $error) {
+        // обработка ошибок здесь
+    }
 
-    libxml_clear_errors();
+    libxml_clear_errors();
 }
 
 ?>

@@ -46,17 +46,17 @@ ldap_escape(string $value, string $ignore = "", int $flags = 0): string
 
 ```php
 <?php
-// $ds допустимый экземпляр LDAP\Connection
+// $ds допустимый экземпляр LDAP\Connection
 
-// $mail - email-адрес, предоставленный пользователем
+// $mail - email-адрес, предоставленный пользователем
 
-$base   = "o=My Company, c=US";
-$filter = "(mail=".ldap_escape($mail, "", LDAP_ESCAPE_FILTER).")";
+$base   = "o=My Company, c=US";
+$filter = "(mail=".ldap_escape($mail, "", LDAP_ESCAPE_FILTER).")";
 
-$sr = ldap_search($ds, $base, $filter, array("sn", "givenname", "mail"));
+$sr = ldap_search($ds, $base, $filter, array("sn", "givenname", "mail"));
 
-$info = ldap_get_entries($ds, $sr);
+$info = ldap_get_entries($ds, $sr);
 
-echo $info["count"]." записей возвращено\n";
+echo $info["count"]." записей возвращено\n";
 ?>
 ```

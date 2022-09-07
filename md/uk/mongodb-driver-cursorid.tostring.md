@@ -35,20 +35,20 @@ final public MongoDB\Driver\CursorId::__toString(): string
 ```php
 <?php
 
-/* В этом примере мы добавляем документы в коллекцию и указываем
- * меньший batchSize, чтобы гарантировать, что первая порция содержит только подмножество
- * наших результатов и курсор остаётся открытым на сервере. */
-$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
-$query = new MongoDB\Driver\Query([], ['batchSize' => 2]);
+/* В этом примере мы добавляем документы в коллекцию и указываем
+ * меньший batchSize, чтобы гарантировать, что первая порция содержит только подмножество
+ * наших результатов и курсор остаётся открытым на сервере. */
+$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+$query = new MongoDB\Driver\Query([], ['batchSize' => 2]);
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
-$bulk->insert(['x' => 2]);
-$bulk->insert(['x' => 3]);
-$manager->executeBulkWrite('db.collection', $bulk);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
+$bulk->insert(['x' => 2]);
+$bulk->insert(['x' => 3]);
+$manager->executeBulkWrite('db.collection', $bulk);
 
-$cursor = $manager->executeQuery('db.collection', $query);
-var_dump((string) $cursor->getId());
+$cursor = $manager->executeQuery('db.collection', $query);
+var_dump((string) $cursor->getId());
 
 ?>
 ```

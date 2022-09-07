@@ -34,10 +34,10 @@ public ReflectionUnionType::getTypes(): array
 
 ```php
 <?php
-function someFunction(int|float $number) {}
+function someFunction(int|float $number) {}
 
-$reflectionFunc = new ReflectionFunction('someFunction');
-$reflectionParam = $reflectionFunc->getParameters()[0];
+$reflectionFunc = new ReflectionFunction('someFunction');
+$reflectionParam = $reflectionFunc->getParameters()[0];
 
 var_dump($reflectionParam->getType()->getTypes());
 ```

@@ -57,10 +57,10 @@ ksort(array &$array, int $flags = SORT_REGULAR): bool
 
 ```php
 <?php
-$fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");
+$fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");
 ksort($fruits);
-foreach ($fruits as $key => $val) {
-    echo "$key = $val\n";
+foreach ($fruits as $key => $val) {
+    echo "$key = $val\n";
 }
 ?>
 ```
@@ -78,7 +78,7 @@ d = lemon
 
 ```php
 <?php
-$a = [0 => 'First', 2 => 'Last', 1 => 'Middle'];
+$a = [0 => 'First', 2 => 'Last', 1 => 'Middle'];
 var_dump($a);
 ksort($a);
 var_dump($a);

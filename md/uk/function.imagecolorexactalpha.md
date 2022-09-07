@@ -15,7 +15,7 @@ imagecolorexactalpha — Отримання індексу заданого ко
 ### Опис
 
 ```methodsynopsis
-imagecolorexactalpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
+imagecolorexactalpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
 ```
 
 Повертає індекс для заданого кольору та альфа компонента на панелі зображення.
@@ -61,18 +61,18 @@ imagecolorexactalpha(    GdImage $image,    int $red,    int $green,
 ```php
 <?php
 
-// создание изображения
-$im = imagecreatefrompng('./gdlogo.png');
+// создание изображения
+$im = imagecreatefrompng('./gdlogo.png');
 
-$colors   = Array();
-$colors[] = imagecolorexactalpha($im, 255, 0, 0, 0);
-$colors[] = imagecolorexactalpha($im, 0, 0, 0, 127);
-$colors[] = imagecolorexactalpha($im, 255, 255, 255, 55);
-$colors[] = imagecolorexactalpha($im, 100, 255, 52, 20);
+$colors   = Array();
+$colors[] = imagecolorexactalpha($im, 255, 0, 0, 0);
+$colors[] = imagecolorexactalpha($im, 0, 0, 0, 127);
+$colors[] = imagecolorexactalpha($im, 255, 255, 255, 55);
+$colors[] = imagecolorexactalpha($im, 100, 255, 52, 20);
 
 print_r($colors);
 
-// освобождение памяти
+// освобождение памяти
 imagedestroy($im);
 ?>
 ```

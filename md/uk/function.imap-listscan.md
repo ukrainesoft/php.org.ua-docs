@@ -15,7 +15,7 @@ imaplistscan — Отримати список поштових скриньок
 ### Опис
 
 ```methodsynopsis
-imap_listscan(    IMAP\Connection $imap,    string $reference,    string $pattern,    string $content): array|false
+imap_listscan(    IMAP\Connection $imap,    string $reference,    string $pattern,    string $content): array|false
 ```
 
 Повертає масив, що містить імена поштових скриньок, що містять `content` у тексті.

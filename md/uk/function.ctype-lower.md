@@ -44,13 +44,13 @@ ctype_lower(mixed $text): bool
 
 ```php
 <?php
-$strings = array('aac123', 'qiutoas', 'QASsdks');
-foreach ($strings as $testcase) {
-    if (ctype_lower($testcase)) {
-        echo "Строка $testcase состоит только из букв в нижнем регистре.\n";
-    } else {
-        echo "Строка $testcase не состоит только из букв в нижнем регистре.\n";
-    }
+$strings = array('aac123', 'qiutoas', 'QASsdks');
+foreach ($strings as $testcase) {
+    if (ctype_lower($testcase)) {
+        echo "Строка $testcase состоит только из букв в нижнем регистре.\n";
+    } else {
+        echo "Строка $testcase не состоит только из букв в нижнем регистре.\n";
+    }
 }
 ?>
 ```

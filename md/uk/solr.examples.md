@@ -15,42 +15,42 @@ title: Приклади
 ```php
 <?php
 
-/* Доменное имя сервера Solr */
-define('SOLR_SERVER_HOSTNAME', 'solr.example.com');
+/* Доменное имя сервера Solr */
+define('SOLR_SERVER_HOSTNAME', 'solr.example.com');
 
-/* Следует ли запускать в безопасном режиме */
-define('SOLR_SECURE', true);
+/* Следует ли запускать в безопасном режиме */
+define('SOLR_SECURE', true);
 
-/* HTTP-порт для подключения */
-define('SOLR_SERVER_PORT', ((SOLR_SECURE) ? 8443 : 8983));
+/* HTTP-порт для подключения */
+define('SOLR_SERVER_PORT', ((SOLR_SECURE) ? 8443 : 8983));
 
-/* Имя пользователя для базовой аутентификации HTTP */
-define('SOLR_SERVER_USERNAME', 'admin');
+/* Имя пользователя для базовой аутентификации HTTP */
+define('SOLR_SERVER_USERNAME', 'admin');
 
-/* Пароль базовой аутентификации HTTP */
-define('SOLR_SERVER_PASSWORD', 'changeit');
+/* Пароль базовой аутентификации HTTP */
+define('SOLR_SERVER_PASSWORD', 'changeit');
 
-/* Время ожидания HTTP-соединения */
-/* Это максимальное время в секундах, разрешённое для операции передачи данных http. Значение по умолчанию - 30 секунд */
-define('SOLR_SERVER_TIMEOUT', 10);
+/* Время ожидания HTTP-соединения */
+/* Это максимальное время в секундах, разрешённое для операции передачи данных http. Значение по умолчанию - 30 секунд */
+define('SOLR_SERVER_TIMEOUT', 10);
 
-/* Имя файла для закрытого ключа в формате PEM + закрытый сертификат (объединены в указанном порядке) */
-define('SOLR_SSL_CERT', 'certs/combo.pem');
+/* Имя файла для закрытого ключа в формате PEM + закрытый сертификат (объединены в указанном порядке) */
+define('SOLR_SSL_CERT', 'certs/combo.pem');
 
-/* Имя файла только для частного сертификата в формате PEM */
-define('SOLR_SSL_CERT_ONLY', 'certs/solr.crt');
+/* Имя файла только для частного сертификата в формате PEM */
+define('SOLR_SSL_CERT_ONLY', 'certs/solr.crt');
 
-/* Имя файла для закрытого ключа в формате PEM */
-define('SOLR_SSL_KEY', 'certs/solr.key');
+/* Имя файла для закрытого ключа в формате PEM */
+define('SOLR_SSL_KEY', 'certs/solr.key');
 
-/* Пароль для файла закрытого ключа в формате PEM */
-define('SOLR_SSL_KEYPASSWORD', 'StrongAndSecurePassword');
+/* Пароль для файла закрытого ключа в формате PEM */
+define('SOLR_SSL_KEYPASSWORD', 'StrongAndSecurePassword');
 
-/* Имя файла, содержащего один или несколько сертификатов CA для проверки однорангового узла */
-define('SOLR_SSL_CAINFO', 'certs/cacert.crt');
+/* Имя файла, содержащего один или несколько сертификатов CA для проверки однорангового узла */
+define('SOLR_SSL_CAINFO', 'certs/cacert.crt');
 
-/* Имя каталога, содержащего несколько сертификатов CA для проверки однорангового узла */
-define('SOLR_SSL_CAPATH', 'certs/');
+/* Имя каталога, содержащего несколько сертификатов CA для проверки однорангового узла */
+define('SOLR_SSL_CAPATH', 'certs/');
 
 ?>
 ```
@@ -60,25 +60,25 @@ define('SOLR_SSL_CAPATH', 'certs/');
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$doc = new SolrInputDocument();
+$doc = new SolrInputDocument();
 
-$doc->addField('id', 334455);
-$doc->addField('cat', 'Software');
-$doc->addField('cat', 'Lucene');
+$doc->addField('id', 334455);
+$doc->addField('cat', 'Software');
+$doc->addField('cat', 'Lucene');
 
-$updateResponse = $client->addDocument($doc);
+$updateResponse = $client->addDocument($doc);
 
 print_r($updateResponse->getResponse());
 
@@ -104,24 +104,24 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$doc = new SolrDocument();
+$doc = new SolrDocument();
 
-$second_doc = new SolrDocument();
+$second_doc = new SolrDocument();
 
-$doc->addField('id', 1123);
+$doc->addField('id', 1123);
 
-$doc->features = "PHP Client Side";
-$doc->features = "Fast development cycles";
+$doc->features = "PHP Client Side";
+$doc->features = "Fast development cycles";
 
-$doc['cat'] = 'Software';
-$doc['cat'] = 'Custom Search';
-$doc->cat   = 'Information Technology';
+$doc['cat'] = 'Software';
+$doc['cat'] = 'Custom Search';
+$doc->cat   = 'Information Technology';
 
-$second_doc->addField('cat', 'Lucene Search');
+$second_doc->addField('cat', 'Lucene Search');
 
-$second_doc->merge($doc, true);
+$second_doc->merge($doc, true);
 
 print_r($second_doc->toArray());
 
@@ -184,19 +184,19 @@ Array
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery();
+$query = new SolrQuery();
 
 $query->setQuery('lucene');
 
@@ -206,9 +206,9 @@ $query->setRows(50);
 
 $query->addField('cat')->addField('features')->addField('id')->addField('timestamp');
 
-$query_response = $client->query($query);
+$query_response = $client->query($query);
 
-$response = $query_response->getResponse();
+$response = $query_response->getResponse();
 
 print_r($response);
 
@@ -300,19 +300,19 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery();
+$query = new SolrQuery();
 
 $query->setQuery('lucene');
 
@@ -322,11 +322,11 @@ $query->setRows(50);
 
 $query->addField('cat')->addField('features')->addField('id')->addField('timestamp');
 
-$query_response = $client->query($query);
+$query_response = $client->query($query);
 
 $query_response->setParseMode(SolrQueryResponse::PARSE_SOLR_DOC);
 
-$response = $query_response->getResponse();
+$response = $query_response->getResponse();
 
 print_r($response);
 
@@ -388,25 +388,25 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery();
+$query = new SolrQuery();
 
 $query->setTerms(true);
 
 $query->setTermsField('cat');
 
-$updateResponse = $client->query($query);
+$updateResponse = $client->query($query);
 
 print_r($updateResponse->getResponse());
 
@@ -450,28 +450,28 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery();
+$query = new SolrQuery();
 
 $query->setTerms(true);
 
-/* Return only terms starting with $prefix */
-$prefix = 'c';
+/* Return only terms starting with $prefix */
+$prefix = 'c';
 
 $query->setTermsField('cat')->setTermsPrefix($prefix);
 
-$updateResponse = $client->query($query);
+$updateResponse = $client->query($query);
 
 print_r($updateResponse->getResponse());
 
@@ -509,31 +509,31 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery();
+$query = new SolrQuery();
 
 $query->setTerms(true);
 
-/* Возвращать только термины, начинающиеся с $prefix */
-$prefix = 'c';
+/* Возвращать только термины, начинающиеся с $prefix */
+$prefix = 'c';
 
-/* Возвращать только термины с частотой 2 или более */
-$min_frequency = 2;
+/* Возвращать только термины с частотой 2 или более */
+$min_frequency = 2;
 
 $query->setTermsField('cat')->setTermsPrefix($prefix)->setTermsMinCount($min_frequency);
 
-$updateResponse = $client->query($query);
+$updateResponse = $client->query($query);
 
 print_r($updateResponse->getResponse());
 
@@ -569,29 +569,29 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery('*:*');
+$query = new SolrQuery('*:*');
 
 $query->setFacet(true);
 
 $query->addFacetField('cat')->addFacetField('name')->setFacetMinCount(2);
 
-$updateResponse = $client->query($query);
+$updateResponse = $client->query($query);
 
-$response_array = $updateResponse->getResponse();
+$response_array = $updateResponse->getResponse();
 
-$facet_data = $response_array->facet_counts->facet_fields;
+$facet_data = $response_array->facet_counts->facet_fields;
 
 print_r($facet_data);
 
@@ -658,29 +658,29 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery('*:*');
+$query = new SolrQuery('*:*');
 
 $query->setFacet(true);
 
-$query->addFacetField('cat')->addFacetField('name')->setFacetMinCount(2)->setFacetMinCount(4, 'name');
+$query->addFacetField('cat')->addFacetField('name')->setFacetMinCount(2)->setFacetMinCount(4, 'name');
 
-$updateResponse = $client->query($query);
+$updateResponse = $client->query($query);
 
-$response_array = $updateResponse->getResponse();
+$response_array = $updateResponse->getResponse();
 
-$facet_data = $response_array->facet_counts->facet_fields;
+$facet_data = $response_array->facet_counts->facet_fields;
 
 print_r($facet_data);
 
@@ -721,19 +721,19 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-        'hostname' => SOLR_SERVER_HOSTNAME,
-        'login'    => SOLR_SERVER_USERNAME,
-        'password' => SOLR_SERVER_PASSWORD,
-        'port'     => SOLR_SERVER_PORT,
+        'hostname' => SOLR_SERVER_HOSTNAME,
+        'login'    => SOLR_SERVER_USERNAME,
+        'password' => SOLR_SERVER_PASSWORD,
+        'port'     => SOLR_SERVER_PORT,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery('*:*');
+$query = new SolrQuery('*:*');
 
 $query->setFacet(true);
 
@@ -749,11 +749,11 @@ $query->setFacetDateHardEnd(1);
 
 $query->addFacetDateOther('before');
 
-$updateResponse = $client->query($query);
+$updateResponse = $client->query($query);
 
-$response_array = $updateResponse->getResponse();
+$response_array = $updateResponse->getResponse();
 
-$facet_data = $response_array->facet_counts->facet_dates;
+$facet_data = $response_array->facet_counts->facet_dates;
 
 print_r($facet_data);
 
@@ -787,35 +787,35 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
-    'timeout'  => SOLR_SERVER_TIMEOUT,
-    'secure'   => SOLR_SECURE,
-    'ssl_cert' => SOLR_SSL_CERT_ONLY,
-    'ssl_key'  => SOLR_SSL_KEY,
-    'ssl_keypassword' => SOLR_SSL_KEYPASSWORD,
-    'ssl_cainfo' => SOLR_SSL_CAINFO,
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
+    'timeout'  => SOLR_SERVER_TIMEOUT,
+    'secure'   => SOLR_SECURE,
+    'ssl_cert' => SOLR_SSL_CERT_ONLY,
+    'ssl_key'  => SOLR_SSL_KEY,
+    'ssl_keypassword' => SOLR_SSL_KEYPASSWORD,
+    'ssl_cainfo' => SOLR_SSL_CAINFO,
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery('*:*');
+$query = new SolrQuery('*:*');
 
 $query->setFacet(true);
 
-$query->addFacetField('cat')->addFacetField('name')->setFacetMinCount(2)->setFacetMinCount(4, 'name');
+$query->addFacetField('cat')->addFacetField('name')->setFacetMinCount(2)->setFacetMinCount(4, 'name');
 
-$updateResponse = $client->query($query);
+$updateResponse = $client->query($query);
 
-$response_array = $updateResponse->getResponse();
+$response_array = $updateResponse->getResponse();
 
-$facet_data = $response_array->facet_counts->facet_fields;
+$facet_data = $response_array->facet_counts->facet_fields;
 
 print_r($facet_data);
 
@@ -855,22 +855,22 @@ SolrObject Object
 
 ```php
 <?php
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-        'hostname' => SOLR_SERVER_HOSTNAME,
-        'login'    => SOLR_SERVER_USERNAME,
-        'password' => SOLR_SERVER_PASSWORD,
-        'port'     => SOLR_SERVER_PORT,
-        'path'     => SOLR_SERVER_PATH
+        'hostname' => SOLR_SERVER_HOSTNAME,
+        'login'    => SOLR_SERVER_USERNAME,
+        'password' => SOLR_SERVER_PASSWORD,
+        'port'     => SOLR_SERVER_PORT,
+        'path'     => SOLR_SERVER_PATH
 );
 
-$client = new SolrClient($options);
+$client = new SolrClient($options);
 
-$query = new SolrQuery('*:*');
+$query = new SolrQuery('*:*');
 
-$collapseFunction = new SolrCollapseFunction('manu_id_s');
+$collapseFunction = new SolrCollapseFunction('manu_id_s');
 
 $collapseFunction
 ->setSize(2)
@@ -880,9 +880,9 @@ $query
 ->collapse($collapseFunction)
 ->setRows(4);
 
-$queryResponse = $client->query($query);
+$queryResponse = $client->query($query);
 
-$response = $queryResponse->getResponse();
+$response = $queryResponse->getResponse();
 
 print_r($response);
 ?>
@@ -1146,19 +1146,19 @@ SolrObject Object
 ```php
 <?php
 
-include "bootstrap.php";
+include "bootstrap.php";
 
-$options = array
+$options = array
 (
-    'hostname' => SOLR_SERVER_HOSTNAME,
-    'login'    => SOLR_SERVER_USERNAME,
-    'password' => SOLR_SERVER_PASSWORD,
-    'port'     => SOLR_SERVER_PORT,
-    'path'     => SOLR_SERVER_PATH
+    'hostname' => SOLR_SERVER_HOSTNAME,
+    'login'    => SOLR_SERVER_USERNAME,
+    'password' => SOLR_SERVER_PASSWORD,
+    'port'     => SOLR_SERVER_PORT,
+    'path'     => SOLR_SERVER_PATH
 );
 
-$client = new SolrClient($options);
-$response = $client->getById('GB18030TEST');
+$client = new SolrClient($options);
+$response = $client->getById('GB18030TEST');
 print_r($response->getResponse());
 
 ?>

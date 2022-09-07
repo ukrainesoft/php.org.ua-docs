@@ -41,9 +41,9 @@ public SolrDisMaxQuery::setUserFields(string $fields): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
-$dismaxQuery->setUserFields('field1 field2 *_txt');
-echo $dismaxQuery.PHP_EOL;
+$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery->setUserFields('field1 field2 *_txt');
+echo $dismaxQuery.PHP_EOL;
 
 ?>
 ```

@@ -35,49 +35,49 @@ public ImagickKernel::addUnityKernel(float $scale): void
 
 
 
-    function renderKernelTable($matrix) {
-        $output = "<table class='infoTable'>";
+    function renderKernelTable($matrix) {
+        $output = "<table class='infoTable'>";
 
-        foreach ($matrix as $row) {
-            $output .= "<tr>";
-            foreach ($row as $cell) {
-                $output .= "<td style='text-align:left'>";
-                if ($cell === false) {
-                    $output .= "false";
-                }
-                else {
-                    $output .= round($cell, 3);
-                }
-                $output .= "</td>";
-            }
-            $output .= "</tr>";
-        }
+        foreach ($matrix as $row) {
+            $output .= "<tr>";
+            foreach ($row as $cell) {
+                $output .= "<td style='text-align:left'>";
+                if ($cell === false) {
+                    $output .= "false";
+                }
+                else {
+                    $output .= round($cell, 3);
+                }
+                $output .= "</td>";
+            }
+            $output .= "</tr>";
+        }
 
-        $output .= "</table>";
+        $output .= "</table>";
 
-        return $output;
-    }
+        return $output;
+    }
 
-    $matrix = [
-        [-1, 0, -1],
-        [ 0, 4,  0],
-        [-1, 0, -1],
-    ];
+    $matrix = [
+        [-1, 0, -1],
+        [ 0, 4,  0],
+        [-1, 0, -1],
+    ];
 
-    $kernel = \ImagickKernel::fromMatrix($matrix);
-    $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_VALUE);
-    $output = "Перед добавлением unity ядра: <br/>";
-    $output .= renderKernelTable($kernel->getMatrix());
-    $kernel->addUnityKernel(0.5);
-    $output .= "После добавления unity ядра: <br/>";
-    $output .= renderKernelTable($kernel->getMatrix());
+    $kernel = \ImagickKernel::fromMatrix($matrix);
+    $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_VALUE);
+    $output = "Перед добавлением unity ядра: <br/>";
+    $output .= renderKernelTable($kernel->getMatrix());
+    $kernel->addUnityKernel(0.5);
+    $output .= "После добавления unity ядра: <br/>";
+    $output .= renderKernelTable($kernel->getMatrix());
 
 
-    $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_VALUE);
-    $output .= "После перенормировки ядра: <br/>";
-    $output .= renderKernelTable($kernel->getMatrix());
+    $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_VALUE);
+    $output .= "После перенормировки ядра: <br/>";
+    $output .= renderKernelTable($kernel->getMatrix());
 
-    echo $output;
+    echo $output;
 
 ?>
 ```
@@ -86,24 +86,24 @@ public ImagickKernel::addUnityKernel(float $scale): void
 
 ```php
 <?php
-function addUnityKernel($imagePath) {
+function addUnityKernel($imagePath) {
 
-    $matrix = [
-        [-1, 0, -1],
-        [ 0, 4,  0],
-        [-1, 0, -1],
-    ];
+    $matrix = [
+        [-1, 0, -1],
+        [ 0, 4,  0],
+        [-1, 0, -1],
+    ];
 
-    $kernel = ImagickKernel::fromMatrix($matrix);
+    $kernel = ImagickKernel::fromMatrix($matrix);
 
-    $kernel->scale(4, \Imagick::NORMALIZE_KERNEL_VALUE);
-    $kernel->addUnityKernel(0.5);
+    $kernel->scale(4, \Imagick::NORMALIZE_KERNEL_VALUE);
+    $kernel->addUnityKernel(0.5);
 
 
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->filter($kernel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->filter($kernel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 
 }
 

@@ -36,7 +36,7 @@ public Ds\Deque::join(string $glue = ?): string
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c", 1, 2, 3]);
+$deque = new \Ds\Deque(["a", "b", "c", 1, 2, 3]);
 
 var_dump($deque->join("|"));
 ?>
@@ -52,7 +52,7 @@ string(11) "a|b|c|1|2|3"
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c", 1, 2, 3]);
+$deque = new \Ds\Deque(["a", "b", "c", 1, 2, 3]);
 
 var_dump($deque->join());
 ?>

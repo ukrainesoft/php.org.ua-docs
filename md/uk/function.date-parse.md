@@ -48,7 +48,7 @@ date_parse(string $datetime): array
 
 ```php
 <?php
-var_dump(date_parse("2006-12-12 10:00:00.5"));
+var_dump(date_parse("2006-12-12 10:00:00.5"));
 ?>
 ```
 
@@ -79,7 +79,7 @@ array(12) {
 
 ```php
 <?php
-var_dump(date_parse("June 2nd, 2022, 10:28:17 BST"));
+var_dump(date_parse("June 2nd, 2022, 10:28:17 BST"));
 ?>
 ```
 
@@ -112,7 +112,7 @@ array(16) {
 
 ```php
 <?php
-var_dump(date_parse("June 2nd, 2022, 10:28:17 Europe/London"));
+var_dump(date_parse("June 2nd, 2022, 10:28:17 Europe/London"));
 ?>
 ```
 
@@ -145,7 +145,7 @@ array(14) {
 
 ```php
 <?php
-var_dump(date_parse("June 2nd, 2022"));
+var_dump(date_parse("June 2nd, 2022"));
 ?>
 ```
 
@@ -176,7 +176,7 @@ array(12) {
 
 ```php
 <?php
-var_dump(date_parse("2006-12-12 10:00:00.5 +1 week +1 hour"));
+var_dump(date_parse("2006-12-12 10:00:00.5 +1 week +1 hour"));
 ?>
 ```
 
@@ -216,7 +216,7 @@ array(13) {
 
 ```php
 <?php
-var_dump(date_parse("Thursday, June 2nd"));
+var_dump(date_parse("Thursday, June 2nd"));
 ?>
 ```
 

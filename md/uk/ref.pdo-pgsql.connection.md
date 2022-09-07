@@ -42,7 +42,7 @@ PDOPGSQL DSN — З'єднання з базою даних PostgreSQL
 
 `sslmode`
 
-Режим SSL. Підтримувані значення та їх опис перераховані в [» документации PostgreSQL](http://www.postgresql.org/docs/current/interactive/)
+Режим SSL. Підтримувані значення та їх опис перераховані в [» документации PostgreSQL](http://www.postgresql.org/docs/current/interactive/)
 
 > **Зауваження**: Усі точки з комою в рядку DSN замінюються пробілами, тому що PostgreSQL очікує такий формат. Це означає, що точки з комою в будь-якому з компонентів (наприклад, `password` ор `dbname`) не підтримуються.
 

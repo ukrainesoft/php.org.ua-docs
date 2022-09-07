@@ -15,7 +15,7 @@ posixmknod — Створює спеціальний або звичайний �
 ### Опис
 
 ```methodsynopsis
-posix_mknod(    string $filename,    int $flags,    int $major = 0,    int $minor = 0): bool
+posix_mknod(    string $filename,    int $flags,    int $major = 0,    int $minor = 0): bool
 ```
 
 Створює спеціальний чи звичайний файл.
@@ -49,14 +49,14 @@ posix_mknod(    string $filename,    int $flags,    int $major = 0,�
 ```php
 <?php
 
-$file = '/tmp/tmpfile';  // file name
-$type = POSIX_S_IFBLK;   // file type
-$permissions = 0777;     // octal
-$major = 1;
-$minor = 8;              // /dev/random
+$file = '/tmp/tmpfile';  // file name
+$type = POSIX_S_IFBLK;   // file type
+$permissions = 0777;     // octal
+$major = 1;
+$minor = 8;              // /dev/random
 
-if (!posix_mknod($file, $type | $permissions, $major, $minor)) {
-    die('Error ' . posix_get_last_error() . ': ' . posix_strerror(posix_get_last_error()));
+if (!posix_mknod($file, $type | $permissions, $major, $minor)) {
+    die('Error ' . posix_get_last_error() . ': ' . posix_strerror(posix_get_last_error()));
 }
 
 ?>

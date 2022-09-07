@@ -34,7 +34,7 @@ oci_client_version(): string
 
 ```php
 <?php
-    echo "Версия клиента: " . oci_client_version(); // Версия клиента: 19.9.0.0.0
+    echo "Версия клиента: " . oci_client_version(); // Версия клиента: 19.9.0.0.0
 ?>
 ```
 

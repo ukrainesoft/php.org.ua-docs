@@ -13,33 +13,33 @@ title: Приклади
 ```php
 <?php
 
-$queue  = '/queue/foo';
-$msg    = 'bar';
+$queue  = '/queue/foo';
+$msg    = 'bar';
 
-/* Подключение */
-try {
-    $stomp = new Stomp('tcp://localhost:61613');
-} catch(StompException $e) {
-    die('Ошибка подключения: ' . $e->getMessage());
+/* Подключение */
+try {
+    $stomp = new Stomp('tcp://localhost:61613');
+} catch(StompException $e) {
+    die('Ошибка подключения: ' . $e->getMessage());
 }
 
-/* Отправка сообщения в очередь 'foo' */
-$stomp->send($queue, $msg);
+/* Отправка сообщения в очередь 'foo' */
+$stomp->send($queue, $msg);
 
-/* Подписка к сообщениям в очереди 'foo' */
+/* Подписка к сообщениям в очереди 'foo' */
 $stomp->subscribe($queue);
 
-/* Чтение фрейма */
-$frame = $stomp->readFrame();
+/* Чтение фрейма */
+$frame = $stomp->readFrame();
 
-if ($frame->body === $msg) {
-    var_dump($frame);
+if ($frame->body === $msg) {
+    var_dump($frame);
 
-    /* отклик, что сообщения было получено */
-    $stomp->ack($frame);
+    /* отклик, что сообщения было получено */
+    $stomp->ack($frame);
 }
 
-/* Закрытие соединения */
+/* Закрытие соединения */
 unset($stomp);
 
 ?>
@@ -74,40 +74,40 @@ object(StompFrame)#2 (3) {
 ```php
 <?php
 
-$queue  = '/queue/foo';
-$msg    = 'bar';
+$queue  = '/queue/foo';
+$msg    = 'bar';
 
-/* Подключение */
-$link = stomp_connect('ssl://localhost:61612');
+/* Подключение */
+$link = stomp_connect('ssl://localhost:61612');
 
-/* Проверка подключения */
-if (!$link) {
-    die('Ошибка подключения: ' . stomp_connect_error());
+/* Проверка подключения */
+if (!$link) {
+    die('Ошибка подключения: ' . stomp_connect_error());
 }
 
-/* Начало транзакции */
-stomp_begin($link, 't1');
+/* Начало транзакции */
+stomp_begin($link, 't1');
 
-/* Отправка сообщения в очередь 'foo' */
-stomp_send($link, $queue, $msg, array('transaction' => 't1'));
+/* Отправка сообщения в очередь 'foo' */
+stomp_send($link, $queue, $msg, array('transaction' => 't1'));
 
-/* Выполнение транзакции */
-stomp_commit($link, 't1');
+/* Выполнение транзакции */
+stomp_commit($link, 't1');
 
-/* Подписка к сообщениям в очереди 'foo' */
-stomp_subscribe($link, $queue);
+/* Подписка к сообщениям в очереди 'foo' */
+stomp_subscribe($link, $queue);
 
-/* Чтение фрейма */
-$frame = stomp_read_frame($link);
+/* Чтение фрейма */
+$frame = stomp_read_frame($link);
 
-if ($frame['body'] === $msg) {
-    var_dump($frame);
+if ($frame['body'] === $msg) {
+    var_dump($frame);
 
-    /* отклик, что сообщения было получено */
-    stomp_ack($link, $frame['headers']['message-id']);
+    /* отклик, что сообщения было получено */
+    stomp_ack($link, $frame['headers']['message-id']);
 }
 
-/* Закрытие соединения */
+/* Закрытие соединения */
 stomp_close($link);
 
 ?>

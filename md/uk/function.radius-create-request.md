@@ -40,9 +40,9 @@ radius_create_request(resource $radius_handle, int $type): bool
 
 ```php
 <?php
-if (!radius_create_request($res, RADIUS_ACCESS_REQUEST)) {
-    echo 'RadiusError:' . radius_strerror($res). "\n<br />";
-    exit;
+if (!radius_create_request($res, RADIUS_ACCESS_REQUEST)) {
+    echo 'RadiusError:' . radius_strerror($res). "\n<br />";
+    exit;
 }
 ?>
 ```

@@ -51,17 +51,17 @@ mysqli_stmt_store_result(mysqli_stmt $statement): bool
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY Name LIMIT 20";
-$stmt = $mysqli->prepare($query);
+$query = "SELECT Name, CountryCode FROM City ORDER BY Name LIMIT 20";
+$stmt = $mysqli->prepare($query);
 $stmt->execute();
 
-/* сохранение результата во внутреннем буфере */
+/* сохранение результата во внутреннем буфере */
 $stmt->store_result();
 
-printf("Число строк: %d.\n", $stmt->num_rows);
+printf("Число строк: %d.\n", $stmt->num_rows);
 ```
 
 **Приклад #2 Процедурний стиль**
@@ -69,17 +69,17 @@ printf("Число строк: %d.\n", $stmt->num_rows);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, CountryCode FROM City ORDER BY Name LIMIT 20";
-$stmt = mysqli_prepare($link, $query);
+$query = "SELECT Name, CountryCode FROM City ORDER BY Name LIMIT 20";
+$stmt = mysqli_prepare($link, $query);
 mysqli_stmt_execute($stmt);
 
-/* сохранение результата во внутреннем буфере */
+/* сохранение результата во внутреннем буфере */
 mysqli_stmt_store_result($stmt);
 
-printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
+printf("Число строк: %d.\n", mysqli_stmt_num_rows($stmt));
 ?>
 ```
 

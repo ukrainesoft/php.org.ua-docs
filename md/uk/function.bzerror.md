@@ -36,10 +36,10 @@ bzerror(resource $bz): array
 
 ```php
 <?php
-$error = bzerror($bz);
+$error = bzerror($bz);
 
-echo $error["errno"];
-echo $error["errstr"];
+echo $error["errno"];
+echo $error["errstr"];
 ?>
 ```
 

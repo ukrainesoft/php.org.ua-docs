@@ -60,9 +60,9 @@ date_timezone_get(DateTimeInterface $object): DateTimeZone|false
 
 ```php
 <?php
-$date = new DateTimeImmutable(null, new DateTimeZone('Europe/London'));
-$tz = $date->getTimezone();
-echo $tz->getName();
+$date = new DateTimeImmutable(null, new DateTimeZone('Europe/London'));
+$tz = $date->getTimezone();
+echo $tz->getName();
 ?>
 ```
 
@@ -70,9 +70,9 @@ echo $tz->getName();
 
 ```php
 <?php
-$date = date_create(null, timezone_open('Europe/London'));
-$tz = date_timezone_get($date);
-echo timezone_name_get($tz);
+$date = date_create(null, timezone_open('Europe/London'));
+$tz = date_timezone_get($date);
+echo timezone_name_get($tz);
 ?>
 ```
 

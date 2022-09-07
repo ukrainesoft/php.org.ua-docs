@@ -37,33 +37,33 @@ get_mangled_object_vars(object $object): array
 ```php
 <?php
 
-class A
+class A
 {
-    public $public = 1;
+    public $public = 1;
 
-    protected $protected = 2;
+    protected $protected = 2;
 
-    private $private = 3;
+    private $private = 3;
 }
 
-class B extends A
+class B extends A
 {
-    private $private = 4;
+    private $private = 4;
 }
 
-$object = new B;
-$object->dynamic = 5;
-$object->{'6'} = 6;
+$object = new B;
+$object->dynamic = 5;
+$object->{'6'} = 6;
 
 var_dump(get_mangled_object_vars($object));
 
-class AO extends ArrayObject
+class AO extends ArrayObject
 {
-    private $private = 1;
+    private $private = 1;
 }
 
-$arrayObject = new AO(['x' => 'y']);
-$arrayObject->dynamic = 2;
+$arrayObject = new AO(['x' => 'y']);
+$arrayObject->dynamic = 2;
 
 var_dump(get_mangled_object_vars($arrayObject));
 ```

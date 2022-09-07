@@ -14,17 +14,17 @@ title: Оператор перевірки типу
 
 ```php
 <?php
-class MyClass
+class MyClass
 {
 }
 
-class NotMyClass
+class NotMyClass
 {
 }
-$a = new MyClass;
+$a = new MyClass;
 
-var_dump($a instanceof MyClass);
-var_dump($a instanceof NotMyClass);
+var_dump($a instanceof MyClass);
+var_dump($a instanceof NotMyClass);
 ?>
 ```
 
@@ -41,18 +41,18 @@ bool(false)
 
 ```php
 <?php
-class ParentClass
+class ParentClass
 {
 }
 
-class MyClass extends ParentClass
+class MyClass extends ParentClass
 {
 }
 
-$a = new MyClass;
+$a = new MyClass;
 
-var_dump($a instanceof MyClass);
-var_dump($a instanceof ParentClass);
+var_dump($a instanceof MyClass);
+var_dump($a instanceof ParentClass);
 ?>
 ```
 
@@ -69,12 +69,12 @@ bool(true)
 
 ```php
 <?php
-class MyClass
+class MyClass
 {
 }
 
-$a = new MyClass;
-var_dump(!($a instanceof stdClass));
+$a = new MyClass;
+var_dump(!($a instanceof stdClass));
 ?>
 ```
 
@@ -90,18 +90,18 @@ bool(true)
 
 ```php
 <?php
-interface MyInterface
+interface MyInterface
 {
 }
 
-class MyClass implements MyInterface
+class MyClass implements MyInterface
 {
 }
 
-$a = new MyClass;
+$a = new MyClass;
 
-var_dump($a instanceof MyClass);
-var_dump($a instanceof MyInterface);
+var_dump($a instanceof MyClass);
+var_dump($a instanceof MyInterface);
 ?>
 ```
 
@@ -118,22 +118,22 @@ bool(true)
 
 ```php
 <?php
-interface MyInterface
+interface MyInterface
 {
 }
 
-class MyClass implements MyInterface
+class MyClass implements MyInterface
 {
 }
 
-$a = new MyClass;
-$b = new MyClass;
-$c = 'MyClass';
-$d = 'NotMyClass';
+$a = new MyClass;
+$b = new MyClass;
+$c = 'MyClass';
+$d = 'NotMyClass';
 
-var_dump($a instanceof $b); // $b - объект класса MyClass
-var_dump($a instanceof $c); // $c - строка 'MyClass'
-var_dump($a instanceof $d); // $d - строка 'NotMyClass'
+var_dump($a instanceof $b); // $b - объект класса MyClass
+var_dump($a instanceof $c); // $c - строка 'MyClass'
+var_dump($a instanceof $d); // $d - строка 'NotMyClass'
 ?>
 ```
 
@@ -151,13 +151,13 @@ bool(false)
 
 ```php
 <?php
-$a = 1;
-$b = NULL;
-$c = imagecreate(5, 5);
-var_dump($a instanceof stdClass); // $a - целое типа integer
-var_dump($b instanceof stdClass); // $b - NULL
-var_dump($c instanceof stdClass); // $c - значение типа resource
-var_dump(FALSE instanceof stdClass);
+$a = 1;
+$b = NULL;
+$c = imagecreate(5, 5);
+var_dump($a instanceof stdClass); // $a - целое типа integer
+var_dump($b instanceof stdClass); // $b - NULL
+var_dump($c instanceof stdClass); // $c - значение типа resource
+var_dump(FALSE instanceof stdClass);
 ?>
 ```
 
@@ -176,7 +176,7 @@ PHP Fatal error:  instanceof expects an object instance, constant given
 
 ```php
 <?php
-var_dump(FALSE instanceof stdClass);
+var_dump(FALSE instanceof stdClass);
 ?>
 ```
 
@@ -193,20 +193,20 @@ bool(false)
 ```php
 <?php
 
-class ClassA extends \stdClass {}
-class ClassB extends \stdClass {}
-class ClassC extends ClassB {}
-class ClassD extends ClassA {}
+class ClassA extends \stdClass {}
+class ClassB extends \stdClass {}
+class ClassC extends ClassB {}
+class ClassD extends ClassA {}
 
-function getSomeClass(): string
+function getSomeClass(): string
 {
-    return ClassA::class;
+    return ClassA::class;
 }
 
-var_dump(new ClassA instanceof ('std' . 'Class'));
-var_dump(new ClassB instanceof ('Class' . 'B'));
-var_dump(new ClassC instanceof ('Class' . 'A'));
-var_dump(new ClassD instanceof (getSomeClass()));
+var_dump(new ClassA instanceof ('std' . 'Class'));
+var_dump(new ClassB instanceof ('Class' . 'B'));
+var_dump(new ClassC instanceof ('Class' . 'A'));
+var_dump(new ClassD instanceof (getSomeClass()));
 ?>
 ```
 

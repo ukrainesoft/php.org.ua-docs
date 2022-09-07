@@ -18,7 +18,7 @@ MongoDBDriverServer::isArbiter — Перевіряє, чи є сервер чл
 final public MongoDB\Driver\Server::isArbiter(): bool
 ```
 
-Повертає, чи є цей сервер [» членом-арбітром](https://www.mongodb.com/docs/manual/reference/glossary/#term-arbiter) набір реплік.
+Повертає, чи є цей сервер [» членом-арбітром](https://www.mongodb.com/docs/manual/reference/glossary/#term-arbiter) набір реплік.
 
 ### Список параметрів
 

@@ -34,11 +34,11 @@ final public ErrorException::getSeverity(): int
 
 ```php
 <?php
-try {
-    throw new ErrorException("Сообщение об исключении", 0, E_USER_ERROR);
-} catch(ErrorException $e) {
-    echo "Серьёзность этого исключения равна: " . $e->getSeverity();
-    var_dump($e->getSeverity() === E_USER_ERROR);
+try {
+    throw new ErrorException("Сообщение об исключении", 0, E_USER_ERROR);
+} catch(ErrorException $e) {
+    echo "Серьёзность этого исключения равна: " . $e->getSeverity();
+    var_dump($e->getSeverity() === E_USER_ERROR);
 }
 ?>
 ```

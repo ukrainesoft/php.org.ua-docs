@@ -15,7 +15,7 @@ statscdflogistic — Обчислює один із параметрів лог�
 ### Опис
 
 ```methodsynopsis
-stats_cdf_logistic(    float $par1,    float $par2,    float $par3,    int $which): float
+stats_cdf_logistic(    float $par1,    float $par2,    float $par3,    int $which): float
 ```
 
 Повертає кумулятивну функцію логістичного розподілу, обернену до неї або один зі своїх параметрів. Вигляд значення і параметрів (`par1` `par2` і `par3`) визначаються параметром `which`

@@ -37,8 +37,8 @@ public **SolrDisMaxQuery::construct**(string `$q`
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
-echo $dismaxQuery;
+$dismaxQuery = new SolrDisMaxQuery('lucene');
+echo $dismaxQuery;
 
 ?>
 ```

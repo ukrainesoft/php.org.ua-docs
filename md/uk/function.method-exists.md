@@ -40,7 +40,7 @@ method_exists(object|string $object_or_class, string $method): bool
 
 ```php
 <?php
-$directory = new Directory('.');
+$directory = new Directory('.');
 var_dump(method_exists($directory,'read'));
 ?>
 ```

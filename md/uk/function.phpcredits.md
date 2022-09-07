@@ -56,7 +56,7 @@ phpcredits(CREDITS_GENERAL);
 
 ```php
 <?php
-phpcredits(CREDITS_GROUP | CREDITS_DOCS | CREDITS_FULLPAGE);
+phpcredits(CREDITS_GROUP | CREDITS_DOCS | CREDITS_FULLPAGE);
 ?>
 ```
 
@@ -64,16 +64,16 @@ phpcredits(CREDITS_GROUP | CREDITS_DOCS | CREDITS_FULLPAGE);
 
 ```php
 <html>
- <head>
-  <title>Сведения об авторах</title>
- </head>
- <body>
+ <head>
+  <title>Сведения об авторах</title>
+ </head>
+ <body>
 <?php
-// какой-то код
-phpcredits(CREDITS_ALL - CREDITS_FULLPAGE);
-// ещё код
+// какой-то код
+phpcredits(CREDITS_ALL - CREDITS_FULLPAGE);
+// ещё код
 ?>
- </body>
+ </body>
 </html>
 ```
 

@@ -24,24 +24,24 @@ Bootstrap є механізмом, який використовується д�
 
 ```php
 <?php
-   /* класс bootstrap должен быть задан в ./application/Bootstrap.php */
-   class Bootstrap extends Yaf_Bootstrap_Abstract {
-        public function _initConfig(Yaf_Dispatcher $dispatcher) {
-            var_dump(__METHOD__);
-        }
-        public function _initPlugin(Yaf_Dispatcher $dispatcher) {
-            var_dump(__METHOD__);
-        }
-   }
+   /* класс bootstrap должен быть задан в ./application/Bootstrap.php */
+   class Bootstrap extends Yaf_Bootstrap_Abstract {
+        public function _initConfig(Yaf_Dispatcher $dispatcher) {
+            var_dump(__METHOD__);
+        }
+        public function _initPlugin(Yaf_Dispatcher $dispatcher) {
+            var_dump(__METHOD__);
+        }
+   }
 
-   $config = array(
-       "application" => array(
-           "directory" => dirname(__FILE__) . "/application/",
-       ),
-   );
+   $config = array(
+       "application" => array(
+           "directory" => dirname(__FILE__) . "/application/",
+       ),
+   );
 
-   $app = new Yaf_Application($config);
-   $app->bootstrap();
+   $app = new Yaf_Application($config);
+   $app->bootstrap();
 ?>
 ```
 

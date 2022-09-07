@@ -40,12 +40,12 @@ ssh2_auth_none(resource $session, string $username): mixed
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
+$connection = ssh2_connect('shell.example.com', 22);
 
-$auth_methods = ssh2_auth_none($connection, 'user');
+$auth_methods = ssh2_auth_none($connection, 'user');
 
-if (in_array('password', $auth_methods)) {
-  echo "Сервер поддерживает аутентификацию на основе пароля\n";
+if (in_array('password', $auth_methods)) {
+  echo "Сервер поддерживает аутентификацию на основе пароля\n";
 }
 ?>
 ```

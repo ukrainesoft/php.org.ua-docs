@@ -38,30 +38,30 @@ db2_rollback(resource $connection): bool
 
 ```php
 <?php
-$conn = db2_connect($database, $user, $password);
+$conn = db2_connect($database, $user, $password);
 
-if ($conn) {
-    $stmt = db2_exec($conn, "SELECT count(*) FROM animals");
-    $res = db2_fetch_array( $stmt );
-    echo $res[0] . "\n";
+if ($conn) {
+    $stmt = db2_exec($conn, "SELECT count(*) FROM animals");
+    $res = db2_fetch_array( $stmt );
+    echo $res[0] . "\n";
 
-    // Отключаем автоподтверждение
-    db2_autocommit($conn, DB2_AUTOCOMMIT_OFF);
+    // Отключаем автоподтверждение
+    db2_autocommit($conn, DB2_AUTOCOMMIT_OFF);
 
-    // Удаляем все строки из ANIMALS
-    db2_exec($conn, "DELETE FROM animals");
+    // Удаляем все строки из ANIMALS
+    db2_exec($conn, "DELETE FROM animals");
 
-    $stmt = db2_exec($conn, "SELECT count(*) FROM animals");
-    $res = db2_fetch_array( $stmt );
-    echo $res[0] . "\n";
+    $stmt = db2_exec($conn, "SELECT count(*) FROM animals");
+    $res = db2_fetch_array( $stmt );
+    echo $res[0] . "\n";
 
-    // Откатываем операцию DELETE
-    db2_rollback( $conn );
+    // Откатываем операцию DELETE
+    db2_rollback( $conn );
 
-    $stmt = db2_exec( $conn, "SELECT count(*) FROM animals" );
-    $res = db2_fetch_array( $stmt );
-    echo $res[0] . "\n";
-    db2_close($conn);
+    $stmt = db2_exec( $conn, "SELECT count(*) FROM animals" );
+    $res = db2_fetch_array( $stmt );
+    echo $res[0] . "\n";
+    db2_close($conn);
 }
 ?>
 ```

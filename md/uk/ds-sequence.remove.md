@@ -40,7 +40,7 @@ abstract public Ds\Sequence::remove(int $index): mixed
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c"]);
+$sequence = new \Ds\Vector(["a", "b", "c"]);
 
 var_dump($sequence->remove(1));
 var_dump($sequence->remove(0));

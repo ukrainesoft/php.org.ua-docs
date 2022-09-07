@@ -58,7 +58,7 @@ getdate(?int $timestamp = null): array
 
 ```php
 <?php
-$today = getdate();
+$today = getdate();
 print_r($today);
 ?>
 ```

@@ -38,7 +38,7 @@ public Ds\Map::intersect(Ds\Map $map): Ds\Map
 
 ### Також дивіться
 
--   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
+-   [» Перетин](https://en.wikipedia.org/wiki/Intersection_(set_theory)) на Вікіпедія
 
 ### Приклади
 
@@ -46,8 +46,8 @@ public Ds\Map::intersect(Ds\Map $map): Ds\Map
 
 ```php
 <?php
-$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
-$b = new \Ds\Map(["b" => 4, "c" => 5, "d" => 6]);
+$a = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$b = new \Ds\Map(["b" => 4, "c" => 5, "d" => 6]);
 
 var_dump($a->intersect($b));
 ?>

@@ -15,7 +15,7 @@ imagefttext — Нанесення тексту на зображення за �
 ### Опис
 
 ```methodsynopsis
-imagefttext(    GdImage $image,    float $size,    float $angle,    int $x,    int $y,    int $color,    string $font_filename,    string $text,    array $options = []): array|false
+imagefttext(    GdImage $image,    float $size,    float $angle,    int $x,    int $y,    int $color,    string $font_filename,    string $text,    array $options = []): array|false
 ```
 
 > **Зауваження**
@@ -58,11 +58,11 @@ y-координат. Це позиція базової лінії шрифту
 
 ```php
 <?php
-// Задание переменной окружения для GD
-putenv('GDFONTPATH=' . realpath('.'));
+// Задание переменной окружения для GD
+putenv('GDFONTPATH=' . realpath('.'));
 
-// Имя шрифта для использования (обратите внимание на отсутствие расширения .ttf)
-$font = 'SomeFont';
+// Имя шрифта для использования (обратите внимание на отсутствие расширения .ttf)
+$font = 'SomeFont';
 ?>
 ```
 
@@ -100,22 +100,22 @@ td>
 
 ```php
 <?php
-// Создание изображения 300x100
-$im = imagecreatetruecolor(300, 100);
-$red = imagecolorallocate($im, 0xFF, 0x00, 0x00);
-$black = imagecolorallocate($im, 0x00, 0x00, 0x00);
+// Создание изображения 300x100
+$im = imagecreatetruecolor(300, 100);
+$red = imagecolorallocate($im, 0xFF, 0x00, 0x00);
+$black = imagecolorallocate($im, 0x00, 0x00, 0x00);
 
-// Сделаем красный фон
-imagefilledrectangle($im, 0, 0, 299, 99, $red);
+// Сделаем красный фон
+imagefilledrectangle($im, 0, 0, 299, 99, $red);
 
-// Путь к ttf файлу шрифта
-$font_file = './arial.ttf';
+// Путь к ttf файлу шрифта
+$font_file = './arial.ttf';
 
-// Рисуем текст 'PHP Manual' шрифтом 13го размера
-imagefttext($im, 13, 0, 105, 55, $black, $font_file, 'PHP Manual');
+// Рисуем текст 'PHP Manual' шрифтом 13го размера
+imagefttext($im, 13, 0, 105, 55, $black, $font_file, 'PHP Manual');
 
-// Вывод изображения
-header('Content-Type: image/png');
+// Вывод изображения
+header('Content-Type: image/png');
 
 imagepng($im);
 imagedestroy($im);

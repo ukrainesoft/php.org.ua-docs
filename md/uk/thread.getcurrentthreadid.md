@@ -34,12 +34,12 @@ public static Thread::getCurrentThreadId(): int
 
 ```php
 <?php
-class My extends Thread {
-    public function run() {
-        printf("%s является потоком #%lu\n", __CLASS__, Thread::getCurrentThreadId());
-    }
+class My extends Thread {
+    public function run() {
+        printf("%s является потоком #%lu\n", __CLASS__, Thread::getCurrentThreadId());
+    }
 }
-$my = new My();
+$my = new My();
 $my->start();
 ?>
 ```

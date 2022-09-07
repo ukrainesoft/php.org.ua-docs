@@ -58,8 +58,8 @@ public static getLocales(string $bundle): array|false
 
 ## Дивіться також
 
--   [»  Менеджер ресурсов ICU](http://userguide.icu-project.org/locale/resources)
--   [» Дані ICU](http://userguide.icu-project.org/icudata)
+-   [»  Менеджер ресурсов ICU](http://userguide.icu-project.org/locale/resources)
+-   [» Дані ICU](http://userguide.icu-project.org/icudata)
 
 ## Зміст
 

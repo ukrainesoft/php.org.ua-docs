@@ -34,13 +34,13 @@ public SplFileObject::ftell(): int|false
 
 ```php
 <?php
-$file = new SplFileObject("/etc/passwd");
+$file = new SplFileObject("/etc/passwd");
 
-// Читаем первую строку
-$data = $file->fgets();
+// Читаем первую строку
+$data = $file->fgets();
 
-// Определяем, где мы?
-echo $file->ftell();
+// Определяем, где мы?
+echo $file->ftell();
 ?>
 ```
 

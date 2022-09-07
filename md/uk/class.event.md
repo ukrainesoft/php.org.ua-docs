@@ -70,19 +70,19 @@ title: Клас Event
      $timeout
     = ?): bool
 public
-   __construct(    
+   __construct(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $fd
-   ,    
+   ,    
     int
      $what
-   ,    
+   ,    
     callable
      $cb
-   ,    
+   ,    
     mixed
      $arg
      = NULL
@@ -100,19 +100,19 @@ public
      $flags
    ): bool
 public
-   set(    
+   set(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $fd
-   ,    
+   ,    
     int
      $what
-    = ?,    
+    = ?,    
     callable
      $cb
-    = ?,    
+    = ?,    
     mixed
      $arg
     = ?): bool
@@ -134,16 +134,16 @@ public
     = ?): bool
 public
    static
-   signal(    
+   signal(    
     EventBase
      $base
-   ,    
+   ,    
     int
      $signum
-   ,    
+   ,    
     callable
      $cb
-   ,    
+   ,    
     mixed
      $arg
     = ?): Event

@@ -39,20 +39,20 @@ db2_escape_string(string $string_literal): string
 ```php
 <?php
 
-$conn = db2_connect($database, $user, $password);
+$conn = db2_connect($database, $user, $password);
 
-if ($conn) {
-    $str[0] = "All characters: \x00 , \n , \r , \ , ' , \" , \x1a .";
-    $str[1] = "Backslash (\). Single quote ('). Double quote (\")";
-    $str[2] = "The NULL character \0 must be quoted as well";
-    $str[3] = "Intersting characters: \x1a , \x00 .";
-    $str[4] = "Nothing to quote";
-    $str[5] = 200676;
-    $str[6] = "";
+if ($conn) {
+    $str[0] = "All characters: \x00 , \n , \r , \ , ' , \" , \x1a .";
+    $str[1] = "Backslash (\). Single quote ('). Double quote (\")";
+    $str[2] = "The NULL character \0 must be quoted as well";
+    $str[3] = "Intersting characters: \x1a , \x00 .";
+    $str[4] = "Nothing to quote";
+    $str[5] = 200676;
+    $str[6] = "";
 
-    foreach( $str as $string ) {
-        echo "db2_escape_string: " . db2_escape_string($string). "\n";
-    }
+    foreach( $str as $string ) {
+        echo "db2_escape_string: " . db2_escape_string($string). "\n";
+    }
 }
 ?>
 ```

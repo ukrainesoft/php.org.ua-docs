@@ -46,20 +46,20 @@ xhprof_enable(int $flags = 0, array $options = ?): void
 
 ```php
 <?php
-// 1. время исполнения + память + CPU; также игнорируем функции стандартной библиотеки
-xhprof_enable(XHPROF_FLAGS_NO_BUILTINS | XHPROF_FLAGS_CPU | XHPROF_FLAGS_MEMORY);
+// 1. время исполнения + память + CPU; также игнорируем функции стандартной библиотеки
+xhprof_enable(XHPROF_FLAGS_NO_BUILTINS | XHPROF_FLAGS_CPU | XHPROF_FLAGS_MEMORY);
 
-// 2. время исполнения; игнорируем при профилировании call_user_func*
+// 2. время исполнения; игнорируем при профилировании call_user_func*
 xhprof_enable(
-    0,
-    array('ignored_functions' =>  array('call_user_func',
-                                        'call_user_func_array')));
+    0,
+    array('ignored_functions' =>  array('call_user_func',
+                                        'call_user_func_array')));
 
-// 3. время исполнения + память; игнорируем при профилировании call_user_func*
+// 3. время исполнения + память; игнорируем при профилировании call_user_func*
 xhprof_enable(
-    XHPROF_FLAGS_MEMORY,
-    array('ignored_functions' =>  array('call_user_func',
-                                        'call_user_func_array')));
+    XHPROF_FLAGS_MEMORY,
+    array('ignored_functions' =>  array('call_user_func',
+                                        'call_user_func_array')));
 ?>
 ```
 

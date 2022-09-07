@@ -15,7 +15,7 @@ ibaseadduser — Додає користувача до безпечної ба�
 ### Опис
 
 ```methodsynopsis
-ibase_add_user(    resource $service_handle,    string $user_name,    string $password,    string $first_name = ?,    string $middle_name = ?,    string $last_name = ?): bool
+ibase_add_user(    resource $service_handle,    string $user_name,    string $password,    string $first_name = ?,    string $middle_name = ?,    string $last_name = ?): bool
 ```
 
 ### Список параметрів

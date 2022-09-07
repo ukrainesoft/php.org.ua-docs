@@ -15,7 +15,7 @@ SeasLog::log — Загальна функція запису до журнал�
 ### Опис
 
 ```methodsynopsis
-public static SeasLog::log(    string $level,    string $message = ?,    array $content = ?,    string $logger = ?): bool
+public static SeasLog::log(    string $level,    string $message = ?,    array $content = ?,    string $logger = ?): bool
 ```
 
 Загальна функція запису журналу.
@@ -60,19 +60,19 @@ logger, укладений у третій параметр, буде викор
 ```php
 <?php
 
-var_dump(SeasLog::log(SEASLOG_INFO,'info log'));
+var_dump(SeasLog::log(SEASLOG_INFO,'info log'));
 var_dump(SeasLog::getBuffer());
 
-//создание нового собственного уровня
-var_dump(SeasLog::log('MySelfLevel','info log'));
+//создание нового собственного уровня
+var_dump(SeasLog::log('MySelfLevel','info log'));
 var_dump(SeasLog::getBuffer());
 
-//с `content`
-var_dump(SeasLog::log('MySelfLevel','info log {NAME}',array('NAME' => 'neeke')));
+//с `content`
+var_dump(SeasLog::log('MySelfLevel','info log {NAME}',array('NAME' => 'neeke')));
 var_dump(SeasLog::getBuffer());
 
-//с `logger`
-var_dump(SeasLog::log('MySelfLevel','info log {NAME}',array('NAME' => 'neeke'),'tmp_logger'));
+//с `logger`
+var_dump(SeasLog::log('MySelfLevel','info log {NAME}',array('NAME' => 'neeke'),'tmp_logger'));
 var_dump(SeasLog::getBuffer());
 
 

@@ -15,7 +15,7 @@ fdfgetap — Отримує вигляд поля
 ### Опис
 
 ```methodsynopsis
-fdf_get_ap(    resource $fdf_document,    string $field,    int $face,    string $filename): bool
+fdf_get_ap(    resource $fdf_document,    string $field,    int $face,    string $filename): bool
 ```
 
 Набуває вигляду `field` (тобто значення ключа /AP) та зберігає його у файлі.

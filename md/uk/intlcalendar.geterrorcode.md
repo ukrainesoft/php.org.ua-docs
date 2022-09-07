@@ -50,19 +50,19 @@ intlcal_get_error_code(IntlCalendar $calendar): int|false
 
 ```php
 <?php
-ini_set("intl.error_level", E_WARNING);
-ini_set("intl.default_locale", "nl");
+ini_set("intl.error_level", E_WARNING);
+ini_set("intl.default_locale", "nl");
 
-$intlcal = new IntlGregorianCalendar(2012, 1, 29);
+$intlcal = new IntlGregorianCalendar(2012, 1, 29);
 var_dump(
-    $intlcal->getErrorCode(),
-    $intlcal->getErrorMessage()
+    $intlcal->getErrorCode(),
+    $intlcal->getErrorMessage()
 );
-$intlcal->fieldDifference(-1e100, IntlCalendar::FIELD_SECOND);
+$intlcal->fieldDifference(-1e100, IntlCalendar::FIELD_SECOND);
 
 var_dump(
-    $intlcal->getErrorCode(),
-    $intlcal->getErrorMessage()
+    $intlcal->getErrorCode(),
+    $intlcal->getErrorMessage()
 );
 ```
 

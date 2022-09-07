@@ -23,8 +23,8 @@ if (выражение)
 
 ```php
 <?php
-if ($a > $b)
-  echo "a больше b";
+if ($a > $b)
+  echo "a больше b";
 ?>
 ```
 
@@ -32,9 +32,9 @@ if ($a > $b)
 
 ```php
 <?php
-if ($a > $b) {
-  echo "a больше b";
-  $b = $a;
+if ($a > $b) {
+  echo "a больше b";
+  $b = $a;
 }
 ?>
 ```

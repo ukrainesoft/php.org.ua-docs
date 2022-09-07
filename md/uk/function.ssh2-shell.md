@@ -15,7 +15,7 @@ ssh2shell — Запитує інтерактивний термінал
 ### Опис
 
 ```methodsynopsis
-ssh2_shell(    resource $session,    string $term_type = "vanilla",    ?array $env = null,    int $width = 80,    int $height = 25,    int $width_height_type = SSH2_TERM_UNIT_CHARS): resource|false
+ssh2_shell(    resource $session,    string $term_type = "vanilla",    ?array $env = null,    int $width = 80,    int $height = 25,    int $width_height_type = SSH2_TERM_UNIT_CHARS): resource|false
 ```
 
 Відкриває термінал до віддаленого сервера та виділяє йому потік.
@@ -56,10 +56,10 @@ ssh2_shell(    resource $session,    string $term_type = "vanilla",  �
 
 ```php
 <?php
-$connection = ssh2_connect('shell.example.com', 22);
-ssh2_auth_password($connection, 'username', 'password');
+$connection = ssh2_connect('shell.example.com', 22);
+ssh2_auth_password($connection, 'username', 'password');
 
-$stream = ssh2_shell($connection, 'vt102', null, 80, 24, SSH2_TERM_UNIT_CHARS);
+$stream = ssh2_shell($connection, 'vt102', null, 80, 24, SSH2_TERM_UNIT_CHARS);
 ?>
 ```
 

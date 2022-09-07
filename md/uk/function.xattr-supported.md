@@ -42,10 +42,10 @@ xattr_supported(string $filename, int $flags = 0): bool
 
 ```php
 <?php
-$file = 'some_file';
+$file = 'some_file';
 
-if (xattr_supported($file)) {
-    /* ... make use of some xattr_* functions ... */
+if (xattr_supported($file)) {
+    /* ... make use of some xattr_* functions ... */
 }
 
 ?>

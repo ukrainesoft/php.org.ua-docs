@@ -36,19 +36,19 @@ public Ds\Deque::contains(mixed ...$values): bool
 
 ```php
 <?php
-$deque = new \Ds\Deque(['a', 'b', 'c', 1, 2, 3]);
+$deque = new \Ds\Deque(['a', 'b', 'c', 1, 2, 3]);
 
-var_dump($deque->contains('a'));                // true
-var_dump($deque->contains('a', 'b'));           // true
-var_dump($deque->contains('c', 'd'));           // false
+var_dump($deque->contains('a'));                // true
+var_dump($deque->contains('a', 'b'));           // true
+var_dump($deque->contains('c', 'd'));           // false
 
-var_dump($deque->contains(...['c', 'b', 'a'])); // true
+var_dump($deque->contains(...['c', 'b', 'a'])); // true
 
-// Всегда строгая проверка
-var_dump($deque->contains(1));                  // true
-var_dump($deque->contains('1'));                // false
+// Всегда строгая проверка
+var_dump($deque->contains(1));                  // true
+var_dump($deque->contains('1'));                // false
 
-var_dump($sequece->contains(...[]));               // true
+var_dump($sequece->contains(...[]));               // true
 ?>
 ```
 

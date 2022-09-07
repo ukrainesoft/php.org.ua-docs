@@ -38,17 +38,17 @@ public ReflectionProperty::setAccessible(bool $accessible): void
 
 ```php
 <?php
-class MyClass
+class MyClass
 {
-    private $foo = 'bar';
+    private $foo = 'bar';
 }
 
-$property = new ReflectionProperty("MyClass", "foo");
+$property = new ReflectionProperty("MyClass", "foo");
 $property->setAccessible(true);
 
-$obj = new MyClass();
-echo $property->getValue($obj);
-echo $obj->foo;
+$obj = new MyClass();
+echo $property->getValue($obj);
+echo $obj->foo;
 ?>
 ```
 

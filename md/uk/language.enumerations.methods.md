@@ -13,39 +13,39 @@ title: Методи перерахувань
 ```php
 <?php
 
-interface Colorful
+interface Colorful
 {
-    public function color(): string;
+    public function color(): string;
 }
 
-enum Suit implements Colorful
+enum Suit implements Colorful
 {
-    case Hearts;
-    case Diamonds;
-    case Clubs;
-    case Spades;
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
 
-    // Выполняет интерфейсный контракт.
-    public function color(): string
-    {
-        return match($this) {
-            Suit::Hearts, Suit::Diamonds => 'Красный',
-            Suit::Clubs, Suit::Spades => 'Чёрный'
-        };
-    }
+    // Выполняет интерфейсный контракт.
+    public function color(): string
+    {
+        return match($this) {
+            Suit::Hearts, Suit::Diamonds => 'Красный',
+            Suit::Clubs, Suit::Spades => 'Чёрный'
+        };
+    }
 
-    // Не является частью интерфейса; хорошо.
-    public function shape(): string
-    {
-        return "Rectangle";
-    }
+    // Не является частью интерфейса; хорошо.
+    public function shape(): string
+    {
+        return "Rectangle";
+    }
 }
 
-function paint(Colorful $c) { ... }
+function paint(Colorful $c) { ... }
 
-paint(Suit::Clubs);  // Работает
+paint(Suit::Clubs);  // Работает
 
-print Suit::Diamonds->shape(); // выведет "Rectangle"
+print Suit::Diamonds->shape(); // выведет "Rectangle"
 ?>
 ```
 
@@ -55,26 +55,26 @@ print Suit::Diamonds->shape(); // выведет "Rectangle"
 
 ```php
 <?php
-interface Colorful
+interface Colorful
 {
-    public function color(): string;
+    public function color(): string;
 }
 
-enum Suit: string implements Colorful
+enum Suit: string implements Colorful
 {
-    case Hearts = 'H';
-    case Diamonds = 'D';
-    case Clubs = 'C';
-    case Spades = 'S';
+    case Hearts = 'H';
+    case Diamonds = 'D';
+    case Clubs = 'C';
+    case Spades = 'S';
 
-    // Выполняет интерфейсный контракт.
-    public function color(): string
-    {
-        return match($this) {
-            Suit::Hearts, Suit::Diamonds => 'Красный',
-            Suit::Clubs, Suit::Spades => 'Чёрный'
-        };
-    }
+    // Выполняет интерфейсный контракт.
+    public function color(): string
+    {
+        return match($this) {
+            Suit::Hearts, Suit::Diamonds => 'Красный',
+            Suit::Clubs, Suit::Spades => 'Чёрный'
+        };
+    }
 }
 ?>
 ```
@@ -89,38 +89,38 @@ enum Suit: string implements Colorful
 
 ```php
 <?php
-interface Colorful
+interface Colorful
 {
-    public function color(): string;
+    public function color(): string;
 }
 
-final class Suit implements UnitEnum, Colorful
+final class Suit implements UnitEnum, Colorful
 {
-    public const Hearts = new self('Hearts');
-    public const Diamonds = new self('Diamonds');
-    public const Clubs = new self('Clubs');
-    public const Spades = new self('Spades');
+    public const Hearts = new self('Hearts');
+    public const Diamonds = new self('Diamonds');
+    public const Clubs = new self('Clubs');
+    public const Spades = new self('Spades');
 
-    private function __construct(public readonly string $name) {}
+    private function __construct(public readonly string $name) {}
 
-    public function color(): string
-    {
-        return match($this) {
-            Suit::Hearts, Suit::Diamonds => 'Красный',
-            Suit::Clubs, Suit::Spades => 'Чёрный'
-        };
-    }
+    public function color(): string
+    {
+        return match($this) {
+            Suit::Hearts, Suit::Diamonds => 'Красный',
+            Suit::Clubs, Suit::Spades => 'Чёрный'
+        };
+    }
 
-    public function shape(): string
-    {
-        return "Прямоугольник";
-    }
+    public function shape(): string
+    {
+        return "Прямоугольник";
+    }
 
-    public static function cases(): array
-    {
-        // Недопустимый метод, поскольку определение метода cases() в перечислениях вручную запрещено.
-        // Смотрите также раздел "Список значений".
-    }
+    public static function cases(): array
+    {
+        // Недопустимый метод, поскольку определение метода cases() в перечислениях вручную запрещено.
+        // Смотрите также раздел "Список значений".
+    }
 }
 ?>
 ```

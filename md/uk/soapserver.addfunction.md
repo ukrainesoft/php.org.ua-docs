@@ -45,19 +45,19 @@ public SoapServer::addFunction(array|string|int $functions): void
 ```php
 <?php
 
-function echoString($inputString)
+function echoString($inputString)
 {
-    return $inputString;
+    return $inputString;
 }
 
 $server->addFunction("echoString");
 
-function echoTwoStrings($inputString1, $inputString2)
+function echoTwoStrings($inputString1, $inputString2)
 {
-    return array("outputString1" => $inputString1,
-                 "outputString2" => $inputString2);
+    return array("outputString1" => $inputString1,
+                 "outputString2" => $inputString2);
 }
-$server->addFunction(array("echoString", "echoTwoStrings"));
+$server->addFunction(array("echoString", "echoTwoStrings"));
 
 $server->addFunction(SOAP_FUNCTIONS_ALL);
 

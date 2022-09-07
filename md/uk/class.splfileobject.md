@@ -54,7 +54,7 @@ title: Клас SplFileObject
 
     /* Методы */
     
-   public __construct(    string $filename,    string $mode = "r",    bool $useIncludePath = false,    ?resource $context = null)
+   public __construct(    string $filename,    string $mode = "r",    bool $useIncludePath = false,    ?resource $context = null)
 
     public current(): string|array|false
 public eof(): bool
@@ -65,7 +65,7 @@ public fgets(): string
 public fgetss(string $allowable_tags = ?): string
 public flock(int $operation, int &$wouldBlock = null): bool
 public fpassthru(): int
-public fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
+public fputcsv(    array $fields,    string $separator = ",",    string $enclosure = "\"",    string $escape = "\\",    string $eol = "\n"): int|false
 public fread(int $length): string|false
 public fscanf(string $format, mixed &...$vars): array|int|null
 public fseek(int $offset, int $whence = SEEK_SET): int

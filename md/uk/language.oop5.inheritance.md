@@ -28,12 +28,12 @@ title: успадкування
 > 
 > ```php
 > <?php
-> class A {
->     public int $prop;
+> class A {
+>     public int $prop;
 > }
-> class B extends A {
->     // Нельзя: read-write -> readonly
->     public readonly int $prop;
+> class B extends A {
+>     // Нельзя: read-write -> readonly
+>     public readonly int $prop;
 > }
 > ?>
 > ```
@@ -43,33 +43,33 @@ title: успадкування
 ```php
 <?php
 
-class Foo
+class Foo
 {
-    public function printItem($string)
-    {
-        echo 'Foo: ' . $string . PHP_EOL;
-    }
+    public function printItem($string)
+    {
+        echo 'Foo: ' . $string . PHP_EOL;
+    }
 
-    public function printPHP()
-    {
-        echo 'PHP просто супер.' . PHP_EOL;
-    }
+    public function printPHP()
+    {
+        echo 'PHP просто супер.' . PHP_EOL;
+    }
 }
 
-class Bar extends Foo
+class Bar extends Foo
 {
-    public function printItem($string)
-    {
-        echo 'Bar: ' . $string . PHP_EOL;
-    }
+    public function printItem($string)
+    {
+        echo 'Bar: ' . $string . PHP_EOL;
+    }
 }
 
-$foo = new Foo();
-$bar = new Bar();
-$foo->printItem('baz'); // Выведет: 'Foo: baz'
-$foo->printPHP();       // Выведет: 'PHP просто супер'
-$bar->printItem('baz'); // Выведет: 'Bar: baz'
-$bar->printPHP();       // Выведет: 'PHP просто супер'
+$foo = new Foo();
+$bar = new Bar();
+$foo->printItem('baz'); // Выведет: 'Foo: baz'
+$foo->printPHP();       // Выведет: 'PHP просто супер'
+$bar->printItem('baz'); // Выведет: 'Bar: baz'
+$bar->printPHP();       // Выведет: 'PHP просто супер'
 
 ?>
 ```
@@ -86,12 +86,12 @@ $bar->printPHP();       // Выведет: 'PHP просто супе
 
 ```php
 <?php
-class MyDateTime extends DateTime
+class MyDateTime extends DateTime
 {
-    public function modify(string $modifier) { return false; }
+    public function modify(string $modifier) { return false; }
 }
 
-// "Deprecated: Return type of MyDateTime::modify(string $modifier) should either be compatible with DateTime::modify(string $modifier): DateTime|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice", начиная с PHP 8.1.0
+// "Deprecated: Return type of MyDateTime::modify(string $modifier) should either be compatible with DateTime::modify(string $modifier): DateTime|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice", начиная с PHP 8.1.0
 ?>
 ```
 
@@ -99,12 +99,12 @@ class MyDateTime extends DateTime
 
 ```php
 <?php
-class MyDateTime extends DateTime
+class MyDateTime extends DateTime
 {
-    public function modify(string $modifier): ?DateTime { return null; }
+    public function modify(string $modifier): ?DateTime { return null; }
 }
 
-// "Deprecated: Return type of MyDateTime::modify(string $modifier): ?DateTime should either be compatible with DateTime::modify(string $modifier): DateTime|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice", начиная с PHP 8.1.0
+// "Deprecated: Return type of MyDateTime::modify(string $modifier): ?DateTime should either be compatible with DateTime::modify(string $modifier): DateTime|false, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice", начиная с PHP 8.1.0
 ?>
 ```
 
@@ -112,15 +112,15 @@ class MyDateTime extends DateTime
 
 ```php
 <?php
-class MyDateTime extends DateTime
+class MyDateTime extends DateTime
 {
-    /**
-     * @return DateTime|false
-     */
-    #[ReturnTypeWillChange]
-    public function modify(string $modifier) { return false; }
+    /**
+     * @return DateTime|false
+     */
+    #[ReturnTypeWillChange]
+    public function modify(string $modifier) { return false; }
 }
 
-// Уведомление об устаревании не выводится
+// Уведомление об устаревании не выводится
 ?>
 ```

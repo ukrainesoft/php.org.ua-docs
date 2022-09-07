@@ -19,7 +19,7 @@ ldapcontrolpagedresult — Надіслати серверу LDAP дані дл�
 ### Опис
 
 ```methodsynopsis
-ldap_control_paged_result(    resource $link,    int $pagesize,    bool $iscritical = false,    string $cookie = ""): bool
+ldap_control_paged_result(    resource $link,    int $pagesize,    bool $iscritical = false,    string $cookie = ""): bool
 ```
 
 Дозволяє працювати з LDAP у посторінковому режимі, шляхом надсилання бажаних налаштувань (розмір сторінки, куки і т.д.)
@@ -61,21 +61,21 @@ ldap_control_paged_result(    resource $link,    int $pagesize,    b
 
 ```php
 <?php
-     // $ds - идентификатор соединения (смотрите ldap_connect)
-     ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
+     // $ds - идентификатор соединения (смотрите ldap_connect)
+     ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
 
-     $dn        = 'ou=example,dc=org';
-     $filter    = '(|(sn=Doe*)(givenname=John*))';
-     $justthese = array('ou', 'sn', 'givenname', 'mail');
+     $dn        = 'ou=example,dc=org';
+     $filter    = '(|(sn=Doe*)(givenname=John*))';
+     $justthese = array('ou', 'sn', 'givenname', 'mail');
 
-     // разрешаем постраничную работу с размером страницы равному одной записи.
-     ldap_control_paged_result($ds, 1);
+     // разрешаем постраничную работу с размером страницы равному одной записи.
+     ldap_control_paged_result($ds, 1);
 
-     $sr = ldap_search($ds, $dn, $filter, $justthese);
+     $sr = ldap_search($ds, $dn, $filter, $justthese);
 
-     $info = ldap_get_entries($ds, $sr);
+     $info = ldap_get_entries($ds, $sr);
 
-     echo $info['count'] . ' записей возвращено' . PHP_EOL;
+     echo $info['count'] . ' записей возвращено' . PHP_EOL;
 ```
 
 Приклад нижче демонструє вилучення першої сторінки результату пошуку з використанням розміру сторінки, що дорівнює ста записам.
@@ -84,30 +84,30 @@ ldap_control_paged_result(    resource $link,    int $pagesize,    b
 
 ```php
 <?php
-     // $ds - идентификатор соединения (смотрите ldap_connect)
-     ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
+     // $ds - идентификатор соединения (смотрите ldap_connect)
+     ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
 
-     $dn        = 'ou=example,dc=org';
-     $filter    = '(|(sn=Doe*)(givenname=John*))';
-     $justthese = array('ou', 'sn', 'givenname', 'mail');
+     $dn        = 'ou=example,dc=org';
+     $filter    = '(|(sn=Doe*)(givenname=John*))';
+     $justthese = array('ou', 'sn', 'givenname', 'mail');
 
-     // разрешаем постраничную работу с размером страницы равному ста записям.
-     $pageSize = 100;
+     // разрешаем постраничную работу с размером страницы равному ста записям.
+     $pageSize = 100;
 
-     $cookie = '';
-     do {
-         ldap_control_paged_result($ds, $pageSize, true, $cookie);
+     $cookie = '';
+     do {
+         ldap_control_paged_result($ds, $pageSize, true, $cookie);
 
-         $result  = ldap_search($ds, $dn, $filter, $justthese);
-         $entries = ldap_get_entries($ds, $result);
+         $result  = ldap_search($ds, $dn, $filter, $justthese);
+         $entries = ldap_get_entries($ds, $result);
 
-         foreach ($entries as $e) {
-             echo $e['dn'] . PHP_EOL;
-         }
+         foreach ($entries as $e) {
+             echo $e['dn'] . PHP_EOL;
+         }
 
-         ldap_control_paged_result_response($ds, $result, $cookie);
+         ldap_control_paged_result_response($ds, $result, $cookie);
 
-     } while($cookie !== null && $cookie != '');
+     } while($cookie !== null && $cookie != '');
 ```
 
 ### Примітки
@@ -119,4 +119,4 @@ ldap_control_paged_result(    resource $link,    int $pagesize,    b
 ### Дивіться також
 
 -   [ldapcontrolpagedresultresponse()](function.ldap-control-paged-result-response.md) - Отримати вказівник на поточну сторінку результуючого набору LDAP
--   [» RFC2696 : Керуючий модуль LDAP для простих маніпуляцій результатом, що посторінково повертається](http://www.faqs.org/rfcs/rfc2696)
+-   [» RFC2696 : Керуючий модуль LDAP для простих маніпуляцій результатом, що посторінково повертається](http://www.faqs.org/rfcs/rfc2696)

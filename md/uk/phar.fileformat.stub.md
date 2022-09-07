@@ -11,7 +11,7 @@ title: Заглушка Phar-файлу
 Заглушкою Phar є простий файл PHP. Мінімально можлива заглушка виглядає так:
 
 ```php
-<?php __HALT_COMPILER();
+<?php __HALT_COMPILER();
 ```
 
 Заглушка повинна містити принаймні лексему `__HALT_COMPILER();` наприкінці файлу. Як правило, заглушка містить функціональність завантажувача, подібно до того, як показано нижче:
@@ -19,7 +19,7 @@ title: Заглушка Phar-файлу
 ```php
 <?php
 Phar::mapPhar();
-include 'phar://myphar.phar/index.php';
+include 'phar://myphar.phar/index.php';
 __HALT_COMPILER();
 ```
 

@@ -22,7 +22,7 @@ int `$priority`
 
 Це досить просунутий тип спостерігача, який дозволяє вбудувати один цикл подій в інший (нині підтримуються лише події введення-виводу у вбудованому циклі, інші типи спостерігачів можуть оброблятися із затримкою чи неправильно і не повинні використовуватися).
 
-Детальніше читайте в [» документации libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_embed_code_when_one_backend_)
+Детальніше читайте в [» документации libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_embed_code_when_one_backend_)
 
 Цей спостерігач найбільш корисний у *BSD* системах без працюючого `kqueue` для підтримки обробки великої кількості сокетів. Дивіться приклад нижче.
 
@@ -51,29 +51,29 @@ int `$priority`
 ```php
 <?php
 /*
- * Проверьте, доступен ли kqueue и создайте бэкенд kqueue
- * для использования с сокетами (это обычно работает с любой реализацией kqueue).
- * Сохраните событийный цикл kqueue/socket-only в loop_socket. (Опционально можно
- * использовать флаг EVFLAG_NOENV)
- *
- * пример взят из
- * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
- */
-$loop        = EvLoop::defaultLoop();
-$socket_loop = NULL;
-$embed       = NULL;
+ * Проверьте, доступен ли kqueue и создайте бэкенд kqueue
+ * для использования с сокетами (это обычно работает с любой реализацией kqueue).
+ * Сохраните событийный цикл kqueue/socket-only в loop_socket. (Опционально можно
+ * использовать флаг EVFLAG_NOENV)
+ *
+ * пример взят из
+ * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9
+ */
+$loop        = EvLoop::defaultLoop();
+$socket_loop = NULL;
+$embed       = NULL;
 
-if (Ev::supportedBackends() & ~Ev::recommendedBackends() & Ev::BACKEND_KQUEUE) {
-    if (($socket_loop = new EvLoop(Ev::BACKEND_KQUEUE))) {
-        $embed = new EvEmbed($loop);
-    }
+if (Ev::supportedBackends() & ~Ev::recommendedBackends() & Ev::BACKEND_KQUEUE) {
+    if (($socket_loop = new EvLoop(Ev::BACKEND_KQUEUE))) {
+        $embed = new EvEmbed($loop);
+    }
 }
 
-if (!$socket_loop) {
-    $socket_loop = $loop;
+if (!$socket_loop) {
+    $socket_loop = $loop;
 }
 
-// теперь используйте $socket_loop для всех сокетов, а $loop для всего остального
+// теперь используйте $socket_loop для всех сокетов, а $loop для всего остального
 ?>
 ```
 

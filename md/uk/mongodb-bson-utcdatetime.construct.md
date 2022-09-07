@@ -46,11 +46,11 @@ final public MongoDB\BSON\UTCDateTime::__construct(int|float|string|DateTimeInte
 ```php
 <?php
 
-var_dump(new MongoDB\BSON\UTCDateTime);
+var_dump(new MongoDB\BSON\UTCDateTime);
 
-var_dump(new MongoDB\BSON\UTCDateTime(new DateTime));
+var_dump(new MongoDB\BSON\UTCDateTime(new DateTime));
 
-var_dump(new MongoDB\BSON\UTCDateTime(1416445411987));
+var_dump(new MongoDB\BSON\UTCDateTime(1416445411987));
 
 ?>
 ```
@@ -74,4 +74,4 @@ object(MongoDB\BSON\UTCDateTime)#1 (1) {
 
 ### Дивіться також
 
--   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+-   [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

@@ -15,7 +15,7 @@ odbcprimarykeys — Отримує первинні ключі таблиці
 ### Опис
 
 ```methodsynopsis
-odbc_primarykeys(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
+odbc_primarykeys(    resource $odbc,    ?string $catalog,    string $schema,    string $table): resource|false
 ```
 
 Повертає ідентифікатор результату, який можна використовувати для отримання імен шпальт, що становлять первинний ключ таблиці.
@@ -59,11 +59,11 @@ odbc_primarykeys(    resource $odbc,    ?string $catalog,    string 
 
 ```php
 <?php
-$conn = odbc_connect($dsn, $user, $pass);
-$primarykeys = odbc_primarykeys($conn, 'TutorialDB', 'dbo', 'TEST');
-while (($row = odbc_fetch_array($primarykeys))) {
-    print_r($row);
-    break; // последующие строки опущены для краткости
+$conn = odbc_connect($dsn, $user, $pass);
+$primarykeys = odbc_primarykeys($conn, 'TutorialDB', 'dbo', 'TEST');
+while (($row = odbc_fetch_array($primarykeys))) {
+    print_r($row);
+    break; // последующие строки опущены для краткости
 }
 ?>
 ```

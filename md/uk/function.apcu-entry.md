@@ -50,22 +50,22 @@ Callback-функція, яка приймає один параметр `key` �
 
 ```php
 <?php
-$config = apcu_entry("config", function($key) {
- return [
-   "fruit" => apcu_entry("config.fruit", function($key){
-     return [
-       "apples",
-       "pears"
-     ];
-   }),
-   "people" => apcu_entry("config.people", function($key){
-     return [
-      "bob",
-      "joe",
-      "niki"
-     ];
-   })
- ];
+$config = apcu_entry("config", function($key) {
+ return [
+   "fruit" => apcu_entry("config.fruit", function($key){
+     return [
+       "apples",
+       "pears"
+     ];
+   }),
+   "people" => apcu_entry("config.people", function($key){
+     return [
+      "bob",
+      "joe",
+      "niki"
+     ];
+   })
+ ];
 });
 
 var_dump($config);

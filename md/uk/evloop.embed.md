@@ -17,16 +17,16 @@ EvLoop::embed — Створює екземпляр спостерігача EvE
 ```methodsynopsis
 final
    public
-   EvLoop::embed(    
+   EvLoop::embed(    
     string
      $other
-   ,    
+   ,    
     string
      $callback
-    = ?,    
+    = ?,    
     string
      $data
-    = ?,    
+    = ?,    
     string
      $priority
     = ?): EvEmbed

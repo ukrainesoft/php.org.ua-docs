@@ -19,7 +19,7 @@ jpeg2wbmp — Перетворення зображення з формату JP
 ### Опис
 
 ```methodsynopsis
-jpeg2wbmp(    string $jpegname,    string $wbmpname,    int $dest_height,    int $dest_width,    int $threshold): bool
+jpeg2wbmp(    string $jpegname,    string $wbmpname,    int $dest_height,    int $dest_width,    int $threshold): bool
 ```
 
 Конвертує JPEG-файл у WBMP.
@@ -60,14 +60,14 @@ jpeg2wbmp(    string $jpegname,    string $wbmpname,    int $dest_he
 
 ```php
 <?php
-// Путь к исходному jpeg-изображению
-$path = './test.jpg';
+// Путь к исходному jpeg-изображению
+$path = './test.jpg';
 
-// Получаем размеры изображения
-$image = getimagesize($path);
+// Получаем размеры изображения
+$image = getimagesize($path);
 
-// Конвертируем изображение
-jpeg2wbmp($path, './test.wbmp', $image[1], $image[0], 5);
+// Конвертируем изображение
+jpeg2wbmp($path, './test.wbmp', $image[1], $image[0], 5);
 ?>
 ```
 

@@ -40,15 +40,15 @@ cubrid_lob_send(resource $conn_identifier, resource $lob_identifier): bool
 
 ```php
 <?php
-$conn = cubrid_connect ("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect ("localhost", 33000, "demodb", "dba");
 
-cubrid_execute($conn,"DROP TABLE if exists doc");
-cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");
-cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");
+cubrid_execute($conn,"DROP TABLE if exists doc");
+cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");
+cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");
 
-$lobs = cubrid_lob_get($conn, "SELECT doc_content FROM doc WHERE id=5");
+$lobs = cubrid_lob_get($conn, "SELECT doc_content FROM doc WHERE id=5");
 
-cubrid_lob_send($conn, $lobs[0]);
+cubrid_lob_send($conn, $lobs[0]);
 cubrid_lob_close($lobs);
 cubrid_disconnect($conn);
 ?>

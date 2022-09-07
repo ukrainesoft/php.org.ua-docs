@@ -46,19 +46,19 @@ pg_get_notify(PgSql\Connection $connection, int $mode = PGSQL_ASSOC): array|fals
 
 ```php
 <?php
-$conn = pg_pconnect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_pconnect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-// Слушаем сообщение 'author_updated' из другого процесса
-pg_query($conn, 'LISTEN author_updated;');
-$notify = pg_get_notify($conn);
-if (!$notify) {
-  echo "Нет сообщений\n";
-} else {
-  print_r($notify);
+// Слушаем сообщение 'author_updated' из другого процесса
+pg_query($conn, 'LISTEN author_updated;');
+$notify = pg_get_notify($conn);
+if (!$notify) {
+  echo "Нет сообщений\n";
+} else {
+  print_r($notify);
 }
 ?>
 ```

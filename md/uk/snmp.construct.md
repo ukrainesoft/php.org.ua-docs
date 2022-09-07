@@ -59,9 +59,9 @@ SNMP protocol version: **`SNMP::VERSION_1`** **`SNMP::VERSION_2C`** **`SNMP::VER
 
 ```php
 <?php
-  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
-  $sysdescr = $session->get("sysDescr.0");
-  echo "$sysdescr\n";
+  $session = new SNMP(SNMP::VERSION_1, "127.0.0.1", "public");
+  $sysdescr = $session->get("sysDescr.0");
+  echo "$sysdescr\n";
 ?>
 ```
 

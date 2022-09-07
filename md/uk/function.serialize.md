@@ -48,20 +48,20 @@ serialize(mixed $value): string
 
 ```php
 <?php
-// $session_data содержит многомерный Масив с сессионной
-// информацией о текущем пользователе. Мы используем serialize() для сохранения
-// этой информации в базе данных в конце запроса.
+// $session_data содержит многомерный Масив с сессионной
+// информацией о текущем пользователе. Мы используем serialize() для сохранения
+// этой информации в базе данных в конце запроса.
 
-$conn = odbc_connect("webdb", "php", "chicken");
-$stmt = odbc_prepare($conn,
-      "UPDATE sessions SET data = ? WHERE id = ?");
-$sqldata = array (serialize($session_data), $_SERVER['PHP_AUTH_USER']);
-if (!odbc_execute($stmt, $sqldata)) {
-    $stmt = odbc_prepare($conn,
-     "INSERT INTO sessions (id, data) VALUES(?, ?)");
-    if (!odbc_execute($stmt, array_reverse($sqldata))) {
-        /* Код, выполняемый в случае возникновения ошибки.. */
-    }
+$conn = odbc_connect("webdb", "php", "chicken");
+$stmt = odbc_prepare($conn,
+      "UPDATE sessions SET data = ? WHERE id = ?");
+$sqldata = array (serialize($session_data), $_SERVER['PHP_AUTH_USER']);
+if (!odbc_execute($stmt, $sqldata)) {
+    $stmt = odbc_prepare($conn,
+     "INSERT INTO sessions (id, data) VALUES(?, ?)");
+    if (!odbc_execute($stmt, array_reverse($sqldata))) {
+        /* Код, выполняемый в случае возникновения ошибки.. */
+    }
 }
 ?>
 ```

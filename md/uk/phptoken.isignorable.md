@@ -34,11 +34,11 @@ public PhpToken::isIgnorable(): bool
 
 ```php
 <?php
-$echo = new PhpToken(T_ECHO, 'echo');
-var_dump($echo->isIgnorable());   // -> bool(false)
+$echo = new PhpToken(T_ECHO, 'echo');
+var_dump($echo->isIgnorable());   // -> bool(false)
 
-$space = new PhpToken(T_WHITESPACE, ' ');
-var_dump($space->isIgnorable());  // -> bool(true)
+$space = new PhpToken(T_WHITESPACE, ' ');
+var_dump($space->isIgnorable());  // -> bool(true)
 ```
 
 ### Дивіться також

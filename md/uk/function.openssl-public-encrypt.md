@@ -15,7 +15,7 @@ opensslpublicencrypt — Шифрування даних відкритим кл
 ### Опис
 
 ```methodsynopsis
-openssl_public_encrypt(    string $data,    string &$encrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
+openssl_public_encrypt(    string $data,    string &$encrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
 ```
 
 **opensslpublicencrypt()** шифрує `data` відкритим ключем `public_key` і зберігає в `encrypted_data`. Згодом розшифрувати їх можна функцією [opensslprivatedecrypt()](function.openssl-private-decrypt.md)

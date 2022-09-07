@@ -34,10 +34,10 @@ public QuickHashIntStringHash::getSize(): int
 
 ```php
 <?php
-$hash = new QuickHashIntStringHash( 8 );
-var_dump( $hash->add( 2, "two" ) );
-var_dump( $hash->add( 3, 5 ) );
-var_dump( $hash->getSize() );
+$hash = new QuickHashIntStringHash( 8 );
+var_dump( $hash->add( 2, "two" ) );
+var_dump( $hash->add( 3, 5 ) );
+var_dump( $hash->getSize() );
 ?>
 ```
 

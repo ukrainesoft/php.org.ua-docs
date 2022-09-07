@@ -48,8 +48,8 @@ unlink(string $filename, ?resource $context = null): bool
 
 ```php
 <?php
-$fh = fopen('test.html', 'a');
-fwrite($fh, '<h1>Привет, мир!</h1>');
+$fh = fopen('test.html', 'a');
+fwrite($fh, '<h1>Привет, мир!</h1>');
 fclose($fh);
 
 unlink('test.html');

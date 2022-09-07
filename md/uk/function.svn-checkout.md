@@ -15,7 +15,7 @@ svncheckout — Отримує робочу копію з репозиторію
 ### Опис
 
 ```methodsynopsis
-svn_checkout(    string $repos,    string $targetpath,    int $revision = ?,    int $flags = 0): bool
+svn_checkout(    string $repos,    string $targetpath,    int $revision = ?,    int $flags = 0): bool
 ```
 
 Отримує робочу копію з ревізією `revision` з репозиторію `repos` і розміщує в `targetpath`
@@ -52,7 +52,7 @@ svn_checkout(    string $repos,    string $targetpath,    int $revis
 
 ```php
 <?php
-svn_checkout('http://www.example.com/svnroot/calc/trunk', dirname(__FILE__) . '/calc');
+svn_checkout('http://www.example.com/svnroot/calc/trunk', dirname(__FILE__) . '/calc');
 ?>
 ```
 
@@ -70,4 +70,4 @@ svn_checkout('http://www.example.com/svnroot/calc/trunk', dirname(__FILE__) .�
 -   [svncommit()](function.svn-commit.md) - Відправляє зміни з робочої директорії до репозиторію
 -   [svnstatus()](function.svn-status.md) - Повертає SVN-статус файлів та директорій робочої копії
 -   [svnupdate()](function.svn-update.md) - Оновлює робочу копію
--   [» SVN-документация о команде svn checkout](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.checkout.md)
+-   [» SVN-документация о команде svn checkout](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.checkout.md)

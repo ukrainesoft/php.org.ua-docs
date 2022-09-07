@@ -34,8 +34,8 @@ public DirectoryIterator::getPath(): string
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-echo $iterator->getPath();
+$iterator = new DirectoryIterator(dirname(__FILE__));
+echo $iterator->getPath();
 ?>
 ```
 

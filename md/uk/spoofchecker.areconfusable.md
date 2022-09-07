@@ -44,11 +44,11 @@ public Spoofchecker::areConfusable(string $string1, string $string2, int &$error
 
 ```php
 <?php
-$checker = new Spoofchecker();
+$checker = new Spoofchecker();
 
-$checker->areConfusable('google.com', 'goog1e.com'); // true
-// Английскую строчную "l" легко перепутать с цифрой 1
+$checker->areConfusable('google.com', 'goog1e.com'); // true
+// Английскую строчную "l" легко перепутать с цифрой 1
 
-$checker->areConfusable('google.com', 'g00g1e.com'); // false
-// Ноль (0) сложно перепутать со строчной "o"
+$checker->areConfusable('google.com', 'g00g1e.com'); // false
+// Ноль (0) сложно перепутать со строчной "o"
 ```

@@ -21,7 +21,7 @@ IntlDateFormatter::create -- datefmtcreate -- IntlDateFormatter::construct — �
 Об'єктно-орієнтований стиль
 
 ```methodsynopsis
-public static IntlDateFormatter::create(    ?string $locale,    int $dateType = IntlDateFormatter::FULL,    int $timeType = IntlDateFormatter::FULL,    IntlTimeZone|DateTimeZone|string|null $timezone = null,    IntlCalendar|int|null $calendar = null,    ?string $pattern = null): ?IntlDateFormatter
+public static IntlDateFormatter::create(    ?string $locale,    int $dateType = IntlDateFormatter::FULL,    int $timeType = IntlDateFormatter::FULL,    IntlTimeZone|DateTimeZone|string|null $timezone = null,    IntlCalendar|int|null $calendar = null,    ?string $pattern = null): ?IntlDateFormatter
 ```
 
 Об'єктно-орієнтований стиль (конструктор)
@@ -37,7 +37,7 @@ int `$timeType` = IntlDateFormatter::FULL,
 Процедурний стиль
 
 ```methodsynopsis
-datefmt_create(    ?string $locale,    int $dateType,    int $timeType,    IntlTimeZone|DateTimeZone|string|null $timezone = null,    IntlCalendar|int|null $calendar = null,    string $pattern = ""): ?IntlDateFormatter
+datefmt_create(    ?string $locale,    int $dateType,    int $timeType,    IntlTimeZone|DateTimeZone|string|null $timezone = null,    IntlCalendar|int|null $calendar = null,    string $pattern = ""): ?IntlDateFormatter
 ```
 
 Створює засіб форматування дати.
@@ -68,7 +68,7 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 `pattern`
 
-Необов'язковий шаблон для використання під час форматування або аналізу. Можливі шаблони документовані за адресою [» https://unicode-org.github.io/icu/userguide/formatparse/datetime/](https://unicode-org.github.io/icu/userguide/format_parse/datetime/)
+Необов'язковий шаблон для використання під час форматування або аналізу. Можливі шаблони документовані за адресою [» https://unicode-org.github.io/icu/userguide/formatparse/datetime/](https://unicode-org.github.io/icu/userguide/format_parse/datetime/)
 
 ### Значення, що повертаються
 
@@ -93,19 +93,19 @@ datefmt_create(    ?string $locale,    int $dateType,    int $timeTy
 
 ```php
 <?php
-$fmt = datefmt_create( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
-    'America/Los_Angeles', IntlDateFormatter::GREGORIAN  );
-echo "First Formatted output is ".datefmt_format( $fmt , 0);
-$fmt = datefmt_create( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
-    'America/Los_Angeles',IntlDateFormatter::GREGORIAN  );
-echo "Second Formatted output is ".datefmt_format( $fmt , 0);
+$fmt = datefmt_create( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
+    'America/Los_Angeles', IntlDateFormatter::GREGORIAN  );
+echo "First Formatted output is ".datefmt_format( $fmt , 0);
+$fmt = datefmt_create( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
+    'America/Los_Angeles',IntlDateFormatter::GREGORIAN  );
+echo "Second Formatted output is ".datefmt_format( $fmt , 0);
 
-$fmt = datefmt_create( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
-     'America/Los_Angeles',IntlDateFormatter::GREGORIAN  ,"MM/dd/yyyy");
-echo "First Formatted output with pattern is ".datefmt_format( $fmt , 0);
-$fmt = datefmt_create( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
-     'America/Los_Angeles',IntlDateFormatter::GREGORIAN  ,"MM/dd/yyyy");
-echo "Second Formatted output with pattern is ".datefmt_format( $fmt , 0);
+$fmt = datefmt_create( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
+     'America/Los_Angeles',IntlDateFormatter::GREGORIAN  ,"MM/dd/yyyy");
+echo "First Formatted output with pattern is ".datefmt_format( $fmt , 0);
+$fmt = datefmt_create( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
+     'America/Los_Angeles',IntlDateFormatter::GREGORIAN  ,"MM/dd/yyyy");
+echo "Second Formatted output with pattern is ".datefmt_format( $fmt , 0);
 ?>
 ```
 
@@ -113,19 +113,19 @@ echo "Second Formatted output with pattern is ".datefmt_format( $fmt ,�
 
 ```php
 <?php
-$fmt = new IntlDateFormatter( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
-    'America/Los_Angeles',IntlDateFormatter::GREGORIAN  );
-echo "Первый форматированный вывод: ".$fmt->format(0);
-$fmt = new IntlDateFormatter( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
-    'America/Los_Angeles',IntlDateFormatter::GREGORIAN  );
-echo "Второй форматированный вывод: ".$fmt->format(0);
+$fmt = new IntlDateFormatter( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
+    'America/Los_Angeles',IntlDateFormatter::GREGORIAN  );
+echo "Первый форматированный вывод: ".$fmt->format(0);
+$fmt = new IntlDateFormatter( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
+    'America/Los_Angeles',IntlDateFormatter::GREGORIAN  );
+echo "Второй форматированный вывод: ".$fmt->format(0);
 
-$fmt = new IntlDateFormatter( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
-     'America/Los_Angeles',IntlDateFormatter::GREGORIAN  ,"MM/dd/yyyy");
-echo "Первый форматированный вывод с шаблоном: ".$fmt->format(0);
-$fmt = new IntlDateFormatter( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
-      'America/Los_Angeles',IntlDateFormatter::GREGORIAN , "MM/dd/yyyy");
-echo "Второй форматированный вывод с шаблоном: ".$fmt->format(0);
+$fmt = new IntlDateFormatter( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
+     'America/Los_Angeles',IntlDateFormatter::GREGORIAN  ,"MM/dd/yyyy");
+echo "Первый форматированный вывод с шаблоном: ".$fmt->format(0);
+$fmt = new IntlDateFormatter( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,
+      'America/Los_Angeles',IntlDateFormatter::GREGORIAN , "MM/dd/yyyy");
+echo "Второй форматированный вывод с шаблоном: ".$fmt->format(0);
 ?>
 ```
 

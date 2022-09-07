@@ -42,12 +42,12 @@ public Yaf_Response_Abstract::setBody(string $content, string $key = ?): bool
 
 ```php
 <?php
-$response = new Yaf_Response_Http();
+$response = new Yaf_Response_Http();
 
-$response->setBody("Привет")->setBody(", Мир", "footer");
+$response->setBody("Привет")->setBody(", Мир", "footer");
 
 print_r($response);
-echo $response;
+echo $response;
 ?>
 ```
 

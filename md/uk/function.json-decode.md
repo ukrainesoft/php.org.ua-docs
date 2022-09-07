@@ -15,7 +15,7 @@ jsondecode — Декодує рядок JSON
 ### Опис
 
 ```methodsynopsis
-json_decode(    string $json,    ?bool $associative = null,    int $depth = 512,    int $flags = 0): mixed
+json_decode(    string $json,    ?bool $associative = null,    int $depth = 512,    int $flags = 0): mixed
 ```
 
 Приймає закодований у JSON рядок і перетворює його на змінну PHP.
@@ -30,7 +30,7 @@ json_decode(    string $json,    ?bool $associative = null,    int $
 
 > **Зауваження**
 > 
-> PHP реалізує надмножина JSON, який описаний у початковому [» RFC 7159](http://www.faqs.org/rfcs/rfc7159)
+> PHP реалізує надмножина JSON, який описаний у початковому [» RFC 7159](http://www.faqs.org/rfcs/rfc7159)
 
 `associative`
 
@@ -67,10 +67,10 @@ json_decode(    string $json,    ?bool $associative = null,    int $
 
 ```php
 <?php
-$json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
+$json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
 
 var_dump(json_decode($json));
-var_dump(json_decode($json, true));
+var_dump(json_decode($json, true));
 
 ?>
 ```
@@ -102,10 +102,10 @@ array(5) {
 ```php
 <?php
 
-$json = '{"foo-bar": 12345}';
+$json = '{"foo-bar": 12345}';
 
-$obj = json_decode($json);
-print $obj->{'foo-bar'}; // 12345
+$obj = json_decode($json);
+print $obj->{'foo-bar'}; // 12345
 
 ?>
 ```
@@ -115,20 +115,20 @@ print $obj->{'foo-bar'}; // 12345
 ```php
 <?php
 
-// Следующие строки являются валидным кодом JavaScript, но не валидными JSON-данными
+// Следующие строки являются валидным кодом JavaScript, но не валидными JSON-данными
 
-// Имя и значение должны помещаться в двойные кавычки
-// Одинарные кавычки использовать нельзя
-$bad_json = "{ 'bar': 'baz' }";
-json_decode($bad_json); // null
+// Имя и значение должны помещаться в двойные кавычки
+// Одинарные кавычки использовать нельзя
+$bad_json = "{ 'bar': 'baz' }";
+json_decode($bad_json); // null
 
-// Имя должно обрамляться в двойные кавычки
-$bad_json = '{ bar: "baz" }';
-json_decode($bad_json); // null
+// Имя должно обрамляться в двойные кавычки
+$bad_json = '{ bar: "baz" }';
+json_decode($bad_json); // null
 
-// Не должно быть завершающей запятой (без последующего элемента)
-$bad_json = '{ bar: "baz", }';
-json_decode($bad_json); // null
+// Не должно быть завершающей запятой (без последующего элемента)
+$bad_json = '{ bar: "baz", }';
+json_decode($bad_json); // null
 
 ?>
 ```
@@ -137,28 +137,28 @@ json_decode($bad_json); // null
 
 ```php
 <?php
-// Закодируем данные с глубиной вложенности 4 (array -> array -> array -> string).
-$json = json_encode(
-    array(
-        1 => array(
-            'English' => array(
-                'One',
-                'January'
-            ),
-            'French' => array(
-                'Une',
-                'Janvier'
-            )
-        )
-    )
+// Закодируем данные с глубиной вложенности 4 (array -> array -> array -> string).
+$json = json_encode(
+    array(
+        1 => array(
+            'English' => array(
+                'One',
+                'January'
+            ),
+            'French' => array(
+                'Une',
+                'Janvier'
+            )
+        )
+    )
 );
 
-// Напечатаем ошибки для разных глубин.
-var_dump(json_decode($json, true, 4));
-echo 'Последняя ошибка: ', json_last_error_msg(), PHP_EOL, PHP_EOL;
+// Напечатаем ошибки для разных глубин.
+var_dump(json_decode($json, true, 4));
+echo 'Последняя ошибка: ', json_last_error_msg(), PHP_EOL, PHP_EOL;
 
-var_dump(json_decode($json, true, 3));
-echo 'Последняя ошибка: ', json_last_error_msg(), PHP_EOL, PHP_EOL;
+var_dump(json_decode($json, true, 3));
+echo 'Последняя ошибка: ', json_last_error_msg(), PHP_EOL, PHP_EOL;
 ?>
 ```
 
@@ -194,10 +194,10 @@ NULL
 
 ```php
 <?php
-$json = '{"number": 12345678901234567890}';
+$json = '{"number": 12345678901234567890}';
 
 var_dump(json_decode($json));
-var_dump(json_decode($json, false, 512, JSON_BIGINT_AS_STRING));
+var_dump(json_decode($json, false, 512, JSON_BIGINT_AS_STRING));
 
 ?>
 ```

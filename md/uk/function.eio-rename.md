@@ -15,7 +15,7 @@ eiorename — Змінює ім'я або переміщує файл
 ### Опис
 
 ```methodsynopsis
-eio_rename(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_rename(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiorename()** здійснює переміщення чи перейменування файлу.
@@ -39,7 +39,7 @@ eio_rename(    string $path,    string $new_path,    int $pri = EIO_
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -68,22 +68,22 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-$filename = dirname(__FILE__)."/eio-temp-file.dat";
+$filename = dirname(__FILE__)."/eio-temp-file.dat";
 touch($filename);
-$new_filename = dirname(__FILE__)."/eio-temp-file-new.dat";
+$new_filename = dirname(__FILE__)."/eio-temp-file-new.dat";
 
-function my_rename_cb($data, $result) {
-    global $filename, $new_filename;
+function my_rename_cb($data, $result) {
+    global $filename, $new_filename;
 
-    if ($result == 0 && !file_exists($filename) && file_exists($new_filename)) {
-        @unlink($new_filename);
-        echo "eio_rename_ok";
-    } else {
-        @unlink($filename);
-    }
+    if ($result == 0 && !file_exists($filename) && file_exists($new_filename)) {
+        @unlink($new_filename);
+        echo "eio_rename_ok";
+    } else {
+        @unlink($filename);
+    }
 }
 
-eio_rename($filename, $new_filename, EIO_PRI_DEFAULT, "my_rename_cb", $filename);
+eio_rename($filename, $new_filename, EIO_PRI_DEFAULT, "my_rename_cb", $filename);
 eio_event_loop();
 ?>
 ```

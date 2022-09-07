@@ -46,22 +46,22 @@ imagepalettecopy(GdImage $dst, GdImage $src): void
 
 ```php
 <?php
-// Создание двух палитровых изображений
-$palette1 = imagecreate(100, 100);
-$palette2 = imagecreate(100, 100);
+// Создание двух палитровых изображений
+$palette1 = imagecreate(100, 100);
+$palette2 = imagecreate(100, 100);
 
-// Зелёный фон у первого изображения
-$green = imagecolorallocate($palette1, 0, 255, 0);
+// Зелёный фон у первого изображения
+$green = imagecolorallocate($palette1, 0, 255, 0);
 
-// Копирование палитры из 1го во 2е изображение
-imagepalettecopy($palette2, $palette1);
+// Копирование палитры из 1го во 2е изображение
+imagepalettecopy($palette2, $palette1);
 
-// Так как палитра скопирована с уже созданным зелёным цветом
-// нет нужды использовать imagecolorallocate() дважды
-imagefilledrectangle($palette2, 0, 0, 99, 99, $green);
+// Так как палитра скопирована с уже созданным зелёным цветом
+// нет нужды использовать imagecolorallocate() дважды
+imagefilledrectangle($palette2, 0, 0, 99, 99, $green);
 
-// Вывод изображения в броузер
-header('Content-type: image/png');
+// Вывод изображения в броузер
+header('Content-type: image/png');
 
 imagepng($palette2);
 imagedestroy($palette1);

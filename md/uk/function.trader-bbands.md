@@ -15,7 +15,7 @@ traderbbands — Смуги Боллінджера
 ### Опис
 
 ```methodsynopsis
-trader_bbands(    array $real,    int $timePeriod = ?,    float $nbDevUp = ?,    float $nbDevDn = ?,    int $mAType = ?): array
+trader_bbands(    array $real,    int $timePeriod = ?,    float $nbDevUp = ?,    float $nbDevDn = ?,    int $mAType = ?): array
 ```
 
 ### Список параметрів

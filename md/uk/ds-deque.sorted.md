@@ -44,7 +44,7 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-$deque = new \Ds\Deque([4, 5, 1, 3, 2]);
+$deque = new \Ds\Deque([4, 5, 1, 3, 2]);
 
 print_r($deque->sorted());
 ?>
@@ -67,10 +67,10 @@ Ds\Deque Object
 
 ```php
 <?php
-$deque = new \Ds\Deque([4, 5, 1, 3, 2]);
+$deque = new \Ds\Deque([4, 5, 1, 3, 2]);
 
-$sorted = $deque->sorted(function($a, $b) {
-    return $b <=> $a;
+$sorted = $deque->sorted(function($a, $b) {
+    return $b <=> $a;
 });
 
 print_r($sorted);

@@ -8,7 +8,7 @@ title: Встановлення
 ---
 ## Встановлення
 
-Найпростіший спосіб встановлення через [» PECL](https://pecl.php.net/package/ds)
+Найпростіший спосіб встановлення через [» PECL](https://pecl.php.net/package/ds)
 
 ```
 pecl install ds
@@ -34,8 +34,8 @@ make clean
 phpize --clean
 ```
 
-Якщо ви використовуєте Windows, ви можете завантажити [» готовую библиотеку .dll из PECL](https://pecl.php.net/package/ds)
+Якщо ви використовуєте Windows, ви можете завантажити [» готовую библиотеку .dll из PECL](https://pecl.php.net/package/ds)
 
 > **Зауваження**
 > 
-> Якщо ви використовуєте Composer, рекомендується включити [» php-ds/php-ds](https://packagist.org/packages/php-ds/php-ds) у ваш проект, щоб ваш код залишався робочим, без того, встановлено модуль чи ні.
+> Якщо ви використовуєте Composer, рекомендується включити [» php-ds/php-ds](https://packagist.org/packages/php-ds/php-ds) у ваш проект, щоб ваш код залишався робочим, без того, встановлено модуль чи ні.

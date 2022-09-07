@@ -50,11 +50,11 @@ mysql_tablename(resource $result, int $i): string|false
 
 ```php
 <?php
-mysql_connect("localhost", "mysql_user", "mysql_password");
-$result = mysql_list_tables("mydb");
-$num_rows = mysql_num_rows($result);
-for ($i = 0; $i < $num_rows; $i++) {
-    echo "Table: ", mysql_tablename($result, $i), "\n";
+mysql_connect("localhost", "mysql_user", "mysql_password");
+$result = mysql_list_tables("mydb");
+$num_rows = mysql_num_rows($result);
+for ($i = 0; $i < $num_rows; $i++) {
+    echo "Table: ", mysql_tablename($result, $i), "\n";
 }
 
 mysql_free_result($result);

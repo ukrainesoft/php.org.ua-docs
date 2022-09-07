@@ -45,8 +45,8 @@ print_r(mixed $value, bool $return = false): string|bool
 ```php
 <pre>
 <?php
-$a = array ('a' => 'apple', 'b' => 'banana', 'c' => array ('x', 'y', 'z'));
-print_r ($a);
+$a = array ('a' => 'apple', 'b' => 'banana', 'c' => array ('x', 'y', 'z'));
+print_r ($a);
 ?>
 </pre>
 ```
@@ -73,8 +73,8 @@ Array
 
 ```php
 <?php
-$b = array ('m' => 'monkey', 'foo' => 'bar', 'x' => array ('x', 'y', 'z'));
-$results = print_r($b, true); // $results теперь содержит вывод print_r
+$b = array ('m' => 'monkey', 'foo' => 'bar', 'x' => array ('x', 'y', 'z'));
+$results = print_r($b, true); // $results теперь содержит вывод print_r
 ?>
 ```
 

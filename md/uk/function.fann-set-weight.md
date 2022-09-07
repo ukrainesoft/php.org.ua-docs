@@ -15,7 +15,7 @@ fannsetweight — Створення зв'язку в мережі
 ### Опис
 
 ```methodsynopsis
-fann_set_weight(    resource $ann,    int $from_neuron,    int $to_neuron,    float $weight): bool
+fann_set_weight(    resource $ann,    int $from_neuron,    int $to_neuron,    float $weight): bool
 ```
 
 Створює зв'язок у мережі.

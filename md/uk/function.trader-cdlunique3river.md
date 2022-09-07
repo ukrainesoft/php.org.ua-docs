@@ -15,7 +15,7 @@ tradercdlunique3river - Свічкова модель "Особлива запа
 ### Опис
 
 ```methodsynopsis
-trader_cdlunique3river(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlunique3river(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

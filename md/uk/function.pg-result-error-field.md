@@ -50,14 +50,14 @@ pg_result_error_field(PgSql\Result $result, int $field_code): string|false|null
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Could not connect");
+  $dbconn = pg_connect("dbname=publisher") or die("Could not connect");
 
-  if (!pg_connection_busy($dbconn)) {
-      pg_send_query($dbconn, "select * from doesnotexist;");
-  }
+  if (!pg_connection_busy($dbconn)) {
+      pg_send_query($dbconn, "select * from doesnotexist;");
+  }
 
-  $res1 = pg_get_result($dbconn);
-  echo pg_result_error_field($res1, PGSQL_DIAG_SQLSTATE);
+  $res1 = pg_get_result($dbconn);
+  echo pg_result_error_field($res1, PGSQL_DIAG_SQLSTATE);
 ?>
 ```
 

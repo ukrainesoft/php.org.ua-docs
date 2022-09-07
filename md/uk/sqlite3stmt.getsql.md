@@ -40,11 +40,11 @@ public SQLite3Stmt::getSQL(bool $expand = false): string|false
 
 ```php
 <?php
-$db = new SQLite3(':memory:');
-$stmt = $db->prepare("SELECT :a, ?, :c");
-$stmt->bindValue(':a', 'foo');
-$answer = 42;
-$stmt->bindParam(2, $answer);
+$db = new SQLite3(':memory:');
+$stmt = $db->prepare("SELECT :a, ?, :c");
+$stmt->bindValue(':a', 'foo');
+$answer = 42;
+$stmt->bindParam(2, $answer);
 var_dump($stmt->getSQL(true));
 ?>
 ```

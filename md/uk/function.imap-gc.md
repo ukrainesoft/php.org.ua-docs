@@ -47,9 +47,9 @@ imap_gc(IMAP\Connection $imap, int $flags): bool
 ```php
 <?php
 
-$mbox = imap_open("{imap.example.org:143}", "username", "password");
+$mbox = imap_open("{imap.example.org:143}", "username", "password");
 
-imap_gc($mbox, IMAP_GC_ELT);
+imap_gc($mbox, IMAP_GC_ELT);
 
 ?>
 ```

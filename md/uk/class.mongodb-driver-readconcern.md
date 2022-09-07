@@ -133,7 +133,7 @@ final public unserialize(string $serialized): void
 
 ## Дивіться також
 
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
 
 ## Зміст
 

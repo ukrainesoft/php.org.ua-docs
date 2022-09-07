@@ -40,11 +40,11 @@ gnupg_encryptsign(resource $identifier, string $plaintext): string
 
 ```php
 <?php
-$res = gnupg_init();
-gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
-gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
-$enc = gnupg_encryptsign($res, "просто тест");
-echo $enc;
+$res = gnupg_init();
+gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");
+gnupg_addsignkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");
+$enc = gnupg_encryptsign($res, "просто тест");
+echo $enc;
 ?>
 ```
 
@@ -52,10 +52,10 @@ echo $enc;
 
 ```php
 <?php
-$gpg = new gnupg();
+$gpg = new gnupg();
 $gpg->addencryptkey("8660281B6051D071D94B5B230549F9DC851566DC");
 $gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");
-$enc = $gpg->encryptsign("just a test");
-echo $enc;
+$enc = $gpg->encryptsign("just a test");
+echo $enc;
 ?>
 ```

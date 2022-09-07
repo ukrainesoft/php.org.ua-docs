@@ -41,18 +41,18 @@ final public MongoDB\Driver\ReadConcern::isDefault(): bool
 ```php
 <?php
 
-$rc = new MongoDB\Driver\ReadConcern(null);
+$rc = new MongoDB\Driver\ReadConcern(null);
 var_dump($rc->isDefault());
 
-$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);
+$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);
 var_dump($rc->isDefault());
 
-$manager = new MongoDB\Driver\Manager('mongodb://127.0.0.1/?readConcernLevel=majority');
-$rc = $manager->getReadConcern();
+$manager = new MongoDB\Driver\Manager('mongodb://127.0.0.1/?readConcernLevel=majority');
+$rc = $manager->getReadConcern();
 var_dump($rc->isDefault());
 
-$manager = new MongoDB\Driver\Manager('mongodb://127.0.0.1/');
-$rc = $manager->getReadConcern();
+$manager = new MongoDB\Driver\Manager('mongodb://127.0.0.1/');
+$rc = $manager->getReadConcern();
 var_dump($rc->isDefault());
 
 ?>
@@ -70,4 +70,4 @@ bool(true)
 ### Дивіться також
 
 -   [MongoDBDriverManager::getReadConcern()](mongodb-driver-manager.getreadconcern.md) - Повертає ReadConcern для Manager
--   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)
+-   [» Справка по гарантиям чтения](https://www.mongodb.com/docs/manual/reference/read-concern/)

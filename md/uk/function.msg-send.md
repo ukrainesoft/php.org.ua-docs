@@ -15,7 +15,7 @@ msgsend — Надіслати повідомлення до черги пові
 ### Опис
 
 ```methodsynopsis
-msg_send(    SysvMessageQueue $queue,    int $message_type,    string|int|float|bool $message,    bool $serialize = true,    bool $blocking = true,    int &$error_code = null): bool
+msg_send(    SysvMessageQueue $queue,    int $message_type,    string|int|float|bool $message,    bool $serialize = true,    bool $blocking = true,    int &$error_code = null): bool
 ```
 
 **msgsend()** надсилає повідомлення `message` з типом `message_type` (має бути більше 0) у чергу повідомлень, вказану параметром `queue`

@@ -46,9 +46,9 @@ int `$priority`
 
 ```php
 <?php
-$w = new EvSignal(SIGTERM, function ($watcher) {
-    echo "SIGTERM received\n";
-    $watcher->stop();
+$w = new EvSignal(SIGTERM, function ($watcher) {
+    echo "SIGTERM received\n";
+    $watcher->stop();
 });
 
 Ev::run();

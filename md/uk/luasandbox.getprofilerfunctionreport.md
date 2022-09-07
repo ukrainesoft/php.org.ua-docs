@@ -55,16 +55,16 @@ public LuaSandbox::getProfilerFunctionReport(int $units = LuaSandbox::SECONDS): 
 ```php
 <?php
 
-// создание нового LuaSandbox
-$sandbox = new LuaSandbox();
+// создание нового LuaSandbox
+$sandbox = new LuaSandbox();
 
-// начало профилирования
-$sandbox->enableProfiler( 0.01 );
+// начало профилирования
+$sandbox->enableProfiler( 0.01 );
 
-// ... Выполнение какого-то кода Lua ...
+// ... Выполнение какого-то кода Lua ...
 
-// получение данных профилирования
-$data = $sandbox->getProfilerFunctionReport();
+// получение данных профилирования
+$data = $sandbox->getProfilerFunctionReport();
 
 ?>
 ```

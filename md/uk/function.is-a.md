@@ -44,17 +44,17 @@ is_a(mixed $object_or_class, string $class, bool $allow_string = false): bool
 
 ```php
 <?php
-// объявление класса
-class WidgetFactory
+// объявление класса
+class WidgetFactory
 {
-  var $oink = 'moo';
+  var $oink = 'moo';
 }
 
-// создание нового объекта
-$WF = new WidgetFactory();
+// создание нового объекта
+$WF = new WidgetFactory();
 
-if (is_a($WF, 'WidgetFactory')) {
-  echo "да, \$WF всё ещё WidgetFactory\n";
+if (is_a($WF, 'WidgetFactory')) {
+  echo "да, \$WF всё ещё WidgetFactory\n";
 }
 ?>
 ```
@@ -63,8 +63,8 @@ if (is_a($WF, 'WidgetFactory')) {
 
 ```php
 <?php
-if ($WF instanceof WidgetFactory) {
-    echo 'Да, $WF - WidgetFactory';
+if ($WF instanceof WidgetFactory) {
+    echo 'Да, $WF - WidgetFactory';
 }
 ?>
 ```

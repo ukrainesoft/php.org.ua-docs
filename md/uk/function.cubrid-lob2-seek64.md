@@ -60,32 +60,32 @@ CUBRIDCURSORLAST: рухатись назад з кінця LOB-об'єкта.
 
 ```php
 <?php
-// test_lob (id INT, contents CLOB)
-// Длина данных doc_1.txt должна быть больше 20101029056306120215.
+// test_lob (id INT, contents CLOB)
+// Длина данных doc_1.txt должна быть больше 20101029056306120215.
 
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");
 
-cubrid_execute($conn,"DROP TABLE if exists test_lob");
-cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
+cubrid_execute($conn,"DROP TABLE if exists test_lob");
+cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");
 
-$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");
-cubrid_bind($req, 1, 1);
+$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");
+cubrid_bind($req, 1, 1);
 
-$lob = cubrid_lob2_new($conn, "clob");
-cubrid_lob2_import($lob, "doc_1.txt");
-cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // или cubrid_lob2_bind($req, 2, $lob);
+$lob = cubrid_lob2_new($conn, "clob");
+cubrid_lob2_import($lob, "doc_1.txt");
+cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // или cubrid_lob2_bind($req, 2, $lob);
 
 cubrid_execute($req);
 
 cubrid_lob2_close($lob);
 
-$req = cubrid_execute($conn, "select * from test_lob");
-$row = cubrid_fetch_row($req, CUBRID_LOB);
-$lob = $row[1];
+$req = cubrid_execute($conn, "select * from test_lob");
+$row = cubrid_fetch_row($req, CUBRID_LOB);
+$lob = $row[1];
 
-cubrid_lob2_seek64($lob, "20101029056306120215", CUBRID_CURSOR_FIRST);
-$data = cubrid_lob2_read($lob, 20);
-echo $data."\n";
+cubrid_lob2_seek64($lob, "20101029056306120215", CUBRID_CURSOR_FIRST);
+$data = cubrid_lob2_read($lob, 20);
+echo $data."\n";
 cubrid_disconnect($conn);
 ?>
 ```

@@ -38,9 +38,9 @@ public static IntlChar::chr(int|string $codepoint): ?string
 
 ```php
 <?php
-$values = ["A", 63, 123, 9731];
-foreach ($values as $value) {
-    var_dump(IntlChar::chr($value));
+$values = ["A", 63, 123, 9731];
+foreach ($values as $value) {
+    var_dump(IntlChar::chr($value));
 }
 ?>
 ```

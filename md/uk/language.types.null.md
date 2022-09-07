@@ -25,7 +25,7 @@ title: 'NULL'
 
 ```php
 <?php
-$var = NULL;
+$var = NULL;
 ?>
 ```
 

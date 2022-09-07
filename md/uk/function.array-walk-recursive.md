@@ -48,15 +48,15 @@ array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null
 
 ```php
 <?php
-$sweet = array('a' => 'apple', 'b' => 'banana');
-$fruits = array('sweet' => $sweet, 'sour' => 'lemon');
+$sweet = array('a' => 'apple', 'b' => 'banana');
+$fruits = array('sweet' => $sweet, 'sour' => 'lemon');
 
-function test_print($item, $key)
+function test_print($item, $key)
 {
-    echo "$key содержит $item\n";
+    echo "$key содержит $item\n";
 }
 
-array_walk_recursive($fruits, 'test_print');
+array_walk_recursive($fruits, 'test_print');
 ?>
 ```
 

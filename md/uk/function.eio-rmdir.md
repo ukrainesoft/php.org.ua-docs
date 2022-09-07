@@ -15,7 +15,7 @@ eiormdir - Видаляє директорію
 ### Опис
 
 ```methodsynopsis
-eio_rmdir(    string $path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_rmdir(    string $path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiormdir()** видаляє директорію.
@@ -35,7 +35,7 @@ eio_rmdir(    string $path,    int $pri = EIO_PRI_DEFAULT,    callab
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -64,19 +64,19 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-$temp_dirname = "eio-temp-dir";
+$temp_dirname = "eio-temp-dir";
 mkdir($temp_dirname);
 
-function my_rmdir_callback($data, $result) {
-    if ($result == 0 && !file_exists($data)) {
-        echo "eio_rmdir_ok";
-    } else if (file_exists($data)) {
-        rmdir($data);
-    }
+function my_rmdir_callback($data, $result) {
+    if ($result == 0 && !file_exists($data)) {
+        echo "eio_rmdir_ok";
+    } else if (file_exists($data)) {
+        rmdir($data);
+    }
 }
 
 
-eio_rmdir($temp_dirname, EIO_PRI_DEFAULT, "my_rmdir_callback", $temp_dirname);
+eio_rmdir($temp_dirname, EIO_PRI_DEFAULT, "my_rmdir_callback", $temp_dirname);
 eio_event_loop();
 ?>
 ```

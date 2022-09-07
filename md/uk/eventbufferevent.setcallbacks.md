@@ -16,16 +16,16 @@ EventBufferEvent::setCallbacks — Призначає callback-функції д
 
 ```methodsynopsis
 public
-   EventBufferEvent::setCallbacks(    
+   EventBufferEvent::setCallbacks(    
     callable
      $readcb
-   ,    
+   ,    
     callable
      $writecb
-   ,    
+   ,    
     callable
      $eventcb
-   ,    
+   ,    
     mixed
      $arg
     = ?): void

@@ -82,24 +82,24 @@ mysqli_query(mysqli $mysql, string $query, int $result_mode = MYSQLI_STORE_RESUL
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* Создание таблицы, не возвращает набор результатов */
-$mysqli->query("CREATE TEMPORARY TABLE myCity LIKE City");
-printf("Таблица myCity создана.\n");
+/* Создание таблицы, не возвращает набор результатов */
+$mysqli->query("CREATE TEMPORARY TABLE myCity LIKE City");
+printf("Таблица myCity создана.\n");
 
-/* Запросы SELECT, возвращают набор результатов */
-$result = $mysqli->query("SELECT Name FROM City LIMIT 10");
-printf("Запрос SELECT вернул %d строк.\n", $result->num_rows);
+/* Запросы SELECT, возвращают набор результатов */
+$result = $mysqli->query("SELECT Name FROM City LIMIT 10");
+printf("Запрос SELECT вернул %d строк.\n", $result->num_rows);
 
-/* Если нужно извлечь большой объем данных, используем MYSQLI_USE_RESULT */
-$result = $mysqli->query("SELECT * FROM City", MYSQLI_USE_RESULT);
+/* Если нужно извлечь большой объем данных, используем MYSQLI_USE_RESULT */
+$result = $mysqli->query("SELECT * FROM City", MYSQLI_USE_RESULT);
 
-/* Важно заметить, что мы не можем вызывать функции, которые взаимодействуют
-   с сервером, пока не закроем набор результатов. Все подобные вызовы
-   будут вызывать ошибку 'out of sync' */
-$mysqli->query("SET @a:='this will not work'");
+/* Важно заметить, что мы не можем вызывать функции, которые взаимодействуют
+   с сервером, пока не закроем набор результатов. Все подобные вызовы
+   будут вызывать ошибку 'out of sync' */
+$mysqli->query("SET @a:='this will not work'");
 ```
 
 Процедурний стиль
@@ -107,24 +107,24 @@ $mysqli->query("SET @a:='this will not work'");
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* Создание таблицы, не возвращает набор результатов */
-mysqli_query($link, "CREATE TEMPORARY TABLE myCity LIKE City");
-printf("Таблица myCity создана.\n");
+/* Создание таблицы, не возвращает набор результатов */
+mysqli_query($link, "CREATE TEMPORARY TABLE myCity LIKE City");
+printf("Таблица myCity создана.\n");
 
-/* Запросы SELECT, возвращают набор результатов */
-$result = mysqli_query($link, "SELECT Name FROM City LIMIT 10");
-printf("Запрос SELECT вернул %d строк.\n", mysqli_num_rows($result));
+/* Запросы SELECT, возвращают набор результатов */
+$result = mysqli_query($link, "SELECT Name FROM City LIMIT 10");
+printf("Запрос SELECT вернул %d строк.\n", mysqli_num_rows($result));
 
-/* Если нужно извлечь большой объем данных, используем MYSQLI_USE_RESULT */
-$result = mysqli_query($link, "SELECT * FROM City", MYSQLI_USE_RESULT);
+/* Если нужно извлечь большой объем данных, используем MYSQLI_USE_RESULT */
+$result = mysqli_query($link, "SELECT * FROM City", MYSQLI_USE_RESULT);
 
-/* Важно заметить, что мы не можем вызывать функции, которые взаимодействуют
-   с сервером, пока не закроем набор результатов. Все подобные вызовы
-   будут вызывать ошибку 'out of sync' */
-mysqli_query($link, "SET @a:='this will not work'");
+/* Важно заметить, что мы не можем вызывать функции, которые взаимодействуют
+   с сервером, пока не закроем набор результатов. Все подобные вызовы
+   будут вызывать ошибку 'out of sync' */
+mysqli_query($link, "SET @a:='this will not work'");
 ```
 
 Результат виконання даних прикладів:

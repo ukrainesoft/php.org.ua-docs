@@ -44,7 +44,7 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 2, "b" => 3, "c" => 1]);
+$map = new \Ds\Map(["a" => 2, "b" => 3, "c" => 1]);
 
 print_r($map->sorted());
 ?>
@@ -80,11 +80,11 @@ Ds\Map Object
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 2, "b" => 3, "c" => 1]);
+$map = new \Ds\Map(["a" => 2, "b" => 3, "c" => 1]);
 
-// Reverse
-$sorted = $map->sorted(function($a, $b) {
-    return $b <=> $a;
+// Reverse
+$sorted = $map->sorted(function($a, $b) {
+    return $b <=> $a;
 });
 
 print_r($sorted);

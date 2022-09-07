@@ -15,7 +15,7 @@ ImagickDraw::composite — Накладає зображення на поточ
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::composite(    int $compose,    float $x,    float $y,    float $width,    float $height,    Imagick $compositeWand): bool
+public ImagickDraw::composite(    int $compose,    float $x,    float $y,    float $width,    float $height,    Imagick $compositeWand): bool
 ```
 
 **Увага**
@@ -60,37 +60,37 @@ public ImagickDraw::composite(    int $compose,    float $x,    floa
 
 ```php
 <?php
-function composite($strokeColor, $fillColor, $backgroundColor) {
+function composite($strokeColor, $fillColor, $backgroundColor) {
 
-    $draw = new \ImagickDraw();
+    $draw = new \ImagickDraw();
 
-    $draw->setStrokeColor($strokeColor);
-    $draw->setFillColor($fillColor);
-    $draw->setFillOpacity(1);
-    $draw->setStrokeWidth(2);
-    $draw->setFontSize(72);
-    $draw->setStrokeOpacity(1);
-    $draw->setStrokeColor($strokeColor);
-    $draw->setStrokeWidth(2);
-    $draw->setFont("../fonts/CANDY.TTF");
-    $draw->setFontSize(140);
-    $draw->rectangle(0, 0, 1000, 300);
-    $draw->setFillColor('white');
-    $draw->setfillopacity(1);
-    $draw->annotation(50, 180, "Lorem Ipsum!");
+    $draw->setStrokeColor($strokeColor);
+    $draw->setFillColor($fillColor);
+    $draw->setFillOpacity(1);
+    $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
+    $draw->setStrokeOpacity(1);
+    $draw->setStrokeColor($strokeColor);
+    $draw->setStrokeWidth(2);
+    $draw->setFont("../fonts/CANDY.TTF");
+    $draw->setFontSize(140);
+    $draw->rectangle(0, 0, 1000, 300);
+    $draw->setFillColor('white');
+    $draw->setfillopacity(1);
+    $draw->annotation(50, 180, "Lorem Ipsum!");
 
-    //Создание объекта изображения, в который можно преобразовать команды рисования.
-    $imagick = new \Imagick();
-    $imagick->newImage(1000, 302, $backgroundColor);
-    $imagick->setImageFormat("png");
+    //Создание объекта изображения, в который можно преобразовать команды рисования.
+    $imagick = new \Imagick();
+    $imagick->newImage(1000, 302, $backgroundColor);
+    $imagick->setImageFormat("png");
 
-    //Преобразование команд рисования в объекте ImagickDraw
-    //в изображение.
-    $imagick->drawImage($draw);
+    //Преобразование команд рисования в объекте ImagickDraw
+    //в изображение.
+    $imagick->drawImage($draw);
 
-    //Отображение изображения в браузере
-    header("Content-Type: image/png");
-    echo $imagick->getImageBlob();
+    //Отображение изображения в браузере
+    header("Content-Type: image/png");
+    echo $imagick->getImageBlob();
 }
 
 ?>

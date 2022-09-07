@@ -69,26 +69,26 @@ mysqli_multi_query(mysqli $mysql, string $query): bool
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT CURRENT_USER();";
-$query .= "SELECT Name FROM City ORDER BY ID LIMIT 20, 5";
+$query = "SELECT CURRENT_USER();";
+$query .= "SELECT Name FROM City ORDER BY ID LIMIT 20, 5";
 
-/* выполнение нескольких запросов */
+/* выполнение нескольких запросов */
 $mysqli->multi_query($query);
-do {
-    /* сохранить набор результатов в PHP */
-    if ($result = $mysqli->store_result()) {
-        while ($row = $result->fetch_row()) {
-            printf("%s\n", $row[0]);
-        }
-    }
-    /* вывести разделитель */
-    if ($mysqli->more_results()) {
-        printf("-----------------\n");
-    }
-} while ($mysqli->next_result());
+do {
+    /* сохранить набор результатов в PHP */
+    if ($result = $mysqli->store_result()) {
+        while ($row = $result->fetch_row()) {
+            printf("%s\n", $row[0]);
+        }
+    }
+    /* вывести разделитель */
+    if ($mysqli->more_results()) {
+        printf("-----------------\n");
+    }
+} while ($mysqli->next_result());
 ```
 
 Процедурний стиль
@@ -96,26 +96,26 @@ do {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT CURRENT_USER();";
-$query .= "SELECT Name FROM City ORDER BY ID LIMIT 20, 5";
+$query = "SELECT CURRENT_USER();";
+$query .= "SELECT Name FROM City ORDER BY ID LIMIT 20, 5";
 
-/* выполнение нескольких запросов */
-mysqli_multi_query($link, $query);
-do {
-    /* сохранить набор результатов в PHP */
-    if ($result = mysqli_store_result($link)) {
-        while ($row = mysqli_fetch_row($result)) {
-            printf("%s\n", $row[0]);
-        }
-    }
-    /* вывести разделитель */
-    if (mysqli_more_results($link)) {
-        printf("-----------------\n");
-    }
-} while (mysqli_next_result($link));
+/* выполнение нескольких запросов */
+mysqli_multi_query($link, $query);
+do {
+    /* сохранить набор результатов в PHP */
+    if ($result = mysqli_store_result($link)) {
+        while ($row = mysqli_fetch_row($result)) {
+            printf("%s\n", $row[0]);
+        }
+    }
+    /* вывести разделитель */
+    if (mysqli_more_results($link)) {
+        printf("-----------------\n");
+    }
+} while (mysqli_next_result($link));
 ```
 
 Результатом виконання даних прикладів буде щось подібне:

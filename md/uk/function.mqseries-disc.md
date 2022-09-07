@@ -46,10 +46,10 @@ mqseries_disc(resource $hconn, resource &$compCode, resource &$reason): void
 
 ```php
 <?php
-    mqseries_disc($conn, $comp_code, $reason);
-    if ($comp_code !== MQSERIES_MQCC_OK) {
-        printf("disc CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
-    }
+    mqseries_disc($conn, $comp_code, $reason);
+    if ($comp_code !== MQSERIES_MQCC_OK) {
+        printf("disc CompCode:%d Reason:%d Text:%s<br>\n", $comp_code, $reason, mqseries_strerror($reason));
+    }
 ?>
 ```
 

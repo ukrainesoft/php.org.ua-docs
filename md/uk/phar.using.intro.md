@@ -18,7 +18,7 @@ php coolapplication.phar
 
 ```php
 <?php
-include 'coollibrary.phar';
+include 'coollibrary.phar';
 ?>
 ```
 
@@ -26,10 +26,10 @@ include 'coollibrary.phar';
 
 ```php
 <?php
-include 'phar://coollibrary.phar/internal/file.php';
-header('Content-type: image/jpeg');
-// доступ к phar-архивам может осуществляться по полному пути или с помощью псевдонима
-echo file_get_contents('phar:///полный/путь/к/coollibrary.phar/images/wow.jpg');
+include 'phar://coollibrary.phar/internal/file.php';
+header('Content-type: image/jpeg');
+// доступ к phar-архивам может осуществляться по полному пути или с помощью псевдонима
+echo file_get_contents('phar:///полный/путь/к/coollibrary.phar/images/wow.jpg');
 ?>
 ```
 
@@ -37,55 +37,55 @@ echo file_get_contents('phar:///полный/путь/к/coollibrary.phar/image
 
 ```php
 <?php
-try {
-    // открыть существующий phar-архив
-    $p = new Phar('coollibrary.phar', 0);
-    // Phar наследует SPL-класс DirectoryIterator
-    foreach (new RecursiveIteratorIterator($p) as $file) {
-        // $file является объектом класса PharFileInfo, который наследует SplFileInfo
-        echo $file->getFileName() . "\n";
-        echo file_get_contents($file->getPathName()) . "\n"; // отображает содержимое;
-    }
-    if (isset($p['internal/file.php'])) {
-        var_dump($p['internal/file.php']->getMetadata());
-    }
+try {
+    // открыть существующий phar-архив
+    $p = new Phar('coollibrary.phar', 0);
+    // Phar наследует SPL-класс DirectoryIterator
+    foreach (new RecursiveIteratorIterator($p) as $file) {
+        // $file является объектом класса PharFileInfo, который наследует SplFileInfo
+        echo $file->getFileName() . "\n";
+        echo file_get_contents($file->getPathName()) . "\n"; // отображает содержимое;
+    }
+    if (isset($p['internal/file.php'])) {
+        var_dump($p['internal/file.php']->getMetadata());
+    }
 
-    // создать новый phar-архив - параметр phar.readonly в php.ini должен быть 0
-    // phar.readonly включён по умолчанию из соображений безопасности.
-    // На работающих серверах phar-архивы никогда не должны создаваться,
-    // а только выполняться.
-    if (Phar::canWrite()) {
-        $p = new Phar('newphar.tar.phar', 0, 'newphar.tar.phar');
-        // создать phar-архив, основанный на tar, сжатый gzip-сжатием (.tar.gz)
-        $p = $p->convertToExecutable(Phar::TAR, Phar::GZ);
+    // создать новый phar-архив - параметр phar.readonly в php.ini должен быть 0
+    // phar.readonly включён по умолчанию из соображений безопасности.
+    // На работающих серверах phar-архивы никогда не должны создаваться,
+    // а только выполняться.
+    if (Phar::canWrite()) {
+        $p = new Phar('newphar.tar.phar', 0, 'newphar.tar.phar');
+        // создать phar-архив, основанный на tar, сжатый gzip-сжатием (.tar.gz)
+        $p = $p->convertToExecutable(Phar::TAR, Phar::GZ);
 
-        // создать транзакцию - в newphar.phar ничего не будет записано
-        // до тех пор, пока не будет вызван stopBuffering(), однако для этого требуется временное хранилище
-        $p->startBuffering();
-        // добавить все файлы в каталоге /путь/к/проекту/project, сохранение в phar-архив с префиксом "project"
-        $p->buildFromIterator(new RecursiveIteratorIterator(new RecursiveDirectoryIterator('/путь/к/проекту/project')), '/путь/к/проекту/');
+        // создать транзакцию - в newphar.phar ничего не будет записано
+        // до тех пор, пока не будет вызван stopBuffering(), однако для этого требуется временное хранилище
+        $p->startBuffering();
+        // добавить все файлы в каталоге /путь/к/проекту/project, сохранение в phar-архив с префиксом "project"
+        $p->buildFromIterator(new RecursiveIteratorIterator(new RecursiveDirectoryIterator('/путь/к/проекту/project')), '/путь/к/проекту/');
 
-        // добавить новый файл используя ArrayAccess
-        $p['file1.txt'] = 'Информация';
-        $fp = fopen('hugefile.dat', 'rb');
-        // скопировать все данные из потока
-        $p['data/hugefile.dat'] = $fp;
+        // добавить новый файл используя ArrayAccess
+        $p['file1.txt'] = 'Информация';
+        $fp = fopen('hugefile.dat', 'rb');
+        // скопировать все данные из потока
+        $p['data/hugefile.dat'] = $fp;
 
-        if (Phar::canCompress(Phar::GZ)) {
-            $p['data/hugefile.dat']->compress(Phar::GZ);
-        }
+        if (Phar::canCompress(Phar::GZ)) {
+            $p['data/hugefile.dat']->compress(Phar::GZ);
+        }
 
-        $p['images/wow.jpg'] = file_get_contents('images/wow.jpg');
-        // любое значение может быть сохранено в качестве метаданных файла
-        $p['images/wow.jpg']->setMetadata(array('mime-type' => 'image/jpeg'));
-        $p['index.php'] = file_get_contents('index.php');
-        $p->setMetadata(array('bootstrap' => 'index.php'));
+        $p['images/wow.jpg'] = file_get_contents('images/wow.jpg');
+        // любое значение может быть сохранено в качестве метаданных файла
+        $p['images/wow.jpg']->setMetadata(array('mime-type' => 'image/jpeg'));
+        $p['index.php'] = file_get_contents('index.php');
+        $p->setMetadata(array('bootstrap' => 'index.php'));
 
-        // сохранить phar-архив на диск
-        $p->stopBuffering();
-    }
-} catch (Exception $e) {
-    echo 'Невозможно открыть Phar: ', $e;
+        // сохранить phar-архив на диск
+        $p->stopBuffering();
+    }
+} catch (Exception $e) {
+    echo 'Невозможно открыть Phar: ', $e;
 }
 ?>
 ```
@@ -94,9 +94,9 @@ try {
 
 ```php
 <?php
-$public = openssl_get_publickey(file_get_contents('private.pem'));
-$pkey = '';
-openssl_pkey_export($public, $pkey);
+$public = openssl_get_publickey(file_get_contents('private.pem'));
+$pkey = '';
+openssl_pkey_export($public, $pkey);
 ?>
 ```
 
@@ -109,37 +109,37 @@ openssl_pkey_export($public, $pkey);
 ```php
 <?php
 @unlink('phpMyAdmin.phar.tar.php');
-copy('phpMyAdmin-2.11.3-english.tar.gz', 'phpMyAdmin.phar.tar.php');
-$a = new Phar('phpMyAdmin.phar.tar.php');
+copy('phpMyAdmin-2.11.3-english.tar.gz', 'phpMyAdmin.phar.tar.php');
+$a = new Phar('phpMyAdmin.phar.tar.php');
 $a->startBuffering();
-$a["phpMyAdmin-2.11.3-english/config.inc.php"] = '<?php
-/* Конфигурация сервера */
-$i = 0;
+$a["phpMyAdmin-2.11.3-english/config.inc.php"] = '<?php
+/* Конфигурация сервера */
+$i = 0;
 
-/* Сервер localhost (config:root) [1] */
+/* Сервер localhost (config:root) [1] */
 $i++;
-$cfg[\'Servers\'][$i][\'host\'] = \'localhost\';
-$cfg[\'Servers\'][$i][\'extension\'] = \'mysqli\';
-$cfg[\'Servers\'][$i][\'connect_type\'] = \'tcp\';
-$cfg[\'Servers\'][$i][\'compress\'] = false;
-$cfg[\'Servers\'][$i][\'auth_type\'] = \'config\';
-$cfg[\'Servers\'][$i][\'user\'] = \'root\';
-$cfg[\'Servers\'][$i][\'password\'] = \'\';
+$cfg[\'Servers\'][$i][\'host\'] = \'localhost\';
+$cfg[\'Servers\'][$i][\'extension\'] = \'mysqli\';
+$cfg[\'Servers\'][$i][\'connect_type\'] = \'tcp\';
+$cfg[\'Servers\'][$i][\'compress\'] = false;
+$cfg[\'Servers\'][$i][\'auth_type\'] = \'config\';
+$cfg[\'Servers\'][$i][\'user\'] = \'root\';
+$cfg[\'Servers\'][$i][\'password\'] = \'\';
 
 
-/* Конец конфигурации сервера */
-if (strpos(PHP_OS, \'WIN\') !== false) {
-    $cfg[\'UploadDir\'] = getcwd();
-} else {
-    $cfg[\'UploadDir\'] = \'/tmp/pharphpmyadmin\';
-    @mkdir(\'/tmp/pharphpmyadmin\');
-    @chmod(\'/tmp/pharphpmyadmin\', 0777);
+/* Конец конфигурации сервера */
+if (strpos(PHP_OS, \'WIN\') !== false) {
+    $cfg[\'UploadDir\'] = getcwd();
+} else {
+    $cfg[\'UploadDir\'] = \'/tmp/pharphpmyadmin\';
+    @mkdir(\'/tmp/pharphpmyadmin\');
+    @chmod(\'/tmp/pharphpmyadmin\', 0777);
 }';
 $a->setStub('<?php
 Phar::interceptFileFuncs();
-Phar::webPhar("phpMyAdmin.phar", "phpMyAdmin-2.11.3-english/index.php");
-echo "phpMyAdmin предназначен для выполнения в веб-браузере\n";
-exit -1;
+Phar::webPhar("phpMyAdmin.phar", "phpMyAdmin-2.11.3-english/index.php");
+echo "phpMyAdmin предназначен для выполнения в веб-браузере\n";
+exit -1;
 __HALT_COMPILER();
 ');
 $a->stopBuffering();

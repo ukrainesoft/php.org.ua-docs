@@ -36,27 +36,27 @@ public mysql_xdevapi\Collection::removeOne(string $id): mysql_xdevapi\Result
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
-$session->sql("CREATE DATABASE addressbook")->execute();
+$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();
+$session->sql("CREATE DATABASE addressbook")->execute();
 
-$schema     = $session->getSchema("addressbook");
-$collection = $schema->createCollection("people");
+$schema     = $session->getSchema("addressbook");
+$collection = $schema->createCollection("people");
 
-$result = $collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
+$result = $collection->add('{"name": "Alfred", "age": 18, "job": "Butler"}')->execute();
 
-// Обычно _id известен другими способами,
-// но для этого примера давайте извлечём сгенерированный идентификатор и используем его
-$ids       = $result->getGeneratedIds();
-$alfred_id = $ids[0];
+// Обычно _id известен другими способами,
+// но для этого примера давайте извлечём сгенерированный идентификатор и используем его
+$ids       = $result->getGeneratedIds();
+$alfred_id = $ids[0];
 
-$result = $collection->removeOne($alfred_id);
+$result = $collection->removeOne($alfred_id);
 
-if(!$result->getAffectedItemsCount()) {
-    echo "Alfred с идентификатором $alfred_id не был удален.";
-} else {
-    echo "До свидания, Alfred, ты можешь взять с собой _id $alfred_id.";
+if(!$result->getAffectedItemsCount()) {
+    echo "Alfred с идентификатором $alfred_id не был удален.";
+} else {
+    echo "До свидания, Alfred, ты можешь взять с собой _id $alfred_id.";
 }
 ?>
 ```

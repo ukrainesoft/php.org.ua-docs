@@ -49,13 +49,13 @@ mb_substitute_character(string|int|null $substitute_character = null): string|in
 
 ```php
 <?php
-/* Установка замещающего символа Unicode U+3013 (GETA MARK) */
+/* Установка замещающего символа Unicode U+3013 (GETA MARK) */
 mb_substitute_character(0x3013);
 
-/* Задаём шестнадцатеричный формат */
+/* Задаём шестнадцатеричный формат */
 mb_substitute_character("long");
 
-/* Отображение текущей настройки */
-echo mb_substitute_character();
+/* Отображение текущей настройки */
+echo mb_substitute_character();
 ?>
 ```

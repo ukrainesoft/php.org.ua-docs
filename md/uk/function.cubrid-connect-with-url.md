@@ -15,7 +15,7 @@ cubridconnectwithurl — Створює оточення для з'єднанн�
 ### Опис
 
 ```methodsynopsis
-cubrid_connect_with_url(    string $conn_url,    string $userid = ?,    string $passwd = ?,    bool $new_link = false): resource
+cubrid_connect_with_url(    string $conn_url,    string $userid = ?,    string $passwd = ?,    bool $new_link = false): resource
 ```
 
 Функція **cubridconnectwithurl()** використовується для створення оточення для з'єднання з сервером за допомогою інформації, заданої у вигляді рядка URL. Якщо в CUBRID дозволена функціональність високої доступності, необхідно встановити інформацію для з'єднання з резервним сервером, яка буде використовуватися для з'єднання, якщо з основним щось трапиться. Якщо логін та пароль не задані, то за умовчанням використовуватиметься з'єднання "PUBLIC".
@@ -94,21 +94,21 @@ cubrid_connect_with_url(    string $conn_url,    string $userid = ?,  
 
 ```php
 <?php
-$conn_url = "CUBRID:localhost:33000:demodb:dba::";
-$con = cubrid_connect_with_url($conn_url);
+$conn_url = "CUBRID:localhost:33000:demodb:dba::";
+$con = cubrid_connect_with_url($conn_url);
 
-if ($con) {
-   echo "connected successfully";
-   cubrid_execute($con, "create table person(id int,name char(16))");
-   $req =cubrid_execute($con, "insert into person values(1,'James')");
+if ($con) {
+   echo "connected successfully";
+   cubrid_execute($con, "create table person(id int,name char(16))");
+   $req =cubrid_execute($con, "insert into person values(1,'James')");
 
-   if ($req) {
-      cubrid_close_request($req);
-      cubrid_commit($con);
-   } else {
-      cubrid_rollback($con);
-   }
-   cubrid_disconnect($con);
+   if ($req) {
+      cubrid_close_request($req);
+      cubrid_commit($con);
+   } else {
+      cubrid_rollback($con);
+   }
+   cubrid_disconnect($con);
 }
 ?>
 ```
@@ -117,21 +117,21 @@ if ($con) {
 
 ```php
 <?php
-$conn_url = "CUBRID:127.0.0.1:33000:demodb:dba::?login_timeout=100";
-$con = cubrid_connect_with_url ($conn_url);
+$conn_url = "CUBRID:127.0.0.1:33000:demodb:dba::?login_timeout=100";
+$con = cubrid_connect_with_url ($conn_url);
 
-if ($con) {
-   echo "connected successfully";
-   cubrid_execute($con, "create table person(id int,name char(16))");
-   $req =cubrid_execute($con, "insert into person values(1,'James')");
+if ($con) {
+   echo "connected successfully";
+   cubrid_execute($con, "create table person(id int,name char(16))");
+   $req =cubrid_execute($con, "insert into person values(1,'James')");
 
-   if ($req) {
-      cubrid_close_request($req);
-      cubrid_commit($con);
-   } else {
-      cubrid_rollback($con);
-   }
-   cubrid_disconnect($con);
+   if ($req) {
+      cubrid_close_request($req);
+      cubrid_commit($con);
+   } else {
+      cubrid_rollback($con);
+   }
+   cubrid_disconnect($con);
 }
 ?>
 ```

@@ -8,7 +8,7 @@ title: Вимоги
 ---
 ## Вимоги
 
-Для використання xattr має бути встановлена ​​бібліотека libattr. Вона доступна тут [» http://savannah.nongnu.org/projects/attr/](http://savannah.nongnu.org/projects/attr/)
+Для використання xattr має бути встановлена ​​бібліотека libattr. Вона доступна тут [» http://savannah.nongnu.org/projects/attr/](http://savannah.nongnu.org/projects/attr/)
 
 > **Зауваження**
 > 

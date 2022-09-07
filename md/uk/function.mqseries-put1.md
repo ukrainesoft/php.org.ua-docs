@@ -15,7 +15,7 @@ mqseriesput1 - MQSeries MQPUT1
 ### Опис
 
 ```methodsynopsis
-mqseries_put1(    resource $hconn,    resource &$objDesc,    resource &$msgDesc,    resource &$pmo,    string $buffer,    resource &$compCode,    resource &$reason): void
+mqseries_put1(    resource $hconn,    resource &$objDesc,    resource &$msgDesc,    resource &$pmo,    string $buffer,    resource &$compCode,    resource &$reason): void
 ```
 
 Функція **mqseriesput1()** (MQPUT1) містить повідомлення в чергу. Черга має бути не відкрита.

@@ -15,11 +15,11 @@ ocipasswordchange — Змінює пароль користувача Oracle
 ### Опис
 
 ```methodsynopsis
-oci_password_change(    resource $connection,    string $username,    string $old_password,    string $new_password): bool
+oci_password_change(    resource $connection,    string $username,    string $old_password,    string $new_password): bool
 ```
 
 ```methodsynopsis
-oci_password_change(    string $database_name,    string $username,    string $old_password,    string $new_password): resource
+oci_password_change(    string $database_name,    string $username,    string $old_password,    string $new_password): resource
 ```
 
 Змінює пароль користувача, вказаного в `username`
@@ -59,14 +59,14 @@ oci_password_change(    string $database_name,    string $username,  �
 ```php
 <?php
 
-$dbase      = 'localhost/orcl';
-$user       = 'cj';
-$current_pw = 'welcome';
-$new_pw     = 'geelong';
+$dbase      = 'localhost/orcl';
+$user       = 'cj';
+$current_pw = 'welcome';
+$new_pw     = 'geelong';
 
-$c = oci_pconnect($user, $current_pw, $dbase);
-oci_password_change($c, $user, $current_pw, $new_pw);
-echo "Новый пароль : " . $new_pw . "\n";
+$c = oci_pconnect($user, $current_pw, $dbase);
+oci_password_change($c, $user, $current_pw, $new_pw);
+echo "Новый пароль : " . $new_pw . "\n";
 
 ?>
 ```
@@ -76,30 +76,30 @@ echo "Новый пароль : " . $new_pw . "\n";
 ```php
 <?php
 
-$dbase      = 'localhost/orcl';
-$user       = 'cj';
-$current_pw = 'welcome';
-$new_pw     = 'geelong';
+$dbase      = 'localhost/orcl';
+$user       = 'cj';
+$current_pw = 'welcome';
+$new_pw     = 'geelong';
 
-$c = oci_pconnect($user, $current_pw, $dbase);
-if (!$c) {
-    $m = oci_error();
-    if ($m['code'] == 28001) { // "ORA-28001: the password has expired"
-        // Подключение и сброс пароля одновременно
-        $c = oci_password_change($dbase, $user, $current_pw, $new_pw);
-        if ($c) {
-            echo "Новый пароль : " . $new_pw . "\n";
-        }
-    }
+$c = oci_pconnect($user, $current_pw, $dbase);
+if (!$c) {
+    $m = oci_error();
+    if ($m['code'] == 28001) { // "ORA-28001: the password has expired"
+        // Подключение и сброс пароля одновременно
+        $c = oci_password_change($dbase, $user, $current_pw, $new_pw);
+        if ($c) {
+            echo "Новый пароль : " . $new_pw . "\n";
+        }
+    }
 }
 
-if (!$c) {  // Ошибка не совпадала с 28001, или не получилось изменить пароль
-    $m = oci_error();
-    trigger_error('Не удалось подключиться к базе данных: '. $m['message'], E_USER_ERROR);
+if (!$c) {  // Ошибка не совпадала с 28001, или не получилось изменить пароль
+    $m = oci_error();
+    trigger_error('Не удалось подключиться к базе данных: '. $m['message'], E_USER_ERROR);
 }
 
-// Использование подключения $c
-// ...
+// Использование подключения $c
+// ...
 
 ?>
 ```

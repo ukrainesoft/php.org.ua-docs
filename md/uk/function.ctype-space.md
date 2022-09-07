@@ -44,17 +44,17 @@ ctype_space(mixed $text): bool
 
 ```php
 <?php
-$strings = array(
-    'string1' => "\n\r\t",
-    'string2' => "\narf12",
-    'string3' => '\n\r\t' // Обратите внимание, что кавычки одинарные
+$strings = array(
+    'string1' => "\n\r\t",
+    'string2' => "\narf12",
+    'string3' => '\n\r\t' // Обратите внимание, что кавычки одинарные
 );
-foreach ($strings as $name => $testcase) {
-    if (ctype_space($testcase)) {
-        echo "Строка '$name' состоит только из пробельных символов.\n";
-    } else {
-        echo "Строка '$name' состоит не только из пробельных символов.\n";
-    }
+foreach ($strings as $name => $testcase) {
+    if (ctype_space($testcase)) {
+        echo "Строка '$name' состоит только из пробельных символов.\n";
+    } else {
+        echo "Строка '$name' состоит не только из пробельных символов.\n";
+    }
 }
 ?>
 ```

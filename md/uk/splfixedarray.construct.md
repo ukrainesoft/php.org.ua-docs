@@ -40,13 +40,13 @@ public **SplFixedArray::construct**(int `$size`
 
 ```php
 <?php
-$array = new SplFixedArray(5);
+$array = new SplFixedArray(5);
 
-$array[1] = 2;
-$array[4] = "foo";
+$array[1] = 2;
+$array[4] = "foo";
 
-foreach($array as $v) {
-  var_dump($v);
+foreach($array as $v) {
+  var_dump($v);
 }
 ?>
 ```

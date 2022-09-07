@@ -48,11 +48,11 @@ uopz_redefine(string $class, string $constant, mixed $value): bool
 
 ```php
 <?php
-define("MY", 100);
+define("MY", 100);
 
-uopz_redefine("MY", 1000);
+uopz_redefine("MY", 1000);
 
-echo MY;
+echo MY;
 ?>
 ```
 

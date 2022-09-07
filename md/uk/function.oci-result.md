@@ -41,24 +41,24 @@ oci_result(resource $statement, string|int $column): mixed
 ```php
 <?php
 
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
-if (!$conn) {
-    $e = oci_error();
-    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
-$stid = oci_parse($conn, $sql);
+$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';
+$stid = oci_parse($conn, $sql);
 oci_execute($stid);
 
-while (oci_fetch($stid)) {
-    echo oci_result($stid, 'LOCATION_ID') . " - это ";
-    echo oci_result($stid, 'CITY') . "<br>\n";
+while (oci_fetch($stid)) {
+    echo oci_result($stid, 'LOCATION_ID') . " - это ";
+    echo oci_result($stid, 'CITY') . "<br>\n";
 }
 
-// Выведет:
-//   1000 - это Roma
-//   1100 - это Venice
+// Выведет:
+//   1000 - это Roma
+//   1100 - это Venice
 
 oci_free_statement($stid);
 oci_close($conn);

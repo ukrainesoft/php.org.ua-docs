@@ -36,15 +36,15 @@ public SplObjectStorage::removeAllExcept(SplObjectStorage $storage): int
 
 ```php
 <?php
-$a = (object) 'a';
-$b = (object) 'b';
-$c = (object) 'c';
+$a = (object) 'a';
+$b = (object) 'b';
+$c = (object) 'c';
 
-$foo = new SplObjectStorage;
+$foo = new SplObjectStorage;
 $foo->attach($a);
 $foo->attach($b);
 
-$bar = new SplObjectStorage;
+$bar = new SplObjectStorage;
 $bar->attach($b);
 $bar->attach($c);
 

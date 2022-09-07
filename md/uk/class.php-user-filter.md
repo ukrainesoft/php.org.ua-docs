@@ -44,7 +44,7 @@ title: Клас phpuserfilter
 
     /* Методы */
     
-   public filter(    resource $in,    resource $out,    int &$consumed,    bool $closing): int
+   public filter(    resource $in,    resource $out,    int &$consumed,    bool $closing): int
 public onClose(): void
 public onCreate(): bool
 

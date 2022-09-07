@@ -47,11 +47,11 @@ mb_internal_encoding(?string $encoding = null): string|bool
 
 ```php
 <?php
-/* Установка внутренней кодировки в UTF-8 */
+/* Установка внутренней кодировки в UTF-8 */
 mb_internal_encoding("UTF-8");
 
-/* Вывод на экран текущей внутренней кодировки */
-echo mb_internal_encoding();
+/* Вывод на экран текущей внутренней кодировки */
+echo mb_internal_encoding();
 ?>
 ```
 

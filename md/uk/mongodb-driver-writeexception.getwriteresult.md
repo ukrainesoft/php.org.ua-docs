@@ -35,23 +35,23 @@ final public MongoDB\Driver\Exception\WriteException::getWriteResult(): MongoDB\
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb://localhost');
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['_id' => 1]);
-$bulk->insert(['_id' => 1]);
+$manager = new MongoDB\Driver\Manager('mongodb://localhost');
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['_id' => 1]);
+$bulk->insert(['_id' => 1]);
 
-try {
-    $manager->executeBulkWrite('db.collection', $bulk);
-} catch (MongoDB\Driver\Exception\WriteException $e) {
-    $writeResult = $e->getWriteResult();
+try {
+    $manager->executeBulkWrite('db.collection', $bulk);
+} catch (MongoDB\Driver\Exception\WriteException $e) {
+    $writeResult = $e->getWriteResult();
 
-    if ($writeConcernError = $writeResult->getWriteConcernError()) {
-        var_dump($writeConcernError);
-    }
+    if ($writeConcernError = $writeResult->getWriteConcernError()) {
+        var_dump($writeConcernError);
+    }
 
-    if ($writeErrors = $writeResult->getWriteErrors()) {
-        var_dump($writeErrors);
-    }
+    if ($writeErrors = $writeResult->getWriteErrors()) {
+        var_dump($writeErrors);
+    }
 }
 
 ?>

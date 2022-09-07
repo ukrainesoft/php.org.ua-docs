@@ -30,10 +30,10 @@ public **VtifulKernelExcel::construct**(array `$config`
 
 ```php
 <?php
-$config = [
-  'path' => '/home/viest'
+$config = [
+  'path' => '/home/viest'
 ];
 
-$excelObject = new \Vtiful\Kernel\Excel($config);
+$excelObject = new \Vtiful\Kernel\Excel($config);
 ?>
 ```

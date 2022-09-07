@@ -42,9 +42,9 @@ cubrid_lob_size(resource $lob_identifier): string
 
 ```php
 <?php
-$lobs = cubrid_lob_get($con, "SELECT doc_content FROM doc WHERE doc_id=5");
-echo "Размер документа:".cubrid_lob_size($lobs[0]);
-cubrid_lob_export($conn, $lobs[0], "doc_5.txt");
+$lobs = cubrid_lob_get($con, "SELECT doc_content FROM doc WHERE doc_id=5");
+echo "Размер документа:".cubrid_lob_size($lobs[0]);
+cubrid_lob_export($conn, $lobs[0], "doc_5.txt");
 cubrid_lob_close($lobs);
 ?>
 ```

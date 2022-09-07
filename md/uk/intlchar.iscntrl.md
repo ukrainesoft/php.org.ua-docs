@@ -45,7 +45,7 @@ public static IntlChar::iscntrl(int|string $codepoint): ?bool
 ```php
 <?php
 var_dump(IntlChar::iscntrl("A"));
-var_dump(IntlChar::iscntrl(" "));
+var_dump(IntlChar::iscntrl(" "));
 var_dump(IntlChar::iscntrl("\n"));
 var_dump(IntlChar::iscntrl("\u{200e}"));
 ?>

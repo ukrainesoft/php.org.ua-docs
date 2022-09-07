@@ -34,16 +34,16 @@ cubrid_error_code(): int
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$req = cubrid_prepare($conn , "SELECT * FROM code WHERE s_name=?");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$req = cubrid_prepare($conn , "SELECT * FROM code WHERE s_name=?");
 
-$req = @cubrid_execute($req);
-if (!$req) {
-    printf("Error facility: %d\nError code: %d\nError msg: %s\n",
-        cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());
+$req = @cubrid_execute($req);
+if (!$req) {
+    printf("Error facility: %d\nError code: %d\nError msg: %s\n",
+        cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());
 
-    cubrid_disconnect($conn);
-    exit;
+    cubrid_disconnect($conn);
+    exit;
 }
 ?>
 ```

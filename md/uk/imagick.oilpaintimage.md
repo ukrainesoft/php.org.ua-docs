@@ -36,11 +36,11 @@ public Imagick::oilPaintImage(float $radius): bool
 
 ```php
 <?php
-function oilPaintImage($imagePath, $radius) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->oilPaintImage($radius);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function oilPaintImage($imagePath, $radius) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->oilPaintImage($radius);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

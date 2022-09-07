@@ -19,10 +19,10 @@ title: Ітеровані
 ```php
 <?php
 
-function foo(iterable $iterable) {
-    foreach ($iterable as $value) {
-        // ...
-    }
+function foo(iterable $iterable) {
+    foreach ($iterable as $value) {
+        // ...
+    }
 }
 
 ?>
@@ -35,8 +35,8 @@ function foo(iterable $iterable) {
 ```php
 <?php
 
-function foo(iterable $iterable = []) {
-    // ...
+function foo(iterable $iterable = []) {
+    // ...
 }
 
 ?>
@@ -49,8 +49,8 @@ Iterable також може використовуватися як тип, щ�
 ```php
 <?php
 
-function bar(): iterable {
-    return [1, 2, 3];
+function bar(): iterable {
+    return [1, 2, 3];
 }
 
 ?>
@@ -63,10 +63,10 @@ function bar(): iterable {
 ```php
 <?php
 
-function gen(): iterable {
-    yield 1;
-    yield 2;
-    yield 3;
+function gen(): iterable {
+    yield 1;
+    yield 2;
+    yield 3;
 }
 
 ?>

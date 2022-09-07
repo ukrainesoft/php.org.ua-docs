@@ -57,18 +57,18 @@ mysqli_insert_id(mysqli $mysql): int|string
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$mysqli->query("CREATE TABLE myCity LIKE City");
+$mysqli->query("CREATE TABLE myCity LIKE City");
 
-$query = "INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)";
+$query = "INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)";
 $mysqli->query($query);
 
-printf("ID новой записи: %d.\n", $mysqli->insert_id);
+printf("ID новой записи: %d.\n", $mysqli->insert_id);
 
-/* удаление таблицы */
-$mysqli->query("DROP TABLE myCity");
+/* удаление таблицы */
+$mysqli->query("DROP TABLE myCity");
 ```
 
 Процедурний стиль
@@ -76,18 +76,18 @@ $mysqli->query("DROP TABLE myCity");
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-mysqli_query($link, "CREATE TABLE myCity LIKE City");
+mysqli_query($link, "CREATE TABLE myCity LIKE City");
 
-$query = "INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)";
-mysqli_query($link, $query);
+$query = "INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)";
+mysqli_query($link, $query);
 
-printf("ID новой записи: %d.\n", mysqli_insert_id($link));
+printf("ID новой записи: %d.\n", mysqli_insert_id($link));
 
-/* удаление таблицы */
-mysqli_query($link, "DROP TABLE myCity");
+/* удаление таблицы */
+mysqli_query($link, "DROP TABLE myCity");
 ```
 
 Результат виконання даних прикладів:

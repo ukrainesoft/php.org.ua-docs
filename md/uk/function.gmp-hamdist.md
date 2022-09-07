@@ -44,12 +44,12 @@ gmp_hamdist(GMP|int|string $num1, GMP|int|string $num2): int
 
 ```php
 <?php
-$ham1 = gmp_init("1001010011", 2);
-$ham2 = gmp_init("1011111100", 2);
-echo gmp_hamdist($ham1, $ham2) . "\n";
+$ham1 = gmp_init("1001010011", 2);
+$ham2 = gmp_init("1011111100", 2);
+echo gmp_hamdist($ham1, $ham2) . "\n";
 
-/* расстояние Хэмминга эквивалентно: */
-echo gmp_popcount(gmp_xor($ham1, $ham2)) . "\n";
+/* расстояние Хэмминга эквивалентно: */
+echo gmp_popcount(gmp_xor($ham1, $ham2)) . "\n";
 ?>
 ```
 

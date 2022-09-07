@@ -34,22 +34,22 @@ public SplObjectStorage::next(): void
 
 ```php
 <?php
-$s = new SplObjectStorage();
+$s = new SplObjectStorage();
 
-$o1 = new StdClass;
-$o2 = new StdClass;
+$o1 = new StdClass;
+$o2 = new StdClass;
 
-$s->attach($o1, "d1");
-$s->attach($o2, "d2");
+$s->attach($o1, "d1");
+$s->attach($o2, "d2");
 
 $s->rewind();
-while($s->valid()) {
-    $index  = $s->key();
-    $object = $s->current(); // аналогично current($s)
+while($s->valid()) {
+    $index  = $s->key();
+    $object = $s->current(); // аналогично current($s)
 
-    var_dump($index);
-    var_dump($object);
-    $s->next();
+    var_dump($index);
+    var_dump($object);
+    $s->next();
 }
 ?>
 ```

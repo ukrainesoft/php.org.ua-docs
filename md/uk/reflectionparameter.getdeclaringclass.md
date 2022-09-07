@@ -34,18 +34,18 @@ public ReflectionParameter::getDeclaringClass(): ?ReflectionClass
 
 ```php
 <?php
-class Foo
+class Foo
 {
-    public function bar(\DateTime $datetime)
-    {
-    }
+    public function bar(\DateTime $datetime)
+    {
+    }
 }
 
-class Baz extends Foo
+class Baz extends Foo
 {
 }
 
-$param = new \ReflectionParameter(['Baz', 'bar'], 0);
+$param = new \ReflectionParameter(['Baz', 'bar'], 0);
 
 var_dump($param->getDeclaringClass());
 ```

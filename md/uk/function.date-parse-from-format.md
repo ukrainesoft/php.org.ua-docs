@@ -46,8 +46,8 @@ date_parse_from_format(string $format, string $datetime): array
 
 ```php
 <?php
-$date = "6.1.2009 13:00+01:00";
-print_r(date_parse_from_format("j.n.Y H:iP", $date));
+$date = "6.1.2009 13:00+01:00";
+print_r(date_parse_from_format("j.n.Y H:iP", $date));
 ?>
 ```
 

@@ -40,23 +40,23 @@ public QuickHashIntStringHash::add(int $key, string $value): bool
 
 ```php
 <?php
-echo "без проверки дубликатов\n";
-$hash = new QuickHashIntStringHash( 1024 );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->get( 4 ) );
-var_dump( $hash->add( 4, "twenty two" ) );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->get( 4 ) );
-var_dump( $hash->add( 4, "twelve" ) );
+echo "без проверки дубликатов\n";
+$hash = new QuickHashIntStringHash( 1024 );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->get( 4 ) );
+var_dump( $hash->add( 4, "twenty two" ) );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->get( 4 ) );
+var_dump( $hash->add( 4, "twelve" ) );
 
-echo "\nс проверкой дубликатов\n";
-$hash = new QuickHashIntStringHash( 1024, QuickHashIntStringHash::CHECK_FOR_DUPES );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->get( 4 ) );
-var_dump( $hash->add( 4, "seventy eight" ) );
-var_dump( $hash->exists( 4 ) );
-var_dump( $hash->get( 4 ) );
-var_dump( $hash->add( 4, "nine" ) );
+echo "\nс проверкой дубликатов\n";
+$hash = new QuickHashIntStringHash( 1024, QuickHashIntStringHash::CHECK_FOR_DUPES );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->get( 4 ) );
+var_dump( $hash->add( 4, "seventy eight" ) );
+var_dump( $hash->exists( 4 ) );
+var_dump( $hash->get( 4 ) );
+var_dump( $hash->add( 4, "nine" ) );
 ?>
 ```
 

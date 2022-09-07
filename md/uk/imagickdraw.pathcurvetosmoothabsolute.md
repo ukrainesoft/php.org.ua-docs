@@ -15,7 +15,7 @@ ImagickDraw::pathCurveToSmoothAbsolute — Малює кубічну криву 
 ### Опис
 
 ```methodsynopsis
-public ImagickDraw::pathCurveToSmoothAbsolute(    float $x2,    float $y2,    float $x,    float $y): bool
+public ImagickDraw::pathCurveToSmoothAbsolute(    float $x2,    float $y2,    float $x,    float $y): bool
 ```
 
 **Увага**

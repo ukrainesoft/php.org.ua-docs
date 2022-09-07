@@ -12,8 +12,8 @@ PHP підтримує один оператор виконання: зворо�
 
 ```php
 <?php
-$output = `ls -al`;
-echo "<pre>$output</pre>";
+$output = `ls -al`;
+echo "<pre>$output</pre>";
 ?>
 ```
 

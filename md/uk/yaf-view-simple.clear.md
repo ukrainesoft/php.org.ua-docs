@@ -36,11 +36,11 @@ public Yaf_View_Simple::clear(string $name = ?): bool
 
 ```php
 <?php
-class IndexController extends Yaf_Controller_Abstract {
-    public function indexAction() {
-        $this->getView()->clear("foo")->clear("bar"); // очистить "foo" и "bar"
-        $this->_view->clear(); //очистить все назначенные переменные
-    }
+class IndexController extends Yaf_Controller_Abstract {
+    public function indexAction() {
+        $this->getView()->clear("foo")->clear("bar"); // очистить "foo" и "bar"
+        $this->_view->clear(); //очистить все назначенные переменные
+    }
 }
 ?>
 ```

@@ -53,9 +53,9 @@ pg_close(?PgSql\Connection $connection = null): bool
 
 ```php
 <?php
-$dbconn = pg_connect("host=localhost port=5432 dbname=mary")
-   or die("Невозможно подключиться к БД");
-echo "Успешно подключено к БД";
+$dbconn = pg_connect("host=localhost port=5432 dbname=mary")
+   or die("Невозможно подключиться к БД");
+echo "Успешно подключено к БД";
 pg_close($dbconn);
 ?>
 ```

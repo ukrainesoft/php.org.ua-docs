@@ -68,8 +68,8 @@ date_timestamp_get(DateTimeInterface $object): int
 
 ```php
 <?php
-$date = new DateTimeImmutable();
-echo $date->getTimestamp();
+$date = new DateTimeImmutable();
+echo $date->getTimestamp();
 ?>
 ```
 
@@ -77,8 +77,8 @@ echo $date->getTimestamp();
 
 ```php
 <?php
-$date = date_create();
-echo date_timestamp_get($date);
+$date = date_create();
+echo date_timestamp_get($date);
 ?>
 ```
 

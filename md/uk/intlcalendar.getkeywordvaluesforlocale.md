@@ -55,13 +55,13 @@ intlcal_get_keyword_values_for_locale(string $keyword, string $locale, bool $onl
 ```php
 <?php
 print_r(
-        iterator_to_array(
-                IntlCalendar::getKeywordValuesForLocale(
-                        'calendar', 'fa_IR', true)));
+        iterator_to_array(
+                IntlCalendar::getKeywordValuesForLocale(
+                        'calendar', 'fa_IR', true)));
 print_r(
-        iterator_to_array(
-                IntlCalendar::getKeywordValuesForLocale(
-                        'calendar', 'fa_IR', false)));
+        iterator_to_array(
+                IntlCalendar::getKeywordValuesForLocale(
+                        'calendar', 'fa_IR', false)));
 ```
 
 Результат виконання цього прикладу:

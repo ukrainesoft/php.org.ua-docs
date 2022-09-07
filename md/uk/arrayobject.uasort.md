@@ -46,20 +46,20 @@ callback(mixed $a, mixed $b): int
 
 ```php
 <?php
-// Функция сравнения
-function cmp($a, $b) {
-    if ($a == $b) {
-        return 0;
-    }
-    return ($a < $b) ? -1 : 1;
+// Функция сравнения
+function cmp($a, $b) {
+    if ($a == $b) {
+        return 0;
+    }
+    return ($a < $b) ? -1 : 1;
 }
 
-// Масив для сортировки
-$array = array('a' => 4, 'b' => 8, 'c' => -1, 'd' => -9, 'e' => 2, 'f' => 5, 'g' => 3, 'h' => -4);
-$arrayObject = new ArrayObject($array);
+// Масив для сортировки
+$array = array('a' => 4, 'b' => 8, 'c' => -1, 'd' => -9, 'e' => 2, 'f' => 5, 'g' => 3, 'h' => -4);
+$arrayObject = new ArrayObject($array);
 print_r($arrayObject);
 
-// Сортировка и вывод Масива
+// Сортировка и вывод Масива
 $arrayObject->uasort('cmp');
 print_r($arrayObject);
 ?>

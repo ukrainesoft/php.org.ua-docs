@@ -50,14 +50,14 @@ intlcal_after(IntlCalendar $calendar, IntlCalendar $other): bool
 
 ```php
 <?php
-$cal1 = IntlCalendar::createInstance();
-$cal2 = clone $cal1;
+$cal1 = IntlCalendar::createInstance();
+$cal2 = clone $cal1;
 
-var_dump($cal1->after($cal2), //false
-        $cal2->after($cal1)); //false
+var_dump($cal1->after($cal2), //false
+        $cal2->after($cal1)); //false
 
-$cal1->roll(IntlCalendar::FIELD_MILLISECOND, true);
+$cal1->roll(IntlCalendar::FIELD_MILLISECOND, true);
 
-var_dump($cal1->after($cal2), //true
-        $cal2->after($cal1)); //false
+var_dump($cal1->after($cal2), //true
+        $cal2->after($cal1)); //false
 ```

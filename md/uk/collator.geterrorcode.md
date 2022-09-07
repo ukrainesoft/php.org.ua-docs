@@ -44,9 +44,9 @@ collator_get_error_code(Collator $object): int|false
 
 ```php
 <?php
-$coll = collator_create( 'en_US' );
-if( collator_get_attribute( $coll, Collator::FRENCH_COLLATION ) === false )
-        handle_error( collator_get_error_code() );
+$coll = collator_create( 'en_US' );
+if( collator_get_attribute( $coll, Collator::FRENCH_COLLATION ) === false )
+        handle_error( collator_get_error_code() );
 ?>
 ```
 

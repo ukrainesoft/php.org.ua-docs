@@ -48,7 +48,7 @@ svn_update(string $path, int $revno = SVN_REVISION_HEAD, bool $recurse = true): 
 
 ```php
 <?php
-echo svn_update(realpath('working-copy'));
+echo svn_update(realpath('working-copy'));
 ?>
 ```
 
@@ -68,4 +68,4 @@ echo svn_update(realpath('working-copy'));
 
 -   [svncheckout()](function.svn-checkout.md) - Отримує робочу копію з репозиторію
 -   [svncommit()](function.svn-commit.md) - Відправляє зміни з робочої директорії до репозиторію
--   [» SVN-документация по svn update](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.update.md)
+-   [» SVN-документация по svn update](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.update.md)

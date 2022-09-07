@@ -38,8 +38,8 @@ runkit7_function_copy(string $source_name, string $target_name): bool
 
 ```php
 <?php
-function original() {
-  echo "В функции\n";
+function original() {
+  echo "В функции\n";
 }
 runkit7_function_copy('original','duplicate');
 original();

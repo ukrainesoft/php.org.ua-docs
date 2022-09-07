@@ -42,11 +42,11 @@ GMP-число, що є верхньою межею діапазону
 
 ```php
 <?php
-$rand1 = gmp_random_range(0, 100);    // случайное число от 0 до 100
-$rand2 = gmp_random_range(-100, -10); // случайное число от -100 до -10
+$rand1 = gmp_random_range(0, 100);    // случайное число от 0 до 100
+$rand2 = gmp_random_range(-100, -10); // случайное число от -100 до -10
 
-echo gmp_strval($rand1) . "\n";
-echo gmp_strval($rand2) . "\n";
+echo gmp_strval($rand1) . "\n";
+echo gmp_strval($rand2) . "\n";
 ?>
 ```
 

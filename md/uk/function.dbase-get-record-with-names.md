@@ -55,23 +55,23 @@ dbase_get_record_with_names(resource $database, int $number): array
 
 ```php
 <?php
-// открываем базу в режиме чтения
-$db = dbase_open('/tmp/test.dbf', 0);
+// открываем базу в режиме чтения
+$db = dbase_open('/tmp/test.dbf', 0);
 
-if ($db) {
-  $record_numbers = dbase_numrecords($db);
-  for ($i = 1; $i <= $record_numbers; $i++) {
-      $row = dbase_get_record_with_names($db, $i);
-      if ($row['ismember'] == 1) {
-          echo "Member #$i: " . trim($row['name']) . "\n";
-      }
-  }
+if ($db) {
+  $record_numbers = dbase_numrecords($db);
+  for ($i = 1; $i <= $record_numbers; $i++) {
+      $row = dbase_get_record_with_names($db, $i);
+      if ($row['ismember'] == 1) {
+          echo "Member #$i: " . trim($row['name']) . "\n";
+      }
+  }
 }
-// Прим. пер. -
-// к полученным с помощью dbase_get_record_with_names значениям записи
-// обращаемся по имени - $row['ismember'],
-// а в случае с dbase_get_record к значениям записи
-// обращаемся по номеру - $row[4]
+// Прим. пер. -
+// к полученным с помощью dbase_get_record_with_names значениям записи
+// обращаемся по имени - $row['ismember'],
+// а в случае с dbase_get_record к значениям записи
+// обращаемся по номеру - $row[4]
 ?>
 ```
 

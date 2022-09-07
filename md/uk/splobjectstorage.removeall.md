@@ -36,14 +36,14 @@ public SplObjectStorage::removeAll(SplObjectStorage $storage): int
 
 ```php
 <?php
-$o1 = new StdClass;
-$o2 = new StdClass;
-$a = new SplObjectStorage();
-$a[$o1] = "foo";
+$o1 = new StdClass;
+$o2 = new StdClass;
+$a = new SplObjectStorage();
+$a[$o1] = "foo";
 
-$b = new SplObjectStorage();
-$b[$o1] = "bar";
-$b[$o2] = "gee";
+$b = new SplObjectStorage();
+$b[$o1] = "bar";
+$b[$o2] = "gee";
 
 var_dump(count($b));
 $b->removeAll($a);

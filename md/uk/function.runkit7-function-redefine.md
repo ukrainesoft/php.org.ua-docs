@@ -15,11 +15,11 @@ runkit7functionredefine - Замінює визначення функції н�
 ### Опис
 
 ```methodsynopsis
-runkit7_function_redefine(    string $function_name,    string $argument_list,    string $code,    bool $return_by_reference = null,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_function_redefine(    string $function_name,    string $argument_list,    string $code,    bool $return_by_reference = null,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 ```methodsynopsis
-runkit7_function_redefine(    string $function_name,    Closure $closure,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
+runkit7_function_redefine(    string $function_name,    Closure $closure,    string $doc_comment = null,    string $return_type = ?,    bool $is_strict = ?): bool
 ```
 
 > **Зауваження**: За замовчуванням, лише функції користувача можуть бути видалені, перейменовані або змінені. Для перекриття внутрішніх функцій, необхідно включити до php.ini опцію `runkit.internal_override`
@@ -68,11 +68,11 @@ runkit7_function_redefine(    string $function_name,    Closure $closure
 
 ```php
 <?php
-function testme() {
-  echo "Оригинальная реализация Testme\n";
+function testme() {
+  echo "Оригинальная реализация Testme\n";
 }
 testme();
-runkit7_function_redefine('testme','','echo "Новая реализация Testme\n";');
+runkit7_function_redefine('testme','','echo "Новая реализация Testme\n";');
 testme();
 ?>
 ```

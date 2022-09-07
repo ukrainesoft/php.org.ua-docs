@@ -48,11 +48,11 @@ dir(string $directory, ?resource $context = null): Directory|false
 
 ```php
 <?php
-$d = dir("/etc/php5");
-echo "Дескриптор: " . $d->handle . "\n";
-echo "Путь: " . $d->path . "\n";
-while (false !== ($entry = $d->read())) {
-   echo $entry."\n";
+$d = dir("/etc/php5");
+echo "Дескриптор: " . $d->handle . "\n";
+echo "Путь: " . $d->path . "\n";
+while (false !== ($entry = $d->read())) {
+   echo $entry."\n";
 }
 $d->close();
 ?>

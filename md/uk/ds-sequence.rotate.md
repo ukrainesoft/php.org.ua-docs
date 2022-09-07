@@ -36,9 +36,9 @@ abstract public Ds\Sequence::rotate(int $rotations): void
 
 ```php
 <?php
-$sequence = new \Ds\Vector(["a", "b", "c", "d"]);
+$sequence = new \Ds\Vector(["a", "b", "c", "d"]);
 
-$sequence->rotate(1);  // Аналогично $a = $sequence->shift(); $sequence->push($a);
+$sequence->rotate(1);  // Аналогично $a = $sequence->shift(); $sequence->push($a);
 print_r($sequence);
 
 $sequence->rotate(2);

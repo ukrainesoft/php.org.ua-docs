@@ -42,9 +42,9 @@ public Imagick::clutImage(Imagick $lookup_table, int $channel = Imagick::CHANNEL
 
 ```php
 <?php
-$image = new Imagick('test.jpg');
-$clut = new Imagick();
-$clut->newImage(1, 1, new ImagickPixel('black'));
+$image = new Imagick('test.jpg');
+$clut = new Imagick();
+$clut->newImage(1, 1, new ImagickPixel('black'));
 $image->clutImage($clut);
 $image->writeImage('test_out.jpg');
 ?>

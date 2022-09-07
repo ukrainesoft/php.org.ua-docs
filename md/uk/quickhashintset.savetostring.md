@@ -34,12 +34,12 @@ public QuickHashIntSet::saveToString(): string
 
 ```php
 <?php
-$set = new QuickHashIntSet( 1024 );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
-var_dump( $set->exists( 4 ) );
-var_dump( $set->add( 4 ) );
+$set = new QuickHashIntSet( 1024 );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
+var_dump( $set->exists( 4 ) );
+var_dump( $set->add( 4 ) );
 
-var_dump( $set->saveToString() );
+var_dump( $set->saveToString() );
 ?>
 ```

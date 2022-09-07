@@ -52,19 +52,19 @@ intlcal_get_day_of_week_type(IntlCalendar $calendar, int $dayOfWeek): int|false
 
 ```php
 <?php
-foreach (array('en_US', 'ar_SA') as $locale) {
-    echo "Языковой стандарт: ", Locale::getDisplayName($locale, "en_US"), "\n";
+foreach (array('en_US', 'ar_SA') as $locale) {
+    echo "Языковой стандарт: ", Locale::getDisplayName($locale, "en_US"), "\n";
 
-    $cal = IntlCalendar::createInstance('UTC', $locale);
+    $cal = IntlCalendar::createInstance('UTC', $locale);
 
-    for ($i = IntlCalendar::DOW_SUNDAY; $i <= IntlCalendar::DOW_SATURDAY; $i++) {
-        $type = $cal->getDayOfWeekType($i);
-        $transition = ($type !== IntlCalendar::DOW_TYPE_WEEKDAY)
-            ? $cal->getWeekendTransition($i)
-            : '';
-        echo $i, " ", $type, " ", $transition, "\n";
-    }
-    echo "\n";
+    for ($i = IntlCalendar::DOW_SUNDAY; $i <= IntlCalendar::DOW_SATURDAY; $i++) {
+        $type = $cal->getDayOfWeekType($i);
+        $transition = ($type !== IntlCalendar::DOW_TYPE_WEEKDAY)
+            ? $cal->getWeekendTransition($i)
+            : '';
+        echo $i, " ", $type, " ", $transition, "\n";
+    }
+    echo "\n";
 }
 ?>
 ```

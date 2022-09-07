@@ -15,7 +15,7 @@ ldapparseresult — Витягти інформацію з результату
 ### Опис
 
 ```methodsynopsis
-ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,    int &$error_code,    string &$matched_dn = null,    string &$error_message = null,    array &$referrals = null,    array &$controls = null): bool
+ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,    int &$error_code,    string &$matched_dn = null,    string &$error_message = null,    array &$referrals = null,    array &$controls = null): bool
 ```
 
 Обробляє результат пошуку LDAP.
@@ -68,10 +68,10 @@ ldap_parse_result(    LDAP\Connection $ldap,    LDAP\Result $result,  
 
 ```php
 <?php
-$result = ldap_search($ldap, "cn=userref,dc=my-domain,dc=com", "(cn=user*)");
-$errcode = $dn = $errmsg = $refs =  null;
-if (ldap_parse_result($ldap, $result, $errcode, $dn, $errmsg, $refs)) {
-    // различные операции с $errcode, $dn, $errmsg и $refs
+$result = ldap_search($ldap, "cn=userref,dc=my-domain,dc=com", "(cn=user*)");
+$errcode = $dn = $errmsg = $refs =  null;
+if (ldap_parse_result($ldap, $result, $errcode, $dn, $errmsg, $refs)) {
+    // различные операции с $errcode, $dn, $errmsg и $refs
 }
 ?>
 ```

@@ -45,15 +45,15 @@ public PDOStatement::execute(?array $params = null): bool
 
 ```php
 <?php
-/* Выполнение подготовленного запроса с привязкой переменных и значений */
-$calories = 150;
-$colour = 'gre';
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < :calories AND colour LIKE :colour');
-$sth->bindParam('calories', $calories, PDO::PARAM_INT);
-/* Имена также могут начинаться с двоеточия ":" (необязательно) */
-$sth->bindValue(':colour', "%$colour%");
+/* Выполнение подготовленного запроса с привязкой переменных и значений */
+$calories = 150;
+$colour = 'gre';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < :calories AND colour LIKE :colour');
+$sth->bindParam('calories', $calories, PDO::PARAM_INT);
+/* Имена также могут начинаться с двоеточия ":" (необязательно) */
+$sth->bindValue(':colour', "%$colour%");
 $sth->execute();
 ?>
 ```
@@ -62,15 +62,15 @@ $sth->execute();
 
 ```php
 <?php
-/* Выполнение подготовленного запроса с передачей Масива входных значений */
-$calories = 150;
-$colour = 'red';
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < :calories AND colour = :colour');
-$sth->execute(array('calories' => $calories, 'colour' => $colour));
-/* Ключи Масива также могут начинаться с двоеточия ":" (необязательно) */
-$sth->execute(array(':calories' => $calories, ':colour' => $colour));
+/* Выполнение подготовленного запроса с передачей Масива входных значений */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < :calories AND colour = :colour');
+$sth->execute(array('calories' => $calories, 'colour' => $colour));
+/* Ключи Масива также могут начинаться с двоеточия ":" (необязательно) */
+$sth->execute(array(':calories' => $calories, ':colour' => $colour));
 ?>
 ```
 
@@ -78,13 +78,13 @@ $sth->execute(array(':calories' => $calories, ':colour' => $colour));
 
 ```php
 <?php
-/* Выполнение подготовленного запроса с передачей Масива входных значений */
-$calories = 150;
-$colour = 'red';
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < ? AND colour = ?');
-$sth->execute(array($calories, $colour));
+/* Выполнение подготовленного запроса с передачей Масива входных значений */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < ? AND colour = ?');
+$sth->execute(array($calories, $colour));
 ?>
 ```
 
@@ -92,14 +92,14 @@ $sth->execute(array($calories, $colour));
 
 ```php
 <?php
-/* Выполнение подготовленного запроса с привязкой PHP переменных */
-$calories = 150;
-$colour = 'red';
-$sth = $dbh->prepare('SELECT name, colour, calories
-    FROM fruit
-    WHERE calories < ? AND colour = ?');
-$sth->bindParam(1, $calories, PDO::PARAM_INT);
-$sth->bindParam(2, $colour, PDO::PARAM_STR, 12);
+/* Выполнение подготовленного запроса с привязкой PHP переменных */
+$calories = 150;
+$colour = 'red';
+$sth = $dbh->prepare('SELECT name, colour, calories
+    FROM fruit
+    WHERE calories < ? AND colour = ?');
+$sth->bindParam(1, $calories, PDO::PARAM_INT);
+$sth->bindParam(2, $colour, PDO::PARAM_STR, 12);
 $sth->execute();
 ?>
 ```
@@ -108,19 +108,19 @@ $sth->execute();
 
 ```php
 <?php
-/* Выполнение подготовленного запроса с использованием Масива для выражения IN */
-$params = array(1, 21, 63, 171);
-/* Создаём строку из знаков вопроса (?) в количестве, равном количеству параметров */
-$place_holders = implode(',', array_fill(0, count($params), '?'));
+/* Выполнение подготовленного запроса с использованием Масива для выражения IN */
+$params = array(1, 21, 63, 171);
+/* Создаём строку из знаков вопроса (?) в количестве, равном количеству параметров */
+$place_holders = implode(',', array_fill(0, count($params), '?'));
 
 /*
-    В этом примере подготавливается запрос с достаточным количеством неименованных
-    псевдопеременных (?) для каждого значения из Масива $params. Когда запрос будет
-    выполняться, эти знаки вопроса будут заменены на элементы Масива. Это не то же
-    самое, что использовать PDOStatement::bindParam(), где привязка осуществляется по
-    ссылке на переменную. PDOStatement::execute() связывает параметры по значению.
+    В этом примере подготавливается запрос с достаточным количеством неименованных
+    псевдопеременных (?) для каждого значения из Масива $params. Когда запрос будет
+    выполняться, эти знаки вопроса будут заменены на элементы Масива. Это не то же
+    самое, что использовать PDOStatement::bindParam(), где привязка осуществляется по
+    ссылке на переменную. PDOStatement::execute() связывает параметры по значению.
 */
-$sth = $dbh->prepare("SELECT id, name FROM contacts WHERE id IN ($place_holders)");
+$sth = $dbh->prepare("SELECT id, name FROM contacts WHERE id IN ($place_holders)");
 $sth->execute($params);
 ?>
 ```

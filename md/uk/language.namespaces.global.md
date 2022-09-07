@@ -16,13 +16,13 @@ title: Глобальний простір
 
 ```php
 <?php
-namespace A\B\C;
+namespace A\B\C;
 
-/* Эта функция является A\B\C\fopen */
-function fopen() {
-     /* ... */
-     $f = \fopen(...); // вызов глобальной функции fopen
-     return $f;
+/* Эта функция является A\B\C\fopen */
+function fopen() {
+     /* ... */
+     $f = \fopen(...); // вызов глобальной функции fopen
+     return $f;
 }
 ?>
 ```

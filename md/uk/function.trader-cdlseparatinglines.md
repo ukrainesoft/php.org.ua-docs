@@ -15,7 +15,7 @@ tradercdlseparatinglines — Поділ
 ### Опис
 
 ```methodsynopsis
-trader_cdlseparatinglines(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlseparatinglines(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

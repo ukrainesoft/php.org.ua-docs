@@ -56,13 +56,13 @@ strtotime(string $datetime, ?int $baseTimestamp = null): int|false
 
 ```php
 <?php
-echo strtotime("now"), "\n";
-echo strtotime("10 September 2000"), "\n";
-echo strtotime("+1 day"), "\n";
-echo strtotime("+1 week"), "\n";
-echo strtotime("+1 week 2 days 4 hours 2 seconds"), "\n";
-echo strtotime("next Thursday"), "\n";
-echo strtotime("last Monday"), "\n";
+echo strtotime("now"), "\n";
+echo strtotime("10 September 2000"), "\n";
+echo strtotime("+1 day"), "\n";
+echo strtotime("+1 week"), "\n";
+echo strtotime("+1 week 2 days 4 hours 2 seconds"), "\n";
+echo strtotime("next Thursday"), "\n";
+echo strtotime("last Monday"), "\n";
 ?>
 ```
 
@@ -70,12 +70,12 @@ echo strtotime("last Monday"), "\n";
 
 ```php
 <?php
-$str = 'Not Good';
+$str = 'Not Good';
 
-if (($timestamp = strtotime($str)) === false) {
-    echo "Строка ($str) недопустима";
-} else {
-    echo "$str == " . date('l dS \o\f F Y h:i:s A', $timestamp);
+if (($timestamp = strtotime($str)) === false) {
+    echo "Строка ($str) недопустима";
+} else {
+    echo "$str == " . date('l dS \o\f F Y h:i:s A', $timestamp);
 }
 ?>
 ```

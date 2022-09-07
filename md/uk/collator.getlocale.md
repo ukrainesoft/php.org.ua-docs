@@ -50,11 +50,11 @@ collator_get_locale(Collator $object, int $type): string|false
 
 ```php
 <?php
-$coll    = collator_create( 'en_US_California' );
-$res_val = collator_get_locale( $coll, Locale::VALID_LOCALE );
-$res_act = collator_get_locale( $coll, Locale::ACTUAL_LOCALE );
-printf( "Название корректной локали: %s\nНазвание фактической локали: %s\n",
-         $res_val, $res_act );
+$coll    = collator_create( 'en_US_California' );
+$res_val = collator_get_locale( $coll, Locale::VALID_LOCALE );
+$res_act = collator_get_locale( $coll, Locale::ACTUAL_LOCALE );
+printf( "Название корректной локали: %s\nНазвание фактической локали: %s\n",
+         $res_val, $res_act );
 ?>
 ```
 

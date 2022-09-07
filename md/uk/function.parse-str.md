@@ -51,19 +51,19 @@ parse_str(string $string, array &$result): void
 
 ```php
 <?php
-$str = "first=value&arr[]=foo+bar&arr[]=baz";
+$str = "first=value&arr[]=foo+bar&arr[]=baz";
 
-// Рекомендуемый подход
-parse_str($str, $output);
-echo $output['first'];  // value
-echo $output['arr'][0]; // foo bar
-echo $output['arr'][1]; // baz
+// Рекомендуемый подход
+parse_str($str, $output);
+echo $output['first'];  // value
+echo $output['arr'][0]; // foo bar
+echo $output['arr'][1]; // baz
 
-// НЕ РЕКОМЕНДУЕТСЯ
+// НЕ РЕКОМЕНДУЕТСЯ
 parse_str($str);
-echo $first;  // value
-echo $arr[0]; // foo bar
-echo $arr[1]; // baz
+echo $first;  // value
+echo $arr[0]; // foo bar
+echo $arr[1]; // baz
 ?>
 ```
 
@@ -73,11 +73,11 @@ echo $arr[1]; // baz
 
 ```php
 <?php
-parse_str("My Value=Something");
-echo $My_Value; // Something
+parse_str("My Value=Something");
+echo $My_Value; // Something
 
-parse_str("My Value=Something", $output);
-echo $output['My_Value']; // Something
+parse_str("My Value=Something", $output);
+echo $output['My_Value']; // Something
 ?>
 ```
 

@@ -15,7 +15,7 @@ ldapcompare — Порівняти значення атрибута, знайд
 ### Опис
 
 ```methodsynopsis
-ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $attribute,    string $value,    ?array $controls = null): bool|int
+ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $attribute,    string $value,    ?array $controls = null): bool|int
 ```
 
 Порівнює значення (`value`) атрибуту (`attribute`) зі значенням того ж атрибуту запису LDAP-директорії.
@@ -63,37 +63,37 @@ ldap_compare(    LDAP\Connection $ldap,    string $dn,    string $at
 ```php
 <?php
 
-$ds=ldap_connect("localhost");  // Предположим, что LDAP сервер находится по этому адресу
+$ds=ldap_connect("localhost");  // Предположим, что LDAP сервер находится по этому адресу
 
-if ($ds) {
+if ($ds) {
 
-    // bind
-    if (ldap_bind($ds)) {
+    // bind
+    if (ldap_bind($ds)) {
 
-        // подготовка данных
-        $dn = "cn=Matti Meikku, ou=My Unit, o=My Company, c=FI";
-        $value = "secretpassword";
-        $attr = "password";
+        // подготовка данных
+        $dn = "cn=Matti Meikku, ou=My Unit, o=My Company, c=FI";
+        $value = "secretpassword";
+        $attr = "password";
 
-        // сравнение данных
-        $r=ldap_compare($ds, $dn, $attr, $value);
+        // сравнение данных
+        $r=ldap_compare($ds, $dn, $attr, $value);
 
-        if ($r === -1) {
-            echo "Ошибка: " . ldap_error($ds);
-        } elseif ($r === true) {
-            echo "Пароль верный.";
-        } elseif ($r === false) {
-            echo "Неправильное предположение! Пароль не верен.";
-        }
+        if ($r === -1) {
+            echo "Ошибка: " . ldap_error($ds);
+        } elseif ($r === true) {
+            echo "Пароль верный.";
+        } elseif ($r === false) {
+            echo "Неправильное предположение! Пароль не верен.";
+        }
 
-    } else {
-        echo "Невозможно привязаться к серверу LDAP.";
-    }
+    } else {
+        echo "Невозможно привязаться к серверу LDAP.";
+    }
 
-    ldap_close($ds);
+    ldap_close($ds);
 
-} else {
-    echo "Невозможно соединиться с сервером LDAP.";
+} else {
+    echo "Невозможно соединиться с сервером LDAP.";
 }
 ?>
 ```

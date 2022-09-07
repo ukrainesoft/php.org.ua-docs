@@ -43,13 +43,13 @@ db2_fetch_assoc(resource $stmt, int $row_number = -1): array
 ```php
 <?php
 
-$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";
-$stmt = db2_prepare($conn, $sql);
-$result = db2_execute($stmt);
+$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";
+$stmt = db2_prepare($conn, $sql);
+$result = db2_execute($stmt);
 
-while ($row = db2_fetch_assoc($stmt)) {
-    printf ("%-5d %-16s %-32s %10s\n",
-        $row['ID'], $row['NAME'], $row['BREED'], $row['WEIGHT']);
+while ($row = db2_fetch_assoc($stmt)) {
+    printf ("%-5d %-16s %-32s %10s\n",
+        $row['ID'], $row['NAME'], $row['BREED'], $row['WEIGHT']);
 }
 ?>
 ```
@@ -69,14 +69,14 @@ while ($row = db2_fetch_assoc($stmt)) {
 ```php
 <?php
 
-$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";
-$result = db2_exec($stmt, $sql, array('cursor' => DB2_SCROLLABLE));
+$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";
+$result = db2_exec($stmt, $sql, array('cursor' => DB2_SCROLLABLE));
 
 $i=2;
-while ($row = db2_fetch_assoc($result, $i)) {
-    printf ("%-5d %-16s %-32s %10s\n",
-        $row['ID'], $row['NAME'], $row['BREED'], $row['WEIGHT']);
-    $i = $i + 2;
+while ($row = db2_fetch_assoc($result, $i)) {
+    printf ("%-5d %-16s %-32s %10s\n",
+        $row['ID'], $row['NAME'], $row['BREED'], $row['WEIGHT']);
+    $i = $i + 2;
 }
 ?>
 ```

@@ -44,11 +44,11 @@ public Imagick::sketchImage(float $radius, float $sigma, float $angle): bool
 
 ```php
 <?php
-function sketchImage($imagePath, $radius, $sigma, $angle) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->sketchimage($radius, $sigma, $angle);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function sketchImage($imagePath, $radius, $sigma, $angle) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->sketchimage($radius, $sigma, $angle);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

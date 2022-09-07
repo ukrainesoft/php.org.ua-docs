@@ -50,31 +50,31 @@ intlcal_equals(IntlCalendar $calendar, IntlCalendar $other): bool
 
 ```php
 <?php
-ini_set('date.timezone', 'UTC');
+ini_set('date.timezone', 'UTC');
 
-$cal1 = IntlCalendar::createInstance(NULL, 'es_ES');
-$cal2 = clone $cal1;
+$cal1 = IntlCalendar::createInstance(NULL, 'es_ES');
+$cal2 = clone $cal1;
 
-var_dump($cal1->equals($cal2)); //TRUE
+var_dump($cal1->equals($cal2)); //TRUE
 
-// Языковой стандарт не включён в сравнение
-$cal2 = IntlCalendar::createInstance(NULL, 'pt_PT');
+// Языковой стандарт не включён в сравнение
+$cal2 = IntlCalendar::createInstance(NULL, 'pt_PT');
 $cal2->setTime($cal1->getTime());
-var_dump($cal1->equals($cal2)); //TRUE
+var_dump($cal1->equals($cal2)); //TRUE
 
-// И состояние установленных полей также не включено
+// И состояние установленных полей также не включено
 $cal2->clear(IntlCalendar::FIELD_YEAR);
-var_dump($cal1->isSet(IntlCalendar::FIELD_YEAR) ==
-        $cal2->isSet(IntlCalendar::FIELD_YEAR)); //FALSE
-var_dump($cal1->equals($cal2)); //TRUE
+var_dump($cal1->isSet(IntlCalendar::FIELD_YEAR) ==
+        $cal2->isSet(IntlCalendar::FIELD_YEAR)); //FALSE
+var_dump($cal1->equals($cal2)); //TRUE
 
-// И тип календаря
-$cal2 = IntlCalendar::createInstance(NULL, 'es_ES@calendar=islamic');
+// И тип календаря
+$cal2 = IntlCalendar::createInstance(NULL, 'es_ES@calendar=islamic');
 $cal2->setTime($cal1->getTime());
-var_dump($cal1->equals($cal2)); //TRUE
+var_dump($cal1->equals($cal2)); //TRUE
 
-// Только время
-$cal2 = clone $cal1;
-$cal2->setTime($cal1->getTime() + 1.);
-var_dump($cal1->equals($cal2)); //FALSE
+// Только время
+$cal2 = clone $cal1;
+$cal2->setTime($cal1->getTime() + 1.);
+var_dump($cal1->equals($cal2)); //FALSE
 ```

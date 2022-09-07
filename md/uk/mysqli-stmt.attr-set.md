@@ -62,4 +62,4 @@ mysqli_stmt_attr_set(mysqli_stmt $statement, int $attribute, int $value): bool
 
 ### Дивіться також
 
--   [» Connector/MySQL mysqlstmtattrset()](http://dev.mysql.com/doc/en/mysql-stmt-attr-set.md)
+-   [» Connector/MySQL mysqlstmtattrset()](http://dev.mysql.com/doc/en/mysql-stmt-attr-set.md)

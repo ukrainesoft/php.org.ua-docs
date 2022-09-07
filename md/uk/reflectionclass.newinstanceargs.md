@@ -42,8 +42,8 @@ public ReflectionClass::newInstanceArgs(array $args = []): ?object
 
 ```php
 <?php
-$class = new ReflectionClass('ReflectionFunction');
-$instance = $class->newInstanceArgs(array('substr'));
+$class = new ReflectionClass('ReflectionFunction');
+$instance = $class->newInstanceArgs(array('substr'));
 var_dump($instance);
 ?>
 ```

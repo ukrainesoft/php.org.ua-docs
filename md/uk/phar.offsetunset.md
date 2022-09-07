@@ -44,12 +44,12 @@ public Phar::offsetUnset(string $localName): void
 
 ```php
 <?php
-$p = new Phar('/path/to/my.phar', 0, 'my.phar');
-try {
-    // удаляет file.txt из my.phar путём вызова offsetUnset
-    unset($p['file.txt']);
-} catch (Exception $e) {
-    echo 'Не удалось удалить file.txt: ', $e;
+$p = new Phar('/path/to/my.phar', 0, 'my.phar');
+try {
+    // удаляет file.txt из my.phar путём вызова offsetUnset
+    unset($p['file.txt']);
+} catch (Exception $e) {
+    echo 'Не удалось удалить file.txt: ', $e;
 }
 ?>
 ```

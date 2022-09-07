@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Для роботи модуля необхідна [» библиотека gpgme](http://www.gnupg.org/related_software/gpgme/)
+Для роботи модуля необхідна [» библиотека gpgme](http://www.gnupg.org/related_software/gpgme/)

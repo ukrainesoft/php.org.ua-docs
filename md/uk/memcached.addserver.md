@@ -46,12 +46,12 @@ public Memcached::addServer(string $host, int $port, int $weight = 0): bool
 
 ```php
 <?php
-$m = new Memcached();
+$m = new Memcached();
 
-/* Добавляет 2 сервера в пул, вероятность быть выбранным
-   у второго сервера в 2 раза выше. */
-$m->addServer('mem1.domain.com', 11211, 33);
-$m->addServer('mem2.domain.com', 11211, 67);
+/* Добавляет 2 сервера в пул, вероятность быть выбранным
+   у второго сервера в 2 раза выше. */
+$m->addServer('mem1.domain.com', 11211, 33);
+$m->addServer('mem2.domain.com', 11211, 67);
 ?>
 ```
 

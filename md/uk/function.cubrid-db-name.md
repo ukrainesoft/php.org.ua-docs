@@ -42,14 +42,14 @@ cubrid_db_name(array $result, int $index): string
 <?php
 error_reporting(E_ALL);
 
-$conn = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
-$db_list = cubrid_list_dbs($conn);
+$conn = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');
+$db_list = cubrid_list_dbs($conn);
 
-$i = 0;
-$cnt = count($db_list);
-while ($i < $cnt) {
-    echo cubrid_db_name($db_list, $i) . "\n";
-    $i++;
+$i = 0;
+$cnt = count($db_list);
+while ($i < $cnt) {
+    echo cubrid_db_name($db_list, $i) . "\n";
+    $i++;
 }
 ?>
 ```

@@ -37,16 +37,16 @@ snmp_set_oid_output_format(int $format): bool
 ```php
 <?php
 
- snmp_read_mib("/usr/share/mibs/netsnmp/NET-SNMP-TC");
+ snmp_read_mib("/usr/share/mibs/netsnmp/NET-SNMP-TC");
 
- // default or SNMP_OID_OUTPUT_MODULE
- print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
+ // default or SNMP_OID_OUTPUT_MODULE
+ print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
 
- snmp_set_oid_output_format(SNMP_OID_OUTPUT_NUMERIC);
- print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
+ snmp_set_oid_output_format(SNMP_OID_OUTPUT_NUMERIC);
+ print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
 
- snmp_set_oid_output_format(SNMP_OID_OUTPUT_FULL);
- print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
+ snmp_set_oid_output_format(SNMP_OID_OUTPUT_FULL);
+ print_r( snmprealwalk('localhost', 'public', 'RFC1213-MIB::sysObjectID') );
 ?>
 ```
 

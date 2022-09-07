@@ -41,7 +41,7 @@ abstract public mysql_xdevapi\CrudOperationSortable::sort(string $sort_expr): my
 ```php
 <?php
 
-$res = $coll->find('job like \'Cavia\'')->sort('age desc', '_id desc')->execute();
+$res = $coll->find('job like \'Cavia\'')->sort('age desc', '_id desc')->execute();
 
 ?>
 ```

@@ -40,37 +40,37 @@ Oid екземпляра, який треба видалити.
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-@cubrid_execute($conn, "DROP TABLE foo");
-cubrid_execute($conn, "CREATE TABLE foo(a int AUTO_INCREMENT, b set(int), c list(int), d char(10))");
-cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3}, {11,22,33,333}, 'a')");
-cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(2, {4,5,7}, {44,55,66,666}, 'b')");
+@cubrid_execute($conn, "DROP TABLE foo");
+cubrid_execute($conn, "CREATE TABLE foo(a int AUTO_INCREMENT, b set(int), c list(int), d char(10))");
+cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3}, {11,22,33,333}, 'a')");
+cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(2, {4,5,7}, {44,55,66,666}, 'b')");
 
-$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
+$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
 
-cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
-$oid = cubrid_current_oid($req);
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
+$oid = cubrid_current_oid($req);
 
-printf("--- Before Drop: ---\n");
-$attr = cubrid_get($conn, $oid);
+printf("--- Before Drop: ---\n");
+$attr = cubrid_get($conn, $oid);
 var_dump($attr);
 
-if (cubrid_drop($conn, $oid)) {
-    cubrid_commit($conn);
-} else {
-    cubrid_rollback($conn);
+if (cubrid_drop($conn, $oid)) {
+    cubrid_commit($conn);
+} else {
+    cubrid_rollback($conn);
 }
 
 cubrid_close_request($req);
 
-$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
+$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);
 
-cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
-$oid = cubrid_current_oid($req);
+cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);
+$oid = cubrid_current_oid($req);
 
-printf("\n--- After Drop: ---\n");
-$attr = cubrid_get($conn, $oid);
+printf("\n--- After Drop: ---\n");
+$attr = cubrid_get($conn, $oid);
 var_dump($attr);
 
 cubrid_close_request($req);

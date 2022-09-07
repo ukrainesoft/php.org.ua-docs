@@ -42,24 +42,24 @@ cubrid_field_seek(resource $result, int $field_offset = 0): bool
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
-$req = cubrid_execute($conn, "SELECT event_code,athlete_code,nation_code,game_date FROM game WHERE host_year=1988 and event_code=20001;");
+$conn = cubrid_connect("localhost", 33000, "demodb");
+$req = cubrid_execute($conn, "SELECT event_code,athlete_code,nation_code,game_date FROM game WHERE host_year=1988 and event_code=20001;");
 
 var_dump(cubrid_fetch_row($req));
 
-cubrid_field_seek($req, 1);
-$field = cubrid_fetch_field($req);
+cubrid_field_seek($req, 1);
+$field = cubrid_fetch_field($req);
 
-printf("\n--- Свойства поля ---\n");
-printf("%-30s %s\n", "имя столбца:", $field->name);
-printf("%-30s %s\n", "имя таблицы:", $field->table);
-printf("%-30s \"%s\"\n", "значение столбца по умолчанию:", $field->def);
-printf("%-30s %d\n", "максимальная длина столбца:", $field->max_length);
-printf("%-30s %d\n", "не может быть NULL:", $field->not_null);
-printf("%-30s %d\n", "является уникальным ключом:", $field->unique_key);
-printf("%-30s %d\n", "является неуникальным ключом:", $field->multiple_key);
-printf("%-30s %d\n", "содержит числовое значение:", $field->numeric);
-printf("%-30s %s\n", "тип столбца:", $field->type);
+printf("\n--- Свойства поля ---\n");
+printf("%-30s %s\n", "имя столбца:", $field->name);
+printf("%-30s %s\n", "имя таблицы:", $field->table);
+printf("%-30s \"%s\"\n", "значение столбца по умолчанию:", $field->def);
+printf("%-30s %d\n", "максимальная длина столбца:", $field->max_length);
+printf("%-30s %d\n", "не может быть NULL:", $field->not_null);
+printf("%-30s %d\n", "является уникальным ключом:", $field->unique_key);
+printf("%-30s %d\n", "является неуникальным ключом:", $field->multiple_key);
+printf("%-30s %d\n", "содержит числовое значение:", $field->numeric);
+printf("%-30s %s\n", "тип столбца:", $field->type);
 
 cubrid_close_request($req);
 

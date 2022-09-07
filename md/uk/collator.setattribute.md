@@ -52,12 +52,12 @@ collator_set_attribute(Collator $object, int $attribute, int $value): bool
 
 ```php
 <?php
-$coll = collator_create( 'en_CA' );
-$val  = collator_get_attribute( $coll, Collator::NUMERIC_COLLATION );
-if ($val === false) {
-    // Обработка ошибки.
-} elseif ($val === Collator::ON) {
-    // Делаем что-то полезное.
+$coll = collator_create( 'en_CA' );
+$val  = collator_get_attribute( $coll, Collator::NUMERIC_COLLATION );
+if ($val === false) {
+    // Обработка ошибки.
+} elseif ($val === Collator::ON) {
+    // Делаем что-то полезное.
 }
 ?>
 ```

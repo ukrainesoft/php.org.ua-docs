@@ -43,20 +43,20 @@ public mysql_xdevapi\TableSelect::lockShared(int $lock_waiting_option = ?): mysq
 
 ```php
 <?php
-$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
+$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");
 
-$schema = $session->getSchema("addressbook");
-$table  = $schema->getTable("names");
+$schema = $session->getSchema("addressbook");
+$table  = $schema->getTable("names");
 
 $session->startTransaction();
 
-$result = $table->select('name', 'age')
-  ->lockShared(MYSQLX_LOCK_NOWAIT)
-  ->execute();
+$result = $table->select('name', 'age')
+  ->lockShared(MYSQLX_LOCK_NOWAIT)
+  ->execute();
 
 $session->commit();
 
-$row = $result->fetchAll();
+$row = $result->fetchAll();
 print_r($row);
 ?>
 ```

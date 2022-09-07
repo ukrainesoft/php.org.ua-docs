@@ -40,7 +40,7 @@ public Ds\Vector::get(int $index): mixed
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", "b", "c"]);
+$vector = new \Ds\Vector(["a", "b", "c"]);
 
 var_dump($vector->get(0));
 var_dump($vector->get(1));
@@ -60,7 +60,7 @@ string(1) "c"
 
 ```php
 <?php
-$vector = new \Ds\Vector(["a", "b", "c"]);
+$vector = new \Ds\Vector(["a", "b", "c"]);
 
 var_dump($vector[0]);
 var_dump($vector[1]);

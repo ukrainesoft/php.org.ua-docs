@@ -15,7 +15,7 @@ PDO::pgsqlCopyToArray — Вивантажити дані з таблиці до
 ### Опис
 
 ```methodsynopsis
-public PDO::pgsqlCopyToArray(    string $table_name,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): array|false
+public PDO::pgsqlCopyToArray(    string $table_name,    string $delimiter = "\t",    string $null_as = "\\\\N",    string $fields = ?): array|false
 ```
 
 Вивантажує дані з таблиці `table` в масив, використовуючи роздільник `delimiter` та список полів `fields`

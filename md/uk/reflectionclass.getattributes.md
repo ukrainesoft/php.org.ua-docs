@@ -45,21 +45,21 @@ public ReflectionClass::getAttributes(?string $name = null, int $flags = 0): arr
 ```php
 <?php
 #[Attribute]
-class Fruit {
+class Fruit {
 }
 
 #[Attribute]
-class Red {
+class Red {
 }
 
 #[Fruit]
 #[Red]
-class Apple {
+class Apple {
 }
 
-$class = new ReflectionClass('Apple');
-$attributes = $class->getAttributes();
-print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
+$class = new ReflectionClass('Apple');
+$attributes = $class->getAttributes();
+print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
 ?>
 ```
 
@@ -78,21 +78,21 @@ Array
 ```php
 <?php
 #[Attribute]
-class Fruit {
+class Fruit {
 }
 
 #[Attribute]
-class Red {
+class Red {
 }
 
 #[Fruit]
 #[Red]
-class Apple {
+class Apple {
 }
 
-$class = new ReflectionClass('Apple');
-$attributes = $class->getAttributes('Fruit');
-print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
+$class = new ReflectionClass('Apple');
+$attributes = $class->getAttributes('Fruit');
+print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
 ?>
 ```
 
@@ -109,25 +109,25 @@ Array
 
 ```php
 <?php
-interface Color {
+interface Color {
 }
 
 #[Attribute]
-class Fruit {
+class Fruit {
 }
 
 #[Attribute]
-class Red implements Colour {
+class Red implements Colour {
 }
 
 #[Fruit]
 #[Red]
-class Apple {
+class Apple {
 }
 
-$class = new ReflectionClass('Apple');
-$attributes = $class->getAttributes('Colour', ReflectionAttribute::IS_INSTANCEOF);
-print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
+$class = new ReflectionClass('Apple');
+$attributes = $class->getAttributes('Colour', ReflectionAttribute::IS_INSTANCEOF);
+print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));
 ?>
 ```
 

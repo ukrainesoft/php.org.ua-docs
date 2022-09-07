@@ -41,7 +41,7 @@ abstract public mysql_xdevapi\CrudOperationSkippable::skip(int $skip): mysql_xde
 ```php
 <?php
 
-$res = $coll->find('job like \'Programmatore\'')->limit(1)->skip(3)->sort('age asc')->execute();
+$res = $coll->find('job like \'Programmatore\'')->limit(1)->skip(3)->sort('age asc')->execute();
 
 ?>
 ```

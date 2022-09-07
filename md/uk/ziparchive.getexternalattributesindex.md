@@ -15,7 +15,7 @@ ZipArchive::getExternalAttributesIndex — Витягти зовнішні ат�
 ### Опис
 
 ```methodsynopsis
-public ZipArchive::getExternalAttributesIndex(    int $index,    int &$opsys,    int &$attr,    int $flags = ?): bool
+public ZipArchive::getExternalAttributesIndex(    int $index,    int &$opsys,    int &$attr,    int $flags = ?): bool
 ```
 
 Витягує зовнішні атрибути запису за її індексом.
@@ -50,20 +50,20 @@ public ZipArchive::getExternalAttributesIndex(    int $index,    int &$o
 
 ```php
 <?php
-$zip = new ZipArchive();
-if ($zip->open('test.zip') === TRUE) {
-    for ($idx=0 ; $s = $zip->statIndex($idx) ; $idx++) {
-        if ($zip->extractTo('.', $s['name'])) {
-            if ($zip->getExternalAttributesIndex($idx, $opsys, $attr)
-                && $opsys==ZipArchive::OPSYS_UNIX) {
-               chmod($s['name'], ($attr >> 16) & 0777);
-            }
-        }
-    }
-    $zip->close();
-    echo "готово\n";
-} else {
-    echo "ошибка\n";
+$zip = new ZipArchive();
+if ($zip->open('test.zip') === TRUE) {
+    for ($idx=0 ; $s = $zip->statIndex($idx) ; $idx++) {
+        if ($zip->extractTo('.', $s['name'])) {
+            if ($zip->getExternalAttributesIndex($idx, $opsys, $attr)
+                && $opsys==ZipArchive::OPSYS_UNIX) {
+               chmod($s['name'], ($attr >> 16) & 0777);
+            }
+        }
+    }
+    $zip->close();
+    echo "готово\n";
+} else {
+    echo "ошибка\n";
 }
 ?>
 ```

@@ -8,7 +8,7 @@ title: 'Компіляція модулів, що розділяються за 
 ---
 ## Компіляція модулів, що розділяються за допомогою команди pecl
 
-PECL дозволяє легко створювати модулі PHP, що розділяються. Використовуючи [» команду pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php), виконайте таке:
+PECL дозволяє легко створювати модулі PHP, що розділяються. Використовуючи [» команду pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php), виконайте таке:
 
 $pecl install extname
 

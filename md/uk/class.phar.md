@@ -128,7 +128,7 @@ public setStub(string $stub, int $len = -1): bool
 public startBuffering(): void
 public stopBuffering(): void
 final public static unlinkArchive(string $filename): bool
-final public static webPhar(    ?string $alias = null,    ?string $index = null,    ?string $fileNotFoundScript = null,    array $mimeTypes = [],    ?callable $rewrite = null): void
+final public static webPhar(    ?string $alias = null,    ?string $index = null,    ?string $fileNotFoundScript = null,    array $mimeTypes = [],    ?callable $rewrite = null): void
 
     public __destruct()
 

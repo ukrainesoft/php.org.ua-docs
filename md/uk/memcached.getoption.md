@@ -36,7 +36,7 @@ public Memcached::getOption(int $option): mixed
 
 ```php
 <?php
-$m = new Memcached();
+$m = new Memcached();
 var_dump($m->getOption(Memcached::OPT_COMPRESSION));
 var_dump($m->getOption(Memcached::OPT_POLL_TIMEOUT));
 ?>

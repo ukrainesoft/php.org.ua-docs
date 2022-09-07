@@ -34,8 +34,8 @@ public SimpleXMLIterator::next(): void
 
 ```php
 <?php
-$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
-$xmlIterator->rewind(); // возврат к первому элементу
+$xmlIterator = new SimpleXMLIterator('<books><book>Основы PHP</book><book>Основы XML</book></books>');
+$xmlIterator->rewind(); // возврат к первому элементу
 $xmlIterator->next();
 
 var_dump($xmlIterator->current());

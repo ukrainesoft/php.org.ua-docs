@@ -36,8 +36,8 @@ public ReflectionClass::getProperty(string $name): ReflectionProperty
 
 ```php
 <?php
-$class = new ReflectionClass('ReflectionClass');
-$property = $class->getProperty('name');
+$class = new ReflectionClass('ReflectionClass');
+$property = $class->getProperty('name');
 var_dump($property);
 ?>
 ```

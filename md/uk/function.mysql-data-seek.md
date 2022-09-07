@@ -49,31 +49,31 @@ mysql_data_seek(resource $result, int $row_number): bool
 
 ```php
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
-if (!$link) {
-    die('Ошибка соединения: ' . mysql_error());
+$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+if (!$link) {
+    die('Ошибка соединения: ' . mysql_error());
 }
-$db_selected = mysql_select_db('sample_db');
-if (!$db_selected) {
-    die('Не удалось выбрать базу данных: ' . mysql_error());
+$db_selected = mysql_select_db('sample_db');
+if (!$db_selected) {
+    die('Не удалось выбрать базу данных: ' . mysql_error());
 }
-$query = 'SELECT last_name, first_name FROM friends';
-$result = mysql_query($query);
-if (!$result) {
-    die('Ошибка запроса: ' . mysql_error());
+$query = 'SELECT last_name, first_name FROM friends';
+$result = mysql_query($query);
+if (!$result) {
+    die('Ошибка запроса: ' . mysql_error());
 }
-/* получение рядов в обратном порядке */
-for ($i = mysql_num_rows($result) - 1; $i >= 0; $i--) {
-    if (!mysql_data_seek($result, $i)) {
-        echo "Не удалось переместиться к ряду $i: " . mysql_error() . "\n";
-        continue;
-    }
+/* получение рядов в обратном порядке */
+for ($i = mysql_num_rows($result) - 1; $i >= 0; $i--) {
+    if (!mysql_data_seek($result, $i)) {
+        echo "Не удалось переместиться к ряду $i: " . mysql_error() . "\n";
+        continue;
+    }
 
-    if (!($row = mysql_fetch_assoc($result))) {
-        continue;
-    }
+    if (!($row = mysql_fetch_assoc($result))) {
+        continue;
+    }
 
-    echo $row['last_name'] . ' ' . $row['first_name'] . "<br />\n";
+    echo $row['last_name'] . ' ' . $row['first_name'] . "<br />\n";
 }
 
 mysql_free_result($result);

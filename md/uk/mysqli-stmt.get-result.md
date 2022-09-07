@@ -55,25 +55,25 @@ mysqli_stmt_get_result(mysqli_stmt $statement): mysqli_result|false
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, Population, Continent FROM Country WHERE Continent=? ORDER BY Name LIMIT 1";
+$query = "SELECT Name, Population, Continent FROM Country WHERE Continent=? ORDER BY Name LIMIT 1";
 
-$stmt = $mysqli->prepare($query);
-$stmt->bind_param("s", $continent);
+$stmt = $mysqli->prepare($query);
+$stmt->bind_param("s", $continent);
 
-$continentList = array('Europe', 'Africa', 'Asia', 'North America');
+$continentList = array('Europe', 'Africa', 'Asia', 'North America');
 
-foreach ($continentList as $continent) {
-    $stmt->execute();
-    $result = $stmt->get_result();
-    while ($row = $result->fetch_array(MYSQLI_NUM)) {
-        foreach ($row as $r) {
-            print "$r ";
-        }
-        print "\n";
-    }
+foreach ($continentList as $continent) {
+    $stmt->execute();
+    $result = $stmt->get_result();
+    while ($row = $result->fetch_array(MYSQLI_NUM)) {
+        foreach ($row as $r) {
+            print "$r ";
+        }
+        print "\n";
+    }
 }
 ```
 
@@ -82,25 +82,25 @@ foreach ($continentList as $continent) {
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-$query = "SELECT Name, Population, Continent FROM Country WHERE Continent=? ORDER BY Name LIMIT 1";
+$query = "SELECT Name, Population, Continent FROM Country WHERE Continent=? ORDER BY Name LIMIT 1";
 
-$stmt = mysqli_prepare($link, $query);
-mysqli_stmt_bind_param($stmt, "s", $continent);
+$stmt = mysqli_prepare($link, $query);
+mysqli_stmt_bind_param($stmt, "s", $continent);
 
-$continentList= array('Europe', 'Africa', 'Asia', 'North America');
+$continentList= array('Europe', 'Africa', 'Asia', 'North America');
 
-foreach ($continentList as $continent) {
-    mysqli_stmt_execute($stmt);
-    $result = mysqli_stmt_get_result($stmt);
-    while ($row = mysqli_fetch_array($result, MYSQLI_NUM)) {
-        foreach ($row as $r) {
-            print "$r ";
-        }
-        print "\n";
-    }
+foreach ($continentList as $continent) {
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+    while ($row = mysqli_fetch_array($result, MYSQLI_NUM)) {
+        foreach ($row as $r) {
+            print "$r ";
+        }
+        print "\n";
+    }
 }
 ```
 

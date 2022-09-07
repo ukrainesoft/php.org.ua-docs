@@ -36,9 +36,9 @@ public SyncReaderWriter::writelock(int $wait = -1): bool
 
 ```php
 <?php
-$readwrite = new SyncReaderWriter("FileCacheLock");
+$readwrite = new SyncReaderWriter("FileCacheLock");
 $readwrite->writelock();
-/* ... */
+/* ... */
 $readwrite->writeunlock();
 ?>
 ```

@@ -48,20 +48,20 @@ db2_fetch_object(resource $stmt, int $row_number = -1): object
 
 ```php
 <?php
-$conn = db2_connect($database, $user, $password);
+$conn = db2_connect($database, $user, $password);
 
-$sql = "SELECT breed, RTRIM(name) AS name
-    FROM animals
-    WHERE id = ?";
+$sql = "SELECT breed, RTRIM(name) AS name
+    FROM animals
+    WHERE id = ?";
 
-if ($conn) {
-    $stmt = db2_prepare($conn, $sql);
-    db2_execute($stmt, array(0));
+if ($conn) {
+    $stmt = db2_prepare($conn, $sql);
+    db2_execute($stmt, array(0));
 
-    while ($pet = db2_fetch_object($stmt)) {
-        echo "Иди сюда, {$pet->NAME}, мой маленький {$pet->BREED}!";
-    }
-    db2_close($conn);
+    while ($pet = db2_fetch_object($stmt)) {
+        echo "Иди сюда, {$pet->NAME}, мой маленький {$pet->BREED}!";
+    }
+    db2_close($conn);
 }
 ?>
 ```

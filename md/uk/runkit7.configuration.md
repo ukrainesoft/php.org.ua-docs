@@ -29,17 +29,17 @@ title: Налаштування під час виконання
 
 ```php
 <?php
-function show_values() {
-  echo "Foo is $_FOO\n";
-  echo "Bar is $_BAR\n";
-  echo "Baz is $_BAZ\n";
+function show_values() {
+  echo "Foo is $_FOO\n";
+  echo "Bar is $_BAR\n";
+  echo "Baz is $_BAZ\n";
 }
 
-$_FOO = 'foo';
-$_BAR = 'bar';
-$_BAZ = 'baz';
+$_FOO = 'foo';
+$_BAR = 'bar';
+$_BAZ = 'baz';
 
-/* Отобразит foo и bar, но не baz */
+/* Отобразит foo и bar, но не baz */
 show_values();
 ?>
 ```

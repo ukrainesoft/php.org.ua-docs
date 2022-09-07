@@ -49,13 +49,13 @@ public
 
 ```php
 <?php
-$zookeeper = new Zookeeper('locahost:2181');
-$path = '/zookeeper';
-$r = $zookeeper->getchildren($path);
-if ($r)
-  var_dump($r);
+$zookeeper = new Zookeeper('locahost:2181');
+$path = '/zookeeper';
+$r = $zookeeper->getchildren($path);
+if ($r)
+  var_dump($r);
 else
-  echo 'Ошибка';
+  echo 'Ошибка';
 ?>
 ```
 

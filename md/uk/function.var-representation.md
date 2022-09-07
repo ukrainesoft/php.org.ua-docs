@@ -40,9 +40,9 @@ var_representation(mixed $value, int $flags = 0): string
 
 ```php
 <?php
-$a = [1, 2, ['key' => 'value']];
-echo var_representation($a), "\n";
-echo var_representation($a, VAR_REPRESENTATION_SINGLE_LINE), "\n";
+$a = [1, 2, ['key' => 'value']];
+echo var_representation($a), "\n";
+echo var_representation($a, VAR_REPRESENTATION_SINGLE_LINE), "\n";
 ?>
 ```
 
@@ -63,7 +63,7 @@ echo var_representation($a, VAR_REPRESENTATION_SINGLE_LINE), "\n";
 
 ```php
 <?php
-echo var_representation("Content-Length: 123\r\n");
+echo var_representation("Content-Length: 123\r\n");
 ```
 
 Результат виконання цього прикладу:
@@ -76,11 +76,11 @@ echo var_representation("Content-Length: 123\r\n");
 
 ```php
 <?php
-$person = new stdClass;
-$person->name = 'ElePHPant ElePHPantsdotter';
-$person->website = 'https://php.net/elephpant.php';
+$person = new stdClass;
+$person->name = 'ElePHPant ElePHPantsdotter';
+$person->website = 'https://php.net/elephpant.php';
 
-echo var_representation($person);
+echo var_representation($person);
 ```
 
 Результат виконання цього прикладу:
@@ -96,10 +96,10 @@ echo var_representation($person);
 
 ```php
 <?php
-class A { public $var; }
-$a = new A;
-$a->var = 5;
-echo var_representation($a);
+class A { public $var; }
+$a = new A;
+$a->var = 5;
+echo var_representation($a);
 ?>
 ```
 
@@ -115,28 +115,28 @@ echo var_representation($a);
 
 ```php
 <?php
-class A
+class A
 {
-    public $var1;
-    public $var2;
+    public $var1;
+    public $var2;
 
-    public static function __set_state($an_array)
-    {
-        $obj = new A;
-        $obj->var1 = $an_array['var1'];
-        $obj->var2 = $an_array['var2'];
-        return $obj;
-    }
+    public static function __set_state($an_array)
+    {
+        $obj = new A;
+        $obj->var1 = $an_array['var1'];
+        $obj->var2 = $an_array['var2'];
+        return $obj;
+    }
 }
 
-$a = new A;
-$a->var1 = 5;
-$a->var2 = 'foo';
+$a = new A;
+$a->var1 = 5;
+$a->var2 = 'foo';
 
-eval('$b = ' . var_representation($a) . ';'); // $b = \A::__set_state([
-                                              //   'var1' => 5,
-                                              //   'var2' => 'foo',
-                                              // ]);
+eval('$b = ' . var_representation($a) . ';'); // $b = \A::__set_state([
+                                              //   'var1' => 5,
+                                              //   'var2' => 'foo',
+                                              // ]);
 var_dump($b);
 ?>
 ```

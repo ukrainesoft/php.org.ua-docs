@@ -40,13 +40,13 @@ public Imagick::rotationalBlurImage(float $angle, int $channel = Imagick::CHANNE
 
 ```php
 <?php
-function rotationalBlurImage($imagePath) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->rotationalBlurImage(3);
-    $imagick->rotationalBlurImage(5);
-    $imagick->rotationalBlurImage(7);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function rotationalBlurImage($imagePath) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->rotationalBlurImage(3);
+    $imagick->rotationalBlurImage(5);
+    $imagick->rotationalBlurImage(7);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

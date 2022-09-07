@@ -51,14 +51,14 @@ dbase_numrecords(resource $database): int
 ```php
 <?php
 
-// открываем в режиме для чтения
-$db = dbase_open('/tmp/test.dbf', 0);
+// открываем в режиме для чтения
+$db = dbase_open('/tmp/test.dbf', 0);
 
-if ($db) {
-  $record_numbers = dbase_numrecords($db);
-  for ($i = 1; $i <= $record_numbers; $i++) {
-      //выполнение каких-либо действий с записью
-  }
+if ($db) {
+  $record_numbers = dbase_numrecords($db);
+  for ($i = 1; $i <= $record_numbers; $i++) {
+      //выполнение каких-либо действий с записью
+  }
 }
 
 ?>

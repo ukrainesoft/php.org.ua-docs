@@ -14,21 +14,21 @@ title: Нові можливості
 
 ```php
 <?php
-const ONE = 1;
-const TWO = ONE * 2;
+const ONE = 1;
+const TWO = ONE * 2;
 
-class C {
-    const THREE = TWO + 1;
-    const ONE_THIRD = ONE / self::THREE;
-    const SENTENCE = 'Значение константы THREE - '.self::THREE;
+class C {
+    const THREE = TWO + 1;
+    const ONE_THIRD = ONE / self::THREE;
+    const SENTENCE = 'Значение константы THREE - '.self::THREE;
 
-    public function f($a = ONE + self::THREE) {
-        return $a;
-    }
+    public function f($a = ONE + self::THREE) {
+        return $a;
+    }
 }
 
-echo (new C)->f()."\n";
-echo C::SENTENCE;
+echo (new C)->f()."\n";
+echo C::SENTENCE;
 ?>
 ```
 
@@ -43,9 +43,9 @@ echo C::SENTENCE;
 
 ```php
 <?php
-const ARR = ['a', 'b'];
+const ARR = ['a', 'b'];
 
-echo ARR[0];
+echo ARR[0];
 ?>
 ```
 
@@ -61,17 +61,17 @@ a
 
 ```php
 <?php
-function f($req, $opt = null, ...$params) {
-    // $params - Масив, содержащий все остальные аргументы.
-    printf('$req: %d; $opt: %d; количество параметров: %d'."\n",
-           $req, $opt, count($params));
+function f($req, $opt = null, ...$params) {
+    // $params - Масив, содержащий все остальные аргументы.
+    printf('$req: %d; $opt: %d; количество параметров: %d'."\n",
+           $req, $opt, count($params));
 }
 
 f(1);
-f(1, 2);
-f(1, 2, 3);
-f(1, 2, 3, 4);
-f(1, 2, 3, 4, 5);
+f(1, 2);
+f(1, 2, 3);
+f(1, 2, 3, 4);
+f(1, 2, 3, 4, 5);
 ?>
 ```
 
@@ -91,12 +91,12 @@ $req: 1; $opt: 2; количество параметров: 3
 
 ```php
 <?php
-function add($a, $b, $c) {
-    return $a + $b + $c;
+function add($a, $b, $c) {
+    return $a + $b + $c;
 }
 
-$operators = [2, 3];
-echo add(1, ...$operators);
+$operators = [2, 3];
+echo add(1, ...$operators);
 ?>
 ```
 
@@ -112,12 +112,12 @@ echo add(1, ...$operators);
 
 ```php
 <?php
-printf("2 ** 3 ==      %d\n", 2 ** 3);
-printf("2 ** 3 ** 2 == %d\n", 2 ** 3 ** 2);
+printf("2 ** 3 ==      %d\n", 2 ** 3);
+printf("2 ** 3 ** 2 == %d\n", 2 ** 3 ** 2);
 
-$a = 2;
-$a **= 3;
-printf("a ==           %d\n", $a);
+$a = 2;
+$a **= 3;
+printf("a ==           %d\n", $a);
 ?>
 ```
 
@@ -135,17 +135,17 @@ a ==           8
 
 ```php
 <?php
-namespace Name\Space {
-    const FOO = 42;
-    function f() { echo __FUNCTION__."\n"; }
+namespace Name\Space {
+    const FOO = 42;
+    function f() { echo __FUNCTION__."\n"; }
 }
 
-namespace {
-    use const Name\Space\FOO;
-    use function Name\Space\f;
+namespace {
+    use const Name\Space\FOO;
+    use function Name\Space\f;
 
-    echo FOO."\n";
-    f();
+    echo FOO."\n";
+    f();
 }
 ?>
 ```
@@ -181,17 +181,17 @@ Name\Space\f
 
 ```php
 <?php
-$a = gmp_init(42);
-$b = gmp_init(17);
+$a = gmp_init(42);
+$b = gmp_init(17);
 
-if (version_compare(PHP_VERSION, '5.6', '<')) {
-    echo gmp_intval(gmp_add($a, $b)), PHP_EOL;
-    echo gmp_intval(gmp_add($a, 17)), PHP_EOL;
-    echo gmp_intval(gmp_add(42, $b)), PHP_EOL;
-} else {
-    echo $a + $b, PHP_EOL;
-    echo $a + 17, PHP_EOL;
-    echo 42 + $b, PHP_EOL;
+if (version_compare(PHP_VERSION, '5.6', '<')) {
+    echo gmp_intval(gmp_add($a, $b)), PHP_EOL;
+    echo gmp_intval(gmp_add($a, 17)), PHP_EOL;
+    echo gmp_intval(gmp_add(42, $b)), PHP_EOL;
+} else {
+    echo $a + $b, PHP_EOL;
+    echo $a + 17, PHP_EOL;
+    echo 42 + $b, PHP_EOL;
 }
 ?>
 ```
@@ -210,12 +210,12 @@ if (version_compare(PHP_VERSION, '5.6', '<')) {
 
 ```php
 <?php
-$expected  = crypt('12345', '$2a$07$usesomesillystringforsalt$');
-$correct   = crypt('12345', '$2a$07$usesomesillystringforsalt$');
-$incorrect = crypt('1234',  '$2a$07$usesomesillystringforsalt$');
+$expected  = crypt('12345', '$2a$07$usesomesillystringforsalt$');
+$correct   = crypt('12345', '$2a$07$usesomesillystringforsalt$');
+$incorrect = crypt('1234',  '$2a$07$usesomesillystringforsalt$');
 
-var_dump(hash_equals($expected, $correct));
-var_dump(hash_equals($expected, $incorrect));
+var_dump(hash_equals($expected, $correct));
+var_dump(hash_equals($expected, $incorrect));
 ?>
 ```
 
@@ -232,21 +232,21 @@ bool(false)
 
 ```php
 <?php
-class C {
-    private $prop;
+class C {
+    private $prop;
 
-    public function __construct($val) {
-        $this->prop = $val;
-    }
+    public function __construct($val) {
+        $this->prop = $val;
+    }
 
-    public function __debugInfo() {
-        return [
-            'propSquared' => $this->prop ** 2,
-        ];
-    }
+    public function __debugInfo() {
+        return [
+            'propSquared' => $this->prop ** 2,
+        ];
+    }
 }
 
-var_dump(new C(42));
+var_dump(new C(42));
 ?>
 ```
 
@@ -261,7 +261,7 @@ object(C)#1 (1) {
 
 ### Алгоритм хешування gost-crypto
 
-Доданий алгоритм хешування `gost-crypto`. Він реалізує функцію хешування GOST, що використовується в таблицях CryptoPro S-box, визначених у [» RFC 4357, секция 11.2](http://www.faqs.org/rfcs/rfc4357)
+Доданий алгоритм хешування `gost-crypto`. Він реалізує функцію хешування GOST, що використовується в таблицях CryptoPro S-box, визначених у [» RFC 4357, секция 11.2](http://www.faqs.org/rfcs/rfc4357)
 
 ### Поліпшення SSL/TLS
 

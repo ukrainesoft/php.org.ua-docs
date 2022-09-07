@@ -53,19 +53,19 @@ ftp_rawlist(FTP\Connection $ftp, string $directory, bool $recursive = false): ar
 ```php
 <?php
 
-// установка соединения
-$ftp = ftp_connect($ftp_server);
+// установка соединения
+$ftp = ftp_connect($ftp_server);
 
-// проверка имени пользователя и пароля
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// проверка имени пользователя и пароля
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// получение списка файлов директории /
-$buff = ftp_rawlist($ftp, '/');
+// получение списка файлов директории /
+$buff = ftp_rawlist($ftp, '/');
 
-// закрытие соединения
+// закрытие соединения
 ftp_close($ftp);
 
-// вывод буфера
+// вывод буфера
 var_dump($buff);
 ?>
 ```

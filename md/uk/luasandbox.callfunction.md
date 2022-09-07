@@ -47,11 +47,11 @@ public LuaSandbox::callFunction(string $name, mixed ...$args): array|bool
 ```php
 <?php
 
-// создание нового LuaSandbox
-$sandbox = new LuaSandbox();
+// создание нового LuaSandbox
+$sandbox = new LuaSandbox();
 
-// Вызов Lua-функции string.match
-$captures = $sandbox->callFunction( 'string.match', $string, $pattern );
+// Вызов Lua-функции string.match
+$captures = $sandbox->callFunction( 'string.match', $string, $pattern );
 
 ?>
 ```

@@ -47,24 +47,24 @@ public DOMDocument::saveXML(?DOMNode $node = null, int $options = 0): string|fal
 ```php
 <?php
 
-$doc = new DOMDocument('1.0');
-// мы хотим красивый вывод
-$doc->formatOutput = true;
+$doc = new DOMDocument('1.0');
+// мы хотим красивый вывод
+$doc->formatOutput = true;
 
-$root = $doc->createElement('book');
-$root = $doc->appendChild($root);
+$root = $doc->createElement('book');
+$root = $doc->appendChild($root);
 
-$title = $doc->createElement('title');
-$title = $root->appendChild($title);
+$title = $doc->createElement('title');
+$title = $root->appendChild($title);
 
-$text = $doc->createTextNode('Это заголовок');
-$text = $title->appendChild($text);
+$text = $doc->createTextNode('Это заголовок');
+$text = $title->appendChild($text);
 
-echo "Сохранение всего документа:\n";
-echo $doc->saveXML() . "\n";
+echo "Сохранение всего документа:\n";
+echo $doc->saveXML() . "\n";
 
-echo "Сохранение только заголовка:\n";
-echo $doc->saveXML($title);
+echo "Сохранение только заголовка:\n";
+echo $doc->saveXML($title);
 
 ?>
 ```

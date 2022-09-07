@@ -37,12 +37,12 @@ abstract publicYaf_Action_Abstract::execute(mixed ...$args): mixed
 ```php
 <?php
 /**
- * Пример контроллера
- */
-class ProductController extends Yaf_Controller_Abstract {
-      protected $actions = array(
-          "index" => "actions/Index.php",
-      );
+ * Пример контроллера
+ */
+class ProductController extends Yaf_Controller_Abstract {
+      protected $actions = array(
+          "index" => "actions/Index.php",
+      );
 }
 ?>
 ```
@@ -52,13 +52,13 @@ class ProductController extends Yaf_Controller_Abstract {
 ```php
 <?php
 /**
- * ListAction
- */
-class ListAction extends Yaf_Action_Abstract {
-     public function execute ($name, $id) {
-         assert($name == $this->getRequest()->getParam("name"));
-         assert($id   == $this->getRequest()->getParam("id"));
-     }
+ * ListAction
+ */
+class ListAction extends Yaf_Action_Abstract {
+     public function execute ($name, $id) {
+         assert($name == $this->getRequest()->getParam("name"));
+         assert($id   == $this->getRequest()->getParam("id"));
+     }
 }
 ?>
 ```

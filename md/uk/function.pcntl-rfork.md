@@ -49,14 +49,14 @@ pcntl_rfork(int $flags, int $signal = 0): int
 ```php
 <?php
 
-$pid = pcntl_rfork(RFNOWAIT|RFTSIGZMB, SIGUSR1);
-if ($pid > 0) {
-  // Родительский процесс.
-  var_dump($pid);
-} else {
-  // Дочерний процесс.
-  var_dump($pid);
-  sleep(2); // поскольку дочерний процесс не ждёт, мы видим его "pid".
+$pid = pcntl_rfork(RFNOWAIT|RFTSIGZMB, SIGUSR1);
+if ($pid > 0) {
+  // Родительский процесс.
+  var_dump($pid);
+} else {
+  // Дочерний процесс.
+  var_dump($pid);
+  sleep(2); // поскольку дочерний процесс не ждёт, мы видим его "pid".
 }
 ?>
 ```

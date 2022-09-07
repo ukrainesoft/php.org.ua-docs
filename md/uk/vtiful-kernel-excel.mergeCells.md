@@ -40,13 +40,13 @@ public Vtiful\Kernel\Excel::mergeCells(string $scope, string $data)
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$excel = new \Vtiful\Kernel\Excel($config);
+$excel = new \Vtiful\Kernel\Excel($config);
 
 $excel->fileName("test.xlsx")
-        ->mergeCells('A1:C1', 'Merge cells')
-        ->output();
+        ->mergeCells('A1:C1', 'Merge cells')
+        ->output();
 ```

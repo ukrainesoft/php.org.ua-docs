@@ -41,17 +41,17 @@ public SimpleXMLElement::getDocNamespaces(bool $recursive = false, bool $fromRoo
 ```php
 <?php
 
-$xml = <<<XML
-<?xml version="1.0" standalone="yes"?>
-<people xmlns:p="http://example.org/ns">
-    <p:person id="1">John Doe</p:person>
-    <p:person id="2">Susie Q. Public</p:person>
+$xml = <<<XML
+<?xml version="1.0" standalone="yes"?>
+<people xmlns:p="http://example.org/ns">
+    <p:person id="1">John Doe</p:person>
+    <p:person id="2">Susie Q. Public</p:person>
 </people>
 XML;
 
-$sxe = new SimpleXMLElement($xml);
+$sxe = new SimpleXMLElement($xml);
 
-$namespaces = $sxe->getDocNamespaces();
+$namespaces = $sxe->getDocNamespaces();
 var_dump($namespaces);
 
 ?>
@@ -71,19 +71,19 @@ array(1) {
 ```php
 <?php
 
-$xml = <<<XML
-<?xml version="1.0" standalone="yes"?>
-<people xmlns:p="http://example.org/ns" xmlns:t="http://example.org/test">
-    <p:person t:id="1">John Doe</p:person>
-    <p:person t:id="2" a:addr="123 Street" xmlns:a="http://example.org/addr">
-        Susie Q. Public
-    </p:person>
+$xml = <<<XML
+<?xml version="1.0" standalone="yes"?>
+<people xmlns:p="http://example.org/ns" xmlns:t="http://example.org/test">
+    <p:person t:id="1">John Doe</p:person>
+    <p:person t:id="2" a:addr="123 Street" xmlns:a="http://example.org/addr">
+        Susie Q. Public
+    </p:person>
 </people>
 XML;
 
-$sxe = new SimpleXMLElement($xml);
+$sxe = new SimpleXMLElement($xml);
 
-$namespaces = $sxe->getDocNamespaces(TRUE);
+$namespaces = $sxe->getDocNamespaces(TRUE);
 var_dump($namespaces);
 
 ?>

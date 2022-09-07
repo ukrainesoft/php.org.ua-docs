@@ -36,13 +36,13 @@ public SplObjectStorage::addAll(SplObjectStorage $storage): int
 
 ```php
 <?php
-$o = new StdClass;
-$a = new SplObjectStorage();
-$a[$o] = "hello";
+$o = new StdClass;
+$a = new SplObjectStorage();
+$a[$o] = "hello";
 
-$b = new SplObjectStorage();
+$b = new SplObjectStorage();
 $b->addAll($a);
-echo $b[$o]."\n";
+echo $b[$o]."\n";
 ?>
 ```
 

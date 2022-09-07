@@ -46,7 +46,7 @@ var_export(mixed $value, bool $return = false): ?string
 
 ```php
 <?php
-$a = array (1, 2, array ("a", "b", "c"));
+$a = array (1, 2, array ("a", "b", "c"));
 var_export($a);
 ?>
 ```
@@ -69,9 +69,9 @@ array (
 ```php
 <?php
 
-$b = 3.1;
-$v = var_export($b, true);
-echo $v;
+$b = 3.1;
+$v = var_export($b, true);
+echo $v;
 
 ?>
 ```
@@ -86,9 +86,9 @@ echo $v;
 
 ```php
 <?php
-$person = new stdClass;
-$person->name = 'ElePHPant ElePHPantsdotter';
-$person->website = 'https://php.net/elephpant.php';
+$person = new stdClass;
+$person->name = 'ElePHPant ElePHPantsdotter';
+$person->website = 'https://php.net/elephpant.php';
 
 var_export($person);
 ```
@@ -106,9 +106,9 @@ var_export($person);
 
 ```php
 <?php
-class A { public $var; }
-$a = new A;
-$a->var = 5;
+class A { public $var; }
+$a = new A;
+$a->var = 5;
 var_export($a);
 ?>
 ```
@@ -125,28 +125,28 @@ A::__set_state(array(
 
 ```php
 <?php
-class A
+class A
 {
-    public $var1;
-    public $var2;
+    public $var1;
+    public $var2;
 
-    public static function __set_state($an_array)
-    {
-        $obj = new A;
-        $obj->var1 = $an_array['var1'];
-        $obj->var2 = $an_array['var2'];
-        return $obj;
-    }
+    public static function __set_state($an_array)
+    {
+        $obj = new A;
+        $obj->var1 = $an_array['var1'];
+        $obj->var2 = $an_array['var2'];
+        return $obj;
+    }
 }
 
-$a = new A;
-$a->var1 = 5;
-$a->var2 = 'foo';
+$a = new A;
+$a->var1 = 5;
+$a->var2 = 'foo';
 
-eval('$b = ' . var_export($a, true) . ';'); // $b = A::__set_state(array(
-                                            //    'var1' => 5,
-                                            //    'var2' => 'foo',
-                                            // ));
+eval('$b = ' . var_export($a, true) . ';'); // $b = A::__set_state(array(
+                                            //    'var1' => 5,
+                                            //    'var2' => 'foo',
+                                            // ));
 var_dump($b);
 ?>
 ```

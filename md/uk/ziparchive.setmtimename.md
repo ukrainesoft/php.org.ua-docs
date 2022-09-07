@@ -46,14 +46,14 @@ public ZipArchive::setMtimeName(string $name, int $timestamp, int $flags = 0): b
 
 ```php
 <?php
-$zip = new ZipArchive();
-if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
-    $zip->addFile('text.txt');
-    $zip->setMtimeName('text.txt', mktime(0,0,0,12,25,2019));
-    $zip->close();
-    echo "Ok\n";
-} else {
-    echo "KO\n";
+$zip = new ZipArchive();
+if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {
+    $zip->addFile('text.txt');
+    $zip->setMtimeName('text.txt', mktime(0,0,0,12,25,2019));
+    $zip->close();
+    echo "Ok\n";
+} else {
+    echo "KO\n";
 }
 ?>
 ```

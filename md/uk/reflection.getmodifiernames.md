@@ -36,30 +36,30 @@ public static Reflection::getModifierNames(int $modifiers): array
 
 ```php
 <?php
-class Testing
+class Testing
 {
-    final public static function foo()
-    {
-        return;
-    }
+    final public static function foo()
+    {
+        return;
+    }
 
-    public function bar()
-    {
-        return;
-    }
+    public function bar()
+    {
+        return;
+    }
 }
 
-$foo = new ReflectionMethod('Testing', 'foo');
+$foo = new ReflectionMethod('Testing', 'foo');
 
-echo "Модификаторы для метода foo():\n";
-echo $foo->getModifiers() . "\n";
-echo implode(' ', Reflection::getModifierNames($foo->getModifiers())) . "\n";
+echo "Модификаторы для метода foo():\n";
+echo $foo->getModifiers() . "\n";
+echo implode(' ', Reflection::getModifierNames($foo->getModifiers())) . "\n";
 
-$bar = new ReflectionMethod('Testing', 'bar');
+$bar = new ReflectionMethod('Testing', 'bar');
 
-echo "Модификаторы для метода bar():\n";
-echo $bar->getModifiers() . "\n";
-echo implode(' ', Reflection::getModifierNames($bar->getModifiers()));
+echo "Модификаторы для метода bar():\n";
+echo $bar->getModifiers() . "\n";
+echo implode(' ', Reflection::getModifierNames($bar->getModifiers()));
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

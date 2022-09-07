@@ -40,9 +40,9 @@ GMP число у разі успішного виконання або \*\*`fal
 
 ```php
 <?php
-echo gmp_invert("5", "10"); // нет инверсии, не выводит ничего, результат FALSE
-$invert = gmp_invert("5", "11");
-echo gmp_strval($invert) . "\n";
+echo gmp_invert("5", "10"); // нет инверсии, не выводит ничего, результат FALSE
+$invert = gmp_invert("5", "11");
+echo gmp_strval($invert) . "\n";
 ?>
 ```
 

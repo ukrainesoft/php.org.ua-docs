@@ -44,11 +44,11 @@ title: Нова функціональність
     
     ```php
     <?php
-    class A {
-         public function method(int $many, string $parameters, $here) {}
+    class A {
+         public function method(int $many, string $parameters, $here) {}
     }
-    class B extends A {
-         public function method(...$everything) {}
+    class B extends A {
+         public function method(...$everything) {}
     }
     ?>
     ```
@@ -57,10 +57,10 @@ title: Нова функціональність
     
     ```php
     <?php
-    class Test {
-         public function create(): static {
-              return new static();
-         }
+    class Test {
+         public function create(): static {
+              return new static();
+         }
     }
     ?>
     ```
@@ -79,18 +79,18 @@ title: Нова функціональність
     
     ```php
     <?php
-    $fn = fn() => throw new Exception('Исключение в стрелочной функции');
-    $user = $session->user ?? throw new Exception('Должен быть пользователь');
+    $fn = fn() => throw new Exception('Исключение в стрелочной функции');
+    $user = $session->user ?? throw new Exception('Должен быть пользователь');
     ```
     
 -   У списках параметрів тепер дозволена необов'язкова завершальна кома.
     
     ```php
     <?php
-    function functionWithLongSignature(
-        Type1 $parameter1,
-        Type2 $parameter2, // <-- Эта запятая теперь разрешена.
-    ) {
+    function functionWithLongSignature(
+        Type1 $parameter1,
+        Type2 $parameter2, // <-- Эта запятая теперь разрешена.
+    ) {
     }
     ```
     
@@ -102,20 +102,20 @@ title: Нова функціональність
     
     ```php
     <?php
-    class ParentClass {
-        private function method1() {}
-        private function method2() {}
-        private static function method3() {}
-        // Выдаёт предупреждение, так как "final" больше не имеет значения:
-        private final function method4() {}
+    class ParentClass {
+        private function method1() {}
+        private function method2() {}
+        private static function method3() {}
+        // Выдаёт предупреждение, так как "final" больше не имеет значения:
+        private final function method4() {}
     }
-    class ChildClass extends ParentClass {
-        // Теперь все следующее разрешено, хотя модификаторы не такие же,
-        // как для закрытых методов в родительском классе.
-        public abstract function method1() {}
-        public static function method2() {}
-        public function method3() {}
-        public function method4() {}
+    class ChildClass extends ParentClass {
+        // Теперь все следующее разрешено, хотя модификаторы не такие же,
+        // как для закрытых методов в родительском классе.
+        public abstract function method1() {}
+        public static function method2() {}
+        public function method3() {}
+        public function method4() {}
     }
     ?>
     ```
@@ -164,7 +164,7 @@ title: Нова функціональність
 
 ### OpenSSL
 
-Додано підтримку синтаксису криптографічних повідомлень (CMS) ([» RFC 5652](http://www.faqs.org/rfcs/rfc5652)), що складається з функцій для шифрування, дешифрування, підпису, перевірки та читання. API схожий на API для функцій PKCS #7 з додаванням нових констант кодування: **`OPENSSL_ENCODING_DER`** **`OPENSSL_ENCODING_SMIME`** і **`OPENSSL_ENCODING_PEM`**
+Додано підтримку синтаксису криптографічних повідомлень (CMS) ([» RFC 5652](http://www.faqs.org/rfcs/rfc5652)), що складається з функцій для шифрування, дешифрування, підпису, перевірки та читання. API схожий на API для функцій PKCS #7 з додаванням нових констант кодування: **`OPENSSL_ENCODING_DER`** **`OPENSSL_ENCODING_SMIME`** і **`OPENSSL_ENCODING_PEM`**
 
 -   [opensslcmsencrypt()](function.openssl-cms-encrypt.md) шифрує повідомлення у файлі із сертифікатами та виводить результат у наданий файл.
 -   [opensslcmsdecrypt()](function.openssl-cms-decrypt.md) розшифровує повідомлення S/MIME у файлі та виводить результати у наданий файл.
@@ -203,8 +203,8 @@ title: Нова функціональність
     
     ```php
     <?php
-    printf("%.*H", (int) ini_get("precision"), $float);
-    printf("%.*H", (int) ini_get("serialize_precision"), $float);
+    printf("%.*H", (int) ini_get("precision"), $float);
+    printf("%.*H", (int) ini_get("serialize_precision"), $float);
     ?>
     ```
     
@@ -212,7 +212,7 @@ title: Нова функціональність
     
     ```php
     <?php
-    $proc = proc_open($command, [['pty'], ['pty'], ['pty']], $pipes);
+    $proc = proc_open($command, [['pty'], ['pty'], ['pty']], $pipes);
     ?>
     ```
     
@@ -220,7 +220,7 @@ title: Нова функціональність
     
     ```php
     <?php
-    $proc = proc_open($command, [['socket'], ['socket'], ['socket']], $pipes);
+    $proc = proc_open($command, [['socket'], ['socket'], ['socket']], $pipes);
     ?>
     ```
     
@@ -232,9 +232,9 @@ title: Нова функціональність
     
     ```php
     <?php
-    // Работает, даже если $excludes пуст:
-    array_diff($array, ...$excludes);
-    // Работает, даже если $array содержит только один Масив:
+    // Работает, даже если $excludes пуст:
+    array_diff($array, ...$excludes);
+    // Работает, даже если $array содержит только один Масив:
     array_intersect(...$arrays);
     ?>
     ```

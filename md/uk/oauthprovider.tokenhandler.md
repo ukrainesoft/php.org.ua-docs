@@ -40,16 +40,16 @@ public OAuthProvider::tokenHandler(callable $callback_function): void
 
 ```php
 <?php
-function tokenHandler($provider) {
+function tokenHandler($provider) {
 
-    if ($provider->token === 'rejected') {
-        return OAUTH_TOKEN_REJECTED;
-    } elseif ($provider->token === 'revoked') {
-        return OAUTH_TOKEN_REVOKED;
-    }
+    if ($provider->token === 'rejected') {
+        return OAUTH_TOKEN_REJECTED;
+    } elseif ($provider->token === 'revoked') {
+        return OAUTH_TOKEN_REVOKED;
+    }
 
-    $provider->token_secret = "the_tokens_secret";
-    return OAUTH_OK;
+    $provider->token_secret = "the_tokens_secret";
+    return OAUTH_OK;
 }
 ?>
 ```

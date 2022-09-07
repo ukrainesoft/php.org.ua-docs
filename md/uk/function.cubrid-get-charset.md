@@ -37,13 +37,13 @@ cubrid_get_charset(resource $conn_identifier): string
 ```php
 <?php
 
-$con = cubrid_connect("localhost", 33000, "demodb");
-if (!$con)
+$con = cubrid_connect("localhost", 33000, "demodb");
+if (!$con)
 {
-    die('Could not connect.');
+    die('Could not connect.');
 }
 
-printf("CUBRID current charset: %s\n", cubrid_get_charset($con));
+printf("CUBRID current charset: %s\n", cubrid_get_charset($con));
 
 ?>
 ```

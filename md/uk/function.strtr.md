@@ -62,9 +62,9 @@ strtr(string $string, array $replace_pairs): string
 
 ```php
 <?php
-//В этой форме strtr() осуществляет побайтное преобразование
-//Таким образом, здесь подразумевается однобайтная кодировка:
-$addr = strtr($addr, "äåö", "aao");
+//В этой форме strtr() осуществляет побайтное преобразование
+//Таким образом, здесь подразумевается однобайтная кодировка:
+$addr = strtr($addr, "äåö", "aao");
 ?>
 ```
 
@@ -74,8 +74,8 @@ $addr = strtr($addr, "äåö", "aao");
 
 ```php
 <?php
-$trans = array("h" => "-", "hello" => "hi", "hi" => "hello");
-echo strtr("hi all, I said hello", $trans);
+$trans = array("h" => "-", "hello" => "hi", "hi" => "hello");
+echo strtr("hi all, I said hello", $trans);
 ?>
 ```
 
@@ -91,10 +91,10 @@ hello all, I said hi
 
 ```php
 <?php
-echo strtr("baab", "ab", "01"),"\n";
+echo strtr("baab", "ab", "01"),"\n";
 
-$trans = array("ab" => "01");
-echo strtr("baab", $trans);
+$trans = array("ab" => "01");
+echo strtr("baab", $trans);
 ?>
 ```
 

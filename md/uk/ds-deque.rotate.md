@@ -36,9 +36,9 @@ public Ds\Deque::rotate(int $rotations): void
 
 ```php
 <?php
-$deque = new \Ds\Deque(["a", "b", "c", "d"]);
+$deque = new \Ds\Deque(["a", "b", "c", "d"]);
 
-$deque->rotate(1);  // Аналогично $a = $sequence->deque(); $deque->push($a);
+$deque->rotate(1);  // Аналогично $a = $sequence->deque(); $deque->push($a);
 print_r($deque);
 
 $deque->rotate(2);

@@ -114,4 +114,4 @@ script -arg1 -arg2 -arg3
 > "InheritConsoleHandles"=dword:00000001
 > ```
 > 
-> Додаткову інформацію щодо цієї проблеми можна знайти в цій [» статті бази знань Microsoft : 321788](http://support.microsoft.com/default.aspx?scid=kb;en-us;321788). У Windows 10 цей параметр змінено на протилежний, і стандартне встановлення Windows 10 підтримує успадковані дескриптори консолі. Це [»  сообщение на форуме Microsoft](https://social.msdn.microsoft.com/Forums/en-US/f19d740d-21c8-4dc2-a9ab-d5c0527e932b/nasty-file-association-regression-bug-in-windows-10-console?forum=windowssdk) надає пояснення.
+> Додаткову інформацію щодо цієї проблеми можна знайти в цій [» статті бази знань Microsoft : 321788](http://support.microsoft.com/default.aspx?scid=kb;en-us;321788). У Windows 10 цей параметр змінено на протилежний, і стандартне встановлення Windows 10 підтримує успадковані дескриптори консолі. Це [»  сообщение на форуме Microsoft](https://social.msdn.microsoft.com/Forums/en-US/f19d740d-21c8-4dc2-a9ab-d5c0527e932b/nasty-file-association-regression-bug-in-windows-10-console?forum=windowssdk) надає пояснення.

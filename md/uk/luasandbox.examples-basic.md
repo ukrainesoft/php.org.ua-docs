@@ -15,44 +15,44 @@ title: Базове використання LuaSandbox
 ```php
 <?php
 
-$sandbox = new LuaSandbox;
-$sandbox->setMemoryLimit( 50 * 1024 * 1024 );
-$sandbox->setCPULimit( 10 );
+$sandbox = new LuaSandbox;
+$sandbox->setMemoryLimit( 50 * 1024 * 1024 );
+$sandbox->setCPULimit( 10 );
 
-// Зарегистрируйте некоторые функции в среде Lua
+// Зарегистрируйте некоторые функции в среде Lua
 
-function frobnosticate( $v ) {
-    return [ $v + 42 ];
+function frobnosticate( $v ) {
+    return [ $v + 42 ];
 }
 
-$sandbox->registerLibrary( 'php', [
-    'frobnosticate' => 'frobnosticate',
-    'output' => function ( $string ) {
-        echo "$string\n";
-    },
-    'error' => function () {
-        throw new LuaSandboxRuntimeError( "Что-то пошло не так" );
-    }
-] );
+$sandbox->registerLibrary( 'php', [
+    'frobnosticate' => 'frobnosticate',
+    'output' => function ( $string ) {
+        echo "$string\n";
+    },
+    'error' => function () {
+        throw new LuaSandboxRuntimeError( "Что-то пошло не так" );
+    }
+] );
 
-// Выполните некоторый код Lua, включая callback-функции PHP и Lua.
+// Выполните некоторый код Lua, включая callback-функции PHP и Lua.
 
-$luaCode = <<<EOF
-php.output( "Привет, мир" );
+$luaCode = <<<EOF
+php.output( "Привет, мир" );
 
-return "Привет", function ( v )
-    return php.frobnosticate( v + 200 )
+return "Привет", function ( v )
+    return php.frobnosticate( v + 200 )
 end
 EOF;
 
-list( $hi, $frob ) = $sandbox->loadString( $luaCode )->call();
-assert( $frob->call( 4000 ) === [ 4242 ] );
+list( $hi, $frob ) = $sandbox->loadString( $luaCode )->call();
+assert( $frob->call( 4000 ) === [ 4242 ] );
 
-// Вызываемые PHP исключения LuaSandboxRuntimeError могут быть пойманы внутри Lua
+// Вызываемые PHP исключения LuaSandboxRuntimeError могут быть пойманы внутри Lua
 
-list( $ok, $message ) = $sandbox->loadString( 'return pcall( php.error )' )->call();
-assert( !$ok );
-assert( $message === 'Что-то пошло не так' );
+list( $ok, $message ) = $sandbox->loadString( 'return pcall( php.error )' )->call();
+assert( !$ok );
+assert( $message === 'Что-то пошло не так' );
 
 ?>
 ```

@@ -15,7 +15,7 @@ socketsendto — Надсилає повідомлення до сокету, н
 ### Опис
 
 ```methodsynopsis
-socket_sendto(    Socket $socket,    string $data,    int $length,    int $flags,    string $address,    ?int $port = null): int|false
+socket_sendto(    Socket $socket,    string $data,    int $length,    int $flags,    string $address,    ?int $port = null): int|false
 ```
 
 Функція **socketsendto()** відправляє `length` байт із буфера `buf` через сокет `socket` до порту `port` на адресі `address`
@@ -67,13 +67,13 @@ IP-адреса віддаленого хоста.
 
 ```php
 <?php
-    $sock = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
+    $sock = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
 
-    $msg = "Пинг !";
-    $len = strlen($msg);
+    $msg = "Пинг !";
+    $len = strlen($msg);
 
-    socket_sendto($sock, $msg, $len, 0, '127.0.0.1', 1223);
-    socket_close($sock);
+    socket_sendto($sock, $msg, $len, 0, '127.0.0.1', 1223);
+    socket_close($sock);
 ?>
 ```
 

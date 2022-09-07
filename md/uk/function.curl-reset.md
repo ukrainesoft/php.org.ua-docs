@@ -42,20 +42,20 @@ curl_reset(CurlHandle $handle): void
 
 ```php
 <?php
-// Создаём обработчик curl
-$ch = curl_init();
+// Создаём обработчик curl
+$ch = curl_init();
 
-// Устанавливаем опцию CURLOPT_USERAGENT
-curl_setopt($ch, CURLOPT_USERAGENT, "My test user-agent");
+// Устанавливаем опцию CURLOPT_USERAGENT
+curl_setopt($ch, CURLOPT_USERAGENT, "My test user-agent");
 
-// Сбрасываем все установленные опции
+// Сбрасываем все установленные опции
 curl_reset($ch);
 
-// Посылаем запрос HTTP
-curl_setopt($ch, CURLOPT_URL, 'http://example.com/');
-curl_exec($ch); // установленный ранее user-agent сброшен
+// Посылаем запрос HTTP
+curl_setopt($ch, CURLOPT_URL, 'http://example.com/');
+curl_exec($ch); // установленный ранее user-agent сброшен
 
-// Закрываем обработчик
+// Закрываем обработчик
 curl_close($ch);
 ?>
 ```

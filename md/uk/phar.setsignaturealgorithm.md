@@ -38,10 +38,10 @@ public Phar::setSignatureAlgorithm(int $algo, ?string $privateKey = null): void
 
 ```php
 <?php
-$private = openssl_get_privatekey(file_get_contents('private.pem'));
-$pkey = '';
-openssl_pkey_export($private, $pkey);
-$p->setSignatureAlgorithm(Phar::OPENSSL, $pkey);
+$private = openssl_get_privatekey(file_get_contents('private.pem'));
+$pkey = '';
+openssl_pkey_export($private, $pkey);
+$p->setSignatureAlgorithm(Phar::OPENSSL, $pkey);
 ?>
 ```
 

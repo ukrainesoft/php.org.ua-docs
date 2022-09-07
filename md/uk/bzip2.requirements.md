@@ -8,4 +8,4 @@ title: Вимоги
 ---
 ## Вимоги
 
-Модуль використовує функції бібліотеки [» bzip2](https://www.sourceware.org/bzip2/) (автор: Julian Seward) та вимагає bzip2/libbzip2 версій >= 1.0.x.
+Модуль використовує функції бібліотеки [» bzip2](https://www.sourceware.org/bzip2/) (автор: Julian Seward) та вимагає bzip2/libbzip2 версій >= 1.0.x.

@@ -75,10 +75,10 @@ public static normalize(string $string, int $form = Normalizer::FORM_C): string|
 
 ## Дивіться також
 
--   [»  Нормализация Unicode](http://unicode.org/reports/tr15/)
--   [»  Нормализация Unicode. FAQ](http://unicode.org/faq/normalization.md)
--   [»  ICU Руководство пользователя - нормализация](https://unicode-org.github.io/icu/userguide/transforms/normalization/)
--   [»  ICU Описание API - нормализация](http://www.icu-project.org/apiref/icu4c/unorm_8h.md)
+-   [»  Нормализация Unicode](http://unicode.org/reports/tr15/)
+-   [»  Нормализация Unicode. FAQ](http://unicode.org/faq/normalization.md)
+-   [»  ICU Руководство пользователя - нормализация](https://unicode-org.github.io/icu/userguide/transforms/normalization/)
+-   [»  ICU Описание API - нормализация](http://www.icu-project.org/apiref/icu4c/unorm_8h.md)
 
 ## Зміст
 

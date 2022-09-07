@@ -52,18 +52,18 @@ public Memcached::getMulti(array $keys, int $flags = ?): mixed
 
 ```php
 <?php
-// Работает с версией модуля 3
+// Работает с версией модуля 3
 
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$items = array(
-    'key1' => 'value1',
-    'key2' => 'value2',
-    'key3' => 'value3'
+$items = array(
+    'key1' => 'value1',
+    'key2' => 'value2',
+    'key3' => 'value3'
 );
 $m->setMulti($items);
-$result = $m->getMulti(array('key1', 'key3', 'badkey'));
+$result = $m->getMulti(array('key1', 'key3', 'badkey'));
 var_dump($result);
 ?>
 ```
@@ -83,19 +83,19 @@ array(2) {
 
 ```php
 <?php
-// Работает с версиями модуля 1 и 2
+// Работает с версиями модуля 1 и 2
 
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$items = array(
-    'key1' => 'value1',
-    'key2' => 'value2',
-    'key3' => 'value3'
+$items = array(
+    'key1' => 'value1',
+    'key2' => 'value2',
+    'key3' => 'value3'
 );
 $m->setMulti($items);
-$result = $m->getMulti(array('key1', 'key3', 'badkey'), $cas);
-var_dump($result, $cas);
+$result = $m->getMulti(array('key1', 'key3', 'badkey'), $cas);
+var_dump($result, $cas);
 ?>
 ```
 
@@ -120,27 +120,27 @@ array(2) {
 
 ```php
 <?php
-// Работает с версией модуля 3
+// Работает с версией модуля 3
 
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$data = array(
-    'foo' => 'foo-data',
-    'bar' => 'bar-data',
-    'baz' => 'baz-data',
-    'lol' => 'lol-data',
-    'kek' => 'kek-data',
+$data = array(
+    'foo' => 'foo-data',
+    'bar' => 'bar-data',
+    'baz' => 'baz-data',
+    'lol' => 'lol-data',
+    'kek' => 'kek-data',
 );
 
-$m->setMulti($data, 3600);
+$m->setMulti($data, 3600);
 
-$keys = array_keys($data);
-$keys[] = 'zoo';
-$got = $m->getMulti($keys, Memcached::GET_PRESERVE_ORDER);
+$keys = array_keys($data);
+$keys[] = 'zoo';
+$got = $m->getMulti($keys, Memcached::GET_PRESERVE_ORDER);
 
-foreach ($got as $k => $v) {
-    echo "$k $v\n";
+foreach ($got as $k => $v) {
+    echo "$k $v\n";
 }
 ?>
 ```
@@ -160,28 +160,28 @@ zoo
 
 ```php
 <?php
-// Работает с версиями модуля 1 и 2
+// Работает с версиями модуля 1 и 2
 
-$m = new Memcached();
-$m->addServer('localhost', 11211);
+$m = new Memcached();
+$m->addServer('localhost', 11211);
 
-$data = array(
-    'foo' => 'foo-data',
-    'bar' => 'bar-data',
-    'baz' => 'baz-data',
-    'lol' => 'lol-data',
-    'kek' => 'kek-data',
+$data = array(
+    'foo' => 'foo-data',
+    'bar' => 'bar-data',
+    'baz' => 'baz-data',
+    'lol' => 'lol-data',
+    'kek' => 'kek-data',
 );
 
-$m->setMulti($data, 3600);
+$m->setMulti($data, 3600);
 
-$null = null;
-$keys = array_keys($data);
-$keys[] = 'zoo';
-$got = $m->getMulti($keys, $null, Memcached::GET_PRESERVE_ORDER);
+$null = null;
+$keys = array_keys($data);
+$keys[] = 'zoo';
+$got = $m->getMulti($keys, $null, Memcached::GET_PRESERVE_ORDER);
 
-foreach ($got as $k => $v) {
-    echo "$k $v\n";
+foreach ($got as $k => $v) {
+    echo "$k $v\n";
 }
 ?>
 ```

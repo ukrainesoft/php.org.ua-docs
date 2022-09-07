@@ -15,7 +15,7 @@ db2statistics — Повертає набір результатів, що мі�
 ### Опис
 
 ```methodsynopsis
-db2_statistics(    resource $connection,    string $qualifier,    string $schema,    string $table-name,    bool $unique): resource
+db2_statistics(    resource $connection,    string $qualifier,    string $schema,    string $table-name,    bool $unique): resource
 ```
 
 Повертає набір результатів, що містить індекс та статистику таблиці.

@@ -40,11 +40,11 @@ mcrypt_enc_get_modes_name(resource $td): string
 
 ```php
 <?php
-$td = mcrypt_module_open (MCRYPT_CAST_256, '', MCRYPT_MODE_CFB, '');
-echo mcrypt_enc_get_modes_name($td). "\n";
+$td = mcrypt_module_open (MCRYPT_CAST_256, '', MCRYPT_MODE_CFB, '');
+echo mcrypt_enc_get_modes_name($td). "\n";
 
-$td = mcrypt_module_open ('cast-256', '', 'ecb', '');
-echo mcrypt_enc_get_modes_name($td). "\n";
+$td = mcrypt_module_open ('cast-256', '', 'ecb', '');
+echo mcrypt_enc_get_modes_name($td). "\n";
 ?>
 ```
 

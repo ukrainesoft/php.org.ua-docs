@@ -38,11 +38,11 @@ Imagick::swirlImage(float $degrees): bool
 
 ```php
 <?php
-function swirlImage($imagePath, $swirl) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->swirlImage($swirl);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function swirlImage($imagePath, $swirl) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->swirlImage($swirl);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

@@ -37,17 +37,17 @@ __halt_compiler(): void
 ```php
 <?php
 
-// открыть указанный файл
-$fp = fopen(__FILE__, 'r');
+// открыть указанный файл
+$fp = fopen(__FILE__, 'r');
 
-// искать в указателе файла данные
-fseek($fp, __COMPILER_HALT_OFFSET__);
+// искать в указателе файла данные
+fseek($fp, __COMPILER_HALT_OFFSET__);
 
-// и вывести их
+// и вывести их
 var_dump(stream_get_contents($fp));
 
-// останавливает работу скрипта
-__halt_compiler(); the installation data (eg. tar, gz, PHP, etc.)
+// останавливает работу скрипта
+__halt_compiler(); the installation data (eg. tar, gz, PHP, etc.)
 ```
 
 ### Примітки

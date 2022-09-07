@@ -15,7 +15,7 @@ imapappend — Додає рядкове повідомлення до вказ�
 ### Опис
 
 ```methodsynopsis
-imap_append(    IMAP\Connection $imap,    string $folder,    string $message,    ?string $options = null,    ?string $internal_date = null): bool
+imap_append(    IMAP\Connection $imap,    string $folder,    string $message,    ?string $options = null,    ?string $internal_date = null): bool
 ```
 
 Додає рядок `message` у вказаний `folder`
@@ -65,21 +65,21 @@ imap_append(    IMAP\Connection $imap,    string $folder,    string 
 
 ```php
 <?php
-$imap = imap_open("{imap.example.org}INBOX.Drafts", "username", "password");
+$imap = imap_open("{imap.example.org}INBOX.Drafts", "username", "password");
 
-$check = imap_check($imap);
-echo "Кол-во сообщений до добавления: ". $check->Nmsgs . "\n";
+$check = imap_check($imap);
+echo "Кол-во сообщений до добавления: ". $check->Nmsgs . "\n";
 
-imap_append($imap, "{imap.example.org}INBOX.Drafts"
-                   , "From: me@example.com\r\n"
-                   . "To: you@example.com\r\n"
-                   . "Subject: test\r\n"
-                   . "\r\n"
-                   . "это проверочное сообщение, пожалуйста, игнорируйте его\r\n"
-                   );
+imap_append($imap, "{imap.example.org}INBOX.Drafts"
+                   , "From: me@example.com\r\n"
+                   . "To: you@example.com\r\n"
+                   . "Subject: test\r\n"
+                   . "\r\n"
+                   . "это проверочное сообщение, пожалуйста, игнорируйте его\r\n"
+                   );
 
-$check = imap_check($imap);
-echo "Кол-во сообщений после добавления : ". $check->Nmsgs . "\n";
+$check = imap_check($imap);
+echo "Кол-во сообщений после добавления : ". $check->Nmsgs . "\n";
 
 imap_close($imap);
 ?>

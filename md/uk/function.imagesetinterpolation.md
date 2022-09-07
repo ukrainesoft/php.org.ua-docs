@@ -68,14 +68,14 @@ imagesetinterpolation(GdImage $image, int $method = IMG_BILINEAR_FIXED): bool
 
 ```php
 <?php
-// Загрузка изображения
-$im = imagecreate(500, 500);
+// Загрузка изображения
+$im = imagecreate(500, 500);
 
-// По умолчанию интерполяция IMG_BILINEAR_FIXED, переключитесь
-// на использование фильтра 'Митчелла':
-imagesetinterpolation($im, IMG_MITCHELL);
+// По умолчанию интерполяция IMG_BILINEAR_FIXED, переключитесь
+// на использование фильтра 'Митчелла':
+imagesetinterpolation($im, IMG_MITCHELL);
 
-// Continue to work with $im ...
+// Continue to work with $im ...
 ?>
 ```
 

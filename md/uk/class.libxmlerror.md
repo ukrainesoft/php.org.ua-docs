@@ -12,7 +12,7 @@ title: Клас libXMLError
 
 ## Вступ
 
-Містить різну інформацію про помилки, що викидаються libxml. Коди помилок описані в офіційній [» xmlError API документации](http://www.xmlsoft.org/html/libxml-xmlerror.md)
+Містить різну інформацію про помилки, що викидаються libxml. Коди помилок описані в офіційній [» xmlError API документации](http://www.xmlsoft.org/html/libxml-xmlerror.md)
 
 ## Огляд класів
 

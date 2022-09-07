@@ -38,7 +38,7 @@ array_rand(array $array, int $num = 1): int|string|array
 
 | Версия | Описание |
 | --- | --- |
-|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
+|  | Внутрішній алгоритм отримання випадкових чисел [изменён](migration71.incompatible.md#migration71.incompatible.rand-srand-aliases) з функції rand бібліотеки libc на генератор на базі [» Вихор Мерсенна](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.md) |
 
 ### Приклади
 
@@ -46,10 +46,10 @@ array_rand(array $array, int $num = 1): int|string|array
 
 ```php
 <?php
-$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
-$rand_keys = array_rand($input, 2);
-echo $input[$rand_keys[0]] . "\n";
-echo $input[$rand_keys[1]] . "\n";
+$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
+$rand_keys = array_rand($input, 2);
+echo $input[$rand_keys[0]] . "\n";
+echo $input[$rand_keys[1]] . "\n";
 ?>
 ```
 

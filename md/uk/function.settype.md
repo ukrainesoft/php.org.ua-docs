@@ -48,11 +48,11 @@ settype(mixed &$var, string $type): bool
 
 ```php
 <?php
-$foo = "5bar"; // строка
-$bar = true;   // булевое значение
+$foo = "5bar"; // строка
+$bar = true;   // булевое значение
 
-settype($foo, "integer"); // $foo теперь 5   (целое)
-settype($bar, "string");  // $bar теперь "1" (строка)
+settype($foo, "integer"); // $foo теперь 5   (целое)
+settype($bar, "string");  // $bar теперь "1" (строка)
 ?>
 ```
 

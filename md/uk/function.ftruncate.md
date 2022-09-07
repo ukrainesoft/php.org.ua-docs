@@ -50,12 +50,12 @@ ftruncate(resource $stream, int $size): bool
 
 ```php
 <?php
-$filename = 'lorem_ipsum.txt';
+$filename = 'lorem_ipsum.txt';
 
-$handle = fopen($filename, 'r+');
-ftruncate($handle, rand(1, filesize($filename)));
+$handle = fopen($filename, 'r+');
+ftruncate($handle, rand(1, filesize($filename)));
 rewind($handle);
-echo fread($handle, filesize($filename));
+echo fread($handle, filesize($filename));
 fclose($handle);
 ?>
 ```

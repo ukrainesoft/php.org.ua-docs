@@ -44,24 +44,24 @@ mysqli_stmt_param_count(mysqli_stmt $statement): int
 
 ```php
 <?php
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-if ($stmt = $mysqli->prepare("SELECT Name FROM Country WHERE Name=? OR Code=?")) {
+if ($stmt = $mysqli->prepare("SELECT Name FROM Country WHERE Name=? OR Code=?")) {
 
-    $marker = $stmt->param_count;
-    printf("В запросе %d меток.\n", $marker);
+    $marker = $stmt->param_count;
+    printf("В запросе %d меток.\n", $marker);
 
-    /* закрываем запрос */
-    $stmt->close();
+    /* закрываем запрос */
+    $stmt->close();
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -70,24 +70,24 @@ $mysqli->close();
 
 ```php
 <?php
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-if ($stmt = mysqli_prepare($link, "SELECT Name FROM Country WHERE Name=? OR Code=?")) {
+if ($stmt = mysqli_prepare($link, "SELECT Name FROM Country WHERE Name=? OR Code=?")) {
 
-    $marker = mysqli_stmt_param_count($stmt);
-    printf("В запросе %d меток.\n", $marker);
+    $marker = mysqli_stmt_param_count($stmt);
+    printf("В запросе %d меток.\n", $marker);
 
-    /* закрываем запрос */
-    mysqli_stmt_close($stmt);
+    /* закрываем запрос */
+    mysqli_stmt_close($stmt);
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

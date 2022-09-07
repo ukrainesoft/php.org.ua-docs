@@ -36,8 +36,8 @@ public SplObjectStorage::detach(object $object): void
 
 ```php
 <?php
-$o = new StdClass;
-$s = new SplObjectStorage();
+$o = new StdClass;
+$s = new SplObjectStorage();
 $s->attach($o);
 var_dump(count($s));
 $s->detach($o);

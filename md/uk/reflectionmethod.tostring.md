@@ -34,16 +34,16 @@ public ReflectionMethod::__toString(): string
 
 ```php
 <?php
-class HelloWorld {
+class HelloWorld {
 
-    public function sayHelloTo($name) {
-        return 'Привет, ' . $name;
-    }
+    public function sayHelloTo($name) {
+        return 'Привет, ' . $name;
+    }
 
 }
 
-$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');
-echo $reflectionMethod;
+$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');
+echo $reflectionMethod;
 ?>
 ```
 

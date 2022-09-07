@@ -37,19 +37,19 @@ public
 Повинна відповідати прототипу:
 
 ```methodsynopsis
-callback(    
+callback(    
        EventListener
         $listener
         = null
-      ,    
+      ,    
        mixed
         $fd
         = null
-      ,    
+      ,    
        array
         $address
         = null
-      ,    
+      ,    
        mixed
         $arg
         = null

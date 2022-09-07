@@ -15,7 +15,7 @@ db2primarykeys — Повертає набір результатів, що мі
 ### Опис
 
 ```methodsynopsis
-db2_primary_keys(    resource $connection,    string $qualifier,    string $schema,    string $table-name): resource
+db2_primary_keys(    resource $connection,    string $qualifier,    string $schema,    string $table-name): resource
 ```
 
 Повертає набір результатів, що містить первинні ключі таблиці.

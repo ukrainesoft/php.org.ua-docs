@@ -46,22 +46,22 @@ call_user_func_array(callable $callback, array $args): mixed
 
 ```php
 <?php
-function foobar($arg, $arg2) {
-    echo __FUNCTION__, " got $arg and $arg2\n";
+function foobar($arg, $arg2) {
+    echo __FUNCTION__, " got $arg and $arg2\n";
 }
-class foo {
-    function bar($arg, $arg2) {
-        echo __METHOD__, " got $arg and $arg2\n";
-    }
+class foo {
+    function bar($arg, $arg2) {
+        echo __METHOD__, " got $arg and $arg2\n";
+    }
 }
 
 
-// Вызываем функцию foobar() с 2 аргументами
-call_user_func_array("foobar", array("one", "two"));
+// Вызываем функцию foobar() с 2 аргументами
+call_user_func_array("foobar", array("one", "two"));
 
-// Вызываем метод $foo->bar() с 2 аргументами
-$foo = new foo;
-call_user_func_array(array($foo, "bar"), array("three", "four"));
+// Вызываем метод $foo->bar() с 2 аргументами
+$foo = new foo;
+call_user_func_array(array($foo, "bar"), array("three", "four"));
 ?>
 ```
 
@@ -77,17 +77,17 @@ foo::bar got three and four
 ```php
 <?php
 
-namespace Foobar;
+namespace Foobar;
 
-class Foo {
-    static public function test($name) {
-        print "Hello {$name}!\n";
-    }
+class Foo {
+    static public function test($name) {
+        print "Hello {$name}!\n";
+    }
 }
 
-call_user_func_array(__NAMESPACE__ .'\Foo::test', array('Hannes'));
+call_user_func_array(__NAMESPACE__ .'\Foo::test', array('Hannes'));
 
-call_user_func_array(array(__NAMESPACE__ .'\Foo', 'test'), array('Philip'));
+call_user_func_array(array(__NAMESPACE__ .'\Foo', 'test'), array('Philip'));
 
 ?>
 ```
@@ -104,11 +104,11 @@ Hello Philip!
 ```php
 <?php
 
-$func = function($arg1, $arg2) {
-    return $arg1 * $arg2;
+$func = function($arg1, $arg2) {
+    return $arg1 * $arg2;
 };
 
-var_dump(call_user_func_array($func, array(2, 4)));
+var_dump(call_user_func_array($func, array(2, 4)));
 
 ?>
 ```
@@ -124,13 +124,13 @@ int(8)
 ```php
 <?php
 
-function mega(&$a){
-    $a = 55;
-    echo "function mega \$a=$a\n";
+function mega(&$a){
+    $a = 55;
+    echo "function mega \$a=$a\n";
 }
-$bar = 77;
+$bar = 77;
 call_user_func_array('mega',array(&$bar));
-echo "global \$bar=$bar\n";
+echo "global \$bar=$bar\n";
 
 ?>
 ```

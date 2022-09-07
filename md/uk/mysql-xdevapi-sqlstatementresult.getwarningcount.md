@@ -37,7 +37,7 @@ public mysql_xdevapi\SqlStatementResult::getWarningCounts(): int
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

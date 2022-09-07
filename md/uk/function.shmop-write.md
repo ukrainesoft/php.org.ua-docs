@@ -51,7 +51,7 @@ shmop_write(Shmop $shmop, string $data, int $offset): int
 
 ```php
 <?php
-$shm_bytes_written = shmop_write($shm_id, $my_string, 0);
+$shm_bytes_written = shmop_write($shm_id, $my_string, 0);
 ?>
 ```
 

@@ -34,10 +34,10 @@ public ReflectionClass::isInternal(): bool
 
 ```php
 <?php
-$internalclass = new ReflectionClass('ReflectionClass');
+$internalclass = new ReflectionClass('ReflectionClass');
 
-class Apple {}
-$userclass = new ReflectionClass('Apple');
+class Apple {}
+$userclass = new ReflectionClass('Apple');
 
 var_dump($internalclass->isInternal());
 var_dump($userclass->isInternal());

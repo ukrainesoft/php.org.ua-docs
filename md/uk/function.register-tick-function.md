@@ -40,12 +40,12 @@ register_tick_function(callable $callback, mixed ...$args): bool
 <?php
 declare(ticks=1);
 
-// использование функции в качестве обратного вызова
-register_tick_function('my_function', true);
+// использование функции в качестве обратного вызова
+register_tick_function('my_function', true);
 
-// использование метода объекта
-$object = new my_class();
-register_tick_function(array($object, 'my_method'), true);
+// использование метода объекта
+$object = new my_class();
+register_tick_function(array($object, 'my_method'), true);
 ?>
 ```
 

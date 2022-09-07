@@ -35,27 +35,27 @@ public Yar_Server_Exception::getType(): string
 ```php
 //Server.php
 <?php
-class Custom_Exception extends Exception {};
+class Custom_Exception extends Exception {};
 
-class API {
-    public function throw_exception($name) {
-        throw new Custom_Exception($name);
-    }
+class API {
+    public function throw_exception($name) {
+        throw new Custom_Exception($name);
+    }
 }
 
-$service = new Yar_Server(new API());
+$service = new Yar_Server(new API());
 $service->handle();
 ?>
 
 //Client.php
 <?php
-$client = new Yar_Client("http://host/api.php");
+$client = new Yar_Client("http://host/api.php");
 
-try {
-    $client->throw_exception("client");
-} catch (Yar_Server_Exception $e) {
-    var_dump($e->getType());
-    var_dump($e->getMessage());
+try {
+    $client->throw_exception("client");
+} catch (Yar_Server_Exception $e) {
+    var_dump($e->getType());
+    var_dump($e->getMessage());
 }
 ```
 

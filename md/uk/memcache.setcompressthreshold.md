@@ -45,16 +45,16 @@ Memcache::setCompressThreshold(int $threshold, float $min_savings = ?): bool
 ```php
 <?php
 
-/* объектно-ориентированное API */
+/* объектно-ориентированное API */
 
-$memcache_obj = new Memcache;
-$memcache_obj->addServer('memcache_host', 11211);
-$memcache_obj->setCompressThreshold(20000, 0.2);
+$memcache_obj = new Memcache;
+$memcache_obj->addServer('memcache_host', 11211);
+$memcache_obj->setCompressThreshold(20000, 0.2);
 
-/* процедурное API */
+/* процедурное API */
 
-$memcache_obj = memcache_connect('memcache_host', 11211);
-memcache_set_compress_threshold($memcache_obj, 20000, 0.2);
+$memcache_obj = memcache_connect('memcache_host', 11211);
+memcache_set_compress_threshold($memcache_obj, 20000, 0.2);
 
 ?>
 ```

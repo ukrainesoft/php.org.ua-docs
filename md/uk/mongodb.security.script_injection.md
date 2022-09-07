@@ -14,16 +14,16 @@ title: Атака за допомогою ін'єкцій у скриптах
 
 ```php
 <?php
-$m = new MongoDB\Driver\Manager;
+$m = new MongoDB\Driver\Manager;
 
-// Не делайте так!!!
-$username = $_GET['field'];
+// Не делайте так!!!
+$username = $_GET['field'];
 
-$cmd = new \MongoDB\Driver\Command( [
-    'eval' => "print('Привет, $username!');"
-] );
+$cmd = new \MongoDB\Driver\Command( [
+    'eval' => "print('Привет, $username!');"
+] );
 
-$r = $m->executeCommand( 'dramio', $cmd );
+$r = $m->executeCommand( 'dramio', $cmd );
 ?>
 ```
 
@@ -31,17 +31,17 @@ $r = $m->executeCommand( 'dramio', $cmd );
 
 ```php
 <?php
-$m = new MongoDB\Driver\Manager;
+$m = new MongoDB\Driver\Manager;
 
-// Не делайте так!!!
-$username = $_GET['field'];
-// $username is set to "'); db.users.drop(); print('"
+// Не делайте так!!!
+$username = $_GET['field'];
+// $username is set to "'); db.users.drop(); print('"
 
-$cmd = new \MongoDB\Driver\Command( [
-    'eval' => "print('Привет, $username!');"
-] );
+$cmd = new \MongoDB\Driver\Command( [
+    'eval' => "print('Привет, $username!');"
+] );
 
-$r = $m->executeCommand( 'dramio', $cmd );
+$r = $m->executeCommand( 'dramio', $cmd );
 ?>
 ```
 
@@ -49,17 +49,17 @@ $r = $m->executeCommand( 'dramio', $cmd );
 
 ```php
 <?php
-$m = new MongoDB\Driver\Manager;
+$m = new MongoDB\Driver\Manager;
 
-$_GET['field'] = 'derick';
-$args = [ $_GET['field'] ];
+$_GET['field'] = 'derick';
+$args = [ $_GET['field'] ];
 
-$cmd = new \MongoDB\Driver\Command( [
-    'eval' => "function greet(username) { print('Привет, ' + username + '!'); }",
-    'args' => $args,
-] );
+$cmd = new \MongoDB\Driver\Command( [
+    'eval' => "function greet(username) { print('Привет, ' + username + '!'); }",
+    'args' => $args,
+] );
 
-$r = $m->executeCommand( 'dramio', $cmd );
+$r = $m->executeCommand( 'dramio', $cmd );
 ?>
 ```
 
@@ -67,8 +67,8 @@ $r = $m->executeCommand( 'dramio', $cmd );
 
 Використання аргументів допомагає запобігти виконанню шкідливого введення базою даних. Тим не менш, ви повинні переконатися, що ваш код не перевернеться і все одно виконає введення! Найкраще уникати виконання *будь-якого* JavaScript на сервері
 
-Настійно рекомендується уникати речення [» $where clause](https://www.mongodb.com/docs/manual/reference/operator/query/where/#considerations) із запитами, оскільки це істотно впливає на продуктивність. По можливості використовуйте або звичайні оператори запитів, або [» Aggregation Framework](https://www.mongodb.com/docs/manual/core/aggregation-pipeline)
+Настійно рекомендується уникати речення [» $where clause](https://www.mongodb.com/docs/manual/reference/operator/query/where/#considerations) із запитами, оскільки це істотно впливає на продуктивність. По можливості використовуйте або звичайні оператори запитів, або [» Aggregation Framework](https://www.mongodb.com/docs/manual/core/aggregation-pipeline)
 
-Як альтернатива [» MapReduce](https://www.mongodb.com/docs/manual/core/map-reduce/), що використовує JavaScript, розгляньте можливість використання [» Aggregation Framework](https://www.mongodb.com/docs/manual/core/aggregation-pipeline). На відміну від Map/Reduce, він використовує ідіоматичний мову для побудови запитів, без необхідності писати та використовувати повільніший підхід JavaScript, який потрібний для Map/Reduce.
+Як альтернатива [» MapReduce](https://www.mongodb.com/docs/manual/core/map-reduce/), що використовує JavaScript, розгляньте можливість використання [» Aggregation Framework](https://www.mongodb.com/docs/manual/core/aggregation-pipeline). На відміну від Map/Reduce, він використовує ідіоматичний мову для побудови запитів, без необхідності писати та використовувати повільніший підхід JavaScript, який потрібний для Map/Reduce.
 
-Команда [» eval](https://www.mongodb.com/docs/manual/reference/command/eval/) застаріла з MongoDB 3.0, і її слід уникати.
+Команда [» eval](https://www.mongodb.com/docs/manual/reference/command/eval/) застаріла з MongoDB 3.0, і її слід уникати.

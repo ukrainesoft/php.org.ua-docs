@@ -15,7 +15,7 @@ imageftbbox — Визначення меж тексту, що виводить�
 ### Опис
 
 ```methodsynopsis
-imageftbbox(    float $size,    float $angle,    string $font_filename,    string $string,    array $options = []): array|false
+imageftbbox(    float $size,    float $angle,    string $font_filename,    string $string,    array $options = []): array|false
 ```
 
 Ця функція розраховує та повертає рамку (кордон) FreeType тексту.
@@ -66,28 +66,28 @@ imageftbbox(    float $size,    float $angle,    string $font_filena
 
 ```php
 <?php
-// Создание изображения 300x150
-$im = imagecreatetruecolor(300, 150);
-$black = imagecolorallocate($im, 0, 0, 0);
-$white = imagecolorallocate($im, 255, 255, 255);
+// Создание изображения 300x150
+$im = imagecreatetruecolor(300, 150);
+$black = imagecolorallocate($im, 0, 0, 0);
+$white = imagecolorallocate($im, 255, 255, 255);
 
-// установка белого фона
-imagefilledrectangle($im, 0, 0, 299, 299, $white);
+// установка белого фона
+imagefilledrectangle($im, 0, 0, 299, 299, $white);
 
-// путь к файлу шрифта
-$font = './arial.ttf';
+// путь к файлу шрифта
+$font = './arial.ttf';
 
-// создаём рамку вокруг текста
-$bbox = imageftbbox(10, 0, $font, 'Группа документирования PHP');
+// создаём рамку вокруг текста
+$bbox = imageftbbox(10, 0, $font, 'Группа документирования PHP');
 
-// наши координаты для X и Y
-$x = $bbox[0] + (imagesx($im) / 2) - ($bbox[4] / 2) - 5;
-$y = $bbox[1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;
+// наши координаты для X и Y
+$x = $bbox[0] + (imagesx($im) / 2) - ($bbox[4] / 2) - 5;
+$y = $bbox[1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;
 
-imagefttext($im, 10, 0, $x, $y, $black, $font, 'Группа документирования PHP');
+imagefttext($im, 10, 0, $x, $y, $black, $font, 'Группа документирования PHP');
 
-// вывод в броузер
-header('Content-Type: image/png');
+// вывод в броузер
+header('Content-Type: image/png');
 
 imagepng($im);
 imagedestroy($im);

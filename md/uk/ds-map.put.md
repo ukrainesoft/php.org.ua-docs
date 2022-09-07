@@ -54,11 +54,11 @@ public Ds\Map::put(mixed $key, mixed $value): void
 
 ```php
 <?php
-$map = new \Ds\Map();
+$map = new \Ds\Map();
 
-$map->put("a", 1);
-$map->put("b", 2);
-$map->put("c", 3);
+$map->put("a", 1);
+$map->put("b", 2);
+$map->put("c", 3);
 
 print_r($map);
 ?>
@@ -94,49 +94,49 @@ Ds\Map Object
 
 ```php
 <?php
-class HashableObject implements \Ds\Hashable
+class HashableObject implements \Ds\Hashable
 {
-    /**
-     * Значение, которое мы будем использовать в качестве хеша. Не определяет идентичность.
-     */
-    private $value;
+    /**
+     * Значение, которое мы будем использовать в качестве хеша. Не определяет идентичность.
+     */
+    private $value;
 
-    public function __construct($value)
-    {
-        $this->value = $value;
-    }
+    public function __construct($value)
+    {
+        $this->value = $value;
+    }
 
-    public function hash()
-    {
-        return $this->value;
-    }
+    public function hash()
+    {
+        return $this->value;
+    }
 
-    public function equals($obj): bool
-    {
-        return $this->value === $obj->value;
-    }
+    public function equals($obj): bool
+    {
+        return $this->value === $obj->value;
+    }
 }
 
-$map = new \Ds\Map();
+$map = new \Ds\Map();
 
-$obj = new \ArrayIterator([]);
+$obj = new \ArrayIterator([]);
 
-// Использование одного и того же экземпляра объекта несколько раз будет каждый раз
-// перезаписывать значение
-$map->put($obj, 1);
-$map->put($obj, 2);
+// Использование одного и того же экземпляра объекта несколько раз будет каждый раз
+// перезаписывать значение
+$map->put($obj, 1);
+$map->put($obj, 2);
 
-// Использование разных экземпляров одного и того же класса будет создавать новые
-// элементы
-$map->put(new \stdClass(), 3);
-$map->put(new \stdClass(), 4);
+// Использование разных экземпляров одного и того же класса будет создавать новые
+// элементы
+$map->put(new \stdClass(), 3);
+$map->put(new \stdClass(), 4);
 
-// Использование одинаковых hashable-экземпляров несколько раз будет перезаписывать
-// предыдущие значения
-$map->put(new \HashableObject(1), 5);
-$map->put(new \HashableObject(1), 6);
-$map->put(new \HashableObject(2), 7);
-$map->put(new \HashableObject(2), 8);
+// Использование одинаковых hashable-экземпляров несколько раз будет перезаписывать
+// предыдущие значения
+$map->put(new \HashableObject(1), 5);
+$map->put(new \HashableObject(1), 6);
+$map->put(new \HashableObject(2), 7);
+$map->put(new \HashableObject(2), 8);
 
 var_dump($map);
 ?>

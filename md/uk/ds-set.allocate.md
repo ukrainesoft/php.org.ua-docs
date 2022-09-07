@@ -44,7 +44,7 @@ public Ds\Set::allocate(int $capacity): void
 
 ```php
 <?php
-$set = new \Ds\Set();
+$set = new \Ds\Set();
 var_dump($set->capacity());
 
 $set->allocate(100);

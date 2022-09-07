@@ -15,7 +15,7 @@ odbcforeignkeys — Повертає список зовнішніх ключі�
 ### Опис
 
 ```methodsynopsis
-odbc_foreignkeys(    resource $odbc,    ?string $pk_catalog,    string $pk_schema,    string $pk_table,    string $fk_catalog,    string $fk_schema,    string $fk_table): resource|false
+odbc_foreignkeys(    resource $odbc,    ?string $pk_catalog,    string $pk_schema,    string $pk_table,    string $fk_catalog,    string $fk_schema,    string $fk_table): resource|false
 ```
 
 Повертає список зовнішніх ключів у таблиці або список зовнішніх ключів в інших таблицях, які посилаються на первинний ключ у зазначеній таблиці.

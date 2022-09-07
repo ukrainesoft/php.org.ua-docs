@@ -36,10 +36,10 @@ public Ds\Map::hasKey(mixed $key): bool
 
 ```php
 <?php
-$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
+$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]);
 
-var_dump($map->hasKey("a")); // true
-var_dump($map->hasKey("e")); // false
+var_dump($map->hasKey("a")); // true
+var_dump($map->hasKey("e")); // false
 ?>
 ```
 

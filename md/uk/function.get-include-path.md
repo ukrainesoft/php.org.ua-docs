@@ -34,10 +34,10 @@ get_include_path(): string|false
 
 ```php
 <?php
-echo get_include_path();
+echo get_include_path();
 
-// или используя ini_get()
-echo ini_get('include_path');
+// или используя ini_get()
+echo ini_get('include_path');
 ?>
 ```
 

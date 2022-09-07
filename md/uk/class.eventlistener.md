@@ -59,22 +59,22 @@ title: Клас EventListener
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     EventBase
      $base
-   ,    
+   ,    
     callable
      $cb
-   ,    
+   ,    
     mixed
      $data
-   ,    
+   ,    
     int
      $flags
-   ,    
+   ,    
     int
      $backlog
-   ,    
+   ,    
     mixed
      $target
    )

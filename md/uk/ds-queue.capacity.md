@@ -34,10 +34,10 @@ public Ds\Queue::capacity(): int
 
 ```php
 <?php
-$queue = new \Ds\Queue();
+$queue = new \Ds\Queue();
 var_dump($queue->capacity());
 
-$queue->push(...range(1, 50));
+$queue->push(...range(1, 50));
 var_dump($queue->capacity());
 ?>
 ```

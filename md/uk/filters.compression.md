@@ -14,7 +14,7 @@ title: Компресійні фільтри
 
 ## zlib.deflate та zlib.inflate
 
-`zlib.deflate` (компресія) та `zlib.inflate` (декомпресія) є реалізаціями методів стиснення, описаних у [» RFC 1951](http://www.faqs.org/rfcs/rfc1951). Фільтр `deflate` приймає три аргументи, передані у вигляді асоціативного масиву . `level` визначає, який рівень компресії використати (1-9). Підвищення цього значення призведе до зменшення обсягів даних рахунок збільшення часу обробки. Існують також два спеціальні рівні компресії: 0 (для відключення компресії) і -1 (внутрішнє значення за замовчуванням бібліотеки zlib - на поточний момент дорівнює 6) . `window` - це логарифм із основою 2 від розміру вікна діапазону стиснення. Високі значення (аж до 15 - 32768 байт) призводять до поліпшення компресії рахунок збільшення необхідної пам'яті, тоді як низькі значення (аж до 9 - 512 байт) призводять до погіршення компресії рахунок зменшення необхідної пам'яті. Значення аргументу `window` за замовчуванням на даний момент є **`15`**. . `memory` визначає масштаб пам'яті, що резервується. Допустимі значення знаходяться в діапазоні від 1 (мінімальне резервування) до 9 (максимальне резервування). Таке резервування пам'яті впливає лише на швидкість і не впливає на розмір даних, що генеруються.
+`zlib.deflate` (компресія) та `zlib.inflate` (декомпресія) є реалізаціями методів стиснення, описаних у [» RFC 1951](http://www.faqs.org/rfcs/rfc1951). Фільтр `deflate` приймає три аргументи, передані у вигляді асоціативного масиву . `level` визначає, який рівень компресії використати (1-9). Підвищення цього значення призведе до зменшення обсягів даних рахунок збільшення часу обробки. Існують також два спеціальні рівні компресії: 0 (для відключення компресії) і -1 (внутрішнє значення за замовчуванням бібліотеки zlib - на поточний момент дорівнює 6) . `window` - це логарифм із основою 2 від розміру вікна діапазону стиснення. Високі значення (аж до 15 - 32768 байт) призводять до поліпшення компресії рахунок збільшення необхідної пам'яті, тоді як низькі значення (аж до 9 - 512 байт) призводять до погіршення компресії рахунок зменшення необхідної пам'яті. Значення аргументу `window` за замовчуванням на даний момент є **`15`**. . `memory` визначає масштаб пам'яті, що резервується. Допустимі значення знаходяться в діапазоні від 1 (мінімальне резервування) до 9 (максимальне резервування). Таке резервування пам'яті впливає лише на швидкість і не впливає на розмір даних, що генеруються.
 
 > **Зауваження**: Так як рівень компресії є найбільш часто використовуваним аргументом, ви можете передати тільки його як звичайне ціле число (integer), замість того щоб передавати масив з одного елемента.
 
@@ -24,31 +24,31 @@ title: Компресійні фільтри
 
 ```php
 <?php
-$params = array('level' => 6, 'window' => 15, 'memory' => 9);
+$params = array('level' => 6, 'window' => 15, 'memory' => 9);
 
-$original_text = "This is a test.\nThis is only a test.\nThis is not an important string.\n";
-echo "Оригинальный текст длиной " . strlen($original_text) . " символов.\n";
+$original_text = "This is a test.\nThis is only a test.\nThis is not an important string.\n";
+echo "Оригинальный текст длиной " . strlen($original_text) . " символов.\n";
 
-$fp = fopen('test.deflated', 'w');
-stream_filter_append($fp, 'zlib.deflate', STREAM_FILTER_WRITE, $params);
-fwrite($fp, $original_text);
+$fp = fopen('test.deflated', 'w');
+stream_filter_append($fp, 'zlib.deflate', STREAM_FILTER_WRITE, $params);
+fwrite($fp, $original_text);
 fclose($fp);
 
-echo "Сжатый файл размером " . filesize('test.deflated') . " байт.\n";
-echo "Оригинальный текст:\n";
-/* Использование readfile и zlib.inflate для декомпресии на лету */
+echo "Сжатый файл размером " . filesize('test.deflated') . " байт.\n";
+echo "Оригинальный текст:\n";
+/* Использование readfile и zlib.inflate для декомпресии на лету */
 readfile('php://filter/zlib.inflate/resource=test.deflated');
 
-/* Генерирует вывод:
+/* Генерирует вывод:
 
-Оригинальный текст длиной 70 символов.
-Сжатый файл размером 56 байт.
-Оригинальный текст:
-This is a test.
-This is only a test.
-This is not an important string.
+Оригинальный текст длиной 70 символов.
+Сжатый файл размером 56 байт.
+Оригинальный текст:
+This is a test.
+This is only a test.
+This is not an important string.
 
- */
+ */
 ?>
 ```
 
@@ -56,23 +56,23 @@ This is not an important string.
 
 ```php
 <?php
-$original_text = "This is a test.\nThis is only a test.\nThis is not an important string.\n";
-echo "Оригинальный текст длиной " . strlen($original_text) . " символов.\n";
+$original_text = "This is a test.\nThis is only a test.\nThis is not an important string.\n";
+echo "Оригинальный текст длиной " . strlen($original_text) . " символов.\n";
 
-$fp = fopen('test.deflated', 'w');
-/* Здесь "6" указывает уровень компрессии 6 */
-stream_filter_append($fp, 'zlib.deflate', STREAM_FILTER_WRITE, 6);
-fwrite($fp, $original_text);
+$fp = fopen('test.deflated', 'w');
+/* Здесь "6" указывает уровень компрессии 6 */
+stream_filter_append($fp, 'zlib.deflate', STREAM_FILTER_WRITE, 6);
+fwrite($fp, $original_text);
 fclose($fp);
 
-echo "Сжатый файл размером " . filesize('test.deflated') . " байт.\n";
+echo "Сжатый файл размером " . filesize('test.deflated') . " байт.\n";
 
-/* Генерирует вывод:
+/* Генерирует вывод:
 
-Оригинальный текст длиной 70 символов.
-Сжатый файл размером 56 байт.
+Оригинальный текст длиной 70 символов.
+Сжатый файл размером 56 байт.
 
- */
+ */
 ?>
 ```
 
@@ -86,22 +86,22 @@ echo "Сжатый файл размером " . filesize('test.deflated')
 
 ```php
 <?php
-$param = array('blocks' => 9, 'work' => 0);
+$param = array('blocks' => 9, 'work' => 0);
 
-echo "Оригинальный файл размером " . filesize('LICENSE') . " байт.\n";
+echo "Оригинальный файл размером " . filesize('LICENSE') . " байт.\n";
 
-$fp = fopen('LICENSE.compressed', 'w');
-stream_filter_append($fp, 'bzip2.compress', STREAM_FILTER_WRITE, $param);
-fwrite($fp, file_get_contents('LICENSE'));
+$fp = fopen('LICENSE.compressed', 'w');
+stream_filter_append($fp, 'bzip2.compress', STREAM_FILTER_WRITE, $param);
+fwrite($fp, file_get_contents('LICENSE'));
 fclose($fp);
 
-echo "Сжатый файл размером " . filesize('LICENSE.compressed') . " байт.\n";
+echo "Сжатый файл размером " . filesize('LICENSE.compressed') . " байт.\n";
 
-/* Генерирует вывод:
+/* Генерирует вывод:
 
-Оригинальный файл размером 3288 байт.
-Сжатый файл размером 1488 байт.
+Оригинальный файл размером 3288 байт.
+Сжатый файл размером 1488 байт.
 
- */
+ */
 ?>
 ```

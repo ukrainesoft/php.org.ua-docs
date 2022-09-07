@@ -34,10 +34,10 @@ addcslashes(string $string, string $characters): string
 
 ```php
 <?php
-echo addcslashes('foo[ ]', 'A..z');
-// выводит:  \f\o\o\[ \]
-// Будут экранированы заглавные и строчные английские буквы
-// ... а также [\]^_`
+echo addcslashes('foo[ ]', 'A..z');
+// выводит:  \f\o\o\[ \]
+// Будут экранированы заглавные и строчные английские буквы
+// ... а также [\]^_`
 ?>
 ```
 
@@ -45,8 +45,8 @@ echo addcslashes('foo[ ]', 'A..z');
 
 ```php
 <?php
-echo addcslashes("zoo['.']", 'z..A');
-// выводит:  \zoo['\.']
+echo addcslashes("zoo['.']", 'z..A');
+// выводит:  \zoo['\.']
 ?>
 ```
 
@@ -64,7 +64,7 @@ echo addcslashes("zoo['.']", 'z..A');
 
 ```php
 <?php
-$escaped = addcslashes($not_escaped, "\0..\37!@\177..\377");
+$escaped = addcslashes($not_escaped, "\0..\37!@\177..\377");
 ?>
 ```
 

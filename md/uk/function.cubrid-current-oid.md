@@ -36,11 +36,11 @@ Oid поточного положення курсору, у разі успіш
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
+$conn = cubrid_connect("localhost", 33000, "demodb", "dba");
 
-$req = cubrid_execute($conn, "SELECT * FROM code", CUBRID_INCLUDE_OID);
-$oid = cubrid_current_oid($req);
-$res = cubrid_get($conn, $oid);
+$req = cubrid_execute($conn, "SELECT * FROM code", CUBRID_INCLUDE_OID);
+$oid = cubrid_current_oid($req);
+$res = cubrid_get($conn, $oid);
 
 print_r($res);
 

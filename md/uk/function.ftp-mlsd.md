@@ -45,16 +45,16 @@ ftp_mlsd(FTP\Connection $ftp, string $directory): array|false
 ```php
 <?php
 
-// установить основное соединение
-$ftp = ftp_connect($ftp_server);
+// установить основное соединение
+$ftp = ftp_connect($ftp_server);
 
-// авторизоваться на сервере, используя имя пользователя и пароль
-$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
+// авторизоваться на сервере, используя имя пользователя и пароль
+$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);
 
-// получить содержимое текущей директории
-$contents = ftp_mlsd($ftp, ".");
+// получить содержимое текущей директории
+$contents = ftp_mlsd($ftp, ".");
 
-// вывод $contents
+// вывод $contents
 var_dump($contents);
 
 ?>

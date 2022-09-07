@@ -34,9 +34,9 @@ public DirectoryIterator::getGroup(): int
 
 ```php
 <?php
-$iterator = new DirectoryIterator(dirname(__FILE__));
-$groupid  = $iterator->getGroup();
-echo 'Директория принадлежит группе ' . $groupid . "\n";
+$iterator = new DirectoryIterator(dirname(__FILE__));
+$groupid  = $iterator->getGroup();
+echo 'Директория принадлежит группе ' . $groupid . "\n";
 print_r(posix_getgrgid($groupid));
 ?>
 ```

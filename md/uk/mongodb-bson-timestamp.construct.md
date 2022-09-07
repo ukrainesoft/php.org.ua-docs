@@ -39,7 +39,7 @@ final public MongoDB\BSON\Timestamp::__construct(int $increment, int $timestamp)
 ```php
 <?php
 
-$timestamp = new MongoDB\BSON\Timestamp(1234, 5678);
+$timestamp = new MongoDB\BSON\Timestamp(1234, 5678);
 
 ?>
 ```
@@ -57,4 +57,4 @@ object(MongoDB\BSON\Timestamp)#1 (2) {
 
 ### Дивіться також
 
--   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+-   [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

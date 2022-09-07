@@ -15,7 +15,7 @@ imagecopymerge — Копіює частину зображення з накл�
 ### Опис
 
 ```methodsynopsis
-imagecopymerge(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $src_width,    int $src_height,    int $pct): bool
+imagecopymerge(    GdImage $dst_image,    GdImage $src_image,    int $dst_x,    int $dst_y,    int $src_x,    int $src_y,    int $src_width,    int $src_height,    int $pct): bool
 ```
 
 Копіює частину `src_image` і поміщає скопійоване на `dst_image`, починаючи з координат `src_x` `src_y` із шириною `src_width` та заввишки `src_height`. Скопійована частина міститься на координати `dst_x` і `dst_y`
@@ -74,15 +74,15 @@ y-координата вихідного зображення.
 
 ```php
 <?php
-// Создание изображений
-$dest = imagecreatefromgif('php.gif');
-$src = imagecreatefromgif('php.gif');
+// Создание изображений
+$dest = imagecreatefromgif('php.gif');
+$src = imagecreatefromgif('php.gif');
 
-// Копирование и наложение
-imagecopymerge($dest, $src, 10, 10, 0, 0, 100, 47, 75);
+// Копирование и наложение
+imagecopymerge($dest, $src, 10, 10, 0, 0, 100, 47, 75);
 
-// Вывод и освобождение памяти
-header('Content-Type: image/gif');
+// Вывод и освобождение памяти
+header('Content-Type: image/gif');
 imagegif($dest);
 
 imagedestroy($dest);

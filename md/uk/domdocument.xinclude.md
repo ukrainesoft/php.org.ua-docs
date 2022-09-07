@@ -18,7 +18,7 @@ DOMDocument::xinclude — Вставляє XInclude в об'єкті DOMDocument
 public DOMDocument::xinclude(int $options = 0): int|false
 ```
 
-Цей метод вставляє [» блоки XInclude](http://www.w3.org/TR/xinclude/) в об'єкті класу DOMDocument.
+Цей метод вставляє [» блоки XInclude](http://www.w3.org/TR/xinclude/) в об'єкті класу DOMDocument.
 
 > **Зауваження**
 > 
@@ -41,33 +41,33 @@ public DOMDocument::xinclude(int $options = 0): int|false
 ```php
 <?php
 
-$xml = <<<EOD
-<?xml version="1.0" ?>
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
- <title>Books of the other guy..</title>
- <para>
-  <xi:include href="book.xml">
-   <xi:fallback>
-    <error>xinclude: book.xml not found</error>
-   </xi:fallback>
-  </xi:include>
- </para>
+$xml = <<<EOD
+<?xml version="1.0" ?>
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+ <title>Books of the other guy..</title>
+ <para>
+  <xi:include href="book.xml">
+   <xi:fallback>
+    <error>xinclude: book.xml not found</error>
+   </xi:fallback>
+  </xi:include>
+ </para>
 </chapter>
 EOD;
 
-$dom = new DOMDocument;
+$dom = new DOMDocument;
 
-// оформим вывод красиво
-$dom->preserveWhiteSpace = false;
-$dom->formatOutput = true;
+// оформим вывод красиво
+$dom->preserveWhiteSpace = false;
+$dom->formatOutput = true;
 
-// загрузка XML-строки, определённой выше
+// загрузка XML-строки, определённой выше
 $dom->loadXML($xml);
 
-// вставка блоков xinclude
+// вставка блоков xinclude
 $dom->xinclude();
 
-echo $dom->saveXML();
+echo $dom->saveXML();
 
 ?>
 ```

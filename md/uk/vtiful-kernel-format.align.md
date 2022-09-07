@@ -40,20 +40,20 @@ public Vtiful\Kernel\Format::align(resource $handle, int $style)
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$excel  = new \Vtiful\Kernel\Excel($config);
+$excel  = new \Vtiful\Kernel\Excel($config);
 
-$fileObject = $excel->fileName('tutorial01.xlsx');
-$fileHandle = $fileObject->getHandle();
+$fileObject = $excel->fileName('tutorial01.xlsx');
+$fileHandle = $fileObject->getHandle();
 
-$alignStyle = \Vtiful\Kernel\Format::align($fileHandle, \Vtiful\Kernel\Format::FORMAT_ALIGN_LEFT);
+$alignStyle = \Vtiful\Kernel\Format::align($fileHandle, \Vtiful\Kernel\Format::FORMAT_ALIGN_LEFT);
 
-$fileObject->header(['name', 'age'])
-    ->data([['viest', 21]])
-    ->setColumn('A:A', 200, $align)
-    ->output();
+$fileObject->header(['name', 'age'])
+    ->data([['viest', 21]])
+    ->setColumn('A:A', 200, $align)
+    ->output();
 ?>
 ```

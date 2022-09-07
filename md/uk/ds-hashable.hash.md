@@ -46,37 +46,37 @@ abstract public Ds\Hashable::hash(): mixed
 
 ```php
 <?php
-class HashableObject implements \Ds\Hashable
+class HashableObject implements \Ds\Hashable
 {
-    private $name;
-    private $email;
+    private $name;
+    private $email;
 
-    public function __construct($name, $email)
-    {
-        $this->name  = $name;
-        $this->email = $email;
-    }
+    public function __construct($name, $email)
+    {
+        $this->name  = $name;
+        $this->email = $email;
+    }
 
-    /**
-     * Должно возвращать одинаковое значение для всех объектов, которые
-     * должны считаться идентичными. Это значение не должно использоваться
-     * в простом сравнении для определения идентичности объектов.
-     */
-    public function hash()
-    {
-        return $this->email;
-    }
+    /**
+     * Должно возвращать одинаковое значение для всех объектов, которые
+     * должны считаться идентичными. Это значение не должно использоваться
+     * в простом сравнении для определения идентичности объектов.
+     */
+    public function hash()
+    {
+        return $this->email;
+    }
 
-    /**
-     * Функция определения идентичности объектов. Обычно проверяют, что
-     * значения хешей обоих объектов совпадают. Но можно добавить
-     * дополнительные проверки.
-     */
-    public function equals($obj): bool
-    {
-        return $this->name  === $obj->name
-            && $this->hash() === $obj->hash();
-    }
+    /**
+     * Функция определения идентичности объектов. Обычно проверяют, что
+     * значения хешей обоих объектов совпадают. Но можно добавить
+     * дополнительные проверки.
+     */
+    public function equals($obj): bool
+    {
+        return $this->name  === $obj->name
+            && $this->hash() === $obj->hash();
+    }
 }
 ?>
 ```

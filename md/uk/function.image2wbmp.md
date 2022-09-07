@@ -52,11 +52,11 @@ image2wbmp(resource $image, string $filename = ?, int $foreground = ?): bool
 
 ```php
 <?php
-$file = 'php.png';
-$image = imagecreatefrompng($file);
+$file = 'php.png';
+$image = imagecreatefrompng($file);
 
-header('Content-Type: ' . image_type_to_mime_type(IMAGETYPE_WBMP));
-image2wbmp($image); // вывод потока
+header('Content-Type: ' . image_type_to_mime_type(IMAGETYPE_WBMP));
+image2wbmp($image); // вывод потока
 imagedestroy($image);
 ?>
 ```

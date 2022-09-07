@@ -46,20 +46,20 @@ intlcal_in_daylight_time(IntlCalendar $calendar): bool
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'pt_PT');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'pt_PT');
 
-$cal = new IntlGregorianCalendar(2013, 6 /* Июль */, 1, 4, 56, 31);
-var_dump($cal->inDaylightTime()); // true
-$cal->set(IntlCalendar::FIELD_MONTH, 11 /* Декабрь */);
-var_dump($cal->inDaylightTime()); // false
+$cal = new IntlGregorianCalendar(2013, 6 /* Июль */, 1, 4, 56, 31);
+var_dump($cal->inDaylightTime()); // true
+$cal->set(IntlCalendar::FIELD_MONTH, 11 /* Декабрь */);
+var_dump($cal->inDaylightTime()); // false
 
-//DST end transition on 2013-10-27 at 0200 (время процессора назад на 1 час)
-$cal = new IntlGregorianCalendar(2013, 9 /* Октябрь */, 27, 1, 30, 0);
+//DST end transition on 2013-10-27 at 0200 (время процессора назад на 1 час)
+$cal = new IntlGregorianCalendar(2013, 9 /* Октябрь */, 27, 1, 30, 0);
 
-var_dump($cal->inDaylightTime()); // false (по умолчанию WALLTIME_LAST)
+var_dump($cal->inDaylightTime()); // false (по умолчанию WALLTIME_LAST)
 
 $cal->setRepeatedWallTimeOption(IntlCalendar::WALLTIME_FIRST);
-$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1); // принудительный перерасчёт времени
-var_dump($cal->inDaylightTime()); // true
+$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1); // принудительный перерасчёт времени
+var_dump($cal->inDaylightTime()); // true
 ```

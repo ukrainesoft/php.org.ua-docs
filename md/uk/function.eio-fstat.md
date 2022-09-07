@@ -15,7 +15,7 @@ eiofstat — Повертає статус файлу
 ### Опис
 
 ```methodsynopsis
-eio_fstat(    mixed $fd,    int $pri,    callable $callback,    mixed $data = ?): resource
+eio_fstat(    mixed $fd,    int $pri,    callable $callback,    mixed $data = ?): resource
 ```
 
 **eiofstat()** повертає інформацію про стан файлу в `result` аргументі `callback`
@@ -35,7 +35,7 @@ eio_fstat(    mixed $fd,    int $pri,    callable $callback,    
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -64,40 +64,40 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-// Создание временного файла
-$tmp_filename = dirname(__FILE__) ."/eio-file.tmp";
+// Создание временного файла
+$tmp_filename = dirname(__FILE__) ."/eio-file.tmp";
 touch($tmp_filename);
 
-/* Вызывается после завершения eio_fstat() */
-function my_res_cb($data, $result) {
- // Выводит Масив с информацией о состоянии файла
- var_dump($result);
+/* Вызывается после завершения eio_fstat() */
+function my_res_cb($data, $result) {
+ // Выводит Масив с информацией о состоянии файла
+ var_dump($result);
 
- if ($data['fd']) {
-  // Закрывает временный файл
-  eio_close($data['fd']);
-  eio_event_loop();
- }
- // Удаляет временный файл
- @unlink($data['file']);
+ if ($data['fd']) {
+  // Закрывает временный файл
+  eio_close($data['fd']);
+  eio_event_loop();
+ }
+ // Удаляет временный файл
+ @unlink($data['file']);
 }
 
-/* Вызывается после завершения eio_open() */
-function my_open_cb($data, $result) {
- // Подготовка данных для callback
- $d = array(
-  'fd'  => $result,
-  'file'=> $data
- );
- // Получение информации о файле
- eio_fstat($result, EIO_PRI_DEFAULT, "my_res_cb", $d);
- // Выполнение запросов
- eio_event_loop();
+/* Вызывается после завершения eio_open() */
+function my_open_cb($data, $result) {
+ // Подготовка данных для callback
+ $d = array(
+  'fd'  => $result,
+  'file'=> $data
+ );
+ // Получение информации о файле
+ eio_fstat($result, EIO_PRI_DEFAULT, "my_res_cb", $d);
+ // Выполнение запросов
+ eio_event_loop();
 }
 
-// Открытие временного файла
-eio_open($tmp_filename, EIO_O_RDONLY, NULL, EIO_PRI_DEFAULT,
-  "my_open_cb", $tmp_filename);
+// Открытие временного файла
+eio_open($tmp_filename, EIO_O_RDONLY, NULL, EIO_PRI_DEFAULT,
+  "my_open_cb", $tmp_filename);
 eio_event_loop();
 ?>
 ```

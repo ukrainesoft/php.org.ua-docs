@@ -36,7 +36,7 @@ dio_close(resource $fd): void
 
 ```php
 <?php
-$fd = dio_open('/dev/ttyS0', O_RDWR);
+$fd = dio_open('/dev/ttyS0', O_RDWR);
 
 dio_close($fd);
 ?>

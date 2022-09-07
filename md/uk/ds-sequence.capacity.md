@@ -34,13 +34,13 @@ abstract public Ds\Sequence::capacity(): int
 
 ```php
 <?php
-$sequence = new \Ds\Vector();
+$sequence = new \Ds\Vector();
 var_dump($sequence->capacity());
 
-$sequence->push(...range(1, 50));
+$sequence->push(...range(1, 50));
 var_dump($sequence->capacity());
 
-$sequence[] = "a";
+$sequence[] = "a";
 var_dump($sequence->capacity());
 ?>
 ```

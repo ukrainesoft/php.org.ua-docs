@@ -37,7 +37,7 @@ public mysql_xdevapi\SqlStatement::hasMoreResults(): bool
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

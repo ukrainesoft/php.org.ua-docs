@@ -15,7 +15,7 @@ fanncreatestandard — Створює стандартну повністю пі
 ### Опис
 
 ```methodsynopsis
-fann_create_standard(    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
+fann_create_standard(    int $num_layers,    int $num_neurons1,    int $num_neurons2,    int ...$num_neuronsN): resource
 ```
 
 Створює стандартну повністю підключену нейронну мережу зворотного розповсюдження.

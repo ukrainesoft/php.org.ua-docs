@@ -16,13 +16,13 @@ title: 'Використання просторів імен: перехід д�
 
 ```php
 <?php
-namespace A\B\C;
-class Exception extends \Exception {}
+namespace A\B\C;
+class Exception extends \Exception {}
 
-$a = new Exception('hi'); // $a - это объект класса A\B\C\Exception
-$b = new \Exception('hi'); // $b - это объект класса Exception
+$a = new Exception('hi'); // $a - это объект класса A\B\C\Exception
+$b = new \Exception('hi'); // $b - это объект класса Exception
 
-$c = new ArrayObject; // фатальная ошибка, класс A\B\C\ArrayObject не найден
+$c = new ArrayObject; // фатальная ошибка, класс A\B\C\ArrayObject не найден
 ?>
 ```
 
@@ -32,22 +32,22 @@ $c = new ArrayObject; // фатальная ошибка, класс A\B
 
 ```php
 <?php
-namespace A\B\C;
+namespace A\B\C;
 
-const E_ERROR = 45;
-function strlen($str)
+const E_ERROR = 45;
+function strlen($str)
 {
-    return \strlen($str) - 1;
+    return \strlen($str) - 1;
 }
 
-echo E_ERROR, "\n"; // выводит "45"
-echo INI_ALL, "\n"; // выводит "7" - прибегнет к глобальной INI_ALL
+echo E_ERROR, "\n"; // выводит "45"
+echo INI_ALL, "\n"; // выводит "7" - прибегнет к глобальной INI_ALL
 
-echo strlen('hi'), "\n"; // выводит "1"
-if (is_array('hi')) { // выводит строку "это не Масив"
-    echo "это Масив\n";
-} else {
-    echo "это не Масив\n";
+echo strlen('hi'), "\n"; // выводит "1"
+if (is_array('hi')) { // выводит строку "это не Масив"
+    echo "это Масив\n";
+} else {
+    echo "это не Масив\n";
 }
 ?>
 ```

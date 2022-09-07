@@ -39,15 +39,15 @@ final public MongoDB\Driver\WriteResult::getServer(): MongoDB\Driver\Server
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager;
-$server = $manager->selectServer(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY));
+$manager = new MongoDB\Driver\Manager;
+$server = $manager->selectServer(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY));
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
 
-$result = $server->executeBulkWrite('db.collection', $bulk);
+$result = $server->executeBulkWrite('db.collection', $bulk);
 
-var_dump($result->getServer() == $server);
+var_dump($result->getServer() == $server);
 
 ?>
 ```

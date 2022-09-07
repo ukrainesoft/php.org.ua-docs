@@ -15,7 +15,7 @@ ldapsearch — Пошук по LDAP дереву
 ### Опис
 
 ```methodsynopsis
-ldap_search(    LDAP\Connection|array $ldap,    array|string $base,    array|string $filter,    array $attributes = [],    int $attributes_only = 0,    int $sizelimit = -1,    int $timelimit = -1,    int $deref = LDAP_DEREF_NEVER,    ?array $controls = null): LDAP\Result|array|false
+ldap_search(    LDAP\Connection|array $ldap,    array|string $base,    array|string $filter,    array $attributes = [],    int $attributes_only = 0,    int $sizelimit = -1,    int $timelimit = -1,    int $deref = LDAP_DEREF_NEVER,    ?array $controls = null): LDAP\Result|array|false
 ```
 
 Виконує пошук для зазначеного фільтра у директорії з межами **`LDAP_SCOPE_SUBTREE`**. Еквівалентний пошук по всьому каталогу.
@@ -34,7 +34,7 @@ ldap_search(    LDAP\Connection|array $ldap,    array|string $base,  �
 
 `filter`
 
-Пошуковий фільтр може бути простим або розширеним, використовуючи булеві оператори у форматі, описаному в документації LDAP (див. [» Netscape Directory SDK](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide/Searching_the_Directory_With_LDAP_C_SDK) або [» RFC4515](http://www.faqs.org/rfcs/rfc4515) для повної інформації про фільтри).
+Пошуковий фільтр може бути простим або розширеним, використовуючи булеві оператори у форматі, описаному в документації LDAP (див. [» Netscape Directory SDK](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide/Searching_the_Directory_With_LDAP_C_SDK) або [» RFC4515](http://www.faqs.org/rfcs/rfc4515) для повної інформації про фільтри).
 
 `attributes`
 
@@ -98,18 +98,18 @@ ldap_search(    LDAP\Connection|array $ldap,    array|string $base,  �
 
 ```php
 <?php
-// $ds допустимый экземпляр LDAP\Connection
+// $ds допустимый экземпляр LDAP\Connection
 
-// $person всё или часть имени человека, н-р "Jo"
+// $person всё или часть имени человека, н-р "Jo"
 
-$dn = "o=My Company, c=US";
+$dn = "o=My Company, c=US";
 $filter="(|(sn=$person*)(givenname=$person*))";
-$justthese = array("ou", "sn", "givenname", "mail");
+$justthese = array("ou", "sn", "givenname", "mail");
 
-$sr=ldap_search($ds, $dn, $filter, $justthese);
+$sr=ldap_search($ds, $dn, $filter, $justthese);
 
-$info = ldap_get_entries($ds, $sr);
+$info = ldap_get_entries($ds, $sr);
 
-echo $info["count"]." записей возвращено\n";
+echo $info["count"]." записей возвращено\n";
 ?>
 ```

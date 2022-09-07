@@ -34,11 +34,11 @@ public SplObjectStorage::serialize(): string
 
 ```php
 <?php
-$s = new SplObjectStorage;
-$o = new StdClass;
-$s[$o] = "data";
+$s = new SplObjectStorage;
+$o = new StdClass;
+$s[$o] = "data";
 
-echo $s->serialize()."\n";
+echo $s->serialize()."\n";
 ?>
 ```
 

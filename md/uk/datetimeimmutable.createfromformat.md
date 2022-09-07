@@ -125,8 +125,8 @@ date_create_immutable_from_format(string $format, string $datetime, ?DateTimeZon
 
 ```php
 <?php
-$date = DateTimeImmutable::createFromFormat('j-M-Y', '15-Feb-2009');
-echo $date->format('Y-m-d');
+$date = DateTimeImmutable::createFromFormat('j-M-Y', '15-Feb-2009');
+echo $date->format('Y-m-d');
 ?>
 ```
 
@@ -134,27 +134,27 @@ echo $date->format('Y-m-d');
 
 ```php
 <?php
-echo 'Текущее время: ' . date('Y-m-d H:i:s') . "\n";
+echo 'Текущее время: ' . date('Y-m-d H:i:s') . "\n";
 
-$format = 'Y-m-d';
-$date = DateTimeImmutable::createFromFormat($format, '2009-02-15');
-echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
+$format = 'Y-m-d';
+$date = DateTimeImmutable::createFromFormat($format, '2009-02-15');
+echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
 
-$format = 'Y-m-d H:i:s';
-$date = DateTimeImmutable::createFromFormat($format, '2009-02-15 15:16:17');
-echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
+$format = 'Y-m-d H:i:s';
+$date = DateTimeImmutable::createFromFormat($format, '2009-02-15 15:16:17');
+echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
 
-$format = 'Y-m-!d H:i:s';
-$date = DateTimeImmutable::createFromFormat($format, '2009-02-15 15:16:17');
-echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
+$format = 'Y-m-!d H:i:s';
+$date = DateTimeImmutable::createFromFormat($format, '2009-02-15 15:16:17');
+echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
 
-$format = '!d';
-$date = DateTimeImmutable::createFromFormat($format, '15');
-echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
+$format = '!d';
+$date = DateTimeImmutable::createFromFormat($format, '15');
+echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
 
-$format = 'i';
-$date = DateTimeImmutable::createFromFormat($format, '15');
-echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
+$format = 'i';
+$date = DateTimeImmutable::createFromFormat($format, '15');
+echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
 ?>
 ```
 
@@ -173,7 +173,7 @@ echo "Формат: $format; " . $date->format('Y-m-d H:i:s') . "\n";
 
 ```php
 <?php
-echo DateTimeImmutable::createFromFormat('H\h i\m s\s','23h 15m 03s')->format('H:i:s');
+echo DateTimeImmutable::createFromFormat('H\h i\m s\s','23h 15m 03s')->format('H:i:s');
 ?>
 ```
 
@@ -187,7 +187,7 @@ echo DateTimeImmutable::createFromFormat('H\h i\m s\s','23h 15m 03s')->form
 
 ```php
 <?php
-echo DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2021-17-35 16:60:97')->format(DateTimeImmutable::RFC2822);
+echo DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2021-17-35 16:60:97')->format(DateTimeImmutable::RFC2822);
 ?>
 ```
 
@@ -208,8 +208,8 @@ Sat, 04 Jun 2022 17:01:37 +0000
 
 ```php
 <?php
-$d = DateTime::createFromFormat(DateTimeInterface::RFC1123, 'Mon, 3 Aug 2020 25:00:00 +0000');
-echo $d->format(DateTime::RFC1123), "\n";
+$d = DateTime::createFromFormat(DateTimeInterface::RFC1123, 'Mon, 3 Aug 2020 25:00:00 +0000');
+echo $d->format(DateTime::RFC1123), "\n";
 ?>
 ```
 
@@ -230,8 +230,8 @@ Mon, 10 Aug 2020 01:00:00 +0000
 
 ```php
 <?php
-$d = DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2021-17-35 16:60:97');
-echo $d->format(DateTimeImmutable::RFC2822), "\n\n";
+$d = DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2021-17-35 16:60:97');
+echo $d->format(DateTimeImmutable::RFC2822), "\n\n";
 
 var_dump(DateTimeImmutable::GetLastErrors());
 ?>

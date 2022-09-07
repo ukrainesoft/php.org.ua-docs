@@ -45,7 +45,7 @@ rpminfo(string $path, bool $full = false, string &$error = ?): array
 ```php
 <?php
 rpmaddtag(RPMTAG_BUILDTIME);
-$info = rpminfo("./php-pecl-rpminfo-0.4.2-1.el8.remi.7.4.x86_64.rpm");
+$info = rpminfo("./php-pecl-rpminfo-0.4.2-1.el8.remi.7.4.x86_64.rpm");
 print_r($info);
 ?>
 ```

@@ -44,8 +44,8 @@ fdf_add_doc_javascript(resource $fdf_document, string $script_name, string $scri
 
 ```php
 <?php
-$fdf = fdf_create();
-fdf_add_doc_javascript($fdf, "PlusOne", "function PlusOne(x)\r{\r  return x+1;\r}\r");
+$fdf = fdf_create();
+fdf_add_doc_javascript($fdf, "PlusOne", "function PlusOne(x)\r{\r  return x+1;\r}\r");
 fdf_save($fdf);
 ?>
 ```

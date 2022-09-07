@@ -25,7 +25,7 @@ public mysqli_stmt::bind_param(string $types, mixed &$var, mixed &...$vars): boo
 Процедурний стиль
 
 ```methodsynopsis
-mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$var,    mixed &...$vars): bool
+mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,    mixed &$var,    mixed &...$vars): bool
 ```
 
 Прив'язує змінні до міток параметрів у SQL-вираженні, яке було підготовлене функцією [mysqliprepare()](mysqli.prepare.md) або [mysqlistmtprepare()](mysqli-stmt.prepare.md)
@@ -76,24 +76,24 @@ mysqli_stmt_bind_param(    mysqli_stmt $statement,    string $types,  
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');
 
-$stmt = $mysqli->prepare("INSERT INTO CountryLanguage VALUES (?, ?, ?, ?)");
-$stmt->bind_param('sssd', $code, $language, $official, $percent);
+$stmt = $mysqli->prepare("INSERT INTO CountryLanguage VALUES (?, ?, ?, ?)");
+$stmt->bind_param('sssd', $code, $language, $official, $percent);
 
-$code = 'DEU';
-$language = 'Bavarian';
-$official = "F";
-$percent = 11.2;
+$code = 'DEU';
+$language = 'Bavarian';
+$official = "F";
+$percent = 11.2;
 
 $stmt->execute();
 
-printf("строк добавлено: %d.\n", $stmt->affected_rows);
+printf("строк добавлено: %d.\n", $stmt->affected_rows);
 
-/* Clean up table CountryLanguage */
-$mysqli->query("DELETE FROM CountryLanguage WHERE Language='Bavarian'");
-printf("строк удалено: %d.\n", $mysqli->affected_rows);
+/* Clean up table CountryLanguage */
+$mysqli->query("DELETE FROM CountryLanguage WHERE Language='Bavarian'");
+printf("строк удалено: %d.\n", $mysqli->affected_rows);
 ```
 
 Процедурний стиль
@@ -101,24 +101,24 @@ printf("строк удалено: %d.\n", $mysqli->affected_rows);
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$link = mysqli_connect('localhost', 'my_user', 'my_password', 'world');
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$link = mysqli_connect('localhost', 'my_user', 'my_password', 'world');
 
-$stmt = mysqli_prepare($link, "INSERT INTO CountryLanguage VALUES (?, ?, ?, ?)");
-mysqli_stmt_bind_param($stmt, 'sssd', $code, $language, $official, $percent);
+$stmt = mysqli_prepare($link, "INSERT INTO CountryLanguage VALUES (?, ?, ?, ?)");
+mysqli_stmt_bind_param($stmt, 'sssd', $code, $language, $official, $percent);
 
-$code = 'DEU';
-$language = 'Bavarian';
-$official = "F";
-$percent = 11.2;
+$code = 'DEU';
+$language = 'Bavarian';
+$official = "F";
+$percent = 11.2;
 
 mysqli_stmt_execute($stmt);
 
-printf("строк добавлено: %d.\n", mysqli_stmt_affected_rows($stmt));
+printf("строк добавлено: %d.\n", mysqli_stmt_affected_rows($stmt));
 
-/* Clean up table CountryLanguage */
-mysqli_query($link, "DELETE FROM CountryLanguage WHERE Language='Bavarian'");
-printf("строк удалено: %d.\n", mysqli_affected_rows($link));
+/* Clean up table CountryLanguage */
+mysqli_query($link, "DELETE FROM CountryLanguage WHERE Language='Bavarian'");
+printf("строк удалено: %d.\n", mysqli_affected_rows($link));
 ```
 
 Результат виконання даних прикладів:
@@ -135,16 +135,16 @@ printf("строк удалено: %d.\n", mysqli_affected_rows($link));
 ```php
 <?php
 
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');
 
-$stmt = $mysqli->prepare("SELECT Language FROM CountryLanguage WHERE CountryCode IN (?, ?)");
-/* использование ... для предоставления аргументов */
-$stmt->bind_param('ss', ...['DEU', 'POL']);
+$stmt = $mysqli->prepare("SELECT Language FROM CountryLanguage WHERE CountryCode IN (?, ?)");
+/* использование ... для предоставления аргументов */
+$stmt->bind_param('ss', ...['DEU', 'POL']);
 $stmt->execute();
 $stmt->store_result();
 
-printf("найдено строк: %d.\n", $stmt->num_rows());
+printf("найдено строк: %d.\n", $stmt->num_rows());
 ```
 
 Результат виконання даних прикладів:

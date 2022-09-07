@@ -15,7 +15,7 @@ swooleeventadd — Додати нових callback-функцій сокету 
 ### Опис
 
 ```methodsynopsis
-swoole_event_add(    int $fd,    callable $read_callback = ?,    callable $write_callback = ?,    int $events = 0): int
+swoole_event_add(    int $fd,    callable $read_callback = ?,    callable $write_callback = ?,    int $events = 0): int
 ```
 
 ### Список параметрів

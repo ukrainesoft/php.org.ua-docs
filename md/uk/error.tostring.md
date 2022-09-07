@@ -34,10 +34,10 @@ public Error::__toString(): string
 
 ```php
 <?php
-try {
-    throw new Error("Сообщение об ошибке");
-} catch(Error $e) {
-    echo $e;
+try {
+    throw new Error("Сообщение об ошибке");
+} catch(Error $e) {
+    echo $e;
 }
 ?>
 ```

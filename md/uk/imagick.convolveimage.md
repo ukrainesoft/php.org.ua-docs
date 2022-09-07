@@ -44,13 +44,13 @@ public Imagick::convolveImage(array $kernel, int $channel = Imagick::CHANNEL_DEF
 
 ```php
 <?php
-function convolveImage($imagePath, $bias, $kernelMatrix) {
-    $imagick = new \Imagick(realpath($imagePath));
-    //$edgeFindingKernel = [-1, -1, -1, -1, 8, -1, -1, -1, -1,];
-    $imagick->setImageBias($bias * \Imagick::getQuantum());
-    $imagick->convolveImage($kernelMatrix);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function convolveImage($imagePath, $bias, $kernelMatrix) {
+    $imagick = new \Imagick(realpath($imagePath));
+    //$edgeFindingKernel = [-1, -1, -1, -1, 8, -1, -1, -1, -1,];
+    $imagick->setImageBias($bias * \Imagick::getQuantum());
+    $imagick->convolveImage($kernelMatrix);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

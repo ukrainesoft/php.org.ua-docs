@@ -40,19 +40,19 @@ public PDOStatement::columnCount(): int
 
 ```php
 <?php
-$dbh = new PDO('odbc:sample', 'db2inst1', 'ibmdb2');
+$dbh = new PDO('odbc:sample', 'db2inst1', 'ibmdb2');
 
-$sth = $dbh->prepare("SELECT name, colour FROM fruit");
+$sth = $dbh->prepare("SELECT name, colour FROM fruit");
 
-/* Подсчёт количества столбцов в (несуществующем) результирующем наборе */
-$colcount = $sth->columnCount();
-print("Перед вызовом execute(), в результирующем наборе $colcount столбцов (должно быть 0)\n");
+/* Подсчёт количества столбцов в (несуществующем) результирующем наборе */
+$colcount = $sth->columnCount();
+print("Перед вызовом execute(), в результирующем наборе $colcount столбцов (должно быть 0)\n");
 
 $sth->execute();
 
-/* Подсчёт количества столбцов в результирующем наборе */
-$colcount = $sth->columnCount();
-print("После вызова execute(), в результирующем наборе $colcount столбцов (должно быть 2)\n");
+/* Подсчёт количества столбцов в результирующем наборе */
+$colcount = $sth->columnCount();
+print("После вызова execute(), в результирующем наборе $colcount столбцов (должно быть 2)\n");
 
 ?>
 ```

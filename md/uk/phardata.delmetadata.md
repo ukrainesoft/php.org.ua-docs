@@ -40,15 +40,15 @@ public PharData::delMetadata(): bool
 
 ```php
 <?php
-try {
-    $phar = new PharData('myphar.zip');
-    var_dump($phar->getMetadata());
-    $phar->setMetadata("привет");
-    var_dump($phar->getMetadata());
-    $phar->delMetadata();
-    var_dump($phar->getMetadata());
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $phar = new PharData('myphar.zip');
+    var_dump($phar->getMetadata());
+    $phar->setMetadata("привет");
+    var_dump($phar->getMetadata());
+    $phar->delMetadata();
+    var_dump($phar->getMetadata());
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

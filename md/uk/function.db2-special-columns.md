@@ -15,7 +15,7 @@ db2specialcolumns — Повертає набір результатів, у я�
 ### Опис
 
 ```methodsynopsis
-db2_special_columns(    resource $connection,    string $qualifier,    string $schema,    string $table_name,    int $scope): resource
+db2_special_columns(    resource $connection,    string $qualifier,    string $schema,    string $table_name,    int $scope): resource
 ```
 
 Повертає набір результатів, у якому перераховані стовпці з унікальним ідентифікатором рядка таблиці.

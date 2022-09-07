@@ -34,15 +34,15 @@ intl_is_failure(int $errorCode): bool
 
 ```php
 <?php
-function check( $err_code )
+function check( $err_code )
 {
-    var_export( intl_is_failure( $err_code ) );
-    echo "\n";
+    var_export( intl_is_failure( $err_code ) );
+    echo "\n";
 }
 
-check( U_ZERO_ERROR );
-check( U_USING_FALLBACK_WARNING );
-check( U_ILLEGAL_ARGUMENT_ERROR );
+check( U_ZERO_ERROR );
+check( U_USING_FALLBACK_WARNING );
+check( U_ILLEGAL_ARGUMENT_ERROR );
 ?>
 ```
 

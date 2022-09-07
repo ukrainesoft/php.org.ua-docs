@@ -15,7 +15,7 @@ opensslpublicdecrypt — Розшифровування даних за допо
 ### Опис
 
 ```methodsynopsis
-openssl_public_decrypt(    string $data,    string &$decrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
+openssl_public_decrypt(    string $data,    string &$decrypted_data,    OpenSSLAsymmetricKey|OpenSSLCertificate|array|string $public_key,    int $padding = OPENSSL_PKCS1_PADDING): bool
 ```
 
 **opensslpublicdecrypt()** розшифровує дані `data`, які раніше були зашифровані за допомогою [opensslprivateencrypt()](function.openssl-private-encrypt.md) і зберігає результат у `decrypted_data`

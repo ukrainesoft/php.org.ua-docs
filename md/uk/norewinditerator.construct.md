@@ -32,19 +32,19 @@ public **NoRewindIterator::construct**[Iterator](class.iterator.md) `$iterator`
 
 ```php
 <?php
-$fruit = array('яблоко', 'банан', 'клюква');
+$fruit = array('яблоко', 'банан', 'клюква');
 
-$arr = new ArrayObject($fruit);
-$it  = new NoRewindIterator($arr->getIterator());
+$arr = new ArrayObject($fruit);
+$it  = new NoRewindIterator($arr->getIterator());
 
-echo "Фрукт А:\n";
-foreach( $it as $item ) {
-    echo $item . "\n";
+echo "Фрукт А:\n";
+foreach( $it as $item ) {
+    echo $item . "\n";
 }
 
-echo "Фрукт Б:\n";
-foreach( $it as $item ) {
-    echo $item . "\n";
+echo "Фрукт Б:\n";
+foreach( $it as $item ) {
+    echo $item . "\n";
 }
 ?>
 ```

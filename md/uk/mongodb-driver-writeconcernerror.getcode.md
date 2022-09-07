@@ -37,17 +37,17 @@ final public MongoDB\Driver\WriteConcernError::getCode(): int
 ```php
 <?php
 
-$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");
+$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");
 
-$bulk = new MongoDB\Driver\BulkWrite;
-$bulk->insert(['x' => 1]);
+$bulk = new MongoDB\Driver\BulkWrite;
+$bulk->insert(['x' => 1]);
 
-$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);
+$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);
 
-try {
-    $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
-} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
-    var_dump($e->getWriteResult()->getWriteConcernError()->getCode());
+try {
+    $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);
+} catch(MongoDB\Driver\Exception\BulkWriteException $e) {
+    var_dump($e->getWriteResult()->getWriteConcernError()->getCode());
 }
 
 ?>
@@ -61,4 +61,4 @@ int(64)
 
 ### Дивіться також
 
--   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)
+-   [» Справка по гарантиям записи](https://www.mongodb.com/docs/manual/reference/write-concern/)

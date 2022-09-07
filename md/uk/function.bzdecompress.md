@@ -30,7 +30,7 @@ bzdecompress(string $data, bool $use_less_memory = false): string|int|false
 
 Якщо **`true`**, то буде використаний альтернативний алгоритм розпакування, що використовує менше пам'яті (максимально потрібна пам'ять знаходиться в районі 2300K), але працює приблизно вдвічі повільніше.
 
-Дивіться [» документацию по bzip2](https://www.sourceware.org/bzip2/) для більш детальної інформації про цю можливість.
+Дивіться [» документацию по bzip2](https://www.sourceware.org/bzip2/) для більш детальної інформації про цю можливість.
 
 ### Значення, що повертаються
 
@@ -48,17 +48,17 @@ bzdecompress(string $data, bool $use_less_memory = false): string|int|false
 
 ```php
 <?php
-$start_str = "This is not an honest face?";
-$bzstr = bzcompress($start_str);
+$start_str = "This is not an honest face?";
+$bzstr = bzcompress($start_str);
 
-echo "Compressed String: ";
-echo $bzstr;
-echo "\n<br />\n";
+echo "Compressed String: ";
+echo $bzstr;
+echo "\n<br />\n";
 
-$str = bzdecompress($bzstr);
-echo "Decompressed String: ";
-echo $str;
-echo "\n<br />\n";
+$str = bzdecompress($bzstr);
+echo "Decompressed String: ";
+echo $str;
+echo "\n<br />\n";
 ?>
 ```
 

@@ -16,16 +16,16 @@ PHP за промовчанням доступний для вашого веб-
 
 Таким чином, PHP та його модулі будуть працювати в Azure App Services так само, як і на будь-якому іншому сервері Windows. Більшість бази знань також портована, дивіться [Windows Troubleshooting Page](install.windows.troubleshooting.md) Тим не менш, інтерфейс керування для Azure App Services має відмінності:
 
--   Azure portal: створення, налаштування та видалення сайтів . [» Azure Portal](https://portal.azure.com/)
+-   Azure portal: створення, налаштування та видалення сайтів . [» Azure Portal](https://portal.azure.com/)
     
--   Панель Kudu: ім'я вашого сайту.azurewebsites.net. Тоді панель Kudu [» https://\[имя вашего сайта\].scm.azurewebsites.net/](https://your_web_site_name.scm.azurewebsites.net/). Панель Kudu дає вам доступ до деяких можливостей налагодження, керування файлами та модулями сайту. Модулі сайту - це механізм Azure для додавання програм, наприклад прев'ю збірок PHP, на ваш сайт.
+-   Панель Kudu: ім'я вашого сайту.azurewebsites.net. Тоді панель Kudu [» https://\[имя вашего сайта\].scm.azurewebsites.net/](https://your_web_site_name.scm.azurewebsites.net/). Панель Kudu дає вам доступ до деяких можливостей налагодження, керування файлами та модулями сайту. Модулі сайту - це механізм Azure для додавання програм, наприклад прев'ю збірок PHP, на ваш сайт.
     
 -   Ви не зможете використовувати IIS Manager, Server Manager або RDP.
     
 
-PHP SDK дозволяє програмно використовувати безліч Azure Services. Дивись [» Azure SDK для PHP](https://github.com/Azure/azure-sdk-for-php)
+PHP SDK дозволяє програмно використовувати безліч Azure Services. Дивись [» Azure SDK для PHP](https://github.com/Azure/azure-sdk-for-php)
 
-Для більш детальної інформації, дивись [» Azure PHP Developer Center](https://azure.microsoft.com/en-us/develop/php/)
+Для більш детальної інформації, дивись [» Azure PHP Developer Center](https://azure.microsoft.com/en-us/develop/php/)
 
 ### WinCache
 

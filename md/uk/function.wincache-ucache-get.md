@@ -42,8 +42,8 @@ wincache_ucache_get(mixed $key, bool &$success = ?): mixed
 
 ```php
 <?php
-wincache_ucache_add('color', 'blue');
-var_dump(wincache_ucache_get('color', $success));
+wincache_ucache_add('color', 'blue');
+var_dump(wincache_ucache_get('color', $success));
 var_dump($success);
 ?>
 ```
@@ -59,10 +59,10 @@ bool(true)
 
 ```php
 <?php
-$array1 = array('green' => '5', 'Blue' => '6', 'yellow' => '7', 'cyan' => '8');
+$array1 = array('green' => '5', 'Blue' => '6', 'yellow' => '7', 'cyan' => '8');
 wincache_ucache_set($array1);
-$array2 = array('green', 'Blue', 'yellow', 'cyan');
-var_dump(wincache_ucache_get($array2, $success));
+$array2 = array('green', 'Blue', 'yellow', 'cyan');
+var_dump(wincache_ucache_get($array2, $success));
 var_dump($success);
 ?>
 ```

@@ -46,8 +46,8 @@ apcu_fetch(mixed $key, bool &$success = ?): mixed
 
 ```php
 <?php
-$bar = 'BAR';
-apcu_store('foo', $bar);
+$bar = 'BAR';
+apcu_store('foo', $bar);
 var_dump(apcu_fetch('foo'));
 ?>
 ```

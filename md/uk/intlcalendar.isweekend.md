@@ -52,17 +52,17 @@ intlcal_is_weekend(IntlCalendar $calendar, ?float $timestamp = null): bool
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('date.timezone', 'Europe/Lisbon');
 
-$cal = new IntlGregorianCalendar(NULL, 'en_US');
-$cal->set(2013, 6 /* Июль */, 7); // Воскресенье
+$cal = new IntlGregorianCalendar(NULL, 'en_US');
+$cal->set(2013, 6 /* Июль */, 7); // Воскресенье
 
-var_dump($cal->isWeekend()); // true
-var_dump($cal->isWeekend(strtotime('2013-07-01 00:00:00'))); // false, Понедельник
+var_dump($cal->isWeekend()); // true
+var_dump($cal->isWeekend(strtotime('2013-07-01 00:00:00'))); // false, Понедельник
 
-$cal = new IntlGregorianCalendar(NULL, 'ar_SA');
-$cal->set(2013, 6 /* Июль */, 7); // Воскресенье
-var_dump($cal->isWeekend()); // false, воскресенье не является выходным днём в этом календаре
+$cal = new IntlGregorianCalendar(NULL, 'ar_SA');
+$cal->set(2013, 6 /* Июль */, 7); // Воскресенье
+var_dump($cal->isWeekend()); // false, воскресенье не является выходным днём в этом календаре
 ```
 
 ### Дивіться також

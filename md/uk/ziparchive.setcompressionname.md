@@ -44,17 +44,17 @@ public ZipArchive::setCompressionName(string $name, int $method, int $compflags 
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip', ZipArchive::CREATE);
-if ($res === TRUE) {
-    $zip->addFromString('foo', 'Некоторый текст');
-    $zip->addFromString('bar', 'Некоторый другой текст');
-    $zip->setCompressionName('foo', ZipArchive::CM_STORE);
-    $zip->setCompressionName('bar', ZipArchive::CM_DEFLATE);
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+$res = $zip->open('test.zip', ZipArchive::CREATE);
+if ($res === TRUE) {
+    $zip->addFromString('foo', 'Некоторый текст');
+    $zip->addFromString('bar', 'Некоторый другой текст');
+    $zip->setCompressionName('foo', ZipArchive::CM_STORE);
+    $zip->setCompressionName('bar', ZipArchive::CM_DEFLATE);
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```
@@ -63,15 +63,15 @@ if ($res === TRUE) {
 
 ```php
 <?php
-$zip = new ZipArchive;
-$res = $zip->open('test.zip', ZipArchive::CREATE);
-if ($res === TRUE) {
-    $zip->addFile('foo.jpg', 'bar.jpg');
-    $zip->setCompressionName('bar.jpg', ZipArchive::CM_XZ);
-    $zip->close();
-    echo 'готово';
-} else {
-    echo 'ошибка';
+$zip = new ZipArchive;
+$res = $zip->open('test.zip', ZipArchive::CREATE);
+if ($res === TRUE) {
+    $zip->addFile('foo.jpg', 'bar.jpg');
+    $zip->setCompressionName('bar.jpg', ZipArchive::CM_XZ);
+    $zip->close();
+    echo 'готово';
+} else {
+    echo 'ошибка';
 }
 ?>
 ```

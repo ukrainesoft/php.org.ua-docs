@@ -47,8 +47,8 @@ uopz_restore(string $class, string $function): void
 ```php
 <?php
 uopz_backup("fgets");
-uopz_function("fgets", function(){
-    return true;
+uopz_function("fgets", function(){
+    return true;
 });
 var_dump(fgets());
 uopz_restore('fgets');

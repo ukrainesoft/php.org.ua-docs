@@ -83,7 +83,7 @@ const
 
     /* Методы */
     
-   public __construct(    RecursiveIterator|IteratorAggregate $iterator,    int $flags = RecursiveTreeIterator::BYPASS_KEY,    int $cachingIteratorFlags = CachingIterator::CATCH_GET_CHILD,    int $mode = RecursiveTreeIterator::SELF_FIRST)
+   public __construct(    RecursiveIterator|IteratorAggregate $iterator,    int $flags = RecursiveTreeIterator::BYPASS_KEY,    int $cachingIteratorFlags = CachingIterator::CATCH_GET_CHILD,    int $mode = RecursiveTreeIterator::SELF_FIRST)
 
     public beginChildren(): void
 public beginIteration(): RecursiveIterator

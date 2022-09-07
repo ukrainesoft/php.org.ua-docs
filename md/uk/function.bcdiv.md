@@ -51,7 +51,7 @@ bcdiv(string $num1, string $num2, ?int $scale = null): string
 ```php
 <?php
 
-echo bcdiv('105', '6.55957', 3);  // 16.007
+echo bcdiv('105', '6.55957', 3);  // 16.007
 
 ?>
 ```

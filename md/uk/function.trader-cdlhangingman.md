@@ -15,7 +15,7 @@ tradercdlhangingman — Вісельник
 ### Опис
 
 ```methodsynopsis
-trader_cdlhangingman(    array $open,    array $high,    array $low,    array $close): array
+trader_cdlhangingman(    array $open,    array $high,    array $low,    array $close): array
 ```
 
 ### Список параметрів

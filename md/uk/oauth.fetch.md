@@ -15,7 +15,7 @@ OAuth::fetch — Витягти захищений ресурс OAuth
 ### Опис
 
 ```methodsynopsis
-public OAuth::fetch(    string $protected_resource_url,    array $extra_parameters = ?,    string $http_method = ?,    array $http_headers = ?): mixed
+public OAuth::fetch(    string $protected_resource_url,    array $extra_parameters = ?,    string $http_method = ?,    array $http_headers = ?): mixed
 ```
 
 Витягти ресурс.
@@ -58,18 +58,18 @@ HEAD (**`OAUTH_HTTP_METHOD_HEAD`**) може бути корисним для в
 
 ```php
 <?php
-try {
-    $oauth = new OAuth("consumer_key","consumer_secret",OAUTH_SIG_METHOD_HMACSHA1,OAUTH_AUTH_TYPE_AUTHORIZATION);
-    $oauth->setToken("access_token","access_token_secret");
+try {
+    $oauth = new OAuth("consumer_key","consumer_secret",OAUTH_SIG_METHOD_HMACSHA1,OAUTH_AUTH_TYPE_AUTHORIZATION);
+    $oauth->setToken("access_token","access_token_secret");
 
-    $oauth->fetch("http://photos.example.net/photo?file=vacation.jpg");
+    $oauth->fetch("http://photos.example.net/photo?file=vacation.jpg");
 
-    $response_info = $oauth->getLastResponseInfo();
-    header("Content-Type: {$response_info["content_type"]}");
-    echo $oauth->getLastResponse();
-} catch(OAuthException $E) {
-    echo "Поймали исключение!\n";
-    echo "Ответ: ". $E->lastResponse . "\n";
+    $response_info = $oauth->getLastResponseInfo();
+    header("Content-Type: {$response_info["content_type"]}");
+    echo $oauth->getLastResponse();
+} catch(OAuthException $E) {
+    echo "Поймали исключение!\n";
+    echo "Ответ: ". $E->lastResponse . "\n";
 }
 ?>
 ```

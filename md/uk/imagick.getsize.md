@@ -38,17 +38,17 @@ public Imagick::getSize(): array
 
 ```php
 <?php
-//Устанавливаем размер и загружаем изображение
-$img = new Imagick();
-$img->setSize(200, 400);
+//Устанавливаем размер и загружаем изображение
+$img = new Imagick();
+$img->setSize(200, 400);
 $img->readImage("image.rgb");
 
-$img->scaleImage(400, 800);
+$img->scaleImage(400, 800);
 
-$size = $img->getSize();
+$size = $img->getSize();
 print_r($size);
 
-echo $img->getImageWidth()."x".$img->getImageHeight();
+echo $img->getImageWidth()."x".$img->getImageHeight();
 ?>
 ```
 

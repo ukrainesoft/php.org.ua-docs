@@ -44,12 +44,12 @@ public Imagick::adaptiveThresholdImage(int $width, int $height, int $offset): bo
 
 ```php
 <?php
-function adaptiveThresholdImage($imagePath, $width, $height, $adaptiveOffset) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $adaptiveOffsetQuantum = intval($adaptiveOffset * \Imagick::getQuantum());
-    $imagick->adaptiveThresholdImage($width, $height, $adaptiveOffsetQuantum);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function adaptiveThresholdImage($imagePath, $width, $height, $adaptiveOffset) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $adaptiveOffsetQuantum = intval($adaptiveOffset * \Imagick::getQuantum());
+    $imagick->adaptiveThresholdImage($width, $height, $adaptiveOffsetQuantum);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

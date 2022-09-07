@@ -24,24 +24,24 @@ title: Константи класів
 
 ```php
 <?php
-class MyClass
+class MyClass
 {
-    const CONSTANT = 'значение константы';
+    const CONSTANT = 'значение константы';
 
-    function showConstant() {
-        echo  self::CONSTANT . "\n";
-    }
+    function showConstant() {
+        echo  self::CONSTANT . "\n";
+    }
 }
 
-echo MyClass::CONSTANT . "\n";
+echo MyClass::CONSTANT . "\n";
 
-$classname = "MyClass";
-echo $classname::CONSTANT . "\n";
+$classname = "MyClass";
+echo $classname::CONSTANT . "\n";
 
-$class = new MyClass();
+$class = new MyClass();
 $class->showConstant();
 
-echo $class::CONSTANT."\n";
+echo $class::CONSTANT."\n";
 ?>
 ```
 
@@ -51,11 +51,11 @@ echo $class::CONSTANT."\n";
 
 ```php
 <?php
-namespace foo {
-    class bar {
-    }
+namespace foo {
+    class bar {
+    }
 
-    echo bar::class; // foo\bar
+    echo bar::class; // foo\bar
 }
 ?>
 ```
@@ -64,12 +64,12 @@ namespace foo {
 
 ```php
 <?php
-const ONE = 1;
+const ONE = 1;
 
-class foo {
-    const TWO = ONE * 2;
-    const THREE = ONE + self::TWO;
-    const SENTENCE = 'Значение константы THREE - ' . self::THREE;
+class foo {
+    const TWO = ONE * 2;
+    const THREE = ONE + self::TWO;
+    const SENTENCE = 'Значение константы THREE - ' . self::THREE;
 }
 ?>
 ```
@@ -78,12 +78,12 @@ class foo {
 
 ```php
 <?php
-class Foo {
-    public const BAR = 'bar';
-    private const BAZ = 'baz';
+class Foo {
+    public const BAR = 'bar';
+    private const BAZ = 'baz';
 }
-echo Foo::BAR, PHP_EOL;
-echo Foo::BAZ, PHP_EOL;
+echo Foo::BAR, PHP_EOL;
+echo Foo::BAZ, PHP_EOL;
 ?>
 ```
 

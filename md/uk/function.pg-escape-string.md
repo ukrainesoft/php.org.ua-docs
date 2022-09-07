@@ -54,17 +54,17 @@ pg_escape_string(PgSql\Connection $connection = ?, string $data): string
 
 ```php
 <?php
-  // Подключение к базе данных
-  $dbconn = pg_connect('dbname=foo');
+  // Подключение к базе данных
+  $dbconn = pg_connect('dbname=foo');
 
-  // Чтение текстового файла (содержащего апострофы и обратные слеши)
-  $data = file_get_contents('letter.txt');
+  // Чтение текстового файла (содержащего апострофы и обратные слеши)
+  $data = file_get_contents('letter.txt');
 
-  // Экранирование спецсимволов в строке
-  $escaped = pg_escape_string($data);
+  // Экранирование спецсимволов в строке
+  $escaped = pg_escape_string($data);
 
-  // Вставка в таблицу базы данных
-  pg_query("INSERT INTO correspondence (name, data) VALUES ('My letter', '{$escaped}')");
+  // Вставка в таблицу базы данных
+  pg_query("INSERT INTO correspondence (name, data) VALUES ('My letter', '{$escaped}')");
 ?>
 ```
 

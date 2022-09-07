@@ -48,11 +48,11 @@ uopz_set_static(string $class, string $function, array $static): void
 
 ```php
 <?php
-function foo() {
-    static $bar = 'baz';
-    var_dump($bar);
+function foo() {
+    static $bar = 'baz';
+    var_dump($bar);
 }
-uopz_set_static('foo', ['bar' => 'qux']);
+uopz_set_static('foo', ['bar' => 'qux']);
 foo();
 ?>
 ```

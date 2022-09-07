@@ -36,15 +36,15 @@ public ReflectionEnum::hasCase(string $name): bool
 
 ```php
 <?php
-enum Suit
+enum Suit
 {
-    case Hearts;
-    case Diamonds;
-    case Clubs;
-    case Spades;
+    case Hearts;
+    case Diamonds;
+    case Clubs;
+    case Spades;
 }
 
-$rEnum = new ReflectionEnum(Suit::class);
+$rEnum = new ReflectionEnum(Suit::class);
 
 var_dump($rEnum->hasCase('Hearts'));
 var_dump($rEnum->hasCase('Horseshoes'));

@@ -42,10 +42,10 @@ lstat(string $filename): array|false
 
 ```php
 <?php
-symlink('uploads.php', 'uploads');
+symlink('uploads.php', 'uploads');
 
-// Отличия между uploads.php и uploads
-array_diff(stat('uploads'), lstat('uploads'));
+// Отличия между uploads.php и uploads
+array_diff(stat('uploads'), lstat('uploads'));
 ?>
 ```
 

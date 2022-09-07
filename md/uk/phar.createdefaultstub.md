@@ -24,7 +24,7 @@ Phar-архіви містять завантажувач (`stub`), написа
 
 ```php
 <?php
-include 'myphar.phar';
+include 'myphar.phar';
 ?>
 ```
 
@@ -66,11 +66,11 @@ php myphar.phar
 
 ```php
 <?php
-try {
-    $phar = new Phar('myphar.phar');
-    $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));
-} catch (Exception $e) {
-    // обработка ошибок
+try {
+    $phar = new Phar('myphar.phar');
+    $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));
+} catch (Exception $e) {
+    // обработка ошибок
 }
 ?>
 ```

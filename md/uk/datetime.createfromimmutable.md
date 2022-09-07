@@ -34,8 +34,8 @@ public static DateTime::createFromImmutable(DateTimeImmutable $object): DateTime
 
 ```php
 <?php
-$date = new DateTimeImmutable("2014-06-20 11:45 Europe/London");
+$date = new DateTimeImmutable("2014-06-20 11:45 Europe/London");
 
-$mutable = DateTime::createFromImmutable( $date );
+$mutable = DateTime::createFromImmutable( $date );
 ?>
 ```

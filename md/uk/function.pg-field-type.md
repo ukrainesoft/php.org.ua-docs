@@ -54,12 +54,12 @@ pg_field_type(PgSql\Result $result, int $field): string
 
 ```php
 <?php
-  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
+  $dbconn = pg_connect("dbname=publisher") or die("Не удалось соединиться с базой");
 
-  // Положим, 'title' имеет тип varchar
-  $res = pg_query($dbconn, "select title from authors where author = 'Orwell'");
+  // Положим, 'title' имеет тип varchar
+  $res = pg_query($dbconn, "select title from authors where author = 'Orwell'");
 
-  echo "Title field type: ", pg_field_type($res, 0);
+  echo "Title field type: ", pg_field_type($res, 0);
 ?>
 ```
 

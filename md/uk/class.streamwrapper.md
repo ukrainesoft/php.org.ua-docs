@@ -61,7 +61,7 @@ public stream_eof(): bool
 public stream_flush(): bool
 public stream_lock(int $operation): bool
 public stream_metadata(string $path, int $option, mixed $value): bool
-public stream_open(    string $path,    string $mode,    int $options,    ?string &$opened_path): bool
+public stream_open(    string $path,    string $mode,    int $options,    ?string &$opened_path): bool
 public stream_read(int $count): string|false
 public stream_seek(int $offset, int $whence  = SEEK_SET): bool
 public stream_set_option(int $option, int $arg1, int $arg2): bool

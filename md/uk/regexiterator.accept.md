@@ -36,10 +36,10 @@ public RegexIterator::accept(): bool
 
 ```php
 <?php
-$names = new ArrayIterator(array('Ann', 'Bob', 'Charlie', 'David'));
-$filter = new RegexIterator($names, '/^[B-D]/');
-foreach ($filter as $name) {
-    echo $name . PHP_EOL;
+$names = new ArrayIterator(array('Ann', 'Bob', 'Charlie', 'David'));
+$filter = new RegexIterator($names, '/^[B-D]/');
+foreach ($filter as $name) {
+    echo $name . PHP_EOL;
 }
 ?>
 ```

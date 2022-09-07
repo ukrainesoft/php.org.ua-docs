@@ -15,7 +15,7 @@ eiosymlink — Створює символічне посилання
 ### Опис
 
 ```methodsynopsis
-eio_symlink(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
+eio_symlink(    string $path,    string $new_path,    int $pri = EIO_PRI_DEFAULT,    callable $callback = NULL,    mixed $data = NULL): resource
 ```
 
 **eiosymlink()** створює символічне посилання `new_path` на шлях `path`
@@ -39,7 +39,7 @@ eio_symlink(    string $path,    string $new_path,    int $pri = EIO
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -68,29 +68,29 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-$filename = dirname(__FILE__)."/symlink.dat";
+$filename = dirname(__FILE__)."/symlink.dat";
 touch($filename);
-$link = dirname(__FILE__)."/symlink.link";
+$link = dirname(__FILE__)."/symlink.link";
 
-function my_symlink_cb($data, $result) {
-    global $link, $filename;
-    var_dump(file_exists($data) && is_link($data));
+function my_symlink_cb($data, $result) {
+    global $link, $filename;
+    var_dump(file_exists($data) && is_link($data));
 
-    if (!eio_readlink($data, EIO_PRI_DEFAULT, "my_readlink_cb", NULL)) {
-        @unlink($link);
-        @unlink($filename);
-    }
+    if (!eio_readlink($data, EIO_PRI_DEFAULT, "my_readlink_cb", NULL)) {
+        @unlink($link);
+        @unlink($filename);
+    }
 }
 
-function my_readlink_cb($data, $result) {
-    global $filename, $link;
-    var_dump($result);
+function my_readlink_cb($data, $result) {
+    global $filename, $link;
+    var_dump($result);
 
-    @unlink($link);
-    @unlink($filename);
+    @unlink($link);
+    @unlink($filename);
 }
 
-eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_cb", $link);
+eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_cb", $link);
 eio_event_loop();
 ?>
 ```

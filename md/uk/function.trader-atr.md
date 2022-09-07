@@ -15,7 +15,7 @@ traderatr — Середній дійсний діапазон
 ### Опис
 
 ```methodsynopsis
-trader_atr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
+trader_atr(    array $high,    array $low,    array $close,    int $timePeriod = ?): array
 ```
 
 ### Список параметрів

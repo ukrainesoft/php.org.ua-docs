@@ -15,7 +15,7 @@ filterinput - Приймає змінну ззовні PHP і, при необх
 ### Опис
 
 ```methodsynopsis
-filter_input(    int $type,    string $var_name,    int $filter = FILTER_DEFAULT,    array|int $options = 0): mixed
+filter_input(    int $type,    string $var_name,    int $filter = FILTER_DEFAULT,    array|int $options = 0): mixed
 ```
 
 ### Список параметрів
@@ -48,10 +48,10 @@ filter_input(    int $type,    string $var_name,    int $filter = FI
 
 ```php
 <?php
-$search_html = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
-$search_url = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_ENCODED);
-echo "Вы искали $search_html.\n";
-echo "<a href='?search=$search_url'>Искать снова.</a>";
+$search_html = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
+$search_url = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_ENCODED);
+echo "Вы искали $search_html.\n";
+echo "<a href='?search=$search_url'>Искать снова.</a>";
 ?>
 ```
 

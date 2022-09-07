@@ -15,7 +15,7 @@ eioreadlink — Читає значення символічного посил�
 ### Опис
 
 ```methodsynopsis
-eio_readlink(    string $path,    int $pri,    callable $callback,    mixed $data = NULL): resource
+eio_readlink(    string $path,    int $pri,    callable $callback,    mixed $data = NULL): resource
 ```
 
 ### Список параметрів
@@ -33,7 +33,7 @@ eio_readlink(    string $path,    int $pri,    callable $callback, 
 Функція `callback` викликається після завершення запиту. Вона повинна задовольняти наступний прототип:
 
 ```php
-void callback(mixed $data, int $result[, resource $req]);
+void callback(mixed $data, int $result[, resource $req]);
 ```
 
 `data`
@@ -62,38 +62,38 @@ void callback(mixed $data, int $result[, resource $req]);
 
 ```php
 <?php
-$filename = dirname(__FILE__)."/symlink.dat";
+$filename = dirname(__FILE__)."/symlink.dat";
 touch($filename);
-$link = dirname(__FILE__)."/symlink.link";
-$hardlink = dirname(__FILE__)."/hardlink.link";
+$link = dirname(__FILE__)."/symlink.link";
+$hardlink = dirname(__FILE__)."/hardlink.link";
 
-function my_hardlink_cb($data, $result) {
-    global $link, $filename;
-    var_dump(file_exists($data) && !is_link($data));
-    @unlink($data);
+function my_hardlink_cb($data, $result) {
+    global $link, $filename;
+    var_dump(file_exists($data) && !is_link($data));
+    @unlink($data);
 
-    eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_cb", $link);
+    eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_cb", $link);
 }
 
-function my_symlink_cb($data, $result) {
-    global $link, $filename;
-    var_dump(file_exists($data) && is_link($data));
+function my_symlink_cb($data, $result) {
+    global $link, $filename;
+    var_dump(file_exists($data) && is_link($data));
 
-    if (!eio_readlink($data, EIO_PRI_DEFAULT, "my_readlink_cb", NULL)) {
-        @unlink($link);
-        @unlink($filename);
-    }
+    if (!eio_readlink($data, EIO_PRI_DEFAULT, "my_readlink_cb", NULL)) {
+        @unlink($link);
+        @unlink($filename);
+    }
 }
 
-function my_readlink_cb($data, $result) {
-    global $filename, $link;
-    var_dump($result);
+function my_readlink_cb($data, $result) {
+    global $filename, $link;
+    var_dump($result);
 
-    @unlink($link);
-    @unlink($filename);
+    @unlink($link);
+    @unlink($filename);
 }
 
-eio_link($filename, $hardlink, EIO_PRI_DEFAULT, "my_hardlink_cb", $hardlink);
+eio_link($filename, $hardlink, EIO_PRI_DEFAULT, "my_hardlink_cb", $hardlink);
 eio_event_loop();
 ?>
 ```

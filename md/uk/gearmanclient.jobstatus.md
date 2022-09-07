@@ -41,33 +41,33 @@ public GearmanClient::jobStatus(string $job_handle): array
 ```php
 <?php
 
-/* создаём клиента */
-$gmclient= new GearmanClient();
+/* создаём клиента */
+$gmclient= new GearmanClient();
 
-/* добавляем сервер по умолчанию */
+/* добавляем сервер по умолчанию */
 $gmclient->addServer();
 
-/* запускаем клиент */
-$job_handle = $gmclient->doBackground("reverse", "this is a test");
+/* запускаем клиент */
+$job_handle = $gmclient->doBackground("reverse", "this is a test");
 
-if ($gmclient->returnCode() != GEARMAN_SUCCESS)
+if ($gmclient->returnCode() != GEARMAN_SUCCESS)
 {
-  echo "Не удалось выполнить задание\n";
-  exit;
+  echo "Не удалось выполнить задание\n";
+  exit;
 }
 
-$done = false;
+$done = false;
 do
 {
-   sleep(3);
-   $stat = $gmclient->jobStatus($job_handle);
-   if (!$stat[0]) // задание известно обработчику, но ещё не завершено
-      $done = true;
-   echo "Выполняется: " . ($stat[1] ? "true" : "false") . ", обработано: " . $stat[2] . ", всего: " . $stat[3] . "\n";
+   sleep(3);
+   $stat = $gmclient->jobStatus($job_handle);
+   if (!$stat[0]) // задание известно обработчику, но ещё не завершено
+      $done = true;
+   echo "Выполняется: " . ($stat[1] ? "true" : "false") . ", обработано: " . $stat[2] . ", всего: " . $stat[3] . "\n";
 }
 while(!$done);
 
-echo "завершено!\n";
+echo "завершено!\n";
 
 ?>
 ```

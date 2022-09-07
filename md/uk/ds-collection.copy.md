@@ -34,8 +34,8 @@ abstract public Ds\Collection::copy(): Ds\Collection
 
 ```php
 <?php
-$a = new \Ds\Vector([1, 2, 3]);
-$b = $a->copy();
+$a = new \Ds\Vector([1, 2, 3]);
+$b = $a->copy();
 
 $b->push(4);
 

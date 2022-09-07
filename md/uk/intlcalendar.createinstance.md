@@ -59,25 +59,25 @@ intlcal_create_instance(IntlTimeZone|DateTimeZone|string|null $timezone = null, 
 
 ```php
 <?php
-ini_set('intl.default_locale', 'es_ES');
-ini_set('date.timezone', 'Europe/Madrid');
+ini_set('intl.default_locale', 'es_ES');
+ini_set('date.timezone', 'Europe/Madrid');
 
-$cal = IntlCalendar::createInstance();
-echo "Без аргументов\n";
+$cal = IntlCalendar::createInstance();
+echo "Без аргументов\n";
 var_dump(get_class($cal),
-        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
-echo "\n";
+        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
+echo "\n";
 
-echo "Явное указание часового пояса\n";
-$cal = IntlCalendar::createInstance(IntlTimeZone::getGMT());
+echo "Явное указание часового пояса\n";
+$cal = IntlCalendar::createInstance(IntlTimeZone::getGMT());
 var_dump(get_class($cal),
-        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
-echo "\n";
+        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
+echo "\n";
 
-echo "Явное указание языкового стандарта (с календарём)\n";
-$cal = IntlCalendar::createInstance(NULL, 'es_ES@calendar=persian');
+echo "Явное указание языкового стандарта (с календарём)\n";
+$cal = IntlCalendar::createInstance(NULL, 'es_ES@calendar=persian');
 var_dump(get_class($cal),
-        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
+        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
 ```
 
 Результат виконання цього прикладу:

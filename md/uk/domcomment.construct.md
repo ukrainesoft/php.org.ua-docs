@@ -31,10 +31,10 @@ public **DOMComment::construct**(string `$data` = "")
 ```php
 <?php
 
-$dom = new DOMDocument('1.0', 'iso-8859-1');
-$element = $dom->appendChild(new DOMElement('root'));
-$comment = $element->appendChild(new DOMComment('root comment'));
-echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root><!--root comment--></root> */
+$dom = new DOMDocument('1.0', 'iso-8859-1');
+$element = $dom->appendChild(new DOMElement('root'));
+$comment = $element->appendChild(new DOMComment('root comment'));
+echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root><!--root comment--></root> */
 
 ?>
 ```

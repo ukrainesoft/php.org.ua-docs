@@ -46,9 +46,9 @@ get_browser(?string $user_agent = null, bool $return_array = false): object|arra
 
 ```php
 <?php
-echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
 
-$browser = get_browser(null, true);
+$browser = get_browser(null, true);
 print_r($browser);
 ?>
 ```
@@ -95,6 +95,6 @@ Array
 > 
 > Для роботи цієї функції необхідно, щоб в установці [browscap](misc.configuration.md#ini.browscap) в налаштуваннях php.ini було встановлено коректний шлях до файлу browscap.ini у вашій системі.
 > 
-> browscap.ini не постачається з PHP, але ви можете останню його версію тут: [» phpbrowscap.ini](http://browscap.org/)
+> browscap.ini не постачається з PHP, але ви можете останню його версію тут: [» phpbrowscap.ini](http://browscap.org/)
 > 
 > browscap.ini містить інформацію про більшість браузерів, що вимагає оновлень для підтримки його бази актуальної Формат файлу досить очевидний.

@@ -40,17 +40,17 @@ public static QuickHashIntHash::loadFromString(string $contents, int $options = 
 
 ```php
 <?php
-$contents = file_get_contents( dirname( __FILE__ ) . "/simple.hash" );
-$hash = QuickHashIntHash::loadFromString(
-    $contents,
-    QuickHashIntHash::DO_NOT_USE_ZEND_ALLOC
+$contents = file_get_contents( dirname( __FILE__ ) . "/simple.hash" );
+$hash = QuickHashIntHash::loadFromString(
+    $contents,
+    QuickHashIntHash::DO_NOT_USE_ZEND_ALLOC
 );
-foreach( range( 0, 0x0f ) as $key )
+foreach( range( 0, 0x0f ) as $key )
 {
-    printf( "Ключ %3d (%2x) %s\n",
-        $key, $key,
-        $hash->exists( $key ) ? 'установлен' : 'не установлен'
-    );
+    printf( "Ключ %3d (%2x) %s\n",
+        $key, $key,
+        $hash->exists( $key ) ? 'установлен' : 'не установлен'
+    );
 }
 ?>
 ```

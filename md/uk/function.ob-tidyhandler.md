@@ -42,7 +42,7 @@ ob_tidyhandler(string $input, int $mode = ?): string
 <?php
 ob_start('ob_tidyhandler');
 
-echo '<p>test</i>';
+echo '<p>test</i>';
 ?>
 ```
 

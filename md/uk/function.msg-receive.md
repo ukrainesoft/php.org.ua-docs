@@ -15,7 +15,7 @@ msgreceive — отримання повідомлення з черги пов�
 ### Опис
 
 ```methodsynopsis
-msg_receive(    SysvMessageQueue $queue,    int $desired_message_type,    int &$received_message_type,    int $max_message_size,    mixed &$message,    bool $unserialize = true,    int $flags = 0,    int &$error_code = null): bool
+msg_receive(    SysvMessageQueue $queue,    int $desired_message_type,    int &$received_message_type,    int $max_message_size,    mixed &$message,    bool $unserialize = true,    int $flags = 0,    int &$error_code = null): bool
 ```
 
 **msgreceive()** отримує перше повідомлення з параметром, що задається `queue` черги повідомлень з типом, зазначеним у `desired_message_type`

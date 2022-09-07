@@ -48,10 +48,10 @@ intlcal_get_locale(IntlCalendar $calendar, int $type): string|false
 
 ```php
 <?php
-$cal = IntlCalendar::createInstance(IntlTimeZone::getGMT(), 'en_US_CALIFORNIA');
+$cal = IntlCalendar::createInstance(IntlTimeZone::getGMT(), 'en_US_CALIFORNIA');
 var_dump(
-    $cal->getLocale(Locale::ACTUAL_LOCALE),
-    $cal->getLocale(Locale::VALID_LOCALE)
+    $cal->getLocale(Locale::ACTUAL_LOCALE),
+    $cal->getLocale(Locale::VALID_LOCALE)
 );
 ```
 

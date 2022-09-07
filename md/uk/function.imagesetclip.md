@@ -15,7 +15,7 @@ imagesetclip — Встановіть прямокутник обмеження
 ### Опис
 
 ```methodsynopsis
-imagesetclip(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2): bool
+imagesetclip(    GdImage $image,    int $x1,    int $y1,    int $x2,    int $y2): bool
 ```
 
 **imagesetclip()** ставить поточний прямокутник обмеження, тобто. область, за межами якої не відображатимуться пікселі.

@@ -44,13 +44,13 @@ wddx_serialize_vars(mixed $var_name, mixed ...$var_names): string
 
 ```php
 <?php
-$a = 1;
-$b = 5.5;
-$c = array("blue", "orange", "violet");
-$d = "colors";
+$a = 1;
+$b = 5.5;
+$c = array("blue", "orange", "violet");
+$d = "colors";
 
-$clvars = array("c", "d");
-echo wddx_serialize_vars("a", "b", $clvars);
+$clvars = array("c", "d");
+echo wddx_serialize_vars("a", "b", $clvars);
 ?>
 ```
 

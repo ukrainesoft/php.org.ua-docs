@@ -36,14 +36,14 @@ closedir(?resource $dir_handle = null): void
 
 ```php
 <?php
-$dir = "/etc/php5/";
+$dir = "/etc/php5/";
 
-// Открываем известную директорию, читаем её в переменную и закрываем
-if (is_dir($dir)) {
-    if ($dh = opendir($dir)) {
-        $directory = readdir($dh);
-        closedir($dh);
-    }
+// Открываем известную директорию, читаем её в переменную и закрываем
+if (is_dir($dir)) {
+    if ($dh = opendir($dir)) {
+        $directory = readdir($dh);
+        closedir($dh);
+    }
 }
 ?>
 ```

@@ -44,8 +44,8 @@ gmp_mul(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ```php
 <?php
-$mul = gmp_mul("12345678", "2000");
-echo gmp_strval($mul) . "\n";
+$mul = gmp_mul("12345678", "2000");
+echo gmp_strval($mul) . "\n";
 ?>
 ```
 

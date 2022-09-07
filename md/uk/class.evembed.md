@@ -39,16 +39,16 @@ title: Клас EvEmbed
     /* Методы */
     
    public
-   __construct(    
+   __construct(    
     object
      $other
-   ,    
+   ,    
     callable
      $callback
-    = ?,    
+    = ?,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?)
@@ -56,16 +56,16 @@ title: Клас EvEmbed
     final
    public
    static
-   createStopped(    
+   createStopped(    
     object
      $other
-   ,    
+   ,    
     callable
      $callback
-    = ?,    
+    = ?,    
     mixed
      $data
-    = ?,    
+    = ?,    
     int
      $priority
     = ?): void

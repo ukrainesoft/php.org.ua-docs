@@ -39,12 +39,12 @@ public SolrDisMaxQuery::addBigramPhraseField(string $field, string $boost, strin
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery = new SolrDisMaxQuery("lucene");
 $dismaxQuery
-    ->addBigramPhraseField('cat', 2, 5.1)
-    ->addBigramPhraseField('feature', 4.5)
+    ->addBigramPhraseField('cat', 2, 5.1)
+    ->addBigramPhraseField('feature', 4.5)
 ;
-echo $dismaxQuery;
+echo $dismaxQuery;
 
 ?>
 ```

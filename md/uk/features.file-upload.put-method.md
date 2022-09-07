@@ -26,18 +26,18 @@ Script PUT /put.php
 
 ```php
 <?php
-/* PUT данные приходят в потоке ввода stdin */
-$putdata = fopen("php://input", "r");
+/* PUT данные приходят в потоке ввода stdin */
+$putdata = fopen("php://input", "r");
 
-/* Открываем файл на запись */
-$fp = fopen("myputfile.ext", "w");
+/* Открываем файл на запись */
+$fp = fopen("myputfile.ext", "w");
 
-/* Читаем 1 KB данных за один раз
-   и пишем в файл */
-while ($data = fread($putdata, 1024))
-  fwrite($fp, $data);
+/* Читаем 1 KB данных за один раз
+   и пишем в файл */
+while ($data = fread($putdata, 1024))
+  fwrite($fp, $data);
 
-/* Закрываем потоки */
+/* Закрываем потоки */
 fclose($fp);
 fclose($putdata);
 ?>

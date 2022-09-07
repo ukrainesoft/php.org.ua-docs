@@ -41,14 +41,14 @@ public SolrDisMaxQuery::addQueryField(string $field, string $boost = ?): SolrDis
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery("lucene");
+$dismaxQuery = new SolrDisMaxQuery("lucene");
 $dismaxQuery
-    ->addQueryField("location", 4)
-    ->addQueryField("price")
-    ->addQueryField("sku")
-    ->addQueryField("title",3.4)
+    ->addQueryField("location", 4)
+    ->addQueryField("price")
+    ->addQueryField("sku")
+    ->addQueryField("title",3.4)
 ;
-echo $dismaxQuery;
+echo $dismaxQuery;
 
 ?>
 ```

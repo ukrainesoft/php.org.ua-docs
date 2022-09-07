@@ -15,7 +15,7 @@ title: 'ОЙDrawPath::lineTo'
 ### Опис
 
 ```methodsynopsis
-public UI\Draw\Path::lineTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
+public UI\Draw\Path::lineTo(    UI\Point $point,    float $radius,    float $angle,    float $sweep,    float $negative)
 ```
 
 Намалює шлях лінії

@@ -34,11 +34,11 @@ public SplFileObject::fstat(): array
 
 ```php
 <?php
-$file = new SplFileObject("/etc/passwd");
-$stat = $file->fstat();
+$file = new SplFileObject("/etc/passwd");
+$stat = $file->fstat();
 
-// Печать только ассоциативной части
-print_r(array_slice($stat, 13));
+// Печать только ассоциативной части
+print_r(array_slice($stat, 13));
 
 ?>
 ```

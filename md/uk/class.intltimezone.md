@@ -55,7 +55,7 @@ public getErrorMessage(): string|false
 public static getGMT(): IntlTimeZone
 public getID(): string|false
 public static getIDForWindowsID(string $timezoneId, ?string $region = null): string|false
-public getOffset(    float $timestamp,    bool $local,    int &$rawOffset,    int &$dstOffset): bool
+public getOffset(    float $timestamp,    bool $local,    int &$rawOffset,    int &$dstOffset): bool
 public getRawOffset(): int
 public static getRegion(string $timezoneId): string|false
 public static getTZDataVersion(): string|false

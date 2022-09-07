@@ -48,23 +48,23 @@ intlcal_set_time(IntlCalendar $calendar, float $timestamp): bool
 
 ```php
 <?php
-ini_set('date.timezone', 'Europe/Lisbon');
-ini_set('intl.default_locale', 'fr_FR');
+ini_set('date.timezone', 'Europe/Lisbon');
+ini_set('intl.default_locale', 'fr_FR');
 
-$cal = new IntlGregorianCalendar(2013, 5 /* May */, 1, 12, 0, 0);
+$cal = new IntlGregorianCalendar(2013, 5 /* May */, 1, 12, 0, 0);
 
-echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
+echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
 
-/* В Europe/Lisbon 27 октября 2013 года в 02:00 часы переводятся на один час назад,
-   а часовой пояс - с UTC+01 на UTC+00 */
+/* В Europe/Lisbon 27 октября 2013 года в 02:00 часы переводятся на один час назад,
+   а часовой пояс - с UTC+01 на UTC+00 */
 
-$cal->setTime(strtotime('2013-10-27 00:30:00 UTC') * 1000.);
+$cal->setTime(strtotime('2013-10-27 00:30:00 UTC') * 1000.);
 
-echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
+echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
 
-$cal->setTime(strtotime('2013-10-27 01:30:00 UTC') * 1000.);
+$cal->setTime(strtotime('2013-10-27 01:30:00 UTC') * 1000.);
 
-echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
+echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "\n";
 ```
 
 Результат виконання цього прикладу:

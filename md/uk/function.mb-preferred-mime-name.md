@@ -36,9 +36,9 @@ MIME-набір символів `charset` у вигляді рядка (string)
 
 ```php
 <?php
-$outputenc = "sjis-win";
+$outputenc = "sjis-win";
 mb_http_output($outputenc);
 ob_start("mb_output_handler");
-header("Content-Type: text/html; charset=" . mb_preferred_mime_name($outputenc));
+header("Content-Type: text/html; charset=" . mb_preferred_mime_name($outputenc));
 ?>
 ```

@@ -32,12 +32,12 @@ title: Клас GearmanClient
    public addOptions(int $options): bool
 public addServer(string $host = 127.0.0.1, int $port = 4730): bool
 public addServers(string $servers = 127.0.0.1:4730): bool
-public addTask(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
-public addTaskBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
-public addTaskHigh(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
-public addTaskHighBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
-public addTaskLow(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
-public addTaskLowBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public addTask(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public addTaskBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public addTaskHigh(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public addTaskHighBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public addTaskLow(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
+public addTaskLowBackground(    string $function_name,    string $workload,    mixed &$context = ?,    string $unique = ?): GearmanTask
 public addTaskStatus(string $job_handle, string &$context = ?): GearmanTask
 public clearCallbacks(): bool
 public clone(): GearmanClient

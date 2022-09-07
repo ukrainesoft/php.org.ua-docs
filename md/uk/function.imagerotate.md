@@ -15,7 +15,7 @@ imagerotate — Повертання зображення із заданим к
 ### Опис
 
 ```methodsynopsis
-imagerotate(    GdImage $image,    float $angle,    int $background_color,    bool $ignore_transparent = false): GdImage|false
+imagerotate(    GdImage $image,    float $angle,    int $background_color,    bool $ignore_transparent = false): GdImage|false
 ```
 
 Поворот зображення `image` на заданий кут `angle` у градусах.
@@ -60,23 +60,23 @@ imagerotate(    GdImage $image,    float $angle,    int $background_
 
 ```php
 <?php
-// Файл и угол поворота
-$filename = 'test.jpg';
-$degrees = 180;
+// Файл и угол поворота
+$filename = 'test.jpg';
+$degrees = 180;
 
-// Тип содержимого
-header('Content-type: image/jpeg');
+// Тип содержимого
+header('Content-type: image/jpeg');
 
-// Загрузка изображения
-$source = imagecreatefromjpeg($filename);
+// Загрузка изображения
+$source = imagecreatefromjpeg($filename);
 
-// Поворот
-$rotate = imagerotate($source, $degrees, 0);
+// Поворот
+$rotate = imagerotate($source, $degrees, 0);
 
-// Вывод
+// Вывод
 imagejpeg($rotate);
 
-// Высвобождение памяти
+// Высвобождение памяти
 imagedestroy($source);
 imagedestroy($rotate);
 ?>

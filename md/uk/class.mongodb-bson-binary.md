@@ -103,7 +103,7 @@ final public unserialize(string $serialized): void
 
 **`MongoDB\BSON\Binary::TYPE_UUID`**
 
-Універсальний унікальний ідентифікатор. При використанні цього типу, бінарні дані мають бути довжиною 16 байт [» RFC 4122](http://www.faqs.org/rfcs/rfc4122)
+Універсальний унікальний ідентифікатор. При використанні цього типу, бінарні дані мають бути довжиною 16 байт [» RFC 4122](http://www.faqs.org/rfcs/rfc4122)
 
 **`MongoDB\BSON\Binary::TYPE_MD5`**
 

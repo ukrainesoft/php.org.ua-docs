@@ -15,7 +15,7 @@ ldapexop — Виконує розширену операцію
 ### Опис
 
 ```methodsynopsis
-ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    string $request_data = null,    array $controls = null,    string &$response_data = ?,    string &$response_oid = ?): mixed
+ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    string $request_data = null,    array $controls = null,    string &$response_data = ?,    string &$response_oid = ?): mixed
 ```
 
 Виконує розширену операцію для заданого з'єднання `ldap` з OID операції `request_oid` та даними `request_data`
@@ -63,33 +63,33 @@ ldap_exop(    LDAP\Connection $ldap,    string $request_oid,    stri
 
 ```php
 <?php
-$ds = ldap_connect("localhost");   // предположим, что сервер LDAP запущен локально
+$ds = ldap_connect("localhost");   // предположим, что сервер LDAP запущен локально
 
-if ($ds) {
-    // Привязываемся к нужному DN
-    $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", "secret");
-    if (!$bind) {
-     echo "Невозможно осуществить привязку LDAP";
-      exit;
-    }
+if ($ds) {
+    // Привязываемся к нужному DN
+    $bind = ldap_bind($ds, "cn=root, o=My Company, c=US", "secret");
+    if (!$bind) {
+     echo "Невозможно осуществить привязку LDAP";
+      exit;
+    }
 
-    // Вызываем WHOAMI EXOP
-    $r = ldap_exop($ds, LDAP_EXOP_WHO_AM_I);
+    // Вызываем WHOAMI EXOP
+    $r = ldap_exop($ds, LDAP_EXOP_WHO_AM_I);
 
-    // Разбираем полученный ответ
-    ldap_parse_exop($ds, $r, $response_data);
-    // Вывод: string(31) "dn:cn=root, o=My Company, c=US"
-    var_dump($response_data);
+    // Разбираем полученный ответ
+    ldap_parse_exop($ds, $r, $response_data);
+    // Вывод: string(31) "dn:cn=root, o=My Company, c=US"
+    var_dump($response_data);
 
-    // То же самое, но с параметром $response_data
-    $success = ldap_exop($ds, LDAP_EXOP_WHO_AM_I, NULL, NULL, $response_data, $retoid);
-    if ($success) {
-      var_dump($response_data);
-    }
+    // То же самое, но с параметром $response_data
+    $success = ldap_exop($ds, LDAP_EXOP_WHO_AM_I, NULL, NULL, $response_data, $retoid);
+    if ($success) {
+      var_dump($response_data);
+    }
 
-    ldap_close($ds);
-} else {
-    echo "Невозможно соединиться с сервером LDAP";
+    ldap_close($ds);
+} else {
+    echo "Невозможно соединиться с сервером LDAP";
 }
 ?>
 ```

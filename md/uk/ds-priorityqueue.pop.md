@@ -42,11 +42,11 @@ public Ds\PriorityQueue::pop(): mixed
 
 ```php
 <?php
-$queue = new \Ds\PriorityQueue();
+$queue = new \Ds\PriorityQueue();
 
-$queue->push("a",  5);
-$queue->push("b", 15);
-$queue->push("c", 10);
+$queue->push("a",  5);
+$queue->push("b", 15);
+$queue->push("c", 10);
 
 print_r($queue->pop());
 print_r($queue->pop());

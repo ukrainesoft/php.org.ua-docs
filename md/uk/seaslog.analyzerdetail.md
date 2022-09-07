@@ -15,7 +15,7 @@ SeasLog::analyzerDetail — Отримує деталізацію журналу
 ### Опис
 
 ```methodsynopsis
-public static SeasLog::analyzerDetail(    string $level,    string $log_path = ?,    string $key_word = ?,    int $start = ?,    int $limit = ?,    int $order = ?): mixed
+public static SeasLog::analyzerDetail(    string $level,    string $log_path = ?,    string $key_word = ?,    int $start = ?,    int $limit = ?,    int $order = ?): mixed
 ```
 
 SeasLog отримує результат виконання команди grep -ai '{level}' | grep -ai '{keyword}' | sed -n '{start},{limit}'p, використовує системний канал і повертає масив у PHP
@@ -64,13 +64,13 @@ SeasLog отримує результат виконання команди grep
 ```php
 <?php
 
-$result1 = SeasLog::analyzerDetail(SEASLOG_ERROR);
+$result1 = SeasLog::analyzerDetail(SEASLOG_ERROR);
 
-//с `logger` и `key_word`
-$result2 = SeasLog::analyzerDetail(SEASLOG_ERROR,'test/logger/','neeke');
+//с `logger` и `key_word`
+$result2 = SeasLog::analyzerDetail(SEASLOG_ERROR,'test/logger/','neeke');
 
-//с `start` и `limit`
-$result3 = SeasLog::analyzerDetail(SEASLOG_ERROR,'test/logger/','neeke',1,2);
+//с `start` и `limit`
+$result3 = SeasLog::analyzerDetail(SEASLOG_ERROR,'test/logger/','neeke',1,2);
 
 var_dump($result1,$result2,$result3);
 ?>

@@ -44,15 +44,15 @@ public Vtiful\Kernel\Excel::insertImage(int $row, int $column, string $localImag
 
 ```php
 <?php
-$config = [
-    'path' => './tests'
+$config = [
+    'path' => './tests'
 ];
 
-$excel = new \Vtiful\Kernel\Excel($config);
+$excel = new \Vtiful\Kernel\Excel($config);
 
-$file = $excel->fileName("free.xlsx");
+$file = $excel->fileName("free.xlsx");
 
-$file->insertImage(5, 0, '/vagrant/ASW-G-66.jpg');
+$file->insertImage(5, 0, '/vagrant/ASW-G-66.jpg');
 
 $file->output();
 ```

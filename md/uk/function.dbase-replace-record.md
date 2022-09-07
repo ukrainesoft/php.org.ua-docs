@@ -55,25 +55,25 @@ dbase_replace_record(resource $database, array $data, int $number): bool
 ```php
 <?php
 
-// откроем в режиме чтения и записи
-$db = dbase_open('/tmp/test.dbf', 2);
+// откроем в режиме чтения и записи
+$db = dbase_open('/tmp/test.dbf', 2);
 
-if ($db) {
-  // получим старую запись
-  $row = dbase_get_record_with_names($db, 1);
+if ($db) {
+  // получим старую запись
+  $row = dbase_get_record_with_names($db, 1);
 
-  // сбросим пометку 'deleted'
-  unset($row['deleted']);
+  // сбросим пометку 'deleted'
+  unset($row['deleted']);
 
-  // Установим в поле даты текущую дату
-  $row['date'] = date('Ymd');
+  // Установим в поле даты текущую дату
+  $row['date'] = date('Ymd');
 
-  // Преобразуем $row в Масив
-  $row = array_values($row);
+  // Преобразуем $row в Масив
+  $row = array_values($row);
 
-  // Заменим запись
-  dbase_replace_record($db, $row, 1);
-  dbase_close($db);
+  // Заменим запись
+  dbase_replace_record($db, $row, 1);
+  dbase_close($db);
 }
 
 ?>

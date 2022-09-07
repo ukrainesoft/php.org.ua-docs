@@ -44,35 +44,35 @@ mysqli_stmt_errno(mysqli_stmt $statement): int
 
 ```php
 <?php
-/* открываем соединение */
-$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+/* открываем соединение */
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-$mysqli->query("CREATE TABLE myCountry LIKE Country");
-$mysqli->query("INSERT INTO myCountry SELECT * FROM Country");
+$mysqli->query("CREATE TABLE myCountry LIKE Country");
+$mysqli->query("INSERT INTO myCountry SELECT * FROM Country");
 
 
-$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
-if ($stmt = $mysqli->prepare($query)) {
+$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
+if ($stmt = $mysqli->prepare($query)) {
 
-    /* удаляем таблицу */
-    $mysqli->query("DROP TABLE myCountry");
+    /* удаляем таблицу */
+    $mysqli->query("DROP TABLE myCountry");
 
-    /* выполняем запрос */
-    $stmt->execute();
+    /* выполняем запрос */
+    $stmt->execute();
 
-    printf("Ошибка: %d.\n", $stmt->errno);
+    printf("Ошибка: %d.\n", $stmt->errno);
 
-    /* закрываем запрос */
-    $stmt->close();
+    /* закрываем запрос */
+    $stmt->close();
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 $mysqli->close();
 ?>
 ```
@@ -81,35 +81,35 @@ $mysqli->close();
 
 ```php
 <?php
-/* открываем соединение */
-$link = mysqli_connect("localhost", "my_user", "my_password", "world");
+/* открываем соединение */
+$link = mysqli_connect("localhost", "my_user", "my_password", "world");
 
-/* проверяем соединение */
-if (mysqli_connect_errno()) {
-    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-    exit();
+/* проверяем соединение */
+if (mysqli_connect_errno()) {
+    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+    exit();
 }
 
-mysqli_query($link, "CREATE TABLE myCountry LIKE Country");
-mysqli_query($link, "INSERT INTO myCountry SELECT * FROM Country");
+mysqli_query($link, "CREATE TABLE myCountry LIKE Country");
+mysqli_query($link, "INSERT INTO myCountry SELECT * FROM Country");
 
 
-$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
-if ($stmt = mysqli_prepare($link, $query)) {
+$query = "SELECT Name, Code FROM myCountry ORDER BY Name";
+if ($stmt = mysqli_prepare($link, $query)) {
 
-    /* удаляем таблицу */
-    mysqli_query($link, "DROP TABLE myCountry");
+    /* удаляем таблицу */
+    mysqli_query($link, "DROP TABLE myCountry");
 
-    /* выполняем запрос */
-    mysqli_stmt_execute($stmt);
+    /* выполняем запрос */
+    mysqli_stmt_execute($stmt);
 
-    printf("Ошибка: %d.\n", mysqli_stmt_errno($stmt));
+    printf("Ошибка: %d.\n", mysqli_stmt_errno($stmt));
 
-    /* закрываем запрос */
-    mysqli_stmt_close($stmt);
+    /* закрываем запрос */
+    mysqli_stmt_close($stmt);
 }
 
-/* закрываем соединение */
+/* закрываем соединение */
 mysqli_close($link);
 ?>
 ```

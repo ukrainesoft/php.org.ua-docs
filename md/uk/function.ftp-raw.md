@@ -46,12 +46,12 @@ ftp_raw(FTP\Connection $ftp, string $command): ?array
 
 ```php
 <?php
-$ftp = ftp_connect("ftp.example.com");
+$ftp = ftp_connect("ftp.example.com");
 
-/* То же самое, что:
-   ftp_login($ftp, "joeblow", "secret"); */
-ftp_raw($ftp, "USER joeblow");
-ftp_raw($ftp, "PASS secret");
+/* То же самое, что:
+   ftp_login($ftp, "joeblow", "secret"); */
+ftp_raw($ftp, "USER joeblow");
+ftp_raw($ftp, "PASS secret");
 ?>
 ```
 

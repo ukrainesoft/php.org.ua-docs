@@ -34,14 +34,14 @@ cubrid_error_msg(): string
 
 ```php
 <?php
-$conn = cubrid_connect("localhost", 33000, "demodb");
+$conn = cubrid_connect("localhost", 33000, "demodb");
 
-if (!@cubrid_schema($conn, 100000)) {
-    printf("Error facility: %d\nError code: %d\nError msg: %s\n",
-        cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());
+if (!@cubrid_schema($conn, 100000)) {
+    printf("Error facility: %d\nError code: %d\nError msg: %s\n",
+        cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());
 
-    cubrid_disconnect($conn);
-    exit;
+    cubrid_disconnect($conn);
+    exit;
 }
 ?>
 ```

@@ -44,21 +44,21 @@ SQL-запит
 
 ```php
 <?php
-    $link = cubrid_connect("localhost", 30000, "demodb", "dba", "");
-    if (!$link)
-    {
-        die('Не удалось соединиться.');
-    }
-    $query = "select * from code";
-    $result = cubrid_unbuffered_query($query, $link);
+    $link = cubrid_connect("localhost", 30000, "demodb", "dba", "");
+    if (!$link)
+    {
+        die('Не удалось соединиться.');
+    }
+    $query = "select * from code";
+    $result = cubrid_unbuffered_query($query, $link);
 
-    while ($row = cubrid_fetch($result))
-    {
-        var_dump($row);
-    }
+    while ($row = cubrid_fetch($result))
+    {
+        var_dump($row);
+    }
 
-    cubrid_close_request($result);
-    cubrid_disconnect($link);
+    cubrid_close_request($result);
+    cubrid_disconnect($link);
 ?>
 ```
 

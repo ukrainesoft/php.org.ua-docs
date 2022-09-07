@@ -8,7 +8,7 @@ title: Встановлення
 ---
 ## Встановлення
 
-Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
+Цей модуль [» PECL](https://pecl.php.net/) не постачається разом з PHP.
 
 Приклад процедури встановлення на Ubuntu 18.04 з PHP 7.2:
 
@@ -44,4 +44,4 @@ mysqlnd
 pdo_mysql
 ```
 
-Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/mysqlxdevapi](https://pecl.php.net/package/mysql_xdevapi)
+Інформація щодо встановлення цього модуля PECL може бути знайдена у розділі посібника [Установка PECL модулей](install.pecl.md). Додаткову інформацію, таку як нові версії, завантаження, вихідні файли, інформація про розробника та CHANGELOG, можна знайти тут: [» https://pecl.php.net/package/mysqlxdevapi](https://pecl.php.net/package/mysql_xdevapi)

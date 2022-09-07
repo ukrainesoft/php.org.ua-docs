@@ -40,8 +40,8 @@ public Worker::unstack(): int
 
 ```php
 <?php
-$my = new Worker();
-$work = new class extends Threaded {};
+$my = new Worker();
+$work = new class extends Threaded {};
 
 var_dump($my->stack($work));
 var_dump($my->unstack());

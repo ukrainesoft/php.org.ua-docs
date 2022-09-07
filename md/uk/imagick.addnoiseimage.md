@@ -40,11 +40,11 @@ public Imagick::addNoiseImage(int $noise_type, int $channel = Imagick::CHANNEL_D
 
 ```php
 <?php
-function addNoiseImage($noiseType, $imagePath, $channel) {
-    $imagick = new \Imagick(realpath($imagePath));
-    $imagick->addNoiseImage($noiseType, $channel);
-    header("Content-Type: image/jpg");
-    echo $imagick->getImageBlob();
+function addNoiseImage($noiseType, $imagePath, $channel) {
+    $imagick = new \Imagick(realpath($imagePath));
+    $imagick->addNoiseImage($noiseType, $channel);
+    header("Content-Type: image/jpg");
+    echo $imagick->getImageBlob();
 }
 
 ?>

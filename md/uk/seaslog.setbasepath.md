@@ -37,7 +37,7 @@ public static SeasLog::setBasePath(string $base_path): bool
 ```php
 <?php
 
-/* ... */
+/* ... */
 
 ?>
 ```

@@ -33,14 +33,14 @@ public RecursiveDirectoryIterator::getSubPath(): string
 **Приклад #1 Приклад використання **getSubPath()****
 
 ```php
-$directory = '/tmp';
+$directory = '/tmp';
 
-      $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
+      $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
 
-      foreach ($it as $file) {
-          echo 'Имя файла: ' . $it->getSubPathName() . "\n";
-          echo 'Поддиректория: ' . $it->getSubPath() . "\n\n";
-      }
+      foreach ($it as $file) {
+          echo 'Имя файла: ' . $it->getSubPathName() . "\n";
+          echo 'Поддиректория: ' . $it->getSubPath() . "\n\n";
+      }
 ```
 
 Результатом виконання цього прикладу буде щось подібне:

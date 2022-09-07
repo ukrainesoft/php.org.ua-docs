@@ -51,19 +51,19 @@ stream_get_contents(resource $stream, ?int $length = null, int $offset = -1): st
 ```php
 <?php
 
-if ($stream = fopen('http://www.example.com', 'r')) {
-    // вывести всю страницу начиная со смещения 10
-    echo stream_get_contents($stream, -1, 10);
+if ($stream = fopen('http://www.example.com', 'r')) {
+    // вывести всю страницу начиная со смещения 10
+    echo stream_get_contents($stream, -1, 10);
 
-    fclose($stream);
+    fclose($stream);
 }
 
 
-if ($stream = fopen('http://www.example.net', 'r')) {
-    // вывести первые 5 байт
-    echo stream_get_contents($stream, 5);
+if ($stream = fopen('http://www.example.net', 'r')) {
+    // вывести первые 5 байт
+    echo stream_get_contents($stream, 5);
 
-    fclose($stream);
+    fclose($stream);
 }
 
 ?>

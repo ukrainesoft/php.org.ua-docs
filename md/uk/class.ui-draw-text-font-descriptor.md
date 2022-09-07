@@ -29,7 +29,7 @@ title: Дескриптор шрифту
 
     /* Конструктор */
     
-   public __construct(    string $family,    float $size,    int $weight = UI\Draw\Text\Font\Weight::Normal,    int $italic = UI\Draw\Text\Font\Italic::Normal,    int $stretch = UI\Draw\Text\Font\Stretch::Normal)
+   public __construct(    string $family,    float $size,    int $weight = UI\Draw\Text\Font\Weight::Normal,    int $italic = UI\Draw\Text\Font\Italic::Normal,    int $stretch = UI\Draw\Text\Font\Stretch::Normal)
 
 
     /* Методы */

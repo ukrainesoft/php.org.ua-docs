@@ -15,7 +15,7 @@ db2columnprivileges — Повертає результуючий набір, щ
 ### Опис
 
 ```methodsynopsis
-db2_column_privileges(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table-name = ?,    string $column-name = ?): resource
+db2_column_privileges(    resource $connection,    string $qualifier = ?,    string $schema = ?,    string $table-name = ?,    string $column-name = ?): resource
 ```
 
 Повертає результуючий набір, що перераховує стовпці та пов'язані з ним привілеї для таблиці.

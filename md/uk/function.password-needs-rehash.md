@@ -51,22 +51,22 @@ password_needs_rehash(string $hash, string|int|null $algo, array $options = []):
 ```php
 <?php
 
-$password = 'rasmuslerdorf';
-$hash = '$2y$10$YCFsG6elYca568hBi2pZ0.3LDL5wjgxct1N8w/oLR/jfHsiQwCqTS';
+$password = 'rasmuslerdorf';
+$hash = '$2y$10$YCFsG6elYca568hBi2pZ0.3LDL5wjgxct1N8w/oLR/jfHsiQwCqTS';
 
-// Параметр стоимости может изменяться в связи со сменой оборудования
-$options = array('cost' => 11);
+// Параметр стоимости может изменяться в связи со сменой оборудования
+$options = array('cost' => 11);
 
-// Проверка сохранённого хеша с помощью пароля
-if (password_verify($password, $hash)) {
-    // Проверяем, не нужно ли использовать более новый алгоритм
-    // или другую алгоритмическую стоимость
-    if (password_needs_rehash($hash, PASSWORD_DEFAULT, $options)) {
-        // Если таки да, перехешируем и сохраняем новый хеш
-        $newHash = password_hash($password, PASSWORD_DEFAULT, $options);
-    }
+// Проверка сохранённого хеша с помощью пароля
+if (password_verify($password, $hash)) {
+    // Проверяем, не нужно ли использовать более новый алгоритм
+    // или другую алгоритмическую стоимость
+    if (password_needs_rehash($hash, PASSWORD_DEFAULT, $options)) {
+        // Если таки да, перехешируем и сохраняем новый хеш
+        $newHash = password_hash($password, PASSWORD_DEFAULT, $options);
+    }
 
-    // Авторизуем пользователя
+    // Авторизуем пользователя
 }
 ?>
 ```

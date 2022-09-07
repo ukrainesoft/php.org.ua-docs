@@ -41,13 +41,13 @@ public DOMNodeList::item(int $index): DOMNode|DOMNameSpaceNode|null
 ```php
 <?php
 
-$doc = new DOMDocument;
+$doc = new DOMDocument;
 $doc->load('book.xml');
 
-$items = $doc->getElementsByTagName('entry');
+$items = $doc->getElementsByTagName('entry');
 
-for ($i = 0; $i < $items->length; $i++) {
-    echo $items->item($i)->nodeValue . "\n";
+for ($i = 0; $i < $items->length; $i++) {
+    echo $items->item($i)->nodeValue . "\n";
 }
 
 ?>
@@ -58,8 +58,8 @@ for ($i = 0; $i < $items->length; $i++) {
 ```php
 <?php
 
-foreach ($items as $item) {
-    echo $item->nodeValue . "\n";
+foreach ($items as $item) {
+    echo $item->nodeValue . "\n";
 }
 
 ?>

@@ -10,6 +10,6 @@ title: Інструмент встановлення PHP на Windows
 
 ### Інструмент встановлення PHP
 
-[» XAMPP](https://www.apachefriends.org/index.md), WampServer і BitNami встановлять PHP з використанням як веб-сервер Apache під Windows.
+[» XAMPP](https://www.apachefriends.org/index.md), WampServer і BitNami встановлять PHP з використанням як веб-сервер Apache під Windows.
 
-Встановлення та налаштування Nginx на Windows потребує трохи більше конфігурації. Дивіться [» документацию по Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindows/) для отримання допомоги по встановленню.
+Встановлення та налаштування Nginx на Windows потребує трохи більше конфігурації. Дивіться [» документацию по Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindows/) для отримання допомоги по встановленню.

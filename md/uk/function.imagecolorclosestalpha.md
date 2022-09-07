@@ -15,7 +15,7 @@ imagecolorclosestalpha — Отримання індексу кольору на
 ### Опис
 
 ```methodsynopsis
-imagecolorclosestalpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
+imagecolorclosestalpha(    GdImage $image,    int $red,    int $green,    int $blue,    int $alpha): int
 ```
 
 Повертає індекс кольору на панелі зображення, "найближчого" до заданого RGB значення, а також `alpha` рівнем.
@@ -54,27 +54,27 @@ imagecolorclosestalpha(    GdImage $image,    int $red,    int $gree
 
 ```php
 <?php
-// Создание изображения и преобразование его в палитровое
-$im = imagecreatefrompng('figures/imagecolorclosest.png');
-imagetruecolortopalette($im, false, 255);
+// Создание изображения и преобразование его в палитровое
+$im = imagecreatefrompng('figures/imagecolorclosest.png');
+imagetruecolortopalette($im, false, 255);
 
-// Цвета для поиска  (RGB)
-$colors = array(
-    array(254, 145, 154, 50),
-    array(153, 145, 188, 127),
-    array(153, 90, 145, 0),
-    array(255, 137, 92, 84)
+// Цвета для поиска  (RGB)
+$colors = array(
+    array(254, 145, 154, 50),
+    array(153, 145, 188, 127),
+    array(153, 90, 145, 0),
+    array(255, 137, 92, 84)
 );
 
-// Проход по каждому цвету и поиск ближайшего к нему в палитре.
-// Возврат номера по порядку, RGB искомого цвета и найденное RGB соответствие
-foreach($colors as $id => $rgb)
+// Проход по каждому цвету и поиск ближайшего к нему в палитре.
+// Возврат номера по порядку, RGB искомого цвета и найденное RGB соответствие
+foreach($colors as $id => $rgb)
 {
-    $result = imagecolorclosestalpha($im, $rgb[0], $rgb[1], $rgb[2], $rgb[3]);
-    $result = imagecolorsforindex($im, $result);
-    $result = "({$result['red']}, {$result['green']}, {$result['blue']}, {$result['alpha']})";
+    $result = imagecolorclosestalpha($im, $rgb[0], $rgb[1], $rgb[2], $rgb[3]);
+    $result = imagecolorsforindex($im, $result);
+    $result = "({$result['red']}, {$result['green']}, {$result['blue']}, {$result['alpha']})";
 
-    echo "#$id: Поиск ($rgb[0], $rgb[1], $rgb[2], $rgb[3]); Ближайшее сходство: $result.\n";
+    echo "#$id: Поиск ($rgb[0], $rgb[1], $rgb[2], $rgb[3]); Ближайшее сходство: $result.\n";
 }
 
 imagedestroy($im);

@@ -15,7 +15,7 @@ SwooleWebSocketServer::push — Надіслати дані віддаленом
 ### Опис
 
 ```methodsynopsis
-public Swoole\WebSocket\Server::push(    string $fd,    string $data,    string $opcode = ?,    string $finish = ?): void
+public Swoole\WebSocket\Server::push(    string $fd,    string $data,    string $opcode = ?,    string $finish = ?): void
 ```
 
 ### Список параметрів

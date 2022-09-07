@@ -17,19 +17,19 @@ EventBufferEvent::sslSocket — Створює нову буферну поді�
 ```methodsynopsis
 public
    static
-   EventBufferEvent::sslSocket(    
+   EventBufferEvent::sslSocket(    
     EventBase
      $base
-   ,    
+   ,    
     mixed
      $socket
-   ,    
+   ,    
     EventSslContext
      $ctx
-   ,    
+   ,    
     int
      $state
-   ,    
+   ,    
     int
      $options
     = ?): EventBufferEvent

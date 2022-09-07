@@ -68,27 +68,27 @@ rar_open(string $filename, string $password = NULL, callable $volume_callback = 
 
 ```php
 <?php
-$rar_arch = RarArchive::open('encrypted_headers.rar', 'samplepassword');
-if ($rar_arch === FALSE)
-    die("Неудачное открытие файла");
+$rar_arch = RarArchive::open('encrypted_headers.rar', 'samplepassword');
+if ($rar_arch === FALSE)
+    die("Неудачное открытие файла");
 
-$entries = $rar_arch->getEntries();
-if ($entries === FALSE)
-    die("Неудачное получение записей");
+$entries = $rar_arch->getEntries();
+if ($entries === FALSE)
+    die("Неудачное получение записей");
 
-echo "Найдено " . count($entries) . " файлов.\n";
+echo "Найдено " . count($entries) . " файлов.\n";
 
-if (empty($entries))
-    die("Не найдено корректных записей.");
+if (empty($entries))
+    die("Не найдено корректных записей.");
 
-$stream = reset($entries)->getStream();
-if ($stream === FALSE)
-    die("Неудачное открытие первого файла");
+$stream = reset($entries)->getStream();
+if ($stream === FALSE)
+    die("Неудачное открытие первого файла");
 
 $rar_arch->close();
 
-echo "Содержимое первого файла:\n";
-echo stream_get_contents($stream);
+echo "Содержимое первого файла:\n";
+echo stream_get_contents($stream);
 
 fclose($stream);
 ?>
@@ -106,27 +106,27 @@ Encrypted file 1 contents.
 
 ```php
 <?php
-$rar_arch = rar_open('encrypted_headers.rar', 'samplepassword');
-if ($rar_arch === FALSE)
-    die("Неудачное открытие файла");
+$rar_arch = rar_open('encrypted_headers.rar', 'samplepassword');
+if ($rar_arch === FALSE)
+    die("Неудачное открытие файла");
 
-$entries = rar_list($rar_arch);
-if ($entries === FALSE)
-    die("Failed fetching entries");
+$entries = rar_list($rar_arch);
+if ($entries === FALSE)
+    die("Failed fetching entries");
 
-echo "Найдено " . count($entries) . " файлов.\n";
+echo "Найдено " . count($entries) . " файлов.\n";
 
-if (empty($entries))
-    die("Не найдено корректных записей.");
+if (empty($entries))
+    die("Не найдено корректных записей.");
 
-$stream = reset($entries)->getStream();
-if ($stream === FALSE)
-    die("Неудачное открытие первого файла");
+$stream = reset($entries)->getStream();
+if ($stream === FALSE)
+    die("Неудачное открытие первого файла");
 
 rar_close($rar_arch);
 
-echo "Содержимое первого файла:\n";
-echo stream_get_contents($stream);
+echo "Содержимое первого файла:\n";
+echo stream_get_contents($stream);
 
 fclose($stream);
 ?>
@@ -136,17 +136,17 @@ fclose($stream);
 
 ```php
 <?php
-/* В этом примере есть том с именем multi_broken.part1.rar,
- * а следующий том имеет имя multi.part2.rar */
-function resolve($vol) {
-    if (preg_match('/_broken/', $vol))
-        return str_replace('_broken', '', $vol);
-    else
-        return null;
+/* В этом примере есть том с именем multi_broken.part1.rar,
+ * а следующий том имеет имя multi.part2.rar */
+function resolve($vol) {
+    if (preg_match('/_broken/', $vol))
+        return str_replace('_broken', '', $vol);
+    else
+        return null;
 }
-$rar_file1 = rar_open(dirname(__FILE__).'/multi_broken.part1.rar', null, 'resolve');
-$entry = $rar_file1->getEntry('file2.txt');
-$entry->extract(null, dirname(__FILE__) . "/temp_file2.txt");
+$rar_file1 = rar_open(dirname(__FILE__).'/multi_broken.part1.rar', null, 'resolve');
+$entry = $rar_file1->getEntry('file2.txt');
+$entry->extract(null, dirname(__FILE__) . "/temp_file2.txt");
 ?>
 ```
 

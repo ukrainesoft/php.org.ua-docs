@@ -40,8 +40,8 @@ base64_encode(string $string): string
 
 ```php
 <?php
-$str = 'Это закодированная строка';
-echo base64_encode($str);
+$str = 'Это закодированная строка';
+echo base64_encode($str);
 ?>
 ```
 
@@ -56,4 +56,4 @@ echo base64_encode($str);
 -   [base64decode()](function.base64-decode.md) - Декодує дані, закодовані MIME base64
 -   [chunksplit()](function.chunk-split.md) - Розбиває рядок на фрагменти
 -   [convertuuencode()](function.convert-uuencode.md) - Кодує рядок у форматі uuencode
--   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8
+-   [» RFC 2045](http://www.faqs.org/rfcs/rfc2045) розділ 6.8

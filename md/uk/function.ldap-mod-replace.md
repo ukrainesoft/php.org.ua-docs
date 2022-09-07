@@ -15,7 +15,7 @@ ldapmodreplace — Замінити значення атрибутів на н�
 ### Опис
 
 ```methodsynopsis
-ldap_mod_replace(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
+ldap_mod_replace(    LDAP\Connection $ldap,    string $dn,    array $entry,    ?array $controls = null): bool
 ```
 
 Замінює один або більше атрибутів із зазначеного `dn`. Також її можна використовувати для видалення чи додавання атрибутів.

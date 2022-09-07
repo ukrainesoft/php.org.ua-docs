@@ -50,12 +50,12 @@ public PDO::quote(string $string, int $type = PDO::PARAM_STR): string|false
 
 ```php
 <?php
-$conn = new PDO('sqlite:/home/lynn/music.sql3');
+$conn = new PDO('sqlite:/home/lynn/music.sql3');
 
-/* простая строка */
-$string = 'Nice';
-print "Неэкранированная строка: $string\n";
-print "Экранированная строка: " . $conn->quote($string) . "\n";
+/* простая строка */
+$string = 'Nice';
+print "Неэкранированная строка: $string\n";
+print "Экранированная строка: " . $conn->quote($string) . "\n";
 ?>
 ```
 
@@ -70,12 +70,12 @@ print "Экранированная строка: " . $conn->quote($string)
 
 ```php
 <?php
-$conn = new PDO('sqlite:/home/lynn/music.sql3');
+$conn = new PDO('sqlite:/home/lynn/music.sql3');
 
-/* небезопасная строка */
-$string = 'Naughty \' string';
-print "Неэкранированная строка: $string\n";
-print "Экранированная строка:" . $conn->quote($string) . "\n";
+/* небезопасная строка */
+$string = 'Naughty \' string';
+print "Неэкранированная строка: $string\n";
+print "Экранированная строка:" . $conn->quote($string) . "\n";
 ?>
 ```
 
@@ -90,12 +90,12 @@ print "Экранированная строка:" . $conn->quote($string) 
 
 ```php
 <?php
-$conn = new PDO('sqlite:/home/lynn/music.sql3');
+$conn = new PDO('sqlite:/home/lynn/music.sql3');
 
-/* сложная строка */
-$string = "Co'mpl''ex \"st'\"ring";
-print "Неэкранированная строка: $string\n";
-print "Экранированная строка: " . $conn->quote($string) . "\n";
+/* сложная строка */
+$string = "Co'mpl''ex \"st'\"ring";
+print "Неэкранированная строка: $string\n";
+print "Экранированная строка: " . $conn->quote($string) . "\n";
 ?>
 ```
 

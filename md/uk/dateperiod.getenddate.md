@@ -40,13 +40,13 @@ public DatePeriod::getEndDate(): ?DateTimeInterface
 
 ```php
 <?php
-$period = new DatePeriod(
-    new DateTime('2016-05-16T00:00:00Z'),
-    new DateInterval('P1D'),
-    new DateTime('2016-05-20T00:00:00Z')
+$period = new DatePeriod(
+    new DateTime('2016-05-16T00:00:00Z'),
+    new DateInterval('P1D'),
+    new DateTime('2016-05-20T00:00:00Z')
 );
-$start = $period->getEndDate();
-echo $start->format(DateTime::ISO8601);
+$start = $period->getEndDate();
+echo $start->format(DateTime::ISO8601);
 ?>
 ```
 
@@ -60,10 +60,10 @@ echo $start->format(DateTime::ISO8601);
 
 ```php
 <?php
-$period = new DatePeriod(
-    new DateTime('2016-05-16T00:00:00Z'),
-    new DateInterval('P1D'),
-    7
+$period = new DatePeriod(
+    new DateTime('2016-05-16T00:00:00Z'),
+    new DateInterval('P1D'),
+    7
 );
 var_dump($period->getEndDate());
 ?>

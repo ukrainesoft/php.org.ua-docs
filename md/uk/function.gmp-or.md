@@ -40,10 +40,10 @@ gmp_or(GMP|int|string $num1, GMP|int|string $num2): GMP
 
 ```php
 <?php
-$or1 = gmp_or("0xfffffff2", "4");
-echo gmp_strval($or1, 16) . "\n";
-$or2 = gmp_or("0xfffffff2", "2");
-echo gmp_strval($or2, 16) . "\n";
+$or1 = gmp_or("0xfffffff2", "4");
+echo gmp_strval($or1, 16) . "\n";
+$or2 = gmp_or("0xfffffff2", "2");
+echo gmp_strval($or2, 16) . "\n";
 ?>
 ```
 

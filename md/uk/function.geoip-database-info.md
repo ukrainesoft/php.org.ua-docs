@@ -40,7 +40,7 @@ geoip_database_info(int $database = GEOIP_COUNTRY_EDITION): string
 
 ```php
 <?php
-print geoip_database_info(GEOIP_COUNTRY_EDITION);
+print geoip_database_info(GEOIP_COUNTRY_EDITION);
 ?>
 ```
 

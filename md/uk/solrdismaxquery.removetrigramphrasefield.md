@@ -37,16 +37,16 @@ public SolrDisMaxQuery::removeTrigramPhraseField(string $field): SolrDisMaxQuery
 ```php
 <?php
 
-$dismaxQuery = new SolrDisMaxQuery('lucene');
+$dismaxQuery = new SolrDisMaxQuery('lucene');
 $dismaxQuery
-->addTrigramPhraseField('cat', 2, 5.1)
-->addTrigramPhraseField('feature', 4.5)
+->addTrigramPhraseField('cat', 2, 5.1)
+->addTrigramPhraseField('feature', 4.5)
 ;
-echo $dismaxQuery.PHP_EOL;
-// удаление
+echo $dismaxQuery.PHP_EOL;
+// удаление
 $dismaxQuery
 ->removeTrigramPhraseField('cat');
-echo $dismaxQuery.PHP_EOL;
+echo $dismaxQuery.PHP_EOL;
 
 ?>
 ```

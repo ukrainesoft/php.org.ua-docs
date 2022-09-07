@@ -15,7 +15,7 @@ swooleselect — Вибрати опис файлів, які готові до 
 ### Опис
 
 ```methodsynopsis
-swoole_select(    array &$read_array,    array &$write_array,    array &$error_array,    float $timeout = ?): int
+swoole_select(    array &$read_array,    array &$write_array,    array &$error_array,    float $timeout = ?): int
 ```
 
 ### Список параметрів

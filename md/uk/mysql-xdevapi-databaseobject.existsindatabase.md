@@ -35,7 +35,7 @@ abstract public mysql_xdevapi\DatabaseObject::existsInDatabase(): bool
 ```php
 <?php
 
-$existInDb = $dbObj->existsInDatabase();
+$existInDb = $dbObj->existsInDatabase();
 
 ?>
 ```

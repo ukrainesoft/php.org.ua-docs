@@ -37,7 +37,7 @@ public static IntlChar::isspace(int|string $codepoint): ?bool
 ```php
 <?php
 var_dump(IntlChar::isspace("A"));
-var_dump(IntlChar::isspace(" "));
+var_dump(IntlChar::isspace(" "));
 var_dump(IntlChar::isspace("\n"));
 var_dump(IntlChar::isspace("\t"));
 var_dump(IntlChar::isspace("\u{00A0}"));

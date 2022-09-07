@@ -54,22 +54,22 @@ pg_fetch_assoc(PgSql\Result $result, ?int $row = null): array|false
 
 ```php
 <?php
-$conn = pg_connect("dbname=publisher");
-if (!$conn) {
-  echo "Произошла ошибка.\n";
-  exit;
+$conn = pg_connect("dbname=publisher");
+if (!$conn) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-$result = pg_query($conn, "SELECT id, author, email FROM authors");
-if (!$result) {
-  echo "Произошла ошибка.\n";
-  exit;
+$result = pg_query($conn, "SELECT id, author, email FROM authors");
+if (!$result) {
+  echo "Произошла ошибка.\n";
+  exit;
 }
 
-while ($row = pg_fetch_assoc($result)) {
-  echo $row['id'];
-  echo $row['author'];
-  echo $row['email'];
+while ($row = pg_fetch_assoc($result)) {
+  echo $row['id'];
+  echo $row['author'];
+  echo $row['email'];
 }
 ?>
 ```
